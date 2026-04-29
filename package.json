@@ -1,8 +1,9 @@
 {
   "name": "certificaid",
+  "version": "4.5.2",
   "private": true,
   "scripts": {
-    "postinstall": "ln -sf node_modules/@jackyzha0/quartz/quartz quartz",
+    "postinstall": "rm -rf quartz && cp -r node_modules/@jackyzha0/quartz/quartz quartz && rm -rf quartz/.quartz-cache && ln -sf ../node_modules/@jackyzha0/quartz/quartz/.quartz-cache quartz/.quartz-cache",
     "dev": "quartz build --serve",
     "build": "quartz build"
   },
