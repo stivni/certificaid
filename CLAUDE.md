@@ -3,11 +3,19 @@
 Kennisbank voor het ITAA bekwaamheidsexamen (gecertificeerd accountant / gecertificeerd belastingadviseur).
 
 ## Doel
-Gestructureerde conceptfiches die:
-- Georganiseerd zijn rond reële fenomenen en coherente studieonderwerpen — niet rond vakken of wetsartikelen
-- Vakoverschrijdend zijn (één concept kan in meerdere vakken voorkomen)
-- Terugkoppelen naar de taken, doelstellingen en kenniselementen uit de officiële ITAA-brochure
-- Alleen verifieerbare informatie bevatten (bronvermelding verplicht)
+Gestructureerde studiematerie die:
+- Georganiseerd is rond reële fenomenen en coherente studieonderwerpen — niet rond vakken of wetsartikelen
+- Vakoverschrijdend is (één concept kan in meerdere vakken voorkomen)
+- Terugkoppelt naar de TDKs uit de officiële ITAA-brochure
+- Alleen verifieerbare informatie bevat (bronvermelding verplicht)
+
+## Terminologie
+
+| Term | Betekenis |
+|------|-----------|
+| **TDKs** | Taken, Doelstellingen en Kenniselementen — de inhoud van een vakfiche |
+| **Materie / studiematerie** | De conceptfiches: de inhoudelijke bouwstenen waarnaar de TDKs verwijzen |
+| **Concept / fenomeen** | Één coherent studieonderwerp met een eigen fiche in `content/concepten/` |
 
 ## Structuur
 ```
@@ -15,7 +23,7 @@ certificaid/
 ├── CLAUDE.md
 ├── quartz.config.ts        # Quartz-configuratie (titel, plugins, baseUrl)
 ├── quartz.layout.ts        # Quartz-layout (sidebar, zoeken, backlinks)
-├── quartz/                 # gitignored — symlink naar node_modules na `npm install`
+├── quartz/                 # gitignored — copy van node_modules na `npm install`
 ├── package.json            # devDependency: @jackyzha0/quartz van GitHub
 ├── .gitignore
 ├── .github/
@@ -35,15 +43,15 @@ certificaid/
 - Lokaal testen: `npm install && npm run dev` → http://localhost:8080
 - Deploy triggert automatisch bij wijzigingen in `content/`, `quartz.config.ts` of `quartz.layout.ts`
 
-## Absolute regel: geen hallucinaties
+## Absolute regel: geen hallucinaties in de materie
 Dit is de belangrijkste regel van het hele project.
 
-- Elk feit, elke definitie, elk wetsartikel moet traceerbaar zijn naar een
-  concrete bron
+- Elk feit, elke definitie, elk wetsartikel in de **materie-secties** moet traceerbaar zijn naar een concrete bron
 - Schrijf NOOIT iets over wetsinhoud zonder een bronverwijzing
-- Als je een concept niet met zekerheid kunt onderbouwen vanuit een bron:
-  zeg dat expliciet, vul het veld NIET in, en markeer het als `⚠️ te verifiëren`
+- Als je een concept niet met zekerheid kunt onderbouwen vanuit een bron: zeg dat expliciet, vul het veld NIET in, en markeer het als `⚠️ te verifiëren`
 - Liever een leeg veld dan een onzeker feit
+
+**Uitzondering — valkuilen en voorbeeldvragen**: hier zijn AI-gegenereerde aannames toegestaan, op voorwaarde dat ze duidelijk gelabeld zijn met 🤖. De student weet dan dat dit een redenering is op basis van het concept, niet een geciteerde examenvraag of gedocumenteerde valkuil. De materie zelf waarop de valkuil of vraag gebaseerd is, blijft wel brongebonden.
 
 ## Bronhiërarchie (van meest naar minst gezaghebbend)
 1. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
@@ -68,16 +76,26 @@ Tijdens het bekwaamheidsexamen mag de student gebruiken:
 
 Valkuilen in de fiches gaan dus over **verkeerde concepten**, niet over verkeerde cijfers.
 
+## Status van vakken en concepten
+
+Vakfiches en conceptfiches gebruiken tags om hun status aan te geven in de Explorer:
+
+| Tags | Betekenis | Zichtbaar in Explorer |
+|------|-----------|----------------------|
+| `[wip]` | Actief in behandeling — [WIP] in titel | **Ja** |
+| `[wip, verborgen]` | Nog niet behandeld — [WIP] in titel | **Nee** |
+| *(geen wip-tag)* | Voltooid en geverifieerd | **Ja** |
+
+**Werkwijze**: wanneer we een vak of concept beginnen te behandelen, verwijder de `verborgen`-tag. De `wip`-tag en het [WIP]-prefix in de titel blijven staan tot de gebruiker de inhoud valideert.
+
 ## Doelpubliek en schrijfstijl
 De conceptfiches zijn studiemateriaal voor mensen die al iets van de boekhoudkundige en fiscale wereld kennen (bv. via opleiding of praktijk), maar geen juristen zijn.
 
 - **Menselijke, heldere taal** — geen legalese, wel precies
 - **Niet alles is gekend** — leg ook "bekende" begrippen kort uit, mensen vergeten
 - **Afkortingen** — eerste vermelding altijd voluit: "Besloten Vennootschap (BV)"
-- **Wikilinks** — elk concept dat elders een fiche heeft, krijgt een `[[link]]` bij elke vermelding
+- **Wikilinks** — elk concept dat elders een fiche heeft, krijgt een `[[link]]` bij elke vermelding; zo mogelijk naar de relevante sectie via `[[fiche#sectie|tekst]]`
 - **Vakken in numerieke volgorde** — 1.2 voor 2.3 voor 3.1 enz.
-- **Backlinks** — elke conceptfiche bevat een "Relevant voor" sectie met links naar de vakfiches
-- **Leerstof vs. context** — elk concept wordt getoetst aan de taken, doelstellingen en kenniselementen van de vakfiche; wat niet direct geëxamineerd wordt, krijgt het label `context` in de frontmatter, niet `leerstof`
 - **Exacte bedragen**: vermeld ze ter referentie met bronverwijzing naar ITAA-LEX of cijferzakboekje, maar leg de nadruk op het concept erachter — niet op het getal zelf
 
 ## Wat is een concept?
@@ -96,12 +114,12 @@ Een concept is de **kleinste coherente eenheid die een student als één geheel 
 
 ## Hoe bepalen we welke concepten er zijn?
 
-**Vertrekpunt**: de taken, doelstellingen en kenniselementen van de vakfiches. Die beschrijven wat een student moet *kunnen doen* en *begrijpen* — de concepten zijn de bouwstenen daarvoor.
+**Vertrekpunt**: de TDKs van de vakfiches. Die beschrijven wat een student moet *kunnen doen* en *begrijpen* — de concepten zijn de bouwstenen daarvoor.
 
 **Werkwijze**:
 1. Lees de taken en doelstellingen: welk fenomeen of onderwerp moet de student beheersen om deze taak uit te voeren?
 2. Lees de kenniselementen: welke begrippen en onderwerpen worden expliciet genoemd?
-3. Let ook op **impliciete concepten**: dingen die niet met naam worden vermeld maar wel verondersteld worden (bv. "een risicoanalyse uitvoeren" veronderstelt dat je weet wat een risico is)
+3. Let ook op **impliciete concepten**: dingen die niet met naam worden vermeld maar wel verondersteld worden
 4. Vermijd duplicaten: als hetzelfde fenomeen al als concept bestaat (ook in een ander vak), breid dat concept uit — maak geen tweede fiche
 
 **Geen dubbele concepten**: elk fenomeen of studieonderwerp krijgt precies één fiche. Concepten kunnen op elkaar voortbouwen via wikilinks en subconcept-relaties, maar overlappen niet.
@@ -122,18 +140,18 @@ Een concept kan secties uit meerdere domeinen bevatten. Als een sectie niet past
 
 ### De sectietypes
 
-| Type | Vraag die het beantwoordt | Signaalwoorden |
-|------|--------------------------|----------------|
-| **Begrip** | Wat is X? | definitie, term, afkorting |
-| **Principe** | Hoe werkt X als algemene regel? | beginsel, basisregel |
-| **Procedure** | Welke stappen volg je? | stappen, termijnen, volgorde |
-| **Berekening** | Hoe reken je X uit? | formule, ratio, tarief, grondslag |
-| **Vergelijking** | Wat is het verschil tussen X en Y? | vs, verschil, kies je voor |
-| **Advies** | Wat zeg je tegen de cliënt? | adviseer, begeleid, stel voor |
-| **Checklist** | Wat controleer je? | controleer of, verifieer, ga na |
-| **Diagnose** | Wat zie je en wat betekent dat? | herken, detecteer, alarmsignaal |
-| **Verplichting** | Wat moet verplicht gebeuren? | verplicht, moet, meldingsplicht |
-| **Rol** | Wie doet wat? | taak van, bevoegdheid, verantwoordelijkheid |
+| Emoji | Type | Vraag die het beantwoordt | Signaalwoorden |
+|-------|------|--------------------------|----------------|
+| 📌 | **Begrip** | Wat is X? | definitie, term, afkorting |
+| ⚖️ | **Principe** | Hoe werkt X als algemene regel? | beginsel, basisregel |
+| 📋 | **Procedure** | Welke stappen volg je? | stappen, termijnen, volgorde |
+| 🔢 | **Berekening** | Hoe reken je X uit? | formule, ratio, tarief, grondslag |
+| ↔️ | **Vergelijking** | Wat is het verschil tussen X en Y? | vs, verschil, kies je voor |
+| 💬 | **Advies** | Wat zeg je tegen de cliënt? | adviseer, begeleid, stel voor |
+| ✅ | **Checklist** | Wat controleer je? | controleer of, verifieer, ga na |
+| 🔍 | **Diagnose** | Wat zie je en wat betekent dat? | herken, detecteer, alarmsignaal |
+| 🔒 | **Verplichting** | Wat moet verplicht gebeuren? | verplicht, moet, meldingsplicht |
+| 👤 | **Rol** | Wie doet wat? | taak van, bevoegdheid, verantwoordelijkheid |
 
 Als een sectie niet past binnen deze 10 types, stel dan een nieuw type voor met naam, vraag en signaalwoorden — ter validatie door de gebruiker.
 
@@ -146,66 +164,89 @@ Elk bestand in content/concepten/ volgt dit formaat:
 
 ```
 ---
-tags: [1.2, 2.3]           # alle vakken waar dit concept leerstof is
+tags: [4.0]                 # alle vakken waar dit concept leerstof is
 niveau: integratie
-status: leerstof            # of: context
+status: draft               # draft → geverifieerd (alleen gebruiker zet geverifieerd)
 bronnen:
-  - WVV art. 5:142
-itaa-lex: XVII, p. ~
+  - Wet ITAA art. 37
+itaa-lex: XXI, p. 2604
 ---
 
-# Naam van het concept
+# 📌 Naam van het concept
 
-> Relevant voor: [[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2]], [[2.3-vennootschapsbelasting|2.3]]
+> Relevant voor: [[4.0-deontologie|4.0]]
 
 Zie ook: [[verwant-concept-a]], [[verwant-concept-b]]
 
-[Inhoudelijke secties geordend naar sectietypes — zie "Structuur van een concept"]
-[Valkuilen en veelgestelde vragen staan als callouts bij de relevante inhoudssectie]
+## 📌 Begrippen
 
-> [!warning]- Veelgemaakte fout: [korte titel]
-> Uitleg van de fout en waarom die fout gemaakt wordt.
+### 📌 Begrip: Term A
+Definitie van Term A. ([[itaa-lex-XXI#art-2|Wet ITAA art. 2]])
 
-> [!question]- FAQ: [vraag]
-> Antwoord op een typische studievraag over dit onderdeel.
+### 📌 Begrip: Term B
+Definitie van Term B.
+
+## ⚖️ Principe: Naam van het principe
+Inhoud. ([[itaa-lex-XVII#art-47|AWW art. 47]])
+
+> [!warning]- ⚠️ Opgelet: [de correcte situatie in één zin]
+> [Volledige uitleg van de juiste regel]
+>
+> ❌ Verkeerde aanname: "[wat studenten vaak foutief denken]"
+>
+> 📝 *Gebaseerd op voorbeeldexamen 2024* — of — 🤖 *AI-inschatting op basis van conceptuele analyse*
+
+## 🔒 Verplichting: Naam van de verplichting
+Inhoud.
 
 ## Per vak
 
-### [1.2] Naam van het vak
-Welke secties van dit concept zijn leerstof voor dit vak, en wat is de focus.
+### [4.0] Naam van het vak
 
-> [!example]- Voorbeeldvragen
-> 1. [Vraag zoals die in een examen kan verschijnen]
-> 2. [Vraag]
+**Relevante TDKs:**
+- Taak "X" → doelstelling "Y" → kenniselement Z.n
 
-### [2.3] Naam van het vak
-...
+> [!example]- ❓ Voorbeeldvraag 1 — 📝 Uit voorbeeldexamen 2024
+> [De vraag zoals die in een examen verschijnt]
+>
+> > [!success]- ✅ Antwoord
+> > [Het correcte antwoord]
+> >
+> > **Verantwoording**: [Waarom dit het juiste antwoord is, met bronverwijzing]
+
+> [!example]- ❓ Voorbeeldvraag 2 — 🤖 AI-gegenereerd
+> [Een vraag die op basis van de materie verwacht kan worden]
+>
+> > [!success]- ✅ Antwoord
+> > [Het correcte antwoord]
+> >
+> > **Verantwoording**: [Uitleg]
 
 ## Bronnen en artikelen
-- [Wet X art. Y](https://www.ejustice.just.fgov.be/...) — omschrijving
-- ITAA-LEX [sectie], p. [pagina] — omschrijving
+- [[itaa-lex-XXI|ITAA-LEX XXI]] — Wet ITAA 2019
+- [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]: onafhankelijkheid en deontologische beginselen
 ```
 
 ### Bronvermelding: regels
 
-**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een verwijzing direct in de tekst — bv. `(AWW art. 47)` of `(Wet ITAA art. 50)`.
+**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de ITAA-LEX proxy:
+- `([[itaa-lex-XXI#art-37|Wet ITAA art. 37]])` — verwijst naar de artikel-sectie in de proxy
+- `([[itaa-lex-XVII#art-47|AWW art. 47]])` — idem voor de AWW
 
-**Sectie "Bronnen en artikelen"** onderaan bevat de volledige referenties:
-- **ITAA-LEX proxy**: link naar de relevante ITAA-LEX sectie-proxy in `content/itaa-lex/` — bv. `[[itaa-lex-XVII|ITAA-LEX XVII, p. 2441]]`. Vanuit die proxy staat een klikbare link naar de online geconsolideerde versie. Dit is de primaire referentie, want ITAA-LEX is het naslagwerk dat tijdens het examen gebruikt mag worden.
-- **Directe online link** als aanvulling wanneer nuttig — ejustice.just.fgov.be voor Belgische wetten, fisconet.be voor WIB92 en WBTW.
+**Sectie "Bronnen en artikelen"** onderaan herhaalt de referenties als overzicht met klikbare ITAA-LEX proxy-links.
 
 **Geen links naar lokale PDF's** — altijd via de ITAA-LEX proxy of een publieke online bron.
 
 ### ITAA-LEX proxy-bestanden
 
-Elke gebruikte ITAA-LEX sectie krijgt een bestand in `content/itaa-lex/` met de naamgeving `itaa-lex-[sectienummer].md` (bv. `itaa-lex-XVII.md`).
+Elke gebruikte ITAA-LEX sectie heeft een bestand in `content/itaa-lex/` met de naamgeving `itaa-lex-[sectienummer].md`.
 
-Formaat van een ITAA-LEX proxy:
+Het proxy-bestand is georganiseerd als een **echte index** met artikel-level headings zodat deep-links werken:
 
 ```
 ---
 itaa-lex-sectie: XVII
-wet: Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
+wet: Wet van 18 september 2017 ...
 afkorting: AWW
 online: https://www.ejustice.just.fgov.be/[...]
 ---
@@ -218,20 +259,56 @@ online: https://www.ejustice.just.fgov.be/[...]
 
 | Artikel(en) | Onderwerp | Pagina ITAA-LEX |
 |-------------|-----------|-----------------|
-| Art. 2      | Definitie witwassen | p. 2441 |
-| Art. 5      | Onderworpen entiteiten | p. 2443 |
-| ...         | ...       | ... |
+| Art. 2 | Definitie witwassen | p. 2441 |
+| ...    | ...       | ...     |
+
+## Art. 2 — Definitie witwassen {#art-2}
+> Pagina ITAA-LEX: p. 2441
+
+Korte inhoud of samenvatting van het artikel.
+
+## Art. 47 — Meldingsplicht {#art-47}
+> Pagina ITAA-LEX: p. 2469
+
+...
 
 ## Gebruikte concepten
-
 Concepten die naar deze sectie verwijzen: [[antiwitwaswetgeving]]
 ```
 
-Proxy-bestanden worden **on demand** aangemaakt — alleen wanneer een conceptfiche ernaar verwijst. Niet alle 21 secties hoeven te bestaan.
+De heading-anchors (`{#art-2}`) maken deep-links mogelijk: `[[itaa-lex-XVII#art-2|AWW art. 2]]`.
+
+Proxy-bestanden worden **on demand** aangemaakt — alleen wanneer een conceptfiche ernaar verwijst.
+
+## Conventie vakfiche — TDKs en materie
+
+### TDK-bullets linken naar materie
+
+Elke TDK-bullet die verwijst naar een te kennen concept krijgt een link naar de relevante **sectie** in de conceptfiche:
+
+```markdown
+- Een [[antiwitwaswetgeving#verplichting-meldingsplicht-aan-de-cfi|meldingsplicht]] uitvoeren
+```
+
+Een TDK-bullet zonder link naar materie is een signaal dat er materie ontbreekt of dat de link nog niet gelegd is.
+
+### "Relevante materie" — volledigheidseis
+
+De sectie onderaan de vakfiche heet **"Relevante materie"** (vroeger: "Concepten"). Ze bevat alle conceptfiches die samen de volledige examenstof voor dit vak dekken.
+
+**Eis**: een student die enkel de "Relevante materie"-lijst doorloopt zonder één TDK-link te volgen, moet toch alle examenstof gezien hebben. De lijst is dus geen subset — ze is compleet.
+
+### Verificatiestap na het schrijven van een vakfiche
+
+Na het opstellen of bijwerken van een vakfiche, doorloop je expliciet:
+
+1. **Elke TDK-bullet** → heeft die een link naar de juiste sectie in een conceptfiche?
+2. **Elke conceptfiche in "Relevante materie"** → dekt die alle TDKs die ernaar linken?
+3. **Zijn er TDKs die naar geen enkele materie linken?** → maak de ontbrekende materie aan of voeg de TDK toe als sectie in een bestaande fiche
 
 ## Niveauindeling
 
-De frontmatter van elke conceptfiche bevat een `niveau`-veld. Claude kiest het niveau op basis van de taken en doelstellingen in de vakfiche — niet op basis van aannames.
+De frontmatter van elke conceptfiche bevat een `niveau`-veld. Claude kiest het niveau op basis van de TDKs in de vakfiche — niet op basis van aannames.
 
 | Niveau | Wat de student kan | Typische examenvraag |
 |--------|-------------------|----------------------|
