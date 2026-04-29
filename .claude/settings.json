@@ -1,4 +1,22 @@
 {
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(rm content/concepten/*.md)",
+      "Bash(rm content/concepten/*)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add *)",
+      "Bash(git commit*)",
+      "Bash(python3 *)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)"
+    ]
+  },
   "hooks": {
     "PostToolUse": [
       {
