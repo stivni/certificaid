@@ -5,7 +5,6 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Certificaid",
     pageTitleSuffix: "",
-    description: "Kennisbank voor het ITAA bekwaamheidsexamen — gecertificeerd accountant en belastingadviseur",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,

@@ -1,5 +1,6 @@
 ---
 title: Certificaid
+description: Kennisbank voor het ITAA bekwaamheidsexamen — gecertificeerd accountant en belastingadviseur
 ---
 
 # Certificaid
