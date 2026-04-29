@@ -32,6 +32,25 @@ certificaid/
 - Lokaal testen: `npm install && npm run dev` → http://localhost:8080
 - Deploy triggert automatisch bij wijzigingen in `content/`, `quartz.config.ts` of `quartz.layout.ts`
 
+## Absolute regel: geen hallucinaties
+Dit is de belangrijkste regel van het hele project.
+
+- Elk feit, elke definitie, elk wetsartikel moet traceerbaar zijn naar een
+  concrete bron
+- Schrijf NOOIT iets over wetsinhoud zonder een bronverwijzing
+- Als je een concept niet met zekerheid kunt onderbouwen vanuit een bron:
+  zeg dat expliciet, vul het veld NIET in, en markeer het als `⚠️ te verifiëren`
+- Liever een leeg veld dan een onzeker feit
+
+## Bronhiërarchie (van meest naar minst gezaghebbend)
+1. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
+2. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
+3. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
+4. ITAA-normen op [itaa.be](http://itaa.be)
+5. NBB-documentatie op [nbb.be](http://nbb.be)
+6. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
+7. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen
+
 ## Conventie conceptfiche
 Elk bestand in content/concepten/ volgt dit formaat:
 
