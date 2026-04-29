@@ -1,0 +1,12 @@
+{
+  "name": "certificaid",
+  "private": true,
+  "scripts": {
+    "postinstall": "ln -sf node_modules/@jackyzha0/quartz/quartz quartz",
+    "dev": "quartz build --serve",
+    "build": "quartz build"
+  },
+  "devDependencies": {
+    "@jackyzha0/quartz": "github:jackyzha0/quartz#v4"
+  }
+}

@@ -1,0 +1,15 @@
+# Quartz build output
+public/
+
+# Quartz framework (gegenereerd door postinstall)
+/quartz
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
