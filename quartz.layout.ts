@@ -13,7 +13,7 @@ const explorerOpts = {
   },
   filterFn: (node: any) => {
     if (node.slugSegment === "tags") return false
-    if (node.data?.tags?.includes("wip")) return false
+    if (node.data?.tags?.includes("verborgen")) return false
     return true
   },
 }
