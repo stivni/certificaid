@@ -3,7 +3,7 @@
   "version": "4.5.2",
   "private": true,
   "scripts": {
-    "postinstall": "rm -rf quartz && cp -r node_modules/@jackyzha0/quartz/quartz quartz && rm -rf quartz/.quartz-cache && ln -sf ../node_modules/@jackyzha0/quartz/quartz/.quartz-cache quartz/.quartz-cache",
+    "postinstall": "rm -rf quartz && cp -r node_modules/@jackyzha0/quartz/quartz quartz && mkdir -p node_modules/@jackyzha0/quartz/quartz/.quartz-cache && rm -rf quartz/.quartz-cache && ln -sf ../node_modules/@jackyzha0/quartz/quartz/.quartz-cache quartz/.quartz-cache",
     "dev": "quartz build --serve",
     "build": "quartz build"
   },
