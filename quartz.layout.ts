@@ -27,12 +27,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
         const order = ["vakken", "concepten", "itaa-lex"]
-        const ai = order.indexOf(a.name)
-        const bi = order.indexOf(b.name)
+        const ai = order.indexOf(a.slugSegment)
+        const bi = order.indexOf(b.slugSegment)
         if (ai !== -1 && bi !== -1) return ai - bi
         if (ai !== -1) return -1
         if (bi !== -1) return 1
-        return a.name.localeCompare(b.name, "nl")
+        return a.displayName.localeCompare(b.displayName, "nl")
       },
     })),
   ],
@@ -57,12 +57,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
         const order = ["vakken", "concepten", "itaa-lex"]
-        const ai = order.indexOf(a.name)
-        const bi = order.indexOf(b.name)
+        const ai = order.indexOf(a.slugSegment)
+        const bi = order.indexOf(b.slugSegment)
         if (ai !== -1 && bi !== -1) return ai - bi
         if (ai !== -1) return -1
         if (bi !== -1) return 1
-        return a.name.localeCompare(b.name, "nl")
+        return a.displayName.localeCompare(b.displayName, "nl")
       },
     })),
   ],
