@@ -1,6 +1,23 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+const explorerOpts = {
+  sortFn: (a: any, b: any) => {
+    const order = ["vakken", "concepten", "itaa-lex"]
+    const ai = order.indexOf(a.slugSegment)
+    const bi = order.indexOf(b.slugSegment)
+    if (ai !== -1 && bi !== -1) return ai - bi
+    if (ai !== -1) return -1
+    if (bi !== -1) return 1
+    return a.displayName.localeCompare(b.displayName, "nl")
+  },
+  filterFn: (node: any) => {
+    if (node.slugSegment === "tags") return false
+    if (node.data?.tags?.includes("wip")) return false
+    return true
+  },
+}
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -24,17 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      sortFn: (a, b) => {
-        const order = ["vakken", "concepten", "itaa-lex"]
-        const ai = order.indexOf(a.slugSegment)
-        const bi = order.indexOf(b.slugSegment)
-        if (ai !== -1 && bi !== -1) return ai - bi
-        if (ai !== -1) return -1
-        if (bi !== -1) return 1
-        return a.displayName.localeCompare(b.displayName, "nl")
-      },
-    })),
+    Component.DesktopOnly(Component.Explorer(explorerOpts)),
   ],
   right: [
     Component.Graph(),
@@ -54,17 +61,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      sortFn: (a, b) => {
-        const order = ["vakken", "concepten", "itaa-lex"]
-        const ai = order.indexOf(a.slugSegment)
-        const bi = order.indexOf(b.slugSegment)
-        if (ai !== -1 && bi !== -1) return ai - bi
-        if (ai !== -1) return -1
-        if (bi !== -1) return 1
-        return a.displayName.localeCompare(b.displayName, "nl")
-      },
-    })),
+    Component.DesktopOnly(Component.Explorer(explorerOpts)),
   ],
   right: [],
 }
