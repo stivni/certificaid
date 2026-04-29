@@ -24,7 +24,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      sortFn: (a, b) => {
+        const order = ["vakken", "concepten", "itaa-lex"]
+        const ai = order.indexOf(a.name)
+        const bi = order.indexOf(b.name)
+        if (ai !== -1 && bi !== -1) return ai - bi
+        if (ai !== -1) return -1
+        if (bi !== -1) return 1
+        return a.name.localeCompare(b.name, "nl")
+      },
+    })),
   ],
   right: [
     Component.Graph(),
@@ -44,7 +54,17 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      sortFn: (a, b) => {
+        const order = ["vakken", "concepten", "itaa-lex"]
+        const ai = order.indexOf(a.name)
+        const bi = order.indexOf(b.name)
+        if (ai !== -1 && bi !== -1) return ai - bi
+        if (ai !== -1) return -1
+        if (bi !== -1) return 1
+        return a.name.localeCompare(b.name, "nl")
+      },
+    })),
   ],
   right: [],
 }
