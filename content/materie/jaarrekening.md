@@ -21,7 +21,7 @@ Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedke
 2. **Resultatenrekening** — overzicht van kosten en opbrengsten van het boekjaar
 3. **Toelichting** — aanvullende informatie bij de cijfers van balans en resultatenrekening
 
-Het bestuursorgaan maakt ook elk jaar een **inventaris** op als basis voor de jaarrekening [^art-3-1].
+Het bestuursorgaan maakt ook elk jaar een **[[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]]** op als basis voor de jaarrekening [^art-3-1].
 
 ---
 
@@ -60,7 +60,7 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 📋 Procedure: van boekjaarafsluiting tot neerlegging
 
-**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de inventaris op en stelt de jaarrekening op [^art-3-1].
+**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op [^art-3-1].
 
 **Stap 2 — Goedkeuring door de algemene vergadering**: de jaarrekening moet **binnen 6 maanden** na afsluiting van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering [^art-3-1]. Als dit niet tijdig gebeurt, wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim.
 

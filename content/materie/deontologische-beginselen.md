@@ -4,6 +4,7 @@ niveau: integratie
 status: draft
 bronnen:
   - Wet ITAA art. 36, 37, 40, 48, 49
+  - KMO-controlenorm (ITAA, 18 december 2018)
 itaa-lex: XXI, p. 2604
 ---
 
@@ -66,6 +67,55 @@ Beide dimensies moeten aanwezig zijn. Een beroepsbeoefenaar die feitelijk onafha
 > ❌ *"Objectiviteit en onafhankelijkheid betekenen hetzelfde — wie objectief is, is ook onafhankelijk."*
 >
 > **Objectiviteit** is één van de zeven deontologische beginselen: geen vooringenomenheid, geen belangenconflicten, geen ongepaste beïnvloeding toelaten in het professioneel oordeel. **Onafhankelijkheid** is het overkoepelend kader — het vereist zowel feitelijke vrijheid van beïnvloeding als de schijn daarvan naar buitenstaanders. Een beroepsbeoefenaar kan subjectief handelen (beginsel 3 schenden) zonder dat er een onafhankelijkheidsprobleem is, en omgekeerd: hij kan feitelijk objectief zijn maar schijnbaar niet onafhankelijk.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## 📌 Assurance-opdracht
+
+Een opdracht waarbij de beroepsbeoefenaar een **conclusie of oordeel geeft waarop buitenstaanders mogen vertrouwen** [^kmo-norm]. Aandeelhouders, banken, de belastingdienst of een rechter kunnen op basis van dat oordeel beslissingen nemen — zij kennen de beroepsbeoefenaar niet, maar vertrouwen op zijn professionele stempel.
+
+Twee subtypes, naar de mate van zekerheid die gegeven wordt:
+
+| Type | Andere naam | Conclusie |
+|------|-------------|-----------|
+| **Redelijke zekerheid** | Volkomen controle (contractuele controleopdracht) | Positief oordeel: "de jaarrekening geeft een getrouw beeld" |
+| **Beperkte zekerheid** | Beperkte controle (contractuele beoordelingsopdracht) | Negatieve conclusie: "niets heeft onze aandacht getrokken dat..." |
+
+---
+
+## 📌 Niet-assurance-opdracht
+
+Een opdracht waarbij de beroepsbeoefenaar de cliënt helpt maar **geen professioneel oordeel geeft voor externe gebruikers**. De output is voor de cliënt zelf [^kmo-norm].
+
+Voorbeelden: boekhouding bijhouden, btw-aangifte opstellen, jaarrekening samenstellen op basis van aangeleverde cijfers (samenstellingsopdracht).
+
+---
+
+## ↔️ Onafhankelijkheidsvereisten: assurance vs. niet-assurance
+
+De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis]] van art. 37 geldt voor elke ingeschrevene bij elk type opdracht [^art-37]. De **gedetailleerde uitwerking** — welke situaties precies verboden zijn — is strenger bij assurance-opdrachten [^kmo-norm]:
+
+| | Assurance-opdracht | Niet-assurance-opdracht |
+|---|---|---|
+| **Grondslag** | Art. 37 Wet ITAA + KMO-controlenorm | Art. 37 Wet ITAA |
+| **Verbod financiële belangen** | Ja — expliciet in de norm | Nee specifieke norm-regel |
+| **Verbod nevendiensten bij zelfde cliënt** | Ja — bv. boekhouding én controle bij zelfde cliënt is risico | Nee — maar zelfcontrolerisico bij combinatie |
+| **Documentatieplicht bedreigingen** | Ja | Nee |
+
+**Zelfcontrolerisico bij combinatie**: een beroepsbeoefenaar die voor dezelfde cliënt zowel de boekhouding opstelt (niet-assurance) als de jaarrekening controleert (assurance), controleert feitelijk zijn eigen werk. Dat is een **zelfcontrolebedreiging** *(self-review threat)*: zijn conclusie is niet meer onafhankelijk van de gegevens die hij zelf heeft ingevoerd [^kmo-norm].
+
+> [!warning]- Samenstellingsopdracht heeft geen onafhankelijkheidseis
+> ❌ *"Bij een samenstellingsopdracht hoef ik niet onafhankelijk te zijn — de KMO-norm geldt enkel voor controle."*
+>
+> De **strengere, gedetailleerde** onafhankelijkheidsregels uit de KMO-norm gelden inderdaad enkel voor assurance-opdrachten. Maar de algemene eis van art. 37 — volledige onafhankelijkheid — geldt voor **elke ingeschrevene** bij elke professionele activiteit. Wat verschilt is de mate van detail en de specifieke verboden, niet de basiseis zelf.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: boekhouder én controleur van dezelfde vennootschap
+>
+> Een accountant doet al jaren de boekhouding van een kleine bv. De vennootschap groeit en wil nu een contractuele controleopdracht (volkomen controle) laten uitvoeren. De cliënt vraagt dezelfde accountant. Probleem: als hij de boekhouding heeft opgesteld én nu de jaarrekening controleert, controleert hij zijn eigen werk. Dat is een zelfcontrolebedreiging — zijn onafhankelijkheid bij de assurance-opdracht is in het gedrang. De oplossing: óf de boekhouding overdragen aan een collega, óf de controleopdracht niet aanvaarden.
 >
 > 🤖 *AI-aanvulling*
 
@@ -147,7 +197,7 @@ Taken:
 > >
 > > Wanneer adjustments talrijk en substantieel zijn, kan dit wijzen op een **self-review threat**: als de accountant eerder betrokken was bij de boekhouding of opstelling van de cijfers die hij nu naziet, controleert hij feitelijk zijn eigen werk. Dat ondermijnt de feitelijke én schijn van onafhankelijkheid. De beroepsbeoefenaar moet per geval beoordelen of zijn onafhankelijkheid gewaarborgd blijft — en bij twijfel de opdracht weigeren of neerleggen.
 > >
-> > *Zie: [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]]*
+> > *Zie: [[deontologische-beginselen#-onafhankelijkheidsvereisten-assurance-vs-niet-assurance|Zelfcontrolerisico bij combinatie]], [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]]*
 >
 > 📝 *Uit voorbeeldexamen 2015*
 
@@ -190,6 +240,7 @@ Kenniselementen:
 
 [^art-36-3]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36 §3]]
 [^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
+[^kmo-norm]: KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`
 [^art-48]: [[itaa-lex-XXI#art-48|Wet ITAA art. 48]]
 [^art-49]: [[itaa-lex-XXI#art-49|Wet ITAA art. 49]]
 [^art-40]: [[itaa-lex-XXI#art-40|Wet ITAA art. 40]]

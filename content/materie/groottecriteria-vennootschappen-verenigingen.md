@@ -10,7 +10,7 @@ itaa-lex: XV (WVV)
 
 # Groottecriteria voor vennootschappen en verenigingen
 
-De grootte van een vennootschap of vereniging — *micro*, *klein* of *groot* — is het scharnierpunt van het jaarrekeningenrecht. Ze bepaalt welk jaarrekeningschema verplicht is, of een jaarverslag moet worden opgesteld, en of een [[jaarrekening#-commissaris|commissaris]] moet worden aangesteld. Drie criteria gemeten op de balansdatum van het **laatste afgesloten boekjaar** zijn bepalend.
+De grootte van een vennootschap of vereniging — *micro*, *klein* of *groot* — is het scharnierpunt van het jaarrekeningenrecht. Ze bepaalt welk [[jaarrekening|jaarrekeningschema]] verplicht is, of een [[jaarverslag|jaarverslag]] moet worden opgesteld, en of een [[jaarrekening#-commissaris|commissaris]] moet worden aangesteld. Drie criteria gemeten op de balansdatum van het **laatste afgesloten boekjaar** zijn bepalend.
 
 ---
 
@@ -88,7 +88,7 @@ Dit voorkomt dat een onderneming elk jaar van categorie wisselt door een toevall
 
 ## ⚖️ Gevolgen van de groottecategorie
 
-De categorie bepaalt drie dingen: het jaarrekeningschema, de jaarverslagplicht en de commissarisplicht.
+De categorie bepaalt drie dingen: het [[jaarrekening|jaarrekeningschema]], de [[jaarverslag|jaarverslagplicht]] en de [[jaarrekening#-commissaris|commissarisplicht]].
 
 | | **Micro** | **Klein** | **Groot** |
 |-|-----------|-----------|-----------|

@@ -35,7 +35,13 @@ certificaid/
 │   ├── programmaonderdelen/ # Één .md per programmaonderdeel — getoond als "Programmaonderdelen" in de Explorer
 │   └── itaa-lex/           # Proxy per ITAA-LEX sectie — alleen secties die effectief gebruikt worden
 ├── tools/
-└── resources/              # Bronmateriaal (bv. ITAA-brochure PDF, ITAA_LEX_index.xlsx)
+└── resources/              # Bronmateriaal
+    ├── programma.pdf           # ITAA-brochure (leerdoelen en structuur)
+    ├── ITAA_Lex_Index.xlsx     # Index van de ITAA-LEX bundel
+    ├── normen/                 # ITAA-normen en -aanbevelingen — lokaal als .md
+    ├── voorbeeldexamens/       # Officiële ITAA-examens (PDF)
+    ├── wetteksten/             # Geconsolideerde wetteksten als .txt
+    └── andere/                 # Overige bronnen
 ```
 
 ### Publicatie
@@ -57,7 +63,16 @@ Dit is de belangrijkste regel van het hele project.
 1. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
 2. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
 3. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
-4. ITAA-normen op [itaa.be](http://itaa.be)
+4. ITAA-normen op [itaa.be](http://itaa.be) — lokale kopieën in `resources/normen/`:
+   - `algemene-controlenorm.md`
+   - `kmo-controlenorm.md`
+   - `norm-permanente-vorming.md`
+   - `aww-reglement-iab.md`
+   - `norm-ontbinding-vereffening.md`
+   - `norm-omzetting-vennootschap.md`
+   - `nota-opdrachtbrief.md`
+   - `gedragslijnen-relaties-IBR.md`
+   - `procedurereglement-AWW-art118.md`
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 6. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
 7. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen

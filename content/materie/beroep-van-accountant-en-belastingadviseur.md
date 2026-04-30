@@ -28,7 +28,7 @@ De wetgever reguleert de beroepen van gecertificeerd accountant en gecertificeer
 
 Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd accountant**. Hij mag de activiteiten uitoefenen beschreven in [[itaa-lex-XXI#art-3|Wet ITAA art. 3]] (12 activiteiten, samengevat):
 
-- **Boekhoudkundige diensten**: organiseren van de boekhouding, opmaken van de jaarrekening, centraliseren van boekingen, corrigeren van documenten
+- **Boekhoudkundige diensten**: organiseren van de [[boekhoudplicht-wer|boekhouding]], opmaken van de [[jaarrekening|jaarrekening]], centraliseren van boekingen, corrigeren van documenten
 - **Financiële analyse**: analyseren van de positie en werking van ondernemingen
 - **Fiscale aangelegenheden**: belastingaangiften opstellen en bijstand verlenen
 - **Juridische bijstand** bij financiële, boekhoudkundige of fiscale materies
@@ -50,7 +50,7 @@ Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid 
 > [!warning]- Gecertificeerd belastingadviseur mag ook de boekhouding voeren
 > ❌ *"Een gecertificeerd belastingadviseur mag ook de boekhouding van zijn cliënten voeren — hij geeft toch ook fiscaal advies?"*
 >
-> De vier activiteiten van de GBA (art. 6) betreffen uitsluitend fiscale aangelegenheden. Boekhoudkundige diensten — het voeren van de boekhouding, het opmaken van de jaarrekening — vallen onder art. 3 en zijn voorbehouden aan gecertificeerde accountants. Een GBA die enkel die hoedanigheid heeft, mag dit niet uitvoeren. Wie beide wil combineren, moet ook als gecertificeerd accountant ingeschreven zijn.
+> De vier activiteiten van de GBA (art. 6) betreffen uitsluitend fiscale aangelegenheden. Boekhoudkundige diensten — het voeren van de [[boekhoudplicht-wer|boekhouding]], het opmaken van de [[jaarrekening|jaarrekening]] — vallen onder art. 3 en zijn voorbehouden aan gecertificeerde accountants. Een GBA die enkel die hoedanigheid heeft, mag dit niet uitvoeren. Wie beide wil combineren, moet ook als gecertificeerd accountant ingeschreven zijn.
 >
 > 🤖 *AI-aanvulling*
 

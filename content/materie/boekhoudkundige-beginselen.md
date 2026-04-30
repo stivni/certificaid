@@ -40,7 +40,7 @@ De jaarrekening wordt uitgedrukt in **euro** [^art-3-5]. Bezittingen, schulden e
 
 ## ⚖️ Stelselmatigheidsbeginsel
 
-De jaarrekening wordt **duidelijk en stelselmatig** opgesteld. De balans en resultatenrekening vloeien rechtstreeks voort uit de balans van de rekeningen na inventarisverwerking, zonder toevoeging of weglating [^art-3-4].
+De jaarrekening wordt **duidelijk en stelselmatig** opgesteld. De balans en resultatenrekening vloeien rechtstreeks voort uit de balans van de rekeningen na [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventarisverwerking]], zonder toevoeging of weglating [^art-3-4].
 
 **Compensatie** tussen tegoeden en schulden of tussen kosten en opbrengsten is **verboden**, behalve in de door de wet voorziene gevallen [^art-3-2]. De te verrekenen brutobedragen worden in dat geval in de toelichting vermeld.
 

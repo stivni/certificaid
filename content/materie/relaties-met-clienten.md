@@ -132,7 +132,7 @@ De beroepsbeoefenaar is aansprakelijk volgens de gewone regels van het aansprake
 Dit is **niet mogelijk** in twee gevallen:
 
 1. Bij een **fout met bedrieglijk opzet of oogmerk te schaden** — wie bewust schade toebrengt, kan zich nooit contractueel indekken
-2. Bij **wettelijk voorbehouden opdrachten** (bv. een commissarisopdracht als bedrijfsrevisor) — voor die opdrachten is volledige aansprakelijkheid een garantie voor de samenleving
+2. Bij **wettelijk voorbehouden opdrachten** (bv. een [[jaarrekening#-commissaris|commissarisopdracht als bedrijfsrevisor]]) — voor die opdrachten is volledige aansprakelijkheid een garantie voor de samenleving
 
 **Verzekeringsplicht**: elke beroepsbeoefenaar is verplicht een **beroepsaansprakelijkheidsverzekering** te hebben die hem dekt voor fouten in zijn professionele uitoefening. Die verzekering dekt claims van cliënten én van derden. De beroepsbeoefenaar bezorgt jaarlijks een bewijs van zijn verzekering aan het ITAA ter goedkeuring.
 

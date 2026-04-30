@@ -25,7 +25,7 @@ De gecumuleerde waardeverminderingen worden **afgetrokken** van de actiefpost wa
 
 ## ⚖️ Eisen waaraan waardeverminderingen moeten voldoen
 
-**Voorzichtigheid, oprechtheid en goede trouw** [^art-3-24] — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
+**[[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheid, oprechtheid en goede trouw]]** [^art-3-24] — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
 
 **Specificiteit** — waardeverminderingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke kenmerken mogen globale waardeverminderingen worden geacteerd [^art-3-25].
 

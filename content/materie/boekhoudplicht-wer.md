@@ -10,7 +10,7 @@ itaa-lex: XIII (WER Boek III hfdst. 2 + KB 21/10/2018)
 
 # Boekhoudplicht (WER)
 
-Het Wetboek van Economisch Recht (WER) legt elke onderneming in België een boekhoudplicht op. De kern is de **dubbele boekhouding**: een systematisch stelsel van dagboeken, een centraal boek en een rekeningenstelsel. Kleine ondernemingen onder een omzetdrempel mogen een vereenvoudigde boekhouding voeren. Specifieke verplichtingen voor vennootschappen — jaarrekening, jaarverslag, controle, openbaarmaking — staan in het [[jaarrekening|WVV]].
+Het Wetboek van Economisch Recht (WER) legt elke onderneming in België een boekhoudplicht op. De kern is de **dubbele boekhouding**: een systematisch stelsel van dagboeken, een centraal boek en een rekeningenstelsel. Kleine ondernemingen onder een omzetdrempel mogen een vereenvoudigde boekhouding voeren. Specifieke verplichtingen voor vennootschappen — [[jaarrekening|jaarrekening]], [[jaarverslag|jaarverslag]], [[jaarrekening#-commissaris|controle]], [[jaarrekening#-wat-wordt-neergelegd-bij-de-nbb|openbaarmaking]] — staan in het WVV.
 
 ---
 
