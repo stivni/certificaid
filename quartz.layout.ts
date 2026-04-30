@@ -2,8 +2,24 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 const explorerOpts = {
+  mapFn: (node: any) => {
+    // Use explorer_title frontmatter field when available (programmaonderdelen)
+    if (node.file?.frontmatter?.explorer_title) {
+      node.displayName = node.file.frontmatter.explorer_title
+      return node
+    }
+    // Folder display names
+    if (node.slugSegment === "programmaonderdelen") {
+      node.displayName = "Programmaonderdelen"
+    } else if (node.slugSegment === "materie") {
+      node.displayName = "Materie"
+    } else if (node.slugSegment === "itaa-lex") {
+      node.displayName = "ITAA-LEX"
+    }
+    return node
+  },
   sortFn: (a: any, b: any) => {
-    const order = ["vakken", "concepten", "itaa-lex"]
+    const order = ["programmaonderdelen", "materie", "itaa-lex"]
     const ai = order.indexOf(a.slugSegment)
     const bi = order.indexOf(b.slugSegment)
     if (ai !== -1 && bi !== -1) return ai - bi
@@ -18,6 +34,16 @@ const explorerOpts = {
   },
 }
 
+const controls = Component.Flex({
+  components: [
+    { Component: Component.Search(), grow: true },
+    { Component: Component.Darkmode() },
+    { Component: Component.ReaderMode() },
+  ],
+  direction: "row",
+  gap: "0.5rem",
+})
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -31,16 +57,14 @@ export const sharedPageComponents: SharedLayout = {
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
+    // Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    controls,
     Component.DesktopOnly(Component.Explorer(explorerOpts)),
   ],
   right: [
@@ -52,15 +76,13 @@ export const defaultContentPageLayout: PageLayout = {
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    controls,
     Component.DesktopOnly(Component.Explorer(explorerOpts)),
   ],
   right: [],

@@ -1,0 +1,159 @@
+---
+tags: ["4.0", materie]
+niveau: integratie
+status: geverifieerd
+bronnen:
+  - Wet ITAA art. 36, 37, 40, 48, 49
+itaa-lex: XXI, p. 2604
+---
+
+# Deontologische beginselen
+
+De deontologische beginselen zijn de wettelijk verankerde gedragsregels waaraan elke beroepsbeoefenaar ingeschreven bij het ITAA moet voldoen. Ze zijn niet vrijblijvend: schending ervan kan aanleiding geven tot een tuchtprocedure (zie [[itaa-als-instituut#-tuchtstelsel|tuchtstelsel]]).
+
+---
+
+## 📌 Deontologisch beginsel
+
+Een **deontologisch beginsel** is een fundamentele gedragsregel voor de uitoefening van het beroep. De wet somt er zeven op [^art-37] en noemt ze expliciet als minimumvereiste — er kunnen er meer gelden op basis van normen of aanbevelingen van het ITAA.
+
+---
+
+## ⚖️ Onafhankelijkheid
+
+Onafhankelijkheid staat in art. 37 als **overkoepelende eis**, vóór de opsomming van de 7 beginselen. De wet schrijft dat elke ingeschrevene handelt in "**volledige onafhankelijkheid**", en vervolgens "met respect voor de beginselen van de deontologie" [^art-37]. Onafhankelijkheid is dus niet het 8e beginsel — het is het kader waarbinnen de 7 beginselen gelden.
+
+Onafhankelijkheid heeft twee dimensies:
+
+- **Feitelijke onafhankelijkheid** *(independence in fact)*: de beroepsbeoefenaar laat zich in zijn oordeel en conclusies niet beïnvloeden door anderen — ook niet door de cliënt die hem betaalt
+- **Schijn van onafhankelijkheid** *(independence in appearance)*: ook naar buiten toe mag er geen gerechtvaardigde twijfel bestaan over zijn objectiviteit — een redelijke derde mag niet concluderen dat hij partijdig is
+
+Beide dimensies moeten aanwezig zijn. Een beroepsbeoefenaar die feitelijk onafhankelijk is maar schijnbaar partijdig, handelt al in strijd met art. 37.
+
+> [!info]- In de praktijk: aandelen als onafhankelijkheidsprobleem
+>
+> Een accountant bezit aandelen in de vennootschap waaraan hij fiscaal advies geeft. Hij is ervan overtuigd dat hij objectief adviseert — hij is feitelijk onafhankelijk. Toch handelt hij in strijd met art. 37: een redelijke derde die weet dat hij aandeelhouder is, mag twijfelen aan zijn objectiviteit. De schijn van onafhankelijkheid ontbreekt. De oplossing: de aandelen afstoten of de opdracht niet aanvaarden.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Onafhankelijkheid als achtste beginsel
+> ❌ *"Onafhankelijkheid is één van de zeven deontologische beginselen."*
+>
+> Onafhankelijkheid staat in art. 37 als **overkoepelende eis vóór de opsomming** van de zeven beginselen. De zeven beginselen gelden *in het kader van* die onafhankelijkheid — onafhankelijkheid is niet het achtste item in de reeks.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Objectiviteit en onafhankelijkheid zijn hetzelfde
+> ❌ *"Objectiviteit en onafhankelijkheid betekenen hetzelfde — wie objectief is, is ook onafhankelijk."*
+>
+> **Objectiviteit** is één van de zeven deontologische beginselen: geen vooringenomenheid, geen belangenconflicten, geen ongepaste beïnvloeding toelaten in het professioneel oordeel. **Onafhankelijkheid** is het overkoepelend kader — het vereist zowel feitelijke vrijheid van beïnvloeding als de schijn daarvan naar buitenstaanders. Een beroepsbeoefenaar kan subjectief handelen (beginsel 3 schenden) zonder dat er een onafhankelijkheidsprobleem is, en omgekeerd: hij kan feitelijk objectief zijn maar schijnbaar niet onafhankelijk.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## ⚖️ De 7 deontologische beginselen
+
+Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar met respect voor de volgende zeven beginselen [^art-37]:
+
+| # | Beginsel | Kern |
+|---|----------|------|
+| 1 | **Verantwoordelijkheid voor het openbaar belang** | De beroepsbeoefenaar dient niet enkel zijn cliënt maar ook de samenleving — betrouwbare financiële informatie is een publiek goed |
+| 2 | **Integriteit** | Eerlijk, rechtschapen en oprecht in alle professionele en zakelijke relaties |
+| 3 | **Objectiviteit** | Geen vooringenomenheid, belangenconflicten of ongepaste beïnvloeding toelaten |
+| 4 | **Vakbekwaamheid** | Beschikken over de nodige kennis en vaardigheden, en die actueel houden |
+| 5 | **Zorgvuldigheid** | Opdrachten nauwgezet en tijdig uitvoeren conform de geldende normen |
+| 6 | **Vertrouwelijkheid** | Vertrouwelijke informatie niet bekendmaken zonder toestemming — zie [[beroepsgeheim]] |
+| 7 | **Professionaliteit** | Zich gedragen in overeenstemming met de reputatie van het beroep |
+
+---
+
+## 🔒 Verbod op onverenigbaarheden en belangenconflicten
+
+De beroepsbeoefenaar mag geen activiteiten uitoefenen of daden stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid [^art-48]:
+
+- **Onverenigbaarheid**: activiteiten die de onafhankelijkheid structureel aantasten (bv. een commercieel mandaat dat strijdig is met de rol van onafhankelijk adviseur)
+- **Belangenconflict**: een opdracht aanvaarden onder voorwaarden die een objectieve uitvoering in het gedrang brengen (bv. tegelijk adviseur zijn van twee partijen met tegengestelde belangen)
+
+De beoordeling is **situationeel**: de wet geeft geen limitatieve lijst van verboden situaties. De beroepsbeoefenaar beoordeelt per geval of zijn onafhankelijkheid gewaarborgd is. Bij twijfel: de opdracht weigeren of neerleggen.
+
+De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en uitzonderingen [^art-49].
+
+> [!info]- In de praktijk: twee partijen met tegengesteld belang
+>
+> Een accountant begeleidt een vennootschap bij de overdracht van haar aandelen. Nadien vraagt de koper hem ook om zijn boekhouding te voeren. Dat lijkt onschuldig, maar de accountant heeft in het verkoopproces vertrouwelijke informatie over de vennootschap verkregen — informatie die de koper nu indirect toegankelijk maakt via de boekhoudrelatie. Dit is een situatie van potentieel belangenconflict. De beroepsbeoefenaar moet nagaan of objectieve uitvoering van de nieuwe opdracht nog gewaarborgd is.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## 🔒 Aanvaarding van opdrachten
+
+De beroepsbeoefenaar mag enkel opdrachten aanvaarden waarvoor hij beschikt over de nodige [^art-40]:
+
+- **Bekwaamheid**: de vereiste kennis en vaardigheden voor de specifieke opdracht
+- **Medewerking**: de nodige toegang tot informatie en samenwerking van de cliënt
+- **Tijd**: voldoende capaciteit om de opdracht behoorlijk en tijdig uit te voeren
+
+Dit is een **actieve verplichting**: de beroepsbeoefenaar mag geen opdrachten aanvaarden die hij niet behoorlijk kan uitvoeren — ook niet als de cliënt hem daartoe aanzet of als het commercieel aantrekkelijk is.
+
+> [!warning]- Bekwaamheid alleen volstaat niet
+> ❌ *"Als ik de kennis heb om een opdracht uit te voeren, mag ik ze aanvaarden."*
+>
+> Art. 40 stelt drie **cumulatieve** voorwaarden: bekwaamheid, medewerking én tijd. Een accountant die inhoudelijk bekwaam is maar zijn agenda al vol heeft, mag de opdracht niet aanvaarden. Hetzelfde geldt als de cliënt geen toegang verleent tot de nodige documenten — dan ontbreekt de medewerking en is de opdracht niet uitvoerbaar.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## Relevant voor
+
+**[[4.0-deontologie|4.0 Deontologische beginselen en antiwitwaswetgeving]]**
+
+Taken:
+- *Een passend beleid voor de aanvaarding van klanten vaststellen*
+  - De beroepsdeontologie naleven
+
+### Voorbeeldvragen
+
+> [!question]- Adjustments en onafhankelijkheid
+>
+> Tijdens een contractueel beperkt nazicht bij een middelgrote onderneming stelt de externe accountant een groot aantal substantiële verbeteringen (adjustments) voor. Kan dit een probleem veroorzaken op het vlak van de deontologische regels inzake onafhankelijkheid?
+>
+> Ja of nee? Verklaar.
+>
+> > [!success]- Antwoord
+> >
+> > **Ja.**
+> >
+> > Wanneer adjustments talrijk en substantieel zijn, kan dit wijzen op een **self-review threat**: als de accountant eerder betrokken was bij de boekhouding of opstelling van de cijfers die hij nu naziet, controleert hij feitelijk zijn eigen werk. Dat ondermijnt de feitelijke én schijn van onafhankelijkheid. De beroepsbeoefenaar moet per geval beoordelen of zijn onafhankelijkheid gewaarborgd blijft — en bij twijfel de opdracht weigeren of neerleggen.
+> >
+> > *Zie: [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]]*
+>
+> 📝 *Uit voorbeeldexamen 2015*
+
+> [!question]- Drie vereisten voor aanvaarding opdracht
+>
+> Een beroepsbeoefenaar mag een opdracht aanvaarden als hij beschikt over de vereiste bekwaamheid. Klopt dit?
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout** — onvolledig.
+> >
+> > Bekwaamheid alleen volstaat niet. Art. 40 stelt drie **cumulatieve** vereisten: bekwaamheid, **medewerking** van de cliënt (toegang tot informatie) én **tijd** (voldoende capaciteit). Ontbreekt één van de drie, dan mag de opdracht niet aanvaard worden.
+> >
+> > *Zie: [[deontologische-beginselen#-aanvaarding-van-opdrachten|Aanvaarding van opdrachten]]*
+>
+> 🤖 *AI-aanvulling*
+
+Kenniselementen:
+- C.5 — Onverenigbaarheden
+- D.1 — Basisprincipes (de 7 deontologische beginselen)
+- D.2 — Onafhankelijkheid
+
+[^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
+[^art-48]: [[itaa-lex-XXI#art-48|Wet ITAA art. 48]]
+[^art-49]: [[itaa-lex-XXI#art-49|Wet ITAA art. 49]]
+[^art-40]: [[itaa-lex-XXI#art-40|Wet ITAA art. 40]]
