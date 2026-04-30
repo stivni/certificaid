@@ -688,8 +688,10 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 
 ### Stap 4 — Programmaonderdeel-fiche afwerken
 1. Vul de kenniselement-bullets in met links naar de juiste secties in de materie-fiches
-2. Vul de "Relevante materie"-sectie in met alle bijhorende materie-fiches
+2. Vul de "Relevante materie"-sectie in met alle bijhorende materie-fiches in **leeslogische volgorde** — de volgorde waarin een student die van nul begint, de fiches het best na elkaar zou lezen (begrippen vóór toepassingen, wetgeving vóór analyse). Geen inleidingszin, direct de lijst.
 3. Doorloop de verificatiestap (zie "Verificatiestap na het schrijven van een programmaonderdeel-fiche")
+
+**Niet opnemen in een programmaonderdeel-fiche**: een sectie "Aangehaalde wetteksten" of soortgelijk overzicht van bronnen — bronnen worden inline vermeld in de materie-fiches zelf, niet in de vakfiche.
 
 ### Stap 5 — Validatie door de gebruiker
 - Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
