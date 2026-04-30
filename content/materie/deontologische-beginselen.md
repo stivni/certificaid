@@ -16,7 +16,7 @@ De deontologische beginselen zijn de wettelijk verankerde gedragsregels waaraan 
 
 ## 📌 Persoon vs. beroepsbeoefenaar
 
-Hoofdstuk 6 van de Wet ITAA (art. 36–54) gebruikt bewust twee verschillende termen, met een verschillend toepassingsgebied [^art-36-3]:
+Hoofdstuk 6 van de Wet ITAA (art. 36–54) gebruikt bewust twee verschillende termen, met een verschillend toepassingsgebied ([[wetteksten/XXI-wet-itaa#art-36|ITAA-LEX XXI · Wet ITAA art. 36 §3]]):
 
 | Term | Wie valt eronder? |
 |------|-------------------|
@@ -35,13 +35,13 @@ Het verschil: **loontrekkenden** (IGA, IGBA) zijn "persoon", maar geen "beroepsb
 
 ## 📌 Deontologisch beginsel
 
-Een **deontologisch beginsel** is een fundamentele gedragsregel voor de uitoefening van het beroep. De wet somt er zeven op [^art-37] en noemt ze expliciet als minimumvereiste — er kunnen er meer gelden op basis van normen of aanbevelingen van het ITAA.
+Een **deontologisch beginsel** is een fundamentele gedragsregel voor de uitoefening van het beroep. De wet somt er zeven op ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]) en noemt ze expliciet als minimumvereiste — er kunnen er meer gelden op basis van normen of aanbevelingen van het ITAA.
 
 ---
 
 ## ⚖️ Onafhankelijkheid
 
-Onafhankelijkheid staat in art. 37 als **overkoepelende eis**, vóór de opsomming van de 7 beginselen. De wet schrijft dat elke ingeschrevene handelt in "**volledige onafhankelijkheid**", en vervolgens "met respect voor de beginselen van de deontologie" [^art-37]. Onafhankelijkheid is dus niet het 8e beginsel — het is het kader waarbinnen de 7 beginselen gelden.
+Onafhankelijkheid staat in art. 37 als **overkoepelende eis**, vóór de opsomming van de 7 beginselen. De wet schrijft dat elke ingeschrevene handelt in "**volledige onafhankelijkheid**", en vervolgens "met respect voor de beginselen van de deontologie" ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). Onafhankelijkheid is dus niet het 8e beginsel — het is het kader waarbinnen de 7 beginselen gelden.
 
 Onafhankelijkheid heeft twee dimensies:
 
@@ -74,7 +74,7 @@ Beide dimensies moeten aanwezig zijn. Een beroepsbeoefenaar die feitelijk onafha
 
 ## 📌 Assurance-opdracht
 
-Een opdracht waarbij de beroepsbeoefenaar een **conclusie of oordeel geeft waarop buitenstaanders mogen vertrouwen** [^kmo-norm]. Aandeelhouders, banken, de belastingdienst of een rechter kunnen op basis van dat oordeel beslissingen nemen — zij kennen de beroepsbeoefenaar niet, maar vertrouwen op zijn professionele stempel.
+Een opdracht waarbij de beroepsbeoefenaar een **conclusie of oordeel geeft waarop buitenstaanders mogen vertrouwen** (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`). Aandeelhouders, banken, de belastingdienst of een rechter kunnen op basis van dat oordeel beslissingen nemen — zij kennen de beroepsbeoefenaar niet, maar vertrouwen op zijn professionele stempel.
 
 Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 
@@ -87,7 +87,7 @@ Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 
 ## 📌 Niet-assurance-opdracht
 
-Een opdracht waarbij de beroepsbeoefenaar de cliënt helpt maar **geen professioneel oordeel geeft voor externe gebruikers**. De output is voor de cliënt zelf [^kmo-norm].
+Een opdracht waarbij de beroepsbeoefenaar de cliënt helpt maar **geen professioneel oordeel geeft voor externe gebruikers**. De output is voor de cliënt zelf (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`).
 
 Voorbeelden: [[boekhoudplicht-wer|boekhouding]] bijhouden, btw-aangifte opstellen, [[jaarrekening|jaarrekening]] samenstellen op basis van aangeleverde cijfers (samenstellingsopdracht).
 
@@ -95,7 +95,7 @@ Voorbeelden: [[boekhoudplicht-wer|boekhouding]] bijhouden, btw-aangifte opstelle
 
 ## ↔️ Onafhankelijkheidsvereisten: assurance vs. niet-assurance
 
-De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis]] van art. 37 geldt voor elke ingeschrevene bij elk type opdracht [^art-37]. De **gedetailleerde uitwerking** — welke situaties precies verboden zijn — is strenger bij assurance-opdrachten [^kmo-norm]:
+De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis]] van art. 37 geldt voor elke ingeschrevene bij elk type opdracht ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). De **gedetailleerde uitwerking** — welke situaties precies verboden zijn — is strenger bij assurance-opdrachten (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`):
 
 | | Assurance-opdracht | Niet-assurance-opdracht |
 |---|---|---|
@@ -104,7 +104,7 @@ De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis
 | **Verbod nevendiensten bij zelfde cliënt** | Ja — bv. boekhouding én controle bij zelfde cliënt is risico | Nee — maar zelfcontrolerisico bij combinatie |
 | **Documentatieplicht bedreigingen** | Ja | Nee |
 
-**Zelfcontrolerisico bij combinatie**: een beroepsbeoefenaar die voor dezelfde cliënt zowel de boekhouding opstelt (niet-assurance) als de jaarrekening controleert (assurance), controleert feitelijk zijn eigen werk. Dat is een **zelfcontrolebedreiging** *(self-review threat)*: zijn conclusie is niet meer onafhankelijk van de gegevens die hij zelf heeft ingevoerd [^kmo-norm].
+**Zelfcontrolerisico bij combinatie**: een beroepsbeoefenaar die voor dezelfde cliënt zowel de boekhouding opstelt (niet-assurance) als de jaarrekening controleert (assurance), controleert feitelijk zijn eigen werk. Dat is een **zelfcontrolebedreiging** *(self-review threat)*: zijn conclusie is niet meer onafhankelijk van de gegevens die hij zelf heeft ingevoerd (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`).
 
 > [!warning]- Samenstellingsopdracht heeft geen onafhankelijkheidseis
 > ❌ *"Bij een samenstellingsopdracht hoef ik niet onafhankelijk te zijn — de KMO-norm geldt enkel voor controle."*
@@ -123,7 +123,7 @@ De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis
 
 ## ⚖️ De 7 deontologische beginselen
 
-Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar met respect voor de volgende zeven beginselen [^art-37]:
+Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar met respect voor de volgende zeven beginselen ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]):
 
 | # | Beginsel | Kern |
 |---|----------|------|
@@ -139,14 +139,14 @@ Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar 
 
 ## 🔒 Verbod op onverenigbaarheden en belangenconflicten
 
-De beroepsbeoefenaar mag geen activiteiten uitoefenen of daden stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid [^art-48]:
+De beroepsbeoefenaar mag geen activiteiten uitoefenen of daden stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid ([[wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]):
 
 - **Onverenigbaarheid**: activiteiten die de onafhankelijkheid structureel aantasten (bv. een commercieel mandaat dat strijdig is met de rol van onafhankelijk adviseur)
 - **Belangenconflict**: een opdracht aanvaarden onder voorwaarden die een objectieve uitvoering in het gedrang brengen (bv. tegelijk adviseur zijn van twee partijen met tegengestelde belangen)
 
 De beoordeling is **situationeel**: de wet geeft geen limitatieve lijst van verboden situaties. De beroepsbeoefenaar beoordeelt per geval of zijn onafhankelijkheid gewaarborgd is. Bij twijfel: de opdracht weigeren of neerleggen.
 
-De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en uitzonderingen [^art-49].
+De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en uitzonderingen ([[wetteksten/XXI-wet-itaa#art-49|ITAA-LEX XXI · Wet ITAA art. 49]]).
 
 > [!info]- In de praktijk: twee partijen met tegengesteld belang
 >
@@ -158,7 +158,7 @@ De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en ui
 
 ## 🔒 Verboden bij assurance-opdrachten
 
-Bij [[deontologische-beginselen#-assurance-opdracht|assurance-opdrachten]] gelden drie absolute verboden die de onafhankelijkheid van de beroepsbeoefenaar, zijn kantoor en zijn netwerk bij dezelfde cliënt waarborgen [^kmo-norm].
+Bij [[deontologische-beginselen#-assurance-opdracht|assurance-opdrachten]] gelden drie absolute verboden die de onafhankelijkheid van de beroepsbeoefenaar, zijn kantoor en zijn netwerk bij dezelfde cliënt waarborgen (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`).
 
 ### Verbod op financiële belangen
 
@@ -170,7 +170,7 @@ Honoraria waarvan de hoogte afhankelijk is van het resultaat van de assurance-op
 
 ### Verbod op nevendiensten
 
-De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-opdracht wordt uitgevoerd [^kmo-norm]:
+De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-opdracht wordt uitgevoerd (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`):
 
 | # | Verboden nevendienst | Toelichting |
 |---|---|---|
@@ -201,7 +201,7 @@ De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-o
 
 ## 🔒 Aanvaarding van opdrachten
 
-De beroepsbeoefenaar mag enkel opdrachten aanvaarden waarvoor hij beschikt over de nodige [^art-40]:
+De beroepsbeoefenaar mag enkel opdrachten aanvaarden waarvoor hij beschikt over de nodige ([[wetteksten/XXI-wet-itaa#art-40|ITAA-LEX XXI · Wet ITAA art. 40]]):
 
 - **Bekwaamheid**: de vereiste kennis en vaardigheden voor de specifieke opdracht
 - **Medewerking**: de nodige toegang tot informatie en samenwerking van de cliënt
@@ -280,10 +280,3 @@ Kenniselementen:
 - C.5 — Onverenigbaarheden
 - D.1 — Basisprincipes (de 7 deontologische beginselen)
 - D.2 — Onafhankelijkheid
-
-[^art-36-3]: [[wetteksten/XXI-wet-itaa#art-36|Wet ITAA art. 36 §3]]
-[^art-37]: [[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]]
-[^kmo-norm]: KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`
-[^art-48]: [[wetteksten/XXI-wet-itaa#art-48|Wet ITAA art. 48]]
-[^art-49]: [[wetteksten/XXI-wet-itaa#art-49|Wet ITAA art. 49]]
-[^art-40]: [[wetteksten/XXI-wet-itaa#art-40|Wet ITAA art. 40]]

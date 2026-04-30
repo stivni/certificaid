@@ -19,7 +19,7 @@ De **Wet van 18 september 2017** (Antiwitwaswet) legt beroepsbeoefenaars drie in
 
 ## 📌 Witwassen van geld
 
-Het verbergen of verhullen van de **criminele herkomst** van geld of goederen. De wet erkent vier vormen [^art-2]:
+Het verbergen of verhullen van de **criminele herkomst** van geld of goederen. De wet erkent vier vormen ([[wetteksten/XVII-antiwitwaswet#art-2|ITAA-LEX XVII · AWW art. 2]]):
 
 1. **Omzetting of overdracht**: crimineel geld of goederen worden omgezet in andere activa of overgedragen aan derden, met als doel de criminele herkomst te verhelen. Voorbeelden: contant geld omzetten in vastgoed, een "lening" aan de eigen vennootschap die eigenlijk zwart geld is.
 2. **Verhelen of verhullen**: de werkelijke aard, oorsprong, vindplaats, vervreemding, rechten of eigendom worden verborgen — zonder de gelden noodzakelijk te verplaatsen. Voorbeeld: criminele winsten onderbrengen in een buitenlandse holdingstructuur.
@@ -36,7 +36,7 @@ Het verbergen of verhullen van de **criminele herkomst** van geld of goederen. D
 
 ## 📌 Financiering van terrorisme
 
-Het verstrekken of verzamelen van geldmiddelen met het oogmerk dat deze gebruikt worden door een terroristische organisatie of terrorist, zelfs **zonder band met een bepaalde daad** [^art-3].
+Het verstrekken of verzamelen van geldmiddelen met het oogmerk dat deze gebruikt worden door een terroristische organisatie of terrorist, zelfs **zonder band met een bepaalde daad** ([[wetteksten/XVII-antiwitwaswet#art-3|ITAA-LEX XVII · AWW art. 3]]).
 
 ---
 
@@ -52,7 +52,7 @@ De drie instrumenten (risicobeoordeling, cliëntenonderzoek, meldingsplicht) gel
 
 ## 📌 Onderworpen entiteit
 
-Een persoon of organisatie die verplicht is de Antiwitwaswet na te leven. [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|Gecertificeerde accountants]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerde belastingadviseurs]] vallen expliciet onder deze categorie [^art-5]:
+Een persoon of organisatie die verplicht is de Antiwitwaswet na te leven. [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|Gecertificeerde accountants]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerde belastingadviseurs]] vallen expliciet onder deze categorie ([[wetteksten/XVII-antiwitwaswet#art-5|ITAA-LEX XVII · AWW art. 5, §1, 24°–25°]]):
 
 - Gecertificeerde accountants en gecertificeerde belastingadviseurs (incl. stagiairs)
 - Accountants en fiscaal accountants ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]]
@@ -71,7 +71,7 @@ De Belgische financiële inlichtingeneenheid. De CFI analyseert meldingen van on
 ## 📌 Verantwoordelijke persoon (AMLCO)
 *Anti-Money Laundering Compliance Officer*
 
-De persoon die toeziet op de naleving van de Antiwitwaswet binnen een onderworpen entiteit [^art-9]:
+De persoon die toeziet op de naleving van de Antiwitwaswet binnen een onderworpen entiteit ([[wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]]):
 
 - Bij een **rechtspersoon** (bv. een accountantskantoor): aangewezen op het hoogste niveau van het bestuursorgaan
 - Bij een **zelfstandige beroepsbeoefenaar**: de beroepsbeoefenaar zelf
@@ -83,7 +83,7 @@ De gangbare Engelse benaming is Anti-Money Laundering Compliance Officer (AMLCO)
 ## 📌 Uiteindelijke begunstigde (UBO)
 *Ultimate Beneficial Owner*
 
-De natuurlijke persoon die in laatste instantie eigenaar is van of zeggenschap heeft over een vennootschap of juridische constructie. In de regel: personen die meer dan 25% van de aandelen of stemrechten bezitten [^art-23].
+De natuurlijke persoon die in laatste instantie eigenaar is van of zeggenschap heeft over een vennootschap of juridische constructie. In de regel: personen die meer dan 25% van de aandelen of stemrechten bezitten ([[wetteksten/XVII-antiwitwaswet#art-23|ITAA-LEX XVII · AWW art. 23]]).
 
 Het **UBO-register** (beheerd door de FOD Financiën) verplicht vennootschappen hun uiteindelijke begunstigden in te schrijven. De beroepsbeoefenaar raadpleegt dit register bij cliëntenonderzoek.
 
@@ -91,19 +91,19 @@ Het **UBO-register** (beheerd door de FOD Financiën) verplicht vennootschappen 
 
 ## ⚖️ Risicogebaseerde benadering
 
-De Antiwitwaswet verplicht niet tot gelijke behandeling van alle cliënten. De drie instrumenten worden ingezet **proportioneel aan het risico**.[^art-16]
+De Antiwitwaswet verplicht niet tot gelijke behandeling van alle cliënten. De drie instrumenten worden ingezet **proportioneel aan het risico**.([[wetteksten/XVII-antiwitwaswet#art-16|ITAA-LEX XVII · AWW art. 16]] + [[wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19]])
 
 **Twee niveaus van risicobeoordeling:**
 
-**Niveau 1 — Algemene risicobeoordeling (praktijkniveau)** [^art-16]: de beroepsbeoefenaar brengt de WG/FT-risico's waaraan zijn praktijk als geheel blootgesteld is in kaart, op basis van:
+**Niveau 1 — Algemene risicobeoordeling (praktijkniveau)** ([[wetteksten/XVII-antiwitwaswet#art-16|ITAA-LEX XVII · AWW art. 16]] + [[wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19]]): de beroepsbeoefenaar brengt de WG/FT-risico's waaraan zijn praktijk als geheel blootgesteld is in kaart, op basis van:
 - Kenmerken van zijn **cliënten** (sectoren, complexiteit, herkomst)
 - Aangeboden **producten en diensten** (fiscaal advies, boekhouding, bijzondere mandaten)
 - **Landen en geografische gebieden** (internationaal, risicolanden)
 - **Leveringskanalen** (face-to-face vs. volledig op afstand)
 
-Deze beoordeling moet **gedocumenteerd** zijn en regelmatig bijgewerkt worden [^art-17].
+Deze beoordeling moet **gedocumenteerd** zijn en regelmatig bijgewerkt worden ([[wetteksten/XVII-antiwitwaswet#art-17|ITAA-LEX XVII · AWW art. 17]]).
 
-**Niveau 2 — Individuele risicobeoordeling (per cliënt)** [^art-19]: op basis van de algemene beoordeling bepaalt de beroepsbeoefenaar het risico per cliënt of verrichting:
+**Niveau 2 — Individuele risicobeoordeling (per cliënt)** ([[wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19, §2]]): op basis van de algemene beoordeling bepaalt de beroepsbeoefenaar het risico per cliënt of verrichting:
 - **Hoog risico** → verhoogde waakzaamheid (uitgebreider cliëntenonderzoek, frequentere opvolging)
 - **Laag risico** → vereenvoudigde waakzaamheid mogelijk
 - Altijd aantoonbaar proportioneel
@@ -112,7 +112,7 @@ Deze beoordeling moet **gedocumenteerd** zijn en regelmatig bijgewerkt worden [^
 
 ## 🔒 Risicobeoordeling: intern beleid en de verantwoordelijke persoon
 
-Elke onderworpen entiteit stelt intern beleid op om witwassen van geld en financiering van terrorisme te voorkomen [^art-8]:
+Elke onderworpen entiteit stelt intern beleid op om witwassen van geld en financiering van terrorisme te voorkomen ([[wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8]]):
 
 - Gedragslijnen en procedures voor:
   - Cliëntacceptatie
@@ -122,7 +122,7 @@ Elke onderworpen entiteit stelt intern beleid op om witwassen van geld en financ
   - Interne controle
 - Sensibilisering en opleiding van personeel
 
-De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke persoon]] [^art-9] maakt interne verslagen op in drie situaties:
+De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke persoon]] ([[wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]]) maakt interne verslagen op in drie situaties:
 - Bij **atypische verrichtingen** (transacties die niet passen bij het gekende cliëntprofiel of geen logische economische verklaring hebben)
 - Wanneer de **risicobeoordelingsverplichting** niet kan worden nagekomen
 - Bij **weigering van een potentiële cliënt** wegens risico op witwassen of terrorismefinanciering
@@ -146,13 +146,13 @@ De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke pers
 ## 📋 Cliëntenonderzoek (CDD)
 *Customer Due Diligence*
 
-Cliëntenonderzoek bestaat uit drie verplichtingen [^art-19]:
+Cliëntenonderzoek bestaat uit drie verplichtingen ([[wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19, §2]]):
 
 1. **Identificatie en verificatie** van de identiteit van de cliënt
 2. **Beoordeling** van de kenmerken van de cliënt en het doel/de aard van de zakelijke relatie
 3. **Doorlopende waakzaamheid** ten aanzien van verrichtingen tijdens de zakelijke relatie
 
-**Wanneer cliëntenonderzoek verplicht** [^art-21]:
+**Wanneer cliëntenonderzoek verplicht** ([[wetteksten/XVII-antiwitwaswet#art-21|ITAA-LEX XVII · AWW art. 21]]):
 - Bij het **aangaan van een zakelijke relatie**
 - Bij **occasionele verrichtingen van €10.000 of meer**
 - Bij **vermoedens van witwassen of terrorismefinanciering** — ongeacht het bedrag
@@ -160,8 +160,8 @@ Cliëntenonderzoek bestaat uit drie verplichtingen [^art-19]:
 
 **Wie wordt geïdentificeerd:**
 - De **cliënt zelf**: naam, adres, rijksregisternummer of ondernemingsnummer
-- De **lasthebber** [^art-22]: de persoon die optreedt namens de cliënt
-- De **[[antiwitwaswetgeving#-uiteindelijke-begunstigde-ubo|uiteindelijke begunstigde]]** [^art-23]: de natuurlijke persoon die in laatste instantie eigenaar is of zeggenschap heeft
+- De **lasthebber** ([[wetteksten/XVII-antiwitwaswet#art-22|ITAA-LEX XVII · AWW art. 22]]): de persoon die optreedt namens de cliënt
+- De **[[antiwitwaswetgeving#-uiteindelijke-begunstigde-ubo|uiteindelijke begunstigde]]** ([[wetteksten/XVII-antiwitwaswet#art-23|ITAA-LEX XVII · AWW art. 23]]): de natuurlijke persoon die in laatste instantie eigenaar is of zeggenschap heeft
 
 > [!warning]- Cliëntenonderzoek is structureel, niet uitzonderlijk
 > ❌ *"Cliëntenonderzoek is enkel verplicht wanneer er een vermoeden van witwassen is."*
@@ -176,15 +176,15 @@ Cliëntenonderzoek bestaat uit drie verplichtingen [^art-19]:
 
 ### Meldingsplicht
 
-Wanneer een onderworpen entiteit **weet, vermoedt of redelijke gronden heeft om te vermoeden** dat geldmiddelen of verrichtingen verband houden met witwassen van geld of financiering van terrorisme, is zij verplicht dit onmiddellijk te melden aan de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] [^art-47].
+Wanneer een onderworpen entiteit **weet, vermoedt of redelijke gronden heeft om te vermoeden** dat geldmiddelen of verrichtingen verband houden met witwassen van geld of financiering van terrorisme, is zij verplicht dit onmiddellijk te melden aan de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] ([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]).
 
 **Kenmerken van de meldingsplicht:**
 - Drempel: al bij een **vermoeden** of **redelijke gronden** — géén zekerheid vereist
 - **Geen minimumbedrag**
 - Geldt ook voor **pogingen** tot verrichtingen die niet worden uitgevoerd
-- Timing [^art-51]: bij voorkeur **vóór** de verrichting; indien dat niet mogelijk is, onmiddellijk daarna
+- Timing ([[wetteksten/XVII-antiwitwaswet#art-51|ITAA-LEX XVII · AWW art. 51]]): bij voorkeur **vóór** de verrichting; indien dat niet mogelijk is, onmiddellijk daarna
 
-**Uitzondering: juridisch advies en rechtsgeding** [^art-53]: de meldingsplicht geldt **niet** voor informatie ontvangen bij:
+**Uitzondering: juridisch advies en rechtsgeding** ([[wetteksten/XVII-antiwitwaswet#art-53|ITAA-LEX XVII · AWW art. 53]]): de meldingsplicht geldt **niet** voor informatie ontvangen bij:
 - **Bepaling van de rechtspositie** van een cliënt: de beroepsbeoefenaar informeert de cliënt over zijn juridische situatie (bv. welk risico hij loopt bij een bepaalde transactie) — dit valt onder zijn adviserende rol
 - **Verdediging of vertegenwoordiging** bij of in verband met een rechtsgeding, inclusief advies over het instellen of vermijden van een procedure
 
@@ -199,18 +199,18 @@ De uitzondering **vervalt** als de beroepsbeoefenaar zelf heeft deelgenomen aan 
 
 ### Verbod op mededeling (tipping-off)
 
-Het is **verboden** om aan de betrokken cliënt of aan derden mee te delen dat [^art-55]:
+Het is **verboden** om aan de betrokken cliënt of aan derden mee te delen dat ([[wetteksten/XVII-antiwitwaswet#art-55|ITAA-LEX XVII · AWW art. 55, §1]]):
 - Een melding gedaan is aan de CFI, of
 - Een analyse aan de gang is of kan worden geopend
 
 Dit verbod primeert op de [[beroepsgeheim#-discretieplicht|discretieplicht]] ten aanzien van de cliënt: ook als de cliënt rechtstreeks vraagt of er gemeld is, mag de beroepsbeoefenaar dit **niet bevestigen of ontkennen**.
 
-**Samenhang met het [[beroepsgeheim|beroepsgeheim en de discretieplicht]]**: de meldingsplicht is een wettelijke uitzondering op de geheimhoudingsplicht [^art-51-2]. Melden aan de CFI is géén schending van het beroepsgeheim. Na de melding geldt echter het tipping-off verbod: de beroepsbeoefenaar mag de cliënt hier niet over inlichten.
+**Samenhang met het [[beroepsgeheim|beroepsgeheim en de discretieplicht]]**: de meldingsplicht is een wettelijke uitzondering op de geheimhoudingsplicht ([[wetteksten/XXI-wet-itaa#art-51|ITAA-LEX XXI · Wet ITAA art. 51, 2°]]). Melden aan de CFI is géén schending van het beroepsgeheim. Na de melding geldt echter het tipping-off verbod: de beroepsbeoefenaar mag de cliënt hier niet over inlichten.
 
 > [!warning]- Melden en zwijgen: twee verplichtingen tegelijk
 > ❌ *"Melden aan de CFI schendt mijn beroepsgeheim ten aanzien van de cliënt."*
 >
-> Nee — de meldingsplicht is wettelijk geregeld als **uitzondering** op de geheimhoudingsplicht [^art-51-2]. Er is geen strijdigheid. Maar daarna geldt het tipping-off verbod: de beroepsbeoefenaar mag de cliënt **niet** informeren dat er gemeld is.
+> Nee — de meldingsplicht is wettelijk geregeld als **uitzondering** op de geheimhoudingsplicht ([[wetteksten/XXI-wet-itaa#art-51|ITAA-LEX XXI · Wet ITAA art. 51, 2°]]). Er is geen strijdigheid. Maar daarna geldt het tipping-off verbod: de beroepsbeoefenaar mag de cliënt **niet** informeren dat er gemeld is.
 >
 > 📝 *Gebaseerd op het type examenvragen in voorbeeldexamen 2015*
 
@@ -218,9 +218,9 @@ Dit verbod primeert op de [[beroepsgeheim#-discretieplicht|discretieplicht]] ten
 
 ## 🔒 Beperking gebruik contanten
 
-**Onroerend goed** [^art-66]: betaling uitsluitend via overschrijving of cheque — geen contante betaling, ongeacht het bedrag.
+**Onroerend goed** ([[wetteksten/XVII-antiwitwaswet#art-66|ITAA-LEX XVII · AWW art. 66]]): betaling uitsluitend via overschrijving of cheque — geen contante betaling, ongeacht het bedrag.
 
-**Algemene grens** [^art-67]: geen betaling **of schenking** in contanten voor meer dan **€3.000** per verrichting of geheel van samenhangende verrichtingen.
+**Algemene grens** ([[wetteksten/XVII-antiwitwaswet#art-67|ITAA-LEX XVII · AWW art. 67, §2]]): geen betaling **of schenking** in contanten voor meer dan **€3.000** per verrichting of geheel van samenhangende verrichtingen.
 
 Dit verbod geldt voor **iedereen** — niet alleen voor onderworpen entiteiten.
 
@@ -379,23 +379,3 @@ Kenniselementen:
 > > *Zie: [[antiwitwaswetgeving#-uiteindelijke-begunstigde-ubo|Uiteindelijke begunstigde (UBO)]]*
 >
 > 🤖 *AI-aanvulling*
-
-[^art-2]: [[wetteksten/XVII-antiwitwaswet#art-2|AWW art. 2]]
-[^art-3]: [[wetteksten/XVII-antiwitwaswet#art-3|AWW art. 3]]
-[^art-5]: [[wetteksten/XVII-antiwitwaswet#art-5|AWW art. 5, §1, 24°–25°]]
-[^art-9]: [[wetteksten/XVII-antiwitwaswet#art-9|AWW art. 9]]
-[^art-23]: [[wetteksten/XVII-antiwitwaswet#art-23|AWW art. 23]]
-[^art-16]: [[wetteksten/XVII-antiwitwaswet#art-16|AWW art. 16]]
-[^art-17]: [[wetteksten/XVII-antiwitwaswet#art-17|AWW art. 17]]
-[^art-19]: [[wetteksten/XVII-antiwitwaswet#art-19|AWW art. 19, §2]]
-[^art-8]: [[wetteksten/XVII-antiwitwaswet#art-8|AWW art. 8]]
-[^art-21]: [[wetteksten/XVII-antiwitwaswet#art-21|AWW art. 21]]
-[^art-22]: [[wetteksten/XVII-antiwitwaswet#art-22|AWW art. 22]]
-[^art-47]: [[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]
-[^art-51]: [[wetteksten/XVII-antiwitwaswet#art-51|AWW art. 51]]
-[^art-53]: [[wetteksten/XVII-antiwitwaswet#art-53|AWW art. 53]]
-[^art-55]: [[wetteksten/XVII-antiwitwaswet#art-55|AWW art. 55, §1]]
-[^art-51-2]: [[wetteksten/XXI-wet-itaa#art-51|Wet ITAA art. 51, 2°]]
-[^art-66]: [[wetteksten/XVII-antiwitwaswet#art-66|AWW art. 66]]
-[^art-67]: [[wetteksten/XVII-antiwitwaswet#art-67|AWW art. 67, §2]]
-[^art-16]: [[wetteksten/XVII-antiwitwaswet#art-16|AWW art. 16]] + [[wetteksten/XVII-antiwitwaswet#art-19|art. 19]]

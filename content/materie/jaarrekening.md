@@ -15,19 +15,19 @@ Elke vennootschap met rechtspersoonlijkheid en elke vzw/ivzw is verplicht jaarli
 
 ## 📌 Jaarrekening
 
-Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedkeuring voorlegt aan de algemene vergadering. De jaarrekening **bestaat uit drie onderdelen die samen één geheel vormen** [^art-3-1]:
+Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedkeuring voorlegt aan de algemene vergadering. De jaarrekening **bestaat uit drie onderdelen die samen één geheel vormen** ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]):
 
 1. **Balans** — toestand van activa en passiva op de afsluitingsdatum
 2. **Resultatenrekening** — overzicht van kosten en opbrengsten van het boekjaar
 3. **Toelichting** — aanvullende informatie bij de cijfers van balans en resultatenrekening
 
-Het bestuursorgaan maakt ook elk jaar een **[[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]]** op als basis voor de jaarrekening [^art-3-1].
+Het bestuursorgaan maakt ook elk jaar een **[[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]]** op als basis voor de jaarrekening ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
 
 ---
 
 ## 📌 Volledig schema
 
-Het standaardschema dat de Koning heeft vastgesteld voor de jaarrekening. Van toepassing op **grote vennootschappen**, genoteerde vennootschappen en organisaties van openbaar belang [^art-3-1] [^art-3-2].
+Het standaardschema dat de Koning heeft vastgesteld voor de jaarrekening. Van toepassing op **grote vennootschappen**, genoteerde vennootschappen en organisaties van openbaar belang ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]) ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
 
 Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelling), die verplicht is voor alle vennootschappen die personeel tewerkstellen.
 
@@ -35,13 +35,13 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 📌 Verkort schema
 
-**Kleine vennootschappen** (die niet genoteerd zijn en geen organisatie van openbaar belang) **mogen** hun jaarrekening opmaken volgens een verkort schema met minder rubrieken dan het volledig schema [^art-3-2].
+**Kleine vennootschappen** (die niet genoteerd zijn en geen organisatie van openbaar belang) **mogen** hun jaarrekening opmaken volgens een verkort schema met minder rubrieken dan het volledig schema ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
 
 ---
 
 ## 📌 Microschema
 
-**Microvennootschappen** mogen een nog verder vereenvoudigd **microschema** gebruiken [^art-3-3]. Dit schema bevat enkel de meest essentiële informatie.
+**Microvennootschappen** mogen een nog verder vereenvoudigd **microschema** gebruiken ([[wetteksten/XV-wvv#art-33|ITAA-LEX XV · WVV art. 3:3]]). Dit schema bevat enkel de meest essentiële informatie.
 
 ---
 
@@ -60,11 +60,11 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 📋 Procedure: van boekjaarafsluiting tot neerlegging
 
-**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op [^art-3-1].
+**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
 
-**Stap 2 — Goedkeuring door de algemene vergadering**: de jaarrekening moet **binnen 6 maanden** na afsluiting van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering [^art-3-1]. Als dit niet tijdig gebeurt, wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim.
+**Stap 2 — Goedkeuring door de algemene vergadering**: de jaarrekening moet **binnen 6 maanden** na afsluiting van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]). Als dit niet tijdig gebeurt, wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim.
 
-**Stap 3 — Neerlegging bij de NBB**: binnen **30 dagen** na goedkeuring en **uiterlijk 7 maanden** na afsluiting legt het bestuursorgaan de jaarrekening neer bij de Nationale Bank van België [^art-3-10].
+**Stap 3 — Neerlegging bij de NBB**: binnen **30 dagen** na goedkeuring en **uiterlijk 7 maanden** na afsluiting legt het bestuursorgaan de jaarrekening neer bij de Nationale Bank van België ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 > [!info]- In de praktijk
 >
@@ -76,7 +76,7 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 🔒 Wat wordt neergelegd bij de NBB
 
-Naast de jaarrekening zelf worden de volgende stukken meegestuurd [^art-3-12]:
+Naast de jaarrekening zelf worden de volgende stukken meegestuurd ([[wetteksten/XV-wvv#art-312|ITAA-LEX XV · WVV art. 3:12]]):
 
 1. Identiteitsgegevens van de leden van het bestuursorgaan en de eventuele commissaris (of [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] belast met verificatie — een vrijwillige, beperktere controletaak voor ondernemingen zonder wettelijke commissarisplicht)
 2. Overzicht van de bestemming van het resultaat (indien niet uit de jaarrekening zelf blijkt)
@@ -86,23 +86,23 @@ Naast de jaarrekening zelf worden de volgende stukken meegestuurd [^art-3-12]:
 6. Jaarverslag (enkel voor grote vennootschappen en bepaalde andere categorieën — zie [[jaarverslag|jaarverslag]])
 7. Lijst van deelnemingen
 
-**Kleine en microvennootschappen** mogen de jaarrekening neerleggen in de verkorte of microvorm — de volledige jaarrekening is voor hen niet openbaar [^art-3-11].
+**Kleine en microvennootschappen** mogen de jaarrekening neerleggen in de verkorte of microvorm — de volledige jaarrekening is voor hen niet openbaar ([[wetteksten/XV-wvv#art-311|ITAA-LEX XV · WVV art. 3:11]]).
 
 ---
 
 ## 📌 Commissaris
 
-De controle van de financiële toestand, de jaarrekening en de regelmatigheid van de verrichtingen wordt toevertrouwd aan een **commissaris** — een bedrijfsrevisor aangesteld door de algemene vergadering [^art-3-73].
+De controle van de financiële toestand, de jaarrekening en de regelmatigheid van de verrichtingen wordt toevertrouwd aan een **commissaris** — een bedrijfsrevisor aangesteld door de algemene vergadering ([[wetteksten/XV-wvv#art-373|ITAA-LEX XV · WVV art. 3:73]]).
 
-**Commissarisplicht geldt voor** [^art-3-72]:
+**Commissarisplicht geldt voor** ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]):
 - Grote vennootschappen
 - Genoteerde vennootschappen
 - Organisaties van openbaar belang (art. 1:12, 2° en 5°)
 - Kleine vennootschappen die deel uitmaken van een groep die verplicht geconsolideerd rapporteert
 
-**Geen commissarisplicht** voor niet-genoteerde kleine vennootschappen, microvennootschappen en vof's/comm.v.'s (tenzij deel van een consoliderende groep) [^art-3-72].
+**Geen commissarisplicht** voor niet-genoteerde kleine vennootschappen, microvennootschappen en vof's/comm.v.'s (tenzij deel van een consoliderende groep) ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]).
 
-De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding van de jaarrekening en bezorgt dit aan de algemene vergadering. Het bestuursorgaan bezorgt hem de nodige stukken ten minste **1 maand** voor de vergadering (45 dagen voor genoteerde vennootschappen) [^art-3-74].
+De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding van de jaarrekening en bezorgt dit aan de algemene vergadering. Het bestuursorgaan bezorgt hem de nodige stukken ten minste **1 maand** voor de vergadering (45 dagen voor genoteerde vennootschappen) ([[wetteksten/XV-wvv#art-374|ITAA-LEX XV · WVV art. 3:74]]).
 
 ---
 
@@ -164,13 +164,3 @@ Kenniselementen:
 > > *Zie: [[jaarrekening#-commissaris|Commissaris]]*
 >
 > 🤖 *AI-aanvulling*
-
-[^art-3-1]: [[wetteksten/XV-wvv#art-31|WVV art. 3:1]]
-[^art-3-2]: [[wetteksten/XV-wvv#art-32|WVV art. 3:2]]
-[^art-3-3]: [[wetteksten/XV-wvv#art-33|WVV art. 3:3]]
-[^art-3-10]: [[wetteksten/XV-wvv#art-310|WVV art. 3:10]]
-[^art-3-11]: [[wetteksten/XV-wvv#art-311|WVV art. 3:11]]
-[^art-3-12]: [[wetteksten/XV-wvv#art-312|WVV art. 3:12]]
-[^art-3-72]: [[wetteksten/XV-wvv#art-372|WVV art. 3:72]]
-[^art-3-73]: [[wetteksten/XV-wvv#art-373|WVV art. 3:73]]
-[^art-3-74]: [[wetteksten/XV-wvv#art-374|WVV art. 3:74]]

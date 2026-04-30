@@ -16,15 +16,15 @@ De grootte van een vennootschap of vereniging — *micro*, *klein* of *groot* �
 
 ## 📌 Netto-omzet
 
-Het bedrag met betrekking tot de verkoop van goederen en de verlening van diensten, **na aftrek van kortingen en btw** en andere rechtstreeks met de omzet verbonden belastingen [^art-1-26-1].
+Het bedrag met betrekking tot de verkoop van goederen en de verlening van diensten, **na aftrek van kortingen en btw** en andere rechtstreeks met de omzet verbonden belastingen ([[wetteksten/XV-wvv#art-1261|ITAA-LEX XV · WVV art. 1:26/1]]).
 
-Wanneer de opbrengsten van het gewone bedrijf voor meer dan de helft **niet** als netto-omzet kwalificeren, geldt als maatstaf: het totaal van de bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten [^art-1-24].
+Wanneer de opbrengsten van het gewone bedrijf voor meer dan de helft **niet** als netto-omzet kwalificeren, geldt als maatstaf: het totaal van de bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]).
 
 ---
 
 ## 📌 Kleine vennootschap
 
-Vennootschap met rechtspersoonlijkheid die op de balansdatum van het **laatste afgesloten boekjaar maximaal één** van de volgende criteria overschrijdt — d.w.z. hooguit één drempel mag worden overschreden, twee of drie betekent "groot" [^art-1-24]:
+Vennootschap met rechtspersoonlijkheid die op de balansdatum van het **laatste afgesloten boekjaar maximaal één** van de volgende criteria overschrijdt — d.w.z. hooguit één drempel mag worden overschreden, twee of drie betekent "groot" ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]):
 
 | Criterium | Drempel |
 |-----------|---------|
@@ -36,7 +36,7 @@ Vennootschap met rechtspersoonlijkheid die op de balansdatum van het **laatste a
 
 ## 📌 Microvennootschap
 
-Kleine vennootschap met rechtspersoonlijkheid die **geen dochter- of moedervennootschap** is én op de balansdatum van het laatste afgesloten boekjaar **niet meer dan één** van de volgende criteria overschrijdt [^art-1-25]:
+Kleine vennootschap met rechtspersoonlijkheid die **geen dochter- of moedervennootschap** is én op de balansdatum van het laatste afgesloten boekjaar **niet meer dan één** van de volgende criteria overschrijdt ([[wetteksten/XV-wvv#art-125|ITAA-LEX XV · WVV art. 1:25]]):
 
 | Criterium | Drempel |
 |-----------|---------|
@@ -44,19 +44,19 @@ Kleine vennootschap met rechtspersoonlijkheid die **geen dochter- of moedervenno
 | Netto-omzet excl. btw | € 900.000 |
 | Balanstotaal | € 450.000 |
 
-Een microvennootschap is dus een bijzondere **subcategorie** van de kleine vennootschap — extra voorwaarde is dat ze geen deel uitmaakt van een groep [^art-1-25].
+Een microvennootschap is dus een bijzondere **subcategorie** van de kleine vennootschap — extra voorwaarde is dat ze geen deel uitmaakt van een groep ([[wetteksten/XV-wvv#art-125|ITAA-LEX XV · WVV art. 1:25]]).
 
 ---
 
 ## 📌 Grote vennootschap
 
-Elke vennootschap met rechtspersoonlijkheid die **meer dan één** criterium van de kleine vennootschap overschrijdt. Er is geen afzonderlijk wetsartikel voor "grote vennootschappen" — de definitie volgt uit het niet voldoen aan de voorwaarden voor kleine vennootschappen [^art-1-24].
+Elke vennootschap met rechtspersoonlijkheid die **meer dan één** criterium van de kleine vennootschap overschrijdt. Er is geen afzonderlijk wetsartikel voor "grote vennootschappen" — de definitie volgt uit het niet voldoen aan de voorwaarden voor kleine vennootschappen ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]).
 
 ---
 
 ## 📌 Kleine vzw en kleine ivzw
 
-Vzw's en ivzw's die op de balansdatum niet meer dan één van de volgende criteria overschrijden [^art-1-28]:
+Vzw's en ivzw's die op de balansdatum niet meer dan één van de volgende criteria overschrijden ([[wetteksten/XV-wvv#art-128|ITAA-LEX XV · WVV art. 1:28]]):
 
 | Criterium | Drempel |
 |-----------|---------|
@@ -64,13 +64,13 @@ Vzw's en ivzw's die op de balansdatum niet meer dan één van de volgende criter
 | Jaaromzet excl. btw | € 11.250.000 |
 | Balanstotaal | € 6.000.000 |
 
-Dezelfde drempels als voor kleine vennootschappen, maar voor vzw's geldt de term "jaaromzet" (niet "netto-omzet" in de technische zin van art. 1:26/1) [^art-1-28].
+Dezelfde drempels als voor kleine vennootschappen, maar voor vzw's geldt de term "jaaromzet" (niet "netto-omzet" in de technische zin van art. 1:26/1) ([[wetteksten/XV-wvv#art-128|ITAA-LEX XV · WVV art. 1:28]]).
 
 ---
 
 ## ⚖️ De twee-jaar-regel
 
-Een categorieverandering heeft **pas gevolgen** wanneer meer dan één criterium gedurende **twee opeenvolgende boekjaren** wordt overschreden of niet meer wordt overschreden. De gevolgen treden dan in werking **vanaf het boekjaar dat volgt** op dat tweede boekjaar [^art-1-24].
+Een categorieverandering heeft **pas gevolgen** wanneer meer dan één criterium gedurende **twee opeenvolgende boekjaren** wordt overschreden of niet meer wordt overschreden. De gevolgen treden dan in werking **vanaf het boekjaar dat volgt** op dat tweede boekjaar ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]).
 
 Dit voorkomt dat een onderneming elk jaar van categorie wisselt door een toevallige piek of dip.
 
@@ -80,9 +80,9 @@ Dit voorkomt dat een onderneming elk jaar van categorie wisselt door een toevall
 >
 > 🤖 *AI-aanvulling*
 
-**Starters** schatten de criteria bij het begin van het eerste boekjaar te goeder trouw. Als meer dan één criterium naar verwachting zal worden overschreden, moet meteen met de grote categorie worden rekening gehouden — er is geen "aanloopperiode" [^art-1-24].
+**Starters** schatten de criteria bij het begin van het eerste boekjaar te goeder trouw. Als meer dan één criterium naar verwachting zal worden overschreden, moet meteen met de grote categorie worden rekening gehouden — er is geen "aanloopperiode" ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]).
 
-**Gebroken boekjaar**: de omzetdrempel wordt proportioneel berekend (× maanden/12, waarbij elke begonnen maand telt) [^art-1-24].
+**Gebroken boekjaar**: de omzetdrempel wordt proportioneel berekend (× maanden/12, waarbij elke begonnen maand telt) ([[wetteksten/XV-wvv#art-124|ITAA-LEX XV · WVV art. 1:24]]).
 
 ---
 
@@ -92,11 +92,11 @@ De categorie bepaalt drie dingen: het [[jaarrekening|jaarrekeningschema]], de [[
 
 | | **Micro** | **Klein** | **Groot** |
 |-|-----------|-----------|-----------|
-| **Jaarrekeningschema** | Microschema [^art-3-3] | Verkort schema [^art-3-2] | Volledig schema |
-| **Jaarverslag** | Niet verplicht [^art-3-4] | Niet verplicht [^art-3-4] | Verplicht |
-| **Commissaris** | Niet verplicht [^art-3-72] | Niet verplicht [^art-3-72] | Verplicht |
+| **Jaarrekeningschema** | Microschema ([[wetteksten/XV-wvv#art-33|ITAA-LEX XV · WVV art. 3:3]]) | Verkort schema ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]) | Volledig schema |
+| **Jaarverslag** | Niet verplicht ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]) | Niet verplicht ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]) | Verplicht |
+| **Commissaris** | Niet verplicht ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]) | Niet verplicht ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]) | Verplicht |
 
-**Uitzonderingen** — zelfs kleine en microvennootschappen zijn wél verplicht tot een volledig schema, jaarverslag en commissaris wanneer ze [^art-3-2] [^art-3-4] [^art-3-72]:
+**Uitzonderingen** — zelfs kleine en microvennootschappen zijn wél verplicht tot een volledig schema, jaarverslag en commissaris wanneer ze ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]) ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]) ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]):
 - Beursgenoteerd zijn
 - Een organisatie van openbaar belang zijn (art. 1:12, 2° of 5°)
 - Deel uitmaken van een groep die geconsolideerde jaarrekeningen opstelt (voor commissarisplicht)
@@ -187,12 +187,3 @@ Kenniselementen:
 > > *Zie: [[groottecriteria-vennootschappen-verenigingen#️-gevolgen-van-de-groottecategorie|Gevolgen van de groottecategorie]]*
 >
 > 🤖 *AI-aanvulling*
-
-[^art-1-24]: [[wetteksten/XV-wvv#art-124|WVV art. 1:24]]
-[^art-1-25]: [[wetteksten/XV-wvv#art-125|WVV art. 1:25]]
-[^art-1-26-1]: [[wetteksten/XV-wvv#art-1261|WVV art. 1:26/1]]
-[^art-1-28]: [[wetteksten/XV-wvv#art-128|WVV art. 1:28]]
-[^art-3-2]: [[wetteksten/XV-wvv#art-32|WVV art. 3:2]]
-[^art-3-3]: [[wetteksten/XV-wvv#art-33|WVV art. 3:3]]
-[^art-3-4]: [[wetteksten/XV-wvv#art-34|WVV art. 3:4]]
-[^art-3-72]: [[wetteksten/XV-wvv#art-372|WVV art. 3:72]]

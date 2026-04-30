@@ -9,12 +9,27 @@ Gestructureerde studiematerie die:
 - Terugkoppelt naar de TDKs uit de officiële ITAA-brochure
 - Alleen verifieerbare informatie bevat (bronvermelding verplicht)
 
+## Drie lagen studiemateriaal
+
+Het bekwaamheidsexamen toetst bekwaamheid = het vermogen om technieken correct toe te passen in onbekende situaties. Daarvoor zijn drie soorten studiemateriaal nodig:
+
+| Laag | Vraag | Content | Bron van waarheid |
+|------|-------|---------|-------------------|
+| **Kennis** (materie) | Wat is X? Hoe werkt X? | Één concept per fiche | Wetteksten, CBN-adviezen |
+| **Competentie** | Hoe pas ik X, Y, Z samen toe? | Één techniek per fiche | ITAA-normen, CBN, beroepspraktijk |
+| **Synthese** | Hoe combineer ik competenties over domeinen? | Voorbeeldexamenvragen bij programmaonderdelen | Voorbeeldexamens |
+
+Materie = de blokjes. Competenties = de bouwtechnieken. Synthese = oefenen met beide tegelijk.
+
+Een competentie-fiche bevat: **situatiedimensies** (welke type gevallen bestaan), **sleutelbeslissingen** (waar moet de student oordelen), **syntheseroute** (welke materie in welke volgorde), **eindproduct** (wat lever je op) en **illustrerende situatie(s)** (één concreet pad). Niet elk element is altijd aanwezig.
+
 ## Terminologie
 
 | Term | Betekenis |
 |------|-----------|
 | **TDKs** | Taken, Doelstellingen en Kenniselementen — de inhoud van een programmaonderdeel-fiche |
-| **Materie / studiematerie** | De conceptfiches: de inhoudelijke bouwstenen waarnaar de TDKs verwijzen |
+| **Materie** | Kennisfiches: één concept per fiche in `content/materie/` — de bouwstenen |
+| **Competentie** | Techniekefiches: hoe je meerdere kenniselementen combineert voor een taak — in `content/competenties/` |
 | **Concept / fenomeen** | Één coherent studieonderwerp met een eigen fiche in `content/materie/` |
 
 ## Structuur
@@ -31,14 +46,18 @@ certificaid/
 │       └── deploy.yml      # Build & deploy naar GitHub Pages bij push op main
 ├── content/
 │   ├── index.md
-│   ├── materie/            # Één .md per concept/fenomeen — getoond als "Materie" in de Explorer
-│   ├── programmaonderdelen/ # Één .md per programmaonderdeel — getoond als "Programmaonderdelen" in de Explorer
-│   └── wetteksten/         # Volledige ITAA-LEX wetteksten (gegenereerd door tools/generate-wetteksten.py)
-│       ├── index.md        # Overzicht alle 21+ secties met status en links
-│       ├── XVII-antiwitwaswet.md
-│       ├── XXI-wet-itaa.md
-│       ├── XIII-wer/       # WER gesplitst per Boek (index.md + boek-i.md, boek-iii.md, ...)
-│       └── ...             # Overige secties (✅ beschikbaar of ⏳ placeholder)
+│   ├── programmaonderdelen/ # Catalogus: per vak welke competenties + materie + synthese-oefeningen
+│   ├── competenties/        # Technieken: hoe meerdere kenniselementen samen toepassen (⚠️ nog aan te maken)
+│   ├── materie/             # Kennis: één concept/fenomeen per fiche
+│   └── bronnen/             # Raadpleegbare gezaghebbende documenten (bron voor materie + competenties)
+│       ├── wetteksten/      # Wetgeving — primaire bron voor materie
+│       │   ├── index.md     # Overzicht alle secties met status en links
+│       │   ├── XVII-antiwitwaswet.md
+│       │   ├── XXI-wet-itaa.md
+│       │   ├── XIII-wer/    # WER gesplitst per Boek
+│       │   └── ...          # Overige secties (✅ beschikbaar of ⏳ placeholder)
+│       ├── normen/          # ITAA-normen, ISAE, ISA — primaire bron voor competenties (⚠️ nog aan te maken)
+│       └── adviezen/        # CBN-adviezen — secundaire bron voor materie + competenties (⚠️ nog aan te maken)
 ├── tools/
 └── resources/
     ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
@@ -68,13 +87,15 @@ Dit is de belangrijkste regel van het hele project.
 
 **Uitzondering — valkuilen en voorbeeldvragen**: hier zijn AI-gegenereerde aannames toegestaan, op voorwaarde dat ze duidelijk gelabeld zijn met 🤖. De student weet dan dat dit een redenering is op basis van het concept, niet een geciteerde examenvraag of gedocumenteerde valkuil. De materie zelf waarop de valkuil of vraag gebaseerd is, blijft wel brongebonden.
 
-## Lokale wetteksten — primaire werkreferentie
+## Bronnen — primaire werkreferentie
 
-De volledige ITAA-LEX wetteksten staan in twee plaatsen:
-- **`resources/wetteksten/*.md`**: bronbestanden — direct doorzoekbaar met `grep` of `Read`, artikels als `**Art. X.` bold
-- **`content/wetteksten/`**: gegenereerde site-versie (via `tools/generate-wetteksten.py`) — artikels als `## Art. X` headings met Quartz-ankers voor directe links
+Bronnen staan in twee plaatsen:
+- **`resources/`**: bronbestanden voor verificatie en opzoekwerk — doorzoekbaar met `grep` of `Read`
+- **`content/bronnen/`**: site-versie met Quartz-ankers — gebruik dit pad voor wikilinks
 
-**Gebruik de resources-versie** voor verificatie en opzoekwerk (sneller te grep'en). **Gebruik de content-versie** als bronpad voor wikilinks in materie-fiches.
+**ITAA-LEX** is geen aparte bron maar een bundeling van wetteksten en normen met paginanummers. Studeer met ITAA-LEX referenties (sectienummer + paginanummer) in de bronfiches zelf — zo oefen je ook de opzoeklogica voor het examen.
+
+**Cijferzakboekje** is een aparte examenbron met geïndexeerde bedragen en tarieven die niet in de wetteksten staan. Vermeld bij exacte bedragen de bron als "Cijferzakboekje [jaar]".
 
 | Content-pad | Wet | ITAA-LEX sectie |
 |-------------|-----|-----------------|
@@ -98,15 +119,28 @@ De volledige ITAA-LEX wetteksten staan in twee plaatsen:
 2. Citeer het artikel inline via een wikilink naar `content/wetteksten/` (zie §Bronvermelding)
 3. Ga enkel online als de wet niet lokaal beschikbaar is
 
-## Bronhiërarchie (van meest naar minst gezaghebbend)
-1. Lokale wetteksten in `resources/wetteksten/` (afgeleid van ejustice gecoördineerde versies)
-2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
+## Bronhiërarchie
+
+De bronhiërarchie verschilt per laag.
+
+**Voor materie (kennis):**
+1. Wetteksten in `resources/wetteksten/` — gecoördineerde versies van ejustice
+2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
 3. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
 4. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
-5. ITAA-normen op [itaa.be](http://itaa.be)
-6. NBB-documentatie op [nbb.be](http://nbb.be)
-7. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
-8. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen
+5. NBB-documentatie op [nbb.be](http://nbb.be)
+
+**Voor competenties (technieken):**
+1. ITAA-normen in `resources/normen/` — beschrijven hoe taken uitgevoerd worden
+2. ITAA-normen online op [itaa.be](http://itaa.be)
+3. CBN-adviezen — voor boekhoudkundige technieken
+4. Erkende handboeken en beroepspraktijk
+5. Geconstrueerde kennis — altijd 🤖 labelen
+
+**Voor beide:**
+- De ITAA-brochure (resources/programma.pdf) — voor structuur en leerdoelen
+- Cijferzakboekje — voor geïndexeerde bedragen en tarieven
+- Online resources — altijd verifiëren met bovenstaande bronnen
 
 ## Examensituatie — wat de student bij heeft
 
@@ -284,13 +318,13 @@ itaa-lex: XXI, p. 2604
 # Naam van het concept
 
 ## 📌 Term A
-Definitie van Term A. ([[wetteksten/XXI-wet-itaa#art-2|Wet ITAA art. 2]])
+Definitie van Term A. ([[wetteksten/XXI-wet-itaa#art-2|ITAA-LEX XXI · Wet ITAA art. 2]])
 
 ## 📌 Term B (AFKORTING)
 Definitie. Overkoepelend begrip? → Zie [[conceptfiche#term-a|Term A]], [[conceptfiche#term-c|Term C]]
 
 ## ⚖️ Naam van het principe
-Inhoud. ([[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]])
+Inhoud. ([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]])
 
 > [!warning]- Korte omschrijving van de valkuil
 > ❌ *"De verkeerde aanname die studenten vaak maken."*
@@ -358,16 +392,16 @@ tags: ["X.X", wip, programmaonderdeel]
 
 > [!note]- Taakanalyse — uitvoering op integratieniveau
 >
-> **Werksituatie A**: De accountant staat voor situatie X en moet Y doen/beslissen...
-> **Werksituatie B** *(indien relevant)*: ...
+> **Situatiedimensies** (wat bepaalt welk type geval je hebt):
+> - Dimensie 1: bv. entiteitstype (bv/nv/vzw), grootte, sector
+> - Dimensie 2: bv. beschikbare informatie, aanleiding, tijdstip
 >
-> **Toepassen** — stappen:
-> 1. Stap 1 → [[materie-fiche#sectie|concept]]
-> 2. Stap 2 → [[materie-fiche#sectie|concept]]
+> **Sleutelbeslissingen**:
+> - Wanneer/hoe beslis je X? → [[materie-fiche#sectie|sectienaam]]
+> - Hoe herken je uitzondering Y? → [[materie-fiche#sectie|sectienaam]]
 >
-> **Integreren** — oordeelsmomenten:
-> - Wanneer geldt uitzondering X? → [[materie-fiche#sectie|sectienaam]]
-> - Hoe herken je situatie Y? → [[materie-fiche#sectie|sectienaam]]
+> **Illustrerende situatie** (één concreet pad door de dimensies):
+> De accountant staat voor situatie X en moet Y doen/beslissen...
 >
 > 🤖 *AI-aanvulling*
 
@@ -432,7 +466,7 @@ Artikel-headings in `content/wetteksten/` zijn kortweg `## Art. X`. Quartz gener
 - `## Art. 3:23` (KB WVV) → `#art-323`
 - `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
 
-Link: `[[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]]` ✓
+Link: `[[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]]` ✓
 
 ### Callout: valkuil
 
@@ -498,7 +532,7 @@ Gebruik `[!question]-` genest met `[!success]-`. **Belangrijk**: voeg een lege r
 
 **Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/wetteksten/`:
 - `([[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]])` — springt direct naar Art. 37 in de Wet ITAA
-- `([[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]])` — springt direct naar Art. 47 in de AWW
+- `([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]])` — springt direct naar Art. 47 in de AWW
 - `([[wetteksten/XIII-wer/boek-iii#art-iii-82|WER art. III.82]])` — WER split per Boek
 
 **Links altijd naar artikel-anker**, nooit naar het algemene wettekst-document: `[[wetteksten/XXI-wet-itaa#art-37|...]]` en niet `[[wetteksten/XXI-wet-itaa|...]]` wanneer je een specifiek artikel bedoelt.
@@ -631,14 +665,12 @@ Voordat we bepalen welke concepten nodig zijn, analyseren we per taak wat de stu
 
 **Werkwijze** — per taak in de programmaonderdeel-fiche:
 
-1. **Concretiseer de werksituatie(s)**: beschrijf één of meerdere gevallen waarbij de accountant deze taak uitvoert (er kunnen meerdere situaties zijn, bv. kleine vennootschap vs. grote)
-2. **Bepaal per situatie welke lagen nodig zijn**:
-   - **Weten**: welke begrippen, principes en verplichtingen moet de student kennen?
-   - **Toepassen**: welke procedure of berekening voert hij stap voor stap uit?
-   - **Integreren**: welke beslissing neemt hij? Op basis van welk criterium? Hoe herkent hij uitzonderingen?
-3. **Gap-check**: controleer per laag of er al een sectiontype bestaat in een materie-fiche die dit dekt. Ontbrekende lagen zijn input voor Stap 2B
-4. **Schrijf de taakanalyse als `[!note]-` callout** in de vakfiche, direct na de officiële ITAA-tekst van die taak (zie template programmaonderdeel-fiche)
-5. Leg de taakdecompositie voor aan de gebruiker vóór je verder gaat
+1. **Situatiedimensies**: welke parameters bepalen welk type geval je hebt? (bv. entiteitstype, grootte, beschikbare informatie, aanleiding) — dit zijn de assen waarop de materie moet dekken
+2. **Sleutelbeslissingen**: op welke punten moet de student een oordeel vellen? Op basis van welk criterium? Hoe herkent hij uitzonderingen?
+3. **Illustrerende situatie**: één concreet pad door de dimensies — geeft houvast zonder te pretenderen dat het volledig is
+4. **Gap-check**: welke dimensies of sleutelbeslissingen zijn nog niet gedekt door een bestaande materie-sectie? Dat zijn de ontbrekende lagen — input voor Stap 2B
+5. **Schrijf de taakanalyse als `[!note]-` callout** in de vakfiche, direct na de officiële ITAA-tekst van die taak (zie template programmaonderdeel-fiche)
+6. Leg de taakdecompositie voor aan de gebruiker vóór je verder gaat
 
 ### Stap 2B — Concepten bepalen
 1. Vertrek vanuit de taakdecompositie (Stap 2A): welke lagen waren niet gedekt? Dat zijn de ontbrekende concepten of secties

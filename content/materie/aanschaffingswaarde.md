@@ -9,15 +9,15 @@ itaa-lex: XV (KB WVV 2019)
 
 # Aanschaffingswaarde
 
-De aanschaffingswaarde is de waarde waaraan een actiefbestanddeel in de boekhouding wordt opgenomen bij verwerving. Ze vormt het **vertrekpunt** voor alle latere waarderingsbewegingen: [[afschrijvingen|afschrijvingen]], [[waardeverminderingen|waardeverminderingen]] en [[herwaarderingsmeerwaarden|herwaarderingsmeerwaarden]] worden berekend ten opzichte van de aanschaffingswaarde [^art-3-13].
+De aanschaffingswaarde is de waarde waaraan een actiefbestanddeel in de boekhouding wordt opgenomen bij verwerving. Ze vormt het **vertrekpunt** voor alle latere waarderingsbewegingen: [[afschrijvingen|afschrijvingen]], [[waardeverminderingen|waardeverminderingen]] en [[herwaarderingsmeerwaarden|herwaarderingsmeerwaarden]] worden berekend ten opzichte van de aanschaffingswaarde ([[wetteksten/XV-KB-wvv#art-313|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:13]]).
 
 ---
 
 ## 📌 Aanschaffingswaarde
 
-De boekhoudkundige startwaarde van een actief. Elk actiefbestanddeel wordt gewaardeerd **tegen aanschaffingswaarde** en voor dat bedrag in de balans opgenomen, onder aftrek van de desbetreffende afschrijvingen en waardeverminderingen [^art-3-13].
+De boekhoudkundige startwaarde van een actief. Elk actiefbestanddeel wordt gewaardeerd **tegen aanschaffingswaarde** en voor dat bedrag in de balans opgenomen, onder aftrek van de desbetreffende afschrijvingen en waardeverminderingen ([[wetteksten/XV-KB-wvv#art-313|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:13]]).
 
-Drie verschijningsvormen naargelang de manier van verwerving [^art-3-13]:
+Drie verschijningsvormen naargelang de manier van verwerving ([[wetteksten/XV-KB-wvv#art-313|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:13]]):
 
 | Verwervingsvorm | Naam | Grondslag |
 |-----------------|------|-----------|
@@ -29,12 +29,12 @@ Drie verschijningsvormen naargelang de manier van verwerving [^art-3-13]:
 
 ## 📌 Aanschaffingsprijs
 
-De prijs betaald bij aankoop van een actief, **verhoogd met bijkomende kosten** [^art-3-14]:
+De prijs betaald bij aankoop van een actief, **verhoogd met bijkomende kosten** ([[wetteksten/XV-KB-wvv#art-314|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:14]]):
 - Niet-terugbetaalbare belastingen (bv. niet-aftrekbare btw, registratierechten)
 - Vervoerkosten
 - Andere kosten rechtstreeks verbonden aan de verwerving
 
-Bij ruil (tegenprestatie anders dan geld): de aanschaffingsprijs is de **marktwaarde van de gegeven tegenprestatie**. Als die moeilijk te bepalen is: de marktwaarde van het verkregen actief. Beide worden geschat op de datum van de ruil [^art-3-14].
+Bij ruil (tegenprestatie anders dan geld): de aanschaffingsprijs is de **marktwaarde van de gegeven tegenprestatie**. Als die moeilijk te bepalen is: de marktwaarde van het verkregen actief. Beide worden geschat op de datum van de ruil ([[wetteksten/XV-KB-wvv#art-314|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:14]]).
 
 > [!info]- In de praktijk
 >
@@ -42,13 +42,13 @@ Bij ruil (tegenprestatie anders dan geld): de aanschaffingsprijs is de **marktwa
 >
 > 🤖 *AI-aanvulling*
 
-**Rente op vreemd vermogen** mag worden opgenomen in de aanschaffingswaarde van immateriële en materiële vaste activa, maar enkel voor de **periode vóór de bedrijfsklaarheid** — dit is het moment waarop het actief gereed is voor zijn beoogde gebruik of voor de verkoop [^art-3-16]. Rente die oploopt nadat het actief in gebruik is genomen, wordt niet meer geactiveerd maar rechtstreeks als kost geboekt.
+**Rente op vreemd vermogen** mag worden opgenomen in de aanschaffingswaarde van immateriële en materiële vaste activa, maar enkel voor de **periode vóór de bedrijfsklaarheid** — dit is het moment waarop het actief gereed is voor zijn beoogde gebruik of voor de verkoop ([[wetteksten/XV-KB-wvv#art-316|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:16]]). Rente die oploopt nadat het actief in gebruik is genomen, wordt niet meer geactiveerd maar rechtstreeks als kost geboekt.
 
 ---
 
 ## 📌 Vervaardigingsprijs
 
-De waarde van activa die de onderneming **zelf produceert** [^art-3-15]. Bestaat uit:
+De waarde van activa die de onderneming **zelf produceert** ([[wetteksten/XV-KB-wvv#art-315|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:15]]). Bestaat uit:
 
 **Verplicht op te nemen:**
 - Aanschaffingskosten van grondstoffen, verbruiksgoederen en hulpstoffen
@@ -57,23 +57,23 @@ De waarde van activa die de onderneming **zelf produceert** [^art-3-15]. Bestaat
 **Optioneel op te nemen:**
 - Het evenredig deel van **onrechtstreekse productiekosten** (vaste en variabele overheadkosten), voor zover ze op de normale productieperiode betrekking hebben
 
-Wanneer de optionele kosten worden weggelaten, wordt dit in de toelichting vermeld [^art-3-15].
+Wanneer de optionele kosten worden weggelaten, wordt dit in de toelichting vermeld ([[wetteksten/XV-KB-wvv#art-315|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:15]]).
 
 ---
 
 ## 📌 Inbrengwaarde
 
-De waarde van activa verkregen via **inbreng in natura** — dit is de bedongen waarde van de inbreng (de overeengekomen waarde) [^art-3-17].
+De waarde van activa verkregen via **inbreng in natura** — dit is de bedongen waarde van de inbreng (de overeengekomen waarde) ([[wetteksten/XV-KB-wvv#art-317|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:17]]).
 
-Bij inbreng in een onderneming zonder rechtspersoonlijkheid: de inbrengwaarde mag niet hoger zijn dan de marktprijs van de goederen op het ogenblik van de inbreng [^art-3-17].
+Bij inbreng in een onderneming zonder rechtspersoonlijkheid: de inbrengwaarde mag niet hoger zijn dan de marktprijs van de goederen op het ogenblik van de inbreng ([[wetteksten/XV-KB-wvv#art-317|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:17]]).
 
-De belastingen en kosten verbonden aan de inbreng zijn **niet inbegrepen** in de inbrengwaarde — ze worden ten laste van het resultaat genomen of als oprichtingskosten geboekt [^art-3-17].
+De belastingen en kosten verbonden aan de inbreng zijn **niet inbegrepen** in de inbrengwaarde — ze worden ten laste van het resultaat genomen of als oprichtingskosten geboekt ([[wetteksten/XV-KB-wvv#art-317|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:17]]).
 
 ---
 
 ## ⚖️ Waardering van activa met identieke kenmerken
 
-Voor activa met volkomen identieke technische of juridische kenmerken (bv. voorraden, grondstoffen) mag de aanschaffingswaarde worden bepaald via drie methoden [^art-3-21]:
+Voor activa met volkomen identieke technische of juridische kenmerken (bv. voorraden, grondstoffen) mag de aanschaffingswaarde worden bepaald via drie methoden ([[wetteksten/XV-KB-wvv#art-321|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:21]]):
 
 | Methode | Omschrijving |
 |---------|-------------|
@@ -81,7 +81,7 @@ Voor activa met volkomen identieke technische of juridische kenmerken (bv. voorr
 | **Gewogen gemiddelde** | Gemiddelde aanschaffingsprijs over de periode |
 | **FIFO** (first in, first out) | Oudste voorraad wordt als eerste gebruikt |
 
-De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot een aanzienlijk verschil tussen boekwaarde en marktwaarde op balansdatum — dit verschil wordt dan in de toelichting vermeld [^art-3-21].
+De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot een aanzienlijk verschil tussen boekwaarde en marktwaarde op balansdatum — dit verschil wordt dan in de toelichting vermeld ([[wetteksten/XV-KB-wvv#art-321|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:21]]).
 
 ---
 
@@ -160,10 +160,3 @@ De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot e
 
 Kenniselementen:
 - V.B — Aanschaffingswaarde
-
-[^art-3-13]: [[wetteksten/XV-KB-wvv#art-313|KB WVV 2019 art. 3:13]]
-[^art-3-14]: [[wetteksten/XV-KB-wvv#art-314|KB WVV 2019 art. 3:14]]
-[^art-3-15]: [[wetteksten/XV-KB-wvv#art-315|KB WVV 2019 art. 3:15]]
-[^art-3-16]: [[wetteksten/XV-KB-wvv#art-316|KB WVV 2019 art. 3:16]]
-[^art-3-17]: [[wetteksten/XV-KB-wvv#art-317|KB WVV 2019 art. 3:17]]
-[^art-3-21]: [[wetteksten/XV-KB-wvv#art-321|KB WVV 2019 art. 3:21]]

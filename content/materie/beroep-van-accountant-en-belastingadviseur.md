@@ -26,7 +26,7 @@ De wetgever reguleert de beroepen van gecertificeerd accountant en gecertificeer
 
 ## 📌 Gecertificeerd accountant (GA)
 
-Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd accountant**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-3|Wet ITAA art. 3]] (12 activiteiten, samengevat):
+Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd accountant**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-3|ITAA-LEX XXI · Wet ITAA art. 3]] (12 activiteiten, samengevat):
 
 - **Boekhoudkundige diensten**: organiseren van de [[boekhoudplicht-wer|boekhouding]], opmaken van de [[jaarrekening|jaarrekening]], centraliseren van boekingen, corrigeren van documenten
 - **Financiële analyse**: analyseren van de positie en werking van ondernemingen
@@ -40,7 +40,7 @@ Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid 
 
 ## 📌 Gecertificeerd belastingadviseur (GBA)
 
-Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd belastingadviseur**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-6|Wet ITAA art. 6]] (4 activiteiten):
+Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd belastingadviseur**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-6|ITAA-LEX XXI · Wet ITAA art. 6]] (4 activiteiten):
 
 1. Advies verstrekken in **alle fiscale aangelegenheden**
 2. De belastingplichtige bijstaan bij het **nakomen van zijn fiscale verplichtingen**
@@ -58,13 +58,13 @@ Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid 
 
 ## 📌 Intern gecertificeerd accountant / belastingadviseur
 
-Een persoon die de activiteiten van gecertificeerd accountant of gecertificeerd belastingadviseur uitoefent **in loondienst** of in een overheidsbetrekking [^art-8]. Hij draagt de titel "intern gecertificeerd accountant" of "intern gecertificeerd belastingadviseur".
+Een persoon die de activiteiten van gecertificeerd accountant of gecertificeerd belastingadviseur uitoefent **in loondienst** of in een overheidsbetrekking ([[wetteksten/XXI-wet-itaa#art-8|ITAA-LEX XXI · Wet ITAA art. 8]]). Hij draagt de titel "intern gecertificeerd accountant" of "intern gecertificeerd belastingadviseur".
 
 ---
 
 ## 📌 Accountant en fiscaal accountant
 
-Personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]] als **accountant** of **fiscaal accountant** [^art-9]. Ze mogen dezelfde activiteiten uitoefenen als een gecertificeerd accountant — boekhoudkundige diensten, financiële analyse, fiscale aangelegenheden, juridische bijstand, accountantsonderzoek en advies — **behalve** de bijzondere opdrachten (inbreng, fusie, splitsing, vereffening, expertise bij geschillen: art. 3, 6°–8°), die voorbehouden zijn aan gecertificeerde accountants en bedrijfsrevisoren.
+Personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]] als **accountant** of **fiscaal accountant** ([[wetteksten/XXI-wet-itaa#art-9|ITAA-LEX XXI · Wet ITAA art. 9]]). Ze mogen dezelfde activiteiten uitoefenen als een gecertificeerd accountant — boekhoudkundige diensten, financiële analyse, fiscale aangelegenheden, juridische bijstand, accountantsonderzoek en advies — **behalve** de bijzondere opdrachten (inbreng, fusie, splitsing, vereffening, expertise bij geschillen: art. 3, 6°–8°), die voorbehouden zijn aan gecertificeerde accountants en bedrijfsrevisoren.
 
 > ⚠️ te verifiëren — Is de titel "accountant" nog toegankelijk voor nieuwe inschrijvingen, of is dit een legacy-categorie voor wie al ingeschreven was vóór de fusie van IAB en BIBF in 2019? Raadpleeg Wet ITAA art. 9 en de overgangsbepalingen, of check itaa.be.
 
@@ -72,7 +72,7 @@ Personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar re
 
 ## ⚖️ Wie mag de activiteiten van art. 3 uitoefenen?
 
-Niet alleen gecertificeerde accountants mogen de activiteiten van art. 3 uitoefenen als zelfstandige voor rekening van derden [^art-5]. ITAA-leden moeten daarvoor in het [[itaa-als-instituut#-openbaar-register|openbaar register]] staan; bedrijfsrevisoren zijn ingeschreven bij het IBR:
+Niet alleen gecertificeerde accountants mogen de activiteiten van art. 3 uitoefenen als zelfstandige voor rekening van derden ([[wetteksten/XXI-wet-itaa#art-5|ITAA-LEX XXI · Wet ITAA art. 5]]). ITAA-leden moeten daarvoor in het [[itaa-als-instituut#-openbaar-register|openbaar register]] staan; bedrijfsrevisoren zijn ingeschreven bij het IBR:
 
 | Categorie | Toegestane activiteiten |
 |---|---|
@@ -113,14 +113,14 @@ Zes titels zijn wettelijk beschermd — niemand mag ze dragen tenzij ingeschreve
 
 | Beschermde titel | Grondslag |
 |---|---|
-| "gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|art. 4]] |
-| "intern gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|art. 4]] |
-| "gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-7|art. 7]] |
-| "intern gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-8|art. 8]] |
-| "accountant" | [[wetteksten/XXI-wet-itaa#art-9|art. 9]] |
-| "fiscaal accountant" | [[wetteksten/XXI-wet-itaa#art-9|art. 9]] |
+| "gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|ITAA-LEX XXI · Wet ITAA art. 4]] |
+| "intern gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|ITAA-LEX XXI · Wet ITAA art. 4]] |
+| "gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-7|ITAA-LEX XXI · Wet ITAA art. 7]] |
+| "intern gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-8|ITAA-LEX XXI · Wet ITAA art. 8]] |
+| "accountant" | [[wetteksten/XXI-wet-itaa#art-9|ITAA-LEX XXI · Wet ITAA art. 9]] |
+| "fiscaal accountant" | [[wetteksten/XXI-wet-itaa#art-9|ITAA-LEX XXI · Wet ITAA art. 9]] |
 
-Niemand mag een titel dragen die **verwarring kan scheppen** met een van deze zes beschermde titels. Een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur **niet** dragen, ook al verricht hij gelijkaardige activiteiten [^art-8].
+Niemand mag een titel dragen die **verwarring kan scheppen** met een van deze zes beschermde titels. Een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur **niet** dragen, ook al verricht hij gelijkaardige activiteiten ([[wetteksten/XXI-wet-itaa#art-8|ITAA-LEX XXI · Wet ITAA art. 8]]).
 
 > [!warning]- Bedrijfsrevisor mag de GBA-titel dragen
 > ❌ *"Een bedrijfsrevisor die fiscaal advies geeft, mag zich gecertificeerd belastingadviseur noemen."*
@@ -133,22 +133,22 @@ Niemand mag een titel dragen die **verwarring kan scheppen** met een van deze ze
 
 ## 🔒 8 toegangsvoorwaarden
 
-Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecertificeerd accountant of (intern) gecertificeerd belastingadviseur als hij voldoet aan 8 voorwaarden [^art-10]:
+Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecertificeerd accountant of (intern) gecertificeerd belastingadviseur als hij voldoet aan 8 voorwaarden ([[wetteksten/XXI-wet-itaa#art-10|ITAA-LEX XXI · Wet ITAA art. 10, §1]]):
 
 1. Onderdaan zijn van een **lidstaat van de Europese Economische Ruimte (EER)**
 2. Niet beroofd zijn van zijn **politieke en burgerlijke rechten**
-3. Niet failliet zijn verklaard of in bepaalde andere insolventiesituaties verkeren (zonder rehabilitatie of kwijtschelding) [^art-10]
+3. Niet failliet zijn verklaard of in bepaalde andere insolventiesituaties verkeren (zonder rehabilitatie of kwijtschelding) ([[wetteksten/XXI-wet-itaa#art-10|ITAA-LEX XXI · Wet ITAA art. 10, §1]])
 4. Geen **gevangenisstraf van ten minste 3 maanden** opgelopen hebben voor bepaalde misdrijven (fiscaal, economisch, vennootschapsrecht)
-5. In het bezit zijn van een **erkend diploma** [^art-12]
+5. In het bezit zijn van een **erkend diploma** ([[wetteksten/XXI-wet-itaa#art-12|ITAA-LEX XXI · Wet ITAA art. 12]])
 6. Na het slagen voor het **toelatingsexamen**, een **stageperiode van minstens 3 jaar** volbrengen
 7. Slagen voor het **bekwaamheidsexamen**
-8. De **eed afleggen** [^art-19]
+8. De **eed afleggen** ([[wetteksten/XXI-wet-itaa#art-19|ITAA-LEX XXI · Wet ITAA art. 19]])
 
 ---
 
 ## 📋 De stage
 
-**Duur**: minstens **3 jaar** [^art-13]
+**Duur**: minstens **3 jaar** ([[wetteksten/XXI-wet-itaa#art-13|ITAA-LEX XXI · Wet ITAA art. 13, §1]])
 
 **Minimale activiteit**: minstens **1.000 uur per jaar** relevante beroepsactiviteiten
 
@@ -156,7 +156,7 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 **Maximale termijn**: de stagiair moet het bekwaamheidsexamen halen **binnen 8 jaar** na inschrijving. Lukt dat niet: schrapping uit het register + 3 jaar wachttijd voor herneming.
 
-**Uitzondering** [^art-14]: bij minstens **7 jaar relevante beroepservaring** kan de stagecommissie de stage inkorten of een vrijstelling verlenen.
+**Uitzondering** ([[wetteksten/XXI-wet-itaa#art-14|ITAA-LEX XXI · Wet ITAA art. 14]]): bij minstens **7 jaar relevante beroepservaring** kan de stagecommissie de stage inkorten of een vrijstelling verlenen.
 
 **Activiteiten tijdens de stage**: de stagiair mag, mits uitdrukkelijke toestemming in de stageovereenkomst, de activiteiten van gecertificeerd accountant uitvoeren — **behalve** de bijzondere opdrachten (art. 3, 6°–8°). Hij draagt de titel "stagiair gecertificeerd accountant".
 
@@ -171,14 +171,14 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 ## 🔒 Permanente vorming
 
-Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming [^art-39]. De inhoud en het minimumaantal uren worden vastgelegd in de **ITAA-norm permanente vorming** [^norm-pv].
+Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming ([[wetteksten/XXI-wet-itaa#art-39|ITAA-LEX XXI · Wet ITAA art. 39]]). De inhoud en het minimumaantal uren worden vastgelegd in de **ITAA-norm permanente vorming** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11).
 
-**Minimum aantal uren** [^norm-pv]:
+**Minimum aantal uren** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11):
 - **120 uur** per periode van 3 opeenvolgende kalenderjaren
 - Waarvan minstens **20 uur per kalenderjaar**
 - Waarvan minstens **84 uur per 3 jaar** uit de aandachtsgebieden 1, 2 en 4 samen
 
-**Vier aandachtsgebieden** [^norm-pv]:
+**Vier aandachtsgebieden** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11):
 
 | # | Aandachtsgebied | Inhoud |
 |---|---|---|
@@ -189,14 +189,14 @@ Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houde
 
 De beroepsbeoefenaar houdt een goed evenwicht tussen de gebieden. Aandachtsgebied 3 (sociale vaardigheden) telt **niet** mee voor de minimumdrempel van 84 uur.
 
-**Sanctie bij niet-naleving** [^norm-pv]:
-Drie opeenvolgende jaren geen permanente vorming volgen → **[[itaa-als-instituut#-tuchtstelsel|terechtwijzing]]** door de Raad [^art-85].
+**Sanctie bij niet-naleving** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11):
+Drie opeenvolgende jaren geen permanente vorming volgen → **[[itaa-als-instituut#-tuchtstelsel|terechtwijzing]]** door de Raad ([[wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 3°]]).
 Reageert de beroepsbeoefenaar niet binnen **drie maanden** na de terechtwijzing, dan kan de Raad de **hoedanigheid intrekken**.
 
 > [!warning]- Permanente vorming is vrijwillig
 > ❌ *"Bijscholing is een goede gewoonte, maar niet wettelijk verplicht."*
 >
-> Permanente vorming is een **wettelijke verplichting** [^art-39]. Het minimumaantal uren en de inhoud worden vastgelegd in een ITAA-norm. Drie opeenvolgende jaren niet deelnemen leidt tot een terechtwijzing. Reageert de beroepsbeoefenaar niet, dan kan de Raad zijn hoedanigheid intrekken. Het is geen tuchtrechtelijke straf, maar de gevolgen zijn even ernstig.
+> Permanente vorming is een **wettelijke verplichting** ([[wetteksten/XXI-wet-itaa#art-39|ITAA-LEX XXI · Wet ITAA art. 39]]). Het minimumaantal uren en de inhoud worden vastgelegd in een ITAA-norm. Drie opeenvolgende jaren niet deelnemen leidt tot een terechtwijzing. Reageert de beroepsbeoefenaar niet, dan kan de Raad zijn hoedanigheid intrekken. Het is geen tuchtrechtelijke straf, maar de gevolgen zijn even ernstig.
 >
 > 🤖 *AI-aanvulling*
 
@@ -277,15 +277,3 @@ Kenniselementen:
 - C.4 — Vormen van uitoefening van activiteiten (titelvoering)
 - C.6 — Toegang tot de hoedanigheid (stage, bekwaamheidsexamen)
 - C.7 — Permanente beroepsopleiding
-
-[^art-5]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5]]
-[^art-8]: [[wetteksten/XXI-wet-itaa#art-8|Wet ITAA art. 8]]
-[^art-9]: [[wetteksten/XXI-wet-itaa#art-9|Wet ITAA art. 9]]
-[^art-10]: [[wetteksten/XXI-wet-itaa#art-10|Wet ITAA art. 10, §1]]
-[^art-12]: [[wetteksten/XXI-wet-itaa#art-12|art. 12]]
-[^art-19]: [[wetteksten/XXI-wet-itaa#art-19|art. 19]]
-[^art-13]: [[wetteksten/XXI-wet-itaa#art-13|Wet ITAA art. 13, §1]]
-[^art-14]: [[wetteksten/XXI-wet-itaa#art-14|art. 14]]
-[^art-39]: [[wetteksten/XXI-wet-itaa#art-39|Wet ITAA art. 39]]
-[^art-85]: [[wetteksten/XXI-wet-itaa#art-85|art. 85, 3°]]
-[^norm-pv]: Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11

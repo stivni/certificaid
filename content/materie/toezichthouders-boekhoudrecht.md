@@ -20,7 +20,7 @@ Het boekhoudrecht wordt niet door één autoriteit afgedwongen. Verschillende or
 
 ## 📌 Centrale Raad voor het Bedrijfsleven (CRB)
 
-Federaal **adviesorgaan** dat vertegenwoordigers van werkgevers, werknemers en de overheid samenbrengt en adviezen verstrekt aan parlement, regering en sociale partners over sociaal-economische vraagstukken. Opgericht bij wet van 20 september 1948 [^crb-wet].
+Federaal **adviesorgaan** dat vertegenwoordigers van werkgevers, werknemers en de overheid samenbrengt en adviezen verstrekt aan parlement, regering en sociale partners over sociaal-economische vraagstukken. Opgericht bij wet van 20 september 1948 (Wet van 20 september 1948 houdende organisatie van het bedrijfsleven. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=1948092001&table_name=wet).).
 
 Voor het boekhoudrecht heeft de CRB **geen handhavende rol**. Ze wordt wel geraadpleegd over hervormingen die de jaarrekeningverplichtingen en de boekhoudwetgeving raken — daarmee staat ze stroomopwaarts van de wetgeving zelf, in een adviesfunctie.
 
@@ -32,14 +32,14 @@ Voor het boekhoudrecht heeft de CRB **geen handhavende rol**. Ze wordt wel geraa
 
 *Commission des Normes Comptables (CNC)*
 
-**Autonome instelling met rechtspersoonlijkheid** opgericht door de Koning [^art-iii-93]. De CBN heeft twee kernopdrachten [^art-iii-93]:
+**Autonome instelling met rechtspersoonlijkheid** opgericht door de Koning ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]). De CBN heeft twee kernopdrachten ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]):
 
 1. De regering en het Parlement op hun verzoek of uit eigen beweging van advies dienen
 2. Door middel van adviezen en aanbevelingen bijdragen tot de ontwikkeling van de leer van het boekhouden en de beginselen bepalen van een regelmatige boekhouding
 
 CBN-adviezen zijn **niet rechtstreeks juridisch bindend** in de zin van een wet of KB, maar gelden in de praktijk als gezaghebbende richtlijn: rechters, [[#-instituut-van-de-bedrijfsrevisoren-ibr|bedrijfsrevisoren]] en [[#-instituut-van-de-belastingadviseurs-en-de-accountants-itaa|gecertificeerd accountants]] volgen ze als referentie wanneer een wettelijke bepaling interpretatie vraagt.
 
-Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslissingen inzake Boekhoudrecht** af — boekhoudkundige rulings op vraag van een onderneming over de toepassing van het Belgisch boekhoudrecht op een specifieke situatie [^art-iii-93].
+Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslissingen inzake Boekhoudrecht** af — boekhoudkundige rulings op vraag van een onderneming over de toepassing van het Belgisch boekhoudrecht op een specifieke situatie ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]).
 
 > Online: [cnc-cbn.be](https://www.cnc-cbn.be)
 
@@ -47,7 +47,7 @@ Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslis
 
 ## 📌 Nationale Bank van België (NBB)
 
-Voor het boekhoudrecht beheert de NBB de **Balanscentrale**: het centrale neerleggingspunt waar elke vennootschap en vereniging haar [[jaarrekening|jaarrekening]] verplicht moet neerleggen — door toedoen van het bestuursorgaan, binnen 30 dagen na goedkeuring en uiterlijk 7 maanden na afsluiting van het boekjaar [^art-3-10].
+Voor het boekhoudrecht beheert de NBB de **Balanscentrale**: het centrale neerleggingspunt waar elke vennootschap en vereniging haar [[jaarrekening|jaarrekening]] verplicht moet neerleggen — door toedoen van het bestuursorgaan, binnen 30 dagen na goedkeuring en uiterlijk 7 maanden na afsluiting van het boekjaar ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 De NBB:
 - Ontvangt en bewaart de jaarrekeningen
@@ -55,7 +55,7 @@ De NBB:
 - Genereert sectorgemiddelden en macro-economische statistieken op basis van de neergelegde cijfers
 - Verlangt een **toeslag bij laattijdige neerlegging** die oploopt met de vertraging
 
-De NBB voert **geen inhoudelijke controle** uit op de neergelegde jaarrekening. Ze checkt alleen of het document tijdig en in het juiste formaat is neergelegd. Bij niet-tijdige neerlegging wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim [^art-3-10].
+De NBB voert **geen inhoudelijke controle** uit op de neergelegde jaarrekening. Ze checkt alleen of het document tijdig en in het juiste formaat is neergelegd. Bij niet-tijdige neerlegging wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 > Online: [nbb.be/balanscentrale](https://www.nbb.be/nl/balanscentrale) · raadpleging via [consult.cbso.nbb.be](https://consult.cbso.nbb.be)
 
@@ -65,7 +65,7 @@ De NBB voert **geen inhoudelijke controle** uit op de neergelegde jaarrekening. 
 
 *Financial Services and Markets Authority*
 
-Toezichthouder op de Belgische financiële sector, opgericht bij wet van 2 augustus 2002 [^fsma-wet]. Bevoegdheden o.a. toezicht op beursgenoteerde vennootschappen, verzekeringsondernemingen, beleggingsfondsen en pensioenfondsen.
+Toezichthouder op de Belgische financiële sector, opgericht bij wet van 2 augustus 2002 (Wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2002080232&table_name=wet).). Bevoegdheden o.a. toezicht op beursgenoteerde vennootschappen, verzekeringsondernemingen, beleggingsfondsen en pensioenfondsen.
 
 Voor het boekhoudrecht: de FSMA controleert de **financiële informatie van beursgenoteerde vennootschappen** — naleving van IAS/IFRS, kwaliteit van het [[jaarverslag|jaarverslag]], persmededelingen over financiële cijfers. Voor **niet-beursgenoteerde** ondernemingen is de FSMA niet bevoegd.
 
@@ -75,7 +75,7 @@ Voor het boekhoudrecht: de FSMA controleert de **financiële informatie van beur
 
 ## 📌 Griffies van de ondernemingsrechtbanken
 
-De griffie van elke **ondernemingsrechtbank** beheert mee de inschrijvingen in de **Kruispuntbank van Ondernemingen (KBO)** [^art-iii-15] en ontvangt bepaalde vennootschappelijke documenten — oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders en commissaris. Ze zorgt voor publicatie van die akten in het Belgisch Staatsblad.
+De griffie van elke **ondernemingsrechtbank** beheert mee de inschrijvingen in de **Kruispuntbank van Ondernemingen (KBO)** ([[wetteksten/XIII-wer/boek-iii#art-iii15|ITAA-LEX XIII · WER art. III.15]]) en ontvangt bepaalde vennootschappelijke documenten — oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders en commissaris. Ze zorgt voor publicatie van die akten in het Belgisch Staatsblad.
 
 De **jaarrekening** wordt **niet bij de griffie** maar bij de [Balanscentrale van de NBB](#-nationale-bank-van-belgië-nbb) neergelegd — een veel voorkomende verwarring. De griffie behandelt vennootschappelijke akten, de NBB behandelt financiële cijfers.
 
@@ -83,9 +83,9 @@ De **jaarrekening** wordt **niet bij de griffie** maar bij de [Balanscentrale va
 
 ## 📌 Instituut van de Belastingadviseurs en de Accountants (ITAA)
 
-Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB en BIBF [^art-61]. Volledige uitwerking: [[itaa-als-instituut|ITAA als instituut]].
+Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB en BIBF ([[wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]). Volledige uitwerking: [[itaa-als-instituut|ITAA als instituut]].
 
-Voor het boekhoudrecht reguleert het ITAA de [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountants (GA)]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseurs (GBA)]] — de beroepsbeoefenaars die boekhoudkundige diensten verlenen, [[jaarrekening|jaarrekeningen]] opstellen en fiscaal advies geven [^art-62].
+Voor het boekhoudrecht reguleert het ITAA de [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountants (GA)]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseurs (GBA)]] — de beroepsbeoefenaars die boekhoudkundige diensten verlenen, [[jaarrekening|jaarrekeningen]] opstellen en fiscaal advies geven ([[wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · Wet ITAA art. 62]]).
 
 Het ITAA houdt een [[itaa-als-instituut#-openbaar-register|openbaar register]], oefent toezicht uit via [[itaa-als-instituut#-kwaliteitstoetsing|kwaliteitstoetsing]] en [[itaa-als-instituut#-tuchtstelsel|tucht]], en vaardigt [[itaa-als-instituut#-normatief-kader|normen en aanbevelingen]] uit waaraan de beroepsbeoefenaar gebonden is.
 
@@ -99,11 +99,11 @@ Het ITAA is **niet** bevoegd voor bedrijfsrevisoren — die vallen onder het [[#
 
 *Institut des Réviseurs d'Entreprises (IRE)*
 
-Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht door de wet van 7 december 2016 betreffende het beroep van bedrijfsrevisor [^ibr-wet].
+Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht door de wet van 7 december 2016 betreffende het beroep van bedrijfsrevisor (Wet van 7 december 2016 houdende organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2016120712&table_name=wet).).
 
 Voor het boekhoudrecht reguleert het IBR de **bedrijfsrevisoren** — de enige beroepsbeoefenaars die wettelijk een [[jaarrekening#-commissaris|commissarisopdracht]] (controle van de jaarrekening) mogen uitvoeren.
 
-Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: openbaar register, toezicht, tucht, normen en aanbevelingen — maar voor een ander beroep. Beide instituten worden geadviseerd door de gemeenschappelijke [[itaa-als-instituut#-organen-van-het-itaa|Hoge Raad voor de Economische Beroepen]] [^art-79].
+Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: openbaar register, toezicht, tucht, normen en aanbevelingen — maar voor een ander beroep. Beide instituten worden geadviseerd door de gemeenschappelijke [[itaa-als-instituut#-organen-van-het-itaa|Hoge Raad voor de Economische Beroepen]] ([[wetteksten/XXI-wet-itaa#art-79|ITAA-LEX XXI · Wet ITAA art. 79]]).
 
 > Online: [ibr-ire.be](https://www.ibr-ire.be)
 
@@ -201,13 +201,3 @@ Kenniselementen:
 > > *Zie: [[toezichthouders-boekhoudrecht#-autoriteit-voor-financiële-diensten-en-markten-fsma|FSMA]]*
 >
 > 🤖 *AI-aanvulling*
-
-[^art-61]: [[wetteksten/XXI-wet-itaa#art-61|Wet ITAA art. 61]]
-[^art-62]: [[wetteksten/XXI-wet-itaa#art-62|Wet ITAA art. 62]]
-[^art-79]: [[wetteksten/XXI-wet-itaa#art-79|Wet ITAA art. 79]]
-[^art-iii-15]: [[wetteksten/XIII-wer/boek-iii#art-iii15|WER art. III.15]]
-[^art-iii-93]: [[wetteksten/XIII-wer/boek-iii#art-iii93|WER art. III.93]]
-[^art-3-10]: [[wetteksten/XV-wvv#art-310|WVV art. 3:10]]
-[^crb-wet]: Wet van 20 september 1948 houdende organisatie van het bedrijfsleven. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=1948092001&table_name=wet).
-[^fsma-wet]: Wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2002080232&table_name=wet).
-[^ibr-wet]: Wet van 7 december 2016 houdende organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2016120712&table_name=wet).

@@ -15,7 +15,7 @@ De Wet ITAA regelt niet alleen wie het beroep mag uitoefenen, maar ook hoe de be
 
 ## ⚖️ Organisatie van de beroepsactiviteiten
 
-De beroepsbeoefenaar draagt een structurele verplichting: zijn kantoor moet zo georganiseerd zijn dat hij zijn opdrachten behoorlijk kan uitvoeren [^art-38]. Die verplichting bestaat uit drie elementen:
+De beroepsbeoefenaar draagt een structurele verplichting: zijn kantoor moet zo georganiseerd zijn dat hij zijn opdrachten behoorlijk kan uitvoeren ([[wetteksten/XXI-wet-itaa#art-38|ITAA-LEX XXI · Wet ITAA art. 38]]). Die verplichting bestaat uit drie elementen:
 
 1. **Aard en omvang van het cliëntenbestand** — de organisatie is evenredig met de complexiteit van de opdrachten die hij aanneemt
 2. **Gepaste organisatorische en financiële middelen** — voldoende infrastructuur, administratie en financiële draagkracht om de opdrachten kwalitatief uit te voeren
@@ -40,7 +40,7 @@ Deze verplichting is structureel en permanent — ze geldt niet pas op het momen
 
 ## 📌 Opdrachtbrief
 
-Een document dat de uitvoering van een opdracht voorafgaat en de **wederzijdse rechten en plichten** van de beroepsbeoefenaar en de cliënt op een evenwichtige wijze omschrijft — het eerste formele document na de [[deontologische-beginselen#-aanvaarding-van-opdrachten|aanvaarding van de opdracht]] [^art-41].
+Een document dat de uitvoering van een opdracht voorafgaat en de **wederzijdse rechten en plichten** van de beroepsbeoefenaar en de cliënt op een evenwichtige wijze omschrijft — het eerste formele document na de [[deontologische-beginselen#-aanvaarding-van-opdrachten|aanvaarding van de opdracht]] ([[wetteksten/XXI-wet-itaa#art-41|ITAA-LEX XXI · Wet ITAA art. 41]]).
 
 De opdrachtbrief is geen vrijblijvend document: hij is wettelijk verplicht voor **iedere opdracht**, ook voor bestaande cliënten en herhaalde of doorlopende opdrachten.
 
@@ -48,7 +48,7 @@ De opdrachtbrief is geen vrijblijvend document: hij is wettelijk verplicht voor 
 
 ## 📌 Ereloon
 
-De vergoeding die de beroepsbeoefenaar ontvangt voor zijn diensten. Het ereloon wordt vastgesteld in functie van [^art-46]:
+De vergoeding die de beroepsbeoefenaar ontvangt voor zijn diensten. Het ereloon wordt vastgesteld in functie van ([[wetteksten/XXI-wet-itaa#art-46|ITAA-LEX XXI · Wet ITAA art. 46]]):
 
 - De **aard, het belang, de complexiteit, de omvang en de reikwijdte** van de opdracht
 - De **verantwoordelijkheid** die de beroepsbeoefenaar op zich neemt
@@ -60,14 +60,14 @@ Er bestaat geen verplicht barema of tarieflijst van het ITAA: de beroepsbeoefena
 
 ## 📌 Commissieloon
 
-Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het resultaat van een opdracht (bv. een percentage van de gerealiseerde belastingbesparing). Commissielonen zijn **verboden** [^art-47].
+Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het resultaat van een opdracht (bv. een percentage van de gerealiseerde belastingbesparing). Commissielonen zijn **verboden** ([[wetteksten/XXI-wet-itaa#art-47|ITAA-LEX XXI · Wet ITAA art. 47]]).
 
-**Onderscheid met provisies**: een provisie is een **voorschot op het ereloon** — dat is toegestaan als onderdeel van het ereloon [^art-45]. Wat verboden is, is een vergoeding die losgekoppeld is van de geleverde prestatie en afhankelijk van een resultaat of doorverwijzing.
+**Onderscheid met provisies**: een provisie is een **voorschot op het ereloon** — dat is toegestaan als onderdeel van het ereloon ([[wetteksten/XXI-wet-itaa#art-45|ITAA-LEX XXI · Wet ITAA art. 45]]). Wat verboden is, is een vergoeding die losgekoppeld is van de geleverde prestatie en afhankelijk van een resultaat of doorverwijzing.
 
 > [!warning]- Commissieloon toegestaan mits goedkeuring van de Raad
 > ❌ *"Mits goedkeuring van de Raad van het ITAA mag een beroepsbeoefenaar commissies ontvangen voor doorverwijzingen."*
 >
-> Het verbod op commissielonen is **absoluut** — er is geen uitzondering voorzien voor een geval van goedkeuring door de Raad of de cliënt. De wet verbiedt elke vorm van commissie- of makelaarsloon, ongeacht wie toestemming geeft [^art-47]. De enige aanvaardbare vergoedingen zijn het ereloon, kosten en een opzegvergoeding bij verbreking.
+> Het verbod op commissielonen is **absoluut** — er is geen uitzondering voorzien voor een geval van goedkeuring door de Raad of de cliënt. De wet verbiedt elke vorm van commissie- of makelaarsloon, ongeacht wie toestemming geeft ([[wetteksten/XXI-wet-itaa#art-47|ITAA-LEX XXI · Wet ITAA art. 47]]). De enige aanvaardbare vergoedingen zijn het ereloon, kosten en een opzegvergoeding bij verbreking.
 >
 > 📝 *Uit voorbeeldexamen 2015*
 
@@ -82,9 +82,9 @@ Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het r
 
 ## 🔒 Verplichting: opdrachtbrief
 
-De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, een opdrachtbrief op [^art-41].
+De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, een opdrachtbrief op ([[wetteksten/XXI-wet-itaa#art-41|ITAA-LEX XXI · Wet ITAA art. 41]]).
 
-**Verplichte inhoudselementen** [^nota-ob]:
+**Verplichte inhoudselementen** (Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`):
 
 | Element | Toelichting |
 |---|---|
@@ -101,11 +101,11 @@ De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, 
 
 **Bijzondere situaties:**
 
-- Bij een opdracht voor een **rechtspersoon** wijst die rechtspersoon een vertegenwoordiger aan (een natuurlijk persoon met de vereiste hoedanigheid). Die vertegenwoordiger is even aansprakelijk als wanneer hij de opdracht in eigen naam zou vervullen [^art-42].
-- Bij een opdracht aan een **rechtspersoon-beroepsbeoefenaar**: de opdrachtbrief wordt ondertekend door de wettelijke vertegenwoordiger(s) van die rechtspersoon — die hoeven zelf geen beroepsbeoefenaar te zijn [^nota-ob].
-- **Dringende prestaties**: de opdrachtbrief moet in principe vóór de opdracht worden opgesteld. Als dat door urgentie niet lukt, is het aangewezen te voorzien dat de opdrachtbrief **retroactief van toepassing** is op de al uitgevoerde prestaties. De beroepsbeoefenaar moet dit achteraf kunnen verantwoorden [^nota-ob].
+- Bij een opdracht voor een **rechtspersoon** wijst die rechtspersoon een vertegenwoordiger aan (een natuurlijk persoon met de vereiste hoedanigheid). Die vertegenwoordiger is even aansprakelijk als wanneer hij de opdracht in eigen naam zou vervullen ([[wetteksten/XXI-wet-itaa#art-42|ITAA-LEX XXI · Wet ITAA art. 42]]).
+- Bij een opdracht aan een **rechtspersoon-beroepsbeoefenaar**: de opdrachtbrief wordt ondertekend door de wettelijke vertegenwoordiger(s) van die rechtspersoon — die hoeven zelf geen beroepsbeoefenaar te zijn (Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`).
+- **Dringende prestaties**: de opdrachtbrief moet in principe vóór de opdracht worden opgesteld. Als dat door urgentie niet lukt, is het aangewezen te voorzien dat de opdrachtbrief **retroactief van toepassing** is op de al uitgevoerde prestaties. De beroepsbeoefenaar moet dit achteraf kunnen verantwoorden (Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`).
 
-- Op verzoek van de cliënt geeft de beroepsbeoefenaar alle boeken, documenten en gegevens die aan de cliënt toebehoren **onverwijld** terug [^art-43] — er bestaat geen retentierecht, ook niet bij openstaande facturen
+- Op verzoek van de cliënt geeft de beroepsbeoefenaar alle boeken, documenten en gegevens die aan de cliënt toebehoren **onverwijld** terug ([[wetteksten/XXI-wet-itaa#art-43|ITAA-LEX XXI · Wet ITAA art. 43]]) — er bestaat geen retentierecht, ook niet bij openstaande facturen
 
 > [!warning]- Opdrachtbrief enkel verplicht bij nieuwe cliënten
 > ❌ *"Voor een bestaande cliënt waarvoor ik al jaren dezelfde opdracht uitvoer, heb ik geen nieuwe opdrachtbrief nodig."*
@@ -131,17 +131,17 @@ De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, 
 
 ## ⚖️ Erelonen: regels en verboden
 
-### Exclusiviteitsbeginsel [^art-45]
+### Exclusiviteitsbeginsel ([[wetteksten/XXI-wet-itaa#art-45|ITAA-LEX XXI · Wet ITAA art. 45]])
 
 De beroepsbeoefenaar mag **enkel aanspraak maken op het ereloon en de vergoeding van kosten** voor zijn opdrachten. Andere voordelen zijn verboden, behoudens een opzegvergoeding bij het verbreken van de overeenkomst.
 
-### Verbod op commissielonen [^art-47]
+### Verbod op commissielonen ([[wetteksten/XXI-wet-itaa#art-47|ITAA-LEX XXI · Wet ITAA art. 47]])
 
 Het is **verboden** om op enigerlei wijze commissie- of makelaarslonen of welk voordeel dan ook toe te kennen of te ontvangen in verband met de opdrachten. Dit geldt zowel voor het ontvangen als voor het toekennen van zulke vergoedingen.
 
 ---
 
-## ⚖️ Aansprakelijkheid [^art-44]
+## ⚖️ Aansprakelijkheid ([[wetteksten/XXI-wet-itaa#art-44|ITAA-LEX XXI · Wet ITAA art. 44, lid 1]])
 
 De beroepsbeoefenaar is aansprakelijk volgens de gewone regels van het aansprakelijkheidsrecht: er moet een **fout** zijn, er moet **schade** zijn, en die schade moet het **gevolg** zijn van de fout. Dat geldt ongeacht of er een contract is — zowel cliënten als derden kunnen een vordering instellen.
 
@@ -245,13 +245,3 @@ Taken:
 Kenniselementen:
 - D.3 — Relaties met cliënten (opdrachtbrief, erelonen, aansprakelijkheid)
 - D.8 — Aansprakelijkheid
-
-[^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
-[^art-38]: [[wetteksten/XXI-wet-itaa#art-38|Wet ITAA art. 38]]
-[^art-41]: [[wetteksten/XXI-wet-itaa#art-41|Wet ITAA art. 41]]
-[^art-46]: [[wetteksten/XXI-wet-itaa#art-46|Wet ITAA art. 46]]
-[^art-47]: [[wetteksten/XXI-wet-itaa#art-47|Wet ITAA art. 47]]
-[^art-45]: [[wetteksten/XXI-wet-itaa#art-45|Wet ITAA art. 45]]
-[^art-42]: [[wetteksten/XXI-wet-itaa#art-42|Wet ITAA art. 42]]
-[^art-43]: [[wetteksten/XXI-wet-itaa#art-43|Wet ITAA art. 43]]
-[^art-44]: [[wetteksten/XXI-wet-itaa#art-44|Wet ITAA art. 44, lid 1]]

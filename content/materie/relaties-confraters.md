@@ -21,7 +21,7 @@ Een collega-beroepsbeoefenaar ingeschreven bij het ITAA. De term wordt gebruikt 
 
 ## 📌 Gewoonlijke raadgever
 
-De beroepsbeoefenaar die **op recurrente wijze** dezelfde cliënt adviseert en begeleidt — de vertrouwde adviseur die de vennootschap door de jaren heen kent [^gedragslijnen].
+De beroepsbeoefenaar die **op recurrente wijze** dezelfde cliënt adviseert en begeleidt — de vertrouwde adviseur die de vennootschap door de jaren heen kent (Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`).
 
 Het begrip is relevant bij de samenwerking met leden van het Instituut van de Bedrijfsrevisoren (IBR): wanneer een bedrijfsrevisor de controle uitvoert bij een cliënt die een ITAA-lid als gewoonlijke raadgever heeft, gelden specifieke gedragsregels om verwarring van rollen te vermijden.
 
@@ -29,18 +29,18 @@ Het begrip is relevant bij de samenwerking met leden van het Instituut van de Be
 
 ## ⚖️ Deontologische gedragsregels tegenover confraters
 
-Uit de algemene [[deontologische-beginselen|deontologische beginselen]] [^art-37] vloeien concrete verplichtingen voort tegenover collega-beroepsbeoefenaars:
+Uit de algemene [[deontologische-beginselen|deontologische beginselen]] ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]) vloeien concrete verplichtingen voort tegenover collega-beroepsbeoefenaars:
 
 - **Geen denigrerende uitlatingen** over collega's tegenover cliënten of derden — dit tast de professionaliteit van het beroep als geheel aan
 - **Loyale samenwerking** wanneer confraters samen aan een dossier werken
 - **Geen ontoelaatbare afwerving** van cliënten van collega's
-- **Respect voor vertrouwelijkheid** bij informatie-uitwisseling in het kader van een gezamenlijke opdracht [^art-52]
+- **Respect voor vertrouwelijkheid** bij informatie-uitwisseling in het kader van een gezamenlijke opdracht ([[wetteksten/XXI-wet-itaa#art-52|ITAA-LEX XXI · Wet ITAA art. 52]])
 
 ---
 
 ## ⚖️ Gedragslijnen bij samenwerking met IBR-leden
 
-Wanneer een ITAA-lid en een bedrijfsrevisor (lid van het IBR) bij dezelfde cliënt betrokken zijn, gelden zes gedragslijnen [^gedragslijnen]. Ze voorkomen rolverwarring, onafhankelijkheidsproblemen en eerloze concurrentie.
+Wanneer een ITAA-lid en een bedrijfsrevisor (lid van het IBR) bij dezelfde cliënt betrokken zijn, gelden zes gedragslijnen (Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`). Ze voorkomen rolverwarring, onafhankelijkheidsproblemen en eerloze concurrentie.
 
 **1° Aanvaarding van een controleopdracht**
 
@@ -90,14 +90,14 @@ De voorganger maakt een **inventaris op in tweevoud**, gedateerd en ondertekend 
 Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt — vrijwillig (cliënt stapt over) of bij stopzetting van een praktijk — gelden bijzondere aandachtspunten:
 
 **Verplichtingen van de vertrekkende beroepsbeoefenaar:**
-- Geeft op verzoek van de cliënt alle boeken, documenten en gegevens die **toebehoren aan de cliënt onverwijld** terug [^art-43]
+- Geeft op verzoek van de cliënt alle boeken, documenten en gegevens die **toebehoren aan de cliënt onverwijld** terug ([[wetteksten/XXI-wet-itaa#art-43|ITAA-LEX XXI · Wet ITAA art. 43]])
 - Er bestaat **geen [[relaties-met-clienten#-verplichting-opdrachtbrief|retentierecht]]**: openstaande erelonen geven geen recht om het dossier in te houden
-- Maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door voorganger en opvolger (of cliënt) [^gedragslijnen]
+- Maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door voorganger en opvolger (of cliënt) (Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`)
 
 **Aandachtspunten voor de overnemende beroepsbeoefenaar:**
 - Geen negatieve uitlatingen over de vorige beroepsbeoefenaar
 - Nagaan **waarom** de vorige beroepsbeoefenaar de samenwerking heeft beëindigd — in het bijzonder: zijn er [[antiwitwaswetgeving|antiwitwaswet]]-gerelateerde redenen? Een cliënt overnemen die verlaten werd wegens een verhoogd witwasrisico vergroot het eigen risico
-- Bij een **overname van aandelen** van een erkende rechtspersoon-beroepsbeoefenaar: de bestaande opdrachtbrieven blijven geldig, want de rechtspersoon (de opdrachtnemer) wijzigt niet. Bij een **overname van cliënteel**: de opdracht is intuitu personae (persoonlijk vertrouwen) — er zijn nieuwe opdrachtbrieven nodig voor elke cliënt [^nota-ob]
+- Bij een **overname van aandelen** van een erkende rechtspersoon-beroepsbeoefenaar: de bestaande opdrachtbrieven blijven geldig, want de rechtspersoon (de opdrachtnemer) wijzigt niet. Bij een **overname van cliënteel**: de opdracht is intuitu personae (persoonlijk vertrouwen) — er zijn nieuwe opdrachtbrieven nodig voor elke cliënt (Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`)
 
 > [!warning]- Reden van vertrek vorige accountant is niet relevant
 > ❌ *"Of ik een cliënt overneem is mijn beslissing — ik hoef niet te weten waarom de vorige accountant vertrok."*
@@ -116,13 +116,13 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 
 ## ⚖️ Wie mag voorbehouden activiteiten uitvoeren?
 
-De beroepsactiviteiten van art. 3 zijn voorbehouden aan personen die ingeschreven zijn in het openbaar register van het ITAA (of die een gelijkwaardige erkenning hebben, zoals bedrijfsrevisoren) [^art-5].
+De beroepsactiviteiten van art. 3 zijn voorbehouden aan personen die ingeschreven zijn in het openbaar register van het ITAA (of die een gelijkwaardige erkenning hebben, zoals bedrijfsrevisoren) ([[wetteksten/XXI-wet-itaa#art-5|ITAA-LEX XXI · Wet ITAA art. 5]]).
 
 Deze inschrijvingseis geldt ongeacht het statuut van de uitvoerder:
 
 - **Zelfstandigen**: moeten ingeschreven zijn als [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountant (GA)]], [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseur (GBA)]], accountant, fiscaal accountant of [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiair]] — of als erkende rechtspersoon
-- **Loontrekkenden**: mogen de activiteiten van art. 3, 1°–5° uitoefenen als ze ingeschreven zijn als [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] of [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd belastingadviseur (IGBA)]] [^art-5-2] — maar dan enkel in het kader van hun arbeidsovereenkomst, voor hun eigen werkgever
-- **Onderaannemers**: een externe persoon of vennootschap die in opdracht van een ITAA-lid [[beroep-van-accountant-en-belastingadviseur#-wie-mag-de-activiteiten-van-art-3-uitoefenen|voorbehouden activiteiten]] uitvoert, moet zelf ingeschreven zijn — ongeacht of hij als zelfstandige of als loontrekkende werkt en ongeacht of hij rechtstreeks aan de cliënt of enkel aan het ITAA-lid factureert [^art-8]
+- **Loontrekkenden**: mogen de activiteiten van art. 3, 1°–5° uitoefenen als ze ingeschreven zijn als [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] of [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd belastingadviseur (IGBA)]] ([[wetteksten/XXI-wet-itaa#art-5|ITAA-LEX XXI · Wet ITAA art. 5, tweede lid]]) — maar dan enkel in het kader van hun arbeidsovereenkomst, voor hun eigen werkgever
+- **Onderaannemers**: een externe persoon of vennootschap die in opdracht van een ITAA-lid [[beroep-van-accountant-en-belastingadviseur#-wie-mag-de-activiteiten-van-art-3-uitoefenen|voorbehouden activiteiten]] uitvoert, moet zelf ingeschreven zijn — ongeacht of hij als zelfstandige of als loontrekkende werkt en ongeacht of hij rechtstreeks aan de cliënt of enkel aan het ITAA-lid factureert ([[wetteksten/XXI-wet-itaa#art-8|ITAA-LEX XXI · Wet ITAA art. 8]])
 
 Een niet-ingeschreven persoon — of het nu een particulier, een buitenlandse vennootschap of een medewerker van het kantoor is — mag geen voorbehouden activiteiten uitoefenen. Een ITAA-lid dat zo iemand inschakelt voor die activiteiten, maakt zichzelf medeplichtig aan een onwettige uitoefening van het beroep.
 
@@ -145,7 +145,7 @@ Een niet-ingeschreven persoon — of het nu een particulier, een buitenlandse ve
 
 ## ⚖️ Samenwerking in associaties en netwerken
 
-In associaties of netwerken gelden dezelfde [[beroepsgeheim#-doorwerking-naar-medewerkers-en-derden|geheimhoudingsverplichtingen]] als bij individuele uitoefening [^art-52].
+In associaties of netwerken gelden dezelfde [[beroepsgeheim#-doorwerking-naar-medewerkers-en-derden|geheimhoudingsverplichtingen]] als bij individuele uitoefening ([[wetteksten/XXI-wet-itaa#art-52|ITAA-LEX XXI · Wet ITAA art. 52]]).
 
 Het delen van vertrouwelijke cliëntinformatie binnen het netwerk is toegestaan voor zover het **noodzakelijk is voor de uitvoering van de opdracht**. De ontvangende confraters zijn gebonden door dezelfde geheimhoudingsplicht.
 
@@ -199,12 +199,3 @@ Taken:
 
 Kenniselementen:
 - D.4 — Relaties met confraters
-
-[^gedragslijnen]: Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`
-[^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
-[^art-5]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5]]
-[^art-5-2]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5, tweede lid]]
-[^art-8]: [[wetteksten/XXI-wet-itaa#art-8|Wet ITAA art. 8]]
-[^art-37]: [[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]]
-[^art-52]: [[wetteksten/XXI-wet-itaa#art-52|Wet ITAA art. 52]]
-[^art-43]: [[wetteksten/XXI-wet-itaa#art-43|Wet ITAA art. 43]]
