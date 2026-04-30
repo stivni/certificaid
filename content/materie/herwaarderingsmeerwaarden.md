@@ -161,5 +161,5 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 Kenniselementen:
 - V.B — Herwaarderingsmeerwaarden
 
-[^art-3-34]: [[itaa-lex-XV-KB#art-3-34|KB WVV 2019 art. 3:34]]
-[^art-3-35]: [[itaa-lex-XV-KB#art-3-35|KB WVV 2019 art. 3:35]]
+[^art-3-34]: [[wetteksten/XV-KB-wvv#art-334|KB WVV 2019 art. 3:34]]
+[^art-3-35]: [[wetteksten/XV-KB-wvv#art-335|KB WVV 2019 art. 3:35]]

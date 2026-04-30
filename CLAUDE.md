@@ -33,9 +33,24 @@ certificaid/
 │   ├── index.md
 │   ├── materie/            # Één .md per concept/fenomeen — getoond als "Materie" in de Explorer
 │   ├── programmaonderdelen/ # Één .md per programmaonderdeel — getoond als "Programmaonderdelen" in de Explorer
-│   └── itaa-lex/           # Proxy per ITAA-LEX sectie — alleen secties die effectief gebruikt worden
+│   └── wetteksten/         # Volledige ITAA-LEX wetteksten (gegenereerd door tools/generate-wetteksten.py)
+│       ├── index.md        # Overzicht alle 21+ secties met status en links
+│       ├── XVII-antiwitwaswet.md
+│       ├── XXI-wet-itaa.md
+│       ├── XIII-wer/       # WER gesplitst per Boek (index.md + boek-i.md, boek-iii.md, ...)
+│       └── ...             # Overige secties (✅ beschikbaar of ⏳ placeholder)
 ├── tools/
-└── resources/              # Bronmateriaal (bv. ITAA-brochure PDF, ITAA_LEX_index.xlsx)
+└── resources/
+    ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
+    ├── programma.pdf            # ITAA-brochure bekwaamheidsexamen (gitignored)
+    ├── wetteksten/
+    │   ├── *.md                 # Gestructureerde wetteksten — primaire referentie (zie §Lokale wetteksten)
+    │   ├── status.md            # Download-status en todo voor ontbrekende wetteksten
+    │   └── raw/                 # Gitignored: ruwe PDFs en tussentijdse .txt-bestanden
+    ├── normen/
+    │   ├── *.md                 # ITAA-normen als gestructureerde markdown
+    │   └── raw/                 # Gitignored: bron-PDFs
+    └── voorbeeldexamens/        # Gitignored: PDF's van vroegere examens
 ```
 
 ### Publicatie
@@ -53,14 +68,45 @@ Dit is de belangrijkste regel van het hele project.
 
 **Uitzondering — valkuilen en voorbeeldvragen**: hier zijn AI-gegenereerde aannames toegestaan, op voorwaarde dat ze duidelijk gelabeld zijn met 🤖. De student weet dan dat dit een redenering is op basis van het concept, niet een geciteerde examenvraag of gedocumenteerde valkuil. De materie zelf waarop de valkuil of vraag gebaseerd is, blijft wel brongebonden.
 
+## Lokale wetteksten — primaire werkreferentie
+
+De volledige ITAA-LEX wetteksten staan in twee plaatsen:
+- **`resources/wetteksten/*.md`**: bronbestanden — direct doorzoekbaar met `grep` of `Read`, artikels als `**Art. X.` bold
+- **`content/wetteksten/`**: gegenereerde site-versie (via `tools/generate-wetteksten.py`) — artikels als `## Art. X` headings met Quartz-ankers voor directe links
+
+**Gebruik de resources-versie** voor verificatie en opzoekwerk (sneller te grep'en). **Gebruik de content-versie** als bronpad voor wikilinks in materie-fiches.
+
+| Content-pad | Wet | ITAA-LEX sectie |
+|-------------|-----|-----------------|
+| `content/wetteksten/XVII-antiwitwaswet.md` | Antiwitwaswet 2017 (t.e.m. 24/12/2025) | XVII |
+| `content/wetteksten/XXI-wet-itaa.md` | Wet ITAA 17/03/2019 | XXI |
+| `content/wetteksten/XV-wvv.md` | WVV 23/03/2019 | XV |
+| `content/wetteksten/XV-KB-wvv.md` | KB 29/04/2019 uitvoering WVV | XV (KB) |
+| `content/wetteksten/XIII-wer/` | WER (per Boek) | XIII |
+| `content/wetteksten/XIII-KB-wer-boekhouding.md` | KB 21/10/2018 boekhoudnormen WER | XIII (KB) |
+| `content/wetteksten/IVA-vcf.md` | VCF (t.e.m. 31/12/2025) | IV.A |
+| `content/wetteksten/VII-wetboek-invordering.md` | Wetboek Invordering 2019 | VII |
+| `content/wetteksten/V-wdrt.md` | Wetboek Diverse Rechten en Taksen | V |
+| `content/wetteksten/XI-oud-bw.md` | Oud Burgerlijk Wetboek | XI (oud) |
+| `content/wetteksten/II-KB-wib92.md` | KB/WIB92 27/08/1993 | II (KB) |
+| `content/wetteksten/EU-richtlijn-2013-34.md` | Richtlijn 2013/34/EU | EU |
+
+**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
+
+**Werkwijze bij het schrijven van materie:**
+1. Grep eerst in `resources/wetteksten/*.md` op artikelnummer of sleutelwoord
+2. Citeer het artikel inline via een wikilink naar `content/wetteksten/` (zie §Bronvermelding)
+3. Ga enkel online als de wet niet lokaal beschikbaar is
+
 ## Bronhiërarchie (van meest naar minst gezaghebbend)
-1. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
-2. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
-3. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
-4. ITAA-normen op [itaa.be](http://itaa.be)
-5. NBB-documentatie op [nbb.be](http://nbb.be)
-6. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
-7. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen
+1. Lokale wetteksten in `resources/wetteksten/` (afgeleid van ejustice gecoördineerde versies)
+2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
+3. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
+4. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
+5. ITAA-normen op [itaa.be](http://itaa.be)
+6. NBB-documentatie op [nbb.be](http://nbb.be)
+7. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
+8. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen
 
 ## Examensituatie — wat de student bij heeft
 
@@ -198,6 +244,18 @@ Als een sectie niet past binnen deze 10 types, stel dan een nieuw type voor met 
 - Een concept bevat **alleen de secties die relevant zijn** — niet elk concept heeft alle types of domeinen nodig.
 - Hetzelfde type mag **meerdere keren voorkomen** binnen één concept (bv. twee aparte berekeningen, of twee begrippen die samen horen).
 
+### Kennislagen en sectietypes
+
+De 10 sectietypes vallen in drie lagen die overeenstemmen met de examenniveaus uit de ITAA-brochure. Het `niveau`-veld in de frontmatter van een materie-fiche geeft aan tot welk niveau de fiche moet reiken — en dus welke lagen aanwezig moeten zijn:
+
+| Laag | Brochure-niveau | Sectietypes |
+|---|---|---|
+| **Weten** | weten-en-inzien | 📌 begrip, ⚖️ principe, 🔒 verplichting |
+| **Toepassen** | toepassen | 📋 procedure, 🔢 berekening, ✅ checklist, 👤 rol |
+| **Integreren** | integratie | 🔍 diagnose, ↔️ vergelijking, 💬 advies |
+
+Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, ongeacht de frontmatter. Het `niveau`-veld is een signaal — geen garantie.
+
 ## Conventie conceptfiche
 
 ### Iteratief werkproces
@@ -226,13 +284,13 @@ itaa-lex: XXI, p. 2604
 # Naam van het concept
 
 ## 📌 Term A
-Definitie van Term A. ([[itaa-lex-XXI#art-2|Wet ITAA art. 2]])
+Definitie van Term A. ([[wetteksten/XXI-wet-itaa#art-2|Wet ITAA art. 2]])
 
 ## 📌 Term B (AFKORTING)
 Definitie. Overkoepelend begrip? → Zie [[conceptfiche#term-a|Term A]], [[conceptfiche#term-c|Term C]]
 
 ## ⚖️ Naam van het principe
-Inhoud. ([[itaa-lex-XVII#art-47|AWW art. 47]])
+Inhoud. ([[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]])
 
 > [!warning]- Korte omschrijving van de valkuil
 > ❌ *"De verkeerde aanname die studenten vaak maken."*
@@ -298,11 +356,28 @@ tags: ["X.X", wip, programmaonderdeel]
 - [[materie-fiche#sectie|Doelstelling]]: omschrijving van wat de student moet kunnen
   - Kenniselement X.n: [[materie-fiche#sectie|korte omschrijving]]
 
+> [!note]- Taakanalyse — uitvoering op integratieniveau
+>
+> **Werksituatie A**: De accountant staat voor situatie X en moet Y doen/beslissen...
+> **Werksituatie B** *(indien relevant)*: ...
+>
+> **Toepassen** — stappen:
+> 1. Stap 1 → [[materie-fiche#sectie|concept]]
+> 2. Stap 2 → [[materie-fiche#sectie|concept]]
+>
+> **Integreren** — oordeelsmomenten:
+> - Wanneer geldt uitzondering X? → [[materie-fiche#sectie|sectienaam]]
+> - Hoe herken je situatie Y? → [[materie-fiche#sectie|sectienaam]]
+>
+> 🤖 *AI-aanvulling*
+
 ## Relevante materie
 
 - [[materie-fiche-a|Naam concept A]]
 - [[materie-fiche-b|Naam concept B]]
 ```
+
+De `[!note]-` callout is collapsible en visueel gescheiden van de officiële ITAA-tekst. Het label `🤖 *AI-aanvulling*` onderaan maakt duidelijk dat dit onze eigen aanvulling is op de brochure-omschrijving.
 
 ### Sectiehoofdingen: emoji vervangt het typewoord
 
@@ -347,21 +422,17 @@ Let op:
 - Link: `[[antiwitwaswetgeving#witwassen-van-geld|...]]` ✗ (leading dash ontbreekt)
 - Geaccentueerde tekens (ë, é, ij...) worden **niet** omgezet naar ASCII: gebruik `financiële` niet `financiele`
 
-**Uitzondering**: ITAA-LEX proxy-headings (`## Art. X`) hebben geen emoji en dus geen leading dash → anker is gewoon `#art-x`.
+**Uitzondering**: wettekst-headings (`## Art. X`) hebben geen emoji en dus geen leading dash → anker is gewoon `#art-x`.
 
-### ITAA-LEX proxy: ankers
+### Wetteksten: ankers
 
-Proxy-headings zijn kortweg `## Art. X` (zonder beschrijving, zonder `{#art-X}`). Quartz genereert het anker dan als `art-x`. De beschrijving staat in de body van die sectie:
+Artikel-headings in `content/wetteksten/` zijn kortweg `## Art. X`. Quartz genereert het anker door speciale tekens te strippen (niet naar `-` te converteren):
+- `## Art. 47` → `#art-47`
+- `## Art. 1:24` (WVV) → `#art-124` (colon verdwijnt)
+- `## Art. 3:23` (KB WVV) → `#art-323`
+- `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
 
-```
-## Art. 47
-**Meldingsplicht aan de CFI**
-> Pagina ITAA-LEX: p. 2469
-
-§1: Melding verplicht...
-```
-
-Link: `[[itaa-lex-XVII#art-47|AWW art. 47]]` ✓
+Link: `[[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]]` ✓
 
 ### Callout: valkuil
 
@@ -425,64 +496,22 @@ Gebruik `[!question]-` genest met `[!success]-`. **Belangrijk**: voeg een lege r
 
 ### Bronvermelding: regels
 
-**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de ITAA-LEX proxy:
-- `([[itaa-lex-XXI#art-37|Wet ITAA art. 37]])` — verwijst naar de artikel-sectie in de proxy
-- `([[itaa-lex-XVII#art-47|AWW art. 47]])` — idem voor de AWW
+**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/wetteksten/`:
+- `([[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]])` — springt direct naar Art. 37 in de Wet ITAA
+- `([[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47]])` — springt direct naar Art. 47 in de AWW
+- `([[wetteksten/XIII-wer/boek-iii#art-iii-82|WER art. III.82]])` — WER split per Boek
 
-**Links altijd naar artikel-anker**, nooit naar het algemene proxy-document: `[[itaa-lex-XXI#art-37|...]]` en niet `[[itaa-lex-XXI|...]]` wanneer je een specifiek artikel bedoelt.
+**Links altijd naar artikel-anker**, nooit naar het algemene wettekst-document: `[[wetteksten/XXI-wet-itaa#art-37|...]]` en niet `[[wetteksten/XXI-wet-itaa|...]]` wanneer je een specifiek artikel bedoelt.
+
+**Ankers**: Quartz strips speciale tekens (`:`, `.`, `/`) volledig — ze worden NIET omgezet naar koppeltekens. Spaties worden wél koppeltekens:
+- `## Art. 47` → `#art-47`
+- `## Art. 1:24` (WVV) → `#art-124` (colon verdwijnt)
+- `## Art. 3:23` (KB WVV) → `#art-323`
+- `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
 
 **Geen aparte "Bronnen en artikelen"-sectie** — bronverwijzingen staan inline in de tekst, direct na de feitelijke bewering. Een aparte sectie onderaan is redundant en niet onderhoudbaar.
 
-**Geen links naar lokale PDF's** — altijd via de ITAA-LEX proxy of een publieke online bron.
-
-### ITAA-LEX proxy-bestanden
-
-Elke gebruikte ITAA-LEX sectie heeft een bestand in `content/itaa-lex/` met de naamgeving `itaa-lex-[sectienummer].md`.
-
-**Regel**: elk artikel waarnaar een materie-fiche linkt, **moet** een eigen `## Art. X` heading hebben in de proxy. Voeg die toe vóór je de link schrijft.
-
-**Heading-formaat**: kortweg `## Art. X` — géén beschrijving in de heading, géén `{#art-X}`. Quartz genereert dan automatisch anker `art-x`. De beschrijving staat als vetgedrukte tekst onder de heading.
-
-Het proxy-bestand ziet er zo uit:
-
-```
----
-itaa-lex-sectie: XVII
-wet: Wet van 18 september 2017 ...
-afkorting: AWW
-online: https://www.ejustice.just.fgov.be/[...]
----
-
-# ITAA-LEX XVII — AWW (Antiwitwaswet 2017)
-
-[Online raadplegen](https://www.ejustice.just.fgov.be/[...]) · ejustice.just.fgov.be
-
-## Overzicht artikelen
-
-| Artikel(en) | Onderwerp | Pagina ITAA-LEX |
-|-------------|-----------|-----------------|
-| [Art. 2](#art-2) | Definitie witwassen | p. 2441 |
-| ...    | ...       | ...     |
-
-## Art. 2
-**Definitie witwassen van geld**
-> Pagina ITAA-LEX: p. 2441
-
-Korte inhoud of samenvatting van het artikel.
-
-## Art. 47
-**Meldingsplicht aan de CFI**
-> Pagina ITAA-LEX: p. 2469
-
-...
-
-## Gebruikte concepten
-Concepten die naar deze sectie verwijzen: [[antiwitwaswetgeving]]
-```
-
-Link: `[[itaa-lex-XVII#art-47|AWW art. 47]]` ✓ — anker `art-47` matcht de heading `## Art. 47`.
-
-Proxy-bestanden worden **on demand** aangemaakt — alleen wanneer een conceptfiche ernaar verwijst. Artikels die niet nodig zijn, staan niet in de proxy.
+**Geen links naar lokale PDF's** — altijd via de wetteksten in `content/wetteksten/` of een publieke online bron.
 
 ## Taalgebruik: afkortingen en voluit schrijven
 
@@ -544,6 +573,12 @@ Na het opstellen of bijwerken van een vakfiche, doorloop je expliciet:
 1. **Elke TDK** → heeft die een link naar de juiste sectie in een conceptfiche?
 2. **Elke conceptfiche in "Relevante materie"** → dekt die alle TDKs die ernaar linken?
 3. **Zijn er TDKs die naar geen enkele materie linken?** → maak de ontbrekende materie aan of voeg het kenniselement toe als sectie in een bestaande fiche
+4. **Laagcheck** (voor programmaonderdelen op `niveau: integratie`) — signaleer als een laag ontbreekt in de materie-fiches:
+   - **Weten**: 📌, ⚖️ of 🔒 → vrijwel altijd aanwezig
+   - **Toepassen**: 📋, 🔢, ✅ of 👤 → mist regelmatig
+   - **Integreren**: 🔍, ↔️ of 💬 → mist het vaakst
+   
+   Een integratiefiche zonder Integreren-sectie is een signaal dat de laag mogelijk ontbreekt — niet automatisch een fout (de laag kan ook gedekt zijn via een andere fiche in het programmaonderdeel). Meld dit aan de gebruiker maar blokkeer niet.
 
 ## Niveauindeling
 
@@ -590,11 +625,27 @@ Dit is de volgorde wanneer we een nieuw programmaonderdeel beginnen te behandele
 1. Open `content/programmaonderdelen/X.X-naam.md`
 2. Verwijder `verborgen` uit de tags → fiche is zichtbaar in de Explorer
 
-### Stap 2 — Concepten bepalen
-1. Lees de taken, doelstellingen en kenniselementen in de brochure (resources/programma.pdf) en/of programmaonderdeel fiche
-2. Bepaal welke concepten/fenomenen de materie vormen (zie "Hoe bepalen we welke concepten er zijn?")
-3. Controleer op duplicaten met bestaande materie-fiches
-4. Leg de lijst voor aan de gebruiker ter validatie
+### Stap 2A — Taakdecompositie
+
+Voordat we bepalen welke concepten nodig zijn, analyseren we per taak wat de student concreet moet kunnen doen. Taken en doelstellingen zijn minstens even belangrijk als kenniselementen — ze beschrijven het niveau van uitvoering, niet alleen de te kennen stof.
+
+**Werkwijze** — per taak in de programmaonderdeel-fiche:
+
+1. **Concretiseer de werksituatie(s)**: beschrijf één of meerdere gevallen waarbij de accountant deze taak uitvoert (er kunnen meerdere situaties zijn, bv. kleine vennootschap vs. grote)
+2. **Bepaal per situatie welke lagen nodig zijn**:
+   - **Weten**: welke begrippen, principes en verplichtingen moet de student kennen?
+   - **Toepassen**: welke procedure of berekening voert hij stap voor stap uit?
+   - **Integreren**: welke beslissing neemt hij? Op basis van welk criterium? Hoe herkent hij uitzonderingen?
+3. **Gap-check**: controleer per laag of er al een sectiontype bestaat in een materie-fiche die dit dekt. Ontbrekende lagen zijn input voor Stap 2B
+4. **Schrijf de taakanalyse als `[!note]-` callout** in de vakfiche, direct na de officiële ITAA-tekst van die taak (zie template programmaonderdeel-fiche)
+5. Leg de taakdecompositie voor aan de gebruiker vóór je verder gaat
+
+### Stap 2B — Concepten bepalen
+1. Vertrek vanuit de taakdecompositie (Stap 2A): welke lagen waren niet gedekt? Dat zijn de ontbrekende concepten of secties
+2. Lees ook de kenniselementen in de brochure (resources/programma.pdf) en/of programmaonderdeel-fiche voor expliciete concepten die nog niet aanwezig zijn
+3. Bepaal welke concepten/fenomenen de materie vormen (zie "Hoe bepalen we welke concepten er zijn?")
+4. Controleer op duplicaten met bestaande materie-fiches
+5. Leg de lijst voor aan de gebruiker ter validatie
 
 ### Stap 3 — Per concept: materie-fiche aanmaken (iteratief)
 Voor elk nieuw concept, in deze volgorde (elke stap door gebruiker valideren):

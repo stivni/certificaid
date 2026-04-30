@@ -75,11 +75,11 @@ Het ITAA heeft zes hoofdtaken [^art-62]:
 | Orgaan | Grondslag | Bevoegdheid |
 |--------|-----------|-------------|
 | **Algemene Vergadering** | art. 63–65 | Stelt bijdragen vast, keurt normen goed, beslist over fusies |
-| **Raad van het ITAA** | [[itaa-lex-XXI#art-68|art. 68–72]] | Dagelijks bestuur: register, normen, tucht, kwaliteitstoetsing |
-| **Stagecommissie** | [[itaa-lex-XXI#art-17|art. 17]] | Toelatings- en bekwaamheidsexamen, stageovereenkomsten |
-| **Commissie kwaliteitstoetsing** | [[itaa-lex-XXI#art-60|art. 60]] | Organisatie en uitvoering van de kwaliteitstoetsing |
-| **Tuchtcommissie** | [[itaa-lex-XXI#art-89|art. 89]] | Tuchtprocedures voor deontologische inbreuken |
-| **Hoge Raad voor de Economische Beroepen** | [[itaa-lex-XXI#art-79|art. 79]] | Zelfstandig adviesorgaan — bewaakt het algemeen belang |
+| **Raad van het ITAA** | [[wetteksten/XXI-wet-itaa#art-68|art. 68–72]] | Dagelijks bestuur: register, normen, tucht, kwaliteitstoetsing |
+| **Stagecommissie** | [[wetteksten/XXI-wet-itaa#art-17|art. 17]] | Toelatings- en bekwaamheidsexamen, stageovereenkomsten |
+| **Commissie kwaliteitstoetsing** | [[wetteksten/XXI-wet-itaa#art-60|art. 60]] | Organisatie en uitvoering van de kwaliteitstoetsing |
+| **Tuchtcommissie** | [[wetteksten/XXI-wet-itaa#art-89|art. 89]] | Tuchtprocedures voor deontologische inbreuken |
+| **Hoge Raad voor de Economische Beroepen** | [[wetteksten/XXI-wet-itaa#art-79|art. 79]] | Zelfstandig adviesorgaan — bewaakt het algemeen belang |
 
 De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet ondergeschikt aan het ITAA). Hij geeft adviezen aan parlement, regering, ITAA en het Instituut van de Bedrijfsrevisoren (IBR) over de uitoefening van de beroepen in het algemeen belang. Hij kan ook klacht neerleggen bij de [[itaa-als-instituut#-tuchtstelsel|tuchtcommissie]].
 
@@ -292,21 +292,21 @@ Kenniselementen:
 - D.5 — Relaties met het ITAA (openbaar register, toezicht, kwaliteitstoetsing)
 - D.9 — Toezicht en beroepstucht
 
-[^art-61]: [[itaa-lex-XXI#art-61|Wet ITAA art. 61]]
-[^art-29]: [[itaa-lex-XXI#art-29|Wet ITAA art. 29]]
-[^art-53]: [[itaa-lex-XXI#art-53|Wet ITAA art. 53]]
-[^art-72]: [[itaa-lex-XXI#art-72|Wet ITAA art. 72, 2°]]
-[^art-62]: [[itaa-lex-XXI#art-62|Wet ITAA art. 62]]
-[^art-55]: [[itaa-lex-XXI#art-55|Wet ITAA art. 55]]
-[^art-56]: [[itaa-lex-XXI#art-56|art. 56]]
-[^art-58]: [[itaa-lex-XXI#art-58|art. 58]]
-[^art-57]: [[itaa-lex-XXI#art-57|art. 57]]
-[^art-59]: [[itaa-lex-XXI#art-59|art. 59]]
-[^art-85]: [[itaa-lex-XXI#art-85|art. 85, 4°]]
-[^art-86]: [[itaa-lex-XXI#art-86|art. 86–88]]
-[^art-89]: [[itaa-lex-XXI#art-89|Wet ITAA art. 89–91]]
-[^art-93]: [[itaa-lex-XXI#art-93|Wet ITAA art. 93]]
-[^art-94]: [[itaa-lex-XXI#art-94|art. 94–101]]
-[^art-54]: [[itaa-lex-XXI#art-54|Wet ITAA art. 54]]
+[^art-61]: [[wetteksten/XXI-wet-itaa#art-61|Wet ITAA art. 61]]
+[^art-29]: [[wetteksten/XXI-wet-itaa#art-29|Wet ITAA art. 29]]
+[^art-53]: [[wetteksten/XXI-wet-itaa#art-53|Wet ITAA art. 53]]
+[^art-72]: [[wetteksten/XXI-wet-itaa#art-72|Wet ITAA art. 72, 2°]]
+[^art-62]: [[wetteksten/XXI-wet-itaa#art-62|Wet ITAA art. 62]]
+[^art-55]: [[wetteksten/XXI-wet-itaa#art-55|Wet ITAA art. 55]]
+[^art-56]: [[wetteksten/XXI-wet-itaa#art-56|art. 56]]
+[^art-58]: [[wetteksten/XXI-wet-itaa#art-58|art. 58]]
+[^art-57]: [[wetteksten/XXI-wet-itaa#art-57|art. 57]]
+[^art-59]: [[wetteksten/XXI-wet-itaa#art-59|art. 59]]
+[^art-85]: [[wetteksten/XXI-wet-itaa#art-85|art. 85, 4°]]
+[^art-86]: [[wetteksten/XXI-wet-itaa#art-86|art. 86–88]]
+[^art-89]: [[wetteksten/XXI-wet-itaa#art-89|Wet ITAA art. 89–91]]
+[^art-93]: [[wetteksten/XXI-wet-itaa#art-93|Wet ITAA art. 93]]
+[^art-94]: [[wetteksten/XXI-wet-itaa#art-94|art. 94–101]]
+[^art-54]: [[wetteksten/XXI-wet-itaa#art-54|Wet ITAA art. 54]]
 [^art-118]: Procedurereglement AWW art. 118 (ITAA) — `resources/normen/procedurereglement-AWW-art118.md`, art. 3 en 5
-[^art-36]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36]]
+[^art-36]: [[wetteksten/XXI-wet-itaa#art-36|Wet ITAA art. 36]]

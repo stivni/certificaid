@@ -142,6 +142,6 @@ Kenniselementen:
 >
 > 📝 *Uit voorbeeldexamen 2013/1*
 
-[^art-3-4]: [[itaa-lex-XV#art-3-4|WVV art. 3:4]]
-[^art-3-6]: [[itaa-lex-XV#art-3-6|WVV art. 3:6]]
-[^art-3-6-1]: [[itaa-lex-XV#art-3-6-1|WVV art. 3:6/1]]
+[^art-3-4]: [[wetteksten/XV-wvv#art-34|WVV art. 3:4]]
+[^art-3-6]: [[wetteksten/XV-wvv#art-36|WVV art. 3:6]]
+[^art-3-6-1]: [[wetteksten/XV-wvv#art-361|WVV art. 3:6/1]]

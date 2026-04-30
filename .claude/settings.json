@@ -2,30 +2,7 @@
   "permissions": {
     "defaultMode": "acceptEdits",
     "allow": [
-      "Bash(ls *)",
-      "Bash(find *)",
-      "Bash(grep *)",
-      "Bash(git status)",
-      "Bash(git diff*)",
-      "Bash(git log*)",
-      "Bash(git branch*)",
-      "Bash(git add *)",
-      "Bash(git commit*)",
-      "Bash(git rm *)",
-      "Bash(python3 *)",
-      "Bash(npm run dev)",
-      "Bash(npm run build)",
-      "Bash(npm install)",
-      "Bash(pdftotext *)",
-      "Bash(pdfinfo *)",
-      "Bash(sed *)",
-      "Bash(awk *)",
-      "Bash(xargs *)",
-      "Bash(cp *)",
-      "Bash(mv *)",
-      "Bash(mkdir *)",
-      "Bash(ln *)",
-      "Bash(rm content/*)"
+      "Bash(*)"
     ]
   },
   "hooks": {

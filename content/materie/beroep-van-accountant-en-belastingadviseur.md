@@ -26,7 +26,7 @@ De wetgever reguleert de beroepen van gecertificeerd accountant en gecertificeer
 
 ## 📌 Gecertificeerd accountant (GA)
 
-Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd accountant**. Hij mag de activiteiten uitoefenen beschreven in [[itaa-lex-XXI#art-3|Wet ITAA art. 3]] (12 activiteiten, samengevat):
+Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd accountant**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-3|Wet ITAA art. 3]] (12 activiteiten, samengevat):
 
 - **Boekhoudkundige diensten**: organiseren van de [[boekhoudplicht-wer|boekhouding]], opmaken van de [[jaarrekening|jaarrekening]], centraliseren van boekingen, corrigeren van documenten
 - **Financiële analyse**: analyseren van de positie en werking van ondernemingen
@@ -40,7 +40,7 @@ Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid 
 
 ## 📌 Gecertificeerd belastingadviseur (GBA)
 
-Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd belastingadviseur**. Hij mag de activiteiten uitoefenen beschreven in [[itaa-lex-XXI#art-6|Wet ITAA art. 6]] (4 activiteiten):
+Een beroepsbeoefenaar ingeschreven in het openbaar register met de hoedanigheid van **gecertificeerd belastingadviseur**. Hij mag de activiteiten uitoefenen beschreven in [[wetteksten/XXI-wet-itaa#art-6|Wet ITAA art. 6]] (4 activiteiten):
 
 1. Advies verstrekken in **alle fiscale aangelegenheden**
 2. De belastingplichtige bijstaan bij het **nakomen van zijn fiscale verplichtingen**
@@ -113,12 +113,12 @@ Zes titels zijn wettelijk beschermd — niemand mag ze dragen tenzij ingeschreve
 
 | Beschermde titel | Grondslag |
 |---|---|
-| "gecertificeerd accountant" | [[itaa-lex-XXI#art-4|art. 4]] |
-| "intern gecertificeerd accountant" | [[itaa-lex-XXI#art-4|art. 4]] |
-| "gecertificeerd belastingadviseur" | [[itaa-lex-XXI#art-7|art. 7]] |
-| "intern gecertificeerd belastingadviseur" | [[itaa-lex-XXI#art-8|art. 8]] |
-| "accountant" | [[itaa-lex-XXI#art-9|art. 9]] |
-| "fiscaal accountant" | [[itaa-lex-XXI#art-9|art. 9]] |
+| "gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|art. 4]] |
+| "intern gecertificeerd accountant" | [[wetteksten/XXI-wet-itaa#art-4|art. 4]] |
+| "gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-7|art. 7]] |
+| "intern gecertificeerd belastingadviseur" | [[wetteksten/XXI-wet-itaa#art-8|art. 8]] |
+| "accountant" | [[wetteksten/XXI-wet-itaa#art-9|art. 9]] |
+| "fiscaal accountant" | [[wetteksten/XXI-wet-itaa#art-9|art. 9]] |
 
 Niemand mag een titel dragen die **verwarring kan scheppen** met een van deze zes beschermde titels. Een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur **niet** dragen, ook al verricht hij gelijkaardige activiteiten [^art-8].
 
@@ -278,14 +278,14 @@ Kenniselementen:
 - C.6 — Toegang tot de hoedanigheid (stage, bekwaamheidsexamen)
 - C.7 — Permanente beroepsopleiding
 
-[^art-5]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5]]
-[^art-8]: [[itaa-lex-XXI#art-8|Wet ITAA art. 8]]
-[^art-9]: [[itaa-lex-XXI#art-9|Wet ITAA art. 9]]
-[^art-10]: [[itaa-lex-XXI#art-10|Wet ITAA art. 10, §1]]
-[^art-12]: [[itaa-lex-XXI#art-12|art. 12]]
-[^art-19]: [[itaa-lex-XXI#art-19|art. 19]]
-[^art-13]: [[itaa-lex-XXI#art-13|Wet ITAA art. 13, §1]]
-[^art-14]: [[itaa-lex-XXI#art-14|art. 14]]
-[^art-39]: [[itaa-lex-XXI#art-39|Wet ITAA art. 39]]
-[^art-85]: [[itaa-lex-XXI#art-85|art. 85, 3°]]
+[^art-5]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5]]
+[^art-8]: [[wetteksten/XXI-wet-itaa#art-8|Wet ITAA art. 8]]
+[^art-9]: [[wetteksten/XXI-wet-itaa#art-9|Wet ITAA art. 9]]
+[^art-10]: [[wetteksten/XXI-wet-itaa#art-10|Wet ITAA art. 10, §1]]
+[^art-12]: [[wetteksten/XXI-wet-itaa#art-12|art. 12]]
+[^art-19]: [[wetteksten/XXI-wet-itaa#art-19|art. 19]]
+[^art-13]: [[wetteksten/XXI-wet-itaa#art-13|Wet ITAA art. 13, §1]]
+[^art-14]: [[wetteksten/XXI-wet-itaa#art-14|art. 14]]
+[^art-39]: [[wetteksten/XXI-wet-itaa#art-39|Wet ITAA art. 39]]
+[^art-85]: [[wetteksten/XXI-wet-itaa#art-85|art. 85, 3°]]
 [^norm-pv]: Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11

@@ -188,11 +188,11 @@ Kenniselementen:
 >
 > 🤖 *AI-aanvulling*
 
-[^art-1-24]: [[itaa-lex-XV#art-1-24|WVV art. 1:24]]
-[^art-1-25]: [[itaa-lex-XV#art-1-25|WVV art. 1:25]]
-[^art-1-26-1]: [[itaa-lex-XV#art-1-26-1|WVV art. 1:26/1]]
-[^art-1-28]: [[itaa-lex-XV#art-1-28|WVV art. 1:28]]
-[^art-3-2]: [[itaa-lex-XV#art-3-2|WVV art. 3:2]]
-[^art-3-3]: [[itaa-lex-XV#art-3-3|WVV art. 3:3]]
-[^art-3-4]: [[itaa-lex-XV#art-3-4|WVV art. 3:4]]
-[^art-3-72]: [[itaa-lex-XV#art-3-72|WVV art. 3:72]]
+[^art-1-24]: [[wetteksten/XV-wvv#art-124|WVV art. 1:24]]
+[^art-1-25]: [[wetteksten/XV-wvv#art-125|WVV art. 1:25]]
+[^art-1-26-1]: [[wetteksten/XV-wvv#art-1261|WVV art. 1:26/1]]
+[^art-1-28]: [[wetteksten/XV-wvv#art-128|WVV art. 1:28]]
+[^art-3-2]: [[wetteksten/XV-wvv#art-32|WVV art. 3:2]]
+[^art-3-3]: [[wetteksten/XV-wvv#art-33|WVV art. 3:3]]
+[^art-3-4]: [[wetteksten/XV-wvv#art-34|WVV art. 3:4]]
+[^art-3-72]: [[wetteksten/XV-wvv#art-372|WVV art. 3:72]]

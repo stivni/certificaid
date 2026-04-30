@@ -24,7 +24,7 @@ Het beroepsgeheim beschermt informatie die de beroepsbeoefenaar heeft ontvangen 
 
 ## 📌 Discretieplicht
 
-Een **deontologische** geheimhoudingsverplichting op basis van **[[itaa-lex-XXI#art-50|Wet ITAA art. 50–52]]**. Schending leidt tot tuchtrechtelijke sancties (en eventueel burgerlijke aansprakelijkheid).
+Een **deontologische** geheimhoudingsverplichting op basis van **[[wetteksten/XXI-wet-itaa#art-50|Wet ITAA art. 50–52]]**. Schending leidt tot tuchtrechtelijke sancties (en eventueel burgerlijke aansprakelijkheid).
 
 De discretieplicht is **ruimer** dan het beroepsgeheim: ze dekt niet alleen toevertrouwde informatie, maar ook feiten met een vertrouwelijk karakter die de beroepsbeoefenaar **zelf heeft vastgesteld** in de uitoefening van zijn beroep.
 
@@ -169,7 +169,7 @@ Kenniselementen:
 >
 > 📝 *Uit voorbeeldexamen 2015*
 
-[^art-50]: [[itaa-lex-XXI#art-50|Wet ITAA art. 50]]
-[^art-51]: [[itaa-lex-XXI#art-51|Wet ITAA art. 51]]
-[^art-52]: [[itaa-lex-XXI#art-52|Wet ITAA art. 52]]
-[^art-53]: [[itaa-lex-XXI#art-53|Wet ITAA art. 53]]
+[^art-50]: [[wetteksten/XXI-wet-itaa#art-50|Wet ITAA art. 50]]
+[^art-51]: [[wetteksten/XXI-wet-itaa#art-51|Wet ITAA art. 51]]
+[^art-52]: [[wetteksten/XXI-wet-itaa#art-52|Wet ITAA art. 52]]
+[^art-53]: [[wetteksten/XXI-wet-itaa#art-53|Wet ITAA art. 53]]

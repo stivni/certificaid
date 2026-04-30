@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { SectionFootnotes } from "./tools/sectionFootnotes"
 
 const config: QuartzConfig = {
   configuration: {
@@ -58,10 +59,11 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
+      SectionFootnotes(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({ renderEngine: "katex", katexOptions: { strict: (errorCode: string) => errorCode === "commentAtEnd" ? "ignore" : "warn" } }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

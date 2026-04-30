@@ -281,9 +281,9 @@ Kenniselementen:
 - D.1 — Basisprincipes (de 7 deontologische beginselen)
 - D.2 — Onafhankelijkheid
 
-[^art-36-3]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36 §3]]
-[^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
+[^art-36-3]: [[wetteksten/XXI-wet-itaa#art-36|Wet ITAA art. 36 §3]]
+[^art-37]: [[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]]
 [^kmo-norm]: KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`
-[^art-48]: [[itaa-lex-XXI#art-48|Wet ITAA art. 48]]
-[^art-49]: [[itaa-lex-XXI#art-49|Wet ITAA art. 49]]
-[^art-40]: [[itaa-lex-XXI#art-40|Wet ITAA art. 40]]
+[^art-48]: [[wetteksten/XXI-wet-itaa#art-48|Wet ITAA art. 48]]
+[^art-49]: [[wetteksten/XXI-wet-itaa#art-49|Wet ITAA art. 49]]
+[^art-40]: [[wetteksten/XXI-wet-itaa#art-40|Wet ITAA art. 40]]

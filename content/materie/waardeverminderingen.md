@@ -169,8 +169,8 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 Kenniselementen:
 - V.B — Waardeverminderingen
 
-[^art-3-23]: [[itaa-lex-XV-KB#art-3-23|KB WVV 2019 art. 3:23]]
-[^art-3-24]: [[itaa-lex-XV-KB#art-3-24|KB WVV 2019 art. 3:24]]
-[^art-3-25]: [[itaa-lex-XV-KB#art-3-25|KB WVV 2019 art. 3:25]]
-[^art-3-26]: [[itaa-lex-XV-KB#art-3-26|KB WVV 2019 art. 3:26]]
-[^art-3-27]: [[itaa-lex-XV-KB#art-3-27|KB WVV 2019 art. 3:27]]
+[^art-3-23]: [[wetteksten/XV-KB-wvv#art-323|KB WVV 2019 art. 3:23]]
+[^art-3-24]: [[wetteksten/XV-KB-wvv#art-324|KB WVV 2019 art. 3:24]]
+[^art-3-25]: [[wetteksten/XV-KB-wvv#art-325|KB WVV 2019 art. 3:25]]
+[^art-3-26]: [[wetteksten/XV-KB-wvv#art-326|KB WVV 2019 art. 3:26]]
+[^art-3-27]: [[wetteksten/XV-KB-wvv#art-327|KB WVV 2019 art. 3:27]]

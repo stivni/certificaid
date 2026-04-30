@@ -165,12 +165,12 @@ Kenniselementen:
 >
 > 🤖 *AI-aanvulling*
 
-[^art-3-1]: [[itaa-lex-XV#art-3-1|WVV art. 3:1]]
-[^art-3-2]: [[itaa-lex-XV#art-3-2|WVV art. 3:2]]
-[^art-3-3]: [[itaa-lex-XV#art-3-3|WVV art. 3:3]]
-[^art-3-10]: [[itaa-lex-XV#art-3-10|WVV art. 3:10]]
-[^art-3-11]: [[itaa-lex-XV#art-3-11|WVV art. 3:11]]
-[^art-3-12]: [[itaa-lex-XV#art-3-12|WVV art. 3:12]]
-[^art-3-72]: [[itaa-lex-XV#art-3-72|WVV art. 3:72]]
-[^art-3-73]: [[itaa-lex-XV#art-3-73|WVV art. 3:73]]
-[^art-3-74]: [[itaa-lex-XV#art-3-74|WVV art. 3:74]]
+[^art-3-1]: [[wetteksten/XV-wvv#art-31|WVV art. 3:1]]
+[^art-3-2]: [[wetteksten/XV-wvv#art-32|WVV art. 3:2]]
+[^art-3-3]: [[wetteksten/XV-wvv#art-33|WVV art. 3:3]]
+[^art-3-10]: [[wetteksten/XV-wvv#art-310|WVV art. 3:10]]
+[^art-3-11]: [[wetteksten/XV-wvv#art-311|WVV art. 3:11]]
+[^art-3-12]: [[wetteksten/XV-wvv#art-312|WVV art. 3:12]]
+[^art-3-72]: [[wetteksten/XV-wvv#art-372|WVV art. 3:72]]
+[^art-3-73]: [[wetteksten/XV-wvv#art-373|WVV art. 3:73]]
+[^art-3-74]: [[wetteksten/XV-wvv#art-374|WVV art. 3:74]]

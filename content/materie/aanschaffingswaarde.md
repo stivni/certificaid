@@ -161,9 +161,9 @@ De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot e
 Kenniselementen:
 - V.B — Aanschaffingswaarde
 
-[^art-3-13]: [[itaa-lex-XV-KB#art-3-13|KB WVV 2019 art. 3:13]]
-[^art-3-14]: [[itaa-lex-XV-KB#art-3-14|KB WVV 2019 art. 3:14]]
-[^art-3-15]: [[itaa-lex-XV-KB#art-3-15|KB WVV 2019 art. 3:15]]
-[^art-3-16]: [[itaa-lex-XV-KB#art-3-16|KB WVV 2019 art. 3:16]]
-[^art-3-17]: [[itaa-lex-XV-KB#art-3-17|KB WVV 2019 art. 3:17]]
-[^art-3-21]: [[itaa-lex-XV-KB#art-3-21|KB WVV 2019 art. 3:21]]
+[^art-3-13]: [[wetteksten/XV-KB-wvv#art-313|KB WVV 2019 art. 3:13]]
+[^art-3-14]: [[wetteksten/XV-KB-wvv#art-314|KB WVV 2019 art. 3:14]]
+[^art-3-15]: [[wetteksten/XV-KB-wvv#art-315|KB WVV 2019 art. 3:15]]
+[^art-3-16]: [[wetteksten/XV-KB-wvv#art-316|KB WVV 2019 art. 3:16]]
+[^art-3-17]: [[wetteksten/XV-KB-wvv#art-317|KB WVV 2019 art. 3:17]]
+[^art-3-21]: [[wetteksten/XV-KB-wvv#art-321|KB WVV 2019 art. 3:21]]

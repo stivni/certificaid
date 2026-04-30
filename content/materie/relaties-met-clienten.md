@@ -247,11 +247,11 @@ Kenniselementen:
 - D.8 — Aansprakelijkheid
 
 [^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
-[^art-38]: [[itaa-lex-XXI#art-38|Wet ITAA art. 38]]
-[^art-41]: [[itaa-lex-XXI#art-41|Wet ITAA art. 41]]
-[^art-46]: [[itaa-lex-XXI#art-46|Wet ITAA art. 46]]
-[^art-47]: [[itaa-lex-XXI#art-47|Wet ITAA art. 47]]
-[^art-45]: [[itaa-lex-XXI#art-45|Wet ITAA art. 45]]
-[^art-42]: [[itaa-lex-XXI#art-42|Wet ITAA art. 42]]
-[^art-43]: [[itaa-lex-XXI#art-43|Wet ITAA art. 43]]
-[^art-44]: [[itaa-lex-XXI#art-44|Wet ITAA art. 44, lid 1]]
+[^art-38]: [[wetteksten/XXI-wet-itaa#art-38|Wet ITAA art. 38]]
+[^art-41]: [[wetteksten/XXI-wet-itaa#art-41|Wet ITAA art. 41]]
+[^art-46]: [[wetteksten/XXI-wet-itaa#art-46|Wet ITAA art. 46]]
+[^art-47]: [[wetteksten/XXI-wet-itaa#art-47|Wet ITAA art. 47]]
+[^art-45]: [[wetteksten/XXI-wet-itaa#art-45|Wet ITAA art. 45]]
+[^art-42]: [[wetteksten/XXI-wet-itaa#art-42|Wet ITAA art. 42]]
+[^art-43]: [[wetteksten/XXI-wet-itaa#art-43|Wet ITAA art. 43]]
+[^art-44]: [[wetteksten/XXI-wet-itaa#art-44|Wet ITAA art. 44, lid 1]]

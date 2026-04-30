@@ -14,3 +14,11 @@ node_modules/
 # OS
 .DS_Store
 
+# Resources — ruwe downloads (PDFs, txt)
+resources/wetteksten/raw/
+resources/wetteksten/*.txt
+resources/normen/raw/
+resources/voorbeeldexamens/
+resources/samenvatting-deontologie.pdf
+resources/programma.pdf
+

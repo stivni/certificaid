@@ -202,9 +202,9 @@ Kenniselementen:
 
 [^gedragslijnen]: Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`
 [^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
-[^art-5]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5]]
-[^art-5-2]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5, tweede lid]]
-[^art-8]: [[itaa-lex-XXI#art-8|Wet ITAA art. 8]]
-[^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
-[^art-52]: [[itaa-lex-XXI#art-52|Wet ITAA art. 52]]
-[^art-43]: [[itaa-lex-XXI#art-43|Wet ITAA art. 43]]
+[^art-5]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5]]
+[^art-5-2]: [[wetteksten/XXI-wet-itaa#art-5|Wet ITAA art. 5, tweede lid]]
+[^art-8]: [[wetteksten/XXI-wet-itaa#art-8|Wet ITAA art. 8]]
+[^art-37]: [[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]]
+[^art-52]: [[wetteksten/XXI-wet-itaa#art-52|Wet ITAA art. 52]]
+[^art-43]: [[wetteksten/XXI-wet-itaa#art-43|Wet ITAA art. 43]]

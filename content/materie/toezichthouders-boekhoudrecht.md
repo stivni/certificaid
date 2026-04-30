@@ -202,12 +202,12 @@ Kenniselementen:
 >
 > 🤖 *AI-aanvulling*
 
-[^art-61]: [[itaa-lex-XXI#art-61|Wet ITAA art. 61]]
-[^art-62]: [[itaa-lex-XXI#art-62|Wet ITAA art. 62]]
-[^art-79]: [[itaa-lex-XXI#art-79|Wet ITAA art. 79]]
-[^art-iii-15]: [[itaa-lex-XIII#art-iii-15|WER art. III.15]]
-[^art-iii-93]: [[itaa-lex-XIII#art-iii-93|WER art. III.93]]
-[^art-3-10]: [[itaa-lex-XV#art-3-10|WVV art. 3:10]]
+[^art-61]: [[wetteksten/XXI-wet-itaa#art-61|Wet ITAA art. 61]]
+[^art-62]: [[wetteksten/XXI-wet-itaa#art-62|Wet ITAA art. 62]]
+[^art-79]: [[wetteksten/XXI-wet-itaa#art-79|Wet ITAA art. 79]]
+[^art-iii-15]: [[wetteksten/XIII-wer/boek-iii#art-iii15|WER art. III.15]]
+[^art-iii-93]: [[wetteksten/XIII-wer/boek-iii#art-iii93|WER art. III.93]]
+[^art-3-10]: [[wetteksten/XV-wvv#art-310|WVV art. 3:10]]
 [^crb-wet]: Wet van 20 september 1948 houdende organisatie van het bedrijfsleven. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=1948092001&table_name=wet).
 [^fsma-wet]: Wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2002080232&table_name=wet).
 [^ibr-wet]: Wet van 7 december 2016 houdende organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren. ⚠️ Geen lokale wettekst — [online raadplegen](https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=2016120712&table_name=wet).
