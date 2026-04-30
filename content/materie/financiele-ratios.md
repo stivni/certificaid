@@ -125,6 +125,28 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 
 ---
 
+> [!warning]- Een current ratio > 1 is altijd goed
+> ❌ *"Zolang de current ratio boven 1 staat, heeft de onderneming geen liquiditeitsprobleem."*
+>
+> De current ratio houdt geen rekening met de **opeisbaarheid** van de vlottende activa. Een onderneming met een current ratio van 1,8 maar met voorraden die moeilijk verkoopbaar zijn en klanten die 180 dagen nodig hebben om te betalen, kan toch krap bij kas zitten. Kijk altijd ook naar de quick ratio (excl. voorraden) en de werkkapitaalcyclus.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Een hoge ROE is altijd een teken van goede prestaties
+> ❌ *"Hoe hoger de ROE, hoe beter het management zijn werk doet."*
+>
+> ROE kan hoog zijn doordat de onderneming weinig eigen vermogen heeft (hoge schuldenlast) — niet doordat ze operationeel uitstekend presteert. Een onderneming met 10% eigen vermogen en 90% schulden heeft bij dezelfde winst een vijf keer hogere ROE dan een equivalent bedrijf met 50% eigen vermogen. ROE moet altijd worden bekeken naast de solvabiliteitsratio om te beoordelen of de hoge return duurzaam is.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk
+>
+> Een accountant analyseert twee handelsbedrijven. Bedrijf A: current ratio 2,1, maar voorraden draaien slechts 2× per jaar om en klanten betalen gemiddeld na 120 dagen. Bedrijf B: current ratio 1,2, maar voorraden draaien 12× per jaar en klanten betalen na 15 dagen. Bedrijf B heeft betere liquiditeitsdynamiek ondanks een lagere current ratio. Ratio's zijn startpunten voor analyse, geen einduitspraken.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

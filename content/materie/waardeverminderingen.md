@@ -55,6 +55,22 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 
 ---
 
+> [!warning]- Een eenmaal geboekte waardevermindering hoeft nooit teruggenomen te worden
+> ❌ *"Zodra een waardevermindering is geboekt op een vordering, blijft die staan ook als de klant later toch betaalt."*
+>
+> Waardeverminderingen mogen **niet worden gehandhaafd** zodra ze op het einde van het boekjaar hoger zijn dan de feitelijke ontwaarding. Betaalt de klant alsnog, of herstelt de beurskoers van een belegging, dan moet de waardevermindering (gedeeltelijk) worden **teruggenomen**. Gehandhavde overtollige waardeverminderingen leiden tot een onderwaardering van het actief en schenden het [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheids- en oprechtheidsbeginsel]].
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Afschrijvingen en waardeverminderingen zijn hetzelfde
+> ❌ *"Een machine afschrijven en een waardevermindering boeken op diezelfde machine zijn twee namen voor hetzelfde."*
+>
+> Het zijn twee **verschillende instrumenten**. [[afschrijvingen|Afschrijvingen]] spreiden de kost van een actief met beperkte gebruiksduur stelselmatig over zijn levensduur — ze zijn gepland en jaarlijks terugkerend. Waardeverminderingen zijn incidentele correcties voor een concrete ontwaarding op balansdatum — ze worden teruggenomen als de ontwaarding verdwijnt. Afschrijvingen worden nooit teruggenomen.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

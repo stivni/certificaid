@@ -119,6 +119,29 @@ Wanneer kosten of opbrengsten in belangrijke mate worden beïnvloed door bedrage
 
 ---
 
+> [!warning]- Het getrouw beeld is één van de negen beginselen
+> ❌ *"Het getrouw beeld staat op gelijke voet met de andere acht beginselen."*
+>
+> Het getrouw beeld is het **overkoepelend principe** — het staat boven de andere acht en telt zwaarder. Wanneer de strikte toepassing van een ander beginsel het getrouwe beeld in de weg staat, moet van dat beginsel worden afgeweken. De andere acht zijn instrumenten om het getrouwe beeld te bereiken, niet peers ervan.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Consistentie betekent dat waarderingsmethoden nooit mogen worden gewijzigd
+> ❌ *"Eens een afschrijvingsmethode gekozen, mag die nooit meer worden gewijzigd."*
+>
+> Het consistentiebeginsel vereist dat methoden van jaar tot jaar **identiek** worden toegepast — maar ze mogen worden **gewijzigd** wanneer de vroegere methode door gewijzigde omstandigheden niet langer voldoet aan het getrouwe beeld. Elke wijziging wordt in de toelichting vermeld en verantwoord. Het beginsel verbiedt willekeurige, opportunistische wijzigingen — niet structureel gemotiveerde aanpassingen.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Voorzichtigheid betekent zo pessimistisch mogelijk waarderen
+> ❌ *"Een voorzichtige boekhouding waardeert altijd aan de laagst mogelijke kant."*
+>
+> Voorzichtigheid gaat hand in hand met **oprechtheid en goede trouw** — het gaat niet over overdreven pessimisme. Systematisch te laag waarderen is even fout als systematisch te hoog waarderen: beide geven een vertekend beeld. Voorzichtigheid betekent: alle reële risico's en ontwaardingen meenemen, maar geen fictieve reserves aanleggen.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

@@ -65,6 +65,28 @@ Ook genoteerde vennootschappen en bepaalde organisaties van openbaar belang zijn
 
 ---
 
+> [!warning]- Het jaarverslag is een onderdeel van de jaarrekening
+> ❌ *"Het jaarverslag wordt samen met de balans en resultatenrekening neergelegd als deel van de jaarrekening."*
+>
+> Het jaarverslag is een **afzonderlijk document** — het maakt géén deel uit van de jaarrekening (die bestaat uitsluitend uit balans, resultatenrekening en toelichting). Het wordt bij de neerlegging wel meegestuurd als bijlage, maar het is juridisch en inhoudelijk iets anders: de jaarrekening geeft cijfers, het jaarverslag geeft context en commentaar bij die cijfers.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Kleine vennootschappen moeten altijd een jaarverslag opstellen
+> ❌ *"Elke vennootschap is verplicht een jaarverslag op te stellen en neer te leggen."*
+>
+> Niet-genoteerde kleine vennootschappen en kleine vennootschappen die geen organisatie van openbaar belang zijn, zijn **vrijgesteld** van de jaarverslagplicht. Ze moeten enkel de verantwoording voor bestuurdersvergoedingen vermelden in de **toelichting bij de jaarrekening** — maar dat is geen volledig jaarverslag.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk
+>
+> Een grote producent van verpakkingsmateriaal publiceert een jaarverslag van 80 pagina's. Een kleine bv met twee bestuurders en geen personeel stelt géén jaarverslag op — ze vermeldt enkel de bestuurdersvergoedingen in de toelichting. Beide voldoen aan de wet. Het jaarverslag is geen kwaliteitskenmerk van serieuze ondernemingen; het is een wettelijke verplichting die afhangt van grootte en beursnotering.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

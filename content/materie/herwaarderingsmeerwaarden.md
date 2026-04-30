@@ -58,6 +58,22 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 
 ---
 
+> [!warning]- Elke waardestijging is een reden om te herwaarderen
+> ❌ *"De waarde van onze bedrijfsgebouwen is gestegen. We mogen die hogere waarde meteen in de boekhouding opnemen."*
+>
+> Herwaardering is alleen toegestaan wanneer de waardestijging **vaststaand en duurzaam** is — een tijdelijke marktschommeling volstaat niet. Bovendien moet de stijging worden verantwoord door de **rentabiliteit** van de onderneming wanneer het actief noodzakelijk is voor de bedrijfsvoortzetting. Een speculatieve piek op de vastgoedmarkt is geen rechtvaardiging voor herwaardering.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Alle activa mogen worden geherwaardeerd
+> ❌ *"Een onderneming mag haar voorraden herwaarderen als die meer waard zijn geworden."*
+>
+> Herwaardering is enkel toegestaan voor **materiële vaste activa** en **financiële vaste activa** (deelnemingen en aandelen). Voorraden, vorderingen en vlottende activa vallen **niet** onder de herwaarderingsregeling. Die worden gewaardeerd tegen aanschaffingswaarde of lager marktwaarde — maar nooit hoger dan aanschaffingswaarde via een herwaardering.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

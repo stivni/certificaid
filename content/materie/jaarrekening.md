@@ -106,6 +106,22 @@ De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding v
 
 ---
 
+> [!warning]- De jaarrekening moet binnen 6 maanden na afsluiting worden neergelegd
+> ❌ *"Een vennootschap met afsluiting op 31 december moet haar jaarrekening uiterlijk 30 juni neerleggen bij de NBB."*
+>
+> Er zijn twee afzonderlijke termijnen. De jaarrekening moet binnen **6 maanden na afsluiting** ter goedkeuring worden **voorgelegd aan de algemene vergadering** — dat is een intern vennootschappelijke termijn. De **neerlegging bij de NBB** moet dan binnen **30 dagen na goedkeuring** gebeuren en **uiterlijk 7 maanden** na afsluiting. De goedkeuringsvergadering op 30 juni gevolgd door neerlegging op 20 juli voldoet aan beide termijnen.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Een gecertificeerd accountant kan een commissarisopdracht uitvoeren
+> ❌ *"Als een kleine vennootschap vrijwillig haar jaarrekening wil laten controleren, kan ze daarvoor een gecertificeerd accountant aanstellen als commissaris."*
+>
+> Een commissarisopdracht — de wettelijke controle van de jaarrekening — is uitsluitend voorbehouden aan **bedrijfsrevisoren** (lid van het IBR). Een [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] kan wel een vrijwillige verificatie- of correctietaak uitvoeren, maar dat is juridisch iets anders: geen commissaris, geen commissarisverslag, geen wettelijke controleopdracht.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

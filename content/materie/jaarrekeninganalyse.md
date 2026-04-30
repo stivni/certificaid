@@ -82,6 +82,22 @@ Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
 
 ---
 
+> [!warning]- Een hogere winst betekent altijd een betere financiële positie
+> ❌ *"De onderneming boekt een stevige winst — de financiële situatie is dus gezond."*
+>
+> Winst en liquiditeit zijn twee verschillende dingen. Een winstgevende onderneming kan in betalingsmoeilijkheden verkeren als haar werkkapitaalbehoefte snel stijgt — bijvoorbeeld doordat klanten trager betalen of voorraden oplopen. De [[kasstroomanalyse|kasstroomanalyse]] en de [[jaarrekeninganalyse#-balansaggregaten|balansaggregaten]] (NBK, WKB) geven een completere gezondheidscheck dan winst alleen.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- EBIT en EBITDA zijn hetzelfde
+> ❌ *"EBIT en EBITDA zijn twee namen voor hetzelfde — het bedrijfsresultaat voor belastingen."*
+>
+> EBIT is het bedrijfsresultaat ná [[afschrijvingen|afschrijvingen]] en [[waardeverminderingen|waardeverminderingen]]. EBITDA voegt die niet-kaskosten terug bij voor een proxy van de operationele kascreatie. Voor kapitaalintensieve sectoren (bouw, industrie, telecom) is EBITDA zinvoller voor vergelijking, omdat afschrijvingsbeleid sterk kan verschillen. EBIT en EBITDA kunnen voor dezelfde onderneming sterk van elkaar afwijken.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**

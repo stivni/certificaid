@@ -121,6 +121,28 @@ Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: open
 | **ITAA** | Tucht en kwaliteit van GA's en GBA's | Geen commissarisopdracht |
 | **IBR** | Tucht en kwaliteit van bedrijfsrevisoren | Geen GA's of GBA's |
 
+
+> [!warning]- De jaarrekening neerleggen bij de griffie
+> ❌ *"De jaarrekening wordt, samen met de oprichtingsakte, bij de griffie van de ondernemingsrechtbank neergelegd."*
+>
+> De jaarrekening wordt bij de **Balanscentrale van de NBB** neergelegd, niet bij de griffie. De griffie ontvangt vennootschappelijke akten (oprichting, statutenwijziging, bestuurdersbenoeming) en maakt die openbaar via het Belgisch Staatsblad. Dat zijn twee volledig aparte verplichtingen met twee aparte deadlines.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Een gecertificeerd accountant voert ook commissarisopdrachten uit
+> ❌ *"Een gecertificeerd accountant van het ITAA kan de jaarrekening wettelijk controleren als commissaris."*
+>
+> Een commissarisopdracht — de wettelijke controle van de jaarrekening — is **uitsluitend voorbehouden aan bedrijfsrevisoren** (lid van het IBR). Een GA mag wel een vrijwillige verificatietaak uitvoeren voor ondernemingen zonder wettelijke commissarisplicht, maar dat is een beperktere opdracht met een ander statuut.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- CBN-adviezen zijn juridisch bindend
+> ❌ *"Een CBN-advies heeft dezelfde rechtskracht als een KB."*
+>
+> CBN-adviezen zijn **niet juridisch bindend** — ze zijn geen wet, geen KB, geen norm met sanctiemechanisme. In de praktijk worden ze door rechters en beroepsbeoefenaars als gezaghebbende richtlijn gevolgd, maar formeel kan een onderneming er gemotiveerd van afwijken. Het verschil met een KB is fundamenteel: een KB is dwingend recht.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## Relevant voor

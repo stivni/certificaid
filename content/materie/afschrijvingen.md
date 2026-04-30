@@ -62,6 +62,22 @@ De terugneming van [[waardeverminderingen|waardeverminderingen]] wanneer een ont
 
 ---
 
+> [!warning]- In een verliesjaar mag je minder afschrijven
+> ❌ *"Een onderneming die een slecht jaar heeft, mag de afschrijvingen verlagen om het verlies te beperken."*
+>
+> Afschrijvingen zijn **niet afhankelijk van het resultaat** — ze worden stelselmatig gevormd volgens het vastgelegde plan, ongeacht of de onderneming winst of verlies maakt. Willekeurig verlagen om het resultaat te flatteren, schendt zowel het [[boekhoudkundige-beginselen#️-stelselmatigheidsbeginsel|stelselmatigheidsbeginsel]] als de [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsregel]].
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Grond wordt afgeschreven net als een gebouw
+> ❌ *"Een onderneming die een perceel grond koopt, schrijft dat jaarlijks af net zoals het gebouw erop."*
+>
+> Grond heeft een **onbeperkte gebruiksduur** — ze slijt niet door gebruik en verliest in principe geen economische waarde door tijdsverloop. Afschrijvingen zijn uitsluitend van toepassing op activa met een **beperkte gebruiksduur** (machines, voertuigen, gebouwen, immateriële activa). Grond wordt **niet** afgeschreven; het gebouw op de grond wél.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
