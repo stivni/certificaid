@@ -82,6 +82,40 @@ De terugneming van [[waardeverminderingen|waardeverminderingen]] wanneer een ont
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Afschrijvingen verlagen in een verliesjaar
+>
+> Een onderneming heeft een slecht boekjaar. Om het verlies te beperken, besluit het bestuur de afschrijvingen dit jaar te halveren.
+>
+> Is dit toegestaan?
+>
+> > [!success]- Antwoord
+> >
+> > **Nee.**
+> >
+> > Afschrijvingen moeten stelselmatig worden gevormd volgens het vastgelegde plan en mogen **niet afhangen van het resultaat** van het boekjaar. Willekeurig verlagen om een verlies te flatteren schendt het stelselmatigheidsbeginsel en de voorzichtigheidsregel.
+> >
+> > *Zie: [[afschrijvingen#️-eisen-waaraan-afschrijvingen-moeten-voldoen|Eisen voor afschrijvingen]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Grond afschrijven
+>
+> Een onderneming koopt een perceel grond voor € 500.000. Ze schrijft de grond af over 50 jaar, net zoals ze het gebouw op de grond afschrijft.
+>
+> Is dit correct?
+>
+> > [!success]- Antwoord
+> >
+> > **Nee.**
+> >
+> > Grond heeft een **onbeperkte gebruiksduur** — ze slijt niet door gebruik en verliest in principe geen economische waarde door tijdsverloop. Afschrijvingen gelden enkel voor activa met een beperkte gebruiksduur. Grond wordt **niet** afgeschreven; het gebouw op de grond wél.
+> >
+> > *Zie: [[afschrijvingen#-afschrijving|Afschrijving]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - V.B — Afschrijvingen
 

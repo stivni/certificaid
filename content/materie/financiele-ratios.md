@@ -151,6 +151,40 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Current ratio berekenen
+>
+> Een onderneming heeft: voorraden € 120.000; handelsvorderingen € 80.000; liquide middelen € 20.000; leveranciersschulden € 90.000; kortlopende leningen € 60.000. Wat is de current ratio?
+>
+> > [!success]- Antwoord
+> >
+> > **Current ratio = 1,47**
+> >
+> > Vlottende activa = € 120.000 + € 80.000 + € 20.000 = **€ 220.000**
+> > Kortlopend vreemd vermogen = € 90.000 + € 60.000 = **€ 150.000**
+> > Current ratio = 220.000 / 150.000 = **1,47**
+> >
+> > *Zie: [[financiele-ratios#-liquiditeitsratio-s|Liquiditeitsratio's]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Hoge ROE is altijd positief
+>
+> Bedrijf A heeft een ROE van 25%. Bedrijf B heeft een ROE van 12%. Bedrijf A presteert beter.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Niet noodzakelijk.**
+> >
+> > Een hoge ROE kan ook het gevolg zijn van een **lage eigenvermogensbasis** door hoge schuldenlast — niet van superieure operationele prestaties. Als bedrijf A voor 90% gefinancierd is met schulden en bedrijf B voor 50%, dan heeft A bij dezelfde absolute winst een veel hogere ROE door de hefboom. Bekijk ROE altijd samen met de solvabiliteitsratio.
+> >
+> > *Zie: [[financiele-ratios#-rentabiliteitsratio-s|Rentabiliteitsratio's]]*
+>
+> 🤖 *AI-aanvulling*
+
 Taken:
 - *Opstellen van de individuele jaarrekening*
   - Berekenen van de ratio's en ze interpreteren (doelstelling 4)

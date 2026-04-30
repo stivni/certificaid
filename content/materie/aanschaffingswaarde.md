@@ -105,6 +105,40 @@ De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot e
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Niet-aftrekbare btw in de aanschaffingsprijs
+>
+> Een ziekenhuis koopt medische apparatuur voor € 100.000 + 21% btw. Het ziekenhuis heeft geen recht op btw-aftrek. De aanschaffingsprijs die in de boekhouding wordt opgenomen, bedraagt € 100.000.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Niet-terugbetaalbare belastingen — waaronder niet-aftrekbare btw — maken deel uit van de **aanschaffingsprijs**. Omdat het ziekenhuis de btw niet kan recupereren, is de aanschaffingsprijs: € 100.000 + € 21.000 = **€ 121.000**.
+> >
+> > *Zie: [[aanschaffingswaarde#-aanschaffingsprijs|Aanschaffingsprijs]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Overhead verplicht in de vervaardigingsprijs
+>
+> Een productiebedrijf maakt een machine zelf. Het moet alle overheadkosten (vaste en variabele) verplicht opnemen in de vervaardigingsprijs van die machine.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Onrechtstreeks toerekenbare productiekosten (overhead) zijn **optioneel** — de onderneming mag ze al dan niet opnemen. Enkel de directe productiekosten en aanschaffingskosten van grondstoffen zijn verplicht. Wanneer de optie niet wordt gebruikt, vermeldt de onderneming dit in de toelichting bij de waarderingsregels.
+> >
+> > *Zie: [[aanschaffingswaarde#-vervaardigingsprijs|Vervaardigingsprijs]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - V.B — Aanschaffingswaarde
 

@@ -131,6 +131,40 @@ Kenniselementen:
 - IV.E — Controle van de rekeningen
 - IV.F — Openbaarmaking van de jaarrekening
 
+### Voorbeeldvragen
+
+> [!question]- Neerleggingstermijn: 6 maanden na afsluiting
+>
+> Een bv sluit haar boekjaar af op 31 december 2024. Ze legt haar jaarrekening neer bij de NBB op 30 juni 2025. Dat is de wettelijke deadline.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout — maar de handeling is op zich toegestaan.**
+> >
+> > De neerleggingsdeadline is **30 dagen na goedkeuring door de algemene vergadering** en **uiterlijk 7 maanden** na afsluiting (dus 31 juli 2025). De 6-maandentermijn geldt voor de **voorlegging aan de algemene vergadering** (= intern), niet voor de neerlegging bij de NBB. Als de AV op 30 juni plaatsvindt, heeft het bestuursorgaan nog 30 dagen voor neerlegging. Neerlegging op 30 juni is dus mogelijk maar niet de wettelijke deadline.
+> >
+> > *Zie: [[jaarrekening#-procedure-van-boekjaarafsluiting-tot-neerlegging|Procedure]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Commissarisopdracht door een GA
+>
+> Een kleine bv die vrijwillig haar jaarrekening wil laten controleren, kan een gecertificeerd accountant aanstellen als commissaris.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Een commissarisopdracht is uitsluitend voorbehouden aan **bedrijfsrevisoren** (lid van het IBR). Een gecertificeerd accountant kan een vrijwillige verificatie- of correctietaak uitvoeren, maar dat is juridisch geen commissarisopdracht: geen wettelijke controlebevoegdheid, geen commissarisverslag.
+> >
+> > *Zie: [[jaarrekening#-commissaris|Commissaris]]*
+>
+> 🤖 *AI-aanvulling*
+
 [^art-3-1]: [[itaa-lex-XV#art-3-1|WVV art. 3:1]]
 [^art-3-2]: [[itaa-lex-XV#art-3-2|WVV art. 3:2]]
 [^art-3-3]: [[itaa-lex-XV#art-3-3|WVV art. 3:3]]

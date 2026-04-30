@@ -138,6 +138,56 @@ Kenniselementen:
 - IV.A — Soorten vennootschappen en verenigingen
 - IV.B — Grootte van vennootschappen (micro, klein, groot) en verenigingen
 
+### Voorbeeldvragen
+
+> [!question]- Microvennootschap in een groep
+>
+> Een bv heeft een omzet van € 700.000, een balanstotaal van € 300.000 en geen personeel. Ze is 100% dochtervennootschap van een grote groep. Kan ze worden ingedeeld als microvennootschap?
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Hoewel de cijfers van de bv zelf onder de microcriteria vallen, is een microvennootschap per definitie **geen dochter- of moedervennootschap**. Als 100% dochter van een grote groep voldoet ze niet aan deze voorwaarde — ze kan maximaal als kleine vennootschap worden ingedeeld.
+> >
+> > *Zie: [[groottecriteria-vennootschappen-verenigingen#-microvennootschap|Microvennootschap]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Categoriewijziging na één jaar
+>
+> Een kleine vennootschap overschrijdt in boekjaar 2024 voor het eerst twee groottecriteria. Vanaf boekjaar 2025 geldt ze als grote vennootschap.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > De twee-jaar-regel bepaalt dat een categoriewijziging pas gevolgen heeft wanneer meer dan één criterium gedurende **twee opeenvolgende boekjaren** wordt overschreden. Als dat in 2023 en 2024 het geval is, wordt de vennootschap pas groot **vanaf boekjaar 2025**. Eenmalige overschrijding in 2024 heeft geen effect.
+> >
+> > *Zie: [[groottecriteria-vennootschappen-verenigingen#️-de-twee-jaar-regel|Twee-jaar-regel]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Kleine vennootschap: verplicht verkort schema
+>
+> Een kleine vennootschap is verplicht haar jaarrekening op te stellen volgens het verkort schema.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Het verkort schema is een **recht**, geen verplichting. Een kleine vennootschap mag ook kiezen voor het volledig schema — bijvoorbeeld als ze dat wenst voor interne rapportering of om meer transparantie te bieden aan banken of investeerders.
+> >
+> > *Zie: [[groottecriteria-vennootschappen-verenigingen#️-gevolgen-van-de-groottecategorie|Gevolgen van de groottecategorie]]*
+>
+> 🤖 *AI-aanvulling*
+
 [^art-1-24]: [[itaa-lex-XV#art-1-24|WVV art. 1:24]]
 [^art-1-25]: [[itaa-lex-XV#art-1-25|WVV art. 1:25]]
 [^art-1-26-1]: [[itaa-lex-XV#art-1-26-1|WVV art. 1:26/1]]

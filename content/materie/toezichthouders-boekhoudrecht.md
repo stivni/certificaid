@@ -152,6 +152,56 @@ Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: open
 Kenniselementen:
 - II — Belangrijkste administratieve autoriteiten (FSMA, Griffies, NBB, CRB, ITAA, IBR, CBN)
 
+### Voorbeeldvragen
+
+> [!question]- Neerlegging jaarrekening: NBB of griffie?
+>
+> Een vennootschap legt haar jaarrekening neer bij de griffie van de ondernemingsrechtbank. Daarmee voldoet ze aan haar openbaarmakingsverplichting.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > De jaarrekening wordt neergelegd bij de **Balanscentrale van de NBB**, niet bij de griffie. De griffie ontvangt vennootschappelijke akten (oprichting, statutenwijziging, bestuurdersbenoeming) en zorgt voor publicatie in het Belgisch Staatsblad — maar geen jaarrekeningen.
+> >
+> > *Zie: [[toezichthouders-boekhoudrecht#-nationale-bank-van-belgië-nbb|Nationale Bank van België]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- CBN-advies: juridische kracht
+>
+> Een CBN-advies heeft dezelfde rechtskracht als een koninklijk besluit. Een onderneming die een CBN-advies niet volgt, overtreedt de wet.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > CBN-adviezen zijn **niet juridisch bindend** — ze zijn geen wet, geen KB, geen norm met sanctiemechanisme. In de praktijk gelden ze als gezaghebbende richtlijn en worden ze door rechters gevolgd, maar een onderneming kan er gemotiveerd van afwijken zonder de wet te overtreden.
+> >
+> > *Zie: [[toezichthouders-boekhoudrecht#-commissie-voor-boekhoudkundige-normen-cbn|CBN]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- FSMA: toezicht op alle vennootschappen?
+>
+> De FSMA controleert de financiële verslaggeving van alle Belgische vennootschappen, zowel beursgenoteerde als niet-beursgenoteerde.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > De FSMA houdt toezicht op de financiële informatie van **beursgenoteerde vennootschappen** en bepaalde financiële instellingen. Voor niet-beursgenoteerde ondernemingen is de FSMA **niet bevoegd** — de naleving van de jaarrekeningverplichtingen wordt daar via andere kanalen gehandhaafd (NBB-neerlegging, eventueel IBR/ITAA-tucht).
+> >
+> > *Zie: [[toezichthouders-boekhoudrecht#-autoriteit-voor-financiële-diensten-en-markten-fsma|FSMA]]*
+>
+> 🤖 *AI-aanvulling*
+
 [^art-61]: [[itaa-lex-XXI#art-61|Wet ITAA art. 61]]
 [^art-62]: [[itaa-lex-XXI#art-62|Wet ITAA art. 62]]
 [^art-79]: [[itaa-lex-XXI#art-79|Wet ITAA art. 79]]

@@ -94,6 +94,40 @@ Ook genoteerde vennootschappen en bepaalde organisaties van openbaar belang zijn
 Kenniselementen:
 - IV.D — Regels over het jaarverslag
 
+### Voorbeeldvragen
+
+> [!question]- Jaarverslag als onderdeel van de jaarrekening
+>
+> Het jaarverslag is een onderdeel van de jaarrekening en wordt samen met de balans, resultatenrekening en toelichting neergelegd als één geheel.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Het jaarverslag is een **afzonderlijk document** — het maakt géén deel uit van de jaarrekening (die bestaat uitsluitend uit balans, resultatenrekening en toelichting). Het wordt bij de neerlegging meegestuurd als bijlage, maar het is juridisch en inhoudelijk iets anders: de jaarrekening geeft cijfers, het jaarverslag geeft context.
+> >
+> > *Zie: [[jaarverslag#-jaarverslag|Jaarverslag]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Kleine vennootschap: jaarverslagplicht
+>
+> Een niet-genoteerde kleine bv met twee bestuurders en geen personeel is verplicht elk jaar een jaarverslag op te stellen.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Niet-genoteerde kleine vennootschappen zijn **vrijgesteld** van de jaarverslagplicht. Ze moeten enkel de verantwoording voor bestuurdersvergoedingen vermelden in de toelichting bij de jaarrekening — maar dat is geen volledig jaarverslag.
+> >
+> > *Zie: [[jaarverslag#-verplichting-en-vrijstelling|Verplichting en vrijstelling]]*
+>
+> 🤖 *AI-aanvulling*
+
 [^art-3-4]: [[itaa-lex-XV#art-3-4|WVV art. 3:4]]
 [^art-3-6]: [[itaa-lex-XV#art-3-6|WVV art. 3:6]]
 [^art-3-6-1]: [[itaa-lex-XV#art-3-6-1|WVV art. 3:6/1]]

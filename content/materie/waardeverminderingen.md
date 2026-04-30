@@ -75,6 +75,40 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Terugneming van een waardevermindering
+>
+> Een onderneming boekte vorig jaar een waardevermindering van € 5.000 op een vordering van een klant in financiële moeilijkheden. Dit jaar betaalt de klant zijn volledige schuld. De waardevermindering mag in de boekhouding blijven staan.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Waardeverminderingen mogen **niet worden gehandhaafd** zodra ze hoger zijn dan de feitelijke ontwaarding. Betaalt de klant volledig, dan verdwijnt de ontwaarding → de waardevermindering van € 5.000 moet volledig worden **teruggenomen** (als opbrengst geboekt).
+> >
+> > *Zie: [[waardeverminderingen#-terugneming-verplicht-bij-verdwijnen-ontwaarding|Terugneming]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Waardevermindering op een machine
+>
+> Een productiemachine is technologisch verouderd. De onderneming boekt een waardevermindering om de boekwaarde te corrigeren. Is dit het juiste instrument?
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Een machine is een materieel vast actief met beperkte gebruiksduur — waardedaling door gebruik of veroudering wordt verwerkt via **[[afschrijvingen|afschrijvingen]]**, niet via waardeverminderingen. Waardeverminderingen zijn bedoeld voor **incidentele** ontwaardingen bovenop de normale afschrijving (bv. een onverwachte breuk, definitief buiten gebruik stellen). Als de machine door technologische veroudering sneller in waarde daalt dan het afschrijvingsplan voorziet, is de correcte aanpak een herzien afschrijvingsplan.
+> >
+> > *Zie: [[waardeverminderingen#↔️-waardevermindering-vs-afschrijving|Waardevermindering vs. afschrijving]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - V.B — Waardeverminderingen
 

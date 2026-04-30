@@ -102,6 +102,38 @@ Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Netto bedrijfskapitaal (NBK) berekenen
+>
+> Een onderneming heeft: vlottende activa € 450.000; kortlopend vreemd vermogen € 300.000; langlopende schulden € 500.000. Wat is het netto bedrijfskapitaal?
+>
+> > [!success]- Antwoord
+> >
+> > **NBK = € 150.000.**
+> >
+> > NBK = Vlottende activa − Kortlopend vreemd vermogen = € 450.000 − € 300.000 = **€ 150.000**. Langlopende schulden tellen niet mee. Een positief NBK van € 150.000 betekent dat de vlottende activa ruimer zijn dan de kortlopende verplichtingen — er is een buffer.
+> >
+> > *Zie: [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- EBIT vs. EBITDA
+>
+> Een onderneming heeft een EBIT van € 300.000 en jaarlijkse afschrijvingen van € 80.000. Haar EBITDA bedraagt € 220.000.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > EBITDA = EBIT + afschrijvingen + waardeverminderingen. Afschrijvingen worden bij EBIT **opgeteld** (ze waren al als kost afgetrokken en worden terug bijgeteld voor de cashproxy). EBITDA = € 300.000 + € 80.000 = **€ 380.000**, niet € 220.000.
+> >
+> > *Zie: [[jaarrekeninganalyse#-herstructurering-van-de-resultatenrekening|Resultatenrekening herstructurering]]*
+>
+> 🤖 *AI-aanvulling*
+
 Taken:
 - *Opstellen van de individuele jaarrekening*
   - Herstructureren van de balans en de resultatenrekening (doelstelling 1)

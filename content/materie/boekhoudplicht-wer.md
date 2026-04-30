@@ -205,6 +205,54 @@ Kenniselementen:
 - III.E — Jaarlijkse inventaris
 - III.F — Verwijzing naar WVV voor jaarrekening, jaarverslag en controle
 
+### Voorbeeldvragen
+
+> [!question]- Vereenvoudigde boekhouding: omzetdrempel
+>
+> Een zelfstandige grafisch ontwerper heeft een jaaromzet (excl. btw) van € 480.000. Hij overweegt een vereenvoudigde boekhouding te voeren. Is dat toegestaan?
+>
+> > [!success]- Antwoord
+> >
+> > **Ja.**
+> >
+> > De algemene omzetdrempel voor vereenvoudigde boekhouding bedraagt **€ 500.000** (excl. btw). Zijn omzet van € 480.000 blijft eronder. De drempel van € 620.000 geldt uitsluitend voor brandstofhandelaren.
+> >
+> > *Zie: [[boekhoudplicht-wer#-vereenvoudigde-boekhouding|Vereenvoudigde boekhouding]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Bewaarplicht: 10 jaar
+>
+> Boekhoudkundige boeken en verantwoordingsstukken moeten minstens 10 jaar worden bewaard.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > De wettelijke bewaarplicht voor boekhoudkundige boeken bedraagt **7 jaar**, te rekenen van 1 januari van het jaar volgend op de afsluiting. Voor verantwoordingsstukken die niet tot bewijs tegenover derden dienen, volstaan 3 jaar. De verwarring met 10 jaar komt uit het fiscale recht, waar in bepaalde gevallen (fraude, niet-aangifte) langere termijnen gelden.
+> >
+> > *Zie: [[boekhoudplicht-wer#-bewaarplicht-boeken-7-jaar|Bewaarplicht]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Maatschap: eigen boekhouding
+>
+> Een maatschap (vennootschap zonder rechtspersoonlijkheid) houdt een eigen boekhouding bij, die onafhankelijk is van de boekhouding van haar vennoten.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Een maatschap heeft geen rechtspersoonlijkheid en houdt geen zelfstandige boekhouding. De zaakvoerder neemt de rekeningen van de maatschap op in zijn **eigen boekhouding** via de proportionele integratiemethode: elk lid verwerkt zijn aandeel in de activa, passiva, kosten en opbrengsten naar rato van zijn participatie.
+> >
+> > *Zie: [[boekhoudplicht-wer#️-volledigheidsbeginsel|Volledigheidsbeginsel]]*
+>
+> 🤖 *AI-aanvulling*
+
 [^art-iii-82]: [[itaa-lex-XIII#art-iii-82|WER art. III.82]]
 [^art-iii-83]: [[itaa-lex-XIII#art-iii-83|WER art. III.83]]
 [^art-iii-84]: [[itaa-lex-XIII#art-iii-84|WER art. III.84]]

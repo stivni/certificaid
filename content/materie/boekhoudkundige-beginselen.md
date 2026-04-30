@@ -146,6 +146,56 @@ Wanneer kosten of opbrengsten in belangrijke mate worden beïnvloed door bedrage
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Getrouw beeld als één van de negen beginselen
+>
+> Het beginsel van het getrouw beeld staat op gelijke voet met de andere acht boekhoudkundige beginselen.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Het getrouw beeld is het **overkoepelend principe** — het staat boven de andere acht beginselen en telt zwaarder. Wanneer de strikte toepassing van een ander beginsel het getrouwe beeld in de weg staat, moet van dat beginsel worden afgeweken. De andere acht zijn instrumenten om het getrouwe beeld te bereiken.
+> >
+> > *Zie: [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Consistentie: absolute onveranderlijkheid
+>
+> Het beginsel van consistentie verbiedt elke wijziging van waarderingsmethoden.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Het consistentiebeginsel vereist dat methoden van jaar tot jaar identiek worden toegepast — maar een **gemotiveerde wijziging** is toegestaan wanneer de vroegere methode niet langer voldoet aan het getrouwe beeld (bv. door ingrijpende veranderingen in de activiteiten). Elke wijziging wordt in de toelichting vermeld en verantwoord.
+> >
+> > *Zie: [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Matching: betaling bepaalt het boekjaar
+>
+> Een onderneming presteert diensten in december maar ontvangt de betaling in februari. De opbrengst wordt geboekt in het boekjaar van februari.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Het matchingbeginsel vereist dat kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze **betrekking hebben**, ongeacht de dag van betaling of inning. De dienst is in december verleend → de opbrengst hoort in het boekjaar van december. Uitzondering: als de effectieve inning onzeker is, mag men de opbrengst uitstellen.
+> >
+> > *Zie: [[boekhoudkundige-beginselen#️-matching-overeenstemming-van-kosten-en-opbrengsten|Matching]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - V.A.1 — Voorrang van het beginsel van het getrouw beeld
 - V.A.2 — Relevantiebeginsel en materialiteitsbeginsel

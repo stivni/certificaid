@@ -103,6 +103,38 @@ De vrije kasstroom is de kasstroom die overblijft na de investeringen die nodig 
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Afschrijvingen in de indirecte methode
+>
+> Bij de indirecte methode voor de kasstroomanalyse worden afschrijvingen van de nettowinst **afgetrokken** om de operationele kasstroom te berekenen.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Afschrijvingen zijn een niet-kasboekingen — ze werden als kost van de winst afgetrokken maar veroorzaakten geen effectieve kasuitstroom. Bij de indirecte methode worden ze dus **teruggeteld** (opgeteld bij de nettowinst), niet afgetrokken. Alleen zo kom je van winst naar de werkelijke kascreatie.
+> >
+> > *Zie: [[kasstroomanalyse#-indirecte-methode|Indirecte methode]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Vrije kasstroom berekenen
+>
+> Een onderneming heeft een operationele kasstroom van € 500.000 en heeft dat jaar € 200.000 geïnvesteerd in nieuwe machines. Wat is de vrije kasstroom (free cash flow)?
+>
+> > [!success]- Antwoord
+> >
+> > **Vrije kasstroom = € 300.000**
+> >
+> > Vrije kasstroom = Operationele kasstroom − Investeringen in vaste activa = € 500.000 − € 200.000 = **€ 300.000**. Deze € 300.000 is beschikbaar voor dividenden, schuldaflossing of verdere groei-investeringen.
+> >
+> > *Zie: [[kasstroomanalyse#️-interpretatie-van-de-drie-kasstromen|Interpretatie]]*
+>
+> 🤖 *AI-aanvulling*
+
 Taken:
 - *Opstellen van de individuele jaarrekening*
   - Berekenen van de elementen nodig voor een interpretatie van de kasstromen en ze interpreteren (doelstelling 3)

@@ -78,6 +78,40 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
+### Voorbeeldvragen
+
+> [!question]- Herwaarderingsmeerwaarde via de resultatenrekening
+>
+> Een onderneming herwaardert een bedrijfsgebouw. De meerwaarde van € 200.000 wordt als opbrengst opgenomen in de resultatenrekening.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Een herwaarderingsmeerwaarde wordt **rechtstreeks toegerekend aan rubriek III van het passief** ("Herwaarderingsmeerwaarden" als onderdeel van het eigen vermogen) — ze doorloopt de resultatenrekening **niet**. Ze is dus geen opbrengst die de belastbare basis verhoogt, maar een rechtstreekse aanpassing van het eigen vermogen.
+> >
+> > *Zie: [[herwaarderingsmeerwaarden#-herwaarderingsmeerwaarde-als-rubriek-in-het-eigen-vermogen|Herwaarderingsmeerwaarde in het eigen vermogen]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Herwaardering van voorraden
+>
+> Een groothandel stelt vast dat haar voorraden meer waard zijn dan hun aanschaffingswaarde door gestegen marktprijzen. Ze boekt een herwaarderingsmeerwaarde.
+>
+> Is dit toegestaan?
+>
+> > [!success]- Antwoord
+> >
+> > **Nee.**
+> >
+> > Herwaardering is enkel toegestaan voor **materiële vaste activa** en **financiële vaste activa** (deelnemingen en aandelen). Voorraden vallen hier **niet** onder — ze worden gewaardeerd tegen aanschaffingswaarde of lagere marktwaarde (voorzichtigheidsbeginsel), maar nooit hoger dan aanschaffingswaarde via een herwaardering.
+> >
+> > *Zie: [[herwaarderingsmeerwaarden#️-wanneer-mag-een-actief-worden-geherwaardeerd|Wanneer herwaarderen?]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - V.B — Herwaarderingsmeerwaarden
 
