@@ -1,15 +1,40 @@
 ---
-tags: ["4.0", materie]
+tags: ["4.0", wip, materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
-  - Wet ITAA art. 40, 41, 42, 43, 44, 45, 46, 47
-itaa-lex: XXI, p. 2605
+  - Wet ITAA art. 38, 40, 41, 42, 43, 44, 45, 46, 47
+itaa-lex: XXI, p. 2604
 ---
 
 # Relaties met cliënten
 
-De Wet ITAA regelt niet alleen wie het beroep mag uitoefenen, maar ook hoe de beroepsbeoefenaar zich tegenover zijn cliënten moet gedragen. Drie domeinen zijn wettelijk geregeld: de **opdrachtbrief**, de **erelonen** en de **aansprakelijkheid**.
+De Wet ITAA regelt niet alleen wie het beroep mag uitoefenen, maar ook hoe de beroepsbeoefenaar zijn praktijk organiseert en zich tegenover zijn cliënten gedraagt. Vier domeinen zijn wettelijk geregeld: de **organisatie van de beroepsactiviteiten**, de **opdrachtbrief**, de **erelonen** en de **aansprakelijkheid**.
+
+---
+
+## ⚖️ Organisatie van de beroepsactiviteiten
+
+De beroepsbeoefenaar draagt een structurele verplichting: zijn kantoor moet zo georganiseerd zijn dat hij zijn opdrachten behoorlijk kan uitvoeren [^art-38]. Die verplichting bestaat uit drie elementen:
+
+1. **Aard en omvang van het cliëntenbestand** — de organisatie is evenredig met de complexiteit van de opdrachten die hij aanneemt
+2. **Gepaste organisatorische en financiële middelen** — voldoende infrastructuur, administratie en financiële draagkracht om de opdrachten kwalitatief uit te voeren
+3. **Personeel met gepaste beroepskwalificaties** — medewerkers zijn adequaat gekwalificeerd voor de taken die ze uitvoeren
+
+Deze verplichting is structureel en permanent — ze geldt niet pas op het moment van het aanvaarden van een concrete opdracht ([[deontologische-beginselen#-aanvaarding-van-opdrachten|art. 40]] regelt dát criterium apart). Art. 38 gaat over de drempelkwaliteit van het kantoor zelf.
+
+> [!info]- In de praktijk: kantoor dat groeit sneller dan zijn organisatie
+>
+> Een beroepsbeoefenaar heeft in korte tijd zijn cliëntenbestand verdubbeld. Hij heeft nog geen extra medewerker aangeworven en werkt met zijn vaste software die niet schaalt. Enkele dossiers lopen vertraging op. Hij schaadt hiermee niet alleen zijn cliënten — hij handelt ook in strijd met art. 38: zijn organisatorische middelen zijn niet meer evenredig met de aard en omvang van zijn activiteiten.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Art. 38 en art. 40 zijn hetzelfde
+> ❌ *"Als ik voor elke concrete opdracht de drie vereisten uit art. 40 check, voldoe ik automatisch aan art. 38."*
+>
+> Art. 38 en art. 40 zijn **twee afzonderlijke verplichtingen**. Art. 38 stelt een **structurele drempel**: het kantoor als geheel moet te allen tijde organisatorisch en financieel toereikend zijn. [[deontologische-beginselen#-aanvaarding-van-opdrachten|Art. 40]] stelt een **opdracht-specifieke toets**: voor elke aanvaarding moet je beschikken over bekwaamheid, medewerking en tijd. Een kantoor dat structureel te klein is voor zijn cliëntenbestand (art. 38) schendt die verplichting — ook al voldoet het per opdracht aan art. 40.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -203,6 +228,7 @@ Kenniselementen:
 - D.3 — Relaties met cliënten (opdrachtbrief, erelonen, aansprakelijkheid)
 - D.8 — Aansprakelijkheid
 
+[^art-38]: [[itaa-lex-XXI#art-38|Wet ITAA art. 38]]
 [^art-41]: [[itaa-lex-XXI#art-41|Wet ITAA art. 41]]
 [^art-46]: [[itaa-lex-XXI#art-46|Wet ITAA art. 46]]
 [^art-47]: [[itaa-lex-XXI#art-47|Wet ITAA art. 47]]

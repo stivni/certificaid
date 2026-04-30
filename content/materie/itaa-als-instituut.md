@@ -1,9 +1,9 @@
 ---
-tags: ["4.0", materie]
+tags: ["4.0", wip, materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
-  - Wet ITAA art. 29, 36, 53, 55-60, 61, 62, 72, 79, 85-93
+  - Wet ITAA art. 29, 36, 53, 54, 55-60, 61, 62, 72, 79, 85-93
 itaa-lex: XXI, p. 2593
 ---
 
@@ -91,6 +91,21 @@ De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet
 
 ---
 
+## 🔒 Bijdragen aan het ITAA
+
+Alle personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]] met een hoedanigheid — zowel natuurlijke als rechtspersonen — en alle [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiairs]] betalen jaarlijks een bijdrage aan het ITAA [^art-54].
+
+De bijdrage wordt als volgt bepaald:
+- De **Koning** bepaalt het maximumbedrag per groep
+- De **[[itaa-als-instituut#-organen-van-het-itaa|algemene vergadering]]** stelt het effectieve bedrag vast per hoedanigheid
+- De bijdrage **kan** jaarlijks geïndexeerd worden (facultatief, niet verplicht)
+
+Voor voormalige BIBF-boekhoudkundigen die na de fusie in 2019 niet doorgestroomd zijn naar [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|(intern) gecertificeerd accountant]] of [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|(intern) gecertificeerd belastingadviseur]], geldt een bijzonder plafond: hun bijdrage mag niet hoger zijn dan het bedrag dat bij het BIBF van kracht was.
+
+Niet betalen van de bijdrage leidt tot een **terechtwijzing** door de Raad (zie [[itaa-als-instituut#-tuchtstelsel|tuchtstelsel]]).
+
+---
+
 ## 📋 Kwaliteitstoetsing
 
 **Periodiciteit**: elke **7 jaar** worden de beroepsactiviteiten van een beroepsbeoefenaar beoordeeld [^art-55].
@@ -133,20 +148,31 @@ De Raad van het ITAA kan een terechtwijzing opleggen bij [^art-85]:
 
 ### Tuchtprocedure — voor ernstigere en andere deontologische inbreuken
 
-De tuchtcommissie behandelt inbreuken die niet onder de terechtwijzing vallen [^art-89].
+De tuchtcommissie behandelt inbreuken die niet onder de terechtwijzing vallen [^art-89]. Ze bestaat uit twee kamers (NL en FR), elk met een voorzitter (magistraat of advocaat met minstens 10 jaar ervaring) en twee leden aangewezen door de Raad. De tuchtcommissie wordt bijgestaan door een **rechtskundig assessor** die het onderzoek voert: na zijn onderzoek beslist hij om de zaak hetzij te seponeren, hetzij te vervolgen voor de tuchtcommissie [^art-89].
 
-**Tuchtstraffen** [^art-92], in oplopende ernst:
+**Procedure**: aanklacht → onderzoek door rechtskundig assessor → al dan niet vervolging → verweer en hoorzitting → beslissing tuchtcommissie → mogelijkheid van beroep bij de commissie van beroep [^art-94].
+
+**Tuchtstraffen** [^art-93], in oplopende ernst:
 1. Waarschuwing
 2. Berisping
-3. Schorsing (tijdelijk verbod om het beroep uit te oefenen)
-4. Schrapping (definitieve uitsluiting uit het register)
+3. Geldboete
+4. Verbod om bepaalde opdrachten te aanvaarden of voort te zetten
+5. Schorsing (tijdelijk verbod om het beroep uit te oefenen)
+6. Schrapping (definitieve uitsluiting uit het register)
 
 Straffen worden openbaar gemaakt.
+
+> [!warning]- Slechts vier tuchtstraffen
+> ❌ *"De tuchtstraffen zijn: waarschuwing, berisping, schorsing en schrapping."*
+>
+> Er zijn **zes** tuchtstraffen (art. 93 §1), niet vier. Naast waarschuwing, berisping, schorsing en schrapping zijn er ook een **geldboete** (3°) en een **verbod om bepaalde opdrachten te aanvaarden of voort te zetten** (4°). De laatste twee worden zelden vernoemd maar staan wel degelijk in de wet.
+>
+> 🤖 *AI-aanvulling*
 
 > [!warning]- Terechtwijzing is een tuchtrechtelijke sanctie
 > ❌ *"Een terechtwijzing is de lichtste tuchtrechtelijke straf — lichter dan een waarschuwing."*
 >
-> Een terechtwijzing is **geen tuchtrechtelijke sanctie** — ze is een **administratief instrument** dat de Raad van het ITAA oplegt voor vier specifieke procedurele inbreuken (bijdragen, verzekering, permanente vorming, kwaliteitstoetsing). De tuchtrechtelijke sancties — waarschuwing, berisping, schorsing en schrapping — worden uitsluitend opgelegd door de tuchtcommissie, voor andere deontologische inbreuken.
+> Een terechtwijzing is **geen tuchtrechtelijke sanctie** — ze is een **administratief instrument** dat de Raad van het ITAA oplegt voor vier specifieke procedurele inbreuken (bijdragen, verzekering, permanente vorming, kwaliteitstoetsing). De zes tuchtrechtelijke sancties (waarschuwing, berisping, geldboete, verbod om bepaalde opdrachten te aanvaarden of voort te zetten, schorsing en schrapping) worden uitsluitend opgelegd door de tuchtcommissie, voor andere deontologische inbreuken.
 >
 > 🤖 *AI-aanvulling*
 
@@ -194,9 +220,25 @@ Taken:
 > >
 > > **Fout.**
 > >
-> > Een terechtwijzing is **geen tuchtrechtelijke sanctie**. Ze is een administratief instrument van de Raad van het ITAA voor vier specifieke procedurele inbreuken. De tuchtrechtelijke sancties (waarschuwing, berisping, schorsing, schrapping) worden uitsluitend opgelegd door de tuchtcommissie.
+> > Een terechtwijzing is **geen tuchtrechtelijke sanctie**. Ze is een administratief instrument van de Raad van het ITAA voor vier specifieke procedurele inbreuken. De zes tuchtrechtelijke sancties (waarschuwing, berisping, geldboete, verbod om bepaalde opdrachten te aanvaarden of voort te zetten, schorsing, schrapping) worden uitsluitend opgelegd door de tuchtcommissie.
 > >
 > > *Zie: [[itaa-als-instituut#-tuchtstelsel|Tuchtstelsel]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Bijdragen: alleen beroepsbeoefenaars?
+>
+> Alleen beroepsbeoefenaars die als zelfstandige werken, moeten bijdragen betalen aan het ITAA. Interne gecertificeerde accountants en stagiairs zijn vrijgesteld.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > Alle **personen ingeschreven in het openbaar register met een hoedanigheid** betalen bijdragen — dus ook interne gecertificeerde accountants (IGA), interne gecertificeerde belastingadviseurs (IGBA) en **stagiairs**. Art. 54 §1 maakt geen onderscheid naar statuut (zelfstandige vs. loontrekkende).
+> >
+> > *Zie: [[itaa-als-instituut#-bijdragen-aan-het-itaa|Bijdragen aan het ITAA]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -237,6 +279,8 @@ Kenniselementen:
 [^art-59]: [[itaa-lex-XXI#art-59|art. 59]]
 [^art-85]: [[itaa-lex-XXI#art-85|art. 85, 4°]]
 [^art-86]: [[itaa-lex-XXI#art-86|art. 86–88]]
-[^art-89]: [[itaa-lex-XXI#art-89|Wet ITAA art. 89–101]]
-[^art-92]: [[itaa-lex-XXI#art-92|art. 92]]
+[^art-89]: [[itaa-lex-XXI#art-89|Wet ITAA art. 89–91]]
+[^art-93]: [[itaa-lex-XXI#art-93|Wet ITAA art. 93]]
+[^art-94]: [[itaa-lex-XXI#art-94|art. 94–101]]
+[^art-54]: [[itaa-lex-XXI#art-54|Wet ITAA art. 54]]
 [^art-36]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36]]

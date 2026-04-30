@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: ["4.0", wip, materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 36, 37, 40, 48, 49
 itaa-lex: XXI, p. 2604
@@ -10,6 +10,25 @@ itaa-lex: XXI, p. 2604
 # Deontologische beginselen
 
 De deontologische beginselen zijn de wettelijk verankerde gedragsregels waaraan elke beroepsbeoefenaar ingeschreven bij het ITAA moet voldoen. Ze zijn niet vrijblijvend: schending ervan kan aanleiding geven tot een tuchtprocedure (zie [[itaa-als-instituut#-tuchtstelsel|tuchtstelsel]]).
+
+---
+
+## 📌 Persoon vs. beroepsbeoefenaar
+
+Hoofdstuk 6 van de Wet ITAA (art. 36–54) gebruikt bewust twee verschillende termen, met een verschillend toepassingsgebied [^art-36-3]:
+
+| Term | Wie valt eronder? |
+|------|-------------------|
+| **Persoon ingeschreven in het openbaar register** | Iedereen die in het [[itaa-als-instituut#-openbaar-register|register]] staat: beroepsbeoefenaars (zelfstandigen), [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiairs]], [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|interne gecertificeerde accountants (IGA)]], [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|interne gecertificeerde belastingadviseurs (IGBA)]], interne accountants, interne fiscaal accountants en de personen bedoeld in art. 23 |
+| **Beroepsbeoefenaar** | Uitsluitend wie als **zelfstandige** werkt: [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerde accountants]], [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerde belastingadviseurs]], accountants, fiscaal accountants, stagiairs en erkende rechtspersonen |
+
+Het verschil: **loontrekkenden** (IGA, IGBA) zijn "persoon", maar geen "beroepsbeoefenaar" in de zin van hoofdstuk 6. Verplichtingen die de wet oplegt aan "de persoon" gelden voor iedereen in het register — ook voor loontrekkenden. Verplichtingen die de wet oplegt aan "de beroepsbeoefenaar" gelden enkel voor wie als zelfstandige werkt.
+
+> [!info]- In de praktijk: loontrekkende accountant en de beroepsgeheimplicht
+>
+> Een [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] werkt in loondienst bij een onderneming. Hij is "persoon ingeschreven in het openbaar register", maar geen "beroepsbeoefenaar" in de zin van hoofdstuk 6. Toch is hij gebonden door de [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|geheimhoudingsplicht (art. 50)]] — want die spreekt van "persoon". Zou de wet uitsluitend over "beroepsbeoefenaar" spreken, dan zou de IGA er niet onder vallen. Dit onderscheid bepaalt dus wie welke verplichting draagt.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -148,11 +167,28 @@ Taken:
 >
 > 🤖 *AI-aanvulling*
 
+> [!question]- Deontologische verplichtingen voor loontrekkende accountant
+>
+> Een intern gecertificeerd accountant (IGA) werkt in loondienst bij een productiebedrijf. Hij is ingeschreven in het ITAA-register. De geheimhoudingsplicht van art. 50 geldt niet voor hem — die is enkel bedoeld voor zelfstandige beroepsbeoefenaars.
+>
+> Juist of fout?
+>
+> > [!success]- Antwoord
+> >
+> > **Fout.**
+> >
+> > [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|Art. 50]] spreekt van "persoon ingeschreven in het openbaar register" — niet van "beroepsbeoefenaar". De [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|IGA]] is ingeschreven en valt dus wel degelijk onder de [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|geheimhoudingsplicht]]. Art. 36 §3 bepaalt expliciet dat verplichtingen die gericht zijn aan "de persoon" gelden voor iedereen in het register, inclusief loontrekkenden.
+> >
+> > *Zie: [[deontologische-beginselen#-persoon-vs-beroepsbeoefenaar|Persoon vs. beroepsbeoefenaar]]*
+>
+> 🤖 *AI-aanvulling*
+
 Kenniselementen:
 - C.5 — Onverenigbaarheden
 - D.1 — Basisprincipes (de 7 deontologische beginselen)
 - D.2 — Onafhankelijkheid
 
+[^art-36-3]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36 §3]]
 [^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
 [^art-48]: [[itaa-lex-XXI#art-48|Wet ITAA art. 48]]
 [^art-49]: [[itaa-lex-XXI#art-49|Wet ITAA art. 49]]

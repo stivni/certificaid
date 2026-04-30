@@ -531,11 +531,23 @@ Elke TDK die verwijst naar een te kennen concept krijgt een link naar de relevan
 
 Een bullet zonder link naar materie is een signaal dat er materie ontbreekt of dat de link nog niet gelegd is.
 
-### "Relevante materie" — volledigheidseis
+### "Relevante materie" — volledigheidseis en leesvolgordeconventie
 
 De sectie onderaan de vakfiche heet **"Relevante materie"** (vroeger: "Concepten"). Ze bevat alle conceptfiches die samen de volledige examenstof voor dit vak dekken.
 
 **Eis**: een student die enkel de "Relevante materie"-lijst doorloopt zonder één TDK-link te volgen, moet toch alle examenstof gezien hebben. De lijst is dus geen subset — ze is compleet.
+
+**Leesvolgordeconventie**: de fiches staan in de volgorde waarin een student ze het best bestudeert — van fundament naar toepassing. De volgorde volgt deze logica:
+
+1. **Juridisch kader** — wie zijn de actoren, welke autoriteiten spelen een rol
+2. **Basisverplichtingen** — wat moet de onderneming doen (boekhoudplicht, aangifteplicht, ...)
+3. **Scharnierbegrippen** — concepten die bepalen welke regels gelden (bv. groottecriteria)
+4. **Uitgewerkte verplichtingen** — wat die regels concreet inhouden (jaarrekening, jaarverslag, ...)
+5. **Beginselen en methodologie** — hoe de regels worden toegepast (boekhoudkundige beginselen)
+6. **Specifieke waarderingsregels** — hoe individuele posten worden berekend
+7. **Analytische technieken** — hoe je de cijfers interpreteert (ratio's, kasstromen)
+
+Binnen elke groep: meer fundamentele concepten vóór afgeleide. Een fiche die een ander concept veronderstelt, staat ná dat concept.
 
 ### Verificatiestap na het schrijven van een vakfiche
 
@@ -691,6 +703,30 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 ### Stap 5 — Validatie door de gebruiker
 - Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
 - Wanneer gebruiker volledig tevreden is: `wip`-tag verwijderen, `status: geverifieerd`
+
+## Voorbeeldexamens als studiebron
+
+In `resources/voorbeeldexamens/` staan officiële ITAA-bekwaamheidsexamens:
+
+| Bestand | Examen |
+|---------|--------|
+| `2013-1.pdf` | Bekwaamheidsexamen 2013, zitting 1 |
+| `2013-2.pdf` | Bekwaamheidsexamen 2013, zitting 2 |
+| `2014-1.pdf` | Bekwaamheidsexamen 2014, zitting 1 |
+| `2015_1_-_bekwaamheidsexamen_ac_1.pdf` | Bekwaamheidsexamen 2015, zitting 1 |
+| `Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf` | Bekwaamheidsexamen 2024 |
+
+**Twee toepassingen:**
+
+1. **Gaten in de materie opsporen** — lees een examen door en check of elk onderwerp al een materie-fiche heeft. Ontbrekende concepten worden opgelijst en aangemeld bij de gebruiker.
+
+2. **Voorbeeldvragen ophalen** — examenvragen die betrekking hebben op een uitgewerkt concept worden opgenomen als `[!question]-`-callout in de fiche, gelabeld `📝 *Uit voorbeeldexamen [jaar]*`.
+
+**Werkwijze bij het verwerken van een examen:**
+1. Lees de vragen door — per vraag: welk concept (materie-fiche) dekt dit?
+2. Als er geen fiche voor bestaat: noteer als ontbrekend concept
+3. Als er wel een fiche voor bestaat: voeg de vraag toe als voorbeeldvraag (stap 3 van het iteratief werkproces)
+4. Leg eventuele gaten voor aan de gebruiker vóór je nieuwe fiches aanmaakt
 
 ## Quartz: documentatie eerst raadplegen
 

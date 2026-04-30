@@ -1,9 +1,9 @@
 ---
-tags: ["4.0", materie]
+tags: ["4.0", wip, materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
-  - Wet ITAA art. 36, 37, 43, 52
+  - Wet ITAA art. 5, 8, 36, 37, 43, 52
 itaa-lex: XXI, p. 2604
 ---
 
@@ -57,6 +57,35 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 
 ---
 
+## ⚖️ Wie mag voorbehouden activiteiten uitvoeren?
+
+De beroepsactiviteiten van art. 3 zijn voorbehouden aan personen die ingeschreven zijn in het openbaar register van het ITAA (of die een gelijkwaardige erkenning hebben, zoals bedrijfsrevisoren) [^art-5].
+
+Deze inschrijvingseis geldt ongeacht het statuut van de uitvoerder:
+
+- **Zelfstandigen**: moeten ingeschreven zijn als [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountant (GA)]], [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseur (GBA)]], accountant, fiscaal accountant of [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiair]] — of als erkende rechtspersoon
+- **Loontrekkenden**: mogen de activiteiten van art. 3, 1°–5° uitoefenen als ze ingeschreven zijn als [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] of [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd belastingadviseur (IGBA)]] [^art-5-2] — maar dan enkel in het kader van hun arbeidsovereenkomst, voor hun eigen werkgever
+- **Onderaannemers**: een externe persoon of vennootschap die in opdracht van een ITAA-lid [[beroep-van-accountant-en-belastingadviseur#-wie-mag-de-activiteiten-van-art-3-uitoefenen|voorbehouden activiteiten]] uitvoert, moet zelf ingeschreven zijn — ongeacht of hij als zelfstandige of als loontrekkende werkt en ongeacht of hij rechtstreeks aan de cliënt of enkel aan het ITAA-lid factureert [^art-8]
+
+Een niet-ingeschreven persoon — of het nu een particulier, een buitenlandse vennootschap of een medewerker van het kantoor is — mag geen voorbehouden activiteiten uitoefenen. Een ITAA-lid dat zo iemand inschakelt voor die activiteiten, maakt zichzelf medeplichtig aan een onwettige uitoefening van het beroep.
+
+> [!warning]- Loontrekkende mag zonder inschrijving voorbehouden activiteiten uitvoeren
+> ❌ *"Een medewerker in loondienst bij mijn kantoor mag voorbehouden activiteiten uitoefenen — hij werkt immers voor mij en ik draag de verantwoordelijkheid."*
+>
+> De inschrijvingseis geldt ook voor loontrekkenden die voorbehouden activiteiten uitoefenen. Een medewerker die zelf oordeelt, adviseert of controleert (en dus niet louter uitvoerend handelt onder jouw directe supervisie) moet ingeschreven zijn als IGA of IGBA. De verantwoordelijkheid van de werkgever-beroepsbeoefenaar heft de inschrijvingseis voor de medewerker niet op.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: medewerker die "alleen maar ingevoerd"
+>
+> Een accountantskantoor heeft een administratief medewerker die de btw-aangiften invult. De verantwoordelijke accountant legt hem de bestanden voor, hij voert in — de accountant tekent. Is dit toegestaan?
+>
+> De grens ligt bij de vraag: voert de medewerker de **beroepsactiviteit** uit, of enkel een **louter uitvoerende handeling** onder permanent toezicht en directe verantwoordelijkheid van de accountant? Het invullen van een aangifte op basis van vooraf gecontroleerde gegevens, zonder eigen professioneel oordeel, wordt in de praktijk beschouwd als uitvoerend werk — geen voorbehouden activiteit. Maar zodra de medewerker zelf oordeelt, adviseert of controleert, oefent hij de voorbehouden activiteit uit en moet hij ingeschreven zijn.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## ⚖️ Samenwerking in associaties en netwerken
 
 In associaties of netwerken gelden dezelfde [[beroepsgeheim#-doorwerking-naar-medewerkers-en-derden|geheimhoudingsverplichtingen]] als bij individuele uitoefening [^art-52].
@@ -85,7 +114,7 @@ Het delen van vertrouwelijke cliëntinformatie binnen het netwerk is toegestaan 
 > >
 > > Een ITAA-beroepsbeoefenaar mag niet optreden als onderaannemer voor een niet-erkende entiteit die activiteiten uitoefent die in België wettelijk voorbehouden zijn aan ITAA-leden. Dit zou de deontologische regels omzeilen en de beroepsbeoefenaar medeplichtig maken aan een onwettige uitoefening van het beroep. De onafhankelijkheid en professionaliteit van het beroep als geheel worden hierdoor aangetast.
 > >
-> > *Zie: [[deontologische-beginselen#-de-7-deontologische-beginselen|Professionaliteit]], [[beroep-van-accountant-en-belastingadviseur#-titelvoering|Titelvoering]]*
+> > *Zie: [[relaties-confraters#-wie-mag-voorbehouden-activiteiten-uitvoeren|Wie mag voorbehouden activiteiten uitvoeren?]]*
 >
 > 📝 *Uit voorbeeldexamen 2015*
 
@@ -114,6 +143,9 @@ Taken:
 Kenniselementen:
 - D.4 — Relaties met confraters
 
+[^art-5]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5]]
+[^art-5-2]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5, tweede lid]]
+[^art-8]: [[itaa-lex-XXI#art-8|Wet ITAA art. 8]]
 [^art-37]: [[itaa-lex-XXI#art-37|Wet ITAA art. 37]]
 [^art-52]: [[itaa-lex-XXI#art-52|Wet ITAA art. 52]]
 [^art-43]: [[itaa-lex-XXI#art-43|Wet ITAA art. 43]]

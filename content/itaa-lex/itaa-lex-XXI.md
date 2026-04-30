@@ -49,6 +49,7 @@ online: https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=
 | [Art. 51](#art-51) | Uitzonderingen op de geheimhoudingsplicht | p. 2607 |
 | [Art. 52](#art-52) | Doorwerking geheimhouding naar medewerkers | p. 2607 |
 | [Art. 53](#art-53) | Relaties met het ITAA — inschrijvingsplicht | p. 2607 |
+| [Art. 54](#art-54) | Bijdragen aan het Instituut | p. 2607 |
 | [Art. 55](#art-55) | Kwaliteitstoetsing: periodiciteit (elke 7 jaar) | p. 2608 |
 | [Art. 56](#art-56) | Doel en methodologie kwaliteitstoetsing | p. 2608 |
 | [Art. 57](#art-57) | Onafhankelijkheid van de toetsers | p. 2608 |
@@ -63,7 +64,8 @@ online: https://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?language=nl&la=N&cn=
 | [Art. 85](#art-85) | Terechtwijzing: redenen | p. 2617 |
 | [Art. 86–88](#art-86) | Procedure terechtwijzing | p. 2617 |
 | [Art. 89–91](#art-89) | Tuchtcommissie: samenstelling | p. 2618 |
-| [Art. 92–93](#art-92) | Tuchtstraffen | p. 2618 |
+| [Art. 92](#art-92) | Grondslag tuchtstraffen (wanneer opgelegd) | p. 2618 |
+| [Art. 93](#art-93) | Zes tuchtstraffen (waarschuwing t.e.m. schrapping) | p. 2618 |
 | [Art. 94–101](#art-94) | Tuchtprocedure | p. 2619 |
 
 ---
@@ -161,7 +163,7 @@ Gronden voor uitschrijving: overlijden, vrijwillig verzoek, verlies van voorwaar
 ## Art. 36
 > Pagina ITAA-LEX: p. 2604
 
-§1: Alle beroepsbeoefenaars oefenen hun activiteit uit met toepassing van het wettelijk, reglementair en normatief kader. §2: Koning legt nadere regels vast over deontologie en onafhankelijkheid.
+§1: Alle beroepsbeoefenaars, stagiairs, interne gecertificeerde accountants/belastingadviseurs, interne accountants/fiscaal accountants en art. 23-personen oefenen hun activiteit uit met toepassing van het wettelijk, reglementair en normatief kader dat op hen van toepassing is. §2: De Koning legt nadere regels vast over deontologie en onafhankelijkheid. §3 (definitorisch): wanneer in hoofdstuk 6 (art. 36–54) verwezen wordt naar "de persoon ingeschreven in het openbaar register" is iedereen bedoeld vermeld in §1. Wanneer verwezen wordt naar "de beroepsbeoefenaar" is enkel hij bedoeld — d.w.z. uitsluitend de zelfstandigen (GA, GBA, accountant, fiscaal accountant, stagiairs) en erkende rechtspersonen; loontrekkenden (IGA, IGBA) zijn "persoon" maar geen "beroepsbeoefenaar" in de zin van dit hoofdstuk.
 
 ## Art. 37
 > Pagina ITAA-LEX: p. 2604
@@ -171,7 +173,7 @@ Elke ingeschrevene handelt in volledige onafhankelijkheid, met respect voor de d
 ## Art. 38
 > Pagina ITAA-LEX: p. 2604
 
-De beroepsbeoefenaar organiseert zijn activiteiten in functie van de aard en omvang van zijn cliëntenbestand, evenredig met de complexiteit van de opdrachten.
+De beroepsbeoefenaar: (1) organiseert zijn beroepsactiviteiten in functie van de aard en de omvang van zijn cliëntenbestand en evenredig met de complexiteit van de opdrachten; (2) voorziet de gepaste organisatorische en financiële middelen; (3) zet personeel met gepaste beroepskwalificaties adequaat in.
 
 ## Art. 39
 > Pagina ITAA-LEX: p. 2605
@@ -254,6 +256,13 @@ Bij het delen van vertrouwelijke informatie met personeelsleden, stagiairs of an
 
 De medewerkings- en meldingsplicht uit art. 53 vormen een **wettelijke verplichting tot mededeling** in de zin van art. 51, 2° — en vallen dus onder de uitzonderingen op de geheimhoudingsplicht.
 
+## Art. 54
+> Pagina ITAA-LEX: p. 2607
+
+**Bijdragen aan het Instituut**
+
+§1: Alle personen (NP en RP) ingeschreven met een hoedanigheid én de stagiairs betalen jaarlijks een bijdrage aan het ITAA. De Koning bepaalt het maximumbedrag per groep; de algemene vergadering stelt het effectieve bedrag vast per hoedanigheid. Voor voormalige BIBF-boekhoudkundigen die niet doorgestroomd zijn naar (I)GA of (I)GBA geldt een plafond op het vroegere BIBF-tarief. De bijdrage kan jaarlijks geïndexeerd worden (facultatief). §2: Personen op de aparte lijst van art. 29 §2 betalen administratieve kosten voor hun dossierbehandeling én een jaarlijkse bijdrage gelijk aan die van de GBA-activiteitenpersonen (ook jaarlijks indexeerbaar).
+
 ## Art. 55
 > Pagina ITAA-LEX: p. 2608
 
@@ -324,10 +333,27 @@ Terechtwijzing met termijn en modaliteiten voor regularisatie. Na 3 maanden zond
 
 Twee kamers (NL en FR). Elke kamer: voorzitter (magistraat/advocaat ≥10 jaar) + 2 leden aangewezen door de Raad. Bijgestaan door rechtskundig assessor.
 
-## Art. 92–93
+## Art. 92
 > Pagina ITAA-LEX: p. 2618
 
-Straffen: waarschuwing, berisping, schorsing (tijdelijk verbod), schrapping (definitieve uitsluiting). Straffen worden openbaar gemaakt.
+**Grondslag tuchtstraffen**
+
+Tuchtstraffen worden opgelegd aan personen ingeschreven in het openbaar register wanneer inbreuken zijn vastgesteld tegen het wettelijk, reglementair en normatief kader waarbinnen de beroepsactiviteiten worden uitgeoefend.
+
+## Art. 93
+> Pagina ITAA-LEX: p. 2618
+
+**Zes tuchtstraffen**
+
+§1: De volgende tuchtstraffen kunnen worden opgelegd aan een beroepsbeoefenaar (NP of RP) die de hoedanigheid heeft om activiteiten van art. 3 als zelfstandige uit te oefenen:
+1° de waarschuwing;
+2° de berisping;
+3° de geldboete;
+4° het verbod om bepaalde opdrachten te aanvaarden of voort te zetten;
+5° de schorsing;
+6° de schrapping.
+
+Straffen worden openbaar gemaakt.
 
 ## Art. 94–101
 > Pagina ITAA-LEX: p. 2619
