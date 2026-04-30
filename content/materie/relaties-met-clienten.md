@@ -15,7 +15,7 @@ De Wet ITAA regelt niet alleen wie het beroep mag uitoefenen, maar ook hoe de be
 
 ## 📌 Opdrachtbrief
 
-Een document dat de uitvoering van een opdracht voorafgaat en de **wederzijdse rechten en plichten** van de beroepsbeoefenaar en de cliënt op een evenwichtige wijze omschrijft [^art-41].
+Een document dat de uitvoering van een opdracht voorafgaat en de **wederzijdse rechten en plichten** van de beroepsbeoefenaar en de cliënt op een evenwichtige wijze omschrijft — het eerste formele document na de [[deontologische-beginselen#-aanvaarding-van-opdrachten|aanvaarding van de opdracht]] [^art-41].
 
 De opdrachtbrief is geen vrijblijvend document: hij is wettelijk verplicht voor **iedere opdracht**, ook voor bestaande cliënten en herhaalde of doorlopende opdrachten.
 
@@ -80,7 +80,7 @@ De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, 
 
 > [!info]- In de praktijk: cliënt stapt over naar concurrent
 >
-> Een cliënt laat weten dat hij van accountant wisselt en vraagt zijn volledige boekhouddossier op. Ondertussen staat er nog een factuur van €2.400 open. De beroepsbeoefenaar moet het dossier toch onverwijld teruggeven — hij heeft geen retentierecht. De openstaande factuur kan hij via een minnelijke invordering of de rechtbank proberen te recupereren, maar het dossier mag hij daarvoor niet als hefboom gebruiken.
+> Een cliënt laat weten dat hij van accountant wisselt (zie ook [[relaties-confraters#-dossierovername|dossierovername]]) en vraagt zijn volledige boekhouddossier op. Ondertussen staat er nog een factuur van €2.400 open. De beroepsbeoefenaar moet het dossier toch onverwijld teruggeven — hij heeft geen retentierecht. De openstaande factuur kan hij via een minnelijke invordering of de rechtbank proberen te recupereren, maar het dossier mag hij daarvoor niet als hefboom gebruiken.
 >
 > 🤖 *AI-aanvulling*
 

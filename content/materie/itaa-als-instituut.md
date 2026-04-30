@@ -61,10 +61,10 @@ Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is 
 Het ITAA heeft zes hoofdtaken [^art-62]:
 
 1. **Beroepsbelangen beschermen** — de rechten en gemeenschappelijke belangen van zijn leden
-2. **Toegang tot het beroep bewaken** — toelatingsexamen, stage en bekwaamheidsexamen
+2. **Toegang tot het beroep bewaken** — [[beroep-van-accountant-en-belastingadviseur#-8-toegangsvoorwaarden|toelatingsexamen]], [[beroep-van-accountant-en-belastingadviseur#-de-stage|stage]] en bekwaamheidsexamen
 3. **Openbaar register beheren**
-4. **Permanente vorming bewaken**
-5. **Toezicht op de beroepsuitoefening** — via een tuchtregeling die bekwaamheid, onafhankelijkheid en rechtschapenheid bewaakt
+4. **[[beroep-van-accountant-en-belastingadviseur#-permanente-vorming|Permanente vorming]] bewaken**
+5. **Toezicht op de beroepsuitoefening** — via een tuchtregeling die [[deontologische-beginselen|bekwaamheid, onafhankelijkheid en rechtschapenheid]] bewaakt
 6. **Toegang verlenen aan EU-beroepsbeoefenaars** uit andere lidstaten
 
 ---
@@ -80,7 +80,7 @@ Het ITAA heeft zes hoofdtaken [^art-62]:
 | **Tuchtcommissie** | [[itaa-lex-XXI#art-89|art. 89]] | Tuchtprocedures voor deontologische inbreuken |
 | **Hoge Raad voor de Economische Beroepen** | [[itaa-lex-XXI#art-79|art. 79]] | Zelfstandig adviesorgaan — bewaakt het algemeen belang |
 
-De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet ondergeschikt aan het ITAA). Hij geeft adviezen aan parlement, regering, ITAA en het Instituut van de Bedrijfsrevisoren (IBR) over de uitoefening van de beroepen in het algemeen belang. Hij kan ook klacht neerleggen bij de tuchtcommissie.
+De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet ondergeschikt aan het ITAA). Hij geeft adviezen aan parlement, regering, ITAA en het Instituut van de Bedrijfsrevisoren (IBR) over de uitoefening van de beroepen in het algemeen belang. Hij kan ook klacht neerleggen bij de [[itaa-als-instituut#-tuchtstelsel|tuchtcommissie]].
 
 > [!warning]- De Hoge Raad is het hoogste orgaan van het ITAA
 > ❌ *"De Hoge Raad voor de Economische Beroepen staat aan de top van de ITAA-hiërarchie."*

@@ -51,7 +51,7 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 
 > [!info]- In de praktijk: cliënt klaagt over zijn vorige accountant
 >
-> Een cliënt neemt contact op en zegt dat hij van accountant wil wisselen — zijn vorige begreep zijn zaak niet en maakte fouten. De nieuwe accountant vraagt professioneel na bij de vorige collega. Die geeft aan dat hij zelf de samenwerking heeft stopgezet nadat hij onverklaarbare kasstromen vaststelde die hij niet kon afstemmen. Dat is een cruciaal signaal. De nieuwe beroepsbeoefenaar moet dit meenemen in zijn cliëntacceptatiebeslissing — en heeft mogelijk zelf een verhoogde waakzaamheidsplicht als hij de opdracht toch aanvaardt.
+> Een cliënt neemt contact op en zegt dat hij van accountant wil wisselen — zijn vorige begreep zijn zaak niet en maakte fouten. De nieuwe accountant vraagt professioneel na bij de vorige collega. Die geeft aan dat hij zelf de samenwerking heeft stopgezet nadat hij onverklaarbare kasstromen vaststelde — een klassiek signaal voor [[antiwitwaswetgeving#-witwassen-van-geld|witwassen van geld]] — die hij niet kon afstemmen. Dat is een cruciaal signaal. De nieuwe beroepsbeoefenaar moet dit meenemen in zijn cliëntacceptatiebeslissing — en heeft mogelijk zelf een verhoogde waakzaamheidsplicht als hij de opdracht toch aanvaardt.
 >
 > 🤖 *AI-aanvulling*
 
@@ -59,7 +59,7 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 
 ## ⚖️ Samenwerking in associaties en netwerken
 
-In associaties of netwerken gelden dezelfde [[beroepsgeheim|geheimhoudingsverplichtingen]] als bij individuele uitoefening [^art-52].
+In associaties of netwerken gelden dezelfde [[beroepsgeheim#-doorwerking-naar-medewerkers-en-derden|geheimhoudingsverplichtingen]] als bij individuele uitoefening [^art-52].
 
 Het delen van vertrouwelijke cliëntinformatie binnen het netwerk is toegestaan voor zover het **noodzakelijk is voor de uitvoering van de opdracht**. De ontvangende confraters zijn gebonden door dezelfde geheimhoudingsplicht.
 

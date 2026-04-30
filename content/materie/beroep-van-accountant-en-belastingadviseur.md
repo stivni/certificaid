@@ -9,7 +9,7 @@ itaa-lex: XXI, p. 2593
 
 # Het beroep van accountant en belastingadviseur
 
-De Wet ITAA van 17 maart 2019 regelt wie de beroepen van gecertificeerd accountant en gecertificeerd belastingadviseur mag uitoefenen, welke activiteiten ze mogen verrichten, welke titels ze mogen dragen, en hoe ze toegang krijgen tot het beroep.
+De Wet ITAA van 17 maart 2019 — de primaire bron in het [[itaa-als-instituut#-normatief-kader|normatief kader]] — regelt wie de beroepen van gecertificeerd accountant en gecertificeerd belastingadviseur mag uitoefenen, welke activiteiten ze mogen verrichten, welke titels ze mogen dragen, en hoe ze toegang krijgen tot het beroep.
 
 ---
 
@@ -19,7 +19,7 @@ Een **gereglementeerd economisch beroep** is een beroep waarvan de uitoefening b
 
 De wetgever reguleert de beroepen van gecertificeerd accountant en gecertificeerd belastingadviseur om drie redenen:
 - **Informatieasymmetrie**: cliënten kunnen de kwaliteit van de dienstverlening niet goed beoordelen en zijn afhankelijk van de deskundigheid van de beroepsbeoefenaar
-- **Impact van fouten**: boekhoudkundige of fiscale fouten kunnen ernstige gevolgen hebben (belastingboetes, faillissement, rechtszaken)
+- **Impact van fouten**: boekhoudkundige of fiscale fouten kunnen ernstige gevolgen hebben (belastingboetes, faillissement, [[relaties-met-clienten#-aansprakelijkheid|rechtszaken]])
 - **Belangen van derden**: ook de staat, schuldeisers en investeerders hebben belang bij betrouwbare financiële informatie
 
 ---
@@ -72,7 +72,7 @@ Personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar re
 
 ## ⚖️ Wie mag de activiteiten van art. 3 uitoefenen?
 
-Niet alleen gecertificeerde accountants mogen de activiteiten van art. 3 uitoefenen als zelfstandige voor rekening van derden [^art-5]:
+Niet alleen gecertificeerde accountants mogen de activiteiten van art. 3 uitoefenen als zelfstandige voor rekening van derden [^art-5]. ITAA-leden moeten daarvoor in het [[itaa-als-instituut#-openbaar-register|openbaar register]] staan; bedrijfsrevisoren zijn ingeschreven bij het IBR:
 
 | Categorie | Toegestane activiteiten |
 |---|---|
@@ -152,7 +152,7 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 **Minimale activiteit**: minstens **1.000 uur per jaar** relevante beroepsactiviteiten
 
-**Stagemeester**: een beroepsbeoefenaar met minstens **5 jaar** beroepservaring na zijn eigen stage
+**Stagemeester**: een beroepsbeoefenaar met minstens **5 jaar** beroepservaring na zijn eigen stage — hij draagt verantwoordelijkheid voor de [[deontologische-beginselen#-aanvaarding-van-opdrachten|bekwame uitvoering]] van opdrachten door de stagiair
 
 **Maximale termijn**: de stagiair moet het bekwaamheidsexamen halen **binnen 8 jaar** na inschrijving. Lukt dat niet: schrapping uit het register + 3 jaar wachttijd voor herneming.
 

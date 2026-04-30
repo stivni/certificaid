@@ -605,7 +605,28 @@ Voor elk nieuw concept, in deze volgorde (elke stap door gebruiker valideren):
    - **Kritische lezing achteraf** (zie hieronder)
 2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld
 3. **Voorbeeldvragen** — mag 🤖 als gelabeld
-4. **Hyperlinks** — alle interne links en ankers controleren
+4. **Hyperlinks** — semantische doorlezing voor links (zie hieronder)
+
+### Semantische hyperlinkdoorlezing (stap 4)
+
+Lees elke zin van de fiche opnieuw — niet om fouten te zoeken, maar om te vragen: **"heeft deze passage betrekking op iets dat ergens een anker heeft?"**
+
+Dit is een semantische lezing, geen keyword-zoekactie. Een passage kan conceptueel verwijzen naar een ander concept zonder het woord letterlijk te gebruiken. Voorbeelden van wat je zoekt:
+
+| Type passage | Vraag die je stelt |
+|---|---|
+| Een begrip wordt gebruikt | Heeft dit begrip een eigen `##`-sectie in een fiche? → link naar dat anker |
+| Een verplichting wordt beschreven | Heeft die verplichting een eigen sectie? → link |
+| Een procedure of sanctie wordt aangehaald | Staat die ergens uitgelegd? → link |
+| Een uitzondering verwijst impliciet naar een ander concept | Bv. "het melden schendt het beroepsgeheim niet" → link naar beroepsgeheim |
+| Een opsomming bevat termen die elk een eigen sectie hebben | Elk item afzonderlijk linken |
+| Callout-tekst (valkuilen, voorbeeldvragen) verwijst naar begrippen | Ook in callouts worden links verwacht |
+
+**Werkwijze:** doorloop de fiche sectie per sectie. Per zin: stel de vraag. Voeg de link toe op de meest precieze plek — bij voorkeur het anker van de sectie, niet het algemene fiche-niveau.
+
+**Geen grepping** — een keyword-zoekopdracht mist passages die conceptueel verwijzen zonder letterlijk de term te gebruiken. De enige betrouwbare methode is lezen.
+
+**Geldt voor beide fichetypes**: materie-fiches én programmaonderdeel-fiches. In programmaonderdeel-fiches linkt elke taak, doelstelling en kenniselement naar de relevante sectie in de materie — niet enkel naar het fiche-niveau.
 
 ### Wettekstverificatie na het schrijven van de materie
 
