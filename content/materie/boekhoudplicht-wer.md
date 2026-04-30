@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", wip, materie]
+tags: ["1.2", materie]
 niveau: toepassen
-status: draft
+status: geverifieerd
 bronnen:
   - WER art. III.82, III.83, III.84, III.85, III.86, III.87, III.88, III.89, III.90
   - KB 21 oktober 2018 art. 1, 2, 3, 4, 8, 9, 10, 11

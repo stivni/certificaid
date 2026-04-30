@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", wip, materie]
+tags: ["1.2", materie]
 niveau: toepassen
-status: draft
+status: geverifieerd
 bronnen:
   - WVV art. 3:1, 3:2, 3:3, 3:10, 3:11, 3:12, 3:72, 3:73, 3:74
 itaa-lex: XV (WVV)

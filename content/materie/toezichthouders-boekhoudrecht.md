@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", wip, materie]
+tags: ["1.2", materie]
 niveau: weten-en-inzien
-status: draft
+status: geverifieerd
 bronnen:
   - Wet ITAA art. 61, 62, 79
   - WER art. III.15 (KBO), III.92 (advies CRB), III.93 (CBN)

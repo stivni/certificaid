@@ -80,7 +80,7 @@ Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 
 | Type | Andere naam | Conclusie |
 |------|-------------|-----------|
-| **Redelijke zekerheid** | Volkomen controle (contractuele controleopdracht) | Positief oordeel: "de jaarrekening geeft een getrouw beeld" |
+| **Redelijke zekerheid** | Volkomen controle (contractuele controleopdracht) | Positief oordeel: "de [[jaarrekening|jaarrekening]] geeft een [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]]" |
 | **Beperkte zekerheid** | Beperkte controle (contractuele beoordelingsopdracht) | Negatieve conclusie: "niets heeft onze aandacht getrokken dat..." |
 
 ---
@@ -89,7 +89,7 @@ Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 
 Een opdracht waarbij de beroepsbeoefenaar de cliënt helpt maar **geen professioneel oordeel geeft voor externe gebruikers**. De output is voor de cliënt zelf [^kmo-norm].
 
-Voorbeelden: boekhouding bijhouden, btw-aangifte opstellen, jaarrekening samenstellen op basis van aangeleverde cijfers (samenstellingsopdracht).
+Voorbeelden: [[boekhoudplicht-wer|boekhouding]] bijhouden, btw-aangifte opstellen, [[jaarrekening|jaarrekening]] samenstellen op basis van aangeleverde cijfers (samenstellingsopdracht).
 
 ---
 
@@ -175,7 +175,7 @@ De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-o
 | # | Verboden nevendienst | Toelichting |
 |---|---|---|
 | 1° | Managementfuncties | Beslissingen nemen voor of namens de cliënt |
-| 2° | Boekhouding en financiële overzichten | De boekhouding voeren of de jaarrekening opstellen — **absoluut verbod**, ook met 2-jaar terugwerkende kracht |
+| 2° | Boekhouding en financiële overzichten | De [[boekhoudplicht-wer|boekhouding]] voeren of de [[jaarrekening|jaarrekening]] opstellen — **absoluut verbod**, ook met 2-jaar terugwerkende kracht |
 | 3° | Interne controle- en risicobeheeringsystemen | Procedures opzetten die verband houden met de financiële verslaggeving |
 | 4° | Waarderingsdiensten | Waardebepaling of actuariële diensten |
 | 5° | Interne controlefunctie | Diensten voor de interne auditfunctie |

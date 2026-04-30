@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", wip, materie]
+tags: ["1.2", materie]
 niveau: integratie
-status: draft
+status: geverifieerd
 bronnen: []
 itaa-lex: ""
 ---

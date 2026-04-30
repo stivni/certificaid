@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", wip, materie]
+tags: ["1.2", materie]
 niveau: weten-en-inzien
-status: draft
+status: geverifieerd
 bronnen:
   - WVV art. 3:4, 3:5, 3:6, 3:6/1
 itaa-lex: XV (WVV)
