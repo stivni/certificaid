@@ -16,14 +16,14 @@ Geconsolideerde versies ophalen via ejustice.just.fgov.be of de vermelde bron.
 
 ## Burgerlijk en economisch recht — Deel 2 ITAA-Lex
 
-- [ ] `WER.pdf` — Wetboek van Economisch Recht (wet 28/02/2013) — ejustice, zoek "wetboek economisch recht 2013"
 - [ ] `BW.pdf` — Burgerlijk Wetboek (wet 13/04/2019) — ejustice, zoek "burgerlijk wetboek 2019"
 
 ## Reeds aanwezig
 
+- [x] `WER.pdf` — Wetboek van Economisch Recht (wet 28/02/2013)
+- [x] `KB-21-10-2018.pdf` + `KB-WER-boekhouding-2018.md` — KB 21/10/2018 uitvoering art. III.82–III.95 WER (vereenvoudigde boekhouding + minimum rekeningenstelsel). Bijlagen 1–4 (MAR) zijn afbeeldingen: zie B.St. 29-10-2018, p. 82149 / 82210 / 82215 / 82274
 - [x] `WVV.pdf` — Wetboek van Vennootschappen en Verenigingen
 - [x] `KB-WVV-2019.pdf` — KB 29/04/2019 uitvoering WVV
 - [x] `Wet-ITAA-2019.pdf` — Wet 17/03/2019 beroepen accountant en belastingadviseur
 - [x] `Antiwitwaswet-2017.pdf` — Wet 18/09/2017 voorkoming witwassen
 - [x] `Richtlijn-2013-34-EU.pdf` — EU-Richtlijn 2013/34/EU jaarlijkse financiële overzichten
-- [x] `KB-21-10-2018.pdf` + `KB-WER-boekhouding-2018.md` — KB 21/10/2018 uitvoering art. III.82–III.95 WER (vereenvoudigde boekhouding + minimum rekeningenstelsel). Bijlagen 1–4 (MAR) zijn afbeeldingen: zie B.St. 29-10-2018, p. 82149 / 82210 / 82215 / 82274
