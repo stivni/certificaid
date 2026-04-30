@@ -35,13 +35,7 @@ certificaid/
 │   ├── programmaonderdelen/ # Één .md per programmaonderdeel — getoond als "Programmaonderdelen" in de Explorer
 │   └── itaa-lex/           # Proxy per ITAA-LEX sectie — alleen secties die effectief gebruikt worden
 ├── tools/
-└── resources/              # Bronmateriaal
-    ├── programma.pdf           # ITAA-brochure (leerdoelen en structuur)
-    ├── ITAA_Lex_Index.xlsx     # Index van de ITAA-LEX bundel
-    ├── normen/                 # ITAA-normen en -aanbevelingen — lokaal als .md
-    ├── voorbeeldexamens/       # Officiële ITAA-examens (PDF)
-    ├── wetteksten/             # Geconsolideerde wetteksten als .txt
-    └── andere/                 # Overige bronnen
+└── resources/              # Bronmateriaal (bv. ITAA-brochure PDF, ITAA_LEX_index.xlsx)
 ```
 
 ### Publicatie
@@ -63,16 +57,7 @@ Dit is de belangrijkste regel van het hele project.
 1. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be) (geconsolideerde versies)
 2. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
 3. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
-4. ITAA-normen op [itaa.be](http://itaa.be) — lokale kopieën in `resources/normen/`:
-   - `algemene-controlenorm.md`
-   - `kmo-controlenorm.md`
-   - `norm-permanente-vorming.md`
-   - `aww-reglement-iab.md`
-   - `norm-ontbinding-vereffening.md`
-   - `norm-omzetting-vennootschap.md`
-   - `nota-opdrachtbrief.md`
-   - `gedragslijnen-relaties-IBR.md`
-   - `procedurereglement-AWW-art118.md`
+4. ITAA-normen op [itaa.be](http://itaa.be)
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 6. De ITAA-brochure zelf (resources/programma.pdf) — voor structuur en leerdoelen
 7. Online resources, waarvan je dan de juistheid nog moet verifiëren met bovenstaande bronnen
@@ -546,23 +531,11 @@ Elke TDK die verwijst naar een te kennen concept krijgt een link naar de relevan
 
 Een bullet zonder link naar materie is een signaal dat er materie ontbreekt of dat de link nog niet gelegd is.
 
-### "Relevante materie" — volledigheidseis en leesvolgordeconventie
+### "Relevante materie" — volledigheidseis
 
 De sectie onderaan de vakfiche heet **"Relevante materie"** (vroeger: "Concepten"). Ze bevat alle conceptfiches die samen de volledige examenstof voor dit vak dekken.
 
 **Eis**: een student die enkel de "Relevante materie"-lijst doorloopt zonder één TDK-link te volgen, moet toch alle examenstof gezien hebben. De lijst is dus geen subset — ze is compleet.
-
-**Leesvolgordeconventie**: de fiches staan in de volgorde waarin een student ze het best bestudeert — van fundament naar toepassing. De volgorde volgt deze logica:
-
-1. **Juridisch kader** — wie zijn de actoren, welke autoriteiten spelen een rol
-2. **Basisverplichtingen** — wat moet de onderneming doen (boekhoudplicht, aangifteplicht, ...)
-3. **Scharnierbegrippen** — concepten die bepalen welke regels gelden (bv. groottecriteria)
-4. **Uitgewerkte verplichtingen** — wat die regels concreet inhouden (jaarrekening, jaarverslag, ...)
-5. **Beginselen en methodologie** — hoe de regels worden toegepast (boekhoudkundige beginselen)
-6. **Specifieke waarderingsregels** — hoe individuele posten worden berekend
-7. **Analytische technieken** — hoe je de cijfers interpreteert (ratio's, kasstromen)
-
-Binnen elke groep: meer fundamentele concepten vóór afgeleide. Een fiche die een ander concept veronderstelt, staat ná dat concept.
 
 ### Verificatiestap na het schrijven van een vakfiche
 
@@ -630,8 +603,11 @@ Voor elk nieuw concept, in deze volgorde (elke stap door gebruiker valideren):
    - Maak indien nodig een nieuwe ITAA-LEX proxy aan of voeg artikelen toe
    - Gebruik het template materie-fiche
    - **Kritische lezing achteraf** (zie hieronder)
-2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld
-3. **Voorbeeldvragen** — mag 🤖 als gelabeld
+2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld; voeg bij elke berekening of procedure minstens één concreet doorgewerkt voorbeeld toe
+3. **Voorbeeldvragen** — raadpleeg eerst `resources/voorbeeldexamens/`; gebruik echte vragen (📝) prioritair; vul aan met 🤖
+   - **Verplichte eerste stap**: gebruik `pdftotext` om alle PDF's in `resources/voorbeeldexamens/` te doorzoeken op vragen die het concept raken. Grep op sleutelwoorden uit de sectiehoofden.
+   - Echte examenvragen worden letterlijk overgenomen (behoudens vertaling naar het Nederlandstalige calloutformaat) en gelabeld als `📝 *Uit voorbeeldexamen [jaar]*`
+   - Vul aan met 🤖-vragen voor concepten waarvoor geen examenmateriaal beschikbaar is, of om aspecten te testen die niet in de echte examens voorkomen
 4. **Hyperlinks** — semantische doorlezing voor links (zie hieronder)
 
 ### Semantische hyperlinkdoorlezing (stap 4)
@@ -718,30 +694,6 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 ### Stap 5 — Validatie door de gebruiker
 - Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
 - Wanneer gebruiker volledig tevreden is: `wip`-tag verwijderen, `status: geverifieerd`
-
-## Voorbeeldexamens als studiebron
-
-In `resources/voorbeeldexamens/` staan officiële ITAA-bekwaamheidsexamens:
-
-| Bestand | Examen |
-|---------|--------|
-| `2013-1.pdf` | Bekwaamheidsexamen 2013, zitting 1 |
-| `2013-2.pdf` | Bekwaamheidsexamen 2013, zitting 2 |
-| `2014-1.pdf` | Bekwaamheidsexamen 2014, zitting 1 |
-| `2015_1_-_bekwaamheidsexamen_ac_1.pdf` | Bekwaamheidsexamen 2015, zitting 1 |
-| `Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf` | Bekwaamheidsexamen 2024 |
-
-**Twee toepassingen:**
-
-1. **Gaten in de materie opsporen** — lees een examen door en check of elk onderwerp al een materie-fiche heeft. Ontbrekende concepten worden opgelijst en aangemeld bij de gebruiker.
-
-2. **Voorbeeldvragen ophalen** — examenvragen die betrekking hebben op een uitgewerkt concept worden opgenomen als `[!question]-`-callout in de fiche, gelabeld `📝 *Uit voorbeeldexamen [jaar]*`.
-
-**Werkwijze bij het verwerken van een examen:**
-1. Lees de vragen door — per vraag: welk concept (materie-fiche) dekt dit?
-2. Als er geen fiche voor bestaat: noteer als ontbrekend concept
-3. Als er wel een fiche voor bestaat: voeg de vraag toe als voorbeeldvraag (stap 3 van het iteratief werkproces)
-4. Leg eventuele gaten voor aan de gebruiker vóór je nieuwe fiches aanmaakt
 
 ## Quartz: documentatie eerst raadplegen
 
