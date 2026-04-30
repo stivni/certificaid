@@ -14,5 +14,3 @@ node_modules/
 # OS
 .DS_Store
 
-# Wetteksten (grote PDFs, lokaal te bewaren - niet in git)
-resources/wetteksten/
