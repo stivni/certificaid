@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", wip, materie]
+tags: ["4.0", materie]
 niveau: integratie
-status: draft
+status: geverifieerd
 bronnen:
   - Wet ITAA art. 36, 37, 40, 48, 49
   - KMO-controlenorm (ITAA, 18 december 2018)
@@ -151,6 +151,49 @@ De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en ui
 > [!info]- In de praktijk: twee partijen met tegengesteld belang
 >
 > Een accountant begeleidt een vennootschap bij de overdracht van haar aandelen. Nadien vraagt de koper hem ook om zijn boekhouding te voeren. Dat lijkt onschuldig, maar de accountant heeft in het verkoopproces vertrouwelijke informatie over de vennootschap verkregen — informatie die de koper nu indirect toegankelijk maakt via de boekhoudrelatie. Dit is een situatie van potentieel belangenconflict. De beroepsbeoefenaar moet nagaan of objectieve uitvoering van de nieuwe opdracht nog gewaarborgd is.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## 🔒 Verboden bij assurance-opdrachten
+
+Bij [[deontologische-beginselen#-assurance-opdracht|assurance-opdrachten]] gelden drie absolute verboden die de onafhankelijkheid van de beroepsbeoefenaar, zijn kantoor en zijn netwerk bij dezelfde cliënt waarborgen [^kmo-norm].
+
+### Verbod op financiële belangen
+
+De beroepsbeoefenaar mag geen enkel financieel belang hebben in de entiteit waarvoor hij een assurance-opdracht uitvoert. Hij mag ook voor zichzelf of voor zijn minderjarige kinderen geen financiële instrumenten kopen of verkopen die door die entiteit worden uitgegeven of gegarandeerd.
+
+### Verbod op resultaatgebonden honoraria
+
+Honoraria waarvan de hoogte afhankelijk is van het resultaat van de assurance-opdracht zijn verboden — bv. een vergoeding die stijgt naarmate de jaarrekening een beter beeld geeft.
+
+### Verbod op nevendiensten
+
+De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-opdracht wordt uitgevoerd [^kmo-norm]:
+
+| # | Verboden nevendienst | Toelichting |
+|---|---|---|
+| 1° | Managementfuncties | Beslissingen nemen voor of namens de cliënt |
+| 2° | Boekhouding en financiële overzichten | De boekhouding voeren of de jaarrekening opstellen — **absoluut verbod**, ook met 2-jaar terugwerkende kracht |
+| 3° | Interne controle- en risicobeheeringsystemen | Procedures opzetten die verband houden met de financiële verslaggeving |
+| 4° | Waarderingsdiensten | Waardebepaling of actuariële diensten |
+| 5° | Interne controlefunctie | Diensten voor de interne auditfunctie |
+| 6° | Onderhandeling en geschillenregeling | Namens de cliënt onderhandelen, als belangenbehartiger optreden of de cliënt vertegenwoordigen bij fiscale geschillen |
+| 7° | Personeelsdiensten voor leidinggevenden | Rekrutering van topmanagement of herstructurering van de organisatie — **absoluut verbod**, ook met 2-jaar terugwerkende kracht |
+
+**Terugwerkende kracht**: de verboden nevendiensten onder 2° (boekhouding) en 7° (personeelsdiensten) gelden niet enkel tijdens de gecontroleerde periode, maar ook voor de **twee jaar daarvóór**.
+
+> [!warning]- Boekhouding en controle bij dezelfde cliënt zijn "enkel een risico om te beoordelen"
+> ❌ *"Of ik de boekhouding én de controle bij dezelfde cliënt mag doen, hangt af van mijn beoordeling van het zelfcontrolerisico."*
+>
+> Bij assurance-opdrachten is dit **geen afwegingskwestie**: de KMO-controlenorm verbiedt de combinatie van boekhouding (nevendienst 2°) en controle bij dezelfde cliënt **absoluut** — ook met 2 jaar terugwerkende kracht. Er is geen ruimte voor een beoordeling of het risico aanvaardbaar is. De enige oplossing is de combinatie vermijden.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: overschakelen van boekhouder naar controleur
+>
+> Een accountant doet al 3 jaar de boekhouding van een groeibedrijf. Het bedrijf wordt groter en wil een contractuele controleopdracht (assurance). De cliënt vraagt dezelfde accountant. Dat gaat niet: nevendienst 2° (boekhouding) is verboden bij assurance, én met 2 jaar terugwerkende kracht. Zelfs als hij stopt met de boekhouding, mag hij de controleopdracht pas aanvaarden als hij **2 jaar geen boekhouding meer heeft gedaan** voor die cliënt.
 >
 > 🤖 *AI-aanvulling*
 

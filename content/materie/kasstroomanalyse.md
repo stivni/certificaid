@@ -49,9 +49,26 @@ De meest gebruikte manier om de operationele kasstroom te berekenen: vertrekken 
 
 **Resultaat** = Operationele kasstroom
 
-> [!info]- In de praktijk
+> [!info]- In de praktijk: volledig kasstroomoverzicht
 >
-> Een onderneming boekt een winst van € 200.000. Ze heeft € 80.000 aan afschrijvingen (geen kasuitstroom). Maar haar handelsvorderingen zijn gestegen met € 150.000 (klanten betalen trager). Operationele kasstroom: € 200.000 + € 80.000 − € 150.000 = € 130.000. De winst is hoger dan de kasstroom — dat geld zit vast bij klanten.
+> Een productiebedrijf sluit 2024 af met volgende gegevens (in €):
+>
+> | Post | Bedrag | Effect |
+> |------|--------|--------|
+> | Nettowinst | + 320.000 | Startpunt |
+> | Afschrijvingen | + 180.000 | Niet-kascost terug bijgeteld |
+> | Waardeverminderingen (netto) | + 20.000 | Niet-kascost terug bijgeteld |
+> | Stijging voorraden | − 60.000 | Geld uitgestroomd (meer stock) |
+> | Daling handelsvorderingen | + 40.000 | Klanten betaalden sneller |
+> | Stijging leveranciersschulden | + 30.000 | Later betaald aan leveranciers |
+> | **Operationele kasstroom** | **+ 530.000** | |
+> | Aankoop nieuwe machine | − 250.000 | Investering |
+> | **Investeringskasstroom** | **− 250.000** | |
+> | Terugbetaling lening | − 120.000 | Financiering |
+> | **Financieringskasstroom** | **− 120.000** | |
+> | **Nettoverandering kaspositie** | **+ 160.000** | |
+>
+> De winst (€ 320.000) en de operationele kasstroom (€ 530.000) lopen uiteen doordat de afschrijvingen (€ 180.000) en waardeverminderingen (€ 20.000) wel als kost in de winst zitten maar geen kasuitstroom waren. De vrije kasstroom = 530.000 − 250.000 = **€ 280.000**.
 >
 > 🤖 *AI-aanvulling*
 

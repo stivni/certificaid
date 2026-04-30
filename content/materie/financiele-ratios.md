@@ -139,9 +139,44 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 >
 > 🤖 *AI-aanvulling*
 
-> [!info]- In de praktijk
+> [!info]- In de praktijk: liquiditeit
 >
 > Een accountant analyseert twee handelsbedrijven. Bedrijf A: current ratio 2,1, maar voorraden draaien slechts 2× per jaar om en klanten betalen gemiddeld na 120 dagen. Bedrijf B: current ratio 1,2, maar voorraden draaien 12× per jaar en klanten betalen na 15 dagen. Bedrijf B heeft betere liquiditeitsdynamiek ondanks een lagere current ratio. Ratio's zijn startpunten voor analyse, geen einduitspraken.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: ROE en financiële hefboom
+>
+> Bedrijf A en bedrijf B hebben elk een nettowinst van € 200.000. Bedrijf A heeft een eigen vermogen van € 2.000.000 (10% EV-financiering); bedrijf B heeft een eigen vermogen van € 1.000.000 (50% EV-financiering).
+>
+> - ROE bedrijf A = 200.000 / 2.000.000 = **10%**
+> - ROE bedrijf B = 200.000 / 1.000.000 = **20%**
+>
+> Bedrijf B lijkt dubbel zo winstgevend, maar de ROA (rendement op totale activa) is voor beide gelijk: beide bedrijven presteren even goed operationeel. Het verschil in ROE is puur het gevolg van de hogere schuldenlast bij bedrijf A — niet van superieure bedrijfsvoering. Bekijk ROE altijd samen met de graad van financiële onafhankelijkheid.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: werkkapitaalcyclus berekenen
+>
+> Een groothandel heeft volgende gegevens (in €): omzet 5.000.000; voorraden 400.000; handelsvorderingen 600.000; leveranciersschulden 350.000; aankopen 3.000.000.
+>
+> - Omloopsnelheid voorraden = (400.000 / 5.000.000) × 365 = **29 dagen** (voorraden liggen gemiddeld 29 dagen)
+> - Klantenbetalingstermijn (DRO) = (600.000 / 5.000.000) × 365 = **44 dagen** (klanten betalen na 44 dagen)
+> - Leveranciersbetalingstermijn (DPO) = (350.000 / 3.000.000) × 365 = **43 dagen** (de vennootschap betaalt leveranciers na 43 dagen)
+> - Werkkapitaalcyclus = 29 + 44 − 43 = **30 dagen** (er is 30 dagen financieringsbehoefte in de bedrijfscyclus)
+>
+> Als de klanten trager gaan betalen (DRO stijgt naar 60 dagen), wordt de cyclus 29 + 60 − 43 = 46 dagen — de onderneming heeft meer werkkapitaal nodig zonder dat de activiteit verandert.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: EBITDA-marge berekenen
+>
+> Een productiebedrijf heeft: netto-omzet € 10.000.000; EBIT € 1.200.000; afschrijvingen € 800.000; waardeverminderingen € 100.000.
+>
+> - EBITDA = 1.200.000 + 800.000 + 100.000 = **€ 2.100.000**
+> - EBITDA-marge = 2.100.000 / 10.000.000 = **21%**
+>
+> Een distributeur met dezelfde omzet maar nauwelijks eigen activa (huur, weinig afschrijvingen) heeft misschien een EBIT-marge van 18% maar een EBITDA-marge van slechts 19%. De producent en de distributeur zijn dan qua kascreatie (EBITDA-marge) vergelijkbaar, ondanks dat de producent een hogere EBIT-marge lijkt te hebben.
 >
 > 🤖 *AI-aanvulling*
 
@@ -168,6 +203,56 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 > > *Zie: [[financiele-ratios#-liquiditeitsratio-s|Liquiditeitsratio's]]*
 >
 > 🤖 *AI-aanvulling*
+
+> [!question]- Brutoverkoopmarge: welke teller?
+>
+> Een onderneming heeft: netto-omzet € 8.000.000; kostprijs van de verkopen € 6.000.000; bedrijfsresultaat (EBIT) € 500.000; personeelskosten € 1.200.000. Wat is de brutoverkoopmarge?
+>
+> > [!success]- Antwoord
+> >
+> > **Brutoverkoopmarge = 25%**
+> >
+> > Brutomarge = (Omzet − Kostprijs van de verkopen) / Omzet = (8.000.000 − 6.000.000) / 8.000.000 = **2.000.000 / 8.000.000 = 25%**. De EBIT en personeelskosten horen **niet** in de brutomargeberekening — die liggen onder het brutomargepeil. Een veelgemaakte fout is de personeelskosten ook aftrekken van de teller: dat geeft de bedrijfsmarge (EBIT-marge), niet de brutomarge.
+> >
+> > *Zie: [[financiele-ratios#-rentabiliteitsratio-s|Brutomargeverhouding]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- ROE: welk eigen vermogen als basis?
+>
+> Een onderneming sluit het boekjaar af met een nettowinst van € 968.000. Eigen vermogen na winstverdeling: € 10.274.000; eigen vermogen vóór winstverdeling (= begin van het boekjaar): € 8.178.000. De winst wordt integraal gereserveerd. Wat is de ROE?
+>
+> A. 968.000 / 10.274.000 = 9,43%
+> B. 968.000 / 8.178.000 = 11,83%
+>
+> > [!success]- Antwoord
+> >
+> > **B — 11,83%**
+> >
+> > De ROE meet het rendement op het door aandeelhouders geïnvesteerde kapitaal **aan het begin** van de periode — dat is het eigen vermogen vóór toevoeging van de winst van het boekjaar. Het eigen vermogen ná winstverdeling (€ 10.274.000) is de beginbalans plus de gereserveerde winst, en bevat al de winst die werd gegenereerd: die als noemer gebruiken zou het rendement kunstmatig verlagen. De correcte basis is het EV waarop de winst werd behaald.
+> >
+> > *Zie: [[financiele-ratios#-rentabiliteitsratio-s|Return on Equity]]*
+>
+> 📝 *Uit voorbeeldexamen 2015/1*
+
+> [!question]- Voorraadrotatie: welke kostprijs?
+>
+> Een onderneming heeft: kostprijs van verkochte handelsgoederen € 3.457.000; aankoopprijs handelsgoederen € 3.444.000; gemiddelde voorraad (begin + einde / 2) € 1.344.750; eindvoorraad € 530.373. Wat is de voorraadrotatie?
+>
+> A. 3.444.000 / 530.373 = 6,49
+> B. 3.457.000 / 530.373 = 6,52
+> C. 3.457.000 / 1.344.750 = 2,57
+> D. 3.444.000 / 1.344.750 = 2,56
+>
+> > [!success]- Antwoord
+> >
+> > **C — 2,57**
+> >
+> > De voorraadrotatie (aantal keer per jaar dat de voorraad "omgedraaid" wordt) = Kostprijs van verkochte goederen / Gemiddelde voorraad. De **kostprijs van verkochte goederen** (niet de aankoopprijs) is de correcte teller — die omvat ook voorraadwijzigingen. De **gemiddelde voorraad** (niet de eindvoorraad) is de correcte noemer: de eindvoorraad geeft een momentopname en is gevoeliger voor seizoenseffecten. Antwoorden A en B gebruiken de eindvoorraad — dat geeft een te hoge rotatie en is minder betrouwbaar.
+> >
+> > *Zie: [[financiele-ratios#-activiteitsratio-s|Omloopsnelheid voorraden]]*
+>
+> 📝 *Uit voorbeeldexamen 2015/1*
 
 > [!question]- Hoge ROE is altijd positief
 >

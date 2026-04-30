@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", wip, materie]
+tags: ["4.0", materie]
 niveau: integratie
-status: draft
+status: geverifieerd
 bronnen:
   - Wet ITAA art. 5, 8, 36, 37, 43, 52
 itaa-lex: XXI, p. 2604
@@ -19,6 +19,14 @@ Een collega-beroepsbeoefenaar ingeschreven bij het ITAA. De term wordt gebruikt 
 
 ---
 
+## 📌 Gewoonlijke raadgever
+
+De beroepsbeoefenaar die **op recurrente wijze** dezelfde cliënt adviseert en begeleidt — de vertrouwde adviseur die de vennootschap door de jaren heen kent [^gedragslijnen].
+
+Het begrip is relevant bij de samenwerking met leden van het Instituut van de Bedrijfsrevisoren (IBR): wanneer een bedrijfsrevisor de controle uitvoert bij een cliënt die een ITAA-lid als gewoonlijke raadgever heeft, gelden specifieke gedragsregels om verwarring van rollen te vermijden.
+
+---
+
 ## ⚖️ Deontologische gedragsregels tegenover confraters
 
 Uit de algemene [[deontologische-beginselen|deontologische beginselen]] [^art-37] vloeien concrete verplichtingen voort tegenover collega-beroepsbeoefenaars:
@@ -30,6 +38,53 @@ Uit de algemene [[deontologische-beginselen|deontologische beginselen]] [^art-37
 
 ---
 
+## ⚖️ Gedragslijnen bij samenwerking met IBR-leden
+
+Wanneer een ITAA-lid en een bedrijfsrevisor (lid van het IBR) bij dezelfde cliënt betrokken zijn, gelden zes gedragslijnen [^gedragslijnen]. Ze voorkomen rolverwarring, onafhankelijkheidsproblemen en eerloze concurrentie.
+
+**1° Aanvaarding van een controleopdracht**
+
+Vóór aanvaarding van een niet-permanente controleopdracht mag noch de beroepsbeoefenaar zelf, noch iemand met wie hij samenwerkt, zich in de twee voorgaande jaren in een situatie bevonden hebben die zijn [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheid]] bij die cliënt in vraag stelt.
+
+**2° Verzaking aan raadgevende opdracht na controle**
+
+Na het uitvoeren van een controleopdracht bij een cliënt mag de beroepsbeoefenaar — noch iemand uit zijn netwerk — de [[relaties-confraters#-gewoonlijke-raadgever|gewoonlijke raadgever]] van die cliënt opvolgen. Deze verzaking loopt **twee jaar** na de ondertekening van het controleverslag. Een nieuwe controleopdracht aanvaarden is wel toegestaan.
+
+**3° Meningsverschil met een voorganger**
+
+Wanneer een beroepsbeoefenaar de werkzaamheden of de attestering van een collega van een ander instituut op aanzienlijke wijze in vraag stelt, stelt hij de betrokken collega **bij voorkeur schriftelijk** op de hoogte van het meningsverschil — vóór elke mededeling aan de cliënt. De aangesproken collega onderzoekt de opmerkingen en verstrekt een zorgvuldig antwoord.
+
+**4° Contactplicht met de voorganger bij opvolging**
+
+Vóór aanvaarding van een opdracht informeert de beroepsbeoefenaar bij de cliënt of een lid van een ander instituut dezelfde opdracht uitoefent of heeft uitgeoefend in de **voorbije 12 maanden**.
+
+Bij opvolging binnen die 12 maanden: **voorafgaand contact met de voorganger**, ook als de opvolging niet onmiddellijk plaatsvindt. De voorganger is verplicht zijn opvolger in te lichten over alle elementen die, indien gekend, ertoe zouden kunnen leiden dat de opdracht geweigerd wordt — tenzij het beroepsgeheim zich daartegen verzet.
+
+**5° Onbetaalde erelonen van de voorganger**
+
+De opvolger informeert naar de betaling van de **onbetwiste erelonen van zijn voorganger**. Indien nodig dringt hij er bij de cliënt op aan die te betalen.
+
+**6° Overdracht van het dossier**
+
+De voorganger geeft **onverwijld** en **losstaand van de betaling van zijn erelonen** alle documenten vrij die eigendom zijn van de cliënt of die onder de collegiale bijstand vallen.
+
+De voorganger maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door beide partijen (voorganger en opvolger of cliënt).
+
+> [!warning]- Dossier overdragen pas na betaling van erelonen
+> ❌ *"Zolang mijn erelonen niet betaald zijn, hoef ik het dossier niet over te dragen aan mijn opvolger."*
+>
+> De dossieroverdracht staat **los van de betaling van erelonen** — dat zegt het zesde principe expliciet. Openstaande erelonen kunnen langs een andere weg worden ingevorderd, maar geven geen recht om het dossier in te houden van de opvolger. Dit principe overlapt met het algemene verbod op retentierecht ([[relaties-met-clienten#-verplichting-opdrachtbrief|art. 43 Wet ITAA]]).
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: opvolger die navraagt bij voorganger
+>
+> Een cliënt vraagt een ITAA-lid om zijn fiscale dossier over te nemen van een bedrijfsrevisor die de voorbije jaren ook fiscaal advies gaf. Het ITAA-lid heeft contactplicht (4e principe): hij informeert bij de cliënt of de bedrijfsrevisor die opdracht uitoefende in de afgelopen 12 maanden, en neemt daarna contact op met de bedrijfsrevisor. Die vertelt hem dat de samenwerking stopte na een verschil van mening over een twijfelachtige fiscale constructie. Dat is relevante informatie voor de cliëntacceptatiebeslissing.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## 📋 Dossierovername
 
 Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt — vrijwillig (cliënt stapt over) of bij stopzetting van een praktijk — gelden bijzondere aandachtspunten:
@@ -37,10 +92,12 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 **Verplichtingen van de vertrekkende beroepsbeoefenaar:**
 - Geeft op verzoek van de cliënt alle boeken, documenten en gegevens die **toebehoren aan de cliënt onverwijld** terug [^art-43]
 - Er bestaat **geen [[relaties-met-clienten#-verplichting-opdrachtbrief|retentierecht]]**: openstaande erelonen geven geen recht om het dossier in te houden
+- Maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door voorganger en opvolger (of cliënt) [^gedragslijnen]
 
 **Aandachtspunten voor de overnemende beroepsbeoefenaar:**
 - Geen negatieve uitlatingen over de vorige beroepsbeoefenaar
 - Nagaan **waarom** de vorige beroepsbeoefenaar de samenwerking heeft beëindigd — in het bijzonder: zijn er [[antiwitwaswetgeving|antiwitwaswet]]-gerelateerde redenen? Een cliënt overnemen die verlaten werd wegens een verhoogd witwasrisico vergroot het eigen risico
+- Bij een **overname van aandelen** van een erkende rechtspersoon-beroepsbeoefenaar: de bestaande opdrachtbrieven blijven geldig, want de rechtspersoon (de opdrachtnemer) wijzigt niet. Bij een **overname van cliënteel**: de opdracht is intuitu personae (persoonlijk vertrouwen) — er zijn nieuwe opdrachtbrieven nodig voor elke cliënt [^nota-ob]
 
 > [!warning]- Reden van vertrek vorige accountant is niet relevant
 > ❌ *"Of ik een cliënt overneem is mijn beslissing — ik hoef niet te weten waarom de vorige accountant vertrok."*
@@ -143,6 +200,8 @@ Taken:
 Kenniselementen:
 - D.4 — Relaties met confraters
 
+[^gedragslijnen]: Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`
+[^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
 [^art-5]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5]]
 [^art-5-2]: [[itaa-lex-XXI#art-5|Wet ITAA art. 5, tweede lid]]
 [^art-8]: [[itaa-lex-XXI#art-8|Wet ITAA art. 8]]

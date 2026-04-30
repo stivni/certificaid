@@ -63,9 +63,23 @@ De WKB is de financieringsbehoefte die voortvloeit uit de bedrijfscyclus zelf: h
 
 De nettokaspositie toont of de beschikbare kassen de kortlopende financiële verplichtingen kunnen dekken.
 
-> [!info]- In de praktijk
+> [!info]- In de praktijk: NBK, WKB en nettokaspositie berekenen
 >
-> Een groothandel met een NBK van € 800.000 en een WKB van € 1.200.000 heeft een tekort van € 400.000. Dit betekent dat ze voor € 400.000 extra financiering nodig heeft om haar bedrijfscyclus te bekostigen. In de praktijk dekt ze dit door een kaskrediet.
+> Een handelsonderneming heeft (in €):
+>
+> | Actief | | Passief | |
+> |--------|---|---------|---|
+> | Voorraden | 300.000 | Eigen vermogen | 800.000 |
+> | Handelsvorderingen | 400.000 | Langetermijnschulden | 500.000 |
+> | Liquide middelen | 80.000 | Leveranciersschulden | 250.000 |
+> | Vaste activa | 1.200.000 | Kortlopende leningen | 220.000 |
+> | | | Overige KT-schulden | 210.000 |
+>
+> - **NBK** = Vlottende activa − Kortlopend vreemd vermogen = (300 + 400 + 80) − (250 + 220 + 210) = **780.000 − 680.000 = € 100.000** → kleine buffer
+> - **WKB** = Voorraden + Handelsvorderingen − Leveranciersschulden = 300 + 400 − 250 = **€ 450.000** → de bedrijfscyclus vraagt € 450.000 aan financiering
+> - **Nettokaspositie** = Liquide middelen − Kortlopende financiële schulden = 80 − 220 = **− € 140.000** → de kassen dekken de kortlopende financiering niet
+>
+> Interpretatie: het NBK is positief maar smal (€ 100.000); de WKB is aanzienlijk (€ 450.000) — er is een structurele financieringskloof van € 350.000 (WKB − NBK) die door de kortlopende leningen (€ 220.000) en overschot op andere KT-schulden wordt gedekt. De nettokaspositie is negatief: de onderneming leunt op haar kaskrediet.
 >
 > 🤖 *AI-aanvulling*
 

@@ -128,6 +128,20 @@ Kenniselementen:
 >
 > 🤖 *AI-aanvulling*
 
+> [!question]- Kleine BVBA: jaarverslag en waarderingsregels
+>
+> De BVBA XYZ heeft een balanstotaal van € 175.000, vorderingen van € 45.000 en geen personeel. Dient zij haar waarderingsregels te verantwoorden in haar jaarverslag? En indien zij geen jaarverslag moet opstellen: waar horen de waarderingsregels dan thuis?
+>
+> > [!success]- Antwoord
+> >
+> > **Nee** — geen jaarverslag vereist; de waarderingsregels (en eventuele wijzigingen ervan) horen in de **toelichting bij de jaarrekening**.
+> >
+> > De BVBA XYZ is een kleine (en wellicht micro) vennootschap: haar balanstotaal van € 175.000 ligt ruimschoots onder de kleine-drempel van € 6.000.000. Niet-genoteerde kleine vennootschappen zijn [[jaarverslag#-verplichting-en-vrijstelling|vrijgesteld van de jaarverslagplicht]] — een jaarverslag bestaat voor haar niet. De beschrijving van de [[boekhoudkundige-beginselen|waarderingsregels]] — en bij wijziging: de motivering én het effect op vermogen en resultaat — behoort tot de **toelichting** (onderdeel van de jaarrekening).
+> >
+> > *Zie: [[jaarverslag#-verplichting-en-vrijstelling|Verplichting en vrijstelling]]*
+>
+> 📝 *Uit voorbeeldexamen 2013/1*
+
 [^art-3-4]: [[itaa-lex-XV#art-3-4|WVV art. 3:4]]
 [^art-3-6]: [[itaa-lex-XV#art-3-6|WVV art. 3:6]]
 [^art-3-6-1]: [[itaa-lex-XV#art-3-6-1|WVV art. 3:6/1]]

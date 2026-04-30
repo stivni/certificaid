@@ -139,6 +139,25 @@ De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot e
 >
 > 🤖 *AI-aanvulling*
 
+> [!question]- Intercalaire interesten: op actief of als kost?
+>
+> In de boekhouding staat € 125.000 op een wachtrekening als "intercalaire interesten per 31/08/2014 op het investeringskrediet". Welke instructie geeft u als accountant?
+>
+> A. De interesten mogen enkel als financiële kost (rekening 65) worden geboekt.
+> B. De interesten moeten op het actief van de balans worden geboekt.
+> C. De interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt.
+> D. De interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.
+>
+> > [!success]- Antwoord
+> >
+> > **D.**
+> >
+> > Rente op vreemd vermogen mag worden opgenomen in de [[aanschaffingswaarde#-aanschaffingsprijs|aanschaffingswaarde]] van immateriële en materiële vaste activa, maar **enkel voor de periode vóór de bedrijfsklaarheid** van het actief. Het gaat dus om een optie mét voorwaarden — geen absolute vrijheid (C is fout) en geen verplichting (B is fout). Zodra het geïnvesteerde goed operationeel is, wordt rente rechtstreeks als financiële kost geboekt.
+> >
+> > *Zie: [[aanschaffingswaarde#-aanschaffingsprijs|Aanschaffingsprijs — rente op vreemd vermogen]]*
+>
+> 📝 *Uit voorbeeldexamen 2015/1*
+
 Kenniselementen:
 - V.B — Aanschaffingswaarde
 

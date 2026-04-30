@@ -171,17 +171,39 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 ## 🔒 Permanente vorming
 
-Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming [^art-39].
+Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming [^art-39]. De inhoud en het minimumaantal uren worden vastgelegd in de **ITAA-norm permanente vorming** [^norm-pv].
 
-- De inhoud en het minimumaantal uren worden vastgelegd in een **ITAA-norm**
-- Het ITAA houdt toezicht op de naleving
+**Minimum aantal uren** [^norm-pv]:
+- **120 uur** per periode van 3 opeenvolgende kalenderjaren
+- Waarvan minstens **20 uur per kalenderjaar**
+- Waarvan minstens **84 uur per 3 jaar** uit de aandachtsgebieden 1, 2 en 4 samen
 
-**Sanctie**: drie opeenvolgende jaren niet deelnemen leidt tot een **[[itaa-als-instituut#-tuchtstelsel|terechtwijzing]]** door de Raad van het ITAA [^art-85]. Bij geen gevolg kan de Raad de hoedanigheid intrekken.
+**Vier aandachtsgebieden** [^norm-pv]:
+
+| # | Aandachtsgebied | Inhoud |
+|---|---|---|
+| 1 | **Vakinhoudelijk** | Boekhouden, boekhoudrecht, jaarrekeningenrecht, externe controle, fiscaal recht, WVV, enz. |
+| 2 | **Deontologie en antiwitwaswetgeving** | Beroepsethiek, AWW, normen en aanbevelingen ITAA |
+| 3 | **Sociale vaardigheden en management** | Communicatie, managementskills, leiderschapsvaardigheden |
+| 4 | **Kantoororganisatie** | Organisatie en werking van het eigen kantoor |
+
+De beroepsbeoefenaar houdt een goed evenwicht tussen de gebieden. Aandachtsgebied 3 (sociale vaardigheden) telt **niet** mee voor de minimumdrempel van 84 uur.
+
+**Sanctie bij niet-naleving** [^norm-pv]:
+Drie opeenvolgende jaren geen permanente vorming volgen → **[[itaa-als-instituut#-tuchtstelsel|terechtwijzing]]** door de Raad [^art-85].
+Reageert de beroepsbeoefenaar niet binnen **drie maanden** na de terechtwijzing, dan kan de Raad de **hoedanigheid intrekken**.
 
 > [!warning]- Permanente vorming is vrijwillig
 > ❌ *"Bijscholing is een goede gewoonte, maar niet wettelijk verplicht."*
 >
 > Permanente vorming is een **wettelijke verplichting** [^art-39]. Het minimumaantal uren en de inhoud worden vastgelegd in een ITAA-norm. Drie opeenvolgende jaren niet deelnemen leidt tot een terechtwijzing. Reageert de beroepsbeoefenaar niet, dan kan de Raad zijn hoedanigheid intrekken. Het is geen tuchtrechtelijke straf, maar de gevolgen zijn even ernstig.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Aandachtsgebied 3 telt mee voor de 84 uur
+> ❌ *"Ik kan mijn 84 uur minimumvorming volledig invullen met sociale vaardigheidstrainingen (aandachtsgebied 3)."*
+>
+> De minimumdrempel van 84 uur per 3 jaar geldt voor de aandachtsgebieden **1, 2 en 4** samen — aandachtsgebied 3 (sociale vaardigheden) is bewust uitgesloten. Dat gebied telt wel mee voor de totale 120 uur, maar niet voor de kerndrempel.
 >
 > 🤖 *AI-aanvulling*
 
@@ -266,3 +288,4 @@ Kenniselementen:
 [^art-14]: [[itaa-lex-XXI#art-14|art. 14]]
 [^art-39]: [[itaa-lex-XXI#art-39|Wet ITAA art. 39]]
 [^art-85]: [[itaa-lex-XXI#art-85|art. 85, 3°]]
+[^norm-pv]: Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11

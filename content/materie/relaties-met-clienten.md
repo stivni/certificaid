@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", wip, materie]
+tags: ["4.0", materie]
 niveau: integratie
-status: draft
+status: geverifieerd
 bronnen:
   - Wet ITAA art. 38, 40, 41, 42, 43, 44, 45, 46, 47
 itaa-lex: XXI, p. 2604
@@ -84,9 +84,27 @@ Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het r
 
 De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, een opdrachtbrief op [^art-41].
 
-**Aanvullende regels:**
+**Verplichte inhoudselementen** [^nota-ob]:
 
-- Bij een opdracht voor een **rechtspersoon** wijst die rechtspersoon een vertegenwoordiger aan (een natuurlijk persoon die de vereiste hoedanigheid heeft). Die vertegenwoordiger is even aansprakelijk als wanneer hij de opdracht in eigen naam zou vervullen [^art-42]
+| Element | Toelichting |
+|---|---|
+| Identificatie partijen | Naam en hoedanigheid van beroepsbeoefenaar en cliënt |
+| Begindatum | Datum waarop de opdracht aanvangt |
+| Beschrijving en reikwijdte van de opdracht | Wat wordt er precies gedaan en wat niet |
+| Verantwoordelijkheden beroepsbeoefenaar | Waaronder: naleving van de [[deontologische-beginselen|deontologische regels]] |
+| Verantwoordelijkheden cliënt | Toegang tot documenten, medewerking, juistheid van aangeleverde informatie |
+| Aansprakelijkheidsregeling | Draagwijdte van de [[relaties-met-clienten#-aansprakelijkheid|aansprakelijkheid]]; contractuele beperking indien voorzien |
+| Erelonen en betalingsvoorwaarden | Tarief, berekeningswijze, betalingstermijnen |
+| Beëindigingsmodaliteiten | Opzegtermijn en opzegvergoeding indien van toepassing |
+| Bewaring van stukken | Wie bewaart wat, op welke drager, voor hoelang |
+| Geschillenregeling | Hoe meningsverschillen over de opdracht worden beslecht |
+
+**Bijzondere situaties:**
+
+- Bij een opdracht voor een **rechtspersoon** wijst die rechtspersoon een vertegenwoordiger aan (een natuurlijk persoon met de vereiste hoedanigheid). Die vertegenwoordiger is even aansprakelijk als wanneer hij de opdracht in eigen naam zou vervullen [^art-42].
+- Bij een opdracht aan een **rechtspersoon-beroepsbeoefenaar**: de opdrachtbrief wordt ondertekend door de wettelijke vertegenwoordiger(s) van die rechtspersoon — die hoeven zelf geen beroepsbeoefenaar te zijn [^nota-ob].
+- **Dringende prestaties**: de opdrachtbrief moet in principe vóór de opdracht worden opgesteld. Als dat door urgentie niet lukt, is het aangewezen te voorzien dat de opdrachtbrief **retroactief van toepassing** is op de al uitgevoerde prestaties. De beroepsbeoefenaar moet dit achteraf kunnen verantwoorden [^nota-ob].
+
 - Op verzoek van de cliënt geeft de beroepsbeoefenaar alle boeken, documenten en gegevens die aan de cliënt toebehoren **onverwijld** terug [^art-43] — er bestaat geen retentierecht, ook niet bij openstaande facturen
 
 > [!warning]- Opdrachtbrief enkel verplicht bij nieuwe cliënten
@@ -228,6 +246,7 @@ Kenniselementen:
 - D.3 — Relaties met cliënten (opdrachtbrief, erelonen, aansprakelijkheid)
 - D.8 — Aansprakelijkheid
 
+[^nota-ob]: Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`
 [^art-38]: [[itaa-lex-XXI#art-38|Wet ITAA art. 38]]
 [^art-41]: [[itaa-lex-XXI#art-41|Wet ITAA art. 41]]
 [^art-46]: [[itaa-lex-XXI#art-46|Wet ITAA art. 46]]

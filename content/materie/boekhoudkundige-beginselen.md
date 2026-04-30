@@ -196,6 +196,25 @@ Wanneer kosten of opbrengsten in belangrijke mate worden beïnvloed door bedrage
 >
 > 🤖 *AI-aanvulling*
 
+> [!question]- Wijziging afschrijvingsmethode: welke procedure?
+>
+> Onderneming A wil haar afschrijvingspercentages voor machines verlagen wegens een langere economische levensduur. Welke van onderstaande stellingen beschrijft de juiste procedure?
+>
+> A. Ze kan haar afschrijvingsregels niet meer wijzigen zodra ze bepaald zijn bij de oprichting.
+> B. Het bestuursorgaan neemt een formele beslissing en vermeldt de wijziging in de toelichting bij de jaarrekening.
+> C. Het bestuursorgaan neemt een formele beslissing en brengt de fiscus op de hoogte.
+> D. Het bestuursorgaan neemt een formele beslissing, vermeldt in de toelichting de wijziging met verantwoording, én het effect op het vermogen en het resultaat.
+>
+> > [!success]- Antwoord
+> >
+> > **D.**
+> >
+> > Het [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]] laat gemotiveerde wijzigingen toe. De procedure vereist: (1) een formele beslissing van het bestuursorgaan, (2) vermelding in de toelichting van **zowel de wijziging mét verantwoording als het effect op vermogen en resultaat**. Enkel de wijziging melden (optie B) volstaat niet — ook de kwantitatieve impact moet worden toegelicht.
+> >
+> > *Zie: [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie in waarderingsmethoden]]*
+>
+> 📝 *Uit voorbeeldexamen 2013/2*
+
 Kenniselementen:
 - V.A.1 — Voorrang van het beginsel van het getrouw beeld
 - V.A.2 — Relevantiebeginsel en materialiteitsbeginsel

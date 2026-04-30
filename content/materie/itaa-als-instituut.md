@@ -1,9 +1,10 @@
 ---
-tags: ["4.0", wip, materie]
+tags: ["4.0", materie]
 niveau: integratie
-status: draft
+status: geverifieerd
 bronnen:
   - Wet ITAA art. 29, 36, 53, 54, 55-60, 61, 62, 72, 79, 85-93
+  - Procedurereglement AWW art. 118 (ITAA)
 itaa-lex: XXI, p. 2593
 ---
 
@@ -184,6 +185,30 @@ Straffen worden openbaar gemaakt.
 
 ---
 
+## 📋 Maatregelen bij AWW-inbreuken (art. 118)
+
+Naast het algemene tuchtstelsel bestaat er een **apart toezichtsmechanisme voor inbreuken op de [[antiwitwaswetgeving]]**. De Raad van het ITAA kan, bij een met redenen omklede beslissing, de volgende maatregelen opleggen wanneer hij vaststelt dat een onderworpen entiteit de AWW heeft geschonden [^art-118]:
+
+1. Een **publieke verklaring** — met vermelding van de identiteit van de betrokkene en de aard van de inbreuk
+2. Een **bevel tot staken en niet herhalen** van het gedrag
+3. De **tijdelijke of definitieve weglating** uit het openbaar register (of uit de aparte lijst van art. 29 §2)
+4. Een **tijdelijk verbod op managementfuncties** bij onderworpen entiteiten — voor elke persoon met managementverantwoordelijkheid die verantwoordelijk is voor de inbreuk
+
+**Procedure**: onderzoek → schriftelijke kennisgeving → recht op verweermiddelen en inzage dossier → beslissing Raad → beroep bij commissie van beroep (30 dagen) [^art-118].
+
+**Bekendmaking**: de maatregelen worden nominaal gepubliceerd op de website van het ITAA, onmiddellijk na kennisgeving. De informatie blijft **5 jaar** beschikbaar. De Raad kan de bekendmaking uitstellen, anonimiseren of achterwege laten als ze onevenredig zou zijn met de inbreuk.
+
+**Verschil met tuchtstraffen**: de AWW-maatregelen zijn specifiek voor antiwitwasinbreuken en worden opgelegd door de **Raad** (niet door de tuchtcommissie). Ze gelden naast — en cumulatief met — de tuchtstraffen van art. 93.
+
+> [!warning]- AWW-inbreuken worden alleen tuchtrechtelijk behandeld
+> ❌ *"Als ik de antiwitwaswetgeving schend, riskeert de tuchtcommissie mij een tuchtstraf op te leggen — dat is de enige sanctie."*
+>
+> AWW-inbreuken kunnen leiden tot **twee parallelle procedures**: de tuchtprocedure (voor de tuchtcommissie, tuchtstraffen art. 93) én de AWW-maatregelen (door de Raad, art. 118). De Raad kan iemand uit het register laten wissen of een managementverbod opleggen zonder dat de tuchtcommissie tussenkomt. Beide procedures zijn onafhankelijk van elkaar.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[4.0-deontologie|4.0 Deontologische beginselen en antiwitwaswetgeving]]**
@@ -283,4 +308,5 @@ Kenniselementen:
 [^art-93]: [[itaa-lex-XXI#art-93|Wet ITAA art. 93]]
 [^art-94]: [[itaa-lex-XXI#art-94|art. 94–101]]
 [^art-54]: [[itaa-lex-XXI#art-54|Wet ITAA art. 54]]
+[^art-118]: Procedurereglement AWW art. 118 (ITAA) — `resources/normen/procedurereglement-AWW-art118.md`, art. 3 en 5
 [^art-36]: [[itaa-lex-XXI#art-36|Wet ITAA art. 36]]
