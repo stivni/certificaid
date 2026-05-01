@@ -1,35 +1,35 @@
 ---
-tags: ["1.2", materie]
+tags: ["1.2", "1.3", wip, materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen: []
 itaa-lex: ""
 ---
 
-# Jaarrekeninganalyse
+# Jaarrekeninganalyse — begrippen en structuurkennis
 
-Een jaarrekening is meer dan een verplicht document — het is een spiegel van de financiële gezondheid van een onderneming. Wie een jaarrekening wil **lezen en interpreteren**, moet de ruwe cijfers eerst omvormen tot een structuur die vergelijking en beoordeling mogelijk maakt. Dat is de kern van de jaarrekeninganalyse: balans en resultatenrekening **herstructureren**, de voornaamste aggregaten bepalen, en de cijfers contextualiseren.
+Deze fiche bevat de **begrippen en analytische structuren** die de basis vormen voor jaarrekeninganalyse: wat zijn de analytische categorieën, wat betekenen de aggregaten, welke patronen zijn kenmerkend. De **techniek** om de jaarrekening stap voor stap te herstructureren staat in [[jaarrekening-herwerken]]; de techniek om te beoordelen en te adviseren staat in [[financiele-positie-beoordelen]].
 
 ---
 
-## 📌 Herstructurering van de balans
+## 📌 Analytische indeling van de balans
 
-De balans in het wettelijke schema (volledig, verkort of micro) is geordend naar juridische categorieën. Voor analysedoeleinden wordt ze omgevormd naar een **functionele indeling**:
+Voor analysedoeleinden wordt de wettelijke jaarrekening omgevormd van een **juridische** naar een **functionele** indeling. Dit zijn de categorieën die daarbij ontstaan:
 
-**Aan de activazijde:**
-- **Vaste activa** (immaterieel + materieel + financieel): de langetermijninvesteringen
-- **Vlottende activa**: voorraden, vorderingen op korte termijn, liquide middelen
+**Activazijde:**
+- **Vaste activa** (immaterieel + materieel + financieel): langetermijninvesteringen — niet omzetbaar op korte termijn
+- **Vlottende activa**: voorraden + vorderingen op korte termijn + liquide middelen — omzetbaar binnen één bedrijfscyclus
 
-**Aan de passivazijde:**
-- **Eigen vermogen**: kapitaal + reserves + overgedragen resultaat + herwaarderingsmeerwaarden
+**Passivazijde:**
+- **Eigen vermogen**: kapitaal + reserves + overgedragen resultaat + herwaarderingsmeerwaarden — geen terugbetalingsverplichting
 - **Vreemd vermogen op lange termijn**: schulden met looptijd > 1 jaar
-- **Vreemd vermogen op korte termijn**: leveranciersschulden, belastingschulden, kortlopende leningen
+- **Vreemd vermogen op korte termijn**: leveranciersschulden, belastingschulden, kortlopende leningen — vervallen binnen 12 maanden
 
 ---
 
-## 📌 Herstructurering van de resultatenrekening
+## 📌 Resultaatniveaus
 
-De resultatenrekening wordt gereorganiseerd naar functionele niveaus, van bruto naar netto:
+De resultatenrekening kent functionele niveaus, van bruto naar netto:
 
 | Niveau | Omschrijving |
 |--------|-------------|
@@ -85,6 +85,73 @@ De nettokaspositie toont of de beschikbare kassen de kortlopende financiële ver
 
 ---
 
+## 📌 Volgorde van de rubrieken op het passief
+
+Het passief van de balans is geordend naar **toenemende eisbaarheid**: van het minst eisbare (eigen vermogen — geen terugbetalingsverplichting) naar het meest eisbare (schulden op korte termijn — onmiddellijk opeisbaar).
+
+| Volgorde | Rubriek | Eisbaarheid |
+|---|---|---|
+| 1 | Eigen vermogen | Geen — alleen bij liquidatie of dividendbeslissing |
+| 2 | Voorzieningen en uitgestelde belastingen | Onzeker — afhankelijk van toekomstige gebeurtenissen |
+| 3 | Schulden op meer dan één jaar | Laag — vervalt pas na meer dan 12 maanden |
+| 4 | Schulden op ten hoogste één jaar | Hoog — vervalt binnen 12 maanden |
+| 5 | Overlopende rekeningen passief | Hoog — toe te rekenen kosten en over te dragen opbrengsten |
+
+📝 *Voorbeeldexamen 2024: "In welke volgorde zijn rubrieken op Passief van de Balans gerangschikt? → Toenemende eisbaarheid"*
+
+## 🔢 Eigen vermogen in het kortmodel (NBB)
+
+Voor een **kapitaalvennootschap** in het **verkort schema** wordt het eigen vermogen als volgt berekend:
+
+> EV = Geplaatst kapitaal + Uitgiftepremies + Herwaarderingsmeerwaarden + Reserves + Overgedragen winst (of − verlies) + Kapitaalsubsidies
+
+In het kortmodel is het eigen vermogen één gecombineerde rubriek — de afzonderlijke componenten (kapitaal, reserves, enz.) worden niet apart vermeld zoals in het volledig schema.
+
+📝 *Voorbeeldexamen 2024: "JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend"*
+
+🤖 *AI-aanvulling — exacte NBB-coderingen: ⚠️ verifieer via KB 21/10/2018 MAR*
+
+## 🔢 Effect van boekhoudkundige keuzes op ratio's
+
+Boekhoudkundige keuzes beïnvloeden de ratio's zonder de economische realiteit te veranderen. De brutoverkoopmarge is een veelgetoetst voorbeeld.
+
+**Brutoverkoopmarge = Toegevoegde waarde / Netto-omzet**
+
+Afschrijvingen maken deel uit van de **bedrijfskosten** — ze liggen **onder** de brutoverkoopmarge in de resultatenrekening. Een verhoging van afschrijvingen verlaagt het bedrijfsresultaat (EBIT) maar heeft **geen effect** op de brutoverkoopmarge.
+
+| Keuze | Effect op brutoverkoopmarge | Effect op EBIT |
+|---|---|---|
+| Afschrijving verhogen | ❌ Geen | Daalt |
+| Voorraadwaardering verlagen | ✓ Daalt | Daalt |
+| Omzet verhogen | ✓ Stijgt (als marge > 0) | Stijgt |
+
+📝 *Voorbeeldexamen 2024: "Verhoging van de afschrijving op gebouwen heeft het volgende effect op de bruto verkoopmarge → Geen"*
+
+> [!warning]- Afschrijving verhogen verlaagt de brutoverkoopmarge
+> ❌ *"Als Alfa verlieslatend is en de afschrijving verhoogt, zal de brutoverkoopmarge dalen."*
+>
+> Afschrijvingen liggen structureel **onder** het brutomargepeil in de resultatenrekening. De brutoverkoopmarge = (omzet − kostprijs goederen) / omzet. Afschrijvingen zijn bedrijfskosten die pas ná de brutomarge in mindering komen. Ze verlagen EBIT, niet de brutomarge.
+>
+> 📝 *Voorbeeldexamen 2024*
+
+## 🔎 NBK verhogen: hoe?
+
+Een laag netto-bedrijfskapitaal (NBK = vlottende activa − schulden KT) kan verbeterd worden door de teller te verhogen of de noemer te verlagen:
+
+**Vlottende activa verhogen:**
+- Kapitaalverhoging in cash → meer liquide middelen
+- Langetermijnlening aantrekken voor werkkapitaalfinanciering → schulden verschuiven van KT naar LT
+- Vorderingen sneller innen (kortere klantenbetalingstermijn)
+
+**Schulden op korte termijn verlagen:**
+- Kortlopende leningen herfinancieren als langetermijnschuld
+- Leveranciersschulden verlengen (langere betalingstermijnen bedingen)
+- Kortetermijnschulden aflossen met eigen middelen of langetermijnfinanciering
+
+📝 *Voorbeeldexamen 2013/2: "Het netto bedrijfskapitaal van zijn vennootschap is zeer laag. Geef drie voorbeelden hoe hij het kan verhogen."*
+
+🤖 *AI-aanvulling*
+
 ## ⚖️ Contextualisering
 
 Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
@@ -115,6 +182,21 @@ Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
+
+Kenniselementen:
+- Herstructurering van de balans en resultatenrekening
+- Balansaggregaten (NBK, WKB, nettokaspositie)
+
+**[[1.3-analyse-en-kritische-beoordeling-jaarrekening|1.3 Analyse en kritische beoordeling van de jaarrekening]]**
+
+Taken:
+- *Analyse en beoordeling van de financiële situatie aan de hand van de jaarrekeningen, ratio's en kengetallen*
+  - In staat zijn om de jaarrekeningen kritisch te bekijken
+
+Kenniselementen:
+- II.B — Jaarrekening: activa, passiva, resultatenrekening, toelichting
+- II.C.1 — Herwerking van de jaarrekening
+- II.C.2 — Netto-bedrijfskapitaal
 
 ### Voorbeeldvragen
 

@@ -104,6 +104,13 @@ De `wip`-tag volstaat als indicator — géén [WIP]-prefix in de titel.
 
 **Werkwijze materie**: nieuwe conceptfiches starten altijd met `wip`-tag. De tag wordt pas verwijderd (en `status` van `draft` naar `geverifieerd` gezet) wanneer de gebruiker de inhoud valideert. Alleen de gebruiker doet dat.
 
+**Nieuwe inzichten doorvoeren — ook op geverifieerde fiches**: als een architectureel of inhoudelijk inzicht vereist dat een geverifieerde fiche aangepast wordt, voer de wijziging volledig door:
+1. Zet `status` terug naar `draft` en voeg `wip`-tag toe
+2. Voeg een entry toe aan `CHANGELOG.md` met datum, bestandsnaam en reden
+3. Pas alle afhankelijke fiches en links aan
+
+**CHANGELOG.md**: het centrale overzicht van alle wijzigingen aan eerder geverifieerde fiches. Formaat: chronologisch, per sessie gegroepeerd. De gebruiker markeert "geverifieerd tot [datum]" na een verificatieronde — zo weet iedereen welke batch al bekeken is.
+
 ## Bronnen
 
 ### Primaire werkreferentie
@@ -277,11 +284,13 @@ tags: ["X.X", wip, programmaonderdeel]
 
 ### Taak: [omschrijving]
 
-- → [[competentie-fiche-a|Naam competentie A]]
-- → [[competentie-fiche-b|Naam competentie B]] *(⚠️ aan te maken)*
-
 - Doelstelling 1: omschrijving van wat de student moet kunnen
 - Doelstelling 2: omschrijving
+
+#### geïdentificeerde competenties (AI-aanvulling)
+
+- [[competentie-fiche-a|Naam competentie A]]
+- [[competentie-fiche-b|Naam competentie B]] *(⚠️ aan te maken)*
 
 ## Kenniselementen
 
@@ -375,7 +384,7 @@ Enkelvoudig: één bullet (ook al is het er maar één — altijd bullet voor co
 
 **Tips**: `[!tip]` callout voor professionele hints die niet uit een bron komen.
 
-**Stapnamen**: vragen by default ("Welk schema is van toepassing?"), instructies alleen bij berekeningsstappen ("Bereken de current ratio").
+**Stapnamen**: altijd in instructievorm — kort, actief, zonder vraagteken. ✓ "Schema vaststellen", ✓ "Balans herstructureren", ✓ "Ratio berekenen" — ✗ "Welk schema is van toepassing?"
 
 **itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
 
@@ -401,7 +410,7 @@ itaa-lex-secties:
 
 ## Aanbevolen werkwijze
 
-### 1. 🔍 [Vraag of instructie]
+### 1. 🔍 [Stap in instructievorm]
 
 > 📥 **Nodig**:
 > - [input of link naar producerende stap]
@@ -975,6 +984,19 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 | Vergelijking staat vóór de begrippen | Tabel pas na introductie van alle betrokken concepten |
 | Twee secties over hetzelfde thema | Samenvoegen tot één sectie |
 | Eén sectie over twee ongerelateerde thema's | Opsplitsen in twee secties |
+
+### Feedback als verbeterimpuls
+
+Wanneer de gebruiker inhoudelijke feedback geeft — iets was fout, onvolledig, te vaag of ontbrak — stel jezelf onmiddellijk de vraag: **"Hoe had ik dit zelf kunnen detecteren?"**
+
+Als er een antwoord is op die vraag, voeg je een concrete verificatiestap toe in de meest relevante sectie van CLAUDE.md:
+- Een denkfout over een begrip → regel in §Kritische lezing
+- Een bron die ontbrak of verkeerd geclassificeerd was → regel in §Wettekstverificatie of §Bronintegriteit
+- Een structuurprobleem in een fiche → regel in §Kritische lezing structuurtabel
+- Een granulariteits- of classificatiefout bij competenties → kwaliteitscheck in §Stap 3B
+- Een ontbrekend concept dat tijdens Stap 2A/2B had moeten opduiken → kwaliteitscheck in §Stap 2A of §Stap 2B
+
+Doel: de feedback van vandaag wordt de zelfcheck van morgen. Dit houdt de verificatiestappen actueel en voorkomt dat dezelfde fout zich herhaalt.
 
 ## Technisch
 

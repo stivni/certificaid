@@ -13,7 +13,7 @@ Aan de hand van een jaarrekening de financiële gezondheid van een onderneming b
 
 ## Aanbevolen werkwijze
 
-### 1. 🎯 Wat is het doel van deze analyse?
+### 1. 🎯 Analysedoel bepalen
 
 Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoordeel is. Stel dit vast vóór je berekent — een analyse zonder doel leidt tot een opsomming van getallen zonder conclusie.
 
@@ -43,7 +43,7 @@ De wettelijke jaarrekening is opgesteld voor juridische en fiscale doeleinden, n
 >
 > 🤖 *AI-aanvulling*
 
-### 3. 🔀 Welke ratio's zijn relevant voor dit doel?
+### 3. 🔀 Relevante ratio's selecteren
 
 Kies de ratio's op basis van het analysedoel uit stap 1. Er bestaat geen universele set — de keuze is een professioneel oordeel dat je motiveert.
 
@@ -71,7 +71,7 @@ Pas de formules toe op de hergestructureerde cijfers uit stap 2.
 
 → **Uitkomst**: berekende waarden per geselecteerde ratio
 
-### 5. 📊 Wat betekenen de uitkomsten in deze context?
+### 5. 📊 Uitkomsten interpreteren
 
 Dit is de diagnose. Een getal zonder referentiepunt zegt niets. Vergelijk langs drie assen:
 
@@ -106,7 +106,7 @@ Typische spanningsvelden die om interpretatie vragen:
 >
 > 🤖 *AI-aanvulling*
 
-### 6. 💬 Tot welk oordeel kom je?
+### 6. 💬 Oordeel formuleren
 
 Synthese van alle bevindingen. Een volledig oordeel:
 - Beoordeelt elke dimensie afzonderlijk (sterk / zwak / gemengd)

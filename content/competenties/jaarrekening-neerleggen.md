@@ -13,7 +13,7 @@ De goedgekeurde jaarrekening tijdig en volledig neerleggen bij de NBB.
 
 ## Aanbevolen werkwijze
 
-### 1. 🔍 Geldt er een neerleggingsplicht?
+### 1. 🔍 Neerleggingsplicht vaststellen
 
 Belgische vennootschappen en rechtspersonen onderworpen aan het WVV zijn neerleggingsplichtig (WVV art. 3:9–3:10). Voor de meeste entiteiten waarmee een beroepsbeoefenaar werkt, is het antwoord ja.
 
@@ -23,7 +23,7 @@ Belgische vennootschappen en rechtspersonen onderworpen aan het WVV zijn neerleg
 
 → **Uitkomst**: neerleggingsplicht van toepassing (ja/nee)
 
-### 2. 🔀 Is de jaarrekening goedgekeurd door de AV?
+### 2. 🔀 AV-goedkeuring verifiëren
 
 Neerlegging kan pas na goedkeuring door de algemene vergadering. De AV moet plaatsvinden uiterlijk 6 maanden na afsluiting van het boekjaar.
 
@@ -58,7 +58,7 @@ Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 >
 > 🤖 *AI-aanvulling*
 
-### 4. 🔀 Welke documenten moeten neergelegd worden?
+### 4. 🔀 Neer te leggen documenten bepalen
 
 | Document | Verplicht voor |
 |---|---|

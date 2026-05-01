@@ -13,7 +13,7 @@ Het toepasselijke jaarrekeningschema en de afgeleide wettelijke verplichtingen v
 
 ## Aanbevolen werkwijze
 
-### 1. 🔍 Welk type entiteit is dit?
+### 1. 🔍 Entiteitstype vaststellen
 
 Het entiteitstype bepaalt welke WVV-artikelen van toepassing zijn en welke drempelwaarden gelden voor de groottecategorie.
 
@@ -25,7 +25,7 @@ Het entiteitstype bepaalt welke WVV-artikelen van toepassing zijn en welke dremp
 
 → **Uitkomst**: entiteitstype vastgesteld
 
-### 2. 🔀 Valt deze situatie onder het WVV-jaarrekeningrecht?
+### 2. 🔀 WVV-toepasselijkheid controleren
 
 Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd.
 
@@ -42,7 +42,7 @@ Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd
 >
 > 🤖 *AI-aanvulling*
 
-### 3. 🔀 Wat is de groottecategorie?
+### 3. 🔀 Groottecategorie bepalen
 
 De groottecategorie is het scharnier voor alle volgende stappen. Voer de groottebepaling uit: [[groottecriteria-vennootschappen-verenigingen]].
 
@@ -68,7 +68,7 @@ Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijzig
 >
 > 🤖 *AI-aanvulling*
 
-### 4. 🔀 Welk schema is van toepassing?
+### 4. 🔀 Toepasselijk schema bepalen
 
 | Categorie | Schema | Grondslag |
 |---|---|---|
@@ -78,7 +78,7 @@ Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijzig
 
 → **Uitkomst**: schema vastgesteld
 
-### 5. 🔀 Is er een jaarverslagverplichting?
+### 5. 🔀 Jaarverslagverplichting controleren
 
 Kleine vennootschappen zonder beursgenoteerde effecten zijn vrijgesteld (WVV art. 3:4–3:6). Voor de grote meerderheid van kmo's geldt dus geen jaarverslagplicht.
 
@@ -88,7 +88,7 @@ Zie voor inhoudsvereisten: [[jaarverslag]].
 
 → **Uitkomst**: jaarverslag verplicht (ja/nee)
 
-### 6. 🔀 Is er een commissarisverplichting?
+### 6. 🔀 Commissarisverplichting controleren
 
 Niet-genoteerde kleine vennootschappen zijn niet verplicht een commissaris aan te stellen (WVV art. 3:72). Voor de meeste kmo's geldt de verplichting dus niet.
 
