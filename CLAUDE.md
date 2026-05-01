@@ -264,7 +264,11 @@ Eenmalig werk dat daarna Read/grep-opzoekwerk vervangt. Zodra een wettekst als `
 
 De programmaonderdeel-fiche is een catalogus. De officiële ITAA-tekst staat ongewijzigd. Taken linken naar competentie-fiches; kenniselementen linken naar materie-fiches. De aggregatielijsten onderaan zijn een navigatiehulp — ze worden gevuld als aggregatie van de inline links.
 
-**Conventie `→ [[...]]`**: de pijl bij een taak is de link naar de competentie-fiche. Geen prefix "Competentie:" — de pijl volstaat. Als de fiche nog niet bestaat, gebruik de geplande bestandsnaam als placeholder: `→ [[geplande-bestandsnaam|Naam van de competentie]] *(⚠️ aan te maken)*`.
+**Officiële tekst ongewijzigd**: de taak-omschrijving en doelstellingen worden verbatim overgenomen uit de brochure — geen parafrases, geen verkorting. De AI-aanvulling (geïdentificeerde competenties) staat in een aparte `#### Geïdentificeerde competenties` sub-sectie, expliciet gescheiden van de officiële tekst.
+
+**Competenties op taakniveau, niet op doelstellingniveau**: de koppeling taak → competentie is N-N. Eén competentie kan meerdere doelstellingen bedienen, en één doelstelling kan meerdere competenties vereisen. Doelstellingen zijn input voor de redenering, niet de koppellaag. Als een competentie voor meerdere taken relevant is, mag ze in meerdere taken-secties verschijnen — dat is geen duplicatie, dat is de realiteit van een herbruikbare competentie.
+
+**Conventie `→ [[...]]`**: de pijl in de competentielijst is het semantische marker. Als de fiche nog niet bestaat: `→ [[geplande-bestandsnaam|Naam van de competentie]] *(⚠️ aan te maken)*`.
 
 **Kenniselementen zonder materie-link**: laat het item staan als gewone tekst met `*(⚠️ materie aan te maken)*`. Zo is de gap direct zichtbaar bij verificatie.
 
@@ -292,15 +296,15 @@ tags: ["X.X", wip, programmaonderdeel]
 
 ## Taken en doelstellingen
 
-### Taak: [omschrijving]
+### Taak: [omschrijving verbatim uit brochure]
 
-- Doelstelling 1: omschrijving van wat de student moet kunnen
-- Doelstelling 2: omschrijving
+- [doelstelling 1 verbatim uit brochure]
+- [doelstelling 2 verbatim uit brochure]
 
-#### geïdentificeerde competenties (AI-aanvulling)
+#### Geïdentificeerde competenties
 
-- [[competentie-fiche-a|Naam competentie A]]
-- [[competentie-fiche-b|Naam competentie B]] *(⚠️ aan te maken)*
+- → [[competentie-fiche-a|Naam competentie A]]
+- → [[competentie-fiche-b|Naam competentie B]] *(⚠️ aan te maken)*
 
 ## Kenniselementen
 
