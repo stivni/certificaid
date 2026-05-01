@@ -1,15 +1,43 @@
 # Certificaid
 
-Kennisbank voor het ITAA bekwaamheidsexamen (gecertificeerd accountant / gecertificeerd belastingadviseur).
+Kennisbank voor het ITAA bekwaamheidsexamen voor Gecertificeerd Accountant.
 
-## Doel
-Gestructureerde studiematerie die:
-- Georganiseerd is rond reële fenomenen en coherente studieonderwerpen — niet rond vakken of wetsartikelen
-- Vakoverschrijdend is (één concept kan in meerdere vakken voorkomen)
-- Terugkoppelt naar de TDKs uit de officiële ITAA-brochure
-- Alleen verifieerbare informatie bevat (bronvermelding verplicht)
+## Context
 
-## Drie lagen studiemateriaal
+### Probleemstelling
+
+ITAA levert voor het bekwaamheidsexamen geen cursusmateriaal. Wél een officieel programma met Taken, Doelstellingen en Kenniselementen (TDKs) per vak, een niveaubepaling per vak, en een opgave van wat de student bij het examen bij heeft. Dit project destilleert uit dat programma — aangevuld met wetteksten, normen, voorbeeldexamens en indien nodig AI-redenering — het studiemateriaal dat ontbreekt.
+
+### Doelpubliek
+
+De conceptfiches zijn studiemateriaal voor mensen Stagiairs Gecertificeerd Accountant. Of gelijkgestelden door ervaring.  
+Die kennen al iets van de boekhoudkundige en fiscale wereld (bv. via opleiding of praktijk), maar ze zijn geen juristen.
+
+### Info over het examen
+
+Tijdens het bekwaamheidsexamen mag de student gebruiken:
+- **ITAA-LEX** — de volledige wettekstenbundel (genummerde secties, paginanummers)
+- **Cijferzakboekje** — geactualiseerde/geïndexeerde bedragen, tarieven en drempelwaarden
+
+**Gevolg voor de fiches**: exacte bedragen en tarieven hoeven niet uit het hoofd gekend te zijn — de student kan ze opzoeken. Wat wél getoetst wordt en dus centraal staat in onze fiches:
+- Het **concept** begrijpen: wanneer is iets van toepassing, waarom, op wie?
+- **Weten waar** je iets terugvindt in ITAA-LEX (sectie + onderwerp)
+- **Randgevallen en uitzonderingen** herkennen — die staan minder prominent en worden specifiek bevraagd
+- **Conceptuele valkuilen**: niet "verkeerd bedrag", maar "verkeerde redenering" — bv. denken dat een omweg via het postkantoor de contantengrens omzeilt
+
+Valkuilen in de fiches gaan dus over **verkeerde concepten**, niet over verkeerde cijfers.
+
+### Niveaubepalingen
+
+| Niveau | Wat de student kan | Typische examenvraag |
+|--------|-------------------|----------------------|
+| **weten-en-inzien** | Het concept benoemen en uitleggen: definitie, toepassingsgebied, waarom het bestaat | "Wat is X?" / "Welke stelling over X is juist?" |
+| **toepassen** | Het concept correct gebruiken in een concrete situatie: berekening, boeking, procedure uitvoeren | "Bereken X" / "Hoe boek je Y?" / "Welke stappen volg je?" |
+| **integratie** | Meerdere concepten combineren om een complexe vraag te beantwoorden: advies geven, diagnose stellen, afwegen | "Adviseer de cliënt" / "Wat zijn de gevolgen van X voor Y en Z?" |
+
+## Aanpak
+
+### Drie lagen studiemateriaal
 
 Het bekwaamheidsexamen toetst bekwaamheid = het vermogen om technieken correct toe te passen in onbekende situaties. Daarvoor zijn drie soorten studiemateriaal nodig:
 
@@ -25,7 +53,15 @@ Een competentie is zelfstandig toetsbaar op het examen en combineert meerdere ma
 
 **Motiveringsstructuur**: elk antwoord op integratieniveau volgt **conclusie → grondslag → redenering**. Dit is een globale stelregel — niet herhalen in individuele fiches.
 
+### Materie vs. competentie
+
 **Canonieke thuisplaats**: elk stuk inhoud heeft één vaste plek — materie of competentie, nooit beide.
+
+**Onzekere overlap tussen concepten**: behandel apart en documenteer de twijfel (`⚠️ mogelijke overlap met [[andere-fiche]]`). Niet vooraf samenvoegen op basis van een vermoeden — de inhoudelijke controle bij Stap 4 vindt incoherenties vanzelf.
+
+**Zeker hetzelfde concept**: zet in dezelfde fiche. Coherentieproblemen worden opgelost in de verificatiestap, niet door te splitsen.
+
+**Naamgeving competenties**: altijd een werkwoord + object, actiegericht. ✓ `continuiteit-beoordelen`, ✓ `jaarrekening-herwerken` — ✗ `falingspredictie-beoordelen` (substantief + werkwoord).
 
 | Hoort in materie | Hoort in competentie |
 |---|---|
@@ -37,7 +73,7 @@ Een competentie is zelfstandig toetsbaar op het examen en combineert meerdere ma
 
 Een competentie citeert materie kort als context voor een stap, maar de volledige uitleg staat altijd in de materie-fiche. Omgekeerd vermeldt een materie-fiche niet hoe de informatie in een taakcontext gebruikt wordt — dat is de rol van de competentie.
 
-## Terminologie
+### Terminologie
 
 | Term | Betekenis |
 |------|-----------|
@@ -46,60 +82,31 @@ Een competentie citeert materie kort als context voor een stap, maar de volledig
 | **Competentie** | Techniekefiches: hoe je meerdere kenniselementen combineert voor een taak — in `content/competenties/` |
 | **Concept / fenomeen** | Één coherent studieonderwerp met een eigen fiche in `content/materie/` |
 
-## Structuur
-```
-certificaid/
-├── CLAUDE.md
-├── quartz.config.ts        # Quartz-configuratie (titel, plugins, baseUrl)
-├── quartz.layout.ts        # Quartz-layout (sidebar, zoeken, backlinks)
-├── quartz/                 # gitignored — copy van node_modules na `npm install`
-├── package.json            # devDependency: @jackyzha0/quartz van GitHub
-├── .gitignore
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # Build & deploy naar GitHub Pages bij push op main
-├── content/
-│   ├── index.md
-│   ├── programmaonderdelen/ # Catalogus: per vak welke competenties + materie + synthese-oefeningen
-│   ├── competenties/        # Technieken: aanbevolen werkwijze per toetsbaar vaardigheidtype
-│   ├── materie/             # Kennis: één concept/fenomeen per fiche
-│   └── wetteksten/          # Wetgeving als doorzoekbare content — primaire bron voor materie
-│       ├── index.md         # Overzicht alle secties met status en links
-│       ├── XVII-antiwitwaswet.md
-│       ├── XXI-wet-itaa.md
-│       ├── XIII-wer/        # WER gesplitst per Boek
-│       └── ...              # Overige secties (✅ beschikbaar of ⏳ placeholder)
-│   # Toekomstig: bronnen/normen/ (ITAA-normen) en bronnen/adviezen/ (CBN) — nog aan te maken
-├── tools/
-└── resources/
-    ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
-    ├── programma.pdf            # ITAA-brochure bekwaamheidsexamen (gitignored)
-    ├── wetteksten/
-    │   ├── *.md                 # Gestructureerde wetteksten — primaire referentie (zie §Lokale wetteksten)
-    │   ├── status.md            # Download-status en todo voor ontbrekende wetteksten
-    │   └── raw/                 # Gitignored: ruwe PDFs en tussentijdse .txt-bestanden
-    ├── normen/
-    │   ├── *.md                 # ITAA-normen als gestructureerde markdown
-    │   └── raw/                 # Gitignored: bron-PDFs
-    └── voorbeeldexamens/        # Gitignored: PDF's van vroegere examens
-```
+Kenniselement-IDs komen uit de officiële brochure (april 2022):
+- 1.1 t.e.m. 1.9 = accountancy
+- 2.1 t.e.m. 2.8 = fiscaal
+- 3.1, 3.2 = vennootschapsrecht
+- 4.0 = deontologie
 
-### Publicatie
-- Site: https://stivni.github.io/certificaid
-- Lokaal testen: `npm install && npm run dev` → http://localhost:8080
-- Deploy triggert automatisch bij wijzigingen in `content/`, `quartz.config.ts` of `quartz.layout.ts`
+### Status en tags
 
-## Absolute regel: geen hallucinaties in de materie
-Dit is de belangrijkste regel van het hele project.
+Programmaonderdeel-fiches en materie-fiches gebruiken tags om hun status aan te geven in de Explorer:
 
-- Elk feit, elke definitie, elk wetsartikel in de **materie-secties** moet traceerbaar zijn naar een concrete bron
-- Schrijf NOOIT iets over wetsinhoud zonder een bronverwijzing
-- Als je een concept niet met zekerheid kunt onderbouwen vanuit een bron: zeg dat expliciet, vul het veld NIET in, en markeer het als `⚠️ te verifiëren`
-- Liever een leeg veld dan een onzeker feit
+| Tags | Betekenis | Zichtbaar in Explorer |
+|------|-----------|----------------------|
+| `[wip]` | Actief in behandeling | **Ja** |
+| `[wip, verborgen]` | Nog niet behandeld (onderdelen die nog niet aan bod komen) | **Nee** |
+| *(geen wip-tag)* | Voltooid en geverifieerd door de gebruiker | **Ja** |
 
-**Uitzondering — valkuilen en voorbeeldvragen**: hier zijn AI-gegenereerde aannames toegestaan, op voorwaarde dat ze duidelijk gelabeld zijn met 🤖. De student weet dan dat dit een redenering is op basis van het concept, niet een geciteerde examenvraag of gedocumenteerde valkuil. De materie zelf waarop de valkuil of vraag gebaseerd is, blijft wel brongebonden.
+De `wip`-tag volstaat als indicator — géén [WIP]-prefix in de titel.
 
-## Bronnen — primaire werkreferentie
+**Werkwijze programmaonderdelen**: wanneer we een vak beginnen te behandelen, verwijder de `verborgen`-tag. De `wip`-tag blijft staan tot de gebruiker valideert.
+
+**Werkwijze materie**: nieuwe conceptfiches starten altijd met `wip`-tag. De tag wordt pas verwijderd (en `status` van `draft` naar `geverifieerd` gezet) wanneer de gebruiker de inhoud valideert. Alleen de gebruiker doet dat.
+
+## Bronnen
+
+### Primaire werkreferentie
 
 Bronnen staan in twee plaatsen:
 - **`resources/`**: bronbestanden voor verificatie en opzoekwerk — doorzoekbaar met `grep` of `Read`
@@ -128,10 +135,10 @@ Bronnen staan in twee plaatsen:
 
 **Werkwijze bij het schrijven van materie:**
 1. Grep eerst in `resources/wetteksten/*.md` op artikelnummer of sleutelwoord
-2. Citeer het artikel inline via een wikilink naar `content/wetteksten/` (zie §Bronvermelding)
+2. Citeer het artikel inline via een wikilink naar `content/wetteksten/` (zie §Bronvermelding in fiches)
 3. Ga enkel online als de wet niet lokaal beschikbaar is
 
-## Bronhiërarchie
+### Bronhiërarchie
 
 De bronhiërarchie verschilt per laag.
 
@@ -150,53 +157,398 @@ De bronhiërarchie verschilt per laag.
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
 6. Geconstrueerde kennis — altijd 🤖 labelen
 
+**Voor beide:**
+- De ITAA-brochure (resources/programma.pdf) — voor structuur en leerdoelen
+- Cijferzakboekje — voor geïndexeerde bedragen en tarieven
+- Online resources — altijd verifiëren met bovenstaande bronnen
+
 **Werkwijze bij het schrijven van een competentie:**
 1. Zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft — dat is dan de primaire bron, geen constructie
 2. Grep in `resources/normen/` en `resources/adviezen/` op het trefwoord
 3. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
 4. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
 
-**Voor beide:**
-- De ITAA-brochure (resources/programma.pdf) — voor structuur en leerdoelen
-- Cijferzakboekje — voor geïndexeerde bedragen en tarieven
-- Online resources — altijd verifiëren met bovenstaande bronnen
+### Bronvermelding in fiches
 
-## Examensituatie — wat de student bij heeft
+**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/wetteksten/`:
+- `([[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]])` — springt direct naar Art. 37 in de Wet ITAA
+- `([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]])` — springt direct naar Art. 47 in de AWW
+- `([[wetteksten/XIII-wer/boek-iii#art-iii-82|WER art. III.82]])` — WER split per Boek
 
-Tijdens het bekwaamheidsexamen mag de student gebruiken:
-- **ITAA-LEX** — de volledige wettekstenbundel (genummerde secties, paginanummers)
-- **Cijferzakboekje** — geactualiseerde/geïndexeerde bedragen, tarieven en drempelwaarden
+**Links altijd naar artikel-anker**, nooit naar het algemene wettekst-document: `[[wetteksten/XXI-wet-itaa#art-37|...]]` en niet `[[wetteksten/XXI-wet-itaa|...]]` wanneer je een specifiek artikel bedoelt.
 
-**Gevolg voor de fiches**: exacte bedragen en tarieven hoeven niet uit het hoofd gekend te zijn — de student kan ze opzoeken. Wat wél getoetst wordt en dus centraal staat in onze fiches:
-- Het **concept** begrijpen: wanneer is iets van toepassing, waarom, op wie?
-- **Weten waar** je iets terugvindt in ITAA-LEX (sectie + onderwerp)
-- **Randgevallen en uitzonderingen** herkennen — die staan minder prominent en worden specifiek bevraagd
-- **Conceptuele valkuilen**: niet "verkeerd bedrag", maar "verkeerde redenering" — bv. denken dat een omweg via het postkantoor de contantengrens omzeilt
+**Ankers in wetteksten**: Quartz strips speciale tekens (`:`, `.`, `/`) volledig — ze worden NIET omgezet naar koppeltekens. Spaties worden wél koppeltekens:
+- `## Art. 47` → `#art-47`
+- `## Art. 1:24` (WVV) → `#art-124` (colon verdwijnt)
+- `## Art. 3:23` (KB WVV) → `#art-323`
+- `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
 
-Valkuilen in de fiches gaan dus over **verkeerde concepten**, niet over verkeerde cijfers.
+**Ankers voor sectielinks in materie-fiches**: Quartz genereert ankers door de heading te slugifyen: emoji worden verwijderd **maar de spatie erna blijft** (en wordt een streepje), spaties worden koppeltekens, alles wordt lowercase, en **geaccentueerde tekens worden behouden**.
 
-## Status van programmaonderdelen en materie
+Dit betekent dat elke sectie met een emoji-heading een **leading dash** krijgt:
+- Heading `## 📌 Witwassen van geld` → anker `#-witwassen-van-geld`
+- Heading `## 🔒 Meldingsplicht` → anker `#-meldingsplicht`
+- Heading `## 📌 Cel voor Financiële Informatieverwerking (CFI)` → anker `#-cel-voor-financiële-informatieverwerking-cfi`
 
-Programmaonderdeel-fiches en materie-fiches gebruiken tags om hun status aan te geven in de Explorer:
+Let op:
+- Link: `[[antiwitwaswetgeving#-witwassen-van-geld|...]]` ✓
+- Link: `[[antiwitwaswetgeving#witwassen-van-geld|...]]` ✗ (leading dash ontbreekt)
+- Geaccentueerde tekens (ë, é, ij...) worden **niet** omgezet naar ASCII: gebruik `financiële` niet `financiele`
 
-| Tags | Betekenis | Zichtbaar in Explorer |
-|------|-----------|----------------------|
-| `[wip]` | Actief in behandeling | **Ja** |
-| `[wip, verborgen]` | Nog niet behandeld (onderdelen die nog niet aan bod komen) | **Nee** |
-| *(geen wip-tag)* | Voltooid en geverifieerd door de gebruiker | **Ja** |
+**Uitzondering**: wettekst-headings (`## Art. X`) hebben geen emoji en dus geen leading dash → anker is gewoon `#art-x`.
 
-De `wip`-tag volstaat als indicator — géén [WIP]-prefix in de titel.
+**Geen aparte "Bronnen en artikelen"-sectie** — bronverwijzingen staan inline in de tekst, direct na de feitelijke bewering. Een aparte sectie onderaan is redundant en niet onderhoudbaar.
 
-**Werkwijze programmaonderdelen**: wanneer we een vak beginnen te behandelen, verwijder de `verborgen`-tag. De `wip`-tag blijft staan tot de gebruiker valideert.
+**Geen links naar lokale PDF's** — altijd via de wetteksten in `content/wetteksten/` of een publieke online bron.
 
-**Werkwijze materie**: nieuwe conceptfiches starten altijd met `wip`-tag. De tag wordt pas verwijderd (en `status` van `draft` naar `geverifieerd` gezet) wanneer de gebruiker de inhoud valideert. Alleen de gebruiker doet dat.
+### Bronintegriteit en AI-labeling
 
-## Doelpubliek en schrijfstijl
-De conceptfiches zijn studiemateriaal voor mensen die al iets van de boekhoudkundige en fiscale wereld kennen (bv. via opleiding of praktijk), maar geen juristen zijn.
+Dit is de belangrijkste regel van het hele project.
+
+- Elk feit, elke definitie, elk wetsartikel in **materie-secties** moet traceerbaar zijn naar een concrete bron
+- Schrijf NOOIT iets over wetsinhoud zonder een bronverwijzing
+- Als je een concept niet met zekerheid kunt onderbouwen vanuit een bron: zeg dat expliciet en markeer het als `⚠️ te verifiëren`
+- Liever een leeg veld dan een onzeker feit
+
+**Uitzondering — valkuilen, voorbeeldvragen en competentie-heuristieken**: hier zijn AI-gegenereerde aannames toegestaan, op voorwaarde dat ze duidelijk gelabeld zijn met 🤖. De student weet dan dat dit een redenering is op basis van het concept, niet een geciteerde bron.
+
+### Tegenstrijdige bronnen
+
+De bronhiërarchie zegt welke bron zwaarder weegt. Als twee bronnen elkaar tegenspreken:
+
+- Vermeld **beide standpunten expliciet** — schrijf nooit één versie alsof het de enige waarheid is
+- Geef aan welke bron hogere rang heeft volgens de bronhiërarchie
+- Markeer het veld als `⚠️ te verifiëren`
+- Voorbeeld: "Volgens [bron A] geldt X (rang 1). Volgens [bron B] geldt Y (rang 4). ⚠️ te verifiëren — bron A heeft hogere rang maar bron B is recenter."
+
+### Wettekst lokaal toevoegen
+
+Eenmalig werk dat daarna Read/grep-opzoekwerk vervangt. Zodra een wettekst als `.md` beschikbaar is, gebruik je **nooit meer pdftotext** maar altijd **Read** of **grep** op het `.md`-bestand.
+
+**Wanneer**: als een wettekst ontbreekt in `resources/wetteksten/` of slechts als placeholder bestaat.
+
+**Proces:**
+1. Download de gecoördineerde versie als PDF:
+   - Belgische wetgeving → [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
+   - Fiscale teksten (WIB92, WBTW) → [fisconet.be](http://fisconet.be)
+   - Bewaar als `resources/wetteksten/raw/NAAM.pdf`
+2. Converteer naar tekst: `pdftotext resources/wetteksten/raw/NAAM.pdf - > /tmp/wet.txt`
+3. Structureer als Markdown:
+   - Bewaar als `resources/wetteksten/NAAM.md`
+   - Heading: `# Korte naam (gecoördineerde versie datum)`
+   - Artikel-headings exact: `## Art. X` — geen variaties, zodat ankers voorspelbaar zijn
+   - Verwijder paginanummers, kolomkoppen en herhaalde titels
+4. Maak een site-versie aan: `content/wetteksten/NAAM.md` (dezelfde structuur, zichtbaar op de site)
+5. Voeg een rij toe aan de tabel in §Primaire werkreferentie
+
+## Programmaonderdeel-fiches
+
+### Structuur
+
+De programmaonderdeel-fiche is een catalogus. De officiële ITAA-tekst staat ongewijzigd. Taken linken naar competentie-fiches; kenniselementen linken naar materie-fiches. De aggregatielijsten onderaan zijn een navigatiehulp — ze worden gevuld als aggregatie van de inline links.
+
+**Conventie `→ [[...]]`**: de pijl bij een taak is de link naar de competentie-fiche. Geen prefix "Competentie:" — de pijl volstaat. Als de fiche nog niet bestaat, gebruik de geplande bestandsnaam als placeholder: `→ [[geplande-bestandsnaam|Naam van de competentie]] *(⚠️ aan te maken)*`.
+
+**Kenniselementen zonder materie-link**: laat het item staan als gewone tekst met `*(⚠️ materie aan te maken)*`. Zo is de gap direct zichtbaar bij verificatie.
+
+**"TDK" is intern begrip — niet in content**: "TDK" (Taken, Doelstellingen en Kenniselementen) is onze interne term voor de structuur van de brochure. In de fiches zelf gebruiken we de echte termen: "Kenniselement", "Taak", "Doelstelling".
+
+**TDKs linken naar materie**: elke TDK die verwijst naar een te kennen concept krijgt een link naar de relevante **sectie** in de materie-fiche. Ankers zijn zonder emoji (Quartz strips ze):
+
+```markdown
+- Een [[antiwitwaswetgeving#meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht]] uitvoeren
+```
+
+Een bullet zonder link naar materie is een signaal dat er materie ontbreekt of dat de link nog niet gelegd is.
+
+### Template
+
+Elk bestand in `content/programmaonderdelen/` volgt dit formaat:
+
+```
+---
+explorer_title: "X.X Korte naam"      # weergave in de Explorer
+tags: ["X.X", wip, programmaonderdeel]
+---
+
+# X.X Volledige naam van het programmaonderdeel
+
+## Taken en doelstellingen
+
+### Taak: [omschrijving]
+
+- → [[competentie-fiche-a|Naam competentie A]]
+- → [[competentie-fiche-b|Naam competentie B]] *(⚠️ aan te maken)*
+
+- Doelstelling 1: omschrijving van wat de student moet kunnen
+- Doelstelling 2: omschrijving
+
+## Kenniselementen
+
+**I. Groepsnaam**
+- I.A — [[materie-fiche|Naam kenniselement]]: korte omschrijving
+- I.B — Naam kenniselement *(⚠️ materie aan te maken)*
+- I.C — Naam kenniselement
+  1. [[materie-fiche|Subitem A]]
+  2. Subitem B *(⚠️ materie aan te maken)*
+
+**II. Groepsnaam**
+- II.A — [[materie-fiche|Naam kenniselement]]
+
+## Relevante competenties
+
+- [[competentie-fiche-a|Naam competentie A]]
+- [[competentie-fiche-b|Naam competentie B]]
+
+## Relevante materie
+
+- [[materie-fiche-a|Naam concept A]]
+- [[materie-fiche-b|Naam concept B]]
+```
+
+### Conventies
+
+**"Relevante materie" — volledigheidseis**: de sectie onderaan de vakfiche heet **"Relevante materie"** (vroeger: "Concepten"). Ze bevat alle conceptfiches die samen de volledige examenstof voor dit vak dekken.
+
+**Eis**: een student die enkel de "Relevante materie"-lijst doorloopt zonder één TDK-link te volgen, moet toch alle examenstof gezien hebben. De lijst is dus geen subset — ze is compleet.
+
+**Niet opnemen in een programmaonderdeel-fiche**: een sectie "Aangehaalde wetteksten" of soortgelijk overzicht van bronnen — bronnen worden inline vermeld in de materie-fiches zelf, niet in de vakfiche.
+
+### Verificatiestap
+
+Na het opstellen of bijwerken van een vakfiche, doorloop je expliciet:
+
+1. **Elke TDK** → heeft die een link naar de juiste sectie in een conceptfiche?
+2. **Elke conceptfiche in "Relevante materie"** → dekt die alle TDKs die ernaar linken?
+3. **Zijn er TDKs die naar geen enkele materie linken?** → maak de ontbrekende materie aan of voeg het kenniselement toe als sectie in een bestaande fiche
+4. **Laagcheck** (voor programmaonderdelen op `niveau: integratie`) — signaleer als een laag ontbreekt in de materie-fiches:
+   - **Weten**: 📌, ⚖️ of 🔒 → vrijwel altijd aanwezig
+   - **Toepassen**: 📋, 🔢, ✅ of 👤 → mist regelmatig
+   - **Integreren**: 🔍, ↔️ of 💬 → mist het vaakst
+   
+   Een integratiefiche zonder Integreren-sectie is een signaal dat de laag mogelijk ontbreekt — niet automatisch een fout (de laag kan ook gedekt zijn via een andere fiche in het programmaonderdeel). Meld dit aan de gebruiker maar blokkeer niet.
+
+## Competentie-fiches
+
+### Granulariteit en compositie
+
+**Granulariteit**: één competentie per zelfstandig toetsbaar examenvaardigheidtype. Als je een examenvraag kunt verzinnen die enkel over deze techniek gaat, verdient ze een eigen fiche.
+
+**Compositie**: een competentie kan naar een andere competentie verwijzen als sub-stap. Nooit herhalen wat al elders staat.
+
+### Staptypes
+
+Elke stap in de aanbevolen werkwijze heeft een type. Het type bepaalt de aard van de redenering en de verwachte uitkomst:
+
+| Icoon | Type | Vraag die het beantwoordt |
+|---|---|---|
+| 🎯 | **Doel** | Wat wil ik bereiken met deze analyse/taak? |
+| 🔍 | **Vaststelling** | Wat is dit? Wie is dit? Welke categorie? |
+| 🔀 | **Beslissing** | Welke optie is van toepassing, op basis van welke regel of overweging? |
+| 🔢 | **Berekening** | Wat is de waarde? (instructie, niet vraag) |
+| 📊 | **Diagnose** | Wat betekenen de geobserveerde signalen in deze context? (past patronen toe) |
+| 💬 | **Synthese** | Wat is het totaalplaatje? Welk advies volgt hieruit? |
+
+💬 Synthese en 📊 Diagnose bestaan **uitsluitend** als competentie-staptype — niet als materie-sectiontype.
+
+### Regels
+
+**Volgorde van stappen**: elke stap heeft een expliciete 📥 en 📤 als blockquote vóór de uitleg. Dit maakt de keten zichtbaar, linkbaar en parseerbaar. Inputs die door een vorige stap geproduceerd worden, linken naar die stap. Feiten of externe invoer hebben geen link.
+
+```markdown
+> 📥 **Nodig**:
+> - [[andere-competentie#stap-x|Output van stap X]]
+> - Extern feit (geen link)
+>
+> 📤 **Uitkomst**:
+> - Resultaat A
+> - Resultaat B
+```
+
+Enkelvoudig: één bullet (ook al is het er maar één — altijd bullet voor consistentie).
+
+**Normale situatie eerst**: de hoofdlijn staat vooraan; uitzonderingen volgen als vetgedrukte `**Uitzondering — [naam]:**` alinea's.
+
+**Geen speciale oordeel-markers**: iedere stap vereist oordeel. Maak niet sommige stappen "speciaal" door een aparte marker — het oordeel zit in de redenering zelf.
+
+**Valkuilen inline**: `[!warning]` callout direct na de stap die ze triggert, zelfde format als materie-fiches.
+
+**Tips**: `[!tip]` callout voor professionele hints die niet uit een bron komen.
+
+**Stapnamen**: vragen by default ("Welk schema is van toepassing?"), instructies alleen bij berekeningsstappen ("Bereken de current ratio").
+
+**itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
+
+**Grondslagen** rechtvaardigen specifieke beslissingen binnen een stap — inline bij de beslissing, niet als aparte sectie.
+
+**Voorbeeldvragen**: zelfde format als materie-fiches (`[!question]-` genest met `[!success]-`). Raadpleeg eerst `resources/voorbeeldexamens/` voor echte examenvragen.
+
+### Template
+
+```markdown
+---
+tags: ["X.X", wip, competentie]
+niveau: integratie
+status: draft
+programmaonderdelen: ["X.X"]
+itaa-lex-secties:
+  - [sectie] ([wet] art. X–Y)
+---
+
+# Naam van de competentie
+
+Één zin: wat doe je in deze competentie en waarvoor.
+
+## Aanbevolen werkwijze
+
+### 1. 🔍 [Vraag of instructie]
+
+> 📥 **Nodig**:
+> - [input of link naar producerende stap]
+>
+> 📤 **Uitkomst**:
+> - [output A]
+
+[Waarom deze stap — kort.]
+
+[Normale situatie: wat geldt in de meeste gevallen.]
+
+**Uitzondering — [naam]**: [wat er anders is en waarom]
+
+> [!warning]- [Valkuil: korte naam]
+> ❌ *"[Verkeerde aanname die studenten maken]"*
+>
+> [Correcte redenering]
+>
+> 🤖 *AI-aanvulling*
+
+> [!tip]- [Tip: korte naam]
+> [Praktische hint voor de uitvoering]
+
+### 2. 🔀 [Volgende stap]
+...
+
+## Voorbeelden
+
+> [!example]- [Naam van de situatie]
+>
+> **Situatie**: ...
+>
+> **Conclusie**: ...
+>
+> **Grondslag**: ...
+>
+> **Redenering**: ...
+>
+> 🤖 *AI-aanvulling*
+
+## Motiveren op het examen
+
+**Een volledig antwoord bevat:**
+1. ...
+2. ...
+
+**Typische vraagvormen**
+
+> [!question]- [Korte vraagnaam]
+>
+> [Vraag volledig geformuleerd]
+>
+> > [!success]- Antwoord
+> >
+> > **[Verdict]**
+> >
+> > [Uitleg]
+>
+> 📝 *Uit voorbeeldexamen [jaar]* — of — 🤖 *AI-aanvulling*
+```
+
+## Materie-fiches
+
+### Wat is een concept?
+
+Een concept is de **kleinste coherente eenheid die een student als één geheel moet begrijpen**. De grens ligt daar waar twee stukken kennis onafhankelijk van elkaar bestudeerbaar zijn — dan zijn het twee concepten. Als kennis over het ene zinloos is zonder het andere — dan is het één concept.
+
+**Concepten worden gedefinieerd door het reële fenomeen of studieonderwerp**, niet door de juridische structuur of de vakindeling:
+- ✓ "autoleasing" (boekhoudkundig + fiscaal + advies samen)
+- ✓ "antiwitwaswetgeving" (scope + verplichtingen samen — niet te splitsen)
+- ✓ "deontologische beginselen" (de 7 principes als geheel)
+- ✗ niet: "AWW art. 47" of "kenniselement D.6"
+
+**Grootte**: zo groot als nodig. Splitsen alleen als twee ideeën écht onafhankelijk van elkaar voorkomen én bestudeerbaar zijn. Als een concept te groot wordt, kan een specifieker onderdeel een **subconcept** worden dat voortbouwt op het hoofdconcept — het subconcept veronderstelt dan dat de student het hoofdconcept kent.
+
+**Vakoverschrijdend is gewenst**: een concept dat in 4 vakken voorkomt, heeft 4 vak-secties. De student die personenbelasting instudeert klikt op "autoleasing" en land in de sectie `### [2.x] Personenbelasting` — maar ziet ook dat er een boekhoudkundige en adviessectie bestaat.
+
+### Concepten identificeren
+
+**Vertrekpunt**: de TDKs van de vakfiches. Die beschrijven wat een student moet *kunnen doen* en *begrijpen* — de concepten zijn de bouwstenen daarvoor.
+
+**Werkwijze**:
+1. Lees de taken en doelstellingen: welk fenomeen of onderwerp moet de student beheersen om deze taak uit te voeren?
+2. Lees de kenniselementen: welke begrippen en onderwerpen worden expliciet genoemd?
+3. Let ook op **impliciete concepten**: dingen die niet met naam worden vermeld maar wel verondersteld worden
+4. Vermijd duplicaten: als hetzelfde fenomeen al als concept bestaat (ook in een ander vak), breid dat concept uit — maak geen tweede fiche
+
+**Geen dubbele concepten**: elk fenomeen of studieonderwerp krijgt precies één fiche. Concepten kunnen op elkaar voortbouwen via wikilinks en subconcept-relaties, maar overlappen niet.
+
+### Niveauindeling van een concept
+
+De frontmatter van elke conceptfiche bevat een `niveau`-veld. Claude kiest het niveau op basis van de TDKs in de vakfiche — niet op basis van aannames.
+
+Een concept kan voor verschillende vakken een verschillend niveau hebben — vermeld dan het hoogste niveau in de frontmatter en differentieer in de per-vak-secties.
+
+### Domeinen
+
+| Domein | Omschrijving |
+|--------|-------------|
+| **Boekhoudkundig** | Boeking, waardering, jaarrekening, analytische boekhouding |
+| **Fiscaal** | Belastingen, aftrekken, aangiften, procedures |
+| **Juridisch** | Wetgeving, rechten, verplichtingen, rechtspraak |
+
+Een concept kan secties uit meerdere domeinen bevatten. Als een sectie niet past binnen deze domeinen, stel dan een nieuw domein voor ter validatie door de gebruiker.
+
+### Sectietypes
+
+Materie-fiches gebruiken 10 sectietypes. 💬 Advies en 🔍 Diagnose bestaan **niet** in materie — die horen uitsluitend in competentie-fiches.
+
+| Emoji | Type | Vraag die het beantwoordt | Signaalwoorden |
+|-------|------|--------------------------|----------------|
+| 📌 | **Begrip** | Wat is X? | definitie, term, afkorting |
+| ⚖️ | **Principe** | Hoe werkt X als algemene regel? | beginsel, basisregel |
+| 📋 | **Procedure** | Welke stappen volg je? | stappen, termijnen, volgorde |
+| 🔢 | **Berekening** | Hoe reken je X uit? | formule, ratio, tarief, grondslag |
+| ↔️ | **Vergelijking** | Wat is het verschil tussen X en Y? | vs, verschil, kies je voor |
+| ✅ | **Checklist** | Wat controleer je? | controleer of, verifieer, ga na |
+| 🔒 | **Verplichting** | Wat moet verplicht gebeuren? | verplicht, moet, meldingsplicht |
+| 👤 | **Rol** | Wie doet wat? | taak van, bevoegdheid, verantwoordelijkheid |
+| 🔎 | **Patroon** | Hoe herken je dat iets normaal/gezond is? Welke signalen zijn kenmerkend? | signaal, indicator, kenmerk, typisch bij |
+| 🚩 | **Antipatroon** | Hoe herken je dat iets fout gaat of misleidend is? | waarschuwing, valkuil, lijkt op X maar is Y, alarmsignaal |
+
+Een adviespatroon ("bij situatie X adviseer je Y") hoort in 🔎 of 🚩 — niet als aparte sectie.
+
+- Een concept bevat **alleen de secties die relevant zijn** — niet elk concept heeft alle types nodig.
+- Hetzelfde type mag **meerdere keren voorkomen** binnen één concept.
+
+### Kennislagen
+
+| Laag | Brochure-niveau | Sectietypes |
+|---|---|---|
+| **Weten** | weten-en-inzien | 📌 begrip, ⚖️ principe, 🔒 verplichting |
+| **Toepassen** | toepassen | 📋 procedure, 🔢 berekening, ✅ checklist, 👤 rol |
+| **Integreren** | integratie | 🔎 patroon, 🚩 antipatroon, ↔️ vergelijking |
+
+Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, ongeacht de frontmatter. Het `niveau`-veld is een signaal — geen garantie.
+
+### Schrijfstijl
 
 - **Menselijke, heldere taal** — geen legalese, wel precies
 - **Niet alles is gekend** — leg ook "bekende" begrippen kort uit, mensen vergeten
 - **Afkortingen** — eerste vermelding altijd voluit met een wikilink naar de fiche (en zo mogelijk naar de specifieke sectie) waar het begrip uitgelegd wordt: "Gecertificeerd Belastingadviseur ([[beroep-van-accountant-en-belastingadviseur|GBA]])"; daarna gewoon de afkorting
+- **Voluit schrijven**: gebruik de **volledige term** waar mogelijk, en de afkorting enkel wanneer die écht courant is (btw, bv, nv) of wanneer de wet zelf uitsluitend de afkorting gebruikt. Twijfelgevallen: schrijf voluit.
+  - ✓ "witwassen van geld en financiering van terrorisme" (bij eerste vermelding), daarna "WG/FT" enkel als de context het vanzelfsprekend maakt
+  - ✓ "cliëntenonderzoek" ipv "CDD" in lopende tekst
+  - ✓ "uiteindelijke begunstigde" ipv "UBO" waar het past
+  - ✓ "btw", "bv", "nv" → courant genoeg om altijd als afkorting te gebruiken
 - **Wikilinks** — elk concept dat elders een fiche heeft, krijgt een `[[link]]` bij elke vermelding; zo mogelijk naar de relevante sectie via `[[fiche#sectie|tekst]]`. Dit geldt ook voor impliciete verwijzingen: als een zin verwijst naar een begrip of verplichting die in een andere sectie uitgelegd wordt — ook al staat de naam er niet letterlijk — wordt dat een link. Bv. "de meldingsplicht" → `[[antiwitwaswetgeving#meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht]]`.
 - **Programmaonderdelen in numerieke volgorde** — 1.2 voor 2.3 voor 3.1 enz.
 - **Exacte bedragen**: vermeld ze ter referentie met bronverwijzing naar ITAA-LEX of cijferzakboekje, maar leg de nadruk op het concept erachter — niet op het getal zelf
@@ -216,9 +568,7 @@ De conceptfiches zijn studiemateriaal voor mensen die al iets van de boekhoudkun
     - Tabelcellen met artikelnummers als inhoud (bv. `| Art. 3, 1°–5° |`) — in tabellen is de artikelreferentie het gegeven, geen bronvermelding
 - **Geen circulaire definities** — definieer een begrip niet met zichzelf. Gebruik een concrete omschrijving of een ander begrip dat eerder al uitgelegd is.
 
-## Structuur binnen een fiche
-
-De volgorde van secties binnen een fiche volgt een vaste logica — van algemeen naar specifiek, van begrip naar toepassing:
+**Structuur binnen een fiche** — de volgorde van secties volgt een vaste logica, van algemeen naar specifiek, van begrip naar toepassing:
 
 ```
 1. Begrippen        — van hoog niveau naar detail; elk begrip een eigen sectie
@@ -237,90 +587,16 @@ De volgorde van secties binnen een fiche volgt een vaste logica — van algemeen
 
 **Herstructureren is geen groot werk** — als tijdens het schrijven of nalezen blijkt dat secties verkeerd geordend zijn of moeten worden samengevoegd, wordt dat genoteerd en periodiek in bulk rechtgezet.
 
-## Wat is een concept?
+### Hoe een nieuwe conceptfiche starten
 
-Een concept is de **kleinste coherente eenheid die een student als één geheel moet begrijpen**. De grens ligt daar waar twee stukken kennis onafhankelijk van elkaar bestudeerbaar zijn — dan zijn het twee concepten. Als kennis over het ene zinloos is zonder het andere — dan is het één concept.
+1. **Controleer op duplicaten**: bestaat er al een fiche voor dit fenomeen — ook onder een andere naam? Zo ja, breid die uit in plaats van een nieuwe te maken.
+2. **Verifieer de bronnen**: heb je voldoende bronmateriaal (ITAA-LEX, wettekst, ITAA-norm) om het concept inhoudelijk uit te diepen zonder aannames? Zo niet, maak eerst een skelet en markeer ontbrekende delen.
+3. **Volg de volgorde in §Stap 3A**: materie (brongebonden) → valkuilen + praktijkvoorbeelden (🤖 mag) → voorbeeldvragen (🤖 mag) → hyperlinks.
+4. **Begin met de begrippen**: schrijf eerst de basisconcepten en definities uit — dit vormt de fundering voor alle andere secties.
+5. **Markeer onzekerheden**: elk veld zonder verifieerbare bron krijgt `⚠️ te verifiëren`.
+6. **Zet status op `draft`**: de gebruiker valideert de inhoud voor de status naar `geverifieerd` gaat. Schrijf nooit `status: geverifieerd` zelf.
 
-**Concepten worden gedefinieerd door het reële fenomeen of studieonderwerp**, niet door de juridische structuur of de vakindeling:
-- ✓ "autoleasing" (boekhoudkundig + fiscaal + advies samen)
-- ✓ "antiwitwaswetgeving" (scope + verplichtingen samen — niet te splitsen)
-- ✓ "deontologische beginselen" (de 7 principes als geheel)
-- ✗ niet: "AWW art. 47" of "kenniselement D.6"
-
-**Grootte**: zo groot als nodig. Splitsen alleen als twee ideeën écht onafhankelijk van elkaar voorkomen én bestudeerbaar zijn. Als een concept te groot wordt, kan een specifieker onderdeel een **subconcept** worden dat voortbouwt op het hoofdconcept — het subconcept veronderstelt dan dat de student het hoofdconcept kent.
-
-**Vakoverschrijdend is gewenst**: een concept dat in 4 vakken voorkomt, heeft 4 vak-secties. De student die personenbelasting instudeert klikt op "autoleasing" en land in de sectie `### [2.x] Personenbelasting` — maar ziet ook dat er een boekhoudkundige en adviessectie bestaat.
-
-## Hoe bepalen we welke concepten er zijn?
-
-**Vertrekpunt**: de TDKs van de vakfiches. Die beschrijven wat een student moet *kunnen doen* en *begrijpen* — de concepten zijn de bouwstenen daarvoor.
-
-**Werkwijze**:
-1. Lees de taken en doelstellingen: welk fenomeen of onderwerp moet de student beheersen om deze taak uit te voeren?
-2. Lees de kenniselementen: welke begrippen en onderwerpen worden expliciet genoemd?
-3. Let ook op **impliciete concepten**: dingen die niet met naam worden vermeld maar wel verondersteld worden
-4. Vermijd duplicaten: als hetzelfde fenomeen al als concept bestaat (ook in een ander vak), breid dat concept uit — maak geen tweede fiche
-
-**Geen dubbele concepten**: elk fenomeen of studieonderwerp krijgt precies één fiche. Concepten kunnen op elkaar voortbouwen via wikilinks en subconcept-relaties, maar overlappen niet.
-
-## Structuur van een concept
-
-Een concept bestaat uit een geordende lijst van **secties**. Elke sectie heeft een **type** en optioneel een **domein**.
-
-### De domeinen
-
-| Domein | Omschrijving |
-|--------|-------------|
-| **Boekhoudkundig** | Boeking, waardering, jaarrekening, analytische boekhouding |
-| **Fiscaal** | Belastingen, aftrekken, aangiften, procedures |
-| **Juridisch** | Wetgeving, rechten, verplichtingen, rechtspraak |
-
-Een concept kan secties uit meerdere domeinen bevatten. Als een sectie niet past binnen deze domeinen, stel dan een nieuw domein voor ter validatie door de gebruiker.
-
-### De sectietypes
-
-| Emoji | Type | Vraag die het beantwoordt | Signaalwoorden |
-|-------|------|--------------------------|----------------|
-| 📌 | **Begrip** | Wat is X? | definitie, term, afkorting |
-| ⚖️ | **Principe** | Hoe werkt X als algemene regel? | beginsel, basisregel |
-| 📋 | **Procedure** | Welke stappen volg je? | stappen, termijnen, volgorde |
-| 🔢 | **Berekening** | Hoe reken je X uit? | formule, ratio, tarief, grondslag |
-| ↔️ | **Vergelijking** | Wat is het verschil tussen X en Y? | vs, verschil, kies je voor |
-| 💬 | **Advies** | Wat zeg je tegen de cliënt? | adviseer, begeleid, stel voor |
-| ✅ | **Checklist** | Wat controleer je? | controleer of, verifieer, ga na |
-| 🔍 | **Diagnose** | Wat zie je en wat betekent dat? | herken, detecteer, alarmsignaal |
-| 🔒 | **Verplichting** | Wat moet verplicht gebeuren? | verplicht, moet, meldingsplicht |
-| 👤 | **Rol** | Wie doet wat? | taak van, bevoegdheid, verantwoordelijkheid |
-
-Als een sectie niet past binnen deze 10 types, stel dan een nieuw type voor met naam, vraag en signaalwoorden — ter validatie door de gebruiker.
-
-- Een concept bevat **alleen de secties die relevant zijn** — niet elk concept heeft alle types of domeinen nodig.
-- Hetzelfde type mag **meerdere keren voorkomen** binnen één concept (bv. twee aparte berekeningen, of twee begrippen die samen horen).
-
-### Kennislagen en sectietypes
-
-De 10 sectietypes vallen in drie lagen die overeenstemmen met de examenniveaus uit de ITAA-brochure. Het `niveau`-veld in de frontmatter van een materie-fiche geeft aan tot welk niveau de fiche moet reiken — en dus welke lagen aanwezig moeten zijn:
-
-| Laag | Brochure-niveau | Sectietypes |
-|---|---|---|
-| **Weten** | weten-en-inzien | 📌 begrip, ⚖️ principe, 🔒 verplichting |
-| **Toepassen** | toepassen | 📋 procedure, 🔢 berekening, ✅ checklist, 👤 rol |
-| **Integreren** | integratie | 🔍 diagnose, ↔️ vergelijking, 💬 advies |
-
-Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, ongeacht de frontmatter. Het `niveau`-veld is een signaal — geen garantie.
-
-## Conventie conceptfiche
-
-### Iteratief werkproces
-
-Conceptfiches worden in stappen opgebouwd. Elke stap wordt door de gebruiker geverifieerd voor de volgende begint:
-
-1. **Materie** — begrippen, principes, verplichtingen, procedures — volledig brongebonden
-2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld
-3. **Voorbeeldvragen** — mag 🤖 als gelabeld
-4. **Hyperlinks, wettekst-links en backlinks** — alle links controleren en aanvullen
-
-### Template materie-fiche
+### Template
 
 Elk bestand in `content/materie/` volgt dit formaat:
 
@@ -389,47 +665,15 @@ Kenniselementen:
 > 📝 *Uit voorbeeldexamen [jaar]* — of — 🤖 *AI-aanvulling*
 ```
 
-### Template programmaonderdeel-fiche
+### Conventies
 
-Elk bestand in `content/programmaonderdelen/` volgt dit formaat:
-
-```
----
-explorer_title: "X.X Korte naam"      # weergave in de Explorer
-tags: ["X.X", wip, programmaonderdeel]
----
-
-# X.X Volledige naam van het programmaonderdeel
-
-## Taken en doelstellingen
-
-### Taak: [omschrijving]
-
-- [[materie-fiche#sectie|Doelstelling]]: omschrijving van wat de student moet kunnen
-  - Kenniselement X.n: [[materie-fiche#sectie|korte omschrijving]]
-
-→ Competentie: [[competentie-fiche|Naam van de competentie]]
-
-## Relevante competenties
-
-- [[competentie-fiche-a|Naam competentie A]]
-- [[competentie-fiche-b|Naam competentie B]]
-
-## Relevante materie
-
-- [[materie-fiche-a|Naam concept A]]
-- [[materie-fiche-b|Naam concept B]]
-```
-
-De programmaonderdeel-fiche is een catalogus. De officiële ITAA-tekst (taken, doelstellingen, kenniselementen) staat ongewijzigd. Elke taak verwijst naar de bijhorende competentie-fiche(s) voor de gedetailleerde werkwijze.
-
-### Sectiehoofdingen: emoji vervangt het typewoord
+#### Sectiehoofdingen: emoji vervangt het typewoord
 
 De emoji aan het begin van een sectieheading **is** het type — het typewoord wordt niet herhaald:
 - ✓ `## 📌 Witwassen van geld`
 - ✗ `## 📌 Begrip: Witwassen van geld`
 
-### Begrippen: één per sectie, naam vóór afkorting
+#### Begrippen: één per sectie, naam vóór afkorting
 
 Elk begrip krijgt een eigen `##`-sectie, zodat het een eigen anker heeft voor deep-links. Meerdere begrippen in één sectie is niet toegestaan.
 
@@ -452,33 +696,7 @@ De persoon die toeziet...
 
 Nederlandstalige afkortingen die rechtstreeks van de naam afleiden (GA, GBA, ITAA) krijgen geen subtitel.
 
-### Ankers voor sectielinks
-
-Quartz genereert ankers door de heading te slugifyen: emoji worden verwijderd **maar de spatie erna blijft** (en wordt een streepje), spaties worden koppeltekens, alles wordt lowercase, en **geaccentueerde tekens worden behouden**.
-
-Dit betekent dat elke sectie met een emoji-heading een **leading dash** krijgt:
-- Heading `## 📌 Witwassen van geld` → anker `#-witwassen-van-geld`
-- Heading `## 🔒 Meldingsplicht` → anker `#-meldingsplicht`
-- Heading `## 📌 Cel voor Financiële Informatieverwerking (CFI)` → anker `#-cel-voor-financiële-informatieverwerking-cfi`
-
-Let op:
-- Link: `[[antiwitwaswetgeving#-witwassen-van-geld|...]]` ✓
-- Link: `[[antiwitwaswetgeving#witwassen-van-geld|...]]` ✗ (leading dash ontbreekt)
-- Geaccentueerde tekens (ë, é, ij...) worden **niet** omgezet naar ASCII: gebruik `financiële` niet `financiele`
-
-**Uitzondering**: wettekst-headings (`## Art. X`) hebben geen emoji en dus geen leading dash → anker is gewoon `#art-x`.
-
-### Wetteksten: ankers
-
-Artikel-headings in `content/wetteksten/` zijn kortweg `## Art. X`. Quartz genereert het anker door speciale tekens te strippen (niet naar `-` te converteren):
-- `## Art. 47` → `#art-47`
-- `## Art. 1:24` (WVV) → `#art-124` (colon verdwijnt)
-- `## Art. 3:23` (KB WVV) → `#art-323`
-- `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
-
-Link: `[[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]]` ✓
-
-### Callout: valkuil
+#### Callout: valkuil
 
 ```markdown
 > [!warning]- Korte omschrijving van de valkuil
@@ -495,7 +713,7 @@ Link: `[[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]]` �
 - Daarna de correcte uitleg
 - Helemaal onderaan de bronvermelding (📝 of 🤖)
 
-### Callout: voorbeeldvraag
+#### Callout: voorbeeldvraag
 
 Gebruik `[!question]-` genest met `[!success]-`. **Belangrijk**: voeg een lege regel in na de opening van elke callout — dat is wat Quartz nodig heeft om nesting correct te renderen.
 
@@ -524,7 +742,7 @@ Gebruik `[!question]-` genest met `[!success]-`. **Belangrijk**: voeg een lege r
 - Het **verdict** staat vetgedrukt op de eerste regel van het antwoord
 - De **bronvermelding** (📝 of 🤖) staat na de success-callout, nog binnen de question-callout
 
-### Callout: in de praktijk
+#### Callout: in de praktijk
 
 ```markdown
 > [!info]- In de praktijk
@@ -538,35 +756,7 @@ Gebruik `[!question]-` genest met `[!success]-`. **Belangrijk**: voeg een lege r
 - Altijd gelabeld 🤖 tenzij de situatie rechtstreeks uit een bron komt
 - Verduidelijkt de materie — geen nieuwe feiten introduceren
 
-### Bronvermelding: regels
-
-**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/wetteksten/`:
-- `([[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]])` — springt direct naar Art. 37 in de Wet ITAA
-- `([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]])` — springt direct naar Art. 47 in de AWW
-- `([[wetteksten/XIII-wer/boek-iii#art-iii-82|WER art. III.82]])` — WER split per Boek
-
-**Links altijd naar artikel-anker**, nooit naar het algemene wettekst-document: `[[wetteksten/XXI-wet-itaa#art-37|...]]` en niet `[[wetteksten/XXI-wet-itaa|...]]` wanneer je een specifiek artikel bedoelt.
-
-**Ankers**: Quartz strips speciale tekens (`:`, `.`, `/`) volledig — ze worden NIET omgezet naar koppeltekens. Spaties worden wél koppeltekens:
-- `## Art. 47` → `#art-47`
-- `## Art. 1:24` (WVV) → `#art-124` (colon verdwijnt)
-- `## Art. 3:23` (KB WVV) → `#art-323`
-- `## Art. III.82` (WER) → `#art-iii82` (punt verdwijnt)
-
-**Geen aparte "Bronnen en artikelen"-sectie** — bronverwijzingen staan inline in de tekst, direct na de feitelijke bewering. Een aparte sectie onderaan is redundant en niet onderhoudbaar.
-
-**Geen links naar lokale PDF's** — altijd via de wetteksten in `content/wetteksten/` of een publieke online bron.
-
-## Taalgebruik: afkortingen en voluit schrijven
-
-Gebruik de **volledige term** waar mogelijk, en de afkorting enkel wanneer die écht courant is (btw, bv, nv) of wanneer de wet zelf uitsluitend de afkorting gebruikt. Twijfelgevallen: schrijf voluit.
-
-- ✓ "witwassen van geld en financiering van terrorisme" (bij eerste vermelding), daarna "WG/FT" enkel als de context het vanzelfsprekend maakt
-- ✓ "cliëntenonderzoek" ipv "CDD" in lopende tekst
-- ✓ "uiteindelijke begunstigde" ipv "UBO" waar het past
-- ✓ "btw", "bv", "nv" → courant genoeg om altijd als afkorting te gebruiken
-
-## Sectie "Relevant voor"
+#### Sectie "Relevant voor"
 
 De sectie die aangeeft voor welk programmaonderdeel het concept relevant is. Structuur:
 
@@ -588,197 +778,11 @@ Kenniselementen:
 - Taken letterlijk overnemen uit de programmaonderdeel-fiche
 - Enkel de voor dit concept relevante Taken en Kenniselementen vermelden
 
-## Conventie programmaonderdeel-fiche — kenniselementen en materie
+## Proces
 
-### "TDK" is intern begrip — niet in content
+### Werkprincipe
 
-"TDK" (Taken, Doelstellingen en Kenniselementen) is onze interne term voor de structuur van de brochure. In de fiches zelf gebruiken we de echte termen: "Kenniselement", "Taak", "Doelstelling".
-
-### TDKs linken naar materie
-
-Elke TDK die verwijst naar een te kennen concept krijgt een link naar de relevante **sectie** in de materie-fiche. Ankers zijn zonder emoji (Quartz strips ze):
-
-```markdown
-- Een [[antiwitwaswetgeving#meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht]] uitvoeren
-```
-
-Een bullet zonder link naar materie is een signaal dat er materie ontbreekt of dat de link nog niet gelegd is.
-
-### "Relevante materie" — volledigheidseis
-
-De sectie onderaan de vakfiche heet **"Relevante materie"** (vroeger: "Concepten"). Ze bevat alle conceptfiches die samen de volledige examenstof voor dit vak dekken.
-
-**Eis**: een student die enkel de "Relevante materie"-lijst doorloopt zonder één TDK-link te volgen, moet toch alle examenstof gezien hebben. De lijst is dus geen subset — ze is compleet.
-
-### Verificatiestap na het schrijven van een vakfiche
-
-Na het opstellen of bijwerken van een vakfiche, doorloop je expliciet:
-
-1. **Elke TDK** → heeft die een link naar de juiste sectie in een conceptfiche?
-2. **Elke conceptfiche in "Relevante materie"** → dekt die alle TDKs die ernaar linken?
-3. **Zijn er TDKs die naar geen enkele materie linken?** → maak de ontbrekende materie aan of voeg het kenniselement toe als sectie in een bestaande fiche
-4. **Laagcheck** (voor programmaonderdelen op `niveau: integratie`) — signaleer als een laag ontbreekt in de materie-fiches:
-   - **Weten**: 📌, ⚖️ of 🔒 → vrijwel altijd aanwezig
-   - **Toepassen**: 📋, 🔢, ✅ of 👤 → mist regelmatig
-   - **Integreren**: 🔍, ↔️ of 💬 → mist het vaakst
-   
-   Een integratiefiche zonder Integreren-sectie is een signaal dat de laag mogelijk ontbreekt — niet automatisch een fout (de laag kan ook gedekt zijn via een andere fiche in het programmaonderdeel). Meld dit aan de gebruiker maar blokkeer niet.
-
-## Niveauindeling
-
-De frontmatter van elke conceptfiche bevat een `niveau`-veld. Claude kiest het niveau op basis van de TDKs in de vakfiche — niet op basis van aannames.
-
-| Niveau | Wat de student kan | Typische examenvraag |
-|--------|-------------------|----------------------|
-| **weten-en-inzien** | Het concept benoemen en uitleggen: definitie, toepassingsgebied, waarom het bestaat | "Wat is X?" / "Welke stelling over X is juist?" |
-| **toepassen** | Het concept correct gebruiken in een concrete situatie: berekening, boeking, procedure uitvoeren | "Bereken X" / "Hoe boek je Y?" / "Welke stappen volg je?" |
-| **integratie** | Meerdere concepten combineren om een complexe vraag te beantwoorden: advies geven, diagnose stellen, afwegen | "Adviseer de cliënt" / "Wat zijn de gevolgen van X voor Y en Z?" |
-
-Een concept kan voor verschillende vakken een verschillend niveau hebben — vermeld dan het hoogste niveau in de frontmatter en differentieer in de per-vak-secties.
-
-## Hoe een nieuwe conceptfiche starten
-
-1. **Controleer op duplicaten**: bestaat er al een fiche voor dit fenomeen — ook onder een andere naam? Zo ja, breid die uit in plaats van een nieuwe te maken.
-2. **Verifieer de bronnen**: heb je voldoende bronmateriaal (ITAA-LEX, wettekst, ITAA-norm) om het concept inhoudelijk uit te diepen zonder aannames? Zo niet, maak eerst een skelet en markeer ontbrekende delen.
-3. **Volg het iteratief werkproces**: eerst materie (brongebonden), daarna valkuilen + praktijkvoorbeelden (🤖 mag), daarna voorbeeldvragen (🤖 mag), daarna hyperlinks en referenties.
-4. **Begin met de begrippen**: schrijf eerst de basisconcepten en definities uit — dit vormt de fundering voor alle andere secties.
-5. **Markeer onzekerheden**: elk veld zonder verifieerbare bron krijgt `⚠️ te verifiëren`.
-6. **Zet status op `draft`**: de gebruiker valideert de inhoud voor de status naar `geverifieerd` gaat. Schrijf nooit `status: geverifieerd` zelf.
-
-## Tegenstrijdige bronnen
-
-De bronhiërarchie zegt welke bron zwaarder weegt. Als twee bronnen elkaar tegenspreken:
-
-- Vermeld **beide standpunten expliciet** — schrijf nooit één versie alsof het de enige waarheid is
-- Geef aan welke bron hogere rang heeft volgens de bronhiërarchie
-- Markeer het veld als `⚠️ te verifiëren` en leg het voor aan de gebruiker
-- Voorbeeld: "Volgens [bron A] geldt X (rang 1). Volgens [bron B] geldt Y (rang 4). ⚠️ te verifiëren — bron A heeft hogere rang maar bron B is recenter."
-
-## Kenniselement-IDs
-Komen uit de officiële brochure (april 2022):
-1.1 t.e.m. 1.9 = accountancy
-2.1 t.e.m. 2.8 = fiscaal
-3.1, 3.2 = vennootschapsrecht
-4.0 = deontologie
-
-## Conventie competentie-fiche
-
-### Staptypes
-
-Elke stap in de aanbevolen werkwijze heeft een type. Het type bepaalt de aard van de redenering en de verwachte uitkomst:
-
-| Icoon | Type | Vraag die het beantwoordt |
-|---|---|---|
-| 🎯 | **Doel** | Wat wil ik bereiken met deze analyse/taak? |
-| 🔍 | **Vaststelling** | Wat is dit? Wie is dit? Welke categorie? |
-| 🔀 | **Beslissing** | Welke optie is van toepassing, op basis van welke regel of overweging? |
-| 🔢 | **Berekening** | Wat is de waarde? (instructie, niet vraag) |
-| 📊 | **Diagnose** | Wat betekent dit resultaat in deze context? |
-| 💬 | **Synthese** | Wat is het totaalplaatje? Welk advies volgt hieruit? |
-
-### Regels voor competentie-fiches
-
-**Granulariteit**: één competentie per zelfstandig toetsbaar examenvaardigheidtype. Als je een examenvraag kunt verzinnen die enkel over deze techniek gaat, verdient ze een eigen fiche.
-
-**Compositie**: een competentie kan naar een andere competentie verwijzen als sub-stap. Nooit herhalen wat al elders staat.
-
-**Volgorde van stappen**: bepaal de volgorde door voor elke stap te noteren wat hij nodig heeft ("Nodig:") en wat hij oplevert ("Levert op:"). Stap N begint pas als de output van de vorige stap beschikbaar is. Dit is een ontwerphulp — verschijnt niet altijd letterlijk in de fiche.
-
-**Normale situatie eerst**: de hoofdlijn staat vooraan; uitzonderingen volgen als vetgedrukte `**Uitzondering — [naam]:**` alinea's.
-
-**Geen speciale oordeel-markers**: iedere stap vereist oordeel. Maak niet sommige stappen "speciaal" door een aparte marker — het oordeel zit in de redenering zelf.
-
-**Valkuilen inline**: `[!warning]` callout direct na de stap die ze triggert, zelfde format als materie-fiches.
-
-**Tips**: `[!tip]` callout voor professionele hints die niet uit een bron komen.
-
-**Stapnamen**: vragen by default ("Welk schema is van toepassing?"), instructies alleen bij berekeningsstappen ("Bereken de current ratio").
-
-**itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
-
-**Grondslagen** rechtvaardigen specifieke beslissingen binnen een stap — inline bij de beslissing, niet als aparte sectie.
-
-**Voorbeeldvragen**: zelfde format als materie-fiches (`[!question]-` genest met `[!success]-`). Raadpleeg eerst `resources/voorbeeldexamens/` voor echte examenvragen.
-
-### Template competentie-fiche
-
-```markdown
----
-tags: ["X.X", wip, competentie]
-niveau: integratie
-status: draft
-programmaonderdelen: ["X.X"]
-itaa-lex-secties:
-  - [sectie] ([wet] art. X–Y)
----
-
-# Naam van de competentie
-
-Één zin: wat doe je in deze competentie en waarvoor.
-
-## Aanbevolen werkwijze
-
-### 1. 🔍 [Vraag of instructie]
-
-[Waarom deze stap — kort.]
-
-[Normale situatie: wat geldt in de meeste gevallen.]
-
-**Uitzondering — [naam]**: [wat er anders is en waarom]
-
-→ **Uitkomst**: [wat je nu weet / hebt bepaald]
-
-> [!warning]- [Valkuil: korte naam]
-> ❌ *"[Verkeerde aanname die studenten maken]"*
->
-> [Correcte redenering]
->
-> 🤖 *AI-aanvulling*
-
-> [!tip]- [Tip: korte naam]
-> [Praktische hint voor de uitvoering]
-
-### 2. 🔀 [Volgende stap]
-...
-
-## Voorbeelden
-
-> [!example]- [Naam van de situatie]
->
-> **Situatie**: ...
->
-> **Conclusie**: ...
->
-> **Grondslag**: ...
->
-> **Redenering**: ...
->
-> 🤖 *AI-aanvulling*
-
-## Motiveren op het examen
-
-**Een volledig antwoord bevat:**
-1. ...
-2. ...
-
-**Typische vraagvormen**
-
-> [!question]- [Korte vraagnaam]
->
-> [Vraag volledig geformuleerd]
->
-> > [!success]- Antwoord
-> >
-> > **[Verdict]**
-> >
-> > [Uitleg]
->
-> 📝 *Uit voorbeeldexamen [jaar]* — of — 🤖 *AI-aanvulling*
-```
-
-## Workflow: nieuw programmaonderdeel opstarten
-
-Dit is de volgorde wanneer we een nieuw programmaonderdeel beginnen te behandelen:
+Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker valideert via Stap 5 door de site te bekijken. Stel alleen een vraag bij echte inhoudelijke twijfel over wetsinhoud of bij een architectuurbeslissing die niet uit de context af te leiden is. Elke `wip`- en `draft`-markering communiceert vanzelf dat inhoud nog niet geverifieerd is.
 
 ### Stap 0 — TDKs correct uitlezen uit de brochure
 
@@ -801,7 +805,7 @@ Kenniselementen:
 1. Gebruik `pdftotext resources/programma.pdf -` en grep op het programmaonderdeelnummer
 2. Kopieer de ruwe tekst en onderscheid: Taken → Subtaken (a/b/c) → Doelstellingen (bullets) → Kenniselementen (genummerd)
 3. Structureer de fiche met `### Taak:` voor hoofdtaken, en geneste `#### Subtaak:` voor a/b/c-items — NIET als doelstellingen
-4. Leg de gestructureerde TDKs voor aan de gebruiker ter validatie vóór je naar Stap 1 gaat
+4. Ga door naar Stap 1 met de gestructureerde TDKs
 
 ### Stap 1 — Programmaonderdeel activeren
 1. Open `content/programmaonderdelen/X.X-naam.md`
@@ -818,33 +822,47 @@ Per taak in de programmaonderdeel-fiche: bepaal welke competenties en materie no
 
 **Redeneerlogica** — per taak/subtaak:
 1. "Wat moet de student kunnen *doen*?" → competentie-kandidaat
-2. "Is dit zelfstandig toetsbaar als examenvraag?" → ja: eigen fiche; nee: sub-stap in een andere competentie
+2. "Is dit in isolatie uit te voeren in de praktijk?" → ja: eigen fiche; nee: sub-stap in een andere competentie
 3. "Bestaat deze competentie al — ook voor een ander vak?" → ja: hergebruiken; nee: nieuwe fiche
 4. "Welke materie-bouwstenen heeft deze competentie nodig?" → noteren als vereiste materie (input voor Stap 2B)
 
-Leg de lijst (competenties + vereiste materie per competentie) voor aan de gebruiker. Doorloop daarna **→ Reflectie 2A**.
+Schrijf de geïdentificeerde competentie-links **direct in de vakfiche** bij de bijhorende taak: `- → [[bestandsnaam|Naam]]`. Als de fiche nog niet bestaat: gebruik de geplande bestandsnaam met `*(⚠️ aan te maken)*`.
+
+**Kwaliteitscheck vóór Stap 2B:**
+- Zijn **alle** taken én subtaken doorlopen — ook de minder prominente?
+- Dekt de lijst de vraagtypen die in de voorbeeldexamens voorkomen voor dit vak?
+- Zijn er technieken impliciet verondersteld in de kenniselementen die nog geen competentie hebben?
+- Zijn de competenties op de juiste granulariteit? Geen te brede ("alles over jaarrekeningen") en geen te smalle ("bereken één specifieke ratio")?
+- Is elke competentie gelinkt aan de materie-bouwstenen die ze nodig heeft?
+- Zijn er competenties die ook voor een ander vak relevant zijn — en dus gedeeld moeten worden?
+- Is elk kenniselement op zijn **hiërarchische positie** bekeken? Een subitem van "ratio's" is zelden een eigen competentie — het is materie die door een bestaande competentie gebruikt wordt.
 
 ### Stap 2B — Materie en competenties bepalen
-1. Bepaal welke materie-bouwstenen (concepten/fenomenen) nodig zijn — zie "Hoe bepalen we welke concepten er zijn?"
-2. Lees de kenniselementen in de brochure (`resources/programma.pdf`) voor expliciete concepten die nog niet aanwezig zijn
+1. Bepaal welke materie-bouwstenen (concepten/fenomenen) nodig zijn — zie §Concepten identificeren
+2. Overloop de geidentificeerde competenties en materies op ontbrekende impliciete concepten
 3. Controleer op duplicaten met bestaande materie-fiches en competentie-fiches
-4. Leg de volledige lijst (materie + competenties) voor aan de gebruiker ter validatie
+4. Schrijf de geïdentificeerde materie-links **direct in de vakfiche** bij de bijhorende kenniselementen. Items zonder fiche: laat staan als `*(⚠️ materie aan te maken)*`
+5. Ga direct door naar Stap 3
 
-### Stap 3A — Per concept: materie-fiche aanmaken (iteratief)
-Voor elk nieuw concept, in deze volgorde (elke stap door gebruiker valideren):
+### Stap 3A — Per concept: materie-fiche aanmaken
+
+Voor elk nieuw concept, in deze volgorde — alles in één doorloop, geen tussenpauzes:
 
 1. **Materie** — begrippen, principes, verplichtingen, procedures — volledig brongebonden
    - Gebruik het template materie-fiche
-   - **Kritische lezing achteraf** (zie hieronder)
+   - **Kritische lezing achteraf** (zie §Kritische lezing)
 2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld; voeg bij elke berekening of procedure minstens één concreet doorgewerkt voorbeeld toe
 3. **Voorbeeldvragen** — raadpleeg eerst `resources/voorbeeldexamens/`; gebruik echte vragen (📝) prioritair; vul aan met 🤖
    - **Verplichte eerste stap**: gebruik `pdftotext` om alle PDF's in `resources/voorbeeldexamens/` te doorzoeken. Grep op sleutelwoorden uit de sectiehoofden.
    - Echte examenvragen worden letterlijk overgenomen en gelabeld als `📝 *Uit voorbeeldexamen [jaar]*`
    - Vul aan met 🤖-vragen voor concepten zonder examenmateriaal
-4. **Hyperlinks** — semantische doorlezing voor links (zie hieronder)
+4. **Hyperlinks** — semantische doorlezing voor links (zie §Semantische hyperlinkdoorlezing)
 
-### Stap 3B — Per competentie: competentie-fiche aanmaken (iteratief)
-Voor elke nieuwe competentie, in deze volgorde (elke stap door gebruiker valideren):
+**Ontdekking tijdens Stap 3**: als tijdens het schrijven van een fiche een concept of competentie opduikt die nog niet in de vakfiche staat, voeg het dan direct toe aan de vakfiche (als `*(⚠️ aan te maken)*`) en aan de werklijs voor Stap 3. Blokkeer niet — noteer en ga door.
+
+### Stap 3B — Per competentie: competentie-fiche aanmaken
+
+Voor elke nieuwe competentie, in deze volgorde — alles in één doorloop, geen tussenpauzes:
 
 1. **Aanbevolen werkwijze** — stappen met staptypes, normale situatie eerst, uitzonderingen inline — volledig brongebonden voor juridische beslissingen; 🤖 voor analytische heuristieken
    - Gebruik het template competentie-fiche
@@ -853,9 +871,36 @@ Voor elke nieuwe competentie, in deze volgorde (elke stap door gebruiker valider
 3. **Voorbeeldvragen** — zelfde aanpak als materie-fiches; raadpleeg eerst `resources/voorbeeldexamens/`
 4. **Links** — elke stap verwijst naar de juiste materie-sectie of andere competentie
 
-Doorloop na elke competentie-fiche **→ Reflectie 3B**.
+**Kwaliteitscheck na schrijven:**
+- Heeft elke stap een duidelijke **uitkomst** — weet de student wat hij na deze stap heeft bepaald?
+- Is de **volgorde** logisch? Heeft elke stap de output van de vorige stap als input?
+- Staat de **normale situatie** vooraan, zijn uitzonderingen aanvullingen?
+- Zijn **valkuilen** bij de stap geplaatst die ze triggert — niet verzameld onderaan?
+- Verwijst elke stap naar de **juiste materie-sectie** (specifiek anker)?
+- Is er geen inhoud die eigenlijk **in materie thuishoort**?
+- Zijn **voorbeelden** concreet genoeg: conclusie + grondslag + redenering?
+- Is het "Motiveren op het examen"-blok volledig?
 
-### Semantische hyperlinkdoorlezing (Stap 3A en 3B)
+### Stap 4 — Programmaonderdeel-fiche afwerken
+De inline competentie-links (bij taken) en materie-links (bij kenniselementen) zijn al toegevoegd in Stap 2A/2B. Stap 4 finaliseert de aggregatielijsten en controleert volledigheid:
+
+1. Controleer en completeer de `→` competentie-links bij alle taken (placeholders `⚠️ aan te maken` resolveren na Stap 3B)
+2. Controleer en completeer de materie-links bij alle kenniselementen (placeholders `⚠️ materie aan te maken` resolveren na Stap 3A)
+3. Vul "Relevante competenties" in — als aggregatie van alle `→` links in de taken-sectie, in leeslogische volgorde (basiscompetenties vóór samengestelde)
+4. Vul "Relevante materie" in — als aggregatie van alle materie-links in de kenniselementen-sectie, in leeslogische volgorde (begrippen vóór toepassingen, wetgeving vóór analyse)
+5. **Volledigheidscheck** (zie ook §Verificatiestap voor de gedetailleerde versie):
+   - Is elke taak gekoppeld aan minstens één competentie-fiche?
+   - Zijn alle kenniselementen gelinkt — geen bullet zonder link?
+   - Kan een student die enkel de aggregatielijsten doorloopt alle examenstof zien?
+   - Staan competenties in leeslogische volgorde (basiscompetenties vóór samengestelde)?
+
+> Deze check is repetitief genoeg om later als geautomatiseerde routinecontrole (agent) te draaien — bijv. wekelijks over alle vakfiches.
+
+### Stap 5 — Validatie door de gebruiker
+- Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
+- Wanneer gebruiker volledig tevreden is: `wip`-tag verwijderen, `status: geverifieerd`
+
+### Semantische hyperlinkdoorlezing
 
 Lees elke zin van de fiche opnieuw — niet om fouten te zoeken, maar om te vragen: **"heeft deze passage betrekking op iets dat ergens een anker heeft?"**
 
@@ -876,7 +921,7 @@ Dit is een semantische lezing, geen keyword-zoekactie. Een passage kan conceptue
 
 **Geldt voor alle fichetypes**: materie-fiches, competentie-fiches én programmaonderdeel-fiches. In competentie-fiches verwijst elke stap naar de juiste materie-sectie of andere competentie. In programmaonderdeel-fiches linkt elke taak naar de bijhorende competentie-fiche.
 
-### Wettekstverificatie na het schrijven van de materie
+### Wettekstverificatie
 
 Voordat je tevreden bent met een sectie, stel je je eigen samenvatting actief in vraag door terug te gaan naar de wettekst. Stelregel: **een samenvatting is een interpretatie — de wettekst is de enige zekerheid.**
 
@@ -899,7 +944,7 @@ Wanneer de verificatie iets nieuws oplevert — een vijfde uitzondering, een nua
 
 2. **Praktijkvoorbeeld**: voeg meteen een `[!info]- In de praktijk` blok toe. Een nuance die alleen in abstracte termen beschreven staat, beklijft niet. Een concrete situatie maakt ze onthoudbaar.
 
-### Kritische lezing na het schrijven van de materie
+### Kritische lezing
 
 Lees elke zin door vanuit het standpunt van een student die de stof voor het eerst ziet. Stelregel: **als een student bij het lezen een vraag heeft die de tekst niet beantwoordt, is de zin onvolledig.**
 
@@ -931,63 +976,52 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 | Twee secties over hetzelfde thema | Samenvoegen tot één sectie |
 | Eén sectie over twee ongerelateerde thema's | Opsplitsen in twee secties |
 
-## Zelf-reflectiestappen
+## Technisch
 
-Elke stap heeft een bijhorende reflectie. De workflow verwijst ernaar bij naam. Ze zijn hier samen gedefinieerd om herhaling te vermijden.
+### Mappenstructuur
+```
+certificaid/
+├── CLAUDE.md
+├── quartz.config.ts        # Quartz-configuratie (titel, plugins, baseUrl)
+├── quartz.layout.ts        # Quartz-layout (sidebar, zoeken, backlinks)
+├── quartz/                 # gitignored — copy van node_modules na `npm install`
+├── package.json            # devDependency: @jackyzha0/quartz van GitHub
+├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # Build & deploy naar GitHub Pages bij push op main
+├── content/
+│   ├── index.md
+│   ├── programmaonderdelen/ # Catalogus: per vak welke competenties + materie + synthese-oefeningen
+│   ├── competenties/        # Technieken: aanbevolen werkwijze per toetsbaar vaardigheidtype
+│   ├── materie/             # Kennis: één concept/fenomeen per fiche
+│   └── wetteksten/          # Wetgeving als doorzoekbare content — primaire bron voor materie
+│       ├── index.md         # Overzicht alle secties met status en links
+│       ├── XVII-antiwitwaswet.md
+│       ├── XXI-wet-itaa.md
+│       ├── XIII-wer/        # WER gesplitst per Boek
+│       └── ...              # Overige secties (✅ beschikbaar of ⏳ placeholder)
+│   # Toekomstig: bronnen/normen/ (ITAA-normen) en bronnen/adviezen/ (CBN) — nog aan te maken
+├── tools/
+└── resources/
+    ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
+    ├── programma.pdf            # ITAA-brochure bekwaamheidsexamen (gitignored)
+    ├── wetteksten/
+    │   ├── *.md                 # Gestructureerde wetteksten — primaire referentie (zie §Lokale wetteksten)
+    │   ├── status.md            # Download-status en todo voor ontbrekende wetteksten
+    │   └── raw/                 # Gitignored: ruwe PDFs en tussentijdse .txt-bestanden
+    ├── normen/
+    │   ├── *.md                 # ITAA-normen als gestructureerde markdown
+    │   └── raw/                 # Gitignored: bron-PDFs
+    └── voorbeeldexamens/        # Gitignored: PDF's van vroegere examens
+```
 
-### Reflectie 2A — Volledigheid competentie-identificatie
+### Publicatie
+- Site: https://stivni.github.io/certificaid
+- Lokaal testen: `npm install && npm run dev` → http://localhost:8080
+- Deploy triggert automatisch bij wijzigingen in `content/`, `quartz.config.ts` of `quartz.layout.ts`
 
-Controleer vóór je naar Stap 2B gaat:
-
-- Zijn **alle** taken én subtaken doorlopen — ook de minder prominente?
-- Dekt de lijst de vraagtypen die in de voorbeeldexamens voorkomen voor dit vak?
-- Zijn er technieken impliciet verondersteld in de kenniselementen die nog geen competentie hebben?
-- Zijn de competenties op de juiste granulariteit? Geen te brede ("alles over jaarrekeningen") en geen te smalle ("bereken één specifieke ratio")?
-- Is elke competentie gelinkt aan de materie-bouwstenen die ze nodig heeft?
-- Zijn er competenties die ook voor een ander vak relevant zijn — en dus gedeeld zouden moeten worden?
-
-### Reflectie 3A — Kwaliteit materie-fiche
-
-Zie: **Wettekstverificatie** en **Kritische lezing** hieronder — die zijn de Reflectie 3A voor materie-fiches.
-
-### Reflectie 3B — Kwaliteit competentie-fiche
-
-Controleer na het schrijven van een competentie-fiche:
-
-- Heeft elke stap een duidelijke **uitkomst** — weet de student wat hij na deze stap weet of heeft bepaald?
-- Is de **volgorde** logisch? Heeft elke stap de output van de vorige stap als input?
-- Staat de **normale situatie** echt vooraan, en zijn uitzonderingen aanvullingen — niet omgekeerd?
-- Zijn de **valkuilen** geplaatst bij de stap waar ze horen — niet verzameld onderaan?
-- Verwijst elke stap naar de **juiste materie-sectie** (specifiek anker, niet alleen het fiche-niveau)?
-- Is er geen inhoud die eigenlijk **in materie thuishoort** maar nu in de competentie herhaald wordt?
-- Zijn de **voorbeelden** concreet genoeg — bevat elk voorbeeld conclusie + grondslag + redenering?
-- Is het "Motiveren op het examen"-blok volledig: bevat het een checklist van wat een volledig antwoord bevat?
-
-### Reflectie 4 — Volledigheid programmaonderdeel-fiche
-
-Controleer na het afwerken van de programmaonderdeel-fiche:
-
-- Is elke taak gekoppeld aan minstens één competentie-fiche?
-- Zijn alle kenniselementen gelinkt aan een materie-sectie — geen bullet zonder link?
-- Kan een student die enkel "Relevante competenties" en "Relevante materie" doorloopt alle examenstof zien?
-- Staan de competenties in leeslogische volgorde (basiscompetenties vóór samengestelde)?
-
----
-
-### Stap 4 — Programmaonderdeel-fiche afwerken
-1. Koppel elke taak aan de bijhorende competentie-fiche(s) via een `→ Competentie:` verwijzing
-2. Vul de kenniselement-bullets in met links naar de juiste secties in de materie-fiches
-3. Vul "Relevante competenties" in — in leeslogische volgorde (basiscompetenties vóór samengestelde)
-4. Vul "Relevante materie" in — in leeslogische volgorde (begrippen vóór toepassingen, wetgeving vóór analyse)
-5. Doorloop **→ Reflectie 4** en de verificatiestap (zie "Verificatiestap na het schrijven van een programmaonderdeel-fiche")
-
-**Niet opnemen in een programmaonderdeel-fiche**: een sectie "Aangehaalde wetteksten" of soortgelijk overzicht van bronnen — bronnen worden inline vermeld in de materie-fiches zelf, niet in de vakfiche.
-
-### Stap 5 — Validatie door de gebruiker
-- Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
-- Wanneer gebruiker volledig tevreden is: `wip`-tag verwijderen, `status: geverifieerd`
-
-## Quartz: documentatie eerst raadplegen
+### Quartz
 
 Bij elke wijziging aan Quartz layout, componenten of styling:
 1. Controleer https://quartz.jzhao.xyz/layout voor beschikbare componenten en opties

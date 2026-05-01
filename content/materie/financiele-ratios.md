@@ -1,8 +1,10 @@
 ---
-tags: ["1.2", materie]
+tags: ["1.2", "1.3", wip, materie]
 niveau: integratie
-status: geverifieerd
-bronnen: []
+status: draft
+bronnen:
+  - KB 21/10/2018 (MAR — genormaliseerde rekeningcodes)
+  - Voorbeeldexamens ITAA 2013–2024 (formule-componenten 📝)
 itaa-lex: ""
 ---
 
@@ -16,18 +18,41 @@ Financiële ratio's zetten twee grootheden uit de jaarrekening in verhouding tot
 
 Meten of de onderneming haar **kortlopende verplichtingen** kan nakomen vanuit haar **vlottende activa**.
 
-**Current ratio** (liquiditeit in ruime zin)
-= Vlottende activa / Kortlopend vreemd vermogen
+**Liquiditeit in ruime zin** (current ratio)
+= Vlottende activa / Schulden op korte termijn
+
+| Component | NBB-code |
+|---|---|
+| Vlottende activa | 29/58 |
+| Schulden KT | 42/48 |
 
 Een waarde > 1 betekent dat de vlottende activa ruimer zijn dan de kortlopende schulden. Absolute normen bestaan niet — een current ratio van 1,2 kan gezond zijn in de retail (snelle voorraadomzet) maar risicovol in de bouw (trage inning vorderingen).
 
-**Quick ratio** (liquiditeit in enge zin)
-= (Vlottende activa − Voorraden) / Kortlopend vreemd vermogen
+**Liquiditeit in enge zin** (quick ratio)
+= (Vlottende activa − Voorraden) / Schulden op korte termijn
 
-Strenger dan de current ratio: voorraden zijn minder snel omzetbaar in geld. Een quick ratio > 1 geeft aan dat de onderneming ook zonder voorraden te liquideren haar kortlopende schulden kan betalen.
+| Component | NBB-code |
+|---|---|
+| Vlottende activa | 29/58 |
+| Voorraden | 3 |
+| Schulden KT | 42/48 |
 
-**Nettokaspositie**
-= Liquide middelen − Kortlopende financiële schulden
+Strenger: voorraden zijn minder snel omzetbaar in geld. Een quick ratio > 1 geeft aan dat de onderneming ook zonder voorraden te liquideren haar kortlopende schulden kan betalen.
+
+📝 *Voorbeeldexamen 2014: "(1 739 806 + 2 200 000 + 2 548 415 + 2 704) : (1 210 536 + 39 932)" — noemer omvat twee aparte schuldenrubrieken*
+
+**Nettothesaurie**
+= Geldbeleggingen + Liquide middelen − Kortlopende financiële schulden
+
+| Component | NBB-code |
+|---|---|
+| Geldbeleggingen | 50/53 |
+| Liquide middelen | 54/58 |
+| Kortlopende financiële schulden | 43 |
+
+Een positieve nettothesaurie betekent dat de liquiditeiten de kortetermijnleningen overtreffen. Meet de cashpositie netto van financieel vreemd vermogen.
+
+📝 *Te definiëren in voorbeeldexamen 2014*
 
 → zie ook [[jaarrekeninganalyse#📌-balansaggregaten|balansaggregaten]]
 
@@ -40,11 +65,23 @@ Meten de financiële **weerbaarheid op lange termijn**: in welke mate is de onde
 **Graad van financiële onafhankelijkheid**
 = Eigen vermogen / Totaal passief
 
+| Component | NBB-code |
+|---|---|
+| Eigen vermogen | 10/15 |
+| Totaal passief | 10/49 |
+
 Hoe hoger, hoe minder afhankelijk van schuldeisers. Er is geen universele norm — een handelsonderneming kan met 25% eigen vermogen gezond zijn, terwijl een bank structureel lagere ratio's hanteert.
 
-**Schuldratio**
-= Totaal vreemd vermogen / Totaal passief
+📝 *Stellingen ivm financiële onafhankelijkheid verschijnen als juist/fout-vraag in voorbeeldexamen 2024*
+
+**Algemene schuldgraad** (schuldratio)
+= Totale schulden / Totaal passief
 = 1 − Graad van financiële onafhankelijkheid
+
+| Component | NBB-code |
+|---|---|
+| Totale schulden | 17 + 42/48 |
+| Totaal passief | 10/49 |
 
 **Dekking van financiële schulden**
 = Netto financiële schulden / EBITDA
@@ -57,51 +94,197 @@ Geeft aan hoeveel jaar het duurt om de nettoschuld af te bouwen met de operation
 
 Meten hoe **winstgevend** de onderneming is ten opzichte van haar vermogen of activiteiten.
 
-**Return on Equity (ROE)**
-= Nettowinst / Eigen vermogen
+**Brutoverkoopmarge**
+= Toegevoegde waarde / Netto-omzet × 100
 
-Rendement voor de aandeelhouder: hoeveel euro winst per euro eigen vermogen.
+| Component | NBB-code |
+|---|---|
+| Toegevoegde waarde | 9900 (= 70/74 − 60/61) |
+| Netto-omzet | 70 |
 
-**Return on Assets (ROA)**
-= EBIT / Totaal activa
+Toont welk percentage van de omzet overblijft na de directe productiekosten, vóór personeels- en overheadkosten.
 
-Rendement op het totale geïnvesteerde vermogen, ongeacht de financieringsstructuur. EBIT wordt gebruikt (niet nettowinst) omdat nettowinst beïnvloed wordt door de financieringsstructuur (rentekost) en belastingen — beide vallen buiten de operationele efficiëntie van het activabeheer.
+📝 *Zwaar gewogen in elk voorbeeldexamen. Subsidies beïnvloeden de uitkomst — zie valkuil hieronder.*
+
+> [!warning]- Exploitatiesubsidies en de brutoverkoopmarge
+> ❌ *"Exploitatiesubsidies tel ik altijd op bij de omzet in de noemer."*
+>
+> Exploitatiesubsidies (rubriek 740) verhogen de toegevoegde waarde maar zijn geen omzet. Of ze in de teller en/of noemer worden meegenomen, hangt af van de definitie die het examen gebruikt. Het examen specificeert dit expliciet in de toelichting: *"Er werden exploitatiesubsidies aangerekend voor X euro"* of *"intrestsubsidies van X euro"*. Lees de toelichting voor je berekent.
+>
+> 📝 *Terugkerend aandachtspunt in voorbeeldexamens 2013–2015*
+
+**Nettorentabiliteit van het totaal der activa vóór belastingen en financiële kosten** (ROA)
+= (Resultaat vóór belastingen + Financiële kosten − Intrestsubsidies) / Totaal activa × 100
+
+| Component | NBB-code |
+|---|---|
+| Resultaat vóór belastingen | 9903 |
+| Financiële kosten | 65 |
+| Intrestsubsidies | 740 (deel) |
+| Totaal activa | 20/58 |
+
+Rendement op het totale geïnvesteerde vermogen, ongeacht de financieringsstructuur. Intrestsubsidies worden afgetrokken omdat ze de werkelijke financiële kost verlagen en anders de ratio kunstmatig verhogen.
+
+📝 *Voorbeeldexamen 2014: "((877 279 + 46 934 + 211 950 – 6 000) : 9 081 054) % = 12,45" — de 6 000 EUR is de intrestsubsidie*
+
+**Netto rendabiliteit van de bedrijfsactiva**
+= Bedrijfsresultaat / Totaal activa × 100
+
+| Component | NBB-code |
+|---|---|
+| Bedrijfsresultaat | 9901 |
+| Totaal activa | 20/58 |
+
+Meet de operationele efficiëntie, los van financiering en belastingen.
+
+📝 *Te definiëren als begrip in voorbeeldexamen 2013/1*
+
+**Nettorentabiliteit van het eigen vermogen na belastingen** (ROE)
+= Nettoresultaat / Eigen vermogen vóór winstverdeling × 100
+
+| Component | NBB-code |
+|---|---|
+| Nettoresultaat | 9905/9906 |
+| Eigen vermogen (begin boekjaar) | 10/15 vóór winstverdeling |
+
+Rendement voor de aandeelhouder. Als noemer gebruik je het eigen vermogen **vóór** toevoeging van de winst van het boekjaar — dat is het kapitaal waarop de winst werd behaald.
+
+📝 *Voorbeeldexamen 2015: "968 829 × 100 / 8 177 941 = 11,85" — EV vóór winstverdeling als noemer*
 
 **EBITDA-marge**
 = EBITDA / Netto-omzet
 
-Operationele winstgevendheid voor afschrijvingen en financiering — nuttig voor sectoren met hoge kapitaalsinvesteringen.
-
-**Brutomargeverhouding**
-= (Omzet − Kostprijs van de verkopen) / Omzet
-
-Toont welk percentage van de omzet overblijft na de directe productiekosten, vóór personeels- en overheadkosten.
+Operationele winstgevendheid voor afschrijvingen en financiering — nuttig voor sectoren met hoge kapitaalsinvesteringen. Minder gebruikelijk op het ITAA-examen; verschijnt als `operationele cash flow` (zie cashflowratio's).
 
 ---
 
-## 📌 Activiteitsratio's
+## 📌 Activiteitsratio's en kengetallen
 
 Meten hoe **efficiënt** de onderneming haar activa en passiva beheert in de bedrijfscyclus.
 
-**Omloopsnelheid voorraden** (in dagen)
-= (Voorraden / Omzet) × 365
+**Bruto toegevoegde waarde per werknemer**
+= Toegevoegde waarde / Aantal werknemers (VTE)
 
-Gemiddeld aantal dagen dat goederen in stock liggen. Hoge waarde = langzame omzet; lage waarde = snelle rotatie.
+| Component | NBB-code |
+|---|---|
+| Toegevoegde waarde | 9900 |
+| Werknemers (VTE) | sociale balans of toelichting |
 
-**Klantenbetalingstermijn (DRO — Days Receivable Outstanding)**
-= (Handelsvorderingen / Omzet) × 365
+Meet arbeidsproductiviteit. Het gemiddeld aantal VTE staat in de sociale balans of wordt gegeven in de toelichtinggegevens van het examen.
 
-Gemiddeld aantal dagen dat klanten nodig hebben om te betalen.
+📝 *Voorbeeldexamen 2014: "(7 441 663 – 3 185 295 – 1 192 317) : 38,20 = 80 210,76"*
 
-**Leveranciersbetalingstermijn (DPO — Days Payable Outstanding)**
-= (Leveranciersschulden / Aankopen) × 365
+**Personeelskosten ten opzichte van de toegevoegde waarde**
+= Bezoldigingen en sociale lasten / Toegevoegde waarde × 100
 
-Gemiddeld aantal dagen dat de onderneming er over doet om leveranciers te betalen. Hoe hoger, hoe meer de onderneming haar leveranciers als "financiering" gebruikt.
+| Component | NBB-code |
+|---|---|
+| Bezoldigingen en sociale lasten | 62 |
+| Toegevoegde waarde | 9900 |
+
+Hoe lager, hoe meer marge na personeelskosten. Sectorspecifiek.
+
+📝 *Voorbeeldexamen 2013/1 en 2015*
+
+**Rotatie van de voorraad**
+= Kostprijs van de verkochte goederen / Gemiddelde voorraad
+
+| Component | NBB-code |
+|---|---|
+| Kostprijs verkochte goederen | 60 + voorraadwijziging |
+| Gemiddelde voorraad | (openings- + sluitingsvoorraad) / 2, rubriek 3 |
+
+Hoe hoger, hoe sneller de voorraad omloopt. Gebruik **kostprijs van de verkopen** (niet aankoopprijs) en **gemiddelde voorraad** (niet eindvoorraad).
+
+📝 *Voorbeeldexamen 2015: antwoord C = 3.457.309 / 1.344.750 = 2,57 — gemiddelde voorraad als noemer, kostprijs als teller*
+
+> [!warning]- Eindvoorraad vs. gemiddelde voorraad bij voorraadrotatie
+> ❌ *"Ik gebruik de eindvoorraad als noemer — dat zijn de meest recente gegevens."*
+>
+> De eindvoorraad is een momentopname en gevoeliger voor seizoenseffecten. De gemiddelde voorraad (begin + einde / 2) geeft een representatiever beeld van de voorraad die gedurende het jaar aangehouden werd. Het examen bevat doorgaans zowel eind- als gemiddelde voorraad — kies de juiste.
+>
+> 📝 *Valkuil zichtbaar in voorbeeldexamen 2015: antwoorden A en B gebruiken eindvoorraad en geven te hoge rotatie*
+
+**N-dagen klantenkrediet**
+= Handelsvorderingen / Omzet incl. btw × 365
+
+| Component | NBB-code |
+|---|---|
+| Handelsvorderingen KT | 40 |
+| Omzet incl. btw | 70 × btw-factor |
+
+⚠️ **Niet beschikbaar in het verkort schema** — handelsvorderingen staan niet apart in het verkort schema. Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]].
+
+**Leveranciersbetalingstermijn**
+= Leveranciersschulden / Aankopen × 365
+
+Hoe hoger, hoe meer de onderneming haar leveranciers als financiering gebruikt.
 
 **Werkkapitaalcyclus**
-= Omloopsnelheid voorraden + Klantenbetalingstermijn − Leveranciersbetalingstermijn
+= N-dagen voorraden + N-dagen klantenkrediet − Leveranciersbetalingstermijn
 
 Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
+
+---
+
+## 📌 Aandeelhoudersratio's
+
+**Intrinsieke waarde** (per aandeel)
+= Eigen vermogen / Aantal aandelen
+
+Het bedrag dat een aandeelhouder per aandeel zou ontvangen als de vennootschap tegen boekwaarde geliquideerd zou worden. Verschilt van de beurskoers (marktprijs) en van de fractiewaarde.
+
+📝 *Te definiëren als begrip in voorbeeldexamen 2013/1*
+
+**Fractiewaarde** (per aandeel)
+= Geplaatst kapitaal / Aantal aandelen
+
+Het gedeelte van het geplaatst kapitaal dat één aandeel vertegenwoordigt. Juridisch begrip: de fractiewaarde bepaalt de minimumemissieprijs bij nieuwe aandelen. Niets te maken met de beurskoers of de intrinsieke waarde.
+
+📝 *Te definiëren als begrip in voorbeeldexamen 2013/1*
+
+> [!warning]- Intrinsieke waarde ≠ fractiewaarde ≠ beurskoers
+> ❌ *"De intrinsieke waarde van een aandeel is gelijk aan de fractiewaarde."*
+>
+> - **Fractiewaarde** = geplaatst kapitaal / aantal aandelen → juridisch minimum, alleen kapitaal
+> - **Intrinsieke waarde** = volledig eigen vermogen / aantal aandelen → boekwaarde per aandeel, inclusief reserves en resultaten
+> - **Beurskoers** = marktprijs → gebaseerd op toekomstige verwachtingen, los van boekwaarden
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## 🔢 Cashflowratio's
+
+**Operationele cash flow voor belastingen** (bruto cash flow)
+= Bedrijfsresultaat + Afschrijvingen en waardeverminderingen
+
+| Component | NBB-code |
+|---|---|
+| Bedrijfsresultaat | 9901 |
+| Afschrijvingen MVA en IVA | 630/631 |
+| Waardeverminderingen op vlottende activa | 634 |
+
+Meet de kasstroom die de operationele activiteit genereert, vóór belastingen en vóór investeringen. Een positieve operationele cash flow bij een verlieslatende onderneming is mogelijk als de afschrijvingen hoog zijn.
+
+📝 *Te berekenen én te definiëren in voorbeeldexamen 2013/1 en 2013/2*
+
+---
+
+## 🔎 Schema-beperkingen
+
+Vennootschappen die het **verkort schema** mogen gebruiken, publiceren minder detail. Dit beperkt welke ratio's berekend kunnen worden:
+
+| Ratio | Volledig schema | Verkort schema |
+|---|---|---|
+| Liquiditeitsratio's | ✓ | ✓ |
+| Rentabiliteitsratio's (bruto) | ✓ | Beperkt |
+| N-dagen klantenkrediet | ✓ | ✗ — handelsvorderingen niet apart |
+| Personeelskosten / TAW | ✓ | ✗ — bezoldigingen niet apart |
+| Bruto TAW per werknemer | ✓ | ✗ |
+| Rotatie voorraden | ✓ | Beperkt |
+
+📝 *Voorbeeldexamen 2024: "welke ratio kan je niet berekenen op basis van een verkort schema → n-dagen klantenkrediet"*
 
 ---
 
@@ -185,6 +368,19 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
+
+Kenniselementen:
+- Ratio's als instrument voor analyse en beoordeling
+
+**[[1.3-analyse-en-kritische-beoordeling-jaarrekening|1.3 Analyse en kritische beoordeling van de jaarrekening]]**
+
+Taken:
+- *Analyse en beoordeling van de financiële situatie aan de hand van de jaarrekeningen, ratio's en kengetallen*
+  - In staat zijn om de jaarrekeningen kritisch te bekijken
+
+Kenniselementen:
+- I.C.2 — Andere documenten: ratio's, financieringstabel, boordtabel
+- II.C.5 — Falingspredictie / going concern (Altman Z-score maakt gebruik van ratio's)
 
 ### Voorbeeldvragen
 
@@ -270,6 +466,3 @@ Hoe langer de cyclus, hoe meer financiering de bedrijfsactiviteit vereist.
 >
 > 🤖 *AI-aanvulling*
 
-Taken:
-- *Opstellen van de individuele jaarrekening*
-  - Berekenen van de ratio's en ze interpreteren (doelstelling 4)
