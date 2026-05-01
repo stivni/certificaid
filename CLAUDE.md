@@ -853,6 +853,7 @@ Schrijf de geïdentificeerde competentie-links **direct in de vakfiche** bij de 
 
 **Kwaliteitscheck vóór Stap 2B:**
 - Zijn **alle** taken én subtaken doorlopen — ook de minder prominente?
+- Is elke **doelstelling** (niet alleen elke taak) gekoppeld aan minstens één competentie? Doelstellingen zijn soms afzonderlijk toetsbaar ook al vallen ze onder dezelfde taak.
 - Dekt de lijst de vraagtypen die in de voorbeeldexamens voorkomen voor dit vak?
 - Zijn er technieken impliciet verondersteld in de kenniselementen die nog geen competentie hebben?
 - Zijn de competenties op de juiste granulariteit? Geen te brede ("alles over jaarrekeningen") en geen te smalle ("bereken één specifieke ratio")?
