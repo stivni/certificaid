@@ -967,6 +967,8 @@ Typische signaalzinnen die te vaag zijn:
 | "Er zijn bepaalde voorwaarden" | Welke? Hoeveel? |
 | "De bevoegde autoriteit" | Welke autoriteit? |
 | "In sommige gevallen" | In welke gevallen precies? |
+| "Herstructureer de balans naar een functionele indeling" | Welke rubrieken tel ik bij elkaar op? Wat is de NBB-code? |
+| "Groepeer de vlottende activa" | Welke posten vallen daaronder? Is rubriek X erbij of niet? |
 
 De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwijzen naar een artikel zonder de inhoud te geven. De student heeft ITAA-LEX bij zich maar moet weten **wat** hij moet opzoeken en **waarom** — niet de interpretatie zelf moeten doen.
 
