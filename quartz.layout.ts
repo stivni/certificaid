@@ -8,18 +8,10 @@ const explorerOpts = {
       node.displayName = node.file.frontmatter.explorer_title
       return node
     }
-    // Folder display names
-    if (node.slugSegment === "programmaonderdelen") {
-      node.displayName = "Programmaonderdelen"
-    } else if (node.slugSegment === "materie") {
-      node.displayName = "Materie"
-    } else if (node.slugSegment === "itaa-lex") {
-      node.displayName = "ITAA-LEX"
-    }
     return node
   },
   sortFn: (a: any, b: any) => {
-    const order = ["programmaonderdelen", "materie", "itaa-lex"]
+    const order = ["programmaonderdelen", "competenties", "materie", "bronnen"]
     const ai = order.indexOf(a.slugSegment)
     const bi = order.indexOf(b.slugSegment)
     if (ai !== -1 && bi !== -1) return ai - bi
