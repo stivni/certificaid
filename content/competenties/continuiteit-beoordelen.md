@@ -41,7 +41,7 @@ Stel een overzicht op van alle signalen. Groepeer ze in drie categorieën:
 - Lopende procedures met potentieel grote claims
 - Intrekking van vergunningen of nadelige wetswijzigingen
 
-→ Volledig overzicht met toelichting per signaal: [[continuiteitsrisico#-signalen-van-continuïteitsrisico|Signalen van continuïteitsrisico]]
+Volledig overzicht: [[continuiteitsrisico#-signalen-van-continuïteitsrisico|Signalen van continuïteitsrisico]]
 
 ---
 
@@ -63,7 +63,7 @@ Niet elk alarmsignaal wijst op een structureel probleem. Beoordeel of er een aan
 | Negatieve vrije kasstroom | Grote éénmalige investering (capex) | Splits kasstroom: positieve operationele ≠ continuïteitsrisico |
 | Nettoactief nadert drempel NV | Drempel triggert procedure, niet faillissement | Bekijk kasstromen en herstelplan |
 
-→ Zie [[continuiteitsrisico#-misleidende-continuïteitssignalen|Misleidende continuïteitssignalen]] voor uitgewerkte toelichting per patroon.
+Zie [[continuiteitsrisico#-misleidende-continuïteitssignalen|Misleidende continuïteitssignalen]] voor uitgewerkte toelichting per patroon.
 
 > [!warning]- Eén negatief signaal gelijkstellen aan een continuïteitsrisico
 > ❌ *"De current ratio is onder 1 — er is een continuïteitsrisico."*
@@ -169,7 +169,7 @@ De meldingsplicht van de gecertificeerd accountant (GA) is geregeld in WER art. 
 2. **Responstermijn: 1 maand**
 3. **Geen of onvoldoende reactie**, of als faillissement op korte termijn onvermijdelijk lijkt → melding aan de **voorzitter van de ondernemingsrechtbank**
 
-→ Zie [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|Meldingsplicht van de beroepsbeoefenaar]] voor volledige toelichting.
+Zie [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|Meldingsplicht van de beroepsbeoefenaar]] voor volledige toelichting.
 
 > [!warning]- ISA 570 als juridische grondslag vermelden
 > ❌ *"Volgens ISA 570 moet de accountant de continuïteit beoordelen en eventueel de rechtbank inlichten."*

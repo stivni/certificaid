@@ -73,9 +73,15 @@ Een competentie is zelfstandig toetsbaar op het examen en combineert meerdere ma
 
 Een competentie citeert materie kort als context voor een stap, maar de volledige uitleg staat altijd in de materie-fiche. Omgekeerd vermeldt een materie-fiche niet hoe de informatie in een taakcontext gebruikt wordt — dat is de rol van de competentie.
 
-**Concrete ankerpunten in competentie-stappen**: geef bij een verwijzing naar materie altijd 1–3 concrete voorbeelden of sleutelwoorden zodat de student weet waar ze mee bezig zijn — dan pas de link naar de volledige uitleg.
-- ✓ "Groepeer rubrieken per categorie (bv. `29/58` = vlottende activa, `10/15` = EV) → zie [[jaarrekeninganalyse#-nbb-mapping|volledige mapping]]"
-- ✗ "Groepeer rubrieken → zie [[jaarrekeninganalyse]]" (te kaal: de student weet niet wat ze gaan vinden)
+**Concrete ankerpunten bij links** — geldt voor alle fiches (materie én competentie): geef bij een verwijzing naar een andere fiche altijd 1–3 concrete voorbeelden of sleutelwoorden, dan pas de link naar de volledige uitleg.
+- ✓ "Groepeer rubrieken per categorie (bv. `29/58` = vlottende activa, `10/15` = EV) — volledige mapping: [[jaarrekeninganalyse#-analytische-indeling-van-de-balans|Analytische indeling balans]]"
+- ✗ "Groepeer rubrieken, zie [[jaarrekeninganalyse]]" — te kaal: de student weet niet wat ze gaan vinden
+
+**Gebruik van `→`** — de pijl heeft twee geldige toepassingen; gebruik hem nergens anders:
+- Logische flow in tekst: "oorzaak → gevolg", "A → B → C"
+- PO-fiche takenbullet: `- → [[competentie|Naam]]` — semantische markering van een competentielink
+
+Gebruik **geen** `→` als vervanging voor een gewone link in lopende tekst: schrijf `[[link|Beschrijving]]` of `Zie [[link|Beschrijving]]`, niet `→ Zie [[link]]`.
 
 ### Terminologie
 
@@ -393,6 +399,10 @@ Enkelvoudig: één bullet (ook al is het er maar één — altijd bullet voor co
 **itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
 
 **Grondslagen** rechtvaardigen specifieke beslissingen binnen een stap — inline bij de beslissing, niet als aparte sectie.
+
+**Inhoud in de juiste laag**: als een stap kennis over een begrip of definitie nodig heeft, staat die kennis in de materie-fiche — niet herschreven in de competentie. De stap verwijst ernaar met een concreet ankerpunt (zie §Aanpak > Materie vs. competentie).
+
+**Voorbeelden verplicht**: voeg bij elke competentie minstens één concreet uitgewerkt voorbeeld toe met Situatie / Conclusie / Grondslag / Redenering. Een werkwijze zonder voorbeeld is onvolledig.
 
 **Voorbeeldvragen**: zelfde format als materie-fiches (`[!question]-` genest met `[!success]-`). Raadpleeg eerst `resources/voorbeeldexamens/` voor echte examenvragen.
 
@@ -884,15 +894,11 @@ Voor elke nieuwe competentie, in deze volgorde — alles in één doorloop, geen
 3. **Voorbeeldvragen** — zelfde aanpak als materie-fiches; raadpleeg eerst `resources/voorbeeldexamens/`
 4. **Links** — elke stap verwijst naar de juiste materie-sectie of andere competentie
 
-**Kwaliteitscheck na schrijven:**
-- Heeft elke stap een duidelijke **uitkomst** — weet de student wat hij na deze stap heeft bepaald?
-- Is de **volgorde** logisch? Heeft elke stap de output van de vorige stap als input?
-- Staat de **normale situatie** vooraan, zijn uitzonderingen aanvullingen?
-- Zijn **valkuilen** bij de stap geplaatst die ze triggert — niet verzameld onderaan?
-- Verwijst elke stap naar de **juiste materie-sectie** (specifiek anker)?
-- Is er geen inhoud die eigenlijk **in materie thuishoort**?
-- Zijn **voorbeelden** concreet genoeg: conclusie + grondslag + redenering?
-- Is het "Motiveren op het examen"-blok volledig?
+**Kwaliteitscheck na schrijven** — volgt rechtstreeks uit de §Regels hierboven:
+- Heeft elke stap een 📥 én een 📤? Is de uitkomst concreet genoeg?
+- Zijn er stappen die output gebruiken van een latere stap? (verkeerde volgorde)
+- Is het "Motiveren op het examen"-blok aanwezig en volledig?
+- Is er minstens één concreet voorbeeld met Situatie / Conclusie / Grondslag / Redenering?
 
 ### Stap 4 — Programmaonderdeel-fiche afwerken
 De inline competentie-links (bij taken) en materie-links (bij kenniselementen) zijn al toegevoegd in Stap 2A/2B. Stap 4 finaliseert de aggregatielijsten en controleert volledigheid:
@@ -976,19 +982,13 @@ Typische signaalzinnen die te vaag zijn:
 
 De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwijzen naar een artikel zonder de inhoud te geven. De student heeft ITAA-LEX bij zich maar moet weten **wat** hij moet opzoeken en **waarom** — niet de interpretatie zelf moeten doen.
 
-**Controleer ook de logische structuur van elke paragraaf en de fiche als geheel:**
+**Controleer ook de structuur** — controleer of de §Schrijfstijlregels gevolgd zijn. Aandachtspunten die makkelijk gemist worden:
 
 | Structuurprobleem | Correctie |
 |---|---|
-| Uitzondering vóór de hoofdregel | Hoofdregel eerst, dan "behalve wanneer..." |
-| Gevolg vóór oorzaak | Oorzaak → gevolg: "X leidt tot Y", niet "Y wordt opgelegd wanneer X" |
+| Gevolg vóór oorzaak | "X leidt tot Y", niet "Y wordt opgelegd wanneer X" |
 | Passieve zin verbergt de actor | Herschrijf actief: wie doet wat? |
-| Items in een lijst niet parallel | Zorg dat alle items dezelfde grammaticale structuur volgen |
-| Informatie staat twee keer | Eén keer, en wikilink naar de sectie waar het uitgelegd is |
-| Term gebruikt vóór hij uitgelegd is | Sectievolgorde aanpassen of begrip eerder introduceren |
-| Sanctie staat ver van de verplichting | Sanctie direct na de verplichting plaatsen |
 | Vergelijking staat vóór de begrippen | Tabel pas na introductie van alle betrokken concepten |
-| Twee secties over hetzelfde thema | Samenvoegen tot één sectie |
 | Eén sectie over twee ongerelateerde thema's | Opsplitsen in twee secties |
 
 ### Feedback als verbeterimpuls

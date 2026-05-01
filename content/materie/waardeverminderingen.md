@@ -90,7 +90,7 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > >
 > > **C — € 392.000.**
 > >
-> > FIFO: de 100 verkochte stuks zijn de oudste (à € 350). Resterend: 900 stuks à € 350 = € 315.000 en 500 stuks à € 300 = € 150.000 → [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-boekwaarde]] = € 465.000. Maar de marktwaarde (€ 280) ligt lager dan beide kostprijzen: een [[waardeverminderingen#-waardevermindering|waardevermindering]] is verplicht voor het volledige saldo. 1.400 stuks × € 280 = **€ 392.000**.
+> > FIFO: de 100 verkochte stuks zijn de oudste (à € 350). Resterend: 900 stuks à € 350 = € 315.000 en 500 stuks à € 300 = € 150.000 [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-boekwaarde]] = € 465.000. Maar de marktwaarde (€ 280) ligt lager dan beide kostprijzen: een [[waardeverminderingen#-waardevermindering|waardevermindering]] is verplicht voor het volledige saldo. 1.400 stuks × € 280 = **€ 392.000**.
 > >
 > > *Zie: [[waardeverminderingen#-waardevermindering|Waardevermindering]] · [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-methode]]*
 >

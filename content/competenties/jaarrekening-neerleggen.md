@@ -63,8 +63,8 @@ Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 | Document | Verplicht voor |
 |---|---|
 | Jaarrekening (balans + resultatenrekening + toelichting) | Alle neerleggingsplichtige entiteiten |
-| Jaarverslag | Grote vennootschappen + kleine met beursgenoteerde effecten → [[jaarverslag]] |
-| Commissarisverslag | Entiteiten met aangestelde commissaris → [[jaarrekening#-commissaris]] |
+| Jaarverslag | Grote vennootschappen + kleine met beursgenoteerde effecten [[jaarverslag]] |
+| Commissarisverslag | Entiteiten met aangestelde commissaris [[jaarrekening#-commissaris]] |
 | Sociale balans | Entiteiten met werknemers |
 
 **Uitzondering — kleine vennootschappen**: mogen een verkorte toelichting neerleggen (WVV art. 3:11). Microvennootschappen mogen het microschema gebruiken.

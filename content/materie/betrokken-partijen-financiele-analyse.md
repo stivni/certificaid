@@ -45,11 +45,11 @@ Naast de gebruikers zijn er partijen die een formele toezichtsfunctie hebben ove
 
 **Vennoten en aandeelhouders** ontvangen de jaarrekening vóór de jaarlijkse algemene vergadering. Ze kunnen vragen stellen aan het bestuursorgaan en verlenen kwijting voor het gevoerde beleid. De kwijting geldt als goedkeuring van het beheer voor het betrokken boekjaar. ([[wetteksten/XV-wvv#art-36|WVV]])
 
-**Commissaris** (bedrijfsrevisor): in vennootschappen die verplicht zijn een commissaris aan te stellen, controleert de commissaris de jaarrekening op regelmatigheid, getrouwheid en nauwkeurigheid, en stelt een controleverslag op. → Zie [[jaarrekening#-commissaris|commissaris]]
+**Commissaris** (bedrijfsrevisor): in vennootschappen die verplicht zijn een commissaris aan te stellen, controleert de commissaris de jaarrekening op regelmatigheid, getrouwheid en nauwkeurigheid, en stelt een controleverslag op. Zie [[jaarrekening#-commissaris|commissaris]]
 
 **Ondernemingsraad**: in ondernemingen met meer dan 100 werknemers ontvangt de ondernemingsraad economische en financiële informatie, inclusief een vereenvoudigd financieel plan en de jaarrekening.
 
-**Kamers voor Ondernemingen in Moeilijkheden (KOM)**: onderdeel van de ondernemingsrechtbank. De KOM kan ambtshalve de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen en maatregelen opleggen of begeleiden. → Zie [[continuiteitsrisico]]
+**Kamers voor Ondernemingen in Moeilijkheden (KOM)**: onderdeel van de ondernemingsrechtbank. De KOM kan ambtshalve de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen en maatregelen opleggen of begeleiden. Zie [[continuiteitsrisico]]
 
 ---
 
@@ -60,7 +60,7 @@ De Nationale Bank van België (NBB) centraliseert alle neergelegde jaarrekeninge
 1. **Transparantie**: jaarrekeningen zijn opvraagbaar door iedereen — banken, klanten, concurrenten, journalisten
 2. **Sectoranalyse**: de NBB verwerkt de gegevens tot sectorale statistieken en publiceert gemiddelde ratio's per sector (NACE-code)
 
-De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-analyse: een liquiditeitsratio van 1,2 is anders te beoordelen in de retail dan in de bouwsector. → Zie [[jaarrekeninganalyse#-benchmarking|benchmarking en sectorgemiddelden]]
+De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-analyse: een liquiditeitsratio van 1,2 is anders te beoordelen in de retail dan in de bouwsector. Zie [[jaarrekeninganalyse#-benchmarking|benchmarking en sectorgemiddelden]]
 
 > [!info]- In de praktijk
 >
@@ -123,7 +123,7 @@ Kenniselementen:
 > >
 > > **Fout.**
 > >
-> > De KOM kan **ambtshalve** optreden — dus zonder dat de onderneming zelf het initiatief neemt. De rechtbank kan op eigen initiatief de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen (bv. herhaalde neerlegging van jaarrekeningen met verlies). → Zie [[continuiteitsrisico]]
+> > De KOM kan **ambtshalve** optreden — dus zonder dat de onderneming zelf het initiatief neemt. De rechtbank kan op eigen initiatief de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen (bv. herhaalde neerlegging van jaarrekeningen met verlies). Zie [[continuiteitsrisico]]
 > >
 > > *Zie: [[betrokken-partijen-financiele-analyse#📌-toezichtsorganen|Toezichtsorganen]]*
 >

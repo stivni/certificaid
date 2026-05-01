@@ -24,7 +24,7 @@ De officiële jaarrekening (wettelijk schema) omvormen naar een analytisch bruik
 
 Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn alle rubrieken beschikbaar. Bij een verkort schema ontbreken sommige subrubrieken — bepaalde hergroeperingen en ratio's zijn dan niet mogelijk.
 
-→ Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht van welke ratio's per schema beschikbaar zijn.
+Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht van welke ratio's per schema beschikbaar zijn.
 
 > [!warning]- Microschema herstructureren alsof het een volledig schema is
 > ❌ *"Ik herstructureer het microschema op dezelfde manier als het volledig schema."*
@@ -52,7 +52,7 @@ De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert d
 **Passief** (toenemende eisbaarheid):
 - `10/15` = eigen vermogen → `16` = voorzieningen → `17` = schulden LT → `42/48` + `492/3` = schulden KT
 
-→ Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[jaarrekeninganalyse#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
+Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[jaarrekeninganalyse#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
 
 > [!warning]- Overlopende rekeningen passief vergeten bij schulden KT
 > ❌ *"Schulden op korte termijn zijn rubrieken 42 tot 48 — overlopende rekeningen zijn iets aparts."*
@@ -82,7 +82,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 | **Nettowinst** | EBT − belastingen | 9905/9906 |
 | **EBITDA** | EBIT + afschrijvingen + waardeverminderingen | 9901 + 630/634 |
 
-→ Definitie en toelichting per niveau: [[jaarrekeninganalyse#-resultaatniveaus|Resultaatniveaus]]
+Definitie en toelichting per niveau: [[jaarrekeninganalyse#-resultaatniveaus|Resultaatniveaus]]
 
 > [!warning]- EBITDA berekenen door belastingen en rente bij nettowinst op te tellen
 > ❌ *"EBITDA = nettowinst + belastingen + rente + afschrijvingen."*
@@ -103,7 +103,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 
 De kernbalansaggregaten condenseren de herstructurering tot drie kerncijfers die de financiering van de bedrijfscyclus beschrijven.
 
-→ Formules en betekenis: [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]
+Formules en betekenis: [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]
 
 **NBK** = Vlottende activa − Schulden KT → meet de globale kortetermijnbuffer
 
@@ -114,7 +114,7 @@ De kernbalansaggregaten condenseren de herstructurering tot drie kerncijfers die
 De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide middelen. Als NBK < WKB: de bedrijfscyclus vreet meer dan de kortetermijnbuffer aankan — de onderneming leunt op kaskrediet.
 
 > [!tip]- Herwerking is voorbereiding, geen doel op zich
-> Hoe ver je herstructureert, hangt af van welke ratio's en aggregaten je daarna wil berekenen. Voor een pure liquiditeitsanalyse volstaat het berekenen van NBK en de quick ratio. Voor een volledige beoordeling (→ [[financiele-positie-beoordelen]]) werk je alle niveaus uit.
+> Hoe ver je herstructureert, hangt af van welke ratio's en aggregaten je daarna wil berekenen. Voor een pure liquiditeitsanalyse volstaat het berekenen van NBK en de quick ratio. Voor een volledige beoordeling ([[financiele-positie-beoordelen]]) werk je alle niveaus uit.
 
 ---
 

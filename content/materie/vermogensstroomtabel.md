@@ -10,7 +10,7 @@ bronnen:
 
 De vermogensstroomtabel (ook: financieringstabel) toont hoe de onderneming haar investeringen en andere bestedingen tijdens een boekjaar heeft gefinancierd. Ze legt de nadruk op de structurele financieringsbewegingen: welke middelen zijn aangetrokken (herkomst) en waarvoor zijn ze aangewend (besteding)?
 
-Waar de balans een momentopname is en de resultatenrekening de winstbepaling weergeeft, reconstrueert de vermogensstroomtabel de **bewegingen** die de balanswijzigingen veroorzaken — maar enkel de structurele, langetermijnbewegingen. De kasstroomanalyse doet hetzelfde voor de kasbeweging. → Zie [[kasstroomanalyse]]
+Waar de balans een momentopname is en de resultatenrekening de winstbepaling weergeeft, reconstrueert de vermogensstroomtabel de **bewegingen** die de balanswijzigingen veroorzaken — maar enkel de structurele, langetermijnbewegingen. De kasstroomanalyse doet hetzelfde voor de kasbeweging. Zie [[kasstroomanalyse]]
 
 ---
 
@@ -94,7 +94,7 @@ Een verslechterend NBK is een signaal dat de onderneming haar investeringen of t
 | Werkkapitaalmutaties | Niet opgenomen — valt in het saldo | Expliciet opgenomen (stap 4 indirecte methode) |
 | Relevante vraag | Is de financieringsstructuur structureel gezond? | Heeft de onderneming voldoende kaspositie? |
 
-→ Zie [[kasstroomanalyse]] voor de kasstroomanalyse
+Zie [[kasstroomanalyse]] voor de kasstroomanalyse
 
 > [!warning]- Vermogensstroomtabel = kasstroomoverzicht
 > ❌ *"De vermogensstroomtabel toont dezelfde informatie als het kasstroomoverzicht, alleen in een andere indeling."*

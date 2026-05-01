@@ -29,7 +29,7 @@ Voorbeelden van hoe ratio-namen eruitzien en wat de formule is:
 - Nettorentabiliteit totaal der activa = (resultaat vóór belastingen + fin. kosten − intrestsubsidies) / totaal activa × 100
 - Brutoverkoopmarge = toegevoegde waarde (`9900`) / netto-omzet (`70`) × 100
 
-→ Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
+Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
 
 > [!warning]- Naam van de ratio verwisselen met een gelijkaardige
 > ❌ *"Nettorentabiliteit van de activa en ROE zijn allebei een rentabiliteitsratio — ik gebruik dezelfde formule."*
@@ -51,7 +51,7 @@ Voorbeelden van hoe ratio-namen eruitzien en wat de formule is:
 
 Sommige ratio's vereisen detailgegevens die niet beschikbaar zijn in het verkort of microschema. Als de gevraagde ratio niet berekenbaar is, zeg dat dan expliciet — het examen toetst soms net dit inzicht.
 
-→ Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht per ratio.
+Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht per ratio.
 
 > [!warning]- N-dagen klantenkrediet berekenen op een verkort schema
 > ❌ *"Ik bereken de klantenbetalingstermijn op basis van de beschikbare vorderingspost."*

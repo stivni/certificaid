@@ -24,7 +24,7 @@ Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoor
 | **Winstgevendheidsoordeel** | Rentabiliteit, marges | Aandeelhouder, investeerder |
 | **Brede financiële diagnose** | Alle dimensies, alarmsignalen | Adviseur, overnameonderzoek |
 
-→ Zie [[jaarrekeninganalyse#-analysedoelen]] voor uitgebreide toelichting.
+Zie [[jaarrekeninganalyse#-analysedoelen]] voor uitgebreide toelichting.
 
 → **Uitkomst**: geformuleerd analysedoel, eventueel met subvragen
 
@@ -32,7 +32,7 @@ Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoor
 
 De wettelijke jaarrekening is opgesteld voor juridische en fiscale doeleinden, niet voor analyse. Gebruik ze nooit rechtstreeks voor ratioberekenin — zet ze eerst om naar een analytisch formaat.
 
-→ Voer de herstructurering uit: [[jaarrekeninganalyse#-herstructurering-van-de-balans]]
+Werkwijze: [[jaarrekeninganalyse#-herstructurering-van-de-balans]]
 
 → **Uitkomst**: hergestructureerde balans en resultatenrekening
 
@@ -54,8 +54,8 @@ Kies de ratio's op basis van het analysedoel uit stap 1. Er bestaat geen univers
 | Winstgevendheidsoordeel | ROE, ROA, nettomarge, brutomarge |
 | Brede diagnose | Ratio's uit alle categorieën + kasstroomanalyse |
 
-→ Definities, formules en benchmarks per ratio: [[financiele-ratios]]
-→ Kasstroomratio's: [[kasstroomanalyse]]
+Definities, formules en benchmarks per ratio: [[financiele-ratios]]
+Kasstroomratio's: [[kasstroomanalyse]]
 
 → **Uitkomst**: geselecteerde ratio's met motivering van de keuze
 
@@ -66,8 +66,8 @@ Kies de ratio's op basis van het analysedoel uit stap 1. Er bestaat geen univers
 
 Pas de formules toe op de hergestructureerde cijfers uit stap 2.
 
-→ Formules per ratio: [[financiele-ratios]]
-→ Indirecte methode kasstroom: [[kasstroomanalyse]]
+Formules per ratio: [[financiele-ratios]]
+Indirecte methode kasstroom: [[kasstroomanalyse]]
 
 → **Uitkomst**: berekende waarden per geselecteerde ratio
 
@@ -75,7 +75,7 @@ Pas de formules toe op de hergestructureerde cijfers uit stap 2.
 
 Dit is de diagnose. Een getal zonder referentiepunt zegt niets. Vergelijk langs drie assen:
 
-**Benchmark**: vergelijk met sectorgemiddelden of vuistregels. Dezelfde ratio kan normaal zijn in één sector en alarmerend in een andere. → [[financiele-ratios#-benchmarks-per-sector]]
+**Benchmark**: vergelijk met sectorgemiddelden of vuistregels. Dezelfde ratio kan normaal zijn in één sector en alarmerend in een andere. [[financiele-ratios#-benchmarks-per-sector]]
 
 **Trend**: één jaar is een momentopname. Vergelijk met vorige jaren — verslechtert of verbetert de positie?
 
