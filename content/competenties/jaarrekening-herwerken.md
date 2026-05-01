@@ -43,13 +43,16 @@ Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn a
 > 📤 **Uitkomst**:
 > - Hergestructureerde balans met functionele groepering: vaste activa / vlottende activa aan actief; eigen vermogen / vreemd vermogen LT / vreemd vermogen KT aan passief
 
-De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert de bestaande rubrieken naar analytische categorieën — dit is in de meeste gevallen **bestaande subtotalen kopiëren of optellen**, geen nieuwe berekening.
+De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert de bestaande rubrieken — dit is in de meeste gevallen **bestaande subtotalen kopiëren of optellen**, geen nieuwe berekening.
 
-**Werkwijze**: gebruik de NBB-code mapping in [[jaarrekeninganalyse#-analytische-indeling-van-de-balans]] als referentie. Zie ook het voor/na-voorbeeld in die fiche.
+**Actief** (naar liquiditeit):
+- `20/28` = vaste activa — staat al als subtotaal in de jaarrekening
+- `29/58` = vlottende activa — ook al als subtotaal aanwezig
 
-Vuistregel:
-- Actief: `20/28` = vaste activa, `29/58` = vlottende activa — deze subtotalen staan al in de wettelijke jaarrekening
-- Passief van minst eisbaar naar meest eisbaar: EV (`10/15`) → voorzieningen (`16`) → schulden LT (`17`) → schulden KT (`42/48` + `492/3`)
+**Passief** (toenemende eisbaarheid):
+- `10/15` = eigen vermogen → `16` = voorzieningen → `17` = schulden LT → `42/48` + `492/3` = schulden KT
+
+→ Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[jaarrekeninganalyse#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
 
 > [!warning]- Overlopende rekeningen passief vergeten bij schulden KT
 > ❌ *"Schulden op korte termijn zijn rubrieken 42 tot 48 — overlopende rekeningen zijn iets aparts."*

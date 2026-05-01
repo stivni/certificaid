@@ -73,6 +73,10 @@ Een competentie is zelfstandig toetsbaar op het examen en combineert meerdere ma
 
 Een competentie citeert materie kort als context voor een stap, maar de volledige uitleg staat altijd in de materie-fiche. Omgekeerd vermeldt een materie-fiche niet hoe de informatie in een taakcontext gebruikt wordt — dat is de rol van de competentie.
 
+**Concrete ankerpunten in competentie-stappen**: geef bij een verwijzing naar materie altijd 1–3 concrete voorbeelden of sleutelwoorden zodat de student weet waar ze mee bezig zijn — dan pas de link naar de volledige uitleg.
+- ✓ "Groepeer rubrieken per categorie (bv. `29/58` = vlottende activa, `10/15` = EV) → zie [[jaarrekeninganalyse#-nbb-mapping|volledige mapping]]"
+- ✗ "Groepeer rubrieken → zie [[jaarrekeninganalyse]]" (te kaal: de student weet niet wat ze gaan vinden)
+
 ### Terminologie
 
 | Term | Betekenis |

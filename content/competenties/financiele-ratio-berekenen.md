@@ -24,7 +24,12 @@ Gegeven een balans en resultatenrekening — en eventuele toelichting — de cor
 
 Sla dit eerste nooit over. Dezelfde term kan op meerdere manieren gedefinieerd zijn — het examen gebruikt soms "nettorentabiliteit van de activa" en soms "nettorentabiliteit van het totaal der activa vóór belastingen en financiële kosten". Die zijn niet identiek.
 
-→ Raadpleeg [[financiele-ratios]] voor de exacte formule per ratio, inclusief NBB-codes.
+Voorbeelden van hoe ratio-namen eruitzien en wat de formule is:
+- Liquiditeit in ruime zin = vlottende activa (`29/58`) / schulden KT (`42/48`)
+- Nettorentabiliteit totaal der activa = (resultaat vóór belastingen + fin. kosten − intrestsubsidies) / totaal activa × 100
+- Brutoverkoopmarge = toegevoegde waarde (`9900`) / netto-omzet (`70`) × 100
+
+→ Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
 
 > [!warning]- Naam van de ratio verwisselen met een gelijkaardige
 > ❌ *"Nettorentabiliteit van de activa en ROE zijn allebei een rentabiliteitsratio — ik gebruik dezelfde formule."*
