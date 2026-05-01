@@ -51,3 +51,17 @@ Elke inhoudelijke wijziging aan een eerder geverifieerde fiche wordt hier geregi
 - Wettekst lokaal toevoegen: nieuw proces toegevoegd
 - Changelog-systeem ingevoerd (dit bestand)
 - Feedback als verbeterimpuls: nieuw principe toegevoegd
+
+## 2026-05-01 (vervolg) — Concretisering jaarrekeninganalyse en competenties
+
+### Uitgebreid (waren al draft)
+
+- **`jaarrekeninganalyse.md`** — NBB-code mapping tabel toegevoegd per analytische categorie (activazijde + passivazijde), met voor/na-voorbeeld in code block.
+  *Reden: stagiair kon "vlottende activa" niet linken aan concrete rubrieken in de jaarrekening.*
+
+- **`jaarrekening-herwerken.md`** — Stap 2 (balans): gedetailleerde NBB-tabel vervangen door verwijzing naar materie-fiche (canonieke thuisplaats), vuistregels voor snelle toepassing toegevoegd. Gebroken link naar resultatenrekening-sectie hersteld.
+  *Reden: zelfde informatie stond op twee plaatsen; delegeer het "wat" naar materie, houd het "hoe" in de competentie.*
+
+### Conventies bijgewerkt (CLAUDE.md)
+
+- **Stapnamen competentie-fiches**: altijd in instructievorm (was: vragen by default). Alle bestaande fiches bijgewerkt.

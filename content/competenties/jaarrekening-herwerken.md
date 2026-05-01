@@ -43,28 +43,13 @@ Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn a
 > 📤 **Uitkomst**:
 > - Hergestructureerde balans met functionele groepering: vaste activa / vlottende activa aan actief; eigen vermogen / vreemd vermogen LT / vreemd vermogen KT aan passief
 
-De wettelijke balans is geordend naar juridische categorieën (immaterieel, materieel, financieel, ...). Voor analyse wordt ze omgezet naar een **functionele indeling**:
+De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert de bestaande rubrieken naar analytische categorieën — dit is in de meeste gevallen **bestaande subtotalen kopiëren of optellen**, geen nieuwe berekening.
 
-**Activazijde** — gegroepeerd naar liquiditeit:
+**Werkwijze**: gebruik de NBB-code mapping in [[jaarrekeninganalyse#-analytische-indeling-van-de-balans]] als referentie. Zie ook het voor/na-voorbeeld in die fiche.
 
-| Herwerkte rubriek | Inhoud | NBB-codes |
-|---|---|---|
-| Vaste activa | Immaterieel + materieel + financieel | 20/28 |
-| Voorraden | Voorraden en bestellingen in uitvoering | 3 |
-| Handelsvorderingen KT | Vorderingen op korte termijn op klanten | 40 |
-| Overige vorderingen KT | Andere kortlopende vorderingen | 41 |
-| Liquide middelen | Geldbeleggingen + kassen | 50/58 |
-| Overlopende rekeningen actief | Toe te rekenen opbrengsten, over te dragen kosten | 490/1 |
-
-**Passivazijde** — geordend naar toenemende eisbaarheid (→ zie [[jaarrekeninganalyse#-volgorde-van-de-rubrieken-op-het-passief|Volgorde rubrieken passief]]):
-
-| Herwerkte rubriek | Inhoud | NBB-codes |
-|---|---|---|
-| Eigen vermogen | Kapitaal + reserves + overgedragen resultaat + herwaarderingsmeerwaarden | 10/15 |
-| Voorzieningen | Toekomstige verplichtingen | 16 |
-| Schulden op lange termijn | Schulden met looptijd > 1 jaar | 17 |
-| Schulden op korte termijn | Leveranciersschulden + belastingschulden + kortlopende leningen | 42/48 |
-| Overlopende rekeningen passief | Toe te rekenen kosten, over te dragen opbrengsten | 492/3 |
+Vuistregel:
+- Actief: `20/28` = vaste activa, `29/58` = vlottende activa — deze subtotalen staan al in de wettelijke jaarrekening
+- Passief van minst eisbaar naar meest eisbaar: EV (`10/15`) → voorzieningen (`16`) → schulden LT (`17`) → schulden KT (`42/48` + `492/3`)
 
 > [!warning]- Overlopende rekeningen passief vergeten bij schulden KT
 > ❌ *"Schulden op korte termijn zijn rubrieken 42 tot 48 — overlopende rekeningen zijn iets aparts."*
@@ -94,7 +79,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 | **Nettowinst** | EBT − belastingen | 9905/9906 |
 | **EBITDA** | EBIT + afschrijvingen + waardeverminderingen | 9901 + 630/634 |
 
-→ Zie [[jaarrekeninganalyse#-herstructurering-van-de-resultatenrekening|Herstructurering resultatenrekening]] voor toelichting per niveau.
+→ Definitie en toelichting per niveau: [[jaarrekeninganalyse#-resultaatniveaus|Resultaatniveaus]]
 
 > [!warning]- EBITDA berekenen door belastingen en rente bij nettowinst op te tellen
 > ❌ *"EBITDA = nettowinst + belastingen + rente + afschrijvingen."*

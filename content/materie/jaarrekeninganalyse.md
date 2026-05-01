@@ -14,16 +14,74 @@ Deze fiche bevat de **begrippen en analytische structuren** die de basis vormen 
 
 ## 📌 Analytische indeling van de balans
 
-Voor analysedoeleinden wordt de wettelijke jaarrekening omgevormd van een **juridische** naar een **functionele** indeling. Dit zijn de categorieën die daarbij ontstaan:
+De wettelijke jaarrekening groepeert rubrieken op juridische basis. Voor analyse herschik je die naar **economische functie**: wat is snel beschikbaar (vlottend), wat blijft lang (vast), wie heeft het langst recht op terugbetaling (eigen vermogen), wie het kortst (schulden KT).
 
-**Activazijde:**
-- **Vaste activa** (immaterieel + materieel + financieel): langetermijninvesteringen — niet omzetbaar op korte termijn
-- **Vlottende activa**: voorraden + vorderingen op korte termijn + liquide middelen — omzetbaar binnen één bedrijfscyclus
+De herstructurering is in de meeste gevallen een **optelling van bestaande rubrieken** — niet een nieuwe berekening. Het NBB-schema geeft al subtotalen per rubriek; je hergroepeert die naar analytische categorieën.
 
-**Passivazijde:**
-- **Eigen vermogen**: kapitaal + reserves + overgedragen resultaat + herwaarderingsmeerwaarden — geen terugbetalingsverplichting
-- **Vreemd vermogen op lange termijn**: schulden met looptijd > 1 jaar
-- **Vreemd vermogen op korte termijn**: leveranciersschulden, belastingschulden, kortlopende leningen — vervallen binnen 12 maanden
+### Activazijde
+
+| Analytische categorie | Omschrijving | NBB-code |
+|---|---|---|
+| **Vaste activa** | Immateriële + materiële + financiële vaste activa | 20/28 |
+| &nbsp;&nbsp;↳ Immateriële vaste activa | Ontwikkelingskosten, concessies, goodwill | 20/21 |
+| &nbsp;&nbsp;↳ Materiële vaste activa | Terreinen, gebouwen, installaties, rollend materieel | 22/27 |
+| &nbsp;&nbsp;↳ Financiële vaste activa | Deelnemingen, vorderingen LT | 28 |
+| **Vlottende activa** | Omzetbaar binnen één bedrijfscyclus | 29/58 |
+| &nbsp;&nbsp;↳ Voorraden | Goederen, grondstoffen, onderhanden werk | 3 |
+| &nbsp;&nbsp;↳ Handelsvorderingen KT | Klanten die nog moeten betalen | 40/41 |
+| &nbsp;&nbsp;↳ Geldbeleggingen | Kortlopende beleggingen | 50/53 |
+| &nbsp;&nbsp;↳ Liquide middelen | Kas en bankrekeningen | 54/58 |
+| &nbsp;&nbsp;↳ Overlopende rekeningen actief | Over te dragen kosten, verkregen opbrengsten | 490/1 |
+
+### Passivazijde (volgorde: toenemende eisbaarheid)
+
+| Analytische categorie | Omschrijving | NBB-code |
+|---|---|---|
+| **Eigen vermogen** | Geen terugbetalingsverplichting | 10/15 |
+| **Voorzieningen en uitgestelde belastingen** | Toekomstige risico's en verplichtingen | 16 |
+| **Vreemd vermogen LT** | Schulden met looptijd > 1 jaar | 17 |
+| **Vreemd vermogen KT** | Schulden vervallend binnen 12 maanden | 42/48 |
+| &nbsp;&nbsp;↳ incl. overlopende rekeningen passief | Toe te rekenen kosten, over te dragen opbrengsten | 492/3 |
+
+> [!info]- Voorbeeld: een vereenvoudigde balans voor en na herstructurering
+>
+> 🤖 *AI-aanvulling*
+>
+> **Wettelijk schema (verkort)**
+> ```
+> ACTIEF                              PASSIEF
+> ─────────────────────────────────   ──────────────────────────────────
+> 20/28  Vaste activa     200.000     10/15  Eigen vermogen     180.000
+>   22/27  Mat. VA        150.000     16     Voorzieningen       15.000
+>   28     Fin. VA         50.000     17     Schulden > 1 jr     90.000
+>                                     42/48  Schulden ≤ 1 jr    145.000
+> 3      Voorraden         80.000
+> 40/41  Vorderingen KT  100.000
+> 54/58  Liquide midd.    50.000
+> ─────────────────────────────────   ──────────────────────────────────
+>                         430.000                                430.000
+> ```
+>
+> **Analytisch formaat**
+> ```
+> ACTIEF                              PASSIEF
+> ─────────────────────────────────   ──────────────────────────────────
+> Vaste activa         200.000        Eigen vermogen         180.000
+>                                     Vreemd verm. LT        105.000  (17+16)
+> Vlottende activa     230.000        Vreemd verm. KT        145.000
+>   Voorraden  80.000
+>   Vord. KT  100.000
+>   Liquide    50.000
+> ─────────────────────────────────   ──────────────────────────────────
+>                         430.000                                430.000
+> ```
+>
+> **Berekeningen:**
+> - NBK = Vlottende activa − Vreemd verm. KT = 230.000 − 145.000 = **€ 85.000** ✓
+> - WKB = Voorraden + Handelsvorderingen − Leveranciersschulden
+>   (leveranciersschulden zijn deel van 42/48 — hier niet apart gegeven)
+> - Nettokaspositie = Liquide middelen − Financiële schulden KT
+>   (financiële schulden KT zijn deel van 42/48 — hier niet apart gegeven)
 
 ---
 
