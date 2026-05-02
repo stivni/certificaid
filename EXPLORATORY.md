@@ -19,9 +19,6 @@ Obvious fixes worden autonoom verwerkt en **hier verwijderd**. Bevindingen gemar
 Competentiefiches met genummerde emoji-stappen hebben kapotte zelf-links: `#2-🔍-type-relatie` ipv `#2--type-relatie`. Betroffen: `consolidatiekring-bepalen`, `consolideren-integraal`, `vermogensmutatiemethode-toepassen` en mogelijk anderen.
 → Kan autonoom worden opgelost met een gerichte grep + replace.
 
-**[Project-brede variation-selector sweep]**
-Ankers met `#️-` (U+FE0F variation selector na #) ipv gewone `#-`. Betroffen: `continuiteitsrisico`, `boekhoudkundige-beginselen`, `jaarrekening`, `jaarrekening-herwerken` en cross-fiche links.
-→ Kan autonoom worden opgelost.
 
 **[Project-brede accent-anker sweep]**
 `#-clientenonderzoek` (zonder ë) vs `#-cliëntenonderzoek` (met ë). Grep-commando: `grep -rn "antiwitwaswetgeving#-clientenonderzoek\|financiele-info" content/`. Al deels opgelost in AWW en opdrachtaanvaarding; andere fiches mogelijk nog niet.
