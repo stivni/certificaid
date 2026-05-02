@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - Wet ITAA art. 38, 40, 41, 42, 43, 44, 45, 46, 47
 itaa-lex: XXI, p. 2604
+bouwversie: 1
 ---
 
 # Relaties met cliënten

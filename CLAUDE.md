@@ -292,6 +292,7 @@ Elk bestand in `content/programmaonderdelen/` volgt dit formaat:
 ---
 explorer_title: "X.X Korte naam"      # weergave in de Explorer
 tags: ["X.X", wip, programmaonderdeel]
+bouwversie: 1
 ---
 
 # X.X Volledige naam van het programmaonderdeel
@@ -455,6 +456,7 @@ Een stap mag niet meer bevatten dan: de waarom-zin, de procedure-instructie (hoe
 tags: ["X.X", wip, competentie]
 niveau: integratie
 status: draft
+bouwversie: 1
 programmaonderdelen: ["X.X"]
 itaa-lex-secties:
   - [sectie] ([wet] art. X–Y)
@@ -694,6 +696,7 @@ Elk bestand in `content/materie/` volgt dit formaat:
 tags: ["4.0", wip, materie]  # programmaonderdeel-ID's + wip + materie
 niveau: integratie
 status: draft                 # draft → geverifieerd (alleen gebruiker zet geverifieerd)
+bouwversie: 1
 bronnen:
   - Wet ITAA art. 37
 ---
@@ -887,6 +890,23 @@ Kenniselementen:
 - Volgorde: eerst Taken met geneste Doelstellingen, dan Kenniselementen
 - Taken letterlijk overnemen uit de programmaonderdeel-fiche
 - Enkel de voor dit concept relevante Taken en Kenniselementen vermelden
+
+## Bouwversie
+
+Elke fiche bevat `bouwversie: N` in de frontmatter. Dit geeft aan met welke versie van het proces de fiche gebouwd is. Fiches met een lagere versie dan de huidige zijn kandidaat voor heraudit.
+
+**Huidige versie: 1**
+
+| Versie | Datum | Wijzigingen |
+|---|---|---|
+| 0 | vóór 2026-05-02 | Pre-versioning — gebouwd zonder huidige principes |
+| 1 | 2026-05-02 | Eerste versie: waarom-zin verplicht in competentie-stappen; grondslag-blok collapsible met 🤖/⚖️-indicator; synoniemen als cursieve subtitel; fiche-titel = kernfenomeen; formule-variabelen betekenisvol; "(zie § X)" → klikbare link; geen hyperlinks in callout-titels; stap vanuit perspectief beroepsbeoefenaar; optionele stap = aparte stap; naam competentie verifiëren na schrijven; kennislagen (Weten/Toepassen/Integreren); Stap 2A taakdecompositie; laagcheck in verificatiestap |
+
+**Wanneer de versie ophogen**: bij elke wijziging aan CLAUDE.md die bestaande fiches suboptimaal maakt. Infrastructuur, geheugen en Quartz-instellingen tellen niet mee. Voeg een rij toe aan de tabel en verhoog het getal bij "Huidige versie".
+
+**Stale fiches vinden**: `grep -rL "bouwversie" content/materie content/competenties content/programmaonderdelen` (ontbreekt veld) of `grep -r "bouwversie: 0" content/` (verouderd).
+
+---
 
 ## Proces
 

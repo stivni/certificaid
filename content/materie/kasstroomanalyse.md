@@ -4,6 +4,7 @@ niveau: integratie
 status: draft
 bronnen: []
 itaa-lex: ""
+bouwversie: 0
 ---
 
 # Kasstroomanalyse

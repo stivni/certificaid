@@ -6,6 +6,7 @@ programmaonderdelen: ["1.4"]
 itaa-lex-secties:
   - XV (KB) (KB-WVV art. 3:141–3:148)
   - XV (WVV art. 1:21)
+bouwversie: 0
 ---
 
 # Vermogensmutatiemethode toepassen

@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - Wet ITAA art. 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 17, 21, 29, 39
 itaa-lex: XXI, p. 2593
+bouwversie: 1
 ---
 
 # Het beroep van accountant en belastingadviseur

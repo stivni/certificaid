@@ -7,6 +7,7 @@ bronnen:
   - IFRS 3 (Bedrijfscombinaties)
   - IFRS 11 (Gezamenlijke overeenkomsten)
   - IFRS 12 (Informatieverschaffing over belangen in andere entiteiten)
+bouwversie: 0
 ---
 
 # Consolidatie onder IFRS

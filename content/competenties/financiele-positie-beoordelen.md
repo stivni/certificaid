@@ -5,6 +5,7 @@ status: draft
 programmaonderdelen: ["1.2", "1.3"]
 itaa-lex-secties:
   - XV (WVV Boek 3)
+bouwversie: 0
 ---
 
 # Financiële positie beoordelen

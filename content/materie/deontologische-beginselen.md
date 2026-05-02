@@ -6,6 +6,7 @@ bronnen:
   - Wet ITAA art. 36, 37, 40, 48, 49
   - KMO-controlenorm (ITAA, 18 december 2018)
 itaa-lex: XXI, p. 2604
+bouwversie: 1
 ---
 
 # Deontologische beginselen

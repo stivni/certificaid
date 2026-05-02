@@ -10,6 +10,7 @@ bronnen:
   - Wet 2 augustus 2002 — toezicht financiële sector (FSMA) ⚠️ geen lokale wettekst
   - Wet 20 september 1948 — organisatie van het bedrijfsleven (CRB) ⚠️ geen lokale wettekst
 itaa-lex: XIII en XV (boekhoudplicht en jaarrekening) · XXI, p. 2609 (ITAA)
+bouwversie: 0
 ---
 
 # Toezichthouders in het boekhoudrecht

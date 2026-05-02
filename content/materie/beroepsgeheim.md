@@ -6,6 +6,7 @@ bronnen:
   - Wet ITAA art. 50, 51, 52
   - Strafwetboek art. 458
 itaa-lex: XXI, p. 2607
+bouwversie: 1
 ---
 
 # Beroepsgeheim en discretieplicht

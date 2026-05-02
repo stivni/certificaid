@@ -5,6 +5,7 @@ status: draft
 programmaonderdelen: ["1.2"]
 itaa-lex-secties:
   - XV (WVV art. 3:9–3:12)
+bouwversie: 0
 ---
 
 # Jaarrekening neerleggen

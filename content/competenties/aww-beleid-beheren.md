@@ -6,6 +6,7 @@ programmaonderdelen: ["4.0"]
 itaa-lex-secties:
   - XVII (AWW art. 8–9 — intern beleid en AMLCO)
   - XVII (AWW art. 19–32 — cliëntenonderzoek, als referentie voor het beleid)
+bouwversie: 1
 ---
 
 # AWW beleid beheren

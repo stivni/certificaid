@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - WVV art. 3:4, 3:5, 3:6, 3:6/1
 itaa-lex: XV (WVV)
+bouwversie: 0
 ---
 
 # Jaarverslag

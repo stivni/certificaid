@@ -6,6 +6,7 @@ programmaonderdelen: ["1.4"]
 itaa-lex-secties:
   - XV (KB) (KB-WVV art. 3:126–3:139)
   - XV (KB) (KB-WVV art. 3:123–3:125)
+bouwversie: 0
 ---
 
 # Integraal consolideren

@@ -11,6 +11,7 @@ bronnen:
   - CBN-advies 2018/18 (going concern waardering bij discontinuïteit)
   - WER art. XX.23 (meldingsplicht beroepsbeoefenaar)
   - ISA 570 herzien (referentiekader indicatoren — IBR-auditstandaard, niet bindend voor GA)
+bouwversie: 0
 ---
 
 # Continuiteitsrisico

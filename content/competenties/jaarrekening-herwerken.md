@@ -6,6 +6,7 @@ programmaonderdelen: ["1.2", "1.3"]
 itaa-lex-secties:
   - XIII KB 21/10/2018 (MAR — schema's volledig/verkort/micro)
   - XV (WVV Boek 3 — jaarrekeningvereisten)
+bouwversie: 0
 ---
 
 # Jaarrekening herwerken

@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - WVV art. 3:22–3:29
   - KB-WVV 2019 art. 3:96–3:102
+bouwversie: 0
 ---
 
 # Consolidatiekring en consolidatieverplichting

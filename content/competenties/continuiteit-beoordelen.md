@@ -6,6 +6,7 @@ programmaonderdelen: ["1.3"]
 itaa-lex-secties:
   - XV (WVV art. 2:52, 5:153, 7:228–7:229 — alarmbelprocedure)
   - XIII (WER art. XX.23 — meldingsplicht bij continuïteitsrisico)
+bouwversie: 0
 ---
 
 # Continuiteit beoordelen

@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - KB-WVV 2019 art. 3:123–3:148
   - WVV art. 1:21
+bouwversie: 0
 ---
 
 # Consolidatiemethoden

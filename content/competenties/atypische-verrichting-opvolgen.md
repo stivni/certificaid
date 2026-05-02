@@ -6,6 +6,7 @@ programmaonderdelen: ["4.0"]
 itaa-lex-secties:
   - XVII (AWW art. 47–54 — meldingsplicht en tipping-off)
   - XVII (AWW art. 9 — AMLCO interne verslagplicht)
+bouwversie: 1
 ---
 
 # Atypische verrichting opvolgen

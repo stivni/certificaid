@@ -6,6 +6,7 @@ bronnen:
   - WVV art. 3:1 (commissaris)
   - WVV art. 3:5 (jaarverslag bestuursorgaan)
   - 🤖 Betrokken partijen en hun belangen — geen specifieke wettelijke bron
+bouwversie: 0
 ---
 
 # Betrokken partijen bij financiële analyse

@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - WVV art. 5:142, 7:212
   - CBN-advies 2021/14
+bouwversie: 0
 ---
 
 # Nettoactief

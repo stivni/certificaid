@@ -6,6 +6,7 @@ versie: 2022 (vertaling 2023)
 ingangsdatum: verslagperioden op of na 15 december 2009 (wijzigingen ISA 220/250/315/540/ISQM1-2 op of na 15 december)
 bron-pdf: resources/normen/raw/ISA-570-herzien-2023-NL.pdf
 online: https://www.ibr-ire.be/docs/default-source/nl/documents/regelgeving-en-publicaties/rechtsleer/normen-en-aanbevelingen/isa-s/nieuwe-en-herziene-isa-s/new-and-revised-isas-2017-update-24062019/isa-570-(herzien)_nl_2023.pdf
+bouwversie: 0
 ---
 
 # ISA 570 (herzien) — Continuïteit

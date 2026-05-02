@@ -5,6 +5,7 @@ status: draft
 programmaonderdelen: ["1.2"]
 itaa-lex-secties:
   - XV (WVV art. 1:24–1:25, 1:28–1:30, 3:1, 3:4–3:6, 3:72)
+bouwversie: 0
 ---
 
 # Jaarrekeningkader bepalen

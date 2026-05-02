@@ -6,6 +6,7 @@ bronnen:
   - KB 21/10/2018 (MAR — genormaliseerde rekeningcodes)
   - Voorbeeldexamens ITAA 2013–2024 (formule-componenten 📝)
 itaa-lex: ""
+bouwversie: 0
 ---
 
 # Financiële ratio's

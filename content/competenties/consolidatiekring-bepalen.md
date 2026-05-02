@@ -6,6 +6,7 @@ programmaonderdelen: ["1.4"]
 itaa-lex-secties:
   - XV (WVV art. 1:19, 1:21, 1:26, 3:22–3:29)
   - XV (KB) (KB-WVV art. 3:96–3:102)
+bouwversie: 0
 ---
 
 # Consolidatiekring bepalen

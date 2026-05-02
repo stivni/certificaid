@@ -6,6 +6,7 @@ programmaonderdelen: ["1.3"]
 itaa-lex-secties:
   - XIII KB 21/10/2018 (MAR — genormaliseerde rekeningcodes)
   - XV (WVV schema-vereisten volledig/verkort/micro)
+bouwversie: 0
 ---
 
 # Financiële ratio berekenen

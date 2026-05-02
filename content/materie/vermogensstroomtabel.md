@@ -4,6 +4,7 @@ niveau: toepassen
 status: draft
 bronnen:
   - 🤖 Analytisch instrument — geen specifieke wettelijke bron
+bouwversie: 0
 ---
 
 # Vermogensstroomtabel

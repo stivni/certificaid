@@ -6,6 +6,7 @@ bronnen:
   - Wet ITAA art. 29, 36, 53, 54, 55-60, 61, 62, 72, 79, 85-93
   - Procedurereglement AWW art. 118 (ITAA)
 itaa-lex: XXI, p. 2593
+bouwversie: 1
 ---
 
 # ITAA als instituut

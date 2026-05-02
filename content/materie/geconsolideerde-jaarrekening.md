@@ -6,6 +6,7 @@ bronnen:
   - WVV art. 3:30–3:32
   - KB-WVV 2019 art. 3:103–3:114
   - KB-WVV 2019 art. 3:149–3:158
+bouwversie: 0
 ---
 
 # Geconsolideerde jaarrekening

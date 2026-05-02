@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - KB-WVV 2019 art. 3:130–3:132
   - KB-WVV 2019 art. 3:146–3:147
+bouwversie: 0
 ---
 
 # Consolidatieverschillen

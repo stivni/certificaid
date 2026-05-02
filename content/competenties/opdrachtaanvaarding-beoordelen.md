@@ -6,6 +6,7 @@ programmaonderdelen: ["4.0"]
 itaa-lex-secties:
   - XVII (AWW art. 3, 19, 21–32, 37–41, 47–54)
   - XXI (Wet ITAA art. 40, 41, 48)
+bouwversie: 1
 ---
 
 # Opdrachtaanvaarding beoordelen

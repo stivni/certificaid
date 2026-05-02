@@ -6,6 +6,7 @@ bronnen:
   - WVV art. 3:1, 3:2, 3:3, 3:10, 3:11, 3:12, 3:72, 3:73, 3:74
   - WVV art. 3:109–3:117 (geconsolideerde jaarrekening)
 itaa-lex: XV (WVV)
+bouwversie: 0
 ---
 
 # Jaarrekening

@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - KB WVV 2019 art. 3:2 §3 (rechten en verplichtingen die niet in de balans voorkomen)
   - KB WVV 2019 toelichting volledig schema XVII (gedetailleerde opsomming off-balance)
+bouwversie: 0
 ---
 
 # Niet in de balans opgenomen elementen

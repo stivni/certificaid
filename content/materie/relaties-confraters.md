@@ -5,6 +5,7 @@ status: draft
 bronnen:
   - Wet ITAA art. 5, 8, 36, 37, 43, 52
 itaa-lex: XXI, p. 2604
+bouwversie: 1
 ---
 
 # Relaties met confraters
