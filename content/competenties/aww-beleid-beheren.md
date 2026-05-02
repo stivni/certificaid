@@ -54,7 +54,7 @@ De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke pers
 
 **Taken van de AMLCO:**
 - Intern verslagen opstellen bij atypische verrichtingen, bij onmogelijkheid van risicobeoordeling, en bij weigering van een cliënt
-- Beslissen over externe melding aan de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]]
+- Beslissen over externe melding aan de [[antiwitwaswetgeving#-cel-voor-financiële-informatieverwerking-cfi|CFI]]
 - Opleiding en sensibilisering van medewerkers coördineren
 - Toezien op naleving van het intern AWW-reglement
 
@@ -126,6 +126,29 @@ Het intern AWW-reglement moet gedragslijnen en procedures bevatten voor ([[bronn
 3. **Bewaring van documenten**: welke documenten, hoe lang, hoe beveiligd?
 4. **Melding van vermoedens**: intern melden aan AMLCO → AMLCO beslist over CFI-melding
 5. **Interne controle**: wie controleert de naleving en wanneer?
+
+> [!info]- Concreet: fragment uit een intern AWW-reglement (kantoor X)
+>
+> ```
+> Hoofdstuk 2 — Cliëntacceptatie
+>
+> 2.1 Vóór aanvaarding voert elke vennoot een individuele risicoanalyse
+>     uit op basis van de matrix in Bijlage A (cliëntprofiel × dienst ×
+>     geografie). Score noteren in het CRM-veld "AWW-risico".
+>
+> 2.2 Bij score "Normaal" of "Laag": standaard CDD volstaat (Hfdst. 3).
+>     Bij score "Hoog": verscherpt CDD én voorafgaand akkoord van de
+>     AMLCO vereist (intern verslag bewaard in dossier).
+>
+> 2.3 Cliënt weigeren wanneer:
+>     - identificatie van cliënt of UBO niet mogelijk
+>     - cliënt weigert bron van fondsen toe te lichten bij hoog risico
+>     - geografische betrokkenheid van een hoge-risicoland zonder
+>       aanvaardbare verantwoording
+>     Weigering = automatisch intern verslag aan AMLCO (Hfdst. 5).
+> ```
+>
+> 🤖 *AI-aanvulling*
 
 *(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8]])*
 

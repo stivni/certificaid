@@ -151,9 +151,9 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 >
 > 📤 **Uitkomst**:
 > - Gedocumenteerde identiteitsgegevens van cliënt, lasthebbers en UBO's
-> - Bevestiging dat het [[antiwitwaswetgeving#-clientenonderzoek-cdd|cliëntenonderzoek (CDD)]] is uitgevoerd conform het risiconiveau
+> - Bevestiging dat het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek (CDD)]] is uitgevoerd conform het risiconiveau
 
-Het [[antiwitwaswetgeving#-clientenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau (AWW-reglement ITAA punt 4.4, verwijzend naar AWW art. 21–32).
+Het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau (AWW-reglement ITAA punt 4.4, verwijzend naar AWW art. 21–32).
 
 ```
 CDD-intensiteit per risiconiveau

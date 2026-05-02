@@ -55,7 +55,7 @@ Een positieve nettothesaurie betekent dat de liquiditeiten de kortetermijnlening
 
 📝 *Te definiëren in voorbeeldexamen 2014*
 
-zie ook [[balansaggregaten#-balansaggregaten|balansaggregaten]]
+De nettothesaurie is conceptueel verwant aan de [[balansaggregaten#-nettokaspositie|nettokaspositie]] in de [[balansaggregaten|analytische balansindeling]] — beide meten of de liquide middelen volstaan om de kortlopende financiële schulden te dekken.
 
 ---
 

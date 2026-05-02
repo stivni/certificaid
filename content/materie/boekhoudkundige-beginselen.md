@@ -184,7 +184,7 @@ De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplic
 
 > [!question]- Wijziging afschrijvingsmethode: welke procedure?
 >
-> Onderneming A wil haar afschrijvingspercentages voor machines verlagen wegens een langere economische levensduur. Welke van onderstaande stellingen beschrijft de juiste procedure?
+> Onderneming A wil haar [[afschrijvingen|afschrijvingspercentages]] voor machines verlagen wegens een langere economische levensduur. Welke van onderstaande stellingen beschrijft de juiste procedure?
 >
 > A. Ze kan haar afschrijvingsregels niet meer wijzigen zodra ze bepaald zijn bij de oprichting.
 > B. Het bestuursorgaan neemt een formele beslissing en vermeldt de wijziging in de toelichting bij de jaarrekening.

@@ -36,7 +36,7 @@ Voorbeelden van hoe ratio-namen eruitzien en wat de formule is:
 - Nettorentabiliteit totaal der activa = (resultaat vóór belastingen + fin. kosten − intrestsubsidies) / totaal activa × 100
 - Brutoverkoopmarge = toegevoegde waarde (`9900`) / netto-omzet (`70`) × 100
 
-Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
+Voor de volledige formules per ratio met NBB-codes: zie [[financiele-ratios|Financiële ratio's]].
 
 > [!warning]- ROA en ROE zijn niet uitwisselbaar: ze meten een ander rentabiliteitsperspectief
 > ❌ *"Nettorentabiliteit van de activa en ROE zijn allebei een rentabiliteitsratio — ik gebruik dezelfde formule."*

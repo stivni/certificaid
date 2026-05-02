@@ -87,7 +87,7 @@ De herstructurering is in de meeste gevallen een **optelling van bestaande rubri
 
 ## 📌 Netto bedrijfskapitaal (NBK)
 
-**NBK = [[balansaggregaten#-analytische-indeling-van-de-balans|Vlottende activa]] − [[balansaggregaten#-passivazijde-volgorde-toenemende-eisbaarheid|Kortlopend vreemd vermogen]]**
+**NBK = [[balansaggregaten#-analytische-indeling-van-de-balans|Vlottende activa]] − [[balansaggregaten#passivazijde-volgorde-toenemende-eisbaarheid|Kortlopend vreemd vermogen]]**
 
 Het NBK geeft aan in welke mate de onderneming haar [[balansaggregaten#-analytische-indeling-van-de-balans|vlottende activa]] kan financieren zonder op kortlopend vreemd vermogen te moeten rekenen. Een positief NBK is een buffer; een negatief NBK wijst op een financieringsspanning.
 

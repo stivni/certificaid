@@ -140,6 +140,8 @@ Bronnen staan in twee plaatsen:
 | `resources/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
 | `resources/voorbeeldexamens/INDEX.md` | Per examen: POs, vraagtypen, thema's | Welk examen bevraagt PO X / concept Y? |
 
+> **⚠️ Nummerverschuiving oude examens**: de voorbeeldexamens van vóór 2022 gebruiken de _oude_ PO-nummering (zonder PO 2.1 Algemene beginselen). Vertaaltabel: oud 2.1 PB = nieuw 2.2 · oud 2.2 VennB = nieuw 2.3 · oud 2.3 BTW = nieuw 2.4 · oud 2.4 Registratie = nieuw 2.5 · oud 2.6 Europees = nieuw 2.8. Bij het toewijzen van examenthema's: controleer of een vraag gelabeld als oud 2.2 (VennB) of oud 2.3 (BTW) niet eerder thuishoort bij **nieuw 2.1 Algemene beginselen** — dat PO bestond niet in de oude examens maar kan inhoudelijk gedekt zijn door die vragen.
+
 **ITAA-normen doorzoeken** — elk norm-bestand heeft YAML-frontmatter met `naam`, `datum`, `themas` (lijst):
 ```bash
 # Op thema:

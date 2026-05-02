@@ -178,7 +178,7 @@ Cliëntenonderzoek bestaat uit drie verplichtingen ([[bronnen/wetteksten/XVII-an
 
 ### Meldingsplicht
 
-Wanneer een onderworpen entiteit **weet, vermoedt of redelijke gronden heeft om te vermoeden** dat geldmiddelen of verrichtingen verband houden met witwassen van geld of financiering van terrorisme, is zij verplicht dit onmiddellijk te melden aan de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]).
+Wanneer een onderworpen entiteit **weet, vermoedt of redelijke gronden heeft om te vermoeden** dat geldmiddelen of verrichtingen verband houden met witwassen van geld of financiering van terrorisme, is zij verplicht dit onmiddellijk te melden aan de [[antiwitwaswetgeving#-cel-voor-financiële-informatieverwerking-cfi|CFI]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]).
 
 **Kenmerken van de meldingsplicht:**
 - Drempel: al bij een **vermoeden** of **redelijke gronden** — géén zekerheid vereist

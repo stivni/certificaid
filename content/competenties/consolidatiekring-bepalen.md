@@ -13,6 +13,10 @@ bouwversie: 0
 
 Vaststellen welke entiteiten deel uitmaken van de consolidatiekring en welke methode op elke entiteit van toepassing is — dit is de eerste stap vóór enige consolidatieberekening. De uitkomst is een gestructureerde lijst van alle te consolideren entiteiten met hun methode: integraal, evenredig of vermogensmutatie.
 
+> [!info]- Grondslag van deze werkwijze (🤖 20% · ⚖️ 80%)
+>
+> De procedure volgt rechtstreeks uit het [[bronnen/wetteksten/XV-wvv|WVV]] (art. 3:23–3:27 voor de consolidatieplicht en vrijstellingen) en het [[bronnen/wetteksten/XV-KB-wvv|KB-WVV]] (art. 3:96–3:102 voor weglatingen en methodekeuze; art. 3:124 voor het vermoeden van invloed van betekenis). De volgorde van de stappen — eerst consolidatieplicht, dan type relatie per entiteit, dan weglatingen, dan documentatie — is een analytische conventie 🤖 die de wettelijke logica van algemeen kader naar concrete uitvoering volgt.
+
 ## Aanbevolen werkwijze
 
 ### 1. 🔍 Consolidatieverplichting nagaan
@@ -23,6 +27,8 @@ Vaststellen welke entiteiten deel uitmaken van de consolidatiekring en welke met
 >
 > 📤 **Uitkomst**:
 > - Oordeel: wel of geen consolidatieplicht
+
+**Waarom**: zonder vaststelling van de consolidatieplicht wordt ofwel onnodig werk verricht (vrijgestelde groep), ofwel een wettelijke verplichting genegeerd. De plicht is bovendien niet-discretionair: zodra één vennootschap in de groep genoteerd is, vervallen alle vrijstellingen.
 
 Bepaal of de vennootschap onderworpen is aan de consolidatieverplichting op basis van twee vragen:
 
@@ -49,6 +55,8 @@ Bepaal of de vennootschap onderworpen is aan de consolidatieverplichting op basi
 >
 > 📤 **Uitkomst**:
 > - Per entiteit: type relatie (dochter / gemeenschappelijke dochter / geassocieerde vennootschap)
+
+**Waarom**: het type controle bepaalt rechtstreeks welke consolidatiemethode wettelijk verplicht is. Een verkeerde classificatie (bv. evenredig waar integraal moet) leidt tot een materieel afwijkende geconsolideerde jaarrekening en een onjuiste weergave van de belangen van derden.
 
 Beoordeel voor elke participatie het type relatie:
 
@@ -82,11 +90,13 @@ Beoordeel voor elke participatie het type relatie:
 ### 3. 🔀 Weglatingen en verplichte uitsluitingen beoordelen
 
 > 📥 **Nodig**:
-> - [[consolidatiekring-bepalen#2-🔍-type-relatie-per-entiteit-vaststellen|Type relatie per entiteit]]
+> - [[consolidatiekring-bepalen#2--type-relatie-per-entiteit-vaststellen|Type relatie per entiteit]]
 > - Specifieke omstandigheden (omvang, beperkingen, vereffening, verkoopintentie)
 >
 > 📤 **Uitkomst**:
 > - Per entiteit: opnemen in consolidatiekring of weglaten/uitsluiten, met motivering
+
+**Waarom**: niet elke entiteit waarover controle bestaat moet effectief in de kring opgenomen worden. De wet voorziet specifieke weglatingsgronden (verwaarloosbaar, controlebeperkingen, vereffening) die een gemotiveerde keuze vereisen — een ongemotiveerde weglating maakt de geconsolideerde jaarrekening niet getrouw.
 
 Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[bronnen/wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]]):
 
@@ -103,11 +113,13 @@ Elke weglating vergt **motivering in de toelichting**.
 ### 4. 💬 Consolidatiekring documenteren
 
 > 📥 **Nodig**:
-> - [[consolidatiekring-bepalen#3-🔀-weglatingen-en-verplichte-uitsluitingen-beoordelen|Beslissingen per entiteit]]
+> - [[consolidatiekring-bepalen#3--weglatingen-en-verplichte-uitsluitingen-beoordelen|Beslissingen per entiteit]]
 >
 > 📤 **Uitkomst**:
 > - Definitieve consolidatiekring met methode per entiteit
 > - Toelichting-tekst voor weglatingen en bijzondere gevallen
+
+**Waarom**: de consolidatiekring is het fundament van alle volgende consolidatiewerken. Een onvolledige of fout gemotiveerde kring veroorzaakt fouten in elke daaropvolgende berekening — bovendien is de motivering van weglatingen wettelijk verplicht in de toelichting.
 
 Stel een overzicht op van alle entiteiten:
 

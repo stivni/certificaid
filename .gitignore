@@ -23,3 +23,6 @@ resources/samenvatting-deontologie.pdf
 resources/programma.pdf
 
 tools/__pycache__/
+
+# PO-build voortgang (lokaal, niet in repo)
+.po-voortgang-*.md

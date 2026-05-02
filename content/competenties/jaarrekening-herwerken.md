@@ -56,7 +56,7 @@ De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert d
 **Passief** (toenemende eisbaarheid):
 - `10/15` = eigen vermogen → `16` = voorzieningen → `17` = schulden LT → `42/48` + `492/3` = schulden KT
 
-Volledige NBB-code mapping per rubriek: [[balansaggregaten#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
+Voor de volledige NBB-code mapping per rubriek: zie de [[balansaggregaten#-analytische-indeling-van-de-balans|analytische indeling van de balans]].
 
 ```
 VOOR — wettelijk schema (extract, in €)
@@ -108,6 +108,8 @@ Vreemd vermogen KT (42/48 + 492/3)            680.000  ← 390 + 290
 > 📤 **Uitkomst**:
 > - Resultatenrekening met functionele niveaus: brutomarge → bedrijfsresultaat (EBIT) → EBT → nettowinst; en EBITDA als aanvullend aggregaat
 
+**Waarom**: de wettelijke resultatenrekening toont vooral het eindresultaat — de tussenniveaus (TAW, EBIT, EBITDA) zijn analytisch noodzakelijk om kosten- en margestructuur te begrijpen en zijn de inputs voor [[financiele-ratios|rentabiliteits- en activiteitsratio's]]. Zonder deze tussenniveaus kun je een margedaling niet toewijzen aan een specifieke kostencategorie.
+
 De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 
 | Niveau | Berekening | NBB-codes |
@@ -119,7 +121,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 | **Nettowinst** | EBT − belastingen | 9905/9906 |
 | **EBITDA** | EBIT + afschrijvingen + waardeverminderingen | 9901 + 630/634 |
 
-Definitie en toelichting per niveau: [[resultaatniveaus#-resultaatniveaus|Resultaatniveaus]]
+Voor definitie en toelichting per niveau: zie [[resultaatniveaus#-resultaatniveaus|Resultaatniveaus]].
 
 > [!warning]- Bereken EBITDA vanuit EBIT, niet vanuit nettowinst
 > ❌ *"EBITDA = nettowinst + belastingen + rente + afschrijvingen."*
@@ -138,7 +140,7 @@ Definitie en toelichting per niveau: [[resultaatniveaus#-resultaatniveaus|Result
 > 📤 **Uitkomst**:
 > - Netto bedrijfskapitaal (NBK), werkkapitaalbehoefte (WKB) en nettokaspositie
 
-De [[balansaggregaten#-balansaggregaten|kernbalansaggregaten]] condenseren de herstructurering tot drie kerncijfers die de financiering van de bedrijfscyclus beschrijven.
+De [[balansaggregaten|kernbalansaggregaten]] condenseren de herstructurering tot drie kerncijfers die de financiering van de bedrijfscyclus beschrijven.
 
 **NBK** = Vlottende activa − Schulden KT → meet de globale kortetermijnbuffer
 
@@ -246,7 +248,7 @@ De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide mi
 >
 > **Conclusie**: NBK = € 100.000 (positief maar smal); WKB = € 450.000 (hoge bedrijfscyclusfinanciering); nettokaspositie = −€ 140.000 (leunt op kaskrediet)
 >
-> **Grondslag**: [[balansaggregaten#-balansaggregaten|Balansaggregaten]]
+> **Grondslag**: [[balansaggregaten|Balansaggregaten]]
 >
 > **Redenering**:
 > - Vlottende activa = 300 + 400 + 80 = 780.000
