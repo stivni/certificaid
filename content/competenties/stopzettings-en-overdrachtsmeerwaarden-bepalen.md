@@ -304,7 +304,7 @@ Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 >   - Cliënteel: € 170 000 × 33% = € 56 100
 >   - Totaal: **€ 92 730**
 > - Stap 6: Optie wachten tot 60 jaar: cliënteel × 16,5% = € 28 050 → totaal € 64 680. Besparing: € 28 050. Strategische beslissing voor de cliënt
-> - Stap 7: Aangifte vak XV/XVI met specifieke codes; documentatie verkoopovereenkomst, schattingsverslag, inventaris bewaard 10 jaar
+> - Stap 7: Aangifte vak XXI (codes 1690-56 materieel, 1691-55 cliënteel); documentatie verkoopovereenkomst, schattingsverslag, inventaris bewaard 10 jaar
 >
 > 🤖 *AI-aanvulling*
 

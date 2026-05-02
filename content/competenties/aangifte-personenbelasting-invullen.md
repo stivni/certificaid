@@ -197,7 +197,7 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 4. **Aftrekken inzetten** voor onderhoudsuitkeringen, giften, pensioensparen, dienstencheques (onder de juiste vakken)
 
 ```
-Vak IV — Bezoldigingen werknemers
+Vak IV — Bezoldigingen werknemers  ⚠️ codes te verifiëren via aangifte-PB-2025 FOD Financiën
   Code 1250  Brutoinkomen                     € 50 000,00
   Code 1258  Sociale bijdragen werknemer       € −6 535,00  (auto van 281.10)
   Code 1271  Werkelijke beroepskosten          € 8 350,00   (indien hoger dan forfait)
