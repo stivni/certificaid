@@ -25,6 +25,8 @@ Laatste update: 2026-05-02
 | `WIB92-stopzetting.md` | WIB92 art. 28, 43, 44, 46, 47, 171 (partieel) | Stopzettingsmeerwaarden: definitie, belastbaarheid, tarieven, fiscale neutraliteit bij inbreng — geverifieerd via fiscosearch.be |
 | `aangifte-PB-2025-stopzetting.md` | Aangifte PB aanslagjaar 2025 — FOD Financiën | Exacte aangifte-codes voor stopzettingsmeerwaarden: vak XXI (1686/1690/1691/1692), vak XVII rubriek 4 (1603/1604), vak XVIII rubriek 6 (1653/1654) |
 | `aangifte-PB-2025-bezoldigingen.md` | Aangifte PB aanslagjaar 2025 — FOD Financiën | Codes vak III (onroerende inkomsten: 1105–1116), vak IV (bezoldigingen werknemers: 1250/1258/1271 en BV/soc.bijdr.), vak XVI (bezoldigingen bedrijfsleiders: 1400–1433 e.v.) — incl. bevestiging vak XVI ≠ vak XVII |
+| `WIB92-onroerende-inkomsten.md` | WIB92 art. 7, 8, 12, 13 (verbatim) — fiscosearch.be | Belastbare onroerende inkomsten (art. 7): KI vs. werkelijke huurprijs, 4 categorieën; splitsing gemengd gebruik (art. 8); vrijstelling eigen woning art. 12 §3; forfaitaire kostenaftrek 40%/10% (art. 13) |
+| `WIB92-kortetermijnverhuur.md` | Fiscale kwalificatieregels kortetermijnverhuur — ITAA-zine 2/2024, Airbnb Tax Guide 2025 | Gemeubelde verhuur (Airbnb/Booking.com): drie-componentensysteem (onroerend/roerend/divers), bijkomende diensten → 33% diverse inkomsten (art. 90 WIB92), 40/60-forfait KB/WIB, fiche 281.48 DAC7, btw 6%, geen deeleconomieregime |
 | `status.md` | Overzicht downloadstatus | Welke wetteksten lokaal beschikbaar zijn, welke nog ontbreken |
 
 ## Niet lokaal beschikbaar (placeholder in content/bronnen/wetteksten/)

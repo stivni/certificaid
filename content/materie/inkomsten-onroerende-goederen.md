@@ -64,18 +64,23 @@ Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale o
 
 ---
 
-## 📌 Categorieën van onroerende inkomsten
+## ⚖️ Basisregel en uitzonderingen
 
-De fiscale behandeling verschilt **fundamenteel** naargelang het gebruik door de huurder ([[bronnen/wetteksten/II-wib92|WIB92 art. 7]]):
+De fiscale behandeling van een onroerend goed volgt een logica van **basisregel met drie uitzonderingen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 7]]).
 
-| Categorie | Belastbaar bedrag | Wanneer? |
-|---|---|---|
-| **Eigen woning** | **Vrijgesteld** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 12, §3]]) | Belastingplichtige bewoont het pand zelf als hoofdverblijf |
-| **Niet verhuurd / 2e verblijf** | Geïndexeerd KI × 1,40 | Pand staat leeg of dient als 2e verblijf |
-| **Verhuurd aan particulier voor privégebruik** | Geïndexeerd KI × 1,40 | Huurder gebruikt voor eigen huisvesting |
-| **Verhuurd aan particulier of vennootschap voor beroep** | **Werkelijke nettohuur** (huur − 40% forfaitaire kosten, met min = geïndexeerd KI × 1,40) | Huurder gebruikt voor beroepsactiviteit |
-| **Verhuurd aan vennootschap voor privégebruik bedrijfsleider** | Werkelijke nettohuur, met **herkwalificatie** boven KI × 5/3 × revaloriseringscoëfficiënt | Bedrijfsleider als huurder |
-| **OG in buitenland** | Werkelijke huur (minus eigen forfaitaire kosten) of buitenlands "huurwaarde-equivalent" | Pand in buitenland |
+**Basisregel**: het belastbare inkomen = **geïndexeerd KI × 1,40** voor gebouwde goederen (of geïndexeerd KI zonder verhoging voor ongebouwde goederen). Dit geldt voor elk goed dat niet verhuurd is — leegstand, eigen gebruik als tweede verblijf — én voor verhuur aan een particulier voor privégebruik. Het doorslaggevende criterium is dus **het gebruik door de huurder**, niet het feit van verhuur an sich.
+
+**Uitzondering 1 — eigen woning**: het inkomen van de woning waar de belastingplichtige op 31 december zelf werkelijk verblijft als hoofdverblijfplaats is volledig **vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). → Zie [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]].
+
+**Uitzondering 2 — beroepsverhuur**: wanneer de huurder het goed (geheel of gedeeltelijk) gebruikt voor zijn **beroepsactiviteit**, wordt de **werkelijke huurprijs** belast — niet KI × 1,40 ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]). Het minimum blijft geïndexeerd KI × 1,40. → Zie [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]].
+
+**Uitzondering 3 — verhuur aan eigen vennootschap door bedrijfsleider**: huur boven een bepaalde drempel wordt **geherkwalificeerd** als bezoldiging bedrijfsleider ([[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]]). → Zie [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie]].
+
+> [!info]- In de praktijk: eenmanszaak en patrimonium
+>
+> Een **eenmanszaak** heeft geen rechtspersoonlijkheid — het bedrijfsvermogen en het privévermogen zijn juridisch dezelfde massa. Een zelfstandige die een pand bezit en het gebruikt voor zijn activiteit (werkplaats, kantoor) genereert **beroepsinkomsten**, niet onroerende inkomsten, op dat deel. De onroerende inkomsten-regeling geldt enkel voor het privépatrimonium — goederen die niet voor de eigen beroepsactiviteit worden aangewend.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -98,6 +103,53 @@ De fiscale behandeling verschilt **fundamenteel** naargelang het gebruik door de
 
 ---
 
+## 🔢 Beroepsverhuur: werkelijke huur en kostenaftrek
+
+Bij verhuur aan een **beroepsgebruiker** — zelfstandige die het pand voor zijn activiteit aanwendt, vennootschap, vrij beroep — wordt de **werkelijke jaarlijkse huurprijs** (inclusief huurvoordelen) als belastbare basis genomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]).
+
+**Forfaitaire kostenaftrek** ([[bronnen/wetteksten/II-wib92|WIB92 art. 13]]): op de brutohuur is een forfaitaire aftrek mogelijk als onderhouds- en herstellingskosten:
+- **40%** voor gebouwde onroerende goederen (gebouwen, materieel en outillage)
+- **10%** voor ongebouwde onroerende goederen (gronden, bouwpercelen)
+
+Het maximum van de forfaitaire aftrek voor gebouwde goederen bij beroepsverhuur = **⅔ van het gerevaloriseerde KI** (geïndexeerd KI × revaloriseringscoëfficiënt, cijferzakboekje). Dit plafond verhindert dat hoge nettohuren volledig worden uitgeholden door de aftrek.
+
+**Werkelijke kosten als alternatief**: in plaats van het forfait mogen de **werkelijk gemaakte kosten** worden afgetrokken — als die hoger zijn dan de forfaitaire aftrek. Dit is zelden voordelig bij standaard verhuur maar kan relevant zijn bij hoge renovatielasten. ⚠️ Grondslag: [[bronnen/wetteksten/II-wib92|WIB92 art. 14]].
+
+**Minimum**: het belastbaar bedrag na kostenaftrek kan nooit lager zijn dan **geïndexeerd KI × 1,40** voor gebouwde goederen ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]).
+
+**Gemengd gebruik** (deel privé, deel beroep): wanneer de huurprijs in een **geregistreerde** huurovereenkomst uitdrukkelijk gesplitst is per bestemming, wordt elk deel afzonderlijk berekend ([[bronnen/wetteksten/II-wib92|WIB92 art. 8]]). Ontbreekt de splitsing, dan hangt het af van het overheersende gebruik.
+
+> [!warning]- Gemengd gebruik: registratie van de huurovereenkomst is vereist
+> ❌ *"Een niet-geregistreerde huurovereenkomst met een beroeps/privé-opdeling volstaat om elk deel afzonderlijk te belasten."*
+>
+> Art. 8 WIB92 verplicht dat de opsplitsing in een **geregistreerde** huurovereenkomst is vastgelegd. Controlediensten weigeren de opsplitsing bij niet-geregistreerde contracten — ook al bevat het contract een expliciete verdeling. Praktische consequentie: laat een gemengd contract registreren vóór de eerste huurbetalingen.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: beroepsverhuur in cijfers (twee gevallen)
+>
+> **Revaloriseringscoëfficiënt**: 5,46 (inkomstenjaar 2025, cijferzakboekje — verifieer voor exact jaar).
+>
+> **Geval A — lage huur (plafond bindt niet)**: kantoorpand verhuurd voor € 12 000/jaar, geïndexeerd KI = € 1 500.
+> - 40% × € 12 000 = € 4 800 (berekende forfaitaire aftrek)
+> - Plafond = ⅔ × (€ 1 500 × 5,46) = ⅔ × € 8 190 = **€ 5 460**
+> - € 4 800 < € 5 460 → plafond niet bindend → aftrek = € 4 800
+> - Belastbaar = € 12 000 − € 4 800 = **€ 7 200**
+> - Minimum-check: € 1 500 × 1,40 = € 2 100 → OK
+>
+> **Geval B — hoge huur (plafond bindt)**: zelfde pand, maar verhuurd voor € 30 000/jaar.
+> - 40% × € 30 000 = € 12 000 (berekende forfaitaire aftrek)
+> - Plafond = ⅔ × € 8 190 = **€ 5 460**
+> - € 12 000 > € 5 460 → **plafond is de beperkende factor** → aftrek beperkt tot € 5 460
+> - Belastbaar = € 30 000 − € 5 460 = **€ 24 540**
+> - Minimum-check: € 2 100 → OK
+>
+> Het plafond bindt wanneer de werkelijke huur zo hoog is dat 40% ervan het plafond overschrijdt. Het break-evenpunt bij KI = € 1 500 ligt op € 5 460 / 40% = **€ 13 650**/jaar (ca. € 1 138/maand).
+>
+> 🤖 *AI-aanvulling — coëfficiënten te verifiëren via actueel cijferzakboekje*
+
+---
+
 ## 🔢 Berekening belastbaar inkomen — overzicht
 
 ```
@@ -107,7 +159,7 @@ Belastbaar onroerend inkomen per OG
    OF
    Werkelijke nettohuur (bij verhuur voor beroep)
 −
-   Aftrekbare interesten op hypothecaire lening (eigen woning of investeringspand)
+   Aftrekbare interesten op hypothecaire lening (investeringspand)
 =
    Netto belastbaar onroerend inkomen
 ```
@@ -116,7 +168,7 @@ De twee grootheden waaruit het belastbare bedrag voortvloeit:
 
 **Geïndexeerd KI** = niet-geïndexeerd KI × jaarlijkse indexcoëfficiënt (cijferzakboekje)
 
-**Werkelijke nettohuur** (voor beroepshuur) = ontvangen brutohuur − forfaitaire kostenaftrek (40% voor gebouwen, 10% voor gronden, gemax. op 2/3 van de gerevaloriseerde KI)
+**Werkelijke nettohuur** (bij [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|beroepsverhuur]]) = ontvangen brutohuur − forfaitaire kostenaftrek (40% gebouwde goederen, 10% ongebouwde goederen, max. ⅔ gerevaloriseerd KI) — of werkelijke kosten als die hoger zijn
 
 ---
 
@@ -219,11 +271,49 @@ Sommige inkomsten **lijken** onroerend maar worden anders gekwalificeerd:
 
 | Inkomen | Kwalificatie |
 |---|---|
-| **Vergoedingen voor verbreking huurcontract** | Onroerend inkomen — telt mee bij KI-bewoonbedrag |
+| **Vergoedingen voor verbreking huurcontract** | Onroerend inkomen — belastbaar als deel van het onroerend inkomen van het betrokken goed |
 | **Erfpachtcanon, opstal** | Onroerend inkomen volgens kapitalisatieregels |
-| **Vergoeding voor recht van uitweg** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92\|WIB92 art. 90, 1°]]) — niet onroerend |
-| **Toevallige meerwaarde op verkoop OG** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92\|WIB92 art. 90, 8°-10°]]) — speculatie of normaal beheer |
+| **Vergoeding voor recht van uitweg** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]]) — niet onroerend |
+| **Toevallige meerwaarde op verkoop OG** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 8°-10°]]) — speculatie of normaal beheer |
 | **Beroepsmatige meerwaarde op OG** | Beroepsinkomsten (zelfstandige, bedrijfsleider) |
+
+---
+
+## 🚩 Bemeubelde kortetermijnverhuur met diensten (Airbnb, Booking.com)
+
+Verhuur via Airbnb of Booking.com valt **niet** onder de gewone onroerende inkomsten-regeling en **niet** onder het deeleconomie-regime. De fiscale behandeling is drieledig: het inkomen wordt opgesplitst in drie componenten die elk apart worden belast (ITAA-zine 2/2024; Airbnb Tax Guide 2025).
+
+| Component | Grondslag | Tarief | Code |
+|---|---|---|---|
+| **Onroerend** (de ruimte zelf) | Geïndexeerd KI × 1,40 | Progressief | 1106/2106 |
+| **Roerend** (meubilair) | Roerend deel van huur − 50% forfait | 30% | 1156/2156 |
+| **Divers** (diensten: ontbijt, linnen, onthaal) | Bruto dienstenvergoeding − bewezen kosten | 33% | 1200/2200 (bruto) / 1201/2201 (kosten) |
+
+**Verdeling van de huur over de drie componenten**:
+
+- *Zonder bijkomende diensten* (enkel bemeubeld): 40% roerend, 60% onroerend — geen diverse component.
+- *Met bijkomende diensten* en gebrek aan contractuele splitsing: **20%** → divers, van de resterende **80%** → 40% roerend (= 32% van totaal) + 60% onroerend (= 48% van totaal). Dit is de forfaitaire administratieve verdeling (ITAA-zine 2/2024).
+- Met contractuele splitsing: verhuurder bepaalt de verhouding zelf — mits realistisch.
+
+**Btw**: verhuur van bemeubelde accommodatie voor **minder dan drie maanden** met bijkomende diensten (onthaal, wekelijkse vernieuwing beddengoed of dagelijks ontbijt) is in principe btw-plichtig aan **6%** (art. 44, §3, 2°, a), derde streepje Btw-Wetboek). Bij een jaarlijkse omzet boven **€ 25 000** (excl. btw) valt de kleine ondernemingsregeling weg.
+
+**Fiche 281.48**: platforms zijn verplicht (DAC7, wet 21 december 2021) uiterlijk 31 maart een fiche te bezorgen met de bruto-inkomsten. In de aangifte telt het **werkelijk ontvangen brutobedrag** — niet het fiche-bedrag, dat platformkosten al kan hebben afgetrokken.
+
+Wanneer de verhuur **frequent, intensief en georganiseerd** is, kan de administratie herkwalificeren als **beroepsinkomen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 37]]). Dit is een feitelijke beoordeling per geval.
+
+> [!warning]- Airbnb is geen deeleconomieplatform — geen verlaagd tarief
+> ❌ *"Verhuur via Airbnb valt onder de deeleconomieregeling en wordt belast aan het gunstige deeleconomie-tarief."*
+>
+> Airbnb en Booking.com zijn **niet erkend** als deeleconomieplatform voor fiscale doeleinden. De deeleconomie-regeling (wet 18 juli 2018) — die inkomsten belast aan 20% op de helft van de brutoinkomsten, onder een jaarlijks plafond — is **niet** van toepassing.
+>
+> Bron: ITAA-zine 2/2024, p. 3.
+
+> [!warning]- Niet louter onroerend inkomen — drie componenten samen aangeven
+> ❌ *"Een Airbnb-verhuurder geeft zijn inkomsten aan als gewone onroerende inkomsten op basis van het KI."*
+>
+> De drie-componentenlogica is dwingend: onroerend (KI), roerend (meubels), divers (diensten) worden elk afzonderlijk in de aangifte opgenomen. Wie enkel het KI aangeeft, verzwijgt de roerende en diverse component. De fiche 281.48 die het platform verplicht bezorgt, maakt de inkomsten rechtstreeks zichtbaar bij de fiscus.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -247,35 +337,53 @@ Kenniselementen:
 > >
 > > De eigen woning (waar de belastingplichtige werkelijk verblijft op 31 december) is volledig vrijgesteld in de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). Het zomerverblijf is een "niet verhuurde tweede woning" → belast aan geïndexeerd KI verhoogd met 40%.
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#-categorieën-van-onroerende-inkomsten|Categorieën van onroerende inkomsten]] en [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]]*
+> > *Zie: [[inkomsten-onroerende-goederen#️-basisregel-en-uitzonderingen|Basisregel en uitzonderingen]] en [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]]*
 >
 > 🤖 *AI-aanvulling*
 
 > [!question]- Huur vs. KI bij beroepsverhuur
 >
-> Een eigenaar verhuurt zijn winkelpand aan een zelfstandige bakker voor € 24 000/jaar. Geïndexeerd KI van het pand = € 1 800. Wat is het belastbare bedrag?
+> Een eigenaar verhuurt zijn winkelpand aan een zelfstandige bakker voor € 24 000/jaar. Geïndexeerd KI van het pand = € 1 800, revaloriseringscoëfficiënt = 5,46. Wat is het belastbare bedrag?
 >
 > > [!success]- Antwoord
 > >
-> > **Het belastbare bedrag = werkelijke nettohuur, met als minimum geïndexeerd KI × 1,40.**
+> > **Het belastbare bedrag = werkelijke huur − forfaitaire kostenaftrek (plafond toetsen), min. KI × 1,40.**
 > >
-> > Voor verhuur aan een **beroepsgebruiker** (zelfstandige, vennootschap, vrij beroep) wordt de werkelijke huur belast (niet KI × 1,40). Berekening: werkelijke nettohuur = € 24 000 − 40% forfaitaire kostenaftrek (max 2/3 van gerevaloriseerd KI) ≈ € 14 400. Vergelijken met minimum (€ 1 800 × 1,40 = € 2 520) → werkelijke nettohuur ligt boven het minimum, dus het belastbare bedrag = ongeveer € 14 400. De aftrek van interesten op een eventuele hypothecaire lening kan dit nog verminderen.
+> > 1. Berekende forfaitaire aftrek: 40% × € 24 000 = € 9 600
+> > 2. Plafond = ⅔ × (€ 1 800 × 5,46) = ⅔ × € 9 828 = **€ 6 552**
+> > 3. € 9 600 > € 6 552 → plafond is bindend → werkelijke aftrek = **€ 6 552**
+> > 4. Belastbaar = € 24 000 − € 6 552 = **€ 17 448**
+> > 5. Minimum-check: € 1 800 × 1,40 = € 2 520 → OK
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#-berekening-belastbaar-inkomen-overzicht|Berekening belastbaar inkomen]]*
+> > *Zie: [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]]*
+>
+> 🤖 *AI-aanvulling — coëfficiënt te verifiëren via cijferzakboekje*
+
+> [!question]- Herkwalificatie bedrijfsleidershuur — open parking vs. garagebox
+>
+> Een zaakvoerder verhuurt (a) een open parkeerterrein en (b) een overdekte garagebox aan zijn vennootschap. Wordt de huur in beide gevallen niet geherkwalificeerd?
+>
+> > [!success]- Antwoord
+> >
+> > **Niet identiek: open parking (grond) → geen herkwalificatie; overdekte garagebox (gebouw) → wél herkwalificatie mogelijk.**
+> >
+> > De herkwalificatie van [[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]] geldt voor **gebouwde** onroerende goederen. Een open parkeerterrein is grond → geen herkwalificatie, volledige huur belast als onroerend inkomen (10% forfaitaire kostenaftrek). Een overdekte garagebox of parkeergebouw is een gebouw → herkwalificatiedrempel van toepassing (KI × 5/3 × revaloriseringscoëfficiënt).
+> >
+> > *Zie: [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huurinkomsten bedrijfsleider]]*
 >
 > 🤖 *AI-aanvulling*
 
-> [!question]- Herkwalificatie bedrijfsleidershuur
+> [!question]- Airbnb-verhuurder geeft louter KI aan
 >
-> Een zaakvoerder van een bv verhuurt zijn parking aan zijn vennootschap voor € 8 000/jaar. Geïndexeerd KI van de parking = € 600. Wordt een deel van de huur geherkwalificeerd?
+> Een eigenaar verhuurt zijn gemeubelde kamer via Airbnb (200 nachten/jaar). Hij biedt dagelijks ontbijt aan. In zijn aangifte vult hij enkel het geïndexeerd KI in (code 1106). Is dit correct?
 >
 > > [!success]- Antwoord
 > >
-> > **Nee — herkwalificatie geldt enkel voor gebouwen, niet voor gronden.**
+> > **Nee — de drie-componentenlogica is verplicht.**
 > >
-> > De herkwalificatie van [[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]] is uitdrukkelijk beperkt tot **gebouwde** onroerende goederen. Een parking (grond) ontsnapt aan de herkwalificatie. De volledige € 8 000 wordt belast als onroerend inkomen, na aftrek van 10% forfaitaire kosten voor ongebouwde OG.
+> > Verhuur via Airbnb met bijkomende diensten genereert drie afzonderlijke inkomstenstromen: (1) onroerend (KI × 1,40, code 1106), (2) roerend (meubilair, code 1156, 30%), (3) divers/ontbijt (bruto − bewezen kosten, code 1200, 33%). Wie enkel het KI aangeeft, verzwijgt de roerende en diverse component. Airbnb bezorgt een fiche 281.48 — de fiscus beschikt over de brutocijfers.
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huurinkomsten bedrijfsleider]]*
+> > *Zie: [[inkomsten-onroerende-goederen#-bemeubelde-kortetermijnverhuur-met-diensten-airbnb-bookingcom|Bemeubelde kortetermijnverhuur]]*
 >
 > 🤖 *AI-aanvulling*
 
