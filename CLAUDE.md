@@ -135,13 +135,29 @@ Bronnen staan in twee plaatsen:
 
 | Index | Inhoud | Gebruik |
 |---|---|---|
-| `resources/adviezen/INDEX.md` | Alle CBN-adviezen met scope per advies | Welk advies is relevant voor onderwerp X? |
+| `resources/adviezen/INDEX.md` | Alle CBN-adviezen: nummer, datum, thema's per advies | Welk advies is relevant voor onderwerp X? |
 | `resources/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
 | `resources/voorbeeldexamens/INDEX.md` | Per examen: POs, vraagtypen, thema's | Welk examen bevraagt PO X / concept Y? |
 
+**CBN-adviezen doorzoeken** — elk advies heeft YAML-frontmatter met `nummer`, `datum`, `themas` (lijst):
+```bash
+# Op thema (frontmatter — meest precies):
+grep -rl "  - leasing" content/bronnen/adviezen/
+grep -rl "  - afschrijving" content/bronnen/adviezen/
+
+# Op jaar:
+grep -rl "datum: 2021" content/bronnen/adviezen/
+
+# Vrije tekst in body:
+grep -rl "operationele leasing" content/bronnen/adviezen/
+
+# Gecombineerd — thema + recent:
+grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
+```
+
 **Werkwijze bronopzoeking** (bij elke PO-build):
 1. Lees de relevante INDEX.md — identificeer kandidaat-bronnen semantisch
-2. Grep in de gevonden bestanden op specifiek artikelnummer of sleutelwoord
+2. Grep op thema via `  - [thema]` in frontmatter, of op vrije tekst in body
 3. Lees de volledige gevonden passages voor citaat en verificatie
 4. Ga enkel online als de bron niet lokaal beschikbaar is (zie `resources/wetteksten/INDEX.md` voor ontbrekende wetten)
 
