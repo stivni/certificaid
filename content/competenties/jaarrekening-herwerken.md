@@ -12,6 +12,11 @@ itaa-lex-secties:
 
 De officiële jaarrekening (wettelijk schema) omvormen naar een analytisch bruikbaar formaat: functionele hergroepering van balans en resultatenrekening, en berekening van de kernbalansaggregaten.
 
+> [!info]- Grondslag van deze werkwijze (🤖 50% · ⚖️ 50%)
+> Er bestaat geen ITAA-norm die de herstructurering van de jaarrekening als taakprocedure beschrijft. De procedure volgt uit twee bronnen:
+> - **Schema en codes** (stap 1–2): de rubrieksindeling en NBB-codes zijn vastgelegd in het **[[wetteksten/XIII-KB-wer-boekhouding|KB 21/10/2018]]** (MAR). Dit deel is niet vrij te kiezen.
+> - **Analytische hergroepering** (stap 2–4): welke rubrieken bij vlottend actief, schulden KT of EBITDA horen, is gebaseerd op **NBB-documentatie en beroepspraktijk** 🤖 — niet in een norm vastgelegd.
+
 ## Aanbevolen werkwijze
 
 ### 1. 🔍 Schema vaststellen
@@ -22,9 +27,7 @@ De officiële jaarrekening (wettelijk schema) omvormen naar een analytisch bruik
 > 📤 **Uitkomst**:
 > - Schema-type (volledig, verkort of micro) en het beschikbare detailniveau
 
-Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn alle rubrieken beschikbaar. Bij een verkort schema ontbreken sommige subrubrieken — bepaalde hergroeperingen en ratio's zijn dan niet mogelijk.
-
-Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht van welke ratio's per schema beschikbaar zijn.
+Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn alle rubrieken beschikbaar. Bij een verkort schema ontbreken sommige subrubrieken — bepaalde hergroeperingen en [[financiele-ratios#-schema-beperkingen|ratio's]] zijn dan niet mogelijk.
 
 > [!warning]- Microschema herstructureren alsof het een volledig schema is
 > ❌ *"Ik herstructureer het microschema op dezelfde manier als het volledig schema."*
@@ -52,7 +55,7 @@ De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert d
 **Passief** (toenemende eisbaarheid):
 - `10/15` = eigen vermogen → `16` = voorzieningen → `17` = schulden LT → `42/48` + `492/3` = schulden KT
 
-Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[jaarrekeninganalyse#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
+Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[balansaggregaten#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
 
 > [!warning]- Overlopende rekeningen passief vergeten bij schulden KT
 > ❌ *"Schulden op korte termijn zijn rubrieken 42 tot 48 — overlopende rekeningen zijn iets aparts."*
@@ -82,7 +85,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 | **Nettowinst** | EBT − belastingen | 9905/9906 |
 | **EBITDA** | EBIT + afschrijvingen + waardeverminderingen | 9901 + 630/634 |
 
-Definitie en toelichting per niveau: [[jaarrekeninganalyse#-resultaatniveaus|Resultaatniveaus]]
+Definitie en toelichting per niveau: [[resultaatniveaus#-resultaatniveaus|Resultaatniveaus]]
 
 > [!warning]- EBITDA berekenen door belastingen en rente bij nettowinst op te tellen
 > ❌ *"EBITDA = nettowinst + belastingen + rente + afschrijvingen."*
@@ -101,9 +104,7 @@ Definitie en toelichting per niveau: [[jaarrekeninganalyse#-resultaatniveaus|Res
 > 📤 **Uitkomst**:
 > - Netto bedrijfskapitaal (NBK), werkkapitaalbehoefte (WKB) en nettokaspositie
 
-De kernbalansaggregaten condenseren de herstructurering tot drie kerncijfers die de financiering van de bedrijfscyclus beschrijven.
-
-Formules en betekenis: [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]
+De [[balansaggregaten#-balansaggregaten|kernbalansaggregaten]] condenseren de herstructurering tot drie kerncijfers die de financiering van de bedrijfscyclus beschrijven.
 
 **NBK** = Vlottende activa − Schulden KT → meet de globale kortetermijnbuffer
 
@@ -120,13 +121,74 @@ De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide mi
 
 ## Voorbeelden
 
+> [!example]- Resultatenrekening herwerken: van wettelijk schema naar analytisch formaat
+>
+> **Situatie**: onderstaande resultatenrekening (volledig schema, in €). Gevraagd: bereken TAW, EBIT, EBT, nettowinst en EBITDA.
+>
+> ```
+> Wettelijk schema (selectie)
+> ─────────────────────────────────────────────────────────────────
+> 70   Omzet                                              6.000.000
+> 74   Andere bedrijfsopbrengsten (excl. subsidies)          50.000
+> 60   Aankopen handelsgoederen                          -2.400.000
+> 61   Diensten en diverse goederen                        -600.000
+> 3    Voorraadwijziging (stijging = +)                    +150.000
+> 62   Bezoldigingen en soc. lasten                      -1.800.000
+> 630  Afschrijvingen MVA                                  -400.000
+> 634  Waardeverminderingen handelsvorderingen              -30.000
+> 64   Andere bedrijfskosten                               -120.000
+> 65   Financiële kosten (interesten)                       -90.000
+> 75   Financiële opbrengsten                                10.000
+> 67   Belastingen op het resultaat                        -190.000
+> ─────────────────────────────────────────────────────────────────
+> ```
+>
+> **Analytisch herwerkt:**
+>
+> ```
+> Netto-omzet (70)                              6.000.000
+> + Andere bedrijfsopbrengsten (74)                50.000
+> − Aankopen (60)                              -2.400.000
+> − Diensten en div. goederen (61)               -600.000
+> + Voorraadwijziging (3)                        +150.000
+> ─────────────────────────────────────────────────────────
+> = Toegevoegde waarde (TAW)                    3.200.000   (53,3% omzet)
+>
+> − Personeelskosten (62)                      -1.800.000
+> − Afschrijvingen (630)                         -400.000
+> − Waardeverminderingen (634)                    -30.000
+> − Andere bedrijfskosten (64)                   -120.000
+> ─────────────────────────────────────────────────────────
+> = EBIT                                          850.000   (14,2% omzet)
+>
+> + Financiële opbrengsten (75)                    10.000
+> − Financiële kosten (65)                        -90.000
+> ─────────────────────────────────────────────────────────
+> = EBT                                           770.000
+>
+> − Belastingen (67)                             -190.000
+> ─────────────────────────────────────────────────────────
+> = Nettowinst                                    580.000   (9,7% omzet)
+>
+> EBITDA = EBIT + afschrijvingen + wverm.
+>        = 850.000 + 400.000 + 30.000 =        1.280.000   (21,3% omzet)
+> ```
+>
+> **Conclusie**: EBITDA € 1.280.000; EBIT € 850.000; nettowinst € 580.000.
+>
+> **Grondslag**: [[resultaatniveaus#-resultaatniveaus|Resultaatniveaus]]
+>
+> **Redenering**: startpunt is altijd de omzet (70). De TAW wordt berekend door alle directe kosten (60, 61, 3) af te trekken en andere bedrijfsopbrengsten (74) bij te tellen. Afschrijvingen (630) en waardeverminderingen (634) worden bij EBIT afgetrokken maar bij EBITDA terug opgeteld — ze zijn geen kasuitstroom. Financiële kosten liggen ónder EBIT en beïnvloeden de EBITDA niet.
+>
+> 🤖 *AI-aanvulling*
+
 > [!example]- NBK, WKB en nettokaspositie vanuit een gestructureerde balans
 >
 > **Situatie**: handelsonderneming (in €): voorraden 300.000; handelsvorderingen 400.000; liquide middelen 80.000; leveranciersschulden 250.000; kortlopende leningen 220.000; overige KT-schulden 210.000; vaste activa 1.200.000; langetermijnschulden 500.000; eigen vermogen 800.000.
 >
 > **Conclusie**: NBK = € 100.000 (positief maar smal); WKB = € 450.000 (hoge bedrijfscyclusfinanciering); nettokaspositie = −€ 140.000 (leunt op kaskrediet)
 >
-> **Grondslag**: [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]
+> **Grondslag**: [[balansaggregaten#-balansaggregaten|Balansaggregaten]]
 >
 > **Redenering**:
 > - Vlottende activa = 300 + 400 + 80 = 780.000
@@ -144,7 +206,7 @@ De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide mi
 >
 > **Conclusie**: eigen vermogen = € 460.000
 >
-> **Grondslag**: [[jaarrekeninganalyse#-eigen-vermogen-in-het-kortmodel-nbb|EV kortmodel NBB]]
+> **Grondslag**: [[balansaggregaten#-eigen-vermogen-in-het-kortmodel-nbb|EV kortmodel NBB]]
 >
 > **Redenering**: EV = 250.000 + 0 + 30.000 + 120.000 + 45.000 + 15.000 = **€ 460.000**. In het kortmodel is eigen vermogen één gecombineerde rubriek — de opsomming van de componenten geeft het totaal.
 >
@@ -176,7 +238,7 @@ De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide mi
 > >
 > > Andere geldige antwoorden: vorderingen sneller innen (debiteurendagen verkorten), langere betalingstermijnen bij leveranciers bedingen.
 > >
-> > *Zie: [[jaarrekeninganalyse#-nbk-verhogen-hoe|NBK verhogen]]*
+> > *Zie: [[balansaggregaten#-nbk-verhogen-hoe|NBK verhogen]]*
 >
 > 📝 *Uit voorbeeldexamen 2013/2*
 
@@ -195,7 +257,7 @@ De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide mi
 > >
 > > Het passief is geordend van het minst eisbare (eigen vermogen — geen terugbetalingsverplichting) naar het meest eisbare (schulden op korte termijn — onmiddellijk opeisbaar). Daartussen: voorzieningen (onzeker), langetermijnschulden (laag), kortetermijnschulden (hoog), overlopende rekeningen passief (hoog).
 > >
-> > *Zie: [[jaarrekeninganalyse#-volgorde-van-de-rubrieken-op-het-passief|Volgorde rubrieken passief]]*
+> > *Zie: [[balansaggregaten#-volgorde-van-de-rubrieken-op-het-passief|Volgorde rubrieken passief]]*
 >
 > 📝 *Uit voorbeeldexamen 2024*
 

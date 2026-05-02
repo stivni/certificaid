@@ -12,6 +12,12 @@ itaa-lex-secties:
 
 Gegeven een balans en resultatenrekening — en eventuele toelichting — de correcte waarde berekenen voor een gevraagde financiële ratio, inclusief het identificeren van de juiste brongegevens en het toepassen van de noodzakelijke correcties.
 
+> [!info]- Grondslag van deze werkwijze (🤖 80% · ⚖️ 20%)
+> Er bestaat geen ITAA-norm die ratio-formules of -berekeningsmethodes vastlegt. De procedure is gebaseerd op:
+> - **Schema-beperkingen** (stap 2): welke rubrieken beschikbaar zijn in volledig/verkort/microschema is vastgelegd in het **[[wetteksten/XIII-KB-wer-boekhouding|KB 21/10/2018]]** (MAR) en het **[[wetteksten/XV-wvv|WVV]]**.
+> - **Ratio-definities** (stap 1, 4–5): gebaseerd op **NBB-documentatie en beroepspraktijk** 🤖. De NBB publiceert sectoranalyses die als referentie gelden, maar er is geen bindende norm.
+> - **Correcties via toelichting** (stap 3): analytische conventie 🤖.
+
 ## Aanbevolen werkwijze
 
 ### 1. 🔍 Ratio en formule identificeren
@@ -49,9 +55,7 @@ Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
 > 📤 **Uitkomst**:
 > - Bevestiging dat de ratio berekenbaar is, of een expliciete melding dat de vereiste gegevens ontbreken
 
-Sommige ratio's vereisen detailgegevens die niet beschikbaar zijn in het verkort of microschema. Als de gevraagde ratio niet berekenbaar is, zeg dat dan expliciet — het examen toetst soms net dit inzicht.
-
-Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht per ratio.
+Sommige ratio's vereisen detailgegevens die niet beschikbaar zijn in het verkort of microschema. Als de gevraagde ratio niet berekenbaar is, zeg dat dan expliciet — het examen toetst soms net dit inzicht. De [[financiele-ratios#-schema-beperkingen|schema-beperkingen]] geven een overzicht per ratio.
 
 > [!warning]- N-dagen klantenkrediet berekenen op een verkort schema
 > ❌ *"Ik bereken de klantenbetalingstermijn op basis van de beschikbare vorderingspost."*

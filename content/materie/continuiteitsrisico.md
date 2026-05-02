@@ -13,9 +13,10 @@ bronnen:
   - ISA 570 herzien (referentiekader indicatoren — IBR-auditstandaard, niet bindend voor GA)
 ---
 
-# Continuiteitsrisico en alarmbelprocedure
+# Continuiteitsrisico
 
-## 📌 Continuïteitsveronderstelling (going concern)
+## 📌 Continuïteitsveronderstelling
+*Going concern*
 
 De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in de voorzienbare toekomst voortzet — activa en passiva worden gewaardeerd vanuit die veronderstelling. Bij twijfel moeten de waarderingsregels worden aangepast en moet de toelichting dit vermelden. ([[wetteksten/XV-wvv#art-252|WVV art. 2:52]], [[normen/ISA-570-herzien#par-2|ISA 570 herzien, par. 2]])
 
@@ -23,11 +24,7 @@ De beoordelingsperiode bedraagt minstens **12 maanden** na de balansdatum. ([[no
 
 ## 📌 Nettoactief
 
-Het nettoactief is de centrale maatstaf voor de alarmbelprocedure. Definitie ([[wetteksten/XV-wvv#art-5142|WVV art. 5:142]], CBN-advies 2021/14):
-
-> Totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtingskosten en O&O-kosten (behoudens uitzonderlijke gevallen)
-
-In de praktijk stemt dit overeen met het **boekhoudkundig eigen vermogen**.
+Het [[nettoactief|nettoactief]] is de centrale maatstaf voor de alarmbelprocedure. Definitie en berekening: [[nettoactief]].
 
 ## 📌 Alarmbelprocedure
 
@@ -50,15 +47,15 @@ De Altman Z-score is een kwantitatief model om falingskans in te schatten op bas
 
 **Formule** (originele versie, beursgenoteerde maatschappijen):
 
-Z = 1,2 × X₁ + 1,4 × X₂ + 3,3 × X₃ + 0,6 × X₄ + 1,0 × X₅
+Z = 1,2 × (NBK/TA) + 1,4 × (IW/TA) + 3,3 × (EBIT/TA) + 0,6 × (MVE/VV) + 1,0 × (O/TA)
 
-| Variabele | Berekening | Belgische code |
-|---|---|---|
-| X₁ | Werkkapitaal / Totaal activa | (29/58 − 42/48) / 20/58 |
-| X₂ | Ingehouden winst / Totaal activa | (14 − 141) / 20/58 |
-| X₃ | EBIT / Totaal activa | zie CBN 2017/01 NT / 20/58 |
-| X₄ | Marktwaarde EV / Boekwaarde schulden | 10 / (16 + 17 + 42/48) |
-| X₅ | Omzet / Totaal activa | 70 / 20/58 |
+| Variabele | Naam | Berekening | Belgische code |
+|---|---|---|---|
+| NBK/TA | Werkkapitaal / Totaal activa | (29/58 − 42/48) / 20/58 | Rubriek 29/58, 42/48 |
+| IW/TA | Ingehouden winst / Totaal activa | (14 − 141) / 20/58 | Rubriek 14 |
+| EBIT/TA | Bedrijfsresultaat / Totaal activa | 9901 / 20/58 | Rubriek 9901 |
+| MVE/VV | Marktwaarde EV / Boekwaarde schulden | 10 / (16+17+42/48) | Rubriek 10 |
+| O/TA | Omzet / Totaal activa | 70 / 20/58 | Rubriek 70 |
 
 **Zones (originele versie)**:
 - Z > 2,99 → veilige zone
@@ -68,6 +65,25 @@ Z = 1,2 × X₁ + 1,4 × X₂ + 3,3 × X₃ + 0,6 × X₄ + 1,0 × X₅
 **Beperkingen voor Belgische context**: de originele formule werd gekalibreerd op beursgenoteerde Amerikaanse productiebedrijven. Voor niet-beursgenoteerde KMO's bestaat een aangepaste Z'-versie (X₄ op basis van boekwaarde). Geen van beide versies is gevalideerd op een representatieve Belgische steekproef.
 
 🤖 *AI-aanvulling — Belgische rekeningcodekoppelingen zijn indicatief; verifieer via het MAR*
+
+> [!info]- In de praktijk: Altman Z-score berekenen
+>
+> 🤖 *AI-aanvulling*
+>
+> Een productie-nv heeft (in €): totaal activa 5.000.000; werkkapitaal (vlottende activa − schulden KT) 400.000; ingehouden winst (reserves) 600.000; EBIT 350.000; marktwaarde eigen vermogen 1.200.000; totale schulden 3.200.000; netto-omzet 7.000.000.
+>
+> | Variabele | Berekening | Waarde |
+> |---|---|---|
+> | NBK/TA = Werkkapitaal / Totaal activa | 400.000 / 5.000.000 | 0,080 |
+> | IW/TA = Ingehouden winst / Totaal activa | 600.000 / 5.000.000 | 0,120 |
+> | EBIT/TA = Bedrijfsresultaat / Totaal activa | 350.000 / 5.000.000 | 0,070 |
+> | MVE/VV = Marktwaarde EV / Totale schulden | 1.200.000 / 3.200.000 | 0,375 |
+> | O/TA = Omzet / Totaal activa | 7.000.000 / 5.000.000 | 1,400 |
+>
+> Z = 1,2 × 0,080 + 1,4 × 0,120 + 3,3 × 0,070 + 0,6 × 0,375 + 1,0 × 1,400
+>   = 0,096 + 0,168 + 0,231 + 0,225 + 1,400 = **2,12**
+>
+> **Interpretatie**: Z = 2,12 → grijze zone (1,81–2,99). De onderneming is niet in de veilige zone maar ook niet acuut in gevaar. Dit is een signaal om de financiële positie verder te onderzoeken — het model geeft een indicatie, geen diagnose. Let op de beperkingen: het model is niet gevalideerd voor de Belgische context en is slechts één instrument naast ratio-analyse en kasstroomanalyse.
 
 ## 🔎 Signalen van continuïteitsrisico
 
@@ -122,14 +138,16 @@ Sommige situaties lijken op going concern-problemen maar zijn dat niet per defin
 Wanneer het bestuursorgaan "gewichtige en overeenstemmende feiten" vaststelt die de continuïteit in het gedrang brengen:
 
 1. Beraadslagen over herstelmaatregelen ([[wetteksten/XV-wvv#art-252|WVV art. 2:52]])
-2. Alarmbelprocedure uitvoeren als de wettelijke drempels bereikt zijn (zie § Alarmbelprocedure)
+2. [[continuiteitsrisico#-alarmbelprocedure|Alarmbelprocedure uitvoeren]] als de wettelijke drempels bereikt zijn
 3. Bij verdere verslechtering: overwegen om de voorzitter van de ondernemingsrechtbank in te lichten
 
 Bestuursleden die de alarmbelprocedure niet naleven zijn aansprakelijk voor de schade die derden lijden, tenzij ze het tegendeel bewijzen. ([[wetteksten/XV-wvv#art-5153|WVV art. 5:153 §3]])
 
-## 🔒 Meldingsplicht van de beroepsbeoefenaar
+## 🔒 Meldingsplicht bij continuïteitsrisico (WER art. XX.23)
 
-De gecertificeerd accountant (GA) en gecertificeerd belastingadviseur (GBA) hebben een meldingsplicht wanneer zij bij de uitoefening van hun opdracht "gewichtige en overeenstemmende feiten" vaststellen die de continuïteit in het gedrang kunnen brengen. (WER art. XX.23 §3)
+*Niet te verwarren met de [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht (AWW)]] — dit is een aparte wettelijke verplichting op grond van het WER.*
+
+De gecertificeerd accountant (GA) en gecertificeerd belastingadviseur (GBA) hebben een meldingsplicht wanneer zij bij de uitoefening van hun opdracht "gewichtige en overeenstemmende feiten" vaststellen die de continuïteit in het gedrang kunnen brengen. ([[wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]])
 
 **Procedure** (gecertificeerd accountant):
 1. Aangetekende brief aan elk lid van het bestuursorgaan (ook per gewone brief aan elk lid afzonderlijk), met vermelding van de vastgestelde feiten en de gevraagde maatregelen

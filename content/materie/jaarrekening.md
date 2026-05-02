@@ -1,15 +1,30 @@
 ---
-tags: ["1.2", materie]
+tags: ["1.2", "1.3", wip, materie]
 niveau: toepassen
-status: geverifieerd
+status: draft
 bronnen:
   - WVV art. 3:1, 3:2, 3:3, 3:10, 3:11, 3:12, 3:72, 3:73, 3:74
+  - WVV art. 3:109–3:117 (geconsolideerde jaarrekening)
 itaa-lex: XV (WVV)
 ---
 
 # Jaarrekening
 
-Elke vennootschap met rechtspersoonlijkheid en elke vzw/ivzw is verplicht jaarlijks een **jaarrekening** op te maken, goed te keuren en neer te leggen bij de Nationale Bank van België. Welk schema verplicht is en of een commissaris de jaarrekening moet controleren, hangt af van de [[groottecriteria-vennootschappen-verenigingen|grootte van de vennootschap of vereniging]].
+De jaarrekening is het centrale instrument waarmee een vennootschap jaarlijks verantwoording aflegt en transparantie biedt aan haar omgeving. Elke vennootschap met rechtspersoonlijkheid en elke vzw/ivzw is verplicht jaarlijks een jaarrekening op te maken, goed te keuren en neer te leggen bij de Nationale Bank van België. Welk schema verplicht is en of een commissaris de jaarrekening moet controleren, hangt af van de [[groottecriteria-vennootschappen-verenigingen|grootte van de vennootschap of vereniging]].
+
+---
+
+## ⚖️ Basisdoelstellingen van de jaarrekening
+
+De jaarrekening dient drie doelstellingen die samen de grondslag vormen voor het hele verslaggevingsrecht:
+
+1. **[[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]** — de jaarrekening geeft een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat. Dit is het overkoepelend beginsel waaraan alle andere regels ondergeschikt zijn ([[wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
+
+2. **Verantwoording** — het bestuursorgaan legt rekenschap af aan de [[betrokken-partijen-financiele-analyse#-externe-gebruikers-van-de-jaarrekening|aandeelhouders en vennoten]] via de jaarrekening die aan de algemene vergadering wordt voorgelegd. De kwijting is het formele gevolg van die goedkeuring.
+
+3. **Transparantie naar derden** — door de neerlegging bij de NBB wordt de jaarrekening publiek toegankelijk. [[betrokken-partijen-financiele-analyse#-balanscentrale-van-de-nbb|Kredietverstrekkers, leveranciers, concurrenten en toezichthouders]] kunnen ze raadplegen.
+
+Voor de **analyse** zijn dit ook de basisdoelstellingen: de analist gebruikt de jaarrekening om de financiële gezondheid te beoordelen, risico's te identificeren en beslissingen te informeren — telkens vanuit het standpunt van een specifieke gebruiker. Welke vragen elke gebruiker stelt, staat in [[betrokken-partijen-financiele-analyse#-externe-gebruikers-van-de-jaarrekening|Betrokken partijen]].
 
 ---
 
@@ -47,7 +62,7 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## ⚖️ Overzicht schema's per categorie
 
-| Categorie | Schema | Sociale balans | Jaarverslag |
+| Categorie | Schema | Sociale balans | [[jaarverslag\|Jaarverslag]] |
 |-----------|--------|----------------|-------------|
 | Microvennootschap | Microschema *(mag)* | Nee | Nee |
 | Kleine vennootschap | Verkort schema *(mag)* | Nee | Nee |
@@ -58,7 +73,7 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ---
 
-## 📋 Procedure: van boekjaarafsluiting tot neerlegging
+## 📋 Van boekjaarafsluiting tot neerlegging
 
 **Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
 
@@ -78,12 +93,12 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 Naast de jaarrekening zelf worden de volgende stukken meegestuurd ([[wetteksten/XV-wvv#art-312|ITAA-LEX XV · WVV art. 3:12]]):
 
-1. Identiteitsgegevens van de leden van het bestuursorgaan en de eventuele commissaris (of [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] belast met verificatie — een vrijwillige, beperktere controletaak voor ondernemingen zonder wettelijke commissarisplicht)
+1. Identiteitsgegevens van de leden van het bestuursorgaan en de eventuele [[#-commissaris|commissaris]] (of [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] belast met verificatie)
 2. Overzicht van de bestemming van het resultaat (indien niet uit de jaarrekening zelf blijkt)
 3. Verwijzing naar de datum van neerlegging van de oprichtingsakte of de bijgewerkte statuten
-4. **Verslag van de commissaris** (indien van toepassing)
+4. **[[#-verslag-van-de-commissaris|Verslag van de commissaris]]** (indien van toepassing)
 5. Schulden aan de Staat en RSZ; ontvangen subsidies
-6. Jaarverslag (enkel voor grote vennootschappen en bepaalde andere categorieën — zie [[jaarverslag|jaarverslag]])
+6. [[jaarverslag|Jaarverslag]] (enkel voor grote vennootschappen en bepaalde andere categorieën)
 7. Lijst van deelnemingen
 
 **Kleine en microvennootschappen** mogen de jaarrekening neerleggen in de verkorte of microvorm — de volledige jaarrekening is voor hen niet openbaar ([[wetteksten/XV-wvv#art-311|ITAA-LEX XV · WVV art. 3:11]]).
@@ -103,6 +118,52 @@ De controle van de financiële toestand, de jaarrekening en de regelmatigheid va
 **Geen commissarisplicht** voor niet-genoteerde kleine vennootschappen, microvennootschappen en vof's/comm.v.'s (tenzij deel van een consoliderende groep) ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]).
 
 De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding van de jaarrekening en bezorgt dit aan de algemene vergadering. Het bestuursorgaan bezorgt hem de nodige stukken ten minste **1 maand** voor de vergadering (45 dagen voor genoteerde vennootschappen) ([[wetteksten/XV-wvv#art-374|ITAA-LEX XV · WVV art. 3:74]]).
+
+---
+
+## 📌 Verslag van de commissaris
+
+Het verslag van de commissaris is het formele document waarin de [[#-commissaris|commissaris]] zijn oordeel geeft over de jaarrekening. Het is een apart document — géén onderdeel van de jaarrekening zelf — maar wordt er wel mee neergelegd bij de NBB en aan de aandeelhouders bezorgd ([[wetteksten/XV-wvv#art-374|WVV art. 3:74]]).
+
+**Inhoud van het verslag** ([[wetteksten/XV-wvv#art-374|WVV art. 3:74]]):
+- Oordeel over de **getrouwheid en regelmatigheid** van de jaarrekening
+- Of de jaarrekening een [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]] geeft van de financiële toestand en resultaten
+- Of het jaarverslag overeenstemt met de jaarrekening
+- Eventuele **voorbehouden** (reserves): punten waarover de commissaris niet volledig zekerheid heeft
+- Eventuele **nadruksparagrafen**: situaties die de commissaris wil benadrukken zonder het oordeel te wijzigen — bv. onzekerheid over [[continuiteitsrisico|continuïteit]]
+
+**Belang voor financiële analyse**:
+
+| Element in het verslag | Signaal voor de analist |
+|---|---|
+| **Goedkeurend oordeel zonder voorbehoud** | Geen bijzondere signalen vanuit de controle |
+| **Voorbehoud** | Specifiek risico of onzekerheid — altijd verder onderzoeken |
+| **Nadruksparagraaf over continuïteit** | Sterke aanwijzing van [[continuiteitsrisico\|continuïteitsrisico]] |
+| **Afwijkend of onthoudend oordeel** | Ernstige problemen met de betrouwbaarheid van de jaarrekening |
+
+> [!warning]- Een goedkeurend commissarisverslag betekent dat de jaarrekening correct is
+> ❌ *"Als de commissaris goedkeurt, zijn er geen problemen met de jaarrekening."*
+>
+> Een goedkeurend oordeel betekent dat de commissaris geen materiële fouten heeft vastgesteld en dat de jaarrekening een getrouw beeld geeft. Het zegt niets over de economische gezondheid van de onderneming. Een commissaris kan een foutloze jaarrekening goedkeuren van een vennootschap die op het punt staat failliet te gaan — mits die financiële toestand correct weergegeven is.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
+## 📌 Geconsolideerde jaarrekening
+
+Vennootschappen die een **groep** vormen — een moedervennootschap met één of meer dochters die ze controleert — zijn in bepaalde gevallen verplicht een **geconsolideerde jaarrekening** op te stellen naast de enkelvoudige jaarrekening ([[wetteksten/XV-wvv#art-3109|WVV art. 3:109]]).
+
+**Doel**: de geconsolideerde jaarrekening geeft een beeld van de groep als **economische eenheid**, los van de juridische structuur. Intercompanytransacties (leningen tussen moeder en dochter, interne leveringen) worden geëlimineerd.
+
+**Verplichting**: een moedervennootschap is verplicht te consolideren als de groep gedurende twee opeenvolgende boekjaren minstens twee van de volgende criteria overschrijdt ([[wetteksten/XV-wvv#art-3109|WVV art. 3:109]]):
+- Balanstotaal > € 17.550.000
+- Netto-omzet > € 35.100.000
+- Gemiddeld aantal werknemers > 250
+
+Kleine groepen zijn vrijgesteld, tenzij een groepsvennootschap genoteerd of een OOB is.
+
+**Belang voor analyse**: wie een dochter of moeder analyseert op basis van de enkelvoudige jaarrekening, ziet slechts een deel van het economische plaatje. De geconsolideerde jaarrekening onthult groepsfinanciering, intragroepschulden en de werkelijke winstgevendheid van de groep als geheel.
 
 ---
 
@@ -131,6 +192,17 @@ Kenniselementen:
 - IV.E — Controle van de rekeningen
 - IV.F — Openbaarmaking van de jaarrekening
 
+**[[1.3-analyse-en-kritische-beoordeling-jaarrekening|1.3 Analyse en kritische beoordeling van de jaarrekening]]**
+
+Taken:
+- *Analyse en beoordeling van de financiële situatie aan de hand van de jaarrekeningen, ratio's en kengetallen*
+  - In staat zijn om de jaarrekeningen kritisch te bekijken
+
+Kenniselementen:
+- I.A — Basisdoelstellingen: [[#️-basisdoelstellingen-van-de-jaarrekening|getrouw beeld, verantwoording, transparantie]]
+- I.C.1 — Wettelijke documenten: [[#-jaarrekening|jaarrekening]], [[#-verslag-van-de-commissaris|verslag van de commissaris]], [[#-geconsolideerde-jaarrekening|geconsolideerde jaarrekening]]
+- II.B — Jaarrekening: activa, passiva, resultatenrekening, toelichting
+
 ### Voorbeeldvragen
 
 > [!question]- Neerleggingstermijn: 6 maanden na afsluiting
@@ -145,7 +217,7 @@ Kenniselementen:
 > >
 > > De neerleggingsdeadline is **30 dagen na goedkeuring door de algemene vergadering** en **uiterlijk 7 maanden** na afsluiting (dus 31 juli 2025). De 6-maandentermijn geldt voor de **voorlegging aan de algemene vergadering** (= intern), niet voor de neerlegging bij de NBB. Als de AV op 30 juni plaatsvindt, heeft het bestuursorgaan nog 30 dagen voor neerlegging. Neerlegging op 30 juni is dus mogelijk maar niet de wettelijke deadline.
 > >
-> > *Zie: [[jaarrekening#-procedure-van-boekjaarafsluiting-tot-neerlegging|Procedure]]*
+> > *Zie: [[jaarrekening#-van-boekjaarafsluiting-tot-neerlegging|Procedure neerlegging]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -162,5 +234,21 @@ Kenniselementen:
 > > Een commissarisopdracht is uitsluitend voorbehouden aan **bedrijfsrevisoren** (lid van het IBR). Een gecertificeerd accountant kan een vrijwillige verificatie- of correctietaak uitvoeren, maar dat is juridisch geen commissarisopdracht: geen wettelijke controlebevoegdheid, geen commissarisverslag.
 > >
 > > *Zie: [[jaarrekening#-commissaris|Commissaris]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Wat signaleert een nadruksparagraaf over continuïteit?
+>
+> In het verslag van de commissaris staat een nadruksparagraaf over de continuïteit van de vennootschap. Het oordeel is goedkeurend zonder voorbehoud. Wat betekent dit voor de financiële analist?
+>
+> > [!success]- Antwoord
+> >
+> > **Een sterke aanwijzing van continuïteitsrisico, ook al is het oordeel goedkeurend.**
+> >
+> > Een nadruksparagraaf wijzigt het oordeel niet — de commissaris keurt goed. Maar hij wil uitdrukkelijk de aandacht vestigen op een situatie die de continuïteit kan bedreigen. Voor de analist is dit een signaal om de [[continuiteitsrisico|continuïteitsrisicobeoordeling]] grondig uit te voeren, ongeacht de goedkeuring.
+> >
+> > *Zie: [[jaarrekening#-verslag-van-de-commissaris|Verslag van de commissaris]]*
+> >
+> > *Zie: [[continuiteit-beoordelen]]*
 >
 > 🤖 *AI-aanvulling*

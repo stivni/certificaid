@@ -402,9 +402,45 @@ Enkelvoudig: één bullet (ook al is het er maar één — altijd bullet voor co
 
 **itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
 
-**Grondslagen** rechtvaardigen specifieke beslissingen binnen een stap — inline bij de beslissing, niet als aparte sectie.
+**Grondslag van de procedure (zichtbaar blok)**: het `> [!info] Grondslag van deze werkwijze`-blok direct na de intro beantwoordt één vraag: *bestaat er een norm, advies of bronwerk dat deze procedure als geheel beschrijft?* Het is geen opsomming van wetsartikels per stap — dat hoort inline bij de stap zelf.
+
+Mogelijke antwoorden:
+- "Deze procedure is beschreven in ITAA-norm X / CBN-advies YYYY/NN — de stappen volgen die norm."
+- "Er bestaat geen specifieke norm voor deze procedure. De stappen zijn gebaseerd op [beroepspraktijk / NBB-documentatie / ISA X als referentie 🤖]."
+- "De wettelijke verplichtingen volgen uit [wet], de analytische stappen zijn gebaseerd op [bron/praktijk 🤖]."
+
+**Bronvermelding per stap**: stappen die uit een concrete bron volgen, vermelden dat inline:
+- Stap volgt uit een wettekst: `*(Grondslag: [[wetteksten/...|Art. X]])*`
+- Stap volgt uit een CBN-advies: `*(Grondslag: CBN-advies YYYY/NN)*`
+- Stap is analytische conventie zonder gezaghebbende bron: `*(Grondslag: 🤖 analytische praktijk)*`
+
+Niet elke stap heeft een expliciete grondslag nodig — voeg hem toe wanneer de bron niet evident is of wanneer het voor de student relevant is te weten of de stap wettelijk verplicht of analytisch conventioneel is.
+
+**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in `resources/normen/` en `resources/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
+
+**Elke stap begint met een "waarom"-zin**: de eerste zin na het `📥/📤`-blok beantwoordt *waarom* deze stap noodzakelijk is — niet wat je doet, maar waarom je het doet. Zonder die zin is de stap een procedure-instructie zonder grond; met die zin begrijpt de student de logica en kan ze hem hertoepassen in nieuwe situaties.
+
+- ✓ "Zonder dit doel berekent de student ratio's die irrelevant zijn voor de opdracht."
+- ✓ "De wet verbindt dwingende proceduregevolgen aan het bereiken van specifieke drempels — het al dan niet van toepassing zijn is niet-discretionair."
+- ✓ "Wie niet herstructureert, berekent ratio's op een juridische indeling die economisch vertekend is."
+- ✗ een herhaling van de stapnaam ("In deze stap ga je X doen")
+- ✗ een beschrijving van de output ("De uitkomst is Y") — die staat al in het `📤`-blok
 
 **Inhoud in de juiste laag**: als een stap kennis over een begrip of definitie nodig heeft, staat die kennis in de materie-fiche — niet herschreven in de competentie. De stap verwijst ernaar met een concreet ankerpunt (zie §Aanpak > Materie vs. competentie).
+
+Een stap mag niet meer bevatten dan: de waarom-zin, de procedure-instructie (hoe), en een link naar materie. Als een stap een opsomming van meer dan 3 items bevat (signalen, criteria, voorbeelden), stel je de vraag: *staat dit al in een materie-fiche?* Zo ja: vervang de opsomming door een link met 1-2 ankerwoorden. Zo nee: verplaats het naar de materie-fiche en link daarna.
+
+**Competentie veronderstelt bekende materie**: een stap mag veronderstellen dat de student de gekoppelde materie heeft bestudeerd. De stap hoeft die materie niet te herhalen — maximaal 1-2 zinnen verbinding met de taakcontext zijn toegestaan. De student weet wat een continuïteitsveronderstelling is; de stap legt alleen uit *wanneer en waarom* ze die kennis hier toepast.
+
+**Stap vanuit perspectief van de beroepsbeoefenaar**: elke stap beschrijft wat de beroepsbeoefenaar (GA/GBA/accountant) doet of beoordeelt. Als een stap iets beschrijft wat een ander (bv. het bestuursorgaan) moet doen, schrijf dan: "controleer als beroepsbeoefenaar of het bestuursorgaan X heeft gedaan" — niet "het bestuursorgaan doet X". De beroepsbeoefenaar is steeds de actor.
+
+**Waarom-zin + beginsel**: de waarom-zin mag en moet een wettelijk of boekhoudkundig beginsel vermelden als dat de diepere reden is. Voorbeeld: "Waarom: het [[boekhoudkundige-beginselen#️-continuïteitsbeginsel|continuïteitsbeginsel]] veronderstelt dat de onderneming haar activiteiten voortzet — bij twijfel geldt een verantwoordingsplicht." Het beginsel is de grondslag van de stap, niet de stap zelf.
+
+**Optionele of conditionele stap = aparte stap**: als een actie alleen onder een specifieke conditie wordt uitgevoerd (bv. "indien geen reactie binnen 1 maand"), maak dat dan een aparte genummerde stap met conditionele aanhef: `### 5c. 🔒 [Naam] (indien [conditie])`. Conditionele acties verbergen in een beschrijvende opsomming mist de logica van de procedure.
+
+**"Typische vraagvormen" → "Voorbeeldvragen"**: alle competentie-fiches gebruiken dezelfde terminologie als materie-fiches. De sectie heet "Voorbeeldvragen" en gebruikt het `[!question]-` / `[!success]-` format. "Typische vraagvormen" is verouderd.
+
+**Grondslag-blok: collapsible + AI-indicator**: het grondslag-blok is altijd collapsible (`> [!info]-`) en vermeldt in de titel de verhouding analytische praktijk vs wettelijk genormeerd als percentage: `> [!info]- Grondslag van deze werkwijze (🤖 60% · ⚖️ 40%)`. Gebruik `🤖` voor analytische praktijk en `⚖️` voor wettelijk/normatief genormeerde stappen. Volledig analytisch: `(🤖 100%)`. Zo weet de student direct welke stappen gecodificeerd zijn en welke niet.
 
 **Voorbeelden verplicht**: voeg bij elke competentie minstens één concreet uitgewerkt voorbeeld toe met Situatie / Conclusie / Grondslag / Redenering. Een werkwijze zonder voorbeeld is onvolledig.
 
@@ -420,11 +456,15 @@ status: draft
 programmaonderdelen: ["X.X"]
 itaa-lex-secties:
   - [sectie] ([wet] art. X–Y)
+procedure-grondslag: "[ITAA-norm X / CBN-advies YYYY/NN / analytische praktijk 🤖]"
 ---
 
 # Naam van de competentie
 
-Één zin: wat doe je in deze competentie en waarvoor.
+Beschrijf de competentie zo uitgebreid als nodig: wat doe je, waarvoor, in welke situatie, en wat maakt deze competentie anders dan aangrenzende competenties. Eén zin kan volstaan als de scope meteen duidelijk is, maar schrijf gerust twee à drie zinnen als dat helpt om misverstanden te vermijden.
+
+> [!info]- Grondslag van deze werkwijze (🤖 X% · ⚖️ Y%)
+> [Beschrijf hier waar de procedure als geheel vandaan komt. Bv.: "Deze procedure volgt ITAA-norm X." of "Er bestaat geen specifieke norm — de stappen zijn gebaseerd op [bron/praktijk 🤖]."]
 
 ## Aanbevolen werkwijze
 
@@ -436,9 +476,9 @@ itaa-lex-secties:
 > 📤 **Uitkomst**:
 > - [output A]
 
-[Waarom deze stap — kort.]
+**Waarom**: [één zin die verklaart waarom de stap noodzakelijk is — beantwoordt "zonder dit weet/kan je X niet"]
 
-[Normale situatie: wat geldt in de meeste gevallen.]
+[Normale situatie: wat geldt in de meeste gevallen. Maximaal 3 opsommingspunten inline; meer dan 3 → verplaats naar materie-fiche en link.]
 
 **Uitzondering — [naam]**: [wat er anders is en waarom]
 
@@ -594,6 +634,9 @@ Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, onge
     - Het artikel is zélf het onderwerp: "Art. 37 stelt de onafhankelijkheidseis voorop"
     - Tabelcellen met artikelnummers als inhoud (bv. `| Art. 3, 1°–5° |`) — in tabellen is de artikelreferentie het gegeven, geen bronvermelding
 - **Geen circulaire definities** — definieer een begrip niet met zichzelf. Gebruik een concrete omschrijving of een ander begrip dat eerder al uitgelegd is.
+- **Formule-variabelen: betekenisvolle afkortingen** — gebruik in formules altijd letters of lettercombinaties die de variabele direct benoemen, niet generieke X₁, X₂, X₃. De student moet de formule kunnen lezen zonder de bijhorende tabel. Gebruik domein-gangbare afkortingen: NBK (netto bedrijfskapitaal), TA (totaal activa), EBIT, MVE (marktwaarde eigen vermogen), VV (vreemd vermogen), O (omzet). Bv: `Z = 1,2 × (NBK/TA) + 1,4 × (IW/TA) + 3,3 × (EBIT/TA) + 0,6 × (MVE/VV) + 1,0 × (O/TA)` is leesbaar; `Z = 1,2 × X₁ + ... + 1,0 × X₅` is dat niet.
+- **"(zie § X)" → klikbare wikilink** — een verwijzing naar een andere sectie is altijd een wikilink: `[[fiche#anker|sectienaam]]`. De tekst "(zie § X)" of "(zie hierboven)" zonder link is verboden. Kan je een anker bepalen? Dan link. Kan dat niet? Herformuleer de zin zodat de verwijzing overbodig wordt.
+- **Geen hyperlinks in titels van collapsible callouts** — links in titels van `[!warning]-`, `[!tip]-`, `[!info]-`, `[!question]-`, `[!success]-`, `[!example]-` callouts worden niet gerenderd in Quartz. Gebruik plain text in de titel. Links mogen wel in de body van de callout.
 
 **Structuur binnen een fiche** — de volgorde van secties volgt een vaste logica, van algemeen naar specifiek, van begrip naar toepassing:
 
@@ -614,6 +657,16 @@ Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, onge
 
 **Herstructureren is geen groot werk** — als tijdens het schrijven of nalezen blijkt dat secties verkeerd geordend zijn of moeten worden samengevoegd, wordt dat genoteerd en periodiek in bulk rechtgezet.
 
+**Boekhoudkundige beginselen vermelden waar ze inzicht geven** — een beginsel is geen decoratie maar een verklaring. Vermeld het expliciet wanneer:
+
+| ✓ Vermelden | ✗ Niet vermelden |
+|---|---|
+| Het beginsel is de **grondslag** voor een procedure — het verklaart *waarom* een stap zo verloopt | De connectie is generiek ("alles moet kloppen") |
+| Het beginsel genereert een **detecteerbaar signaal** in de analyse (bv. methodiewijziging → consistentiebeginsel) | Het beginsel is evident uit de context |
+| Het beginsel is het **antwoord op een mogelijke "waarom"-vraag** op het examen | |
+
+Concreet: het continuïteitsbeginsel hoort expliciet in fiches over continuïteitsrisico; het consistentiebeginsel hoort in de stap "toelichting lezen op waarderingsregels"; het voorzichtigheidsbeginsel verklaart waarom voorzieningen en waardeverminderingen ratio's vertekenen.
+
 ### Hoe een nieuwe conceptfiche starten
 
 1. **Controleer op duplicaten**: bestaat er al een fiche voor dit fenomeen — ook onder een andere naam? Zo ja, breid die uit in plaats van een nieuwe te maken.
@@ -622,6 +675,13 @@ Een fiche met alleen 📌 en ⚖️ secties is functioneel een weten-fiche, onge
 4. **Begin met de begrippen**: schrijf eerst de basisconcepten en definities uit — dit vormt de fundering voor alle andere secties.
 5. **Markeer onzekerheden**: elk veld zonder verifieerbare bron krijgt `⚠️ te verifiëren`.
 6. **Zet status op `draft`**: de gebruiker valideert de inhoud voor de status naar `geverifieerd` gaat. Schrijf nooit `status: geverifieerd` zelf.
+
+**Toevoegen kan herstructurering vereisen** — wanneer nieuwe informatie het mentale model verandert, reorganiseer je de fiche zodat de structuur het nieuwe inzicht weerspiegelt. Niet blind aanvullen. Twee specifieke situaties:
+
+- **Informatie verandert de lading van een bestaande sectie**: hernoem de sectie, herschrijf de intro, en pas alle downstream links en ankers aan.
+- **Een kenniselement is expliciet benoemd in een TDK**: dat is een signaal dat het zelfstandig bevraagbaar is. Het moet dan als eigen `##`-sectie vindbaar zijn — niet alleen als bijvangst van een bredere sectie. Een nieuwe fiche is niet nodig; een eigen sectie in de bestaande fiche volstaat.
+
+Alle downstream gevolgen (ankers, links in andere fiches, verwijzingen) worden meteen meegenomen — niet uitgesteld.
 
 ### Template
 
@@ -707,6 +767,25 @@ Elk begrip krijgt een eigen `##`-sectie, zodat het een eigen anker heeft voor de
 **Volgorde**: naam volledig uitgeschreven, dan afkorting tussen haakjes:
 - ✓ `## 📌 Cel voor Financiële Informatieverwerking (CFI)`
 - ✗ `## 📌 CFI`
+
+**Synoniemen en anderstalige equivalenten als cursieve subtitel**: wanneer een begrip een courant synoniem heeft (Engels, Frans, Latijn of vaktaal), voeg dat toe als een cursieve subtitel direct onder de heading, vóór de bodytekst:
+
+```markdown
+## 📌 Continuïteitsveronderstelling
+*Going concern*
+
+De continuïteitsveronderstelling houdt in dat...
+```
+
+Dit geldt ook voor afkortingen die niet rechtstreeks van de naam afleiden. De subtitel is altijd cursief, nooit tussen haakjes in de heading zelf.
+
+**Begrip ruimer dan de fiche → eigen fiche**: als een sectie een begrip definieert dat ook in andere fiches wordt gebruikt (buiten de context van dit fenomeen), hoort het begrip in zijn eigen materie-fiche. Detectiestap: wordt dit begrip gelinkt vanuit andere fiches? Heeft het geen eigen fiche? → maak de fiche, link er naartoe, verwijder de definitiesectie uit de huidige fiche. Een fiche die een begrip "leent" omdat het handig is, schendt het principe van de canonieke thuisplaats.
+
+**Fiche-titel = kernfenomeen only**: de titel van een fiche benoemt alleen het centrale fenomeen. Beschrijvende toevoegingen horen er niet in — die zijn altijd onderdelen of gevolgen, niet het fenomeen zelf. Detectiestap: kun je het tweede deel van de titel weghalen zonder het onderwerp te verliezen? Dan hoort het weg.
+- ✓ `# Continuiteitsrisico` (alarmbelprocedure is een onderdeel)
+- ✗ `# Continuiteitsrisico en alarmbelprocedure`
+- ✓ `# Jaarrekening` (neerlegging is een onderdeel)
+- ✗ `# Jaarrekening en neerlegging`
 
 **Overkoepelende begrippen** die verwijzen naar twee of meer andere begrippen (bv. WG/FT → witwassen + terrorismefinanciering) krijgen een eigen sectie met verwijzingen naar de componentbegrippen.
 
@@ -867,10 +946,24 @@ Schrijf de geïdentificeerde competentie-links **direct in de vakfiche** bij de 
 
 ### Stap 2B — Materie en competenties bepalen
 1. Bepaal welke materie-bouwstenen (concepten/fenomenen) nodig zijn — zie §Concepten identificeren
-2. Overloop de geidentificeerde competenties en materies op ontbrekende impliciete concepten
+2. Overloop de geïdentificeerde competenties en materies op ontbrekende impliciete concepten
 3. Controleer op duplicaten met bestaande materie-fiches en competentie-fiches
 4. Schrijf de geïdentificeerde materie-links **direct in de vakfiche** bij de bijhorende kenniselementen. Items zonder fiche: laat staan als `*(⚠️ materie aan te maken)*`
-5. Ga direct door naar Stap 3
+
+**Bronverificatie per nieuwe competentie** — zoek voor elke nieuw te maken competentie-fiche naar een gezaghebbende bron die de competentie als professionele activiteit beschrijft:
+
+| Zoekstap | Bron | Wat je zoekt |
+|---|---|---|
+| 1 | `resources/normen/*.md` | Beschrijft een ITAA-norm deze procedure? |
+| 2 | `resources/adviezen/*.md` | Beschrijft een CBN-advies de aanpak? |
+| 3 | Wetteksten (`resources/wetteksten/`) | Legt een wettekst de stappen vast? |
+| 4 | Online: itaa.be, cnc-cbn.be, nbb.be | Publicaties, omzendbrieven, sectoranalyses |
+| 5 | Erkende handboeken | Academische of beroepspublicaties |
+| 6 | Geen bron gevonden | Procedure is analytische conventie → label 🤖, vermeld `procedure-grondslag: analytische praktijk` in frontmatter |
+
+Het resultaat van deze zoektocht gaat in een zichtbaar `> [!info] Grondslag van deze werkwijze`-blok direct na de intro van de competentie-fiche. Dit blok is de basis voor de bronvermelding per stap in Stap 3B en is zichtbaar voor de student.
+
+Ga daarna naar Stap 3.
 
 ### Stap 3A — Per concept: materie-fiche aanmaken
 
@@ -941,6 +1034,25 @@ Dit is een semantische lezing, geen keyword-zoekactie. Een passage kan conceptue
 
 **Werkwijze:** doorloop de fiche sectie per sectie. Per zin: stel de vraag. Voeg de link toe op de meest precieze plek — bij voorkeur het anker van de sectie, niet het algemene fiche-niveau.
 
+**Elk conceptwoord krijgt een link** — ook in tabellen, ook in de intro, ook in callouts. Geen uitzondering voor "bekende" termen: als iemand het woord niet kent, moet ze kunnen doorklikken.
+
+**Navigeer naar het hoogste semantisch niveau**: link niet naar de naakte definitie van een term als er een relevantere sectie bestaat. "Nettoactief nadert drempel NV" → link naar het patroon of de procedure die dat behandelt, niet naar de definitie van "nettoactief". Vraag: *waarnaar wil een lezer die dit woord niet kent navigeren om het meest te leren?*
+
+**Polyseme termen altijd kwalificeren** — woorden die in meerdere contexten een andere betekenis hebben, worden altijd voorzien van een kwalificatie of een disambiguerende link. Voorbeelden:
+- "meldingsplicht" → "meldingsplicht [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|bij continuïteitsrisico]]" vs. "[[antiwitwaswetgeving#-meldingsplicht|meldingsplicht]] (AWW)"
+- "verslag van de commissaris" → altijd vermelden in welk type opdracht
+- "bijzondere volmacht" → kwalificeer de context
+
+Wanneer de context de betekenis al ondubbelzinnig maakt (de hele fiche gaat over continuiteitsrisico), volstaat een duidelijke link. Wanneer er risico op verwarring is (bv. meerdere "meldingsplichten" in hetzelfde domein), voeg een expliciete kwalificatie toe aan de tekst zelf.
+
+**Links altijd inline op het conceptwoord** — nooit als losstaande verwijzing achteraan:
+- ✓ `... past de [[financiele-ratios#-schema-beperkingen|schema-beperkingen]] toe`
+- ✗ `... zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]] voor het overzicht`
+- ✗ `Formules en betekenis: [[balansaggregaten#-balansaggregaten|Balansaggregaten]]`
+- ✗ `Werkwijze: [[jaarrekening-herwerken]]`
+
+Als de formulering geen natuurlijke plek voor de link biedt: herformuleer de zin zodat het conceptwoord erin voorkomt. Alleen als ook dat niet lukt, mag een "zie [[...]]"-verwijzing als last resort.
+
 **Geen grepping** — een keyword-zoekopdracht mist passages die conceptueel verwijzen zonder letterlijk de term te gebruiken. De enige betrouwbare methode is lezen.
 
 **Geldt voor alle fichetypes**: materie-fiches, competentie-fiches én programmaonderdeel-fiches. In competentie-fiches verwijst elke stap naar de juiste materie-sectie of andere competentie. In programmaonderdeel-fiches linkt elke taak naar de bijhorende competentie-fiche.
@@ -967,6 +1079,31 @@ Wanneer de verificatie iets nieuws oplevert — een vijfde uitzondering, een nua
 1. **Hertaling**: schrijf de nieuwe informatie in begrijpbare taal. Elk juridisch begrip dat een student zonder juridische achtergrond niet snapt, krijgt een uitleg in gewone woorden. "Over zijn hoedanigheid" → "over jou als beroepsbeoefenaar". "Bestuursrechtelijke procedure" → "overheidsprocedure die jouw statuut raakt".
 
 2. **Praktijkvoorbeeld**: voeg meteen een `[!info]- In de praktijk` blok toe. Een nuance die alleen in abstracte termen beschreven staat, beklijft niet. Een concrete situatie maakt ze onthoudbaar.
+
+### Student-perspectief review
+
+Na het schrijven of aanpassen van een fiche, doorloop ze als een stagiair die de stof voor het eerst ziet: iemand die de theorie begrijpt maar de toepassing nog niet heeft gezien. Stel de volgende vragen bij elke sectie:
+
+| Signaal | Vraag die de stagiair stelt |
+|---|---|
+| Procedure of begrip zonder concreet geval | "Maar hoe ziet dit er in de praktijk uit?" |
+| Vergelijkingstabel zonder voorbeeld van beide situaties | "Kan je een vennootschap noemen waarbij de ene én de andere kant geldt?" |
+| Signaallijst zonder cijfercontext | "Hoe zie ik dit in de balans of resultatenrekening?" |
+| Berekeningsstap zonder doorgewerkt cijfer | "Kan je dit eens uitrekenen met een echt getal?" |
+| Abstracte definitie van een aggregaat of ratio | "Wat betekent dit voor een concrete onderneming?" |
+
+**Minimale aanvullingen per fichecomponent**:
+- Elke 📌 begrip of ⚖️ principe met meerdere toestanden: minstens één `[!info]- In de praktijk`-blok
+- Elke 📋 procedure of berekening: minstens één cijfer- of situatievoorbeeld
+- Balansen, resultatenrekeningen of andere financiële schema's: altijd in een `code`-blok — nooit als proza
+- Elke stap in een competentie die over cijfers gaat: minstens één getal in de tekst of het voorbeeld
+
+**Schematische voorstellingen** zijn geen versiering — ze maken een abstracte structuur direct zichtbaar. Gebruik ze wanneer:
+- Een balans- of resultatenrekeninglevel beschreven wordt
+- Een procedure meerdere stappen heeft met een duidelijke volgorde (tijdslijn of stappendiagram in `code`)
+- Een vergelijking twee scenario's naast elkaar zet
+
+Wanneer je de review uitvoert en een lacune vindt: vul die meteen in, label met 🤖 als er geen bronvermelding is, en ga verder. Niet rapporteren en wachten — oplossen.
 
 ### Kritische lezing
 

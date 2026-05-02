@@ -11,9 +11,20 @@ itaa-lex-secties:
 
 Aan de hand van een jaarrekening de financiële gezondheid van een onderneming beoordelen: ratio's en kasstromen berekenen, interpreteren in context, en een gemotiveerd oordeel formuleren.
 
+> [!info]- Grondslag van deze werkwijze (🤖 100%)
+> Er bestaat geen ITAA-norm die de financiële beoordeling als taakprocedure beschrijft. Alle stappen zijn gebaseerd op **analytische beroepspraktijk** 🤖 (NBB sectoranalyses, academische standaard). De stappen zijn logisch maar niet normatief vastgelegd.
+>
+> Uitzondering: als de beoordeling leidt tot vaststelling van [[continuiteitsrisico|continuïteitsrisico]], gelden de wettelijk genormeerde verplichtingen uit [[continuiteit-beoordelen]] (WVV en WER).
+
 ## Aanbevolen werkwijze
 
 ### 1. 🎯 Analysedoel bepalen
+
+> 📥 **Nodig**:
+> - De opdracht of analyseaanvraag: wie is de opdrachtgever en wat is de vraag?
+>
+> 📤 **Uitkomst**:
+> - Geformuleerd analysedoel, eventueel met subvragen
 
 Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoordeel is. Stel dit vast vóór je berekent — een analyse zonder doel leidt tot een opsomming van getallen zonder conclusie.
 
@@ -24,17 +35,17 @@ Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoor
 | **Winstgevendheidsoordeel** | Rentabiliteit, marges | Aandeelhouder, investeerder |
 | **Brede financiële diagnose** | Alle dimensies, alarmsignalen | Adviseur, overnameonderzoek |
 
-Zie [[jaarrekeninganalyse#-analysedoelen]] voor uitgebreide toelichting.
-
-→ **Uitkomst**: geformuleerd analysedoel, eventueel met subvragen
 
 ### 2. 📋 Herstructureer de jaarrekening
 
-De wettelijke jaarrekening is opgesteld voor juridische en fiscale doeleinden, niet voor analyse. Gebruik ze nooit rechtstreeks voor ratioberekenin — zet ze eerst om naar een analytisch formaat.
+> 📥 **Nodig**:
+> - Wettelijke jaarrekening (balans, resultatenrekening, toelichting) van de te analyseren entiteit
+>
+> 📤 **Uitkomst**:
+> - Hergestructureerde balans en resultatenrekening
 
-Werkwijze: [[jaarrekeninganalyse#-herstructurering-van-de-balans]]
+De wettelijke jaarrekening is opgesteld voor juridische en fiscale doeleinden, niet voor analyse. Gebruik ze nooit rechtstreeks voor ratioberekening — zet ze eerst om naar een analytisch formaat via [[jaarrekening-herwerken|jaarrekening herwerken]].
 
-→ **Uitkomst**: hergestructureerde balans en resultatenrekening
 
 > [!warning]- Ratio's berekenen op de ongeherstructureerde wettelijke posten
 > ❌ *"Ik neem gewoon de wettelijke balansposten voor de berekening."*
@@ -45,33 +56,46 @@ Werkwijze: [[jaarrekeninganalyse#-herstructurering-van-de-balans]]
 
 ### 3. 🔀 Relevante ratio's selecteren
 
-Kies de ratio's op basis van het analysedoel uit stap 1. Er bestaat geen universele set — de keuze is een professioneel oordeel dat je motiveert.
+> 📥 **Nodig**:
+> - Analysedoel uit stap 1
+> - Hergestructureerde jaarrekening uit stap 2
+>
+> 📤 **Uitkomst**:
+> - Geselecteerde ratio's met motivering van de keuze
+
+Kies de [[financiele-ratios|ratio's]] (en eventuele [[kasstroomanalyse|kasstroomratio's]]) op basis van het analysedoel uit stap 1. Er bestaat geen universele set — de keuze is een professioneel oordeel dat je motiveert.
 
 | Analysedoel | Aanbevolen ratio's |
 |---|---|
-| Kredietbeoordeling | Debt-to-equity, interestdekking, schuldgraad, vrije kasstroom |
-| Liquiditeitsdiagnose | Current ratio, quick ratio, nettowerkkapitaal, debiteurendagen, crediteurendagen |
-| Winstgevendheidsoordeel | ROE, ROA, nettomarge, brutomarge |
-| Brede diagnose | Ratio's uit alle categorieën + kasstroomanalyse |
+| Kredietbeoordeling | Debt-to-equity, interestdekking, [[financiele-ratios#-solvabiliteitsratio-s\|schuldgraad]], vrije [[kasstroomanalyse\|kasstroom]] |
+| Liquiditeitsdiagnose | [[financiele-ratios#-liquiditeitsratio-s\|Current ratio, quick ratio]], nettowerkkapitaal, debiteurendagen, crediteurendagen |
+| Winstgevendheidsoordeel | [[financiele-ratios#-rentabiliteitsratio-s\|ROE, ROA, nettomarge, brutomarge]] |
+| Brede diagnose | [[financiele-ratios\|Ratio's uit alle categorieën]] + [[kasstroomanalyse\|kasstroomanalyse]] |
 
-Definities, formules en benchmarks per ratio: [[financiele-ratios]]
-Kasstroomratio's: [[kasstroomanalyse]]
-
-→ **Uitkomst**: geselecteerde ratio's met motivering van de keuze
 
 > [!tip]- Bij een brede diagnose
 > Begin met één ratio per categorie (liquiditeit, solvabiliteit, rentabiliteit, activiteit) om een globaal beeld te krijgen. Verdiep daarna waar de signalen het zwakst zijn.
 
 ### 4. 🔢 Bereken de ratio's en kasstromen
 
-Pas de formules toe op de hergestructureerde cijfers uit stap 2.
+> 📥 **Nodig**:
+> - Geselecteerde ratio's uit stap 3
+> - Hergestructureerde cijfers uit stap 2
+>
+> 📤 **Uitkomst**:
+> - Berekende waarden per geselecteerde ratio
 
-Formules per ratio: [[financiele-ratios]]
-Indirecte methode kasstroom: [[kasstroomanalyse]]
+Pas de [[financiele-ratios|formules per ratio]] (en [[kasstroomanalyse|indirecte methode kasstroom]]) toe op de hergestructureerde cijfers uit stap 2.
 
-→ **Uitkomst**: berekende waarden per geselecteerde ratio
 
 ### 5. 📊 Uitkomsten interpreteren
+
+> 📥 **Nodig**:
+> - Berekende ratiowaarden uit stap 4
+> - Sectorgemiddelden of benchmarks (NBB Balanscentrale of vuistregels)
+>
+> 📤 **Uitkomst**:
+> - Interpretatie per ratio-categorie met benchmarkreferentie of trendduiding
 
 Dit is de diagnose. Een getal zonder referentiepunt zegt niets. Vergelijk langs drie assen:
 
@@ -90,7 +114,6 @@ Typische spanningsvelden die om interpretatie vragen:
 | Stijgende voorraden + dalende liquiditeit | Mogelijke afzetproblemen of overkoop |
 | Hoge brutomarge + lage nettomarge | Hoge overheadkosten of financieringslasten |
 
-→ **Uitkomst**: interpretatie per ratio-categorie met benchmarkreferentie of trendduiding
 
 > [!warning]- Eén ratio als afdoend beschouwen
 > ❌ *"De current ratio is goed, dus de liquiditeit is in orde."*
@@ -108,6 +131,12 @@ Typische spanningsvelden die om interpretatie vragen:
 
 ### 6. 💬 Oordeel formuleren
 
+> 📥 **Nodig**:
+> - Interpretaties per dimensie uit stap 5
+>
+> 📤 **Uitkomst**:
+> - Gemotiveerd oordeel per dimensie + overkoepelende conclusie + aanbevelingen
+
 Synthese van alle bevindingen. Een volledig oordeel:
 - Beoordeelt elke dimensie afzonderlijk (sterk / zwak / gemengd)
 - Noemt de twee of drie meest bepalende signalen
@@ -116,9 +145,73 @@ Synthese van alle bevindingen. Een volledig oordeel:
 
 Formuleer met gepaste voorzichtigheid: een jaarrekening is historische data en geeft geen kwalitatieve informatie over management, markt of strategie.
 
-→ **Uitkomst**: gemotiveerd oordeel per dimensie + overkoepelende conclusie + aanbevelingen
 
 ## Voorbeelden
+
+> [!example]- Integrale financiële beoordeling: alle stappen doorlopen
+>
+> **Situatie**: een handelsbv vraagt haar accountant om een brede financiële diagnose. Gegevens (in €):
+>
+> ```
+> BALANS (analytisch herwerkt)
+> ─────────────────────────────────────────   ──────────────────────────────────────
+> Vaste activa          1.500.000             Eigen vermogen           800.000
+> Voorraden               400.000             Schulden LT              600.000
+> Handelsvorderingen      350.000             Schulden KT              900.000
+> Liquide middelen         50.000
+> ─────────────────────────────────────────   ──────────────────────────────────────
+> Totaal activa         2.300.000             Totaal passief         2.300.000
+>
+> RESULTATENREKENING (selectie)
+> ─────────────────────────────────────────
+> Netto-omzet                  3.600.000
+> Toegevoegde waarde (TAW)     1.260.000   (35% omzet)
+> EBIT                           420.000   (11,7% omzet)
+> Financiële kosten               70.000
+> EBT                            350.000
+> Nettowinst                     262.500
+> Afschrijvingen                 180.000
+> EBITDA                         600.000   (16,7% omzet)
+> ```
+>
+> **Stap 1 — Analysedoel**: brede financiële diagnose (kredietwaardigheid + winstgevendheid + liquiditeit).
+>
+> **Stap 2 — Herstructurering**: al gedaan (zie balans analytisch formaat hierboven).
+>
+> **Stap 3–4 — Ratio's berekenen**:
+>
+> | Ratio | Berekening | Waarde |
+> |---|---|---|
+> | **NBK** | (400+350+50) − 900 | **−100.000** ⚠️ |
+> | **WKB** | 400 + 350 − leveranciersschuld* | ⚠️ te verifiëren* |
+> | **Current ratio** | 800 / 900 | **0,89** ⚠️ |
+> | **Quick ratio** | (800−400) / 900 | **0,44** ⚠️ |
+> | **Solvabiliteitsratio** | 800 / 2.300 | **34,8%** |
+> | **Dekking fin. schulden** | (600) / 600* | zie toelichting* |
+> | **Brutoverkoopmarge** | 1.260.000 / 3.600.000 | **35,0%** |
+> | **ROE** | 262.500 / 800.000 | **32,8%** |
+> | **ROA** | (350.000 + 70.000) / 2.300.000 | **18,3%** |
+>
+> **Stap 5 — Interpretatie per dimensie**:
+>
+> - **Liquiditeit — zwak**: current ratio 0,89 (< 1) en quick ratio 0,44 (heel laag). NBK is negatief (−€ 100.000). De onderneming kan haar kortlopende schulden niet dekken vanuit haar vlottende activa. Zonder voorraadomzetting is de situatie kritisch.
+> - **Solvabiliteit — matig**: 34,8% eigen vermogen is voor een handelsbedrijf aan de lage kant (sectorgemiddelde handelsondernemingen ≈ 40–50% ⚠️ te verifiëren). De schuldenlast is draagbaar gezien de EBITDA van € 600.000 tegenover de LT-schuld van € 600.000.
+> - **Rentabiliteit — sterk**: ROE van 32,8% is hoog; ROA van 18,3% is solide. De operationele winstgevendheid is gezond — het probleem zit niet in de winst maar in de liquiditeit.
+>
+> **Patroon**: hoge rentabiliteit + slechte liquiditeit → klassiek "overtrading"-profiel: de onderneming groeit of presteert goed maar heeft haar werkkapitaal onvoldoende gefinancierd. De winst wordt niet omgezet in kasreserves.
+>
+> **Stap 6 — Oordeel en aanbevelingen**:
+>
+> **Conclusie**: financieel gezond qua rentabiliteit en solvabiliteit, maar structureel kwetsbaar op liquiditeit. De vennootschap is winstgevend maar kan op korte termijn in betalingsmoeilijkheden komen als de voorraadomzetting vertraagt of klanten trager betalen.
+>
+> **Aanbevelingen**:
+> 1. Kortlopende lening herfinancieren als langetermijnschuld → NBK stijgt (schulden KT dalen)
+> 2. Debiteurendagen verkorten via strikter incassobeleid
+> 3. Voorraadbeheer doorlichten: zijn er trage of verouderde voorraden die de liquiditeit blokkeren?
+>
+> **Grondslag**: analytische beroepspraktijk 🤖; sectorgemiddelden NBB ⚠️ te verifiëren via Balanscentrale
+>
+> 🤖 *AI-aanvulling*
 
 > [!example]- Liquiditeitsdiagnose van een productiebedrijf
 >

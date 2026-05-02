@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 29, 36, 53, 54, 55-60, 61, 62, 72, 79, 85-93
   - Procedurereglement AWW art. 118 (ITAA)

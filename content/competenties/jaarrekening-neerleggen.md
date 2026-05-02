@@ -15,26 +15,44 @@ De goedgekeurde jaarrekening tijdig en volledig neerleggen bij de NBB.
 
 ### 1. 🔍 Neerleggingsplicht vaststellen
 
+> 📥 **Nodig**:
+> - Rechtsvorm van de entiteit
+>
+> 📤 **Uitkomst**:
+> - Neerleggingsplicht van toepassing (ja/nee)
+
 Belgische vennootschappen en rechtspersonen onderworpen aan het WVV zijn neerleggingsplichtig (WVV art. 3:9–3:10). Voor de meeste entiteiten waarmee een beroepsbeoefenaar werkt, is het antwoord ja.
 
 **Uitzondering — eenmanszaken en feitelijke verenigingen**: geen rechtspersoonlijkheid → geen neerleggingsplicht.
 
 **Uitzondering — bijkantoor buitenlandse vennootschap**: andere regels, andere procedure (WVV art. 2:24).
 
-→ **Uitkomst**: neerleggingsplicht van toepassing (ja/nee)
 
 ### 2. 🔀 AV-goedkeuring verifiëren
+
+> 📥 **Nodig**:
+> - Datum afsluiting boekjaar
+> - Datum van de algemene vergadering (of bevestiging dat die nog niet plaatsvond)
+>
+> 📤 **Uitkomst**:
+> - Goedgekeurd (ja/nee) + datum goedkeuring
 
 Neerlegging kan pas na goedkeuring door de algemene vergadering. De AV moet plaatsvinden uiterlijk 6 maanden na afsluiting van het boekjaar.
 
 De neerleggingstermijn begint te lopen na de AV — maar de absolute deadline van 7 maanden loopt al vanaf de afsluiting.
 
-→ **Uitkomst**: goedgekeurd (ja/nee) + datum goedkeuring
 
 > [!tip]- Termijnen concreet berekenen
 > Boekjaar afgesloten 31/12 → AV uiterlijk 30/06 → neerlegging uiterlijk 30 dagen later = 30/07, maar hoe dan ook vóór 31/07 (7 maanden na 31/12). Vroegste deadline telt.
 
 ### 3. 🔢 Bereken de neerleggingsdeadline
+
+> 📥 **Nodig**:
+> - Datum goedkeuring AV uit stap 2
+> - Datum afsluiting boekjaar
+>
+> 📤 **Uitkomst**:
+> - Concrete neerleggingsdeadline (vroegste van twee termijnen)
 
 Twee termijnen gelden cumulatief — de vroegste is bindend:
 - **30 dagen** na de datum van goedkeuring door de AV
@@ -42,7 +60,6 @@ Twee termijnen gelden cumulatief — de vroegste is bindend:
 
 Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 
-→ **Uitkomst**: concrete neerleggingsdeadline
 
 > [!warning]- De twee termijnen verwarren
 > ❌ *"De deadline is altijd 7 maanden na afsluiting."*
@@ -60,6 +77,14 @@ Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 
 ### 4. 🔀 Neer te leggen documenten bepalen
 
+> 📥 **Nodig**:
+> - Groottecategorie van de entiteit (uit [[jaarrekeningkader-bepalen]])
+> - Aanwezigheid van een commissaris
+> - Aanwezigheid van werknemers
+>
+> 📤 **Uitkomst**:
+> - Lijst neer te leggen documenten
+
 | Document | Verplicht voor |
 |---|---|
 | Jaarrekening (balans + resultatenrekening + toelichting) | Alle neerleggingsplichtige entiteiten |
@@ -69,7 +94,6 @@ Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 
 **Uitzondering — kleine vennootschappen**: mogen een verkorte toelichting neerleggen (WVV art. 3:11). Microvennootschappen mogen het microschema gebruiken.
 
-→ **Uitkomst**: lijst neer te leggen documenten
 
 ## Voorbeelden
 

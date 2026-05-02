@@ -15,6 +15,12 @@ Het toepasselijke jaarrekeningschema en de afgeleide wettelijke verplichtingen v
 
 ### 1. 🔍 Entiteitstype vaststellen
 
+> 📥 **Nodig**:
+> - Naam en rechtsvorm van de entiteit
+>
+> 📤 **Uitkomst**:
+> - Entiteitstype vastgesteld (vennootschap / vzw / stichting / andere)
+
 Het entiteitstype bepaalt welke WVV-artikelen van toepassing zijn en welke drempelwaarden gelden voor de groottecategorie.
 
 | Type | Toepasselijke bepalingen |
@@ -23,9 +29,14 @@ Het entiteitstype bepaalt welke WVV-artikelen van toepassing zijn en welke dremp
 | VZW / IVZW | WVV art. 1:28–1:30 + Boek 9 |
 | Stichting | WVV art. 1:30–1:31 + Boek 10 |
 
-→ **Uitkomst**: entiteitstype vastgesteld
 
 ### 2. 🔀 WVV-toepasselijkheid controleren
+
+> 📥 **Nodig**:
+> - Entiteitstype uit stap 1
+>
+> 📤 **Uitkomst**:
+> - WVV van toepassing (ja/nee) + toepasselijke regeling
 
 Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd.
 
@@ -33,7 +44,6 @@ Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd
 
 **Uitzondering — bijkantoor buitenlandse vennootschap**: het bijkantoor zelf legt geen jaarrekening neer, maar de buitenlandse moedervennootschap heeft een eigen neerleggingsplicht voor haar buitenlandse jaarrekening (WVV art. 2:24) — andere regels dan voor Belgische vennootschappen.
 
-→ **Uitkomst**: van toepassing (ja/nee) + toepasselijke regeling
 
 > [!warning]- Eenmanszaak verwarren met een kleine vennootschap
 > ❌ *"Een eenmanszaak met grote omzet moet ook een jaarrekening neerleggen."*
@@ -44,6 +54,14 @@ Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd
 
 ### 3. 🔀 Groottecategorie bepalen
 
+> 📥 **Nodig**:
+> - WVV van toepassing (stap 2)
+> - Financiële cijfers: balanstotaal, omzet, gemiddeld aantal werknemers (twee boekjaren)
+> - Groepsstructuur (verbonden vennootschappen?)
+>
+> 📤 **Uitkomst**:
+> - Groottecategorie (micro / klein / groot)
+
 De groottecategorie is het scharnier voor alle volgende stappen. Voer de groottebepaling uit: [[groottecriteria-vennootschappen-verenigingen]].
 
 Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijziging heeft pas gevolgen na twee opeenvolgende boekjaren met hetzelfde resultaat.
@@ -52,7 +70,6 @@ Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijzig
 
 **Uitzondering — eerste boekjaar**: geen historiek voor de twee-jaar-regel. Schat de criteria te goeder trouw; worden meer dan één overschreden, dan geldt de hogere categorie meteen (WVV art. 1:24 §3).
 
-→ **Uitkomst**: groottecategorie (micro / klein / groot)
 
 > [!warning]- Criteria op individuele basis berekenen bij een groep
 > ❌ *"De dochter heeft een balanstotaal van €2M, dus ze is zeker micro."*
@@ -70,15 +87,27 @@ Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijzig
 
 ### 4. 🔀 Toepasselijk schema bepalen
 
+> 📥 **Nodig**:
+> - Groottecategorie uit stap 3
+>
+> 📤 **Uitkomst**:
+> - Schema vastgesteld (microschema / verkort / volledig)
+
 | Categorie | Schema | Grondslag |
 |---|---|---|
 | Microvennootschap | Microschema | WVV art. 3:1 + KB WVV 2019 |
 | Kleine vennootschap | Verkort schema | WVV art. 3:1 + KB WVV 2019 |
 | Grote vennootschap | Volledig schema | WVV art. 3:1 + KB WVV 2019 |
 
-→ **Uitkomst**: schema vastgesteld
 
 ### 5. 🔀 Jaarverslagverplichting controleren
+
+> 📥 **Nodig**:
+> - Groottecategorie uit stap 3
+> - Beursnotering (ja/nee)
+>
+> 📤 **Uitkomst**:
+> - Jaarverslag verplicht (ja/nee)
 
 Kleine vennootschappen zonder beursgenoteerde effecten zijn vrijgesteld (WVV art. 3:4–3:6). Voor de grote meerderheid van kmo's geldt dus geen jaarverslagplicht.
 
@@ -86,9 +115,16 @@ Kleine vennootschappen zonder beursgenoteerde effecten zijn vrijgesteld (WVV art
 
 Zie voor inhoudsvereisten: [[jaarverslag]].
 
-→ **Uitkomst**: jaarverslag verplicht (ja/nee)
 
 ### 6. 🔀 Commissarisverplichting controleren
+
+> 📥 **Nodig**:
+> - Groottecategorie uit stap 3
+> - Beursnotering (ja/nee)
+> - Groepsstructuur: deel van een consolidatieplichtige groep?
+>
+> 📤 **Uitkomst**:
+> - Commissaris verplicht (ja/nee)
 
 Niet-genoteerde kleine vennootschappen zijn niet verplicht een commissaris aan te stellen (WVV art. 3:72). Voor de meeste kmo's geldt de verplichting dus niet.
 
@@ -98,7 +134,6 @@ Grote vennootschappen, organisaties van openbaar belang en beursgenoteerde venno
 
 Zie: [[jaarrekening#-commissaris]].
 
-→ **Uitkomst**: commissaris verplicht (ja/nee)
 
 > [!warning]- Commissarisplicht via de groep over het hoofd zien
 > ❌ *"Ze is een kleine vennootschap, dus geen commissaris nodig."*

@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 38, 40, 41, 42, 43, 44, 45, 46, 47
 itaa-lex: XXI, p. 2604
@@ -80,7 +80,7 @@ Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het r
 
 ---
 
-## 🔒 Verplichting: opdrachtbrief
+## 🔒 Opdrachtbrief verplicht voor iedere opdracht
 
 De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, een opdrachtbrief op ([[wetteksten/XXI-wet-itaa#art-41|ITAA-LEX XXI · Wet ITAA art. 41]]).
 

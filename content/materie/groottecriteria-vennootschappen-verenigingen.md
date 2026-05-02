@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", materie]
+tags: [wip, "1.2", materie]
 niveau: toepassen
-status: geverifieerd
+status: draft
 bronnen:
   - WVV art. 1:24, 1:25, 1:26/1, 1:28
   - WVV art. 3:2, 3:3, 3:4, 3:72

@@ -14,6 +14,14 @@ De jaarrekening is een publiek document dat opgesteld wordt voor meerdere doelgr
 
 ---
 
+## ⚖️ Specifieke doelstellingen van de analyse
+
+De [[jaarrekening#️-basisdoelstellingen-van-de-jaarrekening|basisdoelstellingen van de jaarrekening]] (getrouw beeld, verantwoording, transparantie) zijn universeel. De **specifieke doelstellingen** van de analyse variëren per gebruiker: elke partij stelt andere vragen aan dezelfde cijfers en hecht andere waarde aan dezelfde ratio's.
+
+Dit heeft een praktische consequentie: een goede financiële analyse start met de vraag *voor wie* en *waarom* — want die bepaalt welke dimensies (liquiditeit, solvabiliteit, rentabiliteit, continuïteit) centraal staan en hoe de conclusies worden geformuleerd ([[financiele-positie-beoordelen#-analysedoel-bepalen|Analysedoel bepalen]]).
+
+---
+
 ## 📌 Externe gebruikers van de jaarrekening
 
 De jaarrekening is een informatiebron voor iedereen met een belang bij de financiële toestand van de onderneming. De voornaamste externe gebruikers:
@@ -45,11 +53,11 @@ Naast de gebruikers zijn er partijen die een formele toezichtsfunctie hebben ove
 
 **Vennoten en aandeelhouders** ontvangen de jaarrekening vóór de jaarlijkse algemene vergadering. Ze kunnen vragen stellen aan het bestuursorgaan en verlenen kwijting voor het gevoerde beleid. De kwijting geldt als goedkeuring van het beheer voor het betrokken boekjaar. ([[wetteksten/XV-wvv#art-36|WVV]])
 
-**Commissaris** (bedrijfsrevisor): in vennootschappen die verplicht zijn een commissaris aan te stellen, controleert de commissaris de jaarrekening op regelmatigheid, getrouwheid en nauwkeurigheid, en stelt een controleverslag op. Zie [[jaarrekening#-commissaris|commissaris]]
+**[[jaarrekening#-commissaris|Commissaris]]** (bedrijfsrevisor): in vennootschappen die verplicht zijn een commissaris aan te stellen, controleert de commissaris de jaarrekening op regelmatigheid, getrouwheid en nauwkeurigheid, en stelt een controleverslag op.
 
 **Ondernemingsraad**: in ondernemingen met meer dan 100 werknemers ontvangt de ondernemingsraad economische en financiële informatie, inclusief een vereenvoudigd financieel plan en de jaarrekening.
 
-**Kamers voor Ondernemingen in Moeilijkheden (KOM)**: onderdeel van de ondernemingsrechtbank. De KOM kan ambtshalve de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen en maatregelen opleggen of begeleiden. Zie [[continuiteitsrisico]]
+**Kamers voor Ondernemingen in Moeilijkheden (KOM)**: onderdeel van de ondernemingsrechtbank. De KOM kan ambtshalve de situatie van een onderneming onderzoeken bij aanwijzingen van [[continuiteitsrisico|continuïteitsproblemen]] en maatregelen opleggen of begeleiden.
 
 ---
 
@@ -60,7 +68,7 @@ De Nationale Bank van België (NBB) centraliseert alle neergelegde jaarrekeninge
 1. **Transparantie**: jaarrekeningen zijn opvraagbaar door iedereen — banken, klanten, concurrenten, journalisten
 2. **Sectoranalyse**: de NBB verwerkt de gegevens tot sectorale statistieken en publiceert gemiddelde ratio's per sector (NACE-code)
 
-De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-analyse: een liquiditeitsratio van 1,2 is anders te beoordelen in de retail dan in de bouwsector. Zie [[jaarrekeninganalyse#-benchmarking|benchmarking en sectorgemiddelden]]
+De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-analyse: een liquiditeitsratio van 1,2 is anders te beoordelen in de retail dan in de bouwsector ([[resultaatniveaus#-contextualisering|sectorgemiddelden en contextualisering]]).
 
 > [!info]- In de praktijk
 >
@@ -69,6 +77,21 @@ De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-anal
 > 🤖 *AI-aanvulling*
 
 ---
+
+> [!info]- In de praktijk: dezelfde jaarrekening, vier verschillende vragen
+>
+> 🤖 *AI-aanvulling*
+>
+> Stel: een productiebv heeft een netto-omzet van € 5.000.000, een nettowinst van € 200.000, een current ratio van 0,85, een solvabiliteitsratio van 30% en betaalt geen dividend. De vier voornaamste externe gebruikers lezen dezelfde jaarrekening, maar met een andere bril:
+>
+> | Gebruiker | Wat zij zien | Oordeel |
+> |---|---|---|
+> | **Bank** (kredietbeoordeling) | Current ratio 0,85 → onder 1; solvabiliteit 30% → laag; geen kasoverschot | Risicovol — extra zekerheid vereist vóór krediet |
+> | **Leverancier** (60 dagen krediet?) | Current ratio 0,85 → twijfelachtig; geen dividend → winst wordt ingehouden | Matig — betalingstermijn beperken tot 30 dagen |
+> | **Aandeelhouder** (rendement?) | ROE = 200.000 / EV — winstgevend; geen dividend → reservevorming | Gematigd positief — winst aanwezig maar geen uitkering |
+> | **Werknemer/ondernemingsraad** (job zekerheid?) | Winst positief, maar liquiditeitsdruk; geen grote reserves | Waakzaamheid geboden bij volgende contractbespreking |
+>
+> Dezelfde ratio's leiden tot totaal verschillende conclusies, afhankelijk van de vraag die de gebruiker stelt.
 
 ## ⚖️ Belangen zijn niet altijd gelijkgericht
 
@@ -123,7 +146,7 @@ Kenniselementen:
 > >
 > > **Fout.**
 > >
-> > De KOM kan **ambtshalve** optreden — dus zonder dat de onderneming zelf het initiatief neemt. De rechtbank kan op eigen initiatief de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen (bv. herhaalde neerlegging van jaarrekeningen met verlies). Zie [[continuiteitsrisico]]
+> > De KOM kan **ambtshalve** optreden — dus zonder dat de onderneming zelf het initiatief neemt. De rechtbank kan op eigen initiatief de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen (bv. herhaalde neerlegging van jaarrekeningen met verlies). ([[continuiteitsrisico|ambtshalve continuïteitsonderzoek]])
 > >
 > > *Zie: [[betrokken-partijen-financiele-analyse#📌-toezichtsorganen|Toezichtsorganen]]*
 >

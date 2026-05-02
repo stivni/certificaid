@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 5, 8, 36, 37, 43, 52
 itaa-lex: XXI, p. 2604
@@ -73,7 +73,7 @@ De voorganger maakt een **inventaris op in tweevoud**, gedateerd en ondertekend 
 > [!warning]- Dossier overdragen pas na betaling van erelonen
 > ❌ *"Zolang mijn erelonen niet betaald zijn, hoef ik het dossier niet over te dragen aan mijn opvolger."*
 >
-> De dossieroverdracht staat **los van de betaling van erelonen** — dat zegt het zesde principe expliciet. Openstaande erelonen kunnen langs een andere weg worden ingevorderd, maar geven geen recht om het dossier in te houden van de opvolger. Dit principe overlapt met het algemene verbod op retentierecht ([[relaties-met-clienten#-verplichting-opdrachtbrief|art. 43 Wet ITAA]]).
+> De dossieroverdracht staat **los van de betaling van erelonen** — dat zegt het zesde principe expliciet. Openstaande erelonen kunnen langs een andere weg worden ingevorderd, maar geven geen recht om het dossier in te houden van de opvolger. Dit principe overlapt met het algemene verbod op retentierecht ([[relaties-met-clienten#-opdrachtbrief-verplicht-voor-iedere-opdracht|art. 43 Wet ITAA]]).
 >
 > 🤖 *AI-aanvulling*
 
@@ -91,7 +91,7 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 
 **Verplichtingen van de vertrekkende beroepsbeoefenaar:**
 - Geeft op verzoek van de cliënt alle boeken, documenten en gegevens die **toebehoren aan de cliënt onverwijld** terug ([[wetteksten/XXI-wet-itaa#art-43|ITAA-LEX XXI · Wet ITAA art. 43]])
-- Er bestaat **geen [[relaties-met-clienten#-verplichting-opdrachtbrief|retentierecht]]**: openstaande erelonen geven geen recht om het dossier in te houden
+- Er bestaat **geen [[relaties-met-clienten#-opdrachtbrief-verplicht-voor-iedere-opdracht|retentierecht]]**: openstaande erelonen geven geen recht om het dossier in te houden
 - Maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door voorganger en opvolger (of cliënt) (Gedragslijnen inzake de beroepsrelaties met de leden van het IBR — `resources/normen/gedragslijnen-relaties-IBR.md`)
 
 **Aandachtspunten voor de overnemende beroepsbeoefenaar:**

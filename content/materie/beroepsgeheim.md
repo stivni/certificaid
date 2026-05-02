@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 50, 51, 52
   - Strafwetboek art. 458

@@ -54,7 +54,7 @@ Een positieve nettothesaurie betekent dat de liquiditeiten de kortetermijnlening
 
 📝 *Te definiëren in voorbeeldexamen 2014*
 
-→ zie ook [[jaarrekeninganalyse#📌-balansaggregaten|balansaggregaten]]
+zie ook [[balansaggregaten#-balansaggregaten|balansaggregaten]]
 
 ---
 
@@ -213,7 +213,7 @@ Hoe hoger, hoe sneller de voorraad omloopt. Gebruik **kostprijs van de verkopen*
 | Handelsvorderingen KT | 40 |
 | Omzet incl. btw | 70 × btw-factor |
 
-⚠️ **Niet beschikbaar in het verkort schema** — handelsvorderingen staan niet apart in het verkort schema. Zie [[financiele-ratios#-schema-beperkingen|Schema-beperkingen]].
+⚠️ **Niet beschikbaar in het verkort schema** — handelsvorderingen staan niet apart in het verkort schema ([[financiele-ratios#-schema-beperkingen|Schema-beperkingen]]).
 
 **Leveranciersbetalingstermijn**
 = Leveranciersschulden / Aankopen × 365

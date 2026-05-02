@@ -10,6 +10,11 @@ itaa-lex-secties: []
 
 Op basis van een financiële analyse concrete aanbevelingen formuleren: wat kan de onderneming verbeteren, waar moet ze waakzamer zijn, wat moet gecontroleerd worden.
 
+> [!info]- Grondslag van deze werkwijze (🤖 100%)
+> Er bestaat geen ITAA-norm die het formuleren van financieel advies als taakprocedure beschrijft. De procedure is volledig gebaseerd op **analytische beroepspraktijk** 🤖.
+>
+> Opmerking: de ITAA-gedragscode en deontologische normen regelen *hoe* de adviseur zich gedraagt (onafhankelijkheid, zorgvuldigheid, vermijden van conflict of interest) — niet *welke analytische stappen* hij zet. Die deontologische kaders zijn een randvoorwaarde voor de uitvoering, niet de procedure zelf.
+
 ## Aanbevolen werkwijze
 
 ### 1. 🎯 Adviesvraag afbakenen
@@ -48,7 +53,7 @@ Voorbeelden van zwaktes die tot advies leiden:
 | Dalende brutoverkoopmarge | Prijsstelling herbekijken, inkoopkosten analyseren |
 | Hoge schuldgraad | Schuldafbouw plannen, herfinancieringsrisico beoordelen |
 | Negatieve nettokaspositie | Kaskredietbeheer, betalingstermijnen heronderhandelen |
-| Continuïteitsrisico | Alarmbelprocedure, herstelplan — zie [[continuiteit-beoordelen]] |
+| [[continuiteitsrisico|Continuïteitsrisico]] | [[continuiteit-beoordelen|Alarmbelprocedure]], herstelplan |
 
 ### 3. 💬 Aanbevelingen formuleren
 
@@ -86,7 +91,7 @@ Een goede aanbeveling is:
 >
 > **Conclusie**: drie uitvoerbare maatregelen, elk met een ander mechanisme.
 >
-> **Grondslag**: NBK = vlottende activa − schulden KT — zie [[jaarrekeninganalyse#-balansaggregaten|Balansaggregaten]]
+> **Grondslag**: [[balansaggregaten#-netto-bedrijfskapitaal-nbk|NBK]] = vlottende activa − schulden KT
 >
 > **Redenering**:
 > 1. **Kortlopende lening (€ 200.000) herfinancieren als langetermijnschuld** — schulden KT dalen met € 200.000 → NBK stijgt met € 200.000. De totale schuldenlast verandert niet, maar de looptijd wordt verlengd.
@@ -117,7 +122,7 @@ Een goede aanbeveling is:
 > >
 > > Andere geldige antwoorden: debiteurendagen verkorten (sneller innen), langetermijnlening aantrekken voor werkkapitaalfinanciering, winstbestemming in reserves houden ipv uitkeren.
 > >
-> > *Zie: [[jaarrekeninganalyse#-nbk-verhogen-hoe|NBK verhogen]]*
+> > *Zie: [[balansaggregaten#-nbk-verhogen-hoe|NBK verhogen]]*
 >
 > 📝 *Uit voorbeeldexamen 2013/2*
 

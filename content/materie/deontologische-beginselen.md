@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - Wet ITAA art. 36, 37, 40, 48, 49
   - KMO-controlenorm (ITAA, 18 december 2018)
@@ -27,7 +27,7 @@ Het verschil: **loontrekkenden** (IGA, IGBA) zijn "persoon", maar geen "beroepsb
 
 > [!info]- In de praktijk: loontrekkende accountant en de beroepsgeheimplicht
 >
-> Een [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] werkt in loondienst bij een onderneming. Hij is "persoon ingeschreven in het openbaar register", maar geen "beroepsbeoefenaar" in de zin van hoofdstuk 6. Toch is hij gebonden door de [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|geheimhoudingsplicht (art. 50)]] — want die spreekt van "persoon". Zou de wet uitsluitend over "beroepsbeoefenaar" spreken, dan zou de IGA er niet onder vallen. Dit onderscheid bepaalt dus wie welke verplichting draagt.
+> Een [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|intern gecertificeerd accountant (IGA)]] werkt in loondienst bij een onderneming. Hij is "persoon ingeschreven in het openbaar register", maar geen "beroepsbeoefenaar" in de zin van hoofdstuk 6. Toch is hij gebonden door de [[beroepsgeheim#-discretieplicht|discretieplicht (art. 50)]] — want die spreekt van "persoon". Zou de wet uitsluitend over "beroepsbeoefenaar" spreken, dan zou de IGA er niet onder vallen. Dit onderscheid bepaalt dus wie welke verplichting draagt.
 >
 > 🤖 *AI-aanvulling*
 
@@ -270,7 +270,7 @@ Taken:
 > >
 > > **Fout.**
 > >
-> > [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|Art. 50]] spreekt van "persoon ingeschreven in het openbaar register" — niet van "beroepsbeoefenaar". De [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|IGA]] is ingeschreven en valt dus wel degelijk onder de [[beroepsgeheim#-geheimhoudingsplicht-discretieplicht|geheimhoudingsplicht]]. Art. 36 §3 bepaalt expliciet dat verplichtingen die gericht zijn aan "de persoon" gelden voor iedereen in het register, inclusief loontrekkenden.
+> > [[beroepsgeheim#-discretieplicht|Art. 50]] spreekt van "persoon ingeschreven in het openbaar register" — niet van "beroepsbeoefenaar". De [[beroep-van-accountant-en-belastingadviseur#-intern-gecertificeerd-accountant--belastingadviseur|IGA]] is ingeschreven en valt dus wel degelijk onder de [[beroepsgeheim#-discretieplicht|discretieplicht]]. Art. 36 §3 bepaalt expliciet dat verplichtingen die gericht zijn aan "de persoon" gelden voor iedereen in het register, inclusief loontrekkenden.
 > >
 > > *Zie: [[deontologische-beginselen#-persoon-vs-beroepsbeoefenaar|Persoon vs. beroepsbeoefenaar]]*
 >

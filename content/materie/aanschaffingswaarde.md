@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", materie]
+tags: [wip, "1.2", materie]
 niveau: toepassen
-status: geverifieerd
+status: draft
 bronnen:
   - KB 29 april 2019 (uitvoering WVV) art. 3:13, 3:14, 3:15, 3:16, 3:17, 3:21
 itaa-lex: XV (KB WVV 2019)

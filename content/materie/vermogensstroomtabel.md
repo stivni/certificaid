@@ -10,7 +10,7 @@ bronnen:
 
 De vermogensstroomtabel (ook: financieringstabel) toont hoe de onderneming haar investeringen en andere bestedingen tijdens een boekjaar heeft gefinancierd. Ze legt de nadruk op de structurele financieringsbewegingen: welke middelen zijn aangetrokken (herkomst) en waarvoor zijn ze aangewend (besteding)?
 
-Waar de balans een momentopname is en de resultatenrekening de winstbepaling weergeeft, reconstrueert de vermogensstroomtabel de **bewegingen** die de balanswijzigingen veroorzaken — maar enkel de structurele, langetermijnbewegingen. De kasstroomanalyse doet hetzelfde voor de kasbeweging. Zie [[kasstroomanalyse]]
+Waar de balans een momentopname is en de resultatenrekening de winstbepaling weergeeft, reconstrueert de vermogensstroomtabel de **bewegingen** die de balanswijzigingen veroorzaken — maar enkel de structurele, langetermijnbewegingen. De [[kasstroomanalyse]] doet hetzelfde voor de kasbeweging.
 
 ---
 
@@ -73,9 +73,55 @@ De tabel is opgedeeld in twee kolommen:
 
 ---
 
+> [!info]- In de praktijk: volledige vermogensstroomtabel opstellen vanuit twee balansen
+>
+> 🤖 *AI-aanvulling*
+>
+> Een handelsbedrijf heeft volgende balansgegevens (in €):
+>
+> ```
+>                              Jaar N-1      Jaar N     Wijziging
+> ─────────────────────────────────────────────────────────────
+> ACTIEF
+>   Vaste activa (netto)       800.000      950.000    +150.000
+>   Vlottende activa           350.000      310.000     -40.000
+> ─────────────────────────────────────────────────────────────
+>   Totaal activa            1.150.000    1.260.000    +110.000
+>
+> PASSIEF
+>   Eigen vermogen             500.000      560.000     +60.000
+>   Schulden LT                200.000      280.000     +80.000
+>   Schulden KT                450.000      420.000     -30.000
+> ─────────────────────────────────────────────────────────────
+>   Totaal passief           1.150.000    1.260.000    +110.000
+> ```
+>
+> Bijkomende informatie: afschrijvingen boekjaar = € 120.000; dividenden = € 20.000; vaste activa bruto gestegen door aankoop van € 270.000.
+>
+> **Vermogensstroomtabel jaar N:**
+>
+> ```
+> HERKOMST VAN MIDDELEN                        BESTEDING VAN MIDDELEN
+> ─────────────────────────────────────────   ─────────────────────────────────
+> Nettowinst (EV-stijging excl. dividenden)    Aankoop vaste activa    270.000
+>   = 60.000 + 20.000 dividend =   80.000     Dividenden               20.000
+> Nieuwe lening LT               80.000
+> Afschrijvingen                120.000
+> ─────────────────────────────────────────   ─────────────────────────────────
+> Totaal herkomst               280.000       Totaal besteding          290.000
+>
+> Saldo = 280.000 − 290.000 = −10.000
+> ```
+>
+> **Effect op NBK**: het negatieve saldo van −€ 10.000 betekent dat de permanente middelen niet volstonden om alle langetermijnbestedingen te dekken. Het NBK daalt:
+> - NBK jaar N-1 = 350.000 − 450.000 = −100.000
+> - NBK jaar N = 310.000 − 420.000 = −110.000 (daling van −10.000 = het saldo)
+>
+> Het bedrijf financiert een deel van zijn investeringen met kortetermijnmiddelen — een signaal dat de financieringsstructuur enigszins onder druk staat.
+
 ## ⚖️ Interpretatie van het saldo
 
-Het saldo van de vermogensstroomtabel geeft aan wat er met het [[jaarrekeninganalyse#📌-nettobedrijfskapitaal|nettobedrijfskapitaal (NBK)]] is gebeurd:
+Het saldo van de vermogensstroomtabel geeft aan wat er met het [[balansaggregaten#-netto-bedrijfskapitaal-nbk|nettobedrijfskapitaal (NBK)]] is gebeurd:
 
 - **Herkomst > Besteding** → het saldo stroomt naar de kortetermijnsfeer: het NBK verbetert
 - **Besteding > Herkomst** → de permanente middelen zijn niet voldoende voor de langetermijnbestedingen: het NBK verslechtert, wat betekent dat kortetermijnmiddelen langetermijnbehoeften financieren — een structurele spanning
@@ -94,7 +140,7 @@ Een verslechterend NBK is een signaal dat de onderneming haar investeringen of t
 | Werkkapitaalmutaties | Niet opgenomen — valt in het saldo | Expliciet opgenomen (stap 4 indirecte methode) |
 | Relevante vraag | Is de financieringsstructuur structureel gezond? | Heeft de onderneming voldoende kaspositie? |
 
-Zie [[kasstroomanalyse]] voor de kasstroomanalyse
+Vergelijking met het [[kasstroomanalyse|kasstroomoverzicht]]: zie de tabel hieronder.
 
 > [!warning]- Vermogensstroomtabel = kasstroomoverzicht
 > ❌ *"De vermogensstroomtabel toont dezelfde informatie als het kasstroomoverzicht, alleen in een andere indeling."*

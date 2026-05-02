@@ -1,7 +1,7 @@
 ---
-tags: ["1.2", materie]
+tags: ["1.2", "1.3", wip, materie]
 niveau: weten-en-inzien
-status: geverifieerd
+status: draft
 bronnen:
   - WVV art. 3:4, 3:5, 3:6, 3:6/1
 itaa-lex: XV (WVV)
@@ -19,8 +19,8 @@ Het jaarverslag is een afzonderlijk document waarmee het bestuursorgaan rekensch
 
 | Vrijgesteld | Voorwaarde |
 |-------------|------------|
-| Niet-genoteerde kleine vennootschappen | Zie [[groottecriteria-vennootschappen-verenigingen|groottecriteria]] |
-| Kleine vennootschappen die geen OOB zijn | Zie [[groottecriteria-vennootschappen-verenigingen|groottecriteria]] |
+| Niet-genoteerde [[groottecriteria-vennootschappen-verenigingen#-kleine-vennootschap|kleine vennootschappen]] | Voldoet aan groottecriteria kleine vennootschap |
+| Kleine vennootschappen die geen OOB zijn | Voldoet aan groottecriteria + niet genoteerd |
 | Vof's en comm.v.'s | Alle onbeperkt aansprakelijke vennoten zijn natuurlijke personen |
 | Erkende landbouwondernemingen (vof/comm.v.) | Onderworpen aan personenbelasting |
 
@@ -87,12 +87,41 @@ Ook genoteerde vennootschappen en bepaalde organisaties van openbaar belang zijn
 
 ---
 
+## 🔍 Belang voor financiële analyse
+
+Het jaarverslag is geen cijferdocument maar een **contextueel document** — het verklaart wat achter de cijfers van de [[jaarrekening|jaarrekening]] schuilgaat. Voor de analist biedt het informatie die nergens anders publiek beschikbaar is:
+
+| Element uit het jaarverslag | Belang voor de analyse |
+|---|---|
+| **Risico's en onzekerheden** | Context voor afwijkende ratio's; rechtszaken, marktrisico's, operationele risico's die niet in de balans staan |
+| **Verantwoording [[continuiteitsrisico#-continuïteitsveronderstelling\|continuïteitsveronderstelling]]** | Verplicht als er twee jaar verlies is (WVV art. 3:6 §1, 6°) — direct signaal van [[continuiteitsrisico\|continuïteitsrisico]] |
+| **Gebeurtenissen na balansdatum** | Kunnen ratio's verklaren of relativeren — bv. een grote klant verloren net na afsluiting |
+| **Toekomstverwachtingen** | Geeft richting aan wat de komende jaren te verwachten is — relevant bij advies |
+| **Remuneratieverslag** (genoteerde vennootschappen) | Transparantie over bestuurdersvergoedingen; relevant bij beoordeling van kostenstructuur |
+
+> [!tip]- Het jaarverslag lezen vóór de ratio-analyse
+> Het jaarverslag bevat kwalitatieve informatie die ratio's in een heel ander licht kan plaatsen. Een dalende brutomarge die in het jaarverslag verklaard wordt door een éénmalige grondstoffencrisis is iets anders dan een structurele margedaling. Lees het jaarverslag vóór je conclusies trekt.
+>
+> 🤖 *AI-aanvulling*
+
+---
+
 ## Relevant voor
 
 **[[1.2-boekhoudrecht-en-jaarrekeningenrecht|1.2 Boekhoudrecht en jaarrekeningenrecht]]**
 
 Kenniselementen:
 - IV.D — Regels over het jaarverslag
+
+**[[1.3-analyse-en-kritische-beoordeling-jaarrekening|1.3 Analyse en kritische beoordeling van de jaarrekening]]**
+
+Taken:
+- *Analyse en beoordeling van de financiële situatie aan de hand van de jaarrekeningen, ratio's en kengetallen*
+  - In staat zijn om de jaarrekeningen kritisch te bekijken
+
+Kenniselementen:
+- I.C.1 — Wettelijke documenten: [[jaarverslag#-belang-voor-financiële-analyse|jaarverslag als analysebron]]
+- I.E — Verslag van het bestuursorgaan
 
 ### Voorbeeldvragen
 

@@ -1,7 +1,7 @@
 ---
-tags: ["4.0", materie]
+tags: [wip, "4.0", materie]
 niveau: integratie
-status: geverifieerd
+status: draft
 bronnen:
   - AWW art. 2, 3, 5, 8, 9, 16, 19, 21, 47, 53, 55, 67
 itaa-lex: XVII, p. 2441
