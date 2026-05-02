@@ -1,24 +1,13 @@
 ---
+nummer: "CBN-advies 4/3"
+datum: 1981-04-01
+themas:
+  - boeken
+bron: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 ---
 
-# CBN-advies 4-3 - Over  het  centraal  boek
+# CBN-advies 4/3 — over het centraal boek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  de  wet  van  1  juli  1983  (B.S.  8  juli  1983)  en  het  koninklijk  besluit  van  25  januari  2005  (B.S.  7  februari  2005)**
 
-**Bron**: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-**Status**: verbatim tekst via HTML-extractie
-
----
-
-You are here
-
-Home
-
-Gepubliceerde adviezen
-
-Over het centraal boek
-
-CBN-advies 4-3 - Over  het  centraal  boek 
-
-Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  de  wet  van  1  juli  1983  (B.S.  8  juli  1983)  en  het  koninklijk  besluit  van  25  januari  2005  (B.S.  7  februari  2005)
 
 Artikel 4, derde lid van de wet handelt over het centraal boek en de samenvattende boekingen daarin. Terzake heeft de Commissie er geregeld aan herinnerd dat de wet van 17 juli 1975 slechts tot het houden van dit boek en het verichten van een samenvattende boeking verplicht, indien het hulpdagboek of de bijzondere hulpdagboeken niet geviseerd, en in voorkomend geval, niet geparafeerd zijn in de vorm bepaald in artikel 8, § 2 van de wet.   
 
@@ -34,44 +23,5 @@ De eigenlijke centralisatie der boekingen wordt door de wet derhalve niet�
 
 Een bijzonder geval betrof een onderneming met verschillende afdelingen. In casu heeft de Commissie geoordeeld dat geen enkele bepaling het houden van één of meer hulpdagboeken per afdeling in de wegstaat. Worden al deze boeken aan de wettelijke formaliteiten inzake visum en voor zover nodig, paraaf, onderworpen, dan hoeft de betrokken onderneming géén centraal boek te houden.   
 
-Is dit niet het geval, dan moet een centraal boek worden aangelegd dat zal gelden voor de gehele onderneming, in de zin van artikel 1 van de wet.   
 
-CBN-advies
-
-4/3
-
-Status
-
-Gepubliceerd
-
-Datum
-
-1 april 1981
-
-Thema's
-
-boeken
-
-Get PDF
-
-Print
-
-Gerelateerde adviezen
-
-5 oktober 2011
-
-Bewaring van de boeken en verantwoordingsstukken
-
-Gepubliceerd
-
-24 september 2010
-
-Bewaring van boeken en verantwoordingsstukken
-
-Gepubliceerd
-
-1 augustus 1977
-
-Vermeldingen in het centralisatieboek
-
-Gepubliceerd
+Is dit niet het geval, dan moet een centraal boek worden aangelegd dat zal gelden voor de gehele onderneming, in de zin van artikel 1 van de wet.

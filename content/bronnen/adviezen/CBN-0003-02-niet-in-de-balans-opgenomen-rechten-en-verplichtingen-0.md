@@ -1,24 +1,23 @@
 ---
+nummer: "CBN-advies 3/2"
+datum: 1988-01-01
+themas:
+  - buiten balans
+  - goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming
+  - goederen en waarden van derden gehouden door de onderneming
+  - niet in de balans opgenomen rechten en verplichtingen
+  - ontvangen zekerheden
+  - persoonlijke zekerheden gesteld voor rekening van derden
+  - termijn
+  - termijnovereenkomst
+  - verplichting tot aan- en verkoop van vaste activa
+  - zakelijke zekerheden
+  - zekerheden
+  - zekerheden door derden gesteld voor rekening van de onderneming
+bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
 ---
 
-# CBN-advies 3-2 - Niet  in  de  balans  opgenomen  rechten  en  verplichtingen
-
-**Bron**: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
-**Status**: verbatim tekst via HTML-extractie
-
----
-
-You are here
-
-Home
-
-Gepubliceerde adviezen
-
-Niet in de balans opgenomen rechten en verplichtingen
-
-CBN-advies 3-2 - Niet  in  de  balans  opgenomen  rechten  en  verplichtingen
-
-Zowel  in  de  bepalingen  zelf  als  in  de  verantwoording  van  de  wet  van  17  juli  1975  en van de  ter  uitvoering  hiervan  genomen  besluten  is  duidelijk  de  nadruk  gelegd  op  de noodzaak om  niet  in  de  balans  opgenomen  rechten  en  verplichtingen  te  boeken,  te  inventariseren aan  het  einde  van  het  boekjaar  en  op  passende  wijze  in  de  jaarrekening  te  vermelden.   
+# CBN-advies 3/2 — niet in de balans opgenomen rechten en verplichtingen Zowel  in  de  bepalingen  zelf  als  in  de  verantwoording  van  de  wet  van  17  juli  1975  en van de  ter  uitvoering  hiervan  genomen  besluten  is  duidelijk  de  nadruk  gelegd  op  de noodzaak om  niet  in  de  balans  opgenomen  rechten  en  verplichtingen  te  boeken,  te  inventariseren aan  het  einde  van  het  boekjaar  en  op  passende  wijze  in  de  jaarrekening  te  vermelden.   
 
   
 
@@ -26,8 +25,8 @@ Zulks  betekent  geenszins  dat  deze  rechten  en  verplichtingen  buit
 
   
 
-Krachtens  de  vroegere  wetsbepalingen  inzake  de  boeken  van  koophandel  moesten  deze verplichtingen  of  althans  sommige  ervan 1
-  dag  na  dag  worden  geregistreerd.   Bovendien  schreef  de  vennootschapswet  (thans  Wetboek  van  vennootschappen)  voor  dat bij  de  inventaris  een  bijlage  moest  worden  gevoegd,  met  een  samenvatting  van  alle verplichtingen  van  de  vennootschap 2
+Krachtens  de  vroegere  wetsbepalingen  inzake  de  boeken  van  koophandel  moesten  deze verplichtingen  of  althans  sommige  ervan1
+  dag  na  dag  worden  geregistreerd.   Bovendien  schreef  de  vennootschapswet  (thans  Wetboek  van  vennootschappen)  voor  dat bij  de  inventaris  een  bijlage  moest  worden  gevoegd,  met  een  samenvatting  van  alle verplichtingen  van  de  vennootschap2
 .   
 
   
@@ -36,7 +35,7 @@ Het  is  onbetwistbaar  dat  de  wetgeving  van  1975  zeer  uitdrukkel
 
   
 
-Wat  de  boekhoudkundige  verwerking  betreft  worden  verrichtingen  waaruit  rechten  en verplichtingen  ontstaan  die  niet  in  de  balanszijn  opgenomen,  op  dezelfde  wijze  behandeld als  verrichtingen  waaruit  activa,  passiva,  opbrengsten  of  kosten  ontstaan.  Zij  worden «zonder  uitstel,  getrouw  en  volledig»  ingeschreven  in  de  dagboeken  en  overgebracht  naar de  rekeningen,  met  inachtneming  van  de  gebruikelijke  regels  van  het  dubbel  boekhouden (artikelen  3,  1ste  lid  en  4,  1ste  en  2de  lid  van  de  wet  van  17  juli  1975).  Het  koninklijk besluit  van  7  maart  1978  tot  bepaling  van  de  inhoud  en  van  de  indeling  van  een  als minimum  geldend  genormaliseed  rekeningstelsel  alsmede  het  vervangingsbesluit  van  12 september  1983  bevatten  derhalve  een  nomenclatuur  van  de  rekeningen  inzke  rechten  en verplichtingen  (klasse  0)  die  werkt  volgens  het  beginsel  van  het  dubbel  boekhouden. 3
+Wat  de  boekhoudkundige  verwerking  betreft  worden  verrichtingen  waaruit  rechten  en verplichtingen  ontstaan  die  niet  in  de  balanszijn  opgenomen,  op  dezelfde  wijze  behandeld als  verrichtingen  waaruit  activa,  passiva,  opbrengsten  of  kosten  ontstaan.  Zij  worden «zonder  uitstel,  getrouw  en  volledig»  ingeschreven  in  de  dagboeken  en  overgebracht  naar de  rekeningen,  met  inachtneming  van  de  gebruikelijke  regels  van  het  dubbel  boekhouden (artikelen  3,  1ste  lid  en  4,  1ste  en  2de  lid  van  de  wet  van  17  juli  1975).  Het  koninklijk besluit  van  7  maart  1978  tot  bepaling  van  de  inhoud  en  van  de  indeling  van  een  als minimum  geldend  genormaliseed  rekeningstelsel  alsmede  het  vervangingsbesluit  van  12 september  1983  bevatten  derhalve  een  nomenclatuur  van  de  rekeningen  inzke  rechten  en verplichtingen  (klasse  0)  die  werkt  volgens  het  beginsel  van  het  dubbel  boekhouden.3
    
 
   
@@ -67,7 +66,7 @@ Zoals  aangekondigd  tijdens  de  parlementaire  werkzaamheden,  bevat  h
 
 04  Goederen  en  waarden  gehouden  door  derden  in  hun  naam,  maar  ten  bate  en  op  risico  van  de  onderneming   
 
-05  Verplichtingen  tot  aan‐ en  verkoop  van  vaste  activa 4
+05  Verplichtingen  tot  aan‐ en  verkoop  van  vaste  activa4
   
 
 06  Termijnovereenkomsten   
@@ -118,60 +117,11 @@ Vaak  openen  ondernemingen,  om  administratieve  of  statistische  rede
 
  
 
-1  Artikel  16  (Boek  I,  Titel  III  W.Kh.)  «Elke  koopman  is  verplicht  een  dagboek  te  hebben waarin  dag  na  dag  worden  opgetekend  zijn  schuldvorderingen  en  schulden,  de verrichtingen  van  zijn  handel,  zijn  verhandelingen,  acceptatiën  of  rugtekeningen  van effecten,  en  in  het  algemeen  al  zijn  ontvangsten  en  uitgaven  van  welke  aard  ook,  ...»   
 
-2 Artikel  77,  eerste  lid  Venn.  W.  in  de  versie  van  vóór  de  wet  van  24  maart  1978.   
-
-3 De  natuurlijke  personen  die  koopman  zijn  en  vennootschappen  met  onbeperkte aansprakelijkheid  die,  krachtens  artikel  5  van  de  wet,  een  vereenvoudigde  boekhouding mogen  voeren,  zijn  niet  verplicht  deze  rechten  en  verplichtingen  te  boeken.  Zij  moeten deze  wel  vermelden  in  hun  inventaris  en  jaarrekening,  ook  al  hoeven  deze  stukken  niet te  worden  opgemaakt  volgens  de  regels  van  het   koninklijk  besluit  van  30  januari  2001.  
-
-4 Verplichtingen  tot  aan‐ en  verkoop  van  vaste  activa  die  tot  de  gewone bedrijfsuitoefening  van  de  onderneming  behoren  en  haar  vermogen  of  resultaat  nie aanmerkelijk  beïnvloeden  behoeven  niet  te  worden  geboekt  (omschrijving  van  rubriek  05 in  het  koninklijk  besluit  van  12  september  1983  en  artikel  97  van  het  koninklijk  besluit van  30  janari  2001).   
-
-CBN-advies
-
-3/2
-
-Status
-
-Gepubliceerd
-
-Datum
-
-1 januari 1988
-
-Thema's
-
-buiten balans
-
-goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming
-
-goederen en waarden van derden gehouden door de onderneming
-
-niet in de balans opgenomen rechten en verplichtingen
-
-ontvangen zekerheden
-
-persoonlijke zekerheden gesteld voor rekening van derden
-
-termijn
-
-termijnovereenkomst
-
-verplichting tot aan- en verkoop van vaste activa
-
-zakelijke zekerheden
-
-zekerheden
-
-zekerheden door derden gesteld voor rekening van de onderneming
-
-Get PDF
-
-Print
-
-Gerelateerde adviezen
-
-15 maart 2017
-
-Niet in de balans opgenomen rechten en verplichtingen
-
-Gepubliceerd
+- 1 Artikel  16  (Boek  I,  Titel  III  W.Kh.)  «Elke  koopman  is  verplicht  een  dagboek  te  hebben waarin  dag  na  dag  worden  opgetekend  zijn  schuldvorderingen  en  schulden,  de verrichtingen  van  zijn  handel,  zijn  verhandelingen,  acceptatiën  of  rugtekeningen  van effecten,  en  in  het  algemeen  al  zijn  ontvangsten  en  uitgaven  van  welke  aard  ook,  ...»   
+ 
+- 2Artikel  77,  eerste  lid  Venn.  W.  in  de  versie  van  vóór  de  wet  van  24  maart  1978.   
+ 
+- 3De  natuurlijke  personen  die  koopman  zijn  en  vennootschappen  met  onbeperkte aansprakelijkheid  die,  krachtens  artikel  5  van  de  wet,  een  vereenvoudigde  boekhouding mogen  voeren,  zijn  niet  verplicht  deze  rechten  en  verplichtingen  te  boeken.  Zij  moeten deze  wel  vermelden  in  hun  inventaris  en  jaarrekening,  ook  al  hoeven  deze  stukken  niet te  worden  opgemaakt  volgens  de  regels  van  het   koninklijk  besluit  van  30  januari  2001.  
+ 
+- 4Verplichtingen  tot  aan‐ en  verkoop  van  vaste  activa  die  tot  de  gewone bedrijfsuitoefening  van  de  onderneming  behoren  en  haar  vermogen  of  resultaat  nie aanmerkelijk  beïnvloeden  behoeven  niet  te  worden  geboekt  (omschrijving  van  rubriek  05 in  het  koninklijk  besluit  van  12  september  1983  en  artikel  97  van  het  koninklijk  besluit van  30  janari  2001).

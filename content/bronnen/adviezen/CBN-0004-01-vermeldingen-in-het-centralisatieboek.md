@@ -1,30 +1,19 @@
 ---
+nummer: "CBN-advies 4/1"
+datum: 1977-08-01
+themas:
+  - boeken
+bron: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
 ---
 
-# CBN-advies 4-1 - Vermeldingen  in  het  centralisatieboek
+# CBN-advies 4/1 — vermeldingen in het centralisatieboek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  het  koninklijk  besluit  nr.  22  van  15 december  1978  (B.S.  4  januari 1979).**
 
-**Bron**: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
-**Status**: verbatim tekst via HTML-extractie
-
----
-
-You are here
-
-Home
-
-Gepubliceerde adviezen
-
-Vermeldingen in het centralisatieboek
-
-CBN-advies 4-1 - Vermeldingen  in  het  centralisatieboek
-
-Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  het  koninklijk  besluit  nr.  22  van  15 december  1978  (B.S.  4  januari 1979).
 
 Krachtens  artikel  4,  tweede  lid  van  de  wet  van  17  juli  1975  moeten  al  de  in  de hulpdagboeken  ingeschreven  gegevens  met  vermelding  van  de  diverse  berokken rekeningen  gecentraliseerd  worden  in  één  centralisatieboek.   
 
   
 
-De  interpretatie  van  deze  bepaling  heeft  talrijke  vragen  doen  oprijzen.  Ze  hebben  de Commissie  ertoe  gebracht  aan  de  Regering  voor  te  stellen  de  tekst  ervan  te  wijzigen  om de  draagwijdte  ervan  nadertoe  te  lichten. 1
+De  interpretatie  van  deze  bepaling  heeft  talrijke  vragen  doen  oprijzen.  Ze  hebben  de Commissie  ertoe  gebracht  aan  de  Regering  voor  te  stellen  de  tekst  ervan  te  wijzigen  om de  draagwijdte  ervan  nadertoe  te  lichten.1
   
 
   
@@ -49,44 +38,5 @@ De  centralisatie  moet  gehecht  zijn  aan  het  rekeningstelsel  van �
 
  
 
-1 Zie: Advies over bepaalde wijzigingen aan de wet van 17 juli 1975.
 
-CBN-advies
-
-4/1
-
-Status
-
-Gepubliceerd
-
-Datum
-
-1 augustus 1977
-
-Thema's
-
-boeken
-
-Get PDF
-
-Print
-
-Gerelateerde adviezen
-
-5 oktober 2011
-
-Bewaring van de boeken en verantwoordingsstukken
-
-Gepubliceerd
-
-24 september 2010
-
-Bewaring van boeken en verantwoordingsstukken
-
-Gepubliceerd
-
-1 april 1981
-
-Over het centraal boek
-
-Gepubliceerd
+- 1Zie: Advies over bepaalde wijzigingen aan de wet van 17 juli 1975.
