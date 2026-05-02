@@ -19,7 +19,7 @@ De jaarrekening is het centrale instrument waarmee een vennootschap jaarlijks ve
 
 De jaarrekening dient drie doelstellingen die samen de grondslag vormen voor het hele verslaggevingsrecht:
 
-1. **[[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]** — de jaarrekening geeft een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat. Dit is het overkoepelend beginsel waaraan alle andere regels ondergeschikt zijn ([[bronnen/wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
+1. **[[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]** — de jaarrekening geeft een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat. Dit is het overkoepelend beginsel waaraan alle andere regels ondergeschikt zijn ([[bronnen/wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
 
 2. **Verantwoording** — het bestuursorgaan legt rekenschap af aan de [[betrokken-partijen-financiele-analyse#-externe-gebruikers-van-de-jaarrekening|aandeelhouders en vennoten]] via de jaarrekening die aan de algemene vergadering wordt voorgelegd. De kwijting is het formele gevolg van die goedkeuring.
 
@@ -41,7 +41,7 @@ De [[boekhoudkundige-beginselen|boekhoudkundige beginselen]] gelden voor de hele
 
 Wanneer kosten of opbrengsten in belangrijke mate worden beïnvloed door bedragen die aan een ander boekjaar moeten worden toegerekend, wordt dit vermeld in de toelichting.
 
-**Continuïteit** — wanneer de continuïteitsveronderstelling niet langer geldt, moeten de waarderingsregels in de jaarrekening worden aangepast: zie [[continuiteitsrisico#️-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
+**Continuïteit** — wanneer de continuïteitsveronderstelling niet langer geldt, moeten de waarderingsregels in de jaarrekening worden aangepast: zie [[continuiteitsrisico#-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
 
 ---
 
@@ -144,7 +144,7 @@ Het verslag van de commissaris is het formele document waarin de [[#-commissaris
 
 **Inhoud van het verslag** ([[bronnen/wetteksten/XV-wvv#art-374|WVV art. 3:74]]):
 - Oordeel over de **getrouwheid en regelmatigheid** van de jaarrekening
-- Of de jaarrekening een [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]] geeft van de financiële toestand en resultaten
+- Of de jaarrekening een [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]] geeft van de financiële toestand en resultaten
 - Of het jaarverslag overeenstemt met de jaarrekening
 - Eventuele **voorbehouden** (reserves): punten waarover de commissaris niet volledig zekerheid heeft
 - Eventuele **nadruksparagrafen**: situaties die de commissaris wil benadrukken zonder het oordeel te wijzigen — bv. onzekerheid over [[continuiteitsrisico|continuïteit]]
@@ -216,7 +216,7 @@ Taken:
   - In staat zijn om de jaarrekeningen kritisch te bekijken
 
 Kenniselementen:
-- I.A — Basisdoelstellingen: [[#️-basisdoelstellingen-van-de-jaarrekening|getrouw beeld, verantwoording, transparantie]]
+- I.A — Basisdoelstellingen: [[#-basisdoelstellingen-van-de-jaarrekening|getrouw beeld, verantwoording, transparantie]]
 - I.C.1 — Wettelijke documenten: [[#-jaarrekening|jaarrekening]], [[#-verslag-van-de-commissaris|verslag van de commissaris]], [[#-geconsolideerde-jaarrekening|geconsolideerde jaarrekening]]
 - II.B — Jaarrekening: activa, passiva, resultatenrekening, toelichting
 

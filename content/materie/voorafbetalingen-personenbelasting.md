@@ -269,7 +269,7 @@ Kenniselementen:
 > >
 > > [[bronnen/wetteksten/II-wib92|WIB92 art. 165]] voorziet een **wettelijke vrijstelling** van vermeerdering wegens onvoldoende VA gedurende de **eerste 3 jaar** als zelfstandige in hoofdberoep. De € 8 000 belasting moet volledig betaald worden bij PB-aanslag, maar zonder bijkomende vermeerderingssanctie. Strategisch advies: zelfs zonder sanctie is het aan te raden om VA's te beginnen in jaar 2 of 3 om een fiscale opbouw te creëren — de overgang naar volledig betalen vanaf jaar 4 zonder VA is een grote schok.
 > >
-> > *Zie: [[voorafbetalingen-personenbelasting#️-eerste-3-jaar-zelfstandige-vrijstelling-vermeerdering|Eerste 3 jaar zelfstandige]]*
+> > *Zie: [[voorafbetalingen-personenbelasting#-eerste-3-jaar-zelfstandige-vrijstelling-vermeerdering|Eerste 3 jaar zelfstandige]]*
 >
 > 🤖 *AI-aanvulling*
 

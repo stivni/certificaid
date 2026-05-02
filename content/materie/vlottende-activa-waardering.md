@@ -53,7 +53,7 @@ Voorraden omvatten grond- en hulpstoffen, gereed product, handelsgoederen en voo
 
 **Waarderingsregel: laagste van aanschaffingswaarde of marktwaarde**
 
-Voorraden worden gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] of tegen de **marktwaarde op balansdatum**, als die lager is. Dit is de toepassing van het [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] op voorraden.
+Voorraden worden gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] of tegen de **marktwaarde op balansdatum**, als die lager is. Dit is de toepassing van het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] op voorraden.
 
 De lagere marktwaarde mag **niet worden gehandhaafd** als de marktwaarde nadien weer stijgt — de waardering moet dan worden hersteld.
 
@@ -103,7 +103,7 @@ De gekozen methode en criteria worden in de toelichting bij de waarderingsregels
 > [!warning]- Winstneming vereist voldoende zekerheid
 > ❌ *"Bij een bouwcontract mag de winstmarge al bij aanvang van het project worden geboekt."*
 >
-> Winstneming op een bestelling in uitvoering is enkel toegestaan als het verschil tussen de contractprijs en de vervaardigingsprijs met **voldoende zekerheid als verworven** mag worden beschouwd. Bij twijfel: geen winstneming — dat is het [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]].
+> Winstneming op een bestelling in uitvoering is enkel toegestaan als het verschil tussen de contractprijs en de vervaardigingsprijs met **voldoende zekerheid als verworven** mag worden beschouwd. Bij twijfel: geen winstneming — dat is het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]].
 >
 > 🤖 *AI-aanvulling*
 

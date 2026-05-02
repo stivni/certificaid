@@ -360,6 +360,6 @@ Advies inzake [vraag van de cliënt]
 > >
 > > Niet-aangifte van buitenlandse inkomsten is een **fiscale inbreuk** ([[bronnen/wetteksten/II-wib92|WIB92 art. 305, 444]]) — bestraft met belastingverhoging tot **200%**. Sinds DAC (uitwisseling fiscale informatie EU) is detectie via FR/SP-administratie waarschijnlijk. **Vrijwillige rechtzetting** beperkt de belastingverhoging vaak tot 10-50% (versus 100-200% bij ontdekking). Stappen: (1) feiten verzamelen (aankoop, huurinkomsten/jaar, FR-belastingbetaald); (2) berekening Belgische belasting per jaar met vrijstelling progressievoorbehoud; (3) rechtzettingsaangiftes indienen; (4) eventueel ruling vragen voor de boete-vermindering bij grote bedragen. **Niet aangeven** is geen optie — de mandataris heeft de **deontologische plicht** om de cliënt op de naleving te wijzen.
 > >
-> > *Zie: [[belastingplichtigen-personenbelasting#️-dubbelbelastingverdragen|DBV]] en [[fiscaal-advies-personenbelasting-formuleren#-5--risico-afweging-per-alternatief|Risico-afweging]]*
+> > *Zie: [[belastingplichtigen-personenbelasting#-dubbelbelastingverdragen|DBV]] en [[fiscaal-advies-personenbelasting-formuleren#-5--risico-afweging-per-alternatief|Risico-afweging]]*
 >
 > 🤖 *AI-aanvulling*

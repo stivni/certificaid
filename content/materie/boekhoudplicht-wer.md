@@ -250,6 +250,6 @@ Kenniselementen:
 > >
 > > Een maatschap heeft geen rechtspersoonlijkheid en houdt geen zelfstandige boekhouding. De zaakvoerder neemt de rekeningen van de maatschap op in zijn **eigen boekhouding** via de proportionele integratiemethode: elk lid verwerkt zijn aandeel in de activa, passiva, kosten en opbrengsten naar rato van zijn participatie.
 > >
-> > *Zie: [[boekhoudplicht-wer#️-volledigheidsbeginsel|Volledigheidsbeginsel]]*
+> > *Zie: [[boekhoudplicht-wer#-volledigheidsbeginsel|Volledigheidsbeginsel]]*
 >
 > 🤖 *AI-aanvulling*

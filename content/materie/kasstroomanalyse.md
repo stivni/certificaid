@@ -149,7 +149,7 @@ De vrije kasstroom is de kasstroom die overblijft na de investeringen die nodig 
 > >
 > > Vrije kasstroom = Operationele kasstroom − Investeringen in vaste activa = € 500.000 − € 200.000 = **€ 300.000**. Deze € 300.000 is beschikbaar voor dividenden, schuldaflossing of verdere groei-investeringen.
 > >
-> > *Zie: [[kasstroomanalyse#️-interpretatie-van-de-drie-kasstromen|Interpretatie]]*
+> > *Zie: [[kasstroomanalyse#-interpretatie-van-de-drie-kasstromen|Interpretatie]]*
 >
 > 🤖 *AI-aanvulling*
 

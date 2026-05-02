@@ -150,7 +150,7 @@ Kenniselementen:
 > >
 > > De inschrijving in het rijksregister levert een **weerlegbaar vermoeden** op. De feitelijke woonplaats (centrum van persoonlijke en huishoudelijke belangen) is in Dubai — gezin, werkplek, onderwijs, alles is daar. Hij kan het vermoeden weerleggen en zal dan **niet-rijksinwoner** zijn voor PB-doeleinden. Eventueel Belgisch inkomen wordt belast onder BNI.
 > >
-> > *Zie: [[belastingplichtigen-personenbelasting#️-inschrijving-in-het-rijksregister-wettelijk-vermoeden|Inschrijving rijksregister]]*
+> > *Zie: [[belastingplichtigen-personenbelasting#-inschrijving-in-het-rijksregister-wettelijk-vermoeden|Inschrijving rijksregister]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -164,7 +164,7 @@ Kenniselementen:
 > >
 > > Een rijksinwoner is **onbeperkt belastbaar** op het wereldwijd inkomen. Het Spaans onroerend inkomen moet worden aangegeven in vak XIII van de aangifte (buitenlandse OG). Het wordt in België **vrijgesteld met progressievoorbehoud** onder het DBV BE-ES, maar telt mee voor de bepaling van de tariefschijf op zijn overige Belgische inkomsten. Niet-aangifte is een fiscale inbreuk.
 > >
-> > *Zie: [[belastingplichtigen-personenbelasting#-rijksinwoner|Rijksinwoner]] en [[belastingplichtigen-personenbelasting#️-dubbelbelastingverdragen|Dubbelbelastingverdragen]]*
+> > *Zie: [[belastingplichtigen-personenbelasting#-rijksinwoner|Rijksinwoner]] en [[belastingplichtigen-personenbelasting#-dubbelbelastingverdragen|Dubbelbelastingverdragen]]*
 >
 > 🤖 *AI-aanvulling*
 

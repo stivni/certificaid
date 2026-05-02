@@ -109,7 +109,7 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 > >
 > > Herwaardering is enkel toegestaan voor **materiële vaste activa** en **financiële vaste activa** (deelnemingen en aandelen). Voorraden vallen hier **niet** onder — ze worden gewaardeerd tegen aanschaffingswaarde of lagere marktwaarde (voorzichtigheidsbeginsel), maar nooit hoger dan aanschaffingswaarde via een herwaardering.
 > >
-> > *Zie: [[herwaarderingsmeerwaarden#️-wanneer-mag-een-actief-worden-geherwaardeerd|Wanneer herwaarderen?]]*
+> > *Zie: [[herwaarderingsmeerwaarden#-wanneer-mag-een-actief-worden-geherwaardeerd|Wanneer herwaarderen?]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -153,9 +153,9 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 > >
 > > **Facultatief** — de herwaardering is niet verplicht maar wel toegestaan als aan de voorwaarden is voldaan.
 > >
-> > De [[herwaarderingsmeerwaarden#️-wanneer-mag-een-actief-worden-geherwaardeerd|herwaarderingsregels]] vereisen dat de waardestijging **vaststaand en duurzaam** is, en — wanneer het actief noodzakelijk is voor de bedrijfsuitoefening — verantwoord door de **rentabiliteit**. Een volledig afgeschreven actief dat nog in gebruik is en een aantoonbare gebruikswaarde heeft, kan opnieuw geherwaardeerd worden. Maar het is een optie, geen verplichting.
+> > De [[herwaarderingsmeerwaarden#-wanneer-mag-een-actief-worden-geherwaardeerd|herwaarderingsregels]] vereisen dat de waardestijging **vaststaand en duurzaam** is, en — wanneer het actief noodzakelijk is voor de bedrijfsuitoefening — verantwoord door de **rentabiliteit**. Een volledig afgeschreven actief dat nog in gebruik is en een aantoonbare gebruikswaarde heeft, kan opnieuw geherwaardeerd worden. Maar het is een optie, geen verplichting.
 > >
-> > *Zie: [[herwaarderingsmeerwaarden#️-wanneer-mag-een-actief-worden-geherwaardeerd|Wanneer mag geherwaardeerd worden?]]*
+> > *Zie: [[herwaarderingsmeerwaarden#-wanneer-mag-een-actief-worden-geherwaardeerd|Wanneer mag geherwaardeerd worden?]]*
 >
 > 📝 *Uit voorbeeldexamen 2014/1*
 

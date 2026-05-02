@@ -137,7 +137,7 @@ Federaal verschuldigde belasting = Federale basisbelasting − Vermindering
 > [!warning]- Bij gezamenlijke aanslag: belastingvrije som per persoon — niet één som
 > ❌ *"Een echtpaar krijgt één belastingvrije som van € 10 570 voor het gezin."*
 >
-> Door [[personenbelasting-basisbegrippen#️-decumul|decumul]] krijgt **elke partner** zijn **eigen** belastingvrije som van ~ € 10 570 — er zijn dus twee belastingvrije sommen in een gezamenlijke aanslag. Toeslagen voor kinderen worden in beginsel toegerekend aan de partner met **het hoogste belastbare inkomen** (om maximaal voordeel te halen). Bij twijfel: simulator vergelijken voor toerekening aan partner A vs. partner B.
+> Door [[personenbelasting-basisbegrippen#-decumul|decumul]] krijgt **elke partner** zijn **eigen** belastingvrije som van ~ € 10 570 — er zijn dus twee belastingvrije sommen in een gezamenlijke aanslag. Toeslagen voor kinderen worden in beginsel toegerekend aan de partner met **het hoogste belastbare inkomen** (om maximaal voordeel te halen). Bij twijfel: simulator vergelijken voor toerekening aan partner A vs. partner B.
 >
 > 🤖 *AI-aanvulling*
 
@@ -414,7 +414,7 @@ Eindbelasting          € 26 630       € 29 780     +€ 3 150
 > >
 > > Voordeel globalisatie: € 308. Algemene regel: voor lage marginale tarieven (< 30%) en/of bij gebruik van vrijstelling eerste schijf — globaliseren is voordeliger.
 > >
-> > *Zie: [[roerende-inkomsten-personenbelasting#-wanneer-globaliseren|Wanneer globaliseren?]] en [[belastingberekening-personenbelasting#️-bedrijfsvoorheffing-en-roerende-voorheffing-verrekening|RV-verrekening]]*
+> > *Zie: [[roerende-inkomsten-personenbelasting#-wanneer-globaliseren|Wanneer globaliseren?]] en [[belastingberekening-personenbelasting#-bedrijfsvoorheffing-en-roerende-voorheffing-verrekening|RV-verrekening]]*
 >
 > 🤖 *AI-aanvulling*
 

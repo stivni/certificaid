@@ -296,7 +296,7 @@ Kenniselementen:
 > >
 > > Standaard is de 30% RV op dividenden **bevrijdend** ([[bronnen/wetteksten/II-wib92|WIB92 art. 313]]) — geen aangifte, geen verdere belasting. **Echter**: bij vrijwillige globalisatie (= aangeven in vak VII) kan de aandeelhouder gebruik maken van de **vrijstelling van de eerste schijf dividenden** (~ € 833 voor aj. 2026). Voor lage marginale tarieven of als de vrijstelling niet elders gebruikt wordt, levert dit een teruggave op. Voor hoge inkomens is het standaardregime (bevrijdend) meestal voordeliger.
 > >
-> > *Zie: [[roerende-inkomsten-personenbelasting#-roerende-voorheffing-rv|Roerende voorheffing]] en [[roerende-inkomsten-personenbelasting#️-vrijstelling-eerste-schijf-dividenden|Vrijstelling eerste schijf dividenden]]*
+> > *Zie: [[roerende-inkomsten-personenbelasting#-roerende-voorheffing-rv|Roerende voorheffing]] en [[roerende-inkomsten-personenbelasting#-vrijstelling-eerste-schijf-dividenden|Vrijstelling eerste schijf dividenden]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -310,7 +310,7 @@ Kenniselementen:
 > >
 > > De vrijstelling is **per belastingplichtige** (niet per bank). Totaal interesten: € 1 800. Vrijstelling: ~ € 1 020 → te belasten: ~ € 780 aan 15% RV via de aangifte. De banken zijn enkel verplicht om de eerste interesten zonder RV uit te betalen tot het wettelijk plafond — bij meerdere banken samen kan de cumul boven het plafond liggen, en moet de belastingplichtige de overschot aangeven en de RV bijbetalen. Niet-aangifte is een fiscale inbreuk.
 > >
-> > *Zie: [[roerende-inkomsten-personenbelasting#️-vrijstelling-gereglementeerd-spaarboekje|Vrijstelling gereglementeerd spaarboekje]]*
+> > *Zie: [[roerende-inkomsten-personenbelasting#-vrijstelling-gereglementeerd-spaarboekje|Vrijstelling gereglementeerd spaarboekje]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -324,7 +324,7 @@ Kenniselementen:
 > >
 > > Het VVPRbis-regime vereist **ononderbroken volle eigendom** sinds de inbreng. De schenking van 30% aandelen breekt de eigendomsketen voor die 30% — die aandelen verliezen het VVPRbis-statuut, en dividenden erop worden onderworpen aan **30% RV**. De 70% behouden door de vader behoudt VVPRbis (15% vanaf boekjaar 3). Voor de 30% bij de dochter geldt **geen** VVPRbis omdat zij niet de oorspronkelijke inbrenger is.
 > >
-> > *Zie: [[roerende-inkomsten-personenbelasting#️-vvprbis-verlaagde-rv-op-kmo-dividenden|VVPRbis]]*
+> > *Zie: [[roerende-inkomsten-personenbelasting#-vvprbis-verlaagde-rv-op-kmo-dividenden|VVPRbis]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -338,6 +338,6 @@ Kenniselementen:
 > >
 > > Bij uitkering van een liquidatiereserve **na minstens 5 jaar** wachten geldt **5% RV** ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 8°]]). Berekening: € 100 000 × 5% = € 5 000 RV ingehouden door de vennootschap. Cumulatieve heffing: bijzondere aanslag 10% + RV 5% = effectieve heffing ~ 14,5% van de originele winst — fors voordeliger dan standaard 30% dividend. Bij uitkering binnen 5 jaar zou 20% RV gelden (sanctie); bij uitkering bij vereffening 0% (volledige vrijstelling).
 > >
-> > *Zie: [[roerende-inkomsten-personenbelasting#️-liquidatiereserve-uitkering-aan-10-rv|Liquidatiereserve]]*
+> > *Zie: [[roerende-inkomsten-personenbelasting#-liquidatiereserve-uitkering-aan-10-rv|Liquidatiereserve]]*
 >
 > 🤖 *AI-aanvulling*

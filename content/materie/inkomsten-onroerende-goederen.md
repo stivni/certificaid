@@ -70,7 +70,7 @@ De fiscale behandeling van een onroerend goed volgt een logica van **basisregel 
 
 **Basisregel**: het belastbare inkomen = **geïndexeerd KI × 1,40** voor gebouwde goederen (of geïndexeerd KI zonder verhoging voor ongebouwde goederen). Dit geldt voor elk goed dat niet verhuurd is — leegstand, eigen gebruik als tweede verblijf — én voor verhuur aan een particulier voor privégebruik. Het doorslaggevende criterium is dus **het gebruik door de huurder**, niet het feit van verhuur an sich.
 
-**Uitzondering 1 — eigen woning**: het inkomen van de woning waar de belastingplichtige op 31 december zelf werkelijk verblijft als hoofdverblijfplaats is volledig **vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). → Zie [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]].
+**Uitzondering 1 — eigen woning**: het inkomen van de woning waar de belastingplichtige op 31 december zelf werkelijk verblijft als hoofdverblijfplaats is volledig **vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). → Zie [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]].
 
 **Uitzondering 2 — beroepsverhuur**: wanneer de huurder het goed (geheel of gedeeltelijk) gebruikt voor zijn **beroepsactiviteit**, wordt de **werkelijke huurprijs** belast — niet KI × 1,40 ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]). Het minimum blijft geïndexeerd KI × 1,40. → Zie [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]].
 
@@ -335,7 +335,7 @@ Kenniselementen:
 > >
 > > De eigen woning (waar de belastingplichtige werkelijk verblijft op 31 december) is volledig vrijgesteld in de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). Het zomerverblijf is een "niet verhuurde tweede woning" → belast aan geïndexeerd KI verhoogd met 40%.
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#️-basisregel-en-uitzonderingen|Basisregel en uitzonderingen]] en [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]]*
+> > *Zie: [[inkomsten-onroerende-goederen#-basisregel-en-uitzonderingen|Basisregel en uitzonderingen]] en [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -395,6 +395,6 @@ Kenniselementen:
 > >
 > > Sinds aanslagjaar 2022 moet **elk** buitenlands OG worden aangegeven bij de FOD Financiën, die er een fictief KI aan toekent ([[bronnen/wetteksten/II-wib92|WIB92 art. 13/1]]). De inkomsten worden in vak XIII van de aangifte vermeld. Onder DBV BE-ES wordt het Spaans inkomen **vrijgesteld met progressievoorbehoud** — het verhoogt de tariefschijf op de overige Belgische inkomsten. Niet-aangifte → belastingverhoging tot 200%.
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#️-buitenlandse-onroerende-goederen|Buitenlandse onroerende goederen]]*
+> > *Zie: [[inkomsten-onroerende-goederen#-buitenlandse-onroerende-goederen|Buitenlandse onroerende goederen]]*
 >
 > 🤖 *AI-aanvulling*

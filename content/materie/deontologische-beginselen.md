@@ -82,7 +82,7 @@ Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 
 | Type | Andere naam | Conclusie |
 |------|-------------|-----------|
-| **Redelijke zekerheid** | Volkomen controle (contractuele controleopdracht) | Positief oordeel: "de [[jaarrekening|jaarrekening]] geeft een [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]]" |
+| **Redelijke zekerheid** | Volkomen controle (contractuele controleopdracht) | Positief oordeel: "de [[jaarrekening|jaarrekening]] geeft een [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]]" |
 | **Beperkte zekerheid** | Beperkte controle (contractuele beoordelingsopdracht) | Negatieve conclusie: "niets heeft onze aandacht getrokken dat..." |
 
 ---

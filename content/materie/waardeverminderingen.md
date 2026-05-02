@@ -26,7 +26,7 @@ De gecumuleerde waardeverminderingen worden **afgetrokken** van de actiefpost wa
 
 ## ⚖️ Eisen waaraan waardeverminderingen moeten voldoen
 
-**[[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheid, oprechtheid en goede trouw]]** ([[bronnen/wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
+**[[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheid, oprechtheid en goede trouw]]** ([[bronnen/wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
 
 **Specificiteit** — waardeverminderingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke kenmerken mogen globale waardeverminderingen worden geacteerd ([[bronnen/wetteksten/XV-KB-wvv#art-325|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:25]]).
 
@@ -59,7 +59,7 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > [!warning]- Overtollige waardeverminderingen moeten worden teruggenomen als de reden wegvalt
 > ❌ *"Zodra een waardevermindering is geboekt op een vordering, blijft die staan ook als de klant later toch betaalt."*
 >
-> Waardeverminderingen mogen **niet worden gehandhaafd** zodra ze op het einde van het boekjaar hoger zijn dan de feitelijke ontwaarding. Betaalt de klant alsnog, of herstelt de beurskoers van een belegging, dan moet de waardevermindering (gedeeltelijk) worden **teruggenomen**. Gehandhavde overtollige waardeverminderingen leiden tot een onderwaardering van het actief en schenden het [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheids- en oprechtheidsbeginsel]].
+> Waardeverminderingen mogen **niet worden gehandhaafd** zodra ze op het einde van het boekjaar hoger zijn dan de feitelijke ontwaarding. Betaalt de klant alsnog, of herstelt de beurskoers van een belegging, dan moet de waardevermindering (gedeeltelijk) worden **teruggenomen**. Gehandhavde overtollige waardeverminderingen leiden tot een onderwaardering van het actief en schenden het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheids- en oprechtheidsbeginsel]].
 >
 > 🤖 *AI-aanvulling*
 
@@ -91,9 +91,9 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > >
 > > **C — € 392.000.**
 > >
-> > FIFO: de 100 verkochte stuks zijn de oudste (à € 350). Resterend: 900 stuks à € 350 = € 315.000 en 500 stuks à € 300 = € 150.000 [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-boekwaarde]] = € 465.000. Maar de marktwaarde (€ 280) ligt lager dan beide kostprijzen: een [[waardeverminderingen#-waardevermindering|waardevermindering]] is verplicht voor het volledige saldo. 1.400 stuks × € 280 = **€ 392.000**.
+> > FIFO: de 100 verkochte stuks zijn de oudste (à € 350). Resterend: 900 stuks à € 350 = € 315.000 en 500 stuks à € 300 = € 150.000 [[aanschaffingswaarde#-waardering-van-activa-met-identieke-kenmerken|FIFO-boekwaarde]] = € 465.000. Maar de marktwaarde (€ 280) ligt lager dan beide kostprijzen: een [[waardeverminderingen#-waardevermindering|waardevermindering]] is verplicht voor het volledige saldo. 1.400 stuks × € 280 = **€ 392.000**.
 > >
-> > *Zie: [[waardeverminderingen#-waardevermindering|Waardevermindering]] · [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-methode]]*
+> > *Zie: [[waardeverminderingen#-waardevermindering|Waardevermindering]] · [[aanschaffingswaarde#-waardering-van-activa-met-identieke-kenmerken|FIFO-methode]]*
 >
 > 📝 *Uit voorbeeldexamen 2015/1*
 
@@ -110,7 +110,7 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > >
 > > **A — € 465.000.**
 > >
-> > De marktwaarde (€ 455) overschrijdt nu de [[aanschaffingswaarde#️-waardering-van-activa-met-identieke-kenmerken|FIFO-kostprijs]] van het duurste lot (€ 350): de ontwaarding is verdwenen en de [[waardeverminderingen#-terugneming-verplicht-bij-verdwijnen-ontwaarding|waardevermindering moet worden teruggenomen]]. De voorraad mag nooit boven de FIFO-aanschaffingswaarde worden gewaardeerd: plafond = 900 × € 350 + 500 × € 300 = **€ 465.000**. Een opwaardering tot marktwaarde (€ 637.000) is voor voorraden niet toegestaan — dat is een verschil met herwaarderingsmeerwaarden op vaste activa.
+> > De marktwaarde (€ 455) overschrijdt nu de [[aanschaffingswaarde#-waardering-van-activa-met-identieke-kenmerken|FIFO-kostprijs]] van het duurste lot (€ 350): de ontwaarding is verdwenen en de [[waardeverminderingen#-terugneming-verplicht-bij-verdwijnen-ontwaarding|waardevermindering moet worden teruggenomen]]. De voorraad mag nooit boven de FIFO-aanschaffingswaarde worden gewaardeerd: plafond = 900 × € 350 + 500 × € 300 = **€ 465.000**. Een opwaardering tot marktwaarde (€ 637.000) is voor voorraden niet toegestaan — dat is een verschil met herwaarderingsmeerwaarden op vaste activa.
 > >
 > > *Zie: [[waardeverminderingen#-terugneming-verplicht-bij-verdwijnen-ontwaarding|Terugneming verplicht]]*
 >
@@ -129,9 +129,9 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > >
 > > **D.**
 > >
-> > Bij dreigend faillissement zijn vier stappen nodig: (1) de langetermijnvordering wordt overgeboekt naar **vorderingen op korte termijn** — ze wordt onmiddellijk ingeroepen in de faillissementsprocedure; (2) de nog niet uitgedrukte rente wordt in het resultaat opgenomen ([[boekhoudkundige-beginselen#️-matching-overeenstemming-van-kosten-en-opbrengsten|matchingprincipe]]); (3) een [[waardeverminderingen#-waardevermindering|waardevermindering]] wordt geboekt op de vordering; (4) ook de nu uitgedrukte rente — waarvan de inning hoogstwaarschijnlijk onzeker is — krijgt een waardevermindering ([[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]]).
+> > Bij dreigend faillissement zijn vier stappen nodig: (1) de langetermijnvordering wordt overgeboekt naar **vorderingen op korte termijn** — ze wordt onmiddellijk ingeroepen in de faillissementsprocedure; (2) de nog niet uitgedrukte rente wordt in het resultaat opgenomen ([[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|matchingprincipe]]); (3) een [[waardeverminderingen#-waardevermindering|waardevermindering]] wordt geboekt op de vordering; (4) ook de nu uitgedrukte rente — waarvan de inning hoogstwaarschijnlijk onzeker is — krijgt een waardevermindering ([[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]]).
 > >
-> > *Zie: [[waardeverminderingen#-waardevermindering|Waardevermindering]] · [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheidsbeginsel]]*
+> > *Zie: [[waardeverminderingen#-waardevermindering|Waardevermindering]] · [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheidsbeginsel]]*
 >
 > 📝 *Uit voorbeeldexamen 2015/1*
 

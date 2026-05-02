@@ -19,7 +19,7 @@ Het KB van 29 april 2019 tot uitvoering van het WVV legt negen beginselen vast d
 
 De boekhouding en alle financiële verslaggeving moeten een **getrouw beeld geven** van het vermogen, de financiële positie en het resultaat van de onderneming ([[bronnen/wetteksten/XV-KB-wvv#art-31|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:1]]).
 
-Dit is het **overkoepelend beginsel**: alle andere beginselen zijn instrumenten om dat beeld te bereiken. Wanneer strikte toepassing van een specifieke regel het getrouwe beeld in de weg staat, primeert het getrouwe beeld. Hoe dit override-mechanisme concreet werkt bij de opmaak van de jaarrekening staat in [[jaarrekening#️-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
+Dit is het **overkoepelend beginsel**: alle andere beginselen zijn instrumenten om dat beeld te bereiken. Wanneer strikte toepassing van een specifieke regel het getrouwe beeld in de weg staat, primeert het getrouwe beeld. Hoe dit override-mechanisme concreet werkt bij de opmaak van de jaarrekening staat in [[jaarrekening#-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
 
 ---
 
@@ -49,7 +49,7 @@ De boekhouding wordt **duidelijk en stelselmatig** gevoerd: verrichtingen worden
 
 Bij het bepalen en toepassen van de waarderingsregels wordt ervan uitgegaan dat de onderneming **haar bedrijf zal voortzetten** ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]).
 
-Wanneer dit **niet langer het geval is**, moeten de waarderingsregels worden aangepast aan de nieuwe realiteit ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]). De concrete gevolgen voor de waardering (realisatiewaarde, voorzieningen, ...) staan in [[continuiteitsrisico#️-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
+Wanneer dit **niet langer het geval is**, moeten de waarderingsregels worden aangepast aan de nieuwe realiteit ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]). De concrete gevolgen voor de waardering (realisatiewaarde, voorzieningen, ...) staan in [[continuiteitsrisico#-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
 
 ---
 
@@ -79,7 +79,7 @@ Wanneer de waardering van risico's en verliezen onvermijdelijk onzeker is bij ge
 
 Kosten en opbrengsten worden **toegerekend aan het boekjaar waarop ze betrekking hebben**, ongeacht de dag waarop ze worden betaald of geïnd — **behalve wanneer de effectieve inning van opbrengsten onzeker is** ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11]]).
 
-De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplicht zijn, wanneer de toelichting vereist is) staat in [[jaarrekening#️-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
+De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplicht zijn, wanneer de toelichting vereist is) staat in [[jaarrekening#-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
 
 > [!info]- In de praktijk
 >
@@ -146,7 +146,7 @@ De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplic
 > >
 > > Het getrouw beeld is het **overkoepelend principe** — het staat boven de andere acht beginselen en telt zwaarder. Wanneer de strikte toepassing van een ander beginsel het getrouwe beeld in de weg staat, moet van dat beginsel worden afgeweken. De andere acht zijn instrumenten om het getrouwe beeld te bereiken.
 > >
-> > *Zie: [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]*
+> > *Zie: [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -162,7 +162,7 @@ De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplic
 > >
 > > Het consistentiebeginsel vereist dat methoden van jaar tot jaar identiek worden toegepast — maar een **gemotiveerde wijziging** is toegestaan wanneer de vroegere methode niet langer voldoet aan het getrouwe beeld (bv. door ingrijpende veranderingen in de activiteiten). Elke wijziging wordt in de toelichting vermeld en verantwoord.
 > >
-> > *Zie: [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie]]*
+> > *Zie: [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -178,7 +178,7 @@ De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplic
 > >
 > > Het matchingbeginsel vereist dat kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze **betrekking hebben**, ongeacht de dag van betaling of inning. De dienst is in december verleend → de opbrengst hoort in het boekjaar van december. Uitzondering: als de effectieve inning onzeker is, mag men de opbrengst uitstellen.
 > >
-> > *Zie: [[boekhoudkundige-beginselen#️-matching-overeenstemming-van-kosten-en-opbrengsten|Matching]]*
+> > *Zie: [[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|Matching]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -195,9 +195,9 @@ De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplic
 > >
 > > **D.**
 > >
-> > Het [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]] laat gemotiveerde wijzigingen toe. De procedure vereist: (1) een formele beslissing van het bestuursorgaan, (2) vermelding in de toelichting van **zowel de wijziging mét verantwoording als het effect op vermogen en resultaat**. Enkel de wijziging melden (optie B) volstaat niet — ook de kwantitatieve impact moet worden toegelicht.
+> > Het [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]] laat gemotiveerde wijzigingen toe. De procedure vereist: (1) een formele beslissing van het bestuursorgaan, (2) vermelding in de toelichting van **zowel de wijziging mét verantwoording als het effect op vermogen en resultaat**. Enkel de wijziging melden (optie B) volstaat niet — ook de kwantitatieve impact moet worden toegelicht.
 > >
-> > *Zie: [[boekhoudkundige-beginselen#️-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie in waarderingsmethoden]]*
+> > *Zie: [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|Consistentie in waarderingsmethoden]]*
 >
 > 📝 *Uit voorbeeldexamen 2013/2*
 

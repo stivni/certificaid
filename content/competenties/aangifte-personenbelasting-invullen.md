@@ -66,7 +66,7 @@ Informeer de cliënt over de **indieningstermijn** voor mandataris-aangiftes (~ 
 
 **Waarom**: het aanslagregime bepaalt of er één of twee aangiftes worden ingediend — een verkeerde indiening leidt tot een ambtshalve correctie of tot een verkeerde belasting (verlies van [[gezinsfiscaliteit#-huwelijksquotiënt|huwelijksquotiënt]], verkeerde toerekening van [[gezinsfiscaliteit#-personen-ten-laste|personen ten laste]]).
 
-Bepaal het regime aan de hand van de [[gezinsfiscaliteit#-burgerlijke-staat-in-fiscalibus|burgerlijke staat]] op **31 december** van het inkomstenjaar (of speciaal regime bij wijziging tijdens het jaar — zie [[gezinsfiscaliteit#️-jaar-van-huwelijk-of-wettelijke-samenwoning|huwelijk]] / [[gezinsfiscaliteit#️-jaar-van-scheiding-van-tafel-en-bed-of-feitelijke-scheiding|scheiding]] / [[gezinsfiscaliteit#️-jaar-van-overlijden|overlijden]]).
+Bepaal het regime aan de hand van de [[gezinsfiscaliteit#-burgerlijke-staat-in-fiscalibus|burgerlijke staat]] op **31 december** van het inkomstenjaar (of speciaal regime bij wijziging tijdens het jaar — zie [[gezinsfiscaliteit#-jaar-van-huwelijk-of-wettelijke-samenwoning|huwelijk]] / [[gezinsfiscaliteit#-jaar-van-scheiding-van-tafel-en-bed-of-feitelijke-scheiding|scheiding]] / [[gezinsfiscaliteit#-jaar-van-overlijden|overlijden]]).
 
 ```
 Vak II — Persoonlijke gegevens
@@ -85,7 +85,7 @@ Vak II — Persoonlijke gegevens
 > [!warning]- Bij een wijziging tijdens het jaar gelden specifieke regimes
 > ❌ *"Een echtpaar dat in juni huwt, doet onmiddellijk een gezamenlijke aangifte voor dat jaar."*
 >
-> Voor het **jaar van huwelijk of wettelijke samenwoning** worden de partners nog **afzonderlijk** belast als alleenstaanden ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 1°]]) — de gezamenlijke aanslag begint pas vanaf het eerste **volledige** kalenderjaar. Wie deze regel mist, dient een verkeerde aangifte in en mist mogelijk de [[gezinsfiscaliteit#-huwelijksquotiënt|huwelijksquotiënt]]-berekening. Bij scheiding of overlijden gelden eigen regels — zie [[gezinsfiscaliteit#️-jaar-van-overlijden|jaar van overlijden]].
+> Voor het **jaar van huwelijk of wettelijke samenwoning** worden de partners nog **afzonderlijk** belast als alleenstaanden ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 1°]]) — de gezamenlijke aanslag begint pas vanaf het eerste **volledige** kalenderjaar. Wie deze regel mist, dient een verkeerde aangifte in en mist mogelijk de [[gezinsfiscaliteit#-huwelijksquotiënt|huwelijksquotiënt]]-berekening. Bij scheiding of overlijden gelden eigen regels — zie [[gezinsfiscaliteit#-jaar-van-overlijden|jaar van overlijden]].
 >
 > 🤖 *AI-aanvulling*
 
@@ -210,7 +210,7 @@ Vak IV — Bezoldigingen werknemers  (geverifieerd via FOD Financiën voorbereid
 > [!warning]- Bij wettelijk samenwonende of gehuwde partners: kosten en aftrekken doorrekenen voor decumul
 > ❌ *"De totale gezinsbeoefkosten worden op de hoogste verdiener toegerekend voor maximaal voordeel."*
 >
-> Door de [[personenbelasting-basisbegrippen#️-decumul|decumul]] worden beroepskosten **strikt persoonlijk** toegerekend aan de partner die ze gemaakt heeft. Werkelijke beroepskosten van partner A behoren tot het beroepsinkomen van A — ze kunnen niet naar B worden overgedragen. Voor onderhoudsuitkeringen, giften en pensioensparen geldt wel een specifieke verdelingsregel binnen de gezamenlijke aanslag.
+> Door de [[personenbelasting-basisbegrippen#-decumul|decumul]] worden beroepskosten **strikt persoonlijk** toegerekend aan de partner die ze gemaakt heeft. Werkelijke beroepskosten van partner A behoren tot het beroepsinkomen van A — ze kunnen niet naar B worden overgedragen. Voor onderhoudsuitkeringen, giften en pensioensparen geldt wel een specifieke verdelingsregel binnen de gezamenlijke aanslag.
 >
 > 🤖 *AI-aanvulling*
 
@@ -378,7 +378,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 > >
 > > Het KI van de eigen woning wordt vermeld in vak III van de aangifte (informatieve verplichting), maar het inkomen zelf is **volledig vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). Het verhoogt de belastbare grondslag niet. Wel moet de eigen woning expliciet aangeduid worden om het onderscheid met andere niet-eigen woningen (waar geïndexeerd KI × 1,40 wel belastbaar is) te garanderen.
 > >
-> > *Zie: [[inkomsten-onroerende-goederen#️-eigen-woning|Eigen woning]]*
+> > *Zie: [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]]*
 >
 > 🤖 *AI-aanvulling*
 

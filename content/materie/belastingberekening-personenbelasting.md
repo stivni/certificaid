@@ -110,7 +110,7 @@ De toeslagen zijn **niet-lineair** stijgend — een gezin met 4 kinderen krijgt 
 
 **Bijkomende toeslagen**:
 - Kind jonger dan 3 jaar zonder kinderoppasaftrek: extra toeslag (~ € 720)
-- [[gezinsfiscaliteit#️-alleenstaande-ouder-toeslag|Alleenstaande ouder]] met kind ten laste: extra toeslag (~ € 1 920)
+- [[gezinsfiscaliteit#-alleenstaande-ouder-toeslag|Alleenstaande ouder]] met kind ten laste: extra toeslag (~ € 1 920)
 - Persoon met handicap (zelf, partner of ten laste): toeslag verdubbeld (telt als 2 personen ten laste)
 
 **Mechanisme van de toepassing**:
@@ -281,7 +281,7 @@ Het aanslagbiljet dat de belastingplichtige ontvangt vermeldt het te betalen sal
 
 ## ⚖️ Globalisatie of afzonderlijke aanslagen
 
-Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aan een **vast afzonderlijk tarief** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]) — zie ook [[personenbelasting-basisbegrippen#️-globalisatie-en-afzonderlijke-aanslagen|Globalisatie en afzonderlijke aanslagen]] voor het algemeen overzicht.
+Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aan een **vast afzonderlijk tarief** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]) — zie ook [[personenbelasting-basisbegrippen#-globalisatie-en-afzonderlijke-aanslagen|Globalisatie en afzonderlijke aanslagen]] voor het algemeen overzicht.
 
 | Inkomen | Tarief |
 |---|---|
@@ -365,6 +365,6 @@ Kenniselementen:
 > >
 > > De **eerste schijf** van interesten op een gereglementeerd spaarboekje is **vrijgesteld** van RV en PB (~ € 1 020 voor aj. 2026, indicatief — cijferzakboekje raadplegen). Het deel **boven** de vrijgestelde schijf wordt belast aan **15% RV**. Bij niet-inhouding door de bank is de belastingplichtige verplicht het belastbare deel zelf aan te geven en de RV te betalen via de aangifte. Niet-aangifte is een fiscale inbreuk.
 > >
-> > *Zie: [[belastingberekening-personenbelasting#️-bedrijfsvoorheffing-en-roerende-voorheffing-verrekening|Roerende voorheffing]]*
+> > *Zie: [[belastingberekening-personenbelasting#-bedrijfsvoorheffing-en-roerende-voorheffing-verrekening|Roerende voorheffing]]*
 >
 > 🤖 *AI-aanvulling*

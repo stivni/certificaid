@@ -169,7 +169,7 @@ Kenniselementen:
 > >
 > > De twee-jaar-regel bepaalt dat een categoriewijziging pas gevolgen heeft wanneer meer dan één criterium gedurende **twee opeenvolgende boekjaren** wordt overschreden. Als dat in 2023 en 2024 het geval is, wordt de vennootschap pas groot **vanaf boekjaar 2025**. Eenmalige overschrijding in 2024 heeft geen effect.
 > >
-> > *Zie: [[groottecriteria-vennootschappen-verenigingen#️-de-twee-jaar-regel|Twee-jaar-regel]]*
+> > *Zie: [[groottecriteria-vennootschappen-verenigingen#-de-twee-jaar-regel|Twee-jaar-regel]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -185,6 +185,6 @@ Kenniselementen:
 > >
 > > Het verkort schema is een **recht**, geen verplichting. Een kleine vennootschap mag ook kiezen voor het volledig schema — bijvoorbeeld als ze dat wenst voor interne rapportering of om meer transparantie te bieden aan banken of investeerders.
 > >
-> > *Zie: [[groottecriteria-vennootschappen-verenigingen#️-gevolgen-van-de-groottecategorie|Gevolgen van de groottecategorie]]*
+> > *Zie: [[groottecriteria-vennootschappen-verenigingen#-gevolgen-van-de-groottecategorie|Gevolgen van de groottecategorie]]*
 >
 > 🤖 *AI-aanvulling*

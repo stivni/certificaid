@@ -191,6 +191,6 @@ Kenniselementen:
 > >
 > > Het positieve saldo (€ 800.000 − € 600.000 = € 200.000) betekent dat er meer permanente middelen zijn aangetrokken dan besteed aan langetermijnbestedingen. Dit overschot stroomt naar de kortetermijnsfeer en verbetert het nettobedrijfskapitaal.
 > >
-> > *Zie: [[vermogensstroomtabel#️-interpretatie-van-het-saldo|Interpretatie van het saldo]]*
+> > *Zie: [[vermogensstroomtabel#-interpretatie-van-het-saldo|Interpretatie van het saldo]]*
 >
 > 🤖 *AI-aanvulling*

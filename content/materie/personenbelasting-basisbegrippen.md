@@ -352,7 +352,7 @@ Kenniselementen:
 > >
 > > Sinds aanslagjaar 2005 geldt de **decumul**: ook binnen een gezamenlijke aanslag worden de beroepsinkomsten van elke partner **afzonderlijk** belast aan elk hun eigen progressieve schijven. Wat gemeenschappelijk is: één aanslagbiljet, toerekening van gezinslast-toeslagen en eventueel toepassing van het huwelijksquotiënt.
 > >
-> > *Zie: [[personenbelasting-basisbegrippen#️-decumul|Decumul]] en [[personenbelasting-basisbegrippen#️-gezamenlijke-vs-afzonderlijke-aanslag|Gezamenlijke vs. afzonderlijke aanslag]]*
+> > *Zie: [[personenbelasting-basisbegrippen#-decumul|Decumul]] en [[personenbelasting-basisbegrippen#-gezamenlijke-vs-afzonderlijke-aanslag|Gezamenlijke vs. afzonderlijke aanslag]]*
 >
 > 🤖 *AI-aanvulling*
 

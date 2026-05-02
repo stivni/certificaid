@@ -281,6 +281,6 @@ Kenniselementen:
 > >
 > > Beide werkgevers passen de BV-schaal toe alsof zij de **enige** werkgever zijn — beide houden BV in op basis van de eerste belastingschijven (25% / 40% / …). Cumulatief overschrijdt het totaalinkomen (€ 4 500/maand × 12 = € 54 000) deze schijven, wat tot **onvoldoende** ingehouden BV leidt. Bij PB-aanslag aj. 2026: bijbetaling van € 2 000 – € 4 000. **Mitigatie**: werkgever B vragen om **doorlopende-werkgever-schaal** toe te passen (hogere BV) of vrijwillig verhoogde BV laten inhouden. Voorkomt fiscale verrassing.
 > >
-> > *Zie: [[voorheffingen-personenbelasting#️-bv-bij-meerdere-werkgevers-bijzondere-regels|BV bij meerdere werkgevers]]*
+> > *Zie: [[voorheffingen-personenbelasting#-bv-bij-meerdere-werkgevers-bijzondere-regels|BV bij meerdere werkgevers]]*
 >
 > 🤖 *AI-aanvulling*

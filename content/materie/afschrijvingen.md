@@ -66,7 +66,7 @@ De terugneming van [[waardeverminderingen|waardeverminderingen]] wanneer een ont
 > [!warning]- Afschrijvingen zijn niet afhankelijk van het resultaat van het boekjaar
 > ❌ *"Een onderneming die een slecht jaar heeft, mag de afschrijvingen verlagen om het verlies te beperken."*
 >
-> Afschrijvingen zijn **niet afhankelijk van het resultaat** — ze worden stelselmatig gevormd volgens het vastgelegde plan, ongeacht of de onderneming winst of verlies maakt. Willekeurig verlagen om het resultaat te flatteren, schendt zowel het [[boekhoudkundige-beginselen#️-stelselmatigheidsbeginsel|stelselmatigheidsbeginsel]] als de [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsregel]].
+> Afschrijvingen zijn **niet afhankelijk van het resultaat** — ze worden stelselmatig gevormd volgens het vastgelegde plan, ongeacht of de onderneming winst of verlies maakt. Willekeurig verlagen om het resultaat te flatteren, schendt zowel het [[boekhoudkundige-beginselen#-stelselmatigheidsbeginsel|stelselmatigheidsbeginsel]] als de [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsregel]].
 >
 > 🤖 *AI-aanvulling*
 
@@ -97,7 +97,7 @@ De terugneming van [[waardeverminderingen|waardeverminderingen]] wanneer een ont
 > >
 > > Afschrijvingen moeten stelselmatig worden gevormd volgens het vastgelegde plan en mogen **niet afhangen van het resultaat** van het boekjaar. Willekeurig verlagen om een verlies te flatteren schendt het stelselmatigheidsbeginsel en de voorzichtigheidsregel.
 > >
-> > *Zie: [[afschrijvingen#️-eisen-waaraan-afschrijvingen-moeten-voldoen|Eisen voor afschrijvingen]]*
+> > *Zie: [[afschrijvingen#-eisen-waaraan-afschrijvingen-moeten-voldoen|Eisen voor afschrijvingen]]*
 >
 > 🤖 *AI-aanvulling*
 

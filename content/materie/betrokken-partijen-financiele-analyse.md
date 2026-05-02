@@ -17,7 +17,7 @@ De jaarrekening is een publiek document dat opgesteld wordt voor meerdere doelgr
 
 ## ⚖️ Specifieke doelstellingen van de analyse
 
-De [[jaarrekening#️-basisdoelstellingen-van-de-jaarrekening|basisdoelstellingen van de jaarrekening]] (getrouw beeld, verantwoording, transparantie) zijn universeel. De **specifieke doelstellingen** van de analyse variëren per gebruiker: elke partij stelt andere vragen aan dezelfde cijfers en hecht andere waarde aan dezelfde ratio's.
+De [[jaarrekening#-basisdoelstellingen-van-de-jaarrekening|basisdoelstellingen van de jaarrekening]] (getrouw beeld, verantwoording, transparantie) zijn universeel. De **specifieke doelstellingen** van de analyse variëren per gebruiker: elke partij stelt andere vragen aan dezelfde cijfers en hecht andere waarde aan dezelfde ratio's.
 
 Dit heeft een praktische consequentie: een goede financiële analyse start met de vraag *voor wie* en *waarom* — want die bepaalt welke dimensies (liquiditeit, solvabiliteit, rentabiliteit, continuïteit) centraal staan en hoe de conclusies worden geformuleerd ([[financiele-positie-beoordelen#-analysedoel-bepalen|Analysedoel bepalen]]).
 
