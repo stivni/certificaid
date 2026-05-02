@@ -58,12 +58,6 @@ Ankers met `#️-` (U+FE0F variation selector na #) ipv gewone `#-`. Betroffen: 
 **[stopzettingsmeerwaarden — cliënteel zelf opgebouwd]**
 ⚠️ WACHT OP GEBRUIKER: "cliënteel opgebouwd door belastingplichtige zelf" als uitzondering op 33% — expliciete wettelijke basis in WIB92 art. 171 of enkel analytische afleiding?
 
-**[stopzettingsmeerwaarden — 10-jaar bewaarplicht]**
-→ Autonoom op te lossen: formulering aanpassen naar "beroepspraktijk raadt 10 jaar aan (= fraude-onderzoekstermijn WIB92 art. 358)" met 🤖-label.
-
-**[roerende-inkomsten — liquidatiereserve art. 184quater vs art. 269]**
-→ Autonoom op te lossen: preciseer in sectietekst dat aanleg (10% bijzondere aanslag) = art. 184quater; RV bij uitkering (5%/20%) = art. 269, §1, 8°.
-
 **[belastingverminderingen-federaal — groepsverzekering mechanisme]**
 ⚠️ WACHT OP GEBRUIKER: formulering "80% wordt teruggegeven als belastingvermindering" mogelijk onjuist — mechanisme is via VAA bij werknemer + persoonlijke bijdragen art. 145/1, 2°. Herformulering nodig.
 
@@ -72,9 +66,6 @@ Ankers met `#️-` (U+FE0F variation selector na #) ipv gewone `#-`. Betroffen: 
 
 **[belastingberekening-PB — BBSZ grondslag]**
 ⚠️ WACHT OP GEBRUIKER: BBSZ wordt geregeld door wet van 30 maart 1994, niet WIB92 art. 168 e.v. Bronverwijzing corrigeren.
-
-**[beroepsinkomsten-PB — personenwagens CO₂ 2026]**
-→ Autonoom op te lossen: markeren als 🤖 + "⚠️ te verifiëren bij officiële inwerkingtreding".
 
 **[stopzettings-en-overdrachtsmeerwaarden — definitieve invaliditeit 66%]**
 ⚠️ WACHT OP GEBRUIKER: is 66%-grens een fiscale WIB92-definitie of verwijst WIB92 naar het sociaal recht?

@@ -201,13 +201,13 @@ Stopzettingsmeerwaarden worden altijd aangegeven in **vak XXI — Winst en baten
 
 ## 🔒 Bewaarplicht stopzettingsdossier
 
-Specifieke bewaartermijn: **10 jaar** vanaf de definitieve stopzetting voor:
+De beroepspraktijk raadt aan het stopzettingsdossier **10 jaar** bij te houden — dit stemt overeen met de fraude-onderzoekstermijn ([[bronnen/wetteksten/II-wib92|WIB92 art. 358]]). Er is geen specifieke wettelijke bewaarplicht van 10 jaar voor stopzettingsdossiers. 🤖
+
+Documenten die de beroepspraktijk aanbeveelt te bewaren:
 - Verkoopcontracten en notariële akten
 - Schattingsverslagen voor marktwaarde activa
 - Boekhouding van het laatste jaar
-- Berekening van de fiscale boekwaarde van elke activum
-
-**Reden**: de fiscale administratie heeft langere onderzoekstermijnen voor stopzettingsdossiers omwille van de complexiteit en de bedragen.
+- Berekening van de fiscale boekwaarde van elk activum
 
 ---
 

@@ -166,7 +166,7 @@ Wettelijke beperkingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 53, 65-67, 198b
 | Kostentype | Aftrekbaarheid |
 |---|---|
 | **Sociale bijdragen** (werknemer of zelfstandige) | 100% |
-| **Personenwagens** (van privé-aard / firmawagen) | Aftrek beperkt op basis van CO₂-uitstoot — schaal van 50% tot 100%; nieuwe wagens vanaf 2026 niet meer indien CO₂ > 0 (uitfasering verbrandingsmotor) |
+| **Personenwagens** (van privé-aard / firmawagen) | Aftrek beperkt op basis van CO₂-uitstoot — schaal van 50% tot 100%; nieuwe wagens vanaf 2026 niet meer aftrekbaar indien CO₂ > 0 (uitfasering verbrandingsmotor) ⚠️ te verifiëren bij officiële inwerkingtreding 🤖 |
 | **Restaurantkosten** | 69% aftrekbaar |
 | **Receptiekosten** | 50% aftrekbaar |
 | **Relatiegeschenken** | 50% aftrekbaar (max € 50 excl. btw per gift) |

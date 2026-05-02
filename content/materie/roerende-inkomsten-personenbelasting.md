@@ -158,7 +158,7 @@ VVPRbis (*Verlaagde Voorheffing Pour Réserves bis*) is een fiscaal regime dat a
 
 ## ⚖️ Liquidatiereserve — uitkering aan 10% RV
 
-Een **kleine vennootschap** kan jaarlijks een deel van haar boekhoudkundige winst toewijzen aan een **liquidatiereserve** door betaling van een **bijzondere aanslag van 10%** in de [[2.3-vennootschapsbelasting|vennootschapsbelasting]] ([[bronnen/wetteksten/II-wib92|WIB92 art. 184quater]]). Bij latere uitkering aan de aandeelhouder wordt deze reserve onderworpen aan een verlaagde RV:
+Een **kleine vennootschap** kan jaarlijks een deel van haar boekhoudkundige winst toewijzen aan een **liquidatiereserve** door betaling van een **bijzondere aanslag van 10%** in de [[2.3-vennootschapsbelasting|vennootschapsbelasting]] ([[bronnen/wetteksten/II-wib92|WIB92 art. 184quater]] — aanleg). Bij latere uitkering aan de aandeelhouder wordt deze reserve onderworpen aan een verlaagde RV ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 8°]] — uitkering):
 
 | Wachttijd na aanleg | RV bij uitkering |
 |---|---|
