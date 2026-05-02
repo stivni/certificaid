@@ -8,14 +8,8 @@ Obvious fixes worden autonoom verwerkt en **hier verwijderd**. Bevindingen gemar
 
 ## Architectuur
 
-**[CDD-niveaus laagvervuiling]** — OPGELOST (2026-05-02): CDD-niveaus verplaatst naar `antiwitwaswetgeving.md`; `opdrachtaanvaarding-beoordelen.md` herleid tot link.
-
 **[balansaggregaten — parent-sectie]**
 ⚠️ WACHT OP GEBRUIKER: `## 📌 Balansaggregaten` parent-sectie toevoegen die de drie aggregaten introduceert en de relatie `NBK = WKB + nettokaspositie` centraliseert? Of flat-structuur (drie aparte `##`-secties) behouden? Huidige kapotte externe links zijn al naar `[[balansaggregaten]]` (zonder anker) gezet als tijdelijke oplossing.
-
-**[CDD-niveaus in opdrachtaanvaarding]** → GEDAAN (zie hierboven)
-
-**[antiwitwaswetgeving — standaard/vereenvoudigd/verscherpt naar materie]** → GEDAAN
 
 ---
 
@@ -69,19 +63,6 @@ Ankers met `#️-` (U+FE0F variation selector na #) ipv gewone `#-`. Betroffen: 
 
 **[stopzettings-en-overdrachtsmeerwaarden — definitieve invaliditeit 66%]**
 ⚠️ WACHT OP GEBRUIKER: is 66%-grens een fiscale WIB92-definitie of verwijst WIB92 naar het sociaal recht?
-
----
-
-## Dode links
-
-**[groottecriteria-vennootschappen-verenigingen.md — bestaat dit bestand?]**
-⚠️ WACHT OP GEBRUIKER: `roerende-inkomsten-PB` en `fiscale-optimalisatie-PB-beoordelen` linken ernaar. Bevestig of het bestand bestaat.
-
-**[boekhoudplicht-wer.md — bestaat dit bestand?]**
-⚠️ WACHT OP GEBRUIKER: `beroepsinkomsten-PB` linkt ernaar. Bevestig.
-
-**[deontologische-beginselen.md — bestaat dit bestand?]**
-⚠️ WACHT OP GEBRUIKER: `fiscaal-advies-PB-formuleren` linkt ernaar. Bevestig.
 
 ---
 
