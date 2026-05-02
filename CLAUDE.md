@@ -152,7 +152,7 @@ Bronnen staan in twee plaatsen:
 
 **Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
 
-**Lokaal beschikbare CBN-adviezen** (samenvatting via webscraping; raw PDFs in `resources/adviezen/raw/`):
+**Lokaal beschikbare CBN-adviezen** (verbatim tekst via HTML-extractie; raw PDFs in `resources/adviezen/raw/`):
 
 | Content-pad | Advies | Onderwerp |
 |---|---|---|
