@@ -152,10 +152,18 @@ Bronnen staan in twee plaatsen:
 
 **Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
 
+**Lokaal beschikbare CBN-adviezen** (samenvatting via webscraping; raw PDFs in `resources/adviezen/raw/`):
+
+| Content-pad | Advies | Onderwerp |
+|---|---|---|
+| `content/bronnen/adviezen/CBN-2021-14.md` | CBN-advies 2021/14 | Alarmbelprocedure onder het WVV — nettoactief en drempels |
+| `content/bronnen/adviezen/CBN-2018-18.md` | CBN-advies 2018/18 | Going concern: waarderingsregels bij stopzetting |
+
 **Werkwijze bij het schrijven van materie:**
 1. Grep eerst in `resources/wetteksten/*.md` op artikelnummer of sleutelwoord
 2. Citeer het artikel inline via een wikilink naar `content/bronnen/wetteksten/` (zie §Bronvermelding in fiches)
 3. Ga enkel online als de wet niet lokaal beschikbaar is
+4. Voor CBN-adviezen: grep in `resources/adviezen/*.md`; link via `[[bronnen/adviezen/CBN-JJJJ-NN|CBN-advies JJJJ/NN]]`
 
 ### Bronhiërarchie
 
@@ -1211,7 +1219,7 @@ certificaid/
 │       │   ├── XIII-wer/    # WER gesplitst per Boek
 │       │   └── ...          # Overige secties (✅ beschikbaar of ⏳ placeholder)
 │       ├── normen/          # ITAA-normen als gestructureerde markdown
-│       └── adviezen/        # CBN-adviezen (nog aan te maken)
+│       └── adviezen/        # CBN-adviezen (samenvatting; raw PDFs in resources/adviezen/raw/)
 ├── tools/
 └── resources/
     ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
