@@ -154,8 +154,8 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 | **Roerend** | VII | [[roerende-inkomsten-personenbelasting]] |
 | **Divers** | XII | [[diverse-inkomsten-personenbelasting]] |
 | **Aftrekbare uitgaven** | VIII (giften, onderhoudsuitkeringen) | [[onderhoudsuitkeringen-fiscaal]], [[belastingverminderingen-federaal#-giften\|Giften federaal]] |
-| **Belastingverminderingen** (gewest + federaal) | IX, X | [[belastingverminderingen-gewestelijk]], [[belastingverminderingen-federaal]] |
-| **Voorafbetalingen** | XI | [[voorafbetalingen-personenbelasting]] |
+| **Belastingverminderingen** (gewest + federaal) | IX, X, XI (gewestelijk Vlaams) | [[belastingverminderingen-gewestelijk]], [[belastingverminderingen-federaal]] |
+| **Voorafbetalingen** | XII | [[voorafbetalingen-personenbelasting]] |
 
 > [!warning]- Een zelfde geldsom kan verschillend gekwalificeerd worden naar gelang context
 > ❌ *"Een meerwaarde op aandelen wordt altijd belast als roerend inkomen."*
@@ -171,7 +171,7 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 
 > [!info]- Concreet: huurinkomsten van bedrijfsleider
 >
-> Een zaakvoerder verhuurt zijn appartement aan zijn eigen bv voor € 24 000/jaar. Geïndexeerd KI = € 1 800. De [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|herkwalificatie van huurinkomsten van bedrijfsleider]] geldt: drempel = € 1 800 × 5/3 × 5,46 = € 16 380. Het deel boven de drempel (€ 24 000 − € 16 380 = € 7 620) wordt geherkwalificeerd als **bezoldiging bedrijfsleider** en aangegeven in vak XVII — niet in vak III als gewone huur.
+> Een zaakvoerder verhuurt zijn appartement aan zijn eigen bv voor € 24 000/jaar. Geïndexeerd KI = € 1 800. De [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|herkwalificatie van huurinkomsten van bedrijfsleider]] geldt: drempel = € 1 800 × 5/3 × 5,46 = € 16 380. Het deel boven de drempel (€ 24 000 − € 16 380 = € 7 620) wordt geherkwalificeerd als **bezoldiging bedrijfsleider** en aangegeven in **vak XVI** (code 1402-53) — niet in vak III als gewone huur. (Vak XVI = bezoldigingen bedrijfsleiders; vak XVII = winst handelaars/eenmanszaken.)
 >
 > 🤖 *AI-aanvulling*
 
@@ -197,12 +197,15 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 4. **Aftrekken inzetten** voor onderhoudsuitkeringen, giften, pensioensparen, dienstencheques (onder de juiste vakken)
 
 ```
-Vak IV — Bezoldigingen werknemers  ⚠️ codes te verifiëren via aangifte-PB-2025 FOD Financiën
-  Code 1250  Brutoinkomen                     € 50 000,00
-  Code 1258  Sociale bijdragen werknemer       € −6 535,00  (auto van 281.10)
-  Code 1271  Werkelijke beroepskosten          € 8 350,00   (indien hoger dan forfait)
-  Code 1289  Forfaitaire beroepskosten         (auto-berekend bij keuze forfait)
+Vak IV — Bezoldigingen werknemers  (geverifieerd via FOD Financiën voorbereiding aj. 2025)
+  Code 1250-11  Totaal bezoldigingen (rubriek A.2)   € 50 000,00
+  Code 1258-03  Niet-ingehouden pers. soc. bijdragen  € −6 535,00  (fiche 281.10 code 258)
+  Code 1271-87  Andere beroepskosten — werkelijk      € 8 350,00   (rubriek A.21, alleen bij werkelijke kosten)
+  —             Forfaitaire beroepskosten: geen aparte code — auto-berekend door belastingdienst
+                (30% van brutobezoldiging na aftrek soc. bijdr., max. € 5.750 aj. 2025)
 ```
+
+> **Correctie t.o.v. eerdere versie**: code 1289 bestaat niet in de aangifte PB aanslagjaar 2025. Er is geen afzonderlijke code voor de forfaitaire beroepskosten — dat wordt intern berekend door de belastingdienst zodra geen werkelijke kosten zijn ingevuld in code 1271-87. Bron: voorbereiding aangifte FOD Financiën (geraadpleegd 2026-05-02).
 
 > [!warning]- Bij wettelijk samenwonende of gehuwde partners: kosten en aftrekken doorrekenen voor decumul
 > ❌ *"De totale gezinsbeoefkosten worden op de hoogste verdiener toegerekend voor maximaal voordeel."*
@@ -338,7 +341,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 >
 > **Situatie**: Zaakvoerder X van bv ABC, alleenstaand. Bezoldiging € 80 000, eigen woning, verhuurt zijn appartement aan zijn bv voor € 24 000/jaar (geïndexeerd KI = € 1 800, bedrijfsruimte voor administratie). Voorafbetalingen 2025: € 18 000 (€ 6 000 × VA1, € 6 000 × VA2, € 6 000 × VA3, niets in VA4).
 >
-> **Conclusie**: Bezoldiging bedrijfsleider in vak XVII; deel huur (€ 7 620) geherkwalificeerd als bezoldiging volgens herkwalificatieregel; rest huur (€ 16 380) in vak III als onroerend inkomen. Voorafbetalingen ingevuld in vak XI. Geraamde aanslag: te betalen ~ € 4 500 (VA en BV onvoldoende voor totale aanslag).
+> **Conclusie**: Bezoldiging bedrijfsleider in **vak XVI** (code 1401-54); deel huur (€ 7 620) geherkwalificeerd als bezoldiging bedrijfsleider en aangegeven in **vak XVI, rubriek 2** (code 1402-53); rest huur (€ 16 380) in vak III als onroerend inkomen. Voorafbetalingen ingevuld in vak XII. Geraamde aanslag: te betalen ~ € 4 500 (VA en BV onvoldoende voor totale aanslag).
 >
 > **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 32 alinea 2, 3°, art. 7, 130, 157]]; [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huur bedrijfsleider]].
 >
@@ -346,7 +349,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 > - Stap 1: Mandataris-mandaat tot indienen aangifte, met advies over voorafbetalingen voor volgend jaar
 > - Stap 2: Alleenstaand, geen wijziging tijdens jaar
 > - Stap 3: Loonfiche 281.20 (bedrijfsleider) vooringevuld; KI van appartement vooringevuld
-> - Stap 4: Cruciale kwalificatie — huur boven drempel = bezoldiging. Berekening drempel: € 1 800 × 5/3 × 5,46 = € 16 380. Excess € 7 620 → vak XVII. Rest € 16 380 → vak III met 40% forfaitaire kostenaftrek.
+> - Stap 4: Cruciale kwalificatie — huur boven drempel = bezoldiging. Berekening drempel: € 1 800 × 5/3 × 5,46 = € 16 380. Excess € 7 620 → **vak XVI, rubriek 2** (code 1402-53, fiche 281.20 code 401). Rest € 16 380 → vak III, rubriek 5a (code 1109/1110) met 40% forfaitaire kostenaftrek.
 > - Stap 5: Forfaitaire kosten bedrijfsleider toegepast (3%, max ~ € 2 950); persoonlijke sociale bijdragen zelfstandige aftrekbaar
 > - Stap 6: Simulator → te betalen € 4 500. Verklaring: VA4 ontbroken in december 2025 → vermeerdering toegepast (~ € 200 extra)
 > - Stap 7: Indienen + advies aan cliënt: voor inkomstenjaar 2026 voorafbetalingen verhogen en VA4 inplannen om vermeerdering te vermijden
