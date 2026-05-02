@@ -131,6 +131,20 @@ Bronnen staan in twee plaatsen:
 - **`resources/`**: bronbestanden voor verificatie en opzoekwerk — doorzoekbaar met `grep` of `Read`
 - **`content/bronnen/`**: site-versie met Quartz-ankers — gebruik dit pad voor wikilinks
 
+**Semantische indexes** (altijd eerst raadplegen vóór je gaat greppen):
+
+| Index | Inhoud | Gebruik |
+|---|---|---|
+| `resources/adviezen/INDEX.md` | Alle CBN-adviezen met scope per advies | Welk advies is relevant voor onderwerp X? |
+| `resources/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
+| `resources/voorbeeldexamens/INDEX.md` | Per examen: POs, vraagtypen, thema's | Welk examen bevraagt PO X / concept Y? |
+
+**Werkwijze bronopzoeking** (bij elke PO-build):
+1. Lees de relevante INDEX.md — identificeer kandidaat-bronnen semantisch
+2. Grep in de gevonden bestanden op specifiek artikelnummer of sleutelwoord
+3. Lees de volledige gevonden passages voor citaat en verificatie
+4. Ga enkel online als de bron niet lokaal beschikbaar is (zie `resources/wetteksten/INDEX.md` voor ontbrekende wetten)
+
 **ITAA-LEX** is geen aparte bron maar een bundeling van wetteksten en normen met paginanummers. Studeer met ITAA-LEX referenties (sectienummer + paginanummer) in de bronfiches zelf — zo oefen je ook de opzoeklogica voor het examen.
 
 **Cijferzakboekje** is een aparte examenbron met geïndexeerde bedragen en tarieven die niet in de wetteksten staan. Vermeld bij exacte bedragen de bron als "Cijferzakboekje [jaar]".
@@ -160,10 +174,11 @@ Bronnen staan in twee plaatsen:
 | `content/bronnen/adviezen/CBN-2018-18.md` | CBN-advies 2018/18 | Going concern: waarderingsregels bij stopzetting |
 
 **Werkwijze bij het schrijven van materie:**
-1. Grep eerst in `resources/wetteksten/*.md` op artikelnummer of sleutelwoord
-2. Citeer het artikel inline via een wikilink naar `content/bronnen/wetteksten/` (zie §Bronvermelding in fiches)
-3. Ga enkel online als de wet niet lokaal beschikbaar is
-4. Voor CBN-adviezen: grep in `resources/adviezen/*.md`; link via `[[bronnen/adviezen/CBN-JJJJ-NN|CBN-advies JJJJ/NN]]`
+1. Lees `resources/wetteksten/INDEX.md` — welke wet is relevant?
+2. Lees `resources/adviezen/INDEX.md` — welk CBN-advies behandelt dit onderwerp?
+3. Grep in de gevonden bestanden op artikelnummer of sleutelwoord
+4. Citeer inline via wikilink naar `content/bronnen/wetteksten/` of `content/bronnen/adviezen/`
+5. Ga enkel online als de bron niet lokaal beschikbaar is
 
 ### Bronhiërarchie
 
@@ -1000,9 +1015,9 @@ Schrijf de geïdentificeerde competentie-links **direct in de vakfiche** bij de 
 
 | Zoekstap | Bron | Wat je zoekt |
 |---|---|---|
-| 1 | `resources/normen/*.md` | Beschrijft een ITAA-norm deze procedure? |
-| 2 | `resources/adviezen/*.md` | Beschrijft een CBN-advies de aanpak? |
-| 3 | Wetteksten (`resources/wetteksten/`) | Legt een wettekst de stappen vast? |
+| 1 | `resources/normen/INDEX.md` → bestand | Beschrijft een ITAA-norm deze procedure? |
+| 2 | `resources/adviezen/INDEX.md` → bestand | Beschrijft een CBN-advies de aanpak? |
+| 3 | `resources/wetteksten/INDEX.md` → bestand | Legt een wettekst de stappen vast? |
 | 4 | Online: itaa.be, cnc-cbn.be, nbb.be | Publicaties, omzendbrieven, sectoranalyses |
 | 5 | Erkende handboeken | Academische of beroepspublicaties |
 | 6 | Geen bron gevonden | Procedure is analytische conventie → label 🤖, vermeld `procedure-grondslag: analytische praktijk` in frontmatter |
@@ -1020,7 +1035,7 @@ Voor elk nieuw concept, in deze volgorde — alles in één doorloop, geen tusse
    - **Kritische lezing achteraf** (zie §Kritische lezing)
 2. **Valkuilen + praktijkvoorbeelden** — mag 🤖 als gelabeld; voeg bij elke berekening of procedure minstens één concreet doorgewerkt voorbeeld toe
 3. **Voorbeeldvragen** — raadpleeg eerst `resources/voorbeeldexamens/`; gebruik echte vragen (📝) prioritair; vul aan met 🤖
-   - **Verplichte eerste stap**: gebruik `pdftotext` om alle PDF's in `resources/voorbeeldexamens/` te doorzoeken. Grep op sleutelwoorden uit de sectiehoofden.
+   - **Verplichte eerste stap**: lees `resources/voorbeeldexamens/INDEX.md` — welke examens bevatten vragen over dit PO of concept? Lees daarna de relevante PDF's via `pdftotext`.
    - Echte examenvragen worden letterlijk overgenomen en gelabeld als `📝 *Uit voorbeeldexamen [jaar]*`
    - Vul aan met 🤖-vragen voor concepten zonder examenmateriaal
 4. **Hyperlinks** — semantische doorlezing voor links (zie §Semantische hyperlinkdoorlezing)
