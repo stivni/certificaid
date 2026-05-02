@@ -5,7 +5,7 @@ status: draft
 bronnen:
   - AWW art. 2, 3, 5, 8, 9, 16, 19, 21, 47, 53, 55, 67
 itaa-lex: XVII, p. 2441
-bouwversie: 1
+bouwversie: 2
 ---
 
 # Antiwitwaswetgeving
@@ -171,6 +171,52 @@ Cliëntenonderzoek bestaat uit drie verplichtingen ([[bronnen/wetteksten/XVII-an
 > Cliëntenonderzoek geldt voor **élke nieuwe zakelijke relatie** — ook als de cliënt betrouwbaar lijkt. Het is een structurele verplichting, geen uitzonderingsmaatregel.
 >
 > 📝 *Gebaseerd op het type examenvragen in voorbeeldexamen 2024*
+
+---
+
+## ↔️ Niveaus van cliëntenonderzoek
+
+De intensiteit van het cliëntenonderzoek past de beroepsbeoefenaar aan op basis van het risiconiveau van de cliënt ([[bronnen/wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19, §2]], art. 21–32). De wet onderscheidt drie niveaus:
+
+```
+CDD-intensiteit per risiconiveau
+
+Standaard CDD (normaal risico):
+  ✓ Identiteitskaart cliënt kopiëren en verifiëren
+  ✓ UBO's identificeren via UBO-register
+  ✓ Doel en aard van de zakelijke relatie begrijpen en documenteren
+
+Vereenvoudigd CDD (laag risico — bewezen):
+  ✓ Identiteit vaststellen (verificatie minder intensief)
+  ~ UBO-identificatie via register, geen extra verificatie
+  ~ Doel zakelijke relatie: algemene omschrijving volstaat
+
+Verscherpt CDD (hoog risico: PPP, hoge-risicolanden, ...):
+  ✓ Alle stappen standaard CDD
+  ✓ Bijkomende informatie over bron van fondsen
+  ✓ Hoger hiërarchisch akkoord (AMLCO of hogere leidinggevende)
+  ✓ Verhoogde doorlopende waakzaamheid tijdens de zakelijke relatie
+```
+
+**Standaard CDD** (normaal risico, [[bronnen/wetteksten/XVII-antiwitwaswet#art-21|AWW art. 21–24]]): identiteit vaststellen en verifiëren; [[antiwitwaswetgeving#-uiteindelijke-begunstigde-ubo|UBO's]] identificeren via het UBO-register; doel en aard van de zakelijke relatie begrijpen en documenteren.
+
+**Vereenvoudigd CDD** (bewezen laag risico, [[bronnen/wetteksten/XVII-antiwitwaswet#art-29|AWW art. 29–30]]): bij cliënten of verrichtingen met een aantoonbaar laag risico mogen de verificatiestappen minder intensief zijn. De risicobeoordeling moet dit laag risico uitdrukkelijk onderbouwen — de verlichting is geen automatisme.
+
+**Verscherpt CDD** (hoog risico, [[bronnen/wetteksten/XVII-antiwitwaswet#art-31|AWW art. 31–32]]): verplicht bij politiek prominente personen (PPP — bv. ministers, parlementsleden, hogere ambtenaren en hun directe familieleden), cliënten verbonden aan landen op de hoge-risicolijst van de EU, of andere door de risicoanalyse geïdentificeerde hoog-risicosituaties. Vereist aanvullende verificatie van de bron van fondsen en een hoger hiërarchisch akkoord (de [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|AMLCO]] of een hogere leidinggevende).
+
+> [!warning]- Vereenvoudigd CDD vereist een bewezen laag risico, geen vermoeden
+> ❌ *"Als een cliënt me betrouwbaar lijkt, mag ik vereenvoudigd CDD toepassen."*
+>
+> Vereenvoudigd CDD is enkel toegestaan wanneer het laag risico **aantoonbaar onderbouwd** is op basis van de risicoanalyse — niet op basis van een buikgevoel of de betrouwbare indruk die een cliënt wekt. De beroepsbeoefenaar moet het lager toezicht kunnen verantwoorden.
+>
+> 🤖 *AI-aanvulling*
+
+> [!warning]- Verscherpt CDD is niet vrijblijvend: ook het akkoord van een hogere leidinggevende is vereist
+> ❌ *"Bij een hoog-risicocliënt volstaat het om meer documenten op te vragen."*
+>
+> Verscherpt CDD omvat niet alleen uitgebreider documentenonderzoek maar ook **hoger hiërarchisch akkoord** — de AMLCO of een hogere leidinggevende moet akkoord gaan met het aanknopen van de zakelijke relatie. Dit is een procedurevereiste, geen formele formaliteit.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 

@@ -6,7 +6,7 @@ programmaonderdelen: ["4.0"]
 itaa-lex-secties:
   - XVII (AWW art. 3, 19, 21–32, 37–41, 47–54)
   - XXI (Wet ITAA art. 40, 41, 48)
-bouwversie: 1
+bouwversie: 2
 ---
 
 # Opdrachtaanvaarding beoordelen
@@ -153,31 +153,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 > - Gedocumenteerde identiteitsgegevens van cliënt, lasthebbers en UBO's
 > - Bevestiging dat het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek (CDD)]] is uitgevoerd conform het risiconiveau
 
-Het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau (AWW-reglement ITAA punt 4.4, verwijzend naar AWW art. 21–32).
-
-```
-CDD-intensiteit per risiconiveau
-
-Standaard CDD (normaal risico):
-  ✓ Identiteitskaart cliënt kopiëren en verifiëren
-  ✓ UBO's identificeren via UBO-register
-  ✓ Doel en aard van de zakelijke relatie begrijpen en documenteren
-
-Vereenvoudigd CDD (laag risico — bewezen):
-  ✓ Identiteit vaststellen (verificatie minder intensief)
-  ~ UBO-identificatie via register, geen extra verificatie
-  ~ Doel zakelijke relatie: algemene omschrijving volstaat
-
-Verscherpt CDD (hoog risico: PPP, hoge-risicolanden, ...):
-  ✓ Alle stappen standaard CDD
-  ✓ Bijkomende informatie over bron van fondsen
-  ✓ Hoger hiërarchisch akkoord (AMLCO of hogere leidinggevende)
-  ✓ Verhoogde doorlopende waakzaamheid tijdens de zakelijke relatie
-```
-
-- **Standaard CDD**: identiteit vaststellen en verifiëren; UBO's identificeren; doel en aard van de zakelijke relatie begrijpen
-- **Vereenvoudigd CDD**: bij bewezen laag risico — minder verificatiestappen
-- **Verscherpt CDD**: bij hoog risico (bv. politiek prominente personen — PPP, hoge-risicolanden) — aanvullende verificatie en hoger hiërarchisch akkoord
+Het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau: **standaard** bij normaal risico, **vereenvoudigd** bij bewezen laag risico, en **verscherpt** bij hoog risico (bv. politiek prominente personen, hoge-risicolanden) — met als bijkomende vereiste een hoger hiërarchisch akkoord. De volledige beschrijving van de drie niveaus, inclusief checkpoints per niveau, staat in [[antiwitwaswetgeving#-niveaus-van-cliëntenonderzoek|Niveaus van cliëntenonderzoek]].
 
 *(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19 §2]], [[bronnen/wetteksten/XVII-antiwitwaswet#art-21|art. 21–32]], [[bronnen/wetteksten/XVII-antiwitwaswet#art-37|art. 37–41]]; AWW-reglement ITAA punt 4.2, 4.4)*
 

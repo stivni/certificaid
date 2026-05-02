@@ -42,14 +42,14 @@ Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale o
 - Bij eerste vestiging of verbouwing → kadaster bepaalt het KI op basis van vergelijkingspunten van 1975
 - Bezwaar mogelijk bij de gewestelijk directeur van de patrimoniumdocumentatie (binnen 2 maanden na betekening)
 
-**Indexering van het KI** ([[bronnen/wetteksten/II-wib92|WIB92 art. 518]]): jaarlijks geïndexeerd KI = niet-geïndexeerd KI × indexcoëfficiënt (cijferzakboekje — bv. 2,1763 voor aj. 2026).
+**Indexering van het KI** ([[bronnen/wetteksten/II-wib92|WIB92 art. 518]]): jaarlijks geïndexeerd KI = niet-geïndexeerd KI × indexcoëfficiënt (cijferzakboekje — 2,2446 voor aj. 2026 / inkomstenjaar 2025; 2,1763 voor aj. 2025).
 
 > [!info]- In de praktijk
 >
 > Een appartement in Antwerpen heeft een (niet-geïndexeerd) KI van € 1 200 zoals vastgesteld in 1980. Werkelijke maandhuur in 2025: € 950 (= € 11 400/jaar).
 >
-> - Geïndexeerd KI 2025 = € 1 200 × 2,1763 = € 2 612
-> - Belastbaar bedrag (verhuurd aan particulier voor privégebruik) = geïndexeerd KI × 1,40 = € 3 657
+> - Geïndexeerd KI (aj. 2026) = € 1 200 × 2,2446 = € 2 693
+> - Belastbaar bedrag (verhuurd aan particulier voor privégebruik) = geïndexeerd KI × 1,40 = € 3 770
 >
 > De werkelijke huur (€ 11 400) is dus drie keer hoger dan het belastbare bedrag — een belangrijk fiscaal voordeel van vastgoed in privéhanden.
 >
@@ -128,23 +128,21 @@ Het maximum van de forfaitaire aftrek voor gebouwde goederen bij beroepsverhuur 
 
 > [!info]- In de praktijk: beroepsverhuur in cijfers (twee gevallen)
 >
-> **Revaloriseringscoëfficiënt**: 5,46 (inkomstenjaar 2025, cijferzakboekje — verifieer voor exact jaar).
+> Coëfficiënten aj. 2026 / inkomstenjaar 2025 (bron: cijferzakboekje): indexatiecoëfficiënt 2,2446 · revaloriseringscoëfficiënt 5,63.
 >
-> **Geval A — lage huur (plafond bindt niet)**: kantoorpand verhuurd voor € 12 000/jaar, geïndexeerd KI = € 1 500.
-> - 40% × € 12 000 = € 4 800 (berekende forfaitaire aftrek)
-> - Plafond = ⅔ × (€ 1 500 × 5,46) = ⅔ × € 8 190 = **€ 5 460**
-> - € 4 800 < € 5 460 → plafond niet bindend → aftrek = € 4 800
+> **Geval A — lage huur (plafond bindt niet)**: kantoorpand, niet-geïndexeerd KI = € 1 500, huur = € 12 000/jaar.
+> - Gerevaloriseerd KI = € 1 500 × 5,63 = € 8 445 · plafond = ⅔ × € 8 445 = **€ 5 630**
+> - 40% × € 12 000 = € 4 800 < € 5 630 → **forfait bindt** → aftrek = € 4 800
 > - Belastbaar = € 12 000 − € 4 800 = **€ 7 200**
-> - Minimum-check: € 1 500 × 1,40 = € 2 100 → OK
+> - Minimum-check: geïndexeerd KI (€ 1 500 × 2,2446 = € 3 367) × 1,40 = € 4 714 → OK
 >
-> **Geval B — hoge huur (plafond bindt)**: zelfde pand, maar verhuurd voor € 30 000/jaar.
-> - 40% × € 30 000 = € 12 000 (berekende forfaitaire aftrek)
-> - Plafond = ⅔ × € 8 190 = **€ 5 460**
-> - € 12 000 > € 5 460 → **plafond is de beperkende factor** → aftrek beperkt tot € 5 460
-> - Belastbaar = € 30 000 − € 5 460 = **€ 24 540**
-> - Minimum-check: € 2 100 → OK
+> **Geval B — hoge huur (plafond bindt)**: zelfde pand, huur = € 30 000/jaar.
+> - Plafond = **€ 5 630** (zelfde)
+> - 40% × € 30 000 = € 12 000 > € 5 630 → **plafond bindt** → aftrek beperkt tot € 5 630
+> - Belastbaar = € 30 000 − € 5 630 = **€ 24 370**
+> - Minimum-check: € 4 714 → OK
 >
-> Het plafond bindt wanneer de werkelijke huur zo hoog is dat 40% ervan het plafond overschrijdt. Het break-evenpunt bij KI = € 1 500 ligt op € 5 460 / 40% = **€ 13 650**/jaar (ca. € 1 138/maand).
+> Break-evenpunt bij dit KI: € 5 630 / 40% = **€ 14 075**/jaar (ca. € 1 173/maand) — boven die huur bindt het plafond altijd.
 >
 > 🤖 *AI-aanvulling — coëfficiënten te verifiëren via actueel cijferzakboekje*
 
@@ -180,17 +178,17 @@ Wanneer een **bedrijfsleider** (zaakvoerder, bestuurder, beherend vennoot) een *
 
 > Drempel = geïndexeerd KI × 5/3 × revaloriseringscoëfficiënt
 
-De **revaloriseringscoëfficiënt** wordt jaarlijks bepaald (cijferzakboekje — bv. 5,46 voor inkomstenjaar 2025).
+De **revaloriseringscoëfficiënt** wordt jaarlijks bepaald (cijferzakboekje — 5,63 voor aj. 2026 / inkomstenjaar 2025; 5,46 voor aj. 2025).
 
 **Mechanisme**:
 
 ```
 Werkelijke jaarlijkse huur                    : € 36 000
-Geïndexeerd KI van het pand                   : €  2 200
-Drempel = 2 200 × 5/3 × 5,46                  : € 20 020
+Niet-geïndexeerd KI van het pand              : €  2 200
+Drempel = 2 200 × 5/3 × 5,63                  : € 20 643
 
-Onroerend inkomen (deel onder drempel)        : € 20 020
-Bezoldiging bedrijfsleider (deel boven drempel): € 15 980
+Onroerend inkomen (deel onder drempel)        : € 20 643
+Bezoldiging bedrijfsleider (deel boven drempel): € 15 357
 ```
 
 **Waarom deze regel?** Zonder herkwalificatie zou de bedrijfsleider zijn loon kunnen "verkleden" als huur — fiscaal voordeliger want huurinkomsten worden lager belast (40% forfaitaire kostenaftrek, geen sociale bijdragen). De herkwalificatie sluit dit gat door overdreven huren te belasten als bezoldiging.
@@ -350,10 +348,10 @@ Kenniselementen:
 > > **Het belastbare bedrag = werkelijke huur − forfaitaire kostenaftrek (plafond toetsen), min. KI × 1,40.**
 > >
 > > 1. Berekende forfaitaire aftrek: 40% × € 24 000 = € 9 600
-> > 2. Plafond = ⅔ × (€ 1 800 × 5,46) = ⅔ × € 9 828 = **€ 6 552**
-> > 3. € 9 600 > € 6 552 → plafond is bindend → werkelijke aftrek = **€ 6 552**
-> > 4. Belastbaar = € 24 000 − € 6 552 = **€ 17 448**
-> > 5. Minimum-check: € 1 800 × 1,40 = € 2 520 → OK
+> > 2. Plafond = ⅔ × (€ 1 800 × 5,63) = ⅔ × € 10 134 = **€ 6 756**
+> > 3. € 9 600 > € 6 756 → plafond is bindend → werkelijke aftrek = **€ 6 756**
+> > 4. Belastbaar = € 24 000 − € 6 756 = **€ 17 244**
+> > 5. Minimum-check: geïndexeerd KI (€ 1 800 × 2,2446 = € 4 040) × 1,40 = € 5 656 → OK
 > >
 > > *Zie: [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]]*
 >
