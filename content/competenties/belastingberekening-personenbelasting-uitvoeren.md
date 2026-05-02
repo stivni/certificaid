@@ -188,9 +188,10 @@ Pas opeenvolgend toe (vereenvoudigd):
 
 ```
 1. Federale verminderingsfactor toepassen op federaal te betalen belasting
-   (vermindert de federale belasting met een vast %, eigen aan elk gewest)
+   (vermindert de federale belasting met een vast %, eigen aan elk gewest — vastgesteld in de
+    Bijzondere Wet Financiering; bv. Vlaanderen ~ 24,957% voor aj. 2026 — zie cijferzakboekje)
 2. Gewestelijke opcentiemen toepassen
-   (vast %, gewestelijk vastgesteld — bv. ~ 33% in Vlaanderen)
+   (vast %, gewestelijk vastgesteld — bv. ~ 33% in Vlaanderen, ~ 32% Brussel, ~ 34% Wallonië)
 3. Gewestelijke verminderingen aftrekken (woonbonus / Chèque habitat, dienstencheques, …)
 ```
 
@@ -207,6 +208,12 @@ Hoofdsom = (Federaal te betalen − federale verminderingsfactor) × (1 + gewest
 > Vlaamse opcentiemen ~ 33% → tussenresultaat ~ € 10 640 (vereenvoudigd).
 > Dienstencheques 2 × € 175 = € 350 vermindering.
 > Hoofdsom = € 10 640 − € 350 = € 10 290.
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: gewestelijke toewijzing bij verhuizing controleren
+>
+> Tax-on-web kiest het toepasselijke gewest automatisch op basis van de gemeente in het cliëntdossier. Bij cliënten die rond 1 januari verhuisden, controleer manueel of het juiste gewest is toegepast — de gekoppelde gemeente in MyMinfin volgt de meest recente registratie, niet noodzakelijk de toestand op 1 januari van het aanslagjaar. Fouten hier betekenen verkeerde opcentiemen en verminderingen.
 >
 > 🤖 *AI-aanvulling*
 

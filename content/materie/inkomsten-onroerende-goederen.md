@@ -162,6 +162,12 @@ Bezoldiging bedrijfsleider (deel boven drempel): € 15 980
 >
 > 🤖 *AI-aanvulling*
 
+> [!info]- In de praktijk: marktconformiteitstoets bij herkwalificatie
+>
+> Bij verhuur van een gebouw aan de eigen vennootschap vragen controlediensten standaard het **bewijs van marktconformiteit**: een makelaarsraming of vergelijkbare huurprijzen in de regio. Huurcontracten die net onder de drempel zitten maar ver boven de markthuur liggen, worden systematisch gecontroleerd — ook al wordt de drempel technisch niet overschreden. Documenteer marktconformiteit actief vóór het sluiten van het contract, niet achteraf.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## 🔢 Aftrek interesten
@@ -198,6 +204,12 @@ Sinds aanslagjaar 2022 wordt voor **buitenlandse OG** een **fictief KI** vastges
 4. Onder DBV: vrijstelling met **progressievoorbehoud** in België
 
 **Sanctie bij niet-aangifte**: belastingverhoging tot 200%.
+
+> [!info]- In de praktijk: buitenlandse OG — DAC-gegevensuitwisseling
+>
+> Veel Belgische eigenaars van buitenlandse OG zijn nog niet geregistreerd bij de FOD ondanks de verplichting vanaf aanslagjaar 2022. De uitwisseling van fiscale gegevens via DAC (Directive on Administrative Cooperation) maakt detectie waarschijnlijk — EU-landen wisselen eigendomsgegevens automatisch uit. Bij ongeregistreerde buitenlandse OG adviseer je een **proactieve regularisatie** — niet wachten op controle, want de belastingverhoging bij spontane aangifte is lager dan bij gefiscaliseerde aanslag.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 

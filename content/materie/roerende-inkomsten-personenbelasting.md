@@ -71,7 +71,7 @@ Vergoeding voor de **terbeschikkingstelling van een geldsom** ([[bronnen/wetteks
 
 Vergoedingen voor het **gebruik of de licentie** van auteursrechten, naburige rechten, octrooien, modellen, formules of soortgelijke immateriële rechten ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1, 5°]]).
 
-**Bijzonder regime auteursrechten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1, 5° + art. 37]]): inkomsten uit auteursrechten worden tot een geïndexeerd plafond (cijferzakboekje aj. 2026: ~ € 73 070) als **roerend inkomen aan 15% RV** belast — de rest is beroepsinkomen aan progressieve tarieven. Sinds 2023 strenger geworden: enkel werkelijke kunstenaars/auteurs onder een specifiek statuut komen in aanmerking.
+**Bijzonder regime auteursrechten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1, 5° + art. 37]]): inkomsten uit auteursrechten worden tot een geïndexeerd plafond (cijferzakboekje aj. 2026: ~ € 73 070) als **roerend inkomen aan 15% RV** belast — de rest is beroepsinkomen aan progressieve tarieven. Sinds de hervorming door de wet van 12 maart 2023 is het regime strenger: enkel werkelijke kunstenaars/auteurs onder een specifiek wettelijk statuut komen nog in aanmerking.
 
 > [!warning]- Auteursrechten zijn niet altijd roerend inkomen
 > ❌ *"Een werknemer van een softwarebedrijf laat zijn werkgever 30% van zijn loon uitbetalen als auteursrechten op de code die hij schrijft — daardoor betaalt hij maar 15% RV."*

@@ -168,13 +168,19 @@ Deze competentie beoordeelt **vooraf** een geplande verrichting op haar fiscale 
 
 | Maatregel | Werking |
 |---|---|
-| **Ruling vragen** vooraf | Bindende beslissing van de Dienst Voorafgaande Beslissingen — biedt zekerheid |
+| **Ruling vragen** vooraf | Bindende beslissing van de Dienst Voorafgaande Beslissingen — biedt zekerheid; doorlooptijd gemiddeld 3–6 maanden |
 | **Tussentijd** inbouwen | Verrichtingen niet onmiddellijk na elkaar — "verbreking van de causale keten" |
 | **Documentatie zakelijk doel** | Notulen bestuursvergadering, externe schatting, bedrijfsplan — toont zakelijke motivatie |
 | **Externe expertise** | Onafhankelijk advies (advocaat fiscaal, ander accountantskantoor) — verdunt risico op aansprakelijkheid mandataris |
 | **Conservatieve aangifte** | Het minst voordelige standpunt aangeven — bezwaar later mogelijk indien fiscus akkoord |
 
 **Alternatief plan**: vraag jezelf "kan hetzelfde zakelijk doel met een minder risicovolle weg bereikt worden?" — bv. inbreng tegen aandelen i.p.v. verkoop, lange-termijn schenking i.p.v. tussentijds, …
+
+> [!info]- In de praktijk: ruling bij strakke timing niet haalbaar
+>
+> De Dienst Voorafgaande Beslissingen neemt gemiddeld 3–6 maanden voor een ruling, snellere procedures (pre-filing meeting) kunnen soms informeel een standpunt geven maar binden de fiscus niet. Bij verrichtingen met een korte commerciële deadline (bv. M&A-deal) is een ruling vaak niet haalbaar — de mandataris documenteert dan schriftelijk dat hij de cliënt heeft gewaarschuwd voor het risico en dat de cliënt bewust heeft gekozen voor uitvoering zonder ruling.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 

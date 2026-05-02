@@ -183,6 +183,12 @@ Voor de **eerste 3 jaar** als zelfstandige in hoofdberoep wordt de **vermeerderi
 
 **Strategisch advies**: zelfs zonder vermeerderingssanctie blijft VA aanbevolen om een **fiscale opbouw** te krijgen — bij PB-aanslag van € 12 000 zonder VA is een onverwachte cashflow-piek; met spreidingsbetaling is de schok beperkt.
 
+> [!info]- In de praktijk: geleidelijk opbouwen voor de overgang naar jaar 4
+>
+> Adviseer startende zelfstandigen om al in jaar 2 te beginnen met kleine VA's, ook al is er geen sanctie. De overgang van "niets betalen" naar "volledige VA-discipline" in jaar 4 is voor veel cliënten een grote cashflow-schok. Geleidelijk opbouwen is voordeliger dan abrupt verplicht zijn.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## 🔒 Aangifteverplichting en mandataris

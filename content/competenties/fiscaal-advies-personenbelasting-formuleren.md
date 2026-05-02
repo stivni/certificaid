@@ -153,6 +153,12 @@ Onderscheid met aangrenzende competenties:
 
 Gebruik de [[belastingberekening-personenbelasting-uitvoeren|berekening-competentie]] om elk alternatief door te rekenen.
 
+> [!info]- In de praktijk: Tax-on-web simulator is voor het lopende jaar
+>
+> De Tax-on-web simulator is betrouwbaar voor het lopende aanslagjaar maar biedt **geen multijaarscenario's** en geen vergelijking PB vs. Ven.B. Voor strategische adviezen met meerjarig perspectief (rechtsvormkeuze, stopzettingstiming) gebruiken kantoren eigen spreadsheets. Waarschuw ook cliënten die de simulator zelf gebruiken: een simulatie voor het lopende jaar zegt niets over de komende jaren.
+>
+> 🤖 *AI-aanvulling*
+
 ```
 Vergelijkingstabel — alternatieven
                             Optie A          Optie B          Optie C

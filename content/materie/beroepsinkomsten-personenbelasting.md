@@ -12,7 +12,7 @@ bronnen:
 
 Beroepsinkomsten vormen voor de meeste belastingplichtigen het **belangrijkste** inkomstenbestanddeel. De fiscale wet onderscheidt **vijf categorieën** van beroepsinkomsten met elk eigen kwalificatieregels en aftrekken ([[bronnen/wetteksten/II-wib92|WIB92 art. 23]]). De berekening van het belastbare beroepsinkomen volgt steeds dezelfde logica: bruto-inkomen − beroepskosten − sociale bijdragen − beroepsverliezen = netto belastbaar beroepsinkomen.
 
-Deze fiche dekt de **structurele** kennis: categorieën, kwalificatie, kostenaftrek, beroepsverliezen, voordeel alle aard. Specifieke regels voor onderneming-stopzetting en overdracht (stopzettingsmeerwaarden, vervangingsinkomsten in detail) verdienen een eigen behandeling — zie de toekomstige fiches *(⚠️ aan te maken)*.
+Deze fiche dekt de **structurele** kennis: categorieën, kwalificatie, kostenaftrek, beroepsverliezen, voordeel alle aard. Specifieke regels voor onderneming-stopzetting en overdracht worden uitgewerkt in [[stopzettingsmeerwaarden-personenbelasting|Stopzettingsmeerwaarden personenbelasting]].
 
 ---
 
@@ -107,7 +107,12 @@ Inkomsten die het loon **vervangen** wanneer de belastingplichtige niet (meer) a
 - Specifieke regels voor pensioenen (wettelijk pensioen vs. aanvullend pensioen 2e/3e pijler)
 - Werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen, brugpensioen (SWT)
 
-**Pensioenkapitaal vs. lijfrente**: kapitaal van een **groepsverzekering** of **pensioensparen** wordt afzonderlijk belast aan **10% / 16,5% / 20%** afhankelijk van leeftijd bij vereffening en herkomst van de premies ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]). Een lijfrente daarentegen wordt jaarlijks belast als gewoon vervangingsinkomen.
+**Pensioenkapitaal vs. lijfrente**: kapitaal van een **groepsverzekering** of **pensioensparen** wordt afzonderlijk belast afhankelijk van leeftijd bij vereffening ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]):
+- **10%**: vereffening op wettelijke pensioenleeftijd (65/67 jaar)
+- **16,5%**: vereffening op 60-64 jaar (of bij bepaalde pensioneringscondities)
+- **20%**: vroegtijdige uitkering vóór 60 jaar
+
+Een lijfrente wordt jaarlijks belast als gewoon vervangingsinkomen.
 
 ---
 
@@ -182,7 +187,7 @@ Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werk
 
 | VAA | Waardering |
 |---|---|
-| **Firmawagen** (privégebruik) | Catalogusprijs × CO₂-coëfficiënt × leeftijdscoëfficiënt × 6/7 × 100/100 — minimumbedrag (cijferzakboekje) |
+| **Firmawagen** (privégebruik) | Catalogusprijs × CO₂-coëfficiënt × leeftijdscoëfficiënt × 6/7 — minimumbedrag van toepassing (cijferzakboekje) |
 | **Gratis bewoning** (woning ter beschikking) | Geïndexeerd KI × 100/60 of × 100/100 (verschillend tussen gewesten); verhoogd indien gemeubeld |
 | **Verwarming, elektriciteit** | Forfait per kwartaal/jaar (cijferzakboekje) |
 | **Gratis lening** (rentevoordeel) | Verschil tussen markt-referentierente en werkelijke rente |
@@ -199,6 +204,12 @@ Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werk
 > - Wordt belast als bezoldiging bedrijfsleider, gevoegd bij andere bezoldigingen
 >
 > Vergelijk met de werkelijke kost van een privéauto van € 52 000: depreciatie + verzekering + onderhoud = ~ € 8 000/jaar. Het VAA-forfait is dus fors lager dan de werkelijke kost — verklaart waarom de firmawagen fiscaal aantrekkelijk blijft (vooral elektrisch).
+>
+> 🤖 *AI-aanvulling*
+
+> [!info]- In de praktijk: VAA-bedrag verificeren, niet kopiëren
+>
+> Tax-on-web neemt het VAA-bedrag rechtstreeks van de loonfiche 281.10 over zonder verificatie. Fouten in cataloguswaarde, CO₂-coëfficiënt of leeftijdscorrectie komen voor — de werkgever of het sociaal secretariaat heeft de formule soms verkeerd toegepast. De mandataris die de aangifte invult, heeft een **inspanningsverbintenis** om het VAA te controleren via de formule uit het KB/WIB92, niet alleen te kopiëren van de fiche.
 >
 > 🤖 *AI-aanvulling*
 
@@ -222,6 +233,13 @@ Resterend te belasten in jaar X = € 30 000 − € 15 000 (X-2) − € 10 000
 **Onbeperkte overdracht in tijd**: beroepsverliezen kunnen onbeperkt in de tijd overgedragen worden — er is geen vervaltermijn. Wel jaar-op-jaar volgens FIFO (oudste verliezen eerst).
 
 **Beperking voor partner**: het beroepsverlies van een partner kan niet overgedragen worden naar de andere partner — het blijft strikt persoonlijk. Wel kunnen verliezen van het inkomstenjaar zelf gecompenseerd worden binnen de gezamenlijke aanslag.
+
+> [!warning]- Beroepsverliezen van een gestopte activiteit zijn niet overdraagbaar naar een nieuwe activiteit
+> ❌ *"Ik stop mijn eenmanszaak met € 30 000 overgedragen verliezen en start een jaar later een nieuwe activiteit — dan gebruik ik die verliezen voor de nieuwe activiteit."*
+>
+> Overgedragen beroepsverliezen zijn **activiteitsgebonden**. Bij definitieve stopzetting in jaar X worden resterende overgedragen verliezen die niet meer verrekend kunnen worden **definitief verloren** — ze zijn niet overdraagbaar naar een nieuwe, later gestarte activiteit. Wie de ene eenmanszaak stopzet en een andere start, begint fiscaal opnieuw bij nul voor beroepsverliezen.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -248,7 +266,7 @@ Bij **definitieve stopzetting** van een zelfstandige activiteit worden de meerwa
 | **Activiteit < 5 jaar** | Progressieve tarieven (gewone tarieven PB) |
 | **Gedwongen stopzetting** (overlijden, invaliditeit, leeftijd > 60) | Verhoogde toepassing van afzonderlijke tarieven |
 
-⚠️ **Volledig dekking aan te maken** in een specifieke fiche `stopzettingsmeerwaarden`.
+Volledige dekking — tarieven, berekening, optimalisatie — in [[stopzettingsmeerwaarden-personenbelasting|Stopzettingsmeerwaarden personenbelasting]].
 
 ---
 

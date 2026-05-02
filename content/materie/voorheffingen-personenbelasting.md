@@ -98,7 +98,7 @@ Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen (bank, ve
 ## 📌 Onroerende voorheffing (OV)
 *Précompte immobilier (Pr.I.)*
 
-**Aparte gewestelijke belasting** op het [[inkomsten-onroerende-goederen#-kadastraal-inkomen-ki|kadastraal inkomen]] van onroerende goederen — sinds aj. 2015 **niet langer verrekenbaar** met de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 277-280]] — afgeschaft).
+**Aparte gewestelijke belasting** op het [[inkomsten-onroerende-goederen#-kadastraal-inkomen-ki|kadastraal inkomen]] van onroerende goederen — sinds aj. 2015 **niet langer verrekenbaar** met de PB. De verrekeningsmogelijkheid werd opgeheven ([[bronnen/wetteksten/II-wib92|WIB92 art. 277-280]] zoals gewijzigd voor aj. 2015).
 
 **Verschil met BV en RV**: de OV is geen **voorheffing** in de eigenlijke fiscale zin sinds de afschaffing van de verrekening — ze is **een autonome belasting** geworden. De naam "voorheffing" is historisch.
 

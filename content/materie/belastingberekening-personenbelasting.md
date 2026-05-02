@@ -10,7 +10,7 @@ bronnen:
 
 # Belastingberekening personenbelasting
 
-Van **belastbaar inkomen** naar **te betalen of te ontvangen bedrag** verloopt via een vaste keten van bewerkingen — federaal eerst, dan gewestelijk, dan gemeentelijk. Deze fiche geeft het volledige berekeningsschema en de kennis die nodig is om elke stap te begrijpen. Het uitvoeren van de berekening op een concreet dossier is de competentie [[belastingberekening-personenbelasting-uitvoeren|Belastingberekening personenbelasting uitvoeren]] *(⚠️ aan te maken)*.
+Van **belastbaar inkomen** naar **te betalen of te ontvangen bedrag** verloopt via een vaste keten van bewerkingen — federaal eerst, dan gewestelijk, dan gemeentelijk. Deze fiche geeft het volledige berekeningsschema en de kennis die nodig is om elke stap te begrijpen. Het uitvoeren van de berekening op een concreet dossier is de competentie [[belastingberekening-personenbelasting-uitvoeren|Belastingberekening personenbelasting uitvoeren]].
 
 Het schema is sinds de zesde staatshervorming (2014) **complexer** geworden door de splitsing tussen federale belasting en gewestelijke opcentiemen + gewestelijke verminderingen.
 
@@ -104,7 +104,7 @@ De **belastingvrije som** is een schijf inkomen die **niet wordt belast** (= bel
 | 2 kinderen | ~ € 4 950 |
 | 3 kinderen | ~ € 11 090 |
 | 4 kinderen | ~ € 17 940 |
-| Per kind boven 4 | ~ € 6 850 |
+| Per kind boven 4 | ~ € 6 850 (marginale toeslag per extra kind — cumulatief totaal voor 5 kinderen: € 17 940 + € 6 850 = € 24 790) |
 
 De toeslagen zijn **niet-lineair** stijgend — een gezin met 4 kinderen krijgt aanzienlijk meer toeslag per kind dan een gezin met 1 kind. Reden: de marginale kost van extra kinderen relatief gezien lager is per kind, maar de fiscale tegemoetkoming wordt per kind hoger naarmate het gezin groeit.
 
@@ -130,7 +130,7 @@ Verminderingen die op het **federale niveau** worden toegepast op de federale be
 
 | Vermindering | Tarief / formule |
 |---|---|
-| **Pensioensparen** | 30% van bestedingen, max. ~ € 1 020/jaar (aj. 2026) |
+| **Pensioensparen** | 30% van bestedingen, max. ~ € 1 020/jaar — of 25% van bestedingen tot max. ~ € 1 310/jaar (verhoogd plafond bij uitdrukkelijke keuze) — zie [[belastingverminderingen-federaal#-pensioensparen\|Pensioensparen federaal]] |
 | **Langetermijnsparen** (premies levensverzekering, kapitaalaflossingen niet-eigen woning) | 30% van bestedingen, met geïndexeerde plafonds |
 | **Giften** (≥ € 40 aan erkende instelling) | 45% van het bedrag |
 | **Kinderoppas** (kinderen < 14 jaar) | 45% van betaald bedrag, max. € 16,80/dag/kind |
@@ -289,8 +289,9 @@ Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aa
 | Stopzettingsmeerwaarden cliënteel | 33% |
 | Achterstallen van bezoldigingen | Gemiddelde aanslagvoet vorig jaar |
 | Vakantiegeld vorig jaar uitgekeerd | Gemiddelde aanslagvoet vorig jaar |
-| Pensioenkapitaal — vereffening op 60 jaar | 16,5% |
-| Pensioenkapitaal — vereffening op 65 jaar | 10% |
+| Pensioenkapitaal — vereffening vóór 60 jaar (of vroegtijdige uitkering) | 20% |
+| Pensioenkapitaal — vereffening op 60–64 jaar | 16,5% |
+| Pensioenkapitaal — vereffening op wettelijke pensioenleeftijd (65/67 jaar) | 10% |
 
 **Vergelijkingsregel**: de wet legt op dat de **gunstigste oplossing** voor de belastingplichtige wordt toegepast. Als globalisatie voordeliger uitvalt dan de afzonderlijke aanslag, wordt globalisatie toegepast ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]] in fine).
 

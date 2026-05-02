@@ -96,7 +96,9 @@ Scenario X: € 80 000 brutowinst
 
 OPTIE A — EENMANSZAAK (alle winst als beroepsinkomen)
    Brutowinst                          : € 80 000
-   −  Sociale bijdragen zelfstandige    : € 15 200  (~ 19% van eerste schijf)
+   −  Sociale bijdragen zelfstandige    : € 15 200  (sterk vereenvoudigd — werkelijke bijdragen
+                                                      zijn kwartaalsgewijs berekend op netto
+                                                      belastbaar beroepsinkomen + regularisatie)
    −  Werkelijke beroepskosten          : € 8 000   (auto, kantoor, …)
                                         ─────────
    Belastbaar beroepsinkomen            : € 56 800

@@ -11,7 +11,7 @@ bronnen:
 
 Bij **definitieve stopzetting** van een zelfstandige beroepsactiviteit (eenmanszaak, vrij beroep) — door verkoop, overdracht, omvorming naar vennootschap, pensionering of overlijden — worden de **meerwaarden** op de beroepsmatige activa fiscaal belastbaar als **beroepsinkomen**, maar onderworpen aan **afzonderlijke aanslagvoeten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 28]]). De fiscale druk verschilt fors naargelang het soort activum, de duur van de activiteit, en de oorzaak van de stopzetting.
 
-Deze materie-fiche legt de **kennisbasis**: kwalificatie, berekening, tarieven, vrijstellingen. Het uitvoeren van de berekening op een concreet dossier is de competentie [[stopzettings-en-overdrachtsmeerwaarden-bepalen|Stopzettings- en overdrachtsmeerwaarden bepalen]] *(⚠️ aan te maken)*.
+Deze materie-fiche legt de **kennisbasis**: kwalificatie, berekening, tarieven, vrijstellingen. Het uitvoeren van de berekening op een concreet dossier is de competentie [[stopzettings-en-overdrachtsmeerwaarden-bepalen|Stopzettings- en overdrachtsmeerwaarden bepalen]].
 
 ---
 

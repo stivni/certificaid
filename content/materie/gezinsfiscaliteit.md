@@ -143,6 +143,12 @@ Bij gescheiden ouders die samen het gezag uitoefenen over een kind kan de **toes
 >
 > 🤖 *AI-aanvulling*
 
+> [!info]- In de praktijk: co-ouderschap codes in Tax-on-web
+>
+> Bij fiscaal co-ouderschap heeft elke ouder zijn **eigen code** in zijn aangifte. Controleer bij beide ouders-cliënten of de codes correct zijn ingevuld — Tax-on-web maakt geen automatische cross-check tussen twee afzonderlijke aangiftes. Bij fout riskeert één ouder dubbele toewijzing (te hoge vermindering, belastingverhoging achteraf) en de andere verlies van zijn 50%-toeslag.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## ⚖️ Personen met een handicap

@@ -21,6 +21,12 @@ Deze competentie is **gedeeld** met PO 2.5 (Fiscale procedure) — de generieke 
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
 > De **bezwaarprocedure** is wettelijk geregeld in [[bronnen/wetteksten/II-wib92|WIB92 art. 366-378]] en biedt een **dwingend** kader (vorm, termijn, behandeling). De **inhoud** van het bezwaarschrift (welke argumenten, welke bewijsstukken) is beroepspraktijk — geen genormeerde procedure maar gangbare aanpak in fiscale handboeken en beroepspublicaties.
 
+> [!info]- In de praktijk: vraag om inlichtingen vóór de aanslag
+>
+> In de praktijk komen de meeste betwistingen binnen via een **vraag om inlichtingen (QI)** vóór de aanslag. Een zorgvuldig antwoord op de QI — met alle bewijsstukken meteen meegestuurd — kan een afwijkende aanslag en daarna een bezwaar voorkomen. Behandel een QI met dezelfde ernst als een bezwaarschrift: geef een volledig schriftelijk antwoord, bewaar alle correspondentie, en dien binnen de termijn in (doorgaans 30 dagen, verlengbaar op verzoek).
+>
+> 🤖 *AI-aanvulling*
+
 ## Aanbevolen werkwijze
 
 ### 1. 🎯 Aanslag analyseren en tijdslijn checken
@@ -284,7 +290,7 @@ Met de meeste hoogachting,
 2. **Eventuele vraag om bijkomende informatie** — beantwoorden binnen gestelde termijn (vaak 30 dagen)
 3. **Voorlopige beslissing** of **uitnodiging hoorzitting**
 4. **Hoorzitting** (indien) — mondelinge toelichting van de argumenten
-5. **Definitieve beslissing** door de gewestelijke directeur — **maximaal 6 maanden** na indiening (verlengbaar tot 9 maanden bij complexe dossiers)
+5. **Definitieve beslissing** door de gewestelijke directeur — **maximaal 6 maanden** na indiening (verlengbaar tot 9 maanden bij complexe dossiers) ([[bronnen/wetteksten/II-wib92|WIB92 art. 375]])
 
 **Hoorzitting voorbereiden**:
 - Cliënt en mandataris aanwezig
@@ -299,12 +305,12 @@ Met de meeste hoogachting,
 | **Bezwaar volledig toegekend** | Aanslag verminderd; eventueel teruggave |
 | **Bezwaar gedeeltelijk toegekend** | Aanslag verminderd voor erkende elementen |
 | **Bezwaar volledig afgewezen** | Aanslag blijft; mogelijkheid van **gerechtelijk beroep** bij fiscale rechtbank |
-| **Bezwaar ontvankelijk maar niet behandeld binnen 6 maanden** | Cliënt kan **rechtstreeks** naar fiscale rechtbank ([[bronnen/wetteksten/II-wib92|WIB92 art. 1385decies]] Ger.W.) |
+| **Bezwaar ontvankelijk maar niet behandeld binnen 6 maanden** | Cliënt kan **rechtstreeks** naar fiscale rechtbank (Ger.W. art. 1385decies) |
 
 > [!warning]- Bezwaar afwijzing → 3 maanden om gerechtelijk beroep in te stellen
 > ❌ *"De gewestelijke directeur heeft mijn bezwaar afgewezen — ik heb veel tijd om eventueel naar de rechtbank te gaan."*
 >
-> Vanaf de **kennisgeving** van de beslissing van de gewestelijke directeur loopt een termijn van **3 maanden** om een gerechtelijk beroep in te stellen bij de **fiscale rechtbank van eerste aanleg** ([[bronnen/wetteksten/II-wib92|WIB92 art. 1385decies]] Ger.W.). Deze termijn is **strikt** — buiten de termijn is gerechtelijk beroep onmogelijk en wordt de aanslag definitief. Plan onmiddellijk een evaluatie van het beroep zodra de afwijzing is ontvangen.
+> Vanaf de **kennisgeving** van de beslissing van de gewestelijke directeur loopt een termijn van **3 maanden** om een gerechtelijk beroep in te stellen bij de **fiscale rechtbank van eerste aanleg** (Ger.W. art. 1385decies). Deze termijn is **strikt** — buiten de termijn is gerechtelijk beroep onmogelijk en wordt de aanslag definitief. Plan onmiddellijk een evaluatie van het beroep zodra de afwijzing is ontvangen.
 >
 > 🤖 *AI-aanvulling*
 
@@ -407,7 +413,7 @@ Met de meeste hoogachting,
 > >
 > > **3 maanden vanaf de kennisgeving van de afwijzingsbeslissing.**
 > >
-> > Vanaf de kennisgeving van de beslissing van de gewestelijke directeur loopt een termijn van **3 maanden** om een gerechtelijk beroep in te stellen bij de **fiscale rechtbank van eerste aanleg** ([[bronnen/wetteksten/II-wib92|WIB92 art. 1385decies]] Ger.W.). Strikt: buiten de termijn is gerechtelijk beroep onmogelijk en wordt de aanslag definitief. Vereist: dagvaarding via gerechtsdeurwaarder (advocaat aanbevolen omwille van de complexiteit van de fiscale procedure). Volledige uitwerking onder PO 2.5 Fiscale procedure.
+> > Vanaf de kennisgeving van de beslissing van de gewestelijke directeur loopt een termijn van **3 maanden** om een gerechtelijk beroep in te stellen bij de **fiscale rechtbank van eerste aanleg** (Ger.W. art. 1385decies). Strikt: buiten de termijn is gerechtelijk beroep onmogelijk en wordt de aanslag definitief. Vereist: dagvaarding via gerechtsdeurwaarder (advocaat aanbevolen omwille van de complexiteit van de fiscale procedure). Volledige uitwerking onder PO 2.5 Fiscale procedure.
 > >
 > > *Zie: [[fiscaal-bezwaar-voorbereiden#-7--behandeling-opvolgen-en-hoorzitting-voorbereiden|Behandeling opvolgen]]*
 >

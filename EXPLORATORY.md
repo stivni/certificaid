@@ -145,3 +145,85 @@ Obvious fixes worden autonoom verwerkt. Bevindingen gemarkeerd met `⚠️ WACHT
 
 [2026-05-02 15:05] [QA] opdrachtaanvaarding-beoordelen: lijn 30 vermeldt voorbehouden opdrachten "art. 3, 6°–8°"; lijn 215 redenering vermeldt "art. 3, 7°" voor omvorming. Ik heb dit niet inhoudelijk geverifieerd tegen Wet ITAA art. 3.
 → ⚠️ WACHT OP GEBRUIKER: bron-check Wet ITAA art. 3 — kloppen items 6°/7°/8° met inbreng/fusie/splitsing/vereffening/omzetting/expertise zoals beschreven? Lijkt plausibel maar niet door mij geverifieerd in dit run.
+
+---
+
+## [2026-05-02 20:27] Exploratieve ronde — PO 2.2 rolreview (alle 21 fiches)
+
+Alle 6 rollen (Stagiair, QA, Examinator, Bibliothecaris, Stage-mentor, Coherentie) parallel gedraaid.
+Obvious fixes verwerkt autonoom. Hieronder enkel ⚠️ WACHT OP GEBRUIKER items en examinator-lacunes.
+
+---
+
+### ⚠️ WACHT OP GEBRUIKER — bronverificatie (QA)
+
+[2026-05-02 20:27] [QA] personenbelasting-basisbegrippen: § Globalisatie — tarieven pensioensparenkapitaal (10% / 16,5% / 20%) vermeld zonder expliciete leeftijdsgrens-referentie in WIB92. De leeftijden zijn correct toegevoegd in beroepsinkomsten en belastingberekening, maar het basisbeginsel in de tabel heeft geen artikel. Verwijzing naar WIB92 art. 171 §1, 4° of 6° (juiste subnummers onzeker zonder lokale WIB92-tekst).
+→ ⚠️ WACHT OP GEBRUIKER: verificeer welk subnummer van WIB92 art. 171 de 10%/16,5%/20%-tarieven op pensioenkapitaal regelt.
+
+[2026-05-02 20:27] [QA] personenbelasting-basisbegrippen: § Bewaarplicht — verwijst naar WIB92 art. 315 voor de 7-jaarstermijn voor particulieren. Art. 315 regelt bewaarplicht bij handelaars; voor particulieren is mogelijks art. 315bis of de algemene onderzoekstermijnen de grondslag.
+→ ⚠️ WACHT OP GEBRUIKER: verificeer of WIB92 art. 315 ook geldt voor particuliere belastingplichtigen of dat art. 315bis van toepassing is.
+
+[2026-05-02 20:27] [QA] belastingplichtigen-personenbelasting: § Dubbelbelastingverdragen — de fiche claimt "WIB92 art. 5 in fine" als grondslag voor de voorrangsregel van DBV over intern recht. De verdragsvoorrang vloeit eerder voort uit de Grondwet (art. 167-168) dan uit WIB92 art. 5.
+→ ⚠️ WACHT OP GEBRUIKER: verificeer of WIB92 art. 5 een expliciete verwijzing naar DBV-voorrang bevat, of dat de grondslag elders ligt.
+
+[2026-05-02 20:27] [QA] gezinsfiscaliteit: § Wettelijke samenwoning — verwijst naar "BW art. 1475 e.v." maar in het nieuwe Burgerlijk Wetboek (Boek 2) heeft de wettelijke samenwoning andere artikelnummers.
+→ ⚠️ WACHT OP GEBRUIKER: verificeer het correcte artikelnummer voor wettelijke samenwoning in het nieuwe BW.
+
+[2026-05-02 20:27] [QA] stopzettingsmeerwaarden-personenbelasting: § Tarieven cliënteel — "cliënteel opgebouwd door belastingplichtige zelf" als tweede uitzondering op 33%. Niet geverifieerd of dit een expliciete wettelijke uitzondering is in WIB92 art. 171, of een analytische afleiding.
+→ ⚠️ WACHT OP GEBRUIKER: bevestig of WIB92 art. 171 het "zelf opgebouwen cliënteel" als expliciete uitzondering noemt, dan wel dat dit alleen relevant is voor de boekwaarde-berekening (boekwaarde = 0).
+
+[2026-05-02 20:27] [QA] stopzettingsmeerwaarden-personenbelasting: § Bewaarplicht stopzettingsdossier — "10 jaar" gepresenteerd als specifieke bewaartermijn voor stopzettingsdossiers. Geen wettelijke grondslag vermeld voor deze specifieke 10-jaartermijn (gewone fiscale onderzoekstermijn is 3 jaar, fraude 10 jaar).
+→ ⚠️ WACHT OP GEBRUIKER: de 10-jaar praktijktermijn is als advies correct maar als "wettelijke bewaarplicht" onjuist — aanbeveling: formulering aanpassen naar "beroepspraktijk raadt 10 jaar aan (= fraude-onderzoekstermijn WIB92 art. 358)" en 🤖-label toevoegen.
+
+[2026-05-02 20:27] [QA] roerende-inkomsten-personenbelasting: § Liquidatiereserve — fiche verwijst naar art. 184quater voor het volledige regime, maar de RV-tarieven bij uitkering worden geregeld door WIB92 art. 269 §1, 8°. Beide worden aangehaald in de voorbeeldvragen maar de sectietekst verwijst enkel naar art. 184quater.
+→ ⚠️ WACHT OP GEBRUIKER: preciseer in de sectietekst dat de aanleg (10% bijzondere aanslag) is geregeld in art. 184quater, en de RV bij uitkering (5%/20%) in art. 269, §1, 8°.
+
+[2026-05-02 20:27] [QA] belastingverminderingen-federaal: § Werkgeversbijdrage groepsverzekering — formulering "80% wordt teruggegeven als belastingvermindering" inhoudelijk mogelijk onjuist. Het mechanisme is: werkgeversbijdrage is VAA bij werknemer; de werknemer betaalt persoonlijke bijdragen die als belastingvermindering (art. 145/1, 2°) terugkeren.
+→ ⚠️ WACHT OP GEBRUIKER: herformuleer de sectie als het mechanisme inderdaad anders werkt dan "80% van werkgeversbijdrage teruggegeven". Verificatie vereist.
+
+[2026-05-02 20:27] [QA] belastingverminderingen-gewestelijk: § Vlaamse geïntegreerde woonbonus — tarief vermeld als 40% maar er is mogelijks een 45% voor lagere inkomens.
+→ ⚠️ WACHT OP GEBRUIKER: verificeer in VCF of er een verhoogde 45% woonbonus bestaat voor lagere inkomens (in uitdoving maar relevant voor bestaande leningen).
+
+[2026-05-02 20:27] [QA] belastingberekening-personenbelasting: § BBSZ — vermeldt "WIB92 art. 168 e.v." als grondslag. De BBSZ is geregeld in een aparte wet (wet van 30 maart 1994), niet in het WIB92. WIB92 art. 168 e.v. regelt iets anders of verwijst enkel naar de BBSZ als component van de aanslag.
+→ ⚠️ WACHT OP GEBRUIKER: corrigeer de bronverwijzing naar "wet van 30 maart 1994 (Wet houdende sociale bepalingen)" als dat de correcte grondslag is.
+
+[2026-05-02 20:27] [QA] beroepsinkomsten-personenbelasting: § Personenwagens — "nieuwe wagens vanaf 2026 niet meer aftrekbaar indien CO₂ > 0 (uitfasering verbrandingsmotor)". Bewering over toekomstige wetgeving zonder bronverwijzing.
+→ ⚠️ WACHT OP GEBRUIKER: voeg bronverwijzing toe (programmawet of KB) of markeer als 🤖 + "⚠️ te verifiëren bij officiële inwerkingtreding".
+
+[2026-05-02 20:27] [QA] stopzettings-en-overdrachtsmeerwaarden-bepalen: § Aard stopzetting — "definitieve invaliditeit (≥ 66%)" als drempel voor gedwongen stopzetting. De 66%-grens is een sociaalrechtelijke drempel; in WIB92 art. 171 is de fiscale definitie van "definitieve invaliditeit" mogelijk anders gedefinieerd.
+→ ⚠️ WACHT OP GEBRUIKER: verificeer of WIB92 de 66%-grens expliciet noemt of dat dit via een verwijzing naar het sociaal recht verloopt.
+
+---
+
+### ⚠️ WACHT OP GEBRUIKER — dode links controleren (Bibliothecaris)
+
+[2026-05-02 20:27] [Bibliothecaris] roerende-inkomsten-personenbelasting + fiscale-optimalisatie-personenbelasting-beoordelen: beide bevatten links naar `[[groottecriteria-vennootschappen-verenigingen#-kleine-vennootschap|...]]`. Deze fiche staat niet in de bekende bestandslijst — mogelijk dode link.
+→ ⚠️ WACHT OP GEBRUIKER: bevestig of `groottecriteria-vennootschappen-verenigingen.md` bestaat in de kennisbank. Zo niet: link aanpassen naar een alternatieve fiche of de grootte-criteria inline beschrijven.
+
+[2026-05-02 20:27] [Bibliothecaris] beroepsinkomsten-personenbelasting: regel 98 verwijst naar `[[boekhoudplicht-wer|boekhoudplicht WER]]`. Niet geverifieerd of deze fiche bestaat.
+→ ⚠️ WACHT OP GEBRUIKER: bevestig of `boekhoudplicht-wer.md` bestaat. Zo niet: vervang door plain text of link naar relevante WER-sectie.
+
+[2026-05-02 20:27] [Bibliothecaris] fiscaal-advies-personenbelasting-formuleren: regel 23 verwijst naar `[[deontologische-beginselen|7 deontologische beginselen]]`. Niet geverifieerd of deze fiche bestaat (zou onder PO 4.0 vallen).
+→ ⚠️ WACHT OP GEBRUIKER: bevestig of `deontologische-beginselen.md` bestaat onder PO 4.0-materie.
+
+---
+
+### Examinator-lacunes — aan te maken voorbeeldvragen (niet-urgent)
+
+De Examinator-review identificeerde structurele lacunes in integratievragen over alle PO 2.2 fiches. Onderstaande zijn de meest kritieke die het meest waarschijnlijk op het examen voorkomen:
+
+[2026-05-02 20:27] [Examinator] KRITIEK — belastingberekening-personenbelasting-uitvoeren: geen volledige doorlopende berekening (stap 1 t/m 7) als integratiecasus. Dit is de kern van de competentie. Toe te voegen: echtpaar Vlaanderen, 2 kinderen, brutoloon A + geen inkomen B, berekening tot saldo.
+
+[2026-05-02 20:27] [Examinator] KRITIEK — belastingberekening-personenbelasting + personenbelasting-basisbegrippen: vergelijkingsregel afzonderlijk vs. globalisatie nergens als examenvraag getoetst. Toe te voegen in belastingberekening.md: casus stopzettingsmeerwaarde vs. globalisatie met concrete cijfers.
+
+[2026-05-02 20:27] [Examinator] belastingplichtigen-personenbelasting: geen integratievraag over DBV-methodes (vrijstelling met progressievoorbehoud vs. verrekening). Toe te voegen: scenario Belg met buitenlands onroerend inkomen en DBV-toepassing.
+
+[2026-05-02 20:27] [Examinator] rechtsvorm-fiscaal-beoordelen: geen volledig integratieadvies (fiscaal + kwalitatief gecombineerd). Toe te voegen: casus huisarts 55 jaar, € 120 000 netto-inkomen, omvorming overwegen — volledig advies.
+
+[2026-05-02 20:27] [Examinator] diverse-inkomsten-personenbelasting: geen integratievraag over "normaal beheer" beoordeling met motivering. Toe te voegen: casus crypto-verkoop — kwalificeer en motiveer.
+
+[2026-05-02 20:27] [Examinator] belastingverminderingen-federaal: geen vraag over cumulatie van niet-refundable verminderingen (belasting te laag voor alle verminderingen). Toe te voegen: casus met beperkte belasting en meerdere verminderingen → welke gaan verloren?
+
+[2026-05-02 20:27] [Examinator] voorheffingen-personenbelasting: geen integratievraag waarbij mandataris diagnoseert dat BV onvoldoende is en advies geeft. Toe te voegen: werknemer met firmawagen VAA niet in BV-schaal → fiscale verrassing berekenen.
+
+[2026-05-02 20:27] [Examinator] stopzettingsmeerwaarden-personenbelasting: regime "vergoedingen ontvangen na stopzetting" niet als examenvraag uitgewerkt. Toe te voegen: advocaat stopt 31/12 maar ontvangt dossiers-vergoeding in maart volgend jaar.
