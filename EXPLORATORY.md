@@ -15,9 +15,6 @@ Obvious fixes worden autonoom verwerkt en **hier verwijderd**. Bevindingen gemar
 
 ## Sweeps (autonoom uitvoerbaar — wacht op go)
 
-**[Project-brede emoji-in-URL sweep]**
-Competentiefiches met genummerde emoji-stappen hebben kapotte zelf-links: `#2-🔍-type-relatie` ipv `#2--type-relatie`. Betroffen: `consolidatiekring-bepalen`, `consolideren-integraal`, `vermogensmutatiemethode-toepassen` en mogelijk anderen.
-→ Kan autonoom worden opgelost met een gerichte grep + replace.
 
 
 **[Project-brede accent-anker sweep]**
