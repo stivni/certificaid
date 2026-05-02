@@ -39,7 +39,7 @@ const controls = Component.Flex({
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.CollapsibleSteps()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/stivni/certificaid",
