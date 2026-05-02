@@ -87,13 +87,13 @@ De herstructurering is in de meeste gevallen een **optelling van bestaande rubri
 
 ## 📌 Netto bedrijfskapitaal (NBK)
 
-**NBK = Vlottende activa − Kortlopend vreemd vermogen**
+**NBK = [[balansaggregaten#-analytische-indeling-van-de-balans|Vlottende activa]] − [[balansaggregaten#-passivazijde-volgorde-toenemende-eisbaarheid|Kortlopend vreemd vermogen]]**
 
-Het NBK geeft aan in welke mate de onderneming haar vlottende activa kan financieren zonder op kortlopend vreemd vermogen te moeten rekenen. Een positief NBK is een buffer; een negatief NBK wijst op een financieringsspanning.
+Het NBK geeft aan in welke mate de onderneming haar [[balansaggregaten#-analytische-indeling-van-de-balans|vlottende activa]] kan financieren zonder op kortlopend vreemd vermogen te moeten rekenen. Een positief NBK is een buffer; een negatief NBK wijst op een financieringsspanning.
 
 ## 📌 Werkkapitaalbehoefte (WKB)
 
-**WKB = Voorraden + Handelsvorderingen − Leveranciersschulden**
+**WKB = [[vlottende-activa-waardering#-voorraden|Voorraden]] + [[vlottende-activa-waardering#-vorderingen|Handelsvorderingen]] − [[uitgestelde-belastingen-en-schulden#-schulden|Leveranciersschulden]]**
 
 De WKB is de financieringsbehoefte die voortvloeit uit de bedrijfscyclus zelf: hoeveel geld is er nodig om de kloof te overbruggen tussen betalen van leveranciers en ontvangen van klanten?
 

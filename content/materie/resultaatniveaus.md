@@ -112,7 +112,7 @@ Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
 > [!warning]- Een hogere winst betekent altijd een betere financiële positie
 > ❌ *"De onderneming boekt een stevige winst — de financiële situatie is dus gezond."*
 >
-> Winst en liquiditeit zijn twee verschillende dingen. Een winstgevende onderneming kan in betalingsmoeilijkheden verkeren als haar [[balansaggregaten#-werkkapitaalbehoefte-wkb|werkkapitaalbehoefte]] snel stijgt — bijvoorbeeld doordat klanten trager betalen of [[voorraden|voorraden]] oplopen. De [[balansaggregaten#-netto-bedrijfskapitaal-nbk|balansaggregaten]] (NBK, WKB) geven een completere gezondheidscheck dan winst alleen.
+> Winst en liquiditeit zijn twee verschillende dingen. Een winstgevende onderneming kan in betalingsmoeilijkheden verkeren als haar [[balansaggregaten#-werkkapitaalbehoefte-wkb|werkkapitaalbehoefte]] snel stijgt — bijvoorbeeld doordat klanten trager betalen of [[vlottende-activa-waardering#-voorraden|voorraden]] oplopen. De [[balansaggregaten#-netto-bedrijfskapitaal-nbk|balansaggregaten]] (NBK, WKB) geven een completere gezondheidscheck dan winst alleen.
 >
 > 🤖 *AI-aanvulling*
 

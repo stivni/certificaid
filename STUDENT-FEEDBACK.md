@@ -19,14 +19,3 @@ Vragen en lacunes die de automatische student-review heeft geïdentificeerd maar
 
 ---
 
-## Bewust uitgesteld — wacht op fiches uit 1.1
-
-### balansaggregaten.md
-Links naar niet-bestaande fiches (`voorraden`, `eigen vermogen`, `vlottende activa`, `vreemd vermogen`, `vorderingen`, `leveranciersschulden`, e.d.) zijn tijdelijk als plain text gelaten.
-
-**Actie wanneer**: vak 1.1 (Algemene boekhouding) aanmaakt → fiches voor deze basisbegrippen bestaan dan → plain text herstellen als wikilinks.
-
-### resultaatniveaus.md
-Links naar `ebit`, `ebitda`, `toegevoegde-waarde`, `ebt` zijn tijdelijk als plain text gelaten — begrippen zijn al gedefinieerd in de fiche zelf.
-
-**Actie wanneer**: beslissing genomen of aparte fiches voor EBIT/EBITDA/TAW wenselijk zijn.
