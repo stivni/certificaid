@@ -85,7 +85,7 @@ In de geconsolideerde resultatenrekening verschijnt het aandeel in het resultaat
 ### 3. 🔢 Consolidatieverschil verwerken
 
 > 📥 **Nodig**:
-> - [[vermogensmutatiemethode-toepassen#1-🔍-initiële-opname-bepalen|Initieel consolidatieverschil]]
+> - [[vermogensmutatiemethode-toepassen#1--initiële-opname-bepalen|Initieel consolidatieverschil]]
 >
 > 📤 **Uitkomst**:
 > - Gecorrigeerde boekwaarde deelneming (inclusief consolidatieverschil na verwerking)
@@ -190,6 +190,6 @@ VII. Aandeel in het resultaat van vennootschappen
 > > - Dividend ontvangen: 40 → verlaagt de boekwaarde van de deelneming (geen opbrengst in de resultatenrekening).
 > > - Netto aanpassing boekwaarde: +70 − 40 = +30.
 > >
-> > *Zie: [[vermogensmutatiemethode-toepassen#2-🔢-jaarlijkse-aanpassing-boekwaarde-deelneming|Jaarlijkse aanpassing boekwaarde]]*
+> > *Zie: [[vermogensmutatiemethode-toepassen#2--jaarlijkse-aanpassing-boekwaarde-deelneming|Jaarlijkse aanpassing boekwaarde]]*
 >
 > 🤖 *AI-aanvulling*

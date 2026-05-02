@@ -222,6 +222,6 @@ Geconsolideerde resultatenrekening (elk jaar):
 > >
 > > Resultaat: geconsolideerde balans toont de goederen voor de kostprijs van M = 700 × 50% = 350. De winst van 150 is pas gerealiseerd wanneer D de goederen aan een externe klant verkoopt.
 > >
-> > *Zie: [[consolideren-integraal#4-🔢-optelling-en-intercompany-eliminaties|Intercompany-eliminaties]]*
+> > *Zie: [[consolideren-integraal#4--optelling-en-intercompany-eliminaties|Intercompany-eliminaties]]*
 >
 > 🤖 *AI-aanvulling*
