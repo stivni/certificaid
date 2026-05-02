@@ -176,16 +176,26 @@ Bij **inbreng** van de eenmanszaak in een nieuwe of bestaande vennootschap **teg
 
 ## 🔢 Aangifte stopzettingsmeerwaarden
 
-In de PB-aangifte (vak XV/XVI — Winsten/Baten):
+Stopzettingsmeerwaarden worden altijd aangegeven in **vak XXI — Winst en baten van een vorige beroepswerkzaamheid**, ongeacht of de belastingplichtige vroeger winst (handelaar) of baten (vrij beroep) had. Nooit in vak XVII of XVIII. *(Bron: FOD Financiën, Voorbereiding aangifte PB deel 2, aanslagjaar 2025)*
 
-- **Vermelding** van het ingeschatte bedrag van de stopzettingsmeerwaarde
-- **Bewijsstukken** verzameld: verkoopcontract, inventaris fiscale activa, schatting marktwaarde activa zonder verkoop
-- **Specifieke codes** voor afzonderlijke aanslag aan 16,5% / 33%
+| Tarief | Wanneer | Code (belastingplichtige) | Code (partner) |
+|---|---|---|---|
+| **10%** | Stopzetting vanaf 60 jaar / gedwongen / overlijden | **1686-60** | 2686-30 |
+| **16,5%** | Vaste activa >5 jaar in gebruik, vrijwillig <60 jaar | **1690-56** | 2690-26 |
+| **33%** | Overige meerwaarden, vrijwillig <60 jaar | **1691-55** | 2691-25 |
+| progressief | Gezamenlijk belastbaar (uitzonderlijk) | **1692-54** | 2692-24 |
+
+> [!warning]- Gebruik vak XXI, niet vak XVII of XVIII voor stopzettingsmeerwaarden
+> ❌ *"Stopzettingsmeerwaarden worden aangegeven in vak XVII (winst) of XVIII (baten), net zoals gewone beroepsinkomsten."*
+>
+> Vak XXI is uitdrukkelijk voorzien voor alle inkomsten **na de definitieve stopzetting**. De toelichting bij de aangifte vermeldt letterlijk: "meerwaarden behaald bij de stopzetting van uw beroepswerkzaamheid moet u vermelden in vak XXI." Vak XVII/XVIII is voor meerwaarden verwezenlijkt **tijdens** de beroepsactiviteit (andere situatie, andere codes).
+>
+> 📝 *Bron: FOD Financiën, Voorbereiding aangifte PB deel 2, aanslagjaar 2025*
 
 **Bijzonderheden**:
-- Bij stopzetting tijdens het jaar: aangifte voor het volledige boekjaar (inkomsten tot stopzetting + meerwaarden)
+- Bij stopzetting tijdens het jaar: aangifte voor het volledige boekjaar (inkomsten tot stopzetting + meerwaarden in vak XXI)
 - Bij overlijden: aangifte door de erfgenaam binnen 5 maanden na het overlijden
-- Bij invaliditeit: medische bewijsstukken nodig voor verlaagd tarief
+- Bij invaliditeit: medische bewijsstukken nodig voor tarief 10%
 
 ---
 

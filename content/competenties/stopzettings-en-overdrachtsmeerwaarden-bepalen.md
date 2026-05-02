@@ -4,7 +4,7 @@ niveau: integratie
 status: draft
 programmaonderdelen: ["2.2", "2.3"]
 itaa-lex-secties:
-  - II (WIB92 art. 28, 38, 43, 44, 46, 47, 67-69, 171, 184ter)
+  - II (WIB92 art. 28, 43, 44, 46, 47, 171)
 procedure-grondslag: "Wettelijk berekeningsschema (WIB92 art. 28 e.v.); de werkwijze voor toewijzing tussen materieel en cliënteel volgt beroepspraktijk en eventueel een onafhankelijke schatting."
 bouwversie: 2
 ---
@@ -255,12 +255,15 @@ Berekening per activum:
 
 **Waarom**: de aangifte van stopzettingsmeerwaarden vereist **specifieke codes** en **bewijsstukken**. Een fout in de codering kan leiden tot toepassing van progressieve tarieven i.p.v. afzonderlijke aanslag — een aanzienlijk verschil voor de cliënt.
 
-**Aangifte-elementen** (vak XV/XVI Winsten/Baten van de PB):
+**Aangifte-elementen** — altijd **vak XXI** (Winst en baten van een vorige beroepswerkzaamheid). Zie [[stopzettingsmeerwaarden-personenbelasting#-aangifte-stopzettingsmeerwaarden|materie-fiche §Aangifte]] voor de volledige codestabel. *(Bron: FOD Financiën, Voorbereiding aangifte PB deel 2, aanslagjaar 2025)*
 
 ```
-Code 1606  Stopzettingsmeerwaarde materieel — afzonderlijk 16,5%   : € 25 080
-Code 1608  Stopzettingsmeerwaarde cliënteel — afzonderlijk 33%      : € 89 100
-Code 1610  Stopzettingsmeerwaarde cliënteel — afzonderlijk 16,5%   : (n.v.t.)
+Vak XXI — stopzettingsmeerwaarden (rubriek 1)
+
+Code 1686-60  Afzonderlijk belastbaar tegen 10%    (≥60 jaar / gedwongen / overlijden)
+Code 1690-56  Afzonderlijk belastbaar tegen 16,5%  (vaste activa >5 jaar, vrijwillig <60)
+Code 1691-55  Afzonderlijk belastbaar tegen 33%    (vrijwillig <60 jaar, overige)
+Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 ```
 
 **Documentatie te bewaren**:
