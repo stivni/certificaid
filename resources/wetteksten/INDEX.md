@@ -22,6 +22,8 @@ Laatste update: 2026-05-02
 | `Oud-BW.md` | Oud Burgerlijk Wetboek | Contractenrecht, aansprakelijkheid, zakelijke rechten — voor zover nog toepasselijk naast BW 2019 |
 | `Richtlijn-2013-34-EU.md` | Richtlijn 2013/34/EU | EU-jaarrekeningrichtlijn: groottecriteria, schema's, verplichte vermeldingen, consolidatie — omgezet via WER + WVV |
 | `KB-WIB92.md` | KB/WIB92 — uitvoeringsbesluit | Uitvoeringsbepalingen bij WIB92: fiscale procedure, aangiftes, bedrijfsvoorheffing |
+| `WIB92-stopzetting.md` | WIB92 art. 28, 43, 44, 46, 47, 171 (partieel) | Stopzettingsmeerwaarden: definitie, belastbaarheid, tarieven, fiscale neutraliteit bij inbreng — geverifieerd via fiscosearch.be |
+| `aangifte-PB-2025-stopzetting.md` | Aangifte PB aanslagjaar 2025 — FOD Financiën | Exacte aangifte-codes voor stopzettingsmeerwaarden: vak XXI (1686/1690/1691/1692), vak XVII rubriek 4 (1603/1604), vak XVIII rubriek 6 (1653/1654) |
 | `status.md` | Overzicht downloadstatus | Welke wetteksten lokaal beschikbaar zijn, welke nog ontbreken |
 
 ## Niet lokaal beschikbaar (placeholder in content/bronnen/wetteksten/)

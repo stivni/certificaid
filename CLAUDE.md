@@ -1023,8 +1023,9 @@ Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker va
 ### Beslissingen
 ```
 
-**Post-build exploratory agent** (persistent via mcp__scheduled-tasks):
-- `certificaid-exploratory` — alle zes rollen in één run; leest `EXPLORATORY-coverage.md` om te bepalen welke fiches en rollen het langst niet bekeken zijn; schrijft bevindingen naar `EXPLORATORY.md`; werkt daarna `EXPLORATORY-coverage.md` bij
+**Post-build agents** (persistent via mcp__scheduled-tasks):
+- `certificaid-exploratory` — elk uur; alle zes rollen in één run; leest `EXPLORATORY-coverage.md` om te bepalen welke fiches en rollen het langst niet bekeken zijn; schrijft bevindingen naar `EXPLORATORY.md`; werkt daarna `EXPLORATORY-coverage.md` bij
+- `certificaid-examenvragen` — ad-hoc (manueel triggeren na een PO-build of inhoudelijke update); genereert examenvragen vanuit recent gewijzigde fiches naar `content/examenvragen/`
 
 **`EXPLORATORY-coverage.md`** in de projectroot — coverage-overzicht: welke rol heeft welke fiche wanneer als laatste bekeken. De exploratory agent leest dit vóór elke run en richt zich op de cellen die leeg zijn of de oudste datum hebben.
 
@@ -1264,6 +1265,8 @@ Vragen die je jezelf stelt bij elke bewering, opsomming of absoluut klinkende ui
 | "Dit valt onder dezelfde noemer als Y" | Staan ze in hetzelfde artikel? Of in aparte artikelen met een andere grondslag? |
 | Een opsomming van 3 items | Is de opsomming exhaustief of enkel een opsomming van voorbeelden? |
 | "tenzij de cliënt toestemming geeft" | Geldt die uitzondering onbeperkt, of enkel voor een deel van de informatie? |
+| Viercijferige aangifte-code (bv. 1606) | Staat deze code in `resources/wetteksten/aangifte-PB-XXXX-*.md`? Zo niet: markeer als ⚠️ te verifiëren — aangifte-codes staan **niet** in WIB92/WBTW maar in het jaarlijkse aangifteformulier (FOD Financiën). Haal het formulier op via WebFetch als het niet lokaal beschikbaar is. |
+| Vak in de aangifte (bv. "vak XVII") | Is dit het aangifte-vak of een ITAA-LEX sectie? Aangifte-vakken en ITAA-LEX secties gebruiken dezelfde Romeinse cijfers maar zijn totaal verschillende dingen. Verifieer altijd via de aangifte-toelichting welk vak van toepassing is. |
 
 Wanneer de verificatie iets nieuws oplevert — een vijfde uitzondering, een nuance die je gemist had, een verschil in grondslag — volgt altijd:
 
