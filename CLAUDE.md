@@ -921,7 +921,7 @@ Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker va
 2. Klik "Run now" op `po-builder` in de sidebar — of spawn direct een background agent
 
 **Automatische kwaliteitsagents** (persistent via mcp__scheduled-tasks):
-- `certificaid-student-review` — dagelijks 8:47: voegt praktijkvoorbeelden, waarom-zinnen en links toe aan gewijzigde wip-fiches; schrijft niet-oplosbare gaps naar `content/STUDENT-FEEDBACK.md`
+- `certificaid-student-review` — dagelijks 8:47: voegt praktijkvoorbeelden, waarom-zinnen en links toe aan gewijzigde wip-fiches; schrijft niet-oplosbare gaps naar `STUDENT-FEEDBACK.md` in de projectroot
 - `certificaid-stagecommissie` — di/do/za 9:23: genereert examenvragen uit gewijzigde fiches naar `content/examenvragen/`
 
 **Voortgangslogging**: agents schrijven voortgang naar `.po-voortgang-[PO].md` in de **projectroot** (niet in `content/`) zodat de gebruiker live kan volgen.

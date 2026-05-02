@@ -72,7 +72,7 @@ Als de gebruiksduur niet met zekerheid kan worden geraamd, worden ze afgeschreve
 > [!warning]- Goodwill-afschrijvingen zijn onomkeerbaar
 > ❌ *"Als de waarde van goodwill later stijgt, moet de eerder geboekte waardevermindering worden teruggenomen."*
 >
-> Voor goodwill geldt een uitdrukkelijke uitzondering: eenmaal geboekte afschrijvingen en waardeverminderingen op goodwill worden niet teruggenomen, ook niet als de marktwaarde nadien stijgt. Dit vloeit voort uit het voorzichtigheidsbeginsel.
+> Voor goodwill geldt een uitdrukkelijke uitzondering: eenmaal geboekte afschrijvingen en waardeverminderingen op goodwill worden niet teruggenomen, ook niet als de marktwaarde nadien stijgt. Dit vloeit voort uit het [[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]].
 >
 > 🤖 *AI-aanvulling*
 
