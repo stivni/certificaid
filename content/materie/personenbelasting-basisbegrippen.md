@@ -90,7 +90,7 @@ Opbouw in vier stappen — gedetailleerd in [[belastingberekening-personenbelast
 3. **Globaal inkomen**: som van alle netto-inkomsten
 4. **Belastbaar inkomen**: globaal inkomen min aftrekbare uitgaven (onderhoudsuitkeringen)
 
-Het belastbaar inkomen wordt opgesplitst in **gezamenlijk belastbaar** (onderworpen aan progressieve tarieven) en **afzonderlijk belastbaar** (onderworpen aan vaste tarieven, bv. 16,5% op stopzettingsmeerwaarden).
+Het belastbaar inkomen wordt opgesplitst in **gezamenlijk belastbaar** (onderworpen aan progressieve tarieven) en **afzonderlijk belastbaar** (onderworpen aan vaste tarieven, bv. 16,5% op [[stopzettingsmeerwaarden-personenbelasting|stopzettingsmeerwaarden]]).
 
 ---
 
@@ -103,8 +103,8 @@ De PB belast vier categorieën van inkomsten. Elke categorie heeft een eigen aan
 |---|---|---|
 | **Onroerende inkomsten** | Inkomsten uit Belgisch en buitenlands onroerend goed (KI, huur) | [[inkomsten-onroerende-goederen]] |
 | **Beroepsinkomsten** | Bezoldigingen, winsten, baten, vervangingsinkomsten, pensioenen | [[beroepsinkomsten-personenbelasting]] |
-| **Roerende inkomsten** | Dividenden, interesten, royalty's, lijfrenten | *(⚠️ aan te maken)* |
-| **Diverse inkomsten** | Occasional, prijzen, meerwaarden particulieren, onderhoudsuitkeringen | *(⚠️ aan te maken)* |
+| **Roerende inkomsten** | Dividenden, interesten, royalty's, lijfrenten | [[roerende-inkomsten-personenbelasting]] |
+| **Diverse inkomsten** | Occasionele winsten, prijzen, meerwaarden particulieren, onderhoudsuitkeringen | [[diverse-inkomsten-personenbelasting]] |
 
 ---
 
@@ -129,7 +129,7 @@ De belasting wordt geheven per **belastbaar tijdperk** — elke periode is op zi
 
 **Praktische gevolgen:**
 
-- Een loon dat in december 2025 verdiend wordt maar in januari 2026 betaald wordt → behoort tot inkomstenjaar 2025 (toerekeningsbeginsel) — voor bezoldigingen geldt evenwel het kasprincipe (datum van werkelijke betaling) → in 2026
+- Een loon dat in december 2025 verdiend maar pas in januari 2026 uitbetaald wordt → **kasprincipe** voor bezoldigingen → belastbaar in **inkomstenjaar 2026** (datum werkelijke betaling of terbeschikkingstelling)
 - Beroepsverliezen kunnen overgedragen worden naar volgende jaren als uitzondering op het annualiteitsbeginsel
 - Er bestaan **toerekeningsregels** per inkomstencategorie: voor bezoldigingen geldt het **kasprincipe** (datum betaling/ter beschikking stelling), voor winsten het **vorderingsprincipe** (boekhoudkundige toerekening)
 
@@ -204,6 +204,17 @@ De PB onderwerpt inkomsten in beginsel aan de **progressieve tarieven** (= globa
 
 **Vergelijkingsregel**: de wet legt op dat de afzonderlijke aanslag wordt vervangen door de globalisatie als die laatste **voordeliger** is voor de belastingplichtige ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]] in fine).
 
+> [!info]- In de praktijk: stopzettingsmeerwaarde — afzonderlijk of globaliseren?
+>
+> Een zelfstandige realiseert een [[stopzettingsmeerwaarden-personenbelasting|stopzettingsmeerwaarde]] van € 20 000 op zijn wagen (> 5 jaar materieel actief — tarief 16,5%). Zijn marginale aanslagvoet is 40%.
+>
+> - Afzonderlijk: € 20 000 × 16,5% = **€ 3 300**
+> - Globalisatie: € 20 000 × 40% = **€ 8 000**
+>
+> → Afzonderlijk is gunstiger → de wet past afzonderlijk **automatisch** toe (vergelijkingsregel). Had de marginale aanslagvoet onder 16,5% gelegen, dan zou globalisatie voordeliger zijn — maar dat is bij het belastbaar inkomen dat stopzettingsmeerwaarden genereren zelden het geval.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## 🔒 Aangifteplicht
@@ -223,6 +234,12 @@ Iedere belastingplichtige is verplicht jaarlijks een aangifte in te dienen ([[br
 
 **Voorstel van vereenvoudigde aangifte (VVA)**: voor belastingplichtigen met enkel eenvoudige inkomsten (loon, pensioen, gekende OG) stuurt de administratie een **vooraf ingevuld voorstel**. Bij akkoord hoeft niets te gebeuren — bij wijzigingen moet binnen de termijn gereageerd worden via Tax-on-web of papier.
 
+> [!info]- In de praktijk: Tax-on-web deadline
+>
+> De exacte mandatarisdatum wordt jaarlijks gepubliceerd in een FOD-circulaire. Tax-on-web toont een eigen kalender die soms vroeger sluit dan de wettelijke datum — controleer altijd de fiscale agenda van het lopende aanslagjaar via financien.belgium.be of het ITAA-ledennet. Vertrouw niet blind op de datum die Tax-on-web toont.
+>
+> 🤖 *AI-aanvulling*
+
 **Sancties**: bij niet-aangifte volgt een **ambtshalve aanslag** (administratie schat het inkomen, omkering bewijslast) en mogelijk een **belastingverhoging** van 10% tot 200% naargelang de aard van de inbreuk ([[bronnen/wetteksten/II-wib92|WIB92 art. 351, 444]]).
 
 ---
@@ -239,6 +256,12 @@ Concrete documenten:
 - Bewijzen van betaling onderhoudsuitkeringen
 
 Deze stukken moeten beschikbaar zijn voor controle. Voor [[fiscaal-bezwaar-voorbereiden|bezwaar]] zijn ze vaak doorslaggevend.
+
+> [!info]- In de praktijk: kantoren bewaren 10 jaar
+>
+> De wettelijke minimumtermijn is 7 jaar, maar de beroepspraktijk hanteert **10 jaar** als kantoorstandaard — gelijk aan de fiscale onderzoekstermijn bij fraude ([[bronnen/wetteksten/II-wib92|WIB92 art. 358]]). Kantoren die na 7 jaar vernietigen riskeren bewijs-problemen bij latere fraudeonderzoeken waarbij de onderzoekstermijn 10 jaar is.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 

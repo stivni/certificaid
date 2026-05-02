@@ -15,8 +15,8 @@ bouwversie: 2
 De aangifte is het **enige** formele instrument waarop de FOD Financiën de aanslag in de personenbelasting kan vestigen ([[bronnen/wetteksten/II-wib92|WIB92 art. 305]]). Een onvolledige of foute aangifte kost de cliënt geld (te hoge aanslag, niet-toegekende verminderingen) of stelt hem bloot aan controles, belastingverhogingen en strafsancties. Deze competentie beschrijft hoe je systematisch alle vakken doorloopt, de juiste informatie verzamelt en de aangifte tijdig en correct indient namens de cliënt.
 
 Onderscheid met andere competenties:
-- **[[belastingberekening-personenbelasting-uitvoeren|Belastingberekening personenbelasting uitvoeren]]** *(⚠️ aan te maken)*: rekent de belasting uit eens de aangifte volledig is — focus op het tarievenschema en de verminderingen
-- **[[fiscaal-advies-personenbelasting-formuleren|Fiscaal advies personenbelasting formuleren]]** *(⚠️ aan te maken)*: adviesopdracht — keuzes vooraf (vóór de aangifte zelf), bv. werkelijke vs. forfaitaire kosten, voorafbetalingen, optimalisatie
+- **[[belastingberekening-personenbelasting-uitvoeren|Belastingberekening personenbelasting uitvoeren]]**: rekent de belasting uit eens de aangifte volledig is — focus op het tarievenschema en de verminderingen
+- **[[fiscaal-advies-personenbelasting-formuleren|Fiscaal advies personenbelasting formuleren]]**: adviesopdracht — keuzes vooraf (vóór de aangifte zelf), bv. werkelijke vs. forfaitaire kosten, voorafbetalingen, optimalisatie
 
 > [!info]- Grondslag van deze werkwijze (🤖 70% · ⚖️ 30%)
 > De aangifteplicht zelf is wettelijk geregeld ([[bronnen/wetteksten/II-wib92|WIB92 art. 305-315]]) en de structuur van de aangifte volgt de vakindeling van het uitvoeringsbesluit ([[bronnen/wetteksten/II-KB-wib92|KB/WIB92]]). Het **invulproces** als gestructureerde werkwijze is echter **geen genormeerde procedure** — er bestaat geen ITAA-norm of CBN-advies dat per vak voorschrijft hoe te werk te gaan. De stappen hieronder volgen de courante beroepspraktijk: verzamelen → kwalificeren → invullen → controleren → indienen → archiveren.
@@ -124,6 +124,12 @@ Maak een lijst van wat **niet** vooringevuld is en wat dus van de cliënt moet k
 >
 > Wacht na 1 mei van het aanslagjaar — de vooringevulde gegevens worden dan grotendeels door de FOD Financiën aangevuld. Vóór die datum is de aangifte vaak nog leeg en moet je alles manueel ingeven, waarna de automatische gegevens later overschrijven en je werk dubbel doen.
 
+> [!info]- In de praktijk: import MyMinfin in aangiftesoftware
+>
+> Bij gebruik van aangiftesoftware (Biztax, Sofisk, Irix, …) is het importeren van de MyMinfin-vooruitvulling een **expliciete stap**, geen automatisme bij het openen van het dossier. Plan deze importstap in je workflow vóór het begin van elke aangifte — zo vermijd je dubbele invoer of vergeten vooringevulde gegevens die de FOD al voor jou heeft opgezocht.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ### 4. 🔀 Inkomsten kwalificeren per categorie
@@ -145,11 +151,11 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 | **Onroerend** | III (Belgisch OG), XIII (buitenlands OG) | [[inkomsten-onroerende-goederen]] |
 | **Beroeps** (loon, vervangingsinkomsten, pensioenen) | IV, V | [[beroepsinkomsten-personenbelasting]] |
 | **Beroeps** (winsten, baten, bedrijfsleidersbezoldiging) | XV, XVI, XVII | [[beroepsinkomsten-personenbelasting]] |
-| **Roerend** | VII | *(⚠️ materie aan te maken)* |
-| **Divers** | XII | *(⚠️ materie aan te maken)* |
-| **Aftrekbare uitgaven** | VIII (giften, onderhoudsuitkeringen) | *(⚠️ materie aan te maken)* |
-| **Belastingverminderingen** (gewest + federaal) | IX, X | *(⚠️ materie aan te maken)* |
-| **Voorafbetalingen** | XI | *(⚠️ materie aan te maken)* |
+| **Roerend** | VII | [[roerende-inkomsten-personenbelasting]] |
+| **Divers** | XII | [[diverse-inkomsten-personenbelasting]] |
+| **Aftrekbare uitgaven** | VIII (giften, onderhoudsuitkeringen) | [[onderhoudsuitkeringen-fiscaal]], [[belastingverminderingen-federaal#-giften\|Giften federaal]] |
+| **Belastingverminderingen** (gewest + federaal) | IX, X | [[belastingverminderingen-gewestelijk]], [[belastingverminderingen-federaal]] |
+| **Voorafbetalingen** | XI | [[voorafbetalingen-personenbelasting]] |
 
 > [!warning]- Een zelfde geldsom kan verschillend gekwalificeerd worden naar gelang context
 > ❌ *"Een meerwaarde op aandelen wordt altijd belast als roerend inkomen."*
@@ -293,6 +299,12 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 **Bij akkoord**: niets ondernemen — het VVA wordt automatisch de aangifte.
 
 **Bij wijzigingen**: corrigeren via Tax-on-web binnen de geldige termijn (~ eind juni / mid-juli). Mandataris-termijn is hier niet automatisch van toepassing — controleer.
+
+> [!info]- In de praktijk: systematische VVA-screening
+>
+> Tax-on-web Mandataris geeft een overzicht van alle cliënten met een VVA. Zorg dat je workflow een **systematische VVA-check** bevat: minstens screenen op ontbrekende giften-attesten, pensioensparen en gewestelijke verminderingen die de FOD niet automatisch oppikt. Veel kantoren missen hierdoor verminderingen van enkele honderden euro's per cliënt.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 

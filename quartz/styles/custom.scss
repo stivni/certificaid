@@ -1,0 +1,97 @@
+@use "./base.scss";
+
+// Collapsible steps — competentie fiches
+// h3 elements are wrapped in .step-wrapper by collapsible-steps.inline.ts
+
+.step-wrapper {
+  margin: 0.5rem 0;
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
+  border-radius: 6px;
+  overflow: hidden;
+
+  // Override base h3 margins and make it a flex row for the chevron
+  h3 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0.6rem 1rem;
+    background-color: var(--highlight);
+    user-select: none;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: var(--dark);
+    border: none;
+    outline: none;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: rgba(143, 159, 169, 0.28);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: -2px;
+    }
+  }
+
+  // Chevron icon — rotates when collapsed
+  .step-chevron {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    margin-left: auto;
+    padding-left: 6px;
+    background-color: var(--darkgray);
+    mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E');
+    -webkit-mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpolyline points="6 9 12 15 18 9"%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E');
+    mask-size: 18px 18px;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 18px 18px;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    transition: transform 0.2s ease;
+  }
+
+  // Outer content div — CSS grid drives the height transition
+  .step-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+    overflow: hidden;
+  }
+
+  // Inner content div — the single grid child
+  .step-content-inner {
+    overflow: hidden;
+    padding: 0 1.1rem 0.9rem;
+
+    > :first-child {
+      margin-top: 0.9rem;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+
+    // hr separators between steps look cleaner without extra margin
+    > hr {
+      margin: 0.5rem 0;
+    }
+  }
+
+  // Collapsed state: chevron points right, content rows collapse to 0
+  &.is-collapsed {
+    .step-chevron {
+      transform: rotateZ(-90deg);
+    }
+  }
+}
+
+// Tighten spacing between consecutive step wrappers (they form a visual list)
+.step-wrapper + .step-wrapper {
+  margin-top: 0.35rem;
+}
