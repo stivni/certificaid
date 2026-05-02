@@ -12,7 +12,7 @@ bouwversie: 0
 
 ## 📌 Nettoactief
 
-Het nettoactief is het bedrag dat overblijft wanneer alle schulden en verplichtingen van de vennootschap worden afgetrokken van de totale activa. Definitie ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]], [[bronnen/adviezen/CBN-2021-14|CBN-advies 2021/14]]):
+Het nettoactief is het bedrag dat overblijft wanneer alle schulden en verplichtingen van de vennootschap worden afgetrokken van de totale activa. Definitie ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]], [[bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv|CBN-advies 2021/14]]):
 
 > Totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtingskosten en O&O-kosten (behoudens uitzonderlijke gevallen)
 

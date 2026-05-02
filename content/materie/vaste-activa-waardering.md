@@ -88,9 +88,18 @@ Als de gebruiksduur niet met zekerheid kan worden geraamd, worden ze afgeschreve
 
 Materiële vaste activa zijn tastbare activa die duurzaam voor de activiteit worden aangehouden: gebouwen, machines, meubilair, voertuigen, terreinen. Ze worden gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]].
 
-**Leasing en gelijkaardige overeenkomsten**
+**Leasing en gelijkaardige overeenkomsten — alleen financiële leasing**
 
 Gebruiksrechten op MVA via leasing of gelijkaardige overeenkomsten (bv. erfpacht) worden **op het actief opgenomen** — niet als kost. Het bedrag is gelijk aan het deel van de termijnen dat dient tot wedersamenstelling van de kapitaalwaarde van het goed. De overeenkomstige leasingverplichting staat aan de passiefzijde. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]])
+
+Art. 3:40 verwijst uitsluitend naar leasing "zoals omschreven in titel 2 en 3 van dit boek" — dat is **financiële leasing**, waar de huurder economisch eigenaar wordt (gereconstrueerde kapitaalwaarde + restwaarde-optie). **Operationele leasing** valt buiten dit regime: de leasingtermijnen worden gewoon als bedrijfskost in de resultatenrekening geboekt, het goed staat **niet** op de balans van de huurder.
+
+> [!warning]- Niet alle leasing belandt op de balans
+> ❌ *"Elke leasingovereenkomst leidt tot activering bij de huurder, met een leasingschuld op het passief."*
+>
+> Enkel **financiële leasing** (waarbij de huurder de kapitaalwaarde van het goed wedersamenstelt en doorgaans een aankoopoptie heeft) wordt geactiveerd onder Art. 3:40. **Operationele leasing** — de klassieke huur waarbij het goed teruggaat naar de leasinggever — wordt als kost geboekt en blijft buiten de balans. Het verschil zit in wie het economisch eigendomsrisico draagt.
+>
+> 🤖 *AI-aanvulling — toetsing van titel 2 en 3 boek III WER bepaalt de kwalificatie.*
 
 **Waarderingsregel: afschrijving en waardevermindering**
 
@@ -139,14 +148,18 @@ Bedragen op deelnemingen en aandelen die nog niet werden opgevraagd, worden verm
 
 ---
 
-## ↔️ Vergelijking: afschrijving vs. waardevermindering bij vaste activa
+## ↔️ Vergelijking: afschrijving, waardevermindering en herwaardering
 
-| | [[afschrijvingen|Afschrijving]] | [[waardeverminderingen|Waardevermindering]] |
-|---|---|---|
-| **Wanneer** | Beperkte gebruiksduur — altijd planmatig | Duurzame minderwaarde of ontwaarding |
-| **Bedrag** | Vast per jaar ([[afschrijvingen#-eisen-waaraan-afschrijvingen-moeten-voldoen|afschrijvingsplan]]) | Afhankelijk van de vastgestelde daling |
-| **Terugname** | Mogelijk bij MVA/IVA bij te snelle afschrijving | Verplicht als niet meer verantwoord ([[vaste-activa-waardering#-immateriële-vaste-activa-iva|behalve goodwill!]]) |
-| **Activa** | MVA met beperkte duur, IVA met beperkte duur, oprichtingskosten | MVA met onbeperkte duur, FVA, deelnemingen |
+De drie waardecorrecties op vaste activa hebben elk een ander vertrekpunt en een andere richting. Afschrijving en waardevermindering verminderen de boekwaarde; [[herwaarderingsmeerwaarden|herwaardering]] verhoogt ze.
+
+| | [[afschrijvingen|Afschrijving]] | [[waardeverminderingen|Waardevermindering]] | [[herwaarderingsmeerwaarden|Herwaardering]] |
+|---|---|---|---|
+| **Richting** | ↓ vermindert boekwaarde | ↓ vermindert boekwaarde | ↑ verhoogt boekwaarde |
+| **Wanneer** | Beperkte gebruiksduur — altijd planmatig | Duurzame minderwaarde of ontwaarding | Vaststaande, duurzame meerwaarde — enkel MVA en FVA |
+| **Bedrag** | Vast per jaar ([[afschrijvingen#-eisen-waaraan-afschrijvingen-moeten-voldoen|afschrijvingsplan]]) | Afhankelijk van de vastgestelde daling | Verschil tussen werkelijke waarde en boekwaarde |
+| **Tegenboeking** | Resultatenrekening (kost) | Resultatenrekening (kost) | Eigen vermogen (rubriek III, niet via resultaat) |
+| **Terugname** | Mogelijk bij MVA/IVA bij te snelle afschrijving | Verplicht als niet meer verantwoord ([[vaste-activa-waardering#-immateriële-vaste-activa-iva|behalve goodwill!]]) | Verplicht als meerwaarde niet langer verantwoord |
+| **Activa** | MVA met beperkte duur, IVA met beperkte duur, oprichtingskosten | MVA met onbeperkte duur, FVA, deelnemingen | MVA en FVA — niet IVA, niet voorraden |
 
 > [!warning]- Goodwill-uitzondering op de terugname-regel
 > ❌ *"Waardeverminderingen worden altijd teruggenomen als de reden wegvalt."*

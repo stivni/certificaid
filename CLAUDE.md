@@ -166,12 +166,7 @@ Bronnen staan in twee plaatsen:
 
 **Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
 
-**Lokaal beschikbare CBN-adviezen** (verbatim tekst via HTML-extractie; raw PDFs in `resources/adviezen/raw/`):
-
-| Content-pad | Advies | Onderwerp |
-|---|---|---|
-| `content/bronnen/adviezen/CBN-2021-14.md` | CBN-advies 2021/14 | Alarmbelprocedure onder het WVV — nettoactief en drempels |
-| `content/bronnen/adviezen/CBN-2018-18.md` | CBN-advies 2018/18 | Going concern: waarderingsregels bij stopzetting |
+**Alle CBN-adviezen lokaal beschikbaar** in  (466 bestanden, verbatim via HTML-extractie, nummerprefix ). Raw PDFs in . Semantische index: .
 
 **Werkwijze bij het schrijven van materie:**
 1. Lees `resources/wetteksten/INDEX.md` — welke wet is relevant?
@@ -193,7 +188,7 @@ De bronhiërarchie verschilt per laag.
 
 **Voor competenties (technieken):**
 1. ITAA-normen in `resources/normen/` — beschrijven hoe professionele opdrachten uitgevoerd worden (⚠️ nog lokaal in te laden)
-2. CBN-adviezen in `resources/adviezen/` — hoe boekhoudkundige regels in specifieke situaties toegepast worden (⚠️ nog lokaal in te laden)
+2. CBN-adviezen in `content/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/adviezen/INDEX.md`
 3. ISA / ISAE / ISRS (IBR-standaarden) — voor audit-, assurance- en samenstellingsopdrachten (⚠️ nog lokaal in te laden)
 4. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
@@ -206,7 +201,7 @@ De bronhiërarchie verschilt per laag.
 
 **Werkwijze bij het schrijven van een competentie:**
 1. Zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft — dat is dan de primaire bron, geen constructie
-2. Grep in `resources/normen/` en `resources/adviezen/` op het trefwoord
+2. Grep in `resources/normen/` op het trefwoord; voor CBN-adviezen: lees `resources/adviezen/INDEX.md` en grep dan in `content/bronnen/adviezen/`
 3. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
 4. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
 
@@ -442,7 +437,7 @@ Mogelijke antwoorden:
 
 Niet elke stap heeft een expliciete grondslag nodig — voeg hem toe wanneer de bron niet evident is of wanneer het voor de student relevant is te weten of de stap wettelijk verplicht of analytisch conventioneel is.
 
-**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in `resources/normen/` en `resources/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
+**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in `resources/normen/`; voor CBN-adviezen via `resources/adviezen/INDEX.md` → `content/bronnen/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
 
 **Elke stap begint met een "waarom"-zin**: de eerste zin na het `📥/📤`-blok beantwoordt *waarom* deze stap noodzakelijk is — niet wat je doet, maar waarom je het doet. Zonder die zin is de stap een procedure-instructie zonder grond; met die zin begrijpt de student de logica en kan ze hem hertoepassen in nieuwe situaties.
 

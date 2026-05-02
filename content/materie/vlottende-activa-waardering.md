@@ -57,6 +57,10 @@ Voorraden worden gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] o
 
 De lagere marktwaarde mag **niet worden gehandhaafd** als de marktwaarde nadien weer stijgt — de waardering moet dan worden hersteld.
 
+**Keuze van waarderingsmethode voor identieke goederen**
+
+Voor voorraden van identieke goederen mag de aanschaffingswaarde worden bepaald via **individualisering, gewogen gemiddelde, FIFO of LIFO** — de keuze hoort bij het boekhoudbeleid en wordt vermeld in de toelichting. Dit is examenkritisch want elke methode geeft een ander resultaat bij prijsschommelingen. Volledige uitleg en methodevergelijking: [[aanschaffingswaarde#-waardering-van-activa-met-identieke-kenmerken|Waardering van activa met identieke kenmerken]] ([[bronnen/wetteksten/XV-KB-wvv#art-321|KB WVV art. 3:21]]).
+
 **Goederen in bewerking**: gewaardeerd tegen **vervaardigingsprijs**. Als de vervaardigingsprijs vermeerderd met de nog te maken kosten hoger is dan de nettoverkoopprijs op balansdatum, wordt een waardevermindering geboekt. ([[bronnen/wetteksten/XV-KB-wvv#art-348|KB WVV art. 3:48]])
 
 **Aanvullende waardeverminderingen** mogen worden geboekt op voorraden om rekening te houden met:
