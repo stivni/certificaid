@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "rm -rf quartz && cp -r node_modules/@jackyzha0/quartz/quartz quartz && mkdir -p node_modules/@jackyzha0/quartz/quartz/.quartz-cache && rm -rf quartz/.quartz-cache && ln -sf ../node_modules/@jackyzha0/quartz/quartz/.quartz-cache quartz/.quartz-cache && cp -r quartz-custom/. quartz/",
-    "dev": "quartz build --serve",
+    "dev": "NODE_OPTIONS=--max-old-space-size=4096 quartz build --serve --concurrency 2",
     "build": "quartz build"
   },
   "devDependencies": {
