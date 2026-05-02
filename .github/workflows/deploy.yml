@@ -7,6 +7,8 @@ on:
       - "content/**"
       - "quartz.config.ts"
       - "quartz.layout.ts"
+      - "quartz-custom/**"
+      - "package.json"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
