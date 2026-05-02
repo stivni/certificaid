@@ -171,7 +171,7 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 ## 🔒 Permanente vorming
 
-Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming ([[wetteksten/XXI-wet-itaa#art-39|ITAA-LEX XXI · Wet ITAA art. 39]]). De inhoud en het minimumaantal uren worden vastgelegd in de **ITAA-norm permanente vorming** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11).
+Elke beroepsbeoefenaar is verplicht zijn **beroepsbekwaamheid** op peil te houden via continue permanente vorming ([[wetteksten/XXI-wet-itaa#art-39|ITAA-LEX XXI · Wet ITAA art. 39]]). De verplichting tot permanente vorming is de wettelijke verankering van het [[deontologische-beginselen#-de-7-deontologische-beginselen|vakbekwaamheidsbeginsel]] (beginsel 4). De inhoud en het minimumaantal uren worden vastgelegd in de **ITAA-norm permanente vorming** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11).
 
 **Minimum aantal uren** (Norm permanente vorming (ITAA) — `resources/normen/norm-permanente-vorming.md`, art. 3, 5 en 11):
 - **120 uur** per periode van 3 opeenvolgende kalenderjaren

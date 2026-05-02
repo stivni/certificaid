@@ -63,6 +63,7 @@ Wie in loondienst werkt als intern gecertificeerd accountant valt niet automatis
 ---
 
 ## 📌 Cel voor Financiële Informatieverwerking (CFI)
+*Cellule de traitement des informations financières (CTIF)*
 
 De Belgische financiële inlichtingeneenheid. De CFI analyseert meldingen van onderworpen entiteiten en geeft ze indien gegrond door aan het parket of de bevoegde autoriteiten. Meldingen aan de CFI zijn anoniem ten aanzien van de cliënt.
 

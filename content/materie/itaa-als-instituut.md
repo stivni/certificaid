@@ -15,6 +15,7 @@ Het ITAA reguleert de toegang tot en de uitoefening van de beroepen van [[beroep
 ---
 
 ## 📌 Instituut van de Belastingadviseurs en de Accountants (ITAA)
+*Belgian Institute for tax advisors and accountants*
 
 Het ITAA is een **publiekrechtelijk instituut** met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB (Instituut van de Accountants en de Belastingconsulenten) en het BIBF (Beroepsinstituut van Erkende Boekhouders en Fiscalisten) ([[wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]).
 

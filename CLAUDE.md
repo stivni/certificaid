@@ -63,6 +63,8 @@ Een competentie is zelfstandig toetsbaar op het examen en combineert meerdere ma
 
 **Naamgeving competenties**: altijd een werkwoord + object, actiegericht. ✓ `continuiteit-beoordelen`, ✓ `jaarrekening-herwerken` — ✗ `falingspredictie-beoordelen` (substantief + werkwoord).
 
+**Naam verifiëren na schrijven**: de naam is een hypothese bij aanvang. Na het schrijven van de fiche: stel jezelf de vraag *"Dekt de naam het volledige bereik van de competentie, of slechts één fase?"* Zo niet: hernoem vóór commit. Prioriteitsvolgorde: (1) zoek of een gezaghebbende bron (ITAA-norm, wettekst) een naam geeft → gebruik die; (2) anders: draft-naam aanpassen aan de werkelijke scope.
+
 | Hoort in materie | Hoort in competentie |
 |---|---|
 | Definitie van een begrip | Hoe je een begrip gebruikt in een taakcontext |
@@ -787,6 +789,8 @@ Dit geldt ook voor afkortingen die niet rechtstreeks van de naam afleiden. De su
 - ✓ `# Jaarrekening` (neerlegging is een onderdeel)
 - ✗ `# Jaarrekening en neerlegging`
 
+**"Kernfenomeen" kan een tweedeling zijn**: de titel benoemt het studieobject — en soms ís het studieobject de vergelijking tussen twee nauw verwante concepten met een gedeeld bovenliggend fenomeen. Als beide concepten samen dat bovenliggende fenomeen vormen, en het onderscheid tussen beide precies is wat getoetst wordt, dan noem je beide in de titel. Voorbeeld: `# Beroepsgeheim en discretieplicht` — het bovenliggende fenomeen is de professionele vertrouwelijkheidsplicht; beroepsgeheim (strafrechtelijk) en discretieplicht (deontologisch) zijn de twee instrumenten. De detectiestap blijft geldig: kun je het tweede deel weghalen zonder het studieobject te verliezen? Bij beroepsgeheim en discretieplicht: nee — dan verlies je precies het onderscheid dat de student moet kennen.
+
 **Overkoepelende begrippen** die verwijzen naar twee of meer andere begrippen (bv. WG/FT → witwassen + terrorismefinanciering) krijgen een eigen sectie met verwijzingen naar de componentbegrippen.
 
 **Elke afkorting** die in de fiche gebruikt wordt, moet als begrip opgenomen zijn zodat er naar gelinkt kan worden.
@@ -889,6 +893,20 @@ Kenniselementen:
 ### Werkprincipe
 
 Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker valideert via Stap 5 door de site te bekijken. Stel alleen een vraag bij echte inhoudelijke twijfel over wetsinhoud of bij een architectuurbeslissing die niet uit de context af te leiden is. Elke `wip`- en `draft`-markering communiceert vanzelf dat inhoud nog niet geverifieerd is.
+
+### Infrastructuur
+
+**Po-builder** (ad-hoc scheduled task in Claude sidebar):
+1. Schrijf het PO-nummer naar `/Users/stivni/Documents/ITAA/certificaid/.po-target` (bv. `1.1`)
+2. Klik "Run now" op `po-builder` in de sidebar — of spawn direct een background agent
+
+**Automatische kwaliteitsagents** (persistent via mcp__scheduled-tasks):
+- `certificaid-student-review` — dagelijks 8:47: voegt praktijkvoorbeelden, waarom-zinnen en links toe aan gewijzigde wip-fiches; schrijft niet-oplosbare gaps naar `content/STUDENT-FEEDBACK.md`
+- `certificaid-stagecommissie` — di/do/za 9:23: genereert examenvragen uit gewijzigde fiches naar `content/examenvragen/`
+
+**Voortgangslogging**: agents schrijven voortgang naar `content/.po-voortgang-[PO].md` zodat de gebruiker live kan volgen.
+
+**Geparkeerde fiches**: wanneer een PO herzien wordt van nul, worden bestaande fiches gekopieerd naar `content/_parking-[PO]/` als vergelijkingsbasis.
 
 ### Stap 0 — TDKs correct uitlezen uit de brochure
 

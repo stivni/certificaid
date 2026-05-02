@@ -73,6 +73,7 @@ Beide dimensies moeten aanwezig zijn. Een beroepsbeoefenaar die feitelijk onafha
 ---
 
 ## 📌 Assurance-opdracht
+*Assurance engagement*
 
 Een opdracht waarbij de beroepsbeoefenaar een **conclusie of oordeel geeft waarop buitenstaanders mogen vertrouwen** (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`). Aandeelhouders, banken, de belastingdienst of een rechter kunnen op basis van dat oordeel beslissingen nemen — zij kennen de beroepsbeoefenaar niet, maar vertrouwen op zijn professionele stempel.
 
@@ -86,6 +87,7 @@ Twee subtypes, naar de mate van zekerheid die gegeven wordt:
 ---
 
 ## 📌 Niet-assurance-opdracht
+*Non-assurance engagement*
 
 Een opdracht waarbij de beroepsbeoefenaar de cliënt helpt maar **geen professioneel oordeel geeft voor externe gebruikers**. De output is voor de cliënt zelf (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`).
 
