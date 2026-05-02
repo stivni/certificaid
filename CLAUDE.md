@@ -1192,7 +1192,7 @@ Elke fiche wordt beoordeeld vanuit zes brillen. Elke rol vangt een ander type pr
 | Rol | Mindset | Vangt op | Detailsectie |
 |---|---|---|---|
 | **Stagiair** | "Is dit duidelijk en concreet?" | Te abstracte uitleg, ontbrekende voorbeelden | §Student-perspectief review, §Kritische lezing |
-| **QA-persoon** | "Klopt dit met de bronnen?" | Feitelijke fouten, ontbrekende bronverwijzingen, tegenstrijdige beweringen | §Wettekstverificatie |
+| **QA-persoon** | "Klopt dit met de bronnen?" | Feitelijke fouten, ontbrekende bronverwijzingen, tegenstrijdige beweringen; aangifte-codes zonder traceerbare bron in het FOD-formulier; aangifte-vakken verward met ITAA-LEX secties | §Wettekstverificatie |
 | **Examinator** | "Hoe toets ik dit echt?" | Ontbrekende vraagvarianten, ongeteste integratieniveaus | §Examinator-review |
 | **Bibliothecaris** | "Zijn alle links gelegd?" | Ontbrekende wikilinks, polyseme termen zonder kwalificatie | §Semantische hyperlinkdoorlezing |
 | **Stage-mentor** | "Wat doet de praktijk anders?" | Norm vs. praktijkkloof, ongeschreven conventies | §Stage-mentor review |
