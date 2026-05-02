@@ -924,7 +924,7 @@ Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker va
 - `certificaid-student-review` — dagelijks 8:47: voegt praktijkvoorbeelden, waarom-zinnen en links toe aan gewijzigde wip-fiches; schrijft niet-oplosbare gaps naar `content/STUDENT-FEEDBACK.md`
 - `certificaid-stagecommissie` — di/do/za 9:23: genereert examenvragen uit gewijzigde fiches naar `content/examenvragen/`
 
-**Voortgangslogging**: agents schrijven voortgang naar `content/.po-voortgang-[PO].md` zodat de gebruiker live kan volgen.
+**Voortgangslogging**: agents schrijven voortgang naar `.po-voortgang-[PO].md` in de **projectroot** (niet in `content/`) zodat de gebruiker live kan volgen.
 
 **Geparkeerde fiches**: wanneer een PO herzien wordt van nul, worden bestaande fiches gekopieerd naar `content/_parking-[PO]/` als vergelijkingsbasis.
 
