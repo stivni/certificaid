@@ -61,6 +61,21 @@ function setupCollapsibleSteps() {
     for (const s of siblings) contentInner.appendChild(s)
     wrapper.appendChild(contentOuter)
 
+    // Group the first consecutive plain blockquotes (📥 Nodig + 📤 Uitkomst)
+    // into a compact side-by-side .step-io container
+    const ioBlockquotes = Array.from(
+      contentInner.querySelectorAll<HTMLElement>(":scope > blockquote:not(.callout)"),
+    ).filter((bq) => {
+      const text = bq.textContent ?? ""
+      return text.includes("📥") || text.includes("📤")
+    })
+    if (ioBlockquotes.length > 0) {
+      const ioWrapper = document.createElement("div")
+      ioWrapper.className = "step-io"
+      contentInner.insertBefore(ioWrapper, ioBlockquotes[0])
+      for (const bq of ioBlockquotes) ioWrapper.appendChild(bq)
+    }
+
     // Add chevron indicator
     const chevron = document.createElement("span")
     chevron.className = "step-chevron"
