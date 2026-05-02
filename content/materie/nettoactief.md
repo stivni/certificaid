@@ -16,9 +16,16 @@ Het nettoactief is het bedrag dat overblijft wanneer alle schulden en verplichti
 
 > Totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtingskosten en O&O-kosten (behoudens uitzonderlijke gevallen)
 
-In de praktijk stemt dit overeen met het **boekhoudkundig eigen vermogen** (rubriek 10/15 van de balans).
+In de praktijk stemt dit overeen met het **boekhoudkundig eigen vermogen** (rubriek 10/15 van de balans) — behalve wanneer er nog niet-afgeschreven oprichtingskosten of O&O-kosten op de balans staan: die moeten dan extra worden afgetrokken.
 
 Het nettoactief is de centrale maatstaf voor de [[continuiteitsrisico#-alarmbelprocedure|alarmbelprocedure]] en voor de beoordeling van de financiële toestand van de vennootschap.
+
+> [!warning]- Nettoactief is niet altijd gelijk aan eigen vermogen
+> ❌ *"Nettoactief = eigen vermogen, dus rubriek 10/15 volstaat."*
+>
+> De wettelijke definitie ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]) trekt expliciet de **niet-afgeschreven oprichtingskosten en O&O-kosten** af. Wanneer die op de balans staan, is het nettoactief **lager** dan het boekhoudkundig eigen vermogen. Voor de [[continuiteitsrisico#-alarmbelprocedure|alarmbelprocedure]] is dat verschil cruciaal: een vennootschap die op basis van rubriek 10/15 net boven de drempel zit, kan na correctie eronder vallen.
+>
+> 🤖 *AI-aanvulling*
 
 > [!info]- In de praktijk
 >

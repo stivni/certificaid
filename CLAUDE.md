@@ -135,9 +135,20 @@ Bronnen staan in twee plaatsen:
 
 | Index | Inhoud | Gebruik |
 |---|---|---|
+| `resources/normen/INDEX.md` | ITAA-normen: naam, datum, thema's; ook welke nog achter auth zitten | Welke norm regelt procedure X? |
 | `resources/adviezen/INDEX.md` | Alle CBN-adviezen: nummer, datum, thema's per advies | Welk advies is relevant voor onderwerp X? |
 | `resources/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
 | `resources/voorbeeldexamens/INDEX.md` | Per examen: POs, vraagtypen, thema's | Welk examen bevraagt PO X / concept Y? |
+
+**ITAA-normen doorzoeken** — elk norm-bestand heeft YAML-frontmatter met `naam`, `datum`, `themas` (lijst):
+```bash
+# Op thema:
+grep -rl "  - antiwitwas" content/bronnen/normen/
+grep -rl "  - controle" content/bronnen/normen/
+
+# Vrije tekst:
+grep -rl "opdrachtbrief" content/bronnen/normen/
+```
 
 **CBN-adviezen doorzoeken** — elk advies heeft YAML-frontmatter met `nummer`, `datum`, `themas` (lijst):
 ```bash
@@ -182,7 +193,9 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 
 **Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
 
-**Alle CBN-adviezen lokaal beschikbaar** in  (466 bestanden, verbatim via HTML-extractie, nummerprefix ). Raw PDFs in . Semantische index: .
+**ITAA-normen lokaal beschikbaar** in `content/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/normen/INDEX.md` voor overzicht en download-instructies.
+
+**Alle CBN-adviezen lokaal beschikbaar** in `content/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/adviezen/raw/`. Semantische index: `resources/adviezen/INDEX.md`.
 
 **Werkwijze bij het schrijven van materie:**
 1. Lees `resources/wetteksten/INDEX.md` — welke wet is relevant?
@@ -196,16 +209,16 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 De bronhiërarchie verschilt per laag.
 
 **Voor materie (kennis):**
-1. Wetteksten in `resources/wetteksten/` — gecoördineerde versies van ejustice
+1. Wetteksten in `content/bronnen/wetteksten/` — gecoördineerde versies (dezelfde tekst als in `resources/wetteksten/`, nu met ITAA-LEX sectienummers als bestandsnaam)
 2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
 3. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
-4. CBN-adviezen op [cnc-cbn.be](http://cnc-cbn.be)
+4. CBN-adviezen in `content/bronnen/adviezen/` — volledig lokaal
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 
 **Voor competenties (technieken):**
-1. ITAA-normen in `resources/normen/` — beschrijven hoe professionele opdrachten uitgevoerd worden (⚠️ nog lokaal in te laden)
+1. ITAA-normen in `content/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/normen/INDEX.md`
 2. CBN-adviezen in `content/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/adviezen/INDEX.md`
-3. ISA / ISAE / ISRS (IBR-standaarden) — voor audit-, assurance- en samenstellingsopdrachten (⚠️ nog lokaal in te laden)
+3. ISA / ISAE / ISRS (IBR-standaarden) — ISA-570 beschikbaar in `content/bronnen/normen/`; overige normen via ibr-ire.be (⚠️ nog niet lokaal ingeladen)
 4. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
 6. Geconstrueerde kennis — altijd 🤖 labelen
@@ -217,9 +230,10 @@ De bronhiërarchie verschilt per laag.
 
 **Werkwijze bij het schrijven van een competentie:**
 1. Zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft — dat is dan de primaire bron, geen constructie
-2. Grep in `resources/normen/` op het trefwoord; voor CBN-adviezen: lees `resources/adviezen/INDEX.md` en grep dan in `content/bronnen/adviezen/`
-3. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
-4. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
+2. Lees `resources/normen/INDEX.md` — grep dan in `content/bronnen/normen/`
+3. Lees `resources/adviezen/INDEX.md` — grep dan in `content/bronnen/adviezen/`
+4. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
+5. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
 
 ### Bronvermelding in fiches
 
@@ -435,6 +449,10 @@ Enkelvoudig: één bullet (ook al is het er maar één — altijd bullet voor co
 
 **Tips**: `[!tip]` callout voor professionele hints die niet uit een bron komen.
 
+**Visueel anker**: een code-blok met een extract uit een jaarrekening, balans, resultatenrekening of ander financieel schema — zodat de student weet *waarnaar* ze kijkt wanneer ze de stap uitvoert. Verplicht bij elke stap die inwerkt op een financieel document (herstructurering, extractie, ratio-berekening). Gebruik altijd een `code`-blok, nooit proza. Voor transformatiestappen (bv. herwerken): toon voor- én na-toestand als twee opeenvolgende blokken.
+
+**Concreet stap-voorbeeld**: `[!info]- Concreet: [situatienaam]` callout — 1-3 zinnen die *deze stap* toepassen op een specifieke situatie, zonder volledig eindgeval te zijn. Verschil met `## Voorbeelden`: dát is het uitgewerkte eindresultaat; dit is een haakje per stap dat de stap minder abstract maakt. Label met 🤖 als geconstrueerd. Verplicht bij stappen die een oordeel of beslissing vereisen zonder visueel anker.
+
 **Stapnamen**: altijd in instructievorm — kort, actief, zonder vraagteken. ✓ "Schema vaststellen", ✓ "Balans herstructureren", ✓ "Ratio berekenen" — ✗ "Welk schema is van toepassing?"
 
 **itaa-lex-secties** in de frontmatter: navigatiehulp voor het examen ("welke secties heb ik bij de hand nodig?"), geen grondslagen.
@@ -465,7 +483,7 @@ Niet elke stap heeft een expliciete grondslag nodig — voeg hem toe wanneer de 
 
 **Inhoud in de juiste laag**: als een stap kennis over een begrip of definitie nodig heeft, staat die kennis in de materie-fiche — niet herschreven in de competentie. De stap verwijst ernaar met een concreet ankerpunt (zie §Aanpak > Materie vs. competentie).
 
-Een stap mag niet meer bevatten dan: de waarom-zin, de procedure-instructie (hoe), en een link naar materie. Als een stap een opsomming van meer dan 3 items bevat (signalen, criteria, voorbeelden), stel je de vraag: *staat dit al in een materie-fiche?* Zo ja: vervang de opsomming door een link met 1-2 ankerwoorden. Zo nee: verplaats het naar de materie-fiche en link daarna.
+Een stap bevat precies: de waarom-zin, de procedure-instructie (hoe), links naar materie, en de concrete elementen die de stap leesbaar maken: visueel anker, `[!info]- Concreet`, `[!warning]`, `[!tip]`. Geen materie herschrijven. Als een opsomming meer dan 3 items bevat (signalen, criteria): staat het al in een materie-fiche? Ja → vervang door link met 1-2 ankerwoorden. Nee → verplaats naar materie-fiche en link daarna.
 
 **Competentie veronderstelt bekende materie**: een stap mag veronderstellen dat de student de gekoppelde materie heeft bestudeerd. De stap hoeft die materie niet te herhalen — maximaal 1-2 zinnen verbinding met de taakcontext zijn toegestaan. De student weet wat een continuïteitsveronderstelling is; de stap legt alleen uit *wanneer en waarom* ze die kennis hier toepast.
 
@@ -519,6 +537,17 @@ Beschrijf de competentie zo uitgebreid als nodig: wat doe je, waarvoor, in welke
 [Normale situatie: wat geldt in de meeste gevallen. Maximaal 3 opsommingspunten inline; meer dan 3 → verplaats naar materie-fiche en link.]
 
 **Uitzondering — [naam]**: [wat er anders is en waarom]
+
+```
+[Visueel anker: extract uit jaarrekening, balans of schema — bij stappen die inwerken op een financieel document]
+[Voor transformatiestappen: toon voor- én na-toestand als twee opeenvolgende blokken]
+```
+
+> [!info]- Concreet: [situatienaam]
+>
+> [1-3 zinnen die deze stap toepassen op een specifieke situatie]
+>
+> 🤖 *AI-aanvulling*
 
 > [!warning]- [Valkuil: korte naam]
 > ❌ *"[Verkeerde aanname die studenten maken]"*
@@ -582,7 +611,11 @@ Een concept is de **kleinste coherente eenheid die een student als één geheel 
 
 **Grootte**: zo groot als nodig. Splitsen alleen als twee ideeën écht onafhankelijk van elkaar voorkomen én bestudeerbaar zijn. Als een concept te groot wordt, kan een specifieker onderdeel een **subconcept** worden dat voortbouwt op het hoofdconcept — het subconcept veronderstelt dan dat de student het hoofdconcept kent.
 
-**Vakoverschrijdend is gewenst**: een concept dat in 4 vakken voorkomt, heeft 4 vak-secties. De student die personenbelasting instudeert klikt op "autoleasing" en land in de sectie `### [2.x] Personenbelasting` — maar ziet ook dat er een boekhoudkundige en adviessectie bestaat.
+**Vakoverschrijdend is gewenst**: een concept dat in meerdere vakken voorkomt, krijgt één fiche die alle relevante contexten dekt. De vakken zijn een examen-organisatielaag, geen kennislaag — in de praktijk lopen boekhoudkundige, fiscale en juridische aspecten door elkaar, en dat is ook het niveau waarop het examen toetst.
+
+**Secties volgen topics, niet vakken**: organiseer een fiche per inhoudelijk thema, niet per programmaonderdeel. De interessante stof zit vaak *in de overgang* tussen contexten — een `↔️ Boekhoudkundig vs. fiscaal`-sectie geeft meer inzicht dan twee aparte vak-secties naast elkaar. Per-vak-secties (`### [2.x] Personenbelasting`) zijn enkel gerechtvaardigd als de regels zo fundamenteel verschillen per context dat ze niet zinvol samen te bespreken zijn.
+
+De koppeling concept → vak wordt afgehandeld via de `Relevant voor`-sectie onderaan de fiche en via de PO-fiches — niet via de interne structuur van de materie-fiche.
 
 ### Concepten identificeren
 
@@ -600,7 +633,7 @@ Een concept is de **kleinste coherente eenheid die een student als één geheel 
 
 De frontmatter van elke conceptfiche bevat een `niveau`-veld. Claude kiest het niveau op basis van de TDKs in de vakfiche — niet op basis van aannames.
 
-Een concept kan voor verschillende vakken een verschillend niveau hebben — vermeld dan het hoogste niveau in de frontmatter en differentieer in de per-vak-secties.
+Een concept kan voor verschillende vakken een verschillend niveau hebben — vermeld dan het hoogste niveau in de frontmatter.
 
 ### Domeinen
 
@@ -855,7 +888,16 @@ Nederlandstalige afkortingen die rechtstreeks van de naam afleiden (GA, GBA, ITA
 ```
 
 - De `[!warning]`-callout heeft al een ⚠️-icoon — géén emoji herhalen in de titel
-- De titel is een **korte omschrijving** van de valkuil, niet de foutieve bewering zelf
+- **De titel vermeldt altijd de correcte bewering** — een student die enkel de titel leest weet onmiddellijk wat correct is, zonder de body te hoeven openen. Twee patronen:
+  - **Foute overtuiging over een feit**: declaratieve zin met de correcte bewering, eventueel met negatie
+    - ✓ "CBN-adviezen zijn niet juridisch bindend"
+    - ✓ "Melden vereist geen zekerheid — een vermoeden volstaat"
+    - ✗ "CBN-adviezen zijn juridisch bindend" — geeft foute informatie
+  - **Foute handeling**: imperatief of "Men moet"-constructie
+    - ✓ "Gebruik EV vóór winstverdeling bij ROE"
+    - ✓ "Men moet EV vóór winstverdeling gebruiken bij ROE"
+    - ✗ "EV vóór winstverdeling gebruiken bij ROE" — infinitief, te ambigu
+  - **Test**: kan een student de titel lezen als een correcte instructie of correcte kennis? Ja → OK. Nee → herformuleren.
 - De foutieve aanname staat als eerste regel in de body, cursief en tussen aanhalingstekens
 - Daarna de correcte uitleg
 - Helemaal onderaan de bronvermelding (📝 of 🤖)
@@ -929,12 +971,13 @@ Kenniselementen:
 
 Elke fiche bevat `bouwversie: N` in de frontmatter. Dit geeft aan met welke versie van het proces de fiche gebouwd is. Fiches met een lagere versie dan de huidige zijn kandidaat voor heraudit.
 
-**Huidige versie: 1**
+**Huidige versie: 2**
 
 | Versie | Datum | Wijzigingen |
 |---|---|---|
 | 0 | vóór 2026-05-02 | Pre-versioning — gebouwd zonder huidige principes |
 | 1 | 2026-05-02 | Eerste versie: waarom-zin verplicht in competentie-stappen; grondslag-blok collapsible met 🤖/⚖️-indicator; synoniemen als cursieve subtitel; fiche-titel = kernfenomeen; formule-variabelen betekenisvol; "(zie § X)" → klikbare link; geen hyperlinks in callout-titels; stap vanuit perspectief beroepsbeoefenaar; optionele stap = aparte stap; naam competentie verifiëren na schrijven; kennislagen (Weten/Toepassen/Integreren); Stap 2A taakdecompositie; laagcheck in verificatiestap |
+| 2 | 2026-05-02 | Valkuil-titels: altijd de correcte bewering (declaratief voor feiten, imperatief voor handelingen); visueel anker verplicht bij competentie-stappen die inwerken op financiële documenten; [!info]- Concreet verplicht bij oordeel/beslissingstappen; materie-fiches: topic-secties i.p.v. vak-secties; scope-vernauwing detectiestap in §Kritische lezing; boekhoudkundige-beginselen herscoped naar algemeen niveau |
 
 **Wanneer de versie ophogen**: bij elke wijziging aan CLAUDE.md die bestaande fiches suboptimaal maakt. Infrastructuur, geheugen en Quartz-instellingen tellen niet mee. Voeg een rij toe aan de tabel en verhoog het getal bij "Huidige versie".
 
@@ -954,11 +997,51 @@ Doorloop alle stappen autonoom. Leg niets voor ter validatie — de gebruiker va
 1. Schrijf het PO-nummer naar `/Users/stivni/Documents/ITAA/certificaid/.po-target` (bv. `1.1`)
 2. Klik "Run now" op `po-builder` in de sidebar — of spawn direct een background agent
 
-**Automatische kwaliteitsagents** (persistent via mcp__scheduled-tasks):
-- `certificaid-student-review` — dagelijks 8:47: voegt praktijkvoorbeelden, waarom-zinnen en links toe aan gewijzigde wip-fiches; schrijft niet-oplosbare gaps naar `STUDENT-FEEDBACK.md` in de projectroot
-- `certificaid-stagecommissie` — di/do/za 9:23: genereert examenvragen uit gewijzigde fiches naar `content/examenvragen/`
+**Voortgangsbestand** — alles over een actieve PO-build staat in `.po-voortgang-[PO].md` in de projectroot (niet in `content/`): voortgang per stap, rol-bevindingen, reconciliatie en beslissingen met redenering. Formaat:
 
-**Voortgangslogging**: agents schrijven voortgang naar `.po-voortgang-[PO].md` in de **projectroot** (niet in `content/`) zodat de gebruiker live kan volgen.
+```markdown
+# PO [X.X] voortgang
+
+## Stap 3A — [fiche-naam]
+### Draft klaar
+### Rolreview
+**Stagiair**: ...
+**QA**: ...
+**Examinator**: ...
+*(alle zes rollen)*
+### Beslissingen
+- [bevinding] → **verwerkt**: [redenering]
+- [bevinding] → **uitgesteld**: [redenering]
+- [bevinding] → **afgewezen**: [redenering]
+### Fiche gereviseerd
+
+## Stap 4 — Cross-fiche review
+### Rolreview (Coherentie + Examinator)
+### Cross-PO integratie
+### Beslissingen
+```
+
+**Post-build exploratory agent** (persistent via mcp__scheduled-tasks):
+- `certificaid-exploratory` — alle zes rollen in één run; leest `EXPLORATORY-coverage.md` om te bepalen welke fiches en rollen het langst niet bekeken zijn; schrijft bevindingen naar `EXPLORATORY.md`; werkt daarna `EXPLORATORY-coverage.md` bij
+
+**`EXPLORATORY-coverage.md`** in de projectroot — coverage-overzicht: welke rol heeft welke fiche wanneer als laatste bekeken. De exploratory agent leest dit vóór elke run en richt zich op de cellen die leeg zijn of de oudste datum hebben.
+
+```markdown
+| fiche | stagiair | qa | examinator | bibliothecaris | stage-mentor | coherentie |
+|---|---|---|---|---|---|---|
+| continuiteitsrisico | 2026-05-01 | 2026-05-01 | — | 2026-05-01 | — | — |
+| jaarrekening | — | — | — | — | — | — |
+```
+
+**`EXPLORATORY.md`** in de projectroot — post-build exploratory feedback, alle rollen door elkaar. Formaat per bevinding:
+```
+## [YYYY-MM-DD HH:MM] Exploratieve ronde — [fiches]
+
+[YYYY-MM-DD HH:MM] [rol] [fiche]: [bevinding]
+→ obvious fix: [wat verwerkt]
+→ ⚠️ WACHT OP GEBRUIKER: [beslissing vereist — reden]
+```
+Tijdstip via `date '+%Y-%m-%d %H:%M'`. Obvious fixes worden autonoom verwerkt. Bevindingen gemarkeerd met `⚠️ WACHT OP GEBRUIKER` blijven staan tot de gebruiker beslist.
 
 **Geparkeerde fiches**: wanneer een PO herzien wordt van nul, worden bestaande fiches gekopieerd naar `content/_parking-[PO]/` als vergelijkingsbasis.
 
@@ -1050,6 +1133,10 @@ Voor elk nieuw concept, in deze volgorde — alles in één doorloop, geen tusse
    - Echte examenvragen worden letterlijk overgenomen en gelabeld als `📝 *Uit voorbeeldexamen [jaar]*`
    - Vul aan met 🤖-vragen voor concepten zonder examenmateriaal
 4. **Hyperlinks** — semantische doorlezing voor links (zie §Semantische hyperlinkdoorlezing)
+5. **Rolreview** — spawn alle zes rollen parallel op de volledige fiche-draft; verwerk hun bevindingen autonoom; log beslissingen in `.po-voortgang-[PO].md`
+   - Elke rol leest de fiche vanuit zijn eigen mindset (zie §Reviewrollen)
+   - Conflicterende bevindingen worden autonoom gewikt — redenering wordt gelogd, nooit gewacht
+   - Reviseer de fiche op basis van verwerkte beslissingen vóór je doorgaat naar de volgende fiche
 
 **Ontdekking tijdens Stap 3**: als tijdens het schrijven van een fiche een concept of competentie opduikt die nog niet in de vakfiche staat, voeg het dan direct toe aan de vakfiche (als `*(⚠️ aan te maken)*`) en aan de werklijs voor Stap 3. Blokkeer niet — noteer en ga door.
 
@@ -1063,6 +1150,7 @@ Voor elke nieuwe competentie, in deze volgorde — alles in één doorloop, geen
 2. **Valkuilen** — inline als `[!warning]` bij de relevante stap
 3. **Voorbeeldvragen** — zelfde aanpak als materie-fiches; raadpleeg eerst `resources/voorbeeldexamens/`
 4. **Links** — elke stap verwijst naar de juiste materie-sectie of andere competentie
+5. **Rolreview** — zelfde werkwijze als Stap 3A: spawn alle zes rollen parallel, verwerk autonoom, log in `.po-voortgang-[PO].md`
 
 **Kwaliteitscheck na schrijven** — volgt rechtstreeks uit de §Regels hierboven:
 - Heeft elke stap een 📥 én een 📤? Is de uitkomst concreet genoeg?
@@ -1082,12 +1170,41 @@ De inline competentie-links (bij taken) en materie-links (bij kenniselementen) z
    - Zijn alle kenniselementen gelinkt — geen bullet zonder link?
    - Kan een student die enkel de aggregatielijsten doorloopt alle examenstof zien?
    - Staan competenties in leeslogische volgorde (basiscompetenties vóór samengestelde)?
+6. **Cross-fiche rolreview** — spawn Coherentie-reviewer en Examinator op alle nieuw gemaakte fiches samen:
+   - Coherentie-reviewer: spreken de fiches elkaar niet tegen? zijn drempelwaarden en definities consistent?
+   - Examinator: zijn er integratievragen mogelijk die meerdere fiches combineren?
+   - Cross-PO integratie: hoe integreert dit PO met andere POs die al bestaan? linken de fiches correct naar en vanuit andere programmaonderdeel-fiches?
+   - Bevindingen + beslissingen → `.po-voortgang-[PO].md` onder `## Stap 4 — Cross-fiche review`
 
 > Deze check is repetitief genoeg om later als geautomatiseerde routinecontrole (agent) te draaien — bijv. wekelijks over alle vakfiches.
 
 ### Stap 5 — Validatie door de gebruiker
 - Gebruiker valideert materie → `status: draft` blijft, `wip`-tag blijft
 - Wanneer gebruiker volledig tevreden is: `wip`-tag verwijderen, `status: geverifieerd`
+
+### Reviewrollen
+
+Elke fiche wordt beoordeeld vanuit zes brillen. Elke rol vangt een ander type probleem op.
+
+| Rol | Mindset | Vangt op | Detailsectie |
+|---|---|---|---|
+| **Stagiair** | "Is dit duidelijk en concreet?" | Te abstracte uitleg, ontbrekende voorbeelden | §Student-perspectief review, §Kritische lezing |
+| **QA-persoon** | "Klopt dit met de bronnen?" | Feitelijke fouten, ontbrekende bronverwijzingen, tegenstrijdige beweringen | §Wettekstverificatie |
+| **Examinator** | "Hoe toets ik dit echt?" | Ontbrekende vraagvarianten, ongeteste integratieniveaus | §Examinator-review |
+| **Bibliothecaris** | "Zijn alle links gelegd?" | Ontbrekende wikilinks, polyseme termen zonder kwalificatie | §Semantische hyperlinkdoorlezing |
+| **Stage-mentor** | "Wat doet de praktijk anders?" | Norm vs. praktijkkloof, ongeschreven conventies | §Stage-mentor review |
+| **Coherentie-reviewer** | "Spreken fiches elkaar niet tegen?" | Cross-fiche inconsistenties, conflicterende drempelwaarden | §Coherentie-review |
+
+**Modus 1 — tijdens de build (synchroon, Stap 3A/3B/4)**
+- Alle zes rollen draaien parallel op de fiche-draft
+- Bevindingen worden autonoom verwerkt — nooit wachten op de gebruiker
+- Conflicterende rol-feedback wordt autonoom gewikt; redenering gelogd in `.po-voortgang-[PO].md`
+- De fiche wordt gereviseerd vóór de build verdergaat
+
+**Modus 2 — post-build exploratory (asynchroon)**
+- Agents wandelen door bestaande content zonder specifieke opdracht
+- Obvious fixes → autonoom verwerkt
+- Grotere beslissingen → geflagd als `⚠️ WACHT OP GEBRUIKER` in `EXPLORATORY.md`; de gebruiker beslist wanneer het uitkomt
 
 ### Semantische hyperlinkdoorlezing
 
@@ -1177,6 +1294,65 @@ Na het schrijven of aanpassen van een fiche, doorloop ze als een stagiair die de
 
 Wanneer je de review uitvoert en een lacune vindt: vul die meteen in, label met 🤖 als er geen bronvermelding is, en ga verder. Niet rapporteren en wachten — oplossen.
 
+### Examinator-review
+
+Bekijk de fiche als iemand die vragen opstelt voor het bekwaamheidsexamen. Doel: niet controleren of de inhoud correct is (QA-rol), maar of de fiche écht bekwaamheid toetst en of er blinde vlekken zijn die een overhaaste student zouden misleiden.
+
+| Wat je controleert | Vraag die je stelt |
+|---|---|
+| Niveau van de voorbeeldvragen | Is er minstens één vraag per niveau (weten / toepassen / integratie)? |
+| Conceptbotsing | Is er een vraag waarbij twee concepten of uitzonderingen met elkaar in conflict komen? |
+| Overhaaste student | Welke verkeerde aanname zou een bekwame-maar-haastige student maken? Staat die als valkuil in de fiche? |
+| Onderscheid gelijkaardige concepten | Is er een vraag die het verschil test tussen dit concept en een naburig concept? |
+| Integratie-casus | Is er minstens één scenario-vraag waarbij de student moet redeneren, niet opzoeken? |
+| Dekking kenniselementen | Dekt de set voorbeeldvragen alle TDKs die naar deze fiche linken? |
+
+**Werkwijze:**
+1. Lees `resources/voorbeeldexamens/INDEX.md` — zijn er echte vragen over dit concept?
+2. Neem bestaande vragen als basis en maak varianten die andere aspecten testen
+3. Stel minstens één vraag waarbij de student iets moet *uitleggen* of *adviseren*, niet alleen aanvinken
+4. Voeg toe als `[!question]-` callout met `📝` of `🤖` label
+
+**Signaal dat de examinator-laag ontbreekt**: alle voorbeeldvragen zijn "juist/fout" of definitievragen zonder toepassing of integratie.
+
+### Stage-mentor review
+
+Bekijk de fiche als een ervaren beroepsbeoefenaar die de stagepraktijk kent. De norm zegt X — maar wat doet iedereen in de praktijk? Wat staat nergens geschreven maar is toch standaard?
+
+| Wat je controleert | Vraag die je stelt |
+|---|---|
+| Norm vs. praktijk | Beschrijft de fiche enkel wat de norm/wet zegt, of ook hoe het in de praktijk uitpakt? |
+| Ongeschreven conventies | Zijn er standaardpraktijken die "iedereen kent" maar die nergens gedocumenteerd staan? |
+| Contextafhankelijkheid | Geldt de werkwijze voor alle kantoorgroottes en cliëntprofielen, of enkel voor bepaalde contexten? |
+| Praktische valkuilen | Zijn er fouten die beginners systematisch maken — niet uit onwetendheid maar uit gewoonte vanuit een andere context? |
+
+**Werkwijze:**
+- Voeg praktijkinput toe als `[!info]- In de praktijk` blok, altijd gelabeld 🤖
+- Als norm en praktijk divergeren: vermeld dat expliciet — "De norm vereist X; in de praktijk wordt Y toegepast omdat Z"
+- Nooit als bronloze bewering — altijd als gelabelde aanvulling
+
+**Signaal dat de stage-mentor-laag ontbreekt**: de fiche leest als een wettekst-samenvatting zonder enig concreet praktijkgevoel.
+
+### Coherentie-review
+
+Bekijk de fiche niet op zichzelf maar in relatie tot andere fiches. De coherentie-reviewer controleert of fiches die naar elkaar verwijzen ook inhoudelijk consistent zijn — niet alleen qua links (bibliothecaris) of qua bronnen (QA).
+
+| Wat je controleert | Vraag die je stelt |
+|---|---|
+| Consistentie met gelinkte fiches | Zegt deze fiche over concept X hetzelfde als de fiche die concept X definieert? |
+| Conflicterende beweringen | Als fiche A "altijd verplicht" zegt maar fiche B een uitzondering beschrijft voor dezelfde situatie — staat dat conflict ergens vermeld? |
+| Drempelwaarden en tarieven | Zijn bedragen en drempels consistent over alle fiches die ernaar verwijzen? |
+| Competentie ↔ materie | Baseert de competentie-fiche een stap op materie die in de materie-fiche ook zo beschreven staat? |
+| Veronderstelde kennis | Veronderstelt een fiche kennis die in de gelinkte materie-fiche niet of anders beschreven staat? |
+
+**Werkwijze:**
+1. Selecteer de gelinkte fiches via de wikilinks in de fiche
+2. Lees de overeenkomende secties in beide fiches
+3. Bij inconsistentie: vermeld beide versies, geef aan welke bron hogere rang heeft (zie §Tegenstrijdige bronnen), markeer als `⚠️ te verifiëren`
+4. Bij verouderde veronderstelling in een competentie-fiche: pas de stap aan zodat ze de huidige materie-fiche weerspiegelt
+
+**Signaal dat coherentie-review nodig is**: meerdere fiches zijn recent aangepast en de downstream fiches zijn nog niet bijgewerkt.
+
 ### Kritische lezing
 
 Lees elke zin door vanuit het standpunt van een student die de stof voor het eerst ziet. Stelregel: **als een student bij het lezen een vraag heeft die de tekst niet beantwoordt, is de zin onvolledig.**
@@ -1204,6 +1380,7 @@ De oplossing is altijd: de informatie meteen in de tekst opnemen, niet doorverwi
 | Passieve zin verbergt de actor | Herschrijf actief: wie doet wat? |
 | Vergelijking staat vóór de begrippen | Tabel pas na introductie van alle betrokken concepten |
 | Eén sectie over twee ongerelateerde thema's | Opsplitsen in twee secties |
+| Abstract principe wordt geframed als instrument-specifiek | Bij elke fiche die een algemeen principe beschrijft: stel je de vraag "Geldt dit ook buiten de context van dit instrument?" Als ja → scope de intro naar het algemene niveau en verwijs voor de instrumentgebonden toepassing naar de instrumentfiche. Voorbeeld: boekhoudkundige beginselen gelden voor de hele boekhouding, niet alleen voor de jaarrekening. |
 
 ### Feedback als verbeterimpuls
 
@@ -1224,6 +1401,10 @@ Doel: de feedback van vandaag wordt de zelfcheck van morgen. Dit houdt de verifi
 ```
 certificaid/
 ├── CLAUDE.md
+├── EXPLORATORY.md               # Post-build exploratory bevindingen (alle rollen, met escalatiemarkering)
+├── EXPLORATORY-coverage.md      # Coverage-overzicht: welke rol heeft welke fiche wanneer bekeken
+├── .po-voortgang-[PO].md        # Per actieve PO-build: voortgang, rolreviews, beslissingen
+├── .po-target                   # Actief PO-nummer voor po-builder
 ├── quartz.config.ts        # Quartz-configuratie (titel, plugins, baseUrl)
 ├── quartz.layout.ts        # Quartz-layout (sidebar, zoeken, backlinks)
 ├── quartz/                 # gitignored — copy van node_modules na `npm install`

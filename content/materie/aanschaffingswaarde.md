@@ -86,14 +86,14 @@ De **LIFO**-methode (last in, first out) is ook toegestaan maar kan leiden tot e
 
 ---
 
-> [!warning]- Alle rente op financiering mag in de aanschaffingswaarde worden opgenomen
+> [!warning]- Enkel rente vóór bedrijfsklaarheid mag worden geactiveerd, niet daarna
 > ❌ *"Een onderneming die een lening aangaat om een gebouw te bouwen, mag alle rente op die lening activeren als onderdeel van de aanschaffingswaarde."*
 >
 > Rente mag enkel worden geactiveerd voor de **periode vóór de bedrijfsklaarheid** van het actief. Zodra het gebouw in gebruik is genomen, wordt rente op de financiering rechtstreeks als financiële kost geboekt — niet langer geactiveerd. Rente tijdens de bouwperiode: activeerbaar. Rente daarna: kost.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- De vervaardigingsprijs omvat altijd alle overhead
+> [!warning]- Overhead in de vervaardigingsprijs opnemen is optioneel, niet verplicht
 > ❌ *"Bij zelfvervaardigde activa moeten alle overheadkosten worden opgenomen in de vervaardigingsprijs."*
 >
 > Onrechtstreeks toerekenbare productiekosten (overhead) zijn **optioneel** — de onderneming mag ze al dan niet opnemen. Enkel de directe productiekosten en de aanschaffingskosten van grondstoffen zijn verplicht. Wanneer de optie niet wordt gebruikt, vermeldt de onderneming dit in de toelichting.

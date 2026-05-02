@@ -107,7 +107,7 @@ Toont welk percentage van de omzet overblijft na de directe productiekosten, vó
 
 📝 *Zwaar gewogen in elk voorbeeldexamen. Subsidies beïnvloeden de uitkomst — zie valkuil hieronder.*
 
-> [!warning]- Exploitatiesubsidies en de brutoverkoopmarge
+> [!warning]- Lees de toelichting om te weten of exploitatiesubsidies in de brutoverkoopmarge zijn opgenomen
 > ❌ *"Exploitatiesubsidies tel ik altijd op bij de omzet in de noemer."*
 >
 > Exploitatiesubsidies (rubriek 740) verhogen de toegevoegde waarde maar zijn geen omzet. Of ze in de teller en/of noemer worden meegenomen, hangt af van de definitie die het examen gebruikt. Het examen specificeert dit expliciet in de toelichting: *"Er werden exploitatiesubsidies aangerekend voor X euro"* of *"intrestsubsidies van X euro"*. Lees de toelichting voor je berekent.
@@ -199,7 +199,7 @@ Hoe hoger, hoe sneller de voorraad omloopt. Gebruik **kostprijs van de verkopen*
 
 📝 *Voorbeeldexamen 2015: antwoord C = 3.457.309 / 1.344.750 = 2,57 — gemiddelde voorraad als noemer, kostprijs als teller*
 
-> [!warning]- Eindvoorraad vs. gemiddelde voorraad bij voorraadrotatie
+> [!warning]- Gebruik de gemiddelde voorraad als noemer bij voorraadrotatie, niet de eindvoorraad
 > ❌ *"Ik gebruik de eindvoorraad als noemer — dat zijn de meest recente gegevens."*
 >
 > De eindvoorraad is een momentopname en gevoeliger voor seizoenseffecten. De gemiddelde voorraad (begin + einde / 2) geeft een representatiever beeld van de voorraad die gedurende het jaar aangehouden werd. Het examen bevat doorgaans zowel eind- als gemiddelde voorraad — kies de juiste.
@@ -309,14 +309,14 @@ Vennootschappen die het **verkort schema** mogen gebruiken, publiceren minder de
 
 ---
 
-> [!warning]- Een current ratio > 1 is altijd goed
+> [!warning]- Een current ratio > 1 sluit een liquiditeitsprobleem niet uit
 > ❌ *"Zolang de current ratio boven 1 staat, heeft de onderneming geen liquiditeitsprobleem."*
 >
 > De current ratio houdt geen rekening met de **opeisbaarheid** van de vlottende activa. Een onderneming met een current ratio van 1,8 maar met voorraden die moeilijk verkoopbaar zijn en klanten die 180 dagen nodig hebben om te betalen, kan toch krap bij kas zitten. Kijk altijd ook naar de quick ratio (excl. voorraden) en de werkkapitaalcyclus.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Een hoge ROE is altijd een teken van goede prestaties
+> [!warning]- Een hoge ROE kan het gevolg zijn van hoge schuldenlast, niet van goede prestaties
 > ❌ *"Hoe hoger de ROE, hoe beter het management zijn werk doet."*
 >
 > ROE kan hoog zijn doordat de onderneming weinig eigen vermogen heeft (hoge schuldenlast) — niet doordat ze operationeel uitstekend presteert. Een onderneming met 10% eigen vermogen en 90% schulden heeft bij dezelfde winst een vijf keer hogere ROE dan een equivalent bedrijf met 50% eigen vermogen. ROE moet altijd worden bekeken naast de solvabiliteitsratio om te beoordelen of de hoge return duurzaam is.

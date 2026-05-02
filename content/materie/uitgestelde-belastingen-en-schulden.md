@@ -66,7 +66,7 @@ Op de [[jaarrekening|balans]] worden schulden gerangschikt in toenemende volgord
 - Schulden op ten hoogste één jaar (kort vreemd vermogen)
 - Overlopende rekeningen van het passief
 
-> [!warning]- Balansrangschikking: toenemende opeisbaarheid
+> [!warning]- Actief en passief zijn beide gerangschikt van minst naar meest opeisbaar/liquide
 > ❌ *"Het passief van de balans is gerangschikt van meest naar minst opeisbaar — net zoals het actief van meest naar minst liquide."*
 >
 > Het actief is gerangschikt van minst naar meest liquide (vaste activa eerst, liquide middelen onderaan). Het passief is gerangschikt van minst naar meest opeisbaar (eigen vermogen eerst, kortetermijnschulden onderaan). De richting is voor beide hetzelfde: van "vast/permanent" naar "vluchtig/opeisbaar".

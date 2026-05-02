@@ -46,6 +46,24 @@ Een verrichting is atypisch wanneer ze:
 - Gefragmenteerde betalingen die samen boven een drempel uitkomen (smurfing)
 - Cliënt weigert de herkomst van fondsen te verklaren
 
+> [!info]- Concreet: smurfing herkennen in de boekhouding
+>
+> Je verwerkt de kasboeken van een handelscliënt (frituur). Je ziet:
+>
+> ```
+> Datum       Omschrijving                    Ontvangst
+> ──────────────────────────────────────────────────────
+> 03/04       Contante betaling klant X       €2.800
+> 07/04       Contante betaling klant X       €2.900
+> 12/04       Contante betaling klant X       €2.750
+> ──────────────────────────────────────────────────────
+> Totaal in 10 dagen van dezelfde klant:      €8.450
+> ```
+>
+> Elk bedrag blijft net onder €3.000. Een frituur heeft zelden één klant die voor duizenden euro's inkoopt. Patroon = gefragmenteerde betalingen (smurfing) + omvang past niet bij het cliëntprofiel → **atypisch**.
+>
+> 🤖 *AI-aanvulling*
+
 *(Grondslag: 🤖 analytische praktijk — zie ook [[antiwitwaswetgeving#-clientenonderzoek-cdd|doorlopende waakzaamheid (CDD)]])*
 
 ---
@@ -68,7 +86,7 @@ De drempel van [[bronnen/wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]
 - De verrichting vertoont typische kenmerken van een bekende witwasmethode
 - De atypische verrichting kadert in een reeks van gelijkaardige signalen
 
-> [!warning]- Zekerheid vereist vóór melding
+> [!warning]- Melden vereist geen zekerheid — een vermoeden volstaat
 > ❌ *"Ik moet zeker zijn dat mijn cliënt aan het witwassen is voor ik meld."*
 >
 > De drempel is bewust laag gehouden: **vermoedens** en **redelijke gronden** volstaan ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]). Wie wacht op zekerheid, schiet zijn meldingsplicht te kort. Bovendien beschermt de wet de melder: een melding te goeder trouw kan niet leiden tot burgerrechtelijke aansprakelijkheid, ook als het vermoeden later ongegrond blijkt ([[bronnen/wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]]).
@@ -93,6 +111,27 @@ De medewerker stelt een intern verslag op voor de AMLCO met ([[bronnen/wettekste
 - Beschrijving van de atypische verrichting (wat, wanneer, welk bedrag)
 - Reden waarom de verrichting atypisch lijkt
 - Reactie van de cliënt (als hij om een verklaring gevraagd werd)
+
+```
+Intern verslag atypische verrichting (structuur)
+─────────────────────────────────────────────────
+Datum:          15 april 20XX
+Medewerker:     [naam]
+Cliënt:         [naam + dossiernummer]
+
+Verrichting:    3× contante ontvangst van klant X (€2.800, €2.900, €2.750)
+                over de periode 3–12 april 20XX
+                Totaal: €8.450
+
+Waarom atypisch: bedragen net onder €3.000 per transactie; cliënt is
+                 frituur (laag gemiddelde per klant); geen zakelijke
+                 verklaring gekregen bij navraag
+
+Reactie cliënt: "het is een goede klant, dat is zijn zaak"
+
+Verzoek aan AMLCO: beoordeling of externe melding aan CFI aangewezen is
+─────────────────────────────────────────────────
+```
 
 Het is ook mogelijk dat de beroepsbeoefenaar zelf AMLCO is (éénpersoonskantoor) — in dat geval vervalt het onderscheid tussen stap 3 en stap 4, en beslist hij direct over externe melding.
 
@@ -139,14 +178,14 @@ Dit verbod geldt ongeacht of de beroepsbeoefenaar de verrichting uitvoert, weige
 
 **Wat de beroepsbeoefenaar wél mag zeggen** als hij de verrichting weigert of de relatie beëindigt: hij mag dat meedelen aan de cliënt, maar mag niet de werkelijke reden geven als die verband houdt met de WG/FT-beoordeling.
 
-> [!warning]- Weigering van verrichting meedelen aan cliënt
+> [!warning]- Vermeld bij weigering nooit de WG/FT-reden aan de cliënt
 > ❌ *"Ik weiger de verrichting en leg de cliënt uit dat ik dit doe omdat ik het vermoeden heb van witwassen."*
 >
 > De beroepsbeoefenaar mag de weigering meedelen, maar mag niet de werkelijke reden vermelden als die verband houdt met een WG/FT-vermoeden of een melding aan de CFI. Hij kan een neutrale formulering gebruiken (bv. "ik kan deze opdracht niet uitvoeren"). Het tipping-off verbod beschermt het opsporingsonderzoek.
 >
 > 📝 *Terugkerende examenvalkuil*
 
-> [!warning]- Tipping-off verbod geldt niet bij beroepsgeheim
+> [!warning]- Melden aan de CFI schendt het beroepsgeheim niet — het is een wettelijke uitzondering erop
 > ❌ *"Het tipping-off verbod is een uitzondering op het beroepsgeheim — melden aan de CFI schendt mijn geheimhoudingsplicht."*
 >
 > Nee — de twee regels werken in tegengestelde richting. De meldingsplicht (stap 4) is een wettelijke **uitzondering** op het [[beroepsgeheim|beroepsgeheim]]: melden aan de CFI is géén schending. Het tipping-off verbod (stap 5) is de omgekeerde beperking: na de melding mag je de cliënt niét inlichten. Er is geen tegenstrijdigheid — het zijn twee aparte verplichtingen.

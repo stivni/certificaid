@@ -101,14 +101,14 @@ De vrije kasstroom is de kasstroom die overblijft na de investeringen die nodig 
 
 ---
 
-> [!warning]- Een winstgevende onderneming heeft altijd positieve kasstromen
+> [!warning]- Winst en positieve kasstromen lopen niet synchroon
 > ❌ *"De onderneming maakt winst, dus haar kasstromen zijn positief."*
 >
 > Winst en kasstromen lopen niet synchroon. Een sterk groeiende onderneming kan een hoge winst boeken maar negatieve operationele kasstromen hebben doordat ze steeds meer geld vastzet in hogere voorraden en uitstaande vorderingen. Dit fenomeen — snel groeien terwijl de kaspositie daalt — heet "overtrading" en is een van de meest voorkomende oorzaken van faillissement bij winstgevende bedrijven.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Een negatieve investeringskasstroom is altijd slecht
+> [!warning]- Een negatieve investeringskasstroom is voor een groeiende onderneming normaal
 > ❌ *"De onderneming heeft een negatieve investeringskasstroom van € 2 miljoen — dat is zorgwekkend."*
 >
 > Een negatieve investeringskasstroom betekent dat de onderneming investeert — en dat is voor een groeiende onderneming **normaal en verwacht**. Zorgwekkend zou het pas zijn als ze meer investeert dan haar operationele kasstromen genereren zonder daarvoor financiering aan te trekken. Context is alles: bekijk de vrije kasstroom (operationeel − investeringen) en of de investeringen renderen.

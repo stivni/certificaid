@@ -34,7 +34,7 @@ Bepaal of de vennootschap onderworpen is aan de consolidatieverplichting op basi
 
 *(Grondslag: [[bronnen/wetteksten/XV-wvv#art-323|WVV art. 3:23–3:27]])*
 
-> [!warning]- Genoteerde vennootschap in de groep
+> [!warning]- Een genoteerde vennootschap in de groep maakt alle vrijstellingen ongeldig
 > ❌ *"De groep is klein genoeg voor de vrijstelling, dus hoeft er niet geconsolideerd te worden."*
 >
 > Zodra één vennootschap in de groep genoteerd is, vervallen alle vrijstellingen en geldt de consolidatieplicht ongeacht de omvang van de groep.
@@ -59,6 +59,25 @@ Beoordeel voor elke participatie het type relatie:
 | Invloed van betekenis | Vermoeden bij ≥ 20% stemrechten | Vermogensmutatiemethode |
 
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3124|KB-WVV art. 3:124]]; [[bronnen/wetteksten/XV-wvv#art-121|WVV art. 1:21]])*
+
+> [!info]- Concreet: type relatie bepalen voor drie participaties
+>
+> ```
+> Groep M heeft participaties in drie entiteiten:
+>
+> Entiteit A: M bezit 75% van de stemrechten
+>   → Exclusieve controle → integrale consolidatie
+>
+> Entiteit B: M en N (ongelieerde partij) bezitten elk 50%, contractueel
+>             overeengekomen dat beide partijen gezamenlijk beslissen
+>   → Gezamenlijke controle → evenredige consolidatie
+>
+> Entiteit C: M bezit 25% van de stemrechten, geen bestuurszetel,
+>             geen andere aanwijzingen van controle
+>   → Vermoeden invloed van betekenis (≥20%) → vermogensmutatiemethode
+> ```
+>
+> 🤖 *AI-aanvulling*
 
 ### 3. 🔀 Weglatingen en verplichte uitsluitingen beoordelen
 

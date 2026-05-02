@@ -22,13 +22,7 @@ Het toepasselijke jaarrekeningschema en de afgeleide wettelijke verplichtingen v
 > 📤 **Uitkomst**:
 > - Entiteitstype vastgesteld (vennootschap / vzw / stichting / andere)
 
-Het entiteitstype bepaalt welke WVV-artikelen van toepassing zijn en welke drempelwaarden gelden voor de groottecategorie.
-
-| Type | Toepasselijke bepalingen |
-|---|---|
-| Vennootschap (bv, nv, cv, ...) | WVV art. 1:24–1:25 + Boek 3 |
-| VZW / IVZW | WVV art. 1:28–1:30 + Boek 9 |
-| Stichting | WVV art. 1:30–1:31 + Boek 10 |
+Het entiteitstype bepaalt welke WVV-artikelen en drempelwaarden van toepassing zijn in de volgende stappen — de rechtsvorm is af te lezen uit de naam of oprichtingsakte (bv, nv, cv → vennootschap; vzw → vzw; stichting → stichting).
 
 
 ### 2. 🔀 WVV-toepasselijkheid controleren
@@ -46,7 +40,7 @@ Voor vennootschappen, vzw's en stichtingen met rechtspersoonlijkheid: ja, altijd
 **Uitzondering — bijkantoor buitenlandse vennootschap**: het bijkantoor zelf legt geen jaarrekening neer, maar de buitenlandse moedervennootschap heeft een eigen neerleggingsplicht voor haar buitenlandse jaarrekening (WVV art. 2:24) — andere regels dan voor Belgische vennootschappen.
 
 
-> [!warning]- Eenmanszaak verwarren met een kleine vennootschap
+> [!warning]- Een eenmanszaak is nooit verplicht een jaarrekening neer te leggen, ongeacht haar omzet
 > ❌ *"Een eenmanszaak met grote omzet moet ook een jaarrekening neerleggen."*
 >
 > De grens is niet omvang maar rechtsvorm: heeft de entiteit rechtspersoonlijkheid of niet? Een eenmanszaak heeft dat niet, ongeacht haar omzet.
@@ -67,19 +61,34 @@ De groottecategorie is het scharnier voor alle volgende stappen. Voer de grootte
 
 Uitkomst: micro / klein / groot. Pas de twee-jaar-regel toe: een categoriewijziging heeft pas gevolgen na twee opeenvolgende boekjaren met hetzelfde resultaat.
 
+> [!info]- Concreet: groottebepaling stap voor stap
+>
+> Een bv heeft: balanstotaal €3,2M · omzet €7,8M · 38 werknemers (twee jaar op rij dezelfde cijfers).
+>
+> ```
+> Drempelwaarden kleine vennootschap (WVV art. 1:24):
+>   balanstotaal ≤ €6M          → 3,2M ✅ niet overschreden
+>   omzet        ≤ €11,25M      → 7,8M ✅ niet overschreden
+>   werknemers   ≤ 50           → 38   ✅ niet overschreden
+>
+> Overschreden: 0 van 3 → kleine vennootschap (twee jaar op rij) ✓
+> ```
+>
+> 🤖 *AI-aanvulling*
+
 **Uitzondering — verbonden vennootschappen**: omzet en balanstotaal worden op geconsolideerde basis berekend, werknemers worden opgeteld (WVV art. 1:24 §6). De eigen cijfers van de entiteit volstaan niet.
 
 **Uitzondering — eerste boekjaar**: geen historiek voor de twee-jaar-regel. Schat de criteria te goeder trouw; worden meer dan één overschreden, dan geldt de hogere categorie meteen (WVV art. 1:24 §3).
 
 
-> [!warning]- Criteria op individuele basis berekenen bij een groep
+> [!warning]- Bereken groottecriteria op geconsolideerde basis bij verbonden vennootschappen
 > ❌ *"De dochter heeft een balanstotaal van €2M, dus ze is zeker micro."*
 >
 > Bij verbonden vennootschappen tellen de geconsolideerde cijfers. Een kleine dochter van een grote groep kan zelf ook als groot worden beschouwd.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Categoriewijziging zonder twee-jaar-regel
+> [!warning]- Categoriewijziging treedt pas in werking na twee opeenvolgende boekjaren van overschrijding
 > ❌ *"De omzet overschrijdt dit jaar de drempel — dit jaar al een volledig schema."*
 >
 > De gevolgen gaan pas in na het tweede opeenvolgende boekjaar. Eén jaar overschrijding wijzigt de categorie nog niet.
@@ -114,6 +123,14 @@ Kleine vennootschappen zonder beursgenoteerde effecten zijn vrijgesteld (WVV art
 
 **Uitzondering**: grote vennootschappen en kleine vennootschappen die effecten hebben uitgegeven op een gereglementeerde markt zijn wel verplicht.
 
+```
+Jaarverslag verplicht?
+  Grote vennootschap?            → ja → VERPLICHT
+  Klein + beursgenoteerd?        → ja → VERPLICHT
+  Klein + niet-beursgenoteerd?   → ja → vrijgesteld
+  Micro?                         → ja → vrijgesteld
+```
+
 Zie voor inhoudsvereisten: [[jaarverslag]].
 
 
@@ -133,10 +150,20 @@ Grote vennootschappen, organisaties van openbaar belang en beursgenoteerde venno
 
 **Uitzondering — consolidatieplichtige groep**: een kleine vennootschap die deel uitmaakt van een groep die verplicht een geconsolideerde jaarrekening opstelt, moet toch een commissaris aanstellen — ongeacht haar eigen groottecategorie (WVV art. 3:72, 2°).
 
+```
+Commissaris verplicht?
+  Grote vennootschap?                      → ja → VERPLICHT
+  Organisatie van openbaar belang?         → ja → VERPLICHT
+  Beursgenoteerd?                          → ja → VERPLICHT
+  Klein, deel van consolidatieplichtige    
+    groep? (WVV art. 3:72, 2°)            → ja → VERPLICHT  ← let op uitzondering
+  Klein, niet-genoteerd, geen groep?       → ja → vrijgesteld
+```
+
 Zie: [[jaarrekening#-commissaris]].
 
 
-> [!warning]- Commissarisplicht via de groep over het hoofd zien
+> [!warning]- Deel van een consolidatieplichtige groep = commissarisplicht, ook bij kleine vennootschap
 > ❌ *"Ze is een kleine vennootschap, dus geen commissaris nodig."*
 >
 > Als de vennootschap deel uitmaakt van een consolidatieplichtige groep, geldt de uitzondering van art. 3:72 2°: commissaris toch verplicht, ook al is de vennootschap zelf klein.

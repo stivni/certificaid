@@ -118,7 +118,7 @@ Een hoge hefboom is een versterker, niet per se een risico. Bij groei werkt de h
 
 De beoordeling hangt af van de context: hoe stabiel is de omzet? Hoe zeker zijn de kasstromen? Een hoge DOL in een cyclische sector is riskanter dan dezelfde DOL in een stabiele sector.
 
-> [!warning]- Hoge ROE door hefboom verward met operationele kwaliteit
+> [!warning]- Beoordeel ROE altijd samen met ROA om de hefboom te onderscheiden van operationele kwaliteit
 > ❌ *"Deze onderneming heeft een ROE van 30% — ze presteert uitstekend."*
 >
 > Een hoge [[financiele-ratios#-aandeelhoudersratio-s|ROE]] kan het gevolg zijn van de financiële hefboom: met weinig eigen vermogen wordt dezelfde absolute winst over een kleinere basis verdeeld. De operationele prestatie (ROA) kan middelmatig zijn terwijl de ROE uitzonderlijk lijkt. Bekijk ROE altijd samen met de ROA — het verschil verklaart de hefboomwerking.

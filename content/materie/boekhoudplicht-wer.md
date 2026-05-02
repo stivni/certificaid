@@ -167,21 +167,21 @@ Voor **niet-WVV-ondernemingen** (bv. eenmanszaken boven de drempel): ze volgen v
 
 ---
 
-> [!warning]- De omzetdrempel voor vereenvoudigde boekhouding is € 620.000
+> [!warning]- De algemene omzetdrempel voor vereenvoudigde boekhouding is € 500.000, niet € 620.000
 > ❌ *"Een zelfstandige mag een vereenvoudigde boekhouding voeren zolang zijn omzet onder de € 620.000 blijft."*
 >
 > De algemene drempel is **€ 500.000** (excl. btw). De drempel van € 620.000 is een uitzondering voor **brandstofhandelaren** (benzinestations e.d.). Voor alle andere ondernemingen geldt € 500.000. Bij een gebroken boekjaar wordt de drempel bovendien proportioneel berekend.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Boeken moeten 10 jaar bewaard worden
+> [!warning]- Boeken moeten 7 jaar bewaard worden, niet 10
 > ❌ *"Boekhoudkundige documenten moeten minstens 10 jaar bewaard worden."*
 >
 > De wettelijke bewaarplicht voor boeken is **7 jaar**, te rekenen van 1 januari van het jaar dat volgt op de afsluiting. De verwarring met 10 jaar komt uit het fiscale recht (waar langere termijnen kunnen gelden bij fraude of niet-aangifte). Boekhoudrechtelijk geldt 7 jaar als basisregel.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Een landbouwbedrijf is altijd vrijgesteld van boekhoudplicht
+> [!warning]- Landbouwvennootschappen die Vpb-plichtig zijn, zijn niet vrijgesteld van boekhoudplicht
 > ❌ *"Een vennootschap die een land- en tuinbouwbedrijf exploiteert, is nooit boekhoudplichtig."*
 >
 > De vrijstelling geldt enkel voor ondernemingen die **uitsluitend** een land- of tuinbouwbedrijf exploiteren én **niet in de vennootschapsbelasting** worden belast. Een landbouwvennootschap (bv. een bv die een landbouwbedrijf uitbaat en in de Vpb valt) is wél boekhoudplichtig.

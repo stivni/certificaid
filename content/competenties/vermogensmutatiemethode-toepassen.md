@@ -65,7 +65,7 @@ In de geconsolideerde resultatenrekening verschijnt het aandeel in het resultaat
 
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3142|KB-WVV art. 3:142–3:143]])*
 
-> [!warning]- Ontvangen dividend verlagen de boekwaarde — niet als opbrengst boeken
+> [!warning]- Ontvangen dividend van geassocieerde vennootschap als financiële opbrengst boeken
 > ❌ *"Dividenden ontvangen van een geassocieerde vennootschap worden als financiële opbrengst geboekt in de geconsolideerde resultatenrekening."*
 >
 > In de geconsolideerde jaarrekening worden ontvangen dividenden van een geassocieerde vennootschap **niet** als opbrengst verwerkt. Ze verlagen de boekwaarde van de deelneming, omdat het dividend een uitkering is van eigen vermogen dat al via het "aandeel in het resultaat" was opgenomen.
@@ -95,6 +95,30 @@ Behandel het initiële consolidatieverschil op dezelfde wijze als bij [[consolid
 - **Positief verschil**: afschrijven ten laste van de geconsolideerde resultatenrekening ([[bronnen/wetteksten/XV-KB-wvv#art-3147|KB-WVV art. 3:147]]).
 - **Negatief verschil**: niet meteen in resultaat; enkel vrijval wanneer verwachte verliezen of kosten van de geassocieerde vennootschap werkelijkheid worden.
 
+> [!info]- Concreet: consolidatieverschil bij equity-methode
+>
+> M koopt 30% van G voor 400. Gecorrigeerd EV van G op overnamedatum: 1.000.
+>
+> ```
+> Aankoopprijs:                          400
+> − 30% × gecorrigeerd EV (30% × 1.000): 300
+> ────────────────────────────────────────────
+> Initieel positief consolidatieverschil: 100
+>
+> Geen stille reserves → volledig saldo = consolidatieverschil
+> Afschrijving over 5 jaar: 100 / 5 = 20 per jaar
+>
+> Effect op boekwaarde deelneming (jaar 1, naast stap 2):
+>   Beginwaarde:                 400
+>   + aandeel resultaat G:       + x
+>   − dividend ontvangen:        − x
+>   − afschrijving cons.versch.: − 20
+>   ──────────────────────────────────
+>   Eindwaarde:                  380 + netto resultaataandeel
+> ```
+>
+> 🤖 *AI-aanvulling*
+
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3146|KB-WVV art. 3:146–3:147]])*
 
 ### 4. ✅ Presentatie in de geconsolideerde jaarrekening controleren
@@ -111,6 +135,21 @@ Behandel het initiële consolidatieverschil op dezelfde wijze als bij [[consolid
 **Resultatenrekening**: het aandeel in het resultaat verschijnt als afzonderlijke post. Dividenden verschijnen **niet** als opbrengst.
 
 **Toelichting**: geef per geassocieerde vennootschap informatie over de naam, zetel, percentage belang en de boekwaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-3148|KB-WVV art. 3:148]])
+
+```
+Geconsolideerde balans (extract) — passiva/activa
+
+ACTIVA
+II. Financiële vaste activa
+  A. Verbonden vennootschappen (integrale consolidatie)    x.xxx
+  C. Vennootschappen waarop vermogensmutatie              
+     is toegepast                                           660  ← eindwaarde deelneming G
+
+RESULTATENREKENING (extract)
+VII. Aandeel in het resultaat van vennootschappen
+     waarop vermogensmutatiemethode wordt toegepast        +120  ← 30% × resultaat G
+[Dividenden van G verschijnen hier NIET]
+```
 
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3141|KB-WVV art. 3:141]], [[bronnen/wetteksten/XV-KB-wvv#art-3143|art. 3:143]], [[bronnen/wetteksten/XV-KB-wvv#art-3148|art. 3:148]])*
 

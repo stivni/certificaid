@@ -29,6 +29,28 @@ Alle activa en passiva moeten gewaardeerd zijn volgens **uniforme regels** vóó
 2. **Eliminatie van fiscale distorsies**: grotere afschrijvingen of grotere passiva dan economisch verantwoord, aangebracht omwille van fiscale redenen, worden ongedaan gemaakt. ([[bronnen/wetteksten/XV-KB-wvv#art-3118|KB-WVV art. 3:118]])
 3. **Belastinglatenties** boeken voor tijdelijke belastingverschillen die ontstaan door de herwaarderingen en distorsie-eliminaties (post IX.B "Uitgestelde belastingen en belastinglatenties"). ([[bronnen/wetteksten/XV-KB-wvv#art-3119|KB-WVV art. 3:119]])
 
+> [!info]- Concreet: herwaardering afschrijvingspercentage
+>
+> Dochter D schrijft machines af over 10 jaar (10% per jaar). Moeder M hanteert 20% per jaar als groepsregel.
+>
+> ```
+> Situatie dochter D (enkelvoudige jaarrekening):
+>   Machine aanschaf:             100.000
+>   Boekjaren verstreken:         3
+>   Afschrijving D (10%/jaar):    30.000
+>   Boekwaarde D:                 70.000
+>
+> Na aanpassing aan groepsregel (20%/jaar):
+>   Gecumuleerde afschrijving:    60.000
+>   Gecorrigeerde boekwaarde:     40.000  ← verschil: −30.000
+>   Belastinglatentie (stel 25%): +7.500  ← tijdelijk verschil
+>   Netto aanpassing EV dochter:  −22.500
+> ```
+>
+> Deze gecorrigeerde boekwaarde (40.000) en het gecorrigeerde EV worden gebruikt als basis voor stap 2.
+>
+> 🤖 *AI-aanvulling*
+
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3115|KB-WVV art. 3:115–3:119]])*
 
 ### 2. 🔢 Kapitaaleliminatie berekenen
@@ -113,7 +135,7 @@ Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3134|KB-WVV art. 3:134, 3:136, 3:139]])*
 
-> [!warning]- Intercompany-winst in voorraden vergeten
+> [!warning]- Elimineer ook de niet-gerealiseerde intercompany-winst in de eindvoorraad
 > ❌ *"Intragroepsleveringen zijn geëlimineerd door de omzet te schrappen — klaar."*
 >
 > Naast de eliminatie van omzet/kost moet ook de **niet-gerealiseerde winst in de eindvoorraad** worden geëlimineerd. Als moeder een product met 30% marge verkoopt aan dochter en dochter heeft nog 40% in voorraad, dan zit er nog een intercompany-winst van 30% × 40% in de eindvoorraad van de dochter. Die winst is pas gerealiseerd wanneer dochter het aan een externe partij verkoopt.
@@ -132,6 +154,23 @@ Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 Positieve consolidatieverschillen (goodwill bij consolidatie) worden **afgeschreven** ten laste van de geconsolideerde resultatenrekening. ([[bronnen/wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])
 
 Wanneer de afschrijving over meer dan vijf jaar wordt gespreid, moet dit worden gemotiveerd in de toelichting.
+
+```
+Voorbeeld: afschrijvingsplan consolidatieverschil
+
+Positief consolidatieverschil op overnamedatum:    100
+Gekozen afschrijvingsduur:                         5 jaar (lineair)
+Jaarlijkse afschrijving:                           20
+
+Geconsolideerde balans — activa:
+  Jaar 1: boekwaarde consolidatieverschil    80  (100 − 20)
+  Jaar 2: boekwaarde consolidatieverschil    60  (80 − 20)
+  ...
+  Jaar 5: boekwaarde consolidatieverschil     0
+
+Geconsolideerde resultatenrekening (elk jaar):
+  Afschrijving consolidatieverschil:        −20  (kost)
+```
 
 *(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])*
 

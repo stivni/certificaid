@@ -108,21 +108,21 @@ De categorie bepaalt drie dingen: het [[jaarrekening|jaarrekeningschema]], de [[
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Bij overschrijding van één criterium word je meteen groot
+> [!warning]- Meer dan één criterium moet twee jaar overschreden worden voor een categoriewijziging
 > ❌ *"Een kleine vennootschap waarvan de omzet dit jaar boven € 11,25 miljoen uitkomt, is vanaf volgend jaar groot."*
 >
 > Eén criterium overschrijden maakt een vennootschap nog niet groot — de twee-jaar-regel vereist dat **meer dan één** criterium gedurende **twee opeenvolgende boekjaren** wordt overschreden. Pas dan treedt de grotecategorie in werking, en zelfs dan pas in het **derde boekjaar**. Eenmalige piek of overschrijding van slechts één drempel heeft geen categoriegevolgen.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Kleine vennootschappen moeten het verkort schema gebruiken
+> [!warning]- Het verkort schema is een recht voor kleine vennootschappen, geen plicht
 > ❌ *"Een kleine vennootschap is verplicht haar jaarrekening op te stellen volgens het verkort schema."*
 >
 > Het verkort schema is een **recht**, geen plicht. Een kleine vennootschap **mag** ook het volledige schema gebruiken. Hetzelfde geldt voor microvennootschappen met het microschema: ze mogen kiezen voor een uitgebreider schema.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Een microvennootschap kan deel uitmaken van een groep
+> [!warning]- Een microvennootschap mag geen deel uitmaken van een groep
 > ❌ *"Een kleine bv die dochtermaatschappij is van een grote groep, kan alsnog als microvennootschap worden ingedeeld als haar eigen cijfers onder de drempels blijven."*
 >
 > Een microvennootschap mag **geen dochter- of moedervennootschap** zijn. Wie deel uitmaakt van een groep, voldoet per definitie niet aan de microcriteria — ook al zijn de eigen cijfers klein. De reden: groepsverbanden kunnen worden gebruikt om boekhoudverplichtingen te omzeilen via kunstmatige opdeling.

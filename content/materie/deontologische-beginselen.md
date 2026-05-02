@@ -57,14 +57,14 @@ Beide dimensies moeten aanwezig zijn. Een beroepsbeoefenaar die feitelijk onafha
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Onafhankelijkheid als achtste beginsel
+> [!warning]- Onafhankelijkheid is een overkoepelende eis, geen zevende of achtste beginsel
 > ❌ *"Onafhankelijkheid is één van de zeven deontologische beginselen."*
 >
 > Onafhankelijkheid staat in art. 37 als **overkoepelende eis vóór de opsomming** van de zeven beginselen. De zeven beginselen gelden *in het kader van* die onafhankelijkheid — onafhankelijkheid is niet het achtste item in de reeks.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Objectiviteit en onafhankelijkheid zijn hetzelfde
+> [!warning]- Objectiviteit en onafhankelijkheid zijn twee onderscheiden begrippen
 > ❌ *"Objectiviteit en onafhankelijkheid betekenen hetzelfde — wie objectief is, is ook onafhankelijk."*
 >
 > **Objectiviteit** is één van de zeven deontologische beginselen: geen vooringenomenheid, geen belangenconflicten, geen ongepaste beïnvloeding toelaten in het professioneel oordeel. **Onafhankelijkheid** is het overkoepelend kader — het vereist zowel feitelijke vrijheid van beïnvloeding als de schijn daarvan naar buitenstaanders. Een beroepsbeoefenaar kan subjectief handelen (beginsel 3 schenden) zonder dat er een onafhankelijkheidsprobleem is, en omgekeerd: hij kan feitelijk objectief zijn maar schijnbaar niet onafhankelijk.
@@ -109,7 +109,7 @@ De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis
 
 **Zelfcontrolerisico bij combinatie**: een beroepsbeoefenaar die voor dezelfde cliënt zowel de boekhouding opstelt (niet-assurance) als de jaarrekening controleert (assurance), controleert feitelijk zijn eigen werk. Dat is een **zelfcontrolebedreiging** *(self-review threat)*: zijn conclusie is niet meer onafhankelijk van de gegevens die hij zelf heeft ingevoerd (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`).
 
-> [!warning]- Samenstellingsopdracht heeft geen onafhankelijkheidseis
+> [!warning]- De algemene onafhankelijkheidseis geldt ook bij samenstellingsopdrachten
 > ❌ *"Bij een samenstellingsopdracht hoef ik niet onafhankelijk te zijn — de KMO-norm geldt enkel voor controle."*
 >
 > De **strengere, gedetailleerde** onafhankelijkheidsregels uit de KMO-norm gelden inderdaad enkel voor assurance-opdrachten. Maar de algemene eis van art. 37 — volledige onafhankelijkheid — geldt voor **elke ingeschrevene** bij elke professionele activiteit. Wat verschilt is de mate van detail en de specifieke verboden, niet de basiseis zelf.
@@ -187,7 +187,7 @@ De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-o
 
 **Terugwerkende kracht**: de verboden nevendiensten onder 2° (boekhouding) en 7° (personeelsdiensten) gelden niet enkel tijdens de gecontroleerde periode, maar ook voor de **twee jaar daarvóór**.
 
-> [!warning]- Boekhouding en controle bij dezelfde cliënt zijn "enkel een risico om te beoordelen"
+> [!warning]- Boekhouding en controle bij dezelfde cliënt is absoluut verboden bij assurance-opdrachten
 > ❌ *"Of ik de boekhouding én de controle bij dezelfde cliënt mag doen, hangt af van mijn beoordeling van het zelfcontrolerisico."*
 >
 > Bij assurance-opdrachten is dit **geen afwegingskwestie**: de KMO-controlenorm verbiedt de combinatie van boekhouding (nevendienst 2°) en controle bij dezelfde cliënt **absoluut** — ook met 2 jaar terugwerkende kracht. Er is geen ruimte voor een beoordeling of het risico aanvaardbaar is. De enige oplossing is de combinatie vermijden.

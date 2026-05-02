@@ -31,7 +31,7 @@ Gewone opdrachten (bv. boekhouding voeren, belastingaangifte opstellen) staan op
 
 *(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-3|ITAA-LEX XXI · Wet ITAA art. 3]], [[bronnen/wetteksten/XXI-wet-itaa#art-6|art. 6]])*
 
-> [!warning]- GBA voert een voorbehouden opdracht uit
+> [!warning]- Een GBA mag geen voorbehouden opdrachten (art. 3, 6°–8°) uitvoeren, ook niet op verzoek van de cliënt
 > ❌ *"Een gecertificeerd belastingadviseur kan ook een omzettingsverslag opstellen als de cliënt dat vraagt."*
 >
 > Opdrachten voorbehouden aan gecertificeerde accountants (art. 3, 6°–8°: inbreng, fusie, splitsing, vereffening, expertise bij geschillen) zijn niet uitvoerbaar door een GBA, ook niet met instemming van de cliënt. Een GBA die zo'n opdracht aanvaardt, handelt in strijd met de deontologische regels — ongeacht zijn technische bekwaamheid.
@@ -63,7 +63,7 @@ Bij een **assurance-opdracht** (bv. controleopdracht, verklaring, verslag bij ve
 
 *(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]; zie ook [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]])*
 
-> [!warning]- Aandeelhouderschap in cliëntvennootschap bij niet-assurance-opdracht
+> [!warning]- Aandeelhouderschap in een cliëntvennootschap is ook bij niet-assurance-opdrachten problematisch
 > ❌ *"Ik houd 5% aandelen in een vennootschap waarvoor ik enkel de loonadministratie verzorg — dat is geen probleem want het is geen controleopdracht."*
 >
 > Ook bij niet-assurance-opdrachten geldt het verbod op activiteiten of daden die onverenigbaar zijn met de onafhankelijkheid van de hoedanigheid. Aandeelhouderschap in een cliëntvennootschap waarvoor je professioneel werkt, roept een gerechtvaardigde schijn van partijdigheid op — ook zonder controleopdracht. De beroepsbeoefenaar moet kunnen aantonen dat er geen objectieve uitvoering in het gedrang is.
@@ -108,6 +108,24 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 - Geografische kenmerken: zijn er landen of gebieden met een verhoogd WG/FT-risico betrokken?
 - Leveringskanalen: hoe wordt de dienst aangeboden?
 
+> [!info]- Concreet: risicoscore bepalen voor twee cliënten
+>
+> ```
+> Cliënt A: Belgische kmo, bakkerijsector, zaakvoerder gekend, enkel Belgische leveranciers
+>   Profiel:     laag risico (bekende sector, nationale activiteiten)
+>   Dienst:      boekhouding + btw-aangifte (geen hoog-risicotransacties)
+>   Geografie:   enkel België
+>   → Risicoscore: LAAG → standaard CDD
+>
+> Cliënt B: holding met dochters in twee hoge-risicolanden, UBO wil niet geïdentificeerd worden
+>   Profiel:     hoog risico (complexe structuur, UBO-onduidelijkheid)
+>   Dienst:      belastingadvies m.b.t. internationale structurering
+>   Geografie:   hoge-risicolanden betrokken
+>   → Risicoscore: HOOG → verscherpt CDD of weigeren
+> ```
+>
+> 🤖 *AI-aanvulling*
+
 **Wanneer weigeren** (AWW-reglement ITAA, punt 4.3):
 - Identificatie van de cliënt, zijn lasthebbers of zijn [[antiwitwaswetgeving#-uiteindelijke-begunstigde-ubo|uiteindelijke begunstigden (UBO)]] is niet mogelijk
 - Er zijn redenen om te vermoeden dat de cliënt zijn identiteit of die van zijn UBO's verhult
@@ -116,7 +134,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 
 *(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19 §2]]; AWW-reglement ITAA punt 4.1–4.3)*
 
-> [!warning]- Cliënt weigeren zonder melding aan CFI
+> [!warning]- Weigering van een cliënt ontslaat niet automatisch van de meldingsplicht aan de CFI
 > ❌ *"Als ik een cliënt weiger wegens een hoog WG/FT-risico, hoef ik niets te melden — ik voer de opdracht gewoon niet uit."*
 >
 > Weigering ontslaat de beroepsbeoefenaar niet automatisch van zijn [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht aan de CFI]]. Als hij bij de aanvaardingsfase atypische verrichtingen of vermoedens van WG/FT vaststelt, moet hij beoordelen of een melding aan de CFI vereist is — ook al weigert hij de opdracht (AWW-reglement ITAA punt 4.3, laatste alinea).
@@ -136,6 +154,26 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 > - Bevestiging dat het [[antiwitwaswetgeving#-clientenonderzoek-cdd|cliëntenonderzoek (CDD)]] is uitgevoerd conform het risiconiveau
 
 Het [[antiwitwaswetgeving#-clientenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau (AWW-reglement ITAA punt 4.4, verwijzend naar AWW art. 21–32).
+
+```
+CDD-intensiteit per risiconiveau
+
+Standaard CDD (normaal risico):
+  ✓ Identiteitskaart cliënt kopiëren en verifiëren
+  ✓ UBO's identificeren via UBO-register
+  ✓ Doel en aard van de zakelijke relatie begrijpen en documenteren
+
+Vereenvoudigd CDD (laag risico — bewezen):
+  ✓ Identiteit vaststellen (verificatie minder intensief)
+  ~ UBO-identificatie via register, geen extra verificatie
+  ~ Doel zakelijke relatie: algemene omschrijving volstaat
+
+Verscherpt CDD (hoog risico: PPP, hoge-risicolanden, ...):
+  ✓ Alle stappen standaard CDD
+  ✓ Bijkomende informatie over bron van fondsen
+  ✓ Hoger hiërarchisch akkoord (AMLCO of hogere leidinggevende)
+  ✓ Verhoogde doorlopende waakzaamheid tijdens de zakelijke relatie
+```
 
 - **Standaard CDD**: identiteit vaststellen en verifiëren; UBO's identificeren; doel en aard van de zakelijke relatie begrijpen
 - **Vereenvoudigd CDD**: bij bewezen laag risico — minder verificatiestappen

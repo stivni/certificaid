@@ -123,7 +123,7 @@ Zes titels zijn wettelijk beschermd — niemand mag ze dragen tenzij ingeschreve
 
 Niemand mag een titel dragen die **verwarring kan scheppen** met een van deze zes beschermde titels. Een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur **niet** dragen, ook al verricht hij gelijkaardige activiteiten ([[bronnen/wetteksten/XXI-wet-itaa#art-8|ITAA-LEX XXI · Wet ITAA art. 8]]).
 
-> [!warning]- Bedrijfsrevisor mag de GBA-titel dragen
+> [!warning]- Een bedrijfsrevisor mag de GBA-titel niet dragen, ook al verricht hij gelijkaardige activiteiten
 > ❌ *"Een bedrijfsrevisor die fiscaal advies geeft, mag zich gecertificeerd belastingadviseur noemen."*
 >
 > De zes beschermde titels zijn exclusief voorbehouden aan wie in het openbaar register staat met de overeenkomstige hoedanigheid. Een bedrijfsrevisor is ingeschreven bij het IBR, niet bij het ITAA — hij mag de titel van gecertificeerd belastingadviseur niet dragen, ook al verricht hij gelijkaardige fiscale activiteiten. De wet verbiedt ook titels die *verwarring kunnen scheppen* met de beschermde titels.
@@ -161,7 +161,7 @@ Een natuurlijk persoon wordt ingeschreven met de hoedanigheid van (intern) gecer
 
 **Activiteiten tijdens de stage**: de stagiair mag, mits uitdrukkelijke toestemming in de stageovereenkomst, de activiteiten van gecertificeerd accountant uitvoeren — **behalve** de bijzondere opdrachten (art. 3, 6°–8°). Hij draagt de titel "stagiair gecertificeerd accountant".
 
-> [!warning]- Stagiair mag alle opdrachten uitvoeren
+> [!warning]- Stagiairs mogen de bijzondere opdrachten (art. 3, 6°–8°) niet uitvoeren
 > ❌ *"Een stagiair gecertificeerd accountant mag dezelfde opdrachten uitvoeren als een gecertificeerde accountant."*
 >
 > Een stagiair mag de activiteiten van art. 3, 1°–5° en 9°–12° uitvoeren — boekhoudkundige diensten, financiële analyse, fiscale aangelegenheden, juridische bijstand, accountantsonderzoek en advies — maar de **bijzondere opdrachten** van art. 3, 6°–8° (inbreng, fusie, splitsing, vereffening, expertise bij geschillen) zijn uitdrukkelijk voorbehouden aan gecertificeerde accountants en bedrijfsrevisoren. Bovendien vereist zelfs de toegestane activiteiten uitdrukkelijke toestemming in de stageovereenkomst.
@@ -194,14 +194,14 @@ De beroepsbeoefenaar houdt een goed evenwicht tussen de gebieden. Aandachtsgebie
 Drie opeenvolgende jaren geen permanente vorming volgen → **[[itaa-als-instituut#-tuchtstelsel|terechtwijzing]]** door de Raad ([[bronnen/wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 3°]]).
 Reageert de beroepsbeoefenaar niet binnen **drie maanden** na de terechtwijzing, dan kan de Raad de **hoedanigheid intrekken**.
 
-> [!warning]- Permanente vorming is vrijwillig
+> [!warning]- Permanente vorming is een wettelijke verplichting, niet vrijwillig
 > ❌ *"Bijscholing is een goede gewoonte, maar niet wettelijk verplicht."*
 >
 > Permanente vorming is een **wettelijke verplichting** ([[bronnen/wetteksten/XXI-wet-itaa#art-39|ITAA-LEX XXI · Wet ITAA art. 39]]). Het minimumaantal uren en de inhoud worden vastgelegd in een ITAA-norm. Drie opeenvolgende jaren niet deelnemen leidt tot een terechtwijzing. Reageert de beroepsbeoefenaar niet, dan kan de Raad zijn hoedanigheid intrekken. Het is geen tuchtrechtelijke straf, maar de gevolgen zijn even ernstig.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Aandachtsgebied 3 telt mee voor de 84 uur
+> [!warning]- Aandachtsgebied 3 telt niet mee voor de minimumdrempel van 84 uur
 > ❌ *"Ik kan mijn 84 uur minimumvorming volledig invullen met sociale vaardigheidstrainingen (aandachtsgebied 3)."*
 >
 > De minimumdrempel van 84 uur per 3 jaar geldt voor de aandachtsgebieden **1, 2 en 4** samen — aandachtsgebied 3 (sociale vaardigheden) is bewust uitgesloten. Dat gebied telt wel mee voor de totale 120 uur, maar niet voor de kerndrempel.

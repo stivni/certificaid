@@ -143,7 +143,7 @@ Een verslechterend NBK is een signaal dat de onderneming haar investeringen of t
 
 Vergelijking met het [[kasstroomanalyse|kasstroomoverzicht]]: zie de tabel hieronder.
 
-> [!warning]- Vermogensstroomtabel = kasstroomoverzicht
+> [!warning]- Vermogensstroomtabel en kasstroomoverzicht werken met een ander concept van "middelen"
 > ❌ *"De vermogensstroomtabel toont dezelfde informatie als het kasstroomoverzicht, alleen in een andere indeling."*
 >
 > De twee instrumenten werken met een ander concept van "middelen". De vermogensstroomtabel werkt met **permanente middelen** (EV + LT-schulden) en toont structurele financieringsbewegingen. Het kasstroomoverzicht werkt met **liquide middelen** en toont de werkelijke kasbeweging. Een machine die volledig gefinancierd wordt met een nieuwe langetermijnlening, verschijnt in de vermogensstroomtabel als herkomst én besteding (geen effect op NBK), maar veroorzaakt wél een kasuitstroom in het kasstroomoverzicht (de aankoop) en een instroom (de lening).

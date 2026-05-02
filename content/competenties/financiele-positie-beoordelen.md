@@ -48,7 +48,7 @@ Het analysedoel bepaalt welke ratio's relevant zijn en wat het verwachte eindoor
 De wettelijke jaarrekening is opgesteld voor juridische en fiscale doeleinden, niet voor analyse. Gebruik ze nooit rechtstreeks voor ratioberekening — zet ze eerst om naar een analytisch formaat via [[jaarrekening-herwerken|jaarrekening herwerken]].
 
 
-> [!warning]- Ratio's berekenen op de ongeherstructureerde wettelijke posten
+> [!warning]- Herstructureer de jaarrekening altijd vóór je ratio's berekent
 > ❌ *"Ik neem gewoon de wettelijke balansposten voor de berekening."*
 >
 > De wettelijke indeling groepeert posten op juridische basis, niet op economische. Wie niet herstructureert, berekent ratio's op een vertekend beeld en trekt verkeerde conclusies.
@@ -116,14 +116,14 @@ Typische spanningsvelden die om interpretatie vragen:
 | Hoge brutomarge + lage nettomarge | Hoge overheadkosten of financieringslasten |
 
 
-> [!warning]- Eén ratio als afdoend beschouwen
+> [!warning]- Eén ratio geeft nooit een volledig beeld — combineer altijd meerdere ratio's
 > ❌ *"De current ratio is goed, dus de liquiditeit is in orde."*
 >
 > Geen enkele ratio geeft een volledig beeld. Een goede current ratio met stijgende voorraden en dalende kasstroom kan nog steeds een liquiditeitsrisico verbergen.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Éénmalige effecten niet herkennen
+> [!warning]- Onderscheid structurele van eenmalige effecten bij rentabiliteitswijzigingen
 > ❌ *"De rentabiliteit daalde sterk — de onderneming presteert slecht."*
 >
 > Een uitzonderlijke afschrijving, desinvestering of eenmalige kost vertekent de ratio's van dat jaar. Herken wanneer een afwijking structureel is versus toevallig — en vermeld dit in het oordeel.

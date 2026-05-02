@@ -50,7 +50,7 @@ Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is 
 
 **Belangrijk onderscheid**: ITAA-aanbevelingen zijn **bindend** — de benaming "aanbeveling" impliceert niet dat ze vrijwillig zijn. Het verschil met normen zit uitsluitend in de mate van flexibiliteit bij gemotiveerde afwijking ([[bronnen/wetteksten/XXI-wet-itaa#art-72|ITAA-LEX XXI · Wet ITAA art. 72, 2°]]).
 
-> [!warning]- ITAA-aanbevelingen zijn vrijblijvend
+> [!warning]- ITAA-aanbevelingen zijn bindend, niet vrijblijvend
 > ❌ *"Een ITAA-aanbeveling is een suggestie — ik ben er niet strikt aan gebonden."*
 >
 > Aanbevelingen zijn **bindend**, net als normen. Het verschil zit uitsluitend in de marge voor gemotiveerde afwijking: bij een aanbeveling is die iets groter dan bij een norm, maar niet-naleven zonder motivering is in beide gevallen een deontologische inbreuk. De benaming "aanbeveling" is misleidend voor wie gewend is aan de vrijblijvende connotatie in gewone taal.
@@ -85,7 +85,7 @@ Het ITAA heeft zes hoofdtaken ([[bronnen/wetteksten/XXI-wet-itaa#art-62|ITAA-LEX
 
 De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet ondergeschikt aan het ITAA). Hij geeft adviezen aan parlement, regering, ITAA en het Instituut van de Bedrijfsrevisoren (IBR) over de uitoefening van de beroepen in het algemeen belang. Hij kan ook klacht neerleggen bij de [[itaa-als-instituut#-tuchtstelsel|tuchtcommissie]].
 
-> [!warning]- De Hoge Raad is het hoogste orgaan van het ITAA
+> [!warning]- De Hoge Raad is geen orgaan van het ITAA maar een zelfstandig extern organisme
 > ❌ *"De Hoge Raad voor de Economische Beroepen staat aan de top van de ITAA-hiërarchie."*
 >
 > De Hoge Raad is **geen orgaan van het ITAA** — hij is een zelfstandig organisme dat bewust buiten de ITAA-structuur is geplaatst om het algemeen belang te bewaken. Hij geeft adviezen aan én over het ITAA, maar valt er niet onder. Dat hij in dezelfde tabel staat als de interne ITAA-organen kan misleidend zijn.
@@ -113,7 +113,7 @@ Niet betalen van de bijdrage leidt tot een **terechtwijzing** door de Raad (zie 
 
 **Periodiciteit**: elke **7 jaar** worden de beroepsactiviteiten van een beroepsbeoefenaar beoordeeld ([[bronnen/wetteksten/XXI-wet-itaa#art-55|ITAA-LEX XXI · Wet ITAA art. 55]]).
 
-> [!warning]- Kwaliteitstoetsing elke 5 jaar
+> [!warning]- Kwaliteitstoetsing geldt elke 7 jaar, niet elke 5
 > ❌ *"Elke beroepsbeoefenaar wordt om de vijf jaar aan een kwaliteitstoetsing onderworpen."*
 >
 > De wettelijke periodiciteit is **7 jaar**, niet 5. Dit is een vaak verwardde termijn — vermoedelijk door analogie met andere toezichtsperiodes. De 7-jarige cyclus staat expliciet in art. 55 van de Wet ITAA.
@@ -165,14 +165,14 @@ De tuchtcommissie behandelt inbreuken die niet onder de terechtwijzing vallen ([
 
 Straffen worden openbaar gemaakt.
 
-> [!warning]- Slechts vier tuchtstraffen
+> [!warning]- Er zijn zes tuchtstraffen, niet vier
 > ❌ *"De tuchtstraffen zijn: waarschuwing, berisping, schorsing en schrapping."*
 >
 > Er zijn **zes** tuchtstraffen (art. 93 §1), niet vier. Naast waarschuwing, berisping, schorsing en schrapping zijn er ook een **geldboete** (3°) en een **verbod om bepaalde opdrachten te aanvaarden of voort te zetten** (4°). De laatste twee worden zelden vernoemd maar staan wel degelijk in de wet.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Terechtwijzing is een tuchtrechtelijke sanctie
+> [!warning]- Terechtwijzing is geen tuchtrechtelijke sanctie maar een administratief instrument
 > ❌ *"Een terechtwijzing is de lichtste tuchtrechtelijke straf — lichter dan een waarschuwing."*
 >
 > Een terechtwijzing is **geen tuchtrechtelijke sanctie** — ze is een **administratief instrument** dat de Raad van het ITAA oplegt voor vier specifieke procedurele inbreuken (bijdragen, verzekering, permanente vorming, kwaliteitstoetsing). De zes tuchtrechtelijke sancties (waarschuwing, berisping, geldboete, verbod om bepaalde opdrachten te aanvaarden of voort te zetten, schorsing en schrapping) worden uitsluitend opgelegd door de tuchtcommissie, voor andere deontologische inbreuken.
@@ -202,7 +202,7 @@ Naast het algemene tuchtstelsel bestaat er een **apart toezichtsmechanisme voor 
 
 **Verschil met tuchtstraffen**: de AWW-maatregelen zijn specifiek voor antiwitwasinbreuken en worden opgelegd door de **Raad** (niet door de tuchtcommissie). Ze gelden naast — en cumulatief met — de tuchtstraffen van art. 93.
 
-> [!warning]- AWW-inbreuken worden alleen tuchtrechtelijk behandeld
+> [!warning]- AWW-inbreuken kunnen leiden tot twee parallelle procedures: tuchtrechtelijk én AWW-maatregelen
 > ❌ *"Als ik de antiwitwaswetgeving schend, riskeert de tuchtcommissie mij een tuchtstraf op te leggen — dat is de enige sanctie."*
 >
 > AWW-inbreuken kunnen leiden tot **twee parallelle procedures**: de tuchtprocedure (voor de tuchtcommissie, tuchtstraffen art. 93) én de AWW-maatregelen (door de Raad, art. 118). De Raad kan iemand uit het register laten wissen of een managementverbod opleggen zonder dat de tuchtcommissie tussenkomt. Beide procedures zijn onafhankelijk van elkaar.

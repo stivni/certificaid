@@ -51,7 +51,7 @@ Elke **moedervennootschap** die één of meer dochterondernemingen controleert, 
 
 **Uitzondering — te verwaarlozen dochterondernemingen**: een moedervennootschap is vrijgesteld wanneer al haar dochterondernemingen, individueel en tezamen, slechts van te verwaarlozen betekenis zijn voor de beoordeling van het geconsolideerd vermogen, de financiële positie of het resultaat. ([[bronnen/wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23, tweede lid]])
 
-> [!warning]- Consortium versus moeder-dochter
+> [!warning]- Ook een consortium heeft een consolidatieverplichting, zonder moedervennootschap
 > ❌ *"Een consortium hoeft geen geconsolideerde jaarrekening op te stellen want er is geen moedervennootschap."*
 >
 > Bij een consortium geldt net zo goed een consolidatieverplichting. Omdat er geen formele moedervennootschap is, dragen de consortiumvennootschappen gezamenlijk de verplichting.
@@ -106,7 +106,7 @@ Een vennootschap is vrijgesteld als ze zelf dochtervennootschap is van een moede
 
 Beide vrijstellingen vervallen zodra **één van de te consolideren vennootschappen is genoteerd**. Genoteerde vennootschappen moeten altijd consolideren, ongeacht de omvang van de groep.
 
-> [!warning]- Vrijstelling voor groep van beperkte omvang: genoteerd maakt alles anders
+> [!warning]- Een genoteerde vennootschap in de groep maakt de vrijstelling voor beperkte omvang ongeldig
 > ❌ *"Een kleine groep met een genoteerde dochter is vrijgesteld omdat de groep te klein is."*
 >
 > De vrijstelling voor groepen van beperkte omvang geldt niet zodra één vennootschap in de groep genoteerd is. Het criterium "genoteerd" overschrijft de omvangsvrijstelling volledig.

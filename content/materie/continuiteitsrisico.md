@@ -23,9 +23,23 @@ De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in
 
 De beoordelingsperiode bedraagt minstens **12 maanden** na de balansdatum. ([[bronnen/normen/ISA-570-herzien#par-13|ISA 570 herzien, par. 13]])
 
+## ⚖️ Waardering bij discontinuïteit
+
+Wanneer de continuïteitsveronderstelling niet langer geldt (stopzetting, vereffening, sluiting van een bedrijfsonderdeel), moeten de waarderingsregels dienovereenkomstig worden aangepast ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]):
+
+- **Oprichtingskosten** worden volledig afgeschreven
+- **Vaste en vlottende activa** worden zo nodig bijkomend afgeschreven tot hun **vermoedelijke realisatiewaarde** (liquidatiewaarde, niet boekwaarde)
+- Een **voorziening** wordt gevormd voor kosten verbonden aan de beëindiging (bv. ontslagvergoedingen, afbraakkosten)
+
+> [!info]- In de praktijk
+>
+> Een handelszaak wordt stopgezet. De machines die normaal over 5 jaar worden afgeschreven, worden voortaan gewaardeerd tegen hun vermoedelijke verkoopprijs (liquidatiewaarde), niet meer tegen hun resterende boekwaarde. Dat kan leiden tot forse bijkomende afschrijvingen in het laatste boekjaar.
+>
+> 🤖 *AI-aanvulling*
+
 ## 📌 Nettoactief
 
-Het [[nettoactief|nettoactief]] is de centrale maatstaf voor de alarmbelprocedure. Definitie en berekening: [[nettoactief]].
+Het [[nettoactief|nettoactief]] is de centrale maatstaf voor de alarmbelprocedure — het bedrag dat overblijft wanneer schulden, voorzieningen en niet-afgeschreven oprichtings- en O&O-kosten van de totale activa worden afgetrokken (in de praktijk het boekhoudkundig eigen vermogen, rubriek 10/15).
 
 ## 📌 Alarmbelprocedure
 
@@ -144,7 +158,7 @@ Wanneer het bestuursorgaan "gewichtige en overeenstemmende feiten" vaststelt die
 
 Bestuursleden die de alarmbelprocedure niet naleven zijn aansprakelijk voor de schade die derden lijden, tenzij ze het tegendeel bewijzen. ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153 §3]])
 
-## 🔒 Meldingsplicht bij continuïteitsrisico (WER art. XX.23)
+## 🔒 Meldingsplicht van de beroepsbeoefenaar
 
 *Niet te verwarren met de [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht (AWW)]] — dit is een aparte wettelijke verplichting op grond van het WER.*
 

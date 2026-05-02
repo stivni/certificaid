@@ -98,7 +98,7 @@ De sectorgemiddelden van de NBB dienen als referentie bij financiële ratio-anal
 
 Aandeelhouders willen hoge dividenden; kredietverstrekkers willen dat de onderneming haar cash behoudt voor terugbetaling. Werknemers willen continuïteit; aandeelhouders willen soms activiteiten afbouwen of liquideren voor rendement. Dit spanningsveld betekent dat een accountant die de jaarrekening analyseert, steeds moet bedenken **voor wie** hij analyseert en **welke vraag** hij beantwoordt.
 
-> [!warning]- Alle partijen willen hetzelfde uit de jaarrekening
+> [!warning]- Betrokken partijen hebben structureel tegengestelde belangen bij de jaarrekening
 > ❌ *"Een gezonde jaarrekening is goed voor alle betrokkenen — er zijn geen tegengestelde belangen."*
 >
 > Belangen zijn structureel tegengesteld. Een vennootschap die haar winst maximaal uitkeert als dividend (goed voor aandeelhouders op korte termijn) bouwt geen reserves op (slecht voor continuïteit, voor crediteuren en voor werknemers). Een commissaris die vaststelt dat de vennootschap het continuïteitsbeginsel niet meer kan toepassen, deelt informatie mee die de bank ertoe zal brengen haar kredietlijn op te zeggen — waardoor de situatie verder verslechtert. Wie de gebruiker is, bepaalt hoe de informatie doorwerkt.

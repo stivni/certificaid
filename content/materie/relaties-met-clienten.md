@@ -30,7 +30,7 @@ Deze verplichting is structureel en permanent — ze geldt niet pas op het momen
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Art. 38 en art. 40 zijn hetzelfde
+> [!warning]- Art. 38 (structurele capaciteit) en art. 40 (opdracht-specifieke toets) zijn twee afzonderlijke verplichtingen
 > ❌ *"Als ik voor elke concrete opdracht de drie vereisten uit art. 40 check, voldoe ik automatisch aan art. 38."*
 >
 > Art. 38 en art. 40 zijn **twee afzonderlijke verplichtingen**. Art. 38 stelt een **structurele drempel**: het kantoor als geheel moet te allen tijde organisatorisch en financieel toereikend zijn. [[deontologische-beginselen#-aanvaarding-van-opdrachten|Art. 40]] stelt een **opdracht-specifieke toets**: voor elke aanvaarding moet je beschikken over bekwaamheid, medewerking en tijd. Een kantoor dat structureel te klein is voor zijn cliëntenbestand (art. 38) schendt die verplichting — ook al voldoet het per opdracht aan art. 40.
@@ -65,14 +65,14 @@ Een vergoeding die gekoppeld is aan de doorverwijzing van cliënten of aan het r
 
 **Onderscheid met provisies**: een provisie is een **voorschot op het ereloon** — dat is toegestaan als onderdeel van het ereloon ([[bronnen/wetteksten/XXI-wet-itaa#art-45|ITAA-LEX XXI · Wet ITAA art. 45]]). Wat verboden is, is een vergoeding die losgekoppeld is van de geleverde prestatie en afhankelijk van een resultaat of doorverwijzing.
 
-> [!warning]- Commissieloon toegestaan mits goedkeuring van de Raad
+> [!warning]- Het verbod op commissieloon is absoluut — geen uitzondering voor goedkeuring door de Raad
 > ❌ *"Mits goedkeuring van de Raad van het ITAA mag een beroepsbeoefenaar commissies ontvangen voor doorverwijzingen."*
 >
 > Het verbod op commissielonen is **absoluut** — er is geen uitzondering voorzien voor een geval van goedkeuring door de Raad of de cliënt. De wet verbiedt elke vorm van commissie- of makelaarsloon, ongeacht wie toestemming geeft ([[bronnen/wetteksten/XXI-wet-itaa#art-47|ITAA-LEX XXI · Wet ITAA art. 47]]). De enige aanvaardbare vergoedingen zijn het ereloon, kosten en een opzegvergoeding bij verbreking.
 >
 > 📝 *Uit voorbeeldexamen 2015*
 
-> [!warning]- Provisie als verboden commissieloon
+> [!warning]- Een provisie is een toegestaan voorschot op het ereloon, geen verboden commissieloon
 > ❌ *"Een provisie die ik vraag aan het begin van de opdracht is een commissieloon en dus verboden."*
 >
 > Een provisie is een **voorschot op het ereloon** — ze is toegestaan omdat ze onderdeel is van de vergoeding voor de geleverde prestatie. Wat verboden is: een vergoeding die losgekoppeld is van de prestatie, bv. 10% van de belastingbesparing die je voor de cliënt realiseert. Die is afhankelijk van een resultaat, niet van geleverd werk.
@@ -108,14 +108,14 @@ De beroepsbeoefenaar maakt vóór elke opdracht, **in overleg met de cliënt**, 
 
 - Op verzoek van de cliënt geeft de beroepsbeoefenaar alle boeken, documenten en gegevens die aan de cliënt toebehoren **onverwijld** terug ([[bronnen/wetteksten/XXI-wet-itaa#art-43|ITAA-LEX XXI · Wet ITAA art. 43]]) — er bestaat geen retentierecht, ook niet bij openstaande facturen
 
-> [!warning]- Opdrachtbrief enkel verplicht bij nieuwe cliënten
+> [!warning]- De opdrachtbrief is verplicht voor iedere opdracht, ook bij bestaande cliënten
 > ❌ *"Voor een bestaande cliënt waarvoor ik al jaren dezelfde opdracht uitvoer, heb ik geen nieuwe opdrachtbrief nodig."*
 >
 > De opdrachtbrief is verplicht voor **iedere opdracht** — ook herhaalde of doorlopende opdrachten bij bestaande cliënten. Elke nieuwe opdracht is een nieuwe verbintenis. Een jaarlijkse boekhouding voor dezelfde cliënt vereist dus telkens een opdrachtbrief, tenzij de bestaande opdrachtbrief uitdrukkelijk voorziet in de verlenging.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Dossier inhouden bij openstaande facturen
+> [!warning]- Het dossier moet altijd worden teruggegeven op verzoek — er bestaat geen retentierecht
 > ❌ *"Zolang de cliënt niet betaald heeft, mag ik zijn dossier en documenten inhouden."*
 >
 > Er bestaat **geen retentierecht**. De beroepsbeoefenaar moet op verzoek alle boeken, documenten en gegevens die aan de cliënt toebehoren onverwijld teruggeven — ongeacht of er nog facturen openstaan. Openstaande erelonen kunnen langs een andere weg worden ingevorderd, maar geven geen recht om het dossier te blokkeren.
@@ -157,7 +157,7 @@ Dit is **niet mogelijk** in twee gevallen:
 
 > ⚠️ te verifiëren — De minimale dekkingsbedragen en verzekeringsvoorwaarden staan in een uitvoeringsbesluit van de Koning (KB). Niet verzekerd zijn leidt tot een terechtwijzing door de Raad van het ITAA (zie [[itaa-als-instituut#-tuchtstelsel|tuchtstelsel]]).
 
-> [!warning]- Aansprakelijkheidsbeperking is altijd verboden
+> [!warning]- Aansprakelijkheidsbeperking is toegestaan, behalve bij bedrieglijk opzet of voorbehouden opdrachten
 > ❌ *"Een clausule in de opdrachtbrief die mijn aansprakelijkheid beperkt, is nietig."*
 >
 > Contractuele aansprakelijkheidsbeperking is **toegestaan** voor gewone beroepsfouten. Enkel in twee gevallen is ze absoluut verboden: bij bedrieglijk opzet of oogmerk te schaden, en bij wettelijk voorbehouden opdrachten. Een clausule die de aansprakelijkheid beperkt tot het bedrag van de opdracht is dus geldig — zolang ze niet ingeroepen wordt bij bewuste schade.

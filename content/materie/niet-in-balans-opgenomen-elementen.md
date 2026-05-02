@@ -76,7 +76,7 @@ Concrete impact op ratio-analyse:
 - Hypothecaire bezwaringen verminderen de vrije beschikbaarheid van activa voor andere schuldeisers
 - Hangende geschillen kunnen tot grote uitgaven leiden die de liquiditeitspositie abrupt verslechteren
 
-> [!warning]- Balans als enige bron voor risicobeoordeling
+> [!warning]- De toelichting is een verplicht onderdeel van de jaarrekening, niet een optionele bijlage
 > ❌ *"De balans ziet er gezond uit — solvabiliteitsratio van 45%, geen hoge schuldenlast. De onderneming heeft weinig financieel risico."*
 >
 > De balans toont enkel de verplichtingen die aan de boekhoudkundige opnemingscriteria voldoen. Persoonlijke zekerheden voor derden, hypothecaire volmachten, hangende rechtszaken en contractuele aankoopverplichtingen staan niet op de balans. Een vennootschap kan een aantrekkelijke solvabiliteitsratio hebben en toch blootgesteld zijn aan substantiële risico's die uitsluitend in de toelichting staan. De toelichting is een verplicht onderdeel van de jaarrekening — niet een bijlage die men optioneel raadpleegt. ([[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]])

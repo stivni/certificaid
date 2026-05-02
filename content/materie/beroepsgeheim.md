@@ -38,14 +38,14 @@ De discretieplicht is **ruimer** dan het beroepsgeheim: ze dekt niet alleen toev
 
 Beide normen kunnen **tegelijk van toepassing** zijn op dezelfde situatie.
 
-> [!warning]- Beroepsgeheim en discretieplicht zijn hetzelfde
+> [!warning]- Beroepsgeheim en discretieplicht zijn twee onderscheiden verplichtingen met een verschillende grondslag
 > ❌ *"Beroepsgeheim en discretieplicht zijn twee namen voor dezelfde verplichting."*
 >
 > De discretieplicht is **ruimer**: ze dekt ook feiten die de beroepsbeoefenaar zelf heeft vastgesteld in de uitoefening van zijn beroep — niet alleen wat de cliënt hem heeft toevertrouwd. Bovendien is het beroepsgeheim strafrechtelijk gesanctioneerd (Sw. art. 458), terwijl de discretieplicht een deontologische grondslag heeft. Dezelfde situatie kan beide normen tegelijk activeren.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Schending beroepsgeheim leidt enkel tot tuchtrechtelijke sancties
+> [!warning]- Schending van het beroepsgeheim is ook een strafrechtelijk misdrijf, niet enkel tuchtrechtelijk
 > ❌ *"Schending van het beroepsgeheim kan enkel tuchtrechtelijke maatregelen tot gevolg hebben."*
 >
 > Het beroepsgeheim is verankerd in **Strafwetboek art. 458** — schending is een **strafrechtelijk misdrijf** dat kan leiden tot gevangenisstraf en/of geldboete via de strafrechter. De tuchtrechtelijke sancties van het ITAA kunnen daar nog bovenop komen, maar zijn nooit de enige gevolgen. Dit is precies het verschil met de discretieplicht, die uitsluitend deontologisch gesanctioneerd wordt.
@@ -100,7 +100,7 @@ Er is **geen inbreuk** op de geheimhoudingsplicht in de volgende vier gevallen (
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Cliënt ontslaat volledig van het beroepsgeheim
+> [!warning]- Ontheffing door de cliënt geldt enkel voor zijn eigen aangelegenheden, niet voor derden
 > ❌ *"Als mijn cliënt mij uitdrukkelijk ontheffing geeft, mag ik alles meedelen."*
 >
 > De ontheffing geldt uitsluitend voor **zijn eigen aangelegenheden**. Dossierinformatie die ook anderen betreft — werknemers, aandeelhouders, zakenpartners — valt er niet onder. Die derden hebben zelf geen toestemming gegeven, en hun vertrouwelijkheidsbelang blijft bestaan ongeacht wat de cliënt beslist.

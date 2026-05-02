@@ -42,6 +42,25 @@ Neerlegging kan pas na goedkeuring door de algemene vergadering. De AV moet plaa
 
 De neerleggingstermijn begint te lopen na de AV — maar de absolute deadline van 7 maanden loopt al vanaf de afsluiting.
 
+```
+Tijdlijn voor boekjaar afgesloten op 31/12/N:
+
+  31/12/N    Afsluiting boekjaar
+     │
+     ├──────────────────── 6 maanden ────────────────────┤
+     │                                                 30/06/N+1  ← uiterste datum AV
+     │
+     │         AV goedkeuring op bv. 15/05/N+1
+     │              │
+     │              ├── 30 dagen ──┤
+     │              │           14/06/N+1  ← deadline via 30-dagenregel
+     │
+     ├───────────────────── 7 maanden ──────────────────────┤
+                                                       31/07/N+1  ← absolute deadline
+
+Vroegste datum telt → in dit voorbeeld: 14/06/N+1
+```
+
 
 > [!tip]- Termijnen concreet berekenen
 > Boekjaar afgesloten 31/12 → AV uiterlijk 30/06 → neerlegging uiterlijk 30 dagen later = 30/07, maar hoe dan ook vóór 31/07 (7 maanden na 31/12). Vroegste deadline telt.
@@ -62,14 +81,14 @@ Twee termijnen gelden cumulatief — de vroegste is bindend:
 Neerlegging gebeurt bij de **NBB**, elektronisch via e-bridge.
 
 
-> [!warning]- De twee termijnen verwarren
+> [!warning]- De 30-dagen-termijn na de AV is een zelfstandige deadline naast de 7-maandengrens
 > ❌ *"De deadline is altijd 7 maanden na afsluiting."*
 >
 > De 30-dagen-termijn na de AV is een zelfstandige deadline. Als de AV al op dag 60 plaatsvindt, moet er uiterlijk op dag 90 neergelegd worden — ruim vóór de 7-maandengrens.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Laattijdige AV als excuus gebruiken
+> [!warning]- Een laattijdige AV verkort de neerleggingstermijn, ze verschuift de 7-maandengrens niet
 > ❌ *"De AV was pas op de laatste dag, dus we mogen nog 30 dagen wachten."*
 >
 > De 7-maandengrens geldt absoluut. Een laattijdige AV verkort de neerleggingstermijn — ze verschuift de absolute deadline niet.

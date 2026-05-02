@@ -38,7 +38,7 @@ Voorbeelden van hoe ratio-namen eruitzien en wat de formule is:
 
 Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
 
-> [!warning]- Naam van de ratio verwisselen met een gelijkaardige
+> [!warning]- ROA en ROE zijn niet uitwisselbaar: ze meten een ander rentabiliteitsperspectief
 > ❌ *"Nettorentabiliteit van de activa en ROE zijn allebei een rentabiliteitsratio — ik gebruik dezelfde formule."*
 >
 > ROA meet rendement op het totale vermogen (teller: EBIT of EBIT + fin. kosten − intrestsubsidies; noemer: totaal activa). ROE meet rendement voor de aandeelhouder (teller: nettowinst; noemer: eigen vermogen vóór winstverdeling). Ze meten een ander aspect van rentabiliteit en zijn niet uitwisselbaar.
@@ -58,7 +58,7 @@ Volledige formules per ratio met NBB-codes: [[financiele-ratios]]
 
 Sommige ratio's vereisen detailgegevens die niet beschikbaar zijn in het verkort of microschema. Als de gevraagde ratio niet berekenbaar is, zeg dat dan expliciet — het examen toetst soms net dit inzicht. De [[financiele-ratios#-schema-beperkingen|schema-beperkingen]] geven een overzicht per ratio.
 
-> [!warning]- N-dagen klantenkrediet berekenen op een verkort schema
+> [!warning]- N-dagen klantenkrediet is niet berekenbaar op basis van een verkort schema
 > ❌ *"Ik bereken de klantenbetalingstermijn op basis van de beschikbare vorderingspost."*
 >
 > In het verkort schema zijn handelsvorderingen niet apart opgegeven — ze zijn samengevoegd met andere vorderingen. De ratio "n-dagen klantenkrediet" is daardoor **niet berekenbaar** op basis van een verkort schema. De correcte respons is dit expliciet te vermelden.
@@ -86,7 +86,7 @@ Het examen bevat soms extra informatie in de toelichting die de berekening beïn
 | Gemiddelde voorraad | Noemer bij voorraadrotatie | "Openingsvoorraad X, sluitingsvoorraad Y" |
 | Btw-factor | Noemer n-dagen klantenkrediet | "Omzet excl. btw is X; toepasselijk btw-tarief 21%" |
 
-> [!warning]- Toelichting niet lezen vóór de berekening
+> [!warning]- Lees de toelichting vóór de berekening om subsidies en correcties mee te nemen
 > ❌ *"De formule is duidelijk — ik gebruik de getallen rechtstreeks uit de balans en resultatenrekening."*
 >
 > Exploitatiesubsidies (rubriek 740) staan in de resultatenrekening maar wijzigen de teller van de brutoverkoopmarge alleen als ze in de toegevoegde waarde zijn opgenomen. Intrestsubsidies moeten bij ROA in mindering worden gebracht. Deze informatie staat altijd expliciet in de toelichting — wie ze overslaat, berekent de ratio op foute gegevens.
@@ -107,18 +107,36 @@ Het examen bevat soms extra informatie in de toelichting die de berekening beïn
 
 Gebruik de NBB-codes als zoekinstrument in de jaarrekening. Let op rubrieken die meerdere sub-codes bundelen (bv. schulden KT = 42/48).
 
+```
+Voorbeeld: ROE extraheren uit volledig schema (in €)
+
+Resultatenrekening
+  9905  Winst van het boekjaar              580.000   ← teller
+
+Balans — passief
+  10    Geplaatst kapitaal                  250.000
+  11    Uitgiftepremies                           0
+  13    Reserves                            120.000
+  14    Overgedragen winst (vóór verd.)      45.000   ← vóór winstverdeling!
+  15    Kapitaalsubsidies                    15.000
+  ────────────────────────────────────────────────
+  10/15 Eigen vermogen (vóór verd.)         430.000   ← noemer
+
+ROE = 580.000 / 430.000 × 100 = 134,88%  ← eigen vermogen vóór winstverdeling
+```
+
 **Bij ROE**: gebruik het eigen vermogen **vóór** winstverdeling (= beginbalans van het boekjaar, of eindbalans minus de gereserveerde winst van dat jaar). Het eigen vermogen ná winstverdeling bevat al de winst die gemeten wordt — dat geeft een kunstmatig lage ratio.
 
 **Bij voorraadrotatie**: gebruik de **gemiddelde voorraad** ((openingsvoorraad + sluitingsvoorraad) / 2), niet de eindvoorraad. De eindvoorraad is een momentopname die gevoelig is voor seizoenseffecten.
 
-> [!warning]- EV ná winstverdeling gebruiken bij ROE
+> [!warning]- Gebruik EV vóór winstverdeling bij ROE
 > ❌ *"Ik gebruik het eigen vermogen na winstverdeling — dat is het meest actuele cijfer."*
 >
 > ROE meet het rendement op het vermogen dat bij het begin van het boekjaar werd ingezet. Als de winst al aan het eigen vermogen is toegevoegd (winstverdeling), gebruik je als noemer een bedrag dat de te meten winst al bevat — wat de ratio verlaagt zonder dat de onderneming minder presteert. Gebruik altijd het EV vóór winstverdeling.
 >
 > 📝 *Voorbeeldexamen 2015: EV vóór winstverdeling = € 8.177.941 (niet € 10.274.000 na winstverdeling)*
 
-> [!warning]- Eindvoorraad vs. gemiddelde voorraad bij rotatie
+> [!warning]- Gebruik de gemiddelde voorraad als noemer bij voorraadrotatie, niet de eindvoorraad
 > ❌ *"Ik gebruik de eindvoorraad als noemer — dat zijn de meest recente gegevens."*
 >
 > De eindvoorraad is een momentopname. De gemiddelde voorraad geeft een representatiever beeld van de voorraad die gedurende het jaar aangehouden werd. Gebruik (openingsvoorraad + sluitingsvoorraad) / 2 als noemer.

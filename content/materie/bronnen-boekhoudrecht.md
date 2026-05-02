@@ -44,7 +44,7 @@ Een **verordening** is een EU-rechtsnorm die **direct toepasbaar** is in alle li
 - Voor de enkelvoudige jaarrekening en voor niet-beursgenoteerde vennootschappen: **optioneel** (lidstaten mogen het toestaan of verbieden)
 - België laat niet-beursgenoteerde vennootschappen toe om IFRS te gebruiken voor de geconsolideerde jaarrekening, maar niet voor de enkelvoudige
 
-> [!warning]- IFRS is verplicht voor alle vennootschappen
+> [!warning]- IFRS is enkel verplicht voor de geconsolideerde jaarrekening van beursgenoteerde vennootschappen
 > ❌ *"Alle Belgische vennootschappen moeten hun jaarrekening opstellen volgens IFRS."*
 >
 > IFRS is enkel verplicht voor de **geconsolideerde jaarrekening** van **beursgenoteerde** vennootschappen. Niet-beursgenoteerde kmo's — het overgrote deel van de Belgische markt — stellen hun jaarrekening op volgens het Belgische boekhoudrecht (KB WVV 2019). De IFRS-verordening raakt hen niet rechtstreeks.
@@ -100,7 +100,7 @@ Voor het examen is rechtspraak als bron minder relevant — de student heeft ITA
 | **Voorbeeld boekhoudrecht** | Verordening 1606/2002 (IFRS) | Richtlijn 2013/34/EU (jaarrekening) |
 | **Nationale wet nodig?** | Nee | Ja — anders geen rechtstreekse werking voor burgers |
 
-> [!warning]- Richtlijn is direct toepasselijk na omzettingstermijn
+> [!warning]- Een niet tijdig omgezette richtlijn kan rechtstreekse werking krijgen tegenover de overheid
 > ❌ *"Als een richtlijn niet tijdig is omgezet, heeft ze geen effect in België."*
 >
 > Bij niet-tijdige omzetting kan een EU-richtlijn onder voorwaarden **rechtstreekse werking** krijgen: een burger kan zich dan tegenover de overheid beroepen op de richtlijn zelf (doctrine van het Hof van Justitie). Dit geldt niet tussen burgers onderling. Voor boekhoudrecht is dit eerder theoretisch — de omzettingen zijn doorgaans tijdig — maar het principe is examenrelevant.

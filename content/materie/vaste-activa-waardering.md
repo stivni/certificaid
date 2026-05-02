@@ -161,7 +161,7 @@ De drie waardecorrecties op vaste activa hebben elk een ander vertrekpunt en een
 | **Terugname** | Mogelijk bij MVA/IVA bij te snelle afschrijving | Verplicht als niet meer verantwoord ([[vaste-activa-waardering#-immateriële-vaste-activa-iva|behalve goodwill!]]) | Verplicht als meerwaarde niet langer verantwoord |
 | **Activa** | MVA met beperkte duur, IVA met beperkte duur, oprichtingskosten | MVA met onbeperkte duur, FVA, deelnemingen | MVA en FVA — niet IVA, niet voorraden |
 
-> [!warning]- Goodwill-uitzondering op de terugname-regel
+> [!warning]- Waardeverminderingen op goodwill worden nooit teruggenomen, ook niet als de reden wegvalt
 > ❌ *"Waardeverminderingen worden altijd teruggenomen als de reden wegvalt."*
 >
 > De algemene regel is dat waardeverminderingen die niet langer verantwoord zijn, moeten worden teruggenomen. Goodwill is hiervan uitdrukkelijk uitgezonderd: eenmaal afschrijvingen en waardeverminderingen op goodwill zijn geboekt, worden ze nooit teruggenomen.

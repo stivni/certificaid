@@ -71,7 +71,7 @@ De voorganger geeft **onverwijld** en **losstaand van de betaling van zijn erelo
 
 De voorganger maakt een **inventaris op in tweevoud**, gedateerd en ondertekend door beide partijen (voorganger en opvolger of cliënt).
 
-> [!warning]- Dossier overdragen pas na betaling van erelonen
+> [!warning]- Dossieroverdracht staat los van de betaling van openstaande erelonen
 > ❌ *"Zolang mijn erelonen niet betaald zijn, hoef ik het dossier niet over te dragen aan mijn opvolger."*
 >
 > De dossieroverdracht staat **los van de betaling van erelonen** — dat zegt het zesde principe expliciet. Openstaande erelonen kunnen langs een andere weg worden ingevorderd, maar geven geen recht om het dossier in te houden van de opvolger. Dit principe overlapt met het algemene verbod op retentierecht ([[relaties-met-clienten#-opdrachtbrief-verplicht-voor-iedere-opdracht|art. 43 Wet ITAA]]).
@@ -100,7 +100,7 @@ Wanneer een beroepsbeoefenaar de cliënten of dossiers van een collega overneemt
 - Nagaan **waarom** de vorige beroepsbeoefenaar de samenwerking heeft beëindigd — in het bijzonder: zijn er [[antiwitwaswetgeving|antiwitwaswet]]-gerelateerde redenen? Een cliënt overnemen die verlaten werd wegens een verhoogd witwasrisico vergroot het eigen risico
 - Bij een **overname van aandelen** van een erkende rechtspersoon-beroepsbeoefenaar: de bestaande opdrachtbrieven blijven geldig, want de rechtspersoon (de opdrachtnemer) wijzigt niet. Bij een **overname van cliënteel**: de opdracht is intuitu personae (persoonlijk vertrouwen) — er zijn nieuwe opdrachtbrieven nodig voor elke cliënt (Nota opdrachtbrief (ITAA) — `resources/normen/nota-opdrachtbrief.md`)
 
-> [!warning]- Reden van vertrek vorige accountant is niet relevant
+> [!warning]- Reden van vertrek vorige accountant is relevant voor de cliëntenacceptatieprocedure
 > ❌ *"Of ik een cliënt overneem is mijn beslissing — ik hoef niet te weten waarom de vorige accountant vertrok."*
 >
 > In het kader van de [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenacceptatieprocedure]] is de reden van vertrek wél relevant. Een cliënt die verlaten werd wegens vermoedens van witwassen of terrorismefinanciering brengt dat risico mee naar de volgende beroepsbeoefenaar. Wie dit niet nagaat, mist een kritisch signaal bij de risicobeoordeling.
@@ -127,7 +127,7 @@ Deze inschrijvingseis geldt ongeacht het statuut van de uitvoerder:
 
 Een niet-ingeschreven persoon — of het nu een particulier, een buitenlandse vennootschap of een medewerker van het kantoor is — mag geen voorbehouden activiteiten uitoefenen. Een ITAA-lid dat zo iemand inschakelt voor die activiteiten, maakt zichzelf medeplichtig aan een onwettige uitoefening van het beroep.
 
-> [!warning]- Loontrekkende mag zonder inschrijving voorbehouden activiteiten uitvoeren
+> [!warning]- Loontrekkenden die voorbehouden activiteiten uitoefenen moeten zelf ingeschreven zijn
 > ❌ *"Een medewerker in loondienst bij mijn kantoor mag voorbehouden activiteiten uitoefenen — hij werkt immers voor mij en ik draag de verantwoordelijkheid."*
 >
 > De inschrijvingseis geldt ook voor loontrekkenden die voorbehouden activiteiten uitoefenen. Een medewerker die zelf oordeelt, adviseert of controleert (en dus niet louter uitvoerend handelt onder jouw directe supervisie) moet ingeschreven zijn als IGA of IGBA. De verantwoordelijkheid van de werkgever-beroepsbeoefenaar heft de inschrijvingseis voor de medewerker niet op.

@@ -44,7 +44,7 @@ Ze mag worden **overgebracht naar een reserve** ten belope van de op de meerwaar
 
 Een herwaarderingsmeerwaarde mag **nooit** — rechtstreeks of onrechtstreeks — worden aangewend om overgedragen verliezen aan te zuiveren, voor zover die meerwaarde nog niet is afgeschreven ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
 
-> [!warning]- Herwaarderingsmeerwaarde gebruiken om verliezen weg te werken
+> [!warning]- Herwaarderingsmeerwaarden mogen niet worden ingezet voor verliescompensatie
 > ❌ *"Een vennootschap met aanzienlijke overgedragen verliezen boekt een herwaarderingsmeerwaarde op haar vastgoed om die verliezen boekhoudkundig te compenseren."*
 >
 > Dit is uitdrukkelijk verboden. De herwaarderingsmeerwaarde staat los van de resultatenrekening en kan niet worden ingezet voor verliescompensatie zolang ze niet via afschrijvingen is gerealiseerd.
@@ -59,14 +59,14 @@ Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **b
 
 ---
 
-> [!warning]- Elke waardestijging is een reden om te herwaarderen
+> [!warning]- Herwaardering vereist een vaststaande en duurzame waardestijging, niet een tijdelijke
 > ❌ *"De waarde van onze bedrijfsgebouwen is gestegen. We mogen die hogere waarde meteen in de boekhouding opnemen."*
 >
 > Herwaardering is alleen toegestaan wanneer de waardestijging **vaststaand en duurzaam** is — een tijdelijke marktschommeling volstaat niet. Bovendien moet de stijging worden verantwoord door de **rentabiliteit** van de onderneming wanneer het actief noodzakelijk is voor de bedrijfsvoortzetting. Een speculatieve piek op de vastgoedmarkt is geen rechtvaardiging voor herwaardering.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Alle activa mogen worden geherwaardeerd
+> [!warning]- Herwaardering is enkel toegestaan voor materiële en financiële vaste activa, niet voor voorraden
 > ❌ *"Een onderneming mag haar voorraden herwaarderen als die meer waard zijn geworden."*
 >
 > Herwaardering is enkel toegestaan voor **materiële vaste activa** en **financiële vaste activa** (deelnemingen en aandelen). Voorraden, vorderingen en vlottende activa vallen **niet** onder de herwaarderingsregeling. Die worden gewaardeerd tegen aanschaffingswaarde of lager marktwaarde — maar nooit hoger dan aanschaffingswaarde via een herwaardering.

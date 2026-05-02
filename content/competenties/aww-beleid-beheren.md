@@ -58,7 +58,7 @@ De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke pers
 - Opleiding en sensibilisering van medewerkers coördineren
 - Toezien op naleving van het intern AWW-reglement
 
-> [!warning]- AMLCO hoeft zelf geen beroepsbeoefenaar te zijn
+> [!warning]- De AMLCO hoeft geen ITAA-lid te zijn — voldoende gezag is de wettelijke eis
 > ❌ *"De AMLCO moet altijd een gecertificeerd accountant of belastingadviseur zijn."*
 >
 > De wet vereist dat de AMLCO voldoende gezag heeft om zijn functie uit te oefenen — bij voorkeur een lid van het leidinggevend orgaan of een vennoot. Er is geen voorwaarde van ITAA-lidmaatschap. In de praktijk is de AMLCO bij kleine kantoren wel de beroepsbeoefenaar zelf, maar dat is een praktische keuze, geen wettelijke eis.
@@ -84,6 +84,26 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 - **Cliënten**: type, sector, herkomst van fondsen, UBO-structuur
 - **Diensten**: boekhouding, belastingadvies, vennootschapsrecht, trustdiensten (hogere risicofactor)
 - **Geografische kenmerken**: hoge-risicolanden betrokken bij cliënten of transacties?
+
+> [!info]- Concreet: risicomatrix van een klein kantoor
+>
+> ```
+> Kantoor X: 3 medewerkers, cliënten = Belgische kmo's + 2 holdings met internationale structuur
+>
+> Segment          Dienst              Geografie       Risico
+> ─────────────────────────────────────────────────────────────
+> Belgische kmo    boekhouding/btw     enkel BE        Laag
+> Belgische kmo    vennootschapsrecht  enkel BE        Laag-Normaal
+> Int'l holding    belastingadvies     BE + NL + CH    Normaal
+> Int'l holding    structurering       BE + hoog-risico Hoog
+>
+> Conclusie voor het intern reglement:
+>   - Standaard CDD voor het merendeel van de portefeuille
+>   - Verscherpt CDD voor de internationale holdings met hoge-risicolanden
+>   - AMLCO-goedkeuring vereist voor aanvaarding van holdings segment
+> ```
+>
+> 🤖 *AI-aanvulling*
 
 *(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-16|ITAA-LEX XVII · AWW art. 16]]; 🤖 analytische praktijk voor de prioritering)*
 

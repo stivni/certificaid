@@ -29,6 +29,22 @@ Voor de **analyse** zijn dit ook de basisdoelstellingen: de analist gebruikt de 
 
 ---
 
+## ⚖️ Toepassing van boekhoudkundige beginselen
+
+De [[boekhoudkundige-beginselen|boekhoudkundige beginselen]] gelden voor de hele boekhouding, maar krijgen bij de opmaak van de jaarrekening een concrete invulling via specifieke regels.
+
+**Getrouw beeld — override-mechanisme** ([[bronnen/wetteksten/XV-KB-wvv#art-37|KB WVV 2019 art. 3:7]]): wanneer de strikte toepassing van een specifieke waarderingsregel het getrouwe beeld verhindert, **moet** van die regel worden afgeweken. Een dergelijke afwijking wordt in de toelichting vermeld en verantwoord, met vermelding van de geraamde invloed op vermogen, financiële positie en resultaat. Wanneer de toepassing van de regels niet volstaat om een getrouw beeld te geven maar afwijking niet noodzakelijk is, worden aanvullende inlichtingen verstrekt in de toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
+
+**Matching — verplichte overlopende posten** ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV 2019 art. 3:11]]): kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze betrekking hebben, wat bij de jaarrekening leidt tot verplichte opname van overlopende rekeningen, waaronder:
+- Geraamd bedrag van belastingen op het resultaat van het boekjaar
+- Bezoldigingen en sociale voordelen die in het volgende boekjaar worden betaald voor diensten verricht in het huidige boekjaar
+
+Wanneer kosten of opbrengsten in belangrijke mate worden beïnvloed door bedragen die aan een ander boekjaar moeten worden toegerekend, wordt dit vermeld in de toelichting.
+
+**Continuïteit** — wanneer de continuïteitsveronderstelling niet langer geldt, moeten de waarderingsregels in de jaarrekening worden aangepast: zie [[continuiteitsrisico#️-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
+
+---
+
 ## 📌 Jaarrekening
 
 Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedkeuring voorlegt aan de algemene vergadering. De jaarrekening **bestaat uit drie onderdelen die samen één geheel vormen** ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]):
@@ -142,7 +158,7 @@ Het verslag van de commissaris is het formele document waarin de [[#-commissaris
 | **Nadruksparagraaf over continuïteit** | Sterke aanwijzing van [[continuiteitsrisico\|continuïteitsrisico]] |
 | **Afwijkend of onthoudend oordeel** | Ernstige problemen met de betrouwbaarheid van de jaarrekening |
 
-> [!warning]- Een goedkeurend commissarisverslag betekent dat de jaarrekening correct is
+> [!warning]- Een goedkeurend commissarisverslag zegt niets over de economische gezondheid van de onderneming
 > ❌ *"Als de commissaris goedkeurt, zijn er geen problemen met de jaarrekening."*
 >
 > Een goedkeurend oordeel betekent dat de commissaris geen materiële fouten heeft vastgesteld en dat de jaarrekening een getrouw beeld geeft. Het zegt niets over de economische gezondheid van de onderneming. Een commissaris kan een foutloze jaarrekening goedkeuren van een vennootschap die op het punt staat failliet te gaan — mits die financiële toestand correct weergegeven is.
@@ -168,14 +184,14 @@ Kleine groepen zijn vrijgesteld, tenzij een groepsvennootschap genoteerd of een 
 
 ---
 
-> [!warning]- De jaarrekening moet binnen 6 maanden na afsluiting worden neergelegd
+> [!warning]- De 6-maandentermijn geldt voor de AV, niet voor de neerlegging bij de NBB
 > ❌ *"Een vennootschap met afsluiting op 31 december moet haar jaarrekening uiterlijk 30 juni neerleggen bij de NBB."*
 >
 > Er zijn twee afzonderlijke termijnen. De jaarrekening moet binnen **6 maanden na afsluiting** ter goedkeuring worden **voorgelegd aan de algemene vergadering** — dat is een intern vennootschappelijke termijn. De **neerlegging bij de NBB** moet dan binnen **30 dagen na goedkeuring** gebeuren en **uiterlijk 7 maanden** na afsluiting. De goedkeuringsvergadering op 30 juni gevolgd door neerlegging op 20 juli voldoet aan beide termijnen.
 >
 > 🤖 *AI-aanvulling*
 
-> [!warning]- Een gecertificeerd accountant kan een commissarisopdracht uitvoeren
+> [!warning]- Een gecertificeerd accountant mag geen commissarisopdracht uitvoeren — dat is voorbehouden aan bedrijfsrevisoren
 > ❌ *"Als een kleine vennootschap vrijwillig haar jaarrekening wil laten controleren, kan ze daarvoor een gecertificeerd accountant aanstellen als commissaris."*
 >
 > Een commissarisopdracht — de wettelijke controle van de jaarrekening — is uitsluitend voorbehouden aan **bedrijfsrevisoren** (lid van het IBR). Een [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] kan wel een vrijwillige verificatie- of correctietaak uitvoeren, maar dat is juridisch iets anders: geen commissaris, geen commissarisverslag, geen wettelijke controleopdracht.

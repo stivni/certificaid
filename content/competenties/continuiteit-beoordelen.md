@@ -34,6 +34,27 @@ Aan de hand van de jaarrekening en andere beschikbare informatie het continuïte
 
 Stel een overzicht op van alle signalen in drie categorieën (financieel, operationeel, juridisch). Volledig overzicht per categorie met voorbeelden: [[continuiteitsrisico#-signalen-van-continuïteitsrisico|Signalen van continuïteitsrisico]].
 
+> [!info]- Concreet: signalenoverzicht uit een jaarrekening
+>
+> Je analyseert een bv met deze gegevens (in €):
+>
+> ```
+> Nettoactief (10/15)      jaar N     jaar N-1
+>                          42.000     118.000   ← gedaald met 76.000
+> Schulden KT (42/48)     380.000     290.000   ← gestegen
+> Liquide middelen         12.000      58.000   ← gedaald
+> Resultaat boekjaar      -76.000     +14.000   ← verlies na winstjaar
+> ```
+>
+> Signalenoverzicht na scannen:
+> - **Financieel**: nettoactief gedaald (–64%), verlies van het boekjaar, liquide middelen bijna leeg
+> - **Operationeel**: uit de toelichting: twee grote klanten opgezegd (omzetdaling –30%)
+> - **Juridisch**: geen vermeld
+>
+> → Drie financiële signalen + één operationeel: voldoende voor stap 2.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ### 2. 🚩 Signalen beoordelen op misleidend karakter
@@ -49,7 +70,7 @@ Stel een overzicht op van alle signalen in drie categorieën (financieel, operat
 
 Beoordeel per signaal of er een aannemelijke tijdelijke verklaring is. [[continuiteitsrisico#-misleidende-continuïteitssignalen|Uitgewerkte patronen per type misleidend signaal]] (groeipijn, seizoenseffect, éénmalige capex).
 
-> [!warning]- Eén negatief signaal gelijkstellen aan een continuïteitsrisico
+> [!warning]- Eén negatief signaal volstaat niet voor een continuïteitsrisico — vereist zijn gewichtige én overeenstemmende feiten
 > ❌ *"De current ratio is onder 1 — er is een continuïteitsrisico."*
 >
 > Continuïteitsrisico vereist "gewichtige **en** overeenstemmende feiten" ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]]). Eén afwijkende ratio is geen continuïteitsrisico — het is een signaal dat nader onderzoek rechtvaardigt. Pas als meerdere signalen in dezelfde richting wijzen, én er geen aannemelijke tijdelijke verklaring is, is er een continuïteitsrisico.
@@ -75,6 +96,23 @@ Beoordeel per signaal of er een aannemelijke tijdelijke verklaring is. [[continu
 Als de feiten gewichtig én overeenstemmend zijn → ga naar stap 4.
 
 Als de feiten individueel of tegengesteld zijn → documenteer de bevindingen, formuleer aanbevelingen voor de cliënt, en plan een vervolgbeoordeling.
+
+> [!info]- Concreet: wegen op gewichtig én overeenstemmend
+>
+> Op basis van het signalenoverzicht uit stap 1 (na correctie in stap 2):
+>
+> | Signaal | Gewichtig? | Richting |
+> |---|---|---|
+> | Nettoactief –64% in één jaar | ✅ ja | ↓ negatief |
+> | Verlies van het boekjaar | ✅ ja | ↓ negatief |
+> | Omzetdaling –30% door klantenverlies | ✅ ja | ↓ negatief |
+> | Liquide middelen nog €12.000 | ✅ ja | ↓ negatief |
+>
+> Alle vier: gewichtig én consistent in dezelfde richting → **overeenstemmend**. Oordeel: gewichtige en overeenstemmende feiten aanwezig → stap 4.
+>
+> Contrast: stel dat het verlies verklaard wordt door een éénmalige investering en de omzet stabiel is — dan zijn de signalen niet overeenstemmend en gaat u niet naar stap 4.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -104,14 +142,14 @@ De drempels verschillen per vennootschapsvorm:
 Als een drempel bereikt is → **alarmbelprocedure door het bestuursorgaan** (ga naar stap 5a).
 Als geen drempel bereikt maar feiten zijn gewichtig en overeenstemmend → **[[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]]** kan al spelen (ga naar stap 5b).
 
-> [!warning]- Alarmbelprocedure en meldingsplicht bij continuïteitsrisico verwarren
+> [!warning]- De alarmbelprocedure is een verplichting van het bestuursorgaan, niet van de beroepsbeoefenaar
 > ❌ *"Als het [[nettoactief|nettoactief]] negatief is, moet de accountant de rechtbank inlichten."*
 >
 > De alarmbelprocedure (bijeenroeping AV, bijzonder verslag) is een **verplichting van het bestuursorgaan** — niet van de beroepsbeoefenaar. De beroepsbeoefenaar heeft een eigen, aparte [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23]]). Die twee procedures zijn onderscheiden: het bestuursorgaan roept de AV bijeen; de GA stuurt bij onvoldoende reactie een aangetekende brief aan de bestuurders, en daarna eventueel een melding aan de rechtbank.
 >
 > 📝 *Terugkerende valkuil — zie ook [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|Meldingsplicht beroepsbeoefenaar]]*
 
-> [!warning]- Alarmbelprocedure = faillissement
+> [!warning]- De alarmbelprocedure voorkomt faillissement, ze triggert het niet
 > ❌ *"Als de alarmbelprocedure loopt, gaat de vennootschap failliet."*
 >
 > De alarmbelprocedure is een wettelijke procedure om het bestuursorgaan te verplichten herstelmaatregelen te bespreken met de algemene vergadering. Ze triggert geen faillissement — ze is juist bedoeld om dat te voorkomen. Een negatief [[nettoactief|nettoactief]] = procedure starten, niet sluiting.
@@ -160,7 +198,7 @@ De [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht
 1. **Aangetekende brief** aan elk lid van het bestuursorgaan, met vermelding van de vastgestelde feiten en de gevraagde maatregelen (ook per gewone brief aan elk lid afzonderlijk)
 2. **Responstermijn: 1 maand**
 
-> [!warning]- ISA 570 als juridische grondslag vermelden
+> [!warning]- ISA 570 is niet de juridische grondslag voor de GA — gebruik WER art. XX.23 en het WVV
 > ❌ *"Volgens ISA 570 moet de accountant de continuïteit beoordelen en eventueel de rechtbank inlichten."*
 >
 > ISA 570 is een IBR-auditstandaard (internationale standaard voor bedrijfsrevisoren). Ze is niet bindend voor gecertificeerde accountants (GA). De wettelijke grondslag voor de Belgische GA is **WER art. XX.23** en het WVV. ISA 570 kan als referentiekader voor de analysemethode dienen, maar mag nooit als juridische grondslag voor de [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] worden vermeld.
@@ -180,7 +218,7 @@ De [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht
 
 **Waarom**: de meldingsplicht bij continuïteitsrisico is tweefasig — de aangetekende brief is de eerste kans voor het bestuursorgaan om te reageren; pas bij uitblijven van reactie of bij imminente insolventie escaleert de verplichting naar de rechtbank.
 
-De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van de [[continuiteitsrisico#-meldingsplicht-bij-continuïteitsrisico-wer-art-xx23|meldingsplicht bij continuïteitsrisico]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]]).
+De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van de [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht van de beroepsbeoefenaar]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]]).
 
 ---
 

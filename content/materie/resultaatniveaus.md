@@ -66,7 +66,7 @@ De techniek om de resultatenrekening te herstructureren staat in [[jaarrekening-
 
 **EBITDA-toelichting**: [[afschrijvingen|afschrijvingen]] en [[waardeverminderingen|waardeverminderingen]] worden in EBIT als kost afgetrokken, maar zijn geen effectieve kasuitstroom. Ze worden terug opgeteld om een proxy te krijgen voor de operationele kascreatie vóór financiering en belastingen.
 
-> [!warning]- EBIT en EBITDA zijn hetzelfde
+> [!warning]- EBIT en EBITDA zijn twee verschillende resultaatniveaus
 > ❌ *"EBIT en EBITDA zijn twee namen voor hetzelfde — het bedrijfsresultaat voor belastingen."*
 >
 > EBIT is het bedrijfsresultaat ná [[afschrijvingen|afschrijvingen]] en [[waardeverminderingen|waardeverminderingen]]. EBITDA voegt die niet-kaskosten terug bij voor een proxy van de operationele kascreatie. Voor kapitaalintensieve sectoren (bouw, industrie, telecom) is EBITDA zinvoller voor vergelijking, omdat afschrijvingsbeleid sterk kan verschillen. EBIT en EBITDA kunnen voor dezelfde onderneming sterk van elkaar afwijken.
@@ -91,7 +91,7 @@ Boekhoudkundige keuzes beïnvloeden de [[financiele-ratios|ratio's]] zonder de e
 
 📝 *Voorbeeldexamen 2024: "Verhoging van de afschrijving op gebouwen heeft het volgende effect op de bruto verkoopmarge → Geen"*
 
-> [!warning]- Afschrijving verhogen verlaagt de brutoverkoopmarge
+> [!warning]- Afschrijvingen liggen ná de brutomarge en verlagen de brutoverkoopmarge niet
 > ❌ *"Als de [[afschrijvingen|afschrijving]] verhoogt, zal de [[financiele-ratios#-brutoverkoopmarge|brutoverkoopmarge]] dalen."*
 >
 > [[afschrijvingen|Afschrijvingen]] liggen structureel **onder** het brutomargepeil in de resultatenrekening. De [[financiele-ratios#-brutoverkoopmarge|brutoverkoopmarge]] = toegevoegde waarde / netto-omzet. [[afschrijvingen|Afschrijvingen]] zijn bedrijfskosten die pas ná de brutomarge in mindering komen. Ze verlagen EBIT, niet de brutomarge.
@@ -109,7 +109,7 @@ Cijfers krijgen pas betekenis wanneer ze worden vergeleken:
 - **Nationale en internationale context**: recessie, rentestijgingen, sectorspecifieke wetgeving
 - **Bedrijfsdomein**: een kapitaalintensieve onderneming heeft hoge [[afschrijvingen|afschrijvingen]] die EBIT drukken — vergelijking via EBITDA is dan zinvoller
 
-> [!warning]- Een hogere winst betekent altijd een betere financiële positie
+> [!warning]- Winst en liquiditeit zijn twee verschillende dingen
 > ❌ *"De onderneming boekt een stevige winst — de financiële situatie is dus gezond."*
 >
 > Winst en liquiditeit zijn twee verschillende dingen. Een winstgevende onderneming kan in betalingsmoeilijkheden verkeren als haar [[balansaggregaten#-werkkapitaalbehoefte-wkb|werkkapitaalbehoefte]] snel stijgt — bijvoorbeeld doordat klanten trager betalen of [[vlottende-activa-waardering#-voorraden|voorraden]] oplopen. De [[balansaggregaten#-netto-bedrijfskapitaal-nbk|balansaggregaten]] (NBK, WKB) geven een completere gezondheidscheck dan winst alleen.

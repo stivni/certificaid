@@ -129,7 +129,7 @@ De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke pers
 - Wanneer de **risicobeoordelingsverplichting** niet kan worden nagekomen
 - Bij **weigering van een potentiële cliënt** wegens risico op witwassen of terrorismefinanciering
 
-> [!warning]- AMLCO maakt periodiek een actualiteitsverslag
+> [!warning]- De AMLCO-verslagplicht is situationeel, niet periodiek
 > ❌ *"De AMLCO maakt minstens om de twee jaar een actualiteitsverslag op."*
 >
 > De interne verslagplicht van de AMLCO is **situationeel**, niet periodiek. Hij maakt een intern verslag op in drie specifieke situaties: bij atypische verrichtingen, wanneer de risicobeoordeling niet kan worden nagekomen, en bij weigering van een potentiële cliënt wegens WG/FT-risico. Er is geen vaste periodiciteit voorzien voor een "actualiteitsverslag".

@@ -70,7 +70,7 @@ Een goede aanbeveling is:
 - **Gemotiveerd**: toon het verband tussen de zwakte en de maatregel
 - **Uitvoerbaar**: de onderneming moet er iets mee kunnen doen
 
-> [!warning]- Aanbevelingen zonder grondslag in de analyse
+> [!warning]- Formuleer aanbevelingen altijd gekoppeld aan een specifiek signaal uit de analyse
 > ❌ *"De onderneming moet haar kosten reduceren en meer verkopen."*
 >
 > Generieke adviezen zijn waardeloos. Een aanbeveling moet direct gekoppeld zijn aan een specifiek signaal uit de analyse: welke ratio was zwak, waarom, en hoe pakt de aanbeveling die specifieke zwakte aan?

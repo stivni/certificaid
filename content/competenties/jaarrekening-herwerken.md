@@ -30,7 +30,7 @@ De officiële jaarrekening (wettelijk schema) omvormen naar een analytisch bruik
 
 Het schema bepaalt hoever de herwerking kan gaan. Bij een volledig schema zijn alle rubrieken beschikbaar. Bij een verkort schema ontbreken sommige subrubrieken — bepaalde hergroeperingen en [[financiele-ratios#-schema-beperkingen|ratio's]] zijn dan niet mogelijk.
 
-> [!warning]- Microschema herstructureren alsof het een volledig schema is
+> [!warning]- Een microschema biedt minder rubrieksdetail — vermeld dit als het de analyse beperkt
 > ❌ *"Ik herstructureer het microschema op dezelfde manier als het volledig schema."*
 >
 > Het microschema bevat minder rubrieksdetail dan het verkort schema. Hergroeperingen die een onderscheid vereisen tussen bv. handelsvorderingen en overige vorderingen zijn niet mogelijk. Vermeld dit expliciet als het de gevraagde analyse beperkt.
@@ -56,9 +56,42 @@ De wettelijke balans is geordend naar juridische categorieën. Je hergroepeert d
 **Passief** (toenemende eisbaarheid):
 - `10/15` = eigen vermogen → `16` = voorzieningen → `17` = schulden LT → `42/48` + `492/3` = schulden KT
 
-Volledige NBB-code mapping per rubriek + voor/na-voorbeeld: [[balansaggregaten#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
+Volledige NBB-code mapping per rubriek: [[balansaggregaten#-analytische-indeling-van-de-balans|Analytische indeling van de balans]]
 
-> [!warning]- Overlopende rekeningen passief vergeten bij schulden KT
+```
+VOOR — wettelijk schema (extract, in €)
+────────────────────────────────────────────────────
+ACTIVA
+20/28  Vaste activa                         1.200.000
+29/58  Vlottende activa
+  3    Voorraden                              300.000
+  40   Handelsvorderingen                     400.000
+  50/53 Liquide middelen                       80.000
+────────────────────────────────────────────────────
+PASSIVA
+10/15  Eigen vermogen                         800.000
+17     Schulden op meer dan één jaar          500.000
+42/48  Schulden op ten hoogste één jaar       390.000
+492/3  Overlopende rekeningen passief         290.000
+────────────────────────────────────────────────────
+
+NA — analytisch schema (functionele groepering)
+────────────────────────────────────────────────────
+ACTIVA (toenemende liquiditeit)
+Vaste activa (20/28)                        1.200.000
+Vlottende activa (29/58)                      780.000
+  waarvan voorraden (3)           300.000
+  waarvan handelsvord. (40)       400.000
+  waarvan liquide mid. (50/53)     80.000
+
+PASSIVA (toenemende eisbaarheid)
+Eigen vermogen (10/15)                        800.000
+Vreemd vermogen LT (17)                       500.000
+Vreemd vermogen KT (42/48 + 492/3)            680.000  ← 390 + 290
+────────────────────────────────────────────────────
+```
+
+> [!warning]- Reken overlopende rekeningen passief mee bij schulden op korte termijn
 > ❌ *"Schulden op korte termijn zijn rubrieken 42 tot 48 — overlopende rekeningen zijn iets aparts."*
 >
 > Overlopende rekeningen passief (rubriek 492/3) bevatten toe te rekenen kosten en over te dragen opbrengsten — dat zijn reële kortetermijnverplichtingen. Bij het berekenen van het netto bedrijfskapitaal (vlottende activa − schulden KT) moeten ze als deel van de kortetermijnpassiva worden meegerekend. Ze worden ook meegenomen in de NBB-code 42/48 in brede zin.
@@ -88,7 +121,7 @@ De resultatenrekening wordt gereorganiseerd van bruto naar netto:
 
 Definitie en toelichting per niveau: [[resultaatniveaus#-resultaatniveaus|Resultaatniveaus]]
 
-> [!warning]- EBITDA berekenen door belastingen en rente bij nettowinst op te tellen
+> [!warning]- Bereken EBITDA vanuit EBIT, niet vanuit nettowinst
 > ❌ *"EBITDA = nettowinst + belastingen + rente + afschrijvingen."*
 >
 > EBITDA = EBIT + afschrijvingen + waardeverminderingen. Vertrekpunt is het bedrijfsresultaat (EBIT), niet de nettowinst. Wie vanuit de nettowinst werkt, moet belastingen én financieel resultaat corrigeren — dat geeft hetzelfde eindresultaat, maar is gevoeliger voor fouten. Vertrek altijd vanuit EBIT als dat beschikbaar is.
@@ -114,6 +147,30 @@ De [[balansaggregaten#-balansaggregaten|kernbalansaggregaten]] condenseren de he
 **Nettokaspositie** = Liquide middelen − Kortlopende financiële schulden → meet de nettokaspositie
 
 De relatie: NBK = WKB + nettokaspositie. Als NBK > WKB: overschot aan liquide middelen. Als NBK < WKB: de bedrijfscyclus vreet meer dan de kortetermijnbuffer aankan — de onderneming leunt op kaskrediet.
+
+> [!info]- Concreet: aggregaten op de balans uit stap 2
+>
+> Uit de hergestructureerde balans hierboven (in €):
+>
+> ```
+> Vlottende activa                         780.000
+> − Vreemd vermogen KT                    -680.000
+> = NBK                                   +100.000   (positief maar smal)
+>
+> Voorraden (3)              300.000
+> + Handelsvorderingen (40)  400.000
+> − Leveranciersschulden     250.000  (deel van 42/48)
+> = WKB                               450.000   (bedrijfscyclus vraagt 450K financiering)
+>
+> Liquide middelen (50/53)    80.000
+> − Kortlopende leningen     220.000  (deel van 42/48)
+> = Nettokaspositie          -140.000  → de onderneming leunt op kaskrediet
+>
+> Controle: WKB + nettokaspositie = 450.000 − 140.000 = 310.000 ≠ NBK (100.000)
+>           verschil = overige KT-schulden (210.000) die wél in NBK zitten maar niet in WKB
+> ```
+>
+> 🤖 *AI-aanvulling*
 
 > [!tip]- Herwerking is voorbereiding, geen doel op zich
 > Hoe ver je herstructureert, hangt af van welke ratio's en aggregaten je daarna wil berekenen. Voor een pure liquiditeitsanalyse volstaat het berekenen van NBK en de quick ratio. Voor een volledige beoordeling ([[financiele-positie-beoordelen]]) werk je alle niveaus uit.
