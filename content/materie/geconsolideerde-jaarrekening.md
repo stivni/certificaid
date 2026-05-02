@@ -13,16 +13,16 @@ bouwversie: 0
 
 ## 📌 Inhoud van de geconsolideerde jaarrekening
 
-De geconsolideerde jaarrekening bestaat uit drie stukken die samen één geheel vormen ([[wetteksten/XV-KB-wvv#art-3103|ITAA-LEX XV (KB) · KB-WVV art. 3:103]]):
+De geconsolideerde jaarrekening bestaat uit drie stukken die samen één geheel vormen ([[bronnen/wetteksten/XV-KB-wvv#art-3103|ITAA-LEX XV (KB) · KB-WVV art. 3:103]]):
 1. de geconsolideerde **balans**,
 2. de geconsolideerde **resultatenrekening**,
 3. de geconsolideerde **toelichting**.
 
-De geconsolideerde balans omvat alle activa, passiva, rechten en verplichtingen van het [[consolidatiekring|geconsolideerd geheel]] na eliminatie van intercompany-transacties. Ze vermeldt afzonderlijk de [[consolidatiemethoden#-belangen-van-derden-minderheidsbelangen|belangen van derden]]. ([[wetteksten/XV-KB-wvv#art-3107|ITAA-LEX XV (KB) · KB-WVV art. 3:107]])
+De geconsolideerde balans omvat alle activa, passiva, rechten en verplichtingen van het [[consolidatiekring|geconsolideerd geheel]] na eliminatie van intercompany-transacties. Ze vermeldt afzonderlijk de [[consolidatiemethoden#-belangen-van-derden-minderheidsbelangen|belangen van derden]]. ([[bronnen/wetteksten/XV-KB-wvv#art-3107|ITAA-LEX XV (KB) · KB-WVV art. 3:107]])
 
 ## 📌 Geconsolideerd jaarverslag
 
-Het bestuursorgaan van de consoliderende vennootschap voegt bij de geconsolideerde jaarrekening een **jaarverslag over de geconsolideerde jaarrekening**. ([[wetteksten/XV-wvv#art-332|ITAA-LEX XV · WVV art. 3:32]])
+Het bestuursorgaan van de consoliderende vennootschap voegt bij de geconsolideerde jaarrekening een **jaarverslag over de geconsolideerde jaarrekening**. ([[bronnen/wetteksten/XV-wvv#art-332|ITAA-LEX XV · WVV art. 3:32]])
 
 Het jaarverslag bevat minimaal:
 1. een getrouw overzicht van de ontwikkeling, resultaten en positie van het geconsolideerde geheel, met een beschrijving van de voornaamste risico's en onzekerheden;
@@ -36,11 +36,11 @@ Het geconsolideerde jaarverslag mag worden gecombineerd met het enkelvoudige jaa
 
 ## 🔒 Afsluitingsdatum
 
-De geconsolideerde jaarrekening wordt **op dezelfde datum afgesloten** als de enkelvoudige jaarrekening van de consoliderende vennootschap. ([[wetteksten/XV-KB-wvv#art-3109|ITAA-LEX XV (KB) · KB-WVV art. 3:109]])
+De geconsolideerde jaarrekening wordt **op dezelfde datum afgesloten** als de enkelvoudige jaarrekening van de consoliderende vennootschap. ([[bronnen/wetteksten/XV-KB-wvv#art-3109|ITAA-LEX XV (KB) · KB-WVV art. 3:109]])
 
 **Uitzondering**: een andere afsluitingsdatum is toegestaan om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen. De afwijking moet worden gemotiveerd in de toelichting.
 
-Wanneer de jaarrekening van een dochteronderneming op een andere datum is afgesloten dan de geconsolideerde jaarrekening, kunnen haar cijfers toch in de consolidatie worden opgenomen. Het tijdsverschil mag **maximaal drie maanden** bedragen. ([[wetteksten/XV-KB-wvv#art-3110|ITAA-LEX XV (KB) · KB-WVV art. 3:110]])
+Wanneer de jaarrekening van een dochteronderneming op een andere datum is afgesloten dan de geconsolideerde jaarrekening, kunnen haar cijfers toch in de consolidatie worden opgenomen. Het tijdsverschil mag **maximaal drie maanden** bedragen. ([[bronnen/wetteksten/XV-KB-wvv#art-3110|ITAA-LEX XV (KB) · KB-WVV art. 3:110]])
 
 > [!warning]- Maximale afwijking afsluitingsdatum: drie maanden
 > ❌ *"Een dochteronderneming met een boekjaar dat zes maanden later afsluit dan de moeder, mag gewoon worden opgenomen in de geconsolideerde jaarrekening met haar eigen cijfers."*
@@ -57,11 +57,11 @@ Wanneer de jaarrekening van een dochteronderneming op een andere datum is afgesl
 
 ## 🔒 Getrouwbeeldvereiste en uniforme waarderingsregels
 
-De geconsolideerde jaarrekening moet een **getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel. ([[wetteksten/XV-KB-wvv#art-3105|ITAA-LEX XV (KB) · KB-WVV art. 3:105]])
+De geconsolideerde jaarrekening moet een **getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van het geconsolideerde geheel. ([[bronnen/wetteksten/XV-KB-wvv#art-3105|ITAA-LEX XV (KB) · KB-WVV art. 3:105]])
 
-Alle activa en passiva van de consoliderende vennootschap en de dochterondernemingen worden gewaardeerd volgens **uniforme regels**. Indien een dochter andere waarderingsregels hanteert, moeten haar posten worden aangepast voor de consolidatie, tenzij het belang van die aanpassing verwaarloosbaar is. ([[wetteksten/XV-KB-wvv#art-3115|ITAA-LEX XV (KB) · KB-WVV art. 3:115]])
+Alle activa en passiva van de consoliderende vennootschap en de dochterondernemingen worden gewaardeerd volgens **uniforme regels**. Indien een dochter andere waarderingsregels hanteert, moeten haar posten worden aangepast voor de consolidatie, tenzij het belang van die aanpassing verwaarloosbaar is. ([[bronnen/wetteksten/XV-KB-wvv#art-3115|ITAA-LEX XV (KB) · KB-WVV art. 3:115]])
 
-**Fiscale distorsies elimineren**: wanneer in de enkelvoudige jaarrekening om fiscale redenen grotere afschrijvingen of waardeverminderingen zijn toegepast dan economisch verantwoord, of grotere passiva zijn geboekt dan economisch vereist, worden deze distorsies voor de consolidatie ongedaan gemaakt. ([[wetteksten/XV-KB-wvv#art-3118|ITAA-LEX XV (KB) · KB-WVV art. 3:118]])
+**Fiscale distorsies elimineren**: wanneer in de enkelvoudige jaarrekening om fiscale redenen grotere afschrijvingen of waardeverminderingen zijn toegepast dan economisch verantwoord, of grotere passiva zijn geboekt dan economisch vereist, worden deze distorsies voor de consolidatie ongedaan gemaakt. ([[bronnen/wetteksten/XV-KB-wvv#art-3118|ITAA-LEX XV (KB) · KB-WVV art. 3:118]])
 
 > [!warning]- Fiscale regels gelden niet in de consolidatie
 > ❌ *"Fiscale afschrijvingsregels (bv. versnelde afschrijvingen) mogen ook in de geconsolideerde jaarrekening worden gebruikt."*
@@ -72,19 +72,19 @@ Alle activa en passiva van de consoliderende vennootschap en de dochterondernemi
 
 ## 📋 Belastinglatenties in de geconsolideerde jaarrekening
 
-Wanneer bij de consolidatie aanpassingen worden gedaan (herwaardering activa, eliminatie distorsies), ontstaan er tijdelijke belastingverschillen. De **belastinglatenties** die hieruit resulteren worden aan passiefzijde geboekt in een afzonderlijke post **"Uitgestelde belastingen en belastinglatenties"** (post IX.B). ([[wetteksten/XV-KB-wvv#art-3119|ITAA-LEX XV (KB) · KB-WVV art. 3:119]])
+Wanneer bij de consolidatie aanpassingen worden gedaan (herwaardering activa, eliminatie distorsies), ontstaan er tijdelijke belastingverschillen. De **belastinglatenties** die hieruit resulteren worden aan passiefzijde geboekt in een afzonderlijke post **"Uitgestelde belastingen en belastinglatenties"** (post IX.B). ([[bronnen/wetteksten/XV-KB-wvv#art-3119|ITAA-LEX XV (KB) · KB-WVV art. 3:119]])
 
 ## 📋 Openbaarmaking
 
-De geconsolideerde jaarrekening en het jaarverslag worden neergelegd bij de Nationale Bank van België. ([[wetteksten/XV-wvv#art-336|ITAA-LEX XV · WVV art. 3:36]])
+De geconsolideerde jaarrekening en het jaarverslag worden neergelegd bij de Nationale Bank van België. ([[bronnen/wetteksten/XV-wvv#art-336|ITAA-LEX XV · WVV art. 3:36]])
 
-**Bedragen**: in de geconsolideerde jaarrekening worden bedragen uitgedrukt **in duizenden euro**, zonder decimalen. Wanneer het geconsolideerde balanstotaal meer dan één miljard euro bedraagt, mogen de bedragen in miljoenen euro worden uitgedrukt. ([[wetteksten/XV-KB-wvv#art-365|ITAA-LEX XV (KB) · KB-WVV art. 3:65]])
+**Bedragen**: in de geconsolideerde jaarrekening worden bedragen uitgedrukt **in duizenden euro**, zonder decimalen. Wanneer het geconsolideerde balanstotaal meer dan één miljard euro bedraagt, mogen de bedragen in miljoenen euro worden uitgedrukt. ([[bronnen/wetteksten/XV-KB-wvv#art-365|ITAA-LEX XV (KB) · KB-WVV art. 3:65]])
 
 ## 📌 IFRS-optie voor niet-genoteerde vennootschappen
 
-Het bestuursorgaan van een niet-genoteerde consoliderende vennootschap kan **onherroepelijk** kiezen om de geconsolideerde jaarrekening op te stellen conform de **volledige IFRS-normen** zoals goedgekeurd door de Europese Commissie. ([[wetteksten/XV-KB-wvv#art-3104|ITAA-LEX XV (KB) · KB-WVV art. 3:104, §2]])
+Het bestuursorgaan van een niet-genoteerde consoliderende vennootschap kan **onherroepelijk** kiezen om de geconsolideerde jaarrekening op te stellen conform de **volledige IFRS-normen** zoals goedgekeurd door de Europese Commissie. ([[bronnen/wetteksten/XV-KB-wvv#art-3104|ITAA-LEX XV (KB) · KB-WVV art. 3:104, §2]])
 
-**Genoteerde vennootschappen** zijn verplicht hun geconsolideerde jaarrekening op te stellen conform de door de EU goedgekeurde IFRS. ([[wetteksten/XV-KB-wvv#art-3104|ITAA-LEX XV (KB) · KB-WVV art. 3:104, §3]])
+**Genoteerde vennootschappen** zijn verplicht hun geconsolideerde jaarrekening op te stellen conform de door de EU goedgekeurde IFRS. ([[bronnen/wetteksten/XV-KB-wvv#art-3104|ITAA-LEX XV (KB) · KB-WVV art. 3:104, §3]])
 
 > [!warning]- IFRS-keuze is onherroepelijk
 > ❌ *"Een niet-genoteerde vennootschap kan elk jaar opnieuw kiezen of ze IFRS of Belgische GAAP toepast voor haar geconsolideerde jaarrekening."*
@@ -111,7 +111,7 @@ De geconsolideerde balans en resultatenrekening volgen schema's vastgesteld door
 - "Aandeel van derden in het resultaat"
 - "Aandeel in het resultaat van vennootschappen waarop de vermogensmutatiemethode wordt toegepast"
 
-([[wetteksten/XV-KB-wvv#art-3154|ITAA-LEX XV (KB) · KB-WVV art. 3:154–3:155]])
+([[bronnen/wetteksten/XV-KB-wvv#art-3154|ITAA-LEX XV (KB) · KB-WVV art. 3:154–3:155]])
 
 ## Relevant voor
 

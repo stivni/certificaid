@@ -12,26 +12,26 @@ bouwversie: 0
 
 ## 📌 Moedervennootschap en controle
 
-Een **moedervennootschap** is een vennootschap die één of meer dochterondernemingen controleert. Controle kan exclusief zijn (integrale consolidatie) of gedeeld (evenredige consolidatie). ([[wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23]])
+Een **moedervennootschap** is een vennootschap die één of meer dochterondernemingen controleert. Controle kan exclusief zijn (integrale consolidatie) of gedeeld (evenredige consolidatie). ([[bronnen/wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23]])
 
 Een **dochteronderneming** is, voor de toepassing van het consolidatierecht, elke entiteit die onder controle staat van een Belgische vennootschap, waaronder:
 1. dochtervennootschappen naar Belgisch of buitenlands recht,
 2. Europese economische samenwerkingsverbanden met zetel in België of in het buitenland,
 3. instellingen naar Belgisch of buitenlands recht — met of zonder winstuitkering — die een activiteit uitoefenen van commerciële, financiële of industriële aard.
 
-([[wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
+([[bronnen/wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
 
 ## 📌 Consoliderende vennootschap
 
-De **consoliderende vennootschap** is de vennootschap die de geconsolideerde jaarrekening opstelt. In geval van een [[#-consortium|consortium]] zijn dat alle deelnemende vennootschappen samen. ([[wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
+De **consoliderende vennootschap** is de vennootschap die de geconsolideerde jaarrekening opstelt. In geval van een [[#-consortium|consortium]] zijn dat alle deelnemende vennootschappen samen. ([[bronnen/wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
 
 ## 📌 Geconsolideerd geheel
 
-Het **geconsolideerd geheel** omvat alle vennootschappen die in de consolidatie zijn opgenomen: de consoliderende vennootschap plus haar integraal of evenredig geconsolideerde dochterondernemingen. Vennootschappen die via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]] zijn opgenomen, behoren **niet** tot het geconsolideerd geheel. ([[wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
+Het **geconsolideerd geheel** omvat alle vennootschappen die in de consolidatie zijn opgenomen: de consoliderende vennootschap plus haar integraal of evenredig geconsolideerde dochterondernemingen. Vennootschappen die via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]] zijn opgenomen, behoren **niet** tot het geconsolideerd geheel. ([[bronnen/wetteksten/XV-wvv#art-322|ITAA-LEX XV · WVV art. 3:22]])
 
 ## 📌 Geassocieerde vennootschap
 
-Een **geassocieerde vennootschap** is een vennootschap waarover de consoliderende vennootschap een invloed van betekenis uitoefent, maar geen controle. Ze wordt niet geconsolideerd maar gewaardeerd via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]]. ([[wetteksten/XV-wvv#art-121|ITAA-LEX XV · WVV art. 1:21]])
+Een **geassocieerde vennootschap** is een vennootschap waarover de consoliderende vennootschap een invloed van betekenis uitoefent, maar geen controle. Ze wordt niet geconsolideerd maar gewaardeerd via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]]. ([[bronnen/wetteksten/XV-wvv#art-121|ITAA-LEX XV · WVV art. 1:21]])
 
 > [!info]- In de praktijk
 >
@@ -41,15 +41,15 @@ Een **geassocieerde vennootschap** is een vennootschap waarover de consoliderend
 
 ## 📌 Consortium
 
-Een **consortium** bestaat wanneer twee of meer vennootschappen geen moeder-dochterrelatie hebben maar toch door één en dezelfde persoon of groep worden geleid. ([[wetteksten/XV-wvv#art-119|ITAA-LEX XV · WVV art. 1:19]])
+Een **consortium** bestaat wanneer twee of meer vennootschappen geen moeder-dochterrelatie hebben maar toch door één en dezelfde persoon of groep worden geleid. ([[bronnen/wetteksten/XV-wvv#art-119|ITAA-LEX XV · WVV art. 1:19]])
 
-Bij een consortium moeten **alle consortiumvennootschappen en hun dochterondernemingen** worden geconsolideerd. Elke consortiumvennootschap wordt als consoliderende vennootschap beschouwd; ze dragen gezamenlijk de verantwoordelijkheid voor de opmaak en openbaarmaking. ([[wetteksten/XV-wvv#art-324|ITAA-LEX XV · WVV art. 3:24]])
+Bij een consortium moeten **alle consortiumvennootschappen en hun dochterondernemingen** worden geconsolideerd. Elke consortiumvennootschap wordt als consoliderende vennootschap beschouwd; ze dragen gezamenlijk de verantwoordelijkheid voor de opmaak en openbaarmaking. ([[bronnen/wetteksten/XV-wvv#art-324|ITAA-LEX XV · WVV art. 3:24]])
 
 ## 🔒 Consolidatieverplichting
 
-Elke **moedervennootschap** die één of meer dochterondernemingen controleert, **moet** een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen. ([[wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23]])
+Elke **moedervennootschap** die één of meer dochterondernemingen controleert, **moet** een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen. ([[bronnen/wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23]])
 
-**Uitzondering — te verwaarlozen dochterondernemingen**: een moedervennootschap is vrijgesteld wanneer al haar dochterondernemingen, individueel en tezamen, slechts van te verwaarlozen betekenis zijn voor de beoordeling van het geconsolideerd vermogen, de financiële positie of het resultaat. ([[wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23, tweede lid]])
+**Uitzondering — te verwaarlozen dochterondernemingen**: een moedervennootschap is vrijgesteld wanneer al haar dochterondernemingen, individueel en tezamen, slechts van te verwaarlozen betekenis zijn voor de beoordeling van het geconsolideerd vermogen, de financiële positie of het resultaat. ([[bronnen/wetteksten/XV-wvv#art-323|ITAA-LEX XV · WVV art. 3:23, tweede lid]])
 
 > [!warning]- Consortium versus moeder-dochter
 > ❌ *"Een consortium hoeft geen geconsolideerde jaarrekening op te stellen want er is geen moedervennootschap."*
@@ -60,7 +60,7 @@ Elke **moedervennootschap** die één of meer dochterondernemingen controleert, 
 
 ## ✅ Consolidatiekring: wie wordt opgenomen?
 
-De consolidatiekring omvat in beginsel de consoliderende vennootschap en **al haar dochterondernemingen**. ([[wetteksten/XV-KB-wvv#art-396|ITAA-LEX XV (KB) · KB-WVV art. 3:96]])
+De consolidatiekring omvat in beginsel de consoliderende vennootschap en **al haar dochterondernemingen**. ([[bronnen/wetteksten/XV-KB-wvv#art-396|ITAA-LEX XV (KB) · KB-WVV art. 3:96]])
 
 **Weglatingen zijn toegestaan** voor een dochteronderneming wanneer:
 1. ze van te verwaarlozen betekenis is (ook meerdere kleine dochters kunnen samen worden weggelaten als ze samen verwaarloosbaar zijn);
@@ -68,11 +68,11 @@ De consolidatiekring omvat in beginsel de consoliderende vennootschap en **al ha
 3. de nodige gegevens niet zonder onevenredige kosten of onverantwoorde vertraging verkrijgbaar zijn;
 4. de aandelen uitsluitend met het oog op latere vervreemding worden gehouden.
 
-Elke weglating moet worden **gemotiveerd in de toelichting**. ([[wetteksten/XV-KB-wvv#art-397|ITAA-LEX XV (KB) · KB-WVV art. 3:97]])
+Elke weglating moet worden **gemotiveerd in de toelichting**. ([[bronnen/wetteksten/XV-KB-wvv#art-397|ITAA-LEX XV (KB) · KB-WVV art. 3:97]])
 
-**Verplichte weglating** — een dochteronderneming die de consoliderende vennootschap in feite controleert, wordt **buiten** de consolidatiekring gelaten als haar opname het getrouwbeeldvereiste zou schenden. In dat geval wordt ze gewaardeerd via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]]. ([[wetteksten/XV-KB-wvv#art-398|ITAA-LEX XV (KB) · KB-WVV art. 3:98]])
+**Verplichte weglating** — een dochteronderneming die de consoliderende vennootschap in feite controleert, wordt **buiten** de consolidatiekring gelaten als haar opname het getrouwbeeldvereiste zou schenden. In dat geval wordt ze gewaardeerd via de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]]. ([[bronnen/wetteksten/XV-KB-wvv#art-398|ITAA-LEX XV (KB) · KB-WVV art. 3:98]])
 
-Dochterondernemingen **in vereffening** of die hun bedrijf stopzetten, worden buiten de consolidatiekring gelaten en via de vermogensmutatiemethode opgenomen. ([[wetteksten/XV-KB-wvv#art-399|ITAA-LEX XV (KB) · KB-WVV art. 3:99–3:100]])
+Dochterondernemingen **in vereffening** of die hun bedrijf stopzetten, worden buiten de consolidatiekring gelaten en via de vermogensmutatiemethode opgenomen. ([[bronnen/wetteksten/XV-KB-wvv#art-399|ITAA-LEX XV (KB) · KB-WVV art. 3:99–3:100]])
 
 > [!warning]- Weglating is niet vrijblijvend
 > ❌ *"Een kleine dochteronderneming mag altijd worden weggelaten als dat praktisch handiger is."*
@@ -85,16 +85,16 @@ Dochterondernemingen **in vereffening** of die hun bedrijf stopzetten, worden bu
 
 Twee soorten vrijstellingen bestaan naast de "te verwaarlozen"-uitzondering:
 
-**Vrijstelling 1 — Groep van beperkte omvang** ([[wetteksten/XV-wvv#art-325|ITAA-LEX XV · WVV art. 3:25]])
+**Vrijstelling 1 — Groep van beperkte omvang** ([[bronnen/wetteksten/XV-wvv#art-325|ITAA-LEX XV · WVV art. 3:25]])
 
 Een vennootschap is vrijgesteld als ze deel uitmaakt van een groep die op geconsolideerde basis niet meer dan één van de volgende drempelwaarden overschrijdt (Cijferzakboekje voor actuele bedragen):
 - jaargemiddeld aantal werknemers: 250
 - jaarlijkse netto-omzet: drempelwaarde (zie Cijferzakboekje)
 - balanstotaal: drempelwaarde (zie Cijferzakboekje)
 
-([[wetteksten/XV-wvv#art-126|ITAA-LEX XV · WVV art. 1:26]])
+([[bronnen/wetteksten/XV-wvv#art-126|ITAA-LEX XV · WVV art. 1:26]])
 
-**Vrijstelling 2 — Dochtervennootschap van hogere moeder** ([[wetteksten/XV-wvv#art-326|ITAA-LEX XV · WVV art. 3:26]])
+**Vrijstelling 2 — Dochtervennootschap van hogere moeder** ([[bronnen/wetteksten/XV-wvv#art-326|ITAA-LEX XV · WVV art. 3:26]])
 
 Een vennootschap is vrijgesteld als ze zelf dochtervennootschap is van een moeder die wél consolideert, mits:
 1. de vrijstelling werd goedgekeurd door 9/10 van de stemmen (NV, SE) of 4/5 (andere);
@@ -102,7 +102,7 @@ Een vennootschap is vrijgesteld als ze zelf dochtervennootschap is van een moede
 3. de hogere moeder stelt haar geconsolideerde jaarrekening op conform richtlijn 2013/34/EU of gelijkwaardig;
 4. de hogere geconsolideerde stukken worden tijdig neergelegd bij de NBB en zijn ter inzage beschikbaar.
 
-**Uitzondering op de vrijstellingen** ([[wetteksten/XV-wvv#art-327|ITAA-LEX XV · WVV art. 3:27]])
+**Uitzondering op de vrijstellingen** ([[bronnen/wetteksten/XV-wvv#art-327|ITAA-LEX XV · WVV art. 3:27]])
 
 Beide vrijstellingen vervallen zodra **één van de te consolideren vennootschappen is genoteerd**. Genoteerde vennootschappen moeten altijd consolideren, ongeacht de omvang van de groep.
 
@@ -121,11 +121,11 @@ Beide vrijstellingen vervallen zodra **één van de te consolideren vennootschap
 
 ## 📋 Wijziging van de consolidatiekring
 
-Wanneer de samenstelling van het geconsolideerd geheel in de loop van het boekjaar **aanmerkelijk wijzigt**, vermeldt de toelichting bij de geconsolideerde jaarrekening inlichtingen die een zinvolle vergelijking met de vorige geconsolideerde jaarrekening mogelijk maken. ([[wetteksten/XV-KB-wvv#art-3102|ITAA-LEX XV (KB) · KB-WVV art. 3:102]])
+Wanneer de samenstelling van het geconsolideerd geheel in de loop van het boekjaar **aanmerkelijk wijzigt**, vermeldt de toelichting bij de geconsolideerde jaarrekening inlichtingen die een zinvolle vergelijking met de vorige geconsolideerde jaarrekening mogelijk maken. ([[bronnen/wetteksten/XV-KB-wvv#art-3102|ITAA-LEX XV (KB) · KB-WVV art. 3:102]])
 
-**Eerste opname van een dochteronderneming**: de compensatie van aandelenboekwaarde en eigen vermogen (zie [[consolidatiemethoden#-integrale-consolidatie|integrale consolidatie]]) gebeurt op de **datum van verwerving** van de aandelen, of bij eerste consolidatieplicht op de **aanvangsdatum van het eerste boekjaar**. ([[wetteksten/XV-KB-wvv#art-3129|ITAA-LEX XV (KB) · KB-WVV art. 3:129]])
+**Eerste opname van een dochteronderneming**: de compensatie van aandelenboekwaarde en eigen vermogen (zie [[consolidatiemethoden#-integrale-consolidatie|integrale consolidatie]]) gebeurt op de **datum van verwerving** van de aandelen, of bij eerste consolidatieplicht op de **aanvangsdatum van het eerste boekjaar**. ([[bronnen/wetteksten/XV-KB-wvv#art-3129|ITAA-LEX XV (KB) · KB-WVV art. 3:129]])
 
-**Deconsolidatie (verkoop aandelen)**: bij verkoop van (een deel van) de aandelen in een dochteronderneming wordt het overblijvende [[consolidatieverschillen|consolidatieverschil]] afgeboekt naar verhouding van de gerealiseerde aandelen. ([[wetteksten/XV-KB-wvv#art-3132|ITAA-LEX XV (KB) · KB-WVV art. 3:132]])
+**Deconsolidatie (verkoop aandelen)**: bij verkoop van (een deel van) de aandelen in een dochteronderneming wordt het overblijvende [[consolidatieverschillen|consolidatieverschil]] afgeboekt naar verhouding van de gerealiseerde aandelen. ([[bronnen/wetteksten/XV-KB-wvv#art-3132|ITAA-LEX XV (KB) · KB-WVV art. 3:132]])
 
 ## 📌 CBN-adviezen over consolidatie
 

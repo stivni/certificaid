@@ -137,24 +137,24 @@ Bronnen staan in twee plaatsen:
 
 | Content-pad | Wet | ITAA-LEX sectie |
 |-------------|-----|-----------------|
-| `content/wetteksten/XVII-antiwitwaswet.md` | Antiwitwaswet 2017 (t.e.m. 24/12/2025) | XVII |
-| `content/wetteksten/XXI-wet-itaa.md` | Wet ITAA 17/03/2019 | XXI |
-| `content/wetteksten/XV-wvv.md` | WVV 23/03/2019 | XV |
-| `content/wetteksten/XV-KB-wvv.md` | KB 29/04/2019 uitvoering WVV | XV (KB) |
-| `content/wetteksten/XIII-wer/` | WER (per Boek) | XIII |
-| `content/wetteksten/XIII-KB-wer-boekhouding.md` | KB 21/10/2018 boekhoudnormen WER | XIII (KB) |
-| `content/wetteksten/IVA-vcf.md` | VCF (t.e.m. 31/12/2025) | IV.A |
-| `content/wetteksten/VII-wetboek-invordering.md` | Wetboek Invordering 2019 | VII |
-| `content/wetteksten/V-wdrt.md` | Wetboek Diverse Rechten en Taksen | V |
-| `content/wetteksten/XI-oud-bw.md` | Oud Burgerlijk Wetboek | XI (oud) |
-| `content/wetteksten/II-KB-wib92.md` | KB/WIB92 27/08/1993 | II (KB) |
-| `content/wetteksten/EU-richtlijn-2013-34.md` | Richtlijn 2013/34/EU | EU |
+| `content/bronnen/wetteksten/XVII-antiwitwaswet.md` | Antiwitwaswet 2017 (t.e.m. 24/12/2025) | XVII |
+| `content/bronnen/wetteksten/XXI-wet-itaa.md` | Wet ITAA 17/03/2019 | XXI |
+| `content/bronnen/wetteksten/XV-wvv.md` | WVV 23/03/2019 | XV |
+| `content/bronnen/wetteksten/XV-KB-wvv.md` | KB 29/04/2019 uitvoering WVV | XV (KB) |
+| `content/bronnen/wetteksten/XIII-wer/` | WER (per Boek) | XIII |
+| `content/bronnen/wetteksten/XIII-KB-wer-boekhouding.md` | KB 21/10/2018 boekhoudnormen WER | XIII (KB) |
+| `content/bronnen/wetteksten/IVA-vcf.md` | VCF (t.e.m. 31/12/2025) | IV.A |
+| `content/bronnen/wetteksten/VII-wetboek-invordering.md` | Wetboek Invordering 2019 | VII |
+| `content/bronnen/wetteksten/V-wdrt.md` | Wetboek Diverse Rechten en Taksen | V |
+| `content/bronnen/wetteksten/XI-oud-bw.md` | Oud Burgerlijk Wetboek | XI (oud) |
+| `content/bronnen/wetteksten/II-KB-wib92.md` | KB/WIB92 27/08/1993 | II (KB) |
+| `content/bronnen/wetteksten/EU-richtlijn-2013-34.md` | Richtlijn 2013/34/EU | EU |
 
-**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
+**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
 
 **Werkwijze bij het schrijven van materie:**
 1. Grep eerst in `resources/wetteksten/*.md` op artikelnummer of sleutelwoord
-2. Citeer het artikel inline via een wikilink naar `content/wetteksten/` (zie §Bronvermelding in fiches)
+2. Citeer het artikel inline via een wikilink naar `content/bronnen/wetteksten/` (zie §Bronvermelding in fiches)
 3. Ga enkel online als de wet niet lokaal beschikbaar is
 
 ### Bronhiërarchie
@@ -189,7 +189,7 @@ De bronhiërarchie verschilt per laag.
 
 ### Bronvermelding in fiches
 
-**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/wetteksten/`:
+**Inline bronnen**: elke feitelijke bewering over wetsinhoud krijgt een klikbare verwijzing direct in de tekst via de wetteksten in `content/bronnen/wetteksten/`:
 - `([[wetteksten/XXI-wet-itaa#art-37|Wet ITAA art. 37]])` — springt direct naar Art. 37 in de Wet ITAA
 - `([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]])` — springt direct naar Art. 47 in de AWW
 - `([[wetteksten/XIII-wer/boek-iii#art-iii-82|WER art. III.82]])` — WER split per Boek
@@ -218,7 +218,7 @@ Let op:
 
 **Geen aparte "Bronnen en artikelen"-sectie** — bronverwijzingen staan inline in de tekst, direct na de feitelijke bewering. Een aparte sectie onderaan is redundant en niet onderhoudbaar.
 
-**Geen links naar lokale PDF's** — altijd via de wetteksten in `content/wetteksten/` of een publieke online bron.
+**Geen links naar lokale PDF's** — altijd via de wetteksten in `content/bronnen/wetteksten/` of een publieke online bron.
 
 ### Bronintegriteit en AI-labeling
 
@@ -257,7 +257,7 @@ Eenmalig werk dat daarna Read/grep-opzoekwerk vervangt. Zodra een wettekst als `
    - Heading: `# Korte naam (gecoördineerde versie datum)`
    - Artikel-headings exact: `## Art. X` — geen variaties, zodat ankers voorspelbaar zijn
    - Verwijder paginanummers, kolomkoppen en herhaalde titels
-4. Maak een site-versie aan: `content/wetteksten/NAAM.md` (dezelfde structuur, zichtbaar op de site)
+4. Maak een site-versie aan: `content/bronnen/wetteksten/NAAM.md` (dezelfde structuur, zichtbaar op de site)
 5. Voeg een rij toe aan de tabel in §Primaire werkreferentie
 
 ## Programmaonderdeel-fiches
@@ -1203,13 +1203,15 @@ certificaid/
 │   ├── programmaonderdelen/ # Catalogus: per vak welke competenties + materie + synthese-oefeningen
 │   ├── competenties/        # Technieken: aanbevolen werkwijze per toetsbaar vaardigheidtype
 │   ├── materie/             # Kennis: één concept/fenomeen per fiche
-│   └── wetteksten/          # Wetgeving als doorzoekbare content — primaire bron voor materie
-│       ├── index.md         # Overzicht alle secties met status en links
-│       ├── XVII-antiwitwaswet.md
-│       ├── XXI-wet-itaa.md
-│       ├── XIII-wer/        # WER gesplitst per Boek
-│       └── ...              # Overige secties (✅ beschikbaar of ⏳ placeholder)
-│   # Toekomstig: bronnen/normen/ (ITAA-normen) en bronnen/adviezen/ (CBN) — nog aan te maken
+│   └── bronnen/             # Primaire bronnen als doorzoekbare content
+│       ├── wetteksten/      # Wetgeving — primaire bron voor materie
+│       │   ├── index.md     # Overzicht alle secties met status en links
+│       │   ├── XVII-antiwitwaswet.md
+│       │   ├── XXI-wet-itaa.md
+│       │   ├── XIII-wer/    # WER gesplitst per Boek
+│       │   └── ...          # Overige secties (✅ beschikbaar of ⏳ placeholder)
+│       ├── normen/          # ITAA-normen als gestructureerde markdown
+│       └── adviezen/        # CBN-adviezen (nog aan te maken)
 ├── tools/
 └── resources/
     ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)

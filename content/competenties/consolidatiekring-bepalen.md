@@ -26,13 +26,13 @@ Vaststellen welke entiteiten deel uitmaken van de consolidatiekring en welke met
 
 Bepaal of de vennootschap onderworpen is aan de consolidatieverplichting op basis van twee vragen:
 
-**Vraag 1 — Is er een moeder-dochterrelatie of consortium?** Controleer of de vennootschap exclusieve of gezamenlijke controle uitoefent over één of meer dochterondernemingen, dan wel deel uitmaakt van een [[consolidatiekring#-consortium|consortium]]. ([[wetteksten/XV-wvv#art-323|WVV art. 3:23–3:24]])
+**Vraag 1 — Is er een moeder-dochterrelatie of consortium?** Controleer of de vennootschap exclusieve of gezamenlijke controle uitoefent over één of meer dochterondernemingen, dan wel deel uitmaakt van een [[consolidatiekring#-consortium|consortium]]. ([[bronnen/wetteksten/XV-wvv#art-323|WVV art. 3:23–3:24]])
 
 **Vraag 2 — Gelden vrijstellingen?** Indien een moeder-dochterrelatie of consortium bestaat, controleer dan of de vrijstelling voor [[consolidatiekring#-vrijstellingen-van-de-consolidatieverplichting|groepen van beperkte omvang]] (WVV art. 3:25) of de [[consolidatiekring#-vrijstellingen-van-de-consolidatieverplichting|vrijstelling als dochtervennootschap van hogere moeder]] (WVV art. 3:26) van toepassing is.
 
 **Let op**: beide vrijstellingen vervallen zodra **één van de te consolideren vennootschappen is genoteerd** (WVV art. 3:27). Controleer dit altijd als eerste.
 
-*(Grondslag: [[wetteksten/XV-wvv#art-323|WVV art. 3:23–3:27]])*
+*(Grondslag: [[bronnen/wetteksten/XV-wvv#art-323|WVV art. 3:23–3:27]])*
 
 > [!warning]- Genoteerde vennootschap in de groep
 > ❌ *"De groep is klein genoeg voor de vrijstelling, dus hoeft er niet geconsolideerd te worden."*
@@ -58,7 +58,7 @@ Beoordeel voor elke participatie het type relatie:
 | Gezamenlijke controle | Contractueel gedeelde zeggenschap | Evenredige consolidatie |
 | Invloed van betekenis | Vermoeden bij ≥ 20% stemrechten | Vermogensmutatiemethode |
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3124|KB-WVV art. 3:124]]; [[wetteksten/XV-wvv#art-121|WVV art. 1:21]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3124|KB-WVV art. 3:124]]; [[bronnen/wetteksten/XV-wvv#art-121|WVV art. 1:21]])*
 
 ### 3. 🔀 Weglatingen en verplichte uitsluitingen beoordelen
 
@@ -69,7 +69,7 @@ Beoordeel voor elke participatie het type relatie:
 > 📤 **Uitkomst**:
 > - Per entiteit: opnemen in consolidatiekring of weglaten/uitsluiten, met motivering
 
-Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]]):
+Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[bronnen/wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]]):
 
 - **Verwaarloosbare betekenis**: individueel of gezamenlijk te verwaarloosbaar voor de beoordeling van het geconsolideerde vermogen/resultaat.
 - **Effectieve controlebeperkingen**: ingrijpende en duurzame beperkingen belemmeren de uitoefening van controlebevoegdheid.
@@ -79,7 +79,7 @@ Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[wetteksten/XV
 
 Elke weglating vergt **motivering in de toelichting**.
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]])*
 
 ### 4. 💬 Consolidatiekring documenteren
 
@@ -103,7 +103,7 @@ Associé A1      | 30%     | Vermogensmutatie    |
 Dochter D3      | 60%     | Weglating (art. 97) | in vereffening → VM-methode
 ```
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-396|KB-WVV art. 3:96]], [[wetteksten/XV-KB-wvv#art-3102|art. 3:102]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-396|KB-WVV art. 3:96]], [[bronnen/wetteksten/XV-KB-wvv#art-3102|art. 3:102]])*
 
 ## Voorbeelden
 

@@ -18,7 +18,7 @@ Het ITAA reguleert de toegang tot en de uitoefening van de beroepen van [[beroep
 ## 📌 Instituut van de Belastingadviseurs en de Accountants (ITAA)
 *Belgian Institute for tax advisors and accountants*
 
-Het ITAA is een **publiekrechtelijk instituut** met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB (Instituut van de Accountants en de Belastingconsulenten) en het BIBF (Beroepsinstituut van Erkende Boekhouders en Fiscalisten) ([[wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]).
+Het ITAA is een **publiekrechtelijk instituut** met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB (Instituut van de Accountants en de Belastingconsulenten) en het BIBF (Beroepsinstituut van Erkende Boekhouders en Fiscalisten) ([[bronnen/wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]).
 
 Het ITAA heeft zijn zetel in het Brusselse Hoofdstedelijke Gewest en mag ook de benaming "Belgian Institute for tax advisors and accountants" gebruiken.
 
@@ -26,19 +26,19 @@ Het ITAA heeft zijn zetel in het Brusselse Hoofdstedelijke Gewest en mag ook de 
 
 ## 📌 Openbaar register
 
-Het ITAA houdt een **openbaar register** bij waarmee iedereen kan nagaan wie het beroep mag uitoefenen of de titel mag dragen ([[wetteksten/XXI-wet-itaa#art-29|ITAA-LEX XXI · Wet ITAA art. 29]]).
+Het ITAA houdt een **openbaar register** bij waarmee iedereen kan nagaan wie het beroep mag uitoefenen of de titel mag dragen ([[bronnen/wetteksten/XXI-wet-itaa#art-29|ITAA-LEX XXI · Wet ITAA art. 29]]).
 
 Het register bevat onder meer: naam, inschrijvingsnummer, kantooradres, hoedanigheid (gecertificeerd accountant, gecertificeerd belastingadviseur, stagiair, ...), netwerk, datum van eedaflegging.
 
-**Inschrijving is verplicht**: niemand mag het beroep uitoefenen of de titel dragen zonder ingeschreven te zijn ([[wetteksten/XXI-wet-itaa#art-53|ITAA-LEX XXI · Wet ITAA art. 53]]).
+**Inschrijving is verplicht**: niemand mag het beroep uitoefenen of de titel dragen zonder ingeschreven te zijn ([[bronnen/wetteksten/XXI-wet-itaa#art-53|ITAA-LEX XXI · Wet ITAA art. 53]]).
 
-Naast het gewone register houdt het ITAA ook een **aparte lijst** bij voor personen die de activiteiten van gecertificeerd belastingadviseur uitoefenen zonder de titel te dragen ([[wetteksten/XXI-wet-itaa#art-29|ITAA-LEX XXI · Wet ITAA art. 29]]).
+Naast het gewone register houdt het ITAA ook een **aparte lijst** bij voor personen die de activiteiten van gecertificeerd belastingadviseur uitoefenen zonder de titel te dragen ([[bronnen/wetteksten/XXI-wet-itaa#art-29|ITAA-LEX XXI · Wet ITAA art. 29]]).
 
 ---
 
 ## 📌 Normatief kader
 
-Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is bij de uitoefening van zijn beroep([[wetteksten/XXI-wet-itaa#art-36|ITAA-LEX XXI · Wet ITAA art. 36]]) (definitie in art. 2, 14°):
+Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is bij de uitoefening van zijn beroep([[bronnen/wetteksten/XXI-wet-itaa#art-36|ITAA-LEX XXI · Wet ITAA art. 36]]) (definitie in art. 2, 14°):
 
 | Rang | Bron | Bindend? |
 |------|------|---------|
@@ -48,7 +48,7 @@ Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is 
 | 4 | **ITAA-aanbevelingen** — uitgevaardigd door de Raad | Ja — iets meer ruimte voor gemotiveerde afwijking |
 | 5 | **Andere wetgeving** — bv. Antiwitwaswet, WER | Ja |
 
-**Belangrijk onderscheid**: ITAA-aanbevelingen zijn **bindend** — de benaming "aanbeveling" impliceert niet dat ze vrijwillig zijn. Het verschil met normen zit uitsluitend in de mate van flexibiliteit bij gemotiveerde afwijking ([[wetteksten/XXI-wet-itaa#art-72|ITAA-LEX XXI · Wet ITAA art. 72, 2°]]).
+**Belangrijk onderscheid**: ITAA-aanbevelingen zijn **bindend** — de benaming "aanbeveling" impliceert niet dat ze vrijwillig zijn. Het verschil met normen zit uitsluitend in de mate van flexibiliteit bij gemotiveerde afwijking ([[bronnen/wetteksten/XXI-wet-itaa#art-72|ITAA-LEX XXI · Wet ITAA art. 72, 2°]]).
 
 > [!warning]- ITAA-aanbevelingen zijn vrijblijvend
 > ❌ *"Een ITAA-aanbeveling is een suggestie — ik ben er niet strikt aan gebonden."*
@@ -61,7 +61,7 @@ Het normatief kader omvat alle bronnen waaraan de beroepsbeoefenaar gebonden is 
 
 ## 👤 Opdracht van het ITAA
 
-Het ITAA heeft zes hoofdtaken ([[wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · Wet ITAA art. 62]]):
+Het ITAA heeft zes hoofdtaken ([[bronnen/wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · Wet ITAA art. 62]]):
 
 1. **Beroepsbelangen beschermen** — de rechten en gemeenschappelijke belangen van zijn leden
 2. **Toegang tot het beroep bewaken** — [[beroep-van-accountant-en-belastingadviseur#-8-toegangsvoorwaarden|toelatingsexamen]], [[beroep-van-accountant-en-belastingadviseur#-de-stage|stage]] en bekwaamheidsexamen
@@ -77,11 +77,11 @@ Het ITAA heeft zes hoofdtaken ([[wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · 
 | Orgaan | Grondslag | Bevoegdheid |
 |--------|-----------|-------------|
 | **Algemene Vergadering** | art. 63–65 | Stelt bijdragen vast, keurt normen goed, beslist over fusies |
-| **Raad van het ITAA** | [[wetteksten/XXI-wet-itaa#art-68|ITAA-LEX XXI · Wet ITAA art. 68–72]] | Dagelijks bestuur: register, normen, tucht, kwaliteitstoetsing |
-| **Stagecommissie** | [[wetteksten/XXI-wet-itaa#art-17|ITAA-LEX XXI · Wet ITAA art. 17]] | Toelatings- en bekwaamheidsexamen, stageovereenkomsten |
-| **Commissie kwaliteitstoetsing** | [[wetteksten/XXI-wet-itaa#art-60|ITAA-LEX XXI · Wet ITAA art. 60]] | Organisatie en uitvoering van de kwaliteitstoetsing |
-| **Tuchtcommissie** | [[wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89]] | Tuchtprocedures voor deontologische inbreuken |
-| **Hoge Raad voor de Economische Beroepen** | [[wetteksten/XXI-wet-itaa#art-79|ITAA-LEX XXI · Wet ITAA art. 79]] | Zelfstandig adviesorgaan — bewaakt het algemeen belang |
+| **Raad van het ITAA** | [[bronnen/wetteksten/XXI-wet-itaa#art-68|ITAA-LEX XXI · Wet ITAA art. 68–72]] | Dagelijks bestuur: register, normen, tucht, kwaliteitstoetsing |
+| **Stagecommissie** | [[bronnen/wetteksten/XXI-wet-itaa#art-17|ITAA-LEX XXI · Wet ITAA art. 17]] | Toelatings- en bekwaamheidsexamen, stageovereenkomsten |
+| **Commissie kwaliteitstoetsing** | [[bronnen/wetteksten/XXI-wet-itaa#art-60|ITAA-LEX XXI · Wet ITAA art. 60]] | Organisatie en uitvoering van de kwaliteitstoetsing |
+| **Tuchtcommissie** | [[bronnen/wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89]] | Tuchtprocedures voor deontologische inbreuken |
+| **Hoge Raad voor de Economische Beroepen** | [[bronnen/wetteksten/XXI-wet-itaa#art-79|ITAA-LEX XXI · Wet ITAA art. 79]] | Zelfstandig adviesorgaan — bewaakt het algemeen belang |
 
 De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet ondergeschikt aan het ITAA). Hij geeft adviezen aan parlement, regering, ITAA en het Instituut van de Bedrijfsrevisoren (IBR) over de uitoefening van de beroepen in het algemeen belang. Hij kan ook klacht neerleggen bij de [[itaa-als-instituut#-tuchtstelsel|tuchtcommissie]].
 
@@ -96,7 +96,7 @@ De **Hoge Raad voor de Economische Beroepen** is een zelfstandig organisme (niet
 
 ## 🔒 Bijdragen aan het ITAA
 
-Alle personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]] met een hoedanigheid — zowel natuurlijke als rechtspersonen — en alle [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiairs]] betalen jaarlijks een bijdrage aan het ITAA ([[wetteksten/XXI-wet-itaa#art-54|ITAA-LEX XXI · Wet ITAA art. 54]]).
+Alle personen ingeschreven in het [[itaa-als-instituut#-openbaar-register|openbaar register]] met een hoedanigheid — zowel natuurlijke als rechtspersonen — en alle [[beroep-van-accountant-en-belastingadviseur#-de-stage|stagiairs]] betalen jaarlijks een bijdrage aan het ITAA ([[bronnen/wetteksten/XXI-wet-itaa#art-54|ITAA-LEX XXI · Wet ITAA art. 54]]).
 
 De bijdrage wordt als volgt bepaald:
 - De **Koning** bepaalt het maximumbedrag per groep
@@ -111,7 +111,7 @@ Niet betalen van de bijdrage leidt tot een **terechtwijzing** door de Raad (zie 
 
 ## 📋 Kwaliteitstoetsing
 
-**Periodiciteit**: elke **7 jaar** worden de beroepsactiviteiten van een beroepsbeoefenaar beoordeeld ([[wetteksten/XXI-wet-itaa#art-55|ITAA-LEX XXI · Wet ITAA art. 55]]).
+**Periodiciteit**: elke **7 jaar** worden de beroepsactiviteiten van een beroepsbeoefenaar beoordeeld ([[bronnen/wetteksten/XXI-wet-itaa#art-55|ITAA-LEX XXI · Wet ITAA art. 55]]).
 
 > [!warning]- Kwaliteitstoetsing elke 5 jaar
 > ❌ *"Elke beroepsbeoefenaar wordt om de vijf jaar aan een kwaliteitstoetsing onderworpen."*
@@ -120,18 +120,18 @@ Niet betalen van de bijdrage leidt tot een **terechtwijzing** door de Raad (zie 
 >
 > 🤖 *AI-aanvulling*
 
-**Doel** ([[wetteksten/XXI-wet-itaa#art-56|ITAA-LEX XXI · Wet ITAA art. 56]]): nagaan of de beroepsbeoefenaar:
+**Doel** ([[bronnen/wetteksten/XXI-wet-itaa#art-56|ITAA-LEX XXI · Wet ITAA art. 56]]): nagaan of de beroepsbeoefenaar:
 - Beschikt over een organisatie aangepast aan de aard en omvang van zijn activiteiten
 - Zijn beroepsactiviteiten uitvoert conform het normatief kader
 
 **Verloop:**
-- Aankondiging minstens **2 maanden** op voorhand ([[wetteksten/XXI-wet-itaa#art-58|ITAA-LEX XXI · Wet ITAA art. 58]])
+- Aankondiging minstens **2 maanden** op voorhand ([[bronnen/wetteksten/XXI-wet-itaa#art-58|ITAA-LEX XXI · Wet ITAA art. 58]])
 - De beroepsbeoefenaar verschaft toegang tot zijn kantoor en alle relevante informatie
-- Toetsers zijn onafhankelijk en hebben specifieke kwalificaties ([[wetteksten/XXI-wet-itaa#art-57|ITAA-LEX XXI · Wet ITAA art. 57]])
+- Toetsers zijn onafhankelijk en hebben specifieke kwalificaties ([[bronnen/wetteksten/XXI-wet-itaa#art-57|ITAA-LEX XXI · Wet ITAA art. 57]])
 
-**Gevolgen bij inbreuken** ([[wetteksten/XXI-wet-itaa#art-59|ITAA-LEX XXI · Wet ITAA art. 59]]): ofwel een verbeterplan, ofwel doorverwijzing naar de rechtskundig assessor (met melding aan de Procureur des Konings).
+**Gevolgen bij inbreuken** ([[bronnen/wetteksten/XXI-wet-itaa#art-59|ITAA-LEX XXI · Wet ITAA art. 59]]): ofwel een verbeterplan, ofwel doorverwijzing naar de rechtskundig assessor (met melding aan de Procureur des Konings).
 
-**Niet bevestigen van de datum** leidt automatisch tot een **terechtwijzing** ([[wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 4°]]).
+**Niet bevestigen van de datum** leidt automatisch tot een **terechtwijzing** ([[bronnen/wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 4°]]).
 
 ---
 
@@ -141,21 +141,21 @@ Er zijn twee afzonderlijke procedures met elk een eigen toepassingsgebied:
 
 ### Terechtwijzing — administratief, voor 4 specifieke inbreuken
 
-De Raad van het ITAA kan een terechtwijzing opleggen bij ([[wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 4°]]):
+De Raad van het ITAA kan een terechtwijzing opleggen bij ([[bronnen/wetteksten/XXI-wet-itaa#art-85|ITAA-LEX XXI · Wet ITAA art. 85, 4°]]):
 1. Niet betalen van bijdragen aan het ITAA
 2. Niet verzekerd zijn voor [[relaties-met-clienten#-aansprakelijkheid|beroepsaansprakelijkheid]]
 3. Drie opeenvolgende jaren niet deelgenomen aan de [[beroep-van-accountant-en-belastingadviseur#-permanente-vorming|permanente vorming]]
 4. Datum [[itaa-als-instituut#-kwaliteitstoetsing|kwaliteitstoetsing]] niet bevestigd
 
-**Procedure**: de beroepsbeoefenaar krijgt een termijn om zich in regel te stellen. Reageert hij niet binnen 3 maanden, kan de Raad zijn hoedanigheid intrekken. Een definitieve terechtwijzing blijft 5 jaar in het dossier. Beroep is mogelijk bij de commissie van beroep binnen 30 dagen ([[wetteksten/XXI-wet-itaa#art-86|ITAA-LEX XXI · Wet ITAA art. 86–88]]).
+**Procedure**: de beroepsbeoefenaar krijgt een termijn om zich in regel te stellen. Reageert hij niet binnen 3 maanden, kan de Raad zijn hoedanigheid intrekken. Een definitieve terechtwijzing blijft 5 jaar in het dossier. Beroep is mogelijk bij de commissie van beroep binnen 30 dagen ([[bronnen/wetteksten/XXI-wet-itaa#art-86|ITAA-LEX XXI · Wet ITAA art. 86–88]]).
 
 ### Tuchtprocedure — voor ernstigere en andere deontologische inbreuken
 
-De tuchtcommissie behandelt inbreuken die niet onder de terechtwijzing vallen ([[wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89–91]]). Ze bestaat uit twee kamers (NL en FR), elk met een voorzitter (magistraat of advocaat met minstens 10 jaar ervaring) en twee leden aangewezen door de Raad. De tuchtcommissie wordt bijgestaan door een **rechtskundig assessor** die het onderzoek voert: na zijn onderzoek beslist hij om de zaak hetzij te seponeren, hetzij te vervolgen voor de tuchtcommissie ([[wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89–91]]).
+De tuchtcommissie behandelt inbreuken die niet onder de terechtwijzing vallen ([[bronnen/wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89–91]]). Ze bestaat uit twee kamers (NL en FR), elk met een voorzitter (magistraat of advocaat met minstens 10 jaar ervaring) en twee leden aangewezen door de Raad. De tuchtcommissie wordt bijgestaan door een **rechtskundig assessor** die het onderzoek voert: na zijn onderzoek beslist hij om de zaak hetzij te seponeren, hetzij te vervolgen voor de tuchtcommissie ([[bronnen/wetteksten/XXI-wet-itaa#art-89|ITAA-LEX XXI · Wet ITAA art. 89–91]]).
 
-**Procedure**: aanklacht → onderzoek door rechtskundig assessor → al dan niet vervolging → verweer en hoorzitting → beslissing tuchtcommissie → mogelijkheid van beroep bij de commissie van beroep ([[wetteksten/XXI-wet-itaa#art-94|ITAA-LEX XXI · Wet ITAA art. 94–101]]).
+**Procedure**: aanklacht → onderzoek door rechtskundig assessor → al dan niet vervolging → verweer en hoorzitting → beslissing tuchtcommissie → mogelijkheid van beroep bij de commissie van beroep ([[bronnen/wetteksten/XXI-wet-itaa#art-94|ITAA-LEX XXI · Wet ITAA art. 94–101]]).
 
-**Tuchtstraffen** ([[wetteksten/XXI-wet-itaa#art-93|ITAA-LEX XXI · Wet ITAA art. 93]]), in oplopende ernst:
+**Tuchtstraffen** ([[bronnen/wetteksten/XXI-wet-itaa#art-93|ITAA-LEX XXI · Wet ITAA art. 93]]), in oplopende ernst:
 1. Waarschuwing
 2. Berisping
 3. Geldboete

@@ -9,13 +9,13 @@ bronnen:
 
 # Vlottende activa: bijzondere waarderingsregels
 
-Vlottende activa zijn activa die binnen het normale bedrijfscyclus worden gerealiseerd of verbruikt: vorderingen, voorraden, bestellingen in uitvoering, geldbeleggingen en liquide middelen. De basisregel is dat elk actiefbestanddeel wordt gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]], maar voor de vlottende activa gelden aanvullende bijzondere regels per categorie. ([[wetteksten/XV-KB-wvv#art-345|KB WVV art. 3:45–3:53]])
+Vlottende activa zijn activa die binnen het normale bedrijfscyclus worden gerealiseerd of verbruikt: vorderingen, voorraden, bestellingen in uitvoering, geldbeleggingen en liquide middelen. De basisregel is dat elk actiefbestanddeel wordt gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]], maar voor de vlottende activa gelden aanvullende bijzondere regels per categorie. ([[bronnen/wetteksten/XV-KB-wvv#art-345|KB WVV art. 3:45–3:53]])
 
 ---
 
 ## 📌 Vorderingen
 
-Vorderingen zijn bedragen die een derde verschuldigd is aan de vennootschap — zowel op meer dan een jaar als op ten hoogste een jaar. ([[wetteksten/XV-KB-wvv#art-345|KB WVV art. 3:45]])
+Vorderingen zijn bedragen die een derde verschuldigd is aan de vennootschap — zowel op meer dan een jaar als op ten hoogste een jaar. ([[bronnen/wetteksten/XV-KB-wvv#art-345|KB WVV art. 3:45]])
 
 **Waarderingsregel: nominale waarde**
 
@@ -30,7 +30,7 @@ Als een vordering een ingebakken rente of een abnormaal lage rente heeft, worden
 
 **Waarderingsregel: waardeverminderingen**
 
-[[waardeverminderingen|Waardeverminderingen]] worden verplicht toegepast wanneer er onzekerheid bestaat over de betaling op de vervaldag. Ze mogen ook worden geboekt als de realisatiewaarde op balansdatum lager is dan de boekwaarde. ([[wetteksten/XV-KB-wvv#art-346|KB WVV art. 3:46]])
+[[waardeverminderingen|Waardeverminderingen]] worden verplicht toegepast wanneer er onzekerheid bestaat over de betaling op de vervaldag. Ze mogen ook worden geboekt als de realisatiewaarde op balansdatum lager is dan de boekwaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-346|KB WVV art. 3:46]])
 
 > [!warning]- Vorderingen: nominale waarde, niet aanschaffingswaarde
 > ❌ *"Vorderingen worden gewaardeerd tegen aanschaffingswaarde, net als andere activa."*
@@ -49,7 +49,7 @@ Als een vordering een ingebakken rente of een abnormaal lage rente heeft, worden
 
 ## 📌 Voorraden
 
-Voorraden omvatten grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde onroerende goederen. Goederen in bewerking worden ook onder voorraden opgenomen maar gelden als onafgewerkt product. ([[wetteksten/XV-KB-wvv#art-347|KB WVV art. 3:47]])
+Voorraden omvatten grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde onroerende goederen. Goederen in bewerking worden ook onder voorraden opgenomen maar gelden als onafgewerkt product. ([[bronnen/wetteksten/XV-KB-wvv#art-347|KB WVV art. 3:47]])
 
 **Waarderingsregel: laagste van aanschaffingswaarde of marktwaarde**
 
@@ -57,7 +57,7 @@ Voorraden worden gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] o
 
 De lagere marktwaarde mag **niet worden gehandhaafd** als de marktwaarde nadien weer stijgt — de waardering moet dan worden hersteld.
 
-**Goederen in bewerking**: gewaardeerd tegen **vervaardigingsprijs**. Als de vervaardigingsprijs vermeerderd met de nog te maken kosten hoger is dan de nettoverkoopprijs op balansdatum, wordt een waardevermindering geboekt. ([[wetteksten/XV-KB-wvv#art-348|KB WVV art. 3:48]])
+**Goederen in bewerking**: gewaardeerd tegen **vervaardigingsprijs**. Als de vervaardigingsprijs vermeerderd met de nog te maken kosten hoger is dan de nettoverkoopprijs op balansdatum, wordt een waardevermindering geboekt. ([[bronnen/wetteksten/XV-KB-wvv#art-348|KB WVV art. 3:48]])
 
 **Aanvullende waardeverminderingen** mogen worden geboekt op voorraden om rekening te houden met:
 - de evolutie van de realisatie- of marktwaarde
@@ -80,7 +80,7 @@ De lagere marktwaarde mag **niet worden gehandhaafd** als de marktwaarde nadien 
 
 ## 📌 Bestellingen in uitvoering
 
-Bestellingen in uitvoering zijn langlopende contracten waarbij de uitvoering zich over meerdere boekjaren uitstrekt, zoals bouwcontracten of grote projecten. Ze worden afzonderlijk gewaardeerd omdat de realisatie van de opbrengst gespreid in de tijd plaatsvindt. ([[wetteksten/XV-KB-wvv#art-349|KB WVV art. 3:49]])
+Bestellingen in uitvoering zijn langlopende contracten waarbij de uitvoering zich over meerdere boekjaren uitstrekt, zoals bouwcontracten of grote projecten. Ze worden afzonderlijk gewaardeerd omdat de realisatie van de opbrengst gespreid in de tijd plaatsvindt. ([[bronnen/wetteksten/XV-KB-wvv#art-349|KB WVV art. 3:49]])
 
 **Waarderingsregel: twee methoden**
 
@@ -94,7 +94,7 @@ De gekozen methode en criteria worden in de toelichting bij de waarderingsregels
 
 **Compensatie**: bestellingen in uitvoering mogen worden gecompenseerd met ontvangen vooruitbetalingen per overeenkomst. Het debet- of creditsaldo wordt dan gepresenteerd als "bestelling in uitvoering" respectievelijk "ontvangen vooruitbetaling".
 
-**Waardeverminderingen**: verplicht als de vervaardigingsprijs vermeerderd met de nog te maken kosten hoger is dan de contractprijs. ([[wetteksten/XV-KB-wvv#art-350|KB WVV art. 3:50]])
+**Waardeverminderingen**: verplicht als de vervaardigingsprijs vermeerderd met de nog te maken kosten hoger is dan de contractprijs. ([[bronnen/wetteksten/XV-KB-wvv#art-350|KB WVV art. 3:50]])
 
 > [!warning]- Winstneming vereist voldoende zekerheid
 > ❌ *"Bij een bouwcontract mag de winstmarge al bij aanvang van het project worden geboekt."*
@@ -113,11 +113,11 @@ De gekozen methode en criteria worden in de toelichting bij de waarderingsregels
 
 ## 📌 Geldbeleggingen en liquide middelen
 
-Geldbeleggingen zijn kortetermijnbeleggingen (aandelen, obligaties) aangehouden als tijdelijke plaatsing van overtollige liquiditeiten. Liquide middelen zijn bankrekeningen en kasmiddelen. ([[wetteksten/XV-KB-wvv#art-351|KB WVV art. 3:51–3:53]])
+Geldbeleggingen zijn kortetermijnbeleggingen (aandelen, obligaties) aangehouden als tijdelijke plaatsing van overtollige liquiditeiten. Liquide middelen zijn bankrekeningen en kasmiddelen. ([[bronnen/wetteksten/XV-KB-wvv#art-351|KB WVV art. 3:51–3:53]])
 
 **Vastrentende effecten — waardering**
 
-Vastrentende effecten (obligaties) worden gewaardeerd tegen aanschaffingswaarde. Als het actuariële rendement bij aankoop verschilt van het nominale rendement, wordt het verschil tussen aanschaffingswaarde en terugbetalingswaarde **pro rata temporis** in resultaat genomen als onderdeel van de renteopbrengst — en gevoegd bij of afgetrokken van de aanschaffingswaarde. ([[wetteksten/XV-KB-wvv#art-351|KB WVV art. 3:51]])
+Vastrentende effecten (obligaties) worden gewaardeerd tegen aanschaffingswaarde. Als het actuariële rendement bij aankoop verschilt van het nominale rendement, wordt het verschil tussen aanschaffingswaarde en terugbetalingswaarde **pro rata temporis** in resultaat genomen als onderdeel van de renteopbrengst — en gevoegd bij of afgetrokken van de aanschaffingswaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-351|KB WVV art. 3:51]])
 
 Vereenvoudigde alternatieven (op basis van keuze):
 - Lineaire in-resultaatneming van het verschil (in plaats van actuarieel)
@@ -125,7 +125,7 @@ Vereenvoudigde alternatieven (op basis van keuze):
 
 **Waardeverminderingen**
 
-Waardeverminderingen worden verplicht geboekt als de **realisatiewaarde op balansdatum lager is dan de aanschaffingswaarde**. Aanvullende waardeverminderingen zijn mogelijk om risico's of marktevoluties te dekken. ([[wetteksten/XV-KB-wvv#art-352|KB WVV art. 3:52–3:53]])
+Waardeverminderingen worden verplicht geboekt als de **realisatiewaarde op balansdatum lager is dan de aanschaffingswaarde**. Aanvullende waardeverminderingen zijn mogelijk om risico's of marktevoluties te dekken. ([[bronnen/wetteksten/XV-KB-wvv#art-352|KB WVV art. 3:52–3:53]])
 
 > [!info]- In de praktijk
 >

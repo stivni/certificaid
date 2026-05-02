@@ -19,7 +19,7 @@ De jaarrekening is het centrale instrument waarmee een vennootschap jaarlijks ve
 
 De jaarrekening dient drie doelstellingen die samen de grondslag vormen voor het hele verslaggevingsrecht:
 
-1. **[[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]** — de jaarrekening geeft een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat. Dit is het overkoepelend beginsel waaraan alle andere regels ondergeschikt zijn ([[wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
+1. **[[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]]** — de jaarrekening geeft een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat. Dit is het overkoepelend beginsel waaraan alle andere regels ondergeschikt zijn ([[bronnen/wetteksten/XV-KB-wvv#art-31|KB WVV 2019 art. 3:1]]).
 
 2. **Verantwoording** — het bestuursorgaan legt rekenschap af aan de [[betrokken-partijen-financiele-analyse#-externe-gebruikers-van-de-jaarrekening|aandeelhouders en vennoten]] via de jaarrekening die aan de algemene vergadering wordt voorgelegd. De kwijting is het formele gevolg van die goedkeuring.
 
@@ -31,19 +31,19 @@ Voor de **analyse** zijn dit ook de basisdoelstellingen: de analist gebruikt de 
 
 ## 📌 Jaarrekening
 
-Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedkeuring voorlegt aan de algemene vergadering. De jaarrekening **bestaat uit drie onderdelen die samen één geheel vormen** ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]):
+Het financiële overzicht dat het bestuursorgaan jaarlijks opmaakt en ter goedkeuring voorlegt aan de algemene vergadering. De jaarrekening **bestaat uit drie onderdelen die samen één geheel vormen** ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]):
 
 1. **Balans** — toestand van activa en passiva op de afsluitingsdatum
 2. **Resultatenrekening** — overzicht van kosten en opbrengsten van het boekjaar
 3. **Toelichting** — aanvullende informatie bij de cijfers van balans en resultatenrekening
 
-Het bestuursorgaan maakt ook elk jaar een **[[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]]** op als basis voor de jaarrekening ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
+Het bestuursorgaan maakt ook elk jaar een **[[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]]** op als basis voor de jaarrekening ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
 
 ---
 
 ## 📌 Volledig schema
 
-Het standaardschema dat de Koning heeft vastgesteld voor de jaarrekening. Van toepassing op **grote vennootschappen**, genoteerde vennootschappen en organisaties van openbaar belang ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]) ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
+Het standaardschema dat de Koning heeft vastgesteld voor de jaarrekening. Van toepassing op **grote vennootschappen**, genoteerde vennootschappen en organisaties van openbaar belang ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]) ([[bronnen/wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
 
 Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelling), die verplicht is voor alle vennootschappen die personeel tewerkstellen.
 
@@ -51,13 +51,13 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 📌 Verkort schema
 
-**Kleine vennootschappen** (die niet genoteerd zijn en geen organisatie van openbaar belang) **mogen** hun jaarrekening opmaken volgens een verkort schema met minder rubrieken dan het volledig schema ([[wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
+**Kleine vennootschappen** (die niet genoteerd zijn en geen organisatie van openbaar belang) **mogen** hun jaarrekening opmaken volgens een verkort schema met minder rubrieken dan het volledig schema ([[bronnen/wetteksten/XV-wvv#art-32|ITAA-LEX XV · WVV art. 3:2]]).
 
 ---
 
 ## 📌 Microschema
 
-**Microvennootschappen** mogen een nog verder vereenvoudigd **microschema** gebruiken ([[wetteksten/XV-wvv#art-33|ITAA-LEX XV · WVV art. 3:3]]). Dit schema bevat enkel de meest essentiële informatie.
+**Microvennootschappen** mogen een nog verder vereenvoudigd **microschema** gebruiken ([[bronnen/wetteksten/XV-wvv#art-33|ITAA-LEX XV · WVV art. 3:3]]). Dit schema bevat enkel de meest essentiële informatie.
 
 ---
 
@@ -76,11 +76,11 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 📋 Van boekjaarafsluiting tot neerlegging
 
-**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
+**Stap 1 — Inventaris en jaarrekening opmaken**: het bestuursorgaan maakt de [[boekhoudplicht-wer#-jaarlijkse-inventaris|inventaris]] op en stelt de jaarrekening op ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]).
 
-**Stap 2 — Goedkeuring door de algemene vergadering**: de jaarrekening moet **binnen 6 maanden** na afsluiting van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering ([[wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]). Als dit niet tijdig gebeurt, wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim.
+**Stap 2 — Goedkeuring door de algemene vergadering**: de jaarrekening moet **binnen 6 maanden** na afsluiting van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering ([[bronnen/wetteksten/XV-wvv#art-31|ITAA-LEX XV · WVV art. 3:1]]). Als dit niet tijdig gebeurt, wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim.
 
-**Stap 3 — Neerlegging bij de NBB**: binnen **30 dagen** na goedkeuring en **uiterlijk 7 maanden** na afsluiting legt het bestuursorgaan de jaarrekening neer bij de Nationale Bank van België ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
+**Stap 3 — Neerlegging bij de NBB**: binnen **30 dagen** na goedkeuring en **uiterlijk 7 maanden** na afsluiting legt het bestuursorgaan de jaarrekening neer bij de Nationale Bank van België ([[bronnen/wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 > [!info]- In de praktijk
 >
@@ -92,7 +92,7 @@ Het volledig schema bevat ook een **sociale balans** (overzicht van tewerkstelli
 
 ## 🔒 Wat wordt neergelegd bij de NBB
 
-Naast de jaarrekening zelf worden de volgende stukken meegestuurd ([[wetteksten/XV-wvv#art-312|ITAA-LEX XV · WVV art. 3:12]]):
+Naast de jaarrekening zelf worden de volgende stukken meegestuurd ([[bronnen/wetteksten/XV-wvv#art-312|ITAA-LEX XV · WVV art. 3:12]]):
 
 1. Identiteitsgegevens van de leden van het bestuursorgaan en de eventuele [[#-commissaris|commissaris]] (of [[beroep-van-accountant-en-belastingadviseur|gecertificeerd accountant]] belast met verificatie)
 2. Overzicht van de bestemming van het resultaat (indien niet uit de jaarrekening zelf blijkt)
@@ -102,31 +102,31 @@ Naast de jaarrekening zelf worden de volgende stukken meegestuurd ([[wetteksten/
 6. [[jaarverslag|Jaarverslag]] (enkel voor grote vennootschappen en bepaalde andere categorieën)
 7. Lijst van deelnemingen
 
-**Kleine en microvennootschappen** mogen de jaarrekening neerleggen in de verkorte of microvorm — de volledige jaarrekening is voor hen niet openbaar ([[wetteksten/XV-wvv#art-311|ITAA-LEX XV · WVV art. 3:11]]).
+**Kleine en microvennootschappen** mogen de jaarrekening neerleggen in de verkorte of microvorm — de volledige jaarrekening is voor hen niet openbaar ([[bronnen/wetteksten/XV-wvv#art-311|ITAA-LEX XV · WVV art. 3:11]]).
 
 ---
 
 ## 📌 Commissaris
 
-De controle van de financiële toestand, de jaarrekening en de regelmatigheid van de verrichtingen wordt toevertrouwd aan een **commissaris** — een bedrijfsrevisor aangesteld door de algemene vergadering ([[wetteksten/XV-wvv#art-373|ITAA-LEX XV · WVV art. 3:73]]).
+De controle van de financiële toestand, de jaarrekening en de regelmatigheid van de verrichtingen wordt toevertrouwd aan een **commissaris** — een bedrijfsrevisor aangesteld door de algemene vergadering ([[bronnen/wetteksten/XV-wvv#art-373|ITAA-LEX XV · WVV art. 3:73]]).
 
-**Commissarisplicht geldt voor** ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]):
+**Commissarisplicht geldt voor** ([[bronnen/wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]):
 - Grote vennootschappen
 - Genoteerde vennootschappen
 - Organisaties van openbaar belang (art. 1:12, 2° en 5°)
 - Kleine vennootschappen die deel uitmaken van een groep die verplicht geconsolideerd rapporteert
 
-**Geen commissarisplicht** voor niet-genoteerde kleine vennootschappen, microvennootschappen en vof's/comm.v.'s (tenzij deel van een consoliderende groep) ([[wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]).
+**Geen commissarisplicht** voor niet-genoteerde kleine vennootschappen, microvennootschappen en vof's/comm.v.'s (tenzij deel van een consoliderende groep) ([[bronnen/wetteksten/XV-wvv#art-372|ITAA-LEX XV · WVV art. 3:72]]).
 
-De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding van de jaarrekening en bezorgt dit aan de algemene vergadering. Het bestuursorgaan bezorgt hem de nodige stukken ten minste **1 maand** voor de vergadering (45 dagen voor genoteerde vennootschappen) ([[wetteksten/XV-wvv#art-374|ITAA-LEX XV · WVV art. 3:74]]).
+De commissaris stelt een **omstandig schriftelijk verslag** op naar aanleiding van de jaarrekening en bezorgt dit aan de algemene vergadering. Het bestuursorgaan bezorgt hem de nodige stukken ten minste **1 maand** voor de vergadering (45 dagen voor genoteerde vennootschappen) ([[bronnen/wetteksten/XV-wvv#art-374|ITAA-LEX XV · WVV art. 3:74]]).
 
 ---
 
 ## 📌 Verslag van de commissaris
 
-Het verslag van de commissaris is het formele document waarin de [[#-commissaris|commissaris]] zijn oordeel geeft over de jaarrekening. Het is een apart document — géén onderdeel van de jaarrekening zelf — maar wordt er wel mee neergelegd bij de NBB en aan de aandeelhouders bezorgd ([[wetteksten/XV-wvv#art-374|WVV art. 3:74]]).
+Het verslag van de commissaris is het formele document waarin de [[#-commissaris|commissaris]] zijn oordeel geeft over de jaarrekening. Het is een apart document — géén onderdeel van de jaarrekening zelf — maar wordt er wel mee neergelegd bij de NBB en aan de aandeelhouders bezorgd ([[bronnen/wetteksten/XV-wvv#art-374|WVV art. 3:74]]).
 
-**Inhoud van het verslag** ([[wetteksten/XV-wvv#art-374|WVV art. 3:74]]):
+**Inhoud van het verslag** ([[bronnen/wetteksten/XV-wvv#art-374|WVV art. 3:74]]):
 - Oordeel over de **getrouwheid en regelmatigheid** van de jaarrekening
 - Of de jaarrekening een [[boekhoudkundige-beginselen#️-getrouw-beeld-overkoepelend-beginsel|getrouw beeld]] geeft van de financiële toestand en resultaten
 - Of het jaarverslag overeenstemt met de jaarrekening
@@ -153,11 +153,11 @@ Het verslag van de commissaris is het formele document waarin de [[#-commissaris
 
 ## 📌 Geconsolideerde jaarrekening
 
-Vennootschappen die een **groep** vormen — een moedervennootschap met één of meer dochters die ze controleert — zijn in bepaalde gevallen verplicht een **geconsolideerde jaarrekening** op te stellen naast de enkelvoudige jaarrekening ([[wetteksten/XV-wvv#art-3109|WVV art. 3:109]]).
+Vennootschappen die een **groep** vormen — een moedervennootschap met één of meer dochters die ze controleert — zijn in bepaalde gevallen verplicht een **geconsolideerde jaarrekening** op te stellen naast de enkelvoudige jaarrekening ([[bronnen/wetteksten/XV-wvv#art-3109|WVV art. 3:109]]).
 
 **Doel**: de geconsolideerde jaarrekening geeft een beeld van de groep als **economische eenheid**, los van de juridische structuur. Intercompanytransacties (leningen tussen moeder en dochter, interne leveringen) worden geëlimineerd.
 
-**Verplichting**: een moedervennootschap is verplicht te consolideren als de groep gedurende twee opeenvolgende boekjaren minstens twee van de volgende criteria overschrijdt ([[wetteksten/XV-wvv#art-3109|WVV art. 3:109]]):
+**Verplichting**: een moedervennootschap is verplicht te consolideren als de groep gedurende twee opeenvolgende boekjaren minstens twee van de volgende criteria overschrijdt ([[bronnen/wetteksten/XV-wvv#art-3109|WVV art. 3:109]]):
 - Balanstotaal > € 17.550.000
 - Netto-omzet > € 35.100.000
 - Gemiddeld aantal werknemers > 250

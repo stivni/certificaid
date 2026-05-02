@@ -16,13 +16,13 @@ Een **consolidatieverschil** is het verschil dat ontstaat bij de [[consolidatiem
 
 Het verschil wordt in twee stappen verwerkt:
 1. Eerst wordt het **zoveel mogelijk toegerekend** aan actief- en passiefbestanddelen waarvan de reële waarde afwijkt van de boekwaarde in de enkelvoudige jaarrekening van de dochter (stille reserves/stille lasten herwaarderen).
-2. Het **overblijvende verschil** (na toerekening) wordt in de post **"Consolidatieverschillen"** van de geconsolideerde balans opgenomen: positief aan actiefzijde, negatief aan passiefzijde. ([[wetteksten/XV-KB-wvv#art-3130|ITAA-LEX XV (KB) · KB-WVV art. 3:130]])
+2. Het **overblijvende verschil** (na toerekening) wordt in de post **"Consolidatieverschillen"** van de geconsolideerde balans opgenomen: positief aan actiefzijde, negatief aan passiefzijde. ([[bronnen/wetteksten/XV-KB-wvv#art-3130|ITAA-LEX XV (KB) · KB-WVV art. 3:130]])
 
 ## 📌 Positief consolidatieverschil
 
 Een **positief consolidatieverschil** (ook: "goodwill bij consolidatie") ontstaat wanneer de aankoopprijs van de aandelen **hoger** is dan het aandeel in het eigen vermogen van de dochter na toerekening aan de individuele activa en passiva.
 
-**Oorzaken van een positief consolidatieverschil** ([[wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131]]):
+**Oorzaken van een positief consolidatieverschil** ([[bronnen/wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131]]):
 1. de betaalde **overprijs** boven de reële waarde van de nettoactieven (betaling voor verwachte toekomstige winsten, synergiën, marktpositie),
 2. aanwezigheid van niet-geboekte **immateriële waarden** in de dochter (merknamen, klantenrelaties) die niet afzonderlijk worden erkend,
 3. **stille reserves** in de dochter die bij de toerekening niet volledig zijn geïdentificeerd,
@@ -34,7 +34,7 @@ Een **positief consolidatieverschil** (ook: "goodwill bij consolidatie") ontstaa
 >
 > 🤖 *AI-aanvulling*
 
-**Verwerking**: positieve consolidatieverschillen worden **afgeschreven** ten laste van de geconsolideerde resultatenrekening volgens een passend afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur. ([[wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131, §1]])
+**Verwerking**: positieve consolidatieverschillen worden **afgeschreven** ten laste van de geconsolideerde resultatenrekening volgens een passend afschrijvingsplan dat overeenstemt met de vermoedelijke gebruiksduur. ([[bronnen/wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131, §1]])
 
 - Spreiding over meer dan vijf jaar vereist **motivering in de toelichting**.
 - Bij gewijzigde economische omstandigheden worden **aanvullende of niet-recurrente afschrijvingen** toegepast.
@@ -51,7 +51,7 @@ Een **positief consolidatieverschil** (ook: "goodwill bij consolidatie") ontstaa
 
 Een **negatief consolidatieverschil** ontstaat wanneer de aankoopprijs van de aandelen **lager** is dan het aandeel in het gecorrigeerde eigen vermogen van de dochter na toerekening.
 
-**Verwerking** ([[wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131, §2]]):
+**Verwerking** ([[bronnen/wetteksten/XV-KB-wvv#art-3131|ITAA-LEX XV (KB) · KB-WVV art. 3:131, §2]]):
 
 - Een negatief consolidatieverschil mag **niet** in de geconsolideerde resultatenrekening worden opgenomen als winst (geen vrijval).
 - **Uitzondering**: wanneer het negatieve verschil te verklaren valt door **verwachte ongunstige resultaten** van de dochter of door **verwachte kosten**, wordt het gedeeltelijk in de resultatenrekening opgenomen **voor zover en op het moment dat deze verwachtingen werkelijkheid worden**.
@@ -77,15 +77,15 @@ Aankoopprijs aandelen (bij M)
 = Consolidatieverschil (positief → actief; negatief → passief)
 ```
 
-([[wetteksten/XV-KB-wvv#art-3128|ITAA-LEX XV (KB) · KB-WVV art. 3:128–3:130]])
+([[bronnen/wetteksten/XV-KB-wvv#art-3128|ITAA-LEX XV (KB) · KB-WVV art. 3:128–3:130]])
 
 ## 📋 Consolidatieverschil bij deelgedeeltelijke verkoop
 
-Wanneer een deel van de aandelen in een dochteronderneming wordt verkocht, wordt het **overblijvende consolidatieverschil afgeboekt naar verhouding** van de gerealiseerde aandelen. ([[wetteksten/XV-KB-wvv#art-3132|ITAA-LEX XV (KB) · KB-WVV art. 3:132]])
+Wanneer een deel van de aandelen in een dochteronderneming wordt verkocht, wordt het **overblijvende consolidatieverschil afgeboekt naar verhouding** van de gerealiseerde aandelen. ([[bronnen/wetteksten/XV-KB-wvv#art-3132|ITAA-LEX XV (KB) · KB-WVV art. 3:132]])
 
 ## 📌 Consolidatieverschil bij vermogensmutatiemethode
 
-Ook bij toepassing van de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]] op geassocieerde vennootschappen kan een consolidatieverschil optreden. Het wordt op dezelfde wijze als bij integrale consolidatie verwerkt: toerekening aan individuele activa/passiva, daarna het overblijvende verschil in de post "Consolidatieverschillen" van de geconsolideerde balans. ([[wetteksten/XV-KB-wvv#art-3146|ITAA-LEX XV (KB) · KB-WVV art. 3:146]])
+Ook bij toepassing van de [[consolidatiemethoden#-vermogensmutatiemethode|vermogensmutatiemethode]] op geassocieerde vennootschappen kan een consolidatieverschil optreden. Het wordt op dezelfde wijze als bij integrale consolidatie verwerkt: toerekening aan individuele activa/passiva, daarna het overblijvende verschil in de post "Consolidatieverschillen" van de geconsolideerde balans. ([[bronnen/wetteksten/XV-KB-wvv#art-3146|ITAA-LEX XV (KB) · KB-WVV art. 3:146]])
 
 ## Relevant voor
 

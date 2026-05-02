@@ -33,14 +33,14 @@ Voor het boekhoudrecht heeft de CRB **geen handhavende rol**. Ze wordt wel geraa
 
 *Commission des Normes Comptables (CNC)*
 
-**Autonome instelling met rechtspersoonlijkheid** opgericht door de Koning ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]). De CBN heeft twee kernopdrachten ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]):
+**Autonome instelling met rechtspersoonlijkheid** opgericht door de Koning ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]). De CBN heeft twee kernopdrachten ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]):
 
 1. De regering en het Parlement op hun verzoek of uit eigen beweging van advies dienen
 2. Door middel van adviezen en aanbevelingen bijdragen tot de ontwikkeling van de leer van het boekhouden en de beginselen bepalen van een regelmatige boekhouding
 
 CBN-adviezen zijn **niet rechtstreeks juridisch bindend** in de zin van een wet of KB, maar gelden in de praktijk als gezaghebbende richtlijn: rechters, [[#-instituut-van-de-bedrijfsrevisoren-ibr|bedrijfsrevisoren]] en [[#-instituut-van-de-belastingadviseurs-en-de-accountants-itaa|gecertificeerd accountants]] volgen ze als referentie wanneer een wettelijke bepaling interpretatie vraagt.
 
-Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslissingen inzake Boekhoudrecht** af — boekhoudkundige rulings op vraag van een onderneming over de toepassing van het Belgisch boekhoudrecht op een specifieke situatie ([[wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]).
+Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslissingen inzake Boekhoudrecht** af — boekhoudkundige rulings op vraag van een onderneming over de toepassing van het Belgisch boekhoudrecht op een specifieke situatie ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii93|ITAA-LEX XIII · WER art. III.93]]).
 
 > Online: [cnc-cbn.be](https://www.cnc-cbn.be)
 
@@ -48,7 +48,7 @@ Daarnaast levert een afzonderlijk **College** binnen de CBN **Individuele Beslis
 
 ## 📌 Nationale Bank van België (NBB)
 
-Voor het boekhoudrecht beheert de NBB de **Balanscentrale**: het centrale neerleggingspunt waar elke vennootschap en vereniging haar [[jaarrekening|jaarrekening]] verplicht moet neerleggen — door toedoen van het bestuursorgaan, binnen 30 dagen na goedkeuring en uiterlijk 7 maanden na afsluiting van het boekjaar ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
+Voor het boekhoudrecht beheert de NBB de **Balanscentrale**: het centrale neerleggingspunt waar elke vennootschap en vereniging haar [[jaarrekening|jaarrekening]] verplicht moet neerleggen — door toedoen van het bestuursorgaan, binnen 30 dagen na goedkeuring en uiterlijk 7 maanden na afsluiting van het boekjaar ([[bronnen/wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 De NBB:
 - Ontvangt en bewaart de jaarrekeningen
@@ -56,7 +56,7 @@ De NBB:
 - Genereert sectorgemiddelden en macro-economische statistieken op basis van de neergelegde cijfers
 - Verlangt een **toeslag bij laattijdige neerlegging** die oploopt met de vertraging
 
-De NBB voert **geen inhoudelijke controle** uit op de neergelegde jaarrekening. Ze checkt alleen of het document tijdig en in het juiste formaat is neergelegd. Bij niet-tijdige neerlegging wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim ([[wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
+De NBB voert **geen inhoudelijke controle** uit op de neergelegde jaarrekening. Ze checkt alleen of het document tijdig en in het juiste formaat is neergelegd. Bij niet-tijdige neerlegging wordt schade door derden — behoudens tegenbewijs — geacht voort te vloeien uit dit verzuim ([[bronnen/wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]]).
 
 > Online: [nbb.be/balanscentrale](https://www.nbb.be/nl/balanscentrale) · raadpleging via [consult.cbso.nbb.be](https://consult.cbso.nbb.be)
 
@@ -76,7 +76,7 @@ Voor het boekhoudrecht: de FSMA controleert de **financiële informatie van beur
 
 ## 📌 Griffies van de ondernemingsrechtbanken
 
-De griffie van elke **ondernemingsrechtbank** beheert mee de inschrijvingen in de **Kruispuntbank van Ondernemingen (KBO)** ([[wetteksten/XIII-wer/boek-iii#art-iii15|ITAA-LEX XIII · WER art. III.15]]) en ontvangt bepaalde vennootschappelijke documenten — oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders en commissaris. Ze zorgt voor publicatie van die akten in het Belgisch Staatsblad.
+De griffie van elke **ondernemingsrechtbank** beheert mee de inschrijvingen in de **Kruispuntbank van Ondernemingen (KBO)** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii15|ITAA-LEX XIII · WER art. III.15]]) en ontvangt bepaalde vennootschappelijke documenten — oprichtingsakten, statutenwijzigingen, benoemingen van bestuurders en commissaris. Ze zorgt voor publicatie van die akten in het Belgisch Staatsblad.
 
 De **jaarrekening** wordt **niet bij de griffie** maar bij de [Balanscentrale van de NBB](#-nationale-bank-van-belgië-nbb) neergelegd — een veel voorkomende verwarring. De griffie behandelt vennootschappelijke akten, de NBB behandelt financiële cijfers.
 
@@ -84,9 +84,9 @@ De **jaarrekening** wordt **niet bij de griffie** maar bij de [Balanscentrale va
 
 ## 📌 Instituut van de Belastingadviseurs en de Accountants (ITAA)
 
-Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB en BIBF ([[wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]). Volledige uitwerking: [[itaa-als-instituut|ITAA als instituut]].
+Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht in 2019 als rechtsopvolger van het IAB en BIBF ([[bronnen/wetteksten/XXI-wet-itaa#art-61|ITAA-LEX XXI · Wet ITAA art. 61]]). Volledige uitwerking: [[itaa-als-instituut|ITAA als instituut]].
 
-Voor het boekhoudrecht reguleert het ITAA de [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountants (GA)]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseurs (GBA)]] — de beroepsbeoefenaars die boekhoudkundige diensten verlenen, [[jaarrekening|jaarrekeningen]] opstellen en fiscaal advies geven ([[wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · Wet ITAA art. 62]]).
+Voor het boekhoudrecht reguleert het ITAA de [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga|gecertificeerd accountants (GA)]] en [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseurs (GBA)]] — de beroepsbeoefenaars die boekhoudkundige diensten verlenen, [[jaarrekening|jaarrekeningen]] opstellen en fiscaal advies geven ([[bronnen/wetteksten/XXI-wet-itaa#art-62|ITAA-LEX XXI · Wet ITAA art. 62]]).
 
 Het ITAA houdt een [[itaa-als-instituut#-openbaar-register|openbaar register]], oefent toezicht uit via [[itaa-als-instituut#-kwaliteitstoetsing|kwaliteitstoetsing]] en [[itaa-als-instituut#-tuchtstelsel|tucht]], en vaardigt [[itaa-als-instituut#-normatief-kader|normen en aanbevelingen]] uit waaraan de beroepsbeoefenaar gebonden is.
 
@@ -104,7 +104,7 @@ Publiekrechtelijk instituut met rechtspersoonlijkheid, opgericht door de wet van
 
 Voor het boekhoudrecht reguleert het IBR de **bedrijfsrevisoren** — de enige beroepsbeoefenaars die wettelijk een [[jaarrekening#-commissaris|commissarisopdracht]] (controle van de jaarrekening) mogen uitvoeren.
 
-Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: openbaar register, toezicht, tucht, normen en aanbevelingen — maar voor een ander beroep. Beide instituten worden geadviseerd door de gemeenschappelijke [[itaa-als-instituut#-organen-van-het-itaa|Hoge Raad voor de Economische Beroepen]] ([[wetteksten/XXI-wet-itaa#art-79|ITAA-LEX XXI · Wet ITAA art. 79]]).
+Het IBR oefent gelijkaardige bevoegdheden uit als het ITAA voor zijn leden: openbaar register, toezicht, tucht, normen en aanbevelingen — maar voor een ander beroep. Beide instituten worden geadviseerd door de gemeenschappelijke [[itaa-als-instituut#-organen-van-het-itaa|Hoge Raad voor de Economische Beroepen]] ([[bronnen/wetteksten/XXI-wet-itaa#art-79|ITAA-LEX XXI · Wet ITAA art. 79]]).
 
 > Online: [ibr-ire.be](https://www.ibr-ire.be)
 

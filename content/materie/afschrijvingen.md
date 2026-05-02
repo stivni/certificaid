@@ -16,11 +16,11 @@ Een afschrijving spreidt de kost van een actief met beperkte gebruiksduur over z
 
 ## 📌 Afschrijving
 
-Een bedrag **ten laste van de resultatenrekening** genomen met betrekking tot oprichtingskosten en tot immateriële en materiële vaste activa met een **beperkte gebruiksduur**, om hun aanschaffingswaarde te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur ([[wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
+Een bedrag **ten laste van de resultatenrekening** genomen met betrekking tot oprichtingskosten en tot immateriële en materiële vaste activa met een **beperkte gebruiksduur**, om hun aanschaffingswaarde te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur ([[bronnen/wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
 
 Afschrijvingen zijn van toepassing op activa die in waarde dalen door gebruik, slijtage of veroudering. Activa met **onbeperkte gebruiksduur** — zoals grond — worden **niet** afgeschreven.
 
-De gecumuleerde afschrijvingen worden **afgetrokken** van de actiefpost waarop ze betrekking hebben ([[wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
+De gecumuleerde afschrijvingen worden **afgetrokken** van de actiefpost waarop ze betrekking hebben ([[bronnen/wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
 
 ---
 
@@ -37,11 +37,11 @@ De gecumuleerde afschrijvingen worden **afgetrokken** van de actiefpost waarop z
 
 ## ⚖️ Eisen waaraan afschrijvingen moeten voldoen
 
-**Voorzichtigheid, oprechtheid en goede trouw** ([[wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — afschrijvingen weerspiegelen een eerlijke schatting van de waardedaling, zonder doelgericht te worden ingezet om het resultaat te sturen.
+**Voorzichtigheid, oprechtheid en goede trouw** ([[bronnen/wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — afschrijvingen weerspiegelen een eerlijke schatting van de waardedaling, zonder doelgericht te worden ingezet om het resultaat te sturen.
 
-**Specificiteit** — afschrijvingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke technische of juridische kenmerken mogen globale afschrijvingen worden geacteerd ([[wetteksten/XV-KB-wvv#art-325|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:25]]).
+**Specificiteit** — afschrijvingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke technische of juridische kenmerken mogen globale afschrijvingen worden geacteerd ([[bronnen/wetteksten/XV-KB-wvv#art-325|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:25]]).
 
-**Stelselmatigheid** — afschrijvingen worden gevormd **stelselmatig** volgens de door de onderneming vastgelegde methoden. Ze mogen **niet afhangen van het resultaat** van het boekjaar ([[wetteksten/XV-KB-wvv#art-326|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:26]]).
+**Stelselmatigheid** — afschrijvingen worden gevormd **stelselmatig** volgens de door de onderneming vastgelegde methoden. Ze mogen **niet afhangen van het resultaat** van het boekjaar ([[bronnen/wetteksten/XV-KB-wvv#art-326|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:26]]).
 
 > [!info]- In de praktijk
 >

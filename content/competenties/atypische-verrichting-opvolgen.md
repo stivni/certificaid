@@ -16,7 +16,7 @@ Tijdens de uitvoering van een opdracht een atypische verrichting herkennen, beoo
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
 >
 > De procedure combineert twee bronnen:
-> - **Wettelijke verplichting** (stap 3–5): de interne meldplicht, de AMLCO-beslissing en het tipping-off verbod zijn volledig genormeerd in [[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47–54]] en [[wetteksten/XVII-antiwitwaswet#art-9|art. 9]].
+> - **Wettelijke verplichting** (stap 3–5): de interne meldplicht, de AMLCO-beslissing en het tipping-off verbod zijn volledig genormeerd in [[bronnen/wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47–54]] en [[bronnen/wetteksten/XVII-antiwitwaswet#art-9|art. 9]].
 > - **Geconstrueerde stappen** (stap 1–2): het herkennen van een atypische verrichting en het beoordelen van het vermoeden zijn analytische vaardigheden 🤖 — de wet geeft geen limitatieve lijst van atypische signalen.
 >
 > 🤖 *AI-aanvulling*
@@ -63,7 +63,7 @@ Een verrichting is atypisch wanneer ze:
 
 **Waarom**: de drempel voor de meldingsplicht is laag — niet zekerheid, maar al een vermoeden of redelijke gronden volstaan. Maar niet elke atypische verrichting triggert automatisch een vermoeden. Het onderscheid vraagt een beoordelingsmoment.
 
-De drempel van [[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]: de beroepsbeoefenaar **weet, vermoedt of heeft redelijke gronden om te vermoeden** dat geldmiddelen of verrichtingen verband houden met WG/FT. Die redelijke gronden kunnen zijn:
+De drempel van [[bronnen/wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]: de beroepsbeoefenaar **weet, vermoedt of heeft redelijke gronden om te vermoeden** dat geldmiddelen of verrichtingen verband houden met WG/FT. Die redelijke gronden kunnen zijn:
 - De cliënt geeft geen afdoende economische verklaring ondanks navraag
 - De verrichting vertoont typische kenmerken van een bekende witwasmethode
 - De atypische verrichting kadert in een reeks van gelijkaardige signalen
@@ -71,11 +71,11 @@ De drempel van [[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]: de ber
 > [!warning]- Zekerheid vereist vóór melding
 > ❌ *"Ik moet zeker zijn dat mijn cliënt aan het witwassen is voor ik meld."*
 >
-> De drempel is bewust laag gehouden: **vermoedens** en **redelijke gronden** volstaan ([[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]). Wie wacht op zekerheid, schiet zijn meldingsplicht te kort. Bovendien beschermt de wet de melder: een melding te goeder trouw kan niet leiden tot burgerrechtelijke aansprakelijkheid, ook als het vermoeden later ongegrond blijkt ([[wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]]).
+> De drempel is bewust laag gehouden: **vermoedens** en **redelijke gronden** volstaan ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]). Wie wacht op zekerheid, schiet zijn meldingsplicht te kort. Bovendien beschermt de wet de melder: een melding te goeder trouw kan niet leiden tot burgerrechtelijke aansprakelijkheid, ook als het vermoeden later ongegrond blijkt ([[bronnen/wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]]).
 >
 > 📝 *Terugkerende examenvalkuil — zie voorbeeldexamen 2024*
 
-*(Grondslag: [[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]])*
+*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]])*
 
 ---
 
@@ -89,14 +89,14 @@ De drempel van [[wetteksten/XVII-antiwitwaswet#art-47|AWW art. 47, §1]]: de ber
 
 **Waarom**: de beslissing om extern te melden ligt bij de AMLCO, niet bij de individuele medewerker. De medewerker meldt intern — de AMLCO beslist vervolgens of een externe melding aan de CFI aangewezen is.
 
-De medewerker stelt een intern verslag op voor de AMLCO met ([[wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]]):
+De medewerker stelt een intern verslag op voor de AMLCO met ([[bronnen/wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]]):
 - Beschrijving van de atypische verrichting (wat, wanneer, welk bedrag)
 - Reden waarom de verrichting atypisch lijkt
 - Reactie van de cliënt (als hij om een verklaring gevraagd werd)
 
 Het is ook mogelijk dat de beroepsbeoefenaar zelf AMLCO is (éénpersoonskantoor) — in dat geval vervalt het onderscheid tussen stap 3 en stap 4, en beslist hij direct over externe melding.
 
-*(Grondslag: [[wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]])*
+*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]])*
 
 ---
 
@@ -110,14 +110,14 @@ Het is ook mogelijk dat de beroepsbeoefenaar zelf AMLCO is (éénpersoonskantoor
 
 **Waarom**: de AMLCO heeft een ruimer overzicht over het kantoor en over de cliënt dan de individuele medewerker. Hij is beter geplaatst om het volledige dossier te beoordelen en de toetsingsdrempel van art. 47 te wegen.
 
-Als de AMLCO beslist om extern te melden, doet hij dat bij de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] ([[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]). De melding is:
+Als de AMLCO beslist om extern te melden, doet hij dat bij de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]). De melding is:
 - **Anoniem** ten aanzien van de cliënt — de cliënt weet niet dat er gemeld is (zie tipping-off verbod, stap 5)
-- **Vóór de verrichting** bij voorkeur; indien niet mogelijk, onmiddellijk na de verrichting ([[wetteksten/XVII-antiwitwaswet#art-51|AWW art. 51]])
-- **Niet strafbaar** als melding te goeder trouw gedaan is, ook als het vermoeden later ongegrond blijkt ([[wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]])
+- **Vóór de verrichting** bij voorkeur; indien niet mogelijk, onmiddellijk na de verrichting ([[bronnen/wetteksten/XVII-antiwitwaswet#art-51|AWW art. 51]])
+- **Niet strafbaar** als melding te goeder trouw gedaan is, ook als het vermoeden later ongegrond blijkt ([[bronnen/wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]])
 
 Als de AMLCO beslist niet te melden, documenteert hij die beslissing en de motivatie ervan.
 
-*(Grondslag: [[wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]]; [[wetteksten/XVII-antiwitwaswet#art-51|art. 51]]; [[wetteksten/XVII-antiwitwaswet#art-54|art. 54]])*
+*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47]]; [[bronnen/wetteksten/XVII-antiwitwaswet#art-51|art. 51]]; [[bronnen/wetteksten/XVII-antiwitwaswet#art-54|art. 54]])*
 
 ---
 
@@ -131,7 +131,7 @@ Als de AMLCO beslist niet te melden, documenteert hij die beslissing en de motiv
 
 **Waarom**: het tipping-off verbod beschermt het opsporingsonderzoek. Als de cliënt weet dat er gemeld of onderzocht wordt, kan hij bewijzen vernietigen of fondsen verplaatsen.
 
-Het is **verboden** mede te delen aan de cliënt of aan derden ([[wetteksten/XVII-antiwitwaswet#art-55|ITAA-LEX XVII · AWW art. 55]]):
+Het is **verboden** mede te delen aan de cliënt of aan derden ([[bronnen/wetteksten/XVII-antiwitwaswet#art-55|ITAA-LEX XVII · AWW art. 55]]):
 - Dat een melding aan de CFI gedaan is
 - Dat een onderzoek naar WG/FT lopende is of overwogen wordt
 
@@ -153,7 +153,7 @@ Dit verbod geldt ongeacht of de beroepsbeoefenaar de verrichting uitvoert, weige
 >
 > 🤖 *AI-aanvulling*
 
-*(Grondslag: [[wetteksten/XVII-antiwitwaswet#art-55|ITAA-LEX XVII · AWW art. 55]])*
+*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-55|ITAA-LEX XVII · AWW art. 55]])*
 
 ---
 

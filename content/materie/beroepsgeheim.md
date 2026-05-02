@@ -25,7 +25,7 @@ Het beroepsgeheim beschermt informatie die de beroepsbeoefenaar heeft ontvangen 
 
 ## 📌 Discretieplicht
 
-Een **deontologische** geheimhoudingsverplichting op basis van **[[wetteksten/XXI-wet-itaa#art-50|ITAA-LEX XXI · Wet ITAA art. 50–52]]**. De discretieplicht is de concrete uitwerking van het [[deontologische-beginselen#-de-7-deontologische-beginselen|vertrouwelijkheidsbeginsel]] (beginsel 6) voor de beroepsuitoefening. Schending leidt tot tuchtrechtelijke sancties (en eventueel burgerlijke aansprakelijkheid).
+Een **deontologische** geheimhoudingsverplichting op basis van **[[bronnen/wetteksten/XXI-wet-itaa#art-50|ITAA-LEX XXI · Wet ITAA art. 50–52]]**. De discretieplicht is de concrete uitwerking van het [[deontologische-beginselen#-de-7-deontologische-beginselen|vertrouwelijkheidsbeginsel]] (beginsel 6) voor de beroepsuitoefening. Schending leidt tot tuchtrechtelijke sancties (en eventueel burgerlijke aansprakelijkheid).
 
 De discretieplicht is **ruimer** dan het beroepsgeheim: ze dekt niet alleen toevertrouwde informatie, maar ook feiten met een vertrouwelijk karakter die de beroepsbeoefenaar **zelf heeft vastgesteld** in de uitoefening van zijn beroep.
 
@@ -56,7 +56,7 @@ Beide normen kunnen **tegelijk van toepassing** zijn op dezelfde situatie.
 
 ## ⚖️ Omvang van de geheimhoudingsplicht
 
-De geheimhoudingsplicht dekt twee categorieën van informatie ([[wetteksten/XXI-wet-itaa#art-50|ITAA-LEX XXI · Wet ITAA art. 50]]):
+De geheimhoudingsplicht dekt twee categorieën van informatie ([[bronnen/wetteksten/XXI-wet-itaa#art-50|ITAA-LEX XXI · Wet ITAA art. 50]]):
 
 1. Gegevens die **uitdrukkelijk of stilzwijgend** in de uitoefening van het beroep zijn **toevertrouwd** door de cliënt — het maakt niet uit of de cliënt ze als "vertrouwelijk" heeft bestempeld
 2. Feiten met een **vertrouwelijk karakter** die de beroepsbeoefenaar **zelf heeft vastgesteld** — bv. bij een boekhoudkundige controle vastgestelde onregelmatigheden
@@ -71,7 +71,7 @@ De geheimhoudingsplicht dekt twee categorieën van informatie ([[wetteksten/XXI-
 
 ## ⚖️ Doorwerking naar medewerkers en derden
 
-Wanneer de beroepsbeoefenaar vertrouwelijke informatie deelt met **personeelsleden, stagiairs of andere beroepsbeoefenaars** (bv. in een associatie of netwerk), is hij verplicht erop toe te zien dat ook zij het vertrouwelijke karakter respecteren ([[wetteksten/XXI-wet-itaa#art-52|ITAA-LEX XXI · Wet ITAA art. 52]]).
+Wanneer de beroepsbeoefenaar vertrouwelijke informatie deelt met **personeelsleden, stagiairs of andere beroepsbeoefenaars** (bv. in een associatie of netwerk), is hij verplicht erop toe te zien dat ook zij het vertrouwelijke karakter respecteren ([[bronnen/wetteksten/XXI-wet-itaa#art-52|ITAA-LEX XXI · Wet ITAA art. 52]]).
 
 Het delen van informatie binnen een associatie of netwerk is toegestaan voor zover het **noodzakelijk is voor de uitvoering van de opdracht**.
 
@@ -79,12 +79,12 @@ Het delen van informatie binnen een associatie of netwerk is toegestaan voor zov
 
 ## 🔒 De 4 uitzonderingen op de geheimhoudingsplicht
 
-Er is **geen inbreuk** op de geheimhoudingsplicht in de volgende vier gevallen ([[wetteksten/XXI-wet-itaa#art-51|ITAA-LEX XXI · Wet ITAA art. 51]]):
+Er is **geen inbreuk** op de geheimhoudingsplicht in de volgende vier gevallen ([[bronnen/wetteksten/XXI-wet-itaa#art-51|ITAA-LEX XXI · Wet ITAA art. 51]]):
 
 1. **In rechte geroepen als getuige**: wanneer een rechtbank de beroepsbeoefenaar oproept om te getuigen, kan hij niet weigeren op grond van het beroepsgeheim
 2. **Wettelijke verplichting tot mededeling**: wanneer de wet hem verplicht informatie te verstrekken. Twee voorbeelden:
    - De **meldingsplicht aan de [[antiwitwaswetgeving#-cel-voor-financiële-informatieverwerking-cfi|Cel voor Financiële Informatieverwerking]]** in het kader van de [[antiwitwaswetgeving]] — het melden schendt het beroepsgeheim dus **niet**
-   - De **medewerkingsplicht aan het ITAA** ([[wetteksten/XXI-wet-itaa#art-53|ITAA-LEX XXI · Wet ITAA art. 53]]): het ITAA houdt toezicht via o.a. de [[itaa-als-instituut#-kwaliteitstoetsing|kwaliteitstoetsing]] op de beroepsuitoefening van al zijn leden. Die toezichtsopdracht heeft geen zin als leden weigeren mee te werken met het argument dat alles vertrouwelijk is. Daarom verplicht de wet dat je meewerkt wanneer de [[itaa-als-instituut#-organen-van-het-itaa|Raad]] informatie opvraagt in het kader van zijn toezicht. Bovendien moet je de Raad zelf onmiddellijk verwittigen als er een rechtszaak of overheidsprocedure loopt die jou als beroepsbeoefenaar treft — bv. een [[relaties-met-clienten#-aansprakelijkheid|aansprakelijkheidsvordering]] van een cliënt, een strafrechtelijke vervolging wegens een beroepsfout, of een procedure waarbij jouw inschrijving in het register in het gedrang komt
+   - De **medewerkingsplicht aan het ITAA** ([[bronnen/wetteksten/XXI-wet-itaa#art-53|ITAA-LEX XXI · Wet ITAA art. 53]]): het ITAA houdt toezicht via o.a. de [[itaa-als-instituut#-kwaliteitstoetsing|kwaliteitstoetsing]] op de beroepsuitoefening van al zijn leden. Die toezichtsopdracht heeft geen zin als leden weigeren mee te werken met het argument dat alles vertrouwelijk is. Daarom verplicht de wet dat je meewerkt wanneer de [[itaa-als-instituut#-organen-van-het-itaa|Raad]] informatie opvraagt in het kader van zijn toezicht. Bovendien moet je de Raad zelf onmiddellijk verwittigen als er een rechtszaak of overheidsprocedure loopt die jou als beroepsbeoefenaar treft — bv. een [[relaties-met-clienten#-aansprakelijkheid|aansprakelijkheidsvordering]] van een cliënt, een strafrechtelijke vervolging wegens een beroepsfout, of een procedure waarbij jouw inschrijving in het register in het gedrang komt
 3. **Recht van verdediging in tuchtaangelegenheden**: in een [[itaa-als-instituut#-tuchtstelsel|tuchtprocedure]] mag de beroepsbeoefenaar de informatie gebruiken die hij nodig heeft voor zijn verdediging
 4. **Uitdrukkelijke ontheffing door de cliënt**: de cliënt kan de beroepsbeoefenaar ontslaan van zijn geheimhoudingsplicht, maar **enkel voor aangelegenheden die hem persoonlijk aanbelangen** — informatie over derden (werknemers, aandeelhouders) valt hier niet onder
 

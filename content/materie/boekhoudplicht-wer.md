@@ -17,16 +17,16 @@ Het Wetboek van Economisch Recht (WER) legt elke onderneming in België een boek
 
 ## 📌 Boekhoudplichtige onderneming
 
-Een onderneming die de boekhoudregels van het WER moet naleven. De wet hanteert een ruim toepassingsgebied: elke onderneming die in België een beroepsactiviteit uitoefent, valt in principe onder de boekhoudplicht ([[wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]).
+Een onderneming die de boekhoudregels van het WER moet naleven. De wet hanteert een ruim toepassingsgebied: elke onderneming die in België een beroepsactiviteit uitoefent, valt in principe onder de boekhoudplicht ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]).
 
-**Boekhoudplichtig zijn** ([[wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]):
+**Boekhoudplichtig zijn** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]):
 1. Elke onderneming die in België zelfstandig een beroepsactiviteit uitoefent (natuurlijke personen, vennootschappen)
 2. Elke onderneming naar Belgisch recht
 3. Elke buitenlandse onderneming met bijkantoren of centra van werkzaamheden in België (voor die vestigingen)
 4. Openbare instellingen met een commerciële, financiële of industriële statutaire opdracht
 5. Instellingen waarop het hoofdstuk van toepassing is verklaard bij KB
 
-**Niet boekhoudplichtig** zijn ([[wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]):
+**Niet boekhoudplichtig** zijn ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii82|ITAA-LEX XIII · WER art. III.82]]):
 1. Natuurlijke personen wier zelfstandige beroepsactiviteit uitsluitend bestaat uit het uitoefenen van **bestuursmandaten**
 2. Ondernemingen die uitsluitend een **land- of tuinbouwbedrijf** exploiteren (tenzij ze in de vennootschapsbelasting worden belast)
 3. Verenigingen en stichtingen met een eigen boekhoudreglementering die minstens gelijkwaardig is
@@ -44,29 +44,29 @@ Een onderneming die de boekhoudregels van het WER moet naleven. De wet hanteert 
 
 ## ⚖️ Volledigheidsbeginsel
 
-De boekhouding omvat **al** de verrichtingen, bezittingen, rechten van welke aard ook, en alle vorderingen, schulden en verplichtingen van welke aard ook ([[wetteksten/XIII-wer/boek-iii#art-iii83|ITAA-LEX XIII · WER art. III.83]]).
+De boekhouding omvat **al** de verrichtingen, bezittingen, rechten van welke aard ook, en alle vorderingen, schulden en verplichtingen van welke aard ook ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii83|ITAA-LEX XIII · WER art. III.83]]).
 
 Oefent een onderneming meerdere onderscheiden activiteiten uit, dan wordt voor elk een **afzonderlijk rekeningenstelsel** aangelegd.
 
-Een vennootschap zonder rechtspersoonlijkheid (maatschap) verwerkt haar rekeningen in de boekhouding van de zaakvoerder via de **proportionele integratiemethode**: elk lid neemt zijn aandeel in de activa, passiva, kosten en opbrengsten op in zijn eigen boekhouding, in verhouding tot zijn participatie in de maatschap ([[wetteksten/XIII-wer/boek-iii#art-iii83|ITAA-LEX XIII · WER art. III.83]]).
+Een vennootschap zonder rechtspersoonlijkheid (maatschap) verwerkt haar rekeningen in de boekhouding van de zaakvoerder via de **proportionele integratiemethode**: elk lid neemt zijn aandeel in de activa, passiva, kosten en opbrengsten op in zijn eigen boekhouding, in verhouding tot zijn participatie in de maatschap ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii83|ITAA-LEX XIII · WER art. III.83]]).
 
 ---
 
 ## 📌 Dubbele boekhouding
 
-Het gewone stelsel van boekhouding voor boekhoudplichtige ondernemingen ([[wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]). Het bestaat uit drie componenten:
+Het gewone stelsel van boekhouding voor boekhoudplichtige ondernemingen ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]). Het bestaat uit drie componenten:
 
 **1. Dagboek** — alle verrichtingen worden ingeschreven: zonder uitstel, getrouw, volledig en naar tijdsorde. Het dagboek kan een ongesplitst dagboek zijn, of gesplitst in bijzondere **hulpdagboeken** (bv. aankoopdagboek, verkoopdagboek, financieel dagboek).
 
 **2. Centraal boek** — de hulpdagboeken worden minstens één keer per maand samengevat in het centraal boek (recapitulatieboeking per betrokken hoofdrekening). Ondernemingen die de vereenvoudigde boekhouding voeren en toch kiezen voor de dubbele boekhouding mogen dit driemaandelijks doen.
 
-**3. Rekeningenstelsel (MAR)** — de rekeningen worden ondergebracht in een rekeningenstelsel, ingericht naar de **minimumindeling van het algemeen rekeningenstelsel** ([[wetteksten/XIII-KB-wer-boekhouding#art-9|ITAA-LEX XIII (KB) · KB WER 2018 art. 9–11]]). De omschrijving van rekeningen mag worden aangepast aan de aard van het bedrijf; niet-dienstige rekeningen hoeven niet te worden opgenomen ([[wetteksten/XIII-KB-wer-boekhouding#art-9|ITAA-LEX XIII (KB) · KB WER 2018 art. 9–11]]).
+**3. Rekeningenstelsel (MAR)** — de rekeningen worden ondergebracht in een rekeningenstelsel, ingericht naar de **minimumindeling van het algemeen rekeningenstelsel** ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|ITAA-LEX XIII (KB) · KB WER 2018 art. 9–11]]). De omschrijving van rekeningen mag worden aangepast aan de aard van het bedrijf; niet-dienstige rekeningen hoeven niet te worden opgenomen ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|ITAA-LEX XIII (KB) · KB WER 2018 art. 9–11]]).
 
 ---
 
 ## 📌 Geregistreerd kassasysteem (GKS)
 
-Horeca-ondernemingen die verplicht over een geregistreerd kassasysteem (GKS) beschikken, zien het GKS het hulpdagboek voor verkoopverrichtingen **vervangen** ([[wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]). Het GKS registreert alle kassaverrichtingen en voldoet zo aan de dagboekplicht voor die verrichtingen.
+Horeca-ondernemingen die verplicht over een geregistreerd kassasysteem (GKS) beschikken, zien het GKS het hulpdagboek voor verkoopverrichtingen **vervangen** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]). Het GKS registreert alle kassaverrichtingen en voldoet zo aan de dagboekplicht voor die verrichtingen.
 
 > [!info]- In de praktijk
 >
@@ -78,21 +78,21 @@ Horeca-ondernemingen die verplicht over een geregistreerd kassasysteem (GKS) bes
 
 ## 📌 Vereenvoudigde boekhouding
 
-Bepaalde kleine ondernemingen mogen, in plaats van de dubbele boekhouding, een eenvoudiger systeem voeren met drie dagboeken — zonder centraal boek of MAR-conform rekeningenstelsel ([[wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]).
+Bepaalde kleine ondernemingen mogen, in plaats van de dubbele boekhouding, een eenvoudiger systeem voeren met drie dagboeken — zonder centraal boek of MAR-conform rekeningenstelsel ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]).
 
-**Wie mag dit?** ([[wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]) ([[wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
+**Wie mag dit?** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]) ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
 - Natuurlijke personen-ondernemingen (art. I.1, a en c), vennootschappen onder firma en gewone commanditaire vennootschappen
 - Voorwaarde: omzet excl. btw over het **laatste afgesloten boekjaar** ≤ **€ 500.000**
 - Uitzondering brandstofhandelaren (benzinestations e.d.): drempel = **€ 620.000**
-- **Starters**: mogen de vereenvoudigde boekhouding toepassen in het eerste boekjaar zolang de verwachte omzet te goeder trouw de drempel niet zal overschrijden ([[wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
-- Bij gebroken boekjaar: drempel proportioneel berekend (× maanden/12, waarbij elke begonnen maand telt) ([[wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
+- **Starters**: mogen de vereenvoudigde boekhouding toepassen in het eerste boekjaar zolang de verwachte omzet te goeder trouw de drempel niet zal overschrijden ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
+- Bij gebroken boekjaar: drempel proportioneel berekend (× maanden/12, waarbij elke begonnen maand telt) ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-1|ITAA-LEX XIII (KB) · KB WER 2018 art. 1–3]])
 
-**Drie dagboeken** in de vereenvoudigde boekhouding ([[wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]):
+**Drie dagboeken** in de vereenvoudigde boekhouding ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]):
 1. Mutaties in liquide middelen (ontvangsten en betalingen in contanten of op rekening) + dagelijkse saldi contanten
 2. Inkoop- en invoerverrichtingen + ontvangen diensten (bedrag, wijze en dag van betaling)
 3. Verkoop- en uitvoerverrichtingen + geleverde diensten (bedrag, wijze en dag van inning)
 
-**Kleine vzw's en stichtingen** die niet meer dan één WVV-criterium overschrijden, mogen een nog eenvoudiger **ongesplitst dagboek** voeren (model zie bijlage 2 KB, B.St. 29-10-2018, p. 82210) ([[wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]).
+**Kleine vzw's en stichtingen** die niet meer dan één WVV-criterium overschrijden, mogen een nog eenvoudiger **ongesplitst dagboek** voeren (model zie bijlage 2 KB, B.St. 29-10-2018, p. 82210) ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii85|ITAA-LEX XIII · WER art. III.85]]).
 
 > [!info]- In de praktijk
 >
@@ -104,9 +104,9 @@ Bepaalde kleine ondernemingen mogen, in plaats van de dubbele boekhouding, een e
 
 ## 🔒 Verantwoordingsstukken
 
-Elke boeking geschiedt aan de hand van een **gedagtekend verantwoordingsstuk**, waarnaar de boeking verwijst ([[wetteksten/XIII-wer/boek-iii#art-iii86|ITAA-LEX XIII · WER art. III.86]]). Verrichtingen in het klein waarvoor geen factuur vereist is, mogen dagelijks worden samengevoegd in één inschrijving.
+Elke boeking geschiedt aan de hand van een **gedagtekend verantwoordingsstuk**, waarnaar de boeking verwijst ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|ITAA-LEX XIII · WER art. III.86]]). Verrichtingen in het klein waarvoor geen factuur vereist is, mogen dagelijks worden samengevoegd in één inschrijving.
 
-**Bewaarplicht voor verantwoordingsstukken** ([[wetteksten/XIII-wer/boek-iii#art-iii86|ITAA-LEX XIII · WER art. III.86]]):
+**Bewaarplicht voor verantwoordingsstukken** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|ITAA-LEX XIII · WER art. III.86]]):
 - **7 jaar** voor stukken die tot bewijs tegenover derden kunnen dienen (facturen, bankuittreksels, contracten)
 - **3 jaar** voor interne stukken die niet strekken tot bewijs jegens derden (interne memo's, werknota's)
 
@@ -114,26 +114,26 @@ Elke boeking geschiedt aan de hand van een **gedagtekend verantwoordingsstuk**, 
 
 ## 🔒 Formele vereisten voor boeken
 
-Elk boek moet ([[wetteksten/XIII-wer/boek-iii#art-iii87|ITAA-LEX XIII · WER art. III.87]]):
+Elk boek moet ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii87|ITAA-LEX XIII · WER art. III.87]]):
 - Genummerd zijn per blad en een doorlopende reeks vormen
 - De vermelding dragen van het soort boek, de plaatsnummer in de reeks en de naam/firmanaam van de onderneming
 - De **materiële continuïteit, regelmatigheid en onveranderlijkheid** van de boekingen waarborgen
 
-Voor **informaticasystemen**: het systeem moet deze drie eigenschappen technisch waarborgen ([[wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · KB WER 2018 art. 4]]).
+Voor **informaticasystemen**: het systeem moet deze drie eigenschappen technisch waarborgen ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · KB WER 2018 art. 4]]).
 
-Voor **schriftelijke registers**: vóór de eerste ingebruikname neerlegging van een identificatieformulier bij een erkend ondernemingsloket ([[wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · KB WER 2018 art. 4]]).
+Voor **schriftelijke registers**: vóór de eerste ingebruikname neerlegging van een identificatieformulier bij een erkend ondernemingsloket ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · KB WER 2018 art. 4]]).
 
-Boeken worden naar **tijdsorde** bijgehouden, zonder wit vak of weglating. Bij correctie blijft het oorspronkelijke leesbaar ([[wetteksten/XIII-wer/boek-iii#art-iii88|ITAA-LEX XIII · WER art. III.88]]).
+Boeken worden naar **tijdsorde** bijgehouden, zonder wit vak of weglating. Bij correctie blijft het oorspronkelijke leesbaar ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|ITAA-LEX XIII · WER art. III.88]]).
 
 ---
 
 ## 🔒 Bewaarplicht boeken — 7 jaar
 
-Alle boekhoudkundige boeken moeten **7 jaar** worden bewaard, te rekenen van **1 januari van het jaar dat volgt op de afsluiting** van het boekjaar ([[wetteksten/XIII-wer/boek-iii#art-iii88|ITAA-LEX XIII · WER art. III.88]]) ([[wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
+Alle boekhoudkundige boeken moeten **7 jaar** worden bewaard, te rekenen van **1 januari van het jaar dat volgt op de afsluiting** van het boekjaar ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|ITAA-LEX XIII · WER art. III.88]]) ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
 
-Van de **kernboeken** (dagboek, centraal boek, drie dagboeken vereenvoudigde boekhouding, inventarisboek) moet het **origineel** worden bewaard. Van andere boeken mag een afschrift volstaan ([[wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
+Van de **kernboeken** (dagboek, centraal boek, drie dagboeken vereenvoudigde boekhouding, inventarisboek) moet het **origineel** worden bewaard. Van andere boeken mag een afschrift volstaan ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
 
-De bewaarmethode moet de onveranderlijkheid en toegankelijkheid gedurende de volledige bewaringstermijn garanderen ([[wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
+De bewaarmethode moet de onveranderlijkheid en toegankelijkheid gedurende de volledige bewaringstermijn garanderen ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
 
 > [!info]- In de praktijk
 >
@@ -145,7 +145,7 @@ De bewaarmethode moet de onveranderlijkheid en toegankelijkheid gedurende de vol
 
 ## 📋 Jaarlijkse inventaris
 
-Elke boekhoudplichtige onderneming (die geen vereenvoudigde boekhouding voert) verricht minstens eenmaal per jaar de nodige **opnemingen, verificaties en waarderingen** om op een door haar gekozen datum de **inventaris** op te maken ([[wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89]]).
+Elke boekhoudplichtige onderneming (die geen vereenvoudigde boekhouding voert) verricht minstens eenmaal per jaar de nodige **opnemingen, verificaties en waarderingen** om op een door haar gekozen datum de **inventaris** op te maken ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89]]).
 
 De inventaris omvat: alle bezittingen, rechten, vorderingen, schulden en verplichtingen die betrekking hebben op het bedrijf, en de eigen middelen.
 
@@ -157,13 +157,13 @@ De inventaris wordt ingericht conform het rekeningenstelsel van de onderneming.
 
 ## 📋 Van inventaris naar jaarrekening
 
-Nadat de rekeningen in overeenstemming zijn gebracht met de inventarisgegevens, worden ze samengevat in de **jaarrekening** ([[wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
+Nadat de rekeningen in overeenstemming zijn gebracht met de inventarisgegevens, worden ze samengevat in de **jaarrekening** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
 
 Voor **vennootschappen**: de jaarrekening volgt de regels van het [[jaarrekening|WVV]] — volledig, verkort of microschema naar grootte van de vennootschap.
 
-Voor **niet-WVV-ondernemingen** (bv. eenmanszaken boven de drempel): ze volgen voor de vorm, inhoud, controle en neerlegging dezelfde bepalingen als WVV-ondernemingen, op basis van dezelfde groottecriteria (omzet, balanstotaal, personeel) ([[wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
+Voor **niet-WVV-ondernemingen** (bv. eenmanszaken boven de drempel): ze volgen voor de vorm, inhoud, controle en neerlegging dezelfde bepalingen als WVV-ondernemingen, op basis van dezelfde groottecriteria (omzet, balanstotaal, personeel) ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
 
-**Uitzondering**: ondernemingen die de vereenvoudigde boekhouding voeren hebben **geen neerleggingsverplichting** ([[wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
+**Uitzondering**: ondernemingen die de vereenvoudigde boekhouding voeren hebben **geen neerleggingsverplichting** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
 
 ---
 

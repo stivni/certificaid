@@ -15,7 +15,7 @@ De officiële jaarrekening (wettelijk schema) omvormen naar een analytisch bruik
 
 > [!info]- Grondslag van deze werkwijze (🤖 50% · ⚖️ 50%)
 > Er bestaat geen ITAA-norm die de herstructurering van de jaarrekening als taakprocedure beschrijft. De procedure volgt uit twee bronnen:
-> - **Schema en codes** (stap 1–2): de rubrieksindeling en NBB-codes zijn vastgelegd in het **[[wetteksten/XIII-KB-wer-boekhouding|KB 21/10/2018]]** (MAR). Dit deel is niet vrij te kiezen.
+> - **Schema en codes** (stap 1–2): de rubrieksindeling en NBB-codes zijn vastgelegd in het **[[bronnen/wetteksten/XIII-KB-wer-boekhouding|KB 21/10/2018]]** (MAR). Dit deel is niet vrij te kiezen.
 > - **Analytische hergroepering** (stap 2–4): welke rubrieken bij vlottend actief, schulden KT of EBITDA horen, is gebaseerd op **NBB-documentatie en beroepspraktijk** 🤖 — niet in een norm vastgelegd.
 
 ## Aanbevolen werkwijze

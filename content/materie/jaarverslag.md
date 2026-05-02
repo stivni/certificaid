@@ -16,7 +16,7 @@ Het jaarverslag is een afzonderlijk document waarmee het bestuursorgaan rekensch
 
 ## 🔒 Verplichting en vrijstelling
 
-**Verplicht** voor alle vennootschappen, met uitzondering van ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]):
+**Verplicht** voor alle vennootschappen, met uitzondering van ([[bronnen/wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]):
 
 | Vrijgesteld | Voorwaarde |
 |-------------|------------|
@@ -25,15 +25,15 @@ Het jaarverslag is een afzonderlijk document waarmee het bestuursorgaan rekensch
 | Vof's en comm.v.'s | Alle onbeperkt aansprakelijke vennoten zijn natuurlijke personen |
 | Erkende landbouwondernemingen (vof/comm.v.) | Onderworpen aan personenbelasting |
 
-**Niet vrijgesteld** zijn: genoteerde vennootschappen en organisaties van openbaar belang (art. 1:12, 5°), ook als ze klein zijn ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]).
+**Niet vrijgesteld** zijn: genoteerde vennootschappen en organisaties van openbaar belang (art. 1:12, 5°), ook als ze klein zijn ([[bronnen/wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]).
 
-**Gedeeltelijke verplichting voor kleine, niet-genoteerde vennootschappen**: ze zijn vrijgesteld van het volledige jaarverslag, maar moeten de verantwoording voor bezoldigingen van het bestuursorgaan (art. 3:6, §1, 6°) wél vermelden — zij het in de **toelichting bij de jaarrekening** in plaats van in een apart jaarverslag ([[wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]).
+**Gedeeltelijke verplichting voor kleine, niet-genoteerde vennootschappen**: ze zijn vrijgesteld van het volledige jaarverslag, maar moeten de verantwoording voor bezoldigingen van het bestuursorgaan (art. 3:6, §1, 6°) wél vermelden — zij het in de **toelichting bij de jaarrekening** in plaats van in een apart jaarverslag ([[bronnen/wetteksten/XV-wvv#art-34|ITAA-LEX XV · WVV art. 3:4]]).
 
 ---
 
 ## 📌 Inhoud van het jaarverslag
 
-Het bestuursorgaan neemt in het jaarverslag minimaal op ([[wetteksten/XV-wvv#art-36|ITAA-LEX XV · WVV art. 3:6]]):
+Het bestuursorgaan neemt in het jaarverslag minimaal op ([[bronnen/wetteksten/XV-wvv#art-36|ITAA-LEX XV · WVV art. 3:6]]):
 
 1. Een **getrouw overzicht van de ontwikkeling, resultaten en positie** van de vennootschap, met de voornaamste risico's en onzekerheden — zowel financiële als, waar nodig, niet-financiële prestatie-indicatoren (bv. milieu- en personeelsaangelegenheden)
 2. **Belangrijke gebeurtenissen na het einde van het boekjaar**
@@ -46,7 +46,7 @@ Het bestuursorgaan neemt in het jaarverslag minimaal op ([[wetteksten/XV-wvv#art
 
 ## 📌 Aanvullende inhoud voor genoteerde vennootschappen
 
-Genoteerde vennootschappen voegen aan het jaarverslag een **verklaring inzake deugdelijk bestuur** toe, met onder meer ([[wetteksten/XV-wvv#art-36|ITAA-LEX XV · WVV art. 3:6]]):
+Genoteerde vennootschappen voegen aan het jaarverslag een **verklaring inzake deugdelijk bestuur** toe, met onder meer ([[bronnen/wetteksten/XV-wvv#art-36|ITAA-LEX XV · WVV art. 3:6]]):
 - De gevolgde corporate governance-code
 - Beschrijving van interne controle- en risicobeheerssystemen
 - Samenstelling en werking van de bestuursorganen en comités
@@ -57,7 +57,7 @@ Genoteerde vennootschappen voegen aan het jaarverslag een **verklaring inzake de
 
 ## 📌 Duurzaamheidsrapportering
 
-Vennootschappen die gedurende twee opeenvolgende boekjaren **minstens twee** van de volgende criteria overschrijden, zijn verplicht een duurzaamheidsverslag op te nemen in (of bij) het jaarverslag ([[wetteksten/XV-wvv#art-361|ITAA-LEX XV · WVV art. 3:6/1]]):
+Vennootschappen die gedurende twee opeenvolgende boekjaren **minstens twee** van de volgende criteria overschrijden, zijn verplicht een duurzaamheidsverslag op te nemen in (of bij) het jaarverslag ([[bronnen/wetteksten/XV-wvv#art-361|ITAA-LEX XV · WVV art. 3:6/1]]):
 - Balanstotaal > € 25.000.000
 - Netto-omzet > € 50.000.000
 - Jaargemiddelde werknemers > 250

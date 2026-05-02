@@ -16,27 +16,27 @@ Een waardevermindering is een correctie op de [[aanschaffingswaarde|aanschaffing
 
 ## 📌 Waardevermindering
 
-Correcties op de aanschaffingswaarde van **alle actiefbestanddelen** (behalve oprichtingskosten en vaste activa met beperkte gebruiksduur — die vallen onder [[afschrijvingen|afschrijvingen]]), om rekening te houden met al dan niet definitieve ontwaardingen op balansdatum ([[wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
+Correcties op de aanschaffingswaarde van **alle actiefbestanddelen** (behalve oprichtingskosten en vaste activa met beperkte gebruiksduur — die vallen onder [[afschrijvingen|afschrijvingen]]), om rekening te houden met al dan niet definitieve ontwaardingen op balansdatum ([[bronnen/wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
 
 Een waardevermindering kan **tijdelijk** zijn (bv. een beurskoers daalt tijdelijk) of **definitief** (bv. een klant gaat failliet en een vordering is oninbaar).
 
-De gecumuleerde waardeverminderingen worden **afgetrokken** van de actiefpost waarop ze betrekking hebben ([[wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
+De gecumuleerde waardeverminderingen worden **afgetrokken** van de actiefpost waarop ze betrekking hebben ([[bronnen/wetteksten/XV-KB-wvv#art-323|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:23]]).
 
 ---
 
 ## ⚖️ Eisen waaraan waardeverminderingen moeten voldoen
 
-**[[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheid, oprechtheid en goede trouw]]** ([[wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
+**[[boekhoudkundige-beginselen#️-voorzichtigheid-waarachtigheid-en-goede-trouw|Voorzichtigheid, oprechtheid en goede trouw]]** ([[bronnen/wetteksten/XV-KB-wvv#art-324|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:24]]) — waardeverminderingen worden gevormd wanneer de feitelijke waarde lager is dan de boekwaarde; niet preventief of overdreven voorzichtig.
 
-**Specificiteit** — waardeverminderingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke kenmerken mogen globale waardeverminderingen worden geacteerd ([[wetteksten/XV-KB-wvv#art-325|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:25]]).
+**Specificiteit** — waardeverminderingen zijn specifiek voor het actief waarop ze betrekking hebben. Voor activa met volkomen identieke kenmerken mogen globale waardeverminderingen worden geacteerd ([[bronnen/wetteksten/XV-KB-wvv#art-325|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:25]]).
 
-**Stelselmatigheid** — ze worden gevormd **stelselmatig** volgens de vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar ([[wetteksten/XV-KB-wvv#art-326|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:26]]).
+**Stelselmatigheid** — ze worden gevormd **stelselmatig** volgens de vastgelegde methoden. Ze mogen niet afhangen van het resultaat van het boekjaar ([[bronnen/wetteksten/XV-KB-wvv#art-326|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:26]]).
 
 ---
 
 ## 🔒 Terugneming verplicht bij verdwijnen ontwaarding
 
-Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde van het boekjaar hoger zijn dan wat vereist is op basis van een actuele beoordeling ([[wetteksten/XV-KB-wvv#art-327|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:27]]). Als een ontwaarding geheel of gedeeltelijk verdwijnt, moet de waardevermindering worden teruggenomen voor dat bedrag.
+Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde van het boekjaar hoger zijn dan wat vereist is op basis van een actuele beoordeling ([[bronnen/wetteksten/XV-KB-wvv#art-327|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:27]]). Als een ontwaarding geheel of gedeeltelijk verdwijnt, moet de waardevermindering worden teruggenomen voor dat bedrag.
 
 > [!info]- In de praktijk
 >

@@ -12,13 +12,13 @@ bouwversie: 0
 
 De balans geeft een momentopname van de vermogenspositie van een onderneming — maar ze is niet volledig. Bepaalde rechten en verplichtingen staan er bewust niet in, omdat ze niet aan de boekhoudkundige opnemingscriteria voldoen (geen betrouwbare waardering mogelijk, geen zeker karakter, of geen definitieve overdracht van risico). Ze bestaan wél en kunnen de financiële positie aanmerkelijk beïnvloeden.
 
-Een volledige financiële analyse vergt daarom niet alleen de balans en resultatenrekening, maar ook de **toelichting**, waar deze elementen worden vermeld. ([[wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
+Een volledige financiële analyse vergt daarom niet alleen de balans en resultatenrekening, maar ook de **toelichting**, waar deze elementen worden vermeld. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 
 ---
 
 ## 📌 Niet in de balans opgenomen rechten en verplichtingen
 
-Rechten en verplichtingen die niet als activa of passiva op de balans verschijnen, maar die het vermogen, de financiële positie of het resultaat van de onderneming **aanmerkelijk kunnen beïnvloeden**. Ze worden per soort vermeld in de toelichting bij de jaarrekening. Rechten en verplichtingen die niet in cijfers kunnen worden uitgedrukt, worden op passende wijze beschreven. ([[wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
+Rechten en verplichtingen die niet als activa of passiva op de balans verschijnen, maar die het vermogen, de financiële positie of het resultaat van de onderneming **aanmerkelijk kunnen beïnvloeden**. Ze worden per soort vermeld in de toelichting bij de jaarrekening. Rechten en verplichtingen die niet in cijfers kunnen worden uitgedrukt, worden op passende wijze beschreven. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 
 ---
 
@@ -32,7 +32,7 @@ Een persoonlijke zekerheid is een engagement waarbij de onderneming zich persoon
 
 Deze verplichtingen staan niet op de balans zolang de derde zelf betaalt — maar als de derde in gebreke blijft, moet de onderneming betalen. Het is een **voorwaardelijke verplichting** die reëel is maar pas opeisbaar wordt bij wanprestatie van de beschermde partij.
 
-In de toelichting wordt het maximumbedrag vermeld waarvoor de verplichtingen van derden door de onderneming zijn gewaarborgd. ([[wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
+In de toelichting wordt het maximumbedrag vermeld waarvoor de verplichtingen van derden door de onderneming zijn gewaarborgd. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 
 > [!info]- In de praktijk
 >
@@ -51,7 +51,7 @@ Een zakelijke zekerheid is een zekerheidsrecht op een specifiek actief van de on
 - **Pand op handelsfonds of andere activa**: een pand op roerende goederen of het handelsfonds als zekerheid voor een schuld
 - **Eigendomsvoorbehoud**: goederen zijn in het bezit van de koper maar eigendom blijft bij de verkoper totdat de prijs volledig betaald is
 
-In de toelichting worden de boekwaarde van de bezwaarde activa en het bedrag van de hypothecaire inschrijving (of het maximumbedrag van de zakelijke zekerheid) vermeld. ([[wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
+In de toelichting worden de boekwaarde van de bezwaarde activa en het bedrag van de hypothecaire inschrijving (of het maximumbedrag van de zakelijke zekerheid) vermeld. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 
 ---
 
@@ -79,7 +79,7 @@ Concrete impact op ratio-analyse:
 > [!warning]- Balans als enige bron voor risicobeoordeling
 > ❌ *"De balans ziet er gezond uit — solvabiliteitsratio van 45%, geen hoge schuldenlast. De onderneming heeft weinig financieel risico."*
 >
-> De balans toont enkel de verplichtingen die aan de boekhoudkundige opnemingscriteria voldoen. Persoonlijke zekerheden voor derden, hypothecaire volmachten, hangende rechtszaken en contractuele aankoopverplichtingen staan niet op de balans. Een vennootschap kan een aantrekkelijke solvabiliteitsratio hebben en toch blootgesteld zijn aan substantiële risico's die uitsluitend in de toelichting staan. De toelichting is een verplicht onderdeel van de jaarrekening — niet een bijlage die men optioneel raadpleegt. ([[wetteksten/XV-wvv#art-31|WVV art. 3:1]])
+> De balans toont enkel de verplichtingen die aan de boekhoudkundige opnemingscriteria voldoen. Persoonlijke zekerheden voor derden, hypothecaire volmachten, hangende rechtszaken en contractuele aankoopverplichtingen staan niet op de balans. Een vennootschap kan een aantrekkelijke solvabiliteitsratio hebben en toch blootgesteld zijn aan substantiële risico's die uitsluitend in de toelichting staan. De toelichting is een verplicht onderdeel van de jaarrekening — niet een bijlage die men optioneel raadpleegt. ([[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]])
 >
 > 🤖 *AI-aanvulling*
 
@@ -118,7 +118,7 @@ Kenniselementen:
 > >
 > > **De borgtocht wordt vermeld in de toelichting — niet op de balans.**
 > >
-> > Zolang de dochter haar verplichtingen nakomt, is er geen zekere schuld voor de moeder. De borgtocht is een voorwaardelijke verplichting: ze wordt pas opeisbaar als de dochter in gebreke blijft. Een voorwaardelijke verplichting staat niet op de balans maar wordt per soort vermeld in de toelichting bij de jaarrekening, met vermelding van het maximumbedrag. ([[wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
+> > Zolang de dochter haar verplichtingen nakomt, is er geen zekere schuld voor de moeder. De borgtocht is een voorwaardelijke verplichting: ze wordt pas opeisbaar als de dochter in gebreke blijft. Een voorwaardelijke verplichting staat niet op de balans maar wordt per soort vermeld in de toelichting bij de jaarrekening, met vermelding van het maximumbedrag. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 > >
 > > *Zie: [[niet-in-balans-opgenomen-elementen#📌-persoonlijke-zekerheden|Persoonlijke zekerheden]]*
 >

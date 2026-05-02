@@ -25,11 +25,11 @@ De technische uitvoering van integrale consolidatie: van de enkelvoudige jaarrek
 
 Alle activa en passiva moeten gewaardeerd zijn volgens **uniforme regels** vóór de optelling. Dit vereist:
 
-1. **Herwaardering** van activa/passiva van dochterondernemingen die andere waarderingsregels hanteren dan de moeder (bv. andere afschrijvingspercentages, andere voorraadbepaling). ([[wetteksten/XV-KB-wvv#art-3115|KB-WVV art. 3:115]])
-2. **Eliminatie van fiscale distorsies**: grotere afschrijvingen of grotere passiva dan economisch verantwoord, aangebracht omwille van fiscale redenen, worden ongedaan gemaakt. ([[wetteksten/XV-KB-wvv#art-3118|KB-WVV art. 3:118]])
-3. **Belastinglatenties** boeken voor tijdelijke belastingverschillen die ontstaan door de herwaarderingen en distorsie-eliminaties (post IX.B "Uitgestelde belastingen en belastinglatenties"). ([[wetteksten/XV-KB-wvv#art-3119|KB-WVV art. 3:119]])
+1. **Herwaardering** van activa/passiva van dochterondernemingen die andere waarderingsregels hanteren dan de moeder (bv. andere afschrijvingspercentages, andere voorraadbepaling). ([[bronnen/wetteksten/XV-KB-wvv#art-3115|KB-WVV art. 3:115]])
+2. **Eliminatie van fiscale distorsies**: grotere afschrijvingen of grotere passiva dan economisch verantwoord, aangebracht omwille van fiscale redenen, worden ongedaan gemaakt. ([[bronnen/wetteksten/XV-KB-wvv#art-3118|KB-WVV art. 3:118]])
+3. **Belastinglatenties** boeken voor tijdelijke belastingverschillen die ontstaan door de herwaarderingen en distorsie-eliminaties (post IX.B "Uitgestelde belastingen en belastinglatenties"). ([[bronnen/wetteksten/XV-KB-wvv#art-3119|KB-WVV art. 3:119]])
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3115|KB-WVV art. 3:115–3:119]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3115|KB-WVV art. 3:115–3:119]])*
 
 ### 2. 🔢 Kapitaaleliminatie berekenen
 
@@ -58,7 +58,7 @@ Toerekening aan individuele activa/passiva:
 = Resterend consolidatieverschil (post "Consolidatieverschillen")
 ```
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3127|KB-WVV art. 3:127–3:130]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3127|KB-WVV art. 3:127–3:130]])*
 
 ### 3. 🔢 Belangen van derden bepalen
 
@@ -77,7 +77,7 @@ Belangen van derden (balans) = % aandelen derden × gecorrigeerd EV dochter
 Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 ```
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3127|KB-WVV art. 3:127, b]], [[wetteksten/XV-KB-wvv#art-3137|art. 3:137]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3127|KB-WVV art. 3:127, b]], [[bronnen/wetteksten/XV-KB-wvv#art-3137|art. 3:137]])*
 
 > [!info]- In de praktijk
 >
@@ -99,7 +99,7 @@ Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 
 **Stap 4a — Optelling**: tel alle activa, passiva, opbrengsten en kosten van de consoliderende vennootschap en de dochterondernemingen samen (100% voor elk).
 
-**Stap 4b — Eliminaties** ([[wetteksten/XV-KB-wvv#art-3134|KB-WVV art. 3:134, 3:136]]):
+**Stap 4b — Eliminaties** ([[bronnen/wetteksten/XV-KB-wvv#art-3134|KB-WVV art. 3:134, 3:136]]):
 
 *Balans:*
 - Elimineer onderlinge vorderingen en schulden (bv. vordering moeder op dochter = schuld dochter aan moeder).
@@ -111,7 +111,7 @@ Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 - Elimineer waardeverminderingen op deelnemingen in groepsvennootschappen.
 - Elimineer meer/minderwaarden op overdracht van deelnemingen binnen de groep.
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3134|KB-WVV art. 3:134, 3:136, 3:139]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3134|KB-WVV art. 3:134, 3:136, 3:139]])*
 
 > [!warning]- Intercompany-winst in voorraden vergeten
 > ❌ *"Intragroepsleveringen zijn geëlimineerd door de omzet te schrappen — klaar."*
@@ -129,11 +129,11 @@ Aandeel derden in resultaat  = % aandelen derden × resultaat boekjaar dochter
 > - Boekwaarde consolidatieverschillen na afschrijving in de geconsolideerde balans
 > - Afschrijvingskost in de geconsolideerde resultatenrekening
 
-Positieve consolidatieverschillen (goodwill bij consolidatie) worden **afgeschreven** ten laste van de geconsolideerde resultatenrekening. ([[wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])
+Positieve consolidatieverschillen (goodwill bij consolidatie) worden **afgeschreven** ten laste van de geconsolideerde resultatenrekening. ([[bronnen/wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])
 
 Wanneer de afschrijving over meer dan vijf jaar wordt gespreid, moet dit worden gemotiveerd in de toelichting.
 
-*(Grondslag: [[wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])*
+*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3131|KB-WVV art. 3:131]])*
 
 ## Voorbeelden
 

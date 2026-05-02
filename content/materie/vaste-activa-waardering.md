@@ -9,13 +9,13 @@ bronnen:
 
 # Vaste activa: bijzondere waarderingsregels
 
-De [[aanschaffingswaarde|aanschaffingswaarde]] is het algemeen vertrekpunt voor alle activa. Voor vaste activa gelden daarnaast bijzondere regels per categorie, vastgelegd in het KB van 29 april 2019 tot uitvoering van het WVV (KB WVV 2019), Afdeling 6. ([[wetteksten/XV-KB-wvv#art-336|KB WVV art. 3:36–3:44]])
+De [[aanschaffingswaarde|aanschaffingswaarde]] is het algemeen vertrekpunt voor alle activa. Voor vaste activa gelden daarnaast bijzondere regels per categorie, vastgelegd in het KB van 29 april 2019 tot uitvoering van het WVV (KB WVV 2019), Afdeling 6. ([[bronnen/wetteksten/XV-KB-wvv#art-336|KB WVV art. 3:36–3:44]])
 
 ---
 
 ## 📌 Oprichtingskosten
 
-Oprichtingskosten zijn kosten gemaakt bij het oprichten of herstructureren van een vennootschap of VZW die niet onmiddellijk als bedrijfskost worden genomen maar worden geactiveerd — dat wil zeggen op het actief van de balans worden geboekt. ([[wetteksten/XV-KB-wvv#art-336|KB WVV art. 3:36]])
+Oprichtingskosten zijn kosten gemaakt bij het oprichten of herstructureren van een vennootschap of VZW die niet onmiddellijk als bedrijfskost worden genomen maar worden geactiveerd — dat wil zeggen op het actief van de balans worden geboekt. ([[bronnen/wetteksten/XV-KB-wvv#art-336|KB WVV art. 3:36]])
 
 **Welke kosten komen in aanmerking?**
 
@@ -29,7 +29,7 @@ Gewone bedrijfskosten of financiële kosten die het karakter van herstructurerin
 
 **Waarderingsregel: afschrijving**
 
-Oprichtingskosten worden verplicht afgeschreven in jaarlijkse tranches van **ten minste 20%** van de werkelijk uitgegeven bedragen — dus volledig afgeschreven binnen maximaal 5 jaar. ([[wetteksten/XV-KB-wvv#art-337|KB WVV art. 3:37]])
+Oprichtingskosten worden verplicht afgeschreven in jaarlijkse tranches van **ten minste 20%** van de werkelijk uitgegeven bedragen — dus volledig afgeschreven binnen maximaal 5 jaar. ([[bronnen/wetteksten/XV-KB-wvv#art-337|KB WVV art. 3:37]])
 
 Uitzondering: kosten bij uitgifte van leningen mogen worden gespreid over de **looptijd van de lening**.
 
@@ -52,7 +52,7 @@ Uitzondering: kosten bij uitgifte van leningen mogen worden gespreid over de **l
 
 *Intangible assets*
 
-Immateriële vaste activa zijn niet-fysieke activa die duurzaam voor de activiteit worden aangehouden: goodwill, kosten van ontwikkeling, concessies, octrooien, licenties en andere rechten. ([[wetteksten/XV-KB-wvv#art-338|KB WVV art. 3:38]])
+Immateriële vaste activa zijn niet-fysieke activa die duurzaam voor de activiteit worden aangehouden: goodwill, kosten van ontwikkeling, concessies, octrooien, licenties en andere rechten. ([[bronnen/wetteksten/XV-KB-wvv#art-338|KB WVV art. 3:38]])
 
 **Waarderingsregel: activering**
 
@@ -61,13 +61,13 @@ Immateriële vaste activa zijn niet-fysieke activa die duurzaam voor de activite
 
 **Waarderingsregel: afschrijving en waardevermindering**
 
-IVA met **beperkte gebruiksduur** (bv. octrooi voor 10 jaar): verplicht planmatig [[afschrijvingen|afschrijven]] op basis van een afschrijvingsplan. Versnelde fiscale afschrijving is toegestaan, maar dan vermelding in de toelichting verplicht als het verschil aanzienlijk is. ([[wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §1]])
+IVA met **beperkte gebruiksduur** (bv. octrooi voor 10 jaar): verplicht planmatig [[afschrijvingen|afschrijven]] op basis van een afschrijvingsplan. Versnelde fiscale afschrijving is toegestaan, maar dan vermelding in de toelichting verplicht als het verschil aanzienlijk is. ([[bronnen/wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §1]])
 
-IVA met **onbeperkte gebruiksduur** (bv. merknaam met eeuwigdurend statuut): enkel [[waardeverminderingen|waardevermindering]] bij duurzame minderwaarde of ontwaarding, geen planmatige afschrijving. ([[wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §2]])
+IVA met **onbeperkte gebruiksduur** (bv. merknaam met eeuwigdurend statuut): enkel [[waardeverminderingen|waardevermindering]] bij duurzame minderwaarde of ontwaarding, geen planmatige afschrijving. ([[bronnen/wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §2]])
 
 **Speciale regels voor goodwill en ontwikkelingskosten:**
 
-Als de gebruiksduur niet met zekerheid kan worden geraamd, worden ze afgeschreven over **maximaal 10 jaar**. De gekozen periode moet in de toelichting worden verantwoord. Afschrijvingen en waardeverminderingen op goodwill worden **nooit teruggenomen** — ook niet als de waarde later herstelt. ([[wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §1 al. 4]])
+Als de gebruiksduur niet met zekerheid kan worden geraamd, worden ze afgeschreven over **maximaal 10 jaar**. De gekozen periode moet in de toelichting worden verantwoord. Afschrijvingen en waardeverminderingen op goodwill worden **nooit teruggenomen** — ook niet als de waarde later herstelt. ([[bronnen/wetteksten/XV-KB-wvv#art-339|KB WVV art. 3:39 §1 al. 4]])
 
 > [!warning]- Goodwill-afschrijvingen zijn onomkeerbaar
 > ❌ *"Als de waarde van goodwill later stijgt, moet de eerder geboekte waardevermindering worden teruggenomen."*
@@ -90,17 +90,17 @@ Materiële vaste activa zijn tastbare activa die duurzaam voor de activiteit wor
 
 **Leasing en gelijkaardige overeenkomsten**
 
-Gebruiksrechten op MVA via leasing of gelijkaardige overeenkomsten (bv. erfpacht) worden **op het actief opgenomen** — niet als kost. Het bedrag is gelijk aan het deel van de termijnen dat dient tot wedersamenstelling van de kapitaalwaarde van het goed. De overeenkomstige leasingverplichting staat aan de passiefzijde. ([[wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]])
+Gebruiksrechten op MVA via leasing of gelijkaardige overeenkomsten (bv. erfpacht) worden **op het actief opgenomen** — niet als kost. Het bedrag is gelijk aan het deel van de termijnen dat dient tot wedersamenstelling van de kapitaalwaarde van het goed. De overeenkomstige leasingverplichting staat aan de passiefzijde. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]])
 
 **Waarderingsregel: afschrijving en waardevermindering**
 
-MVA met **beperkte gebruiksduur**: verplicht planmatig [[afschrijvingen|afschrijven]] conform het afschrijvingsplan. Aanvullende of niet-recurrente afschrijvingen zijn verplicht als de boekhoudkundige waarde hoger is dan de gebruikswaarde door technische ontwaarding of gewijzigde economische/technologische omstandigheden. ([[wetteksten/XV-KB-wvv#art-342|KB WVV art. 3:42 §1]])
+MVA met **beperkte gebruiksduur**: verplicht planmatig [[afschrijvingen|afschrijven]] conform het afschrijvingsplan. Aanvullende of niet-recurrente afschrijvingen zijn verplicht als de boekhoudkundige waarde hoger is dan de gebruikswaarde door technische ontwaarding of gewijzigde economische/technologische omstandigheden. ([[bronnen/wetteksten/XV-KB-wvv#art-342|KB WVV art. 3:42 §1]])
 
-MVA met **onbeperkte gebruiksduur** (bv. terrein): enkel [[waardeverminderingen|waardevermindering]] bij duurzame minderwaarde of ontwaarding, geen planmatige afschrijving. ([[wetteksten/XV-KB-wvv#art-342|KB WVV art. 3:42 §2]])
+MVA met **onbeperkte gebruiksduur** (bv. terrein): enkel [[waardeverminderingen|waardevermindering]] bij duurzame minderwaarde of ontwaarding, geen planmatige afschrijving. ([[bronnen/wetteksten/XV-KB-wvv#art-342|KB WVV art. 3:42 §2]])
 
-**Buiten gebruik gestelde MVA**: bij activa die niet meer duurzaam tot de activiteit bijdragen, wordt een niet-recurrente afschrijving geboekt om rekening te houden met de waarschijnlijke realisatiewaarde. ([[wetteksten/XV-KB-wvv#art-343|KB WVV art. 3:43]])
+**Buiten gebruik gestelde MVA**: bij activa die niet meer duurzaam tot de activiteit bijdragen, wordt een niet-recurrente afschrijving geboekt om rekening te houden met de waarschijnlijke realisatiewaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-343|KB WVV art. 3:43]])
 
-**Sale-and-leaseback**: de meer- of minderwaarde bij de verkoop van een MVA gevolgd door een leasingovereenkomst op hetzelfde goed wordt opgenomen in de overlopende rekeningen en elk jaar in resultaat genomen naar verhouding van de afschrijving. ([[wetteksten/XV-KB-wvv#art-341|KB WVV art. 3:41]])
+**Sale-and-leaseback**: de meer- of minderwaarde bij de verkoop van een MVA gevolgd door een leasingovereenkomst op hetzelfde goed wordt opgenomen in de overlopende rekeningen en elk jaar in resultaat genomen naar verhouding van de afschrijving. ([[bronnen/wetteksten/XV-KB-wvv#art-341|KB WVV art. 3:41]])
 
 > [!warning]- Terreinen worden niet afgeschreven
 > ❌ *"Alle materiële vaste activa worden planmatig afgeschreven."*
@@ -123,12 +123,12 @@ Financiële vaste activa zijn langetermijnparticipaties in andere vennootschappe
 
 **Waardeverminderingen**
 
-- Op **deelnemingen en aandelen**: waardevermindering bij duurzame minderwaarde of ontwaarding, verantwoord door de toestand, rentabiliteit of vooruitzichten van de betrokken vennootschap. ([[wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §2]])
-- Op **vorderingen in FVA**: waardevermindering als er onzekerheid bestaat over de betaling op de vervaldag. ([[wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §2 al. 2]])
+- Op **deelnemingen en aandelen**: waardevermindering bij duurzame minderwaarde of ontwaarding, verantwoord door de toestand, rentabiliteit of vooruitzichten van de betrokken vennootschap. ([[bronnen/wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §2]])
+- Op **vorderingen in FVA**: waardevermindering als er onzekerheid bestaat over de betaling op de vervaldag. ([[bronnen/wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §2 al. 2]])
 
 **Niet-opgevraagde bedragen**
 
-Bedragen op deelnemingen en aandelen die nog niet werden opgevraagd, worden vermeld in de toelichting per onderrubriek. ([[wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §1]])
+Bedragen op deelnemingen en aandelen die nog niet werden opgevraagd, worden vermeld in de toelichting per onderrubriek. ([[bronnen/wetteksten/XV-KB-wvv#art-344|KB WVV art. 3:44 §1]])
 
 > [!warning]- FVA-waardevermindering vereist "duurzame" basis
 > ❌ *"Een tijdelijke koersdaling van een deelneming volstaat om een waardevermindering te boeken."*

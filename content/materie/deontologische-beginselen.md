@@ -17,7 +17,7 @@ De deontologische beginselen zijn de wettelijk verankerde gedragsregels waaraan 
 
 ## 📌 Persoon vs. beroepsbeoefenaar
 
-Hoofdstuk 6 van de Wet ITAA (art. 36–54) gebruikt bewust twee verschillende termen, met een verschillend toepassingsgebied ([[wetteksten/XXI-wet-itaa#art-36|ITAA-LEX XXI · Wet ITAA art. 36 §3]]):
+Hoofdstuk 6 van de Wet ITAA (art. 36–54) gebruikt bewust twee verschillende termen, met een verschillend toepassingsgebied ([[bronnen/wetteksten/XXI-wet-itaa#art-36|ITAA-LEX XXI · Wet ITAA art. 36 §3]]):
 
 | Term | Wie valt eronder? |
 |------|-------------------|
@@ -36,13 +36,13 @@ Het verschil: **loontrekkenden** (IGA, IGBA) zijn "persoon", maar geen "beroepsb
 
 ## 📌 Deontologisch beginsel
 
-Een **deontologisch beginsel** is een fundamentele gedragsregel voor de uitoefening van het beroep. De wet somt er zeven op ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]) en noemt ze expliciet als minimumvereiste — er kunnen er meer gelden op basis van normen of aanbevelingen van het ITAA.
+Een **deontologisch beginsel** is een fundamentele gedragsregel voor de uitoefening van het beroep. De wet somt er zeven op ([[bronnen/wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]) en noemt ze expliciet als minimumvereiste — er kunnen er meer gelden op basis van normen of aanbevelingen van het ITAA.
 
 ---
 
 ## ⚖️ Onafhankelijkheid
 
-Onafhankelijkheid staat in art. 37 als **overkoepelende eis**, vóór de opsomming van de 7 beginselen. De wet schrijft dat elke ingeschrevene handelt in "**volledige onafhankelijkheid**", en vervolgens "met respect voor de beginselen van de deontologie" ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). Onafhankelijkheid is dus niet het 8e beginsel — het is het kader waarbinnen de 7 beginselen gelden.
+Onafhankelijkheid staat in art. 37 als **overkoepelende eis**, vóór de opsomming van de 7 beginselen. De wet schrijft dat elke ingeschrevene handelt in "**volledige onafhankelijkheid**", en vervolgens "met respect voor de beginselen van de deontologie" ([[bronnen/wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). Onafhankelijkheid is dus niet het 8e beginsel — het is het kader waarbinnen de 7 beginselen gelden.
 
 Onafhankelijkheid heeft twee dimensies:
 
@@ -98,7 +98,7 @@ Voorbeelden: [[boekhoudplicht-wer|boekhouding]] bijhouden, btw-aangifte opstelle
 
 ## ↔️ Onafhankelijkheidsvereisten: assurance vs. niet-assurance
 
-De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis]] van art. 37 geldt voor elke ingeschrevene bij elk type opdracht ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). De **gedetailleerde uitwerking** — welke situaties precies verboden zijn — is strenger bij assurance-opdrachten (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`):
+De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis]] van art. 37 geldt voor elke ingeschrevene bij elk type opdracht ([[bronnen/wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]). De **gedetailleerde uitwerking** — welke situaties precies verboden zijn — is strenger bij assurance-opdrachten (KMO-controlenorm (ITAA, 18 december 2018) — `resources/normen/kmo-controlenorm.md`):
 
 | | Assurance-opdracht | Niet-assurance-opdracht |
 |---|---|---|
@@ -126,7 +126,7 @@ De algemene [[deontologische-beginselen#-onafhankelijkheid|onafhankelijkheidseis
 
 ## ⚖️ De 7 deontologische beginselen
 
-Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar met respect voor de volgende zeven beginselen ([[wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]):
+Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar met respect voor de volgende zeven beginselen ([[bronnen/wetteksten/XXI-wet-itaa#art-37|ITAA-LEX XXI · Wet ITAA art. 37]]):
 
 | # | Beginsel | Kern |
 |---|----------|------|
@@ -142,14 +142,14 @@ Binnen dit kader van volledige onafhankelijkheid handelt elke beroepsbeoefenaar 
 
 ## 🔒 Verbod op onverenigbaarheden en belangenconflicten
 
-De beroepsbeoefenaar mag geen activiteiten uitoefenen of daden stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid ([[wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]):
+De beroepsbeoefenaar mag geen activiteiten uitoefenen of daden stellen die onverenigbaar zijn met de onafhankelijkheid van zijn hoedanigheid ([[bronnen/wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]):
 
 - **Onverenigbaarheid**: activiteiten die de onafhankelijkheid structureel aantasten (bv. een commercieel mandaat dat strijdig is met de rol van onafhankelijk adviseur)
 - **Belangenconflict**: een opdracht aanvaarden onder voorwaarden die een objectieve uitvoering in het gedrang brengen (bv. tegelijk adviseur zijn van twee partijen met tegengestelde belangen)
 
 De beoordeling is **situationeel**: de wet geeft geen limitatieve lijst van verboden situaties. De beroepsbeoefenaar beoordeelt per geval of zijn onafhankelijkheid gewaarborgd is. Bij twijfel: de opdracht weigeren of neerleggen.
 
-De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en uitzonderingen ([[wetteksten/XXI-wet-itaa#art-49|ITAA-LEX XXI · Wet ITAA art. 49]]).
+De Koning kan nadere regels vaststellen over specifieke onverenigbaarheden en uitzonderingen ([[bronnen/wetteksten/XXI-wet-itaa#art-49|ITAA-LEX XXI · Wet ITAA art. 49]]).
 
 > [!info]- In de praktijk: twee partijen met tegengesteld belang
 >
@@ -204,7 +204,7 @@ De volgende diensten zijn verboden bij dezelfde cliënt voor wie een assurance-o
 
 ## 🔒 Aanvaarding van opdrachten
 
-De beroepsbeoefenaar mag enkel opdrachten aanvaarden waarvoor hij beschikt over de nodige ([[wetteksten/XXI-wet-itaa#art-40|ITAA-LEX XXI · Wet ITAA art. 40]]):
+De beroepsbeoefenaar mag enkel opdrachten aanvaarden waarvoor hij beschikt over de nodige ([[bronnen/wetteksten/XXI-wet-itaa#art-40|ITAA-LEX XXI · Wet ITAA art. 40]]):
 
 - **Bekwaamheid**: de vereiste kennis en vaardigheden voor de specifieke opdracht
 - **Medewerking**: de nodige toegang tot informatie en samenwerking van de cliënt

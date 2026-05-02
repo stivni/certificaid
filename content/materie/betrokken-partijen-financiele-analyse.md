@@ -52,7 +52,7 @@ Naast externe partijen gebruiken ook interne betrokkenen de jaarrekening — al 
 
 Naast de gebruikers zijn er partijen die een formele toezichtsfunctie hebben over de inhoud of naleving van de jaarrekening.
 
-**Vennoten en aandeelhouders** ontvangen de jaarrekening vóór de jaarlijkse algemene vergadering. Ze kunnen vragen stellen aan het bestuursorgaan en verlenen kwijting voor het gevoerde beleid. De kwijting geldt als goedkeuring van het beheer voor het betrokken boekjaar. ([[wetteksten/XV-wvv#art-36|WVV]])
+**Vennoten en aandeelhouders** ontvangen de jaarrekening vóór de jaarlijkse algemene vergadering. Ze kunnen vragen stellen aan het bestuursorgaan en verlenen kwijting voor het gevoerde beleid. De kwijting geldt als goedkeuring van het beheer voor het betrokken boekjaar. ([[bronnen/wetteksten/XV-wvv#art-36|WVV]])
 
 **[[jaarrekening#-commissaris|Commissaris]]** (bedrijfsrevisor): in vennootschappen die verplicht zijn een commissaris aan te stellen, controleert de commissaris de jaarrekening op regelmatigheid, getrouwheid en nauwkeurigheid, en stelt een controleverslag op.
 
