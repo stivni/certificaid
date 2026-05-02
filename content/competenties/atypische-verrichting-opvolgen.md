@@ -11,7 +11,7 @@ bouwversie: 1
 
 # Atypische verrichting opvolgen
 
-Tijdens de uitvoering van een opdracht een atypische verrichting herkennen, beoordelen of er grond is voor een vermoeden van witwassen van geld of financiering van terrorisme, en de verplichte meldingsprocedure correct doorlopen — intern naar de [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|AMLCO]] en zo nodig extern naar de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] — met inachtneming van het [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|tipping-off verbod]]. De moeilijkste stap is de herkenning: de meldingsprocedure is genormeerd, de signaalherkenning vraagt oordeel.
+Tijdens de uitvoering van een opdracht een atypische verrichting herkennen, beoordelen of er grond is voor een vermoeden van witwassen van geld of financiering van terrorisme, en de verplichte meldingsprocedure correct doorlopen — intern naar de [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|AMLCO]] en zo nodig extern naar de [[antiwitwaswetgeving#-cel-voor-financiële-informatieverwerking-cfi|CFI]] — met inachtneming van het [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|tipping-off verbod]]. De moeilijkste stap is de herkenning: de meldingsprocedure is genormeerd, de signaalherkenning vraagt oordeel.
 
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
 >
@@ -64,7 +64,7 @@ Een verrichting is atypisch wanneer ze:
 >
 > 🤖 *AI-aanvulling*
 
-*(Grondslag: 🤖 analytische praktijk — zie ook [[antiwitwaswetgeving#-clientenonderzoek-cdd|doorlopende waakzaamheid (CDD)]])*
+*(Grondslag: 🤖 analytische praktijk — zie ook [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|doorlopende waakzaamheid (CDD)]])*
 
 ---
 
@@ -149,7 +149,7 @@ Het is ook mogelijk dat de beroepsbeoefenaar zelf AMLCO is (éénpersoonskantoor
 
 **Waarom**: de AMLCO heeft een ruimer overzicht over het kantoor en over de cliënt dan de individuele medewerker. Hij is beter geplaatst om het volledige dossier te beoordelen en de toetsingsdrempel van art. 47 te wegen.
 
-Als de AMLCO beslist om extern te melden, doet hij dat bij de [[antiwitwaswetgeving#-cel-voor-financiele-informatieverwerking-cfi|CFI]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]). De melding is:
+Als de AMLCO beslist om extern te melden, doet hij dat bij de [[antiwitwaswetgeving#-cel-voor-financiële-informatieverwerking-cfi|CFI]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-47|ITAA-LEX XVII · AWW art. 47, §1]]). De melding is:
 - **Anoniem** ten aanzien van de cliënt — de cliënt weet niet dat er gemeld is (zie tipping-off verbod, stap 5)
 - **Vóór de verrichting** bij voorkeur; indien niet mogelijk, onmiddellijk na de verrichting ([[bronnen/wetteksten/XVII-antiwitwaswet#art-51|AWW art. 51]])
 - **Niet strafbaar** als melding te goeder trouw gedaan is, ook als het vermoeden later ongegrond blijkt ([[bronnen/wetteksten/XVII-antiwitwaswet#art-54|AWW art. 54]])

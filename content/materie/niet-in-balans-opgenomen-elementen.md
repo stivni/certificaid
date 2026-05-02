@@ -120,7 +120,7 @@ Kenniselementen:
 > >
 > > Zolang de dochter haar verplichtingen nakomt, is er geen zekere schuld voor de moeder. De borgtocht is een voorwaardelijke verplichting: ze wordt pas opeisbaar als de dochter in gebreke blijft. Een voorwaardelijke verplichting staat niet op de balans maar wordt per soort vermeld in de toelichting bij de jaarrekening, met vermelding van het maximumbedrag. ([[bronnen/wetteksten/XV-KB-wvv#art-32|KB WVV art. 3:2 §3]])
 > >
-> > *Zie: [[niet-in-balans-opgenomen-elementen#📌-persoonlijke-zekerheden|Persoonlijke zekerheden]]*
+> > *Zie: [[niet-in-balans-opgenomen-elementen#-persoonlijke-zekerheden|Persoonlijke zekerheden]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -136,7 +136,7 @@ Kenniselementen:
 > >
 > > Zolang de hypothecaire volmacht niet is uitgeoefend, bestaat er nog geen definitieve bezwaring. De verplichting wordt vermeld in de toelichting als zakelijke zekerheid: het bedrag waarvoor de volmachthebber inschrijving mag nemen. Pas wanneer de bank de volmacht uitoefent en de hypotheek wordt gevestigd, moet dit in de toelichting als hypothecaire inschrijving worden vermeld. De balans wijzigt niet — de bezwaring is een kenmerk van het actief, niet een aparte schuld.
 > >
-> > *Zie: [[niet-in-balans-opgenomen-elementen#📌-zakelijke-zekerheden|Zakelijke zekerheden]]*
+> > *Zie: [[niet-in-balans-opgenomen-elementen#-zakelijke-zekerheden|Zakelijke zekerheden]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -150,6 +150,6 @@ Kenniselementen:
 > >
 > > Wanneer het verlies waarschijnlijk is (meer dan 50% kans) én het bedrag betrouwbaar kan worden geschat, voldoet de verplichting aan de criteria voor het aanleggen van een voorziening. Ze wordt dan een balanspost (verplichting) en is niet langer een off-balance element. De toelichting vermeldt dan de aard van de voorziening en de onzekerheid over het exacte bedrag. Als de uitkomst onzeker bleef zonder betrouwbare schatting, zou ze louter in de toelichting staan als hangende geschil.
 > >
-> > *Zie: [[niet-in-balans-opgenomen-elementen#📌-overige-off-balance-verplichtingen|Overige off-balance verplichtingen]]*
+> > *Zie: [[niet-in-balans-opgenomen-elementen#-overige-off-balance-verplichtingen|Overige off-balance verplichtingen]]*
 >
 > 🤖 *AI-aanvulling*

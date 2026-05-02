@@ -163,7 +163,7 @@ Waardeverminderingen mogen **niet worden gehandhaafd** wanneer ze aan het einde 
 > >
 > > Een machine is een materieel vast actief met beperkte gebruiksduur — waardedaling door gebruik of veroudering wordt verwerkt via **[[afschrijvingen|afschrijvingen]]**, niet via waardeverminderingen. Waardeverminderingen zijn bedoeld voor **incidentele** ontwaardingen bovenop de normale afschrijving (bv. een onverwachte breuk, definitief buiten gebruik stellen). Als de machine door technologische veroudering sneller in waarde daalt dan het afschrijvingsplan voorziet, is de correcte aanpak een herzien afschrijvingsplan.
 > >
-> > *Zie: [[waardeverminderingen#↔️-waardevermindering-vs-afschrijving|Waardevermindering vs. afschrijving]]*
+> > *Zie: [[afschrijvingen#-afschrijving-vs-waardevermindering|Afschrijving vs. waardevermindering]]*
 >
 > 🤖 *AI-aanvulling*
 

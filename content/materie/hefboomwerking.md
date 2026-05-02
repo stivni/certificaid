@@ -152,7 +152,7 @@ Kenniselementen:
 > >
 > > De **operationele hefboom** meet de gevoeligheid van de **EBIT** voor omzetwijzigingen — niet van de nettowinst voor EBIT-wijzigingen. Het is de **financiële hefboom** die de gevoeligheid van de nettowinst voor EBIT-wijzigingen meet. Hoge vaste kosten zijn de oorzaak van een hoge operationele hefboom; een hoge schuldenlast is de oorzaak van een hoge financiële hefboom.
 > >
-> > *Zie: [[hefboomwerking#↔️-operationele-vs-financiële-hefboom|Vergelijking]]*
+> > *Zie: [[hefboomwerking#-operationele-vs-financiële-hefboom|Vergelijking]]*
 >
 > 📝 *Uit voorbeeldexamen 2024*
 
@@ -170,7 +170,7 @@ Kenniselementen:
 > >
 > > Een omzetstijging van 10% leidt tot een EBIT-stijging van 60% (= 10% × 6). De hoge DOL weerspiegelt dat de vaste kosten (€ 2.000.000) dominant zijn ten opzichte van de EBIT (€ 400.000).
 > >
-> > *Zie: [[hefboomwerking#📌-operationele-hefboom-dol|Operationele hefboom]]*
+> > *Zie: [[hefboomwerking#-operationele-hefboom-dol|Operationele hefboom]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -187,6 +187,6 @@ Kenniselementen:
 > >
 > > Verificatie: Vóór de daling: nettowinst = € 600.000 − € 200.000 = € 400.000. Na daling (EBIT = € 450.000): nettowinst = € 450.000 − € 200.000 = € 250.000. Daling = (400.000 − 250.000) / 400.000 = **37,5%**.
 > >
-> > *Zie: [[hefboomwerking#📌-financiële-hefboom-dfl|Financiële hefboom]]*
+> > *Zie: [[hefboomwerking#-financiële-hefboom-dfl|Financiële hefboom]]*
 >
 > 🤖 *AI-aanvulling*

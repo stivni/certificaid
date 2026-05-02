@@ -53,7 +53,7 @@ De gecumuleerde afschrijvingen worden **afgetrokken** van de actiefpost waarop z
 
 ## 📌 Afschrijvingsmethoden
 
-De wet stelt geen specifieke methode verplicht — de onderneming kiest zelf, maar moet de methode consequent toepassen (zie [[boekhoudkundige-beginselen#⚖️-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]]) en ze beschrijven in de toelichting bij de waarderingsregels.
+De wet stelt geen specifieke methode verplicht — de onderneming kiest zelf, maar moet de methode consequent toepassen (zie [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]]) en ze beschrijven in de toelichting bij de waarderingsregels.
 
 **Lineaire methode**: elk jaar hetzelfde bedrag (aanschaffingswaarde / gebruiksduur).
 

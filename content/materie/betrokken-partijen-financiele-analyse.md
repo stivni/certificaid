@@ -133,7 +133,7 @@ Kenniselementen:
 > >
 > > De Balanscentrale is een publieke database. Eenieder kan neergelegde jaarrekeningen raadplegen — banken, klanten, leveranciers, concurrenten. De NBB publiceert ook sectorale statistieken op basis van deze data, die als benchmark dienen voor financiële analyse.
 > >
-> > *Zie: [[betrokken-partijen-financiele-analyse#📌-balanscentrale-van-de-nbb|Balanscentrale NBB]]*
+> > *Zie: [[betrokken-partijen-financiele-analyse#-balanscentrale-van-de-nbb|Balanscentrale NBB]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -149,7 +149,7 @@ Kenniselementen:
 > >
 > > De KOM kan **ambtshalve** optreden — dus zonder dat de onderneming zelf het initiatief neemt. De rechtbank kan op eigen initiatief de situatie van een onderneming onderzoeken bij aanwijzingen van continuïteitsproblemen (bv. herhaalde neerlegging van jaarrekeningen met verlies). ([[continuiteitsrisico|ambtshalve continuïteitsonderzoek]])
 > >
-> > *Zie: [[betrokken-partijen-financiele-analyse#📌-toezichtsorganen|Toezichtsorganen]]*
+> > *Zie: [[betrokken-partijen-financiele-analyse#-toezichtsorganen|Toezichtsorganen]]*
 >
 > 🤖 *AI-aanvulling*
 
@@ -163,6 +163,6 @@ Kenniselementen:
 > >
 > > Een kredietverstrekker wil weten of de onderneming in staat is de lening terug te betalen (liquiditeit en kasstroom) en of er voldoende vermogen is om verliezen op te vangen zonder de schuldeisers te schaden (solvabiliteit). Rentabiliteitsratio's als ROE zijn voor een bank secundair: ze geven het aandeelhoudersrendement, niet de terugbetalingscapaciteit.
 > >
-> > *Zie: [[betrokken-partijen-financiele-analyse#📌-externe-gebruikers-van-de-jaarrekening|Externe gebruikers]]*
+> > *Zie: [[betrokken-partijen-financiele-analyse#-externe-gebruikers-van-de-jaarrekening|Externe gebruikers]]*
 >
 > 🤖 *AI-aanvulling*

@@ -177,7 +177,7 @@ Kenniselementen:
 > >
 > > Afschrijvingen zijn een niet-kaskosten: ze worden als kost geboekt in de resultatenrekening maar veroorzaken geen effectieve uitstroom van geld. Ze worden opgenomen als **herkomst** van middelen, niet als besteding. De redenering: afschrijvingen reduceren de nettoboekwaarde van vaste activa zonder kasuitstroom — dat "vrijgekomen" bedrag is beschikbaar voor verdere financiering.
 > >
-> > *Zie: [[vermogensstroomtabel#🔢-basisstructuur-van-de-vermogensstroomtabel|Basisstructuur vermogensstroomtabel]]*
+> > *Zie: [[vermogensstroomtabel#-basisstructuur-van-de-vermogensstroomtabel|Basisstructuur vermogensstroomtabel]]*
 >
 > 🤖 *AI-aanvulling*
 
