@@ -13,14 +13,6 @@ Obvious fixes worden autonoom verwerkt en **hier verwijderd**. Bevindingen gemar
 
 ---
 
-## Sweeps (autonoom uitvoerbaar — wacht op go)
-
-
-
-**[Project-brede accent-anker sweep]**
-`#-clientenonderzoek` (zonder ë) vs `#-cliëntenonderzoek` (met ë). Grep-commando: `grep -rn "antiwitwaswetgeving#-clientenonderzoek\|financiele-info" content/`. Al deels opgelost in AWW en opdrachtaanvaarding; andere fiches mogelijk nog niet.
-→ Kan autonoom worden opgelost.
-
 ---
 
 ## Bronverificatie (QA — WIB92 artikelnummers)
