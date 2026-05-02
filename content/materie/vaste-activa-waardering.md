@@ -2,6 +2,7 @@
 tags: ["1.2", wip, materie]
 niveau: integratie
 status: draft
+bouwversie: 1
 bronnen:
   - KB WVV 2019 art. 3:36–3:44
 ---
