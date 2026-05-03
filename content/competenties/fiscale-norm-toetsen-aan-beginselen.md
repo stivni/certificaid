@@ -36,7 +36,7 @@ De competentie wordt zelden in zuivere vorm op het examen gevraagd. Wel verschij
 **Waarom**: zonder afbakening loopt de toetsing leeg of gaat ze over de verkeerde norm. De [[fiscale-actoren#-grondwettelijk-hof|Grondwettelijk Hof]]-toetsing en de toetsing door de gewone rechter (art. 159 Gw.) hebben verschillende reikwijdte en termijnen.
 
 Identificeer:
-1. **Type rechtsbron** ([[bronnen-fiscaal-recht|zie hiërarchie]]) — wet, KB, decreet, reglement, circulaire, aanslag
+1. **Type rechtsbron** ([[bronnen-fiscaal-recht#-normenhiërarchie|zie hiërarchie]]) — wet, KB, decreet, reglement, circulaire, aanslag
 2. **Niveau** — federaal, gewestelijk, lokaal
 3. **Wat exact betwist wordt** — de wet zelf, een KB-bepaling, een individuele toepassing, of de combinatie
 
@@ -171,7 +171,7 @@ Stap 5a: Worden vergelijkbare categorieën verschillend behandeld?
 > 📤 **Uitkomst**:
 > - Oordeel: voldoende aanknoping met België; geen botsing met DBV
 
-**Waarom**: zonder voldoende aanknoping mag België niet heffen — anders schendt het [[fiscale-beginselen#-territorialiteitsbeginsel|territorialiteit]] en mogelijk EU-recht (vier vrijheden).
+**Waarom**: zonder voldoende aanknoping mag België niet heffen — anders schendt het [[fiscale-beginselen#-territorialiteitsbeginsel|territorialiteitsbeginsel]] en mogelijk [[bronnen-fiscaal-recht#-eu-recht|EU-recht]] (vier vrijheden).
 
 Stappen:
 1. Identificeer **welke aanknoping** België aanwendt (rijksinwoner = personeel; Belgische bron = zakelijk)
@@ -194,7 +194,7 @@ Stappen:
 **Waarom**: alleen relevant wanneer er een **sanctie**-element is. Bij een gewone aanslag zonder boete speelt non bis in idem niet.
 
 Voorwaarden voor schending:
-1. De huidige en de vorige sanctie zijn **strafrechtelijk** in de zin van het EVRM (Engel-criteria)
+1. De huidige en de vorige sanctie zijn **strafrechtelijk** in de zin van het EVRM ([[fiscale-beginselen#-non-bis-in-idem|Engel-criteria]])
 2. Beide sancties betreffen **hetzelfde feit** (idem-test)
 3. Er is **geen una via**-overleg geweest of het werd geschonden
 
@@ -253,6 +253,17 @@ Stel de motivering op volgens de **examen-redenering** (zie [[#motiveren-op-het-
 > [!tip]- Volgorde van argumenten in een bezwaar
 > Begin met de **sterkste** schending — in de praktijk meestal legaliteit of gelijkheid. Voeg subsidiair de zwakkere argumenten toe (territorialiteit, niet-retroactiviteit). Vermijd het stapelen van zwakke argumenten zonder hiërarchie — dat verzwakt het hoofdargument.
 
+> [!info]- In de praktijk — ruling vs. bezwaar bij beginselen-schendingen
+>
+> Een **Dienst Voorafgaande Beslissingen (DVB)**-ruling is in de praktijk **niet bruikbaar** voor beginselen-betwistingen. Het DVB beslist over de fiscale behandeling van toekomstige verrichtingen binnen de geldende wet — het kan de wet zelf niet beoordelen op grondwettigheid. GA's en GBA's die een legaliteitsschending of een gelijkheidsschending vermoeden, hebben in de praktijk maar twee routes:
+>
+> 1. **Bezwaar** bij de fiscale administratie, gevolgd door beroep bij de rechtbank van eerste aanleg — de rechter kan via art. 159 Gw. een onwettig KB buiten toepassing stellen of via een prejudiciële vraag het Grondwettelijk Hof inschakelen.
+> 2. **Aanvaarden** en de cliënt informeren over de geringe succeskansen of de hoge proceskosten.
+>
+> De optie "ruling aanvragen" is relevant bij **stap 8** (misbruik/simulatie-analyse) — niet bij legaliteit, retroactiviteit of gelijkheid. In de praktijk volgt misbruikanalyse dikwijls een informeel overleg met de DVB vóór de verrichting plaatsvindt, zodat de beroepsbeoefenaar zekerheid heeft over de toepassing van art. 344 §1 WIB92.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## Voorbeelden
@@ -303,6 +314,34 @@ Stel de motivering op volgens de **examen-redenering** (zie [[#motiveren-op-het-
 3. **Redenering** — toepassing van het toetsingsschema (4-stappen-schema voor gelijkheid; eigenlijke vs. oneigenlijke retroactiviteit; simulatie- en misbruikvragen)
 
 **Voorbeeldvragen**
+
+> [!question]- Eigenlijke vs. oneigenlijke retroactiviteit
+>
+> Een wet gepubliceerd op 15 november geldt "vanaf het lopende inkomstenjaar" (1 januari–31 december). Is dit eigenlijke of oneigenlijke retroactiviteit?
+>
+> > [!success]- Antwoord
+> >
+> > **Oneigenlijke retroactiviteit.**
+> >
+> > Het belastbaar feit (het volledige inkomstenjaar) is op 15 november nog niet afgesloten — het loopt nog tot 31 december. De wet raakt dus een lopend feit, niet een definitief afgesloten feit. Dat is oneigenlijke retroactiviteit. Eigenlijke retroactiviteit zou vereisen dat de wet terugwerkt op een belastbaar feit dat al volledig was afgesloten vóór de publicatiedatum.
+> >
+> > *Zie: [[#4--niet-retroactiviteit-checken|Stap 4 — Niet-retroactiviteit]]*
+>
+> 🤖 *AI-aanvulling*
+
+> [!question]- Bewijslast bij fiscaal misbruik
+>
+> De fiscus wil een inbreng-schenking-constructie herkwalificeren op grond van art. 344 §1 WIB92. Wie draagt de bewijslast, en in welke volgorde?
+>
+> > [!success]- Antwoord
+> >
+> > **De fiscus draagt de eerste bewijslast — pas daarna de belastingplichtige.**
+> >
+> > Art. 344 §1 WIB92 legt de initiële bewijslast bij de fiscus: zij moet aantonen dat (1) de verrichting strijdig is met het doel of de strekking van de gekozen wet, en (2) ze uitsluitend belastingbesparing nastreeft. Pas wanneer de fiscus dit heeft aangetoond, verschuift de bewijslast naar de belastingplichtige om een niet-fiscaal motief aan te tonen (economisch, familiaal of juridisch). Wie de volgorde omdraait en van de belastingplichtige verwacht dat hij spontaan een motief bewijst, past art. 344 §1 onjuist toe.
+> >
+> > *Zie: [[#8--realiteit-en-misbruik-toetsen|Stap 8 — Realiteit en misbruik]]*
+>
+> 🤖 *AI-aanvulling*
 
 > [!question]- Welke beginselen zijn relevant?
 >

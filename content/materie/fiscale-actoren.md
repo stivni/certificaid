@@ -57,11 +57,26 @@ De **federale overheidsdienst** belast met de inning van federale belastingen, d
 
 De FOD-ambtenaren oefenen hun bevoegdheid uit binnen de grenzen die de wet hun toekent. Hun handelingen kunnen door de belastingplichtige worden betwist via **bezwaar** (administratieve fase) en daarna **beroep** bij de rechtbank (zie [[2.5-fiscale-procedure|PO 2.5]]).
 
+> [!info]- In de praktijk: welke administratie botst mijn cliënt mee?
+>
+> - **AAF**: dagelijkse aanslagen en controles PB/Ven.B/BTW — de meest voorkomende gesprekspartner. Persoonlijk contact loopt via de **controleur** bij het bevoegd kantoor (niet de "AAF" als abstract orgaan); MyMinfin is het digitale loket voor aangiften en briefwisseling.
+> - **AAII**: de cliënt heeft al een aanslag en betaalt niet → dwangbevel, beslag.
+> - **BBI**: vermoeden van ernstige fraude (zwartwerk, valse facturen) → boekenonderzoek, eventueel huiszoeking samen met de fiscale onderzoeksrechter.
+> - **AAPD**: notariële akten, kadastrale inschrijvingen, hypothecaire formaliteiten — relevant bij vastgoedtransacties.
+>
+> 🤖 *AI-aanvulling*
+
 ### Dienst Voorafgaande Beslissingen (DVB)
 
 *Ruling Office*
 
-Een **autonome dienst** binnen de FOD Financiën die op verzoek van een belastingplichtige een **bindende voorafgaande beslissing** geeft over de fiscale gevolgen van een geplande verrichting ([[bronnen/wetteksten/I-voorafgaande-beslissingen|wettelijke basis]]). De ruling bindt de fiscus voor de duur en onder de voorwaarden vermeld in de beslissing — typisch 5 jaar.
+Een **autonome dienst** binnen de FOD Financiën die op verzoek van een belastingplichtige een **bindende voorafgaande beslissing** geeft over de fiscale gevolgen van een geplande verrichting ([[bronnen/wetteksten/I-voorafgaande-beslissingen|wettelijke basis]]). De ruling bindt de fiscus voor de duur en onder de voorwaarden vermeld in de beslissing — typisch 5 jaar. ⚠️ te verifiëren — de wettekst (Wet 24/12/2002) is lokaal nog niet beschikbaar.
+
+> [!info]- In de praktijk: hoe een ruling-aanvraag verloopt
+>
+> Een ruling-aanvraag is **tijdsintensief**: doorlooptijd typisch 3–6 maanden, en vereist een volledig dossier met beschrijving van de geplande verrichting, fiscale analyse en motivering. De DVB kan een aanvraag **weigeren** als de verrichting al gesteld is of als de fiscale gevolgen al vastliggen — een ruling is een **voorafgaande** beslissing, geen herstelinstrument achteraf. In de praktijk overleggen kantoren vaak **informeel** met de DVB (pre-filing meeting) vóór ze een formele aanvraag indienen — om in te schatten of de verrichting rulingfähig is en wat de DVB nodig heeft.
+>
+> 🤖 *AI-aanvulling*
 
 ---
 
@@ -75,7 +90,7 @@ Sinds de regionalisering bezit elk gewest een **eigen fiscale administratie** vo
 | **Brussel** | **Brussel Fiscaliteit** | OV, registratie- en successierechten (sinds 2018) |
 | **Wallonië** | **DGO7** (Waalse fiscaliteit) | OV, verkeersbelasting (registratie- en successierechten nog deels door FOD geïnd) |
 
-De regionale fisci passen de **gewestelijke wetgeving** toe (VCF voor Vlaanderen, Brusselse Codex Fiscale Procedure, Waalse decreten). Geschillen lopen via de gewone rechtbank van eerste aanleg, fiscale kamer.
+De regionale fisci passen de **gewestelijke wetgeving** toe ([[bronnen/wetteksten/IVA-vcf|VCF]] voor Vlaanderen, Brusselse Codex Fiscale Procedure, Waalse decreten). Geschillen lopen via de gewone rechtbank van eerste aanleg, fiscale kamer.
 
 ---
 
@@ -84,7 +99,7 @@ De regionale fisci passen de **gewestelijke wetgeving** toe (VCF voor Vlaanderen
 **Provincies en gemeenten** heffen eigen belastingen op grond van Gw. art. 170 §3–§4 en hebben daarvoor een **eigen administratieve dienst** (financiën-/belastingdienst van de gemeente of provincie). De omvang verschilt sterk: een grote stad heeft een uitgebouwde fiscale dienst, een kleine gemeente werkt met enkele ambtenaren.
 
 Geschillen over gemeente- of provinciebelastingen lopen via:
-1. **Bezwaar** bij het college van burgemeester en schepenen (gemeente) of de bestendige deputatie (provincie)
+1. **Bezwaar** bij het college van burgemeester en schepenen (gemeente) of de deputatie (provincie)
 2. **Beroep** bij de rechtbank van eerste aanleg, fiscale kamer
 
 ---
@@ -154,7 +169,7 @@ De **Fiscale Bemiddelingsdienst** (federaal) en regionale fiscale ombudsmannen b
 | Rol | Wettelijke basis | Vertegenwoordigingsbevoegdheid |
 |---|---|---|
 | **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga\|Gecertificeerd accountant (GA)]]** | [[bronnen/wetteksten/XXI-wet-itaa#art-3\|Wet ITAA art. 3]] | Vertegenwoordigt de belastingplichtige in de **administratieve fase** (bezwaar, controle, ruling) |
-| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba\|Gecertificeerd belastingadviseur (GBA)]]** | Wet ITAA art. 3 | Idem; specifieke fiscale opdrachten zijn voorbehouden |
+| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba\|Gecertificeerd belastingadviseur (GBA)]]** | [[bronnen/wetteksten/XXI-wet-itaa#art-6\|Wet ITAA art. 6]] | Vertegenwoordigt de belastingplichtige bij de belastingdiensten (art. 6, 3°); specifieke fiscale opdrachten zijn voorbehouden |
 | **Advocaat** | Gerechtelijk Wetboek | Vertegenwoordigt voor de **rechtbank** (volledig pleitmonopolie); kan ook in administratieve fase |
 | **Notaris** | Notariswet | Adviseert en stelt akten op (registratie, successie); heeft geen vertegenwoordigingsbevoegdheid in fiscale procedure |
 
@@ -281,7 +296,7 @@ Kenniselementen:
 > > Aandachtspunten:
 > > - Stap 1 (bezwaar) is **verplicht** vóór de rechtbank — sla je het administratief bezwaar over, dan is het beroep niet ontvankelijk.
 > > - De **GA/GBA** kan de cliënt vertegenwoordigen in stap 1 maar niet in de rechtbankfasen — daarvoor is een advocaat nodig.
-> > - Termijn voor bezwaar: **3 maanden** na ontvangst van het aanslagbiljet (of 6 maanden voor vennootschapsbelasting — te verifiëren via [[2.5-fiscale-procedure|PO 2.5]]).
+> > - Termijn voor bezwaar: zie [[2.5-fiscale-procedure|PO 2.5 Fiscale procedure]] voor de exacte wettelijke termijn — die valt buiten de scope van deze fiche. ⚠️ te verifiëren bij uitwerking PO 2.5
 > >
 > > *Zie: [[#-fod-financiën|FOD Financiën]], [[#-beroepsbeoefenaars-ga-gba-advocaat-notaris|Beroepsbeoefenaars]], [[#-schematisch-overzicht|Schematisch overzicht]]*
 >

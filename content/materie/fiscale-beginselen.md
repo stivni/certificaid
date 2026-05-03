@@ -64,7 +64,7 @@ De Koning (KB) of de Minister mag **uitvoeringsmodaliteiten** regelen (formulier
 
 > [!info]- In de praktijk: rulings en het legaliteitsbeginsel
 >
-> Een [[fiscale-actoren#-fod-financiën|ruling]] kan de wet **niet** opzij zetten. Als de wet een belasting voorschrijft, kan de fiscus die niet via een ruling annuleren — een ruling kan alleen **bevestigen** hoe de wet wordt toegepast op een specifieke verrichting. Wanneer de wetgever de wet wijzigt op een wijze die de ruling overruled, vervalt de ruling automatisch (legaliteit primeert).
+> Een [[fiscale-actoren#dienst-voorafgaande-beslissingen-dvb|ruling]] kan de wet **niet** opzij zetten. Als de wet een belasting voorschrijft, kan de fiscus die niet via een ruling annuleren — een ruling kan alleen **bevestigen** hoe de wet wordt toegepast op een specifieke verrichting. Wanneer de wetgever de wet wijzigt op een wijze die de ruling overruled, vervalt de ruling automatisch (legaliteit primeert).
 >
 > 🤖 *AI-aanvulling*
 
@@ -222,7 +222,7 @@ Wanneer twee staten elk een aanknopingspunt hebben, ontstaat **dubbele belasting
 
 *Non bis in idem · Not twice for the same*
 
-Niemand mag **tweemaal worden vervolgd of bestraft** voor hetzelfde feit. Het beginsel komt uit het strafrecht en geldt — via **art. 4 Zevende Protocol EVRM** en **art. 50 EU-Handvest** — ook voor fiscale sancties die **strafrechtelijk** zijn in de zin van het EVRM (Engel-criteria).
+Niemand mag **tweemaal worden vervolgd of bestraft** voor hetzelfde feit. Het beginsel komt uit het strafrecht en geldt — via **art. 4 Zevende Protocol [[bronnen-fiscaal-recht#-evrm-en-andere|EVRM]]** en **art. 50 [[bronnen-fiscaal-recht#-eu-recht|EU-Handvest]]** — ook voor fiscale sancties die **strafrechtelijk** zijn in de zin van het EVRM (**Engel-criteria**: 1° classificatie in nationaal recht, 2° aard van de inbreuk, 3° ernst van de sanctie).
 
 ### Toepassingsgebied in fiscale zaken
 
