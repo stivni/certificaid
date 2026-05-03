@@ -1,8 +1,8 @@
 ---
-tags: ["1.2", "1.3", wip, competentie]
+tags: ["1.2", "1.3", "1.5", wip, competentie]
 niveau: integratie
 status: draft
-programmaonderdelen: ["1.2", "1.3"]
+programmaonderdelen: ["1.2", "1.3", "1.5"]
 itaa-lex-secties:
   - XV (WVV Boek 3)
 bouwversie: 0

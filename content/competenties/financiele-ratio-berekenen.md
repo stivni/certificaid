@@ -1,8 +1,8 @@
 ---
-tags: ["1.3", wip, competentie]
+tags: ["1.3", "1.5", wip, competentie]
 niveau: toepassen
 status: draft
-programmaonderdelen: ["1.3"]
+programmaonderdelen: ["1.3", "1.5"]
 itaa-lex-secties:
   - XIII KB 21/10/2018 (MAR — genormaliseerde rekeningcodes)
   - XV (WVV schema-vereisten volledig/verkort/micro)
