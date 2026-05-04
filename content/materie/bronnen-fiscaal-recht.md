@@ -147,6 +147,12 @@ Sinds de regionalisering bezitten de Gewesten een **eigen fiscale autonomie** vo
 
 De gewesten regelen onder meer **registratierechten, successierechten, schenkingsrechten, verkeersbelasting en onroerende voorheffing** — al blijft voor de PB het tarief federaal en kunnen gewesten enkel via opcentiemen of belastingverminderingen werken.
 
+> [!info]- Vlaanderen vs. Brussel/Wallonië voor registratie- en successierechten
+>
+> Vlaanderen heeft op 1 januari 2015 de **registratie- en successierechten geïntegreerd** in de [[bronnen/wetteksten/IVA-vcf|VCF]] (Titel 2, hoofdstuk 7 erfbelasting; hoofdstuk 8 registratiebelasting). Voor Brussel en Wallonië gelden nog steeds de **federale Wetboeken** als juridische basis: het [[bronnen/wetteksten/VIII-registratierechten|Wetboek registratierechten 1939]] (KB nr. 64) en het [[bronnen/wetteksten/IX-successierechten|Wetboek successierechten 1936]] (KB nr. 308) — met regionale tariefdecreten die de tarieven bijstellen. Zie [[2.6-registratie-en-successierechten|PO 2.6]] voor de inhoudelijke materie.
+>
+> 🤖 *AI-aanvulling*
+
 ---
 
 ## 📌 Gemeentelijke en provinciale belastingreglementen

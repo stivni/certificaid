@@ -86,11 +86,25 @@ Sinds de regionalisering bezit elk gewest een **eigen fiscale administratie** vo
 
 | Gewest | Administratie | Bevoegdheden |
 |---|---|---|
-| **Vlaanderen** | **Vlabel** (Vlaamse Belastingdienst) | OV, registratierechten, successierechten, schenkingsrechten, verkeersbelasting, leegstandsheffingen |
-| **Brussel** | **Brussel Fiscaliteit** | OV, registratie- en successierechten (sinds 2018) |
-| **Wallonië** | **DGO7** (Waalse fiscaliteit) | OV, verkeersbelasting (registratie- en successierechten nog deels door FOD geïnd) |
+| **Vlaanderen** | [[#-vlaamse-belastingdienst-vlabel\|Vlabel]] | OV, registratiebelasting, erfbelasting, schenkbelasting, verkeersbelasting, leegstandsheffingen |
+| **Brussel** | **Brussel Fiscaliteit** | OV, registratie- en successierechten (overname inning sinds 2018; juridische basis blijft federaal Wb. Reg. 1939 + Wb. Succ. 1936 met Brusselse tariefdecreten) |
+| **Wallonië** | **DGO7** (Waalse fiscaliteit) | OV, verkeersbelasting (registratie- en successierechten nog door FOD Fin geïnd op basis van federaal Wb. Reg. 1939 + Wb. Succ. 1936 met Waalse tariefdecreten) |
 
 De regionale fisci passen de **gewestelijke wetgeving** toe ([[bronnen/wetteksten/IVA-vcf|VCF]] voor Vlaanderen, Brusselse Codex Fiscale Procedure, Waalse decreten). Geschillen lopen via de gewone rechtbank van eerste aanleg, fiscale kamer.
+
+## 📌 Vlaamse Belastingdienst (Vlabel)
+*Vlaamse Belastingdienst*
+
+**Vlabel** is sinds 1 januari 2015 de bevoegde administratie voor de **Vlaamse erfbelasting en registratiebelasting** — vóór die datum werd de inning verzorgd door de federale FOD Financiën. De juridische basis is de [[bronnen/wetteksten/IVA-vcf|Vlaamse Codex Fiscaliteit (VCF)]], titel 2 hoofdstuk 7 (erfbelasting) en hoofdstuk 8 (registratiebelasting). Vlabel int daarnaast onroerende voorheffing, verkeersbelasting, schenkbelasting en leegstandsheffingen.
+
+| Bevoegdheid | Inhoud |
+|---|---|
+| **Aanslag** | Erfbelasting na aangifte van nalatenschap; registratiebelasting na akteregistratie |
+| **Bezwaar** | Eerste fase fiscaal geschil: schriftelijk bezwaar bij Vlabel (termijn 3 maanden) |
+| **Doorkijkbenadering** | Fiscale kwalificatie van burgerlijke maatschap, levensverzekering en trust — sinds Vlabel-omzendbrieven 2017 |
+| **Voorafgaande beslissingen** | Mogelijkheid tot ruling bij Vlabel voor toepassing VCF |
+
+Geschillen na bezwaar gaan naar de **rechtbank van eerste aanleg, fiscale kamer**. Voor de rol van Vlabel in successie- en schenkingsplanning: zie [[2.6-registratie-en-successierechten|PO 2.6]].
 
 ---
 
