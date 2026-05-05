@@ -126,7 +126,13 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 
 ### XI — BURGERLIJK WETBOEK
 
-- ✅ [[bronnen/wetteksten/XI-oud-bw|Burgerlijk Wetboek (geconsolideerd, incl. Boek 8 Bewijs — wet 13 april 2019)]] *(B.S., 14 mei 2019)* · p. 1581
+- ✅ [[bronnen/wetteksten/XI-oud-bw|Burgerlijk Wetboek (geconsolideerd incl. Boek 8 Bewijs)]] *(bijgewerkt t.e.m. 11.12.2025)* · p. 1581
+- ✅ [[bronnen/wetteksten/XI-bw-boek1|BW Boek 1 — Algemene bepalingen]] *(wet 28 april 2022)* · 10 artikelen
+- ✅ [[bronnen/wetteksten/XI-bw-boek2|BW Boek 2 Titel 3 — Relatievermogensrecht]] *(wet 19 januari 2022)* · 80 artikelen
+- ✅ [[bronnen/wetteksten/XI-bw-boek3|BW Boek 3 — Goederen]] *(wet 4 februari 2020)* · 243 artikelen
+- ✅ [[bronnen/wetteksten/XI-bw-boek4|BW Boek 4 — Nalatenschappen, schenkingen en testamenten]] *(wet 19 januari 2022)* · 280 artikelen
+- ✅ [[bronnen/wetteksten/XI-bw-boek5|BW Boek 5 — Verbintenissen]] *(wet 28 april 2022)* · 85 artikelen
+- ✅ [[bronnen/wetteksten/XI-bw-boek9|BW Boek 9 Titel 1 — Persoonlijke zekerheden]] *(wet 5 juni 2025)* · 81 artikelen *(B.S., 14 mei 2019)* · p. 1581
 - ✅ [[bronnen/wetteksten/XI-oud-bw|Wet 21 maart 1804 Oud Burgerlijk Wetboek]] *(B.S., 3 september 1807)* · p. 1683
 ### XII — STRAFRECHT
 
