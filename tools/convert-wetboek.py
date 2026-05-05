@@ -126,6 +126,18 @@ CONFIGS = {
         'tags': '["IV.C", "2.5"]',
     },
 
+
+    'wbtw-kb1': {
+        'input': 'resources/raw/wetteksten/WBTW-KB1-voldoening.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB1-voldoening.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb1.md',
+        'mode': 'nl',
+        'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde',
+        'bijgewerkt': '2024',
+        'titel': 'BTW KB nr. 1 — Voldoening',
+        'tags': '["VI.B", "2.4"]',
+    },
     'bw-boek1': {
         'input': 'resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf',
         'output_resources': 'resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md',
