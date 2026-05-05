@@ -172,32 +172,13 @@ grep -l "  - leasing" resources/bronnen/adviezen/ | xargs grep -l "datum: 202"
 1. Lees de relevante INDEX.md — identificeer kandidaat-bronnen semantisch
 2. Grep op thema via `  - [thema]` in frontmatter, of op vrije tekst in body
 3. Lees de volledige gevonden passages voor citaat en verificatie
-4. Ga enkel online als de bron niet lokaal beschikbaar is (zie `resources/bronnen/wetteksten/INDEX.md` voor ontbrekende wetten)
+4. Ga enkel online als de bron niet lokaal beschikbaar is (beschikbaarheidsstatus: `content/bronnen/ITAA-LEX.md`)
 
 **ITAA-LEX** is geen aparte bron maar een bundeling van wetteksten en normen met paginanummers. Studeer met ITAA-LEX referenties (sectienummer + paginanummer) in de bronfiches zelf — zo oefen je ook de opzoeklogica voor het examen.
 
 **Cijferzakboekje** is een aparte examenbron met geïndexeerde bedragen en tarieven die niet in de wetteksten staan. Vermeld bij exacte bedragen de bron als "Cijferzakboekje [jaar]".
 
-| Content-pad | Wet | ITAA-LEX sectie |
-|-------------|-----|-----------------|
-| `content/bronnen/wetteksten/XVII-antiwitwaswet.md` | Antiwitwaswet 2017 (t.e.m. 24/12/2025) | XVII |
-| `content/bronnen/wetteksten/XXI-wet-itaa.md` | Wet ITAA 17/03/2019 | XXI |
-| `content/bronnen/wetteksten/XV-wvv.md` | WVV 23/03/2019 | XV |
-| `content/bronnen/wetteksten/XV-KB-wvv.md` | KB 29/04/2019 uitvoering WVV | XV (KB) |
-| `content/bronnen/wetteksten/XIII-wer/` | WER (per Boek) | XIII |
-| `content/bronnen/wetteksten/XIII-KB-wer-boekhouding.md` | KB 21/10/2018 boekhoudnormen WER | XIII (KB) |
-| `content/bronnen/wetteksten/IVA-vcf.md` | VCF (t.e.m. 31/12/2025) | IV.A |
-| `content/bronnen/wetteksten/VII-wetboek-invordering.md` | Wetboek Invordering 2019 | VII |
-| `content/bronnen/wetteksten/V-wdrt.md` | Wetboek Diverse Rechten en Taksen | V |
-| `content/bronnen/wetteksten/XI-oud-bw.md` | Oud Burgerlijk Wetboek | XI (oud) |
-| `content/bronnen/wetteksten/II-KB-wib92.md` | KB/WIB92 27/08/1993 | II (KB) |
-| `content/bronnen/wetteksten/EU-richtlijn-2013-34.md` | Richtlijn 2013/34/EU | EU |
-
-**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/bronnen/wetteksten/status.md`.
-
-**ITAA-normen lokaal beschikbaar** in `resources/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/bronnen/normen/INDEX.md` voor overzicht en download-instructies.
-
-**Alle CBN-adviezen lokaal beschikbaar** in `resources/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/raw/normen/` (normen) — adviezen hebben geen aparte raw-map. Semantische index: `resources/bronnen/adviezen/INDEX.md`.
+Beschikbaarheid per wettekst: zie `content/bronnen/ITAA-LEX.md` (✅ = lokaal doorzoekbaar, ⏳ = enkel via fysieke ITAA-LEX).
 
 **Werkwijze bij het schrijven van materie:**
 1. Lees `resources/bronnen/wetteksten/INDEX.md` — welke wet is relevant?
@@ -218,10 +199,9 @@ De bronhiërarchie verschilt per laag.
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 
 **Voor competenties (technieken):**
-1. ITAA-normen in `resources/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/bronnen/normen/INDEX.md`
-2. CBN-adviezen in `resources/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/bronnen/adviezen/INDEX.md`
-3. ISA / ISAE / ISRS (IBR-standaarden) — ISA-570 beschikbaar in `resources/bronnen/normen/`; overige normen via ibr-ire.be (⚠️ nog niet lokaal ingeladen)
-4. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
+1. ITAA-normen in `resources/bronnen/normen/` — index via `resources/bronnen/normen/INDEX.md`
+2. CBN-adviezen in `resources/bronnen/adviezen/` — index via `resources/bronnen/adviezen/INDEX.md`
+3. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
 6. Geconstrueerde kennis — altijd 🤖 labelen
 
@@ -308,7 +288,7 @@ Eenmalig werk dat daarna Read/grep-opzoekwerk vervangt. Zodra een wettekst als `
    - Artikel-headings exact: `## Art. X` — geen variaties, zodat ankers voorspelbaar zijn
    - Verwijder paginanummers, kolomkoppen en herhaalde titels
 4. Maak een site-versie aan: `content/bronnen/wetteksten/NAAM.md` (dezelfde structuur, zichtbaar op de site)
-5. Voeg een rij toe aan de tabel in §Primaire werkreferentie
+5. Voeg een entry toe aan `content/bronnen/ITAA-LEX.md` (✅ + wikilink naar het nieuwe bestand)
 
 ## Programmaonderdeel-fiches
 
