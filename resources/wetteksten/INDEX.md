@@ -37,6 +37,9 @@ Laatste update: 2026-05-05 (aangevuld 2026-05-05)
 | `WBTW.md` | Wetboek BTW (Wet 3 juli 1969) | Fisconet PDF (bijwerking 35) | Bijgewerkt t.e.m. 23.04.2020 ⚠️ |
 | `Brusselse-Codex-Fiscale-Procedure.md` | Ord. 6 maart 2019 — Brusselse Codex Fiscale Procedure | ejustice.just.fgov.be (Justel, geconsolideerd) | Bijgewerkt t.e.m. 04-06-2024 — 148 artikelen |
 | `Decr-Waals-Directe-Belastingen.md` | Decr. 6 mei 1999 — Waalse gewestelijke belastingen | ejustice.just.fgov.be (Justel, geconsolideerd) | Bijgewerkt t.e.m. 03-02-2026 — 79 artikelen |
+| `EU-Richtlijn-moeder-dochter-2011-96.md` | Richtlijn 2011/96/EU — moeder-dochterrichtlijn | EUR-Lex (officiële NL tekst, PB L 345/8) | Originele publicatie 29.12.2011 — 16 artikelen + bijlagen |
+| `EU-Richtlijn-fusie-2009-133.md` | Richtlijn 2009/133/EG — fusierichtlijn (gecodificeerd) | EUR-Lex (officiële NL tekst, PB L 310/34) | Originele publicatie 25.11.2009 — 32 artikelen + bijlagen |
+| `EU-Richtlijn-interest-royalties-2003-49.md` | Richtlijn 2003/49/EG — interest- en royalty'srichtlijn | EUR-Lex (officiële NL tekst, PB L 157/49) | Originele publicatie 26.06.2003 — 11 artikelen + bijlagen |
 
 ⚠️ WBTW-versie is 2020 — vervangen zodra actuele PDF beschikbaar is van Fisconet.
 
@@ -46,4 +49,4 @@ Laatste update: 2026-05-05 (aangevuld 2026-05-05)
 |---|---|
 | BW 2019 | ejustice.just.fgov.be (numac 2019012168) — download manueel |
 | VCF-UVB | codex.vlaanderen.be |
-| EU-richtlijnen (X) | eur-lex.europa.eu — WAF blokkeert automatische download, manueel downloaden als PDF |
+| EU-richtlijnen (X) — geconsolideerde versies | EUR-Lex geeft enkel originele publicatieversie; geconsolideerde versies beschikbaar via browser op eur-lex.europa.eu |
