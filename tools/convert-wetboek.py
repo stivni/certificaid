@@ -10,8 +10,8 @@ import subprocess, re, sys, os
 
 CONFIGS = {
     'wbtw-2026': {
-        'input': 'resources/wetteksten/raw/WBTW-2026.pdf',
-        'output_resources': 'resources/wetteksten/WBTW.md',
+        'input': 'resources/raw/wetteksten/WBTW-2026.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW.md',
         'output_content': 'content/bronnen/wetteksten/VIA-wbtw.md',
         'mode': 'nl',
         'itaa_sectie': 'VI.A',
@@ -21,8 +21,8 @@ CONFIGS = {
         'tags': '["VI.A"]',
     },
     'reg-brussel': {
-        'input': 'resources/wetteksten/raw/Registratierechten-Brussel.pdf',
-        'output_resources': 'resources/wetteksten/Registratierechten-Brussel.md',
+        'input': 'resources/raw/wetteksten/Registratierechten-Brussel.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-Brussel.md',
         'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-brussel.md',
         'mode': 'nl',
         'itaa_sectie': 'VIII',
@@ -32,8 +32,8 @@ CONFIGS = {
         'tags': '["VIII", "2.6"]',
     },
     'reg-waals': {
-        'input': 'resources/wetteksten/raw/Registratierechten-Waals.pdf',
-        'output_resources': 'resources/wetteksten/Registratierechten-Waals.md',
+        'input': 'resources/raw/wetteksten/Registratierechten-Waals.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-Waals.md',
         'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-waals.md',
         'mode': 'nl',
         'itaa_sectie': 'VIII',
@@ -43,8 +43,8 @@ CONFIGS = {
         'tags': '["VIII", "2.6"]',
     },
     'successie-brussel': {
-        'input': 'resources/wetteksten/raw/successie-brussel.pdf',
-        'output_resources': 'resources/wetteksten/Successierechten-Brussel.md',
+        'input': 'resources/raw/wetteksten/successie-brussel.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Successierechten-Brussel.md',
         'output_content': 'content/bronnen/wetteksten/IX-successierechten-brussel.md',
         'mode': 'nl',
         'itaa_sectie': 'IX',
@@ -54,8 +54,8 @@ CONFIGS = {
         'tags': '["IX", "2.6"]',
     },
     'successie-waals': {
-        'input': 'resources/wetteksten/raw/successie-waals.pdf',
-        'output_resources': 'resources/wetteksten/Successierechten-Waals.md',
+        'input': 'resources/raw/wetteksten/successie-waals.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Successierechten-Waals.md',
         'output_content': 'content/bronnen/wetteksten/IX-successierechten-waals.md',
         'mode': 'nl',
         'itaa_sectie': 'IX',
@@ -65,8 +65,8 @@ CONFIGS = {
         'tags': '["IX", "2.6"]',
     },
     'successie-federaal': {
-        'input': 'resources/wetteksten/raw/successie-federaal.pdf',
-        'output_resources': 'resources/wetteksten/Successierechten-federaal.md',
+        'input': 'resources/raw/wetteksten/successie-federaal.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Successierechten-federaal.md',
         'output_content': 'content/bronnen/wetteksten/IX-successierechten-federaal.md',
         'mode': 'bilingual',
         'start_page': 8,
@@ -78,8 +78,8 @@ CONFIGS = {
         'tags': '["IX", "2.6"]',
     },
     'vcf-update': {
-        'input': 'resources/wetteksten/raw/VCF-2026.pdf',
-        'output_resources': 'resources/wetteksten/VCF.md',
+        'input': 'resources/raw/wetteksten/VCF-2026.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/VCF.md',
         'output_content': 'content/bronnen/wetteksten/IVA-vcf.md',
         'mode': 'bilingual',
         'start_page': 30,
@@ -91,8 +91,8 @@ CONFIGS = {
         'tags': '["IV.A", "2.6"]',
     },
     'reg-federaal': {
-        'input': 'resources/wetteksten/raw/Registratierechten-federaal.pdf',
-        'output_resources': 'resources/wetteksten/Registratierechten-federaal.md',
+        'input': 'resources/raw/wetteksten/Registratierechten-federaal.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-federaal.md',
         'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-federaal.md',
         'mode': 'bilingual',
         'start_page': 8,
@@ -104,8 +104,8 @@ CONFIGS = {
         'tags': '["VIII", "2.6"]',
     },
     'brusselse-codex-fiscale-procedure': {
-        'input': 'resources/wetteksten/raw/Brusselse-Codex-Fiscale-Procedure.pdf',
-        'output_resources': 'resources/wetteksten/Brusselse-Codex-Fiscale-Procedure.md',
+        'input': 'resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md',
         'output_content': 'content/bronnen/wetteksten/IVB-brusselse-codex-fiscale-procedure.md',
         'mode': 'nl',
         'itaa_sectie': 'IV.B',
@@ -115,8 +115,8 @@ CONFIGS = {
         'tags': '["IV.B", "2.5"]',
     },
     'decr-waals-belastingen': {
-        'input': 'resources/wetteksten/raw/Decr-Waals-Directe-Belastingen.pdf',
-        'output_resources': 'resources/wetteksten/Decr-Waals-Directe-Belastingen.md',
+        'input': 'resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md',
         'output_content': 'content/bronnen/wetteksten/IVC-decr-waals-directe-belastingen.md',
         'mode': 'nl',
         'itaa_sectie': 'IV.C',
@@ -126,8 +126,8 @@ CONFIGS = {
         'tags': '["IV.C", "2.5"]',
     },
     'eu-moeder-dochter': {
-        'input': 'resources/wetteksten/raw/EU-Richtlijn-moeder-dochter-2011-96.pdf',
-        'output_resources': 'resources/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
+        'input': 'resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-moeder-dochter.md',
         'mode': 'eu_richtlijn',
         'itaa_sectie': 'X',
@@ -137,8 +137,8 @@ CONFIGS = {
         'tags': '["X", "2.8"]',
     },
     'eu-fusie': {
-        'input': 'resources/wetteksten/raw/EU-Richtlijn-fusie-2009-133.pdf',
-        'output_resources': 'resources/wetteksten/EU-Richtlijn-fusie-2009-133.md',
+        'input': 'resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-fusie.md',
         'mode': 'eu_richtlijn',
         'itaa_sectie': 'X',
@@ -148,8 +148,8 @@ CONFIGS = {
         'tags': '["X", "2.8"]',
     },
     'eu-interest-royalties': {
-        'input': 'resources/wetteksten/raw/EU-Richtlijn-interest-royalties-2003-49.pdf',
-        'output_resources': 'resources/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md',
+        'input': 'resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-interest-royalties.md',
         'mode': 'eu_richtlijn',
         'itaa_sectie': 'X',

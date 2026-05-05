@@ -135,9 +135,9 @@ Bronnen staan in twee plaatsen:
 
 | Index | Inhoud | Gebruik |
 |---|---|---|
-| `resources/normen/INDEX.md` | ITAA-normen: naam, datum, thema's; ook welke nog achter auth zitten | Welke norm regelt procedure X? |
-| `resources/adviezen/INDEX.md` | Alle CBN-adviezen: nummer, datum, thema's per advies | Welk advies is relevant voor onderwerp X? |
-| `resources/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
+| `resources/bronnen/normen/INDEX.md` | ITAA-normen: naam, datum, thema's; ook welke nog achter auth zitten | Welke norm regelt procedure X? |
+| `resources/bronnen/adviezen/INDEX.md` | Alle CBN-adviezen: nummer, datum, thema's per advies | Welk advies is relevant voor onderwerp X? |
+| `resources/bronnen/wetteksten/INDEX.md` | Alle lokale wetteksten met thema's | Welke wet/KB behandelt onderwerp X? |
 | `resources/voorbeeldexamens/INDEX.md` | Per examen: POs, vraagtypen, thema's | Welk examen bevraagt PO X / concept Y? |
 
 > **⚠️ Nummerverschuiving oude examens**: de voorbeeldexamens van vóór 2022 gebruiken de _oude_ PO-nummering (zonder PO 2.1 Algemene beginselen). Vertaaltabel: oud 2.1 PB = nieuw 2.2 · oud 2.2 VennB = nieuw 2.3 · oud 2.3 BTW = nieuw 2.4 · oud 2.4 Registratie = nieuw 2.5 · oud 2.6 Europees = nieuw 2.8. Bij het toewijzen van examenthema's: controleer of een vraag gelabeld als oud 2.2 (VennB) of oud 2.3 (BTW) niet eerder thuishoort bij **nieuw 2.1 Algemene beginselen** — dat PO bestond niet in de oude examens maar kan inhoudelijk gedekt zijn door die vragen.
@@ -145,11 +145,11 @@ Bronnen staan in twee plaatsen:
 **ITAA-normen doorzoeken** — elk norm-bestand heeft YAML-frontmatter met `naam`, `datum`, `themas` (lijst):
 ```bash
 # Op thema:
-grep -rl "  - antiwitwas" content/bronnen/normen/
-grep -rl "  - controle" content/bronnen/normen/
+grep -rl "" content/bronnen/normen/
+grep -rl "" content/bronnen/normen/
 
 # Vrije tekst:
-grep -rl "opdrachtbrief" content/bronnen/normen/
+grep -rl "" content/bronnen/normen/
 ```
 
 **CBN-adviezen doorzoeken** — elk advies heeft YAML-frontmatter met `nummer`, `datum`, `themas` (lijst):
@@ -172,7 +172,7 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 1. Lees de relevante INDEX.md — identificeer kandidaat-bronnen semantisch
 2. Grep op thema via `  - [thema]` in frontmatter, of op vrije tekst in body
 3. Lees de volledige gevonden passages voor citaat en verificatie
-4. Ga enkel online als de bron niet lokaal beschikbaar is (zie `resources/wetteksten/INDEX.md` voor ontbrekende wetten)
+4. Ga enkel online als de bron niet lokaal beschikbaar is (zie `resources/bronnen/wetteksten/INDEX.md` voor ontbrekende wetten)
 
 **ITAA-LEX** is geen aparte bron maar een bundeling van wetteksten en normen met paginanummers. Studeer met ITAA-LEX referenties (sectienummer + paginanummer) in de bronfiches zelf — zo oefen je ook de opzoeklogica voor het examen.
 
@@ -193,15 +193,15 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 | `content/bronnen/wetteksten/II-KB-wib92.md` | KB/WIB92 27/08/1993 | II (KB) |
 | `content/bronnen/wetteksten/EU-richtlijn-2013-34.md` | Richtlijn 2013/34/EU | EU |
 
-**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/wetteksten/status.md`.
+**Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/bronnen/wetteksten/status.md`.
 
-**ITAA-normen lokaal beschikbaar** in `content/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/normen/INDEX.md` voor overzicht en download-instructies.
+**ITAA-normen lokaal beschikbaar** in `content/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/bronnen/normen/INDEX.md` voor overzicht en download-instructies.
 
-**Alle CBN-adviezen lokaal beschikbaar** in `content/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/adviezen/raw/`. Semantische index: `resources/adviezen/INDEX.md`.
+**Alle CBN-adviezen lokaal beschikbaar** in `content/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/raw/normen/` (normen) — adviezen hebben geen aparte raw-map. Semantische index: `resources/bronnen/adviezen/INDEX.md`.
 
 **Werkwijze bij het schrijven van materie:**
-1. Lees `resources/wetteksten/INDEX.md` — welke wet is relevant?
-2. Lees `resources/adviezen/INDEX.md` — welk CBN-advies behandelt dit onderwerp?
+1. Lees `resources/bronnen/wetteksten/INDEX.md` — welke wet is relevant?
+2. Lees `resources/bronnen/adviezen/INDEX.md` — welk CBN-advies behandelt dit onderwerp?
 3. Grep in de gevonden bestanden op artikelnummer of sleutelwoord
 4. Citeer inline via wikilink naar `content/bronnen/wetteksten/` of `content/bronnen/adviezen/`
 5. Ga enkel online als de bron niet lokaal beschikbaar is
@@ -211,15 +211,15 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 De bronhiërarchie verschilt per laag.
 
 **Voor materie (kennis):**
-1. Wetteksten in `content/bronnen/wetteksten/` — gecoördineerde versies (dezelfde tekst als in `resources/wetteksten/`, nu met ITAA-LEX sectienummers als bestandsnaam)
+1. Wetteksten in `content/bronnen/wetteksten/` — gecoördineerde versies (dezelfde tekst als in resources/bronnen/wetteksten/, nu met ITAA-LEX sectienummers als bestandsnaam)
 2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
 3. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
 4. CBN-adviezen in `content/bronnen/adviezen/` — volledig lokaal
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 
 **Voor competenties (technieken):**
-1. ITAA-normen in `content/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/normen/INDEX.md`
-2. CBN-adviezen in `content/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/adviezen/INDEX.md`
+1. ITAA-normen in `content/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/bronnen/normen/INDEX.md`
+2. CBN-adviezen in `content/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/bronnen/adviezen/INDEX.md`
 3. ISA / ISAE / ISRS (IBR-standaarden) — ISA-570 beschikbaar in `content/bronnen/normen/`; overige normen via ibr-ire.be (⚠️ nog niet lokaal ingeladen)
 4. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
@@ -232,8 +232,8 @@ De bronhiërarchie verschilt per laag.
 
 **Werkwijze bij het schrijven van een competentie:**
 1. Zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft — dat is dan de primaire bron, geen constructie
-2. Lees `resources/normen/INDEX.md` — grep dan in `content/bronnen/normen/`
-3. Lees `resources/adviezen/INDEX.md` — grep dan in `content/bronnen/adviezen/`
+2. Lees `resources/bronnen/normen/INDEX.md` — grep dan in `content/bronnen/normen/`
+3. Lees `resources/bronnen/adviezen/INDEX.md` — grep dan in `content/bronnen/adviezen/`
 4. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
 5. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
 
@@ -294,16 +294,16 @@ De bronhiërarchie zegt welke bron zwaarder weegt. Als twee bronnen elkaar tegen
 
 Eenmalig werk dat daarna Read/grep-opzoekwerk vervangt. Zodra een wettekst als `.md` beschikbaar is, gebruik je **nooit meer pdftotext** maar altijd **Read** of **grep** op het `.md`-bestand.
 
-**Wanneer**: als een wettekst ontbreekt in `resources/wetteksten/` of slechts als placeholder bestaat.
+**Wanneer**: als een wettekst ontbreekt in resources/bronnen/wetteksten/ of slechts als placeholder bestaat.
 
 **Proces:**
 1. Download de gecoördineerde versie als PDF:
    - Belgische wetgeving → [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
    - Fiscale teksten (WIB92, WBTW) → [fisconet.be](http://fisconet.be)
-   - Bewaar als `resources/wetteksten/raw/NAAM.pdf`
-2. Converteer naar tekst: `pdftotext resources/wetteksten/raw/NAAM.pdf - > /tmp/wet.txt`
+   - Bewaar als `resources/raw/wetteksten/NAAM.pdf`
+2. Converteer naar tekst: `pdftotext resources/raw/wetteksten/NAAM.pdf - > /tmp/wet.txt`
 3. Structureer als Markdown:
-   - Bewaar als `resources/wetteksten/NAAM.md`
+   - Bewaar als `resources/bronnen/wetteksten/NAAM.md`
    - Heading: `# Korte naam (gecoördineerde versie datum)`
    - Artikel-headings exact: `## Art. X` — geen variaties, zodat ankers voorspelbaar zijn
    - Verwijder paginanummers, kolomkoppen en herhaalde titels
@@ -473,7 +473,7 @@ Mogelijke antwoorden:
 
 Niet elke stap heeft een expliciete grondslag nodig — voeg hem toe wanneer de bron niet evident is of wanneer het voor de student relevant is te weten of de stap wettelijk verplicht of analytisch conventioneel is.
 
-**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in `resources/normen/`; voor CBN-adviezen via `resources/adviezen/INDEX.md` → `content/bronnen/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
+**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in resources/bronnen/normen/; voor CBN-adviezen via `resources/bronnen/adviezen/INDEX.md` → `content/bronnen/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
 
 **Elke stap begint met een "waarom"-zin**: de eerste zin na het `📥/📤`-blok beantwoordt *waarom* deze stap noodzakelijk is — niet wat je doet, maar waarom je het doet. Zonder die zin is de stap een procedure-instructie zonder grond; met die zin begrijpt de student de logica en kan ze hem hertoepassen in nieuwe situaties.
 
@@ -1121,7 +1121,7 @@ certificaid/
 │       │   ├── XIII-wer/    # WER gesplitst per Boek
 │       │   └── ...          # Overige secties (✅ beschikbaar of ⏳ placeholder)
 │       ├── normen/          # ITAA-normen als gestructureerde markdown
-│       └── adviezen/        # CBN-adviezen (samenvatting; raw PDFs in resources/adviezen/raw/)
+│       └── adviezen/        # CBN-adviezen (samenvatting; raw PDFs in resources/raw/normen/)
 ├── tools/
 └── resources/
     ├── ITAA_Lex_Index.xlsx      # Index van alle ITAA-LEX secties (editie 11 juli 2025)
