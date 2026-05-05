@@ -8,12 +8,12 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 ---
 
 ### BOEK XVIII. - [1 Maatregelen voor crisisbeheer]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
 #### TITEL 1. - [1 Reglementering in crisistijd]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
@@ -37,12 +37,12 @@ voornoemde omstandigheden of gebeurtenissen vereisen.
 § 2. Het ministerieel besluit genomen op basis van voorgaande paragraaf, wordt zo spoedig mogelijk bevestigd
 door een koninklijk besluit, vastgesteld na overleg in de Ministerraad.
 Indien dit besluit niet wordt bevestigd door de Koning, wordt het geacht nooit uitwerking te hebben gehad.]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
 #### TITEL 2. - [1 Opeising in crisistijd]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
@@ -73,12 +73,12 @@ Indien dit besluit niet wordt bevestigd door de Koning, wordt het geacht nooit u
 § 5. De in deze titel vermelde opeisingen zijn niet onderworpen aan de wet van 5 maart 1935 betreffende de
 burgers opgeroepen bij vrijwillige verbintenis of bij opeising, om de werking van de openbare diensten in
 oorlogstijd te verzekeren, noch aan de op grond van deze wet genomen reglementen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
 #### TITEL 3. - [1 Gemeenschappelijke bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
@@ -88,7 +88,7 @@ oorlogstijd te verzekeren, noch aan de op grond van deze wet genomen reglementen
 XVIII.1 en artikel XVIII.2 opgelegde verplichtingen of betreffende de tenuitvoerlegging van deze verplichtingen.
 De in artikel XV.2 bedoelde ambtenaren kunnen belast worden met de uitvoering van de op grond van deze Titel
 genomen beslissingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
@@ -98,22 +98,22 @@ genomen beslissingen.]1
 weigeren naar best vermogen en onder voorwaarden conform de handelsgebruiken aan de vraag van de
 verdelers of verbruikers naar producten of dienstverstrekkingen te beantwoorden, als die vraag niet abnormaal
 voorkomt. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
 
 ### Boek XIX. [1 - Schulden van de consument]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 #### TITEL 1. [1 - Betaling van schulden door consumenten aan ondernemingen]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 - Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -121,12 +121,12 @@ voorkomt. ]1
 
 [1 Deze titel is van toepassing op iedere betalingsachterstand van een schuld van een consument
 aan een onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 2. [1 - Betalingsachterstand]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -164,7 +164,7 @@ Een kmo is elke onderneming die, op het moment van de toepassing van dit artikel
 bedoeld in artikel 1:24, § 1, van het Wetboek van vennootschappen en verenigingen.
 § 5. De bewijslast betreffende de naleving van de verplichtingen bedoeld in dit artikel ligt bij de onderneming.
 § 6. Is verboden en nietig, elk beding dat vrijstelt van de voorafgaande vormvereisten bepaald in dit artikel.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -172,12 +172,12 @@ bedoeld in artikel 1:24, § 1, van het Wetboek van vennootschappen en vereniging
 
 [1 De onderneming verstrekt onverwijld, op vraag van de consument, op een duurzame drager, alle
 bewijsstukken van de schuld en alle nodige informatie over hoe een betwisting van de schuld in te dienen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 3. [1 - Schadebedingen]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -202,17 +202,17 @@ anderzijds alle kosten van de minnelijke invordering van de onbetaalde schuld te
 Is verboden en wordt voor niet geschreven gehouden, elk schadebeding dat bedragen bevat die niet bepaald
 zijn in het eerste lid.
 Dit artikel geldt onverminderd artikel VI.83, 24°.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 #### TITEL 2. [1 - Minnelijke invordering van schulden van de consument]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 1, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 - Minnelijke invordering van schulden van de consument]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -220,17 +220,17 @@ Dit artikel geldt onverminderd artikel VI.83, 24°.]1
 
 [1 Onverminderd de artikelen VI.92 tot VI.103 is de minnelijke invordering van schulden door een
 onderneming bij een persoon die niet de schuldenaar is, verboden.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 2. [1 - Activiteit van minnelijke invordering van schulden]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 Voorafgaande inschrijving]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -313,13 +313,13 @@ De Koning bepaalt de bijkomende voorwaarden en bijkomende nadere regels van de v
 bij de FOD Economie.
 De Koning kan eveneens de bijkomende voorwaarden en bijkomende nadere regels van de voorafgaande
 inschrijving van ondernemingen gevestigd in een derde land bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 (2)<W 2024-05-03/21, art. 42, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 2. [1 Modaliteiten van uitoefening van de activiteit van minnelijke invordering van schulden]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -354,7 +354,7 @@ verkrijgen;
 verschuldigde bedrag in één keer te betalen;
 9° de vermelding dat er, bij gebrek aan een reactie binnen de termijn bepaald in artikel XIX.9, § 1, kan worden
 overgegaan tot andere maatregelen of handelingen van minnelijke invordering.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 (2)<W 2024-05-03/21, art. 43, 135; Inwerkingtreding : 10-06-2024>
 
@@ -370,7 +370,7 @@ kalenderdagen aan op de kalenderdag die volgt op de dag waarop de herinnering we
 consument.
 Bij niet-betaling binnen de termijn bedoeld in het eerste lid, stuurt de schuldinvorderaar de ingebrekestelling
 bedoeld in artikel XIX.7, § 2.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -408,7 +408,7 @@ invordering bedoeld in de paragrafen 1 tot 4, mag de opschorting in totaal een t
 kalenderdagen niet overschrijden, die aanvangt op het einde van de in paragraaf 1 bepaalde termijn.
 § 6. De Koning kan de nadere regels vastleggen wat betreft de mededeling van de gegevens en de beslissingen
 bedoeld in de paragrafen 1 tot 4.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -430,7 +430,7 @@ tekst, in een afzonderlijk kader, in vetgedrukte letters en minstens in een grot
 § 2. Bij iedere volledige of gedeeltelijke betaling van een schuld tijdens een huisbezoek wordt een
 ontvangstbewijs afgegeven, met vermelding van het ontvangen bedrag en de schuld in kwestie.
 § 3. Er mag geen huisbezoek bij de consument worden uitgevoerd tussen tweeëntwintig uur en acht uur.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -439,7 +439,7 @@ ontvangstbewijs afgegeven, met vermelding van het ontvangen bedrag en de schuld 
 [1 De schuldinvorderaar bevestigt onverwijld op een duurzame gegevensdrager alle
 betalingsmodaliteiten die ze met de consument heeft gemaakt.
 Er mag geen telefonische oproep aan de consument worden verricht tussen tweeëntwintig uur en acht uur.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -449,7 +449,7 @@ Er mag geen telefonische oproep aan de consument worden verricht tussen tweeënt
 opgemaakt, stuurt de schuldinvorderaar ten minste eenmaal per jaar een overzicht van de reeds betaalde
 bedragen en het nog verschuldigde saldo op een duurzame drager aan de consument.
 Wanneer de schuld is uitgedoofd, brengt hij daar de consument onmiddellijk van op de hoogte.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -457,12 +457,12 @@ Wanneer de schuld is uitgedoofd, brengt hij daar de consument onmiddellijk van o
 
 [1 Het is de schuldinvorderaar verboden om van de consument enige vergoeding, bezoldiging of
 kosten te eisen voor zijn tussenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 3. [1 Burgerlijke sancties]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -476,7 +476,7 @@ Indien de minnelijke invordering van een schuld een volledig of gedeeltelijk onv
 bijzonder door toepassing van artikel XIX.13, kan de rechter, onverminderd de gemeenrechtelijke sancties,
 bevelen dat diegene die de betaling heeft ontvangen verplicht is om ze terug te betalen aan de consument,
 vermeerderd met de verwijlinteresten vanaf de datum van betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -486,22 +486,22 @@ vermeerderd met de verwijlinteresten vanaf de datum van betaling.]1
 artikelen XIX.2, XIX.4 en XIX.5 en onverminderd de gemeenrechtelijke sancties, is de consument van rechtswege
 vrijgesteld van de betaling van het schadebeding.
 Het eerste lid is niet van toepassing op artikel XIX.2, § 3, 1° tot 4°.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
 
 #### TITEL 3. [1 - De minnelijke schuldbemiddeling]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 1. [1 - Algemene beginselen]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 1. [1 - Definitie en doelstellingen van de procedure]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -511,7 +511,7 @@ Het eerste lid is niet van toepassing op artikel XIX.2, § 3, 1° tot 4°.]1
 van het sluiten van een kredietovereenkomst bedoeld in artikel I.9, 39°, die tot doel heeft preventieve en/of
 curatieve bijstand te verlenen aan elke schuldenaar die financiële moeilijkheden ondervindt of niet in staat is zijn
 opeisbare of invorderbare schulden te betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -522,19 +522,19 @@ financiële moeilijkheden van de schuldenaar en/of voor zijn problemen van overm
 doel om de schuldenaar te helpen met diens verplichtingen ten aanzien van de schuldeisers, voor zover dit de
 schuldenaar en zijn gezin in staat stelt om een levensstandaard te behouden in overeenstemming met de
 menselijke waardigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ## Art. XIX.18
 
 [1 De minnelijke schuldbemiddeling kan slechts worden ingeleid op verzoek van de schuldenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 2. [1 - Toepassingsgebied]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -544,12 +544,12 @@ menselijke waardigheid.]1
 natuurlijke persoon is.
 Deze titel verwijst in het bijzonder naar elke minnelijke schuldbemiddeling voor een consument bedoeld in de
 artikelen XIX.9, § 3, en XIX.10, § 1, eerste lid, 3°.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 2. [1 - De minnelijke schuldbemiddelaar]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -568,7 +568,7 @@ aan de specifieke opleidingsvoorwaarde bedoeld in paragraaf 2.
 § 2. De personen bedoeld in paragraaf 1, eerste lid, 1°, leveren het bewijs van een bijzondere opleiding in
 minnelijke schuldbemiddeling en leggen waarborgen voor bekwaamheid inzake overmatige schuldenlast voor.
 De Koning stelt de voorwaarden vast waaraan de opleiding en de vereiste bekwaamheid moeten voldoen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -577,7 +577,7 @@ De Koning stelt de voorwaarden vast waaraan de opleiding en de vereiste bekwaamh
 [1 Hoewel hij tussenkomt op verzoek van de schuldenaar, is de minnelijke schuldbemiddelaar een
 bemiddelaar tussen de schuldenaar en zijn schuldeisers.
 Hij vervult zijn rol met gepaste zorgvuldigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -589,7 +589,7 @@ De minnelijke schuldbemiddelaar mag de minnelijke schuldbemiddeling enkel aanvaa
 hij en de schuldenaar uitdrukkelijk verklaren dat het belangenconflict zijn onafhankelijkheid niet in het gedrang
 brengt.
 Deze verplichting blijft geldig gedurende het volledige traject van de minnelijke schuldbemiddeling.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -599,7 +599,7 @@ Deze verplichting blijft geldig gedurende het volledige traject van de minnelijk
 Hij mag de informatie die hij ontvangt in het kader van de uitoefening van zijn functie niet delen met derden.
 Hij deelt met de schuldeisers alleen de informatie die strikt noodzakelijk is voor de uitoefening van zijn functie,
 en mits voorafgaande toestemming van de schuldenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -609,17 +609,17 @@ en mits voorafgaande toestemming van de schuldenaar.]1
 elk communicatiemiddel contact opnemen met alle personen en instellingen om informatie te verzamelen over de
 schulden van de schuldenaar, die nodig is voor het opstellen van het verzoek tot minnelijke schuldbemiddeling en
 de opvolging ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 3. [1 - De procedure en de verplichtingen van de minnelijke schuldbemiddelaar]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 1. [1 - De aanvang van de minnelijke schuldbemiddeling]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -651,7 +651,7 @@ In alle andere gevallen waarin de toestemming van de schuldenaar vereist is krac
 titel, rust de bewijslast van de toestemming van de schuldenaar op de minnelijke schuldbemiddelaar.
 § 3. De Koning kan een modelovereenkomst bepalen en vastleggen welke bepalingen ervan van dwingend dan
 wel van aanvullend recht zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -664,12 +664,12 @@ Tijdens de eerste gesprekken met de schuldenaar, en na te hebben beoordeeld of e
 schuldbemiddeling relevant is, informeert de minnelijke schuldbemiddelaar de schuldenaar over het bestaan van
 alternatieve oplossingen. Hij legt de voorwaarden uit voor de uitvoering ervan en hun praktische gevolgen voor
 zijn rechten en verplichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 2. [1 - Tijdens de minnelijke schuldbemiddeling]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -681,12 +681,12 @@ Daartoe voorziet de minnelijke schuldbemiddelaar in zoveel gesprekken met de sch
 Tijdens de volledige duur van zijn opdracht presenteert de minnelijke schuldbemiddelaar alle mogelijkheden en
 alternatieven die de schuldenaar ter beschikking staan en hun gevolgen, zodat de schuldenaar weloverwogen
 beslissingen kan nemen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 3. [1 - Analyse van de situatie van de schuldenaar en inventaris van schulden]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -703,7 +703,7 @@ het budget.
 De minnelijke schuldbemiddelaar zorgt ervoor dat de schuldenaar op de hoogte is van de sociale rechten
 waarvoor hij in aanmerking komt. Hij informeert en adviseert de schuldenaar over de stappen die hij in
 voorkomend geval moet ondernemen om van deze rechten te kunnen genieten.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -726,12 +726,12 @@ schuldbemiddelaar de schuldenaar over alle verplichtingen die hieruit voortvloei
 § 4. Als de schuldeiser de betwisting niet aanvaardt, informeert de minnelijke schuldbemiddelaar de
 schuldenaar over de minnelijke en/of gerechtelijke stappen die nog kunnen worden ondernomen.
 § 5. In geen geval vertegenwoordigt de minnelijke schuldbemiddelaar de schuldenaar in de rechtbank.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 4. [1 - Verwerking van persoonsgegevens]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -771,12 +771,12 @@ De persoonsgegevens worden niet langer dan nodig bewaard voor de doeleinden waar
 verwerkt.
 Behoudens andersluidende wettelijke bepaling, mogen de persoonsgegevens niet langer bewaard worden dan
 gedurende een periode van tien jaar vanaf het einde van de minnelijke schuldbemiddeling.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 5. [1 - Onderhandelingen met schuldeisers]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -784,7 +784,7 @@ gedurende een periode van tien jaar vanaf het einde van de minnelijke schuldbemi
 
 [1 In zijn relaties met schuldeisers handelt de minnelijke schuldbemiddelaar altijd in overleg met en
 met instemming van de schuldenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -793,7 +793,7 @@ met instemming van de schuldenaar.]1
 [1 De minnelijke schuldbemiddelaar ziet erop toe dat realistische voorstellen voor aflossing worden
 opgesteld na een zorgvuldig en nauwgezet onderzoek van de situatie van de schuldenaar en steeds met diens
 instemming.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -802,12 +802,12 @@ instemming.]1
 [1 De schuldeisers zijn vrij om de aan hen voorgelegde aflossingsvoorstellen en overeenkomsten te
 aanvaarden of te weigeren. Ze kunnen ook tegenvoorstellen doen.
 De schuldeisers zijn vrij om te weigeren deel te nemen aan een minnelijke schuldbemiddeling.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 6. [1 - Uitvoering en controle van overeenkomsten]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -816,7 +816,7 @@ De schuldeisers zijn vrij om te weigeren deel te nemen aan een minnelijke schuld
 [1 Het is aan de schuldenaar om zelf de betalingen aan de schuldeisers te doen.
 Op verzoek van de schuldenaar kan de minnelijke schuldbemiddelaar hem bijstaan bij het uitvoeren van de
 betalingen bepaald in de overeenkomsten.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -827,7 +827,7 @@ situatie en de uitvoering van de aangegane overeenkomsten op te volgen.
 In geval van wijziging van de budgetsituatie van de schuldenaar stelt de minnelijke schuldbemiddelaar, in
 voorkomend geval, in overleg met de schuldenaar en met diens instemming, eventuele wijzigingen van de
 oorspronkelijk overeengekomen aflossingsvoorwaarden voor.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -835,12 +835,12 @@ oorspronkelijk overeengekomen aflossingsvoorwaarden voor.]1
 
 [1 De schuldenaar en de schuldeiser behouden elk voor zich het recht om eenzijdig, zonder opgave
 van redenen, de overeenkomst op te zeggen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 7. [1 - Mislukking van de onderhandelingen en alternatieve oplossingen]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -851,7 +851,7 @@ oordeel is dat de minnelijke schuldbemiddeling waarschijnlijk niet of niet lange
 financiële situatie van de schuldenaar in menswaardige levensomstandigheden, stelt hij de schuldenaar in kennis
 van de alternatieve oplossingen voor de minnelijke schuldbemiddeling en legt hij hem de voorwaarden voor de
 toepassing ervan en de concrete gevolgen ervan voor zijn rechten en verplichtingen uit.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -859,12 +859,12 @@ toepassing ervan en de concrete gevolgen ervan voor zijn rechten en verplichting
 
 [1 De minnelijke schuldbemiddelaar is niet onderworpen aan een resultaatsverbintenis wat betreft
 het welslagen van de minnelijke schuldbemiddeling.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 4. [1 - Verplichtingen van de schuldenaar]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -882,12 +882,12 @@ een rechtstreekse of onrechtstreekse invloed zou kunnen hebben op de uitvoering 
 terugbetalingsovereenkomsten of de voortzetting van de minnelijke schuldbemiddeling;
 4° zelf geen stappen te ondernemen ten aanzien van zijn schuldeisers zonder voorafgaand overleg met de
 minnelijke schuldbemiddelaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 5. [1 - Beëindiging van minnelijke schuld- bemiddeling]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -895,7 +895,7 @@ minnelijke schuldbemiddelaar.]1
 
 [1 De schuldenaar kan de minnelijke schuldbemiddeling op elk ogenblik beëindigen, zonder opgave
 van reden.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -921,7 +921,7 @@ Hij neemt een opzegtermijn van ten minste twee maanden in acht.
 schuldbemiddeling beëindigen als ze door de verhuizing van de schuldenaar niet langer territoriaal bevoegd zijn.
 De openbare instellingen brengen de schuldenaar onverwijld hiervan op een duurzame gegevensdrager op de
 hoogte.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -929,12 +929,12 @@ hoogte.]1
 
 [1 De minnelijke schuldbemiddelaar stelt de schuldeisers op een duurzame gegevensdrager en ten
 laatste voor het einde van zijn opdracht, in kennis van het einde van zijn opdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
 ##### HOOFDSTUK 6. [1 - Kosten van minnelijke schuldbemiddeling]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -943,7 +943,7 @@ laatste voor het einde van zijn opdracht, in kennis van het einde van zijn opdra
 [1 Wanneer de minnelijke schuldbemiddeling wordt uitgevoerd door erkende openbare of
 particuliere instellingen, mogen deze geen andere vergoedingen vragen dan die welke zijn opgenomen in een
 exhaustieve lijst van de gewestelijke autoriteit die de voorwaarden voor hun erkenning vaststelt.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -954,5 +954,5 @@ vaststellen.
 Zij brengen de schuldenaar duidelijk op de hoogte van de door hen aangerekende honoraria en kosten,
 voordat de schuldenaar is gebonden door de in artikel XIX.25, § 1, bedoelde overeenkomst.
 Zij informeren de schuldenaar ook over het bestaan van goedkope of zelfs gratis alternatieven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>

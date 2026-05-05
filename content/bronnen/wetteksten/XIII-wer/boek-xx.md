@@ -8,17 +8,17 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 ---
 
 ### BOEK XX. [1 - Insolventie van de ondernemingen]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 #### Titel 1. [1 - Algemene beginselen die van toepassing zijn voor boek XX]1
-----------
+
 (1)<W 2023-06-07/07, art. 4, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 - Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -44,7 +44,7 @@ gedelegeerd rechter, de rechter-commissaris, hetzij op eigen initiatief hetzij o
 insolventieprocedure, het advies vragen van de Ordes of Instituten waarvan de beroepsbeoefenaar deel
 uitmaakt. Dit advies wordt gegeven worden binnen een termijn van acht kalenderdagen vanaf de ontvangst van
 het verzoek tot advies.]1
-----------
+
 (1)<W 2018-04-15/14, art. 215, 059; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-07-30/47, art. 49, 065; Inwerkingtreding : 15-09-2018>
 (3)<W 2019-05-02/25, art. 121, 074; Inwerkingtreding : 31-05-2019>
@@ -53,7 +53,7 @@ het verzoek tot advies.]1
 
 
 ##### HOOFDSTUK 2. [1 - Procedureregels]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -73,7 +73,7 @@ natuurlijke persoon en aan zijn gezin, van de huisraad en de voorwerpen nodig vo
 inzake de toekenning van levensonderhoud aan de gefailleerde natuurlijke persoon en aan zijn gezin;
 6° de vonnissen waarbij uitspraak wordt gedaan over het beroep tegen de beschikkingen die de rechter-
 commissaris of gedelegeerd rechter heeft gegeven bij de vervulling van zijn opdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-03-21/02, art. 2, 097; Inwerkingtreding : 26-03-2021>
 (3)<W 2023-06-07/07, art. 6, 122; Inwerkingtreding : 01-09-2023>
@@ -86,7 +86,7 @@ termijnen te lopen, telkens dit boek bepaalt dat gegevens of stukken geplaatst w
 dag volgend op deze van de plaatsing.
 De artikelen 50, tweede lid, 55 en 56 van het Gerechtelijk Wetboek zijn niet van toepassing op de vorderingen
 en betekeningen bedoeld in dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -97,7 +97,7 @@ verwerft degene die, op zijn initiatief of op dat van de rechtbank, is gehoord o
 opmerkingen te laten gelden, iets te vorderen of middelen naar voor te brengen, door dit feit alleen geen
 hoedanigheid van partij.
 Elke vordering inzake faillissement wordt steeds mede gericht tegen de curator.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -107,7 +107,7 @@ Elke vordering inzake faillissement wordt steeds mede gericht tegen de curator.]
 boek bedoelde eenzijdige verzoekschriften worden ondertekend door de schuldenaar alleen of door zijn advocaat
 en worden de daarop betrekking hebbende beslissingen van de rechtbank uitgesproken in openbare
 terechtzitting.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -121,7 +121,7 @@ genomen en onverminderd de toepassing door de rechtbank van artikel 877 van het 
 de gedelegeerd rechter of de rechter-commissaris op vordering van iedere belanghebbende bevelen,
 overeenkomstig de artikelen 877 en volgende van het Gerechtelijk Wetboek, dat het stuk of een afschrift ervan
 bij een insolventiedossier wordt gevoegd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2019-04-13/28, art. 39, 090; Inwerkingtreding : 01-11-2020>
 
@@ -136,7 +136,7 @@ aanleiding is, [2 artikel XX.1, § 3]2, toe.
 De rechter kan ambtshalve in de rechtsplegingen in dit boek bedoeld de rechtsdag bepalen en is daartoe niet
 gebonden door akkoorden die de partijen hebben gesloten.
 Tegen deze maatregel staat geen rechtsmiddel open.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 216, 059; Inwerkingtreding : 01-05-2018>
 
@@ -152,7 +152,7 @@ Het omzetten van op materiële drager opgemaakte of neergelegde stukken naar een
 wordt verricht door opname in het elektronisch dossier via elektronische lezing en bevestiging van de
 conformiteit met het elektronisch gelezen document door de griffier of in voorkomend geval door de curator.
 De griffier levert, zo nodig, een papieren afschrift van de elektronische gegevens af.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 7, 122; Inwerkingtreding : 01-09-2023>
 
@@ -170,7 +170,7 @@ De datum van neerlegging, kennisgeving of mededeling wordt vastgesteld door het 
 waarop de akte bij de bestemmeling toekomt.
 De eindbestemmeling levert een ontvangstbericht af, zoniet vangt de termijn niet aan wat hem betreft.]2
 De eindbestemmeling levert een ontvangstbericht af.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 8, 122; Inwerkingtreding : 01-09-2023>
 
@@ -179,7 +179,7 @@ De eindbestemmeling levert een ontvangstbericht af.]1
 
 [1 Onverminderd elke kennisgeving of betekening die elders is gedaan, gebeuren de
 bekendmakingen bevolen krachtens dit boek in het Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -188,7 +188,7 @@ bekendmakingen bevolen krachtens dit boek in het Belgisch Staatsblad.]1
 [1 Waar dit boek voorschrijft dat handelingen schriftelijk geschieden, wordt hieraan voldaan indien
 het stuk is neergelegd door een elektronisch geauthentiseerd persoon via het register en neergelegd met een
 elektronische handtekening.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -197,7 +197,7 @@ elektronische handtekening.]1
 [1 Wanneer de bepalingen van dit boek voorzien in een verslag van de rechter-commissaris of van
 de gedelegeerd rechter, kan het verslag ook schriftelijk worden opgesteld, op voorwaarde dat het uiterlijk twee
 werkdagen voor de voor het verslag vastgestelde datum in het register neergelegd wordt.]1
-----------
+
 (1)<W 2023-06-07/07, art. 9, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -223,7 +223,7 @@ aangebracht.
 § 4. Paragraaf 1 is van toepassing op de procedure bedoeld in artikel XX.32. De rechtbank die de beslissing tot
 ontneming van het beheer heeft genomen, is uitsluitend bevoegd om het faillissement van de schuldenaar uit te
 spreken gedurende de termijn bepaald in artikel XX.32, § 5, vierde lid.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 10, 122; Inwerkingtreding : 01-09-2023>
 
@@ -234,7 +234,7 @@ spreken gedurende de termijn bepaald in artikel XX.32, § 5, vierde lid.]1
 onderneming is bevoegd om kennis te nemen van insolventieprocedures betreffende een met deze onderneming
 verbonden onderneming. Zij kan een gemeenschappelijke insolventiefunctionaris aanstellen voor alle
 procedures.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 11, 122; Inwerkingtreding : 01-09-2023>
 
@@ -248,7 +248,7 @@ deze onderneming. Zij kan een gemeenschappelijke insolventiefunctionaris aanstel
 [2 Het openen van een insolventieprocedure ten aanzien van een onderneming waarvan de vennoten onbeperkt
 aansprakelijk zijn, houdt niet noodzakelijk de opening van eenzelfde insolventieprocedure ten aanzien van de
 onbeperkt aansprakelijke vennoten in.]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 217, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 12, 122; Inwerkingtreding : 01-09-2023>
@@ -261,7 +261,7 @@ onbeperkt aansprakelijke vennoten in.]2
 
 
 ##### HOOFDSTUK 3. [1 - Register]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -269,7 +269,7 @@ onbeperkt aansprakelijke vennoten in.]2
 
 [1 Het register bevat alle gegevens en stukken waarvan de opgave wordt bepaald in dit boek.
 Het register geldt als authentieke bron voor alle akten en gegevens die erin zijn opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -299,7 +299,7 @@ identificeren, onder meer:
 2° gerechtelijke gegevens, zijnde de gegevens in verband met het dossier van gerechtelijke reorganisatie of het
 faillissementsdossier, onder meer:
 - de rechtbank waarbij de procedure hangende is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 14, 122; Inwerkingtreding : 01-09-2023>
 
@@ -339,7 +339,7 @@ de Koning [2 ...]2 bepaalde wijze, iedere belanghebbende partij in kennis van:
 3° de bewaartermijn van de onder 1° bedoelde gegevens;
 4° de in § 2 van dit artikel bedoelde verantwoordelijke voor de verwerking;
 5° de wijze waarop hij inzage kan verkrijgen van de onder 1° bedoelde gegevens.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 15, 122; Inwerkingtreding : 01-09-2023>
 
@@ -369,7 +369,7 @@ artikel XX.15 bedoelde gegevens of kennis heeft van die gegevens, moet het vertr
 nemen.
 
 **Artikel 458 van het Strafwetboek is op hen van toepassing.]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 16, 122; Inwerkingtreding : 01-09-2023>
 
@@ -398,17 +398,17 @@ Het beginindexcijfer is dat van de maand december van het jaar gedurende hetwelk
 retributie is vastgesteld. Het nieuwe indexcijfer is dat van de maand december van het jaar voorafgaand aan de
 eerste januari van het jaar gedurende hetwelk de aanpassing plaatsvindt.
 Het resultaat wordt op een eenheid naar boven afgerond.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 4. [1 Vereffeningsdeskundigen en her-- structureringsdeskundigen]1
-----------
+
 (1)<W 2023-06-07/07, art. 17, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 Vereffeningsdeskundigen]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 18, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -465,14 +465,14 @@ de griffier te zijner kennis gebracht en binnen vijf dagen na de dagtekening bek
 Staatsblad.
 Indien de [3 vereffeningsdeskundige]3 wordt vervangen op eigen verzoek wordt dit uitdrukkelijk vermeld in
 voornoemde bekendmaking.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 218, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 19, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 2. [1 Herstructureringsdeskundigen]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 20, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -499,18 +499,18 @@ in verhouding tot het belang en de complexiteit van hun opdracht en op grond van
 vervulling van hun prestaties. Indien een belanghebbende opkomt tegen de vaststelling van de kosten en
 erelonen beveelt de rechtbank aan de partijen te verschijnen teneinde de onkosten en erelonen te horen taxeren.
 De Koning kan de grondslag vaststellen op basis waarvan de herstructureringsdeskundigen worden vergoed.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 21, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel II. [1 - Vroegtijdige waarschuwing, kamers voor ondernemingen in moeilijkheden en
 ondernemingsbemiddeling]1
-----------
+
 (1)<W 2023-06-07/07, art. 22, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 - Vroegtijdige waarschuwing]1
-----------
+
 (1)<W 2023-06-07/07, art. 23, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -535,7 +535,7 @@ betreffende de bescherming van natuurlijke personen in verband met de verwerking
 betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG.
 § 3. De in paragraaf 1 bedoelde inlichtingen en gegevens worden vijf jaar lang bewaard nadat zij geregistreerd
 zijn in het centraal register van de economische knipperlichten.]1
-----------
+
 (1)<W 2023-06-07/07, art. 24, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -554,7 +554,7 @@ instellingen die door de bevoegde overheid zijn aangewezen of erkend om ondernem
 begeleiden.
 § 2. De Koning bepaalt de toegangsmodaliteiten tot de gegevens, mede in acht genomen de doelstellingen
 bedoeld in paragraaf 1.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 25, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -580,7 +580,7 @@ omkleed verzoek alle informatie over de schuldenaar opvragen bij het Centraal aa
 Nationale Bank van België, overeenkomstig de wet van 8 juli 2018 houdende organisatie van een centraal
 aanspreekpunt van rekeningen en financiële contracten en tot uitbreiding van de toegang tot het centraal
 bestand van berichten van beslag, delegatie, overdracht, collectieve schuldenregeling en protest.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 27, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -618,7 +618,7 @@ Strafwetboek niet van toepassing.
 § 4. De Koning kan aan openbare overheden toestaan of opleggen gegevens mede te delen aan de rechtbank
 voor zover die gegevens noodzakelijk zijn om de [3 economische toestand van de ondernemingen te beoordelen
 of om de onderneming in te lichten over de urgentie om maatregelen te nemen]3.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-06-07/07, art. 28, 122; Inwerkingtreding : 01-09-2023>
@@ -632,12 +632,12 @@ of om de onderneming in te lichten over de urgentie om maatregelen te nemen]3.]1
 
 
 ##### HOOFDSTUK 2. [1 - Kamers voor ondernemingen in moeilijkheden]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 1. [1 Ambtshalve onderzoek]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 30, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -675,7 +675,7 @@ voorhand de Orde of het Instituut als de plaatsopneming geschiedt bij een beroep
 beroep.
 De bijstand van een griffier is niet vereist. De rechter kan geheel alleen proces-verbaal opmaken van zijn
 bevindingen en van de afgelegde verklaringen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 253, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-06-07/07, art. 31, 122; Inwerkingtreding : 01-09-2023>
@@ -689,7 +689,7 @@ aldus tijdens het onderzoek verzamelde gegevens alsook van het in artikel XX.28 
 verslaggever of de voorzitter van de kamer bepalen evenwel welke gegevens niet kunnen worden medegedeeld
 wanneer hun bekendmaking van die aard zou zijn dat het beroepsgeheim van de schuldenaar wordt
 geschonden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -698,7 +698,7 @@ geschonden.]1
 [1 Op de wijze bepaald door de Koning kan de rechtbank de verzamelde gegevens uitwisselen met
 de overheidsinstellingen of particuliere instellingen die door de bevoegde overheid zijn aangewezen of erkend om
 ondernemingen in moeilijkheden te begeleiden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -711,7 +711,7 @@ aan toe. Het verslag wordt gevoegd bij de verzamelde gegevens en voorgelegd aan 
 ondernemingen in moeilijkheden. De kamer voor ondernemingen in moeilijkheden kan beslissen het onderzoek te
 verlengen voor een duur die niet meer dan [3 tien maanden]3 mag bedragen.
 Als het onderzoek gevoerd wordt door de kamer zelf, mag dit niet langer dan [3 achttien maanden]3 duren.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-03-21/02, art. 4, 097; Inwerkingtreding : 26-03-2021>
 (3)<W 2023-06-07/07, art. 32, 122; Inwerkingtreding : 01-09-2023>
@@ -739,14 +739,14 @@ De kamer kan eveneens het dossier mededelen aan de procureur des Konings.
 ondernemingen in moeilijkheden mogen niet deelnemen aan de rechtspleging inzake het faillissement, de
 gerechtelijke reorganisatie [3 , de overdracht onder gerechtelijk gezag]3 of de gerechtelijke vereffening die op
 deze schuldenaar zou betrekking hebben.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 219, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 33, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 2. [1 Onderzoek op verzoek van de schuldenaar]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 34, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -769,12 +769,12 @@ de openbare instelling worden opgeschort in gelijkaardige omstandigheden als deg
 onderneming in dezelfde situatie ook zou kunnen overgaan.
 § 3. Indien een schikking tot stand komt, wordt de inhoud ervan opgetekend in een proces-verbaal waarvan de
 uitgifte wordt voorzien van het formulier van tenuitvoerlegging.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 35, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 3. [1 Ondernemingsbemiddeling]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 36, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -791,12 +791,12 @@ herstructureringsdeskundige met instemming van de schuldenaar.
 verband met zijn bemiddeling van het voorrecht bedoeld in de artikelen 17 en 19, 1° van de Hypotheekwet van
 16 december 1851 of wordt deze vordering behandeld als een buitengewone schuldvordering in het kader van
 een reorganisatieplan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 37, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel III. [1 - Voorlopige maatregelen]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -814,7 +814,7 @@ inhoud en de duur van [4 aan hem gegeven opdracht]4.
 Het openen van een gerechtelijke reorganisatie heeft niet als dusdanig tot gevolg dat de opdracht van de [4
 herstructureringsdeskundige]4 wordt beëindigd. Het vonnis dat de gerechtelijke reorganisatie opent of een later
 vonnis bepalen in welke mate de opdracht moet worden gehandhaafd dan wel gewijzigd of opgeheven.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 220, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2021-03-21/02, art. 5, 097; Inwerkingtreding : 26-03-2021>
@@ -866,7 +866,7 @@ partij of, in geval van ambtshalve aanstelling, door de schuldenaar. Bij een nav
 schuldeisers geniet de vordering van de voorlopige bewindvoerder het voorrecht bedoeld in de artikelen 17 en
 19, 1°, van de hypotheekwet van 16 december 1851 of wordt deze vordering behandeld als een buitengewone
 schuldvordering in de opschorting in een gerechtelijke reorganisatie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -875,7 +875,7 @@ schuldvordering in de opschorting in een gerechtelijke reorganisatie.]1
 [1 De beslissingen bedoeld in de artikelen XX.30 [2 ...]2 en XX.32 worden bekendgemaakt in het
 Belgisch Staatsblad [2 door toedoen van de griffier]2.
 De Koning kan de inhoud van de bekendmaking bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 40, 122; Inwerkingtreding : 01-09-2023>
 
@@ -884,7 +884,7 @@ De Koning kan de inhoud van de bekendmaking bepalen.]1
 
 [1 Verzet tegen de beslissingen gewezen in toepassing van de artikelen XX.30 [2 ...]2 en XX.32 is niet
 toegelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 41, 122; Inwerkingtreding : 01-09-2023>
 
@@ -896,13 +896,13 @@ bij verzoekschrift dat ter griffie van het hof van beroep wordt neergelegd binne
 bekendmaking van het vonnis of bevelschrift. De griffier van het hof van beroep geeft kennis van het
 verzoekschrift aan de gebeurlijke geïntimeerde en, in voorkomend geval, bij gewone brief of elektronische
 mededeling aan zijn advocaat, uiterlijk op de eerste werkdag die volgt op de neerlegging van het verzoekschrift.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 42, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel IV. [1 - Minnelijk akkoord buiten gerechtelijke reorganisatie]1
-----------
+
 (1)<W 2023-06-07/07, art. 43, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -923,7 +923,7 @@ internationale zakelijke betrekkingen wordt gebruikt.]2
 § 2. [2 ...]2
 § 3. [2 ...]2
 § 4. [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 45, 122; Inwerkingtreding : 01-09-2023>
 
@@ -957,17 +957,17 @@ herstructureringsdeskundige aanstellen teneinde de uitvoering van het minnelijk 
 § 4. Bij een navolgende samenloop van schuldeisers geniet de kostprijs van de wettelijke formaliteiten die nodig
 zijn voor de tegenwerpbaarheid aan derden van de door een minnelijk akkoord verleende rechten het voorrecht
 bedoeld in de artikelen 17 en 19, 1°, van de hypotheekwet van 16 december 1851.]1
-----------
+
 (1)<W 2023-06-07/07, art. 46, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel V. [1 - Algemene bepalingen voor Titel V/I en V/II]1
-----------
+
 (1)<W 2023-06-07/07, art. 47, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 - Inleidende bepalingen betreffende titel V/I en V/II]1
-----------
+
 (1)<W 2023-06-07/07, art. 48, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -995,7 +995,7 @@ Afdeling 1/1.
 [1 De bepalingen van de titels V tot en met V/II gelden onverminderd de verplichtingen om de
 werknemers of hun vertegenwoordigers te raadplegen en in te lichten op grond van de bestaande wettelijke of
 conventionele bepalingen, met inbegrip van diegene die in dit Wetboek zijn opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 53, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1029,20 +1029,20 @@ ervan.
 § 4. De Koning bepaalt nader hoe de toegang tot het in dit artikel bedoelde dossier wordt toegekend, bepaalt
 nader welke gegevens slechts op beperkte wijze toegankelijk gemaakt worden en op welke wijze de
 vertrouwelijkheid en de bewaring van het dossier worden gewaarborgd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 55, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 2. [1 - Gemeenschappelijke bepalingen betreffende de procedures van openbare gerechtelijke
 reorganisatie en overdracht van onderneming onder gerechtelijk gezag]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 56, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 - Verzoek tot openbare gerechtelijke reorganisatie, overdracht onder gerechtelijk gezag en daarop**
 volgende procedure]1
-----------
+
 (1)<W 2023-06-07/07, art. 57, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1113,7 +1113,7 @@ neergelegd door een onderneming bedoeld in artikel I.1.14°.
 De rechtbank kan het verslag dat is opgesteld door de kamer voor ondernemingen in moeilijkheden
 overeenkomstig artikel XX.28 voegen bij het dossier van de gerechtelijke reorganisatie [4 en van de overdracht
 onder gerechtelijk gezag]4.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 222, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2021-03-21/02, art. 7, 097; Inwerkingtreding : 26-03-2021>
@@ -1131,7 +1131,7 @@ In het geval bedoeld in artikel XX.84, duidt de rechtbank een gedelegeerd rechte
 artikel preciseert.
 De gedelegeerd rechter hoort de schuldenaar en elke andere persoon van wie hij het horen nuttig acht. Hij kan
 bij de schuldenaar de informatie opvragen die nodig is om diens toestand te beoordelen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 253, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1140,7 +1140,7 @@ bij de schuldenaar de informatie opvragen die nodig is om diens toestand te beoo
 
 [1 De gedelegeerd rechter waakt over de naleving van deze wet en licht de rechtbank in over de
 evolutie van de toestand van de schuldenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -1200,7 +1200,7 @@ door de koper overeenkomstig artikel 1641 van het Gerechtelijk Wetboek.
 verkoop van het goed schriftelijk in kennis te stellen van de neerlegging van het verzoekschrift bedoeld in [3 de
 paragrafen 2 en 3]3. Indien een verzoek tot schorsing van de verkoop werd ingesteld door middel van dit
 verzoekschrift, dient de schuldenaar gelijktijdig de notaris hiervan in kennis te stellen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 223, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 59, 122; Inwerkingtreding : 01-09-2023>
@@ -1209,7 +1209,7 @@ verzoekschrift, dient de schuldenaar gelijktijdig de notaris hiervan in kennis t
 
 **Afdeling 2. [1 - Voorwaarden voor de opening van de procedure van openbare gerechtelijke reorganisatie of van**
 overdracht onder gerechtelijk gezag]1
-----------
+
 (1)<W 2023-06-07/07, art. 60, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1234,7 +1234,7 @@ de vorige procedure.]1
 [3 § 6. Als de schuldenaar een rechtspersoon is, heeft het bestuur voor het neerleggen een verzoek tot
 gerechtelijke reorganisatie geen instemming nodig van de algemene vergadering of van bepaalde
 kapitaalhouders.]3
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-03-21/02, art. 8, 097; Inwerkingtreding : 26-03-2021>
 (3)<W 2023-06-07/07, art. 61, 122; Inwerkingtreding : 01-09-2023>
@@ -1242,7 +1242,7 @@ kapitaalhouders.]3
 
 **Afdeling 3. [1 - Vonnis over het verzoek tot openbare gerechtelijke reorganisatie of overdracht onder**
 gerechtelijk gezag en de gevolgen ervan]1
-----------
+
 (1)<W 2023-06-07/07, art. 62, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1279,7 +1279,7 @@ Indien de schuldenaar deze verplichtingen niet naleeft kan de rechtbank handelen
 XX.62, of desgevallend de aanvraag tot verlenging, zoals bepaald in artikel XX.59, weigeren.]1
 [2 § 5. [3 ...]3
 § 6. [3 ...]3]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-03-21/02, art. 9, 097; Inwerkingtreding : 26-03-2021>
 (3)<W 2023-06-07/07, art. 63, 122; Inwerkingtreding : 01-09-2023>
@@ -1297,7 +1297,7 @@ Als het vonnis de vordering verwerpt, schort het hoger beroep de uitspraak op.
 De zaak wordt behandeld, bij hoogdringendheid, op de inleidingszitting of op een nabijgelegen zitting. De
 gedelegeerd rechter wordt gehoord in zijn verslag. Het verslag kan evenwel ook neergelegd worden in het
 register [2 ...]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 64, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1330,7 +1330,7 @@ beslissing over het reorganisatieplan vastgestelde plaats, dag en uur;
 § 2. Indien het vonnis dat de procedure van gerechtelijke reorganisatie [4 of van overdracht onder gerechtelijk
 gezag]4 opent, betrekking heeft op een onderneming bedoeld in artikel I.1.14°, geeft de griffier hiervan kennis
 aan de Orde of Instituut waartoe de [2 ...]2 schuldenaar behoort.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 224, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2021-03-21/02, art. 10, 097; Inwerkingtreding : 26-03-2021>
@@ -1370,13 +1370,13 @@ en in voorkomend geval aan de betrokken schuldeisers of aan de tussenkomende par
 De schuldenaar legt de aldus gewijzigde schuldeiserslijst in het register neer.
 Van het vonnis wordt bij gerechtsbrief kennis gegeven aan de verzoeker, aan de schuldenaar en aan eventuele
 tussenkomende partijen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 66, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 4. [1 - Voorlopig bestuur en bijstand van een herstructureringsdeskundige]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 67, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1395,7 +1395,7 @@ of rechtspersoon, moet hij deze persoon in gedwongen tussenkomst oproepen.
 § 3. Op elk ogenblik tijdens de opschorting kan de rechtbank, die op dezelfde wijze wordt aangezocht en
 uitspraak doet, op verslag van de voorlopige bewindvoerder, de met toepassing van de paragrafen 1 en 2
 genomen beslissing intrekken of de bevoegdheden van de voorlopige bewindvoerder wijzigen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 68, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1409,7 +1409,7 @@ het opstellen van het plan.
 Het verzoek wordt toegewezen als het is ingediend door de schuldenaar zelf of gesteund wordt door de
 meerderheid van alle op dat tijdstip in het register opgenomen schuldeisers die aanbieden de kosten van de
 herstructureringsdeskundige te dragen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 69, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1418,7 +1418,7 @@ herstructureringsdeskundige te dragen.]1
 [1 De beslissingen bedoeld in de artikelen XX.49/1 en XX.49/2 worden opgenomen in het register
 en worden door toedoen van de griffier bekendgemaakt in het Belgisch Staatsblad.
 De Koning kan de inhoud van de bekendmaking bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 70, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1426,7 +1426,7 @@ De Koning kan de inhoud van de bekendmaking bepalen.]1
 
 [1 Verzet tegen de beslissingen gewezen met toepassing van de artikelen XX.49/1 en XX.49/2 is
 niet toegelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 71, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1438,12 +1438,12 @@ binnen een termijn van acht dagen na bekendmaking van het vonnis of bevelschrift
 beroep geeft kennis van het verzoekschrift per gerechtsbrief aan de gebeurlijke geïntimeerde en, in voorkomend
 geval, bij gewone brief of elektronische mededeling aan zijn advocaat, uiterlijk op de eerste werkdag die volgt op
 de neerlegging van het verzoekschrift.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 72, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 5. [1 - Gevolgen van de beslissing tot reorganisatie of overdracht onder gerechtelijk gezag]1**
-----------
+
 (1)<W 2023-06-07/07, art. 73, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1454,7 +1454,7 @@ middel van tenuitvoerlegging op de roerende of onroerende goederen van de schuld
 aangewend.
 Tijdens dezelfde periode kan de schuldenaar niet worden failliet verklaard behoudens op aangifte van de
 schuldenaar zelf en, indien de schuldenaar een rechtspersoon is, kan deze niet gerechtelijk worden ontbonden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -1521,7 +1521,7 @@ Gerechtelijk Wetboek.
 verkoop van het goed schriftelijk in kennis te stellen van [3 het neerleggen van een verzoek op grond van
 paragraaf 2 of 3]3. Indien een verzoek tot schorsing van de verkoop werd ingesteld door middel van dit
 verzoekschrift, dient de schuldenaar gelijktijdig de notaris hiervan in kennis te stellen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 225, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 74, 122; Inwerkingtreding : 01-09-2023>
@@ -1533,7 +1533,7 @@ verzoekschrift, dient de schuldenaar gelijktijdig de notaris hiervan in kennis t
 [1 De opschorting heeft geen weerslag op het pand dat specifiek betrekking heeft op
 schuldvorderingen. Een pand op een handelsfonds, op een landbouwexploitatie of op een algemeenheid van
 goederen dat schuldvorderingen omvat, is geen pand dat specifiek betrekking heeft op schuldvorderingen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -1552,7 +1552,7 @@ De in artikel 1798 van het [2 Oud]2 Burgerlijk Wetboek bedoelde rechtstreekse vo
 door het vonnis dat de gerechtelijke reorganisatie van de aannemer open verklaart en evenmin door latere
 beslissingen die door de rechtbank zijn gewezen tijdens de gerechtelijke reorganisatie of met toepassing van
 artikel XX.84, § 2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 75, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1598,7 +1598,7 @@ van de opschorting genieten en in voorkomend geval, de gevolgen van het minnelij
 akkoord]2.
 § 5. Het vonnis dat de vordering toekent wordt door toedoen van de griffier in het register neergelegd en bij
 uittreksel bekendgemaakt in het Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 76, 122; Inwerkingtreding : 01-09-2023>
 (3)<W 2025-06-05/09, art. 6, 142; Inwerkingtreding : 01-01-2026>
@@ -1608,7 +1608,7 @@ uittreksel bekendgemaakt in het Belgisch Staatsblad.]1
 
 [1 Schuldvergelijking tussen schuldvorderingen in de opschorting en schulden ontstaan tijdens de
 opschorting is enkel toegestaan indien deze verknocht zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -1637,7 +1637,7 @@ forfaitaire wijze de potentiële schade te dekken geleden door het niet nakomen 
 zonder gevolg tijdens de periode van opschorting en tot de integrale uitvoering van het reorganisatieplan ten
 aanzien van de in het plan opgenomen schuldeisers. De schuldeiser kan evenwel de werkelijke door de niet-
 naleving van de hoofdverbintenis geleden schade opnemen in zijn schuldvordering in de opschorting.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2022-04-28/25, art. 23, 118; Inwerkingtreding : 01-01-2023>
 (3)<W 2023-06-07/07, art. 77, 122; Inwerkingtreding : 01-09-2023>
@@ -1648,7 +1648,7 @@ naleving van de hoofdverbintenis geleden schade opnemen in zijn schuldvordering 
 [1 Een schuldvordering die voortvloeit uit lopende overeenkomsten met opeenvolgende prestaties,
 met inbegrip van de contractueel verschuldigde rente, is niet onderworpen aan de opschorting in de mate dat zij
 betrekking heeft op prestaties verricht nadat de procedure open is verklaard.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -1674,13 +1674,13 @@ reorganisatie [2 of procedure van overdracht onder gerechtelijk gezag]2 voorafga
 De betaling ervan wordt slechts afgenomen bij voorrang van de opbrengst van de tegelde gemaakte goederen
 waarop een zakelijk recht is gevestigd, voor zover die prestaties bijgedragen hebben tot het behoud van de
 zekerheid of de eigendom.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 78, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 6. [1 - Verlenging of wijziging van de opschorting]1**
-----------
+
 (1)<W 2023-06-07/07, art. 79, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1705,7 +1705,7 @@ voorzien in een langere termijn voor de onderhandelingen.]2
 § 3. Tegen de beslissingen gewezen op grond van dit artikel is geen verzet of hoger beroep toegelaten.
 § 4. Het vonnis dat de verlenging toestaat, wordt door toedoen van de griffier binnen een termijn van vijf dagen
 na de dagtekening ervan bekendgemaakt bij uittreksel in het Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 80, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1719,12 +1719,12 @@ opheffen. De rechtbank gaat daartoe slechts over voor zover de continuïteit van
 de activa of van de activiteiten van de schuldenaar daardoor niet in gevaar komt.
 De rechtbank oordeelt op verslag van de gedelegeerd rechter en na de verzoeker en schuldenaar te hebben
 gehoord.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 81, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 7. [1 - Wijziging van het doel van de procedure]1**
-----------
+
 (1)<W 2023-06-07/07, art. 82, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1735,13 +1735,13 @@ van het doel van de procedure, [2 onverminderd artikel XX.49]2.
 Het vonnis waarbij de rechtbank de aanvraag inwilligt, wordt bekendgemaakt in het Belgisch Staatsblad en er
 wordt kennis van gegeven overeenkomstig artikel XX.49, § 1. Van het vonnis dat het verzoek verwerpt, wordt
 kennis gegeven aan de schuldenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 83, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 8. [1 - Voortijdige beëindiging en sluiting van de procedure]1**
-----------
+
 (1)<W 2023-06-07/07, art. 84, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1754,7 +1754,7 @@ rechtbank de procedure geheel of gedeeltelijk.
 De schuldenaar kan aan de rechtbank vragen om in het vonnis elk akkoord te noteren dat hij gesloten heeft
 met de betrokken schuldeisers op het eind van de procedure.
 Het vonnis wordt bekendgemaakt overeenkomstig de nadere regels bepaald bij artikel XX.48.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 85, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1787,7 +1787,7 @@ Ter terechtzitting wordt de schuldenaar gehoord en kan het openbaar ministerie, 
 gehoord, in voorkomend geval de voortijdige beëindiging van de procedure vorderen.
 § 4. Het vonnis wordt bekendgemaakt overeenkomstig de bij artikel XX.48, bepaalde nadere regels en er wordt
 kennis van gegeven aan de schuldenaar per gerechtsbrief.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 86, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1799,17 +1799,17 @@ procedure [2 ...]2 beveelt of dat ze afsluit, eindigt de opschorting en oefenen 
 hun rechten en vorderingen uit.
 Hetzelfde gebeurt wanneer de opschorting verstrijkt zonder verlengd te zijn met toepassing van artikel XX.59
 of XX.85, derde lid.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 87, 122; Inwerkingtreding : 01-09-2023>
 
 Titel V/I. [1 Gerechtelijke reorganisatie]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 88, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 1. [1 Openbare gerechtelijke reorganisatie door een minnelijk akkoord]1
-----------
+
 (1)<W 2023-06-07/07, art. 89, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1818,7 +1818,7 @@ Titel V/I. [1 Gerechtelijke reorganisatie]1
 [1 De procedure van het minnelijk akkoord strekt tot het afsluiten van een akkoord tussen de
 schuldenaar en [2 een of meer van zijn schuldeisers]2 met het oog op de gezondmaking van de financiële
 toestand of de reorganisatie van zijn onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 90, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1854,7 +1854,7 @@ bedoeld in de artikelen 17 en 19, 1°, van de hypotheekwet van 16 december 1851.
 schuldenaar, door een andere schuldeiser of door derden enkel en alleen omdat dat minnelijk akkoord de
 continuïteit van het geheel of een gedeelte van de activa of van de activiteiten niet daadwerkelijk mogelijk heeft
 gemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-03-21/02, art. 11, 097; Inwerkingtreding : 26-03-2021>
 (3)<W 2022-04-28/25, art. 24, 118; Inwerkingtreding : 01-01-2023>
@@ -1866,19 +1866,19 @@ gemaakt.]1
 [1 De gevolgen van het minnelijk akkoord komen ten goede aan [2 de consument die een persoonlijke
 zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek]2 voor de
 schuldenaar en wiens verzoek, bedoeld in artikel XX.54, § 3, werd ingewilligd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2025-06-05/09, art. 7, 142; Inwerkingtreding : 01-01-2026>
 
 
 ##### HOOFDSTUK 2. [1 Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de kleine en
 middelgrote ondernemingen]1
-----------
+
 (1)<W 2023-06-07/07, art. 92, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 Toepassingsgebied]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 93, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1886,12 +1886,12 @@ middelgrote ondernemingen]1
 
 [1 Dit hoofdstuk is toepasselijk op het verzoek tot een collectief akkoord ingediend door andere
 dan in artikel XX.83/1 bedoelde schuldenaren.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 94, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 2. [1 Reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 95, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1899,7 +1899,7 @@ dan in artikel XX.83/1 bedoelde schuldenaren.]1
 
 [1 De procedure van het collectief akkoord heeft het doel een akkoord van [2 zijn schuldeisers en, in
 voorkomend geval, van de kapitaalhouders]2 te verkrijgen over een reorganisatieplan.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 96, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1916,7 +1916,7 @@ schuldeiser en aan de schuldenaar via het register.
 bedoelde rechtszitting kan de betrokken schuldeiser, onverminderd de toepassing van artikel XX.69, enkel
 stemmen en in het plan worden opgenomen voor het bedrag [2 en de hoedanigheid]2 voorgesteld door de
 schuldenaar in de in artikel XX.49 bedoelde mededeling.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 97, 122; Inwerkingtreding : 01-09-2023>
 
@@ -1934,12 +1934,12 @@ vaststelling van het bedrag of de hoedanigheid van de schuldvordering in de opsc
 nieuwe elementen.
 Tegen het vonnis dat het voorlopig aanvaarde bedrag of de hoedanigheid van de schuldvordering bepaalt,
 staat geen enkel rechtsmiddel open.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 3. [1 Opstelling en inhoud van het reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 98, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1951,7 +1951,7 @@ Als een herstructureringsdeskundige werd aangesteld, draagt hij bij tot het opst
 § 2. Het plan moet worden opgesteld overeenkomstig de artikelen XX.70/1 tot en met XX.76.
 § 3. Het plan kan door het bestuur van een rechtspersoon worden opgesteld en neergelegd zonder dat
 hiervoor de instemming van de kapitaalhouders of obligatiehouders vereist is]1
-----------
+
 (1)<W 2023-06-07/07, art. 99, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -1992,7 +1992,7 @@ deze informatie wordt verstrekt.
 praktische richtsnoeren bevat over de manier waarop het reorganisatieplan moet worden opgesteld.
 De checklist wordt op het register ter beschikking gesteld in het Nederlands, het Frans, het Duits en het
 Engels.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 100, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2000,7 +2000,7 @@ Engels.]1
 
 [1 Het reorganisatieplan vermeldt welke schuldvorderingen nog betwist zijn met toepassing van de
 artikelen XX.49 of XX.68, ten einde belanghebbenden in te lichten over de omvang ervan en hun grondslag.]1
-----------
+
 (1)<W 2023-06-07/07, art. 101, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2011,7 +2011,7 @@ van nominaal minieme omvang waarvan de indeling in het plan als betrokken schuld
 administratieve en financiële last zou inhouden.
 Het plan geeft aan waarom het in het belang is van de gezamenlijke schuldeisers dat deze vorderingen buiten
 het plan worden gehouden en onmiddellijk worden vereffend.]1
-----------
+
 (1)<W 2023-06-07/07, art. 102, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2025,7 +2025,7 @@ met uitsluiting van de fiscale of sociale bijdragen of schulden;
 uit de verplichting tot herstel van de door zijn schuld veroorzaakte schade die verbonden is aan het overlijden of
 aan de aantasting van de lichamelijke integriteit van een persoon;
 - een vermindering of kwijtschelding van strafrechtelijke boeten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 103, 122; Inwerkingtreding : 01-09-2023>
 
@@ -2047,7 +2047,7 @@ voorkomend geval kan het in ontslagen voorzien.
 Bij de uitwerking van dit plan worden de vertegenwoordigers van het personeel in de ondernemingsraad, of,
 indien er geen is, in het comité voor preventie en bescherming op het werk, of, indien er geen is, de
 vakbondsafvaardiging of, indien er geen is, een werknemersafvaardiging gehoord.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 105, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2057,7 +2057,7 @@ vakbondsafvaardiging of, indien er geen is, een werknemersafvaardiging gehoord.]
 de activa of van de activiteiten.]1
 [2 Het plan kan, behalve wat de entiteiten bedoeld in artikel I.1, 1°, tweede lid, c), betreft, in de omzetting van
 schuldvorderingen in aandelen voorzien.]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 106, 122; Inwerkingtreding : 01-09-2023>
 
@@ -2073,7 +2073,7 @@ behandelde gewone schuldeisers in de opschorting genieten.
 Het plan kan voor de in het eerste en tweede lid vermelde schuldeisers of groepen schuldeisers, lagere
 percentages voorstellen op basis van dwingende en met redenen omklede vereisten die verband houden met de
 continuïteit van de onderneming en die niet onevenredig zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 107, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2095,7 +2095,7 @@ XX.65, waarvan een kopie is gevoegd bij het plan op het ogenblik van de neerlegg
 geen enkele andere maatregel bevatten die de rechten van die schuldeisers aantast.
 § 2. De buitengewone schuldeisers in de opschorting worden slechts voor hun effectief gewaarborgd deel van
 de vordering als buitengewone schuldeisers in de opschorting beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 108, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2103,13 +2103,13 @@ de vordering als buitengewone schuldeisers in de opschorting beschouwd.]1
 
 [1 De uitvoeringstermijn van het plan mag niet langer zijn dan vijf jaar, te rekenen van de
 homologatie ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplan" en waarin de artikelen XX.77 tot**
 en met XX.80 zijn opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 109, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2153,7 +2153,7 @@ XX.76.
 § 8. Als de stemming op afstand is toegelaten, moet de rechtbank de identiteit en hoedanigheid van de
 schuldeiser kunnen controleren. De mededeling bedoeld in paragraaf 5 omvat een nauwkeurige beschrijving van
 de procedures met betrekking tot de stemming op afstand.]1
-----------
+
 (1)<W 2023-06-07/07, art. 110, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2166,7 +2166,7 @@ De stemming over het plan gebeurt tijdens een zitting waar de schuldeisers en de
 zijn.
 § 2. De schuldeiser die gebruik heeft gemaakt van de mogelijkheid om op afstand te stemmen kan desondanks
 deelnemen aan de zitting en aldaar zijn stemgedrag wijzigen.]1
-----------
+
 (1)<W 2023-06-07/07, art. 111, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2177,7 +2177,7 @@ register wordt neergelegd of via de door hem aangestelde advocaat die zonder bij
 optreden.
 De schriftelijke volmacht moet minstens twee werkdagen voor de rechtszitting bepaald in het vonnis bedoeld in
 artikel XX.46 in het register zijn neergelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 112, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2192,7 +2192,7 @@ schuldvorderingen achteraf voorlopig werden toegevoegd met toepassing van de art
 Met de schuldeisers die niet aan de stemming deelnamen en hun schuldvorderingen wordt geen rekening
 gehouden bij het berekenen van de meerderheden. De schuldeiser of kapitaalhouder is gebonden door de
 stemming zelfs als hij niet deelneemt aan de stemming.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 113, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2225,7 +2225,7 @@ de schuldenaar of op het waarborgen van de levensvatbaarheid van de onderneming.
 § 5. Onder voorbehoud van de betwistingen die voortvloeien uit de uitvoering van het reorganisatieplan, sluit
 het vonnis dat oordeelt over de homologatie, de reorganisatieprocedure af.
 Het wordt bij uittreksel in het Belgisch Staatsblad bekendgemaakt, door toedoen van de griffier.]1
-----------
+
 (1)<W 2023-06-07/07, art. 114, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2233,12 +2233,12 @@ Het wordt bij uittreksel in het Belgisch Staatsblad bekendgemaakt, door toedoen 
 
 [1 De rechtbank oordeelt over de homologatie niettegenstaande elke vervolging die is ingesteld
 tegen de schuldenaar of zijn bestuurders.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 5. [1 - Rechtsmiddelen.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 115, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2258,13 +2258,13 @@ verslag van de gedelegeerd rechter]2. [2 ...]2
 De griffier van het hof van beroep geeft bij gerechtsbrief kennis van het verzoekschrift aan de geïntimeerden
 en, in voorkomend geval, aan hun advocaat, uiterlijk op de eerste werkdag na de neerlegging ervan.
 Als het vonnis de homologatie verwerpt, schort het hoger beroep de uitspraak op.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 116, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 117, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2300,13 +2300,13 @@ afbreuk aan de rechten die de schuldeiser kan laten gelden tegen de derde die ze
 De gevolgen van het collectief akkoord komen ten goede aan de [3 consument die een persoonlijke zekerheid
 heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek]3 voor de schuldenaar
 en wiens verzoek, bedoeld in artikel XX.54, § 3, werd ingewilligd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 118, 122; Inwerkingtreding : 01-09-2023>
 (3)<W 2025-06-05/09, art. 8, 142; Inwerkingtreding : 01-01-2026>
 
 **Afdeling 7. [1 - Intrekking van het reorganisatieplan en vaststelling van voltooiing van het reoganisatieplan.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 119, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2333,18 +2333,18 @@ reorganisatie.
 Op gemotiveerd verzoek van de schuldenaar, kan de rechtbank bij vonnis vaststellen dat het reorganisatieplan
 correct werd uitgevoerd, mits bewijs van uitvoering van het reorganisatieplan volgens de voorwaarden of met
 akkoord van de betrokken schuldeisers in afwijking ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 3. [1 - Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de grote
 ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 120, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 - Toepassingsgebied]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 121, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2360,24 +2360,24 @@ zin van artikel I.23, 26°, en die samen beschouwd de in het eerste lid bepaalde
 Dit hoofdstuk is ook toepasselijk op schuldenaren zoals bedoeld in artikel XX.66/1, die bij de neerlegging van
 het verzoekschrift bedoeld in artikel XX.41, § 2, tweede lid, uitdrukkelijk gekozen hebben om hun
 reorganisatieplan aan dit hoofdstuk te onderwerpen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 122, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 2. [1 - Reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 123, 122; Inwerkingtreding : 01-09-2023>
 
 
 ## Art. XX.83/2
 
 [1 De artikelen XX.67 tot XX.69 zijn overeenkomstig van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 124, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 3. [1 - Opstelling en inhoud van het reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 1, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2389,7 +2389,7 @@ Als een herstructureringsdeskundige werd aangesteld, draagt hij bij tot het opst
 § 2. Het plan moet worden opgesteld overeenkomstig de artikelen XX. 83/4 tot en met XX.83/10.
 § 3. Het plan kan door het bestuur van een rechtspersoon worden opgesteld en neergelegd zonder dat
 hiervoor de instemming van de kapitaalhouders of obligatiehouders vereist is.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 126, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2433,7 +2433,7 @@ deze informatie wordt verstrekt.
 richtsnoeren bevat over de manier waarop het reorganisatieplan moet worden opgesteld.
 De checklist wordt op het register ter beschikking gesteld in het Nederlands, het Frans, het Duits en het
 Engels.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 127, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2441,7 +2441,7 @@ Engels.]1
 
 [1 Het reorganisatieplan vermeldt welke schuldvorderingen nog betwist zijn met toepassing van de
 artikelen XX.49 of XX.68, ten einde belanghebbenden in te lichten over de omvang ervan en hun grondslag.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 128, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2452,7 +2452,7 @@ van nominaal minieme omvang waarvan de indeling in het plan als betrokken schuld
 administratieve en financiële last zou inhouden.
 Het plan geeft aan waarom het in het belang is van de gezamenlijke schuldeisers dat deze vorderingen buiten
 het plan worden gehouden en onmiddellijk worden vereffend.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 129, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2465,7 +2465,7 @@ met uitsluiting van de fiscale of sociale bijdragen of schulden;
 uit de verplichting tot herstel van de door zijn schuld veroorzaakte schade die verbonden is aan het overlijden of
 aan de aantasting van de lichamelijke integriteit van een persoon;
 - een vermindering of kwijtschelding van strafrechtelijke boeten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 130, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2480,7 +2480,7 @@ voorkomend geval kan het in ontslagen voorzien.
 Bij de uitwerking van dit plan worden de vertegenwoordigers van het personeel in de ondernemingsraad, of,
 indien er geen is, in het comité voor preventie en bescherming op het werk, of, indien er geen is, de
 vakbondsafvaardiging of, indien er geen is, een werknemersafvaardiging gehoord.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 131, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2500,7 +2500,7 @@ vereffening volgens de wettelijke rangorde door deze schuldeiser op basis van zi
 zijn verkregen.
 Voor het overige deel van hun vordering worden deze schuldeisers opgenomen in een categorie van gewone
 schuldeisers in de opschorting.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 132, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2508,12 +2508,12 @@ schuldeisers in de opschorting.]1
 
 [1 De uitvoeringstermijn van het plan mag niet langer zijn dan vijf jaar, te rekenen van de
 homologatie ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 133, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplannen]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 134, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2557,7 +2557,7 @@ XX.70/1.
 § 7. Als de stemming op afstand is toegelaten, moet de rechtbank de identiteit en hoedanigheid van de
 schuldeiser kunnen controleren. De mededeling bedoeld in paragraaf 4 omvat een nauwkeurige beschrijving van
 de procedures met betrekking tot de stemming op afstand.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 135, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2572,7 +2572,7 @@ kapitaalhouders opgeroepen zijn.
 § 2. De schuldeiser of kapitaalhouder die gebruik heeft gemaakt van de mogelijkheid op afstand te stemmen,
 stemt uiterlijk op het begin van de zitting bedoeld in paragraaf 1. Hij kan, ook al heeft hij reeds zijn stem
 uitgebracht, deelnemen aan de zitting en aldaar zijn stemgedrag wijzigen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 136, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2583,7 +2583,7 @@ het register wordt neergelegd of via de door hem aangestelde advocaat die zonder
 optreden.
 De schriftelijke volmacht moet minstens twee werkdagen voor de rechtszitting bepaald in het vonnis bedoeld in
 artikel XX.46 in het register zijn neergelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 137, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2605,7 +2605,7 @@ op te stellen dat aan de schuldeisers zal worden voorgelegd. Het aangepast plan 
 en de griffier geeft kennis aan de schuldenaar en de schuldeisers, en in voorkomend geval aan de
 kapitaalhouders, dat een geamendeerd plan is neergelegd in het register en dat over dat plan zal gestemd
 worden op de dag waarop de zaak in voortzetting is gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 138, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2614,7 +2614,7 @@ worden op de dag waarop de zaak in voortzetting is gesteld.]1
 [1 Binnen vijftien dagen na de zitting, en in elk geval vóór de vervaldag van de met toepassing
 van de artikelen XX.48 en XX.59 bepaalde opschorting, beslist de rechtbank na het onderzoek bedoeld in de
 artikelen XX.83/17 en XX.83/18, of zij al dan niet het reorganisatieplan homologeert.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 139, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2622,7 +2622,7 @@ artikelen XX.83/17 en XX.83/18, of zij al dan niet het reorganisatieplan homolog
 
 [1 De rechtbank oordeelt over de homologatie niettegenstaande elke vervolging die is ingesteld
 tegen de schuldenaar of zijn bestuurders.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 140, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2650,7 +2650,7 @@ b) een vermeende inbreuk op de voorwaarden van een categorie-overschrijdende cra
 artikel XX.83/18.
 § 4. De homologatie kan niet aan enige voorwaarde onderworpen worden die niet in het reorganisatieplan
 vervat is noch er enige wijziging in aanbrengen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 141, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2676,24 +2676,24 @@ kapitaalhouders in een rechtspersoon zich ertoe verbinden om in een rechtspersoo
 in ruil voor nieuwe financiering of als kapitaalhouders cruciaal zijn voor de continuïteit van de onderneming en
 zich ertoe verbinden om gedurende een redelijke termijn hun deelneming in de onderneming in stand te
 houden.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 142, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 5. [1 - Beëindiging van de procedure en rechtsmiddelen]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 143, 122; Inwerkingtreding : 01-09-2023>
 
 
 ## Art. XX.83/19
 
 [1 De bepalingen van het artikel XX.81 zijn van overeenkomstige toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 144, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 145, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2729,13 +2729,13 @@ zekerheid heeft gesteld.
 De gevolgen van het collectief akkoord komen ten goede aan de [2 consument die een persoonlijke zekerheid
 heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek]2 voor de schuldenaar
 en wiens verzoek, bedoeld in artikel XX.54, § 3, werd ingewilligd.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 146, 122; Inwerkingtreding : 01-09-2023>
 (2)<W 2025-06-05/09, art. 9, 142; Inwerkingtreding : 01-01-2026>
 
 
 **Afdeling 7. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 147, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2760,17 +2760,17 @@ reorganisatie.
 Op gemotiveerd verzoek van de schuldenaar, kan de rechtbank bij vonnis vaststellen dat het reorganisatieplan
 correct werd uitgevoerd, mits bewijs van uitvoering van het reorganisatieplan volgens de voorwaarden of met
 akkoord van de betrokken schuldeisers in afwijking ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 148, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 4. [1 - Besloten gerechtelijke reorganisatieprocedure]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 149, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 1. [1 - Verzoeken en navolgende procedure]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 150, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2816,7 +2816,7 @@ griffier van het hof van beroep stelt uiterlijk op de eerste werkdag die volgt o
 verzoekschrift de eventuele verweerder per gerechtsbrief en, in voorkomend geval, zijn raadsman per gewone
 brief, in kennis van het verzoekschrift.
 Het hoger beroep tegen een beschikking die een herstructureringsdeskundige aanstelt is niet opschortend.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 151, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2833,7 +2833,7 @@ De kennisgeving door de herstructureringsdeskundige gebeurt in overeenstemming m
 voorzien in artikel XX.49, § 1, derde lid, en geldt als mededeling in de zin van artikel XX.49. Bij de kennisgeving
 nodigt de herstructureringsdeskundige de door de procedure geviseerde schuldeisers uit om zich te registreren
 in het register.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 152, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2852,7 +2852,7 @@ bedragen.
 De voorzitter van de rechtbank kan op elk moment ambtshalve of op verzoek van een belanghebbende
 schuldeiser of van de herstructureringsdeskundige een einde maken aan de toegekende opschorting, middels
 een met redenen omklede beslissing en na de schuldenaar te hebben gehoord.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 153, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2863,7 +2863,7 @@ akkoord in de zin van artikel XX.64, of een reorganisatieplan overeenkomstig de 
 en waakt over het getrouw informeren van de door de procedure geraakte schuldeisers.
 De herstructureringsdeskundige is als enige gerechtigd om de volmacht van de geraadpleegde schuldeisers te
 bekomen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 154, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2883,7 +2883,7 @@ De rechtbank kan haar beslissing opschorten indien de betrokken schuldeisers het
 en de hoedanigheid van de vordering en er nog geen beslissing is genomen over deze betwisting. Hij kan ook
 beslissen dat de schuldvordering provisioneel zal worden opgenomen.
 De rechtbank bepaalt de wijze waarop van het plan kennis wordt gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 155, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2901,7 +2901,7 @@ de neerlegging van het verzoekschrift in het register. In de gerechtsbrief wordt
 register is neergelegd en dat de schuldenaar in raadkamer zal worden gehoord.
 Ter terechtzitting worden de schuldenaar en de herstructureringsdeskundige gehoord. De voorzitter doet
 uitspraak in raadkamer.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 156, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2912,12 +2912,12 @@ door de rechtbank begroot overeenkomstig artikel XX.20/1. Bij een navolgend akko
 de vordering van de herstructureringsdeskundige van het voorrecht bedoeld in de artikelen 17 en 19, 1°, van de
 hypotheekwet van 16 december 1851 en wordt deze vordering in voorkomend geval behandeld als een
 buitengewone schuldvordering in de opschorting in het kader van een reorganisatieplan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 157, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 2. [1 - Besloten gerechtelijke reorganisatie door een minnelijk akkoord]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 158, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2926,7 +2926,7 @@ buitengewone schuldvordering in de opschorting in het kader van een reorganisati
 [1 De besloten gerechtelijke reorganisatieprocedure door een minnelijk akkoord strekt tot het
 afsluiten van een akkoord tussen de schuldenaar en een of meer van zijn schuldeisers met het oog op de
 gezondmaking van de financiële toestand of de reorganisatie van zijn onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 159, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2957,17 +2957,17 @@ bedoeld in de artikelen 17 en 19, 1°, van de hypotheekwet van 16 december 1851.
 schuldenaar, door een andere schuldeiser of door derden enkel en alleen omdat dat minnelijk akkoord de
 continuïteit van het geheel of een gedeelte van de activa of van de activiteiten niet daadwerkelijk mogelijk heeft
 gemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 160, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 3. [1 - Besloten gerechtelijke reorganisatie door een collectief akkoord]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 161, 122; Inwerkingtreding : 01-09-2023>
 
 
 *Onderafdeling 1. [1 Reorganisatieplan]1*
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 162, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2976,12 +2976,12 @@ gemaakt.]1
 [1 De besloten gerechtelijke reorganisatieprocedure door een collectief akkoord heeft het doel
 een akkoord te verkrijgen van zijn schuldeisers of van een deel van hen en, in voorkomend geval, van de
 kapitaalhouders over een reorganisatieplan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 163, 122; Inwerkingtreding : 01-09-2023>
 
 
 *Onderafdeling 2. [1 Opstelling, inhoud en neerlegging van het reorganisatieplan]1*
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 164, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -2994,7 +2994,7 @@ hiervoor de instemming van de kapitaalhouders of obligatiehouders vereist is.
 § 3. De gedelegeerd rechter kan beslissen dat de medeschuldenaars, de borgen en de andere persoonlijke
 zekerheidstellers die bij het akkoord betrokken zijn, deze mededeling ook zullen ontvangen en dat zij op dezelfde
 wijze hun opmerkingen kunnen laten gelden.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 165, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3033,12 +3033,12 @@ dezelfde wijze hun opmerkingen kunnen laten gelden.
 § 5. Als de stemming op afstand is toegelaten, moet de rechtbank de identiteit en hoedanigheid van de
 schuldeiser kunnen controleren. De mededeling bedoeld in paragraaf 3 omvat een nauwkeurige beschrijving van
 de procedures met betrekking tot de stemming op afstand.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 166, 122; Inwerkingtreding : 01-09-2023>
 
 
 *Onderafdeling 3. [1 Stemming over het reorganisatieplan]1*
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 167, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3046,12 +3046,12 @@ de procedures met betrekking tot de stemming op afstand.]1
 
 [1 De stemming over het plan verloopt zoals bepaald in de artikelen XX.78 tot en met XX.78/2 of
 in de artikelen XX.83/12 tot en met XX.83/14.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 168, 122; Inwerkingtreding : 01-09-2023>
 
 
 *Onderafdeling 4. [1 Homologatie van het reorganisatieplan]1*
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 169, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3060,7 +3060,7 @@ in de artikelen XX.83/12 tot en met XX.83/14.]1
 [1 Binnen vijftien dagen na de zitting, en in elk geval vóór de vervaldag van de met toepassing
 van de artikelen XX.48 en XX.59 bepaalde opschorting, beslist de rechtbank na het onderzoek bedoeld in artikel
 XX.83/37, of zij al dan niet het reorganisatieplan homologeert.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 170, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3068,7 +3068,7 @@ XX.83/37, of zij al dan niet het reorganisatieplan homologeert.]1
 
 [1 De rechtbank oordeelt over de homologatie niettegenstaande elke strafrechtelijke vervolging
 die is ingesteld tegen de schuldenaar of zijn bestuurders.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 171, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3078,12 +3078,12 @@ die is ingesteld tegen de schuldenaar of zijn bestuurders.]1
 in de artikelen XX.83/15 tot en met XX.83/18.
 Het vonnis van homologatie wordt niet bekend gemaakt. Het wordt door de griffier in het register
 neergelegd."]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 172, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 4. [1 - Beëindiging van de procedure en rechtsmiddelen]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 173, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3091,7 +3091,7 @@ neergelegd."]1
 
 [1 Onder voorbehoud van de betwistingen die voortvloeien uit de uitvoering van het
 reorganisatieplan, sluit het vonnis dat oordeelt over de homologatie, de reorganisatieprocedure af.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 174, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3111,12 +3111,12 @@ De griffier van het hof van beroep geeft bij gerechtsbrief kennis van het verzoe
 en, in voorkomend geval, aan hun advocaat per gewone brief, uiterlijk op de eerste werkdag na de neerlegging
 ervan.
 Als het vonnis de homologatie verwerpt, schort het hoger beroep de uitspraak op.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 175, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 5. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 176, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3146,12 +3146,12 @@ gevolgen van een bijzonder akkoord bedoeld in artikel XX.74/1 of in artikel XX.8
 medeschuldenaars en de stellers van persoonlijke zekerheden niet ten goede. Het standpunt van een schuldeiser
 betreffende het plan, doet geen afbreuk aan de rechten die de schuldeiser kan laten gelden tegen de derde die
 zekerheid heeft gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 177, 122; Inwerkingtreding : 01-09-2023>
 
 
 **Afdeling 6. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1**
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 178, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3175,12 +3175,12 @@ reorganisatie.
 Op gemotiveerd verzoek van de schuldenaar, kan de rechtbank bij vonnis vaststellen dat het reorganisatieplan
 correct werd uitgevoerd, mits bewijs van uitvoering van het reorganisatieplan volgens de voorwaarden of met
 akkoord van de betrokken schuldeisers in afwijking ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 179, 122; Inwerkingtreding : 01-09-2023>
 
 
 TITEL V/II. [1 - Overdracht onder gerechtelijk gezag]1
-----------
+
 (1)<W 2023-06-07/07, art. 180, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3217,7 +3217,7 @@ Wanneer hij de overdracht beveelt in een ander vonnis dan dit waarbij de opschor
 rechtbank een rechter in de rechtbank, de voorzitter uitgezonderd, of een [2 rechter in ondernemingszaken]2
 aan om verslag uit te brengen over de uitvoering van de overdracht.
 § 4. [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 253, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-06-07/07, art. 181, 122; Inwerkingtreding : 01-09-2023>
@@ -3237,7 +3237,7 @@ De rechtbank kan, in hetzelfde vonnis, een bijkomende opschorting bevelen voor n
 maanden te rekenen van haar beslissing, met de gevolgen bepaald in de artikelen XX.50 tot XX.58.
 Het vonnis wordt bij uittreksel bekendgemaakt in het Belgisch Staatsblad door toedoen van de aangewezen [2
 vereffeningsdeskundige]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 182, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3292,7 +3292,7 @@ gehouden dan die welke voorkomen in de overeenkomst waarvan de homologatie is aa
 implementeren van de wijzigingen in de arbeidsvoorwaarden die collectief zijn overeengekomen of worden
 toegepast, is onderworpen aan de opschortende voorwaarde van het sluiten van een collectieve
 arbeidsovereenkomst die de bewoordingen ervan overneemt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 183, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3334,7 +3334,7 @@ rechter en aan de schuldenaar en, bij verzoekschrift op tegenspraak, waarvan min
 zitting kennis wordt gegeven aan de schuldenaar, vraagt hij aan de rechtbank de machtiging om te kunnen
 overgaan tot de uitvoering van de verkoop.
 § 5. De rechtbank neemt geen enkele offerte of offertewijziging na dat verzoekschrift in aanmerking.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 184, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3382,7 +3382,7 @@ machtigingsprocedure te worden opgeroepen. Zij kunnen van de rechtbank vorderen 
 de hand te verkopen afhankelijk wordt gesteld van bepaalde voorwaarden zoals een minimumverkoopprijs.
 § 5. Het vonnis vermeldt steeds de identiteit van de schuldeisers en mede-eigenaars die bij de procedure
 werden opgeroepen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 228, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2018-07-11/07, art. 129, 062; Inwerkingtreding : 30-07-2018>
@@ -3402,7 +3402,7 @@ het comité voor preventie en bescherming op het werk, of, indien er geen is, de
 er geen is, een werknemersafvaardiging.
 § 2. Een ontwerp van verkoop kan verschillende voorstellen in aanmerking nemen van verschillende kandidaat-
 kopers.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 186, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3419,7 +3419,7 @@ nabijgelegen zitting, de gedelegeerd rechter wordt gehoord in zijn verslag. [2 .
 Indien de koper de overdracht wenst uit te voeren niettegenstaande hoger beroep verleent de [2
 vereffeningsdeskundige]2 daaraan zijn volledige medewerking zonder dat deze de aansprakelijkheid draagt
 bedoeld in artikel 1398 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 187, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3436,7 +3436,7 @@ schuldeisers uit aangifte te doen in het register, met uitzondering van de schul
 niet in aanmerking zullen komen voor enige uitkering.]1
 [2 De vereffeningsdeskundige provisioneert het bedrag vereist voor de afwikkeling van de gerechtelijke
 vereffening of van het faillissement.]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 188, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3445,7 +3445,7 @@ vereffening of van het faillissement.]2
 
 [1 Door de verkoop van de roerende of onroerende goederen gaan de rechten van de schuldeisers
 over op de prijs.]1 [2 De verkoop is zuiverend.]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 189, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3456,7 +3456,7 @@ over op de prijs.]1 [2 De verkoop is zuiverend.]2
 vatbare activiteiten overgedragen zijn, en in elk geval voor het einde van de opschorting, vraagt hij aan de
 rechtbank bij [2 tegensprekelijk verzoekschrift gericht aan de schuldenaar en in voorkomend geval aan de eiser
 tot overdracht onder gerechtelijk gezag, dat zij de procedure afsluit en dat zij hem ontlast van zijn opdracht.]2]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 190, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3483,7 +3483,7 @@ bevelen van de schuldenaar rechtspersoon en de voor de opdracht aangewezen veref
 vereffenaar aanstellen.
 § 2. De vereffeningsdeskundige die niet aangesteld is als curator of vereffenaar, draagt de opbrengst van de
 overdrachten over aan de curator of de vereffenaar voor verdeling.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 191, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3498,7 +3498,7 @@ vereffenaar voor verdeling.
 Het ereloon van de [2 vereffeningsdeskundige]2 wordt aangerekend op het deel van het ereloon van de curator
 of de vereffenaar dat betrekking heeft op de opbrengst van de overdracht bewerkstelligd door de [2
 vereffeningsdeskundige]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 192, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3509,7 +3509,7 @@ vereffeningsdeskundige]2.]1
 daaropvolgende faillietverklaring of vereffening worden]2 bij uittreksel in het Belgisch Staatsblad bekendgemaakt.
 De beslissing tot sluiting van de procedure van [2 overdracht onder gerechtelijk gezag]2 bevrijdt de verkrijger
 van alle andere verplichtingen dan die welke in de akte van overdracht zijn vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 193, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3527,12 +3527,12 @@ of een rechtspersoon kan op zich alleen geen grond zijn voor een aansprakelijkhe
 kredietgever of een investeerder die krediet geeft voor of investeert in een nieuwe activiteit gevoerd door de
 schuldenaar of door een bestuurder, zaakvoerder of leider van de schuldenaar, ongeacht de vorm waaronder
 deze nieuwe activiteit wordt uitgeoefend.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 195, 122; Inwerkingtreding : 01-09-2023>
 
 Titel V/III. [1 - Besloten voorbereiding van het faillissement]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 196, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3549,7 +3549,7 @@ Het verzoek wordt binnen een termijn van drie werkdagen in raadkamer behandeld.
 - de vereffening van de onderneming wordt vergemakkelijkt waarbij een zo hoog mogelijke uitbetaling aan de
 gezamenlijke schuldeisers wordt bereikt; en
 - de werkgelegenheid zo veel mogelijk kan worden behouden.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 197, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3562,7 +3562,7 @@ tevens, behoudens uitzondering, in het faillissement zal aangesteld worden als r
 De aanstelling geldt voor ten hoogste dertig dagen en kan op verzoek van de schuldenaar of de beoogd
 curator met maximum dertig dagen worden verlengd door de rechtbank, na de beoogd rechter-commissaris te
 hebben gehoord.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 198, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3578,7 +3578,7 @@ verbonden ondernemingen of aan personen die controle op de onderneming uitoefene
 gedurende zes maanden voorafgaand aan de opening van de procedure, en die rechtstreeks of onrechtstreeks
 de controle hebben over rechten die bepalend zijn voor de waarde van de onderneming en de overdracht van
 haar activiteiten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 199, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3589,7 +3589,7 @@ bestuursorganen, met het doel zoals omschreven in artikel XX.97/1. Hij mag enkel
 of een deskundige vragen onderzoek te verrichten met instemming van de schuldenaar. Evenwel kan de
 rechtbank te allen tijde bijkomende bevoegdheden verlenen aan de beoogd curator zo zij dit nodig acht, zelfs
 ambtshalve.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 200, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3606,7 +3606,7 @@ Zo de schuldenaar na het verstrijken van de eventueel verlengde termijn van dert
 zal de rechtbank na oproeping van de schuldenaar, handelen zoals bepaald in de artikelen XX.100 en XX.101.
 Bij faillietverklaring zal de rechtbank de beoogd rechter-commissaris en de beoogd curator benoemen als
 rechter-commissaris en curator in het faillissement, behoudens met redenen omklede afwijkende beslissing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 201, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -3616,17 +3616,17 @@ rechter-commissaris en curator in het faillissement, behoudens met redenen omkle
 zoals de kosten van een gerechtsdeskundige. Bij een navolgende samenloop van schuldeisers geniet de
 vordering van de beoogd curator van het voorrecht bedoeld in de artikelen 17 en 19, 1°, van de hypotheekwet
 van 16 december 1851.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 202, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel VI. [1 - Faillissement]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 1. [1 - Staking van betaling en faillietverklaring]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3635,7 +3635,7 @@ van 16 december 1851.]1
 [1 De faillissementsprocedure strekt ertoe het vermogen van de schuldenaar onder bevoegdheid
 van een curator te plaatsen die belast is het vermogen van de gefailleerde te beheren en te vereffenen en de
 opbrengst ervan te verdelen onder de schuldeisers.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3651,7 +3651,7 @@ De ontbonden rechtspersoon kan failliet worden verklaard tot zes maanden na het 
 In geval van faillissement van een onderneming bedoeld in [2 artikel I.1, eerste lid, 1°, c)]2, of van een
 rechtspersoon waarvan de vennoten onbeperkt aansprakelijk zijn krachtens de wet, kan enkel de curator de
 vennoot persoonlijk aansprakelijk stellen voor de passiva van deze onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 229, 059; Inwerkingtreding : 01-05-2018>
 
@@ -3679,7 +3679,7 @@ die hij kent in de zaak te betrekken.
 In geval van aangifte van faillissement van een onderneming bedoeld in [2 artikel I.1, eerste lid, 1°, c)]2, of een
 rechtspersoon waarvan de vennoten onbeperkt aansprakelijk zijn, dient de onderneming haar vennoten ervan in
 de zaak te betrekken.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 230, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 203, 122; Inwerkingtreding : 01-09-2023>
@@ -3692,7 +3692,7 @@ insolventierechtbank haar beslissing opschorten voor een termijn van vijftien da
 een gerechtelijke reorganisatie kan aanvragen of waarin de procureur des Konings, een schuldeiser of een
 persoon geïnteresseerd in het verwerven van het geheel of een deel van de activa of van de activiteiten van de
 schuldenaar [2 een overdracht]2 kan aanvragen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2024-05-15/03, art. 115, 133; Inwerkingtreding : 07-06-2024>
 
@@ -3713,7 +3713,7 @@ De verplichting tot aangifte is opgeschort vanaf de neerlegging van een verzoeks
 reorganisatie en dit zolang de opschorting krachtens titel V verleend duurt.
 De verplichting omschreven in het eerste lid, is niet toepasselijk op de verenigingen zonder winstoogmerk, de
 internationale verenigingen zonder winstoogmerk, de stichtingen, de Europese politieke partijen en stichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3757,7 +3757,7 @@ onderneming vereist zijn.
 De aangever verkrijgt na de neerlegging in het register hiervan een ontvangstbewijs.
 De plaatsing in het register van alle andere stukken betreffende het faillissement wordt op dezelfde wijze
 vastgesteld, zonder dat daarvan een andere akte van neerlegging behoeft te worden opgemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 231, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 205, 122; Inwerkingtreding : 01-09-2023>
@@ -3776,7 +3776,7 @@ Hetzelfde vonnis bepaalt de datum waarop het eerste proces-verbaal van verificat
 in het register wordt neergelegd. Dit tijdstip wordt zo gekozen dat er ten minste vijf en ten hoogste dertig dagen
 verlopen tussen het verstrijken van de termijn van aangifte van de schuldvorderingen en de neerlegging van het
 eerste proces-verbaal van verificatie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3802,7 +3802,7 @@ faillietverklaring ontbonden rechtspersoon waarvan de vereffening al dan niet we
 aanwijzingen bestaan dat deze is of wordt bewerkstelligd met de bedoeling nadeel te berokkenen aan de
 schuldeisers. In dat geval kan het tijdstip van de staking van betaling worden vastgesteld op de dag van het
 ontbindingsbesluit.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3812,7 +3812,7 @@ ontbindingsbesluit.]1
 Het exploot van betekening bevat op straffe van nietigheid, benevens de tekst van de artikelen [2 XX.108 en
 XX.109]2, aanmaning om kennis te nemen van de processen-verbaal van verificatie van de schuldvorderingen.
 Het exploot van betekening bevat eveneens de tekst van de artikelen [2 XX.146 en [3 XX.166]3]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2021-11-28/01, art. 139, 101; Inwerkingtreding : 10-12-2021>
 (3)<W 2023-06-07/07, art. 206, 122; Inwerkingtreding : 01-09-2023>
@@ -3846,7 +3846,7 @@ Het uittreksel vermeldt:
 - de naam van de rechtspersoon, de rechtsvorm, de handelsnaam waaronder de activiteit wordt uitgeoefend,
 de zetel en het ondernemingsnummer;
 - de datum van het vonnis dat de gerechtelijke ontbinding uitspreekt en de rechtbank die het heeft gewezen.]3
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 232, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 207, 122; Inwerkingtreding : 01-09-2023>
@@ -3871,7 +3871,7 @@ bekendmaking van het [3 vonnis]3 in het Belgisch Staatsblad.
 De termijn om hoger beroep in te stellen tegen het vonnis, is vijftien dagen te rekenen vanaf de bekendmaking
 [ van het vonnis]3 bedoeld in artikel XX.107.]1
 3
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 233, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 208, 122; Inwerkingtreding : 01-09-2023>
@@ -3884,7 +3884,7 @@ dat de faillietverklaring afwijst, worden zonder verwijl in staat gesteld.
 De curator dient in de zaak te worden betrokken voor het sluiten van de debatten.
 Op verzoek van de meest gerede partij wordt de zaak vastgesteld om gepleit te worden binnen een maand
 volgend op het verzoek tot bepaling van de rechtsdag.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3897,12 +3897,12 @@ De schuldeiser die niet tussenkomt in het geding, kan binnen een termijn van vij
 van de beslissing bedoeld in artikel XX.100, vierde lid, derden verzet aantekenen, zelfs indien hij zich niet beroept
 op fraude van de schuldenaar of geen gewag kan maken van een hypotheek, een voorrecht of enig ander recht
 los van zijn vorderingsrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 209, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 2. [1 - Gevolgen van de faillietverklaring]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3923,7 +3923,7 @@ Uit het actief van het faillissement wordt eveneens uitgesloten, de vergoeding v
 is verbonden en die aan de gefailleerde toekomt uit onrechtmatige daad.
 De gefailleerde beheert eveneens de in het tweede en derde lid bedoelde goederen en bedragen en beschikt
 erover.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3940,7 +3940,7 @@ overtreft;
 en alle betalingen anders dan in geld of in handelspapier, wegens vervallen schulden;
 3° alle bedongen hypotheken en alle rechten van gebruikspand of van pand, op de goederen van de
 schuldenaar gevestigd wegens voordien aangegane schulden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 210, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3952,7 +3952,7 @@ handelingen onder bezwarende titel door hem aangegaan na de staking van betaling
 faillietverklaring, kunnen niet-tegenwerpbaar verklaard worden, indien zij die van de schuldenaar iets hebben
 ontvangen of met hem hebben gehandeld, kennis hadden van de staking van betaling, onverminderd de artikelen
 XX.37, XX.53, XX.65 [2 , XX.82, XX.83/20 en XX.83/40]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 211, 122; Inwerkingtreding : 01-09-2023>
 
@@ -3964,7 +3964,7 @@ verkregen zijn, kunnen ingeschreven of geregistreerd worden tot de dag van het v
 De inschrijvingen of registraties die na het tijdstip van de staking van betaling zijn genomen, kunnen niet-
 tegenwerpbaar verklaard worden, wanneer meer dan vijftien dagen verlopen zijn tussen de datum van de akte
 waaruit de hypotheek of het voorrecht volgt, en de datum van de inschrijving of van de registratie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-01-2017>
 
 
@@ -3972,7 +3972,7 @@ waaruit de hypotheek of het voorrecht volgt, en de datum van de inschrijving of 
 
 [1 Handelingen of betalingen verricht met bedrieglijke benadeling van de rechten van de
 schuldeisers kunnen niet worden tegengeworpen onverschillig op welke datum zij hebben plaatsgehad.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -3984,7 +3984,7 @@ hem voor wiens rekening de wisselbrief is uitgegeven; betreft het een orderbrief
 worden ingesteld tegen de eerste endossant.
 In beide gevallen moet het bewijs worden geleverd dat hij tegen wie de teruggave wordt gevorderd, ten tijde
 van de uitgifte van het stuk kennis had van de staking van betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4000,7 +4000,7 @@ verlopen sedert het vonnis van faillietverklaring en tot de vervaldag.
 Ingeval een van de medeschuldenaars een niet vervallen en niet rentegevend orderbriefje of zodanige
 wisselbrief onmiddellijk betaalt, geschiedt zulks onder aftrek van de wettelijke rente voor de tijd die nog moet
 verlopen tot de vervaldag.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4010,7 +4010,7 @@ verlopen tot de vervaldag.]1
 of hypotheek, houdt op te lopen vanaf het vonnis van faillietverklaring, doch alleen ten aanzien van de boedel.
 De rente van de gewaarborgde schuldvorderingen kan niet worden gevorderd dan van de opbrengst van de
 goederen die verbonden zijn voor het voorrecht, het pand of de hypotheek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4021,7 +4021,7 @@ tenuitvoerlegging op de roerende of onroerende goederen niet voortgezet, ingeste
 tegen de curatoren. De rechtbank kan de gefailleerde niettemin als tussenkomende partij toelaten.
 De beslissingen die worden gewezen omtrent de rechtsvorderingen voortgezet of ingesteld tegen de
 gefailleerde persoonlijk, kunnen niet aan de boedel worden tegengeworpen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4036,7 +4036,7 @@ worden de voormelde hangende gedingen zonder voorwerp ten aanzien van de boedel.
 Indien de aldus ingediende schuldvordering in het [2 tweede]2 proces-verbaal van verificatie wordt betwist of
 aangehouden ten aanzien van de boedel, dan wordt de curator verondersteld de hangende gedingen te
 hervatten, minstens voor de beslechting van het betwiste of aangehouden gedeelte.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 212, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4072,7 +4072,7 @@ van het roerend of onroerend beslag naargelang het geval. Na betaling van de hyp
 bevoorrechte schuldeisers, stort [3 de gerechtsdeurwaarder of]3 de notaris het saldo van het gedeelte van de
 verkoopprijs dat aan de gefailleerde toekomt, aan de curator. Deze storting is bevrijdend net zoals de storting
 gedaan door de koper overeenkomstig artikel 1641 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 234, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 213, 122; Inwerkingtreding : 01-09-2023>
@@ -4092,17 +4092,17 @@ roerende goederen kan worden verwacht die de bevoorrechte schuldeisers niet bena
 verzoekschrift van de curatoren, na de betrokken bijzonder bevoorrechte schuldeiser bij gerechtsbrief te hebben
 opgeroepen, de schorsing van de tenuitvoerlegging bevelen en dit voor een maximumtermijn van een jaar te
 rekenen van de faillietverklaring.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 3. [1 - Beheer en vereffening van de boedel]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 1. [1 - Aanstelling en wettelijke taken van curatoren en van rechters-commissarissen]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4128,7 +4128,7 @@ behoort.
 § 3. De Koning bepaalt de procedure van voordracht van de kandidaten bij de rechtbank alsook de termijnen
 die moeten worden nageleefd bij het onderzoek van de kandidaturen. De Koning kan tevens de voorwaarden
 inzake opleiding en inzake bekwaamheid op het gebied van vereffeningsprocedures nader bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 235, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
@@ -4140,7 +4140,7 @@ inzake opleiding en inzake bekwaamheid op het gebied van vereffeningsprocedures 
 curator als medecurator overeenkomstig artikel XX.20, § 1, een beoefenaar van dit beroep toe [2 om bijstand
 aan de curator te verlenen in verband met de beroepstechnische en deontologische aspecten van het beroep en
 de vrijwaring van de vertrouwelijke gegevens verbonden met dit vrij beroep]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 214, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4152,7 +4152,7 @@ een inschrijving wordt geschrapt, kan hoger beroep worden ingesteld voor het hof
 hebben plaats met gesloten deuren als de belanghebbende erom verzoekt. De termijn van hoger beroep is een
 maand te rekenen van de dag van de kennisgeving van de beslissing. In voorkomend geval beveelt het hof de
 inschrijving op de lijst.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4163,13 +4163,13 @@ vergadering van de [2 ondernemingsrechtbank]2. De algemene vergadering schrapt e
 de lijst die niet meer aan de voorwaarden van de wet voldoet. Een persoon kan eveneens van de lijst worden
 geschrapt ter uitvoering van een vonnis dat is gewezen op dagvaarding door het openbaar ministerie. De
 debatten hebben plaats met gesloten deuren als de belanghebbende erom verzoekt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 2. [1 - Ambtsaanvaarding en opdrachten voor curatoren en rechters-commissarissen]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4195,7 +4195,7 @@ geraadpleegd worden door de voorzitter van de rechtbank of de procureur des Koni
 De voorzitter van de rechtbank oordeelt of de verklaring de uitvoering van zijn opdracht als curator verhindert.
 De rechtbank kan de curator vervangen volgens de procedure bepaald in artikel XX.20 of, in voorkomend
 geval, in artikel XX.127.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 215, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4214,7 +4214,7 @@ van zijn activiteiten en laat hij zijn staat van kosten en ereloon begroten door
 verslag van de rechter-commissaris en na de curator te hebben gehoord.
 De staat van kosten en ereloon van de curator ad hoc wordt door de curator in zijn eindafrekening
 opgenomen als kosten van het faillissement.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4232,7 +4232,7 @@ betwistingen van de schuldvorderingen en een actualisering van de inventaris van
 XX.134.
 § 2. Op het einde van elk kalenderjaar dienen de curatoren in elk geval een verzamelaangifte inzake btw met
 betrekking tot de handelingen die aan de btw zijn onderworpen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4255,7 +4255,7 @@ geeft, kan hij geen deel uitmaken van de zetel.
 De rechter-commissaris kan buiten zijn rechtsgebied alle tot zijn opdracht behorende handelingen verrichten,
 wanneer hij van oordeel is dat ernstige of dringende omstandigheden zulks vereisen.
 De beschikkingen van de rechter-commissaris worden gemotiveerd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 217, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4264,12 +4264,12 @@ De beschikkingen van de rechter-commissaris worden gemotiveerd.]1
 
 [1 Onverminderd artikel XX.18, kan de procureur des Konings kan bij alle verrichtingen van het
 faillissement aanwezig zijn en zich door de curatoren alle inlichtingen doen verstrekken die hij dienstig acht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 3. [1 - Beheer van het faillissement]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4298,7 +4298,7 @@ Elke belanghebbende kan via de curator een materiële kopie krijgen van de in he
 bestanden die niet onder het beroepsgeheim of het zakengeheim vallen, op voorwaarde dat hij een retributie
 betaalt zoals bepaald bij artikel XX.19.
 De Koning regelt de wijze waarop deze paragraaf wordt toegepast.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 218, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4310,7 +4310,7 @@ aanvaarding van hun ambt hebben bevestigd.
 Zij beheren het faillissement als een goed huisvader onder toezicht van de rechter-commissaris.
 De curatoren werken actief en prioritair mee aan het vaststellen van het bedrag van de aangegeven
 schuldvorderingen van de werknemers van de gefailleerde onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4322,7 +4322,7 @@ Hij verwittigt op voorhand de Orde of het Instituut als de plaatsopneming geschi
 van een vrij beroep.
 De artikelen 1010, eerste lid, 1011, 1013 en 1015, eerste zin, van het Gerechtelijk Wetboek zijn van
 overeenkomstige toepassing op de plaatsopneming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4337,7 +4337,7 @@ beschreven.
 De curatoren kunnen zich, met machtiging van de rechter-commissaris, voor het opmaken van de inventaris,
 alsmede voor het schatten van de voorwerpen, de materiële bewaring van de activa en de verkoop ervan, onder
 hun verantwoordelijkheid laten bijstaan door degene die zij daartoe geschikt achten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4370,7 +4370,7 @@ vereffenaars worden beschouwd.
 curatoren. De insolventierechtbank neemt kennis van de geschillen desbetreffende.
 § 6. De Koning kan de procedure tot het in consignatie geven van later opgedoken activa vaststellen, alsmede
 de bestemming van deze activa bij nieuw opgedoken passiva.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 220, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4380,7 +4380,7 @@ de bestemming van deze activa bij nieuw opgedoken passiva.]1
 [1 De tenuitvoerlegging van het vonnis tot sluiting van het faillissement, uitgesproken
 overeenkomstig artikel XX.135, wordt opgeschort gedurende een maand te rekenen van de bekendmaking in het
 Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4390,7 +4390,7 @@ Belgisch Staatsblad.]1
 opgemaakt, of wanneer de gefailleerde overlijdt vooraleer met de inventaris is begonnen, wordt deze dadelijk
 opgemaakt met inachtneming van de in artikel XX.134 voorgeschreven vormen, in tegenwoordigheid of althans
 na behoorlijke oproeping van de erfgenamen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4407,7 +4407,7 @@ strekken tot bewijs jegens derden, worden drie jaar bewaard.
 Onverminderd artikel XX.16, moeten de curatoren de dossiers welke zij na het faillissement hebben aangelegd
 bewaren rekening houdend met de wettelijke verjaringstermijn voorzien in artikel 2276bis van het [2 Oud]2
 Burgerlijk wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 221, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4439,7 +4439,7 @@ Na de faillietverklaring en vóór de sluiting van de vereffening van het failli
 mogelijkheid de ontslagen werknemers, met toestemming van de rechter-commissaris, een voorschot toe te
 kennen dat gelijk is aan de verschuldigde bezoldigingen en vergoedingen, en dat niet hoger mag liggen dan 80
 procent van het in artikel 19, 3° ter, van de hypotheekwet van 16 december 1851 bedoelde bedrag.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4457,7 +4457,7 @@ of herroepen.
 De curatoren kunnen dadelijk na het faillissementsvonnis en na overleg met de representatieve vakbonden of,
 bij gebreke hiervan, met het aanwezige personeel in het belang van de boedel en in afwachting van de uitspraak
 van de rechtbank met toepassing van het eerste lid, toestaan dat de activiteiten worden voortgezet.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4468,7 +4468,7 @@ natuurlijke persoon en aan zijn gezin het huisraad en de voorwerpen nodig voor e
 curatoren maken van die zaken een staat op. Zij kunnen eveneens met toestemming van de rechter-
 commissaris, levensonderhoud toekennen aan de gefailleerde natuurlijke persoon en aan zijn gezin.
 Iedere betwisting betreffende de toepassing van dit artikel wordt bij verzoekschrift aan de rechtbank gericht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4478,7 +4478,7 @@ Iedere betwisting betreffende de toepassing van dit artikel wordt bij verzoeksch
 van de rechter-commissaris dadelijk overgaan tot de verkoop van de activa die onderhevig zijn aan spoedig
 bederf, snelle waardevermindering, of wanneer de kosten voor het bewaren van de goederen, de activa van het
 faillissement in acht genomen, te hoog zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4495,7 +4495,7 @@ natuurlijke persoon de rechter-commissaris verzoeken zelf de aan hem gerichte br
 Bij weigering moet de rechter-commissaris zijn beslissing motiveren.
 Brievenpost gericht aan de beoefenaar van een vrij beroep wordt afgegeven aan de curator volgens richtlijnen
 bepaald door de Orde of Instituut waarvan de gefailleerde deel uitmaakt bij zijn faillissement.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4509,7 +4509,7 @@ faillissement geïndividualiseerde bankrekening bewaren, dienstig voor de lopend
 van de rechter-commissaris die daarvan het maximumbedrag bepaalt.
 Bij nalatigheid zijn de curatoren verwijlintrest, gelijk aan de wettelijke interest, verschuldigd voor de sommen die
 zij niet hebben gestort, onverminderd de toepassing van artikel XX.20.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4527,7 +4527,7 @@ voorschotten worden verricht door de Deposito- en Consignatiekas aan de curator 
 rechter-commissaris ondertekend staat.
 De sommen die bij het afsluiten van het faillissement niet betaald konden worden, moeten bij de Deposito- en
 Consignatiekas gestort worden ten voordele van de rechthebbende schuldeisers.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4541,7 +4541,7 @@ alle kennisgevingen en berichten kunnen ontvangen]2.
 De gefailleerde of de zaakvoerders en bestuurders van de gefailleerde rechtspersoon zijn verplicht de
 curatoren elke adreswijziging mede te delen of elke wijziging van hun elektronisch adres. Als dit niet gedaan
 wordt, zijn de oproepingen geacht geldig te zijn verricht op het laatste adres aan de curatoren medegedeeld.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 222, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4557,7 +4557,7 @@ tot betaling van de kosten voor de opmaak van de balans.
 Zij kunnen de hulp inroepen van [2 een gecertificeerd accountant, hetzij een accountant, hetzij een fiscaal
 accountant of hetzij een bedrijfsrevisor]2 of een bedrijfsrevisor met het oog op de opmaak van de balans.
 De balans wordt gevoegd bij het faillissementsdossier.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 223, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4567,7 +4567,7 @@ De balans wordt gevoegd bij het faillissementsdossier.]1
 [1 De rechter-commissaris kan de gefailleerde, diens werknemers en wie dan ook horen, zowel
 aangaande het onderzoek van de boeken en de boekhoudkundige bescheiden als aangaande de oorzaken en de
 omstandigheden van het faillissement.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4577,7 +4577,7 @@ omstandigheden van het faillissement.]1
 overlijdt na zijn faillissement, kunnen zijn erfgenamen zich aanmelden of laten vertegenwoordigen bij alle
 faillissementsverrichtingen. Zij hebben dezelfde toegang tot het faillissementsdossier als hun
 rechtsvoorganger.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4591,7 +4591,7 @@ Zij kunnen inschrijving vorderen van de hypotheken op de onroerende goederen van
 gefailleerde, indien deze het niet heeft gevorderd.
 Bedoelde inschrijvingen worden ten name van de boedel genomen door de curatoren, die bij hun borderel een
 kopie van het faillissementsvonnis voegen als bewijs van hun benoeming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4603,7 +4603,7 @@ onroerende rechtsvorderingen en rechten betreft.
 Wanneer de waarde van het voorwerp van de dading 50 000 euro te boven gaat, wordt zij eerst verbindend
 nadat ze door de rechtbank is gehomologeerd op verslag van de rechter-commissaris. De gefailleerde wordt
 voor de homologatie opgeroepen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4611,7 +4611,7 @@ voor de homologatie opgeroepen.]1
 
 [1 De curatoren kunnen een beroep doen op de gefailleerde om hen in hun beheer te helpen en
 voor te lichten. De rechter-commissaris bepaalt de voorwaarden waaronder hij zijn arbeid zal verrichten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4625,7 +4625,7 @@ en verwittigt in voorkomend geval de procureur des Konings dat het verslag hem n
 redenen van deze vertraging. Zowel het verslag als de opmerkingen op het verslag zijn vertrouwelijk en zijn
 slechts toegankelijk voor de curator, de rechter-commissaris en de procureur des Konings [2 , evenals aan de
 voorzitter van de rechtbank]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 224, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4637,12 +4637,12 @@ worden vervolgd wegens een strafbaar feit als bepaald in de artikelen 489, 489bi
 het Strafwetboek, of indien er tegen hen een bevel tot medebrenging of aanhouding werd verleend of, indien zij
 op de voormelde gronden werden opgeroepen voor de raadkamer of gedagvaard voor de correctionele
 rechtbank geeft de procureur des Konings daarvan dadelijk kennis aan de rechter-commissaris en de curator.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 4. [1 - Aangifte en verificatie van schuldvorderingen]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4671,7 +4671,7 @@ evenwel ook gedaan worden in een andere nationale taal of in het Engels.
 De bijlagen bij de aangifte mogen gevoegd worden in de taal naar keuze van de aangever.
 De rechtbank kan de vertaling van de aangifte en de bijlagen vragen aan de aangever die hiervan de kosten
 moet dragen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4689,7 +4689,7 @@ schuldvordering of uiterlijk binnen drie maanden vanaf de datum van het vonnis v
 faillissement eerder wordt afgesloten, en vermeldt naam, voornaam en adres van de [3 consument die een
 persoonlijke zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk
 Wetboek]3 voor de gefailleerde, bij gebrek waaraan deze bevrijd is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 225, 122; Inwerkingtreding : 01-09-2023>
 (3)<W 2025-06-05/09, art. 11, 142; Inwerkingtreding : 01-01-2026>
@@ -4702,7 +4702,7 @@ schuldeiser die zijn woonplaats niet heeft in een lidstaat van de Europese Unie,
 rechtsgebied van de rechtbank die het faillissement heeft uitgesproken.
 Heeft hij geen woonplaats gekozen, dan kunnen hem alle betekeningen en mededelingen gedaan worden ter
 griffie van de rechtbank.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4713,7 +4713,7 @@ of althans na behoorlijke oproeping van de gefailleerde. [2 De in het register i
 opgeroepen via het register.]2 De titels van de schuldvorderingen worden getoetst aan de boeken en bescheiden
 van de gefailleerde.
 De gefailleerde wordt eveneens gehoord over de vereffening van het faillissement.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 226, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4726,7 +4726,7 @@ schuldeiser of zijn gemachtigde of iedere persoon die inlichtingen kan verstrekk
 maakt proces-verbaal op van hun verklaringen. Hij kan ook bevelen dat de schuldeiser zijn boeken overlegt of,
 krachtens een bevel tot onderzoek daarvan, vorderen dat hem daarvan een uittreksel wordt bezorgd opgemaakt
 door de rechter van de plaats.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4734,7 +4734,7 @@ door de rechter van de plaats.]1
 
 [1 De processen-verbaal van verificatie van de schuldvorderingen worden door de curatoren
 opgesteld, door hen ondertekend en in het register neergelegd, met kennisgeving aan de rechter-commissaris.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4761,7 +4761,7 @@ sluiting van ondernemingen ontslagen werknemers.
 Vorderingen tot opname van schuldvorderingen waarvan de opname overeenkomstig artikel XX. 165, derde en
 vierde leden, gevorderd wordt na de neerlegging van het laatste proces-verbaal van verificatie, worden ingeleid
 bij dagvaarding betekend aan de curatoren.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 227, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4777,7 +4777,7 @@ Het bezwaar wordt aan de curatoren en aan de schuldeiser wiens vordering wordt t
 bij een deurwaardersexploot. Hierbij worden de curatoren en de schuldeiser, alsmede de gefailleerde voor de
 rechtbank gedaagd teneinde uitspraak te horen doen over de schuldvordering waartegen bezwaar is ingebracht.
 De gefailleerde wordt door de curatoren verwittigd met uitnodiging om te verschijnen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4789,7 +4789,7 @@ nadat de curatoren, de gefailleerde en de schuldeisers die bezwaren hebben ingeb
 hebben gedaan, indien zij verschijnen, zijn gehoord. Tegen het vonnis staat geen verzet open.
 De betwistingen die niet onmiddellijk in beraad worden genomen, worden afzonderlijk en verder behandeld
 volgens de gewone rechtspleging met voorrang boven alle andere zaken.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4812,7 +4812,7 @@ goederen;
 7° de korte inhoud en de datum van de beslissing over de betwisting;
 8° de andere inlichtingen waarvan de mededeling aan de belanghebbenden nuttig kan zijn.
 § 2. De tabel wordt in het faillissementsdossier neergelegd en bijgewerkt door de curator.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 237, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 228, 122; Inwerkingtreding : 01-09-2023>
@@ -4832,12 +4832,12 @@ of ingesteld tijdens de vereffening.
 Het recht opname te vorderen van een schuldvordering tijdens de vereffening vastgesteld door een andere
 rechtbank dan de rechtbank die het faillissement heeft uitgesproken, verjaart na verloop van zes maanden te
 rekenen van de dag waarop het eindvonnis kracht van rechterlijk gewijsde heeft verkregen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 5. [1 - Vereffening van het faillissement]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4864,7 +4864,7 @@ belangen van de betrokkenen.
 de overdracht van een onderneming in werking bekrachtigen onder voorwaarden die partijen hebben bedongen
 en waarvan de naleving door de curatoren of, na sluiting van het faillissement, door elke belanghebbende kan
 worden vervolgd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 229, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4885,7 +4885,7 @@ vereffening van de boedel.
 De vergadering van de schuldeisers kan, bij gewone meerderheid, de curatoren ermede belasten te
 onderhandelen over een vaste prijs voor het geheel of een gedeelte van de rechten of de rechtsvorderingen die
 nog niet voldaan zijn, en ze te vervreemden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4894,7 +4894,7 @@ nog niet voldaan zijn, en ze te vervreemden.]1
 [1 De rechter-commissaris beveelt, indien daartoe aanleiding is, een uitdeling aan de schuldeisers
 en bepaalt tot welk bedrag. Elke betaling die wordt verricht op bevel of met de toestemming van de rechter-
 commissaris, heeft voor de curatoren kwijting tot gevolg.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4904,7 +4904,7 @@ commissaris, heeft voor de curatoren kwijting tot gevolg.]1
 aangegeven en bevestigd zijn, doch die aanleiding hebben gegeven tot geschillen die nog niet definitief zijn
 beslecht, heeft geen uitdeling plaats dan na reservering van het gedeelte dat overeenstemt met hun
 schuldvorderingen, zoals zij zijn aangegeven en bevestigd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -4923,7 +4923,7 @@ Op die vergadering wordt de rekening besproken en afgesloten.
 Het saldo van de rekening dient voor de laatste uitdeling.
 Indien er een batig saldo is, komt dit rechtens toe aan de gefailleerde of indien het een rechtspersoon betreft,
 aan de aandeelhouders.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 230, 122; Inwerkingtreding : 01-09-2023>
 
@@ -4947,7 +4947,7 @@ Het vonnis waarbij de sluiting van het faillissement wordt bevolen, wordt door d
 bekendgemaakt in het Belgisch Staatsblad.
 De sluiting van het faillissement maakt een einde aan de opdracht van de curatoren, behalve wat de uitvoering
 van de sluiting betreft, en houdt een algemene kwijting in.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 238, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 231, 122; Inwerkingtreding : 01-09-2023>
@@ -4964,14 +4964,14 @@ vereffenaars worden beschouwd.
 De Koning kan de procedure tot het in consignatie geven van later opgedoken activa vaststellen, alsmede de
 bestemming van deze activa bij nieuw opgedoken passiva. Hij kan tevens de bestemming van onverkochte activa
 die overblijven na de sluiting vaststellen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 239, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 232, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 6. [1 - Kwijtschelding]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5002,7 +5002,7 @@ Wanneer de gefailleerde beoefenaar is van een vrij beroep, dan stelt de griffier
 door een kopie te sturen van het vonnis waarin de kwijtschelding voor een deel of volledig wordt geweigerd.
 Het vonnis dat de kwijtschelding geheel of gedeeltelijk weigert wordt door de griffier bij uittreksel
 bekendgemaakt in het Belgisch Staatsblad.]1
-----------
+
 (1)<W 2023-06-07/07, art. 233, 122; Inwerkingtreding : 01-09-2023>
 
 
@@ -5018,18 +5018,18 @@ De kwijtschelding heeft geen gevolgen op de persoonlijke of gemeenschappelijke s
 ex-echtgenoot, wettelijk samenwonende of gewezen wettelijk samenwonende voortvloeiend uit een
 overeenkomst door de genoemde personen gesloten, ongeacht of die schulden alleen of samen met de
 gefailleerde werden aangegaan, en die vreemd zijn aan de beroepsactiviteit van de gefailleerde.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 234, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 7. [1 - Schuldeisers en borgtochten]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 1. [1 - Medeschuldenaars, persoonlijke zekerheden en borgen]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5037,7 +5037,7 @@ gefailleerde werden aangegaan, en die vreemd zijn aan de beroepsactiviteit van d
 
 [1 Onverminderd de [3 artikelen 9.1.42 tot 9.1.50 van het Burgerlijk Wetboek]3 en XX.176, strekt
 de kwijtschelding niet tot voordeel van de medeschuldenaars en de stellers van persoonlijke zekerheden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 235, 122; Inwerkingtreding : 01-09-2023>
 (3)<W 2025-06-05/09, art. 12, 142; Inwerkingtreding : 01-01-2026>
@@ -5070,7 +5070,7 @@ Het vonnis dat de bevrijding van de verzoeker beveelt, wordt [3 door toedoen van
 bekendgemaakt in het Belgisch Staatsblad.
 Wanneer de persoonlijke zekerheid door de rechtbank niet volledig van zijn verplichting is ontslagen, verkrijgen
 de schuldeisers opnieuw het recht om individueel een vordering op zijn goederen te stellen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 241, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 236, 122; Inwerkingtreding : 01-09-2023>
@@ -5083,7 +5083,7 @@ de schuldeisers opnieuw het recht om individueel een vordering op zijn goederen 
 medeschuldenaars hoofdelijk zijn aangegaan, geëndosseerd of gewaarborgd, komt in aanmerking voor de
 uitdelingen in elke boedel en komt daarin op voor de nominale waarde van zijn schuldvordering, totdat hij volledig
 is betaald.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5093,7 +5093,7 @@ is betaald.]1
 betaalde percenten, behalve wanneer de percenten uit die boedels meer bedragen dan de schuldvordering in
 hoofdsom en toebehoren; in dat geval komt het meerdere, naar de orde der verbintenissen, toe aan die
 schuldenaars voor wie de andere borg staan.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5104,7 +5104,7 @@ medeschuldenaars hoofdelijk zijn aangegaan of waarvoor een borg is gesteld, voor
 voorschot op zijn schuldvordering ontvangen heeft, wordt deze in de boedel slechts opgenomen onder aftrek
 van dit voorschot en behoudt hij voor het nog verschuldigde bedrag zijn rechten tegen de medeschuldenaars of
 de borg.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5112,12 +5112,12 @@ de borg.]1
 
 [1 De medeschuldenaar of de borg die de gedeeltelijke betaling gedaan heeft, komt in het
 faillissement op voor alles wat hij tot bevrijding van de gefailleerde betaald heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 2. [1 - Pandhoudende schuldeisers en schuldeisers bevoorrecht op roerend goed]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5125,7 +5125,7 @@ faillissement op voor alles wat hij tot bevrijding van de gefailleerde betaald h
 
 [1 De curatoren kunnen, met machtiging van de rechter-commissaris, te allen tijde het pand ten
 bate van de failliete boedel inlossen door betaling van de schuld.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5135,7 +5135,7 @@ bate van de failliete boedel inlossen door betaling van de schuld.]1
 schuldvordering te boven gaat, wordt het meerdere door hen geïnd. Bedraagt de prijs minder dan de
 schuldvordering, dan treedt de pandhoudende schuldeiser voor het ontbrekende op als gewone schuldeiser in
 de boedel.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5147,13 +5147,13 @@ de in het loon begrepen vergoedingen die aan dezelfde personen verschuldigd zijn
 dienstbetrekking, ongeacht of die beëindiging voor of na de faillietverklaring plaatsheeft, onder de bevoorrechte
 schuldvorderingen opgenomen met dezelfde rang en ten belope van dezelfde bedragen als het voorrecht dat
 aan dezelfde personen wordt toegekend bij artikel 19, 3° ter, van de hypotheekwet van 16 december 1851.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 3. [1 - Rechten van hypothecaire schuldeisers en van op onroerende goederen bevoorrechte**
 schuldeisers]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5164,7 +5164,7 @@ goederen verdeeld wordt, treden de bevoorrechte of de hypothecaire schuldeisers 
 de prijs van de onroerende goederen, naar evenredigheid van hetgeen hun nog verschuldigd is, samen met de
 gewone schuldeisers op ten aanzien van de gelden die aan de chirografaire boedel toekomen, mits hun
 schuldvorderingen bevestigd en geverifieerd zijn met inachtneming van de hierboven voorgeschreven vormen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5174,7 +5174,7 @@ schuldvorderingen bevestigd en geverifieerd zijn met inachtneming van de hierbov
 onroerende goederen verdeeld is, nemen de op de onroerende goederen bevoorrechte en de hypothecaire
 schuldeisers daaraan deel naar evenredigheid van het volle bedrag van hun schuldvorderingen, onverminderd de
 afscheiding die hierna wordt omschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5187,7 +5187,7 @@ als hypothecaire schuldeisers toegewezen is, slechts ontvangen onder aftrek van 
 boedel hebben verkregen.
 De aldus afgetrokken bedragen blijven niet in de hypothecaire boedel, maar worden daarvan afgescheiden en
 keren terug naar de chirografaire boedel.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5199,7 +5199,7 @@ vastgesteld met inachtneming van het bedrag dat hun nog verschuldigd is na die r
 tot de onroerende goederen. Wat zij bij de vroegere uitdeling meer ontvangen hebben, wordt afgetrokken van
 het bedrag dat hun als hypothecaire schuldeisers toegewezen is, en wordt in de chirografaire boedel
 teruggestort.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5208,12 +5208,12 @@ teruggestort.]1
 [1 De hypothecaire schuldeisers die niet batig gerangschikt zijn, worden als gewone schuldeisers
 beschouwd en als zodanig behandeld met betrekking tot de gevolgen van alle verrichtingen in verband met de
 chirografaire boedel.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 4. [1 - Gevolgen van het faillissement van de ene echtgenoot ten opzichte van de andere]1**
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5223,7 +5223,7 @@ chirografaire boedel.]1
 gefailleerde echtgenoot zowel als uit hun gemeenschappelijk vermogen verkopen zonder de voorafgaande
 toestemming van de andere echtgenoot of de rechterlijke machtiging, voorgeschreven bij [2 artikel 215, § 1, van
 het Oud Burgerlijk Wetboek en de artikelen 2.3.32 en 2.3.34 van het Burgerlijk Wetboek]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 237, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5236,13 +5236,13 @@ curatoren aanspraak maken op de voordelen die in het huwelijkscontract zijn bepa
 De betaling van gemeenschappelijke schulden, die de gefailleerde bij de uitoefening van zijn beroepsactiviteit
 heeft gemaakt en die niet voldaan zijn door de vereffening van het faillissement, kunnen niet verhaald worden op
 het eigen vermogen van de echtgenoot van de gefailleerde.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 5. [1 - Gevolgen van het faillissement op de aansprakelijkheid van derden voor de financiering van een**
 nieuwe activiteit]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5253,12 +5253,12 @@ grond zijn voor een aansprakelijkheidsvordering gericht tegen een kredietgever o
 geeft voor of investeert in een nieuwe activiteit gevoerd door de gefailleerde of door een bestuurder,
 zaakvoerder of leider van de failliete rechtspersoon, ongeacht de vorm waarin deze nieuwe activiteit wordt
 uitgeoefend.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 8. [1 - Uitdeling aan de schuldeisers]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5268,12 +5268,12 @@ uitgeoefend.]1
 evenredigheid van hun vorderingen en na aftrek van de kosten en uitgaven voor het beheer van de failliete
 boedel, van de uitkeringen tot levensonderhoud aan de gefailleerde en zijn gezin en van hetgeen aan de
 bevoorrechte schuldeisers betaald is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 9. [1 - Verkoop van de onroerende goederen van de gefailleerde]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5306,14 +5306,14 @@ hebben laten kantmelden]3, evenals de gefailleerde ten minste acht dagen voor de
 machtigingsprocedure werden opgeroepen.
 § 3. De beschikking vermeldt steeds de identiteit van de schuldeisers en mede-eigenaars die bij de procedure
 behoorlijk zijn opgeroepen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 238, 122; Inwerkingtreding : 01-09-2023>
 (3)<W 2023-12-19/05, art. 81, 125; Inwerkingtreding : 06-01-2024>
 
 
 ##### HOOFDSTUK 10. [1 - Terugvordering]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5326,7 +5326,7 @@ het eerste proces-verbaal van verificatie van de schuldvorderingen.
 Indien de bewaring of de teruggave van de teruggevorderde goederen kosten heeft veroorzaakt ten laste van
 de boedel, eist de curator dat deze kosten betaald worden bij de afgifte van de goederen. Weigert de eigenaar
 deze kosten te betalen dan is de curator gerechtigd het retentierecht uit te oefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-01-2017>
 
 
@@ -5336,7 +5336,7 @@ deze kosten te betalen dan is de curator gerechtigd het retentierecht uit te oef
 in natura in de portefeuille van de gefailleerde bevindt op de dag van het vonnis van faillietverklaring, dat papier
 terugvorderen wanneer hij het afgegeven heeft alleen met last om het te innen en het bedrag ervan te zijner
 beschikking te houden, of het speciaal bestemd heeft voor bepaalde betalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5347,7 +5347,7 @@ verkocht voor rekening van de afzender, kunnen eveneens worden teruggevorderd, z
 gedeeltelijk in natura aanwezig zijn.
 Zelfs de prijs van die koopwaren kan worden teruggevorderd in zover hij niet is betaald, noch in waardepapier
 voldaan, noch in rekening-courant tussen de gefailleerde en de koper verrekend.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5360,7 +5360,7 @@ De terugvordering is nochtans niet ontvankelijk wanneer de koopwaren, voor hun a
 verkocht zijn op cognossementen of op door de afzender getekende facturen en vrachtbrieven.
 De terugvordering geschiedt met inachtneming van de rechten van de pandhoudende schuldeiser die in het
 bezit van de koopwaren is gesteld door een cognossement of een vrachtbrief.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5370,7 +5370,7 @@ bezit van de koopwaren is gesteld door een cognossement of een vrachtbrief.]1
 mindering ontvangen bedragen, alsmede alle voorschotten gedaan voor vracht of vervoer, commissie,
 verzekering of andere kosten terug te geven, en de wegens dezelfde oorzaken verschuldigde bedragen te
 betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5378,7 +5378,7 @@ betalen.]1
 
 [1 Verkochte koopwaren die nog niet zijn geleverd aan de gefailleerde of nog niet zijn verzonden
 aan de gefailleerde of voor diens rekening aan een derde, kunnen door de verkoper worden teruggehouden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5387,7 +5387,7 @@ aan de gefailleerde of voor diens rekening aan een derde, kunnen door de verkope
 [1 In het geval van de artikelen XX.197 en XX.199 kunnen de curatoren, met machtiging van de
 rechter-commissaris, levering van de koopwaren eisen tegen betaling van de prijs die tussen verkoper en
 gefailleerde bedongen is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5401,18 +5401,18 @@ de gefailleerde is bedongen, met uitsluiting van interesten en [2 schadebedingen
 schulden in de boedel blijven.
 Indien er een geschil ontstaat, doet de rechtbank op verzoek van de belanghebbenden uitspraak, op verslag
 van de rechter-commissaris.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2022-04-28/25, art. 25, 118; Inwerkingtreding : 01-01-2023>
 
 
 #### Titel VII. [1 - Grensoverschrijdende insolventie]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 1. [1 - Europese insolventieprocedures]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5426,7 +5426,7 @@ procedure geopend heeft, [2 op verzoek van de buitenlandse [3 vereffeningsdeskun
 
 het Belgisch Staatsblad. Hetzelfde geldt indien de [3 vereffeningsdeskundige]3 of de schuldenaar die zijn
 goederen in bezit houdt daarom verzoekt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 243, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 239, 122; Inwerkingtreding : 01-09-2023>
@@ -5442,7 +5442,7 @@ Bij de opening van een territoriale insolventieprocedure krachtens artikel 3, §
 als gevolg van de erkenning van een buitenlandse rechterlijke beslissing om een hoofdprocedure te openen,
 wordt de staat van faillissement op grond van de insolventie van de schuldenaar niet opnieuw onderzocht
 wanneer de hoofdinsolventieprocedure vereiste dat de schuldenaar insolvent is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5454,7 +5454,7 @@ doen overeenkomstig artikel 36 van de Insolventieverordening, moet die toezeggin
 geschreven document waarvan een behoorlijk geauthentiseerd exemplaar wordt neergelegd in het register. Een
 Nederlandse, Franse of Duitse versie moet bij het geschreven document worden gevoegd, in het geval de
 toezegging in een andere dan die talen is opgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 240, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5470,7 +5470,7 @@ secundaire insolventieprocedure worden geopend.
 Iedere belanghebbende kan evenwel bij verzoekschrift vorderen dat een [2 vereffeningsdeskundige]2 ad hoc
 wordt aangesteld die bewarende maatregelen kan nemen in verband met de uitvoering of voortzetting van
 arbeidsovereenkomsten in België gesloten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 241, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5479,7 +5479,7 @@ arbeidsovereenkomsten in België gesloten.]1
 
 [1 Elk optreden van een [2 vereffeningsdeskundige]2 in een in een andere lidstaat geopende
 insolventieprocedure gebeurt door tussenkomst van een advocaat.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 242, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5495,7 +5495,7 @@ Deze bepaling is ook van toepassing wanneer een Belgisch rechtscollege een proce
 van een vennootschapsgroep heeft geopend, zodra bij een rechtscollege van een andere lidstaat een vordering
 aanhangig wordt gemaakt tot opening van een procedure betreffende een ander lid van dezelfde groep of
 voornoemd rechtscollege een dergelijke procedure heeft geopend.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5507,7 +5507,7 @@ insolventieverordening, behoort enig verzoek van dit rechtscollege tot samenwerk
 rechtscollege van een andere lidstaat aangewezen [2 vereffeningsdeskundige]2 tot de bevoegdheid van de
 
 rechter-commissaris of de gedelegeerd rechter.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 243, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5521,13 +5521,13 @@ De communicatie kan gebeuren via elk geschikt geacht middel.
 De rechter-commissaris of de gedelegeerd rechter vermeldt in het register alle contacten die hij heeft met een
 rechtscollege van een andere lidstaat of met de door dat rechtscollege aangewezen persoon, evenals met een
 door een rechtscollege van een andere lidstaat aangewezen [2 vereffeningsdeskundige]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 244, 122; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 2. [1 - Overige grensoverschrijdende insolventieprocedures]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5535,7 +5535,7 @@ door een rechtscollege van een andere lidstaat aangewezen [2 vereffeningsdeskund
 
 [1 Dit hoofdstuk is van toepassing zodra Verordening 2015/848/EU van het Europees Parlement
 en de Raad betreffende insolventieprocedures niet van toepassing is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5550,7 +5550,7 @@ Wetboek van internationaal privaatrecht, als gevolg van de erkenning van een bui
 om een hoofdprocedure te openen, wordt de staat van faillissement op grond van de insolventie van de
 schuldenaar niet opnieuw onderzocht wanneer de hoofdinsolventieprocedure vereiste dat de schuldenaar
 insolvent is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5558,7 +5558,7 @@ insolvent is.]1
 
 [1 Iedere schuldeiser kan zijn vordering indienen in het kader van een insolventieprocedure op
 grond van artikel 118, § 1, tweede lid, van het Wetboek van internationaal privaatrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5571,7 +5571,7 @@ Belgisch Staatsblad bekendgemaakt, op voorwaarde dat de beslissing tot opening o
 het Wetboek van internationaal privaatrecht in België wordt erkend of kan worden erkend.
 Wanneer de schuldenaar een vestiging in België heeft, gebeurt de in eerste lid bedoelde bekendmaking
 ambtshalve.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 245, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5581,7 +5581,7 @@ ambtshalve.]1
 [1 De benoeming van de buitenlandse [2 vereffeningsdeskundige]2 wordt vastgesteld door
 overlegging van een voor eensluidend gewaarmerkt afschrift van het aanwijzingsbesluit of van ieder ander door
 de bevoegde buitenlandse rechter opgesteld attest. Van deze stukken kan een vertaling worden verlangd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 246, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5590,7 +5590,7 @@ de bevoegde buitenlandse rechter opgesteld attest. Van deze stukken kan een vert
 
 [1 Enig optreden van een [2 vereffeningsdeskundige]2 in een in een andere staat geopende
 insolventieprocedure gebeurt door tussenkomst van een advocaat.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 247, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5612,7 +5612,7 @@ schuldenaar die zich in België bevinden met inbegrip van deze om ze te verplaat
 het Belgische recht eerbiedigen, in het bijzonder de voorschriften inzake het tegelde maken van de goederen.
 Deze bevoegdheden mogen niet de aanwending van dwangmiddelen, noch het recht om uitspraak te doen in
 gedingen of geschillen behelzen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 248, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5625,7 +5625,7 @@ of door tussenkomst van de [2 vereffeningsdeskundige]2 of van een derde, informa
 communiceren met of anderszins samen te werken met de buitenlandse rechter of met de buitenlandse [2
 vereffeningsdeskundige]2, op voorwaarde dat de buitenlandse procedure in België erkend is of erkend kan
 worden op grond van artikel 121 van het Wetboek van internationaal privaatrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 249, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5649,7 +5649,7 @@ De communicatie kan gebeuren via elk geschikt geacht middel.
 De rechter-commissaris of de gedelegeerd rechter vermeldt in het register van de procedure alle contacten die
 hij heeft met een rechtscollege van een andere staat of met de door dat rechtscollege aangewezen persoon,
 evenals met een door een rechtscollege van een andere lidstaat aangewezen [2 vereffeningsdeskundige]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 250, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5673,7 +5673,7 @@ beheer van de tegeldemaking of het gebruik van de goederen en de onderneming van
 § 3. Op grond van zwaarwegende redenen kan de [2 vereffeningsdeskundige]2 weigeren te voldoen aan een
 verzoek om inlichtingen of andere samenwerking. De [2 vereffeningsdeskundige]2 kan de rechter-commissaris
 verzoeken een beslissing te nemen omtrent de door hem voorgenomen weigering.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 251, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5695,7 +5695,7 @@ c) het horen van getuigen omtrent de samenstelling van het vermogen van de schul
 van de buitenlandse insolventie, worden gewijzigd of beëindigd. Tenzij de beslissing omtrent het verzoek tot
 erkenning anders inhoudt, eindigen bewarende maatregelen op het moment waarop die beslissing onherroepelijk
 wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 252, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5710,7 +5710,7 @@ erkend is of erkend kan worden op grond van artikel 121 van het Wetboek van inte
 De schuldeiser die in een in het buitenland geopende insolventieprocedure een uitkering op zijn vordering heeft
 ontvangen, neemt pas deel aan de uitdeling van een in België geopende procedure, wanneer de schuldeisers van
 dezelfde rang of dezelfde categorie in die andere procedure een gelijkwaardige uitkering hebben ontvangen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 253, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5721,7 +5721,7 @@ dezelfde rang of dezelfde categorie in die andere procedure een gelijkwaardige u
 geopende insolventieprocedure terwijl hij die verbintenis had moeten uitvoeren voor de [2
 vereffeningsdeskundige]2 van die procedure, wordt bevrijd indien hij van de opening van de insolventieprocedure
 niet op de hoogte was.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 254, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5731,13 +5731,13 @@ niet op de hoogte was.]1
 [1 Indien bij het einde van een territoriale insolventieprocedure een overschot rest, draagt de in die
 procedure aangewezen [2 vereffeningsdeskundige]2 het saldo onverwijld over aan de [2
 vereffeningsdeskundige]2 van de hoofdprocedure.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 255, 122; Inwerkingtreding : 01-09-2023>
 
 
 #### Titel VII. [1 - Aansprakelijkheidsvorderingen]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5745,7 +5745,7 @@ vereffeningsdeskundige]2 van de hoofdprocedure.]1
 
 [1 Deze titel is niet van toepassing op ondernemingen als bedoeld in [2 artikel I.1, eerste lid, 1°, a)]2,
 van dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 244, 059; Inwerkingtreding : 01-05-2018>
 
@@ -5785,7 +5785,7 @@ Elk verdeling geschiedt na voorafname van de boedelschulden.
 § 6. Wanneer de persoon, bedoeld in paragraaf 1, die hoofdelijk aansprakelijk gesteld wordt, een beoefenaar is
 van een vrij beroep, dan stelt de griffier diens [2 orde of instituut]2 in kennis door een kopie te sturen van het
 vonnis.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 245, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2019-03-23/06, art. 30, 070; Inwerkingtreding : 01-05-2019>
@@ -5808,7 +5808,7 @@ gewezen lid van de directieraad of van de raad van toezicht waren of ten aanzien
 onderneming werkelijke bestuursbevoegdheid hadden of hebben gehad.
 Indien een vordering bedoeld in artikel XX.225 is ingesteld, wordt het bedrag dat op grond van die vordering
 aan de RSZ toekomt toegerekend op het bedrag van de veroordeling verkregen op grond van huidig artikel.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5837,7 +5837,7 @@ vonnis.
 § 5. Paragraaf 1 is niet van toepassing wanneer de failliet verklaarde onderneming een vzw, ivzw of stichting [3
 is waarvan de omvang niet meer dan één van de criteria bedoeld in de artikelen 3:47, § 2, of 3:51, § 2, van het
 Wetboek vennootschappen en verenigingen overstijgt]3.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 246, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 257, 122; Inwerkingtreding : 01-09-2023>
@@ -5847,17 +5847,17 @@ Wetboek vennootschappen en verenigingen overstijgt]3.]1
 
 [1 De vorderingen op grond van de artikelen XX.225, XX.226 en XX.227 worden uitsluitend
 gebracht voor de insolventierechtbank.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 #### Titel IX. [1 - Verbodsbepalingen en de rehabilitatie]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 1. [1 - Verbodsbepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5893,7 +5893,7 @@ De duur van het verbod bepaald in paragraaf 2 wordt vastgesteld door de rechtban
 § 6. De rechtbank kan het verbod voorwaardelijk opleggen voor een duur van drie jaar of de uitspraak
 opschorten voor een zelfde duur.]1 [3 De rechtbank bepaalt de voorwaarden waaraan het uitstel of de
 opschorting van de uitspraak onderworpen zijn.]3
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-06-07/07, art. 258, 122; Inwerkingtreding : 01-09-2023>
@@ -5909,7 +5909,7 @@ gelijkgesteld met de gefailleerde, opgeroepen per tegensprekelijk verzoekschrift
 griffier geeft er kennis van aan de verweerder en in voorkomend geval, aan de curator als het verzoekschrift niet
 door de curator is neergelegd.]2
 De termijn om te verschijnen is acht dagen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 259, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5924,7 +5924,7 @@ In voorkomend geval wordt het openbaar ministerie gehoord in zijn advies.
 Het vonnis wordt in openbare terechtzitting uitgesproken.
 Het wordt bekend gemaakt in het Belgisch Staatsblad en de griffier geeft er kennis van bij gerechtsbrief aan de
 gefailleerde [2 ...]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 247, 059; Inwerkingtreding : 01-05-2018>
 
@@ -5944,7 +5944,7 @@ wordt bijgestaan. Het hof kan eveneens enig ander persoon horen indien het zulks
 Het openbaar ministerie wordt gehoord in zijn advies.
 [3 Het arrest wordt door toedoen van de griffier bekendgemaakt in het Belgisch Staatsblad en aan de
 gefailleerde ter kennis gebracht.]3]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 248, 059; Inwerkingtreding : 01-05-2018>
 (3)<W 2023-06-07/07, art. 260, 122; Inwerkingtreding : 01-09-2023>
@@ -5957,7 +5957,7 @@ Onverminderd het bepaalde in het eerste lid, wordt het cassatieberoep ingeleid e
 vormen en binnen de termijnen als voorgeschreven in burgerlijke zaken. De bijstand van een advocaat bij het Hof
 van Cassatie is evenwel niet verplicht.
 Het cassatieberoep heeft geen opschortende werking.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5967,7 +5967,7 @@ Het cassatieberoep heeft geen opschortende werking.]1
 gevangenisstraf van drie maanden tot twee jaren en met geldboete van 25 euro tot 250 euro.
 De bepalingen van boek I van het Wetboek van Strafrecht, hoofdstuk VII en artikel 85 niet uitgezonderd, zijn
 op die misdrijven van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -5982,7 +5982,7 @@ voorwaarden niet heeft voldaan of aan een nieuwe insolventie procedure is onderw
 gesteld aan het uitstel of aan de opschorting van de uitspraak.
 De vordering wordt ingesteld bij tegensprekelijk verzoekschrift neergelegd op de griffie van de
 insolventierechtbank.]2
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 261, 122; Inwerkingtreding : 01-09-2023>
 
@@ -5991,12 +5991,12 @@ insolventierechtbank.]2
 
 [1 Dit hoofdstuk is niet toepasselijk bij faillissement van een onderneming die onderworpen is aan
 tuchtregels vastgesteld door of krachtens een wet.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
 ##### HOOFDSTUK 2. [1 - Rehabilitatie]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -6006,7 +6006,7 @@ tuchtregels vastgesteld door of krachtens een wet.]1
 bedragen in hoofdsom, interest en kosten, geheel heeft voldaan, kan rehabilitatie verkrijgen.
 [2 ...]2
 De gefailleerde kan na zijn overlijden worden gerehabiliteerd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 262, 122; Inwerkingtreding : 01-09-2023>
 
@@ -6018,7 +6018,7 @@ rechtsgebied waarbinnen de gefailleerde zijn woonplaats heeft. De verzoeker voeg
 kwijtingen en andere bewijsstukken.
 Het wordt neergelegd in het register.
 Het wordt in het Belgisch Staatsblad bekendgemaakt, door toedoen van de griffier.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
@@ -6029,7 +6029,7 @@ Het wordt in het Belgisch Staatsblad bekendgemaakt, door toedoen van de griffier
 en iedere andere belanghebbende kan binnen een maand na de bekendmaking in het Belgisch Staatsblad, tegen
 de rehabilitatie bij eenvoudige akte ter griffie verzet doen onder overlegging van bewijsstukken. De schuldeiser
 die verzet doet, kan nooit als partij optreden in de procedure tot rehabilitatie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -6038,7 +6038,7 @@ die verzet doet, kan nooit als partij optreden in de procedure tot rehabilitatie
 [1 Na verloop van de termijn bepaald in artikel XX.241 doet de rechtbank uitspraak. De rechtbank
 kan vooraleer uitspraak te doen, de verzoeker en derden horen.
 Wordt het verzoek geweigerd, dan kan het niet opnieuw worden ingediend dan na verloop van een jaar.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -6046,13 +6046,13 @@ Wordt het verzoek geweigerd, dan kan het niet opnieuw worden ingediend dan na ve
 
 [1 Het vonnis waarbij de rehabilitatie wordt toegestaan wordt bekend gemaakt in het Belgisch
 Staatsblad [2 door toedoen van de griffier]2.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 249, 059; Inwerkingtreding : 01-05-2018>
 
 
 #### Titel X. [1 - Intrekking faillissement]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -6068,13 +6068,13 @@ het geval van een onderneming bedoeld in [2 artikel I.1, eerste lid, 1°, c)]2, 
 activiteit wordt uitgeoefend, in voorkomend geval het ondernemingsnummer, de zetel van de activiteit en de
 identificatiegegevens van de gemachtigde, in voorkomend geval;
 2° de datum van het vonnis van faillietverklaring en de rechtbank die het heeft gewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2018-04-15/14, art. 250, 059; Inwerkingtreding : 01-05-2018>
 
 
 #### Titel XI. [1 Evaluatie van de insolventieprocedures]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -6086,7 +6086,7 @@ die bevoegd is voor Justitie of de in dit boek beoogde procedures passend zijn v
 stichtingen als bedoeld in het Wetboek van vennootschappen en verenigingen]2. Die studie stelt, zo nodig,
 denksporen voor wetgevende verbeteringen voor.
 De studie wordt bezorgd aan de Kamer van volksvertegenwoordigers.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 (2)<W 2023-06-07/07, art. 264, 122; Inwerkingtreding : 01-09-2023>
 

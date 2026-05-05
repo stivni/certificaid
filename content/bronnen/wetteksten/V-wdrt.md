@@ -34,7 +34,7 @@ geschriften" genaamd, gevestigd op de [2 in België opgemaakte akten]2 bedoeld i
 1° de notaris voor zijn akten;
 2° de gerechtsdeurwaarder voor zijn akten;
 3° [2 ...]2.]1
-----------
+
 (1)<W 2022-05-18/04, art. 2, 052; Inwerkingtreding : 01-07-2022>
 (2)<W 2025-12-19/35, art. 2, 065; Inwerkingtreding : 10-01-2026>
 
@@ -54,7 +54,7 @@ Inwerkingtreding : 01-01-2007>
 ## Art. 3
 
 [1 De notariële akten worden onderworpen aan een recht van 50 euro.]1
-----------
+
 (1)<W 2022-05-18/04, art. 3, 052; Inwerkingtreding : 01-07-2022>
 
 
@@ -64,7 +64,7 @@ Inwerkingtreding : 01-01-2007>
 1° de akten die aan hypothecaire overschrijving onderworpen zijn en de akten die de vestiging, de bevestiging
 of de erkenning van een bedongen hypotheek op een onroerend goed inhouden;
 2° de akten verleden voor vennootschappen met rechtspersoonlijkheid.]1
-----------
+
 (1)<W 2022-05-18/04, art. 4, 052; Inwerkingtreding : 01-07-2022>
 
 
@@ -117,7 +117,7 @@ en vertrouwensdiensten voor elektronische transacties in de interne markt en tot
 1999/93/EG of een gekwalificeerde elektronische handtekening in de zin van artikel 3.12. van dezelfde
 verordening, door de persoon [2 ...]2 uitgaan.
 [2 ...]2.]1
-----------
+
 (1)<W 2022-05-18/04, art. 8, 052; Inwerkingtreding : 01-07-2022>
 (2)<W 2025-12-19/35, art. 5, 065; Inwerkingtreding : 10-01-2026>
 
@@ -130,7 +130,7 @@ De betaling van het recht kan niet worden uitgesteld onder voorwendsel dat de re
 akte tot titel strekt, zou afhangen van een schorsende voorwaarde, een goedkeuring, een machtiging of een
 bekrachtiging.
 
-----------
+
 (1)<W 2026-02-10/05, art. 2, 067; Inwerkingtreding : 09-03-2026>
 
 
@@ -142,7 +142,7 @@ bekrachtiging.
 [1 Voor elke overtreding van de verplichting het recht te kwijten, is de belastingschuldige bovendien een
 boete verschuldigd van drie maal het ontdoken recht, met een minimum van 75 euro, voor de door hem of door
 zijn tussenkomst opgestelde akte.]1
-----------
+
 (1)<W 2025-12-19/35, art. 6, 065; Inwerkingtreding : 10-01-2026>
 
 
@@ -157,7 +157,7 @@ overtreding:
 1° de notaris die het neerleggen onder zijn minuten aanvaardt van een akte [2 ...]2 waarvan het verplichte recht
 niet is voldaan;
 2° de [1 ambtenaar]1 die een dergelijke akte [2 ...]2 registreert.
-----------
+
 (1)<W 2021-02-07/01, art. 27, 046; Inwerkingtreding : 01-03-2021>
 (2)<W 2025-12-19/35, art. 8, 065; Inwerkingtreding : 10-01-2026>
 
@@ -185,7 +185,7 @@ zij tot geen andere doeleinden of door geen andere personen worden aangewend op 
 aan twintigmaal het ontdoken recht [1 ...]1. Bedoelde boete wordt persoonlijk en zonder verhaal opgelopen door
 al wie dit verbod overtreedt.
 
-----------
+
 (1)<W 2025-12-19/35, art. 9, 065; Inwerkingtreding : 10-01-2026>
 
 
@@ -195,7 +195,7 @@ al wie dit verbod overtreedt.
 Wetboek of een koninklijk besluit genomen in uitvoering van dit Wetboek, wordt als niet bestaande beschouwd
 indien het niet gedaan werd overeenkomstig dit Wetboek of bij het in uitvoering van dit Wetboek genomen
 koninklijk besluit.]1
-----------
+
 (1)<W 2026-02-10/05, art. 3, 067; Inwerkingtreding : 09-03-2026>
 
 
@@ -240,7 +240,7 @@ notarisambt;]2
 [6 15° de akten van erfopvolging bedoeld in artikel 3.30, § 1, 7°, van het Burgerlijk Wetboek, op voorwaarde dat
 de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte
 opgesteld wordt binnen de 6 maanden na het overlijden.]6
-----------
+
 (1)<W 2017-07-06/24, art. 120, 023; Inwerkingtreding : 03-08-2017>
 (2)<W 2017-07-06/24, art. 203, 023; Inwerkingtreding : 03-08-2017>
 (3)<W 2022-01-21/03, art. 90,b, 049; Inwerkingtreding : 10-01-2022>
@@ -255,7 +255,7 @@ opgesteld wordt binnen de 6 maanden na het overlijden.]6
 
 [1 Een akte waarvan de tekst geen melding maakt van de oorzaak van de vrijstelling van het recht,
 vermeldt die oorzaak bovenaan op de akte, op straffe het voordeel ervan te verliezen.]1
-----------
+
 (1)<W 2025-12-19/35, art. 11, 065; Inwerkingtreding : 10-01-2026>
 
 
@@ -269,11 +269,11 @@ verschuldigde bedrag werd betaald]1.
 De Koning bepaalt de wijze waarop de teruggave geschiedt, de formaliteiten en voorwaarden waarvan zij
 afhankelijk wordt gesteld, alsmede de ontvanger die bevoegd is om ze uit te voeren.
 
-----------
+
 (1)<W 2025-12-19/35, art. 12, 065; Inwerkingtreding : 10-01-2026>
 
 Titel VIIbis. [1 Vervolgingen en gedingen - Zekerheden gegeven aan de Schatkist]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 73, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -290,7 +290,7 @@ De Koning kan bepalen voor welke moeilijkheden met betrekking tot de heffing en 
 rechten tussenkomst door de fiscale bemiddelingsdienst is uitgesloten.
 De minister van Financiën gaat dadingen aan met de belastingplichtigen, voor zover deze niet leiden tot
 vrijstelling of vermindering van belasting.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 74, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -301,7 +301,7 @@ dwangschrift.
 Het wordt door de met de invordering belaste ontvanger uitgevaardigd; het wordt geviseerd en uitvoerbaar
 verklaard door de bevoegde adviseur-generaal van de administratie belast met de vestiging van de rechten
 bedoeld [2 in dit boek van het Wetboek]2 en bij deurwaardersexploot betekend.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 75, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-12-20/04, art. 26, 048; Inwerkingtreding : 07-01-2022>
 
@@ -309,7 +309,7 @@ bedoeld [2 in dit boek van het Wetboek]2 en bij deurwaardersexploot betekend.]1
 ## Art. 23.3
 
 [1 De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit door een rechtsvordering.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 76, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -330,7 +330,7 @@ hetzij van een provisionele storting, hetzij van een borgstelling, voor het gehe
 dwangschrift gevorderde sommen. Het bevel is uitvoerbaar niettegenstaande beroep.
 Ingeval het verzet tegen dwangschrift verworpen werd, kan geen beroep tegen de rechterlijke beslissing geldig
 aangetekend worden alvorens het bedrag der verschuldigde sommen geconsigneerd werd.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 77, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-02-07/01, art. 28, 046; Inwerkingtreding : 01-03-2021>
 (3)<W 2022-11-20/01, art. 19, 053; Inwerkingtreding : 01-01-2023>
@@ -855,13 +855,13 @@ de minister van Financiën, in aanmerking komen voor een terugbetaling.
 #### Titel I. Taks op de beursverrichtingen [1 ...]1 <Oorspronkelijke titel VIII vernummerd tot titel I bij W 2006-12-
 19/33, art. 42, Inwerkingtreding : 01-01-2007>
 
-----------
+
 (1)<W 2021-01-26/12, art. 128, 044; Inwerkingtreding : 20-02-2021>
 
 
 ##### Hoofdstuk I. Beursverrichtingen [1 ...]1 <Opschrift "Sectie" vervangen door "Hoofdstuk" bij W 2006-12-19/33,
 art. 41, Inwerkingtreding : 01-01-2007>
-----------
+
 (1)<W 2021-01-26/12, art. 129, 044; Inwerkingtreding : 20-02-2021>
 
 
@@ -880,7 +880,7 @@ wanneer het order daartoe rechtstreeks of onrechtstreeks aan een in het buitenla
 wordt gegeven :
 - hetzij door een natuurlijke persoon met gewone verblijfplaats in België;
 - hetzij door een rechtspersoon voor rekening van een zetel of een vestiging ervan in België.]1
-----------
+
 (1)<W 2016-12-25/01, art. 122, 021; Inwerkingtreding : 01-01-2017>
 
 
@@ -908,7 +908,7 @@ vastgoedvennootschap;
 3° onder kapitalisatieaandeel : een aandeel uitgegeven door een beleggingsvennootschap bedoeld in 1°, eerste
 of tweede streepje, waarvoor de statuten van de vennootschap geen uitkering van de netto-opbrengst voorzien
 en dat niet bedoeld is in artikel 19, § 1, 4° , van het Wetboek van de inkomstenbelastingen 1992.]1
-----------
+
 (1)<W 2017-12-25/03, art. 21, 028; Inwerkingtreding : 01-01-2018>
 
 
@@ -934,7 +934,7 @@ Voor de in artikel 120, 3°, vermelde verrichtingen, wordt het tarief van de tak
 § 2. [In afwijking van § 1, wordt het tarief van de taks vastgesteld op [4 1,32 pct.]4 voor de in artikel 120, 1°,
 vermelde verrichtingen, indien ze slaan op kapitalisatieaandelen.] <W 2004-12-27/30, art. 345, Inwerkingtreding :
 15-07-2004>
-----------
+
 (1)<W 2011-12-28/01, art. 58, 002; Inwerkingtreding : 01-01-2012>
 (3)<W 2014-05-12/18, art. 100, 015; Inwerkingtreding : 16-07-2014>
 (4)<W 2014-12-19/07, art. 99, 016; Inwerkingtreding : 01-01-2015>
@@ -953,7 +953,7 @@ afzonderlijk verschuldigd of de verkoop of afstand en op de aankoop of verwering
 3° onder artikel 120, 3°, is de taks enkel verschuldigd uit hoofde van de afstand van het aandeel aan de
 beleggingsvennootschap [3 of aan de gereglementeerde vastgoedvennootschap]3.
 [Oorspronkelijke § 2 opgeheven] <W 2004-12-27/30, art. 346, Inwerkingtreding : 15-07-2004>
-----------
+
 (1)<W 2011-12-28/01, art. 59, 002; Inwerkingtreding : 01-01-2012>
 (2)<W 2014-12-19/07, art. 100, 016; Inwerkingtreding : 01-01-2015>
 (3)<W 2014-05-12/18, art. 101, 015; Inwerkingtreding : 16-07-2014 (KB 2014-07-13/01, art. 33)>>
@@ -977,7 +977,7 @@ het Europees Parlement en de Raad van 13 juli 2009 tot coördinatie van de wette
 bepalingen betreffende bepaalde instellingen voor collectieve belegging in effecten;
 b) een collectieve beleggingsinstelling gevestigd buiten het grondgebied waarop het Verdrag betreffende de
 werking van de Europese Unie krachtens zijn artikel 355 van toepassing is.]1
-----------
+
 (1)<W 2021-02-07/01, art. 29, 046; Inwerkingtreding : 01-03-2021>
 
 
@@ -989,7 +989,7 @@ een bedrag van meer dan [3 1 300 euro]3, behalve wat betreft [1 de verrichtingen
 eerste lid, 2°, [2 voor welke verrichtingen dat bedrag op [3 1 600 euro]3 wordt gebracht, en voor de
 verrichtingen met kapitalisatieaandelen, voor welke verrichtingen dat bedrag op [3 4 000 euro]3 wordt
 gebracht]2]1.
-----------
+
 (1)<W 2012-06-22/02, art. 47, 003; Inwerkingtreding : 01-08-2012>
 (2)<W 2014-12-19/07, art. 101, 016; Inwerkingtreding : 01-01-2015>
 (3)<W 2016-12-25/01, art. 124, 021; Inwerkingtreding : 01-01-2017>
@@ -1014,7 +1014,7 @@ Het niet afgeven van het in artikel 127 bedoelde borderel, wordt gestraft met ee
 ontdoken taks zonder dat ze minder dan 1 000 euro kan bedragen.
 § 3. De elementen die in de in paragraaf 1 bedoelde opgave moeten worden meegedeeld evenals het bevoegde
 kantoor worden door de Koning bepaald.]1
-----------
+
 (1)<W 2016-12-25/01, art. 125, 021; Inwerkingtreding : 01-01-2017>
 (2)<W 2022-11-20/01, art. 20, 053; Inwerkingtreding : 01-01-2023>
 (3)<W 2026-02-10/05, art. 5, 067; Inwerkingtreding : 09-03-2026>
@@ -1075,7 +1075,7 @@ financiële instrumenten en tot reorganisatie van de beschermingsregelingen voor
 instrumenten doet uitvoeren in het kader van het beheer van door dit fonds ingestelde of beheerde beleggers- of
 depositobeschermingsregelingen;]9
 15° [...] <W 2004-12-15/39, art. 68, Inwerkingtreding : 11-02-2005>
-----------
+
 (1)<W 2013-06-17/06, art. 63, 008; Inwerkingtreding : 08-07-2013>
 (2)<W 2014-04-25/36, art. 81, 014; Inwerkingtreding : 16-05-2014>
 (3)<W 2014-05-12/18, art. 102, 015; Inwerkingtreding : 16-07-2014>
@@ -1096,7 +1096,7 @@ van derden, hetzij voor hun eigen rekening doen.
 [1 Wanneer evenwel de tussenpersoon van beroep in het buitenland gevestigd is, wordt de ordergever
 schuldenaar van de belasting en is hij onderworpen aan de verplichtingen bedoeld in artikel 125, tenzij hij kan
 aantonen dat de taks werd betaald.]1
-----------
+
 (1)<W 2016-12-25/01, art. 123, 021; Inwerkingtreding : 01-01-2017>
 
 
@@ -1112,7 +1112,7 @@ In geval van overlijden van de aansprakelijke vertegenwoordiger, van intrekking 
 gebeurtenis die tot zijn onbevoegdheid leidt, wordt dadelijk in zijn vervanging voorzien.
 De Koning bepaalt de voorwaarden en nadere bepalingen van erkenning van de aansprakelijke
 vertegenwoordiger.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-25/01, art. 126, 021; Inwerkingtreding : 01-01-2017>
 
 
@@ -1139,7 +1139,7 @@ e) het bedrag of de waarde van de verrichtingen;
 f) het bedrag van de taks op de beursverrichtingen of de reporten dat werd geheven;
 g) in geval van vernietiging van het borderel, de referentie van het vernietigde borderel naast de [1 aanduiding
 van het vernietigingsborderel]1.
-----------
+
 (1)<W 2026-02-10/05, art. 7, 067; Inwerkingtreding : 09-03-2026>
 
 
@@ -1171,7 +1171,7 @@ Bij beëindiging van de zaken, mogen die stukken worden vernield, mits voorafgaa
 bevoegde adviseur-generaal van de administratie belast met de vestiging of de inning en de invordering van de
 taksen bedoeld in Boek II]1 uit het ressort.
 
-----------
+
 (1)<W 2016-04-27/04, art. 86, 018; Inwerkingtreding : 16-05-2016>
 
 
@@ -1184,7 +1184,7 @@ en domeinen [2 ...]2, zonder verplaatsing inzage te verlenen van de duplicaten v
 listings die hen vervangen, van de borderellen betreffende de verrichtingen gedaan voor hun eigen rekening, van
 hun boeken, contracten en van alle andere bescheiden in verband met hun verrichtingen die over openbare
 fondsen gaan.
-----------
+
 (1)<W 2014-04-25/36, art. 82, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 87, 018; Inwerkingtreding : 16-05-2016>
 
@@ -1239,7 +1239,7 @@ betaling;
 oorspronkelijk verstrekte borderel tot gevolg heeft.
 Er wordt geen gevolg gegeven aan aanvragen van terugbetaling indien het terug te betalen bedrag minder dan
 10 euro bedraagt.]1
-----------
+
 (1)<W 2026-02-10/05, art. 9, 067; Inwerkingtreding : 01-01-2028>
 
 
@@ -1315,7 +1315,7 @@ Er wordt geen gevolg gegeven aan aanvragen van terugbetaling indien het terug te
 
 
 #### Titel II. [1 Taks op de effectenrekeningen]1
-----------
+
 (1)<W 2018-02-07/14, art. 2, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1329,7 +1329,7 @@ titel.
 De taks is evenwel niet verschuldigd indien het aandeel van de titularis in de in het eerste lid bedoelde
 gemiddelde waarde van de belastbare financiële instrumenten op die rekeningen minder bedraagt dan 500 000
 euro.]1
-----------
+
 (1)<W 2018-02-07/14, art. 3, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1402,7 +1402,7 @@ begrippen voor de toepassing van genoemde richtlijn;
 - de laatst publiekelijk beschikbare marktwaarde, of bij gebrek daaraan, de naar best vermogen geschatte
 waarde wanneer het financieel instrument niet is opgenomen in een overzicht van financiële instrumenten
 bedoeld in het eerste streepje.]1
-----------
+
 (1)<W 2018-02-07/14, art. 4, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1410,7 +1410,7 @@ van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 ## Art. 153
 
 [1 Het tarief van de taks wordt vastgesteld op 0,15 pct.]1
-----------
+
 (1)<W 2018-02-07/14, art. 5, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1449,7 +1449,7 @@ In het geval bedoeld in artikel 152, 1°, b), wordt voor het bepalen van de gemi
 belastbare instrumenten rekening gehouden met een referentieperiode bedoeld in artikel 152, 6°. De
 referentiepunten tijdens de voornoemde referentieperiode waarop de belastbare instrumenten nog op een
 effectenrekening werden gehouden voor de omzetting ervan, worden geacht een nulwaarde te kennen.]1
-----------
+
 (1)<W 2018-02-07/14, art. 6, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1472,14 +1472,14 @@ referentieperiode.
 De Belgische tussenpersoon stelt in het overzicht als bedoeld in het tweede lid de mogelijkheid tot inhouding
 voor aan de titularis indien zijn aandeel in de effectenrekeningen bedoeld in artikel 152, 1°, a) bij die Belgische
 tussenpersoon het in artikel 151, tweede lid, bedoelde bedrag niet overschrijdt.]1
-----------
+
 (1)<W 2018-02-07/14, art. 7, 029; Inwerkingtreding : 10-03-2018>
 
 
 ## Art. 156
 
 [1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
-----------
+
 (1)<W 2018-02-07/14, art. 8, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1493,7 +1493,7 @@ tussenpersoon gelijk is aan of meer bedraagt dan het in artikel 151, tweede lid,
 2° de titularis, uiterlijk op de laatste dag van de tweede maand die volgt op het einde van de referentieperiode,
 geopteerd heeft voor de bevrijdende inhouding op de effectenrekeningen bedoeld in artikel 152, 1°, a), door de
 Belgische tussenpersoon, wanneer de taks niet werd ingehouden zoals bepaald in 1°.]1
-----------
+
 (1)<W 2018-02-07/14, art. 9, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
 van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1524,7 +1524,7 @@ wordt een gezamenlijke aangifte ingediend, waarvan de nadere regels door de Koni
 Indien een aangifte wordt ingediend als bedoeld in het derde lid, staat elke medegerechtigde in de
 onverdeeldheid, elke vruchtgebruiker of elke blote eigenaar, alsook de titularis, hoofdelijk in voor de betaling van
 de taks.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 10, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1540,7 +1540,7 @@ is.
 In geval van overlijden van de aansprakelijke vertegenwoordiger, van intrekking van zijn erkenning of van een
 gebeurtenis die tot zijn onbevoegdheid leidt, wordt dadelijk in zijn vervanging voorzien.
 De Koning bepaalt de voorwaarden en nadere regels van erkenning van de aansprakelijke vertegenwoordiger.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 11, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1558,7 +1558,7 @@ een schaal waarvan de trappen door de Koning worden vastgesteld en gaande van 10
 verschuldigde taks. Bij ontstentenis van kwade trouw kan worden afgezien van het minimum van 10 pct.
 Wanneer de taks niet binnen de in paragraaf 1 vastgestelde termijn is betaald, is de interest van rechtswege
 verschuldigd met ingang van de dag waarop de betaling had moeten geschieden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 12, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1593,7 +1593,7 @@ een schaal waarvan de trappen door de Koning worden vastgesteld en gaande van 10
 verschuldigde taks. Bij ontstentenis van kwade trouw kan worden afgezien van het minimum van 10 pct.
 Wanneer de taks niet binnen de in paragraaf 1 vastgestelde termijn is betaald, is de interest van rechtswege
 verschuldigd met ingang van de dag waarop de betaling had moeten geschieden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 13, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -1648,7 +1648,7 @@ meer bedraagt dan 10 euro.
 § 5. De Koning bepaalt de wijze en de voorwaarden volgens welke de terugbetaling geschiedt en bepaalt tevens
 de termijn binnen dewelke de terugbetaling moet worden gevraagd met een maximumgrens van twee jaar te
 rekenen van de dag waarop de taks opeisbaar is geworden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 14, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 (2)<W 2019-05-02/21, art. 23, 037; Inwerkingtreding : 27-05-2019>
@@ -1663,13 +1663,13 @@ Voor elke foutieve mededeling of gebrek aan mededeling gevraagd met toepassing v
 geldboete van 750 tot 1 250 euro opgelegd worden. De Koning legt de schaal van de administratieve geldboetes
 vast en regelt hun toepassingsmodaliteiten. Bij ontstentenis van kwade trouw kan worden afgezien van de
 minimumboete van 750 euro.]1
-----------
+
 (1)<Ingevoegd bij W 2018-02-07/14, art. 15, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
 
 #### Titel III. [1 - Taks op de inscheping van een luchtvaartuig]1
-----------
+
 (1)<W 2022-03-28/01, art. 28, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1694,7 +1694,7 @@ alsmede ieder die uitsluitend wordt vervoerd om aan boord van een ander luchtvaa
 dat andere luchtvaartuig werkzaamheden als lid van het boordpersoneel te verrichten;
 7° bestemming: de plaats naar waar de luchtvaartmaatschappij de passagier moet vervoeren, in voorkomend
 geval, krachtens de vervoerovereenkomst.]1
-----------
+
 (1)<W 2022-03-28/01, art. 29, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1720,7 +1720,7 @@ bijzondere voorwaarden opgelegd voor de toelating tot het luchtverkeer van param
 tussenlanding;
 5° voor het uitvoeren van een professionele activiteit in het luchtruim waarvoor het gebruik van een
 luchtvaartuig noodzakelijk of het meest efficiënt is.]1
-----------
+
 (1)<W 2022-03-28/01, art. 30, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1745,7 +1745,7 @@ aard en de ernst van de overtreding, volgens een schaal waarvan de trappen door 
 vastgesteld en gaande van 250 tot 250 000 euro.
 De Koning bepaalt de voorwaarden en modaliteiten van erkenning van de aansprakelijke vertegenwoordiger,
 alsook de modaliteiten van de registratie van de luchtvaartmaatschappijen.]1
-----------
+
 (1)<W 2022-03-28/01, art. 31, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1756,7 +1756,7 @@ alsook de modaliteiten van de registratie van de luchtvaartmaatschappijen.]1
 rekenen vanaf het ARP van de luchthaven met het hoogste jaarlijkse aantal passagiers van het land;
 2° [2 5 euro voor een passagier met een bestemming verder dan onder 1°.]2
 3° [2 ...]2]1
-----------
+
 (1)<W 2022-03-28/01, art. 32, 050; Inwerkingtreding : 01-04-2022>
 (2)<W 2025-07-18/06, art. 2, 063; Inwerkingtreding : 29-07-2025>
 
@@ -1764,7 +1764,7 @@ rekenen vanaf het ARP van de luchthaven met het hoogste jaarlijkse aantal passag
 ## Art. 163
 
 [1 De taks wordt verschuldigd op het tijdstip waarop de passagier met een luchtvaartuig vertrekt.]1
-----------
+
 (1)<W 2022-03-28/01, art. 33, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1775,7 +1775,7 @@ rekenen vanaf het ARP van de luchthaven met het hoogste jaarlijkse aantal passag
 een onderbroken vlucht hernemen;
 2° de passagiers van een luchtvaartuig dat uitsluitend voor medische of humanitaire doeleinden wordt
 gebruikt.]1
-----------
+
 (1)<W 2022-03-28/01, art. 34, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1790,7 +1790,7 @@ gaande van 250 euro tot 25 000 euro.
 De Koning kan voor de juiste heffing van de taks nuttige en noodzakelijke elementen bepalen, waaronder voor
 de identificatie van de luchtvaartmaatschappijen: hun ondernemingsnummer in geval van rechtspersonen, of hun
 rijksregisternummer in geval van natuurlijke personen.]1
-----------
+
 (1)<W 2022-03-28/01, art. 35, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1808,7 +1808,7 @@ taks.
 Bij niet-aangifte, laattijdige, onnauwkeurige of onvolledige aangifte, alsook bij niet-betaling of laattijdige betaling,
 is een boete verschuldigd. De Koning bepaalt de boete volgens een schaal van 10 pct. tot 200 pct. van de taks,
 naargelang de aard of de ernst van de overtreding.]1
-----------
+
 (1)<W 2022-03-28/01, art. 36, 050; Inwerkingtreding : 01-04-2022>
 (2)<W 2022-11-20/01, art. 21, 053; Inwerkingtreding : 01-01-2023>
 (3)<W 2026-02-10/05, art. 10, 067; Inwerkingtreding : 09-03-2026>
@@ -1820,7 +1820,7 @@ naargelang de aard of de ernst van de overtreding.]1
 met de vestiging of de inning en de invordering van de taksen bedoeld in Boek II, zonder verplaatsing inzage te
 verlenen van al zijn documenten die de juiste heffing van de taks kunnen aantonen.
 Een boete van 250 tot 2 500 euro is verschuldigd voor elke weigering van overlegging.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-28/01, art. 37, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1828,14 +1828,14 @@ Een boete van 250 tot 2 500 euro is verschuldigd voor elke weigering van overleg
 
 [1 In geval van betaling van een bedrag hoger dan het verschuldigde bedrag wordt het teveel
 betaalde teruggegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-28/01, art. 38, 050; Inwerkingtreding : 01-04-2022>
 
 
 ## Art. 166/3
 
 [1 De Koning kan het gebruik verplichten van een model van aangifte en van vraag tot teruggave.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-28/01, art. 39, 050; Inwerkingtreding : 01-04-2022>
 
 
@@ -1902,7 +1902,7 @@ ongeacht de betrokken tak.
 Onder vestiging, bedoeld in het tweede lid, wordt verstaan de hoofdvestiging van de rechtspersoon en elke
 andere duurzame aanwezigheid van die rechtspersoon in welke vorm dan ook.
 
-----------
+
 (1)<W 2012-12-13/03, art. 75, 005; Inwerkingtreding : 30-12-2012>
 
 
@@ -1982,7 +1982,7 @@ inhoud hebben.
 § 4. Bij niet-naleving van één van de in § 3 vermelde voorwaarden wordt op alle toezeggingen begrepen in een in
 § 3 bedoeld plan, het in § 1 bepaalde tarief toegepast.
 
-----------
+
 (1)<W 2018-02-18/07, art. 67, 030; Inwerkingtreding : 30-06-2018>
 (2)<W 2018-12-06/23, art. 51, 033; Inwerkingtreding : 27-03-2019>
 (3)<W 2025-12-19/35, art. 14, 065; Inwerkingtreding : 10-01-2026>
@@ -2022,7 +2022,7 @@ beantwoorden aan de criteria en voorwaarden bepaald in de wet van 26 december 20
 bepalingen inzake de thematische volksleningen.]2
 Het begrip levensverzekering duidt op de personenverzekeringen tot uitkering van een vast bedrag, waarbij het
 zich voordoen van het verzekerde voorval alleen afhankelijk is van de menselijke levensduur.
-----------
+
 (1)<W 2012-12-27/06, art. 104, 006; Inwerkingtreding : 01-01-2013. Is van toepassing op de premies die
 vanaf 1 januari 2013 worden betaald.>
 (2)<W 2013-12-26/07, art. 25, 013; Inwerkingtreding : 01-01-2014>
@@ -2038,7 +2038,7 @@ vrijgesteld zijn van de belasting over de toegevoegde waarde overeenkomstig arti
 Wetboek van de belasting over de toegevoegde waarde]1, in de loop van het belastingjaar te betalen of te dragen
 door hetzij de verzekeringnemers, hetzij de aangeslotenen en hun werkgevers.
 
-----------
+
 (1)<W 2023-12-28/01, art. 2, 058; Inwerkingtreding : 08-01-2024>
 
 
@@ -2162,7 +2162,7 @@ bijdragen die vanaf 1 januari 2006 vervallen>
 [Lid 3 opgeheven] <W 2005-12-27/30, art. 139, h), Inwerkingtreding : van toepassing op de premies en
 bijdragen die vanaf 1 januari 2006 vervallen>
 
-----------
+
 (1)<W 2012-06-22/02, art. 67, 003; Inwerkingtreding : 01-01-2012, van toepassing op de premies en
 bijdragen, wat de overdrachten van voorzieningen betreft; en inwerkingtreding : 01-07-2012, van toepassing op
 de premies en bijdragen, wat de overdrachten van kapitalen en afkoopwaarden van levensverzekeringen
@@ -2203,7 +2203,7 @@ toegevoegde waarde;]1
 waarop het contract betrekking heeft in de in artikel 1792, § 2, bedoelde gevallen.]2 <W 2005-12-27/30, art. 140,
 b), Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006 vervallen>
 
-----------
+
 (1)<W 2023-12-28/01, art. 3, 058; Inwerkingtreding : 08-01-2024>
 (2)<W 2024-05-12/11, art. 81, 060; Inwerkingtreding : 08-06-2024>
 (3)<W 2026-02-10/05, art. 11, 067; Inwerkingtreding : 09-03-2026>
@@ -2225,7 +2225,7 @@ gebeurtenis die tot zijn onbevoegdheid leidt, wordt dadelijk in zijn vervanging 
 Elke overtreding van deze bepalingen wordt gestraft met een boete van 250 euro.
 De Koning bepaalt de voorwaarden en modaliteiten van erkenning van de aansprakelijke vertegenwoordiger.
 
-----------
+
 (1)<W 2016-04-27/04, art. 89, 018; Inwerkingtreding : 16-05-2016>
 (2)<W 2021-06-27/02, art. 100, 047; Inwerkingtreding : 10-07-2021>
 
@@ -2254,7 +2254,7 @@ voor de opgave met betrekking tot het voorschot bedoeld in het tweede lid, worde
 Wanneer de opgave niet binnen de vastgestelde termijnen ingediend is, wordt een boete verbeurd van [12,50
 EUR] per week vertraging. Iedere begonnen week wordt voor een gehele week gerekend. <KB 2000-07-20/64,
 art. 2, 10, Inwerkingtreding : 01-01-2002>
-----------
+
 (1)<W 2013-06-17/06, art. 66, 008; Inwerkingtreding : 08-07-2013. Is van toepassing op premies en
 werkgeversbijdragen of persoonlijke bijdragen die vervallen vanaf november 2013>
 (2)<W 2022-11-20/01, art. 22, 053; Inwerkingtreding : 01-01-2023>
@@ -2271,7 +2271,7 @@ In dat geval is de in artikel 177, 1°, bedoelde belastingschuldige gehouden tot
 artikel 1791.
 De terugbetaling van de teveel betaalde taks op de met verzekeringen samenhangende diensten wordt gedaan
 aan de belastingschuldige die de verplichtingen bepaald in artikel 1791 heeft nageleefd.]1
-----------
+
 (1)<Ingevoegd bij W 2023-12-28/01, art. 5, 058; Inwerkingtreding : 08-01-2024>
 
 
@@ -2293,7 +2293,7 @@ verrekeningen en het verschuldigd saldo.
 De nadere regels, de vorm en de inhoud van de aangifte worden door de Koning vastgesteld.
 Indien de aangifte niet binnen de bepaalde termijn wordt ingediend, wordt een boete verbeurd van 12,50 euro
 per week vertraging. Iedere begonnen week wordt voor een gehele week aangerekend.]1
-----------
+
 (1)<W 2024-05-12/11, art. 82, 060; Inwerkingtreding : 08-06-2024>
 
 
@@ -2364,7 +2364,7 @@ wanneer die overeenkomsten betrekking hebben op een in België gelegen risico.] 
 Inwerkingtreding : 01-01-2007>
 [De Koning treft elke aanvullende regeling die een juiste heffing van de jaarlijkse taks op de [3
 verzekeringsverrichtingen]3 kan verzekeren.] <W 1990-07-20/38, art. 12, Inwerkingtreding : 01-07-1990>
-----------
+
 (1)<W 2014-04-25/36, art. 84, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 90, 018; Inwerkingtreding : 16-05-2016>
 (3)<W 2026-02-10/05, art. 13, 067; Inwerkingtreding : 09-03-2026>
@@ -2432,7 +2432,7 @@ vertegenwoordiger, die de vreemde verzekeraars ter utivoering van artikel 178, [
 aannemen, moet zich persoonlijk en schriftelijk jegens de Staat verbinden om de bij de huidige titel bepaalde taks
 en de boeten die mochten verschuldigd zijn, te betalen.
 
-----------
+
 (1)<W 2021-06-27/02, art. 101, 047; Inwerkingtreding : 10-07-2021>
 
 
@@ -2450,7 +2450,7 @@ Wanneer de opgave niet binnen de bedoelde termijn werd ingediend, wordt een boet
 EUR] per week vertraging. Iedere begonnen week wordt voor een gehele week gerekend. <KB 2000-07-20/64,
 art. 2, 10, Inwerkingtreding : 01-01-2002>
 
-----------
+
 (1)<W 2022-11-20/01, art. 23, 053; Inwerkingtreding : 01-01-2023>
 (2)<W 2026-02-10/05, art. 14, 067; Inwerkingtreding : 09-03-2026>
 
@@ -2485,7 +2485,7 @@ de taksen bedoeld in Boek II]1 [2 ...]2. <W 2006-12-27/32, art. 340, Inwerkingtr
 Elke weigering van mededeling wordt met een boete van [250 tot 2.500 EUR] gestraft. <KB 2000-07-20/64, art.
 2, 10, Inwerkingtreding : 01-01-2002, zelf gewijzigd bij KB 2001-07-13/50, art. 42, 5°, Inwerkingtreding : 01-01-
 2002>
-----------
+
 (1)<W 2014-04-25/36, art. 85, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 91, 018; Inwerkingtreding : 16-05-2016>
 
@@ -2588,7 +2588,7 @@ toegekend worden overeenkomstig de voorwaarden bepaald in artikel 171, 1°, f) e
 inkomstenbelastingen 1992.
 [2 § 4. Gedurende de jaren 2015 tot 2019 wordt elk jaar een vervroegde inning van 1 pct. uitgevoerd van de
 taks als bedoeld in § 2/1.]2
-----------
+
 (1)<W 2012-06-22/02, art. 78, 003; Inwerkingtreding : 30-09-2012 (zie KB 2012-09-27/01, art. 1>
 (2)<W 2014-12-19/07, art. 103, 016; Inwerkingtreding : 01-01-2015>
 
@@ -2625,7 +2625,7 @@ van het Wetboek diverse rechten en taksen, is de vervroegde inning betaalbaar to
 tijdstip van de betaling van de taks.
 Het bedrag van de vervroegde inning wordt afgetrokken van de taks verschuldigd op het tijdstip bepaald bij
 artikel 184.]1
-----------
+
 (1)<W 2014-12-19/07, art. 104, 016; Inwerkingtreding : 01-01-2015>
 
 
@@ -2663,7 +2663,7 @@ Wanneer de opgave niet binnen de vastgestelde termijn is ingediend, wordt een bo
 EUR] per week vertraging. Iedere begonnen week wordt voor een gehele week gerekend. <KB 2000-07-20/64,
 art. 2, 10, Inwerkingtreding : 01-01-2002>
 
-----------
+
 (1)<W 2014-12-19/07, art. 105, 016; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-11-20/01, art. 24, 053; Inwerkingtreding : 01-01-2023>
 (3)<W 2026-02-10/05, art. 15, 067; Inwerkingtreding : 09-03-2026>
@@ -2697,7 +2697,7 @@ terugbetaald:
 betaling;
 2° wanneer het gaat om een verzekeringscontract bij leven waarvoor de verzekeraar, op het ogenblik dat de
 verzekerde gebeurtenis zich voordoet, van elke verbintenis bevrijd is.]1
-----------
+
 (1)<W 2026-02-10/05, art. 17, 067; Inwerkingtreding : 01-01-2028>
 
 
@@ -2710,7 +2710,7 @@ invordering van de taksen bedoeld in Boek II]1 [2 ...]2.
 Elke weigering van mededeling wordt met een boete van [250 tot 2.500 EUR] gestraft. <KB 2000-07-20/64, art.
 2, 10, Inwerkingtreding : 01-01-2002, zelf gewijzigd bij KB %2001-07-13/50, art. 42, 5°, Inwerkingtreding : 01-
 01-2002>
-----------
+
 (1)<W 2014-04-25/36, art. 87, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 92, 018; Inwerkingtreding : 16-05-2016>
 
@@ -2806,7 +2806,7 @@ veroordeelde, voorgeschreven.
 
 
 #### Titel X. [1 Jaarlijkse taks op de effectenrekeningen]1
-----------
+
 (1)<W 2021-02-17/05, art. 2, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2866,7 +2866,7 @@ beschouwd in toepassing van respectievelijk artikel 2, § 1, 13°, 13° /2, 13°
 Inkomstenbelastingen 1992;
 11° belastingschuldige: naargelang het geval, de Belgische tussenpersoon, de aansprakelijke
 vertegenwoordiger bedoeld in artikel 201/9/1 of de titularis.]1
-----------
+
 (1)<W 2021-02-17/05, art. 2, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2907,7 +2907,7 @@ vanaf 30 oktober 2020 die bestaan in:
 tussenpersoon;
 2° de omzetting van belastbare financiële instrumenten, aangehouden op een effectenrekening, naar financiële
 instrumenten op naam.]1
-----------
+
 (1)<W 2021-02-17/05, art. 4, 045; Inwerkingtreding : 26-02-2021, (NOTA : bij arrest nr. 138/2022 van 27-10-
 2022 (2022-10-27/15, B.St. 30-01-2023, p. 13678), heeft het Grondwettelijk Hof de woorden in cursief van dit
 artikel vernietigd) >
@@ -2922,7 +2922,7 @@ referentietijdstippen, gedeeld door het aantal van die tijdstippen.
 In geval van de opening of de sluiting van een effectenrekening gedurende de referentieperiode worden de
 referentietijdstippen bedoeld in het eerste lid waarop de rekening bestond in aanmerking genomen voor de
 berekening van de belastbare grondslag.]1
-----------
+
 (1)<W 2021-02-17/05, art. 5, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2931,7 +2931,7 @@ berekening van de belastbare grondslag.]1
 [1 Het tarief van de taks bedraagt 0,15 pct.
 Het bedrag van de taks wordt beperkt tot 10 % van het verschil tussen de belastbare grondslag en het in
 artikel 201/4, derde lid, bedoelde drempelbedrag.]1
-----------
+
 (1)<W 2021-02-17/05, art. 6, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2944,14 +2944,14 @@ Belgische tussenpersonen aan de titularissen een overzicht af dat de volgende ge
 ondernemingsnummer, de naam en het adres van de zetel;
 3° de elementen voor de berekening van de belastbare grondslag;
 4° de vermelding van de referentieperiode.]1
-----------
+
 (1)<W 2021-02-17/05, art. 7, 045; Inwerkingtreding : 26-02-2021>
 
 
 ## Art. 201/8
 
 [1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
-----------
+
 (1)<W 2021-02-17/05, art. 8, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2964,7 +2964,7 @@ tussenpersoon.
 § 3. Indien een effectenrekening wordt aangehouden door meerdere titularissen, kan elke titularis de aangifte
 indienen voor alle titularissen.
 Elke titularis is hoofdelijk gehouden tot de betaling van de taks, de boetes en de [2 nalatigheidsinteresten]2.]1
-----------
+
 (1)<W 2021-02-17/05, art. 9, 045; Inwerkingtreding : 26-02-2021>
 (2)<W 2022-11-20/01, art. 25, 053; Inwerkingtreding : 01-01-2023>
 
@@ -2980,7 +2980,7 @@ In geval van overlijden van de aansprakelijke vertegenwoordiger, van intrekking 
 gebeurtenis die het hem onmogelijk maakt om als vertegenwoordiger op te treden, wordt binnen een maand in
 zijn vervanging voorzien.
 De Koning bepaalt de voorwaarden en nadere regels van erkenning van de aansprakelijke vertegenwoordiger.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 10, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -2996,7 +2996,7 @@ overtreding, volgens een door de Koning vastgelegde schaal die gaat van 10 pct. 
 verschuldigde taks.
 Bij ontstentenis van kwade trouw is er geen boete verschuldigd.
 § 3. [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 11, 045; Inwerkingtreding : 26-02-2021>
 (2)<W 2022-11-20/01, art. 26, 053; Inwerkingtreding : 01-01-2023>
 
@@ -3029,7 +3029,7 @@ overtreding, volgens een schaal waarvan de trappen door de Koning worden vastges
 tot 200 pct. van de verschuldigde taks.
 Bij ontstentenis van kwade trouw is er geen boete verschuldigd.
 § 4. [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 12, 045; Inwerkingtreding : 26-02-2021>
 (2)<W 2022-11-20/01, art. 27, 053; Inwerkingtreding : 01-01-2023>
 
@@ -3064,7 +3064,7 @@ Bij ontstentenis van kwade trouw is er geen boete verschuldigd.
 § 4. [2 ...]2]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 12, 045; Inwerkingtreding : 26-02-2021>
 (2)<W 2022-11-20/01, art. 27, 053; Inwerkingtreding : 01-01-2023>
 (3)<W 2023-12-28/01, art. 7, 058; Inwerkingtreding : onbepaald>
@@ -3084,7 +3084,7 @@ behalve in het geval bepaald in artikel 15, § 4, derde lid, van de voormelde we
 De Koning bepaalt de wijze en de voorwaarden van teruggave, alsook de termijn van indiening van het verzoek
 tot teruggave. Deze termijn mag niet twee jaar overschrijden, te rekenen van de dag waarop de taks opeisbaar is
 geworden.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 13, 045; Inwerkingtreding : 26-02-2021>
 (2)<W 2022-11-20/01, art. 28, 053; Inwerkingtreding : 01-01-2023>
 
@@ -3098,7 +3098,7 @@ Voor elke foutieve mededeling of gebrek aan mededeling gevraagd met toepassing v
 geldboete van 750 tot 1 250 euro opgelegd worden.
 De Koning legt de schaal van de administratieve geldboetes vast en regelt hun toepassingsmodaliteiten.
 Bij ontstentenis van kwade trouw is er geen boete verschuldigd.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 14, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -3138,7 +3138,7 @@ De Koning kan in het bijzonder de vermelding voorschrijven van het identificatie
 persoon in het Rijksregister van de natuurlijke personen of in de registers van de Kruispuntbank van de sociale
 zekerheid wanneer deze natuurlijke persoon titularis of mede-titularis is van een effectenrekening die betrokken
 is bij een omzetting of een overdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2025-07-18/06, art. 63, 063; Inwerkingtreding : 29-07-2025>
 
 
@@ -3175,12 +3175,12 @@ Deze verplichting geldt enkel voor zover de mededeling van dezelfde gegevens nie
 voornoemde wet van 8 juli 2018.]1
 
 
-----------
+
 (1)<W 2025-12-18/06, art. 1, 064; Inwerkingtreding : 01-12-2026>
 
 
 #### Titel XI. [1 - Jaarlijkse taks op de kredietinstellingen]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 49, 003; Inwerkingtreding : 08-07-2012>
 
 
@@ -3195,7 +3195,7 @@ wet, er een bijkantoor hebben gevestigd;
 c) de kredietinstellingen waarvan de Staat van herkomst een derde Staat is en die, aangezien ze in België
 werkzaamheden verrichten overeenkomstig artikel [2 333]2 van dezelfde wet, er een bijkantoor hebben
 gevestigd.]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 50, 003; Inwerkingtreding : 08-07-2012>
 (2)<W 2015-12-18/12, art. 33, 017; Inwerkingtreding : 07-01-2016>
 
@@ -3209,7 +3209,7 @@ het rekenkundig gemiddelde van de bedragen die op het einde van iedere maand van
 overeenkomstig de voorschriften van de Nationale Bank van België in het kader van de territoriale rapportering
 moeten worden vermeld op lijn 229 in tabel 00.20 "Schulden tegenover cliënten" (kolom 05, Totaal bedrag) van
 het Schema A.]1
-----------
+
 (1)<W 2016-08-03/13, art. 2, 019; Inwerkingtreding : 21-08-2016 (overgangsbepalingen art. 14 en 15)>
 
 
@@ -3218,7 +3218,7 @@ het Schema A.]1
 [1 Het tarief van de taks wordt vastgesteld [2 op [4 0,15205]4 pct.]2 [3 voor de eerste 50 miljard
 euro van de belastbare grondslag en op [4 0,20204]4 pct. voor het deel van de belastbare grondslag dat 50
 miljard euro overschrijdt.]3]1
-----------
+
 (1)<W 2013-07-30/01, art. 75, 009; Inwerkingtreding : 01-01-2014>
 (2)<W 2016-08-03/13, art. 3, 019; Inwerkingtreding : 21-08-2016 (overgangsbepalingen art. 14 en 15)>
 (3)<W 2023-12-22/06, art. 2, 056; Inwerkingtreding : 30-12-2023>
@@ -3233,7 +3233,7 @@ of erkend zijn als centrale effectenbewaarinstelling]2 in de zin van het gecoör
 transacties op deze instrumenten, of die een vergunning hebben als [2 depositobank overeenkomstig artikel
 36/26/1, § 6]2, van de wet van 22 februari 1998 tot vaststelling van het organieke statuut van de Nationale Bank
 van België.]1
-----------
+
 (1)<Ingevoegd bij W 2016-08-03/13, art. 4, 019; Inwerkingtreding : 21-08-2016 (overgangsbepalingen art. 14
 en 15)>
 (2)<W 2021-06-27/02, art. 102, 047; Inwerkingtreding : 10-07-2021>
@@ -3244,7 +3244,7 @@ en 15)>
 [1 De taks is opeisbaar op 1 januari van elk jaar en voor de eerste keer op 1 januari [2 2016]2.
 Hij moet betaald zijn uiterlijk op 1 juli van elk jaar [2 ...]2.
 [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 53, 003; Inwerkingtreding : 08-07-2012>
 (2)<W 2016-08-03/13, art. 5, 019; Inwerkingtreding : 21-08-2016 (overgangsbepalingen art. 14 en 15)>
 (3)<W 2022-11-20/01, art. 29, 053; Inwerkingtreding : 01-01-2023>
@@ -3258,7 +3258,7 @@ taks wordt opgegeven.
 Indien de aangifte niet binnen de voorgeschreven termijn wordt ingediend, wordt een boete verbeurd van 250
 euro per week vertraging. Elke begonnen week wordt voor een gehele week gerekend.
 De Koning bepaalt de vorm en de inhoud van de aangifte.]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 54, 003; Inwerkingtreding : 08-07-2012>
 
 
@@ -3271,7 +3271,7 @@ De Koning bepaalt de vorm en de inhoud van de aangifte.]1
 [1 Elke onnauwkeurigheid of weglating vastgesteld in de aangifte, evenals iedere andere
 onregelmatigheid begaan in de uitvoering van de wettelijke of reglementaire bepalingen, wordt gestraft met een
 boete gelijk aan tweemaal het ontdoken recht, zonder dat ze minder dan 250 euro mag bedragen.]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 56, 003; Inwerkingtreding : 08-07-2012>
 
 
@@ -3280,7 +3280,7 @@ boete gelijk aan tweemaal het ontdoken recht, zonder dat ze minder dan 250 euro 
 [1 De taks wordt teruggegeven voor het gedeelte dat meer bedraagt dan hetgeen wettelijk
 verschuldigd is.
 De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 57, 003; Inwerkingtreding : 08-07-2012>
 
 
@@ -3290,7 +3290,7 @@ De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
 elk verzoek van een ambtenaar van [2 de administratie belast met de vestiging of de inning en de invordering van
 de taksen bedoeld in Boek II]2, zonder verplaatsing inzage te verlenen van alle documenten nodig voor de juiste
 heffing van de taks.]1
-----------
+
 (1)<Ingevoegd bij W 2012-06-22/02, art. 58, 003; Inwerkingtreding : 08-07-2012>
 (2)<W 2016-04-27/04, art. 96, 018; Inwerkingtreding : 16-05-2016>
 
@@ -3302,12 +3302,12 @@ boete verhalen op de cliënten bedoeld in artikel 20111.
 Elke overtreding van deze bepaling wordt gestraft met een boete volgens een door de Koning vastgelegde
 schaal die gaat van 10 pct. tot 200 pct. in functie van de herhaling van de overtreding. De boete wordt berekend
 op de verschuldigde taks voor het aanslagjaar waarop de verhaalde taks of de boete betrekking heeft.]1
-----------
+
 (1)<W 2023-12-22/06, art. 3, 056; Inwerkingtreding : 30-12-2023>
 
 
 #### Titel XII. [1 - Jaarlijkse taks op de collectieve beleggingsinstellingen]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 78, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3334,7 +3334,7 @@ richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen, met
 voor belegging in schuldvorderingen, en de alternatieve instellingen voor collectieve belegging naar buitenlands
 recht bedoeld in artikel 259 van de wet van 19 april 2014 betreffende de alternatieve instellingen voor collectieve
 belegging en hun beheerders.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 79, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3363,7 +3363,7 @@ De Koning kan de voor de heffing van de taks nuttige en noodzakelijke elementen 
 § 3. Voor de toepassing van de paragrafen 1 en 2 worden voor een beleggingsinstelling die rechten van
 deelneming heeft in een beleggingsinstelling, de bedragen die bij een beleggingsinstelling werden opgenomen in
 de belastbare grondslag, niet meegerekend.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 80, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3374,7 +3374,7 @@ Het wordt evenwel vastgesteld op 0,01 pct. in de mate dat de financieringsmiddel
 beleggingsinstelling, één of meerdere van haar compartimenten of klassen van aandelen, uitsluitend worden
 aangetrokken bij institutionele of professionele beleggers die voor eigen rekening handelen, en waarvan de
 effecten uitsluitend door deze beleggers kunnen worden verworven.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 81, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3383,7 +3383,7 @@ effecten uitsluitend door deze beleggers kunnen worden verworven.]1
 [1 De taks is opeisbaar de eerste januari van elk jaar.
 Hij moet betaald zijn uiterlijk op 31 maart van elk jaar.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 82, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2022-11-20/01, art. 30, 053; Inwerkingtreding : 01-01-2023>
 
@@ -3394,7 +3394,7 @@ Hij moet betaald zijn uiterlijk op 31 maart van elk jaar.
 een aangifte in te dienen waarin de belastbare grondslag wordt opgegeven.
 Indien de aangifte niet ingediend wordt binnen de voorgeschreven termijn, wordt een geldboete verbeurd van
 250 euro per week vertraging. Elke begonnen week wordt gerekend als een volle week.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 83, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3402,7 +3402,7 @@ Indien de aangifte niet ingediend wordt binnen de voorgeschreven termijn, wordt 
 
 [1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
 om de juiste heffing van de belasting te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 84, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-02-07/01, art. 30, 046; Inwerkingtreding : 01-03-2021>
 
@@ -3413,7 +3413,7 @@ om de juiste heffing van de belasting te verzekeren.]1
 20124, evenals iedere andere onregelmatigheid begaan in de uitvoering van de wettelijke of reglementaire
 bepalingen, wordt gestraft met een geldboete gelijk aan tweemaal het ontdoken recht, zonder dat deze
 geldboete lager mag zijn dan 250 euro per overtreding.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 85, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3422,7 +3422,7 @@ geldboete lager mag zijn dan 250 euro per overtreding.]1
 [1 De taks wordt teruggegeven voor het gedeelte dat meer bedraagt dan hetgeen wettelijk
 verschuldigd is.
 De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 86, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3430,12 +3430,12 @@ De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
 
 [1 De ambtenaren belast met de vestiging of de heffing van de taks kunnen kennis nemen van alle
 documenten nodig om de juiste heffing van de taks te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 87, 039; Inwerkingtreding : 01-01-2020>
 
 
 #### Titel XIII. [1 - Jaarlijkse taks op de verzekeringsondernemingen]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 88, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3450,7 +3450,7 @@ vennootschapsbelasting zijn vrijgesteld op grond van artikel 185, § 1, van dat 
 2° de verzekeringsondernemingen bedoeld in artikel 6 van de wet van 13 maart 2016 op het statuut van en
 het toezicht op de verzekerings- of herverzekeringsondernemingen, die verzekeringsverrichtingen doen als
 bedoeld in bijlage II, A, 23, van dezelfde wet.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 89, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2023-07-31/06, art. 2, 055; Inwerkingtreding : 02-09-2023>
 
@@ -3474,7 +3474,7 @@ coöperatieve vennootschap erkend door de Nationale Raad van de Coöperatie, is 
 op een quotiteit van het maatschappelijk kapitaal op 1 januari van het aanslagjaar. Die quotiteit is gelijk aan de
 verhouding van het totaal van de op grond van artikel 185, § 1, van het Wetboek van de inkomstenbelastingen
 1992 niet-belastbare dividenden tot het totaal van de toegekende dividenden voor het boekjaar dat voorafgaat.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 90, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3487,7 +3487,7 @@ verzekeringsverrichtingen die verbonden zijn aan beleggingsfondsen;
 2° op 0,0925 pct. voor de in artikel 20130, § 3, bedoelde quotiteit van het maatschappelijk kapitaal van de in
 artikel 20129, 1° of 2°, bedoelde ondernemingen die de vorm van een coöperatieve vennootschap hebben
 aangenomen, erkend door de Nationale Raad van de Coöperatie.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 91, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3500,7 +3500,7 @@ voorkomend geval, verlengd tot de achtste werkdag na de datum van de algemene ve
 toekenning van de dividenden is beslist.
 [2 ...]2]1
 
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 92, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2022-11-20/01, art. 31, 053; Inwerkingtreding : 01-01-2023>
 
@@ -3516,7 +3516,7 @@ die dividenden indienen ten laatste de dag waarop de betaling overeenkomstig art
 worden gedaan.
 Indien de aangifte niet ingediend wordt binnen de voorgeschreven termijn, wordt een geldboete verbeurd van
 250 euro per week vertraging. Elke begonnen week wordt gerekend als een volle week.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 93, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3524,7 +3524,7 @@ Indien de aangifte niet ingediend wordt binnen de voorgeschreven termijn, wordt 
 
 [1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
 om de juiste heffing van de belasting te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 94, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-02-07/01, art. 31, 046; Inwerkingtreding : 01-03-2021>
 
@@ -3535,7 +3535,7 @@ om de juiste heffing van de belasting te verzekeren.]1
 20133, evenals iedere andere onregelmatigheid begaan in de uitvoering van de wettelijke of reglementaire
 bepalingen, wordt gestraft met een geldboete gelijk aan tweemaal het ontdoken recht, zonder dat deze
 geldboete lager mag zijn dan 250 euro per overtreding.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 95, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3544,7 +3544,7 @@ geldboete lager mag zijn dan 250 euro per overtreding.]1
 [1 De taks wordt teruggegeven voor het gedeelte dat meer bedraagt dan hetgeen wettelijk
 verschuldigd is.
 De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 96, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3552,7 +3552,7 @@ De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
 
 [1 De ambtenaren belast met de vestiging of de heffing van de taks kunnen kennis nemen van alle
 documenten nodig om de juiste heffing van de taks te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 97, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3565,12 +3565,12 @@ ontvangstbericht verzonden door de bestemmeling met vermelding van de datum, en 
 uur van ontvangst.]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2023-12-28/01, art. 91, 058; Inwerkingtreding : 01-01-2025>
 
 
 #### Titel XIV. [1 - Bepalingen gemeen aan de diverse taksen]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 98, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3587,7 +3587,7 @@ De Koning kan bepalen voor welke moeilijkheden met betrekking tot de heffing van
 tussenkomst door de fiscale bemiddelingsdienst is uitgesloten.
 De minister van Financiën gaat dadingen aan met de belastingplichtige, voor zover deze niet leiden tot
 vrijstelling of vermindering van belasting.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 99, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3665,7 +3665,7 @@ evenwel voor opteren om de innings- en invorderingsberichten uitsluitend op elek
 In dit geval geldt de aanbieding op elektronische wijze als rechtsgeldige verzending van het innings- en
 invorderingsbericht.
 De Koning bepaalt de toepassingsmodaliteiten van de in het tweede lid bedoelde procedure.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-13/09, art. 100, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-12-20/04, art. 27, 048; Inwerkingtreding : 07-01-2022>
 (3)<W 2022-11-20/01, art. 32, 053; Inwerkingtreding : 01-01-2023>
@@ -3676,7 +3676,7 @@ art. 46, Inwerkingtreding : 01-01-2007>
 
 
 #### Titel I. [1 Antimisbruik]1
-----------
+
 (1)<W 2021-02-17/05, art. 15, 045; Inwerkingtreding : 26-02-2021>
 
 
@@ -3703,7 +3703,7 @@ van de belasting.
 Indien de belastingschuldige of de belastingplichtige het tegenbewijs niet levert, dan wordt de verrichting aan
 een belastingheffing overeenkomstig het doel van de wet onderworpen alsof het misbruik niet heeft
 plaatsgevonden.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-17/05, art. 16, 045; Inwerkingtreding : 30-10-2020>
 
 
@@ -3722,7 +3722,7 @@ plaatsgevonden.]1
 
 
 #### Titel II.[1 - Verjaring en betaling]1
-----------
+
 (1)<W 2019-04-13/09, art. 102, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3734,7 +3734,7 @@ dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een
 door de Koning worden vastgesteld.] <W 1986-08-04/38, art. 75 (Errat., B.S. 15-10-1986), Inwerkingtreding :
 01-02-1987>
 
-----------
+
 (1)<W 2019-04-13/09, art. 103, 039; Inwerkingtreding : 01-01-2020>
 
 
@@ -3770,7 +3770,7 @@ Inwerkingtreding : 01-01-2007>
 [1 Een verzoek tot terugbetaling met betrekking tot een aangifte, ingediend bij de administratie
 binnen de voorziene vervaltermijn, heeft de schorsing van de verjaring voor de in dit verzoek opgenomen bedrag
 tot gevolg totdat de fiscale administratie zich uitspreekt over dit verzoek.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-12/11, art. 108, 060; Inwerkingtreding : 08-06-2024>
 
 
@@ -3811,7 +3811,7 @@ betrekking hebbende geldboeten.
 De schorsing neemt aanvang vanaf het ogenblik dat de strafvordering wordt ingesteld en eindigt wanneer de
 strafvervolging wordt stopgezet, de strafvordering uitdooft of wanneer het vonnis of het arrest in kracht van
 gewijsde is getreden voor de overtredingen bedoeld in het eerste lid.]1
-----------
+
 (1)<W 2019-04-13/09, art. 107, 039; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-12-20/04, art. 28, 048; Inwerkingtreding : 07-01-2022>
 (3)<W 2022-11-20/01, art. 33, 053; Inwerkingtreding : 01-01-2023>
@@ -3828,7 +3828,7 @@ Voor de toepassing van dit Wetboek en van de tot uitvoering ervan genomen beslui
 aangemerkt, de dagen van openstelling der ontvangstkantoren van [1 de administratie belast met de vestiging of
 de inning en de invordering van de [2 diverse rechten en taksen]2 bedoeld in het Wetboek]1 zoals [2 bepaald
 door de Koning]2. < W 1989-12-22/30, art. 240>
-----------
+
 (1)<W 2014-04-25/36, art. 91, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 100, 018; Inwerkingtreding : 16-05-2016>
 
@@ -3837,7 +3837,7 @@ door de Koning]2. < W 1989-12-22/30, art. 240>
 
 [1 [2 ...]2
 De Koning kan de indiening van een periodieke aangifte toelaten.]1
-----------
+
 (1)<W 2021-02-07/01, art. 32, 046; Inwerkingtreding : 01-03-2021>
 (2)<W 2026-02-10/05, art. 18, 067; Inwerkingtreding : 09-03-2026>
 
@@ -3906,7 +3906,7 @@ wegens het ontbreken van informatie over de identiteit of de bankgegevens van de
 vanaf de eerste dag van de maand volgend op die waarin de teruggave uiterlijk had moeten vereffend zijn indien
 de administratie over de nodige gegevens had beschikt, tot het einde van de tweede maand volgend op de
 maand waarin de onmogelijkheid heeft opgehouden te bestaan.]1
-----------
+
 (1)<W 2022-11-20/01, art. 34, 053; Inwerkingtreding : 01-01-2023>
 
 
@@ -3932,7 +3932,7 @@ Elke weigering van mededeling wordt met een boete van [250 tot 2.500 EUR] gestra
 2, 10, Inwerkingtreding : 01-01-2002, zelf gewijzigd bij KB 2001-07-13/50, art. 42, 5°, Inwerkingtreding : 01-01-
 2002>
 [lid 3 opgeheven] <W 1947-08-13/02, art. 60>
-----------
+
 (1)<W 2014-04-25/36, art. 92, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 101, 018; Inwerkingtreding : 16-05-2016>
 (3)<W 2022-05-18/04, art. 13, 052; Inwerkingtreding : 01-07-2022>
@@ -3947,7 +3947,7 @@ belast met de vestiging of de inning en de invordering van de diverse rechten en
 Wetboek]1 vastgesteld.] <R 1947-11-25/01, art. 5> <W 1989-12-22/30, art. 240, Inwerkingtreding : 01-01-
 1990>
 
-----------
+
 (1)<W 2016-04-27/04, art. 102, 018; Inwerkingtreding : 16-05-2016>
 
 
@@ -3963,7 +3963,7 @@ De processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij worden 
 betekend. [Deze betekening mag geschieden bij aangetekend schrijven. De afgifte van het stuk ter post geldt als
 betekening vanaf de daaropvolgende dag.] <W 1969-07-10/33, art. 4>
 
-----------
+
 (1)<W 2016-04-27/04, art. 103, 018; Inwerkingtreding : 16-05-2016>
 
 
@@ -3987,7 +3987,7 @@ De Koning legt de progressieve schaal van de administratieve geldboetes vast en 
 toepassingsmodaliteiten.]1
 [2 De Koning kan voor de geldboeten die Hij bepaalt, voorzien in de toepassingsmodaliteiten van de maatregelen
 tot individualisering van de sanctie door de bevoegde rechter.]2
-----------
+
 (1)<W 2019-12-20/09, art. 47, 041; Inwerkingtreding : 01-07-2020>
 (2)<W 2024-12-20/27, art. 15, 061; Inwerkingtreding : 31-12-2024>
 
@@ -4008,7 +4008,7 @@ Inwerkingtreding : 01-01-2007>
 [2 Indien de in het eerste lid vermelde inbreuken gepleegd werden in het raam van ernstige fiscale fraude, al dan
 niet georganiseerd, wordt de schuldige gestraft met een gevangenisstraf van acht dagen tot 5 jaar en met een
 geldboete van 250 euro tot 500 .000 euro of met een van die straffen alleen.]2
-----------
+
 (1)<W 2012-09-20/47, art. 30, 004; Inwerkingtreding : 01-11-2012>
 (2)<W 2013-06-17/06, art. 100, 008; Inwerkingtreding : 08-07-2013>
 
@@ -4026,7 +4026,7 @@ met geldboete van [250 tot 12.500 EUR] [of met één van deze straffen alleen]. 
 Inwerkingtreding : 20-08-1986> <KB 2000-07-20/64, art. 2, 10, Inwerkingtreding : 01-01-2002, zelf gewijzigd bij
 KB 2001-07-13/50, art. 42, 5°, ED 01-01-2002>
 
-----------
+
 (1)<W 2012-09-20/47, art. 30, 004; Inwerkingtreding : 01-11-2012>
 
 
@@ -4039,7 +4039,7 @@ onderworpen, houdt de rechter bij de straftoemeting rekening met de verschuldigd
 fiscale misdrijven zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de
 inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en
 tot een effectieve betaling van deze volledige vordering heeft geleid.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-05/10, art. 86, 040; Inwerkingtreding : 01-01-2020>
 
 
@@ -4082,7 +4082,7 @@ die straffen alleen]. <W 1986-08-04/38, art. 79, Inwerkingtreding : 20-08-1986> 
 Inwerkingtreding : 01-01-2002, zelf gewijzigd bij KB 2001-07-13/50, art. 42, 5°, Inwerkingtreding : 01-01-2002>
 <W 2006-12-27/30, art. 82, Inwerkingtreding : 01-01-2007>
 
-----------
+
 (1)<W 2012-09-20/47, art. 31, 004; Inwerkingtreding : 01-11-2012>
 
 
@@ -4098,7 +4098,7 @@ opdecimes op de strafrechtelijke geldboeten, [1 is van toepassing op]1 de misdri
 207bis en 207quater.
 § 4. [...] <W 1986-08-04/38, art. 80, Inwerkingtreding : 20-08-1986>
 
-----------
+
 (1)<W 2012-09-20/47, art. 31, 004; Inwerkingtreding : 01-11-2012>
 
 
@@ -4123,7 +4123,7 @@ De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansp
 kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 207 tot 207quater tegen hun
 aangestelden of [1 hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun
 functie, in rechte of in feite]1 zijn uitgesproken.
-----------
+
 (1)<W 2018-03-26/01, art. 93, 053; Inwerkingtreding : 09-04-2018>
 (2)<W 2022-11-20/01, art. 35, 053; Inwerkingtreding : 01-01-2023>
 (3)<W 2024-04-09/07, art. 49, 059; Inwerkingtreding : 28-04-2024>
@@ -4166,7 +4166,7 @@ de ontvangst ervan.
 In geen geval schorst het verzoek om advies de strafvordering.]1
 § 4. [...] <W 1999-03-15/31, art. 86, Inwerkingtreding : 06-04-2011>
 § 5. [...] <W 1992-12-28/32, art. 57, Inwerkingtreding : 01-03-1993>
-----------
+
 (1)<W 2012-09-20/47, art. 32, 004; Inwerkingtreding : 01-11-2012>
 (2)<W 2016-04-27/04, art. 104, 018; Inwerkingtreding : 16-05-2016>
 (3)<W 2019-05-05/10, art. 87, 040; Inwerkingtreding : 01-01-2020>
@@ -4187,7 +4187,7 @@ gesteld [van de federale politie].] <W 1994-03-30/39, art. 38, Inwerkingtreding 
 13/39, art. 5, Inwerkingtreding : 01-01-2001>
 [1 Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in artikel 29, derde lid van het
 Wetboek van strafvordering bedoelde overleg.]1
-----------
+
 (1)<W 2012-09-20/47, art. 33, 004; Inwerkingtreding : 01-11-2012>
 (2)<W 2014-04-25/36, art. 93, 014; Inwerkingtreding : 16-05-2014>
 (3)<W 2016-04-27/04, art. 105, 018; Inwerkingtreding : 16-05-2016>
@@ -4204,7 +4204,7 @@ toepassing van de wetsbepalingen betreffende de [in dit Wetboek bedoelde diverse
 4° de maatschappijen voor intercommunaal vervoer beheerst door de wet betreffende de oprichting van
 maatschappijen voor stedelijk gemeenschappelijk vervoer.
 [1 5° HR Rail]1.
-----------
+
 (1)<KB 2013-12-11/02, art. 80, 011; Inwerkingtreding : 01-01-2014>
 
 
@@ -4235,7 +4235,7 @@ neergelegd.
 11-25/01, art. 6 en vernummerd tot titel V en opschrift gewijzigd bij W 2006-12-19/33, art. 61, Inwerkingtreding :
 01-01-2007>
 
-----------
+
 (1)<W 2013-08-17/31, art. 14, 010; Inwerkingtreding : 01-01-2013>
 
 
@@ -4285,7 +4285,7 @@ onderzoeksopdracht, is van rechtswege gemachtigd alle toereikende, ter zake dien
 inlichtingen te vragen, op te zoeken of in te zamelen die bijdragen tot de vestiging of de invordering van eender
 welke, andere, door de Staat geheven belasting.] <W 2009-12-23/04, art. 156, Inwerkingtreding : 09-01-2010>
 
-----------
+
 (1)<W 2013-01-14/07, art. 2, 007; Inwerkingtreding : 10-02-2013>
 
 
@@ -4901,7 +4901,7 @@ het CCN-netwerk, stelt de Commissie de lidstaten zonder onnodige vertraging in k
 en van eventuele corrigerende maatregelen die zijn genomen. Zulke corrigerende maatregelen kunnen inhouden
 dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt
 geschorst totdat de gegevensinbreuk is verholpen.]5
-----------
+
 (1)<Ingevoegd bij W 2013-08-17/31, art. 15, 010; Inwerkingtreding : 01-01-2013>
 (2)<W 2017-07-31/09, art. 8, 025; Inwerkingtreding : 21-08-2017>
 (3)<W 2019-12-20/09, art. 48, 041; Inwerkingtreding : 01-07-2020>
@@ -4956,7 +4956,7 @@ constructie te implementeren of die de eerste stap van een dergelijke constructi
 implementeerbaar is of beschikbaar is gemaakt voor implementatie zonder dat er wezenlijke aanpassingen nodig
 zijn;
 7° "constructie op maat": een grensoverschrijdende constructie die geen marktklare constructie is. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 49, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5063,7 +5063,7 @@ overdracht uiteindelijk zullen zijn.
 activa, indien de geraamde jaarlijkse winst vóór interest en belastingen (ebit) van de overdrager of overdragers,
 tijdens de periode van drie jaar na de overdracht, minder dan 50 % bedraagt van de geraamde jaarlijkse ebit van
 die overdrager of overdragers indien de overdracht niet had plaatsgevonden.]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 50, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5093,7 +5093,7 @@ van juridische, fiscale of adviesdiensten.
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de intermediair
 ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in
 een andere lidstaat zijn verstrekt. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 51, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5101,7 +5101,7 @@ een andere lidstaat zijn verstrekt. ]1
 [1 ndien het gaat om een marktklare constructie moet de intermediair om de drie maanden een periodiek
 verslag opstellen met een overzicht van nieuwe meldingsplichtige inlichtingen zoals bedoeld in artikel 211bis, §
 6/3, 1°, 4°, 7° en 8°, die sinds het laatste ingediende verslag beschikbaar zijn geworden. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 52, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5113,7 +5113,7 @@ zowel voor meldingen door elke betrokken intermediair als voor meldingen door de
 De intermediair die het uniek referentienummer van de bevoegde instanties ontvangt, dient dit, samen met de
 samenvatting betreffende de gemelde constructie, onverwijld aan de andere betrokken intermediairs en aan de
 relevante belastingplichtige door te geven. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 53, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5124,7 +5124,7 @@ grensoverschrijdende constructie.
 Een intermediair wordt ontheven van de verplichting tot het verstrekken van inlichtingen indien hij een
 schriftelijk bewijs voorlegt dat een andere intermediair de inlichtingen bedoeld in artikel 211bis, § 6/3, tweede lid,
 reeds heeft verstrekt. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 54, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5149,7 +5149,7 @@ overeenkomstig artikel 211bis/4. ]1
 (NOTA : bij arrest nr.103/2022 van 15-09-2022 (2022-09-15/26, B.St. 13-01-2023, p. 6183), heeft het
 Grondwettelijk Hof dit artikel 211bis/7, §3 vernietigd)
 
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 55, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5184,7 +5184,7 @@ geen fiscaal inwoner van een lidstaat is noch een vaste inrichting in een lidsta
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de relevante
 belastingplichtige ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat
 dezelfde inlichtingen in een andere lidstaat zijn verstrekt. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 56, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5197,7 +5197,7 @@ belastingplichtige die als eerste op de onderstaande lijst voorkomt:
 Een relevante belastingplichtige wordt ontheven van de verplichting tot het verstrekken van de inlichtingen
 indien hij een schriftelijk bewijs voorlegt dat een andere relevante belastingplichtige de inlichtingen bedoeld in
 artikel 211bis, § 6/3, reeds heeft verstrekt." ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 57, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5205,14 +5205,14 @@ artikel 211bis, § 6/3, reeds heeft verstrekt." ]1
 [1 Voor de toepassing van de artikelen 211bis, § 6/3, 211bis/1 tot en met 211bis/9 en de daaruit voortvloeiende
 uitvoeringsbesluiten dient de melding van de inlichtingen, voor de onderdelen die de Koning nader bepaalt, naast
 het gebruik van één van de officiële landstalen, ook in het Engels te gebeuren. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 58, 041; Inwerkingtreding : 01-07-2020>
 
 
 ## Art. 211bis/11
 [1 De Koning bepaalt het formulier waarop de intermediair of de relevante belastingplichtige de verplichtingen
 opgenomen in de artikelen 211bis/1 tot en met 211bis/9 moeten naleven. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 59, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5226,7 +5226,7 @@ autoriteit.]1
 (NOTA : bij arrest nr.103/2022 van 15-09-2022 (2022-09-15/26, B.St. 13-01-2023, p. 6183), heeft het
 Grondwettelijk Hof dit artikel vernietigd)
 
-----------
+
 (1)<Ingevoegd bij W 2019-12-20/09, art. 60, 041; Inwerkingtreding : 01-07-2020>
 
 
@@ -5236,7 +5236,7 @@ Grondwettelijk Hof dit artikel vernietigd)
 de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, de taksen, de [2
 nalatigheidsinteresten]2, de fiscale geldboeten en de bijbehoren door een burgerlijke partijstelling of door een
 aansprakelijkheidsvordering.]1
-----------
+
 (1)<Ingevoegd bij W 2018-03-26/01, art. 94, 053; Inwerkingtreding : 09-04-2018>
 (2)<W 2022-11-20/01, art. 36, 053; Inwerkingtreding : 01-01-2023>
 
@@ -5270,7 +5270,7 @@ dezelfde bewijskracht als het elektronisch origineel voor zover de materialisati
 referentie bevat aan een geavanceerd elektronisch zegel dat voldoet aan de eisen bedoeld in paragraaf 1, tweede
 lid. Elke materialisatie onder gesloten omslag stemt overeen met de inhoud van het elektronische origineel van
 het bericht bewaard op het beveiligd platform.]1
-----------
+
 (1)<Ingevoegd bij W 2021-01-26/12, art. 1, 049; Inwerkingtreding : 01-04-2021>
 (2)<W 2022-01-21/03, art. 112, 049; Inwerkingtreding : 07-02-2022>
 
@@ -5301,6 +5301,6 @@ inrichtingen en diensten welke de Staat mede beheert, waaraan de Staat een waarb
 bedrijvigheid de Staat toezicht uitoefent of waarvan het bestuurspersoneel aangewezen wordt door de Regering,
 op haar voordracht of met haar goedkeuring.
 [laatste lid opgeheven] <W 1981-02-10/32, art. 12, Inwerkingtreding : ingang van het aanslagjaar 1982>
-----------
+
 (1)<W 2014-04-25/36, art. 94, 014; Inwerkingtreding : 16-05-2014>
 (2)<W 2016-04-27/04, art. 106, 018; Inwerkingtreding : 16-05-2016>

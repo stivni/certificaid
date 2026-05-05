@@ -9,12 +9,12 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 
 ### BOEK X. [1 - Handelsagentuurovereenkomsten, commerciële samenwerkingsovereenkomsten,
 verkoopconcessies en vervoersovereenkomsten.]1
-----------
+
 (1)<W 2018-04-15/14, art. 172, 059; Inwerkingtreding : 01-11-2018>
 
 
 #### TITEL 1. - [1 Handelsagentuurovereenkomsten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -23,7 +23,7 @@ verkoopconcessies en vervoersovereenkomsten.]1
 [1 Deze titel is van toepassing op de handelsagentuurovereenkomst bedoeld in artikel I.11, 1°.
 Deze titel is niet van toepassing op de overeenkomsten gesloten met handelsagenten die hun werkzaamheid
 van tussenpersoon niet met regelmaat uitoefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -34,7 +34,7 @@ De agentuurovereenkomst wordt voor onbepaalde tijd gesloten wanneer ze niet op s
 wanneer, als ze wel op schrift is gesteld, de duur ervan niet is bepaald.
 Een overeenkomst die voor bepaalde tijd is aangegaan en die na afloop van de termijn wordt voortgezet, wordt
 van bij het afsluiten geacht een overeenkomst voor onbepaalde tijd te zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -42,7 +42,7 @@ van bij het afsluiten geacht een overeenkomst voor onbepaalde tijd te zijn.]1
 
 [1 Elke partij kan, niettegenstaande enig hiermee strijdig beding, van de andere partij een ondertekend
 stuk verkrijgen dat de inhoud van de agentuurovereenkomst bevat, met inbegrip van latere wijzigingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -55,7 +55,7 @@ In het bijzonder moet de handelsagent :
 zaken waarmee hij belast is;
 2° aan de principaal alle nodige inlichtingen verschaffen waarover hij beschikt;
 3° de redelijke richtlijnen opvolgen die de principaal hem geeft.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -64,7 +64,7 @@ zaken waarmee hij belast is;
 [1 Behoudens andersluidend beding kan de handelsagent, voor de uitvoering van zijn taak, een beroep
 doen op door hem vergoede subagenten die handelen onder zijn verantwoordelijkheid, en van wie hij principaal
 wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -81,7 +81,7 @@ voorziet dat het aantal zaken aanzienlijk geringer zal zijn dan die welke de han
 verwachten.
 De principaal moet de handelsagent voorts binnen een redelijke termijn op de hoogte stellen van zijn
 aanvaarding, weigering, of niet-uitvoering van een zaak die de handelsagent heeft bemiddeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -93,7 +93,7 @@ Alle elementen van de vergoeding die variëren naar gelang van het aantal zaken 
 geacht een commissie te zijn in de zin van deze afdeling.
 Indien de vergoeding van de handelsagent niet geheel of gedeeltelijk uit een commissie bestaat zijn de artikelen
 X.8 tot X.14 niet van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -106,7 +106,7 @@ handelsagent recht op een commissie :
 gelijkaardige zaken;
 3° of, indien is overeengekomen dat de handelsagent alleen zal optreden in een bepaald gebied of bij een
 bepaalde groep personen en de zaak werd afgesloten met een klant uit dat gebied of uit die groep.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -119,7 +119,7 @@ handelsagentuurovereenkomst aan de dag gelegde activiteit en de zaak is afgeslot
 maanden te rekenen van het einde van deze overeenkomst;
 2° of indien, overeenkomstig de voorwaarden bedoeld in artikel X.8, de bestelling van de derde door de
 principaal of door de handelsagent is ontvangen voor het einde van de handelsagentuurovereenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -128,7 +128,7 @@ principaal of door de handelsagent is ontvangen voor het einde van de handelsage
 [1 De handelsagent heeft geen recht op de commissie bedoeld in artikel X.8 indien deze krachtens
 artikel X.9 verschuldigd is aan de vorige handelsagent, tenzij uit de omstandigheden voortvloeit dat het billijk is de
 commissie tussen de handelsagenten te verdelen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -144,7 +144,7 @@ moeten uitvoeren, indien de principaal zijn deel had uitgevoerd.
 De commissie wordt uiterlijk op de laatste dag van de maand volgend op het kwartaal waarin zij opeisbaar is
 geworden, betaald.
 Van het tweede en derde lid mag niet worden afgeweken ten nadeel van de handelsagent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -160,7 +160,7 @@ wanneer er door toedoen van de derde gewichtige redenen bestaan die de niet-uitv
 rechtvaardigen.
 In alle gevallen bedoeld in dit artikel wordt de commissie die de handelsagent reeds heeft ontvangen,
 terugbetaald.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -208,7 +208,7 @@ het paritair overlegorgaan gesloten overeenkomst bindt alle agenten en de princi
 overeenkomst meebrengt, kunnen niet leiden tot de verbreking van de handelsagentuurovereenkomst.
 Na raadpleging van de vertegenwoordigende organisaties van de betrokken sectoren kan de Koning de wijze
 van oprichting, organisatie en werking van dit overleg bepalen.]1
-----------
+
 (1)<W 2022-02-16/03, art. 2, 103; Inwerkingtreding : 14-03-2022>
 
 
@@ -221,7 +221,7 @@ De handelsagent kan eisen dat hem alle gegevens worden verstrekt waarover de pri
 bijzonder uittreksels uit de boekhouding, indien de handelsagent die nodig heeft om na te gaan hoeveel
 commissies hem verschuldigd zijn.
 Van het eerste en het tweede lid mag niet worden afgeweken ten nadele van de handelsagent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -229,7 +229,7 @@ Van het eerste en het tweede lid mag niet worden afgeweken ten nadele van de han
 
 [1 Wanneer de vergoeding geheel of gedeeltelijk uit een vast bedrag bestaat, wordt deze maandelijks
 uitbetaald, behoudens andersluidende overeenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -293,7 +293,7 @@ handelsagent in de zin van artikel X.17, eerste lid, is er door de principaal aa
 vergoeding verschuldigd waarvan het bedrag gelijk is aan één jaar vergoeding berekend overeenkomstig
 paragraaf 3, onverminderd de andere voor de handelsagent uit de wet voortvloeiende rechten naar aanleiding
 van de beëindiging van de handelsagentuurovereenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -311,7 +311,7 @@ beëindiging, kunnen worden aangevoerd ter rechtvaardiging van de beëindiging z
 verstrijken van de termijn.
 Niettegenstaande enig hiermee strijdig beding kan, vóór het einde van de overeenkomst, van dit artikel niet
 worden afgeweken ten nadele van de handelsagent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -340,7 +340,7 @@ en verplichtingen uit hoofde van de handelsagentuurovereenkomst aan een derde ov
 De handelsagent verliest zijn recht op de uitwinningvergoeding indien hij de principaal niet binnen een jaar na de
 beëindiging van de handelsagentuurovereenkomst ervan in kennis gesteld heeft dat hij voornemens is zijn
 rechten te doen gelden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -350,7 +350,7 @@ rechten te doen gelden.]1
 bedrag van deze vergoeding de werkelijk geleden schade niet volledig vergoedt, kan de handelsagent, mits hij de
 werkelijke omvang van de beweerde schade bewijst, boven deze vergoeding schadeloosstelling verkrijgen ten
 belope van het verschil tussen het bedrag van de werkelijk geleden schade en het bedrag van die vergoeding.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -358,7 +358,7 @@ belope van het verschil tussen het bedrag van de werkelijk geleden schade en het
 
 [1 Het recht op de vergoedingen bedoeld in de artikelen X.18 en X.19 ontstaat eveneens wanneer
 door het overlijden van de handelsagent de overeenkomst wordt beëindigd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -366,7 +366,7 @@ door het overlijden van de handelsagent de overeenkomst wordt beëindigd.]1
 
 [1 Voordat de handelsagentuurovereenkomst is beëindigd, mogen de partijen niet ten nadele van de
 handelsagent afwijken van de bepalingen van de artikelen X.18, X.19 en X.20.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -389,7 +389,7 @@ concurrentiebeding, mag niet hoger zijn dan een bedrag gelijk aan één jaar ver
 artikel X.18, vierde lid.
 De principaal kan echter, mits hij het bestaan en de omvang van zijn nadeel bewijst, een hogere vergoeding
 eisen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -412,7 +412,7 @@ Indien er een kennelijke wanverhouding is tussen het risico dat de handelsagent 
 bedongen commissie, kan de rechter het bedrag waarvoor de handelsagent aansprakelijk is verminderen voor
 zover dit bedrag de commissie te boven gaat. De rechter houdt met alle omstandigheden rekening, in het
 bijzonder met de wijze waarop de handelsagent de belangen van de principaal heeft behartigd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -421,7 +421,7 @@ bijzonder met de wijze waarop de handelsagent de belangen van de principaal heef
 [1 Rechtsvorderingen die ontstaan uit een overeenkomst bedoeld in art. I.11, 1°, verjaren een jaar na
 het eindigen van de overeenkomst of vijf jaar na het feit waaruit de vordering is ontstaan zonder dat deze termijn
 langer mag duren dan een jaar na het eindigen van de overeenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -431,12 +431,12 @@ langer mag duren dan een jaar na het eindigen van de overeenkomst.]1
 niettegenstaande andersluidende bedingen in de handelsagentuurovereenkomst, is elke activiteit van een
 handelsagent met hoofdvestiging in België onderworpen aan de Belgische wet en behoort ze tot de bevoegdheid
 van de Belgische rechtbanken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
 #### TITEL 2. - [1 Precontractuele informatie in het kader van commerciële samenwerkingsovereenkomsten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -449,7 +449,7 @@ Deze titel is niet van toepassing :
 verzekeringsbemiddeling en de distributie van verzekeringen;
 - op de bankagentuurovereenkomsten onderworpen aan de wet van 22 maart 2006 betreffende de
 bemiddeling in bank- en beleggingsdiensten en de distributie van financiële instrumenten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -472,7 +472,7 @@ Onder voorbehoud van de toepassing van artikel X.29 en met uitzondering van de v
 het kader van een vertrouwelijkheidsakkoord, mag geen enkele andere verbintenis worden aangegaan en mag
 geen enkele andere vergoeding, bedrag of waarborg worden gevraagd of betaald vóór het verstrijken van de in
 dit artikel bedoelde termijn van een maand.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 (2)<W 2018-09-20/14, art. 6, 067; Inwerkingtreding : 20-10-2018>
 
@@ -548,7 +548,7 @@ bevinden in het handelsgebied van de persoon die het recht verkrijgt zoals gedef
 recht verleent.]3
 § 2. De Koning kan de vorm bepalen van het afzonderlijk document bedoeld in § 1. Hij kan eveneens de lijst van
 gegevens opgesomd in paragraaf 1, 1° en 2°, aanvullen of verduidelijken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 (2)<W 2024-02-09/19, art. 29, 129; Inwerkingtreding : 01-09-2024>
 (3)<KB 2024-08-19/04, art. 1, 140; Inwerkingtreding : 01-03-2025>
@@ -581,7 +581,7 @@ document moet verstrekken.
 27, derde lid, is niet van toepassing op de verplichtingen betreffende overeenkomsten die in uitvoering
 zijn op het moment waarop over de hernieuwing, de nieuwe overeenkomst of de wijziging van de overeenkomst
 wordt onderhandeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -602,7 +602,7 @@ De persoon die het recht verkrijgt, kan pas geldig afstand doen van het recht om
 overeenkomst of van één van de bepalingen ervan te vorderen, na het verstrijken van een termijn van een
 maand na het sluiten van deze overeenkomst. Deze afstand moet uitdrukkelijk de oorzaken vermelden waarom
 afstand wordt gedaan van de nietigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -612,7 +612,7 @@ afstand wordt gedaan van de nietigheid.]1
 verkrijgen met het oog op het sluiten van een commerciële samen werkingsovereenkomst en mogen deze
 inlichtingen slechts rechtstreeks of onrechtstreeks gebruiken binnen de te sluiten commerciële
 samenwerkingsovereenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -621,7 +621,7 @@ samenwerkingsovereenkomst.]1
 [1 De bedingen in de commerciële samenwerkingsovereenkomst en de gegevens in het afzonderlijk
 document, bedoeld in artikel X.28, worden duidelijk en begrijpelijk opgesteld. In geval van twijfel over de betekenis
 van een beding of een gegeven, prevaleert de voor de persoon die het recht verkrijgt, gunstigste interpretatie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -630,7 +630,7 @@ van een beding of een gegeven, prevaleert de voor de persoon die het recht verkr
 [1 De precontractuele fase van de commerciële samenwerkingsovereenkomst valt onder de Belgische
 wet en onder de bevoegdheid van de Belgische rechtbanken, wanneer de persoon die het recht verkrijgt, de
 activiteit waarop de overeenkomst slaat, hoofdzakelijk in België uitoefent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -641,7 +641,7 @@ activiteit waarop de overeenkomst slaat, hoofdzakelijk in België uitoefent.]1
 
 
 #### TITEL 3. - [1 Eenzijdige beëindiging van voor onbepaalde tijd verleende concessies van alleenverkoop]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -654,7 +654,7 @@ overeenkomst slaat in het concessiegebied verkoopt;
 3° de verkoopconcessies waarbij de concessiegever de concessiehouder belangrijke verplichtingen oplegt, die
 op strikte en bijzondere wijze aan de verkoopconcessie gekoppeld zijn en waarvan de last zo zwaar is dat de
 concessiehouder groot nadeel zou lijden in geval van beëindiging van de concessie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -665,7 +665,7 @@ grove tekortkoming van een van de partijen aan haar verplichtingen, niet worden 
 opzeggingstermijn of een billijke vergoeding die door partijen worden bepaald bij de opzegging van het contract.
 Zijn partijen het niet eens, dan doet de rechter uitspraak naar billijkheid, eventueel met inachtneming van de
 gebruiken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -683,7 +683,7 @@ die aan de concessiegever voordelen mochten opleveren na het eindigen van het co
 3° Het rouwgeld dat de concessiehouder verschuldigd is aan het personeel dat hij verplicht is te ontslaan ten
 gevolge van de beëindiging van de verkoopconcessie. Zijn partijen het niet eens, dan doet de rechter uitspraak
 naar billijkheid, eventueel met inachtneming van de gebruiken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 (2)<W 2019-05-02/28, art. 14, 077; Inwerkingtreding : 01-06-2019>
 
@@ -699,7 +699,7 @@ Wanneer een voor bepaalde tijd verleende verkoopconcessie tweemaal werd vernieuw
 bedingen van het oorspronkelijk contract al dan niet werden gewijzigd tussen dezelfde partijen, of wanneer zij
 tweemaal stilzwijgend werd verlengd ten gevolge van een beding van het contract, wordt elke latere verlenging
 geacht te zijn toegestaan voor onbepaalde tijd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -710,7 +710,7 @@ voor het gehele Belgische grondgebied of een deel ervan, in elk geval de concess
 hetzij voor de rechter van zijn eigen woonplaats, hetzij voor de rechter van de woonplaats of de zetel van de
 concessiegever. Ingeval het geschil voor een Belgische rechtbank wordt gebracht, zal deze uitsluitend de
 Belgische wet toepassen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -726,12 +726,12 @@ Wanneer het contract van een onderconcessiehouder voor bepaalde tijd is verleend
 eindigen op dezelfde datum als het hoofdcontract, beschikt de concessiehouder die van de concessiegever een
 opzegging ontvangt, alleszins over een termijn van veertien volle dagen vanaf de ontvangst van deze opzegging
 om de onderconcessiehouder kennis te geven van een opzegging. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
 
 #### Titel 4. [1 - Vervoersovereenkomst]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 173, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -759,7 +759,7 @@ colli's;
 6° de tijd waarbinnen het vervoer moet geschieden en de prijs van het vervoer of de reglementaire
 voorwaarden waarnaar partijen verwijzen.
 De vrachtbrief wordt getekend door de afzender of door de commissionair.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 174, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -768,7 +768,7 @@ De vrachtbrief wordt getekend door de afzender of door de commissionair.]1
 [1 De commissionair of de vervoerder is gehouden de aard, de hoeveelheid en desgevorderd de
 waarde van de te vervoeren goederen in zijn dagboek aan te tekenen overeenkomstig de verklaringen van de
 afzender.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 175, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -776,7 +776,7 @@ afzender.]1
 
 [1 Hij staat in voor de aankomst van de goederen en van de personen binnen de overeengekomen
 tijd, behoudens toeval of overmacht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 176, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -785,7 +785,7 @@ tijd, behoudens toeval of overmacht.]1
 [1 Hij is aansprakelijk voor de beschadiging of het verlies van de zaken alsmede voor de ongevallen
 waardoor de reizigers worden getroffen, indien hij niet bewijst dat de beschadiging, het verlies of het ongeval het
 gevolg is van een vreemde oorzaak die hem niet kan worden toegeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 177, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -793,7 +793,7 @@ gevolg is van een vreemde oorzaak die hem niet kan worden toegeschreven.]1
 
 [1 Hij staat borg voor de daden van de commissionair of van de tussenvervoerder aan wie hij de te
 vervoeren goederen toezendt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 178, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -804,7 +804,7 @@ anders is bedongen, is de vervoerder gehouden de aanwijzingen van de afzender te
 gerechtigd om over de goederen te beschikken.
 Het recht van de afzender houdt op te bestaan zodra de goederen aan de besteldienst zijn afgegeven of zodra
 aan de geadresseerde een bericht van aankomst is gezonden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 179, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -827,7 +827,7 @@ vervoerde goederen, geldt niet wanneer het voorstel om de koopwaar te bezichtige
 aan zijn gemachtigde gedaan is op het ogenblik van de aflevering.
 De vordering blijft slechts bestaan betreffende de punten waarover een bijzonder voorbehoud of bezwaar is
 gemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 180, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -849,7 +849,7 @@ Deze termijn wordt verdubbeld wanneer een van de belanghebbenden in het buitenla
 In spoedeisende gevallen kan de voorzitter die termijnen verkorten.
 De beschikking is niet vatbaar voor verzet of hoger beroep. Zij is uitvoerbaar op de minuut en voor de
 registratie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 181, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -868,7 +868,7 @@ De verjaring loopt van de dag waarop het feit dat tot de rechtsvordering aanleid
 voorgedaan.
 Regresvorderingen moeten, op straffe van verval, worden ingesteld binnen de termijn van een maand, te
 rekenen van de dagvaarding die tot het regres aanleiding geeft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 182, 059; Inwerkingtreding : 01-11-2018>
 (2)<W 2023-11-05/07, art. 25, 123; Inwerkingtreding : 21-12-2023>
 
@@ -877,7 +877,7 @@ rekenen van de dagvaarding die tot het regres aanleiding geeft.]1
 
 [1 De voorafgaande bepalingen van deze titel zijn, behoudens afwijking, van toepassing op de
 spoorwegondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 183, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -886,7 +886,7 @@ spoorwegondernemingen.]1
 [1 De Nationale Maatschappij der Belgische Spoorwegen moet in binnenlandse dienst alle vervoer van
 personen verrichten dat kan geschieden met de normale vervoermiddelen waarmede aan de regelmatige
 behoeften van het verkeer kan worden voldaan, onder de voorwaarden bepaald in het beheerscontract.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 184, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -894,7 +894,7 @@ behoeften van het verkeer kan worden voldaan, onder de voorwaarden bepaald in he
 
 [1 De tarieven, die van toepassing zijn op het personenvervoer in binnenlandse dienst, worden door
 berichten in het Belgisch Staatsblad bekendgemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 185, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -902,7 +902,7 @@ berichten in het Belgisch Staatsblad bekendgemaakt.]1
 
 [1 Een reglement bepaalt onder welke voorwaarden de reizigers tot het vervoer worden toegelaten.
 Het bepaalt welke reizigers niet in de treinen mogen worden toegelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 186, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -911,7 +911,7 @@ Het bepaalt welke reizigers niet in de treinen mogen worden toegelaten.]1
 [1 Het is aan de spoorwegvervoerder verboden in zijn tarieven of reglementen bepalingen op te
 nemen, waardoor zijn gemeenrechtelijke aansprakelijkheid gewijzigd wordt voor de ongevallen waardoor de
 reizigers worden getroffen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 187, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -921,7 +921,7 @@ reizigers worden getroffen.]1
 vervoeren met de trein waarin hij toegelaten is, en welke bagage hij bij zich mag houden.
 Ten aanzien van de laatstgenoemde bagage draagt de spoorwegvervoerder generlei aansprakelijkheid, behalve
 wanneer vaststaat dat hij schuld heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 188, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -931,14 +931,14 @@ wanneer vaststaat dat hij schuld heeft.]1
 bewijs afgegeven, waarop worden vermeld de plaats van vertrek en van aankomst, het aantal colli's en hun totale
 gewicht van de colli's, de ontvangen prijs en, in voorkomend geval, de aangifte van het belang bij de aflevering.
 Het bewijs kan elektronisch worden gegeven in de vorm en volgens de nadere regels bepaald door de Koning.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 189, 059; Inwerkingtreding : 01-11-2018>
 
 
 ## Art. X.57
 
 [1 De bagage wordt bij de aankomst van de trein afgegeven tegen overhandiging van het bewijs.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 190, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -961,7 +961,7 @@ de door de reglementen bepaalde maximale termijn terug te vorderen en de spoorwe
 personen niet kunnen identificeren en informeren, past de spoorwegvervoerder de procedure toe waarin de wet
 van 6 april 2010 betreffende de verplichte bewaring door een spoorwegvervoerder van verloren, achtergelaten
 of niet afgehaalde bagage en goederen voorziet.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 191, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -973,7 +973,7 @@ het vervoer verboden is, in de colli's of de bagage bevinden, kan hij deze doen 
 gegeven zijn of als de reizigers ze overeenkomstig de reglementen bij zich houden. De opening geschiedt hetzij in
 tegenwoordigheid van de afzender of de reiziger, hetzij, in geval van afwezigheid of van weigering, ten overstaan
 van een officier van gerechtelijke politie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 192, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -983,7 +983,7 @@ van een officier van gerechtelijke politie.]1
 onderworpen aan de bepalingen van titel IV van de uniforme regelen betreffende de overeenkomst van
 internationaal spoorwegvervoer van goederen (C.I.M.) van appendix B aan het "Verdrag betreffende het
 internationale spoorwegvervoer", goedgekeurd bij de wet van 25 april 1983.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 193, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -992,12 +992,12 @@ internationale spoorwegvervoer", goedgekeurd bij de wet van 25 april 1983.]1
 [1 De Koning kan ten aanzien van de exploitatie van vervoermiddelen voor personen of goederen de
 maatregelen voorschrijven die Hij noodzakelijk acht voor de handhaving van de orde en de veiligheid van de
 reizigers.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 194, 059; Inwerkingtreding : 01-11-2018>
 
 
 #### Titel 5. [1 - Adviescommissie voor overeenkomsten inzake commerciële distributie]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 24, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -1026,7 +1026,7 @@ die begint te lopen op de dag na de dag waarop het advies van de Adviescommissie
 Centrale Raad voor het Bedrijfsleven. Deze termijn wordt verlengd met één maand wanneer de Centrale Raad
 voor het Bedrijfsleven zijn voornemen bekendmaakt om het advies van de Adviescommissie te
 becommentariëren of aan te vullen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 25, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -1036,23 +1036,23 @@ becommentariëren of aan te vullen.]1
 Model van geraamde exploitatierekening]1
 
 (Beeld niet opgenomen om technische redenen, zie B.St. van 11-09-2024, p. 107085)
-----------
+
 (1)<Ingevoegd bij KB 2024-08-19/04, art. 2, 140; Inwerkingtreding : 01-03-2025>
 
 
 ### Boek XI. - [1 Intellectuele eigendom]1 [2 en bedrijfsgeheimen]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-07-30/18, art. 3, 064; Inwerkingtreding : 24-08-2018>
 
 
 #### Titel 1. - [1 Uitvindingsoctrooien]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 1. - [1 Algemeenheden]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1064,7 +1064,7 @@ biologische diversiteit opgemaakt te Rio op 5 juni 1992, de Overeenkomst inzake 
 intellectuele eigendom opgemaakt te Marrakech op 15 april 1994, het Europees Verdrag voor de rechten van de
 mens van 4 november 1950, en de Overeenkomst betreffende het eengemaakt octrooigerecht van 19 februari
 2013.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1072,17 +1072,17 @@ mens van 4 november 1950, en de Overeenkomst betreffende het eengemaakt octrooig
 
 [1 Deze titel, zoals titel 3, voorzien in de omzetting van richtlijn 98/44/EG van het Europees Parlement
 en de Raad van 6 juli 1998 betreffende de rechtsbescherming van biotechnologische uitvindingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 2. - [1 Het uitvindingsoctrooi]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 1. - [1 Algemene bepalingen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1098,7 +1098,7 @@ bevat, of op een werkwijze waarmee biologisch materiaal wordt verkregen, bewerkt
 Biologisch materiaal dat met behulp van een technische werkwijze uit zijn natuurlijke milieu wordt geïsoleerd of
 wordt verkregen, kan ook dan het voorwerp van een uitvinding zijn, wanneer het in de natuur reeds voorhanden
 is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1113,7 +1113,7 @@ bedrijfsvoering, alsmede computerprogramma's;
 § 2. De bepalingen van paragraaf 1 sluiten de octrooieerbaarheid van de aldaar genoemde onderwerpen of
 werkzaamheden alleen dan uit voor zover de octrooiaanvraag of het octrooi betrekking heeft op een van die
 onderwerpen of werkzaamheden als zodanig.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1155,7 +1155,7 @@ uitvinding moet concreet worden vermeld in de octrooiaanvraag.
 dierlijke lichaam door chirurgische of geneeskundige behandeling, en voor diagnosemethoden die worden
 toegepast op het menselijke of het dierlijke lichaam. Deze bepaling is niet van toepassing op voortbrengselen,
 met name stoffen of mengsels, voor de toepassing van één van deze methoden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 15, 077; Inwerkingtreding : 01-06-2019>
 
@@ -1192,7 +1192,7 @@ overheidswege gehouden of erkende tentoonstellingen in de zin van het Verdrag no
 tentoonstellingen, ondertekend te Parijs op 22 november 1928, en op voorwaarde dat de aanvrager bij de
 indiening van zijn aanvraag verklaart dat de uitvinding inderdaad is tentoongesteld en een bewijsstuk daarvoor
 overlegt binnen de termijn en overeenkomstig de voorwaarden gesteld door de Koning.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1202,7 +1202,7 @@ overlegt binnen de termijn en overeenkomstig de voorwaarden gesteld door de Koni
 deskundige niet op een voor de hand liggende wijze voortvloeit uit de stand van de techniek. De documenten als
 bedoeld in artikel XI.6, § 3, worden bij de beoordeling van de uitvinderswerkzaamheid buiten beschouwing
 gelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1211,12 +1211,12 @@ gelaten.]1
 [1 Een uitvinding wordt voor toepassing op het gebied van de nijverheid vatbaar geacht, indien het
 onderwerp daarvan kan worden vervaardigd of toegepast op enig gebied van de nijverheid, de landbouw
 daaronder begrepen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 2. - [1 Het recht om een uitvindingsoctrooi te bekomen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1227,7 +1227,7 @@ Indien verscheidene personen de uitvinding onafhankelijk van elkaar hebben gedaa
 octrooiaanvraag de oudste datum van indiening heeft recht op het octrooi.
 Bij de procedure voor de Dienst wordt de aanvrager geacht gerechtigd te zijn het recht op een octrooi te doen
 gelden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1247,7 +1247,7 @@ verlening of de verkrijging van het octrooi wist dat hij geen recht op het octro
 kracht van gewijsde gegane beslissing op deze vordering of een andere beëindiging van de procedure. Deze
 inschrijvingen vinden plaats door bemiddeling van de griffier van de aangezochte rechterlijke instantie, op
 verzoek van de aanvrager of van elke belanghebbende.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1268,7 +1268,7 @@ redelijke voorwaarden worden verleend.
 § 3. Het bepaalde in de vorige paragraaf is niet van toepassing indien de houder van de octrooiaanvraag of van
 het octrooi of de licentiehouder te kwader trouw was toen hij met de toepassing van de uitvinding of de
 voorbereiding hiertoe begon.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1276,7 +1276,7 @@ voorbereiding hiertoe begon.]1
 
 [1 Het bepaalde in artikel XI.10 en XI.11 is van toepassing wanneer het geschil inzake het
 houderschap van een octrooiaanvraag of van een octrooi voor een scheidsgerecht wordt gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1285,12 +1285,12 @@ houderschap van een octrooiaanvraag of van een octrooi voor een scheidsgerecht w
 [1 Behoudens zijn uitdrukkelijk verzoek om het tegendeel, wordt de uitvinder in het octrooi vermeld.
 De Koning stelt de modaliteiten en termijnen vast voor de verzending aan de Dienst van het verzoek bedoeld in
 het vorige lid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 3. - [1 De aflevering van het uitvindingsoctrooi]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1298,7 +1298,7 @@ het vorige lid.]1
 
 [1 Degene die een uitvindingsoctrooi wenst te bekomen moet een aanvraag indienen. Deze aanvraag
 moet voldoen aan de voorwaarden en vormen vastgelegd in de huidige titel en door de Koning.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1310,7 +1310,7 @@ de Dienst gedaan.
 Een ontvangstbewijs, kosteloos opgesteld door een daartoe door de minister aangewezen ambtenaar van de
 Dienst, stelt elke indiening vast met vermelding van de dag van de ontvangst der stukken. Het ontvangstbewijs
 wordt aan de aanvrager of zijn vertegenwoordiger betekend op de door de Koning bepaalde wijze.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1328,7 +1328,7 @@ toepasselijke voorwaarden en uitvoeringsmaatregelen vastleggen;
 7° de aanduiding van de uitvinder of het verzoek bedoeld in artikel XI.13, eerste lid.
 § 2. Elke octrooiaanvraag geeft aanleiding tot betaling van de indieningstaks; het bewijs van betaling van deze
 taks dient uiterlijk één maand na de indiening van de aanvraag aan de Dienst toe te komen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1387,7 +1387,7 @@ datum van indiening die aan de aanvraag wordt toegekend, mee.
 van het Verdrag van Parijs om, als datum van een afgesplitste aanvraag zoals bedoeld in dat artikel, de datum
 van de oorspronkelijke aanvraag als bedoeld in dat artikel aan te houden en het genot van een eventueel recht
 van voorrang te behouden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1409,7 +1409,7 @@ beknopt te zijn en steun te vinden in de beschrijving.
 § 3. Tekeningen worden toegevoegd indien zij nodig zijn om de uitvinding te begrijpen.
 § 4. Het uittreksel, zo nodig vergezeld van een tekening, is alleen bedoeld als technische informatie; het kan niet
 in aanmerking komen voor enig ander doel. Het kan worden onderworpen aan de controle van de Dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1436,7 +1436,7 @@ verleende octrooi beperkt zijn tot de octrooiconclusies waarvoor het verslag van
 opgesteld.
 § 5. Elke niet overeenkomstig de bepalingen van dit artikel beperkte of afgesplitste octrooiaanvraag kan worden
 afgewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1528,7 +1528,7 @@ voorgenomen weigering.
 van de door de Koning vastgestelde taks.
 Het verzoekschrift bedoeld in paragrafen 8, 9 en 10 is van rechtswege zonder gevolg indien de in het eerste lid
 bedoelde taks niet in de door de Koning bepaalde termijn werd betaald.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1537,7 +1537,7 @@ bedoelde taks niet in de door de Koning bepaalde termijn werd betaald.]1
 [1 De Dienst kan de eensluidend verklaarde Belgische octrooiaanvraag, vergezeld van een
 verklaring waarin de datum van indiening van de aanvraag wordt vermeld, beschikbaar stellen in een door de
 Koning aangewezen databank, overeenkomstig de voorwaarden en nadere regels die Hij bepaalt.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 4, 119; Inwerkingtreding : 01-12-2022>
 
 
@@ -1564,7 +1564,7 @@ artikel XI.16, § 2, te betalen taks onbetaald is gebleven, geacht te zijn inget
 beschouwd, indien de octrooiaanvraag is ingetrokken of is afgewezen bij een in kracht van gewijsde gegane
 beslissing. Deze bepaling doet geen afbreuk aan de bepalingen van het Verdrag van Parijs houdende de
 verkrijging van het voorrangsrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 16, 077; Inwerkingtreding : 01-10-2019>
 
@@ -1580,7 +1580,7 @@ de taks, minstens rekening met de volgende criteria :
 2° de verhouding tussen de kost voor de Dienst voor het beheer van de in het tweede lid bedoelde taks, en de
 inkomsten die deze taks genereert; en
 3° de responsabilisering van de octrooiaanvrager.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1672,7 +1672,7 @@ de taks, minstens rekening met de volgende criteria :
 1° de toegankelijkheid tot het Belgische octrooisysteem; en
 2° de verhouding tussen de kost voor de Dienst voor het beheer van de in het tweede lid bedoelde taks, en de
 inkomsten die deze taks genereert.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-09-25/06, art. 5, 119; Inwerkingtreding : 01-12-2022>
 
@@ -1716,7 +1716,7 @@ De in artikel XI.23, § 2, beoogde schriftelijke opinie bindt de Dienst geenszin
 naar de octrooieerbaarheid van de uitvinding.
 § 5. Onverminderd de toepassing van de wetsbepaling van 10 januari 1955, wordt melding gemaakt van de
 verlening der octrooien in het register.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 17, 077; Inwerkingtreding : 01-06-2019>
 (3)<W 2022-09-25/06, art. 6, 119; Inwerkingtreding : 01-01-2024>
@@ -1752,7 +1752,7 @@ van de paragrafen 1 en 2:
 artikel XI.13, evenals dit verzoekschrift.
 § 5. De Koning bepaalt welke andere stukken of gegevens, in afwijking van de paragrafen 1 en 2, niet
 onderworpen zijn aan de inzage ten behoeve van het publiek.]1
-----------
+
 (1)<W 2022-09-25/06, art. 7, 119; Inwerkingtreding : 01-01-2024>
 
 
@@ -1760,7 +1760,7 @@ onderworpen zijn aan de inzage ten behoeve van het publiek.]1
 
 [1 Het in artikel XI.3 bedoeld uitsluitend recht heeft uitwerking vanaf de dag waarop het octrooi ter
 inzage van het publiek is gelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1777,12 +1777,12 @@ worden vermeld in de Verzameling.
 Verzameling overeenkomstig artikelen XI.80/1 en XI.80/2 op.
 § 4. Behalve in gevallen die door de Koning zijn vastgesteld, blijven de inschrijvingen in het register en in de
 Verzameling voor onbeperkte duur onderworpen aan de inzage ten behoeve van het publiek.]1
-----------
+
 (1)<W 2022-09-25/06, art. 8, 119; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 4. [1 Rechten en verplichtingen verbonden aan het uitvindingsoctrooi en aan de aanvraag ervan]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1794,7 +1794,7 @@ Teneinde de beschermingsomvang die voortvloeit uit een octrooi te bepalen, dient
 worden gehouden met elk element dat gelijkwaardig is aan een in de conclusies omschreven element.
 Indien het octrooi is verleend voor een werkwijze strekken de aan dat octrooi verbonden rechten zich uit tot de
 voortbrengselen die rechtstreeks verkregen zijn door die werkwijze.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1819,7 +1819,7 @@ verkrijgbare producten zijn, met uitzondering van het geval dat de derde degene 
 verrichten van een krachtens paragraaf 1 verboden handeling.
 Hij die de in artikel XI.34, § 1, a) tot en met e), bedoelde handelingen verricht, wordt niet geacht in de zin van
 het eerste lid gerechtigd te zijn de uitvinding toe te passen.]1
-----------
+
 (1)<W 2017-12-19/07, art. 2, 054; Inwerkingtreding : 01-06-2023>
 
 
@@ -1834,7 +1834,7 @@ biologisch materiaal dat door de uitvinding bepaalde eigenschappen heeft gekrege
 biologisch materiaal dat rechtstreeks door deze werkwijze wordt gewonnen en tot ieder ander biologisch
 materiaal dat door middel van propagatie of vermeerdering in dezelfde of in gedifferentieerde vorm uit het
 rechtstreeks gewonnen biologisch materiaal wordt gewonnen en diezelfde eigenschappen heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1844,7 +1844,7 @@ rechtstreeks gewonnen biologisch materiaal wordt gewonnen en diezelfde eigenscha
 informatie bestaat of dat zulke informatie bevat, strekt zich behoudens artikel XI.5, § 6, eerste lid, uit tot ieder
 materiaal waarin dit voortbrengsel wordt verwerkt en waarin de genetische informatie wordt opgenomen en haar
 functie uitoefent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1909,7 +1909,7 @@ paragraaf 1, b).]3
 § 2. De uit een octrooi voortvloeiende rechten strekken zich niet uit tot handelingen die een door dit octrooi
 beschermd voortbrengsel betreffen en op Belgisch grondgebied worden verricht, nadat dit voortbrengsel door
 de octrooihouder of met zijn uitdrukkelijke toestemming [2 in een lidstaat]2 in het verkeer is gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-09-25/06, art. 9, 119; Inwerkingtreding : 01-12-2022>
 (3)<W 2017-12-19/07, art. 4, 054; Inwerkingtreding : 01-06-2023>
@@ -1937,7 +1937,7 @@ bepalen van de vergoeding.
 § 5. De vordering tot vergoeding en de vordering tot terugbetaling verjaren na vijf jaar te rekenen vanaf de
 staking van de exploitatie van de uitvinding, respectievelijk de datum van de verlening van het octrooi.
 § 6. De vruchtgebruiker van de octrooiaanvraag kan zich op de in dit artikel gestelde bepalingen beroepen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -1952,7 +1952,7 @@ beschermd voortbrengsel betreffen en op Belgisch grondgebied worden verricht, na
 verkeer in België is gebracht door de persoon die geniet van het recht bedoeld in paragraaf 1.
 § 3. De door dit artikel erkende rechten kunnen maar overgedragen worden samen met de onderneming
 waarmede zij verbonden zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2005,7 +2005,7 @@ getreden. Indien de inbreuk is bewezen, wordt de aanvraag voor een gedwongen lic
 § 4. Voorbehoud wordt gemaakt voor de toepassing van de wetten waarin het verlenen van licenties tot
 exploitatie van geoctrooieerde uitvindingen voor bijzondere materies is voorzien, met name inzake de
 landsverdediging en de kernenergie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2077,7 +2077,7 @@ vermeld.
 § 12. De artikelen XI.37, XI.40 tot en met XI.46 zijn niet van toepassing op de gedwongen licentie beoogd in dit
 artikel. De bepalingen van dit artikel zijn niet van toepassing op de gedwongen licenties beoogd door de artikelen
 XI.37, XI.40 tot en met XI.46.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2096,7 +2096,7 @@ behandeling van de aanvragen voor dwanglicenties bedoeld in de Verordening (EG) 
 § 4. De artikelen XI.37, XI.38 en XI.40 tot en met XI.46 zijn niet van toepassing op de gedwongen licentie
 beoogd in dit artikel. De bepalingen van dit artikel zijn niet van toepassing op de gedwongen licenties beoogd
 door de artikelen XI.37, XI.38 en XI.40 tot en met XI.46.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2127,7 +2127,7 @@ exploiteren van de geoctrooieerde afhankelijke uitvinding of het door het kweker
 plantenras en laat dit gebruik slechts toe in verband met deze exploitatie.
 Het derde lid van paragraaf 2 is toepasselijk op de gedwongen licentie toegekend met toepassing van artikel
 XI.37, § 1, 3° of 4°.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2164,7 +2164,7 @@ indienen van een aanvraag voor een licentie kennis werd gegeven, een verzoekschr
 zetelend zoals in kortgeding. De gerechtelijke beslissing is niet vatbaar voor hoger beroep of verzet.
 Het niet in acht nemen van de termijn voorzien in de twee voorgaande leden sluit het recht uit van de houder
 van het heersend octrooi om zijn betwisting te doen gelden voor de rechtbank.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2181,7 +2181,7 @@ rekening houdend met de economische waarde van de licentie.
 § 2. De minister verleent de licentie bij een met redenen omkleed besluit.
 De gedwongen licentie en de desbetreffende beslissingen worden in het register ingeschreven.
 Het besluit wordt in het Belgisch Staatsblad bekendgemaakt en in de Verzameling vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2247,7 +2247,7 @@ Ten minste één maand voor de datum van haar vergadering, verwittigt de Commiss
 de personen die tijdens deze vergadering moeten worden gehoord. In dringende gevallen wordt deze termijn
 gehalveerd.
 § 4. De werkingskosten van de Commissie komen ten laste van de begroting van de FOD Economie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
@@ -2260,7 +2260,7 @@ wat hun wederzijdse verplichtingen betreft en desgevallend ook voor wat de explo
 bevoegdheid om de beslissing te herzien komt toe aan de autoriteit van wie de beslissing uitging en de te volgen
 procedure is dezelfde als die welke voorzien is om de beslissing te nemen die het voorwerp is van de
 herziening.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2279,7 +2279,7 @@ De intrekking geschiedt bij een met redenen omklede beslissing. In voorkomend ge
 waarom van het advies van de Commissie is afgeweken.
 Het intrekkingsbesluit wordt bij uittreksel in het Belgisch Staatsblad bekendgemaakt en in de Verzameling
 vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2294,7 +2294,7 @@ artikel XI.37, § 1, 2°, slechts overdraagbaar zijn samen met het afhankelijk o
 ## Art. XI
 
 51 is van overeenkomstige toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2305,7 +2305,7 @@ van de aanvraag onder voorbehoud van de betaling der jaartaksen bedoeld in artik
 § 2. In het geval voorzien in artikel XI.23, § 8, houdt de octrooiaanvraag op uitwerking te hebben, onder
 voorbehoud van de betaling van de jaartaksen na afloop van de voor de betaling der opzoekingstaks
 voorgeschreven termijn, indien deze taks niet werd gekweten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2336,12 +2336,12 @@ het register ingeschreven.
 § 3. Wat de personen betreft als bedoeld in artikel XI.78, § 3, wordt het bedrag van de jaartaks en van de
 toeslag met 50 % verminderd. De Koning bepaalt de uitvoeringsmodaliteiten van de aanvraag tot vermindering
 van de jaartaks en van de toeslag bedoeld in deze paragraaf.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 5. - [1 Het octrooi en de octrooiaanvraag als deel van het vermogen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2367,7 +2367,7 @@ beslissing bekend maken om in hun voordeel af te zien van zijn aandeel. Vanaf de
 het register wordt deze mede-eigenaar ontlast van alle verplichtingen ten opzichte van de andere mede-
 eigenaars; deze verdelen het afgestane aandeel onder elkaar naar verhouding van hun rechten in de mede-
 eigendom, tenzij er een andere overeenkomst bestaat.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-01-19/18, art. 40, 110; Inwerkingtreding : 01-07-2022>
 
@@ -2397,7 +2397,7 @@ Dienst en tegenstelbaar zijn aan derden in de omvang die blijkt uit de stukken b
 overdracht of overgang kan evenwel vóór de inschrijving worden tegengesteld aan derden die na de datum van
 overdracht of overgang rechten hebben verkregen, maar bij de verkrijging van deze rechten kennis van de
 overdracht of overgang droegen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2432,7 +2432,7 @@ schriftelijk gebeuren. Zij moet aan de Dienst medegedeeld worden.
 ## Art. XI
 
 50, §§ 3 tot en met 6, is van overeenkomstige toepassing op de overdracht van de licentie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2442,7 +2442,7 @@ schriftelijk gebeuren. Zij moet aan de Dienst medegedeeld worden.
 octrooiaanvraag of van een octrooi moeten aan de Dienst medegedeeld worden.
 § 2. Artikel XI.50, §§ 3 tot en met 6, is van overeenkomstige toepassing op de zakelijke rechten bedoeld in de
 vorige paragraaf.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2454,7 +2454,7 @@ Een afschrift van het beslagexploot moet aan de Dienst bezorgd worden door de be
 het beslag wordt in het register ingeschreven.
 Het beslag brengt mee dat latere wijzigingen door de houder aan de met de octrooiaanvraag of met het octrooi
 verbonden rechten niet tegenstelbaar zijn aan de beslagleggende schuldeiser.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2462,12 +2462,12 @@ verbonden rechten niet tegenstelbaar zijn aan de beslagleggende schuldeiser.]1
 
 [1 De door derden verkregen rechten op een octrooiaanvraag blijven gelden ten aanzien van het
 octrooi dat op deze aanvraag is verleend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 6. - [1 Nietigheid, afstand en herroeping van het uitvindingsoctrooi]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2503,7 +2503,7 @@ beslissing tot verlening van een gedwongen licentie.
 § 9. Elke afstand uitgevoerd in overtreding van de paragrafen 6 en 7 is van rechtswege nietig.
 § 10. De Koning bepaalt de modaliteiten van de procedure van afstand bij de Dienst en bepaalt het bedrag en de
 wijze van betaling van de bijdrage die de Dienst kan innen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 18, 077; Inwerkingtreding : 01-06-2019>
 
@@ -2542,7 +2542,7 @@ beslissing tot toekenning van een gedwongen licentie, kan niet geheel of gedeelt
 § 8. Elke herroeping uitgevoerd in overtreding van de paragrafen 5 en 6 is van rechtswege nietig.
 § 9. De Koning bepaalt de modaliteiten van de procedure van herroeping bij de Dienst en bepaalt het bedrag en
 de wijze van betaling van de bijdrage die door de Dienst kan worden geïnd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 19, 077; Inwerkingtreding : 01-06-2019>
 
@@ -2565,7 +2565,7 @@ en gedeeltelijk nietig verklaard. Deze wijziging wordt in het register ingeschre
 inhoud van de octrooiaanvraag zoals zij werd ingediend.
 Het octrooi kan niet zodanig via een nietigverklaring worden gewijzigd dat de beschermingsomvang wordt
 uitgebreid ten opzichte van de laatste van kracht zijnde versie van het octrooi.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2583,7 +2583,7 @@ beslissing tot nietigverklaring of vóór de inschrijving in het register van de
 register gesloten overeenkomsten, voor zover zij vóór deze beslissing zijn uitgevoerd; uit
 billijkheidsoverwegingen kan echter terugbetaling worden geëist van op grond van deze overeenkomst betaalde
 bedragen voor zover dit door de omstandigheden gerechtvaardigd is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2595,13 +2595,13 @@ gewijsde onder voorbehoud van derdenverzet.
 De beslissingen tot nietigverklaring die in kracht van gewijsde zijn gegaan, worden in het register ingeschreven.
 § 2. [2 Ingeval van nietigverklaring van de octrooien hebben het beroep en de voorziening in cassatie
 schorsende werking.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-09-25/06, art. 10, 119; Inwerkingtreding : 01-12-2022>
 
 
 **Afdeling 7. - [1 Bescherming van de door het uitvindingsoctrooi verleende rechten]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2624,7 +2624,7 @@ Iedere licentiehouder mag tussenbeide komen in een vordering inzake namaak inged
 vruchtgebruiker van het octrooi teneinde vergoed te worden voor de door hemzelf geleden schade.
 § 3. De vordering inzake namaak kan maar ingesteld worden vanaf de dag dat het octrooi ter inzage gelegd is
 van het publiek en alleen voor handelingen van inbreuk begaan sedert deze datum.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2632,17 +2632,17 @@ van het publiek en alleen voor handelingen van inbreuk begaan sedert deze datum.
 
 [1 De vordering wegens inbreuk verjaart na vijf jaar te rekenen vanaf de dag waarop de inbreuk werd
 gepleegd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 3. - [1 Vertegenwoordiging voor de Dienst]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 1. [1 - Verplichting tot vertegenwoordiging]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 5, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2679,7 +2679,7 @@ dient gebruikt te worden.]1
 [3 Indien er meerdere octrooiaanvragers zijn, is de proceduretaal en de taal voor de correspondentie aan de
 Dienst de taal die de octrooiaanvragers gekozen hebben uit de talen die in principe door elk van hen, individueel
 beschouwd, moeten worden gebruikt op de datum van indiening van het verzoek tot verlening van het octrooi.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 39, 061; Inwerkingtreding : 01-12-2020>
 (3)<W 2022-09-25/06, art. 11, 119; Inwerkingtreding : 01-12-2022>
@@ -2693,7 +2693,7 @@ internationale akten inzake uitvindingsoctrooien, en onverminderd artikel XI.91,
 hoofdstuk ook van toepassing op de depots van de octrooiaanvragen ingediend overeenkomstig deze
 internationale akten evenals op alle andere handelingen die verband houden met deze aanvragen of met de
 octrooien die op deze aanvragen zijn verleend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2707,12 +2707,12 @@ commentaar te leveren.
 binnen de door de Koning vastgestelde termijn overeenkomstig paragraaf 1, is de verrichte handeling van
 rechtswege nietig.
 § 3. De onverschuldigd betaalde taksen worden terugbetaald.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 2. [1 - Toegang tot het beroep van octrooigemachtigde]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 7, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2721,7 +2721,7 @@ rechtswege nietig.
 [1 Elke persoon die zich in België vestigt om er het beroep van octrooigemachtigde uit te oefenen,
 dient voorafgaandelijk aan deze uitoefening ingeschreven te zijn in het register van erkende gemachtigden
 bedoeld in artikel XI.65.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 8, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2735,7 +2735,7 @@ voor Octrooigemachtigden bedoeld in artikel XI.75/3, § 1;
 4° elke advocaat die onderdaan is van een lidstaat en die bevoegd is dit beroep uit te oefenen in een lidstaat;
 5° elke advocaat die krachtens een wet of een internationale overeenkomst gemachtigd is in België dit beroep
 uit te oefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 9, 061; Inwerkingtreding : 01-04-2024>
 
 
@@ -2760,7 +2760,7 @@ Voor de eerste dienstverrichting, of indien zich een wezenlijke verandering heef
 documenten gestaafde situatie, bezorgt de dienstverrichter eveneens de documenten voorzien in artikel 9, § 2,
 a) tot en met d), van de wet van 12 februari 2008 tot instelling van een algemeen kader voor de erkenning van
 EU-beroepskwalificaties.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 10, 061; Inwerkingtreding : 01-04-2024>
 
 
@@ -2779,7 +2779,7 @@ Voor de eerste dienstverrichting, of indien zich een wezenlijke verandering heef
 documenten gestaafde situatie, bezorgt de dienstverrichter eveneens de documenten voorzien in artikel 9, § 2,
 a) tot en met d), van de wet van 12 februari 2008 tot instelling van een algemeen kader voor de erkenning van
 EU-beroepskwalificaties.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 11, 061; Inwerkingtreding : 01-04-2024>
 
 
@@ -2791,12 +2791,12 @@ de verplichtingen die voortvloeien uit de volgende internationale teksten of uit
 krachtens deze teksten:
 1° het Verdrag betreffende de werking van de Europese Unie;
 2° de Overeenkomst betreffende de Europese Economische Ruimte.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 12, 061; Inwerkingtreding : 01-04-2024>
 
 
 **Afdeling 3. [1 - Register van erkende gemachtigden]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 13, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2813,7 +2813,7 @@ De Koning bepaalt de voorwaarden voor beschikbaarstelling van het publiek van he
 gemachtigden, alsook de vermeldingen van het register die onderworpen zijn aan de inzage ten behoeve van het
 publiek.]3
 
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 20, 077; Inwerkingtreding : 01-06-2019>
 (3)<W 2024-02-09/19, art. 31, 129; Inwerkingtreding : 31-03-2024>
@@ -2859,7 +2859,7 @@ volgende internationale teksten of uit de bepalingen uitgevaardigd krachtens dez
 hebben op de vereisten inzake diploma's, getuigschriften en andere titels:
 1° het Verdrag betreffende de werking van de Europese Unie;
 2° de Overeenkomst betreffende de Europese Economische Ruimte.]1
-----------
+
 (1)<W 2018-07-08/06, art. 14, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2884,7 +2884,7 @@ voorwaarden niet vervult, verwerpt de minister de aanvraag binnen dezelfde termi
 betrokkene hiervan onverwijld op de hoogte gesteld.
 De beslissing waarbij de minister van het advies van de Commissie afwijkt en deze waarbij hij de aanvraag
 verwerpt moeten met redenen worden omkleed.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 17, 061; Inwerkingtreding : 01-12-2020>
 
@@ -2895,7 +2895,7 @@ verwerpt moeten met redenen worden omkleed.]1
 artikel 64 van de wet van 1984 op de Belgische uitvoeringsoctrooien, behoudt het voordeel van zijn inschrijving.
 De in het eerste lid bedoelde ingeschreven personen kunnen worden doorgehaald met toepassing van de
 artikelen XI.71 en XI.72.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2903,7 +2903,7 @@ artikelen XI.71 en XI.72.]1
 
 [1 Elke in het register van erkende gemachtigden ingeschreven persoon kan de minister verzoeken
 om zijn naam in dit register door te halen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -2928,7 +2928,7 @@ bedoeld in [2 artikel XI.66, § 1, eerste lid, 4° en 5°]2 ;
 bij toepassing van artikel XI.75/5, § 3, 2° en 4°.]2
 De duur van doorhaling bij toepassing van punten 5° tot en met 7° van dit artikel moet minstens één jaar
 bedragen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 18, 061; Inwerkingtreding : 01-12-2020>
 (3)<W 2018-07-08/06, art. 39, 061; Inwerkingtreding : 01-12-2020>
@@ -2943,7 +2943,7 @@ ingeschreven in het register van de erkende gemachtigden, in de volgende gevalle
 meer;
 2° de termijn van de met toepassing van artikel XI.72, eerste lid, 5° tot 7°, genomen maatregel tot doorhaling
 is verstreken.]1
-----------
+
 (1)<W 2018-07-08/06, art. 19, 061; Inwerkingtreding : 01-12-2020>
 (2)<W 2024-02-09/19, art. 34, 129; Inwerkingtreding : 31-03-2024>
 
@@ -2970,7 +2970,7 @@ te worden omkleed.
 De minister brengt zijn beslissing tot doorhaling, nieuwe inschrijving of weigering van zulke inschrijving
 onverwijld ter kennis van de belanghebbende. Hij gaat over tot de doorhaling of tot de nieuwe inschrijving,
 naargelang van het geval, binnen de maand na de ontvangst van het advies.]1
-----------
+
 (1)<W 2018-07-08/06, art. 20, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -2980,12 +2980,12 @@ naargelang van het geval, binnen de maand na de ontvangst van het advies.]1
 vertegenwoordigingsactiviteit uit te oefenen, kunnen de hem bij de Dienst toevertrouwde opdrachten gedurende
 zes maanden verder worden uitgevoerd door een ander erkende gemachtigde zonder dat deze zijn mandaat
 dient te bewijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 **Afdeling 4. [1 - Commissie tot erkenning van de gemachtigden]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 21, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -3003,7 +3003,7 @@ krachtens hetzelfde artikel]2 ;
 register van erkende gemachtigden.]1
 [2 4° informatie uit te wisselen met het Instituut voor Octrooigemachtigden, bedoeld in artikel XI.75/3, § 1, over
 de erkenning en doorhaling van erkende gemachtigden.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 15, 061; Inwerkingtreding : 01-12-2020>
 
@@ -3016,13 +3016,13 @@ De Koning bepaalt de samenstelling en de werkwijze van de Commissie. Hij bepaalt
 [2 artikel XI.66, § 2, eerste lid, 3°]2, bedoelde examen. Een lid van de Franse afdeling moet een voldoende kennis
 van het Duits bezitten.
 De nodige kredieten worden ingeschreven op de begroting van de FOD Economie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 16, 061; Inwerkingtreding : 01-12-2020>
 
 
 **Afdeling 5. [1 - Instituut voor Octrooigemachtigden]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 22, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -3036,7 +3036,7 @@ economische, morele en wetenschappelijke belangen van de octrooigemachtigden tot
 1° de algemene vergadering;
 2° de raad;
 3° de tuchtcommissie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 23, 061; Inwerkingtreding : 01-12-2020>
 (2)<W 2022-09-25/06, art. 12, 119; Inwerkingtreding : 01-01-2024>
 
@@ -3070,7 +3070,7 @@ bestuurlijke of tuchtprocedures mogen in geen geval door het Instituut worden be
 voorwerp hebben uitgemaakt van een uitwissing van de veroordeling of een herstel in eer en rechten in
 strafzaken zoals beschreven in boek II, titel VII, hoofdstuk IV, van het Wetboek van strafvordering.
 De Koning kan de nadere regels voor de verwerking van persoonsgegevens door het Instituut bepalen.]2
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 24, 061; Inwerkingtreding : 01-12-2020>
 (2)<W 2022-09-25/06, art. 13, 119; Inwerkingtreding : 01-01-2024>
 
@@ -3093,7 +3093,7 @@ XI.64/3;
 § 4. Het Instituut levert op verzoek van een lid een certificaat van lidmaatschap af.
 § 5. De Koning bepaalt de nadere regels voor de in dit artikel bedoelde verwerving, tijdelijke opschorting of
 verval van lidmaatschap van het Instituut van een lid.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 25, 061; Inwerkingtreding : 01-12-2020 en 01-04-2024 voor § 1, L2; §
 3, 3°>
 
@@ -3151,7 +3151,7 @@ vergadering geheel of gedeeltelijk met gesloten deuren dient plaats te vinden.
 2° de procedureregels voor de vergaderingen van de algemene vergadering, inclusief de nadere regels met
 betrekking tot het bijeenroepen van de algemene vergadering en de wijze voor het ter beschikking stellen van de
 documenten voor deze vergaderingen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 26, 061; Inwerkingtreding : 01-12-2020 en 01-04-2024 voor § 3, L2>
 (2)<W 2023-11-05/07, art. 26, 123; Inwerkingtreding : 21-12-2023>
 
@@ -3196,7 +3196,7 @@ Het huishoudelijk reglement bepaalt minstens:
 1° de procedureregels voor de verkiezing van de leden van de raad;
 2° de procedureregels voor de vergaderingen van de raad, waarbij de regeringscommissaris, bedoeld in artikel
 XI.75/10, steeds de raad kan bijeenroepen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 27, 061; Inwerkingtreding : 01-12-2020, en 01-04-2024 voor §2, L1,
 5°>
 (2)<W 2022-09-25/06, art. 14, 119; Inwerkingtreding : 01-12-2022>
@@ -3251,7 +3251,7 @@ beroep te Brussel, overeenkomstig deel IV, boek IV, hoofdstuk XIXbis, afdeling 4
 Beroep tegen tussenbeslissingen van de tuchtcommissie moet worden ingesteld samen met het beroep tegen de
 eindbeslissing.]2
 De rechtsmiddelen ingesteld tegen de beslissingen van de tuchtcommissie hebben schorsende kracht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 28, 061; Inwerkingtreding : 01-12-2020>
 (2)<W 2022-09-25/06, art. 15, 119; Inwerkingtreding : 01-12-2022>
 (3)<W 2023-11-05/07, art. 28, 123; Inwerkingtreding : 21-12-2023>
@@ -3272,7 +3272,7 @@ De Koning bepaalt of het presentiegeld en de functievergoeding bedoeld in het ee
 
 toegekend. Indien Hij deze toekenning toestaat, kan de Koning het maximum bepalen van de bedragen bedoeld
 in het eerste lid.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 29, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -3289,7 +3289,7 @@ de rente gewaarborgd zijn. In geen geval mag het Instituut ten kosteloze titel o
 noch zijn vermogen geheel of gedeeltelijk verdelen onder zijn leden of hun rechthebbenden.
 § 2. De Koning kan bijkomende bronnen van inkomsten bepalen. De Koning bepaalt het model voor de opmaak
 van de rekeningen van het Instituut.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 16, 119; Inwerkingtreding : 01-01-2024>
 
 
@@ -3319,13 +3319,13 @@ De termijn voor het indienen van een verzoek bij aangetekende zending gaat in op
 verbaal van de beslissing werd bekendgemaakt dan wel de dag waarop het belanghebbend lid in kennis werd
 gesteld van het proces-verbaal van de beslissing indien het gaat om een beslissing met individuele strekking die
 op het belanghebbend lid betrekking heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 30, 061; Inwerkingtreding : 01-12-2020>
 (2)<W 2022-09-25/06, art. 17, 119; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 6. [1 - Aspecten verbonden aan het lidmaatschap van het Instituut voor Octrooigemachtigden]1**
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 31, 061; Inwerkingtreding : 01-12-2020>
 
 
@@ -3349,7 +3349,7 @@ De Koning bepaalt de regels en de voorwaarden van deze verzekering, en bepaalt m
 Bij het bepalen van de regels en voorwaarden van de verzekering houdt de Koning rekening met een adequate
 risicodekking ten voordele van de ontvanger van de diensten geleverd door het lid van het Instituut in zijn
 hoedanigheid van octrooigemachtigde.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 32, 061; Inwerkingtreding : 01-12-2020 en 01-04-2024 voor § 2>
 (2)<W 2021-08-29/23, art. 8, 100; Inwerkingtreding : 07-10-2021>
 
@@ -3368,7 +3368,7 @@ vestiging, vermeldt het lid zijn opleidingstitel in een officiële taal van die 
 Onverminderd het eerste lid, is het aan personen ingeschreven op de lijst van de erkende gemachtigden
 bedoeld in artikel 134 van het Europees Octrooiverdrag toegestaan de beroepstitel te voeren die verbonden is
 aan hun beroepsuitoefening in de hoedanigheid van Europees octrooigemachtigde.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 33, 061; Inwerkingtreding : 01-04-2024>
 
 
@@ -3391,14 +3391,14 @@ octrooi of een Belgische octrooiaanvraag.
 § 3. Artikel 458 van het Strafwetboek is van toepassing op de leden van het Instituut en op hun aangestelden.
 Overtredingen op het verbod bedoeld in paragraaf 1 door deze personen begaan, worden gestraft met de
 sanctie voorzien in artikel 458 van het Strafwetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 34, 061; Inwerkingtreding : 01-04-2024>
 
 
 ## Art. XI
 
 76.Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3445,7 +3445,7 @@ uitwerking heeft ten gevolge van het herstel van de octrooiaanvraag.
 2° de termijnen bedoeld in artikel XI.20, §§ 8 tot 10.
 De Koning bepaalt in voorkomend geval andere termijnen dan deze vermeld in het vorige lid, voor dewelke een
 verzoek tot herstel niet ontvankelijk is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-09-25/06, art. 18, 119; Inwerkingtreding : 01-12-2022>
 
@@ -3464,7 +3464,7 @@ het Wetboek van de Inkomstenbelastingen 1992 overschrijden. In voorkomend geval 
 munt uitgedrukte inkomsten omgezet in euro tegen de middenkoers van de betrokken munt.
 § 4. De Koning bepaalt de gevallen waarin onverschuldigd betaalde taksen, bijkomende taksen en vergoedingen
 geheel of gedeeltelijk terugbetaalbaar zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3475,7 +3475,7 @@ machtiging verleent, wordt als geldig beschouwd indien ze werd verricht met de i
 betalingsdag van kracht zijnde bedrag.
 Behoudens in deze titel of in haar uitvoeringsbesluiten strijdige bepalingen worden de geïnde taksen en
 vergoedingen niet teruggestort.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3493,7 +3493,7 @@ aangetekende zending met ontvangstbewijs, om het voorleggen van het origineel do
 aangetekende zending wordt de reden voor het verzoek tot het voorleggen van het origineel document
 uiteengezet. Zolang het gevraagde originele document niet voorgelegd wordt, is de procedure waarin het
 voorleggen van het originele document kadert, geschorst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3550,7 +3550,7 @@ de Belgische Staat gebonden is en rekening houdend met de noodzaak om het doeltr
 verwijdering van die gegevens te garanderen.
 De Koning kan bepalen welke persoonsgegevens niet onlosmakelijk verbonden zijn met de gegevens die
 voorkomen in het register en in de Verzameling.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 19, 119; Inwerkingtreding : 01-01-2024>
 
 
@@ -3572,7 +3572,7 @@ rechten van derden;
 5° het promoten van de intellectuele eigendom en de sensibilisering daarrond;
 6° het opstellen van rapporten en statistieken aan de hand waarvan de Dienst zijn activiteiten kan optimaliseren
 en de werking van het systeem van intellectuele eigendom kan verbeteren.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 20, 119; Inwerkingtreding : 01-01-2024>
 
 
@@ -3581,12 +3581,12 @@ en de werking van het systeem van intellectuele eigendom kan verbeteren.]1
 [1 De Koning bepaalt de modaliteiten volgens dewelke de burgers en de ondernemingen via
 elektronische weg met de Dienst kunnen communiceren, en documenten en handelingen in elektronische vorm
 kunnen doorsturen aan de Dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 5. - [1 Europese octrooien]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3603,7 +3603,7 @@ bescherming. Een redelijke vergoeding, vastgesteld volgens de omstandigheden, ka
 elke persoon die de uitvinding waarop de aanvraag betrekking heeft in België heeft geëxploiteerd vanaf de dag
 waarop de conclusies voor het publiek toegankelijk zijn gemaakt bij de Dienst of aan deze persoon zijn verstrekt
 in één van de officiële nationale talen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2016-06-29/01, art. 21, 036; Inwerkingtreding : 01-04-2018>
 (3)<W 2022-09-25/06, art. 21, 119; Inwerkingtreding : 01-12-2022>
@@ -3632,7 +3632,7 @@ Overeenkomst.
 § 5. Wanneer de eenheidswerking van een Europees octrooi is geregistreerd krachtens de Verordening (EU)
 1257/2012, wordt dit Europees octrooi geacht niet als een nationaal octrooi van kracht te zijn geworden op de
 datum van de publicatie van de vermelding van de verlening in het Europees Octrooiblad.]1
-----------
+
 (1)<W 2016-06-29/01, art. 22, 036; Inwerkingtreding : 01-01-2017. Overgangsbepalingen : art.94>
 
 
@@ -3688,7 +3688,7 @@ gebruik heeft gemaakt van de uitvinding die het voorwerp uitmaakt van het octroo
 maatregelen heeft getroffen, mag deze uitvinding blijven gebruiken tot nut van zijn eigen onderneming. Het recht
 erkend door deze paragraaf mag slechts overgedragen worden met de onderneming waaraan het verbonden
 is.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-19/07, art. 5, 054; Inwerkingtreding : 01-02-2018>
 (2)<KB 2022-07-30/13, art. 1, 116; Inwerkingtreding : 15-11-2022>
 (3)<W 2023-11-05/07, art. 29, 123; Inwerkingtreding : 21-12-2023>
@@ -3699,7 +3699,7 @@ is.]1
 [1 De bepalingen van de artikelen XI.82 en XI.83 doen geen afbreuk aan het recht van de nationale
 rechtbanken om een volledige vertaling te eisen van de aanvraag of van het verleend octrooi in de taal van de
 gerechtelijke procedure.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3711,7 +3711,7 @@ en de verleende Europese octrooien onder gelijke voorwaarden kunnen worden geraa
 talen.
 De Koning kan de nadere regels en de voorwaarden van terbeschikkingstelling van de bedoelde
 taaltechnologische diensten verder uitwerken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3730,7 +3730,7 @@ artikel onverlet.
 gedeeltelijk rechtsgevolgen te hebben in de voorwaarden bepaald in paragraaf 1.
 § 3. Wanneer het arrest of het vonnis in kracht van gewijsde is gegaan dan wordt de vaststelling ingeschreven
 in het register en ter kennis van het publiek gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
@@ -3747,7 +3747,7 @@ b) de indiening van de tekst van de aanvraag in één van de nationale talen ind
 niet gesteld is in één van deze talen.
 Het verslag van nieuwheidsonderzoek kan, indien het is opgesteld door het Europees Octrooibureau gebruikt
 worden in de verleningsprocedure.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3755,7 +3755,7 @@ worden in de verleningsprocedure.]1
 
 [1 De Koning wijst de nationale autoriteiten aan tot wie het Europees bureau zich kan wenden voor
 administratieve en gerechtelijke samenwerking in toepassing van artikel 131 van het Europees Octrooiverdrag.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3763,7 +3763,7 @@ administratieve en gerechtelijke samenwerking in toepassing van artikel 131 van 
 
 [1 Het verzoek om een technisch advies bedoeld in artikel 25 van het Europees Octrooiverdrag mag
 rechtstreeks aan het Europees Octrooibureau gestuurd worden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3778,7 +3778,7 @@ betrekking tot de toepasselijke vertaalregelingen, en uit de Overeenkomst betref
 octrooigerecht ondertekend op 19 februari 2013. Deze maatregelen betreffen eveneens de uitvoering van de
 beslissingen genomen door de Beperkte Commissie opgericht overeenkomstig artikel 9 van de voornoemde
 Verordening 1257/2012.]1
-----------
+
 (1)<W 2017-12-19/07, art. 6, 054; Inwerkingtreding : 01-06-2023>
 
 
@@ -3803,7 +3803,7 @@ octrooi of een Europese octrooiaanvraag.
 paragraaf 1 en op hun aangestelden.
 Overtredingen op het verbod bedoeld in paragraaf 1 door deze personen begaan, worden gestraft met de
 sanctie voorzien in artikel 458 van het Strafwetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-08/06, art. 36, 061; Inwerkingtreding : 01-04-2024>
 
 
@@ -3811,12 +3811,12 @@ sanctie voorzien in artikel 458 van het Strafwetboek.]1
 
 [1 Tenzij er specifieke bepalingen gelden, zijn de bepalingen die gelden voor de Belgische octrooien
 eveneens van toepassing op de Europese octrooien zonder eenheidswerking met rechtsgevolgen in België.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 22, 119; Inwerkingtreding : 01-01-2024>
 
 
 ##### HOOFDSTUK 6. - [1 Internationale aanvragen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3834,7 +3834,7 @@ van toepassing.]4
 § 3. Iedere aanwijzing of, desgevallend, iedere keuze van België in een internationale aanvraag wordt aanzien als
 de aanduiding dat de aanvrager een Europees octrooi wenst te verkrijgen overeenkomstig het Europees
 Octrooiverdrag.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2016-06-29/01, art. 24, 036; Inwerkingtreding : 01-04-2018>
 (3)<W 2022-09-25/06, art. 23,1°, 119; Inwerkingtreding : 01-12-2022>
@@ -3842,12 +3842,12 @@ Octrooiverdrag.]1
 
 
 #### Titel 2. - [1 Aanvullende beschermingscertificaten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Verlening en verlenging van de duur van het certificaat]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3860,7 +3860,7 @@ de huidige titel en door de Koning vastgestelde voorwaarden en vormen.]2
 § 3. Iedere aanvraag voor een certificaat en iedere aanvraag voor verlenging van de duur ervan geven
 aanleiding tot betaling van een indieningstaks. Het bewijs van de betaling van deze taks moet ten laatste een
 maand na indiening van de aanvraag bij de Dienst toekomen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 21, 077; Inwerkingtreding : 01-10-2019>
 
@@ -3889,7 +3889,7 @@ vastgelegde termijn wordt voldaan, wordt de aanvraag geacht niet te zijn ingedie
 geacht wordt niet te zijn ingediend, geeft de Dienst de aanvrager, met opgaaf van de redenen, daarvan kennis.
 § 4. Wanneer aan alle in paragraaf 1 bedoelde voorwaarden wordt voldaan, deelt de Dienst aan de aanvrager de
 datum van indiening die aan de aanvraag wordt toegekend, mee.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3917,7 +3917,7 @@ vastgelegde termijn wordt voldaan, wordt de aanvraag geacht niet te zijn ingedie
 geacht wordt niet te zijn ingediend, geeft de Dienst de aanvrager, met opgaaf van de redenen, daarvan kennis.
 § 4. Wanneer aan alle in paragraaf 1 bedoelde voorwaarden wordt voldaan, deelt de Dienst aan de aanvrager de
 datum van indiening die aan de aanvraag wordt toegekend, mee.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3925,7 +3925,7 @@ datum van indiening die aan de aanvraag wordt toegekend, mee.]1
 
 [1 Vermelding van de aanvraag van een certificaat en vermelding van de aanvraag voor verlenging
 van de duur worden in het register gepubliceerd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3942,7 +3942,7 @@ gebreken te herstellen of de indieningstaks te betalen binnen de door de Koning 
 § 2. Indien niet binnen de voorgeschreven termijn overeenkomstig het in paragraaf 1 bedoelde verzoek de
 gebreken hersteld zijn, of de indieningstaks alsnog is betaald, wordt de aanvraag verworpen.
 § 3. Paragrafen 1 en 2 zijn van overeenkomstige toepassing op de aanvraag voor de verlenging van de duur.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3954,7 +3954,7 @@ en d, van de verordening 469/2009 voor de geneesmiddelen, en artikel 3, § 1, c 
 [2 De Dienst kan echter wel de in het eerste lid bedoelde voorwaarden onderzoeken, als hij tijdens het
 onderzoek van de certificaataanvraag kennis krijgt van informatie betreffende die voorwaarden, die een
 verwerping van de aanvraag zou kunnen rechtvaardigen.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 22, 077; Inwerkingtreding : 01-06-2019>
 
@@ -3974,7 +3974,7 @@ wordt gesteld binnen een door de Koning bepaalde termijn commentaar te leveren o
 weigering.]3
 
 
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2019-05-02/28, art. 22, 077; Inwerkingtreding : 01-06-2019>
 (3)<W 2024-02-09/19, art. 35, 129; Inwerkingtreding : onbepaald>
@@ -3985,7 +3985,7 @@ weigering.]3
 [1 Vermelding van de afgifte van het certificaat of van de verwerping van de aanvraag van een
 certificaat en vermelding van de aanvaarding van de verlenging van de duur of van de verwerping van de
 aanvraag voor verlenging van de duur worden in het register gepubliceerd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -3996,12 +3996,12 @@ van de verlenging van de duur worden in het register gepubliceerd door middel va
 1° de naam en het adres van de houder van het certificaat;
 2° het nummer van het basisoctrooi;
 3° de titel van de uitvinding.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 2. - [1 Taksen en vergoedingen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -4009,7 +4009,7 @@ van de verlenging van de duur worden in het register gepubliceerd door middel va
 
 [1 De Koning bepaalt het bedrag en de modaliteiten van de betaling van de taksen, bijkomende
 taksen en vergoedingen verschuldigd voor certificaten en verlenging van de duur.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -4030,12 +4030,12 @@ na overleg in de Ministerraad.
 de houder van de aanvraag van een certificaat of van het certificaat van rechtswege vervallen verklaard van zijn
 rechten. Het verval heeft uitwerking op de vervaldatum van de niet betaalde jaartaks. Het verval wordt in het
 register ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 ##### HOOFDSTUK 3. - [1 Herstel]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
@@ -4069,7 +4069,7 @@ goeder trouw gebruik heeft gemaakt van het product dat het voorwerp uitmaakt van
 verleende bescherming of daartoe de nodige maatregelen heeft getroffen, mag dit product blijven gebruiken tot
 nut van zijn eigen onderneming. Het recht erkend door deze paragraaf mag slechts overgedragen worden met
 de onderneming waaraan het verbonden is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2022-09-25/06, art. 24, 119; Inwerkingtreding : 01-12-2022>
 
@@ -4082,22 +4082,22 @@ voor :
 2° de termijnen bedoeld in artikel 7.5. van de verordening 469/2009.
 De Koning bepaalt in voorkomend geval andere termijnen dan deze vermeld in het vorige lid, voor dewelke een
 verzoek tot herstel niet ontvankelijk is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 
 #### Titel 3. - [1 Kwekersrecht]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Materieel recht]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. [1 Voorwaarden inzake de verlening van het kwekersrecht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4105,7 +4105,7 @@ verzoek tot herstel niet ontvankelijk is.]1
 
 [1 Rassen van alle botanische geslachten en soorten, met inbegrip van onder meer hun hybriden,
 kunnen het voorwerp uitmaken van een kwekersrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4115,7 +4115,7 @@ kunnen het voorwerp uitmaken van een kwekersrecht.]1
 nieuw is.
 Bovendien moet het ras worden aangeduid met een benaming in overeenstemming met hetgeen bepaald is in
 artikel XI.143.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4135,7 +4135,7 @@ officieel rassenregister is ingediend, mits de aanvraag intussen heeft geleid to
 of tot de inschrijving in het register;
 3° de teelt of de verhandeling van dat andere ras reeds begonnen is;
 4° dat andere ras in een referentiecollectie komt, of in een publicatie nauwkeurig beschreven wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4145,7 +4145,7 @@ of tot de inschrijving in het register;
 de eigenschappen die in aanmerking worden genomen bij het onderzoek van de onderscheidbaarheid, alsmede
 van elke andere eigenschap die voor de rasbeschrijving wordt gebruikt, behoudens de variatie die mag worden
 verwacht in verband met de bijzonderheden die eigen zijn aan de vermeerdering ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4155,7 +4155,7 @@ verwacht in verband met de bijzonderheden die eigen zijn aan de vermeerdering er
 aanmerking worden genomen bij het onderzoek van de onderscheidbaarheid, alsmede van elke andere
 eigenschap die voor de rasbeschrijving wordt gebruikt, onveranderd blijft na achtereenvolgende
 vermeerderingen of, in het geval van een bijzondere vermeerderingscyclus, aan het eind van elke cyclus.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4189,19 +4189,19 @@ Ook wordt geen rekening gehouden met afstand aan derden indien deze hetzij gebeu
 als gevolg van het feit dat de kweker het ras heeft gepresenteerd op een officiële of officieel erkende
 tentoonstelling in de zin van het Verdrag betreffende internationale tentoonstellingen, of op een tentoonstelling in
 een lidstaat van de Europese Unie en die door die lidstaat officieel als gelijkwaardig is erkend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ## Art. XI.110
 
 [1 De aanvrager duidt het ras aan door een benaming overeenkomstig artikel XI.143.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. - [1 Rechthebbenden of rechtverkrijgenden]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4215,7 +4215,7 @@ het recht gezamenlijk toe aan deze personen of hun respectievelijke rechthebbend
 tenzij anders is overeengekomen.
 § 3. Indien het nieuwe ras door een werknemer in de uitoefening van zijn arbeidscontract werd gekweekt, of
 werd ontdekt en ontwikkeld, komt dit recht toe aan de werkgever, tenzij anders is overeengekomen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4225,12 +4225,12 @@ werd ontdekt en ontwikkeld, komt dit recht toe aan de werkgever, tenzij anders i
 haar van toepassing is met een rechtspersoon gelijk wordt gesteld, kan een aanvraag voor een kwekersrecht
 indienen.
 § 2. Een aanvraag kan ook door twee of meer aanvragers gezamenlijk worden ingediend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Rechtsgevolgen van het kwekersrecht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4256,7 +4256,7 @@ gehad heeft om zijn recht met betrekking tot genoemde rascomponenten uit te oefe
 beschermde ras, indien deze producten werden verkregen door het niet-toegestane gebruik van dit
 oogstmateriaal, en tenzij de houder een redelijke mogelijkheid gehad heeft om zijn recht met betrekking tot
 genoemd oogstmateriaal uit te oefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4281,7 +4281,7 @@ genotypen van het oorspronkelijke ras.
 natuurlijke of teweeggebrachte mutant of van een somaclonale variant, door de selectie van een individu dat
 afwijkt van planten van het oorspronkelijke ras, door terugkruisingen of door transformatie door middel van
 genetische modificatie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4293,7 +4293,7 @@ door aanplanting op hun eigen bedrijf van teeltmateriaal van een beschermd ras o
 XI.114.
 § 2. De voorwaarden die uitvoering geven aan de in paragraaf 1 bedoelde afwijking, en die de rechtmatige
 belangen van de kweker en van de landbouwer beschermen, worden door de Koning vastgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4307,7 +4307,7 @@ rassen;
 4° handelingen als bedoeld in artikel XI.113, §§ 2, 3 en 4, met betrekking tot die andere rassen, behalve
 wanneer artikel XI.114 van toepassing is;
 5° handelingen waarvan het verbod inbreuk zou maken op de bepalingen van artikel XI.115 of artikel XI.126.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4327,7 +4327,7 @@ waartoe het ras behoort, behalve wanneer het uitvoer voor verbruiksdoeleinden be
 1° de rascomponenten, in welke vorm ook;
 2° het geoogste product, met inbegrip van volledige planten en van plantendelen;
 3° elk product dat rechtstreeks uit het geoogste product is vervaardigd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4340,7 +4340,7 @@ schriftelijke vermelding moet de rasbenaming gemakkelijk herkenbaar en duidelijk
 handelsnaam of een soortgelijke aanduiding met de vastgestelde rasbenaming verbonden is, moet deze
 benaming gemakkelijk als zodanig herkenbaar zijn.
 § 2. Paragraaf 1 blijft ook na de beëindiging van het kwekersrecht van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4357,12 +4357,12 @@ voor dat ras vastgestelde benaming, noch een aanduiding die met die benaming kan
 worden in samenhang met een ander ras van dezelfde botanische soort of van een verwante soort, dan wel
 voor materiaal van dit andere ras.
 De Koning bepaalt de als verwant te beschouwen soorten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 4. - [1 Duur en beëindiging van het kwekersrecht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4371,7 +4371,7 @@ De Koning bepaalt de als verwant te beschouwen soorten.]1
 [1 Het kwekersrecht duurt tot het einde van het vijfentwintigste kalenderjaar dat volgt op het jaar
 van verlening van het kwekersrecht; voor de rassen van wijnstokken, bomen en aardappelen duurt het tot het
 einde van het dertigste kalenderjaar.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4390,7 +4390,7 @@ zijn die, met betrekking tot het kwekersrecht rechten of licenties hebben verkre
 ingesteld tot opeising van het kwekersrecht, tenzij die personen met de afstand instemmen.
 § 4. De bepalingen van dit artikel zijn van overeenkomstige toepassing op de aanvraag voor een
 kwekersrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2019-05-02/28, art. 23, 077; Inwerkingtreding : 01-06-2019>
 
@@ -4409,7 +4409,7 @@ of
 overgedragen aan degene die daartoe recht heeft.
 § 2. Indien het kwekersrecht nietig is verklaard, wordt het geacht van de aanvang af niet de in deze wet
 omschreven rechtsgevolgen te hebben gehad.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4433,12 +4433,12 @@ of
 benaming voorstelt.
 § 4. Behalve in de in paragrafen 1 en 2 bedoelde gevallen heeft het verval uitwerking op de datum van de in
 paragraaf 3 bedoelde betekening, behoudens zijn inschrijving in het register.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 5. - [1 Het kwekersrecht als deel van het vermogen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4457,7 +4457,7 @@ vanaf de datum van ontvangst door de Dienst van de bewijsstukken zoals die door 
 behoudens de inschrijving ervan in het register. Voordat een overdracht in het register is ingeschreven, kan zij
 evenwel tegengeworpen worden aan derden die na de datum van de overdracht rechten hebben verworven
 maar die daarvan kennis hadden toen zij deze rechten verwierven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4475,7 +4475,7 @@ tegenstelbaar zijn aan derden die na de datum van afgifte van de licentie rechte
 daarvan kennis hadden toen zij deze rechten verwierven.
 § 5. De aanvrager of de houder kan de uit de aanvraag of uit het kwekersrecht voortvloeiende rechten inroepen
 tegen een licentiehouder die een van de aan zijn licentie verbonden voorwaarden of beperkingen schendt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4571,12 +4571,12 @@ Het besluit tot intrekking wordt per uittreksel in het Belgisch Staatsblad gepub
 § 9. Zodra de gedwongen licentie is toegekend, worden de betrekkingen tussen de houder en de licentiehouder,
 behoudens afwijkingen in het toekenningsbesluit, gelijkgesteld met deze die bestaan bij contractuele
 licentiegeving-licentieneming.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 2. - [1 De Raad en de Commissie]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4589,7 +4589,7 @@ rechtsgeleerdheid, de genetica, de plantkunde of de fytotechnie.
 geregeld. De leden van de Raad worden door de minister benoemd en ontslagen.
 § 3. De werkingskosten van de Raad komen ten laste van de begroting van de in paragraaf 1 bedoelde Federale
 Overheidsdienst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4661,18 +4661,18 @@ de personen die tijdens deze vergadering moeten worden gehoord. In dringende gev
 gehalveerd.
 § 4. De werkingskosten van de Commissie komen ten laste van de begroting van de in artikel XI.127, § 1,
 bedoelde Federale Overheidsdienst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 3. - [1 De procedure voor de Dienst]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. - [1 Partijen in de procedure en gemachtigden]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4688,19 +4688,19 @@ belang, op zijn schriftelijk verzoek, toestaan om als partij aan de procedure de
 § 3. Elke natuurlijke persoon of rechtspersoon en elke instelling die ingevolge het recht dat op haar van
 toepassing is met een rechtspersoon gelijk wordt gesteld wordt als een persoon in de zin van het bepaalde in de
 paragrafen 1 en 2 beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ## Art. XI.130
 
 [1 De Koning bepaalt de modaliteiten waarbij een gemachtigde wordt aangewezen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. - [1 De aanvraag]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4708,7 +4708,7 @@ paragrafen 1 en 2 beschouwd.]1
 
 [1 De indiening van de aanvraag voor een kwekersrecht wordt hetzij in persoon, hetzij per post of
 op enige andere door de Koning bepaalde wijze, bij de Dienst gedaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4729,7 +4729,7 @@ aangeeft op welke grond hij het recht op het kwekersrecht heeft verkregen;
 § 2. De aanvraag moet voldoen aan de voorwaarden en vormen vastgelegd in deze titel.
 § 3. De Koning kan de elementen, vermeld in paragraaf 1, verduidelijken en aanvullen met andere gegevens.
 § 4. De aanvrager dient een benaming van het ras voor te stellen, die bij de aanvraag kan worden gevoegd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4739,7 +4739,7 @@ aangeeft op welke grond hij het recht op het kwekersrecht heeft verkregen;
 aanvraag overeenkomstig artikel XI.131 door de Dienst ontvangen is, mits de voorwaarden van artikel XI.132, §
 1, vervuld zijn, en de krachtens artikel XI.150, § 1, eerste lid, voor de indiening verschuldigde vergoeding betaald
 is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4762,12 +4762,12 @@ Belgische kwekersrecht.
 datum van indiening een afschrift van de eerste aanvraag aan de Dienst voorlegt. Als de eerste aanvraag niet in
 het Frans, in het Nederlands of in het Duits is opgesteld, kan de Dienst bovendien een vertaling van die eerste
 aanvraag in een van die talen eisen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Het onderzoek]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4786,7 +4786,7 @@ binnen de gestelde termijn te regulariseren.
 op de hoogte dat zijn aanvraag onvolledig is.
 § 4. In geval van een onvolledige aanvraag is de aanvrager verantwoordelijk voor de eventuele bewaring en
 terugzending van materiaal en documenten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4803,7 +4803,7 @@ gegane rechterlijke beslissing met betrekking tot een opeising van het recht kra
 dat de eerste aanvrager geen aanspraak op het recht heeft, of er niet alleen aanspraak op heeft. Wanneer
 vastgesteld is wie rechthebbende of mederechthebbende is, mogen deze persoon of deze personen een
 procedure als aanvragers openen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4836,7 +4836,7 @@ overeenkomstig artikel XI.133, binnen een termijn van twee jaar na de datum van 
 vereiste materiaal en elk ander vereist stuk over te leggen. Indien de eerste aanvraag vóór het verstrijken van de
 termijn van twee jaar wordt ingetrokken of afgewezen, kan de Dienst eisen dat de aanvrager binnen een
 bepaalde termijn het materiaal of elk ander vereist stuk overlegt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4854,7 +4854,7 @@ van zaken, kan hij op eigen initiatief, na raadpleging van de aanvrager, of op v
 dat een aanvullend onderzoek wordt uitgevoerd. Voor de beoordeling van de resultaten wordt elk aanvullend
 onderzoek voordat een beslissing uit hoofde van de artikelen XI.141 en XI.142 definitief wordt, beschouwd als
 deel uitmakend van het in artikel XI.135, bedoelde onderzoek.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4869,7 +4869,7 @@ inbegrip van de resultaten van het technische onderzoek en, in voorkomend geval,
 2° de rasbenaming niet voldoet aan de bepalingen van artikel XI.143.
 § 4. De Koning bepaalt de informatie die de bezwaren moeten bevatten en stelt de termijn vast waarbinnen
 bezwaren moeten worden gemaakt en de wijze van onderzoek ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4880,12 +4880,12 @@ bezwaren moeten worden gemaakt en de wijze van onderzoek ervan.]1
 bezwaar heeft gemaakt, indien hij voor hetzelfde ras een aanvraag voor een kwekersrecht heeft ingediend
 binnen een termijn van een maand na de intrekking of nadat de beslissing tot afwijzing definitief is geworden,
 eisen dat de datum van indiening van de ingetrokken of afgewezen aanvraag als datum van aanvraag geldt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 4. - [1 Beslissingen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4906,7 +4906,7 @@ voldaan;
 of
 2° indien hij op grond van het in artikel XI.138 bedoelde onderzoeksverslag van oordeel is dat niet aan de
 voorwaarden van de artikelen XI.106, XI.107 en XI.108 is voldaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4916,7 +4916,7 @@ voorwaarden van de artikelen XI.106, XI.107 en XI.108 is voldaan.]1
 beslissing over de aanvraag te nemen, verleent hij het kwekersrecht en levert hij een kwekerscertificaat af, voor
 zover geen beletsel als bedoeld in artikelen XI.139 en XI.141 deze verlening in de weg staat. De beslissing bevat
 de officiële beschrijving van het ras.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4929,12 +4929,12 @@ overeenkomstig artikel XI.136, § 2, verrichte onderzoek, van oordeel is dat de 
 het gebruik ervan verbonden voorwaarden.
 § 3. De benaming is bestemd om de generische aanduiding van het ras te worden.
 § 4. De Dienst schrijft de benaming in op hetzelfde tijdstip waarop het kwekersrecht verleend wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 5. - [1 Instandhouding van het kwekersrecht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4943,7 +4943,7 @@ het gebruik ervan verbonden voorwaarden.
 [1 § 1. De houder dient het beschermde ras of, in voorkomend geval, de erfelijke bestanddelen
 ervan, in stand te houden gedurende de hele geldigheidsduur van het recht.
 § 2. Van de houder kan geëist worden dat hij zelf instaat voor het voortbestaan van het officiële monster.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4971,7 +4971,7 @@ vergeleken met de officiële beschrijving of met het officiële monster van het 
 § 6. Wanneer bij de controle blijkt dat de houder het ras niet in stand heeft gehouden, wordt de houder
 gehoord, op verzoek van de Dienst of op zijn verzoek, voordat een beslissing houdende verval wordt genomen
 overeenkomstig artikel XI.123.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4983,7 +4983,7 @@ geval, van de erfelijke bestanddelen ervan te verstrekken met het oog op :
 1° de samenstelling of vernieuwing van het officiële monster van het ras,
 of
 2° de uitvoering van vergelijkende rassenonderzoeken ten behoeve van de bescherming.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -4999,12 +4999,12 @@ verplicht is.
 voort overeenkomstig artikel XI.143.
 § 3. Tegen de voorgestelde gewijzigde rasbenaming kan overeenkomstig artikel XI.139, § 3, 2°, bezwaar
 ingeroepen worden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 6. - [1 Overige procedurevoorschriften]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5031,7 +5031,7 @@ wezenlijke voorbereidingen heeft getroffen nadat ten aanzien van de aanvraag of 
 kwekersrecht een verlies van een recht als bedoeld in paragraaf 1, is ingetreden en voordat herstel in de rechten
 heeft plaatsgevonden, mag dat gebruik in of ten behoeve van zijn bedrijf voortzetten zonder dat hij enige
 vergoeding is verschuldigd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-09-25/06, art. 25, 119; Inwerkingtreding : 01-12-2022>
 
@@ -5050,12 +5050,12 @@ ten opzichte van de Dienst, kan de betrokken derde zich in de plaats van de eers
 Dienst hiervan in kennis stelt binnen een maand nadat de desbetreffende in kracht van gewijsde gegane
 rechterlijke beslissing in het register is ingeschreven. Wanneer de oorspronkelijke aanvrager reeds vergoedingen
 uit hoofde van artikel XI.150 heeft betaald, worden deze geacht te zijn betaald door de tweede aanvrager.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 7. - [1 Vergoedingen en taksen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5073,7 +5073,7 @@ toepassing van de artikelen XI.124, XI.125 en XI.126,
 de aanvrager geacht aan zijn aanvraag te verzaken.
 § 3. De Koning bepaalt de modaliteiten van inning van de vergoedingen.
 § 4. De vergoedingen zijn niet terugbetaalbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5092,13 +5092,13 @@ worden vermeerderd met een toeslag, binnen een termijn van [2 zes]2 maanden te r
 van de jaartaks.
 § 3. De Koning bepaalt het bedrag en de modaliteiten van inning van de jaartaks en de toeslag.
 § 4. De jaartaks is niet terugbetaalbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-09-25/06, art. 26, 119; Inwerkingtreding : 01-12-2022>
 
 
 **Afdeling 8. - [1 Bijhouden van het register]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5152,7 +5152,7 @@ vordering ingediend heeft of van elke belanghebbende.
 vastgestelde expressies van die eigenschappen, ambtshalve en na raadpleging van de houder, aan de voor de
 beschrijving van rassen van het betrokken taxon geldende beginselen aanpassen, teneinde de beschrijving van
 het ras met de beschrijvingen van andere rassen van het betrokken taxon te kunnen vergelijken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5171,7 +5171,7 @@ en
 moet worden gebruikt, wordt op verzoek van de aanvrager van het kwekersrecht geen publieke inzage gegeven
 in gegevens betreffende de componenten, noch van de teelt daarvan. Een dergelijk verzoek is niet meer
 ontvankelijk wanneer er reeds een beslissing is gevallen over de aanvraag van het kwekersrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5179,17 +5179,17 @@ ontvankelijk wanneer er reeds een beslissing is gevallen over de aanvraag van he
 
 [1 De inschrijvingen in het register die zijn opgelegd in het artikel XI.152, § 2, en § 3, 1°, 4°, 5°, 6°,
 7°, 8°, 9°, 10° en 11°, worden door de Dienst gepubliceerd op de door de Koning vastgestelde wijze.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 4. - [1 Handhaving van de rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. - [1 Namaak]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5203,7 +5203,7 @@ of
 of
 3° het gebruik maken van de rasbenaming van een beschermd ras of van een benaming die met die benaming
 kan worden verward, in strijd met artikel XI.119, § 3.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5219,7 +5219,7 @@ De houder van een exclusieve licentie kan een vordering wegens namaak instellen,
 bepaling in de licentieovereenkomst.
 Elke licentiehouder mag tussenbeide komen in een vordering inzake namaak ingediend door de houder of de
 vruchtgebruiker, teneinde vergoeding van de door hem geleden schade te verkrijgen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5228,7 +5228,7 @@ vruchtgebruiker, teneinde vergoeding van de door hem geleden schade te verkrijge
 [1 De houder kan een redelijke vergoeding eisen van eenieder die, in de periode tussen de publicatie
 van de aanvraag voor het kwekersrecht en de verlening daarvan, een handeling heeft verricht die hem na die
 periode uit hoofde van het kwekersrecht verboden zou zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5237,12 +5237,12 @@ periode uit hoofde van het kwekersrecht verboden zou zijn.]1
 [1 De bepalingen van burgerlijk recht die namaak op Belgische kwekersrechten bestraffen, zijn
 eveneens van toepassing op inbreuken op de communautaire kwekersrechten verleend op grond van de
 Verordening nr. 2100/94/EG van de Raad van 27 juli 1994 inzake het communautaire kwekersrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. - [1 Opeising van het kwekersrecht en identificatie van een ras]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5256,7 +5256,7 @@ overeenstemming met paragraaf 1, eisen dat hem het medehouderschap van het kweke
 § 3. Indien een aanvraag tot verlening van een kwekersrecht is ingediend door een persoon die er geen
 aanspraak op heeft, of die er niet alleen aanspraak op heeft, kan de gemachtigde persoon met betrekking tot die
 aanvraag op overeenkomstige wijze de in paragrafen 1 en 2 bedoelde vorderingen instellen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5271,7 +5271,7 @@ voorbereidingen heeft getroffen, mag hij die handelingen voortzetten of verricht
 ingeschreven nieuwe aanvrager of houder om verlening van een niet-exclusieve licentie verzoekt.
 § 3. Paragraaf 2 is niet van toepassing indien de aanvrager, de houder of de licentiehouder op het tijdstip
 waarop hij de handelingen verrichtte of de voorbereidingen daartoe trof, te kwader trouw was.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5280,12 +5280,12 @@ waarop hij de handelingen verrichtte of de voorbereidingen daartoe trof, te kwad
 [1 De houder van een oorspronkelijk ras en de kweker van een ras dat in wezen van een
 oorspronkelijk ras is afgeleid, kunnen de erkenning eisen van de identificatie van de betrokken rassen als zijnde
 oorspronkelijk en in wezen afgeleid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Verjaring]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5301,12 +5301,12 @@ verkrijging van het kwekersrecht wist dat hij er geen recht op had of dat hij er
 § 3. Vorderingen op grond van artikel XI.159, § 3, verjaren vijf jaar na de datum van publicatie van de aanvraag
 voor het kwekersrecht. Deze bepaling geldt niet indien de aanvrager op het tijdstip van de aanvraag of verkrijging
 van de aanvraag wist dat hij er geen recht op had of dat hij er niet alleen recht op had.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 #### Titel 4. - [1 Merken en tekeningen of modellen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5317,7 +5317,7 @@ kortgeding bedoeld in boek XVII, titel 1, hoofdstuk 4, en van de bepalingen met 
 toezicht en de opsporing en vaststelling van de inbreuken en de toepasselijke sancties bedoeld in boek XV, wordt
 de bescherming van merken en tekeningen of modellen geregeld door het Beneluxverdrag inzake de intellectuele
 eigendom (merken en tekeningen of modellen), gedaan te Den Haag op 25 februari 2005.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5334,17 +5334,17 @@ hiertoe wordt aangewezen.
 De gewaarmerkte stukken worden door tussenkomst van de minister bevoegd voor Justitie overgemaakt aan
 de hoofdgriffier van het Hof van beroep te Brussel, die het formulier van tenuitvoerlegging aanbrengt, en worden
 op dezelfde wijze teruggezonden naar de minister bevoegd voor Buitenlandse Zaken.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 27, 119; Inwerkingtreding : 01-12-2022>
 
 
 #### Titel 5. - [1 Auteursrecht en naburige rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Algemeenheden]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5380,7 +5380,7 @@ online-uitzendingen van omroeporganisaties en doorgifte van televisie- en radiop
 Richtlijn 93/83/EEG van de Raad;]4
 [5 11° Richtlijn (EU) 2019/790 van het Europees Parlement en de Raad van 17 april 2019 inzake auteursrechten
 en naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtlijnen 96/9/EG en 2001/29/EG.]5
-----------
+
 (1)<W 2015-07-20/15, art. 4, 027; Inwerkingtreding : 03-09-2015>
 (2)<W 2017-06-08/13, art. 3, 049; Inwerkingtreding : 01-01-2018>
 (3)<W 2018-11-25/04, art. 3, 068; Inwerkingtreding : 22-12-2018>
@@ -5389,12 +5389,12 @@ en naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtl
 
 
 ##### HOOFDSTUK 2. - [1 Auteursrecht]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. - [1 Auteursrecht in het algemeen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5425,7 +5425,7 @@ wijziging ervan.
 Niettegenstaande enige afstand, behoudt hij het recht om zich te verzetten tegen elke misvorming, verminking
 of andere wijziging van dit werk dan wel tegen enige andere aantasting van het werk, die zijn eer of zijn reputatie
 kunnen schaden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5463,7 +5463,7 @@ deze rechten bedraagt vijfentwintig jaar vanaf het tijdstip waarop het werk voor
 gepubliceerd of op geoorloofde wijze aan het publiek meegedeeld is.
 § 7. De in dit artikel gestelde termijnen worden berekend vanaf 1 januari van het jaar dat volgt op het feit dat de
 rechten doet ontstaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5495,7 +5495,7 @@ worden overgedragen of in licentie gegeven aan degene die de bestelling heeft ge
 een activiteit uitoefent in de niet-culturele sector of in de reclamewereld, voor zover het werk bestemd is voor die
 activiteit en uitdrukkelijk in die overdracht of licentieverlening van rechten is voorzien.
 In die gevallen zijn paragraaf 1, vierde tot zesde lid, en paragraaf 2 niet van toepassing.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 4, 113; Inwerkingtreding : 01-08-2022>
 
@@ -5505,7 +5505,7 @@ In die gevallen zijn paragraaf 1, vierde tot zesde lid, en paragraaf 2 niet van 
 [1 Wanneer een auteur zijn exclusieve rechten voor de exploitatie van zijn werken heeft
 overgedragen of in licentie heeft gegeven in het kader van een exploitatieovereenkomst, behoudt hij het recht
 om een passende en evenredige vergoeding te ontvangen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 5, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -5540,7 +5540,7 @@ vertegenwoordiger.
 De collectieve overeenkomsten bedoeld in artikel XI.167/5 kunnen bepalen of de auteur of zijn
 vertegenwoordiger zich rechtstreeks moet richten tot de derde of hij zich moet richten tot de persoon aan wie
 de rechten werden overgedragen of de licentienemer.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 6, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -5552,7 +5552,7 @@ vertegenwoordiger, van de persoon aan wie de rechten werden overgedragen of van 
 kader van een exploitatieovereenkomst, een aanvullende, passende en billijke vergoeding vorderen wanneer de
 oorspronkelijk overeengekomen vergoeding onevenredig laag blijkt te zijn in vergelijking met alle relevante
 daaropvolgende inkomsten die voortvloeien uit de exploitatie van het werk.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 7, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -5587,7 +5587,7 @@ het werk bestemd is voor die activiteit;
 5° indien een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5, het herroepingsrecht regelt.
 Elke contractuele bepaling die afwijkt van wat in dit artikel wordt bepaald, is alleen afdwingbaar als zij voortvloeit
 uit een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 8, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -5610,14 +5610,14 @@ desbetreffende overeenkomsten hebben gesloten. In dit geval gaat Hij na of de pa
 paritair vertegenwoordigd waren en of de overeenkomst niet indruist tegen de geldende regelgeving. Indien de
 Koning vaststelt dat de overeenkomst niet voldoet aan deze voorwaarden, informeert Hij de partijen bij de
 collectieve overeenkomst over de redenen van deze beslissing.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 9, 113; Inwerkingtreding : 01-08-2022>
 
 
 ## Art. XI.167/6
 
 [1 De artikelen XI.167 tot XI.167/5 zijn van dwingend recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 10, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -5631,7 +5631,7 @@ op het auteursrecht een rechtsvordering in te stellen en voor zijn deel schadeve
 De rechter kan te allen tijde de machtiging tot publicatie van het werk afhankelijk stellen van de maatregelen die
 hij nuttig acht; hij kan, op verzoek van de auteur die zich tegen de publicatie verzet, beslissen dat deze niet zal
 delen in de kosten en baten van de exploitatie of dat zijn naam niet op het werk zal voorkomen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2015-07-20/15, art. 5, 027; Inwerkingtreding : 03-09-2015>
 
@@ -5643,7 +5643,7 @@ opgemaakt welke de individuele bijdrage van ieder der auteurs is, mogen de auteu
 bepaling in het kader van dit werk met niemand anders samenwerken.
 Zij hebben evenwel het recht om hun bijdrage afzonderlijk te exploiteren, voor zover deze exploitatie het
 gemeenschappelijke werk niet in het gedrang brengt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5655,7 +5655,7 @@ te identificeren is als dusdanig op het werk, op een reproductie van het werk, o
 publiek ervan wordt vermeld.
 De uitgever van een anoniem werk of van een werk onder pseudoniem wordt ten aanzien van derden geacht de
 auteur daarvan te zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5668,12 +5668,12 @@ erfgenamen toekomt.
 De rechten, bedoeld in artikel XI.165, § 2, worden na het overlijden van de auteur, uitgeoefend door zijn
 erfgenamen of legatarissen, tenzij hij daartoe een welbepaald persoon heeft aangewezen.
 Bij onenigheid geldt de regeling van artikel XI.168.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. - [1 Bijzondere bepalingen betreffende de werken van letterkunde]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5685,12 +5685,12 @@ Redevoeringen uitgesproken in vergaderingen van vertegenwoordigende lichamen, in
 van rechtscolleges of in politieke bijeenkomsten mogen evenwel vrijelijk worden gereproduceerd en aan het
 publiek medegedeeld; alleen de auteur heeft echter het recht om ze afzonderlijk uit te geven.
 § 2. Er bestaat geen auteursrecht op officiële akten van de overheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Bijzondere bepalingen betreffende de werken van grafische of beeldende kunst]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5702,7 +5702,7 @@ omstandigheden die geen afbreuk doen aan de eer of de faam van de auteur; de and
 echter niet overgedragen.
 Tenzij anders is overeengekomen of tenzij andere gebruiken heersen, heeft de overdracht van een werk van
 grafische of beeldende kunst het verbod tot gevolg om er andere identieke exemplaren van te maken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5712,7 +5712,7 @@ grafische of beeldende kunst het verbod tot gevolg om er andere identieke exempl
 voorhanden heeft, heeft niet het recht het te reproduceren of aan het publiek mede te delen zonder
 toestemming van de geportretteerde of, gedurende twintig jaar na diens overlijden, zonder toestemming van zijn
 rechtverkrijgenden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5737,7 +5737,7 @@ drie jaar voor de doorverkoop rechtstreeks heeft verkregen van de kunstenaar en 
 de artikelen XI.166 en XI.171.
 § 4. Onverminderd het bepaalde in internationale overeenkomsten is de reciprociteit van toepassing op het
 volgrecht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5753,7 +5753,7 @@ van de interne markt, kan de Koning dit bedrag van 2.000 euro wijzigen, zonder e
 - 0,5 % van het deel van de verkoopprijs van 350.000,01 euro tot en met 500.000 euro;
 - 0,25 % van het deel van de verkoopprijs boven 500.000 euro.
 Het maximumbedrag van het recht mag evenwel niet hoger liggen dan 12.500 euro.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5770,7 +5770,7 @@ beheersvennootschappen en de collectieve beheerorganisaties die in België het v
 van de in artikel XI.175, § 1 bepaalde doorverkoop en de betaling van het volgrecht geschieden via dit uniek
 platform. De Koning bepaalt bij een in Ministerraad overlegd besluit, de voorwaarden waaraan dit platform moet
 voldoen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 4, 049; Inwerkingtreding : 01-01-2018>
 
@@ -5805,13 +5805,13 @@ volgrecht veilig te stellen.
 § 5. De in artikel XI.177, § 1 bepaalde [2 beheersvennootschappen en/of collectieve beheerorganisaties die in
 België het volgrecht beheren]2 maken, volgens de nadere regels en binnen de termijn bepaald door de Koning, op
 de website van het uniek platform de doorverkopen bekend waarvan zij werden in kennis gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 5, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 4. - [1 Bijzondere bepalingen betreffende de audiovisuele werken]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5829,7 +5829,7 @@ belangrijk deel van dat werk uitmaken;
 e) de auteur van muziekwerken met of zonder woorden die speciaal voor het audiovisueel werk gemaakt zijn.
 De auteurs van het oorspronkelijke werk worden gelijkgesteld met de auteurs van het nieuwe werk als de
 bijdrage van eerstgenoemden in het nieuwe werk wordt gebruikt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5838,7 +5838,7 @@ bijdrage van eerstgenoemden in het nieuwe werk wordt gebruikt.]1
 [1 De auteur die weigert zijn bijdrage tot het audiovisueel werk af te maken of niet bij machte is dat
 te doen, kan zich niet verzetten tegen het gebruik van zijn bijdrage met het oog op de voltooiing van het werk.
 Voor die bijdrage wordt hij beschouwd als auteur en geniet hij de rechten die daaruit voortvloeien.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5848,7 +5848,7 @@ Voor die bijdrage wordt hij beschouwd als auteur en geniet hij de rechten die da
 definitieve versie ervan in onderlinge overeenstemming hebben vastgesteld.
 De auteurs kunnen hun morele rechten pas laten gelden na voltooiing van het audiovisueel werk.
 Het is verboden de moederband van die versie te vernietigen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5860,7 +5860,7 @@ van muziekwerken dragen, behoudens andersluidend beding, aan de producenten het 
 audiovisuele exploitatie van het werk over, met inbegrip van de rechten die voor deze exploitatie noodzakelijk zijn,
 zoals het recht om het werk van ondertiteling te voorzien of het na te synchroniseren, onverminderd de
 bepalingen van de artikelen XI.181 en XI.183 van deze titel.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5870,7 +5870,7 @@ bepalingen van de artikelen XI.181 en XI.183 van deze titel.]1
 reclamewereld behoren, hebben de auteurs van het audiovisuele werk, voor elke wijze van exploitatie recht op
 een afzonderlijke vergoeding.
 § 2. [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 11, 113; Inwerkingtreding : 01-08-2022>
 
@@ -5882,7 +5882,7 @@ moet geregeld worden in een afzonderlijk contract, los van het uitgavecontract b
 [2 Het verlenen van het recht om het werk te adapteren in een andere vorm dan een bestaand audiovisueel
 werk, moet geregeld worden in een afzonderlijk contract, los van het contract betreffende het audiovisuele
 werk.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 12, 113; Inwerkingtreding : 01-08-2022>
 
@@ -5915,12 +5915,12 @@ Wanneer de producent zijn werkzaamheden sedert meer dan twaalf maanden heeft sto
 vereffening is bekendgemaakt en meer dan twaalf maanden na de bekendmaking nog niet is overgegaan tot de
 verkoop van het audiovisueel werk, kan elk van de auteurs van dat werk de ontbinding van zijn contract
 vorderen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 5. [1 Bijzondere bepalingen betreffende databanken]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5931,7 +5931,7 @@ van de auteur vormen, worden als zodanig door het auteursrecht beschermd.
 De bescherming van databanken op grond van het auteursrecht geldt niet voor de werken, de gegevens of de
 elementen zelf en laat de bestaande rechten op de werken, gegevens of andere elementen vervat in de databank
 onverlet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5943,7 +5943,7 @@ nijverheid zijn gemaakt door een of meer werknemers of ambtenaren bij de uitoefe
 volgens de onderrichtingen van hun werkgever.
 In verband met het vermoeden van overdracht kunnen de collectieve overeenkomsten de omvang en de wijze
 daarvan bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -5955,17 +5955,17 @@ toegang te krijgen tot en normaal gebruik te maken van de inhoud van de databank
 Voor zover de rechtmatige gebruiker slechts toestemming heeft om een deel van de databank te gebruiken,
 geldt het eerste lid ook alleen voor dat deel.
 De bepalingen van het eerste en tweede lid zijn van dwingend recht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 6. - [1 Uitzonderingen op de vermogensrechten van de auteur]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 *Onderafdeling 1. - [1 Algemene uitzonderingen op de vermogensrechten van de auteur]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 3, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -5983,7 +5983,7 @@ enig doel :
 - de doorgifte in een netwerk tussen derden door een tussenpersoon; of
 - een rechtmatig gebruik,
 van een beschermd werk, waarbij die handelingen geen zelfstandige economische waarde bezitten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 4, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -6067,7 +6067,7 @@ Deze reproducties mogen worden bewaard zolang dit nodig is voor tekst- en datami
 21° de reproductie en de mededeling aan het publiek van werken ten behoeve van de openbare veiligheid of
 om het goede verloop van een administratieve, parlementaire of gerechtelijke procedure of de berichtgeving
 daarover te waarborgen.]6
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-06-27/08, art. 2, 035; Inwerkingtreding : 15-07-2016>
 (3)<W 2016-12-22/03, art. 5, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
@@ -6093,7 +6093,7 @@ om de openbare veiligheid te waarborgen of om in een administratieve of gerechte
 [3 ...]3.
 [2 ...]2.
 § 2. [3 Artikel XI.190, 1°, 2°, 10°, 12°, en 20°, is op analoge wijze van toepassing op databanken.]3]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 6, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (3)<W 2022-06-19/03, art. 14, 113; Inwerkingtreding : 01-08-2022>
@@ -6101,7 +6101,7 @@ om de openbare veiligheid te waarborgen of om in een administratieve of gerechte
 
 *Onderafdeling 2. [1 Uitzonderingen op de vermogensrechten van de auteur ten behoeve van onderwijs en*
 wetenschappelijk onderzoek]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 7, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -6151,7 +6151,7 @@ Het in de voorgaande zin bedoelde gebruik van werken ter illustratie bij onderwi
 omgevingen, wordt geacht uitsluitend plaats te vinden in de lidstaat waar de onderwijsinstelling is gevestigd.]4
 § 2. Bij de in paragraaf 1 bedoelde gebruiken, worden de bron en de naam van de auteur vermeld, tenzij dit niet
 mogelijk blijkt.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 8, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2018-11-25/04, art. 5, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2019-05-02/24, art. 2, 073; Inwerkingtreding : 31-05-2019>
@@ -6189,14 +6189,14 @@ gevestigd.]3
 § 2. Bij de in paragraaf 1 bedoelde gebruiken, worden de bron en de naam van de auteur vermeld, tenzij dit niet
 mogelijk blijkt.
 § 3. [2 Artikel XI.191/1, § 1, 1°, 2° en 6°, is op analoge wijze van toepassing op databanken.]2]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 9, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2019-05-02/24, art. 3, 073; Inwerkingtreding : 31-05-2019>
 (3)<W 2022-06-19/03, art. 16, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 3. - [1 Uitlening van werken]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 10, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -6221,14 +6221,14 @@ muziekwerken invoeren die voor het eerst buiten de Europese Unie rechtmatig zijn
 grondgebied van die Unie niet aan het publiek worden verdeeld, ingeval die invoer geschiedt voor openbare
 uitleningen met een educatief of cultureel doel en voor zover zulks geen betrekking heeft op meer dan vijf
 exemplaren of partituren van het werk.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-11-25/04, art. 6, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2022-06-19/03, art. 17, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 4. - [1 Verweesde werken]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 11, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -6243,11 +6243,11 @@ van de volgende wijzen en onder de voorwaarden bepaald in art. XI.245/5, te gebr
 a) beschikbaarstelling voor het publiek van het verweesde werk in de zin van artikel XI.165, § 1, vierde lid;
 b) de reproductie in de zin van artikel XI.165, § 1, eerste lid, met als doel het digitaliseren, beschikbaar stellen,
 indexeren, catalogiseren, behouden of restaureren.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 6, 027; Inwerkingtreding : 03-09-2015>
 
 Onderafdeling 4/1. [1 - Niet of niet meer in de handel zijnde werken]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 18, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6289,12 +6289,12 @@ instelling is gevestigd.
 § 5. De voor het publiek toegankelijke bibliotheken of de voor het publiek toegankelijke musea, de archieven of
 de instellingen voor cinematografisch of audio(visueel) erfgoed zijn de verantwoordelijken voor de verwerking
 van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 19, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1*
-----------
+
 (1)<W 2022-06-19/03, art. 20, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6304,7 +6304,7 @@ van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.]1
 en XI.192/2 bedoelde uitzonderingen mogen slechts worden toegepast mits daarbij geen afbreuk wordt gedaan
 aan de normale exploitatie van het werk of de databank en de wettige belangen van de rechthebbende niet
 onredelijk worden geschaad.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 21, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6312,12 +6312,12 @@ onredelijk worden geschaad.]1
 
 [1 De bepalingen van de artikelen XI.189, XI.190, XI.191, XI.191/1, XI.191/2, XI.192, XI.192/1 en
 XI.192/2 zijn van dwingend recht.]1
-----------
+
 (1)<W 2022-06-19/03, art. 22, 113; Inwerkingtreding : 01-08-2022>
 
 
 **Afdeling 7. - [1 Gemeenschappelijke bepaling betreffende de geluidswerken en audiovisuele werken]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6326,12 +6326,12 @@ XI.192/2 zijn van dwingend recht.]1
 [1 De auteur die zijn recht betreffende de verhuring van een geluidswerk of audiovisueel werk
 overdraagt of afstaat, behoudt het recht op een billijke vergoeding voor de verhuring.
 Van dat recht kan de auteur geen afstand doen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 8. - [1 Het uitgavecontract]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6341,7 +6341,7 @@ Van dat recht kan de auteur geen afstand doen.]1
 [2 en hoeveel auteursexemplaren voor de auteur zelf bestemd zijn]2.
 Deze verplichting geldt evenwel niet voor het c ontract waarin bedongen is dat een gewaarborgd minimum van
 auteursrechten ten laste komt van de uitgever [2 en evenmin in het geval van een digitale uitgave]2.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 23, 113; Inwerkingtreding : 01-08-2022>
 
@@ -6367,7 +6367,7 @@ gelokaliseerd is. Het recht is mede van toepassing op de werken die zijn tot sta
 inwerkingtreding van deze paragraaf en die op dat tijdstip niet tot het openbaar domein behoren.]2
 § 3. De uitgever kan zijn contract niet overdragen zonder instemming van de auteursrechthebbende, tenzij hij
 tegelijkertijd zijn bedrijf geheel of gedeeltelijk overdraagt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-07-30/47, art. 29, 065; Inwerkingtreding : 15-09-2018>
 (3)<W 2022-06-19/03, art. 24, 113; Inwerkingtreding : 01-08-2022>
@@ -6378,7 +6378,7 @@ tegelijkertijd zijn bedrijf geheel of gedeeltelijk overdraagt.]1
 [1 De uitgever kan na afloop van het contract, gedurende drie jaar de exemplaren die hij nog
 voorradig heeft, blijven verkopen tegen de normale prijs, tenzij de auteur verkiest die exemplaren zelf op te
 kopen tegen een prijs die, bij gebreke van overeenstemming, vastgesteld wordt door de rechtbank.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6399,7 +6399,7 @@ Het feit dat de auteur de ontbinding van het contract vordert, kan geen afbreuk 
 exploitatiecontracten die de uitgever op geldige wijze met derden heeft gesloten, zij het dat de auteur tegen deze
 laatsten een rechtstreekse vordering kan instellen tot betaling van de eventueel overeengekomen vergoeding die
 hem op grond daarvan toekomt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6423,12 +6423,12 @@ hem gedane aanbod, binnen een termijn van vijftien dagen te rekenen van de dag w
 of de deskundigen bij een aangetekende zending in kennis is gesteld van het voor eensluidend verklaard afschrift
 van het rapport.
 De kosten van het deskundigenonderzoek worden verdeeld onder de gezamenlijke schuldeisers en de auteur.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 9. [1 Het opvoeringscontract]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6441,7 +6441,7 @@ livevoorstellingen blijft ten hoogste drie jaar gelden; onderbreking van de opvo
 opeenvolgende jaren doet die rechten van rechtswege vervallen.
 De begunstigde van een opvoeringscontract kan dat contract niet aan een derde overdragen zonder
 instemming van de auteur, tenzij hij tegelijkertijd zijn bedrijf geheel of gedeeltelijk overdraagt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 26, 113; Inwerkingtreding : 01-08-2022>
 
@@ -6452,18 +6452,18 @@ instemming van de auteur, tenzij hij tegelijkertijd zijn bedrijf geheel of gedee
 exacte programma van de openbare opvoeringen of uitvoeringen meedelen en hun een met bewijsstukken
 gestaafde staat van zijn inkomsten bezorgen.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 27, 113; Inwerkingtreding : 01-08-2022>
 
 
 ##### HOOFDSTUK 3. - [1 Naburige rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. - [1 Algemene bepaling]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6474,13 +6474,13 @@ bepalingen mag op zodanige wijze worden uitgelegd dat zij de uitoefening van het
 De in dit hoofdstuk erkende naburige rechten zijn roerende rechten die overgaan bij erfopvolging en vatbaar
 zijn voor gehele of gedeeltelijke overdracht, overeenkomstig de bepalingen van het Burgerlijk Wetboek. Ze
 kunnen onder meer worden [2 overgedragen]2 of in een gewone of exclusieve licentie worden ondergebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 28, 113; Inwerkingtreding : 01-08-2022>
 
 
 **Afdeling 2. - [1 Bepalingen betreffende de uitvoerende kunstenaars]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6493,7 +6493,7 @@ beroepsgebruiken, almede een onjuiste toeschrijving te verbieden.
 Niettegenstaande enige afstand behoudt de uitvoerende kunstenaar het recht om zich te verzetten tegen elke
 misvorming, verminking of andere wijziging van zijn prestatie, dan wel tegen enige andere aantasting ervan die
 zijn eer of zijn reputatie kunnen schaden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6537,7 +6537,7 @@ zover deze laatste een activiteit uitoefent in de niet-culturele sector of in de
 prestatie bestemd is voor die activiteit en uitdrukkelijk in die overdracht of licentieverlening van rechten is
 voorzien.
 In die gevallen is paragraaf 3, derde tot zesde lid, niet van toepassing.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 29, 113; Inwerkingtreding : 01-08-2022>
 
@@ -6547,7 +6547,7 @@ In die gevallen is paragraaf 3, derde tot zesde lid, niet van toepassing.]2]1
 [1 Wanneer een uitvoerende kunstenaar zijn exclusieve rechten voor de exploitatie van zijn
 prestatie heeft overgedragen of in licentie heeft gegeven in het kader van een exploitatieovereenkomst, behoudt
 hij het recht om een passende en evenredige vergoeding te ontvangen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 30, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6585,7 +6585,7 @@ vertegenwoordiger.
 De collectieve overeenkomsten bedoeld in artikel XI.205/5 kunnen bepalen of de uitvoerende kunstenaar of zijn
 vertegenwoordiger zich rechtstreeks moet richten tot de derde of hij zich moet richten tot de persoon aan wie
 de rechten werden overgedragen of de licentienemer.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 31, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6597,7 +6597,7 @@ kunstenaar, of zijn vertegenwoordiger, van de persoon aan wie de rechten werden 
 licentienemer, in het kader van een exploitatieovereenkomst, een aanvullende, passende en billijke vergoeding
 vorderen wanneer de oorspronkelijk overeengekomen vergoeding onevenredig laag blijkt te zijn in vergelijking
 met alle relevante daaropvolgende inkomsten die voortvloeien uit de exploitatie van de prestatie.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 32, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6632,7 +6632,7 @@ en voor zover de prestatie bestemd is voor die activiteit;
 5° indien een collectieve overeenkomst, zoals bedoeld in artikel XI.205/5, het herroepingsrecht regelt.
 Elke contractuele bepaling die afwijkt van wat in dit artikel wordt bepaald is alleen afdwingbaar als zij voortvloeit
 uit een collectieve overeenkomst, zoals bedoeld in artikel XI.205/5.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 33, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6655,14 +6655,14 @@ desbetreffende overeenkomsten hebben gesloten. In dit geval gaat Hij na of de pa
 paritair vertegenwoordigd waren en of de overeenkomst niet indruist tegen de geldende regelgeving. Indien de
 Koning vaststelt dat de overeenkomst niet voldoet aan deze voorwaarden, informeert Hij de partijen bij de
 collectieve overeenkomst over de redenen van deze beslissing.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 34, 113; Inwerkingtreding : 01-08-2022>
 
 
 ## Art. XI.205/6
 
 [1 Artikel XI.203, tweede lid, en de artikelen XI.205 tot XI.205/5 zijn van dwingend recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 35, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6683,7 +6683,7 @@ Het is verboden de moederband van die versie te vernietigen.
 niet-culturele sector of tot de reclamewereld behoren, hebben de uitvoerende kunstenaars voor elke wijze van
 exploitatie recht op een afzonderlijke vergoeding.
 § 4. [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 36, 113; Inwerkingtreding : 01-08-2022>
 
@@ -6693,7 +6693,7 @@ exploitatie recht op een afzonderlijke vergoeding.
 [1 Gaat het om een live-voorstelling door een ensemble, dan wordt de toestemming gegeven door
 de solisten, de dirigenten, de regisseurs en, voor de andere uitvoerende kunstenaars, door de directeur van hun
 groep.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6714,13 +6714,13 @@ feit dat de rechten doet ontstaan.
 Na het overlijden van de uitvoerende kunstenaar worden de rechten uitgeoefend door diens erfgenamen of
 legatarissen, tenzij de uitvoerende kunstenaar ze aan een bepaald persoon heeft toegekend, met inachtneming
 van het wettelijk voorbehouden erfdeel dat aan de erfgenamen toekomt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Gemeenschappelijke bepalingen betreffende de producenten van fonogrammen en van de**
 eerste vastleggingen van films]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6751,7 +6751,7 @@ Deze termijn wordt berekend vanaf 1 januari van het jaar dat volgt op het feit d
 § 2. Tenzij het tegendeel is bewezen, wordt een ieder als de producent van fonogrammen of van eerste
 vastleggingen van films aangemerkt wiens naam of letterwoord waarmee hij te identificeren is als dusdanig op de
 prestatie, op een reproductie van de prestatie, of bij een mededeling aan het publiek ervan wordt vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6806,12 +6806,12 @@ vergoeding te verzekeren.
 contractueel bepaalde kortingen ingehouden op de betalingen aan de kunstenaar volgend op het vijftigste jaar
 nadat het fonogram op geoorloofde wijze is gepubliceerd of, indien het fonogram niet op geoorloofde wijze is
 gepubliceerd, volgend op het vijftigste jaar nadat het op geoorloofde wijze aan het publiek is meegedeeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 4. - [1 Bepaling betreffende de verhuring van fonogrammen en van de eerste vastleggingen van films]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6821,12 +6821,12 @@ gepubliceerd, volgend op het vijftigste jaar nadat het op geoorloofde wijze aan 
 eerste vastlegging van een film overdraagt of afstaat, behoudt het recht op een billijke vergoeding voor de
 verhuring.
 Van dat recht kan geen afstand worden gedaan en het kan niet overgedragen worden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 5. - [1 Gemeenschappelijke bepalingen betreffende de uitvoerende kunstenaars en de producenten]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6839,7 +6839,7 @@ de producent van fonogrammen zich, onverminderd het recht van de auteur, niet ve
 gebruikt en van het publiek geen toegangsgeld of vergoeding wordt gevraagd om die prestatie te kunnen
 bijwonen;
 2° tegen de uitzending ervan.]1
-----------
+
 (1)<W 2018-11-25/03, art. 3, 076; Inwerkingtreding : 01-01-2019>
 
 
@@ -6859,7 +6859,7 @@ België de in het eerste lid bedoelde billijke vergoeding beheren]2.
 Degenen die de vergoeding verschuldigd zijn, moeten overeenkomstig de eisen van de redelijkheid de
 inlichtingen meedelen die nuttig zijn voor de inning en de verdeling van de rechten.
 De Koning bepaalt op welke wijze die inlichtingen en stukken worden verstrekt.]1
-----------
+
 
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 6, 049; Inwerkingtreding : 01-01-2018>
@@ -6876,14 +6876,14 @@ Het deel van de in artikel XI.213 bedoelde vergoeding, waarop de uitvoerende kun
 onoverdraagbaar.
 De duur van de in artikel XI.213 bedoelde rechten op vergoeding is telkens gelijk aan die bepaald in de artikelen
 XI.208, eerste, tweede en derde lid en XI.209, § 1 [3 ...]3 zesde en zevende lid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 7, 049; Inwerkingtreding : 01-01-2018>
 (3)<W 2018-11-25/03, art. 5, 076; Inwerkingtreding : 01-01-2019>
 
 
 **Afdeling 6. - [1 Bepalingen betreffende de omroeporganisaties]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -6905,7 +6905,7 @@ Europese Unie of met haar toestemming.
 § 2. Tenzij het tegendeel is bewezen, wordt een ieder als de omroeporganisatie aangemerkt wiens naam of
 letterwoord waarmee hij te identificeren is als dusdanig op de prestatie, op een reproductie van de prestatie, of
 bij een mededeling aan het publiek ervan wordt vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-04-01/04, art. 4, 105; Inwerkingtreding : 01-05-2022>
 
@@ -6916,11 +6916,11 @@ bij een mededeling aan het publiek ervan wordt vermeld.]1
 eerste uitzending.
 Deze duur wordt berekend vanaf de eerste januari van het jaar dat volgt op het feit dat de rechten doet
 ontstaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 Afdeling 6/1. [1 - Bepalingen betreffende de persuitgevers.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 37, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -6938,7 +6938,7 @@ Periodieke publicaties die voor wetenschappelijke of academische doeleinden word
 wetenschappelijke bladen, worden niet beschouwd als perspublicaties.
 § 2. Voor de toepassing van deze afdeling wordt onder "dienst van de informatiemaatschappij" een dienst in de
 zin van artikel I.18, 1°, verstaan.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 38, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7009,7 +7009,7 @@ deze commissie vastleggen.
 De commissie bedoeld in het eerste lid kan enkel worden gevat indien kan worden aangetoond dat de partijen
 minstens een poging tot bemiddeling bedoeld in de artikelen 1724 tot 1737 van het Gerechtelijk Wetboek hebben
 ondernomen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 39, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7019,17 +7019,17 @@ ondernomen.]1
 verschenen.
 Deze termijn wordt berekend vanaf 1 januari van het jaar volgend op de datum waarop die perspublicatie is
 verschenen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 40, 113; Inwerkingtreding : 01-08-2022>
 
 
 **Afdeling 7. [1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.]1**
-----------
+
 (1)<W 2022-06-19/03, art. 41, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 1. - [1 Algemene uitzonderingen]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 14, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7100,7 +7100,7 @@ Deze reproducties mogen worden bewaard zolang dit nodig is voor tekst- en datami
 20° de reproductie en de mededeling aan het publiek van de prestatie ten behoeve van de openbare veiligheid
 of om het goede verloop van een administratieve, parlementaire of gerechtelijke procedure of de berichtgeving
 daarover te waarborgen.]5
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 15, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (3)<W 2018-11-25/04, art. 7, 068; Inwerkingtreding : 22-12-2018>
@@ -7109,7 +7109,7 @@ daarover te waarborgen.]5
 
 
 *Onderafdeling 2. - [1 Uitzonderingen ten behoeve van onderwijs en wetenschappelijk onderzoek]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 16, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7154,7 +7154,7 @@ onderwijzend personeel van de onderwijsinstelling; en
 b) vergezeld gaat van de vermelding van de bron, tenzij dit niet mogelijk blijkt.
 Het in de voorgaande zin bedoelde gebruik van prestaties ter illustratie bij onderwijs via beveiligde elektronische
 omgevingen, wordt geacht uitsluitend plaats te vinden in de lidstaat waar de onderwijsinstelling is gevestigd.]4
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 17, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2018-11-25/04, art. 8, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2019-05-02/24, art. 4, 073; Inwerkingtreding : 31-05-2019>
@@ -7162,7 +7162,7 @@ omgevingen, wordt geacht uitsluitend plaats te vinden in de lidstaat waar de ond
 
 
 *Onderafdeling 3. - [1 Uitlening van prestaties]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 18, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7185,14 +7185,14 @@ eerste vastleggingen van films invoeren die voor het eerst buiten de Europese Un
 die op het grondgebied van die Unie niet aan het publiek worden verdeeld, ingeval die invoer geschiedt voor
 openbare uitleningen met een educatief of cultureel doel en voor zover zulks geen betrekking heeft op meer dan
 vijf exemplaren van het fonogram of de eerste vastlegging van de film.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-11-25/04, art. 9, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2022-06-19/03, art. 44, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 4. - [1 Verweesde werken]1*
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 19, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7208,12 +7208,12 @@ lid, XI.209, § 1, vierde lid, XI.215, § 1, eerste lid, d), en XI.216/2, § 1, 
 b) de reproductie [2 in de zin van de artikelen XI.205, § 1, eerste lid, XI.209, § 1, eerste lid, XI.215, § 1, eerste
 lid, b), en XI.216/2, § 1, 1°]2 met als doel het digitaliseren, beschikbaar stellen, indexeren, catalogiseren,
 behouden of restaureren.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 8, 027; Inwerkingtreding : 03-09-2015>
 (2)<W 2022-06-19/03, art. 45, 113; Inwerkingtreding : 01-08-2022>
 
 Onderafdeling 4/1. [1 - Niet of niet meer in de handel zijnde prestaties]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 46, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7257,12 +7257,12 @@ van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.
 voor het publiek toegankelijk museum, een archief of een instelling voor cinematografisch of audio(visueel)
 erfgoed, bedoeld in paragraaf 1, worden geacht uitsluitend plaats te vinden in de lidstaat waar de voornoemde
 instelling is gevestigd.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 47, 113; Inwerkingtreding : 01-08-2022>
 
 
 *Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1*
-----------
+
 (1)<W 2022-06-19/03, art. 48, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7271,7 +7271,7 @@ instelling is gevestigd.]1
 [1 De in de artikelen XI.217, XI.217/1, XI.218, § 1, tweede lid, XI.218/1 en XI.218/2 bedoelde
 uitzonderingen mogen slechts worden toegepast mits daarbij geen afbreuk wordt gedaan aan de normale
 exploitatie van de prestatie en de wettige belangen van de rechthebbenden niet onredelijk worden geschaad.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 49, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7279,18 +7279,18 @@ exploitatie van de prestatie en de wettige belangen van de rechthebbenden niet o
 
 [1 De bepalingen van de artikelen XI.217, XI.217/1, XI.218, XI.218/1 en XI.218/2 zijn van dwingend
 recht.]1
-----------
+
 (1)<W 2022-06-19/03, art. 50, 113; Inwerkingtreding : 01-08-2022>
 
 
 ##### HOOFDSTUK 4. [1 - Mededeling aan het publiek per satelliet, doorgifte via de kabel, doorgifte, uitzending via
 directe injectie en ondersteunende onlinediensten van omroeporganisaties]1
-----------
+
 (1)<W 2022-04-01/04, art. 5, 105; Inwerkingtreding : 01-05-2022>
 
 
 **Afdeling 1. - [1 Mededeling aan het publiek per satelliet]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -7299,7 +7299,7 @@ directe injectie en ondersteunende onlinediensten van omroeporganisaties]1
 [1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna volgende
 bepalingen geldt de bescherming van het auteursrecht en van de naburige rechten tevens voor de
 satellietomroep.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -7317,7 +7317,7 @@ het geval, tegen de persoon die het grondstation exploiteert of tegen de omroepo
 grondgebied van een lidstaat, of
 - indien de omroeporganisatie die tot de mededeling aan het publiek opdracht heeft gegeven, haar
 hoofdvestiging op het grondgebied van een lidstaat heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -7330,12 +7330,12 @@ naar de satelliet en terug naar de aarde loopt. Indien de programmadragende sign
 worden uitgezonden, is er sprake van mededeling aan het publiek per satelliet wanneer de middelen voor het
 decoderen van de uitzending door of met toestemming van de omroeporganisatie ter beschikking van het
 publiek worden gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. [1 - Doorgifte via de kabel en doorgifte]1**
-----------
+
 (1)<W 2022-04-01/04, art. 6, 105; Inwerkingtreding : 01-05-2022>
 
 
@@ -7344,7 +7344,7 @@ publiek worden gesteld.]1
 [1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
 omschreven nadere regels beschikken alleen de auteur en de houders van de naburige rechten over het recht
 de doorgifte via de kabel [2 en/of de doorgifte]2 van hun werken en prestaties toe te staan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-04-01/04, art. 6, 105; Inwerkingtreding : 01-05-2022>
 
@@ -7370,7 +7370,7 @@ rekenen van de datum van doorgifte via de kabel [3 of van doorgifte]3 van hun we
 § 3. De paragrafen 1 en 2 zijn niet van toepassing op de rechten die een omroeporganisatie in het kader van
 haar eigen uitzendingen uitoefent [3 , ongeacht of het om haar eigen rechten gaat dan wel of deze haar door
 andere rechthebbenden zijn overgedragen]3.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 8, 049; Inwerkingtreding : 01-01-2018>
 (3)<W 2022-04-01/04, art. 8, 105; Inwerkingtreding : 01-05-2022>
@@ -7397,7 +7397,7 @@ beheerorganisaties]2 die uitvoerende kunstenaars vertegenwoordigen.
 vergoeding, zoals bepaald in de eerste paragraaf, door de [2 beheersvennootschappen en/of collectieve
 beheerorganisaties]2 rechtstreeks van de [4 exploitanten van doorgiftediensten via de kabel en/of de
 exploitanten van doorgiftediensten]4 gevorderd worden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 9, 049; Inwerkingtreding : 01-01-2018>
 (3)<W 2018-11-25/03, art. 6, 076; Inwerkingtreding : 01-07-2019>
@@ -7406,7 +7406,7 @@ exploitanten van doorgiftediensten]4 gevorderd worden.]1
 
 
 **Afdeling 3. [1 - Mededeling aan het publiek via directe injectie]1**
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/03, art. 8, 076; Inwerkingtreding : 01-07-2019>
 
 
@@ -7415,7 +7415,7 @@ exploitanten van doorgiftediensten]4 gevorderd worden.]1
 [1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
 omschreven nadere regels, beschikken alleen de auteur en de houders van de naburige rechten over het recht
 de mededeling aan het publiek via directe injectie van hun werken en prestaties toe te staan.]1
-----------
+
 (1)<W 2018-11-25/03, art. 9, 076; Inwerkingtreding : 01-07-2019>
 
 
@@ -7436,7 +7436,7 @@ uit te zenden aan het publiek.
 De toestemming van de rechthebbenden moet verkregen worden voor elk van de respectievelijke bijdragen van
 de omroeporganisatie en de distributeur van signalen in de handeling van mededeling aan het publiek via directe
 injectie.]1
-----------
+
 (1)<W 2022-04-01/04, art. 10, 105; Inwerkingtreding : 01-05-2022>
 
 
@@ -7462,7 +7462,7 @@ de mededeling aan het publiek, via directe injectie, van hun werk of van hun pre
 haar eigen uitzendingen uitoefent, [2 ongeacht of het om haar eigen rechten gaat dan wel of deze haar door
 andere rechthebbenden zijn overgedragen,]2 noch op de rechten waarvan de producenten houder zijn ten
 aanzien van omroeporganisaties.]1
-----------
+
 (1)<W 2018-11-25/03, art. 11, 076; Inwerkingtreding : 01-07-2019>
 (2)<W 2022-04-01/04, art. 11, 105; Inwerkingtreding : 01-05-2022>
 
@@ -7484,12 +7484,12 @@ vertegenwoordigen.
 § 4. Zolang het uniek platform, bedoeld in artikel XI.228/1, niet opgericht is, kan het recht op een vergoeding,
 zoals bepaald in de eerste paragraaf, door de beheersvennootschappen rechtstreeks van de
 omroeporganisaties en distributeurs van signalen gevorderd worden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/03, art. 12, 076; Inwerkingtreding : 01-07-2019>
 (2)<W 2024-02-09/19, art. 37, 129; Inwerkingtreding : 21-03-2024>
 
 Afdeling 3/1. [1 - Ondersteunende onlinediensten van omroeporganisaties]1
-----------
+
 (1)<Ingevoegd bij W 2022-04-01/04, art. 12, 105; Inwerkingtreding : 01-05-2022>
 
 
@@ -7519,12 +7519,12 @@ Het eerste lid staat er niet aan in de weg dat het bedrag van de betalingen word
 inkomsten van de omroeporganisatie.
 § 3. Paragraaf 1 doet geen afbreuk aan de contractuele vrijheid van de partijen om de exploitatie van de in
 diezelfde paragraaf bedoelde rechten te beperken.]1
-----------
+
 (1)<Ingevoegd bij W 2022-04-01/04, art. 13, 105; Inwerkingtreding : 01-05-2022>
 
 
 **Afdeling 4. [1 - Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3/1]1**
-----------
+
 (1)<W 2022-04-01/04, art. 14, 105; Inwerkingtreding : 01-05-2022>
 
 
@@ -7550,7 +7550,7 @@ de informatie ontvangen. De Koning kan vaststellen dat de informatie-uitwisselin
 geschieden via tussenkomst van de FOD Economie;
 2° aanbevelingen voor de tariferings- en inningsregels voor de rechten voor de exploitatiehandelingen bedoeld
 in paragraaf 1.]1
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/03, art. 14, 076; Inwerkingtreding : 01-07-2019>
 (2)<W 2022-04-01/04, art. 15, 105; Inwerkingtreding : 01-05-2022>
 
@@ -7569,7 +7569,7 @@ worden ter kennis gebracht bij ter post aangetekende zending met ontvangstbewijs
 § 3. Indien binnen een termijn van drie maanden te rekenen van de kennisgeving geen van de betrokken
 partijen zich door middel van een kennisgeving aan de andere partijen in dezelfde vorm tegen de voorstellen van
 de [2 bemiddelaar of de bemiddelaars]2, heeft verzet, worden zij geacht die voorstellen te hebben aanvaard.]1
-----------
+
 (1)<W 2018-11-25/03, art. 15, 076; Inwerkingtreding : 01-07-2019>
 (2)<W 2022-04-01/04, art. 16, 105; Inwerkingtreding : 01-05-2022>
 
@@ -7589,12 +7589,12 @@ kan op basis van objectieve criteria de samenstelling en draagwijdte van het uni
 andere wat betreft bepaalde categorieën van rechthebbenden.
 Na advies van het overlegcomité, bepaalt de Koning de datum waarop het uniek platform van toepassing
 wordt.]1
-----------
+
 (1)<W 2022-04-01/04, art. 17, 105; Inwerkingtreding : 01-05-2022>
 
 HOOFDSTUK 4/1. [1 - Gebruik van werken en prestaties door verleners van een onlinedienst voor het delen van
 content.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 51, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7613,7 +7613,7 @@ Europees Parlement en de Raad van 11 december 2018 tot vaststelling van het Euro
 elektronische communicatie, onlinemarktplaatsen en business-to-business clouddiensten en clouddiensten
 waarmee gebruikers content kunnen uploaden voor eigen gebruik, zijn geen verleners van een onlinedienst voor
 het delen van content in de zin van dit hoofdstuk.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 51, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7635,7 +7635,7 @@ in artikel XI.228/2 en paragraaf 1 bepaalde voorwaarden, is de in artikel [2 8, 
 2022/2065 van het Europees Parlement en de Raad van 19 oktober 2022 betreffende een eengemaakte markt
 voor digitale diensten en tot wijziging van Richtlijn 2000/31/EG]2, bedoelde aansprakelijkheidsregeling niet van
 toepassing op situaties die onder dit hoofdstuk vallen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 53, 113; Inwerkingtreding : 01-08-2022>
 (2)<W 2024-04-21/06, art. 2, 132; Inwerkingtreding : 25-05-2024>
 
@@ -7656,7 +7656,7 @@ Het beheer van het recht op een vergoeding van de uitvoerende kunstenaars bedoel
 uitsluitend worden uitgeoefend door beheersvennootschappen en/of collectieve beheerorganisaties die
 uitvoerende kunstenaars vertegenwoordigen.
 § 4. De bepalingen van de paragrafen 1 tot 3 zijn van dwingend recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 54, 113; Inwerkingtreding : 01-08-2022>
 (2)<W 2024-02-09/19, art. 38, 129; Inwerkingtreding : 21-03-2024>
 
@@ -7702,7 +7702,7 @@ overeenkomstig artikel 17, lid 10, van Richtlijn (EU) 2019/790 van het Europees 
 april 2019 inzake auteursrechten en naburige rechten in de digitale eengemaakte markt en tot wijziging van
 Richtlijnen 96/9/EG en 2001/29/EG, nadere regels bepalen in verband met de in de paragrafen 1 tot 3 bepaalde
 voorwaarden, onder meer wat betreft de melding en de nodige toepasselijke informatie.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 55, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7713,7 +7713,7 @@ het delen van content en de rechthebbenden leidt niet tot het voorkomen van de b
 gebruikers geüploade werken of prestaties die geen inbreuk maken op het auteursrecht en naburige rechten,
 ook niet wanneer deze werken of prestaties vallen onder een uitzondering of beperking.
 § 2. De toepassing van dit hoofdstuk leidt niet tot een algemene toezichtverplichting.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 56, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7732,7 +7732,7 @@ overeenkomstig artikel 17, lid 10, van Richtlijn (EU) 2019/790 van het Europees 
 april 2019 inzake auteursrechten en naburige rechten in de digitale eengemaakte markt en tot wijziging van
 Richtlijnen 96/9/EG en 2001/29/EG, nadere regels bepalen in verband met de in de paragrafen 1 en 2 bedoelde
 informatieplicht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 57, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7755,7 +7755,7 @@ Richtlijnen 96/9/EG en 2001/29/EG, nadere regels bepalen in verband met de in de
 klachten- en beroepsmechanismen, met name wat betreft de termijn waarbinnen dergelijke klachten moeten
 worden behandeld, de te volgen procedure en de status van de content die het voorwerp uitmaakt van de klacht
 tijdens de behandeling ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 58, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7779,13 +7779,13 @@ elementen van de desbetreffende zaak, en met name met de relatieve gegrondheid v
 partijen bij het geschil, het gedrag van de partijen, alsmede de grootte en de financiële draagkracht van de
 partijen in verhouding tot elkaar, een niet-bindend voorstel tot verdeling van de kosten doen, inbegrepen het
 redelijk aandeel dat wordt gedragen door de verlener van een onlinedienst voor het delen van content.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 59, 113; Inwerkingtreding : 01-08-2022>
 
 
 ##### HOOFDSTUK 4.2. [1 - Gebruik van geluids- en/of audiovisuele werken door bepaalde dienstverleners van de
 informatiemaatschappij.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 60, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7802,7 +7802,7 @@ toegang tot de aangeboden geluids- en/of audiovisuele werken;
 en/of audiovisuele werken; en
 4° de dienstverlener de redactionele verantwoordelijkheid heeft voor het aanbod en de organisatie van die
 dienst, waaronder de ordening, rangschikking en promotie van de geluids- en/of audiovisuele werken.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 61, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -7825,13 +7825,13 @@ recht op een vergoeding, bedoeld in paragraaf 1, van de uitvoerende kunstenaars 
 audiovisueel werk, uitsluitend worden uitgeoefend door beheersvennootschappen en/of collectieve
 beheerorganisaties die uitvoerende kunstenaars vertegenwoordigen.
 § 4. De bepalingen van paragrafen 1 tot 3 zijn van dwingend recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 62, 113; Inwerkingtreding : 01-08-2022>
 (2)<W 2024-02-09/19, art. 39, 129; Inwerkingtreding : 21-03-2024>
 
 
 ##### HOOFDSTUK 5. [1 De vergoeding voor de reproductie voor eigen gebruik van werken en prestaties]1
-----------
+
 (1)<W 2016-12-22/03, art. 22, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7855,7 +7855,7 @@ beheersvennootschap die representatief is voor alle beheersvennootschappen of co
 die in België de in het eerste lid bedoelde vergoeding beheren]3, met de inning en de verdeling van de vergoeding.
 Wanneer een auteur of een uitvoerende kunstenaar zijn recht op een vergoeding voor het kopiëren voor eigen
 gebruik heeft afgestaan, behoudt hij het recht op een billijke vergoeding voor het kopiëren voor eigen gebruik.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 23, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (3)<W 2017-06-08/13, art. 10, 049; Inwerkingtreding : 01-01-2018>
@@ -7870,7 +7870,7 @@ nodige inlichtingen voor het uitvoeren van haar opdracht in naleving van artikel
 - de Administratie van de btw met toepassing van artikel 93bis van het BTW-Wetboek van 3 juli 1969;
 - en de Rijksdienst voor Sociale Zekerheid in toepassing van de wet van 15 januari 1990 houdende oprichting en
 organisatie van een Kruispuntbank van de Sociale Zekerheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 11, 049; Inwerkingtreding : 01-01-2018>
 
@@ -7885,7 +7885,7 @@ aan en krijgen van :
 - de dienst Controle en Bemiddeling van de FOD Economie;
 - de [2 beheersvennootschappen en collectieve beheerorganisaties]2 die een gelijkaardige activiteit uitoefenen in
 het buitenland, mits wederkerigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 12, 049; Inwerkingtreding : 01-01-2018>
 
@@ -7919,7 +7919,7 @@ Indien de Koning het bedrag binnen de termijn van drie jaar herziet, motiveert H
 van de initiële omstandigheden.
 Het gebrek aan gebruik van technische voorzieningen kan geen afbreuk doen aan het recht op vergoeding
 zoals gedefinieerd in artikel XI.229.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 24, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -7953,7 +7953,7 @@ zou vormen voor deze toegang;
 2° hetzij door de noodzaak om de verwerving van dragers en apparaten te waarborgen door personen die dit
 materieel kennelijk niet aanwenden voor de reproducties bedoeld in artikel XI.229.
 De Koning bepaalt de voorwaarden van de terugbetaling of de vrijstelling.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -7979,12 +7979,12 @@ van beeldende of grafische kunst, waarop de auteurs recht hebben, is onoverdraag
 vergoeding waarvan sprake is in de voorgaande paragraaf, te gebruiken ter aanmoediging van de schepping van
 werken, en zulks door middel van een samenwerkingsakkoord met toepassing van artikel 92bis, § 1, van de
 bijzondere wet van 8 augustus 1980 tot hervorming der instellingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 25, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 ##### HOOFDSTUK 6. [1 De vergoeding voor reprografie]1
-----------
+
 (1)<W 2016-12-22/03, art. 26, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -7993,7 +7993,7 @@ bijzondere wet van 8 augustus 1980 tot hervorming der instellingen.]1
 [1 De auteurs hebben recht op een vergoeding voor de reproductie op papier of op een soortgelijke
 drager van hun werken, wanneer die reproductie plaatsvindt onder de voorwaarden bepaald in de artikelen
 XI.190, 5° en XI.191, § 1, 1°.]1
-----------
+
 (1)<W 2016-12-22/03, art. 27, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -8004,7 +8004,7 @@ wordt in functie van het aantal reproducties van werken.
 Deze is verschuldigd door de natuurlijke personen of de rechtspersonen die reproducties van werken
 vervaardigen of, in voorkomend geval, met décharge van eerstgenoemden, door hen die onder bezwarende titel
 of gratis een reproductieapparaat ter beschikking stellen van anderen.]1
-----------
+
 (1)<W 2016-12-22/03, art. 28, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -8017,7 +8017,7 @@ en accijnzen van 18 juli 1977, [2 ...]2;
 - de Administratie van de btw met toepassing van artikel 93bis van het BTW-wetboek van 3 juli 1969;
 - en de Rijksdienst voor Sociale Zekerheid in toepassing van de wet van 15 januari 1990 houdende oprichting en
 organisatie van een Kruispuntbank van de Sociale Zekerheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 29, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (3)<W 2017-06-08/13, art. 13, 049; Inwerkingtreding : 01-01-2018>
@@ -8032,7 +8032,7 @@ aan en krijgen van :
 - de dienst Controle en Bemiddeling en van de FOD Economie;
 - de [2 beheersvennootschappen en collectieve beheerorganisaties]2 die een gelijkaardige activiteit uitoefenen in
 het buitenland, mits wederkerigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 14, 049; Inwerkingtreding : 01-01-2018>
 
@@ -8056,14 +8056,14 @@ Indien de omstandigheden die het bepalen van het bedrag hebben gerechtvaardigd, 
 gewijzigd zijn, kan dit bedrag voor het verstrijken van de termijn van drie jaar worden herzien.
 Indien de Koning het bedrag binnen de termijn van drie jaar herziet, motiveert Hij zijn beslissing door de
 wijziging van de initiële omstandigheden.]1
-----------
+
 (1)<W 2016-12-22/03, art. 30, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2017-06-08/13, art. 15, 049; Inwerkingtreding : 01-01-2018>
 
 
 ##### HOOFDSTUK 7. [1 Het gebruik van werken of prestaties ten behoeve van onderwijs en wetenschappelijk
 onderzoek]1
-----------
+
 (1)<W 2016-12-22/03, art. 31, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -8076,7 +8076,7 @@ onder de voorwaarden bepaald in artikel XI.191/2, § 1.
 De uitvoerende kunstenaars, de producenten van fonogrammen en de producenten van eerste vastleggingen
 van films hebben recht op een vergoeding voor de reproductie en de mededeling van hun prestaties onder de
 voorwaarden bepaald in [3 artikel XI.217/1, 3°, 4°, 5° en 7°]3.]1
-----------
+
 (1)<W 2016-12-22/03, art. 32, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2022-06-19/03, art. 63, 113; Inwerkingtreding : 01-08-2022>
 (3)<W 2024-02-09/19, art. 40, 129; Inwerkingtreding : 31-03-2024>
@@ -8104,14 +8104,14 @@ rechthebbenden enerzijds, en tussen de categorieën van werken anderzijds.
 In dit geval is de verdeelsleutel van dwingend recht.
 Het deel van de vergoeding bedoeld in artikel XI.240, waarop de auteurs en de uitvoerende kunstenaars recht
 hebben, is onoverdraagbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-22/03, art. 34, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (3)<W 2017-06-08/13, art. 16, 049; Inwerkingtreding : 01-01-2018>
 
 
 ##### HOOFDSTUK 8. - [1 Bepalingen inzake openbare uitlening]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -8123,7 +8123,7 @@ recht op een vergoeding.
 § 2. In geval van uitlening van geluidswerken of audiovisuele werken onder de voorwaarden genoemd in de
 artikelen XI.192 en XI.218, hebben de auteur, de uitvoerende kunstenaar en de producent recht op een
 vergoeding.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -8143,7 +8143,7 @@ vergoedingen voor openbare uitlening.
 Na raadpleging van de Gemeenschappen en, in voorkomend geval, op hun initiatief, bepaalt de Koning voor
 sommige categorieën van instellingen die door de overheid zijn erkend of opgericht, een vrijstelling of een
 forfaitair vastgesteld bedrag per uitlening bij de vaststelling van de vergoedingen bedoeld in artikel XI.243.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-08/13, art. 17, 049; Inwerkingtreding : 01-01-2018>
 
@@ -8161,11 +8161,11 @@ Het deel van de in artikel XI.243, § 1 bedoelde vergoeding, waarop de auteurs r
 onoverdraagbaar.
 Het deel van de in artikel XI.243, § 2 bedoelde vergoeding, waarop de auteurs en de uitvoerende kunstenaars
 recht hebben, is onoverdraagbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 HOOFDSTUK 8/1. [1 - Bepalingen inzake verweesde werken]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 10, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8184,7 +8184,7 @@ een zorgvuldig onderzoek overeenkomstig de artikelen XI.245/3 en XI.245/4 is uit
 beschikken, de in de artikelen XI.192/1 en XI.218/1 bedoelde instellingen en organisaties toestemming hebben
 verleend voor de respectievelijk onder de artikelen XI.192/1 en XI.218/1 vallende handelingen van reproductie en
 beschikbaarstelling voor het publiek.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 11, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8210,7 +8210,7 @@ rechthebbenden zich niet tegen de in de artikelen XI.192/1 en XI.218/1 bedoelde 
 verzetten.
 § 3. Werken en prestaties die zijn opgenomen of verwerkt zijn in, of integrerend deel uitmaken van de in
 paragrafen 1 en 2 bedoelde werken, zijn ook verweesde werken in de zin van de artikelen XI.192/1 en XI.218/1.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 12, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8225,7 +8225,7 @@ is uitgevoerd door de in de artikelen XI.192/1 en XI.218/1 bedoelde instellingen
 fonogram als verweesd hebben geregistreerd.
 § 2. Een werk of fonogram dat in een lidstaat van de Europese Unie of de Europese Economische Ruimte als
 een verweesd werk wordt beschouwd, wordt in België eveneens als een verweesd werk beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 13, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8266,7 +8266,7 @@ fonogrammen die de instellingen en organisaties gebruiken;
 e) de relevante contactgegevens van de betrokken instelling of organisatie.
 § 4. De voor de verweesde werken bevoegde nationale autoriteit wordt, na raadpleging van de
 Gemeenschappen, door de Koning aangewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 14, 027; Inwerkingtreding : 03-09-2015>
 (2)<W 2022-06-19/03, art. 64, 113; Inwerkingtreding : 01-08-2022>
 
@@ -8282,7 +8282,7 @@ vergoeding van hun kosten voor de digitalisering van verweesde werken en de besc
 publiek ervan.
 § 2. De instellingen en organisaties bedoeld in de artikelen XI.192/1 en XI.218/1, vermelden bij elk gebruik van
 een verweesd werk de naam van de geïdentificeerde auteurs en andere rechthebbenden.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 15, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8292,7 +8292,7 @@ een verweesd werk de naam van de geïdentificeerde auteurs en andere rechthebben
 beschouwd werk te beëindigen.
 Het eerste lid is mutatis mutandis van toepassing op de rechthebbenden bepaald in artikel XI.245/1, paragraaf
 2.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 16, 027; Inwerkingtreding : 03-09-2015>
 
 
@@ -8314,13 +8314,13 @@ rechthebbenden enerzijds, en tussen de categorieën van werken anderzijds. In di
 dwingend recht.
 Het deel van de vergoeding bedoeld in het eerste lid, waarop de auteurs en de uitvoerende kunstenaars recht
 hebben, is onoverdraagbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2015-07-20/15, art. 17, 027; Inwerkingtreding : 03-09-2015>
 (2)<W 2022-06-19/03, art. 65, 113; Inwerkingtreding : 01-08-2022>
 
 HOOFDSTUK 8/1/1. [1 - Bepalingen inzake niet of niet meer in de handel zijnde werken, prestaties,
 perspublicaties, computerprogramma's en databanken.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 1, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8331,7 +8331,7 @@ teneinde te bepalen of ze overeenkomstig artikel XI.245/7/2 in licentie kunnen w
 worden gebruikt krachtens de uitzondering of beperking bedoeld in de artikelen XI.192/2, XI.218/2, XI.299/1 en
 XI.310/1. Hij kan eveneens bepalen wat onder redelijke inspanning, bedoeld in artikel I.13, 12°, moet worden
 verstaan.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 67, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8352,7 +8352,7 @@ beheersvennootschap aan die representatief is voor alle beheersvennootschappen e
 beheerorganisaties die in België voor bepaalde soorten werken, prestaties, perspublicaties,
 computerprogramma's en/of databanken het type van rechten beheren die het voorwerp kunnen uitmaken van
 de licentie bedoeld in paragraaf 1.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 68, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8368,7 +8368,7 @@ erfgoed.
 De Koning kan nadere regels bepalen inzake de wijze van uitoefening van de uitsluiting bedoeld in het eerste lid.
 Vanaf het ogenblik dat de in het eerste lid bedoelde instelling kennis heeft gekregen van dergelijke uitsluiting,
 beëindigt zij elke lopende vorm van gebruik binnen een redelijke termijn.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 69, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8377,7 +8377,7 @@ beëindigt zij elke lopende vorm van gebruik binnen een redelijke termijn.]1
 [1 De in België gevestigde publiek toegankelijke bibliotheken en musea, archieven en instellingen
 voor cinematografisch of audio(visueel) erfgoed moeten de licentie bedoeld in artikel XI.245/7/2, § 1, sluiten met
 de representatieve beheersvennootschap bedoeld in artikel XI.245/7/2, § 2.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 70, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8397,7 +8397,7 @@ Europese Unie of de Europese Economische Ruimte te bepalen.
 Het eerste lid is niet van toepassing indien de in artikel XI.245/7/2, § 2, bedoelde beheersvennootschap
 voldoende representatief is voor de auteurs, houders van naburige rechten of producenten van databanken van
 het land buiten de Europese Unie of de Europese Economische Ruimte.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 71, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -8422,12 +8422,12 @@ bewustwording van auteurs, houders van naburige rechten en producenten van datab
 § 2. De voor het publiek toegankelijke bibliotheken of de voor het publiek toegankelijke musea, de archieven of
 de instellingen voor cinematografisch of audio(visueel) erfgoed zijn de verantwoordelijken voor de verwerking
 van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 72, 113; Inwerkingtreding : 01-08-2022>
 
 
 HOOFDSTUK 8/2. [1 - Bepalingen inzake toegelaten entiteiten]1
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/04, art. 10, 068; Inwerkingtreding : 22-12-2018>
 
 
@@ -8453,7 +8453,7 @@ beschikbare vormen; en
 2° de naam en de contactgegevens van de toegelaten entiteiten waarmee zij exemplaren in toegankelijke vorm
 op grond van de artikelen XI.190, 19°, XI.192, § 1, tweede lid, XI.217, 18°, XI.218, § 1, tweede lid, XI.299, § 4,
 2°, of XI.310, § 2, 2°, heeft uitgewisseld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/04, art. 11, 068; Inwerkingtreding : 22-12-2018>
 
 
@@ -8463,17 +8463,17 @@ op grond van de artikelen XI.190, 19°, XI.192, § 1, tweede lid, XI.217, 18°, 
 tweede lid, XI.217, 18°, XI.218, § 1, tweede lid, XI.299, § 4, 2°, of XI.310, § 2, 2°, alsook artikelen 3 en 4 van
 verordening (EU) 2017/1563 bedoelde handelingen uitvoeren, delen, op vrijwillige basis, hun namen en
 contactgegevens mee aan de bevoegde dienst van de FOD Economie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-11-25/04, art. 12, 068; Inwerkingtreding : 22-12-2018>
 
 
 ##### HOOFDSTUK 9. [1 - Collectief beheer van het auteursrecht en de naburige rechten]1
-----------
+
 (1)<W 2017-06-08/13, art. 18, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 1. [1 Toepassingsgebied]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 19, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8494,12 +8494,12 @@ eigendom zijn van, of geheel of gedeeltelijk onder toezicht staan van een beheer
 beheerorganisatie, mits dergelijke entiteiten een activiteit verrichten die, indien ze werd verricht door een
 beheersvennootschap of een collectieve beheerorganisatie, onderworpen zou zijn aan de bepalingen van dit
 hoofdstuk.]1
-----------
+
 (1)<W 2017-06-08/13, art. 20, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 2. [1 Rechtsvorm]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 21, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8512,17 +8512,17 @@ uitoefenen in de zin van artikel I.16, § 1, 5°.
 De onafhankelijke beheerentiteiten zijn organisaties die op regelmatige wijze zijn opgericht in een van de
 lidstaten van de Europese Unie waar zij op geoorloofde wijze een activiteit van collectief beheer uitoefenen in de
 zin van artikel 1.16, § 1, 6°.]1
-----------
+
 (1)<W 2017-06-08/13, art. 22, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 3. [1 Interacties met de rechthebbenden en organisatie]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 23, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 1. [1 Algemene principes]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 24, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8533,12 +8533,12 @@ beheer moet worden uitgevoerd op billijke, zorgvuldige, doeltreffende en niet-di
 De beheersvennootschappen leggen aan de rechthebbenden geen verplichtingen op die objectief beschouwd
 niet noodzakelijk zijn voor de bescherming van hun rechten en belangen of voor dit doeltreffende beheer van
 hun rechten.]1
-----------
+
 (1)<W 2017-06-08/13, art. 25, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 2. [1 Rechten van de rechthebbenden]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 26, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8571,7 +8571,7 @@ band met hen hebben en actualiseren dat regelmatig.
 lidmaatschapsrechten alsook de rechthebbenden die bij wet of door middel van overdracht, licentieverlening of
 een andere contractuele regeling een rechtstreekse juridische band met hen hebben, in de gelegenheid op
 elektronische wijze met hen te communiceren.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 27, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8607,12 +8607,12 @@ toestemming te verkrijgen om zijn rechten te beheren.
 § 7. De beheersvennootschappen informeren de rechthebbenden over hun rechten op grond van de
 paragrafen 1 tot 6 en van artikel XI.248/3, alsook over de voorwaarden bedoeld in § 3, alvorens hun
 toestemming te verkrijgen om een recht of rechtencategorie of soort werk of prestatie te beheren.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 28, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 3. [1 Organisatie]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 29, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8641,7 +8641,7 @@ XI.273/1 en XI.273/7.
 rechten niet beperken door, als voorwaarde voor de uitoefening van die rechten, te eisen dat het beheer van
 rechten of rechtencategorieën of soorten werken en prestaties die het voorwerp zijn van de beëindiging of
 terugtrekking, wordt toevertrouwd aan een andere beheersvennootschap.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 30, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8697,7 +8697,7 @@ beheersvennootschap.
 Elke volmacht geldt voor één algemene vergadering. De gevolmachtigde geniet op de algemene vergadering
 dezelfde rechten als deze waarop de aanwijzende vennoot aanspraak zou kunnen maken. De gevolmachtigde
 brengt zijn stem uit overeenkomstig de instructies van de aanwijzende vennoot.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 31, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8710,7 +8710,7 @@ De personen die het beheer of de administratie van een beheersvennootschap waarn
 aan het bepaalde in de artikelen 527 en 528 van het Wetboek van Vennootschappen, waarbij een overtreding
 van hoofdstuk 9 van deze titel en van de uitvoeringsbesluiten ervan, wordt gelijkgesteld met een overtreding van
 het Wetboek van Vennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 32, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8746,7 +8746,7 @@ met duidelijke verwijzing in het hoofdmenu van de internetpagina.
 § 4. Na overleg met de Commissie voor de Boekhoudkundige Normen, het Instituut van de Bedrijfsrevisoren en
 de beheersvennootschappen die zetelen in het overlegcomité ingesteld door artikel XI.282, kan de Koning nadere
 regels bepalen betreffende de wijze waarop de in paragraaf 2 vermelde gegevens worden weergegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 33, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8803,7 +8803,7 @@ in 1° en 2° ; in deze gevallen is artikel 2 van voormeld koninklijk besluit nr
 toepassing.
 De Koning kan de bepalingen van dit artikel aanpassen om ze in overeenstemming te brengen met de wetten
 die de erin opgesomde teksten wijzigen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 34, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8823,7 +8823,7 @@ inbegrip van de uitvoering van de besluiten van de algemene vergadering, en in h
 XI.248/4, § 3, 1° tot 4° vermelde algemene beleidslijnen.
 Het orgaan dat de toezichtfunctie uitoefent, brengt ten minste eenmaal per jaar aan de algemene vergadering
 verslag uit over de uitoefening van zijn bevoegdheden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 35, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8852,7 +8852,7 @@ Wetboek van Vennootschappen aan en vervolledigt ze naar de vereisten van het wet
 beheersvennootschappen.
 De Koning kan bij de vaststelling van de regels die Hij bepaalt, bij toepassing van het tweede lid, een
 onderscheid maken in functie van de betrokken rechten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 36, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8876,7 +8876,7 @@ hebben ontvangen;
 4° een opgave aangaande ieder feitelijk of potentieel conflict tussen persoonlijke belangen en die van de
 beheersvennootschap of tussen verplichtingen die verschuldigd zijn aan de beheersvennootschap en
 verplichtingen die verschuldigd zijn aan een andere natuurlijke of rechtspersoon.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 37, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8901,7 +8901,7 @@ volgen, dat een ernstige of herhaaldelijke inbreuk op de bepalingen van deze tit
 ervan of van de bepalingen van haar statuten of reglementen niet is verholpen of stopgezet, en aantoont dat dit
 te wijten is aan een niet aan haar werkzaamheden aangepaste beleidsstructuur of administratieve organisatie, zal
 hij de nodige maatregelen zoals voorzien in de artikelen XV.31/1, XV.62/1, XV.66/2 en XVII.21 kunnen nemen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 38, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8921,17 +8921,17 @@ bestuursorganen zijn voor ten minste de meerderheid uit dezelfde personen sameng
 exploitatiezetel is op hetzelfde adres gevestigd, er bestaan duurzame en relevante, rechtstreekse of
 onrechtstreekse banden op het vlak van administratieve, financiële of logistieke bijstand, dan wel van bijstand
 inzake human resources of infrastructuur.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 39, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 4. [1 Beheer van de rechten]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 40, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 1. [1 Tariferings-, innings- en verdelingsregels]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 41, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8953,12 +8953,12 @@ na haar laatste bijwerking.
 Elke rechthebbende die het beheer van zijn rechten heeft toevertrouwd aan een beheersvennootschap heeft
 het recht binnen een termijn van drie weken na zijn verzoek een bijgewerkte en gecoördineerde versie te
 verkrijgen van de regels van tarifering, inning en verdeling van die beheersvennootschap.]1
-----------
+
 (1)<W 2017-06-08/13, art. 42, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 2. [1 Investeringen]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 43, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8976,13 +8976,13 @@ uitsluitend in het belang van die rechthebbenden wordt uitgevoerd;
 portefeuille als geheel te waarborgen;
 3° de activa worden deugdelijk gediversifieerd om buitensporige afhankelijkheid van één belegging en de
 accumulatie van risico in de portefeuille als geheel te vermijden.]1
-----------
+
 (1)<W 2017-06-08/13, art. 44, 049; Inwerkingtreding : 01-01-2018>
 (2)<W 2024-02-09/19, art. 41, 129; Inwerkingtreding : 31-03-2024>
 
 
 *Onderafdeling 3. [1 Verdeling]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 45, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -8994,7 +8994,7 @@ behalve wanneer het haar is toegelaten om haar beheerkosten in te houden of te c
 overeenstemming met een besluit genomen overeenkomstig artikel XI.284/4, § 3, 4° of deze rechteninkomsten
 of inkomsten uit de belegging van rechteninkomsten te gebruiken in overeenstemming met een besluit genomen
 overeenkomstig artikel XI.248/4, § 3.]1
-----------
+
 (1)<W 2017-06-08/13, art. 46, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9037,7 +9037,7 @@ inning van de rechteninkomsten heeft plaatsgevonden nog niet kunnen worden verde
 beheersvennootschap alle nodige maatregelen heeft getroffen om de rechthebbenden te identificeren en te
 lokaliseren als bedoeld in paragraaf 3, worden deze bedragen niet-verdeelbaar geacht. Deze bedragen worden
 overeenkomstig artikel XI.254 beheerd.]1
-----------
+
 (1)<W 2017-06-08/13, art. 47, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9048,7 +9048,7 @@ volgende voorwaarden vervuld is:
 1° zij worden verleend op grond van niet-discriminatoire regels. Deze regels maken een wezenlijk bestanddeel
 van de verdelingsregels van de beheersvennootschap uit;
 2° het verlenen van voorschotten brengt het resultaat van de definitieve verdeling niet in het gedrang.]1
-----------
+
 (1)<W 2017-06-08/13, art. 48, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9070,7 +9070,7 @@ De Commissaris maakt jaarlijks een bijzonder verslag op over:
 1° de kwalificatie van sommen door de beheersvennootschap als niet-verdeelbare sommen;
 2° het gebruik dat de beheersvennootschap van deze sommen maakt; en
 3° de aanrekening van de beheerkosten op deze sommen.]1
-----------
+
 (1)<W 2017-06-08/13, art. 49, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9079,12 +9079,12 @@ De Commissaris maakt jaarlijks een bijzonder verslag op over:
 [1 Onverminderd specifieke afwijkende bepalingen verjaren de vorderingen tot betaling van de
 rechten geïnd door de beheersvennootschappen na tien jaar te rekenen van de dag van hun inning. Deze termijn
 wordt geschorst vanaf de inning tot de datum van hun inverdelingstelling.]1
-----------
+
 (1)<W 2017-06-08/13, art. 50, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 4. [1 Beheerkosten]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 51, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9100,12 +9100,12 @@ percentage aanpassen en een onderscheid maken op basis van objectieve en niet-di
 De voorschriften voor het gebruik en de transparantie van het gebruik van de ingehouden of verrekende
 bedragen met betrekking tot beheerkosten zijn van toepassing op alle andere inhoudingen om de kosten te
 dekken van het beheren van auteursrecht en naburige rechten.]1
-----------
+
 (1)<W 2017-06-08/13, art. 52, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 5. [1 Kredieten en leningen]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 53, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9114,12 +9114,12 @@ dekken van het beheren van auteursrecht en naburige rechten.]1
 [1 De beheersvennootschappen mogen noch op rechtstreekse noch op onrechtstreekse wijze
 kredieten of leningen toestaan. Ze mogen zich evenmin op rechtstreekse of onrechtstreekse wijze borg stellen
 voor de verbintenissen aangegaan door derden.]1
-----------
+
 (1)<W 2017-06-08/13, art. 54, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 6. [1 Sociale, culturele en educatieve doeleinden]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 55, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9143,12 +9143,12 @@ De toekenning en het gebruik van rechten door de beheersvennootschap ten behoeve
 educatieve doeleinden maakt elk jaar het voorwerp uit van een verslag van de raad van bestuur, waarin de
 toekenning en het gebruik van die rechten aangegeven worden. Dit verslag wordt voorgelegd aan de algemene
 vergadering en wordt ter informatie overgemaakt aan de Controledienst.]1
-----------
+
 (1)<W 2017-06-08/13, art. 56, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 7. [1 Vertegenwoordigingsovereenkomsten]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 57, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9158,7 +9158,7 @@ vergadering en wordt ter informatie overgemaakt aan de Controledienst.]1
 beheren krachtens een vertegenwoordigingsovereenkomst, met name ten aanzien van toepasselijke tarieven,
 beheerskosten en de voorwaarden voor inning van de rechteninkomsten en verdeling van aan rechthebbenden
 verschuldigde bedragen.]1
-----------
+
 (1)<W 2017-06-08/13, art. 58, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9184,17 +9184,17 @@ ontvangst van deze bedragen, tenzij objectieve redenen die in het bijzonder verb
 verslaglegging door gebruikers, de identificatie van rechten, rechthebbenden of de afstemming van gegevens
 over werken en andere materie met rechthebbenden, de beheersvennootschap of, in voorkomend geval, haar
 vennoten ervan weerhouden deze termijn na te leven.]1
-----------
+
 (1)<W 2017-06-08/13, art. 59, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 5. [1 Interacties met gebruikers]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 60, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 1. [1 Inning van de rechten]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 61, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9219,7 +9219,7 @@ bedoeld in het eerste lid, kan de Koning dit bepalen. Hij kan de informatie en d
 verstrekking ervan onder meer onderscheiden volgens de aard van het gebruik zoals de al dan niet professionele
 aard ervan.
 § 3. Dit artikel is niet van toepassing op de consumenten.]1
-----------
+
 (1)<W 2017-06-08/13, art. 62, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9244,7 +9244,7 @@ plan is een licentie te verlenen voor een bepaalde dienst.
 § 3. Een beheersvennootschap stelt gebruikers in de gelegenheid op elektronische wijze met haar te
 communiceren, onder meer, voor zover van toepassing, ten behoeve van de verslaglegging over het
 licentiegebruik.]1
-----------
+
 (1)<W 2017-06-08/13, art. 63, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9261,12 +9261,12 @@ alleen door de processen-verbaal van de officieren of de agenten van de gerechte
 maar ook door de vaststellingen van een gerechtsdeurwaarder of, tot het tegendeel bewezen is, van een door
 beheersvennootschappen aangewezen persoon die erkend is door de minister en beëdigd is overeenkomstig
 artikel 572 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<W 2017-06-08/13, art. 64, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 2. [1 Verhoging van rechten]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 65, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9281,12 +9281,12 @@ schadevergoedend karakter.
 toepasselijke rechten bepalen die door de beheersvennootschappen worden toegepast wanneer de gebruiker de
 beschermde werken of prestaties niet binnen de vereiste termijnen aangeeft, of wanneer hij niet de informatie
 verschaft die vereist is voor de inning of verdeling van de rechten.]1
-----------
+
 (1)<W 2017-06-08/13, art. 66, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 3. [1 Administratieve vereenvoudiging]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 67, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9310,17 +9310,17 @@ naburige rechten op de openbare uitvoering van fonogrammen en films beheren, in 
 inning van voornoemde rechten, op voorwaarde dat de fonogrammen en films niet voor een voorstelling worden
 gebruikt en aan het publiek geen toegangsgeld of vergoeding wordt gevraagd om de uitvoering ervan te kunnen
 bijwonen.]1
-----------
+
 (1)<W 2017-06-08/13, art. 68, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 6. [1 Informatie en communicatie]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 69, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 1. [1 Algemene informatie]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 70, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9345,7 +9345,7 @@ vertegenwoordigingsovereenkomsten zijn gesloten;
 9° haar algemene beleid inzake de verdeling van op grond van artikel XI.254, niet-verdeelbare bedragen;
 10° de overeenkomstig de artikelen XI.273/1 en XI.273/12, beschikbare procedures voor klachtenafhandeling
 en geschillenbeslechting.]1
-----------
+
 (1)<W 2017-06-08/13, art. 71, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9360,12 +9360,12 @@ vertegenwoordigingsovereenkomst beheert en het grondgebied dat zij bestrijkt, of
 2° wanneer wegens de reikwijdte van de activiteiten van de beheersvennootschap dergelijke soorten van
 werken of prestaties niet kunnen worden vastgesteld, de soorten werken of prestaties die zij vertegenwoordigt,
 de rechten die zij beheert en de grondgebieden die zij bestrijkt.]1
-----------
+
 (1)<W 2017-06-08/13, art. 72, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 2. [1 Informatie van de rechthebbenden]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 73, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9385,7 +9385,7 @@ en voordelen van welke aard ook, die werden uitgekeerd aan de bestuurders;
 6° de geactualiseerde tarieven van de vennootschap;
 7° de bestemming van de sommen die, overeenkomstig de artikelen XI.178, § 3, en XI.254, verdeeld moesten
 worden.]1
-----------
+
 (1)<W 2017-06-08/13, art. 74, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9416,12 +9416,12 @@ beheersvennootschap de in de paragraaf 1 opgesomde informatie aan die entiteiten
 in hun bezit hebben. De entiteiten maken ten minste eenmaal per jaar op zijn minst de in paragraaf 1 opgesomde
 informatie bekend aan elke rechthebbende aan wie zij inkomsten uit rechten hebben toegewezen of betalingen
 hebben gedaan in de periode waarop de informatie betrekking heeft.]1
-----------
+
 (1)<W 2017-06-08/13, art. 75, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 3. [1 Informatie in het kader van vertegenwoordigingsovereenkomsten]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 76, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9442,12 +9442,12 @@ bedoeld in artikel XI.260;
 bestreken door de vertegenwoordigingsovereenkomst;
 5° door de algemene vergadering van vennoten genomen besluiten voor zover deze besluiten relevant zijn
 voor het beheer van de rechten op grond van de vertegenwoordigingsovereenkomst.]1
-----------
+
 (1)<W 2017-06-08/13, art. 77, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 4. [1 Informatie van de gebruikers]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 78, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9463,12 +9463,12 @@ bepalingen moeten bevatten;
 wettelijke bepalingen moeten bevatten.
 De Koning kan een onderscheid maken betreffende de minimuminformatie bepaald in het eerste lid, 1° en 2° in
 functie van de betrokken rechten.]1
-----------
+
 (1)<W 2017-06-08/13, art. 79, 049; Inwerkingtreding : 01-01-2018>
 
 
 *Onderafdeling 5. [1 Mededeling aan de Controledienst]1*
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 80, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9481,7 +9481,7 @@ orgaan.
 De Controledienst kan eisen dat de opmerkingen die hij over die voorstellen maakt, ter kennis van het
 bevoegde orgaan van de vennootschap worden gebracht. Deze opmerkingen en de desbetreffende antwoorden
 moeten worden opgenomen in het proces-verbaal van het bevoegde orgaan.]1
-----------
+
 (1)<W 2017-06-08/13, art. 81, 049; Inwerkingtreding : 01-01-2018>
 (2)<W 2024-02-09/19, art. 42, 129; Inwerkingtreding : 21-03-2024>
 
@@ -9490,12 +9490,12 @@ moeten worden opgenomen in het proces-verbaal van het bevoegde orgaan.]1
 
 [1 De beheersvennootschappen bezorgen aan de Controledienst bij wijzigingen een gecoördineerde
 en bijgewerkte versie van hun tariferings-, innings- en verdelingsregels.]1
-----------
+
 (1)<W 2017-06-08/13, art. 82, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 7. [1 Klachtenbeheer]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 83, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9518,14 +9518,14 @@ antwoorden te bieden. Omwille van gemotiveerde uitzonderlijke redenen kan de ter
 de klacht worden verlengd met ten hoogste een maand.
 Het antwoord wordt [2 ...]2 op een [2 duurzame gegevensdrager]2 gegeven. Wanneer het antwoord van de
 beheersvennootschap luidt dat de eis volledig of gedeeltelijk ongegrond is, motiveert ze dit antwoord.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 84, 049; Inwerkingtreding : 01-01-2018>
 (2)<W 2018-09-20/14, art. 7, 067; Inwerkingtreding : 20-10-2018>
 
 
 **Afdeling 8. [1 Multiterritoriale licenties van onlinerechten inzake muziekwerken met het oog op onlinegebruik**
 ervan]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 85, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9533,7 +9533,7 @@ ervan]1
 
 [1 De beheersvennootschappen houden zich aan de voorschriften van deze afdeling, wanneer ze
 multiterritoriale licenties voor onlinerechten inzake muziekwerken verlenen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 86, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9557,7 +9557,7 @@ internationaal niveau of op het niveau van de Europese Unie;
 4° gebruik maken van gepaste middelen om tijdig en doeltreffend tegenstrijdigheden te constateren en weg te
 nemen in de gegevens van andere beheersvennootschappen of collectieve beheerorganisaties die
 multiterritoriale licenties voor rechten van onlinegebruik van muziekwerken verlenen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 87, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9573,7 +9573,7 @@ vertegenwoordigde onlinemuziekrepertoire mogelijk maakt. Deze informatie omvat:
 3° de bestreken grondgebieden.
 § 2. De beheersvennootschap kan zo nodig redelijke maatregelen treffen om de juistheid en integriteit van de
 gegevens te beschermen, hun hergebruik te controleren en commercieel gevoelige informatie te beschermen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 88, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9601,7 +9601,7 @@ grond van de artikelen XI.273/8 en XI.273/9 machtigt om multiterritoriale licent
 muziekwerken te verlenen, past de lastnemende beheersvennootschap of collectieve beheerorganisatie
 paragraaf 2 ook toe met betrekking tot de rechthebbenden wier muziekwerken opgenomen zijn in het repertoire
 van de lastgevende beheersvennootschappen, tenzij de partijen anders overeenkomen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 89, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9634,7 +9634,7 @@ is om redenen die zijn toe te schrijven aan de aanbieder van onlinediensten.
 stelt om de juistheid van de factuur te betwisten, ook wanneer de aanbieder van onlinediensten van één of meer
 beheersvennootschappen of collectieve beheerorganisaties facturen ontvangt voor dezelfde onlinerechten
 inzake hetzelfde muziekwerk.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 90, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9660,7 +9660,7 @@ de in paragraaf 1 bedoelde bedragen nauwkeurig en zonder vertraging, en verstrek
 informatie aan de lastgevende beheersvennootschap. Deze is vervolgens verantwoordelijk voor de verdeling van
 die bedragen en de verstrekking van die informatie aan de rechthebbenden, tenzij de partijen anderszins
 overeenkomen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 91, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9678,7 +9678,7 @@ of collectieve beheerorganisatie geleverde diensten.
 beheersvennootschap over de belangrijkste voorwaarden waarop de onlinerechten van deze laatste in licentie
 worden gegeven, met inbegrip van de aard van de exploitatie, alle bepalingen die betrekking hebben of van
 invloed zijn op de licentiekosten, de duur van de licentie, de boekperioden en de bestreken grondgebieden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 92, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9709,7 +9709,7 @@ ontoereikend is of wordt verstrekt in een vorm die de aangezochte beheersvennoot
 de vereisten van deze afdeling te voldoen, heeft deze laatste het recht om de kosten in rekening te brengen die
 redelijkerwijs zijn gemaakt om aan de vereisten te voldoen of om de werken waarvoor de informatie ontoereikend
 of onbruikbaar is, uit te sluiten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 93, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9725,7 +9725,7 @@ vennootschap terugtrekken zonder de onlinerechten inzake muziekwerken ten behoev
 licentieverlening te hoeven terugtrekken, teneinde zelf of via enige andere partij die zij machtigt of via een andere
 beheersvennootschap die wel voldoet aan de voorwaarden van deze titel, multiterritoriale licenties voor hun
 onlinerechten inzake muziekwerken te verlenen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 94, 049; Inwerkingtreding : 27-06-2017>
 
 
@@ -9738,7 +9738,7 @@ muziekwerken die vereist zijn voor een [2 omroeporganisatie]2 die zijn radio- of
 met of na de oorspronkelijke uitzending, alsook voor ondersteunend onlinemateriaal, met inbegrip van
 vooruitblikken, dat door of voor de [2 omroeporganisatie]2 is gemaakt bij de oorspronkelijke uitzending van het
 radio- of televisieprogramma, wil meedelen of openbaar wil maken.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 95, 049; Inwerkingtreding : 27-06-2017>
 (2)<W 2022-04-01/04, art. 18, 105; Inwerkingtreding : 01-05-2022>
 
@@ -9762,13 +9762,13 @@ worden ter kennis gebracht bij ter post aangetekende zending met ontvangstbewijs
 Indien binnen een termijn van drie maanden te rekenen vanaf de kennisgeving geen van de betrokken partijen
 zich door middel van een kennisgeving aan de andere partijen in dezelfde vorm tegen de voorstellen van de [2
 bemiddelaar of de bemiddelaars]2, heeft verzet, worden zij geacht die voorstellen te hebben aanvaard.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 96, 049; Inwerkingtreding : 27-06-2017>
 (2)<W 2022-04-01/04, art. 19, 105; Inwerkingtreding : 01-05-2022>
 
 
 **Afdeling 9. [1 Revisoraal toezicht]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 97, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9787,7 +9787,7 @@ financiële toestand, op de jaarrekening en op de regelmatigheid, ten aanzien va
 uitvoeringsbesluiten ervan, de statuten en de verdelingsregels, en van de in de jaarrekening weergegeven
 verrichtingen, wordt opgedragen aan een of meer revisoren gekozen onder de leden van het Instituut der
 bedrijfsrevisoren, ongeacht de grootte van de collectieve beheerorganisatie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 98, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9799,7 +9799,7 @@ tuchtsanctie.
 De commissaris of revisor die het voorwerp heeft uitgemaakt van een tuchtsanctie, brengt de Controledienst
 alsmede de betrokken beheersvennootschap van die tuchtsanctie op de hoogte binnen vijf werkdagen na de
 betekening van die tuchtmaatregel door het Instituut van de Bedrijfsrevisoren.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 99, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9811,7 +9811,7 @@ ontslag.
 Binnen vijf werkdagen die volgen op de herroeping door de beheersvennootschap van het mandaat van
 commissaris of revisor, uitgevoerd overeenkomstig de bepalingen van het Wetboek van Vennootschappen,
 brengt de beheersvennootschap die herroeping ter kennis van de Controledienst.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 100, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9851,12 +9851,12 @@ uitvoeringsbesluiten ervan vaststellen.
 § 3. De commissaris kan eisen van het bestuursorgaan van de vennootschap waarop hij controle uitoefent, dat
 het hem, ter zetel van de vennootschap, in het bezit stelt van inlichtingen betreffende natuurlijke of
 rechtspersonen waarmee de beheersvennootschap nauwe banden heeft, in de zin van artikel XI.248/12.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 101, 049; Inwerkingtreding : 01-01-2018>
 
 
 **Afdeling 10. [1 Vergunning en verklaring]1**
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 102, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9892,7 +9892,7 @@ om het dossier dat werd opgemaakt, in te kijken, om te worden gehoord door de mi
 aangewezen persoon en om zijn middelen te doen gelden. Deze termijn van twee maanden schort de termijn van
 drie maanden bedoeld in het vierde lid op. De beslissing wordt binnen vijftien dagen bij aangetekende zending ter
 kennis gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 103, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -9905,12 +9905,12 @@ verklaring indienen alvorens met hun activiteiten te starten.
 worden gevoegd.
 § 3. De verklaringen worden gepubliceerd op de website van de FOD Economie, K.M.O, Middenstand en
 Energie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 104, 049; Inwerkingtreding : 01-01-2018>
 
 
 ##### HOOFDSTUK 10. - [1 Transparantie van het auteursrecht en de naburige rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -9949,7 +9949,7 @@ Energie.]1
 
 
 **Afdeling 2. - [1 De Controledienst van de beheersvennootschappen]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -9991,7 +9991,7 @@ bepalingen bedoeld in de paragrafen 1 en 3 vormen.
 § 5. Onverminderd de bevoegdheden van de officieren van gerechtelijke politie, zijn de ambtenaren van de
 Controledienst, hiertoe aangewezen door de minister, eveneens bevoegd voor het opsporen en vaststellen van
 de inbreuken bedoeld in artikel XV.112.]1
-----------
+
 (1)<W 2017-06-08/13, art. 105, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -10012,7 +10012,7 @@ toepasselijk van een verzoek aan die instantie om onder haar bevoegdheid vallend
 nemen.
 § 3. De aangelegenheden als bedoeld in § 2, kunnen eveneens door de Controledienst worden verwezen naar
 de overeenkomstig artikel 41 van de richtlijn 2014/26/EU opgerichte groep van deskundigen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-08/13, art. 106, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -10030,7 +10030,7 @@ rechthebbenden gevestigd of verblijvend in België.
 Onverminderd andere wettelijke bepalingen die een langere termijn voorschrijven, bedraagt de termijn
 gedurende welke de in het eerste en het tweede lid bedoelde documenten moeten worden bewaard, tien jaar te
 rekenen vanaf de inverdelingstelling van de bedragen waarop zij betrekking hebben.]1
-----------
+
 (1)<W 2017-06-08/13, art. 107, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -10042,7 +10042,7 @@ beheerentiteiten gevestigd in een andere lidstaat van de Europese Unie en alle a
 zijn bij de inning van de krachtens de hoofdstukken 5 tot 9 verschuldigde vergoedingen, moeten het
 beroepsgeheim bewaren over alle inlichtingen waarvan ze kennis hebben door of naar aanleiding van de
 uitvoering van hun opdracht.]1
-----------
+
 (1)<W 2017-06-08/13, art. 108, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -10083,7 +10083,7 @@ werking van het comité.
 De minister duidt in het overlegcomité de leden aan die de auteurs, uitvoerende kunstenaars, producenten,
 omroeporganisaties en gebruikers van audiovisuele werken vertegenwoordigen en die gerechtigd zijn om de
 collectieve overeenkomsten bedoeld in paragraaf 3 te onderhandelen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10095,12 +10095,12 @@ van de wet van 30 juni 1994 betreffende het auteursrecht en de naburige rechten 
 controle op de vennootschappen voor het beheer van de rechten betreft.
 Het verslag van deze evaluatie wordt door de minister overgezonden aan de Kamer van
 volksvertegenwoordigers.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 Economische analyse van het auteursrecht en de naburige rechten]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10121,7 +10121,7 @@ de betrokken milieus werden uitgevoerd;
 economische belang van het auteursrecht en de naburige rechten.
 Voor de uitvoering van de opdrachten, nader bepaald in 1°, 2°, 3°, 4° en 5°, kan de FOD Economie alleen
 handelen, of de taken toevertrouwen aan een derde die garantie op onafhankelijkheid en objectiviteit biedt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10143,12 +10143,12 @@ behandelen. Die gegevens en informatie mogen enkel op anonieme en geaggregeerde 
 gepubliceerd.
 De informatie die op grond van dit artikel werd verkregen kan niet worden gebruikt voor een ander doel of
 reden dan de economische analyse van het autuersrecht en de naburige rechten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 4. - [1 Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10182,7 +10182,7 @@ wettelijke opdracht zoals omschreven in het eerste lid.
 Voor zover dit voor de ontvanger van de informatie die meegedeeld werd door de Controledienst geen afbreuk
 doet aan de vervulling van zijn opdracht, wordt een kopie hiervan meegedeeld aan de betrokken rechtspersoon
 of natuurlijke persoon.]1
-----------
+
 (1)<W 2016-06-29/01, art. 30, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -10244,7 +10244,7 @@ een positief saldo kan worden afgesloten.
 § 7. Onverminderd de andere sancties bepaald door dit Wetboek, kan de minister van Financiën op verzoek
 van de minister, de Federale Overheidsdienst Financiën belasten met de invordering van de onbetaald gebleven
 bijdragen.]1
-----------
+
 (1)<W 2017-06-08/13, art. 109, 049; Inwerkingtreding : 01-01-2018>
 
 
@@ -10262,13 +10262,13 @@ verslag uitbrengen van de specifieke rol en de financiële toestand van de behee
 de recente ontwikkelingen binnen deze sector.
 Het verslag wordt meegedeeld aan de minister. Eveneens wordt het verslag op de website van de FOD
 Economie gepubliceerd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-06-29/01, art. 32, 036; Inwerkingtreding : 16-07-2016>
 
 
 ##### HOOFDSTUK 11. - [1 Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10285,7 +10285,7 @@ Niettegenstaande het eerste lid is de reciprociteit van toepassing op de rechten
 uitvoerende kunstenaars en producenten van fonogrammen, alsook van eerste vastleggingen van films [2
 bedoeld in de artikelen XI.229, XI.240, XI.243, XI.318/1 en XI.318/7]2, zulks onverminderd het Verdrag over de
 Europese Unie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 73, 113; Inwerkingtreding : 01-08-2022>
 
@@ -10305,13 +10305,13 @@ De Belgische uitvoerende kunstenaars en producenten van fonogrammen mogen, tot e
 de toepassing eisen van de bepalingen van het Verdrag van de Wereldorganisatie voor de intellectuele eigendom
 inzake uitvoeringen en fonogrammen (WPPT), gedaan te Genève op 20 december 1996, in al de gevallen waar
 deze bepalingen gunstiger zijn dan de Belgische wet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 12. - [1 Rechtsbescherming van technische voorzieningen en informatie betreffende het beheer
 van rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10352,7 +10352,7 @@ overeengekomen bepalingen op zodanige wijze dat leden van het publiek daartoe to
 hen individueel gekozen plaats en tijd.
 § 4. De technische voorzieningen bedoeld in paragraaf 1 en artikel I.13 mogen de rechtmatige verkrijgers van
 werken en prestaties niet beletten deze werken en prestaties overeenkomstig hun beoogde doel te gebruiken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-11-25/04, art. 13, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2022-06-19/03, art. 74, 113; Inwerkingtreding : 01-08-2022>
@@ -10374,12 +10374,12 @@ rechthebbende kunnen worden geïdentificeerd. Deze term wijst ook op informatie 
 voor het gebruik van het werk of prestatie, alsook op de cijfers en codes waarin die informatie vervat ligt.
 Het eerste lid is van toepassing, wanneer bestanddelen van deze informatie zijn verbonden met een kopie van
 een werk of prestatie of kenbaar worden bij de mededeling aan het publiek ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 13. - [1 Namaak]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10400,12 +10400,12 @@ vervangen door "vergoeding".
 Wanneer de feiten voorgelegd aan de rechtbank, het voorwerp zijn van een vordering tot staking in toepassing
 van artikel XVII.14, § 3, kan er niet over de strafvordering beslist worden dan nadat een in kracht van gewijsde
 gegane beslissing is genomen over de vordering tot staking.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 #### Titel 6. - [1 Computerprogramma's]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10416,7 +10416,7 @@ gegane beslissing is genomen over de vordering tot staking.]1
 rechtsbescherming van computerprogramma's;
 2° Richtlijn (EU) 2019/790 van het Europees Parlement en de Raad van 17 april 2019 inzake auteursrechten en
 naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtlijnen 96/9/EG en 2001/29/EG.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 75, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -10424,7 +10424,7 @@ naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtlijn
 
 [1 [2 Computerprogramma's, het voorbereidend materiaal daaronder begrepen, worden]2
 auteursrechtelijk beschermd en gelijkgesteld met werken van letterkunde in de zin van de Berner Conventie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 76, 113; Inwerkingtreding : 01-08-2022>
 
@@ -10438,14 +10438,14 @@ De bescherming overeenkomstig deze titel wordt verleend aan de uitdrukkingswijze
 computerprogramma. De ideeën en beginselen die aan enig element van een computerprogramma ten grondslag
 liggen, met inbegrip van de ideeën en beginselen die aan de interfaces daarvan ten grondslag liggen, worden niet
 auteursrechtelijk beschermd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ## Art. XI.295/1
 
 [1 De artikelen XI.167/1 tot XI.167/6 zijn niet van toepassing op de computerprogramma's.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 77, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -10454,14 +10454,14 @@ auteursrechtelijk beschermd.]1
 [1 Tenzij bij overeenkomst of statutair anders is bepaald, wordt alleen de werkgever geacht
 verkrijger te zijn van de vermogensrechten met betrekking tot computerprogramma's die zijn gemaakt door een
 of meer werknemers of beambten bij de uitoefening van hun taken of in opdracht van hun werkgever.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ## Art. XI.297
 
 [1 Het morele recht wordt geregeld overeenkomstig artikel 6bis, 1, van de Berner Conventie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10479,7 +10479,7 @@ computerprogramma of kopieën daarvan onder het publiek. De eerste verkoop in de
 kopie van een programma door de rechthebbende of met diens toestemming leidt tot uitputting van het recht
 om controle uit te oefenen op de distributie van die kopie in de Europese Unie, met uitzondering van het recht
 om controle uit te oefenen op het verder verhuren en het uitlenen van het programma of een kopie daarvan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10538,7 +10538,7 @@ toegankelijke bibliotheken, door voor het publiek toegankelijke musea, door arch
 cinematografisch of audio(visueel) erfgoed met betrekking tot werken die permanent deel uitmaken van hun
 collecties en wanneer de handelingen plaatsvinden met het oog op het behoud van dergelijke werken en voor
 zover de handeling noodzakelijk is voor dergelijk behoud.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-11-25/04, art. 14, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2022-06-19/03, art. 78, 113; Inwerkingtreding : 01-08-2022>
@@ -10582,7 +10582,7 @@ instelling is gevestigd.
 § 5. De voor het publiek toegankelijke bibliotheken of de voor het publiek toegankelijke musea, de archieven of
 de instellingen voor cinematografisch of audio(visueel) erfgoed zijn de verantwoordelijken voor de verwerking
 van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 79, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -10609,14 +10609,14 @@ in wezen gelijk computerprogramma, of voor andere handelingen waarmee inbreuk op
 gepleegd.
 § 3. Dit artikel mag niet zodanig worden toegepast dat ongerechtvaardigd nadeel voor de rechtmatige belangen
 van de rechthebbende ontstaat of het normale gebruik van het computerprogramma belemmerd wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ## Art. XI.301
 
 [1 De bepalingen van de artikelen XI.299, §§ 2 tot 7, XI.299/1 en XI.300 zijn van dwingend recht.]1
-----------
+
 (1)<W 2022-06-19/03, art. 80, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -10624,7 +10624,7 @@ van de rechthebbende ontstaat of het normale gebruik van het computerprogramma b
 
 [1 De termijn van bescherming van computerprogramma's door het auteursrecht wordt bepaald
 overeenkomstig artikel XI.166.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10632,7 +10632,7 @@ overeenkomstig artikel XI.166.]1
 
 [1 De inbreuken op het auteursrecht inzake een computerprogramma worden gesanctioneerd
 overeenkomstig de wet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10643,17 +10643,17 @@ doeleinden bezit, terwijl hij weet of redelijkerwijs kan vermoeden dat het een o
 middelen in het verkeer brengt of voor commerciële doeleinden bezit die uitsluitend bestemd zijn om de
 ongeoorloofde verwijdering of ontwijking van de technische voorzieningen ter bescherming van het
 computerprogramma te vergemakkelijken, is schuldig aan het misdrijf van namaak.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 #### Titel 7. - [1 Databanken]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Begrippen en toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10664,7 +10664,7 @@ computerprogramma te vergemakkelijken, is schuldig aan het misdrijf van namaak.]
 rechtsbescherming van databanken;
 2° Richtlijn (EU) 2019/790 van het Europees Parlement en de Raad van 17 april 2019 inzake auteursrechten en
 naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtlijnen 96/9/EG en 2001/29/EG.]1
-----------
+
 (1)<W 2022-06-19/03, art. 81, 113; Inwerkingtreding : 01-08-2022>
 
 
@@ -10678,12 +10678,12 @@ databanken of van de inhoud ervan door het auteursrecht dan wel door andere rech
 rechten op de werken, de gegevens of andere elementen opgenomen in de databank onverlet.
 Het recht van de producenten van databanken geldt niet voor computerprogramma's als zodanig, daaronder
 begrepen die gebruikt bij de fabricage of de werking van databanken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 2. - [1 Rechten van de producenten van databanken]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10698,7 +10698,7 @@ ongerechtvaardigde schade toebrengen aan de rechtmatige belangen van de producen
 De eerste verkoop in de Europese Unie van een kopie van een databank door de rechthebbende of met diens
 toestemming leidt tot uitputting van het recht om controle uit te oefenen op de doorverkoop van die kopie in de
 Europese Unie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10707,7 +10707,7 @@ Europese Unie.]1
 [1 Het recht van de producenten van databanken is een roerend recht dat overgaat bij erfopvolging
 en vatbaar is voor gehele of gedeeltelijke overdracht, overeenkomstig de bepalingen van het Burgerlijk Wetboek.
 Het kan onder meer worden [2 overgedragen]2 of in een gewone of exclusieve licentie worden ondergebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 82, 113; Inwerkingtreding : 01-08-2022>
 
@@ -10726,12 +10726,12 @@ investering ontstane databank een eigen beschermingstermijn in.
 De producent van de databank moet bewijzen op welke datum de fabricage is voltooid, alsook dat de inhoud
 van de databank op zodanige wijze substantieel is gewijzigd dat overeenkomstig het derde lid aan de aldus
 ontstane databank een eigen beschermingstermijn kan worden toegekend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 3. - [1 Uitzonderingen op het recht van de producenten van databanken]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10800,7 +10800,7 @@ cinematografisch of audio(visueel) erfgoed met betrekking tot de inhoud van data
 prestaties, die permanent deel uitmaken van hun collecties wanneer de handelingen plaatsvinden met het oog op
 het behoud van dergelijke inhoud van een databank en voor zover de handeling noodzakelijk is voor dergelijk
 behoud.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-11-25/04, art. 16, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2022-06-19/03, art. 83, 113; Inwerkingtreding : 01-08-2022>
@@ -10844,12 +10844,12 @@ instelling is gevestigd.
 § 5. De voor het publiek toegankelijke bibliotheken of de voor het publiek toegankelijke musea, de archieven of
 de instellingen voor cinematografisch of audio(visueel) erfgoed zijn de verantwoordelijken voor de verwerking
 van persoonsgegevens, elk voor de hen betreffende gegevensverwerkingen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-06-19/03, art. 84, 113; Inwerkingtreding : 01-08-2022>
 
 
 ##### HOOFDSTUK 4. - [1 Rechten en verplichtingen van de rechtmatige gebruikers]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10860,7 +10860,7 @@ gesteld, kan de rechtmatige gebruiker van die databank niet beletten in kwalitat
 substantiële delen van de inhoud ervan voor welk doel ook op te vragen en/of te hergebruiken.
 Voor zover de rechtmatige gebruiker slechts toestemming heeft om een deel van de databank op te vragen
 en/of te hergebruiken, geldt het recht bedoeld in het eerste lid van dit artikel ook alleen voor dat deel.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10870,7 +10870,7 @@ en/of te hergebruiken, geldt het recht bedoeld in het eerste lid van dit artikel
 wordt gesteld, mag geen handelingen verrichten die in strijd zijn met een normale exploitatie van die databank of
 waardoor ongerechtvaardigde schade wordt toegebracht aan de rechtmatige belangen van de producent van de
 databank.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10879,7 +10879,7 @@ databank.]1
 [1 De rechtmatige gebruiker van een databank die op enigerlei wijze ter beschikking van het publiek
 wordt gesteld, mag de houder van een auteursrecht of van een naburig recht op in die databank vervatte
 werken of prestaties geen nadeel berokkenen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10887,12 +10887,12 @@ werken of prestaties geen nadeel berokkenen.]1
 
 [1 De bepalingen van de artikelen XI.310 tot XI.313 zijn van dwingend recht.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2022-06-19/03, art. 85, 113; Inwerkingtreding : 01-08-2022>
 
 ##### HOOFDSTUK 5. - [1 Beschermingsgerechtigden]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10910,13 +10910,13 @@ Databanken uit derde landen die niet onder het eerste of tweede lid van dit arti
 overeenkomsten betrekking hebben die op voorstel van de Commissie van de Europese Unie door de Raad zijn
 gesloten, worden beschermd op grond van het recht van de producenten van databanken. De duur van de aan
 deze databanken verleende bescherming kan niet langer zijn dan die vastgesteld in artikel XI.309.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 6. - [1 Rechtsbescherming van technische voorzieningen en van informatie betreffende het
 beheer van rechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10951,7 +10951,7 @@ overeengekomen bepalingen op zodanige wijze dat leden van het publiek daartoe to
 hen individueel gekozen plaats en tijd.
 § 5. De technische voorzieningen bedoeld in paragraaf 1 mogen de rechtmatige verkrijgers van databanken niet
 beletten deze databanken overeenkomstig hun beoogde doel te gebruiken.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10971,12 +10971,12 @@ de databank kunnen worden geïdentificeerd. Deze term wijst ook op informatie be
 voor het gebruik van de databank, alsook op de cijfers en codes waarin die informatie vervat ligt.
 Het eerste lid is van toepassing, wanneer bestanddelen van deze informatie zijn verbonden met een kopie van
 een databank of kenbaar worden bij de mededeling aan het publiek ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 7. - [1 Namaak]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -10993,12 +10993,12 @@ hetzelfde misdrijf.
 Wanneer de aan de rechtbank voorgelegde feiten het voorwerp uitmaken van een vordering tot staking met
 toepassing van artikel XVII.14, XVII.15, XVII.18, XVII.19 en XVII.20 kan er niet over de strafvordering beslist
 worden dan nadat een in kracht van gewijsde gegane beslissing is genomen over de vordering tot staking.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 TITEL 7/1. [1 - De vergoeding van de uitgevers voor reproducties op papier van hun uitgaven op papier en de
 vergoeding van de uitgevers voor reproducties voor eigen gebruik van hun uitgaven]1
-----------
+
 (1)<W 2019-05-02/23, art. 2, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11014,7 +11014,7 @@ professionele activiteiten, met uitzondering van de reproducties die worden gema
 onderwijs of voor wetenschappelijk onderzoek.
 De duur van het recht op vergoeding bedoeld in het eerste lid bedraagt vijftig jaar vanaf de eerste uitgave op
 papier. Deze termijn wordt berekend vanaf 1 januari van het jaar dat volgt op de eerste uitgave op papier.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 36, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -11025,7 +11025,7 @@ bepaald wordt in functie van het aantal reproducties van de uitgaven op papier.
 Deze is verschuldigd door de natuurlijke personen of de rechtspersonen die reproducties overeenkomstig
 artikel XI. 318/1 vervaardigen of, in voorkomend geval, met décharge van eerstgenoemden, door hen die onder
 bezwarende titel of gratis een reproductieapparaat ter beschikking stellen van anderen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 37, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -11045,7 +11045,7 @@ Indien de omstandigheden die het bepalen van het bedrag hebben gerechtvaardigd, 
 gewijzigd zijn, kan dit bedrag voor het verstrijken van de termijn van drie jaar worden herzien.
 Indien de Koning het bedrag binnen de termijn van drie jaar herziet, motiveert Hij zijn beslissing door de
 wijziging van de initiële omstandigheden.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 38, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2017-06-08/13, art. 110, 049; Inwerkingtreding : 01-01-2018>
 
@@ -11060,7 +11060,7 @@ douane en accijnzen van 18 juli 1977;
 2° de Administratie van de btw met toepassing van artikel 93bis van het btw-wetboek van 3 juli 1969; en
 3° de Rijksdienst voor Sociale Zekerheid in toepassing van de wet van 15 januari 1990 houdende oprichting en
 organisatie van een Kruispuntbank van de Sociale Zekerheid.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 39, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2017-06-08/13, art. 111, 049; Inwerkingtreding : 01-01-2018>
 
@@ -11074,7 +11074,7 @@ aan en krijgen van :
 1° de dienst Controle en Bemiddeling en van de FOD Economie;
 2° de [2 beheersvennootschappen en collectieve beheerorganisaties]2 die een gelijkaardige activiteit uitoefenen
 in het buitenland, mits wederkerigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 40, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 (2)<W 2017-06-08/13, art. 112, 049; Inwerkingtreding : 01-01-2018>
 
@@ -11085,7 +11085,7 @@ in het buitenland, mits wederkerigheid.]1
 van overeenkomstige toepassing op de huidige titel, in die zin dat de woorden "naburig recht" of "naburige
 rechten" moeten gelezen worden als omvattende "het recht van de uitgevers op vergoeding voor de reproductie
 op papier of op een soortgelijke drager van hun uitgaven op papier".]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-22/03, art. 41, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
 
@@ -11105,7 +11105,7 @@ kennelijk gebruikt worden voor het reproduceren voor eigen gebruik van uitgaven.
 Overeenkomstig de door Hem gestelde voorwaarden en nadere regels, belast de Koning een
 beheersvennootschap die representatief is voor alle beheersvennootschappen of collectieve beheerorganisaties
 die in België de in het eerste lid bedoelde vergoeding beheren, met de inning en de verdeling van de vergoeding.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 3, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11136,7 +11136,7 @@ Indien de Koning het bedrag binnen de termijn van drie jaar herziet, motiveert H
 wijziging van de initiële omstandigheden.
 Het gebrek aan gebruik van technische voorzieningen kan geen afbreuk doen aan het recht op vergoeding
 zoals gedefinieerd in artikel XI.318/7.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 4, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11144,7 +11144,7 @@ zoals gedefinieerd in artikel XI.318/7.]1
 
 [1 Artikel XI.233 is van overeenkomstige toepassing op de vergoeding van de uitgevers voor
 reproducties voor eigen gebruik van hun uitgaven.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 5, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11157,7 +11157,7 @@ douane en accijnzen van 18 juli 1977;
 2° de Administratie van de BTW met toepassing van artikel 93bis van het BTW-wetboek van 3 juli 1969; en
 3° de Rijksdienst voor Sociale Zekerheid in toepassing van de wet van 15 januari 1990 houdende oprichting en
 organisatie van een Kruispuntbank van de Sociale Zekerheid.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 6, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11171,7 +11171,7 @@ en krijgen van:
 1° de dienst Controle en Bemiddeling van de FOD Economie;
 2° de beheersvennootschappen en collectieve beheerorganisaties die een gelijkaardige activiteit uitoefenen in
 het buitenland, mits wederkerigheid.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 7, 079; Inwerkingtreding : 01-09-2019>
 
 
@@ -11182,22 +11182,22 @@ van overeenkomstige toepassing op de vergoeding van de uitgevers voor reproducti
 hun uitgaven, in die zin dat de woorden "naburig recht" of "naburige rechten" moeten gelezen worden als
 omvattende "het recht van de uitgevers op vergoeding voor de reproductie voor eigen gebruik van hun
 uitgaven".]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/23, art. 8, 079; Inwerkingtreding : 01-09-2019>
 
 
 #### Titel 8. - [1 Topografieën van halfgeleiderproducten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Het exclusief recht op een topografie van een halfgeleiderproduct]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 1. - [1 Het voorwerp en de houder van het exclusief recht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11210,7 +11210,7 @@ verstaan worden in de zin bedoeld door de richtlijn 87/54 van 16 december 1986 v
 Gemeenschappen betreffende de rechtsbescherming van topografieën van halfgeleiderproducten of in de zin
 van elke wijziging besloten door de Raad van de Europese Unie met toepassing van artikel 1, § 2, van die
 richtlijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11221,7 +11221,7 @@ de voorwaarden dat zij het voortbrengsel is van de eigen intellectuele inspannin
 halfgeleiderindustrie niet algemeen bekend is. Indien de topografie van een halfgeleiderproduct bestaat uit in de
 halfgeleiderindustrie algemeen bekende bestanddelen, wordt zij slechts beschermd voor zover de combinatie van
 dergelijke bestanddelen, als één geheel bezien, aan de twee bovengenoemde voorwaarden voldoet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11230,7 +11230,7 @@ dergelijke bestanddelen, als één geheel bezien, aan de twee bovengenoemde voor
 [1 321. De door deze titel georganiseerde bescherming betreft alleen de topografie zelf en strekt
 zich niet uit tot enige in de topografie belichaamde concepten, processen, systemen, technieken of gecodeerde
 informatie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11240,7 +11240,7 @@ informatie.]1
 zijn functie is gemaakt, wordt, behoudens andersluidend beding, de werkgever als de maker beschouwd.
 § 2. Indien een topografie van een halfgeleiderproduct op bestelling is gemaakt, wordt, behoudens
 andersluidend beding, degene die de bestelling heeft gedaan, als de maker beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11248,12 +11248,12 @@ andersluidend beding, degene die de bestelling heeft gedaan, als de maker bescho
 
 [1 Het recht op bescherming, georganiseerd door deze titel, gaat over op de rechtsopvolgers van
 de persoon die krachtens deze titel van dat recht houder is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 2. - [1 Voorwaarden op het stuk van nationaliteit, verblijf of vestiging]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11265,7 +11265,7 @@ lidstaat hebben.
 Het recht op bescherming toegekend krachtens artikel XI.322 komt toe aan de natuurlijke personen als bedoeld
 in het eerste lid en aan de vennootschappen of andere rechtspersonen met een daadwerkelijke industriële of
 commerciële vestiging op het grondgebied van een lidstaat van de Europese Unie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11276,7 +11276,7 @@ personen als bedoeld in de artikelen XI.319 en XI.322 die onderdaan zijn van dan
 daadwerkelijke industriële of commerciële vestiging hebben in andere dan de in artikel XI.324, tweede lid,
 bedoelde landen, indien zulks in een internationale overeenkomst is vastgesteld of door de Raad van de
 Europese Unie is besloten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11288,12 +11288,12 @@ a) in een lidstaat van de Europese Unie voor het eerst een topografie commerciee
 elders in de wereld commercieel is geëxploiteerd, en
 b) van degene die daarover kan beschikken, bij uitsluiting toestemming hebben verkregen de topografie
 commercieel in de hele Europese Unie te exploiteren.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 **Afdeling 3. - [1 De duur en het verstrijken van het exclusief recht]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11305,12 +11305,12 @@ op enigerlei wijze wordt vastgelegd.
 eerst ergens ter wereld commercieel geëxploiteerd is.
 § 3. Indien een topografie in een periode van vijftien jaar na de eerste vastlegging nergens ter wereld
 commercieel is geëxploiteerd, vervalt het krachtens paragraaf 1 ontstaan exclusief recht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 2. - [1 De beperkingen van het exclusief recht op een topografie van een halfgeleiderproduct]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11324,7 +11324,7 @@ van de concepten, processen, systemen of technieken die in de topografie belicha
 b) de topografie die het resultaat is van overeenkomstig het bepaalde in punt a) verrichte analyses en evaluaties
 van een andere topografie, althans in zover de nieuwe topografie het voortbrengsel is van de intellectuele
 inspanning van de maker en in de halfgeleiderindustrie niet algemeen bekend is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11337,7 +11337,7 @@ exclusief recht, kan hem niet worden verboden dat product commercieel te exploit
 gelijkwaardig is aan het bedrag dat hem normaal zou toekomen uit hoofde van de commerciële exploitatie van de
 topografie voor de handelingen begaan nadat deze persoon weet of redelijkerwijs kan vermoeden dat de
 topografie van het halfgeleiderproduct door een exclusief recht beschermd is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11346,7 +11346,7 @@ topografie van het halfgeleiderproduct door een exclusief recht beschermd is.]1
 [1 Het in artikel XI.319 bedoelde exclusief recht geldt niet voor de commerciële exploitatie van een
 topografie of halfgeleiderproduct nadat deze door de houder van het exclusief recht of met zijn uitdrukkelijke
 toestemming in een lidstaat van de Europese Unie in het verkeer is gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11354,7 +11354,7 @@ toestemming in een lidstaat van de Europese Unie in het verkeer is gebracht.]1
 
 [1 De vordering wegens inbreuk op het exclusief recht verjaart na vijf jaar te rekenen vanaf de dag
 waarop de inbreuk werd gepleegd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11364,11 +11364,11 @@ waarop de inbreuk werd gepleegd.]1
 intellectuele eigendom.
 § 2. De bepalingen van deze titel doen geen afbreuk aan de toepassing van het auteursrecht op de werken die
 in het halfgeleiderproduct zouden zijn vastgelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 Titel 8/1. [1 - Bedrijfsgeheimen]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 4, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11378,7 +11378,7 @@ Titel 8/1. [1 - Bedrijfsgeheimen]1
 Parlement en de Raad van 8 juni 2016 betreffende de bescherming van niet-openbaar gemaakte knowhow en
 bedrijfsinformatie (bedrijfsgeheimen) tegen het onrechtmatig verkrijgen, gebruiken en openbaar maken
 daarvan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 5, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11408,7 +11408,7 @@ I.17/1, 1°, vormt;
 normale uitoefening van hun functie hebben opgedaan;
 3° andere aanvullende beperkingen op te leggen aan werknemers in hun arbeidsovereenkomsten dan die welke
 zijn opgelegd in overeenstemming met het recht van de Europese Unie of het nationale recht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 6, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11427,7 +11427,7 @@ handelspraktijken.
 § 2. Het verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim wordt als rechtmatig beschouwd
 voor zover dit verkrijgen, gebruiken of openbaar maken door het recht van de Europese Unie of het nationale
 recht vereist of toegestaan is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 7, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11458,7 +11458,7 @@ of opslag van inbreukmakende goederen voor die doeleinden, wordt ook als een onr
 bedrijfsgeheim beschouwd wanneer de persoon die dergelijke activiteiten uitvoert, wist of, gezien de
 omstandigheden, had moeten weten dat het bedrijfsgeheim onrechtmatig werd gebruikt in de zin van paragraaf
 2.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 8, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11479,12 +11479,12 @@ Europese Unie of het nationale recht, op voorwaarde dat deze openbaarmaking nood
 uitoefening;
 4° met het oog op de bescherming van een rechtmatig belang dat erkend is in het recht van de Europese Unie
 of het nationale recht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 9, 064; Inwerkingtreding : 24-08-2018>
 
 
 Titel 8/2. [1 - Gemeenschappelijke bepalingen voor de titels 1 tot 3]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 28, 119; Inwerkingtreding : 01-12-2022>
 
 
@@ -11499,17 +11499,17 @@ In de beslissing tot verlenging bedoeld in het eerste lid, bepaalt de Koning ond
 2° de datum tot dewelke de termijnen worden verlengd, die na de periode bedoeld in het eerste lid kan liggen;
 3° de termijnen die worden verlengd;
 4° de personen in de procedure voor wie de termijnen worden verlengd.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/06, art. 29, 119; Inwerkingtreding : 01-12-2022>
 
 
 #### Titel 9. - [1 Burgerrechtelijke aspecten van de bescherming van intellectuele eigendomsrechten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 1. - [1 Algemeenheden]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11517,12 +11517,12 @@ In de beslissing tot verlenging bedoeld in het eerste lid, bepaalt de Koning ond
 
 [1 Deze titel voorziet in de omzetting van richtlijn 2004/48/EG van 29 april 2004 betreffende de
 handhaving van intellectuele eigendomsrechten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 2. - [1 Staking van de inbreuk en andere maatregelen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11556,12 +11556,12 @@ commerciële schaal diensten die bij inbreukmakende handelingen worden gebruikt,
 door hem bepaalde termijn, zowel buiten als binnen de inrichtingen van de inbreukmaker en dat zijn vonnis of de
 samenvatting ervan in kranten of op enige andere wijze wordt bekendgemaakt, dit alles op kosten van de
 inbreukmaker.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 3. - [1 Vergoeding van de schade geleden door de namaak]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11587,13 +11587,13 @@ Indien de goederen, materialen en werktuigen niet meer in het bezit van de verwe
 vergoeding toekennen waarvan het bedrag gelijk is aan de voor de verkochte goederen, materialen en
 werktuigen ontvangen prijs. De aldus uitgesproken verbeurdverklaring slorpt de schadevergoeding op ten belope
 van de waarde van het verbeurdverklaarde.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
 ##### HOOFDSTUK 4. - [1 Vordering betreffende de toepassing van technische voorzieningen in het kader van het
 auteursrecht, de naburige rechten en het recht van de producenten van databanken ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11639,7 +11639,7 @@ zowel binnen als buiten de inrichtingen van de overtreder en op diens kosten, ev
 beschikking of van de samenvatting ervan, op kosten van de overtreder, in dagbladen of op een andere wijze.
 De beschikking is uitvoerbaar bij voorraad, niettegenstaande elk rechtsmiddel en zonder borgtocht.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-10/77, art. 2, 023; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-06-29/01, art. 33, 036; Inwerkingtreding : 16-07-2016>
 (3)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
@@ -11649,12 +11649,12 @@ De beschikking is uitvoerbaar bij voorraad, niettegenstaande elk rechtsmiddel en
 (7)<W 2022-06-19/03, art. 86, 113; Inwerkingtreding : 01-08-2022>
 
 Titel 9/1. [1 - Burgerrechtelijke aspecten van de bescherming van bedrijfsgeheimen]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 10, 064; Inwerkingtreding : 24-08-2018>
 
 
 ##### HOOFDSTUK 1. [1 - Algemeenheden]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 11, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11664,12 +11664,12 @@ Titel 9/1. [1 - Burgerrechtelijke aspecten van de bescherming van bedrijfsgeheim
 Parlement en de Raad van 8 juni 2016 betreffende de bescherming van niet-openbaar gemaakte knowhow en
 bedrijfsinformatie (bedrijfsgeheimen) tegen het onrechtmatig verkrijgen, gebruiken en openbaar maken
 daarvan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 12, 064; Inwerkingtreding : 24-08-2018>
 
 
 ##### HOOFDSTUK 2. [1 - Staking van de onrechtmatige praktijk en andere maatregelen]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 13, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11679,7 +11679,7 @@ daarvan.]1
 maatregelen, procedures en rechtsmiddelen vastgesteld door de wet ter voorkoming van, of om
 schadeloosstelling te verkrijgen voor, het onrechtmatig verkrijgen, gebruiken of openbaar maken van zijn
 bedrijfsgeheim.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 14, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11709,7 +11709,7 @@ tenzij bijzondere redenen dit beletten.
 § 4. De maatregelen bedoeld in dit artikel doen geen afbreuk aan enige schadevergoeding die aan de houder
 van het bedrijfsgeheim verschuldigd kan zijn vanwege het onrechtmatig verkrijgen, gebruiken of openbaar
 maken van het bedrijfsgeheim.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 15, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11748,12 +11748,12 @@ genoemde maatregelen, mag deze niet meer bedragen dan het bedrag van de royalty'
 verschuldigd waren geweest indien die persoon toestemming had gevraagd om het desbetreffende
 bedrijfsgeheim te gebruiken, voor de periode waarin het gebruik van het bedrijfsgeheim verboden had kunnen
 worden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 16, 064; Inwerkingtreding : 24-08-2018>
 
 ##### HOOFDSTUK 3. [1 - Vergoeding van de schade geleden door het onrechtmatig verkrijgen, gebruiken of
 openbaar maken van een bedrijfsgeheim]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 17, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11769,19 +11769,19 @@ gevallen, van de materialen en werktuigen die voornamelijk bij de schepping of v
 zijn gebruikt, en die nog in het bezit van de verweerder zijn. Indien de waarde van die goederen, materialen en
 werktuigen de omvang van de werkelijke schade overschrijdt, bepaalt de rechter de door de houder van het
 bedrijfsgeheim te betalen opleg.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 18, 064; Inwerkingtreding : 24-08-2018>
 
 
 #### Titel 10. - [1 Aspecten van gerechtelijk recht van de bescherming van intellectuele eigendomsrechten [2 en
 bedrijfsgeheimen]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-07-30/18, art. 19, 064; Inwerkingtreding : 24-08-2018>
 
 
 ##### HOOFDSTUK 1. - [1 Bevoegheid inzake uitvindingsoctrooien en aanvullende beschermingscertificaten ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11798,7 +11798,7 @@ van de in artikel XI.35 bedoelde vergoeding alsook die welke de licenties op oct
 gedwongen licenties, voor de scheidsgerechten gebracht worden.
 § 3. De bepalingen van paragrafen 1 tot en met 2 zijn mutatis mutandis van toepassing op aanvullende
 beschermingscertificaten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-10/77, art. 3, 023; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-12-19/07, art. 7, 054; Inwerkingtreding : 01-02-2018>
 (3)<W 2018-04-15/14, art. 195, 059; Inwerkingtreding : 01-11-2018>
@@ -11815,7 +11815,7 @@ Als de procureur-generaal bevestigt dat tegen de beslissing geen verzet, hoger b
 cassatie meer mogelijk is, schrijft de Dienst binnen een maand na ontvangst van deze bevestiging, het
 beschikkend gedeelte van deze beslissing over in het octrooidossier en wordt melding gemaakt van de
 beschikking in het register. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11827,7 +11827,7 @@ gemachtigd een verzoek tot oprichting van een lokale afdeling in België te rich
 administratief comité overeenkomstig artikel 7(3) van de Overeenkomst van 19 februari 2013 betreffende het
 eengemaakt octrooigerecht, waarmee werd ingestemd bij de wet van 27 mei 2014.
 Deze lokale afdeling heeft haar zetel te Brussel.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 43, 129; Inwerkingtreding : 31-03-2024>
 
 
@@ -11835,7 +11835,7 @@ Deze lokale afdeling heeft haar zetel te Brussel.]1
 
 [1 In toepassing van artikel 49 van de voornoemde Overeenkomst, zijn de proceduretalen van de
 lokale afdeling, het Nederlands, het Frans, het Duits en het Engels.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 44, 129; Inwerkingtreding : 31-03-2024>
 
 
@@ -11845,12 +11845,12 @@ lokale afdeling, het Nederlands, het Frans, het Duits en het Engels.]1
 deeltijds of voltijds ter beschikking gesteld worden van het Eengemaakt Octrooigerecht.
 De Koning bepaalt bij een besluit vastgesteld na overleg in de Ministerraad de nadere regels van die
 terbeschikkingstelling.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 45, 129; Inwerkingtreding : 31-03-2024>
 
 
 ##### HOOFDSTUK 2. [1 - Bevoegdheid inzake kwekersrechten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-10/77, art. 4, 023; Inwerkingtreding : 01-01-2015>
 
 
@@ -11861,7 +11861,7 @@ toepassing van titel 3, ongeacht het bedrag van de vordering.
 Is het geschil ontstaan in de loop van het administratieve onderzoek van de aanvraag voor de verlening van
 het kwekersrecht, dan kan de Dienst op vordering van een partij in het rechtsgeding, de verlening van het recht
 opschorten tot de rechtbank uitspraak heeft gedaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-10/77, art. 4, 023; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-04-15/14, art. 196, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11883,7 +11883,7 @@ opschorten tot de rechtbank uitspraak heeft gedaan.]1
 
 
 ##### HOOFDSTUK 4. - [1 Bevoegdheid inzake topografieën van halfgeleiderproducten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11903,12 +11903,12 @@ artikel, en die dagtekent van vóór of van na het ontstaan van het geschil.
 De bepaling van het eerste lid staat nochtans niet in de weg dat de geschillen bedoeld in dit artikel voor een
 scheidsgerecht worden gebracht. In afwijking van het bepaalde in artikel 630, tweede lid, van het Gerechtelijk
 Wetboek, bepalen de partijen vrij de plaats waar het geding voor scheidslieden wordt gevoerd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-04-15/14, art. 197, 059; Inwerkingtreding : 01-11-2018>
 
 HOOFDSTUK 4/1. [1 - Bevoegdheid en procedurele bepalingen inzake bedrijfsgeheimen]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 20, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11929,7 +11929,7 @@ verblijfplaats heeft.
 § 3. Is van rechtswege nietig elke met de bepalingen van de paragrafen 1 en 2 strijdige overeenkomst.
 De bepalingen van dit artikel staan nochtans niet in de weg dat de geschillen betreffende het onrechtmatig
 verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim, voor de scheidsgerechten gebracht worden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 21, 064; Inwerkingtreding : 24-08-2018>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11944,7 +11944,7 @@ een bedrijfsgeheim vormt; en
 2° de identiteit van de inbreukmaker.
 De in het eerste lid vermelde vorderingen verjaren in ieder geval door verloop van twintig jaar vanaf de dag
 volgend op die waarop het onrechtmatig verkrijgen, gebruiken of openbaar maken zich heeft voorgedaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 22, 064; Inwerkingtreding : 24-08-2018>
 
 
@@ -11967,12 +11967,12 @@ De rechter houdt tevens rekening met de vraag of de informatie over de inbreukma
 identificeren van een natuurlijk persoon en, indien dit het geval is, of de bekendmaking van deze informatie
 gerechtvaardigd is, met name in het licht van de mogelijke schade die een dergelijke maatregel kan veroorzaken
 voor de persoonlijke levenssfeer en reputatie van de inbreukmaker.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 23, 064; Inwerkingtreding : 24-08-2018>
 
 
 ##### HOOFDSTUK 5. - [1 Gemeenschappelijke bepaling]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -11980,23 +11980,23 @@ voor de persoonlijke levenssfeer en reputatie van de inbreukmaker.]1
 
 [1 [2 ...]2
 Dezelfde verplichting geldt voor de scheidsgerechten. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-06-29/01, art. 35, 036; Inwerkingtreding : 16-07-2016>
 
 
 ### Boek XII. - [1 Recht van de elektronische economie]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 #### Titel 1. - [1 Bepaalde juridische aspecten van de diensten van de informatiemaatschappij]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 ##### Hoofdstuk 1. - [1 Voorafgaande bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12030,18 +12030,18 @@ a) de activiteiten van notarissen, voor zover die een direct specifiek verband m
 taken inhouden;
 b) de vertegenwoordiging van een cliënt en de verdediging van zijn belangen voor het gerecht;
 c) gokactiviteiten waarbij een geldbedrag wordt ingezet, met inbegrip van de loterijen en weddenschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 (2)<W 2020-09-29/05, art. 4, 092; Inwerkingtreding : 30-11-2020>
 
 
 ##### Hoofdstuk 2. - [1 Grondbeginselen]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 **Afdeling 1. - [1 Het beginsel van vrijheid van vestiging]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12053,12 +12053,12 @@ vereiste met gelijke werking.
 Het eerste lid laat vergunningsstelsels onverlet die niet specifiek en uitsluitend betrekking hebben op de
 diensten van de informatiemaatschappij, of die vallen onder de stelsels van vergunningen bepaald in Titel III van
 de wet van 21 maart 1991 betreffende de hervorming van sommige economische overheidsbedrijven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 **Afdeling 2. - [1 Het beginsel van vrij verrichten van diensten]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12073,12 +12073,12 @@ Het eerste en het tweede lid zijn gericht op de specifieke of algemene vereisten
 informatiemaatschappij en de verleners van deze diensten. Zij hebben geen betrekking op de vereisten inzake
 
 goederen als zodanig, de fysieke levering ervan of diensten die niet langs elektronische weg worden verleend.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 **Afdeling 3. - [1 Afwijkingen van het beginsel van het vrij verrichten van diensten]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12104,7 +12104,7 @@ producten, rechten sui generis inzake gegevensbanken, industriële eigendomsrech
 overgedragen, indien op die contracten ingevolge het recht van de lidstaat waar de onroerende zaak is gelegen,
 verplichte vormvereisten van toepassing zijn;
 5° op de toelating van ongevraagde reclame via elektronische post.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 (2)<W 2016-03-13/07, art. 754, 033; Inwerkingtreding : 23-03-2016; zie ook art. 756>
 
@@ -12146,12 +12146,12 @@ brengen niet meer ter beschikking te stellen van de dienstverlener die gevestigd
 binnen de perken en voor de duur die hij bepaalt en die één maand niet kan overschrijden.
 De onderzoeksrechter kan de uitwerking van zijn beschikking één of meerdere keren verlengen; hij moet er een
 einde aan stellen zodra de omstandigheden die ze rechtvaardigen, verdwenen zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-26/27, art. 2, 011; Inwerkingtreding : 31-05-2014>
 
 
 ##### Hoofdstuk 3. - [1 Informatie en doorzichtigheid]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12179,7 +12179,7 @@ codes langs elektronische weg kunnen worden geraadpleegd.
 § 2. Onverminderd de overige wettelijke en reglementaire voorschriften op het gebied van prijsaanduiding
 moeten de diensten van de informatiemaatschappij die naar prijzen verwijzen, deze duidelijk en ondubbelzinnig
 aangeven en meer in het bijzonder vermelden of belasting en leveringskosten inbegrepen zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12196,7 +12196,7 @@ order wordt geplaatst;
 zal zijn.
 § 2. De contractuele bepalingen en de algemene voorwaarden van het contract moeten de afnemer op een
 zodanige wijze ter beschikking worden gesteld dat hij deze kan opslaan en weergeven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12204,7 +12204,7 @@ zodanige wijze ter beschikking worden gesteld dat hij deze kan opslaan en weerge
 
 [1 Voordat de afnemer zijn order plaatst, stelt de dienstverlener de afnemer passende technische
 middelen ter beschikking, waarmee hij invoerfouten kan opsporen en corrigeren.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12217,7 +12217,7 @@ afnemer;
 2° het ontvangstbewijs vermeldt onder meer een samenvatting van de order;
 3° de order en het ontvangstbewijs worden geacht te zijn ontvangen wanneer deze toegankelijk zijn voor de
 partijen tot wie zij zijn gericht.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12227,7 +12227,7 @@ partijen tot wie zij zijn gericht.]1
 bepalingen van artikel XII.6, § 1, 8°, en van de artikelen XII.7, § 1, XII.8 en XII.9.
 De bepalingen van artikel XII.6, § 1, 8°, van artikel XII.7, § 1, van artikel XII.8 en van artikel XII.9, 1° en 2°, zijn
 niet van toepassing op contracten die uitsluitend via uitwisseling van elektronische post gesloten zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12235,13 +12235,13 @@ niet van toepassing op contracten die uitsluitend via uitwisseling van elektroni
 
 [1 Ten aanzien van de consumenten heeft de dienstverlener de plicht te bewijzen dat aan de eisen
 voorzien in de artikelen XII.6 tot XII.9 is voldaan.]1
-----------
+
 
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 ##### Hoofdstuk 4. - [1 Reclame]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12259,7 +12259,7 @@ aanbiedingen, zijn duidelijk als zodanig herkenbaar en de voorwaarden om van dez
 kunnen maken, zijn gemakkelijk te vervullen en worden duidelijk en ondubbelzinnig aangeduid;
 4° verkoopbevorderende wedstrijden of spelen zijn duidelijk als zodanig herkenbaar en de
 deelnemingsvoorwaarden zijn gemakkelijk te vervullen en worden duidelijk en ondubbelzinnig aangeduid.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12284,7 +12284,7 @@ elektronische post of de weg waarlangs hij overgebracht werd te herkennen;
 3° de bestemmeling van de boodschappen aan te moedigen om websites te bezoeken die artikel XII.12
 overtreden.
 § 4. De dienstverlener moet het bewijs leveren dat reclame via elektronische post werd gevraagd.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12294,12 +12294,12 @@ overtreden.
 van de informatiemaatschappij, of die op zichzelf een dergelijke dienst uitmaakt, is toegestaan, mits de
 beroepsregels, met name ten aanzien van de onafhankelijkheid, de waardigheid, de beroepseer en het
 beroepsgeheim, alsmede de eerlijkheid ten opzichte van cliënten en confraters in acht worden genomen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 ##### Hoofdstuk 5. - [1 Langs elektronische weg gesloten contracten]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12317,7 +12317,7 @@ beantwoordt aan de voorwaarden van [3 ofwel artikel 3.10. van verordening 910/20
 3.12. van verordening 910/2014]2;
 - aan de vereiste van een geschreven vermelding van degene die zich verbindt, kan worden voldaan door om
 het even welk procédé dat waarborgt dat de vermelding effectief uitgaat van deze laatste.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 (2)<W 2015-10-26/06, art. 46, 028; Inwerkingtreding : 09-11-2015>
 (3)<W 2018-09-20/14, art. 10, 067; Inwerkingtreding : 20-10-2018>
@@ -12336,13 +12336,13 @@ beroepsgroep die een publieke taak uitoefent;
 3° contracten voor persoonlijke en zakelijke zekerheden welke gesteld worden door personen die handelen
 voor doeleinden buiten hun handels- of beroepsactiviteit;
 4° contracten die onder het familierecht of het erfrecht vallen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 (2)<W 2018-09-20/14, art. 9, 067; Inwerkingtreding : 20-10-2018>
 
 
 ##### Hoofdstuk 6. - [1 Aansprakelijkheid van dienstverleners die als tussenpersoon optreden]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12377,7 +12377,7 @@ voor doeleinden buiten hun handels- of beroepsactiviteit;
 
 
 **Afdeling 4. - [1 Toezichtverplichtingen]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12403,13 +12403,13 @@ De bevelen die worden uitgevaardigd door de autoriteiten bedoeld in het eerste l
 voorwaarden die zijn opgesomd in artikel 10, lid 2, van Verordening (EU) 2022/2065 van het Europees Parlement
 en de Raad van 19 oktober 2022 betreffende een eengemaakte markt voor digitale diensten en tot wijziging van
 Richtlijn 2000/31/EG.]1
-----------
+
 (1)<W 2024-04-21/06, art. 4, 132; Inwerkingtreding : 25-05-2024>
 
 
 ##### Hoofdstuk 7. - [1 De juridische bescherming van diensten van de informatiemaatschappij gebaseerd op of
 bestaande uit voorwaardelijke toegang.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12420,12 +12420,12 @@ bestaande uit voorwaardelijke toegang.]1
 voor commerciële doeleinden;
 2° illegale uitrusting te installeren, te onderhouden of te vervangen voor commerciële doeleinden;
 3° gebruik te maken van reclame om illegale uitrustingen voor voorwaardelijke toegang aan te prijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 ##### Hoofdstuk 8. - [1 Het registreren van domeinnamen]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12438,7 +12438,7 @@ is of dusdanig overeenstemt dat hij verwarring kan scheppen met, onder meer, een
 aanduiding of een benaming van oorsprong, een handelsnaam, een origineel werk, een naam van een
 vennootschap of van een vereniging, een geslachtsnaam of de naam van een geografische entiteit, die aan
 iemand anders toebehoort.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -12451,17 +12451,17 @@ vennootschappen en verenigingen, geslachtsnamen, namen van geografische entiteit
 bepaling inzake oneerlijke mededinging, marktpraktijken en voorlichting en bescherming van de consument.
 De geschillen voortvloeiend uit het recht op vrije meningsuiting vallen niet onder de toepassing van dit
 hoofdstuk. ]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 
 #### Titel 2. - [1 Bepaalde regels in verband met het juridisch kader voor vertrouwensdiensten]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 3, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 1. - [1 Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 4, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12483,12 +12483,12 @@ verordening 910/2014, van deze titel en van zijn bijlagen.
 Echter, de artikelen 25, paragraaf 1, 41, paragraaf 1, en 43, paragraaf 1, van verordening 910/2014, zijn van
 toepassing op de componenten gebruikt voor elektronische handtekeningen, elektronische aangetekende
 zendingen en elektronische tijdstempel, als bedoeld in het eerste lid.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 5, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 2. [1 Algemene principes]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 6, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12551,7 +12551,7 @@ rechtstreeks of onrechtstreeks, laten verstaan dat zijn dienst een vaste dagteke
 dat voldoet aan de eisen van artikel 26 van verordening 910/2014.
 § 12. Het elektronische zegel van de certificaathouder kan worden gematerialiseerd in een equivalent dat
 voldoet aan de eisen van artikel 36 van verordening 910/2014.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 7, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 (2)<W 2016-07-21/40, art. 7, 037; Inwerkingtreding : onbepaald (KB 2016-09-14/06, art. 1)>
 (3)<W 2019-04-13/28, art. 38, 090; Inwerkingtreding : 01-11-2020>
@@ -12571,12 +12571,12 @@ elektronische zegel, te kunnen weergeven zodanig dat telkens dat zegel gebruikt 
 desgevallend, de bevoegde administratieve of gerechtelijke overheden die in het kader van het opsporen en
 vaststellen van inbreuken optreden, de identiteit en de vertegenwoordigingsvolmachten van de natuurlijke
 persoon kunnen vaststellen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 8, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 3. - [1 Eisen voor elektronische archiveringsdiensten]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 9, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12584,7 +12584,7 @@ persoon kunnen vaststellen.]1
 
 [1 Een verlener van elektronische archiveringsdiensten voldoet aan de bepalingen van verordening
 910/2014 die van toepassing zijn op de niet-gekwalificeerde verleners van vertrouwensdiensten.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 10, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12615,7 +12615,7 @@ vaststellen voor normen inzake de gekwalificeerde elektronische archiveringsdien
 elektronische archiveringsdienst aan die normen voldoen, wordt aangenomen dat er overeenstemming is met
 alle of een deel van de in deze titel en in zijn bijlage I vastgestelde eisen. Desgevallend specifieert de Koning de
 eisen waarvan wordt aangenomen dat ze voldoen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 11, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12624,12 +12624,12 @@ eisen waarvan wordt aangenomen dat ze voldoen.]1
 [1 Artikel 13 van verordening 910/2014 is van toepassing op de verlener van gekwalificeerde en van
 niet gekwalificeerde elektronische archiveringsdiensten omwille van een tekortkoming aan de verplichtingen
 bepaald in verordening 910/2014, in deze titel en in zijn bijlage I.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 12, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 4. - [1 Eisen betreffende de diensten van gekwalificeerde elektronische aangetekende zending]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 13, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12646,13 +12646,13 @@ elektronische aangetekende zending. Als de gekwalificeerde dienst van elektronis
 deze normen voldoet, wordt aangenomen dat er overeenstemming is met alle of een deel van de in deze titel en
 in zijn bijlage II vastgestelde eisen. Desgevallend specifieert de Koning de eisen waarvan wordt aangenomen dat
 ze voldoen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 14, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 5. - [1 Intrekking, schorsing en verval van de gekwalificeerde certificaten van elektronische
 handtekening en van elektronisch zegel]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 15, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12676,7 +12676,7 @@ informatie te hebben geverifieerd.
 De gekwalificeerde verlener van vertrouwensdiensten brengt de certificaathouder op de hoogte van de
 intrekking en motiveert zijn beslissing, behalve indien deze plaatsvond op verzoek van de certificaathouder of bij
 zijn overlijden of ontbinding.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 16, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12692,7 +12692,7 @@ overeenkomstige gegevens voor het aanmaken van een elektronische handtekening of
 om deze gegevens te ondertekenen of te laten certificeren door een andere vertrouwensdienstverlener.
 Een maand voor het verval van een gekwalificeerd certificaat brengt de gekwalificeerde
 vertrouwensdienstverlener de certificaathouder hiervan op de hoogte.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 17, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12701,19 +12701,19 @@ vertrouwensdienstverlener de certificaathouder hiervan op de hoogte.]1
 [1 Onder voorbehoud van de eisen van de artikelen 28, paragraaf 5 en 38, paragraaf 5, van
 verordening 910/2014, kan een gekwalificeerde vertrouwensdienstverlener die gekwalificeerde certificaten
 aflevert een procedure invoeren voor tijdelijke schorsing van de certificaten die hij aflevert.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 18, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 ##### Hoofdstuk 6. - [1 De vertrouwende partijen van een gekwalificeerde elektronische handtekening of van een
 gekwalificeerd elektronisch zegel]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 19, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)
 
 
 ##### Hoofdstuk 7. [1 Stopzetting van de activiteiten van een gekwalificeerde vertrouwensdienstverlener die een of
 meer gekwalificeerde vertrouwensdiensten verleent]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 22, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12746,7 +12746,7 @@ Wanneer de overname van de activiteiten bestaande uit een gekwalificeerde dienst
 tijdstempel niet mogelijk is, licht de dienstverlener onverwijld de gebruikers van zijn dienst in over de datum van
 stopzetting van de activiteiten alsook van de maatregelen genomen om te voldoen aan de verplichting bedoeld in
 artikel 24, paragraaf 2, punt h) van verordening 910/2014.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 23, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12757,7 +12757,7 @@ wil of in geval van faillissement, brengt het Toezichthoudend orgaan daarvan onm
 de gebruikers van de diensten in over de maatregelen genomen om te voldoen aan de in artikel 24, paragraaf 2,
 punt h) van verordening 910/2014 bepaalde verplichting en gaat desgevallend over tot de intrekking van de
 gekwalificeerde certificaten.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 24, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12781,7 +12781,7 @@ paragraaf 2, punt h) van verordening 910/2014 desgevallend terug aan de gebruike
 over naar de andere aangewezen dienstverlener, binnen een redelijke termijn en in een leesbare en bruikbare
 vorm, overeengekomen met de gebruiker van de dienst of met de nieuwe dienstverlener, met instemming van de
 gebruiker van de dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. 25, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12853,7 +12853,7 @@ schadeverantwoordelijkheid aan te kunnen door bijvoorbeeld een geschikte verzeke
 Een overheidsinstantie of een natuurlijke persoon of rechtspersoon die voor eigen rekening een
 gekwalificeerde elektronische archiveringsdienst uitbaat, houdt zich aan de bepalingen van deze bijlage met
 uitzondering van e), i), j) en k).]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. N1, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
@@ -12879,17 +12879,17 @@ vijf jaar.
 De verzender moet in de dienstvoorwaarden duidelijk worden ingelicht over de aansprakelijkheidsverdeling
 tussen de gekwalificeerde verlener van een dienst van elektronische aangetekende zending en de
 postdienstverlener.]1
-----------
+
 (1)<Ingevoegd bij W 2016-07-21/40, art. N2, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
 
 #### Titel 3. [1 - Bepaalde regels in verband met het juridisch kader voor de data-economie]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 10, 137; Inwerkingtreding : 01-10-2024>
 
 
 ##### Hoofdstuk 1. [1 - Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 11, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -12898,17 +12898,17 @@ postdienstverlener.]1
 [1 Deze titel implementeert Verordening 2022/868 wat betreft het juridisch kader voor de
 aanbieders van databemiddelingsdiensten en organisaties voor data-altruïsme die gevestigd zijn in België of een
 wettelijke vertegenwoordiger in België hebben.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 12, 137; Inwerkingtreding : 01-10-2024>
 
 
 ##### Hoofdstuk 2. [1 - Kennisgeving van de databemiddelingsdiensten]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 13, 137; Inwerkingtreding : 01-10-2024>
 
 
 **Afdeling 1. [1 - Vereisten betreffende de uitoefening van activiteiten als databemiddelingsdienst]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 14, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -12949,7 +12949,7 @@ bevestiging bedoeld in paragraaf 5 heeft ontvangen.
 van de kennisgeving, met inbegrip van de nadere regels betreffende het bewijs waarmee een persoon kan
 aantonen dat hij voldoet aan de kennisgevingsvoorwaarden. Hij kan bepalen dat de aanvraag uitsluitend langs
 elektronische weg wordt ingediend.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 15, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -12962,12 +12962,12 @@ verstrekte informatie schriftelijk of elektronisch meegedeeld aan het inschrijvi
 veertien dagen na de wijziging.
 Overeenkomstig artikel 11, lid 13, van Verordening 2022/868 wordt elke stopzetting van activiteiten schriftelijk
 of elektronisch meegedeeld aan het inschrijvingsorgaan binnen een termijn van vijftien dagen na de stopzetting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 16, 137; Inwerkingtreding : 01-10-2024>
 
 
 **Afdeling 2. [1 - Het uitstel of de schorsing van de activiteit van databemiddeling]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 1, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -12981,17 +12981,17 @@ vanaf de derde dag die volgt op die waarop deze kennisgeving werd verzonden.
 Als de nodige maatregelen niet werden genomen na het verstrijken van die termijn kan het inschrijvingsorgaan
 beslissen dat de aanvang van de verlening van de databemiddelingsdienst wordt uitgesteld of dat de verlening
 van de databemiddelingsdienst wordt geschorst. Deze beslissing wordt betekend bij aangetekende zending.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 18, 137; Inwerkingtreding : 01-10-2024>
 
 
 ##### Hoofdstuk 3. [1 - Registratie van organisaties voor data-altruïsme ]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 19, 137; Inwerkingtreding : 01-10-2024>
 
 
 **Afdeling 1. [1 - Vereisten inzake de registratie van activiteiten in verband met data-altruïsme]1**
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 20, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -13019,7 +13019,7 @@ oefenen.
 voor het aanvragen van de registratie, met inbegrip van de bewijsmodaliteiten waarmee een persoon kan
 aantonen dat hij voldoet aan de registratievoorwaarden. Hij kan bepalen dat de aanvraag uitsluitend langs
 elektronische weg wordt ingediend.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 21, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -13030,12 +13030,12 @@ bedoeld in artikel XII.43 na.
 Overeenkomstig artikel 19, lid 7, van Verordening 2022/868 wordt elke wijziging in de op grond van artikel
 XII.43 verstrekte informatie schriftelijk of elektronisch meegedeeld aan het inschrijvingsorgaan binnen een termijn
 van veertien dagen na de wijziging.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 22, 137; Inwerkingtreding : 01-10-2024>
 
 
 ##### Hoofdstuk 4. [1 - Bescherming van persoonsgegevens]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 22, 137; Inwerkingtreding : 01-10-2024>
 
 
@@ -13074,17 +13074,17 @@ maximale bewaartermijn van tien jaar vanaf de schrapping uit het openbare regist
 databemiddelingsdiensten in de Europese Unie of vanaf de schrapping uit het nationale openbare register van
 erkende organisaties voor data-altruïsme en uit het openbare register van erkende organisaties voor data-
 altruïsme binnen de Europese Unie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/13, art. 24, 137; Inwerkingtreding : 01-10-2024>
 
 
 ### Boek XIII. - [1 Overleg]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 #### TITEL 1. - [1 De Centrale Raad voor het Bedrijfsleven Algemene organisatie]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13097,7 +13097,7 @@ van deze overheidsorganen en onder de vorm van schriftelijke verslagen, van alle
 omtrent de vraagstukken die betrekking hebben op 's lands bedrijfsleven. Deze adviezen en voorstellen worden
 bij consensus aangenomen. Bij gebrek aan consensus herneemt het advies de verschillende standpunten die
 door zijn leden werden geuit.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13121,7 +13121,7 @@ advies uit te brengen bij de Centrale Raad voor het Bedrijfsleven, telkens als h
 De Centrale Raad voor het Bedrijfsleven wordt voorgezeten door een personaliteit niet behorend tot de
 administratie noch tot de organisaties die in zijn midden vertegenwoordigd zijn, en die na overleg met de Centrale
 Raad voor het Bedrijfsleven, bij koninklijk besluit wordt aangewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13130,7 +13130,7 @@ Raad voor het Bedrijfsleven, bij koninklijk besluit wordt aangewezen.]1
 [1 De voorzitter wordt voor zes jaar benoemd. De benoeming is hernieuwbaar.
 Het mandaat van lid van de Centrale Raad voor het Bedrijfsleven geldt voor vier jaar. De benoeming is
 hernieuwbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13153,7 +13153,7 @@ Bedrijfsleven.
 De door de Centrale Raad voor het Bedrijfsleven opgemaakte jaarlijkse begroting wordt, met het voorstel tot
 toelage, ter goedkeuring voorgelegd aan de minister, die de nodige kredieten op de begroting van de FOD
 Economie inschrijft.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13174,17 +13174,17 @@ Zekerheid, alsook van de organismen voor rekening waarvan laatstgenoemde bijdrag
 van België, het Federaal Planbureau en andere federale overheidsinstanties.
 De door die instellingen te verstrekken inlichtingen bestaan slechts in globale en naamloze opgaven met
 uitsluiting van iedere individuele statistische aanwijzing.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 #### TITEL 2. - [1 Bijzondere raadgevende commissies]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 ##### HOOFDSTUK 1. - [1 Oprichting]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13200,12 +13200,12 @@ het Bedrijfsleven, en in de vorm van schriftelijke verslagen van alle adviezen o
 vraagstukken die betrekking hebben op het domein waarvoor ze bevoegd zijn. Deze adviezen en voorstellen
 worden bij consensus aangenomen. Bij gebrek aan consensus herneemt het advies de verschillende
 standpunten die door zijn leden werden geuit.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 ##### HOOFDSTUK 2. - [1 Samenstelling en werking]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13223,7 +13223,7 @@ Een bijzondere raadgevende commissie telt evenveel plaatsvervangende als effecti
 plaatsvervangend lid dat een werkend lid van zijn groep vervangt, is stemgerechtigd.
 Wanneer wordt voorzien in de vervanging van een werkend of plaatsvervangend lid, voleindigt de benoemde
 persoon het mandaat van zijn voorganger.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13234,7 +13234,7 @@ ondervoorzitters en de leden van een bijzondere raadgevende commissie.
 Voor de in Hoofdstuk 4 bedoelde bijzondere raadgevende commissies, ingericht door de Centrale Raad voor
 het Bedrijfsleven, wordt het in het eerste lid bedoelde bedrag van de vergoedingen bepaald door de Centrale
 Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13242,7 +13242,7 @@ Raad voor het Bedrijfsleven.]1
 
 [1 De Koning kan nadere regels vaststellen voor de organisatie en werking van een bijzondere
 raadgevende commissie.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13251,7 +13251,7 @@ raadgevende commissie.]1
 [1 Elke bijzondere raadgevende commissie stelt zelf haar huishoudelijk reglement op dat ter
 goedkeuring wordt voorgelegd aan de Centrale Raad voor het Bedrijfsleven.
 Elke bijzondere raadgevende commissie maakt elk jaar een activiteitenverslag op.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13262,7 +13262,7 @@ personaliteit niet behorend tot de administratie noch tot de organisaties die in
 Voor de in Hoofdstuk 4 bedoelde bijzondere raadgevende commissies, ingericht door de Centrale Raad voor
 het Bedrijfsleven, wordt de voorzitter benoemd door de Centrale Raad voor het Bedrijfsleven, na overleg met de
 betrokken commissie.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13270,7 +13270,7 @@ betrokken commissie.]1
 
 [1 Het mandaat van voorzitter, ondervoorzitter en lid van een bijzondere raadgevende commissie is
 hernieuwbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13279,7 +13279,7 @@ hernieuwbaar.]1
 [1 Bij ontstentenis van bijzondere regels in de oprichtingsakte of -aktes van een bijzondere
 raadgevende commissie wordt het secretariaat waargenomen door het secretariaat van de Centrale Raad voor
 het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13288,7 +13288,7 @@ het Bedrijfsleven.]1
 [1 Een bijzondere raadgevende commissie kan slechts geldig beraadslagen wanneer ten minste de
 helft van de leden aanwezig is. Na een tweede bijeenroeping beraadslaagt een bijzondere raadgevende commissie
 evenwel geldig ongeacht het aantal leden dat aanwezig is.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13297,7 +13297,7 @@ evenwel geldig ongeacht het aantal leden dat aanwezig is.]1
 [1 Een bijzondere raadgevende commissie kan, voor het uitoefenen van haar bevoegdheden,
 derden horen en deskundigen aanstellen, op de wijze en volgens de regels bepaald in haar huishoudelijk
 reglement.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13310,12 +13310,12 @@ van een advies of van een voorstel.
 De inlichtingen van individuele aard mogen evenwel enkel ter kennis van een bijzondere raadgevende commissie
 worden gebracht in de vorm van globale uitkomsten, met uitsluiting van iedere inlichting van bijzondere aard die
 uitgaat van een bepaalde onderneming.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 ##### HOOFDSTUK 3. - [1 Integratie van bestaande raadgevende commissies]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13327,13 +13327,13 @@ economische aangelegenheden, integreren binnen de Centrale Raad voor het Bedrijf
 een bijzondere raadgevende commissie als bedoeld in de artikelen XIII.6 tot XIII.16, na advies van de Centrale
 Raad voor het Bedrijfsleven en van de betrokken raadgevende commissie.
 De Koning kan daartoe de bestaande wettelijke bepalingen opheffen, wijzigen, aanvullen of vervangen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 ##### HOOFDSTUK 4. - [1 Door de Centrale Raad voor het Bedrijfsleven ingerichte bijzondere raadgevende
 commissies]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13348,7 +13348,7 @@ wetenschappelijke of technische waarde en wier aantal niet meer dan vier per com
 aanwijzing geschiedt op de in artikel XIII.2 vastgestelde wijze.
 De bijzondere raadgevende commissies tellen evenveel plaatsvervangende als effectieve leden. Allen worden
 aangewezen op dezelfde wijze en benoemd door de Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13357,17 +13357,17 @@ aangewezen op dezelfde wijze en benoemd door de Centrale Raad voor het Bedrijfsl
 [1 De Centrale Raad voor het Bedrijfsleven bepaalt het aantal, de duur van het mandaat en de wijze
 van voordracht van de effectieve en plaatsvervangende leden, en van de voorzitter en ondervoorzitter van
 iedere bijzondere raadgevende commissie, alsmede de werkwijze ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 ##### HOOFDSTUK 5. - [1 Bijzondere bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 **Afdeling 1. - [1 Behandeling van de adviesaanvraag]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13391,13 +13391,13 @@ verstreken en geen advies is verstrekt, is het advies niet meer vereist.
 aan consensus herneemt het advies de verschillende standpunten.
 § 5. De adviezen van de bijzondere raadgevende commissies en het globaal advies van de Centrale Raad voor
 het Bedrijfsleven zijn met redenen omkleed.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 **Afdeling 2. - [1 Verhouding tussen de Centrale Raad voor het Bedrijfsleven en de bijzondere raadgevende**
 commissies]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13414,12 +13414,12 @@ secretariaat gesteld kunnen worden;
 3° het ordenen van de werkmethodes, onder meer in het geval van toepassing van artikel XIII.20 § 2.
 De secretaris deelt de besluiten van dit overleg mee, respectievelijk aan het dagelijks bestuur van de Centrale
 Raad voor het Bedrijfsleven en aan de bijzondere raadgevende commissies.]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
 **Afdeling 3. - [1 Bepalingen inzake het secretariaat en het personeel]1**
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13439,7 +13439,7 @@ het decreet van 20 juli 1831 voorziene eed af.
 Zij leggen insgelijks de volgende eed af : "Ik zweer geen enkel particulier belang te begunstigen of te schaden,
 geen enkele inlichting van persoonlijke aard waarvan ik wegens mijn functies in kennis werd gesteld ruchtbaar te
 maken, zonder wettelijke machtiging of zonder instemming van de belanghebbende personen".]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 
@@ -13447,5 +13447,5 @@ maken, zonder wettelijke machtiging of zonder instemming van de belanghebbende p
 
 [1 De modaliteiten in verband met de uitoefening van het begrotings- en financieel toezicht van de
 Centrale Raad voor het Bedrijfsleven en van het secretariaat worden bij koninklijk besluit vastgesteld. ]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>

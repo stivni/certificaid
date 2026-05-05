@@ -159,7 +159,7 @@ gebruik teniet gaan en niet zijn bestemd om te worden verkocht, het risico van d
 heeft ingebracht en schuldeiser tot de teruggave ervan is.
 Indien de inbreng in genot vervangbare zaken of zekere zaken betreft die door het gebruik teniet gaan of zijn
 bestemd om te worden verkocht, is het risico van die zaken voor de vennootschap.
-----------
+
 (1)<W 2022-04-28/25, art. 12, 012; Inwerkingtreding : 01-01-2023>
 
 
@@ -195,7 +195,7 @@ statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen;
 5° [1 de centrale effectenbewaarinstellingen bedoeld in artikel 36/1, 25°, van de wet van 22 februari 1998 tot
 vaststelling van het organiek statuut van de Nationale Bank van België, en de ondersteuning verlenende
 instellingen bedoeld in artikel 36/26/1, §§ 4 en 5, van dezelfde wet.]1
-----------
+
 (1)<W 2021-06-27/09, art. 303, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -234,7 +234,7 @@ Een vennoot wordt, behoudens bewijs van het tegendeel, vermoed over een controle
 een vennootschap, wanneer hij op de voorlaatste en laatste algemene vergadering van deze vennootschap
 stemrechten heeft uitgeoefend die de meerderheid vertegenwoordigen van de stemrechten verbonden aan de
 op deze algemene vergaderingen vertegenwoordigde [1 aandelen of andere effecten]1.
-----------
+
 (1)<W 2020-04-28/06, art. 44, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -265,7 +265,7 @@ vergaderingen zijn vertegenwoordigd.
 § 2. Onder "tussenpersoon" wordt verstaan, elke persoon die optreedt krachtens een overeenkomst van
 lastgeving, commissie, portage, naamlening, fiducie of een overeenkomst met een gelijkwaardige uitwerking,
 voor rekening van een andere persoon.
-----------
+
 (1)<W 2020-04-28/06, art. 45, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -301,7 +301,7 @@ gesloten overeenkomsten of uit statutaire bepalingen, of
 meerderheid van de stemrechten verbonden aan hun [1 aandelen of andere effecten]1 worden gehouden door
 dezelfde personen. De bepalingen van artikel 1:16 zijn van toepassing.
 Deze paragraaf is niet van toepassing op de [1 aandelen of andere effecten]1 gehouden door overheden.
-----------
+
 (1)<W 2020-04-28/06, art. 46, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -425,7 +425,7 @@ als bedoeld in artikel 1:19, gelijkgesteld met een moedervennootschap.
 koninklijke besluiten worden genomen na overleg in de Ministerraad en na advies van de Centrale Raad voor het
 Bedrijfsleven. Voor de wijziging van paragraaf 5, eerste en tweede lid, wordt bovendien het advies van de
 Nationale Arbeidsraad gevraagd.
-----------
+
 (1)<W 2024-03-28/60, art. 147, 019; Inwerkingtreding : 08-04-2024>
 (2)<W 2024-12-02/04, art. 3, 024; Inwerkingtreding : 30-12-2024>
 
@@ -440,7 +440,7 @@ het laatst afgesloten boekjaar niet meer dan één der volgende criteria oversch
 900.000]1 euro;
 - balanstotaal: [1 450.000]1 euro.
 § 2. Artikel 1:24, §§ 2 tot 5 en § 8, is van toepassing.
-----------
+
 (1)<W 2024-03-28/60, art. 148, 019; Inwerkingtreding : 08-04-2024>
 (2)<W 2024-12-02/07, art. 4, 024; Inwerkingtreding : 30-12-2024>
 
@@ -477,13 +477,13 @@ twintig procent.
 § 4. De Koning kan de in paragraaf 1 vermelde cijfers en de wijze waarop ze worden berekend, wijzigen. Deze
 koninklijke besluiten worden genomen na overleg in de Ministerraad en na advies van de Centrale Raad voor het
 Bedrijfsleven.
-----------
+
 (1)<W 2020-04-28/06, art. 47, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 149, 019; Inwerkingtreding : 08-04-2024>
 (3)<W 2024-12-02/07, art. 5, 024; Inwerkingtreding : 30-12-2024>
 
 HOOFDSTUK 2/1. [1 Netto-omzet.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 6, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -502,7 +502,7 @@ kredietinstellingen, en haar uitvoeringsbesluiten;
 4° in afwijking van de bepaling onder 1°, voor de ondernemingen gevestigd in een derde land, de inkomsten als
 gedefinieerd bij of in de zin van het kader van financiële verslaglegging op basis waarvan de financiële overzichten
 zijn opgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 7, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -568,7 +568,7 @@ Het in paragraaf 1 bedoelde balanstotaal is de totale boekwaarde van de activa z
 balansschema dat vastgesteld is bij koninklijk besluit genomen ter uitvoering van artikel 3:47. De omzet bedoeld
 in de paragrafen 1, 4 en 5 is het bedrag zoals bepaald door dit koninklijk besluit.
 § 6. De Koning kan de in paragraaf 1 vermelde cijfers en de wijze waarop ze worden berekend, wijzigen.
-----------
+
 (1)<KB 2024-05-25/17, art. 1, 021; Inwerkingtreding : 17-06-2024>
 
 
@@ -580,7 +580,7 @@ balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgen
 - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 900 000]1 euro;
 - balanstotaal: [1 450 000]1 euro.
 § 2. Artikel 1:28, §§ 2 tot en met 6, is van overeenkomstige toepassing.
-----------
+
 (1)<KB 2024-05-25/17, art. 2, 021; Inwerkingtreding : 17-06-2024>
 
 
@@ -595,7 +595,7 @@ dan één van de volgende criteria overschrijden:
 - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 11 250 000]1 euro;
 - balanstotaal: [1 6 000 000]1 euro.
 § 2. Artikel 1:28, §§ 2 tot en met 6, is van overeenkomstige toepassing.
-----------
+
 (1)<KB 2024-05-25/17, art. 3, 021; Inwerkingtreding : 17-06-2024>
 
 
@@ -607,12 +607,12 @@ afgesloten boekjaar niet meer dan één van de volgende criteria overschrijden:
 - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 900 000]1 euro;
 - balanstotaal: [1 450 000]1 euro.
 § 2. Artikel 1:28, §§ 2 tot en met 6, is van overeenkomstige toepassing.
-----------
+
 (1)<KB 2024-05-25/17, art. 4, 021; Inwerkingtreding : 17-06-2024>
 
 TITEL 6/1. [1 Definities betreffende het verslag van bepaalde vennootschappen en bijkantoren inzake informatie
 over de inkomstenbelasting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 3, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -646,12 +646,12 @@ Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli
 toepassing van internationale standaarden voor jaarrekeningen;
 8° lidstaat: een lidstaat van de Europese Unie of in zoverre het akkoord over de Europese Economische Ruimte
 het voorziet, een Staat die dit akkoord heeft ondertekend.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 4, 017; Inwerkingtreding : 05-02-2024>
 
 
 TITEL 6/2. [1 Definities betreffende de duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 8, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -683,7 +683,7 @@ wijziging van Verordening (EU) 2019/2088;
 Ruimte het voorziet, een Staat die dit akkoord heeft ondertekend;
 8° derde land: een jurisdictie die geen lidstaat van de Europese Unie is noch, in zoverre het akkoord over de
 Europese Economische Ruimte het voorziet, een Staat die dit akkoord heeft ondertekend.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 9, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -734,7 +734,7 @@ De informatie over de uiteindelijke begunstigde, bedoeld in het tweede lid, word
 juridische eigenaar, aan de onderworpen entiteiten, bedoeld in artikel 5, § 1, van voornoemde wet, verstrekt
 wanneer deze entiteiten cliëntonderzoeksmaatregelen toepassen overeenkomstig boek II, titel 3, van dezelfde
 wet.
-----------
+
 (1)<W 2020-07-20/12, art. 171, 003; Inwerkingtreding : 15-08-2020>
 
 
@@ -747,7 +747,7 @@ uitvoeren.
 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het
 gebruik van contanten zijn van toepassing op de uiteindelijke begunstigden die de verplichtingen niet naleven
 bedoeld in artikel 1 :35, eerste lid, tweede zin.]1
-----------
+
 (1)<W 2020-07-20/12, art. 172, 003; Inwerkingtreding : 15-08-2020>
 
 
@@ -862,7 +862,7 @@ b),]1 tot 6°, bij authentieke akte vastgesteld [1 , alsook voor een private sti
 2:11, § 2, 3°]1.
 In geval van een IVZW en een stichting van openbaar nut moet elke wijziging van de gegevens vermeld in de
 artikelen 2:10, § 2, 3°, en 2:11, § 2, 3°, door de Koning worden goedgekeurd.
-----------
+
 (1)<W 2020-04-28/06, art. 48, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2019-04-13/28, art. 56, 004; Inwerkingtreding : 01-11-2020>
 (3)<W 2022-01-19/18, art. 38, 010; Inwerkingtreding : 01-07-2022>
@@ -893,7 +893,7 @@ zij worden erkend. Met het oog hierop wordt de oprichtingsakte meegedeeld aan de
 Justitie met het verzoek rechtspersoonlijkheid te verlenen en de statuten goed te keuren. Rechtspersoonlijkheid
 wordt verleend indien het voorwerp van de stichting van openbaar nut voldoet aan de in artikel 11:1 bedoelde
 voorwaarden.
-----------
+
 (1)<W 2020-04-28/06, art. 49, 002; Inwerkingtreding : 06-05-2020>
 
 ##### HOOFDSTUK 3. Openbaarmakingsformaliteiten.
@@ -955,7 +955,7 @@ worden opgeslagen en volgens de nadere regels bepaald in dit wetboek.
 bestuursorgaan, dagelijks bestuurder, commissaris, vereffenaar of voorlopig bewindvoerder kan woonplaats
 kiezen op de plaats waar hij een professionele activiteit voert. In dat geval wordt uitsluitend dit adres meegedeeld
 bij raadpleging van het dossier.
-----------
+
 (1)<W 2021-07-12/01, art. 3, 007; Inwerkingtreding : 01-08-2021>
 (2)<W 2023-12-19/08, art. 19, 015; Inwerkingtreding : 08-01-2024>
 
@@ -1052,7 +1052,7 @@ opgenomen beperkingen aan de overdraagbaarheid.
 [1 § 4. Het gegeven dat alle aandelen in één hand zijn verenigd, evenals de identiteit van de enige aandeelhouder,
 moet voor de besloten vennootschap en de naamloze vennootschap in het vennootschapsdossier worden
 neergelegd.]1
-----------
+
 (1)<W 2020-04-28/06, art. 50, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 4, 007; Inwerkingtreding : 01-08-2021>
 
@@ -1118,7 +1118,7 @@ geval, het e-mailadres en de website van de VZW;
 12° de identiteit van de bestuurders en, in voorkomend geval, van de personen aan wie het dagelijks bestuur
 van de VZW is opgedragen overeenkomstig artikel 9:10, van de personen gemachtigd de VZW overeenkomstig
 artikel 9:7, § 2, te vertegenwoordigen en van de commissaris.
-----------
+
 (1)<W 2020-04-28/06, art. 51, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 5, 007; Inwerkingtreding : 01-08-2021>
 
@@ -1187,7 +1187,7 @@ haar ontbinding, het vermogen moet bestemmen;
 geval, het e-mailadres en de website van de IVZW;
 11° de identiteit van de bestuurders en de personen bevoegd om de IVZW te vertegenwoordigen tegenover
 derden, en, in voorkomend geval, van de commissaris.
-----------
+
 (1)<W 2020-04-28/06, art. 52, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 6,1°, 007; Inwerkingtreding : 25-07-2021>
 (3)<W 2021-07-12/01, art. 6,2°, 007; Inwerkingtreding : 01-08-2021>
@@ -1250,7 +1250,7 @@ aangewend;
 geval, het e-mailadres en de website van de stichting;
 8° de identiteit van de bestuurders, dagelijks bestuurders en de andere personen bevoegd om de stichting te
 vertegenwoordigen, en, in voorkomend geval, van de commissaris.
-----------
+
 (1)<W 2020-04-28/06, art. 53, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 7,1°, 007; Inwerkingtreding : 25-07-2021>
 (3)<W 2021-07-12/01, art. 7,2°, 007; Inwerkingtreding : 01-08-2021>
@@ -1278,7 +1278,7 @@ a) de magistraten en griffiers bij de vervulling van hun taken;
 b) de ambtenaren van de Kruispuntbank van Ondernemingen bij de vervulling van hun taken;
 c) de notarissen in het kader van hun opdrachten;
 d) de rechtspersoon voor de akten en stukken van het eigen dossier.]1
-----------
+
 (1)<W 2023-12-19/08, art. 20, 015; Inwerkingtreding : 08-01-2024>
 
 
@@ -1387,7 +1387,7 @@ daarin door de rechtspersoon aangegane verbintenissen.
 
 
 *Onderafdeling 5. [1 Bijzondere bepalingen in geval van online oprichting.]1*
-----------
+
 (1)<Ingevoegd bij W 2021-07-12/01, art. 8, 007; Inwerkingtreding : 01-08-2021>
 
 
@@ -1404,7 +1404,7 @@ verminderd en wordt de oprichting afgewikkeld binnen vijf werkdagen te rekenen v
 oprichtingsakte en de betaling van de bekendmakingskosten.
 Indien de procedure niet binnen de in dit artikel vastgestelde termijnen kan worden afgerond, wordt de
 aanvrager door de instrumenterende notaris in kennis gesteld van de redenen voor de vertraging.]1
-----------
+
 (1)<Ingevoegd bij W 2021-07-12/01, art. 9, 007; Inwerkingtreding : 01-08-2021>
 
 
@@ -1413,7 +1413,7 @@ aanvrager door de instrumenterende notaris in kennis gesteld van de redenen voor
 [1 In afwijking van artikel 2:13 geschiedt in het geval van een oprichting via het elektronisch
 platform bedoeld in artikel 13, § 2, van de wet van 16 maart 1803 tot regeling van het notarisambt de
 bekendmaking in de Bijlagen bij het Belgisch Staatsblad binnen de termijnen bepaald in artikel 2:22/1.]1
-----------
+
 (1)<Ingevoegd bij W 2021-07-12/01, art. 10, 007; Inwerkingtreding : 01-08-2021>
 
 
@@ -1480,7 +1480,7 @@ worden opgeslagen en volgens de nadere regels bepaald in dit wetboek.
 woonplaats kiezen op de plaats waar hij een professionele activiteit voert. In dat geval wordt uitsluitend dit adres
 meegedeeld bij raadpleging van het dossier.
 § 5. Dit artikel is ook van toepassing op het buitenlands Europees economisch samenwerkingsverband.
-----------
+
 (1)<W 2023-12-19/08, art. 21, 015; Inwerkingtreding : 08-01-2024>
 
 
@@ -1823,7 +1823,7 @@ De nietigheid van de vereniging of stichting doet op zich zelf geen afbreuk aan 
 jegens haar aangegane verbintenissen, onverminderd de gevolgen van het feit dat zij zich in vereffening bevindt.
 [1 § 3. Paragraaf 1, eerste lid en paragraaf 2, eerste lid, zijn van toepassing op de nietigheid wegens
 vormgebrek van wijzigingen van de bepalingen van de statuten en van de oprichtingsakte.]1
-----------
+
 (1)<W 2020-04-28/06, art. 55, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -1998,7 +1998,7 @@ Ingeval er geen andere bestuurders in de bestuurde rechtspersoon zijn naast de b
 mag deze, naast de vaste vertegenwoordiger, een plaatsvervangende vaste vertegenwoordiger aanduiden die
 optreedt bij verhindering van de vaste vertegenwoordiger. De bepalingen van dit artikel zijn eveneens van
 toepassing op deze plaatsvervangende vaste vertegenwoordiger.
-----------
+
 (1)<W 2020-04-28/06, art. 57, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2079,7 +2079,7 @@ inkomstenbelastingen 1992 [2 , de artikelen 73sexies en 93undeciesC van het Wetb
 toegevoegde waarde en de artikelen 51 en 93 van het Wetboek van de minnelijke en gedwongen invordering van
 fiscale en niet-fiscale schuldvorderingen]2;
 4° voor de hoofdelijke aansprakelijkheid als bedoeld in artikel XX.226 van het Wetboek van economisch recht.
-----------
+
 (1)<W 2020-04-28/06, art. 58, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-12-20/04, art. 2, 009; Inwerkingtreding : 07-01-2022>
 
@@ -2093,7 +2093,7 @@ eerste lid vermelde personen niet vooraf exonereren of vrijwaren voor hun aanspr
 rechtspersoon]1 of jegens derden.
 Elke bepaling in de statuten, in een overeenkomst of een eenzijdige wilsuiting die strijdig is met de bepalingen
 van dit artikel wordt voor niet geschreven gehouden.
-----------
+
 (1)<W 2020-04-28/06, art. 59, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2115,7 +2115,7 @@ deze verwijzing in de statuten aanpassen en openbaarmaken.
 
 (NOTA : bij arrest nr.135/2020 van 15-10-2020 (B.St. 19-11-2020, p. 81493), heeft het Grondwettelijk Hof
 eerste lid, 3° van dit artikel vernietigd)
-----------
+
 (1)<W 2020-04-28/06, art. 60, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2286,7 +2286,7 @@ De beslissing geldt als titel voor het vervullen van de formaliteiten verbonden 
 De overdracht gebeurt, in voorkomend geval, na de uitoefening van de eventuele rechten van voorkoop die in
 het vonnis worden genoemd, naar evenredigheid van ieders aandelenbezit, tenzij anders is overeengekomen.
 De overnemers zijn hoofdelijk gehouden tot betaling van de prijs.
-----------
+
 (1)<W 2020-04-28/06, art. 61, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2339,7 +2339,7 @@ notaris het bestaan en de externe wettigheid bevestigen van de rechtshandelingen
 vennootschap waarbij hij optreedt, krachtens paragraaf 2 is gehouden.
 In de akte worden de conclusies overgenomen van het verslag dat de commissaris, de bedrijfsrevisor of de [3
 gecertificeerd accountant]3 overeenkomstig paragraaf 2 heeft opgemaakt.
-----------
+
 (1)<W 2020-04-28/06, art. 62, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 11, 007; Inwerkingtreding : 25-07-2021>
 (3)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
@@ -2403,7 +2403,7 @@ ondernemingen in moeilijkheden en de tekst van dit artikel bevat.
 De ontbinding kan evenwel pas vanaf de bekendmaking van de beslissingen voorgeschreven door artikel 2:14,
 en onder de voorwaarden bepaald in artikel 2:7 aan derden worden tegengeworpen, behalve indien de
 vennootschap bewijst dat die derden voordien ervan op de hoogte waren.
-----------
+
 (1)<W 2023-06-07/07, art. 266, 014; Inwerkingtreding : 01-09-2023>
 
 
@@ -2413,7 +2413,7 @@ vennootschap bewijst dat die derden voordien ervan op de hoogte waren.
 verzoek tot faillietverklaring en die overeenkomstig artikel XX.100 van het Wetboek van economisch recht
 oordeelt dat de vennootschap zich in staat van faillissement bevindt, kan beslissen het faillissement niet uit te
 spreken, maar de vennootschap te ontbinden.]1
-----------
+
 (1)<Ingevoegd bij W 2023-06-07/07, art. 267, 014; Inwerkingtreding : 01-09-2023>
 
 
@@ -2472,7 +2472,7 @@ bestuurders in de besloten vennootschap, de coöperatieve vennootschap, en de na
 aanzien van derden als vereffenaars van rechtswege beschouwd, evenwel zonder de bevoegdheden die de wet
 en de statuten met betrekking tot de verrichtingen van de vereffening [1 toekennen]1 aan de vereffenaar
 benoemd in de statuten, door de algemene vergadering of door de rechtbank.
-----------
+
 (1)<W 2020-04-28/06, art. 63, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2502,7 +2502,7 @@ b) of mits eenparigheid van stemmen van de aanwezige of vertegenwoordigde aandee
 in een besloten of coöperatieve vennootschap, ten minste de helft van het totaal aantal uitgegeven aandelen
 vertegenwoordigen of, in een naamloze vennootschap, ten minste de helft van het kapitaal.
 De terugname van het resterend actief gebeurt door de vennoten zelf.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -2527,7 +2527,7 @@ worden aangewezen, net zomin als enige bewaarder, voogd, bestuurder of rekenplic
 en verantwoording heeft gedaan en niet tijdig heeft afgerekend. Dit verbod geldt voor een termijn van tien jaar, te
 rekenen van een definitief rechterlijke uitspraak van veroordeling dan wel van het uitblijven van [1 een tijdige
 afrekening en verantwoording]1.
-----------
+
 (1)<W 2020-04-28/06, art. 64, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2625,7 +2625,7 @@ tegengeworpen, ook al is die beperking neergelegd en bekendgemaakt overeenkomsti
 § 3. De vereffenaar kan de onroerende goederen van de vennootschap enkel verkopen indien hij de verkoop
 nodig acht voor de betaling van de schulden van de vennootschap. Onverminderd wat is bepaald in artikel 2:88,
 § 1, 5°, worden de onroerende goederen steeds openbaar verkocht.
-----------
+
 (1)<W 2020-04-28/06, art. 65, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -2683,7 +2683,7 @@ gecertificeerd accountant]1, erkende boekhouder of erkende boekhouder-fiscalist 
 van de balans.
 De rechtbank kan op verzoek van de vereffenaar de leden van het bestuursorgaan van de ontbonden
 vennootschap hoofdelijk veroordelen tot betaling van de kosten voor de verbetering en opmaak van de balans.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -2857,7 +2857,7 @@ Nadat zij in voorkomend geval kennis heeft genomen van het verslag van de commis
 vergadering over de goedkeuring van de rekeningen. Bij afzonderlijke stemming beslist zij aansluitend over de
 kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris, en over de sluiting van de
 vereffening.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -2965,7 +2965,7 @@ Dat uittreksel vermeldt:
 3° de naam, de voornaam en de woonplaats van de vereffenaars en ingeval een vereffenaar een rechtspersoon
 is, de vaste vertegenwoordiger.
 § 5. Alle bepalingen van dit hoofdstuk zijn van toepassing op de aldus heropende vereffening.
-----------
+
 (1)<W 2021-07-12/01, art. 12, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -3037,7 +3037,7 @@ orgaan van de IVZW]1;
 2° van rechtswege, als gevolg van een door de wet of de statuten omschreven feit of gebeurtenis;
 3° door een gerechtelijke beslissing.
 [1 De ontbinding heeft de afsluiting van het boekjaar tot gevolg.]1
-----------
+
 (1)<W 2020-04-28/06, art. 66, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3126,7 +3126,7 @@ Op verzoek van de meest gerede partij wordt de zaak vastgesteld om gepleit te wo
 volgend op het verzoek tot bepaling van de rechtsdag.]1
 § 4. De rechtbank kan de vernietiging van de verrichting bedoeld in paragraaf 1, 3°, uitspreken ook indien zij de
 eis tot ontbinding afwijst.
-----------
+
 (1)<W 2020-04-28/06, art. 67, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-06-07/07, art. 268, 014; Inwerkingtreding : 01-09-2023>
 
@@ -3174,7 +3174,7 @@ Op verzoek van de meest gerede partij wordt de zaak vastgesteld om gepleit te wo
 volgend op het verzoek tot bepaling van de rechtsdag.]1
 § 4. De rechtbank kan de vernietiging van de verrichting bedoeld in paragraaf 1, 3°, uitspreken, ook indien zij de
 vordering tot ontbinding afwijst.
-----------
+
 (1)<W 2020-04-28/06, art. 68, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-06-07/07, art. 269, 014; Inwerkingtreding : 01-09-2023>
 
@@ -3277,7 +3277,7 @@ aangewezen vereffenaar beschouwd als zijnde bevestigd dan wel gehomologeerd.
 De voorzitter van de rechtbank kan eveneens worden aangezocht bij verzoekschrift van het openbaar
 ministerie dan wel van iedere belanghebbende derde, overeenkomstig de artikelen 1034bis en volgende van het
 Gerechtelijk Wetboek.
-----------
+
 (1)<W 2020-04-28/06, art. 69, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3304,7 +3304,7 @@ neergelegd en bekendgemaakt overeenkomstig respectievelijk de artikelen 2:9 en 2
 § 3. De vereffenaars kunnen de onroerende goederen van de VZW of van de IVZW enkel verkopen indien zij de
 verkoop nodig achten voor de betaling van de schulden van de vereniging. Onverminderd wat is bepaald in artikel
 2:122, § 1, 5°, worden de onroerende goederen steeds openbaar verkocht.
-----------
+
 (1)<W 2020-04-28/06, art. 70, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3416,7 +3416,7 @@ toepassing is.
 de algemene vergadering [1 van de VZW of aan het door de statuten aangewezen orgaan van de IVZW]1
 voorgelegd; ingeval de algemene vergadering [1 van de VZW of het door de statuten aangewezen orgaan van de
 IVZW]1 de beslissing of de verrichting goedkeurt, kan de vereffenaar ze uitvoeren.
-----------
+
 (1)<W 2020-04-28/06, art. 71, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3480,7 +3480,7 @@ De rechtbank spreekt de sluiting van de vereffening uit.
 § 3. In geval van ontbinding op grond van artikel 2:113 , § 1, 4°, bepaalt de Koning welke procedure moet
 worden gevolgd voor de consignatie van de activa die de vereniging zouden toebehoren en wat er met die activa
 moet gebeuren ingeval nieuwe passiva aan het licht komen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -3505,7 +3505,7 @@ Het resterend actief wordt bestemd voor het daartoe in de statuten aangewezen be
 daaraan, aan het belangeloos doel dat de algemene vergadering [1 van de VZW of het door de statuten
 aangewezen orgaan van de IVZW]1 aanwijst, met naleving van de aanwezigheids- en de meerderheidsvereisten
 voorgeschreven voor een statutenwijziging.
-----------
+
 (1)<W 2020-04-28/06, art. 72, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -3557,7 +3557,7 @@ Dat uittreksel vermeldt:
 3° de naam, de voornaam en de woonplaats van de vereffenaars en ingeval de vereffenaar een rechtspersoon
 is, de vaste vertegenwoordiger.
 § 5. Alle bepalingen van deze afdeling zijn van toepassing op de aldus heropende vereffening.
-----------
+
 (1)<W 2020-04-28/06, art. 73, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3641,7 +3641,7 @@ algemene vergadering van obligatiehouders van een vennootschap]1 bedoeld in arti
 worden ingesteld na het verstrijken van een termijn van zes maanden te rekenen van de dag waarop de besluiten
 kunnen worden tegengeworpen aan degene die de nietigheid inroept of van de dag waarop hij er kennis van
 heeft gekregen.
-----------
+
 (1)<W 2020-04-28/06, art. 74, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3654,7 +3654,7 @@ De leden van het bestuursorgaan zijn persoonlijk verplicht de daarop gewezen von
 De schuldeisers kunnen overeenkomstig artikel [1 5.242]1 van het Burgerlijk Wetboek tegen de vennoten of
 aandeelhouders de rechten van de vennootschap uitoefenen ten aanzien van de te verrichten geldstortingen die
 opeisbaar zijn krachtens de statuten, een besluit van de vennootschap of een vonnis.
-----------
+
 (1)<W 2022-04-28/25, art. 13, 012; Inwerkingtreding : 01-01-2023>
 
 
@@ -3690,7 +3690,7 @@ werkzaamheden verrichten en in rechte optreden, en er een bijkantoor oprichten.
 De rechtsvorderingen ingesteld door buitenlandse rechtspersonen die in België een bijkantoor hebben, zijn
 evenwel niet ontvankelijk indien zij hun oprichtingsakte niet hebben neergelegd overeenkomstig [1 de artikelen
 2:24, 2:25 of 2:26]1.
-----------
+
 (1)<W 2020-04-28/06, art. 75, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -3738,7 +3738,7 @@ vermogensbeheer en beleggingsadvies, met uitsluiting van de instellingen bedoeld
 4° [1 ...]1
 5° de overeenkomstig artikel 8:2 erkende landbouwondernemingen die de vorm hebben aangenomen van een
 vennootschap onder firma of commanditaire vennootschap en die onderworpen zijn aan de personenbelasting.
-----------
+
 (1)<W 2021-06-27/09, art. 304, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -3756,7 +3756,7 @@ Het eerste en het tweede lid zijn niet van toepassing op:
 [1 3° de in artikel 1:12, 5°, bedoelde organisaties van openbaar belang.]1
 Het eerste lid is niet van toepassing op de genoteerde vennootschappen en de organisaties van openbaar
 belang als bedoeld in artikel 1:12, 2°.
-----------
+
 (1)<W 2021-06-27/09, art. 305, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -3772,7 +3772,7 @@ Het eerste en het tweede lid zijn niet van toepassing op:
 1° [1 de in artikel 3:1, § 3, 1°, 2° en 3°, bedoelde vennootschappen;]1
 2° vennootschappen die een onderneming van hypothecair krediet tot voorwerp hebben;
 [1 3° de in artikel 1:12, 5°, bedoelde organisaties van openbaar belang.]1
-----------
+
 (1)<W 2021-06-27/09, art. 305, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -3793,7 +3793,7 @@ De niet-genoteerde kleine vennootschappen moeten de verantwoording bedoeld in ar
 lid,]1 6°, evenwel vermelden in de toelichting bij de jaarrekening. [1 De organisaties van openbaar belang als
 bedoeld in artikel 1:12, 2°, vermelden de verantwoording bedoeld in artikel 3:6, § 1, eerste lid, 6°, uitsluitend in
 het jaarverslag.]1
-----------
+
 (1)<W 2020-04-28/06, art. 76, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 306, 006; Inwerkingtreding : 19-07-2021>
 
@@ -3947,14 +3947,14 @@ vennootschappen de persoonsgegevens van natuurlijke personen die ingevolge dit a
 remuneratieverslag zijn opgenomen, niet langer dan tien jaar na de publicatie van het remuneratieverslag voor
 het publiek beschikbaar.]1
 § 4. [4 ...]4
-----------
+
 (1)<W 2020-04-28/06, art. 30, 002; Inwerkingtreding : 16-05-2020>
 (2)<W 2020-04-28/06, art. 77, 002; Inwerkingtreding : 06-05-2020>
 (3)<W 2024-12-02/07, art. 10, 024; Inwerkingtreding : 30-12-2024>
 (4)<W 2024-12-02/07, art. 11, 024; Inwerkingtreding : 30-12-2024>
 
 Afdeling 2/1. [1 De verslaglegging van de essentiële immateriële middelen en de duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 12, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4009,7 +4009,7 @@ in de financiëledienstensector;
 § 3. De Koning kan de in de paragrafen 1, eerste lid, 1°, en 2, 2°, bedoelde groottecriteria en de wijze waarop
 ze worden berekend, wijzigen. Deze koninklijke besluiten worden genomen na overleg in de Ministerraad en na
 advies van de Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 13, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4019,7 +4019,7 @@ advies van de Centrale Raad voor het Bedrijfsleven.]1
 informatie over de essentiële immateriële middelen bedoeld in artikel 1:31/2, 4°, op en licht toe hoe het
 bedrijfsmodel van de vennootschap fundamenteel afhankelijk is van die middelen en hoe die middelen een bron
 voor de waardecreatie van de vennootschap zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 14, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4037,7 +4037,7 @@ gaat.
 § 2. Met de verslaglegging van duurzaamheidsinformatie in het jaarverslag, opgesteld overeenkomstig
 paragraaf 1, wordt de vennootschap geacht te hebben voldaan aan de in artikel 3:6, § 1, tweede lid, tweede en
 derde zin, bedoelde verplichting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 15, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4113,7 +4113,7 @@ tweede lid. In dat geval neemt zij een verwijzing daarnaar op in haar verklaring
 om de duurzaamheidsinformatie in kaart te brengen die het overeenkomstig artikel 3:6/3 in het jaarverslag heeft
 opgenomen. Deze informatie omvat informatie met betrekking tot tijdhorizonten op korte, middellange en lange
 termijn, naargelang het geval.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 16, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4144,7 +4144,7 @@ statuut van en het toezicht op verzekerings- of herverzekeringsondernemingen;
 statuut van en het toezicht op verzekerings- of herverzekeringsondernemingen.
 § 3. De vennootschappen die de duurzaamheidsinformatie beperken overeenkomstig paragraaf 1, worden
 geacht te hebben voldaan aan de vereiste van artikel 3:6, § 1, tweede lid, tweede en derde zin.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 17, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4166,7 +4166,7 @@ bespreking wordt aan de aandeelhouders meegedeeld tijdens de voormelde algemene 
 § 2. De Koning kan, bij een besluit vastgesteld na overleg in de Ministerraad, de nadere regels vaststellen met
 betrekking tot de verstrekking van de duurzaamheidsinformatie aan en de raadpleging hierover met de
 werknemersvertegenwoordiging.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 18, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4231,7 +4231,7 @@ geconsolideerde jaarrekening van de moederonderneming openbaar maakt.
 uitzondering van de vennootschappen bedoeld in artikel 1:12, 1° en 2°, en die voldoen aan de vereisten van
 artikel 3:6/1, § 1, eerste lid, 1° ;
 2° de dochtervennootschappen bedoeld in artikel 3:32/1, § 2, tweede lid.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 19, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4249,7 +4249,7 @@ Overeenkomstig artikel 2:33 wordt het jaarverslag neergelegd in de taal of in é
 taalgebied waar de zetel van de vennootschap is gevestigd.
 Het jaarverslag mag daarenboven in een of meer andere officiële talen van de Europese Unie vertaald worden
 en als vertaling neergelegd worden. Elke niet-gewaarmerkte vertaling bevat een verklaring in die zin.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 20, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4313,7 +4313,7 @@ grensbedrag van 150 miljoen euro niet heeft overschreden;
 dochteronderneming van een andere lidstaat, met een hogere netto-omzet, en die behoort tot de groep, reeds
 het verslag van de specifieke duurzaamheidsinformatie van die uiteindelijke moederonderneming heeft openbaar
 gemaakt volgens de regelgeving van die andere lidstaat.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 21, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4357,17 +4357,17 @@ richtlijn 2013/34/EU als gelijkwaardig aan de vereisten van deze afdeling zijn b
 zijn verplicht dit verslag openbaar te maken.
 § 2. Het verslag wordt door toedoen van het bestuursorgaan tegelijkertijd met de jaarrekening neergelegd bij de
 Nationale Bank van België.
-----------
+
 (1)<W 2021-06-27/09, art. 307, 006; Inwerkingtreding : 19-07-2021>
 
 Afdeling 3/1. [1 Verslag inzake informatie over de inkomstenbelasting van bepaalde vennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 5, 017; Inwerkingtreding : 05-02-2024>
 
 
 *Onderafdeling 1. [1 Verslag inzake informatie over de inkomstenbelasting van op zichzelf staande*
 vennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 6, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4394,13 +4394,13 @@ wanneer het netto-omzetcijfer op de balansdatum voor elk van de laatste twee ope
 de jaarrekening het grensbedrag van 750.000.000 euro niet meer heeft overschreden.
 § 2. De Koning kan het in paragraaf 1 vermelde cijfer wijzigen, na overleg in de Ministerraad en na advies van de
 Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 7, 017; Inwerkingtreding : 05-02-2024>
 
 
 *Onderafdeling 2. [1 Verslag inzake informatie over de inkomstenbelasting van Belgische vennootschappen die*
 dochtervennootschappen zijn van niet-Europese uiteindelijke moederondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 8, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4426,7 +4426,7 @@ overeenkomstig de voorschriften van die lidstaat is niet onderworpen aan de in h
 verplichting.
 § 2. De Koning kan het in paragraaf 1 vermelde cijfer wijzigen, na overleg in de Ministerraad en na advies van de
 Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 9, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4442,7 +4442,7 @@ de inkomstenbelasting op. Dit verslag bevat alle informatie waarover de onderwor
 beschikt, of verkregen of verworven heeft, met daarbij gevoegd een verklaring dat haar uiteindelijke
 moederonderneming de nodige informatie niet beschikbaar heeft gesteld. Deze verklaring maakt deel uit van het
 verslag inzake informatie over de inkomstenbelasting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 10, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4464,7 +4464,7 @@ c) niet later dan twaalf maanden na de balansdatum van het boekjaar waarover het
 dochtervennootschap.
 Vanaf de datum van publicatie blijft het verslag inzake informatie over de inkomstenbelasting ten minste vijf jaar
 lang onafgebroken op de website van de uiteindelijke moederonderneming beschikbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 11, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4483,7 +4483,7 @@ op:
 commanditaire vennootschap;
 2° de vennootschappen onder firma, de commanditaire vennootschappen en de Europese economische
 samenwerkingsverbanden waarvan alle onbeperkt aansprakelijke vennoten natuurlijke personen zijn.
-----------
+
 (1)<W 2021-06-27/09, art. 308, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -4578,7 +4578,7 @@ het bestuursorgaan tijdens het door het jaarverslag behandelde boekjaar werden t
 document dat overeenkomstig dit artikel moet worden neergelegd.
 § 3. Indien de stukken bedoeld in dit artikel niet werden neergelegd overeenkomstig paragraaf 1, wordt de door
 derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.
-----------
+
 (1)<W 2021-06-27/09, art. 309, 006; Inwerkingtreding : 19-07-2021>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 (3)<W 2024-12-02/07, art. 22, 024; Inwerkingtreding : 30-12-2024>
@@ -4598,7 +4598,7 @@ voorwaarden wordt voldaan:
 1° de website bevat een vermelding van de vrijstelling;
 2° de website bevat een verwijzing naar het verslag inzake informatie over de inkomstenbelasting dat bij de
 Nationale Bank van België neergelegd en openbaar gemaakt werd.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 12, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4637,7 +4637,7 @@ In geval van overmacht, en ten laatste binnen de achttien maanden na de afsluiti
 boek jaar, kunnen de vennootschappen een aanvraag tot terugbetaling indienen van de betaalde bijdrage tot de
 kosten gemaakt door de federale toezichthoudende overheden.
 De Koning legt de nadere regels vast betreffende deze aanvraag tot terugbetaling.]1
-----------
+
 (1)<W 2024-02-09/19, art. 2, 018; Inwerkingtreding : 31-03-2024>
 
 
@@ -4666,7 +4666,7 @@ Enkel de kopieën die de Nationale Bank van België verstrekt, gelden als bewijs
 griffies van de ondernemingsrechtbanken verkrijgen van de Nationale Bank van België, onverwijld en kosteloos,
 een kopie van alle stukken bedoeld in de [1 artikelen 3:10, 3:12, 3:12/1, 3:20/1 en 3:36/1]1, op de wijze bepaald
 door de Koning.
-----------
+
 (1)<W 2024-01-08/03, art. 13, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4805,7 +4805,7 @@ Nationale Bank van België neergelegd en openbaar gemaakt werd.
 het bijkantoor uit hoofde van dit artikel moet neerleggen.
 § 5. De Koning kan de in paragraaf 1 vermelde cijfers wijzigen, na overleg in de Ministerraad en na advies van
 de Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 14, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4821,7 +4821,7 @@ waarover het bijkantoor onderworpen aan de verplichting bedoeld in artikel 3:20/
 verkregen of verworven heeft, met daarbij gevoegd een verklaring dat haar uiteindelijke moederonderneming de
 nodige informatie niet beschikbaar heeft gesteld. Deze verklaring maakt deel uit van het verslag inzake informatie
 over de inkomstenbelasting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 15, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4841,7 +4841,7 @@ c) niet later dan twaalf maanden na de balansdatum van het boekjaar waarover het
 het adres van het bijkantoor.
 Vanaf de datum van publicatie blijft het verslag inzake informatie over de inkomstenbelasting ten minste vijf jaar
 lang op de website beschikbaar.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 16, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -4862,7 +4862,7 @@ openbaar, als volgt:
 activiteiten binnen de lidstaten.
 De netto-omzet van de uiteindelijke moederonderneming van een derde land wordt berekend op
 geconsolideerde basis.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 23, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4922,7 +4922,7 @@ vertaling neerleggen.
 § 6. De Koning kan nadere regels voor het opstellen en het openbaar maken van specifieke
 duurzaamheidsinformatie van een onderneming van een derde land vaststellen, met inbegrip van de assurance
 van deze specifieke duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 24, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -4944,7 +4944,7 @@ vermogensbeheer en beleggingsadvies, met uitsluiting van de instellingen bedoeld
 3° [1 ...]1
 4° de overeenkomstig artikel 8:2 erkende landbouwondernemingen die de vorm hebben aangenomen van een
 vennootschap onder firma of commanditaire vennootschap en die onderworpen zijn aan de personenbelasting.
-----------
+
 (1)<W 2021-06-27/09, art. 310, 006; Inwerkingtreding : 19-07-2021>
 (2)<W 2024-12-02/07, art. 25, 024; Inwerkingtreding : 30-12-2024>
 
@@ -5155,11 +5155,11 @@ de ondernemingen die in de consolidatie zijn opgenomen. De informatie die moet w
 moet, in voorkomend geval, worden opgenomen in het deel van het verslag dat de verklaring inzake deugdelijk
 bestuur bevat, zoals bepaald in artikel 3:6, § 2.
 § 2. [1 ...]1
-----------
+
 (1)<W 2024-12-02/07, art. 26, 024; Inwerkingtreding : 30-12-2024>
 
 Afdeling 4/1. [1 Geconsolideerde duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 27, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5218,7 +5218,7 @@ lidstaat.
 § 3. De Koning kan de in paragraaf 1, eerste lid, bedoelde groottecriteria en de wijze waarop ze worden
 berekend, wijzigen. Deze koninklijke besluiten worden genomen na overleg in de Ministerraad en na advies van de
 Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 28, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5236,7 +5236,7 @@ Commissie door middel van de gedelegeerde handelingen heeft vastgelegd.
 Met de verslaglegging van geconsolideerde duurzaamheidsinformatie in het jaarverslag over de
 geconsolideerde jaarrekening wordt de moedervennootschap geacht te hebben voldaan aan de in artikelen 3:6/3
 en 3:32, § 1, tweede lid, 2°, tweede lid, opgenomen verplichting.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 29, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5318,7 +5318,7 @@ Stelt de moedervennootschap aanzienlijke verschillen vast tussen de risico's voo
 en de risico's voor of de effecten van een of meer dochtervennootschappen, verschaft de
 moedervennootschap, in voorkomend geval, een adequaat inzicht in de risico's voor en de effecten van de
 betrokken dochtervennootschap of dochtervennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 30, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5342,7 +5342,7 @@ de Europese ondernemingsraad.
 De Koning kan, bij een besluit vastgesteld na overleg in de Ministerraad, de nadere regels vaststellen met
 betrekking tot de verstrekking van de geconsolideerde duurzaamheidsinformatie aan de
 werknemersvertegenwoordiging en de raadpleging ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 31, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5412,7 +5412,7 @@ geconsolideerde duurzaamheidsinformatie uit te brengen.
 die organisaties van openbaar belang en onderworpen aan de vereisten bedoeld in artikel 3:32/2, met
 uitzondering van de moedervennootschappen die vennootschappen zijn als bedoeld in artikel 1:12, 1° en 2°, en
 die voldoen aan de vereisten van artikel 3:6/1, § 1, eerste lid, 1°.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 32, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5427,7 +5427,7 @@ Het bestuursorgaan van de moedervennootschap markeert de geconsolideerde duurzaa
 inbegrip van de in artikel 8 van Verordening (EU) 2020/852 bedoelde openbaarmakingen, op de wijze
 overeenkomstig het in de in het eerste lid bedoelde Gedelegeerde Verordening bepaalde elektronische
 verslagleggingsformaat.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 33, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5443,7 +5443,7 @@ Koning de vorm en de inhoud bepaalt. Deze verplichting geldt eveneens voor venno
 het koninklijk besluit van 23 september 1992 op de geconsolideerde jaarrekening van de kredietinstellingen, de
 beleggingsondernemingen en de beheervennootschappen van instellingen voor collectieve belegging [1 ...]1
 verplicht zijn een geconsolideerde jaarrekening op te stellen.
-----------
+
 (1)<W 2021-06-27/09, art. 311, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -5454,7 +5454,7 @@ geconsolideerde jaarrekening neergelegd bij de Nationale Bank van België.
 
 Afdeling 5/1. [1 Verslag inzake informatie over de inkomstenbelasting van uiteindelijke
 moedervennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 17, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -5494,7 +5494,7 @@ inkomstenbelasting met toepassing van artikel 109, § 1, tweede lid, van voormel
 uitvoeringsbesluiten heeft opgesteld en openbaar gemaakt.
 § 2. De Koning kan het in paragraaf 1 vermelde cijfer wijzigen, na overleg in de Ministerraad en na advies van de
 Centrale Raad voor het Bedrijfsleven.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 18, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -5542,7 +5542,7 @@ voorwaarden wordt voldaan:
 1° de website bevat een vermelding naar de vrijstelling;
 2° de website verwijst naar het verslag inzake informatie over de inkomstenbelasting dat bij de Nationale Bank
 van België neergelegd en openbaar gemaakt werd.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 19, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -5665,7 +5665,7 @@ op te nemen of vast te stellen;
 2° zij die gebruik maken van die valse akten.
 Voor de toepassing van het eerste lid bestaat de jaarrekening, zodra zij voor de vennoten of aandeelhouders
 ter inzage is gelegd.
-----------
+
 (1)<W 2024-12-02/07, art. 34, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5691,7 +5691,7 @@ dochtervennootschap of geopend bijkantoor bevelen om een verslag inzake informat
 inkomstenbelasting op te stellen en openbaar te maken, wanneer er wordt vastgesteld dat de betrokken
 dochtervennootschap is opgericht of het betrokken bijkantoor is geopend om de verplichtingen bedoeld in de
 artikelen 3:8/1, 3:8/2, 3:8/3, 3:12/1, 3:20/1, 3:20/2, 3:34/1 of 3:36/1 te omzeilen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-08/03, art. 20, 017; Inwerkingtreding : 05-02-2024>
 
 
@@ -5703,7 +5703,7 @@ vertegenwoordiging van een bijkantoor in België zijn belast, die een van de in 
 euro.
 Indien de schending van deze artikelen gebeurt met bedrieglijk oogmerk kunnen zij bovendien worden gestraft
 met een gevangenisstraf van een maand tot een jaar of met beide straffen samen.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 35, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5794,7 +5794,7 @@ De Commissie voor Boekhoudkundige Normen wordt in kennis gesteld van het besluit
 afgevaardigde.
 De VZW of IVZW waarvoor de afwijking werd toegestaan vermeldt deze afwijking onder de waarderingsregels
 in de toelichting bij de jaarrekening.
-----------
+
 (1)<W 2020-04-28/06, art. 78, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 150, 019; Inwerkingtreding : 08-04-2024>
 
@@ -5921,7 +5921,7 @@ De Commissie voor Boekhoudkundige Normen wordt in kennis gesteld van het besluit
 afgevaardigde.
 De stichting waarvoor de afwijking werd toegestaan vermeldt deze afwijking onder de waarderingsregels in de
 toelichting bij de jaarrekening.
-----------
+
 (1)<W 2020-04-28/06, art. 79, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 151, 019; Inwerkingtreding : 08-04-2024>
 
@@ -5956,13 +5956,13 @@ maanden na de datum van afsluiting van het boekjaar.
 
 #### TITEL 4. [1 De wettelijke controle van de jaarrekening en van de geconsolideerde jaarrekening, alsook de
 assurance van duurzaamheidsinformatie van vennootschappen.]1
-----------
+
 (1)<W 2024-12-02/07, art. 36, 024; Inwerkingtreding : 30-12-2024>
 
 
 ##### HOOFDSTUK 1. [1 Algemene bepalingen inzake de wettelijke controle op de jaarrekening en de assurance van
 duurzaamheidsinformatie.]1
-----------
+
 (1)<W 2024-12-02/07, art. 37, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -5999,7 +5999,7 @@ artikel 3:32/6, tweede lid; alsook
 d) de naleving van de in artikel 8 van Verordening (EU) 2020/852 bepaalde rapporteringsvereisten.
 Onder "College van toezicht op de bedrijfsrevisoren" wordt verstaan, het College bedoeld in artikel 32 van de
 wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren.]1
-----------
+
 (1)<W 2024-12-02/07, art. 38, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6070,7 +6070,7 @@ geaccrediteerde onafhankelijke derde toevertrouwd door de algemene vergadering, 
 bestuursorgaan van de vennootschap of diens vertegenwoordiger, de ondernemingsraad op de hoogte. Het
 verslag van die bedrijfsrevisor of geaccrediteerde onafhankelijke derde wordt ter informatie overgemaakt aan de
 algemene vergadering en de ondernemingsraad van de vennootschap.]1
-----------
+
 (1)<W 2024-12-02/07, art. 39, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6085,7 +6085,7 @@ benoeming of vervanging zal evenwel slechts gevolg hebben na de eerste jaarverga
 benoeming van de bedrijfsrevisor door de voorzitter.
 [1 Het eerste lid is eveneens van toepassing op de bedrijfsrevisor belast met de opdracht van assurance van
 duurzaamheidsinformatie.]1
-----------
+
 (1)<W 2024-12-02/07, art. 40, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6108,7 +6108,7 @@ Voor de toewijzing van de opdracht van assurance van duurzaamheidsinformatie, al
 opdrachtbeëindiging van de vaste vertegenwoordiger van het bedrijfsrevisorenkantoor, gelden dezelfde
 bekendmakingregels als wanneer deze vaste vertegenwoordiger die opdracht in eigen naam en voor eigen
 rekening zou vervullen.]1
-----------
+
 (1)<W 2024-12-02/07, art. 41, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6152,7 +6152,7 @@ benoemd zijn voor de opdracht van assurance van duurzaamheidsinformatie.
 duurzaamheidsinformatie van de groep van de moedervennootschap.
 § 8. In afwijking van paragraaf 6 kan, als de opdracht van assurance van duurzaamheidsinformatie is
 toevertrouwd aan de commissaris, de duur van zijn eerste mandaat minder dan drie jaar bedragen.]1
-----------
+
 (1)<W 2024-12-02/07, art. 42, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6200,7 +6200,7 @@ personeel van de betrokken vennootschap, van een Belgische vennootschap die haar
 haar belangrijke Belgische of buitenlandse dochtervennootschappen.
 [1 § 6. De paragrafen 1 tot 5 zijn ook van toepassing op het mandaat van bedrijfsrevisor voor de opdracht van
 assurance van duurzaamheidsinformatie.]1
-----------
+
 (1)<W 2024-12-02/07, art. 43, 024; Inwerkingtreding : 30-12-2024>
 
 *Onderafdeling 2. Niet-controlediensten.*
@@ -6297,7 +6297,7 @@ het gedrang te brengen en niet te kunnen worden ingeperkt door welke veiligheids
 b) wordt het verstrekken van de diensten andere dan deze bedoeld in paragraaf 2, 1° tot 3°, geacht deze
 onafhankelijkheid in het gedrang te brengen en worden derhalve veiligheidsmaatregelen nodig geacht om de
 daardoor veroorzaakte dreigingen in te perken.
-----------
+
 (1)<W 2024-12-02/07, art. 44, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6329,7 +6329,7 @@ om de bedreigingen als gevolg van het leveren van zulke diensten in een derde la
 bedrijfsrevisor mag de opdracht van assurance van duurzaamheidsinformatie uitsluitend blijven uitvoeren als kan
 gewaarborgd worden dat het verlenen van deze diensten zijn professionele oordeelsvorming en
 assuranceverslag niet beïnvloedt.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 45, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6528,7 +6528,7 @@ doet uitspraak in openbare terechtzitting. Tegen die beslissing staat geen verze
 
 [1 De artikelen 3:66 en 3:67 zijn eveneens van toepassing op de commissaris of de bedrijfsrevisor
 belast met de opdracht van assurance van duurzaamheidsinformatie van de vennootschap.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 46, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6568,7 +6568,7 @@ assurance;
 verwijzingen van de duurzaamheidsinformatie naar de vermelde bedragen in de jaarrekening om de
 interconnectiviteit tussen de jaarrekening en de duurzaamheidsinformatie van de vennootschap te
 waarborgen.]1
-----------
+
 (1)<W 2024-12-02/07, art. 47, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6594,7 +6594,7 @@ Strafwetboek niet van toepassing.
 [1 De commissarissen of de bedrijfsrevisoren belast met de assurance van
 duurzaamheidsinformatie]1 kunnen zich bij de uitoefening van hun taak, op hun kosten, doen bijstaan door
 aangestelden of andere personen voor wie zij instaan.
-----------
+
 (1)<W 2024-12-02/07, art. 48, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6614,7 +6614,7 @@ Ten aanzien van de overtredingen waaraan zij geen deel hebben gehad, worden zij 
 slechts ontheven wanneer zij aantonen dat zij hun taak naar behoren hebben vervuld en zij die overtredingen
 hebben aangeklaagd bij het bestuursorgaan en, in voorkomend geval, indien daar geen passend gevolg werd
 gegeven, op de eerste daaropvolgende algemene vergadering of leden nadat zij er kennis van hebben gekregen.
-----------
+
 (1)<W 2024-12-02/07, art. 49, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6637,7 +6637,7 @@ vennootschappen die deel uitmaken van een groep die gehouden is een geconsolidee
 stellen en te publiceren;
 3° de overeenkomstig artikel 8:2 erkende landbouwondernemingen die de vorm hebben aangenomen van een
 vennootschap onder firma of commanditaire vennootschap en die onderworpen zijn aan de personenbelasting.
-----------
+
 (1)<W 2021-06-27/09, art. 312, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -6726,12 +6726,12 @@ bedrijfsrevisorenkantoor of het geregistreerd auditkantoor.
 § 4. De wettelijke controle biedt geen zekerheid omtrent de toekomstige levensvatbaarheid van de
 vennootschap, noch van de efficiëntie of de doeltreffendheid waarmee het bestuursorgaan de bedrijfsvoering
 van de vennootschap ter hand heeft genomen of zal nemen.
-----------
+
 (1)<W 2024-01-08/03, art. 21, 017; Inwerkingtreding : 05-02-2024>
 (2)<W 2024-12-02/07, art. 50, 024; Inwerkingtreding : 30-12-2024>
 
 HOOFDSTUK 2/1. [1 De assurance van duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 51, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6742,7 +6742,7 @@ HOOFDSTUK 2/1. [1 De assurance van duurzaamheidsinformatie.]1
 1° een vennootschap zijn bedoeld in artikel 3:6/1, § 2; of
 2° zijn vrijgesteld van de verplichting duurzaamheidsinformatie in het jaarverslag op te nemen overeenkomstig
 de vereisten bepaald in artikel 3:6/7.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 52, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6766,7 +6766,7 @@ Het eisen van assurance van duurzaamheidsinformatie is verboden voor die informa
 door vennootschappen als entiteiten binnen de waardeketen van de vennootschappen en entiteiten bedoeld in
 artikel 3:6/1, maar die zelf niet onderworpen zijn aan de verplichtingen van het openbaar maken van
 duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 53, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6791,7 +6791,7 @@ Europese standaarden openbaar gemaakte duurzaamheidsinformatie vast te stellen;
 c) de naleving van de vereiste om de duurzaamheidsinformatie te markeren overeenkomstig artikel 3:6/8,
 tweede lid; alsook
 d) de naleving van de in artikel 8 van Verordening (EU) 2020/852 bepaalde rapporteringsvereisten.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 54, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6827,7 +6827,7 @@ opdracht belast zijn.
 Is de commissaris belast met de opdracht van assurance van duurzaamheidsinformatie, dan wordt het
 assuranceverslag door de commissaris ondertekend. Dit assuranceverslag is een afzonderlijk verslag van het
 verslag bedoeld in artikel 3:75 of kan worden opgenomen als een afzonderlijk onderdeel van dit verslag.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 55, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -6976,7 +6976,7 @@ auditkantoor.
 het krachtens dit artikel vereiste verslag van de commissarissen of van de aangestelde bedrijfsrevisoren
 gecombineerd worden met het in artikel 3:74 vereiste verslag van de commissarissen betreffende de
 jaarrekening van de moedervennootschap.
-----------
+
 (1)<W 2024-01-08/03, art. 22, 017; Inwerkingtreding : 05-02-2024>
 (2)<W 2024-12-02/07, art. 56, 024; Inwerkingtreding : 30-12-2024>
 
@@ -7012,7 +7012,7 @@ door de Koning zijn toegelaten op grond van de wetgeving betreffende de controle
 verzekeringsondernemingen.
 
 HOOFDSTUK 3/1. [1 De assurance van geconsolideerde duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 57, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7021,7 +7021,7 @@ HOOFDSTUK 3/1. [1 De assurance van geconsolideerde duurzaamheidsinformatie.]1
 [1 Dit hoofdstuk is van toepassing op de moedervennootschappen bedoeld in artikel 3:32/1, tenzij
 zij zijn vrijgesteld van de verplichting geconsolideerde duurzaamheidsinformatie in het jaarverslag op te nemen
 overeenkomstig de vereisten bepaald in artikel 3:32/5.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 58, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7037,7 +7037,7 @@ Worden meerdere personen belast met de assurance van geconsolideerde duurzaamhei
 vormen zij een college.
 De artikelen 3:62, §§ 1 tot 5, en 3:63 tot 3:67 zijn ook van toepassing op het mandaat in het kader van de
 uitoefening van de opdracht van assurance van geconsolideerde duurzaamheidsinformatie van de groep.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 59, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7049,7 +7049,7 @@ geconsolideerde duurzaamheidsinformatie belaste commissaris of bedrijfsrevisor t
 noodzakelijke controles te verrichten en dat zij hem op zijn verzoek alle noodzakelijke inlichtingen en
 bevestigingen verstrekken voor de naleving van de hem opgelegde verplichtingen inzake het opstellen, de
 controle en de openbaarmaking van de geconsolideerde duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 60, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7109,7 +7109,7 @@ commissaris of de bedrijfsrevisor bewaarde documentatie bewijs dat die de juiste
 toegang te verschaffen tot de documenten met betrekking tot de assurance van geconsolideerde
 duurzaamheidsinformatie en bewijs van eventuele niet-juridische beletsels die voortvloeien uit de wetgeving van
 het betrokken derde land.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 61, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7143,7 +7143,7 @@ Het eisen van assurance van duurzaamheidsinformatie is verboden voor die informa
 door vennootschappen als entiteiten binnen de waardeketen van de moedervennootschappen en hun groepen
 bedoeld in artikel 3:32/1, maar die zelf niet onderworpen zijn aan de verplichtingen van het openbaar maken van
 duurzaamheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 62, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7185,7 +7185,7 @@ van het verslag bedoeld in artikel 3:80 of kan worden opgenomen als een afzonder
 met de geconsolideerde rekeningen overeenkomstig artikel 3:12, § 1, en in voorkomend geval, artikel 3:35,
 wanneer het boekjaar van de geconsolideerde jaarrekening van de groep niet gelijkloopt met het boekjaar van de
 jaarrekening van de vennootschap.]1
-----------
+
 (1)<Ingevoegd bij W 2024-12-02/07, art. 63, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7377,7 +7377,7 @@ overtreden;]1
 3° zij die de verificaties verhinderen waaraan zij zich moeten onderwerpen krachtens deze titel of weigeren de
 inlichtingen te verstrekken die zij krachtens deze titel moeten geven of die bewust onjuiste of onvolledige
 inlichtingen verstrekken.
-----------
+
 (1)<W 2024-12-02/07, art. 64, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7412,7 +7412,7 @@ Zij worden gestraft met een gevangenisstraf van een maand tot een jaar en met ge
 tienduizend euro of met een van die straffen alleen, als zij met bedrieglijk opzet hebben gehandeld.]1
 § 3. De vennootschappen zijn burgerrechtelijk aansprakelijk voor het betalen van de geldboetes waartoe hun
 leden van het bestuursorgaan, directeurs of lasthebbers krachtens [1 de paragrafen 1 en 1/1]1 veroordeeld zijn.
-----------
+
 (1)<W 2024-12-02/07, art. 65, 024; Inwerkingtreding : 30-12-2024>
 
 
@@ -7435,7 +7435,7 @@ worden doorgevoerd:
 1° het woord "vennootschap" moet worden begrepen als "vereniging";
 2° in artikel 3:75, § 1, eerste lid, 6°, worden de woorden "overeenkomstig de artikelen 3:5 en 3:6" vervangen
 door de woorden "overeenkomstig artikel 3:48".]1
-----------
+
 (1)<W 2020-04-28/06, art. 80, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -7459,7 +7459,7 @@ worden doorgevoerd:
 "stichting" en "bestuursorgaan";
 2° in artikel 3:75, § 1, eerste lid, 6°, worden de woorden "overeenkomstig de artikelen 3:5 en 3:6" vervangen
 door de woorden "overeenkomstig artikel 3:52".]1
-----------
+
 (1)<W 2020-04-28/06, art. 81, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -7479,7 +7479,7 @@ orgaan.
 Wordt geen commissaris benoemd, dan heeft, niettegenstaande andersluidende statutaire bepaling,
 iedere vennoot of aandeelhouder individueel de onderzoeks- en controlebevoegdheid van een commissaris. Hij
 kan zich laten vertegenwoordigen of bijstaan door een [1 gecertificeerd accountant]1.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -7489,7 +7489,7 @@ De vergoeding van de [1 gecertificeerd accountant]1 bedoeld in artikel 3:101 kom
 vennootschap indien hij met haar toestemming werd benoemd of indien deze vergoeding door haar ten laste
 moet worden genomen krachtens een rechterlijke beslissing. In deze gevallen worden de opmerkingen van de [1
 gecertificeerd accountant]1 meegedeeld aan de vennootschap.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -7520,7 +7520,7 @@ aangegaan.
 De maatschap is "stil" wanneer overeengekomen wordt dat zij bestuurd wordt door een of meer zaakvoerders,
 al dan niet vennoten, die handelen in eigen naam.
 Tenzij anders overeengekomen, wordt zij aangegaan met inachtneming van de persoon van de vennoten.
-----------
+
 (1)<W 2020-04-28/06, art. 82, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -7650,7 +7650,7 @@ Gerechtelijk Wetboek, zelfs indien de beslissing voor hoger beroep vatbaar is.]1
 In afwijking op het eerste lid hebben derden, indien het een stille vennootschap betreft, enkel verhaal op de
 vennoot of zaakvoerder die met hen in persoonlijke naam heeft gehandeld. Derden hebben geen rechtstreekse
 vordering tegen de overige vennoten.
-----------
+
 (1)<W 2024-04-21/12, art. 2, 022; Inwerkingtreding : 22-07-2024>
 
 
@@ -7662,7 +7662,7 @@ met een vennoot die niet de bevoegdheid had om de anderen te vertegenwoordigen, 
 aandeel van die vennoot en op de winsten die hem zijn uitgekeerd.
 Zij mogen geen beslag leggen op de goederen die het vennootschapsvermogen uitmaken noch rechten daarop
 uitoefenen.
-----------
+
 (1)<W 2022-04-28/25, art. 14, 012; Inwerkingtreding : 01-01-2023>
 
 
@@ -7814,7 +7814,7 @@ veroordeeld.
 vennootschap tot nakoming van een dergelijke verbintenis is veroordeeld, kan de beslissing alleen worden
 uitgevoerd mits zij hem wordt betekend. Hij kan verzet doen op de wijze en binnen de termijn bepaald in het
 Gerechtelijk Wetboek, zelfs indien de beslissing voor hoger beroep vatbaar is.]1
-----------
+
 (1)<W 2024-04-21/12, art. 3, 022; Inwerkingtreding : 22-07-2024>
 
 
@@ -7864,7 +7864,7 @@ Waar in één van de [1 in het eerste lid, 2°,]1 opgesomde bepalingen sprake is
 percentage van het kapitaal dient deze bepaling te worden gelezen als het breukgetal of percentage van het
 aantal uitgegeven aandelen.
 [1 ...]1
-----------
+
 (1)<W 2020-04-28/06, art. 83, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 152, 019; Inwerkingtreding : 08-04-2024>
 
@@ -8019,7 +8019,7 @@ die rekening kan alleen worden beschikt door personen die bevoegd zijn om de ven
 eerst nadat de optredende notaris aan de instelling bericht heeft gegeven van het verlijden van de akte.
 Indien de vennootschap niet binnen één maand na de opening van de bijzondere rekening is opgericht, wordt
 het geld teruggegeven aan de deposanten die erom verzoeken.
-----------
+
 (1)<W 2021-07-12/01, art. 13, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -8220,7 +8220,7 @@ intrekking van Richtlijn 1999/93/EG]2.
 indien dat afwijkt van hun winstrechten.
 In geval van tegenstrijdigheid tussen de statuten en het aandelenregister, gelden de statuten, tenzij deze nog
 niet zijn aangepast na een uitgifte van aandelen door het bestuursorgaan in toepassing van artikel 5:137, § 2.
-----------
+
 (1)<W 2020-04-28/06, art. 84, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 14, 007; Inwerkingtreding : 25-07-2021>
 
@@ -8313,7 +8313,7 @@ bevoegdheden die haar werden toegekend door de wet van 22 februari 1998 tot vast
 statuut van de National Bank van België.]2
 De daarmee overeenstemmende bepalingen die de niet-naleving van voornoemde bepalingen bestraffen zijn van
 toepassing.
-----------
+
 (1)<W 2020-04-28/06, art. 85, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 313, 006; Inwerkingtreding : 19-07-2021>
 (3)<W 2021-06-27/09, art. 411, 006; Inwerkingtreding : 19-07-2021>
@@ -8331,7 +8331,7 @@ bij de erkende rekeninghouder waarvan sprake in artikel 5:39, bij één of meerd
 rechtstreeks of onrechtstreeks als tussenpersoon ten opzichte van die in artikel 5:39 bedoelde erkende
 rekeninghouder optreden, of tegelijk bij de erkende rekeninghouder waarvan sprake in artikel 5:39 en één of
 meerdere voornoemde instellingen.
-----------
+
 (1)<W 2021-06-27/09, art. 314, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8388,7 +8388,7 @@ terugvordering wordt uitgeoefend volgens de in het eerste tot vierde lid omschre
 De teruggave van de in artikel 5:31 bedoelde gedematerialiseerde effecten gebeurt door overschrijving op een
 effectenrekening bij een andere erkende rekeninghouder, aangewezen door de persoon die het
 terugvorderingsrecht uitoefent.
-----------
+
 (1)<W 2020-04-28/06, art. 86, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 (3)<W 2023-12-20/08, art. 89, 016; Inwerkingtreding : 25-01-2024>
@@ -8407,7 +8407,7 @@ onzeker is of verbintenissen op termijn, in voorkomend geval, op de dag van het 
 van de samenloop, waren geboekt op een afzonderlijk deel van de effectenrekening, en waarvan de
 samenvoeging met het beschikbaar saldo is uitgesteld tot aan de vervulling van de voorwaarde, de vaststelling
 van het bedrag of het verval van de termijn.
-----------
+
 (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8421,7 +8421,7 @@ de centrale effectenbewaarinstelling]1 of, in voorkomend geval, aan de erkende r
 overeenkomstig de bedragen aan gedematerialiseerde effecten die op de vervaldag geboekt staan op hun naam.
 Deze betalingen zijn bevrijdend voor [1 de centrale effectenbewaarinstelling]1 of, in voorkomend geval, voor de
 erkende rekeninghouder wanneer artikel 5:39 wordt toegepast.
-----------
+
 (1)<W 2021-06-27/09, art. 316, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8432,7 +8432,7 @@ verhaal in geval van faillissement van de emittent ervan of in alle andere geval
 laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
 effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
 de eigenaar of van de tussenpersoon is ingeschreven op de datum vereist voor de uitoefening van deze rechten.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8443,7 +8443,7 @@ waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de 
 de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
 vervallen dividenden, interesten en kapitalen door de erkende rekeninghouders en [1 de centrale
 effectenbewaarinstelling]1.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8451,7 +8451,7 @@ effectenbewaarinstelling]1.
 
 [1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
 bedoeld in deze afdeling.
-----------
+
 (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
 
@@ -8468,7 +8468,7 @@ De gehele omloop van een uitgifte van gedematerialiseerde effecten van een emitt
 De boeking op rekening van effecten vestigt in dat geval een onlichamelijk recht van mede-eigendom op de
 algemeenheid van effecten van dezelfde uitgifte die op naam van de rekeninghouder zijn ingeschreven in het
 register van effecten op naam.
-----------
+
 (1)<W 2021-06-27/09, art. 318, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -8560,7 +8560,7 @@ deze aandelen toch stemrecht niettegenstaande andersluidende statutaire bepaling
 overeenkomst, indien de preferente dividenden gedurende twee opeenvolgende boekjaren niet volledig
 betaalbaar werden gesteld. Het stemrecht vervalt opnieuw wanneer een dividend wordt uitgekeerd dat, bovenop
 het dividend van het betrokken boekjaar, gelijk is aan het bedrag van de niet uitgekeerde preferente dividenden.
-----------
+
 (1)<W 2020-04-28/06, art. 87, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 3, 013; Inwerkingtreding : 16-06-2023>
 
@@ -8613,7 +8613,7 @@ bevinden.
 Indien die algemeenheid in het geval bedoeld in het vorige lid niet toereikend is om de volledige teruggave van de
 [1 effecten]1 te waarborgen, wordt zij onder de houders van certificaten verdeeld naar verhouding van hun
 rechten.
-----------
+
 (1)<W 2020-04-28/06, art. 88, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-12-20/08, art. 90, 016; Inwerkingtreding : 25-01-2024>
 
@@ -8631,7 +8631,7 @@ obligaties [1 ...]1, in voorkomend geval converteerbaar in aandelen, waarbij het
 uitgiftevoorwaarden kan toekomen aan de obligatiehouder of aan de vennootschap, dan wel automatisch, al dan
 niet onder bepaalde voorwaarden, kan plaatsvinden. Obligaties kunnen voor een bepaalde termijn of
 eeuwigdurend worden uitgegeven.
-----------
+
 (1)<W 2020-04-28/06, art. 89, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -8769,7 +8769,7 @@ elektronische vorm aannemen en worden ondertekend door [1 een elektronische hand
 artikel 3, 10° tot 3, 12°, van de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23
 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de
 interne markt en tot intrekking van Richtlijn 1999/93/EG]1.
-----------
+
 (1)<W 2021-07-12/01, art. 15, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -8795,7 +8795,7 @@ Die instemming is evenwel niet vereist wanneer de aandelen worden overgedragen o
 3° aan de bloedverwanten van de overdrager in de rechte opgaande of in de rechte nederdalende lijn.
 § 2. Overdrachten die met miskenning van paragraaf 1 gebeuren, kunnen niet aan de vennootschap of aan
 derden worden tegengeworpen, ongeacht de goede of kwade trouw van de overnemer [1 ...]1.
-----------
+
 (1)<W 2020-04-28/06, art. 90, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -8850,7 +8850,7 @@ opgenomen, kan aan de vennootschap of derden niet worden tegengeworpen, ongeacht
 trouw van de overnemer, zelfs wanneer de statutaire overdrachtsbeperking niet in het aandelenregister is
 
 opgenomen.]1
-----------
+
 (1)<W 2020-04-28/06, art. 91, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -8898,7 +8898,7 @@ informatieverstrekking aan en de gelijke behandeling van de effectenhouders.
 § 3. Het uittreksel uit de in kracht van gewijsde gegane of bij voorraad uitvoerbare rechterlijke beslissing waarbij
 de voorwaarden van een uitkoopbod worden vastgesteld, wordt neergelegd en bekendgemaakt overeenkomstig
 de artikelen 2:8 en 2:14, 4°.
-----------
+
 (1)<W 2020-04-28/06, art. 92, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9082,7 +9082,7 @@ De bepaling dat het dagelijks bestuur wordt opgedragen aan een of meer personen 
 als college optreden, kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 Beperkingen aan de vertegenwoordigingsbevoegdheid van het orgaan van dagelijks bestuur kunnen aan derden
 echter niet worden tegengeworpen, ook al zijn ze openbaar gemaakt.
-----------
+
 (1)<W 2020-04-28/06, art. 94, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9110,7 +9110,7 @@ De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit we
 toewijst.
 De statuten kunnen de bevoegdheden van de algemene vergadering uitbreiden. Zodanige uitbreiding kan niet
 aan derden worden tegengeworpen, [1 ook al is ze openbaar gemaakt]1.
-----------
+
 (1)<W 2020-04-28/06, art. 95, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9134,7 +9134,7 @@ Zij wordt ten minste vijftien dagen vóór de vergadering meegedeeld overeenkoms
 aandeelhouders, [1 de aandeelhouders zonder stemrecht,]1 de houders van converteerbare obligaties op naam,
 van inschrijvingsrechten op naam of met medewerking van de vennootschap uitgegeven certificaten op naam,
 de leden van het bestuursorgaan, en, in voorkomend geval, de commissaris.
-----------
+
 (1)<W 2020-04-28/06, art. 96, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9157,7 +9157,7 @@ algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. In 
 formaliteiten van bijeenroeping niet te worden nageleefd. De leden van het bestuursorgaan, de commissaris en
 de houders van converteerbare obligaties, inschrijvingsrechten of met medewerking van de vennootschap
 uitgegeven certificaten mogen op hun verzoek van die besluiten kennis nemen.
-----------
+
 (1)<W 2020-12-20/02, art. 22, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -9170,7 +9170,7 @@ De aandeelhouders mogen deelnemen aan de algemene vergadering.
 De houders [1 van aandelen zonder stemrecht,]1 van converteerbare obligaties, inschrijvingsrechten en met
 medewerking van de vennootschap uitgegeven certificaten mogen de algemene vergadering bijwonen met
 raadgevende stem.
-----------
+
 (1)<W 2020-04-28/06, art. 97, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9230,7 +9230,7 @@ afstand te stemmen vóór de algemene vergadering, volgens de statutair bepaalde
 Als de vennootschap stemmen op afstand langs elektronische weg toestaat, moet zij in staat zijn de
 hoedanigheid en de identiteit van de aandeelhouder te controleren, op de bij of krachtens de statuten bepaalde
 wijze.
-----------
+
 (1)<W 2020-12-20/02, art. 23, 005; Inwerkingtreding : 24-12-2020>
 (2)<W 2020-12-20/02, art. 24, 005; Inwerkingtreding : 24-12-2020>
 
@@ -9242,7 +9242,7 @@ wijze.
 
 Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
 inzage krijgen in deze lijst.]1
-----------
+
 (1)<W 2020-04-28/06, art. 98, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9271,7 +9271,7 @@ bijeengeroepen schriftelijk vragen stellen via het in de oproeping tot de vergad
 artikel 2:31 bedoelde e-mailadres en binnen de in de statuten bepaalde termijn. Indien de betrokken
 effectenhouders de formaliteiten om tot de vergadering te worden toegelaten hebben vervuld, worden deze
 vragen tijdens de vergadering beantwoord.
-----------
+
 (1)<W 2020-04-28/06, art. 99, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9372,7 +9372,7 @@ beraadslaagt en besluit op geldige wijze, ongeacht het door de aanwezige of vert
 vertegenwoordigde aantal aandelen.
 Een wijziging is alleen dan aangenomen, wanneer zij drie vierde van de uitgebrachte stemmen heeft verkregen,
 waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
-----------
+
 (1)<W 2020-04-28/06, art. 100, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9421,7 +9421,7 @@ beslissing binnen elke soort moet worden genomen met naleving van de aanwezighei
 meerderheidsvereisten voorgeschreven voor een statutenwijziging, en moet elke houder van ondereffecten
 worden toegelaten tot de besluitvorming en de stemming in de betrokken soort, waarbij de stemmen worden
 geteld op basis van één stem voor het kleinste ondereffect.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -9571,7 +9571,7 @@ van obligatiehouders te worden toegelaten.
 
 [1 Het bestuursorgaan kan]1 de in artikel 5:89 bedoelde regeling voor deelname op afstand, onder
 dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
-----------
+
 (1)<W 2020-12-20/02, art. 25, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -9637,7 +9637,7 @@ Alle obligatiehouders kunnen in persoon of bij volmacht stemmen.
 
 ##### HOOFDSTUK 1. [1 Bijkomende inbrengen en de uitgifte van nieuwe aandelen, van converteerbare obligaties en
 van inschrijvingsrechten.]1
-----------
+
 (1)<W 2020-04-28/06, art. 101, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9654,7 +9654,7 @@ geplaatst.
 aanvaarden met gewone meerderheid. Dit besluit wordt in een authentieke akte vastgesteld [1 en neergelegd en
 
 bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 1°]1.
-----------
+
 (1)<W 2020-04-28/06, art. 102, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9742,7 +9742,7 @@ inschrijvingsrechten. Deze vaststelling heeft wijziging tot gevolg van de statut
 aantal uitgegeven aandelen; zij verleent de hoedanigheid van aandeelhouder [1 ...]1 aan de obligatiehouder wiens
 obligaties werden [1 geconverteerd of vervangen door aandelen]1 en aan de houder van het inschrijvingsrecht
 die zijn recht heeft uitgeoefend.
-----------
+
 (1)<W 2020-04-28/06, art. 103, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -9806,7 +9806,7 @@ Wanneer de verantwoording bedoeld in het tweede lid, of de verklaring bedoeld in
 de in de artikelen 5:121 of 5:122 bedoelde verslagen en het besluit van de algemene vergadering nietig.
 Het besluit van de algemene vergadering om het voorkeurrecht te beperken of op te heffen moet worden
 neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 4°.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -9847,7 +9847,7 @@ betrokken vennootschap te voeren.
 De houders van de in het zesde lid bedoelde effecten mogen evenmin aan de stemming deelnemen. Het
 aanwezigheidsquorum en de meerderheid worden berekend na aftrek van de stemmen verbonden aan de
 effecten waarvan de begunstigde en de in het zesde lid bedoelde personen houder zijn.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -9876,7 +9876,7 @@ In de authentieke akte houdende vaststelling van de uitgifte van aandelen van he
 bijzondere rekening te storten werd nageleefd.]1
 Indien de inbreng niet binnen één maand na de opening van de bijzondere rekening is [1 gebeurd]1, wordt het
 geld teruggegeven aan de deposanten die erom verzoeken.
-----------
+
 (1)<W 2020-04-28/06, art. 104, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 16, 007; Inwerkingtreding : 25-07-2021>
 
@@ -9989,7 +9989,7 @@ is beperkt of uitgesloten ten gunste van één of meer bepaalde personen, andere
 dat geval mogen de bestuurders die de begunstigde van de opheffing van het voorkeurrecht of een met de
 begunstigde verbonden persoon zoals omschreven in artikel 5:131, zesde lid, in feite vertegenwoordigen, niet
 aan de stemming deelnemen.
-----------
+
 (1)<W 2020-04-28/06, art. 105, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10012,7 +10012,7 @@ aandeelhouder.
 
 *Onderafdeling 3. [1 Uitgifte van aandelen, converteerbare obligaties en van inschrijvingsrechten door het*
 bestuursorgaan.]1
-----------
+
 (1)<W 2020-04-28/06, art. 106, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10037,7 +10037,7 @@ authentieke akte verleden op verzoek van het bestuursorgaan.
 bestuursorgaan aandelen kan uitgeven zonder meteen de statuten te wijzigen. In dat geval worden de uitgiftes
 van aandelen en de daaruit voortvloeiende statutenwijziging, vóór het einde van elk boekjaar, vastgesteld bij een
 authentieke akte verleden op verzoek van het bestuursorgaan.
-----------
+
 (1)<W 2020-04-28/06, art. 107, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10054,7 +10054,7 @@ tweede lid; zij worden van rechtswege als inschrijvers ervan beschouwd;
 worden beschouwd;
 3° tot volstorting van de aandelen waarop rechtstreeks of middels certificaten is ingeschreven in strijd met
 artikel [1 5:124]1.
-----------
+
 (1)<W 2020-04-28/06, art. 108, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10118,7 +10118,7 @@ boekhoudkundige en financiële gegevens van dit verslag. De commissaris vermeldt
 dat hij deze opdracht heeft uitgevoerd.
 [1 Bij het nemen van het besluit als bedoeld in dit artikel vinden de artikelen 5:76, 5:77 en 5:78 geen
 toepassing.]1
-----------
+
 (1)<W 2020-04-28/06, art. 109, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10132,7 +10132,7 @@ schade.
 De vennootschap kan elke uitkering die in strijd met de artikelen 5:142 en 5:143 is verricht [1 terugvorderen van
 de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist]1, ongeacht hun goede of
 kwade trouw.
-----------
+
 (1)<W 2020-04-28/06, art. 110, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10182,7 +10182,7 @@ De artikelen [1 5:145]1 en 5:149, eerste lid, zijn niet van toepassing:
 2° op aandelen of op certificaten verkregen bij een verkoop die overeenkomstig de artikelen 1494 en volgende
 van het Gerechtelijk Wetboek plaatsvindt ter voldoening van een schuld van de eigenaar van die aandelen of
 certificaten aan de vennootschap.
-----------
+
 (1)<W 2020-04-28/06, art. 111, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10222,7 +10222,7 @@ vergadering genomen met naleving binnen elke soort, van de aanwezigheids- en mee
 voorgeschreven voor een statutenwijziging.
 Voor de vervreemding aan het personeel van aandelen of certificaten verkregen met dat doel is deze [1
 machtiging]1 niet vereist.
-----------
+
 (1)<W 2020-04-28/06, art. 112, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10377,7 +10377,7 @@ vernietigd.
 aandeelhouders, de datum waarop dit is gebeurd, en de aan de betrokken aandeelhouders betaalde vergoeding.
 § 5. De uitsluitingen en de daaruit voortvloeiende statutenwijziging worden, vóór het einde van elk boekjaar,
 vastgesteld bij een authentieke akte verleden op verzoek van het bestuursorgaan.
-----------
+
 (1)<W 2020-04-28/06, art. 113 , 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10394,7 +10394,7 @@ vereffening van de vennootschap niet vorderen.
 § 2. De statuten kunnen bepalen dat de aandeelhouder die niet langer beantwoordt aan de statutaire vereisten
 om aandeelhouder te worden, wordt geacht op dat ogenblik van rechtswege uit te treden. De bepalingen van
 paragraaf 1 zijn van overeenkomstige toepassing, in zoverre de statuten er niet van afwijken.
-----------
+
 (1)<W 2020-04-28/06, art. 114, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10408,7 +10408,7 @@ aangegaan.
 Wanneer de duur bepaald is, kan de algemene vergadering besluiten tot verlenging voor een bepaalde of
 onbepaalde duur. Dit besluit vereist een statutenwijziging.
 [1 ...]1
-----------
+
 (1)<W 2020-04-28/06, art. 115, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10426,7 +10426,7 @@ vennootschap stortingen op de aandelen doen of stortingen als gedaan erkennen di
 op de voorgeschreven wijze en tijdstippen;
 3° de bestuurders bedoeld in artikel 2:51 die het voorschrift van artikel 5:142 of artikel 5:143 [1 , eerste lid]1
 overtreden.
-----------
+
 (1)<W 2020-04-28/06, art. 116, 002; Inwerkingtreding : 06-05-2020>
 
 BOEK 6. De coöperatieve vennootschap.
@@ -10464,7 +10464,7 @@ handvest.
 De aandeelhouders van een coöperatieve vennootschap verbinden slechts hun inbreng.
 [1 De aandeelhouders kunnen in de statuten "aandeelhouders", "vennoten", "coöperanten" of "leden" worden
 genoemd, dan wel een soortgelijke benaming dragen.]1
-----------
+
 (1)<W 2020-04-28/06, art. 118, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10526,7 +10526,7 @@ De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande
 statutaire bepaling, onvoorwaardelijk zijn geplaatst.
 [1 In de in het Frans gestelde statuten mogen voor het Nederlandse begrip "aandeel", de Franse begrippen
 "action" dan wel "part" worden gebruikt.]1
-----------
+
 (1)<W 2020-04-28/06, art. 119, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10626,7 +10626,7 @@ die rekening kan alleen worden beschikt door personen die bevoegd zijn om de ven
 eerst nadat de optredende notaris aan de instelling bericht heeft gegeven van het verlijden van de akte.
 Indien de vennootschap niet binnen één maand na de opening van de bijzondere rekening is opgericht, wordt
 het geld teruggegeven aan de deposanten die erom verzoeken.
-----------
+
 (1)<W 2021-07-12/01, art. 17, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -10765,7 +10765,7 @@ Obligaties die uitsluitend in het buitenland worden uitgegeven en die worden beh
 recht kunnen evenwel de vorm aannemen van individuele of verzameleffecten aan toonder. Deze obligaties aan
 toonder mogen evenwel niet fysiek worden afgeleverd in België. De eigenaars van deze obligaties aan toonder
 kunnen te allen tijde vragen dat deze op hun kosten worden omgezet in obligaties op naam.
-----------
+
 (1)<W 2020-04-28/06, art. 120, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -10830,7 +10830,7 @@ intrekking van Richtlijn 1999/93/EG]2;
 7° de aan elk aandeel verbonden stemrechten en winstrechten evenals hun aandeel in het vereffeningssaldo,
 indien dat afwijkt van hun winstrechten.
 In geval van tegenstrijdigheid tussen de statuten en het aandelenregister, gelden de statuten.
-----------
+
 (1)<W 2020-04-28/06, art. 121, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 18, 007; Inwerkingtreding : 25-07-2021>
 
@@ -10914,7 +10914,7 @@ bevoegdheden die haar werden toegekend door de wet van 22 februari 1998 tot vast
 statuut van de National Bank van België.]2
 De daarmee overeenstemmende bepalingen die de niet-naleving van voornoemde bepalingen bestraffen zijn van
 toepassing.
-----------
+
 (1)<W 2020-04-28/06, art. 122, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 313, 006; Inwerkingtreding : 19-07-2021>
 (3)<W 2021-06-27/09, art. 412, 006; Inwerkingtreding : 19-07-2021>
@@ -10932,7 +10932,7 @@ bij de erkende rekeninghouder waarvan sprake in artikel 6:38, bij één of meerd
 rechtstreeks of onrechtstreeks als tussenpersoon ten opzichte van die in artikel 6:38 bedoelde erkende
 rekeninghouder optreden, of tegelijk bij de erkende rekeninghouder waarvan sprake in artikel 6:38 en één of
 meerdere voornoemde instellingen.
-----------
+
 (1)<W 2021-06-27/09, art. 314, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -10987,7 +10987,7 @@ wordt uitgeoefend volgens de in het eerste tot vierde lid omschreven regels.
 De teruggave van de in artikel 6:30 bedoelde gedematerialiseerde effecten gebeurt door overschrijving op een
 effectenrekening bij een andere erkende rekeninghouder, aangewezen door de persoon die het
 terugvorderingsrecht uitoefent.
-----------
+
 (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 (2)<W 2023-12-20/08, art. 91, 016; Inwerkingtreding : 25-01-2024>
 
@@ -11005,7 +11005,7 @@ onzeker is of verbintenissen op termijn, in voorkomend geval, op de dag van het 
 van de samenloop, waren geboekt op een afzonderlijk deel van de effectenrekening, en waarvan de
 samenvoeging met het beschikbaar saldo is uitgesteld tot aan de vervulling van de voorwaarde, de vaststelling
 van het bedrag of het verval van de termijn.
-----------
+
 (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -11019,7 +11019,7 @@ toegepast, is bevrijdend voor de uitgever.
 de bedragen aan gedematerialiseerde effecten die op de vervaldag geboekt staan op hun naam. Deze betalingen
 zijn bevrijdend voor [1 de centrale effectenbewaarinstelling]1 of, in voorkomend geval, voor de erkende
 rekeninghouder wanneer artikel 6:38 wordt toegepast.
-----------
+
 (1)<W 2021-06-27/09, art. 316, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -11030,7 +11030,7 @@ verhaal in geval van faillissement van de emittent ervan of in alle andere geval
 laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
 effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
 de eigenaar of van de tussenpersoon is ingeschreven op de datum vereist voor de uitoefening van deze rechten.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -11040,7 +11040,7 @@ Met het oog op de uitvoering van de artikelen 6:30 tot 6:35, kan de Koning de vo
 waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de rekeningen, de aard van
 de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
 vervallen interesten en kapitalen door de erkende rekeninghouders en [1 de centrale effectenbewaarinstelling]1.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -11048,7 +11048,7 @@ vervallen interesten en kapitalen door de erkende rekeninghouders en [1 de centr
 
 [1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
 bedoeld in deze afdeling.
-----------
+
 (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
 
@@ -11065,7 +11065,7 @@ De gehele omloop van een uitgifte van gedematerialiseerde effecten van een emitt
 De boeking op rekening van effecten vestigt in dat geval een onlichamelijk recht van mede-eigendom op de
 algemeenheid van effecten van dezelfde uitgifte die op naam van de rekeninghouder zijn ingeschreven in het
 register van effecten op naam.
-----------
+
 (1)<W 2021-06-27/09, art. 318, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -11220,7 +11220,7 @@ elektronische vorm aannemen en worden ondertekend door [1 een elektronische hand
 artikel 3, 10° tot 3, 12°, van de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23
 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de
 interne markt en tot intrekking van Richtlijn 1999/93/EG]1.
-----------
+
 (1)<W 2021-07-12/01, art. 19, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -11257,7 +11257,7 @@ algemene vergadering ligt. De statuten kunnen bepalen dat het bevoegde orgaan ee
 weigeren, op voorwaarde dat de weigering wordt gemotiveerd.
 Overdrachten die met miskenning van het eerste lid gebeuren, kunnen niet aan de vennootschap of aan derden
 worden tegengeworpen, ongeacht de goede of kwade trouw van de overnemer [1 ...]1.
-----------
+
 (1)<W 2020-04-28/06, art. 123, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11284,7 +11284,7 @@ voor hun overdracht niet versoepelen.
 opgenomen, kan aan de vennootschap of derden niet worden tegengeworpen, ongeacht de goede of kwade
 trouw van de overnemer, zelfs wanneer de statutaire overdrachtsbeperking niet in het aandelenregister is
 opgenomen.]1
-----------
+
 (1)<W 2020-04-28/06, art. 124, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11476,7 +11476,7 @@ De bepaling dat het dagelijks bestuur wordt opgedragen aan een of meer personen 
 als college optreden, kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 Beperkingen aan de vertegenwoordigingsbevoegdheid van het orgaan van dagelijks bestuur kunnen aan derden
 echter niet worden tegengeworpen, ook al zijn ze openbaar gemaakt.
-----------
+
 (1)<W 2020-04-28/06, art. 126, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11508,7 +11508,7 @@ aan derden worden tegengeworpen [1 ook al is ze openbaar gemaakt]1.
 met naleving van de aanwezigheids- en meerderheidsvereisten voor een statutenwijziging, kunnen bijkomende en
 aanvullende bepalingen bevatten over de rechten van de aandeelhouders en de werking van de vennootschap,
 met inbegrip van de materies bedoeld in artikel 2:59, 2° en 3°.
-----------
+
 (1)<W 2020-04-28/06, art. 127, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11540,7 +11540,7 @@ De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot d
 algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. In dat geval dienen de
 formaliteiten van bijeenroeping niet te worden nageleefd. De leden van het bestuursorgaan en de commissaris
 mogen op hun verzoek van die besluiten kennisnemen.
-----------
+
 (1)<W 2020-12-20/02, art. 26, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -11604,7 +11604,7 @@ afstand te stemmen vóór de algemene vergadering, volgens de statutair bepaalde
 Als de vennootschap stemmen op afstand langs elektronische weg toestaat, moet zij in staat zijn de
 hoedanigheid en de identiteit van de aandeelhouder te controleren, op de bij of krachtens de statuten bepaalde
 wijze.
-----------
+
 (1)<W 2020-12-20/02, art. 27, 005; Inwerkingtreding : 24-12-2020>
 (2)<W 2020-12-20/02, art. 28, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
@@ -11616,7 +11616,7 @@ wijze.
 
 Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
 inzage krijgen in deze lijst.]1
-----------
+
 (1)<W 2020-04-28/06, art. 128, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11733,7 +11733,7 @@ aanwezige of vertegenwoordigde aandeelhouders vertegenwoordigde aantal aandelen.
 Behoudens een andersluidende statutaire bepaling, is een wijziging alleen dan aangenomen, wanneer zij drie
 vierde van de uitgebrachte stemmen heeft verkregen, waarbij onthoudingen in de teller noch in de noemer
 worden meegerekend.
-----------
+
 (1)<W 2020-04-28/06, art. 129, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -11784,7 +11784,7 @@ beslissing binnen elke soort moet worden genomen met naleving van de aanwezighei
 meerderheidsvereisten voorgeschreven voor een statutenwijziging, en moet elke houder van ondereffecten
 worden toegelaten tot de besluitvorming en de stemming in de betrokken soort, waarbij de stemmen worden
 geteld op basis van één stem voor het kleinste ondereffect.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -11931,7 +11931,7 @@ obligatiehouders te worden toegelaten.
 
 [1 Het bestuursorgaan kan]1 de in artikel 6:75 bedoelde regeling voor deelname op afstand, onder
 dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
-----------
+
 (1)<W 2020-12-20/02, art. 29, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -12228,7 +12228,7 @@ schade.
 De vennootschap kan elke uitkering die in strijd met de artikelen 6:115 en 6:116 is verricht [1 terugvorderen van
 de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist]1, ongeacht hun goede of
 kwade trouw.
-----------
+
 (1)<W 2020-04-28/06, art. 130, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -12379,7 +12379,7 @@ aandeelhouder worden vernietigd.
 De uitgesloten aandeelhouder kan de vereffening van de vennootschap niet vorderen.
 § 4. Het bestuursorgaan werkt het aandelenregister bij. Meer bepaald worden vermeld: de uitsluitingen van
 aandeelhouders, de datum waarop dit is gebeurd, en de aan de betrokken aandeelhouders betaalde vergoeding.
-----------
+
 (1)<W 2020-04-28/06, art. 131, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -12402,7 +12402,7 @@ aangegaan.
 Wanneer de duur bepaald is, kan de algemene vergadering besluiten tot verlenging voor een bepaalde of
 onbepaalde duur. Dit besluit vereist een statutenwijziging.
 [1 ...]1
-----------
+
 (1)<W 2020-04-28/06, art. 132, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -12438,7 +12438,7 @@ vennootschap stortingen op de aandelen doen of stortingen als gedaan erkennen di
 op de voorgeschreven wijze en tijdstippen;
 3° de bestuurders bedoeld in artikel 2:51 die het voorschrift van artikel 6:115 of artikel 6:116 [1 , eerste lid]1
 overtreden.
-----------
+
 (1)<W 2020-04-28/06, art. 133, 002; Inwerkingtreding : 06-05-2020>
 
 BOEK 7. De naamloze vennootschap.
@@ -12704,7 +12704,7 @@ die rekening kan alleen worden beschikt door personen die bevoegd zijn om de ven
 eerst nadat de optredende notaris aan de instelling bericht heeft gegeven van het verlijden van de akte.
 Indien de vennootschap niet binnen één maand na de opening van de bijzondere rekening is opgericht, wordt
 het geld teruggegeven aan de deposanten die erom verzoeken.
-----------
+
 (1)<W 2021-07-12/01, art. 20, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -12920,7 +12920,7 @@ interne markt en tot intrekking van Richtlijn 1999/93/EG]2;
 7° de aan elk aandeel verbonden stemrechten en winstrechten evenals hun aandeel in het vereffeningssaldo,
 indien dat afwijkt van hun winstrechten.
 In geval van tegenstrijdigheid tussen de statuten en het aandelenregister, prevaleren de statuten.
-----------
+
 (1)<W 2020-04-28/06, art. 134, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 21, 007; Inwerkingtreding : 25-07-2021>
 
@@ -12957,7 +12957,7 @@ en vertrouwensdiensten voor elektronische transacties in de interne markt en tot
 overdrachtsbeperkingen van winstbewijzen die voortvloeien uit overeenkomsten of de uitgiftevoorwaarden.
 In geval van tegenstrijdigheid tussen de statuten en het register van de winstbewijzen, prevaleren de
 statuten.]1
-----------
+
 (1)<W 2020-04-28/06, art. 135, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-07-12/01, art. 22, 007; Inwerkingtreding : 25-07-2021>
 
@@ -13041,7 +13041,7 @@ bevoegdheden die haar werden toegekend door de wet van 22 februari 1998 tot vast
 statuut van de Nationale Bank van België.]2
 De daarmee overeenstemmende bepalingen die de niet-naleving van voornoemde bepalingen bestraffen zijn van
 toepassing.
-----------
+
 (1)<W 2020-04-28/06, art. 136, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 319, 006; Inwerkingtreding : 19-07-2021>
 (3)<W 2021-06-27/09, art. 413, 006; Inwerkingtreding : 19-07-2021>
@@ -13059,7 +13059,7 @@ bij de erkende rekeninghouder waarvan sprake in artikel 7:44, bij één of meerd
 rechtstreeks of onrechtstreeks als tussenpersoon ten opzichte van die in artikel 7:44 bedoelde erkende
 rekeninghouder optreden, of tegelijk bij de erkende rekeninghouder waarvan sprake in artikel 7:44 en één of
 meerdere voornoemde instellingen.
-----------
+
 (1)<W 2021-06-27/09, art. 320, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13116,7 +13116,7 @@ terugvordering wordt uitgeoefend volgens de in het eerste tot vierde lid omschre
 De teruggave van de in artikel 7:36 bedoelde gedematerialiseerde effecten gebeurt door overschrijving op een
 effectenrekening bij een andere erkende rekeninghouder, aangewezen door de persoon die het
 terugvorderingsrecht uitoefent.
-----------
+
 (1)<W 2020-04-28/06, art. 137, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 (3)<W 2023-12-20/08, art. 92, 016; Inwerkingtreding : 25-01-2024>
@@ -13135,7 +13135,7 @@ onzeker is of verbintenissen op termijn, in voorkomend geval, op de dag van het 
 van de samenloop, waren geboekt op een afzonderlijk deel van de effectenrekening, en waarvan de
 samenvoeging met het beschikbaar saldo is uitgesteld tot aan de vervulling van de voorwaarde, de vaststelling
 van het bedrag of het verval van de termijn.
-----------
+
 (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13149,7 +13149,7 @@ de centrale effectenbewaarinstelling]1 of, in voorkomend geval, aan de erkende r
 overeenkomstig de bedragen aan gedematerialiseerde effecten die op de vervaldag geboekt staan op hun naam.
 Deze betalingen zijn bevrijdend [1 voor de centrale effectenbewaarinstelling]1 of, in voorkomend geval, voor de
 erkende rekeninghouder wanneer artikel 7:44 wordt toegepast.
-----------
+
 (1)<W 2021-06-27/09, art. 321, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13160,7 +13160,7 @@ verhaal in geval van faillissement van de emittent ervan of in alle andere geval
 laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
 effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
 de eigenaar of van de tussenpersoon is ingeschreven op de datum vereist voor de uitoefening van deze rechten.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13171,7 +13171,7 @@ waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de 
 de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
 vervallen dividenden, interesten en kapitalen door de erkende rekeninghouders en [1 de centrale
 effectenbewaarinstelling]1.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13179,7 +13179,7 @@ effectenbewaarinstelling]1.
 
 [1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
 bedoeld in deze afdeling.
-----------
+
 (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
 
@@ -13196,7 +13196,7 @@ De gehele omloop van een uitgifte van gedematerialiseerde effecten van een emitt
 De boeking op rekening van effecten vestigt in dat geval een onlichamelijk recht van mede-eigendom op de
 algemeenheid van effecten van dezelfde uitgifte die op naam van de rekeninghouder zijn ingeschreven in het
 register van effecten op naam.
-----------
+
 (1)<W 2021-06-27/09, art. 322, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -13314,7 +13314,7 @@ aandelen als bedoeld in artikel 7:155.
 stemrecht voor een of meer soorten aandelen voorzien, kan het dubbel stemrecht met het oog op de notering
 invoeren, na opheffing van het meervoudig stemrecht door een statutenwijziging met inachtneming van artikel
 7:155.
-----------
+
 (1)<W 2020-04-28/06, art. 138, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -13347,7 +13347,7 @@ te keuren.]1
 § 2. Stemmen uitgebracht tijdens een algemene vergadering op grond van overeenkomsten bedoeld in
 paragraaf 1, derde lid, zijn nietig. Die stemmen brengen de nietigheid mee van de genomen besluiten, tenzij zij
 geen enkele invloed hebben gehad op de geldigheid van de gehouden stemming.
-----------
+
 (1)<W 2020-04-28/06, art. 139, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -13370,7 +13370,7 @@ betaalbaar werden gesteld. Het stemrecht vervalt opnieuw wanneer een dividend wo
 het dividend van het betrokken boekjaar, gelijk is aan het bedrag van de niet uitgekeerde preferente dividenden.
 In geval de aandelen zonder stemrecht een verschillende kapitaalvertegenwoordigende waarde hebben, is
 artikel 7:51, tweede lid, van toepassing.
-----------
+
 (1)<W 2020-04-28/06, art. 140, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 4, 013; Inwerkingtreding : 16-06-2023>
 
@@ -13449,7 +13449,7 @@ vereffenaar,]1 op de algemeenheid van de gecertificeerde effecten van dezelfde c
 door dezelfde vennootschap, die zich in het bezit van de betrokken emittent van certificaten bevinden.
 Indien die algemeenheid in het geval bedoeld in het eerste lid niet toereikend is om de volledige teruggave van de
 effecten te waarborgen, wordt zij onder de houders van certificaten verdeeld naar verhouding van hun rechten.
-----------
+
 (1)<W 2023-12-20/08, art. 93, 016; Inwerkingtreding : 25-01-2024>
 
 
@@ -13606,7 +13606,7 @@ elektronische vorm aannemen en worden ondertekend door [1 een elektronische hand
 artikel 3, 10° tot 3, 12°, van de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23
 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de
 interne markt en tot intrekking van Richtlijn 1999/93/EG]1.
-----------
+
 (1)<W 2021-07-12/01, art. 23, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -13739,7 +13739,7 @@ de artikelen 2:8 en 2:14, 4°.
 § 5. De Koning kan niet genoteerde vennootschappen waarvan de aandelen zijn toegelaten tot de verhandeling
 op de markten die Hij aanduidt in toepassing van artikel 5, eerste lid, van de wet van 1 april 2007 op de openbare
 overnamebiedingen onderwerpen aan het regime van paragraaf 1.
-----------
+
 (1)<W 2020-04-28/06, art. 141, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -13835,7 +13835,7 @@ reden, zonder opzeggingstermijn of vertrekvergoeding.
 vennootschap blijft hij in functie totdat de vennootschap redelijkerwijze in zijn vervanging kan voorzien. Hij kan
 zelf het nodige doen om de beëindiging van zijn mandaat aan derden tegen te werpen onder de voorwaarden
 bepaald in artikel 2:18.
-----------
+
 (1)<W 2024-03-27/02, art. 153, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -13860,7 +13860,7 @@ notering.
 1:12, 2°, mogen zich niet in één van de in artikel 20 van de wet van 25 april 2014 op het statuut van en het
 
 toezicht op kredietinstellingen voorziene gevallen bevinden.]2
-----------
+
 (1)<W 2020-04-28/06, art. 142, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 154, 019; Inwerkingtreding : 08-04-2024>
 
@@ -13877,7 +13877,7 @@ Ingeval de raad van bestuur na de algemene vergadering bedoeld in het tweede lid
 overeenkomstig het eerste en het tweede lid, dan wordt elk financieel of ander voordeel dat aan de bestuurders
 toekomt op grond van hun mandaat vanaf dat ogenblik geschorst, tot op het ogenblik waarop de samenstelling
 van de raad van bestuur terug in overeenstemming is.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-28/60, art. 155, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -13903,7 +13903,7 @@ daarvan onverwijld in kennis via de voorzitter.
 september 1948 houdende organisatie van het bedrijfsleven, worden de namen van de voorgedragen
 onafhankelijke bestuurders voorafgaand aan de benoeming door de algemene vergadering, ter kennisgeving aan
 de ondernemingsraad medegedeeld. Eenzelfde procedure is vereist bij hernieuwing van het mandaat.
-----------
+
 (1)<W 2024-03-28/60, art. 156, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -13925,7 +13925,7 @@ ogenblik. Elke andere benoeming is nietig.
 [2 Artikel 7:86, § 1, derde lid, is]2 van overeenkomstige toepassing vanaf het ogenblik dat de raad van bestuur
 van zijn coöptatiebevoegdheid gebruik maakt zonder zijn samenstelling in overeenstemming [2 te brengen met
 artikel 7:86, § 1, eerste lid]2.
-----------
+
 (1)<W 2020-04-28/06, art. 143, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-03-28/60, art. 157, 019; Inwerkingtreding : 08-04-2024>
 
@@ -14004,7 +14004,7 @@ algemene vergadering goedgekeurd remuneratiebeleid en enkel betrekking heeft op 
 remuneratiebeleid waarop zij afwijkingen toestaat.
 § 6. Dit artikel doet geen afbreuk aan de artikelen 7:91 en 7:92 en aan de wettelijke bepalingen voorzien in
 bijzondere wetten.]1
-----------
+
 (1)<Ingevoegd bij W 2020-04-28/06, art. 31, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -14035,7 +14035,7 @@ De in het tweede lid vermelde verplichting geldt niet indien de variabele remune
 jaarlijkse remuneratie betreft.
 Voor de toepassing van deze bepaling verwijst "jaarlijkse remuneratie" naar alle elementen waarvan de publicatie
 in het jaarverslag is vereist krachtens [1 artikel 3:6, § 3, derde lid, 1°]1.
-----------
+
 (1)<W 2020-04-28/06, art. 32, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -14066,7 +14066,7 @@ onafhankelijk is die voorziet in een variabele vergoeding, wordt, niettegenstaan
 contractuele bepaling, steeds overeengekomen onder opschortende voorwaarde van goedkeuring door de
 algemene vergadering. Aan een onafhankelijke bestuurder kan geen variabele vergoeding worden toegekend.
 Het tweede en het derde lid zijn van overeenkomstige toepassing op het vierde lid.
-----------
+
 (1)<W 2020-04-28/06, art. 33, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -14257,7 +14257,7 @@ heeft verlangd.
 Verordening (EU) nr. 596/2014 van het Europees Parlement en de Raad van 16 april 2014 betreffende
 marktmisbruik (verordening marktmisbruik) en houdende intrekking van richtlijn 2003/6/EG van het Europees
 Parlement en de Raad en richtlijnen 2003/124/EG, 2003/125/EG en 2004/72/EG van de Commissie onverlet.]1
-----------
+
 (1)<W 2020-04-28/06, art. 34, 002; Inwerkingtreding : 16-05-2020>
 (2)<W 2024-03-28/60, art. 158, 019; Inwerkingtreding : 08-04-2024>
 
@@ -14382,7 +14382,7 @@ auditcomité.
 De opdrachten van de commissaris en, in voorkomend geval, van de bedrijfsrevisor die instaat voor de controle
 van de geconsolideerde jaarrekening, zoals opgenomen onder paragraaf 7, blijven van toepassing, maar worden
 uitgeoefend ten aanzien van de raad van bestuur.
-----------
+
 (1)<W 2020-04-28/06, art. 145, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-12-02/07, art. 66, 024; Inwerkingtreding : 30-12-2024>
 
@@ -14442,7 +14442,7 @@ waardepapieren, zoals gedefinieerd in artikel 2, lid 5, van verordening (EG) nr.
 Commissie; in dat geval zet de vennootschap aan het publiek uiteen waarom zij het niet dienstig acht hetzij een
 remuneratiecomité in te stellen, hetzij het bestuursorgaan te belasten met de uitvoering van de taken van een
 remuneratiecomité.
-----------
+
 (1)<W 2020-04-28/06, art. 146, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -14483,7 +14483,7 @@ identiteit van de bijzondere lasthebber bij wie keuze van woonplaats wordt gedaa
 De vennootschap moet worden gedagvaard tot gemeenverklaring van vonnis.
 Indien dat niet is gebeurd, verdaagt de voorzitter de zaak naar een nabije datum. De kosten van de procedure
 vallen ten laste van de vennootschap, tenzij de voorzitter er uitdrukkelijk anders over beslist.
-----------
+
 (1)<W 2020-04-28/06, art. 147, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -14514,7 +14514,7 @@ vennootschap.
 Bovendien is paragraaf 1 niet van toepassing wanneer de beslissingen van de enige bestuurder betrekking
 hebben op gebruikelijke verrichtingen die plaatshebben onder de voorwaarden en tegen de zekerheden die op de
 markt gewoonlijk gelden voor soortgelijke verrichtingen.
-----------
+
 (1)<W 2020-04-28/06, art. 148, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -14537,7 +14537,7 @@ artikel 7:102 bestaat.
 opschorting van het bestuursbesluit te vorderen, kan de vennootschap de nietigheid vorderen van besluiten of
 verrichtingen die hebben plaatsgevonden met overtreding van de in artikel 7:102 of dit artikel bepaalde regels,
 indien de wederpartij bij die besluiten of verrichtingen van die overtreding op de hoogte was of had moeten zijn.
-----------
+
 (1)<W 2020-04-28/06, art. 149, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -14584,7 +14584,7 @@ bepaald in artikel 2:18.
 
 De artikelen 7:86, [1 7:86/1,]1 7:87 en 7:88 zijn van overeenkomstige toepassing op de raad van
 toezicht.
-----------
+
 (1)<W 2024-03-28/60, art. 159, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -14598,7 +14598,7 @@ De leden van de directieraad worden aangesteld en ontslagen door de raad van toe
 [1 Leden van de directieraad in genoteerde vennootschappen en organisaties van openbaar belang bedoeld in
 artikel 1:12, 2°, mogen zich niet in een van de in artikel 20 van de wet van 25 april 2014 op het statuut van en
 het toezicht op kredietinstellingen voorziene gevallen bevinden.]1
-----------
+
 (1)<W 2024-03-28/60, art. 160, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -14613,7 +14613,7 @@ Onverminderd strengere wettelijke bepalingen stelt de raad van toezicht de bezol
 de directieraad. Hij brengt daarover verslag uit in het jaarverslag.
 De artikelen [1 7:89/1,]1 7:90, 7:91 en 7:92 zijn van overeenkomstige toepassing op de leden van de raad van
 toezicht en van de directieraad van een genoteerde vennootschap.
-----------
+
 (1)<W 2020-04-28/06, art. 35, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -14642,7 +14642,7 @@ ontwerpjaarrekening ten grondslag ligt geen weglatingen of onjuiste vermeldingen
 dat de toestand van de vennootschap wordt weergegeven op een wijze die niet met de werkelijkheid
 overeenstemt, en, voor schendingen van de statuten of dit wetboek, wanneer de directieraad deze schendingen
 uitdrukkelijk heeft meegedeeld aan de raad van toezicht.
-----------
+
 (1)<W 2020-04-28/06, art. 150, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -14848,7 +14848,7 @@ heeft verlangd.
 Verordening (EU) nr. 596/2014 van het Europees Parlement en de Raad van 16 april 2014 betreffende
 marktmisbruik (verordening marktmisbruik) en houdende intrekking van richtlijn 2003/6/EG van het Europees
 Parlement en de Raad en richtlijnen 2003/124/EG, 2003/125/EG en 2004/72/EG van de Commissie onverlet.]1
-----------
+
 (1)<W 2020-04-28/06, art. 36, 002; Inwerkingtreding : 16-05-2020>
 (2)<W 2020-04-28/06, art. 151, 002; Inwerkingtreding : 06-05-2020>
 (3)<W 2024-03-28/60, art. 161, 019; Inwerkingtreding : 08-04-2024>
@@ -14880,7 +14880,7 @@ onrechtstreekse controle over de genoteerde vennootschap heeft, rechtstreeks of 
 natuurlijke of rechtspersonen dan de genoteerde vennootschap, een deelneming aanhoudt die minstens 25 %
 van het kapitaal van de betrokken dochtervennootschap vertegenwoordigt of die hem ingeval van winstuitkering
 door die dochtervennootschap recht geeft op minstens 25 % daarvan.]1
-----------
+
 (1)<W 2020-04-28/06, art. 37, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -15002,7 +15002,7 @@ auditcomité.
 De opdrachten van de commissaris en, in voorkomend geval, van de bedrijfsrevisor die instaat voor de controle
 van de geconsolideerde jaarrekening, zoals opgenomen onder paragraaf 7, blijven van toepassing, maar worden
 uitgeoefend ten aanzien van de raad van toezicht.
-----------
+
 (1)<W 2020-04-28/06, art. 152, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2024-12-02/07, art. 67, 024; Inwerkingtreding : 30-12-2024>
 
@@ -15059,7 +15059,7 @@ waardepapieren, zoals gedefinieerd in artikel 2, lid 5, van verordening (EG) nr.
 Commissie; in dat geval zet de vennootschap aan het publiek uiteen waarom zij het niet dienstig acht hetzij een
 remuneratiecomité in te stellen, hetzij de raad van toezicht te belasten met de uitvoering van de taken van een
 remuneratiecomité.
-----------
+
 (1)<W 2020-04-28/06, art. 153, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15087,7 +15087,7 @@ lid.
 § 3, derde lid, in genoteerde vennootschappen en organisaties van openbaar belang bedoeld in artikel 1:12, 2°,
 mogen zich niet in een van de in artikel 20 van de wet van 25 april 2014 op het statuut van en het toezicht op
 kredietinstellingen voorziene gevallen bevinden.]1
-----------
+
 (1)<W 2024-03-28/60, art. 162, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -15139,7 +15139,7 @@ De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit we
 toewijst.
 De statuten kunnen de bevoegdheden van de algemene vergadering uitbreiden. Zodanige uitbreiding kan niet
 aan derden worden tegengeworpen, [1 ook al is ze openbaar gemaakt]1.
-----------
+
 (1)<W 2020-04-28/06, art. 155, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15159,7 +15159,7 @@ commissaris, roepen de algemene vergadering bijeen en bepalen haar agenda. Zij z
 vergadering binnen drie weken bijeen te roepen wanneer aandeelhouders die een tiende van het kapitaal
 vertegenwoordigen, het vragen, met ten minste de door de betrokken aandeelhouders voorgestelde
 agendapunten.
-----------
+
 (1)<W 2020-04-28/06, art. 156, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15208,7 +15208,7 @@ In dat geval hebben de aandeelhouders geen recht om andere punten op de agenda v
 vergadering te plaatsen, kan geen herziening van de agenda plaatsvinden en [1 zijn de termijnen bedoeld]1 in
 paragraaf 1 niet van toepassing. [1 Deze paragraaf 2 is op overeenkomstige wijze van toepassing op de
 financiële holdings en gemengde financiële holdings als bedoeld in de voornoemde wet van 25 april 2014.]1
-----------
+
 (1)<W 2020-04-28/06, art. 157, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2025-12-11/13, art. 167, 025; Inwerkingtreding : 03-01-2026>
 
@@ -15248,7 +15248,7 @@ In dat geval hebben de aandeelhouders geen recht om andere punten op de agenda v
 vergadering te plaatsen, kan geen herziening van de agenda plaatsvinden en [1 zijn de termijnen bedoeld]1 in
 paragraaf 1 niet van toepassing. [1 Deze paragraaf 2 is op overeenkomstige wijze van toepassing op de
 financiële holdings en gemengde financiële holdings als bedoeld in de voornoemde wet van 25 april 2014.]1
-----------
+
 (1)<W 2020-04-28/06, art. 158, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2025-12-11/13, art. 168, 025; Inwerkingtreding : 03-01-2026>
 
@@ -15313,7 +15313,7 @@ formulieren op papier of op elektronische wijze kunnen verkrijgen. In dat geval 
 daarom verzoekt onverwijld het gevraagde formulier.
 De in deze paragraaf bedoelde informatie blijft toegankelijk op de vennootschapswebsite gedurende een periode
 van vijf jaar te rekenen vanaf de datum van de algemene vergadering waarop zij betrekking heeft.
-----------
+
 (1)<W 2020-04-28/06, art. 159, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2020-12-20/02, art. 30, 005; Inwerkingtreding : 24-12-2020>
 
@@ -15357,7 +15357,7 @@ de belangen van de volmachtgever zou kunnen schaden. De volmachtdrager moet de v
 kennis stellen.
 De volmacht moet vermelden of de volmachtdrager gemachtigd is om te stemmen over de nieuw te behandelen
 onderwerpen die op de agenda zijn opgenomen, dan wel of hij zich moet onthouden.
-----------
+
 (1)<W 2020-04-28/06, art. 160, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
@@ -15398,7 +15398,7 @@ de algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. 
 formaliteiten van bijeenroeping niet te worden vervuld. De leden van het bestuursorgaan, de commissaris en de
 houders van converteerbare obligaties, inschrijvingsrechten of certificaten die met medewerking van de
 vennootschap werden uitgegeven, mogen op hun verzoek van die besluiten kennis nemen.
-----------
+
 (1)<W 2020-12-20/02, art. 31, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -15432,7 +15432,7 @@ bezit was van die aandelen.
 [1 In het geval bedoeld in artikel 7:128, § 2, kan het bestuursorgaan van kredietinstellingen,
 beursvennootschappen, financiële holdings en gemengde financiële holdings, in afwijking van het voorgaande, de
 registratiedatum vastleggen uiterlijk op de derde kalenderdag voorafgaand aan de algemene vergadering.]1
-----------
+
 (1)<W 2020-04-28/06, art. 161, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2021-06-27/09, art. 323, 006; Inwerkingtreding : 19-07-2021>
 
@@ -15448,7 +15448,7 @@ van de vennootschap uitgegeven certificaten die de formaliteiten om tot een alge
 toegelaten hebben vervuld, worden ook toegelaten tot elke volgende algemene vergadering met dezelfde
 agendapunten, tenzij de vennootschap op de hoogte wordt gesteld van een overdracht van de betrokken
 effecten.]1
-----------
+
 (1)<W 2020-04-28/06, art. 162, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15492,7 +15492,7 @@ langs elektronische weg.
 § 2. Artikel 7:134 is van toepassing wanneer [1 op afstand aan de algemene vergadering wordt deelgenomen, in
 voorkomend geval wanneer de vennootschap dit toestaat]1.
 § 3. [1 ...]1
-----------
+
 (1)<W 2020-12-20/02, art. 32, 005; Inwerkingtreding : 24-12-2020>
 (2)<W 2020-12-20/02, art. 33, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
@@ -15504,7 +15504,7 @@ voorkomend geval wanneer de vennootschap dit toestaat]1.
 
 Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
 inzage krijgen in deze lijst.]1
-----------
+
 (1)<W 2020-04-28/06, art. 163, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15535,7 +15535,7 @@ vergadering vermelde adres of op het in artikel 2:31 bedoelde e-mailadres en bin
 termijn. Een genoteerde vennootschap moet de schriftelijke vragen evenwel uiterlijk op de zesde dag vóór de
 vergadering ontvangen. Indien de betrokken effectenhouders de formaliteiten om tot de vergadering te worden
 toegelaten hebben vervuld, worden deze vragen tijdens de vergadering beantwoord.
-----------
+
 (1)<W 2020-04-28/06, art. 164, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15560,7 +15560,7 @@ informatie binnen vijftien dagen na de algemene vergadering bekend via de vennoo
 [1 § 2. De beslissingen van de enige aandeelhouder die handelt in de plaats van de algemene vergadering
 overeenkomstig artikel 7:125, worden vermeld in een register dat op de zetel van de vennootschap wordt
 bijgehouden.]1
-----------
+
 (1)<W 2020-04-28/06, art. 165, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -15735,12 +15735,12 @@ aandeelhouder of aan een door de aandeelhouder aangewezen derde. Wanneer zich in
 tussenpersonen meer dan één tussenpersoon bevindt, geven de tussenpersonen de bevestiging onverwijld aan
 elkaar door, tenzij de bevestiging rechtstreeks aan de aandeelhouder of een door de aandeelhouder aangewezen
 derde kan worden doorgegeven.]1
-----------
+
 (1)<W 2020-04-28/06, art. 38, 002; Inwerkingtreding : 03-09-2020>
 
 
 *Onderafdeling 8. [1 Transparantie van volmachtadviseurs.]1*
-----------
+
 (1)<Ingevoegd bij W 2020-04-28/06, art. 39, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -15761,7 +15761,7 @@ toegelaten:
 activiteiten uitvoeren via een vestiging in de Europese Unie, voor zover zij diensten verlenen aan aandeelhouders
 met betrekking tot aandelen van vennootschappen die hun zetel in een lidstaat hebben en waarvan de aandelen
 tot de handel op een in een lidstaat gelegen of werkzame gereglementeerde markt zijn toegelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2020-04-28/06, art. 40, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -15797,7 +15797,7 @@ onderdeel van de openbaarmaking ingevolge paragraaf 1.
 totstandkoming van hun onderzoek, advies of stemadviezen kunnen beïnvloeden, onverwijld vast en maken aan
 hun cliënten bekend, onder vermelding van de maatregelen die zijn genomen om de vastgestelde feitelijke of
 potentiële belangenconflicten weg te nemen, te beperken of te beheersen.]1
-----------
+
 (1)<Ingevoegd bij W 2020-04-28/06, art. 41, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -15840,7 +15840,7 @@ toezicht deze schendingen uitdrukkelijk hebben opgenomen in de agenda van de alg
 De algemene vergadering van de genoteerde vennootschap beslist eveneens, bij afzonderlijke stemming, over
 het remuneratieverslag. [1 Deze stemming is adviserend. De vennootschap legt in het volgende
 remuneratieverslag uit hoe rekening is gehouden met de stemming van de algemene vergadering.]1
-----------
+
 (1)<W 2020-04-28/06, art. 42, 002; Inwerkingtreding : 16-05-2020>
 
 
@@ -15904,7 +15904,7 @@ overeenkomstig artikel 7:132.
 Ontbreekt dit verslag, dan is het besluit van de algemene vergadering nietig.
 § 3. Het ontbreken van de goedkeuring van de algemene vergadering van een overdracht bedoeld in paragraaf
 1 tast de vertegenwoordigingsbevoegdheid van het bestuursorgaan niet aan.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-28/60, art. 163, 019; Inwerkingtreding : 08-04-2024>
 
 
@@ -15997,7 +15997,7 @@ voorgeschreven voor een statutenwijziging, en moet elke houder van ondereffecten
 besluitvorming en de stemming in de betrokken soort, waarbij de stemmen worden geteld op basis van één stem
 voor het kleinste ondereffect. De winstbewijzen geven recht op één stem per effect, niettegenstaande
 andersluidende statutaire bepaling.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -16137,7 +16137,7 @@ commissaris, kunnen een algemene vergadering van de obligatiehouders bijeenroepe
 Zij zijn verplicht de algemene vergadering van aandeelhouders binnen drie weken bijeen te roepen wanneer
 obligatiehouders die een vijfde van het bedrag van de in omloop zijnde effecten vertegenwoordigen, dat vragen,
 met ten minste de door de betrokken obligatiehouders voorgestelde agendapunten.
-----------
+
 (1)<W 2020-04-28/06, art. 166, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -16169,7 +16169,7 @@ vastgestelde termijn, maar ten minste drie werkdagen en ten hoogste zes werkdage
 voor de bijeenkomst van de algemene vergadering van obligatiehouders. Bij gebrek aan enige vermelding terzake
 in de statuten verstrijkt de termijn op de derde dag voor de datum bepaald voor de bijeenkomst van de algemene
 vergadering van obligatiehouders.
-----------
+
 (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
 
@@ -16177,7 +16177,7 @@ vergadering van obligatiehouders.
 
 [1 Het bestuursorgaan kan]1 de in artikel 7:137 bedoelde regeling voor deelname op afstand, onder
 dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
-----------
+
 (1)<W 2020-12-20/02, art. 34, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -16331,7 +16331,7 @@ algemene vergadering nietig.
 § 3. Tenzij de aandelen worden uitgegeven ter vergoeding van een inbreng in natura, kan de algemene
 vergadering, waarop alle aandeelhouders aanwezig of vertegenwoordigd zijn, door een eenparig besluit van de in
 paragraaf 1 bedoelde verslagen afstand doen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -16349,7 +16349,7 @@ Die verslagen worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8
 de agenda vermeld. Een kopie ervan kan worden verkregen overeenkomstig artikel 7:132.
 Wanneer het verslag van het bestuursorgaan of het verslag van de commissaris dat de in het tweede lid
 bedoelde beoordeling bevat ontbreekt, is het besluit van de algemene vergadering nietig.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -16422,7 +16422,7 @@ inschrijvingsrechten. Deze vaststelling verleent de hoedanigheid van aandeelhoud
 obligatiehouder wiens obligaties werden [1 geconverteerd of vervangen door aandelen]1 en aan de houder van
 het inschrijvingsrecht die zijn recht heeft uitgeoefend. In de statuten worden het bedrag van het kapitaal en het
 aantal aandelen aangepast.
-----------
+
 (1)<W 2020-04-28/06, art. 167, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -16500,7 +16500,7 @@ Wanneer de verantwoording bedoeld in het tweede lid, of de beoordeling bedoeld i
 het besluit van de algemene vergadering nietig.
 Het besluit van de algemene vergadering om het voorkeurrecht te beperken of op te heffen moet worden
 neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 4°.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -16571,7 +16571,7 @@ brief kennis is gegeven van de beslissing van de Autoriteit voor Financiële Die
 mag haar beslissing openbaar maken.
 In de bekendmaking of de stukken betreffende de verrichtingen bedoeld in het eerste lid mag van het optreden
 van de Autoriteit voor Financiële Diensten en Markten in geen enkele vorm melding worden gemaakt.
-----------
+
 (1)<W 2023-05-25/04, art. 84,L11, 013; Inwerkingtreding : 30-06-2023>
 
 
@@ -16600,7 +16600,7 @@ kan alleen worden beschikt door personen die bevoegd zijn om de vennootschap te 
 optredende notaris aan de instelling bericht heeft gegeven van het verlijden van de akte.
 Indien de verhoging niet tot stand is gekomen binnen één maand na de opening van de bijzondere rekening,
 worden de gelden teruggegeven aan de deposanten die erom verzoeken.
-----------
+
 (1)<W 2021-07-12/01, art. 24, 007; Inwerkingtreding : 25-07-2021>
 
 
@@ -16712,7 +16712,7 @@ overeenkomstig de artikelen 2:8 en 2:14, 4°, die de datum van het besluit tot k
 artikel 7:197, § 3, bedoelde informatie bevat. In dat geval houdt de in artikel 7:197, § 3, bedoelde verklaring enkel
 in dat zich sinds de openbaarmaking van de eerder genoemde aankondiging geen nieuwe bijzondere
 omstandigheden hebben voorgedaan.
-----------
+
 (1)<W 2020-04-28/06, art. 168, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -16746,7 +16746,7 @@ het personeel; in dat geval mogen de bestuurders die de begunstigde van de ophef
 een met de begunstigde verbonden persoon zoals omschreven in artikel 7:193, § 1, zesde lid, in feite
 vertegenwoordigen, niet aan de stemming deelnemen;
 3° de kapitaalverhogingen door omzetting van de reserves.
-----------
+
 (1)<W 2020-04-28/06, art. 169, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -16765,7 +16765,7 @@ houdt waaraan meer dan 10 % van de stemrechten verbonden zijn.
 Voor de berekening van de drempel voor de stemrechten bedoeld in het eerste lid, 3°, worden de effecten
 bedoeld in [1 artikel 7:193]1, § 1, zesde en zevende lid, gevoegd bij de effecten in bezit gehouden door een
 aandeelhouder.
-----------
+
 (1)<W 2020-04-28/06, art. 170, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -16846,7 +16846,7 @@ artikelen 3:10 en 3:12 bedoelde documenten van de vennootschap verkrijgen.
 § 3. Een lid van het personeel bedoeld in paragrafen 1 en 2 kan zijn aandelen toch overdragen in geval van
 ontslag of pensionering, [1 zijn overlijden of dat van zijn echtgenoot of zijn wettelijk samenwonende partner,
 invaliditeit van de betrokkene, van zijn echtgenoot of zijn wettelijk samenwonende partner]1.
-----------
+
 (1)<W 2020-04-28/06, art. 171, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -16937,7 +16937,7 @@ reserves.
 In de in dit artikel bedoelde gevallen mag het kapitaal worden verminderd tot beneden het in artikel 7:2
 vastgestelde bedrag. Zodanige vermindering heeft pas gevolg op het ogenblik dat het kapitaal wordt verhoogd
 tot een niveau dat ten minste even hoog is als het in artikel 7:2 vastgestelde bedrag.
-----------
+
 (1)<W 2020-04-28/06, art. 172, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17004,7 +17004,7 @@ De aandeelhouders [1 en alle andere personen]1 moeten elke uitkering die zij in 
 7:212 en 7:213 hebben ontvangen, terugstorten indien de vennootschap bewijst dat de aandeelhouders [1 of alle
 andere personen ten behoeve van wie de uitkering is beslist]1 van de onregelmatigheid op de hoogte waren of
 daarvan, gezien de omstandigheden, niet onkundig konden zijn.
-----------
+
 (1)<W 2020-04-28/06, art. 173, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17077,7 +17077,7 @@ Diensten en Markten, in geval van tekortkoming van de in deze paragraaf bedoelde
 2° zelf openbaar kan maken dat de betrokken vennootschap haar verplichtingen niet nakomt.
 § 3. De Koning bepaalt de nadere regels om de gelijke behandeling te verzekeren door middel van
 gelijkwaardigheid van de geboden prijs zoals bedoeld in paragraaf 1, eerste lid, 4°.
-----------
+
 (1)<W 2020-04-28/06, art. 174, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17368,7 +17368,7 @@ aangegaan.
 Wanneer de duur bepaald is, kan voor verlenging tot een bepaalde of onbepaalde duur worden besloten door
 de algemene vergadering volgens de regels die voor de statutenwijziging zijn gesteld.
 [1 ...]1
-----------
+
 (1)<W 2020-04-28/06, art. 176, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17440,12 +17440,12 @@ opzeggen wanneer de verpachter die het goed inbracht, diens echtgenoot, [1 diens
 partner,]1 afstammelingen of aangenomen kinderen of die van zijn echtgenoot [1 of wettelijk samenwonende
 partner]1 het statuut van, naargelang van het geval, werkende vennoot, gecommanditeerde vennoot of
 bestuurder in de vennootschap hebben.
-----------
+
 (1)<W 2020-04-28/06, art. 178, 002; Inwerkingtreding : 06-05-2020>
 
 
 **Art. 8:3_WAALS_GEWEST. [1 ...]1**
-----------
+
 (1)<DWG 2023-04-06/06, art. 146, 023; Inwerkingtreding : 02-11-2023>
 
 
@@ -17464,7 +17464,7 @@ aandeelhouders niet naleeft, zijn deze uitkeringen nietig.
 De statuten van een erkende coöperatieve vennootschap kunnen bepalen dat het vermogen dat bij vereffening
 overblijft na aanzuivering van het passief en terugbetaling van de door de aandeelhouders gestorte en nog niet
 terugbetaalde inbreng wordt bestemd voor economische of sociale activiteiten die zij beoogt te bevorderen.
-----------
+
 (1)<W 2024-05-03/39, art. 2, 020; Inwerkingtreding : 21-06-2024>
 
 
@@ -17493,7 +17493,7 @@ economisch of sociaal voordeel te verschaffen ter bevrediging van hun beroeps- o
 die zowel een erkende coöperatieve vennootschap is als bedoeld in artikel 8:4, als erkend als een sociale
 onderneming als bedoeld in paragraaf 1, voegt aan de benaming van haar rechtsvorm de woorden "erkend" en
 "sociale onderneming" toe en wordt afgekort als "erkende CVSO".
-----------
+
 (1)<W 2024-05-03/39, art. 2, 020; Inwerkingtreding : 21-06-2024>
 
 
@@ -17694,7 +17694,7 @@ De bepaling dat het dagelijks bestuur wordt opgedragen aan een of meer personen 
 als college optreden, kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 Beperkingen aan de vertegenwoordigingsbevoegdheid van het orgaan van dagelijks bestuur kunnen aan derden
 echter niet worden tegengeworpen, ook al zijn ze openbaar gemaakt.
-----------
+
 (1)<W 2020-04-28/06, art. 180, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17761,7 +17761,7 @@ kopie verzonden van de stukken die krachtens dit wetboek aan de algemene vergade
 voorgelegd.
 
 Onderafdeling 2/1. [1 Schriftelijke algemene vergadering.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 35, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -17771,7 +17771,7 @@ Onderafdeling 2/1. [1 Schriftelijke algemene vergadering.]1
 vergadering behoren, met uitzondering van statutenwijzigingen. In dat geval dienen de formaliteiten van
 bijeenroeping niet te worden vervuld. De leden van het bestuursorgaan en, in voorkomend geval, de
 commissaris, mogen op hun verzoek van die besluiten kennis nemen.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 36, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -17821,7 +17821,7 @@ stemmen vóór de algemene vergadering, volgens de statutair bepaalde modaliteit
 Als de VZW stemmen op afstand vóór de algemene vergadering langs elektronische weg toestaat, moet zij in
 staat zijn de hoedanigheid en de identiteit van het lid te controleren, op de bij of krachtens de statuten bepaalde
 wijze.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 37, 005; Inwerkingtreding : 24-12-2020>
 (2)<W 2020-12-20/02, art. 38, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
@@ -17850,7 +17850,7 @@ aangegane vertrouwelijkheidsclausules. Hij heeft het recht ter algemene vergader
 verband met de vervulling van zijn taak.
 De bestuurders en de commissaris kunnen hun antwoord op verschillende vragen over hetzelfde onderwerp
 groeperen.
-----------
+
 (1)<W 2020-04-28/06, art. 181, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -17991,7 +17991,7 @@ van de ondernemingsrechtbank waar het het in artikel 2:23 bedoelde dossier wordt
 [1 ...]1
 
 **Artikel 9:22 is van overeenkomstige toepassing op giften aan buitenlandse verenigingen.**
-----------
+
 (1)<W 2020-04-28/06, art. 183, 002; Inwerkingtreding : 06-05-2020>
 
 BOEK 10. IVZW.
@@ -18065,7 +18065,7 @@ commissaris de algemene vergadering bijeenroepen. Hij moet die bijeenroepen wann
 van de vereniging het vragen.
 
 Onderafdeling 2/1. [1 Schriftelijke algemene vergadering.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 39, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -18075,7 +18075,7 @@ Onderafdeling 2/1. [1 Schriftelijke algemene vergadering.]1
 vergadering behoren, met uitzondering van statutenwijzigingen. In dat geval dienen de formaliteiten van
 bijeenroeping niet te worden vervuld. De leden van het bestuursorgaan en, in voorkomend geval, de
 commissaris, mogen op hun verzoek van die besluiten kennis nemen.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 40, 005; Inwerkingtreding : 24-12-2020>
 
 
@@ -18120,7 +18120,7 @@ vergadering, volgens de statutair bepaalde modaliteiten.
 Als de IVZW stemmen op afstand vóór de algemene vergadering langs elektronische weg toestaat, moet zij in
 staat zijn de hoedanigheid en de identiteit van het lid te controleren, op de bij of krachtens de statuten bepaalde
 wijze.]1
-----------
+
 (1)<Ingevoegd bij W 2020-12-20/02, art. 41, 005; Inwerkingtreding : 24-12-2020>
 (2)<W 2020-12-20/02, art. 42, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
@@ -18258,7 +18258,7 @@ worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 De statuten kunnen aan deze vertegenwoordigingsbevoegdheid beperkingen aanbrengen. Zodanige beperking
 kan niet aan derden worden tegengeworpen, ook al is ze openbaar gemaakt. Hetzelfde geldt voor een onderlinge
 taakverdeling onder de vertegenwoordigingsbevoegde bestuurders.
-----------
+
 (1)<W 2020-04-28/06, art. 188, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -18347,7 +18347,7 @@ De bepaling dat het dagelijks bestuur wordt opgedragen aan een of meer personen 
 als college optreden, kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 Beperkingen aan de vertegenwoordigingsbevoegdheid van het orgaan van dagelijks bestuur kunnen aan derden
 echter niet worden tegengeworpen, ook al zijn ze openbaar gemaakt.
-----------
+
 (1)<W 2020-04-28/06, art. 189, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -18383,7 +18383,7 @@ de ondernemingsrechtbank waar het in artikel 2:23 bedoelde dossier wordt gehoude
 [1 ...]1
 
 **Artikel 11:15 is van overeenkomstige toepassing op giften aan buitenlandse stichtingen.**
-----------
+
 (1)<W 2020-04-28/06, art. 191, 002; Inwerkingtreding : 06-05-2020>
 
 DEEL 4. Herstructurering en omzetting.
@@ -18502,7 +18502,7 @@ uitgifte van aandelen in de verkrijgende vennootschap wanneer al hun aandelen en
 effecten rechtstreeks of onrechtstreeks in handen zijn van één persoon of wanneer de vennoten of
 aandeelhouders in de fuserende vennootschappen hun effecten en aandelen in alle fuserende vennootschappen
 in dezelfde verhouding aanhouden.]1
-----------
+
 (1)<W 2023-05-25/04, art. 5, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -18528,7 +18528,7 @@ stemrechtverlenende effecten bezit;
 zowel de rechten als de verplichtingen, zonder ontbinding overgaat op één of meer verkrijgende of nieuwe door
 haar opgerichte vennootschappen tegen uitreiking aan de gesplitste vennootschap van aandelen in de
 verkrijgende of nieuwe vennootschappen.]1
-----------
+
 (1)<W 2023-05-25/04, art. 6, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -18607,7 +18607,7 @@ In afwijking van het eerste lid, 3°, gaat in geval van een met splitsing gelijk
 van het vermogen van de gesplitste vennootschap, zowel de rechten als de verplichtingen, over op de
 verkrijgende vennootschappen, overeenkomstig de verdeling volgens het splitsingsvoorstel en met inachtneming
 van de artikelen 12:60 en 12:76.
-----------
+
 (1)<W 2020-04-28/06, art. 192, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 7, 013; Inwerkingtreding : 16-06-2023>
 
@@ -18628,7 +18628,7 @@ tegengeworpen overeenkomstig de voorwaarden bepaald bij bijzondere wetten die de
 beheersen.
 [2 De formaliteiten die voortvloeien uit dit artikel worden verricht door de uit de fusie ontstane vennootschap,
 door de gesplitste vennootschap of door de verkrijgende vennootschappen, naargelang het geval.]2
-----------
+
 (1)<W 2020-02-04/16, art. 8, 008; Inwerkingtreding : 01-09-2021>
 (2)<W 2023-05-25/04, art. 8, 013; Inwerkingtreding : 16-06-2023>
 
@@ -18708,7 +18708,7 @@ bedrijfsrevisor of de [1 gecertificeerd accountant]1 die het in de artikelen 12:
 verslag heeft opgesteld, een aansprakelijkheidsvordering instellen voor de schade die hij heeft geleden ten
 gevolge van een fout die deze bij de vervulling van zijn taak heeft begaan.
 Dit artikel is niet van toepassing bij met fusie door overneming gelijkgestelde verrichtingen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -18740,7 +18740,7 @@ commissaris, de bedrijfsrevisor of de [1 ]1 niet voorlagen, of indien zij zijn a
 nietigheidsgrond.
 Wanneer herstel van het gebrek dat tot de vernietiging van de fusie of splitsing kan leiden mogelijk is, verleent
 de rechtbank daartoe aan de betrokken vennootschappen een termijn om de toestand te regulariseren.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -18814,7 +18814,7 @@ artikelen 2:8 en 2:14, 1° :
 voorwerp, de zetel van de vennootschap en de rechtbank van de zetel van de vennootschap;
 2° een hyperlink naar de vennootschapswebsite waar het voorstel voor de fusie en het verslag bedoeld in
 artikel 12:26, online en kosteloos verkrijgbaar zijn.]1
-----------
+
 (1)<W 2023-05-25/04, art. 9, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 82, 013; Inwerkingtreding : 16-06-2023>
 
@@ -18834,7 +18834,7 @@ werden opgesteld, zijn de artikelen 5:121, 5:133, 6:110, 7:179 en 7:197, naar ge
 toepassing op een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap, van
 een coöperatieve vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van een
 Europese coöperatieve vennootschap.]1
-----------
+
 (1)<W 2020-04-28/06, art. 193, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -18861,7 +18861,7 @@ eerste lid, werden opgesteld, zijn de artikelen 5:121, 5:133, 6:110, 7:179 en 7:
 van toepassing op een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap,
 van een coöperatieve vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van
 een Europese coöperatieve vennootschap.]1
-----------
+
 (1)<W 2020-04-28/06, art. 194, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19005,7 +19005,7 @@ bezitten of, in een naamloze vennootschap of een Europese vennootschap, die 5 % 
 vertegenwoordigen, hebben niettemin het recht om de algemene vergadering van deze vennootschap bijeen te
 roepen, die over het fusievoorstel moet besluiten. Aandelen zonder stemrecht worden bij de berekening van dit
 percentage buiten beschouwing gelaten.
-----------
+
 (1)<W 2020-04-28/06, art. 195, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -19027,7 +19027,7 @@ de bepalingen tot wijziging van haar voorwerp, vast volgens de regels van aanwez
 wetboek vereist. Bij gebrek daaraan blijft het besluit tot fusie zonder gevolg.
 De fusie is voltrokken zodra alle betrokken vennootschappen daartoe overeenstemmende besluiten hebben
 genomen.
-----------
+
 (1)<W 2020-04-28/06, art. 196, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -19096,7 +19096,7 @@ Indien een verslag werd opgesteld overeenkomstig artikel 12:39, zijn de artikele
 en 5°, niet van toepassing op de besloten vennootschap die door de fusie tot stand is gekomen.
 Indien een verslag werd opgesteld overeenkomstig artikel 12:39, zijn de artikelen 6:8, 6:10 en 6:13, eerste lid,
 2° en 5°, niet van toepassing op de coöperatieve vennootschap [1 die door de fusie tot stand is]1 gekomen.
-----------
+
 (1)<W 2020-04-28/06, art. 197, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19138,7 +19138,7 @@ voorwerp, de zetel van de vennootschap en de rechtbank van de zetel van de venno
 rechtsvorm, de naam en de zetel die worden voorgesteld voor elke nieuw opgerichte vennootschap;
 2° een hyperlink naar de vennootschapswebsite waar het voorstel voor de fusie en het verslag bedoeld in
 artikel 12:39, online en kosteloos verkrijgbaar zijn.]1
-----------
+
 (1)<W 2023-05-25/04, art. 10, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19173,7 +19173,7 @@ nemen van alle documenten die dienstig zijn voor de vervulling van zijn taak. Hi
 vennootschappen alle ophelderingen en inlichtingen bekomen, en alle controles verrichten die hij nodig acht.
 Dit artikel is niet van toepassing indien alle vennoten of aandeelhouders en houders van andere
 stemrechtverlenende effecten in elke bij de fusie betrokken vennootschap hiermee hebben ingestemd.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -19287,7 +19287,7 @@ In de in het eerste lid, 2°, bedoelde gevallen is, in voorkomend geval, de eenp
 houders van effecten die het kapitaal van de vennootschap niet vertegenwoordigen.
 § 5. In de commanditaire vennootschap is bovendien de instemming van alle gecommanditeerde vennoten
 vereist.
-----------
+
 (1)<W 2020-04-28/06, art. 198, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -19388,7 +19388,7 @@ artikelen 2:8 en 2:14, 1° :
 voorwerp, de zetel van de vennootschap en de rechtbank van de zetel van de vennootschap;
 2° een hyperlink naar de vennootschapswebsite waar het voorstel voor de fusie online en kosteloos
 verkrijgbaar is.]1
-----------
+
 (1)<W 2023-05-25/04, art. 11, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -19513,7 +19513,7 @@ bezitten of, in een naamloze vennootschap of een Europese vennootschap, die 5 % 
 vertegenwoordigen, hebben niettemin het recht om de algemene vergadering van deze vennootschap bijeen te
 roepen, die over het fusievoorstel moet besluiten. Aandelen zonder stemrecht worden bij de berekening van dit
 percentage buiten beschouwing gelaten.
-----------
+
 (1)<W 2020-04-28/06, art. 199, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -19627,7 +19627,7 @@ ondernemingsnummer, de naam, het voorwerp, de zetel van de vennootschap en de re
 de vennootschap;
 2° een hyperlink naar de vennootschapswebsite waar het voorstel voor de fusie en het verslag bedoeld in
 artikel 12:62, online en kosteloos verkrijgbaar zijn.]1
-----------
+
 (1)<W 2023-05-25/04, art. 12, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19659,7 +19659,7 @@ werden opgesteld, zijn de artikelen 5:121, 5:133, 6:110, 7:179 en 7:197, naar ge
 toepassing op een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap, van
 een coöperatieve vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van een
 Europese coöperatieve vennootschap.]1
-----------
+
 (1)<W 2020-04-28/06, art. 200, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -19686,7 +19686,7 @@ eerste lid, werden opgesteld, zijn de artikelen 5:121, 5:133, 6:110, 7:179 en 7:
 van toepassing op een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap,
 van een coöperatieve vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van
 een Europese coöperatieve vennootschap.]1
-----------
+
 (1)<W 2020-04-28/06, art. 201, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19844,7 +19844,7 @@ aandelen bezitten of, in een naamloze vennootschap of een Europese vennootschap,
 kapitaal vertegenwoordigen, hebben niettemin het recht om de algemene vergadering van deze vennootschap
 bijeen te roepen, die over het splitsingsvoorstel moet besluiten. Aandelen zonder stemrecht worden bij de
 berekening van dit percentage buiten beschouwing gelaten.
-----------
+
 (1)<W 2020-04-28/06, art. 202, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 14, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19941,7 +19941,7 @@ Indien een verslag werd opgesteld overeenkomstig artikel 12:78, zijn de artikele
 en 5°, niet van toepassing op de besloten vennootschap die door de splitsing tot stand is gekomen.
 Indien een verslag werd opgesteld overeenkomstig artikel 12:78, zijn de artikelen 6:8, 6:10 en 6:13, eerste lid,
 2° en 5°, niet van toepassing op de coöperatieve vennootschap [1 die door de splitsing tot stand is]1 gekomen.
-----------
+
 (1)<W 2020-04-28/06, art. 203, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -19990,7 +19990,7 @@ de vennootschap, alsook de rechtsvorm, de naam en de zetel die worden voorgestel
 opgerichte vennootschap;
 2° een hyperlink naar de vennootschapswebsite waar het voorstel voor de splitsing en het verslag bedoeld in
 artikel 12:78 online en kosteloos verkrijgbaar zijn.]1
-----------
+
 (1)<W 2023-05-25/04, art. 15, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -20045,7 +20045,7 @@ Dit artikel is niet van toepassing wanneer de aandelen van elk van de nieuwe ven
 uitgegeven aan de vennoten of aandeelhouders van de gesplitste vennootschap evenredig aan hun rechten in
 het kapitaal van deze vennootschap of, als de vennootschap geen kapitaal heeft, hun aandeel in het eigen
 vermogen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20180,7 +20180,7 @@ splitsen vennootschap, van de aandelen van de nieuwe vennootschappen niet naar e
 rechten op het kapitaal van de te splitsen vennootschap zal gebeuren, of, als de vennootschap geen kapitaal
 heeft, hun aandeel in het eigen vermogen, wordt het besluit van de te splitsen vennootschap over de deelneming
 aan de splitsing door de algemene vergadering eenparig genomen.
-----------
+
 (1)<W 2020-04-28/06, art. 204, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -20330,7 +20330,7 @@ de aandeelhouders in verhouding tot hun aandeel in het vennootschapsvermogen en 
 aanwezigheidsquorum berekend op grond van dat vermogen.
 De instemming van alle vennoten is vereist bij de vennootschap onder firma; bij de commanditaire
 vennootschap is bovendien de instemming van alle gecommanditeerde vennoten vereist.
-----------
+
 (1)<W 2020-04-28/06, art. 205, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -20377,7 +20377,7 @@ notulen van het bevoegde orgaan van de verkrijgende vennootschap houdende goedke
 worden overgeschreven of ingeschreven.
 De overdracht van rechten van intellectuele en industriële eigendom kunnen aan derden slechts worden
 tegengeworpen onder de voorwaarden bepaald bij de bijzondere wetten die deze verrichtingen beheersen.
-----------
+
 (1)<W 2020-02-04/16, art. 8, 008; Inwerkingtreding : 01-09-2021>
 
 
@@ -20405,7 +20405,7 @@ en zijn de verkrijgende vennootschappen hoofdelijk gehouden tot nakoming van dez
 [1 § 2. Paragraaf 1 is niet van toepassing bij inbrengen van een algemeenheid of van een bedrijfstak wanneer
 een vennootschap die aan de verrichting deelneemt een van financiële instelling is die onderworpen is aan het
 toezicht van de Nationale Bank van België of de Europese Centrale Bank.]1
-----------
+
 (1)<W 2022-07-20/40, art. 422, 011; Inwerkingtreding : 06-10-2022>
 
 
@@ -20510,7 +20510,7 @@ richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen]1;
 [2 3° kredietinstellingen die zijn onderworpen aan boek II, titel VIII van de wet van 25 april 2014 op het statuut
 van en het toezicht op kredietinstellingen;
 4° vennootschappen die zijn onderworpen aan een insolventieprocedure.]2
-----------
+
 (1)<W 2020-04-28/06, art. 206, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 17, 013; Inwerkingtreding : 16-06-2023>
 
@@ -20542,7 +20542,7 @@ De grensoverschrijdende fusie heeft met ingang van de datum [1 van het van krach
 de grensoverschrijdende fusie]1 de rechtsgevolgen bepaald in artikel 12:13, met uitzondering van het eerste lid,
 1°, tweede deel van voornoemd artikel [1 , en van het eerste lid, 2°, van voornoemd artikel wanneer er vennoten
 of aandeelhouders zijn die zijn uitgetreden overeenkomstig de toepasselijke wettelijke bepalingen]1.
-----------
+
 (1)<W 2023-05-25/04, art. 18, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20561,7 +20561,7 @@ of aandeelhouders zijn die zijn uitgetreden overeenkomstig de toepasselijke wett
 
 Een overeenkomstig [1 de toepasselijke wettelijke bepalingen]1 van kracht geworden
 grensoverschrijdende fusie kan niet worden nietig verklaard.
-----------
+
 (1)<W 2023-05-25/04, art. 21, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20619,7 +20619,7 @@ zullen worden geboden.]1
 van een grensoverschrijdende fusie als bedoeld in artikel 12:7, 1°, en in geval van een grensoverschrijdende fusie
 als bedoeld in artikel 12:7, 2°, wanneer alle aandelen en andere stemrechtverlenende effecten rechtstreeks of
 onrechtstreeks in handen zijn van één persoon.]1
-----------
+
 (1)<W 2023-05-25/04, art. 22, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20668,7 +20668,7 @@ technische specificaties en procedures voor het systeem van gekoppelde registers
 Uitvoeringsverordening (EU) 2020/2244 van de Commissie, met het oog op de terbeschikkingstelling ervan aan
 het publiek en nadat deze beschikbaar zijn gesteld vanuit het in artikel 2:7 bedoelde dossier, over aan het
 Europees systeem van gekoppelde registers als bedoeld in artikel 22 van voornoemde richtlijn.]2
-----------
+
 (1)<W 2023-05-25/04, art. 23, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 23, 013; Inwerkingtreding : 30-06-2023>
 
@@ -20700,7 +20700,7 @@ ontstane vennootschap valt.
 § 2. Paragraaf 1 is niet van toepassing bij grensoverschrijdende fusies wanneer een overgenomen
 vennootschap die wordt beheerst door het Belgische recht onderworpen is aan het toezicht van de Nationale
 Bank van België of de Europese Centrale Bank.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 24, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20761,7 +20761,7 @@ van één persoon.
 een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap, van een coöperatieve
 vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van een Europese
 coöperatieve vennootschap.]1
-----------
+
 (1)<W 2023-05-25/04, art. 25, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -20818,7 +20818,7 @@ Indien een verslag werd opgesteld overeenkomstig paragraaf 1, zijn de artikelen 
 en 5°, niet van toepassing op de besloten vennootschap die door de fusie tot stand is gekomen.
 Indien een verslag werd opgesteld overeenkomstig paragraaf 1, zijn de artikelen 6:8, 6:10 en 6:13, eerste lid, 2°
 en 5°, niet van toepassing op de coöperatieve vennootschap [1 die door de fusie tot stand is]1 gekomen.
-----------
+
 (1)<W 2020-04-28/06, art. 207, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 26, 013; Inwerkingtreding : 16-06-2023>
 (3)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
@@ -20889,7 +20889,7 @@ het in artikel 12:113, § 1, derde lid, 1°, bedoelde stuk, te downloaden en af 
 toepassing. In dit geval blijft de informatie ten minste tot één maand na de datum van de vergadering van elk van
 de vennootschappen die over het fusievoorstel moet besluiten, op de vennootschapswebsite staan en kan ze
 worden gedownload en afgedrukt.]2
-----------
+
 (1)<W 2020-04-28/06, art. 208, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 27, 013; Inwerkingtreding : 16-06-2023>
 
@@ -20986,7 +20986,7 @@ eveneens de akte tot statutenwijziging van de overnemende vennootschap neergeleg
 overeenkomstig de artikelen 2:8 en 2:14, 1°. De artikelen 2:7, 2:8 en 2:13 zijn van toepassing op de
 oprichtingsakte van de nieuwe vennootschap, voor zover deze onder het Belgische recht valt.
 Deze akten worden gelijktijdig bekendgemaakt binnen tien dagen na de neerlegging van de akte.
-----------
+
 (1)<W 2020-04-28/06, art. 209, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 28, 013; Inwerkingtreding : 16-06-2023>
 
@@ -21032,7 +21032,7 @@ zetel van de fuserende vennootschap, zitting houdend in kort geding om een betal
 Met toestemming van de vennoot of aandeelhouder kan de in het eerste lid bedoelde betaling in geld worden
 vervangen door een toekenning van aandelen in de overnemende vennootschap of in een andere vergoeding in
 natura.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 29, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21109,7 +21109,7 @@ Uitvoeringsverordening (EU) 2020/2244 van de Commissie, via het Europees systeem
 als bedoeld in artikel 22 van voornoemde richtlijn en nadat deze beschikbaar zijn gesteld vanuit het in artikel 2:7
 bedoelde dossier, over aan het register van de lidstaat van de uit de fusie ontstane vennootschap en met het
 oog op de terbeschikkingstelling ervan aan het publiek.]2
-----------
+
 (1)<W 2023-05-25/04, art. 30, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 30,L11, 013; Inwerkingtreding : 30-06-2023>
 (3)<W 2023-05-25/04, art. 30,L2, 013; Inwerkingtreding : 01-12-2023>
@@ -21138,7 +21138,7 @@ door de Koninklijke Federatie van het Belgisch Notariaat, na ontvangst via het E
 registers als bedoeld in artikel 22 van voornoemde richtlijn.
 De akte van grensoverschrijdende fusie wordt neergelegd en bij uittreksel bekendgemaakt overeenkomstig de
 artikelen 2:8 en 2:14, 1°.]1
-----------
+
 (1)<W 2023-05-25/04, art. 31, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21164,23 +21164,23 @@ over tot wijziging van de gegevens opgenomen in het Belgische rechtspersonenregi
 [1 Bij het ontbreken van de in het eerste lid bedoelde notificatie door het buitenlandse register, maakt het
 bestuursorgaan van de overgenomen vennootschap het van kracht worden van de fusie bekend
 overeenkomstig artikel 2:14, 1°, waarbij hij het bewijs neerlegt dat de fusie van kracht is geworden.]1
-----------
+
 (1)<W 2023-05-25/04, art. 32, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 32,2°, 013; Inwerkingtreding : 30-06-2023>
 
 
 #### TITEL 7. [1 Bijzondere regels inzake grensoverschrijdende splitsing en gelijkgestelde verrichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 35, 013; Inwerkingtreding : 16-06-2023>
 
 
 ##### HOOFDSTUK 1. [1 Algemene bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 34, 013; Inwerkingtreding : 16-06-2023>
 
 
 **Afdeling 1. [1 Inleidende bepaling.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 35, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21196,12 +21196,12 @@ Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen;
 3° kredietinstellingen die zijn onderworpen aan boek II, titel VIII van de wet van 25 april 2014 op het statuut
 van en het toezicht op kredietinstellingen;
 4° vennootschappen die zijn onderworpen aan een insolventieprocedure.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 36, 013; Inwerkingtreding : 16-06-2023>
 
 
 **Afdeling 2. [1 Vergoeding van de inbreng.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 37, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21218,12 +21218,12 @@ aandeelhouders toegezegde inbrengen in geld of in natura, met uitzondering van d
 voorkomend geval verhoogd met de reserves die op grond van een statutaire bepaling slechts aan de vennoten
 of aandeelhouders kunnen worden uitgekeerd mits een statutenwijziging, dit alles gedeeld door het aantal
 aandelen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 38, 013; Inwerkingtreding : 16-06-2023>
 
 
 **Afdeling 3. [1 Rechtsgevolgen van de grensoverschrijdende splitsing.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 39, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21233,12 +21233,12 @@ aandelen.]1
 van de grensoverschrijdende splitsing de rechtsgevolgen bepaald in artikel 12:13, met uitzondering van het
 eerste lid, 1°, tweede deel van voornoemd artikel, en van het eerste lid, 2° van voornoemd artikel wanneer er
 vennoten of aandeelhouders zijn die zijn uitgetreden overeenkomstig de toepasselijke wettelijke bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 40, 013; Inwerkingtreding : 16-06-2023>
 
 
 **Afdeling 4. [1 Nietigheid van de grensoverschrijdende splitsing.]1**
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 41, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21246,12 +21246,12 @@ vennoten of aandeelhouders zijn die zijn uitgetreden overeenkomstig de toepassel
 
 [1 Een overeenkomstig de toepasselijke wettelijke bepalingen van kracht geworden
 grensoverschrijdende splitsing kan niet worden nietig verklaard.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 42, 013; Inwerkingtreding : 16-06-2023>
 
 
 ##### HOOFDSTUK 2. [1 Te volgen procedure bij grensoverschrijdende splitsing van vennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 43, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21319,7 +21319,7 @@ Voor het grensoverschrijdend splitsingsvoorstel van de met splitsing gelijkgeste
 artikel 12:8, 2°, is het tweede lid, 5°, 6°, 9°, 11° en 15°, niet van toepassing.
 Voor het grensoverschrijdend splitsingsvoorstel van de met splitsing gelijkgestelde verrichting als bedoeld in
 artikel 12:8, 3°, is het tweede lid, 5°, 6°, 9°, 11°, 15° en 16°, niet van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 44, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21368,7 +21368,7 @@ voor het systeem van gekoppelde registers en tot intrekking van Uitvoeringsveror
 Commissie, met het oog op de terbeschikkingstelling ervan aan het publiek en nadat deze beschikbaar zijn
 gesteld vanuit het in artikel 2:7 bedoelde dossier, over aan het Europees systeem van gekoppelde registers als
 bedoeld in artikel 22 van voornoemde richtlijn.]2
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 45, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 45,§3, 013; Inwerkingtreding : 30-06-2023>
 
@@ -21399,7 +21399,7 @@ geval van de met splitsing gelijkgestelde verrichting als bedoeld in artikel 12:
 hoofdelijk gehouden tot nakoming van deze verbintenis.
 De in het eerste lid bedoelde zekerheid of enige andere waarborg is afhankelijk van het van kracht worden van
 de grensoverschrijdende splitsing overeenkomstig de toepasselijke wettelijke bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 46, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21463,7 +21463,7 @@ overeenkomstig paragraaf 1, derde lid, en een verslag overeenkomstig artikel 12:
 uitgegeven aan de vennoten of aandeelhouders van de gesplitste vennootschap evenredig aan hun rechten in
 het kapitaal van deze vennootschap, of, als de vennootschap geen kapitaal heeft, hun aandeel in het eigen
 vermogen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 47, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21513,7 +21513,7 @@ overeenkomstig paragraaf 1 en een verslag overeenkomstig artikel 12:127, § 1, d
 niet van toepassing wanneer de aandelen van elk van de nieuwe vennootschappen worden uitgegeven aan de
 vennoten of aandeelhouders van de gesplitste vennootschap evenredig aan hun rechten in het kapitaal van deze
 vennootschap of, als de vennootschap geen kapitaal heeft, hun aandeel in het eigen vermogen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 48, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21587,7 +21587,7 @@ van het in artikel 12:127, § 1, derde lid, 1°, bedoelde stuk, te downloaden en
 van toepassing. In dit geval blijft de informatie ten minste tot één maand na de datum van de vergadering die
 over het splitsingsvoorstel moet besluiten, op de vennootschapswebsite staan en kan ze worden gedownload en
 afgedrukt.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 49, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21597,7 +21597,7 @@ afgedrukt.]1
 vennootschap alleen dan als verkrijgende vennootschap aan de splitsing deelnemen, wanneer de te splitsen
 vennootschap voldoet aan de vereisten voor de verkrijging van de hoedanigheid van vennoot of aandeelhouder
 in de verkrijgende vennootschap.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 50, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21666,7 +21666,7 @@ deelneming aan de splitsing door de algemene vergadering eenparig genomen.
 voorbehouden de totstandkoming van de grensoverschrijdende splitsing afhankelijk te stellen van haar
 uitdrukkelijke bekrachtiging van de regelingen die met betrekking tot de medezeggenschap van de werknemers
 in de nieuwe vennootschappen zijn vastgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 51, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21674,7 +21674,7 @@ in de nieuwe vennootschappen zijn vastgesteld.]1
 
 [1 Op de met splitsing gelijkgestelde verrichting als bedoeld in artikel 12:8, 3°, is artikel 12:71 niet
 van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 52, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21686,7 +21686,7 @@ besloten bij authentieke akte opgesteld door de notaris aangeduid in het in arti
 splitsingsvoorstel.
 In de authentieke akte wordt, in voorkomend geval, de conclusie van het verslag van de commissaris of van de
 bedrijfsrevisor of gecertificeerd accountant overgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 53, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21697,7 +21697,7 @@ van een verkrijgende vennootschap, onmiddellijk na het besluit tot deelneming aa
 wijzigingen van haar statuten, met inbegrip van de bepalingen tot wijziging van haar voorwerp, vast volgens de
 regels van aanwezigheid en meerderheid door dit wetboek vereist. Bij gebrek daaraan blijft het besluit tot
 grensoverschrijdende splitsing zonder gevolg.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 54, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21709,7 +21709,7 @@ statuten van elke nieuwe vennootschap goedgekeurd door de algemene vergadering v
 vennootschap, en dit volgens dezelfde regels van aanwezigheid en meerderheid als diegene die voor een besluit
 tot grensoverschrijdende splitsing zijn vereist. Bij gebrek daaraan blijft het besluit tot grensoverschrijdende
 splitsing zonder gevolg.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 55, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21729,7 +21729,7 @@ artikel 12:131, § 2, het bestuursorgaan, van de gesplitste vennootschap genomen
 grensoverschrijdende splitsing.
 Een verkrijgende vennootschap kan zelf de formaliteiten inzake openbaarmaking betreffende de gesplitste
 vennootschap verrichten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 56, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21779,7 +21779,7 @@ Met toestemming van de vennoot of aandeelhouder kan de in het eerste lid bedoeld
 vervangen door een toekenning van aandelen of in een andere vergoeding in natura.
 § 3. In geval van de met splitsing gelijkgestelde verrichting als bedoeld in artikel 12:8, 2° en 3° , is dit artikel niet
 van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 1, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21858,7 +21858,7 @@ en tot intrekking van Uitvoeringsverordening (EU) 2020/2244 van de Commissie, vi
 gekoppelde registers als bedoeld in artikel 22 van voornoemde richtlijn en nadat deze beschikbaar zijn gesteld
 vanuit het in artikel 2:7 bedoelde dossier, over aan de registers van de lidstaten van de nieuwe vennootschappen
 en met het oog op de terbeschikkingstelling ervan aan het publiek.]2
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 58, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 58,L11, 013; Inwerkingtreding : 30-06-2023>
 (3)<W 2023-05-25/04, art. 58,L2, 013; Inwerkingtreding : 01-12-2023>
@@ -21918,7 +21918,7 @@ De beheersdienst van de Kruispuntbank van Ondernemingen maakt deze doorhaling be
 artikel 2:14, 1°, maakt deze over via het Europese systeem van gekoppelde registers als bedoeld in artikel 22 van
 voornoemde richtlijn met het oog op de openbaarmaking aan het publiek en gaat over tot wijziging van de
 gegevens vermeldt in het Belgische rechtspersonenregister.]2
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 59, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 59,§2,§5,§6, 013; Inwerkingtreding : 30-06-2023>
 
@@ -21962,7 +21962,7 @@ De beheersdienst van de Kruispuntbank van Ondernemingen maakt het in het eerste 
 worden van de grensoverschrijdende splitsing over via het Europese systeem van gekoppelde registers als
 bedoeld in artikel 22 van richtlijn 2017/1132/EU van het Europees Parlement en de Raad van 14 juni 2017 aan de
 registers van de lidstaten van de nieuwe vennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 60, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -21989,7 +21989,7 @@ De doorhaling van de inschrijving in het Belgische rechtspersonenregister mag ni
 ontvangst van een bewijs door de bevoegde buitenlandse instanties dat de splitsing van kracht is geworden. Het
 bestuursorgaan van de gesplitste vennootschap maakt deze doorhaling bekend in de Bijlagen bij het Belgisch
 Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 61, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22069,7 +22069,7 @@ of daarin een getrouw beeld wordt gegeven van de toestand van de betrokken recht
 of van de bedrijfsrevisor of de [2 gecertificeerd accountant]2 over die staten worden aan de leden van de
 betrokken verenigingen of aan de leden van de organen van de andere rechtspersonen die moeten beraadslagen
 over de verrichting bezorgd samen met de agenda van die organen.
-----------
+
 (1)<W 2020-04-28/06, art. 210, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -22102,7 +22102,7 @@ tegengeworpen overeenkomstig deze wet. Daartoe moeten de notulen van de algemene
 rechtspersonen die tot de fusie of splitsing hebben besloten, worden overgeschreven of ingeschreven.
 De overdracht van rechten van intellectuele en industriële eigendom kan aan derden slechts worden
 tegengeworpen overeenkomstig de bijzondere wetten die deze verrichtingen beheersen.
-----------
+
 (1)<W 2020-02-04/16, art. 8, 008; Inwerkingtreding : 01-09-2021>
 
 
@@ -22142,7 +22142,7 @@ verrichtingsvoorstel of verslag van de commissarissen of de bedrijfsrevisoren of
 niet voorlagen.
 Wanneer herstel van het gebrek dat tot de nietigheid van de verrichting kan leiden mogelijk is, verleent de
 rechtbank daartoe aan de betrokken rechtspersonen een termijn om de toestand te regulariseren.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22251,7 +22251,7 @@ de vermelding van het verschil.
 Bij omzetting van een vennootschap onder firma of een commanditaire vennootschap in een naamloze
 vennootschap, [1 een Europese vennootschap of een Europese coöperatieve vennootschap]1 mag het in deze
 staat aangegeven kapitaal [1 ...]1, na de omzetting niet hoger zijn dan het uit de staat blijkend nettoactief.
-----------
+
 (1)<W 2020-04-28/06, art. 211, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -22264,7 +22264,7 @@ is overgewaardeerd.
 Indien, in het geval bedoeld in artikel 14:3, tweede lid, het nettoactief van de vennootschap kleiner is dan het in
 de staat van activa en passiva opgenomen kapitaal [1 ...]1, dan besluit het verslag met de vermelding van het
 verschil.
-----------
+
 (1)<W 2020-04-28/06, art. 212, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -22288,7 +22288,7 @@ om tot de vergadering te worden toegelaten.
 Iedere vennoot of aandeelhouder of houder van andere effecten kan, tegen overlegging van zijn effect of van
 het in artikel 7:41 bedoelde attest, vijftien dagen vóór de vergadering ter zetel van de vennootschap kosteloos
 een kopie van de in het eerste lid bedoelde stukken verkrijgen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22338,7 +22338,7 @@ besluiten over de omzetting van de vennootschap, zonder dat hij aan enige andere
 Hij geeft van zijn uittreding aan de vennootschap kennis overeenkomstig artikel 2:32 uiterlijk vijf dagen vóór de
 datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot omzetting wordt aangenomen.
 In de oproeping wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
-----------
+
 (1)<W 2023-05-25/04, art. 62, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22362,7 +22362,7 @@ Van authentieke of onderhandse volmachten, alsook van het verslag van de commiss
 bedrijfsrevisor of [1 gecertificeerd accountant]1, wordt het origineel dan wel een uitgifte neergelegd tegelijk met
 de akte waarop zij betrekking hebben.
 De omzetting kan aan derden worden tegengeworpen volgens de bepalingen van artikel 2:18.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22374,7 +22374,7 @@ De artikelen 6:8, [1 6:10,]1 6:12, 6:13, eerste lid, 5° en 8°, 6:16, 6:17, 6:1
 toepassing in geval van omzetting in een coöperatieve vennootschap.
 De artikelen 7:7, 7:12, 7:13, tweede lid, 7:14, eerste lid, 2°, 7° en 10° tot 12°, 7:17, 7:18, 7:21, 7:205, 7:206 en
 7:207 vinden geen toepassing in geval van omzetting in een naamloze vennootschap.
-----------
+
 (1)<W 2020-04-28/06, art. 213, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -22425,11 +22425,11 @@ uittreksel openbaar wordt gemaakt op de wijze bepaald in de artikelen 2:8, § 2,
 
 
 **Afdeling 1. [1 Algemene bepalingen.]1**
-----------
+
 (1)<W 2023-05-25/04, art. 63, 013; Inwerkingtreding : 16-06-2023>
 
 *Onderafdeling 1. [1 Inleidende bepalingen.]1*
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 64, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22449,7 +22449,7 @@ SCE.
 Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, zet zij zich om in een
 rechtsvorm van de jurisdictie waarheen zij haar zetel verplaatst, met continuïteit van haar rechtspersoonlijkheid
 [1 , waarbij zij de rechtsgevolgen vermeld in artikel 14:17/1 ondergaat]1.
-----------
+
 (1)<W 2023-05-25/04, art. 65, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22463,12 +22463,12 @@ Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen;
 3° kredietinstellingen die zijn onderworpen aan boek II, titel VIII van de wet van 25 april 2014 op het statuut
 van en het toezicht op kredietinstellingen;
 4° vennootschappen die zijn onderworpen aan een insolventieprocedure.]1
-----------
+
 (1)<W 2023-05-25/04, art. 66, 013; Inwerkingtreding : 16-06-2023>
 
 
 *Onderafdeling 2. [1 Rechtsgevolgen van grensoverschrijdende omzetting.]1*
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 67, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22480,12 +22480,12 @@ van de grensoverschrijdende omzetting de volgende rechtsgevolgen:
 zij zijn uitgetreden overeenkomstig de toepasselijke wettelijke bepalingen;
 2° het gehele vermogen van de vennootschap, zowel de rechten als de verplichtingen, bestaan voort in de
 omgezette vennootschap.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 68, 013; Inwerkingtreding : 16-06-2023>
 
 
 *Onderafdeling 3. [1 Nietigheid van de grensoverschrijdende omzetting.]1*
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 69, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22493,7 +22493,7 @@ omgezette vennootschap.]1
 
 [1 Een overeenkomstig de toepasselijke wettelijke bepalingen van kracht geworden
 grensoverschrijdende omzetting kan niet worden nietig verklaard.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 70, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22538,7 +22538,7 @@ winstbewijzen in overeenstemming met artikel 14:25/1;
 arbeidsovereenkomst nr. 94 van 29 april 2008, zoals gewijzigd door de collectieve arbeidsovereenkomst nr. 94/1
 van 20 december 2022, regelingen worden vastgesteld met betrekking tot de wijze waarop de werknemers bij de
 vaststelling van hun medezeggenschapsrechten in de omgezette vennootschap worden betrokken.]1
-----------
+
 (1)<W 2023-05-25/04, art. 71, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22579,7 +22579,7 @@ gekoppelde registers en tot intrekking van Uitvoeringsverordening (EU) 2020/2244
 oog op de terbeschikkingstelling ervan aan het publiek en nadat deze beschikbaar zijn gesteld vanuit het in artikel
 2:7 bedoelde dossier, over aan het Europees systeem van gekoppelde registers als bedoeld in artikel 22 van
 voornoemde richtlijn.]2
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 72, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 72,§3, 013; Inwerkingtreding : 30-06-2023>
 
@@ -22608,7 +22608,7 @@ de schuldvordering onverwijld opeisbaar.
 De in het eerste lid bedoelde zekerheid of enige andere waarborg is afhankelijk van het van kracht worden van
 de grensoverschrijdende omzetting overeenkomstig de jurisdictie waarheen de vennootschap haar zetel
 verplaatst.]1
-----------
+
 (1)<W 2023-05-25/04, art. 73, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22657,7 +22657,7 @@ van de informatie voorgeschreven door artikel 11 van de collectieve arbeidsovere
 1972, wordt dit advies aan het in het eerste lid of, in voorkomend geval, het vijfde lid bedoelde verslag gehecht.
 Het bestuursorgaan verstrekt de voornoemde organisaties of de werknemers zelf vóór de algemene
 vergadering die over het omzettingsvoorstel moet besluiten een gemotiveerd antwoord over dit advies.]1
-----------
+
 (1)<W 2023-05-25/04, art. 74, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22685,7 +22685,7 @@ informatie bekomen die zij nodig achten voor de opmaak van het in dit artikel be
 § 2. Indien alle houders van aandelen en winstbewijzen hiermee hebben ingestemd, is het verslag waarvan
 sprake in paragraaf 1 niet vereist.
 Vennootschappen waarvan alle aandelen in één hand zijn verenigd moeten dit artikel niet toepassen.]1
-----------
+
 (1)<W 2023-05-25/04, art. 75, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22727,7 +22727,7 @@ met uitsluiting van de in de artikelen 14:20 en 14:21 bedoelde verslagen maar me
 geval blijft de informatie ten minste tot één maand na de datum van de algemene vergadering die over het
 omzettingsvoorstel moet besluiten op de vennootschapswebsite staan en kan ze worden gedownload en
 afgedrukt.]1
-----------
+
 (1)<W 2023-05-25/04, art. 76, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22780,7 +22780,7 @@ statuten kan slechts met instemming van alle vennoten of aandeelhouders worden g
 omzetting afhankelijk te stellen van haar uitdrukkelijke bekrachtiging van de regelingen die met betrekking tot de
 medezeggenschap van de werknemers in de vennootschap na de grensoverschrijdende omzetting zijn
 vastgesteld.]2
-----------
+
 (1)<W 2020-04-28/06, art. 214, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 77, 013; Inwerkingtreding : 16-06-2023>
 
@@ -22791,7 +22791,7 @@ vastgesteld.]2
 door de notaris aangeduid in het in artikel 14:18 bedoelde omzettingsvoorstel. In de authentieke akte wordt [1 ,
 in voorkomend geval,]1 de conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [2
 gecertificeerd accountant]2 overgenomen. De staat van actief en passief wordt er aangehecht.
-----------
+
 (1)<W 2023-05-25/04, art. 78, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -22823,7 +22823,7 @@ geschil ontslaat de vennootschap niet de door haar geboden geldelijke vergoeding
 De aandelen van de uittredende vennoot of aandeelhouder worden vernietigd op het moment waarop de
 grensoverschrijdende omzetting van kracht wordt overeenkomstig het recht van de jurisdictie waarheen de
 vennootschap haar zetel verplaatst.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-25/04, art. 79, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22897,7 +22897,7 @@ gekoppelde registers en tot intrekking van Uitvoeringsverordening (EU) 2020/2244
 Europees systeem van gekoppelde registers als bedoeld in artikel 22 van voornoemde richtlijn en nadat deze
 beschikbaar zijn gesteld vanuit het in artikel 2:7 bedoelde dossier, over aan het register van de lidstaat van
 bestemming en met het oog op de terbeschikkingstelling ervan aan het publiek.]2
-----------
+
 (1)<W 2023-05-25/04, art. 80, 013; Inwerkingtreding : 16-06-2023>
 (2)<W 2023-05-25/04, art. 80,L11, 013; Inwerkingtreding : 30-06-2023>
 (3)<W 2023-05-25/04, art. 80,L2, 013; Inwerkingtreding : 01-12-2023>
@@ -22913,7 +22913,7 @@ Bij het ontbreken van de in het eerste lid bedoelde notificatie door het buitenl
 bestuursorgaan van de vennootschap het van kracht worden van de omzetting bekend overeenkomstig artikel
 2:14, 1°, waarbij hij het bewijs van inschrijving in het relevante register van het land waarheen de vennootschap
 haar zetel heeft verplaatst, neerlegt.]1
-----------
+
 (1)<W 2023-05-25/04, art. 81, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22940,7 +22940,7 @@ door de Koninklijke Federatie van het Belgisch Notariaat, na ontvangst via het E
 registers als bedoeld in artikel 22 van voornoemde richtlijn.]1
 De akte van grensoverschrijdende omzetting en de statuten worden gelijktijdig neergelegd en [1 bij uittreksel]1
 bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 1°. [1 ...]1
-----------
+
 (1)<W 2023-05-25/04, art. 82, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22955,7 +22955,7 @@ Ondernemingen het van kracht worden van de grensoverschrijdende omzetting via he
 gekoppelde registers als bedoeld in artikel 22 van richtlijn 2017/1132/EU van het Europees Parlement en de Raad
 van 14 juni 2017 aangaande bepaalde aspecten van het vennootschapsrecht over aan het register van de
 lidstaat van vertrek.]1
-----------
+
 (1)<W 2023-05-25/04, art. 83, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -22992,7 +22992,7 @@ vergadering die over het voorstel tot omzetting moet besluiten is afgesloten;
 3° het verslag van de commissaris van de vennootschap of, als er geen commissaris is, een door het
 bestuursorgaan aangewezen bedrijfsrevisor of [1 gecertificeerd accountant]1 over die staat, waarin hij
 inzonderheid aangeeft of het nettoactief werd overgewaardeerd.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23034,7 +23034,7 @@ zij betrekking hebben.
 In geval van omzetting van een vennootschap in een IVZW heeft de akte van omzetting pas uitwerking na de
 goedkeuring door de Koning.
 De omzetting kan aan derden slechts worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23070,7 +23070,7 @@ er overwaardering van het nettoactief heeft plaatsgehad.
 Een kopie van het verslag van het bestuursorgaan en van de bijlagen erbij worden overeenkomstig artikel 2:32
 gericht aan de leden, tezelfdertijd als de oproepingsbrief voor de algemene vergadering die zich over de
 omzetting moet uitspreken.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23095,7 +23095,7 @@ Van authentieke of onderhandse volmachten alsook van het verslag van de commissa
 bedrijfsrevisor of [1 gecertificeerd accountant]1 worden een uitgifte dan wel het origineel neergelegd, samen met
 de akte waarop zij betrekking hebben.
 De omzetting kan aan derden worden tegengeworpen volgens de bepalingen van artikel 2:18.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23147,7 +23147,7 @@ onmiddellijk en rechtstreeks gevolg is:
 2:8, § 2, 1°, 4° en 12°, artikel 6:14, 2° tot 4°, die naar analogie worden toegepast, of artikel [1 14:40]1, eerste lid,
 hetzij wegens het ontbreken of de onjuistheid van de vermeldingen voorgeschreven in artikel 6:13, eerste lid, met
 uitzondering van het 5° en het 8°, en artikel [1 14:40]1, tweede lid.
-----------
+
 (1)<W 2020-04-28/06, art. 215, 002; Inwerkingtreding : 06-05-2020>
 
 
@@ -23178,7 +23178,7 @@ wordt aangegeven of [1 het nettoactief werd overgewaardeerd]1.
 Een kopie van het verslag van het bestuursorgaan en van de bijlagen erbij wordt overeenkomstig artikel 2:32
 gericht aan de leden, tezelfdertijd als de oproepingsbrief voor de algemene vergadering die zich over de
 omzetting moet uitspreken.
-----------
+
 (1)<W 2020-04-28/06, art. 216, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -23207,7 +23207,7 @@ de akte waarop zij betrekking hebben.
 In geval van omzetting van een VZW in een IVZW heeft de akte van omzetting pas uitwerking na de
 goedkeuring door de Koning.
 De omzetting kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23299,7 +23299,7 @@ besluiten is afgesloten.
 De commissaris of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
 gecertificeerd accountant]1, brengt over deze staat verslag uit en vermeldt inzonderheid of het nettoactief is
 overgewaardeerd.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23312,7 +23312,7 @@ door de statuten aangewezen orgaan voor de IVZW overeenkomstig artikel 2:32.
 Iedere schuldeiser die op grond van artikel 14:55 over een verzetsrecht beschikt kan, vanaf de bekendmaking
 van het omzettingsvoorstel overeenkomstig artikel 14:54 op de zetel van de vereniging kosteloos een kopie van
 de in het eerste lid bedoelde stukken verkrijgen.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23353,7 +23353,7 @@ De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authenti
 door de notaris aangeduid in het in artikel 14:54 bedoelde omzettingsvoorstel. In de authentieke akte wordt de
 conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [1 gecertificeerd accountant]1
 overgenomen. De staat van actief en passief wordt er aangehecht.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23427,7 +23427,7 @@ het bestuursorgaan dat over het voorstel moet besluiten is afgesloten;
 overgewaardeerd]1, en dat is opgesteld door de commissaris van de stichting, of, als er geen commissaris is,
 een bedrijfsrevisor of [2 gecertificeerd accountant]2 aangewezen door het bestuursorgaan.
 De akte wordt gevoegd bij het dossier bedoeld in artikel 2:11 en bekendgemaakt overeenkomstig artikel 2:17.
-----------
+
 (1)<W 2020-04-28/06, art. 217, 002; Inwerkingtreding : 06-05-2020>
 (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -23507,7 +23507,7 @@ grensoverschrijdende omzetting moet besluiten is afgesloten.
 De commissaris of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
 gecertificeerd accountant]1, brengt over deze staat verslag uit en vermeldt inzonderheid of het nettoactief is
 overgewaardeerd.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23548,7 +23548,7 @@ De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authenti
 door de notaris aangeduid in het in artikel 14:71 bedoelde omzettingsvoorstel. In de authentieke akte wordt de
 conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [1 gecertificeerd accountant]1
 overgenomen. De staat van actief en passief wordt er aangehecht.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23716,7 +23716,7 @@ artikelen 2:8 en 2:14, 1°.
 De onafhankelijke deskundige(n) bedoeld in artikel 32, lid 4, van verordening (EG) nr. 2157/2001 is de
 commissaris of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
 gecertificeerd accountant]1.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23750,7 +23750,7 @@ Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de a
 De onafhankelijke deskundige(n) bedoeld in artikel 37, lid 6, van verordening (EG) nr. 2157/2001, is
 de commissaris, of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
 gecertificeerd accountant]1.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -23917,7 +23917,7 @@ Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de a
 De onafhankelijke deskundige(n) bedoeld in artikel 66, lid 5, van verordening (EG) nr. 2157/2001, is
 de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
 door het bestuursorgaan.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -24047,7 +24047,7 @@ Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de a
 De onafhankelijke deskundige(n) bedoeld in artikel 35, lid 5, van verordening (EG) nr. 1435/2003, is
 de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
 door het bestuursorgaan.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 
@@ -24265,7 +24265,7 @@ Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de a
 De onafhankelijke deskundige(n) bedoeld in artikel 76, lid 5, van verordening (EG) nr. 1435/2003, is
 de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
 door het bestuursorgaan.
-----------
+
 (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
 

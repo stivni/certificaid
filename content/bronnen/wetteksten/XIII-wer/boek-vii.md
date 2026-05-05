@@ -8,12 +8,12 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 ---
 
 ### BOEK VII. - [1 BETALINGS- EN KREDIETDIENSTEN.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
 
 
 #### TITEL 1. - [1 Algemene principes.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
 
 
@@ -43,7 +43,7 @@ afwikkelingsvergoedingen voor op kaarten gebaseerde betalingstransacties;]2
 [4 8° : Richtlijn 2014/92/EU van het Europees Parlement en de Raad van 23 juli 2014 betreffende de
 vergelijkbaarheid van de in verband met betaalrekeningen aangerekende vergoedingen, het overstappen naar
 een andere betaalrekening en de toegang tot betaalrekeningen met basisfuncties.]4
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
 (2)<W 2016-06-29/01, art. 9, 036; Inwerkingtreding : 16-07-2016>
 (3)<W 2016-04-22/01, art. 3, 038; Inwerkingtreding : 01-12-2016>
@@ -54,7 +54,7 @@ een andere betaalrekening en de toegang tot betaalrekeningen met basisfuncties.]
 
 
 #### TITEL 2. [1 – Toepassingsgebied.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
@@ -137,7 +137,7 @@ consument te leggen. Het komt aan de kredietgever toe het bewijs te leveren dat 
 verplichtingen inzake kredietwaardigheidsbeoordeling, bedoeld in [3 de artikelen VII.69, VII.75, VII.77, VII.126,
 VII.127, § 1, VII.131 en VII.133]3, van de consument en desgevallend van de steller van een persoonlijke
 zekerheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 (2)<W 2016-06-29/01, art. 10, 036; Inwerkingtreding : 16-07-2016>
 (3)<W 2017-04-18/03, art. 7, 046; Inwerkingtreding : 04-05-2017>
@@ -371,7 +371,7 @@ publiek worden toegekend tegen een lagere dan op de markt gebruikelijke rentevoe
 andere voorwaarden die voor de consument gunstiger zijn dan de op de marktgebruikelijke voorwaarden en
 tegen rentetarieven die niet hoger zijn dan de op de markt gebruikelijke.]1
 [7 § 5. Dit boek is niet van toepassing op postcheques, die aan de geldende wetgeving onderworpen blijven.]7
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 (2)<W 2015-10-26/06, art. 13, 028; Inwerkingtreding : 09-11-2015>
 (3)<W 2016-06-29/01, art. 11, 036; Inwerkingtreding : 16-07-2016>
@@ -386,12 +386,12 @@ tegen rentetarieven die niet hoger zijn dan de op de markt gebruikelijke.]1
 
 
 #### TITEL 3. [1 – Betalingsdiensten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
 ##### HOOFDSTUK 1. - [1 Inleidende bepaling.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
@@ -400,11 +400,11 @@ tegen rentetarieven die niet hoger zijn dan de op de markt gebruikelijke.]1
 [1 De bepalingen van deze titel doen geen afbreuk aan andere wettelijke bepalingen opgenomen in titel
 4 van dit boek waarbij bijkomende vereisten inzake voorafgaande informatie of bijzondere voorwaarden, rechten
 en plichten worden opgelegd inzake kredietverlening aan consumenten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 HOOFDSTUK 1/1. [1 - Vergelijkbaarheid van de in verband met betaalrekeningen aangerekende vergoedingen]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 5, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -469,7 +469,7 @@ inzake betaalrekeningen en aanverwante diensten voorgeschreven informatie op een
 duidelijke wijze en goed zichtbare plaats op deze website geplaatst, met vermelding in de onmiddellijke nabijheid
 van de hyperlink naar de in artikel VII.4/4 bedoelde vergelijkingswebsite. Op eenvoudig verzoek van een
 consument worden deze tevens kosteloos op een duurzame drager verstrekt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 6, 057; Inwerkingtreding : 01-03-2019>
 (2)<W 2018-07-19/09, art. 6, 063; Inwerkingtreding : 09-08-2018>
 
@@ -515,7 +515,7 @@ samen met de uit hoofde van andere wetgeving inzake betaalrekeningen en aanverwa
 voorgeschreven informatie.
 § 4. De Koning kan een gestandaardiseerd presentatieformaat van de vergoedingenstaat en het
 desbetreffende gemeenschappelijke symbool vastleggen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 7, 057; Inwerkingtreding : 01-03-2019>
 (2)<W 2018-07-19/09, art. 7, 063; Inwerkingtreding : 09-08-2018>
 
@@ -532,7 +532,7 @@ geen reclamevermelding bevatten.
 § 2. De betalingsdienstaanbieder kan gebruikmaken van merknamen om in zijn contractuele, commerciële en
 marketinginformatie bestemd voor consumenten, zijn diensten aan te duiden, op voorwaarde dat hij, indien
 toepasselijk, duidelijk de overeenkomstige gestandaardiseerde termen van de lijst vermeldt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 8, 057; Inwerkingtreding : 01-03-2019>
 
 
@@ -568,12 +568,12 @@ de financiële diensten.
 Voor het vervullen van haar opdracht beschikt de FSMA over de bevoegdheden als bedoeld in de artikelen 34, §
 1, 1°, 35, §§ 1 en 2, 36 en 36bis van de wet van 2 augustus 2002 betreffende het toezicht op de financiële
 sector en de financiële diensten. Artikel 37 van dezelfde wet is van overeenkomstige toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 9, § 1 en 2, 057; Inwerkingtreding : 25-06-2019; § 3, Inwerkingtreding
 : 01-03-2019>
 
 HOOFDSTUK 1/2. [1 - Vergelijkbaarheid van betaalinstrumenten en bijhorende kosten voor ondernemingen]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-03/21, art. 6, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -613,17 +613,17 @@ De Koning stelt de nadere regels van de overdracht van informatie door de betali
 FOD Economie vast.]1
 
 
-----------
+
 (1)<W 2024-05-03/21, art. 7, 135; Inwerkingtreding : 31-12-2025>
 
 
 ##### HOOFDSTUK 2. [1 Informatie en voorwaarden die de betalingstransacties en raamcontracten beheersen]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 1. - [1 Algemene regels]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -633,7 +633,7 @@ FOD Economie vast.]1
 overeenkomen dat de bepalingen van dit hoofdstuk geheel of ten dele niet van toepassing zijn.
 Dit hoofdstuk is van toepassing op eenmalige betalingstransacties, op raamovereenkomsten en op de
 daaronder vallende transacties.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -642,7 +642,7 @@ daaronder vallende transacties.]1
 [1 Indien een contract betreffende betalingsdiensten op afstand wordt gesloten, vervangt de
 informatie bedoeld in de artikelen VII.14, VII.15, VII.21 en VII.22 de informatie bedoeld in artikel VI.55, § 1, van
 het Wetboek van economisch recht, met uitzondering van 2°, c) tot g), 3°, a), d) en e), en 4°, b).]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -655,7 +655,7 @@ aangerekend voor bijkomende, veelvuldiger of met andere communicatiemiddelen ver
 het raamcontract is bepaald, en verstrekt op verzoek van de betalingsdienstgebruiker.
 Kosten die de betalingsdienstaanbieder krachtens het vorige lid mag aanrekenen dienen redelijk te zijn en in
 overeenstemming met de kosten die de betalingsdienstaanbieder daadwerkelijk heeft gedragen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -663,7 +663,7 @@ overeenstemming met de kosten die de betalingsdienstaanbieder daadwerkelijk heef
 
 [1 De bewijslast inzake het naleven van de informatieverplichtingen bedoeld in dit hoofdstuk komt aan
 de betalingsdienstaanbieder toe.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -695,7 +695,7 @@ een mogelijkheid de opgeslagen bedragen te verifiëren.
 § 2. Voor binnenlandse betalingstransacties kan de Koning, bij besluit vastgesteld na overleg in de Ministerraad,
 de in § 1, eerste lid, genoemde bedragen verlagen of verdubbelen, en voor voorafbetaalde betaalinstrumenten
 verhogen tot 500 euro.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -708,7 +708,7 @@ verkooppunt of door de begunstigde wordt aangeboden, stelt de partij die de valu
 aanbiedt, de betaler in kennis van alle aan te rekenen kosten, alsook van de wisselkoers die bij de omrekening
 van de betalingstransactie zal worden gehanteerd.
 De betaler stemt met de op deze basis aangeboden valutawisseldienst in.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -722,7 +722,7 @@ voor het gebruik van een gegeven betaalinstrument, licht hij de betalingsdienstg
 betalingstransactie wordt geïnitieerd.
 De betaler is alleen verplicht de in het eerste en tweede lid bedoelde vergoedingen te betalen, indien het volledige
 bedrag ervan bekend is gemaakt voordat de betalingstransactie is geïnitieerd.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -737,7 +737,7 @@ hun activiteiten uitbesteden.
 Ten aanzien van personen met een beperking worden de bepalingen van dit artikel aan de hand van gepaste
 alternatieve middelen toegepast, zodat de informatie in een toegankelijk formaat beschikbaar kan worden
 gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-02/06, art. 9, 096; Inwerkingtreding : 21-02-2021>
 
 
@@ -745,17 +745,17 @@ gesteld.]1
 
 [1 Betalingsinstellingen zorgen ervoor dat agenten of bijkantoren die voor hun rekening handelen,
 de betalingsdienstgebruikers daarvan in kennis stellen.]1
-----------
+
 (1)<Ingevoegd bij W 2021-02-02/06, art. 10, 096; Inwerkingtreding : 21-02-2021>
 
 
 **Afdeling 2. - [1 Eenmalige betalingstransacties]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 1. - [1 Toepassingsgebied]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -763,12 +763,12 @@ de betalingsdienstgebruikers daarvan in kennis stellen.]1
 
 [1 Deze afdeling is van toepassing op eenmalige betalingstransacties die niet onder een
 raamcontract vallen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -779,7 +779,7 @@ een onder een raamcontract vallend betaalinstrument, is de betalingsdienstaanbie
 verstrekken of beschikbaar te stellen die reeds uit hoofde van een raamcontract met een andere
 betalingsdienstaanbieder aan de betalingsdienstgebruiker is verstrekt of volgens het raamcontract aan hem zal
 worden verstrekt.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -801,7 +801,7 @@ uitvoering van de betalingstransactie aan zijn verplichtingen voortvloeiend uit 
 § 3. De verplichtingen voortvloeiend uit paragraaf 1 kunnen ook worden nagekomen door het verstrekken van
 een exemplaar van het ontwerpcontract betreffende een eenmalige betalingstransactie of de
 ontwerpbetalingsopdracht waarin de in artikel VII.15 bedoelde informatie en voorwaarden zijn opgenomen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
@@ -828,13 +828,13 @@ deze autoriteit waarin de betalingsdienstaanbieder met het oog op zijn vergunnin
 registratienummer of gelijkaardig middel waarmee de registerinschrijvingen gecontroleerd kunnen worden.
 § 3. Voor zover van toepassing worden de overige in artikel VII.22 bedoelde informatie en voorwaarden op
 gemakkelijk toegankelijke wijze ter beschikking gesteld van de betalingsdienstgebruiker.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 3. - [1 Informatie na initiëring of ontvangst van een betalingsopdracht en na uitvoering van de*
 transactie]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -852,7 +852,7 @@ alsmede alle bij de betalingstransactie gevoegde informatie;
 3° het bedrag van de betalingstransactie;
 4° in voorkomend geval, het bedrag van de voor de transactie aan de betalingsinitiatiedienstaanbieder
 verschuldigde kosten en, voor zover van toepassing, de uitsplitsing van de bedragen van die kosten.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -861,7 +861,7 @@ verschuldigde kosten en, voor zover van toepassing, de uitsplitsing van de bedra
 [1 Wanneer een betalingsopdracht via een betalingsinitiatiedienstaanbieder wordt geïnitieerd, stelt hij
 de referentie van de betalingstransactie ter beschikking van de rekeninghoudende betalingsdienstaanbieder van
 de betaler.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -879,7 +879,7 @@ uitsplitsing van de bedragen van deze kosten;
 betalingstransactie of een desbetreffende referentie, indien deze verschilt van de overeenkomstig artikel VII.15, §
 1, 4°, aangeboden wisselkoers en het bedrag van de betalingstransactie na die valutawissel;
 5° de datum van ontvangst van de betalingsopdracht.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -897,17 +897,17 @@ van toepassing, de uitsplitsing van de bedragen van die kosten;
 4° desgevallend, de door de betalingsdienstaanbieder van de begunstigde bij de betalingstransactie
 gehanteerde wisselkoers, en het bedrag van de betalingstransactie vóór die valutawissel;
 5° de valutadatum van de creditering.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 3. - [1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 1. - [1 Toepassingsgebied]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -915,12 +915,12 @@ gehanteerde wisselkoers, en het bedrag van de betalingstransactie vóór die val
 
 [1 Deze afdeling is van toepassing op een raamcontract en op de betalingstransacties die onder een
 raamcontract vallen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -944,7 +944,7 @@ dat de consument een overschrijding wordt toegestaan, dan vermeldt het raamcontr
 de debetrentevoet bedoeld in artikel VII. 71, § 2, tweede lid, 5°. De betalingsdienstaanbieder verstrekt in elk geval,
 op een duurzame drager, die informatie regelmatig, ongeacht of er een daadwerkelijke overschrijding plaatsvindt
 of niet.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1028,7 +1028,7 @@ b) de klachten- en buitengerechtelijke geschillenregelingen die voor de betaling
 ### boek XVI openstaan, met inbegrip van het geografische adres van de instelling waartoe de
 betalingsdienstgebruiker zijn klachten kan richten, waaronder de contactgegevens van de Algemene Directie
 Economische Inspectie bij de FOD Economie.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1037,12 +1037,12 @@ Economische Inspectie bij de FOD Economie.]1
 [1 Gedurende de contractuele looptijd heeft de betalingsdienstgebruiker te allen tijde het recht de
 contractuele voorwaarden van het raamcontract, alsmede de in artikel VII.22 vermelde informatie en
 voorwaarden op een duurzame drager te vragen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 3. - [1 Wijziging van de voorwaarden en opzegging van het raamcontract]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1071,7 +1071,7 @@ in de rentevoeten of de wisselkoersen die ten gunste van de betalingsdienstgebru
 zonder kennisgeving worden toegepast.
 § 3. Wijzigingen in de bij betalingstransacties gebruikte rentevoeten of wisselkoersen worden uitgevoerd en
 berekend op een neutrale wijze die betalingsdienstgebruikers niet discrimineert.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1095,12 +1095,12 @@ naar evenredigheid van het aantal volledige kalendermaanden vanaf de maand volge
 afsluiten van de rekening tot het einde van de periode waarvoor de beheerskosten werden betaald.
 § 3. Dit artikel is eveneens van toepassing op de spaarrekeningen bedoeld in artikel 2 van het koninklijk besluit
 van 27 augustus 1993 tot uitvoering van het Wetboek van de inkomstenbelastingen 1992.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 4. - [1 Afzonderlijke betalingstransacties]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1112,7 +1112,7 @@ betalingstransactie, duidelijke informatie over:
 1° haar maximum uitvoeringstermijn;
 2° de door de betaler verschuldigde kosten en;
 3° desgevallend, de uitsplitsing van de bedragen van deze kosten.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1139,7 +1139,7 @@ houden.
 § 3. De Koning kan, in afwijking van paragraaf 2 en volgens de nadere regels die Hij bepaalt, bij een besluit
 vastgesteld na overleg in de Ministerraad, de betalingsdienstaanbieder verplichten om, op vraag van de betaler
 de in paragraaf 1 bedoelde informatie eenmaal per maand kosteloos op een duurzame drager te verstrekken.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1165,18 +1165,18 @@ ongewijzigd te reproduceren, teneinde hem toe te laten zijn uitgaven op een rede
 vastgesteld na overleg in de Ministerraad, de betalingsdienstaanbieder verplichten om de in paragraaf 1 bedoelde
 informatie eenmaal per maand kosteloos op een duurzame drager op vraag van de begunstigde te
 verstrekken.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 3. - [1 Rechten en plichten met betrekking tot het aanbieden en het gebruik van
 betalingsdiensten]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 1. - [1 Algemene regels]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1186,7 +1186,7 @@ betalingsdiensten]1
 artikelen VII.30, § 1, VII.32, § 3, VII.33, VII.42, VII.44, VII.46 en VII.47, VII.50, VII.55/3 tot VII.55/7, in het geheel
 of ten dele niet van toepassing zijn. Partijen kunnen ook een andere termijn overeenkomen dan die welke is
 bepaald in artikel VII.41.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1210,7 +1210,7 @@ bepaald betaalinstrument en voor betalingsdiensten waarop verordening (EU) 260/2
 vergoedingen, ongeacht de benaming of de vorm, die door de betalingsdienstaanbieder aan de begunstigde
 worden aangerekend voor de terbeschikkingstelling van uitrusting die het verstrekken van betalingsdiensten
 verbonden met een betaalinstrument vergemakkelijken.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1242,18 +1242,18 @@ instrument voldoet aan de gebruiksvoorwaarden zoals bedoeld in de inleidende bep
 § 4. De Koning kan de afwijking van de toepassing van de artikelen VII. 43 en VII. 44 beperken tot
 betaalrekeningen waarop het elektronisch geld is opgeslagen, of tot betaalinstrumenten met een bepaalde
 waarde.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 2. - [1 Toestaan van betalingstransacties]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 1. - [1 Instemming met de uitvoering van betalingsopdrachten en bevestiging betreffende de*
 beschikbaarheid van geldmiddelen]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1275,7 +1275,7 @@ Hetzelfde geldt voor een instemming met de uitvoering van een reeks betalingstra
 ingetrokken met als gevolg dat iedere toekomstige betalingstransactie als niet-toegestaan wordt aangemerkt.
 § 4. De procedure voor het verlenen van de instemming wordt overeengekomen tussen de betaler en de
 betrokken betalingsdienstaanbieder(s).]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1304,7 +1304,7 @@ worden opgezegd, door kennisgeving aan de medecontractant.
 De opzegging van de domiciliëring door de betaler is rechtsgeldig en tegenstelbaar aan al zijn lasthebbers,
 wanneer de betaler hiervan kennis geeft, hetzij aan zijn schuldeiser, hetzij aan zijn betalingsdienstaanbieder indien
 deze laatste mogelijkheid uitdrukkelijk werd overeengekomen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1316,13 +1316,13 @@ fondsen in overeenstemming met artikel 58, § 1, van de wet van 11 maart 2018, h
 antwoord dat deze ontving.
 § 2. Dit artikel is niet van toepassing op betalingstransacties die zijn geïnitieerd met op kaarten gebaseerde
 betaalinstrumenten waarop elektronisch geld is opgeslagen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 2. - [1 Regels voor de toegang tot betaalrekeningen en voor de toegang tot en het gebruik van*
 informatie over betaalrekeningen]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1346,7 +1346,7 @@ betalingsopdrachten, tenzij om objectieve redenen.
 § 4. Het aanbieden van betalingsinitiatiediensten mag niet afhangen van het bestaan van een contractuele relatie
 tussen de betalingsinitiatiedienstaanbieder en de rekeninghoudende betalingsdienstaanbieder voor dat
 doeleinde.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1359,13 +1359,13 @@ gebaseerd op objectieve redenen.
 § 2. Het aanbieden van rekeninginformatiediensten mag niet afhangen van het bestaan van contractuele relaties
 tussen de rekeninginformatiedienstaanbieder en de rekeninghoudende betalingsdienstaanbieder voor dat
 doeleinde.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 3. - [1 Restricties op het gebruik van betaalinstrumenten en op de toegang tot betaalrekeningen*
 door betalingsdienstaanbieders]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1398,12 +1398,12 @@ laatste onmiddellijk daarna, tenzij het verstrekken van die informatie objectief
 veiligheidsoverwegingen zou doorkruisen of krachtens de wet van 18 september 2017 tot voorkoming van het
 witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten of ander
 wetgeving verboden is.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 4. - [1 Plichten met betrekking tot betaalinstrumenten en persoonlijke beveiligingsgegevens]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1419,7 +1419,7 @@ aangeduide entiteit daarvan onverwijld in kennis.
 § 2. Voor de toepassing van paragraaf 1, 1°, neemt de betalingsdienstgebruiker, zodra hij een betaalinstrument
 ontvangt, in het bijzonder alle redelijke maatregelen om de veiligheid van het betaalinstrument en de persoonlijke
 beveiligingsgegevens ervan te waarborgen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1444,7 +1444,7 @@ betaalinstrument gerelateerde vervangingskosten in rekening;
 2°, is gedaan;
 6° hij draagt het risico van het zenden van een betaalinstrument aan de betaaldienstgebruiker of het zenden
 van elk middel dat het gebruik ervan toelaat, in het bijzonder de gepersonaliseerde beveiligingsgegevens.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1453,13 +1453,13 @@ van elk middel dat het gebruik ervan toelaat, in het bijzonder de gepersonalisee
 [1 De betalingsdienstaanbieder dient een intern register bij te houden van de betalingstransacties,
 gedurende een periode van ten minste tien jaar te rekenen vanaf de uitvoering van de transacties.
 Deze bepaling doet geen afbreuk aan andere wettelijke bepalingen inzake het leveren van bewijsstukken.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 5. - [1 Kennisgeving en rectificatie van niet-toegestane of onjuist uitgevoerde*
 betalingstransacties]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1475,7 +1475,7 @@ artikelen VII. 4 tot VII. 26 van dit boek heeft verstrekt of ter beschikking hee
 § 2. Wanneer een betalingsinitiatiedienstaanbieder bij de transactie betrokken is, verkrijgt de
 betalingsdienstgebruiker rectificatie van de rekeninghoudende betalingsdienstaanbieder krachtens § 1,
 onverminderd artikel VII.43, § 2, en artikel VII.55/6.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1503,13 +1503,13 @@ van de betwiste betalingstransactie, moet voldoen. Hij kan een onderscheid maken
 betalingstransactie en het betaalinstrument dat werd gebruikt voor het initiëren van een betalingsopdracht. De
 Koning kan eveneens de sancties bepalen die van toepassing zijn bij niet-naleving van de aldus opgelegde
 regels.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 6. - [1 Aansprakelijkheid van de betalingsdienstaanbieder voor niet-toegestane*
 betalingstransacties]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1541,7 +1541,7 @@ of enig ander falen in verband met de betalingsdienst waarmee hij is belast, is 
 § 3. Bovendien dient de betalingsdienstaanbieder van de betaler of, indien van toepassing, de
 betalingsinitiatiedienstaanbieder, de eventueel verdere financiële gevolgen, in het bijzonder het bedrag van de
 door de betalingsdienstgebruiker gedragen kosten ter bepaling van de te vergoeden schade, te vergoeden.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1582,7 +1582,7 @@ Wat de beoordeling van de nalatigheid betreft, houdt de rechter rekening met het
 omstandigheden. Het produceren door de betalingsdienstaanbieder van de registraties bedoeld in artikel VII.42
 en het gebruik van het betaalmiddel met de code die enkel door de betalingsdienstgebruiker is gekend, vormen
 geen voldoende vermoeden van nalatigheid vanwege deze laatste.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1598,12 +1598,12 @@ betalingstransactie, wordt de betaler daarover door de begunstigde voorafgaand i
 § 2. De betalingsdienstaanbieder van de betaler geeft de overeenkomstig paragraaf 1 op de betaalrekening van
 de betaler geblokkeerde geldmiddelen na ontvangst van de informatie over het exacte bedrag van de
 betalingstransactie onverwijld vrij en ten laatste onmiddellijk na ontvangst van de betalingsopdracht.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 7. - [1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1634,7 +1634,7 @@ betalingsdienstaanbieder heeft gericht, en
 2° er door de betalingsdienstaanbieder of door de begunstigde ten minste vier weken vóór de vervaldag op de
 overeengekomen wijze informatie betreffende de toekomstige betalingstransactie aan de betaler werd verstrekt
 of ter beschikking werd gesteld.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1650,17 +1650,17 @@ de bepalingen van boek XV en artikel VII. 216 aanhangig kan maken, indien de bet
 niet aanvaardt.
 Het in het eerste lid bedoelde recht van de betalingsdienstaanbieder om de terugbetaling te weigeren, is niet van
 toepassing in het geval bedoeld in artikel VII.46, § 1, laatste lid.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 3. - [1 Uitvoering van betalingstransacties]1**
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 1. - [1 Betalingsopdrachten en overgemaakte bedragen]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1680,7 +1680,7 @@ betalingsdienstaanbieder heeft gesteld, wordt het tijdstip van ontvangst van de 
 artikel VII.53 geacht op de overeengekomen dag te vallen.
 Indien de overeengekomen dag geen werkdag is voor de betalingsdienstaanbieder, wordt de ontvangen
 betalingsopdracht geacht op de eerstvolgende werkdag te zijn ontvangen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1704,7 +1704,7 @@ van het witwassen van geld en de financiering van terrorisme en tot beperking va
 andere relevante wetgeving die dit verbiedt.
 § 3. Voor de toepassing van de artikelen VII.53, VII.55/3 en VII.55/4 wordt een betalingsopdracht waarvan de
 uitvoering is geweigerd, geacht niet ontvangen te zijn.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1727,7 +1727,7 @@ overeengekomen.
 In de in tweede en derde lid bedoelde gevallen is ook het akkoord van de begunstigde vereist.
 Indien zulks in het raamcontract is overeengekomen, mag de betrokken betalingsdienstaanbieder voor de
 uitoefening van dit bijkomend herroepingsrecht kosten aanrekenen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1746,12 +1746,12 @@ betaler geïnitieerde betalingstransactie ontvangt.
 Wanneer de betalingstransactie door of via de begunstigde wordt geïnitieerd, zorgt de betalingsdienstaanbieder
 van de begunstigde ervoor dat het volledige bedrag van de betalingstransactie door de begunstigde wordt
 ontvangen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 *Onderafdeling 2. - [1 Uitvoeringstermijn en valutadatum]1*
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1768,7 +1768,7 @@ VII.55/1, waarvan partijen niet kunnen afwijken.
 Indien de betalingsdienstgebruiker en de betalingsdienstaanbieder een periode overeenkomen die langer is dan
 in artikel VII.53 is bepaald, mag die periode voor intra-uniale betalingstransacties niet langer zijn dan 4 werkdagen
 te rekenen vanaf het tijdstip van ontvangst zoals bepaald in artikel VII.48.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1794,7 +1794,7 @@ geld ontvangen heeft overeenkomstig artikel VII.55/1.
 betalingsopdracht over aan de betalingsdienstaanbieder van de betaler binnen de tussen de begunstigde en de
 betalingsdienstaanbieder overeengekomen termijnen, zodat de afwikkeling van de domiciliëring op de
 overeengekomen vervaldatum kan plaatsvinden.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1803,7 +1803,7 @@ overeengekomen vervaldatum kan plaatsvinden.]1
 [1 Wanneer de begunstigde geen betaalrekening bij de betalingsdienstaanbieder heeft, worden de
 geldmiddelen door de betalingsdienstaanbieder die de geldmiddelen ten behoeve van de begunstigde ontvangt,
 aan de begunstigde ter beschikking gesteld binnen de in artikel VII.53 bepaalde termijn.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1815,7 +1815,7 @@ onmiddellijk na het tijdstip van ontvangst van de geldmiddelen beschikbaar wordt
 Wanneer de betalingsdienstgebruiker geen consument is, wordt het bedrag uiterlijk op de eerstvolgende
 werkdag na de ontvangst van de geldmiddelen op de betaalrekening van de begunstigde beschikbaar gesteld en
 gevaluteerd.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1833,13 +1833,13 @@ De in het eerste lid vervatte verplichting is ook van toepassing voor betalingst
 betalingsdienstaanbieder.
 § 3. De valutadatum van de debitering van de betaalrekening van de betaler valt niet vroeger dan het tijdstip
 waarop het bedrag van de betalingstransactie van die rekening is gedebiteerd.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 **Afdeling 4. - [1 Aansprakelijkheid in geval van onjuiste unieke identificatoren, niet-uitvoering, gebrekkige**
 uitvoering of niet-tijdige uitvoering van betalingstransacties]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1867,7 +1867,7 @@ betalingsdienstgebruiker invorderingskosten aanrekenen.
 artikelen VII.81, § 1, 1°, of VII.22, 2°, b), vereist is, is de betalingsdienstaanbieder alleen aansprakelijk voor de
 uitvoering van een betalingstransactie overeenkomstig de unieke identificator die door de
 betalingsdienstgebruiker is verstrekt.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1900,7 +1900,7 @@ is waarop het bedrag bij een correcte uitvoering van de transactie zou zijn geva
 was geïnitieerd, tracht de betalingsdienstaanbieder van de betaler, ongeacht de aansprakelijkheid uit hoofde van
 dit artikel, op vraag van de betaler, onmiddellijk de betalingstransactie te traceren en stelt hij de betaler op de
 hoogte van de resultaten daarvan. De betaler worden daarvoor geen kosten aangerekend.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1943,7 +1943,7 @@ begunstigde uiterlijk op de datum waarop het bij een correcte uitvoering van de 
 begunstigde is geïnitieerd, tracht de betalingsdienstaanbieder van de begunstigde, ongeacht de aansprakelijkheid
 uit hoofde van dit artikel, desgevraagd onmiddellijk de betalingstransactie te traceren en stelt hij de begunstigde
 op de hoogte van de resultaten daarvan. De begunstigde worden daarvoor geen kosten aangerekend.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1953,7 +1953,7 @@ op de hoogte van de resultaten daarvan. De begunstigde worden daarvoor geen kost
 voor de kosten waarvoor zij verantwoordelijk zijn en de interesten die de betalingsdienstgebruikers worden
 aangerekend wegens de niet-uitvoering of gebrekkige uitvoering, alsook de niet-tijdige uitvoering van de
 betalingstransactie.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1974,7 +1974,7 @@ transactie werd beïnvloed, wordt geleverd door de betalingsinitiatiedienstaanbi
 tijdige uitvoering van de betalingstransactie, vergoedt hij de rekeninghoudende betalingsdienstaanbieder op diens
 verzoek onmiddellijk voor de geleden verliezen of de bedragen die zijn betaald wegens het terugbetalen van de
 betaler.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1982,7 +1982,7 @@ betaler.]1
 
 [1 De betalingsdienstgebruiker heeft ook recht op aanvullende vergoedingen voor eventuele
 andere financiële gevolgen dan die waarin deze afdeling voorziet.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -1998,7 +1998,7 @@ cliëntauthenticatie toepast.
 Aanvullende financiële compensatie kan worden vastgesteld conform de bestaande overeenkomsten tussen de
 betalingsdienstaanbieders en/of tussenpersonen en het recht dat van toepassing is op de tussen hen gesloten
 overeenkomst.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2007,12 +2007,12 @@ overeenkomst.]1
 [1 De aansprakelijkheid bedoeld in de artikelen VII.32 tot VII.55/8, geldt niet in het geval van
 overmacht, noch wanneer de betalingsdienstaanbieder uit hoofde van nationaal of EU-recht andere wettelijke
 verplichtingen heeft.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 4. - [1 Melding van incidenten]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2026,14 +2026,14 @@ maatregelen kan nemen ter vrijwaring van de rechten van de betalingsdienstgebrui
 voor de financiële belangen van zijn betalingsdienstgebruikers, stelt de betalingsdienstaanbieder zijn
 betalingsdienstgebruikers onverwijld van het incident in kennis en deelt hij hen mee welke maatregelen zij kunnen
 treffen om de mogelijke schadelijke gevolgen van het incident te beperken.]2
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 (2)<W 2021-02-02/06, art. 11, 096; Inwerkingtreding : 21-02-2021>
 
 
 ##### HOOFDSTUK 5. - [1 Geschillenbeslechting en procedures betreffende buitengerechtelijke regeling in het kader
 van de wet van 11 maart 2018]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2041,12 +2041,12 @@ van de wet van 11 maart 2018]1
 
 [1 De betalingsdienstgebruiker geniet van de toepassing van artikelen VII.55/13 tot VII.56 en
 VII.216 voor alle geschillen in het kader van de artikelen 48, 58 en 98 van de wet van 11 maart 2018.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 6. - [1 Toegang tot rekeningen bij een kredietinstelling]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2056,12 +2056,12 @@ VII.216 voor alle geschillen in het kader van de artikelen 48, 58 en 98 van de w
 betaalrekeningdiensten van kredietinstellingen. Dergelijke toegang is uitgebreid genoeg om de betalingsinstelling
 in staat te stellen op onbelemmerde en efficiënte wijze betalingsdiensten aan te bieden.
 Elke afwijzing wordt door de kredietinstelling tegenover de FOD Economie met redenen omkleed.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 7. - [1 Geschillenbeslechting]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2073,7 +2073,7 @@ betrekking tot de uit deze titel 3 voortvloeiende rechten en plichten.
 Deze geschillenbehandelingprocedures worden aangeboden in de officiële taal van de plaats waarin de
 betalingsdienst wordt aangeboden of, indien de consument en de betalingsdienstaanbieder zulks in onderlinge
 overeenstemming beslissen, in een andere taal.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2091,7 +2091,7 @@ beantwoording van de klacht duidelijk worden vermeld en de termijn wordt genoemd
 betalingsdienstgebruiker een definitieve reactie zal ontvangen.
 De termijn voor het ontvangen van een definitieve reactie mag in geen geval meer dan 35 extra werkdagen
 bedragen.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
@@ -2102,12 +2102,12 @@ ADR-entiteit (= Alternative Dispute Resolution) die bevoegd is voor de behandeli
 tot de uit titel 3 voortvloeiende rechten en plichten en waaraan zij gehouden zijn zich aan te sluiten
 overeenkomstig artikel VII.216.
 De informatie bedoeld in het eerste lid wordt verstrekt met inachtneming van de bepalingen in artikel XVI.4.]1
-----------
+
 (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 8. [1 - Toegang tot betaalrekeningen en basisbankdienst]1
-----------
+
 (1)<W 2017-12-22/14, art. 11, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -2117,12 +2117,12 @@ De informatie bedoeld in het eerste lid wordt verstrekt met inachtneming van de 
 een betaalrekening bij een kredietinstelling niet gediscrimineerd op grond van nationaliteit, woonplaats of op enige
 andere grond bedoeld in de wet 30 juli 1981 tot bestraffing van bepaalde door racisme of xenofobie ingegeven
 daden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 12, 057; Inwerkingtreding : 01-02-2018>
 
 
 **Afdeling 1. [1 Betaalrekeningen en basisbankdienst voor consumenten" ]1**
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 2, 098; Inwerkingtreding : 01-05-2021>
 
 
@@ -2171,7 +2171,7 @@ Een betalingstransactie uitgevoerd in het raam van een basisbankdienst kan niet 
 deze leidt tot een debetstand.]1
 [4 § 6. Deze afdeling is ook van toepassing op elke consument van Belgische nationaliteit die buiten een lidstaat
 verblijft en die uiterlijk tien jaar geleden werd geschrapt uit het Belgisch bevolkingsregister.]4
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 (2)<W 2017-12-22/14, art. 13, 057; Inwerkingtreding : 01-02-2018>
 (3)<W 2024-02-09/19, art. 24, 129; Inwerkingtreding : 31-03-2024>
@@ -2200,7 +2200,7 @@ consumenten, en binnen de openingsuren van de kredietinstelling. Op eenvoudig ve
 wordt het formulier kosteloos op papier of een andere duurzame drager verstrekt.
 Op eenvoudig verzoek van de consument staat de kredietinstelling de consument bij in het invullen van het
 aanvraagformulier.]3
-----------
+
 (1)<W 2017-12-22/14, art. 14, 057; Inwerkingtreding : 01-02-2018>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 (3)<W 2024-05-03/21, art. 9, 135; Inwerkingtreding : 10-06-2024>
@@ -2253,7 +2253,7 @@ beëindiging onmiddellijk ingaat.
 § 3. De beschikking van toelaatbaarheid van een verzoek tot collectieve schuldenregeling, of het feit dat de
 consument een kredietovereenkomst heeft gesloten, kan geen reden zijn om een basisbankdienst te weigeren of
 op te zeggen.]1
-----------
+
 (1)<W 2017-12-22/14, art. 15, 057; Inwerkingtreding : 01-02-2018>
 (2)<W 2024-05-03/21, art. 10, 135; Inwerkingtreding : 10-06-2024>
 (3)<KB 2024-07-17/18, art. 2, 138; Inwerkingtreding : 01-12-2024>
@@ -2270,7 +2270,7 @@ Daarnaast worden uitdrukkelijk de klachten- en buitengerechtelijke beroepsproced
 consument open staan ter betwisting van de beslissing, en in het bijzonder de volledige naam, het adres, het
 telefoonnummer en het elektronisch adres van het bevoegde orgaan, bedoeld in artikel VII.216 en van het
 bevoegde toezichthoudend bestuur bij de FOD Economie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 16, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -2289,7 +2289,7 @@ beslissing is bindend voor de kredietinstelling.
 bestuur bij de FOD Economie informatie over het aantal geopende rekeningen, het aantal weigeringen en
 opzeggingen alsook over de motivering ervan. De informatie over het afgelopen kalenderjaar wordt ten laatste
 op de laatste dag van de maand februari van het daaropvolgend jaar overgezonden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 17, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -2305,14 +2305,14 @@ daarmee samenhangende vergoedingen en de aan het gebruik daarvan verbonden voorw
 procedures om het recht uit te oefenen om toegang te verkrijgen tot de basisbankdienst en de manieren om
 toegang te verkrijgen tot alternatieve geschillenbeslechtingsprocedures. Uit de informatie dient duidelijk te blijken
 dat de toegang tot een basisbankdienst niet afhankelijk is van de aankoop van bijkomende diensten.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 18, 057; Inwerkingtreding : 01-02-2018>
 
 (2)<W 2024-05-03/21, art. 11, 135; Inwerkingtreding : 10-06-2024>
 
 
 **Afdeling 2. [1 Basisbankdienst voor ondernemingen [2 en diplomatieke zendingen]2]1**
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 3, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 12, 120; Inwerkingtreding : 26-01-2023>
 
@@ -2420,7 +2420,7 @@ In het geval de basisbankdienst verrichtingen in Amerikaanse dollar aanbiedt, ku
 of beperkingen opgelegd worden die nodig zijn om de specifieke risico's eigen aan betalingen in die munt te
 beperken. De aanvrager leeft alle beperkingen op het gebruik van die munt, met inbegrip van embargo's of
 sancties, na. De Koning zal de bijkomende voorwaarden of beperkingen vaststellen. ]1
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 4, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 13, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2023-11-05/07, art. 14, 123; Inwerkingtreding : 21-12-2023>
@@ -2542,7 +2542,7 @@ betalingen in die munt te beperken. De aanvrager leeft alle beperkingen op het g
 inbegrip van embargo's of sancties, na. De Koning zal de bijkomende voorwaarden of beperkingen vaststellen. ]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 4, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 13, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2023-11-05/07, art. 14, 123; Inwerkingtreding : 21-12-2023>
@@ -2567,7 +2567,7 @@ haar rekeningen zullen worden opgezegd [3 of van het feit dat de onderneming of 
 minste tweemaal een aanvraag tot betalingsdiensten zoals bepaald in artikel VII.59/4, § 1, is geweigerd, en dat zij
 ervan in kennis werd gesteld dat haar rekeningen zullen worden opgezegd]3.
 De Koning bepaalt de vermeldingen die op het aanvraagformulier moeten voorkomen. ]1
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 5, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 14, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2024-02-09/19, art. 26, 129; Inwerkingtreding : 31-03-2024>
@@ -2597,7 +2597,7 @@ niet ouder is dan drie maanden.]4
 De Koning bepaalt de vermeldingen die op het aanvraagformulier moeten voorkomen. ]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 5, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 14, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2024-02-09/19, art. 26, 129; Inwerkingtreding : 31-03-2024>
@@ -2676,7 +2676,7 @@ geld en de financiering van terrorisme en tot beperking van het gebruik van cont
 onderneming en de diplomatieke zending openstaan ter betwisting van de beslissing, en, in het bijzonder voor de
 onderneming, de volledige naam, het adres, het telefoonnummer en het elektronisch adres van de ombudsdienst
 voor financiële diensten en van het bevoegde toezichthoudend bestuur bij de FOD Economie.]4
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 6, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 15, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2023-11-05/07, art. 15, 123; Inwerkingtreding : 21-12-2023>
@@ -2693,7 +2693,7 @@ Cel voor Financiële Informatieverwerking, informatie over het aantal in het kad
 ondernemingen [2 en de diplomatieke zendingen]2 geopende rekeningen, het aantal weigeringen en opzeggingen
 alsook over de motivering ervan. De informatie over het afgelopen kalenderjaar wordt ten laatste op de laatste
 dag van de maand februari van het daaropvolgend jaar overgezonden.]1
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 7, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 16, 120; Inwerkingtreding : 26-01-2023>
 
@@ -2711,7 +2711,7 @@ informatie over het afgelopen kalenderjaar wordt ten laatste op de laatste dag v
 daaropvolgend jaar overgezonden.]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 7, 098; Inwerkingtreding : 01-05-2021>
 (2)<W 2022-09-25/14, art. 16, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2024-05-03/21, art. 15, 135; Inwerkingtreding : 30-09-2025>
@@ -2728,7 +2728,7 @@ samenhangende vergoedingen en de aan het gebruik daarvan verbonden voorwaarden, 
 om het recht uit te oefenen om toegang te verkrijgen tot de basisbankdienst en de manieren om toegang te
 verkrijgen tot alternatieve geschillenbeslechtingsprocedures. Uit de informatie dient duidelijk te blijken dat de
 toegang tot een basisbankdienst niet afhankelijk is van de aankoop van bijkomende diensten. ]1
-----------
+
 (1)<Ingevoegd bij W 2020-11-08/04, art. 8, 098; Inwerkingtreding : 01-05-2021>
 
 
@@ -2793,7 +2793,7 @@ de basisbankdienst-aanbieder dan voor een periode van tien jaar vanaf het einde 
 cliënt.
 In geval van gerechtelijke procedure kunnen deze termijnen worden verlengd tot het moment dat de uitspraak
 in kracht van gewijsde is getreden.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/14, art. 17, 120; Inwerkingtreding : 26-01-2023>
 (2)<W 2024-02-09/19, art. 27, 129; Inwerkingtreding : 31-03-2024>
 
@@ -2861,7 +2861,7 @@ In geval van gerechtelijke procedure kunnen deze termijnen worden verlengd tot h
 in kracht van gewijsde is getreden.]1
 
 
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/14, art. 17, 120; Inwerkingtreding : 26-01-2023>
 (2)<W 2024-02-09/19, art. 27, 129; Inwerkingtreding : 31-03-2024>
 (3)<W 2024-05-03/21, art. 16, 135; Inwerkingtreding : 30-09-2025>
@@ -2894,7 +2894,7 @@ basisbankdienst-kamer verwerkt deze persoonsgegevens met het doel een controle o
 aanvraag uit te voeren. De basisbankdienst-aanbieder voert een inhoudelijke controle uit.
 § 4. Het is verboden de gegevens te verwerken voor andere doeleinden dan deze bepaald in dit artikel, in het
 bijzonder de verwerking voor commerciële doeleinden.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/14, art. 18, 120; Inwerkingtreding : 26-01-2023>
 
 
@@ -2918,13 +2918,13 @@ de dag die volgt op de afgifte van de aangetekende zending.
 De onbetaald gebleven bijdragen worden ingevorderd door de administratie van de Federale Overheidsdienst
 Financiën belast met de inning en invordering van de fiscale en niet-fiscale schuldvorderingen, overeenkomstig de
 artikelen 3 en 4 van de domaniale wet van 22 december 1949.]1
-----------
+
 (1)<Ingevoegd bij W 2022-09-25/14, art. 19, 120; Inwerkingtreding : 26-01-2023>
 (2)<W 2023-11-05/07, art. 16, 123; Inwerkingtreding : 21-12-2023>
 
 
 ##### HOOFDSTUK 9. - [1 Uitgifte en terugbetaalbaarheid van elektronisch geld en verbod op rente.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
@@ -2932,7 +2932,7 @@ artikelen 3 en 4 van de domaniale wet van 22 december 1949.]1
 
 [1 Uitgevers van elektronisch geld geven elektronisch geld uit tegen de nominale waarde, in ruil voor
 ontvangen geld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
@@ -2969,7 +2969,7 @@ nominale monetaire waarde van het ontvangen elektronisch geld in wettig betaalmi
 Verordening (EG) nr. 974/98 van de Raad van 3 mei 1998 over de invoering van de euro. Van de bepalingen in de
 paragrafen 3 tot 5 mag enkel afgeweken worden in het nadeel van de persoon die elektronisch geld aanvaardt
 voor zover hij geen consument is.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 (2)<W 2018-07-30/47, art. 11, 065; Inwerkingtreding : 15-09-2018>
 
@@ -2979,11 +2979,11 @@ voor zover hij geen consument is.]2]1
 [1 Uitgevers van elektronisch geld mogen geen rente of andere voordelen toekennen die
 samenhangen met de lengte van de periode gedurende dewelke een houder van elektronisch geld het
 elektronisch geld aanhoudt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 HOOFDSTUK 9/1. [1 - Overstapdienst betaalrekeningen]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 19, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -2991,7 +2991,7 @@ HOOFDSTUK 9/1. [1 - Overstapdienst betaalrekeningen]1
 
 [1 Elke betalingsdienstaanbieder biedt een overstapdienst aan tussen betaalrekeningen in dezelfde
 munteenheid aan elke consument die een betaalrekening opent of aanhoudt.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 20, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -3112,7 +3112,7 @@ waarin de oude betaalrekening open blijft, zullen geen kosten voor het beheer va
 aangerekend.
 § 7. De Koning kan de termijnen bepaald in dit artikel wijzigen, zonder het maximum van het globaal tijdsbestek
 als bedoeld in de paragrafen 1 tot en met 6, te overschrijden.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 21, 057; Inwerkingtreding : 01-02-2018>
 (2)<W 2018-07-19/09, art. 8, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3141,7 +3141,7 @@ bedoelde stappen op de door de consument bepaalde datum, welke ten minste zes we
 van het verzoek van de consument aan de betalingsdienstaanbieder valt. Indien er van openstaande
 verplichtingen sprake is, stelt de betalingsdienstaanbieder de consument er onverwijld van in kennis dat zijn
 rekening niet kan worden beëindigd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 22, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -3157,7 +3157,7 @@ voor de consument of de ontvangende betalingsdienstaanbieder.
 Er mogen geen kosten worden aangerekend aan de consument voor het beëindigen van de rekening en voor
 de overstapdienst, met uitzondering van eventuele portokosten in het kader van andere krachtens artikel
 VII.62/2 verleende diensten dan deze bedoeld in de paragrafen 1 tot en met 3 van die bepaling.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 23, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -3168,7 +3168,7 @@ kosten en interesten, die rechtstreeks voortvloeien uit het feit dat een bij het
 betalingsdienstaanbieder zijn verplichtingen uit hoofde van artikel VII.62/2 niet is nagekomen, worden door die
 betalingsdienstaanbieder onverwijld en van rechtswege vergoed.
 De aansprakelijkheid bedoeld in het eerste lid geldt niet in geval van overmacht.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 24, 057; Inwerkingtreding : 01-02-2018>
 
 
@@ -3191,7 +3191,7 @@ allen tijde in elektronische vorm beschikbaar op zijn website, en wordt op eenvo
 consumenten verstrekt.
 Deze informatie is onmiddellijk en doorlopend te raadplegen op een voor de consument duidelijke en goed
 zichtbare plaats.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 25, 057; Inwerkingtreding : 01-02-2018>
 (2)<W 2018-07-19/09, art. 9, 063; Inwerkingtreding : 09-08-2018>
 (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -3213,12 +3213,12 @@ Deze aansprakelijkheid geldt niet in geval van overmacht.
 De Koning kan de termijn van uitvoering in het eerste lid nader bepalen, alsmede de minimumtermijn bedoeld in
 artikel 62/2 wijzigen voor wat betreft de uitvoering van terugkerende domiciliëringen en inkomende
 overschrijvingen, rekening houdende met een efficiënte dienstverlening.]1
-----------
+
 (1)<Ingevoegd bij W 2017-12-22/14, art. 26, 057; Inwerkingtreding : 01-02-2018>
 
 
 ##### HOOFDSTUK 10. [1 – Gegevensbescherming.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 
@@ -3242,13 +3242,13 @@ verwerken en te bewaren.]2
 De Koning kan, bij een in Ministerraad overlegd besluit, na advies van de Commissie voor de bescherming van
 de persoonlijke levenssfeer, de verwerkingsmodaliteiten voor de in dit boek omschreven en gerechtvaardigde
 doeleinden nader bepalen. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 (2)<W 2018-07-19/09, art. 11, 063; Inwerkingtreding : 09-08-2018>
 
 
 ##### HOOFDSTUK 11. [1 - Afwikkelingsvergoedingen]1
-----------
+
 (1)<Ingevoegd bij W 2016-06-29/01, art. 12, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -3258,7 +3258,7 @@ doeleinden nader bepalen. ]1
 Verordening (EU) nr. 2015/751 een maximumpercentage en/of een maximaalbedrag van
 afwikkelingsvergoedingen vaststellen, overeenkomstig artikel 3, paragrafen 2 en 3, van Verordening (EU) nr.
 2015/751.]1
-----------
+
 (1)<Ingevoegd bij W 2016-06-29/01, art. 13, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -3267,7 +3267,7 @@ afwikkelingsvergoedingen vaststellen, overeenkomstig artikel 3, paragrafen 2 en 
 [1 De Koning kan voor binnenlandse kredietkaarttransacties van consumenten in de zin van
 Verordening (EU) nr. 2015/751 een maximumpercentage en/of een maximaalbedrag van
 afwikkelingsvergoedingen vaststellen, overeenkomstig artikel 4 van Verordening (EU) nr. 2015/751.]1
-----------
+
 (1)<Ingevoegd bij W 2016-06-29/01, art. 14, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -3288,31 +3288,31 @@ voor financiële diensten ingesteld krachtens artikel VII.216.
 § 4. De betalingsdienstaanbieders treden toe tot een buitengerechtelijke regeling van geschillen die in de lijn ligt
 van de Verordening (EU) nr. 2015/751, zoals bedoeld in dit artikel, dragen bij tot de financiering ervan en gaan in
 op elk verzoek om informatie dat zij in het raam van deze geschillenregeling ontvangen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-01/12, art. 3, 040; Inwerkingtreding : 25-12-2016>
 
 
 #### TITEL 4. [1 – Kredietovereenkomsten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 ##### HOOFDSTUK 1. [1 – Consumentenkrediet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 1. [1 – Kredietpromotie.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 
 2)>
 
 
 *Onderafdeling 1. [1 – Reclame.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3350,7 +3350,7 @@ meer een verzekering, verplicht is om het krediet, in voorkomend geval op de gea
 verkrijgen, en de kosten van die dienst niet vooraf bepaald kunnen worden, moet de verplichting tot het sluiten
 van die overeenkomst ook op een duidelijke, beknopte, opvallende en hoorbare wijze, tezamen met het jaarlijkse
 kostenpercentage worden vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 4, 038; Inwerkingtreding : 01-12-2016>
@@ -3386,7 +3386,7 @@ baar geld of contant;
 kostenpercentage, bevat;
 9° een daad in de hand werkt die beschouwd moet worden als een niet-naleving van of een inbreuk op dit boek
 of zijn besluiten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3398,7 +3398,7 @@ of zijn besluiten]1
 
 
 *Onderafdeling 2. - [1 Leuren]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3431,14 +3431,14 @@ een verkoper of een dienstverlener, of van een kredietgever of een kredietbemidd
 consument aan te zetten goederen of diensten te verwerven, tenzij dit doel duidelijk en vooraf werd kenbaar
 gemaakt aan de consument als zijnde het hoofddoel van de beoogde uitstap. Het bewijs van deze kennisgeving
 rust op de persoon die de uitstap organiseert.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 3. - [1 Promotieaanbiedingen]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3448,19 +3448,19 @@ rust op de persoon die de uitstap organiseert.]1
 [1 Het is de verkoper van goederen of diensten verboden om prijsverminderingen te koppelen aan
 het opnemen van krediet, het gebruik van een kredietopening of van een hiermee verbonden kaart of
 betaalinstrument.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 2. - [1 Totstandkoming van de kredietovereenkomst.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3489,13 +3489,13 @@ Koning kan, bij een in Ministerraad overlegd besluit, deze lijst aanvullen ingev
 overschrijdt.
 De vragenlijst vermeldt de bestanden die, overeenkomstig artikel VII. 79, zullen worden geraadpleegd.
 Onverminderd § 1, is het eerste lid niet van toepassing in geval het kredietbedrag 500 euro niet overschrijdt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 2. - [1 Precontractuele informatie]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3587,7 +3587,7 @@ SECCI-formulier na het sluiten van de kredietovereenkomst.
 § 4. Aan de consument wordt, op verzoek en kosteloos, behalve de SECCI, een exemplaar van de
 ontwerpkredietovereenkomst verstrekt. Deze bepaling is niet van toepassing indien de kredietgever ten tijde van
 het verzoek niet voornemens is de kredietovereenkomst met de consument aan te gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 6, 038; Inwerkingtreding : 01-12-2016>
@@ -3649,7 +3649,7 @@ communicatie op afstand dat informatieverstrekking overeenkomstig § 2 niet moge
 de in § 4 bedoelde gevallen, komt de kredietgever onmiddellijk na het sluiten van de kredietovereenkomst zijn
 verplichtingen uit hoofde van § 2 na door de contractuele informatie overeenkomstig artikel VII. 78 te
 verstrekken, voor zover dat artikel van toepassing is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -3665,12 +3665,12 @@ Het eerste lid is niet van toepassing op de agent in een nevenfunctie die tegeli
 en een betaalinstrument aanbiedt dat kan aangewend worden buiten zijn vestiging of een kredietovereenkomst
 aanbiedt die geheel of gedeeltelijk bestemd is voor de aankoop van goederen of diensten die niet door hem
 worden aangeboden.]1
-----------
+
 (1)<W 2015-10-26/06, art. 16, 028; Inwerkingtreding : 09-11-2015>
 
 
 *Onderafdeling 3. - [1 Plicht tot bijzondere informatieverstrekking van de kredietbemiddelaar]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3683,13 +3683,13 @@ documenten bestemd voor het cliënteel. Deze informatie heeft onder meer betrekk
 kredietmakelaar of verbonden agent.
 De verbonden agent geeft in alle documenten bestemd voor het cliënteel de elementen ter identificatie van de
 kredietgever aan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 4. - [1 Passende toelichtingen]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3710,13 +3710,13 @@ kredietgever of de kredietbemiddelaar. Deze toelichting heeft onder meer betrekk
 kapitaal, de aanrekening van interesten, de maximale jaarlijkse kostenpercentages, de nulstellingstermijn en de
 eisbaarheid van het verschuldigd saldo in geval van eenzijdige opzegging bedoeld in artikel VII. 98, § 1, tweede
 lid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 5. - [1 Raadgevingsverbintenissen]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3727,13 +3727,13 @@ lid.]1
 zij gewoonlijk aanbieden of waarvoor zij gewoonlijk bemiddelen, het krediet te zoeken dat qua soort en bedrag
 het best is aangepast, rekening houdend met de financiële toestand van de consument op het ogenblik van het
 sluiten van de kredietovereenkomst en met het doel van het krediet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 6. - [1 Onderzoeksplicht]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3749,7 +3749,7 @@ natuurlijke personen;
 eerste lid, 2°, van de hierboven vermelde wet van 19 juli 1991;
 - de identiteitskaart, het paspoort of de vervangende reisvergunning, uitgereikt aan een vreemdeling die geen
 verblijf houdt in het Rijk, door de Staat waar hij verblijft of waarvan hij onderdaan is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3789,7 +3789,7 @@ hypothecair krediet met een roerende bestemming]3 die niet werd afgelost dan kan
 nieuwe kredietovereenkomst sluiten. In de andere gevallen van een niet-afgeloste wanbetaling kan een
 kredietgever slechts een nieuwe kredietovereenkomst sluiten mits een bijzondere motivering in het
 kredietdossier.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 7, 038; Inwerkingtreding : 01-12-2016>
@@ -3797,7 +3797,7 @@ kredietdossier.]1
 
 
 *Onderafdeling 7. - [1 Sluiten van de kredietovereenkomst]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3912,7 +3912,7 @@ onverwijld een door de kredietgever getekend exemplaar van de kredietovereenkoms
 consument.
 § 6. De oorzaken van vervroegde eisbaarheid of ontbinding van de kredietovereenkomst worden hernomen in
 de kredietovereenkomst door een afzonderlijk beding..]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 17, 028; Inwerkingtreding : 09-11-2015>
@@ -3923,7 +3923,7 @@ de kredietovereenkomst door een afzonderlijk beding..]1
 
 
 *Onderafdeling 8. - [1 Kredietweigering]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3942,7 +3942,7 @@ van terrorisme en tot beperking van het gebruik van contanten]4 of andere toepas
 openbare orde of de openbare veiligheid raakt dit verbiedt.
 Indien het krediet wordt geweigerd mag geen vergoeding van welke aard ook van de consument worden geëist,
 met uitzondering van de kosten inzake raadpleging van de Centrale door de kredietgever betaald.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 18, 028; Inwerkingtreding : 09-11-2015>
@@ -3951,7 +3951,7 @@ met uitzondering van de kosten inzake raadpleging van de Centrale door de kredie
 
 
 *Onderafdeling 9. - [1 Bijzondere bepalingen inzake financieringshuur]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -3964,7 +3964,7 @@ De kredietgever verwittigt de consument [2 bij een aangetekende zending]2 dat hi
 koopoptie te lichten een maand voor de laatste hiertoe overeengekomen datum. Wanneer de koopoptie niet
 wordt gelicht of de eigendomsoverdracht niet plaats vindt kan de financieringshuur slechts omgezet worden in
 huur middels het sluiten van een huurcontract.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 10, 038; Inwerkingtreding : 01-12-2016>
@@ -3992,7 +3992,7 @@ maximale residuele waarde berekend op basis van deze parameters die de consument
 lichten van de koopoptie;
 2° in voorkomend geval, het bedrag van de zekerheid en de verplichting vanwege de kredietgever om de
 financiële opbrengst van het tot zekerheid gestelde deposito ter beschikking van de consument te stellen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4008,13 +4008,13 @@ schuldvordering wegens niet-nakoming van de financieringshuurovereenkomst.
 Over het saldo kan niet worden beschikt dan op grond van een beslissing van de rechter of van een schriftelijk
 akkoord gesloten na wanprestatie of na uitvoering van de overeenkomst. Die beslissing is uitvoerbaar bij
 voorraad, niettegenstaande verzet of hoger beroep en zonder borgtocht noch kantonnement.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 3. [1 – Herroepingsrecht.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4050,20 +4050,20 @@ VI. 67 niet van toepassing.
 § 5. Dit artikel is niet van toepassing op kredietovereenkomsten die volgens dit boek door tussenkomst van een
 notaris moeten worden gesloten, mits de notaris verklaart dat de consument de rechten bedoeld in de artikelen
 VII.70, VII.74 en VII.78 geniet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 11, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 4. - [1 Onrechtmatige bedingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 1. - [1 Onrechtmatige betalingen.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4077,7 +4077,7 @@ verkoper of de dienstverlener, noch kan een betaling gedaan worden van de ene aa
 consument de kredietovereenkomst niet heeft ondertekend.
 Nietig is elk beding waarbij de consument zich verbindt, indien het krediet geweigerd wordt, de
 overeengekomen prijs contant te betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4087,14 +4087,14 @@ overeengekomen prijs contant te betalen.]1
 [1 Is verboden en wordt voor niet geschreven gehouden elk beding in de kredietovereenkomst dat
 de kredietgever toelaat om een vergoeding te vragen aan de consument wanneer hij het toegestane
 kredietbedrag niet geheel of gedeeltelijk heeft opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 2. - [1 Berekening van de debetintresten en veranderlijkheid van de debetrentevoet en de*
 kosten]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4149,7 +4149,7 @@ bepaling onder 1° bedoelde wijzigingen;
 5° de naam en het adres van de bevoegde autoriteit waarbij de consument die klacht kan indienen.
 Voor de toepassing van het eerste lid houdt iedere wijziging van de bestaande voorwaarden het sluiten van een
 nieuwe kredietovereenkomst in.]6
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 19, 028; Inwerkingtreding : 09-11-2015>
@@ -4160,7 +4160,7 @@ nieuwe kredietovereenkomst in.]6
 
 
 *Onderafdeling 3. - [1 Nevendiensten]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4179,13 +4179,13 @@ geven, of om het, geheel of gedeeltelijk, te bestemmen als deposito of voor de a
 financiële instrumenten.
 § 3. Het stelsel van wedersamenstelling van het kapitaal, is verboden.
 § 4. Elk beding strijdig met dit artikel wordt voor niet geschreven gehouden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4197,7 +4197,7 @@ een zekerheid verboden, op een wisselbrief of orderbriefje de betaling te belove
 verbintenissen die hij naar aanleiding van een kredietovereenkomst heeft aangegaan. Het is eveneens verboden
 een cheque te laten ondertekenen als zekerheid van de volledige of gedeeltelijke terugbetaling van het
 verschuldigde bedrag.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4211,19 +4211,19 @@ loon der werknemers en kan slechts uitgevoerd en aangewend worden tot beloop van
 kennisgeving van de overdracht krachtens de kredietovereenkomst opeisbare bedragen.
 § 2. De inkomsten of het loon van de minderjarigen, ontvoogd of niet, zijn niet vatbaar voor overdracht en
 beslag uit hoofde van kredietovereenkomsten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 5. - [1 Uitvoering van de kredietovereenkomst.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4242,13 +4242,13 @@ soort krediet, het oogmerk en het tijdstip van het sluiten de kredietovereenkoms
 § 2. Voor de gelden die de kredietgever aan de kredietbemiddelaar heeft overgemaakt ter uitvoering van de
 kredietovereenkomst, blijft hij instaan tot deze volledig zijn ter beschikking gesteld van de consument of aan een
 door de consument aangewezen derde.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 2. - [1 Financiering van goederen en diensten]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4268,7 +4268,7 @@ kredietgever van de levering van het goed of de verlening van de dienst.
 De kennisgeving bedoeld in het tweede lid gebeurt op een [2 duurzame gegevensdrager]2, onder meer een
 leveringsbewijs, dat door de consument gedagtekend en ondertekend moet zijn.
 De krachtens de kredietovereenkomst verschuldigde rente gaat eerst in op de dag van deze kennisgeving.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -4302,7 +4302,7 @@ mits ofwel een schriftelijke overeenkomst, gesloten nadat het bedrag op de voorv
 geblokkeerd, ofwel een voor eensluidend verklaard afschrift van de uitgifte van een rechterlijke beslissing wordt
 voorgelegd. Die beslissing is uitvoerbaar bij voorraad niettengestaande verzet of hoger beroep en zonder
 borgtocht, noch kantonnement.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 13, 038; Inwerkingtreding : 01-12-2016>
@@ -4315,13 +4315,13 @@ vermeldt of wanneer het kredietbedrag of het opgenomen bedrag rechtstreeks door 
 verkoper op afstand wordt gestort, kan de levering van het goed, in afwijking van de artikelen VII. 90 en VII. 84,
 eerste lid, plaats vinden voor het sluiten van de kredietovereenkomst in zoverre deze laatste te gelegener tijd
 voor de levering, beschikt over de contractvoorwaarden en de informatie bedoeld in artikel VI. 57, § 1.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4340,7 +4340,7 @@ tot aan hun herziening.
 Iedere verlaging van het maximale jaarlijkse kostenpercentage en, in voorkomend geval, van de maximale
 kredietkosten is onmiddellijk van toepassing op de lopende kredietovereenkomsten die, binnen de perken van
 deze wet, de veranderlijkheid van het jaarlijkse kostenpercentage of de debetrentevoet voorzien.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4368,14 +4368,14 @@ onderworpen is aan een nulstellingstermijn van minder dan of gelijk aan een jaar
 consument, door middel van ieder nuttig communicatiemiddel, van de datum van het verstrijken van de
 nulstellingstermijn alsook van de gevolgen van niet-betaling op de nulstellingsdag ten laatste twee maanden voor
 het verstrijken van de nulstellingstermijn.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2023-11-05/07, art. 17, 123; Inwerkingtreding : 01-04-2024>
 
 
 *Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4389,7 +4389,7 @@ de overeenkomst.
 De consument die wenst, geheel of gedeeltelijk, vervroegd zijn krediet terug te betalen, brengt de kredietgever
 ten minste tien dagen voor de terugbetaling [2 bij een aangetekende zending]2 van zijn voornemen op de
 hoogte.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 14, 038; Inwerkingtreding : 01-12-2016>
@@ -4418,7 +4418,7 @@ van het krediet waarborgt;
 § 3. Een vergoeding mag niet hoger zijn dan het rentebedrag dat de consument zou hebben betaald gedurende
 de termijn tussen de vervroegde aflossing en de overeengekomen datum waarop de kredietovereenkomst
 eindigt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 23, 067; Inwerkingtreding : 20-10-2018>
@@ -4441,7 +4441,7 @@ grond van een kredietovereenkomst op te schorten. De kredietgever stelt de consu
 gegevensdrager]3, indien mogelijk van tevoren en uiterlijk onmiddellijk na de opschorting, van die opschorting in
 kennis, alsook van de gronden hiervoor, tenzij het verstrekken van dergelijke informatie op grond van andere
 wetgeving is verboden of indruist tegen doelstellingen van openbare orde of openbare veiligheid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 15, 038; Inwerkingtreding : 01-12-2016>
@@ -4449,7 +4449,7 @@ wetgeving is verboden of indruist tegen doelstellingen van openbare orde of open
 
 
 *Onderafdeling 5. - [1 Rekeningafschrift]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4476,7 +4476,7 @@ hand van de debetrentevoet;
 [3 4° de datum van het verstrijken van de nulstellingstermijn met daarnaast een goed zichtbare waarschuwing
 dat de contractuele minimale betalingen mogelijk niet voldoende zijn om het opgenomen bedrag tijdig terug te
 betalen op die datum.]3]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -4484,7 +4484,7 @@ betalen op die datum.]3]1
 
 
 *Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4530,7 +4530,7 @@ niet uitvoert, straffen of schadevergoedingen oplegt waarin dit boek niet voorzi
 kredietgever een einde aan de overeenkomst binnen de perken van [5 artikel VII.105, § 2, tweede lid, 3°]5, of sluit
 bij wege van schuldvernieuwing een nieuwe overeenkomst met een verhoogd kredietbedrag en dit met
 eerbiediging van alle bepalingen van dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 20, 028; Inwerkingtreding : 09-11-2015>
@@ -4554,7 +4554,7 @@ Indien de overschrijding bij het verstrijken van een termijn van drie maand vana
 aangezuiverd, schort de kredietgever de kredietopnemingen op en stelt hij een einde aan de overeenkomst
 binnen de perken van [3 artikel VII.105, § 2, tweede lid, 3°]3, of sluit hij bij wege van schuldvernieuwing een
 nieuwe overeenkomst met een verhoogd kredietbedrag en dit met eerbiediging van alle bepalingenvan dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -4563,7 +4563,7 @@ nieuwe overeenkomst met een verhoogd kredietbedrag en dit met eerbiediging van a
 
 **Afdeling 6. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze**
 overeenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4577,7 +4577,7 @@ door de Bank, het Beschermingsfonds voor deposito's en financiële instrumenten,
 mobiliseringsinstellingen in de zin van artikel 2 van de wet van 3 augustus 2012 betreffende diverse maatregelen
 ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector]3 of andere daartoe door
 de Koning aangewezen personen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 21, 028; Inwerkingtreding : 09-11-2015>
@@ -4592,7 +4592,7 @@ gegeven, behalve wanneer de onmiddellijke overdracht of indeplaatsstelling uitdr
 contract, en wanneer de identiteit van de overnemer of van de indeplaatsgestelde in de kredietovereenkomst is
 vermeld. Deze kennisgeving is niet verplicht wanneer de oorspronkelijke kredietgever, in overleg met de nieuwe
 houder van de schuldvordering, tegenover de consument het krediet verder beheert.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 16, 038; Inwerkingtreding : 01-12-2016>
@@ -4604,13 +4604,13 @@ houder van de schuldvordering, tegenover de consument het krediet verder beheert
 de consument tegenover de overnemer of de indeplaatsgestelde schuldeiser, de verweermiddelen, het beroep
 op de schuldvergelijking inbegrepen, die hij de overdrager of de indeplaatssteller kan tegenwerpen. Elk hiermee
 strijdig beding wordt voor niet geschreven gehouden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 7. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1**
-----------
+
 (1)<W 2024-12-20/49, art. 40, 139; Inwerkingtreding : 24-01-2025>
 
 
@@ -4642,7 +4642,7 @@ ingebrekestelling.
 Onverminderd de toepassing van artikel VII. 98 is elk beding dat voorziet dat de kredietgever op elk ogenblik de
 terugbetaling van het opgenomen kredietbedrag kan eisen verboden en wordt dit als niet geschreven
 beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 17, 038; Inwerkingtreding : 01-12-2016>
@@ -4697,7 +4697,7 @@ straffen en schadevergoedingen nadat het verschuldigd blijvende saldo en de tota
 de consument zijn betaald.
 § 6. Verboden is en als niet geschreven wordt beschouwd elk beding dat, ingeval de consument zijn
 verbintenissen niet uitvoert, straffen of schadevergoedingen oplegt waarin dit boek niet voorziet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 18, 038; Inwerkingtreding : 01-12-2016>
@@ -4720,7 +4720,7 @@ toegestane betalingsfaciliteitenplan.
 aangesproken, kunnen zij de vrederechter om het toestaan van betalingsfaciliteiten verzoeken, volgens dezelfde
 voorwaarden en modaliteiten als bepaald door de artikelen 1337bis tot 1337octies van het Gerechtelijk Wetboek
 met betrekking tot het toestaan van betalingsfaciliteiten aan de consument inzake consumentenkrediet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2024-12-20/49, art. 42, 139; Inwerkingtreding : 24-01-2025>
@@ -4742,14 +4742,14 @@ op grond van een uitdrukkelijk akkoord tussen de partijen, gesloten na de totsta
 kredietovereenkomst of bij beschikking van de rechter.
 § 3. In geen geval mag een lastgeving of een akkoord gesloten met het oog op de terugname van een goed
 gefinancierd door een kredietovereenkomst leiden tot een ongerechtvaardigde verrijking.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 19, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 8. [1 – Zekerheden.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4777,7 +4777,7 @@ Voor de kredietovereenkomsten gesloten voor een onbepaalde duur kan door de kred
 borgtocht of een persoonlijke zekerheid worden gevraagd voor een periode van vijf jaar. Deze periode kan
 slechts hernieuwd worden bij afloop en met het uitdrukkelijk goedvinden van de borg of de persoon die een
 persoonlijke zekerheid heeft gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4788,7 +4788,7 @@ persoonlijke zekerheid heeft gesteld.]1
 consument [2 twee termijnbedragen]2 of minstens een vijfde van de totale te betalen som achterstaat. Hij geeft
 hem kennis van de toegekende betalingsfaciliteiten en deelt hem vooraf elke wijziging van de oorspronkelijke
 kredietovereenkomst mee.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 20, 038; Inwerkingtreding : 01-12-2016>
@@ -4802,13 +4802,13 @@ twee termijnbedragen of een bedrag gelijk aan 20 pct. van de totale terug te bet
 termijnbedrag niet heeft betaald en, nadat de kredietgever de consument bij een aangetekende zending in
 gebreke heeft gesteld, de consument een maand na de aangetekende zending zijn verplichtingen niet is
 nagekomen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 21, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2025-06-05/09, art. 4, 142; Inwerkingtreding : 01-01-2026>
 
 
 **Afdeling 9. [1 – Kredietbemiddelaars.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4818,7 +4818,7 @@ nagekomen.]1
 [1 § 1. De kredietbemiddelaar mag enkel bemiddelen voor kredietovereenkomsten met
 vergunninghoudende of geregistreerde kredietgevers.
 § 2. De kredietmakelaar mag zijn activiteit slechts onder zijn eigen naam uitoefenen.]1
-----------
+
 
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
@@ -4836,7 +4836,7 @@ noodzakelijke inlichtingen bedoeld in artikel VII. 69 mededelen.
 bedrag van de andere kredietovereenkomsten welke hij heeft aangevraagd of ontvangen ten behoeve van
 dezelfde consument gedurende twee maanden voorafgaand aan het indienen van iedere nieuwe
 kredietaanvraag.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4870,14 +4870,14 @@ met name te bepalen dat de beloning niet afhankelijk is van het aantal of het pe
 [2 § 6. Wanneer de kredietgevers of kredietbemiddelaars adviesdiensten verstrekken kan de beloningsstructuur
 voor de betrokken personeelsleden geen afbreuk doen aan hun vermogen om in het beste belang van de
 consument te handelen en met name niet afhankelijk te zijn van verkoopdoelstellingen.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 22, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 10. [1 – Schuldbemiddeling.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4889,19 +4889,19 @@ consument te handelen en met name niet afhankelijk te zijn van verkoopdoelstelli
 de uitoefening van zijn beroep of zijn ambt;
 2° wanneer zij wordt verricht door overheidsinstellingen of door particuliere instellingen die daartoe door de
 bevoegde overheid zijn erkend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 11. - [1 Verwerking van persoonsgegevens.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 *Onderafdeling 1. - [1 Overmaking van persoonsgegevens.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4913,7 +4913,7 @@ overeenkomstig de artikelen VII. 102 en VII. 103, kunnen de persoonsgegevens van
 zekerheidssteller die door de kredietgever verwerkt werden in het raam van het sluiten of het uitvoeren van een
 kredietovereenkomst enkel aan een derde worden overgemaakt onder de voorwaarden [2 opgesomd in deze
 onderafdeling]2.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2017-04-18/03, art. 10, 046; Inwerkingtreding : 04-05-2017>
@@ -4931,7 +4931,7 @@ privévermogen van deze persoon kan voortgezet worden.
 In geen geval mogen deze inlichtingen worden gebruikt voor commerciële prospectiedoeleinden.
 § 2. De ingezamelde gegevens moeten in het licht van de doeleinden opgesomd in de vorige paragraaf relevant,
 aangepast en niet overdreven zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -4953,7 +4953,7 @@ schriftelijk zijn kennis gegeven;
 de gegevens, zoals bedoeld in het 1°, mogen uitvoeren;
 3° de bijzondere voorwaarden en modaliteiten vaststellen welke voor deze verwerking moeten worden in acht
 genomen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -5002,7 +5002,7 @@ personen bedoeld in dit artikel, met uitzondering van de FSMA, de Bank, de ambte
 8°, en de Commissie voor de Bescherming van de Persoonlijke Levenssfeer, moeten de consumenten over wie
 de aanvraag gaat individualiseren, aan de hand van hun naam, voornaam en geboortedatum; die aanvragen
 mogen worden gegroepeerd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-03-13/07, art. 750, 033; Inwerkingtreding : 23-03-2016; zie ook art. 756>
@@ -5010,7 +5010,7 @@ mogen worden gegroepeerd.]1
 
 
 *Onderafdeling 2. - [1 Verwerking van gegevens]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -5036,7 +5036,7 @@ erop toezien dat de programma's voor geautomatiseerde verwerking of de geautomat
 uitsluitend worden ontwikkeld en aangewend overeenkomstig dit boek en zijn uitvoeringsbesluiten.
 De Koning kan de regels bepalen volgens welke de verantwoordelijke voor de verwerking zijn opdracht moet
 uitvoeren.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -5058,7 +5058,7 @@ verwerking zelf kunnen worden ingesteld;
 modaliteiten voor de uitoefening van genoemde rechten, alsook de bewaringstermijn van de gegevens, zo er een
 bestaat;
 5° de doeleinden van de verwerking.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -5076,18 +5076,18 @@ geregistreerde persoon aanduidt.
 § 3. Wanneer in het bestand wanbetalingen verwerkt worden, kan de consument eisen dat de reden van de
 wanbetaling die hij mededeelt samen met de wanbetaling, wordt vermeld.
 § 4. De Koning kan de nadere regelen voor de uitoefening van de in dit artikel bedoelde rechten vaststellen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 ##### HOOFDSTUK 2. - [1 Hypothecair krediet]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 1. - [1 Reclame]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5128,7 +5128,7 @@ kostenpercentage, bevat;
 betreffende de beschikbaarheid of de kosten van een krediet;
 10° een daad in de hand werkt die beschouwd moet worden als een niet-naleving van of een inbreuk op dit
 boek of zijn besluiten.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5170,12 +5170,12 @@ gegeven.
 inzake informatie met betrekking tot de aard van de verrichting, haar duur, de vaste of veranderlijke aard van de
 debetrentevoet, het bedrag van de aflossingen, het jaarlijkse kostenpercentage, en, indien het om een
 promotiepercentage gaat, de periode gedurende de welke dit percentage wordt toegepast.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 2. - [1 Prospectus]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5239,18 +5239,18 @@ geraadpleegd worden.
 De partijen kunnen van de prospectus afwijkende verminderingen of vermeerderingen overeenkomen indien
 deze voordeliger zijn voor de consument of op zijn initiatief onderhandeld werden.
 De Koning kan de lijst inzake informatie te verstrekken in het raam van de prospectus uitbreiden.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 **Afdeling 3. - [1 Totstandkoming van de kredietovereenkomst]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5293,13 +5293,13 @@ beschikbaar is;
 3° indien de rentetarieven afzonderlijk bij de prospectus gevoegd worden, de dagtekening van deze tarieven.
 § 4. De ontvangen informatie wordt naar behoren geverifieerd, inclusief door middel van raadpleging van
 onafhankelijk verifieerbare stukken, indien nodig.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-07-30/47, art. 14, 065; Inwerkingtreding : 15-09-2018>
 
 
 *Onderafdeling 2. - [1 Precontractuele informatie]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5338,13 +5338,13 @@ bijlagen 1 en desgevallend 2 bij dit boek.
 § 5. Bij communicatie via spraaktelefonie, als bedoeld in artikel VI.56, omvat de beschrijving van de belangrijkste
 kenmerken van de financiële dienst bedoeld in artikel VI.56, tweede lid, b), ten minste de punten 2 tot 6 van deel
 A in bijlage 3 van dit boek.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 3. - [1 Informatievoorschriften voor bemiddelaars inzake hypothecair krediet]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5373,13 +5373,13 @@ consument wordt ervan in kennis gesteld dat hij het recht heeft om deze informat
 § 3. De kredietbemiddelaar zorgt ervoor dat zijn subagent, wanneer hij contact opneemt of vooraleer hij zaken
 doet, naast de krachtens dit artikel te vertrekken informatie, aan de consument kenbaar maakt in welke
 hoedanigheid hij optreedt en welke kredietbemiddelaar hij vertegenwoordigt.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 4. - [1 Passende toelichtingen]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5396,12 +5396,12 @@ De toelichtingen omvatten, indien van toepassing, ten minste :
 de gevolgen van wanbetaling door de consument; en
 4° indien er nevendiensten gebundeld zijn met een kredietovereenkomst, het antwoord op de vraag of elk
 onderdeel van de bundel afzonderlijk kan worden beëindigd en welke implicaties dat heeft voor de consument.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 5. - [1 Algemene gedragsregels]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5416,12 +5416,12 @@ aangaande kredietverstrekking of, in voorkomend geval, nevendiensten, worden geb
 de omstandigheden van de consument en elke specifieke eis die de consument heeft medegedeeld, en op
 redelijke veronderstellingen aangaande de risico's gerelateerd aan de situatie van de consument gedurende de
 looptijd van de kredietovereenkomst.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 6. - [1 Raadgevingsplicht en -diensten]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5469,13 +5469,13 @@ kredietbemiddelaar is het gebruik van de termen "advies" en "adviseur" of van ve
 § 7. Het is iedere natuurlijk of rechtspersoon, die de hoedanigheid van kredietgever of kredietbemiddelaar bezit,
 verboden om aan de consument om het even welke vergoeding, rechtstreeks of onrechtstreeks te vragen voor
 deze adviesdiensten, zelfs indien hij handelt buiten iedere bemiddeling of kredietverstrekking om.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 7. - [1 Onderzoeksplicht]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5490,7 +5490,7 @@ augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen;
 eerste lid, 2°, van de voormelde wet van 19 juli 1991;
 - de identiteitskaart, het paspoort of de vervangende reisvergunning, uitgereikt aan een vreemdeling die geen
 verblijf houdt in het Rijk, door de Staat waar hij verblijft of waarvan hij onderdaan is.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5550,14 +5550,14 @@ De kredietgever draagt er zorg voor dat de wettelijke normen voor de waardebepal
 bestemde onroerende goederen, verstrekt als hypothecaire zekerheid, worden toegepast bij de schatting indien
 hij beroep doet op een interne schatter of dat hij redelijke maatregelen neemt om ervoor te zorgen dat die
 normen worden toegepast wanneer een derde partij de schatting verricht.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 (3)<W 2019-05-02/28, art. 8, 077; Inwerkingtreding : 01-06-2019>
 
 
 *Onderafdeling 8. - [1 Sluiten van de kredietovereenkomst.]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5693,14 +5693,14 @@ de consument in over de stijging van het totale, door de consument te betalen be
 uiteen dat hij het recht heeft om de overeenkomst in een alternatieve valuta om te zetten en de daartoe geldende
 voorwaarden, en geeft uitleg over elk ander toepasselijk mechanisme ter beperking van het wisselkoersrisico
 waaraan hij is blootgesteld.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2017-04-18/03, art. 11, 046; Inwerkingtreding : 04-05-2017>
 (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 9. - [1 Wedersamenstelling van kapitaal]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5728,7 +5728,7 @@ kredietovereenkomst, heeft de consument het recht te eisen dat de kredietgever h
 het ogenblik dat het kapitaal wedersamengesteld is, zonder enige vergoeding of renteverhoging.
 In voorkomend geval wordt de nieuwe kredietovereenkomst verleden op kosten van de consument.
 § 4. De Koning kan bijkomende regels bepalen waaraan de wedersamenstelling moet voldoen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5737,12 +5737,12 @@ In voorkomend geval wordt de nieuwe kredietovereenkomst verleden op kosten van d
 [1 Het wedersamengesteld kapitaal wordt eisbaar op het ogenblik dat :
 1° het krediet de vervaldag bereikt;
 2° de consument gebruik maakt van zijn wettelijk of bedongen recht het kapitaal terug te betalen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 10. - [1 Kredietweigering]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5761,13 +5761,13 @@ openbare orde of de openbare veiligheid raakt, dit verbiedt.
 Indien het krediet wordt geweigerd mag geen vergoeding van welke aard ook van de consument worden geëist,
 met uitzondering van de kosten inzake raadpleging van de Centrale door de kredietgever betaald en van de
 schattingskosten bedoeld in artikel VII.141.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2017-09-18/06, art. 182, 051; Inwerkingtreding : 16-10-2017>
 
 
 **Afdeling 4. - [1 Herroepingsrecht]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5800,17 +5800,17 @@ consument binnen de dertig dagen volgend op de herroeping.
 nevendienstovereenkomsten met zich mee.
 § 4. Indien de consument het herroepingsrecht inroept bedoeld in dit artikel zijn de artikelen VI. 58, VI.59, en VI.
 67 niet van toepassing.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 5. - [1 Onrechtmatige bedingen]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 1. - [1 Onrechtmatige betalingen]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5823,7 +5823,7 @@ verkoper of de dienstverlener, noch kan een betaling gedaan worden van de ene aa
 consument de kredietovereenkomst niet heeft ondertekend.
 Nietig is elk beding waarbij de consument zich verbindt, indien het krediet geweigerd wordt, de
 overeengekomen prijs contant te betalen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5838,7 +5838,7 @@ onroerende bestemming dat de kredietgever toelaat om gedurende een periode lange
 vergoeding te vragen aan de consument voor de terbeschikkingstelling van het kapitaal wanneer hij het
 toegestane kredietbedrag niet geheel of gedeeltelijk heeft opgenomen. De Koning kan de hoogte en de
 berekeningsmodaliteiten van deze vergoeding vastleggen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5858,13 +5858,13 @@ bestemming dossierkosten vragen. Deze kosten zijn slechts verschuldigd nadat de 
 kredietaanbod heeft aanvaard.
 De Koning kan een methode bepalen tot vaststelling van maximale schattings- en dossierkosten en, in
 voorkomend geval, tot aanpassing van deze maxima.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 2. - [1 Berekening van de debetrente, veranderlijkheid van de periodieke rentevoet, de*
 debetrentevoet, de kosten en van de contractvoorwaarden]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5873,7 +5873,7 @@ debetrentevoet, de kosten en van de contractvoorwaarden]1
 [1 Voor de berekening van het bedrag van de debetrente wordt gerekend met de periodieke
 
 rentevoet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -5962,7 +5962,7 @@ consument of, in voorkomend geval, de wijzigingen die van rechtswege zijn ingevo
 bepaling onder 1° bedoelde wijzigingen;
 4° de termijn waarbinnen een dergelijke klacht kan worden ingediend;
 5° de naam en het adres van de bevoegde autoriteit waarbij de consument die klacht kan indienen.]5
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2017-04-18/03, art. 12, 046; Inwerkingtreding : 04-05-2017>
 (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
@@ -5985,7 +5985,7 @@ Is verboden, het eisen of het doen betalen :
 2° van intresten in gedeelten van de perioden waarvoor zij berekend zijn.
 Indien de debetrente krachtens de kredietovereenkomst aan een derde wordt betaald, is deze betaling
 bevrijdend voor de consument tegenover de kredietgever.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6026,7 +6026,7 @@ De kredietgever kan dossierkosten aanrekenen indien de consument contractueel vo
 voorwaarde dat in de kredietovereenkomst in de aanrekening van deze kosten voorzien is. De Koning kan een
 methode bepalen tot vaststelling van maximale kosten en, in voorkomend geval, tot aanpassing van deze
 maxima.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-05-03/21, art. 17, 135; Inwerkingtreding : 10-06-2024>
 
@@ -6059,7 +6059,7 @@ van zijn contract.
 De kredietgever zal in beide voorafgaande gevallen geen dossierkosten aanrekenen.
 De kredietgever zal in deze omstandigheid niet moeten voldoen aan de bepalingen zoals opgenomen in artikel
 VII.134, § 1.]1
-----------
+
 (1)<W 2020-12-20/10, art. 60, 094; Inwerkingtreding : 01-01-2021>
 
 
@@ -6120,12 +6120,12 @@ van het uitstel.
 7° de kredietgever zal de mogelijkheid tot betalingsuitstel onder de voornoemde voorwaarden kenbaar maken
 via zijn website.
 8° de bepalingen van artikel VII.133 zijn niet overeenkomstig van toepassing.]1
-----------
+
 (1)<W 2021-02-02/06, art. 12, 096; Inwerkingtreding : 01-02-2021>
 
 
 *Onderafdeling 3. - [1 Nevendiensten]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6163,7 +6163,7 @@ ondertekend door de kredietgever en de consument :
 1° het krediet waarop het aangehecht contract betrekking heeft;
 2° de aanvaarding door de kredietgever van de verzekeringsovereenkomst als aangehecht contract;
 3° de verplichtingen die de consument draagt krachtens het aangehechte contract.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2023-11-05/07, art. 20, 123; Inwerkingtreding : 01-06-2024>
 
@@ -6222,14 +6222,14 @@ de kredietgever en de kredietbemiddelaar.]2
 kredietovereenkomst, van de consument te bedingen om het ontleende kapitaal, geheel of gedeeltelijk, in pand te
 geven, of om het, geheel of gedeeltelijk, te bestemmen als deposito of voor de aankoop van effecten of andere
 financiële instrumenten.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2023-11-05/07, art. 21, 123; Inwerkingtreding : 01-06-2024>
 (3)<W 2024-05-03/21, art. 18, 135; Inwerkingtreding : 01-06-2024>
 
 
 *Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6240,7 +6240,7 @@ van een zekerheid verboden, op een wisselbrief of orderbriefje de betaling te be
 verbintenissen die hij naar aanleiding van een kredietovereenkomst heeft aangegaan. Het is eveneens verboden
 een cheque te laten ondertekenen als zekerheid van de volledige of gedeeltelijke terugbetaling van het
 verschuldigde bedrag.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6254,18 +6254,18 @@ aangewend worden tot beloop van de op de dag van de kennisgeving van de overdrac
 kredietovereenkomst opeisbare bedragen.
 § 2. De inkomsten of het loon van de minderjarigen, ontvoogd of niet, zijn niet vatbaar voor overdracht en
 beslag uit hoofde van kredietovereenkomsten.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-07-30/47, art. 15, 065; Inwerkingtreding : 15-09-2018>
 
 
 **Afdeling 6. - [1 Uitvoering van de kredietovereenkomst]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6284,12 +6284,12 @@ kredietbedrag, het soort krediet, het oogmerk en het tijdstip van het sluiten va
 § 2. Voor de gelden die de kredietgever aan de kredietbemiddelaar heeft overgemaakt ter uitvoering van de
 kredietovereenkomst, blijft hij instaan tot deze volledig zijn ter beschikking gesteld van de consument of aan een
 door de consument aangewezen derde.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 2. - [1 Financiering van goederen en diensten]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6297,7 +6297,7 @@ door de consument aangewezen derde.]1
 
 [1 De bepalingen van deze onderafdeling hebben betrekking op de hypothecaire kredieten met
 een roerende bestemming.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6316,7 +6316,7 @@ kredietgever van de levering van het goed of de verlening van de dienst.
 De kennisgeving bedoeld in het tweede lid gebeurt op een [2 duurzame gegevensdrager]2, onder meer een
 leveringsbewijs, dat door de consument gedagtekend en ondertekend moet zijn.
 De krachtens de kredietovereenkomst verschuldigde rente gaat eerst in op de dag van deze kennisgeving.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
@@ -6348,7 +6348,7 @@ mits ofwel een schriftelijke overeenkomst, gesloten nadat het bedrag op de voorv
 geblokkeerd, ofwel een voor eensluidend verklaard afschrift van de uitgifte van een rechterlijke beslissing wordt
 voorgelegd. Die beslissing is uitvoerbaar bij voorraad niettegenstaande verzet of hoger beroep en zonder
 borgtocht, noch kantonnement.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6360,13 +6360,13 @@ verkoper op afstand wordt gestort, kan de levering van het goed, in afwijking va
 en VII.147/3, plaats vinden voor het sluiten van de kredietovereenkomst in zoverre [2 de consument]2 te
 gelegener tijd voor de levering, beschikt over de contractvoorwaarden en de informatie bedoeld in artikel VI. 57,
 § 1.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-07-30/47, art. 16, 065; Inwerkingtreding : 15-09-2018>
 
 
 *Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6374,7 +6374,7 @@ gelegener tijd voor de levering, beschikt over de contractvoorwaarden en de info
 
 [1 De bepalingen van deze onderafdeling hebben enkel betrekking op de hypothecaire kredieten
 met een roerende bestemming.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6392,7 +6392,7 @@ tot aan hun herziening.
 Iedere verlaging van het maximale jaarlijkse kostenpercentage en, in voorkomend geval, van de maximale
 kredietkosten is onmiddellijk van toepassing op de lopende kredietovereenkomsten die, binnen de perken van dit
 boek, de veranderlijkheid van het jaarlijkse kostenpercentage of de debetrentevoet voorzien.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6412,12 +6412,12 @@ De kredietgever licht de consument uitdrukkelijk en voorafgaand aan het sluiten 
 over dit recht in.
 § 4. Uiterlijk twee maanden voor het verstrijken van de nulstellingstermijn verwittigt de kredietgever de
 consument hiervan door middel van ieder nuttig communicatiemiddel.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging van de kredietovereenkomst]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6449,7 +6449,7 @@ wedersamengestelde kapitaal er geheel of gedeeltelijk toe aan te wenden of niet 
 Bovendien heeft de consument het recht het niet meer toegevoegd gedeelte van zijn contract te doen in
 aanmerking nemen om de premies van het contract te verminderen tot hetgeen nodig is om het toegevoegd
 gedeelte in stand te houden.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
@@ -6474,7 +6474,7 @@ geval de opbrengst van de verkoop van het in waarborg gegeven onroerend goed hem
 terugbetaling van zijn krediet te bekomen.
 § 4. Zijn bevrijdend tegenover de kredietgever, de stortingen in kapitaal en vergoeding gedaan krachtens de
 kredietovereenkomst aan een derde, met het oog op een vervroegde terugbetaling.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6496,13 +6496,13 @@ grond van een kredietovereenkomst opschorten. De kredietgever stelt de consument
 gegevensdrager]2, indien mogelijk van tevoren en uiterlijk onmiddellijk na de opschorting, van die opschorting in
 kennis, alsook van de gronden hiervoor, tenzij het verstrekken van dergelijke informatie op grond van andere
 wetgeving verboden is of indruist tegen de doelstellingen van de openbare orde of de openbare veiligheid.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 5. - [1 Rekeningafschrift]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6526,13 +6526,13 @@ volgende informatie verstrekt :
 3° de datum en het bedrag van de verschuldigde intresten per toegepaste debetrentevoet evenals een
 aanduiding van de wijze waarop deze intresten worden berekend op het verschuldigd blijvend saldo aan de hand
 van de debetrentevoet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 *Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6556,7 +6556,7 @@ debetstand.
 kredietgever een einde aan de overeenkomst binnen de perken van artikel VII.147/20, § 1, 3°, of sluit bij wege
 van schuldvernieuwing een nieuwe overeenkomst met een verhoogd kredietbedrag en dit met eerbiediging van
 alle bepalingen van dit boek.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
@@ -6577,14 +6577,14 @@ Indien de overschrijding bij het verstrijken van een termijn van drie maand vana
 aangezuiverd, schort de kredietgever de kredietopnemingen op en stelt hij een einde aan de overeenkomst
 binnen de perken van artikel VII.147/20, § 1, 3°, of sluit hij bij wege van schuldvernieuwing een nieuwe
 overeenkomst met een verhoogd kredietbedrag en dit met eerbiediging van alle bepalingen van dit boek.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
 
 **Afdeling 7. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze**
 overeenkomst]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6598,7 +6598,7 @@ door de Bank, het Beschermingsfonds voor deposito's en financiële instrumenten,
 mobiliseringsinstellingen in de zin van artikel 2 van de wet van 3 augustus 2012 betreffende diverse maatregelen
 ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector of andere daartoe door
 de Koning aangewezen personen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2022-04-28/25, art. 19, 118; Inwerkingtreding : 01-01-2023>
 (3)<W 2024-12-20/49, art. 44, 139; Inwerkingtreding : 24-01-2025>
@@ -6612,7 +6612,7 @@ aangetekende zending kennis is gegeven, behalve wanneer de onmiddellijke overdra
 uitdrukkelijk is bepaald in het contract, en wanneer de identiteit van de overnemer of van de indeplaatsgestelde in
 de kredietovereenkomst is vermeld. Deze kennisgeving is niet verplicht wanneer de oorspronkelijke kredietgever,
 in overleg met de nieuwe houder van de schuldvordering, tegenover de consument het krediet verder beheert.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 45, 139; Inwerkingtreding : 24-01-2025>
 
@@ -6623,13 +6623,13 @@ in overleg met de nieuwe houder van de schuldvordering, tegenover de consument h
 behoudt de consument tegenover de overnemer of de indeplaatsgestelde schuldeiser de verweermiddelen, het
 beroep op de schuldvergelijking inbegrepen, die hij de overdrager of de indeplaatssteller kan tegenwerpen. Elk
 hiermee strijdig beding wordt voor niet geschreven gehouden.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 46, 139; Inwerkingtreding : 24-01-2025>
 
 
 **Afdeling 8. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1**
-----------
+
 (1)<W 2024-12-20/49, art. 47, 139; Inwerkingtreding : 24-01-2025>
 
 
@@ -6702,7 +6702,7 @@ Onverminderd de toepassing van artikel VII.147/13, § 1, is elk beding dat voorz
 ogenblik de terugbetaling van het opgenomen kredietbedrag kan eisen verboden en wordt dit als niet geschreven
 beschouwd. De oorzaken van de vervroegde opeisbaarheid of ontbinding mogen niet voortvloeien uit een
 toedoen van de kredietgever.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 48, 139; Inwerkingtreding : 24-01-2025>
 
@@ -6716,7 +6716,7 @@ Bij niet-naleving van deze verplichting mag de contractuele verhoging van de ren
 de betaling bedoeld in de artikelen VII.147/22 en VII.147/23 voor deze vervaldag niet worden toegepast;
 bovendien moet voor deze vervaldag een betalingsuitstel van zes maanden te rekenen vanaf de achterstallige
 vervaldag zonder bijkomende kosten of intresten worden toegekend.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6768,7 +6768,7 @@ nalatigheidsintresten of andere straffen en schadevergoedingen nadat het verschu
 totale kosten van het krediet voor de consument zijn betaald.
 § 6. Verboden is en als niet geschreven wordt beschouwd elk beding dat, ingeval de consument zijn
 verbintenissen niet uitvoert, straffen of schadevergoedingen oplegt waarin dit boek niet voorziet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2022-04-28/25, art. 20, 118; Inwerkingtreding : 01-01-2023>
 
@@ -6808,12 +6808,12 @@ De Koning kan bepalen welke vermeldingen dat document moet bevatten en kan een a
 opleggen.
 § 4. Verboden is en als niet geschreven wordt beschouwd elk beding dat, ingeval de consument zijn
 verbintenissen niet uitvoert, straffen of schadevergoedingen oplegt waarin dit boek niet voorziet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 9. - [1 Betalingsfaciliteiten]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6829,7 +6829,7 @@ De artikelen 732 en 733 van het Gerechtelijk Wetboek zijn van toepassing.
 In afwijking van de artikelen 2032, 4°, en 2039 van het Burgerlijk Wetboek, moet de borg en, in voorkomend
 geval, elke steller van een persoonlijke zekerheid, zich houden aan het door de beslagrechter aan de consument
 toegestane betalingsfaciliteitenplan.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6845,12 +6845,12 @@ gefinancierde goed de verkregen prijs ter kennis brengen van de consument en hem
 terugstorten.
 § 2. In geen geval mag een lastgeving of een akkoord gesloten met het oog op de terugname van een goed
 gefinancierd door een kredietovereenkomst leiden tot een ongerechtvaardigde verrijking.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 10. - [1 Zekerheden]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6877,7 +6877,7 @@ Voor de kredietovereenkomsten gesloten voor een onbepaalde duur kan door de kred
 borgtocht of een persoonlijke zekerheid worden gevraagd voor een periode van vijf jaar. Deze periode kan
 slechts hernieuwd worden bij afloop en met het uitdrukkelijk goedvinden van de borg of de persoon die een
 persoonlijke zekerheid heeft gesteld.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6887,7 +6887,7 @@ persoonlijke zekerheid heeft gesteld.]1
 consument twee betalingen of minstens een vijfde van de totale te betalen som achterstaat. Hij [2 geeft hen
 kennis]2 van de toegekende betalingsfaciliteiten en [2 deelt hen]2 vooraf elke wijziging van de oorspronkelijke
 kredietovereenkomst mee.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2018-07-30/47, art. 18, 065; Inwerkingtreding : 15-09-2018>
 
@@ -6899,14 +6899,14 @@ de borg en, desgevallend, de steller van een zekerheid dan eerst aanspreken wann
 twee termijnen of een bedrag gelijk aan 20 pct. van de totale terug te betalen som of de laatste termijn niet
 betaald heeft en, nadat de kredietgever de consument bij aangetekende zending in gebreke heeft gesteld, de
 consument een maand na de aangetekende zending zijn verplichtingen niet is nagekomen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2025-06-05/09, art. 5, 142; Inwerkingtreding : 01-01-2026>
 
 
 **Afdeling 11. - [1 Gedragsregels voor het verstrekken van krediet aan consumenten via kredietbemiddelaars en**
 het betalen van commissielonen en vergoedingen aan kredietbemiddelaars en personeelsleden]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6925,7 +6925,7 @@ kredietaanvraag.
 § 4. De kredietbemiddelaar mag enkel bemiddelen voor kredietovereenkomsten met vergunninghoudende of
 geregistreerde kredietgevers.
 De kredietmakelaar mag zijn activiteit slechts onder zijn eigen naam uitoefenen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6958,12 +6958,12 @@ met name te bepalen dat de beloning niet afhankelijk is van het aantal of het pe
 § 6. Wanneer de kredietgevers of kredietbemiddelaars adviesdiensten verstrekken kan de beloningsstructuur
 voor de betrokken personeelsleden geen afbreuk doen aan hun vermogen om in het beste belang van de
 consument te handelen en met name niet afhankelijk te zijn van verkoopdoelstellingen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 12. - [1 Schuldbemiddeling]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6974,17 +6974,17 @@ consument te handelen en met name niet afhankelijk te zijn van verkoopdoelstelli
 de uitoefening van zijn beroep of zijn ambt;
 2° wanneer zij wordt verricht door overheidsinstellingen of door particuliere instellingen die daartoe door de
 bevoegde overheid zijn erkend.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 **Afdeling 13. - [1 Verwerking van persoonsgegevens]1**
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 1. [1 Overmaking van persoonsgegevens]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -6995,7 +6995,7 @@ overeenkomstig de artikelen VII.147/17 en VII.147/18, kunnen de persoonsgegevens
 zekerheidssteller die door de kredietgever verwerkt werden in het raam van het sluiten of het uitvoeren van een
 kredietovereenkomst enkel aan een derde worden overgemaakt onder de voorwaarden [2 opgesomd in deze
 onderafdeling]2.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2017-04-18/03, art. 13, 046; Inwerkingtreding : 04-05-2017>
 
@@ -7012,7 +7012,7 @@ privévermogen van deze persoon kan voortgezet worden.
 In geen geval mogen deze inlichtingen worden gebruikt voor commerciële prospectiedoeleinden.
 § 2. De ingezamelde gegevens moeten in het licht van de doeleinden opgesomd in de vorige paragraaf relevant,
 aangepast en niet overdreven zijn.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -7035,7 +7035,7 @@ voorafgaandelijk en schriftelijk in kennis werd gesteld;
 de gegevens, zoals bedoeld in het 1°, mogen uitvoeren;
 3° de bijzondere voorwaarden en modaliteiten vaststellen welke voor deze verwerking moeten worden in acht
 genomen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -7082,12 +7082,12 @@ personen bedoeld in dit artikel, met uitzondering van de FSMA, de Bank, de ambte
 8°, en de Commissie voor de Bescherming van de Persoonlijke Levenssfeer, moeten de consumenten over wie
 de aanvraag gaat individualiseren, aan de hand van hun naam, voornaam en geboortedatum; die aanvragen
 mogen worden gegroepeerd.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 *Onderafdeling 2. - [1 Verwerking van gegevens]1*
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -7112,7 +7112,7 @@ erop toezien dat de programma's voor geautomatiseerde verwerking of de geautomat
 uitsluitend worden ontwikkeld en aangewend overeenkomstig dit boek en zijn uitvoeringsbesluiten.
 De Koning kan de regels bepalen volgens welke de verantwoordelijke voor de verwerking zijn opdracht moet
 uitvoeren.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -7133,7 +7133,7 @@ verwerking zelf kunnen worden ingesteld;
 modaliteiten voor de uitoefening van genoemde rechten, alsook de bewaringstermijn van de gegevens, zo er een
 bestaat;
 5° de doeleinden van de verwerking.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -7150,18 +7150,18 @@ geregistreerde persoon aanduidt.
 § 3. Wanneer in het bestand wanbetalingen verwerkt worden, kan de consument eisen dat de reden van de
 wanbetaling die hij mededeelt samen met de wanbetaling, wordt vermeld.
 § 4. De Koning kan de nadere regelen voor de uitoefening van de in dit artikel bedoelde rechten vaststellen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 
 ##### HOOFDSTUK 3. - [1 Centrale voor Kredieten aan Particulieren.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 **Afdeling 1. [1 – Registratie.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7197,7 +7197,7 @@ Bank, met het oog op het opstellen van statistieken met betrekking tot de schuld
 aan de personen bedoeld in artikel VII. 149.
 § 3. De Bank stelt de administratieve en technische richtlijnen vast die moeten worden nageleefd door de
 personen die gehouden zijn gegevens aan de Centrale mede te delen of haar te raadplegen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<KB 2020-04-22/01, art. 2, 081; Inwerkingtreding : 01-04-2020>
@@ -7208,7 +7208,7 @@ personen die gehouden zijn gegevens aan de Centrale mede te delen of haar te raa
 
 
 **Afdeling 2. - [1 Mededeling en raadpleging van gegevens.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7229,7 +7229,7 @@ sluit zonder hiertoe over de nodige vergunning of registratie te beschikken dan 
 verplichten om de overeenkomsten en wanbetalingen toch te laten registreren door de Centrale. Zij brengen de
 Centrale en het begeleidingscomité hiervan op de hoogte. De registratiekosten zijn ten laste van de kredietgever.
 De Koning kan betalingsmodaliteiten voorzien en de hoogte van deze kosten bepalen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 25, 038; Inwerkingtreding : 01-12-2016>
@@ -7244,7 +7244,7 @@ Bij de aanvraag van een kredietovereenkomst deelt de consument het voornoemde id
 De Bank is gemachtigd om [3 , in voorkomend geval,]3 het identificatienummer van het Rijksregister van de
 natuurlijke personen te gebruiken in haar relaties met de consumenten en de personen bedoeld in de [2 artikelen
 VII.149, § 2, eerste lid]2 en VII. 153, § 1.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 22, 028; Inwerkingtreding : 09-11-2015>
@@ -7262,7 +7262,7 @@ gesteld door de Bank. Deze kennisgeving moet vermelden :
 bewaartermijnen van deze laatste;
 5° de benaming en het adres van het bevoegde toezichthoudend bestuur bij de FOD Economie en van de
 Commissie voor de Bescherming van de Persoonlijke Levenssfeer.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7278,7 +7278,7 @@ juiste inhoud ervan. Desgevallend vraagt deze persoon aan de Centrale de verbete
 gegevens.
 In geval van rechtzetting is de Bank ertoe gehouden deze rechtzetting mede te delen aan de personen die
 inlichtingen van de Centrale hebben verkregen en die de geregistreerde persoon aanduidt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7336,7 +7336,7 @@ deze gegevens voor wetenschappelijke of statistische doeleinden door te geven in
 natuurlijke personen niet langer kunnen worden geïdentificeerd door de ontvanger van de gegevens. Het gebruik
 en de overdracht van de gegevens bedoeld in onderhavige paragraaf gebeurt onder gepseudonimiseerde
 vorm.]3]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2016-04-22/01, art. 26, 038; Inwerkingtreding : 01-12-2016>
@@ -7358,14 +7358,14 @@ betreffende kredietinstrumenten die gecreëerd zijn op basis van overeenkomsten 
 5°, van de wet van 28 november 2021 tot organisatie van een Register van kredieten aan ondernemingen en
 waarbij een natuurlijke persoon of een onderneming natuurlijke persoon debiteur is. De Koning bepaalt de
 gegevens die kunnen worden meegedeeld en de nadere regels van deze aanvullende raadpleging.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 24, 028; Inwerkingtreding : 09-11-2015>
 (3)<W 2023-07-31/04, art. 8, 130; Inwerkingtreding : 01-01-2024>
 
 Afdeling 2/1. [1 Bewaartermijnen]1
-----------
+
 (1)<Ingevoegd bij W 2023-07-31/04, art. 9, 130; Inwerkingtreding : 01-01-2024>
 
 
@@ -7384,7 +7384,7 @@ termijnen in artikel VII.154/2.
 § 3. Met het oog op de verwerking voor de doeleinden bedoeld in artikel VII.153, § 4, kan de Bank de gegevens
 bewaren tot dertig jaar na het einde van de overeenkomst. Indien de gegevens natuurlijke personen betreffen,
 geschiedt de in deze paragraaf bedoelde bewaring ervan in gepseudonimiseerde vorm.]1
-----------
+
 (1)<Ingevoegd bij W 2023-07-31/04, art. 10, 130; Inwerkingtreding : 01-01-2024>
 
 
@@ -7402,12 +7402,12 @@ wanbetaling zijn vervuld.
 § 3. Met het oog op de verwerking voor de doeleinden bedoeld in artikel VII.153, § 4, kan de Bank de gegevens
 bewaren tot dertig jaar na het schrappen van de wanbetaling. Indien de gegevens natuurlijke personen betreffen,
 geschiedt de in deze paragraaf bedoelde bewaring ervan in gepseudonimiseerde vorm.]1
-----------
+
 (1)<Ingevoegd bij W 2023-07-31/04, art. 11, 130; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 3. - [1 Diverse bepalingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7417,7 +7417,7 @@ geschiedt de in deze paragraaf bedoelde bewaring ervan in gepseudonimiseerde vor
 [1 De Bank is gemachtigd, aan de personen aan wie de inlichtingen van de Centrale mogen worden
 verstrekt, de terugbetaling te vragen van de kosten gemaakt voor het inzamelen, het registreren, het beheer, de
 controle en het ter beschikking stellen van de gegevens van de Centrale.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7444,7 +7444,7 @@ in VII. 155;
 kredietcentrales volgens de voorwaarden bedoeld in artikel VII. 153, § 1, tweede lid.
 § 4. Het Begeleidingscomité kan aan het College van revisoren van de Bank vragen om de rekeningen van de
 Centrale te certificeren.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -7460,13 +7460,13 @@ Dit verslag bevat onder meer :
 de eventuele praktische of technische moeilijkheden;
 4° een analyse van de evolutie van de wanbetalingen.
 Dit verslag wordt bekendgemaakt in het Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 
 ##### HOOFDSTUK 4. - [1 Toegang tot de activiteit van de kredietgevers en de kredietbemiddelaars.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7475,13 +7475,13 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 [1 Dit hoofdstuk is van toepassing op elke persoon die in België een activiteit van kredietgever of
 kredietbemiddelaar uitoefent.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 **Afdeling 1. [1 – Kredietgevers.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7511,7 +7511,7 @@ wet van 15 december 2004 betreffende financiële zekerheden en houdende diverse 
 zakelijke-zekerheidsovereenkomsten en leningen met betrekking tot financiële instrumenten, met name
 naargelang het soort uitgevoerde overdracht, het statuut of de organisatorische kenmerken van de
 overnemer.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 25, 028; Inwerkingtreding : 01-11-2015>
@@ -7520,13 +7520,13 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 **Afdeling 2. - [1 Kredietgevers naar Belgisch recht.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 1. [1 – Vergunningsvoorwaarden.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7586,7 +7586,7 @@ De FSMA kan haar beslissing tot vergunning of tot weigering van een vergunning, 
 ingebrekestelling, tot verbod, tot schorsing en tot intrekking van de vergunning rechtsgeldig ter kennis brengen
 van de aanvrager aan de hand van voorgedrukte formulieren voorzien van een door middel van een
 mecanografisch procedé gereproduceerde handtekening.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2016-04-22/01, art. 28, 038; Inwerkingtreding : 01-12-2016>
@@ -7602,7 +7602,7 @@ coöperatieve vennootschap, naamloze vennootschap, Europese vennootschap of Euro
 vennootschap, of als rechtspersoon voor de Europese economische samenwerkingsverbanden die geen
 vennootschap zijn, met inachtneming van de specifieke vereisten die neergelegd zijn in deze wet, het Wetboek
 van vennootschappen en verenigingen of in de Europese regelgeving.]1
-----------
+
 (1)<W 2021-06-27/09, art. 297, 099; Inwerkingtreding : 19-07-2021>
 
 
@@ -7625,7 +7625,7 @@ Indien de vennootschap reeds bestond voor de aanvraag, worden de uitgiftepremies
 overgedragen resultaat met kapitaal gelijkgesteld. Op zich moet het kapitaal echter minimaal 175.000 euro in het
 geval bedoeld in het eerste lid, 1°, en minimaal 2.000.000 euro in het geval bedoeld in [2 het eerste lid, 2° en 3°]2,
 bedragen en voor die bedragen zijn volgestort.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 19, 065; Inwerkingtreding : 15-09-2018>
@@ -7663,7 +7663,7 @@ autoriteiten die in deze andere lidstaten bevoegd zijn voor het toezicht op de k
 verzekeringsondernemingen, de herverzekeringsondernemingen, de beleggingsondernemingen, de
 beheervennootschappen van instellingen voor collectieve belegging of de betalingsinstellingen, waaraan zij
 krachtens hun recht een vergunning hebben verleend.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2021-06-27/09, art. 298, 099; Inwerkingtreding : 19-07-2021>
@@ -7686,7 +7686,7 @@ deskundigheid van een persoon die voor het eerst voor een in deze paragraaf bedo
 voorgedragen bij een financiële onderneming die, overeenkomstig artikel 45, § 1, 2°, van de wet van 2 augustus
 2002, onder het toezicht staat van de FSMA, raadpleegt de FSMA eerst de Bank. De Bank deelt haar advies aan
 de FSMA mee binnen een termijn van een week na ontvangst van het verzoek om advies.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 26, 028; Inwerkingtreding : 01-11-2015>
@@ -7719,7 +7719,7 @@ De kredietgevers inzake hypothecair krediet registreren op passende wijze welke 
 als zekerheid worden aanvaard en welk acceptatiebeleid inzake aanvragen tot hypothecaire kredietverstrekking
 wordt gehanteerd.
 § 2. [4 Het hoofdbestuur en de statutaire zetel van de kredietgevers moeten in België zijn gevestigd.]4]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 20, 065; Inwerkingtreding : 15-09-2018>
@@ -7729,7 +7729,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 2. - [1 Bedrijfsuitoefeningsvoorwaarden]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7751,7 +7751,7 @@ dit boek vermelde register te zijn ingeschreven.
 in artikel VII.216, dragen bij tot de financiering van die geschillenregeling en gaan in op elk verzoek om informatie
 dat zij in het raam van die geschillenregeling ontvangen.]1
 [3 § 5. De kredietgevers moeten, in voorkomend geval, de bepalingen van artikel XV.18/1 naleven.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 27, 028; Inwerkingtreding : 01-11-2015>
@@ -7764,7 +7764,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 overeenkomstig artikel VII.162 vastgestelde minimumkapitaal.
 In coöperatieve vennootschappen mogen geen aandelen worden terugbetaald als dit voor de kredietgever tot
 gevolg zou hebben dat hij de bepalingen van het vorige lid niet meer zou naleven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7830,7 +7830,7 @@ vervreemding.
 Bij een wijziging van de drempel als bedoeld in paragraaf 1 ingevolge de toepassing van het eerste lid, wordt de
 beoordeling als bedoeld in paragraaf 2 uitgevoerd, met dien verstande dat de in die bepalingen bedoelde
 verwerving dan tot doel heeft de omvang van de deelneming te wijzigen.]3
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
@@ -7868,7 +7868,7 @@ Overeenkomstig de artikelen VII. 164, § 1, tweede lid, VII. 166, § 1 en XV. 18
 kader van de uitvoering van haar toezichtsopdracht op de hoogte is van een dergelijk feit of element, dat al dan
 niet met toepassing van het achtste lid is verkregen, de naleving van de in artikel VII. 164, § 1, tweede lid
 bedoelde vereisten herbeoordelen.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2017-12-05/04, art. 20, 052; Inwerkingtreding : 28-12-2017>
@@ -7881,7 +7881,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 buitenland die een activiteit van kredietgever uitoefenen, is de voorafgaande toestemming van de FSMA vereist.
 De FSMA kan zich enkel tegen de uitvoering van het project verzetten als zij van oordeel is dat het project
 nadelige gevolgen zal hebben voor de organisatie van of het toezicht op de kredietgever.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -7892,7 +7892,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 werkingskosten]2. Het bedrag van die vergoeding, de gevallen waarin zij verschuldigd is, en de termijnen
 waarbinnen zij moet worden betaald, worden door de Koning bepaald met toepassing van artikel 56 van de wet
 van 2 augustus 2002.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 21, 065; Inwerkingtreding : 15-09-2018>
@@ -7969,7 +7969,7 @@ Ruimte.]2
 - voor elke kredietgever inzake consumentenkrediet, met verwijzing naar artikel VII.160, § 3, het soort
 verstrekte kredieten;]3]1
 [4 - alle andere informatie die de FSMA nuttig acht voor een correcte informatieverstrekking aan het publiek.]4
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 28, 028; Inwerkingtreding : 01-11-2015>
@@ -7986,7 +7986,7 @@ hetzij als verzekeringsondernemingen op de lijst als bedoeld in artikel 31 van d
 statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen]3, hetzij als instellingen voor
 elektronisch geld op de in artikel 64 van de wet van 21 december 2009 bedoelde lijst, hetzij als
 betalingsinstellingen op de in artikel 9 van deze wet bedoelde lijst zijn ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 29, 028; Inwerkingtreding : 01-11-2015>
@@ -7994,14 +7994,14 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 (4)<W 2016-10-25/04, art. 174, 039; Inwerkingtreding : 28-11-2016>
 
 **Afdeling 3. - [1 Kredietgevers naar buitenlands recht.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 1. - [1 Bepaalde gereglementeerde financiële ondernemingen die ressorteren onder het recht van*
 een andere lidstaat.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8054,7 +8054,7 @@ Als de instelling geen rekening houdt met deze kennisgeving, kan de FSMA haar ve
 bedrijf van kredietgever en, in voorkomend geval, van kredietbemiddelaar uit te oefenen. Deze beslissing wordt [3
 bij een aangetekende zending]3 ter kennis gebracht van de instelling, met een kopie aan de Bank en de FOD
 Economie.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 30, 028; Inwerkingtreding : 01-11-2015>
@@ -8069,13 +8069,13 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 bedoelde instellingen.
 De in deze onderafdeling bedoelde instellingen die in België een bijkantoor hebben, zijn onderworpen aan de
 artikelen VII. 180, § 2, en VII. 184, § 1, tweede lid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 2. - [1 Andere kredietgevers naar buitenlands recht]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8128,7 +8128,7 @@ zijn ingeschreven op de in artikel 39 van de wet van 21 december 2009 bedoelde l
 (NOTA : De wijziging aangebracht bij W 2016-03-13/07, art. 752, 033; Inwerkingtreding : 23-03-2016, kan niet
 worden uitgevoerd, aangezien de wetgever geen rekening heeft gehouden met de wijziging aangebracht bij W
 2015-10-26/06, art. 31, 028; Inwerkingtreding : 01-11-2015)
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 31, 028; Inwerkingtreding : 01-11-2015>
@@ -8137,7 +8137,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 **Afdeling 4. [1 – Kredietbemiddelaars.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8151,7 +8151,7 @@ Onder "bemiddelaar inzake hypothecair krediet" wordt een kredietbemiddelaar vers
 van het hypothecair krediet.
 Onder "bemiddelaar inzake consumentenkrediet" wordt een kredietbemiddelaar verstaan die actief is op het vlak
 van het consumentenkrediet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8164,7 +8164,7 @@ recht, moet zijn hoofdbestuur in België hebben.
 effectief in België verricht, moet daar zijn hoofdbestuur hebben.]2]1
 [2 Kredietbemiddelaars met woonplaats of maatschappelijke zetel in een derde Staat, vestigen hun
 hoofdbestuur in België voor de verrichtingen die zij op Belgisch grondgebied uitvoeren.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2021-06-27/09, art. 369, 099; Inwerkingtreding : 19-07-2021>
@@ -8176,20 +8176,20 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 werkingskosten]2. Het bedrag van die vergoeding, de gevallen waarin zij verschuldigd is, en de termijnen
 waarbinnen zij moet worden betaald, worden door de Koning bepaald met toepassing van artikel 56 van de wet
 van 2 augustus 2002.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 22, 065; Inwerkingtreding : 15-09-2018>
 
 
 **Afdeling 5. - [1 Bemiddelaars inzake hypothecair krediet.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 1. - [1 Algemene bepalingen.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8245,7 +8245,7 @@ de FSMA door mededeling van een naamlijst van de verantwoordelijken voor de dist
 wijzigingen in die lijst. Zij bewaren alle documenten die aantonen dat de verantwoordelijken voor de distributie en
 de personen die in contact staan met het publiek, over de vereiste beroepskennis beschikken, en houden die
 documenten ter beschikkking van de FSMA.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 23, 065; Inwerkingtreding : 15-09-2018>
@@ -8253,7 +8253,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8323,7 +8323,7 @@ over de naleving van de in dit hoofdstuk vermelde inschrijvingsvoorwaarden door 
 beroep doet of heeft gedaan, deelt hij die elementen onmiddellijk mee aan de FSMA.
 Een bemiddelaar in hypothecair krediet brengt de FSMA er ook van op de hoogte dat iemand zich als
 kredietbemiddelaar voordoet zonder te zijn ingeschreven in het register waarin dit boek voorziet.]11]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 32, 028; Inwerkingtreding : 01-11-2015>
@@ -8339,7 +8339,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 3. - [1 Inschrijvingsprocedure]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8398,7 +8398,7 @@ website wordt weggelaten.
 § 6. Bij de indiening van zijn inschrijvingsaanvraag vermeldt de aanvrager in welke categorie van het register hij
 wenst te worden ingeschreven. Een bemiddelaar kan slechts in een enkele categorie van het register worden
 ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 33, 028; Inwerkingtreding : 01-11-2015>
@@ -8409,7 +8409,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 4. - [1 Vrijheid van vestiging en vrijheid van dienstverrichting]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8470,7 +8470,7 @@ bemiddelaar en op welke wijze ook in contact staan met het publiek in de zin van
 § 6. De buitenlandse autoriteiten die bevoegd zijn voor het toezicht op de bemiddelaars inzake hypothecair
 krediet die in België een bijkantoor hebben gevestigd, kunnen, na voorafgaande kennisgeving aan de FSMA, ter
 plaatse inspecties verrichten bij dat bijkantoor.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 34, 028; Inwerkingtreding : 01-11-2015>
@@ -8480,13 +8480,13 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 **Afdeling 6. - [1 Bemiddelaars inzake consumentenkrediet.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 1. - [1 Algemene bepalingen.]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8520,7 +8520,7 @@ houden die documenten ter beschikking van de FSMA.]2
 § 2. Niemand mag de titel van kredietbemiddelaar of een van de onderverdelingen daarvan voeren om aan te
 geven dat hij de in dit hoofdstuk bedoelde activiteit van bemiddelaar inzake consumentenkrediet uitoefent, als hij
 niet op voorhand in het daartoe door de FSMA bijgehouden register is ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2018-07-30/47, art. 27, 065; Inwerkingtreding : 15-09-2018>
@@ -8541,13 +8541,13 @@ aan de FSMA door mededeling van een naamlijst van de verantwoordelijken voor de 
 wijzigingen in die lijst. Zij bewaren alle documenten die aantonen dat de verantwoordelijken voor de distributie en
 de personen die in contact staan met het publiek, over de vereiste beroepskennis beschikken, en houden die
 documenten ter beschikkking van de FSMA.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 *Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8603,7 +8603,7 @@ consumentenkrediet voor wiens of wier rekening hij handelt]3. De aanvrager van e
 agent toont dit aan in zijn inschrijvingsdossier.
 [3 De kredietgever of kredietgevers oefenen]3 toezicht uit op de naleving door de verbonden agent van de
 bepalingen van dit boek en de ter uitvoering ervan genomen besluiten en reglementen.]2]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 36, 028; Inwerkingtreding : 01-11-2015>
@@ -8641,7 +8641,7 @@ wettelijke of reglementaire bepaling waarop zij toeziet;]4
 [4 8° in voorkomend geval, de bepalingen van artikel XV.18/1 naleven.]4
 § 2. De in dit artikel bedoelde bemiddelaars leveren het bewijs aan de FSMA, volgens de door haar bij reglement
 vastgestelde regels, inclusief inzake frequentie, dat de in het eerste lid bedoelde bepalingen worden nageleefd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 37, 028; Inwerkingtreding : 01-11-2015>
@@ -8649,7 +8649,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 (4)<W 2024-05-03/21, art. 20, 135; Inwerkingtreding : 10-06-2024>
 
 *Onderafdeling 3. - [1 Inschrijvingsprocedure]1*
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -8701,7 +8701,7 @@ website wordt weggelaten.]2
 § 6. Bij de indiening van zijn inschrijvingsaanvraag vermeldt de aanvrager in welke categorie van het register hij
 wenst te worden ingeschreven. Een bemiddelaar kan slechts in een enkele categorie van het register worden
 ingeschreven. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 (2)<W 2015-10-26/06, art. 38, 028; Inwerkingtreding : 01-11-2015>
@@ -8712,13 +8712,13 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 
 
 #### TITEL 5. - [1 Burgerlijke sancties.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
 
 ##### HOOFDSTUK 1. [1 – Betalingsdiensten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
@@ -8729,7 +8729,7 @@ gewijzigd bij KB 2015-06-28/02, art. 2)>
 betalingsdienstaanbieder aansprakelijk jegens de betaler voor alle gevolgen van het gebruik van een
 betalingsinstrument door een niet gerechtigde derde in geval van niet-naleving door de betalingsdienstaanbieder
 van de verplichtingen die hij heeft op grond van [2 de artikelen VII.22, 5°, a) en d), en VII.39, 1° en 3°]2.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2023-11-05/07, art. 22, 123; Inwerkingtreding : 21-12-2023>
@@ -8740,7 +8740,7 @@ van de verplichtingen die hij heeft op grond van [2 de artikelen VII.22, 5°, a)
 [1 Bij niet-naleving door de betalingsdienstaanbieder van de verplichtingen voortvloeiend uit [2 artikel
 VII.30, § 1]2, en onverminderd de gemeenrechtelijke sancties, wordt de betalingsdienstgebruiker van rechtswege
 ontslagen van het betalen van de gevraagde kosten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2023-11-05/07, art. 23, 123; Inwerkingtreding : 21-12-2023>
@@ -8754,7 +8754,7 @@ VII.47, § 2, VII.48, VII.49, VII.51, VII.53 tot VII.55/1, en VII.55/3 tot VII.5
 onverminderd de gemeenrechtelijke sancties, de raamovereenkomst [2 met een bij aangetekende zending
 gemotiveerd schrijven]2 zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis had of
 hoorde te hebben van de niet-nageleefde verplichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2016-04-22/01, art. 30, 038; Inwerkingtreding : 01-12-2016>
@@ -8771,7 +8771,7 @@ samenhangt met de terugbetaling;
 raamovereenkomst inzake betalingsdiensten, [2 met een bij aangetekende zending gemotiveerd schrijven]2
 zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis had of hoorde te hebben van de
 niet-nageleefde verplichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2016-04-22/01, art. 31, 038; Inwerkingtreding : 01-12-2016>
@@ -8794,13 +8794,13 @@ Wanneer de begunstigde die geen consument is, de informatievereisten bedoeld in 
 desgevallend, niet waarborgt dat deze worden nageleefd, kan de betalingsdienstgebruiker, onverminderd de
 gemeenrechtelijke sancties, de toepassing vragen van vergoedende maatregelen voor de schade te wijten aan de
 niet naleving van de verplichtingen. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
 
 ##### HOOFDSTUK 2. [1 – Consumentenkrediet.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8812,7 +8812,7 @@ vermindert de verplichtingen van de consument en dit hoogstens tot de prijs van 
 contante betaling of tot het ontleende bedrag en dit met behoud van het voordeel van de betaling in termijnen
 wanneer de kredietovereenkomst werd gesloten naar aanleiding van een in artikel VII. 67 bedoelde onwettige
 verkoopmethode.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8831,7 +8831,7 @@ contante betaling of tot het ontleende bedrag, wanneer de kredietgever de [2 in 
 bepalingen niet naleeft.
 In geval van vermindering van de verplichtingen van de consument behoudt deze het voordeel van de betaling
 in termijnen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 39, 028; Inwerkingtreding : 09-11-2015>
@@ -8864,7 +8864,7 @@ recht gemachtigd is om consumentenkredietovereenkomsten te verlenen in haar lids
 haar activiteit in België uitoefent via de vestiging van een bijkantoor of in het kader van het vrij verrichten van
 diensten zonder dat de ter zake door de toepasselijke Europese richtlijnen opgelegde formaliteiten zijn vervuld.
 In deze gevallen behoudt de consument het voordeel van de betaling in termijnen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 40, 028; Inwerkingtreding : 09-11-2015>
@@ -8876,7 +8876,7 @@ In deze gevallen behoudt de consument het voordeel van de betaling in termijnen.
 som van de wettelijke intresten, wanneer een betaling gebeurd is ondanks het in de artikelen VII. 79, VII. 90 [2 ,
 VII.105, § 1, tweede lid,]2 en VII. 114, § 1, bedoelde verbod, of wanneer zij is gebeurd in het raam van een in
 artikel VII. 115 verboden schuldbemiddeling.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 
 2)>
@@ -8889,7 +8889,7 @@ artikel VII. 115 verboden schuldbemiddeling.]1
 kredietbemiddelaar een bedrag stort of een levering van een goed of een dienst verricht, is de consument niet
 gehouden dat bedrag terug te betalen, de geleverde dienst of het geleverde goed te betalen noch dit laatste
 terug te zenden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8901,7 +8901,7 @@ worden gevraagd waarin dit boek niet voorziet, worden zij van rechtswege daarvan
 Indien de rechter bovendien oordeelt dat de overeengekomen of toegepaste straffen of schadevergoedingen,
 onder meer in de vorm van [2 schadebedingen]2, bij niet-uitvoering van de overeenkomst, overdreven of
 onverantwoord zijn, kan hij deze ambtshalve verminderen of de consument er geheel van ontslaan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2022-04-28/25, art. 21, 118; Inwerkingtreding : 01-01-2023>
@@ -8916,7 +8916,7 @@ Indien de consument, in weerwil van het verbod van artikel VII. 87, § 3, tot we
 van het krediet is overgegaan, kan hij de onmiddellijke terugbetaling van het wedersamengestelde kapitaal eisen,
 inclusief de verworven intresten, dan wel de terugbetaling van het krediet, tot beloop van het
 wedersamengestelde kapitaal inclusief de verworven intresten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8933,7 +8933,7 @@ heeft nageleefd;
 3° de vormvereisten als bepaald in artikel VII. 76 betreffende het sluiten van de kredietovereenkomst niet in
 acht werden genomen.
 In die gevallen behoudt de consument het voordeel van de betaling in termijnen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 41, 028; Inwerkingtreding : 09-11-2015>
@@ -8944,7 +8944,7 @@ In die gevallen behoudt de consument het voordeel van de betaling in termijnen.]
 [1 De consument is ontslagen van de intresten voor het gedeelte van de betalingen vóór de
 levering van het goed of de dienstverlening, verricht in strijd met de bepalingen van artikel VII. 91, eerste en
 vierde lid.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8954,7 +8954,7 @@ vierde lid.]1
 [1 De niet-naleving van de bepalingen van artikel VII. 84, eerste lid, verleent de consument het
 recht de nietigverklaring van de koop- of dienstverleningsovereenkomst te vorderen en van de verkoper of
 dienstverlener, de terugbetaling te vorderen van de door hem reeds verrichte betalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8964,7 +8964,7 @@ dienstverlener, de terugbetaling te vorderen van de door hem reeds verrichte bet
 [1 Wanneer de consument heeft nagelaten de inlichtingen bedoeld in artikel VII. 69 te verstrekken
 of wanneer hij onjuiste gegevens heeft verstrekt, kan de rechter, onverminderd de gemeenrechtelijke sancties,
 de ontbinding van de overeenkomst ten laste van de consument bevelen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8975,7 +8975,7 @@ de ontbinding van de overeenkomst ten laste van de consument bevelen.]1
 cheque in ontvangst neemt ter betaling of als zekerheid van de volledige of gedeeltelijke terugbetaling van het
 verschuldigde bedrag, is ertoe gehouden aan de consument de totale kosten van het krediet voor de consument
 terug te betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8984,7 +8984,7 @@ terug te betalen.]1
 
 [1 De steller van een zekerheid wordt vrijgesteld van elke verplichting indien hij niet overeenkomstig
 artikel VII. 109, § 1, voorafgaandelijk een exemplaar van het kredietcontract heeft ontvangen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -8994,7 +8994,7 @@ artikel VII. 109, § 1, voorafgaandelijk een exemplaar van het kredietcontract h
 [1 Indien het lichamelijk roerend goed in strijd met de bepalingen van artikel VII. 108 wordt
 teruggenomen, is de kredietovereenkomst ontbonden. De kredietgever is ertoe gehouden de gestorte bedragen
 binnen de dertig dagen volledig terug te betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -9004,14 +9004,14 @@ binnen de dertig dagen volledig terug te betalen.]1
 [1 Geen enkele commissie is verschuldigd wanneer de kredietovereenkomst ontbonden of
 verbroken wordt of het voorwerp uitmaakt van een termijnverval en de kredietbemiddelaar de bepalingen [2 van
 artikel VII.113]2 niet heeft nageleefd.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 42, 028; Inwerkingtreding : 09-11-2015>
 
 
 ##### HOOFDSTUK 3. - [1 Hypothecair krediet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9032,7 +9032,7 @@ interesten van het krediet wanneer het opgenomen kredietbedrag hoger is dan 20 0
 § 2. Wanneer de kredietbemiddelaar de in de artikelen VII.126, § 1, eerste lid, VII.127, VII.129, VII.130 of
 VII.147/29, § 4, bedoelde verplichtingen niet naleeft dan kan de rechter een gelijkaardige sanctie uitspreken als
 bedoeld in paragraaf 1.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 51, 139; Inwerkingtreding : 24-01-2025>
 
@@ -9066,7 +9066,7 @@ vestiging van een bijkantoor of in het kader van het vrij verrichten van dienste
 toepasselijke Europese richtlijnen opgelegde formaliteiten zijn vervuld;
 2° wanneer de betrokken kredietbemiddelaar een bemiddelaar inzake hypothecair krediet is als bedoeld in artikel
 VII.183, § 2, en de ter zake door de toepasselijke Europese richtlijnen opgelegde formaliteiten niet zijn vervuld.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9076,7 +9076,7 @@ VII.183, § 2, en de ter zake door de toepasselijke Europese richtlijnen opgeleg
 som van de wettelijke intresten, wanneer een betaling gebeurd is ondanks het in de artikelen VII.137, VII.140 en
 VII.141, VII.147/3 [2 , VII.147/20, § 1, vierde lid,]2 en VII.147/30, § 1, bedoelde verbod, of wanneer zij is gebeurd
 in het raam van een in artikel VII. 147/31 verboden schuldbemiddeling.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 52, 139; Inwerkingtreding : 24-01-2025>
 
@@ -9086,7 +9086,7 @@ in het raam van een in artikel VII. 147/31 verboden schuldbemiddeling.]1
 [1 Wanneer, ondanks het in artikel VII.147/3, § 1, eerste lid, bedoelde verbod, de kredietgever of
 de kredietbemiddelaar een bedrag stort, is de consument niet gehouden dat bedrag terug te betalen, de
 geleverde dienst of het geleverde goed te betalen noch dit laatste terug te zenden.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9097,7 +9097,7 @@ worden gevraagd waarin dit boek niet voorziet, worden zij van rechtswege daarvan
 Indien de rechter bovendien oordeelt dat de overeengekomen of toegepaste straffen of schadevergoedingen,
 onder meer in de vorm van [2 schadebedingen]2, bij niet-uitvoering van de overeenkomst, overdreven of
 onverantwoord zijn, kan hij deze ambtshalve verminderen of de consument er geheel van ontslaan.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2022-04-28/25, art. 22, 118; Inwerkingtreding : 01-01-2023>
 
@@ -9107,7 +9107,7 @@ onverantwoord zijn, kan hij deze ambtshalve verminderen of de consument er gehee
 [1 In geval van niet naleving van de bepalingen bedoeld in de artikelen [2 VII.143, §§ 2 tot 4 en 8]2,
 VII.147/14 en VII. 147/22, § 4, wordt de consument van rechtswege ontslagen van de intresten en de kosten
 voor de periode waarop de inbreuk betrekking heeft.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 (2)<W 2024-12-20/49, art. 53, 139; Inwerkingtreding : 24-01-2025>
 
@@ -9120,7 +9120,7 @@ verplicht dergelijke stortingen te doen;
 2° het niet mogelijk is de tijdstippen te bepalen waarop en de voorwaarden waaronder de periodieke lasten, de
 intresten of de wedersamenstellingsstortingen verschuldigd zijn, is de consument maar verplicht ze te betalen op
 de verjaardata van het krediet.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9129,7 +9129,7 @@ de verjaardata van het krediet.]1
 [1 De consument is ontslagen van de intresten voor het gedeelte van de betalingen vóór de
 levering van het goed of de dienstverlening, verricht in strijd met de bepalingen van artikel VII.147/5, eerste en
 vierde lid.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9138,7 +9138,7 @@ vierde lid.]1
 [1 De niet-naleving van de bepalingen van artikel VII.139, eerste lid, verleent de consument het
 recht de nietigverklaring van de koop- of dienstverleningsovereenkomst te vorderen en van de verkoper of
 dienstverlener, de terugbetaling te vorderen van de door hem reeds verrichte betalingen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9147,7 +9147,7 @@ dienstverlener, de terugbetaling te vorderen van de door hem reeds verrichte bet
 [1 Wanneer de consument heeft nagelaten de inlichtingen bedoeld in artikel VII.126 te
 verstrekken of wanneer hij onjuiste gegevens heeft verstrekt, kan de rechter, onverminderd de
 gemeenrechtelijke sancties, de ontbinding van de overeenkomst ten laste van de consument bevelen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9157,7 +9157,7 @@ gemeenrechtelijke sancties, de ontbinding van de overeenkomst ten laste van de c
 cheque in ontvangst neemt ter betaling of als zekerheid van de volledige of gedeeltelijke terugbetaling van het
 verschuldigde bedrag, is ertoe gehouden aan de consument de totale kosten van het krediet voor de consument
 terug te betalen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9165,7 +9165,7 @@ terug te betalen.]1
 
 [1 De steller van een zekerheid wordt vrijgesteld van elke verplichting indien hij niet
 overeenkomstig artikel VII.147/26 voorafgaandelijk een exemplaar van het kredietcontract heeft ontvangen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9174,7 +9174,7 @@ overeenkomstig artikel VII.147/26 voorafgaandelijk een exemplaar van het krediet
 [1 Indien het lichamelijk roerend goed in strijd met de bepalingen van artikel VII. 147/25 wordt
 teruggenomen, is de kredietovereenkomst ontbonden. De kredietgever is ertoe gehouden de gestorte bedragen
 binnen de dertig dagen volledig terug te betalen.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9183,7 +9183,7 @@ binnen de dertig dagen volledig terug te betalen.]1
 [1 Geen enkele commissie is verschuldigd wanneer de kredietovereenkomst ontbonden of
 verbroken wordt of het voorwerp uitmaakt van een termijnverval en de kredietbemiddelaar de bepalingen van
 artikel VII.147/30 niet heeft nageleefd.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9192,7 +9192,7 @@ artikel VII.147/30 niet heeft nageleefd.]1
 [1 Zijn van rechtswege nietig :
 1° de toevoeging of aanhechting van een ander contract dan bedoeld in artikel VII.146;
 2° elk beding in strijd met de artikelen VII.147 en VII.147/1.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
@@ -9206,12 +9206,12 @@ de periodieke rentevoet niet kan worden bepaald doordat de kredietovereenkomst n
 bevat, worden de gelopen intresten berekend aan de wettelijke rentevoet.
 § 2. Het in paragraaf 1 bedoelde rechtsmiddel doet geen afbreuk aan alle overige rechten of middelen van
 verhaal die de consument kan doen gelden.]1
-----------
+
 (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
 
 ##### HOOFDSTUK 4. - [1 Gemeenschappelijke bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
@@ -9223,13 +9223,13 @@ de rechtbank of van het hof ertoe gehouden de minister op de hoogte te brengen v
 toepassing maakt van één of meerdere burgerlijke of strafrechtelijke sancties.
 De griffier is er eveneens toe gehouden de minister elk beroep tegen dergelijke beslissing onverwijld mee te
 delen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
 
 #### TITEL 6. - [1 Buitengerechtelijke regeling van consumentengeschillen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
@@ -9243,19 +9243,19 @@ of op te treden als bemiddelaar.
 Deze ombudsdienst voor financiële diensten is een onafhankelijk orgaan dat voldoet aan de voorwaarden
 bepaald in artikel XVI.25 van het Wetboek van economisch recht.]1
 [2 De betalingsdienstaanbieders zijn gehouden zich aan te sluiten bij deze ombudsdienst.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2015-10-26/06, art. 44, 028; Inwerkingtreding : 30-10-2015>
 (3)<W 2017-12-22/14, art. 27, 057; Inwerkingtreding : 01-02-2018>
 
 TITEL 6/1. [1 - Waardepapieren.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 100, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 1. [1 - Algemene bepaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 101, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9264,17 +9264,17 @@ TITEL 6/1. [1 - Waardepapieren.]1
 [1 In deze titel dekt het woord "bankier" de in België gevestigde kredietinstellingen die onder de
 wet vallen van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en
 beursvennootschappen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 102, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 2. [1 - De wisselbrief.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 103, 059; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 1. [1 - Uitgifte en vorm van de wisselbrief]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 104, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9289,7 +9289,7 @@ beursvennootschappen.]1
 6° de naam van degene aan wie of aan wiens order de betaling moet worden gedaan;
 7° de vermelding van de dagtekening, alsmede van de plaats waar de wisselbrief is getrokken;
 8° de handtekening van degene die de wisselbrief uitgeeft (trekker).]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9305,7 +9305,7 @@ aangegeven naast de naam van de trekker.
 De handtekening, waarvan sprake in artikel VII.216/2, 8°, kan vervangen worden door een notariële akte in
 brevet, die op de wisselbrief gesteld wordt en waaruit de wil blijkt van degene die zou hebben moeten
 ondertekenen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9314,7 +9314,7 @@ ondertekenen.]1
 [1 De wisselbrief kan aan de order van de trekker zelf luiden.
 Hij kan worden getrokken op de trekker zelf.
 Hij kan worden getrokken voor rekening van een derde.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9322,7 +9322,7 @@ Hij kan worden getrokken voor rekening van een derde.]1
 
 [1 Een wisselbrief kan betaalbaar zijn aan de woonplaats van een derde, hetzij in de plaats waar
 de betrokkene zijn woonplaats heeft, hetzij in een andere plaats.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9333,7 +9333,7 @@ de som rente draagt. In elke andere wisselbrief wordt deze clausule voor niet ge
 De rentevoet moet in de wisselbrief worden aangegeven; bij gebreke hiervan wordt de renteclausule voor niet
 geschreven gehouden.
 De rente loopt te rekenen van de dagtekening van de wisselbrief, tenzij een andere dag is aangegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9343,7 +9343,7 @@ De rente loopt te rekenen van de dagtekening van de wisselbrief, tenzij een ande
 geval van verschil, ten belope van de som voluit in letters geschreven.
 De wisselbrief waarvan het bedrag meermalen is geschreven, hetzij voluit in letters, hetzij in cijfers, geldt, in
 geval van verschil slechts ten belope van de kleinste som.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9354,7 +9354,7 @@ van een wisselbrief te verbinden, valse handtekeningen of handtekeningen van ver
 handtekeningen welke, onverschillig om welke andere reden, de personen die deze handtekeningen op de
 wisselbrief hebben geplaatst of in wier naam zulks is geschied, niet kunnen verbinden, zijn de verbintenissen van
 de andere personen wier handtekening op de wisselbrief voorkomt, niettemin geldig.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9364,7 +9364,7 @@ de andere personen wier handtekening op de wisselbrief voorkomt, niettemin geldi
 voor wie hij niet de bevoegdheid had te handelen, is zelf krachtens de wisselbrief verbonden en heeft, indien hij
 betaalt, dezelfde rechten als de beweerde vertegenwoordigde zou hebben gehad. Hetzelfde geldt ten aanzien
 van de vertegenwoordiger die zijn bevoegdheid heeft overschreden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9373,7 +9373,7 @@ van de vertegenwoordiger die zijn bevoegdheid heeft overschreden.]1
 [1 De trekker staat in voor de acceptatie en voor de betaling.
 Hij kan zijn verplichting, voor de acceptatie in te staan, uitsluiten; elke clausule waarbij hij de verplichting, voor
 de betaling in te staan, uitsluit, wordt voor niet geschreven gehouden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9383,12 +9383,12 @@ de betaling in te staan, uitsluit, wordt voor niet geschreven gehouden.]1
 aangegane overeenkomsten, kan de niet-naleving van die overeenkomsten niet worden tegengeworpen aan de
 houder, tenzij deze de wisselbrief te kwader trouw heeft verkregen of hem grove schuld bij de verkrijging te
 wijten is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 2. [1 - Endossement]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 106, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9399,7 +9399,7 @@ endossement worden overgedragen.
 Indien de trekker in de wisselbrief de woorden "niet aan order" of een daarmee gelijkstaande uitdrukking heeft
 opgenomen, kan het stuk slechts worden overgedragen in de vorm en met de gevolgen van een gewone
 overdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9412,7 +9412,7 @@ Het endossement moet onvoorwaardelijk zijn. Elke voorwaarde waaraan het is onder
 geschreven gehouden.
 Het gedeeltelijk endossement is nietig.
 Het endossement aan toonder geldt als endossement in blanco.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9423,7 +9423,7 @@ blad (verlengstuk). Het moet worden ondertekend door de endossant.
 Het endossement kan de geëndosseerde onvermeld laten of bestaan uit de enkele handtekening van de
 endossant (endossement in blanco). In het laatste geval moet het endossement, om geldig te zijn, op de rugzijde
 van de wisselbrief op het verlengstuk worden gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9434,7 +9434,7 @@ Indien het endossement in blanco is, kan de houder :
 1° het blanco invullen, hetzij met zijn eigen naam, hetzij met de naam van een andere persoon;
 2° de wisselbrief wederom in blanco of aan een andere persoon endosseren;
 3° de wisselbrief aan een derde overgeven, zonder het blanco in te vullen en zonder hem te endosseren.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9444,7 +9444,7 @@ Indien het endossement in blanco is, kan de houder :
 is.
 Hij kan een endossement verbieden; in dat geval staat hij tegenover de personen aan wie de wisselbrief later is
 geëndosseerd, niet in voor de acceptatie en voor de betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9458,7 +9458,7 @@ ondertekenaar van dit laatste geacht de wisselbrief door het endossement in blan
 Indien iemand, op welke wijze dan ook, het bezit van de wisselbrief heeft verloren, is de houder, die van zijn
 recht doet blijken op de wijze, bij het eerste lid aangegeven, niet verplicht de wisselbrief af te geven, tenzij hij deze
 te kwader trouw heeft verkregen of hem grove schuld bij de verkrijging te wijten is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9468,7 +9468,7 @@ te kwader trouw heeft verkregen of hem grove schuld bij de verkrijging te wijten
 gegrond op hun persoonlijke verhoudingen tot de trekker of tot vroegere houders, niet aan de houder
 tegenwerpen, tenzij deze bij de verkrijging van de wisselbrief desbewust ten nadele van de schuldenaar heeft
 gehandeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9481,7 +9481,7 @@ De wisselschuldenaars kunnen in dat geval aan de houder slechts de verweermiddel
 de endossant zouden kunnen worden tegengeworpen.
 De opdracht, vervat in een incasso-endossement, eindigt niet door de dood of door de latere onbekwaamheid
 van de lastgever.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9493,7 +9493,7 @@ rechten uitoefenen, maar een door hem gesteld endossement geldt slechts als een 
 De wisselschuldenaars kunnen de verweermiddelen, gegrond op hun persoonlijke verhoudingen tot de
 endossant, niet aan de houder tegenwerpen, tenzij deze bij de ontvangst van de wisselbrief desbewust ten
 nadele van de schuldenaar heeft gehandeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9505,12 +9505,12 @@ verstrijken van de termijn voor het opmaken van het protest bepaald, slechts de 
 overdracht.
 Behoudens tegenbewijs, wordt het endossement zonder dagtekening geacht te zijn gesteld vóór het
 verstrijken van de termijn, voor het opmaken van het protest bepaald.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 3. [1 - Acceptatie]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 108, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9518,7 +9518,7 @@ verstrijken van de termijn, voor het opmaken van het protest bepaald.]1
 
 [1 De wisselbrief kan tot de vervaldag door de houder of door iemand die hem enkel onder zich
 heeft, aan de betrokkene te zijner woonplaats ter acceptatie worden aangeboden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9532,7 +9532,7 @@ tijd na zicht.
 Hij kan ook bepalen dat de aanbieding ter acceptatie niet kan plaatshebben vóór een bepaalde dag.
 Tenzij de trekker heeft verklaard dat de wisselbrief niet vatbaar is voor acceptatie, kan elke endossant, al dan
 niet met vaststelling van een termijn, bepalen dat hij ter acceptatie moet worden aangeboden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9542,7 +9542,7 @@ niet met vaststelling van een termijn, bepalen dat hij ter acceptatie moet worde
 binnen een jaar na hun dagtekening.
 De trekker kan een kortere of een langere termijn bepalen.
 De endossanten kunnen deze termijnen verkorten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9552,7 +9552,7 @@ De endossanten kunnen deze termijnen verkorten.]1
 volgende op de eerste. Belanghebbenden zullen zich er niet op mogen beroepen dat aan dit verzoek geen gevolg
 is gegeven, tenzij het verzoek in het protest is vermeld.
 De houder is niet verplicht de ter acceptatie aangeboden wisselbrief aan de betrokkene af te geven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9566,7 +9566,7 @@ ter acceptatie moet worden aangeboden binnen een bepaalde termijn, moet de accep
 inhouden de dag waarop zij is geschied, tenzij de houder die van de aanbieding eist. Bij gebreke van dagtekening
 moet de houder dit verzuim door een tijdig protest doen vaststellen, op straffe van verlies van zijn recht van
 regres op de endossanten en op de trekker.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9576,7 +9576,7 @@ regres op de endossanten en op de trekker.]1
 van de som.
 Elke andere wijziging, door de acceptant met betrekking tot het in de wisselbrief vermelde aangebracht, geldt
 als weigering van acceptatie. De acceptant is echter gehouden overeenkomstig de inhoud van zijn acceptatie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9588,7 +9588,7 @@ kan de betrokkene deze bij de acceptatie aanwijzen. Bij gebreke van zodanige aan
 geacht zich verbonden te hebben zelf te betalen op de plaats van betaling.
 Indien de wisselbrief betaalbaar is aan de woonplaats van de betrokkene, kan deze, in de acceptatie, een adres
 aanwijzen, in dezelfde plaats waar de betaling moet worden gedaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9598,7 +9598,7 @@ aanwijzen, in dezelfde plaats waar de betaling moet worden gedaan.]1
 Bij gebreke van betaling heeft de houder, al ware hij de trekker, tegen de acceptant een rechtstreekse
 vordering, uit de wisselbrief voortspruitend, voor al hetgeen kan worden gevorderd krachtens de artikelen
 VII.216/49 en VII.216/50.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9610,12 +9610,12 @@ doorhaling geacht te zijn geschied vóór de teruggave van de wisselbrief.
 Indien echter de betrokkene zijn acceptatie schriftelijk kenbaar heeft gemaakt aan de houder of aan iemand
 wiens handtekening op de wisselbrief voorkomt, is hij tegenover dezen gehouden overeenkomstig de inhoud van
 zijn acceptatie.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 4. [1 - Aval]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 110, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9625,7 +9625,7 @@ zijn acceptatie.]1
 daarvan door een borgtocht (aval) worden verzekerd.
 Deze borgtocht kan door een derde, of zelfs door iemand wiens handtekening op de wisselbrief voorkomt,
 worden gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 111, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9639,7 +9639,7 @@ De enkele handtekening van de avalgever, gesteld op de voorzijde van de wisselbr
 wanneer de handtekening die is van de betrokkene of van de trekker.
 In het aval moet worden vermeld voor wie het is gegeven. Bij gebreke hiervan wordt het geacht voor de
 trekker te zijn gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 111, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9651,12 +9651,12 @@ gewaarborgde verbintenis nietig is.
 Door te betalen verkrijgt de avalgever de rechten welke krachtens de wisselbrief kunnen worden uitgeoefend
 tegen degene voor wie het aval is gegeven en tegen degenen die tegenover deze laatste krachtens de wisselbrief
 verbonden zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 111, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 5. [1 - Vervaldag]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 112, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9668,7 +9668,7 @@ verbonden zijn.]1
 3° op een zekere tijd na dagtekening;
 4° op een bepaalde dag.
 Wisselbrieven met anders bepaalde vervaldagen of in termijnen betaalbaar zijn nietig.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9679,7 +9679,7 @@ worden aangeboden binnen een jaar na zijn dagtekening. De trekker kan een korter
 bepalen. De endossanten kunnen deze termijnen verkorten.
 De trekker kan voorschrijven dat een wisselbrief getrokken op zicht niet ter betaling mag worden aangeboden
 vóór een bepaalde dag. In dat geval loopt de termijn van aanbieding van die dag af.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9689,7 +9689,7 @@ vóór een bepaalde dag. In dat geval loopt de termijn van aanbieding van die da
 door de dagtekening van de acceptatie, hetzij door die van het protest.
 Bij gebreke van protest wordt de niet gedagtekende acceptatie ten aanzien van de acceptanten geacht te zijn
 gedaan op de laatste dag van de termijn, voor de aanbieding ter acceptatie voorgeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9706,7 +9706,7 @@ Onder de uitdrukkingen "acht dagen" of "vijftien dagen" ("quinze jours") moet wo
 
 weken, maar een termijn van acht of van vijftien werkelijke dagen.
 De uitdrukking "halve maand" duidt een termijn van vijftien dagen aan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9722,12 +9722,12 @@ De termijnen van aanbieding der wisselbrieven worden berekend overeenkomstig de 
 tweede lid.
 Dit artikel is niet van toepassing, indien uit een in de wisselbrief opgenomen clausule of gewoon uit de
 bewoordingen van de titel een afwijkende bedoeling kan worden afgeleid.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 6. [1 - Betaling]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 114, 059; Inwerkingtreding : 01-05-2018>
 
 
@@ -9738,7 +9738,7 @@ dagtekening of na zicht, moet deze ter betaling aanbieden de dag waarop hij beta
 dit voorschrift kan slechts aanleiding geven tot schadeloosstelling.
 De aanbieding van een wisselbrief aan een door de regering aangewezen verrekeningskamer of aan een
 instelling door haar daartoe bevoegd gemaakt, geldt als aanbieding ter betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9749,7 +9749,7 @@ voorzien van de kwijting van de houder.
 De houder mag niet weigeren een gedeeltelijke betaling aan te nemen.
 In geval van gedeeltelijke betaling kan de betrokkene vorderen dat van die betaling op de wisselbrief melding
 wordt gemaakt en dat hem daarvoor kwijting wordt gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9761,7 +9761,7 @@ De betrokkene die vóór de vervaldag betaalt, doet zulks op eigen verantwoordel
 Hij die op de vervaldag betaalt, is wettig bevrijd, tenzij hem bedrog of grove schuld te wijten is. Hij is gehouden
 de regelmatigheid van de reeks van endossementen, maar niet de handtekening der endossanten te
 onderzoeken.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9781,7 +9781,7 @@ Indien het bedrag van de wisselbrief is aangegeven in geld dat dezelfde benaming
 waarde heeft in het land van uitgifte en in dat van betaling, wordt vermoed dat men het geld van de plaats van
 betaling heeft bedoeld.]1
 
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9790,12 +9790,12 @@ betaling heeft bedoeld.]1
 [1 Bij gebreke van aanbieding ter betaling van de wisselbrief binnen de termijn, bij artikel
 VII.216/39 vastgesteld, heeft elke schuldenaar de bevoegdheid het bedrag ervan ter bewaring af te geven aan de
 bevoegde overheid aangewezen door de regering, op kosten en onder verantwoordelijkheid van de houder.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 7. [1 - Recht van regres in geval van niet-acceptatie of niet-betaling]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 116, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9812,7 +9812,7 @@ in een toestand verkeert van staking van betaling of van kennelijk onvermogen.
 Het onder b) hiervoren bepaalde ontneemt aan de garanten van de wisselbrief niet de bevoegdheid om door
 borgstelling uitsteltermijnen te bekomen, die in geen geval de vervaldag van de wisselbrief mogen
 overschrijden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9836,7 +9836,7 @@ In geval van bij rechterlijke beslissing vastgestelde staking van de betalingen 
 acceptant, alsmede in geval van bij rechterlijke beslissing verklaarde staking van de betalingen van de trekker van
 een wisselbrief die niet vatbaar is voor acceptatie, kan de houder voor de uitoefening van zijn recht van regres
 volstaan met overlegging van het vonnis waarbij de toestand van staking van betaling wordt vastgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9861,7 +9861,7 @@ ter post is bezorgd.
 Wie de kennisgeving niet binnen de bovenvermelde termijn doet, treft geen verval van zijn recht; hij is, bij
 voorkomend geval, verantwoordelijk voor de door zijn nalatigheid veroorzaakte schade, zonder dat de
 schadevergoeding het bedrag van de wisselbrief kan te boven gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9880,7 +9880,7 @@ aanzien van deze endossant of avalgever. Indien de houder, ondanks de door de tr
 het protest doet opmaken, zijn de kosten daarvan voor zijn rekening. Indien de clausule van een endossant of
 een avalgever afkomstig is, kunnen de kosten van het protest, indien er een is opgemaakt, op allen wier
 handtekening op de wisselbrief voorkomt, worden verhaald.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9894,7 +9894,7 @@ Hetzelfde recht komt toe aan ieder wiens handtekening op de wisselbrief voorkomt
 tot voldoening aan zijn regresplicht.
 De vordering, ingesteld tegen één der wisselschuldenaars, belet niet de anderen aan te spreken, al hadden
 dezen zich later verbonden dan de eerst aangesprokene.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9908,7 +9908,7 @@ is;
 Zo de uitoefening van het recht van regres vóór de vervaldag plaats heeft, wordt op de wisselsom een korting
 toegepast. Deze korting wordt berekend volgens het officiële disconto (bankdisconto), geldende ter woonplaats
 van de houder, op de dag van de uitoefening van het recht van regres.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9920,7 +9920,7 @@ tegenover hem verbonden zijn, vorderen :
 2° een interest berekend tegen de wettelijke rentevoet op die som, te rekenen van de dag waarop hij deze
 betaald heeft;
 3° de door hem gemaakte kosten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9931,7 +9931,7 @@ kan, tegen betaling tot voldoening aan zijn regresplicht, de afgifte vorderen va
 alsmede een voor voldaan getekende rekening.
 Elke endossant die de wisselbrief heeft betaald tot voldoening aan zijn regresplicht, kan zijn endossement en
 dat van de volgende endossanten doorhalen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9942,7 +9942,7 @@ tot voldoening aan zijn regresplicht het niet geaccepteerde gedeelte van de wiss
 dat die betaling op de wisselbrief wordt vermeld en dat hem daarvan kwijting wordt gegeven. De houder moet
 hem daarenboven uitleveren een voor eensluidend getekend afschrift van de wisselbrief, alsmede het protest,
 om hem de uitoefening van zijn verdere regresrechten mogelijk te maken.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9958,7 +9958,7 @@ zichtwissel, getrokken van de plaats waar de oorspronkelijke wisselbrief betaalb
 de regresplichtige. Indien de herwissel is getrokken door een endossant, wordt het bedrag bepaald volgend de
 koers van een zichtwissel, getrokken van de woonplaats van de trekker van de herwissel op de woonplaats van
 de regresplichtige]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9976,7 +9976,7 @@ de wisselbrief blijkt dat de trekker zich slechts heeft willen bevrijden van zij
 staan.
 Indien de bepaling van een termijn voor de aanbieding in een endossement is vervat, kan alleen de endossant
 daarop een beroep doen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -9998,17 +9998,17 @@ verlengd met de zichttermijn, in de wisselbrief aangegeven.
 Als gevallen van overmacht worden niet beschouwd feiten welke van zuiver persoonlijke aard zijn voor de
 houder of voor degene die hij met de aanbieding van de wisselbrief of met het opmaken van het protest heeft
 belast.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 8. [1 - Tussenkomst]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 118, 059; Inwerkingtreding : 01-11-2018>
 
 
 *Onderafdeling 1. [1 Algemene bepalingen]1*
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 119, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10024,12 +10024,12 @@ De interveniënt is gehouden, binnen de termijn van twee werkdagen van zijn tuss
 degene voor wie hij tussenkwam. In geval van niet-inachtneming van die termijn is hij, indien daartoe aanleiding
 bestaat verantwoordelijk voor de schade, door zijn nalatigheid veroorzaakt, zonder dat de schadevergoeding het
 bedrag van de wisselbrief kan te boven gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 120, 059; Inwerkingtreding : 01-11-2018>
 
 
 *Onderafdeling 2. [1 Acceptatie bij tussenkomst]1*
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 121, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10045,7 +10045,7 @@ opgemaakt.
 In de andere gevallen van tussenkomst kan de houder de acceptatie bij tussenkomst weigeren. Indien hij ze
 echter aanneemt, verliest hij zijn recht van regres, hetwelk hem vóór de vervaldag toekomt tegen degene voor
 wie de acceptatie is gedaan, en tegen hen die daarna hun handtekeningen op de wisselbrief hebben geplaatst.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 122, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10054,7 +10054,7 @@ wie de acceptatie is gedaan, en tegen hen die daarna hun handtekeningen op de wi
 [1 De acceptatie bij tussenkomst wordt op de wisselbrief vermeld; zij wordt door de interveniënt
 ondertekend. Zij wijst aan voor wie zij is geschied; bij gebreke van die aanwijzing wordt zij geacht voor de trekker
 te zijn geschied.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 122, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10067,12 +10067,12 @@ Niettegenstaande de acceptatie bij tussenkomst kunnen degene voor wie zij werd g
 tegenover hem regresplichtig zijn, van de houder, tegen terugbetaling van de bij artikel VII.216/49 aangewezen
 som, de afgifte van de wisselbrief, van het protest en van een voor voldaan getekende rekening vorderen, indien
 daartoe aanleiding bestaat.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 122, 059; Inwerkingtreding : 01-11-2018>
 
 
 *Onderafdeling 3. [1 Betaling bij tussenkomst]1*
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 123, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10083,7 +10083,7 @@ hetzij vóór de vervaldag, de houder recht van regres heeft.
 De betaling moet de gehele som belopen, welke degene voor wie zij heeft plaatsgehad, moest voldoen. Zij moet
 plaatshebben uiterlijk op de dag volgende op de laatste dag waarop het protest van niet-betaling kan worden
 opgemaakt.]1
-----------
+
 
 (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
@@ -10097,7 +10097,7 @@ aanleiding bestaat, protest van niet-betaling doen opmaken uiterlijk op de dag v
 dit kan geschieden.
 Bij gebreke van protest binnen die termijn zijn degene die het noodadres heeft gesteld of voor wie de
 wisselbrief is geaccepteerd, en de latere endossanten van hun verbintenis bevrijd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10105,7 +10105,7 @@ wisselbrief is geaccepteerd, en de latere endossanten van hun verbintenis bevrij
 
 [1 De houder die weigert de betaling bij tussenkomst aan te nemen, verliest zijn recht van
 regres op hen die daardoor zouden zijn bevrijd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10116,7 +10116,7 @@ wisselbrief met aanwijzing van degene voor wie zij is gedaan. Bij gebreke van di
 geacht voor de trekker te zijn gedaan.
 De wisselbrief en het protest, indien dit is opgemaakt, moeten worden uitgeleverd aan hem die bij tussenkomst
 betaalt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10129,17 +10129,17 @@ De endossanten, volgende op degene voor wie de betaling heeft plaatsgehad, zijn 
 Indien zich meer personen tot de betaling bij tussenkomst aanbieden, heeft die betaling de voorkeur welke het
 grootste aantal bevrijdingen teweegbrengt. De interveniënt die desbewust in strijd hiermede handelt, verliest zijn
 recht van regres tegen hen die anders zouden zijn bevrijd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 9. [1 - Wisselbrief in verscheidene exemplaren en wisselafschriften]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 125, 059; Inwerkingtreding : 01-11-2018>
 
 
 *Onderafdeling 1. [1 Wisselbrief in verscheidene exemplaren]1*
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 126, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10153,7 +10153,7 @@ zijn kosten de levering van meer exemplaren vorderen. Te dien einde moet hij zic
 endossant wenden, die verplicht is zijn medewerking te verlenen om zijn eigen endossant aan te spreken, en zo
 vervolgens, teruggaande tot de trekker. De endossanten zijn verplicht de endossementen ook op dee
 exemplaren aan te brengen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10164,7 +10164,7 @@ de kracht der andere exemplaren teniet doet. Echter blijft de betrokkene verbond
 exemplaar dat hem niet is terugbezorgd.
 De endossant die de exemplaren aan verschillende personen heeft overgedragen, alsook de latere
 endossanten, zijn verbonden door alle exemplaren die hun handtekening dragen en die niet zijn terugbezorgd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10177,12 +10177,12 @@ Weigert hij dit, dan kan de houder zijn recht van regres niet uitoefenen dan nad
 doen vaststellen :
 1° dat het ter acceptatie gezonden exemplaar hem desgevraagd niet is uitgeleverd;
 2° dat hij de acceptatie of de betaling op een ander exemplaar niet heeft kunnen verkrijgen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
 
 
 *Onderafdeling 2. [1 Wisselafschriften]1*
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 128, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10193,7 +10193,7 @@ Het afschrift moet het oorspronkelijke nauwkeurig weergeven met de endossementen
 vermeldingen die erop voorkomen. Het moet aangeven, waar het afschrift ophoudt.
 Het kan worden geëndosseerd en voor aval getekend op dezelfde wijze en met dezelfde gevolgen als het
 oorspronkelijke.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 129, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10207,12 +10207,12 @@ stuk hem desgevraagd niet is uitgeleverd.
 Indien na het laatste daarop geplaatste endossement, alvorens het afschrift is vervaardigd, het oorspronkelijke
 stuk de clausule draagt: "van hier af geldt het endossement slechts op de kopie", of enige andere daarmede
 gelijkstaande clausule, is een nadien op het oorspronkelijke stuk geplaatst endossement nietig.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 129, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 10. [1 - Tekstveranderingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 130, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10221,12 +10221,12 @@ gelijkstaande clausule, is een nadien op het oorspronkelijke stuk geplaatst endo
 [1 In geval van verandering van de tekst van een wisselbrief zijn zij die daarna hun handtekening
 op de wisselbrief hebben geplaatst, volgens de veranderde tekst verbonden; zij die daarvoor hun handtekening
 op de wisselbrief hebben geplaatst, zijn verbonden volgens de oorspronkelijke tekst.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 131, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 11. [1 - Verjaring]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 132, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10240,7 +10240,7 @@ kosten", van de vervaldag.
 De rechtsvorderingen van de endossanten tegen elkander en tegen de trekker verjaren door verloop van zes
 maanden, te rekenen van de dag waarop de endossant de wisselbrief heeft betaald tot voldoening aan zijn
 regresplicht, of van de dag waarop hijzelf in rechte is aangesproken.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 133, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10252,7 +10252,7 @@ verkregen, een rechtsvordering bestaan :
 2° tegen de trekker, de acceptant of de endossant die zich onrechtmatig verrijkt heeft.
 Deze rechtsvordering verjaart door verloop van dezelfde termijnen als in artikel VII.216/71 bepaald, te rekenen
 van de dag waarop de bij dat artikel bepaalde verjaring verkregen was.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 133, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10262,12 +10262,12 @@ van de dag waarop de bij dat artikel bepaalde verjaring verkregen was.]1
 van stuiting heeft plaatsgehad.
 De verjaring van de vorderingen die voortvloeien uit een wisselbrief, wordt gestuit door rechtsvervolging; zij
 wordt geschorst door feiten van overmacht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 133, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 12. [1 - Algemene bepalingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 134, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10280,7 +10280,7 @@ Wanneer een van die handelingen moet worden verricht binnen een zekere termijn w
 wettelijke feestdag is, wordt die termijn verlengd tot de eerste werkdag volgende op het einde ervan. De
 tussenliggende feestdagen zijn begrepen in de berekening van de termijn.
 Voor de toepassing van dit artikel is de zaterdag gelijkgesteld met een wettelijke feestdag.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 135, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10288,7 +10288,7 @@ Voor de toepassing van dit artikel is de zaterdag gelijkgesteld met een wettelij
 
 [1 In de wettelijke of bij overeenkomst vastgestelde termijnen, wordt de dag waarop zij
 aanvangen, niet medegerekend.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 135, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10296,12 +10296,12 @@ aanvangen, niet medegerekend.]1
 
 [1 Geen enkele dag uitstel, behalve de in dit hoofdstuk bepaalde, wordt door de wet of door de
 rechter toegestaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 135, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 3. [1 - Het orderbriefje.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 136, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10315,7 +10315,7 @@ rechter toegestaan.]1
 5° de naam van degene aan wie of aan wiens order de betaling moet worden gedaan;
 6° de vermelding van de dagtekening, alsmede van de plaats waar het orderbriefje is ondertekend;
 7° de handtekening van degene die de titel uitgeeft (ondertekenaar).]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10328,7 +10328,7 @@ Bij gebreke van een bijzondere aanwijzing wordt de plaats van de ondertekening v
 plaats van betaling en tevens die van de woonplaats van de ondertekenaar.
 Het orderbriefje dat niet de plaats vermeldt waar het is ondertekend, wordt geacht te zijn ondertekend in de
 plaats aangegeven naast de naam van de ondertekenaar.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10360,7 +10360,7 @@ VII.216/33); indien in het geval bepaald bij artikel VII.216/32, vierde lid, het
 gegeven, wordt het geacht voor rekening van de ondertekenaar van het orderbriefje te zijn gegeven.
 Het vijfde lid van artikel VII.216/3 en de artikelen VII.216/72 en VII.216/95 van dit Wetboek zijn eveneens op het
 orderbriefje van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10373,17 +10373,17 @@ worden aangeboden binnen de bij artikel VII.216/24 vastgestelde termijnen. De zi
 dagtekening van het visum, door de ondertekenaar op het orderbriefje geplaatst. Zijn weigering om het
 gedagtekend visum te plaatsen, wordt vastgesteld door een protest (artikel VII.216/26) en de zichttermijn begint
 te lopen van de dagtekening van het protest.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 4. [1 - Aanvullende bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 138, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 1. [1 - Fondsbezorging]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 139, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10391,7 +10391,7 @@ te lopen van de dagtekening van het protest.]1
 
 [1 Fonds moet worden bezorgd door de trekker, of indien de wisselbrief voor andermans
 rekening is getrokken, door de lastgever of ordergever.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10400,7 +10400,7 @@ rekening is getrokken, door de lastgever of ordergever.]1
 [1 Fonds is bezorgd wanneer de betrokkene op de vervaldag in het bezit is van een waarde of
 van een waarborg die toereikend is om hem volledig te dekken en die door de trekker of de ordergever bestemd
 is om de betaling van de wisselbrief te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10422,7 +10422,7 @@ Komen verscheidene geaccepteerde of verscheidene niet-geaccepteerde wisselbrieve
 aanmerking, dan worden zij ponds- pondsgewijs betaald.
 Alles met dien verstande dat de betrokkene die niet in staat van faillissement verkeert, in geval van acceptatie
 zijn persoonlijke verbintenissen moet nakomen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10435,7 +10435,7 @@ heeft ontvangen.
 Hetzelfde geldt wanneer de endossant zich onrechtmatig heeft verrijkt.
 In de gevallen van dit artikel, verjaart de overblijvende rechtsvordering door verloop van één jaar met ingang
 van de in artikel VII.216/54 bepaalde datum van verval.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10444,7 +10444,7 @@ van de in artikel VII.216/54 bepaalde datum van verval.]1
 [1 De houder of de trekker van een wisselbrief heeft tegen de betrokkene die niet heeft
 geaccepteerd, maar fonds in handen heeft, een rechtstreekse vordering tot betaling van de wisselbrief ten
 belope van het fonds.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10453,7 +10453,7 @@ belope van het fonds.]1
 [1 De betrokkene kan het fonds niet meer uit handen geven indien de houder hem zulks
 verbiedt. Dit verbod kan gedaan worden door middel van een gewone brief, die echter moet gevolgd worden
 door een dagvaarding binnen vijftien dagen na de vervaldag. Het protest van niet-betaling geldt als verbod.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10461,12 +10461,12 @@ door een dagvaarding binnen vijftien dagen na de vervaldag. Het protest van niet
 
 [1 In het geval van een rechtsvordering als bedoeld in artikel VII.216/29 tweede lid, is de trekker
 niet verplicht het bestaan van het fonds te bewijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 2. [1 - Betaling van vermiste wisselbrieven]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 141, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10475,7 +10475,7 @@ niet verplicht het bestaan van het fonds te bewijzen.]1
 [1 In geval van onvrijwillige en toevallige buitenbezitstelling van een niet geaccepteerde
 wisselbrief, kan degene aan wie hij toebehoort de betaling ervan vervolgen op een tweede, derde, vierde
 exemplaar, enz.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10484,7 +10484,7 @@ exemplaar, enz.]1
 [1 Indien de vermiste wisselbrief van acceptatie voorzien is, kan de betaling ervan niet
 gevorderd worden op een tweede, derde, vierde exemplaar, enz. dan krachtens een beschikking van de
 voorzitter van de ondernemingsrechtbank en tegen borgstelling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10494,7 +10494,7 @@ voorzitter van de ondernemingsrechtbank en tegen borgstelling.]1
 gesteld is, het tweede, derde, vierde exemplaar, enz., niet kan vertonen, kan hij de betaling van de vermiste
 wisselbrief vragen en ze verkrijgen krachtens een beschikking van de voorzitter van de ondernemingsrechtbank,
 mits hij van zijn eigendom doet blijken en tegen borgstelling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10506,7 +10506,7 @@ Deze akte moet opgemaakt worden uiterlijk de tweede dag na de vervaldag van de v
 Zij moet aan de trekkers en aan de endossanten bij deurwaardersexploot worden betekend binnen vijftien
 dagen te rekenen van haar dagtekening. Om geldig te zijn moet zij niet noodzakelijk door een rechterlijke
 beslissing of door een borgstelling zijn voorafgegaan]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10519,7 +10519,7 @@ trekker van de wisselbrief.
 Nadat de trekker het tweede exemplaar heeft uitgeleverd, is elke endossant verplicht daarop zijn endossement
 opnieuw aan te brengen.
 De eigenaar van de vermiste wisselbrief draagt de kosten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10527,12 +10527,12 @@ De eigenaar van de vermiste wisselbrief draagt de kosten.]1
 
 [1 De in de artikelen VII.216/89 en VII.216/90 vermelde verbintenis van de borg eindigt na drie
 jaren, indien er gedurende die tijd noch rechtsvordering noch rechtsvervolging is geweest.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 3. [1 - Bijzondere bepalingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 143, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10541,7 +10541,7 @@ jaren, indien er gedurende die tijd noch rechtsvordering noch rechtsvervolging i
 [1 Verbintenissen die een Belg in het buitenland ter zake van wisselbrieven en orderbriefjes
 heeft aangegaan, worden in België slechts dan als geldig erkend, indien hij volgens de Belgische wet de vereiste
 bekwaamheid bezat om die verbintenissen aan te gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 144, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10557,7 +10557,7 @@ kredietopening zal verschuldigd blijven.
 Zijn de zekerheden niet toereikend om de crediteur en de derden, houders van de wisselbrieven en van de
 orderbriefjes, te dekken, dan worden die derden betaald bij voorrang boven de crediteur en zo nodig
 pondspondsgewijs.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 144, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10567,12 +10567,12 @@ pondspondsgewijs.]1
 de rechten van regres, kan de houder van een wegens niet-betaling geprotesteerde wisselbrief, met verlof van
 de beslagrechter, conservatoir beslag leggen op de roerende goederen van de trekkers, acceptanten en
 endossanten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 144, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 4. [1 - Protesten]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 145, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10588,7 +10588,7 @@ endossant zijn aangewezen om zo nodig het handelspapier te betalen;
 3° aan de woonplaats of zetel van de derde die bij tussenkomst heeft geaccepteerd.
 In geval van een valse of onjuiste aanwijzing van de woonplaats of zetel stelt de gerechtsdeurwaarder in de
 akte vast dat de debiteur niet is gevonden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10614,7 +10614,7 @@ opgemaakt;
 10° de naam van de verzoeker;
 11° de aan- of afwezigheid van degene die moet betalen;
 12° de naam van de persoon aan wie het in artikel VII.216/99 bedoelde bericht is overhandigd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10627,7 +10627,7 @@ of zetel een bericht na, met volgende vermeldingen :
 3° het bedrag van het geprotesteerde handelspapier.
 Indien niemand wordt aangetroffen aan de bedoelde woonplaats of zetel, vermeldt de protestakte dit feit en
 wordt geen bericht nagelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10635,17 +10635,17 @@ wordt geen bericht nagelaten.]1
 
 [1 De Koning bepaalt de vorm van de in artikel VII.216/98 bedoelde protestakten en van het in
 artikel VII.216/99 bedoelde bericht]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 5. [1 - De cheque.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 147, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 1. [1 - Uitgifte en vorm van de cheque]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 148, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10660,7 +10660,7 @@ artikel VII.216/99 bedoelde bericht]1
 6° De handtekening van degene die de cheque uitgeeft (trekker). De handtekening, waarvan sprake, kan
 vervangen worden door een notariële akte in brevet, die op de cheque gesteld wordt en waaruit de wil blijkt van
 degene die zou hebben moeten ondertekenen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10676,7 +10676,7 @@ Bij gebreke van die aanwijzingen of van iedere andere aanwijzing, is de cheque b
 hoofdkantoor van de betrokkene is gevestigd.
 De cheque welke niet de plaats vermeldt waar hij is getrokken, wordt geacht te zijn ondertekend in de plaats
 aangegeven naast de naam van de trekker.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10687,7 +10687,7 @@ fonds onder zich heeft ter beschikking van de trekker, en krachtens een uitdrukk
 overeenkomst, volgens welke de trekker het recht heeft bij cheque over dat fonds te beschikken.
 In geval van niet-inachtneming van die voorschriften, met uitzondering van het voorschrift volgens hetwelk op
 een bankier moet worden getrokken, blijft de titel niettemin als cheque geldig.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10701,7 +10701,7 @@ De certificering heeft tot gevolg dat het fonds, op de verantwoordelijkheid van 
 de aanbiedingstermijn ten behoeve van de houder geblokkeerd blijft.
 Het visum of de certificering worden geweigerd wanneer het fonds ontoereikend is, rekening houdend met de
 vroeger gegeven visa en certificaties.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10715,7 +10715,7 @@ clausule;
 De cheque, betaalbaar gesteld aan een met name genoemde persoon met de vermelding "of aan toonder", of
 een daarmee gelijkstaande uitdrukking, geldt als cheque aan toonder.
 De cheque zonder vermelding van de nemer geldt als cheque aan toonder.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10724,14 +10724,14 @@ De cheque zonder vermelding van de nemer geldt als cheque aan toonder.]1
 [1 De cheque kan aan de order van de trekker zelf luiden.
 De cheque kan worden getrokken voor rekening van een derde.
 De cheque, met uitzondering van de cheque aan toonder, kan worden getrokken op de trekker zelf.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
 ## Art. VII.216/107
 
 [1 Elke in de cheque opgenomen renteclausule wordt als niet geschreven beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10739,7 +10739,7 @@ De cheque, met uitzondering van de cheque aan toonder, kan worden getrokken op d
 
 [1 De cheque kan betaalbaar zijn aan de woonplaats van een derde, hetzij in de plaats waar de
 betrokkene zijn woonplaats heeft, hetzij in een andere plaats, mits echter de derde een bankier is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10749,7 +10749,7 @@ betrokkene zijn woonplaats heeft, hetzij in een andere plaats, mits echter de de
 geval van verschil, ten belope van de som voluit in letters geschreven.
 De cheque waarvan het bedrag meermalen is geschreven, hetzij voluit in letters, hetzij in cijfers, geldt, in geval
 van verschil, slechts ten belope van de kleinste som.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10760,7 +10760,7 @@ van een cheque te verbinden, valse handtekeningen of handtekeningen van verdicht
 handtekeningen welke, onverschillig om welke andere reden, de personen die deze handtekeningen op de
 cheque hebben geplaatst of in wier naam zulks is geschied, niet kunnen verbinden, zijn de verbintenissen van de
 andere personen wier handtekening op de cheque voorkomt, niettemin geldig.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10770,7 +10770,7 @@ andere personen wier handtekening op de cheque voorkomt, niettemin geldig.]1
 voor wie hij niet de bevoegdheid had te handelen, is zelf krachtens de cheque verbonden, en heeft, indien hij
 betaalt, dezelfde rechten als de beweerde vertegenwoordigde zou hebben gehad. Hetzelfde geldt ten aanzien
 van de vertegenwoordiger die zijn bevoegdheid heeft overschreden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10778,7 +10778,7 @@ van de vertegenwoordiger die zijn bevoegdheid heeft overschreden.]1
 
 [1 De trekker staat in voor de betaling.
 Elke clausule waarbij hij deze verplichting uitsluit, wordt als niet geschreven beschouwd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10788,12 +10788,12 @@ Elke clausule waarbij hij deze verplichting uitsluit, wordt als niet geschreven 
 aangegane overeenkomsten, kan de niet-naleving van die overeenkomsten niet worden tegengeworpen aan de
 houder, tenzij deze de cheque te kwader trouw heeft verkregen of hem grove schuld bij de verkrijging te wijten
 is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 2. [1 - Overdracht]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 150, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10806,7 +10806,7 @@ een daarmee gelijkstaande clausule, kan slechts worden overgedragen in de vorm e
 gewone overdracht.
 Het endossement kan worden gesteld zelfs ten voordele van de trekker of van elke andere
 chequeschuldenaar. Deze personen kunnen de cheque opnieuw endosseren.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10820,7 +10820,7 @@ Het endossement aan toonder geldt als endossement in blanco.
 Het endossement aan de betrokkene geldt slechts als kwijting, behoudens wanneer de betrokkene
 verscheidene kantoren heeft en wanneer het endossement is gesteld ten voordele van een ander kantoor dan
 dat waarop de cheque is getrokken.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10831,7 +10831,7 @@ dat waarop de cheque is getrokken.]1
 Het endossement kan de geëndosseerde onvermeld laten of bestaan uit de enkele handtekening van de
 endossant (endossement in blanco). In het laatste geval moet het endossement, om geldig te zijn, op de rugzijde
 van de cheque of op het verlengstuk worden gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10842,7 +10842,7 @@ Indien het endossement in blanco is, kan de houder :
 1° het blanco invullen, hetzij met zijn eigen naam, hetzij met de naam van een andere persoon;
 2° de cheque wederom in blanco of aan een andere persoon endosseren;
 3° de cheque aan een derde overgeven, zonder het blanco in te vullen en zonder hem te endosseren.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10851,7 +10851,7 @@ Indien het endossement in blanco is, kan de houder :
 [1 De endossant staat in voor de betaling, tenzij het tegendeel bedongen is.
 Hij kan een endossement verbieden; in dat geval staat hij tegenover de personen aan wie de cheque later is
 geëndosseerd, niet in voor de betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10863,7 +10863,7 @@ endossementen, ook al is het laatste endossement in blanco gesteld. De doorgehaa
 te dien aanzien voor niet geschreven gehouden.
 Wanneer een endossement in blanco door een ander endossement is gevolgd, wordt de ondertekenaar van dit
 laatste geacht de cheque door het endossement in blanco verkregen te hebben.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10872,7 +10872,7 @@ laatste geacht de cheque door het endossement in blanco verkregen te hebben.]1
 [1 Een op een cheque aan toonder voorkomend endossement maakt de endossant
 verantwoordelijk overeenkomstig de bepalingen betreffende het recht van regres; het maakt overigens de titel
 niet tot een cheque aan order.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10882,7 +10882,7 @@ niet tot een cheque aan order.]1
 houder op de wijze bij artikel VII.216/119 bepaald, zijn recht doet gelden, hoe dan ook uit iemands handen is
 geraakt, is de houder die haar in handen heeft gekregen, niet verplicht de cheque af te staan, tenzij hij deze te
 kwader trouw heeft verkregen, of, bij dezelver verkrijging, een zware fout heeft begaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10892,7 +10892,7 @@ kwader trouw heeft verkregen, of, bij dezelver verkrijging, een zware fout heeft
 gegrond op hun persoonlijke verhouding tot de trekker of tot vroegere houders, niet aan de houder
 tegenwerpen, tenzij deze bij de verkrijging van de cheque desbewust ten nadele van de schuldenaar heeft
 gehandeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10905,7 +10905,7 @@ De chequeschuldenaars kunnen in dat geval aan de houder slechts de verweermiddel
 aan de endossant zouden kunnen worden tegengeworpen.
 De opdracht, vervat in een incasso-endossement, eindigt niet door de dood of door de latere onbekwaamheid
 van de lastgever.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10915,12 +10915,12 @@ van de lastgever.]1
 de aanbiedingstermijn op de cheque gesteld, heeft slechts de gevolgen van een gewone overdracht.
 Behoudens tegenbewijs, wordt het endossement zonder dagtekening geacht te zijn gesteld vóór het protest of
 de daarmee gelijkstaande verklaringen of vóór het verstrijken van de in het eerste lid bedoelde termijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 3. [1 - Aval]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 152, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10930,7 +10930,7 @@ de daarmee gelijkstaande verklaringen of vóór het verstrijken van de in het ee
 door een borgtocht (aval) worden verzekerd.
 Deze borgtocht kan door een derde, behalve door de betrokkene, of zelfs door iemand wiens handtekening op
 de cheque voorkomt, worden gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 153, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10945,7 +10945,7 @@ De enkele handtekening van de avalgever, gesteld op de voorzijde van de cheque, 
 wanneer de handtekening die is van de trekker.
 In het aval moet worden vermeld voor wie het is gegeven. Bij gebreke hiervan wordt het geacht voor de
 trekker te zijn gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 153, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10957,12 +10957,12 @@ gewaarborgde verbintenis nietig is.
 Door te betalen verkrijgt de avalgever de rechten welke krachtens de cheque kunnen worden uitgeoefend
 tegen degene voor wie het aval is gegeven en tegen degenen die tegenover deze laatste krachtens de cheque
 verbonden zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 153, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 4. [1 - Aanbieding en betaling]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 154, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10972,7 +10972,7 @@ verbonden zijn.]1
 geschreven gehouden.
 De cheque die ter betaling wordt aangeboden vóór de dag vermeld als datum van uitgifte, is betaalbaar op de
 dag van de aanbieding.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10991,7 +10991,7 @@ een ander land bestemd is; de termijnen lopen over twintig of honderd twintig da
 Europa of buiten Europa in omloop moet zijn.
 De bovengenoemde termijnen beginnen te lopen van de dag die op de cheque als datum van uitgifte is
 vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -10999,7 +10999,7 @@ vermeld.]1
 
 [1 De dag van uitgifte van een cheque, getrokken tussen twee plaatsen met verschillende
 tijdrekening, wordt herleid tot de overeenkomstige dag van de tijdrekening van de plaats van betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11007,7 +11007,7 @@ tijdrekening, wordt herleid tot de overeenkomstige dag van de tijdrekening van d
 
 [1 De aanbieding aan een door de regering aangewezen verrekeningskamer geldt als
 aanbieding ter betaling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11015,7 +11015,7 @@ aanbieding ter betaling.]1
 
 [1 De herroeping van de cheque heeft eerst gevolg na het einde van de aanbiedingstermijn.
 Indien geen herroeping plaatsheeft, kan de betrokkene zelfs na het einde van de termijn betalen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11023,7 +11023,7 @@ Indien geen herroeping plaatsheeft, kan de betrokkene zelfs na het einde van de 
 
 [1 Noch de dood van de trekker, noch zijn na uitgifte opkomende onbekwaamheid zijn van
 invloed op de gevolgen van de cheque.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11034,7 +11034,7 @@ van de kwijting van de houder.
 De houder mag niet weigeren een gedeeltelijke betaling aan te nemen.
 In geval van gedeeltelijke betaling kan de betrokkene vorderen dat van die betaling op de cheque melding wordt
 gemaakt en dat hem daarvoor kwijting wordt gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11044,7 +11044,7 @@ gemaakt en dat hem daarvoor kwijting wordt gegeven.]1
 regelmatigheid van de reeks van endossementen, maar niet de handtekening der endossanten te onderzoeken.
 De betrokkene is door de betaling van de cheque wettig bevrijd, tenzij hem bedrog of grove schuld te wijten
 is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11056,7 +11056,7 @@ het verkeerd gebruik van die formulieren, tenzij hij bewijst, ofwel dat aan betr
 wijten is, ofwel dat de cheque verloren, gestolen of vervalst werd nadat de wettige geadresseerde hem
 ontvangen had. Indien deze laatste hetzelfde bewijs levert wordt de schade door de volgende geadresseerde
 gedragen, enz.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11074,7 +11074,7 @@ een bepaalde aangegeven valuta (clausule van werkelijke betaling in vreemde valu
 Indien het bedrag van de cheque is aangegeven in geld dat dezelfde benaming maar een verschillende waarde
 heeft in het land van uitgifte en in dat van betaling, wordt vermoed dat het geld van de plaats van betaling wordt
 bedoeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11082,12 +11082,12 @@ bedoeld.]1
 
 [1 Bij ontstentenis van enige vermelding van de munteenheid op een in België uitgegeven en
 betaalbare cheque, wordt verondersteld dat het bedrag uitgedrukt is in euro.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 5. [1 - Gekruiste cheque en verrekeningscheque]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 156, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11103,7 +11103,7 @@ tussen de twee lijnen.
 De algemene kruising kan worden veranderd in een bijzondere, maar de bijzondere kruising kan niet worden
 veranderd in een algemene.
 De doorhaling van de kruising of van de naam van de aangewezen bankier wordt geacht niet te zijn geschied.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 157, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11120,7 +11120,7 @@ Een cheque die meer dan één bijzondere kruising draagt, mag door de betrokkene
 indien er niet meer dan twee kruisingen zijn, waarvan de ene strekt tot inning door een verrekeningskamer.
 De betrokkene of de bankier die de bovenstaande bepalingen niet naleeft, is aansprakelijk voor de schade tot
 maximaal de waarde van het bedrag van de cheque.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 157, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11134,12 +11134,12 @@ rekening, overschrijving of schuldvergelijking). De boeking geldt als betaling.
 De doorhaling van de vermelding "in rekening te brengen" wordt geacht niet te zijn geschied.
 De betrokkene die de bovenstaande bepalingen niet naleeft, is verantwoordelijk voor de schade tot beloop van
 het bedrag van de cheque.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 157, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 6. [1 - Recht van regres in geval van niet-betaling]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 158, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11151,7 +11151,7 @@ cheque, onverminderd de toepassing van artikel XX.111.
 Indien verscheidene cheques door eenzelfde trekker op eenzelfde bankier zijn getrokken, en het fonds dat
 deze laatste schuldig is, ontoereikend is om ze alle te kwijten, worden zij pondspondsgewijs betaald, behoudens
 in geval van certificering.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11168,7 +11168,7 @@ vastgesteld wordt dat de cheque tijdig aangeboden en niet betaald is.
 De houder kan zijn recht van regres nog uitoefenen op de trekker, wanneer de cheque te laat is aangeboden
 of de weigering van betaling te laat is vastgesteld, behalve indien het beschikbare fonds na het einde van de
 aanbiedingstermijn mocht zijn verdwenen ten gevolge van een feit waaraan de trekker vreemd is.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11178,7 +11178,7 @@ aanbiedingstermijn mocht zijn verdwenen ten gevolge van een feit waaraan de trek
 de aanbiedingstermijn.
 Indien de aanbieding plaats heeft op de laatste dag van de termijn, kan het protest of de daarmee gelijkstaande
 verklaring op de eerstvolgende werkdag worden gedaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11203,7 +11203,7 @@ termijn ter post is bezorgd.
 Wie de kennisgeving niet binnen de bovenvermelde termijn doet, treft geen verval van zijn recht; hij is, in
 voorkomend geval, verantwoordelijk voor de door zijn nalatigheid veroorzaakte schade, zonder dat de
 schadevergoeding het bedrag van de cheque kan te boven gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11212,7 +11212,7 @@ schadevergoeding het bedrag van de cheque kan te boven gaan.]1
 [1 Onverminderd de toepassing van de formaliteiten, voorgeschreven voor de uitoefening van
 de rechten van regres, kan de houder van een wegens niet-betaling geprotesteerde cheque, met verlof van de
 beslagrechter, conservatoir beslag leggen op de roerende goederen van de trekkers en endossanten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11232,7 +11232,7 @@ Indien de houder, ondanks de door de trekker gestelde clausule, toch het protest
 verklaring doet opmaken, zijn de kosten daarvan voor zijn rekening. Indien de clausule van een endossant of een
 avalgever afkomstig is, kunnen de kosten van het protest of van de daarmee gelijkstaande verklaring, indien een
 akte van die aard is opgesteld, op allen wier handtekening op de cheque voorkomt, worden verhaald.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11246,7 +11246,7 @@ Hetzelfde recht komt toe aan ieder wiens handtekening op de cheque voorkomt en d
 voldoening aan zijn regresplicht.
 De vordering, ingesteld tegen één der chequeschuldenaars, belet niet de anderen aan te spreken, al hadden
 dezen zich later verbonden dan de eerst aangesprokene.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11258,7 +11258,7 @@ dezen zich later verbonden dan de eerst aangesprokene.]1
 betaald heeft;
 3° de kosten van protest of van de daarmee gelijkstaande verklaring, die van de gedane kennisgevingen,
 alsmede de andere kosten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11270,7 +11270,7 @@ tegenover hem verbonden zijn, vorderen :
 2° een interest berekend tegen de wettelijke rentevoet op die som, te rekenen van de dag waarop hij deze
 betaald heeft;
 3° de door hem gemaakte kosten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11281,7 +11281,7 @@ kan, tegen betaling tot voldoening aan zijn regresplicht, de afgifte vorderen va
 daarmee gelijkstaande verklaring, alsmede een voor voldaan getekende rekening.
 Elke endossant die de cheque heeft betaald tot voldoening van zijn regresplicht, kan zijn endossement en dat
 van de volgende endossanten doorhalen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11302,7 +11302,7 @@ gelijkstaande verklaring nodig zijn.
 Als gevallen van overmacht worden niet beschouwd feiten welke van zuiver persoonlijke aard zijn voor de
 houder of voor degene die hij met de aanbieding van de cheque, het opmaken van het protest of de daarmee
 gelijkstaande verklaring heeft belast.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11310,12 +11310,12 @@ gelijkstaande verklaring heeft belast.]1
 
 [1 Bij verval van recht blijft een rechtsvordering bestaan tegen de trekker die geen fonds
 bezorgd heeft, of tegen een trekker of een endossant die zich onrechtmatig verrijkt heeft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 7. [1 - Cheque in verscheidene exemplaren]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 160, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11327,7 +11327,7 @@ een zelfde overzees deel of in verschillende overzeese delen van hetzelfde land,
 exemplaren worden getrokken. Wanneer een cheque in verscheidene exemplaren is getrokken, moeten die
 exemplaren in de tekst zelf van de titel worden genummerd, bij gebreke waarvan elk exemplaar wordt
 beschouwd als een afzonderlijke cheque.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 161, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11337,12 +11337,12 @@ beschouwd als een afzonderlijke cheque.]1
 betaling de kracht der andere exemplaren teniet doet.
 De endossant die de exemplaren aan verschillende personen heeft overgedragen, alsook de latere
 endossanten, zijn verbonden door alle exemplaren die hun handtekening dragen en die niet zijn terugbezorgd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 161, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 8. [1 - Tekstveranderingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 162, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11351,12 +11351,12 @@ endossanten, zijn verbonden door alle exemplaren die hun handtekening dragen en 
 [1 In geval van verandering van de tekst van een cheque zijn zij die daarna hun handtekening
 op de cheque hebben geplaatst, volgens de veranderde tekst verbonden; zij die daarvoor hun handtekening op
 de cheque hebben geplaatst, zijn verbonden volgens de oorspronkelijke tekst.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 163, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 9. [1 - Verjaring]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 164, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11369,7 +11369,7 @@ De regresvorderingen van de verschillende tot betaling van een cheque verbonden 
 elkander verjaren door verloop van zes maanden, te rekenen van de dag waarop de chequeschuldenaar de
 cheque heeft betaald tot voldoening aan zijn regresplicht, of van de dag waarop hijzelf in rechte is
 aangesproken.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 165, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11377,7 +11377,7 @@ aangesproken.]1
 
 [1 In geval van verjaring blijft een rechtsvordering bestaan tegen de trekker die geen fonds
 bezorgd heeft, en tegen een trekker of een endossant die zich onrechtmatig mocht hebben verrijkt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 165, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11387,12 +11387,12 @@ bezorgd heeft, en tegen een trekker of een endossant die zich onrechtmatig mocht
 rechtsvervolging; zij wordt geschorst door feiten van overmacht.
 De stuiting der verjaring heeft slechts gevolgen tegen degene ten aanzien van wie de daad van stuiting heeft
 plaatsgehad.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 165, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 10. [1 - Algemene bepalingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 166, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11404,7 +11404,7 @@ Wanneer de laatste dag van de termijn, door de wet gesteld voor het verrichten v
 de cheque, inzonderheid voor de aanbieding en voor het opmaken van het protest of een daarmee gelijkstaande
 akte, een zaterdag, zondag of wettelijke feestdag is, verstrijkt die termijn op de eerstvolgende werkdag. De
 tussenliggende zaterdagen, zondagen en feestdagen zijn begrepen in de berekening van de termijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11412,14 +11412,14 @@ tussenliggende zaterdagen, zondagen en feestdagen zijn begrepen in de berekening
 
 [1 In de termijnen, door dit hoofdstuk bepaald, wordt de dag waarop zij aanvangen, niet
 medegerekend.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
 
 ## Art. VII.216/162
 
 [1 Geen enkele dag uitstel wordt door de wet of door de rechter toegestaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11429,12 +11429,12 @@ medegerekend.]1
 de bepalingen van deze wet, in zover deze bepalingen verenigbaar zijn met de eigen aard van elk van de
 genoemde waardepapieren. Hun benaming zal worden opgenomen in de tekst zelf en uitgedrukt in de taal waarin
 zij zijn gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 11. [1 - Vermiste cheques]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 168, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11444,7 +11444,7 @@ zij zijn gesteld.]1
 exemplaar kan vertonen, kan de betaling van de vermiste cheque vragen en ze verkrijgen krachtens een
 beschikking van de voorzitter van de ondernemingsrechtbank, mits hij van zijn eigendom doet blijken en tegen
 borgstelling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 169, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11457,7 +11457,7 @@ aan de trekker en de endossanten bij deurwaardersexploot worden betekend binnen 
 haar dagtekening.
 Om geldig te zijn moet zij niet noodzakelijk van een rechterlijke beslissing of van een borgstelling zijn
 voorafgegaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 169, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11465,12 +11465,12 @@ voorafgegaan.]1
 
 [1 De in artikel VII.216/165 vermelde verbintenis van de borg eindigt na zes maanden, indien er
 gedurende die tijd noch rechtsvordering noch rechtsvervolging is geweest.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 169, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 12. [1 - Wetsconflicten]1**
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 170, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11479,7 +11479,7 @@ gedurende die tijd noch rechtsvordering noch rechtsvervolging is geweest.]1
 [1 Verbintenissen die een Belg in het buitenland bij cheque heeft aangegaan, worden in België
 slechts dan als geldig erkend, indien hij volgens de Belgische wet de vereiste bekwaamheid bezat om die
 verbintenissen aan te gaan.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 171, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11487,7 +11487,7 @@ verbintenissen aan te gaan.]1
 
 [1 Verbintenissen die een Belg in het buitenland bij cheque heeft aangegaan in de vorm door
 de Belgische wet voorgeschreven, zijn in België geldig ten opzichte van andere Belgen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 171, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -11495,12 +11495,12 @@ de Belgische wet voorgeschreven, zijn in België geldig ten opzichte van andere 
 
 [1 De bepalingen van dit boek, waarbij het protest van niet-betaling wordt geregeld, zijn van
 toepassing op de cheque, in zover zij verenigbaar zijn met de bepalingen van deze afdeling.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 171, 059; Inwerkingtreding : 01-11-2018>
 
 
 #### TITEL 7. [1 – Slotbepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
@@ -11512,7 +11512,7 @@ VII.4/4,]4 VII. 57 tot VII. 59, [4 VII.62/1 tot VII.62/7,]4 VII. 64, VII. 90, §
 tweede lid, [2 VII.101, VII. 114, § 3, VII.124, VII.147/9, VII.147/10 en VII.147/30, § 3, van dit boek]2 worden door
 de minister voor advies voorgelegd aan de [3 bijzondere raadgevende commissie Verbruik]3. De minister bepaalt
 de termijn waarbinnen het advies wordt gegeven. Na deze termijn is het advies niet meer vereist.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2016-04-22/01, art. 33, 038; Inwerkingtreding : 01-12-2016>
@@ -11530,7 +11530,7 @@ De koninklijke besluiten genomen in uitvoering van de artikelen VII. 148, VII. 1
 door de minister voor advies voorgelegd aan de [3 bijzondere raadgevende commissie Verbruik]3, de Commissie
 voor de bescherming van de persoonlijke levenssfeer en het Begeleidingscomité. De minister bepaalt de termijn
 binnen welke het advies wordt gegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2016-04-22/01, art. 34, 038; Inwerkingtreding : 01-12-2016>
@@ -11543,7 +11543,7 @@ binnen welke het advies wordt gegeven.]1
 VII. 64, VII. 86, § 3, tweede lid, VII. 90, § 1er, derde lid, VII. 94, VII. 95, VII. 101, [2 VII.120, VII.122, VII.124,
 VII.147/9, VII.147/10, VII.147/36 en VII.147/38]2 uit op de gezamenlijke voordracht van de Ministers bevoegd
 voor Economie en Financiën, na raadpleging van de Bank. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2016-04-22/01, art. 35, 038; Inwerkingtreding : 01-12-2016>
@@ -11552,7 +11552,7 @@ voor Economie en Financiën, na raadpleging van de Bank. ]1
 ## Art. VII.220
 
 [1 De besluiten tot uitvoering van titel 4, hoofdstuk 4, worden genomen op advies van de FSMA. ]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie W 2014-04-19/40, art. 3;
 gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -12076,5 +12076,5 @@ aangeboden te krijgen, naar gelang van het geval.
 Rubriek "15. Toezichthouder"
 Vermeld moet worden welke de betrokken autoriteit of autoriteiten zijn die zijn belast met het toezicht op de
 precontractuele fase van de kredietverlening.]1
-----------
+
 (1)<Ingevoegd bij W 2016-04-22/01, art. 37, 038; Inwerkingtreding : 01-12-2016>

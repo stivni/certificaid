@@ -498,7 +498,7 @@ is gesloten                     financieren
 
 
 i = p x 24 x n
-----------
+
 n+1
 
 waarin :

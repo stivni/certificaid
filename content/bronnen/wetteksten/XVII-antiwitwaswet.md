@@ -68,7 +68,7 @@ financiële stelsel voor het witwassen van geld of terrorismefinanciering en tot
 juni 2019 tot vaststelling van regels ter vergemakkelijking van het gebruik van financiële en andere informatie
 voor het voorkomen, opsporen, onderzoeken of vervolgen van bepaalde strafbare feiten, en tot intrekking van
 Besluit 2000/642/JBZ van de Raad]2.]1
-----------
+
 (1)<W 2020-07-20/12, art. 29, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-05-15/03, art. 3, 014; Inwerkingtreding : 04-06-2022>
 
@@ -464,7 +464,7 @@ vermogensbestanddelen die hun oorsprong vinden in misdrijven;
 uitvoering van het onderzoek haar toevertrouwd door het parket of door de onderzoeksrechter, en het COIV;
 51° "ernstige strafbare feiten": de vormen van criminaliteit die worden genoemd in bijlage I bij Verordening
 2016/794.]5
-----------
+
 (1)<W 2020-07-20/12, art. 31, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-06-02/03, art. 46, 009; Inwerkingtreding : 28-06-2021>
 (3)<W 2021-07-11/08, art. 303, 011; Inwerkingtreding : 30-06-2021>
@@ -774,7 +774,7 @@ toepassingsgebied van deze wet op grond van het eerste lid.
 § 5. De koninklijke besluiten genomen krachtens paragrafen 2 tot en met 4, hebben geen gevolg meer indien zij
 niet worden bekrachtigd door de wet binnen twaalf maanden vanaf hun datum van inwerkingtreding. De
 bekrachtiging werkt terug tot op de datum van inwerkingtreding van de koninklijke besluiten.
-----------
+
 (1)<W 2018-03-29/40, art. 12, 004; Inwerkingtreding : 01-09-2018>
 (2)<W 2018-07-30/10, art. 111,1°-111,2°; 111,4°-111,6°, 005; Inwerkingtreding : 20-08-2018>
 (3)<W 2018-07-30/10, art. 111,3°, 005; Inwerkingtreding : onbepaald, en uiterlijk op 01-10-2020>
@@ -795,7 +795,7 @@ bekrachtiging werkt terug tot op de datum van inwerkingtreding van de koninklijk
 De beperkingen op het gebruik van contanten bedoeld in de artikelen 66, § 2, en 67, zijn ook van
 toepassing op alle natuurlijke of rechtspersonen die betalingen of [1 schenkingen]1 doen als bedoeld in deze
 bepalingen.
-----------
+
 (1)<W 2020-07-20/12, art. 33, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -851,7 +851,7 @@ de beperking van dergelijke risico's.
 instellen op grond van paragraaf 1, ter goedkeuring voor aan een lid van het hoger leidinggevend personeel.
 § 4. De onderworpen entiteiten vergewissen zich van de geschiktheid en de doeltreffendheid van de
 maatregelen genomen om te voldoen aan dit artikel en verbeteren deze maatregelen in voorkomend geval.
-----------
+
 (1)<W 2025-12-11/13, art. 158, 023; Inwerkingtreding : 03-01-2026>
 
 
@@ -890,7 +890,7 @@ WG/FTP te waarborgen.
 name wat haar rechtsvorm, haar beleidsstructuur of haar personeelsbestand betreft, kunnen de functies
 bedoeld in paragraaf 2 worden uitgeoefend door de persoon bedoeld in paragraaf 1.
 § 4. [1 ...]1
-----------
+
 (1)<W 2020-07-20/12, art. 34, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -900,7 +900,7 @@ bedoeld in paragraaf 2 worden uitgeoefend door de persoon bedoeld in paragraaf 1
 met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op
 vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek
 bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9.]1
-----------
+
 (1)<W 2022-11-28/02, art. 42, 020; Inwerkingtreding : 15-02-2023>
 
 
@@ -968,7 +968,7 @@ Indien het volgens het recht van een derde land niet is toegestaan dat de kracht
 voorgeschreven gedragslijnen en procedures worden toegepast, zien de onderworpen entiteiten erop toe dat
 hun vestiging in dat derde land naast de lokale maatregelen verdere maatregelen neemt om het WG/FT-risico
 doeltreffend te beheersen en informeren zij hun toezichtautoriteit die bevoegd is op grond van artikel 85.
-----------
+
 (1)<W 2020-07-20/12, art. 35, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -999,7 +999,7 @@ contactpunt vastgesteld in een reglement van de FSMA genomen ter uitvoering van 
 augustus 2002, en dit centrale contactpunt zal de uitoefening, door de FSMA, van haar toezichtsopdrachten
 vergemakkelijken, met name door aan die autoriteit, op haar verzoek, alle documenten of informatie te
 bezorgen.]2
-----------
+
 (1)<W 2020-07-20/12, art. 36, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2025-12-11/13, art. 85, 023; Inwerkingtreding : 03-01-2026>
 
@@ -1074,7 +1074,7 @@ vereenvoudigde waakzaamheidsmaatregelen toepassen indien ze gevallen van laag ri
 De onderworpen entiteiten zorgen er in elk geval voor dat ze tegenover de toezichtautoriteiten die bevoegd zijn
 op grond van artikel 85 kunnen aantonen dat de waakzaamheidsmaatregelen die ze toepassen, in verhouding
 staan tot het geïdentificeerde WG/FT-risico.
-----------
+
 (1)<W 2020-07-20/12, art. 37, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1083,7 +1083,7 @@ staan tot het geïdentificeerde WG/FT-risico.
 [1 De in artikel 5, § 1, 3° tot en met 22° [2 en 31° /6]2, bedoelde onderworpen entiteiten mogen geen
 anonieme rekeningen of kluizen of rekeningen of kluizen onder valse namen of pseudoniemen openen. Ze
 nemen alle passende maatregelen om de naleving van dit verbod te verzekeren.]1
-----------
+
 (1)<W 2020-07-20/12, art. 38, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2024-02-09/19, art. 165, 022; Inwerkingtreding : 31-03-2024>
 
@@ -1136,7 +1136,7 @@ uitgevoerd.
 vastgesteld na overleg in de ministerraad, een lagere drempel vaststellen dan die bedoeld in paragraaf 1, 2°, a),
 voor bepaalde types van verrichtingen en/of bepaalde onderworpen entiteiten, rekening houdend, met name,
 met de risicobeoordeling door de bevoegde toezichtautoriteiten conform artikel 87, § 1.
-----------
+
 (1)<W 2020-07-20/12, art. 39, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1144,7 +1144,7 @@ met de risicobeoordeling door de bevoegde toezichtautoriteiten conform artikel 8
 
 [1 In voorkomend geval identificeren de onderworpen entiteiten de lasthebber(s) van de in artikel 21
 bedoelde cliënten. Zij verifiëren hun identiteit en hun bevoegdheid om op te treden in naam van die cliënten.]1
-----------
+
 (1)<W 2020-07-20/12, art. 40, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1168,7 +1168,7 @@ gereglementeerde markt, in de zin van Richtlijn 2014/65/EU van het Europees Parl
 vennootschap onderworpen is aan wettelijke bepalingen die gelijkwaardig zijn aan de bepalingen van de
 genoemde richtlijn en die met name vereisten tot openbaarmaking van de deelnemingen in de betrokken
 vennootschap opleggen die gelijkwaardig zijn aan die waarin het recht van de Europese Unie voorziet.
-----------
+
 (1)<W 2020-07-20/12, art. 41, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1206,7 +1206,7 @@ het om een bedrag van meer dan 50 euro per transactie gaat.]1
 in de acceptatie van betalingstransacties, als bedoeld in punt 5 van Bijlage I.A. van de wet van 11 maart 2018,
 aanvaarden enkel betalingen die zijn verricht met anonieme prepaidkaarten die zijn uitgegeven in derde landen
 indien deze kaarten voldoen aan voorwaarden die gelijkwaardig zijn aan die welke zijn vastgesteld in lid 1 en 2.]2
-----------
+
 (1)<W 2020-07-20/12, art. 42, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2020-07-20/12, art. 42,d, 008; Inwerkingtreding : 10-07-2020>
 
@@ -1289,7 +1289,7 @@ het aan de cliënt en de zakelijke relatie of aan de verrichting verbonden risic
 entiteit alle informatie die ze heeft ingewonnen op grond van artikel 26, en vergewist ze zich er met verhoogde
 aandacht van dat de documenten en informatiebronnen waarop ze een beroep doet om deze informatie te
 verifiëren, haar een hoge mate van zekerheid verschaffen over haar kennis van de betrokken persoon.
-----------
+
 (1)<W 2020-07-20/12, art. 43, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1343,7 +1343,7 @@ deze registers om te voldoen aan hun verplichtingen inzake identificatie en veri
 uiteindelijke begunstigden van hun cliënten, van de lasthebbers van hun cliënten of de begunstigden van
 levensverzekeringsovereenkomsten. Zij nemen daartoe bijkomende maatregelen die evenredig zijn met het
 overeenkomstig artikel 19, § 2, eerste lid, geïdentificeerde risiconiveau.
-----------
+
 (1)<W 2020-07-20/12, art. 44, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1418,7 +1418,7 @@ beëindiging de entiteit aan een ernstig en onevenredig nadeel zou blootstellen.
 28°, onder de strikte voorwaarde dat zij de rechtspositie van hun cliënt bepalen of deze cliënt verdedigen of
 vertegenwoordigen in of in verband met een rechtsgeding, met inbegrip van advies over het instellen of
 vermijden van een dergelijk rechtsgeding.
-----------
+
 (1)<W 2020-07-20/12, art. 45, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1456,13 +1456,13 @@ WG/FT doen rijzen en of er reden is tot melding aan de CFI.
 28°, onder de strikte voorwaarde dat zij de rechtspositie van hun cliënt bepalen of deze cliënt verdedigen of
 vertegenwoordigen in of in verband met een rechtsgeding, met inbegrip van advies over het instellen of
 vermijden van een dergelijk rechtsgeding.
-----------
+
 (1)<W 2020-07-20/12, art. 46, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 4. - [1 Verplichting tot waakzaamheid ten aanzien van de zakelijke relaties en de occasionele**
 verrichtingen]1
-----------
+
 (1)<W 2020-07-20/12, art. 47, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1510,7 +1510,7 @@ WG/FT doen rijzen en of er reden is tot melding aan de CFI.
 28°, onder de strikte voorwaarde dat zij de rechtspositie van hun cliënt bepalen of deze cliënt verdedigen of
 vertegenwoordigen in of in verband met een rechtsgeding, met inbegrip van advies over het instellen of
 vermijden van een dergelijk rechtsgeding.
-----------
+
 (1)<W 2020-07-20/12, art. 48, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1521,7 +1521,7 @@ die een verrichting die ze als atypisch beschouwen in de zin van artikel 35, § 
 voldoen aan de waakzaamheidsverplichtingen bedoeld in de artikelen 33, § 1, 34, § 3, en 35, § 2, intern melden,
 worden beschermd tegen elke bedreiging [1 , elke vergeldingsmaatregel]1 of daad van agressie, en in het
 bijzonder tegen nadelig of discriminerend optreden van de werkgever.
-----------
+
 (1)<W 2020-07-20/12, art. 49, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1539,7 +1539,7 @@ verslag opgesteld als bedoeld in artikel 45.
 § 2. Wanneer ze de alternatieve beperkende maatregelen bedoeld in de artikelen 33, § 1 [1 ...]1 en 35, § 2,
 treffen, leggen de onderworpen entiteiten ten aanzien van de betrokken zakelijke relaties een verhoogde
 waakzaamheid aan de dag.
-----------
+
 (1)<W 2020-07-20/12, art. 50, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1591,7 +1591,7 @@ de correspondentenrelaties met respondentinstellingen in het betrokken land te h
 nodig, te beëindigen.
 De toepassing van maatregelen als bedoeld in de bepaling onder 1°, a), wordt geëist door de Koning op advies
 van de CFI.]1
-----------
+
 (1)<W 2020-07-20/12, art. 51, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2025-12-11/13, art. 86, 023; Inwerkingtreding : 03-01-2026>
 
@@ -1609,7 +1609,7 @@ en
 begrepen het in ontvangst nemen van geldmiddelen, die verband houden met een Staat bedoeld in punt 1°, of
 waarbij natuurlijke of rechtspersonen of juridische constructies, zoals trusts of fiducieën, die gevestigd zijn in een
 dergelijke Staat of die onder het recht van een dergelijke Staat ressorteren, betrokken zijn.
-----------
+
 (1)<W 2020-07-20/12, art. 52, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1658,7 +1658,7 @@ correspondentbankrelatie aangaan of handhaven met een shell bank, noch met een k
 financiële instelling als bedoeld in artikel 3, punten 1 en 2, van Richtlijn 2015/849 of die onder een derde land
 ressorteert, waarvan bekend is dat ze toestaat dat van haar rekeningen gebruik wordt gemaakt door een shell
 bank.
-----------
+
 (1)<W 2020-07-20/12, art. 53, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2025-12-11/13, art. 87, 023; Inwerkingtreding : 03-01-2026>
 
@@ -1711,7 +1711,7 @@ overeenkomstig de volgende voorwaarden :
 verder verwerkt op een manier die niet verenigbaar is met deze doelstellingen;
 2° de verwerking van persoonsgegevens op deze lijsten voor andere doeleinden dan deze voorzien door deze
 wet, met name commerciële doeleinden, is verboden.]1
-----------
+
 (1)<W 2020-07-20/12, art. 54, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1733,7 +1733,7 @@ cryptoactiva;
 4° alle andere maatregelen om de WG/FT-risico's evenals het risico op niet-uitvoering en ontduiking van
 gerichte financiële sancties en van gerichte financiële sancties in verband met de financiering van proliferatie te
 beperken en te beheren.]1
-----------
+
 (1)<Ingevoegd bij W 2025-12-11/13, art. 88, 023; Inwerkingtreding : 03-01-2026>
 
 
@@ -1808,7 +1808,7 @@ aangeboden of erkend binnen de authenticatiedienst zoals bedoeld in de artikelen
 2017 inzake elektronische identificatie, die de identiteit van personen online bevestigen;
 2° indien beschikbaar, informatie verkregen door middel van relevante vertrouwensdiensten zoals bedoeld in
 Verordening 910/2014]1.
-----------
+
 (1)<W 2020-07-20/12, art. 55, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1837,7 +1837,7 @@ zakelijke relatie, teneinde te bepalen of die verrichtingen verdacht blijken.]1
 paragraaf 1 werd uitgevoerd.
 Dit verslag wordt opgesteld onder de verantwoordelijkheid van de in artikel 9, § 2, bedoelde personen, die er
 een passend gevolg aan geven met toepassing van deze titel omschreven verplichtingen.
-----------
+
 (1)<W 2020-07-20/12, art. 56, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1930,7 +1930,7 @@ verrichting uit te voeren.
 geldmiddelen of een feit, als bedoeld in artikel 47, § 1, 1° en 3°, en § 2, verband houden met het witwassen van
 geld of de financiering van terrorisme, of wanneer ze kennisnemen van geldmiddelen of feiten als bedoeld in
 artikel 47, § 3, melden ze dit onmiddellijk aan de CFI.
-----------
+
 (1)<W 2020-07-20/12, art. 57, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -1943,7 +1943,7 @@ hoogte brengen.
 De Stafhouder controleert of de voorwaarden bedoeld in de artikelen 5, § 1, 28°, en 53 zijn nageleefd. In
 voorkomend geval geeft hij de informatie in overeenstemming met de artikelen 50 en 51, [2 onmiddellijk]2 en
 ongefilterd, door aan de CFI.
-----------
+
 (1)<W 2018-07-30/10, art. 112, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2020-07-20/12, art. 58, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1994,7 +1994,7 @@ of inlichtingen aan de bijkantoren van onderworpen entiteiten gevestigd in derde
 § 2. Wanneer een natuurlijk persoon die behoort tot één van de categorieën van de onderworpen entiteiten
 opgesomd in artikel 5, § 1, 23° tot en met 28°, een cliënt tracht te ontraden deel te nemen aan een illegale
 activiteit is er geen mededeling in de zin van paragraaf 1.
-----------
+
 (1)<W 2020-07-20/12, art. 59, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2044,7 +2044,7 @@ haar bestuurders, personeelsleden, agenten of distributeurs, tot geen enkele vor
 burgerrechtelijk, strafrechtelijk en tuchtrechtelijk vlak, noch tot nadelig of discriminatoir optreden van de
 werkgever, zelfs indien deze niet precies op de hoogte waren van de onderliggende criminele activiteit, en
 ongeacht of enige illegale activiteit daadwerkelijk heeft plaatsgevonden.
-----------
+
 (1)<W 2020-07-20/12, art. 60, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2070,12 +2070,12 @@ terrorismefinanciering hebben gemeld, kunnen een klacht indienen bij de bevoegde
 te doen aan de toepassing van artikel 90. Met het oog op een doeltreffende voorziening in rechte, blijft de
 uitzondering op het mededelingsverbod voor repressieve doeleinden krachtens artikel 56, § 1, onverkort van
 toepassing.]1
-----------
+
 (1)<W 2020-07-20/12, art. 61, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 4. - Bewaring [1 ...]1 van gegevens en documenten**
-----------
+
 (1)<W 2020-07-20/12, art. 62, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2106,7 +2106,7 @@ verrichtingen, gedurende tien jaar vanaf de uitvoering van de verrichting;
 beschreven modaliteiten.
 In afwijking van het eerste lid, worden de in dit lid bedoelde bewaartermijnen van tien jaar teruggebracht tot
 zeven jaar in 2017, en respectievelijk acht en negen jaar in 2018 en 2019.
-----------
+
 (1)<W 2020-07-20/12, art. 63, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2122,7 +2122,7 @@ De onderworpen entiteiten die voornemens zijn om gebruik te maken van de afwijki
 preciseren voorafgaand, in het kader van hun [1 interne procedures]1, de categorieën van bewijsstukken
 waarvan ze de verwijzingen bewaren in plaats van een afschrift, evenals de opvragingsmodaliteiten van de
 betreffende stukken die mogelijk maken om ze, overeenkomstig het eerste lid, op verzoek te overleggen.
-----------
+
 (1)<W 2020-07-20/12, art. 64, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2144,11 +2144,11 @@ van de toezichtautoriteiten bedoeld in artikel 85, in het kader van hun respecti
 antwoorden op de vraag of de betrokken entiteiten een zakelijke relatie onderhouden, of gedurende een periode
 van tien jaar voorafgaand aan het verzoek een zakelijke relatie onderhouden hebben, met een gegeven persoon
 en, in voorkomend geval, op vragen over de aard van die relatie.
-----------
+
 (1)<W 2020-07-20/12, art. 65, 008; Inwerkingtreding : 15-08-2020>
 
 BOEK II/1. [1 - Verwerking en bescherming van persoonsgegevens]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 66, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2181,7 +2181,7 @@ deze wet, met name commerciële doeleinden, is verboden.
 gaan of een occasionele verrichting uit te voeren, een algemene kennisgeving over de krachtens deze wet en
 Verordening 2016/679 geldende wettelijke verplichtingen bij de verwerking van persoonsgegevens met het oog
 op het voorkomen van WG/FT.]1
-----------
+
 (1)<W 2020-07-20/12, art. 67, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2282,7 +2282,7 @@ geheel beperkt.
 Krachtens artikel 43 van de Wet van 30 juli 2018 worden de rechten van de betrokken personen, bedoeld in
 het voorgaande lid, uitgeoefend door de Gegevensbeschermingsautoriteit. De Gegevensbeschermingsautoriteit
 deelt uitsluitend mee aan de betrokkene dat de nodige verificaties werden verricht.]1
-----------
+
 (1)<W 2020-07-20/12, art. 68, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2349,7 +2349,7 @@ op één of meerdere welbepaalde schulden.]1
 of een geheel van stortingen waartussen een verband lijkt te bestaan.]1
 [2 Het eerste lid is niet van toepassing op poststortingen op postrekeningen-courant of rekeningen-courant
 verricht door de ambtenaren van de federale of regionale overheidsdiensten in de uitvoering van hun functie.]2
-----------
+
 (1)<W 2020-07-20/12, art. 69, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-06-02/03, art. 47, 009; Inwerkingtreding : 28-06-2021>
 (3)<W 2024-02-09/19, art. 166, 022; Inwerkingtreding : 31-03-2024> (NOTA : vernietigd bij AGH 2025-03-
@@ -2372,7 +2372,7 @@ bekendmaking van deze wet, waarin de risico's worden beoordeeld. Vervolgens actu
 twee jaar of frequenter als de omstandigheden het rechtvaardigen.
 [1 De minister van Justitie brengt ter kennis aan de Europese Commissie, de EBA en de andere lidstaten de
 identiteit van de coördinatieorganen zoals gedefinieerd in artikel 4, 14°.]1
-----------
+
 (1)<W 2023-02-08/02, art. 3, 019; Inwerkingtreding : 17-02-2023>
 
 
@@ -2424,7 +2424,7 @@ uitvoert, alsook rekening houden met dergelijke informatie die wordt ontvangen v
 samenvatting van de analyse wordt openbaar gemaakt. Die samenvatting bevat geen geclassificeerde informatie
 krachtens hoofdstuk 2 van de wet van 11 december 1998 betreffende de classificatie en de
 veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen.]1
-----------
+
 (1)<W 2020-07-20/12, art. 70, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-07-11/08, art. 304, 011; Inwerkingtreding : 30-06-2021>
 
@@ -2439,7 +2439,7 @@ doeltreffendheid van deze regelingen.
 De Koning bepaalt op voorstel van de minister van Financiën en van de minister van Justitie overeenkomstig
 artikel 44, lid 2, van Richtlijn 2015/849, de gegevens die in de statistieken bedoeld in het eerste lid van dit artikel
 moeten worden opgenomen [1 ...]1 om jaarlijks een geconsolideerd overzicht te kunnen publiceren.
-----------
+
 (1)<W 2020-07-20/12, art. 71, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2449,7 +2449,7 @@ moeten worden opgenomen [1 ...]1 om jaarlijks een geconsolideerd overzicht te ku
 ze bijhouden jaarlijks aan de minister van Justitie.
 § 2. De minister van Justitie publiceert [1 ...]1 een geconsolideerd overzicht van de statistieken die hem
 overeenkomstig paragraaf 1 zijn toegestuurd en doet dit [1 jaarlijks]1 toekomen aan de Europese Commissie.
-----------
+
 (1)<W 2020-07-20/12, art. 72, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2500,7 +2500,7 @@ De Administratie van de Thesaurie is belast met de controle op de naleving van d
 artikel [1 1 :35 van het Wetboek van vennootschappen en verenigingen]1.
 De Administratie van de Thesaurie oefent de controle, bedoeld in het tweede lid van deze paragraaf, uit met
 toepassing van de toezichtsbevoegdheden bepaald in artikel 110, tweede lid.
-----------
+
 (1)<W 2020-07-20/12, art. 73, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2023-02-08/02, art. 4, 019; Inwerkingtreding : 17-02-2023>
 (3)<W 2025-12-11/13, art. 159, 023; Inwerkingtreding : 03-01-2026>
@@ -2545,7 +2545,7 @@ gemaakt zonder te preciseren welke onderworpen entiteit of bevoegde autoriteit e
 vermelding is alleen zichtbaar voor de bevoegde autoriteiten en wordt verwijderd zodra de informatie over
 uiteindelijke begunstigden in het UBO-register is bevestigd, verbe-terd, verduidelijkt, vervolledigd of gewijzigd
 overeenkomstig het eerste lid.]1
-----------
+
 (1)<Ingevoegd bij W 2021-06-02/03, art. 48, 009; Inwerkingtreding : 28-06-2021>
 
 
@@ -2601,7 +2601,7 @@ verplichtingen inzake waakzaamheid ten aanzien van de cliënten;
 bepaald worden overeenkomstig paragraaf 1, vierde lid;
 6° [2 ...]2
 De raadpleging van het UBO-register is kosteloos.]1
-----------
+
 (1)<W 2023-02-08/02, art. 5, 019; Inwerkingtreding : 17-02-2023>
 (2)<W 2025-12-11/13, art. 160, 023; Inwerkingtreding : 03-01-2026>
 
@@ -2632,7 +2632,7 @@ deze doelwitten en de mogelijke opbrengst van de misdaad, het witwassen van geld
 activiteiten, financiering van terrorisme of proliferatie; en
 2° de typologische en strategische analyse die betrekking heeft op proactieve recherche van trends van [1
 WG/FTP]1 en die bestemd is voor de vervollediging en verbetering van de operationele analyse.
-----------
+
 (1)<W 2020-07-20/12, art. 75, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2678,7 +2678,7 @@ bijzonderheden te verschaffen over de doeltreffendheid en het vervolg van hun me
 [1 Een specifieke feedback over de doeltreffendheid en het vervolg van meldingen wordt verzekerd door de CFI,
 in de mate van het mogelijke, ten aanzien van de onderworpen entiteiten, desgevallend tijdens gezamenlijke
 vergaderingen.]1
-----------
+
 (1)<W 2020-07-20/12, art. 76, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -2758,7 +2758,7 @@ De informatie verkregen op grond van het eerste lid maakt het voor de CFI mogeli
 rechtspersonen die eigenaar zijn van een onroerend goed tijdig te identificeren. De gegevens in deze informatie
 zijn de gegevens bedoeld in artikel 11, eerste lid, 1° en 3°, van het voornoemd koninklijk besluit van 30 juli
 2018.]2
-----------
+
 (1)<W 2018-07-30/10, art. 113, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2020-07-20/12, art. 77, 008; Inwerkingtreding : 15-08-2020>
 (3)<W 2023-06-07/07, art. 265, 021; Inwerkingtreding : 01-09-2023>
@@ -2780,7 +2780,7 @@ mogen deze entiteiten de verrichting(en) uitvoeren die het voorwerp zijn van de 
 grond van paragraaf 2, verwittigt ze ook onverwijld het [2 COIV]2.
 § 4. De CFI kan eveneens beslissen tot een maatregel van verzet als bedoeld in paragraaf 1 op verzoek van een
 andere FIE. In voorkomend geval zijn de bepalingen van paragraaf 1 tot en met 3 van toepassing.
-----------
+
 (1)<W 2018-02-04/04, art. 56, 002; Inwerkingtreding : 01-07-2018>
 (2)<W 2022-05-15/03, art. 5, 014; Inwerkingtreding : 04-06-2022>
 
@@ -2834,7 +2834,7 @@ toestemming van de procureur des Konings of de federale procureur.
 aan de betrokken persoon noch aan derden, dat de inlichtingen die ze meedelen aan de CFI op grond van
 dezelfde paragraaf of van paragraaf 2, werden gevraagd door de CFI of haar werden of zullen worden
 meegedeeld.
-----------
+
 (1)<W 2020-07-20/12, art. 78, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-05-15/03, art. 6, 014; Inwerkingtreding : 04-06-2022>
 
@@ -2855,7 +2855,7 @@ inspecties.
 Bovendien, verstrekt het openbaar ministerie aan de CFI een afschrift van de definitieve beslissingen die zijn
 genomen, met inbegrip van de minnelijke schikkingen afgesloten in strafzaken, in de dossiers in verband
 waarmee de CFI overeenkomstig dit artikel informatie heeft meegedeeld.
-----------
+
 (1)<W 2022-05-15/03, art. 7, 014; Inwerkingtreding : 04-06-2022>
 
 
@@ -2943,7 +2943,7 @@ gegevensbanken.]2
 [3 § 3. In afwijking van paragraaf 1, en binnen de grenzen van het recht van de Europese Unie, mag de CFI
 toegang geven tot vertrouwelijke informatie aan de Gegevensbeschermingsautoriteit, voor zover deze autoriteit
 deze informatie nodig heeft voor de uitoefening van haar taken.]3
-----------
+
 (1)<W 2018-07-30/10, art. 114, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2019-05-05/10, art. 190, 007; Inwerkingtreding : 03-06-2019>
 (3)<W 2020-07-20/12, art. 79, 008; Inwerkingtreding : 15-08-2020>
@@ -2994,7 +2994,7 @@ strafbare feiten en de criminele activiteiten die met witwassen van geld verband
 doeleinden waarvoor persoonsgegevens worden verzameld overeenkomstig artikel 29, § 1, van de wet van 30
 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van
 persoonsgegevens.]1
-----------
+
 (1)<W 2022-05-15/03, art. 9, 014; Inwerkingtreding : 04-06-2022>
 
 
@@ -3059,7 +3059,7 @@ entiteiten bedoeld in 5, § 1, 30°.
 [3 § 4. De minister van Financiën en de minister van Economie verstrekken aan de Europese Commissie de lijst
 van de toezichtautoriteiten bedoeld in paragrafen 1 tot en met 3, hun contactgegevens alsook elke wijziging aan
 deze gegevens.]3
-----------
+
 (1)<W 2018-07-30/10, art. 115, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2019-05-02/25, art. 102, 006; Inwerkingtreding : 31-05-2019>
 (3)<W 2020-07-20/12, art. 81, 008; Inwerkingtreding : 15-08-2020>
@@ -3090,7 +3090,7 @@ bepalingen;
 2° voeren van acties om de onderworpen entiteiten te sensibiliseren voor de WG/FT-risico's; en
 3° voeren van acties om de onderworpen entiteiten te informeren aangaande de ontwikkelingen in het juridisch
 kader van de strijd tegen WG/FTP.
-----------
+
 (1)<W 2020-07-20/12, art. 82, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3124,7 +3124,7 @@ van risicobeoordelingsvrijheid die op grond van deze wet aan de onderworpen enti
 onderzoeken ze de relevantie van de algemene risicobeoordeling die door de onderworpen entiteiten wordt
 verricht overeenkomstig artikel 16 en houden ze rekening met de risicofactoren opgesomd [1 in bijlage III en, in
 voorkomend geval, in bijlage II]1.
-----------
+
 (1)<W 2020-07-20/12, art. 83, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3184,7 +3184,7 @@ Elke ongunstige of discriminatoire behandeling van deze persoon, evenals elke be
 arbeidsverhouding of de vertegenwoordiging wegens de melding die deze persoon heeft verricht, is verboden.
 [1 De bepalingen van dit artikel doen geen afbreuk aan de toepassing van bijzondere bepalingen betreffende de
 melding van inbreuken aan een toezichtautoriteit.]1
-----------
+
 (1)<W 2018-07-30/10, art. 116, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2020-07-20/12, art. 84, 008; Inwerkingtreding : 15-08-2020>
 
@@ -3194,7 +3194,7 @@ melding van inbreuken aan een toezichtautoriteit.]1
 [1 Onverminderd artikel 137, tweede lid, wanneer de in artikel 85 opgesomde toezichtautoriteiten
 inbreuken vaststellen waarop strafrechtelijke sancties bedoeld in artikelen 136 en 137 van deze wet staan, stellen
 zij de procureur des Konings daarvan tijdig in kennis.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 85, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3212,7 +3212,7 @@ De informatie verkregen op grond van het eerste lid maakt het voor de voornoemde
 mogelijk om alle natuurlijke of rechtspersonen die eigenaar zijn van een onroerend goed tijdig te identificeren. De
 gegevens in deze informatie zijn de gegevens bedoeld in artikel 11, eerste lid, 1° en 3°, van het voornoemd
 koninklijk besluit van 30 juli 2018.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 86, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3245,7 +3245,7 @@ personeelsleden van de Bank gemachtigd om van de leidinggevenden en de personeel
 onderworpen entiteit alle inlichtingen en uitleg te verkrijgen die zij nodig achten voor de uitvoering van hun
 opdrachten en kunnen zij te dien einde gesprekken eisen met leidinggevenden of personeelsleden van de
 onderworpen entiteit die zij aanduiden.
-----------
+
 (1)<W 2025-12-11/13, art. 90, 023; Inwerkingtreding : 03-01-2026>
 
 
@@ -3256,7 +3256,7 @@ aangeeft dat ze vertrouwelijk zijn, mogen niet openbaar worden gemaakt door de o
 uitdrukkelijke toestemming van de Bank.
 De niet-naleving van deze verplichting wordt bestraft met de straffen waarin voorzien is in artikel 458 van het
 Strafwetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 87, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3281,7 +3281,7 @@ met dit lid worden verricht, zijn strafbaar met de straffen waarin artikel 458 v
 De in het eerste en tweede lid bedoelde erkende revisoren kunnen de verificaties verrichten die nodig zijn om
 bijzondere verslagen op te kunnen stellen voor de bijkantoren in het buitenland van de betrokken onderworpen
 entiteit.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 88, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3326,7 +3326,7 @@ noch meer mag bedragen dan 50 000 euro, noch in het totaal 2 500 000 euro mag ov
 De dwangsommen die met toepassing van het eerste lid worden opgelegd, worden ingevorderd door de
 administratie van de FOD Financiën belast met de inning en invordering van de niet-fiscale schuldvorderingen,
 overeenkomstig de artikelen 3 en volgende van de domaniale wet van 22 december 1949.
-----------
+
 (1)<W 2020-07-20/12, art. 89, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-07-20/40, art. 380, 017; Inwerkingtreding : 06-10-2022>
 (3)<W 2025-12-11/13, art. 91, 023; Inwerkingtreding : 03-01-2026>
@@ -3397,7 +3397,7 @@ toezicht op kredietinstellingen;
 In spoedeisende gevallen [1 of indien de ernst van de feiten dit rechtvaardigt,]1 kan de Bank de in het eerste lid
 bedoelde maatregelen nemen zonder voorafgaand bevel, mits de onderworpen entiteit haar middelen heeft
 kunnen laten gelden.
-----------
+
 (1)<W 2020-07-20/12, art. 90, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-07-20/40, art. 381, 017; Inwerkingtreding : 06-10-2022>
 
@@ -3429,7 +3429,7 @@ vennootschappen en verenigingen zijn vastgesteld. Er wordt aan hen geen kwijting
 stemming als bedoeld in het Wetboek van vennootschappen en verenigingen; zij zijn voor hun opdracht
 uitsluitend verantwoording verschuldigd ten aanzien van de Bank, die hen in voorkomend geval kwijting
 verleent.]1
-----------
+
 (1)<Ingevoegd bij W 2022-07-20/40, art. 381, 017; Inwerkingtreding : 06-10-2022>
 
 
@@ -3441,7 +3441,7 @@ Bank valt en die in België is gevestigd in een andere vorm dan die van bijkanto
 feiten dit rechtvaardigt, omvatten de in artikel 94, eerste lid, 3°, bedoelde maatregelen de bevoegdheid om de
 onderworpen entiteit te verbieden om in België diensten te verstrekken via één of meerdere agenten of
 distributeurs in België die de Bank aanwijst.]1
-----------
+
 (1)<W 2020-07-20/12, art. 91, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2025-12-11/13, art. 92, 023; Inwerkingtreding : 03-01-2026>
 
@@ -3459,7 +3459,7 @@ zover deze kunnen worden bepaald;
 4° de schade dat derden eventueel hebben geleden door deze inbreuken, voor zover dit kan worden bepaald;
 5° de mate van medewerking van de betrokken onderworpen entiteit met de Bank;
 6° eventuele vroegere inbreuken die gepleegd zijn door de betrokken onderworpen entiteit.
-----------
+
 (1)<W 2020-07-20/12, art. 92, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3467,7 +3467,7 @@ zover deze kunnen worden bepaald;
 
 De Bank informeert de [1 EBA]1 over de maatregelen die ze met toepassing van [2 de artikelen 93 tot en
 met 95]2 neemt, evenals van een eventueel beroep daartegen en van de uitkomst van dat beroep.
-----------
+
 (1)<W 2021-07-11/08, art. 305, 011; Inwerkingtreding : 30-06-2021>
 (2)<W 2022-07-20/40, art. 383, 017; Inwerkingtreding : 06-10-2022>
 
@@ -3484,7 +3484,7 @@ hoogte daarvan.
 
 [1 Artikel 135, § 3, is van toepassing op de maatregelen die worden opgelegd door de Bank krachtens
 [2 de artikelen 93, §§ 1 en 2, 2°, 94 en 95]2.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 93, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-07-20/40, art. 384, 017; Inwerkingtreding : 06-10-2022>
 
@@ -3514,7 +3514,7 @@ uitvoering ervan, van de uitvoeringsmaatregelen van Richtlijn 2015/849 en van de
 bedoeld in de bindende bepalingen betreffende financiële embargo's, worden nageleefd;
 2° het passende karakter te toetsen van de beleidsstructuren, de administratieve organisatie, de interne
 controle en het beleid inzake haar beheer van WG/FTP-risico's.
-----------
+
 (1)<W 2020-07-20/12, art. 94, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3524,7 +3524,7 @@ controle en het beleid inzake haar beheer van WG/FTP-risico's.
 prerogatieven als bedoeld in artikel 99, kan de FSMA aan de erkende revisoren met een revisoraal mandaat bij
 onderworpen entiteiten die door of krachtens deze wet onder haar toezicht vallen, vragen om haar, op kosten
 van deze entiteiten, bijzondere verslagen te bezorgen over onderwerpen die zij aangeeft.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 95, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3554,7 +3554,7 @@ noch meer mag bedragen dan 50 000 euro, noch in het totaal 2 500 000 euro mag ov
 De dwangsommen die met toepassing van het eerste lid worden opgelegd, worden ingevorderd door de
 administratie van de FOD Financiën belast met de inning en invordering van de niet-fiscale schuldvorderingen,
 overeenkomstig de artikelen 3 en volgende van de domaniale wet van 22 december 1949.
-----------
+
 (1)<W 2020-07-20/12, art. 96, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3578,7 +3578,7 @@ managementfuncties uit te oefenen bij een of meer onderworpen entiteiten;]1
 3° de vergunning herroepen [1 of de inschrijving schrappen]1.
 In spoedeisende gevallen kan de FSMA de in het eerste lid bedoelde maatregelen nemen zonder voorafgaand
 bevel, mits de onderworpen entiteit haar middelen heeft kunnen laten gelden.
-----------
+
 (1)<W 2020-07-20/12, art. 97, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3590,7 +3590,7 @@ gevestigd in een andere vorm dan een bijkantoor, en wanneer de ernst van de feit
 de in artikel 102, eerste lid, 2°, bedoelde maatregelen de bevoegdheid om de onderworpen entiteit te verbieden
 om in België diensten te verstrekken via één of meerdere agenten of distributeurs in België die de FSMA
 aanwijst.]1
-----------
+
 (1)<Ingevoegd bij W 2025-12-11/13, art. 93, 023; Inwerkingtreding : 03-01-2026>
 
 
@@ -3602,7 +3602,7 @@ name rekening met de omstandigheden bedoeld in artikel 96.
 artikel 72, § 3, vierde tot en met zevende lid, van de wet van 2 augustus 2002 betreffende het toezicht op de
 financiële sector en de financiële diensten, behalve wanneer het vijfde lid van dit artikel verwijst naar de stabiliteit
 van het financiële systeem.]1
-----------
+
 (1)<W 2020-07-20/12, art. 98, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3617,7 +3617,7 @@ de financiële diensten van toepassing.
 
 De FSMA informeert de [1 EBA]1 over de maatregelen die ze met toepassing van de artikelen 101 en
 102 neemt, evenals over een eventueel beroep daartegen en over de uitkomst van dit beroep.
-----------
+
 (1)<W 2021-07-11/08, art. 306, 011; Inwerkingtreding : 30-06-2021>
 
 
@@ -3635,7 +3635,7 @@ Middenstand en Energie
 
 **Afdeling 1. - Toezichtsbevoegdheden en -maatregelen betreffende de onderworpen entiteiten bedoeld in artikel**
 5, § 1, 21°, [2 25° /1]2 en 29° tot en [1 met [3 31° /6]3]1
-----------
+
 (1)<W 2020-07-20/12, art. 99, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-06-23/09, art. 7, 015; Inwerkingtreding : 21-07-2022>
 (3)<W 2024-02-09/19, art. 168, 022; Inwerkingtreding : 31-03-2024>
@@ -3672,7 +3672,7 @@ managementfuncties bij onderworpen entiteiten uit te oefenen.
 omstandigheden bedoeld in artikel 96.
 § 3. De Koning stelt de nodige procedureregels vast voor het opleggen van de in paragraaf 1 bedoelde
 maatregelen, alsook de verhaalmiddelen.
-----------
+
 (1)<W 2020-07-20/12, art. 100, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-06-23/09, art. 8, 015; Inwerkingtreding : 21-07-2022>
 (3)<W 2024-02-09/19, art. 169, 022; Inwerkingtreding : 31-03-2024>
@@ -3720,7 +3720,7 @@ ambtenaren van de Administratie van de Thesaurie gemachtigd om van de bestuurder
 van de onderworpen entiteit alle inlichtingen en uitleg te verkrijgen die zij nodig achten voor de uitvoering van hun
 opdrachten en kunnen zij te dien einde gesprekken eisen met leidinggevenden of personeelsleden van de
 onderworpen entiteit die zij aanduiden.
-----------
+
 (1)<W 2018-07-30/10, art. 117, 005; Inwerkingtreding : 20-08-2018>
 
 
@@ -3749,7 +3749,7 @@ onderworpen entiteit uit te oefenen.
 omstandigheden bedoeld in artikel 96.
 § 3. De maatregelen bedoeld in paragraaf 1 worden door [1 ...]1de minister bevoegd voor bpost opgelegd na de
 onderworpen entiteit te hebben gehoord of minstens behoorlijk te hebben opgeroepen.
-----------
+
 (1)<W 2018-07-30/10, art. 118, 005; Inwerkingtreding : 20-08-2018>
 
 
@@ -3802,7 +3802,7 @@ Middenstand en Energie zo spoedig mogelijk op de hoogte daarvan.
 
 HOOFDSTUK 6/1. [1 - Toezichtsbevoegdheden en -maatregelen van het College van Toezicht op de
 Bedrijfsrevisoren]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 101, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3821,7 +3821,7 @@ haar uitvoeringsbesluiten en -reglementen, de uitvoeringsmaatregelen van richtli
 waakzaamheidsplichten bedoeld in de bindende bepalingen betreffende financiële embargo's worden nageleefd.
 § 2. Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot de bevoegdheid van het
 College van Toezicht op de Bedrijfsrevisoren, tenzij het toezicht op die onderworpen entiteit dit vergt.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 102, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3875,7 +3875,7 @@ met de omstandigheden als bedoeld in artikel 96.
 zijn vastgesteld, kan het College, wanneer de feiten die de onderworpen entiteit worden verweten, hoewel zij
 vaststaan, de oplegging van een in paragraaf 1, eerste lid, bedoelde termijn niet verantwoorden, de onderworpen
 entiteit terechtwijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 103, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3885,7 +3885,7 @@ entiteit terechtwijzen.]1
 met name van zijn inspecties bedoeld in artikel 116/1, een inbreuk vaststelt op de bepalingen van artikel 66, § 2,
 eerste lid, of van artikel 67, brengt het de Federale Overheidsdienst Economie, KMO, Middenstand en Energie
 daar zo spoedig mogelijk van op de hoogte.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 104, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3902,7 +3902,7 @@ verzekeren van de bepalingen van boek II en van artikel 66, § 2, tweede en derd
 besluiten en reglementen genomen ter uitvoering ervan, alsook de uitvoeringsmaatregelen van richtlijn 2015/849.
 Indien de toezichtautoriteiten bedoeld in het eerste lid nalaten de in hetzelfde lid bedoelde mechanismen op te
 stellen of in de toekomst te wijzigen, kan de Koning deze mechanismen Zelf aannemen of wijzigen.]1
-----------
+
 (1)<W 2020-07-20/12, art. 105, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3928,7 +3928,7 @@ omstandigheden bedoeld in artikel 96.
 § 3. [1 De toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 11° en 14°]1, elk voor hun
 bevoegdheden, stellen de nodige procedureregels vast voor het opleggen van de in paragraaf 1 bedoelde
 maatregelen, alsook de verhaalmiddelen.
-----------
+
 (1)<W 2020-07-20/12, art. 106, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3945,7 +3945,7 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
 toezichtsopdracht, een inbreuk vaststelt op de bepalingen van artikel 66, § 2, eerste lid, of van artikel 67,
 brengen zij de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig mogelijk op de
 hoogte daarvan.
-----------
+
 (1)<W 2020-07-20/12, art. 107, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -3963,18 +3963,18 @@ artikel 47 [2 en 52]2;
 andere wettelijke en reglementaire bepalingen om de naleving te verzekeren, door de onderworpen entiteiten
 bedoeld in artikel 5, § 1, 24° tot en met 28°, van de bepalingen van boek II van deze wet en de besluiten en
 reglementen genomen ter uitvoering ervan, alsook de uitvoeringsmaatregelen van richtlijn 2015/849.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 108, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-02-01/01, art. 4, 012; Inwerkingtreding : 21-02-2022>
 
 
 #### TITEL 5. [1 - Beroepsgeheim en samenwerking]1
-----------
+
 (1)<W 2020-07-20/12, art. 109, 008; Inwerkingtreding : 15-08-2020>
 
 
 ##### HOOFDSTUK 1. [1 - Gemeenschappelijke bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 110, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4010,7 +4010,7 @@ het prudentieel toezicht op kredietinstellingen;
 land en die taken van dezelfde aard uitvoeren als de toezichthouders;
 11° "autoriteit belast met het toezicht op de financiële markten van een lidstaat" : de autoriteiten die
 ressorteren onder het recht van een lidstaat en die toezichtsopdrachten op de financiële markten uitvoeren.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 111, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2025-12-11/13, art. 94, 023; Inwerkingtreding : 03-01-2026>
 
@@ -4021,18 +4021,18 @@ ressorteren onder het recht van een lidstaat en die toezichtsopdrachten op de fi
 de uitoefening van hun opdrachten in die hoedanigheid, uitsluitend gebruiken bij het vervullen van hun
 toezichtsopdrachten in het kader van deze wet, of van andere opdrachten die zij als toezichthouders uitoefenen,
 bij een administratief beroep tegen één van hun beslissingen of in het kader van een rechtsvordering.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 112, 008; Inwerkingtreding : 15-08-2020>
 
 
 ##### HOOFDSTUK 2. [1 - Nationale samenwerking]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 113, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 1. [1 - Nationale samenwerking tussen de toezichtautoriteiten en tussen de toezichtautoriteiten en de**
 CFI]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 114, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4047,12 +4047,12 @@ bijkantoren die onder de bevoegdheid vallen van verschillende toezichtautoriteit
 uitoefening van hun bevoegdheden]1 bepaald bij of krachtens deze wet.
 § 3. [1 Het feit dat de betrokken autoriteiten en de CFI onderworpen zijn aan een beroepsgeheim vormt geen
 belemmering voor de naleving van de in dit artikel bedoelde verplichting tot samenwerking.]1
-----------
+
 (1)<W 2020-07-20/12, art. 115, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 2. [1 - Nationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1**
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 116, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4062,13 +4062,13 @@ belemmering voor de naleving van de in dit artikel bedoelde verplichting tot sam
 verband wisselen zij alle informatie uit die nuttig is voor de uitvoering van hun respectieve taken.
 § 2. Het feit dat de betrokken autoriteiten onderworpen zijn aan een beroepsgeheim vormt geen belemmering
 voor de naleving van de in dit artikel bedoelde verplichting tot samenwerking.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 117, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 3. [1 - Nationale samenwerking tussen de toezichtautoriteiten en de autoriteit die belast is met het**
 toezicht op de financiële markten]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 118, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4080,18 +4080,18 @@ financiële markten, werken samen. In het kader daarvan wisselen zij alle nuttig
 de uitoefening van hun respectieve toezichtsopdrachten.
 § 2. Het feit dat de betrokken autoriteiten onderworpen zijn aan een beroepsgeheim vormt geen belemmering
 voor de naleving van de in dit artikel bedoelde verplichting tot samenwerking.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 119, 008; Inwerkingtreding : 15-08-2020>
 
 
 ##### HOOFDSTUK 3. [1 - Internationale samenwerking]1
-----------
+
 (1)<W 2020-07-20/12, art. 120, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 1. [1 - Samenwerking van de Cel voor Financiële Informatieverwerking met andere financiële**
 inlichtingeneenheden]1
-----------
+
 (1)<W 2020-07-20/12, art. 121, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4102,7 +4102,7 @@ dit ongeacht hun organisatorische status, onder de voorwaarden vermeld in deze A
 in artikelen 66 tot 70 van de Wet van 30 juli 2018]1.
 [1 De overeenkomstig deze Afdeling ontvangen informatie en documenten worden gebruikt voor het vervullen
 van de taken van de CFI als bepaald in deze wet.]1
-----------
+
 (1)<W 2020-07-20/12, art. 122, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4128,7 +4128,7 @@ waarover ze beschikt en waarvan ze normaliter gebruik maakt krachtens deze wet v
 analyseren van meldingen van vermoedens.
 [1 § 4. De CFI wijst ten minste één contactpersoon of -punt aan verantwoordelijk voor de ontvangst van
 verzoeken om informatie uitgaande van de andere FIE's.]1
-----------
+
 (1)<W 2020-07-20/12, art. 123, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-05-15/03, art. 10, 014; Inwerkingtreding : 04-06-2022>
 
@@ -4144,7 +4144,7 @@ betrokken lidstaat.
 Wanneer de CFI wordt gevat door een dergelijk verzoek dat uitgaat van een andere FIE, [1 maakt ze gebruik
 van alle bevoegdheden waarover ze beschikt krachtens deze wet voor het ontvangen en analyseren van
 meldingen van vermoedens, en]1 verzendt ze onverwijld de gevraagde informatie.
-----------
+
 (1)<W 2020-07-20/12, art. 124, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4163,7 +4163,7 @@ fundamentele beginselen van het Belgisch recht.
 Iedere weigering om toestemming te verlenen overeenkomstig het tweede lid, wordt gemotiveerd. [1 Die
 uitzonderingen worden op zodanige wijze gespecificeerd dat misbruik van en onredelijke beperkingen op de
 verstrekking van informatie worden voorkomen.]1
-----------
+
 (1)<W 2020-07-20/12, art. 125, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4194,12 +4194,12 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
 verband houdende onderliggende criminele activiteiten, zoals beoogd in artikel 4, 23°, van deze wet, vormen
 geen beletsel voor de CFI om informatie te gebruiken, uit te wisselen of bijstand te verlenen aan een andere FIE,
 overeenkomstig de bepalingen van dit Hoofdstuk.]1
-----------
+
 (1)<W 2020-07-20/12, art. 126, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 2. [1 - Samenwerking tussen de toezichtautoriteiten en de buitenlandse toezichtautoriteiten]1**
-----------
+
 (1)<W 2020-07-20/12, art. 127, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4246,7 +4246,7 @@ onderzoek of de procedure belaste autoriteiten en vraagt zij van tevoren toestem
 de betrokken informatie bekend te maken;
 4° de juridische status van de buitenlandse toezichtautoriteit verschilt van die van de aangezochte
 toezichtautoriteit.]1
-----------
+
 (1)<W 2020-07-20/12, art. 129, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4274,12 +4274,12 @@ tegenhangers van een lidstaat is deze voorwaarde niet van toepassing.
 wordt deze alleen bekendgemaakt aan de toezichtautoriteiten van een derde land mits de autoriteit van die
 lidstaat uitdrukkelijk akkoord gaat met deze bekendmaking, en, in voorkomend geval, mits de informatie alleen
 voor de door deze autoriteit toegestane doeleinden bekendgemaakt wordt.]1
-----------
+
 (1)<W 2020-07-20/12, art. 130, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 3. [1 - Internationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1**
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 131, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4296,7 +4296,7 @@ van het opleggen van sancties, alsook in het kader van een beroepsprocedure of r
 ingesteld tegen een beslissing.
 § 3. Het beroepsgeheim waaraan de financiële toezichtautoriteiten of de toezichthouders gebonden zijn, vormt
 geen belemmering voor de naleving van de in dit artikel bedoelde verplichting tot samenwerking.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 132, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4326,13 +4326,13 @@ tot en met 4° bedoelde voorwaarden.
 toezichthouder van een lidstaat, wordt deze alleen bekendgemaakt aan de autoriteiten van een derde land mits
 deze autoriteit van de lidstaat uitdrukkelijk akkoord gaat met deze bekendmaking, en, in voorkomend geval, mits
 de informatie alleen voor de door deze autoriteit toegestane doeleinden bekendgemaakt wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 133, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 4. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de autoriteiten die belast zijn met**
 het toezicht op de financiële markten]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 134, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4346,7 +4346,7 @@ toezichtautoriteiten van een lidstaat en wisselt zij alle nuttige informatie met
 de uitoefening van hun respectieve toezichtsopdrachten.
 § 3. De onderwerping van de in dit artikel bedoelde autoriteiten aan een beroepsgeheim vormt geen
 belemmering voor de naleving van de in dit artikel bedoelde verplichting tot samenwerking.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 135, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -4379,12 +4379,12 @@ van de autoriteit van die lidstaat die belast is met het toezicht op de financi�
 bekendgemaakt aan de autoriteiten van een derde land mits de autoriteit van die lidstaat uitdrukkelijk akkoord
 gaat met deze bekendmaking, en, in voorkomend geval, mits de informatie alleen voor de door deze autoriteit
 toegestane doeleinden wordt doorgegeven.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 136, 008; Inwerkingtreding : 15-08-2020>
 
 
 **Afdeling 5. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de EBA]1**
-----------
+
 (1)<W 2021-07-11/08, art. 307, 011; Inwerkingtreding : 30-06-2021>
 
 
@@ -4399,7 +4399,7 @@ beperkingen, met name op het gebied van geheimhouding, gegevensbescherming en an
 uitwisseling van informatie beperken.
 Deze autoriteiten verstrekken de EBA alle informatie die zij nodig heeft om haar taken krachtens Richtlijn
 2015/849/EG te kunnen verrichten.]1
-----------
+
 (1)<W 2021-07-11/08, art. 308, 011; Inwerkingtreding : 30-06-2021>
 
 
@@ -4491,7 +4491,7 @@ bestuursorgaan van de uiteindelijke moederonderneming opgestelde geconsolideerde
 § 8. Rechtspersonen, zelfs indien zij niet zijn onderworpen, zijn burgerrechtelijk aansprakelijk voor de
 administratieve geldboetes die worden opgelegd aan de onderworpen natuurlijke personen die er hun activiteit
 uitoefenen als bestuurder of actieve vennoot of op grond van een ondernemingsovereenkomst of mandaat.]2
-----------
+
 (1)<W 2018-07-30/10, art. 119, 005; Inwerkingtreding : 20-08-2018>
 (2)<W 2020-07-20/12, art. 139, 008; Inwerkingtreding : 15-08-2020>
 (3)<W 2021-06-02/03, art. 50, 009; Inwerkingtreding : 28-06-2021>
@@ -4525,7 +4525,7 @@ in artikel 5, § 1, 21°, 24° tot en met 32°]1, en de verhaalmiddelen tegen ee
 De in het eerste lid bedoelde procedureregels en verhaalmiddelen hebben slechts uitwerking na goedkeuring
 ervan door de Koning. Indien de betrokken toezichtautoriteiten nalaten deze procedureregels en verhaalmiddelen
 vast te stellen of in de toekomst te wijzigen, kan de Koning deze Zelf vaststellen of wijzigen.
-----------
+
 (1)<W 2020-07-20/12, art. 140, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2022-07-05/03, art. 72, 016; Inwerkingtreding : 25-07-2022>
 
@@ -4579,7 +4579,7 @@ jaar na de bekendmaking op de officiële website, bedoeld in het eerste lid, sta
 In de bekendmaking opgenomen persoonsgegevens worden op de officiële website, bedoeld in het eerste lid,
 echter niet langer bewaard dan noodzakelijk is overeenkomstig de toepasselijke regelgeving betreffende de
 bescherming van persoonsgegevens.
-----------
+
 (1)<W 2020-07-20/12, art. 141, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-07-11/08, art. 309, 011; Inwerkingtreding : 30-06-2021>
 
@@ -4602,7 +4602,7 @@ sector en de financiële diensten;
 3° voor de in artikel 5, § 1, [1 1° tot en met 3°, en 21° tot en met 33°]1, bedoelde onderworpen entiteiten, met
 een geldboete van 150 euro tot 5 000 euro.
 [2 ...]2
-----------
+
 (1)<W 2022-02-01/01, art. 5, 012; Inwerkingtreding : 21-02-2022>
 (2)<W 2025-12-11/13, art. 95, 023; Inwerkingtreding : 03-01-2026>
 
@@ -4622,7 +4622,7 @@ De ambtenaren aangesteld door de minister van Economie krachtens artikel XV.2 va
 economisch recht kunnen een waarschuwing richten aan de overtreder, overeenkomstig artikel XV.31 van
 hetzelfde wetboek of hem de betaling van een som voorstellen die de strafvordering doet vervallen,
 overeenkomstig artikel XV.61 van voornoemd wetboek.
-----------
+
 (1)<W 2021-06-02/03, art. 51, 009; Inwerkingtreding : 28-06-2021>
 (2)<W 2022-02-01/01, art. 6, 012; Inwerkingtreding : 21-02-2022>
 
@@ -5335,7 +5335,7 @@ hebben;
 d) derde landen die volgens geloofwaardige bronnen zoals wederzijdse beoordelingen, gedetailleerde
 evaluatierapporten, of gepubliceerde follow-uprapporten, voorschriften inzake de bestrijding van WG/FT hebben
 die beantwoorden aan de herziene FAG-aanbevelingen en die voorschriften effectief ten uitvoer leggen.
-----------
+
 (1)<W 2020-07-20/12, art. 143, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -5382,7 +5382,7 @@ c) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die bi
 Unie of de Verenigde Naties zijn uitgevaardigd;
 d) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of op het grondgebied
 waarvan als terroristisch aangemerkte organisaties actief zijn.
-----------
+
 (1)<W 2020-07-20/12, art. 144, 008; Inwerkingtreding : 15-08-2020>
 
 
@@ -5436,6 +5436,6 @@ van de raad van bestuur, de voorzitter en de leden van het directiecomité en he
 regeringscommissarissen;
 b) bestuurders, plaatsvervangend bestuurders en leden van de raad van bestuur of bekleders van een
 gelijkwaardige functie bij een internationale organisatie gevestigd op het Belgisch grondgebied.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-20/12, art. 145, 008; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-06-27/02, art. 114, 010; Inwerkingtreding : 10-07-2021>

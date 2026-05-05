@@ -46,7 +46,7 @@ openbare orde en de goede zeden betreffen en van de bepalingen van dwingend rech
 
 
 #### Titel 4. [1 Raadplegingen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-04-18/03, art. 2, 046; Inwerkingtreding : 04-05-2017>
 
 
@@ -58,6 +58,6 @@ besluiten ter kennis worden gebracht van deze adviesorganen]2.
 Ontwerpen van besluiten die invulling geven aan een door de maatregel voorziene beleidsmarge of die andere
 elementen bevatten die de omzetting van de maatregel als zodanig te buiten gaan, dienen echter wel ter advies
 te worden voorgelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-04-18/03, art. 3, 046; Inwerkingtreding : 04-05-2017>
 (2)<W 2019-05-02/28, art. 3, 077; Inwerkingtreding : 01-06-2019>

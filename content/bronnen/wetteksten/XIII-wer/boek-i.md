@@ -11,7 +11,7 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 
 
 #### Titel 1. [1 Algemene definities]1
-----------
+
 (1)<Ingevoegd bij W 2013-11-07/33, art. 2, 006; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 5)>
 
@@ -80,7 +80,7 @@ personen in verband met de verwerking van persoonsgegevens en betreffende het vr
 gegevens en tot intrekking van richtlijn 95/46/EG.]7
 [6 Het eerste lid, 1°, 4°, en 5°, is niet van toepassing op boek XI. Het eerste lid, 8°, is niet van toepassing op
 boek XI, titels 3 tot en met 8.]6]1
-----------
+
 (1)<Ingevoegd bij W 2013-11-07/33, art. 2, 006; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 5)>
 (2)<W 2017-08-11/14, art. 65, 058; Inwerkingtreding : 01-05-2018>
@@ -95,7 +95,7 @@ boek XI, titels 3 tot en met 8.]6]1
 
 
 ##### HOOFDSTUK 1. [1 Definities eigen aan boek III.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -142,7 +142,7 @@ gegevens van de in de Kruispuntbank van Ondernemingen geregistreerde rechtsperso
 16° vestigingseenheid : een plaats die men geografisch gezien kan identificeren door een adres [4 in België]4,
 waar ten minste een activiteit van de [3 geregistreerde entiteit]3 wordt uitgeoefend of van waaruit de activiteit
 wordt uitgeoefend;]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2016-05-04/13, art. 12, 034; Inwerkingtreding : 01-06-2016>
 (3)<W 2018-04-15/14, art. 36, 059; Inwerkingtreding : 01-11-2018>
@@ -177,7 +177,7 @@ tegemoetkomingen voor personen met een handicap;
 6° federale coördinator : de natuurlijke persoon benoemd binnen de FOD Economie, om in het kader van de
 administratieve samenwerking, bepaald in de artikelen XV.35 tot XV.48, het aanspreekpunt te zijn tussen de
 Europese Commissie en de bevoegde autoriteiten bedoeld in artikel I.2, 2°.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -197,7 +197,7 @@ juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen";
 "7° helper: de persoon zoals gedefinieerd in artikel 6 van het koninklijk besluit nr. 38 van 27 juli 1967 houdende
 inrichting van het sociaal statuut der zelfstandigen, met uitzondering van de personen bedoeld in de artikelen 7
 en 7bis van voornoemd besluit.]3
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 37, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-12-22/06, art. 72, 126; Inwerkingtreding : 01-07-2024>
@@ -208,7 +208,7 @@ en 7bis van voornoemd besluit.]3
 [1 Voor de toepassing van boek III, titel 3, hoofdstuk 1, geldt de volgende definitie :
 1° onderneming: iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
 nastreeft, alsmede zijn verenigingen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 38, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -216,12 +216,12 @@ nastreeft, alsmede zijn verenigingen.]1
 
 [1 Voor de toepassing van boek III, titel 3, hoofdstuk 2, geldt de volgende definitie :
 1° boekhoudplichtige onderneming : een onderneming in de zin van artikel III.82;]1
-----------
+
 (1)<W 2018-04-15/14, art. 39, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 2. - [1 Definities eigen aan Boek IV.]1
-----------
+
 (1)<W 2016-06-29/01, art. 2, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -339,13 +339,13 @@ handhaving en ter waarborging van de goede werking van de interne markt;]1
 [2 40° Verordening (EU) 2022/1925: Verordening (EU) 2022/1925 van het Europees Parlement en de Raad van
 14 september 2022 over betwistbare en eerlijke markten in de digitale sector, en tot wijziging van Richtlijnen (EU)
 2019/1937 en (EU) 2020/1828.]2
-----------
+
 (1)<W 2022-02-28/02, art. 3, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2024-03-29/39, art. 3, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 3. - [1 Definities eigen aan boek V.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-03/18, art. 3,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
 
@@ -356,12 +356,12 @@ handhaving en ter waarborging van de goede werking van de interne markt;]1
 wet van 21 december 1994 houdende sociale en diverse bepalingen.
 2° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
 nastreeft, alsmede zijn verenigingen.]1
-----------
+
 (1)<W 2018-04-15/14, art. 41, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK 4. [1 Definities eigen aan boek VI]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>
 
 
@@ -529,7 +529,7 @@ technologische middelen;
 verplichtingen;]6
 [7 48° "Bel me niet meer!"-lijst: de lijst waarin de nummers zijn opgenomen waarvoor de abonnees en de
 gebruikers hun recht op verzet, overeenkomstig VI.110, § 2, hebben uitgeoefend.]7
-----------
+
 (1)<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>
 (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 (3)<W 2017-08-11/14, art. 66, 058; Inwerkingtreding : 01-05-2018>
@@ -556,7 +556,7 @@ dergelijke publiekrechtelijke instellingen;
 vestiging, die landbouw- en voedingsproducten verkoopt; de term "leverancier" kan een groepering van dergelijke
 landbouwproducenten of een groepering van dergelijke natuurlijke personen en rechtspersonen omvatten, zoals
 producentenorganisaties, leveranciersorganisaties en verenigingen van dergelijke organisaties.]1
-----------
+
 (1)<Ingevoegd bij W 2021-11-28/08, art. 2, 102; Inwerkingtreding : 25-12-2021>
 
 
@@ -571,7 +571,7 @@ producentenorganisaties, leveranciersorganisaties en verenigingen van dergelijke
 
 
 ##### HOOFDSTUK 5. [1 - Definities eigen aan boek VII.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 2, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 
@@ -1041,7 +1041,7 @@ bereiden; of
 c) kredietovereenkomsten afsluiten met consumenten, hetzij voor rekening van een kredietgever, hetzij voor
 eigen rekening als deze activiteit wordt uitgeoefend door een kredietgever die geen beroep doet op een
 kredietbemiddelaar.]11
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 2, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
 1)>
 (2)<W 2015-10-26/06, art. 2, 028; Inwerkingtreding : 09-11-2015>
@@ -1119,7 +1119,7 @@ de bepalingen van artikel VIII.48, drager is van het goedkeuringsmerk voorzien i
 16° " Metingen in het economisch verkeer " : metingen uitgevoerd in de uitoefening van een beroep, een bedrijf
 of een handel, met het oog op de naleving van uit een rechtsverhouding voortvloeiende rechten en
 verplichtingen.
-----------
+
 (1)<W 2015-10-26/06, art. 3, 028; Inwerkingtreding : 09-11-2015>
 (2)<W 2019-05-02/28, art. 2,b-2,c, 077; Inwerkingtreding : 01-06-2019>
 (3)<W 2019-05-02/28, art. 2,a, 077; Inwerkingtreding : 10-11-2023>
@@ -1156,12 +1156,12 @@ de functionele mogelijkheden van personen met een handicap of andere beperkingen
 gehouden, vervangen of verbeterd, of waarmee stoornissen, beperkingen of participatiebeperkingen worden
 verlicht of gecompenseerd;
 9° marktdeelnemer: fabrikant, gemachtigde, importeur, distributeur of dienstverlener.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 3, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 7. [1 Definities eigen aan boek IX]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 2, 004; Inwerkingtreding : 12-12-2013 par KB 2013-12-08/01, art. 2>
 
 
@@ -1252,13 +1252,13 @@ gepubliceerd. De referenties van de Belgische normen die voldoen aan deze bepali
 het Belgisch Staatsblad;
 20° " lidstaat " : lidstaat van de Europese Unie, Turkije of een lidstaat van de Europese Vrijhandelsassociatie die
 partij is bij de overeenkomst betreffende de Europese Economische Ruimte.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 2, 004; Inwerkingtreding : 12-12-2013 par KB 2013-12-08/01, art. 2>
 (2)<W 2016-06-29/01, art. 5, 036; Inwerkingtreding : 16-07-2016>
 
 
 ##### HOOFDSTUK 8. [1 - Definities eigen aan boek X.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 2, 014; Inwerkingtreding : 31-05-2014>
 
 
@@ -1279,12 +1279,12 @@ diensten een commerciële formule te gebruiken onder één of meerdere van de vo
 3° "verkoopconcessie" : iedere overeenkomst krachtens welke een concessiegever aan een of meer
 concessiehouders het recht voorbehoudt in eigen naam en voor eigen rekening producten te verkopen, die
 hijzelf vervaardigt of verdeelt.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-02/21, art. 2, 014; Inwerkingtreding : 31-05-2014>
 
 
 ##### HOOFDSTUK 9. - [1 Definities eigen aan boek XI]1
-----------
+
 (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -1334,7 +1334,7 @@ museum of van het desbetreffend archief of instelling voor cinematografisch of a
 trouw kan worden aangenomen dat het hele werk of de hele prestatie niet beschikbaar is voor het publiek via de
 gebruikelijke handelskanalen, nadat een redelijke inspanning is geleverd om te controleren of het beschikbaar is
 voor het publiek.]4
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 22-09-2014>
 (2)<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 (3)<W 2015-07-20/15, art. 3, 027; Inwerkingtreding : 03-09-2015>
@@ -1382,7 +1382,7 @@ ondertekend op 19 februari 2013;]1
 [2 17° octrooigemachtigde: de natuurlijke persoon die beroepshalve adviestaken inzake uitvindingsoctrooien
 uitoefent en derden vertegenwoordigt voor de Dienst, met uitzondering van de werknemers bedoeld in artikel
 XI.62, § 6, en de advocaten bedoeld in artikel XI.64/2.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 22-09-2014>
 (2)<W 2018-07-08/06, art. 4, 061; Inwerkingtreding : 01-04-2024>
 
@@ -1401,7 +1401,7 @@ eigenschappen, en
 voortbrengen;
 3° geschrift : een opeenvolging van duidelijke, gehandtekende en toegankelijke tekens die nadien geraadpleegd
 kunnen worden ongeacht hun drager en hun wijze van overdracht.]1
-----------
+
 (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -1511,7 +1511,7 @@ artikel XI.165 voorziet en die zijn voorgeschreven voor de verstrekking van een 
 rechthebbende het beheer van zijn rechten toevertrouwt aan de beheersvennootschap of de collectieve
 beheerorganisatie alsook de handeling waarbij de rechthebbende vennoot van de beheersvennootschap of lid
 van de collectieve beheerorganisatie kan worden.]1
-----------
+
 (1)<W 2017-06-08/13, art. 2, 049; Inwerkingtreding : 01-01-2018>
 (2)<W 2018-11-25/04, art. 2, 068; Inwerkingtreding : 22-12-2018>
 (3)<W 2018-11-25/03, art. 2, 076; Inwerkingtreding : 01-07-2019>
@@ -1531,7 +1531,7 @@ opvraging beschouwd;
 4° hergebruik : elke vorm van het aan het publiek ter beschikking stellen van de inhoud van een databank of
 van een substantieel deel ervan, door verspreiding van kopieën, verhuur, on line transmissie of in een andere
 vorm. Openbare uitlening wordt niet als hergebruik beschouwd. ]1
-----------
+
 (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
 
@@ -1553,12 +1553,12 @@ gebruikt of openbaar gemaakt;
 4° inbreukmakende goederen: goederen waarvan het ontwerp, de kenmerken, de werking, het
 productieproces of het in de handel brengen aanzienlijk baat hebben bij bedrijfsgeheimen die onrechtmatig zijn
 verkregen, gebruikt of openbaar gemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/18, art. 2, 064; Inwerkingtreding : 24-08-2018>
 
 
 ##### HOOFDSTUK 10. [1 Definities eigen aan Boek XII]1
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>
 
 
@@ -1641,14 +1641,14 @@ bedoeld in de artikelen 13 en 23 van Verordening 2022/868, opgericht binnen de F
 Economie, K.M.O., Middenstand en Energie dat is samengesteld uit de in artikel XV.2 bedoelde ambtenaren en
 belast met de controle van de activiteiten van de aanbieders van databemiddelingsdiensten en van organisaties
 voor data-altruïsme die gevestigd zijn in België of een wettelijke vertegenwoordiger in België hebben.]3
-----------
+
 (1)<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>
 (2)<W 2016-07-21/40, art. 2, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 (3)<W 2024-05-15/13, art. 8, 137; Inwerkingtreding : 01-10-2024>
 
 
 ##### HOOFDSTUK 11. [1 - Definities eigen aan boek XVI.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014>
 
 
@@ -1672,7 +1672,7 @@ Richtlijn 2009/22/EG.]1
 5° [3 ...]3
 [4 6° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
 nastreeft, alsmede zijn verenigingen.]4
-----------
+
 (1)<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014>
 (2)<W 2015-10-26/06, art. 4, 028; Inwerkingtreding : 09-11-2015>
 (3)<W 2018-09-20/14, art. 4, 067; Inwerkingtreding : 20-10-2018>
@@ -1680,7 +1680,7 @@ nastreeft, alsmede zijn verenigingen.]4
 
 
 ##### HOOFDSTUK 12. [1 - Definities eigen aan boek XV]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 3, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1748,7 +1748,7 @@ bedoeld in de artikelen 13 en 23 van Verordening 2022/868, opgericht binnen de F
 Economie, K.M.O., Middenstand en Energie dat is samengesteld uit de in artikel XV.2 bedoelde ambtenaren en
 belast met de controle van de activiteiten van de aanbieders van databemiddelingsdiensten en van organisaties
 voor data-altruïsme die gevestigd zijn in België of een wettelijke vertegenwoordiger in België hebben.]9
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 3, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2016-12-01/12, art. 2, 040; Inwerkingtreding : 25-12-2016>
 (3)<W 2018-04-15/14, art. 46, 059; Inwerkingtreding : 01-11-2018>
@@ -1772,7 +1772,7 @@ voor data-altruïsme die gevestigd zijn in België of een wettelijke vertegenwoo
 
 
 ##### HOOFDSTUK 13. [1 - Definities eigen aan boek XVII]1
-----------
+
 (1)<Ingevoegd bij W 2014-03-28/25, art. 2, 016; Inwerkingtreding : 01-09-2014>
 
 
@@ -1804,7 +1804,7 @@ herstel van een collectieve schade regelt;]1
 nastreeft, alsmede zijn verenigingen;]3
 [4 9° kmo: de kmo's in de zin van de aanbeveling 2003/361/EG van de Commissie van 6 mei 2003 betreffende
 de definitie van kleine, middelgrote en micro-ondernemingen.]4
-----------
+
 (1)<Ingevoegd bij W 2014-03-28/25, art. 2, 016; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-03-30/35, art. 2, 060; Inwerkingtreding : 01-06-2018>
 (3)<W 2018-04-15/14, art. 47, 059; Inwerkingtreding : 01-11-2018>
@@ -1819,7 +1819,7 @@ de definitie van kleine, middelgrote en micro-ondernemingen.]4
 een kansspel zoals bedoeld in artikel 2, 1°, van dezelfde wet, of van weddenschap zoals bedoeld in artikel 2, 5°,
 van dezelfde wet door middel van informatiemaatschappij-instrumenten zoals bedoeld in artikel 2, 10°, van
 dezelfde wet, zonder te beschikken over een aanvullende vergunning bedoeld in artikel 25 van dezelfde wet.]1
-----------
+
 (1)<Ingevoegd bij W 2023-12-22/06, art. 82, 126; Inwerkingtreding : 08-01-2024>
 
 
@@ -1903,14 +1903,14 @@ producten heeft verworven die het voorwerp waren van een inbreuk op het mededing
 21° "indirecte afnemer": een natuurlijk persoon of een rechtspersoon die niet van de inbreukpleger maar van
 een directe afnemer of van een volgende afnemer producten heeft verworven die het voorwerp waren van een
 inbreuk op het mededingingsrecht, of producten waarin deze zijn verwerkt of die daarvan zijn afgeleid.]1
-----------
+
 (1)<Ingevoegd bij W 2017-06-06/02, art. 3, 047; Inwerkingtreding : 22-06-2017>
 (2)<W 2018-07-30/47, art. 3, 065; Inwerkingtreding : 15-09-2018>
 (3)<W 2019-04-04/53, art. 3, 080; Inwerkingtreding : 01-06-2020>
 (4)<W 2022-02-28/02, art. 4, 104; Inwerkingtreding : 17-03-2022>
 
 HOOFDSTUK 13/1. [1 - Definities eigen aan boek XIX.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 2, 121; Inwerkingtreding : 01-09-2023>
 
 
@@ -1926,12 +1926,12 @@ invorderen van tegen betaling overgenomen schuldvorderingen;
 3° schuldinvorderaar: elke onderneming die een activiteit van minnelijke invordering van schulden uitoefent;
 4° onderneming: iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
 nastreeft, alsmede zijn verenigingen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-05-04/02, art. 3, 121; Inwerkingtreding : 01-09-2023>
 
 
 ##### HOOFDSTUK 14. [1 - Definities eigen aan boek XX.]1
-----------
+
 (1)<Ingevoegd bij W 2017-08-11/14, art. 2, 058; Inwerkingtreding : 01-05-2018>
 
 
@@ -2034,5 +2034,5 @@ op termijn bedreigd is;
 2019 betreffende preventieve herstructureringsstelsels, betreffende kwijtschelding van schuld en
 beroepsverboden, en betreffende maatregelen ter verhoging van de efficiëntie van procedures inzake
 herstructurering, insolventie en kwijtschelding van schuld, en tot wijziging van Richtlijn (EU) 2017/1132.]1
-----------
+
 (1)<W 2023-06-07/07, art. 3, 122; Inwerkingtreding : 01-09-2023>

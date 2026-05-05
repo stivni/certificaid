@@ -8,17 +8,17 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 ---
 
 ### BOEK III. [1 Vrijheid van vestiging, dienstverlening en algemene verplichtingen van de ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 #### Titel 1. [1 Vrijheid van vestiging en van dienstverlening.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 ##### Hoofdstuk 1. [1 Toepassingsgebied.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -79,18 +79,18 @@ persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, en
 regels inzake bescherming van persoonsgegevens, in de wet van 13 juni 2005 betreffende de elektronische
 communicatie en in de wet van 24 augustus 2005 tot omzetting van verschillende bepalingen van de Richtlijn
 financiële diensten op afstand en van de Richtlijn privacy en elektronische communicatie.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<KB 2017-12-05/05, art. 2, 053; Inwerkingtreding : 01-02-2018>
 
 
 ##### Hoofdstuk 2. [1 Vrijheid van vestiging.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 1. [1 Vergunningsstelsels.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -106,7 +106,7 @@ Het eerste lid is niet van toepassing op vergunningstelsels die rechtstreeks of 
 gemeenschapsrecht zijn geregeld, onder anderen, de vergunningstelsels die de toegang tot of de uitoefening
 van een gereglementeerd beroep afhankelijk stellen van het bezit van bepaalde professionele kwalificaties en
 specifieke bepalingen die vereisen dat een bepaalde activiteit wordt voorbehouden aan een bepaald beroep.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -123,7 +123,7 @@ Deze criteria zijn :
 5° objectief;
 6° vooraf openbaar bekendgemaakt;
 7° transparant en toegankelijk.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -132,7 +132,7 @@ Deze criteria zijn :
 [1 De vergunningsprocedures en formaliteiten moeten gemakkelijk toegankelijk zijn en de lasten die zij
 voor de aanvragers kunnen voortbrengen moeten redelijk zijn en evenredig met de kosten van de
 vergunningsprocedures.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -142,7 +142,7 @@ vergunningsprocedures.]1
 wezen vergelijkbare, eisen en controles waaraan de dienstverrichter al in België of een andere lidstaat
 onderworpen is, niet overlappen. De federale coördinator en de dienstverrichter staan de bevoegde autoriteit bij
 door over deze eisen de nodige informatie te verstrekken.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -159,7 +159,7 @@ waarborg geëist worden.
 Wanneer een beroepsaansprakelijkheids-verzekering of een andere vorm van waarborg opgelegd wordt aan
 een dienstverrichter gevestigd in België, worden attesten betreffende de dekking, afgegeven door een in een
 andere lidstaat gevestigde kredietinstelling of verzekeraar, als bewijsmiddel toegelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -173,7 +173,7 @@ Het eerste lid is niet van toepassing :
 van het nationale grondgebied is gerechtvaardigd door dwingende redenen van algemeen belang;
 2° op vergunningen die zijn afgeleverd door de overheden van de gewesten, de gemeenschappen, de
 provincies en de gemeenten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -192,7 +192,7 @@ over de noodzaak tot het verstrekken van aanvullende stukken, de termijn waarove
 alsook de gevolgen hiervan voor de in het tweede lid bedoelde termijn.
 Wanneer een aanvraag wordt geweigerd omdat deze niet aan de vereiste procedures of formaliteiten voldoet,
 wordt de betrokkene hiervan zo snel mogelijk in kennis gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -210,7 +210,7 @@ kennis van de aanvrager gebracht.
 Onverminderd de bijzondere wettelijke of reglementaire regimes gerechtvaardigd door een dwingende reden
 van algemeen belang, wordt de vergunning geacht te zijn verleend bij het uitblijven van een antwoord binnen de
 door de wet of de verordening bepaalde termijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -226,7 +226,7 @@ uitgezonderd in de volgende gevallen :
 vergunningsvoorwaarden wordt voldaan.
 § 3. Paragraaf 1 is niet van toepassing op de maximale termijn waarbinnen de dienstverrichter na ontvangst van
 de vergunning daadwerkelijk met zijn activiteit moet beginnen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -243,12 +243,12 @@ De regels voor de selectieprocedure kunnen rekening houden met overwegingen die 
 volksgezondheid, met doelstellingen van sociaal beleid, de gezondheid en de veiligheid van werknemers of
 zelfstandigen, de bescherming van het milieu, het behoud van het cultureel erfgoed en andere dwingende
 redenen van algemeen belang.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 2. [1 Andere vereisten.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -288,12 +288,12 @@ een collectief waarborgfonds worden gesteld, bijvoorbeeld voor leden van een ber
 worden bijgehouden of de activiteit vooraf al gedurende bepaalde tijd in België hebben uitgeoefend.
 § 2. Het in paragraaf 1, 5° vervatte verbod heeft geen betrekking op planningsvereisten waarmee geen
 economische doelen worden nagestreefd, maar die voortkomen uit dwingende redenen van algemeen belang.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 ##### Hoofdstuk 3. [1 Vrijheid van dienstverlening.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -322,7 +322,7 @@ de Belgische bevoegde autoriteit afgegeven identiteitsdocument te bezitten;
 f) vereisten, andere dan die welke noodzakelijk zijn voor de gezondheid en veiligheid op het werk, die betrekking
 hebben op het gebruik van uitrusting en materiaal die een integrerend deel van de dienstverrichting vormen;
 g) beperkingen van het vrij verrichten van diensten bedoeld in artikel III.80.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -365,23 +365,23 @@ wettelijke controles van jaarrekeningen en geconsolideerde jaarrekeningen, tot w
 13° op de aangelegenheden die vallen onder de artikelen 132, 133 en 134 van het Wetboek van
 Vennootschappen;
 14° op de inschrijving van voertuigen die in een andere lidstaat zijn geleased.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<KB 2017-12-05/05, art. 2, 053; Inwerkingtreding : 01-02-2018>
 
 
 #### Titel 2. [1 Kruispuntbank van Ondernemingen en erkende ondernemingsloketten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 ##### Hoofdstuk 1. [1 Kruispuntbank van Ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 1. [1 Oprichting van de Kruispuntbank van Ondernemingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -413,7 +413,7 @@ aan de voornoemde registers.]3
 als bedoeld in artikel 22 van de Richtlijn (EU) 2017/1132 van het Europees Parlement en de Raad van 14 juni
 2017 aangaande bepaalde aspecten van het vennootschapsrecht.]3
 [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 49, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2024-02-09/19, art. 4, 129; Inwerkingtreding : 31-03-2024>
@@ -438,13 +438,13 @@ zonder rechtspersoonlijkheid die zich dient te registreren in uitvoering van bij
 7° elke vestigingseenheid van de bovenvermelde geregistreerde entiteiten.
 § 2. De Koning bepaalt de nadere regels voor de inschrijving in de Kruispuntbank van Ondernemingen van de
 entiteiten bedoeld in paragraaf 1, met uitzondering van de entiteiten bedoeld in de bepaling onder 5°.]1
-----------
+
 (1)<W 2018-04-15/14, art. 50, 059; Inwerkingtreding : 01-11-2018>
 (2)<W 2024-02-09/19, art. 5, 129; Inwerkingtreding : 31-03-2024>
 
 
 **Afdeling 2. [1 Inschrijving in de Kruispuntbank van Ondernemingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -453,7 +453,7 @@ entiteiten bedoeld in paragraaf 1, met uitzondering van de entiteiten bedoeld in
 [1 [2 Iedere geregistreerde entiteit]2 of vestigingseenheid bedoeld in artikel III.16, wordt in de
 Kruispuntbank van Ondernemingen ingeschreven en verkrijgt op het ogenblik van de inschrijving een
 ondernemings- of vestigingseenheidsnummer. Dit nummer vormt hun uniek identificatienummer.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 51, 059; Inwerkingtreding : 01-11-2018>
 
@@ -487,7 +487,7 @@ treedt en van de er voor verantwoordelijke dienst.
 § 4. Deze gegevens worden bewaard gedurende dertig jaar te rekenen van de dag van het verlies van de
 rechtspersoonlijkheid voor de rechtspersonen [3 naar Belgische recht of de doorhaling van de inschrijving in de
 Kruispuntbank van Ondernemingen]3 voor de andere bij artikel III.16 bedoelde houders van een inschrijving.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 52, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2024-02-09/19, art. 6, 129; Inwerkingtreding : 31-03-2024>
@@ -502,7 +502,7 @@ en volgens de functionele verdeling die Hij vastlegt, belast zijn met de eenmali
 van de gegevens bedoeld in artikel III.18.
 Bij het uitoefenen van deze taak zijn de overheden, administraties en diensten onderworpen aan de wettelijke en
 reglementaire bepalingen die de oorspronkelijke verzameling van de in artikel III.18 bedoelde gegevens toelaten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 53, 059; Inwerkingtreding : 01-11-2018>
 
@@ -519,7 +519,7 @@ bedoeld bij artikel III.19, eerste lid :
 vertegenwoordigen, kunnen de centrale handels- en vennootschapsregisters van de lidstaten van de Europese
 Economische Ruimte het identificatienummer van het Rijksregister, ontvangen via het systeem van gekoppelde
 registers bedoeld in artikel III.15, zesde lid, gebruiken.]2
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2024-02-09/19, art. 7, 129; Inwerkingtreding : 31-03-2024>
 
@@ -530,14 +530,14 @@ registers bedoeld in artikel III.15, zesde lid, gebruiken.]2
 van de inschrijvingen en de wijzigingen vast, die rechtstreeks op een elektronisch beveiligde wijze door de [2
 geregistreerde entiteiten]2, bedoeld in artikel III.16, mogen [3 of dienen te]3 worden meegedeeld aan de
 Kruispuntbank van Ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 54, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2023-12-22/06, art. 75, 126; Inwerkingtreding : 01-07-2024>
 
 
 **Afdeling 3. [1 Toekenning en gebruik van het ondernemings- en vestigingseenheidsnummer.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -549,7 +549,7 @@ de geregistreerde entiteit]2 door de krachtens artikel III.19, eerste lid, aange
 diensten.
 De Koning bepaalt de toekenningregels, de wijze van afleveren en de samenstelling van het ondernemings- en
 vestigingseenheidsnummer.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 55, 059; Inwerkingtreding : 01-11-2018>
 
@@ -565,7 +565,7 @@ vestigingseenheidsnummer een sleutel vormt die toegang geeft tot zowel de gegeve
 Kruispuntbank van Ondernemingen, als tot de gegevens die zijn opgenomen in de door hen beheerde repertoria
 en geautomatiseerde bestanden, onverminderd de wettelijke en reglementaire bepalingen die de toegang tot
 deze gegevens regelen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 56, 059; Inwerkingtreding : 01-11-2018>
 
@@ -594,7 +594,7 @@ ondernemingsnummer.
 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, de in het kader van het derde lid
 vermelde activiteiten waarvoor de gebruikte vervoermiddelen op zichtbare wijze het ondernemingsnummer
 dragen, wijzigen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2016-10-25/04, art. 170, 039; Inwerkingtreding : 28-11-2016>
 (3)<W 2018-04-15/14, art. 58, 059; Inwerkingtreding : 01-11-2018>
@@ -613,7 +613,7 @@ Ondernemingen op de datum van het inleiden van haar vordering niet bewijst of ni
 door de rechtbank gestelde termijn in de Kruispuntbank van Ondernemingen, verklaart de rechtbank van
 ambtswege de vordering van de inschrijvingsplichtige onderneming onontvankelijk.]2
 § 2. [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 59, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2019-05-02/22, art. 2, 072; Inwerkingtreding : 27-05-2019>
@@ -623,7 +623,7 @@ ambtswege de vordering van de inschrijvingsplichtige onderneming onontvankelijk.
 
 [1 De akten van rechtspleging, die krachtens artikel III.26 onontvankelijk worden verklaard, stuiten de
 verjaring, alsmede de op straffe van nietigheid bepaalde rechtsplegingtermijnen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -632,13 +632,13 @@ verjaring, alsmede de op straffe van nietigheid bepaalde rechtsplegingtermijnen.
 [1 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, de verplichtingen bedoeld
 in de artikelen III.25 en III.26, uitbreiden tot andere [2 categorieën van geregistreerde entiteiten]2 die in de
 Kruispuntbank van Ondernemingen zijn opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 60, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 4. [1 Toegang en gebruik van de gegevens opgenomen in de Kruispuntbank van Ondernemingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -683,7 +683,7 @@ Kruispuntbank van de Sociale Zekerheid;
 13° de gegevens betreffende de bankrekening(en).
 § 2. De Koning bepaalt de modaliteiten voor deze toegang bij een besluit vastgelegd na overleg in de
 ministerraad [3 ...]3.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 61, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2024-02-09/19, art. 8, 129; Inwerkingtreding : 31-03-2024>
@@ -712,7 +712,7 @@ rijksregisternummer toegekend overeenkomstig de bepalingen van de artikelen 5 en
 augustus 1983 tot regeling van een Rijksregister van de natuurlijke personen.
 De Koning kan, bij een besluit vastgesteld na overleg in de Ministerraad, in afwijking van paragraaf 1, de
 gevallen uitbreiden waarin een machtiging van de minister bevoegd voor Economie niet vereist is.]1
-----------
+
 (1)<W 2024-02-09/19, art. 9, 129; Inwerkingtreding : 31-03-2024>
 
 
@@ -723,7 +723,7 @@ gegevens bedoeld in het artikel III.29, § 1, ingeschreven in de Kruispuntbank v
 Er wordt minstens voorzien in een vrij toegankelijke website waarop deze gegevens in een leesbaar formaat
 terug te vinden zijn.
 De Koning bepaalt de gegevens die aldus toegankelijk zijn evenals de voorwaarden voor het raadplegen ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -734,7 +734,7 @@ opgenomen zijn in de Kruispuntbank van Ondernemingen. Indien blijkt dat de medeg
 overeenkomstig de ter zake geldende wetgeving onnauwkeurig, onvolledig of onjuist zijn, kan de houder van een
 inschrijving in de Kruispuntbank van Ondernemingen de verbetering van deze gegevens vragen op de wijze en
 binnen de termijnen vastgesteld door de Koning.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 62, 059; Inwerkingtreding : 01-11-2018>
 
@@ -745,7 +745,7 @@ binnen de termijnen vastgesteld door de Koning.]1
 de gegevens van de Kruispuntbank van Ondernemingen vast die het voorwerp kunnen uitmaken van een
 commercieel of niet-commercieel hergebruik alsook de modaliteiten inzake hun terbeschikkingstelling.
 Enkel de beheersdienst mag deze basisgegevens aan ondernemingen verstrekken.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2024-02-09/19, art. 10, 129; Inwerkingtreding : 31-03-2024>
 
@@ -758,7 +758,7 @@ gedeeltelijke afschriften dan wel uittreksels van het register doen afgeven op d
 § 2. De afschriften of uittreksels [2 betreffende een inschrijvingsplichtige onderneming]2 worden op uitdrukkelijk
 verzoek eensluidend verklaard.
 § 3. [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 63, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2024-02-09/19, art. 11, 129; Inwerkingtreding : 31-03-2024>
@@ -770,12 +770,12 @@ verzoek eensluidend verklaard.
 bewijskracht tot bewijs van het tegendeel.]1
 [2 § 2. De uittreksels zijn beschikbaar in de drie officiële landstalen. Zij worden ook afgeleverd in het Engels op
 uitdrukkelijk verzoek.]2
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2016-06-06/06, art. 2, 048; Inwerkingtreding : 10-06-2017>
 
 **Afdeling 5. [1 Realisatie van het principe van de unieke gegevensinzameling.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -784,7 +784,7 @@ uitdrukkelijk verzoek.]2
 [1 Overheden, administraties en diensten die gemachtigd zijn de gegevens van de Kruispuntbank van
 Ondernemingen te raadplegen mogen deze gegevens niet meer opnieuw rechtstreeks opvragen bij de [2
 geregistreerde entiteiten]2 of bij de lasthebbers van deze laatste.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 64, 059; Inwerkingtreding : 01-11-2018>
 
@@ -794,12 +794,12 @@ geregistreerde entiteiten]2 of bij de lasthebbers van deze laatste.]1
 [1 Eens een gegeven is medegedeeld aan en opgenomen in de Kruispuntbank van Ondernemingen
 kunnen de diensten die gemachtigd zijn deze gegevens te raadplegen, het niet rechtstreeks meedelen ervan niet
 langer ten laste leggen aan betrokkene.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 6. [1 Inschrijving, wijziging of doorhaling van de onjuiste of ontbrekende gegevens.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -819,7 +819,7 @@ Ze delen ter ondersteuning van die informatie alle rechtvaardigende stukken mee.
 overheid of een bestuur zijn ertoe gehouden, bij de opstelling van een onderzoeksverslag of een proces-verbaal,
 dat een onjuist of ontbrekend gegeven in de Kruispuntbank van Ondernemingen vaststelt; hiervan een afschrift
 mee te delen aan de beheersdienst van de Kruispuntbank van Ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 65, 059; Inwerkingtreding : 01-11-2018>
 
@@ -830,7 +830,7 @@ mee te delen aan de beheersdienst van de Kruispuntbank van Ondernemingen.]1
 een vergissing of een weglating van de dienst die dit gegeven invoert, deelt hij aan deze laatste de aanvraag tot
 aanpassing mee. De dienst voert, na verificatie, de eventuele aanpassing uit binnen een termijn van dertig dagen,
 te rekenen vanaf de ontvangst van de aanvraag.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -881,7 +881,7 @@ vervullen door de geregistreerde entiteit van de wettelijke formaliteiten waarto
 verbeteren, kan de Koning de lijst van stukken en informatie die kunnen worden gebruikt in het kader van de
 ambtshalve doorhaling uitbreiden. Hij kan eveneens de voorwaarden en nadere regels van ambtshalve
 inschrijving en wijziging bepalen.]1
-----------
+
 (1)<W 2022-09-25/14, art. 4, 120; Inwerkingtreding : 26-01-2023>
 
 
@@ -959,7 +959,7 @@ van de Kruispuntbank van Ondernemingen.
 § 3. Om de gegevenskwaliteit in de Kruispuntbank van Ondernemingen te garanderen en te verbeteren, kan de
 Koning, bij een besluit, vastgesteld na overleg in de Ministerraad, de gevallen beoogd in paragraaf 1 uitbreiden of
 wijzigen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 68, 059; Inwerkingtreding : 01-11-2018>
 (3)<KB 2022-04-18/12, art. 7, 108; Inwerkingtreding : 11-06-2022>
@@ -977,12 +977,12 @@ Wanneer de beheersdienst overgaat tot de ambtshalve wijziging van een adres die 
 Staatsblad moet worden bekengemaakt, wordt de ambtshalve wijziging op vraag van de beheersdienst
 bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad. Deze publicatie gebeurt zonder kosten voor de
 beheersdienst en maakt de adreswijziging tegenstelbaar aan derden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-07-30/47, art. 4, 065; Inwerkingtreding : 01-12-2018>
 
 
 **Afdeling 7. [1 Bijzondere bepalingen omtrent de werking van de Kruispuntbank van Ondernemingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -992,7 +992,7 @@ beheersdienst en maakt de adreswijziging tegenstelbaar aan derden.]1
 strategisch comité van de Kruispuntbank van Ondernemingen opgericht.
 De Koning bepaalt, bij een besluit vastgesteld na overleg in de ministerraad, zijn opdrachten, zijn samenstelling
 en zijn werkingsmodaliteiten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1011,7 +1011,7 @@ Zij nemen alle nodige voorzorgsmaatregelen om de veiligheid van de opgenomen geg
 met name te beletten dat deze gegevens vervormd of beschadigd worden, of meegedeeld worden aan personen
 die geen machtiging hebben om er kennis van te nemen.
 Zij waken over de rechtmatigheid van de mededeling van de gegevens.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1022,7 +1022,7 @@ oorlogstijd, in omstandigheden daarmee gelijkgesteld krachtens artikel 7 van de 
 militaire opeisingen of tijdens de bezetting van het grondgebied door de vijand, belast worden met de vernietiging
 van de gegevensbanken van de Kruispuntbank van Ondernemingen.
 De Koning stelt de voorwaarden en de modaliteiten van deze vernietiging vast.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1038,7 +1038,7 @@ Behalve in het geval bedoeld in het eerste lid, kan de bijzondere verwerking van
 van Ondernemingen aanleiding geven tot het innen van een vergoeding. Het bedrag van die vergoeding wordt
 bepaald in onderling overleg tussen de beheersdienst en de overheid, administratie of de dienst aan wie deze
 gegevens worden meegedeeld en in een overeenkomst vastgelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1049,12 +1049,12 @@ gegevens worden meegedeeld en in een overeenkomst vastgelegd.]1
 
 
 ##### Hoofdstuk 2. [1 Inschrijvingsplichtige ondernemingen.]1
-----------
+
 (1)<W 2018-04-15/14, art. 69, 059; Inwerkingtreding : 01-05-2018>
 
 
 **Afdeling 1. [1 Verplichting tot inschrijving.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1084,7 +1084,7 @@ de inkomstenbelastingen 1992;
 10° andere ondernemingen bepaald door de Koning.
 § 3. De inschrijving in de Kruispuntbank van Ondernemingen met de hoedanigheid van inschrijvingsplichtige
 onderneming vormt, behoudens tegenbewijs, een vermoeden van de hoedanigheid van onderneming.]1
-----------
+
 (1)<W 2018-04-15/14, art. 70, 059; Inwerkingtreding : 01-11-2018, en wat betreft vzw's : onbepaald>
 (2)<W 2024-02-09/19, art. 14, 129; Inwerkingtreding : 31-03-2024>
 
@@ -1102,13 +1102,13 @@ veelvoud van 0,5 euro.]1
 zonder winstoogmerk en de stichtingen, bepaald in de wet van 27 juni 1921 betreffende de verenigingen zonder
 winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen, vrijgesteld van het betalen van het
 inschrijvingsrecht voor de Kruispuntbank van Ondernemingen.]2
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 71, 059; Inwerkingtreding : 01-11-2018, en wat betreft vzw's : onbepaald>
 
 
 **Afdeling 2. [1 Verplichting tot wijziging.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1136,14 +1136,14 @@ overdracht of de aanvaarding van de nalatenschap tot wijziging overgaan.
 ondernemingen]2 verzoeken om een wijziging van hun inschrijving in de Kruispuntbank van Ondernemingen
 indien één van de vermeldingen van de inschrijving, door de Koning bepaald overeenkomstig artikel III.53, niet
 meer overeenstemt met de werkelijke toestand.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 72, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2020-05-27/03, art. 2, 085; Inwerkingtreding : 13-03-2020>
 
 
 **Afdeling 3. [1 Verplichting tot doorhaling.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1156,13 +1156,13 @@ Wanneer de in het eerste lid vermelde beëindiging voortvloeit uit een overdrach
 inschrijvingsplichtige onderneming]2, om niet of onder bezwarende titel, onder levenden of ingevolge overlijden,
 dan moet de doorhaling gebeuren binnen een termijn van één maand na de overdracht of de aanvaarding van de
 nalatenschap.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 73, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 4. [1 Gemeenschappelijke bepalingen aan de inschrijving, wijziging of doorhaling.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1173,7 +1173,7 @@ onderneming]2, dit wil zeggen door de inschrijvingsplichtige natuurlijke persone
 bevoegde vertegenwoordigers van de inschrijvingsplichtige onderneming.
 Het verzoek geschiedt op de door de Koning vastgestelde wijze.
 De Koning bepaalt de vermeldingen die het verzoek tot inschrijving, wijziging of doorhaling moet bevatten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 74, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1182,7 +1182,7 @@ De Koning bepaalt de vermeldingen die het verzoek tot inschrijving, wijziging of
 
 [1 De ondernemingsloketten moeten onverwijld de inschrijving, wijziging of doorhaling doen, die hun
 worden gevraagd.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1196,7 +1196,7 @@ III.53 en de uitvoeringsbesluiten ervan;
 3° indien niet voldaan is aan de door deze titel en zijn uitvoeringsbesluiten, of krachtens andere wetten,
 opgelegde voorafgaandelijke inschrijvingsvoorwaarden, waarvan de controle is toevertrouwd aan deze
 loketten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1206,7 +1206,7 @@ loketten.]1
 wordt geacht definitief te zijn, tenzij de aanvrager een nieuwe aanvraag indient die wel voldoet aan de gestelde
 voorwaarden, of een beroep indient tegen de beslissing van het ondernemingsloket bij de Vestigingsraad binnen
 de 30 werkdagen volgend op de datum van weigering van inschrijving.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1217,18 +1217,18 @@ Koning bepaald, op haar verzoek een volledig uittreksel van de inschrijving in d
 Ondernemingen met vermelding van de datum van afgifte van het uittreksel.
 Het eerste uittreksel betreffende een inschrijving, een wijziging of een doorhaling wordt aan [2
 inschrijvingsplichtige onderneming]2 gratis verstrekt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 75, 059; Inwerkingtreding : 01-11-2018>
 
 
 ##### Hoofdstuk 3. [1 Inrichting van de ondernemingsloketten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 1. [1 Instelling en taken van de ondernemingsloketten.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1236,7 +1236,7 @@ inschrijvingsplichtige onderneming]2 gratis verstrekt.]1
 
 [1 Niemand mag zonder de voorafgaandelijke en schriftelijke erkenning van de minister de activiteit
 van ondernemingsloket uitoefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1305,7 +1305,7 @@ paragraaf 1, 1° a) en b) te kunnen afwikkelen, met uitzondering van de inspecti
 wordt verricht, van de door de dienstverrichter gebruikte uitrusting, en van de fysieke controle van de
 geschiktheid of de persoonlijke integriteit van de dienstverrichter of van zijn verantwoordelijke personeelsleden,
 wanneer die integraal deel uitmaken van een procedure of formaliteit.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-07-30/47, art. 5, 065; Inwerkingtreding : 15-09-2018>
 (3)<W 2018-04-15/14, art. 76, 059; Inwerkingtreding : 01-11-2018>
@@ -1326,13 +1326,13 @@ dossier. Hij verleent een schriftelijk en gemotiveerd advies binnen een termijn 
 betekening van de volledigheid van het dossier.
 § 3. Bij gebreke aan een schriftelijk en gemotiveerd advies binnen een termijn van vijftien dagen volgend op de
 betekening van de volledige verklaring van het dossier wordt het advies geacht positief te zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 77, 059; Inwerkingtreding : 01-11-2018>
 
 
 **Afdeling 2. [1 Erkenningsvoorwaarden voor de ondernemingsloketten.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1377,7 +1377,7 @@ rekening houdende met een voldoende spreiding en de behoeften.
 § 3. In afwijking van de bepalingen van paragraaf 1, blijven de erkenningen van de ondernemingsloketten
 verleend op 9 september 2008, behouden tot 31 december 2014, onder de voorwaarden zoals die van
 toepassing waren op de dag van de erkenning.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1400,7 +1400,7 @@ Europese of regionale overheid geografisch bepaald wordt als een zone die in aan
 positieve discriminatie, geen actief ondernemingsloket bestaat.
 Bij de toepassing van het voorafgaande lid zijn de erkenningsvoorwaarden voorzien in artikel III.61, § 1, 2° en §
 2, niet van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1415,7 +1415,7 @@ Bij de toepassing van het voorafgaande lid zijn de erkenningsvoorwaarden voorzie
 [1 De erkenning wordt toegekend of geweigerd door de minister binnen een termijn van drie
 maanden na de betekening van de volledigheid van de erkenningsaanvraag. Deze beslissing wordt de aanvrager
 betekend per aangetekende zending.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1423,7 +1423,7 @@ betekend per aangetekende zending.]1
 
 [1 De aanvrager heeft de mogelijkheid om een nieuwe aanvraag in te dienen indien de redenen voor
 de weigering niet langer bestaan.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1433,7 +1433,7 @@ de weigering niet langer bestaan.]1
 De minister maakt de lijst van de erkende ondernemingsloketten en van hun vestigingseenheden bekend op de
 website van de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie en ook jaarlijks vóór 31
 maart in het Belgisch Staatsblad.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1442,7 +1442,7 @@ maart in het Belgisch Staatsblad.]1
 [1 De aanvraag om de erkenning van het ondernemingsloket te vernieuwen wordt zes maanden voor
 het verstrijken van de periode waarvoor de vorige erkenning verleend werd, gericht aan de minister.
 Het ondernemingsloket blijft erkend tot de minister zich uitgesproken heeft over de aanvraag tot vernieuwing.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1450,7 +1450,7 @@ Het ondernemingsloket blijft erkend tot de minister zich uitgesproken heeft over
 
 [1 Elke wijziging van de gegevens verstrekt op het ogenblik van de erkenningsaanvraag moet binnen
 de maand worden meegedeeld aan de minister. Deze mededeling omschrijft en motiveert de wijziging.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1459,12 +1459,12 @@ de maand worden meegedeeld aan de minister. Deze mededeling omschrijft en motive
 [1 De minister kan, overeenkomstig de nadere regels vastgesteld door de Koning, ambtshalve
 beslissen de erkenning te schorsen of in te trekken wanneer de bepalingen van deze titel, zijn
 uitvoeringsbesluiten of de erkenningsvoorwaarden niet gerespecteerd worden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 3. [1 Verplichtingen van de ondernemingsloketten.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1474,7 +1474,7 @@ uitvoeringsbesluiten of de erkenningsvoorwaarden niet gerespecteerd worden.]1
 III.59 in de tijd verzekeren.
 De Koning kan de nadere regels vastleggen voor de door de ondernemingsloketten te leveren waarborgen om
 de continuïteit van de dienstverlening in de tijd te verzekeren.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1484,7 +1484,7 @@ de continuïteit van de dienstverlening in de tijd te verzekeren.]1
 waaraan de dienstverlening van de ondernemingsloketten moeten beantwoorden, de minimale openingstijden en
 de bijzondere regels betreffende het beheer, de boekhouding en de jaarrekeningen van de
 ondernemingsloketten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1498,12 +1498,12 @@ instellingen of organisaties aangeduid door de Koning, wanneer zij daartoe door 
 onverwijld en kosteloos, op de wijze door de Koning bepaald, alle in hun bezit zijnde inlichtingen verstrekken,
 inzage verlenen van alle in hun bezit zijnde documenten en stukken en deze instanties bovendien de afschriften
 of uittreksels te verstrekken, welke zij nodig achten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 4. [1 Vergoeding van de ondernemingsloketten.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1520,22 +1520,22 @@ beslissingsbevoegdheid hebben toegewezen gekregen van een federale administratie
 III.59, 6°.
 § 2. De ondernemingsloketten kunnen voor de bijkomende diensten aan ondernemingen, bedoeld in artikel
 III.59, § 2, een prijs vaststellen per verrichting of forfaitair op jaarbasis.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 #### Titel 3. [1 Algemene verplichtingen van de ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 ##### Hoofdstuk 1. [1 Informatie, transparantie en niet-discriminatie.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 1. [1 Informatie- en transparantieverplichtingen.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1543,7 +1543,7 @@ III.59, § 2, een prijs vaststellen per verrichting of forfaitair op jaarbasis.]
 
 [1 Deze afdeling is niet van toepassing op de advocaten die juridische bijstand verlenen met toepassing
 van boek IIIbis van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2018-04-15/14, art. 78, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -1579,7 +1579,7 @@ de borg en de geografische dekking.
 nemen zij hierin informatie op over hun multidisciplinaire activiteiten en partnerschappen die rechtstreeks
 verband houden met de betrokken ondernemingsactiviteiten en over de maatregelen genomen ter voorkoming
 van belangenconflicten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1593,7 +1593,7 @@ verricht of de overeenkomst wordt gesloten; of
 adres; of
 4° opgenomen in elk door de onderneming verstrekt informatiedocument waarin haar activiteiten in detail
 worden beschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1612,7 +1612,7 @@ belangenconflicten;
 worden geraadpleegd en de beschikbare talen waarin deze codes kunnen worden geraadpleegd;
 5° de vorige versies, die van toepassing waren op het ogenblik van de ondertekening van de overeenkomst,
 met de van toepassing zijnde begin- en einddatum, van de gegevens bedoeld in artikel III.74, 9°.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1621,7 +1621,7 @@ met de van toepassing zijnde begin- en einddatum, van de gegevens bedoeld in art
 [1 De informatie bedoeld in de artikelen III.74 en III.76 worden helder, ondubbelzinnig en tijdig voor
 de sluiting van enige overeenkomst of, indien er geen schriftelijke overeenkomst is, voor de levering van de
 goederen of verrichting van de dienst, meegedeeld of beschikbaar gesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1629,7 +1629,7 @@ goederen of verrichting van de dienst, meegedeeld of beschikbaar gesteld.]1
 
 [1 Elke onderneming heeft de plicht aan te tonen dat aan de eisen voorzien in de artikelen III.74 tot
 III.77 is voldaan en dat de verstrekte informatie juist is.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1637,12 +1637,12 @@ III.77 is voldaan en dat de verstrekte informatie juist is.]1
 
 [1 De bepalingen van deze afdeling doen geen afbreuk aan de bijkomende informatieverplichtingen
 die van toepassing zijn op ondernemingen die in België hun vestiging hebben.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 **Afdeling 2. [1 Niet-discriminatie van de afnemers.]1**
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1655,7 +1655,7 @@ andere lidstaat gevestigde onderneming beperken. De volgende vereisten worden me
 een andere lidstaat is gevestigd of vanwege de plaats waar de dienst wordt verricht.
 Het eerste lid is niet van toepassing op de vergunningstelsels die ook van toepassing zijn op het gebruik van
 een dienst die door een in België gevestigde onderneming wordt verricht.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1667,12 +1667,12 @@ De algemene voorwaarden voor toegang tot een dienst, die door de onderneming voo
 worden gemaakt, bevatten geen discriminerende bepalingen in verband met de nationaliteit of verblijfplaats van
 de afnemer, zonder evenwel de mogelijkheid uit te sluiten om verschillende voorwaarden voor toegang te stellen
 wanneer die verschillen rechtstreeks door objectieve criteria worden gerechtvaardigd.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
 ##### Hoofdstuk 2. [1 Boekhouding van de ondernemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1715,7 +1715,7 @@ dat hun gezamenlijke bijkantoren en centra van werkzaamheden in België als éé
 worden beschouwd.
 § 2. Elke boekhoudplichtige onderneming voert een voor de aard en de omvang van haar bedrijf passende
 boekhouding en neemt de bijzondere wetsvoorschriften betreffende dat bedrijf in acht.]1
-----------
+
 (1)<W 2018-04-15/14, art. 79, 059; Inwerkingtreding : 01-11-2018>
 (2)<W 2019-03-23/06, art. 28, 070; Inwerkingtreding : 01-05-2019>
 (3)<W 2019-03-17/14, art. 118, 071; Inwerkingtreding : 01-05-2019>
@@ -1738,7 +1738,7 @@ betrekkingen met derden als wat betreft de rekening en verantwoording die door d
 door zaakvoerder en deelgenoten aan elkaar moet worden gedaan.]1 [2 De rekeningen van vennootschappen
 zonder rechtspersoonlijkheid worden door de zaakvoerders of deelgenoten in hun eigen boekhouding
 opgenomen volgens de proportionele integratiemethode.]2
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 80, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1776,7 +1776,7 @@ dat stelsel moeten bevatten en hoe ze moeten worden gebruikt.]1
 [3 De Koning bepaalt een afzonderlijke minimumindeling van een algemeen rekeningenstelsel voor de
 verenigingen en de stichtingen. Hij stelt vast wat de rekeningen van dat stelsel moeten bevatten en hoe ze
 moeten worden gebruikt.]3
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2014-04-02/21, art. 5, 014; Inwerkingtreding : 09-05-2014>
 (3)<W 2018-04-15/14, art. 81, 059; Inwerkingtreding : 01-11-2018>
@@ -1812,7 +1812,7 @@ mutaties in contant geld of op rekeningen zonder uitstel, getrouw en volledig en
 worden in een ongesplitst dagboek volgens het model door de Koning bepaald.]4
 § 3. Paragraaf 2 is op overeenkomstige wijze van toepassing op de [5 buitenlandse verenigingen zonder
 winstoogmerk en stichtingen voor wat betreft hun Belgisch bijkantoor]5.]2
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 82, 059; Inwerkingtreding : 01-11-2018>
 (3)<W 2019-03-23/06, art. 29, 070; Inwerkingtreding : 01-05-2019>
@@ -1830,7 +1830,7 @@ De Koning stelt nadere regels betreffende de stukken ter verantwoording van de d
 inschrijvingen, bedoeld in het tweede lid.
 De verantwoordingsstukken worden methodisch opgeborgen en zeven jaar bewaard, in origineel of in afschrift.
 Stukken die niet strekken tot bewijs jegens derden, worden drie jaar bewaard.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
 
@@ -1845,7 +1845,7 @@ De Koning stelt nadere regels voor het houden en bewaren van de boeken. Hij kan 
 voorgeschreven in artikel III.84, [2 vierde en vijfde]2 lid, vervangen of toestaan dat ze, onder de voorwaarden die
 Hij bepaalt, wordt vervangen door een andere die de materiële continuïteit van de boeken evenals de
 regelmatigheid en de onveranderlijkheid van de boekingen waarborgt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 83, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1856,7 +1856,7 @@ regelmatigheid en de onveranderlijkheid van de boekingen waarborgt.]1
 correctie moet het oorspronkelijk geschrevene leesbaar blijven.
 De [2 boekhoudplichtige ondernemingen]2 moeten hun boeken bewaren gedurende zeven jaar, te rekenen van
 de eerste januari van het jaar dat op de afsluiting volgt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 84, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1874,7 +1874,7 @@ gevoegd.
 onderneming]2.
 De Koning kan maatstaven voor de waardering van de inventaris bepalen.
 Deze paragraaf geldt niet voor de in artikel III.85 bedoelde [2 boekhoudplichtige ondernemingen]2.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 85, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1912,7 +1912,7 @@ stichtingen en de centra van werkzaamheden van buitenlandse verenigingen zonder 
 buitenlandse stichtingen zoals bedoeld in artikelen 26octies, § 1, en 45 van de wet van 27 juni 1921 betreffende
 de verenigingen zonder winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen, de
 internationale verenigingen zonder winstoogmerk en de stichtingen.]3
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2015-12-18/31, art. 38, 030; Inwerkingtreding : 09-01-2016>
 (3)<W 2018-04-15/14, art. 86, 059; Inwerkingtreding : 01-11-2018>
@@ -1933,7 +1933,7 @@ boekhoudplichtige]2 ondernemingen.
 § 2. De Koning kan de door Hem op grond van artikelen III.84, [2 zevende]2 lid, III.89, § 2, III.90 en III.91, § 1,
 gestelde regels aanpassen, aanvullen of er geheel of gedeeltelijk vrijstelling van verlenen naargelang van de
 omvang van de onderneming alsmede de bedrijfstakken en de economische sectoren waarin zij werkzaam is.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 87, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1946,7 +1946,7 @@ De besluiten ter uitvoering van artikel III.84, [2 zevende]2 lid, artikel III.89
 genomen na advies van de Centrale Raad voor het Bedrijfsleven.
 De besluiten ter uitvoering van artikel [2 III.82, § 1]2 en de wijzigingsbesluiten worden genomen na advies van
 de organisaties die de betrokken ondernemingen vertegenwoordigen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2018-04-15/14, art. 88, 059; Inwerkingtreding : 01-11-2018>
 
@@ -1962,7 +1962,7 @@ boekhouden en de beginselen te bepalen van een regelmatige boekhouding.
 dat tot taak heeft door middel van een Individuele Beslissing inzake Boekhoudrecht vragen te beantwoorden
 betreffende de toepassing van de wettelijke bepalingen van het Belgisch Boekhoudrecht die onder de
 bevoegdheid van de Commissie vallen en waarvoor het op formele wijze wordt gevat.]1
-----------
+
 (1)<W 2016-12-12/04, art. 2, 041; Inwerkingtreding : 30-12-2016>
 (2)<W 2017-04-18/03, art. 4, 046; Inwerkingtreding : 04-05-2017>
 
@@ -2021,7 +2021,7 @@ Wetboek van economisch recht naar de Kamer van volksvertegenwoordigers.
 De identiteit van de aanvragers, de leden van het College en de leden van het wetenschappelijk secretariaat
 wordt niet in het verslag vermeld.
 Het verslag wordt door de Kamer van volksvertegenwoordigers openbaar gemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-12/04, art. 3, 041; Inwerkingtreding : 30-12-2016>
 
 
@@ -2045,7 +2045,7 @@ wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen
 van de hoven en van alle rechtsmachten, en van de Gemeenschappen en de Gewesten en de openbare
 instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn
 voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen.]1
-----------
+
 (1)<Ingevoegd bij W 2016-12-12/04, art. 4, 041; Inwerkingtreding : 30-12-2016>
 (2)<W 2018-04-15/14, art. 89, 059; Inwerkingtreding : 01-11-2018>
 
@@ -2068,7 +2068,7 @@ ondernemingen in de mate waarin deze van toepassing zijn verklaard door het koni
 verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen evenals van
 de bepalingen van dit laatste koninklijk besluit zelf. De Commissie voor boekhoudkundige Normen wordt in kennis
 gesteld van het besluit van de minister of zijn afgevaardigde.]1
-----------
+
 (1)<W 2018-04-15/14, art. 90, 059; Inwerkingtreding : 01-11-2018>
 
 
@@ -2085,7 +2085,7 @@ ondernemingen van hypothecair krediet en kapitalisatie.
 De artikelen III.84, [3 zevende]3 lid, III.89, § 2, III.90, § 2, eerste lid, III.91, § 2, en III.94 zijn niet van toepassing
 op de verzekeringsondernemingen die door de Koning zijn toegelaten op grond van de wetgeving betreffende de
 controle op de verzekeringsondernemingen. ]1
-----------
+
 (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 (2)<W 2016-10-25/04, art. 171, 039; Inwerkingtreding : 28-11-2016>
 (3)<W 2018-04-15/14, art. 91, 059; Inwerkingtreding : 01-11-2018>

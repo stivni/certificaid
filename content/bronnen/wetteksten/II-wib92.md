@@ -653,7 +653,7 @@ fuserende vennootschappen
 vóór de fusie in dezelfde
 verhouding aanhouden;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2, §
 1 , 6°/1, 2e lid, c), 2), als volgt :
@@ -684,7 +684,7 @@ verhouding aanhouden, of,
 verkort, vereenvoudigde
 zusterfusie;
 
-----------
+
 
 d) Splitsing door overneming: de
 rechtshandeling waarbij de activa en
@@ -856,7 +856,7 @@ aandeelhouders of vennoten.
 en inbreng van bedrijfsafdeling of tak van
 werkzaamheid
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2, §
 1 , 6°/2, opschrift, als volgt :
@@ -864,7 +864,7 @@ Vanaf 25 november 2025, luidt artikel 2, §
 6°/2 Inbreng van de algemeenheid van goederen
 en inbreng van een bedrijfstak
 
-----------
+
 
 Er wordt verstaan onder:
 
@@ -882,7 +882,7 @@ natuurlijke persoon, moet onder het
 gehele vermogen al zijn takken van
 werkzaamheid worden verstaan;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2, §
 1 , 6°/2, a), als volgt :
@@ -901,7 +901,7 @@ natuurlijke persoon, moet onder het
 gehele vermogen al zijn
 bedrijfstakken worden verstaan;
 
-----------
+
 
 b) Inbreng van een bedrijfsafdeling of
 een tak van werkzaamheid: de
@@ -913,7 +913,7 @@ vennootschap tegen een vergoeding
 die uitsluitend bestaat in aandelen van
 de verkrijgende vennootschap;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2, §
 1 , 6°/2, b), als volgt :
@@ -927,7 +927,7 @@ vennootschap tegen een vergoeding
 die uitsluitend bestaat in aandelen van
 de verkrijgende vennootschap;
 
-----------
+
 
 c) Bedrijfsafdeling of tak van
 werkzaamheid: het geheel van de
@@ -938,7 +938,7 @@ onafhankelijke exploitatie vormt, dat
 wil zeggen een geheel dat op eigen
 kracht kan functioneren.
 
-----------
+
 
 Vanaf 25 november 2025, wordt artikel 2, §
 1 , 6°/2, c), vervangen als volgt :
@@ -948,7 +948,7 @@ technisch en organisatorisch gebied
 een autonome activiteit uitoefent en
 op eigen kracht kan werken.
 
-----------
+
 
 7° Gerevaloriseerde waarde
 
@@ -1398,7 +1398,7 @@ of;
 - er geen onafhankelijke
 vermogensbeheerder werd aangesteld.
 
-----------
+
 
 13°/2 Dochterconstructie
 
@@ -1408,7 +1408,7 @@ aandelen of economische rechten geheel of
 gedeeltelijk worden aangehouden door een
 tussenconstructie;
 
-----------
+
 
 13°/3 Tussenconstructie
 
@@ -1694,7 +1694,7 @@ vastgestelde wijziging wordt
 bekendgemaakt in het Publicatieblad van de
 Europese Unie.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -1768,7 +1768,7 @@ de integriteit van de inhoud, de
 tijdsaanduiding, en zo ook de bewaring van
 het verzonden bericht garandeert.
 
-----------
+
 
 Vanaf 29 juli 2025 wordt artikel 2, § 1,
 aangevuld met een 22° en 22°, luidend als volgt:
@@ -1795,7 +1795,7 @@ Unie zijn gevestigd, aan de voorwaarden
 van een gelijkaardige regeling als die van
 Richtlijn 2009/65/EG.
 
-----------
+
 
 § 2. Voor de toepassing van de bepalingen
 van dit Wetboek, van de bijzondere wettelijke
@@ -2155,7 +2155,7 @@ constructie betaalde of toegekende inkomsten.
 
 §2 …
 
-----------
+
 
 § 3. Paragraaf 1 is niet van toepassing voor
 het aanslagjaar waarvoor de oprichter:
@@ -2351,7 +2351,7 @@ overdracht van een recht van erfpacht of van
 opstal of van gelijkaardige onroerende
 rechten.
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 7, § 1, als
 volgt :
@@ -2438,7 +2438,7 @@ overdracht van een recht van erfpacht of van
 opstal of van gelijkaardige onroerende
 rechten.
 
-----------
+
 
 § 2. Wanneer een huurvoordeel bestaat in
 een eenmaal door de huurder gedane uitgave,
@@ -2657,7 +2657,7 @@ het hogere of lagere honderdste naargelang
 het cijfer van de duizendsten al of niet 5
 bereikt;
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 13, eerste
 streepje, als volgt :
@@ -2689,7 +2689,7 @@ het hogere of lagere honderdste naargelang
 het cijfer van de duizendsten al of niet 5
 bereikt;
 
-----------
+
 
 - 10 pct. voor ongebouwde onroerende
 goederen.
@@ -2871,7 +2871,7 @@ derde voor mededeling aan het
 publiek, voor openbare uitvoering of
 opvoering, of voor reproductie;
 
-----------
+
 
 Vanaf 29 juli 2025 wordt artikel 17, § 1,
 aangevuld met een 6°, luidend als volgt:
@@ -2879,7 +2879,7 @@ aangevuld met een 6°, luidend als volgt:
 6° Carried interest verkregen door een Carried
 interest begunstigde.
 
-----------
+
 
 alsmede de voormelde inkomsten die door
 de voormelde rechthebbende worden verkregen
@@ -2946,7 +2946,7 @@ buitenlandse vennootschap of van
 verkrijging van eigen aandelen door een
 dergelijke vennootschap;
 
-----------
+
 
 Vanaf 29 juli 2025, wordt in artikel 18,
 tweede lid, een 2°quater ingevoegd, luidend als
@@ -2979,7 +2979,7 @@ als gevolg van de verrichting niet
 meer aangewend worden of behouden
 blijven in België.
 
-----------
+
 
 3° uitkeringen andere dan deze bedoeld in 1°,
 2°, 2°bis en 2°ter, toegekend of betaalbaar
@@ -3484,7 +3484,7 @@ vermenigvuldigd met het percentage (1) van het
 vermogen van de instelling voor collectieve
 belegging dat belegd is in schuldvorderingen.
 
-------------------------------
+
 (1) art. 1bis, KB/WIB 92.
 
 Wanneer de aanschaffings- of
@@ -3538,7 +3538,7 @@ indien de beheersvennootschap van de instellingen
 voor collectieve beleggingen niet voldoet aan de
 verplichting bedoeld in artikel 321bis.
 
-----------
+
 
 Vanaf 29 juli 2025, wordt een artikel
 19quater ingevoegd, luidend als volgt :
@@ -3607,7 +3607,7 @@ de wet van 26 maart 1999 betreffende het Belgisch
 actieplan voor de werkgelegenheid 1998 en
 houdende diverse bepalingen.
 
-----------
+
 
 ## Art. 20
 
@@ -3673,7 +3673,7 @@ beleggingsvennootschap die in het land van
 haar fiscale woonplaats, een belastingregeling geniet die afwijkt van het gemeen
 recht ;
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 21, eerste
 lid, 2°, als volgt :
@@ -3688,7 +3688,7 @@ beleggingsvennootschap die in het land van
 haar fiscale woonplaats, een belastingregeling geniet die afwijkt van het gemeen
 recht ;
 
-----------
+
 
 3° inkomsten uit Belgische overheidsfondsen
 en uit leningen van voormalig Belgisch
@@ -3743,7 +3743,7 @@ plaats vindt op 31 december of bij de
 definitieve vereffening van het
 deposito ;
 
-------------------------------
+
 (1) art. 2, KB/WIB 92.
 
 6° …
@@ -3775,7 +3775,7 @@ genomen ; de Koning neemt (1) bijzondere
 maatregelen voor de toepassing van en de
 controle op deze bepaling ;
 
-------------------------------
+
 (1) art. 635, KB/WIB 92.
 
 9° inkomsten die zijn begrepen in kapitalen en
@@ -3874,7 +3874,7 @@ bepalingen of gelijkaardige gevolgen heeft
 genomen door een andere lidstaat van de
 Europese Economische Ruimte.
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 21, eerste
 lid, 11°, als volgt :
@@ -3892,7 +3892,7 @@ gevolgen heeft genomen door een andere
 lidstaat van de Europese Economische
 Ruimte.
 
-----------
+
 
 12° inkomsten die zijn toegekend of betaalbaar
 gesteld door een entiteit die voor ten minste
@@ -3995,7 +3995,7 @@ van dividenden die zijn verkregen door
 tussenkomst van gemeenschappelijke
 beleggingsfondsen.
 
-----------
+
 
 Vanaf 29 juli 2025, wordt artikel 21, eerste
 lid, aangevuld met een 15°, luidend als volgt
@@ -4013,7 +4013,7 @@ dat in toepassing van die bepaling in hoofde
 van de belastingplichtige als dividend werd
 aangemerkt.
 
-----------
+
 
 Voor de toepassing van het eerste lid, 12°,
 en artikel 5/1, § 1, derde lid, worden de oudst
@@ -4030,7 +4030,7 @@ bewijs moet worden geleverd dat aan de in het
 eerste lid, 13°, vermelde voorwaarden wordt
 voldaan.
 
-------------------------------
+
 (1) art. 2bis, KB/WIB 92.
 
 De Koning wijzigt desgevallend het in het
@@ -4079,10 +4079,10 @@ bewijskrachtige gegevens worden die kosten
 forfaitair geraamd volgens percentages die de
 Koning bepaalt (1).
 
-------------------------------
+
 (1) art. 3 tot 5, KB/WIB 92.
 
-----------
+
 
 ##### Afdeling IV.- Beroepsinkomen.
 
@@ -4136,7 +4136,7 @@ tijdperken afgetrokken.
 en de volgorde waarin de vrijstellingen en
 aftrekken worden aangerekend.
 
-------------------------------
+
 (1) art. 6 tot 10, KB/WIB 92.
 
 B.- Winst.
@@ -4494,7 +4494,7 @@ Koning bepaalt (1) de voorwaarden waaraan
 de keuze en het behoud ervan zijn
 onderworpen ;
 
-------------------------------
+
 (1) art. 12 tot 16, KB/WIB 92.
 
 3° Europese economische samenwerkingsverbanden ;
@@ -4590,7 +4590,7 @@ voor bezoldigingen die belastbaar zijn ten name
 van werknemers die volledig, hoofdzakelijk of
 bijkomend met fooien bezoldigd worden.
 
-------------------------------
+
 (1) art. 17, KB/WIB 92.
 
 Als bezoldigingen zijn eveneens belastbaar,
@@ -5035,7 +5035,7 @@ indiensttreding van de belastingplichtige in België.
 De Koning bepaalt de vorm en de inhoud van het
 formulier dat hiertoe moet worden ingevuld.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -5065,7 +5065,7 @@ de belastingplichtige in België. De Koning bepaalt
 de vorm en de inhoud van het formulier dat hiertoe
 moet worden ingevuld.
 
-----------
+
 
 In bijlage bij de in het eerste en tweede lid
 bedoelde aanvraag moet een door de betrokken
@@ -5375,7 +5375,7 @@ de belastingplichtige in België. De Koning bepaalt
 de vorm en de inhoud van het formulier dat hiertoe
 moet worden ingevuld.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -5404,7 +5404,7 @@ belastingplichtige in België. De Koning bepaalt de
 vorm en de inhoud van het formulier dat hiertoe
 moet worden ingevuld.
 
-----------
+
 
 In bijlage bij de in het eerste en tweede lid
 bedoelde aanvraag moet een door de betrokken
@@ -5784,7 +5784,7 @@ In de gevallen die Hij bepaalt kan de
 Koning (1) regels stellen om die voordelen op een
 vast bedrag te ramen.
 
-------------------------------
+
 (1) art. 18, KB/WIB 92.
 
 § 2. Het voordeel van alle aard voor het
@@ -5897,7 +5897,7 @@ in de Ministerraad, de in het negende lid bedoelde
 minimale energiecapaciteit verhogen tot maximaal
 2,1 kWh per 100 kilogram van het wagengewicht.
 
-------------------------------
+
 (1) KB 05.09.2019 – BS 17.09.2019 gewijzigd bij KB
 20.12.2020 – BS 29.12.2020, ed. 2
 
@@ -6256,7 +6256,7 @@ werkelijke kosten voor de verplaatsingen in
 het kader van die prestaties, voor zover de in
 § 4 gestelde voorwaarden worden nageleefd.
 
-----------
+
 
 24° ten belope van een maximumbedrag van
 2756 euro per kalenderjaar, de nietrecurrente resultaatsgebonden voordelen
@@ -7073,7 +7073,7 @@ uitoefenen van de beroepswerkzaamheid slechts te
 zijn gebruikt vanaf de datum waarop aan die
 voorwaarde is voldaan.
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 42, als
 volgt :
@@ -7085,7 +7085,7 @@ de beroepswerkzaamheid slechts te zijn gebruikt
 vanaf de datum waarop aan die voorwaarde is
 voldaan.
 
-----------
+
 
 ## Art. 43
 
@@ -7145,7 +7145,7 @@ schadevergoeding of de verkoopwaarde wordt
 herbelegd op de wijze en binnen de termijn als
 hierna gesteld.
 
-----------
+
 
 Vanaf 31 augustus 2025, luidt artikel 44bis,
 § 1, 1e lid, als volgt:
@@ -7159,7 +7159,7 @@ schadevergoeding of de verkoopwaarde wordt
 herbelegd op de wijze en binnen de termijn als
 hierna gesteld.
 
-----------
+
 
 De meerwaarden moeten zijn verwezenlijkt :
 
@@ -7194,7 +7194,7 @@ bepaald door de Koning (1), bij een besluit
 vastgesteld na overleg in de Ministerraad en die in
 België voor het uitoefenen van de
 beroepswerkzaamheid worden gebruikt.
-------------------------------
+
 (1) art. 20, KB/WIB 92.
 
 § 3. De herbelegging moet uiterlijk bij de
@@ -7273,7 +7273,7 @@ door de Koning (1) zijn bepaald, bij een
 besluit vastgesteld na overleg in de
 Ministerraad ;
 
-------------------------------
+
 (1) art. 21, KB/WIB 92.
 
 2° bestemd zijn voor de commerciële vaart ;
@@ -7461,7 +7461,7 @@ volledige en definitieve stopzetting van één of meer
 bedrijfsafdelingen of takken van werkzaamheid,
 worden volledig maar tijdelijk vrijgesteld :
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 46, §
 1e lid, inleidende zin, als volgt :
@@ -7474,7 +7474,7 @@ volledige en definitieve stopzetting van één of meer
 bedrijfstakken, worden volledig maar tijdelijk
 vrijgesteld :
 
-----------
+
 
 1° wanneer ofwel de onderneming, ofwel de
 beroepswerkzaamheid, ofwel één of meer
@@ -7486,7 +7486,7 @@ persoon die de onderneming, de
 beroepswerkzaamheid, de bedrijfsafdeling of
 de tak van werkzaamheid heeft gestaakt ;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 46, §
 1e lid, 1°, als volgt :
@@ -7500,7 +7500,7 @@ persoon die de onderneming, de
 beroepswerkzaamheid, de bedrijfstak heeft
 gestaakt ;
 
-----------
+
 
 2° wanneer zij zijn verkregen of vastgesteld, ter
 gelegenheid van de inbreng van één of meer
@@ -7510,7 +7510,7 @@ goederen in een vennootschap, tegen
 verkrijging van aandelen die het kapitaal van
 die vennootschap vertegenwoordigen ;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 46, §
 1e lid, 2°, als volgt :
@@ -7522,7 +7522,7 @@ goederen in een vennootschap, tegen
 verkrijging van aandelen die het kapitaal van
 die vennootschap vertegenwoordigen ;
 
-----------
+
 
 3° wanneer zij zijn verkregen of vastgesteld
 naar aanleiding van een inbreng in een
@@ -7585,7 +7585,7 @@ onderneming van die bedrijfsafdeling of tak van
 werkzaamheid zijn opgenomen zonder het
 hoofdbestanddeel daarvan te vormen.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 46, §
 6e lid, als volgt :
@@ -7597,7 +7597,7 @@ indien zij normaal in de onderneming van die
 bedrijfstak zijn opgenomen zonder het
 hoofdbestanddeel daarvan te vormen.
 
-----------
+
 
 (…)
 
@@ -7784,7 +7784,7 @@ geboekt om het hoofd te bieden aan scherp
 omschreven verliezen of kosten die volgens de aan
 de gang zijnde gebeurtenissen waarschijnlijk zijn.
 
-------------------------------
+
 (1) art. 22 tot 27, KB/WIB 92.
 
 De waardeverminderingen en voorzieningen
@@ -8288,7 +8288,7 @@ beroepswerkzaamheid noodzakelijk zijn in
 het kader van een mogelijke of werkelijke
 relatie van leverancier tot klant ;
 
-------------------------------
+
 (1) 25 pct. overeenkomstig artikel 364, 2°, van de
 programmawet van 27 december 2004 - BS
 31 december 2004, ed. 2 – err. 18 januari 2005 - V
@@ -8343,7 +8343,7 @@ maaltijdcheques wanneer die tussenkomst
 voldoet aan de in artikel 38/1 gestelde
 voorwaarden;
 
-----------
+
 
 Vanaf 31 december 2025 luidt artikel 53,
 14°, volgt :
@@ -8360,7 +8360,7 @@ voorwaarden, verhoogd tot 4 euro wanneer
 die tussenkomst het bedrag bedoeld in artikel
 38/1, § 2, eerste lid, 5°, bereikt;
 
-----------
+
 
 15° verliezen van vennootschappen ten laste
 genomen door natuurlijke personen,
@@ -8778,7 +8778,7 @@ verantwoord door individuele fiches die worden
 overgelegd in de vorm en binnen de termijn die de
 Koning bepaalt (1) :
 
-------------------------------
+
 (1) art. 30 tot 33 en 86 tot 95, KB/WIB 92.
 
 1° commissies, makelaarslonen, handels- of
@@ -8910,7 +8910,7 @@ dan de normale brutojaarbezoldiging ;
 overleggen in de vorm en binnen de
 termijnen die de Koning bepaalt (1) ;
 
-------------------------------
+
 (1) art. 35, KB/WIB 92.
 
 5° de inlichtingen die worden gevraagd bij
@@ -9047,7 +9047,7 @@ Staatsblad.
 Hij bepaalt de voorwaarden en de wijze van
 toepassing van deze bepaling.
 
-------------------------------
+
 (1) art. 34 en 35, KB/WIB 92.
 
 § 6. Voorschotten op prestaties, inpandgevingen van pensioenrechten voor het waarborgen
@@ -9159,7 +9159,7 @@ De Koning bepaalt (1) de vaste activa
 waarop de degressieve afschrijving van toepassing
 is.
 
-------------------------------
+
 (1) art. 36 tot 43, KB/WIB 92.
 
 Het bedrag van de degressieve
@@ -9239,7 +9239,7 @@ inkomstenbelastingen 1992 wat de invoering
 van de verplichting tot elektronische
 facturering betreft;
 
-----------
+
 
 Vanaf 1 januari 2028 (en van toepassing
 vanaf aanslagjaar 2029 verbonden aan een
@@ -9249,7 +9249,7 @@ opgeheven.
 
 1° …
 
-----------
+
 
 2° de volgende kosten die zijn gedaan of
 gedragen inzake beveiliging :
@@ -9505,7 +9505,7 @@ van de in artikel 65 bedoelde voertuigen zijn niet
 aftrekbaar, tenzij het een voertuig betreft dat geen
 CO2 uitstoot.
 
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 66, § 1,
 als volgt :
@@ -9523,7 +9523,7 @@ betreft;
 - 95 pct. indien het een in 2027 aangekocht,
 geleased of gehuurd voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt artikel 66, § 1,
 als volgt :
@@ -9544,7 +9544,7 @@ geleased of gehuurd voertuig betreft;
 - 90 pct. indien het een in 2028 aangekocht,
 geleased of gehuurd voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2029, luidt artikel 66, § 1,
 als volgt :
@@ -9568,7 +9568,7 @@ geleased of gehuurd voertuig betreft;
 - 82,5 pct. indien het een in 2029 aangekocht,
 geleased of gehuurd voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2030, luidt artikel 66, § 1,
 als volgt :
@@ -9595,7 +9595,7 @@ geleased of gehuurd voertuig betreft;
 - 75 pct. indien het een in 2030 aangekocht,
 geleased of gehuurd voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2031, luidt artikel 66, § 1,
 als volgt :
@@ -9626,7 +9626,7 @@ geleased of gehuurd voertuig betreft;
 aangekocht, geleased of gehuurd voertuig
 betreft.
 
-----------
+
 
 Vanaf 1 januari 2026, wordt een § 1/1
 ingevoegd, luidend als volgt :
@@ -9659,7 +9659,7 @@ percentage niet hoger zijn dan het in paragraaf 1
 bedoelde tarief voor voertuigen die geen CO2
 uitstoten.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt § 1/1 , 2e lid,
 als volgt :
@@ -9679,7 +9679,7 @@ CO2 uitstoten;
 - 65 pct. indien het een voertuig betreft dat in
 2028 is gekocht, geleased of gehuurd.
 
-----------
+
 
 Vanaf 1 januari 2029, wordt § 1/1 , 2e lid
 aangevuld met een streepje, luidend als volgt :
@@ -9687,7 +9687,7 @@ aangevuld met een streepje, luidend als volgt :
 - 57,5 pct. indien het een voertuig betreft dat
 in 2029 is gekocht, geleased of gehuurd.
 
-----------
+
 
 Vanaf 1 januari 2030, wordt § 1/1 , 2e lid
 aangevuld met een streepje, luidend als volgt :
@@ -9696,7 +9696,7 @@ aangevuld met een streepje, luidend als volgt :
 vanaf 1 januari 2030 is gekocht, geleased of
 gehuurd.
 
-----------
+
 
 Indien het in artikel 65 bedoelde voertuig een
 oplaadbaar hybridevoertuig is, gekocht, geleased of
@@ -9718,11 +9718,11 @@ vermenigvuldigd met 2,5.
 De Koning bepaalt wat moet worden
 verstaan onder overeenstemmend voertuig.
 
-----------
+
 
 § 2. Paragraaf 1 is niet van toepassing :
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -9733,7 +9733,7 @@ inleidende zin van artikel 66, § 2, als volgt :
 § 2. De paragrafen 1 en 1/1 en artikel 550
 zijn niet van toepassing :
 
-----------
+
 
 1° op voertuigen die uitsluitend gebruikt
 worden voor een taxidienst of voor verhuring
@@ -9775,7 +9775,7 @@ van die derde wordt belast en de eigen
 bijdrage van die derde voor het persoonlijk
 gebruik van dat voertuig.
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -9804,7 +9804,7 @@ van die derde wordt belast en de eigen
 bijdrage van die derde voor het persoonlijk
 gebruik van dat voertuig.
 
-----------
+
 
 § 4. In afwijking van § 1 worden de
 beroepskosten met betrekking tot de verplaatsing
@@ -9816,7 +9816,7 @@ voertuigen die, overeenkomstig artikel 5, § 1, 3°,
 van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, van de
 verkeersbelasting zijn vrijgesteld.
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -9838,7 +9838,7 @@ vrijgesteld, noch voor voertuigen waarvan de
 beroepskosten overeenkomstig paragraaf 1 niet
 aftrekbaar zijn.
 
-----------
+
 
 § 5. Het in § 4 vermelde forfaitair bedrag
 mag uitsluitend worden toegekend aan de
@@ -9874,7 +9874,7 @@ belastingplichtige wordt belast, desgevallend
 verhoogd met de bijdrage bedoeld in artikel 36, § 2,
 laatste lid.
 
-----------
+
 
 Vanaf 1 januari 2030, wordt artikel 66,
 aangevuld met een § 6, luidend als volgt :
@@ -9884,7 +9884,7 @@ januari 2030 aangekochte, geleasede of gehuurde
 laadstations voor elektrische wagens zijn slechts ten
 belope van 75 pct. aftrekbaar.
 
-----------
+
 
 ## Art. 66bis
 
@@ -9910,7 +9910,7 @@ als bedoeld in artikel 38, § 1, eerste lid, 14°, a,
 wordt gedaan, bij gebrek aan bewijzen, forfaitair
 bepaald op 0,177 euro per afgelegde kilometer.
 
-------------------------------
+
 (1) art. 431, KB/WIB 92.
 
 (2) Vanaf aanslagjaar 2003 : 50 kilometer (art. 1, KB van
@@ -9937,14 +9937,14 @@ B. - Economische vrijstellingen.
 
 1° Uitvoer - Integrale kwaliteitszorg
 
-----------
+
 
 Vanaf aanslagjaar 2027, wordt het
 onderdeel 1° opgeheven.
 
 1° …
 
-----------
+
 
 ## Art. 67
 
@@ -9993,7 +9993,7 @@ geval, vermeerderd of verminderd met dat bedrag.
 § 5. De Koning (1) regelt de wijze van
 uitvoering van dit artikel.
 
-------------------------------
+
 (1) art. 44 tot 46, KB/WIB 92.
 
 § 6. Wanneer de economische
@@ -10001,13 +10001,13 @@ omstandigheden zulks rechtvaardigen kan de
 Koning de in de §§ 1 en 2 vermelde bedragen
 verhogen.
 
-------------------------------
+
 Vanaf aanslagjaar 2027, wordt artikel 67
 opgeheven.
 
 …
 
-------------------------------
+
 
 1°bis …
 
@@ -10017,14 +10017,14 @@ opgeheven.
 
 1°ter Bijkomend personeel
 
-----------
+
 
 Vanaf aanslagjaar 2027, wordt het
 onderdeel 1°ter opgeheven.
 
 1°ter …
 
-----------
+
 
 ## Art. 67ter
 
@@ -10095,14 +10095,14 @@ artikelen 46 en 211, blijven de bepalingen van dit
 artikel van toepassing alsof die verrichtingen niet
 hadden plaatsgevonden.
 
-----------
+
 
 Vanaf aanslagjaar 2027, wordt artikel 67ter,
 opgeheven.
 
 …
 
-----------
+
 
 1°quater Sociaal passief ingevolge het
 eenheidsstatuut
@@ -10138,7 +10138,7 @@ werknemer invoeren met betrekking tot de
 bezoldiging als bedoeld in het tweede lid waarop de
 vrijstelling wordt berekend.
 
-------------------------------
+
 (1) art. 46ter, KB/WIB 92.
 
 De Koning zal bij de Kamer van
@@ -10183,7 +10183,7 @@ hadden plaatsgevonden
 De Koning (1) regelt de wijze van uitvoering
 van dit artikel
 
-------------------------------
+
 (1) art. 46quater, KB/WIB 92.
 
 1°quinquies Compensatievergoedingen
@@ -10272,7 +10272,7 @@ de investeringsaftrek worden opgenomen.
 
 ## Art. 69
 
-----------
+
 
 De investeringsaftrek komt in mindering van
 de winst of de baten van het belastbare tijdperk
@@ -10593,7 +10593,7 @@ van de afschrijvingsperiode worden aangenomen.
 
 …
 
-----------
+
 
 ## Art. 71
 
@@ -10818,7 +10818,7 @@ vaste activa moeten voldoen om recht te geven op
 de aftrekken bedoeld in artikel 69, eerste lid, 2° en
 3°.
 
-------------------------------
+
 (1) art. 6 tot 10 en 47 tot 49bis, KB/WIB 92.
 
 De Koning bepaalt de aanvraagprocedure, de
@@ -11145,7 +11145,7 @@ Hij bepaalt, de prijzen en subsidies vrij die
 zijn toegekend door de instellingen die Hij
 erkent ;
 
-------------------------------
+
 (1) art. 53, KB/WIB 92.
 
 2°bis de premies voor de eerste schijf van 30 000
@@ -11190,7 +11190,7 @@ sportinrichting te gebruiken om er
 plakbrieven of andere reclamedragers te
 plaatsen ;
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 90, eerste
 lid, 5°, als volgt :
@@ -11206,7 +11206,7 @@ binnen de omheining van een sportinrichting
 te gebruiken om er plakbrieven of andere
 reclamedragers te plaatsen ;
 
-----------
+
 
 6° loten van effecten van leningen, met
 uitzondering van de loten die van elke
@@ -11284,7 +11284,7 @@ middellijk of onmiddellijk meer dan
 de vennootschap waarvan de aandelen
 worden overgedragen;
 
-----------
+
 
 (1) Opmerking : uittreksel uit arrest nr. 124/2023 van
 het Grondwettelijk Hof 21.09.2023 (rolnummer
@@ -11300,7 +11300,7 @@ door de belastingplichtigen die diverse inkomsten
 vermeld in artikel 90, eerste lid, 9°, eerste streepje,
 van het WIB 1992 verkrijgen.
 
-----------
+
 
 10° meerwaarden die naar aanleiding van een
 overdracht onder bezwarende titel zijn
@@ -11407,7 +11407,7 @@ administratie wordt ingediend. Het gebruik van het
 rijksregisternummer is beperkt tot het doeleinde
 van het opstellen van het voornoemde document.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 , datum respectievelijk te bepalen door de Koning),
@@ -11434,7 +11434,7 @@ administratie wordt verzonden. Het gebruik van het
 rijksregisternummer is beperkt tot het doeleinde
 van het opstellen van het voornoemde document
 
-----------
+
 
 De inkomsten van onroerende goederen, de
 in artikel 17, § 1, 3° en 5°, bedoelde inkomsten van
@@ -11466,7 +11466,7 @@ ingediend. Het gebruik van het rijksregisternummer
 is beperkt tot het doeleinde van het opstellen van
 het voornoemde document.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 , datum respectievelijk te bepalen door de Koning),
@@ -11493,7 +11493,7 @@ verzonden. Het gebruik van het
 rijksregisternummer is beperkt tot het doeleinde
 van het opstellen van het voornoemde document.
 
-----------
+
 
 ## Art. 90/1
 
@@ -11805,7 +11805,7 @@ vermelde uitkeringen of kapitalen worden in
 aanmerking genomen tot 70 pct. van het aan de
 verkrijger betaalde of toegekende bedrag.
 
-----------
+
 
 Vanaf 1 januari 2026, luidt artikel 99, als
 volgt :
@@ -11815,7 +11815,7 @@ vermelde uitkeringen of kapitalen worden in
 aanmerking genomen tot 60 pct. van het aan de
 verkrijger betaalde of toegekende bedrag.
 
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 99, als
 volgt :
@@ -11825,7 +11825,7 @@ vermelde uitkeringen of kapitalen worden in
 aanmerking genomen tot 50 pct. van het aan de
 verkrijger betaalde of toegekende bedrag.
 
-----------
+
 
 ## Art. 100
 
@@ -12012,7 +12012,7 @@ inachtneming van het bepaalde in de §§ 1 en 2
 regels voor de vaststelling van de belastbare
 meerwaarden.
 
-------------------------------
+
 (1) art. 54, KB/WIB 92.
 
 ## Art. 102
@@ -12123,7 +12123,7 @@ uitkeringen betaald voor kinderen voor welke
 voor een vorig aanslagjaar artikel 132bis
 werd toegepast, niet aftrekbaar ;
 
-----------
+
 
 Vanaf 1 januari 2026, luidt artikel 104, 1°
 en 2°, als volgt :
@@ -12154,7 +12154,7 @@ uitkeringen betaald voor kinderen voor welke
 voor een vorig aanslagjaar artikel 132bis
 werd toegepast, niet aftrekbaar ;
 
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 104, 1°
 en 2°, als volgt :
@@ -12185,7 +12185,7 @@ uitkeringen betaald voor kinderen voor welke
 voor een vorig aanslagjaar artikel 132bis
 werd toegepast, niet aftrekbaar ;
 
-----------
+
 
 3° …
 
@@ -12230,7 +12230,7 @@ de andere echtgenoot aangerekend.
 De Koning bepaalt (1) de wijze waarop de
 uitgaven van de verschillende inkomstencategorieën worden afgetrokken.
 
-------------------------------
+
 (1) art. 56, KB/WIB 92.
 
 B.- …
@@ -12372,7 +12372,7 @@ artikelen gestelde beperkingen.
 De Koning bepaalt (1) de wijze waarop de
 aanrekening gebeurt.
 
-------------------------------
+
 (1) art. 63, KB/WIB 92.
 
 ##### Afdeling VIII. -. Beperking van de voordelen in
@@ -12394,7 +12394,7 @@ verminderd in verhouding tot de duur van het
 belastbare tijdperk uitgedrukt in maanden ten
 opzichte van 12 maanden.
 
-----------
+
 
 Vanaf aanslagjaar 2027, luidt artikel 129/1,
 1e lid, alst volgt:
@@ -12412,7 +12412,7 @@ verminderd in verhouding tot de duur van het
 belastbare tijdperk uitgedrukt in maanden ten
 opzichte van 12 maanden.
 
-----------
+
 
 Om de duur van het belastbare tijdperk
 uitgedrukt in maanden te bepalen, wordt elke
@@ -12503,7 +12503,7 @@ vermindering voor kinderoppas ;
 artikel 136, 2° en 3°, en die de leeftijd van
 66 jaar heeft bereikt en zorgbehoevend is:
 2610 EUR ;
-----------
+
 
 Vanaf aanslagjaar 2031, luidt artikel 132,
 ste lid, 7°, als volgt :
@@ -12512,7 +12512,7 @@ ste lid, 7°, als volgt :
 artikel 136, 2° en 3°, en die de leeftijd van
 67 jaar heeft bereikt en zorgbehoevend is:
 2610 EUR ;
-----------
+
 
 8° voor iedere andere persoon ten laste :
 870 EUR.
@@ -13339,7 +13339,7 @@ bepaalde bedrag.
 De Koning bepaalt (1) de voorwaarden en de
 wijze van toepassing van deze bepaling.
 
-------------------------------
+
 (1) art. 631, KB/WIB 92.
 
 Voorschotten op prestaties, inpandgevingen
@@ -13715,7 +13715,7 @@ De Koning bepaalt (1) de voorwaarden en de
 wijze waarop de vermindering ingevolge
 artikel 1451, 2° en 3°, wordt toegepast.
 
-------------------------------
+
 (1) art. 632 tot 634, KB/WIB 92
 
 E.- Verwerving van werkgeversaandelen
@@ -13793,7 +13793,7 @@ voormelde bedrag kan bij een in Ministerraad
 overlegd koninklijk besluit tot ten hoogste
 1.000 EUR worden verhoogd.
 
-------------------------------
+
 
 (1) art. 634bis, KB/WIB 92
 
@@ -13949,7 +13949,7 @@ elke houder.
 De in het eerste lid bedoelde kennisgeving
 geschiedt in de vorm en binnen de termijn die de
 Koning bepaalt (1).
-------------------------------
+
 (1) art. 635, KB/WIB 92.
 
 ## Art. 14511
@@ -14210,7 +14210,7 @@ artikel 14511.
 De Koning bepaalt (1) de wijze waarop de
 toepassing van dit artikel wordt nagegaan.
 
-------------------------------
+
 (1) art. 635, KB/WIB 92.
 
 ## Art. 14513
@@ -14268,7 +14268,7 @@ overlijden ; die delen worden op naam
 ingeschreven bij een van de in artikel 14515,
 eerste lid, vermelde instellingen ;
 
-------------------------------
+
 (1) art. 636 tot 639, KB/WIB 92.
 
 2° individuele spaarrekening, de door de
@@ -14350,7 +14350,7 @@ waaraan de in artikel 14521 vermelde uitgaven
 moeten voldoen om voor belastingvermindering in
 aanmerking te komen.
 
-------------------------------
+
 (1) art. 6310, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -14441,7 +14441,7 @@ grootstedelijk beleid voor een periode van 6
 kalenderjaren. Een hernieuwing van de periode is
 mogelijk.
 
-------------------------------
+
 (1) KB van 04.06.2003 – BS 20.06.2003 - err. 21.11.2003,
 ed.2.
 Gewijzigd bij KB van 18.12.2009 – BS 30.12.2009
@@ -15068,7 +15068,7 @@ moet vervullen om aan te tonen dat aan de in § 2,
 derde en zesde lid, gestelde voorwaarden wordt
 voldaan.
 
---------------------
+
 (1) art. 6312/1, KB/WIB 92
 
 ##### Onderafdeling IIsepties/1.- …
@@ -15543,7 +15543,7 @@ uitvoering van het vorige lid genomen besluiten.
 De Koning bepaalt (1) tevens de
 toepassingsmodaliteiten van de vermindering.
 
-------------------------------
+
 (1) art. 6314, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -15612,7 +15612,7 @@ uitvoering van het vorige lid genomen besluiten.
 De Koning bepaalt (1) tevens de
 toepassingsmodaliteiten van de vermindering.
 
-------------------------------
+
 (1) art. 6315 tot 6318, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -15638,14 +15638,14 @@ Vermindering voor uitgaven voor een
 ontwikkelingsfonds -
 Terugname van de vermindering
 
-----------
+
 
 Vanaf aanslagjaar 2031, wordt de
 onderafdeling IIterdecies, opgeheven.
 
 …
 
-----------
+
 
 ## Art. 14532
 
@@ -15707,14 +15707,14 @@ maanden die in aanmerking komen voor de
 berekening van de terugname van de
 vermindering.
 
-----------
+
 
 Vanaf aanslagjaar 2031, wordt art. 14532,
 opgeheven.
 
 …
 
-----------
+
 
 ##### Onderafdeling IIquaterdecies -
 
@@ -15991,7 +15991,7 @@ vervullen opdat de giften voor de
 belastingvermindering in aanmerking kunnen
 komen.
 
-------------------------------
+
 (1) art. 6318/1 tot 6318/7, KB/WIB 92.
 
 In afwijking van paragraaf 1, tweede lid,
@@ -16017,7 +16017,7 @@ g, i tot l, 2° en 3°, vermelde verenigingen en
 instellingen die in België zijn gevestigd, worden
 erkend.
 
-------------------------------
+
 (1) art. 6318/1 tot 6318/7, KB/WIB 92.
 
 Wanneer een vereniging of instelling meer
@@ -16318,7 +16318,7 @@ wanneer ze als zodanig zijn erkend door de
 bevoegde overheid.
 
 De Koning (1) bepaalt de toepassingsmodaliteiten van de belastingvermindering.
-------------------------------
+
 (1) art. 6318/9 KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -16639,7 +16639,7 @@ goederen en de diensten bij die tarieven.
 
 § 3 De Koning .(1) bepaalt de toepassingsmodaliteiten van de in artikel 14537 bedoelde
 vermindering.
-------------------------------
+
 (1) art. 6318/10 KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -16840,7 +16840,7 @@ artikel 114 van de wet van 22 december 2008
 houdende diverse bepalingen I.
 
 § 5. De Koning (1) bepaalt de toepassingsmodaliteiten van de belastingvermindering.
-------------------------------
+
 (1) art. 6318/11 tot 6318/13, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -17301,7 +17301,7 @@ tot die werken, waarvan de Koning (1)
 de aard bepaalt, zijn verstrekt en
 gefactureerd aan de belastingplichtige.
 
-------------------------------
+
 (1) art. 6318/14 KB/WIB 92.
 
 § 3. De in paragraaf 2 bedoelde interesten
@@ -17600,7 +17600,7 @@ de beide echtgenoten.
 De Koning (1) bepaalt de voorwaarden
 waaraan de werken in verband met de in het eerste
 lid bedoelde uitgaven moeten voldoen.
-------------------------------
+
 (1) art. 6318/15 KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -17894,7 +17894,7 @@ aan 40 pct. van de belasting die overblijft na
 toepassing van de artikelen 147 tot 153 wanneer
 het totale netto-inkomen uitsluitend bestaat uit :
 
-----------
+
 
 Vanaf aanslagjaar 2027, luidt de inleidende
 zin van artikel 154, § 2, eerste lid, als volgt:
@@ -17904,7 +17904,7 @@ aan 20 pct. van de belasting die overblijft na
 toepassing van de artikelen 147 tot 153 wanneer
 het totale netto-inkomen uitsluitend bestaat uit :
 
-----------
+
 
 1° werkloosheidsuitkeringen en het bedrag van
 die uitkeringen niet hoger is dan het
@@ -17933,7 +17933,7 @@ uitsluitend bestaat uit werkloosheidsuitkeringen, is
 de bijkomende vermindering gelijk aan 40 pct. van
 het positieve verschil tussen :
 
-----------
+
 
 Vanaf aanslagjaar 2027, luidt de inleidende
 zin van artikel 154, § 3, eerste lid, als volgt:
@@ -17944,7 +17944,7 @@ uitsluitend bestaat uit werkloosheidsuitkeringen, is
 de bijkomende vermindering gelijk aan 20 pct. van
 het positieve verschil tussen :
 
-----------
+
 
 1° het bedrag van de belasting dat nog
 overblijft na toepassing van de artikelen 147
@@ -17972,7 +17972,7 @@ vervangingsinkomsten anderzijds is de bijkomende
 vermindering gelijk aan 40 pct. van het positieve
 verschil tussen :
 
-----------
+
 
 Vanaf aanslagjaar 2027, luidt de inleidende
 zin van artikel 154, § 3/1, eerste lid, als volgt:
@@ -17984,7 +17984,7 @@ vervangingsinkomsten anderzijds is de bijkomende
 vermindering gelijk aan 20 pct. van het positieve
 verschil tussen :
 
-----------
+
 
 1° het bedrag van de belasting dat nog
 overblijft na toepassing van de artikelen 147
@@ -18021,14 +18021,14 @@ maximumbedrag bepaald op basis van de bedragen
 van de wettelijke werkloosheidsuitkering voor het
 vierde jaar voorafgaand aan het aanslagjaar.
 
-----------
+
 
 Vanaf aanslagjaar 2028, wordt artikel 154,
 opgeheven.
 
 …
 
-----------
+
 
 ##### Onderafdeling Illbis. - Vermindering voor
 
@@ -18149,7 +18149,7 @@ van toepassing is ;
 een wettelijke overwerktoeslag van 50 of
 100 pct. van toepassing is.
 
--------------------
+
 (1) art. 6319, KB/WIB 92
 
 De Koning zal bij de Kamer van
@@ -18350,7 +18350,7 @@ Koning (1) bij in Ministerraad overlegd besluit een
 hoger of lager percentage van vermeerdering
 vaststellen.
 
-------------------------------
+
 (1) art. 64 tot 71, KB/WIB 92.
 
 Geen vermeerdering wordt toegepast op de
@@ -18424,7 +18424,7 @@ boekjaar dat op een andere datum dan 31 december
 wordt afgesloten, dan wel op een
 seizoenwerkzaamheid.
 
-------------------------------
+
 (1) art. 64 tot 71, KB/WIB 92.
 
 ## Art. 168
@@ -18548,7 +18548,7 @@ van die kapitalen en afkoopwaarden volgens door
 de Koning in Ministerraad overlegd besluit (1)
 vastgestelde coëfficiënten die niet meer dan 5 pct.
 mogen bedragen:
-------------------------------
+
 (1) art. 73, KB/WIB 92.
 
 1° de kapitalen die de aard hebben van een
@@ -19657,7 +19657,7 @@ werkloosheidsuitkering verminderd in verhouding
 tot de duur van het belastbare tijdperk uitgedrukt in
 maanden ten opzichte van 12 maanden.
 
-----------
+
 
 Vanaf aanslagjaar 2028, luidt artikel 174/1,
 eerste lid, als volgt :
@@ -19679,7 +19679,7 @@ verminderd in verhouding tot de duur van het
 belastbare tijdperk uitgedrukt in maanden ten
 opzichte van 12 maanden.
 
-----------
+
 
 Om de duur van het belastbare tijdperk
 uitgedrukt in maanden te bepalen, wordt elke
@@ -19701,7 +19701,7 @@ eerste lid te zijn verminderd, afgerond tot de
 hogere of lagere cent, naargelang het cijfer van de
 duizendsten al dan niet 5 bereikt.
 
-----------
+
 
 Vanaf aanslagjaar 2028, luidt artikel 174/1,
 vierde lid, als volgt :
@@ -19713,7 +19713,7 @@ te zijn verminderd, afgerond tot de hogere of lagere
 cent, naargelang het cijfer van de duizendsten al
 dan niet 5 bereikt.
 
-----------
+
 
 ##### Afdeling III.- Bonificatie voor voorafbetaling van
 
@@ -19740,7 +19740,7 @@ wordt een bonificatie verleend in zover die
 belasting op de door de Koning vastgestelde wijze
 is voorafbetaald (1).
 
-------------------------------
+
 
 (1) art. 64 tot 71, KB/WIB 92.
 
@@ -19924,7 +19924,7 @@ In afwijking van het eerste lid, 2°, wordt wat
 de in de artikelen 147, 151 tot 152 en 154 vermelde
 bedragen betreft, de aanpassing verwezenlijkt:
 
-----------
+
 
 Vanaf aanslagjaar 2028, luidt de inleidende
 zin van artikel 178, § 3, derde lid, als volgt :
@@ -19933,7 +19933,7 @@ In afwijking van het eerste lid, 2°, wordt wat
 de in de artikelen 147 en 151 tot 152 vermelde
 bedragen betreft, de aanpassing verwezenlijkt:
 
-----------
+
 
 1° voor de aanslagjaren 2015 tot 2018 met de
 coëfficiënt die wordt verkregen door het
@@ -20006,14 +20006,14 @@ volgende bedragen niet geïndexeerd :
 3° de bedragen van het brutodag- of uurloon
 bedoeld in artikel 67ter, § 1;
 
-----------
+
 
 Vanaf aanslagjaar 2027, wordt art. 178, § 5,
 3°, opgeheven.
 
 3° …
 
-----------
+
 
 3°/1 de in de artikelen 134, § 3, tweede lid, en
 145, tweede lid, bedoelde bedragen;
@@ -20417,7 +20417,7 @@ de vennootschap waarvan ze de
 vertegenwoordiging zijn. Voor het overige wordt
 deze inbreng als een belaste reserve aangemerkt.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 184,
 erde lid, als volgt :
@@ -20443,7 +20443,7 @@ kapitaal van de vennootschap waarvan ze de
 vertegenwoordiging zijn. Voor het overige wordt
 deze inbreng als een belaste reserve aangemerkt.
 
-----------
+
 
 In de andere gevallen dan het in het vorige
 lid bedoelde geval, wordt het gestort kapitaal
@@ -20472,7 +20472,7 @@ gerealiseerde meerwaarde wordt vrijgesteld
 krachtens artikel 46, § 1, eerste lid, 2°, is het door
 die inbreng gestorte kapitaal gelijk aan de fiscale
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 184bis,
 1, 1e lid, als volgt :
@@ -20485,7 +20485,7 @@ is het door die inbreng gestorte kapitaal gelijk aan
 de fiscale nettowaarde die de inbreng had bij de
 inbrenger.
 
-----------
+
 
 Ingeval deze verrichting niet valt onder
 artikel 46, § 1, eerste lid, 2°, met als enige reden
@@ -20531,7 +20531,7 @@ aanleiding van deze verrichting verkregen nettoboekwaarde van deze verkregen inr
 bestanddelen, gestort kapitaal ten name van deze
 binnenlandse vennootschap.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 184bis,
 3, 1e lid, als volgt :
@@ -20551,7 +20551,7 @@ verkregen netto-boekwaarde van deze verkregen
 inrichting of bestanddelen, gestort kapitaal ten
 name van deze binnenlandse vennootschap.
 
-----------
+
 
 Deze netto-boekwaarde is gelijk aan de
 boekwaarde van de activa van de inrichting of van
@@ -20610,7 +20610,7 @@ daarenboven op de vrijgestelde waardeverminderingen en provisies, die als dusdan
 voorkomen in de boekhouding van de
 overnemende of verkrijgende vennootschappen.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 184bis,
 4, derde lid, als volgt :
@@ -20647,7 +20647,7 @@ daarenboven op de vrijgestelde waardeverminderingen en provisies, die als dusdan
 voorkomen in de boekhouding van de
 overnemende of verkrijgende vennootschappen.
 
-----------
+
 
 § 5. Ingeval een buitenlandse vennootschap
 haar voornaamste inrichting of zetel van bestuur of
@@ -20904,7 +20904,7 @@ boekhouding van de overnemende of verkrijgende
 vennootschappen. Deze totale fiscale nettowaarde
 kan niet lager zijn dan nul.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 184ter,
 3, tweede lid, als volgt :
@@ -20930,7 +20930,7 @@ boekhouding van de overnemende of verkrijgende
 vennootschappen. Deze totale fiscale nettowaarde
 kan niet lager zijn dan nul.
 
-----------
+
 
 ## Art. 184quater
 
@@ -21968,7 +21968,7 @@ schrapping is mogelijk volgens de
 gemeenrechtelijke procedure van beroep in
 administratieve zaken.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -21986,7 +21986,7 @@ beslissing tot schrapping is mogelijk volgens de
 gemeenrechtelijke procedure van beroep in
 administratieve zaken.
 
-----------
+
 
 De paragrafen 1 en 2 zijn opnieuw van
 toepassing voor het belastbaar tijdperk waarin een
@@ -22017,7 +22017,7 @@ schrapping is mogelijk volgens de
 gemeenrechtelijke procedure van beroep in
 administratieve zaken.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -22037,7 +22037,7 @@ beslissing tot schrapping is mogelijk volgens de
 gemeenrechtelijke procedure van beroep in
 administratieve zaken.
 
-----------
+
 
 ## Art. 185ter
 
@@ -22350,7 +22350,7 @@ voorwaarde van behoud gedurende een
 ononderbroken periode van ten minste één jaar in
 volle eigendom is voldaan.
 
-----------
+
 
 Vanaf 25 november 2025, wordt artikel 192, §
 7e lid, vervangen als volgt :
@@ -22391,7 +22391,7 @@ vennootschap, geacht te zijn verkregen op de
 datum waarop de aandelen van de
 overnemende vennootschap zijn verkregen
 
-----------
+
 
 Om vast te stellen of aan de in artikel 202, §
 2, eerste lid, 2°, vermelde voorwaarde is voldaan in
@@ -22687,7 +22687,7 @@ voorzieningen bedoeld in artikel 15, 68°, van de
 wet van 13 maart 2016 op het statuut van en het
 toezicht op de verzekerings- of herverzekeringsondernemingen vrijgesteld.
 
-------------------------------
+
 (1) art. 731 tot 734, KB/WIB 92.
 
 ##### Onderafdeling IV.- Ondernemingen die in het
@@ -22806,7 +22806,7 @@ een eenvoudige procedure waarvan de
 Koning de modaliteiten en voorwaarden
 bepaalt (1) ;
 
-------------------------------
+
 (1) art. 734/1 tot 734/6, KB/WIB 92.
 
 4° in aanmerking komend werk :
@@ -24290,10 +24290,10 @@ van goederen als vermeld in artikel 46, § 1, eerste
 lid, 2°, en ingeval van fusie of splitsing als vermeld
 in artikel 211, § 1.
 
-------------------------------
+
 (1) art. 734bis, KB/WIB 92.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel
 94quater, § 6, eerste lid, als volgt :
@@ -24305,10 +24305,10 @@ algemeenheid van goederen als vermeld in artikel
 46, § 1, eerste lid, 2°, en ingeval van fusie of
 splitsing als vermeld in artikel 211, § 1.
 
-------------------------------
+
 (1) art. 734bis, KB/WIB 92.
 
-----------
+
 
 De Koning kan, bij een na overleg in de
 Ministerraad vastgesteld besluit, een bedrag
@@ -24793,7 +24793,7 @@ De artikelen 51, tweede lid, 5° en 64ter,
 eerste lid, 2° en 3°, tweede en derde lid, zijn niet
 van toepassing.
 
-----------
+
 
 Vanaf 1 januari 2028 (en van toepassing
 vanaf aanslagjaar 2029 verbonden aan een
@@ -24803,13 +24803,13 @@ januari 2028), luidt artikel 194octies, als volgt :
 De artikelen 51, tweede lid, 5°, en 64ter zijn
 niet van toepassing.
 
-----------
+
 
 Artikel 64ter, eerste lid, 1°, is slechts van
 toepassing ten name van vennootschappen die als
 kleine vennootschap worden aangemerkt.
 
-----------
+
 
 Vanaf 1 januari 2028 (en van toepassing
 vanaf aanslagjaar 2029 verbonden aan een
@@ -24819,7 +24819,7 @@ opgeheven.
 
 …
 
-----------
+
 
 Artikel 53, 33°, b, is evenmin van toepassing
 op de huurprijs en huurvoordelen die betrekking
@@ -24989,7 +24989,7 @@ kosten en nalatigheidsinteresten met
 betrekking tot deze niet-aftrekbare
 belastingen, heffingen en retributies ;
 
-----------
+
 
 6° de jaarlijkse taks op de effectenrekeningen
 vermeld in artikel 201/4 van het Wetboek
@@ -25934,7 +25934,7 @@ het gebruik van vóór 1 januari 2018 aangeschafte
 voertuigen gedane of gedragen beroepskosten is
 niet van toepassing.
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -25991,7 +25991,7 @@ Artikel 67sexies is niet van toepassing.
 lid bedoelde basisaftrek van de investeringsaftrek
 bedraagt:
 
-----------
+
 
 Vanaf aanslagjaar 2027, luidt artikel 201, §
 1, 1e lid, inleidende zin, als volgt:
@@ -26000,7 +26000,7 @@ De in artikel 69, eerste lid, 1°, en derde lid
 bedoelde basisaftrek van de investeringsaftrek
 bedraagt:
 
-----------
+
 
 1° voor vaste activa verkregen of tot stand
 gebracht door een vennootschap die als
@@ -26060,14 +26060,14 @@ voor het aanslagjaar dat verbonden is aan het
 belastbare tijdperk waarin die investeringen
 worden verricht.
 
-----------
+
 
 Vanaf aanslagjaar 2027, wordt artikel 201,
 § 2, opgeheven
 
 § 2. …
 
-----------
+
 
 ##### Onderafdeling III.- Aftrekken van de belastbare
 
@@ -26100,7 +26100,7 @@ meerwaarden ;
 
 3° …
 
-----------
+
 
 Vanaf 29 juli 2025, wordt artikel 202, § 1,
 3°, hersteld als volgt :
@@ -26111,7 +26111,7 @@ ook genaamd, ten gevolge van één van de
 verrichtingen bedoeld in artikel 18, eerste
 lid, 2° quater.
 
-----------
+
 
 4° …
 
@@ -26126,7 +26126,7 @@ bepalingen met een gelijkaardig effect in een
 andere Lidstaat van de Europese Economische
 Ruimte, zijn slechts aftrekbaar in zoverre :
 
-----------
+
 
 Vanaf 29 juli 2025, luidt de inleidende zin
 van artikel 202, § 2, eerste lid, als volgt :
@@ -26138,7 +26138,7 @@ bepalingen met een gelijkaardig effect in een
 andere Lidstaat van de Europese Economische
 Ruimte, zijn slechts aftrekbaar in zoverre :
 
-----------
+
 
 1° op de datum van toekenning of
 betaalbaarstelling van deze inkomsten, de
@@ -26211,7 +26211,7 @@ van deze vennootschap die overeenkomstig artikel
 185/2 in hoofde van de binnenlandse vennootschap
 werd belast, geacht eerst te zijn uitgekeerd.
 
-----------
+
 
 Vanaf 29 juli 2025, wordt in artikel 202, een
 § 4 ingevoegd, luidend als volgt :
@@ -26228,7 +26228,7 @@ quater, en tot ten hoogste het bedrag dat in
 toepassing van die bepaling in hoofde van de
 belastingplichtige als dividend werd aangemerkt.
 
-----------
+
 
 ## Art. 203
 
@@ -26363,7 +26363,7 @@ dan 15 pct. ;
 werkelijke belastingdruk overeenstemt, lager
 is dan 15 pct.
 
---------------------
+
 (1) Art. 734quater, KB/WIB 92.
 
 Voor de toepassing van het eerste lid, 1°,
@@ -26646,7 +26646,7 @@ toepassing van artikel 207, negende en tiende lid,
 mogen naar volgende belastbare tijdperken worden
 overgedragen.
 
-----------
+
 
 ##### Onderafdeling IIIbis. -
 
@@ -27340,7 +27340,7 @@ verbonden is met de belastingplichtige en zullen
 deze eveneens aan de toepassingsvoorwaarden van
 dit derde lid moeten voldoen.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 205/5, §
 vijfde lid, als volgt :
@@ -27367,7 +27367,7 @@ belastingplichtige en zullen deze eveneens aan de
 toepassingsvoorwaarden van dit derde lid moeten
 voldoen.
 
-----------
+
 
 Voor de toepassing van dit artikel is een
 binnenlandse of buitenlandse vennootschap die
@@ -27642,7 +27642,7 @@ fiscale nettowaarde van de overnemende of
 verkrijgende vennootschap vóór de verrichting
 gelijk is aan nul.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 206, §
 eerste lid, als volgt :
@@ -27669,7 +27669,7 @@ fiscale nettowaarde van de overnemende of
 verkrijgende vennootschap vóór de verrichting
 gelijk is aan nul.
 
-----------
+
 
 In geval van fusie met toepassing van artikel
 211, § 1, zijn de en de in artikel 205, § 3, bedoelde
@@ -27702,7 +27702,7 @@ inbrengende vennootschap een intra-Europese
 vennootschap is en de verrichting fiscaal neutraal
 is.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 206, §
 vierde lid, als volgt :
@@ -27715,7 +27715,7 @@ overgenomen, gesplitste of inbrengende
 vennootschap een intra-Europese vennootschap is
 en de verrichting fiscaal neutraal is.
 
-----------
+
 
 Ingeval van een verrichting als bedoeld in
 artikel 231, § 2 of § 3 zijn de beroepsverliezen en
@@ -27923,7 +27923,7 @@ in artikel 47 of in een kapitaalsubsidie
 als bedoeld in artikel 362, die deel
 uitmaakt van die inbreng;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 206/1,
 weede lid, h), als volgt :
@@ -27942,7 +27942,7 @@ in artikel 47 of in een kapitaalsubsidie
 als bedoeld in artikel 362, die deel
 uitmaakt van die inbreng;
 
-----------
+
 
 i) de sommen die definitief vrijgesteld
 zijn krachtens artikel 194quinquies,
@@ -28064,14 +28064,14 @@ de opname van de groepsbijdrage in de
 belastbare grondslag van het belastbare
 tijdperk, overschrijdt.
 
-----------
+
 
 Vanaf 9 januari 2026, wordt artikel 206/3, §
 1, 1e lid, achtste streepje, opgeheven.
 
 - …
 
-----------
+
 
 Van het resultaat dat overeenkomstig artikel
 206/2 is vastgesteld, worden eveneens de
@@ -28091,7 +28091,7 @@ belastingverhogingen tegen een percentage
 gelijk of hoger dan 10 pct. effectief worden
 toegepast.
 
-----------
+
 
 Vanaf 9 januari 2026, wordt artikel 206/3, §
 1, 2e lid, aangevuld met een streepje, luidend als
@@ -28104,7 +28104,7 @@ de opname van de groepsbijdrage in de
 belastbare grondslag van het belastbare
 tijdperk, overschrijdt.
 
-----------
+
 
 § 2. Na toepassing van paragraaf 1 wordt
 vervolgens het totale bedrag van het resultaat
@@ -28578,7 +28578,7 @@ vennootschap is ingebracht, voor zover de
 inbrengen worden vergoed met nieuwe
 aandelen die daartoe worden uitgegeven ;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 210, §
 eerste streepje, als volgt :
@@ -28594,7 +28594,7 @@ in andere gevallen, in de mate dat de
 inbrengen worden vergoed met nieuwe
 aandelen die daartoe worden uitgegeven;
 
-----------
+
 
 - de aanschaffingswaarde van de ingebrachte
 bestanddelen geacht overeen te stemmen met
@@ -28730,7 +28730,7 @@ België een overeenkomst ter vermijding van
 de dubbele belasting heeft ondertekend,
 overneemt.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 211, §
 eerste lid, 2°, als volgt :
@@ -28753,7 +28753,7 @@ België een overeenkomst ter vermijding van
 de dubbele belasting heeft ondertekend,
 overneemt.
 
-----------
+
 
 Ingeval van splitsing of met splitsing
 gelijkgestelde verrichting wordt de in het eerste lid,
@@ -28845,7 +28845,7 @@ kapitaal en de reserves, waarbij de vermindering
 van de reserves bij voorrang op de belaste reserves
 wordt aangerekend.
 
-----------
+
 
 Vanaf 25 november 2025, wordt in artikel 211,
 2, tussen het derde en het vierde lid, een nieuw lid
@@ -28857,7 +28857,7 @@ vierde lid, wordt, in afwijking van het eerste lid,
 geen vermindering aangerekend op het gestorte
 kapitaal en de reserves.
 
-----------
+
 
 Geen vermindering wordt aangerekend op de
 meerwaarden en kapitaalsubsidies als bedoeld in
@@ -28992,7 +28992,7 @@ vennootschappen voorheen met vrijstelling van
 belasting hebben deelgenomen, geacht niet te
 hebben plaatsgevonden.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 214,
 § 3, als volgt :
@@ -29006,7 +29006,7 @@ omgezette vennootschappen voorheen met
 vrijstelling van belasting hebben deelgenomen,
 geacht niet te hebben plaatsgevonden.
 
-----------
+
 
 ## Art. 214bis
 
@@ -29375,7 +29375,7 @@ de vennootschap worden teruggevonden en op de
 in artikel 53, 24°, bedoelde financiële voordelen
 of voordelen van alle aard.
 
-----------
+
 Vanaf 29 juli 2025, luidt artikel 219, eerste
 lid, als volgt :
 
@@ -29395,7 +29395,7 @@ teruggevonden en op de in artikel 53, 24°,
 bedoelde financiële voordelen of voordelen van
 alle aard.
 
-----------
+
 
 Die aanslag is gelijk aan 100 pct. van die
 kosten, voordelen van alle aard, inkomsten als
@@ -29409,7 +29409,7 @@ voordelen en die inkomsten als bedoeld in artikel
 rechten betreft, en 5° een rechtspersoon is, in
 welk geval de aanslag gelijk is aan 50 pct.
 
-----------
+
 Vanaf 29 juli 2025, luidt artikel 219,
 tweede lid, als volgt :
 
@@ -29425,7 +29425,7 @@ voordelen van alle aard, financiële voordelen,
 inkomsten en dividenden een rechtspersoon is, in
 welk geval de aanslag gelijk is aan 50 pct.
 
-----------
+
 
 Als verdoken meerwinsten worden niet
 aangemerkt, de reserves als bedoeld in artikel 24,
@@ -29448,7 +29448,7 @@ overeenkomstig artikel 305 ingediende aangifte of
 in een door de verkrijger in het buitenland
 ingediende gelijkaardige aangifte.
 
-----------
+
 Vanaf 29 juli 2025, luidt artikel 219, vijfde
 lid, als volgt :
 
@@ -29466,7 +29466,7 @@ overeenkomstig artikel 305 ingediende aangifte of
 in een door de verkrijger in het buitenland
 ingediende gelijkaardige aangifte.
 
-----------
+
 
 Wanneer het bedrag van de kosten
 bedoeld in artikel 57, eerste lid, van de voordelen
@@ -29489,7 +29489,7 @@ belastingplichtige verkrijger te zijnen name wordt
 gevestigd binnen de termijnen bedoeld in de
 artikelen 354, eerste en tweede lid, en 358.
 
-----------
+
 Vanaf 29 juli 2025, luidt artikel 219, zesde
 lid, als volgt :
 
@@ -29517,7 +29517,7 @@ verkrijger te zijnen name wordt gevestigd binnen
 de termijnen bedoeld in de artikelen 354, eerste en
 tweede lid, en 358.
 
-----------
+
 
 ## Art. 219bis
 
@@ -29931,7 +29931,7 @@ achtste en negende lid, bedoelde bepalingen zijn
 van toepassing op de in het eerste lid bedoelde
 rechtspersonen.
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 220/1, § 1,
 derde lid, als volgt :
@@ -29941,7 +29941,7 @@ zevende en achtste lid, bedoelde bepalingen zijn
 van toepassing op de in het eerste lid bedoelde
 rechtspersonen.
 
-----------
+
 
 § 2. …
 
@@ -30109,7 +30109,7 @@ persoonlijk gebruik geheel of gedeeltelijk
 door de rechtspersoon ten laste zijn
 genomen;
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -30124,7 +30124,7 @@ aangekocht, geleased of gehuurd vanaf 1
 januari 2026, tenzij het een voertuig betreft
 dat geen CO2 uitstoot.
 
-----------
+
 
 Vanaf 1 januari 2027, wordt artikel 223,
 eerste lid, aangevuld met een 7°, luidend als volgt :
@@ -30135,7 +30135,7 @@ artikel 65 bedoelde voertuigen die geen
 CO2 uitstoten en die zijn aangekocht,
 geleased of gehuurd in 2027.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt artikel 223,
 eerste lid, 7°, als volgt :
@@ -30154,7 +30154,7 @@ voertuig betreft;
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2029, wordt artikel 223,
 eerste lid, 7°, aangevuld met een derde streepje,
@@ -30164,7 +30164,7 @@ luidend als volgt :
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2030, wordt artikel 223,
 eerste lid, 7°, aangevuld met een vierde streepje,
@@ -30174,7 +30174,7 @@ luidend als volgt :
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2031, wordt artikel 223,
 eerste lid, 7°, aangevuld met een vijfde streepje,
@@ -30248,7 +30248,7 @@ van een in artikel 305, eerste lid, bedoelde
 belastingplichtige verkrijger te zijnen name wordt
 gevestigd binnen de termijnen bedoeld in de
 artikelen 354, eerste en tweede lid, en 358.
-----------
+
 
 Vanaf 1 januari 2026 (en van toepassing
 vanaf het aj. 2027 verbonden aan een
@@ -30264,7 +30264,7 @@ bedrag dat overeenstemt met het voordeel van alle
 aard dat op naam van die derde wordt belast en de
 eigen bijdrage van die derde voor het persoonlijk
 gebruik van dat voertuig.
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 223,
 vijfde lid, als volgt :
@@ -30277,7 +30277,7 @@ kosten niet het bedrag dat overeenstemt met het
 voordeel van alle aard dat op naam van die derde
 wordt belast en de eigen bijdrage van die derde
 voor het persoonlijk gebruik van dat voertuig.
-----------
+
 
 ## Art. 224
 
@@ -30346,7 +30346,7 @@ gratificaties, vergoedingen of voordelen
 van alle aard en op de in artikel 223, eerste
 lid, 4° en 5°, bedoelde bedragen;
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -30369,7 +30369,7 @@ van alle aard, op de in artikel 223, eerste
 lid, 4° en 5°, bedoelde bedragen en op de in
 artikel 223, eerste lid, 6°, bedoelde kosten;
 
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 225,
 tweede lid, 5°, als volgt :
@@ -30390,7 +30390,7 @@ lid, 4°, 5° en 7°, bedoelde bedragen en op
 de in artikel 223, eerste lid, 6°, bedoelde
 kosten;
 
-----------
+
 
 6° tegen het tarief van 25 pct. op in artikel 224
 vermelde dividenden.
@@ -30482,7 +30482,7 @@ de vennootschapsbelasting, de
 rechtspersonen-belasting of de belasting
 van niet-inwoners ;
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 228, § 2,
 2°, als volgt :
@@ -30497,7 +30497,7 @@ de vennootschapsbelasting, de
 rechtspersonen-belasting of de belasting
 van niet-inwoners ;
 
-----------
+
 
 3° winst opgebracht door bemiddeling van
 Belgische inrichtingen als vermeld in
@@ -30948,7 +30948,7 @@ bedrag aan kapitaalsdotatie gelijk aan de fiscale
 bestanddelen van deze inbreng hadden bij de
 inbrenger.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 229,
 § 4, derde lid, als volgt :
@@ -30968,7 +30968,7 @@ bedrag aan kapitaalsdotatie gelijk aan de fiscale
 bestanddelen van deze inbreng hadden bij de
 inbrenger.
 
-----------
+
 
 Ingeval van fusie, splitsing of ermee
 gelijkgestelde verrichting wordt ten name van de
@@ -30986,7 +30986,7 @@ ten gevolge van de verrichting en dit in de
 mate deze inbrengen worden vergoed door
 hiertoe nieuw uitgegeven aandelen ;
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 229,
 § 4, vierde lid, eerste streepje, als volgt :
@@ -31003,7 +31003,7 @@ hiertoe nieuw uitgegeven aandelen, behalve
 ingeval van een vereenvoudigde
 zusterfusie ;
 
-----------
+
 
 - de aanschaffingswaarde van de ingebrachte
 bestanddelen geacht overeen te stemmen
@@ -31561,7 +31561,7 @@ door de Richtlijn 2009/133/EG van de Raad van
 19 oktober 2009 als bedoeld in artikel 2, § 1, 5°,
 b)bis, dan :
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 231,
 § 2, eerste lid, inleidende zin, als volgt :
@@ -31582,7 +31582,7 @@ belastingvrijstelling bepaald door de Richtlijn
 2009/133/EG van de Raad van 19 oktober 2009
 als bedoeld in artikel 2, § 1, 5°, b)bis, dan :
 
-----------
+
 
 1° komen de meerwaarden bedoeld in de
 artikelen 44, § 1, 1°, en 47, die op het
@@ -31609,7 +31609,7 @@ vennootschap of binnen een Belgische
 inrichting van de overnemende of
 verkrijgende intra-Europese vennootschap.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 231,
 § 2, eerste lid, 2°, als volgt :
@@ -31628,7 +31628,7 @@ verkrijgende binnenlandse vennootschap of
 binnen een Belgische inrichting van de
 overnemende of verkrijgende intraEuropese vennootschap.
 
-----------
+
 
 Het eerste lid is slechts van toepassing voor
 wat betreft de ten gevolge van de verrichting
@@ -31804,7 +31804,7 @@ rechten betreft, en 5°, op de verdoken
 meerwinsten en op de financiële voordelen of
 voordelen van alle aard als vermeld in artikel 219.
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 233,
 tweede lid, als volgt :
@@ -31820,7 +31820,7 @@ rechten betreft, inkomsten bedoeld in artikel 17, §
 financiële voordelen of voordelen van alle aard
 als vermeld in artikel 219.
 
-----------
+
 
 Daarnaast wordt een afzonderlijke aanslag
 vastgesteld volgens de regels voorzien in artikel
@@ -31935,7 +31935,7 @@ persoonlijk gebruik geheel of gedeeltelijk
 door de rechtspersoon ten laste zijn
 genomen;
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -31950,7 +31950,7 @@ aangekocht, geleased of gehuurd vanaf 1
 januari 2026, tenzij het een voertuig betreft
 dat geen CO2 uitstoot.
 
-----------
+
 
 Vanaf 1 januari 2027, wordt artikel 234,
 eerste lid, aangevuld met een 9°, luidend als volgt :
@@ -31961,7 +31961,7 @@ de in artikel 65 bedoelde voertuigen die
 geen CO2 uitstoten en die zijn aangekocht,
 geleased of gehuurd in 2027.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt artikel 234,
 eerste lid, 9°, als volgt :
@@ -31980,7 +31980,7 @@ voertuig betreft;
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2029, wordt artikel 234,
 eerste lid, 9°, aangevuld met een derde streepje,
@@ -31990,7 +31990,7 @@ luidend als volgt :
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2030, wordt artikel 234,
 eerste lid, 9°, aangevuld met een vierde streepje,
@@ -32000,7 +32000,7 @@ luidend als volgt :
 aangekocht, geleased of gehuurd
 voertuig betreft.
 
-----------
+
 
 Vanaf 1 januari 2031, wordt artikel 234,
 eerste lid, 9°, aangevuld met een vijfde streepje,
@@ -32048,7 +32048,7 @@ De in artikel 32 bedoelde bedrijfsleiders
 worden voor de toepassing van het eerste lid met
 werknemers gelijkgesteld.
 
-----------
+
 
 Vanaf 1 januari 2026 (en van toepassing
 vanaf het aj. 2027 verbonden aan een
@@ -32064,7 +32064,7 @@ bedrag dat overeenstemt met het voordeel van alle
 aard dat op naam van die derde wordt belast en de
 eigen bijdrage van die derde voor het persoonlijk
 gebruik van dat voertuig.
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 234,
 derde lid, als volgt :
@@ -32077,7 +32077,7 @@ kosten niet het bedrag dat overeenstemt met het
 voordeel van alle aard dat op naam van die derde
 wordt belast en de eigen bijdrage van die derde
 voor het persoonlijk gebruik van dat voertuig.
-----------
+
 
 ##### Afdeling II.- Vaststelling van het nettobedrag van
 
@@ -32363,7 +32363,7 @@ De artikelen 25/1, 27/1, 126 tot 129, 1451,
 en 171 tot 178/1 zijn eveneens van toepassing,
 met dien verstande dat :
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 243,
 derde lid, inleidende zin, als volgt:
@@ -32374,7 +32374,7 @@ De artikelen 25/1, 27/1, 126 tot 129, 1451,
 zijn eveneens van toepassing, met dien verstande
 dat :
 
-----------
+
 
 1° de in artikel 1451, 1°, en 1°bis bedoelde
 persoonlijke bijdragen en premies slechts in
@@ -32416,7 +32416,7 @@ overeenkomstig de artikelen 130, 1451, 1°
 et 4°, 1452, 1453, 1457, § 1, 146 tot 154bis,
 169, en 171 tot 178/1, bepaalde belasting.
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 243,
 derde lid, 5°, als volgt:
@@ -32429,7 +32429,7 @@ de artikelen 130, 1451, 1° et 4°, 1452, 1453,
 1457, § 1, 146 tot 154bis, 169, en 171 tot
 178/1, bepaalde belasting.
 
-----------
+
 
 ## Art. 243/1
 
@@ -32510,7 +32510,7 @@ overeenkomstig de artikelen 130 tot 1456,
 14533, 14535, 154bis, 169 en 171 tot
 178/1 bepaalde belasting.
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 243/1, ,
 4°, als volgt:
@@ -32524,7 +32524,7 @@ de artikelen 130 tot 1456, 1457, § 1, 1458 tot
 154bis, 169 en 171 tot 178/1 bepaalde
 belasting.
 
-----------
+
 
 ## Art. 244
 
@@ -32632,7 +32632,7 @@ artikelen 25/1, 27/1, 1457, § 2, 14526,
 § 5, 14527, § 4, 14532, § 2 en 157 tot
 168/1 vermelde vermeerderingen;
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 245, 1°,
 eerste streepje, als volgt:
@@ -32642,7 +32642,7 @@ artikelen 25/1, 27/1, 1457, § 2, 14526,
 § 5, 14527, § 4, en 157 tot 168/1
 vermelde vermeerderingen;
 
-----------
+
 
 - vóór verrekening van de in de
 artikelen 134, § 3, en 14535, tiende
@@ -32669,7 +32669,7 @@ vastgesteld na overleg in de Ministerraad die
 opcentiemen verhogen tot maximaal zeven
 opcentiemen.
 
-------------------------------
+
 (1) art. 80, KB/WIB 92.
 
 ## Art. 246
@@ -32699,7 +32699,7 @@ de verkrijger van die kosten of voordelen
 een rechtspersoon is, in welk geval de
 aanslag gelijk is aan 50 pct.;
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 246, eerste
 lid, 2°, als volgt :
@@ -32719,7 +32719,7 @@ de verkrijger van die kosten of voordelen
 een rechtspersoon is, in welk geval de
 aanslag gelijk is aan 50 pct.;
 
-----------
+
 
 3° wordt de afzonderlijke aanslag bedoeld in
 artikel 233, derde lid, berekend tegen het
@@ -32822,7 +32822,7 @@ niet-toevallig vacatiegelden of erelonen,
 gratificaties, vergoedingen of voordelen
 van alle aard;
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -32845,7 +32845,7 @@ gratificaties, vergoedingen of voordelen
 van alle aard en de in artikel 234, eerste lid,
 8°, bedoelde kosten;
 
-----------
+
 
 Vanaf 1 januari 2027, luidt artikel 247, 2°,
 als volgt :
@@ -32865,7 +32865,7 @@ gratificaties, vergoedingen of voordelen
 van alle aard, bedoelde bedragen en de in
 artikel 234, eerste lid, 8°, bedoelde kosten;
 
-----------
+
 
 3° tegen het tarief van 100 pct. wat de in
 artikel 234, 4°, vermelde niet verantwoorde
@@ -33321,7 +33321,7 @@ betreft (BS 23 december 2013) van toepassing
 De Koning bepaalt (1) de wijze van storting
 van de roerende voorheffing en de bedrijfsvoorheffing.
 
-------------------------------
+
 (1) art. 83 tot 95 en 137 tot 144, KB/WIB 92.
 
 ##### Afdeling II.- Onroerende voorheffing.
@@ -33334,7 +33334,7 @@ opstalhouder of vruchtgebruiker van de belastbare
 goederen, volgens de regels bepaald door de
 Koning (1).
 
-------------------------------
+
 (1) art. 128 tot 136, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -33862,7 +33862,7 @@ belastingplichtigen, die inkomsten als
 bedoeld in artikel 17, § 1, 5°, verschuldigd
 zijn.
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 261, eerste
 lid, 4°, als volgt :
@@ -33876,7 +33876,7 @@ belastingplichtigen, die inkomsten als
 bedoeld in artikel 17, § 1, 5° en 6°,
 verschuldigd zijn.
 
-----------
+
 
 De van het eerste lid, 1°, uitgesloten
 inkomsten, zijn inkomsten uit kapitalen en
@@ -33928,7 +33928,7 @@ erkenningsvoorwaarden waaraan het systeem
 moet voldoen en de periode tijdens dewelke de
 erkenning kan worden verleend.
 
--------------------
+
 (1) art. 735 tot 7312, KB/WIB 92.
 
 De in het eerste lid, 2°, c), bedoelde in het
@@ -33960,7 +33960,7 @@ van de wetgeving waaraan ze zijn
 onderworpen, gemachtigd zijn een van die
 activiteiten uit te oefenen.
 
-----------
+
 
 Vanaf 29 juli 2025, wordt in artikel 261,
 tussen het vierde en vijfde lid, een nieuw vijfde
@@ -33998,7 +33998,7 @@ belastingplichtige in België of in het
 buitenland in artikel 17, § 1, 6°, bedoelde
 Carried interest betaalt of toekent.
 
-----------
+
 
 Behoudens in het geval bedoeld in artikel
 268, moeten de in het eerste lid vermelde
@@ -34190,7 +34190,7 @@ markt, voor zover de verhandeling
 plaatsvindt op de centrale beursmarkt van
 Euronext of op een analoge markt ;
 
-------------------------------
+
 (1) art. 101bis en 101ter, KB/WIB 92.
 
 2°ter dat wordt verleend of toegekend bij
@@ -34272,7 +34272,7 @@ belastingaangelegenheden mogelijk maakt,
 en in die Staat als belastingneutraal of
 vrijgesteld van belasting wordt beschouwd.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 264,
 eerste lid, 4°, als volgt :
@@ -34314,7 +34314,7 @@ belastingaangelegenheden mogelijk maakt,
 en in die Staat als belastingneutraal of
 vrijgesteld van belasting wordt beschouwd.
 
-----------
+
 
 Het eerste lid, 3°, c, is niet van toepassing
 op de in artikel 18, eerste lid, 2° ter, bedoelde
@@ -34333,7 +34333,7 @@ aanrekenen van die opnemingen op de
 verschillende bestanddelen van de gereserveerde
 winst.
 
-------------------------------
+
 (1) art. 102 tot 104, KB/WIB 92.
 
 ## Art. 264/1
@@ -34364,7 +34364,7 @@ deelneming gedurende een ononderbroken
 periode van ten minste één jaar in volle eigendom
 wordt of werd behouden.
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 264/1, § 1,
 tweede lid, als volgt :
@@ -34382,7 +34382,7 @@ deelneming gedurende een ononderbroken
 periode van ten minste één jaar in volle eigendom
 wordt of werd behouden.
 
-----------
+
 
 Dit artikel is slechts van toepassing in de
 mate dat de roerende voorheffing, die
@@ -34475,7 +34475,7 @@ gemeen recht;
 schuldenaar een deelneming van minder
 dan 10 pct. bezit waarvan de aanschaffingswaarde ten minste 2 500 000 euro bedraagt;
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 264/1, § 2,
 3°, als volgt :
@@ -34487,7 +34487,7 @@ die, indien deze verkrijger geen kleine
 vennootschap is, de aard van financiële
 vaste activa heeft;
 
-----------
+
 
 4° dat de dividenden betrekking hebben op
 aandelen die gedurende een ononderbroken
@@ -34637,7 +34637,7 @@ instellingen voor collectieve beleggingen
 voldaan heeft aan de verplichting van
 artikel 321bis.
 
-----------
+
 
 Vanaf 29 juli 2025, luidt artikel 265, eerste
 lid, 4°, als volgt :
@@ -34650,11 +34650,11 @@ beheersvennootschap van instellingen voor
 collectieve beleggingen voldaan heeft aan
 de verplichting van artikel 321bis.
 
-----------
+
 
 5° …
 
-----------
+
 
 Vanaf 29 juli 2025, wordt artikel 265,
 eerste lid, 5°, hersteld als volgt :
@@ -34666,7 +34666,7 @@ onderworpen aan de personenbelasting of
 de belasting van niet-inwoners op grond
 van artikel 227, 1°.
 
-----------
+
 
 De roerende voorheffing is evenmin
 verschuldigd :
@@ -34833,7 +34833,7 @@ effecten voortgekomen uit de splitsing van
 lineaire obligaties uitgegeven door de Belgische
 Staat.
 
-------------------------------
+
 (1) art. 105 tot 119, KB/WIB 92.
 
 De in het eerste lid bedoelde verzaking van
@@ -35069,7 +35069,7 @@ betreffende belastbaar tijdperk, behouden is
 gebleven op de wijze bedoeld in de
 artikelen 184quater, derde lid, of 541;
 
-----------
+
 
 Vanaf 29 juli 2025 (en zijn van toepassing
 op dividenden die worden toegekend of
@@ -35131,7 +35131,7 @@ derde lid, of 541, te rekenen vanaf de
 laatste dag van het belastbaar
 tijdperk van aanleg;
 
-----------
+
 
 9° op 20 of 15 pct. voor de dividenden die
 worden uitgekeerd door een private privak
@@ -35145,7 +35145,7 @@ respectievelijk aan het in § 2, tweede lid,
 1°, of het in § 2, tweede lid, 2°, vermelde
 tarief onderworpen te worden.
 
-----------
+
 
 Vanaf 29 juli 2025, wordt artikel 269, § 1,
 aangevuld met een 10°, luidend als volgt :
@@ -35153,7 +35153,7 @@ aangevuld met een 10°, luidend als volgt :
 10° op 25 pct. voor de in artikel 17, § 1, 6°,
 vermelde inkomsten.
 
-----------
+
 
 § 2. . In afwijking van paragraaf 1, 1°,
 wordt het tarief van de roerende voorheffing op de
@@ -35208,7 +35208,7 @@ tweede boekjaar volgend op dat van de
 verrichte inbreng bij de oprichting van de
 vennootschap of bij een kapitaalverhoging;
 
-----------
+
 
 Vanaf 8 augustus 2025, luidt artikel 269, §
 2, tweede lid, 1°, als volgt :
@@ -35221,7 +35221,7 @@ vennootschap of bij een kapitaalverhoging,
 wanneer deze inbreng ten laatste op 31
 december 2025 is verricht;
 
-----------
+
 
 2° 15 pct. voor de dividenden verleend of
 toegekend uit de winstverdeling voor het
@@ -35285,7 +35285,7 @@ geïnvesteerd in een verhoging van het kapitaal
 van een andere vennootschap kunnen niet
 genieten van het voormeld verlaagd tarief.
 
-----------
+
 
 Vanaf 29 juli 2025 (en zijn van toepassing
 op dividenden die worden toegekend of
@@ -35307,7 +35307,7 @@ verhoging van het kapitaal van een andere
 vennootschap kunnen niet genieten van het
 voormeld verlaagd tarief.
 
-----------
+
 
 Voor de toepassing van het achtste lid
 wordt onder "persoon" ook begrepen zijn
@@ -35455,7 +35455,7 @@ artikel 30, 1° en 2°, bedoelde bezoldigingen
 betaalt of toekent die beroepskosten zijn in
 de zin van artikel 237.
 
---------
+
 
 Opmerking : De verwijzingen naar artikel 1:20 van het
 Wetboek van vennootschappen en verenigingen, opgenomen
@@ -35475,7 +35475,7 @@ uitbreiden tot winst, baten, alsmede tot in
 artikel 90, eerste lid, 1° tot 4° en 12°, vermelde
 diverse inkomsten.
 
---------------------
+
 (1) art. 86 tot 95, KB/WIB 92.
 
 ##### Onderafdeling 2.-. Inhouding, opeisbaarheid en
@@ -35548,7 +35548,7 @@ niet bij wet zijn bekrachtigd binnen de 12
 maanden na de datum van hun bekendmaking in
 het Belgisch Staatsblad.
 
---------------------
+
 (1) art. 86 tot 95, KB/WIB 92.
 
 ##### Onderafdeling 3.-. Vrijstelling van doorstorting
@@ -35646,7 +35646,7 @@ van toepassing is ;
 een wettelijke overwerktoeslag van 50 of
 100 pct. van toepassing is.
 
-------------------------------
+
 (1) art. 951, KB/WIB 92.
 
 De Koning zal bij de Kamer van
@@ -35687,7 +35687,7 @@ worden voor de uren overwerk gepresteerd in de
 periode van 1 januari 2021 tot 30 juni 2021 voor
 maximum 130 uren in rekening gebracht.
 
-----------
+
 
 Vanaf 1 juli 2025, luidt artikel 2751,
 zevende lid, als volgt :
@@ -35710,7 +35710,7 @@ voor de uren overwerk gepresteerd in de periode
 van 1 januari 2021 tot 30 juni 2021 voor
 maximum 130 uren in rekening gebracht.
 
-----------
+
 
 Het in het zesde lid bepaalde maximum van
 130 uren overwerk wordt opgetrokken tot:
@@ -35776,7 +35776,7 @@ toepassing van artikel 38, § 1, eerste lid, 30°.
 
 …
 
----------------
+
 (1) art. 95², KB/WIB 92.
 
 ## Art. 2752
@@ -35884,7 +35884,7 @@ waarop die aangifte betrekking heeft, niet wordt
 gestort, in aanmerking komen voor de toepassing
 van de in dit artikel beschreven maatregel.
 
----------------
+
 (1) art. 95², KB/WIB 92.
 
 ## Art. 2753
@@ -35926,7 +35926,7 @@ niet aan ter financiering van het onderzoek dat de
 vrijstelling van de doorstortingsverplichting heeft
 doen ontstaan.
 
----------------
+
 (1) bijlage IIIquater, KB/WIB 92.
 
 Dezelfde vrijstelling van storting als in het
@@ -36079,7 +36079,7 @@ verwezenlijking van de in het derde lid, 3°,
 en zesde lid, beoogde onderzoeks- of
 projecten of -programma's.
 
----------------
+
 (1) art. 95², KB/WIB 92.
 
 Eenzelfde bezoldiging of eenzelfde deel
@@ -36286,7 +36286,7 @@ Overheidsdienst geeft een bindend advies op deze
 vraag. De Koning (1) bepaalt de procedure en de
 modaliteiten van de aanvraag en de verstrekking
 van dit advies.
----------------
+
 (1) art. 953, KB/WIB 92.
 
 De Programmatorische Federale
@@ -36298,7 +36298,7 @@ zendt een kopie van dit advies naar de
 schuldenaar van de bedrijfsvoorheffing. De
 Koning (1) bepaalt de procedure en de
 modaliteiten van dit advies.
----------------
+
 (1) art. 954, KB/WIB 92.
 
 § 4. De Koning kan de voorwaarden en de
@@ -36380,7 +36380,7 @@ bedrijfsvoorheffing het onderscheid moet
 worden gemaakt tussen de ingehouden en
 de gestorte bedrijfsvoorheffing.
 
----------------
+
 (1) art. 95², KB/WIB 92.
 
 ## Art. 2755
@@ -37272,7 +37272,7 @@ beschikking houden van de Federale
 Overheidsdienst Financiën. De Koning bepaalt de
 nadere regels voor het leveren van dit bewijs (1).
 
----------------
+
 (1) art. 952, KB/WIB 92.
 
 …
@@ -37401,7 +37401,7 @@ werkgevers.
 
 De Koning bepaalt de toepassingsmodaliteiten van dit artikel (1).
 
----------------
+
 (1) art. 952, KB/WIB 92.
 
 ## Art. 2758
@@ -37518,7 +37518,7 @@ toepassing van deze paragraaf en paragraaf 4
 gelijk gesteld met de in deze paragraaf bedoelde
 werkgever.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2758,
 § 1, negende lid, als volgt :
@@ -37536,7 +37536,7 @@ vennootschap voor de toepassing van deze
 paragraaf en paragraaf 4 gelijk gesteld met de in
 deze paragraaf bedoelde werkgever.
 
-----------
+
 
 § 2. De in dit artikel bedoelde vrijstelling
 van doorstorting van de bedrijfsvoorheffing kan
@@ -37725,7 +37725,7 @@ heeft verricht, die betrekking hebben op de in
 artikel 2758, § 2, eerste lid bedoelde belastbare
 tijdperken.
 
----------------
+
 (1) KB van 28.04.2015 – BS 30.04.2015, ed. 2, gewijzigd
 bij de KB’s van 09.04.2017 (BS 18.04.2017),
 21.11.2018 (BS 30.11.2018), 02.09.2021 (BS
@@ -37935,7 +37935,7 @@ deze andere vennootschap voor de toepassing van
 deze paragraaf en artikel 2758, § 4, gelijk gesteld
 met de in deze paragraaf bedoelde werkgever.
 
-----------
+
 
 Vanaf 25 november 2025, luidt artikel 2759,
 § 1, tiende lid, als volgt :
@@ -37953,7 +37953,7 @@ andere vennootschap voor de toepassing van deze
 paragraaf en artikel 2758, § 4, gelijk gesteld met
 de in deze paragraaf bedoelde werkgever.
 
-----------
+
 
 § 2. De in dit artikel bedoelde vrijstelling
 van doorstorting van de bedrijfsvoorheffing kan
@@ -38363,7 +38363,7 @@ mogelijkheid tot toepassing van de in dit artikel
 bedoelde vrijstelling van doorstorting van
 bedrijfsvoorheffing. Deze brief omschrijft:
 
-----------
+
 
 - de bezoldigingen waarop deze vrijstelling
 kan worden toegepast;
@@ -38388,7 +38388,7 @@ niet voor gekozen heeft om langs elektronische
 weg te communiceren met de Federale
 Overheidsdienst Financiën.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -38396,7 +38396,7 @@ wordt artikel 2759/1, § 4, vijfde lid, opgeheven
 
 …
 
-----------
+
 
 De Koning kan de in deze paragraaf
 bedoelde termijnen verlengen tot uiterlijk de 47e
@@ -38906,7 +38906,7 @@ uitgifte van de effecten en eindigt op de dag van
 de toekenning of betaalbaarstelling van de
 inkomsten.
 
-----------
+
 
 Opmerking :
 
@@ -38930,7 +38930,7 @@ voor wie de roerende voorheffing bevrijdend is,
 vóór de vervaldag ervan is overgedragen aan een
 belastingplichtige voor wie dat niet het geval is.
 
-----------
+
 
 Bovendien wordt, voor de toepassing van
 het tweede lid ten name van de verkrijger van
@@ -39004,7 +39004,7 @@ vennootschap welke deze aandelen op een
 ononderbroken wijze heeft belegd in een
 Belgische inrichting.
 
-----------
+
 
 Vanaf aanslagjaar 2026, wordt een artikel
 282/1 ingevoegd, luidend als volgt:
@@ -39035,7 +39035,7 @@ dividenden die worden verkregen door in artikel
 verenigingen bedoelde erkende coöperatieve
 vennootschappen
 
-----------
+
 
 ## Art. 283
 
@@ -39095,7 +39095,7 @@ de inwerkingtreding van de wet van 20
 november 1962 houdende hervorming van
 de inkomstenbelastingen zijn uitgegeven.
 
-------------------------------
+
 (1) art. 121 en 122, KB/WIB 92.
 
 ##### Afdeling IIIbis. - …
@@ -39332,7 +39332,7 @@ als vermeld in artikel 228, § 2, 3° en 4°, wordt een
 belastingkrediet verleend van 10 pct., met een
 maximum van 3 750 euro, van het meerdere van:
 
-----------
+
 
 Vanaf aanslagjaar 2026, luidt artikel
 289bis, § 1, 1e lid, inleidende zin, als volgt:
@@ -39344,7 +39344,7 @@ als vermeld in artikel 228, § 2, 3° en 4°, wordt een
 belastingkrediet verleend van 20 pct., met een
 maximum van 7 500 euro, van het meerdere van:
 
-----------
+
 
 - het op het einde van het belastbare tijdperk
 bestaande positieve verschil tussen de
@@ -39596,7 +39596,7 @@ tijdperk niet meer bedragen dan 710 EUR. De
 bepalingen van artikel 174/1 en 178, § 3, eerste
 lid, 2°, zijn van toepassing op dit bedrag.
 
-----------
+
 
 Vanaf aanslagjaar 2026, luidt
 artikel 289ter/1, derde lid, als volgt :
@@ -39606,7 +39606,7 @@ tijdperk niet meer bedragen dan 765 EUR. De
 bepalingen van artikel 174/1 en 178, § 3, eerste
 lid, 2°, zijn van toepassing op dit bedrag.
 
-----------
+
 
 ##### Onderafdeling II - Belastingkrediet voor
 
@@ -39708,7 +39708,7 @@ hebben op het voordeel ervan, alsmede de
 kenmerken waaraan de in artikel 69/2 vermelde
 vaste activa moeten voldoen om recht te geven op
 het belastingkrediet.
----------------
+
 (1) art. 81 tot 82, KB/WIB 92.
 
 ## Art. 289decies
@@ -39755,7 +39755,7 @@ belasting, verhoogd met de in de artikelen 25/1,
 27/1, 1457, § 2, 14526, § 5, 14527, § 4, 14532, § 2,
 157 en 168/1 bedoelde vermeerderingen.
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 290,
 tweede lid, als volgt:
@@ -39766,7 +39766,7 @@ belasting, verhoogd met de in de artikelen 25/1,
 27/1, 1457, § 2, 14526, § 5, 14527, § 4, 157 en
 168/1 bedoelde vermeerderingen.
 
-----------
+
 
 ## Art. 291
 
@@ -39938,7 +39938,7 @@ omschreven in artikel 243, derde lid,
 14532, § 2, 157 en 168/1 bedoelde
 vermeerderingen;
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 292,
 tweede lid, 2°, eerste streepje, als volgt:
@@ -39951,7 +39951,7 @@ omschreven in artikel 243, derde lid,
 25/1, 27/1, 14526, § 5, 14527, § 4, 157
 en 168/1 bedoelde vermeerderingen;
 
-----------
+
 
 - wanneer de belasting
 overeenkomstig artikel 243/1 wordt
@@ -39962,7 +39962,7 @@ verhoogd met de in de artikelen 25/1,
 14532, § 2, 157 en 168/1 bedoelde
 vermeerderingen;
 
-----------
+
 
 Vanaf aanslagjaar 2031, luidt art. 292,
 tweede lid, 2°, tweede streepje, als volgt:
@@ -39976,7 +39976,7 @@ verhoogd met de in de artikelen 25/1,
 157 en 168/1 bedoelde
 vermeerderingen;
 
-----------
+
 
 - wanneer de belasting
 overeenkomstig artikel 244 wordt
@@ -40028,7 +40028,7 @@ andere inkomsten.
 De Koning regelt (1) de uitvoering van de
 artikelen 276 tot 294.
 
-------------------------------
+
 (1) art. 123 tot 125, KB/WIB 92.
 
 ##### Afdeling VI.- Bedrijfsvoorheffing.
@@ -40050,7 +40050,7 @@ werkelijk in de Schatkist wordt gestort.
 
 VAN DE BELASTINGEN.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -40061,7 +40061,7 @@ toepassing op de onroerende voorheffing, zie
 artikelen 143 en 144 van de Brusselse Codex
 Fiscale Procedure
 
-----------
+
 
 #### HOOFDSTUK I.
 
@@ -40074,7 +40074,7 @@ is één enkel, bij koninklijk besluit te bepalen (1),
 controlecentrum met de ontvangst en het
 onderzoek van de aangifte belast.
 
-------------------------------
+
 (1) art. 125bis tot 127, KB/WIB 92.
 
 ## Art. 298
@@ -40137,7 +40137,7 @@ dient te handelen voor de aangiften, de opmaking
 en de kennisgeving van de kohieren, de betalingen
 en de kwijtschriften.
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 300, § 1,
 als volgt :
@@ -40146,7 +40146,7 @@ als volgt :
 dient te handelen voor de aangiften, de opmaking
 en de kennisgeving van de kohieren.
 
-----------
+
 
 § 2. De bepalingen van dit Wetboek doen
 geen afbreuk aan het recht van de Staat om het
@@ -40201,10 +40201,10 @@ bepaald in artikel 171, 1°, b, en 4°, d en e.
 De Koning regelt (1) de uitvoering van dit
 artikel.
 
-------------------------------
+
 (1) art. 177, KB/WIB 92.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt artikel 301, als
 volgt :
@@ -40242,7 +40242,7 @@ Invordering.
 De Koning regelt de uitvoering van dit
 artikel.
 
-----------
+
 
 ## Art. 302
 
@@ -40285,7 +40285,7 @@ uitdrukkelijk akkoord hebben verklaard.
 
 De Koning bepaalt de toepassingsmodaliteiten van de in het vorige lid bedoelde
 procedure.
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40293,7 +40293,7 @@ wordt artikel 302, opgeheven
 
 …
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -40396,7 +40396,7 @@ bedrijfsvoorheffing met die belasting verrekend,
 het saldo wordt teruggegeven indien het ten minste
 2,50 EUR bedraagt.
 
-----------
+
 
 Opmerking vanaf aanslagjaar 2008 tot en met aanslagjaar
 2011 : invoeging van een forfaitaire vermindering in de
@@ -40408,7 +40408,7 @@ Decreet 19.12.2008 – BS 29.12.2008 en
 Decreet 18.12.2009 – BS 30.12.2009 en
 Decreet 23.12.2010 – BS 31.12.2010, ed. 2
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -40443,7 +40443,7 @@ maken, of, voor de natuurlijke personen en bij
 gebrek aan dergelijke bankgegevens, per
 postassignatie of internationaal mandaat.
 
-----------
+
 
 Vanaf 1 december 2025, luidt artikel 304/1,
 § 1, als volgt :
@@ -40458,7 +40458,7 @@ aan de administratie meegedeelde bankgegevens
 die de uitvoering van de terugbetaling mogelijk
 maken.
 
-----------
+
 
 § 2. Wanneer het terug te betalen bedrag aan
 een natuurlijke persoon minder bedraagt dan 50
@@ -40506,7 +40506,7 @@ wordt vermeld op de berekeningsnota die gevoegd
 is bij het aanslagbiljet inzake personenbelasting
 van de werknemer.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40519,7 +40519,7 @@ Digitalisatie van de relaties tussen de
 Federale Overheidsdienst Financiën, de
 belastingplichtigen en bepaalde derden
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40605,7 +40605,7 @@ toekomst onder gesloten omslag worden verstuurd
 en deze intrekking van toestemming zal
 onmiddellijk van kracht worden.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40628,7 +40628,7 @@ Financiën aan een persoon die houder is van een
 ondernemingsnummer, verzonden door middel van
 een beveiligd elektronisch platform.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40652,7 +40652,7 @@ toe te staan er verbinding mee te maken, wordt het
 bericht eveneens onder gesloten omslag
 verzonden.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40719,7 +40719,7 @@ Wetboek, in de bijzondere wetsbepalingen met
 betrekking tot de inkomstenbelastingen of in de tot
 uitvoering ervan genomen besluiten.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40733,7 +40733,7 @@ verzonden door middel van een beveiligd
 elektronisch platform of onder gesloten omslag
 zijn dezelfde.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40761,7 +40761,7 @@ overeenkomstig artikel 9.1. van de Verordening
 beschouwd als gekwalificeerd in de zin van artikel
 3.12. van die Verordening.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40780,7 +40780,7 @@ genomen besluiten, inclusief de briefwisseling,
 formulieren en verzendingen van gegevens,
 ongeacht de gebruikte drager.
 
-----------
+
 
 #### HOOFDSTUK II.
 
@@ -40805,7 +40805,7 @@ inkomstenbelastingen een aangifte over te leggen
 in de vormen en binnen de termijnen omschreven
 in de artikelen 307 tot 311.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40823,7 +40823,7 @@ inkomstenbelastingen een aangifte te verzenden in
 de vormen en binnen de termijnen omschreven in
 de artikelen 307 tot 311.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40858,7 +40858,7 @@ te dienen.
 De Koning bepaalt de
 indieningsmodaliteiten.
 
-----------
+
 
 Indien de belastingplichtige overleden of
 wettelijk onbekwaam is, rust de verplichting tot
@@ -40901,7 +40901,7 @@ categorieën van belastingplichtigen vrijstellen van
 de in artikel 305 vermelde aangifteplicht in de
 personenbelasting.
 
-------------------------------
+
 (1) art. 178, KB/WIB 92.
 
 Die belastingplichtigen zijn niettemin
@@ -40918,7 +40918,7 @@ belastbare grondslag en de daarop verschuldigde
 belasting, zomede alle inlichtingen en gegevens die
 in aanmerking zijn genomen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40932,7 +40932,7 @@ belastbare grondslag en de daarop verschuldigde
 belasting, zomede alle inlichtingen en gegevens die
 in aanmerking zijn genomen.
 
-----------
+
 
 In afwijking van het eerste lid en volgens de
 regels en onder de voorwaarden die Hij vaststelt,
@@ -40941,10 +40941,10 @@ overlegd besluit, de gevallen bepalen waarin de
 administratie geen voorstel van vereenvoudigde
 aangifte moet toesturen.
 
-------------------------------
+
 (1) art. 178/1, KB/WIB 92.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40957,10 +40957,10 @@ overlegd besluit, de gevallen bepalen waarin de
 administratie geen voorstel van vereenvoudigde
 aangifte moet verzenden.
 
-------------------------------
+
 (1) art. 178/1, KB/WIB 92.
 
-----------
+
 
 § 3. Indien de belastingplichtige niet
 akkoord gaat met het voorstel van vereenvoudigde
@@ -40969,7 +40969,7 @@ de maand na de datum van de verzending van dat
 voorstel in kennis te stellen met vermelding van
 zijn motieven.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -40983,7 +40983,7 @@ voorstel in kennis te stellen met vermelding van
 zijn motieven via het daarvoor bestemde
 antwoordformulier.
 
-----------
+
 
 Bovendien dient de belastingplichtige
 binnen dezelfde termijn iedere onjuistheid of
@@ -40991,7 +40991,7 @@ onvolledigheid van het voorstel van
 vereenvoudigde aangifte aan de administratie mede
 te delen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41004,7 +41004,7 @@ vereenvoudigde aangifte aan de administratie mede
 te delen via het daarvoor bestemde
 antwoordformulier.
 
-----------
+
 
 § 4. Het voorstel van vereenvoudigde
 aangifte, aangevuld met de gegevens die de
@@ -41091,7 +41091,7 @@ buitenlandse rekeningen te melden en om te
 bevestigen dat de nummers van die rekeningen zijn
 aangemeld bij het genoemde aanspreekpunt.
 
-------------------------------
+
 (1) KB van 23.06.2019 – BS 08.07.2019
 
 Wanneer een rijksinwoner artikel 21, eerste
@@ -41181,7 +41181,7 @@ een formulier waarvan het model door de Koning
 (1) wordt vastgesteld en gevoegd bij de in artikel
 305, eerste lid, bedoelde aangifte.
 
-------------------------------
+
 (1) KB van 26.04.2021 – BS 03.05.2021
 
 De belastingplichtigen onderworpen aan de
@@ -41283,7 +41283,7 @@ overeenkomstig de daarin voorkomende
 aanduidingen, gewaarmerkt, gedagtekend en
 ondertekend.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41309,7 +41309,7 @@ belastingplichtige aangegeven inkomsten en
 andere gegevens heeft ingebracht in de
 computerbestanden van de administratie via taxon-web.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41329,7 +41329,7 @@ belastingplichtige aangegeven inkomsten en
 andere gegevens heeft ingebracht in de
 computerbestanden van de administratie via taxon-web.
 
-----------
+
 
 De in het tweede lid bedoelde waarmerking,
 dagtekening en ondertekening aangebracht door de
@@ -41337,7 +41337,7 @@ belastingplichtige zijn gelijkgesteld met de
 waarmerking, de dagtekening en ondertekening die
 op papier zijn gemaakt.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41345,7 +41345,7 @@ wordt artikel 307, § 2, derde lid, opgeheven.
 
 …
 
-----------
+
 
 Indien echter het gebruik van het middel,
 waarmee de in het tweede lid bedoelde digitale
@@ -41359,7 +41359,7 @@ aangegeven inkomsten en andere gegevens heeft
 ingevoerd in de computerbestanden van de
 administratie via tax-on-web.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41378,7 +41378,7 @@ aangegeven inkomsten en andere gegevens heeft
 ingevoerd in de computerbestanden van de
 administratie via tax-on-web.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41391,7 +41391,7 @@ belastingplichtige zijn gelijkgesteld met de
 waarmerking, de dagtekening en ondertekening die
 langs elektronische weg zijn uitgevoerd.
 
-----------
+
 
 § 2/1. Bij de aangifte in de
 vennootschapsbelasting en de belasting van nietinwoners voor wat betreft belastingplichtigen zoals
@@ -41554,7 +41554,7 @@ vermeld. De aangifte in de personenbelasting moet
 worden teruggezonden aan de dienst die op het
 formulier is vermeld.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41566,7 +41566,7 @@ aangifte in de personenbelasting moet worden
 verzonden aan de dienst die op het formulier is
 vermeld.
 
-----------
+
 
 § 5. De belastingplichtige kan onder de door
 de Koning bepaalde voorwaarden de in het
@@ -41574,7 +41574,7 @@ aangifteformulier gevraagde gegevens eveneens
 verstrekken bij middel van computerafdrukken of
 van elektronische informatiedragers.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41582,7 +41582,7 @@ wordt artikel 307, § 5, opgeheven.
 
 § 5. …
 
-----------
+
 
 ## Art. 307bis
 
@@ -41621,14 +41621,14 @@ geschieden op papier.
 
 De Koning bepaalt de modaliteiten met
 betrekking tot haar indiening.
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
 wordt artikel 307bis, opgeheven.
 
 …
-----------
+
 
 ## Art. 308
 
@@ -41666,7 +41666,7 @@ ervan ofwel de terbeschikkingstelling van de
 elektronische aangifte op het elektronisch platform
 van de Federale Overheidsdienst Financiën.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41706,7 +41706,7 @@ ervan ofwel de terbeschikkingstelling van de
 elektronische aangifte op het elektronisch platform
 van de Federale Overheidsdienst Financiën.
 
-----------
+
 
 De indieningsverplichting binnen de in het
 eerste en tweede lid bedoelde termijnen geldt
@@ -41726,7 +41726,7 @@ legatarissen of begiftigden vijf maanden vanaf die
 datum, behalve indien de termijnen voorzien in
 paragraaf 1 en in artikel 308/1 later zijn.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41744,7 +41744,7 @@ vanaf die datum, behalve indien de termijnen
 voorzien in paragraaf 1 en in artikel 308/1 later
 zijn.
 
-----------
+
 
 § 3. De in § 1, eerste lid, bedoelde
 belastingplichtigen die geen aangifteformulier
@@ -41757,7 +41757,7 @@ Deze verplichting geldt niet voor de
 belastingplichtigen die overeenkomstig artikel 306
 van de aangifteplicht zijn vrijgesteld.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41779,7 +41779,7 @@ Deze verplichting geldt niet voor de
 belastingplichtigen die overeenkomstig artikel 306
 van de aangifteplicht zijn vrijgesteld.
 
-----------
+
 
 § 4. Voor de in artikel 305, tweede lid
 bedoelde erfgenamen, algemene legatarissen of
@@ -41800,7 +41800,7 @@ de termijn vermeld worden waarop ze in
 voorkomend geval ingevolge paragraaf 2
 aanspraak kunnen maken.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -41825,7 +41825,7 @@ de termijn vermeld worden waarop ze in
 voorkomend geval ingevolge paragraaf 2
 aanspraak kunnen maken.
 
-----------
+
 
 ## Art. 308/1
 
@@ -42039,7 +42039,7 @@ worden gestort;
 bedrijfsvoorheffing die niet in de
 Schatkist moeten worden gestort.
 
-------------------------------
+
 (1) art. 83 tot 95, KB/WIB 92.
 
 ##### Afdeling III.- Vrijstelling van de verplichting om
@@ -42249,7 +42249,7 @@ algemeen belang vervult en door de Koning (1) bij
 name is aangewezen om mededeling te verkrijgen
 van de nodige gegevens, uitsluitend voor de
 uitvoering van die werken.
-------------------------------
+
 (1) art. 180 en 181, KB/WIB 92.
 
 Deze derden mogen slechts over de beoogde
@@ -42400,7 +42400,7 @@ werden gehouden, opgesteld of toegezonden, tot
 het verstrijken van het zevende jaar of boekjaar
 volgend op het belastbaar tijdperk.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -42455,7 +42455,7 @@ de terbeschikkingstelling van die boeken en
 bescheiden via een beveiligd elektronisch platform
 van de FOD Financiën.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -42471,7 +42471,7 @@ de terbeschikkingstelling van die boeken en
 bescheiden via het beveiligd elektronisch platform
 van de Federale Overheidsdienst Financiën.
 
-----------
+
 
 De bepalingen van artikel 315, derde lid,
 zijn van toepassing op de bewaring van de dossiers
@@ -42581,7 +42581,7 @@ kan worden verlengd, schriftelijk alle inlichtingen
 te verstrekken die van hem worden gevorderd met
 het oog op het onderzoek van zijn fiscale toestand.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -42599,7 +42599,7 @@ kan worden verlengd, schriftelijk alle inlichtingen
 te verstrekken die van hem worden gevorderd met
 het oog op het onderzoek van zijn fiscale toestand.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -42663,7 +42663,7 @@ instelling inlichtingen te putten die het mogelijk
 maken het onderzoek te voltooien en de door deze
 cliënt verschuldigde belastingen te bepalen.
 
----------------
+
 (1) art. 2, MB 29.08.2006 - BS 05.09.2006
 art. 1, MB 05.07.2012 - BS 13.07.2012 ed. 2
 
@@ -42779,7 +42779,7 @@ getrokken uit een boekje waarvan het model en de
 wijze waarop de bedoelde belastingplichtigen
 ervan worden voorzien, worden vastgesteld door
 de Minister van Financiën (1) ; deze kan :
---------------------
+
 (1) MB van 17.12.1998 – BS 30.12.1998 (4 MB)
 18.12.2001 – BS 25.12.2001 (4 MB)
 28.03.2003 – BS 04.04.2003 (4 MB)
@@ -42848,7 +42848,7 @@ worden genummerd en geparafeerd door een
 bevoegde ambtenaar belast met de vestiging van de
 inkomstenbelastingen.
 
-------------------------------
+
 (1) MB van 17.12.1998 – BS 30.12.1998 (4 MB)
 18.12.2001 – BS 25.12.2001 (4 MB)
 28.03.2003 – BS 04.04.2003 (4 MB)
@@ -42859,7 +42859,7 @@ inkomstenbelastingen.
 22.12.2015 – BS 28.12.2015, ed. 2 (3 MB)
 02.05.2019 – BS 13.05.2019
 
-----------
+
 
 ## Art. 320/1
 
@@ -42910,7 +42910,7 @@ voor de controle van hun ontvangsten of hun
 uitgaven, hetzij voor de controle van de
 ontvangsten of de uitgaven van derden nodig acht.
 
-------------------------------
+
 
 (1) MB van 17.12.1998 – BS 30.12.1998 (5 MB)
 18.12.2001 – BS 25.12.2001 (5 MB)
@@ -43324,7 +43324,7 @@ middel van een formulier waarvan het model en de
 wijze van indiening door de Koning (1) wordt
 vastgesteld.
 
-------------------------------
+
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
@@ -43341,7 +43341,7 @@ overeenkomstig artikel 321/2, § 2 is, en dit uiterlijk
 op de laatste dag van de rapporteringsperiode van
 die multinationale groep (2).
 
-------------------------------
+
 (1) KB van 15.10.2018 – BS 24.10.2018
 
 § 2. Wanneer een Belgische groepsentiteit
@@ -43408,7 +43408,7 @@ middel van een formulier waarvan het model en de
 indieningsmodaliteiten door de Koning (1) wordt
 vastgesteld.
 
-------------------------------
+
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
@@ -43461,7 +43461,7 @@ overschrijdt.
 worden in een formulier waarvan het model door
 de Koning (1) werd vastgesteld.
 
-------------------------------
+
 (1) KB van 28.10.2016 – BS 02.12.2016 en toelichting BS
 02.12.2016, err. 14.08.2017
 
@@ -43550,7 +43550,7 @@ waarin die pensioenen werden betaald of
 toegekend, een individuele fiche waarvan de
 inhoud door de Koning wordt bepaald.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -43573,7 +43573,7 @@ dat waarin die pensioenen werden betaald of
 toegekend, een individuele fiche waarvan de
 inhoud door de Koning wordt bepaald.
 
-----------
+
 
 De individuele fiche bevat minstens de
 volgende gegevens :
@@ -43591,7 +43591,7 @@ pensioen;
 toepassing van artikel 230, eerste lid, 4° bis,
 is vrijgesteld.
 
-----------
+
 
 Vanaf 9 januari 2021 wordt in Titel VII,
 ofdstuk III, een Afdeling 1quater en een artikel
@@ -44597,7 +44597,7 @@ ermee belasten om bij een bank-, wissel-, kredieten spaarinstelling elke inlicht
 nuttig kan zijn om het bedrag van de belastbare
 inkomsten van de belastingplichtige te bepalen.
 
-------------------------------
+
 (1) MB van 24.06.2011 – BS 30.06.2011, gewijzigd bij MB
 van 16.12.2016 – BS 23.12.2016
 
@@ -44752,7 +44752,7 @@ name aangeduid, met wie zij rechtstreeks of
 onrechtstreeks in betrekking zijn geweest uit
 hoofde van die verrichtingen of activiteiten.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -44770,7 +44770,7 @@ name aangeduid, met wie zij rechtstreeks of
 onrechtstreeks in betrekking zijn geweest uit
 hoofde van die verrichtingen of activiteiten.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -44814,21 +44814,21 @@ administratie de gegevens mee te delen met
 betrekking tot de verzekeringsovereenkomsten
 rechtsbijstand.
 
-----------
+
 
 Vanaf 1 januari 2026, wordt art. 323/1, § 1,
 tweede lid, opgeheven.
 
 …
 
-----------
+
 
 § 2. De in paragraaf 1 vermelde mededeling
 geschiedt binnen de termijn en in de vorm die door
 de Koning (1) wordt bepaald. Hij bepaalt eveneens
 de gegevens die moeten worden meegedeeld.
 
---------------------
+
 (1) KB van 09.02.2017 – BS 20.02.2017, ed. 2, gewijzigd
 bij KB 16.07.2019 – BS 29.07.2019, gewijzigd bij KB
 20.12.2020 – BS 29.12.2020, ed. 2, gewijzigd bij KB
@@ -44864,7 +44864,7 @@ belastingvermindering voor kinderoppas, deelt zij
 de administratie jaarlijks elektronisch de gegevens
 mee die daarop betrekking hebben.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -44877,7 +44877,7 @@ belastingvermindering voor kinderoppas, deelt zij
 de administratie jaarlijks de gegevens mee die
 daarop betrekking hebben.
 
-----------
+
 
 § 2. De instanties bedoeld in artikel 14535,
 tweede lid, 3°, zijn vrijgesteld van de jaarlijkse
@@ -44886,7 +44886,7 @@ bedoeld in paragraaf 1 te voldoen zolang zij niet
 beschikken over de nodige geïnformatiseerde
 middelen om aan deze verplichting te voldoen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -44899,7 +44899,7 @@ paragraaf 1 te voldoen zolang zij niet beschikken
 over de nodige geïnformatiseerde middelen om aan
 deze verplichting te voldoen.
 
-----------
+
 
 § 3. De in paragraaf 1 vermelde mededeling
 geschiedt binnen de termijn en in de vorm die door
@@ -45067,7 +45067,7 @@ De belastingplichtige wordt bij ter post
 aangetekende brief opgeroepen om het
 getuigenverhoor bij te wonen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -45077,7 +45077,7 @@ De belastingplichtige wordt met een
 aangetekende zending opgeroepen om het
 getuigenverhoor bij te wonen.
 
-----------
+
 
 De getuigen zijn verplicht getuigenis af te
 leggen over alle daden en feiten waarvan zij kennis
@@ -45091,7 +45091,7 @@ voorgeschreven eed af.
 
 Het tegenbewijs is rechtens toegelaten.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -45123,7 +45123,7 @@ ondertekenen, dan wordt hiervan melding gemaakt
 in het proces-verbaal, dat de reden van de
 weigering nader omschrijft.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -45138,7 +45138,7 @@ ondertekenen, dan wordt hiervan melding gemaakt
 in het proces-verbaal, dat de reden van de
 weigering nader omschrijft.
 
-----------
+
 
 Een eensluidend verklaard afschrift van het
 proces-verbaal wordt aan de belastingplichtige
@@ -45699,7 +45699,7 @@ kan voldoen, waardoor deze meldingsplicht
 automatisch rust op de andere intermediair
 of intermediairs;
 
-----------
+
 
 (1) Opmerking : arrest nr. 1/2024 van 11.01.2024 van
 het Grondwettelijk Hof vernietigt artikel 326/7, § 1,
@@ -45720,7 +45720,7 @@ in zoverre zij een advocaat die optreedt als
 intermediair verplichten om een andere intermediair
 die niet zijn cliënt is te informeren.
 
-----------
+
 
 2° bij gebreke aan een andere intermediair, de
 relevante belastingplichtige of belastingplichtigen schriftelijk en gemotiveerd op de
@@ -45751,7 +45751,7 @@ van marktklare constructies die aanleiding geven
 tot een periodiek verslag overeenkomstig artikel
 326/4. (1)
 
-----------
+
 
 (1) Opmerking : arrest nr. 103/2022 van
 15.09.2022 van het Grondwettelijk Hof vernietigt
@@ -45780,7 +45780,7 @@ hypotheek- en griffierechten, van artikel
 en van artikel 211bis/4 van het Wetboek diverse
 rechten en taksen
 
-----------
+
 
 ## Art. 326/8
 
@@ -46188,7 +46188,7 @@ gebeurt bij aangetekende brief gelijktijdig met het
 verzenden van de voormelde vraag om
 inlichtingen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -46207,7 +46207,7 @@ gebeurt bij aangetekende zending gelijktijdig met
 het verzenden van de voormelde vraag om
 inlichtingen.
 
-----------
+
 
 Het eerste lid is niet van toepassing als de
 rechten van de Schatkist in gevaar zijn. De
@@ -46216,7 +46216,7 @@ een ter post aangetekende brief, uiterlijk 30 dagen
 na het verzenden van de in het eerste lid vermelde
 vraag om inlichtingen.
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -46229,7 +46229,7 @@ een aangetekende zending, uiterlijk 30 dagen na
 het verzenden van de in het eerste lid vermelde
 vraag om inlichtingen.
 
-----------
+
 
 Het eerste lid is niet van toepassing op de in
 artikel 322, § 4, bedoelde verzoeken om
@@ -46241,7 +46241,7 @@ aangetekende zending uiterlijk 90 dagen na het
 verzenden van de informatie aan de buitenlandse
 Staat.
 
-----------
+
 
 In afwijking van het derde lid gebeurt geen
 kennisgeving post factum :
@@ -46368,7 +46368,7 @@ andere fiscale administraties worden verricht. De
 Koning wijst (1) die administraties en, wanneer Hij
 dat nodig acht, de ambtenaren aan.
 
-------------------------------
+
 (1) art. 181bis, KB/WIB 92.
 
 ##### Afdeling V.- Aan alle belastingen gemene
@@ -46542,7 +46542,7 @@ in de artikelen 499, 1°, en 500, hetzij in het
 kader van de bezwaarprocedure
 overeenkomstig de artikelen 497 tot 503.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -47990,7 +47990,7 @@ Belgische bevoegde autoriteit kan een document,
 per aangetekende brief of langs elektronische weg,
 rechtstreeks ter kennis brengen aan een persoon op
 het grondgebied van een andere lidstaat.
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -48006,7 +48006,7 @@ met een aangetekende zending of door middel van
 een beveiligd elektronisch platform, rechtstreeks
 ter kennis brengen aan een persoon op het
 grondgebied van een andere lidstaat.
-----------
+
 
 § 13. Op verzoek van een buitenlandse
 bevoegde autoriteit gaat de Belgische bevoegde
@@ -48254,7 +48254,7 @@ januari 2011 en de toezending van de inlichtingen
 geweigerd had kunnen worden op grond van
 artikel 8, punt 1, van de richtlijn 77/799/EG indien
 daarom was verzocht vóór 11 maart 2011.
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -48268,7 +48268,7 @@ januari 2011 en de verzending van de inlichtingen
 geweigerd had kunnen worden op grond van
 artikel 8, punt 1, van de richtlijn 77/799/EG indien
 daarom was verzocht vóór 11 maart 2011.
-----------
+
 
 § 22. Indien de Belgische overheid voorziet
 in een samenwerking met een derde land welke
@@ -48533,7 +48533,7 @@ instantie ;
 identificatie en de woonplaats van de
 uiteindelijk gerechtigde worden vastgelegd.
 
---------------------
+
 (1) KB van 27.09.2009 – BS 01.10.2009, ed. 2
 
 § 3...
@@ -48577,7 +48577,7 @@ De Koning kan voorwaarden betreffende de
 ervaring en de opleiding van deze fiscale
 ambtenaren bepalen.
 
----------------
+
 (1) MB 22.11.2022 (BS 05.12.2022)
 
 § 2. De bevoegdheden van officier van
@@ -48597,7 +48597,7 @@ artikel 105, § 11 van de wet 7 december 1998 tot
 organisatie van een geïntegreerde politiedienst,
 gestructureerd op twee niveaus.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 338quater,
 § 2, als volgt :
@@ -48619,7 +48619,7 @@ artikel 105, § 11 van de wet 7 december 1998 tot
 organisatie van een geïntegreerde politiedienst,
 gestructureerd op twee niveaus.
 
-----------
+
 
 § 3. De ambtenaren bedoeld in paragraaf 1
 mogen evenwel geen bijstand verlenen aan een
@@ -48668,7 +48668,7 @@ opmerkingen van de belastingplichtige.
 
 § 1. …
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -48820,7 +48820,7 @@ afgerond tot het hogere of lagere veelvoud van
 100 euro naargelang de cijfers van de eenheden
 en tientallen al dan niet 50 bereiken.
 
-------------------------------
+
 (1) art. 182, KB/WIB 92.
 (2) van toepassing vanaf het aanslagjaar 2005 bij :
 - niet-aangifte ;
@@ -48987,7 +48987,7 @@ welke zijn aangegeven of schriftelijk erkend, en
 vermeldt zij de redenen die naar haar oordeel de
 wijziging rechtvaardigen.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49007,7 +49007,7 @@ welke zijn aangegeven of schriftelijk erkend, en
 vermeldt zij de redenen die naar haar oordeel de
 wijziging rechtvaardigen.
 
-----------
+
 
 Wanneer de administratie gebruik maakt
 van het bewijsmiddel bedoeld in artikel 342, § 1,
@@ -49032,7 +49032,7 @@ van de Schatkist in gevaar verkeren wegens een
 andere oorzaak dan het verstrijken van de
 aanslagtermijn.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49074,7 +49074,7 @@ waarmee zij geen rekening heeft gehouden, met
 vermelding van de motieven die haar beslissing
 rechtvaardigen.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49089,7 +49089,7 @@ van dit artikel, en waarmee zij geen rekening
 heeft gehouden, met vermelding van de motieven
 die haar beslissing rechtvaardigen.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -49147,7 +49147,7 @@ aanslag zal steunen, alsmede van de wijze
 waarop die inkomsten en gegevens zijn
 vastgesteld.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49163,7 +49163,7 @@ aanslag zal steunen, alsmede van de wijze
 waarop die inkomsten en gegevens zijn
 vastgesteld.
 
-----------
+
 
 Behalve in de laatste eventualiteit bedoeld
 in het eerste lid of indien de rechten van de
@@ -49178,7 +49178,7 @@ toegestaan om zijn opmerkingen schriftelijk in te
 brengen en mag de aanslag niet vóór het
 verstrijken van die termijn worden gevestigd.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49198,7 +49198,7 @@ toegestaan om zijn opmerkingen schriftelijk in te
 brengen en mag de aanslag niet vóór het
 verstrijken van die termijn worden gevestigd.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -49251,7 +49251,7 @@ waarmee zij geen rekening heeft gehouden, met
 vermelding van de motieven die haar beslissing
 rechtvaardigen.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49266,7 +49266,7 @@ derde lid, en waarmee zij geen rekening heeft
 gehouden, met vermelding van de motieven die
 haar beslissing rechtvaardigen.
 
-----------
+
 
 #### HOOFDSTUK VI.
 
@@ -49294,7 +49294,7 @@ waarop het in artikel 306 bedoelde voorstel van
 vereenvoudigde aangifte aan de
 belastingplichtige is toegestuurd.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -49307,7 +49307,7 @@ waarop het in artikel 306 bedoelde voorstel van
 vereenvoudigde aangifte aan de
 belastingplichtige werd verzonden.
 
-----------
+
 
 ## Art. 354
 
@@ -49853,7 +49853,7 @@ verkregen.
 De Koning bepaalt (1) het belastbare
 tijdperk en de inkomsten die daartoe behoren.
 
-------------------------------
+
 (1) art. 199 tot 206, KB/WIB 92.
 
 ## Art. 361
@@ -50166,7 +50166,7 @@ bepalingen (IV), blijft het bewaarschrift geldig
 ingediend vanaf de datum van ontvangst door die
 ambtenaar of die dienst.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50185,7 +50185,7 @@ diverse bepalingen (IV), blijft het bewaarschrift
 geldig ingediend vanaf de datum van ontvangst
 door die ambtenaar of die dienst.
 
-----------
+
 
 De in het tweede lid bedoelde ambtenaar
 of bedoelde dienst zendt het bezwaarschrift
@@ -50193,7 +50193,7 @@ onmiddellijk door aan de in het eerste lid
 bedoelde adviseur-generaal en stelt de
 bezwaarindiener hiervan in kennis.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50205,7 +50205,7 @@ onmiddellijk door aan de in het eerste lid
 bedoelde adviseur-generaal en stelt de
 bezwaarindiener hiervan in kennis.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -50330,7 +50330,7 @@ datum van de kennisgeving van de aanslag of
 van de inning van de belastingen op een andere
 wijze dan per kohier.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50348,7 +50348,7 @@ datum van de kennisgeving van de aanslag of
 van de inning van de belastingen op een andere
 wijze dan per kohier.
 
-----------
+
 
 In het in artikel 302, tweede lid,
 bedoelde geval vangt de termijn aan vanaf de
@@ -50356,7 +50356,7 @@ datum waarop het aanslagbiljet door middel van
 een procedure waarbij informaticatechnieken
 worden gebruikt aan de belastingplichtige is
 aangeboden.
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50364,13 +50364,13 @@ wordt artikel 371, tweede lid, opgheven.
 
 …
 
-----------
+
 
 Indien het bezwaarschrift wordt
 ingediend bij aangetekende brief, geldt de datum
 van de poststempel op het verzendingsbewijs als
 datum van de indiening.
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50380,7 +50380,7 @@ Indien het bezwaarschrift wordt
 ingediend bij aangetekende zending, geldt de
 datum van de poststempel op het
 verzendingsbewijs als datum van de indiening.
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -50442,7 +50442,7 @@ dat de aanvullende aanslag omvat, een
 bezwaarschrift tegen bedoelde overbelasting
 indienen.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50466,7 +50466,7 @@ dat de aanvullende aanslag omvat, een
 bezwaarschrift tegen bedoelde overbelasting
 indienen.
 
-----------
+
 
 In het in artikel 302, tweede lid,
 bedoelde geval vangt de termijn aan vanaf de
@@ -50476,7 +50476,7 @@ procedure waarbij informaticatechnieken worden
 gebruikt, aan de belastingplichtige werd
 aangeboden.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50484,7 +50484,7 @@ wordt artikel 373, tweede lid, opgeheven.
 
 …
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -50579,7 +50579,7 @@ vordering is ingesteld bij de rechtbank van eerste
 aanleg binnen de in artikel 1385undecies van het
 Gerechtelijk Wetboek vermelde termijn.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50592,7 +50592,7 @@ vordering is ingesteld bij de rechtbank van eerste
 aanleg binnen de in artikel 1385undecies van het
 Gerechtelijk Wetboek vermelde termijn.
 
-----------
+
 
 § 1/1. In afwijking van paragraaf 1 kan de
 belastingschuldige, de echtgenoot op wiens
@@ -50613,7 +50613,7 @@ wanneer de belastingschuldige voorafgaand aan
 het verzoek tot rechtzetting een vordering bij de
 rechtbank van eerste aanleg heeft ingesteld.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50639,7 +50639,7 @@ wanneer de belastingschuldige voorafgaand aan
 het verzoek tot rechtzetting een vordering bij de
 rechtbank van eerste aanleg heeft ingesteld.
 
-----------
+
 
 De adviseur-generaal of zijn gedelegeerde
 kan de in paragraaf 1 genomen beslissing geheel
@@ -50657,7 +50657,7 @@ eerste aanleg binnen de in artikel 1385undecies,
 vijfde lid, van het Gerechtelijk Wetboek
 vermelde termijn.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50672,7 +50672,7 @@ eerste aanleg binnen de in artikel 1385undecies,
 vijfde lid, van het Gerechtelijk Wetboek
 vermelde termijn.
 
-----------
+
 
 § 2. Het is hem niet toegelaten bij zijn
 beslissing een aanvullende aanslag te vestigen,
@@ -50817,7 +50817,7 @@ genoemde voorafbetalingen die nog niet met de
 werkelijk verschuldigde belasting werden
 verrekend.
 
-------------------------------
+
 (1) art. 64 tot 71, KB/WIB 92.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -50924,7 +50924,7 @@ ingesteld bij de rechtbank van eerste aanleg
 binnen de in artikel 1385undecies van het
 Gerechtelijk Wetboek vermelde termijn.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -50938,7 +50938,7 @@ ingesteld bij de rechtbank van eerste aanleg
 binnen de in artikel 1385undecies van het
 Gerechtelijk Wetboek vermelde termijn.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -51664,7 +51664,7 @@ gelegen onroerende goederen of van zakelijke
 rechten met betrekking tot zulke onroerende
 goederen, door aan de belasting van nietinwoners onderworpen belastingplichtigen.
 
-----------
+
 
 Vanaf 1 januari 2028, luidt artikel 412bis,
 § 1, tweede lid, als volgt:
@@ -51688,7 +51688,7 @@ zakelijke rechten met betrekking tot zulke
 onroerende goederen, door aan de belasting van
 niet-inwoners onderworpen belastingplichtigen.
 
-----------
+
 
 Artikel 169ter van het Wetboek der
 registratie, hypotheek- en griffierechten is van
@@ -51860,7 +51860,7 @@ uitvoerbaarverklaring van het kohier. Zij moeten
 betaald worden binnen twee maanden na de
 toezending van het aanslagbiljet.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -51873,7 +51873,7 @@ uitvoerbaarverklaring van het kohier. Zij moeten
 betaald worden binnen twee maanden na de
 verzending van het aanslagbiljet.
 
-----------
+
 
 In het in artikel 302, tweede lid,
 bedoelde geval moet de belasting worden betaald
@@ -51881,14 +51881,14 @@ binnen twee maanden na de datum waarop het
 aanslagbiljet door middel van een procedure
 waarbij informaticatechnieken worden gebruikt
 aan de belastingplichtige werd aangeboden.
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
 wordt artikel 413, tweede lid, opgheven.
 
 …
-----------
+
 
 De belastingen en de voorheffingen
 moeten over hun geheel onverwijld worden
@@ -52171,7 +52171,7 @@ eerste betaling. Het saldo van het gedeelte
 van de belasting kan op elk moment in één
 keer worden betaald.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -52198,7 +52198,7 @@ eerste betaling. Het saldo van het gedeelte
 van de belasting kan op elk moment in één
 keer worden betaald.
 
-----------
+
 
 Wanneer de belastingschuldige kiest voor
 de in het eerste lid bedoeld gespreide betaling,
@@ -52270,7 +52270,7 @@ ingevuld, gedagtekend, ondertekend en
 voor volledig en juist gewaarmerkt
 formulier;
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -52282,7 +52282,7 @@ ingevuld, gedagtekend, ondertekend en
 voor volledig en juist gewaarmerkt
 formulier;
 
-----------
+
 
 10° het niet stellen van een waarborg ter
 uitvoering van de overeenkomstig
@@ -52305,7 +52305,7 @@ paragraaf 1, voor de gespreide betaling werd
 gekozen evenals op het zich voordoen van of de
 afwezigheid van oorzaken van verval.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -52325,14 +52325,14 @@ paragraaf 1, voor de gespreide betaling werd
 gekozen evenals op het zich voordoen van of de
 afwezigheid van oorzaken van verval.
 
-----------
+
 
 De verzending van het in het eerste lid
 bedoelde formulier heeft van rechtswege tot
 gevolg dat afstand wordt gedaan van de op de
 verjaring verlopen termijn.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -52344,14 +52344,14 @@ bedoelde formulier heeft van rechtswege tot
 gevolg dat afstand wordt gedaan van de op de
 verjaring verlopen termijn.
 
-----------
+
 
 Wanneer hij het saldo van het resterend
 verschuldigd gedeelte van de belasting in één
 keer betaalt, stuurt de belastingschuldige een
 laatste formulier.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -52362,7 +52362,7 @@ verschuldigd gedeelte van de belasting in één
 keer betaalt, verzendt de belastingschuldige een
 laatste formulier.
 
-----------
+
 
 § 5. De adviseur-generaal van de
 administratie belast met de inning en de
@@ -52385,7 +52385,7 @@ garantie werd vereist.
 De rechtspleging geschiedt zoals in kort
 geding.
 
-----------
+
 
 ##### Afdeling IVbis. - …
 
@@ -53632,7 +53632,7 @@ en gaande van 10 pct. tot 200 pct. van de op het
 niet aangegeven of laattijdig aangegeven
 inkomstengedeelte verschuldigde belastingen.
 
-------------------------------
+
 (1) art. 225 tot 229, KB/WIB 92.
 
 Bij een onjuiste aangifte die aanleiding
@@ -53716,13 +53716,13 @@ De voormelde geldboete wordt opgelegd
 per jaar en per niet gemelde juridische
 constructie.
 
-----------
+
 
 Opmerking : zie arrest nr. 143/2021 van
 14.10.2021 van het Grondwettelijk Hof (BS
 21.02.2021)
 
-----------
+
 
 § 3. In afwijking van § 1, eerste lid, kan de
 door de bevoegde adviseur-generaal
@@ -53904,7 +53904,7 @@ Overheidsdienst Financiën, met een hogere titel
 dan degene die de feiten geconstateerd heeft,
 doch op zijn minst met de titel van adviseur.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -53919,7 +53919,7 @@ Overheidsdienst Financiën, met een hogere titel
 dan degene die de feiten geconstateerd heeft,
 doch op zijn minst met de titel van adviseur.
 
-----------
+
 
 De lasthebber mag zich door een raadsman
 laten bijstaan.
@@ -53938,7 +53938,7 @@ het proces-verbaal wordt binnen acht dagen na
 zijn dagtekening aan de lasthebber ter kennis
 gegeven.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -53949,7 +53949,7 @@ het proces-verbaal wordt binnen acht werkdagen
 na zijn dagtekening aan de lasthebber ter kennis
 gegeven.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -53984,7 +53984,7 @@ in het Belgisch Staatsblad slechts geschieden zo
 het besluit niet door de Raad van State verbroken
 werd.
 
-----------
+
 
 e Ten laatste op 1 januari 2028 (of op een
 e datum respectievelijk te bepalen door de Koning),
@@ -54001,7 +54001,7 @@ in het Belgisch Staatsblad slechts geschieden zo
 het besluit niet door de Raad van State verbroken
 werd.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54121,7 +54121,7 @@ boekhouding worden opgenomen in een
 later boekjaar dan het boekjaar tijdens
 hetwelk de meerwinst werd verwezenlijkt.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 449 als
 volgt :
@@ -54156,7 +54156,7 @@ begrepen is in een door de verkrijger
 overeenkomstig artikel 305 ingediende aangifte
 of in een door de verkrijger in het buitenland
 ingediende gelijkaardige aangifte.
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54192,7 +54192,7 @@ gevangenisstraf van acht dagen tot twee jaar en
 met geldboete van 250 EUR tot 500.000 EUR of
 met één van die straffen alleen.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 450 als
 volgt :
@@ -54218,7 +54218,7 @@ de artikelen 38 en 52, § 1, van het Strafwetboek
 kan de rechter als bijkomende straf een geldboete
 opleggen van 2.000 euro tot 4.000.000 euro.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54252,7 +54252,7 @@ de fiscale administratie gegrond wordt verklaard
 en tot een effectieve betaling van deze volledige
 vordering heeft geleid.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 450bis,
 tweede lid, als volgt :
@@ -54267,7 +54267,7 @@ de fiscale administratie gegrond wordt verklaard
 en tot een effectieve betaling van deze volledige
 vordering heeft geleid.
 
-----------
+
 
 Vanaf 9 april 2026, wordt artikel 450bis,
 aangevuld met een derde lid, luidend als volgt :
@@ -54279,7 +54279,7 @@ in de artikelen 449, 450, 451 en 452 bedoelde
 misdrijven, hoofdelijk gehouden zijn tot betaling
 van de verbeurdverklaring.
 
-----------
+
 
 ## Art. 451
 
@@ -54291,7 +54291,7 @@ toegelaten informatiegevallen verleidt, wordt
 gestraft overeenkomstig de bepalingen van de
 artikelen 220 tot 224 van het Strafwetboek.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 451, als
 volgt :
@@ -54305,7 +54305,7 @@ onderzoeken ertoe aanzet, wordt gestraft
 overeenkomstig de bepalingen van de artikelen
 647 tot 650 van het Strafwetboek.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54330,7 +54330,7 @@ gevangenisstraf van acht dagen tot zes maanden
 en met geldboete van 125 EUR tot 500.000 EUR
 of met één van die straffen alleen.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 452, als
 volgt :
@@ -54346,7 +54346,7 @@ het Strafwetboek kan de rechter als bijkomende
 straf een geldboete opleggen van 2.000 euro tot
 4.000.000 euro.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54367,7 +54367,7 @@ Vanaf 1 januari 2014, is artikel
 De schending van het bij artikel 337
 bepaalde beroepsgeheim wordt gestraft overeenkomstig artikel 458 van het Strafwetboek.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 453, als
 volgt :
@@ -54375,7 +54375,7 @@ volgt :
 De schending van het bij artikel 337
 bepaalde beroepsgeheim wordt gestraft overeenkomstig artikel 352 van het Strafwetboek.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54462,7 +54462,7 @@ met gevangenisstraf van acht dagen tot twee jaar
 en met geldboete van 250 EUR tot 500.000 EUR
 of met één van die straffen alleen.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 456, als
 volgt :
@@ -54477,7 +54477,7 @@ en 52, § 1, van het Strafwetboek kan de rechter
 als bijkomende straf een geldboete opleggen van
 2.000 euro tot 4.000.000 euro.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54508,7 +54508,7 @@ strafrechterlijke geldboeten, is van toepassing op
 de misdrijven bedoeld in de artikelen 449, 450,
 452 en 456.
 
-----------
+
 
 Vanaf 9 april 2026, luidt artikel 457, als
 volgt :
@@ -54531,7 +54531,7 @@ toepassing zijn op de bedragen van de geldboetes
 in de artikelen 38 en 52, § 1, van het
 Strafwetboek.
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -54547,7 +54547,7 @@ Vanaf 1 januari 2014, is artikel
 3.15.3.0.8. van dezelfde Codex van toepassing
 (zie Vlaamse Codex Fiscaliteit).
 
-----------
+
 
 Vanaf 9 april 2026, wordt een artikel 457/1
 ingevoegd, luidend als volgt :
@@ -54574,7 +54574,7 @@ hoofdstraf was vastgesteld tussen 2.000 euro en
 200 euro en 1.600.000 euro ingeval verzachtende
 omstandigheden worden aangenomen.
 
-----------
+
 
 Vanaf 9 april 2026, wordt een artikel 457/2
 ingevoegd, luidend als volgt :
@@ -54598,7 +54598,7 @@ hoofdstraf was vastgesteld tussen 2.000 euro en
 200 euro en 1.600.000 euro in het geval van een
 strafbare poging.
 
-----------
+
 
 ## Art. 458
 
@@ -54943,7 +54943,7 @@ met de vestiging van de inkomstenbelastingen en
 deze belast met de inning en de invordering van de
 inkomstenbelastingen, onder de voorwaarden en
 volgens de regelen die de Koning bepaalt (1).
-------------------------------
+
 (1) art. 230 tot 233, KB/WIB 92.
 
 Die aanvullende belastingen worden bij
@@ -54953,7 +54953,7 @@ eenvormig op 6 pct. was vastgesteld. De Koning
 kan bij een besluit vastgesteld na overleg in de
 Ministerraad dat percentage verhogen tot maximaal
 7 pct (1).
-------------------------------
+
 (1) art. 233/1, KB/WIB 92.
 
 Voor zover hiervan niet wordt afgeweken,
@@ -55025,7 +55025,7 @@ kredietinstelling van het bedrag van de
 schuldvordering dat moet worden aangezuiverd.
 De Koning (1) stelt de nadere regels vast die
 nodig zijn voor de toepassing van dit artikel.
----------------
+
 (1) art. 233/2 en 233/3, KB/WIB 92
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -55154,7 +55154,7 @@ gemeentebelasting op de personenbelasting kunnen
 niet worden gecumuleerd met de betaling van de
 werkelijk geïnde netto-ontvangsten.
 
----------------
+
 
 (1) art. 233/2 en 233/3, KB/WIB 92
 
@@ -55175,7 +55175,7 @@ onroerende goederen, alsmede voor het materieel
 en de outillage die onroerend zijn van nature of
 door hun bestemming, voor zover die goederen:
 
-----------
+
 
 Vanaf 9 maart 2026, luidt artikel 471, § 1,
 eerste lid, inleidende zin, als volgt :
@@ -55186,7 +55186,7 @@ onroerende goederen, alsmede voor het materieel
 en de outillage die onroerend zijn door incorporatie
 of door hun bestemming, voor zover die goederen:
 
-----------
+
 
 1° in België zijn gelegen of;
 
@@ -55258,7 +55258,7 @@ Algemene Administratie van de Patrimoniumdocumentatie over tot de schatting der 
 volgens de regelen en de vormen die de Koning
 bepaalt (1).
 
-------------------------------
+
 (1) KB van 10.10.1979 – BS 13.10.1979.
 
 § 2. Wanneer een kadastraal perceel
@@ -55560,12 +55560,12 @@ voorgaande jaar, verhoogd met 1. Voor het jaar
 maakt jaarlijks via een bericht in het Belgisch
 Staatsblad (1) de correctiefactor bekend.
 
---------------------
+
 (1) - Bericht BS 08.03.2021 voor aj 2021: 15,018
 - Bericht BS 25.01.2022 voor aj 2022: 15,011
 - Bericht BS 10.01.2023 voor aj 2023: 15,250
 
-----------
+
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -55800,7 +55800,7 @@ aangeduid, per kadastraal perceel een door de
 Koning (1) bepaald minimum bereikt, zonder dat
 dit laatste 4.000 EUR mag overtreffen.
 
-------------------------------
+
 (1) K.B. van 10.10.1979 – BS 13.10.1979.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -55986,7 +55986,7 @@ op het tijdstip van zijn vaststelling hadden bestaan,
 een verschil, in min of in meer, van tenminste 15
 pct. bestaat.
 
---------------------
+
 (1) MB van 08.02.2011 – BS 17.02.2011
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -56221,7 +56221,7 @@ belastingplichtige betekend, tenzij deze laatste zich
 schriftelijk heeft akkoord verklaard met het bedrag
 van bedoeld inkomen.
 
-------------------------------
+
 (1) KB van 10.10.1979 – BS 13.10.1979.
 
 § 2. In afwijking van § 1 geven de
@@ -56339,7 +56339,7 @@ zijn aan de leidende ambtenaar van de dienst
 belast met de behandeling van de bezwaren
 tegen de kadastrale inkomens ;
 
-----------
+
 
 Ten laatste op 1 januari 2028 (of op een
 datum respectievelijk te bepalen door de Koning),
@@ -56350,7 +56350,7 @@ zijn aan de leidende ambtenaar van de dienst
 belast met de behandeling van de bezwaren
 tegen de kadastrale inkomens ;
 
-----------
+
 
 3° het inkomen vermelden dat de
 bezwaarindiener stelt tegenover datgene dat
@@ -56450,7 +56450,7 @@ wat de opdracht is van de scheidsrechters, het
 bedrag van de kosten van de arbitrage en wijst aan
 wie die bedoelde kosten moet dragen.
 
-------------------------------
+
 (1) KB van 10.10.1979 – BS 13.10.1979.
 
 GEWESTELIJKE FISCALE BEPALINGEN
@@ -56603,7 +56603,7 @@ laste nam.
 De Koning regelt (1) toepassing van dit
 artikel.
 
-------------------------------
+
 (1) art. 234, KB/WIB 92.
 
 ## Art. 508
@@ -56747,7 +56747,7 @@ binnen de grenzen en termijnen en onder de
 voorwaarden die de Koning bepaalt (1), herschatte
 aanschaffings- of beleggingswaarde.
 
-------------------------------
+
 (1) art. 235 tot 253, KB/WIB 92.
 
 De herschatte waarde mag niet meer
@@ -58077,14 +58077,14 @@ opgeheven bij (de programmawet (I) van 27
 december 2006) de wet houdende diverse
 bepalingen (I) van 24 juli 2008 (1).
 
-------------------------------
+
 (1) Bij art. 9 van de wet van 24 juli 2008 houdende diverse
 bepalingen (BS 07.08.2008) werd ten onrechte de tekst" de
 programmawet (I) van 27 december 2006" gebruikt i.p.v.
 "de wet houdende diverse bepalingen (I) van 24 juli 2008".
 De legistieke rechtzetting zal eerstdaags gebeuren.
 
-----------
+
 
 Vanaf aanslagjaar 2027,luidt art. 531, als
 volgt:
@@ -58101,14 +58101,14 @@ werd opgeheven bij (de programmawet (I) van 27
 december 2006) de wet houdende diverse
 bepalingen (I) van 24 juli 2008 (1).
 
-------------------------------
+
 (1) Bij art. 9 van de wet van 24 juli 2008 houdende diverse
 bepalingen (BS 07.08.2008) werd ten onrechte de tekst" de
 programmawet (I) van 27 december 2006" gebruikt i.p.v.
 "de wet houdende diverse bepalingen (I) van 24 juli 2008".
 De legistieke rechtzetting zal eerstdaags gebeuren.
 
-----------
+
 
 ## Art. 532
 
@@ -58370,7 +58370,7 @@ wordt gebracht om de gemiddelde
 aanslagvoeten als bedoeld in artikel 171, 5°
 en 6° te bepalen.
 
-------------------------------
+
 (1) art. 255 en 256, KB/WIB 92.
 
 De belastingvermindering wordt verleend
@@ -58820,7 +58820,7 @@ zijn niet terugbetaalbaar.
 derde tot vijfde lid, zijn van toepassing op de op
 basis van dit artikel aangelegde liquidatiereserves.
 
-------------------------------
+
 (1) KB 18.09.2015 – BS. 25.09.2015
 
 ## Art. 542
@@ -58934,7 +58934,7 @@ verbonden aan een belastbaar tijdperk dat ten
 vroegste aanvangt op 1 januari 2020 werd
 vrijgesteld.
 
-----------
+
 
 Vanaf aansalgjaar 2027 wordt artikel 548
 vervangen als volgt :
@@ -58978,13 +58978,13 @@ De Koning bepaalt de manier waarop
 wordt aangetoond dat de voorwaarden voor de
 vrijstelling nog zijn vervuld.
 
-----------
+
 
 ## Art. 549
 
 …
 
-----------
+
 
 Vanaf 1 januari 2026 (en zijn van
 toepassing vanaf het aanslagjaar 2027
@@ -59129,7 +59129,7 @@ Het zesde lid is niet van toepassing voor de
 hybride- voertuigen die worden aangekocht vóór 1
 januari 2018.
 
-----------
+
 
 ## Art. 551
 

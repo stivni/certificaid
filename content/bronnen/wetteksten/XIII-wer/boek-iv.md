@@ -8,17 +8,17 @@ online: https://www.ejustice.just.fgov.be/img_l/pdf/2013/02/28/2013A11134_N.pdf
 ---
 
 ### BOEK IV. [1 - Bescherming van de mededinging]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 #### TITEL 1. [1 - Mededingingsregels]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 ##### HOOFDSTUK 1. [1 - Inbreuken op het mededingingsrecht]1
-----------
+
 (1)<W 2022-02-28/02, art. 5, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -65,7 +65,7 @@ opgetreden.
 Ingeval de onderneming of ondernemingsvereniging niet meer bestaat en geen rechtsopvolger heeft, kan het
 onderzoek in afwijking van het tweede lid worden gevoerd en de beslissing worden genomen ten aanzien van de
 natuurlijke persoon alleen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -83,7 +83,7 @@ hun daarmede nadeel berokkenend bij de mededinging;
 4° het feit dat het sluiten van overeenkomsten afhankelijk wordt gesteld van het aanvaarden door de
 handelspartners van bijkomende prestaties, welke naar hun aard of volgens het handelsgebruik geen verband
 houden met het onderwerp van deze overeenkomsten.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -102,7 +102,7 @@ prestaties, hun daarmede nadeel berokkenend bij de mededinging;
 5° het feit dat het sluiten van overeenkomsten afhankelijk wordt gesteld van het aanvaarden door de
 economische partners van bijkomende prestaties, die naar hun aard of volgens het handelsgebruik geen
 verband houden met het onderwerp van deze overeenkomsten.]1
-----------
+
 (1)<Ingevoegd bij W 2019-04-04/53, art. 4, 080; Inwerkingtreding : 01-06-2020>
 
 
@@ -117,7 +117,7 @@ onderling afgestemde feitelijke gedragingen, die de handel tussen de lidstaten n
 mededinging binnen de interne markt niet beperken, verhinderen of vervalsen, doch die de bescherming zouden
 genieten van een verordening bedoeld in het eerste lid ingeval zij deze handel wel zouden beïnvloeden of deze
 mededinging wel zouden beperken, verhinderen of vervalsen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -126,7 +126,7 @@ mededinging wel zouden beperken, verhinderen of vervalsen.]1
 [1 Het verbod van artikel IV.1, § 1, is niet van toepassing op overeenkomsten, besluiten van
 ondernemingsverenigingen en onderling afgestemde feitelijke gedragingen van ondernemingen die binnen de
 werkingssfeer vallen van een koninklijk besluit genomen op grond van artikel IV.5.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -144,12 +144,12 @@ afgestemde feitelijke gedragingen waarop het van toepassing is en preciseert met
 ingeval de omstandigheden gewijzigd zijn met betrekking tot een punt dat van wezenlijk belang was voor zijn
 vaststelling. In dat geval wordt voorzien in een overgangsregeling voor de overeenkomsten, besluiten en
 onderling afgestemde feitelijke gedragingen bedoeld door het voorafgaande besluit.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 ##### HOOFDSTUK 2. [1 - Concentraties]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -194,7 +194,7 @@ dat de stemrechten die aan de in bezit zijnde deelnemingen zijn verbonden, slech
 name door de benoeming van de leden van de raden van bestuur en van toezicht van de ondernemingen waarin
 zij deelnemingen houden, de volledige waarde van deze investeringen veilig te stellen en niet om rechtstreeks of
 onrechtstreeks het concurrentiegedrag van die ondernemingen te bepalen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -210,7 +210,7 @@ Mededingingsautoriteit en de Bijzondere raadgevende commissie Mededinging de dre
 Om de drie jaar gaat de Belgische Mededingingsautoriteit over tot een toetsing van de drempels bedoeld in
 paragraaf 1, daarbij onder andere rekening houdende met de economische impact en de administratieve last
 voor de ondernemingen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -276,7 +276,7 @@ ondernemingen toegerekend.
 § 5. Voor de openbare ondernemingen is de in aanmerking te nemen omzet deze van alle ondernemingen die
 een economisch geheel vormen met een zelfstandige beslissingsbevoegdheid, ongeacht de vraag wie het kapitaal
 ervan bezit of welke regels van bestuurlijk toezicht daarop van toepassing zijn.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -312,7 +312,7 @@ laatstgenoemde markt of op een nauw met die markt verbonden markt;
 2° de mogelijkheid die aan de betrokken ondernemingen wordt gegeven om, via de coördinatie die het
 rechtstreekse gevolg is van de oprichting van de gemeenschappelijke onderneming, de mededinging voor een
 wezenlijk deel van de betrokken producten uit te schakelen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -376,7 +376,7 @@ bedoelde beslissing te komen. De auditeur-generaal of de door hem aangeduide aud
 binnen een termijn van twee weken na de indiening van het verzoek tot ontheffing. De voorzitter kan deze
 termijn inkorten.
 De voorzitter kan zijn beslissing vergezeld laten gaan van bepaalde voorwaarden en verplichtingen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 6, 104; Inwerkingtreding : 17-03-2022>
 
@@ -390,13 +390,13 @@ Zijn echter wel onderworpen aan het toezicht ingesteld door dit hoofdstuk, de co
 Europese Commissie naar de Belgische Mededingingsautoriteit werden verwezen krachtens de [2 artikelen 4,
 vierde lid]2, en 9, eerste lid, van Verordening (EG) nr. 139/2004. In dat geval dienen de partijen de concentratie
 opnieuw te melden bij de auditeur-generaal overeenkomstig artikel IV.10.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 4, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 3. [1 - Overheidsondernemingen]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -406,12 +406,12 @@ opnieuw te melden bij de auditeur-generaal overeenkomstig artikel IV.10.]1
 het karakter hebben van een fiscaal monopolie, zijn onderworpen aan de bepalingen van dit boek voor zover de
 toepassing daarvan de vervulling, in feite of in rechte, van de hun door of krachtens de wet toevertrouwde
 specifieke taak niet verhindert.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 ##### HOOFDSTUK 4. [1 - Maatregelen of beslissingen door een vreemde staat]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -424,7 +424,7 @@ hebben op een reglementering inzake mededinging, economische machtsposities of h
 praktijken op gebied van internationaal vervoer ter zee en door de lucht.
 De Koning bepaalt op welke handelingen het verbod slaat. De ontheffing, op verzoek van belanghebbenden,
 kan door de minister worden toegestaan en desgevallend aan bepaalde modaliteiten onderworpen worden.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -432,7 +432,7 @@ kan door de minister worden toegestaan en desgevallend aan bepaalde modaliteiten
 
 [1 Elk bevel of verzoek dat gegrond is op de in artikel IV.13 bedoelde maatregelen of beslissingen,
 moet binnen vijftien dagen na ontvangst worden medegedeeld aan de minister of aan zijn gemachtigde.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -443,22 +443,22 @@ Koning bij een besluit vastgesteld na overleg in de Ministerraad, en na advies v
 Mededingingsautoriteit en de Bijzondere raadgevende commissie Mededinging, maatregelen treffen waarbij het
 de ondernemingen verboden wordt niet bekendgemaakte inlichtingen of bescheiden met betrekking tot hun
 mededingingspraktijken aan een buitenlandse Staat of aan een daarvan afhangende instelling te geven.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 #### TITEL 2. [1 - Bevoegde instellingen]1
-----------
+
 (1)<W 2024-03-29/39, art. 5, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 1. [1 - De Belgische Mededingingsautoriteit]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 1. [1 - Instelling]1**
-----------
+
 (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -522,7 +522,7 @@ personen kunnen toegang krijgen tot hun eigen persoonsgegevens.]1
 [4 § 9. De Belgische Mededingingsautoriteit is een administratieve overheid belast met het vrijwaren van een
 belangrijk economisch belang van de Europese Unie of van België bedoeld in artikel 127/1, § 2, 7°, van de wet
 van 13 juni 2005 betreffende de elektronische communicatie.]4
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 7, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2022-09-25/03, art. 2, 115; Inwerkingtreding : 17-10-2022>
@@ -531,7 +531,7 @@ van 13 juni 2005 betreffende de elektronische communicatie.]4
 
 
 **Afdeling 2. [1 - Voorzitter en dienst van de voorzitter]1**
-----------
+
 (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -557,7 +557,7 @@ van artikel 323bis, § 1, van het Gerechtelijk Wetboek.
 § 4. De voorzitter wordt bij koninklijk besluit op rust gesteld ingeval hij wegens een ernstig en permanent
 gebrek zijn ambt niet meer behoorlijk kan uitoefenen, en dit overeenkomstig artikel 117 van de wet van 14
 februari 1961 voor economische expansie, sociale vooruitgang en financieel herstel.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -568,7 +568,7 @@ uitvoering van zijn opdrachten krachtens dit boek, en de standpunten die hij inn
 de Europese Commissie betreffende de toepassing van de artikelen 101 en 102 VWEU en Verordening (EG) nr.
 139/2004. De personen aan wie de voorzitter taken heeft gedelegeerd mogen betreffende deze taken alleen
 instructies ontvangen van de voorzitter.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -596,13 +596,13 @@ geleid door de voorzitter en bestaat uit de personeelsleden van de Belgische Med
 directiecomité aan deze dienst worden toegewezen. Voor de tenuitvoerlegging van de opdrachten bedoeld in
 paragraaf 1, kan de voorzitter ook een beroep doen op personeelsleden van het auditoraat ten belope van een
 door het directiecomité te bepalen percentage van hun tijd.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 8, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 3. [1 - Mededingingscollege]1**
-----------
+
 (1)<W 2024-03-29/39, art. 9, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -610,7 +610,7 @@ door het directiecomité te bepalen percentage van hun tijd.]1
 
 [1 De voorzitter stelt per zaak het Mededingingscollege samen overeenkomstig artikel IV.21 voor het
 nemen van de [2 in hoofdstuk 1 van titel 3]2 bedoelde beslissingen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 10, 131; Inwerkingtreding : 13-05-2024>
 
@@ -640,7 +640,7 @@ assessoren rekening houdend met de proceduretaal.
 § 3. Ingeval een belangenconflict of gemotiveerde onbeschikbaarheid wordt vastgesteld na het samenstellen
 van het Mededingingscollege wordt de betrokkene vervangen bij toepassing van paragraaf 1 en, in voorkomend
 geval, van paragraaf 2. De hoorzitting vindt plaats voor het nieuw samengestelde Mededingingscollege.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -663,19 +663,19 @@ geen enkele instructie ontvangen wat betreft de beslissingen die zij nemen in ui
 boek hun geeft.
 § 4. De voorzitter, de assessor-ondervoorzitter en de assessoren stellen, onder voorzitterschap van de
 voorzitter, het huishoudelijk reglement vast van het Mededingingscollege.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 4. [1 - Directiecomité]1**
-----------
+
 (1)<W 2024-03-29/39, art. 11, 131; Inwerkingtreding : 13-05-2024>
 
 
 ## Art. IV.23
 
 [1 Het directiecomité is belast met de leiding van de Belgische Mededingingsautoriteit.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -703,7 +703,7 @@ Ministerraad, na een examen inzake beroepsbekwaamheid, bedoeld in [2 artikel IV.
 worden bij koninklijk besluit op rust gesteld ingeval zij wegens een ernstig en permanent gebrek hun ambt niet
 meer behoorlijk kunnen uitoefenen, en dit overeenkomstig artikel 117 van de wet van 14 februari 1961 voor
 economische expansie, sociale vooruitgang en financieel herstel.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2021-02-02/06, art. 2, 096; Inwerkingtreding : 21-02-2021>
 (3)<W 2024-03-29/39, art. 12, 131; Inwerkingtreding : 13-05-2024>
@@ -721,12 +721,12 @@ worden vastgesteld, na advies van de minister;
 en 6, IV.69, § 2, vierde lid en IV.88 aan de Belgische Mededingingsautoriteit worden opgedragen;
 5° het opstellen van het jaarlijks activiteitenverslag, dat aan de Kamer van volksvertegenwoordigers wordt
 medegedeeld.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 5. [1 - Auditeur-generaal en auditoraat]1**
-----------
+
 (1)<W 2024-03-29/39, art. 13, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -783,7 +783,7 @@ directiecomité.
 uitvoering van de opdrachten die hem door dit boek zijn opgedragen.
 § 6. De auditeur-generaal kan taken die behoren tot de opdrachten die hem door dit boek worden opgedragen,
 delegeren aan de auditeur.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 9, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2024-03-29/39, art. 14, 131; Inwerkingtreding : 13-05-2024>
@@ -806,7 +806,7 @@ adviseur advies verleent aan de auditeur telkens wanneer de bepalingen [2 van ho
 boek voorzien in dergelijk advies.
 De auditeur-adviseur kan geen lid zijn of geweest zijn van het onderzoeksteam in de zaak en kan slechts
 worden vervangen in geval van belangenconflict of gemotiveerde onbeschikbaarheid.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 15, 131; Inwerkingtreding : 13-05-2024>
 
@@ -833,13 +833,13 @@ mededingingsrecht]2 en in concentratiezaken;
 10° het verzoeken bij de bevoegde onderzoeksrechter van een voorafgaande machtiging tot huiszoeking.
 De auditeur kan alle handelingen verrichten ter volbrenging van zijn opdrachten, behalve wanneer dit boek deze
 handelingen aan de auditeur-generaal voorbehoudt.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 10, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 6. [1 - Secretariaat]1**
-----------
+
 (1)<W 2024-03-29/39, art. 16, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -848,12 +848,12 @@ handelingen aan de auditeur-generaal voorbehoudt.]1
 [1 Het secretariaat staat, onder leiding en toezicht van de auditeur-generaal, het auditoraat bij.
 Het secretariaat is tevens belast met het uitvoeren, onder leiding en toezicht van de voorzitter, van de taken
 van een griffie voor de procedures voor het Mededingingscollege.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 7. [1 - Wraking en tucht]1**
-----------
+
 (1)<W 2024-03-29/39, art. 1, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -880,7 +880,7 @@ cassatieberoep open.
 De procedure en de termijnen worden geschorst vanaf de indiening van het verzoekschrift tot wraking bij het
 secretariaat tot op de dag waarop de gewraakte persoon meedeelt zich te onthouden of waarop hij bevestigd of
 vervangen wordt na arrest van het Marktenhof.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -891,13 +891,13 @@ gemotiveerde wijze aan de voorzitter, de assessor-ondervoorzitter, de assessoren
 directeur economische zaken, de directeur juridische zaken en de directeur planning en budget]2 een
 terechtwijzing, een blaam of een inhouding van wedde als tuchtrechtelijke sanctie opleggen. Het hof kan hen ook
 vervallen verklaren van hun ambt of hen schorsen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 18, 131; Inwerkingtreding : 13-05-2024>
 
 
 **Afdeling 8. [1 - Beroepsgeheim, geheimhoudingsplicht en immuniteit]1**
-----------
+
 (1)<W 2024-03-29/39, art. 19, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -923,7 +923,7 @@ vertegenwoordigers van de Belgische Mededingingsautoriteit en voor de deskundige
 vergaderingen van het adviescomité bedoeld in artikel 14 van Verordening (EG) nr. 1/2003, in artikel 19 van
 Verordening (EG) nr. 139/2004 en in artikel 50 van Verordening (EU) 2022/1925, alsook in de groep op hoog
 niveau bedoeld in artikel 40 van Verordening (EU) 2022/1925]2.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 20, 131; Inwerkingtreding : 13-05-2024>
 
@@ -954,7 +954,7 @@ van de Belgische Mededingingsautoriteit is voorbereid;
 2° de informatie die door de Belgische Mededingingsautoriteit is opgesteld en in de loop van haar procedure
 aan de partijen is toegezonden; en
 3° de schikkingsverklaringen die zijn ingetrokken.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 11, 104; Inwerkingtreding : 17-03-2022>
 
@@ -969,13 +969,13 @@ aan de partijen is toegezonden; en
 generaal, de directeur economische zaken, de directeur juridische zaken [2 , de directeur planning en budget]2
 en de personeelsleden van de Belgische Mededingingsautoriteit genieten bij de uitoefening van hun ambt van
 dezelfde immuniteiten als de rijksambtenaren.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 21, 131; Inwerkingtreding : 13-05-2024>
 
 
 **Afdeling 9. [1 - Onverenigbaarheden en belangenconflicten]1**
-----------
+
 (1)<W 2024-03-29/39, art. 22, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1006,7 +1006,7 @@ Mededingingsautoriteit kan innemen, voor zover dat die functie of dat ambt niet 
 meer dan twee halve dagen per week.]2
 De afwijkingen bedoeld in het eerste en tweede lid worden toegekend door de voorzitter, en ingeval het hem
 betreft, door de minister.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 12, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2024-03-29/39, art. 23, 131; Inwerkingtreding : 13-05-2024>
@@ -1036,7 +1036,7 @@ elke tussenkomst in de zaak.
 Het eerste lid is tevens van toepassing ingeval van tewerkstelling, mandaat of andere opdracht bij of voor de
 betrokken ondernemingen en de ondernemingen actief in de betrokken markten, uitgevoerd gedurende een
 periode van [2 een jaar]2 voorafgaand aan de voorgenomen tussenkomst in de zaak.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 13, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2024-03-29/39, art. 24, 131; Inwerkingtreding : 13-05-2024>
@@ -1052,13 +1052,13 @@ van hun bevoegdheden voor de toepassing van dit boek en de artikelen 101 en 102 
 Na de beëindiging van hun taken bij de Belgische Mededingingsautoriteit, onthouden zij zich gedurende een
 redelijke periode van elke betrokkenheid bij procedures die aanhangig zijn bij de Belgische Mededingingsautoriteit
 die aanleiding zouden kunnen geven tot belangenconflicten.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 14, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2024-03-29/39, art. 25, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 2. [1 - Bijzondere raadgevende commissie Mededinging]1
-----------
+
 (1)<W 2024-03-29/39, art. 26, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1068,7 +1068,7 @@ die aanleiding zouden kunnen geven tot belangenconflicten.]1
 die Bijzondere raadgevende commissie Mededinging wordt genoemd en die een adviserende bevoegdheid heeft
 voor alle algemene kwesties in verband met het mededingingsbeleid; zij oefent die bevoegdheid uit op eigen
 initiatief of op verzoek van de minister.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -1080,22 +1080,22 @@ De voorzitter, de werkende leden en hun plaatsvervangers worden benoemd door de 
 De Koning bepaalt eveneens, bij een besluit vastgesteld na overleg in de Ministerraad, het bedrag van de
 vergoedingen toegekend aan de voorzitter en de leden van de Bijzondere raadgevende commissie Mededinging
 alsook aan elke persoon die met de Bijzondere raadgevende commissie Mededinging dient samen te werken.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 #### TITEL 3. [1 - Handhaving van het mededingingsrecht]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 27, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 1. [1 - Procedures en beslissingen]1
-----------
+
 (1)<W 2024-03-29/39, art. 28, 131; Inwerkingtreding : 13-05-2024>
 
 
 **Afdeling 1. [1 - Onderzoeksprocedure]1**
-----------
+
 (1)<W 2024-03-29/39, art. 29, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1120,7 +1120,7 @@ aanwijzen om door middel van de in de artikelen IV.40 en IV.40/1 bedoelde maatre
 verzamelen. De auditeur vermeldt de rechtsgrond en het doel van de genomen maatregelen. Indien de auditeur-
 generaal van oordeel is dat de opening van een onderzoek niet gerechtvaardigd is, sluit hij het dossier en doet hij
 alle ter zake dienende mededelingen.]3
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<KB 2020-07-31/11, art. 2, 088; Inwerkingtreding : 22-08-2020>
 (3)<W 2023-11-05/07, art. 5, 123; Inwerkingtreding : 21-12-2023>
@@ -1178,7 +1178,7 @@ dag waarop de inlichtingen worden verstrekt.
 De beslissing wordt door de auditeur ter kennis gebracht van de onderneming, de ondernemingsvereniging of
 de natuurlijke persoon van wie de inlichtingen worden geëist. Deze beslissing is niet vatbaar voor afzonderlijk
 beroep.]1
-----------
+
 (1)<W 2022-02-28/02, art. 15, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2022-09-25/14, art. 7, 120; Inwerkingtreding : 26-01-2023>
 (3)<W 2023-11-05/07, art. 6, 123; Inwerkingtreding : 21-12-2023>
@@ -1199,7 +1199,7 @@ informatie om te verschijnen voor een verhoor, nemen zij alle geschreven of mond
 getuigenissen af, doen zij zich, met naleving van artikel IV.40, alle documenten, gegevens, of inlichtingen
 meedelen, wat ook de vorm, drager en wie ook de houder ervan is, die zij nodig achten ter vervulling van hun
 opdracht en waarvan zij kopie mogen nemen, en doen zij ter plaatse de nodige vaststellingen.]2]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 16, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2023-11-05/07, art. 7, 123; Inwerkingtreding : 21-12-2023>
 
@@ -1255,7 +1255,7 @@ personeelsleden van de Belgische Mededingingsautoriteit een beroep doen op de op
 § 8. Om over te gaan tot een huiszoeking, een beslaglegging of een verzegeling, zijn zij houder van een
 bijzonder opdrachtbevel afgegeven door de auditeur, of, in het geval bedoeld in artikel IV.26, § 3, 6°, de auditeur-
 generaal. Dit bevel vermeldt het voorwerp en het doel van hun opdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 17, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2022-09-25/14, art. 8, 120; Inwerkingtreding : 26-01-2023>
 
@@ -1265,7 +1265,7 @@ generaal. Dit bevel vermeldt het voorwerp en het doel van hun opdracht.]1
 [1 Ongeacht de bijzondere wetten, die de geheimhouding van de mededelingen waarborgen, staan
 de openbare overheden en besturen de auditeurs bij in de uitvoering van hun opdracht, met name door het
 beantwoorden van verzoeken om inlichtingen van deze laatsten.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 18, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -1274,7 +1274,7 @@ beantwoorden van verzoeken om inlichtingen van deze laatsten.]1
 [1 De auditeur-generaal kan deskundigen, van wie hij de opdracht bepaalt, aanstellen om bijstand te
 verlenen aan de au-diteur en de door de minister gemachtigde personeelsleden van de Belgische
 Mededingingsautoriteit.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 19, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -1285,7 +1285,7 @@ overeenkomstig de bepalingen IV.40 tot IV.40/4 en die geen verband houden met he
 teruggeven aan de persoon van wie of bij wie zij waren verkregen of gekopieerd en deze documenten en
 gegevens verwijderen uit het onderzoeksdossier.
 De beslissing wordt opgenomen in het onderzoeksdossier. Zij is niet vatbaar voor afzonderlijk beroep.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 20, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -1298,7 +1298,7 @@ Tot de niet-toelaatbaarheid van een onregelmatig verkregen bewijselement wordt e
 1° de naleving van de betrokken vormvoorwaarden wordt voorgeschreven op straffe van nietigheid, of;
 2° de begane onregelmatigheid de betrouwbaarheid van het bewijs heeft aangetast, of;
 3° het gebruik van het bewijs in strijd is met het recht op een eerlijk proces.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 1, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -1379,7 +1379,7 @@ In afwijking van de paragrafen 1 en 2 kan de auditeur zich, in het kader van de 
 onthouden van het beoordelen van de vertrouwelijkheid van de documenten en gegevens die het voorwerp
 vormen van deze procedure, en de partijen meedelen dat zij de vertrouwelijkheid van deze elementen niet
 moeten inroepen of motiveren.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 22, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1416,7 +1416,7 @@ dienen;
 genomen beslissingen en eventuele aanvullingen, wijzigingen en uitvoeringsakten daarvan.
 Het secretariaat geeft de betrokken partijen toegang tot het proceduredossier en de geactualiseerde inventaris
 ervan, met inachtneming van de vertrouwelijkheidsclassificatie van de betrokken documenten en gegevens.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 23, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2023-11-05/07, art. 8, 123; Inwerkingtreding : 21-12-2023>
@@ -1424,7 +1424,7 @@ ervan, met inachtneming van de vertrouwelijkheidsclassificatie van de betrokken 
 
 **Afdeling 2. [1 - Bijzondere onderzoeksregels inzake inbreuken op het mededingingsrecht en niet-naleving van**
 beslissingen]1
-----------
+
 (1)<W 2024-03-29/39, art. 30, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1434,7 +1434,7 @@ beslissingen]1
 [2 inbreuken op het mededingingsrecht]2 en het niet-naleven van beslissingen genomen krachtens de artikelen
 IV.10, § 6, IV.44, § 1, 2°, IV.45, eerste lid, 2°, IV.46, § 2, 1°, IV.52, IV.66, IV.69, IV.71 of IV.73 worden ingediend
 bij de auditeur-generaal.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 25, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1477,7 +1477,7 @@ Het Mededingingscollege doet uitspraak op stukken, tenzij de voorzitter van het 
 partijen te horen. Ingeval het Mededingingscollege het beroep gegrond acht, wordt het dossier teruggezonden
 aan de auditeur.
 De beslissing van het Mededingingscollege is niet vatbaar voor beroep.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 26, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1504,7 +1504,7 @@ De beslissing tot stopzetten van het ambtshalve onderzoek laat de bevoegdheid va
 om het bestaan van [2 inbreuken op het mededingingsrecht]2 voor het verleden vast te stellen onverlet. De
 toezeggingen houden geen nadelige erkenning in door de betrokken partij.
 De beslissing tot stopzetting van het ambtshalve onderzoek is niet vatbaar voor beroep.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 27, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1571,7 +1571,7 @@ Het voorstel van beslissing is vergezeld van het proceduredossier.
 De termijn bedoeld in het eerste lid wordt geschorst ingeval binnen die termijn een schikkingsprocedure wordt
 ingezet of toezeggingen worden aangeboden, tot op de dag van de beslissing van de auditeur-generaal dat de
 schikkingsprocedure of de gesprekken met betrekking tot toezeggingen worden stopgezet.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 28, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2024-03-29/39, art. 31, 131; Inwerkingtreding : 13-05-2024>
@@ -1585,13 +1585,13 @@ voert ingeval er aanwijzingen zijn van marktverstoringen. In voorkomend geval ka
 generaal vragen dat het auditoraat zijn medewerking verleent aan een algemeen of sectoraal onderzoek. [2 De
 bepalingen van artikel IV.40, artikel IV.40/1]2 en van artikel IV.41 zijn van overeenkomstige toepassing op het
 onderzoek.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 29, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 3. [1 - Beslissing inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen]1**
-----------
+
 (1)<W 2024-03-29/39, art. 32, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1601,7 +1601,7 @@ onderzoek.]1
 Mededingingscollege samen dat de zaak zal behandelen. Hij bezorgt het Mededingingscollege het voorstel van
 beslissing alsmede, na het verstrijken van de in artikel IV.49, § 5, eerste lid, bedoelde termijn en in voorkomend
 geval rekening houdend met de beslissing bedoeld in artikel IV.49, § 5, tweede lid, het proceduredossier.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -1675,7 +1675,7 @@ de assessor is niet vatbaar voor afzonderlijk beroep.
 § 7. De betrokken partijen, de klager, de derden die het Mededingingscollege zal horen alsmede de auditeur
 doen mekaar rechtstreeks mededeling per e-mail van hun schriftelijke opmerkingen en stukken, op dezelfde dag
 als de indiening ervan op het secretariaat.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 31, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2024-03-29/39, art. 33, 131; Inwerkingtreding : 13-05-2024>
@@ -1713,7 +1713,7 @@ antwoord.
 Het Mededingingscollege kan beslissen de betrokken partij en de auditeur te horen.
 Ingeval van toepassing van het eerste lid kan de voorzitter van het Mededingingscollege de maximumtermijn
 van twee maanden bedoeld in paragraaf 1 verlengen met ten hoogste [2 twee maanden]2.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 32, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1730,7 +1730,7 @@ Ingeval [2 met toepassing van artikel IV.78/1, derde lid,]2 de voorgenomen besli
 van de Europese Commissie wordt de in het eerste lid bedoelde termijn geschorst, vanaf het versturen van het
 ontwerp van beslissing tot op de dag waarop de Belgische Mededingingsautoriteit de opmerkingen van de
 Europese Commissie ontvangt.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 33, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1791,7 +1791,7 @@ In geval van toepassing van deze paragraaf kan de voorzitter van het Mededinging
 van twee maanden bedoeld in artikel IV.50, § 1, verlengen met ten hoogste twee maanden.]2
 § 2. De beslissing van het Mededingingscollege over de grond van de zaak kan ten aanzien van een betrokken
 partij niet steunen op documenten en gegevens die als vertrouwelijk werden erkend ten aanzien van die partij.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 34, 104; Inwerkingtreding : 17-03-2022>
 
@@ -1804,12 +1804,12 @@ eigen initiatief:
 2° ingeval de betrokken partijen in strijd met de door hen gedane toezeggingen handelen; of
 3° ingeval de beslissing berust op onvolledige, onjuiste of verdraaide inlichtingen, die door de betrokken partijen
 werden verstrekt.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 4. [1 - Clementieregeling]1**
-----------
+
 (1)<W 2024-03-29/39, art. 34, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -1897,7 +1897,7 @@ kan schriftelijk of mondeling worden voorgelegd.
 toekenning van een volledige of gedeeltelijke vrijstelling van geldboeten aan de onderneming of
 ondernemingsvereniging in het kader waarin deze persoon optreedt of is opgetreden op grond van artikel IV.1, §
 4, niet.]1
-----------
+
 (1)<W 2022-02-28/02, art. 36, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2024-03-29/39, art. 35, 131; Inwerkingtreding : 13-05-2024>
 
@@ -1928,7 +1928,7 @@ bewijsmateriaal geacht te zijn verstrekt op de datum waarop de marker werd toege
 clementieverzoeker de vereiste informatie niet verstrekt binnen de vastgestelde termijn, verliest hij zijn
 voorbehouden rang en dient hij een clementieverzoek in te dienen om nog voor enige vrijstelling van geldboeten
 in aanmerking te komen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 37, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -1970,7 +1970,7 @@ clementieverzoek, op voorwaarde dat het beknopte clementieverzoek betrekking hee
 geografische gebieden, evenals op dezelfde duur van het geheim kartel als het clementieverzoek dat bij de
 Europese Commissie werd ingediend.
 De clementieverzoeker actualiseert indien nodig de in het tweede lid overgemaakte gegevens.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 38, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2002,7 +2002,7 @@ bekendgemaakt en is niet vatbaar voor een afzonderlijk beroep.
 § 3. Op het ogenblik van de beslissing in de zaak, kent het Mededingingscollege, ingeval de verplichtingen
 gesteld in de clementiebeslissing werden nageleefd, een volledige of gedeeltelijke vrijstelling van geldboeten toe in
 verhouding tot de bijdrage die geleverd werd om het geheim kartel te bewijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 39, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2050,7 +2050,7 @@ bekendgemaakt en is niet vatbaar voor afzonderlijk beroep.
 § 6. Onder voorbehoud van de verjaringstermijnen kan het Mededingingscollege, op verzoek van de auditeur-
 generaal, alsnog een boete met toepassing van artikel IV.79, § 4, opleggen, indien de betrokken persoon de
 verplichtingen die de voorzitter heeft gesteld in de immuniteitsbeslissing niet heeft nageleefd.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 40, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2024-03-29/39, art. 36, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2065,7 +2065,7 @@ clementieverklaringen in de zin van artikel I.6, 27°, noch van de daarmee samen
 voorzitter. De klager en de belanghebbende derden hebben geen toegang tot de clementieverzoeken en de
 immuniteitsverzoeken, noch tot de daarmee samenhangende beslissingen van de voorzitter behoudens
 overeenkomstig de bepalingen van boek XVII, titel 3, hoofdstuk 3.]1
-----------
+
 (1)<W 2024-03-29/39, art. 37, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2074,12 +2074,12 @@ overeenkomstig de bepalingen van boek XVII, titel 3, hoofdstuk 3.]1
 [1 Het directiecomité kan bij richtsnoeren nadere modaliteiten vaststellen voor de toepassing van
 de artikelen IV.54 tot IV.54/5, met inbegrip van de vorken van gedeeltelijke vrijstelling die het Mededingingscollege
 in acht zal nemen in verhouding tot de bijdrage die geleverd werd om het geheim kartel te bewijzen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 42, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 5. [1 - Procedure inzake schikkingen]1**
-----------
+
 (1)<W 2024-03-29/39, art. 38, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2092,7 +2092,7 @@ een termijn vaststellen waarbinnen zij schriftelijk kunnen aangeven dat zij bere
 voeren. [3 Deze termijn bedraagt ten minste twee weken.]3
 De auditeur-generaal is niet verplicht rekening te houden met antwoorden die worden ontvangen na het
 verstrijken van de gestelde termijn.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<KB 2020-07-31/11, art. 3, 088; Inwerkingtreding : 22-08-2020>
 (3)<W 2022-02-28/02, art. 43, 104; Inwerkingtreding : 17-03-2022>
@@ -2110,7 +2110,7 @@ en gegevens in het onderzoeksdossier die de betrokken partij aanwijst, op gemoti
 laatstgenoemde.
 Tevens geeft de auditeur kennis van de mogelijke geldboete die hij overweegt voor te stellen aan het
 Mededingingscollege.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -2119,7 +2119,7 @@ Mededingingscollege.]1
 [1 Ingeval de schikkingsbesprekingen uitzicht bieden op het nemen van een schikkingsbeslissing, stelt
 de auditeur een voorontwerp van schikkingsbeslissing op.
 [2 ...]2]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 44, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2139,7 +2139,7 @@ ontwerp van schikkingsbeslissing en haar aansprakelijkheid daarvoor. Zij aanvaar
 boete die vermeld is in het ontwerp van schikkingsbeslissing.
 De auditeur is niet verplicht rekening te houden met schikkingsverklaringen die ontvangen worden na het
 verstrijken van de gestelde termijn.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 45, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2159,7 +2159,7 @@ vertrouwelijke passages aan te stippen. De beslissing van de auditeur tot vastst
 versie van de schikkingsbeslissing is niet vatbaar voor beroep.
 De auditeur bezorgt een afschrift van de niet-vertrouwelijke versie aan het secretariaat met het oog op de
 bekendmaking ervan en voor mededeling ervan aan de eventuele klager.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 46, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2184,7 +2184,7 @@ toe te kennen vrijstelling binnen deze vork.
 Ingeval de schikkingsbeslissing betrekking heeft op een zaak waarin een immuniteitsbeslissing werd genomen,
 bevestigt de auditeur in de schikkingsbeslissing de verleende immuniteit van vervolging, voor zover hij vaststelt
 dat is voldaan aan de voorwaarden gesteld in de immuniteitsbeslissing voor een dergelijke immuniteit.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -2203,7 +2203,7 @@ de betrokken partij van de besprekingen kennis geeft aan een andere mededingings
 of aan een andere door het beroepsgeheim gebonden persoon of, na overleg met de auditeur-generaal, een
 bekendmaking moet doen in uitvoering van een wettelijke bepaling of een uitvoerbare beslissing van een
 gerechtelijke instantie.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -2211,12 +2211,12 @@ gerechtelijke instantie.]1
 
 [1 De auditeur-generaal kan de schikkingsprocedure te allen tijde stopzetten ten aanzien van een
 betrokken partij. Deze beslissing is niet vatbaar voor beroep.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 **Afdeling 6. [1 - Bijzondere onderzoeksregels inzake concentraties]1**
-----------
+
 (1)<W 2024-03-29/39, art. 39, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2238,7 +2238,7 @@ In dat geval beschikken de aanmeldende partijen over een termijn van vijf werkda
 bieden die bedoeld zijn om een beslissing van toelaatbaarheid te verkrijgen.
 De auditeur hoort de aanmeldende partijen over de aangeboden verbintenissen, en neemt in het voorstel van
 beslissing standpunt in over deze verbintenissen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2023-11-05/07, art. 9, 123; Inwerkingtreding : 21-12-2023>
 
@@ -2268,13 +2268,13 @@ concentratie of aan de personen die zij aanwijzen.
 Hij deelt de aanmeldende partijen mee dat zij op het secretariaat inzage kunnen nemen van het
 onderzoeksdossier en het proceduredossier, met uitzondering van de documenten en gegevens die ten aanzien
 van hen vertrouwelijk zijn, en dat zij tegen betaling een elektronische kopie ervan kunnen krijgen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 47, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 7. [1 - Beslissing inzake concentraties]1**
-----------
+
 (1)<W 2024-03-29/39, art. 40, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2330,7 +2330,7 @@ voorzitter van het Mededingingscollege.
 § 6. De ondernemingen die partij zijn bij de concentratie kunnen de concentratie wijzigen tot op het ogenblik
 van de sluiting van de debatten door het Mededingingscollege. In dat geval slaat de beslissing van het
 Mededingingscollege op de aldus gewijzigde concentratie.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 48, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2372,7 +2372,7 @@ Mededingingscollege geen beslissing heeft genomen binnen de in paragraaf 3 bedoe
 gegevens die als vertrouwelijk ten aanzien van een aanmeldende partij werden erkend, tenzij het stukken betreft
 van de verkoper, van een andere aanmeldende partij of van de doelonderneming en de aanmeldende partij kennis
 heeft kunnen nemen van een niet-vertrouwelijke versie of samenvatting van deze documenten en gegevens.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2021-02-02/06, art. 3, 096; Inwerkingtreding : 21-02-2021>
 (3)<W 2022-02-28/02, art. 49, 104; Inwerkingtreding : 17-03-2022>
@@ -2411,7 +2411,7 @@ verwezenlijking of de versterking van een machtspositie.
 Ingeval de auditeur van oordeel is dat de concentratie ontoelaatbaar moet worden verklaard of onderworpen
 moet worden aan voorwaarden en verplichtingen, vermeldt het voorstel van beslissing de redenen waarom de
 concentratie moet worden verboden en neemt het standpunt in over de aangeboden verbintenissen.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 47, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2459,7 +2459,7 @@ voorzitter van het Mededingingscollege.
 § 6. De ondernemingen die partij zijn bij de concentratie kunnen de concentratie wijzigen, tot op het ogenblik
 van de sluiting van de debatten door het Mededingingscollege. In dat geval slaat de beslissing van het
 Mededingingscollege op de aldus gewijzigde concentratie.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 48, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2022-02-28/02, art. 50, 104; Inwerkingtreding : 17-03-2022>
@@ -2500,7 +2500,7 @@ Mededingingscollege geen beslissing heeft genomen binnen de in paragraaf 2 bedoe
 gegevens die als vertrouwelijk ten aanzien van een aanmeldende partij werden erkend tenzij het stukken betreft
 van de verkoper, van een andere aanmeldende partij of van de doelonderneming en de aanmeldende partij kennis
 heeft kunnen nemen van een niet-vertrouwelijke versie of samenvatting van deze documenten en gegevens.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 51, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2510,7 +2510,7 @@ heeft kunnen nemen van een niet-vertrouwelijke versie of samenvatting van deze d
 
 
 **Afdeling 8. [1 - Onderzoek en beslissing tijdens een vereenvoudigde procedure bij concentraties]1**
-----------
+
 (1)<W 2024-03-29/39, art. 40, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2543,13 +2543,13 @@ binnen de vermelde termijn de bedoelde beslissing niet heeft verstuurd.
 Ingeval de inlichtingen die bij de aanmelding werden verstrekt niet volledig waren, loopt de in het eerste lid
 bedoelde termijn vanaf de dag volgend op de dag van ontvangst van de volledige inlichtingen. In voorkomend
 geval wordt de termijn geschorst [2 met toepassing van artikel IV.40, § 2, vierde lid]2.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 52, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 9. [1 - Voorlopige maatregelen]1**
-----------
+
 (1)<W 2024-03-29/39, art. 42, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2560,7 +2560,7 @@ mededingingsrecht]2, die het voorwerp van een onderzoek uitmaken, te schorsen, i
 moet worden vermeden die een ernstig, onmiddellijk en moeilijk herstelbaar nadeel kan veroorzaken voor de
 ondernemingen waarvan de belangen aangetast worden door deze [2 inbreuken]2 of die schadelijk kan zijn voor
 het algemeen economisch belang.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 53, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2615,7 +2615,7 @@ vertrouwelijk achten, mits zij het vertrouwelijk karakter motiveren en een niet-
 versie indienen. De voorzitter van het Mededingingscollege of de assessor, die hij aanduidt beslist over de
 vertrouwelijkheid van de betrokken passages. De beslissing betreffende de vertrouwelijkheid is niet vatbaar voor
 afzonderlijk beroep.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 54, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2652,13 +2652,13 @@ tijdspanne, die kan worden verlengd voor zover dat nodig en passend is, hetzij t
 Mededingingscollege bedoeld in artikel IV.52, § 1, of de beslissing van de auditeur bedoeld in artikel IV.44, § 1,
 eerste lid, in artikel IV.45, eerste lid, of in artikel IV.59, § 1, niet meer vatbaar is voor beroep op grond van
 gewone rechtsmiddelen.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 55, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 10. [1 - Kennisgeving en bekendmaking]1**
-----------
+
 (1)<W 2024-03-29/39, art. 43, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2681,7 +2681,7 @@ overige kennisgevingen en mededelingen in een zaak per e-mail met ontvangstmeldi
 § 2. De kennisgevingen bedoeld in de eerste paragraaf, eerste en derde lid, vermelden op straffe van nietigheid
 de namen en adressen van de partijen aan wie de kennisgeving moet worden gestuurd en, in voorkomend geval,
 de termijn van beroep alsook de wijze waarop dit rechtsmiddel kan worden ingesteld.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 56, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2714,7 +2714,7 @@ dat hun zakengeheimen en andere vertrouwelijke gegevens niet bekend worden gemaa
 Staatsblad en op de website van de Belgische Mededingingsautoriteit.]1
 [2 § 5. Het jaarlijks activiteitenverslag bedoeld in artikel IV.25, 5°, wordt meegedeeld aan de minister en wordt
 bekendgemaakt op de website van de Belgische Mededingingsautoriteit.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 57, 104; Inwerkingtreding : 17-03-2022>
 (3)<W 2022-09-25/14, art. 9, 120; Inwerkingtreding : 26-01-2023>
@@ -2722,7 +2722,7 @@ bekendgemaakt op de website van de Belgische Mededingingsautoriteit.]2
 
 **Afdeling 11. [1 - Samenwerking met de Europese Commissie en de mededingingsautoriteiten van de andere**
 lidstaten van de Europese Unie]1
-----------
+
 (1)<W 2024-03-29/39, art. 44, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -2736,7 +2736,7 @@ Ingeval de Belgische Mededingingsautoriteit zich, met toepassing van verordening
 basis van artikel 103 VWEU, uitspreekt over de toepassing van de beginselen neergelegd in de artikelen 101 en
 102 VWEU, wordt de beslissing genomen in overeenstemming met deze verordeningen of richtlijnen, volgens de
 procedure en de sancties bepaald in dit boek.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -2766,7 +2766,7 @@ waarborgen wordt voldaan.
 Op verzoek van de auditeur-generaal draagt de nationale mededingingsautoriteit alle redelijke bijkomende
 kosten, met inbegrip van de vertalingskosten, arbeidskosten en administratieve kosten, in verband met de
 krachtens dit artikel genomen maatregelen.]1
-----------
+
 (1)<W 2022-02-28/02, art. 58, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2792,7 +2792,7 @@ De Belgische Mededingingsautoriteit kan samenwerkingsakkoorden met betrekking to
 informatie en het gebruik ervan als bewijsmiddel sluiten met mededingingsautoriteiten uit derde landen, onder
 voorbehoud van de voorwaarden bedoeld in het tweede lid. Deze samenwerkingsakkoorden krijgen slechts
 uitwerking na goedkeuring door de Koning.]1
-----------
+
 (1)<W 2022-02-28/02, art. 59, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2819,7 +2819,7 @@ heeft op de toepassing van artikel 101 of artikel 102 VWEU, brengt het Mededingi
 mededingingsautoriteiten van het Europees netwerk van me-dedingingsautoriteiten hiervan op de hoogte.]1
 [2 § 2. De auditeur-generaal, de auditeur of het Mededingingscollege doet, naargelang het geval, de
 kennisgevingen bedoeld in artikel 38, leden 2 en 3, van Verordening (EU) 2022/1925.]2
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 60, 104; Inwerkingtreding : 17-03-2022>
 (2)<W 2024-03-29/39, art. 45, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2842,7 +2842,7 @@ ontvangstbewijs aan de betrokken onderneming, ondernemingsvereniging of natuurli
 § 5. Op verzoek van de auditeur-generaal draagt de nationale mededingingsautoriteit alle redelijke bijkomende
 kosten, met inbegrip van de vertalingskosten, arbeidskosten en administratieve kosten, in verband met de
 krachtens dit artikel genomen maatregelen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 61, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2861,7 +2861,7 @@ informatie indien zij hierom verzoekt.
 § 4. De Belgische Mededingingsautoriteit draagt op verzoek van de nationale mededingingsautoriteit alle
 redelijke bijkomende kosten, met inbegrip van vertalingskosten, arbeidskosten en administratieve kosten, in
 verband met de genomen maatregelen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 62, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2911,7 +2911,7 @@ dragen.
 De verschuldigde bedragen worden geïnd in euro.
 § 7. De Belgische Mededingingsautoriteit geeft de betrokken onderneming of ondernemingsvereniging zonder
 verwijl kennis van de door haar in toepassing van dit artikel genomen tenuitvoerleggingsmaatregelen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 63, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2942,7 +2942,7 @@ volledige gemaakte kosten, met inbegrip van de vertalingskosten, arbeidskosten e
 de genomen maatregelen.
 Zelfs indien de nationale mededingingsautoriteit er niet in slaagt om de geldboeten en dwangsommen te innen,
 kan zij de Belgische Mededingingsautoriteit verzoeken de gemaakte kosten te dragen.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 64, 104; Inwerkingtreding : 17-03-2022>
 
 
@@ -2969,12 +2969,12 @@ c) het bedrag van de geldboete of de dwangsom; en
 d) informatie waaruit de redelijke inspanningen blijken die de nationale mededingingsautoriteit die het verzoek
 heeft gedaan, heeft geleverd om de beslissing op haar eigen grondgebied ten uitvoer te leggen. Deze vereiste
 geldt niet voor verzoeken op basis van de artikelen IV.78/4, § 1, tweede lid, en IV.78/5, § 1, tweede lid.]1
-----------
+
 (1)<Ingevoegd bij W 2022-02-28/02, art. 65, 104; Inwerkingtreding : 17-03-2022>
 
 
 **Afdeling 12. [1 - Administratieve geldboeten en dwangsommen]1**
-----------
+
 (1)<W 2024-03-29/39, art. 46, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3007,7 +3007,7 @@ na te gaan of dit toelaat voldoende afschrikwekkende boetes op te leggen.
 de inbreuk die het voorwerp is van de beslissing, en die ingevolge een [2 minnelijke schikking]2 is betaald
 voorafgaand aan de beslissing, als een verzachtende omstandigheid in aanmerking nemen.
 § 4. Inbreuken op artikel IV.1, § 4, kunnen worden bestraft met een geldboete van 100 tot 10.000 euro.]1
-----------
+
 (1)<KB 2020-07-31/11, art. 4, 088; Inwerkingtreding : 22-08-2020>
 (2)<W 2022-02-28/02, art. 66, 104; Inwerkingtreding : 17-03-2022>
 
@@ -3026,7 +3026,7 @@ op misbruik van economische afhankelijkheid in de zin van artikel IV.2/1, niet m
 omzet van de betrokken onderneming of ondernemingsvereniging en beloopt de dwangsom tot 2 % van de
 gemiddelde dagelijkse omzet per dag vertraging te rekenen vanaf de dag bepaald door het
 Mededingingscollege.]1
-----------
+
 (1)<W 2021-02-02/06, art. 4, 096; Inwerkingtreding : 21-02-2021>
 (2)<W 2022-02-28/02, art. 67, 104; Inwerkingtreding : 17-03-2022>
 
@@ -3038,7 +3038,7 @@ dwangsom opleggen teneinde de voorlopige maatregelen, bedoeld in artikel IV.71, 
 [2 § 2. In afwijking van paragraaf 1 is de in artikel IV.79, § 2, bedoelde dwangsom van toepassing, wanneer de
 voorlopige maatregelen betrekking hebben op misbruik van een positie van economische afhankelijkheid in de zin
 van artikel IV.2/1.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<KB 2020-07-31/11, art. 5, 088; Inwerkingtreding : 22-08-2020>
 (3)<W 2022-02-28/02, art. 68, 104; Inwerkingtreding : 17-03-2022>
@@ -3067,7 +3067,7 @@ in artikel IV.1, § 4, geldboeten opleggen van 50 tot 2000 euro.]1
 [2 § 3. De in de eerste paragraaf bedoelde geldboete kan worden opgelegd wanneer een onderneming is
 overgegaan tot een concentratie zonder deze vooraf aan te melden overeenkomstig artikel IV.10, zelfs indien
 zou blijken dat de concentratie toelaatbaar is.]2
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 69, 104; Inwerkingtreding : 17-03-2022>
 
@@ -3076,7 +3076,7 @@ zou blijken dat de concentratie toelaatbaar is.]2
 
 [1 De boetes en dwangsommen bedoeld in de artikelen IV.79 tot en met IV.82 en in artikel IV.59, § 1,
 zijn niet fiscaal aftrekbaar.]1
-----------
+
 (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3137,7 +3137,7 @@ van het bestaan ervan, hetzij voor de opening van het onderzoek er zich actief v
 Wanneer een geldboete niet alleen aan de ondernemingsvereniging, maar ook aan haar leden wordt opgelegd,
 wordt de omzet van de leden aan wie een geldboete wordt opgelegd niet in aanmerking genomen bij de
 berekening van de geldboete van de vereniging.]3
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2021-02-02/06, art. 5, 096; Inwerkingtreding : 21-02-2021>
 (3)<W 2022-02-28/02, art. 70, 104; Inwerkingtreding : 17-03-2022>
@@ -3152,13 +3152,13 @@ het Mededingingscollege, van de auditeur, of de in kracht van gewijsde gegane be
 toegezonden aan de FOD Financiën, met het oog op de inning van het verschuldigde bedrag.
 De vervolgingen die de voornoemde administratie instelt, gebeuren overeenkomstig artikel 3 van de domaniale
 wet van 22 december 1949.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 ##### HOOFDSTUK 2. [1 - Prejudiciële vragen, tussenkomsten als amicus curiae en vonnissen en arresten betreffende
 [2 inbreuken op het mededingingsrecht]2]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 71, 104; Inwerkingtreding : 17-03-2022>
 
@@ -3167,7 +3167,7 @@ wet van 22 december 1949.]1
 
 [1 Het Hof van Cassatie spreekt zich bij wege van prejudicieel arrest uit over de vragen met
 betrekking tot de interpretatie van de bepalingen van dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3194,7 +3194,7 @@ alle andere zaken.
 § 4. Het rechtscollege dat de prejudiciële vraag heeft gesteld, evenals elk rechtscollege dat in dezelfde zaak
 uitspraak doet, moeten zich, voor de oplossing van het geschil naar aanleiding waarvan de vraag is gesteld,
 voegen naar het arrest dat het Hof van Cassatie heeft gewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3214,7 +3214,7 @@ worden geboden om op deze opmerkingen te antwoorden.
 tot schadevergoeding voor inbreuken op het mededingingsrecht op verzoek van een nationale rechterlijke
 instantie [3 ...]3, deze instantie bijstand verlenen bij het bepalen van het bedrag van de schade ingeval zij
 dergelijke bijstand passend acht.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<KB 2020-07-31/11, art. 6, 088; Inwerkingtreding : 22-08-2020>
 (3)<W 2022-02-28/02, art. 72, 104; Inwerkingtreding : 17-03-2022>
@@ -3229,13 +3229,13 @@ toepassing van het Europees mededingingsrecht bevat, aan de Europese Commissie, 
 griffier van het betrokken rechtscollege.
 Bovendien geeft de griffier zonder verwijl de Belgische Mededingingsautoriteit [2 en de minister]2 kennis van de
 beroepen die zijn ingesteld tegen enig in het voorgaande lid bedoeld vonnis of arrest.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2024-03-29/39, art. 47, 131; Inwerkingtreding : 13-05-2024>
 
 
 ##### HOOFDSTUK 3. [1 - Beroep]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3350,7 +3350,7 @@ Het Marktenhof regelt de vertrouwelijkheid van de documenten en gegevens. Het ne
 maatregelen om vertrouwelijke documenten en gegevens te beschermen.
 § 8. In de mate dat het Marktenhof de boetes in de aangevochten beslissing handhaaft, is interest verschuldigd
 vanaf de datum van de aangevochten beslissing.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2021-02-02/06, art. 6, 096; Inwerkingtreding : 21-02-2021>
 (3)<W 2022-02-28/02, art. 73, 104; Inwerkingtreding : 17-03-2022>
@@ -3358,7 +3358,7 @@ vanaf de datum van de aangevochten beslissing.]1
 
 
 ##### HOOFDSTUK 4. [1 - Verjaring]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3423,13 +3423,13 @@ De verjaring inzake de tenuitvoerlegging van geldboeten en dwangsommen wordt ges
 1° zolang uitstel van betaling wordt verleend;
 2° zolang de gedwongen tenuitvoerlegging van de betaling krachtens een beslissing van het Marktenhof is
 opgeschort.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2022-02-28/02, art. 74, 104; Inwerkingtreding : 17-03-2022>
 
 
 ##### HOOFDSTUK 5. [1 - Taalgebruik]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3503,14 +3503,14 @@ gehecht wordt in de oorspronkelijke taal ervan meegedeeld. Indien deze taal niet
 is, kan de auditeur-generaal de vertaling ervan vragen in een van deze nationale talen of nog in een andere taal
 van de Europese Unie overeengekomen met de nationale mededingingsautoriteit aan de oorsprong van het
 verzoek.]3
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 (2)<W 2021-02-02/06, art. 7, 096; Inwerkingtreding : 21-02-2021>
 (3)<W 2022-02-28/02, art. 75, 104; Inwerkingtreding : 17-03-2022>
 
 
 ##### HOOFDSTUK 6. [1 - Overige bepalingen]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3519,7 +3519,7 @@ verzoek.]3
 [1 De Koning kan nadere regels bepalen wat betreft de samenstelling van de dossiers, de indiening
 van schriftelijke opmerkingen en stukken, de mededeling en kennisgeving van beslissingen en documenten
 alsook nadere regels betreffende de procedures bedoeld in dit boek. ]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3529,7 +3529,7 @@ alsook nadere regels betreffende de procedures bedoeld in dit boek. ]1
 instelling of ander overheidslichaam zijn geplaatst, kan de Koning, na raadpleging van die instellingen of lichamen,
 de samenwerking tussen de Belgische Mededingingsautoriteit en die instellingen of lichamen regelen, wat het
 onderzoek betreft evenals de wederzijdse uitwisseling van vertrouwelijke inlichtingen.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
@@ -3541,12 +3541,12 @@ gelegd van de aanmeldende partijen of van de partijen die een inbreuk hebben gep
 vastgesteld bij beslissing van de auditeur of het Mededingingscollege overeenkomstig het koninklijk besluit.
 Het besluit regelt het bedrag, de voorwaarden en de wijze van inning van de vergoeding. De opbrengst van de
 vergoedingen wordt door de Belgische Mededingingsautoriteit geboekt als een inkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 
 #### TITEL 4. [1 - Toepassing van Verordening (EU) 2022/1925]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 49, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3561,7 +3561,7 @@ De auditeur en de personeelsleden van de Belgische Mededingingsautoriteit kunnen
 onderzoek toepassing maken van de artikelen IV.40 tot IV.40/5.
 § 2. Zodra het onderzoek is afgesloten, deelt de auditeur-generaal de bevindingen mee aan de Europese
 Commissie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 50, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3572,7 +3572,7 @@ Mededingingsautoriteit worden belast met de bijstandstaken met toepassing van de
 23, lid 3, en 26, lid 2, van Verordening (EU) 2022/1925.
 Daarnaast kunnen zij de Europese Commissie steun verlenen bij haar marktonderzoeken overeenkomstig de
 artikelen 16, lid 5, en 38, lid 6, van Verordening (EU) 2022/1925.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 51, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3582,7 +3582,7 @@ artikelen 16, lid 5, en 38, lid 6, van Verordening (EU) 2022/1925.]1
 en de personeelsleden van de Belgische Mededingingsautoriteit de bevoegdheid om alle gegevens, zowel van
 feitelijke als van juridische aard, met inbegrip van vertrouwelijke informatie, mee te delen aan de Europese
 Commissie en aan de nationale mededingingsautoriteiten.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 52, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3595,7 +3595,7 @@ De auditeur-generaal heeft een volledige discretionaire bevoegdheid voor de keuz
 en is niet verplicht de informatie in zijn overwegingen mee te nemen. Indien hij vaststelt dat de ontvangen
 informatie, op grond van het eerste lid, mogelijkerwijs een geval van niet-naleving van Verordening (EU)
 2022/1925 betreft, geeft hij deze door aan de Europese Commissie.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 53, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3622,7 +3622,7 @@ Verordening en voor zover dit noodzakelijk en evenredig is met het doel van het 
 marktonderzoek en de follow-up daarvan met de Europese Commissie. Indien beschikbaar wordt een niet-
 vertrouwelijke versie van de uitgewisselde informatie op verzoek verstrekt door de instantie die de informatie
 verstrekt aan de instantie die de informatie ontvangt.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 54, 131; Inwerkingtreding : 13-05-2024>
 
 
@@ -3636,12 +3636,12 @@ expertise over een specifiek onderwerp dat aan het raadgevend comité wordt voor
 wordt deze vertegenwoordiger door de voorzitter van de Belgische Mededingingsautoriteit uitgenodigd.
 Voor raadplegingsprocedures in het kader van artikel 46 van Verordening (EU) 2022/1925 nodigt de voorzitter
 een vertegenwoordiger van de FOD Economie uit om mee deel te nemen aan het raadgevend comité.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 55, 131; Inwerkingtreding : 13-05-2024>
 
 
 ## Art. IV.102
 
 [1 Artikel IV.92 is eveneens van toepassing op de bepalingen van titel 4 van dit boek.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-29/39, art. 56, 131; Inwerkingtreding : 13-05-2024>

@@ -35,7 +35,7 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 
 ##### HOOFDSTUK I. [1 ...]1
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -43,14 +43,14 @@ INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET AL
 
 [1 (oud artikel 7)]1 De uitoefening van de burgerlijke rechten is onafhankelijk van de hoedanigheid van
 staatsburger, die alleen overeenkomstig de Grondwet wordt verkregen en behouden.
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
 ## Art. 4
 
 [1 (oud artikel 8)]1 Ieder Belg heeft het genot van de burgerlijke rechten.
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -60,35 +60,35 @@ staatsburger, die alleen overeenkomstig de Grondwet wordt verkregen en behouden.
 Belgen verleende burgerlijke rechten behoudens de uitzonderingen door de wet gesteld.
 Een vreemdeling die gemachtigd is zich in het Rijk te vestigen en die in het bevolkingsregister is ingeschreven,
 heeft het genot van alle aan de Belgen verleende burgerlijke rechten zolang hij in België verblijf houdt.
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
 ##### HOOFDSTUK II. [1 ...]1
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 AFDELING I. [1 ...]1
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 AFDELING II. [1 ...]1
-----------
+
 (1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
 #### TITEL II. [1 - DE BURGERLIJKE STAND.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 ##### HOOFDSTUK I. [1 - Algemene principes van de burgerlijke stand.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 1. [1 Doelstellingen van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -102,12 +102,12 @@ dit bewijs zorgvuldig te bewaren.
 § 2. De staat van een persoon is het geheel van bepaalde hoedanigheden van een persoon die zijn rechtspositie
 in de familie en in de maatschappij bepalen en die hem onderscheiden van de andere personen wat het bezit en
 de uitoefening van bepaalde rechten betreft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 2. [1 De ambtenaar van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -119,7 +119,7 @@ burgerlijke stand. Hij zorgt in het bijzonder voor het nauwkeurig naleven van al
 akten van de burgerlijke stand.
 Bij verhindering van de ambtenaar van de burgerlijke stand wordt deze tijdelijk vervangen door de
 burgemeester, een schepen of een raadslid in de volgorde van hun benoemingen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -129,7 +129,7 @@ burgemeester, een schepen of een raadslid in de volgorde van hun benoemingen.]1
 Grondwet, kan het college van burgemeester en schepenen, in afwijking van artikel 7, één of meer schepenen
 aanwijzen voor de taak van de ambtenaar van de burgerlijke stand wanneer de burgemeester deze taak niet
 uitoefent, die elk voor één of meer binnengemeentelijke territoriale organen bevoegd zullen zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -143,7 +143,7 @@ beambten van het gemeentebestuur, aan wie de machtiging is verleend.]3
 [2 Deze machtiging is niet mogelijk voor :
 1° de opmaak van de akte van huwelijk, in toepassing van artikel 165/1, eerste lid;
 2° de opmaak van de akte van nietigverklaring in toepassing van artikel 34/1.]2]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 2, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 2, 102; Inwerkingtreding : 01-01-2024>
@@ -153,7 +153,7 @@ beambten van het gemeentebestuur, aan wie de machtiging is verleend.]3
 
 [1 De consulaire ambtenaren, bij het Consulair Wetboek bevoegd verklaard inzake burgerlijke stand, zijn
 bevoegd voor de bediening van de burgerlijke stand onder de voorwaarden bepaald in het Consulair Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -171,7 +171,7 @@ op basis van het proces-verbaal. Het proces-verbaal wordt als bijlage in de DABS
 opgemaakte proces-verbaal wordt bewaard door de ambtenaar van de burgerlijke stand die de akte heeft
 opgemaakt tot op het ogenblik van de overdracht van het proces-verbaal aan het Algemeen Rijksarchief en
 Rijksarchief in de Provinciën.]2
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 3, 102; Inwerkingtreding : 01-01-2024>
 
@@ -184,7 +184,7 @@ zijn bloedverwanten in de opgaande en in de nederdalende lijn of zijn bloedverwa
 graad.
 
 **Artikel 7, derde lid, is in dit geval van toepassing.]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -197,13 +197,13 @@ betrokkenen of één van hen; of bij gebrek hieraan,
 betrokkenen of één van hen; of bij gebrek hieraan,]2
 - de actuele verblijfplaats van de betrokkene, de betrokkenen of één van hen; of bij gebrek hieraan,
 - Brussel.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 4, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 3. [1 De akten van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -221,7 +221,7 @@ mogelijk maakt de ambtenaar van de burgerlijke stand een akte in gedematerialise
 verbaal wordt als bijlage in de DABS opgenomen. Het op papier opgemaakte proces-verbaal wordt bewaard door
 de ambtenaar van de burgerlijke stand die de akte heeft opgemaakt, tot op het ogenblik van de overdracht van
 het proces-verbaal aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -232,7 +232,7 @@ betrekking hebben, wanneer de wet dit uitdrukkelijk vermeldt en voor zover ze ni
 andere authentieke bron.
 Indien de partijen bijlagen hebben overgelegd aan de ambtenaar van de burgerlijke stand, worden de originelen
 van deze bijlagen aan hen teruggeven.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -240,7 +240,7 @@ van deze bijlagen aan hen teruggeven.]1
 
 [1 De ambtenaar van de burgerlijke stand vermeldt in de akten die hij opmaakt niets anders dan wat
 hem door de partijen moet worden verklaard en wat hem door de wet wordt opgelegd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -249,7 +249,7 @@ hem door de partijen moet worden verklaard en wat hem door de wet wordt opgelegd
 [1 De personen waarop de akte betrekking heeft of die betrokken zijn bij de totstandkoming ervan zijn
 verplicht de ambtenaar van de burgerlijke stand alle informatie mee te delen die de ambtenaar nodig heeft om de
 akte op te maken, voor zover deze informatie niet beschikbaar is in een andere authentieke bron.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -259,7 +259,7 @@ akte op te maken, voor zover deze informatie niet beschikbaar is in een andere a
 afdeling 6, gewijzigde akten [2 en processen-verbaal]2, tenzij de wet anders bepaalt.
 § 2. [2 Onverminderd artikel 8.15, derde lid, van het Burgerlijk Wetboek, kan de handtekening uit een
 handgeschreven handtekening bestaan in geval van toepassing van artikel 14, vierde lid.]2]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 5, 102; Inwerkingtreding : 01-01-2024>
 
@@ -275,7 +275,7 @@ van zijn afstammelingen tot de eerste graad,
 tenzij de wet anders bepaalt.
 De akten van de burgerlijke stand die de wijziging van de in het eerste lid bedoelde akten tot stand brengen zijn
 zichtbaar in de DABS.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -283,7 +283,7 @@ zichtbaar in de DABS.]1
 
 [1 Er wordt niets bij afkorting in de akten van de burgerlijke stand vermeld.
 De data worden in cijfers uitgedrukt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -293,7 +293,7 @@ De data worden in cijfers uitgedrukt.]1
 huwelijksakte, laten vertegenwoordigen door een lasthebber door middel van een bijzondere en authentieke
 volmacht.
 De volmacht wordt als bijlage [2 bij de akte]2 in de DABS opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 6, 102; Inwerkingtreding : 01-01-2024>
 
@@ -302,12 +302,12 @@ De volmacht wordt als bijlage [2 bij de akte]2 in de DABS opgenomen.]1
 
 [1 De ambtenaar van de burgerlijke stand kan de akte voorlezen. In elk geval wordt de akte voorgelezen
 op verzoek van één van de verschijnende partijen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 4. [1 Bewijskracht van akten van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -317,7 +317,7 @@ op verzoek van één van de verschijnende partijen.]1
 wet het anders bepaalt.
 Enkel de processen-verbaal als bedoeld in de artikelen 14, vierde lid, 47 en 57 gelden als enige bewijs van de
 staat van de persoon, zolang er op basis hiervan geen akte van de burgerlijke stand werd opgemaakt.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -325,7 +325,7 @@ staat van de persoon, zolang er op basis hiervan geen akte van de burgerlijke st
 
 [1 De na [2 31 maart 2019]2 in de DABS opgenomen akten, alsook de afschriften en uittreksels daarvan,
 gelden tot bewijs van valsheid in geschrifte.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
@@ -342,7 +342,7 @@ papier opgemaakte processen-verbaal als bedoeld in de artikelen 14, vierde lid, 
 het tegendeel.
 De oorspronkelijke op papier opgemaakte processen-verbaal als bedoeld in de artikelen 14, vierde lid, 47 en 57
 gelden tot bewijs van valsheid in geschrifte.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
@@ -353,7 +353,7 @@ gelden tot bewijs van valsheid in geschrifte.]1
 worden overeenkomstig artikel 35.
 De vernietiging of het verlies en de inhoud van de akte kunnen bewezen worden door geschriften, door andere
 authentieke bronnen of door getuigen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -362,12 +362,12 @@ authentieke bronnen of door getuigen.]1
 [1 Elke persoon kan de vervangende akte van de burgerlijke stand aan elke verzoekende overheid
 overleggen, indien hij aantoont dat hij nog steeds in de onmogelijkheid verkeert de betrokken akte van de
 burgerlijke stand te verkrijgen, voor zover de juistheid van de erin vervatte gegevens niet wordt weerlegd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 5. [1 Uittreksels en afschriften]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -385,7 +385,7 @@ Afschriften vermelden, in voorkomend geval, de basis voor de opmaak van de akte 
 beslissing, en, in voorkomend geval, de beëdigde vertaling ervan, zoals als bijlage opgenomen in de DABS,
 worden, op verzoek, gehecht aan het afschrift van een akte van de burgerlijke stand opgemaakt op basis van
 een buitenlandse akte of op basis van een buitenlandse gerechtelijke of administratieve beslissing.]2]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 7, 102; Inwerkingtreding : 01-01-2024>
 
@@ -428,7 +428,7 @@ vereist, gelegaliseerd door de minister van Buitenlandse Zaken of door de door h
 Koning worden bepaald.
 § 5. De uittreksels en afschriften vermelden de datum van afgifte en worden geauthentificeerd door het
 elektronisch zegel van de DABS.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 8, 102; Inwerkingtreding : 01-01-2025>
 
@@ -445,13 +445,13 @@ op dezelfde wijze als deze afgeleverd voor akten opgemaakt na [2 31 maart 2019]2
 maart 2019]2 niet wordt aanvaard of wanneer het wordt betwist voor het doel waartoe het dient, wordt een
 uittreksel of afschrift afgeleverd op basis van het papieren register met toevoeging van de bijwerkingen op de
 akte in de DABS.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 6. [1 Wijzigingen van akten van de burgerlijke stand]1**
-----------
+
 (1)<W 2020-07-31/03, art. 3, 089; Inwerkingtreding : 01-09-2020>
 
 
@@ -479,14 +479,14 @@ De gewijzigde akte maakt hier melding van.
 [3 Elke verbetering of wijziging van een akte bedoeld in het eerste lid wordt via de DABS genotificeerd aan de
 bevoegde procureur des Konings.]3]2
 § 3. De ambtenaar van de burgerlijke stand tekent de gewijzigde akte of akten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 4, 089; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 9, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 7. [1 Meldingen op akten van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -525,19 +525,19 @@ aktenummer van de huwelijksakte en de namen en voornamen van de partijen.]3
 [3 § 3. In geval van een fout in de verzending van de gegevens met het oog op de meldingen bedoeld in
 paragraaf 1, worden de meldingen vervangen door de griffier of door de ambtenaar bedoeld in artikel 370/3, §
 2/1, in geval van een naamsverandering.]3
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 5, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 10, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1**
-----------
+
 (1)<W 2020-07-31/03, art. 7, 089; Inwerkingtreding : 01-09-2020>
 
 
 *Onderafdeling 1. [1 Verbetering door de ambtenaar van de burgerlijke stand]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -559,7 +559,7 @@ leden, legt de betrokkene de akten of officiële attesten die de materiële verg
 de burgerlijke stand ten gevolge van de verbetering op.
 De authentieke akte of het officiële attest, op basis waarvan de akte wordt verbeterd, wordt als bijlage in de
 DABS opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
@@ -592,13 +592,13 @@ op een medisch attest als bedoeld in de artikelen 42, 48, 55, § 1, en 58.
 De ambtenaar van de burgerlijke stand kan de akte van de burgerlijke stand verbeteren voor zover het
 medisch attest werd verbeterd door de arts of vroedvrouw.
 Het verbeterde medisch attest wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<W 2020-07-31/03, art. 6, 089; Inwerkingtreding : 01-09-2020>
 (2)<W 2023-09-13/08, art. 11, 102; Inwerkingtreding : 01-01-2024>
 
 
 *Onderafdeling 2. [1 Ambtshalve nietigverklaring van een akte door de ambtenaar van de burgerlijke stand]1*
-----------
+
 (1)<Ingevoegd bij W 2020-07-31/03, art. 8, 089; Inwerkingtreding : 01-09-2020>
 
 
@@ -624,13 +624,13 @@ des Konings.]2
 Het beheerscomité DABS, bedoeld in artikel 74, maakt jaarlijks een lijst op van het aantal akten dat ambtshalve
 werd vernietigd. Ze bezorgt deze lijst aan de minister van Justitie, voor 31 januari van het jaar volgend op het
 voorbije burgerlijke jaar. De minister van Justitie legt deze lijst neer in de Kamer van volksvertegenwoordigers.]1
-----------
+
 (1)<Ingevoegd bij W 2020-07-31/03, art. 9, 089; Inwerkingtreding : 01-09-2020>
 (2)<W 2023-09-13/08, art. 12, 102; Inwerkingtreding : 01-01-2024>
 
 
 *Onderafdeling 2. Onderafdeling 3 [1 Verbetering en nietigverklaring door de familierechtbank]1*
-----------
+
 (1)<W 2020-07-31/03, art. 10, 089; Inwerkingtreding : 01-09-2020>
 
 
@@ -653,14 +653,14 @@ kracht van gewijsde gegane rechterlijke beslissing als bijlage op in de DABS.
 De bevoegde ambtenaar van de burgerlijke stand maakt onmiddellijk de gewijzigde akte of akten van de
 burgerlijke stand ten gevolge van de verbetering [2 , de akten van nietigverklaring]2 of de vervangende akte op [2
 en verbindt deze, in voorkomend geval, met de akten van de burgerlijke stand waarop ze betrekking hebben]2.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 11, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 13, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 9. [1 Aansprakelijkheid van en controle op de ambtenaar van de burgerlijke stand]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -668,7 +668,7 @@ en verbindt deze, in voorkomend geval, met de akten van de burgerlijke stand waa
 
 [1 De ambtenaar van de burgerlijke stand is verantwoordelijk voor de door hem opgemaakte, verbeterde
 [2 , gewijzigde of ambtshalve nietig verklaarde]2 akten van de burgerlijke stand.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 12, 089; Inwerkingtreding : 01-09-2020>
 
@@ -677,7 +677,7 @@ en verbindt deze, in voorkomend geval, met de akten van de burgerlijke stand waa
 
 [1 In geval van ernstige twijfel omtrent het opmaken van de akten van de burgerlijke stand kan de
 ambtenaar van de burgerlijke stand de procureur des Konings verzoeken hierover advies uit te brengen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -686,7 +686,7 @@ ambtenaar van de burgerlijke stand de procureur des Konings verzoeken hierover a
 [1 [2 De ambtenaar van de burgerlijke stand is]2 burgerrechtelijk aansprakelijk voor het niet naleven van
 de in het kader van zijn functie opgelegde voorschriften, behoudens verhaal op de personen die hem verhinderd
 hebben deze voorschriften uit te voeren, indien daartoe grond bestaat.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 14, 102; Inwerkingtreding : 01-01-2024>
 
@@ -695,7 +695,7 @@ hebben deze voorschriften uit te voeren, indien daartoe grond bestaat.]1
 
 [1 Elke onrechtmatige verandering en elke valsheid in de akten van de burgerlijke stand leveren grond op
 tot schadevergoeding aan de partijen, onverminderd de straffen voorzien in het Strafwetboek.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -712,17 +712,17 @@ hun rechtsgebied.
 onmiddellijk op de hoogte van elke fout of onregelmatigheid die hij vaststelt.
 § 3. De procureur des Konings onderzoekt en vervolgt de door de ambtenaar van de burgerlijke stand in de
 uitoefening van zijn functie gepleegde inbreuken.]1
-----------
+
 (1)<W 2023-09-13/08, art. 15, 102; Inwerkingtreding : 01-01-2024>
 
 
 ##### HOOFDSTUK II. [1 - De verschillende akten van de burgerlijke stand.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 1. [1 Algemene bepaling]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -757,18 +757,18 @@ verwerkingsverantwoordelijken voor de DABS, bedoeld in artikel 73, gemachtigd om
 1° gebruik te maken van het Rijksregisternummer; en
 2° toegang te verkrijgen tot de gegevens uit het Rijksregister die nodig zijn voor het operationeel beheer.]2
 § 3. De akten van de burgerlijke stand vermelden verder de gegevens zoals voorzien in dit hoofdstuk.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 16, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 2. [1 De akten van geboorte]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 1. [1 De akte van geboorte]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -780,7 +780,7 @@ burgerlijke stand van de geboorteplaats, uiterlijk de eerst volgende werkdag na 
 inrichting of zijn afgevaardigde;
 2° in de overige gevallen de arts, vroedvrouw, de andere personen die bij de geboorte aanwezig waren of de
 persoon bij wie de geboorte heeft plaatsgehad.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -795,7 +795,7 @@ maakt de ambtenaar van de burgerlijke stand de geboorteakte op, op basis van de 
 artikel 42.
 § 3. De Koning kan de voorwaarden bepalen voor een elektronische aangifte van de geboorte.
 § 4. De ambtenaar van de burgerlijke stand maakt de akte van geboorte onmiddellijk op.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -816,12 +816,12 @@ heeft toegestemd;
 c) de datum, plaats en autoriteit waar de toestemming werd gegeven, of de rechterlijke instantie, de datum en
 het identificatienummer van de in kracht van gewijsde gegane rechterlijke beslissing waarin de toestemming werd
 vastgesteld.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 2.[1 Akte van geboorte van een vondeling]1*
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -833,7 +833,7 @@ De hulpdienst doet aangifte van de geboorte van de vondeling bij de ambtenaar va
 de plaats waar het kind gevonden is]2.
 [2 Deze ambtenaar]2 van de burgerlijke stand maakt de akte van geboorte op. Het proces-verbaal van de politie
 wordt als bijlage opgenomen in de DABS.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 17, 102; Inwerkingtreding : 01-01-2024>
 
@@ -841,12 +841,12 @@ wordt als bijlage opgenomen in de DABS.]1
 ## Art. 46
 
 [1 De akte van geboorte vermeldt in dit geval de gegevens bedoeld in artikel 44, 1°.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 3. [1 Akte van geboorte in geval van geboorte aan boord van een schip of een luchtvaartuig]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 1, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -867,12 +867,12 @@ verbaal aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.
 § 3. Indien de eerstvolgende aanlegplaats of landingsplaats in het buitenland is, bezorgt de gezagvoerder zo
 spoedig mogelijk het proces-verbaal aan de consulaire beroepspost in wiens consulair ressort de haven of
 landingsplaats zich bevindt.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 4. [1 Gemeenschappelijke bepalingen]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -883,7 +883,7 @@ landingsplaats zich bevindt.]1
 medisch attest.]1
 [2 De ambtenaar van de burgerlijke stand van de geboorteplaats wijzigt de geboorteakte door toevoeging van
 het geslacht van het kind.]2
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 18, 102; Inwerkingtreding : 01-01-2024>
 
@@ -898,17 +898,17 @@ tot wie de afstamming vaststaat, notificeert dit binnen drie dagen elektronisch 
 bedoeld in artikel 390.
 De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zondag of een wettelijke feestdag,
 dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 3. [1 De akten van erkenning]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 1. [1 Akte van prenatale erkenning]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -921,12 +921,12 @@ dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
 toestemming werd gegeven, of de rechterlijke instantie, de datum en het identificatienummer van de in kracht
 van gewijsde gegane rechterlijke beslissing waarin de toestemming werd vastgesteld. De rechterlijke beslissing
 wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 2. [1 Akte van erkenning]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -951,13 +951,13 @@ en de moeder;
 [2 5° /1 in voorkomend geval, de nieuwe naam en de verklaring van naamskeuze door het meerderjarige kind;]2
 6° in voorkomend geval, de nieuwe voornaam;
 7° in voorkomend geval, het feit dat de in artikel 329bis, § 3, bedoelde personen niet hebben toegestemd.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-12-19/05, art. 2, 103; Inwerkingtreding : 01-03-2024>
 
 
 **Afdeling 4. [1 Akte van verklaring van naamskeuze]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -970,12 +970,12 @@ verklaring betrekking heeft;
 meemoeder;
 3° de verklaring van naamskeuze door de ouders en de nieuwe naam van het kind of de kinderen;
 4° de wettelijke basis van de verklaring op basis waarvan de akte werd opgesteld.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 5. [1 Akte van aanpassing van de registratie van het geslacht]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -984,12 +984,12 @@ meemoeder;
 [1 De akte van aanpassing van de registratie van het geslacht vermeldt :
 - de naam, de voornamen, de geboortedatum en de geboorteplaats van de betrokkene;
 - het nieuwe geslacht van de betrokkene.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 6. [1 Akte van huwelijk]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1001,19 +1001,19 @@ meemoeder;
 3° de door een echtgenoot gekozen naam [3 en/of de voornaam]3 na voltrekking van het huwelijk,
 overeenkomstig het recht van de Staat waarvan hij de nationaliteit heeft;
 4° in voorkomend geval, de naam, voornamen, de geboortedatum en geboorteplaats van de getuigen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 13, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 19, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 7. [1 Akten van overlijden]1**
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 1. [1 Akte van overlijden]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1025,7 +1025,7 @@ overlijden heeft vastgesteld.
 § 2. In geval van overlijden van een onbekend persoon, maakt de ambtenaar van de burgerlijke stand een
 proces-verbaal op dat alle informatie bevat die hij heeft kunnen inwinnen omtrent de overledene.
 Het proces-verbaal wordt als bijlage opgenomen bij de akte van overlijden in de DABS.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1035,14 +1035,14 @@ Het proces-verbaal wordt als bijlage opgenomen bij de akte van overlijden in de 
 1° de naam, de voornamen, de geboortedatum en geboorteplaats van de overledene, of, in geval het gaat om
 een onbekende, de op het ogenblik van de opmaak van de akte beschikbare gegevens;
 2° de plaats, de datum en het uur van het overlijden of [2 van de vaststelling van het overlijden]2.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 20, 102; Inwerkingtreding : 01-01-2024>
 
 
 *Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een*
 luchtvaartuig]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1061,12 +1061,12 @@ Rijksarchief in de Provinciën.
 § 3. Indien de eerstvolgende aanlegplaats of landingsplaats in het buitenland gelegen is, bezorgt de
 gezagvoerder zo spoedig mogelijk het proces-verbaal aan de consulaire beroepspost in wiens consulair ressort
 de haven of landingsplaats zich bevindt.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 3.[1 Akte van een levenloos kind]1*
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1099,7 +1099,7 @@ overeenkomstig paragraaf 2.]3
 vroedvrouw, heeft geen rechtspersoonlijkheid.
 De akte van een levenloos kind heeft geen rechtsgevolgen uitgezonderd deze uitdrukkelijk door de wet
 bepaald.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 21, 102; Inwerkingtreding : 01-01-2024>
 (3)<W 2024-03-28/60, art. 49, 105; Inwerkingtreding : 08-04-2024>
@@ -1120,12 +1120,12 @@ de meemoeder die niet gehuwd is met de moeder noch het verwekt kind heeft erkend
 dagen te rekenen van de verwekking, indien om de vermelding ervan wordt verzocht.
 Voor de toekenning van de naam bedoeld in het eerste lid, 6°, zijn de artikelen 335 en 335ter van
 overeenkomstige toepassing.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 *Onderafdeling 4. [1 Gemeenschappelijke bepaling]1*
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1139,12 +1139,12 @@ elektronisch via de DABS aan de in artikel 628, 3°, van het Gerechtelijk Wetboe
 de overledene een krachtens artikel 492/1 beschermde persoon of zijn bewindvoerder was.
 De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zondag of een wettelijke feestdag,
 dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 8. [1 Akte van afwezigheid]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1152,12 +1152,12 @@ dan wordt de vervaldag uitgesteld tot de eerstvolgende werkdag.]1
 
 [1 De akte van afwezigheid vermeldt de naam, de voornamen, de geboortedatum en de geboorteplaats
 van de afwezige.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 9. [1 Akte van voornaamsverandering]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1166,12 +1166,12 @@ van de afwezige.]1
 [1 De akte van voornaamsverandering vermeldt :
 1° de naam, de voornaam of voornamen, de geboortedatum en de geboorteplaats van de betrokkene;
 2° de nieuwe voornaam of voornamen van de betrokkene.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 10.[1 Akte van naamsverandering]1**
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1186,7 +1186,7 @@ van de afwezige.]1
 heeft gediend voor de opmaak van de akte van naamsverandering;]3
 [4 6° wanneer artikel 370/8/1 van toepassing is, de wettelijke grondslag op basis waarvan de naamsverandering
 wordt toegestaan.]4]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 14, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-12-19/05, art. 3, 103; Inwerkingtreding : 01-03-2024>
@@ -1194,7 +1194,7 @@ wordt toegestaan.]4]1
 
 
 **Afdeling 11. [1 Akte van echtscheiding]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1207,14 +1207,14 @@ huwelijk;]2
 3° de naam en de voornamen van de personen die uit de echt gescheiden zijn;
 [3 3° /1 in voorkomend geval, de naam en/of de voornaam na echtscheiding;]3
 4° de geboortedatum en geboorteplaats van de personen die uit de echt gescheiden zijn.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 15, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 22, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 12. [1 Akte van adoptie]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1228,13 +1228,13 @@ huwelijk;]2
 5° in voorkomend geval, de datum van de erkenning van de buitenlandse adoptie door de federale centrale
 autoriteit;]1
 [2 6° in geval van een adoptie geregeld in Titel VIII, hoofdstuk 1, de datum van het verzoekschrift.]2
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 16, 089; Inwerkingtreding : 01-09-2020>
 
 
 **Afdeling 13. [1 Akte van herroeping of herziening van adoptie [2 ...]2 of van nietigverklaring]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-07-20/19, art. 3, 100; Inwerkingtreding : 01-10-2023>
 
@@ -1252,14 +1252,14 @@ beslissing, met name of het gaat om :
 - een nietigverklaring van een volledige akte ten gevolge van een beslissing genomen op basis van artikel 463
 van het Wetboek van strafvordering;]1
 [2 3° in geval van toepassing van artikel 34/1, de reden van de nietigverklaring van de akte.]2
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 17, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-07-20/19, art. 3, 100; Inwerkingtreding : 01-10-2023>
 
 
 **Afdeling 14. [1 Akten van Belgische nationaliteit]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1276,13 +1276,13 @@ verklaarder of verklaarders.
 § 2. De akte van vervallenverklaring van Belgische nationaliteit vermeldt de naam, de voornamen, de
 geboortedatum en de geboorteplaats van de persoon op wie de akte betrekking heeft [2 en de wettelijke basis
 van de vervallenverklaring]2.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 23, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 15. [1 Akte opgemaakt op basis van een buitenlandse akte]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1298,7 +1298,7 @@ De procureur des Konings kan verzoeken dat op basis van een buitenlandse akte ee
 § 2. De ambtenaar van de burgerlijke stand maakt een akte op basis van een buitenlandse akte op indien hem
 een buitenlandse authentieke akte wordt voorgelegd bij de opmaak of de wijziging van een akte van de burgerlijke
 stand of bij een aanpassing van het bevolkings-, vreemdelingen- of wachtregister.]1
-----------
+
 (1)<W 2023-09-13/08, art. 24, 102; Inwerkingtreding : 01-01-2025>
 
 
@@ -1312,13 +1312,13 @@ een in de DABS opgenomen akte, vermeldt de akte op basis van een buitenlandse ak
 van de burgerlijke stand verbeterde of aangevulde gegevens van de buitenlandse akte.
 § 2. Een afschrift of een uittreksel van de buitenlandse akte en, in voorkomend geval, de beëdigde vertaling
 ervan, wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve**
 beslissing]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1341,17 +1341,17 @@ buitenlandse definitieve administratieve beslissing wordt voorgelegd bij de opma
 de burgerlijke stand of bij een aanpassing van het bevolkings-, vreemdelingen- of wachtregister.
 § 3. Een afschrift van de buitenlandse rechterlijke beslissing of van de buitenlandse administratieve beslissing
 en, in voorkomend geval, de beëdigde vertaling ervan, wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<W 2023-09-13/08, art. 25, 102; Inwerkingtreding : 01-01-2025>
 
 
 ##### HOOFDSTUK 3. [1 De databank voor de akten van de burgerlijke stand]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 1. [1 Algemene bepalingen]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1377,7 +1377,7 @@ maken;
 ervan aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën;
 10° te voorzien in een gelijktijdige actualisatie van de gegevens van het Rijksregister op basis van de gegevens
 opgenomen in de DABS.]1
-----------
+
 (1)<W 2023-09-13/08, art. 26, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -1400,12 +1400,12 @@ buitenlandse rechterlijke beslissingen van de bur-gerlijke stand en administrati
 echtscheiding en naamsverandering.
 De DABS geldt als authentieke bron voor alle akten opgemaakt na 31 maart 2019, en de gegevens die erin zijn
 opgenomen.]1
-----------
+
 (1)<W 2023-09-13/08, art. 27, 102; Inwerkingtreding : 01-01-2024>
 
 
 **Afdeling 2. [1 Beheer van de DABS]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1417,7 +1417,7 @@ zin van artikel 4, 7), van de Verordening (EU) 2016/679 van het Europees Parleme
 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van
 persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG
 (algemene verordening gegevensbescherming).]1
-----------
+
 (1)<W 2023-09-13/08, art. 28, 102; Inwerkingtreding : 01-01-2025>
 
 
@@ -1458,7 +1458,7 @@ Rijksregister wordt beoogd, en in het bijzonder de uitvoering van artikel 71, 10
 samengesteld als volgt:
 1° de leden van het beheerscomité;
 2° twee vertegenwoordigers van de Federale Overheidsdienst Binnenlandse Zaken.]1
-----------
+
 (1)<W 2023-09-13/08, art. 29, 102; Inwerkingtreding : 01-01-2025>
 
 
@@ -1481,7 +1481,7 @@ onafhankelijk. Hij brengt rechtstreeks verslag uit aan de Federale Overheidsdien
 daarvan in kennis stelt, voor zover dit noodzakelijk is voor de uitvoering van zijn opdrachten.
 De Koning kan, na advies van de Gegevens-beschermingsautoriteit, nadere regels volgens dewelke de
 functionaris voor de gegevensbescherming zijn opdrachten uitvoert, bepalen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1491,7 +1491,7 @@ functionaris voor de gegevensbescherming zijn opdrachten uitvoert, bepalen.]1
 aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.
 De Koning bepaalt, na advies te hebben ingewonnen van het beheerscomité, de nadere regels van deze
 overdracht.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 30, 102; Inwerkingtreding : 01-01-2024>
 
@@ -1501,7 +1501,7 @@ overdracht.]1
 
 
 **Afdeling 3. [1 Toegang tot de DABS]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -1526,7 +1526,7 @@ Hiertoe wordt een protocol afgesloten overeenkomstig artikel 20 van de wet van 3
 bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens, tenzij de
 modaliteiten van de mededeling ervan op eenzelfde wijze gedocumenteerd zijn in een wet of regelgevende
 norm.]1
-----------
+
 (1)<W 2023-09-13/08, art. 32, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -1537,7 +1537,7 @@ door wie, waar en welke akten]2 raadpleegbaar zijn voor genealogische [2 of hist
 [2 De aflevering van afschriften en uittreksels of de raadpleging van de akten in het kader van genealogisch of
 historisch onderzoek kunnen aanleiding geven tot een vergoeding die niet meer mag bedragen dan de kostprijs,
 vastgesteld door de afleverende autoriteit.]2
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 33, 102; Inwerkingtreding : 01-01-2024>
 
@@ -1551,7 +1551,7 @@ vastgesteld door de afleverende autoriteit.]2
 [1 De overheden, de instellingen en de personen die gemachtigd zijn de [2 authentieke]2 gegevens van
 de DABS te raadplegen [2 ...]2, mogen de betreffende gegevens niet meer opvragen via de betrokkene [2 of een
 andere overheid of instelling]2.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 35, 102; Inwerkingtreding : 01-01-2024>
 
@@ -1564,7 +1564,7 @@ de vermelding, de inschrijving of de wijziging verbetert overeenkomstig hoofdstu
 § 2. Alle overheden en instellingen, die toegang hebben tot de gegevens van de DABS zijn gehouden, van zodra
 zij hetzij foutieve of het ontbreken van gegevens vaststellen in de DABS, hetzij vaststellen dat een inschrijving of
 wijziging niet is gebeurd, dit te melden aan het [2 ...]2 beheerscomité.]1
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 36, 102; Inwerkingtreding : 01-01-2024>
 
@@ -1594,7 +1594,7 @@ wettelijke basis ervan;
 7° de systemen die deze persoonsgegevens hebben verwerkt.
 De logbestanden worden tien jaar bewaard vanaf de datum van de raadpleging. De logbestanden worden ter
 beschikking gehouden van de Gegevens beschermingsautoriteit.]2
-----------
+
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 37, 102; Inwerkingtreding : 01-01-2024>
 
@@ -1759,7 +1759,7 @@ van afwezigheid vaststellen.
 afwezigen. Overeenkomstig de artikelen 766, tweede lid, en 767 van het Gerechtelijk Wetboek wordt het
 openbaar ministerie gehoord over zijn schriftelijk of mondeling advies of vorderingen met betrekking tot alle
 rechtsvorderingen die de afwezigen aangaan.]1.
-----------
+
 (1)<W 2013-07-30/23, art. 5, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -1800,7 +1800,7 @@ de wet van 8 juli 2018 houdende organisatie van een centraal aanspreekpunt van r
 contracten en tot uitbreiding van de toegang tot het centraal bestand van berichten van beslag, delegatie,
 overdracht, collectieve schuldenregeling en protest. De rechter bezorgt de ontvangen informatie aan de
 gerechtelijk bewindvoerder.]2
-----------
+
 (1)<W 2013-07-30/23, art. 6, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2024-05-15/03, art. 34, 106; Inwerkingtreding : 07-06-2024>
 
@@ -1837,7 +1837,7 @@ Het is de gerechtelijk bewindvoerder verboden, buiten de in het eerste lid verme
 bezoldiging of voordeel, van welke aard ook of van wie ook, te ontvangen met betrekking tot het uitoefenen van
 het mandaat van gerechtelijk bewindvoerder.
 (Oud hoofdstuk II vervallen) <W 2007-05-09/44, art. 7, 037; Inwerkingtreding : 01-07-2007>
-----------
+
 (1)<W 2013-07-30/23, art. 7, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -1887,7 +1887,7 @@ vrederechter.
 gerechtelijk bewindvoerder, worden de gelden en de goederen van de vermoedelijk afwezige volledig en duidelijk
 afgescheiden van het persoonlijk vermogen van de bewindvoerder. De banktegoeden van de vermoedelijk
 afwezige worden op zijn naam ingeschreven.
-----------
+
 (1)<W 2018-04-15/14, art. 252, 088; Inwerkingtreding : 01-11-2018>
 (2)<W 2022-01-19/18, art. 7, 094; Inwerkingtreding : 01-07-2022>
 
@@ -1939,7 +1939,7 @@ van de burgerlijke stand stelt de gerechtelijk bewindvoerder in kennis van de be
 samenwoning te beëindigen.
 Het eindverslag en, in voorkomend geval, de inventaris worden bij het dossier bedoeld in artikel 114, § 2,
 gevoegd.
-----------
+
 (1)<W 2013-07-30/23, art. 8, 065; Inwerkingtreding : 01-09-2014>
 
 Afdeling II. - Verklaring van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 11; Inwerkingtreding : 01-07-
@@ -1954,7 +1954,7 @@ laatst nieuws ontvangen heeft van de afwezige, kan de verklaring van afwezigheid
 [1 familierechtbank]1 op verzoek van iedere belanghebbende of van de procureur des Konings.
 § 2. De griffier moet, in voorkomend geval, een eensluidend verklaard afschrift van het vonnis houdende
 verklaring van afwezigheid ter kennis brengen van de in artikel [1 112, § 1]1, bedoelde vrederechter.
-----------
+
 (1)<W 2013-07-30/23, art. 9, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -1977,7 +1977,7 @@ vonnis houdende verklaring van afwezigheid eerst wijzen een jaar na de laatste b
 119, eerste lid.
 Het vonnis houdende verklaring van afwezigheid wordt bij uittreksel bekendgemaakt op de wijze bepaald in
 artikel 119, binnen de termijn bepaald door de rechtbank.
-----------
+
 (1)<W 2013-07-30/23, art. 10, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -1994,7 +1994,7 @@ vreemdelingen- of wachtregister in België, of bij gebrek hieraan, deze van Brus
 afwezigheid ten gevolge van de rechterlijke beslissing op.
 § 2. De beslissing houdende verklaring van afwezigheid heeft alle gevolgen van het overlijden vanaf de datum
 van de opmaak van de akte van afwezigheid.]1
-----------
+
 (1)<W 2018-06-18/03, art. 5, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2009,7 +2009,7 @@ overeenkomstig artikel 35]2.
 [2 In de gevallen bedoeld in het eerste en tweede lid stuurt de griffier onmiddellijk de gegevens van het vonnis of
 arrest door naar de DABS, met vermelding van de dag van het in kracht van gewijsde treden.
 De DABS maakt op basis hiervan een melding op en verbindt deze met de akte van afwezigheid.]2
-----------
+
 (1)<W 2013-07-30/23, art. 11, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 6, 082; Inwerkingtreding : 31-03-2019>
 
@@ -2037,7 +2037,7 @@ onverdeeldheid te zijn terug in de staat waarin zij zich bevinden, alsmede het d
 die mochten zijn vervreemd op grond van de inventaris die werd opgesteld overeenkomstig artikel 117, § 3,
 derde lid.
 Er wordt een einde gemaakt aan de maatregelen ten aanzien van de minderjarige kinderen.
-----------
+
 (1)<W 2011-08-13/17, art. 2, 054; Inwerkingtreding : 01-04-2012>
 
 Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige
@@ -2063,7 +2063,7 @@ Konings, die ambtshalve optreedt of op verzoek van de minister van Justitie, het
 persoon die in levensbedreigende omstandigheden verdween, indien zijn lichaam niet kon worden teruggevonden
 of niet kon worden geïdentificeerd, en zijn overlijden, gelet op de omstandigheden, als zeker kan worden
 beschouwd.
-----------
+
 (1)<W 2013-07-30/23, art. 12, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -2073,7 +2073,7 @@ beschouwd.
 artikel 1226 van het Gerechtelijk Wetboek, kan de procureur des Konings het verzoek tot verklaring van
 overlijden van diverse personen instellen bij een enkel verzoekschrift en kan de [1 familierechtbank]1 in dat geval
 uitspraak doen bij een enkel vonnis.
-----------
+
 (1)<W 2013-07-30/23, art. 13, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -2106,7 +2106,7 @@ De griffier van het hof van beroep geeft kennis van het arrest overeenkomstig de
 eerste aanleg. De termijn voor voorziening in cassatie bedraagt één maand vanaf deze kennisgeving.
 De termijn voor voorziening in cassatie en de voorziening tegen het arrest waarbij het overlijden wordt
 vastgesteld hebben schorsende kracht.
-----------
+
 (1)<W 2013-07-30/23, art. 14, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -2119,7 +2119,7 @@ Deze datum mag niet onbepaald zijn.
 Het beschikkend gedeelte van de gerechtelijke beslissing tot verklaring van overlijden bevat de in [1 artikel 56]1
 omschreven vermeldingen; het stelt in voorkomend geval de onmogelijkheid vast melding te maken van sommige
 ervan.
-----------
+
 (1)<W 2018-06-18/03, art. 7, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2132,7 +2132,7 @@ De ambtenaar van de burgerlijke stand van de laatste plaats van inschrijving van
 bevolkings-, vreemdelingen- of wachtregister in België, of bij gebrek hieraan, deze van Brussel, maakt de akte
 van overlijden ingevolge de rechterlijke beslissing onmiddellijk op.
 In geval van een collectief vonnis wordt een akte van overlijden per betrokkene opgemaakt.]1
-----------
+
 (1)<W 2018-06-18/03, art. 8, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2141,7 +2141,7 @@ In geval van een collectief vonnis wordt een akte van overlijden per betrokkene 
 [1 ...]1
 De vonnissen en arresten waarbij een verzoek tot verklaring van overlijden wordt afgewezen, beletten niet dat
 een soortgelijk verzoek later ontvankelijk zou zijn, ingeval het gegrond is op nieuw bewijsmateriaal.
-----------
+
 (1)<W 2018-06-18/03, art. 9, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2159,7 +2159,7 @@ De DABS maakt op basis hiervan een melding op en verbindt deze met de akte van o
 Het verbeterende vonnis wordt bij uittreksel bekendgemaakt overeenkomstig artikel 119 binnen de door de
 rechtbank bepaalde termijn.
 Indien de persoon die gerechtelijk overleden is verklaard terugkeert, is artikel 124 van toepassing.]1
-----------
+
 (1)<W 2018-06-18/03, art. 10, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2170,7 +2170,7 @@ rechtbanken stellen de minister van Buitenlandse Zaken onmiddellijk in kennis va
 gevoerde rechtspleging.
 
 TITEL IV/1. [1 - Aanpassing van de registratie van het geslacht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 1, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2231,7 +2231,7 @@ wettelijke vertegenwoordiger.
 Ingeval deze personen weigeren om de niet-ontvoogde minderjarige bij te staan, kan de minderjarige, bij
 verzoekschrift ondertekend door hemzelf of zijn advocaat, de familierechtbank verzoeken hem te machtigen om
 deze handeling met bijstand van een voogd ad hoc te verrichten.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 12, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-07-20/19, art. 4, 100; Inwerkingtreding : 01-10-2023>
 
@@ -2254,7 +2254,7 @@ analogie van toepassing evenals de hoofdstukken 3, 4 en 5.
 De persoon ten aanzien van wie de afstamming wordt vastgesteld volgens de bepalingen van het tweede lid
 wordt in de akte van geboorte steeds als meemoeder vermeld.
 In alle overige gevallen wordt voor de toepassing van boek I, titel VII, uitgegaan van het nieuwe geslacht.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 13, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2325,7 +2325,7 @@ Hoger beroep kan (binnen acht dagen na de kennisgeving per gerechtsbrief van het
 en [1 de familiekamer van het hof van beroep]1 doet uitspraak binnen vijftien dagen. (Het vonnis wordt eveneens
 door de griffier aan het bevoegde openbaar ministerie medegedeeld) Tegen het vonnis of arrest is geen verzet
 mogelijk. <W 2006-05-09/35, art. 2, 032; Inwerkingtreding : 10-05-2007>
-----------
+
 (1)<W 2013-07-30/23, art. 15, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -2339,7 +2339,7 @@ De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 Een eensluidend verklaard afschrift van de beschikking wordt eveneens overgezonden aan de in [2 artikel
 164/1]2 bedoelde ambtenaar van de burgerlijke stand.]1
 [2 De beschikking wordt als bijlage bij de huwelijksakte in de DABS opgenomen.]2
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 3, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-06-18/03, art. 14, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2018-12-21/09, art. 2, 086; Inwerkingtreding : 01-03-2019>
@@ -2364,7 +2364,7 @@ aan de staat van gehuwde.
 <Ingevoegd bij W 2007-04-25/76, art. 3; Inwerkingtreding : 25-06-2007> Er is evenmin een
 huwelijk wanneer het wordt aangegaan zonder vrije toestemming [1 van beide echtgenoten of de toestemming]1
 van minstens een van de echtgenoten werd gegeven onder geweld of bedreiging.
-----------
+
 (1)<W 2013-06-02/08, art. 4, 059; Inwerkingtreding : 03-10-2013>
 
 
@@ -2373,7 +2373,7 @@ van minstens een van de echtgenoten werd gegeven onder geweld of bedreiging.
 [1 Men mag geen huwelijk aangaan:
 1° vóór de ontbinding van een bestaand huwelijk;
 2° vóór de beëindiging van een bestaande wettelijke samenwoning, tenzij het dezelfde partijen betreft.]1
-----------
+
 (1)<W 2023-02-08/05, art. 2, 099; Inwerkingtreding : 11-03-2023>
 
 
@@ -2393,7 +2393,7 @@ de andere ouder zijn toestemming weigert, kan de rechtbank toestemming tot het h
 weigering een misbruik acht te zijn.
 Ingeval beide ouders in de onmogelijkheid verkeren hun wil te kennen te geven [1 of wilsonbekwaam zijn]1 of
 ingeval zij niet verschijnen, kan de rechtbank toestemming tot het huwelijk verlenen.
-----------
+
 (1)<W 2013-03-17/14, art. 4, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 16, 065; Inwerkingtreding : 01-09-2014>
 
@@ -2495,16 +2495,16 @@ en het in artikel 163 bedoelde verbod opheffen.
 De procedure wordt op eenzijdig verzoekschrift ingeleid door een van de toekomstige echtgenoten. De
 rechtbank doet uitspraak na de toekomstige echtgenoten te hebben opgeroepen en na het advies van de
 procureur des Konings ter zake te hebben ingewonnen.]1
-----------
+
 (1)<W 2018-12-21/09, art. 118, 086; Inwerkingtreding : 10-01-2019>
 
 
 ##### HOOFDSTUK II. [1 - Formaliteiten betreffende het huwelijk.]1
-----------
+
 (1)<W 2018-06-18/03, art. 15, 082; Inwerkingtreding : 31-03-2019>
 
 Afdeling I. [1 - Aangifte van het huwelijk]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 16, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2547,7 +2547,7 @@ meldingen gebeuren.
 De Koning kan de voorwaarden bepalen voor een elektronische aangifte van huwelijk.
 § 4. De ambtenaar van de burgerlijke stand die de aangifte heeft ondertekend gaat na of er geen
 huwelijksbeletselen zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 17, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2593,7 +2593,7 @@ burgerlijke stand om een voor eensluidend verklaarde vertaling ervan verzoeken.
 § 8. Bij de aangifte van het huwelijk deelt de ambtenaar van de burgerlijke stand de toekomstige echtgenoten
 mee dat ze een beroep kunnen doen op ten hoogste vier getuigen, die ze zelf kiezen en die minimum achttien
 jaar oud zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 18, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
@@ -2614,7 +2614,7 @@ bekendheid, afgegeven door de vrederechter van hun hoofdverblijfplaats.
 De Koning bepaalt, bij een besluit vastgesteld na overleg in de Ministerraad en op voordracht van de minister
 van Buitenlandse Zaken, een lijst van landen waarvoor de in lid 1, 1°, bedoelde onmogelijkheid of zware
 moeilijkheden worden aanvaard.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 19, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2625,7 +2625,7 @@ voornamen, de naam, het beroep en de plaats van inschrijving in het bevolkings-,
 wachtregister van de toekomstige echtgenoot, en die van zijn ouders, indien deze bekend zijn, de geboorteplaats
 en, zo mogelijk, de geboortedatum en de redenen die beletten de akte over te leggen. De getuigen tekenen met
 de vrederechter de akte van bekendheid. Indien een getuige niet kan tekenen wordt dit vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 20, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2636,7 +2636,7 @@ familierechtbank van de plaats waar het huwelijk moet worden voltrokken. De fami
 des Konings te horen, weigert te homologeren indien zij oordeelt dat de verklaringen van de getuigen en de
 redenen die het overleggen van de akte van geboorte beletten onvoldoende zijn.
 De gehomologeerde akte van bekendheid wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 21, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2647,7 +2647,7 @@ akte vervangen worden door een beëdigde verklaring van de toekomstige echtgenoo
 van de burgerlijke stand, met toelating van de familierechtbank, op verzoekschrift verleend en na het horen van
 het openbaar ministerie.
 De toelating tot afleggen van een beëdigde verklaring wordt als bijlage in de DABS opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 22, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2658,12 +2658,12 @@ de artikelen 164/3 tot 164/6 reeds toelating heeft verleend een beëdigde verkla
 dat hij nog steeds in de onmogelijkheid verkeert de akte van geboorte over te leggen, kan deze vervangen door
 de akte van bekendheid of door de toelating, voor zover de juistheid van de gegevens die zij bevat, niet wordt
 weerlegd.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 23, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Afdeling 2. [1 - Voltrekking van het huwelijk]1**
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 24, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -2681,7 +2681,7 @@ zoals bedoeld in artikel 164/1]3.
 [1 Ingeval de ambtenaar van de burgerlijke stand weigert het huwelijk te voltrekken, kan de rechter die zich
 uitspreekt over het beroep tegen deze weigering om een verlenging van deze termijn van zes maanden worden
 verzocht.]1
-----------
+
 (1)<W 2009-02-19/36, art. 3, 044; Inwerkingtreding : 21-03-2009>
 (2)<W 2013-12-21/50, art. 7,7°, 060; Inwerkingtreding : 15-06-2014 (KB 2014-04-19/02, art. 1>
 (3)<W 2018-06-18/03, art. 25, 082; Inwerkingtreding : 31-03-2019>
@@ -2698,7 +2698,7 @@ In afwijking van het eerste lid, kan de gemeenteraad op het grondgebied van de g
 plaatsen met een neutraal karakter [3 ...]3 aanwijzen om huwelijken te voltrekken.]1
 [2 In afwijking van het eerste lid, kan de gemeenteraad toestaan om huwelijken op zon- en/of feestdagen te
 voltrekken.]2
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 26, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2019-03-23/01, art. 2, 087; Inwerkingtreding : 31-03-2019>
 (3)<W 2022-12-06/02, art. 2, 098; Inwerkingtreding : 31-12-2022>
@@ -2708,7 +2708,7 @@ voltrekken.]2
 
 <W 1999-05-04/63, art. 14, 006; Inwerkingtreding : 01-01-2000> De voltrekking van het huwelijk
 geschiedt in het openbaar voor de ambtenaar van de burgerlijke stand die de [1 ...]1 aangifte heeft opgemaakt.
-----------
+
 (1)<W 2023-09-13/08, art. 38, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2741,7 +2741,7 @@ aanstaande echtgenoot of echtgenoten.
 Tegen de weigering door de ambtenaar van de burgerlijke stand om het huwelijk te voltrekken, kan door
 belanghebbende partijen binnen de maand (na de kennisgeving van zijn beslissing) beroep worden aangetekend
 bij de [2 familierechtbank]2. <W 2000-03-01/48, art. 2, 008; Inwerkingtreding : 16-04-2000>
-----------
+
 (1)<W 2013-06-02/08, art. 5, 059; Inwerkingtreding : 03-10-2013. Overgangsbepaling : art. 24>
 (2)<W 2013-07-30/23, art. 17, 065; Inwerkingtreding : 01-09-2014>
 
@@ -2845,7 +2845,7 @@ echtgenoten zelf, door allen die daarbij belang hebben en door het openbaar mini
 6, 036; Inwerkingtreding : 25-06-2007>
 [1 De procureur des Konings vordert de nietigheid van een huwelijk dat is aangegaan met overtreding van de
 artikelen 146bis of 146ter.]1
-----------
+
 (1)<W 2013-06-02/08, art. 6, 059; Inwerkingtreding : 03-10-2013>
 
 
@@ -2855,7 +2855,7 @@ artikelen 146bis of 146ter.]1
 door minderjarige echtgenoten die van de [1 familierechtbank]1 geen toestemming hebben gekregen om een
 huwelijk aan te gaan, kan evenwel niet meer worden opgekomen wanneer zes maanden verlopen zijn sinds die
 echtgenoot of de echtgenoten de leeftijd van achttien jaar bereikt hebben.
-----------
+
 (1)<W 2013-07-30/23, art. 18, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -2867,7 +2867,7 @@ Gerechtelijk Wetboek bedoelde vrederechter, alsnog worden gemachtigd de vorderin
 het huwelijk in te stellen.
 De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 [2 ...]2]1
-----------
+
 (1)<W 2013-03-17/14, art. 5, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 3, 086; Inwerkingtreding : 01-03-2019>
 
@@ -2906,7 +2906,7 @@ ambtenaar is voltrokken (of waarvan geen aangifte is gedaan zoals bepaald in [1 
 opgekomen door de echtgenoten zelf, door de ouders, door de grootouders en door allen die daarbij een reeds
 verkregen en dadelijk belang hebben, alsook door het openbaar ministerie. <W 1999-05-04/63, art. 18, 006;
 Inwerkingtreding : 01-01-2000>
-----------
+
 (1)<W 2023-09-13/08, art. 39, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2933,7 +2933,7 @@ Inwerkingtreding : 16-04-2000>
 <Ingevoegd bij W 14-11-1947, art. 1> Onverminderd de toepassing van de artikelen 184, 190 en
 191 hiervoren en van [1 artikelen 138bis, § 1, en 139 van het Gerechtelijk Wetboek]1, kan het openbaar
 ministerie als tussenkomende partij optreden bij alle rechtsvorderingen tot nietigverklaring van een huwelijk.
-----------
+
 (1)<W 2014-05-05/09, art. 2, 063; Inwerkingtreding : 18-07-2014>
 
 
@@ -2957,7 +2957,7 @@ beschikbaar is.
 Indien het gaat om de nietigverklaring van een huwelijk dat is aangegaan met overtreding van de artikelen
 146bis of 146ter wordt de nietigverklaring, met vermelding van de datum van het in kracht van gewijsde treden
 van de rechterlijke beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotificeerd.]1
-----------
+
 (1)<W 2023-09-13/08, art. 40, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2965,7 +2965,7 @@ van de rechterlijke beslissing, onmiddellijk via de DABS aan de Dienst Vreemdeli
 
 Niemand kan op de hoedanigheid van echtgenoot en op de burgerlijke gevolgen van het huwelijk
 aanspraak maken, [1 indien hij geen akte van huwelijk kan voorleggen, behalve in het geval bedoeld in artikel 26]1.
-----------
+
 (1)<W 2023-09-13/08, art. 41, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2973,7 +2973,7 @@ aanspraak maken, [1 indien hij geen akte van huwelijk kan voorleggen, behalve in
 
 Het bezit van staat kan degenen die beweren met elkaar gehuwd te zijn en zich tegenover elkaar op
 dat bezit beroepen, niet ontslaan van de verplichting om [1 de akte van huwelijk]1 over te leggen.
-----------
+
 (1)<W 2023-09-13/08, art. 42, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2981,7 +2981,7 @@ dat bezit beroepen, niet ontslaan van de verplichting om [1 de akte van huwelijk
 
 Wanneer er bezit van staat aanwezig is en [1 de akte van huwelijk]1 wordt overgelegd, zijn de
 echtgenoten niet ontvankelijk om tegen elkaar de nietigverklaring van die akte te vorderen.
-----------
+
 (1)<W 2023-09-13/08, art. 43, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -2991,7 +2991,7 @@ echtgenoten niet ontvankelijk om tegen elkaar de nietigverklaring van die akte t
 gehuwden geleefd hebben en die beiden overleden zijn, te betwisten, met als enkele reden het niet voorleggen
 van de akte van huwelijk, wanneer deze afstamming blijkt uit een bezit van staat dat door de akte van geboorte
 niet wordt tegengesproken.]1
-----------
+
 (1)<W 2023-09-13/08, art. 44, 102; Inwerkingtreding : 01-01-2024>
 
 
@@ -3001,7 +3001,7 @@ niet wordt tegengesproken.]1
 strafrechtelijke procedure, verzekert de opmaak van de akte van huwelijk ten gevolge van de rechterlijke
 beslissing, vanaf de dag van de voltrekking, alle burgerlijke gevolgen aan het huwelijk zowel ten aanzien van de
 echtgenoten als de uit het huwelijk geboren kinderen.]1
-----------
+
 (1)<W 2018-06-18/03, art. 28, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -3052,7 +3052,7 @@ hebben verleend bij huwelijkscontract, door schenking of bij testament.]1
 [2 Deze verplichting vervalt ten aanzien van het kind dat onwaardig is om van de vooroverleden echtgenoot te
 erven. De rechter schort zijn uitspraak op tot de beslissing die tot onwaardigheid leidt in kracht van gewijsde is
 getreden. ]2
-----------
+
 (1)<W 2010-03-19/05, art. 2, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2012-12-10/14, art. 2, 057; Inwerkingtreding : 21-01-2013>
 
@@ -3096,7 +3096,7 @@ het kind toekomen die op deze rekening gestort dienen te worden;
 7° de bestemming van de overschotten die op deze rekening gestort worden.
 Stortingen van bijdragen gedaan ter uitvoering van dit artikel, worden beschouwd als betalingen van
 onderhoudsbijdragen in het kader van de in artikel 203, § 1, gedefinieerde onderhoudsverplichting.]1
-----------
+
 (1)<W 2010-03-19/05, art. 3, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2011-03-03/01, art. 331; Inwerkingtreding : 01-04-2011>
 (3)<W 2013-07-30/23, art. 19, 065; Inwerkingtreding : 01-09-2014>
@@ -3124,7 +3124,7 @@ kennisgeving door de griffier bij gerechtsbrief op verzoek van de eiser.
 Wanneer het vonnis ophoudt gevolg te hebben, geeft de griffier daarvan bericht aan de derden-schuldenaars
 bij gerechtsbrief.
 De griffier vermeldt in zijn kennisgeving wat de derdeschuldenaar moet betalen of ophouden te betalen.]1
-----------
+
 (1)<W 2010-03-19/05, art. 4, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2013-07-30/23, art. 20, 065; Inwerkingtreding : 01-09-2014>
 
@@ -3145,7 +3145,7 @@ De [2 rechtbank]2 kan nochtans een andere formule toepassen voor de aanpassing v
 onderhoudsbijdrage. De partijen kunnen eveneens bij overeenkomst afwijken van deze aanpassingsformule.
 § 2. In het belang van het kind, kan de [2 rechtbank]2 op vraag van één van de partijen beslissen dat de
 onderhoudsbijdrage van rechtswege verhoogd wordt in de door hem bepaalde omstandigheden.]1
-----------
+
 (1)<Ingevoegd bij W 2010-03-19/05, art. 5, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2013-07-30/23, art. 21, 065; Inwerkingtreding : 01-09-2014>
 
@@ -3198,7 +3198,7 @@ rechthebbende voldoende zekerheid verschaft om de uitkering van het onderhoud te
 overlijden.
 [1 § 6. De nalatenschap is van de in §§ 1 en 2 bedoelde verplichting vrijgesteld indien de eiser onwaardig is om
 tot deze nalatenschap te komen, ongeacht of hij daadwerkelijk tot de nalatenschap geroepen is of niet. ]1
-----------
+
 (1)<W 2012-12-10/14, art. 3, 057; Inwerkingtreding : 21-01-2013>
 (2)<W 2017-07-31/25, art. 2, 083; Inwerkingtreding : 01-09-2018>
 (3)<W 2018-07-22/01, art. 58, 084; Inwerkingtreding : 01-09-2018>
@@ -3239,7 +3239,7 @@ Wanneer de persoon die het levensonderhoud moet verstrekken, bewijst dat hij de 
 onderhoud niet kan betalen, kan de [1 familierechtbank]1, met inachtneming van de omstandigheden der zaak,
 bevelen dat hij degene aan wie hij levensonderhoud verschuldigd is, bij zich zal in huis nemen en hem aldaar kost
 en onderhoud zal verschaffen.
-----------
+
 (1)<W 2013-07-30/23, art. 22, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -3277,7 +3277,7 @@ familierechtbank]2 uitspraak in het belang van het gezin.
 [1 Ingeval een der echtgenoten vermoedelijk afwezig is, of ingeval de vrederechter oordeelt dat een der
 echtgenoten in de onmogelijkheid verkeert zijn wil te kennen te geven of wilsonbekwaam is, dan wordt de
 echtelijke verblijfplaats vastgesteld door de andere echtgenoot.]1
-----------
+
 (1)<W 2013-03-17/14, art. 6, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 23, 065; Inwerkingtreding : 01-09-2014>
 
@@ -3303,7 +3303,7 @@ Elk geschil tussen de echtgenoten omtrent de uitoefening van dat recht wordt bes
 familierechtbank]1.
 De bepalingen van deze paragraaf zijn niet van toepassing op handelshuurovereenkomsten, noch op
 pachtcontracten.
-----------
+
 (1)<W 2013-07-30/23, art. 24, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -3320,7 +3320,7 @@ Het bepaalde in de twee vorenstaande leden is niet van toepassing op de uitoefen
 gebruiken.
 De instemming kan alleen om gewichtige redenen worden ingetrokken. Tegen intrekking kan de echtgenoot
 opkomen bij de [1 familierechtbank]1.
-----------
+
 (1)<W 2013-07-30/23, art. 25, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -3366,7 +3366,7 @@ een gedeelte ervan.
 § 3. In de gevallen bepaald in § 1, kan de andere echtgenoot zich door de [3 familierechtbank]3 laten machtigen
 om de door derden verschuldigde geldsommen geheel of ten dele te ontvangen ten behoeve van de
 huishouding.
-----------
+
 (1)<W 2013-03-17/14, art. 7, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 11, 003; Inwerkingtreding : 01-09-2014>
 (3)<W 2013-07-30/23, art. 26, 065; Inwerkingtreding : 01-09-2014, zie W 2014-05-08/02, art. 40, 066;
@@ -3392,7 +3392,7 @@ Wanneer het vonnis ophoudt gevolg te hebben, geeft de griffier daarvan bericht a
 Wanneer naderhand een verzoekschrift tot echtscheiding of tot scheiding van tafel en bed wordt ingediend,
 blijft de machtiging niettemin uitvoerbaar tot aan de beslissing van de rechtbank of van de voorzitter van de
 rechtbank in kort geding.
-----------
+
 (1)<W 2013-07-30/23, art. 27, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -3411,7 +3411,7 @@ de andere echtgenoot, dringende maatregelen, volgens het bepaalde in de artikele
 van het Gerechtelijk Wetboek.
 Hetzelfde geschiedt op verzoek van een der echtgenoten, indien de verstandhouding tussen hen ernstig
 verstoord is.]1
-----------
+
 (1)<W 2013-07-30/23, art. 28, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/02, art. 41, 066; Inwerkingtreding : 01-09-2014
 
@@ -3528,7 +3528,7 @@ ontwrichting als bedoeld in artikel 229 in te stellen of een verzoek tot echtsch
 als bedoeld in artikel 230 in te dienen.
 De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 [2 ...]2]1
-----------
+
 (1)<W 2013-03-17/14, art. 8, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 4, 086; Inwerkingtreding : 01-03-2019>
 
@@ -3899,7 +3899,7 @@ GROND VAN BEPAALDE FEITEN.
 [1 Behoudens overeenkomst in tegenovergestelde zin, leidt de echtscheiding tot het verval van de
 overlevingsrechten die de echtgenoten elkaar bij huwelijksovereenkomst en sinds het aangaan van het huwelijk
 hebben toegekend.]1
-----------
+
 (1)<W 2018-07-22/01, art. 2, 084; Inwerkingtreding : 01-09-2018>
 
 
@@ -3987,7 +3987,7 @@ ontvangst te nemen.
 Deze beslissing kan worden tegengeworpen aan elke derde, huidige of toekomstige schuldenaar, op grond van
 de kennisgeving ervan die hen door de griffier gedaan wordt op verzoek van de eiser.
 § 12. [1 ...]1
-----------
+
 (1)<W 2010-03-19/05, art. 6, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2010-06-02/23, art. 2, 051; Inwerkingtreding : 01-07-2010>
 (3)<W 2012-12-10/14, art. 4, 057; Inwerkingtreding : 21-01-2013>
@@ -4009,7 +4009,7 @@ overeenkomst tussen partijen die gehomologeerd werd zoals bepaald is in artikel 
 Wetboek, hetzij bij een beschikking van de [1 familierechtbank]1 overeenkomstig artikel 1280 van het Gerechtelijk
 Wetboek, onverminderd het bepaalde in artikel 387bis van dit Wetboek. <W 2007-04-27/00, art. 9, 034;
 Inwerkingtreding : 01-09-2007>
-----------
+
 (1)<W 2013-07-30/23, art. 30, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -4080,7 +4080,7 @@ Scheiding van tafel en bed heeft altijd scheiding van goederen ten gevolge.
 
 <W 2007-04-27/00, art. 13, 034; Inwerkingtreding : 01-09-2007> De artikelen 229, 299, [1 , 231]1
 302 en 304 van hetzelfde Wetboek zijn van toepassing bij scheiding van tafel en bed.
-----------
+
 (1)<W 2013-03-17/14, art. 9, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -4134,7 +4134,7 @@ de kinderen die door de beide echtgenoten geadopteerd zijn. <W 2003-02-13/36, ar
 geeft tot diens naamsverandering, wordt de akte medegedeeld of betekend aan de afstammelingen in de eerste
 graad die de leeftijd van twaalf jaar bereikt hebben overeenkomstig de nadere regels bedoeld in paragraaf 3,
 tweede lid..]5
-----------
+
 (1)<W 2017-09-19/06, art. 2, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 29, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2018-12-21/09, art. 99, 086; Inwerkingtreding : 10-01-2019>
@@ -4157,7 +4157,7 @@ Hij kan zulks bewijzen door aan te tonen dat het ten aanzien van de vermeende mo
 heeft.
 Bij gebreke van bezit van staat kan het bewijs van de afstamming door alle wettelijke middelen worden geleverd.
 Het tegenbewijs kan eveneens door alle wettelijke middelen worden geleverd.
-----------
+
 (1)<W 2018-12-21/09, art. 100, 086; Inwerkingtreding : 10-01-2019>
 (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
@@ -4201,7 +4201,7 @@ waarbij de echtgenoten gemachtigd worden een afzonderlijke verblijfplaats te bet
 dagen na de datum waarop deze maatregel verstreken is, of nadat de echtgenoten feitelijk zijn herenigd.
 [2 Indien een gemeenschappelijke verklaring overeenkomstig het eerste lid werd afgelegd, wordt deze als bijlage
 opgenomen in de DABS.]2
-----------
+
 (1)<W 2013-07-30/23, art. 31, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 30, 082; Inwerkingtreding : 31-03-2019>
 
@@ -4266,7 +4266,7 @@ heeft toegestemd in de medisch begeleide voortplanting en de verwekking van het 
 zijn. De beslissing welke die vordering tot betwisting inwilligt, brengt van rechtswege de vaststelling van een
 afstammingsband ten opzichte van de verzoekster met zich. De familierechtbank gaat na of aan de voorwaarden
 van artikel 332quinquies, §§ 1, 1/1, 2 en 4, is voldaan. Zo niet, wordt de vordering afgewezen.]2
-----------
+
 (1)<W 2013-07-30/23, art. 32, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-12-18/01, art. 11, 071; Inwerkingtreding : 01-01-2015>
 (3)<W 2018-12-21/09, art. 101, 086; Inwerkingtreding : 10-01-2019>
@@ -4281,7 +4281,7 @@ van artikel 332quinquies, §§ 1, 1/1, 2 en 4, is voldaan. Zo niet, wordt de vor
 [1 Wanneer het vaderschap niet vaststaat krachtens de artikelen 315 of 317, noch het
 meemoederschap bedoeld in hoofdstuk 2/1, kan de vader het kind erkennen onder de bij artikel 329bis bepaalde
 voorwaarden.]1
-----------
+
 (1)<W 2014-05-05/08, art. 6, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4301,7 +4301,7 @@ door de beide echtgenoten geadopteerd zijn.
 [3 Als de erkenning betrekking heeft op een meerderjarig kind dat reeds nakomelingen heeft en aanleiding geeft
 tot diens naamsverandering, wordt de akte medegedeeld of betekend aan de afstammelingen in de eerste graad
 die de leeftijd van twaalf jaar bereikt hebben overeenkomstig de nadere regels bedoeld in het tweede lid.]3
-----------
+
 (1)<W 2017-09-19/06, art. 3, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 31, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-12-19/05, art. 5, 103; Inwerkingtreding : 01-03-2024>
@@ -4317,7 +4317,7 @@ die de leeftijd van twaalf jaar bereikt hebben overeenkomstig de nadere regels b
 <W 31-03-1987, art. 38> De vader kan het kind niet erkennen, wanneer uit die erkenning een
 huwelijksbeletsel zou blijken tussen hem en de moeder waarvoor [2 de familierechtbank]2 geen ontheffing kan
 verlenen ([1 ...]1. <W 2006-07-01/75, art. 10, 030; Inwerkingtreding : 01-07-2007>
-----------
+
 (1)<W 2018-12-21/09, art. 102, 086; Inwerkingtreding : 10-01-2019>
 (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
@@ -4336,7 +4336,7 @@ echtgenoot is, moet het vonnis waarbij de afstamming wordt vastgesteld, aan de e
 worden betekend. Totdat die betekening heeft plaatsgehad, kan het vonnis niet worden tegengeworpen aan de
 echtgenoot of de echtgenote, noch aan de kinderen geboren uit het huwelijk met de verweerder of geadopteerd
 door beide echtgenoten.) <W 2003-02-13/36, art. 12, 015; Inwerkingtreding : 01-06-2003>
-----------
+
 (1)<W 2013-07-30/23, art. 33, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-05/08, art. 7, 067; Inwerkingtreding : 01-01-2015>
 
@@ -4362,17 +4362,17 @@ vonnis een huwelijksbeletsel tussen de vermeende vader en de moeder zou blijken 
 familierechtbank]2 geen ontheffing kan verlenen [1 ...]1 [1 , tenzij de familierechtbank oordeelt dat de vaststelling
 van de afstamming van vaderszijde niet strijdig is met het belang van het kind]1. <W 2006-07-01/75, art. 11,
 030; Inwerkingtreding : 01-07-2007>
-----------
+
 (1)<W 2018-12-21/09, art. 103, 086; Inwerkingtreding : 10-01-2019>
 (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
 HOOFDSTUK 2/1. [1 - VASTSTELLING VAN DE AFSTAMMING VAN MEEMOEDERSZIJDE.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 8, 067; Inwerkingtreding : 01-01-2015>
 
 
 **AFDELING 1. [1 - ALGEMENE BEPALINGEN.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 9, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4380,12 +4380,12 @@ HOOFDSTUK 2/1. [1 - VASTSTELLING VAN DE AFSTAMMING VAN MEEMOEDERSZIJDE.]1
 
 [1 Wanneer het vaderschap niet vaststaat krachtens hoofdstuk 2, kan het meemoederschap
 worden vastgesteld krachtens de bepalingen van dit hoofdstuk.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 10, 067; Inwerkingtreding : 01-01-2015>
 
 
 **AFDELING 2. [1 - VERMOEDEN VAN MEEMOEDERSCHAP.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 11, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4394,7 +4394,7 @@ worden vastgesteld krachtens de bepalingen van dit hoofdstuk.]1
 [1 Het kind dat geboren is tijdens het huwelijk of binnen driehonderd dagen na ontbinding of
 nietigverklaring van het huwelijk, heeft de echtgenote tot meemoeder.
 De bepalingen van artikel 316 tot 317 zijn van overeenkomstige toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 12, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4440,13 +4440,13 @@ heeft toegestemd tot medisch begeleide voortplanting en de verwekking van het ki
 De beslissing welke die vordering tot betwisting inwilligt, brengt van rechtswege de vaststelling van een
 afstammingsband van de verzoeker met zich. De familierechtbank gaat na of aan de voorwaarden van artikel
 332quinquies, §§ 1, 1/1, 2 en 4, is voldaan. In ontkennend geval wordt de vordering afgewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 13, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2024-03-28/60, art. 51, 105; Inwerkingtreding : 08-04-2024>
 
 
 **AFDELING 3. [1 - ERKENNING.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 14, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4458,7 +4458,7 @@ In afwijking van artikel 329bis, § 2, derde lid, wordt het verzoek verworpen al
 heeft toegestemd in de verwekking overeenkomstig de wet van 6 juli 2007 betreffende de medisch begeleide
 voortplanting en de bestemming van de overtallige embryo's en de gameten of de verwekking hiervan niet het
 gevolg kan zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 15, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4466,7 +4466,7 @@ gevolg kan zijn.]1
 
 [1 De meemoeder kan het kind niet erkennen, wanneer uit die erkenning een huwelijksbeletsel zou
 blijken tussen haar en de moeder waarvoor [3 de familierechtbank]3 geen ontheffing kan verlenen [2 ...]2.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 16, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-12-21/09, art. 104, 086; Inwerkingtreding : 10-01-2019>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
@@ -4487,7 +4487,7 @@ die door de beide echtgenoten geadopteerd zijn.]1
 [4 Als de erkenning betrekking heeft op een meerderjarig kind dat reeds nakomelingen heeft en aanleiding geeft
 tot diens naamsverandering, wordt de akte medegedeeld of betekend aan de afstammelingen in de eerste graad
 die de leeftijd van twaalf jaar bereikt hebben overeenkomstig de nadere regels bedoeld in het tweede lid.]4
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 17, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-09-19/06, art. 4, 079; Inwerkingtreding : 01-04-2018>
 (3)<W 2018-06-18/03, art. 32, 082; Inwerkingtreding : 31-03-2019>
@@ -4539,14 +4539,14 @@ medisch begeleide voortplanting en de verwekking van het kind hiervan het gevolg
 die vordering tot betwisting inwilligt, brengt van rechtswege de vaststelling van de afstammingsband van de
 verzoeker met zich. De familierechtbank gaat na of aan de voorwaarden van artikel 332quinquies, §§ 1, 1/1, 2 en
 4, is voldaan. In ontkennend geval wordt de vordering afgewezen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 18, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2014-12-18/01, art. 13, 071; Inwerkingtreding : 01-01-2015>
 (3)<W 2018-12-21/09, art. 105, 086; Inwerkingtreding : 10-01-2019>
 
 
 **AFDELING 4. [1 - ONDERZOEK NAAR HET MEEMOEDERSCHAP.]1**
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 19, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4560,7 +4560,7 @@ echtgenote is, moet het vonnis uitgesproken door de familierechtbank waarbij de 
 aan de echtgenoot of echtgenote worden betekend. Totdat die betekening heeft plaatsgehad, kan het vonnis niet
 worden tegengeworpen aan de echtgenoot of echtgenote, noch aan de kinderen geboren uit het huwelijk met de
 verweerder of geadopteerd door beide echtgenoten.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 20, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4576,7 +4576,7 @@ De rechtbank wijst de vordering hoe dan ook af indien het bewijs wordt geleverd 
 wordt onderzocht niet heeft toegestemd tot medisch begeleide voortplanting overeenkomstig artikel 7 van de
 wet van 6 juli 2007 betreffende de medisch begeleide voortplanting en de bestemming van de overtallige
 embryo's en de gameten of de verwekking van het kind hiervan niet het gevolg kan zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 21, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -4586,7 +4586,7 @@ embryo's en de gameten of de verwekking van het kind hiervan niet het gevolg kan
 huwelijksbeletsel tussen de vermeende meemoeder en de moeder zou blijken waarvoor [3 de familierechtbank]3
 geen ontheffing kan verlenen [2 ...]2 [2 , tenzij de familierechtbank oordeelt dat de vaststelling van het
 meemoederschap niet strijdig is met het belang van het kind]2.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-05/08, art. 22, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2018-12-21/09, art. 106, 086; Inwerkingtreding : 10-01-2019>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
@@ -4617,7 +4617,7 @@ voorgedragen.
 heeft ondertekend, overeenkomstig artikel 327/1, § 1, eerste lid.]2]1
 [3 Deze ambtenaar van de burgerlijke stand verbindt de akte van erkenning met de akten van de burgerlijke
 stand van het kind en van zijn afstammelingen.]3
-----------
+
 (1)<W 2017-09-19/06, art. 5, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 33, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 45, 102; Inwerkingtreding : 01-01-2024>
@@ -4655,7 +4655,7 @@ familierechtbank binnen de maand na de kennisgeving van zijn beslissing.
 De Koning bepaalt een model van aangifte, de wijze van verzending van de documenten en de wijze waarop de
 meldingen gebeuren.
 De Koning kan de voorwaarden bepalen voor een elektronische aangifte van erkenning.]2]1
-----------
+
 (1)<Ingevoegd bij W 2017-09-19/06, art. 6, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 34, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 46, 102; Inwerkingtreding : 01-01-2024>
@@ -4715,7 +4715,7 @@ burgerlijke stand om een voor eensluidend verklaarde vertaling ervan verzoeken.
 § 8. De artikelen 164/3 tot 164/7 zijn naar analogie van toepassing.
 In afwijking van artikel 164/5 maakt de vrederechter de akte van bekendheid onmiddellijk over aan de
 familierechtbank van de plaats van de aangifte van de erkenning.]1
-----------
+
 (1)<W 2018-06-18/03, art. 35, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 (3)<W 2023-12-19/05, art. 7, 103; Inwerkingtreding : 01-03-2024>
@@ -4736,7 +4736,7 @@ dit afstammelingen heeft nagelaten. Indien het kind overleden is zonder afstamme
 erkenning slechts geschieden binnen het jaar na zijn geboorte.]1
 [3 De erkenning ten gunste van een verwekt kind kan gebeuren op elk ogenblik van de zwangerschap op basis
 van een zwangerschapsattest opgesteld door een geneesheer of een vroedvrouw.]3
-----------
+
 (1)<W 2013-03-17/14, art. 10, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 181, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-02-20/15, art. 2, 073; Inwerkingtreding : 01-04-2017>
@@ -4753,7 +4753,7 @@ De vordering die wordt bedoeld in artikel 325/4 kan voor de geboorte ingesteld w
 meemoederschap opeist.
 De vordering die wordt bedoeld in artikel 329bis kan voor de geboorte ingesteld worden door de man die het
 vaderschap van het kind opeist]1
-----------
+
 (1)<W 2014-12-18/01, art. 14, 071; Inwerkingtreding : 01-01-2015>
 
 
@@ -4767,7 +4767,7 @@ van een erkenning door de vader van een kind dat erkend werd door een moeder ove
 135/2]3, § 2, eerste lid.]2
 Zo een kind wordt erkend door een vader en een meemoeder, heeft alleen de eerste erkenning gevolg zolang
 ze niet is vernietigd.]1
-----------
+
 (1)<W 2014-05-05/08, art. 24, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2017-06-25/03, art. 6, 077; Inwerkingtreding : 01-01-2018>
 (3)<W 2023-09-13/08, art. 47, 102; Inwerkingtreding : 01-01-2024>
@@ -4820,7 +4820,7 @@ is. Bovendien vernietigt ze de erkenning als die [5 ...]5 strijdig is met de bel
 Het vierde lid van § 2 is van overeenkomstige toepassing. Totdat de termijn van zes maanden verstreken is of
 totdat de afwijzende beslissing in kracht van gewijsde is gegaan, kan de erkenning niet worden tegengeworpen
 aan het kind en aan zijn wettelijke vertegenwoordiger die er zich niettemin op kunnen beroepen.
-----------
+
 (1)<W 2013-03-17/14, art. 11, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 34, 065; Inwerkingtreding : 01-09-2014, zie W 2014-05-08/02, art. 42, 066;
 Inwerkingtreding : 01-09-2014>
@@ -4873,7 +4873,7 @@ heeft toegestemd in de medisch begeleide voortplanting en de verwekking van het 
 zijn. De beslissing welke die vordering tot betwisting inwilligt, brengt van rechtswege de vaststelling van een
 afstammingsband ten opzichte van de verzoekster met zich. De familierechtbank gaat na of aan de voorwaarden
 van artikel 332quinquies, §§ 1, 1/1, 2 en 4 is voldaan. Zo niet, wordt de vordering afgewezen.]2
-----------
+
 (1)<W 2013-07-30/23, art. 35, 065; Inwerkingtreding : 01-09-2014, zie <W 2014-05-08/02, art. 43, 066;
 Inwerkingtreding : 01-09-2014>>
 (2)<W 2014-12-18/01, art. 15, 071; Inwerkingtreding : 01-01-2015>
@@ -4887,7 +4887,7 @@ wanneer uit een geheel van omstandigheden blijkt dat de intentie van de erkenner
 het voor zichzelf, voor het kind of voor de persoon die zijn voorafgaande toestemming voor de erkenning moet
 geven, bekomen van een verblijfsrechtelijk voordeel dat verbonden is aan de vaststelling van een
 afstammingsband.]1
-----------
+
 (1)<Ingevoegd bij W 2017-09-19/06, art. 9, 079; Inwerkingtreding : 01-04-2018>
 
 
@@ -4924,7 +4924,7 @@ aanwezige belangen en waarbij het belang van het kind de eerste overweging is.]3
 (NOTA : bij arrest nr.58/2020 van 07-05-2020 (B.St. 11-06-2020, p. 42477), heeft het Grondwettelijk Hof leden
 5 en 6 van dit artikel vernietigd)
 
-----------
+
 (1)<Ingevoegd bij W 2017-09-19/06, art. 10, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 38, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2020-07-31/03, art. 39, 089; Inwerkingtreding : 17-08-2020>
@@ -4949,7 +4949,7 @@ De griffier brengt de partijen hiervan onmiddellijk in kennis.
 [4 Indien het gaat om de nietigverklaring van een erkenning die gedaan is met overtreding van artikel 330/1
 wordt de nietigverklaring, met vermelding van de datum van het in kracht van gewijsde treden van de rechterlijke
 beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotificeerd.]4]2]1
-----------
+
 (1)<Ingevoegd bij W 2017-09-19/06, art. 11, 079; Inwerkingtreding : 01-04-2018>
 (2)<W 2018-06-18/03, art. 39, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2020-07-31/03, art. 19, 089; Inwerkingtreding : 01-09-2020>
@@ -4968,7 +4968,7 @@ beslissing, onmiddellijk via de DABS aan de Dienst Vreemdelingenzaken genotifice
 § 2. Telkens als de afstamming wordt betwist, kunnen de strafrechtbanken en de andere gerechten eerst
 uitspraak doen nadat de beslissing van de [1 familierechtbank]1 omtrent de staat in kracht van gewijsde is
 getreden.
-----------
+
 (1)<W 2013-07-30/23, art. 36, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5013,7 +5013,7 @@ wettelijke vertegenwoordiger, of indien er tegenstrijdigheid van belangen is, wo
 een voogd ad hoc die aangewezen wordt [3 naargelang het geval, door de familierechtbank of door de
 vrederechter]3 op verzoek van elke belanghebbende of van de procureur des Konings.
 [1 § 2. [2 ...]2 ]1
-----------
+
 (1)<W 2013-03-17/14, art. 12, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 182, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-06/24, art. 64, 075; Inwerkingtreding : 03-08-2017>
@@ -5025,7 +5025,7 @@ vrederechter]3 op verzoek van elke belanghebbende of van de procureur des Koning
 afstamming waarvoor de wet geen regeling getroffen heeft, door de meest waarschijnlijke afstamming met alle
 rechtsmiddelen vast te stellen.
 Zo de andere bewijsmiddelen onvoldoende zijn, wordt het bezit van staat in aanmerking genomen.
-----------
+
 (1)<W 2013-07-30/23, art. 37, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5046,7 +5046,7 @@ Die feiten zijn onder meer :
 - dat het kind die persoon heeft behandeld [1 als zijn vader, moeder of meemoeder]1;
 - dat het kind wordt erkend door de familie en in de maatschappij;
 - dat de openbare overheid het als zodanig beschouwt.
-----------
+
 (1)<W 2014-05-05/08, art. 25, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -5058,7 +5058,7 @@ instellen.
 In afwijking van artikel 811 van het Gerechtelijk Wetboek kan de [1 familierechtbank]1, zelfs ambtshalve,
 gelasten dat alle belanghebbenden jegens wie zij oordeelt dat de beslissing mede moet gelden, in het geding
 worden geroepen.
-----------
+
 (1)<W 2013-07-30/23, art. 38, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5076,7 +5076,7 @@ worden geroepen.
 of zijn afstammelingen en degene van zijn ouders wiens vaderschap, meemoederschap of moederschap niet
 wordt betwist in het geding worden geroepen, alsook de persoon wiens vaderschap, meemoederschap of
 moederschap wordt betwist.]1
-----------
+
 (1)<W 2014-05-05/08, art. 26, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -5093,7 +5093,7 @@ Indien de rechtsvordering tot onderzoek naar het moederschap tot gevolg kan hebb
 het meemoederschap komt vast te staan op grond van de artikelen 315, 317 of 325/2, dan moet ze ook worden
 ingesteld tegen de echtgenoot of echtgenote en, in voorkomend geval, tegen de vorige echtgenoot of
 echtgenote van de vermeende moeder.]1
-----------
+
 (1)<W 2014-05-05/08, art. 27, 067; Inwerkingtreding : 01-01-2015>
 
 
@@ -5135,14 +5135,14 @@ periode van verwekking, wordt op verzoek van een van de partijen de uitspraak ve
 beslissing over de strafvordering in kracht van gewijsde is getreden. Indien de betrokkene hiervoor wordt
 veroordeeld, zal (de vordering tot onderzoek naar het vaderschap) op vraag van één van de partijen worden
 verworpen. <W 2006-12-27/32, art. 371, 031; Inwerkingtreding : 01-07-2007>
-----------
+
 (1)<W 2013-03-17/14, art. 13, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2017-09-19/06, art. 12, 079; Inwerkingtreding : 01-04-2018>
 (3)<W 2018-12-21/09, art. 109, 086; Inwerkingtreding : 10-01-2019>
 
 
 **AFDELING 3. - BEKENDMAKING VAN DE RECHTERLIJKE BESLISSING IN [1 de DABS]1.**
-----------
+
 (1)<W 2018-06-18/03, art. 40, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -5162,7 +5162,7 @@ zijn afstammelingen.]1
 [3 § 3. Als de beslissing aanleiding geeft tot de naamsverandering van een meerderjarig kind dat reeds
 nakomelingen heeft, brengt de griffier het beschikkend gedeelte van het vonnis of van het arrest bij
 gerechtsbrief ter kennis van de afstammelingen in de eerste graad die de leeftijd van twaalf jaar bereikt hebben.]3
-----------
+
 (1)<W 2018-06-18/03, art. 41, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 20, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-12-19/05, art. 8, 103; Inwerkingtreding : 01-03-2024>
@@ -5209,7 +5209,7 @@ erkenning of een nietigverklaring van een akte van de burgerlijke stand, in voor
 een beslissing genomen op grond van artikel 463 van het Wetboek van Strafvordering, die leidt tot de
 vernietiging van de afstammingsband ten aanzien van een Belgische ouder, spreekt de rechter zich uit over het
 eventuele behoud van de Belgische nationaliteit van het kind.]1
-----------
+
 (1)<Ingevoegd bij W 2024-03-28/60, art. 165, 105; Inwerkingtreding : 08-04-2024>
 
 
@@ -5257,7 +5257,7 @@ Grondwettelijk Hof dit artikel 335,§ 1, tweede lid, derde zin, van het Burgerli
 2 van de wet van 8 mei 2014 tot wijziging van het Burgerlijk Wetboek met het oog op de invoering van de
 gelijkheid tussen mannen en vrouwen bij de wijze van naamsoverdracht aan het kind aan de geadopteerde
 vernietigd. Hij handhaaft de gevolgen van de vernietigde bepaling tot 31 december 2016.)
-----------
+
 (1)<W 2014-05-08/10, art. 2, 068; Inwerkingtreding : 01-06-2014>
 (3)<W 2014-12-18/01, art. 2, 071; Inwerkingtreding : 01-01-2015>
 (4)<W 2016-12-25/13, art. 2, 072; Inwerkingtreding : 01-01-2017. Overgangsbepalingen : art. 4>
@@ -5270,7 +5270,7 @@ vernietigd. Hij handhaaft de gevolgen van de vernietigde bepaling tot 31 decembe
 
 [1 De overeenkomstig artikel 335, §§ 1 en 3, bepaalde naam geldt ook voor de andere kinderen wier
 afstamming later ten aanzien van dezelfde vader en moeder komt vast te staan.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-08/10, art. 3, 068; Inwerkingtreding : 01-06-2014>
 
 
@@ -5311,7 +5311,7 @@ afstamming later ten aanzien van dezelfde moeder en meemoeder komt vast te staan
 verandering van naam, wijzigt de bevoegde ambtenaar van de burgerlijke stand de akte van geboorte van het
 kind en de akten van de burgerlijke stand waarop ze betrekking heeft, alsook, in voorkomend geval, de akten van
 zijn afstammelingen in de eerste graad.]5
-----------
+
 (1)<Ingevoegd bij W 2014-12-18/01, art. 16, 071; Inwerkingtreding : 01-01-2015> in plaats van de wijziging
 van art. 335 door <W 2014-05-05/08, art. 28, 067; Inwerkingtreding : 01-01-2015>
 (2)<W 2016-12-25/13, art. 3, 072; Inwerkingtreding : 01-01-2017. Overgangsbepalingen : art. 4>
@@ -5329,7 +5329,7 @@ van internationaal privaatrecht. De ambtenaar van de burgerlijke stand neemt akt
 [2De bevoegde ambtenaar van de burgerlijke stand maakt de akte van verklaring van naamskeuze op ten
 gevolge van de in het eerste lid bedoelde verklaring en verbindt deze met de akte van geboorte van het kind en
 met de akten van de burgerlijke stand waarop ze betrekking heeft.]2]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 65, 075; Inwerkingtreding : 03-08-2017>
 (2)<W 2018-06-18/03, art. 43, 082; Inwerkingtreding : 31-03-2019>
 
@@ -5339,7 +5339,7 @@ met de akten van de burgerlijke stand waarop ze betrekking heeft.]2]1
 [1 e rechter neemt in zijn vonnis akte van de gekozen of door de wet vastgestelde naam van
 het kind in alle gevallen van wijziging van de afstamming ingevolge een rechtsvordering die aanleiding geeft tot
 een verandering van naam.]1
-----------
+
 (1)<W 2023-12-19/05, art. 11, 103; Inwerkingtreding : 01-03-2024>
 
 
@@ -5358,7 +5358,7 @@ ambtenaar van de burgerlijke stand daarvan een akte van naamsverandering op en v
 van de burgerlijke stand die daarop betrekking hebben. Het verzoek wordt ingediend in het jaar dat volgt op de
 dag waarop de beslissing inzake de afstamming van de ouder of de akte van erkenning hem werd medegedeeld
 of betekend.]1
-----------
+
 (1)<Ingevoegd bij W 2023-12-19/05, art. 12, 103; Inwerkingtreding : 01-03-2024>
 
 
@@ -5371,7 +5371,7 @@ OPLEIDING.
 [1 Het kind wiens afstamming van vaderszijde niet vaststaat, kan van degene die gedurende het
 wettelijke tijdvak van de verwekking met zijn moeder gemeenschap heeft gehad, een onderhoudsbijdrage
 vorderen op grond van artikel 203, § 1.]1
-----------
+
 (1)<W 2010-03-19/05, art. 7, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 
 
@@ -5397,7 +5397,7 @@ vordering en indien de partijen het eens zijn over het bedrag van de uitkering t
 rechtbank]2 daarvan proces-verbaal op.
 [2 ...]2.
 § 3. [1 ...]1
-----------
+
 (1)<W 2010-06-02/35, art. 13, 053; Inwerkingtreding : 10-07-2010>
 (2)<W 2013-07-30/23, art. 39, 065; Inwerkingtreding : 01-09-2014, voir W 2014-05-08/02, art. 44, 066;
 Inwerkingtreding : 01-09-2014>
@@ -5414,7 +5414,7 @@ middelen het bewijs levert dat hij de vader niet is.
 ## Art. 339
 
 [1 De artikelen 203, 203bis en 203quater zijn van overeenkomstige toepassing.]1
-----------
+
 (1)<W 2010-03-19/05, art. 8, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 
 
@@ -5423,7 +5423,7 @@ middelen het bewijs levert dat hij de vader niet is.
 <W 31-03-1987, art. 38> De last van de uitkering gaat over op de nalatenschap van de
 uitkeringsplichtige overeenkomstig artikel [1 205bis, §§ 3, 4 en 6 ]1.
 De uitkering kan worden gewijzigd overeenkomstig artikel 209.
-----------
+
 (1)<W 2012-12-10/14, art. 5, 057; Inwerkingtreding : 21-01-2013>
 
 
@@ -5471,7 +5471,7 @@ drie jaar, voor zover zij niet door een band van bloedverwantschap zijn verbonde
 huwelijksverbod waarvoor [3 de familierechtbank]3 geen ontheffing kan verlenen;]2
 c) kind : een persoon van minder dan achttien jaar.
 § 2. Er bestaan twee vormen van adoptie : de gewone adoptie en de volle adoptie.
-----------
+
 (1)<W 2010-06-02/24, art. 2, 052; Inwerkingtreding : 01-07-2010>
 (2)<W 2017-02-20/17, art. 2, 074; Inwerkingtreding : 01-04-2017>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
@@ -5504,7 +5504,7 @@ of tijdens het samenleven bedoeld in artikel 343, § 1, b/1);
 2° het kind heeft slechts één vastgestelde afstammingsband; en
 3° die persoon onderhoudt met het kind een duurzame feitelijke relatie, zowel op affectief als op materieel
 vlak.]1
-----------
+
 (1)<Ingevoegd bij W 2017-02-20/17, art. 3, 074; Inwerkingtreding : 01-04-2017>
 
 B. Leeftijd. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -5518,7 +5518,7 @@ Het volstaat evenwel de leeftijd van achttien jaar te hebben bereikt en ten mins
 geadopteerde wanneer het gaat om een afstammeling in de eerste graad of om een geadopteerde van de
 echtgenoot [1 , van de samenwonende of van de voormalige partner]1, zelfs overleden, van de adoptant.
 Deze voorwaarden moeten vervuld zijn op het tijdstip van indiening van het verzoekschrift tot adoptie.
-----------
+
 (1)<W 2017-02-20/17, art. 4, 074; Inwerkingtreding : 01-04-2017>
 
 C. Geschiktheid. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -5544,7 +5544,7 @@ zelfs overleden, verwant is tot in de derde graad; of
 gebracht.
 In die gevallen wordt de geschiktheid van de adoptant door de familierechtbank beoordeeld tijdens de
 procedure tot totstandkoming van de adoptie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 2, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -5557,7 +5557,7 @@ Wanneer de adoptant een in artikel 346-1/1, tweede lid, 1°, bedoeld kind wenst 
 over de opportuniteit om al dan niet dat maatschappelijk onderzoek te bevelen.
 Om de geschiktheid van de adoptant te beoordelen houdt de rechtbank in het bijzonder rekening met de
 persoonlijke, familiale en medische toestand van de betrokkene, en met zijn beweegredenen.]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 3, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -5569,7 +5569,7 @@ De voorbereiding is niet verplicht voor de adoptant of de adoptanten die voornoe
 gevolgd hebben bij een vorige adoptie en van wie de geschiktheid om te adopteren door de familierechtbank is
 erkend. De voorbereiding moet niet worden hernieuwd in het kader van de procedure tot verlenging van de
 termijn van geschiktheid om te adopteren.]1
-----------
+
 (1)<W 2017-07-06/24, art. 4, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -5579,7 +5579,7 @@ toegezonden door de griffier van de familierechtbank of van het hof van beroep, 
 geschiktheid, de ongeschiktheid of de verlenging van de termijn van geschiktheid van de adoptant of de
 adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk Wetboek bedoelde schriftelijk advies van het
 openbaar ministerie.]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 5, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -5595,7 +5595,7 @@ voorwaarden gesteld voor het totstandkomen van de nieuwe adoptie zijn vervuld en
 herroepen is;
 3° zeer gewichtige redenen bestaan die vereisen dat op verzoek van het openbaar ministerie een nieuwe
 adoptie wordt uitgesproken.
-----------
+
 (1)<W 2017-02-20/17, art. 6, 074; Inwerkingtreding : 01-04-2017>
 
 
@@ -5608,7 +5608,7 @@ van de nieuwe adoptie zijn vervuld en indien, ofwel :
 2° de vorige gewone adoptie ten aanzien van de andere adoptant herroepen is;
 3° zeer gewichtige redenen bestaan die vereisen dat op verzoek van het openbaar ministerie een nieuwe
 adoptie wordt uitgesproken.
-----------
+
 (1)<W 2017-02-20/17, art. 7, 074; Inwerkingtreding : 01-04-2017>
 
 
@@ -5617,7 +5617,7 @@ adoptie op basis van]1 een vonnis waarbij de gewone adoptie van een kind wordt u
 adoptant of de adoptanten een verzoekschrift indienen dat erop is gericht deze adoptie in een volle adoptie om
 te zetten. Deze omzetting wordt slechts toegestaan indien alle voorwaarden, inzonderheid deze betreffende de
 toestemming, gesteld voor het totstandkomen van de volle adoptie, zijn vervuld.
-----------
+
 (1)<W 2023-09-13/08, art. 49, 102; Inwerkingtreding : 01-01-2024>
 
 E. Toestemmingen. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -5635,7 +5635,7 @@ meerderjarige persoon zijn mening niet zelf kan uiten, vertolkt de vertrouwenspe
 meerderjarige persoon. De rechter hecht passend belang aan deze mening.
 De toestemming is evenmin vereist als de rechtbank, op grond van feiten die vastgesteld zijn in een met
 redenen omkleed proces-verbaal, oordeelt dat de minderjarige geen onderscheidingsvermogen heeft. ]1
-----------
+
 (1)<W 2013-03-17/14, art. 14, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -5646,7 +5646,7 @@ zijn echtgenoot of de persoon met wie hij samenwoont in de adoptie toestemmen, [
 vermoedelijk afwezig is, geen gekende verblijfplaats heeft of ingeval de [2 familierechtbank]2 oordeelt, op grond
 van feiten vastgesteld in een met redenen omkleed proces-verbaal, dat hij in de onmogelijkheid verkeert zijn wil te
 kennen te geven of wilsonbekwaam is]1).
-----------
+
 (1)<W 2013-03-17/14, art. 15, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2013-07-30/23, art. 42, 065; Inwerkingtreding : 01-09-2014>
 
@@ -5657,7 +5657,7 @@ Indien echter een van hen [1 vermoedelijk afwezig is, geen gekende verblijfplaat
 verkeert om zijn wil te kennen te geven of wilsonbekwaam is]1, is de toestemming van de andere voldoende.
 Wanneer de afstamming van een kind [1 ...]1 slechts ten aanzien van een van zijn ouders vaststaat, dient enkel
 deze in de adoptie toe te stemmen.
-----------
+
 (1)<W 2013-03-17/14, art. 16, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -5669,7 +5669,7 @@ Deze informatie heeft inzonderheid betrekking op de rechten, de bijstand en de v
 de vaders en moeders, al dan niet alleenstaand, en hun kinderen bij wet of decreet aanspraak kunnen maken,
 alsook op de middelen waarop een beroep kan worden gedaan om sociale, financiële, psychologische of andere
 problemen die hun situatie meebrengt, op te lossen.
-----------
+
 (1)<W 2013-07-30/23, art. 43, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5682,14 +5682,14 @@ In geval van adoptie door de voogd, wordt de toestemming gegeven door de toezien
 belangen van de toeziende voogd tegenstrijdig zijn met die van de minderjarige, wordt de toestemming gegeven
 door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de
 procureur des Konings.
-----------
+
 (1)<W 2013-03-17/14, art. 17, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Art. 348-5/1. [1 In afwijking van de artikelen 348-3 en 348-5 wordt, in geval van adoptie zoals bedoeld in artikel**
 361-5, de toestemming gegeven door een voogd ad hoc aangewezen door de rechtbank op verzoek van iedere
 betrokken persoon of van de procureur des Konings.]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 66, 075; Inwerkingtreding : 03-08-2017>
 
 
@@ -5704,7 +5704,7 @@ van de oorspronkelijke vader of moeder, van de voogd en van de toeziende voogd, 
 geadopteerde, of van de persoon met wie hij samenwoont, die vroeger onverantwoord geweigerd hebben in de
 adoptie toe te stemmen, evenals die van de vader en de moeder wanneer het kind door hen verlaten werd
 verklaard, is evenmin vereist.
-----------
+
 (1)<W 2013-03-17/14, art. 18, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -5712,7 +5712,7 @@ verklaard, is evenmin vereist.
 van de vorige adoptant of adoptanten vereist, behalve indien zij vermoedelijk afwezig zijn, geen gekende
 verblijfplaats hebben, in de onmogelijkheid verkeren hun wil te kennen te geven, wilsonbekwaam zijn, of indien de
 vorige adoptie ten aanzien van hen is herzien. ]1
-----------
+
 (1)<W 2013-03-17/14, art. 19, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -5727,7 +5727,7 @@ adoptie.
 De intrekking van de toestemming is slechts mogelijk tot het tijdstip van de uitspraak van het vonnis en, ten
 laatste, zes maanden na de indiening van het verzoekschrift tot adoptie en dient te geschieden in dezelfde vorm
 als vereist is voor de toestemming in de adoptie.
-----------
+
 (1)<W 2013-07-30/23, art. 44, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5751,7 +5751,7 @@ en waarvan deze een proces-verbaal opstelt;
 woonplaats.
 Niet-verschijning voor de rechtbank na door de griffier bij gerechtsbrief te zijn opgeroepen, wordt als weigering
 van de toestemming beschouwd.
-----------
+
 (1)<W 2013-07-30/23, art. 45, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5767,7 +5767,7 @@ adoptie van het kind of van het adoptief kind van een echtgeno(o)t(e), van een s
 een voormalige partner ten aanzien van wie een gemeenschappelijk ouderlijk engagement bestaat.]2
 [2 Om het onverantwoorde karakter te beoordelen van de weigering om toestemming te verlenen, houdt de
 rechtbank rekening met het belang van het kind.]2
-----------
+
 (1)<W 2013-07-30/23, art. 46, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2017-02-20/17, art. 8, 074; Inwerkingtreding : 01-04-2017>
 
@@ -5777,7 +5777,7 @@ rechtbank rekening met het belang van het kind.]2
 **Art. 349-1.<W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Een adoptie uitgesproken bij een**
 beslissing [1 waarvan een akte van adoptie werd opgemaakt]1 overeenkomstig artikel 1231-19 van het
 Gerechtelijk Wetboek, heeft gevolgen vanaf de neerlegging van het verzoekschrift.
-----------
+
 (1)<W 2018-06-18/03, art. 44, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -5821,7 +5821,7 @@ worden wanneer deze laatste meerderjarig is.]3
 [2 Indien het bewijs van de feiten als bedoeld in het eerste lid is geleverd, verklaart de familierechtbank dat de
 adoptie wordt herzien.]2
 [2 De adoptie heeft geen gevolgen meer vanaf de opmaak van de akte van herziening van adoptie.]2
-----------
+
 (1)<W 2013-07-30/23, art. 47, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 45, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2024-03-28/60, art. 52, 105; Inwerkingtreding : 08-04-2024>
@@ -5853,7 +5853,7 @@ samenwonenden, door de naam van een van de adoptanten, die zij kiezen overeenkom
 samenstelling van de naam van de geadopteerde is beperkt tot één naam voor de geadopteerde en één naam
 voor de adoptant(en).
 Het vonnis maakt melding van de verklaring waarmee de adoptanten hun keuze te kennen geven.]1
-----------
+
 (1)<W 2014-05-08/10, art. 4, 068; Inwerkingtreding : 01-06-2014>
 
 
@@ -5879,7 +5879,7 @@ adoptant, in de door hen gekozen volgorde met niet meer dan één naam voor elk 
 Het vonnis maakt melding van de verklaring waarmee de adoptanten hun keuze te kennen geven.
 § 2. In geval van nieuwe adoptie zoals bedoeld in artikel 347-1, wordt de overdracht van de naam geregeld
 door artikel 353-1.]1
-----------
+
 (1)<W 2014-05-08/10, art. 5, 068; Inwerkingtreding : 01-06-2014>
 (2)<W 2017-02-20/17, art. 9, 074; Inwerkingtreding : 01-04-2017>
 (3)<W 2017-07-06/24, art. 67, 075; Inwerkingtreding : 03-08-2017>
@@ -5888,7 +5888,7 @@ door artikel 353-1.]1
 **Art. 353-3.<W 2006-05-18/44, art. 5, 027; Inwerkingtreding : 30-06-2006> Is de geadopteerde ouder dan**
 achttien jaar, dan kunnen de partijen de rechtbank vragen dat de naam van de geadopteerde onveranderd blijft
 [1 ...]1 .
-----------
+
 (1)<W 2014-05-08/10, art. 6, 068; Inwerkingtreding : 01-06-2014>
 
 
@@ -5900,7 +5900,7 @@ achttien jaar, dan kunnen de partijen de rechtbank vragen dat de naam van de gea
 geadopteerde kinderen.
 Het eerste lid is evenwel niet van toepassing wanneer de adoptanten een naam aan een geadopteerd kind
 toekennen overeenkomstig de artikelen 353-1, derde lid, 353-2, § 1, tweede lid tot vierde lid, en 353-3.]1
-----------
+
 (1)<W 2017-07-06/24, art. 68, 075; Inwerkingtreding : 03-08-2017>
 
 
@@ -5911,7 +5911,7 @@ achttien jaar oud is, van de personen die krachtens de artikelen 348-3, 348-5, 3
 toestemmen in de adoptie.
 Bij gebreke van overeenstemming beslist de [1 familierechtbank]1 in het hoger belang van het kind en met
 eerbied voor de fundamentele rechten die het op grond van het internationaal recht toekomen.
-----------
+
 (1)<W 2013-07-30/23, art. 48, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/10, art. 9, 068; Inwerkingtreding : 01-06-2014>
 (3)<W 2017-07-06/24, art. 69, 075; Inwerkingtreding : 03-08-2017>
@@ -5925,7 +5925,7 @@ dagen na de kennisgeving bedoeld in artikel 1231-4, tweede lid, van het Gerechte
 
 te richten aan de [1 familierechtbank]1 die over de adoptie uitspraak moet doen. Akte van de wil de naam te
 behouden wordt verleend in het beschikkend gedeelte van het vonnis.
-----------
+
 (1)<W 2013-07-30/23, art. 49, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5939,7 +5939,7 @@ zijn ontvoogding te vorderen en toe te stemmen in zijn huwelijk.
 Wanneer de adoptant overlijdt [1 , vermoedelijk afwezig is, in de onmogelijkheid verkeert het ouderlijk gezag uit
 te oefenen gedurende de minderjarigheid van de geadopteerde of wilsonbekwaam is]1, wordt de voogdij geregeld
 overeenkomstig dit boek, titel X, hoofdstuk II.
-----------
+
 (1)<W 2013-03-17/14, art. 20, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -5951,7 +5951,7 @@ uitgeoefend. De bepalingen van dit boek, titel IX, zijn van overeenkomstige toep
 Wanneer de beide adoptanten overlijden [1 afwezig zijn, in de onmogelijkheid verkeren het ouderlijk gezag uit te
 oefenen gedurende de minderjarigheid van de geadopteerde of wilsonbekwaam zijn]1, wordt de voogdij geregeld
 overeenkomstig dit boek, titel X, hoofdstuk II.
-----------
+
 (1)<W 2013-03-17/14, art. 21, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2017-02-20/17, art. 10, 074; Inwerkingtreding : 01-04-2017>
 
@@ -5960,7 +5960,7 @@ overeenkomstig dit boek, titel X, hoofdstuk II.
 van de adoptanten, kunnen de moeder en de vader van het geadopteerde kind gezamenlijk of alleen aan de [1
 familierechtbank]1 vragen dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Wordt dit verzoek
 ingewilligd, dan neemt de voogdij waarin voorheen was voorzien een einde.
-----------
+
 (1)<W 2013-07-30/23, art. 50, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -5983,7 +5983,7 @@ vermelde verbodsbepalingen.]1
 [2 De procedure wordt op eenzijdig verzoekschrift ingeleid door een van de toekomstige echtgenoten. De
 rechtbank doet uitspraak na de toekomstige echtgenoten te hebben opgeroepen en na het advies van de
 procureur des Konings ter zake te hebben ingewonnen.]2
-----------
+
 (1)<W 2010-06-02/24, art. 3, 052; Inwerkingtreding : 01-07-2010>
 (2)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
@@ -6004,7 +6004,7 @@ Ingeval een persoon het kind of het adoptief kind van zijn echtgenoot [3 , van d
 samenwoont of van zijn voormalige partner]3, adopteert, zijn zowel de adoptant als zijn echtgenoot [3 , de
 persoon met wie hij samenwoont of zijn voormalige partner]3 hem overeenkomstig artikel 203 levensonderhoud
 verschuldigd. [1 Artikel 203bis en 203quater zijn van overeenkomstige toepassing.]1
-----------
+
 (1)<W 2010-03-19/05, art. 9, 048; Inwerkingtreding : 01-08-2010; zie ook art. 17>
 (2)<W 2012-12-10/14, art. 6, 057; Inwerkingtreding : 21-01-2013>
 (3)<W 2017-02-20/17, art. 11, 074; Inwerkingtreding : 01-04-2017>
@@ -6034,7 +6034,7 @@ adoptie, blijven de gevolgen van de eerste adoptie slechts bestaan voor zover zi
 nieuwe adoptie. Wanneer overeenkomstig artikel 347-2, 1° of 3°, een nieuwe gewone adoptie wordt
 uitgesproken na een vorige volle adoptie, geldt dit ook ten aanzien van de vorige adoptant, zo deze niet de
 echtgenoot van de nieuwe adoptant is of de persoon met wie deze laatste samenwoont.
-----------
+
 (1)<W 2017-02-20/17, art. 12, 074; Inwerkingtreding : 01-04-2017>
 
 B. Herroeping. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -6045,7 +6045,7 @@ adoptie kan om zeer gewichtige redenen worden uitgesproken op verzoek van de ado
 of van een van hen, van de geadopteerde of van de procureur des Konings.
 In geval van gewone adoptie door twee echtgenoten of samenwonenden kan de [1 familierechtbank]1 de
 herroeping uitspreken ten aanzien van slechts een van hen.
-----------
+
 (1)<W 2013-07-30/23, art. 51, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -6058,14 +6058,14 @@ bevoegde vrederechter onmiddellijk in kennis van de opmaak van de akte van herro
 Niettemin kunnen de moeder en de vader van het kind of een van hen, de [1 familierechtbank]1 later verzoeken
 dat het kind opnieuw onder hun ouderlijk gezag wordt geplaatst. Indien de [1 familierechtbank]1 dit toestaat,
 houdt de voogdij bedoeld in het vorige lid op.
-----------
+
 (1)<W 2013-07-30/23, art. 52, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 46, 082; Inwerkingtreding : 31-03-2019>
 
 
 **Art. 354-3.[1 De adoptie heeft geen gevolgen meer vanaf de opmaak van de akte van herroeping. De**
 huwelijksbeletsels bedoeld in artikel 353-13 blijven van toepassing.]1
-----------
+
 (1)<W 2018-06-18/03, art. 47, 082; Inwerkingtreding : 31-03-2019>
 
 § 2. Volle adoptie. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
@@ -6092,7 +6092,7 @@ samenwoont of van de voormalige partner van de adoptant]1, zelfs overleden, houd
 behoren tot de familie van [1 die echtgenoot, van de persoon met wie hij samenwoont of van de voormalige
 partner]1. Indien deze nog in leven is, wordt het ouderlijk gezag over de geadopteerde gezamenlijk uitgeoefend
 door de adoptant en [1 die echtgenoot, persoon met wie hij samenwoont of voormalige partner]1.
-----------
+
 (1)<W 2017-02-20/17, art. 13, 074; Inwerkingtreding : 01-04-2017>
 
 
@@ -6110,7 +6110,7 @@ Het vonnis maakt melding van de verklaring waarmee de adoptanten hun in het twee
 keuze te kennen geven.
 [2 De door de adoptanten overeenkomstig het tweede en derde lid gekozen naam geldt ook voor de andere
 kinderen wier afstamming later ten aanzien van dezelfde ouders komt vast te staan.]2]1
-----------
+
 (1)<W 2014-05-08/10, art. 10, 068; Inwerkingtreding : 01-06-2014>
 (2)<W 2014-12-18/01, art. 3, 071; Inwerkingtreding : 01-01-2015>
 (3)<W 2017-02-20/17, art. 14, 074; Inwerkingtreding : 01-04-2017>
@@ -6124,7 +6124,7 @@ Wanneer overeenkomstig artikel 347-2, 3°, een nieuwe volle adoptie wordt uitges
 van de vorige adoptie van rechtswege op te gelden ten aanzien van de vorige adoptant die niet de echtgenoot is
 van de nieuwe adoptant [1 , de persoon met wie deze samenwoont of de voormalige partner]1, vanaf het tijdstip
 waarop de nieuwe adoptie van kracht wordt, met uitzondering van de huwelijksbeletsels.
-----------
+
 (1)<W 2017-02-20/17, art. 15, 074; Inwerkingtreding : 01-04-2017>
 
 
@@ -6173,7 +6173,7 @@ wilsonbekwaam zijn en het kind geen wettelijke vertegenwoordiger heeft in de Sta
 afwijking van artikel 361-4, 1°, c), de toestemming tot de omzetting in volle adoptie gegeven door een voogd ad
 hoc aangewezen door de rechtbank op verzoek van iedere betrokken persoon of van de procureur des
 Konings.]1
-----------
+
 (1)<W 2023-12-19/05, art. 14, 103; Inwerkingtreding : 06-01-2024>
 
 
@@ -6252,7 +6252,7 @@ Deze verplichting geldt voor alle adoptanten, zelfs voor diegenen die een kind w
 verwant is.
 [1 De voorbereiding moet niet worden hernieuwd in het kader van de procedure tot verlenging van de
 geschiktheid om te adopteren.]1
-----------
+
 (1)<W 2009-12-30/14, art. 62, 046; Inwerkingtreding : 16-01-2010>
 (2)<W 2012-06-20/15, art. 3, 056; Inwerkingtreding : 20-08-2012>
 (3)<W 2013-07-30/23, art. 53, 065; Inwerkingtreding : 01-09-2014>
@@ -6264,7 +6264,7 @@ onverwijld alle beslissingen die haar overeenkomstig de artikelen 1231-1/8, 1231
 Gerechtelijk Wetboek zijn toegezonden met betrekking tot de geschiktheid, de ongeschiktheid of de verlenging
 van de geschiktheid van de adoptant of de adoptanten, alsook het in artikel 1231-1/5 van het Gerechtelijk
 Wetboek bedoelde schriftelijk advies van het openbaar ministerie.]1
-----------
+
 (1)<W 2017-07-06/24, art. 7, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -6280,7 +6280,7 @@ geschiktheidsvoorwaarden wijzigt, wordt een tweede verslag bijgevoegd dat enkel 
 voorwaarden van die beslissing.
 Ook het schriftelijk advies van het openbaar ministerie bedoeld in artikel 1231-1/5 van het Gerechtelijk
 Wetboek, wordt bijgevoegd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-07-06/24, art. 8, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -6302,7 +6302,7 @@ te verblijven;
 5° de bevoegde centrale autoriteit van de gemeenschap en de bevoegde autoriteit van de Staat van herkomst
 van het kind hebben schriftelijk hun goedkeuring gehecht aan de beslissing om het aan de adoptant of aan de
 adoptanten toe te vertrouwen.
-----------
+
 (1)<W 2017-07-06/24, art. 9, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -6372,7 +6372,7 @@ overeenkomstig artikel 1231-1/8 van het Gerechtelijk Wetboek]1;
 4° de bevoegde centrale autoriteit van de gemeenschap en de bevoegde autoriteit van de Staat van herkomst
 van het kind hebben schriftelijk hun goedkeuring gehecht aan de beslissing om het aan de adoptant of aan de
 adoptanten toe te vertrouwen.
-----------
+
 (1)<W 2017-07-06/24, art. 10, 075; Inwerkingtreding : 01-01-2020>
 
 
@@ -6415,7 +6415,7 @@ toestemming in de adoptie, indien deze vereist is, en dat zijn wensen en mening 
 7° zich ervan heeft vergewist dat de toestemming van het kind in de adoptie, indien deze vereist is, vrij en met
 inachtneming van de vereiste wettelijke vormen werd gegeven, dat deze niet tegen betaling of in ruil voor enige
 tegenprestatie is verkregen en niet werd ingetrokken.
-----------
+
 (1)<W 2013-07-30/23, art. 55, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -6469,7 +6469,7 @@ ander persoon die het onder zijn bewaring heeft of van wie de toestemming in de 
 niet in contact treden zolang de bepalingen van de artikelen 361-1 en 361-5, 4°, niet in acht zijn genomen,
 behalve indien de adoptie plaatsvindt tussen leden van eenzelfde familie.) <W 2005-12-06/30, art. 4, 024;
 Inwerkingtreding : 26-12-2005>
-----------
+
 (1)<W 2017-07-06/24, art. 11, 075; Inwerkingtreding : 03-08-2017>
 
 
@@ -6494,7 +6494,7 @@ handel in kinderen is voorafgegaan; of
 2° wanneer hij vaststelt dat de adoptie erop is gericht de wetsbepalingen inzake de nationaliteit of die
 betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen te
 omzeilen.
-----------
+
 (1)<W 2013-07-30/23, art. 56, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -6667,7 +6667,7 @@ onmogelijk blijkt.
 Wanneer het verzoek tot erkenning betrekking heeft op een adoptie die geen interlandelijke adoptie is in de zin
 van artikel 360-2, kan de federale centrale autoriteit, wanneer zij zich voldoende ingelicht acht, vrijstelling
 verlenen van de overlegging van een of meer stukken bedoeld in paragraaf 2 en paragraaf 3, 3° tot 9°.]1
-----------
+
 (1)<W 2018-06-18/03, art. 48, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 61, 102; Inwerkingtreding : 01-01-2024>
 
@@ -6677,7 +6677,7 @@ afdeling 3, § 2, zijn van toepassing op de erkenning van niet door het Verdrag 
 tot omzetting van adoptie.
 
 § 2/1. [1 Afwijkende bepaling inzake erkenning van de adopties in het hoger belang van het kind.]1
-----------
+
 (1)<Ingevoegd bij W 2012-04-11/13, art. 2, 055; Inwerkingtreding : 17-05-2012. Overgangsbepalingen: art. 3>
 
 
@@ -6713,7 +6713,7 @@ opvang dan interlandelijke adoptie.]2
 adoptant(en) bekwaam en geschikt zijn om een interlandelijke adoptie aan te gaan, spreekt ze zich uit over het
 verzoek tot erkenning van de vreemde beslissing houdende adoptie overeenkomstig de artikelen 364-1 tot 365-
 4.]1
-----------
+
 (1)<Ingevoegd bij W 2012-04-11/13, art. 2, 055; Inwerkingtreding : 17-05-2012. Overgangsbepalingen: art. 3>
 (2)<W 2014-04-25/23, art. 155, 062; Inwerkingtreding : 15-05-2014>
 
@@ -6757,7 +6757,7 @@ tot 6°.
 vreemde beslissing tot nietigverklaring van een adoptie in België geen gevolgen hebben.
 
 § 4. [1 Akte van adoptie]1
-----------
+
 (1)<W 2018-06-18/03, art. 49, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6789,7 +6789,7 @@ Onverminderd beroep tegen een beslissing die overeenkomstig deze afdeling door d
 autoriteit is gewezen, wordt iedere op grond van het eerste lid gewezen beslissing, op eenvoudig vertoon van
 een afschrift van de akte van adoptie, door iedere overheid of rechtsmacht, erkend, alsook door ieder ander
 persoon.]1
-----------
+
 (1)<W 2018-06-18/03, art. 50, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 50, 102; Inwerkingtreding : 01-01-2024>
 
@@ -6825,7 +6825,7 @@ De partijen kunnen steeds om een afschrift van de akte van adoptie verzoeken aan
 burgerlijke stand, als bewijs van erkenning van de buitenlandse beslissing door de federale centrale autoriteit.
 De bevoegde ambtenaar van de burgerlijke stand is deze bedoeld in artikel 368-1, § 2.]2
 § 3. [2 ...]2
-----------
+
 (1)<W 2013-07-30/23, art. 57, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-18/03, art. 51, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 51, 102; Inwerkingtreding : 01-01-2024>
@@ -6852,7 +6852,7 @@ adoptanten of van één van hen, of bij gebrek hieraan;
 § 3. De ambtenaar van de burgerlijke stand stelt de federale centrale autoriteit onmiddellijk in kennis van de
 opmaak van de akte van adoptie, en in voorkomend geval, van de akte van geboorte. De federale centrale
 autoriteit stelt vervolgens de centrale autoriteiten van de gemeenschappen hiervan in kennis.]1
-----------
+
 (1)<W 2018-06-18/03, art. 52, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 52, 102; Inwerkingtreding : 01-01-2024>
 
@@ -6862,7 +6862,7 @@ wordt opgemaakt ten gevolge van een buitenlandse beslissing waarbij een adoptie 
 wordt uitgesproken of omgezet]1, stelt de federale centrale autoriteit op verzoek van iedere belanghebbende
 partij het in artikel 23 van het Verdrag bedoelde schriftelijke bewijsstuk op volgens het model bepaald door de
 Koning.
-----------
+
 (1)<W 2018-06-18/03, art. 53, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6903,7 +6903,7 @@ autoriteit rekening houdend met de maturiteit van de verzoeker om al dan niet to
 gegevens en brengt ze haar beslissing ter kennis van de wettelijke vertegenwoordiger.]1
 Het verzamelen, bewaren en de toegang tot deze gegevens worden geregeld bij een koninklijk besluit
 vastgesteld na overleg in de Ministerraad.
-----------
+
 (1)<W 2018-06-18/03, art. 158, 082; Inwerkingtreding : 12-07-2018>
 
 
@@ -6924,7 +6924,7 @@ stelt hiervan onverwijld de federale centrale autoriteit in kennis.
 gevolge van een rechterlijke beslissing waarbij de adoptie van een minderjarig kind wordt herroepen zonder dat
 beslist wordt dat het weer onder het ouderlijk gezag van zijn ouders wordt geplaatst, notificeert dit binnen drie
 dagen elektronisch via de DABS aan de vrederechter, bedoeld in artikel 390.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 54, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6936,7 +6936,7 @@ termijn van drie maanden te overschrijden. Indien de verzoekende overheid deze g
 verkrijgen, of de door haar verkregen gegevens onvoldoende zijn, stelt zij de belanghebbende hiervan
 onmiddellijk en uiterlijk binnen dezelfde periode van drie maanden op de hoogte en kan zij deze verzoeken om
 ieder ander bewijs tot staving van die gegevens over te leggen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 55, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6950,12 +6950,12 @@ ieder ander bewijs tot staving van die gegevens over te leggen.]1
 (Opgeheven) <W 2003-04-24/32, art. 3, 017; Inwerkingtreding : onbepaald>
 
 TITEL VIII/1. [1 - Namen en voornamen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 56, 082; Inwerkingtreding : 31-03-2019>
 
 
 ##### HOOFDSTUK 1. [1 - Vastheid van naam.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 57, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6965,12 +6965,12 @@ TITEL VIII/1. [1 - Namen en voornamen.]1
 akte van geboorte.
 Deze namen en voornamen kunnen slechts gewijzigd of verbeterd worden op de wijze en in de gevallen
 bepaald door de wet.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 58, 082; Inwerkingtreding : 31-03-2019>
 
 
 ##### HOOFDSTUK 2. [1 - Toegelaten voornamen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 59, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -6978,12 +6978,12 @@ bepaald door de wet.]1
 
 [1 De ambtenaar van de burgerlijke stand mag in de akte van geboorte geen voornamen opnemen
 die aanleiding geven tot verwarring dan wel het kind of derden kunnen schaden.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 60, 082; Inwerkingtreding : 31-03-2019>
 
 
 ##### HOOFDSTUK 3. [1 - Verandering van naam en voornamen.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 61, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -7009,7 +7009,7 @@ Ingeval deze personen weigeren om de niet-ontvoogde minderjarige bij te staan, k
 familierechtbank bij verzoekschrift, ondertekend door hemzelf of zijn advocaat verzoeken hem te machtigen om
 deze handeling met bijstand van een voogd ad hoc te verrichten.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 62, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-07-20/19, art. 5, 100; Inwerkingtreding : 01-10-2023>
 (3)<W 2023-09-13/08, art. 53, 102; Inwerkingtreding : 01-01-2024>
@@ -7043,7 +7043,7 @@ van de Belgische nationaliteit, worden vrijgesteld van gemeentelijke retributie.
 § 3. In geval van weigering van de naams- of voornaamsverandering wordt de verzoeker daarvan in kennis
 gesteld door de minister van Justitie, ingeval het een verzoek tot naamsverandering betreft, dan wel door de
 ambtenaar van de burgerlijke stand, ingeval het een verzoek tot voornaamswijziging betreft.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 63, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 54, 102; Inwerkingtreding : 01-01-2024>
 (3)<W 2024-01-07/03, art. 4, 107; Inwerkingtreding : 01-07-2024>
@@ -7056,7 +7056,7 @@ voornaamsverandering toestaat, een akte van voornaamsverandering op en verbindt 
 burgerlijke stand die betrekking hebben op de begunstigde en de geboorteakten van diens afstammelingen tot
 de eerste graad.
 De voornaamsverandering heeft gevolg vanaf de datum van de opmaak van de akte.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 64, 082; Inwerkingtreding : 31-03-2019>
 
 
@@ -7068,7 +7068,7 @@ De vergunning tot naamsverandering is definitief te rekenen van die vermelding i
 Op basis van uitzonderlijke omstandigheden die naar behoren zijn vastgesteld en na advies van het openbaar
 ministerie, kan de Koning vrijstelling verlenen van de vermelding bedoeld in het eerste lid. De vergunning tot
 naamsverandering vermeldt deze vrijstelling en is definitief op datum van haar ondertekening.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 65, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2024-01-07/03, art. 5, 107; Inwerkingtreding : 01-07-2024>
 
@@ -7087,7 +7087,7 @@ De ambtenaar van de burgerlijke stand maakt voor deze persoon onmiddellijk de ak
 op en verbindt deze met de akten van de burgerlijke stand die betrekking hebben op de begunstigde.
 De naamsverandering heeft gevolg vanaf de datum van de opmaak van de melding of, in voorkomend geval,
 van de akte van naamsverandering.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 66, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 21, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 55, 102; Inwerkingtreding : 01-01-2024>
@@ -7101,7 +7101,7 @@ de beslissing tot intrekking of het arrest tot vernietiging naar de DABS, met ve
 arrest in kracht van gewijsde is gegaan.
 De DABS maakt op basis hiervan een melding op en verbindt deze met de melding en de akten bedoeld in
 artikel 370/7, tweede lid.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 67, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 56, 102; Inwerkingtreding : 01-01-2024>
 
@@ -7133,7 +7133,7 @@ De ambtenaar van de burgerlijke stand maakt daarvan onmiddellijk een akte van na
 verbindt die met de akten van de burgerlijke stand die op hem betrekking hebben.
 § 4. In geval van weigering wordt de verzoeker daarvan in kennis gesteld door de ambtenaar van de burgerlijke
 stand.]1
-----------
+
 (1)<Ingevoegd bij W 2024-01-07/03, art. 6, 107; Inwerkingtreding : 01-07-2024>
 
 
@@ -7175,7 +7175,7 @@ van de burgerlijke stand die betrekking hebben op de begunstigde en met de akten
 afstammelingen in de eerste graad.
 De voornaamsverandering heeft gevolg vanaf de datum van de opmaak van [3 ...]3 van de akte van
 voornaamsverandering.]1
-----------
+
 (1)<Ingevoegd bij W 2018-06-18/03, art. 68, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2020-07-31/03, art. 22, 089; Inwerkingtreding : 01-09-2020>
 (3)<W 2023-09-13/08, art. 57, 102; Inwerkingtreding : 01-01-2024>
@@ -7200,12 +7200,12 @@ Inwerkingtreding : 09-07-1999>
 
 
 #### TITEL IX. [1 - Ouderlijk gezag en pleegzorg.]1
-----------
+
 (1)<W 2017-03-19/08, art. 2, 076; Inwerkingtreding : 01-09-2017>
 
 
 ##### HOOFDSTUK I. [1 - Ouderlijk gezag.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 3, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7231,7 +7231,7 @@ uitzonderingen.
 Bij gebreke van instemming kan één van beide ouders de zaak bij de [1 familierechtbank]1 aanhangig maken.
 De rechtbank kan één van de ouders toestemming verlenen alleen op te treden voor één of meer bepaalde
 handelingen.
-----------
+
 (1)<W 2013-07-30/23, art. 58, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -7268,7 +7268,7 @@ elkaar onderhouden.]2
 De rechtbank oordeelt in ieder geval bij een met bijzondere redenen omkleed vonnis, en rekening houdend met
 de concrete omstandigheden van de zaak en het belang van de kinderen en de ouders.) <W 2006-07-18/38, art.
 2, 029; Inwerkingtreding : 14-09-2006>
-----------
+
 (1)<W 2013-07-30/23, art. 59, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2021-05-20/20, art. 2, 092; Inwerkingtreding : 19-06-2021>
 
@@ -7297,7 +7297,7 @@ vermeld dat ook de instemming van die persoon vereist is om de minderjarige een 
 overschrijden.
 De rechter brengt de beslissing ter kennis van de ambtenaar van de burgerlijke stand van de gemeente waar
 het kind verblijft.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-22/38, art. 2, 069; Inwerkingtreding : onbepaald>
 
 
@@ -7306,7 +7306,7 @@ het kind verblijft.]1
 [1 De bevoegdheid om een op artikel 374/1 gebaseerd verzoek te behandelen, berust bij de rechter
 bij wie een aan de gang zijnde echtscheidingsprocedure aanhangig is gemaakt, en in alle andere gevallen bij de
 bevoegde rechter.]1
-----------
+
 (1)<Ingevoegd bij W 2014-05-22/38, art. 3, 069; Inwerkingtreding : onbepaald>
 
 
@@ -7320,7 +7320,7 @@ afwezigheid, wordt ze vastgesteld door de rechtbank van eerste aanleg overeenkom
 Gerechtelijk Wetboek.]1
 (Als van beide ouders er geen overblijft die in staat is het ouderlijk gezag uit te oefenen, moet een
 voogdijregeling worden uitgewerkt.) <W 1995-04-13/37, art. 9, 003; Inwerkingtreding : 03-06-1995>
-----------
+
 (1)<W 2013-03-17/14, art. 23, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -7334,7 +7334,7 @@ Bij gebreke van een overeenkomst tussen de partijen, wordt over de uitoefening v
 het kind op verzoek van de partijen of van de procureur des Konings beslist door de [1 familierechtbank]1. [2 De
 familierechtbank weigert de uitoefening van het recht op persoonlijk contact enkel als de uitoefening van het
 recht ingaat tegen het belang van het kind.]2
-----------
+
 (1)<W 2013-07-30/23, art. 60, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-06-15/03, art. 3, 081; Inwerkingtreding : 12-07-2018>
 (3)<W 2021-05-20/20, art. 3, 092; Inwerkingtreding : 19-06-2021>
@@ -7354,7 +7354,7 @@ behoudens de bij de wet bepaalde uitzonderingen.
 De andere ouder behoudt het recht om toezicht te houden op het beheer. Met dat doel kan hij bij degene die
 het gezag uitoefent of bij derden alle nuttige informatie inwinnen en zich in het belang van het kind tot de [1
 familierechtbank]1 wenden.
-----------
+
 (1)<W 2013-07-30/23, art. 61, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -7393,7 +7393,7 @@ van enig belanghebbende, hetzij ambtshalve een voogd ad hoc aangewezen.
 geval van belangentegenstelling tussen de minderjarige en zijn ouders wordt door de rechter bij wie de zaak
 aanhangig is, hetzij op verzoek van enig belanghebbende, hetzij ambtshalve, een voogd ad hoc aangewezen.)
 <W 2003-02-13/54, art. 2, 016; Inwerkingtreding : 04-04-2003>
-----------
+
 (1)<W 2013-07-30/23, art. 62, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2017-07-31/25, art. 3, 083; Inwerkingtreding : 01-09-2018>
 (3)<W 2022-01-19/18, art. 9, 094; Inwerkingtreding : 01-07-2022>
@@ -7414,7 +7414,7 @@ kennis door toezending van een afschrift bij een ter post aangetekende brief aan
 laatsten zich slechts met nakoming van de beslissing van de [1 familierechtbank]1 rechtsgeldig kunnen bevrijden.
 Wanneer een voogdij is opengevallen, zendt hij eveneens een afschrift aan de griffier van het vredegerecht
 waarvan de voogdij afhangt.) <W 2003-02-13/54, art. 3, 016; Inwerkingtreding : 04-04-2003>
-----------
+
 (1)<W 2013-07-30/23, art. 63, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -7467,7 +7467,7 @@ verwerven, noch tot die welke hun geschonken of vermaakt worden onder de uitdruk
 ouders daarvan het genot niet zullen hebben.
 [1 In afwijking van het eerste lid heeft de ouder die ten aanzien van een van zijn kinderen onwaardig is, geen
 recht op het genot van de goederen van dat kind.]1
-----------
+
 (1)<W 2012-12-10/14, art. 7, 057; Inwerkingtreding : 21-01-2013>
 
 
@@ -7479,7 +7479,7 @@ die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door 
 kan de familierechtbank in het belang van het kind, op verzoek van beide ouders of van één van hen, dan wel van
 de procureur des Konings, alle beschikkingen met betrekking tot het ouderlijk gezag opleggen of wijzigen,
 volgens het bepaalde in de artikelen [2 1253ter/4 tot 1253ter/6]1 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<W 2013-07-30/23, art. 64, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/02, art. 46, 066; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-03-19/08, art. 4, 076; Inwerkingtreding : 01-09-2017>
@@ -7528,14 +7528,14 @@ kinderontvoering (herschikking) valt, verstrekt de verzoeker de rechtbank het ge
 afgegeven overeenkomstig die Verordening.]3
 § 4. Dit artikel doet geen afbreuk aan de internationale bepalingen die België verbinden op het vlak van de
 internationale ontvoering van kinderen.
-----------
+
 (1)<W 2013-07-30/23, art. 65, 065; Inwerkingtreding : 01-09-2014>
 (2)<W 2014-05-08/02, art. 47, 066; Inwerkingtreding : 01-09-2014>
 (3)<W 2022-07-20/06, art. 27, 095; Inwerkingtreding : 01-08-2022>
 
 
 ##### HOOFDSTUK II. [1 - Pleegzorg.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 5, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7544,7 +7544,7 @@ internationale ontvoering van kinderen.
 [1 De bepalingen van dit hoofdstuk zijn van toepassing bij een plaatsing van een minderjarig niet
 ontvoogd kind in het kader van pleegzorg overeenkomstig de toepasselijke regelgeving inzake jeugdbijstand en
 jeugdbescherming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 6, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7557,7 +7557,7 @@ opvoeding, de opleiding, de ontspanning en de godsdienstige of levensbeschouweli
 Deze laatste bevoegdheid komt evenwel toe aan de pleegzorgers in geval van dringende noodzakelijkheid. In
 dat geval, brengen ze hun beslissing onverwijld ter kennis van de ouders of, indien de ouders niet kunnen
 worden verwittigd, van het bevoegde orgaan voor pleegzorg.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 7, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7572,7 +7572,7 @@ artikelen 1253ter/4 en 1253ter/6 van het Gerechtelijk Wetboek. De homologatie ka
 indien ze in strijd is met het belang van het kind.
 Indien de ouders of de voogd en de pleegzorgers geen akkoord kunnen bereiken, doet de rechter uitspraak op
 verzoek van de meest gerede partij.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 8, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7593,7 +7593,7 @@ ouders en de pleegzorgers van de gedelegeerde bevoegdheden.
 strijd is met het belang van het kind.
 De gehomologeerde overeenkomst kan geen afbreuk doen aan de door de bevoegde organen voor pleegzorg
 bepaalde duurtijd van de pleegzorg.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 9, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7618,7 +7618,7 @@ worden gedelegeerd aan de pleegzorgers.]1
 
 (NOTA : bij arrest nr.36/2019 van 28-02-2019 (B.St. 15-03-2019, p. 27019), heeft het Grondwettelijk Hof dit
 artikel vernietigd)
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 10, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7631,7 +7631,7 @@ pleegzorger wanneer hij, alleen, een handeling stelt die met de aan hen gedelege
 houdt, behoudens de bij de wet bepaalde uitzonderingen.
 Bij gebreke van instemming kan een van beide pleegzorgers de zaak bij de familierechtbank aanhangig maken
 overeenkomstig artikel 387duodecies.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 11, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7641,7 +7641,7 @@ overeenkomstig artikel 387duodecies.]1
 nemen de pleegzorgers zoveel mogelijk de door de ouders of de voogd gekozen beginselen zoals, in
 voorkomend geval, vastgelegd overeenkomstig de toepasselijke regelgeving inzake jeugdbescherming, in acht, in
 het bijzonder bij de bevoegdheden als bedoeld in artikel 374, § 1, tweede lid.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 12, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7652,7 +7652,7 @@ van het kind, ongeacht of ze het ouderlijk gezag uitoefenen. Zij kunnen bij de p
 nuttige informatie hieromtrent inwinnen en zich in het belang van het kind tot de familierechtbank wenden. De
 ouders of de voogd behouden eveneens het recht op persoonlijk contact met het kind. Dit persoonlijk contact
 kan enkel om bijzonder ernstige redenen worden geweigerd.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 13, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7662,7 +7662,7 @@ kan enkel om bijzonder ernstige redenen worden geweigerd.]1
 één van hen, de voogd, de pleegzorgers dan wel van de procureur des Konings alle beslissingen met betrekking
 tot het ouderlijk gezag opleggen, wijzigen of beëindigen, overeenkomstig de artikelen 1253ter/4 tot 1253ter/6
 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 14, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7675,7 +7675,7 @@ overeenkomstig dit hoofdstuk werden toegekend aan de pleegzorgers doven van rech
 3° bij het overlijden, de ontvoogding of de adoptie van het kind;
 4° indien er een einde komt aan de plaatsing overeenkomstig de toepasselijke regelgeving inzake jeugdbijstand
 en jeugdbescherming.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 15, 076; Inwerkingtreding : 01-09-2017>
 
 
@@ -7683,12 +7683,12 @@ en jeugdbescherming.]1
 
 [1 Voor de toepassing van artikel 375bis wordt de persoon bij wie een kind minstens één
 jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebben met dit kind.]1
-----------
+
 (1)<Ingevoegd bij W 2017-03-19/08, art. 16, 076; Inwerkingtreding : 01-09-2017>
 
 
 ##### HOOFDSTUK III. [1 - Broers en zussen.]1
-----------
+
 (1)<Ingevoegd bij W 2021-05-20/20, art. 4, 092; Inwerkingtreding : 19-06-2021>
 
 
@@ -7697,7 +7697,7 @@ jaar voortdurend werd geplaatst, vermoed een bijzondere affectieve band te hebbe
 [1 Dit hoofdstuk is van toepassing op de maatregelen bedoeld in de hoofdstukken I en
 II en op de plaatsing van een minderjarig niet ontvoogd kind in het kader van de jeugdbijstand en de
 jeugdbescherming, met uitzondering van plaatsingen ingevolge het plegen van een als misdrijf omschreven feit.]1
-----------
+
 (1)<Ingevoegd bij W 2021-05-20/20, art. 5, 092; Inwerkingtreding : 19-06-2021>
 
 
@@ -7705,7 +7705,7 @@ jeugdbescherming, met uitzondering van plaatsingen ingevolge het plegen van een 
 
 [1 In deze titel worden gelijkgesteld met broers en zussen, kinderen die samen binnen
 eenzelfde gezin worden opgevoed en die een bijzondere affectieve band met elkaar hebben ontwikkeld.]1
-----------
+
 (1)<Ingevoegd bij W 2021-05-20/20, art. 6, 092; Inwerkingtreding : 19-06-2021>
 
 
@@ -7716,7 +7716,7 @@ gescheiden. Dit recht moet in het belang van elk kind worden beoordeeld. Ingeval
 dat dit recht niet wordt uitgeoefend, streven de ouders, de pleegzorgers, de rechtbank en de daartoe bevoegde
 overheid het behoud van persoonlijke contacten tussen dit kind en elk van zijn broers en zussen na tenzij ook dit
 strijdig is met het belang van dit kind.]1
-----------
+
 (1)<Ingevoegd bij W 2021-05-20/20, art. 7, 092; Inwerkingtreding : 19-06-2021>
 
 
@@ -7744,7 +7744,7 @@ de voortdurende onmogelijkheid zijn om het ouderlijk gezag uit te oefenen of wil
 Tenzij deze onmogelijkheid voortvloeit uit een uitdrukkelijke beslissing genomen overeenkomstig artikel 492/1,
 uit een vermoeden van afwezigheid of uit een verklaring van afwezigheid, wordt ze vastgesteld door de [2
 familierechtbank]2 overeenkomstig artikel 1236bis van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<W 2013-03-17/14, art. 24, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 12, 003; Inwerkingtreding : 01-09-2014>
 
@@ -7804,7 +7804,7 @@ Indien de persoon die overeenkomstig het eerste en het tweede lid is aangewezen,
 homologeert de vrederechter de aanwijzing tenzij ernstige redenen met betrekking tot het belang van het kind,
 die nauwkeurig zijn omschreven in de gronden van de beschikking, uitsluiten dat de keuze van beide ouders of
 een van hen wordt gevolgd.
-----------
+
 (1)<W 2018-12-21/09, art. 1, 086; Inwerkingtreding : 31-12-2019>
 (2)<W 2020-07-31/03, art. 35, 089; Inwerkingtreding : 17-08-2020>
 
@@ -7819,7 +7819,7 @@ familieleden. Hij benoemt de voogd nadat hij zich verzekerd heeft van zijn aanva
 [1 Ingeval van broers en zussen in de zin van artikel 387sexiesdecies, duidt de vrederechter bij voorkeur
 dezelfde voogd aan voor alle broers en zussen, rekening houdend met het belang van elk kind. In voorkomend
 geval verduidelijkt de vrederechter hoe de broers en zussen persoonlijke contacten met elkaar onderhouden.]1
-----------
+
 (1)<W 2021-05-20/20, art. 8, 092; Inwerkingtreding : 19-06-2021>
 
 
@@ -8093,7 +8093,7 @@ Souvenirs en andere persoonlijke voorwerpen kunnen niet worden vervreemd tenzij 
 is en worden ter beschikking van de minderjarige gehouden tot zijn meerderjarigheid.
 In elk geval wordt de minderjarige die over het vereiste onderscheidingsvermogen beschikt uitgenodigd om,
 indien hij dit wenst, gehoord te worden vooraleer machtiging kan worden verleend.
-----------
+
 (1)<W 2010-04-18/06, art. 2, 049; Inwerkingtreding : 20-05-2010>
 (2)<W 2017-07-06/24, art. 70, 075; Inwerkingtreding : 03-08-2017>
 (3)<W 2017-07-31/25, art. 4, 083; Inwerkingtreding : 01-09-2018>
@@ -8110,7 +8110,7 @@ gerechtelijke of minnelijke verdeling overeenkomstig artikel 1206 van het Gerech
 goederen van de minderjarige slechts in huur nemen wanneer de vrederechter daartoe op schriftelijk verzoek
 machtiging verleent. In dat geval bepaalt de vrederechter in zijn beschikking de huurvoorwaarden, alsook de
 bijzondere waarborgen verbonden aan de aldus toegestane huur.
-----------
+
 (1)<W 2022-01-19/18, art. 11, 094; Inwerkingtreding : 01-07-2022>
 
 
@@ -8225,7 +8225,7 @@ voogdij staat, alsmede degenen die overeenkomstig het vorige artikel hun instemm
 hebben betuigd, worden door de rechtbank gehoord, althans opgeroepen. (...). [1 De procureur des Konings
 wordt gehoord of brengt een schriftelijk advies uit.]1. <W 2001-04-29/39, art. 14, 013; Inwerkingtreding : 01-08-
 2001>
-----------
+
 (1)<W 2013-07-30/23, art. 67, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8259,7 +8259,7 @@ nalatenschap van de pleegvoogd, ofwel door de [1 familierechtbank]1 in geval van
 De pleegvoogdij en de verplichtingen van de pleegvoogd of zijn nalatenschap nemen ook een einde wanneer het
 pleegkind komt te overlijden of wanneer het ontvoogd, geadopteerd of (ten volle geadopteerd) wordt. <W 31-
 03-1987, art. 60>
-----------
+
 (1)<W 2013-07-30/23, art. 68, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8276,7 +8276,7 @@ Indien zij aan de pleegvoogdij een einde maakt, kan zij desgevraagd, na het advi
 het eerste lid, 1° en 2°, te hebben ingewonnen en na de procureur des Konings te hebben gehoord, de
 verplichting van de pleegvoogd om het kind te onderhouden en het de mogelijkheid te bieden in zijn
 levensonderhoud te voorzien, beperken of opheffen.
-----------
+
 (1)<W 2013-07-30/23, art. 69, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8309,7 +8309,7 @@ ouders vaststaat en die de volle leeftijd van vijftien jaar heeft bereikt, kan d
 ontvoogd op verzoek van de enige ouder.) <W 31-03-1987, art. 61A>
 (Als die ouder een zodanig verzoek niet indient, kan de ontvoogding worden verzocht door de procureur des
 Konings.) <W 31-03-1987, art. 61B>
-----------
+
 (1)<W 2013-07-30/23, art. 70, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8323,7 +8323,7 @@ overeenkomstig artikel 477. Wanneer zij het niet eens zijn, wordt het verzoek do
 geval moet de [1 familierechtbank]1 degene die geen verzoek heeft ingediend, horen of oproepen.
 Op verzoek van het openbaar ministerie wordt een eensluidend verklaard afschrift van het overeenkomstig dit
 artikel uitgesproken vonnis overgezonden aan de vrederechter van de plaats waar de voogdij is opengevallen.
-----------
+
 (1)<W 2013-07-30/23, art. 71, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8337,7 +8337,7 @@ de ontvoogding tot de [1 familierechtbank]1 te wenden.
 De minderjarige kan te dien einde eveneens een verzoek indienen bij de procureur des Konings.
 
 **Artikel 478, derde lid, is van toepassing.**
-----------
+
 (1)<W 2013-07-30/23, art. 72, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8350,7 +8350,7 @@ De [1 familierechtbank]1 benoemt op verzoek een curator ad hoc. De verzoeker kan
 meer kandidaten voor die taak voorstellen.
 De voogdijrekening wordt gedaan aan de ontvoogde minderjarige, al naar het geval bijgestaan door de curator
 of door de curator ad hoc.
-----------
+
 (1)<W 2013-07-30/23, art. 73, 065; Inwerkingtreding : 01-09-2014>
 
 
@@ -8410,7 +8410,7 @@ onder voogdij totdat hij zijn meerderjarigheid zal hebben bereikt.
 
 ##### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de
 verkiezing van het Europees Parlement]1
-----------
+
 (1)<W 2023-12-25/12, art. 15, 104; Inwerkingtreding : 13-01-2024>
 
 
@@ -8423,7 +8423,7 @@ procureur des Konings, bij een met redenen omklede beschikking, het stemrecht va
 opschorten totdat deze meerderjarig is, overeenkomstig de wet van 23 maart 1989 betreffende de verkiezing
 van het Europees Parlement, en rekening houdend met de persoonlijke omstandigheden en de
 gezondheidstoestand van de minderjarige.]1
-----------
+
 (1)<W 2023-12-25/12, art. 16, 104; Inwerkingtreding : 13-01-2024>
 
 
@@ -8452,7 +8452,7 @@ gezondheidstoestand van de minderjarige.]1
 
 
 #### TITEL XI. - [1 Meerderjarigheid en beschermde personen]1
-----------
+
 (1)<W 2013-03-17/14, art. 26, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -8804,19 +8804,19 @@ worden gedaan aan diens woonplaats of verblijfplaats.
 
 (NOTA : dit artikel 488bis, A tot 488bis, K worden opgeheven door W 2013-03-17/14, art. 27, 061;
 inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
-----------
+
 (1)<W 2014-05-05/11, art. 85, 070; Inwerkingtreding : 01-10-2016 (zie art. 136. Overgangsbepalingen: art.
 134 en 135>
 (2)<W 2018-04-15/14, art. 252, 088; Inwerkingtreding : 01-11-2018>
 
 
 ##### HOOFDSTUK II. - [1 Beschermde personen]1
-----------
+
 (1)<W 2013-03-17/14, art. 28, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Afdeling 1. - [1 Toepassingsgebied]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 29, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -8830,7 +8830,7 @@ voor zover de bescherming van zijn belangen dit vereist.
 bescherming ingediend worden indien vaststaat dat hij bij zijn meerderjarigheid in de toestand zal verkeren als
 bedoeld in het eerste lid. De bescherming treedt in werking op het tijdstip waarop de beschermde persoon
 meerderjarig wordt.]2 ]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 30, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 183, 062; Inwerkingtreding : 01-09-2014>
 
@@ -8839,12 +8839,12 @@ meerderjarig wordt.]2 ]1
 
 [1 Een beschermingsmaatregel over de goederen kan worden bevolen voor meerderjarige personen
 die zich in staat van verkwisting bevinden, indien en voor zover de bescherming van hun belangen dit vereist.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 31, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Afdeling 2. - [1 Buitengerechtelijke bescherming]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 32, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -8853,7 +8853,7 @@ die zich in staat van verkwisting bevinden, indien en voor zover de bescherming 
 [1 De bepalingen van deze afdeling zijn uitsluitend van toepassing op daden van vertegenwoordiging
 die betrekking hebben op de goederen [2 en de personen, en op daden van beheer zoals bedoeld in artikel 494,
 g)]2.]1
-----------
+
 (1)<W 2013-03-17/14, art. 33, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 6, 086; Inwerkingtreding : 01-03-2019>
 
@@ -8884,7 +8884,7 @@ notaris die in kennis is gesteld van de beslissing om de overeenkomst te beëind
 door wiens tussenkomst de overeenkomst werd geregistreerd hiervan op de hoogte. Deze laatste vermeldt de
 wijziging op de oorspronkelijke akte of op het afschrift. Er wordt voorts gehandeld overeenkomstig het vierde
 lid.]1
-----------
+
 (1)<W 2013-03-17/14, art. 34, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 7, 086; Inwerkingtreding : 01-03-2019>
 
@@ -8911,7 +8911,7 @@ in artikel 488/1 of 488/2, in voorkomend geval, overeenkomstig hetgeen wordt bep
 lastgevingsovereenkomst bedoeld in artikel 490. Deze beoordeling is tegenstelbaar aan een derde te goeder
 trouw.]2
 [3 ...]3]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 35, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 184, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2018-12-21/09, art. 8, 086; Inwerkingtreding : 01-03-2019>
@@ -8954,18 +8954,18 @@ vijfde lid;
 4° door het overlijden van de lastgever of van de lasthebber of door diens plaatsing onder een rechterlijke
 beschermingsmaatregel, overeenkomstig artikel 492/1;
 5° door een beslissing van de vrederechter genomen overeenkomstig § 2 of artikel 490/1, § 2, derde lid.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 36, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 9, 086; Inwerkingtreding : 01-03-2019>
 
 
 **Afdeling 3. - [1 Rechterlijke bescherming]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 37, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 *Onderafdeling 1. [1 Definities]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 38, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -8983,13 +8983,13 @@ opgevangen waarbij de beschermde persoon zelf, maar niet zelfstandig een bepaald
 g) vertegenwoordiging : wijze waarop de in hoofdstuk II/1, afdeling 4, onderafdeling 3, bedoelde
 onbekwaamheid wordt opgevangen waarbij de beschermde persoon niet zelfstandig, noch zelf een bepaalde
 handeling mag stellen.]1
-----------
+
 (1)<W 2013-03-17/14, art. 39, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 185, 062; Inwerkingtreding : 01-09-2014>
 
 
 *Onderafdeling 2. - [1 De onbekwaamheid]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 40, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9002,7 +9002,7 @@ bestaande wettelijke of buitengerechtelijke bescherming niet volstaat.
 De buitengerechtelijke beschermingsmaatregel blijft van toepassing in de mate dat hij verenigbaar is met de
 rechterlijke beschermingsmaatregel. In voorkomend geval bepaalt de vrederechter de voorwaarden waaronder
 de lastgeving verder kan worden uitgevoerd.]1
-----------
+
 (1)<W 2014-04-25/23, art. 186, 062; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-12-21/09, art. 10, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9105,7 +9105,7 @@ beschermde persoon een bankkaart kan gebruiken om die handelingen te stellen]5.
 een rechterlijke beschermingsmaatregel met betrekking tot de goederen beveelt, bepaalt hij in twee
 onderscheiden delen van zijn beschikking de handelingen met betrekking tot de persoon en de handelingen met
 betrekking tot de goederen waarvoor de beschermde persoon onbekwaam is.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 42, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 187, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2018-01-07/01, art. 29, 078; Inwerkingtreding : 01-03-2018>
@@ -9125,7 +9125,7 @@ Indien de beschikking geen andersluidende aanwijzing bevat, wordt de beschermde 
 bij het verrichten van de handelingen waarvoor hij onbekwaam is verklaard.
 Ten aanzien van een in artikel 488/2 bedoelde persoon kan de vrederechter enkel de bijstand bevelen bij
 bepaalde of alle handelingen die betrekking hebben op de goederen van de beschermde persoon.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 43, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9136,7 +9136,7 @@ in het Belgisch Staatsblad wat betreft de handelingen bedoeld in [5 artikel 499/
 4.139 en 2.3.5 van het Burgerlijk Wetboek, en artikel 1478, vierde lid]5 [3 evenals de door de wet toegelaten
 erfovereenkomsten]3. Voor de andere handelingen heeft de rechterlijke beschermingsmaatregel gevolgen vanaf
 de indiening van het verzoekschrift tot aanstelling van een bewindvoerder.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 44, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 13, 003; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-31/25, art. 6, 083; Inwerkingtreding : 01-09-2018>
@@ -9158,7 +9158,7 @@ fundamentele wijziging in de omstandigheden heeft voorgedaan.]3
 [4 De rechterlijke beschermingsmaatregel eindigt van rechtswege in geval van overlijden van de beschermde
 persoon of door het verstrijken van de duur waarvoor hij is genomen.]4 Het openbaar ministerie geeft de
 vrederechter kennis van de definitieve invrijheidstelling van de geïnterneerde.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 45, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 188, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2018-12-21/09, art. 12, 086; Inwerkingtreding : 01-03-2019>
@@ -9170,7 +9170,7 @@ vrederechter kennis van de definitieve invrijheidstelling van de geïnterneerde.
 
 
 *Onderafdeling 3. - [1 Sanctionering]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 47, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9211,7 +9211,7 @@ verbintenissen, kan hetgeen ten gevolge van die verbintenissen is betaald tijden
 worden teruggevorderd, tenzij bewezen is dat het betaalde hem tot voordeel heeft gestrekt.
 § 4. Dit artikel is van toepassing op de handelingen die de beschermde persoon die zich laat bijstaan, heeft
 gesteld in strijd met artikel 498/1.]1
-----------
+
 (1)<W 2013-03-17/14, art. 48, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 14, 003; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-31/25, art. 7, 083; Inwerkingtreding : 01-09-2018>
@@ -9231,7 +9231,7 @@ betekening die hun ervan is gedaan na het overlijden van hun rechtsvoorganger.
 De verjaring die tegen de beschermde persoon is beginnen lopen, loopt verder tegen de erfgenamen.
 De beschermde persoon of zijn erfgenamen kunnen echter, ook na verloop van die termijn, vergoeding voor
 geleden schade vorderen van de medecontractant die te kwader trouw was.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 49, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9240,7 +9240,7 @@ geleden schade vorderen van de medecontractant die te kwader trouw was.]1
 [1 Elke handeling die is verricht voordat de rechterlijke beschermingsmaatregel gevolgen had, kan
 worden vernietigd, indien [2 de oorzaak van de beschermingsmaatregel getroffen op grond van artikel 488/1]2
 kennelijk bestond ten tijde van het verrichten van die handelingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 50, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 189, 062; Inwerkingtreding : 01-09-2014>
 
@@ -9251,16 +9251,16 @@ kennelijk bestond ten tijde van het verrichten van die handelingen.]1
 handelingen niet worden betwist op grond van zijn gezondheidstoestand, dan voor zover de rechterlijke
 bescherming was uitgesproken of gevorderd voor zijn overlijden, tenzij het bewijs van wilsonbekwaamheid uit de
 betwiste handeling zelf voortvloeit.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 51, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 HOOFDSTUK II/1. [1 Het bewind]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 52, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Afdeling 1. [1 Definities]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 53, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9285,12 +9285,12 @@ f) vertegenwoordiging : het optreden van de bewindvoerder in naam en voor rekeni
 persoon;
 g) beheer : het optreden van de bewindvoerder door het stellen van handelingen met betrekking tot de
 goederen die niet vatbaar zijn voor vertegenwoordiging.]1
-----------
+
 (1)<W 2013-03-17/14, art. 54, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Afdeling 2. [1 Ontstaan van het bewind]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 55, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9301,12 +9301,12 @@ goederen die niet vatbaar zijn voor vertegenwoordiging.]1
 beschermde persoon bijstand verleent bij het stellen van handelingen moet worden aangewezen;
 - een rechterlijke beschermingsmaatregel beveelt overeenkomstig artikel 492/1 en een persoon die de
 beschermde persoon vertegenwoordigt bij het stellen van handelingen moet worden aangewezen.]1
-----------
+
 (1)<W 2013-03-17/14, art. 56, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 **Afdeling 3. [1 Organisatie van het bewind]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 57, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9333,7 +9333,7 @@ tweede lid de verklaring herroepen en desgevallend een nieuwe voorkeur uitdrukke
 zoals bepaald in de vorige leden. De vrederechter of notaris voor wie de herroeping plaatsheeft, stelt de
 vrederechter of notaris voor wie de oorspronkelijke verklaring werd afgelegd, hiervan in kennis. Deze laatste
 vermeldt de herroeping op de gewijzigde akte.]1
-----------
+
 (1)<W 2013-03-17/14, art. 58, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 15, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9357,7 +9357,7 @@ het administratief dossier bedoeld in artikel 1253 van het Gerechtelijk Wetboek.
 Telkens als de vrederechter die het administratief dossier beheert een vertrouwenspersoon aanstelt ter
 vervanging of opvolging van de in het eerste lid bedoelde vertrouwenspersoon, gaat hij vooraf na of in het
 administratief dossier een verklaring werd opgenomen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 59, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9369,7 +9369,7 @@ het belang van de beschermde persoon, die nauwkeurig zijn omschreven in de grond
 uitsluiten dat de keuze wordt gevolgd.
 De vrederechter mag de homologatie ook weigeren op grond van het uittreksel uit het strafregister van de
 aangewezen persoon.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 60, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9401,7 +9401,7 @@ de aard en samenstelling van het te beheren vermogen en de gezinstoestand van de
 [2 Indien de vrederechter een private stichting of een stichting van openbaar nut wenst aan te wijzen tot
 bewindvoerder, onderzoekt hij vooraf of de statuten van deze stichting en de reglementen die ter uitvoering van
 de statuten zijn uitgevaardigd, aansluiten bij de doelstellingen en bepalingen van dit hoofdstuk.]2
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 61, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 190, 062; Inwerkingtreding : 01-09-2014>
 
@@ -9416,7 +9416,7 @@ bewindvoerders en de wijze waarop zij deze bevoegdheden uitoefenen.
 Ten opzichte van derden die te goeder trouw zijn, wordt elke bewindvoerder geacht te handelen met
 instemming van de andere bewindvoerder of bewindvoerders, wanneer hij alleen een handeling stelt [2 ...]2 ,
 behoudens de bij de wet bepaalde uitzonderingen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 62, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 191, 062; Inwerkingtreding : 01-09-2014>
 
@@ -9424,7 +9424,7 @@ behoudens de bij de wet bepaalde uitzonderingen.]1
 ## Art. 496/5
 
 [1 Niemand is verplicht de bewindvoering op zich te nemen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 63, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9442,7 +9442,7 @@ beschikken;
 5° personen die, krachtens artikel 32 van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten
 laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door
 dit feit veroorzaakte schade, volledig ontzet zijn uit het ouderlijk gezag.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 64, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 192, 062; Inwerkingtreding : 01-09-2014>
 
@@ -9457,18 +9457,18 @@ kan hij daarenboven een einde maken aan de opdracht van een bewindvoerder of de 
 bevoegdheden uitoefenen wijzigen. [2 ...]2
 Indien hij zulks nodig acht, kan de vrederechter van de bewindvoerder over de goederen waarborgen eisen,
 hetzij bij zijn aanwijzing, hetzij gedurende de uitoefening van zijn opdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 65, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 16, 086; Inwerkingtreding : 01-03-2019>
 
 
 **Afdeling 4. [1 De werking van het bewind]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 66, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
 *Onderafdeling 1. [1 Algemene bepalingen]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 67, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9478,7 +9478,7 @@ hetzij bij zijn aanwijzing, hetzij gedurende de uitoefening van zijn opdracht.]1
 bewindvoerder.
 De bewindvoering heeft tot doel de belangen van de beschermde persoon te behartigen. Zij bevordert, in de
 mate van het mogelijke, de autonomie van de beschermde persoon.]1
-----------
+
 (1)<W 2013-03-17/14, art. 68, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9486,7 +9486,7 @@ mate van het mogelijke, de autonomie van de beschermde persoon.]1
 
 [1 De Koning kan de uitoefening van de functie van bewindvoerder afhankelijk maken van bepaalde
 voorwaarden, onder meer door het aantal personen te beperken van wie men bewindvoerder kan zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 69, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9547,7 +9547,7 @@ de hoedanigheid van vermoedelijk erfgenaam wanneer de erfovereenkomst, in hoofde
 persoon, de verzaking aan rechten in een niet opengevallen nalatenschap tot gevolg heeft;]3
 [5 28° het verlenen van de toestemming tot het wegnemen van organen bedoeld in artikel 5 of 10 van de wet
 van 13 juni 1986 betreffende het wegnemen en transplanteren van organen.]5
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 70, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 193, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-31/25, art. 8, 083; Inwerkingtreding : 01-09-2018>
@@ -9572,7 +9572,7 @@ bewindvoerder over de goederen worden genomen.
 Ten opzichte van derden die te goeder trouw zijn, wordt elke bewindvoerder geacht te handelen met
 instemming van de andere bewindvoerder wanneer hij alleen een handeling stelt die met de rechterlijke
 beschermingsregeling verband houdt, behoudens de bij de wet bepaalde uitzonderingen]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 71, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 18, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9584,7 +9584,7 @@ vrederechter of de rechter bij wie de zaak aanhangig is, hetzij ambtshalve hetzi
 vertrouwenspersoon, van iedere belanghebbende of van de procureur des Konings, een bewindvoerder ad hoc
 aan.
 [2 ...]2]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 72, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 19, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9644,7 +9644,7 @@ bewindvoerder.]3
 [3 § 4.]3 Het is de bewindvoerder verboden, buiten de [3 in dit artikel bedoelde vergoedingen, enige
 vergoeding]3 of voordeel, van welke aard ook of van wie ook, te ontvangen met betrekking tot de uitoefening
 van het gerechtelijk mandaat van bewindvoerder.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 73, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 20, 086; Inwerkingtreding : 01-03-2019>
 (3)<W 2023-11-08/06, art. 9, 108; Inwerkingtreding : 01-01-2025>
@@ -9656,7 +9656,7 @@ van het gerechtelijk mandaat van bewindvoerder.]1
 [1 De vrederechter kan de maatregelen bedoeld in artikel 1246 van het Gerechtelijk Wetboek nemen
 om inlichtingen in te winnen over de familiale, morele en materiële toestand van de te beschermen persoon
 alsook over diens levensomstandigheden.]1
-----------
+
 (1)<W 2018-12-21/09, art. 21, 086; Inwerkingtreding : 01-03-2019>
 
 
@@ -9664,7 +9664,7 @@ alsook over diens levensomstandigheden.]1
 
 [1 De bewindvoerder over de persoon en de bewindvoerder over de goederen brengen elkaar en de
 vertrouwenspersoon op de hoogte van de handelingen die zij in uitvoering van hun opdracht verrichten.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 75, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9678,12 +9678,12 @@ vertrouwenspersoon op de hoogte van de handelingen die zij in uitvoering van hun
 4° indien er meerdere bewindvoerders zijn, de wijze van opmaak van het verslag bedoeld in artikel 498/3, § 2,
 derde lid, werd nageleefd; en
 5° er geen ernstige aanwijzingen zijn van tekortkomingen of fraude in het beheer van de bewindvoerder.]1
-----------
+
 (1)<W 2018-12-21/09, art. 22, 086; Inwerkingtreding : 01-03-2019>
 
 
 *Onderafdeling 2. - [1 Bijstand]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 77, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9694,7 +9694,7 @@ beschermingsmaatregel van bijstand heeft bevolen overeenkomstig artikel 492/1.
 In afwijking van het eerste lid is deze onderafdeling in ieder geval van toepassing indien de vrederechter een
 rechterlijke beschermingsmaatregel heeft bevolen ten aanzien van een persoon die verkeert in de toestand
 bedoeld in artikel 488/2.]1
-----------
+
 (1)<W 2013-03-17/14, art. 78, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9711,7 +9711,7 @@ Bij gebreke van aanwijzingen in de in het eerste lid bedoelde beschikking bestaa
 voorafgaandelijke schriftelijke toestemming tot het verrichten van de handeling of, ingeval het een in artikel 499/7
 bedoelde handeling betreft en er een geschrift wordt opgemaakt, in de medeondertekening van dit geschrift
 door de bewindvoerder.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 79, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 194, 062; Inwerkingtreding : 01-09-2014>
 
@@ -9732,7 +9732,7 @@ Ingeval de bewindvoerder bij de uitvoering van zijn opdracht de beschermde perso
 enkel aansprakelijk voor zijn bedrog en zijn zware schuld. Niettemin wordt de aansprakelijkheid wegens schuld
 minder streng toegepast ten aanzien van degene die de opdracht van bijstand om niet op zich neemt, dan ten
 aanzien van hem die daarvoor de bezoldiging bedoeld in artikel 497/5, eerste lid, ontvangt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 80, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9773,7 +9773,7 @@ dat het geval is, keurt hij het verslag goed]2. Eventuele opmerkingen of aanmerk
 bewindvoerder in de toekomst rekening dient te houden [...] worden [2 hem ter kennis gebracht]2.
 Het verslag wordt bij het in artikel 1253 van het Gerechtelijk Wetboek bedoelde administratief dossier gevoegd.
 § 4. De Koning bepaalt een model van verslag.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 81, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 23, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9792,13 +9792,13 @@ reden voor de weigering om het verslag goed te keuren.]2
 [2 ...]2
 Het verslag [2 wordt]2 bij het in artikel 1253 van het Gerechtelijk Wetboek bedoelde administratief dossier
 gevoegd.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 82, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 24, 086; Inwerkingtreding : 01-03-2019>
 
 
 *Onderafdeling 3. - [1 Vertegenwoordiging en beheer]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 83, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9806,7 +9806,7 @@ gevoegd.]1
 
 [1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
 beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1.]1
-----------
+
 (1)<W 2013-03-17/14, art. 84, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9833,7 +9833,7 @@ bijzondere omstandigheden kan de vrederechter hem vrijstelling verlenen van deze
 van een bewindvoerder over de persoon of over de goederen of van een vertrouwenspersoon kan de
 vrederechter een andere persoon of instelling aanwijzen die door de bewindvoerder op de hoogte moet worden
 gebracht.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 85, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 25, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9847,7 +9847,7 @@ Hij stelt de beschermde persoon, na daarover met hem en diens vertrouwenspersoon
 de persoon te hebben overlegd, de nodige sommen ter beschikking.
 Een en ander geldt onverminderd hetgeen bij wet en verordening bepaald is omtrent de vergoeding van de
 kosten van onderhoud van de zieken, gehandicapten en bejaarden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 86, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9856,7 +9856,7 @@ kosten van onderhoud van de zieken, gehandicapten en bejaarden.]1
 [1 De gelden en de goederen van de beschermde persoon worden volledig en duidelijk afgescheiden
 van het persoonlijk vermogen van de bewindvoerder.
 De banktegoeden van de beschermde persoon worden op zijn naam ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 87, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9865,7 +9865,7 @@ De banktegoeden van de beschermde persoon worden op zijn naam ingeschreven.]1
 [1 De vrederechter bepaalt, in zijn beschikking bedoeld in artikel 492/1, § 2, het bedrag van de
 gelden geplaatst op een rekening van de beschermde persoon dat de bewindvoerder mag afhalen of
 overschrijven zonder voorafgaande machtiging binnen de periode die hij bepaalt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 88, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9877,7 +9877,7 @@ De vrederechter kan een door de Nationale Bank van België, overeenkomstig de we
 statuut van en het toezicht op de kredietinstellingen vergunde instelling de opdracht toevertrouwen om bij haar
 gedeponeerde en aan de beschermde persoon toebehorende kapitalen, effecten en waardepapieren te beheren.
 De vrederechter bepaalt de voor dit beheer geldende voorwaarden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 89, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -9898,7 +9898,7 @@ De vrederechter kan de bewindvoerder, gelet op de omvang van zijn opdracht, even
 tweede lid bedoelde verplichting ontslaan.
 Het verslag wordt gevoegd bij het administratief dossier bedoeld in artikel 1253 van het Gerechtelijk Wetboek.
 De Koning bepaalt een model van schriftelijk verslag.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 90, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 26, 086; Inwerkingtreding : 01-03-2019>
 
@@ -9977,7 +9977,7 @@ schenken ingeval de beschermde persoon daar zelf wilsonbekwaam toe is en uit de 
 een tijdstip waarop hij wilsbekwaam was, de wil tot schenken uitdrukkelijk blijkt. De schenking moet in verhouding
 staan tot het vermogen van de beschermde persoon en mag bovendien de beschermde persoon of zijn
 onderhoudsgerechtigden niet behoeftig dreigen te maken. [4 ...]4.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 91, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 195, 062; Inwerkingtreding : 01-09-2014>
 (3)<W 2017-07-31/25, art. 9, 083; Inwerkingtreding : 01-09-2018>
@@ -9992,7 +9992,7 @@ onderhoudsgerechtigden niet behoeftig dreigen te maken. [4 ...]4.]1
 [1 De verkoop van de roerende en onroerende goederen van de beschermde persoon vindt plaats
 overeenkomstig de bepalingen van het vierde deel, boek IV, hoofdstukken IV en V, van het Gerechtelijk
 Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 92, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -10008,7 +10008,7 @@ wordt beschikt, moet door de vrederechter daartoe machtiging worden verleend.
 In elk geval worden de beschermde persoon die over het vereiste begripsvermogen beschikt en diens
 vertrouwenspersoon en bewindvoerder over de persoon uitgenodigd om, indien zij dit wensen, gehoord te
 worden vooraleer machtiging kan worden verleend.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 93, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -10023,7 +10023,7 @@ artikel 1206 van het Gerechtelijk Wetboek. Hij kan de goederen van de beschermde
 nemen als de vrederechter daartoe op schriftelijk verzoek machtiging verleent. In dat geval bepaalt de
 vrederechter in zijn beschikking de huurvoorwaarden, alsook de bijzondere waarborgen verbonden aan de aldus
 toegestane huur.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 94, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 28, 086; Inwerkingtreding : 01-03-2019>
 (3)<W 2022-01-19/18, art. 16, 094; Inwerkingtreding : 01-07-2022>
@@ -10040,7 +10040,7 @@ bescherming kan worden geboden, overwogen wordt in een Staat die partij is bij h
 van 13 januari 2000 inzake de internationale bescherming van volwassenen, kan deze plaatsing, op vraag van de
 beschermde persoon of van elke belanghebbende, toegestaan worden door de vrederechter na het vervullen
 van de formaliteiten bedoeld in artikel 499/7, § 1, tweede tot vijfde lid.]3
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 95, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 29, 086; Inwerkingtreding : 01-03-2019>
 (3)<W 2019-03-10/03, art. 3, 091; Inwerkingtreding : 01-01-2021>
@@ -10051,7 +10051,7 @@ van de formaliteiten bedoeld in artikel 499/7, § 1, tweede tot vijfde lid.]3
 [1 Betekeningen en kennisgevingen aan personen aan wie een bewindvoerder is toegevoegd,
 worden gedaan aan deze personen zelf en aan de woonplaats of verblijfplaats van de bewindvoerder, voor zover
 de betekening of de kennisgeving verband houdt met de opdracht van de bewindvoerder. ]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 96, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -10072,7 +10072,7 @@ hetgeen ten gevolge van die verbintenissen is betaald tijdens de bescherming, va
 teruggevorderd, tenzij bewezen is dat het betaalde hem tot voordeel heeft gestrekt.
 De nietigheid doet geen afbreuk aan eventuele aansprakelijkheidsvorderingen die de beschermde persoon
 tegen zijn bewindvoerder kan instellen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 97, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-05-12/02, art. 15, 003; Inwerkingtreding : 01-09-2014>
 (3)<W 2020-07-31/03, art. 81, 089; Inwerkingtreding : 01-09-2020>
@@ -10141,7 +10141,7 @@ verslag bedoeld in het tweede lid dienen uit te brengen.
 § 3. Het verslag [2 wordt]2 bij het in artikel 1253 van het Gerechtelijk Wetboek bedoelde administratief dossier
 gevoegd.
 § 4. De Koning bepaalt een model van schriftelijk verslag en van vereenvoudigde boekhouding.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 98, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 30, 086; Inwerkingtreding : 01-03-2019>
 
@@ -10152,7 +10152,7 @@ gevoegd.
 bewindvoerder ad hoc aan te stellen die tot opdracht heeft de reeds neergelegde bewindsrekeningen te
 controleren en, in voorkomend geval, er namens de beschermde persoon kwijting voor te verlenen. [2 ...]2 De
 eventuele kosten komen ten laste van de bewindvoerder. ]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 99, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 31, 086; Inwerkingtreding : 01-03-2019>
 
@@ -10161,7 +10161,7 @@ eventuele kosten komen ten laste van de bewindvoerder. ]1
 
 [1 Indien de bewindvoerder moet worden vervangen, worden de rekeningen afgesloten op de dag
 waarop de nieuwe bewindvoerder zijn opdracht aanvaardt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 100, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10180,7 +10180,7 @@ Het verslag wordt toegevoegd aan het administratief dossier bedoeld in artikel 1
 Wetboek.
 Bij betwisting wordt overeenkomstig de artikelen 1358 en volgende van het Gerechtelijk Wetboek rekening en
 verantwoording voor de rechtbank afgelegd.]1
-----------
+
 (1)<W 2018-12-21/09, art. 32, 086; Inwerkingtreding : 01-03-2019>
 
 
@@ -10193,7 +10193,7 @@ overeenkomsten worden gesloten en blijft artikel [2 4.141 van het Burgerlijk Wet
 De nieuwe bewindvoerder over de goederen of de vroeger beschermde persoon kan slechts opheffing van de
 zekerheidstelling die de bewindvoerder inzake zijn beheer heeft gegeven verlenen ten vroegste nadat het verslag
 bedoeld in artikel 499/17, eerste lid, goedgekeurd en meegedeeld is overeenkomstig die bepaling.]1
-----------
+
 (1)<W 2018-12-21/09, art. 33, 086; Inwerkingtreding : 01-03-2019>
 (2)<W 2022-01-19/18, art. 18, 094; Inwerkingtreding : 01-07-2022>
 
@@ -10225,7 +10225,7 @@ In afwijking van [2 artikel 499/17, eerste lid]2 [2 deelt de bewindvoerder, binn
 lid, zijn definitief verslag en rekening mee aan de griffie]2, waar de erfgenamen van de beschermde persoon en
 de notaris die belast is met de aangifte en de verdeling van de nalatenschap ervan kennis kunnen nemen. Dit
 geldt onverminderd de toepassing van de artikelen 1358 en volgende van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<W 2014-04-25/23, art. 197, 062; Inwerkingtreding : 01-09-2014>
 (2)<W 2018-12-21/09, art. 34, 086; Inwerkingtreding : 01-03-2019>
 (3)<W 2023-12-19/05, art. 15, 103; Inwerkingtreding : 06-01-2024>
@@ -10235,7 +10235,7 @@ geldt onverminderd de toepassing van de artikelen 1358 en volgende van het Gerec
 
 [1 De goedkeuring van de rekening doet geenszins afbreuk aan de aansprakelijkheidsvorderingen
 die de beschermde persoon tegen de bewindvoerder kan instellen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 104, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10245,7 +10245,7 @@ die de beschermde persoon tegen de bewindvoerder kan instellen.]1
 [1 Vorderingen van de beschermde persoon tegen zijn bewindvoerder betreffende feiten en
 rekeningen van het bewind verjaren na vijf jaar te rekenen van de beëindiging van de opdracht van de
 bewindvoerder.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 105, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10257,13 +10257,13 @@ de beëindiging ervan.
 In afwijking van het eerste lid mag de bewindvoerder alle stukken die geen rechtstreeks verband houden met
 de door dit Wetboek voorgeschreven verplichtingen, zoals facturen en briefwisseling ouder dan vijf jaar,
 vernietigen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 106, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
 
 *Onderafdeling 4. - [1 Het bewind uitgeoefend door de ouders]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 107, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10273,7 +10273,7 @@ vernietigen.]1
 [1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke
 beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1 en de ouders van
 de beschermde persoon of één van beiden heeft aangesteld tot bewindvoerder.]1
-----------
+
 (1)<W 2013-03-17/14, art. 108, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -10281,7 +10281,7 @@ de beschermde persoon of één van beiden heeft aangesteld tot bewindvoerder.]1
 
 [1 De bepalingen van onderafdeling 3 zijn van overeenkomstige toepassing, met uitzondering van de
 afwijkingen waarin deze onderafdeling voorziet.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 109, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10291,7 +10291,7 @@ afwijkingen waarin deze onderafdeling voorziet.]1
 [1 In afwijking van artikel 499/14 bepaalt de vrederechter [2 in de beschikking die de ouders als
 bewindvoerders van de beschermde persoon aanstelt]2, het tijdstip waarop of de omstandigheden waarin en de
 wijze waarop de ouders verslag uitbrengen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 110, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 (2)<W 2018-12-21/09, art. 35, 086; Inwerkingtreding : 01-03-2019>
@@ -10308,7 +10308,7 @@ hebben het standpunt van de partijen dichter bij elkaar te brengen, overeenkomst
 Gerechtelijk Wetboek]2.
 § 2. Indien een derde optreedt als bewindvoerder, worden conflicten tussen deze derde en de ouders die
 eveneens als bewindvoerder werden aangesteld beslecht in het belang van de beschermde persoon [2 ...]2.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 111, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 (2)<W 2018-12-21/09, art. 36, 086; Inwerkingtreding : 01-03-2019>
@@ -10324,13 +10324,13 @@ overeenkomstig artikel 499/17. De artikelen 499/18 en 499/20 tot 499/22 zijn in 
 **Artikel 499/19 is van toepassing ingeval het bewind eindigt door het overlijden van de beschermde persoon. In**
 afwijking van artikel 499/19 moeten de ouders slechts rekenschap en verantwoording afleggen, binnen een
 maand na het overlijden van de beschermde persoon, op uitdrukkelijk verzoek van diens erfgenamen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 112, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
 
 *Onderafdeling 5. [1 Vertrouwenspersoon]1*
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 113, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10370,7 +10370,7 @@ strafregister.
 In het belang van de beschermde persoon kan hij verscheidene vertrouwenspersonen aanwijzen.
 In voorkomend geval preciseert hij de bevoegdheden van de verscheidene vertrouwenspersonen, alsook de
 wijze waarop zij hun bevoegdheid uitoefenen.]1
-----------
+
 (1)<W 2013-03-17/14, art. 114, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 37, 086; Inwerkingtreding : 01-03-2019>
 
@@ -10384,7 +10384,7 @@ mondeling verzoek.
 De vrederechter kan, te allen tijde, in het belang van de te beschermen persoon, hetzij ambtshalve, hetzij op
 verzoek van een bewindvoerder of van de procureur des Konings, bij een met redenen omklede beschikking
 beslissen dat de vertrouwenspersoon zijn functie niet meer mag uitoefenen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 115, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 (2)<W 2018-12-21/09, art. 38, 086; Inwerkingtreding : 01-03-2019>
@@ -10406,7 +10406,7 @@ opdracht, verzoekt hij de vrederechter de in artikel 492/1 bedoelde beschikking 
 496/7.
 Ingeval de vertrouwenspersoon bij de uitvoering van zijn opdracht de beschermde persoon schade berokkent,
 is hij enkel aansprakelijk voor zijn bedrog en zijn zware schuld.]1
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 116, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10417,12 +10417,12 @@ is hij enkel aansprakelijk voor zijn bedrog en zijn zware schuld.]1
 bewindvoerders en tussen de vertrouwenspersonen worden geregeld in het belang van de beschermde
 persoon, na getracht te hebben het standpunt van de partijen dichter bij elkaar te brengen, overeenkomstig
 artikel 1247 van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<Ingevoegd bij W 2018-12-21/09, art. 39, 086; Inwerkingtreding : 01-03-2019>
 
 
 **Afdeling 5. [1 De beëindiging van het bewind]1**
-----------
+
 (1)<Ingevoegd bij W 2013-03-17/14, art. 117, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
@@ -10440,7 +10440,7 @@ artikel 492/1;
 6° ingeval de vrederechter ten aanzien van de beschermde persoon een buitengerechtelijke
 beschermingsmaatregel beveelt als bedoeld in de artikelen 490 of 490/1 en hierbij de opheffing van de rechterlijke
 beschermingsmaatregel ten aanzien van de beschermde persoon beveelt.]1
-----------
+
 (1)<W 2013-03-17/14, art. 118, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -10810,7 +10810,7 @@ Onderafdeling II. - Rechtspersoonlijkheid van de vereniging van medeëigenaars.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
 Onderafdeling III. - [1 Organen van de vereniging van mede-eigenaars.]1
-----------
+
 (1)<W 2010-06-02/33, art. 5, 006; Inwerkingtreding : 01-09-2010; zie ook art. 19>
 
 
@@ -15229,7 +15229,7 @@ Gerechtelijk Wetboek bedoelde vrederechter gemachtigd worden om een verklaring v
 af te leggen.
 De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 [2 ...]2]1
-----------
+
 (1)<W 2013-03-17/14, art. 140, 028; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2018-12-21/09, art. 45, 042; Inwerkingtreding : 01-03-2019>
 (3)<W 2022-04-28/25, art. 26, 048; Inwerkingtreding : 01-01-2023>
@@ -15292,7 +15292,7 @@ De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
 [3 ...]3]2
 [5 § 3. De Koning kan de voorwaarden bepalen om de verklaring van wettelijke samenwoning en de verklaring
 van beëindiging van wettelijke samenwoning op elektronische wijze te overhandigen.]5
-----------
+
 (1)<W 2013-01-14/16, art. 5, 026; Inwerkingtreding : 01-09-2015>
 (2)<W 2013-03-17/14, art. 141, 028; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (3)<W 2018-12-21/09, art. 46, 042; Inwerkingtreding : 01-03-2019>
@@ -15306,7 +15306,7 @@ van beëindiging van wettelijke samenwoning op elektronische wijze te overhandig
 wettelijk samen te wonen, uit een geheel van omstandigheden blijkt dat de intentie van minstens een van beide
 partijen kennelijk enkel gericht is op het bekomen van een verblijfsrechtelijk voordeel dat is verbonden aan de
 staat van wettelijk samenwonende.]1
-----------
+
 (1)<Ingevoegd bij W 2013-06-02/08, art. 8, 027; Inwerkingtreding : 03-10-2013>
 
 
@@ -15315,7 +15315,7 @@ staat van wettelijk samenwonende.]1
 [1 Er is evenmin een wettelijke samenwoning wanneer deze wordt aangegaan zonder vrije
 toestemming van beide wettelijk samenwonenden of de toestemming van minstens een van de wettelijk
 samenwonenden werd gegeven onder geweld of bedreiging.]1
-----------
+
 (1)<Ingevoegd bij W 2013-06-02/08, art. 9, 027; Inwerkingtreding : 03-10-2013>
 
 
@@ -15343,7 +15343,7 @@ Vreemdelingenzaken.
 Tegen de weigering door de ambtenaar van de burgerlijke stand om van de verklaring van wettelijke
 samenwoning melding te maken, kan door de belanghebbende partijen binnen de maand na de kennisgeving van
 deze beslissing beroep worden aangetekend bij de [2 familierechtbank]2.]1
-----------
+
 (1)<Ingevoegd bij W 2013-06-02/08, art. 10, 027; Inwerkingtreding : 03-10-2013>
 (2)<W 2014-05-12/02, art. 6, 030; Inwerkingtreding : 01-09-2014>
 
@@ -15369,7 +15369,7 @@ samenwoning in het bevolkingsregister.
 niettemin gevolgen ten voordele van de partij die de wettelijke samenwoning te goeder trouw is aangegaan.
 Ze heeft eveneens gevolgen ten voordele van de kinderen, ook al is geen van beide partijen te goeder trouw
 geweest.]1
-----------
+
 (1)<Ingevoegd bij W 2013-06-02/08, art. 11, 027; Inwerkingtreding : 03-10-2013>
 
 
@@ -15395,7 +15395,7 @@ artikel 1478 bedoelde overeenkomst.) <W 2007-03-28/39, art. 9, 016; Inwerkingtre
 samenwonende te erven. De rechter schort zijn uitspraak op tot de beslissing die tot onwaardigheid leidt in
 kracht van gewijsde is getreden.]1
 (§ 6. [2 ...]2
-----------
+
 (1)<W 2012-12-10/14, art. 41, 025; Inwerkingtreding : 21-01-2013>
 (2)<W 2017-07-31/25, art. 65, 038; Inwerkingtreding : 01-09-2018>
 
@@ -15423,7 +15423,7 @@ De artikelen 1241 en 1246 van het Gerechtelijk Wetboek zijn van toepassing.
 In bijzondere gevallen kan de vrederechter de bewindvoerder machtigen alleen op te treden of hem toestaan
 de beschermde persoon bij te staan. De bij artikel 1250 van het Gerechtelijk Wetboek bepaalde rechtspleging is
 van toepassing. Bij het verzoekschrift wordt een kopie gevoegd van de notariële ontwerpakte.]2
-----------
+
 (1)<W 2013-01-14/16, art. 6, 026; Inwerkingtreding : 01-09-2015>
 (2)<W 2014-04-25/23, art. 200, 029; Inwerkingtreding : 01-09-2014>
 
@@ -15441,7 +15441,7 @@ Na de beëindiging van het wettelijk samenwonen en voor zover de vordering binne
 beëindiging is ingesteld, gelast de rechtbank de dringende en voorlopige maatregelen die ingevolge de
 beëindiging gerechtvaardigd zijn. Zij bepaalt de geldigheidsduur van de maatregelen die zij oplegt. [2 ...]2
 De rechtbank beschikt overeenkomstig de artikelen 1253ter tot 1253octies van het Gerechtelijk Wetboek.]1
-----------
+
 (1)<W 2013-07-30/23, art. 99, 031; Inwerkingtreding : 01-09-2014>
 (2)<W 2020-07-31/03, art. 38, 044; Inwerkingtreding : 17-08-2020>
 
@@ -15455,7 +15455,7 @@ tussen de wettelijk samenwonenden in onverdeeldheid is:
 1° een van de onroerende goederen die tot gezinswoning dient;
 2° het aldaar aanwezige huisraad;
 3° de goederen die hij aanwendt voor de uitoefening van zijn beroep of de uitbating van zijn bedrijf.]1
-----------
+
 (1)<W 2025-12-11/19, art. 3, 052; Inwerkingtreding : 17-01-2026>
 
 
@@ -15475,7 +15475,7 @@ tot 3 en 5, en 422bis van het Strafwetboek of van een poging tot het plegen van 
 een in kracht van gewijsde gegane beslissing uit dien hoofde als dader, mededader of medeplichtige schuldig
 werd bevonden of indien de strafvordering tegen de andere wettelijk samenwonende is vervallen na toepassing
 van de procedure bedoeld in artikel 216ter van het Wetboek van strafvordering.]1
-----------
+
 (1)<W 2025-12-11/19, art. 4, 052; Inwerkingtreding : 17-01-2026>
 
 
@@ -16548,7 +16548,7 @@ beschouwd.]2
 2° materiële gegevensdragers die uitsluitend als drager van digitale inhoud dienen;
 3° goederen die executoriaal of anderszins gerechtelijk worden verkocht;
 4° [2 ...]2]1
-----------
+
 (1)<W 2022-03-20/05, art. 3, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 1, 032; Inwerkingtreding : 01-05-2024>
 
@@ -16630,7 +16630,7 @@ inhoud of digitale dienst.]1
 [2 § 9. Indien het consumptiegoed een dier is, wordt elk gebrek dat het gevolg is van verkeerde instructies,
 verstrekt door de verkoper, met betrekking tot eventuele verdere vaccinaties, de leefruimte, voeding en
 verzorging van het dier, beschouwd als een conformiteitsgebrek.]2
-----------
+
 (1)<W 2022-03-20/05, art. 4, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 3, 032; Inwerkingtreding : 01-05-2024>
 
@@ -16679,7 +16679,7 @@ de vraag of de digitale inhoud of digitale dienst conform was tijdens de in para
 periode, bij de verkoper wegens een conformiteitsgebrek dat aan het licht komt binnen die periode.]1
 § 5. De bepalingen in dit hoofdstuk met betrekking tot de vrijwaring voor de verborgen gebreken van de
 verkochte zaak zijn van toepassing [1 na het verstrijken van de termijnen bedoeld in paragraaf 1]1.
-----------
+
 (1)<W 2022-03-20/05, art. 5, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 4, 032; Inwerkingtreding : 01-05-2024>
 
@@ -16820,7 +16820,7 @@ gebruik van een gestandaardiseerd informatiedocument opleggen waarin de rechten 
 consument zoals bepaald in deze afdeling worden toegelicht. Uiterlijk op het tijdstip van de levering van het
 consumptiegoed verstrekt de verkoper aan de consument, op een duurzame gegevensdrager, het
 gestandaardiseerde informatiedocument.]2
-----------
+
 (1)<W 2022-03-20/05, art. 6, 028; Inwerkingtreding : 01-06-2022>
 (2)<W 2024-02-21/15, art. 5, 032; Inwerkingtreding : 01-05-2024>
 
@@ -16834,7 +16834,7 @@ van de overeenkomstenketen die tot de verkoop geleid heeft, kan hij tegen deze p
 van zijn contractuele aansprakelijkheid met betrekking tot het consumptiegoed zonder dat een contractueel
 beding dat tot gevolg heeft die aansprakelijkheid te beperken of op te heffen, hem mag tegengeworpen
 worden.]1
-----------
+
 (1)<W 2022-03-20/05, art. 7, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -16864,7 +16864,7 @@ commerciële garantie;
 5° de commerciële garantievoorwaarden.
 § 3. Niet-naleving van paragraaf 2 heeft geen invloed op de bindende aard van de commerciële garantie voor
 de garant.]1
-----------
+
 (1)<W 2022-03-20/05, art. 8, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -16880,7 +16880,7 @@ Een beding dat de wet van een Staat die geen lid is van de Europese Unie op een 
 deze afdeling toepasselijk verklaart, is nietig wat betreft de in deze afdeling geregelde aangelegenheden, wanneer
 bij gebreke van dat beding de wet van een lidstaat van de Europese Unie toepasselijk zou zijn en die wet de
 consument in genoemde aangelegenheden een hogere bescherming verleent.
-----------
+
 (1)<W 2022-03-20/05, art. 9, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -16889,7 +16889,7 @@ consument in genoemde aangelegenheden een hogere bescherming verleent.
 [1 De inbreuken op de bepalingen van deze afdeling en van de uitvoeringsbesluiten ervan
 worden opgespoord, vastgesteld en bestraft overeenkomstig boek XV van het Wetboek van economisch
 recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 10, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17096,7 +17096,7 @@ Die termijn loopt tegen (...), (vermoedelijk afwezigen) en [1 personen beschermd
 tegen minderjarigen die in de plaats komen van een meerderjarige verkoper. <W 2003-02-13/36, art. 18, 007;
 Inwerkingtreding : 01-06-2003> <W 2007-05-09/44, art. 36, 12°, 011; Inwerkingtreding : 01-07-2007>
 Die termijn loopt eveneens en is niet geschorst gedurende de tijd bedongen voor het recht van wederinkoop.
-----------
+
 (1)<W 2013-03-17/14, art. 142, 015; 015; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -17184,7 +17184,7 @@ opgeroepen; zij moeten worden opgeroepen, wanneer een van de medeëigenaars mind
 
 De wijze en de vormen volgens welke de veiling van onverdeelde goederen moet geschieden, worden
 in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-1949, art. 26>
-----------
+
 (1)<W 2014-05-05/09, art. 6, 017; Inwerkingtreding : 18-07-2014>
 
 
@@ -17243,12 +17243,12 @@ in de titel Erfenissen en in het [1 Gerechtelijk Wetboek]1 bepaald. <W 15-12-194
 <Opgeheven bij W 2022-04-28/25, art. 62, 030; Inwerkingtreding : 01-01-2023>
 
 TITEL VIbis. [1 - Overeenkomsten voor de levering van digitale inhoud en digitale diensten.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK I. [1 - Definities en toepassingsgebied.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17295,7 +17295,7 @@ toekomstig gebruik gedurende een periode die past bij het doel waarvoor de infor
 ongewijzigde weergave van de opgeslagen informatie mogelijk maakt;
 14° "kosteloos": vrij van de noodzakelijke kosten die zijn gemaakt om de goederen conform te maken, met
 name de kosten van verzending, vervoer, werkuren of materiaal.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17348,12 +17348,12 @@ signalen aan het grote publiek beschikbaar wordt gesteld als onderdeel van een o
 digitale filmvertoningen;
 8° digitale inhoud die wordt geleverd door overheidsorganen van de lidstaten overeenkomstig de wet van 4 mei
 2016 inzake het hergebruik van overheidsinformatie.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK II. [1 - Levering van de digitale inhoud of digitale dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17368,17 +17368,17 @@ downloaden, beschikbaar is gesteld aan of toegankelijk is gemaakt voor de consum
 de consument gekozen fysieke of virtuele faciliteit;
 2° de digitale dienst toegankelijk wordt gemaakt voor de consument of voor een daartoe door de consument
 gekozen fysieke of virtuele faciliteit.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK III. [1 - Conformiteit van de digitale inhoud of digitale dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 1. [1 - Conformiteitsvereisten.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17386,12 +17386,12 @@ gekozen fysieke of virtuele faciliteit.]1
 
 [1 De handelaar levert aan de consument digitale inhoud of een digitale dienst die, naargelang het
 geval, voldoet aan de vereisten van de artikelen 1701/5, 1701/6 en 1701/7.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 2. [1 - Subjectieve conformiteitsvereisten.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17406,12 +17406,12 @@ uiterlijk bij de sluiting van de overeenkomst heeft meegedeeld en dat de handela
 3° worden geleverd samen met alle toebehoren, instructies, met inbegrip van installatie-instructies, en
 klantenservice, als vereist in de overeenkomst; en
 4° van updates zijn voorzien als bepaald in de overeenkomst.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 3. [1 - Objectieve conformiteitsvereisten.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17462,12 +17462,12 @@ conformiteitsvereisten, en de consument die afwijking bij de sluiting van de ove
 afzonderlijk heeft aanvaard.
 § 6. Tenzij de partijen anders zijn overeengekomen, wordt digitale inhoud of een digitale dienst geleverd in de
 meest recente versie die ten tijde van de sluiting van de overeenkomst beschikbaar was.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 4. [1 - Verkeerde integratie van de digitale inhoud of digitale dienst.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17480,12 +17480,12 @@ digitale inhoud of digitale dienst indien:
 geïntegreerd; of
 2° de digitale inhoud of digitale dienst bestemd was om door de consument te worden geïntegreerd en de
 verkeerde integratie te wijten was aan tekortkomingen in de door de handelaar verstrekte integratie-instructies.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK IV. [1 - Aansprakelijkheid van de handelaar.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17537,17 +17537,17 @@ naargelang het geval.
 § 5. In voorkomend geval, zijn de bepalingen met betrekking tot de vrijwaring voor de verborgen gebreken van
 de verkochte zaak van toepassing na het verstrijken van de termijnen bedoeld in paragraaf 2, eerste lid, en
 paragraaf 3, eerste lid.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK V. [1 - Remedies in geval van leveringsverzuim en van conformiteitsgebrek.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 1. [1 - Remedies in geval van leveringsverzuim.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17567,12 +17567,12 @@ overeenkomst duidelijk blijkt dat een specifiek leveringstijdstip essentieel is 
 heeft verzuimd de digitale inhoud of digitale dienst ten laatste op dat tijdstip te leveren.
 § 3. Wanneer de consument de overeenkomst ontbindt op grond van paragraaf 1 of 2, zijn de artikelen
 1701/12, § 3, tweede lid, 1701/13, 1701/14 en 1701/15 van toepassing.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 **Afdeling 2. [1 - Remedies in geval van conformiteitsgebrek.]1**
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17581,7 +17581,7 @@ heeft verzuimd de digitale inhoud of digitale dienst ten laatste op dat tijdstip
 [1 In geval van een conformiteitsgebrek heeft de consument het recht de digitale inhoud of
 digitale dienst conform te laten maken, een evenredige prijsvermindering te krijgen, of de overeenkomst te
 ontbinden volgens de in de artikelen 1701/11 en 1701/12 bepaalde voorwaarden.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17598,7 +17598,7 @@ het conformiteitsgebrek, maakt de handelaar de digitale inhoud of digitale diens
 overlast voor de consument conform, overeenkomstig paragraaf 1, rekening houdend met de aard van de
 digitale inhoud of digitale dienst en het doel waarvoor de consument de digitale inhoud of digitale dienst nodig
 had.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17629,12 +17629,12 @@ consument de overeenkomst enkel ontbinden wanneer het conformiteitsgebrek niet g
 handelaar om te bewijzen dat het conformiteitsgebrek gering is.
 De consument oefent het recht om de overeenkomst te ontbinden uit door middel van een verklaring aan de
 handelaar waarin het besluit tot ontbinding van de overeenkomst tot uitdrukking komt.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK VI. [1 - Verplichtingen van de handelaar bij ontbinding.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17670,12 +17670,12 @@ machinaal leesbaar gegevensformaat op te vragen, zonder belemmeringen van de kan
 § 5. De handelaar kan elk verder gebruik van de digitale inhoud of de digitale dienst door de consument
 beletten, met name door de digitale inhoud of digitale dienst ontoegankelijk te maken voor de consument of door
 het gebruikersaccount van de consument onbruikbaar te maken, onverminderd paragraaf 4.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK VII. [1 - Verbintenissen van de consument bij ontbinding.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17690,12 +17690,12 @@ handelaar in kennis wordt gesteld van de beslissing van de consument om de overe
 § 3. De consument hoeft niet te betalen voor het gebruik van de digitale inhoud of digitale dienst in de periode
 voorafgaand aan de ontbinding van de overeenkomst waarin de digitale inhoud of digitale dienst niet conform
 was.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK VIII. [1 - Termijnen en middelen voor terugbetaling door de handelaar.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17711,12 +17711,12 @@ digitale inhoud of digitale dienst heeft betaald, tenzij de consument uitdrukkel
 betaalmiddel instemt en op voorwaarde dat de consument als gevolg van deze terugbetaling geen extra kosten
 hoeft te maken.
 § 3. De handelaar brengt de consument generlei vergoeding in rekening in verband met die terugbetaling.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK IX. [1 - Recht op verhaal.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17728,12 +17728,12 @@ van een persoon in een eerdere schakel van de overeenkomstenketen, kan de handel
 de overeenkomstenketen aansprakelijke persoon of personen op grond van hun contractuele aansprakelijkheid
 zonder dat een contractueel beding dat tot gevolg heeft die aansprakelijkheid te beperken of uit te sluiten, hem
 mag tegengeworpen worden.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK X. [1 - Wijziging van de digitale inhoud of digitale dienst.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17763,12 +17763,12 @@ geboden om zonder extra kosten de digitale inhoud of digitale dienst zonder de w
 digitale inhoud of digitale dienst conform blijft.
 § 5. Dit artikel is niet van toepassing wanneer een bundel elementen van een internettoegangsdienst omvat of
 een nummergebaseerde interpersoonlijke communicatiedienst.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK XI. [1 - Dwingend karakter.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17785,12 +17785,12 @@ Een beding dat de wet van een Staat die geen lid is van de Europese Unie op een 
 deze titel toepasselijk verklaart, is nietig wat betreft de in deze titel geregelde aangelegenheden, wanneer bij
 gebreke van dat beding de wet van een lidstaat van de Europese Unie toepasselijk zou zijn en die wet de
 consument in genoemde aangelegenheden een hogere bescherming verleent.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
 ##### HOOFDSTUK XII. [1 - Sancties.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17798,7 +17798,7 @@ consument in genoemde aangelegenheden een hogere bescherming verleent.]1
 
 [1 De inbreuken op de bepalingen van deze titel en van de uitvoeringsbesluiten ervan worden
 opgespoord, vastgesteld en bestraft overeenkomstig boek XV van het Wetboek van economisch recht.]1
-----------
+
 (1)<Ingevoegd bij W 2022-03-20/05, art. 11, 028; Inwerkingtreding : 01-06-2022>
 
 
@@ -17913,7 +17913,7 @@ Indien aan een partij bij een dergelijke akte nog geen ondernemingsnummer is toe
 in de akte of in een ondertekende aanvullende verklaring onderaan de akte.
 De partij die zijn verplichting tot identificatie met het in het tweede lid beoogde nummer niet nakomt, draagt alle
 gevolgen van het gebrek aan registratie van de huurovereenkomst.]1
-----------
+
 (1)<W 2013-12-21/26, art. 41, 014; Inwerkingtreding : 01-02-2014>
 
 
@@ -17930,7 +17930,7 @@ meerdere studenten.
 
 
 **Art. 1714bis_VLAAMS_GEWEST. [1 ...]1**
-----------
+
 (1)<DVR 2023-04-21/08, art. 88, 031; Inwerkingtreding : 09-06-2023>
 
 
@@ -17974,7 +17974,7 @@ zich bevindt. Deze inbreuken worden vastgesteld, vervolgd en bestraft overeenkom
 termijnen en procedures bepaald in artikel 119bis van de nieuwe gemeentewet, met uitzondering van § 5.
 
 **Art. 1716_VLAAMS_GEWEST. [1 ...]1**
-----------
+
 (1)<DVR 2023-04-21/08, art. 89, 031; Inwerkingtreding : 09-06-2023>
 
 
@@ -18261,7 +18261,7 @@ Gewest aangepast zou worden aan de kosten van levensonderhoud op grond van de in
 lonen en tegemoetkomingen krachtens de federale bepalingen. Deze bepalingen kunnen geen nominale
 vermindering van de geïndexeerde huurprijs tot gevolg hebben tijdens de tijdvakken waar de index toepasselijk
 op de lonen en vervangingstegemoetkomingen geblokkeerd wordt.]1
-----------
+
 (1)<ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>
 
 
@@ -18367,7 +18367,7 @@ Wordt geen overeenstemming bereikt, dan is de in paragraaf 1 voorgeschreven proc
 behalve wat de termijnen betreft.
 § 3. De contractuele bepalingen welke in strijd zijn met de paragrafen 1 en 2 zijn nietig.
 § 4. Dit artikel is niet van toepassing op de pacht.
-----------
+
 (1)<ORD 2017-07-27/15, art. 16, 020; Inwerkingtreding : 01-01-2018>
 
 
@@ -18852,7 +18852,7 @@ Men kan zijn diensten slechts voor een tijd of voor een bepaalde onderneming ver
 
 [1 Deze afdeling is niet van toepassing op vervoerovereenkomsten die worden beheerst door het
 Belgisch Scheepvaartwetboek.]1
-----------
+
 (1)<W 2019-05-08/14, art. 5, 025; Inwerkingtreding : 01-09-2020>
 
 AFDELING II. - ONDERNEMERS VAN VERVOER TE LAND EN TE WATER.
@@ -18981,7 +18981,7 @@ onderaannemers van de eerstgenoemde.
 de Deposito- en Consignatiekas of op een geblokkeerde rekening op naam van de aannemer en onderaannemer
 bij een financiële instelling. De bouwheer is hiertoe verplicht indien hij hiertoe schriftelijk wordt verzocht door de
 hoofdaannemer of de onderaannemer.]1
-----------
+
 (1)<W 2013-07-11/19, art. 90, 019; Inwerkingtreding : 01-01-2017, datum vervangen in 01-01-2018 bij W
 2016-12-25/12, art. 36, Inwerkingtreding : 01-01-2018 !!!>
 
@@ -20196,7 +20196,7 @@ Het verzekeringscontract,
 Spel en weddenschap,
 Het contract van lijfrente.
 [1 ...]1
-----------
+
 (1)<W 2019-05-08/14, art. 6, 025; Inwerkingtreding : 01-09-2020>
 
 
@@ -20217,7 +20217,7 @@ van het lichaam zijn gemoeid, [1 alsook de kansspelen die zijn toegestaan ingevo
 kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers,]1 zijn van de
 vorige bepaling uitgezonderd.
 Evenwel kan de rechter de eis afwijzen, wanneer het bedrag hem buitensporig voorkomt.
-----------
+
 (1)<W 2010-01-10/12, art. 46, 013; Inwerkingtreding : 01-01-2011>
 
 
@@ -20359,7 +20359,7 @@ Het contract komt slechts tot stand door de aanneming van de lasthebber.
 lastgeving, een volmacht verlenen aan een derde louter met het oog op de ondertekening van een authentieke
 akte waarvan de inhoud reeds door deze persoon werd vastgelegd. Deze volmacht vermeldt uitdrukkelijk dat
 deze beperkt is tot de loutere ondertekening van de authentieke akte die erin wordt vermeld.]1
-----------
+
 (1)<Ingevoegd bij W 2024-05-15/03, art. 36, 033; Inwerkingtreding : 07-06-2024>
 
 
@@ -20522,7 +20522,7 @@ mandaat of een burgerlijk maatschap.]3
 [3 De Koning kan de lijst met uitzonderingen, bedoeld in het tweede lid, uitbreiden.
 De lastgeving eindigt in alle gevallen indien de lasthebber komt te verkeren in een staat bedoeld in de artikelen
 488/1 of 488/2.]3
-----------
+
 (1)<W 2013-03-17/14, art. 143, 015; 015; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 (2)<W 2014-04-25/23, art. 201, 016; Inwerkingtreding : 01-09-2014>
 (3)<W 2018-12-21/09, art. 47, 024; Inwerkingtreding : 01-03-2019>
@@ -20544,7 +20544,7 @@ lastgever op de lasthebber.
 [1 De staat van de lastgever bedoeld in artikel 488/1 of 488/2 kan niet worden tegengeworpen aan derden die,
 daarvan onkundig zijnde, met de lasthebber gehandeld hebben, onverminderd het verhaal van de lastgever op de
 lasthebber.]1
-----------
+
 (1)<W 2014-04-25/23, art. 202, 016; Inwerkingtreding : 01-09-2014>
 
 
@@ -20798,7 +20798,7 @@ dading over de bewindsrekening aangaan.]1
 De gemeenten en de openbare instellingen kunnen geen dading aangaan (dan met de machtiging
 voorgeschreven bij artikel 49 van de organieke wet van 10 maart 1925 op de openbare onderstand). <W 15-12-
 1949, art. 27>.
-----------
+
 (1)<W 2013-03-17/14, art. 144, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -20953,7 +20953,7 @@ Een rekenfout, bij een dading gemaakt, moet verbeterd worden.
 #### TITEL XVII. [1 - Zakelijke zekerheden op roerende goederen]1
 
 (NOTA: Titel XVII wordt 2013-07-11/19)
-----------
+
 (1)<W 2013-07-11/19, art. 2-89, 014; Inwerkingtreding : 01-01-2018>
 
 
@@ -21084,7 +21084,7 @@ De rechter mag het middel van verjaring niet ambtshalve toepassen.
 de rechtsplegingen met betrekking tot betaling van een geldschuld ingesteld door een onderneming als bedoeld
 in artikel I.1, eerste lid, 1°, van het Wetboek van economisch recht, tegen een consument als bedoeld in artikel
 I.1, eerste lid, 2°, van het Wetboek van economisch recht.]1
-----------
+
 (1)<W 2024-05-15/20, art. 2, 022; Inwerkingtreding : 01-10-2024>
 
 
@@ -21246,7 +21246,7 @@ verschijnen namens de schuldeiser.]1
 (NOTA : bij arrest nr.40/2019 van 28-02-2019 (B.St. 25-03-2019, p. 28680), heeft het Grondwettelijk Hof het
 woord « vernietigde » in artikel 2244, § 1, derde lid, vernietigd)
 
-----------
+
 (1)<W 2013-05-23/19, art. 2, 012; Inwerkingtreding : 11-07-2013>
 (2)<W 2017-07-06/24, art. 160, 015; Inwerkingtreding : 03-08-2017>
 (3)<W 2022-04-28/25, art. 28, 020; Inwerkingtreding : 01-01-2023>
@@ -21270,7 +21270,7 @@ Indien de eiser afstand doet van zijn eis,
 (Derde lid opgeheven.)<W 15-12-1949, art. 28>.
 Of indien zijn eis wordt afgewezen.
 Wordt de stuiting voor niet bestaande gehouden.
-----------
+
 (1)<W 2012-07-16/04, art. 2, 011; Inwerkingtreding : 13-08-2012>
 
 
@@ -21312,7 +21312,7 @@ De verjaring loopt tegen alle personen, behalve tegen hen voor wie de wet uitzon
 De verjaring loopt niet tegen minderjarigen en [1 beschermde personen wat betreft de handelingen
 waarvoor zij krachtens artikel 492/1 onbekwaam werden verklaard ]1, behoudens hetgeen in artikel 2278 bepaald
 is, en met uitzondering van de andere bij de wet bepaalde gevallen.
-----------
+
 (1)<W 2013-03-17/14, art. 145, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -21558,7 +21558,7 @@ Verjaren door verloop van vijf jaren.
 [1 Schuldvorderingen wegens levering van goederen en diensten via distributienetten voor water, gas of
 elektriciteit of de levering van elektronische communicatiediensten of omroeptransmissie- en omroepdiensten via
 elektronische communicatienetwerken verjaren na verloop van vijf jaren.]1
-----------
+
 (1)<W 2017-07-06/24, art. 48, 015; Inwerkingtreding : 03-08-2017>
 (2)<W 2018-12-21/09, art. 126, 017; Inwerkingtreding : 10-01-2019>
 
@@ -21594,7 +21594,7 @@ bescherming te bieden tegen natuurrampen, valt niet onder het toepassingsgebied 
 De verjaringen waarover in de artikelen van deze afdeling gehandeld wordt, lopen tegen
 minderjaringen en [1 personen beschermd krachtens artikel 492/1]1; behoudens hun verhaal op hun [1 voogd of
 bewindvoerder ]1.
-----------
+
 (1)<W 2013-03-17/14, art. 146, 013; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -23241,7 +23241,7 @@ In geval van overdracht van een niet ingeschreven bevoorrechte of hypothecaire s
 indeplaatsstelling in een zodanig recht, zal de overnemer de hypotheek of het voorrecht door inschrijving niet
 kunnen bewaren dan voor zover de akte van overdracht verleden is in de vorm die voor de ingeschreven
 schuldvorderingen vereist is.
-----------
+
 (1)<W 2018-07-11/07, art. 13, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
@@ -23441,7 +23441,7 @@ de inbeslagneming van de roerende goederen voorafgaan.
 Wanneer niet de gehele waarde van de onroerende goederen is opgebruikt voor de bevoorrechte of
 hypothecaire schuldvorderingen, wordt het nog verschuldigde gedeelte van de prijs bij voorrang aangewend tot
 voldoening van de in dit artikel vermelde schuldvorderingen.
-----------
+
 (1)<W 2012-06-22/02, art. 32, 039; Inwerkingtreding : 08-07-2012>
 (2)<W 2013-07-30/01, art. 18, 042; Inwerkingtreding : 11-08-2013>
 (3)<W 2014-02-21/47, art. 2, 047; Inwerkingtreding : 25-05-2014>
@@ -23528,7 +23528,7 @@ De rechtstreekse vordering kan niet meer worden ingesteld na het ontstaan van de
 (12° De schuldvorderingen van de leden van een ziekenfonds en van een landsbond op de reservefondsen
 door deze gevestigd volgens de bepalingen van de wetgeving betreffende de ziekenfondsen en de landsbonden.)
 <W 1990-08-06/35, art. 74, 004; Inwerkingtreding : 01-01-1991>
-----------
+
 (1)<W 2013-01-14/16, art. 45, 041; Inwerkingtreding : 01-09-2013>
 (2)<W 2013-07-11/19, art. 91, 055; Inwerkingtreding : 01-01-2018>
 (3)<W 2013-07-11/19, art. 100, 055; Inwerkingtreding : 01-01-2018>
@@ -23556,7 +23556,7 @@ behalve indien hij bij de ontvangst wist dat de prijs ervan nog verschuldigd was
 Het voorrecht van de verkoper wordt pas uitgeoefend na dat van de eigenaar van het huis of van de hoeve,
 tenzij de verkoper ten tijde dat de roerende goederen in de verhuurde plaatsen werden gebracht, de verhuurder
 heeft gewaarschuwd dat de prijs ervan niet betaald was.
-----------
+
 (1)<W 2013-07-11/19, art. 92, 055; Inwerkingtreding : 01-01-2018>
 
 
@@ -23570,7 +23570,7 @@ heeft gewaarschuwd dat de prijs ervan niet betaald was.
 voorrecht van de gerechtskosten, het voorrecht van de naderhand tot behoud van de zaak gemaakte kosten,
 en het voorrecht van de vervoerder, voor zover de verkoper van de in pand gegeven zaak boven hem geen
 voorrang heeft.]1
-----------
+
 (1)<W 2013-07-11/19, art. 93, 055; Inwerkingtreding : 01-01-2018>
 
 
@@ -23632,7 +23632,7 @@ verschuldigd met betrekking tot deze kavel. Dit voorrecht is beperkt tot de bijd
 het eraan voorafgaande boekjaar. Het neemt rang in na het voorrecht van de gerechtskosten bepaald in artikel
 17, het voorrecht bepaald in artikel 114 van de wet van 4 april 2014 betreffende de verzekeringen en de eerder
 ingeschreven voorrechten.]2
-----------
+
 (1)<W 2014-02-21/47, art. 3, 047; Inwerkingtreding : 25-05-2014>
 (2)<W 2018-06-18/03, art. 176, 059; Inwerkingtreding : 01-01-2019>
 (3)<W 2018-07-11/07, art. 14, 060; Inwerkingtreding : 30-07-2018>
@@ -23664,7 +23664,7 @@ AFDELING IV. _ Hoe voorrechten bewaard worden.
 goederen, voor zover zij zijn openbaar gemaakt door inschrijving in de registers van de [2 hypothecaire
 openbaarmaking]2, met uitzondering van de voorrechten der gerechtskosten [1 en van het voorrecht bedoeld in
 artikel 27, 7°.]1.
-----------
+
 (1)<W 2018-06-18/03, art. 177, 059; Inwerkingtreding : 01-01-2019>
 (2)<W 2018-07-11/07, art. 15, 060; Inwerkingtreding : 30-07-2018>
 
@@ -23713,7 +23713,7 @@ Deze inschrijving omvat de som die als schadevergoeding voor het geval van uitwi
 4° Van iedere opleg en vergoeding van de overwaarde, die voortvloeit uit de akte van verdeling of van veiling.
 Deze inschrijving vermeldt de bedingen betreffende de vrijwaring wegens uitwinning, indien zodanige bedingen
 zijn gemaakt.
-----------
+
 (1)<W 2015-12-18/12, art. 87, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
 
@@ -23725,7 +23725,7 @@ ambtshalve te nemen inschrijving.
 In dat geval verliezen zij het voorrecht en het recht om een vordering tot ontbinding of tot terugvordering in te
 stellen, maar zij kunnen, krachtens hun titel, een hypothecaire inschrijving nemen, waarvan echter de rang zal
 worden bepaald door haar dagtekening.
-----------
+
 (1)<W 2018-07-11/07, art. 16, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -23752,7 +23752,7 @@ door de dagtekening van haar inschrijving, en alleen voor de meerwaarde.
 [1 Het voorrecht waarin artikel 27, 5° bis, voorziet, wordt behouden door de inschrijving binnen twee
 maanden nadat de beslissing in kracht van gewijsde is gegaan. In geval van een laattijdige inschrijving neemt het
 voorrecht pas rang op de dag waarop het wordt ingeschreven.]1
-----------
+
 (1)<Ingevoegd bij W 2014-02-21/47, art. 4, 047; Inwerkingtreding : 25-05-2014>
 
 
@@ -23838,7 +23838,7 @@ Verhuringen, te goeder trouw toegestaan na de vestiging van de hypotheek, worden
 evenwel, indien zij voor langer dan negen jaren zijn aangegaan, wordt de huurtijd verminderd overeenkomstig
 (artikel [1 in artikel 3.31 van het Burgerlijk Wetboek]1 van het Burgerlijk Wetboek). <W 14-07-1976, art. 4-16,
 1°>
-----------
+
 (1)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
 
@@ -23905,7 +23905,7 @@ maart 2005 betreffende Boek II van het Milieuwetboek.]4
 [5 Ten voordele doch op kosten van het Waalse Gewest wordt een wettelijke hypotheek op de zakelijke rechten
 toegekend aan de eigenaars aan wie het Waalse Gewest voorschotten voor die rechten heeft gestort
 overeenkomstig artikel D.289 van Boek II van het Milieuwetboek, dat het Waterwetboek inhoudt.]5
-----------
+
 (1)<DWG 2010-12-22/50, art. 154, 037; Inwerkingtreding : 01-01-2011>
 (2)<DWG 2011-12-15/31, art. 147, 038; Inwerkingtreding : 01-01-2012>
 (3)<DWG 2012-12-19/18, art. 156, 040; Inwerkingtreding : 01-01-2013>
@@ -24005,7 +24005,7 @@ artikel 56.
 
 Indien de voogd, [1 in het geval van artikel 58]1, naderhand onroerende goederen verkrijgt, wordt
 gehandeld zoals in de artikelen 49 en volgende bepaald is.
-----------
+
 (1)<W 2014-05-05/09, art. 8, 048; Inwerkingtreding : 18-07-2014>
 
 
@@ -24186,7 +24186,7 @@ Het verzet wordt door de [1 Algemene Administratie van de Patrimoniumdocumentati
 kant van de inschrijving, en van deze overschrijving wordt melding gemaakt onderaan op het origineel van het
 exploot. Het verzet heeft slechts gevolg gedurende twee jaren, indien het niet vernieuwd wordt; opheffing ervan
 kan bij een eenvoudig exploot verleend worden.) <W 15-04-1889, enig art.>
-----------
+
 (1)<W 2018-07-11/07, art. 17, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2019-04-28/01, art. 46, 063; Inwerkingtreding : 16-05-2019>
 
@@ -24201,11 +24201,11 @@ wet voorschrijft.
 Alle schuldeisers die op dezelfde dag zijn ingeschreven, hebben samenlopende hypotheken van dezelfde
 dagtekening, zonder onderscheid tussen de inschrijving van 's morgens en die van 's avonds, ook indien zodanig
 verschil door de [1 Algemene Administratie van de Patrimoniumdocumentatie]1 mocht zijn vermeld.
-----------
+
 (1)<W 2018-07-11/07, art. 18, 060; Inwerkingtreding : 30-07-2018>
 
 AFDELING IV. [1 - Hypotheken voor alle sommen]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 20, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24228,12 +24228,12 @@ overeenkomsten van onbepaalde duur, blijven slechts die schuldvorderingen gewaar
 van de opzeggingstermijn bestaan tengevolge van de uitvoering van de overeenkomst.
 Wie de hypotheek opzegt, kan eisen dat de schuldeiser hem schriftelijk de inventaris meedeelt van de
 schuldvorderingen die nog gewaarborgd zijn op het einde van de opzeggingstermijn.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 20, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
 AFDELING V. - [1 Overdracht van bevoorrechte en hypothecaire schuldvorderingen.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24246,7 +24246,7 @@ van een hypothecair mandaat of een hypotheekbelofte, en op alle schuldvorderinge
 voorrecht op een onroerend goed.]1
 [2 "Onverminderd de bepalingen van het Belgisch Scheepvaartwetboek, is deze afdeling eveneens van
 toepassing op alle schuldvorderingen gewaarborgd door een scheepshypotheek.]2
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2019-05-08/14, art. 8, 065; Inwerkingtreding : 01-09-2020>
@@ -24299,7 +24299,7 @@ evenmin werd erkend door deze schuldenaar op het ogenblik van de hypotheekvestig
 Het eerste lid is eveneens van toepassing op overgedragen schuldvorderingen die, op het ogenblik van de
 overdracht, niet worden gewaarborgd door een hypotheek, een voorrecht op een onroerend goed of een recht
 om een hypotheekgarantie te eisen, met inbegrip van een hypothecair mandaat of een hypotheekbelofte.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 75, 052; Inwerkingtreding : 09-11-2015>
@@ -24320,7 +24320,7 @@ derden werden verworven vóór de datum van de overdracht of, in voorkomend geva
 rangregeling of achterstelling, met inbegrip van de rechten van de overnemer of van de pandhoudende
 schuldeiser van bestaande schuldvorderingen met betrekking tot voorschotten die vooraf werden overgedragen
 of in pand gegeven, behoudens uitdrukkelijk akkoord van deze derden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24367,7 +24367,7 @@ die door derden werden verworven vóór de datum van de overdracht of, in voorko
 van de rangregeling of achterstelling, met inbegrip van de rechten van de overnemer of van de pandhoudende
 schuldeiser van bestaande schuldvorderingen die vooraf werden overgedragen of in pand gegeven, behoudens
 uitdrukkelijk akkoord van deze derden.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24384,7 +24384,7 @@ pandhoudende schuldeiser van de schuldvorderingen die worden gewaarborgd door he
 hypothecaire mandaat, de bestaande hypotheekbelofte of de bestaande hypotheek en die vóór de vervanging
 werden overgedragen of in pand gegeven aan of door een instelling, een bijzonder vermogen of een
 compartiment van een instelling, zoals vermeld in artikel 81quater, § 1.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24413,7 +24413,7 @@ of de hypotheekbelofte of de hypotheek gevestigd krachtens het hypothecair manda
 die ten gunste van hem in pand zijn gegeven. De hypotheek kan naar keuze worden ingeschreven alleen op
 naam van de pandgever, op naam van de pandgever en de overdrager die de schuldvordering heeft
 overgedragen aan de pandgever, of alleen op naam van de overdrager van de schuldvordering]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24425,7 +24425,7 @@ aan order, wordt overgedragen of in pand gegeven ten gunste van of door een inst
 vermogen of een compartiment van een instelling, waarvan sprake is in artikel 81quater, § 1, zijn de bepalingen
 van artikelen 81ter tot en met 81octies van toepassing op die overdracht of op die inpandgeving, zonder dat een
 endossement of een afgifte van de titel aan de overnemer of aan de pandhoudende schuldeiser nodig is.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 
@@ -24443,7 +24443,7 @@ hoedanigheid van overdrager in geval van schrapping uit het register.
 overnemer dan een kredietinstelling die de Belgische covered bonds uitgeeft waarvoor het register wordt
 gehouden, zijn de bepalingen van artikelen 81quater tot 81nonies van toepassing op de overdracht aan de
 overnemer en maakt de schrapping een loutere uitvoeringsdaad uit met betrekking tot deze overdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 76, 052; Inwerkingtreding : 09-11-2015>
@@ -24459,7 +24459,7 @@ raam van de inbreng of verkoop van het geheel of een gedeelte van de hypothecair
 gehele of een gedeelte van de portefeuille van deze schuldvorderingen, door een kredietgever, worden
 tegengeworpen aan alle derden door haar bekendmaking in het Belgisch Staatsblad door toedoen van de
 FSMA.]1
-----------
+
 (1)<Ingevoegd bij W 2014-04-19/39, art. 21, 050; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 2)>
 (2)<W 2015-10-26/06, art. 77, 052; Inwerkingtreding : 09-11-2015>
@@ -24478,7 +24478,7 @@ schuldenaar, kunnen niet meer worden ingeschreven dan binnen drie maanden na het
 onverminderd de bepalingen van artikel 112.
 Het gevolg van de inschrijvingen, genomen vóór de opening van een faillissement, wordt door de bijzondere
 wetten op het faillissement geregeld.
-----------
+
 (1)<W 2018-07-11/07, art. 19, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2023-12-22/05, art. 6, 070; Inwerkingtreding : 08-01-2024>
 
@@ -24508,7 +24508,7 @@ De [2 Algemene Administratie van de Patrimoniumdocumentatie]2 doet in [2 haar]2 
 inhoud van de borderellen; [2 zij]2 geeft aan de verzoekers de uitgifte van de titel terug, alsook een van de
 borderellen, waarop [2 zij]2 onderaan bevestigt de inschrijving te hebben gedaan, met opgave van de [1 referte
 eraan]1.
-----------
+
 (1)<W 2013-12-21/26, art. 66, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 20, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2019-04-28/01, art. 47, 063; Inwerkingtreding : 16-05-2019>
@@ -24556,7 +24556,7 @@ verstreken zijn en geen van beide rechtsmiddelen tegen de beslissing werd aangew
 105><W 2006-12-19/33, art. 65, 2°, 030 ; Inwerkingtreding : 01-01-2007>
 De [2 Algemene Administratie van de Patrimoniumdocumentatie]2 geeft aan de verzoeker een van de uittreksels
 terug, waarop [2 zij]2 de verklaring aanbrengt dat de inschrijving of de vermelding gedaan is.
-----------
+
 (1)<W 2013-12-21/26, art. 67, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 21, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
@@ -24597,7 +24597,7 @@ het eist, bevestigd door een notaris, die eveneens zijn handtekening onder de ve
 woonplaats buiten België verplaatst, doet hij of doen zijn vertegenwoordigers woonstkeuze in België. Het tweede
 en het derde lid zijn van toepassing. Bij gebrek van woonstkeuze worden de betekeningen en kennisgevingen
 gedaan aan de laatste in het register vermelde zetel of woonplaats in België.]2
-----------
+
 (1)<W 2018-07-11/07, art. 22, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2019-04-28/01, art. 48, 063; Inwerkingtreding : 16-05-2019>
 
@@ -24610,7 +24610,7 @@ De naam, de voornamen, de hoedanigheid of de nauwkeurige aanwijzing van de schul
 schuldenaar, hun [1 zetel of woonplaats]1, de aard van de te bewaren rechten en het bedrag van hun bepaalde
 of eventuele waarde; ten slotte de speciale aanduiding van de aard en van de ligging van elk van de onroerende
 goederen.
-----------
+
 (1)<W 2019-04-28/01, art. 49, 063; Inwerkingtreding : 16-05-2019>
 
 
@@ -24645,7 +24645,7 @@ Met uitzondering van de inschrijvingen genomen ten voordele van minderjarigen, w
 zonder kanttekening betreffende de oorzaak van verval door de [1 Algemene Administratie van de
 Patrimoniumdocumentatie]1 van ambtswege vernieuwd in de loop van het dertigste jaar te rekenen van de dag
 der inschrijving.
-----------
+
 (1)<W 2018-07-11/07, art. 23, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -24663,7 +24663,7 @@ tenzij het tegendeel bedongen is; zij worden door de inschrijver voorgeschoten b
 hypotheken; voor de inschrijving hiervan heeft de [1 Algemene Administratie van de Patrimoniumdocumentatie
 haar]1 verhaal op de schuldenaar.
 De kosten van de overschrijving komen ten laste van de verkrijger.
-----------
+
 (1)<W 2018-07-11/07, art. 24, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -24685,7 +24685,7 @@ van artikel 1653 van het Gerechtelijk Wetboek, geldt hetzelfde voor de ambtshalv
 overeenstemming met artikel 35.]1
 De overnemer van een hypothecaire schuldvordering kan geen doorhaling of vermindering toestaan, tenzij de
 overdracht voortvloeit uit akten als vermeld in artikel 2.
-----------
+
 (1)<W 2014-04-25/23, art. 139, 046; Inwerkingtreding : 24-05-2014>
 
 
@@ -24698,7 +24698,7 @@ vonnis. <W 2007-04-25/38, art. 3, 032; Inwerkingtreding : 18-05-2007>
 Een woordelijk uittreksel uit de authentieke akte is voldoende, wanneer de notaris die het heeft afgegeven,
 daarin verklaart dat de akte noch voorwaarde, noch voorbehoud bevat.
 [1 ...]1
-----------
+
 (1)<W 2013-12-21/26, art. 68, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 25, 060; Inwerkingtreding : 30-07-2018>
 
@@ -24868,7 +24868,7 @@ overgedragen onder enige andere titel dan die van verkoop;
 3° Een tabel in drie kolommen, waarvan de eerste bevat de dagtekening van de hypotheken en die van de
 inschrijvingen, alsook de opgave van het boekdeel en het nummer van die inschrijvingen; de tweede, de naam
 van de schuldeisers; en de derde, het bedrag van de ingeschreven schuldvorderingen.
-----------
+
 (1)<W 2019-04-28/01, art. 50, 063; Inwerkingtreding : 16-05-2019>
 
 
@@ -24936,7 +24936,7 @@ volmacht te geven. Zij moeten in voorkomend geval ook ondertekend worden door de
 de prijs en van de lasten, ofwel, wanneer hij een gelijk bedrag in consignatie gegeven heeft, dat hij afschrift
 betekent van het bewijs van consignatie.
 Alles op straffe van nietigheid.
-----------
+
 (1)<W 2019-04-28/01, art. 51, 063; Inwerkingtreding : 16-05-2019>
 
 
@@ -24959,7 +24959,7 @@ schuldvorderingen waarvan hij zich niet zou willen of kunnen bevrijden.
 
 (2187). In geval van herverkoop ten gevolge van hoger bod, geschiedt die herverkoop met
 inachtneming van de vormen die door het [1 Gerechtelijk Wetboek]1 zijn bepaald.
-----------
+
 (1)<W 2014-05-05/09, art. 9, 048; Inwerkingtreding : 18-07-2014>
 
 
@@ -24970,7 +24970,7 @@ bovendien de verkrijger of de begiftigde; die het bezit verloren heeft, te vergo
 kosten van zijn contract, voor die van de overschrijving op de registers van de [1 hypothecaire
 openbaarmaking]1, voor die van de kennisgeving en voor die welke door hem zijn gemaakt om de herverkoop te
 bekomen.
-----------
+
 (1)<W 2018-07-11/07, art. 26, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -25013,7 +25013,7 @@ hem verkregen goederen of door de splitsing van bedrijven.
 
 
 ##### HOOFDSTUK IX. _ Openbaarheid van de registers en verantwoordelijkheid [1 ...]1.
-----------
+
 (1)<W 2015-12-18/12, art. 88, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
 
@@ -25025,7 +25025,7 @@ van artikel 135, wordt de voorrang bepaald naar de dagtekening van die titels. V
 dragen, wordt de voorrang bepaald naar het volgnummer waaronder de aanbieding van de titels vermeld wordt
 in het voormelde register.]1
 Het eerste lid is niet van toepassing op de schuldeisers bedoeld in artikel 81, tweede lid.
-----------
+
 (1)<W 2013-12-21/26, art. 69, 044; Inwerkingtreding : 01-04-2014>
 
 
@@ -25038,7 +25038,7 @@ de overschrijving vordert, worden aangetekend onder een volgnummer en naarmate z
 2° een register waarin de overschrijvingen worden opgenomen;
 3° een register waarin de inschrijvingen van de voorrechten en hypotheken en de doorhalingen of
 verminderingen worden opgenomen.]1
-----------
+
 (1)<W 2013-12-21/26, art. 70, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 27, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25050,7 +25050,7 @@ Patrimoniumdocumentatie houdt]2 bovendien een register (...); daarin [2 vermeldt
 de [1 aanbieding]1 van de akten geschiedt, onder de namen van ieder bezwaarde eigenaar, en in een voor hem
 bestemd vak, de inschrijvingen, doorhalingen en andere akten die hem aangaan. Zij [2 wijst]2 ook de registers
 aan waarin elke akte is opgenomen, en het nummer waaronder zij is ingeschreven. <RB 26-06-1947, art. 81>
-----------
+
 (1)<W 2013-12-21/26, art. 71, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 28, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25066,7 +25066,7 @@ De uitgiften van de in artikel 1 bedoelde akten of vonnissen, bevattend of met t
 van de vervulling van de overschrijving, worden door de [2 Algemene Administratie van de
 Patrimoniumdocumentatie]2 binnen de maand na de in artikel 135, 1°, bepaalde dagtekening van overschrijving
 teruggestuurd aan de verzoeker.]1
-----------
+
 (1)<W 2013-12-21/26, art. 72, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 29, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25082,7 +25082,7 @@ overschrijvingen, ofwel getuigschriften waarbij wordt vastgesteld dat er geen be
 (Ongeacht de dagtekening van de akte en van de overschrijving ervan, [3 is zij gehouden]3 de akte bedoeld in
 artikel [4 3.85]4, § 1, van het Burgerlijk Wetboek, en de wijzigingen ervan, in het getuigschrift te vermelden.) <W
 1994-06-30/34, art. 6, 011; Inwerkingtreding : 01-08-1995>
-----------
+
 (1)<W 2018-07-11/07, art. 30, 060; Inwerkingtreding : 30-07-2018>
 (2)<W 2018-07-11/07, art. 31, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2018-07-11/07, art. 32, 060; Inwerkingtreding : 30-07-2018>
@@ -25098,7 +25098,7 @@ gevorderd.
 Er ontstaat eveneens een recht op schadevergoeding bij het niet vermelden, in de getuigschriften, van een of
 meer van de bestaande overschrijvingen of inschrijvingen, tenzij de vergissing voortkomt uit de ontoereikendheid
 van aanduidingen in de aanvraag tot het bekomen van het getuigschrift [3 ...]3.]1
-----------
+
 (1)<W 2015-12-18/12, art. 89, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 (2)<W 2018-07-11/07, art. 33, 060; Inwerkingtreding : 30-07-2018>
 (3)<W 2021-02-07/01, art. 33, 067; Inwerkingtreding : 01-03-2021>
@@ -25113,7 +25113,7 @@ aanvraag van het getuigschrift duidelijk de schuldenaar aanwijst ten laste van w
 Deze bepaling doet echter geen afbreuk aan het recht van de niet vermelde schuldeisers om te bekwamer tijd
 de veiling te vorderen en om zich te doen plaatsen in de rang die hun toekomt, zolang de prijs door de verkrijger
 niet is bers geopende rangregeling niet is gesloten.
-----------
+
 (1)<W 2018-07-11/07, art. 34, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -25123,7 +25123,7 @@ niet is bers geopende rangregeling niet is gesloten.
 worden geweigerd of vertraagd,]1, op straffe van schadevergoeding aan de partijen; te dien einde worden, op
 aanvraag van de verzoekers, dadelijk processen-verbaal van de weigeringen of vertragingen opgemaakt, hetzij
 door een vrederechter, hetzij door een (gerechtsdeurwaarder) of een notaris. <W 05-07-1963, art. 48, § 4>
-----------
+
 (1)<W 2015-12-18/12, art. 90, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
 
@@ -25134,7 +25134,7 @@ vermelde, worden (...) genummerd en geparafeerd op elk blad, met vermelding van 
 van de rechters van de rechtbank in wier gebied het kantoor gevestigd is.) <KB 14-07-1933, enig art.> <RB 26-
 06-1947, art. 81>
 Het register van de neergelegde titels wordt dagelijks afgesloten, zoals de registratieregisters.
-----------
+
 (1)<W 2018-07-11/07, art. 35, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -25142,7 +25142,7 @@ Het register van de neergelegde titels wordt dagelijks afgesloten, zoals de regi
 
 (2202). De [2 Algemene Administratie van de Patrimoniumdocumentatie is]2 zijn gehouden zich in de
 uitoefening van hun ambt naar alle bepalingen van dit hoofdstuk te gedragen [1 ...]1.
-----------
+
 (1)<W 2015-12-18/12, art. 91, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 (2)<W 2018-07-11/07, art. 36, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25151,7 +25151,7 @@ uitoefening van hun ambt naar alle bepalingen van dit hoofdstuk te gedragen [1 .
 
 (2203). De vermeldingen van neerleggingen, de inschrijvingen en de overschrijvingen worden achter
 elkaar in de registers gedaan, zonder enig wit vak of enige tussenregel [1 ...]1.
-----------
+
 (1)<W 2015-12-18/12, art. 92, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 
 
@@ -25161,7 +25161,7 @@ De [2 Algemene Administratie van de Patrimoniumdocumentatie kan de vergissingen 
 hebben begaan [1 , herstellen zonder dat van de belanghebbende partijen een retributie wordt gevorderd,]1 door
 in zijn registers een overschrijving van de akten en borderellen te doen, maar alleen op de lopende dag, en
 voorafgegaan door een nota waarin de eerste overschrijving vermeld wordt.
-----------
+
 (1)<W 2015-12-18/12, art. 93, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 (2)<W 2018-07-11/07, art. 37, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25184,7 +25184,7 @@ voor zover het werkelijke tijdstip van aanbieding kan worden vastgesteld, bepaal
 voor de neerlegging van deze documenten;]1
 2° de akten en vonnissen waarbij een gehele of gedeeltelijke opheffing wordt verleend of bevolen en die worden
 aangeboden met het oog op doorhaling of vermindering.
-----------
+
 (1)<W 2013-12-21/26, art. 73, 044; Inwerkingtreding : 01-04-2014>
 (2)<W 2018-07-11/07, art. 38, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25194,7 +25194,7 @@ aangeboden met het oog op doorhaling of vermindering.
 <Ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Van de inschrijvingen in
 het register van de neergelegde titels wordt onverwijld, zo niet na afsluiting van het register zonder verplaatsing
 een kopie gemaakt door de [1 Algemene Administratie van de Patrimoniumdocumentatie]1.
-----------
+
 (1)<W 2018-07-11/07, art. 39, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -25206,7 +25206,7 @@ ambtenaren maken een echt verklaarde kopie van iedere akte die in brevet of orig
 het oog op doorhaling, vermindering of kantmelding.
 De kopie wordt overhandigd [1 ...]1 terzelfder tijd als de akte. Ze heeft dezelfde bewijskracht als deze akte in
 geval van verlies of vernieling van deze laatste.
-----------
+
 (1)<W 2018-07-11/07, art. 40, 060; Inwerkingtreding : 30-07-2018>
 
 
@@ -25255,7 +25255,7 @@ notaris, door de ambtenaar of door de optredende overheid, onderaan de [1 uitgif
 voorgeschreven bij dit artikel.
 § 4. (...) <W 2007-03-01/37, art. 2, 031; Inwerkingtreding : 24-03-2007>
 § 5. De Koning kan de in dit artikel genoemde identificatieregels aanvullen.
-----------
+
 (1)<W 2013-12-21/26, art. 39, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 41, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25272,7 +25272,7 @@ ondernemingsloketten en houdende diverse bepalingen,]1 indien deze vennootschap,
 rechtspersoon (ingeschreven is in de Kruispuntbank van Ondernemingen). <L 2007-03-01/37, art. 3, 031;
 Inwerkingtreding : 24-03-2007>
 De Koning kan de in dit artikel genoemde identificatieregels aanvullen.
-----------
+
 (1)<W 2013-12-21/26, art. 40, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 42, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25291,7 +25291,7 @@ basisakte en van de overgeschreven akten die de basisakte hebben gewijzigd.
 In de akte of het stuk waarvan de openbaarmaking vereist is, wordt de eigendomstitel van de desbetreffende
 onroerende goederen vermeld en de laatst overgeschreven titel indien hij minder dan dertig jaar oud is.
 De Koning kan de in dit artikel genoemde identificatieregels aanvullen.
-----------
+
 (1)<W 2020-02-04/16, art. 13, 068; Inwerkingtreding : 01-09-2021>
 
 
@@ -25305,7 +25305,7 @@ Patrimoniumdocumentatie gebruiken, in voorkomend geval, het identificatienummer 
 natuurlijke personen uit hoofde van wie de inlichtingen worden gevraagd, als zoekcriterium, voor zover zij
 worden beoogd overeenkomstig artikel 5, § 1 van de wet van 8 augustus 1983 tot regeling van een Rijksregister
 van de natuurlijke personen.]1
-----------
+
 (1)<W 2019-05-05/19, art. 132, 064; Inwerkingtreding : 29-06-2019>
 
 
@@ -25316,7 +25316,7 @@ Administratie van de Patrimoniumdocumentatie]2 mag weigeren het geheel van de fo
 openbaarmaking gevraagd is te vervullen of het gevraagde getuigschrift af te geven indien niet is voldaan aan het
 bepaalde in de artikelen 139 tot 142 [1 of aan de door de Koning, krachtens artikel 144, 1° en 2°, vastgestelde
 vereisten]1 .
-----------
+
 (1)<W 2013-12-21/26, art. 74, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 43, 060; Inwerkingtreding : 30-07-2018>
 
@@ -25353,13 +25353,13 @@ de Koning kan bepalen dat de door Hem aangewezen kopieën, uittreksels of getuig
 gedematerialiseerde wijze kunnen of moeten worden afgeleverd, alsmede de modaliteiten van hun aflevering;
 4° het houden van de in de artikelen 124 en 125 bedoelde registers regelen en de materiële vormen ervan
 bepalen.]1
-----------
+
 (1)<W 2013-12-21/26, art. 75, 044; Inwerkingtreding : 10-01-2014>
 (2)<W 2018-07-11/07, art. 44, 060; Inwerkingtreding : 30-07-2018>
 
 
 ##### Hoofdstuk XIII.[1 De organisatie van de hypotheekbewaring]1
-----------
+
 (1)<Ingevoegd bij W 2015-12-18/12, art. 94, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
 1°)>
 
@@ -25369,7 +25369,7 @@ bepalen.]1
 [1 De openbare dienst van de [2 hypothecaire openbaarmaking van akten en stukken]2 wordt
 verzekerd door [2 de Algemene Administratie van de Patrimoniumdocumentatie van de Federale Overheidsdienst
 Financiën]2.]1
-----------
+
 (1)<Ingevoegd bij W 2015-12-18/12, art. 95, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
 1°)>
 (2)<W 2018-07-11/07, art. 45, 060; Inwerkingtreding : 30-07-2018>
@@ -25380,7 +25380,7 @@ Financiën]2.]1
 [1 Voor de uitvoering van de hypothecaire formaliteiten en voor de aflevering van de afschriften en
 getuigschriften is een retributie verschuldigd aan de Staat.
 De Koning bepaalt het tarief van deze retributies en de nadere regels inzake toepassing ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2015-12-18/12, art. 96, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35,
 1°)>
 
@@ -25415,7 +25415,7 @@ commerciële samenwerkingsovereenkomst zoals bedoeld in artikel I.11, 2°, van h
 recht van 28 februari 2013.
 § 3. Elk beding dat uitsluitend betrekking heeft op de lokalen die voor de exploitatie van een bepaald merkteken
 worden gehuurd, wordt als ongeschreven beschouwd.]1
-----------
+
 (1)<DWG 2018-07-17/04, art. 23, 007; Inwerkingtreding : 18-10-2018>
 
 
@@ -25451,7 +25451,7 @@ van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 d
 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
-----------
+
 (1)<ORD 2019-04-25/12, art. 18, 008; Inwerkingtreding : 19-05-2019>
 
 
@@ -25469,7 +25469,7 @@ van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 d
 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
-----------
+
 (1)<DWG 2018-03-15/12, art. 12, 006; Inwerkingtreding : 01-05-2018>
 
 
@@ -25487,7 +25487,7 @@ van de bewijsmiddelen die hij zal mogen toelaten, de bepalingen van artikel 36 d
 kunnen toepassen); <W 22-12-1951, art. 1>
 5° (Op de huur van onroerende goederen, ten algemenen nutte onteigend of verkregen, die wordt toegestaan
 door het openbaar bestuur of door de instelling van openbaar nut.) <W 22-12-1951, art. 2>
-----------
+
 (1)<DVR 2016-06-17/22, art. 19, 005; Inwerkingtreding : 01-09-2016>
 
 § 2. Duur van de handelshuur.
@@ -25530,7 +25530,7 @@ opgaande lijn, door zijn echtgenoot, door diens afstammelingen, bloedverwanten i
 aangenomen kinderen of door een personenvennootschap waarvan de werkende vennoten of de vennoten die
 ten minste drie vierden van het kapitaal bezitten, in dezelfde betrekking van bloedverwantschap,
 aanverwantschap of aanneming staan tot de verhuurder of tot zijn echtgenoot. <W 29-06-1955, art. 1>
-----------
+
 (1)<DWG 2018-03-15/12, art. 13, 006; Inwerkingtreding : 07-04-2018>
 
 
@@ -25724,7 +25724,7 @@ partijen dat blijkt uit [1 een ter registratie aangeboden schriftelijk document]
 hernieuwingen.) <W 27-03-1970, art. 1>
 Is evenwel de verhuurder of een der verhuurders minderjarig op het ogenblik van de hernieuwing van de huur,
 dan kan de duur daarvan beperkt worden tot de tijd die nog moet lopen tot aan zijn meerderjarigheid.
-----------
+
 (1)<DWG 2018-03-15/12, art. 14, 006; Inwerkingtreding : 07-04-2018>
 
 
@@ -25805,7 +25805,7 @@ art. 21, 002; Inwerkingtreding : 01-06-2003> <L 2007-05-09/44, art. 36, 13°, 00
 IV. Buiten de hierboven bedoelde gevallen kan de verhuurder de hernieuwing weigeren mits hij aan de huurder
 een vergoeding wegens uitzetting uitkeert, gelijk aan drie jaar huur, eventueel verhoogd met een bedrag,
 toereikend om de veroorzaakte schade geheel te vergoeden.
-----------
+
 (1)<W 2013-03-17/14, art. 147, 004; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 
@@ -26095,7 +26095,7 @@ investeringen die noodzakelijk zouden worden;
 van het Wetboek van vennootschappen en verenigingen, waarop de bepalingen van deze afdeling normaal van
 toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 jaar;]2
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
-----------
+
 (1)<DWG 2019-05-02/90, art. 1,1°, 011; Inwerkingtreding : 01-01-2020>
 (2)<DWG 2019-05-02/90, art. 1,2°, 011; Inwerkingtreding : 15-07-2019>
 
@@ -26118,7 +26118,7 @@ investeringen die noodzakelijk zouden worden;
 van het Wetboek van Vennootschappen en Verenigingen waarop de bepalingen van deze afdeling normaal van
 toepassing zouden zijn, maar die werd opgericht voor een duur van ten minste 27 jaar;]1
 6° op de overeenkomsten met betrekking tot de fruitopbrengst van de hoogstamboomgaarden.
-----------
+
 (1)<DVR 2019-04-26/31, art. 27, 010; Inwerkingtreding : 01-01-2020>
 
 
@@ -26141,7 +26141,7 @@ i) in artikel 54, de datum waarop de overdrachtsovereenkomst van het goed of van
 wordt;
 2° de bevoorrechte overdracht: de overdracht van een pachtovereenkomst verricht met inachtneming van
 artikel 35 en die resulteert in een vernieuwing van de pacht.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 2, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26154,7 +26154,7 @@ aanneemt:
 3° de zendingen via privé-bedrijven tegen ontvangstbewijs;
 4° de afgifte van een akte tegen ontvangstbewijs.
 De toezending moet uiterlijk op de vervaldag van de termijn geschieden.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 3, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26230,7 +26230,7 @@ Indien er een naar de vorm andersluidend geschrift is, kan degene die een landei
 leveren van het bestaan van een pacht en van de pachtvoorwaarden door alle middelen met inbegrip van
 getuigen en vermoedens.
 § 3. De pachten bedoeld in artikel 8, §§ 2 en 3, worden bij een authentieke akte vastgesteld.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 4, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26257,7 +26257,7 @@ afwijking van lid 2, van jaar tot jaar tussen dezelfde pachtovereenkomstsluitend
 tijdens deze stilzwijgende verlenging geen enkele overdracht of bevoorrechte overdracht voordoen. In afwijking
 van artikel 43 wordt de pacht op dag van overlijden van de pachter of op een latere datum opgezegd, om de
 volledige oogst van de wassende vruchten door zijn erfgenamen of rechthebbenden mogelijk te maken.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 5, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26343,7 +26343,7 @@ geologische opslag van koolstofdioxide of de houder van een vergunning voor het 
 aardwarmte overeenkomstig artikel 32, 61 of 63/24 van het decreet van 8 mei 2009 betreffende de diepe
 ondergrond]3 mag bezetten. De genoemde vergunninghouder treedt met het oog op de beëindiging van de
 lopende pachtovereenkomst in de rechten en de plichten van de verpachter.]1
-----------
+
 (1)<DVR 2009-05-08/15, art. 66, 006; Inwerkingtreding : 06-09-2011>
 (3)<DVR 2016-03-25/25, art. 39, 008; Inwerkingtreding : 01-01-2017 (BVR 2016-10-28/24)>
 
@@ -26401,7 +26401,7 @@ De opzegging gedaan aan de pachter:
 2° geldt twee jaar te rekenen van de kennisgeving ervan. Als de verkoop van het perceel niet binnen die termijn
 is verwezenlijkt, vervalt de opzegging.
 Het voorkooprecht van de pachter bepaald in artikel 47 is van toepassing.]3
-----------
+
 (2)<DWG 2013-07-10/39, art. 46, 007; Inwerkingtreding : 13-09-2013>
 (3)<DWG 2019-05-02/90, art. 6, 011; Inwerkingtreding : 01-01-2020>
 (4)<DWG 2024-03-14/32, art. 3, 014; Inwerkingtreding : 01-07-2024>
@@ -26484,7 +26484,7 @@ brengen of de normale betrekkingen van verpachter tot pachter onmogelijk kunnen 
 publiekrechtelijke rechtspersoon;
 10° de aanwending van percelen als bouwgronden of als gronden voor industriële doeleinden bestemd, mits zij
 wegens hun ligging op het ogenblik van de opzegging als zodanig moeten worden beschouwd.
-----------
+
 (1)<DWG 2019-05-02/90, art. 7, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26618,7 +26618,7 @@ Wanneer de pachter na de periode, bedoeld in lid 1, in onderling overleg van de 
 op het pachtgoed wordt gelaten, wordt de pacht, jaar per paar, tussen bedoelde partijen verdergezet. In
 afwijking van artikel 43 wordt de pacht opgezegd op de dag van het overlijden van de pachter of op een latere
 datum zodat de groeiende oogst volledig weggehaald kan worden door zijn erfgenamen of rechthebbenden.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 8, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26679,7 +26679,7 @@ van overeenkomstige toepassing op deze opzegging. In geval van toepassing [1 van
 gemeenten en de openbare inrichtingen ervan vrijgesteld om persoonlijk het pachtgoed geheel of gedeeltelijk uit
 te baten om de pacht te beëindigen. De pacht wordt beëindigd middels een opzegging, gegeven overeenkomstig
 artikel 11.4]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 9, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26740,7 +26740,7 @@ De rechtspersonen bedoeld in dit artikel moeten opgericht zijn [2 in de vorm van
 is als landbouwbedrijf in de zin van het Wetboek van vennootschappen en verenigingen]2. Daarenboven moeten
 degenen die als bestuurder of zaakvoerder de leiding hebben van de activiteit die in de vennootschap wordt
 gevoerd, daadwerkelijke arbeid verrichten op het landbouwbedrijf.
-----------
+
 (1)<DWG 2019-05-02/90, art. 10,1°, 011; Inwerkingtreding : 01-01-2020>
 (2)<DWG 2019-05-02/90, art. 10,2°, 011; Inwerkingtreding : 15-07-2019>
 
@@ -26770,7 +26770,7 @@ landbouwcursus of van onderwijs aan een land- of tuinbouwschool;
 8:2 van het Wetboek van Vennootschappen en Verenigingen]1. Daarenboven moeten degenen die als
 bestuurder of zaakvoerder de leiding hebben van de activiteit die in de vennootschap wordt gevoerd,
 daadwerkelijke arbeid verrichten op het landbouwbedrijf.
-----------
+
 (1)<DVR 2019-04-26/31, art. 28, 010; Inwerkingtreding : 01-01-2020>
 
 
@@ -26805,7 +26805,7 @@ Regering]1.
 Geen persoonlijke exploitatie is de verkoop van gras of van te velde staande oogst ingeval de genothebbers van
 de terugneming gedurende negen jaar na het vertrek van de pachter niet voor het gewone teelt- en
 onderhoudswerk zorgen, noch het in bewaring nemen van dieren gedurende dezelfde periode van negen jaar.
-----------
+
 (1)<DWG 2019-05-02/90, art. 11, 011; Inwerkingtreding : 21-05-2021>
 
 
@@ -26820,7 +26820,7 @@ als de verpachter-inbrenger, diens echtgenoot (-genote), zijn wettelijk samenwon
 aangenomen kinderen of die van zijn of haar echtgenoot (-genote) of van zijn of haar wettelijk samenwonende
 als naar gelang het geval het statuut bezitten van vennoot-zaakvoerder, commanditaire vennoot of bestuurder in
 de vennootschap.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 12, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26856,7 +26856,7 @@ pacht wordt verlengd om de pachter de tijd te geven de wassende vruchten te oogs
 opzeggingstermijn van ten minste een jaar en ten hoogste vier jaar.
 [1 5. In het geval van een stilzwijgende verlenging jaar per jaar wordt de opzegging aan de pachter gegeven met
 een opzegging van zes maanden om de pachter zijn wassende vruchten te laten weghalen.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 13, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -26878,7 +26878,7 @@ aangenomen kinderen of aan die van zijn echtgenoot [1 of zijn wettelijk samenwon
 die loopt op het ogenblik van het verlijden van de authentieke akte. In de daaropvolgende periode kan hij slechts
 opzegging doen met een opzeggingstermijn van ten minste zes jaar. De artikelen 7, 1°, en 8 zijn van
 overeenkomstige toepassing op deze opzegging.
-----------
+
 (1)<DWG 2019-05-02/90, art. 14, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27035,7 +27035,7 @@ de opzegging door de pachter, noch over de identiteit van de persoon in wiens vo
 verricht.
 § 9. De opzegging die door de rechter geldig is verklaard of waarin de pachter schriftelijk heeft berust, wordt
 als niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 15, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27105,7 +27105,7 @@ de opzegging door de pachter, noch over de identiteit van de persoon in wiens vo
 verricht.
 9. De opzegging die door de rechter geldig is verklaard of waarin de pachter schriftelijk heeft berust, wordt als
 niet bestaande beschouwd, indien de pachter in het bezit van het gepachte goed blijft en wordt gelaten.
-----------
+
 (1)<DVR 2017-06-30/08, art. 11, 009; Inwerkingtreding : 01-01-2017>
 
 
@@ -27197,7 +27197,7 @@ geraamd op grond van de rentabiliteit.
 4. De vordering kan slechts worden ingesteld gedurende zes maanden na verloop van elke driejarige periode.
 De beslissing waarbij de pachtprijs wordt herzien zal gelden voor de lopende driejarige periode, maar de vroegere
 pachtprijs kan voorlopig worden gevorderd tot de eindbeslissing.
-----------
+
 (1)<DWG 2019-05-02/90, art. 16, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27258,7 +27258,7 @@ ingediend. Het contract wordt gesloten zodra de toewijzingsbeslissing betekend i
 verpacht worden, krijgt de voormalige pachter een recht van voorrang tegen het wettelijke pachttarief, in
 voorkomend geval vermeerderd overeenkomstig het decreet van 20 oktober 2016 tot beperking van de
 pachtprijzen.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 17, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27301,7 +27301,7 @@ Indien deze voorschriften in de pachtovereenkomst niet in acht zijn genomen, pas
 van de partijen de zaak bij hem aanhanging maakt, de overeenkomst aan die voorschriften aan, waarbij hij de
 bedoelingen van de partijen zoveel mogelijk eerbiedigt. De beslissing van de rechter geldt slechts voor de
 pachtsommen die na het instellen van de vordering vervallen.
-----------
+
 (1)<DWG 2019-05-02/90, art. 18, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27419,7 +27419,7 @@ maanden opzegtijd, kan de verpachter dit overeenkomstig lid 7 bij de vrederechte
 Bij betwisting over de naleving van de bedingen binnen de zes maanden opzegtijd kunnen de verpachter of de
 pachter zich tegen het hernemen of het opzeggen van de pachtovereenkomst verzetten door zich, op straffe
 van nietigheid, uiterlijk drie maanden na afloop van de zes maanden opzegtijd tot de vrederechter te wenden.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 19, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27540,7 +27540,7 @@ De afstand van het recht tot wegruimen in het vorig artikel bepaald, of van de v
 kan slechts geschieden na de uitvoering van de werken en moet worden vastgesteld bij authentieke akte of bij
 verklaring voor de vrederechter.) <W 1988-11-07/43, art. 16, B, 002; Inwerkingtreding : 1988-12-16>
 
-----------
+
 (1)<DWG 2019-05-02/90, art. 20, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27596,7 +27596,7 @@ jaren in het geheel aan pacht betaald heeft voor de gezamenlijke goederen die hi
 had.
 Heeft zulk een aanplanting geleid tot een waardevermindering van het gepachte goed, dan heeft de verpachter
 recht op een vergoeding van de pachter, gelijk aan die waardevermindering.
-----------
+
 (1)<DWG 2019-05-02/90, art. 21, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27669,7 +27669,7 @@ daarvoor, binnen de drie maanden na kennisgeving ervan, op straffe van nietighei
 De ruil wordt door de vrederechter vernietigd indien hij acht dat de redenen van verzet wettig zijn.
 § 3. Bij overdracht of onderpacht zonder voorafgaandelijke schriftelijke toestemming kan de overeenkomst op
 verzoek van de verpachter worden ontbonden.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 22, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27678,7 +27678,7 @@ verzoek van de verpachter worden ontbonden.]1
 verpachter. Wanneer de verandering van verpachter het gevolg is van een overlijden, delen de erfgenamen of
 rechtverkrijgenden, afwijkend van artikel 30, § 2, drie maanden na dat overlijden, de verandering van verpachter
 mede.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 23, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27697,7 +27697,7 @@ afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot [1 , zijn w
 aangenomen kinderen.) <W 1988-11-07/43, art. 19, 002; Inwerkingtreding : 1988-12-16>
 [1 De pachter licht er, op straffe van nietigheid van de onderpacht, de verpachter uiterlijk binnen de drie
 maanden na de onderverpachting zoals bepaald in lid 1, over in.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 24, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27738,7 +27738,7 @@ De overnemer treedt in al de rechten en verplichtingen die uit de pacht voortvlo
 met hem hoofdelijk gehouden tot de verplichtingen die uit de pacht zijn ontstaan.
 [1 De pachter licht er, op straffe van nietigheid van de overdracht, de verpachter uiterlijk binnen de drie
 maanden na de overdracht zoals bepaald in lid 1, over in.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 25, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27760,7 +27760,7 @@ De verpachter heeft in dat geval evenwel de mogelijkheid te eisen dat de vorige 
 blijkt tot nakoming van de verplichtingen van de pacht samen met de andere pachters [1 , op voorwaarde dat
 van het verzoek daartoe kennis gegeven wordt binnen de zes maanden na de kennisgeving van de
 terugtrekking, op straffe van nietigheid]1.
-----------
+
 (1)<DWG 2019-05-02/90, art. 26, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27797,7 +27797,7 @@ Die pachtvernieuwing vindt enkel plaats als ofwel:
 studiegetuigschrift of een diploma in een landbouwrichting;
 3° de overnemer landbouwer is of is geweest tijdens minstens één jaar in de loop van de laatste vijf jaar.
 De Regering kan de studiegetuigschriften of de diploma's in een landbouwrichting bepalen.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 27, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27823,7 +27823,7 @@ De vrederechter oordeelt of de redenen van verzet ernstig en gegrond zijn, en me
 omstandigheden van de zaak blijkt dat de verpachter de als redenen van zijn verzet bekendgemaakte
 voornemens ten uitvoer zal brengen.
 [1 Wordt het verzet toegelaten, dan is de overdracht ongeldig.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 28, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27835,7 +27835,7 @@ Wanneer de vervreemding niet binnen die periode van negen maanden wordt uitgevoe
 opnieuw gebruik maken van de regeling bedoeld in lid 1 na verstrijken van een periode van drie jaar, behoudens
 overeenstemming onder de partijen, die ingaat na verstrijken van de bewarende periode van negen maanden
 bedoeld in lid 1.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 29, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27896,7 +27896,7 @@ Hiertoe moeten de pachtovernemer of zijn rechtverkrijgenden een nieuwe kennisgev
 doen binnen drie maanden na afloop van die termijn, op straffe van verval. Indien de pachtvernieuwing tot stand
 komt, gaat de nieuwe pachtperiode in op de verjaardag van de ingenottreding van de overnemer, volgend op
 bedoelde kennisgeving.
-----------
+
 (1)<DWG 2019-05-02/90, art. 30, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27934,7 +27934,7 @@ aangenomen kinderen achterlaat.]1
 Is aldus opzegging geoorloofd, dan moet op straffe van verval aan de erfgenamen of rechtverkrijgenden van
 de pachter kennis ervan worden gegeven binnen één jaar na het overlijden en de opzegging heeft eerst
 uitwerking twee jaar na de kennisgeving.
-----------
+
 (1)<DWG 2019-05-02/90, art. 31, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -27990,7 +27990,7 @@ overnemers zijn, ten minste één van hen, persoonlijk de exploitatie van het ov
 gedurende ten minste negen jaar, te rekenen van de dag waarop het vonnis, dat de vergoeding vaststelt,
 definitief is geworden, op straffe van schadevergoeding aan de overige erfgenamen of rechtverkrijgenden ten
 bedrage van 20 pct. van de hierboven bedoelde vergoeding.
-----------
+
 (1)<DWG 2019-05-02/90, art. 32, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28022,7 +28022,7 @@ behoudens geldig verklaard verzet van de verpachter, van rechtswege pachtvernieu
 Die pachtvernieuwing heeft dezelfde uitwerking als in het tweede lid van artikel 35 is bepaald; de verpachter kan
 hiertegen opkomen onder de voorwaarden gesteld in de artikelen 36 en 37, door de kennisgevers te dagvaarden
 voor de vrederechter.
-----------
+
 (1)<DWG 2019-05-02/90, art. 33, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28116,7 +28116,7 @@ Bij gebreke van ingaande plaatsbeschrijving wordt de pachter geacht het goed te 
 waarin het zich op het einde van het gebruik bevond. Dat vermoeden is onweerlegbaar voor wat betreft de
 elementen opgenomen in de minimuminhoud vastgesteld door de Regering. Voor het overige wordt het
 tegenbewijs toegelaten.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 34, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28152,7 +28152,7 @@ Bij gebreke van overeenstemming over het bedrag van die vergoeding moet de pacht
 gerechtelijke vaststelling ervan, vóór hij het goed verlaat, van de verpachter een provisionele vergoeding
 ontvangen, gelijk aan het bedrag van het aantal jaren pacht vóór het verstrijken van de pachtovereenkomst met
 dien verstande evenwel dat niet minder dan vier en niet meer dan acht jaren pacht in aanmerking kunnen komen.
-----------
+
 (1)<DVR 2009-05-08/15, art. 67, 006; Inwerkingtreding : 06-09-2011>
 
 
@@ -28174,7 +28174,7 @@ of voor zijn afstammelingen of aangenomen kinderen of voor die van zijn echtgeno
 samenwonende, of voor de echtgenoten en wettelijk samenwonenden van de voormelde afstammelingen of
 aangenomen kinderen, die daadwerkelijk aan de exploitatie van dat goed deelnemen, overeenkomstig de in deze
 afdeling bepaalde regels.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 35, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28281,7 +28281,7 @@ lichten over zijn beslissing om zich in de plaats te stellen van de laatste bied
 instrumenterend ambtenaar.
 Het uittreksel bevat de dag van de toewijzing, de prijs tegen welke de toewijzing gebeurde en de naam van de
 instrumenterend ambtenaar die de toewijzing ontving.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 36, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28334,7 +28334,7 @@ aangenomen kinderen.]1
 Bij overtreding van deze bepaling is hij aan de verkoper een schadevergoeding, gelijk aan 50 % van de
 verkoopprijs van de betrokken percelen, verschuldigd, tenzij hij vooraf op grond van ernstige redenen,
 machtiging van de vrederechter heeft verkregen.
-----------
+
 (1)<DWG 2019-05-02/90, art. 37, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28363,7 +28363,7 @@ rechtverkrijgenden die de laatste pacht hebben betaald of, bij gebreke van betal
 rechtverkrijgenden die hun woonplaats hebben in de zetel van het bedrijf van de overleden pachter.
 2. Indien het gepachte goed aan verscheidene personen in medeëigendom toebehoort, is de in artikel 48, 1,
 bedoelde kennisgeving alleen geldig indien alle medeëigenaars daartoe hun medewerking hebben verleend.
-----------
+
 (1)<DWG 2019-05-02/90, art. 38, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28481,7 +28481,7 @@ van voorkoop kan worden uitgeoefend. De rechter verleent deze machtiging slechts
 redenen heeft om de pachter te weren. Hij doet uitspraak na de partijen gehoord of behoorlijk opgeroepen te
 hebben. Om de ernst van de aangevoerde redenen te beoordelen, laat de rechter zich onder meer leiden door de
 bepalingen van artikel 7 betreffende de redenen van opzegging.
-----------
+
 (1)<DWG 2019-05-02/90, art. 39, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28521,7 +28521,7 @@ Inwerkingtreding : 1988-12-16>
 Bij overtreding van deze bepaling zal hij aan de verkoper een schadevergoeding gelijk aan 20 pct. van de
 verkoopprijs van de betrokken percelen verschuldigd zijn, tenzij hij vooraf, op grond van ernstige redenen,
 machtiging van de vrederechter heeft verkregen.
-----------
+
 (1)<DWG 2019-05-02/90, art. 40, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28542,7 +28542,7 @@ pachtovereenkomst te allen tijde beëindigen om de redenen en onder de voorwaard
 een opzegging van zes maanden betekend aan de pachter, op straffe van nietigheid, binnen de drie maanden
 volgend op de datum van verlijden van de authentieke akte tot vaststelling van de eigendomsovergang. Die
 termijn wordt verlengd om de pachter de tijd te geven de wassende vruchten te oogsten.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 41, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28573,7 +28573,7 @@ aangetekende brief.
 [1 Opzegging, verzet of kennisgeving bepaald in de artikelen 6, 8, § 4, 11, 12, 14, lid 1, 24, 30, 33, 34bis, 35,
 36, 36bis, 37, 38, 39, 40, 42, 44, 48, 49 en 55 moet, op straffe van niet bestaan betekend worden bij
 gerechtsdeurwaardersexploot of bij een zending.]1
-----------
+
 (1)<DWG 2019-05-02/90, art. 42, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28584,7 +28584,7 @@ vorm bepaald in artikel 57. Als de pachter niet binnen de twee maanden na deze v
 bedrijvig is en geen rust- of overlevingspensioen geniet of als hij niet, in voorkomend geval, een persoon bedoeld
 in artikel 34 aanduidt als de persoon die zijn exploitatie voort kan zetten, wordt hij geacht een rust- of
 overlevingspensioen te genieten.]1
-----------
+
 (1)<Ingevoegd bij DWG 2019-05-02/90, art. 43, 011; Inwerkingtreding : 01-01-2020>
 
 
@@ -28853,7 +28853,7 @@ Bemiddeling door een derde voor de verhuring van het onroerend goed.
 [1 Wordt voor niet geschreven gehouden, elk beding dat de kosten voor de bemiddeling door een derde voor
 de verhuring van het onroerend goed ten laste legt van de huurder, tenzij de huurder de opdrachtgever is van
 de bemiddelingsopdracht.]1
-----------
+
 (1)<Ingevoegd bij W 2009-06-18/11, art. 2, 006; Inwerkingtreding : 17-08-2009>
 
 
@@ -29063,7 +29063,7 @@ Doelstelling
 Het pandrecht verleent aan de pandhouder het recht om bij voorrang boven de andere schuldeisers te worden
 betaald uit de bezwaarde goederen.
 [1 Dit recht van voorrang geldt als een voorrecht zoals bedoeld in artikel 12 van de Hypotheekwet.]1
-----------
+
 (1)<W 2016-12-25/12, art. 2, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29096,7 +29096,7 @@ recht]1, dan dient voor de geldigheid van de overeenkomst een geschrift te worde
 het geval, voldoet aan het vereiste [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2.
 Het in het tweede lid bedoelde geschrift vermeldt, voor de toepassing van artikel 7, vierde lid, de waarde van het
 verpande goed of van de verpande goederen.
-----------
+
 (1)<W 2016-12-25/12, art. 3, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,1°, 005; Inwerkingtreding : 01-11-2020>
 
@@ -29137,7 +29137,7 @@ Enkel goederen die krachtens de wet vatbaar zijn voor overdracht kunnen in pand 
 De bepalingen van dit hoofdstuk zijn enkel van toepassing op pandrechten die intellectuele eigendomsrechten
 tot voorwerp hebben voor zover zij niet onverenigbaar zijn met andere bepalingen waarin dergelijke pandrechten
 specifiek worden geregeld.
-----------
+
 (1)<W 2016-12-25/12, art. 4, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29187,7 +29187,7 @@ schuldvordering en tot de bijhorigheden zoals de interest, het schadebeding en d
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch
 recht]1, dan mogen die bijhorigheden echter niet groter zijn dan 50 % [1 van de hoofdsom op het ogenblik van
 de verdeling of de toerekening]1.
-----------
+
 (1)<W 2016-12-25/12, art. 5, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29209,7 +29209,7 @@ algemene mede-rechtsopvolgers of mede-rechtsopvolgers onder algemene titel, die 
 Herverpanding
 De pandhouder is niet bevoegd tot het bezwaren van het goed [1 , tenzij de pandgever zijn toestemming
 geeft]1.
-----------
+
 (1)<W 2016-12-25/12, art. 6, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29231,7 +29231,7 @@ waarvan de schuldvorderingen gewaarborgd zijn, ontneemt geen gevolg aan de regis
 artikel 29, § 1, tweede lid]2.
 De rang van het pandrecht wordt bepaald volgens de chronologische volgorde van de registratie ervan.
 De Koning bepaalt de toepassingsmodaliteiten van dit artikel.
-----------
+
 (1)<W 2016-12-25/12, art. 7, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2018-06-18/03, art. 202, 003; Inwerkingtreding : 12-07-2018>
 
@@ -29263,7 +29263,7 @@ onmogelijk of economisch niet verantwoord, dan bezwaart het pandrecht het nieuw 
 indien dit goed [1 het hoofdgoed is in de zin van artikel 3.57 van het Burgerlijk Wetboek]1 of, desgevallend, indien
 dit goed de grootste waarde heeft. In dat geval heeft de derde op de pandhouder een vordering wegens
 verrijking zonder oorzaak.
-----------
+
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
 
@@ -29320,7 +29320,7 @@ pandgever vanaf het ogenblik van de overdracht.
 Het eerste lid is niet van toepassing indien de pandgever overeenkomstig artikel 21 gerechtigd was tot
 beschikking over de bezwaarde goederen, indien de pandhouder had ingestemd met de beschikking of indien de
 verkrijger zich kan beroepen op artikel [1 3.28 van het Burgerlijk Wetboek]1.
-----------
+
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
 
@@ -29330,7 +29330,7 @@ Derde-verkrijgers
 De registratie in het pandregister sluit de toepassing van artikel [1 3.28 van het Burgerlijk Wetboek]1 uit ten
 aanzien van rechtverkrijgers onder bijzondere titel van de pandgever die handelen in het raam van hun bedrijf of
 beroep.
-----------
+
 (1)<W 2020-02-04/16, art. 12, 006; Inwerkingtreding : 01-09-2021>
 
 
@@ -29354,7 +29354,7 @@ persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en 
 uitvoering van de bepalingen van die wet.
 [1 De artikelen 27, 28, 32, 33, 34, 35, 36 en 37 zijn van overeenkomstige toepassing op de registratie van het
 eigendomsvoorbehoud.]1
-----------
+
 (1)<W 2016-12-25/12, art. 8, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29365,7 +29365,7 @@ eigendomsvoorbehoud.]1
 van geregistreerde panden vereist de authenticatie van de gebruiker van het pandregister.]1
 De Koning bepaalt, na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer, de
 nadere regels inzake die [1 authenticatie]1.
-----------
+
 (1)<W 2016-12-25/12, art. 9, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29378,7 +29378,7 @@ door de Koning wordt bepaald.
 De raadpleging van het pandregister is kosteloos voor de pandgever en voor de categorieën van personen of
 instellingen die de Koning heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke
 levenssfeer.
-----------
+
 (1)<W 2016-12-25/12, art. 10, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29398,7 +29398,7 @@ bedoelde gegevens zoals die in het in artikel 69 bedoelde geschrift voorkomen, c
 Koning bepaalt na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
 De verkoper is aansprakelijk voor alle schade ten gevolge van de registratie van onjuiste gegevens.
 De verkoper brengt de koper schriftelijk op de hoogte van de registratie.]1
-----------
+
 (1)<W 2016-12-25/12, art. 11, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29436,7 +29436,7 @@ de gegevens opgesomd in § 1, 1°, a) of b), naargelang het geval;
 5° de aanwijzing van de onbetaalde koopprijs waarvoor registratie plaatsvindt;
 6° de verklaring van de verkoper of van diens lasthebber dat de verkoper aansprakelijk is voor alle schade ten
 gevolge van de registratie van onjuiste gegevens.]1
-----------
+
 (1)<W 2016-12-25/12, art. 12, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29468,7 +29468,7 @@ geraadpleegd :
 7° de verklaring van de verkoper of diens lasthebber dat de verkoper aansprakelijk is voor alle schade ten
 gevolge van de registratie van onjuiste gegevens;
 8° de datum van de registratie.]1
-----------
+
 (1)<W 2016-12-25/12, art. 13, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29480,7 +29480,7 @@ de geregistreerde gegevens te wijzigen, overeenkomstig de overeenkomst en de nad
 heeft bepaald na advies van de Commissie voor de bescherming van de persoonlijke levenssfeer.
 In geval van een wijziging, geeft het register zowel de oorspronkelijke [1 registratie]1 als de wijziging weer.
 De pandhouder brengt schriftelijk de pandgever op de hoogte van de wijziging van de registratie.
-----------
+
 (1)<W 2016-12-25/12, art. 14, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29490,7 +29490,7 @@ Onjuiste gegevens
 De pandgever is gerechtigd om van de pandhouder de verwijdering of de wijziging te vorderen van onjuiste
 gegevens.
 [1 ...]1
-----------
+
 (1)<W 2016-12-25/12, art. 15, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29498,7 +29498,7 @@ gegevens.
 
 [1 Toegang tot het register
 "Eenieder heeft toegang tot het pandregister volgens de nadere regels die de Koning bepaalt.]1
-----------
+
 (1)<W 2016-12-25/12, art. 16, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29516,7 +29516,7 @@ vermindering van het maximaal gewaarborgd bedrag en/of van de omvang van de in p
 De vernieuwing vermeldt het registratienummer van de te vernieuwen registratie.
 De weergave van een vernieuwde registratie vermeldt eveneens de datum van de oorspronkelijke registratie.]1
 De pandhouder brengt de pandgever schriftelijk op de hoogte van de [1 vernieuwing]1 van de registratie.
-----------
+
 (1)<W 2016-12-25/12, art. 17, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29539,7 +29539,7 @@ een deel van de goederen waarop het eigendomsvoorbehoud betrekking heeft en waar
 genomen.
 In geval van een gedeeltelijke verwijdering geeft het register bij raadpleging zowel de oorspronkelijke registratie
 als deze houdende de gedeeltelijke verwijdering weer.]1
-----------
+
 (1)<W 2016-12-25/12, art. 18, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29553,7 +29553,7 @@ de overdrager.
 De registratie van de overdracht vermeldt de identiteit van de overnemer. [1 De identiteit van de overnemer
 wordt eveneens bij raadpleging weergegeven.]1
 De registratie van de overdracht dient te gebeuren door de overdrager.
-----------
+
 (1)<W 2016-12-25/12, art. 19, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29566,7 +29566,7 @@ die de Koning heeft bepaald na advies van de Commissie voor de bescherming van d
 bedoeld in artikel 3 of hun lasthebber.
 De raadpleging van het pandregister met betrekking tot een geregistreerd pandrecht vermeldt in voorkomend
 geval een geregistreerde rangafstand.]1
-----------
+
 (1)<W 2016-12-25/12, art. 20, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29587,7 +29587,7 @@ De pandovereenkomst kan worden bewezen door alle rechtsmiddelen.
 Is de pandgever een consument [1 in de zin van artikel I.1, 2°, van boek I van het Wetboek van economisch
 recht]1, dan dient als bewijs van de overeenkomst een geschrift te worden opgesteld dat naargelang het geval
 voldoet aan het vereiste [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2.
-----------
+
 (1)<W 2016-12-25/12, art. 21, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,2°, 005; Inwerkingtreding : 01-11-2020>
 
@@ -29654,7 +29654,7 @@ De pandhouder is niet gerechtigd om op te treden als koper bij een onderhandse v
 Elk beding waarbij de pandhouder zou worden gemachtigd zich het pand toe te eigenen of erover te beschikken
 zonder inachtneming van de hiervoor bepaalde vormen, is nietig.
 De artikelen 50 en 55 zijn van toepassing.
-----------
+
 (1)<W 2016-12-25/12, art. 22, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29677,7 +29677,7 @@ de wijze van uitwinning.
 uitwinning niet wordt opgeschort overeenkomstig artikel 54 is de pandhouder gerechtigd een
 gerechtsdeurwaarder te gelasten om bezit te nemen van de verpande goederen en is de pandgever gehouden
 tot afgifte van de verpande goederen.]2
-----------
+
 (1)<W 2016-12-25/12, art. 23, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-05-02/25, art. 162, 004; Inwerkingtreding : 31-05-2019>
 
@@ -29696,7 +29696,7 @@ van de schuldenaar of de pandgever om de goederen te bevrijden door de betaling 
 schuldvordering.
 [1 Tegelijk met de kennisgeving aan de schuldenaar en de derde-pandgever kan de pandhouder, zonder
 toelating van de rechter, via een gerechtsdeurwaarder beslag laten leggen op de verpande goederen.]1
-----------
+
 (1)<W 2019-05-02/25, art. 163, 004; Inwerkingtreding : 31-05-2019>
 
 
@@ -29756,7 +29756,7 @@ Hij doet bij voorraad uitspraak en zijn beschikking heeft dan ook geen gezag van
 De beschikking is niet vatbaar voor verzet of hoger beroep.
 Zij wordt onmiddellijk bij gerechtsbrief ter kennis gebracht aan de partijen. Deze kennisgeving doet de termijn
 lopen voor het cassatieberoep.
-----------
+
 (1)<W 2019-05-02/25, art. 164, 004; Inwerkingtreding : 31-05-2019>
 
 
@@ -29782,7 +29782,7 @@ De kennisgeving geschiedt bij een aangetekende zending.
 uiterlijk in binnen een termijn van drie maanden vanaf het einde van de uitwinning.]1
 De zaak wordt ingeleid bij dagvaarding of bij verzoekschrift op tegenspraak overeenkomstig artikel 1034bis en
 volgende van het Gerechtelijk Wetboek.
-----------
+
 (1)<W 2016-12-25/12, art. 24, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29800,7 +29800,7 @@ Pandhouders die op dezelfde dag hebben geregistreerd of het bezit hebben verkreg
 Indien de verpande goederen onroerend zijn geworden, wordt de rangorde tussen de pandhouder en een
 hypothecaire of een op de onroerende goederen bevoorrechte schuldeiser bepaald volgens de datum van de
 registratie en die van de inschrijving van de hypotheek of het voorrecht.
-----------
+
 (1)<W 2016-12-25/12, art. 25, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29829,7 +29829,7 @@ gewaarborgde schuldvordering en dient hij het saldo aan de pandgever te restitue
 
 
 **Afdeling 7 [1 - Pandrecht op schuldvorderingen]1**
-----------
+
 (1)<W 2016-12-25/12, art. 26, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29842,7 +29842,7 @@ van de verpande schuldvordering.
 De verpanding kan slechts aan de schuldenaar van de in pand gegeven schuldvordering worden
 tegengeworpen nadat zij hem ter kennis werd gebracht of door hem is erkend.
 [1 De artikelen 3.28, § 2, 5.179, derde lid en 5 181, tweede en derde lid]1 zijn van toepassing.
-----------
+
 (1)<W 2022-04-28/25, art. 27, 007; Inwerkingtreding : 01-01-2023>
 
 
@@ -29857,7 +29857,7 @@ Is de pandgever een consument [1 in de zin van artikel I.1, 2° van boek I van h
 recht]1, dan dient het geschrift als bewijs van de overeenkomst te voldoen aan de vereisten, naar gelang het
 geval, [2 van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek]2 en dient tevens nauwkeurig melding te
 worden gemaakt van het maximaal bedrag tot beloop waarvan de schuldvorderingen zijn gewaarborgd.
-----------
+
 (1)<W 2016-12-25/12, art. 27, 002; Inwerkingtreding : 01-01-2018>
 (2)<W 2019-04-13/28, art. 13,3°, 005; Inwerkingtreding : 01-11-2020>
 
@@ -29869,7 +29869,7 @@ Een overdracht van een schuldvordering tot zekerheid verleent aan de overnemer e
 overgedragen schuldvordering en zulks ongeacht of deze overdracht beantwoordt aan het bepaalde in artikel
 61, behoudens wanneer de overdrager een consument is in de zin van artikel I.1, 2° van boek I van het Wetboek
 economisch recht]1.
-----------
+
 (1)<W 2016-12-25/12, art. 28, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29941,7 +29941,7 @@ Is de koper een consument [1 in de zin van artikel I.1, 2° van boek I van het W
 dan dient de instemming van de koper uit het geschrift te blijken.
 Het terugvorderingsrecht krachtens een beding van eigendomsvoorbehoud kan worden uitgeoefend ongeacht
 de juridische aard van de overeenkomst waarin het is opgenomen.
-----------
+
 (1)<W 2016-12-25/12, art. 29, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -29949,7 +29949,7 @@ de juridische aard van de overeenkomst waarin het is opgenomen.
 
 Zakelijke subrogatie, verwerking en vermenging.
 De artikelen 9, 18 [1 , 20 en 23, lid 1]1 zijn van toepassing.
-----------
+
 (1)<W 2016-12-25/12, art. 30, 002; Inwerkingtreding : 01-01-2018>
 
 
@@ -30386,7 +30386,7 @@ duurzame kopie te zijn. De overlegging van het origineel wordt niet vereist.]1
 Behalve in de gevallen waarin de wet anders bepaalt, vormt in alle andere gevallen het afschrift een feitelijk
 vermoeden of in voorkomend geval een begin van bewijs door geschrift wanneer de in artikel 8.1, 7° opgelegde
 voorwaarden vervuld zijn. Indien het origineel nog bestaat, kan de overlegging ervan altijd worden gevorderd.
-----------
+
 (1)<W 2024-03-28/60, art. 44, 002; Inwerkingtreding : 08-04-2024>
 
 

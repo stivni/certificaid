@@ -51,7 +51,7 @@ herstel van schade te vorderen die kan bestaan uit de niet-betaling van fiscale 
 door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 In afwijking van het [1 vierde]1 lid zijn de bepalingen van het Burgerlijk Wetboek, [2 boek 5, titel 3, ondertitel 8,
 hoofdstuk 4]2 met betrekking tot de schuldvergelijking, niet van toepassing.
-----------
+
 (1)<W 2023-03-12/08, art. 10, 014; Inwerkingtreding : 01-01-2025>
 (2)<W 2026-02-10/05, art. 34, 016; Inwerkingtreding : 09-03-2026>
 
@@ -135,7 +135,7 @@ toegekend in uitvoering van artikel 4, § 2 van de wet van 15 januari 1990 houde
 een Kruispuntbank van de sociale zekerheid.
 § 2. Wanneer dit Wetboek er nog niet in voorziet, stelt de Koning de modaliteiten en voorwaarden voor de
 verzending en kennisgeving van de documenten bedoeld in dit Wetboek vast.
-----------
+
 (1)<W 2023-12-19/07, art. 73, 010; Inwerkingtreding : 07-01-2024>
 
 
@@ -210,7 +210,7 @@ het jaar waarin de verjaring plaatsvindt van alle handelingen die tot de bevoegd
 verwerkingsverantwoordelijke]1 bedoeld in paragraaf 3 behoren en, in voorkomend geval, waarin de volledige
 betaling van alle ermee verbonden bedragen, evenals de definitieve beëindiging van de ermee verbonden
 procedures en administratieve en gerechtelijke beroepen, is geschied.
-----------
+
 (1)<W 2021-12-20/04, art. 11, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -329,7 +329,7 @@ overnemende of verkrijgende vennootschap of van de verkrijgende vennootschappen 
 behoudens afwijkende vermeldingen in de akte die de verrichting vaststelt, ten name van de verschillende
 verkrijgende vennootschappen naar rato van de werkelijke waarde van het netto actief dat ze elk ontvangen
 hebben.]1
-----------
+
 (1)<Ingevoegd bij W 2021-12-20/04, art. 3, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -339,7 +339,7 @@ hebben.]1
 bedoeld in artikel 2, § 1, 5°, a, eerste lid, tweede streepje, van het Wetboek van de inkomstenbelastingen 1992
 kan rechtstreeks ten laste van de aandeelhouders of vennoten worden vervolgd in zover die belastingen
 proportioneel overeenstemmen met het aandeel van die aandeelhouders of vennoten in het kapitaal.]1
-----------
+
 (1)<Ingevoegd bij W 2021-12-20/04, art. 4, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -393,7 +393,7 @@ middelen tot tenuitvoerlegging uitmaken evenals de toepassing van artikel 334 va
 december 2004, met uitzondering van de aanwending ten bewarende titel bedoeld in paragraaf 4, tweede lid van
 dit artikel 334, ten aanzien van een medeschuldenaar, slechts plaatsvinden vanaf de uitwerkingsdatum van de
 aanmaning tot betaling die hem werd verzonden overeenkomstig paragraaf 2.
-----------
+
 (1)<W 2021-12-20/04, art. 5, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -437,7 +437,7 @@ De Koning kan andere betalingswijzen toestaan.
 De financiële rekening "Inning en Invordering" bedoeld in het eerste lid wordt door de Koning bepaald.
 § 2. Bij de betaling bedoeld in paragraaf 1, eerste lid, 1° [1 , 2° en 4°]1, wordt er gebruik gemaakt van de
 mededeling bepaald door de Federale Overheidsdienst Financiën.
-----------
+
 (1)<W 2023-03-12/08, art. 11, 014; Inwerkingtreding : 01-01-2025>
 
 
@@ -462,7 +462,7 @@ fiscale of niet-fiscale schuldvorderingen.
 De Koning kan andere wijzen van betaling toestaan.
 § 2. Bij de betaling bedoeld in paragraaf 1, eerste lid, wordt gebruik gemaakt van de door de Federale
 Overheidsdienst Financiën vastgestelde mededeling.]1
-----------
+
 (1)<Ingevoegd bij W 2023-03-12/08, art. 12, 014; Inwerkingtreding : 01-01-2025>
 
 
@@ -482,7 +482,7 @@ Wetboek bedoelde aangifte verschuldigde bedragen, alsmede van de nalatigheidsint
 c) door de in de artikelen 270 en 271 van het Wetboek van de Inkomstenbelastingen 1992 bedoelde
 schuldenaar van de bedrijfsvoorheffing voor de betaling van de uit hoofde van de in artikel 312 van hetzelfde
 Wetboek bedoelde aangifte verschuldigde bedragen, alsmede van de nalatigheidsinteresten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-03-12/08, art. 13, 014; Inwerkingtreding : 01-01-2025>
 
 
@@ -492,7 +492,7 @@ Gelden als bewijs van betaling:
 - voor stortingen, de door de naamloze vennootschap van publiek recht bpost gedateerde ontvangstbewijzen;
 - [1 voor overschrijvingen en betalingen via om het even welk door de minister van Financiën erkend
 elektronisch betaalmiddel en via de domiciliëringen]1, de rekeninguittreksels en de bijbehorende stukken.
-----------
+
 (1)<W 2023-03-12/08, art. 14, 014; Inwerkingtreding : 01-01-2025>
 
 
@@ -511,7 +511,7 @@ gecrediteerd is. De Koning bepaalt de datum waarop de in artikel 15/1, § 1, eer
 uitwerking hebben.
 De Koning bepaalt de datum waarop de betaling uitwerking heeft wanneer hij overeenkomstig artikel 15, § 1,
 tweede lid en artikel 15/1, § 1, tweede lid, een andere betalingswijze toestaat.]1
-----------
+
 (1)<W 2023-03-12/08, art. 15, 014; Inwerkingtreding : 01-01-2025>
 
 
@@ -722,7 +722,7 @@ schuldvorderingen opgenomen in een uitvoerbaar verklaard innings- en invordering
 vijf jaren vanaf de datum van uitvoerbaarverklaring van het innings- en invorderingsregister waarin ze zijn
 opgenomen overeenkomstig de wettelijke of reglementaire bepalingen met betrekking tot deze
 schuldvorderingen.
-----------
+
 (1)<W 2021-12-20/04, art. 13, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -853,7 +853,7 @@ borderel, voor elke fiscale of niet-fiscale schuldvordering die gewaarborgd is d
 datum van uitvoerbaarverklaring van het kohier of van het innings- en invorderingsregister, of de datum waarop
 de rechterlijke beslissing houdende veroordeling tot betaling van de fiscale of niet-fiscale schuldvordering in
 kracht van gewijsde is getreden.]1
-----------
+
 (1)<W 2021-02-07/01, art. 34, 004; Inwerkingtreding : 01-03-2021>
 
 
@@ -929,7 +929,7 @@ opgesteld overeenkomstig paragraaf 1, eerste lid, 1°, voorafgaat.
 van het bericht verstaan de datum van ontvangstmelding meegedeeld door [2 de dienst belast]2 met informatie-
 en communicatietechnologie van de Federale Overheidsdienst Financiën.
 § 4. De Koning stelt de praktische toepassingsvoorwaarden van dit artikel vast.
-----------
+
 (1)<W 2020-04-23/27, art. 17, 002; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-12-20/04, art. 14, 006; Inwerkingtreding : 07-01-2022>
 (3)<W 2024-02-07/18, art. 7, 013; Inwerkingtreding : 01-01-2025>
@@ -967,7 +967,7 @@ geïdentificeerd ofwel door het identificatienummer van het Rijksregister of, bi
 identificatienummer bij de Kruispuntbank van de Sociale Zekerheid, wanneer het om een natuurlijke persoon
 gaat, ofwel door het identificatienummer van de Kruispuntbank van Ondernemingen, wanneer het om een
 rechtspersoon gaat.]1
-----------
+
 (1)<W 2020-04-23/27, art. 18, 002; Inwerkingtreding : 01-01-2020>
 (2)<W 2023-12-28/01, art. 93, 011; Inwerkingtreding : 08-01-2024>
 
@@ -1010,7 +1010,7 @@ Alle niet-ingeschreven schuldvorderingen waarvoor slechts na het verstrijken van
 bepaalde termijn wordt beslag gelegd of verzet aangetekend, zijn zonder uitwerking ten opzichte van de fiscale
 en niet-fiscale schuldvorderingen, welke ter uitvoering van artikel 36 werden ter kennis gebracht.
 § 4. De Koning stelt de praktische toepassingsvoorwaarden van dit artikel vast.
-----------
+
 (1)<W 2021-12-20/04, art. 15, 006; Inwerkingtreding : 07-01-2022>
 (2)<W 2023-12-28/01, art. 94, 011; Inwerkingtreding : 08-01-2024>
 (3)<W 2024-02-07/18, art. 8, 013; Inwerkingtreding : 01-01-2025>
@@ -1036,7 +1036,7 @@ verzekeren van fiscale en niet-fiscale schuldvorderingen die tot de bevoegdheid 
 verwerkingsverantwoordelijke bedoeld in het eerste lid behoren en, in voorkomend geval, de volledige betaling
 van alle ermee verbonden bedragen gerealiseerd werd en de ermee verbonden procedures en administratieve en
 gerechtelijke beroepen definitief afgesloten zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2020-04-23/27, art. 19, 002; Inwerkingtreding : 01-01-2020>
 
 
@@ -1059,7 +1059,7 @@ waarden waarop in zijn handen beslag onder derden werd gelegd, niet te bovengaan
 
 De artikelen [1 35 tot 37 en 38 tot 39]1 zijn van toepassing op elke persoon die bevoegd is om
 authenticiteit te verlenen aan de in artikel 35 bedoelde akten.
-----------
+
 (1)<W 2020-04-23/27, art. 20, 002; Inwerkingtreding : 01-01-2020>
 
 
@@ -1090,7 +1090,7 @@ waarborgt, ingeschreven is.
 
 *Onderafdeling 2. - De aansprakelijkheid en plichten inzake de opmaak van een akte of attest van erfopvolging*
 bedoeld in artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek
-----------
+
 (1)<W 2022-01-19/18, art. 41, 008; Inwerkingtreding : 01-07-2022>
 (2)<W 2022-07-30/03, art. 35, 009; Inwerkingtreding : 01-11-2022>
 
@@ -1136,7 +1136,7 @@ betrokkenen, of, bij gebrek aan zulke nummers, hun geboortedatum;
 benaming [2 en, in voorkomend geval, de statutaire zetel en]2 het identificatienummer bij de Kruispuntbank van
 Ondernemingen.
 § 6. De Koning bepaalt de overige voorwaarden en praktische toepassingsmodaliteiten van dit artikel.
-----------
+
 (1)<W 2020-04-23/27, art. 21, 002; Inwerkingtreding : 01-01-2020>
 (2)<W 2021-12-20/04, art. 6, 006; Inwerkingtreding : 07-01-2022>
 (3)<W 2021-12-20/04, art. 16, 006; Inwerkingtreding : 07-01-2022>
@@ -1178,7 +1178,7 @@ geïdentificeerd ofwel door het identificatienummer van het Rijksregister of, bi
 identificatienummer bij de Kruispuntbank van de Sociale Zekerheid, wanneer het om een natuurlijke persoon
 gaat, ofwel door het identificatienummer van de Kruispuntbank van Ondernemingen, wanneer het om een
 rechtspersoon gaat.]1
-----------
+
 (1)<W 2020-04-23/27, art. 22, 002; Inwerkingtreding : 01-01-2020>
 (2)<W 2023-12-28/01, art. 95, 011; Inwerkingtreding : 08-01-2024>
 
@@ -1198,7 +1198,7 @@ aflevert waarin onjuiste vermeldingen staan met betrekking tot het ontbreken van
 van de schulden waarvan van het bestaan kennis werd gegeven overeenkomstig artikel 44, loopt dezelfde
 aansprakelijkheid op als deze die de verplichting bepaald in artikel 43, § 1, niet naleeft. Deze aansprakelijkheid is
 evenwel beperkt tot het bedrag dat als gevolg van die onjuistheden niet kon worden ingevorderd.
-----------
+
 (1)<W 2022-07-30/03, art. 37, 009; Inwerkingtreding : 01-11-2022>
 
 
@@ -1223,7 +1223,7 @@ rechtverkrijgende en van zijn deel in de schulden ter kennis gebracht op naam va
 gehouden door de schuldenaar van deze fondsen.
 § 2. De in § 1, eerste lid, bedoelde aansprakelijkheid is beperkt tot de waarde van de tegoeden die zijn
 vrijgegeven aan de schuldenaars die zijn vermeld in de kennisgeving bedoeld in artikel 44.
-----------
+
 (1)<W 2022-01-19/18, art. 43, 008; Inwerkingtreding : 01-07-2022>
 (2)<W 2022-07-30/03, art. 38, 009; Inwerkingtreding : 01-11-2022>
 
@@ -1254,7 +1254,7 @@ aansprakelijkheidsvorderingen te kunnen instellen teneinde de invordering van de
 tot de bevoegdheid van de verwerkingsverantwoordelijke bedoeld in het eerste lid behoren en, in voorkomend
 geval, de volledige betaling van alle ermee verbonden bedragen gerealiseerd werd en de ermee verbonden
 procedures en administratieve en gerechtelijke beroepen definitief afgesloten zijn.]1
-----------
+
 (1)<Ingevoegd bij W 2020-04-23/27, art. 23, 002; Inwerkingtreding : 01-01-2020>
 
 
@@ -1262,7 +1262,7 @@ procedures en administratieve en gerechtelijke beroepen definitief afgesloten zi
 
 De artikelen 43 tot 47 zijn van toepassing op elke persoon of dienst die bevoegd is om een in artikel [2
 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek bedoeld attest van erfopvolging op te maken.
-----------
+
 (1)<W 2022-01-19/18, art. 44, 008; Inwerkingtreding : 01-07-2022>
 (2)<W 2022-07-30/03, art. 39, 009; Inwerkingtreding : 01-11-2022>
 
@@ -1281,7 +1281,7 @@ goederen afhangt, ervan verwittigen.
 Wanneer de verkoop heeft plaatsgehad, geldt de kennisgeving van het bedrag van de fiscale en niet-fiscale
 schuldvorderingen door de ontvanger gedaan bij aangetekende zending, uiterlijk daags vóór de verkoop, als
 beslag onder derden in handen van de in het eerste lid vermelde openbare ambtenaren of ministeriële officieren.
-----------
+
 (1)<W 2023-12-28/01, art. 96, 011; Inwerkingtreding : 08-01-2024>
 (2)<W 2024-02-07/18, art. 10, 013; Inwerkingtreding : 01-01-2025>
 
@@ -1317,7 +1317,7 @@ gezag overeenkomstig artikel XX.85 van het Wetboek van economisch recht of in ge
 inbreng van de algemeenheid van goederen of van een tak van werkzaamheid verricht overeenkomstig de
 bepalingen van [1 het Wetboek van vennootschappen en verenigingen]1.
 § 5. De Koning kan de modellen van de aanvraag en van het certificaat bedoeld in dit artikel bepalen.
-----------
+
 (1)<W 2021-12-20/04, art. 7, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -1366,7 +1366,7 @@ voor de insolventierechtbank bedoeld in artikel I.22 van het Wetboek van economi
 § 7. Indien een vordering bedoeld in artikel XX.225 van het Wetboek van economisch recht is ingesteld, worden
 de bedragen die op grond van paragraaf 5 aan de fiscale overheid toekomen, toegerekend op het bedrag dat
 aan de fiscale overheid wordt toegekend op grond van die vordering.
-----------
+
 (1)<W 2021-12-20/04, art. 8, 006; Inwerkingtreding : 07-01-2022>
 (2)<W 2024-02-07/18, art. 11, 013; Inwerkingtreding : 01-01-2025>
 
@@ -1469,7 +1469,7 @@ tot 59.
 De Koning kan, voor de in het eerste lid, 1°, b, bedoelde activiteiten of werkzaamheden, na het eenparig advies
 van de bevoegde paritaire comités of subcomités, de aannemer gelijkstellen met de opdrachtgever. In dat geval
 neemt de aannemer alle rechten en verplichtingen van de opdrachtgever bedoeld in de artikelen 54 tot 59 over.
-----------
+
 (1)<W 2021-12-20/04, art. 9, 006; Inwerkingtreding : 07-01-2022>
 (2)<W 2021-12-20/04, art. 17, 006; Inwerkingtreding : 07-01-2022>
 
@@ -1508,7 +1508,7 @@ Ze wordt in getrapte volgorde toegepast ten opzichte van de in een voorafgaand s
 aannemers, en in de laatste plaats ten opzichte van de in het eerste lid bedoelde opdrachtgever, wanneer de in
 het tweede lid vermelde aannemer nagelaten heeft de van hem gevorderde sommen binnen dertig dagen na de
 betekening van een dwangbevel te vereffenen.
-----------
+
 (1)<W 2026-02-10/05, art. 35, 016; Inwerkingtreding : 09-03-2026>
 
 
@@ -1583,7 +1583,7 @@ vordering.
 
 
 **Afdeling 5. [1 De hoofdelijke aansprakelijkheid van groepsentiteiten voor de minimumbelasting]1**
-----------
+
 (1)<Ingevoegd bij W 2023-12-19/07, art. 74, 010; Inwerkingtreding : 07-01-2024>
 
 
@@ -1597,7 +1597,7 @@ schuldvorderingen uit hoofde van deze binnenlandse bijheffing.
 De aan de UTPR-bijheffing onderworpen groepsentiteiten bedoeld in artikel 35, paragraaf 1, van dezelfde wet,
 zijn hoofdelijk gehouden tegenover de Staat tot de betaling van de bedragen verschuldigd ten titel van fiscale
 schuldvorderingen uit hoofde van deze bijheffing.]1
-----------
+
 (1)<W 2025-12-19/36, art. 29, 015; Inwerkingtreding : 10-01-2026>
 
 
@@ -1909,7 +1909,7 @@ de verjaring plaatsvindt van alle handelingen die tot de bevoegdheid van de verw
 de FOD Financiën, behoren en, in voorkomend geval, waarin de volledige betaling van alle ermee verbonden
 bedragen, evenals de definitieve beëindiging van de ermee verbonden procedures en administratieve en
 gerechtelijke beroepen, is geschied.]1
-----------
+
 (1)<W 2021-12-20/04, art. 10, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -1922,7 +1922,7 @@ ambtenaren om de invordering van fiscale en niet-fiscale schuldvorderingen te ve
 voorwaarden en modaliteiten bepaald door artikel 4 van de wet van 3 augustus 2012 houdende bepalingen
 betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van
 zijn opdrachten.
-----------
+
 (1)<W 2021-12-20/04, art. 19, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -1977,7 +1977,7 @@ tot niet-fiscale schuldvorderingen, dezelfde bewijskracht als het elektronische 
 materialisatie onder gesloten omslag de unieke referentie bevat van een geavanceerd elektronisch zegel dat
 voldoet aan de eisen bedoeld in paragraaf 1, tweede lid. Elke materialisatie onder gesloten omslag stemt overeen
 met de inhoud van het elektronisch origineel van het bericht bewaard op het beveiligd platform.]1
-----------
+
 (1)<W 2021-01-26/12, art. 173, 007; Inwerkingtreding : 01-04-2021>
 (2)<W 2022-01-21/03, art. 113, 007; Inwerkingtreding : 07-02-2022>
 
@@ -2069,7 +2069,7 @@ onderworpen, houdt de rechter bij de straftoemeting rekening met de verschuldigd
 misdrijven bedoeld in de artikelen 85 tot 89 en 91 zijn verkregen, op de goederen en waarden die in de plaats
 ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie
 gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.]1
-----------
+
 (1)<Ingevoegd bij W 2020-06-11/15, art. 9, 003; Inwerkingtreding : 01-01-2020>
 
 
@@ -2133,7 +2133,7 @@ Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII
 toepassing op de in de artikelen 85 tot 89 en 91 bedoelde misdrijven.
 De wet van 5 maart 1952 betreffende de opdecimes op de strafrechtelijke geldboeten, is van toepassing op de
 misdrijven bedoeld in de [1 artikelen 85, 86, 88 en 91]1.
-----------
+
 (1)<W 2021-12-20/04, art. 20, 006; Inwerkingtreding : 07-01-2022>
 
 
@@ -2157,7 +2157,7 @@ Strafvordering;
 kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 85 tot 89 en 91 tegen hun
 aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun
 functies in rechte of in feite, zijn uitgesproken.
-----------
+
 (1)<W 2021-12-20/04, art. 21, 006; Inwerkingtreding : 07-01-2022>
 (2)<W 2024-04-09/07, art. 59, 012; Inwerkingtreding : 28-04-2024>
 
@@ -2179,7 +2179,7 @@ de inning en de invordering van fiscale en niet-fiscale schuldvorderingen. De pr
 feitenmateriaal waarover hij beschikt bij zijn verzoek om advies. De adviseur-generaal antwoordt op dit verzoek
 binnen vier maanden na de ontvangst ervan.
 In geen geval schorst het verzoek om advies de strafvordering.
-----------
+
 (1)<W 2020-06-11/15, art. 10, 003; Inwerkingtreding : 01-01-2020>
 
 
@@ -2191,7 +2191,7 @@ Overheidsdienst Financiën belast met de inning en de invordering van fiscale en
 de ambtenaar die hij aanwijst, de gegevens van het dossier met betrekking tot de feiten die strafrechtelijk
 strafbaar zijn ingevolge de bepalingen van dit Wetboek of van de ter uitvoering ervan genomen besluiten mede
 aan het openbaar ministerie.
-----------
+
 (1)<W 2020-06-11/15, art. 11, 003; Inwerkingtreding : 01-01-2020>
 
 
@@ -2207,5 +2207,5 @@ de wet van 30 maart 1994 tot uitvoering van het globaal plan op het stuk van de 
 gesteld van de federale politie.
 Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in [1 artikel 29, § 3, tweede lid]1,
 van het Wetboek van Strafvordering bedoelde overleg.
-----------
+
 (1)<W 2020-06-11/15, art. 12, 003; Inwerkingtreding : 01-01-2020>

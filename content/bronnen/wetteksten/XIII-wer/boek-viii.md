@@ -37,7 +37,7 @@ gesteld, worden kosteloos ter beschikking gesteld door de auteur van de reglemen
 de auteursrechten op die normen nageleefd worden. Als er een vertaling nodig is, kan het Bureau voor
 Normalisatie de kosten voor de vertaling van deze norm door een derde partij aan de regelgevende overheid
 factureren.]1
-----------
+
 (1)<W 2022-09-25/14, art. 20, 120; Inwerkingtreding : 26-01-2023>
 
 
@@ -85,7 +85,7 @@ normen die van kracht zijn en in voorbereiding zijn;
 vastgesteld na overleg in de Ministerraad.]1
 [1 De Koning stelt het kader van de in het eerste lid, 12°, 13° en 14°, bedoelde ondersteuningsopdrachten vast,
 bij een besluit vastgesteld na overleg in de Ministerraad.]1
-----------
+
 (1)<W 2024-05-03/21, art. 21, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -116,7 +116,7 @@ belanghebbende partijen aan te moedigen en hun toegang tot normen te vergemakkel
 Het Bureau is belast met het verstrekken, aan de normalisatiecommissies en de sectorale
 normalisatieoperatoren, van de technische en economische inlichtingen waarover het beschikt en die voor hun
 werkzaamheden noodzakelijk zijn.]1
-----------
+
 (1)<W 2024-05-03/21, art. 22, 135; Inwerkingtreding : 10-06-2024>
 
 
@@ -156,7 +156,7 @@ artikel VIII.7, die hen door het Bureau verschaft wordt;
 [2 6° een financiering die wordt ingeschreven ten laste van de federale begroting op de kredieten van de FOD
 Economie, om de verwezenlijking van de ondersteuningsopdrachten bedoeld in artikel VIII.4, eerste lid, 12°, 13°
 en 14°, mogelijk te maken.]2
-----------
+
 (1)<W 2022-09-25/14, art. 21, 120; Inwerkingtreding : 26-01-2023>
 (2)<W 2024-05-03/21, art. 23, 135; Inwerkingtreding : 10-06-2024>
 
@@ -172,7 +172,7 @@ financieel evenwicht na.
 
 12.De organen van het Bureau zijn [1 de directeur]1 en de Raad van Bestuur. In overleg maken zij een
 huishoudelijk reglement op dat aan de Koning ter goedkeuring wordt voorgelegd.
-----------
+
 (1)<W 2022-09-25/14, art. 22, 120; Inwerkingtreding : 31-12-2023>
 
 
@@ -200,7 +200,7 @@ voor een hernieuwing van de duur, wordt hem de functie voor een nieuwe periode v
 zover hij op de eindevaluatie de vermelding "uitstekend" heeft gekregen. In dit geval wordt er niet overgegaan tot
 een nieuwe selectieprocedure.
 Het derde lid is alleen van toepassing als de functiebeschrijving niet grondig werd gewijzigd.]1
-----------
+
 (1)<W 2022-09-25/14, art. 23, 120; Inwerkingtreding : 31-12-2023>
 
 
@@ -215,7 +215,7 @@ Raad van Bestuur door het Bureau kunnen toegekend worden.
 De Koning benoemt de voorzitter en de leden van de Raad van Bestuur. De voorstellen tot aanstelling van de
 vertegenwoordigers die niet tot de openbare sector behoren worden opgesteld op basis van door de betrokken
 organisaties voorgelegde lijsten.]1
-----------
+
 (1)<W 2022-09-25/14, art. 24, 120; Inwerkingtreding : 31-12-2023>
 
 
@@ -230,7 +230,7 @@ De Raad van Bestuur heeft als opdrachten :
 6° het evalueren van de wijze waarop [2 de directeur]2 en de normalisatiecommissies hun taken uitvoeren en
 het formuleren van adviezen en aanbevelingen hieromtrent aan de minister en aan [2 de directeur]2;
 7° het goedkeuren van het jaarlijks verslag vermeld in artikel VIII.17.
-----------
+
 (1)<W 2022-09-25/14, art. 25,a, 120; Inwerkingtreding : 26-01-2023>
 (2)<W 2022-09-25/14, art. 25,b, 120; Inwerkingtreding : 31-12-2023>
 
@@ -278,7 +278,7 @@ inzake maatschappelijke belangen vertegenwoordigen;]1
 vertegenwoordigen;]1
 5° [1 een effectief lid en een plaatsvervangend lid die de conformiteitsbeoordelingsinstellingen
 vertegenwoordigen.]1
-----------
+
 (1)<W 2022-09-25/14, art. 26, 120; Inwerkingtreding : 31-12-2023>
 
 
@@ -332,7 +332,7 @@ bedrag van de verplaatsings- en verblijfsvergoedingen.
 
 
 #### Titel 2. [1 - Accreditatie van Con-formiteitsbeoordelingsinstellingen]1
-----------
+
 (1)<W 2019-05-02/28, art. 11, 077; Inwerkingtreding : 10-11-2023>
 
 
@@ -354,7 +354,7 @@ instellingen waarmee de Belgische accreditatie-instelling akkoorden van wederzij
 aanvaardt hierdoor op basis van een vermoeden van conformiteit de accreditatiecertificaten van deze
 accreditatie-instellingen en de attesten van de conformiteitsbeoordelingsinstellingen die zij hebben
 geaccrediteerd.]1
-----------
+
 (1)<W 2019-05-02/28, art. 12, 077; Inwerkingtreding : 10-11-2023>
 
 
@@ -372,7 +372,7 @@ promotie van accreditatie]1 komen ten laste van de FOD Economie, K.M.O., Middens
 Onverminderd de toepassing van andere wets- en reglementsbepalingen kan de Koning, ten bate van dit Fonds,
 retributies opleggen tot dekking van de beoordelings-, accreditatie-, [1 ...]1 toezichts- en controlekosten.
 § 3. De Koning stelt de wijze van berekening en betaling van de retributies en van de uitgaven vast.
-----------
+
 (1)<W 2019-05-02/28, art. 13, 077; Inwerkingtreding : 10-11-2023>
 
 
@@ -455,7 +455,7 @@ aan te nemen dat de vaste numerieke waarde van het lichtrendement van de monochr
 frequentie 540 x 1012 Hz (Kcd) uitgedrukt in de eenheid lm W m-1 683 bedraagt, waarbij lm W m-1 gelijk is aan cd
 sr W m-1 of cd sr kgm-1 mm-2 s 3 en de kilogram, meter en seconde zijn gedefinieerd in termen van h, c en
 gDvCs]1
-----------
+
 (1)<KB 2020-05-06/04, art. 5, 083; Inwerkingtreding : [13-06-2020]> (ERRATUM, zie B.St. 14-05-2020, p.
 34101)
 
@@ -715,7 +715,7 @@ instellingen overdraagt, zijn eveneens met redenen omkleed.
 
 
 #### Titel 4. [1 - Conformiteit]1
-----------
+
 (1)<Ingevoegd bij W 2016-06-29/01, art. 15, 036; Inwerkingtreding : 16-07-2016>
 
 
@@ -734,19 +734,19 @@ tot de minimumeisen]2 :
 2° de verplichtingen van marktdeelnemers bepalen;
 3° de voorwaarden bepalen waaraan aangemelde instanties moeten voldoen;
 [3 4° marktdeelnemers vrijstellen van de verplichtingen bepaald op grond van de bepaling onder 2°.]3]1
-----------
+
 (1)<Ingevoegd bij W 2016-06-29/01, art. 16, 036; Inwerkingtreding : 16-07-2016>
 (2)<W 2024-02-09/19, art. 28, 129; Inwerkingtreding : 31-03-2024>
 (3)<W 2023-11-05/06, art. 5, 141; Inwerkingtreding : 28-06-2025>
 
 
 #### Titel 5. [1 - Toegankelijkheidsvoorschriften voor diensten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 5, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 1. [1 - Toepassingsgebied]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 6, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -765,12 +765,12 @@ verstrekt in het geval van voor navigatie bestemde kaarten;
 en waarover deze geen zeggenschap heeft;
 5° inhoud van websites en mobiele toepassingen die worden aangemerkt als archieven, wat betekent dat zij
 enkel inhoud bevatten die niet wordt bijgewerkt of aangepast na de inwerkingtreding van deze titel.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 8, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 2. [1 - Algemene principes]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 9, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -790,12 +790,12 @@ elke andere verplichting in verband met de naleving van die voorschriften kunnen
 inlichtingen met een algemene draagwijdte worden voor advies voorgelegd aan de Nationale Hoge Raad voor
 Personen met een Handicap die advies uitbrengt binnen een termijn van drie maanden en in dringende gevallen
 binnen de maand.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 10, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 3. [1 - Verplichtingen van dienstverleners]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 11, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -808,7 +808,7 @@ toegankelijk is voor personen met een handicap. Dienstverleners bewaren die info
 werking is.
 De Koning kan de lijst met informatie over diensten die aan toegankelijkheidsvoorschriften voldoen in bijlage 2
 bij dit boek wijzigen en aanvullen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 12, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -832,12 +832,12 @@ hoogte kunnen brengen en welke informatie precies moet worden meegedeeld.
 informatie en documentatie ter staving van de conformiteit van de dienst met de toepasselijke
 toegankelijkheidsvoorschriften. Zij verlenen op verzoek van deze ambtenaren medewerking aan alle maatregelen
 die worden getroffen om de conformiteit met die voorschriften te waarborgen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 13, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 4. [1 - Fundamentele wijziging van diensten en onevenredige last voor dienstverleners]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 14, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -882,12 +882,12 @@ wijzigen, aanvullen en verduidelijken.
 De ambtenaren bedoeld in artikel XV.2 kunnen reglementen uitvaardigen over de wijze waarop de criteria
 bedoeld in bijlage 3 bij dit boek beoordeeld of geïnterpreteerd worden. In voorkomend geval hebben deze
 reglementen enkel uitwerking na goedkeuring ervan door de Koning.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 15, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 5. [1 - Vermoeden van conformiteit]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 16, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -900,12 +900,12 @@ daarvan die voorschriften bestrijken.
 Diensten die in overeenstemming zijn met de technische specificaties of delen daarvan, worden geacht in
 overeenstemming te zijn met de toegankelijkheidsvoorschriften bedoeld in deze titel en zijn uitvoeringsbesluiten,
 voor zover deze technische specificaties of delen daarvan die voorschriften bestrijken.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 17, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 6. [1 - Toegankelijkheidsvoorschriften in andere handelingen van de Unie]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 18, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -916,7 +916,7 @@ voor zover deze technische specificaties of delen daarvan die voorschriften best
 deze kenmerken, onderdelen of functies betreft geacht te voldoen aan de desbetreffende verplichtingen inzake
 toegankelijkheid krachtens andere Uniehandelingen dan Richtlijn (EU) 2019/882, tenzij in die andere handelingen
 anders wordt bepaald.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 19, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -926,12 +926,12 @@ anders wordt bepaald.]1
 vastgesteld overeenkomstig artikel VIII.63, leidt tot een vermoeden van overeenstemming met artikel VIII.64
 voor zover deze normen en technische specificaties of delen daarvan aan de toegankelijkheidsvoorschriften
 bedoeld in deze titel en zijn uitvoeringsbesluiten voldoen.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 20, 141; Inwerkingtreding : 28-06-2025>
 
 
 ##### HOOFDSTUK 7. [1 - Verslag en evaluatie]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 21, 141; Inwerkingtreding : 28-06-2025>
 
 
@@ -942,24 +942,24 @@ Economie en Maatschappelijke Integratie, na consultatie van de betrokken belange
 de realiteit op het terrein, een verslag voor ter attentie van de Kamer van volksvertegenwoordigers. In dit verslag
 wordt de toepassing van de toegankelijkheidsvoorschriften in de praktijk beschreven en wordt aangeduid of het
 toepassingsgebied zou kunnen uitgebreid worden tot andere diensten.]1
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 22, 141; Inwerkingtreding : 28-06-2025>
 
 
 Bijlagen. [1 Bijlagen 1-4 boek VIII]1
 
 (Beeld niet opgenomen om technische redenen, zie B.St. van 28-11-2023, p. 110587)
-----------
+
 (1)<Ingevoegd bij W 2023-11-05/06, art. 23, 141; Inwerkingtreding : 28-06-2025>
 
 ### Boek IX. [1 Veiligheid van producten en diensten]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
 
 ##### HOOFDSTUK 1. - [1 Algemene veiligheidsverplichting]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -971,7 +971,7 @@ van de Richtlijn 2001/95/EG van 3 december 2001 van het Europees Parlement en de
 productveiligheid.
 Ten aanzien van producten en diensten waarvoor specifieke reglementering inzake veiligheid geldt, is dit boek
 alleen van toepassing voor de risico's die niet gereglementeerd worden in die specifieke reglementering.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -980,7 +980,7 @@ alleen van toepassing voor de risico's die niet gereglementeerd worden in die sp
 
 [1 De producenten zijn gehouden uitsluitend veilige producten op de markt te brengen en veilige
 diensten aan te bieden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1001,7 +1001,7 @@ productveiligheid;
 5° de stand van vakkennis en techniek;
 6° de veiligheid die de gebruikers redelijkerwijze mogen verwachten;
 7° internationale normen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1043,7 +1043,7 @@ risico te weren;
 § 5. De minister of zijn gemachtigde licht de [3 bijzondere raadgevende commissie Verbruik]3 in over de
 getroffen maatregelen, uiterlijk vijftien dagen na het van kracht worden van een besluit genomen ter uitvoering
 van dit artikel.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 (2)<W 2017-04-18/03, art. 21, 046; Inwerkingtreding : 04-05-2017>
@@ -1076,7 +1076,7 @@ betrokken partijen hiervan ingelicht, uiterlijk vijftien dagen na het nemen van 
 deze raadpleging niet vereist.
 § 5. De minister of zijn gemachtigde licht de [2 bijzondere raadgevende commissie Verbruik]2 in uiterlijk vijftien
 dagen na het van kracht worden van het besluit.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
@@ -1089,7 +1089,7 @@ in dit boek, of indien het niet in overeenstemming is met een besluit genomen te
 tot 3, of artikel IX.5, §§ 1 en 2, dan kunnen de kosten die werden gemaakt ter uitvoering van de bepalingen van
 de artikelen IX.4 en IX.5 ten laste worden gelegd aan de betrokken producent onder de voorwaarden bepaald bij
 een koninklijk besluit vastgesteld na overleg in de ministerraad.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1110,7 +1110,7 @@ producenten voor deze ontleding of deze controle hebben gemaakt.
 Zolang een product of een dienst niet werd onderworpen aan de met toepassing van dit artikel voorgeschreven
 ontleding of controle, wordt het geacht niet te beantwoorden aan de vereisten van artikel IX.2, tenzij het bewijs
 van het tegendeel geleverd wordt.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 (2)<W 2015-10-26/06, art. 45, 028; Inwerkingtreding : 09-11-2015>
@@ -1160,7 +1160,7 @@ De Koning kan de inhoud en de vorm van het aangifteformulier vaststellen.
 § 5. De producenten en distributeurs verlenen de bevoegde autoriteiten desgevraagd, en binnen het bestek van
 hun activiteiten, samenwerking bij de acties die ondernomen zijn om de risico's, verbonden aan producten die zij
 leveren of geleverd hebben, te vermijden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1173,7 +1173,7 @@ minstens gesteld in een voor de gemiddelde consument begrijpelijke taal, gelet o
 producten of diensten op de markt worden gebracht. Ten aanzien van de andere producten geldt dezelfde
 verplichting behalve indien de besluiten die ter uitvoering van de artikelen IX.4 en IX.5 genomen worden, in
 afwijkende voorwaarden voorzien.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1189,13 +1189,13 @@ afwijkende voorwaarden voorzien.]1
 [1 De Koning kan de erkennings- en werkingscriteria bepalen van de tussenkomende organismen, de
 regels betreffende hun organisatie en hun opdrachten, evenals de modaliteiten van de controle op de naleving
 ervan.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
 
 ##### HOOFDSTUK 2. - [1 Informatie- en adviesstructuren]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 
@@ -1226,7 +1226,7 @@ Het Centraal Meldpunt stelt, in overeenstemming met de eisen inzake transparanti
 risico's van producten en diensten voor de gezondheid en veiligheid van de gebruiker aan het publiek
 beschikbaar. In het bijzonder krijgt het publiek toegang tot de informatie over de identificatie van de producten,
 de aard van het risico en de genomen maatregelen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 (2)<W 2016-06-29/01, art. 19, 036; Inwerkingtreding : 16-07-2016>
@@ -1245,7 +1245,7 @@ Elk jaar maakt het Centraal Meldpunt een activiteitenverslag over het vorige die
 verslag wordt een statistisch overzicht gevoegd van de gemelde ongevallen waarbij producten betrokken zijn,
 van de klachten en meldingen in verband met de veiligheid en gezondheid van producten en van de meldingen via
 de Europese waarschuwingssystemen.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 4)>
 (2)<W 2016-06-29/01, art. 20, 036; Inwerkingtreding : 16-07-2016>
@@ -1260,7 +1260,7 @@ de andere ministers die bevoegd zijn voor de veiligheid van dit product of deze 
 2° de toewijzing van de bevoegdheden en opdrachten bij de voorbereiding van uitvoeringsbesluiten. In dit kader
 kan de Koning bepalen dat bij de toepassing van de artikelen IX.4 en 5 naast de [2 bijzondere raadgevende
 commissie Verbruik]2 andere adviesorganen, volgens dezelfde procedures, verplicht geraadpleegd worden.]1
-----------
+
 (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 
 4)>

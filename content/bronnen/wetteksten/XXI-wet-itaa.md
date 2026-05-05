@@ -197,7 +197,7 @@ accountant;
 12° het organiseren van administratieve diensten en advies verstrekken over de administratieve organisatie van
 ondernemingen;
 [1 13° de ondernemingen bijstaan bij het opstellen van duurzaamheidsinformatie.]1
-----------
+
 (1)<W 2024-12-02/07, art. 101, 009; Inwerkingtreding : 30-12-2024>
 
 
@@ -217,7 +217,7 @@ opnemen in hun maatschappelijke benaming [1 in zoverre de titel is opgenomen in 
 in artikel 29]1.
 Onverminderd artikel 9 mag niemand een andere titel dragen die verwarring kan scheppen of zou kunnen
 scheppen met die van gecertificeerd accountant.
-----------
+
 (1)<W 2019-05-02/28, art. 105, 002; Inwerkingtreding : 01-06-2019>
 
 
@@ -273,7 +273,7 @@ stagiairs van een gereglementeerd beroep, zolang zij geen eerherstel bekomen heb
 3° diegenen die veroordeeld zijn voor een inbreuk op de wet van 18 september 2017 tot voorkoming van het
 witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten of die een
 sanctie hebben opgelopen in de zin van artikel 118 van deze wet.]1
-----------
+
 (1)<W 2020-07-20/12, art. 153, 004; Inwerkingtreding : 15-08-2020>
 (2)<W 2024-12-02/07, art. 102, 009; Inwerkingtreding : 30-12-2024>
 
@@ -288,7 +288,7 @@ hoedanigheid van gecertificeerd belastingadviseur mogen de titel van gecertifice
 alsook het Engelse equivalent "certified tax advisor" ervan.
 De erkende rechtspersonen mogen de titel van gecertificeerd belastingadviseur gebruiken of opnemen in hun
 maatschappelijke benaming [1 in zoverre de titel is opgenomen in het openbaar register bedoeld in artikel 29]1.
-----------
+
 (1)<W 2019-05-02/28, art. 106, 002; Inwerkingtreding : 01-06-2019>
 
 
@@ -322,7 +322,7 @@ kunnen scheppen met die van accountant of fiscaal accountant.
 Indien de personen bedoeld in het eerste of het tweede lid de activiteiten van accountant of fiscaal accountant
 binnen een arbeidsovereenkomst of een door de overheid bezoldigde betrekking uitoefenen, mogen ze de titel
 van intern accountant of intern fiscaal accountant dragen.
-----------
+
 (1)<W 2019-05-02/28, art. 107, 002; Inwerkingtreding : 01-06-2019>
 
 
@@ -429,7 +429,7 @@ Tegen dit besluit, of tegen het uitblijven ervan, kan beroep ingesteld worden bi
 10 en 11 doet geen afbreuk aan hun recht om gebruik te maken van hun opleidingstitel die hen verleend is in hun
 lidstaat van oorsprong, alsook eventueel de afkorting ervan in de taal van die lidstaat. Deze titel moet gevolgd
 worden door de naam en plaats van de instelling of van de examencommissie die de titel heeft verleend.
-----------
+
 (1)<W 2021-02-02/06, art. 25, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -523,7 +523,7 @@ De stagecommissie kan, onder de voorwaarden bepaald door de Koning, de stage ink
 vrijstelling van de stage toestaan wanneer de persoon ten minste zeven jaar relevante ervaring met de
 uitoefening van het beroep kan aantonen. [1 De persoon die vrijgesteld is van de stage legt een
 bekwaamheidsexamen af volgens de nadere regels bepaald door de Koning.]1
-----------
+
 (1)<W 2021-02-02/06, art. 26, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -650,7 +650,7 @@ volgende vakken :
 5° fiscale procedure;
 6° beginselen van het Europees en internationaal fiscaal recht.
 [1 De Koning bepaalt de nadere regels van het bekwaamheidsexamen bedoeld in het tweede en derde lid.]1
-----------
+
 (1)<W 2021-02-02/06, art. 27, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -674,7 +674,7 @@ van het Europees en internationaal fiscaal recht.
 De persoon die kiest voor de hoedanigheid van gecertificeerd belastingadviseur mag de activiteiten bedoeld in
 artikel 3, 1° tot en met 8°, niet meer uitoefenen.
 [1 De Koning bepaalt de nadere regels van het bekwaamheidsexamen bedoeld in het tweede en derde lid.]1
-----------
+
 (1)<W 2021-02-02/06, art. 27, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -746,7 +746,7 @@ In afwijking van paragraaf 1, tweede lid, wordt één van de meldingen "(fiscaal
 accountant" of "gecertificeerd belastingadviseur" opgenomen in het openbaar register wanneer een deel van het
 bestuursorgaan binnen een rechtspersoon bedoeld in het eerste lid bestaat uit personen bedoeld in artikel 2, 3°,
 6° en 7°.]1
-----------
+
 (1)<W 2019-05-02/28, art. 108, 002; Inwerkingtreding : 01-06-2019>
 
 
@@ -824,7 +824,7 @@ Het Instituut wijst bij de inschrijving aan elke ingeschreven persoon een inschr
 eerste lid, omvattende de personen die de beroepsactiviteiten als bedoeld in artikel 6, § 1, uitoefenen, zonder het
 voeren van de beroepstitel bedoeld in paragraaf 1, om toe te laten de lijst van deze personen te raadplegen en na
 te kijken.]1
-----------
+
 (1)<W 2020-07-20/12, art. 154, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -865,7 +865,7 @@ openbaar register.
 De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag
 over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te
 hebben.]2
-----------
+
 (1)<W 2019-05-02/28, art. 109, 002; Inwerkingtreding : 01-06-2019>
 (2)<W 2020-07-20/12, art. 155, 004; Inwerkingtreding : 15-08-2020>
 
@@ -877,7 +877,7 @@ register.
 De [1 persoon ingeschreven in het openbaar register]1 brengt de Raad van het Instituut binnen de vijftien
 dagen na de wijziging op de hoogte van elke wijziging van de gegevens opgenomen in het openbaar register. Hij
 is verantwoordelijk voor de juistheid van de aan het Instituut meegedeelde gegevens.
-----------
+
 (1)<W 2020-07-20/12, art. 156, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -923,7 +923,7 @@ noch als rechtspersoon, voor rekening van derden, in hoofdberoep of bijberoep, d
 bedoeld in artikel 6, § 1, van deze wet meer mag uitoefenen.
 De persoonsgegevens behandeld door het Instituut worden bijgehouden zolang dat nodig is om de doeleinden
 door of krachtens deze wet te behalen en maximaal gedurende tien jaar te rekenen vanaf de uitschrijving.]1
-----------
+
 (1)<W 2020-07-20/12, art. 157, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -942,7 +942,7 @@ De Koning bepaalt, na advies van de Raad van het Instituut, de nadere regels voo
 openbaar register.
 De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag
 over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
-----------
+
 (1)<W 2020-07-20/12, art. 158, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -986,7 +986,7 @@ onafhankelijkheid, met respect voor de beginselen van de deontologie. Voor een b
 deze minstens betrekking op de verantwoordelijkheid voor het openbaar belang van de beroepsbeoefenaar, zijn
 integriteit en objectiviteit, alsmede op zijn vakbekwaamheid en zorgvuldigheid, zijn respect voor de
 vertrouwelijkheid en zijn professionaliteit.
-----------
+
 (1)<W 2020-07-20/12, art. 159, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1014,7 +1014,7 @@ De Raad van het Instituut is belast met het toezicht op de permanente vorming va
 uitzondering van de stagiairs.
 De inhoud en het minimum aantal uren permanente vorming worden vastgelegd in een norm, als bedoeld in
 artikel 72, eerste lid, 2°.
-----------
+
 (1)<W 2020-07-20/12, art. 160, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1132,7 +1132,7 @@ register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 ge
 geheimhouding van gegevens die hem uitdrukkelijk of stilzwijgend in de uitoefening van zijn beroep zijn
 toevertrouwd en van de feiten met een vertrouwelijk karakter die hij in de uitoefening van zijn beroep zelf heeft
 vastgesteld.
-----------
+
 (1)<W 2020-07-20/12, art. 161, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1145,7 +1145,7 @@ bedoeld in artikel 29, § 2,]1 geen inbreuk op de verplichting van geheimhouding
 3° in de uitoefening van zijn recht van verdediging in tuchtaangelegenheden;
 4° wanneer en in de mate waarin hij, betreffende aangelegenheden die zijn opdrachtgever persoonlijk
 aanbelangen, door deze laatste uitdrukkelijk van zijn plicht tot geheimhouding is ontslaan.
-----------
+
 (1)<W 2020-07-20/12, art. 162, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1154,7 +1154,7 @@ aanbelangen, door deze laatste uitdrukkelijk van zijn plicht tot geheimhouding i
 Indien de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld
 in artikel 29, § 2,]1 vertrouwelijke informatie deelt met zijn personeelsleden, stagiairs, of met andere
 beroepsbeoefenaars, moet hij erop toezien dat zij het vertrouwelijk karakter daarvan eerbiedigen.
-----------
+
 (1)<W 2020-07-20/12, art. 163, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1194,7 +1194,7 @@ als vastgesteld door de Raad van het Instituut.
 De personen die inschreven zijn op de aparte lijst in het openbaar register bedoeld in artikel 29, § 2, betalen
 jaarlijks een bijdrage aan het Instituut die gelijk is aan de bijdrage van de personen bedoeld in artikel 6, § 1.
 Deze bijdrage kan jaarlijks geïndexeerd worden.]1
-----------
+
 (1)<W 2020-07-20/12, art. 164, 004; Inwerkingtreding : 15-08-2020>
 (2)<W 2021-02-02/06, art. 28, 005; Inwerkingtreding : 21-02-2021>
 
@@ -1319,7 +1319,7 @@ De persoonsgegevens worden door het Instituut behandeld met het oog op :
 3° de opmaak van verslagen en statistieken die het Instituut toelaten zijn activiteiten te optimaliseren.
 Het Instituut duidt een functionaris voor gegevensbescherming aan die belast is met de functie en de
 opdrachten bedoeld in de algemene verordening gegevensbescherming.
-----------
+
 (1)<W 2020-07-20/12, art. 165, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1481,7 +1481,7 @@ de aanbeveling geen afbreuk doet aan de criteria vastgesteld in hoofdstuk 4.
 De normen en aanbevelingen worden in het Nederlands, het Frans en zo mogelijk in het Duits openbaar
 gemaakt op de website van het Instituut, met vermelding van de datum van de inwerkingtreding van de normen
 en aanbevelingen.
-----------
+
 (1)<W 2020-07-20/12, art. 166, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1558,7 +1558,7 @@ van de beroepsbeoefenaars.
 Het Instituut mag zijn beschikbare gelden enkel besteden aan de aankoop van effecten waarvan het kapitaal en
 rente gewaarborgd zijn. In geen geval mag het Instituut ten kosteloze titel over zijn vermogen beschikken noch
 zijn vermogen geheel of gedeeltelijk verdelen onder zijn leden of hun rechthebbenden.
-----------
+
 (1)<W 2020-07-20/12, art. 167, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1614,7 +1614,7 @@ De Hoge Raad moet de hem gevraagde adviezen binnen drie maanden uitbrengen. Zo n
 gunstig advies [1 uitgebracht te hebben]1.
 Uitzonderlijk kan in hoogdringende gevallen, die met redenen zijn omkleed, de Hoge Raad verzocht worden om
 binnen één maand een advies uit te brengen.
-----------
+
 (1)<W 2021-02-02/06, art. 29, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -1675,7 +1675,7 @@ permanente vorming overeenkomstig artikel 39, tweede lid, en overeenkomstig de n
 bevestigd binnen de termijn die de commissie kwaliteitstoetsing heeft aangekondigd of wanneer de
 beroepsbeoefenaar, na uitstel te hebben verkregen, heeft verzuimd om binnen de aangekondigde termijn een
 nieuwe datum voor toetsing aan de commissie kwaliteitstoetsing voor te stellen.
-----------
+
 (1)<W 2020-07-20/12, art. 168, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -1840,7 +1840,7 @@ De betrokkene mag tijdens de zitting zijn verweer mondeling of schriftelijk doen
 laten bijstaan of vertegenwoordigen door een advocaat of een andere persoon ingeschreven in het openbaar
 register met een hoedanigheid [1 , met uitzondering van de personen bedoeld in artikel 29, § 2]1.
 De rechtskundig assessor wordt uitgenodigd. Hij neemt niet deel aan de beraadslagingen.
-----------
+
 (1)<W 2020-07-20/12, art. 169, 004; Inwerkingtreding : 15-08-2020>
 
 
@@ -2038,7 +2038,7 @@ administratieve maatregelen en administratieve sancties vast. De Raad van het In
 binnen drie maanden te rekenen vanaf de dag van ontvangst van de adviesaanvraag over het ontwerp van
 koninklijk besluit. Wordt er binnen deze termijn geen advies uitgebracht, dan wordt de Raad van het Instituut
 geacht geen opmerkingen te hebben op het ontwerp dat hem wordt voorgelegd.]1
-----------
+
 (1)<W 2023-11-05/07, art. 119, 007; Inwerkingtreding : 21-12-2023>
 
 
@@ -2062,7 +2062,7 @@ De rechtbank kan bovendien bevelen :
 degene die zich schuldig heeft gemaakt aan een of meer van de hierboven bedoelde overtredingen;
 2° de bekendmaking van het vonnis of van een samenvatting ervan in een of meer dagbladen of enige andere
 wijze, dit alles op kosten van de veroordeelde.
-----------
+
 (1)<W 2020-07-20/12, art. 170, 004; Inwerkingtreding : 15-08-2020>
 (2)<W 2024-02-09/19, art. 181, 008; Inwerkingtreding : 31-03-2024>
 
@@ -2083,7 +2083,7 @@ met een van deze straffen alleen [1 , hetzij met een administratieve geldboete v
 [1 De opsporing en de vaststelling van de inbreuken bedoeld in deze wet, door de in het eerste lid bedoelde
 ambtenaren, gebeuren overeenkomstig de bepalingen van boek XV, titel 1, hoofdstuk 1, van het Wetboek van
 economisch recht.]1
-----------
+
 (1)<W 2024-02-09/19, art. 182, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2099,7 +2099,7 @@ artikel XV.61 van het Wetboek van economisch recht.
 Het bedrag van de transactie mag niet hoger zijn dan het maximumbedrag van de strafrechtelijke geldboete die
 wegens de vastgestelde inbreuk kan worden opgelegd, verhoogd met de opdeciemen.
 De betalings- en inningswijzen van deze transactie worden door de Koning vastgesteld.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 183, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2112,7 +2112,7 @@ ambtenaren bedoeld in artikel 118, eerste lid, kunnen het voorwerp uitmaken van:
 Wetboek van economisch recht;
 3° een strafrechtelijke vervolging.
 § 2. De vervolging gebeurt overeenkomstig titel 1/1 van boek XV van het Wetboek van economisch recht.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 184, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2128,7 +2128,7 @@ bedoeld in artikel 216bis van het Wetboek van strafvordering of een bemiddeling 
 genomen binnen een termijn van drie maanden te rekenen van de dag van ontvangst van het proces-verbaal
 waarin de inbreuk werd vastgelegd, beslissen de bevoegde ambtenaren bedoeld in artikel XV.60/4 van het
 Wetboek van economisch recht of de procedure voor de administratieve geldboete moet worden opgestart.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 185, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2139,7 +2139,7 @@ bedoeld in artikel 216bis van het Wetboek van strafvordering of een bemiddeling 
 216ter van het Wetboek van strafvordering voor te stellen, bezorgt het een afschrift van de procedurestukken
 van het aanvullend opsporingsonderzoek aan de bevoegde ambtenaren bedoeld in artikel XV.60/4 van het
 Wetboek van economisch recht.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 186, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2149,7 +2149,7 @@ Wetboek van economisch recht.]1
 zijn van toepassing op de administratieve geldboetes bedoeld in deze wet.
 De opdeciemen bedoeld in artikel 1, eerste lid, van de wet van 5 maart 1952 betreffende de opdeciemen op
 strafrechtelijke geldboeten zijn eveneens van toepassing op de administratieve geldboetes bedoeld in deze wet.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 187, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2157,7 +2157,7 @@ strafrechtelijke geldboeten zijn eveneens van toepassing op de administratieve g
 
 [1 De artikelen XV.69, XV.71, XV.72, XV.73 en XV.74 van het Wetboek van economisch recht zijn
 van toepassing op de strafrechtelijke inbreuken op deze wet.]1
-----------
+
 (1)<Ingevoegd bij W 2024-02-09/19, art. 188, 008; Inwerkingtreding : 31-03-2024>
 
 
@@ -2187,7 +2187,7 @@ aangestelden krachtens dit hoofdstuk zijn veroordeeld.
 [1 In afwijking van het eerste lid mogen gecertificeerde accountants informatie uitwisselen met de
 gecertificeerde accountants, de commissarissen of de bedrijfsrevisoren van vennootschappen, verenigingen of
 stichtingen die betrokken zouden zijn bij verrichtingen van fusies, splitsingen of gelijkgestelde verrichtingen.]1
-----------
+
 (1)<W 2022-06-23/09, art. 9, 006; Inwerkingtreding : 21-07-2022>
 
 
@@ -2233,7 +2233,7 @@ de waakzaamheidsplichten voorzien door de bindende bepalingen betreffende financ
 datum van inwerkingtreding van deze wet voortgezet onder het toezicht van het Instituut opgericht bij deze wet,
 en zijn organen. De Raad van dit Instituut kan administratieve sancties uitspreken als bedoeld in artikel 116 van
 deze wet.]1
-----------
+
 (1)<W 2021-02-02/06, art. 30, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -2302,7 +2302,7 @@ artikel 122 van toepassing
 § 5. De Raad, die de in artikel 72 bedoelde bevoegdheden uitoefent, neemt alle taken over met betrekking tot
 de stage van de boekhouders en van de boekhouders-fiscalisten die tot de bevoegdheid behoorden van de
 Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten.]1
-----------
+
 (1)<W 2021-02-02/06, art. 31, 005; Inwerkingtreding : 21-02-2021>
 
 
@@ -2416,7 +2416,7 @@ instituten.
 aan de overgangsraad en de algemene vergadering bedoeld in dit artikel.
 § 6. De paragrafen 4 tot en met 5 treden buiten werking bij de inwerkingtreding van alle bepalingen uit deze
 wet.]1
-----------
+
 (1)<W 2020-02-22/01, art. 2, 003; Inwerkingtreding : 03-03-2020>
 
 
