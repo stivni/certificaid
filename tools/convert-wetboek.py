@@ -125,6 +125,39 @@ CONFIGS = {
         'titel': 'Decreet Waalse gewestelijke belastingen',
         'tags': '["IV.C", "2.5"]',
     },
+    'eu-moeder-dochter': {
+        'input': 'resources/wetteksten/raw/CELEX_32011L0096_NL_TXT.pdf',
+        'output_resources': 'resources/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
+        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-moeder-dochter.md',
+        'mode': 'eu_richtlijn',
+        'itaa_sectie': 'X',
+        'wet': 'Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten',
+        'bijgewerkt': '29.12.2011',
+        'titel': 'Moeder-dochterrichtlijn 2011/96/EU',
+        'tags': '["X", "2.8"]',
+    },
+    'eu-fusie': {
+        'input': 'resources/wetteksten/raw/CELEX_32009L0133_NL_TXT.pdf',
+        'output_resources': 'resources/wetteksten/EU-Richtlijn-fusie-2009-133.md',
+        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-fusie.md',
+        'mode': 'eu_richtlijn',
+        'itaa_sectie': 'X',
+        'wet': 'Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)',
+        'bijgewerkt': '25.11.2009',
+        'titel': 'Fusierichtlijn 2009/133/EG',
+        'tags': '["X", "2.8"]',
+    },
+    'eu-interest-royalties': {
+        'input': 'resources/wetteksten/raw/CELEX_32003L0049_NL_TXT.pdf',
+        'output_resources': 'resources/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md',
+        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-interest-royalties.md',
+        'mode': 'eu_richtlijn',
+        'itaa_sectie': 'X',
+        'wet': 'Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty\'s tussen verbonden ondernemingen van verschillende lidstaten',
+        'bijgewerkt': '26.06.2003',
+        'titel': 'Interest- en royalty\'srichtlijn 2003/49/EG',
+        'tags': '["X", "2.8"]',
+    },
 }
 
 
@@ -133,7 +166,11 @@ def extract_nl_text(pdf, mode, start_page=None, col_x=300):
     pages_match = re.search(r'Pages:\s+(\d+)', info)
     total_pages = int(pages_match.group(1)) if pages_match else 300
 
-    if mode == 'nl':
+    if mode == 'eu_richtlijn':
+        # Official Journal PDFs: twee-kolom layout, gebruik pdftotext zonder -layout
+        r = subprocess.run(['pdftotext', pdf, '-'], capture_output=True, text=True)
+        return r.stdout
+    elif mode == 'nl':
         r = subprocess.run(['pdftotext', '-layout', pdf, '-'], capture_output=True, text=True)
         return r.stdout
     else:
@@ -259,6 +296,63 @@ def clean_and_structure(text, wet_naam):
     return text.strip()
 
 
+def clean_and_structure_eu(text):
+    """Structureert EU Official Journal richtlijntekst naar markdown."""
+    lines = text.split('\n')
+    out = []
+    prev_empty = False
+
+    eu_noise = [
+        r'^L\s+\d+/\d+\s*$',                          # paginareferentie "L 157/49"
+        r'^NL\s*$',
+        r'^Publicatieblad van de Europese Unie',
+        r'^\d{1,2}\.\d{1,2}\.\d{4}\s*$',             # datum "26.6.2003"
+        r'^\(\d+\)\s*$',                               # losse voetnootnummers
+        r'^C\d+/\d+\s*$',
+    ]
+
+    for line in lines:
+        stripped = line.strip()
+
+        if not stripped:
+            if not prev_empty:
+                out.append('')
+            prev_empty = True
+            continue
+
+        if any(re.match(p, stripped) for p in eu_noise):
+            continue
+
+        # "Artikel X" alleen op een regel → ## Artikel X
+        if re.match(r'^Artikel\s+\d+\s*$', stripped):
+            num = re.match(r'^Artikel\s+(\d+)', stripped).group(1)
+            if not prev_empty:
+                out.append('')
+            out.append(f'## Artikel {num}')
+            out.append('')
+            prev_empty = True
+            continue
+
+        # BIJLAGE
+        if re.match(r'^BIJLAGE', stripped):
+            if not prev_empty:
+                out.append('')
+            out.append(f'## {stripped}')
+            out.append('')
+            prev_empty = True
+            continue
+
+        # Overwegende-paragrafen: "(1) Tekst..." blijven gewone alinea's
+        out.append(stripped)
+        prev_empty = False
+
+    text = '\n'.join(out)
+    # Verbind afgebroken woorden (koppelteken aan regelende)
+    text = re.sub(r'(\w)-\n(\w)', r'\1\2', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
+
+
 def make_header(cfg):
     return f"""---
 tags: {cfg['tags']}
@@ -288,8 +382,12 @@ def convert(name):
     )
     print(f"Tekst: {len(text)} tekens")
 
-    md = clean_and_structure(text, cfg['wet'])
-    art_count = len(re.findall(r'^## Art\.', md, re.MULTILINE))
+    if cfg['mode'] == 'eu_richtlijn':
+        md = clean_and_structure_eu(text)
+        art_count = len(re.findall(r'^## Artikel\b', md, re.MULTILINE))
+    else:
+        md = clean_and_structure(text, cfg['wet'])
+        art_count = len(re.findall(r'^## Art\.', md, re.MULTILINE))
     print(f"Artikelen: {art_count}")
 
     content = make_header(cfg) + md
