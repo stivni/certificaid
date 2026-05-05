@@ -3,7 +3,7 @@
 Gebruik deze index om te bepalen welke wettekst relevant is voor een onderwerp.
 Grep daarna in het volledige bestand: `grep -n "zoekterm" resources/wetteksten/NAAM.md`
 
-Laatste update: 2026-05-02
+Laatste update: 2026-05-05
 
 ---
 
@@ -29,11 +29,18 @@ Laatste update: 2026-05-02
 | `WIB92-kortetermijnverhuur.md` | Fiscale kwalificatieregels kortetermijnverhuur — ITAA-zine 2/2024, Airbnb Tax Guide 2025 | Gemeubelde verhuur (Airbnb/Booking.com): drie-componentensysteem (onroerend/roerend/divers), bijkomende diensten → 33% diverse inkomsten (art. 90 WIB92), 40/60-forfait KB/WIB, fiche 281.48 DAC7, btw 6%, geen deeleconomieregime |
 | `status.md` | Overzicht downloadstatus | Welke wetteksten lokaal beschikbaar zijn, welke nog ontbreken |
 
+## Nieuw ingeladen (2026-05-05)
+
+| Bestand | Wet | Bron | Versie |
+|---|---|---|---|
+| `WIB92.md` | Wetboek Inkomstenbelastingen 1992 | Fisconet PDF (editie 2026) | Bijgewerkt t.e.m. 10.02.2026 |
+| `WBTW.md` | Wetboek BTW (Wet 3 juli 1969) | Fisconet PDF (bijwerking 35) | Bijgewerkt t.e.m. 23.04.2020 ⚠️ |
+
+⚠️ WBTW-versie is 2020 — vervangen zodra actuele PDF beschikbaar is van Fisconet.
+
 ## Niet lokaal beschikbaar (placeholder in content/bronnen/wetteksten/)
 
 | Wet | Alternatief |
 |---|---|
-| WIB92 | Zoek via fisconet.be |
-| BTW-Wetboek | Zoek via fisconet.be |
 | BW 2019 | Zoek via ejustice.just.fgov.be |
 | VCF-UVB | Zoek via codex.vlaanderen.be |
