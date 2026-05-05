@@ -127,8 +127,41 @@ CONFIGS = {
     },
 
 
+
+    'wbtw-kb7': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB7-invoer.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB7-invoer.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb7.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 7, 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de btw',
+        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 7 — Invoer', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb18': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB18-uitvoer-vrijstellingen.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb18.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 18, 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen',
+        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 18 — Uitvoer vrijstellingen', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb46': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB46-intracommunautaire-aangifte.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb46.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 46, 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen',
+        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 46 — Intracommunautaire aangifte vervoermiddelen', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb48': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB48-levering-vervoermiddelen.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb48.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 48, 29 december 1992, met betrekking tot de levering van vervoermiddelen',
+        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 48 — Levering vervoermiddelen', 'tags': '["VI.B", "2.4"]',
+    },
     'wbtw-kb1': {
-        'input': 'resources/raw/wetteksten/WBTW-KB1-voldoening.pdf',
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf',
         'output_resources': 'resources/bronnen/wetteksten/WBTW-KB1-voldoening.md',
         'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb1.md',
         'mode': 'nl',
