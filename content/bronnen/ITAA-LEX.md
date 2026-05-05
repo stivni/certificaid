@@ -126,7 +126,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 
 ### XI — BURGERLIJK WETBOEK
 
-- ⏳ Wetboek 13 april 2019 Burgerlijk Wetboek *(B.S., 14 mei 2019)* · p. 1581
+- ✅ [[bronnen/wetteksten/XI-oud-bw|Burgerlijk Wetboek (geconsolideerd, incl. Boek 8 Bewijs — wet 13 april 2019)]] *(B.S., 14 mei 2019)* · p. 1581
 - ✅ [[bronnen/wetteksten/XI-oud-bw|Wet 21 maart 1804 Oud Burgerlijk Wetboek]] *(B.S., 3 september 1807)* · p. 1683
 ### XII — STRAFRECHT
 

@@ -125,6 +125,17 @@ CONFIGS = {
         'titel': 'Decreet Waalse gewestelijke belastingen',
         'tags': '["IV.C", "2.5"]',
     },
+    'bw-geconsolideerd': {
+        'input': 'resources/raw/wetteksten/BW-geconsolideerd-incl-boek8.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Oud-BW.md',
+        'output_content': 'content/bronnen/wetteksten/XI-oud-bw.md',
+        'mode': 'nl',
+        'itaa_sectie': 'XI',
+        'wet': 'Burgerlijk Wetboek (geconsolideerd, inclusief Boek 8 Bewijs — wet 13 april 2019)',
+        'bijgewerkt': '2024',
+        'titel': 'Burgerlijk Wetboek (geconsolideerd)',
+        'tags': '["XI"]',
+    },
     'eu-moeder-dochter': {
         'input': 'resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf',
         'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
