@@ -169,7 +169,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/XVIII-klokkenluiderswet|Wet 28 november 2022 betreffende de bescherming van melders van inbreuken (Klokkenluiderswet)]] *(B.S., 15 december 2022)* · p. 2495
 ### XIX — AVG-WETGEVING
 
-- ⏳ Verord. (EU) 2016/679 E.P. en de Raad 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (Algemene Verordening Gegevensbescherming) *(PB.L 119, 4 mei 2016; rect., PB.L 127, 23 mei 2018; rect., PB.L 74, 4 maart 2021)* · p. 2507
+- ✅ [[bronnen/wetteksten/XIX-avg-verordening-2016-679|Verord. (EU) 2016/679 E.P. en de Raad 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens (AVG)]] *(PB.L 119, 4 mei 2016)* · p. 2507
 - ✅ [[bronnen/wetteksten/XIX-avg-wet-2018|Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens]] *(B.S., 5 september 2018)* · p. 2535
 ### XX — EU-BEROEPSKWALIFICATIES
 

@@ -129,6 +129,23 @@ CONFIGS = {
 
 
 
+
+    'kb-voorafgaande-beslissingen-art26': {
+        'input': 'resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art26-2003.md',
+        'output_content': 'content/bronnen/wetteksten/I-kb-voorafgaande-beslissingen-art26.md',
+        'mode': 'nl', 'itaa_sectie': 'I',
+        'wet': 'K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken',
+        'bijgewerkt': '30.01.2003', 'titel': 'K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)', 'tags': '["I"]',
+    },
+    'avg-verordening': {
+        'input': 'resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/EU-AVG-Verordening-2016-679.md',
+        'output_content': 'content/bronnen/wetteksten/XIX-avg-verordening-2016-679.md',
+        'mode': 'eu_richtlijn', 'itaa_sectie': 'XIX',
+        'wet': 'Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)',
+        'bijgewerkt': '27.04.2016', 'titel': 'AVG — Algemene Verordening Gegevensbescherming 2016/679', 'tags': '["XIX", "4.0"]',
+    },
     'wet-voorafgaande-beslissingen': {
         'input': 'resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf',
         'output_resources': 'resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md',
