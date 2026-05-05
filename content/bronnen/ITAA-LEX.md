@@ -15,25 +15,25 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 | ⏳ | I | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 2… *(B.S., 31 januari 2003)* | 3 | *(niet beschikbaar)* |
 | ⏳ | I | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 20… *(B.S., 12 februari 2003; err., B.S., 18 februari 2003; err., B.S., 17 oktober 2007)* | 4 | *(niet beschikbaar)* |
 | | **II — INKOMSTENBELASTINGEN** | | | |
-| ✅ | II | Wetboek 10 april 1992 Wetboek van de inkomstenbelastingen 1992 *(B.S., 30 juli 1992)* | 5 | [[wetteksten/II-wib92|→]] |
-| ✅ | II | K.B. 27 augustus 1993 tot uitvoering van het Wetboek van de inkomstenbelastingen… *(B.S., 13 september 1993)* | 386 | [[wetteksten/II-KB-wib92|→]] |
+| ✅ | II | Wetboek 10 april 1992 Wetboek van de inkomstenbelastingen 1992 *(B.S., 30 juli 1992)* | 5 | [[wetteksten/II-wib92\|→]] |
+| ✅ | II | K.B. 27 augustus 1993 tot uitvoering van het Wetboek van de inkomstenbelastingen… *(B.S., 13 september 1993)* | 386 | [[wetteksten/II-KB-wib92\|→]] |
 | | **III — MET INKOMSTENBELASTINGEN GELIJKGESTELDE BELASTINGEN** | | | |
 | ⏳ | III | K.B. 23 november 1965 houdende codificatie van de wettelijke bepalingen betreffe… *(B.S., 18 januari 1966)* | 529 | *(niet beschikbaar)* |
 | ⏳ | III | K.B. 23 november 1965 houdende codificatie van de wettelijke bepalingen betreffe… *(B.S., 18 januari 1966)* | 545 | *(niet beschikbaar)* |
 | ⏳ | III | K.B. 23 november 1965 houdende codificatie van de wettelijke bepalingen betreffe… *(B.S., 18 januari 1966)* | 567 | *(niet beschikbaar)* |
 | | **IV — REGIONALE FISCALE CODEXEN** | | | |
 | | **IV.A — Vlaamse Codex Fiscaliteit** | | | |
-| ✅ | IV.A | Decr. Vl. Parl. 13 december 2013 houdende de Vlaamse Codex Fiscaliteit *(B.S., 23 december 2013)* | 593 | [[wetteksten/IVA-vcf|→]] |
-| ✅ | IV.A | B. Vl. Reg. 20 december 2013 houdende de uitvoering van de Vlaamse Codex Fiscali… *(B.S., 31 december 2013; err., B.S., 27 januari 2014)* | 747 | [[wetteksten/IVA-vcf|→]] |
+| ✅ | IV.A | Decr. Vl. Parl. 13 december 2013 houdende de Vlaamse Codex Fiscaliteit *(B.S., 23 december 2013)* | 593 | [[wetteksten/IVA-vcf\|→]] |
+| ✅ | IV.A | B. Vl. Reg. 20 december 2013 houdende de uitvoering van de Vlaamse Codex Fiscali… *(B.S., 31 december 2013; err., B.S., 27 januari 2014)* | 747 | [[wetteksten/IVA-vcf\|→]] |
 | | **IV.B — Ordonnantie betreffende de Brusselse Codex Fiscale Procedure** | | | |
 | ⏳ | IV.B | Ord. Br. Hoofdst. Parl. 6 maart 2019 betreffende de Brusselse Codex Fiscale Proc… *(B.S., 19 maart 2019)* | 771 | *(niet beschikbaar)* |
 | | **IV.C — Decreet vestiging, invordering en geschillen inzake Waalse gewestelijke belastingen** | | | |
 | ⏳ | IV.C | Decr. W. R. 6 mei 1999 betreffende de vestiging, de invordering en de geschillen… *(B.S., 1 juli 1999)* | 791 | *(niet beschikbaar)* |
 | | **V — DIVERSE RECHTEN EN TAKSEN** | | | |
-| ✅ | V | K.B. 2 maart 1927 Wetboek diverse rechten en taksen *(B.S., 6 maart 1927)* | 821 | [[wetteksten/V-wdrt|→]] |
+| ✅ | V | K.B. 2 maart 1927 Wetboek diverse rechten en taksen *(B.S., 6 maart 1927)* | 821 | [[wetteksten/V-wdrt\|→]] |
 | | **VI — BELASTING OVER DE TOEGEVOEGDE WAARDE** | | | |
-| ✅ | VI.A | Wetboek van de belasting over de toegevoegde waarde |  | [[wetteksten/VIA-wbtw|→]] |
-| ✅ | VI.A | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoeg… *(B.S., 17 juli 1969)* | 865 | [[wetteksten/VIA-wbtw|→]] |
+| ✅ | VI.A | Wetboek van de belasting over de toegevoegde waarde |  | [[wetteksten/VIA-wbtw\|→]] |
+| ✅ | VI.A | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoeg… *(B.S., 17 juli 1969)* | 865 | [[wetteksten/VIA-wbtw\|→]] |
 | | **VI.B — Koninklijke besluiten btw** | | | |
 | ⏳ | VI.B | K.B. nr. 1, 29 december 1992 met betrekking tot de regeling voor de voldoening v… *(B.S., 31 december 1992)* | 975 |  |
 | ⏳ | VI.B | K.B. nr. 2, 19 december 2018 met betrekking tot de forfaitaire regeling inzake b… *(B.S., 31 december 2018; err., B.S., 11 januari 2019)* | 994 |  |
@@ -86,20 +86,20 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 | ⏳ | VI.D | Richtl. 2008/9/EG Raad 12 februari 2008 tot vaststelling van nadere voorschrifte… *(PB.L 44, 20 februari 2008)* | 1216 |  |
 | ⏳ | VI.D | Verord. (EG) nr. 282/2011 Raad 15 maart 2011 houdende vaststelling van maatregel… *(PB.L 77, 23 maart 2011)* | 1219 |  |
 | | **VII — INVORDERING** | | | |
-| ✅ | VII | Wetboek 13 april 2019 van de minnelijke en gedwongen invordering van fiscale en … *(B.S., 30 april 2019)* | 1247 | [[wetteksten/VII-wetboek-invordering|→]] |
-| ✅ | VII | K.B. 20 december 2019 tot uitvoering van het Wetboek van de minnelijke en gedwon… *(B.S., 24 december 2019)* | 1267 | [[wetteksten/VII-wetboek-invordering|→]] |
+| ✅ | VII | Wetboek 13 april 2019 van de minnelijke en gedwongen invordering van fiscale en … *(B.S., 30 april 2019)* | 1247 | [[wetteksten/VII-wetboek-invordering\|→]] |
+| ✅ | VII | K.B. 20 december 2019 tot uitvoering van het Wetboek van de minnelijke en gedwon… *(B.S., 24 december 2019)* | 1267 | [[wetteksten/VII-wetboek-invordering\|→]] |
 | | **VIII — REGISTRATIERECHTEN** | | | |
-| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1273 | [[wetteksten/VIII-registratierechten-federaal|→]] |
-| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1316 | [[wetteksten/VIII-registratierechten-brussel|→]] |
-| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1378 | [[wetteksten/VIII-registratierechten-waals|→]] |
-| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1437 | [[wetteksten/VIII-registratierechten-federaal|→]] |
-| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1438 | [[wetteksten/VIII-registratierechten-brussel|→]] |
-| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1442 | [[wetteksten/VIII-registratierechten-waals|→]] |
+| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1273 | [[wetteksten/VIII-registratierechten-federaal\|→]] |
+| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1316 | [[wetteksten/VIII-registratierechten-brussel\|→]] |
+| ✅ | VIII | K.B. nr. 64, 30 november 1939 houdende het wetboek van registratie-, hypotheek- … *(B.S., 1 december 1939)* | 1378 | [[wetteksten/VIII-registratierechten-waals\|→]] |
+| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1437 | [[wetteksten/VIII-registratierechten-federaal\|→]] |
+| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1438 | [[wetteksten/VIII-registratierechten-brussel\|→]] |
+| ✅ | VIII | K.B. 11 januari 1940 betreffende de uitvoering van het Wetboek der Registratie-,… *(B.S., 18 januari 1940)* | 1442 | [[wetteksten/VIII-registratierechten-waals\|→]] |
 | | **IX — SUCCESSIERECHTEN** | | | |
-| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Vlaamse v… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1445 | [[wetteksten/IVA-vcf|→]] |
-| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Brusselse… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1456 | [[wetteksten/IX-successierechten-brussel|→]] |
-| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Waalse ve… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1502 | [[wetteksten/IX-successierechten-waals|→]] |
-| ✅ | IX | K.B. 26 augustus 2003 houdende aanvullende regels betreffende de inbetalinggevin… *(B.S., 10 september 2003)* | 1551 | [[wetteksten/IX-successierechten-federaal|→]] |
+| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Vlaamse v… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1445 | [[wetteksten/IVA-vcf\|→]] |
+| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Brusselse… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1456 | [[wetteksten/IX-successierechten-brussel\|→]] |
+| ✅ | IX | K.B. nr. 308, 31 maart 1936 houdende het wetboek der successierechten (Waalse ve… *(B.S., 7 april 1936; err., B.S., 12 april 1936; err., B.S., 26 april 1936)* | 1502 | [[wetteksten/IX-successierechten-waals\|→]] |
+| ✅ | IX | K.B. 26 augustus 2003 houdende aanvullende regels betreffende de inbetalinggevin… *(B.S., 10 september 2003)* | 1551 | [[wetteksten/IX-successierechten-federaal\|→]] |
 | | **X — EUROPESE EN INTERNATIONALE BELASTINGEN** | | | |
 | ⏳ | X | Richtl. 2011/96/EU Raad 30 november 2011 betreffende de gemeenschappelijke fisca… *(PB.L 345, 29 december 2011)* | 1557 | *(niet beschikbaar)* |
 | ⏳ | X | Richtl. 2003/49/EG Raad 3 juni 2003 betreffende een gemeenschappelijke belasting… *(PB.L 157, 26 juni 2003)* | 1561 | *(niet beschikbaar)* |
@@ -109,27 +109,27 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 | | **DEEL 2 — ** | | | |
 | | **XI — BURGERLIJK WETBOEK** | | | |
 | ⏳ | XI | Wetboek 13 april 2019 Burgerlijk Wetboek *(B.S., 14 mei 2019)* | 1581 | *(niet beschikbaar)* |
-| ✅ | XI | Wet 21 maart 1804 Oud Burgerlijk Wetboek *(B.S., 3 september 1807)* | 1683 | [[wetteksten/XI-oud-bw|→]] |
+| ✅ | XI | Wet 21 maart 1804 Oud Burgerlijk Wetboek *(B.S., 3 september 1807)* | 1683 | [[wetteksten/XI-oud-bw\|→]] |
 | | **XII — STRAFRECHT** | | | |
 | ⏳ | XII | Wet 8 juni 1867 Strafwetboek *(B.S., 9 juni 1867)* | 1855 | *(niet beschikbaar)* |
 | ⏳ | XII | Wetboek 29 februari 2024 Strafwetboek 2024 *(B.S., 8 april 2024)* | 1857 | *(niet beschikbaar)* |
 | | **XIII — WETBOEK VAN ECONOMISCH RECHT** | | | |
-| ✅ | XIII | Wetboek van Economisch recht *(B.S., 29 maart 2013)* | 1859 | [[wetteksten/XIII-wer/index|→]] |
-| ✅ | XIII | Wet 15 april 2018 houdende hervorming van het ondernemingsrecht *(B.S., 27 april 2018)* | 2053 | [[wetteksten/XIII-wer/index|→]] |
-| ✅ | XIII | K.B. 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 va… *(B.S., 29 oktober 2018; err., B.S., 22 november 2018)* | 2054 | [[wetteksten/XIII-KB-wer-boekhouding|→]] |
-| ✅ | XIII | K.B. 26 april 2018 houdende uitvoering van artikel XX.1, § 1, laatste lid, van h… *(B.S., 27 april 2018)* | 2079 | [[wetteksten/XIII-wer/index|→]] |
-| ✅ | XIII | K.B. 26 april 2018 houdende vaststelling van de regels en barema's tot bepaling … *(B.S., 27 april 2018)* | 2081 | [[wetteksten/XIII-wer/index|→]] |
+| ✅ | XIII | Wetboek van Economisch recht *(B.S., 29 maart 2013)* | 1859 | [[wetteksten/XIII-wer/index\|→]] |
+| ✅ | XIII | Wet 15 april 2018 houdende hervorming van het ondernemingsrecht *(B.S., 27 april 2018)* | 2053 | [[wetteksten/XIII-wer/index\|→]] |
+| ✅ | XIII | K.B. 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 va… *(B.S., 29 oktober 2018; err., B.S., 22 november 2018)* | 2054 | [[wetteksten/XIII-KB-wer-boekhouding\|→]] |
+| ✅ | XIII | K.B. 26 april 2018 houdende uitvoering van artikel XX.1, § 1, laatste lid, van h… *(B.S., 27 april 2018)* | 2079 | [[wetteksten/XIII-wer/index\|→]] |
+| ✅ | XIII | K.B. 26 april 2018 houdende vaststelling van de regels en barema's tot bepaling … *(B.S., 27 april 2018)* | 2081 | [[wetteksten/XIII-wer/index\|→]] |
 | | **XIV — HANDELSTRANSACTIES, BETALINGSACHTERSTAND** | | | |
 | ⏳ | XIV | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij h… *(B.S., 7 augustus 2002)* | 2085 | *(niet beschikbaar)* |
 | | **XV — VENNOOTSCHAPPEN EN VERENIGINGEN** | | | |
-| ✅ | XV | Wetboek 23 maart 2019 van vennootschappen en verenigingen *(B.S., 4 april 2019; err., B.S., 23 oktober 2024)* | 2089 | [[wetteksten/XV-wvv|→]] |
-| ✅ | XV | Wet 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigin… *(B.S., 4 april 2019; err., B.S., 23 oktober 2024)* | 2303 | [[wetteksten/XV-wvv|→]] |
-| ✅ | XV | K.B. 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenig… *(B.S., 30 april 2019)* | 2316 | [[wetteksten/XV-KB-wvv|→]] |
+| ✅ | XV | Wetboek 23 maart 2019 van vennootschappen en verenigingen *(B.S., 4 april 2019; err., B.S., 23 oktober 2024)* | 2089 | [[wetteksten/XV-wvv\|→]] |
+| ✅ | XV | Wet 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigin… *(B.S., 4 april 2019; err., B.S., 23 oktober 2024)* | 2303 | [[wetteksten/XV-wvv\|→]] |
+| ✅ | XV | K.B. 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenig… *(B.S., 30 april 2019)* | 2316 | [[wetteksten/XV-KB-wvv\|→]] |
 | | **XVI — SOCIAAL RECHT** | | | |
 | ⏳ | XVI | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten *(B.S., 22 augustus 1978; err., B.S., 30 augustus 1978)* | 2403 | *(niet beschikbaar)* |
 | | **XVII — WITWASSEN** | | | |
-| ✅ | XVII | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financieri… *(B.S., 6 oktober 2017)* | 2441 | [[wetteksten/XVII-antiwitwaswet|→]] |
-| ✅ | XVII | K.B. 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register *(B.S., 14 augustus 2018)* | 2488 | [[wetteksten/XVII-antiwitwaswet|→]] |
+| ✅ | XVII | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financieri… *(B.S., 6 oktober 2017)* | 2441 | [[wetteksten/XVII-antiwitwaswet\|→]] |
+| ✅ | XVII | K.B. 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register *(B.S., 14 augustus 2018)* | 2488 | [[wetteksten/XVII-antiwitwaswet\|→]] |
 | | **XVIII — KLOKKENLUIDERSwetgeving** | | | |
 | ⏳ | XVIII | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het… *(B.S., 15 december 2022)* | 2495 | *(niet beschikbaar)* |
 | | **XIX — AVG-WETGEVING** | | | |
@@ -138,21 +138,21 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 | | **XX — EU-BEROEPSKWALIFICATIES** | | | |
 | ⏳ | XX | Wet 12 februari 2008 tot instelling van een algemeen kader voor de erkenning van… *(B.S., 2 april 2008; err., B.S., 9 april 2008)* | 2575 | *(niet beschikbaar)* |
 | | **XXI — ITAA-WETGEVING** | | | |
-| ✅ | XXI | Wet 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur *(B.S., 27 maart 2019)* | 2593 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 11 september 2020 tot vaststelling van de nadere regels van de rechtsperson… *(B.S., 30 september 2020; err., B.S., 7 oktober 2020)* | 2612 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 11 september 2020 betreffende de beroepsoplei­ding van de accountants en va… *(B.S., 30 september 2020; err., B.S., 7 oktober 2020)* | 2623 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | M.B. 26 juni 2023 tot vaststelling van het examenregle­ment van het Instituut va… *(B.S., 7 augustus 2023; err., B.S., 30 oktober 2023)* | 2633 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 11 september 2020 tot bepaling van de datum van inwerkingtreding en tot oph… *(B.S., 30 september 2020)* | 2641 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | Wet 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen *(B.S., 11 mei 1999)* | 2642 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 1 maart 1998 tot vaststelling van het reglement van de plichtenleer der acc… *(B.S., 31 maart 1998)* | 2644 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 9 december 2019 tot vastlegging van een règle inzake de kwaliteitstoetsing … *(B.S., 20 december 2019)* | 2648 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 28 november 2018 tot bepaling van de regels inzake de organisatie en de wer… *(B.S., 20 december 2018)* | 2654 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 10 april 2015 tot goedkeuring van het stagereglement van het Beroepsinstitu… *(B.S., 19 mei 2015)* | 2661 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 14 januari 2021 tot goedkeuring van het reglement van het Beroepsinstituut … *(B.S., 19 mei 2015)* | 2662 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | Regl. 24 oktober 2014 van het Beroepsinstituut van erkende Boekhouders en Fiscal… *(B.S., 19 mei 2015)* | 2662 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 27 september 2015 betreffende het programma, de beroepsinsituurexamen van d… *(B.S., 11 februari 2021)* | 2666 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | Regl. 23 september 2020 van plichtenleer van het Beroepsinstituut van de erkende… *(B.S., 23 november 2015)* | 2665 | [[wetteksten/XXI-wet-itaa|→]] |
-| ✅ | XXI | K.B. 23 juni 1994 tot uitvoering, wat de economische beroepen betreft, van artik… *(B.S., 28 juni 1994)* | 2670 | [[wetteksten/XXI-wet-itaa|→]] |
+| ✅ | XXI | Wet 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur *(B.S., 27 maart 2019)* | 2593 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 11 september 2020 tot vaststelling van de nadere regels van de rechtsperson… *(B.S., 30 september 2020; err., B.S., 7 oktober 2020)* | 2612 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 11 september 2020 betreffende de beroepsoplei­ding van de accountants en va… *(B.S., 30 september 2020; err., B.S., 7 oktober 2020)* | 2623 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | M.B. 26 juni 2023 tot vaststelling van het examenregle­ment van het Instituut va… *(B.S., 7 augustus 2023; err., B.S., 30 oktober 2023)* | 2633 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 11 september 2020 tot bepaling van de datum van inwerkingtreding en tot oph… *(B.S., 30 september 2020)* | 2641 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | Wet 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen *(B.S., 11 mei 1999)* | 2642 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 1 maart 1998 tot vaststelling van het reglement van de plichtenleer der acc… *(B.S., 31 maart 1998)* | 2644 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 9 december 2019 tot vastlegging van een règle inzake de kwaliteitstoetsing … *(B.S., 20 december 2019)* | 2648 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 28 november 2018 tot bepaling van de regels inzake de organisatie en de wer… *(B.S., 20 december 2018)* | 2654 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 10 april 2015 tot goedkeuring van het stagereglement van het Beroepsinstitu… *(B.S., 19 mei 2015)* | 2661 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 14 januari 2021 tot goedkeuring van het reglement van het Beroepsinstituut … *(B.S., 19 mei 2015)* | 2662 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | Regl. 24 oktober 2014 van het Beroepsinstituut van erkende Boekhouders en Fiscal… *(B.S., 19 mei 2015)* | 2662 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 27 september 2015 betreffende het programma, de beroepsinsituurexamen van d… *(B.S., 11 februari 2021)* | 2666 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | Regl. 23 september 2020 van plichtenleer van het Beroepsinstituut van de erkende… *(B.S., 23 november 2015)* | 2665 | [[wetteksten/XXI-wet-itaa\|→]] |
+| ✅ | XXI | K.B. 23 juni 1994 tot uitvoering, wat de economische beroepen betreft, van artik… *(B.S., 28 juni 1994)* | 2670 | [[wetteksten/XXI-wet-itaa\|→]] |
 
 ## Legenda
 
