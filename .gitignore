@@ -15,6 +15,7 @@ node_modules/
 .DS_Store
 
 # Resources — ruwe downloads (PDFs, txt)
+resources/raw/
 resources/wetteksten/raw/
 resources/wetteksten/*.txt
 resources/normen/raw/

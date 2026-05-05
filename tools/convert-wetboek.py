@@ -160,6 +160,31 @@ CONFIGS = {
         'wet': 'K.B. nr. 48, 29 december 1992, met betrekking tot de levering van vervoermiddelen',
         'bijgewerkt': '1992', 'titel': 'BTW KB nr. 48 — Levering vervoermiddelen', 'tags': '["VI.B", "2.4"]',
     },
+
+    'wbtw-kb23': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB23-jaarlijkse-lijst.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb23.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 23, 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers',
+        'bijgewerkt': '2009', 'titel': 'BTW KB nr. 23 — Jaarlijkse lijst afnemers', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb44': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB44-geldboeten.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb44.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 44, 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de btw',
+        'bijgewerkt': '2012', 'titel': 'BTW KB nr. 44 — Niet-proportionele geldboeten', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb-gks': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB-GKS.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb-gks.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen',
+        'bijgewerkt': '2024', 'titel': 'BTW KB — Geregistreerd kassasysteem (GKS)', 'tags': '["VI.B", "2.4"]',
+    },
     'wbtw-kb1': {
         'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf',
         'output_resources': 'resources/bronnen/wetteksten/WBTW-KB1-voldoening.md',
