@@ -1,7 +1,7 @@
 ---
 tags: ["XI"]
 itaa-lex-sectie: "XI"
-wet: 'Wet 28 april 2022 houdende Boek 1 'Algemene bepalingen' van het Burgerlijk Wetboek'
+wet: "Wet 28 april 2022 houdende Boek 1 Algemene bepalingen van het Burgerlijk Wetboek"
 status: "beschikbaar"
 bijgewerkt: "28.04.2022"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"

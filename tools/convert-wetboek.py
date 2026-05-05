@@ -432,7 +432,7 @@ def clean_and_structure_eu(text):
 
 
 def make_header(cfg):
-    wet = cfg['wet'].replace('"', "'")  # YAML: geen dubbele quotes binnen dubbele quotes
+    wet = re.sub(r'["']', '', cfg['wet'])  # YAML: geen dubbele quotes binnen dubbele quotes
     return f"""---
 tags: {cfg['tags']}
 itaa-lex-sectie: "{cfg['itaa_sectie']}"
