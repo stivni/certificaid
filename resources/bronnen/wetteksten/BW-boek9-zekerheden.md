@@ -1,7 +1,7 @@
 ---
 tags: ["XI"]
 itaa-lex-sectie: "XI"
-wet: "Wet 5 juni 2025 houdende Titel 1 Persoonlijke zekerheden van Boek 9 Zekerheden van het Burgerlijk Wetboek"
+wet: "Wet 5 juni 2025 houdende Titel 1 \"Persoonlijke zekerheden\" van Boek 9 \"Zekerheden\" van het Burgerlijk Wetboek"
 status: "beschikbaar"
 bijgewerkt: "05.06.2025"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
