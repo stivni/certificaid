@@ -145,27 +145,27 @@ Bronnen staan in twee plaatsen:
 **ITAA-normen doorzoeken** — elk norm-bestand heeft YAML-frontmatter met `naam`, `datum`, `themas` (lijst):
 ```bash
 # Op thema:
-grep -rl "" content/bronnen/normen/
-grep -rl "" content/bronnen/normen/
+grep -rl "" resources/bronnen/normen/
+grep -rl "" resources/bronnen/normen/
 
 # Vrije tekst:
-grep -rl "" content/bronnen/normen/
+grep -rl "" resources/bronnen/normen/
 ```
 
 **CBN-adviezen doorzoeken** — elk advies heeft YAML-frontmatter met `nummer`, `datum`, `themas` (lijst):
 ```bash
 # Op thema (frontmatter — meest precies):
-grep -rl "  - leasing" content/bronnen/adviezen/
-grep -rl "  - afschrijving" content/bronnen/adviezen/
+grep -rl "  - leasing" resources/bronnen/adviezen/
+grep -rl "  - afschrijving" resources/bronnen/adviezen/
 
 # Op jaar:
-grep -rl "datum: 2021" content/bronnen/adviezen/
+grep -rl "datum: 2021" resources/bronnen/adviezen/
 
 # Vrije tekst in body:
-grep -rl "operationele leasing" content/bronnen/adviezen/
+grep -rl "operationele leasing" resources/bronnen/adviezen/
 
 # Gecombineerd — thema + recent:
-grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
+grep -l "  - leasing" resources/bronnen/adviezen/ | xargs grep -l "datum: 202"
 ```
 
 **Werkwijze bronopzoeking** (bij elke PO-build):
@@ -195,15 +195,15 @@ grep -l "  - leasing" content/bronnen/adviezen/ | xargs grep -l "datum: 202"
 
 **Nog niet lokaal beschikbaar als volledige tekst** (placeholders aanwezig in `content/bronnen/wetteksten/`): WIB92, BTW-Wetboek, BW 2019, VCF-UVB, Ord. Brussel Fiscale Procedure, Decr. Waals. Zie ook `resources/bronnen/wetteksten/status.md`.
 
-**ITAA-normen lokaal beschikbaar** in `content/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/bronnen/normen/INDEX.md` voor overzicht en download-instructies.
+**ITAA-normen lokaal beschikbaar** in `resources/bronnen/normen/` (11 bestanden: 9 ITAA-normen + ISA-570 + domiciliëringsnorm). 5 normen nog achter ITAA-authenticatie — zie `resources/bronnen/normen/INDEX.md` voor overzicht en download-instructies.
 
-**Alle CBN-adviezen lokaal beschikbaar** in `content/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/raw/normen/` (normen) — adviezen hebben geen aparte raw-map. Semantische index: `resources/bronnen/adviezen/INDEX.md`.
+**Alle CBN-adviezen lokaal beschikbaar** in `resources/bronnen/adviezen/` (466 bestanden, verbatim via HTML-extractie, nummerprefix). Raw PDFs in `resources/raw/normen/` (normen) — adviezen hebben geen aparte raw-map. Semantische index: `resources/bronnen/adviezen/INDEX.md`.
 
 **Werkwijze bij het schrijven van materie:**
 1. Lees `resources/bronnen/wetteksten/INDEX.md` — welke wet is relevant?
 2. Lees `resources/bronnen/adviezen/INDEX.md` — welk CBN-advies behandelt dit onderwerp?
 3. Grep in de gevonden bestanden op artikelnummer of sleutelwoord
-4. Citeer inline via wikilink naar `content/bronnen/wetteksten/` of `content/bronnen/adviezen/`
+4. Citeer inline via wikilink naar `content/bronnen/wetteksten/` of `resources/bronnen/adviezen/`
 5. Ga enkel online als de bron niet lokaal beschikbaar is
 
 ### Bronhiërarchie
@@ -214,13 +214,13 @@ De bronhiërarchie verschilt per laag.
 1. Wetteksten in `content/bronnen/wetteksten/` — gecoördineerde versies (dezelfde tekst als in resources/bronnen/wetteksten/, nu met ITAA-LEX sectienummers als bestandsnaam)
 2. Officiële wetteksten op [ejustice.just.fgov.be](http://ejustice.just.fgov.be)
 3. [Fisconet.be](http://Fisconet.be) (WIB92, WBTW, ...)
-4. CBN-adviezen in `content/bronnen/adviezen/` — volledig lokaal
+4. CBN-adviezen in `resources/bronnen/adviezen/` — volledig lokaal
 5. NBB-documentatie op [nbb.be](http://nbb.be)
 
 **Voor competenties (technieken):**
-1. ITAA-normen in `content/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/bronnen/normen/INDEX.md`
-2. CBN-adviezen in `content/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/bronnen/adviezen/INDEX.md`
-3. ISA / ISAE / ISRS (IBR-standaarden) — ISA-570 beschikbaar in `content/bronnen/normen/`; overige normen via ibr-ire.be (⚠️ nog niet lokaal ingeladen)
+1. ITAA-normen in `resources/bronnen/normen/` — 11 normen volledig lokaal; index via `resources/bronnen/normen/INDEX.md`
+2. CBN-adviezen in `resources/bronnen/adviezen/` — 466 adviezen volledig lokaal, verbatim; index via `resources/bronnen/adviezen/INDEX.md`
+3. ISA / ISAE / ISRS (IBR-standaarden) — ISA-570 beschikbaar in `resources/bronnen/normen/`; overige normen via ibr-ire.be (⚠️ nog niet lokaal ingeladen)
 4. Administratieve circulaires FOD Financiën — hoe fiscale regels in de praktijk worden toegepast
 5. Erkende handboeken en beroepspraktijk — secundair, niet bindend
 6. Geconstrueerde kennis — altijd 🤖 labelen
@@ -232,8 +232,8 @@ De bronhiërarchie verschilt per laag.
 
 **Werkwijze bij het schrijven van een competentie:**
 1. Zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft — dat is dan de primaire bron, geen constructie
-2. Lees `resources/bronnen/normen/INDEX.md` — grep dan in `content/bronnen/normen/`
-3. Lees `resources/bronnen/adviezen/INDEX.md` — grep dan in `content/bronnen/adviezen/`
+2. Lees `resources/bronnen/normen/INDEX.md` — grep dan in `resources/bronnen/normen/`
+3. Lees `resources/bronnen/adviezen/INDEX.md` — grep dan in `resources/bronnen/adviezen/`
 4. Ga online (itaa.be, cnc-cbn.be) als de bron niet lokaal beschikbaar is
 5. Pas als geen gezaghebbende bron bestaat: construeer de werkwijze op basis van beroepspraktijk en label als 🤖
 
@@ -473,7 +473,7 @@ Mogelijke antwoorden:
 
 Niet elke stap heeft een expliciete grondslag nodig — voeg hem toe wanneer de bron niet evident is of wanneer het voor de student relevant is te weten of de stap wettelijk verplicht of analytisch conventioneel is.
 
-**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in resources/bronnen/normen/; voor CBN-adviezen via `resources/bronnen/adviezen/INDEX.md` → `content/bronnen/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
+**Stappen bepalen via bronnen**: zoek eerst of een ITAA-norm of CBN-advies de procedure al beschrijft. Grep in resources/bronnen/normen/; voor CBN-adviezen via `resources/bronnen/adviezen/INDEX.md` → `resources/bronnen/adviezen/`. Ga daarna online (itaa.be, cnc-cbn.be). Pas als geen gezaghebbende bron bestaat: construeer op basis van beroepspraktijk en label als 🤖.
 
 **Elke stap begint met een "waarom"-zin**: de eerste zin na het `📥/📤`-blok beantwoordt *waarom* deze stap noodzakelijk is — niet wat je doet, maar waarom je het doet. Zonder die zin is de stap een procedure-instructie zonder grond; met die zin begrijpt de student de logica en kan ze hem hertoepassen in nieuwe situaties.
 

@@ -127,7 +127,7 @@ Vóór boekjaren vanaf 1 januari 2016 kende de resultatenrekening een aparte rub
 
 Het KB van 18 december 2015 — ter omzetting van EU-Richtlijn 2013/34 — schafte die aparte rubriek af. De uitzonderlijke resultaten worden sindsdien **ondergebracht bij het bedrijfsresultaat of het financieel resultaat**, naargelang hun aard, en aangeduid als **niet-recurrente resultaten**.
 
-De CBN benadrukt uitdrukkelijk dat dit **enkel een wijziging in presentatie en benaming** betreft — op **inhoudelijk vlak, wat de kwalificatie betreft, is er geen wijziging**. De grens van wat "niet-recurrent" is, is identiek aan die van wat vroeger "uitzonderlijk" was. ([[bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015|CBN-advies 2016/24]])
+De CBN benadrukt uitdrukkelijk dat dit **enkel een wijziging in presentatie en benaming** betreft — op **inhoudelijk vlak, wat de kwalificatie betreft, is er geen wijziging**. De grens van wat "niet-recurrent" is, is identiek aan die van wat vroeger "uitzonderlijk" was. (CBN-advies 2016/24)
 
 > [!warning]- Niet-recurrent en uitzonderlijk zijn inhoudelijk equivalent — alleen de presentatie verschilt
 > ❌ *"Niet-recurrente kosten zijn iets anders dan vroeger uitzonderlijke kosten — de nieuwe term heeft een engere definitie."*
@@ -236,7 +236,7 @@ Niet-recurrente verrichtingen zijn structureel zeldzaam of éénmalig voor de sp
 - **Bijzondere [[voorzieningen|voorzieningen]]** voor niet-recurrente risico's: rechtszaken, milieusaneringen, reorganisatiekosten
 - **Schade door catastrofen**: brand, overstroming — onverwacht en niet-jaarlijks
 - **Stopzetting bedrijfsactiviteit**: afwikkeling van een verlieslatend segment, incl. mogelijke meerwaarden op het afgestoten deel
-- **Kwijtschelding van schulden bij vereffening** — als niet-recurrente financiële opbrengst ([[bronnen/adviezen/CBN-0170-01-boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het|CBN-advies 170/1]])
+- **Kwijtschelding van schulden bij vereffening** — als niet-recurrente financiële opbrengst (CBN-advies 170/1)
 - **Realisatie van financiële vaste activa**: meer- of minderwaarde bij verkoop van deelnemingen
 
 > [!info]- In de praktijk: herstructurering van een productieafdeling
@@ -304,7 +304,7 @@ Dit schendt het **matching-beginsel** van [[boekhoudkundige-beginselen|KB WVV ar
 > [!warning]- Niet-recurrente bedrijfsresultaten zitten wél in het bedrijfsresultaat
 > ❌ *"Niet-recurrente resultaten staan altijd ná het bedrijfsresultaat en financieel resultaat — ze beïnvloeden de EBIT niet."*
 >
-> Vóór 2016 stonden uitzonderlijke resultaten als afzonderlijke derde laag ná EBIT. **Sindsdien niet meer.** Niet-recurrente **bedrijfs**kosten en -opbrengsten (660–669 / 760–769) zitten nu in de resultaatposten II.I en I.E — die behoren structureel tot het bedrijfsresultaat. Alleen niet-recurrente **financiële** kosten en opbrengsten (661, 668 / 761, 769) zitten in de financiële posten V.D en IV.D. ([[bronnen/adviezen/CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015|CBN-advies 2016/24]])
+> Vóór 2016 stonden uitzonderlijke resultaten als afzonderlijke derde laag ná EBIT. **Sindsdien niet meer.** Niet-recurrente **bedrijfs**kosten en -opbrengsten (660–669 / 760–769) zitten nu in de resultaatposten II.I en I.E — die behoren structureel tot het bedrijfsresultaat. Alleen niet-recurrente **financiële** kosten en opbrengsten (661, 668 / 761, 769) zitten in de financiële posten V.D en IV.D. (CBN-advies 2016/24)
 >
 > 🤖 *AI-aanvulling*
 

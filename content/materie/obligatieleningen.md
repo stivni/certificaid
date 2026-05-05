@@ -18,7 +18,7 @@ bronnen:
 
 ## 📌 Obligatielening
 
-Een obligatielening is een bijzondere vorm van lening waarbij de vennootschap een schuld aangaat die is gesplitst in meerdere verhandelbare effecten — de obligaties. Elke obligatie vertegenwoordigt eenzelfde schuldvordering tegen dezelfde nominale waarde. In ruil voor het geleende bedrag betaalt de vennootschap op regelmatige tijdstippen rente (coupon) en betaalt ze het geleende bedrag terug op de vervaldag. ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
+Een obligatielening is een bijzondere vorm van lening waarbij de vennootschap een schuld aangaat die is gesplitst in meerdere verhandelbare effecten — de obligaties. Elke obligatie vertegenwoordigt eenzelfde schuldvordering tegen dezelfde nominale waarde. In ruil voor het geleende bedrag betaalt de vennootschap op regelmatige tijdstippen rente (coupon) en betaalt ze het geleende bedrag terug op de vervaldag. (CBN-advies 2019/07)
 
 Een obligatielening is een **schuld** — de obligatiehouders zijn crediteuren, geen aandeelhouders. Ze krijgen geen stemrecht en hun rendement is contractueel vastgelegd, niet variabel.
 
@@ -60,9 +60,9 @@ Bij een uitgifte onder pari (de belegger betaalt minder dan de nominale waarde) 
 
 **À pari**: de uitgifteprijs is gelijk aan de nominale waarde. De vennootschap ontvangt exact het nominale bedrag.
 
-**Uitgifte boven pari** (met agio): de belegger betaalt meer dan de nominale waarde. De vennootschap ontvangt meer dan ze terugbetaalt — dit voordeel is een opbrengst die pro rata temporis over de looptijd in resultaat wordt genomen (als negatieve rentekost). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07 — Agio en disagio]])
+**Uitgifte boven pari** (met agio): de belegger betaalt meer dan de nominale waarde. De vennootschap ontvangt meer dan ze terugbetaalt — dit voordeel is een opbrengst die pro rata temporis over de looptijd in resultaat wordt genomen (als negatieve rentekost). (CBN-advies 2019/07 — Agio en disagio)
 
-**Uitgifte onder pari** (met disagio): de belegger betaalt minder dan de nominale waarde. De vennootschap ontvangt minder dan ze terugbetaalt — dit nadeel is een kost die pro rata temporis over de looptijd in resultaat wordt genomen (als extra rentekost). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07 — Agio en disagio]])
+**Uitgifte onder pari** (met disagio): de belegger betaalt minder dan de nominale waarde. De vennootschap ontvangt minder dan ze terugbetaalt — dit nadeel is een kost die pro rata temporis over de looptijd in resultaat wordt genomen (als extra rentekost). (CBN-advies 2019/07 — Agio en disagio)
 
 **Boekhoudkundige verwerking van agio/disagio**: de obligatielening wordt initieel geboekt tegen de **uitgiftewaarde** (het bedrag dat de vennootschap effectief ontvangt). Het verschil tussen de uitgiftewaarde en de terugbetalingswaarde wordt daarna pro rata temporis verwerkt als rentekost (disagio) of renteopbrengst (agio), en gecrediteerd aan of gedebiteerd van de schuldenrekening. De schuld nadert zo geleidelijk de terugbetalingswaarde. (KB WVV art. 3:51 via art. 3:55)
 
@@ -96,7 +96,7 @@ Wanneer de uitgiftewaarde verschilt van de terugbetalingswaarde op vervaldag, wo
 
 Het verschil wordt zo toegevoegd aan of afgetrokken van de balanswaarde van de lening, zodat die op de vervaldag exact gelijk is aan de terugbetalingswaarde.
 
-Uitzondering: wanneer het effect te verwaarlozen is, mag de vennootschap de lening tegen de uitgiftewaarde in de balans houden. ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
+Uitzondering: wanneer het effect te verwaarlozen is, mag de vennootschap de lening tegen de uitgiftewaarde in de balans houden. (CBN-advies 2019/07)
 
 ## 📋 Uitgifte van een obligatielening — boekhoudkundige verwerking
 
@@ -128,7 +128,7 @@ DR  1711  Niet-achtergestelde obligatieleningen        16.667
   (negatieve rentekost = de balanswaarde daalt richting nominaal)
 ```
 
-*(Grondslag: [[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])*
+*(Grondslag: CBN-advies 2019/07)*
 
 ### Uitgifte onder pari (disagio: vennootschap ontvangt minder dan nominaal)
 
@@ -148,7 +148,7 @@ DR  6500  Rente, commissies en kosten verbonden aan schulden    6.000
   (balanswaarde stijgt richting 1.000.000)
 ```
 
-*(Grondslag: [[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])*
+*(Grondslag: CBN-advies 2019/07)*
 
 ## 📋 Periodieke couponbetaling
 
@@ -205,13 +205,13 @@ DR  480   Vervallen obligaties en coupons             5.000.000
   CR  5500  Kredietinstellingen – Rekening-courant            5.000.000
 ```
 
-Bankkosten verbonden aan de aflossing worden geboekt op rekening 658 (bank- en afwikkelingskosten). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
+Bankkosten verbonden aan de aflossing worden geboekt op rekening 658 (bank- en afwikkelingskosten). (CBN-advies 2019/07)
 
 ## 📋 Kosten bij uitgifte van leningen
 
 Bankkosten, noteringskosten en publicatiekosten bij uitgifte van een obligatielening worden geboekt op rekening 201 (Kosten bij uitgifte van leningen, onder Oprichtingskosten). De vennootschap kiest tussen:
 1. onmiddellijk in de resultatenrekening opnemen, of
-2. activeren en afschrijven over de looptijd van de lening (minimum 20% per jaar, of gespreid over de volledige looptijd). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07 — Kosten bij uitgifte van leningen]])
+2. activeren en afschrijven over de looptijd van de lening (minimum 20% per jaar, of gespreid over de volledige looptijd). (CBN-advies 2019/07 — Kosten bij uitgifte van leningen)
 
 ## 📋 Conversie van een converteerbare obligatie
 
@@ -230,7 +230,7 @@ Het verschil tussen de boekwaarde van de obligatie en de nominale waarde van de 
 >
 > Het disagio (het verschil tussen de ontvangen uitgifteprijs en de terugbetalingswaarde) wordt **niet** integraal als kost geboekt in het jaar van uitgifte. Het wordt pro rata temporis over de looptijd van de lening in resultaat genomen als bestanddeel van de rentekost. De obligatielening wordt geboekt tegen de uitgiftewaarde; de balanswaarde schuift elk jaar op richting de terugbetalingswaarde. Pas op de vervaldag is de balanswaarde gelijk aan het terug te betalen bedrag.
 >
-> Grondslag: KB WVV art. 3:55 → art. 3:51; [[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]]
+> Grondslag: KB WVV art. 3:55 → art. 3:51; CBN-advies 2019/07
 >
 > 🤖 *AI-aanvulling*
 
@@ -254,7 +254,7 @@ Pro rata voor onvolledig jaar (9 maanden):
 9/12 × 16.667 = 12.500 euro
 ```
 
-**Actuariële methode** (standaard): het verschil wordt verdeeld op basis van de effectieve rente bij uitgifte. De jaarlijkse aanpassing is kleiner in vroege jaren en groter in latere jaren (samengestelde interest). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
+**Actuariële methode** (standaard): het verschil wordt verdeeld op basis van de effectieve rente bij uitgifte. De jaarlijkse aanpassing is kleiner in vroege jaren en groter in latere jaren (samengestelde interest). (CBN-advies 2019/07)
 
 ## 🔒 Uitgifte obligaties — vennootschapsrechtelijke basis
 
@@ -262,7 +262,7 @@ Pro rata voor onvolledig jaar (9 maanden):
 
 **Naamloze vennootschap (NV)**: in de overeenkomst van lening aangegaan in de vorm van obligaties is de ontbindende voorwaarde bij niet-nakoming altijd stilzwijgend begrepen. (WVV art. 7:64)
 
-Het bestuursorgaan bepaalt de uitgiftevoorwaarden (uitgifteprijs, couponrente, terugbetalingswaarde, looptijd, conversierecht). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
+Het bestuursorgaan bepaalt de uitgiftevoorwaarden (uitgifteprijs, couponrente, terugbetalingswaarde, looptijd, conversierecht). (CBN-advies 2019/07)
 
 ## 🔒 Roerende voorheffing op coupons
 

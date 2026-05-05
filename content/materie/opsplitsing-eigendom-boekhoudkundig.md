@@ -13,7 +13,7 @@ bronnen:
 
 Wanneer het eigendomsrecht wordt opgesplitst, verwerft de ene partij het gebruiks- en genotsrecht (tijdelijk) terwijl de andere partij de eigendom behoudt. De boekhoudkundige verwerking volgt de economische en juridische werkelijkheid: wie het zakelijk recht verwerft dat hem gebruik geeft, activeert dat recht en schrijft het af over de duur ervan. Wie de eigendom behoudt maar het gebruik afstaat, staakt de gewone afschrijving zolang het zakelijke recht duurt.
 
-Primaire bron: CBN-advies 2015/5 ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]]), dat de eerdere adviezen 162/2 en 150/3 vervangt en de volledige boekhoudkundige verwerking van vruchtgebruik, blote eigendom, opstalrecht, erfpachtrecht en erfdienstbaarheid beschrijft.
+Primaire bron: CBN-advies 2015/5 (CBN-advies 2015/5), dat de eerdere adviezen 162/2 en 150/3 vervangt en de volledige boekhoudkundige verwerking van vruchtgebruik, blote eigendom, opstalrecht, erfpachtrecht en erfdienstbaarheid beschrijft.
 
 ---
 
@@ -30,10 +30,10 @@ Bij de opsplitsing van het eigendomsrecht worden deze componenten verdeeld over 
 
 *Usufruit*
 
-Het vruchtgebruik is het recht om van andermans zaak het genot te hebben — dat wil zeggen gebruik en vruchten — zoals de eigenaar zelf, maar met de plicht de zaak in stand te houden. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Definitie en kenmerken]])
+Het vruchtgebruik is het recht om van andermans zaak het genot te hebben — dat wil zeggen gebruik en vruchten — zoals de eigenaar zelf, maar met de plicht de zaak in stand te houden. (CBN-advies 2015/5, § Definitie en kenmerken)
 
 Het vruchtgebruik is per definitie tijdelijk:
-- Voor een **rechtspersoon**: eindigt bij ontbinding of bij het verstrijken van de overeengekomen termijn — maximaal **30 jaar**. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+- Voor een **rechtspersoon**: eindigt bij ontbinding of bij het verstrijken van de overeengekomen termijn — maximaal **30 jaar**. (CBN-advies 2015/5)
 - Voor een **natuurlijke persoon**: eindigt bij overlijden of bij het verstrijken van de termijn als die eerder valt.
 
 ## 📌 Blote eigendom
@@ -42,17 +42,17 @@ Het vruchtgebruik is per definitie tijdelijk:
 
 De blote eigendom is de eigendom van een goed dat bezwaard is met een vruchtgebruik — de volle eigendom verminderd met het gebruiks- en genotsrecht dat tijdelijk bij de vruchtgebruiker berust. De blote eigenaar heeft het beschikkingsrecht maar kan het goed niet gebruiken of de vruchten innen zolang het vruchtgebruik loopt.
 
-Bij het verstrijken van het vruchtgebruik wordt de blote eigenaar van rechtswege opnieuw volle eigenaar. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+Bij het verstrijken van het vruchtgebruik wordt de blote eigenaar van rechtswege opnieuw volle eigenaar. (CBN-advies 2015/5)
 
 ## 📌 Opstalrecht
 
-Het opstalrecht is een zakelijk recht om gebouwen, werken of beplantingen te hebben op, boven of onder andermans grond — voor een periode van maximaal **50 jaar**. De opstalhouder wordt eigenaar van de constructies die hij opricht; bij het einde van het opstalrecht gaan die door natrekking over op de grondeigenaar. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Opstalrecht — Definitie]])
+Het opstalrecht is een zakelijk recht om gebouwen, werken of beplantingen te hebben op, boven of onder andermans grond — voor een periode van maximaal **50 jaar**. De opstalhouder wordt eigenaar van de constructies die hij opricht; bij het einde van het opstalrecht gaan die door natrekking over op de grondeigenaar. (CBN-advies 2015/5, § Opstalrecht — Definitie)
 
 Een **onzelfstandig opstalrecht** is een opstalrecht dat niet zelfstandig staat maar vervat zit in een ander recht, bijvoorbeeld in een huurovereenkomst of een vruchtgebruik.
 
 ## 📌 Erfpachtrecht
 
-Het erfpachtrecht is een zakelijk recht om het volle genot te hebben van een onroerend goed van een ander, mits betaling van een jaarlijkse pacht. Het erfpachtrecht heeft een minimale looptijd van **27 jaar** en een maximale looptijd van **99 jaar** — termijnen van openbare orde. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Erfpachtrecht]])
+Het erfpachtrecht is een zakelijk recht om het volle genot te hebben van een onroerend goed van een ander, mits betaling van een jaarlijkse pacht. Het erfpachtrecht heeft een minimale looptijd van **27 jaar** en een maximale looptijd van **99 jaar** — termijnen van openbare orde. (CBN-advies 2015/5, § Erfpachtrecht)
 
 Voor de boekhoudkundige verwerking verwijst CBN-advies 2015/5 naar de regels voor vruchtgebruik en opstalrecht — de principes zijn analoog.
 
@@ -60,7 +60,7 @@ Voor de boekhoudkundige verwerking verwijst CBN-advies 2015/5 naar de regels voo
 
 ## ⚖️ Zakelijk recht actief op de balans — wanneer?
 
-Een tijdelijk zakelijk recht wordt **op het actief opgenomen** wanneer de vergoeding vooruitbetaald is bij aanvang van de overeenkomst. (KB WVV art. 3:40; [[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Boekhoudkundige bepalingen]])
+Een tijdelijk zakelijk recht wordt **op het actief opgenomen** wanneer de vergoeding vooruitbetaald is bij aanvang van de overeenkomst. (KB WVV art. 3:40; CBN-advies 2015/5, § Boekhoudkundige bepalingen)
 
 Wanneer de vergoeding uitsluitend in **periodieke termijnen** wordt betaald en de overeenkomst niet voldoet aan de criteria voor onroerende leasing, worden die termijnen als een **huurkost** geboekt (rekening 61 Diensten en diverse goederen). Het zakelijk recht verschijnt dan niet op het actief maar wordt vermeld in de orderekeningen en de toelichting.
 
@@ -77,7 +77,7 @@ Wanneer de vergoeding uitsluitend in **periodieke termijnen** wordt betaald en d
 
 ## ⚖️ Afschrijvingsgrondslag bij opgesplitst eigendom
 
-De afschrijvingsduur volgt de duur van het zakelijk recht, niet de levensduur van het onderliggende goed — tenzij de economische gebruiksduur van het goed korter is. Dan is die kortere duur maatgevend. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+De afschrijvingsduur volgt de duur van het zakelijk recht, niet de levensduur van het onderliggende goed — tenzij de economische gebruiksduur van het goed korter is. Dan is die kortere duur maatgevend. (CBN-advies 2015/5)
 
 Voorbeelden:
 - Vruchtgebruik op een gebouw voor 20 jaar, economische levensduur gebouw is 40 jaar → afschrijven over **20 jaar**
@@ -88,7 +88,7 @@ Voorbeelden:
 >
 > De vruchtgebruiker schrijft af over de **duur van het vruchtgebruik** — niet over de (mogelijk langere) levensduur van het gebouw. Het zakelijk recht eindigt na verloop van de overeengekomen termijn; de resterende economische levensduur van het gebouw heeft daarna geen waarde meer voor de (ex-)vruchtgebruiker.
 >
-> Enkel als de economische gebruiksduur *korter* is dan de duur van het zakelijk recht, geldt die kortere duur als afschrijvingsbasis. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+> Enkel als de economische gebruiksduur *korter* is dan de duur van het zakelijk recht, geldt die kortere duur als afschrijvingsbasis. (CBN-advies 2015/5)
 >
 > 🤖 *AI-aanvulling*
 
@@ -98,7 +98,7 @@ Voorbeelden:
 
 ### Aanschaffing van het vruchtgebruik
 
-Het vruchtgebruik wordt geboekt als **Overige zakelijke rechten op onroerende goederen** (rekening **2230** aanschaffingswaarde) tegen de aanschaffingswaarde. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+Het vruchtgebruik wordt geboekt als **Overige zakelijke rechten op onroerende goederen** (rekening **2230** aanschaffingswaarde) tegen de aanschaffingswaarde. (CBN-advies 2015/5)
 
 ```
 Recht van vruchtgebruik op loods, duurtijd 15 jaar, aanschaffingswaarde 600.000 €
@@ -120,7 +120,7 @@ Krediet    2239 Overige zakelijke rechten — geboekte afschr.  40.000
 
 ### Einde van het vruchtgebruik
 
-Bij afloop is het recht volledig afgeschreven. Het actief wordt uitgeboekt: ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+Bij afloop is het recht volledig afgeschreven. Het actief wordt uitgeboekt: (CBN-advies 2015/5)
 
 ```
 Debet  2239 Overige zakelijke rechten — geboekte afschrijvingen   600.000
@@ -139,7 +139,7 @@ Als er een **restwaarde** zou zijn (bv. bij vervroegde beëindiging), wordt een 
 
 ## 📋 Verbeteringswerken door de vruchtgebruiker
 
-Wanneer de vruchtgebruiker uitbreidings- of verbeteringswerken uitvoert aan het goed, worden die werken geboekt op rekening **26 Andere materiële vaste activa** en afgeschreven via een passend plan. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Vruchtgebruiker — verbeteringswerken]])
+Wanneer de vruchtgebruiker uitbreidings- of verbeteringswerken uitvoert aan het goed, worden die werken geboekt op rekening **26 Andere materiële vaste activa** en afgeschreven via een passend plan. (CBN-advies 2015/5, § Vruchtgebruiker — verbeteringswerken)
 
 De vruchtgebruiker heeft een **keuzerecht** (oud BW art. 599, inmiddels vervangen door BW Boek 3): hij kan de verbeteringen bij het einde meenemen (weghalen) of ter plaatse laten. In dat laatste geval heeft hij geen recht op vergoeding van de blote eigenaar — tenzij de partijen contractueel een andere regeling hebben afgesproken.
 
@@ -159,7 +159,7 @@ De vruchtgebruiker heeft een **keuzerecht** (oud BW art. 599, inmiddels vervange
 
 ### Verwerving van de blote eigendom
 
-De blote eigenaar boekt de blote eigendom op rekening **26 Andere materiële vaste activa** (niet op de gewone terreinen- en gebouwenrekeningen). De aanschaffingswaarde omvat de aankoopprijs plus bijkomende kosten (registratierechten, notariskosten). ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Verwerving blote eigendom]])
+De blote eigenaar boekt de blote eigendom op rekening **26 Andere materiële vaste activa** (niet op de gewone terreinen- en gebouwenrekeningen). De aanschaffingswaarde omvat de aankoopprijs plus bijkomende kosten (registratierechten, notariskosten). (CBN-advies 2015/5, § Verwerving blote eigendom)
 
 ```
 Gesplitste aankoop: totaalprijs 300.000 €, blote eigendom = 40% → 120.000 € (+ 15% bijkomende kosten)
@@ -170,18 +170,18 @@ Krediet    489 Andere diverse schulden                             138.000
 
 ### Geen gewone afschrijving tijdens het vruchtgebruik
 
-Zolang het vruchtgebruik loopt, worden **geen gewone afschrijvingen** geboekt op de blote eigendom. De economische rationale: de aanschaffingswaarde van de blote eigendom houdt al rekening met de normale waardevermindering van het onderliggende goed tijdens de vruchtgebruiksperiode. De blote eigenaar "gebruikt" het goed niet — het matching principle vereist dan geen afschrijving. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+Zolang het vruchtgebruik loopt, worden **geen gewone afschrijvingen** geboekt op de blote eigendom. De economische rationale: de aanschaffingswaarde van de blote eigendom houdt al rekening met de normale waardevermindering van het onderliggende goed tijdens de vruchtgebruiksperiode. De blote eigenaar "gebruikt" het goed niet — het matching principle vereist dan geen afschrijving. (CBN-advies 2015/5)
 
 Uitzondering: als de marktwaarde van de blote eigendom op inventarisdatum **lager** is dan de boekwaarde, moet een [[waardeverminderingen|waardevermindering]] worden geboekt.
 
 ### Na afloop van het vruchtgebruik
 
-De blote eigenaar wordt van rechtswege opnieuw volle eigenaar. Het actief wordt overgeboekt van rubriek 26 naar rubriek 22 (Terreinen en gebouwen). Daarna worden gewone afschrijvingen hervat over de resterende economische gebruiksduur van het gebouw. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+De blote eigenaar wordt van rechtswege opnieuw volle eigenaar. Het actief wordt overgeboekt van rubriek 26 naar rubriek 22 (Terreinen en gebouwen). Daarna worden gewone afschrijvingen hervat over de resterende economische gebruiksduur van het gebouw. (CBN-advies 2015/5)
 
 > [!warning]- Blote eigendom wordt niet afgeschreven tijdens de looptijd van het vruchtgebruik
 > ❌ *"De blote eigenaar schrijft zijn actief gewoon verder af over de levensduur van het gebouw, ook terwijl het vruchtgebruik loopt."*
 >
-> Zolang het vruchtgebruik duurt, gebruikte de blote eigenaar het goed niet — het matching principle vereist geen afschrijving. De aanschaffingswaarde van de blote eigendom weerspiegelt al de normale waardedaling van het goed tijdens de vruchtgebruiksperiode. Enkel bij een duurzame waardedaling onder de boekwaarde moet een [[waardeverminderingen|waardevermindering]] worden geboekt. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+> Zolang het vruchtgebruik duurt, gebruikte de blote eigenaar het goed niet — het matching principle vereist geen afschrijving. De aanschaffingswaarde van de blote eigendom weerspiegelt al de normale waardedaling van het goed tijdens de vruchtgebruiksperiode. Enkel bij een duurzame waardedaling onder de boekwaarde moet een [[waardeverminderingen|waardevermindering]] worden geboekt. (CBN-advies 2015/5)
 >
 > 🤖 *AI-aanvulling*
 
@@ -189,7 +189,7 @@ De blote eigenaar wordt van rechtswege opnieuw volle eigenaar. Het actief wordt 
 
 ## 📋 Vestiging van het vruchtgebruik door de volle eigenaar
 
-Wanneer een vennootschap haar volle eigendom omzet in blote eigendom door een vruchtgebruik te vestigen, is dit een **gedeeltelijke realisatie** van de eigendom: de onbeperkte eigendom wordt omgezet in een tijdelijk recht. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Volle eigenaar — vestiging vruchtgebruik]])
+Wanneer een vennootschap haar volle eigendom omzet in blote eigendom door een vruchtgebruik te vestigen, is dit een **gedeeltelijke realisatie** van de eigendom: de onbeperkte eigendom wordt omgezet in een tijdelijk recht. (CBN-advies 2015/5, § Volle eigenaar — vestiging vruchtgebruik)
 
 **Stap 1: Bepaal de boekwaarde van de blote eigendom**
 
@@ -212,13 +212,13 @@ Krediet    743 Diverse bedrijfsopbrengsten               300.000
 → gevolgd door overboeking naar rubriek 26
 ```
 
-De exacte boekingen zijn afhankelijk van de verhouding vruchtgebruik/volle eigendom en de gecumuleerde afschrijvingen op de vestigingsdatum — zie ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, Voorbeelden 2, 4 en 5]]) voor volledig uitgewerkte gevallen.
+De exacte boekingen zijn afhankelijk van de verhouding vruchtgebruik/volle eigendom en de gecumuleerde afschrijvingen op de vestigingsdatum — zie (CBN-advies 2015/5, Voorbeelden 2, 4 en 5) voor volledig uitgewerkte gevallen.
 
 ---
 
 ## 📋 Boekhoudkundige verwerking van het opstalrecht
 
-Voor het opstalrecht gelden dezelfde principes als voor het vruchtgebruik. Bijzondere aandachtspunten: ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Opstalrecht]])
+Voor het opstalrecht gelden dezelfde principes als voor het vruchtgebruik. Bijzondere aandachtspunten: (CBN-advies 2015/5, § Opstalrecht)
 
 - **Verwerving opstalrecht**: de aanschaffingswaarde van het recht wordt geboekt op rekening 2230 (Overige zakelijke rechten) en afgeschreven over de duur van het opstalrecht, net zoals bij vruchtgebruik.
 - **Bouwwerken door de opstalhouder**: de opgerichte gebouwen worden geboekt op rekening **221 Gebouwen** (niet op 2230) en afgeschreven over de duur van het opstalrecht of de economische levensduur als die korter is.
@@ -265,7 +265,7 @@ Het sleutelonderscheid is de juridische aard: het vruchtgebruik is een zakelijk 
 > [!warning]- Vruchtgebruik beland op de balans, huur niet
 > ❌ *"Een vruchtgebruik dat periodiek vergoed wordt, werkt boekhoudkundig zoals een huurcontract."*
 >
-> Een vruchtgebruik dat **uitsluitend in periodieke termijnen** vergoed wordt (zonder vooruitbetaling bij aanvang), wordt inderdaad als huurkost geboekt — maar het vruchtgebruik dat met een **vooruitbetaalde vergoeding** verworven wordt, staat wél op het actief (rekening 223). De vergoedingsvorm bepaalt dus de boekhoudkundige verwerking, niet de aard van het recht als dusdanig. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5]])
+> Een vruchtgebruik dat **uitsluitend in periodieke termijnen** vergoed wordt (zonder vooruitbetaling bij aanvang), wordt inderdaad als huurkost geboekt — maar het vruchtgebruik dat met een **vooruitbetaalde vergoeding** verworven wordt, staat wél op het actief (rekening 223). De vergoedingsvorm bepaalt dus de boekhoudkundige verwerking, niet de aard van het recht als dusdanig. (CBN-advies 2015/5)
 >
 > 🤖 *AI-aanvulling*
 
@@ -294,7 +294,7 @@ In constructies waarbij een vennootschap het vruchtgebruik koopt van een bedrijf
 > [!warning]- Overwaardering vruchtgebruik leidt tot boekhoudkundige correctie, niet enkel fiscale
 > ❌ *"De overwaardering van een vruchtgebruik is enkel een fiscaal probleem — boekhoudkundig mag elke overeengekomen prijs worden geactiveerd."*
 >
-> Een vruchtgebruik wordt geboekt tegen aanschaffingswaarde — maar die aanschaffingswaarde moet de economische en juridische werkelijkheid weerspiegelen (CBN-advies 162/1). Als de betaalde prijs hoger is dan de reële waarde van de toekomstige genots­stroom, moet een [[waardeverminderingen|waardevermindering]] worden geboekt. Het principe "substance over form" geldt: de boekhoudkundige verwerking volgt de werkelijke draagwijdte van de verrichting. ([[bronnen/adviezen/CBN-0162-01-boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel|CBN-advies 162/1, § 4]])
+> Een vruchtgebruik wordt geboekt tegen aanschaffingswaarde — maar die aanschaffingswaarde moet de economische en juridische werkelijkheid weerspiegelen (CBN-advies 162/1). Als de betaalde prijs hoger is dan de reële waarde van de toekomstige genots­stroom, moet een [[waardeverminderingen|waardevermindering]] worden geboekt. Het principe "substance over form" geldt: de boekhoudkundige verwerking volgt de werkelijke draagwijdte van de verrichting. (CBN-advies 162/1, § 4)
 >
 > 🤖 *AI-aanvulling*
 
@@ -302,7 +302,7 @@ In constructies waarbij een vennootschap het vruchtgebruik koopt van een bedrijf
 
 ## 🚩 Geen waardevermindering boeken op blote eigendom bij marktwaardedaling
 
-De blote eigenaar schrijft niet af tijdens de vruchtgebruiksperiode — maar dat ontslaat hem niet van zijn verplichting om op balansdatum te beoordelen of de boekwaarde nog verantwoord is. Als de marktwaarde van de blote eigendom daalt onder de boekwaarde (bv. door waardedaling van het onderliggende goed), moet een [[waardeverminderingen|waardevermindering]] worden geboekt. ([[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Verwerving blote eigendom]])
+De blote eigenaar schrijft niet af tijdens de vruchtgebruiksperiode — maar dat ontslaat hem niet van zijn verplichting om op balansdatum te beoordelen of de boekwaarde nog verantwoord is. Als de marktwaarde van de blote eigendom daalt onder de boekwaarde (bv. door waardedaling van het onderliggende goed), moet een [[waardeverminderingen|waardevermindering]] worden geboekt. (CBN-advies 2015/5, § Verwerving blote eigendom)
 
 ---
 

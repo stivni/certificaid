@@ -19,9 +19,9 @@ bouwversie: 0
 ## 📌 Continuïteitsveronderstelling
 *Going concern*
 
-De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in de voorzienbare toekomst voortzet — activa en passiva worden gewaardeerd vanuit die veronderstelling. Bij twijfel moeten de waarderingsregels worden aangepast en moet de toelichting dit vermelden. (WVV art. 2:52, [[bronnen/normen/ISA-570-herzien#par-2|ISA 570 herzien, par. 2]])
+De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in de voorzienbare toekomst voortzet — activa en passiva worden gewaardeerd vanuit die veronderstelling. Bij twijfel moeten de waarderingsregels worden aangepast en moet de toelichting dit vermelden. (WVV art. 2:52, ISA 570 herzien, par. 2)
 
-De beoordelingsperiode bedraagt minstens **12 maanden** na de balansdatum. ([[bronnen/normen/ISA-570-herzien#par-13|ISA 570 herzien, par. 13]])
+De beoordelingsperiode bedraagt minstens **12 maanden** na de balansdatum. (ISA 570 herzien, par. 13)
 
 ## ⚖️ Waardering bij discontinuïteit
 
@@ -104,7 +104,7 @@ Z = 1,2 × (NBK/TA) + 1,4 × (IW/TA) + 3,3 × (EBIT/TA) + 0,6 × (MVE/VV) + 1,0 
 
 Signalen zijn nooit op zichzelf conclusief — het is de combinatie ("gewichtige **en** overeenstemmende feiten") die de alarmbel triggert. (WVV art. 2:52)
 
-De onderstaande indeling is gangbaar in financiële analyse. Ze is ook terug te vinden in de auditstandaard [[bronnen/normen/ISA-570-herzien#par-a3|ISA 570 herzien, par. A3]] — die is niet bindend voor de gecertificeerd accountant (dat is een IBR-norm voor bedrijfsrevisoren), maar de signalen zelf zijn breed erkend analytisch referentiemateriaal.
+De onderstaande indeling is gangbaar in financiële analyse. Ze is ook terug te vinden in de auditstandaard ISA 570 herzien, par. A3 — die is niet bindend voor de gecertificeerd accountant (dat is een IBR-norm voor bedrijfsrevisoren), maar de signalen zelf zijn breed erkend analytisch referentiemateriaal.
 
 **Financiële signalen**:
 - Nettovlottende passiva of nettopasiva (meer schulden dan activa)

@@ -12,7 +12,7 @@ bronnen:
 
 ## 📌 Leasing
 
-Leasing is een overeenkomst waarbij een leasinggever (gever) het gebruik van een materieel vast actief toekent aan een leasingnemer (nemer), in ruil voor periodieke leasingvergoedingen (annuïteiten). Leasingovereenkomsten betreffen uitsluitend materiële vaste activa. ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+Leasing is een overeenkomst waarbij een leasinggever (gever) het gebruik van een materieel vast actief toekent aan een leasingnemer (nemer), in ruil voor periodieke leasingvergoedingen (annuïteiten). Leasingovereenkomsten betreffen uitsluitend materiële vaste activa. (CBN-advies 2015/4)
 
 Op boekhoudkundig vlak is de cruciale vraag niet de juridische vorm (huur vs. eigendomsoverdracht), maar de economische realiteit: draagt de leasingovereenkomst de voornaamste risico's en voordelen verbonden aan het goed over van de leasinggever aan de leasingnemer?
 
@@ -20,7 +20,7 @@ Op boekhoudkundig vlak is de cruciale vraag niet de juridische vorm (huur vs. ei
 
 *Full-payout lease*
 
-Een leasingovereenkomst is boekhoudkundig een **financiële leasing** wanneer de contractueel te storten termijnen, in voorkomend geval verhoogd met de aankoopoptie, naast de rente en de kosten van de verrichting ook de **integrale wedersamenstelling** dekken van het door de leasinggever geïnvesteerde kapitaal. (KB WVV art. 3:40 en [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+Een leasingovereenkomst is boekhoudkundig een **financiële leasing** wanneer de contractueel te storten termijnen, in voorkomend geval verhoogd met de aankoopoptie, naast de rente en de kosten van de verrichting ook de **integrale wedersamenstelling** dekken van het door de leasinggever geïnvesteerde kapitaal. (KB WVV art. 3:40 en CBN-advies 2015/4)
 
 Concreet voor **roerende leasing** (rubriek III.D): de termijnen + eventuele koopoptie moeten naast de rente en kosten ook het volledige geïnvesteerde kapitaal wedersamenstellen. Een koopoptie ten gunste van de nemer telt mee als het bedrag ervan **ten hoogste 15%** vertegenwoordigt van het door de leasinggever geïnvesteerde kapitaal. Is de optie hoger dan 15%, dan telt ze niet mee — de verrichting kwalificeert dan enkel als financiële leasing als de termijnen zonder die optie al het volledige kapitaal wedersamenstellen. (KB WVV art. 3:40 · rubriek III.D)
 
@@ -31,13 +31,13 @@ Concreet voor **onroerende leasing**: de termijnen moeten, naast de rente en kos
 >
 > De aanwezigheid van een koopoptie is geen criterium voor de kwalificatie. Ook zonder koopoptie kan een overeenkomst als financiële leasing kwalificeren. En omgekeerd: een overeenkomst met koopoptie kan operationeel zijn als de termijnen het geïnvesteerde kapitaal niet integraal wedersamenstellen. Het enige criterium is de integrale wedersamenstelling van het kapitaal via de termijnen.
 >
-> 🤖 *AI-aanvulling op basis van [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]]*
+> 🤖 *AI-aanvulling op basis van CBN-advies 2015/4*
 
 ## 📌 Operationele leasing
 
 *Non full-payout lease · Huur · Renting*
 
-Een leasingovereenkomst is boekhoudkundig een **operationele leasing** (of gewone huur, renting) wanneer de termijnen het door de leasinggever geïnvesteerde kapitaal **niet** integraal wedersamenstellen. Het goed blijft dan op de balans van de leasinggever, die het afschrijft. De leasingnemer boekt de betalingen als huurkost in de resultatenrekening. ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+Een leasingovereenkomst is boekhoudkundig een **operationele leasing** (of gewone huur, renting) wanneer de termijnen het door de leasinggever geïnvesteerde kapitaal **niet** integraal wedersamenstellen. Het goed blijft dan op de balans van de leasinggever, die het afschrijft. De leasingnemer boekt de betalingen als huurkost in de resultatenrekening. (CBN-advies 2015/4)
 
 Renting is een gangbare term voor kortlopende verhuur van roerende goederen zonder aankoopoptie, bv. kantoormaterieel of voertuigen voor gebruik op korte termijn. Boekhoudkundig identiek aan operationele leasing: volledige huurkost in de resultatenrekening.
 
@@ -47,7 +47,7 @@ Renting is een gangbare term voor kortlopende verhuur van roerende goederen zond
 
 Een sale-and-leaseback is een verrichting waarbij een onderneming een materieel vast actief verkoopt aan een derde en tegelijkertijd het gebruik ervan terugkrijgt via een leasingcontract op hetzelfde goed. De twee overeenkomsten — verkoop en leasing — worden als één geheel beschouwd.
 
-De meer- of minderwaarde vastgesteld bij de overdracht wordt **niet onmiddellijk in resultaat genomen** maar opgenomen in de overlopende rekeningen aan de passiefzijde, en elk jaar in resultaat genomen naar verhouding van de [[afschrijvingen|afschrijving]] van het geleasede goed. (KB WVV art. 3:41 · [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De meer- of minderwaarde vastgesteld bij de overdracht wordt **niet onmiddellijk in resultaat genomen** maar opgenomen in de overlopende rekeningen aan de passiefzijde, en elk jaar in resultaat genomen naar verhouding van de [[afschrijvingen|afschrijving]] van het geleasede goed. (KB WVV art. 3:41 · CBN-advies 2015/4)
 
 > [!warning]- Sale-and-leaseback: meerwaarde is geen onmiddellijke winst
 > ❌ *"Bij een sale-and-leaseback wordt de verkoopwinst op het actief onmiddellijk als opbrengst geboekt."*
@@ -67,7 +67,7 @@ De meer- of minderwaarde vastgesteld bij de overdracht wordt **niet onmiddellijk
 
 ## ⚖️ Substance over form — boekhoudkundig vs. juridisch eigendom
 
-Het doorslaggevende principe voor leasingkwalificatie is **substance over form**: de boekhoudkundige verwerking volgt de economische realiteit, niet de juridische titel. ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+Het doorslaggevende principe voor leasingkwalificatie is **substance over form**: de boekhoudkundige verwerking volgt de economische realiteit, niet de juridische titel. (CBN-advies 2015/4)
 
 Bij financiële leasing is de leasingnemer juridisch geen eigenaar, maar draagt hij wél de voornaamste risico's en voordelen van het goed. De onderliggende transactie is een kredietverrichting: de leasinggever financiert de aankoop en stelt het goed ter beschikking. Boekhoudkundig activeert de leasingnemer het goed alsof hij het gekocht heeft.
 
@@ -83,7 +83,7 @@ Dit principe verankert het verschil met operationele leasing, waar de voornaamst
 
 De leasingnemer neemt het goed op in zijn actief voor **het gedeelte van de te storten termijnen dat strekt tot de wedersamenstelling van de kapitaalwaarde** van het goed — m.a.w. de som van de kapitaalbestanddelen van alle toekomstige leasingbetalingen. (KB WVV art. 3:40)
 
-De aankoopoptie telt **niet** mee in de activeringswaarde: het lichten van de optie is geen verplichting, dus geen schuld. De optie wordt geboekt onder de niet in de balans opgenomen rechten (klasse 0, rekening 09). ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De aankoopoptie telt **niet** mee in de activeringswaarde: het lichten van de optie is geen verplichting, dus geen schuld. De optie wordt geboekt onder de niet in de balans opgenomen rechten (klasse 0, rekening 09). (CBN-advies 2015/4)
 
 Bijkomende kosten ten laste van de leasingnemer (transport, eerste ingebruikname) worden wel meegenomen in de aanschaffingswaarde van het actief (rekening 25).
 
@@ -154,7 +154,7 @@ Op het einde van elk boekjaar: het gedeelte van de leasingschuld dat het volgend
 
 ### Jaarlijkse afschrijving
 
-De leasingnemer schrijft het goed af over de economische gebruiksduur (niet over de contractduur), conform de regels die gelden voor het onderliggende actief. ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De leasingnemer schrijft het goed af over de economische gebruiksduur (niet over de contractduur), conform de regels die gelden voor het onderliggende actief. (CBN-advies 2015/4)
 
 ```
 6302  Afschrijvingen op materiële vaste activa        16.000
@@ -199,7 +199,7 @@ Bij operationele leasing is de boeking eenvoudig: de volledige huurvergoeding ga
 
 Op balansdatum: indien de huurtermijnen niet samenvallen met het boekjaar, worden overlopende posten gebruikt (toe te rekenen kosten of over te dragen kosten).
 
-De waarde van het gebruiksrecht (niet-geactualiseerde bedrag van toekomstige huurgelden) en de aankoopoptie (indien aanwezig) worden vermeld in de niet in de balans opgenomen rechten en verplichtingen (klasse 0, rekening 070/090). ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De waarde van het gebruiksrecht (niet-geactualiseerde bedrag van toekomstige huurgelden) en de aankoopoptie (indien aanwezig) worden vermeld in de niet in de balans opgenomen rechten en verplichtingen (klasse 0, rekening 070/090). (CBN-advies 2015/4)
 
 ## ↔️ Financiële vs. operationele leasing — boekhoudkundig overzicht
 
@@ -236,14 +236,14 @@ Wanneer geen integrale wedersamenstelling: **operationele leasing** → alles al
 
 Sommige leasingovereenkomsten worden bewust zo gestructureerd dat ze net niet als financieel kwalificeren — bijvoorbeeld via een iets te hoge interest — om de schuld buiten de balans te houden en de schuldratio te verbeteren.
 
-De CBN benadrukt dat de beoordeling te goeder trouw moet gebeuren: een interestvoet die artificieel verhoogd is om de kwalificatie als financiële leasing te vermijden, maar waarbij de totale kapitaalterugbetaling feitelijk volledig is, wordt toch als financiële leasing behandeld. ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De CBN benadrukt dat de beoordeling te goeder trouw moet gebeuren: een interestvoet die artificieel verhoogd is om de kwalificatie als financiële leasing te vermijden, maar waarbij de totale kapitaalterugbetaling feitelijk volledig is, wordt toch als financiële leasing behandeld. (CBN-advies 2015/4)
 
 > [!warning]- Artificeel hoge interestvoet misleidt de kwalificatie niet
 > ❌ *"Door een hogere rentevoet in het contract te zetten, kan de kapitaalwedersamenstelling beneden 100% worden gebracht en is het operationele leasing."*
 >
 > De CBN oordeelt dat de interestvoet marktconform moet zijn. Een interestvoet die artificieel verhoogd is om onder de drempel te blijven, wordt transparant gemaakt: de feitelijke wedersamenstelling is bepalend, niet de op papier gebruikte voet.
 >
-> 🤖 *AI-aanvulling op basis van [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]]*
+> 🤖 *AI-aanvulling op basis van CBN-advies 2015/4*
 
 ## 🚩 Antipatroon — Financiële leasing als operationele behandelen om schuldratio te verbeteren
 
@@ -267,7 +267,7 @@ Onder **IFRS 16** (van toepassing op geconsolideerde jaarrekeningen van beursgen
 ## 🔒 Toelichting bij de jaarrekening
 
 De leasingnemer vermeldt in de toelichting:
-- **III.D.** — staat van de materiële vaste activa in leasing: aanschaffingswaarde, mutaties, afschrijvingen, nettoboekwaarde — uitgesplitst in terreinen en gebouwen / installaties, machines en uitrusting / meubilair en rollend materieel ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+- **III.D.** — staat van de materiële vaste activa in leasing: aanschaffingswaarde, mutaties, afschrijvingen, nettoboekwaarde — uitgesplitst in terreinen en gebouwen / installaties, machines en uitrusting / meubilair en rollend materieel (CBN-advies 2015/4)
 - **X.** — staat van de schulden: uitsplitsing van de leasingschulden naar resterende looptijd (≤ 1 jaar / > 1 jaar en ≤ 5 jaar / > 5 jaar), met vermelding van eventuele zakelijke zekerheden
 - **XVII.A.4** — rechten tot aankoop van vaste activa (aankoopoptie)
 - Samenvatting van de waarderingsregels en een beschrijving van de hoofdbepalingen van de leasingovereenkomsten
