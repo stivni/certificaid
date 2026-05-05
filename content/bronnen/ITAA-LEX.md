@@ -135,6 +135,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/XI-bw-boek3|Boek 3 — Goederen]] *(wet 4 februari 2020)*
 - ✅ [[bronnen/wetteksten/XI-bw-boek4|Boek 4 — Nalatenschappen, schenkingen en testamenten]] *(wet 19 januari 2022)*
 - ✅ [[bronnen/wetteksten/XI-bw-boek5|Boek 5 — Verbintenissen]] *(wet 28 april 2022)*
+- ✅ [[bronnen/wetteksten/XI-bw-boek8|Boek 8 — Bewijs]] *(wet 13 april 2019)* · 39 artikelen
 - ✅ [[bronnen/wetteksten/XI-bw-boek9|Boek 9 Titel 1 — Persoonlijke zekerheden]] *(wet 5 juni 2025)*
 ### XII — STRAFRECHT
 
