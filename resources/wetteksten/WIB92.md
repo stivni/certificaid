@@ -5,7 +5,7 @@ wet: "Wetboek 10 april 1992 van de inkomstenbelastingen 1992 (WIB92)"
 status: "beschikbaar"
 bijgewerkt: "10.02.2026"
 bron: "Fisconet (officieuze gecoördineerde versie, editie 2026)"
-raw-bron: "resources/wetteksten/raw/WIB92-deel1.pdf"
+raw-bron: "resources/wetteksten/raw/WIB92-volledig.pdf" # nog te downloaden: geconsolideerde volledige versie
 ---
 
 # Wetboek van de Inkomstenbelastingen 1992 (WIB92)
