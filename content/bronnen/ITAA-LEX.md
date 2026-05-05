@@ -13,8 +13,8 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 ### I — BIJZONDERE FISCALE WETGEVING
 
 - ✅ [[bronnen/wetteksten/I-wet-voorafgaande-beslissingen|Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken]] *(B.S., 31 december 2002)* · p. 1
-- ⏳ K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken *(B.S., 31 januari 2003)* · p. 3
-- ⏳ K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken *(B.S., 12 februari 2003; err., B.S., 18 februari 2003; err., B.S., 17 oktober 2007)* · p. 4
+- ✅ [[bronnen/wetteksten/I-kb-voorafgaande-beslissingen-art22|K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 (voorafgaande beslissingen)]] *(B.S., 31 januari 2003)* · p. 3
+- ✅ [[bronnen/wetteksten/I-kb-voorafgaande-beslissingen-art26|K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 (voorafgaande beslissingen)]] *(B.S., 12 februari 2003)* · p. 4
 ### II — INKOMSTENBELASTINGEN
 
 - ✅ [[bronnen/wetteksten/II-wib92|Wetboek 10 april 1992 Wetboek van de inkomstenbelastingen 1992]] *(B.S., 30 juli 1992)* · p. 5
@@ -120,7 +120,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/X-eu-richtlijn-moeder-dochter|Richtl. 2011/96/EU Raad 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende Lid-Staten]] *(PB.L 345, 29 december 2011)* · p. 1557
 - ✅ [[bronnen/wetteksten/X-eu-richtlijn-interest-royalties|Richtl. 2003/49/EG Raad 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende Lid-Staten]] *(PB.L 157, 26 juni 2003)* · p. 1561
 - ✅ [[bronnen/wetteksten/X-eu-richtlijn-fusie|Richtl. 2009/133/EG Raad 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)]] *(PB.L 310, 25 november 2009)* · p. 1563
-- ⏳ Convention between (State A) and (State B) November 21, 2017 for the elimination of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance · p. 1565
+- ✅ [[bronnen/wetteksten/X-oeso-model-verdrag|Convention between (State A) and (State B) November 21, 2017 for the elimination of double taxation with respect to taxes on income and on capital — OECD Model Tax Convention (Art. 1–32)]] · p. 1565
 - ⏳ Verdrag 25 januari 1988 inzake wederzijdse administratieve bijstand in fiscale aangelegenheden *(B.S., 17 oktober 2000)* · p. 1570
 ## DEEL 2 — 
 
