@@ -12,7 +12,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 
 ### I — BIJZONDERE FISCALE WETGEVING
 
-- ⏳ Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken *(B.S., 31 december 2002)* · p. 1
+- ✅ [[bronnen/wetteksten/I-wet-voorafgaande-beslissingen|Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken]] *(B.S., 31 december 2002)* · p. 1
 - ⏳ K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken *(B.S., 31 januari 2003)* · p. 3
 - ⏳ K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken *(B.S., 12 februari 2003; err., B.S., 18 februari 2003; err., B.S., 17 oktober 2007)* · p. 4
 ### II — INKOMSTENBELASTINGEN
@@ -140,7 +140,8 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 ### XII — STRAFRECHT
 
 - ⏳ Wet 8 juni 1867 Strafwetboek *(B.S., 9 juni 1867)* · p. 1855
-- ⏳ Wetboek 29 februari 2024 Strafwetboek 2024 *(B.S., 8 april 2024)* · p. 1857
+- ✅ [[bronnen/wetteksten/XII-strafwetboek2024-boek1|Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1]] *(B.S., 8 april 2024)* · p. 1857
+- ✅ [[bronnen/wetteksten/XII-strafwetboek2024-boek2|Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2]] *(B.S., 8 april 2024)*
 ### XIII — WETBOEK VAN ECONOMISCH RECHT
 
 - ✅ [[bronnen/wetteksten/XIII-wer/index|Wetboek van Economisch recht]] *(B.S., 29 maart 2013)* · p. 1859
@@ -150,7 +151,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/XIII-wer/index|K.B. 26 april 2018 houdende vaststelling van de regels en barema's tot bepaling van de kosten en het ereloon van de insolventiefunctionarissen]] *(B.S., 27 april 2018)* · p. 2081
 ### XIV — HANDELSTRANSACTIES, BETALINGSACHTERSTAND
 
-- ⏳ Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties *(B.S., 7 augustus 2002)* · p. 2085
+- ✅ [[bronnen/wetteksten/XIV-wet-betalingsachterstand|Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties]] *(B.S., 7 augustus 2002)* · p. 2085
 ### XV — VENNOOTSCHAPPEN EN VERENIGINGEN
 
 - ✅ [[bronnen/wetteksten/XV-wvv|Wetboek 23 maart 2019 van vennootschappen en verenigingen]] *(B.S., 4 april 2019; err., B.S., 23 oktober 2024)* · p. 2089
@@ -158,18 +159,18 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/XV-KB-wvv|K.B. 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen]] *(B.S., 30 april 2019)* · p. 2316
 ### XVI — SOCIAAL RECHT
 
-- ⏳ Wet 3 juli 1978 betreffende de arbeidsovereenkomsten *(B.S., 22 augustus 1978; err., B.S., 30 augustus 1978)* · p. 2403
+- ✅ [[bronnen/wetteksten/XVI-wet-arbeidsovereenkomsten|Wet 3 juli 1978 betreffende de arbeidsovereenkomsten]] *(B.S., 22 augustus 1978)* · p. 2403
 ### XVII — WITWASSEN
 
 - ✅ [[bronnen/wetteksten/XVII-antiwitwaswet|Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten]] *(B.S., 6 oktober 2017)* · p. 2441
 - ✅ [[bronnen/wetteksten/XVII-antiwitwaswet|K.B. 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register]] *(B.S., 14 augustus 2018)* · p. 2488
 ### XVIII — KLOKKENLUIDERSwetgeving
 
-- ⏳ Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector *(B.S., 15 december 2022)* · p. 2495
+- ✅ [[bronnen/wetteksten/XVIII-klokkenluiderswet|Wet 28 november 2022 betreffende de bescherming van melders van inbreuken (Klokkenluiderswet)]] *(B.S., 15 december 2022)* · p. 2495
 ### XIX — AVG-WETGEVING
 
 - ⏳ Verord. (EU) 2016/679 E.P. en de Raad 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (Algemene Verordening Gegevensbescherming) *(PB.L 119, 4 mei 2016; rect., PB.L 127, 23 mei 2018; rect., PB.L 74, 4 maart 2021)* · p. 2507
-- ⏳ Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens *(B.S., 5 september 2018)* · p. 2535
+- ✅ [[bronnen/wetteksten/XIX-avg-wet-2018|Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens]] *(B.S., 5 september 2018)* · p. 2535
 ### XX — EU-BEROEPSKWALIFICATIES
 
 - ⏳ Wet 12 februari 2008 tot instelling van een algemeen kader voor de erkenning van EU-beroepskwalificaties *(B.S., 2 april 2008; err., B.S., 9 april 2008)* · p. 2575

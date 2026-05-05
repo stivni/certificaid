@@ -128,6 +128,63 @@ CONFIGS = {
 
 
 
+
+    'wet-voorafgaande-beslissingen': {
+        'input': 'resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md',
+        'output_content': 'content/bronnen/wetteksten/I-wet-voorafgaande-beslissingen.md',
+        'mode': 'nl', 'itaa_sectie': 'I',
+        'wet': 'Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken',
+        'bijgewerkt': '24.12.2002', 'titel': 'Wet voorafgaande beslissingen in fiscale zaken', 'tags': '["I", "2.1"]',
+    },
+    'wet-betalingsachterstand': {
+        'input': 'resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md',
+        'output_content': 'content/bronnen/wetteksten/XIV-wet-betalingsachterstand.md',
+        'mode': 'nl', 'itaa_sectie': 'XIV',
+        'wet': 'Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties',
+        'bijgewerkt': '02.08.2002', 'titel': 'Wet betalingsachterstand handelstransacties', 'tags': '["XIV"]',
+    },
+    'klokkenluiderswet': {
+        'input': 'resources/raw/wetteksten/Klokkenluiderswet-2022.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Klokkenluiderswet-2022.md',
+        'output_content': 'content/bronnen/wetteksten/XVIII-klokkenluiderswet.md',
+        'mode': 'nl', 'itaa_sectie': 'XVIII',
+        'wet': 'Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector',
+        'bijgewerkt': '28.11.2022', 'titel': 'Klokkenluiderswet 2022', 'tags': '["XVIII", "4.0"]',
+    },
+    'avg-wet-2018': {
+        'input': 'resources/raw/wetteksten/AVG-wet-2018.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/AVG-wet-2018.md',
+        'output_content': 'content/bronnen/wetteksten/XIX-avg-wet-2018.md',
+        'mode': 'nl', 'itaa_sectie': 'XIX',
+        'wet': 'Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens',
+        'bijgewerkt': '30.07.2018', 'titel': 'Belgische AVG-uitvoeringswet 2018', 'tags': '["XIX", "4.0"]',
+    },
+    'strafwetboek2024-boek1': {
+        'input': 'resources/raw/wetteksten/Strafwetboek2024-boek1.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Strafwetboek2024-boek1.md',
+        'output_content': 'content/bronnen/wetteksten/XII-strafwetboek2024-boek1.md',
+        'mode': 'nl', 'itaa_sectie': 'XII',
+        'wet': 'Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1',
+        'bijgewerkt': '29.02.2024', 'titel': 'Strafwetboek 2024 — Boek 1', 'tags': '["XII"]',
+    },
+    'strafwetboek2024-boek2': {
+        'input': 'resources/raw/wetteksten/Strafwetboek2024-boek2.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Strafwetboek2024-boek2.md',
+        'output_content': 'content/bronnen/wetteksten/XII-strafwetboek2024-boek2.md',
+        'mode': 'nl', 'itaa_sectie': 'XII',
+        'wet': 'Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2',
+        'bijgewerkt': '29.02.2024', 'titel': 'Strafwetboek 2024 — Boek 2', 'tags': '["XII"]',
+    },
+    'wet-arbeidsovereenkomsten': {
+        'input': 'resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md',
+        'output_content': 'content/bronnen/wetteksten/XVI-wet-arbeidsovereenkomsten.md',
+        'mode': 'nl', 'itaa_sectie': 'XVI',
+        'wet': 'Wet 3 juli 1978 betreffende de arbeidsovereenkomsten',
+        'bijgewerkt': '03.07.1978', 'titel': 'Wet arbeidsovereenkomsten 1978', 'tags': '["XVI"]',
+    },
     'wbtw-kb7': {
         'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB7-invoer.pdf',
         'output_resources': 'resources/bronnen/wetteksten/WBTW-KB7-invoer.md',
