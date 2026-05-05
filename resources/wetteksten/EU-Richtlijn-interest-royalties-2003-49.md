@@ -5,6 +5,7 @@ wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeensch
 status: "beschikbaar"
 bijgewerkt: "26.06.2003"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/EU-Richtlijn-interest-royalties-2003-49.pdf"
 ---
 
 # Interest- en royalty'srichtlijn 2003/49/EG

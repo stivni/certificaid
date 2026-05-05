@@ -5,6 +5,7 @@ wet: "Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest"
 status: "beschikbaar"
 bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/successie-brussel.pdf"
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest

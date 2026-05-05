@@ -5,6 +5,7 @@ wet: "Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure"
 status: "beschikbaar"
 bijgewerkt: "04.06.2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/Brusselse-Codex-Fiscale-Procedure.pdf"
 ---
 
 # Brusselse Codex Fiscale Procedure

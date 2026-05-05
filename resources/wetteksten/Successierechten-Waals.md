@@ -5,6 +5,7 @@ wet: "Wetboek der Successierechten — Waals Gewest"
 status: "beschikbaar"
 bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/successie-waals.pdf"
 ---
 
 # Successierechten — Waals Gewest

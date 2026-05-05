@@ -5,6 +5,7 @@ wet: "Wetboek der Successierechten — federaal"
 status: "beschikbaar"
 bijgewerkt: "01.04.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/successie-federaal.pdf"
 ---
 
 # Successierechten — federaal

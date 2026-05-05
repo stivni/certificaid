@@ -5,6 +5,7 @@ wet: "Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemee
 status: "beschikbaar"
 bijgewerkt: "29.12.2011"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/EU-Richtlijn-moeder-dochter-2011-96.pdf"
 ---
 
 # Moeder-dochterrichtlijn 2011/96/EU

@@ -5,6 +5,7 @@ wet: "Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschill
 status: "beschikbaar"
 bijgewerkt: "03.02.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/Decr-Waals-Directe-Belastingen.pdf"
 ---
 
 # Decreet Waalse gewestelijke belastingen

@@ -5,6 +5,7 @@ wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofds
 status: "beschikbaar"
 bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/Registratierechten-Brussel.pdf"
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest

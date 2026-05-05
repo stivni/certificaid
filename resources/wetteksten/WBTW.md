@@ -5,6 +5,7 @@ wet: "Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toe
 status: "beschikbaar"
 bijgewerkt: "19.12.2025"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/WBTW-2026.pdf"
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)

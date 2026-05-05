@@ -5,6 +5,7 @@ wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemee
 status: "beschikbaar"
 bijgewerkt: "25.11.2009"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+raw-bron: "resources/wetteksten/raw/EU-Richtlijn-fusie-2009-133.pdf"
 ---
 
 # Fusierichtlijn 2009/133/EG
