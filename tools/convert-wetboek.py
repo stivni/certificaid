@@ -103,6 +103,28 @@ CONFIGS = {
         'titel': 'Registratierechten — federaal',
         'tags': '["VIII", "2.6"]',
     },
+    'brusselse-codex-fiscale-procedure': {
+        'input': 'resources/wetteksten/raw/Brusselse-Codex-Fiscale-Procedure.pdf',
+        'output_resources': 'resources/wetteksten/Brusselse-Codex-Fiscale-Procedure.md',
+        'output_content': 'content/bronnen/wetteksten/IVB-brusselse-codex-fiscale-procedure.md',
+        'mode': 'nl',
+        'itaa_sectie': 'IV.B',
+        'wet': 'Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure',
+        'bijgewerkt': '04.06.2024',
+        'titel': 'Brusselse Codex Fiscale Procedure',
+        'tags': '["IV.B", "2.5"]',
+    },
+    'decr-waals-belastingen': {
+        'input': 'resources/wetteksten/raw/Decr-Waals-Directe-Belastingen.pdf',
+        'output_resources': 'resources/wetteksten/Decr-Waals-Directe-Belastingen.md',
+        'output_content': 'content/bronnen/wetteksten/IVC-decr-waals-directe-belastingen.md',
+        'mode': 'nl',
+        'itaa_sectie': 'IV.C',
+        'wet': 'Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen',
+        'bijgewerkt': '03.02.2026',
+        'titel': 'Decreet Waalse gewestelijke belastingen',
+        'tags': '["IV.C", "2.5"]',
+    },
 }
 
 
@@ -143,6 +165,20 @@ def clean_and_structure(text, wet_naam):
         r'^VLAAMSE CODEX FISCALITEIT$',
         r'^bijgewerkt tot|^BIJGEWERKT TOT',
         r'^WWW\.',
+        # Justel-format (ejustice) ruis
+        r'^JUSTEL - Geconsolideerde wetgeving',
+        r'^http://www\.ejustice',
+        r'^Dossiernummer\s*:',
+        r'^Situatie\s*:',
+        r'^Bron\s*: (BRUSSELS|WAALSE|BRUSSEL|FOD|JUSTITIE)',
+        r'^Publicatie\s*:',
+        r'^Inwerkingtreding\s*:',
+        r'^Inhoudstafel$',
+        r'^Tekst$',
+        r'^Nota.*:$',
+        r'^Copyright Belgisch',
+        r'^Pagina \d+ van \d+',
+        r'^Art\.\s+[\d][\d]*[-–,/]',  # TOC-artikelranges zoals "Art. 1-4", "Art. 5-8"
         r'^[-–—=]{3,}$',
         r'^\d+$',
         r'^[IVX]+/\d+\s*-?\s*$',  # paginanummers zoals "I/1 -"

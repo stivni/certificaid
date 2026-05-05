@@ -3,7 +3,7 @@
 Gebruik deze index om te bepalen welke wettekst relevant is voor een onderwerp.
 Grep daarna in het volledige bestand: `grep -n "zoekterm" resources/wetteksten/NAAM.md`
 
-Laatste update: 2026-05-05
+Laatste update: 2026-05-05 (aangevuld 2026-05-05)
 
 ---
 
@@ -35,6 +35,8 @@ Laatste update: 2026-05-05
 |---|---|---|---|
 | `WIB92.md` | Wetboek Inkomstenbelastingen 1992 | Fisconet PDF (editie 2026) | Bijgewerkt t.e.m. 10.02.2026 |
 | `WBTW.md` | Wetboek BTW (Wet 3 juli 1969) | Fisconet PDF (bijwerking 35) | Bijgewerkt t.e.m. 23.04.2020 ⚠️ |
+| `Brusselse-Codex-Fiscale-Procedure.md` | Ord. 6 maart 2019 — Brusselse Codex Fiscale Procedure | ejustice.just.fgov.be (Justel, geconsolideerd) | Bijgewerkt t.e.m. 04-06-2024 — 148 artikelen |
+| `Decr-Waals-Directe-Belastingen.md` | Decr. 6 mei 1999 — Waalse gewestelijke belastingen | ejustice.just.fgov.be (Justel, geconsolideerd) | Bijgewerkt t.e.m. 03-02-2026 — 79 artikelen |
 
 ⚠️ WBTW-versie is 2020 — vervangen zodra actuele PDF beschikbaar is van Fisconet.
 
@@ -42,5 +44,6 @@ Laatste update: 2026-05-05
 
 | Wet | Alternatief |
 |---|---|
-| BW 2019 | Zoek via ejustice.just.fgov.be |
-| VCF-UVB | Zoek via codex.vlaanderen.be |
+| BW 2019 | ejustice.just.fgov.be (numac 2019012168) — download manueel |
+| VCF-UVB | codex.vlaanderen.be |
+| EU-richtlijnen (X) | eur-lex.europa.eu — WAF blokkeert automatische download, manueel downloaden als PDF |

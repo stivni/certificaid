@@ -32,10 +32,10 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 - ✅ [[bronnen/wetteksten/IVA-vcf|B. Vl. Reg. 20 december 2013 houdende de uitvoering van de Vlaamse Codex Fiscaliteit van 13 december 2013]] *(B.S., 31 december 2013; err., B.S., 27 januari 2014)* · p. 747
 ### IV.B — Ordonnantie betreffende de Brusselse Codex Fiscale Procedure
 
-- ⏳ Ord. Br. Hoofdst. Parl. 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure *(B.S., 19 maart 2019)* · p. 771
+- ✅ [[bronnen/wetteksten/IVB-brusselse-codex-fiscale-procedure|Ord. Br. Hoofdst. Parl. 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure]] *(B.S., 19 maart 2019; bijgewerkt t.e.m. 04-06-2024)* · p. 771
 ### IV.C — Decreet vestiging, invordering en geschillen inzake Waalse gewestelijke belastingen
 
-- ⏳ Decr. W. R. 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de directe gewestelijke belastingen *(B.S., 1 juli 1999)* · p. 791
+- ✅ [[bronnen/wetteksten/IVC-decr-waals-directe-belastingen|Decr. W. R. 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de directe gewestelijke belastingen]] *(B.S., 1 juli 1999; bijgewerkt t.e.m. 03-02-2026)* · p. 791
 ### V — DIVERSE RECHTEN EN TAKSEN
 
 - ✅ [[bronnen/wetteksten/V-wdrt|K.B. 2 maart 1927 Wetboek diverse rechten en taksen]] *(B.S., 6 maart 1927)* · p. 821
