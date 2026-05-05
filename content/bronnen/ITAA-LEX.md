@@ -87,7 +87,7 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 ### VI.C — Ministeriële besluiten btw
 
 - ⏳ M.B. nr. 1, 2 september 1980 met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde *(B.S., 9 september 1980)* · p. 1127
-- ⏳ M.B. nr. 2, 21 december 2010 met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde *(B.S., 28 december 2010)* · p. 1128
+- ✅ [[bronnen/wetteksten/VIC-wbtw-mb2|M.B. nr. 2, 21 december 2010 met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde]] *(B.S., 28 december 2010)* · p. 1128
 - ⏳ M.B. nr. 6, 4 maart 1993 waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde *(B.S., 20 april 1993)* · p. 1129
 - ⏳ M.B. nr. 10, 27 oktober 1972 met betrekking tot de vaststelling van de datum van inwerkingtreding van de teruggaafprocedure van de belasting over de toegevoegde waarde bedoeld in de artikelen 9 tot 11 van het ministerieel besluit nr. 9 van 25 april 1972 *(B.S., 31 oktober 1972)* · p. 1130
 - ✅ [[bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023|M.B. 17 maart 2023 met betrekking tot de vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets]] *(B.S., 23 maart 2023)* · p. 1131
