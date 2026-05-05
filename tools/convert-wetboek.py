@@ -78,7 +78,7 @@ CONFIGS = {
         'tags': '["IX", "2.6"]',
     },
     'vcf-update': {
-        'input': 'resources/wetteksten/raw/Registratierechten-VL.pdf',
+        'input': 'resources/wetteksten/raw/VCF-2026.pdf',
         'output_resources': 'resources/wetteksten/VCF.md',
         'output_content': 'content/bronnen/wetteksten/IVA-vcf.md',
         'mode': 'bilingual',

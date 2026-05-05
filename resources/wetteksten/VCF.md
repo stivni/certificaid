@@ -5,7 +5,7 @@ wet: "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)"
 status: "beschikbaar"
 bijgewerkt: "03.04.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
-raw-bron: "resources/wetteksten/raw/Registratierechten-VL.pdf"
+raw-bron: "resources/wetteksten/raw/VCF-2026.pdf"
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)
