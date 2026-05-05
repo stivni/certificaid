@@ -1,15 +1,11 @@
 ---
-tags: [bronnen, index]
-explorer_title: "Bronnenindex"
+tags: [bronnen, itaa-lex]
+explorer_title: "ITAA-LEX"
 ---
 
-# Bronnenindex
+# ITAA-LEX
 
-Overzicht van alle primaire bronnen: ITAA-LEX wetteksten en ITAA-normen.
-
-## ITAA-LEX wetteksten
-
-*Editie 11 juli 2025. [[wetteksten/index|Volledige ITAA-LEX index met paginanummers →]]*
+Editie 11 juli 2025 — overzicht van alle secties met links naar de lokaal beschikbare bronfiches.
 
 | | Sectie | Wet / Besluit | Bron |
 |--|--------|---------------|------|
@@ -120,7 +116,7 @@ Overzicht van alle primaire bronnen: ITAA-LEX wetteksten en ITAA-normen.
 | | **XIII — WETBOEK VAN ECONOMISCH RECHT** | | |
 | ✅ | XIII | Wetboek van Economisch recht | [[wetteksten/XIII-wer/index|→]] |
 | ✅ | XIII | Wet 15 april 2018 houdende hervorming van het ondernemingsrecht | [[wetteksten/XIII-wer/index|→]] |
-| ✅ | XIII | K.B. 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het… | [[wetteksten/XIII-KB-wer-boekhouding|→]] |
+| ✅ | XIII | K.B. 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het… | [[wetteksten/XIII-wer/index|→]] |
 | ✅ | XIII | K.B. 26 april 2018 houdende uitvoering van artikel XX.1, § 1, laatste lid, van het We… | [[wetteksten/XIII-wer/index|→]] |
 | ✅ | XIII | K.B. 26 april 2018 houdende vaststelling van de regels en barema's tot bepaling van d… | [[wetteksten/XIII-wer/index|→]] |
 | | **XIV — HANDELSTRANSACTIES, BETALINGSACHTERSTAND** | | |
@@ -157,30 +153,6 @@ Overzicht van alle primaire bronnen: ITAA-LEX wetteksten en ITAA-normen.
 | ✅ | XXI | K.B. 27 september 2015 betreffende het programma, de beroepsinsituurexamen van de erk… | [[wetteksten/XXI-wet-itaa|→]] |
 | ✅ | XXI | Regl. 23 september 2020 van plichtenleer van het Beroepsinstituut van de erkende Boek… | [[wetteksten/XXI-wet-itaa|→]] |
 | ✅ | XXI | K.B. 23 juni 1994 tot uitvoering, wat de economische beroepen betreft, van artikel 54… | [[wetteksten/XXI-wet-itaa|→]] |
-
-## ITAA-normen
-
-*Lokaal beschikbaar in [[normen/index|content/bronnen/normen/]].*
-
-| | Norm | Datum | Thema's | Bron |
-|--|------|-------|---------|------|
-| ✅ | [[normen/ITAA-norm-algemene-controlenorm\|Algemene Controlenorm]] | 1991 | controle, rapportering | ITAA |
-| ✅ | [[normen/ITAA-norm-kmo-controlenorm\|KMO-Controlenorm]] | 2019 | controle, KMO, assurance | ITAA |
-| ✅ | [[normen/ITAA-norm-aww-geconsolideerd\|AWW-norm geconsolideerd]] | 2022 | antiwitwas, CDD, UBO, AMLCO | ITAA |
-| ✅ | [[normen/ITAA-norm-aww-reglement\|AWW-Reglement]] | 2020 | antiwitwas, cliëntenonderzoek | ITAA |
-| ✅ | [[normen/ITAA-norm-aww-procedurereglement\|AWW-Procedurereglement tuchtkamer]] | — | antiwitwas, tucht | ITAA |
-| ✅ | [[normen/ITAA-norm-aww-richtlijn-bibf\|AWW-Richtlijn BIBF]] | 2020 | antiwitwas, BIBF | ITAA |
-| ✅ | [[normen/ITAA-norm-opdrachtbrief\|Nota Opdrachtbrief]] | — | opdrachtbrief, opdrachtenrecht | ITAA |
-| ✅ | [[normen/ITAA-norm-permanente-vorming\|Norm Permanente Vorming]] | 2020 | vorming, stage, uren | ITAA |
-| ✅ | [[normen/ITAA-norm-gedragslijnen-relaties-IBR\|Gedragslijnen betrekkingen IBR]] | — | samenwerking, IBR | ITAA |
-| ✅ | [[normen/ITAA-norm-omzetting-vennootschap\|Norm Omzetting Vennootschap]] | — | omzetting, verslag, WVV | ITAA |
-| ✅ | [[normen/ITAA-norm-ontbinding-vereffening\|Norm Ontbinding en Vereffening]] | — | ontbinding, vereffening, WVV | ITAA |
-| ✅ | [[normen/ITAA-norm-domiciliering\|Norm Domiciliëring]] | 2024 | domiciliëring, maatschappelijke zetel | ITAA |
-| ✅ | [[normen/ITAA-norm-fusie-splitsing\|Norm Fusie- en Splitsingsverrichtingen]] | 2013 | fusie, splitsing, ruilverhouding | ITAA |
-| ✅ | [[normen/ITAA-norm-samenstellingsopdrachten-isrs4410\|Norm Samenstellingsopdrachten (ISRS 4410)]] | 2025 | samenstellingsopdrachten, assurance | ITAA/IAASB |
-| ✅ | [[normen/ITAA-norm-intern-kwaliteitsmanagement\|Norm Intern Kwaliteitsmanagement]] | 2025 | kwaliteitsmanagement, kantoororganisatie | ITAA |
-| ✅ | [[normen/ITAA-norm-effectennorm\|Effectennorm]] *(nog niet in werking)* | 2026 | beoordeling, financiële gegevens | ITAA |
-| ✅ | [[normen/ISA-570-herzien\|ISA 570 (herzien) — Continuïteit]] | 2023 | continuïteitsrisico, going concern | IAASB |
 
 ## Legenda
 
