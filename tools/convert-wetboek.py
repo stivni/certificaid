@@ -126,7 +126,7 @@ CONFIGS = {
         'tags': '["IV.C", "2.5"]',
     },
     'eu-moeder-dochter': {
-        'input': 'resources/wetteksten/raw/CELEX_32011L0096_NL_TXT.pdf',
+        'input': 'resources/wetteksten/raw/EU-Richtlijn-moeder-dochter-2011-96.pdf',
         'output_resources': 'resources/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-moeder-dochter.md',
         'mode': 'eu_richtlijn',
@@ -137,7 +137,7 @@ CONFIGS = {
         'tags': '["X", "2.8"]',
     },
     'eu-fusie': {
-        'input': 'resources/wetteksten/raw/CELEX_32009L0133_NL_TXT.pdf',
+        'input': 'resources/wetteksten/raw/EU-Richtlijn-fusie-2009-133.pdf',
         'output_resources': 'resources/wetteksten/EU-Richtlijn-fusie-2009-133.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-fusie.md',
         'mode': 'eu_richtlijn',
@@ -148,7 +148,7 @@ CONFIGS = {
         'tags': '["X", "2.8"]',
     },
     'eu-interest-royalties': {
-        'input': 'resources/wetteksten/raw/CELEX_32003L0049_NL_TXT.pdf',
+        'input': 'resources/wetteksten/raw/EU-Richtlijn-interest-royalties-2003-49.pdf',
         'output_resources': 'resources/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md',
         'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-interest-royalties.md',
         'mode': 'eu_richtlijn',
