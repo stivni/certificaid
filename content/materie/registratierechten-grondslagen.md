@@ -14,7 +14,7 @@ bronnen:
 
 Registratierechten zijn belastingen die verschuldigd worden op het ogenblik dat een akte formeel geregistreerd wordt — of wanneer de registratieplicht ontstaat. Ze zijn verbonden aan een **rechtshandeling** (verkoop, schenking, huurovereenkomst, vennootschapsverrichting), niet aan een periodiek inkomen of vermogen. Dat maakt ze **eenmalige, zakelijke belastingen** ([[belastingen-definitie-en-indeling#as-5-periodiek-vs-eenmalig|eenmalig]]; [[belastingen-definitie-en-indeling#as-3-persoonlijk-vs-zakelijk|zakelijk]]).
 
-Het domein is gesplitst tussen twee wetgevingsniveaus. In Vlaanderen zijn de registratierechten op onroerende goederen, schenkingen en hypotheekvestigingen **gewestelijke materie** geworden (VCF, ITAA-LEX IV.A) en int [[fiscale-actoren#-regionale-fisci|Vlabel]] ze zelf. In Brussel en Wallonië zijn de meeste registratie- en successierechten eveneens geregionaliseerd, maar de inning is deels nog bij de [[fiscale-actoren#-fod-financiën|FOD Financiën]] (Algemene Administratie van de Patrimoniumdocumentatie, AAPD). Het **federale Wetboek van Registratie-, Hypotheek- en Griffierechten** (KB nr. 64, 30 november 1939, ITAA-LEX VIII — [[bronnen/wetteksten/VIII-registratierechten|⏳ tekst niet lokaal beschikbaar]]) blijft de gemeenrechtelijke basis die ook na de regionalisering door de VCF en de Brusselse en Waalse teksten voor bepaalde artikelen bij verwijzing van toepassing blijft.
+Het domein is gesplitst tussen twee wetgevingsniveaus. In Vlaanderen zijn de registratierechten op onroerende goederen, schenkingen en hypotheekvestigingen **gewestelijke materie** geworden (VCF, ITAA-LEX IV.A) en int [[fiscale-actoren#-regionale-fisci|Vlabel]] ze zelf. In Brussel en Wallonië zijn de meeste registratie- en successierechten eveneens geregionaliseerd, maar de inning is deels nog bij de [[fiscale-actoren#-fod-financiën|FOD Financiën]] (Algemene Administratie van de Patrimoniumdocumentatie, AAPD). Het **federale Wetboek van Registratie-, Hypotheek- en Griffierechten** (KB nr. 64, 30 november 1939, ITAA-LEX VIII — ⏳ tekst niet lokaal beschikbaar) blijft de gemeenrechtelijke basis die ook na de regionalisering door de VCF en de Brusselse en Waalse teksten voor bepaalde artikelen bij verwijzing van toepassing blijft.
 
 ---
 
@@ -24,7 +24,7 @@ Het domein is gesplitst tussen twee wetgevingsniveaus. In Vlaanderen zijn de reg
 
 Een **belasting die van rechtswege ontstaat** bij de registratie of bij de **verplichting tot registratie** van een akte of geschrift. Het belastbare feit is niet de economische handeling zelf (bv. de betaling van de koopprijs) maar de **formele rechtsvastlegging** ervan in een akte die ter registratie moet worden aangeboden.
 
-De [[bronnen/wetteksten/IVA-vcf|VCF]] definieert "registratiebelasting" als verzamelterm voor vier specifieke gewestelijke belastingen:
+De VCF definieert "registratiebelasting" als verzamelterm voor vier specifieke gewestelijke belastingen:
 
 | Belasting | VCF-hoofdstuk | Object |
 |---|---|---|
@@ -33,7 +33,7 @@ De [[bronnen/wetteksten/IVA-vcf|VCF]] definieert "registratiebelasting" als verz
 | **Verdeelrecht** | Hoofdstuk 10 | Verdeling van onverdeeld OG, afstand mede-eigenaar |
 | **Recht op hypotheekvestiging** | Hoofdstuk 11 | Vestiging hypotheek op Belgisch OG |
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-27101|VCF art. 2.7.1.0.1]], definitieartikel lid 17)*
+*(Grondslag: VCF art. 2.7.1.0.1, definitieartikel lid 17)*
 
 Vóór 1 januari 2015 waren deze rechten federaal geregeld door het Wetboek van Registratie-, Hypotheek- en Griffierechten (1939). Sindsdien regelt de VCF de tarifiëring en de belastbare grondslag; het federale Wetboek blijft van toepassing voor de formaliteiten rond de registratieprocedure (welke akten verplicht zijn, bij welk kantoor, binnen welke termijn).
 
@@ -74,7 +74,7 @@ De toepasselijke rechtsbronnen hangen af van het gewest en het type registratier
 | Bron | ITAA-LEX | Toepassingsgebied |
 |---|---|---|
 | **VCF** — Vlaamse Codex Fiscaliteit | IV.A | Tarieven, grondslag, vrijstellingen voor Vlaanderen (verkooprecht, schenkbelasting, verdeelrecht, recht hypotheekvestiging) |
-| **Wb. Registratie-, Hypotheek- en Griffierechten** (KB nr. 64, 1939) | VIII ([[bronnen/wetteksten/VIII-registratierechten|⏳ placeholder]]) | Federale formaliteiten (registratieplicht, termijnen, kantoor); ook van toepassing in Brussel/Wallonië voor tarief |
+| **Wb. Registratie-, Hypotheek- en Griffierechten** (KB nr. 64, 1939) | VIII (⏳ placeholder) | Federale formaliteiten (registratieplicht, termijnen, kantoor); ook van toepassing in Brussel/Wallonië voor tarief |
 | **WDRT** — Wetboek Diverse Rechten en Taksen | V | Recht op geschriften (notariële akten, gerechtsdeurwaarderakten) — federaal, niet geregionaliseerd |
 | **Bijzondere Financieringswet 16/01/1989** | (biz. wet) | Juridische basis voor gewestelijke bevoegdheid over registratierechten |
 
@@ -93,7 +93,7 @@ Twee verschijningsvormen:
 - **Verplichte registratie**: de wet eist dat de akte geregistreerd wordt binnen een bepaalde termijn. Het nalaten ervan leidt tot boetes en eventueel tot een belastingheffing als de termijn verstreken is.
 - **Vrijwillige registratie**: akten die niet verplicht geregistreerd hoeven te worden, maar waarbij de partijen registratie kunnen vragen om de vaste datum te verkrijgen.
 
-De fiscale gevolgen vloeien niet uitsluitend voort uit de registratie zelf, maar ook uit de **verplichting tot registratie**: een akte die verplicht geregistreerd moest worden maar dat niet is, geeft toch aanleiding tot de belasting zodra de termijn verstreken is of zodra de akte anderszins ter kennis van de fiscus komt. *(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]] voor verkooprecht; [[bronnen/wetteksten/IVA-vcf#art-2810101|VCF art. 2.8.1.0.1]] voor schenkbelasting)*
+De fiscale gevolgen vloeien niet uitsluitend voort uit de registratie zelf, maar ook uit de **verplichting tot registratie**: een akte die verplicht geregistreerd moest worden maar dat niet is, geeft toch aanleiding tot de belasting zodra de termijn verstreken is of zodra de akte anderszins ter kennis van de fiscus komt. *(Grondslag: VCF art. 2.9.1.0.1 voor verkooprecht; VCF art. 2.8.1.0.1 voor schenkbelasting)*
 
 ---
 
@@ -126,9 +126,9 @@ Voorbeelden van akten waarop het algemeen vast recht doorgaans van toepassing is
 Voorbeelden (federaal kader; bedragen te verifiëren via Cijferzakboekje):
 - **Doorhaling hypotheek**: een vast recht voor de formele doorhalingsakte
 - **Huurakten die verplicht geregistreerd worden** (bv. woninghuurovereenkomsten voor meer dan 3 jaar of voor het leven): specifiek vast recht
-- **Akten voor vennootschappen met rechtspersoonlijkheid** (WDRT art. 4): 100 EUR recht op geschriften ([[bronnen/wetteksten/V-wdrt#art-4|WDRT art. 4]])
+- **Akten voor vennootschappen met rechtspersoonlijkheid** (WDRT art. 4): 100 EUR recht op geschriften (WDRT art. 4)
 
-De specifieke vaste rechten staan vermeld in het federale Wetboek (ITAA-LEX VIII — [[bronnen/wetteksten/VIII-registratierechten|⏳ placeholder]]).
+De specifieke vaste rechten staan vermeld in het federale Wetboek (ITAA-LEX VIII — ⏳ placeholder).
 
 ---
 
@@ -151,7 +151,7 @@ De specifieke tarieven, vrijstellingen en verminderingen (bv. klein beschrijf, g
 > [!warning]- Venale waarde vs. verkoopprijs — de fiscus toetst altijd de hoogste
 > ❌ *"Als de verkoopprijs lager is dan de marktwaarde, wordt de belasting berekend op de verkoopprijs."*
 >
-> De registratiebelasting wordt berekend op de **hogere van verkoopprijs of venale waarde** van het goed ([[bronnen/wetteksten/IVA-vcf#art-2930101|VCF art. 2.9.3.0.1]]). Vlabel kan dus een **aanvullend recht** vestigen als de opgegeven prijs te laag is — waarbij de belastingplichtige schriftelijk in kennis wordt gesteld binnen 2 jaar na de registratie ([[bronnen/wetteksten/IVA-vcf#art-3330303|VCF art. 3.3.3.0.3]]). Een bewust te lage verkoopprijs (bv. verkoop aan familielid onder marktwaarde) lost het probleem niet op.
+> De registratiebelasting wordt berekend op de **hogere van verkoopprijs of venale waarde** van het goed (VCF art. 2.9.3.0.1). Vlabel kan dus een **aanvullend recht** vestigen als de opgegeven prijs te laag is — waarbij de belastingplichtige schriftelijk in kennis wordt gesteld binnen 2 jaar na de registratie (VCF art. 3.3.3.0.3). Een bewust te lage verkoopprijs (bv. verkoop aan familielid onder marktwaarde) lost het probleem niet op.
 >
 > 🤖 *AI-aanvulling*
 
@@ -161,13 +161,13 @@ De specifieke tarieven, vrijstellingen en verminderingen (bv. klein beschrijf, g
 
 *Droit sur les écrits*
 
-Het **recht op geschriften** is een **federale**, niet-geregionaliseerde belasting op bepaalde akten opgemaakt door notarissen en gerechtsdeurwaarders in België. Het staat geregeld in het [[bronnen/wetteksten/V-wdrt|WDRT]] (ITAA-LEX V), niet in de VCF.
+Het **recht op geschriften** is een **federale**, niet-geregionaliseerde belasting op bepaalde akten opgemaakt door notarissen en gerechtsdeurwaarders in België. Het staat geregeld in het WDRT (ITAA-LEX V), niet in de VCF.
 
 Tarief (WDRT):
-- **50 EUR** voor gewone notariële akten ([[bronnen/wetteksten/V-wdrt#art-3|WDRT art. 3]])
-- **100 EUR** voor notariële akten die aan hypothecaire overschrijving onderworpen zijn, akten die een hypotheek vestigen, of akten voor vennootschappen met rechtspersoonlijkheid ([[bronnen/wetteksten/V-wdrt#art-4|WDRT art. 4]])
+- **50 EUR** voor gewone notariële akten (WDRT art. 3)
+- **100 EUR** voor notariële akten die aan hypothecaire overschrijving onderworpen zijn, akten die een hypotheek vestigen, of akten voor vennootschappen met rechtspersoonlijkheid (WDRT art. 4)
 
-De belastingschuldige is de **notaris** voor zijn akten en de **gerechtsdeurwaarder** voor zijn akten ([[bronnen/wetteksten/V-wdrt#art-1|WDRT art. 1]]). De notaris draagt dit recht automatisch af — de partijen zien het doorgaans als "notariskosten".
+De belastingschuldige is de **notaris** voor zijn akten en de **gerechtsdeurwaarder** voor zijn akten (WDRT art. 1). De notaris draagt dit recht automatisch af — de partijen zien het doorgaans als "notariskosten".
 
 Het recht op geschriften is **cumulatief** met het evenredige of vaste registratierecht: bij een notariële verkoopakte wordt naast het verkooprecht ook het recht op geschriften aangerekend.
 
@@ -192,7 +192,7 @@ De regionalisering van de registratierechten is stapsgewijs verlopen en resultee
 | **Bezwaar/beroep** | Vlabel → rechtbank van eerste aanleg (fiscale kamer) | AAPD → rechtbank van eerste aanleg (fiscale kamer) |
 | **Wettelijke grondslag gewestelijke bevoegdheid** | Bijzondere Financieringswet 16/01/1989 + Gw. art. 170 §2 | Idem |
 
-De **procedure** (welke akten verplicht, termijn, kantoor) blijft gebaseerd op het federale Wetboek van Registratie-, Hypotheek- en Griffierechten — ook in Vlaanderen, waar de VCF voor de formaliteiten naar dit federale wetboek verwijst ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]], [[bronnen/wetteksten/IVA-vcf#art-2810101|VCF art. 2.8.1.0.1]]).
+De **procedure** (welke akten verplicht, termijn, kantoor) blijft gebaseerd op het federale Wetboek van Registratie-, Hypotheek- en Griffierechten — ook in Vlaanderen, waar de VCF voor de formaliteiten naar dit federale wetboek verwijst (VCF art. 2.9.1.0.1, VCF art. 2.8.1.0.1).
 
 > [!info]- In de praktijk: "gewestelijk" vs. "federaal" op het examen
 >
@@ -233,11 +233,11 @@ Niet alle akten moeten verplicht worden geregistreerd, maar voor de categorieën
 
 Bij bepaalde akten zijn **meerdere partijen** hoofdelijk aansprakelijk voor de registratiebelasting, ongeacht hun onderlinge afspraken.
 
-**Bij de notaris** (VCF / Wb. Reg.): de notaris is **persoonlijk aansprakelijk** voor de betaling van de registratiebelasting en andere belastingen die op de akte van toepassing zijn, als hij nalaat de fiscus te verwittigen bij een akte die de vervreemding of hypothecaire aanwending van onroerend goed tot voorwerp heeft ([[bronnen/wetteksten/IVA-vcf#art-3121001|VCF art. 3.12.1.0.1]]). De notaris is als het ware een tussenpersoon-garant: hij int de belasting bij de partijen en betaalt ze aan Vlabel.
+**Bij de notaris** (VCF / Wb. Reg.): de notaris is **persoonlijk aansprakelijk** voor de betaling van de registratiebelasting en andere belastingen die op de akte van toepassing zijn, als hij nalaat de fiscus te verwittigen bij een akte die de vervreemding of hypothecaire aanwending van onroerend goed tot voorwerp heeft (VCF art. 3.12.1.0.1). De notaris is als het ware een tussenpersoon-garant: hij int de belasting bij de partijen en betaalt ze aan Vlabel.
 
-**Tussen partijen**: bij het verkooprecht is de koper de belastingplichtige ([[bronnen/wetteksten/IVA-vcf#art-2920201|VCF art. 2.9.2.0.1]]), maar verkoper en koper kunnen contractueel overeenkomen wie de kosten draagt. Die contractuele afspraak is **niet tegenstelbaar** aan Vlabel — als de koper niet betaalt, kan Vlabel de verkoper aanspreken. ⚠️ te verifiëren voor de precieze hoofdelijkheidsregeling in de VCF.
+**Tussen partijen**: bij het verkooprecht is de koper de belastingplichtige (VCF art. 2.9.2.0.1), maar verkoper en koper kunnen contractueel overeenkomen wie de kosten draagt. Die contractuele afspraak is **niet tegenstelbaar** aan Vlabel — als de koper niet betaalt, kan Vlabel de verkoper aanspreken. ⚠️ te verifiëren voor de precieze hoofdelijkheidsregeling in de VCF.
 
-**Bij de schenkbelasting**: de belastingplichtige is de begiftigde ([[bronnen/wetteksten/IVA-vcf#art-2820201|VCF art. 2.8.2.0.1]]). Bij inbreng om niet is de begunstigde rechtspersoon de belastingplichtige.
+**Bij de schenkbelasting**: de belastingplichtige is de begiftigde (VCF art. 2.8.2.0.1). Bij inbreng om niet is de begunstigde rechtspersoon de belastingplichtige.
 
 ---
 
@@ -247,7 +247,7 @@ Bij bepaalde akten zijn **meerdere partijen** hoofdelijk aansprakelijk voor de r
 
 De registratiebelasting wordt gevestigd bij de registratie van de akte zelf — of bij het verstrijken van de registratietermijn als de akte niet tijdig werd aangeboden. Bij registratie berekent de ontvanger de verschuldigde belasting op basis van de akte en de belastbare grondslag.
 
-**Aanvullende rechten**: als de opgegeven waarde achteraf te laag blijkt, kan Vlabel aanvullende rechten vestigen. Vlabel brengt de belastingplichtige schriftelijk op de hoogte binnen **2 jaar na de registratie** van de akte ([[bronnen/wetteksten/IVA-vcf#art-3330303|VCF art. 3.3.3.0.3]]).
+**Aanvullende rechten**: als de opgegeven waarde achteraf te laag blijkt, kan Vlabel aanvullende rechten vestigen. Vlabel brengt de belastingplichtige schriftelijk op de hoogte binnen **2 jaar na de registratie** van de akte (VCF art. 3.3.3.0.3).
 
 **Aanslagtermijnen** (verjaringstermijn voor vestiging):
 
@@ -257,7 +257,7 @@ De registratiebelasting wordt gevestigd bij de registratie van de akte zelf — 
 | Bij gebrek aan registratie | 5 jaar vanaf einde registratietermijn |
 | Bij fraude of opzet tot schade | + 4 jaar extra (= 9 jaar totaal) |
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-333030142|VCF art. 3.3.3.0.1 § 4/2]])*
+*(Grondslag: VCF art. 3.3.3.0.1 § 4/2)*
 
 **Betaling**: de registratiebelasting is **onmiddellijk verschuldigd** bij de registratie van de akte. De notaris int de belasting en stort ze door aan Vlabel.
 
@@ -286,7 +286,7 @@ De registratiebelasting wordt gevestigd bij de registratie van de akte zelf — 
 
 **Werkelijkheid**: de registratieverplichting koppelt aan de **ligging van het onroerend goed**, niet aan de nationaliteit of standplaats van de notaris. Een akte verleden voor een buitenlandse notaris die betrekking heeft op in België gelegen onroerend goed moet **verplicht ter registratie worden aangeboden** in België, binnen **4 maanden** na ondertekening.
 
-Vlabel vestigt het verkooprecht (of de schenkbelasting) ook op buitenlandse akten, want de VCF bepaalt dat het recht gevestigd wordt "naar aanleiding van de registratie of de **verplichting tot registratie**" van akten ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]). "Vergeten" te registreren start de vijfjaarlijkse aanslagtermijn maar heft de schuld niet op.
+Vlabel vestigt het verkooprecht (of de schenkbelasting) ook op buitenlandse akten, want de VCF bepaalt dat het recht gevestigd wordt "naar aanleiding van de registratie of de **verplichting tot registratie**" van akten (VCF art. 2.9.1.0.1). "Vergeten" te registreren start de vijfjaarlijkse aanslagtermijn maar heft de schuld niet op.
 
 > [!warning]- Registratieplicht volgt het goed, niet de notaris
 > ❌ *"Een akte verleden voor een Nederlandse notaris voor aankoop van een appartement in Gent is in België niet registratieplichtig."*
@@ -334,7 +334,7 @@ Kenniselementen:
 > >
 > > **Ja — de registratiebelasting is verschuldigd, en de termijn voor aanbieding bedraagt 4 maanden.**
 > >
-> > De registratieverplichting volgt de **ligging van het onroerend goed**, niet de nationaliteit van de notaris. De VCF vestigt het verkooprecht "naar aanleiding van de registratie of de verplichting tot registratie" van de akte ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]). Voor akten verleden voor een buitenlandse notaris met betrekking tot Belgisch OG geldt een termijn van **4 maanden** (federale regel, Wb. Reg. 1939, ITAA-LEX VIII). Bij niet-aanbieding start de vijfjaarlijkse aanslagtermijn, maar de belastingschuld blijft bestaan.
+> > De registratieverplichting volgt de **ligging van het onroerend goed**, niet de nationaliteit van de notaris. De VCF vestigt het verkooprecht "naar aanleiding van de registratie of de verplichting tot registratie" van de akte (VCF art. 2.9.1.0.1). Voor akten verleden voor een buitenlandse notaris met betrekking tot Belgisch OG geldt een termijn van **4 maanden** (federale regel, Wb. Reg. 1939, ITAA-LEX VIII). Bij niet-aanbieding start de vijfjaarlijkse aanslagtermijn, maar de belastingschuld blijft bestaan.
 > >
 > > *Zie: [[#-antipatroon-buitenlandse-notaris-als-omweg-rond-de-registratieplicht|Antipatroon buitenlandse notaris]], [[#-registratieverplichting|Registratieverplichting]]*
 >
@@ -362,7 +362,7 @@ Kenniselementen:
 > >
 > > **Nee — Vlabel is niet gebonden door de contractuele afspraak tussen partijen.**
 > >
-> > De belastingplichtige bij het verkooprecht is de **verkrijger** (koper) conform [[bronnen/wetteksten/IVA-vcf#art-2920201|VCF art. 2.9.2.0.1]]. Partijen kunnen onderling afspreken wie de kosten draagt, maar deze afspraak is **niet tegenwerpelijk** aan Vlabel. Als de koper niet betaalt, kan Vlabel de notaris (in zijn hoedanigheid van verantwoordelijke tussenpersoon) aanspreken. De notaris int de belasting bij de registratie en betaalt door — hij is persoonlijk aansprakelijk als hij dit nalaat.
+> > De belastingplichtige bij het verkooprecht is de **verkrijger** (koper) conform VCF art. 2.9.2.0.1. Partijen kunnen onderling afspreken wie de kosten draagt, maar deze afspraak is **niet tegenwerpelijk** aan Vlabel. Als de koper niet betaalt, kan Vlabel de notaris (in zijn hoedanigheid van verantwoordelijke tussenpersoon) aanspreken. De notaris int de belasting bij de registratie en betaalt door — hij is persoonlijk aansprakelijk als hij dit nalaat.
 > >
 > > *Zie: [[#-hoofdelijke-aansprakelijkheid-voor-de-registratierechten|Hoofdelijke aansprakelijkheid]], [[#-registratierecht|Registratiebelasting]]*
 >

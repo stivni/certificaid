@@ -24,11 +24,11 @@ De tariefcategorie bepaalt welke tarieftabel op een verkrijging van toepassing i
 - **Tabel I** — verkrijging in rechte lijn en tussen partners (echtgenoot of wettelijk samenwonende)
 - **Tabel II** — alle andere verkrijgingen: broers/zussen versus alle anderen
 
-De categorie wordt bepaald op de dag van het overlijden. ([[wetteksten/IVA-vcf#art-27415|VCF art. 2.7.4.1.5]])
+De categorie wordt bepaald op de dag van het overlijden. (VCF art. 2.7.4.1.5)
 
-**Onzekerheid over verwantschap**: als de graad van bloedverwantschap niet vaststaat, wordt het **hoogste** tarief geheven. ([[wetteksten/IVA-vcf#art-27412|VCF art. 2.7.4.1.2]])
+**Onzekerheid over verwantschap**: als de graad van bloedverwantschap niet vaststaat, wordt het **hoogste** tarief geheven. (VCF art. 2.7.4.1.2)
 
-**Meerdere hoedanigheden**: wie in meerdere hoedanigheden tot de nalatenschap komt (bv. als erfgenaam én als legataris), betaalt erfbelasting op het geheel maar volgens het voor die persoon **voordeligste tarief**. ([[wetteksten/IVA-vcf#art-27413|VCF art. 2.7.4.1.3]])
+**Meerdere hoedanigheden**: wie in meerdere hoedanigheden tot de nalatenschap komt (bv. als erfgenaam én als legataris), betaalt erfbelasting op het geheel maar volgens het voor die persoon **voordeligste tarief**. (VCF art. 2.7.4.1.3)
 
 ## 📌 Rechte lijn
 
@@ -39,7 +39,7 @@ De **rechte lijn** omvat verwanten die rechtstreeks van elkaar afstammen in opga
 - **Neergaande rechte lijn**: kinderen, kleinkinderen, achterkleinkinderen (en geadopteerde kinderen)
 - **Opgaande rechte lijn**: ouders, grootouders, overgrootouders
 
-De **echtgenoot** en de **wettelijk samenwonende partner** worden voor de toepassing van het erfbelastingtarief gelijkgesteld met een verkrijger in rechte lijn — zij vallen dus ook onder Tabel I. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2]])
+De **echtgenoot** en de **wettelijk samenwonende partner** worden voor de toepassing van het erfbelastingtarief gelijkgesteld met een verkrijger in rechte lijn — zij vallen dus ook onder Tabel I. (VCF art. 2.7.4.1.1 §2)
 
 > [!info]- In de praktijk: wie is "partner"?
 >
@@ -58,13 +58,13 @@ De **zijlijn** omvat verwanten die niet rechtstreeks van elkaar afstammen maar e
 
 ## ⚖️ Progressieve schijven per begunstigde, niet op totaal
 
-Het tarief is **progressief per begunstigde**: de schijven worden toegepast op de nettoverkrijging van elke verkrijger afzonderlijk, niet op de totale nalatenschap. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2 en §3]])
+Het tarief is **progressief per begunstigde**: de schijven worden toegepast op de nettoverkrijging van elke verkrijger afzonderlijk, niet op de totale nalatenschap. (VCF art. 2.7.4.1.1 §2 en §3)
 
 Dit heeft twee concrete gevolgen:
 
 1. **Meer erfgenamen = lagere gemiddelde belastingdruk per persoon** — elke erfgenaam begint opnieuw bij de laagste schijf. Een nalatenschap van 600.000 EUR verdeeld over drie kinderen wordt per kind belast op 200.000 EUR, niet op 600.000 EUR.
 
-2. **Samentelregel voor "anderen"** (Tabel II, categorie "anderen"): voor alle verkrijgers in de "anderen"-groep worden de nettoverkrijgingen bij elkaar opgeteld en wordt het tarief toegepast op die som. De belasting wordt dan proportioneel verdeeld. Dit voorkomt dat de erflater kunstmatig veel "vreemde" erfgenamen aanwijst om de progressiviteit te omzeilen. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §3]])
+2. **Samentelregel voor "anderen"** (Tabel II, categorie "anderen"): voor alle verkrijgers in de "anderen"-groep worden de nettoverkrijgingen bij elkaar opgeteld en wordt het tarief toegepast op die som. De belasting wordt dan proportioneel verdeeld. Dit voorkomt dat de erflater kunstmatig veel "vreemde" erfgenamen aanwijst om de progressiviteit te omzeilen. (VCF art. 2.7.4.1.1 §3)
 
 > [!warning]- "Anderen"-tarief werkt op de som, niet per persoon
 > ❌ *"Als de erflater tien vrienden aanwijst als legataris, betaalt elke vriend erfbelasting op zijn eigen kleine aandeel."*
@@ -79,11 +79,11 @@ Voor verkrijgingen in rechte lijn en tussen partners (Tabel I) worden de schijve
 - de **nettoverkrijging in roerende goederen**, en
 - de **nettoverkrijging in onroerende goederen**
 
-([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2]])
+(VCF art. 2.7.4.1.1 §2)
 
 Dit betekent dat een verkrijger die zowel roerende als onroerende goederen erft, twee keer bij de laagste schijf begint. Het opdelen van de nalatenschap in roerend en onroerend kan de belastingdruk dus verlagen ten opzichte van een systeem dat alles samen belast.
 
-**Uitzondering — gezinswoning voor de partner**: het aandeel dat de langstlevende partner verkrijgt in de gezinswoning is **vrijgesteld** van erfbelasting op onroerende goederen (zie [[#📌-vrijstelling-gezinswoning|Vrijstelling gezinswoning]] hieronder). Het tarief voor onroerende goederen wordt voor de partner dus alleen toegepast op de andere onroerende goederen dan de gezinswoning. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2, derde lid]])
+**Uitzondering — gezinswoning voor de partner**: het aandeel dat de langstlevende partner verkrijgt in de gezinswoning is **vrijgesteld** van erfbelasting op onroerende goederen (zie [[#📌-vrijstelling-gezinswoning|Vrijstelling gezinswoning]] hieronder). Het tarief voor onroerende goederen wordt voor de partner dus alleen toegepast op de andere onroerende goederen dan de gezinswoning. (VCF art. 2.7.4.1.1 §2, derde lid)
 
 ---
 
@@ -105,13 +105,13 @@ Per begunstigde, afzonderlijk op roerend en op onroerend. Schijfgrenzen zijn ge�
 - Derde schijf: € 50.000 × 27% = € 13.500
 - **Totaal**: € 33.000 (gemiddeld tarief: 11%)
 
-**Vermindering kleine verkrijgingen** (VCF art. 2.7.5.0.1 §1): als de nettoverkrijging van roerende en onroerende goederen samen niet meer bedraagt dan € 50.000, wordt de verschuldigde erfbelasting verminderd met € 500 × (1 - nettoverkrijging / 50.000). De vermindering slinkt dus naarmate de verkrijging toeneemt en is nul bij € 50.000. ([[wetteksten/IVA-vcf#art-27501|VCF art. 2.7.5.0.1]])
+**Vermindering kleine verkrijgingen** (VCF art. 2.7.5.0.1 §1): als de nettoverkrijging van roerende en onroerende goederen samen niet meer bedraagt dan € 50.000, wordt de verschuldigde erfbelasting verminderd met € 500 × (1 - nettoverkrijging / 50.000). De vermindering slinkt dus naarmate de verkrijging toeneemt en is nul bij € 50.000. (VCF art. 2.7.5.0.1)
 
-**Vermindering per kind jonger dan 21 jaar** (VCF art. 2.7.5.0.2): de erfbelasting verschuldigd door een kind wordt verminderd met € 75 voor elk vol jaar dat nog moet verlopen tot het kind 21 jaar is. De langstlevende partner geniet de helft van de verminderingen die de gemeenschappelijke kinderen aldus genieten. ([[wetteksten/IVA-vcf#art-27502|VCF art. 2.7.5.0.2]])
+**Vermindering per kind jonger dan 21 jaar** (VCF art. 2.7.5.0.2): de erfbelasting verschuldigd door een kind wordt verminderd met € 75 voor elk vol jaar dat nog moet verlopen tot het kind 21 jaar is. De langstlevende partner geniet de helft van de verminderingen die de gemeenschappelijke kinderen aldus genieten. (VCF art. 2.7.5.0.2)
 
-**Vrijstelling roerende goederen voor de langstlevende partner** (VCF art. 2.7.6.0.6 §2): de eerste schijf van € 75.000 in de nettoverkrijging van roerende goederen is vrijgesteld voor de langstlevende partner — tenzij die partner tevens een bloedverwant in rechte lijn van de erflater is. ([[wetteksten/IVA-vcf#art-27606|VCF art. 2.7.6.0.6 §2]])
+**Vrijstelling roerende goederen voor de langstlevende partner** (VCF art. 2.7.6.0.6 §2): de eerste schijf van € 75.000 in de nettoverkrijging van roerende goederen is vrijgesteld voor de langstlevende partner — tenzij die partner tevens een bloedverwant in rechte lijn van de erflater is. (VCF art. 2.7.6.0.6 §2)
 
-**Vrijstelling kind onder 21 jaar bij overlijden van laatste ouder** (VCF art. 2.7.6.0.6 §1): als de andere ouder van het kind reeds vooroverleden is, is de eerste schijf van € 75.000 in de nettoverkrijging van roerende goederen vrijgesteld voor een rechtverkrijgend kind jonger dan 21 jaar. Bovendien wordt de woning waar de erflater op het ogenblik van overlijden gedomicilieerd was, vrijgesteld van erfbelasting op onroerende goederen voor dat kind. ([[wetteksten/IVA-vcf#art-27606|VCF art. 2.7.6.0.6 §1]])
+**Vrijstelling kind onder 21 jaar bij overlijden van laatste ouder** (VCF art. 2.7.6.0.6 §1): als de andere ouder van het kind reeds vooroverleden is, is de eerste schijf van € 75.000 in de nettoverkrijging van roerende goederen vrijgesteld voor een rechtverkrijgend kind jonger dan 21 jaar. Bovendien wordt de woning waar de erflater op het ogenblik van overlijden gedomicilieerd was, vrijgesteld van erfbelasting op onroerende goederen voor dat kind. (VCF art. 2.7.6.0.6 §1)
 
 ---
 
@@ -133,7 +133,7 @@ Schijfgrenzen zijn geïndexeerd — raadpleeg het Cijferzakboekje voor actuele b
 - Derde schijf: € 25.000 × 55% = € 13.750
 - **Totaal**: € 34.500 (gemiddeld tarief: 34,5%)
 
-**Vermindering broers/zussen** (VCF art. 2.7.5.0.1 §1, derde lid): bij een nettoverkrijging ≤ € 18.750 bedraagt de vermindering 2.000 × (nettoverkrijging/20.000); bij een nettoverkrijging > € 18.750 en ≤ € 75.000 bedraagt ze 2.500 × (1 - nettoverkrijging/75.000). ([[wetteksten/IVA-vcf#art-27501|VCF art. 2.7.5.0.1]])
+**Vermindering broers/zussen** (VCF art. 2.7.5.0.1 §1, derde lid): bij een nettoverkrijging ≤ € 18.750 bedraagt de vermindering 2.000 × (nettoverkrijging/20.000); bij een nettoverkrijging > € 18.750 en ≤ € 75.000 bedraagt ze 2.500 × (1 - nettoverkrijging/75.000). (VCF art. 2.7.5.0.1)
 
 **Roerende en onroerende goederen worden voor Tabel II niet gesplitst**: het tarief wordt toegepast op de totale nettoverkrijging, zonder afzonderlijke berekening per goederencategorie.
 
@@ -141,9 +141,9 @@ Schijfgrenzen zijn geïndexeerd — raadpleeg het Cijferzakboekje voor actuele b
 
 ## 📌 Vrijstelling gezinswoning
 
-De **gezinswoning** is de gezamenlijke hoofdverblijfplaats van de erflater en zijn langstlevende partner op het ogenblik van het overlijden. Als de erflater door overmacht (bv. opname in een woonzorgcentrum) de gezinswoning al verlaten had, geldt de laatste gezamenlijke hoofdverblijfplaats. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2, derde lid]])
+De **gezinswoning** is de gezamenlijke hoofdverblijfplaats van de erflater en zijn langstlevende partner op het ogenblik van het overlijden. Als de erflater door overmacht (bv. opname in een woonzorgcentrum) de gezinswoning al verlaten had, geldt de laatste gezamenlijke hoofdverblijfplaats. (VCF art. 2.7.4.1.1 §2, derde lid)
 
-**Toepassingsgebied**: het aandeel dat de **langstlevende partner** verkrijgt in de gezinswoning, is **vrijgesteld van erfbelasting** op de onroerende goederen — het 3%/9%/27%-tarief wordt dus niet toegepast op dat aandeel. ([[wetteksten/IVA-vcf#art-27411|VCF art. 2.7.4.1.1 §2, derde lid]])
+**Toepassingsgebied**: het aandeel dat de **langstlevende partner** verkrijgt in de gezinswoning, is **vrijgesteld van erfbelasting** op de onroerende goederen — het 3%/9%/27%-tarief wordt dus niet toegepast op dat aandeel. (VCF art. 2.7.4.1.1 §2, derde lid)
 
 **Uitzondering**: de vrijstelling geldt niet als de partner tevens een **bloedverwant in rechte lijn** van de erflater is (bv. ouder-kind-relatie gecombineerd met huwelijk — een zeldzaam geval). In dat geval is de partner gelijkgesteld met een rechtverkrijgende in rechte lijn voor de tariefberekening, maar niet voor de gezinswoningvrijstelling.
 
@@ -158,7 +158,7 @@ De **gezinswoning** is de gezamenlijke hoofdverblijfplaats van de erflater en zi
 
 ## 📌 Vrijstelling/abattement gehandicapte erfgenaam
 
-Een **persoon met een handicap** of een **gehandicapt kind** heeft recht op een extra **abattement** dat in mindering wordt gebracht op de belastbare grondslag vóór de berekening van de erfbelasting. ([[wetteksten/IVA-vcf#art-27321|VCF art. 2.7.3.2.12]])
+Een **persoon met een handicap** of een **gehandicapt kind** heeft recht op een extra **abattement** dat in mindering wordt gebracht op de belastbare grondslag vóór de berekening van de erfbelasting. (VCF art. 2.7.3.2.12)
 
 **Berekeningsformule**:
 - Verkrijger valt onder Tabel I: abattement = 3.000 EUR × leeftijdscoëfficiënt (conform de tabel in VCF art. 2.7.3.3.2)
@@ -166,7 +166,7 @@ Een **persoon met een handicap** of een **gehandicapt kind** heeft recht op een 
 
 De leeftijdscoëfficiënt daalt naarmate de verkrijger ouder is (van 18 voor leeftijd ≤ 20 jaar tot 2 voor leeftijd > 80 jaar). Jonge verkrijgers met een handicap genieten dus een groter abattement.
 
-**Bijzonderheid bij "anderen"-tarief (Tabel II)**: als een persoon met een handicap samen met andere verkrijgers onder Tabel II valt, wordt de belasting voor de persoon met een handicap berekend alsof hij als enige voor de nettoverkrijging van de nalatenschap in aanmerking komt — dit verhindert dat de samentelling van alle "anderen" nadelig uitpakt voor de persoon met een handicap. ([[wetteksten/IVA-vcf#art-27321|VCF art. 2.7.3.2.12 §2]])
+**Bijzonderheid bij "anderen"-tarief (Tabel II)**: als een persoon met een handicap samen met andere verkrijgers onder Tabel II valt, wordt de belasting voor de persoon met een handicap berekend alsof hij als enige voor de nettoverkrijging van de nalatenschap in aanmerking komt — dit verhindert dat de samentelling van alle "anderen" nadelig uitpakt voor de persoon met een handicap. (VCF art. 2.7.3.2.12 §2)
 
 ## 📌 Gunsttarief familiale onderneming
 
@@ -176,7 +176,7 @@ In afwijking van de normale tarieven bedraagt het tarief:
 - **3%** voor een verkrijging in **rechte lijn en tussen partners**
 - **7%** voor een verkrijging **tussen andere personen**
 
-([[wetteksten/IVA-vcf#art-27422|VCF art. 2.7.4.2.2 §1]])
+(VCF art. 2.7.4.2.2 §1)
 
 **Toepassingsgebied** (VCF art. 2.7.4.2.2 §1):
 
@@ -190,7 +190,7 @@ In afwijking van de normale tarieven bedraagt het tarief:
 - Een jaarrekening wordt opgemaakt en gepubliceerd gedurende drie jaar na het overlijden
 - Het kapitaal niet daalt door uitkeringen gedurende drie jaar
 
-Bij niet-naleving wordt de erfbelasting herberekend aan de normale tarieven. ([[wetteksten/IVA-vcf#art-27424|VCF art. 2.7.4.2.4]])
+Bij niet-naleving wordt de erfbelasting herberekend aan de normale tarieven. (VCF art. 2.7.4.2.4)
 
 > [!warning]- Gunsttarief geldt niet voor vastgoed dat hoofdzakelijk bewoond wordt
 > ❌ *"Een woning die de zaakvoerder in zijn vennootschap ingebracht heeft, komt in aanmerking voor het 3%-tarief."*

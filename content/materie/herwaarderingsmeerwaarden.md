@@ -16,11 +16,11 @@ Een herwaarderingsmeerwaarde is de boekhoudkundige uitdrukking van een **stijgin
 
 ## ⚖️ Wanneer mag een actief worden geherwaardeerd?
 
-Materiële vaste activa en financiële vaste activa (deelnemingen en aandelen) mogen worden geherwaardeerd wanneer hun waarde — **bepaald in functie van hun nut voor de onderneming** (d.w.z. hun gebruikswaarde of de toekomstige opbrengsten die ze voor de onderneming genereren, niet louter de marktprijs) — op **vaststaande en duurzame** wijze uitstijgt boven hun boekwaarde ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+Materiële vaste activa en financiële vaste activa (deelnemingen en aandelen) mogen worden geherwaardeerd wanneer hun waarde — **bepaald in functie van hun nut voor de onderneming** (d.w.z. hun gebruikswaarde of de toekomstige opbrengsten die ze voor de onderneming genereren, niet louter de marktprijs) — op **vaststaande en duurzame** wijze uitstijgt boven hun boekwaarde (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
-**Bijkomende voorwaarde** wanneer het actief noodzakelijk is voor de voortgezette bedrijfsuitoefening: de herwaardering is enkel toegestaan in de mate dat ze wordt verantwoord door de **rentabiliteit** van de onderneming of het betrokken onderdeel ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+**Bijkomende voorwaarde** wanneer het actief noodzakelijk is voor de voortgezette bedrijfsuitoefening: de herwaardering is enkel toegestaan in de mate dat ze wordt verantwoord door de **rentabiliteit** van de onderneming of het betrokken onderdeel (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
-De geherwaardeerde waarde wordt verantwoord in de toelichting bij de jaarrekening van het boekjaar van de eerste herwaardering ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+De geherwaardeerde waarde wordt verantwoord in de toelichting bij de jaarrekening van het boekjaar van de eerste herwaardering (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
 > [!info]- In de praktijk
 >
@@ -32,17 +32,17 @@ De geherwaardeerde waarde wordt verantwoord in de toelichting bij de jaarrekenin
 
 ## 📌 Herwaarderingsmeerwaarde als rubriek in het eigen vermogen
 
-De geboekte meerwaarden worden **rechtstreeks toegerekend aan rubriek III van het passief** — de balanspost "Herwaarderingsmeerwaarden" die deel uitmaakt van het eigen vermogen — en blijven daar gehandhaafd zolang de goederen waarop ze betrekking hebben niet zijn gerealiseerd ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+De geboekte meerwaarden worden **rechtstreeks toegerekend aan rubriek III van het passief** — de balanspost "Herwaarderingsmeerwaarden" die deel uitmaakt van het eigen vermogen — en blijven daar gehandhaafd zolang de goederen waarop ze betrekking hebben niet zijn gerealiseerd (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
 De herwaarderingsmeerwaarde is dus **geen belastbaar resultaat** — ze doorloopt de resultatenrekening niet, maar wordt direct in het eigen vermogen geboekt.
 
-Ze mag worden **overgebracht naar een reserve** ten belope van de op de meerwaarde geboekte afschrijvingen. Zo kan het deel van de meerwaarde dat al is "gerealiseerd" via afschrijvingen geleidelijk worden uitgekeerd ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+Ze mag worden **overgebracht naar een reserve** ten belope van de op de meerwaarde geboekte afschrijvingen. Zo kan het deel van de meerwaarde dat al is "gerealiseerd" via afschrijvingen geleidelijk worden uitgekeerd (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
 ---
 
 ## 🔒 Verbod op aanwending voor verliesaanzuivering
 
-Een herwaarderingsmeerwaarde mag **nooit** — rechtstreeks of onrechtstreeks — worden aangewend om overgedragen verliezen aan te zuiveren, voor zover die meerwaarde nog niet is afgeschreven ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+Een herwaarderingsmeerwaarde mag **nooit** — rechtstreeks of onrechtstreeks — worden aangewend om overgedragen verliezen aan te zuiveren, voor zover die meerwaarde nog niet is afgeschreven (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
 > [!warning]- Herwaarderingsmeerwaarden mogen niet worden ingezet voor verliescompensatie
 > ❌ *"Een vennootschap met aanzienlijke overgedragen verliezen boekt een herwaarderingsmeerwaarde op haar vastgoed om die verliezen boekhoudkundig te compenseren."*
@@ -55,7 +55,7 @@ Een herwaarderingsmeerwaarde mag **nooit** — rechtstreeks of onrechtstreeks �
 
 ## 📋 Afschrijving op geherwaardeerde activa
 
-Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **beperkte gebruiksduur**, wordt op basis van de geherwaardeerde waarde een nieuw afschrijvingsplan opgesteld. De resterende gebruiksduur bepaalt het nieuwe afschrijvingsbedrag ([[bronnen/wetteksten/XV-KB-wvv#art-335|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35]]).
+Wanneer de herwaardering betrekking heeft op materiële vaste activa met een **beperkte gebruiksduur**, wordt op basis van de geherwaardeerde waarde een nieuw afschrijvingsplan opgesteld. De resterende gebruiksduur bepaalt het nieuwe afschrijvingsbedrag (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:35).
 
 ---
 

@@ -63,7 +63,7 @@ VI.  Kapitaalsubsidies                                15
 
 ## 📌 Inbreng (BV en CV) en kapitaal (NV)
 
-Vóór de inwerkingtreding van het WVV (1 mei 2019) hadden alle vennootschappen een maatschappelijk kapitaal. Het WVV heeft dat concept afgeschaft voor de besloten vennootschap (BV) en de coöperatieve vennootschap (CV) ([[bronnen/wetteksten/XV-wvv#art-51|ITAA-LEX XV · WVV art. 5:1]]). De naamloze vennootschap (NV) behoudt het kapitaalbegrip.
+Vóór de inwerkingtreding van het WVV (1 mei 2019) hadden alle vennootschappen een maatschappelijk kapitaal. Het WVV heeft dat concept afgeschaft voor de besloten vennootschap (BV) en de coöperatieve vennootschap (CV) (ITAA-LEX XV · WVV art. 5:1). De naamloze vennootschap (NV) behoudt het kapitaalbegrip.
 
 | | BV / CV | NV |
 |---|---|---|
@@ -73,16 +73,16 @@ Vóór de inwerkingtreding van het WVV (1 mei 2019) hadden alle vennootschappen 
 | Wettelijke reserve | Niet wettelijk verplicht | Verplicht (art. 7:211 WVV) |
 | Uitkeringstest | Nettoactief- + liquiditeitstest (dubbele test) | Netto-actieftest |
 
-**Inbreng bij BV**: de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura, voor zover niet teruggestort ([[bronnen/wetteksten/XV-KB-wvv#art-354|ITAA-LEX XV (KB) · KB WVV art. 3:54, §2, 2°]]). Inbreng kan beschikbaar (rekening 110) of statutair onbeschikbaar (rekening 111) zijn.
+**Inbreng bij BV**: de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura, voor zover niet teruggestort (ITAA-LEX XV (KB) · KB WVV art. 3:54, §2, 2°). Inbreng kan beschikbaar (rekening 110) of statutair onbeschikbaar (rekening 111) zijn.
 
-**Inbreng bij NV**: het geplaatst kapitaal omvat de inbreng vanwege de aandeelhouders, de eventueel geïncorporeerde uitgiftepremies en geïncorporeerde reserves of herwaarderingsmeerwaarden ([[bronnen/wetteksten/XV-KB-wvv#art-354|ITAA-LEX XV (KB) · KB WVV art. 3:54, §2, 1°]]).
+**Inbreng bij NV**: het geplaatst kapitaal omvat de inbreng vanwege de aandeelhouders, de eventueel geïncorporeerde uitgiftepremies en geïncorporeerde reserves of herwaarderingsmeerwaarden (ITAA-LEX XV (KB) · KB WVV art. 3:54, §2, 1°).
 
 > [!warning]- BV heeft geen "kapitaal" — gebruik de term "inbreng"
 > ❌ *"De BV heeft een maatschappelijk kapitaal van € 18.550."*
 >
 > Een BV heeft geen kapitaal. Het WVV heeft het kapitaalbegrip voor de BV afgeschaft. De correcte term is "inbreng". In de jaarrekening verschijnt rubriek I als "Inbreng" (niet "Kapitaal"). De NV en SE behouden wél het kapitaalbegrip.
 >
-> ([[bronnen/wetteksten/XV-wvv#art-51|WVV art. 5:1]]; CBN-advies 2019/14)
+> (WVV art. 5:1; CBN-advies 2019/14)
 >
 > 🤖 *AI-aanvulling*
 
@@ -95,7 +95,7 @@ Bij de NV onderscheidt het WVV:
 - **Geplaatst kapitaal** (rubriek I.A, rekening 100): het totale bedrag waartoe de aandeelhouders zich hebben verbonden bij oprichting of kapitaalverhoging — ook al is het nog niet volgestort.
 - **Niet-opgevraagd kapitaal** (rubriek I.B, rekening 101): het deel van het geplaatst kapitaal dat de aandeelhouders nog niet hebben gestort omdat het bestuursorgaan het nog niet heeft opgevraagd. Dit bedrag staat in mindering op het geplaatst kapitaal.
 
-Het saldo (geplaatst kapitaal minus niet-opgevraagd kapitaal) is het **werkelijk volgestorte** deel. Aandeelhouders die hun inbreng nog niet volledig hebben volgestort, worden vermeld in de toelichting bij de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §1]]).
+Het saldo (geplaatst kapitaal minus niet-opgevraagd kapitaal) is het **werkelijk volgestorte** deel. Aandeelhouders die hun inbreng nog niet volledig hebben volgestort, worden vermeld in de toelichting bij de jaarrekening (KB WVV art. 3:54, §1).
 
 > [!info]- In de praktijk
 >
@@ -126,7 +126,7 @@ Het saldo (geplaatst kapitaal minus niet-opgevraagd kapitaal) is het **werkelijk
 
 ## 📌 Onbeschikbare eigen vermogensrekening (BV/CV)
 
-Bij de omvorming van een BVBA naar BV (vanaf 1 januari 2020) werden het gestort kapitaal en de wettelijke reserve **van rechtswege** omgezet in een statutair onbeschikbare eigen vermogensrekening (rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*) ([[bronnen/wetteksten/XV-wvv#art-51|WVV art. 5:1]]; CBN-advies 2019/14).
+Bij de omvorming van een BVBA naar BV (vanaf 1 januari 2020) werden het gestort kapitaal en de wettelijke reserve **van rechtswege** omgezet in een statutair onbeschikbare eigen vermogensrekening (rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*) (WVV art. 5:1; CBN-advies 2019/14).
 
 Deze onbeschikbare rekening kan later **beschikbaar** worden gesteld via een statutenwijziging. Ze mag dan worden uitgekeerd aan de aandeelhouders, mits de uitkeringstests zijn voldaan.
 
@@ -139,7 +139,7 @@ Deze onbeschikbare rekening kan later **beschikbaar** worden gesteld via een sta
 Een uitgiftepremie is het bedrag dat boven de fractiewaarde of boekhoudkundige pariteitswaarde van een aandeel wordt betaald bij de uitgifte van nieuwe aandelen. Ze vergoedt de bestaande aandeelhouders voor de waardedilutie die optreedt bij de uitgifte van nieuwe aandelen (CBN-advies 121/3).
 
 Bij een **NV**: rubriek II, rekening 11 (beschikbaar of onbeschikbaar naargelang de statuten).
-Bij een **BV**: onderdeel van rubriek I *Inbreng buiten kapitaal*, rekening 1100 (beschikbaar) of 1110 (onbeschikbaar) ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54]]; CBN-advies 2019/14).
+Bij een **BV**: onderdeel van rubriek I *Inbreng buiten kapitaal*, rekening 1100 (beschikbaar) of 1110 (onbeschikbaar) (KB WVV art. 3:54; CBN-advies 2019/14).
 
 Uitgiftepremies mogen worden geïncorporeerd in het kapitaal of de inbreng, of worden uitgekeerd als ze beschikbaar zijn.
 
@@ -147,11 +147,11 @@ Uitgiftepremies mogen worden geïncorporeerd in het kapitaal of de inbreng, of w
 
 ## 📌 Herwaarderingsmeerwaarden (rubriek III)
 
-De [[herwaarderingsmeerwaarden|herwaarderingsmeerwaarden]] zijn de boekhoudkundige uitdrukking van een vaststaande en duurzame waardestijging van materiële of financiële vaste activa. Ze worden niet via de resultatenrekening geboekt maar rechtstreeks in het eigen vermogen opgenomen ([[bronnen/wetteksten/XV-KB-wvv#art-335|KB WVV art. 3:35]]).
+De [[herwaarderingsmeerwaarden|herwaarderingsmeerwaarden]] zijn de boekhoudkundige uitdrukking van een vaststaande en duurzame waardestijging van materiële of financiële vaste activa. Ze worden niet via de resultatenrekening geboekt maar rechtstreeks in het eigen vermogen opgenomen (KB WVV art. 3:35).
 
 Volledige uitleg, voorwaarden en beperkingen: zie [[herwaarderingsmeerwaarden]].
 
-**Belangrijk voor uitkeringen**: het niet-afgeschreven gedeelte van een herwaarderingsmeerwaarde geldt als **onbeschikbaar eigen vermogen**. Een uitkering die het nettoactief doet dalen tot onder dat bedrag is verboden — voor zowel BV ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]) als NV ([[bronnen/wetteksten/XV-wvv#art-7212|WVV art. 7:212]]).
+**Belangrijk voor uitkeringen**: het niet-afgeschreven gedeelte van een herwaarderingsmeerwaarde geldt als **onbeschikbaar eigen vermogen**. Een uitkering die het nettoactief doet dalen tot onder dat bedrag is verboden — voor zowel BV (WVV art. 5:142) als NV (WVV art. 7:212).
 
 ---
 
@@ -159,17 +159,17 @@ Volledige uitleg, voorwaarden en beperkingen: zie [[herwaarderingsmeerwaarden]].
 
 Reserves zijn winsten die vroegere algemene vergaderingen hebben besloten niet uit te keren maar in de vennootschap te houden. Ze versterken het eigen vermogen en zijn (deels) beschikbaar voor uitkering in latere jaren.
 
-Het KB WVV onderscheidt vier soorten ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]):
+Het KB WVV onderscheidt vier soorten (KB WVV art. 3:54, §2):
 
 ### Wettelijke reserve (rubriek IV.A, rekening 130)
 
-Verplicht bij de NV: jaarlijks wordt 5% van de nettowinst aan de wettelijke reserve toegevoegd, totdat die reserve 10% van het geplaatst kapitaal bedraagt ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]]). De wettelijke reserve is onbeschikbaar — ze kan niet worden uitgekeerd aan de aandeelhouders.
+Verplicht bij de NV: jaarlijks wordt 5% van de nettowinst aan de wettelijke reserve toegevoegd, totdat die reserve 10% van het geplaatst kapitaal bedraagt (WVV art. 7:211). De wettelijke reserve is onbeschikbaar — ze kan niet worden uitgekeerd aan de aandeelhouders.
 
 Bij de BV bestaat geen wettelijk verplichte reserve. De wettelijke reserve van een voormalige BVBA werd bij de WVV-overgang omgezet in een onbeschikbare inbreng (CBN-advies 2019/14).
 
 ### Onbeschikbare reserves (rubriek IV.B, rekening 131)
 
-Reserves die krachtens de wet of de statuten niet uitkeerbaar zijn. Drie categorieën ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]):
+Reserves die krachtens de wet of de statuten niet uitkeerbaar zijn. Drie categorieën (KB WVV art. 3:54, §2):
 
 - **Reserve voor eigen aandelen** (rekening 1312): verplicht aan te leggen zolang eigen aandelen op de balans staan — zie [[#-eigen-aandelen-rubriek-12-bij-nv-onbeschikbare-reserve|Eigen aandelen]].
 - **Reserve voor financiële steunverlening** (rekening 1313): vereist wanneer de vennootschap financiële steun verleent voor de verkrijging van haar eigen aandelen.
@@ -177,7 +177,7 @@ Reserves die krachtens de wet of de statuten niet uitkeerbaar zijn. Drie categor
 
 ### Belastingvrije reserves (rubriek IV.C, rekening 132)
 
-Reserves waarvan de belastingvrijstelling of het belastinguitstel afhankelijk is van het behoud in het vermogen van de vennootschap. Typische gevallen: gespreide belasting van meerwaarden op vaste activa, investeringsreserve ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]). De betrokken bedragen omvatten de meerwaarden of winsten **na aftrek van de ermee samenhangende uitgestelde belastingen** (uitgestelde belasting staat in rubriek VII.B).
+Reserves waarvan de belastingvrijstelling of het belastinguitstel afhankelijk is van het behoud in het vermogen van de vennootschap. Typische gevallen: gespreide belasting van meerwaarden op vaste activa, investeringsreserve (KB WVV art. 3:54, §2). De betrokken bedragen omvatten de meerwaarden of winsten **na aftrek van de ermee samenhangende uitgestelde belastingen** (uitgestelde belasting staat in rubriek VII.B).
 
 Mutaties in belastingvrije reserves verlopen via de **resultatenrekening** — geen rechtstreekse balansboekingen (CBN-advies 121/3; [[resultaatverwerking]]).
 
@@ -195,9 +195,9 @@ Het saldo van winsten en verliezen die de algemene vergadering niet heeft uitgek
 
 ## 📌 Kapitaalsubsidies (rubriek VI, rekening 15)
 
-Kapitaalsubsidies zijn subsidies van de overheid voor investeringen in vaste activa. Ze worden niet als opbrengst geboekt op het moment van ontvangst, maar opgenomen in het eigen vermogen — **na aftrek van de ermee samenhangende uitgestelde belastingen** ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]).
+Kapitaalsubsidies zijn subsidies van de overheid voor investeringen in vaste activa. Ze worden niet als opbrengst geboekt op het moment van ontvangst, maar opgenomen in het eigen vermogen — **na aftrek van de ermee samenhangende uitgestelde belastingen** (KB WVV art. 3:54, §2).
 
-Ze worden **geleidelijk afgeboekt** via overboeking naar rubriek IV.C *Andere financiële opbrengsten*, evenredig met de afschrijvingen op de gesubsidieerde vaste activa ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]). Bij realisatie of buitengebruikstelling van het actief vóór einde afschrijving: volledig resterende saldo vrijvalt.
+Ze worden **geleidelijk afgeboekt** via overboeking naar rubriek IV.C *Andere financiële opbrengsten*, evenredig met de afschrijvingen op de gesubsidieerde vaste activa (KB WVV art. 3:54, §2). Bij realisatie of buitengebruikstelling van het actief vóór einde afschrijving: volledig resterende saldo vrijvalt.
 
 > [!info]- In de praktijk
 >
@@ -227,7 +227,7 @@ Ze worden **geleidelijk afgeboekt** via overboeking naar rubriek IV.C *Andere fi
 >
 > Uitzondering: subsidies die **niet** afhangen van een investering in een vast actief, worden wél meteen als opbrengst geboekt (onder D. Andere bedrijfsopbrengsten of IV.C Andere financiële opbrengsten).
 >
-> ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]])
+> (KB WVV art. 3:54, §2)
 >
 > 🤖 *AI-aanvulling*
 
@@ -252,7 +252,7 @@ Vóór 2019 hadden alle Belgische handelsvennootschappen een maatschappelijk kap
 
 ## 🔢 Wettelijke reserve — berekening (NV)
 
-De wettelijke reserve wordt gevoed door een verplichte jaarlijkse dotatie van **ten minste 5% van de nettowinst** (= winst van het boekjaar vóór de resultaatverwerking), totdat de reserve gelijk is aan **10% van het geplaatst kapitaal** ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]]).
+De wettelijke reserve wordt gevoed door een verplichte jaarlijkse dotatie van **ten minste 5% van de nettowinst** (= winst van het boekjaar vóór de resultaatverwerking), totdat de reserve gelijk is aan **10% van het geplaatst kapitaal** (WVV art. 7:211).
 
 **Formule**:
 
@@ -319,17 +319,17 @@ De revisorskosten worden doorgaans geactiveerd als oprichtingskosten of ten last
 
 Vóór elke uitkering (dividend, terugbetaling inbreng, inkoop eigen aandelen) moet aan **twee cumulatieve tests** zijn voldaan:
 
-**1. Nettoactief-test** ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]):
+**1. Nettoactief-test** (WVV art. 5:142):
 Geen uitkering is toegelaten indien het [[nettoactief|nettoactief]] van de vennootschap negatief is of door de uitkering negatief zou worden. Evenmin als het nettoactief daalt tot onder het onbeschikbaar eigen vermogen (incl. niet-afgeschreven herwaarderingsmeerwaarden).
 
-**2. Liquiditeitstest** ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]):
+**2. Liquiditeitstest** (WVV art. 5:143):
 Het bestuursorgaan moet vaststellen — op basis van redelijkerwijs te verwachten ontwikkelingen — dat de vennootschap na de uitkering gedurende **ten minste twaalf maanden** haar schulden kan betalen naarmate ze opeisbaar worden. Het bestuursorgaan legt dit vast in een (niet neer te leggen) verslag.
 
-Als leden van het bestuursorgaan bij de liquiditeitstest wisten of behoorden te weten dat de vennootschap na uitkering haar schulden niet meer kon betalen, zijn zij hoofdelijk aansprakelijk voor alle schade ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:144]]).
+Als leden van het bestuursorgaan bij de liquiditeitstest wisten of behoorden te weten dat de vennootschap na uitkering haar schulden niet meer kon betalen, zijn zij hoofdelijk aansprakelijk voor alle schade (WVV art. 5:144).
 
 ### NV: netto-actieftest (art. 7:212 WVV)
 
-Bij de NV geldt één test: geen uitkering als het [[nettoactief|nettoactief]] (blijkend uit de goedgekeurde jaarrekening) is gedaald of door de uitkering zou dalen tot onder het bedrag van het **gestort of opgevraagd kapitaal** (het hoogste van beide) vermeerderd met alle wettelijk of statutair onbeschikbare reserves ([[bronnen/wetteksten/XV-wvv#art-7212|WVV art. 7:212]]).
+Bij de NV geldt één test: geen uitkering als het [[nettoactief|nettoactief]] (blijkend uit de goedgekeurde jaarrekening) is gedaald of door de uitkering zou dalen tot onder het bedrag van het **gestort of opgevraagd kapitaal** (het hoogste van beide) vermeerderd met alle wettelijk of statutair onbeschikbare reserves (WVV art. 7:212).
 
 De NV heeft **geen liquiditeitstest**.
 
@@ -338,7 +338,7 @@ De NV heeft **geen liquiditeitstest**.
 >
 > De BV heeft een **dubbele** test: (1) de netto-actieftest én (2) de liquiditeitstest. Een positief nettoactief na uitkering is noodzakelijk maar niet voldoende. Het bestuursorgaan moet ook positief oordelen over de liquiditeit voor de komende twaalf maanden. Beide tests zijn cumulatief.
 >
-> ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142–143]])
+> (WVV art. 5:142–143)
 >
 > 🤖 *AI-aanvulling*
 
@@ -350,9 +350,9 @@ Eigen aandelen zijn aandelen die de vennootschap in haar bezit heeft van zichzel
 
 ### Eigen aandelen bij de NV
 
-**Presentatie**: eigen aandelen worden bij de NV opgenomen als **actief** (rubriek 50 *Eigen aandelen*), niet in mindering op het eigen vermogen. Tegelijkertijd vormt de vennootschap een **onbeschikbare reserve** (rekening 1312) gelijk aan de boekwaarde van de eigen aandelen. De totale omvang van het eigen vermogen blijft dus ongewijzigd — de liquiditeit vermindert, de onbeschikbare reserve stijgt ([[bronnen/wetteksten/XV-wvv#art-7217|WVV art. 7:217, §2]]; [[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]).
+**Presentatie**: eigen aandelen worden bij de NV opgenomen als **actief** (rubriek 50 *Eigen aandelen*), niet in mindering op het eigen vermogen. Tegelijkertijd vormt de vennootschap een **onbeschikbare reserve** (rekening 1312) gelijk aan de boekwaarde van de eigen aandelen. De totale omvang van het eigen vermogen blijft dus ongewijzigd — de liquiditeit vermindert, de onbeschikbare reserve stijgt (WVV art. 7:217, §2; KB WVV art. 3:54, §2).
 
-**Voorwaarden voor verkrijging** ([[bronnen/wetteksten/XV-wvv#art-7215|WVV art. 7:215, §1]]):
+**Voorwaarden voor verkrijging** (WVV art. 7:215, §1):
 1. Voorafgaand besluit van de algemene vergadering (met statutaire meerderheden)
 2. Het uitgetrokken bedrag is voor uitkering vatbaar (netto-actieftest)
 3. Het gaat om volgestorte aandelen
@@ -372,9 +372,9 @@ Stemrechten en dividendrechten van eigen aandelen zijn **geschorst** zolang de v
 
 ### Eigen aandelen bij de BV
 
-**Presentatie**: eigen aandelen worden bij de BV opgenomen als **aftrekpost van het eigen vermogen** (rubriek 12 *Eigen aandelen*) — niet als actief ([[bronnen/wetteksten/XV-KB-wvv#art-354|KB WVV art. 3:54, §2]]). Er is geen afzonderlijke onbeschikbare reservevorming nodig, want de inkoop vermindert het eigen vermogen rechtstreeks.
+**Presentatie**: eigen aandelen worden bij de BV opgenomen als **aftrekpost van het eigen vermogen** (rubriek 12 *Eigen aandelen*) — niet als actief (KB WVV art. 3:54, §2). Er is geen afzonderlijke onbeschikbare reservevorming nodig, want de inkoop vermindert het eigen vermogen rechtstreeks.
 
-**Voorwaarden** ([[bronnen/wetteksten/XV-wvv#art-5145|WVV art. 5:145]]): vergelijkbaar met NV, maar de toelaatbare bedragen worden getoetst aan de **dubbele uitkeringstest** (nettoactief én liquiditeit).
+**Voorwaarden** (WVV art. 5:145): vergelijkbaar met NV, maar de toelaatbare bedragen worden getoetst aan de **dubbele uitkeringstest** (nettoactief én liquiditeit).
 
 **Boeking bij inkoop (BV)**:
 ```
@@ -387,7 +387,7 @@ Stemrechten en dividendrechten van eigen aandelen zijn **geschorst** zolang de v
 >
 > Bij de **BV** worden eigen aandelen niet als actief geboekt (rubriek 50) maar als **aftrekpost van het eigen vermogen** (rubriek 12). Dat is het wezenlijke verschil met de NV, waar eigen aandelen wél actief zijn (rubriek 50) en een compenserende onbeschikbare reserve in het passief verschijnt.
 >
-> ([KB WVV art. 3:54, §2]; [[bronnen/wetteksten/XV-wvv#art-5148|WVV art. 5:148, §2]])
+> ([KB WVV art. 3:54, §2]; WVV art. 5:148, §2)
 >
 > 🤖 *AI-aanvulling*
 
@@ -511,7 +511,7 @@ Kenniselementen:
 > >
 > > **Juist.**
 > >
-> > De BV heeft een dubbele test: de netto-actieftest ([[bronnen/wetteksten/XV-wvv#art-5142|art. 5:142 WVV]]) én de liquiditeitstest ([[bronnen/wetteksten/XV-wvv#art-5143|art. 5:143 WVV]]). Het bestuursorgaan moet formeel vaststellen dat de vennootschap gedurende minstens twaalf maanden na de uitkering haar schulden kan betalen. De NV heeft enkel de netto-actieftest ([[bronnen/wetteksten/XV-wvv#art-7212|art. 7:212 WVV]]). Beide tests zijn cumulatief voor de BV.
+> > De BV heeft een dubbele test: de netto-actieftest (art. 5:142 WVV) én de liquiditeitstest (art. 5:143 WVV). Het bestuursorgaan moet formeel vaststellen dat de vennootschap gedurende minstens twaalf maanden na de uitkering haar schulden kan betalen. De NV heeft enkel de netto-actieftest (art. 7:212 WVV). Beide tests zijn cumulatief voor de BV.
 > >
 > > *Zie: [[eigen-vermogen#bv-dubbele-test-art-5142143-wvv|Uitkeringstests BV/NV]]*
 >

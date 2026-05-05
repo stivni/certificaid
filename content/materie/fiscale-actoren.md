@@ -70,7 +70,7 @@ De FOD-ambtenaren oefenen hun bevoegdheid uit binnen de grenzen die de wet hun t
 
 *Ruling Office*
 
-Een **autonome dienst** binnen de FOD Financiën die op verzoek van een belastingplichtige een **bindende voorafgaande beslissing** geeft over de fiscale gevolgen van een geplande verrichting ([[bronnen/wetteksten/I-voorafgaande-beslissingen|wettelijke basis]]). De ruling bindt de fiscus voor de duur en onder de voorwaarden vermeld in de beslissing — typisch 5 jaar. ⚠️ te verifiëren — de wettekst (Wet 24/12/2002) is lokaal nog niet beschikbaar.
+Een **autonome dienst** binnen de FOD Financiën die op verzoek van een belastingplichtige een **bindende voorafgaande beslissing** geeft over de fiscale gevolgen van een geplande verrichting (wettelijke basis). De ruling bindt de fiscus voor de duur en onder de voorwaarden vermeld in de beslissing — typisch 5 jaar. ⚠️ te verifiëren — de wettekst (Wet 24/12/2002) is lokaal nog niet beschikbaar.
 
 > [!info]- In de praktijk: hoe een ruling-aanvraag verloopt
 >
@@ -90,12 +90,12 @@ Sinds de regionalisering bezit elk gewest een **eigen fiscale administratie** vo
 | **Brussel** | **Brussel Fiscaliteit** | OV, registratie- en successierechten (overname inning sinds 2018; juridische basis blijft federaal Wb. Reg. 1939 + Wb. Succ. 1936 met Brusselse tariefdecreten) |
 | **Wallonië** | **DGO7** (Waalse fiscaliteit) | OV, verkeersbelasting (registratie- en successierechten nog door FOD Fin geïnd op basis van federaal Wb. Reg. 1939 + Wb. Succ. 1936 met Waalse tariefdecreten) |
 
-De regionale fisci passen de **gewestelijke wetgeving** toe ([[bronnen/wetteksten/IVA-vcf|VCF]] voor Vlaanderen, Brusselse Codex Fiscale Procedure, Waalse decreten). Geschillen lopen via de gewone rechtbank van eerste aanleg, fiscale kamer.
+De regionale fisci passen de **gewestelijke wetgeving** toe (VCF voor Vlaanderen, Brusselse Codex Fiscale Procedure, Waalse decreten). Geschillen lopen via de gewone rechtbank van eerste aanleg, fiscale kamer.
 
 ## 📌 Vlaamse Belastingdienst (Vlabel)
 *Vlaamse Belastingdienst*
 
-**Vlabel** is sinds 1 januari 2015 de bevoegde administratie voor de **Vlaamse erfbelasting en registratiebelasting** — vóór die datum werd de inning verzorgd door de federale FOD Financiën. De juridische basis is de [[bronnen/wetteksten/IVA-vcf|Vlaamse Codex Fiscaliteit (VCF)]], titel 2 hoofdstuk 7 (erfbelasting) en hoofdstuk 8 (registratiebelasting). Vlabel int daarnaast onroerende voorheffing, verkeersbelasting, schenkbelasting en leegstandsheffingen.
+**Vlabel** is sinds 1 januari 2015 de bevoegde administratie voor de **Vlaamse erfbelasting en registratiebelasting** — vóór die datum werd de inning verzorgd door de federale FOD Financiën. De juridische basis is de Vlaamse Codex Fiscaliteit (VCF), titel 2 hoofdstuk 7 (erfbelasting) en hoofdstuk 8 (registratiebelasting). Vlabel int daarnaast onroerende voorheffing, verkeersbelasting, schenkbelasting en leegstandsheffingen.
 
 | Bevoegdheid | Inhoud |
 |---|---|
@@ -182,8 +182,8 @@ De **Fiscale Bemiddelingsdienst** (federaal) en regionale fiscale ombudsmannen b
 
 | Rol | Wettelijke basis | Vertegenwoordigingsbevoegdheid |
 |---|---|---|
-| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga\|Gecertificeerd accountant (GA)]]** | [[bronnen/wetteksten/XXI-wet-itaa#art-3\|Wet ITAA art. 3]] | Vertegenwoordigt de belastingplichtige in de **administratieve fase** (bezwaar, controle, ruling) |
-| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba\|Gecertificeerd belastingadviseur (GBA)]]** | [[bronnen/wetteksten/XXI-wet-itaa#art-6\|Wet ITAA art. 6]] | Vertegenwoordigt de belastingplichtige bij de belastingdiensten (art. 6, 3°); specifieke fiscale opdrachten zijn voorbehouden |
+| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-accountant-ga\|Gecertificeerd accountant (GA)]]** | Wet ITAA art. 3 | Vertegenwoordigt de belastingplichtige in de **administratieve fase** (bezwaar, controle, ruling) |
+| **[[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba\|Gecertificeerd belastingadviseur (GBA)]]** | Wet ITAA art. 6 | Vertegenwoordigt de belastingplichtige bij de belastingdiensten (art. 6, 3°); specifieke fiscale opdrachten zijn voorbehouden |
 | **Advocaat** | Gerechtelijk Wetboek | Vertegenwoordigt voor de **rechtbank** (volledig pleitmonopolie); kan ook in administratieve fase |
 | **Notaris** | Notariswet | Adviseert en stelt akten op (registratie, successie); heeft geen vertegenwoordigingsbevoegdheid in fiscale procedure |
 

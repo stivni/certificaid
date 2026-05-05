@@ -21,7 +21,7 @@ De kern van deze fiche is de verhouding tussen **inbreng**, **vergoeding** en **
 
 *Apport · Inbreng*
 
-Een **inbreng in een vennootschap** is de rechtshandeling waarbij een vennoot of aandeelhouder een goed (roerend, onroerend, of een onderneming in haar geheel) overdraagt aan de vennootschap, in ruil voor maatschappelijke rechten (aandelen). De inbreng kan plaatsvinden bij **oprichting** van de vennootschap of bij een latere **kapitaalverhoging**. ([[bronnen/wetteksten/XV-wvv|WVV]])
+Een **inbreng in een vennootschap** is de rechtshandeling waarbij een vennoot of aandeelhouder een goed (roerend, onroerend, of een onderneming in haar geheel) overdraagt aan de vennootschap, in ruil voor maatschappelijke rechten (aandelen). De inbreng kan plaatsvinden bij **oprichting** van de vennootschap of bij een latere **kapitaalverhoging**. (WVV)
 
 De registratiegevolgen hangen af van de **aard van het ingebrachte goed** én van de **wijze van vergoeding**:
 
@@ -32,7 +32,7 @@ De registratiegevolgen hangen af van de **aard van het ingebrachte goed** én va
 | Onroerend goed | Deels geld of schuldvordering | **Verkooprecht 12%** op het in geld vergoed gedeelte |
 | Onroerend goed | Volledig in geld | **Verkooprecht 12%** op de volledige waarde |
 
-De basisregel: de VCF stelt het verkooprecht vast "op een inbreng van onroerende goederen in een Belgische vennootschap, **naarmate die inbreng anders vergoed wordt dan bij toekenning van maatschappelijke rechten**." ([[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]])
+De basisregel: de VCF stelt het verkooprecht vast "op een inbreng van onroerende goederen in een Belgische vennootschap, **naarmate die inbreng anders vergoed wordt dan bij toekenning van maatschappelijke rechten**." (VCF art. 2.9.1.0.3)
 
 ---
 
@@ -50,7 +50,7 @@ De ratio: de eigenaar brengt het goed in en krijgt in ruil aandelen — hij blij
 3. Het betreft een **Belgische vennootschap** (VCF-vereiste).
 4. Bij vennootschappen met rechtspersoonlijkheid: het recht op geschriften ([[registratierechten-grondslagen#-recht-op-geschriften|WDRT art. 4]], 100 EUR) is cumulatief verschuldigd naast het vast recht.
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]])*
+*(Grondslag: VCF art. 2.9.1.0.3)*
 
 ---
 
@@ -62,7 +62,7 @@ De overdracht van **aandelen** (participaties in een vennootschap) is **niet ond
 
 Voor de registratiegevolgen van een aandelenoverdracht geldt:
 - **Onderhandse akte** (het meest gebruikelijk): enkel de **beurstaks** (taks op beursverrichtingen) indien van toepassing — geen registratierecht.
-- **Authentieke akte** (voor een notaris): het **algemeen vast recht van 50 EUR** ([[registratierechten-grondslagen#-algemeen-vast-recht|vast recht]]) + recht op geschriften ([[bronnen/wetteksten/V-wdrt#art-4|WDRT art. 4]], 100 EUR).
+- **Authentieke akte** (voor een notaris): het **algemeen vast recht van 50 EUR** ([[registratierechten-grondslagen#-algemeen-vast-recht|vast recht]]) + recht op geschriften (WDRT art. 4, 100 EUR).
 
 Dit fiscale verschil maakt de **aandelendeal** structureel interessanter dan de **activadeal** wanneer er onroerend goed mee gemoeid is — zie [[#️-vergelijking-aandelen-deal-vs-activadeal--fiscale-gevolgen-registratierechten|Vergelijking aandelendeal vs. activadeal]].
 
@@ -79,13 +79,13 @@ Dit fiscale verschil maakt de **aandelendeal** structureel interessanter dan de 
 
 *Fusion · Scission · Fusie en splitsing*
 
-Bij een **fusie** of **splitsing** in de zin van het [[bronnen/wetteksten/XV-wvv|WVV]] (art. 12:2 t.e.m. 12:8) vindt een overdracht van activa en passiva plaats van de overgenomen naar de overnemende vennootschap. Hoewel daarbij ook onroerende goederen van eigenaar wisselen, is het **verkooprecht vrijgesteld** voor de vermogensovergang die inherent is aan de fusie of splitsing.
+Bij een **fusie** of **splitsing** in de zin van het WVV (art. 12:2 t.e.m. 12:8) vindt een overdracht van activa en passiva plaats van de overgenomen naar de overnemende vennootschap. Hoewel daarbij ook onroerende goederen van eigenaar wisselen, is het **verkooprecht vrijgesteld** voor de vermogensovergang die inherent is aan de fusie of splitsing.
 
-De ratio: een fusie of splitsing is geen commerciële transactie maar een **herstructurering onder continuïteit van de onderneming en haar rechtsopvolger**. De wetgever heeft dit geregeld via een vrijstelling in de VCF. ([[bronnen/wetteksten/IVA-vcf#art-2960 5|VCF art. 2.9.6.0.5]])
+De ratio: een fusie of splitsing is geen commerciële transactie maar een **herstructurering onder continuïteit van de onderneming en haar rechtsopvolger**. De wetgever heeft dit geregeld via een vrijstelling in de VCF. (VCF art. 2.9.6.0.5)
 
 **Aandachtspunten**:
 - De vrijstelling geldt voor de overdracht die inherent is aan de fusie/splitsing. **Nieuwe inbrengen** in het kader van de structuurwijziging (bv. bijkomende activa die niet deel uitmaken van het over te dragen vermogen) volgen het gewone inbreukregime: verkooprecht indien vergoed in geld.
-- De omvorming van een vennootschapsvorm (bv. bv naar nv) is ook vrijgesteld, op voorwaarde dat er geen nieuwe goederen worden ingebracht in de omgevormde vennootschap. ([[bronnen/wetteksten/IVA-vcf#art-2960 5|VCF art. 2.9.6.0.5, 1°]])
+- De omvorming van een vennootschapsvorm (bv. bv naar nv) is ook vrijgesteld, op voorwaarde dat er geen nieuwe goederen worden ingebracht in de omgevormde vennootschap. (VCF art. 2.9.6.0.5, 1°)
 - Bij inbreng van een **universaliteit van goederen of bedrijfstak** (art. 117 Wb. Reg.) is evenmin het verkooprecht verschuldigd — het gaat hier om de overdracht van een economisch geheel, niet van afzonderlijke goederen.
 
 ---
@@ -101,12 +101,12 @@ Twee situaties:
 **Situatie 1 — Toebedeling aan de oorspronkelijke inbrenger**:
 Het onroerende goed wordt toebedeeld aan de vennoot die het destijds in de vennootschap heeft ingebracht. De belasting die bij de inbreng gevestigd is (verkooprecht of vast recht), is **van toepassing op de latere toebedeling**. Dit klinkt complex, maar de strekking is: de toebedeling wordt fiscaal behandeld conform de belasting die bij de oorspronkelijke inbreng gold. Is de inbreng ooit aan vast recht onderworpen geweest (vrijgesteld verkooprecht), dan is ook de terugkeer naar dezelfde vennoot aan dat zelfde regime onderworpen — wat in de praktijk vaak neerkomt op een gunstig tarief of vrijstelling.
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29104|VCF art. 2.9.1.0.4, tweede lid, 1°]])*
+*(Grondslag: VCF art. 2.9.1.0.4, tweede lid, 1°)*
 
 **Situatie 2 — Toebedeling aan een andere vennoot**:
 Het onroerende goed wordt toebedeeld aan een vennoot die het goed **niet zelf heeft ingebracht**. De verkrijging wordt belast "volgens haar gemeenrechtelijke aard" — dit betekent dat het **verkooprecht van 12%** van toepassing is.
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29104|VCF art. 2.9.1.0.4, eerste lid, en tweede lid]])*
+*(Grondslag: VCF art. 2.9.1.0.4, eerste lid, en tweede lid)*
 
 > [!info]- In de praktijk: vereffening BV met bedrijfspand
 >
@@ -133,7 +133,7 @@ De structuur van het continuïteitsargument:
 
 Wanneer een onroerend goed wordt ingebracht in een vennootschap en de vergoeding **deels uit aandelen en deels uit geld (of een andere tegenprestatie)** bestaat, wordt het verkooprecht **proportioneel** geheven.
 
-De VCF bepaalt dat bij een gemengde inbreng de maatschappelijke rechten en overige vergoedingen geacht worden **evenredig verdeeld** te zijn tussen de waarde van de onroerende goederen en de waarde van de overige ingebrachte goederen. ([[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3, tweede lid]])
+De VCF bepaalt dat bij een gemengde inbreng de maatschappelijke rechten en overige vergoedingen geacht worden **evenredig verdeeld** te zijn tussen de waarde van de onroerende goederen en de waarde van de overige ingebrachte goederen. (VCF art. 2.9.1.0.3, tweede lid)
 
 **Rekenvoorbeeld** (🤖 geconstrueerd):
 
@@ -159,7 +159,7 @@ Totaal registratiebelasting:
 **Formule**:
 > Belastbaar deel = (Niet-aandelenvergoeding / Totale inbrengwaarde) × Waarde OG
 
-De belastbare grondslag mag nooit lager zijn dan de **venale waarde** van het onroerend goed ([[bronnen/wetteksten/IVA-vcf#art-29301|VCF art. 2.9.3.0.1, § 2]]). Een fictieve lage waarde in de inbrengakte lost het probleem niet op.
+De belastbare grondslag mag nooit lager zijn dan de **venale waarde** van het onroerend goed (VCF art. 2.9.3.0.1, § 2). Een fictieve lage waarde in de inbrengakte lost het probleem niet op.
 
 ---
 
@@ -195,7 +195,7 @@ Bij de overname van een onderneming met onroerend goed zijn twee basisstructuren
 
 De VCF-basisregel kijkt naar de **economische inhoud** van de vergoeding, niet naar het juridisch etiket. Wie de rekening-courant-weg kiest om het verkooprecht te ontwijken, loopt het risico op een correctie door Vlabel op de volledige niet-aandelenvergoeding.
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]])*
+*(Grondslag: VCF art. 2.9.1.0.3)*
 
 > [!warning]- Verkooprecht treft elke niet-aandelenvergoeding, ongeacht de naam
 > ❌ *"Ik vermijd het verkooprecht door de cash-vergoeding te benoemen als 'rekening-courant inbrenger' in de inbrengakte."*
@@ -238,7 +238,7 @@ Kenniselementen:
 > >
 > > **Fout — het verkooprecht is niet verschuldigd.**
 > >
-> > De inbreng wordt volledig vergoed door de toekenning van maatschappelijke rechten (aandelen). De VCF stelt het verkooprecht enkel vast "naarmate de inbreng anders vergoed wordt dan bij toekenning van maatschappelijke rechten" ([[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]]). Hier is geen andere vergoeding: de vrijstelling geldt integraal.
+> > De inbreng wordt volledig vergoed door de toekenning van maatschappelijke rechten (aandelen). De VCF stelt het verkooprecht enkel vast "naarmate de inbreng anders vergoed wordt dan bij toekenning van maatschappelijke rechten" (VCF art. 2.9.1.0.3). Hier is geen andere vergoeding: de vrijstelling geldt integraal.
 > >
 > > Verschuldigd:
 > > - **Algemeen vast recht**: 50 EUR
@@ -259,7 +259,7 @@ Kenniselementen:
 > >
 > > **Verkooprecht 12% op de venale waarde van het magazijn is verschuldigd.**
 > >
-> > Vennoot B heeft het magazijn nooit ingebracht en is geen "oorspronkelijke inbrenger". De VCF bepaalt dat de toebedeling aan een andere vennoot belast wordt "volgens haar gemeenrechtelijke aard" — dat is het verkooprecht ([[bronnen/wetteksten/IVA-vcf#art-29104|VCF art. 2.9.1.0.4, eerste en tweede lid]]). De belastbare grondslag is de venale waarde (minstens 600.000 EUR): verkooprecht 12% × 600.000 = 72.000 EUR.
+> > Vennoot B heeft het magazijn nooit ingebracht en is geen "oorspronkelijke inbrenger". De VCF bepaalt dat de toebedeling aan een andere vennoot belast wordt "volgens haar gemeenrechtelijke aard" — dat is het verkooprecht (VCF art. 2.9.1.0.4, eerste en tweede lid). De belastbare grondslag is de venale waarde (minstens 600.000 EUR): verkooprecht 12% × 600.000 = 72.000 EUR.
 > >
 > > Vergelijk: als het magazijn aan vennoot A (de oorspronkelijke inbrenger) was toebedeeld, zou de toebedeling het regime volgen dat bij de inbreng gold — vast recht, niet het verkooprecht van 12%.
 > >
@@ -285,7 +285,7 @@ Kenniselementen:
 > > - Vrijgesteld gedeelte (aandelen): 180.000 EUR → vast recht 50 EUR
 > > - Recht op geschriften (WDRT art. 4): 100 EUR
 > >
-> > Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]] — proportionele heffing bij gemengde vergoeding.
+> > Grondslag: VCF art. 2.9.1.0.3 — proportionele heffing bij gemengde vergoeding.
 > >
 > > *Zie: [[#-berekening--proportionele-heffing-bij-gemengde-inbreng|Proportionele heffing bij gemengde inbreng]]*
 > >

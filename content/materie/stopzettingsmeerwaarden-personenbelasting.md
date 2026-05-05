@@ -9,7 +9,7 @@ bronnen:
 
 # Stopzettingsmeerwaarden — personenbelasting
 
-Bij **definitieve stopzetting** van een zelfstandige beroepsactiviteit (eenmanszaak, vrij beroep) — door verkoop, overdracht, omvorming naar vennootschap, pensionering of overlijden — worden de **meerwaarden** op de beroepsmatige activa fiscaal belastbaar als **beroepsinkomen**, maar onderworpen aan **afzonderlijke aanslagvoeten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 28]]). De fiscale druk verschilt fors naargelang het soort activum, de duur van de activiteit, en de oorzaak van de stopzetting.
+Bij **definitieve stopzetting** van een zelfstandige beroepsactiviteit (eenmanszaak, vrij beroep) — door verkoop, overdracht, omvorming naar vennootschap, pensionering of overlijden — worden de **meerwaarden** op de beroepsmatige activa fiscaal belastbaar als **beroepsinkomen**, maar onderworpen aan **afzonderlijke aanslagvoeten** (WIB92 art. 28). De fiscale druk verschilt fors naargelang het soort activum, de duur van de activiteit, en de oorzaak van de stopzetting.
 
 Deze materie-fiche legt de **kennisbasis**: kwalificatie, berekening, tarieven, vrijstellingen. Het uitvoeren van de berekening op een concreet dossier is de competentie [[stopzettings-en-overdrachtsmeerwaarden-bepalen|Stopzettings- en overdrachtsmeerwaarden bepalen]].
 
@@ -18,7 +18,7 @@ Deze materie-fiche legt de **kennisbasis**: kwalificatie, berekening, tarieven, 
 ## 📌 Stopzettingsmeerwaarde
 *Plus-value de cessation*
 
-**Verschil** tussen de **werkelijke verkoopwaarde** (of marktwaarde bij stopzetting zonder verkoop) van een beroepsactivum en zijn **fiscale boekwaarde**, vastgesteld op het ogenblik van de definitieve stopzetting van de beroepsactiviteit ([[bronnen/wetteksten/II-wib92|WIB92 art. 28]]).
+**Verschil** tussen de **werkelijke verkoopwaarde** (of marktwaarde bij stopzetting zonder verkoop) van een beroepsactivum en zijn **fiscale boekwaarde**, vastgesteld op het ogenblik van de definitieve stopzetting van de beroepsactiviteit (WIB92 art. 28).
 
 **Berekening**:
 
@@ -40,7 +40,7 @@ Stopzettingsmeerwaarde
 
 ## 📌 Definitieve stopzetting
 
-Het einde van de beroepsactiviteit moet **definitief** zijn — een tijdelijke onderbreking met intentie van voortzetting kwalificeert niet ([[bronnen/wetteksten/II-wib92|WIB92 art. 28, 1°]]). Vier oorzaken van definitieve stopzetting:
+Het einde van de beroepsactiviteit moet **definitief** zijn — een tijdelijke onderbreking met intentie van voortzetting kwalificeert niet (WIB92 art. 28, 1°). Vier oorzaken van definitieve stopzetting:
 
 | Oorzaak | Toelichting |
 |---|---|
@@ -49,7 +49,7 @@ Het einde van de beroepsactiviteit moet **definitief** zijn — een tijdelijke o
 | **Overlijden** | Stopzetting door overlijden — meerwaarden belastbaar in laatste aangifte van de overledene |
 | **Invaliditeit** | Definitieve invaliditeit (≥ 66%) waardoor verdere uitoefening onmogelijk |
 
-**Reorganisatie naar vennootschap** (omvorming eenmanszaak → bv): in beginsel **stopzettingsmeerwaarde**, maar met mogelijkheid van **fiscale neutraliteit** onder strikte voorwaarden (inbreng tegen aandelen, voortzetting activa, …) — zie [[bronnen/wetteksten/II-wib92|WIB92 art. 46]] en [[fiscale-optimalisatie-personenbelasting-beoordelen|Fiscale optimalisatie]].
+**Reorganisatie naar vennootschap** (omvorming eenmanszaak → bv): in beginsel **stopzettingsmeerwaarde**, maar met mogelijkheid van **fiscale neutraliteit** onder strikte voorwaarden (inbreng tegen aandelen, voortzetting activa, …) — zie WIB92 art. 46 en [[fiscale-optimalisatie-personenbelasting-beoordelen|Fiscale optimalisatie]].
 
 > [!warning]- "Tijdelijke stopzetting" met intentie van voortzetting is geen stopzetting in fiscale zin
 > ❌ *"Ik beëindig mijn praktijk in december 2025 en herstart ze in maart 2026 onder een andere naam — geen stopzettingsmeerwaarde nodig want het is tijdelijk."*
@@ -75,10 +75,10 @@ De fiscale druk verschilt fundamenteel naar **soort activum** en **duur van de a
 
 ### Cliënteel — regel 33% met uitzondering 16,5%
 
-**Standaardtarief 33%** voor stopzettingsmeerwaarden op cliënteel ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 1°, c]]).
+**Standaardtarief 33%** voor stopzettingsmeerwaarden op cliënteel (WIB92 art. 171, 1°, c).
 
 **Uitzondering — 16,5%** in **twee gevallen**:
-1. Stopzetting **vanaf 60 jaar** of bij **overlijden, definitieve invaliditeit, gedwongen stopzetting** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 4°, b]])
+1. Stopzetting **vanaf 60 jaar** of bij **overlijden, definitieve invaliditeit, gedwongen stopzetting** (WIB92 art. 171, 4°, b)
 2. Cliënteel is opgebouwd door belastingplichtige zelf (geen cliënteel verworven van derde tegen vergoeding)
 
 **Cijferzakboekje**: het verlaagde tarief is **geplafonneerd** op een geïndexeerd jaargemiddelde bedrijfsinkomen × aantal jaren activiteit (of een vast plafond per gevallen — raadpleeg actueel cijferzakboekje).
@@ -144,7 +144,7 @@ Totaal afzonderlijke aanslag              :        € 32 175
 > [!warning]- Verkoopprijs moet realistisch toegewezen worden tussen materieel en cliënteel
 > ❌ *"Bij verkoop van mijn praktijk voor € 200 000 wijs ik € 180 000 toe aan materiële vaste activa en € 20 000 aan cliënteel — zo betaal ik 16,5% op het meeste deel."*
 >
-> De fiscus controleert de **realistische toewijzing** tussen materieel en cliënteel. Een toewijzing die fundamenteel afwijkt van de **werkelijke marktwaarde** van de respectieve activa wordt geherkwalificeerd ([[bronnen/wetteksten/II-wib92|WIB92 art. 28]]). Een advocatenpraktijk waarbij € 180 000 wordt toegewezen aan een € 5 000-kantoor wordt overrudd: de extra wordt geherkwalificeerd als cliënteel-meerwaarde aan 33%. Verdedigbaar bewijs: schatting van een onafhankelijke expert of beëdigd schatter.
+> De fiscus controleert de **realistische toewijzing** tussen materieel en cliënteel. Een toewijzing die fundamenteel afwijkt van de **werkelijke marktwaarde** van de respectieve activa wordt geherkwalificeerd (WIB92 art. 28). Een advocatenpraktijk waarbij € 180 000 wordt toegewezen aan een € 5 000-kantoor wordt overrudd: de extra wordt geherkwalificeerd als cliënteel-meerwaarde aan 33%. Verdedigbaar bewijs: schatting van een onafhankelijke expert of beëdigd schatter.
 >
 > 🤖 *AI-aanvulling*
 
@@ -152,7 +152,7 @@ Totaal afzonderlijke aanslag              :        € 32 175
 
 ## 🔢 Vergoedingen na stopzetting (carry-out)
 
-Vergoedingen die **na stopzetting** worden ontvangen voor verrichtingen die plaatsvonden tijdens de actieve periode (laattijdige facturatie, achterstallige erelonen) blijven belastbaar als **beroepsinkomen** in het jaar van ontvangst — niet als stopzettingsmeerwaarde ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 5°]]).
+Vergoedingen die **na stopzetting** worden ontvangen voor verrichtingen die plaatsvonden tijdens de actieve periode (laattijdige facturatie, achterstallige erelonen) blijven belastbaar als **beroepsinkomen** in het jaar van ontvangst — niet als stopzettingsmeerwaarde (WIB92 art. 171, 5°).
 
 **Verzachting**: zulke vergoedingen worden belast aan **het gemiddelde tarief** dat van toepassing was op het laatste jaar met normale beroepsactiviteit — niet aan de progressieve tarieven van het ontvangstjaar.
 
@@ -160,7 +160,7 @@ Vergoedingen die **na stopzetting** worden ontvangen voor verrichtingen die plaa
 
 ## 🔢 Vrijstelling bij omzetting eenmanszaak → vennootschap
 
-Bij **inbreng** van de eenmanszaak in een nieuwe of bestaande vennootschap **tegen aandelen**, kan onder voorwaarden **fiscale neutraliteit** worden bekomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]):
+Bij **inbreng** van de eenmanszaak in een nieuwe of bestaande vennootschap **tegen aandelen**, kan onder voorwaarden **fiscale neutraliteit** worden bekomen (WIB92 art. 46, §1, 2°):
 
 **Voorwaarden**:
 1. Inbreng van **alle** beroepsmatige activa (geen selectief uithalen van waardevolle activa)
@@ -201,7 +201,7 @@ Stopzettingsmeerwaarden worden altijd aangegeven in **vak XXI — Winst en baten
 
 ## 🔒 Bewaarplicht stopzettingsdossier
 
-De beroepspraktijk raadt aan het stopzettingsdossier **10 jaar** bij te houden — dit stemt overeen met de fraude-onderzoekstermijn ([[bronnen/wetteksten/II-wib92|WIB92 art. 358]]). Er is geen specifieke wettelijke bewaarplicht van 10 jaar voor stopzettingsdossiers. 🤖
+De beroepspraktijk raadt aan het stopzettingsdossier **10 jaar** bij te houden — dit stemt overeen met de fraude-onderzoekstermijn (WIB92 art. 358). Er is geen specifieke wettelijke bewaarplicht van 10 jaar voor stopzettingsdossiers. 🤖
 
 Documenten die de beroepspraktijk aanbeveelt te bewaren:
 - Verkoopcontracten en notariële akten
@@ -249,7 +249,7 @@ Kenniselementen:
 > >
 > > **Meerwaarde € 140 000 × 16,5% afzonderlijk = € 23 100.**
 > >
-> > Activiteit > 5 jaar → afzonderlijk tarief 16,5% op materiële vaste activa ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 4°, a]]). Berekening: € 320 000 − € 180 000 = € 140 000 × 16,5% = € 23 100. Vergeleken met progressieve tarieven (50% marginaal): zonder verlaagd tarief zou de belasting € 70 000 zijn → besparing € 46 900. Verkoopkosten kunnen de meerwaarde verder verminderen indien gedocumenteerd.
+> > Activiteit > 5 jaar → afzonderlijk tarief 16,5% op materiële vaste activa (WIB92 art. 171, 4°, a). Berekening: € 320 000 − € 180 000 = € 140 000 × 16,5% = € 23 100. Vergeleken met progressieve tarieven (50% marginaal): zonder verlaagd tarief zou de belasting € 70 000 zijn → besparing € 46 900. Verkoopkosten kunnen de meerwaarde verder verminderen indien gedocumenteerd.
 > >
 > > *Zie: [[stopzettingsmeerwaarden-personenbelasting#-tarieven-stopzettingsmeerwaarden|Tarieven]]*
 >
@@ -263,7 +263,7 @@ Kenniselementen:
 > >
 > > **Cliënteel: 33% (geen verlaagde reden); materieel: 16,5%.**
 > >
-> > Stopzetting **vóór 60 jaar** zonder gedwongen reden → **standaardtarief 33%** op cliënteel ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 1°, c]]). Materieel: 16,5% (activiteit > 5 jaar verondersteld). Berekening: cliënteel-meerwaarde € 220 000 × 33% = € 72 600. Materieel: (€ 30 000 − € 8 000) × 16,5% = € 3 630. **Totaal: € 76 230**. Wachten tot 60 jaar zou cliënteel verlagen naar 16,5% → besparing € 36 300 louter door 5 jaar wachten. Strategische beslissing afhankelijk van inkomstenverlies tijdens wachttijd en gezondheidsvooruitzichten.
+> > Stopzetting **vóór 60 jaar** zonder gedwongen reden → **standaardtarief 33%** op cliënteel (WIB92 art. 171, 1°, c). Materieel: 16,5% (activiteit > 5 jaar verondersteld). Berekening: cliënteel-meerwaarde € 220 000 × 33% = € 72 600. Materieel: (€ 30 000 − € 8 000) × 16,5% = € 3 630. **Totaal: € 76 230**. Wachten tot 60 jaar zou cliënteel verlagen naar 16,5% → besparing € 36 300 louter door 5 jaar wachten. Strategische beslissing afhankelijk van inkomstenverlies tijdens wachttijd en gezondheidsvooruitzichten.
 > >
 > > *Zie: [[stopzettingsmeerwaarden-personenbelasting#cliënteel-regel-33-met-uitzondering-165|Cliënteel — regel 33% met uitzondering 16,5%]]*
 >
@@ -275,7 +275,7 @@ Kenniselementen:
 >
 > > [!success]- Antwoord
 > >
-> > **Ja, mits aan alle voorwaarden van [[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]] is voldaan.**
+> > **Ja, mits aan alle voorwaarden van WIB92 art. 46, §1, 2° is voldaan.**
 > >
 > > Inbreng tegen aandelen + voortzetting activiteit + waarderings-continuïteit = **fiscale neutraliteit** — geen onmiddellijke belasting op de € 150 000 latente meerwaarde. De vennootschap neemt de fiscale boekwaarde van € 50 000 over; bij latere verkoop door de vennootschap wordt de meerwaarde belast in de [[2.3-vennootschapsbelasting|vennootschapsbelasting]]. Strategisch: vermijdt onmiddellijke heffing van € 150 000 × 16,5% = € 24 750, maar verschuift de fiscale druk naar de vennootschap. Bij verkoop van aandelen later kan ook stopzettingsmeerwaarde voor [[diverse-inkomsten-personenbelasting#-aanmerkelijke-deelneming-verkocht-aan-buitenlandse-vennootschap|aanmerkelijke deelneming]] gelden.
 > >

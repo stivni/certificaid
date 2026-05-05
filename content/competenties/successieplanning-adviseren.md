@@ -21,7 +21,7 @@ Onderscheid met aangrenzende competenties:
 - **[[aww-beleid-beheren|AWW-beleid beheren]]**: meldingsplicht bij ongebruikelijke verrichtingen — relevant wanneer planningsinstrumenten grenzen aan fiscale constructies
 
 > [!info]- Grondslag van deze werkwijze (🤖 90% · ⚖️ 10%)
-> Er bestaat geen **ITAA-norm** of **CBN-advies** die het opmaken van een successieplan als taakprocedure beschrijft. De sequentie is analytische praktijk uit de doctrine van Estate Planning (Vlabel-omzendbrieven, beroepspraktijk notariaat, doctrine Deblauwe e.a.) 🤖. De wettelijke grondslag zit uitsluitend in de toegepaste regels: de **anti-misbruikbepaling** ([[wetteksten/IVA-vcf#art-317002|VCF art. 3.17.0.0.2]]), de **fictiebepalingen** ([[nalatenschap-en-belastbare-grondslag#🔍-fictiebepalingen--wanneer-iets-toch-in-de-nalatenschap-valt|VCF art. 2.7.1.0.3–2.7.1.0.9]]), de **gunsttarieven** ([[tarieven-erfbelasting#📌-gunsttarief-familiale-onderneming|VCF art. 2.7.4.2.2]]) en de **schenkbelasting** ([[schenking-fiscaal#📌-schenkbelasting-vlaams|VCF art. 2.8.1.0.1 e.v.]]). ⚖️ = enkel deze wettelijke kaders.
+> Er bestaat geen **ITAA-norm** of **CBN-advies** die het opmaken van een successieplan als taakprocedure beschrijft. De sequentie is analytische praktijk uit de doctrine van Estate Planning (Vlabel-omzendbrieven, beroepspraktijk notariaat, doctrine Deblauwe e.a.) 🤖. De wettelijke grondslag zit uitsluitend in de toegepaste regels: de **anti-misbruikbepaling** (VCF art. 3.17.0.0.2), de **fictiebepalingen** ([[nalatenschap-en-belastbare-grondslag#🔍-fictiebepalingen--wanneer-iets-toch-in-de-nalatenschap-valt|VCF art. 2.7.1.0.3–2.7.1.0.9]]), de **gunsttarieven** ([[tarieven-erfbelasting#📌-gunsttarief-familiale-onderneming|VCF art. 2.7.4.2.2]]) en de **schenkbelasting** ([[schenking-fiscaal#📌-schenkbelasting-vlaams|VCF art. 2.8.1.0.1 e.v.]]). ⚖️ = enkel deze wettelijke kaders.
 
 ## Aanbevolen werkwijze
 
@@ -294,7 +294,7 @@ De verhouding kost-besparing en het risico-profiel van de cliënt (leeftijdsgebo
 
 | Risico | Grondslag | Gevolg |
 |---|---|---|
-| **Anti-misbruikbepaling** | [[wetteksten/IVA-vcf#art-317002|VCF art. 3.17.0.0.2]] | Vlabel kan de rechtshandeling negeren als de enige niet-fiscale reden ontbreekt; tegenbewijs bij de belastingplichtige |
+| **Anti-misbruikbepaling** | VCF art. 3.17.0.0.2 | Vlabel kan de rechtshandeling negeren als de enige niet-fiscale reden ontbreekt; tegenbewijs bij de belastingplichtige |
 | **Fictiebepaling** | [[nalatenschap-en-belastbare-grondslag#🔍-fictiebepalingen--wanneer-iets-toch-in-de-nalatenschap-valt|VCF art. 2.7.1.0.3–2.7.1.0.9]] | Transactie wordt fiscaal als legaat behandeld; erfbelasting alsnog verschuldigd |
 | **Simulatie** | Burgerlijk recht | Schijnconstructie zonder werkelijke eigendomsoverdracht — nietig; strafrechtelijk risico |
 | **Vlabel doorkijkbenadering** | Omzendbrief 2017/1 | ABC-levensverzekeringen met premies van de verzekerde worden als legaat belast |
@@ -309,7 +309,7 @@ Als beide ja: Vlabel kan de constructie heromschrijven als zou ze niet hebben pl
 > [!warning]- Anti-misbruik vereist tegenbewijs van de belastingplichtige
 > ❌ *"Als de constructie civielrechtelijk geldig is, kan Vlabel er niets tegen doen."*
 >
-> De Vlaamse anti-misbruikbepaling ([[wetteksten/IVA-vcf#art-317002|VCF art. 3.17.0.0.2]]) vereist geen nietigheid van de akte — ze maakt de fiscale gevolgen afhankelijk van de niet-fiscale motieven. Als Vlabel het vermoeden van misbruik aantoont, moet de belastingplichtige bewijzen dat de verrichting niet-fiscale motieven had. De bewijslast is omgekeerd. Een constructie die uitsluitend fiscaal gemotiveerd is, riskeert te worden doorkruid.
+> De Vlaamse anti-misbruikbepaling (VCF art. 3.17.0.0.2) vereist geen nietigheid van de akte — ze maakt de fiscale gevolgen afhankelijk van de niet-fiscale motieven. Als Vlabel het vermoeden van misbruik aantoont, moet de belastingplichtige bewijzen dat de verrichting niet-fiscale motieven had. De bewijslast is omgekeerd. Een constructie die uitsluitend fiscaal gemotiveerd is, riskeert te worden doorkruid.
 >
 > 🤖 *AI-aanvulling*
 

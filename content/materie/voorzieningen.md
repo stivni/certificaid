@@ -15,14 +15,14 @@ Een voorziening is een passiefpost waarmee een onderneming anticipeert op een to
 
 ## 📌 Voorziening voor risico's en kosten
 
-Een voorziening beoogt "naar haar aard duidelijk omschreven verliezen of kosten te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat." Ze vertegenwoordigt de beste schatting van de kosten die waarschijnlijk worden gemaakt of, bij een verplichting, het bedrag dat nodig is om die verplichting na te komen. ([[bronnen/wetteksten/XV-KB-wvv#art-328|ITAA-LEX XV (KB) · KB WVV art. 3:28]])
+Een voorziening beoogt "naar haar aard duidelijk omschreven verliezen of kosten te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat." Ze vertegenwoordigt de beste schatting van de kosten die waarschijnlijk worden gemaakt of, bij een verplichting, het bedrag dat nodig is om die verplichting na te komen. (ITAA-LEX XV (KB) · KB WVV art. 3:28)
 
 Voorzieningen staan in rubriek **VII.A** van het passief van de balans, onder de post "Voorzieningen voor risico's en kosten".
 
 > [!warning]- Voorzieningen mogen niet dienen voor waardecorrecties op activa
 > ❌ *"Een voorziening boeken om een actief te corrigeren is even geldig als een waardevermindering."*
 >
-> De wet is hier expliciet: "Voorzieningen mogen niet worden gebruikt voor waardecorrecties op activa." ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]]). Een ontwaarding van een actief (bv. een oninbare vordering) vraagt een [[waardeverminderingen#-waardevermindering|waardevermindering]], een passiefpost voor een toekomstige verplichting vraagt een voorziening. De twee instrumenten zijn niet uitwisselbaar.
+> De wet is hier expliciet: "Voorzieningen mogen niet worden gebruikt voor waardecorrecties op activa." (KB WVV art. 3:28). Een ontwaarding van een actief (bv. een oninbare vordering) vraagt een [[waardeverminderingen#-waardevermindering|waardevermindering]], een passiefpost voor een toekomstige verplichting vraagt een voorziening. De twee instrumenten zijn niet uitwisselbaar.
 >
 > 🤖 *AI-aanvulling*
 
@@ -30,7 +30,7 @@ Voorzieningen staan in rubriek **VII.A** van het passief van de balans, onder de
 
 ## 📌 Subcategorieën (rubriek VII.A)
 
-De KB WVV beschrijft de volgende subcategorieën die verplicht apart worden toegelicht in de toelichting bij de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:32]]):
+De KB WVV beschrijft de volgende subcategorieën die verplicht apart worden toegelicht in de toelichting bij de jaarrekening (KB WVV art. 3:32):
 
 | Subcategorie | Inhoud |
 |---|---|
@@ -64,15 +64,15 @@ Een voorziening mag en moet worden gevormd wanneer aan drie voorwaarden tegelijk
 
 ## ⚖️ Voorzichtigheidsbeginsel als grondslag
 
-Het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] verplicht de onderneming alle voorzienbare risico's en mogelijke verliezen in rekening te nemen — ook die welke pas na de balansdatum maar vóór de opmaak van de jaarrekening bekend worden ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV art. 3:11]]). Voorzieningen zijn de boekhoudkundige uitdrukking van dat beginsel voor toekomstige verplichtingen.
+Het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] verplicht de onderneming alle voorzienbare risico's en mogelijke verliezen in rekening te nemen — ook die welke pas na de balansdatum maar vóór de opmaak van de jaarrekening bekend worden (KB WVV art. 3:11). Voorzieningen zijn de boekhoudkundige uitdrukking van dat beginsel voor toekomstige verplichtingen.
 
-Voorzichtigheid betekent hier geen overdreven pessimisme: de voorziening vertegenwoordigt de **beste schatting** — niet het slechtste scenario. ([[bronnen/wetteksten/XV-KB-wvv#art-329|KB WVV art. 3:29]])
+Voorzichtigheid betekent hier geen overdreven pessimisme: de voorziening vertegenwoordigt de **beste schatting** — niet het slechtste scenario. (KB WVV art. 3:29)
 
 ---
 
 ## ⚖️ Stelselmatigheid en resultaatonafhankelijkheid
 
-Voorzieningen worden **stelselmatig gevormd** volgens de door de vennootschap vastgelegde methoden. Ze mogen **niet afhangen van het resultaat van het boekjaar** — een onderneming mag geen voorziening weglaten omdat het jaar al slecht genoeg was, of extra voorzieningen aanleggen om winst te drukken. ([[bronnen/wetteksten/XV-KB-wvv#art-331|KB WVV art. 3:31]])
+Voorzieningen worden **stelselmatig gevormd** volgens de door de vennootschap vastgelegde methoden. Ze mogen **niet afhangen van het resultaat van het boekjaar** — een onderneming mag geen voorziening weglaten omdat het jaar al slecht genoeg was, of extra voorzieningen aanleggen om winst te drukken. (KB WVV art. 3:31)
 
 ---
 
@@ -126,7 +126,7 @@ Stap 2 — voorziening terugboeken:
 
 ### Terugneming bij verdwijnen of verminderen van het risico
 
-Wanneer het risico waarvoor een voorziening werd aangelegd kleiner of weg is, **moet** de te hoge voorziening worden teruggenomen. Ze mag niet worden gehandhaafd boven wat de actuele beoordeling vereist. ([[bronnen/wetteksten/XV-KB-wvv#art-333|KB WVV art. 3:33]])
+Wanneer het risico waarvoor een voorziening werd aangelegd kleiner of weg is, **moet** de te hoge voorziening worden teruggenomen. Ze mag niet worden gehandhaafd boven wat de actuele beoordeling vereist. (KB WVV art. 3:33)
 
 ```
 160/164  Voorzieningen voor risico's en kosten  (D)
@@ -137,15 +137,15 @@ Wanneer het risico waarvoor een voorziening werd aangelegd kleiner of weg is, **
 
 ## 🔒 Verplichtingen bij vorming en toetsing
 
-- Voorzieningen **moeten** worden gevormd wanneer aan de drie cumulatieve voorwaarden voldaan is — het is geen keuze. ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]])
-- Jaarlijkse **toetsing** is verplicht: elke bestaande voorziening wordt op het einde van het boekjaar getoetst aan de actuele situatie. Overtollige bedragen worden teruggenomen. ([[bronnen/wetteksten/XV-KB-wvv#art-333|KB WVV art. 3:33]])
-- Voorzieningen mogen **niet afhangen van het resultaat** — ze zijn geen instrument voor winstmanagement. ([[bronnen/wetteksten/XV-KB-wvv#art-331|KB WVV art. 3:31]])
+- Voorzieningen **moeten** worden gevormd wanneer aan de drie cumulatieve voorwaarden voldaan is — het is geen keuze. (KB WVV art. 3:28)
+- Jaarlijkse **toetsing** is verplicht: elke bestaande voorziening wordt op het einde van het boekjaar getoetst aan de actuele situatie. Overtollige bedragen worden teruggenomen. (KB WVV art. 3:33)
+- Voorzieningen mogen **niet afhangen van het resultaat** — ze zijn geen instrument voor winstmanagement. (KB WVV art. 3:31)
 - Bij een risico waarvan de omvang **volstrekt onbepaalbaar** is: geen voorziening, maar verplichte vermelding in de toelichting. (CBN-advies 107/7)
 
 > [!warning]- Voorziening als winstdemper zonder onderliggende verplichting is verboden
 > ❌ *"Een vennootschap kan een 'algemene risicovoorziening' aanleggen als buffer voor toekomstige tegenvallers."*
 >
-> Voorzieningen vereisen een **concrete, duidelijk omschreven** verplichting of verliesrisico. Vage, algemene buffers zijn geen voorzieningen maar verborgen reserves — en die zijn verboden. ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]]) De verplichting of het risico moet een oorzaak hebben in het huidige of een voorbij boekjaar, niet enkel in onzekere toekomstige gebeurtenissen.
+> Voorzieningen vereisen een **concrete, duidelijk omschreven** verplichting of verliesrisico. Vage, algemene buffers zijn geen voorzieningen maar verborgen reserves — en die zijn verboden. (KB WVV art. 3:28) De verplichting of het risico moet een oorzaak hebben in het huidige of een voorbij boekjaar, niet enkel in onzekere toekomstige gebeurtenissen.
 >
 > 🤖 *AI-aanvulling*
 
@@ -207,7 +207,7 @@ Kenniselementen:
 > >
 > > **Fout.**
 > >
-> > Voor een ontwaarding van een bestaand actief (de handelsvordering) is een [[waardeverminderingen#-waardevermindering|waardevermindering]] het juiste instrument — die wordt in mindering gebracht van de actiefpost. Een voorziening staat op het passief en dekt toekomstige uitstromen of verplichtingen. De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa. ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]])
+> > Voor een ontwaarding van een bestaand actief (de handelsvordering) is een [[waardeverminderingen#-waardevermindering|waardevermindering]] het juiste instrument — die wordt in mindering gebracht van de actiefpost. Een voorziening staat op het passief en dekt toekomstige uitstromen of verplichtingen. De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa. (KB WVV art. 3:28)
 > >
 > > *Zie: [[voorzieningen#-voorziening-vs-waardevermindering-vs-schuld|Vergelijking]]  · [[waardeverminderingen#-waardevermindering|Waardevermindering]]*
 >
@@ -223,7 +223,7 @@ Kenniselementen:
 > >
 > > **Fout.**
 > >
-> > Voorzieningen mogen niet afhangen van het resultaat van het boekjaar. ([[bronnen/wetteksten/XV-KB-wvv#art-331|KB WVV art. 3:31]]) Aan de drie voorwaarden is voldaan (waarschijnlijk verlies, schatbaar bedrag) → de voorziening is verplicht. Het huidige resultaat is irrelevant. Nalaten constitueert een schending van het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]].
+> > Voorzieningen mogen niet afhangen van het resultaat van het boekjaar. (KB WVV art. 3:31) Aan de drie voorwaarden is voldaan (waarschijnlijk verlies, schatbaar bedrag) → de voorziening is verplicht. Het huidige resultaat is irrelevant. Nalaten constitueert een schending van het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]].
 > >
 > > *Zie: [[voorzieningen#-stelselmatigheid-en-resultaatonafhankelijkheid|Stelselmatigheid en resultaatonafhankelijkheid]]*
 >

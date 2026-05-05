@@ -14,7 +14,7 @@ bronnen:
 
 **IAS 2 — Inventories** regelt de waardering en boeking van voorraden onder IFRS. Onderhanden projecten in opdracht van derden, vroeger gedekt door **IAS 11**, vallen sinds 2018 onder **IFRS 15** (zie [[opbrengsten-ifrs#-onderhanden-projecten-ias-11--ifrs-15|Onderhanden projecten]]). De ITAA-brochure (april 2022) verwijst nog naar IAS 11; de student moet weten dat dit historisch is.
 
-Voor het Belgische GAAP-equivalent zie [[vlottende-activa-waardering]].
+Voor het Belgische GAAP-equivalent zie [[vlottende-activa-waardering#-voorraden|Voorraden (BE-GAAP)]].
 
 ---
 
@@ -70,7 +70,7 @@ IAS 2 §23-27 bepaalt welke methodes mogen worden gebruikt:
 >
 > IAS 2 schrapte de LIFO-optie in 2003 (toepasbaar vanaf 2005). Sindsdien zijn enkel **specifieke identificatie**, **FIFO** en **gewogen gemiddelde** toegestaan.
 >
-> Onder **Belgisch GAAP** ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:42]]) zijn FIFO, gewogen gemiddelde, LIFO én individuele identificatie alle vier toegestaan. LIFO is daar legitiem, maar zelden gebruikt — bij stijgende prijzen geeft het de laagste winst (interessant fiscaal, oncomfortabel commercieel).
+> Onder **Belgisch GAAP** (KB WVV art. 3:42) zijn FIFO, gewogen gemiddelde, LIFO én individuele identificatie alle vier toegestaan. LIFO is daar legitiem, maar zelden gebruikt — bij stijgende prijzen geeft het de laagste winst (interessant fiscaal, oncomfortabel commercieel).
 >
 > 🤖 *AI-aanvulling op basis van IAS 2 §25*
 
@@ -98,7 +98,7 @@ Wanneer:
 
 worden ze afgewaardeerd tot de NRV. De afwaardering wordt ten laste van de P&L geboekt, in de **periode van afwaardering**.
 
-**Terugname**: wanneer de oorzaak verdwijnt en de NRV opnieuw stijgt, wordt de afwaardering teruggenomen — beperkt tot de oorspronkelijke kostprijs (IAS 2 §33). Onder Belgisch GAAP geldt eenzelfde principe via [[waardeverminderingen]].
+**Terugname**: wanneer de oorzaak verdwijnt en de NRV opnieuw stijgt, wordt de afwaardering teruggenomen — beperkt tot de oorspronkelijke kostprijs (IAS 2 §33). Onder Belgisch GAAP geldt eenzelfde principe via [[waardeverminderingen#-terugneming-verplicht-bij-verdwijnen-ontwaarding|terugneming van waardeverminderingen]].
 
 ---
 
@@ -112,7 +112,7 @@ IAS 11 regelde tot 2017 de **constructiecontracten** (gebouwen, schepen, complex
 
 Volledige uitwerking: zie [[opbrengsten-ifrs#-onderhanden-projecten-ias-11--ifrs-15|Onderhanden projecten onder IFRS 15]].
 
-In Belgisch GAAP wordt onderhanden werk gewaardeerd aan **vervaardigingsprijs** ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:48]]). De entiteit **mag** kiezen voor opname met progressieve winstopname conform CBN-advies 2018/05 — vergelijkbaar met IFRS *over time*-erkenning.
+In Belgisch GAAP wordt onderhanden werk gewaardeerd aan **vervaardigingsprijs** (KB WVV art. 3:48). De entiteit **mag** kiezen voor opname met progressieve winstopname conform CBN-advies 2018/05 — vergelijkbaar met IFRS *over time*-erkenning.
 
 ---
 
@@ -159,7 +159,7 @@ Kenniselementen:
 > > - **FIFO**
 > > - **Gewogen gemiddelde**
 > >
-> > **LIFO is sinds 2005 verboden** (IAS 2 schrapte de optie in 2003). Onder Belgisch GAAP is LIFO daarentegen wél toegestaan ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:42]]) — een typisch verschilpunt tussen kaders.
+> > **LIFO is sinds 2005 verboden** (IAS 2 schrapte de optie in 2003). Onder Belgisch GAAP is LIFO daarentegen wél toegestaan (KB WVV art. 3:42) — een typisch verschilpunt tussen kaders.
 > >
 > > Optie D mist de specifieke identificatie, dus is onvolledig.
 > >

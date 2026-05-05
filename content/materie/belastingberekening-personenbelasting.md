@@ -56,7 +56,7 @@ Het schema is sinds de zesde staatshervorming (2014) **complexer** geworden door
 
 ## 🔢 Tarieven en belastingberekening
 
-De **federale basisbelasting** wordt berekend volgens een **progressief schema** met vaste schijven en tarieven ([[bronnen/wetteksten/II-wib92|WIB92 art. 130]]):
+De **federale basisbelasting** wordt berekend volgens een **progressief schema** met vaste schijven en tarieven (WIB92 art. 130):
 
 | Schijf belastbaar inkomen (aj. 2026, indicatief — exacte bedragen via cijferzakboekje) | Tarief |
 |---|---|
@@ -92,11 +92,11 @@ Gemiddelde aanslagvoet              : 37,6%  (= 18 815 / 50 000)
 
 ## 🔢 Belastingvrije som en toeslagen
 
-De **belastingvrije som** is een schijf inkomen die **niet wordt belast** (= belast aan 0%) — geïmplementeerd als een vermindering van de belasting gelijk aan de belasting op die schijf ([[bronnen/wetteksten/II-wib92|WIB92 art. 131-145]]).
+De **belastingvrije som** is een schijf inkomen die **niet wordt belast** (= belast aan 0%) — geïmplementeerd als een vermindering van de belasting gelijk aan de belasting op die schijf (WIB92 art. 131-145).
 
 **Basisbedrag** (cijferzakboekje aj. 2026, indicatief): ~ € 10 570 per belastingplichtige. **Verhoogd** voor lage inkomens.
 
-**Toeslagen voor [[gezinsfiscaliteit#-personen-ten-laste|personen ten laste]]** ([[bronnen/wetteksten/II-wib92|WIB92 art. 132]]):
+**Toeslagen voor [[gezinsfiscaliteit#-personen-ten-laste|personen ten laste]]** (WIB92 art. 132):
 
 | Aantal kinderen ten laste | Cumulatieve toeslag (cijferzakboekje aj. 2026, indicatief) |
 |---|---|
@@ -126,7 +126,7 @@ De vermindering wordt dus berekend op basis van de **laagste schijven** — dat 
 
 ## 🔢 Federale belastingverminderingen
 
-Verminderingen die op het **federale niveau** worden toegepast op de federale belasting. De belangrijkste ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/1 e.v.]]):
+Verminderingen die op het **federale niveau** worden toegepast op de federale belasting. De belangrijkste (WIB92 art. 145/1 e.v.):
 
 | Vermindering | Tarief / formule |
 |---|---|
@@ -137,7 +137,7 @@ Verminderingen die op het **federale niveau** worden toegepast op de federale be
 | **Werkgeverskredieten** (PWA-cheques, doelgroepvermindering) | Vaste tarieven |
 | **Energiebesparende investeringen** (federaal — zonnepanelen vóór bepaalde datum) | In uitdoving |
 
-**Vermindering vervangingsinkomsten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 146-154]]): degressieve vermindering ten gunste van pensioenen, werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen — om de impact van de progressie op vervangingsinkomsten te verzachten.
+**Vermindering vervangingsinkomsten** (WIB92 art. 146-154): degressieve vermindering ten gunste van pensioenen, werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen — om de impact van de progressie op vervangingsinkomsten te verzachten.
 
 **Voorrangsregel**: federale verminderingen worden **vóór** de gewestelijke verminderingen toegepast op de berekende belasting.
 
@@ -176,7 +176,7 @@ Sinds de **zesde staatshervorming** (2014) hebben de gewesten (Vlaanderen, Bruss
 
 ## 🔢 Gemeentelijke en agglomeratiebelasting
 
-**Aanvullende gemeentebelasting** ([[bronnen/wetteksten/II-wib92|WIB92 art. 466-470]]): elke gemeente bepaalt een **opcentiem** (% van de hoofdsom van de PB), meestal tussen **6% en 9%**.
+**Aanvullende gemeentebelasting** (WIB92 art. 466-470): elke gemeente bepaalt een **opcentiem** (% van de hoofdsom van de PB), meestal tussen **6% en 9%**.
 
 ```
 Aanvullende gemeentebelasting = Hoofdsom PB × gemeentelijk opcentiem (%)
@@ -195,7 +195,7 @@ Aanvullende gemeentebelasting = Hoofdsom PB × gemeentelijk opcentiem (%)
 
 ## 🔢 Bijzondere bijdrage sociale zekerheid (BBSZ)
 
-Bijdrage geheven samen met de PB, **bestemd voor de sociale zekerheid** ([[bronnen/wetteksten/II-wib92|WIB92 art. 168 e.v.]] — wet van 30 maart 1994). Niet eigenlijk een belasting maar fiscaal verwerkt.
+Bijdrage geheven samen met de PB, **bestemd voor de sociale zekerheid** (WIB92 art. 168 e.v. — wet van 30 maart 1994). Niet eigenlijk een belasting maar fiscaal verwerkt.
 
 **Berekening**: degressief in functie van het belastbaar inkomen. Maximum ~ € 731/jaar/gezin (cijferzakboekje aj. 2026).
 
@@ -207,12 +207,12 @@ Bijdrage geheven samen met de PB, **bestemd voor de sociale zekerheid** ([[bronn
 
 Voorheffingen zijn **voorschotten** op de uiteindelijke belasting. Ze worden ingehouden door de schuldenaar van het inkomen en betaald aan de FOD Financiën — en daarna verrekend met de aanslag.
 
-**Bedrijfsvoorheffing (BV)** ([[bronnen/wetteksten/II-wib92|WIB92 art. 270-275]]):
+**Bedrijfsvoorheffing (BV)** (WIB92 art. 270-275):
 - Schuldenaar: werkgever, vennootschap, debiteur van vervangingsinkomen
 - Tarief: schalen volgens loonbarema's, gezinslast, voorafbetalingen
 - **Volledig verrekenbaar** met de aanslag — eventueel teveel ingehouden BV wordt terugbetaald
 
-**Roerende voorheffing (RV)** ([[bronnen/wetteksten/II-wib92|WIB92 art. 261-266]]):
+**Roerende voorheffing (RV)** (WIB92 art. 261-266):
 - Schuldenaar: bank, vennootschap die dividenden uitkeert
 - Tarief: 30% standaard (15% of 20% in specifieke gevallen — VVPRbis, gereglementeerde sparen)
 - **Bevrijdend** voor de meeste roerende inkomsten — niet aangegeven, niet verrekend
@@ -229,7 +229,7 @@ Voorheffingen zijn **voorschotten** op de uiteindelijke belasting. Ze worden ing
 
 ## 🔢 Voorafbetalingen en vermeerdering
 
-**Voorafbetalingen (VA)** zijn **vrijwillige** vooruitbetalingen op de belasting — bedoeld om te vermijden dat de belastingplichtige op het einde van het jaar plots een groot bedrag moet betalen ([[bronnen/wetteksten/II-wib92|WIB92 art. 157 e.v.]]).
+**Voorafbetalingen (VA)** zijn **vrijwillige** vooruitbetalingen op de belasting — bedoeld om te vermijden dat de belastingplichtige op het einde van het jaar plots een groot bedrag moet betalen (WIB92 art. 157 e.v.).
 
 **Verplicht voor zelfstandigen, vrije beroepers en bedrijfsleiders** — voor werknemers in beginsel niet (BV is meestal voldoende).
 
@@ -281,7 +281,7 @@ Het aanslagbiljet dat de belastingplichtige ontvangt vermeldt het te betalen sal
 
 ## ⚖️ Globalisatie of afzonderlijke aanslagen
 
-Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aan een **vast afzonderlijk tarief** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]) — zie ook [[personenbelasting-basisbegrippen#-globalisatie-en-afzonderlijke-aanslagen|Globalisatie en afzonderlijke aanslagen]] voor het algemeen overzicht.
+Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aan een **vast afzonderlijk tarief** (WIB92 art. 171) — zie ook [[personenbelasting-basisbegrippen#-globalisatie-en-afzonderlijke-aanslagen|Globalisatie en afzonderlijke aanslagen]] voor het algemeen overzicht.
 
 | Inkomen | Tarief |
 |---|---|
@@ -293,7 +293,7 @@ Bepaalde inkomsten worden niet aan de progressieve tarieven onderworpen, maar aa
 | Pensioenkapitaal — vereffening op 60–64 jaar | 16,5% |
 | Pensioenkapitaal — vereffening op wettelijke pensioenleeftijd (65/67 jaar) | 10% |
 
-**Vergelijkingsregel**: de wet legt op dat de **gunstigste oplossing** voor de belastingplichtige wordt toegepast. Als globalisatie voordeliger uitvalt dan de afzonderlijke aanslag, wordt globalisatie toegepast ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]] in fine).
+**Vergelijkingsregel**: de wet legt op dat de **gunstigste oplossing** voor de belastingplichtige wordt toegepast. Als globalisatie voordeliger uitvalt dan de afzonderlijke aanslag, wordt globalisatie toegepast (WIB92 art. 171 in fine).
 
 ---
 

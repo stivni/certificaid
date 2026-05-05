@@ -17,11 +17,11 @@ De procedure om de waarderingsregels op te stellen staat in de competentie [[waa
 
 ## 📌 Waarderingsregels
 
-De geheel van regels die het [[#-bevoegdheid-het-bestuursorgaan|bestuursorgaan]] vaststelt voor de waardering van de inventaris ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1]]). Die regels worden bepaald met inachtneming van de bepalingen van het KB WVV, maar rekening houdend met de eigen kenmerken van de onderneming.
+De geheel van regels die het [[#-bevoegdheid-het-bestuursorgaan|bestuursorgaan]] vaststelt voor de waardering van de inventaris (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1). Die regels worden bepaald met inachtneming van de bepalingen van het KB WVV, maar rekening houdend met de eigen kenmerken van de onderneming.
 
 Twee niveaus van vastlegging:
 - **Het boek van de onderneming** (inventarisboek, art. III.89 §1 WER): de volledige, gedetailleerde regels — bewaard in de onderneming zelf
-- **De toelichting bij de jaarrekening**: een samenvatting die voldoende nauwkeurig moet zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden ([[bronnen/wetteksten/XV-KB-wvv#art-36|art. 3:6 §1]])
+- **De toelichting bij de jaarrekening**: een samenvatting die voldoende nauwkeurig moet zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden (art. 3:6 §1)
 
 > [!info]- In de praktijk
 >
@@ -33,7 +33,7 @@ Twee niveaus van vastlegging:
 
 ## 👤 Bevoegdheid: het bestuursorgaan
 
-Het **bestuursorgaan** bepaalt de waarderingsregels ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1]]). Dit is een formele bevoegdheid: de keuze van waarderingsmethoden is geen technische kwestie die de boekhouder autonoom beslist, maar een beleidsbeslissing die goedkeuring van het bestuursorgaan vereist.
+Het **bestuursorgaan** bepaalt de waarderingsregels (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1). Dit is een formele bevoegdheid: de keuze van waarderingsmethoden is geen technische kwestie die de boekhouder autonoom beslist, maar een beleidsbeslissing die goedkeuring van het bestuursorgaan vereist.
 
 De [[#-verplichtingen-toelichting-en-bewaring|toelichting bij de jaarrekening]] is de publieke weergave van die beslissing.
 
@@ -41,12 +41,12 @@ De [[#-verplichtingen-toelichting-en-bewaring|toelichting bij de jaarrekening]] 
 
 ## 📌 Toelichting bij de jaarrekening — samenvatting van de waarderingsregels
 
-De toelichting bij de jaarrekening bevat een **samenvatting van de waarderingsregels** ([[bronnen/wetteksten/XV-KB-wvv#art-361|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:61, 1°]]). Deze samenvatting:
-- moet voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden ([[bronnen/wetteksten/XV-KB-wvv#art-36|art. 3:6 §1]])
+De toelichting bij de jaarrekening bevat een **samenvatting van de waarderingsregels** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:61, 1°). Deze samenvatting:
+- moet voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden (art. 3:6 §1)
 - is niet de volledige tekst van de regels — die staat in het inventarisboek van de onderneming
 - bevat alle **aanvullende vermeldingen** die de wet bij specifieke artikels voorschrijft (bv. bij overhead in vervaardigingsprijs, bij LIFO, bij intercalaire interesten, bij bestellingen in uitvoering)
 
-Voor **microvennootschappen** geldt een uitzondering: de aanvullende gegevens die het KB bij de samenvatting van de waarderingsregels oplegt, zijn op hen niet van toepassing ([[bronnen/wetteksten/XV-KB-wvv#art-361|art. 3:61]]).[^micro]
+Voor **microvennootschappen** geldt een uitzondering: de aanvullende gegevens die het KB bij de samenvatting van de waarderingsregels oplegt, zijn op hen niet van toepassing (art. 3:61).[^micro]
 
 [^micro]: ⚠️ te verifiëren — controleer welke specifieke vermeldingen precies vrijgesteld zijn voor microvennootschappen.
 
@@ -55,12 +55,12 @@ Voor **microvennootschappen** geldt een uitzondering: de aanvullende gegevens di
 ## 📌 Aanschaffingswaarde
 *Historische kost · nominalismebeginsel*
 
-Het basisprincipe: elk actiefbestanddeel wordt gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] ([[bronnen/wetteksten/XV-KB-wvv#art-313|art. 3:13]]). Dit is het **nominalismebeginsel** — de waarde op het moment van verwerving vormt het vertrekpunt voor alle latere waarderingen.
+Het basisprincipe: elk actiefbestanddeel wordt gewaardeerd tegen [[aanschaffingswaarde|aanschaffingswaarde]] (art. 3:13). Dit is het **nominalismebeginsel** — de waarde op het moment van verwerving vormt het vertrekpunt voor alle latere waarderingen.
 
 Drie verschijningsvormen:
-- **Aanschaffingsprijs** — aankoop tegen geld, verhoogd met bijkomende kosten ([[bronnen/wetteksten/XV-KB-wvv#art-314|art. 3:14]])
-- **Vervaardigingsprijs** — zelfvervaardigde activa ([[bronnen/wetteksten/XV-KB-wvv#art-315|art. 3:15]])
-- **Inbrengwaarde** — verworven via inbreng in natura ([[bronnen/wetteksten/XV-KB-wvv#art-317|art. 3:17]])
+- **Aanschaffingsprijs** — aankoop tegen geld, verhoogd met bijkomende kosten (art. 3:14)
+- **Vervaardigingsprijs** — zelfvervaardigde activa (art. 3:15)
+- **Inbrengwaarde** — verworven via inbreng in natura (art. 3:17)
 
 Voor de volledige uitwerking per verschijningsvorm: zie [[aanschaffingswaarde|Aanschaffingswaarde]].
 
@@ -71,12 +71,12 @@ Voor de volledige uitwerking per verschijningsvorm: zie [[aanschaffingswaarde|Aa
 Twee alternatieve waardebegrippen die in specifieke omstandigheden relevant worden:
 
 **Gebruikswaarde** — de waarde van een actief voor de onderneming zelf, bepaald in functie van het nut voor de voortgezette bedrijfsuitoefening. Relevant bij:
-- herwaardering van vaste activa ([[bronnen/wetteksten/XV-KB-wvv#art-335|art. 3:35 §1]]): herwaardering is enkel toegestaan als de gebruikswaarde op vaststaande en duurzame wijze de boekwaarde overstijgt
-- immateriële vaste activa die zelf zijn vervaardigd ([[bronnen/wetteksten/XV-KB-wvv#art-338|art. 3:38]]): activering enkel toegestaan als de vervaardigingsprijs de gebruikswaarde niet overstijgt
+- herwaardering van vaste activa (art. 3:35 §1): herwaardering is enkel toegestaan als de gebruikswaarde op vaststaande en duurzame wijze de boekwaarde overstijgt
+- immateriële vaste activa die zelf zijn vervaardigd (art. 3:38): activering enkel toegestaan als de vervaardigingsprijs de gebruikswaarde niet overstijgt
 
 **Realisatiewaarde** — de waarde die bij verkoop of liquidatie kan worden gerealiseerd. Relevant bij:
-- discontinuïteit ([[bronnen/wetteksten/XV-KB-wvv#art-36|art. 3:6 §2]]): bij stopzetting moeten activa worden teruggebracht tot hun vermoedelijke realisatiewaarde via aanvullende afschrijvingen of waardeverminderingen
-- [[waardeverminderingen|waardeverminderingen]] op geldbeleggingen en liquide middelen: verplicht wanneer de realisatiewaarde lager is dan de aanschaffingswaarde ([[bronnen/wetteksten/XV-KB-wvv#art-352|art. 3:52]])
+- discontinuïteit (art. 3:6 §2): bij stopzetting moeten activa worden teruggebracht tot hun vermoedelijke realisatiewaarde via aanvullende afschrijvingen of waardeverminderingen
+- [[waardeverminderingen|waardeverminderingen]] op geldbeleggingen en liquide middelen: verplicht wanneer de realisatiewaarde lager is dan de aanschaffingswaarde (art. 3:52)
 
 ---
 
@@ -86,7 +86,7 @@ Het principe dat vlottende activa worden gewaardeerd aan de **laagste** van aans
 
 Toepassingen:
 - **Voorraden**: wanneer de marktwaarde lager is dan de aanschaffingswaarde → verplichte [[waardeverminderingen|waardevermindering]]
-- **Geldbeleggingen**: wanneer de realisatiewaarde op balansdatum lager is dan de aanschaffingswaarde → verplichte waardevermindering ([[bronnen/wetteksten/XV-KB-wvv#art-352|art. 3:52]])
+- **Geldbeleggingen**: wanneer de realisatiewaarde op balansdatum lager is dan de aanschaffingswaarde → verplichte waardevermindering (art. 3:52)
 - **Vorderingen**: wanneer een vordering dubieus wordt → verplichte waardevermindering
 
 Omgekeerd geldt: een opwaardering boven de aanschaffingswaarde is voor vlottende activa niet toegestaan (voor vaste activa is herwaardering onder voorwaarden wél mogelijk via [[herwaarderingsmeerwaarden|herwaarderingsmeerwaarden]]).
@@ -98,35 +98,35 @@ Omgekeerd geldt: een opwaardering boven de aanschaffingswaarde is voor vlottende
 Een set waarderingsregels die voldoet aan KB WVV art. 3:6 §1 dekt alle rubrieken van de inventaris. In de praktijk betekent dit minstens:
 
 **Vaste activa**
-- **Oprichtingskosten** — al dan niet activeren; indien geactiveerd: afschrijvingsmethode en minimum 20% per jaar ([[bronnen/wetteksten/XV-KB-wvv#art-337|art. 3:37]])
-- **Immateriële vaste activa (IVA)** — aanschaffingswaarde of vervaardigingsprijs; afschrijvingsmethode en termijn per categorie; behandeling van goodwill (max. 10 jaar, tenzij gemotiveerd); versnelde afschrijving: vermelden in toelichting als ze aanzienlijk afwijkt van economisch verantwoorde afschrijving ([[bronnen/wetteksten/XV-KB-wvv#art-339|art. 3:39]])
+- **Oprichtingskosten** — al dan niet activeren; indien geactiveerd: afschrijvingsmethode en minimum 20% per jaar (art. 3:37)
+- **Immateriële vaste activa (IVA)** — aanschaffingswaarde of vervaardigingsprijs; afschrijvingsmethode en termijn per categorie; behandeling van goodwill (max. 10 jaar, tenzij gemotiveerd); versnelde afschrijving: vermelden in toelichting als ze aanzienlijk afwijkt van economisch verantwoorde afschrijving (art. 3:39)
 - **Materiële vaste activa (MVA)** — aanschaffingswaarde + bijkomende kosten; afschrijvingsmethode (lineair, degressief, eenheden) en termijn per categorie; mogelijkheid van herwaardering
 - **Financiële vaste activa (FVA)** — aanschaffingswaarde; methode voor waardeverminderingen bij duurzame minderwaarde
 
 **Vlottende activa**
-- **Voorraden** — voorraadwaarderingsmethode: FIFO, LIFO, gewogen gemiddelde of individualisering ([[bronnen/wetteksten/XV-KB-wvv#art-321|art. 3:21]]); toepassing van LCM bij marktwaarde < aanschaffingswaarde
-- **Bestellingen in uitvoering** — percentage of completion of completed contract; methoden en criteria vermelden in toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-349|art. 3:49]])
+- **Voorraden** — voorraadwaarderingsmethode: FIFO, LIFO, gewogen gemiddelde of individualisering (art. 3:21); toepassing van LCM bij marktwaarde < aanschaffingswaarde
+- **Bestellingen in uitvoering** — percentage of completion of completed contract; methoden en criteria vermelden in toelichting (art. 3:49)
 - **Vorderingen** — nominaal of contante waarde; criteria voor waardeverminderingen op dubieuze klanten
-- **Geldbeleggingen** — aanschaffingswaarde; methode voor waardeverminderingen bij LCM ([[bronnen/wetteksten/XV-KB-wvv#art-352|art. 3:52]])
-- **Vreemde valuta** — omrekeningskoers (slotkoers, gemiddelde, transactiekoers); methode vermelden in toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-312|art. 3:12]])
+- **Geldbeleggingen** — aanschaffingswaarde; methode voor waardeverminderingen bij LCM (art. 3:52)
+- **Vreemde valuta** — omrekeningskoers (slotkoers, gemiddelde, transactiekoers); methode vermelden in toelichting (art. 3:12)
 
 **Passiva**
 - **Schulden** — nominaal of terugbetalingswaarde
-- **Voorzieningen** — criteria voor aanleg; stelselmatige methoden, niet afhankelijk van het resultaat ([[bronnen/wetteksten/XV-KB-wvv#art-331|art. 3:31]])
+- **Voorzieningen** — criteria voor aanleg; stelselmatige methoden, niet afhankelijk van het resultaat (art. 3:31)
 
 **Overige**
-- **Intercalaire interesten** — of ze worden geactiveerd als onderdeel van de aanschaffingswaarde en zo ja, voor welke categorie activa; vermelden in toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-316|art. 3:16]])
-- **Overhead in vervaardigingsprijs** — of de onrechtstreekse productiekosten worden opgenomen of niet; vermelden in toelichting als ze worden weggelaten ([[bronnen/wetteksten/XV-KB-wvv#art-315|art. 3:15]])
+- **Intercalaire interesten** — of ze worden geactiveerd als onderdeel van de aanschaffingswaarde en zo ja, voor welke categorie activa; vermelden in toelichting (art. 3:16)
+- **Overhead in vervaardigingsprijs** — of de onrechtstreekse productiekosten worden opgenomen of niet; vermelden in toelichting als ze worden weggelaten (art. 3:15)
 
 ---
 
 ## ⚖️ Consistentiebeginsel — identiek van jaar tot jaar
 
-De [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|waarderingsregels moeten van het ene boekjaar op het andere identiek blijven]] en stelselmatig worden toegepast ([[bronnen/wetteksten/XV-KB-wvv#art-38|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8]]).
+De [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|waarderingsregels moeten van het ene boekjaar op het andere identiek blijven]] en stelselmatig worden toegepast (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8).
 
 Dit is het **permanentie- of consistentiebeginsel**: eens een methode gekozen, geldt die voor alle volgende boekjaren — tenzij een gemotiveerde wijziging is toegestaan (zie [[#-wijziging-van-waarderingsregels|hieronder]]).
 
-De stelselmatigheidseis geldt ook voor [[afschrijvingen|afschrijvingen]] en [[voorzieningen|voorzieningen]]: de methoden moeten worden gevolgd ongeacht het resultaat van het boekjaar ([[bronnen/wetteksten/XV-KB-wvv#art-326|art. 3:26]], [[bronnen/wetteksten/XV-KB-wvv#art-331|art. 3:31]]).
+De stelselmatigheidseis geldt ook voor [[afschrijvingen|afschrijvingen]] en [[voorzieningen|voorzieningen]]: de methoden moeten worden gevolgd ongeacht het resultaat van het boekjaar (art. 3:26, art. 3:31).
 
 ---
 
@@ -135,11 +135,11 @@ De stelselmatigheidseis geldt ook voor [[afschrijvingen|afschrijvingen]] en [[vo
 Wijziging is enkel toegestaan wanneer de vroegere regels **niet langer voldoen aan het voorschrift van het getrouwe beeld**, bijvoorbeeld door:
 - belangrijke veranderingen in de activiteiten van de onderneming
 - veranderingen in de structuur van het vermogen
-- gewijzigde economische of technologische omstandigheden ([[bronnen/wetteksten/XV-KB-wvv#art-38|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8]])
+- gewijzigde economische of technologische omstandigheden (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8)
 
-**Gevolgen van een wijziging**: de procedure uit art. 3:7 is van toepassing ([[bronnen/wetteksten/XV-KB-wvv#art-38|art. 3:8, derde lid]]):
-1. De afwijking wordt bij de waarderingsregels in de toelichting vermeld en **verantwoord** ([[bronnen/wetteksten/XV-KB-wvv#art-37|art. 3:7, tweede lid]])
-2. De **geraamde invloed** op het vermogen, de financiële positie en het resultaat wordt vermeld in de toelichting bij het boekjaar waarin de gewijzigde regel voor het eerst wordt toegepast ([[bronnen/wetteksten/XV-KB-wvv#art-37|art. 3:7, derde lid]])
+**Gevolgen van een wijziging**: de procedure uit art. 3:7 is van toepassing (art. 3:8, derde lid):
+1. De afwijking wordt bij de waarderingsregels in de toelichting vermeld en **verantwoord** (art. 3:7, tweede lid)
+2. De **geraamde invloed** op het vermogen, de financiële positie en het resultaat wordt vermeld in de toelichting bij het boekjaar waarin de gewijzigde regel voor het eerst wordt toegepast (art. 3:7, derde lid)
 
 > [!info]- In de praktijk
 >
@@ -151,7 +151,7 @@ Wijziging is enkel toegestaan wanneer de vroegere regels **niet langer voldoen a
 
 ## ⚖️ Getrouwe-beeld-override
 
-In uitzonderingsgevallen waarbij de **strikte toepassing van een waarderingsregel het getrouwe beeld in de weg staat**, moet van die regel worden afgeweken ([[bronnen/wetteksten/XV-KB-wvv#art-37|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:7]]). Dit is geen vrijheid maar een verplichting: het getrouwe beeld primeert boven de technische regels.
+In uitzonderingsgevallen waarbij de **strikte toepassing van een waarderingsregel het getrouwe beeld in de weg staat**, moet van die regel worden afgeweken (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:7). Dit is geen vrijheid maar een verplichting: het getrouwe beeld primeert boven de technische regels.
 
 De afwijking wordt in de toelichting vermeld, verantwoord, en de geraamde invloed op vermogen, financiële positie en resultaat wordt erbij gezet. Zie ook [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld (overkoepelend beginsel)]].
 
@@ -159,28 +159,28 @@ De afwijking wordt in de toelichting vermeld, verantwoord, en de geraamde invloe
 
 ## ⚖️ Continuïteitsbeginsel als uitgangspunt van de waardering
 
-Bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de onderneming haar bedrijf zal **voortzetten** ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1, derde lid]]). Dit is het [[boekhoudkundige-beginselen#-continuïteitsbeginsel|continuïteitsbeginsel]] als fundament onder alle waarderingsregels.
+Bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de onderneming haar bedrijf zal **voortzetten** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1, derde lid). Dit is het [[boekhoudkundige-beginselen#-continuïteitsbeginsel|continuïteitsbeginsel]] als fundament onder alle waarderingsregels.
 
-Wanneer dit niet langer het geval is (stopzetting of vereffening), worden de waarderingsregels dienovereenkomstig aangepast ([[bronnen/wetteksten/XV-KB-wvv#art-36|art. 3:6 §2]]). De gevolgen zijn dan: volledige afschrijving van oprichtingskosten, aanvullende afschrijvingen of waardeverminderingen tot de realisatiewaarde, en een voorziening voor de beëindigingskosten. Zie [[continuiteitsrisico|Continuïteitsrisico]] voor de volledige procedure.
+Wanneer dit niet langer het geval is (stopzetting of vereffening), worden de waarderingsregels dienovereenkomstig aangepast (art. 3:6 §2). De gevolgen zijn dan: volledige afschrijving van oprichtingskosten, aanvullende afschrijvingen of waardeverminderingen tot de realisatiewaarde, en een voorziening voor de beëindigingskosten. Zie [[continuiteitsrisico|Continuïteitsrisico]] voor de volledige procedure.
 
 ---
 
 ## 🔒 Verplichtingen: toelichting en bewaring
 
-**Wettelijke grondslag**: het bestuursorgaan heeft de wettelijke plicht waarderingsregels op te stellen ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1]]).
+**Wettelijke grondslag**: het bestuursorgaan heeft de wettelijke plicht waarderingsregels op te stellen (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1).
 
 **Bewaring in het inventarisboek**: de volledige waarderingsregels worden vastgelegd in het boek bedoeld in art. III.89 §1 WER — het inventarisboek. De bewaringstermijn volgt de algemene boekhoudkundige bewaringstermijn (7 jaar).
 
-**Vermelding in toelichting**: de samenvatting van de waarderingsregels is een verplicht onderdeel van de toelichting bij de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-361|art. 3:61, 1°]]). Aanvullende vermeldingen bij de waarderingsregels zijn vereist bij:
-- afwijking van een waarderingsregel ten gunste van het getrouwe beeld ([[bronnen/wetteksten/XV-KB-wvv#art-37|art. 3:7]])
-- wijziging van waarderingsregels ([[bronnen/wetteksten/XV-KB-wvv#art-38|art. 3:8]])
-- omrekeningskoersen vreemde valuta ([[bronnen/wetteksten/XV-KB-wvv#art-312|art. 3:12]])
-- versnelde afschrijvingen IVA als ze aanzienlijk afwijken van economisch verantwoorde afschrijvingen ([[bronnen/wetteksten/XV-KB-wvv#art-339|art. 3:39]])
-- opname overhead in vervaardigingsprijs wanneer die *niet* wordt opgenomen ([[bronnen/wetteksten/XV-KB-wvv#art-315|art. 3:15]])
-- toepassing intercalaire interesten ([[bronnen/wetteksten/XV-KB-wvv#art-316|art. 3:16]])
-- LIFO-methode waarbij boekwaarde aanzienlijk verschilt van marktwaarde ([[bronnen/wetteksten/XV-KB-wvv#art-321|art. 3:21]])
-- methoden en criteria voor bestellingen in uitvoering ([[bronnen/wetteksten/XV-KB-wvv#art-349|art. 3:49]])
-- herstructureringskosten geactiveerd als oprichtingskosten ([[bronnen/wetteksten/XV-KB-wvv#art-336|art. 3:36]])
+**Vermelding in toelichting**: de samenvatting van de waarderingsregels is een verplicht onderdeel van de toelichting bij de jaarrekening (art. 3:61, 1°). Aanvullende vermeldingen bij de waarderingsregels zijn vereist bij:
+- afwijking van een waarderingsregel ten gunste van het getrouwe beeld (art. 3:7)
+- wijziging van waarderingsregels (art. 3:8)
+- omrekeningskoersen vreemde valuta (art. 3:12)
+- versnelde afschrijvingen IVA als ze aanzienlijk afwijken van economisch verantwoorde afschrijvingen (art. 3:39)
+- opname overhead in vervaardigingsprijs wanneer die *niet* wordt opgenomen (art. 3:15)
+- toepassing intercalaire interesten (art. 3:16)
+- LIFO-methode waarbij boekwaarde aanzienlijk verschilt van marktwaarde (art. 3:21)
+- methoden en criteria voor bestellingen in uitvoering (art. 3:49)
+- herstructureringskosten geactiveerd als oprichtingskosten (art. 3:36)
 
 ---
 
@@ -201,7 +201,7 @@ De waarderingsregels zijn de **operationalisering** van de beginselen: waar het 
 > [!warning]- Generieke standaard-waarderingsregels zijn niet voldoende
 > ❌ *"Kopieer de waarderingsregels van een vergelijkbare onderneming — ze zijn toch allemaal hetzelfde."*
 >
-> De wet vereist dat de regels rekening houden met de **eigen kenmerken van de onderneming** ([[bronnen/wetteksten/XV-KB-wvv#art-36|art. 3:6 §1]]). Een bouwbedrijf met grote bestellingen in uitvoering heeft andere keuzes te maken dan een handelsvennootschap met een eenvoudige voorraad. Generieke regels die de concrete activiteiten niet weerspiegelen, voldoen niet aan de eis van het getrouwe beeld — ze beschrijven de methode niet met de vereiste nauwkeurigheid.
+> De wet vereist dat de regels rekening houden met de **eigen kenmerken van de onderneming** (art. 3:6 §1). Een bouwbedrijf met grote bestellingen in uitvoering heeft andere keuzes te maken dan een handelsvennootschap met een eenvoudige voorraad. Generieke regels die de concrete activiteiten niet weerspiegelen, voldoen niet aan de eis van het getrouwe beeld — ze beschrijven de methode niet met de vereiste nauwkeurigheid.
 >
 > 🤖 *AI-aanvulling*
 
@@ -215,7 +215,7 @@ De waarderingsregels zijn de **operationalisering** van de beginselen: waar het 
 > [!warning]- Wijziging in toelichting vermelden omvat ook de kwantitatieve impact
 > ❌ *"Het volstaat om in de toelichting te melden welke methode is gewijzigd en waarom."*
 >
-> De wet vereist dat naast de vermelding en verantwoording van de wijziging ook de **geraamde invloed op het vermogen, de financiële positie en het resultaat** wordt vermeld ([[bronnen/wetteksten/XV-KB-wvv#art-37|art. 3:7, derde lid]], via [[bronnen/wetteksten/XV-KB-wvv#art-38|art. 3:8]]). Een toelichting die enkel de kwalitatieve reden geeft zonder het kwantitatieve effect, is wettelijk onvolledig.
+> De wet vereist dat naast de vermelding en verantwoording van de wijziging ook de **geraamde invloed op het vermogen, de financiële positie en het resultaat** wordt vermeld (art. 3:7, derde lid, via art. 3:8). Een toelichting die enkel de kwalitatieve reden geeft zonder het kwantitatieve effect, is wettelijk onvolledig.
 >
 > 🤖 *AI-aanvulling*
 
@@ -246,7 +246,7 @@ Kenniselementen:
 > >
 > > **Fout.**
 > >
-> > De waarderingsregels worden bepaald door het **bestuursorgaan** van de onderneming ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6 §1]]). De accountant kan adviseren en de procedure begeleiden (zie [[waarderingsregels-vaststellen|Waarderingsregels vaststellen]]), maar de formele bevoegdheid en goedkeuring liggen bij het bestuursorgaan — niet bij een externe adviseur.
+> > De waarderingsregels worden bepaald door het **bestuursorgaan** van de onderneming (KB WVV art. 3:6 §1). De accountant kan adviseren en de procedure begeleiden (zie [[waarderingsregels-vaststellen|Waarderingsregels vaststellen]]), maar de formele bevoegdheid en goedkeuring liggen bij het bestuursorgaan — niet bij een externe adviseur.
 > >
 > > *Zie: [[waarderingsregels-onderneming#-bevoegdheid-het-bestuursorgaan|Bevoegdheid: het bestuursorgaan]]*
 >

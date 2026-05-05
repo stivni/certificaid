@@ -18,11 +18,11 @@ Voor een specifieke transactie of post: identificeren welke IFRS-standaard van t
 - de **consolidatieboeking** in de moedergroep wanneer de Belgische dochter onder Belgisch GAAP boekt
 - **due diligence** bij overname van een IFRS-rapporterend bedrijf
 
-Voor de bepaling of IFRS überhaupt van toepassing is, zie [[ifrs-toepassingskader-bepalen]].
+Voor de bepaling of IFRS überhaupt van toepassing is, zie [[ifrs-toepassingskader-bepalen|Toepassingskader IFRS bepalen]].
 
 > [!info]- Grondslag van deze werkwijze (🤖 70% · ⚖️ 30%)
 >
-> De individuele IFRS-standaarden zijn wettelijk bindend (via [[ifrs-rechtskader#-verordening-eg-nr-16062002|Verordening 1606/2002]] en endorsement-verordeningen) — de **criteria** zijn dus genormeerd. De **werkwijze** om systematisch een transactie tegen die criteria te toetsen is een analytische praktijk: er is geen IFRS-norm die voorschrijft "zo identificeer je welke standaard van toepassing is op een transactie".
+> De individuele IFRS-standaarden zijn wettelijk bindend (via [[ifrs-rechtskader#-ias-verordening|Verordening 1606/2002]] en endorsement-verordeningen) — de **criteria** zijn dus genormeerd. De **werkwijze** om systematisch een transactie tegen die criteria te toetsen is een analytische praktijk: er is geen IFRS-norm die voorschrijft "zo identificeer je welke standaard van toepassing is op een transactie".
 
 ## Aanbevolen werkwijze
 
@@ -100,7 +100,7 @@ Standaardcriterium per categorie:
 >
 > Onder IAS 37: er is een **constructieve verplichting** ontstaan bij verkoop, met **waarschijnlijke uitstroom** en **betrouwbare schatting** (3% × €200 = €6 per apparaat). Een **voorziening** wordt opgenomen op moment van verkoop, niet bij effectieve herstelling.
 >
-> Onder Belgisch GAAP: idem — voorziening wordt gevormd via [[voorzieningen]] op het passief van de balans.
+> Onder Belgisch GAAP: idem — voorziening wordt gevormd via [[voorzieningen#-boekingen|voorzieningen]] op het passief van de balans.
 >
 > 🤖 *AI-aanvulling*
 
@@ -137,7 +137,7 @@ Veelvoorkomende waarderingsbasis per categorie:
 > - Latere waardering (kostprijsmodel of herwaarderingsmodel of reële waarde)
 > - Periodieke verwerking (afschrijving, herwaardering, impairment)
 
-**Waarom**: voor veel posten biedt IFRS twee modellen: **kostprijsmodel** en **herwaarderingsmodel** (of reële-waardemodel). De keuze wordt op niveau van **categorie** gemaakt en moet consistent worden toegepast — zie de individuele standaarden ([[vaste-activa-ifrs|IAS 16/38]], IAS 40, IFRS 9).
+**Waarom**: voor veel posten biedt IFRS twee modellen: **kostprijsmodel** en **herwaarderingsmodel** (of reële-waardemodel). De keuze wordt op niveau van **categorie** gemaakt en moet consistent worden toegepast — zie de individuele standaarden ([[vaste-activa-ifrs#-gemeenschappelijke-bepalingen-voor-materiële-en-immateriële-activa|IAS 16/38]], IAS 40, IFRS 9).
 
 **Periodieke verwerking** omvat:
 - Afschrijving (IAS 16, IAS 38, IFRS 16)
@@ -162,7 +162,7 @@ Veelvoorkomende waarderingsbasis per categorie:
 | Operationele lease | Off-balance | On-balance (IFRS 16) — zie [[leasing-ifrs]] |
 | Goodwill | Afgeschreven 5-10 jaar | Niet afgeschreven, jaarlijks impairment |
 | Ontwikkelingskosten | Activering optioneel | Verplicht bij voldoen voorwaarden |
-| Voorraad LIFO | Toegelaten | Verboden — zie [[voorraden-ifrs]] |
+| Voorraad LIFO | Toegelaten | Verboden — zie [[voorraden-ifrs#-waardering-en-boeking-van-voorraden|voorraden-ifrs]] |
 | Herwaardering MVA | Beperkt tot duurzame meerwaarde | Vrijer model voor categorie |
 | Toelichting | Beperkt | Uitgebreid |
 
@@ -215,7 +215,7 @@ De memo bevat:
 > - **IFRS-consolidatie**: IFRS 16 → right-of-use asset + leaseschuld voor contante waarde van toekomstige betalingen (~€870.000 bij 5%)
 >
 > **Grondslag**:
-> - Belgisch GAAP: [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:40]] — operationele leasing blijft off-balance
+> - Belgisch GAAP: KB WVV art. 3:40 — operationele leasing blijft off-balance
 > - IFRS: [[leasing-ifrs|IFRS 16]] — single recognition model voor lessee
 >
 > **Redenering**: de Belgische statutaire jaarrekening blijft Belgisch GAAP — geen IFRS 16. In de **consolidatieboekingen** wordt een aanpassing toegevoegd: het right-of-use-actief en de leaseschuld worden geboekt, en de huurkost in de Belgische P&L wordt geherclassificeerd als afschrijving + interest. Bij elke afsluiting moeten deze consolidatieboekingen geactualiseerd worden (aflossing leaseschuld, afschrijving right-of-use). Een typische consolidatieboeking — werkpapieren onderhouden door het consolidatieteam.

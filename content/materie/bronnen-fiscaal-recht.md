@@ -114,8 +114,8 @@ De **federale wetgever** (Kamer + Senaat → enkel Kamer sinds 2014) draagt de h
 |---|---|---|
 | **WIB92** — Wetboek van de Inkomstenbelastingen 1992 | II | PB, Ven.B, RPB, BNI |
 | **WBTW** — Wetboek BTW | VI.A | BTW |
-| **WDRT** — Wetboek Diverse Rechten en Taksen ([[bronnen/wetteksten/V-wdrt\|↗]]) | V | Diverse rechten en taksen |
-| **WInv** — Wetboek Invordering ([[bronnen/wetteksten/VII-wetboek-invordering\|↗]]) | VII | Inning en invordering |
+| **WDRT** — Wetboek Diverse Rechten en Taksen (↗) | V | Diverse rechten en taksen |
+| **WInv** — Wetboek Invordering (↗) | VII | Inning en invordering |
 | **WIGB** — Wetboek Inkomstenbelasting Gewestelijk Bestuur (oud) | III | Federale uitvoering bij regionale belastingen |
 
 Daarnaast **bijzondere wetten** (zoals de Bijzondere Financieringswet van 16 januari 1989) die de fiscale bevoegdheden tussen federale en gewestelijke overheden verdelen.
@@ -124,7 +124,7 @@ Daarnaast **bijzondere wetten** (zoals de Bijzondere Financieringswet van 16 jan
 
 ## 📌 Federale uitvoeringsbesluiten
 
-Het uitvoeringsbesluit (Koninklijk Besluit) **verfijnt** de wet zonder nieuwe verplichtingen toe te voegen. Het belangrijkste voorbeeld: het [[bronnen/wetteksten/II-KB-wib92|KB/WIB92]] (KB tot uitvoering van het WIB92, 27 augustus 1993) — bevat onder meer de tabellen voor bedrijfsvoorheffing en specifieke uitvoeringsmodaliteiten.
+Het uitvoeringsbesluit (Koninklijk Besluit) **verfijnt** de wet zonder nieuwe verplichtingen toe te voegen. Het belangrijkste voorbeeld: het KB/WIB92 (KB tot uitvoering van het WIB92, 27 augustus 1993) — bevat onder meer de tabellen voor bedrijfsvoorheffing en specifieke uitvoeringsmodaliteiten.
 
 > [!warning]- Een KB kan de wet niet uitbreiden, alleen uitvoeren
 > ❌ *"Een KB dat een aftrek beperkt tot bepaalde categorieën belastingplichtigen, blijft geldig zolang de wet er niet over rept."*
@@ -141,7 +141,7 @@ Sinds de regionalisering bezitten de Gewesten een **eigen fiscale autonomie** vo
 
 | Gewest | Codex / decreet | ITAA-LEX sectie |
 |---|---|---|
-| **Vlaanderen** | [[bronnen/wetteksten/IVA-vcf\|Vlaamse Codex Fiscaliteit (VCF)]] | IV.A |
+| **Vlaanderen** | Vlaamse Codex Fiscaliteit (VCF) | IV.A |
 | **Brussel** | Brusselse Codex Fiscale Procedure | IV.B |
 | **Wallonië** | Waalse decreten gewestelijke belastingen | IV.C |
 
@@ -149,7 +149,7 @@ De gewesten regelen onder meer **registratierechten, successierechten, schenking
 
 > [!info]- Vlaanderen vs. Brussel/Wallonië voor registratie- en successierechten
 >
-> Vlaanderen heeft op 1 januari 2015 de **registratie- en successierechten geïntegreerd** in de [[bronnen/wetteksten/IVA-vcf|VCF]] (Titel 2, hoofdstuk 7 erfbelasting; hoofdstuk 8 registratiebelasting). Voor Brussel en Wallonië gelden nog steeds de **federale Wetboeken** als juridische basis: het [[bronnen/wetteksten/VIII-registratierechten|Wetboek registratierechten 1939]] (KB nr. 64) en het [[bronnen/wetteksten/IX-successierechten|Wetboek successierechten 1936]] (KB nr. 308) — met regionale tariefdecreten die de tarieven bijstellen. Zie [[2.6-registratie-en-successierechten|PO 2.6]] voor de inhoudelijke materie.
+> Vlaanderen heeft op 1 januari 2015 de **registratie- en successierechten geïntegreerd** in de VCF (Titel 2, hoofdstuk 7 erfbelasting; hoofdstuk 8 registratiebelasting). Voor Brussel en Wallonië gelden nog steeds de **federale Wetboeken** als juridische basis: het Wetboek registratierechten 1939 (KB nr. 64) en het Wetboek successierechten 1936 (KB nr. 308) — met regionale tariefdecreten die de tarieven bijstellen. Zie [[2.6-registratie-en-successierechten|PO 2.6]] voor de inhoudelijke materie.
 >
 > 🤖 *AI-aanvulling*
 
@@ -175,7 +175,7 @@ Een gemeentelijk belastingreglement is een **wettelijke norm** in de fiscale zin
 | **FAQ FOD Financiën** | Online vraag-en-antwoord op concrete situaties | Niemand strikt — maar inroepbaar via vertrouwensbeginsel |
 | **Voorafgaande beslissingen (rulings)** | Individuele bindende beslissing voor een specifieke verrichting | De aanvrager én de fiscus, voor de duur en onder de voorwaarden van de ruling |
 
-Voorafgaande beslissingen zijn de uitzondering: ze **binden** de fiscus tegenover de aanvrager (art. 22 Wet 24 december 2002 — voor België: [[bronnen/wetteksten/I-voorafgaande-beslissingen|Dienst Voorafgaande Beslissingen]]).
+Voorafgaande beslissingen zijn de uitzondering: ze **binden** de fiscus tegenover de aanvrager (art. 22 Wet 24 december 2002 — voor België: Dienst Voorafgaande Beslissingen).
 
 > [!info]- In de praktijk: een ruling aanvragen is geen snelle procedure
 >

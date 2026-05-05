@@ -59,14 +59,14 @@ Type: overdracht eigendom OG onder bezwarende titel
 
 > [!info]- Concreet: koopbelofte via stroman
 >
-> Cliënt laat een onderhands compromis ondertekenen door zijn broer, met een clausule "aanwijzing lastgever nog mogelijk". De beroepsbeoefenaar kwalificeert dit als een onderhands geschrift dat als titel dient van een overdracht — het verkooprecht is al opeisbaar bij de registratie of verplichting tot registratie van dat compromis. De aanwijzingsvrijstelling ([[bronnen/wetteksten/IVA-vcf#art-294601|VCF art. 2.9.6.0.1, 1°]]) is enkel van toepassing als de authentieke aanwijzing van de lastgever tijdig plaatsvindt.
+> Cliënt laat een onderhands compromis ondertekenen door zijn broer, met een clausule "aanwijzing lastgever nog mogelijk". De beroepsbeoefenaar kwalificeert dit als een onderhands geschrift dat als titel dient van een overdracht — het verkooprecht is al opeisbaar bij de registratie of verplichting tot registratie van dat compromis. De aanwijzingsvrijstelling (VCF art. 2.9.6.0.1, 1°) is enkel van toepassing als de authentieke aanwijzing van de lastgever tijdig plaatsvindt.
 >
 > 🤖 *AI-aanvulling*
 
 > [!warning]- Compromis is al een belastbaar geschrift — niet enkel de notariële akte
 > ❌ *"Zolang de notariële akte niet verleden is, is er geen verkooprecht verschuldigd."*
 >
-> Het belastbaar feit is de [[registratierecht-onroerend-goed#-verkooprecht|registratie of de verplichting tot registratie]] van het geschrift dat als titel dient van de overdracht ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]). Een onderhands compromis is zo'n geschrift. Als het afzonderlijk ter registratie aangeboden wordt, is het verkooprecht onmiddellijk verschuldigd — niet pas bij de notariële akte.
+> Het belastbaar feit is de [[registratierecht-onroerend-goed#-verkooprecht|registratie of de verplichting tot registratie]] van het geschrift dat als titel dient van de overdracht (VCF art. 2.9.1.0.1). Een onderhands compromis is zo'n geschrift. Als het afzonderlijk ter registratie aangeboden wordt, is het verkooprecht onmiddellijk verschuldigd — niet pas bij de notariële akte.
 >
 > 📝 *Gebaseerd op examenthematiek 2014/1 (koopbelofte stroman)*
 
@@ -95,7 +95,7 @@ De **aanknopingsregel verschilt per type recht**:
 | **Schenkbelasting roerend** | Fiscale woonplaats van de schenker | Schenker in Antwerpen → VCF + Vlabel |
 | **Recht op geschriften (WDRT)** | Standplaats van de notaris | Federaal — altijd WDRT, nooit VCF |
 
-*(Grondslag voor aanknoping schenkbelasting roerend: [[bronnen/wetteksten/IVA-vcf#art-2810101|VCF art. 2.8.1.0.1]])*
+*(Grondslag voor aanknoping schenkbelasting roerend: VCF art. 2.8.1.0.1)*
 
 > [!info]- Concreet: Antwerpse schenker schenkt Brusselse woning
 >
@@ -172,18 +172,18 @@ De grondslagregels per type recht:
 - Overeengekomen prijs en lasten (verkoopprijs + overgenomen lasten ten laste van de koper)
 - Venale waarde (verkoopwaarde op de vrije markt)
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-2930101|VCF art. 2.9.3.0.1]])*
+*(Grondslag: VCF art. 2.9.3.0.1)*
 
-**Schenkbelasting** — de **verkoopwaarde** van de geschonken goederen op datum van de schenking, zonder aftrek van lasten (behalve kosteloze lasten ten gunste van derden). *(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-28301|VCF art. 2.8.3.0.1]])*
+**Schenkbelasting** — de **verkoopwaarde** van de geschonken goederen op datum van de schenking, zonder aftrek van lasten (behalve kosteloze lasten ten gunste van derden). *(Grondslag: VCF art. 2.8.3.0.1)*
 
-**Verdeelrecht** — de overeengekomen waarde van de verdeelde goederen, niet lager dan de venale waarde. *(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-2103-01|VCF art. 2.10.3.0.1]])*
+**Verdeelrecht** — de overeengekomen waarde van de verdeelde goederen, niet lager dan de venale waarde. *(Grondslag: VCF art. 2.10.3.0.1)*
 
-**Recht op hypotheekvestiging** — het bedrag van de gewaarborgde sommen (excl. interesten van 3 jaar). *(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29301|VCF art. 2.11.3.0.1]])*
+**Recht op hypotheekvestiging** — het bedrag van de gewaarborgde sommen (excl. interesten van 3 jaar). *(Grondslag: VCF art. 2.11.3.0.1)*
 
 **Inbreng in vennootschap (gemengde vergoeding)**:
 > Belastbaar deel = (Niet-aandelenvergoeding / Totale inbrengwaarde) × Waarde OG
 
-*(Grondslag: [[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3, tweede lid]])*
+*(Grondslag: VCF art. 2.9.1.0.3, tweede lid)*
 
 ```
 Voorbeeld grondslag verkooprecht:
@@ -201,7 +201,7 @@ Voorbeeld schenkbelasting OG:
 > [!warning]- Venale waarde vs. verkoopprijs — de fiscus toetst altijd de hoogste
 > ❌ *"Als de verkoopprijs lager is dan de marktwaarde, wordt de belasting berekend op de verkoopprijs."*
 >
-> De [[registratierechten-grondslagen#-evenredige-rechten|belastbare grondslag]] is altijd de **hogere** van de twee — Vlabel controleert actief op onderwaardatie en kan aanvullende rechten vestigen binnen **2 jaar** na registratie ([[bronnen/wetteksten/IVA-vcf#art-3330303|VCF art. 3.3.3.0.3]]). Een bewust te lage verkoopprijs bij verkoop aan een familielid lost het probleem niet op.
+> De [[registratierechten-grondslagen#-evenredige-rechten|belastbare grondslag]] is altijd de **hogere** van de twee — Vlabel controleert actief op onderwaardatie en kan aanvullende rechten vestigen binnen **2 jaar** na registratie (VCF art. 3.3.3.0.3). Een bewust te lage verkoopprijs bij verkoop aan een familielid lost het probleem niet op.
 >
 > 🤖 *AI-aanvulling*
 
@@ -249,7 +249,7 @@ Verkooprecht Vlaanderen
 └─ 1,5% sociale woonmaatschappij
 ```
 
-*(Tariefgrondslagen: [[registratierecht-onroerend-goed#-verkooprecht--grondslag-en-tarief-vlaanderen|Verkooprecht Vlaanderen]] · [[bronnen/wetteksten/IVA-vcf#art-294111|VCF art. 2.9.4.1.1]] (standaard) · [[bronnen/wetteksten/IVA-vcf#art-2942211|art. 2.9.4.2.11]] (enige eigen woning))*
+*(Tariefgrondslagen: [[registratierecht-onroerend-goed#-verkooprecht--grondslag-en-tarief-vlaanderen|Verkooprecht Vlaanderen]] · VCF art. 2.9.4.1.1 (standaard) · art. 2.9.4.2.11 (enige eigen woning))*
 
 **Schenkbelasting Vlaanderen**:
 - Roerend: vlak 3% (rechte lijn/partners) of 7% (anderen) — [[schenking-fiscaal#-schenkbelasting-roerend-vlaanderen--vlak-tarief|details]]
@@ -262,8 +262,8 @@ Verkooprecht Vlaanderen
 - Aandelenoverdracht → geen verkooprecht OG ([[registratierecht-vennootschapsverrichtingen#-aandelenoverdracht--nul-tarief|aandelendeal]])
 
 **Recht op geschriften (WDRT — altijd federaal, cumulatief)**:
-- 50 EUR voor gewone notariële akten ([[bronnen/wetteksten/V-wdrt#art-3|WDRT art. 3]])
-- 100 EUR voor akten met hypothecaire overschrijving, hypotheekvestiging, of akten voor vennootschappen met rechtspersoonlijkheid ([[bronnen/wetteksten/V-wdrt#art-4|WDRT art. 4]])
+- 50 EUR voor gewone notariële akten (WDRT art. 3)
+- 100 EUR voor akten met hypothecaire overschrijving, hypotheekvestiging, of akten voor vennootschappen met rechtspersoonlijkheid (WDRT art. 4)
 
 > [!info]- Concreet: enige eigen woning — verbintenis tot vervreemding
 >
@@ -295,11 +295,11 @@ Verkooprecht Vlaanderen
 
 | Type recht | Wettelijke belastingplichtige | Aansprakelijkheid notaris |
 |---|---|---|
-| Verkooprecht | **Verkrijger** (koper) ([[bronnen/wetteksten/IVA-vcf#art-2920201|VCF art. 2.9.2.0.1]]) | Persoonlijk aansprakelijk als hij nalaat te innen en af te dragen |
-| Schenkbelasting | **Begiftigde** ([[bronnen/wetteksten/IVA-vcf#art-2820201|VCF art. 2.8.2.0.1]]) | Idem |
+| Verkooprecht | **Verkrijger** (koper) (VCF art. 2.9.2.0.1) | Persoonlijk aansprakelijk als hij nalaat te innen en af te dragen |
+| Schenkbelasting | **Begiftigde** (VCF art. 2.8.2.0.1) | Idem |
 | Verdeelrecht | **Partijen bij de verdeling** | Idem |
 | Recht hypotheekvestiging | **Hypotheeksteller** (eigenaar die het goed bezwaart) ([[registratierecht-onroerend-goed#-recht-op-hypotheekvestiging|VCF art. 2.11.2.0.1]]) | Idem |
-| Recht op geschriften (WDRT) | **Notaris** (of gerechtsdeurwaarder) ([[bronnen/wetteksten/V-wdrt#art-1|WDRT art. 1]]) | Inherent: de notaris is zelf de belastingplichtige |
+| Recht op geschriften (WDRT) | **Notaris** (of gerechtsdeurwaarder) (WDRT art. 1) | Inherent: de notaris is zelf de belastingplichtige |
 
 **Contractuele verdeling**: partijen mogen onderling afspreken wie de registratiekosten draagt (bv. "kosten en rechten voor rekening van de verkoper"). Deze afspraak is **niet tegenwerpelijk** aan Vlabel: als de wettelijke belastingplichtige (bv. de koper) niet betaalt, kan Vlabel de notaris aanspreken. De notaris int de belasting bij de registratie — hij draagt zelf de inningsplicht.
 
@@ -379,7 +379,7 @@ Verkooprecht Vlaanderen
 >
 > **Conclusie**: het verkooprecht is verschuldigd op het moment van registratie van het compromis. De aanwijzingsvrijstelling is enkel van toepassing als Sophie tijdig bij authentieke akte als lastgever aangeduid wordt.
 >
-> **Grondslag**: [[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]] (belastbaar feit = registratie of verplichting tot registratie van het geschrift als titel van de overdracht); [[bronnen/wetteksten/IVA-vcf#art-294601|VCF art. 2.9.6.0.1, 1°]] (vrijstelling bij aanwijzing lastgever).
+> **Grondslag**: VCF art. 2.9.1.0.1 (belastbaar feit = registratie of verplichting tot registratie van het geschrift als titel van de overdracht); VCF art. 2.9.6.0.1, 1° (vrijstelling bij aanwijzing lastgever).
 >
 > **Redenering**:
 > 1. Het onderhands compromis is een "geschrift dat als titel dient van een overeenkomst houdende overdracht van OG onder bezwarende titel" — het valt onder het toepassingsgebied van het verkooprecht.
@@ -395,7 +395,7 @@ Verkooprecht Vlaanderen
 >
 > **Conclusie**: het verkooprecht is verschuldigd; de aanbieding had moeten plaatsvinden binnen 4 maanden na ondertekening. De aanslagtermijn van 5 jaar is nog niet verstreken. Bovenop het verkooprecht zijn boetes voor laattijdige aanbieding verschuldigd.
 >
-> **Grondslag**: [[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]] (belastbaar feit); Wb. Reg. 1939 ITAA-LEX VIII (termijn 4 maanden voor buitenlandse akten); [[registratierechten-grondslagen#-aanslagtermijnen|VCF art. 3.3.3.0.1]] (aanslagtermijn 5 jaar).
+> **Grondslag**: VCF art. 2.9.1.0.1 (belastbaar feit); Wb. Reg. 1939 ITAA-LEX VIII (termijn 4 maanden voor buitenlandse akten); [[registratierechten-grondslagen#-aanslagtermijnen|VCF art. 3.3.3.0.1]] (aanslagtermijn 5 jaar).
 >
 > **Redenering**:
 > 1. Stap 1 — aktekwalificatie: overdracht eigendom appartement Antwerpen onder bezwarende titel → verkooprecht.
@@ -448,9 +448,9 @@ Verkooprecht Vlaanderen
 > >
 > > **Ja — het verkooprecht is verschuldigd bij de registratie van het compromis.**
 > >
-> > Een onderhands compromis is een "geschrift dat als titel dient van een overeenkomst houdende overdracht onder bezwarende titel" ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]). Het verkooprecht is verschuldigd op het moment van registratie — in Kims naam als belastingplichtige verkrijger.
+> > Een onderhands compromis is een "geschrift dat als titel dient van een overeenkomst houdende overdracht onder bezwarende titel" (VCF art. 2.9.1.0.1). Het verkooprecht is verschuldigd op het moment van registratie — in Kims naam als belastingplichtige verkrijger.
 > >
-> > **Aanwijzingsvrijstelling**: als Axel tijdig bij authentieke akte als de werkelijke koper (lastgever) aangeduid wordt en de procedure van [[bronnen/wetteksten/IVA-vcf#art-294601|VCF art. 2.9.6.0.1, 1°]] correct gevolgd is, kan het verkooprecht bijgeheven worden op Axels naam zonder dubbele heffing. Maar als de aanwijzingsprocedure niet correct gevolgd wordt, draagt Kim het verkooprecht definitief.
+> > **Aanwijzingsvrijstelling**: als Axel tijdig bij authentieke akte als de werkelijke koper (lastgever) aangeduid wordt en de procedure van VCF art. 2.9.6.0.1, 1° correct gevolgd is, kan het verkooprecht bijgeheven worden op Axels naam zonder dubbele heffing. Maar als de aanwijzingsprocedure niet correct gevolgd wordt, draagt Kim het verkooprecht definitief.
 > >
 > > *Zie: [[#1--aktekwalificatie|Stap 1 — Aktekwalificatie]], [[registratierecht-onroerend-goed#-antipatroon-onderhandse-koopbelofte-onttrekt-zich-aan-registratierecht|Antipatroon koopbelofte]]*
 >
@@ -464,7 +464,7 @@ Verkooprecht Vlaanderen
 > >
 > > **Verkooprecht 12% op 150.000 EUR = 18.000 EUR + vast recht 50 EUR + recht op geschriften 100 EUR.**
 > >
-> > De vrijstelling van verkooprecht geldt enkel voor het gedeelte dat vergoed wordt door maatschappelijke rechten (aandelen = 300.000 EUR = 66,7%). Het gedeelte vergoed door rekening-courant (150.000 EUR = 33,3%) is een vergoeding die geen maatschappelijk recht is → verkooprecht ([[bronnen/wetteksten/IVA-vcf#art-29103|VCF art. 2.9.1.0.3]]).
+> > De vrijstelling van verkooprecht geldt enkel voor het gedeelte dat vergoed wordt door maatschappelijke rechten (aandelen = 300.000 EUR = 66,7%). Het gedeelte vergoed door rekening-courant (150.000 EUR = 33,3%) is een vergoeding die geen maatschappelijk recht is → verkooprecht (VCF art. 2.9.1.0.3).
 > >
 > > Berekening:
 > > - Belastbaar deel: 33,3% × 450.000 = 150.000 EUR

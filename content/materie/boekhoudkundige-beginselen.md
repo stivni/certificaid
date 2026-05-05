@@ -17,7 +17,7 @@ Het KB van 29 april 2019 tot uitvoering van het WVV legt negen beginselen vast d
 
 ## ⚖️ Getrouw beeld (overkoepelend beginsel)
 
-De boekhouding en alle financiële verslaggeving moeten een **getrouw beeld geven** van het vermogen, de financiële positie en het resultaat van de onderneming ([[bronnen/wetteksten/XV-KB-wvv#art-31|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:1]]).
+De boekhouding en alle financiële verslaggeving moeten een **getrouw beeld geven** van het vermogen, de financiële positie en het resultaat van de onderneming (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:1).
 
 Dit is het **overkoepelend beginsel**: alle andere beginselen zijn instrumenten om dat beeld te bereiken. Wanneer strikte toepassing van een specifieke regel het getrouwe beeld in de weg staat, primeert het getrouwe beeld. Hoe dit override-mechanisme concreet werkt bij de opmaak van de jaarrekening staat in [[jaarrekening#-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
 
@@ -25,7 +25,7 @@ Dit is het **overkoepelend beginsel**: alle andere beginselen zijn instrumenten 
 
 ## ⚖️ Relevantiebeginsel en materialiteitsbeginsel
 
-De boekhouding en verslaggeving bevatten alleen **relevante** informatie. Bedragen die **niet van materieel belang** zijn voor het getrouwe beeld mogen worden samengevoegd of weggelaten ([[bronnen/wetteksten/XV-KB-wvv#art-32|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:2]]).
+De boekhouding en verslaggeving bevatten alleen **relevante** informatie. Bedragen die **niet van materieel belang** zijn voor het getrouwe beeld mogen worden samengevoegd of weggelaten (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:2).
 
 **Materialiteit** is geen absoluut begrip — het hangt af van de omvang en aard van het bedrag in verhouding tot het totaalplaatje van de onderneming.
 
@@ -33,51 +33,51 @@ De boekhouding en verslaggeving bevatten alleen **relevante** informatie. Bedrag
 
 ## ⚖️ Munteenheidsbeginsel
 
-De boekhouding wordt gevoerd en gerapporteerd in **euro** ([[bronnen/wetteksten/XV-KB-wvv#art-35|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:5]]). Bezittingen, schulden en verplichtingen in vreemde valuta worden omgerekend; de gehanteerde omrekeningsmethode wordt vermeld ([[bronnen/wetteksten/XV-KB-wvv#art-312|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:12]]).
+De boekhouding wordt gevoerd en gerapporteerd in **euro** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:5). Bezittingen, schulden en verplichtingen in vreemde valuta worden omgerekend; de gehanteerde omrekeningsmethode wordt vermeld (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:12).
 
 ---
 
 ## ⚖️ Stelselmatigheidsbeginsel
 
-De boekhouding wordt **duidelijk en stelselmatig** gevoerd: verrichtingen worden methodisch ingeschreven in de rekeningen waarop ze betrekking hebben ([[bronnen/wetteksten/XV-KB-wvv#art-34|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:4]]).
+De boekhouding wordt **duidelijk en stelselmatig** gevoerd: verrichtingen worden methodisch ingeschreven in de rekeningen waarop ze betrekking hebben (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:4).
 
-**Compensatie** tussen tegoeden en schulden of tussen kosten en opbrengsten is **verboden**, behalve in de door de wet voorziene gevallen ([[bronnen/wetteksten/XV-KB-wvv#art-32|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:2]]). De te verrekenen brutobedragen worden in dat geval in de toelichting vermeld.
+**Compensatie** tussen tegoeden en schulden of tussen kosten en opbrengsten is **verboden**, behalve in de door de wet voorziene gevallen (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:2). De te verrekenen brutobedragen worden in dat geval in de toelichting vermeld.
 
 ---
 
 ## ⚖️ Continuïteitsbeginsel
 
-Bij het bepalen en toepassen van de waarderingsregels wordt ervan uitgegaan dat de onderneming **haar bedrijf zal voortzetten** ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]).
+Bij het bepalen en toepassen van de waarderingsregels wordt ervan uitgegaan dat de onderneming **haar bedrijf zal voortzetten** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6).
 
-Wanneer dit **niet langer het geval is**, moeten de waarderingsregels worden aangepast aan de nieuwe realiteit ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]). De concrete gevolgen voor de waardering (realisatiewaarde, voorzieningen, ...) staan in [[continuiteitsrisico#-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
+Wanneer dit **niet langer het geval is**, moeten de waarderingsregels worden aangepast aan de nieuwe realiteit (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6). De concrete gevolgen voor de waardering (realisatiewaarde, voorzieningen, ...) staan in [[continuiteitsrisico#-waardering-bij-discontinuïteit|Continuiteitsrisico §Waardering bij discontinuïteit]].
 
 ---
 
 ## ⚖️ Beginsel van consistentie in waarderingsmethoden
 
-De waarderingsregels moeten van het ene boekjaar op het andere **identiek blijven en stelselmatig worden toegepast** ([[bronnen/wetteksten/XV-KB-wvv#art-38|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8]]).
+De waarderingsregels moeten van het ene boekjaar op het andere **identiek blijven en stelselmatig worden toegepast** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8).
 
-Ze mogen worden **gewijzigd** wanneer ze door belangrijke veranderingen in activiteiten, vermogensstructuur of economische/technologische omstandigheden niet langer voldoen aan het getrouwe beeld ([[bronnen/wetteksten/XV-KB-wvv#art-38|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8]]). Een dergelijke wijziging wordt in de toelichting vermeld en verantwoord.
+Ze mogen worden **gewijzigd** wanneer ze door belangrijke veranderingen in activiteiten, vermogensstructuur of economische/technologische omstandigheden niet langer voldoen aan het getrouwe beeld (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:8). Een dergelijke wijziging wordt in de toelichting vermeld en verantwoord.
 
 ---
 
 ## ⚖️ Individualiseringsbeginsel
 
-Elk **bestanddeel van het vermogen** wordt **afzonderlijk** gewaardeerd ([[bronnen/wetteksten/XV-KB-wvv#art-39|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:9]]). Activa en passiva mogen niet met elkaar worden verrekend.
+Elk **bestanddeel van het vermogen** wordt **afzonderlijk** gewaardeerd (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:9). Activa en passiva mogen niet met elkaar worden verrekend.
 
 ---
 
 ## ⚖️ Voorzichtigheid, waarachtigheid en goede trouw
 
-Waarderingen moeten voldoen aan de eisen van **voorzichtigheid, oprechtheid en goede trouw** ([[bronnen/wetteksten/XV-KB-wvv#art-310|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:10]]). Concreet betekent dit dat **alle voorzienbare risico's, mogelijke verliezen en ontwaardingen** in rekening worden genomen — ook wanneer ze pas bekend worden na de balansdatum maar vóór het opstellen van de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11]]).
+Waarderingen moeten voldoen aan de eisen van **voorzichtigheid, oprechtheid en goede trouw** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:10). Concreet betekent dit dat **alle voorzienbare risico's, mogelijke verliezen en ontwaardingen** in rekening worden genomen — ook wanneer ze pas bekend worden na de balansdatum maar vóór het opstellen van de jaarrekening (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11).
 
-Wanneer de waardering van risico's en verliezen onvermijdelijk onzeker is bij gebrek aan objectieve criteria, wordt dit vermeld in de toelichting — maar enkel voor belangrijke bedragen ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11]]).
+Wanneer de waardering van risico's en verliezen onvermijdelijk onzeker is bij gebrek aan objectieve criteria, wordt dit vermeld in de toelichting — maar enkel voor belangrijke bedragen (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11).
 
 ---
 
 ## ⚖️ Matching — overeenstemming van kosten en opbrengsten
 
-Kosten en opbrengsten worden **toegerekend aan het boekjaar waarop ze betrekking hebben**, ongeacht de dag waarop ze worden betaald of geïnd — **behalve wanneer de effectieve inning van opbrengsten onzeker is** ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11]]).
+Kosten en opbrengsten worden **toegerekend aan het boekjaar waarop ze betrekking hebben**, ongeacht de dag waarop ze worden betaald of geïnd — **behalve wanneer de effectieve inning van opbrengsten onzeker is** (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11).
 
 De concrete toepassing bij de jaarrekening (welke overlopende rekeningen verplicht zijn, wanneer de toelichting vereist is) staat in [[jaarrekening#-toepassing-van-boekhoudkundige-beginselen|Jaarrekening §Toepassing van boekhoudkundige beginselen]].
 

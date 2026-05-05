@@ -11,6 +11,7 @@ Per fiche × rol: datum + tijd van laatste check. `—` = nog niet bekeken.
 | antiwitwaswetgeving | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 |
 | balansaggregaten | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 |
 | belastingberekening-personenbelasting | — | — | — | — | — | — |
+| belastingen-definitie-en-indeling | — | — | — | — | — | — |
 | belastingplichtigen-personenbelasting | — | — | — | — | — | — |
 | belastingverminderingen-federaal | — | — | — | — | — | — |
 | belastingverminderingen-gewestelijk | — | — | — | — | — | — |
@@ -21,6 +22,7 @@ Per fiche × rol: datum + tijd van laatste check. `—` = nog niet bekeken.
 | boekhoudkundige-beginselen | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 |
 | boekhoudplicht-wer | — | — | — | — | — | — |
 | bronnen-boekhoudrecht | — | — | — | — | — | — |
+| bronnen-fiscaal-recht | — | — | — | — | — | — |
 | consolidatie-ifrs | — | — | — | — | — | — |
 | consolidatiekring | — | — | — | — | — | — |
 | consolidatiemethoden | — | — | — | — | — | — |
@@ -29,6 +31,8 @@ Per fiche × rol: datum + tijd van laatste check. `—` = nog niet bekeken.
 | deontologische-beginselen | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 | 2026-05-02 15:05 |
 | diverse-inkomsten-personenbelasting | — | — | — | — | — | — |
 | financiele-ratios | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 | 2026-05-02 17:05 |
+| fiscale-actoren | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 |
+| fiscale-beginselen | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 |
 | geconsolideerde-jaarrekening | — | — | — | — | — | — |
 | gezinsfiscaliteit | — | — | — | — | — | — |
 | groottecriteria-vennootschappen-verenigingen | — | — | — | — | — | — |
@@ -72,6 +76,7 @@ Per fiche × rol: datum + tijd van laatste check. `—` = nog niet bekeken.
 | financiele-positie-beoordelen | — | — | — | — | — | — |
 | financiele-ratio-berekenen | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 |
 | fiscaal-advies-personenbelasting-formuleren | — | — | — | — | — | — |
+| fiscale-norm-toetsen-aan-beginselen | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 | 2026-05-03 10:28 |
 | fiscaal-bezwaar-voorbereiden | — | — | — | — | — | — |
 | fiscale-optimalisatie-personenbelasting-beoordelen | — | — | — | — | — | — |
 | jaarrekening-herwerken | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 | 2026-05-02 16:11 |

@@ -19,7 +19,7 @@ Deze competentie loodst de mandataris door de vergelijkende analyse: kwalitatiev
 - **[[stopzettings-en-overdrachtsmeerwaarden-bepalen|Stopzettingsmeerwaarden]]**: berekent de heffing bij omvorming; deze competentie beslist **of** te omvormen
 
 > [!info]- Grondslag van deze werkwijze (🤖 70% · ⚖️ 30%)
-> Geen specifieke ITAA-norm of CBN-advies bestaat voor de fiscale rechtsvormkeuze. De **wettelijke kaders** zijn de PB ([[bronnen/wetteksten/II-wib92|WIB92]]) en de Ven.B (eveneens [[bronnen/wetteksten/II-wib92|WIB92]]) + WVV-bepalingen ([[bronnen/wetteksten/XV-wvv|WVV]]). De **vergelijkingsmethode** is beroepspraktijk: bereken voor 3 inkomensscenario's de fiscale druk in beide regimes en weeg kwalitatieve overwegingen mee.
+> Geen specifieke ITAA-norm of CBN-advies bestaat voor de fiscale rechtsvormkeuze. De **wettelijke kaders** zijn de PB (WIB92) en de Ven.B (eveneens WIB92) + WVV-bepalingen (WVV). De **vergelijkingsmethode** is beroepspraktijk: bereken voor 3 inkomensscenario's de fiscale druk in beide regimes en weeg kwalitatieve overwegingen mee.
 
 ## Aanbevolen werkwijze
 
@@ -187,7 +187,7 @@ VERGELIJKING:
 > [!warning]- Beperkte aansprakelijkheid is geen absolute bescherming
 > ❌ *"Met een BV ben ik volledig beschermd tegen aansprakelijkheid voor mijn privévermogen."*
 >
-> Bestuursaansprakelijkheid bij **kennelijk grove fout** ([[bronnen/wetteksten/XV-wvv|WVV art. 2:56]]) en bij **niet-betaling fiscale en sociale schulden** maakt de bestuurder/zaakvoerder persoonlijk aansprakelijk. Banken eisen vaak **persoonlijke borg** voor leningen aan kleine BV's. De beperkte aansprakelijkheid is een **belangrijk** voordeel maar geen absolute bescherming — adviseer voorzichtigheid.
+> Bestuursaansprakelijkheid bij **kennelijk grove fout** (WVV art. 2:56) en bij **niet-betaling fiscale en sociale schulden** maakt de bestuurder/zaakvoerder persoonlijk aansprakelijk. Banken eisen vaak **persoonlijke borg** voor leningen aan kleine BV's. De beperkte aansprakelijkheid is een **belangrijk** voordeel maar geen absolute bescherming — adviseer voorzichtigheid.
 >
 > 🤖 *AI-aanvulling*
 
@@ -205,7 +205,7 @@ VERGELIJKING:
 
 **Waarom**: een omvorming **zonder** fiscale neutraliteit triggert onmiddellijke heffing op stopzettingsmeerwaarden — vaak tienduizenden euro's. Met **fiscale neutraliteit** wordt de heffing uitgesteld tot toekomstige verkoop door de vennootschap.
 
-**Voorwaarden fiscale neutraliteit** ([[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]):
+**Voorwaarden fiscale neutraliteit** (WIB92 art. 46, §1, 2°):
 
 ```
 [ ] Inbreng van ALLE beroepsmatige activa (geen selectief uithalen)
@@ -271,7 +271,7 @@ heroverwogen worden.
 >
 > **Conclusie**: Aanbeveling **eenmanszaak in jaar 1, omvorming naar BV in jaar 2** (na bevestiging van groei). Cumulatief netto-voordeel € 6 000 - € 10 000 over 3 jaar t.o.v. directe BV.
 >
-> **Grondslag**: Vergelijking PB vs. Ven.B over 3 scenario's; [[bronnen/wetteksten/II-wib92|WIB92 art. 46]] voor latere fiscale neutraliteit bij omvorming.
+> **Grondslag**: Vergelijking PB vs. Ven.B over 3 scenario's; WIB92 art. 46 voor latere fiscale neutraliteit bij omvorming.
 >
 > **Redenering**:
 > - Stap 1: Cliëntdoel = fiscaal optimaal + flexibel; geen acute aansprakelijkheidsbehoefte
@@ -292,7 +292,7 @@ heroverwogen worden.
 >
 > **Conclusie**: Optimaal niveau bezoldiging ligt op ~ € 45 000 — restwinst als VVPRbis-dividend. Verschuiving levert € 1 500 - € 2 000 per jaar netto-voordeel.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 32 (bezoldigingen), art. 269 §2 (VVPRbis)]]; sociale bijdragen zelfstandige.
+> **Grondslag**: WIB92 art. 32 (bezoldigingen), art. 269 §2 (VVPRbis); sociale bijdragen zelfstandige.
 >
 > **Redenering**:
 > - Stap 1: Cliëntdoel = fiscaal voordeliger; gevoel voor sociale dekking blijft
@@ -348,7 +348,7 @@ heroverwogen worden.
 > >
 > > **Vier cumulatieve voorwaarden**: (1) inbreng van alle beroepsmatige activa; (2) tegen aandelen (geen liquide vergoeding); (3) voortzetting beroepsactiviteit door BV; (4) continuïteit waardering (BV neemt fiscale boekwaarde over).
 > >
-> > Onder deze voorwaarden ([[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]): geen onmiddellijke heffing op latente meerwaarde € 180 000 — uitgesteld tot toekomstige verkoop door BV. Zonder fiscale neutraliteit: directe heffing € 180 000 × 16,5% = € 29 700 (vrijwillige stopzetting > 5 jaar) of zelfs hoger bij cliënteel-component (33%).
+> > Onder deze voorwaarden (WIB92 art. 46, §1, 2°): geen onmiddellijke heffing op latente meerwaarde € 180 000 — uitgesteld tot toekomstige verkoop door BV. Zonder fiscale neutraliteit: directe heffing € 180 000 × 16,5% = € 29 700 (vrijwillige stopzetting > 5 jaar) of zelfs hoger bij cliënteel-component (33%).
 > >
 > > *Zie: [[rechtsvorm-fiscaal-beoordelen#-5--bij-omvorming-fiscale-neutraliteit-toets|Fiscale neutraliteit-toets]]*
 >
@@ -362,7 +362,7 @@ heroverwogen worden.
 > >
 > > **Geldig argument, maar geen absolute bescherming.**
 > >
-> > De beperkte aansprakelijkheid van de BV ([[bronnen/wetteksten/XV-wvv|WVV]]) beschermt het privévermogen tegen vorderingen van derden — een belangrijk voordeel. **Echter**: bestuursaansprakelijkheid bij **kennelijk grove fout** ([[bronnen/wetteksten/XV-wvv|WVV art. 2:56]]) en bij **niet-betaling fiscale/sociale schulden** maakt de bestuurder/zaakvoerder persoonlijk aansprakelijk. Banken eisen vaak **persoonlijke borg** voor leningen aan kleine BV's — die effectief de beperkte aansprakelijkheid omzeilt. Conclusie: beperkte aansprakelijkheid is een **belangrijk** voordeel, maar moet realistisch worden gepresenteerd.
+> > De beperkte aansprakelijkheid van de BV (WVV) beschermt het privévermogen tegen vorderingen van derden — een belangrijk voordeel. **Echter**: bestuursaansprakelijkheid bij **kennelijk grove fout** (WVV art. 2:56) en bij **niet-betaling fiscale/sociale schulden** maakt de bestuurder/zaakvoerder persoonlijk aansprakelijk. Banken eisen vaak **persoonlijke borg** voor leningen aan kleine BV's — die effectief de beperkte aansprakelijkheid omzeilt. Conclusie: beperkte aansprakelijkheid is een **belangrijk** voordeel, maar moet realistisch worden gepresenteerd.
 > >
 > > *Zie: [[rechtsvorm-fiscaal-beoordelen#-4--kwalitatieve-criteria-meewegen|Kwalitatieve criteria]]*
 >

@@ -36,12 +36,12 @@ Financiële kosten zijn kosten van financiële aard die verbonden zijn aan de ge
 
 | Rekening | Benaming | Inhoud |
 |---|---|---|
-| **650** | Kosten van schulden | Interesten, commissies en kosten verbonden aan schulden; afschrijving kosten bij uitgifte leningen en disagio — geactiveerde interesten worden afgetrokken ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.A.]]) |
-| **651** | Waardeverminderingen op vlottende activa (andere dan voorraden en bestellingen) | Waardeverminderingen op vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen — terugnemingen worden hier ook geboekt ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.B.]]) |
-| **652** | Minderwaarden op realisatie van vlottende activa | Minderwaarden bij realisatie van vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.C. 1°]]) |
-| **653** | Discontokosten op vorderingen | Het disconto ten laste van de vennootschap bij het verhandelen van vorderingen (wissel, warrant, factuur) ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.C. 2°]]) |
-| **654** | Wisselresultaten | Wisselresultaten en resultaten uit omrekening van vreemde valuta, tenzij specifiek verbonden aan een andere post ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.C. 3°]]) |
-| **657** | Andere financiële kosten | Kosten betreffende posten van eigen vermogen (kosten bij inbreng, kapitaalverhoging), taksen op effecten, commissies en andere financiële kosten ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek V.C. 4°–5°]]) |
+| **650** | Kosten van schulden | Interesten, commissies en kosten verbonden aan schulden; afschrijving kosten bij uitgifte leningen en disagio — geactiveerde interesten worden afgetrokken (KB WVV art. 3:90 — rubriek V.A.) |
+| **651** | Waardeverminderingen op vlottende activa (andere dan voorraden en bestellingen) | Waardeverminderingen op vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen — terugnemingen worden hier ook geboekt (KB WVV art. 3:90 — rubriek V.B.) |
+| **652** | Minderwaarden op realisatie van vlottende activa | Minderwaarden bij realisatie van vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen (KB WVV art. 3:90 — rubriek V.C. 1°) |
+| **653** | Discontokosten op vorderingen | Het disconto ten laste van de vennootschap bij het verhandelen van vorderingen (wissel, warrant, factuur) (KB WVV art. 3:90 — rubriek V.C. 2°) |
+| **654** | Wisselresultaten | Wisselresultaten en resultaten uit omrekening van vreemde valuta, tenzij specifiek verbonden aan een andere post (KB WVV art. 3:90 — rubriek V.C. 3°) |
+| **657** | Andere financiële kosten | Kosten betreffende posten van eigen vermogen (kosten bij inbreng, kapitaalverhoging), taksen op effecten, commissies en andere financiële kosten (KB WVV art. 3:90 — rubriek V.C. 4°–5°) |
 
 > [!info]- In de praktijk: bankrentekosten boeken
 >
@@ -65,10 +65,10 @@ Financiële opbrengsten vloeien voort uit financiële activa en activiteiten —
 | Rekening | Benaming | Inhoud |
 |---|---|---|
 | **750** | Opbrengsten van financiële vaste activa | Dividenden, interesten en andere opbrengsten van [[vaste-activa-waardering#-financiële-vaste-activa-fva|financiële vaste activa]] |
-| **751** | Opbrengsten van vlottende activa | Interesten, dividenden en andere opbrengsten uit [[vlottende-activa-waardering#-geldbeleggingen-en-liquide-middelen|geldbeleggingen en liquide middelen]] — ook van vorderingen andere dan handelsvorderingen ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek IV.B.]]) |
-| **752** | Meerwaarden op realisatie van vlottende activa | Meerwaarden bij realisatie van vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek IV.C. 1°]]) |
-| **754** | Wisselresultaten | Wisselresultaten en resultaten uit omrekening van vreemde valuta — dezelfde tegenhanger als rekening 654, maar dan in het voordeel ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek IV.C. 3°]]) |
-| **757** | Andere financiële opbrengsten | Als opbrengst geboekte kapitaal- en interestsubsidies (volledig schema); alle overige opbrengsten van financiële aard zonder verband met welbepaalde activa ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV art. 3:90 — rubriek IV.C. 2° en 4°]]) |
+| **751** | Opbrengsten van vlottende activa | Interesten, dividenden en andere opbrengsten uit [[vlottende-activa-waardering#-geldbeleggingen-en-liquide-middelen|geldbeleggingen en liquide middelen]] — ook van vorderingen andere dan handelsvorderingen (KB WVV art. 3:90 — rubriek IV.B.) |
+| **752** | Meerwaarden op realisatie van vlottende activa | Meerwaarden bij realisatie van vorderingen (andere dan handelsvorderingen), geldbeleggingen en liquide middelen (KB WVV art. 3:90 — rubriek IV.C. 1°) |
+| **754** | Wisselresultaten | Wisselresultaten en resultaten uit omrekening van vreemde valuta — dezelfde tegenhanger als rekening 654, maar dan in het voordeel (KB WVV art. 3:90 — rubriek IV.C. 3°) |
+| **757** | Andere financiële opbrengsten | Als opbrengst geboekte kapitaal- en interestsubsidies (volledig schema); alle overige opbrengsten van financiële aard zonder verband met welbepaalde activa (KB WVV art. 3:90 — rubriek IV.C. 2° en 4°) |
 
 > [!info]- In de praktijk: verkoop effecten met meerwaarde
 >
@@ -267,7 +267,7 @@ Een bestuurder wil de [[resultaatniveaus|EBIT (bedrijfsresultaat)]] verbeteren d
 > [!warning]- Niet-recurrent vereist een feitelijk oordeel, geen budgettair motief
 > ❌ *"De kost was hoger dan verwacht — dus is het niet-recurrent."*
 >
-> Het criterium is de **aard van de verrichting**: heeft de vennootschap dit type transactie regelmatig in haar gewone bedrijfsactiviteit, of is het werkelijk eenmalig of uitzonderlijk? Het feit dat een kost hoog of onverwacht is, maakt hem niet niet-recurrent. Een hoge onderhoudsrekening blijft een gewone bedrijfskost (klasse 61). ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. II. I.]])
+> Het criterium is de **aard van de verrichting**: heeft de vennootschap dit type transactie regelmatig in haar gewone bedrijfsactiviteit, of is het werkelijk eenmalig of uitzonderlijk? Het feit dat een kost hoog of onverwacht is, maakt hem niet niet-recurrent. Een hoge onderhoudsrekening blijft een gewone bedrijfskost (klasse 61). (KB WVV art. II. I.)
 >
 > 🤖 *AI-aanvulling*
 
@@ -284,7 +284,7 @@ Dit schendt het **matching-beginsel** van [[boekhoudkundige-beginselen|KB WVV ar
 > [!warning]- Wisselresultaten horen op de datum van de afsluiting, niet bij de betaling
 > ❌ *"We hebben de schuld in vreemde valuta nog niet betaald, dus we boeken het wisselresultaat pas volgend jaar."*
 >
-> Op balansdatum worden schulden in vreemde valuta herrekend aan de slotkoers. Het wisselresultaat — verlies (654) of winst (754) — behoort tot het huidige boekjaar, ongeacht wanneer de betaling plaatsvindt. Dit volgt uit het [[boekhoudkundige-beginselen|matchingbeginsel]] ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV art. 3:11]]). ([[bronnen/wetteksten/XV-KB-wvv#art-312|Art. 3:12]] beschrijft de omrekeningsmethoden voor vreemde valuta.)
+> Op balansdatum worden schulden in vreemde valuta herrekend aan de slotkoers. Het wisselresultaat — verlies (654) of winst (754) — behoort tot het huidige boekjaar, ongeacht wanneer de betaling plaatsvindt. Dit volgt uit het [[boekhoudkundige-beginselen|matchingbeginsel]] (KB WVV art. 3:11). (Art. 3:12 beschrijft de omrekeningsmethoden voor vreemde valuta.)
 >
 > 🤖 *AI-aanvulling*
 
@@ -340,7 +340,7 @@ Kenniselementen:
 > > D  654  Wisselresultaten (kost)     koersverlies
 > >      C  440  Leveranciers (aanpassing)    koersverlies
 > > ```
-> > Dit volgt uit het [[boekhoudkundige-beginselen|matchingbeginsel]] ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV art. 3:11]]): kosten die betrekking hebben op het boekjaar worden in dat boekjaar geboekt, ongeacht het moment van betaling.
+> > Dit volgt uit het [[boekhoudkundige-beginselen|matchingbeginsel]] (KB WVV art. 3:11): kosten die betrekking hebben op het boekjaar worden in dat boekjaar geboekt, ongeacht het moment van betaling.
 > >
 > > *Zie: [[financiele-en-uitzonderlijke-verrichtingen#-boekingen--financiële-verrichtingen|Boekingen financiële verrichtingen]]*
 >
@@ -354,7 +354,7 @@ Kenniselementen:
 > >
 > > **Rekening 7630 — Meerwaarden op realisatie van immateriële en materiële vaste activa**, een **niet-recurrente bedrijfsopbrengst**.
 > >
-> > De verkoop van een vast actief behoort niet tot de gewone bedrijfsuitoefening van een productie- of dienstverleningsbedrijf. Het is een eenmalige verrichting die buiten de normale cyclus valt → niet-recurrent ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. I.E. 3°]]). Boeking:
+> > De verkoop van een vast actief behoort niet tot de gewone bedrijfsuitoefening van een productie- of dienstverleningsbedrijf. Het is een eenmalige verrichting die buiten de normale cyclus valt → niet-recurrent (KB WVV art. I.E. 3°). Boeking:
 > > ```
 > > D  550  Bank                   11.000
 > >      C  230  MVA (boekwaarde)       8.000

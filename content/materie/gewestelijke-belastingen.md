@@ -35,8 +35,8 @@ De **oorspronkelijke BFW van 1989** droeg al een eerste reeks belastingen over (
 | **Spelen en weddenschappen** | Wb. taksen | BFW 1989 | (uitvoering door gewest) |
 | **Automatische ontspanningstoestellen** | Wb. taksen | BFW 1989 | (uitvoering door gewest) |
 | **Openings- en slottarieven drankgelegenheden** | Wb. taksen | BFW 1989 | (uitvoering door gewest; afgeschaft in Vlaanderen) |
-| **Successierechten / erfbelasting** | Wb. Succ. 1936 (federaal) of [[bronnen/wetteksten/IVA-vcf\|VCF]] (Vlaams) | Lambermont 2001 | [[tarieven-erfbelasting\|Tarieven erfbelasting]] |
-| **Schenkingsrechten** | Wb. Reg. 1939 (federaal) of [[bronnen/wetteksten/IVA-vcf\|VCF]] (Vlaams) | Lambermont 2001 | [[schenking-fiscaal\|Schenking fiscaal]] |
+| **Successierechten / erfbelasting** | Wb. Succ. 1936 (federaal) of VCF (Vlaams) | Lambermont 2001 | [[tarieven-erfbelasting\|Tarieven erfbelasting]] |
+| **Schenkingsrechten** | Wb. Reg. 1939 (federaal) of VCF (Vlaams) | Lambermont 2001 | [[schenking-fiscaal\|Schenking fiscaal]] |
 | **Registratierechten op onroerend goed** | Wb. Reg. 1939 | Lambermont 2001 | [[registratierecht-onroerend-goed\|Registratierecht onroerend goed]] |
 | **Eurovignet** | EU-Verdrag + Belgische wet | BFW 1989 | (vervangen door kilometerheffing in Vlaanderen en Wallonië) |
 | **Radio- en televisieapparaten** *(historisch)* | — | BFW 1989 | Afgeschaft (Vlaanderen 2002, BHG 2018) |
@@ -60,9 +60,9 @@ Voorbeelden:
 
 | Belasting | Gewest | Doel |
 |---|---|---|
-| **Leegstandsheffing op woningen** | Vlaanderen ([[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 5), Brussel, Wallonië | Activeren van leegstaande woningen |
-| **Leegstandsheffing bedrijfsruimten** | Vlaanderen ([[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 6) | Activeren leegstaand bedrijfsvastgoed |
-| **Heffing ongeschikte/onbewoonbare woningen** | Vlaanderen ([[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 5) | Bestraffing krotwoningen |
+| **Leegstandsheffing op woningen** | Vlaanderen (VCF Titel 2 Hfdst 5), Brussel, Wallonië | Activeren van leegstaande woningen |
+| **Leegstandsheffing bedrijfsruimten** | Vlaanderen (VCF Titel 2 Hfdst 6) | Activeren leegstaand bedrijfsvastgoed |
+| **Heffing ongeschikte/onbewoonbare woningen** | Vlaanderen (VCF Titel 2 Hfdst 5) | Bestraffing krotwoningen |
 | **Kilometerheffing zware vrachtwagens** | Vlaanderen, Wallonië (BHG ook) | Vervanging eurovignet, milieusturend |
 | **Belasting op de afgifte van een rijbewijs** | Vlaanderen (deels) | Administratieve heffing |
 | **Milieuheffingen** (afvalstoffen, water, luchtvaart) | Alle gewesten | Sturend gedragsbeïnvloedend |
@@ -85,7 +85,7 @@ De procedure verschilt per gewest. Het kernverschil: **wie int** en **welke proc
 
 ### Vlaanderen — eigen administratie en eigen procedure
 
-Sinds **1 januari 1999** (OV) en geleidelijk uitgebreid tot **2015** (registratie- en erfbelasting) int Vlaanderen alle overgedragen en autonome gewestelijke belastingen via de [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlaamse Belastingdienst (Vlabel)]] op basis van de [[bronnen/wetteksten/IVA-vcf|VCF]]. De procedure is geregeld in **Titel 3 van de VCF** ("Inning en invordering"):
+Sinds **1 januari 1999** (OV) en geleidelijk uitgebreid tot **2015** (registratie- en erfbelasting) int Vlaanderen alle overgedragen en autonome gewestelijke belastingen via de [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlaamse Belastingdienst (Vlabel)]] op basis van de VCF. De procedure is geregeld in **Titel 3 van de VCF** ("Inning en invordering"):
 
 | Fase | Artikelen VCF | Belangrijkste regels |
 |---|---|---|
@@ -96,7 +96,7 @@ Sinds **1 januari 1999** (OV) en geleidelijk uitgebreid tot **2015** (registrati
 
 > [!info]- VCF-procedure ≠ federale procedure
 >
-> De VCF heeft **eigen** procedureregels die **deels afwijken** van de federale fiscale procedure (WIB92 art. 366 e.v., [[bronnen/wetteksten/VII-wetboek-invordering|Wetboek Invordering]]). Belangrijkste verschil: **bezwaartermijn 3 maanden** (Vlabel) versus 6 maanden (federaal voor PB/Ven.B). Vergissingen op dit vlak leiden tot onontvankelijke bezwaren — controleer altijd welke procedure van toepassing is. ([[bronnen/wetteksten/IVA-vcf#art-35201|VCF art. 3.5.2.0.1]])
+> De VCF heeft **eigen** procedureregels die **deels afwijken** van de federale fiscale procedure (WIB92 art. 366 e.v., Wetboek Invordering). Belangrijkste verschil: **bezwaartermijn 3 maanden** (Vlabel) versus 6 maanden (federaal voor PB/Ven.B). Vergissingen op dit vlak leiden tot onontvankelijke bezwaren — controleer altijd welke procedure van toepassing is. (VCF art. 3.5.2.0.1)
 >
 > 🤖 *AI-aanvulling*
 
@@ -104,11 +104,11 @@ Sinds **1 januari 1999** (OV) en geleidelijk uitgebreid tot **2015** (registrati
 
 Brussel Hoofdstedelijk Gewest heeft sinds **2018** progressief de inning van overgedragen belastingen overgenomen van de FOD Financiën (eerst registratie- en erfbelasting, daarna OV). De inning gebeurt door **Brussel Fiscaliteit**.
 
-De juridische basis blijft echter federaal voor de **inhoud** van de meeste overgedragen belastingen (Wb. Succ., Wb. Reg., WIB92 art. 249), aangevuld met **regionale tariefdecreten**. De procedure wordt geregeld door de **Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure** (ITAA-LEX [[bronnen/wetteksten/IVB-brussel-fiscale-procedure|IV.B]]).
+De juridische basis blijft echter federaal voor de **inhoud** van de meeste overgedragen belastingen (Wb. Succ., Wb. Reg., WIB92 art. 249), aangevuld met **regionale tariefdecreten**. De procedure wordt geregeld door de **Ordonnantie van 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure** (ITAA-LEX IV.B).
 
 ### Wallonië — gemengde inning
 
-In het Waals Gewest blijft een groot deel van de overgedragen belastingen door de **FOD Financiën** geïnd (volgens federale procedure WIB92 + Wetboek Invordering), maar het gewest int zelf bv. de **verkeersbelasting** via de SPW (Service public de Wallonie). De procedure voor de eigen Waalse belastingen volgt het **Décret du 6 mai 1999 relatif à l'établissement, au recouvrement et au contentieux en matière de taxes régionales directes** (ITAA-LEX [[bronnen/wetteksten/IVC-waals-gewestelijke-belastingen|IV.C]]).
+In het Waals Gewest blijft een groot deel van de overgedragen belastingen door de **FOD Financiën** geïnd (volgens federale procedure WIB92 + Wetboek Invordering), maar het gewest int zelf bv. de **verkeersbelasting** via de SPW (Service public de Wallonie). De procedure voor de eigen Waalse belastingen volgt het **Décret du 6 mai 1999 relatif à l'établissement, au recouvrement et au contentieux en matière de taxes régionales directes** (ITAA-LEX IV.C).
 
 ---
 
@@ -121,7 +121,7 @@ In het Waals Gewest blijft een groot deel van de overgedragen belastingen door d
 | **Successierechten** | Wb. Succ. 1936 + Brussels tariefbesluit | Brussel Fiscaliteit (sinds 2018) |
 | **Verkeersbelasting / BIV** | KB en BHG-ordonnantie | Brussel Fiscaliteit |
 | **City tax (toeristenbelasting)** | BHG-ordonnantie | Brussel Fiscaliteit |
-| **Procedure** | [[bronnen/wetteksten/IVB-brussel-fiscale-procedure\|Brusselse Codex Fiscale Procedure 2019]] | — |
+| **Procedure** | Brusselse Codex Fiscale Procedure 2019 | — |
 
 Brusselse specificiteit: het gewest is **eentalig tweetalig** (NL/FR) — alle aangiftes, aanslagen en briefwisseling in beide talen of in de taal van de belastingplichtige.
 
@@ -131,18 +131,18 @@ Brusselse specificiteit: het gewest is **eentalig tweetalig** (NL/FR) — alle a
 
 | Belasting | Wettekst | Inning |
 |---|---|---|
-| **OV** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 1 | [[fiscale-actoren#-vlaamse-belastingdienst-vlabel\|Vlabel]] |
-| **Verkeersbelasting** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 2 | Vlabel |
-| **BIV** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 3 | Vlabel |
-| **Kilometerheffing** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 4 | Vlabel (via Satellic) |
-| **Erfbelasting** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 7 | Vlabel (sinds 2015) |
-| **Schenkbelasting** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 8 | Vlabel |
-| **Verkooprecht (registratie onroerend goed)** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 9 | Vlabel |
-| **Verdeelrecht** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 10 | Vlabel |
-| **Hypotheekrecht** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 11 | Vlabel |
-| **Leegstandsheffing woningen / bedrijfsruimten** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 5–6 | Vlabel |
-| **Spelen en weddenschappen, ontspanningstoestellen** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 2 Hfdst 12–13 | Vlabel |
-| **Procedure** | [[bronnen/wetteksten/IVA-vcf\|VCF]] Titel 3 | — |
+| **OV** | VCF Titel 2 Hfdst 1 | [[fiscale-actoren#-vlaamse-belastingdienst-vlabel\|Vlabel]] |
+| **Verkeersbelasting** | VCF Titel 2 Hfdst 2 | Vlabel |
+| **BIV** | VCF Titel 2 Hfdst 3 | Vlabel |
+| **Kilometerheffing** | VCF Titel 2 Hfdst 4 | Vlabel (via Satellic) |
+| **Erfbelasting** | VCF Titel 2 Hfdst 7 | Vlabel (sinds 2015) |
+| **Schenkbelasting** | VCF Titel 2 Hfdst 8 | Vlabel |
+| **Verkooprecht (registratie onroerend goed)** | VCF Titel 2 Hfdst 9 | Vlabel |
+| **Verdeelrecht** | VCF Titel 2 Hfdst 10 | Vlabel |
+| **Hypotheekrecht** | VCF Titel 2 Hfdst 11 | Vlabel |
+| **Leegstandsheffing woningen / bedrijfsruimten** | VCF Titel 2 Hfdst 5–6 | Vlabel |
+| **Spelen en weddenschappen, ontspanningstoestellen** | VCF Titel 2 Hfdst 12–13 | Vlabel |
+| **Procedure** | VCF Titel 3 | — |
 
 Vlaamse specificiteit: **één codex** (de VCF) bundelt grondslag, tarief en procedure voor alle Vlaamse belastingen. Geen verwijzingen meer nodig naar federale wetboeken (behalve voor het belastbaar feit van overgedragen belastingen, bv. WIB92 art. 249 voor de OV-grondslag).
 
@@ -157,7 +157,7 @@ Vlaamse specificiteit: **één codex** (de VCF) bundelt grondslag, tarief en pro
 | **Successierechten** | Wb. Succ. 1936 + Waalse tariefdecreten | FOD Financiën |
 | **Verkeersbelasting / BIV** | KB + Waals decreet | SPW (Service public de Wallonie) |
 | **Kilometerheffing** | Waals decreet | SPW (via Satellic) |
-| **Procedure** | [[bronnen/wetteksten/IVC-waals-gewestelijke-belastingen\|Décret 6 mai 1999]] (eigen Waalse belastingen) of WIB92 + [[bronnen/wetteksten/VII-wetboek-invordering\|Wetboek Invordering]] (federaal geïnde overgedragen belastingen) | — |
+| **Procedure** | Décret 6 mai 1999 (eigen Waalse belastingen) of WIB92 + Wetboek Invordering (federaal geïnde overgedragen belastingen) | — |
 
 Waalse specificiteit: **gemengde inning** — een deel federaal (FOD Financiën), een deel gewestelijk (SPW). De procedure die geldt hangt af van wie de belasting int.
 
@@ -169,7 +169,7 @@ Waalse specificiteit: **gemengde inning** — een deel federaal (FOD Financiën)
 |---|---|---|---|
 | **Volledige codex?** | Ja — VCF | Nee — federale wetboeken + Brusselse procedure-ordonnantie | Nee — federale wetboeken + Code wallon (deels) |
 | **Eigen administratie?** | Ja — Vlabel (alle gewestelijke belastingen) | Brussel Fiscaliteit (sinds 2018, niet alle) | Gemengd — SPW + FOD Financiën |
-| **Bezwaartermijn OV** | 3 maanden ([[bronnen/wetteksten/IVA-vcf\|VCF]] art. 3.5.2.0.1) | Volgens BCFP (Brusselse procedure) | Volgens federale procedure of CWaTR |
+| **Bezwaartermijn OV** | 3 maanden (VCF art. 3.5.2.0.1) | Volgens BCFP (Brusselse procedure) | Volgens federale procedure of CWaTR |
 | **Erfbelasting tarieven** | Eigen Vlaamse tarieven (VCF) | Federale grondslag + Brusselse tariefdecreten | Federale grondslag + Waalse tariefdecreten |
 
 ---
@@ -199,7 +199,7 @@ Kenniselementen:
 > > [!success]- Antwoord
 > >
 > > 1. **Erfbelasting (Vlaanderen)** — *overgedragen*. Belastbaar feit (overlijden rijksinwoner) is federaal verankerd in het Wb. Succ. 1936; de VCF heeft de tarieven, vrijstellingen en procedure overgenomen. Het Vlaams Gewest kan binnen de federale grondslag tarieven aanpassen.
-> > 2. **Leegstandsheffing woningen (Vlaanderen)** — *autonoom*. Volledig door Vlaanderen gecreëerd, geen verwijzing naar een federale wet, geregeld in [[bronnen/wetteksten/IVA-vcf|VCF]] Titel 2 Hfdst 5.
+> > 2. **Leegstandsheffing woningen (Vlaanderen)** — *autonoom*. Volledig door Vlaanderen gecreëerd, geen verwijzing naar een federale wet, geregeld in VCF Titel 2 Hfdst 5.
 > > 3. **OV (Brussel)** — *overgedragen*. Belastbaar feit en grondslag (KI) blijven federaal in WIB92 art. 249 e.v.; Brussel past tarieven en verminderingen aan via regionale wetgeving.
 > > 4. **Kilometerheffing (Wallonië)** — *autonoom*. Door het gewest gecreëerd ter vervanging van het eurovignet; geen federale juridische basis voor de heffing zelf.
 > >
@@ -215,7 +215,7 @@ Kenniselementen:
 > >
 > > **3 maanden vanaf de verzending van het aanslagbiljet, bij Vlabel.**
 > >
-> > De OV in Vlaanderen wordt geïnd door [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] op grond van de [[bronnen/wetteksten/IVA-vcf|VCF]]. De bezwaartermijn staat in [[bronnen/wetteksten/IVA-vcf#art-35201|VCF art. 3.5.2.0.1]] en bedraagt **3 maanden** — niet de federale 6 maanden van WIB92 art. 366. Vergissingen op dit vlak leiden tot een onontvankelijk bezwaar (art. 3.5.2.0.4 VCF: laattijdig bezwaar = niet-ontvankelijk).
+> > De OV in Vlaanderen wordt geïnd door [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] op grond van de VCF. De bezwaartermijn staat in VCF art. 3.5.2.0.1 en bedraagt **3 maanden** — niet de federale 6 maanden van WIB92 art. 366. Vergissingen op dit vlak leiden tot een onontvankelijk bezwaar (art. 3.5.2.0.4 VCF: laattijdig bezwaar = niet-ontvankelijk).
 > >
 > > Het bezwaarschrift wordt ingediend bij de **bevoegde personeelsleden van Vlabel** — niet bij de federale gewestelijk directeur.
 > >

@@ -10,7 +10,7 @@ bronnen:
 
 # Inkomsten van onroerende goederen
 
-Onroerende inkomsten zijn de **eerste categorie** van inkomsten in de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 7]]). De grondslag is **niet** de werkelijke huuropbrengst, maar het [[#-kadastraal-inkomen-ki|kadastraal inkomen (KI)]] — een **forfaitair** inkomen dat de fiscus heeft toegekend aan elk goed. Dit lijkt verrassend laag, en is een hete politieke kwestie sinds de KI-waarden niet meer geïndexeerd zijn op basis van actuele markthuren maar enkel op basis van de gezondheidsindex.
+Onroerende inkomsten zijn de **eerste categorie** van inkomsten in de PB (WIB92 art. 7). De grondslag is **niet** de werkelijke huuropbrengst, maar het [[#-kadastraal-inkomen-ki|kadastraal inkomen (KI)]] — een **forfaitair** inkomen dat de fiscus heeft toegekend aan elk goed. Dit lijkt verrassend laag, en is een hete politieke kwestie sinds de KI-waarden niet meer geïndexeerd zijn op basis van actuele markthuren maar enkel op basis van de gezondheidsindex.
 
 De aangifte verschilt naargelang het OG **eigen woning** is, **verhuurd voor privégebruik**, **verhuurd voor beroepsgebruik**, of **gelegen in het buitenland**. Elke categorie heeft eigen regels en valkuilen.
 
@@ -18,7 +18,7 @@ De aangifte verschilt naargelang het OG **eigen woning** is, **verhuurd voor pri
 
 ## 📌 Onroerend goed in fiscaliteit
 
-Goederen die onroerend zijn op basis van het [[bronnen/wetteksten/XI-bw-2019|Burgerlijk Wetboek]] (gronden, gebouwen, bestanddelen die er onroerend door bestemming aan verbonden zijn) — voor PB-doeleinden gegroepeerd in twee subcategorieën:
+Goederen die onroerend zijn op basis van het Burgerlijk Wetboek (gronden, gebouwen, bestanddelen die er onroerend door bestemming aan verbonden zijn) — voor PB-doeleinden gegroepeerd in twee subcategorieën:
 
 | Categorie | Voorbeeld |
 |---|---|
@@ -32,7 +32,7 @@ Materieel en outillage (machines, installaties) worden voor de PB **buiten besch
 ## 📌 Kadastraal inkomen (KI)
 *Revenu cadastral (RC)*
 
-Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale omstandigheden zou opbrengen — vastgesteld door de Algemene Administratie van de Patrimoniumdocumentatie (kadaster) ([[bronnen/wetteksten/II-wib92|WIB92 art. 471-477]]).
+Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale omstandigheden zou opbrengen — vastgesteld door de Algemene Administratie van de Patrimoniumdocumentatie (kadaster) (WIB92 art. 471-477).
 
 **Twee belangrijke kenmerken**:
 1. Het KI is een **forfaitair** inkomen — losgekoppeld van de werkelijke huur
@@ -42,7 +42,7 @@ Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale o
 - Bij eerste vestiging of verbouwing → kadaster bepaalt het KI op basis van vergelijkingspunten van 1975
 - Bezwaar mogelijk bij de gewestelijk directeur van de patrimoniumdocumentatie (binnen 2 maanden na betekening)
 
-**Indexering van het KI** ([[bronnen/wetteksten/II-wib92|WIB92 art. 518]]): jaarlijks geïndexeerd KI = niet-geïndexeerd KI × indexcoëfficiënt (cijferzakboekje — 2,2446 voor aj. 2026 / inkomstenjaar 2025; 2,1763 voor aj. 2025).
+**Indexering van het KI** (WIB92 art. 518): jaarlijks geïndexeerd KI = niet-geïndexeerd KI × indexcoëfficiënt (cijferzakboekje — 2,2446 voor aj. 2026 / inkomstenjaar 2025; 2,1763 voor aj. 2025).
 
 > [!info]- In de praktijk
 >
@@ -66,15 +66,15 @@ Het **gemiddeld jaarlijks netto-inkomen** dat een onroerend goed onder normale o
 
 ## ⚖️ Basisregel en uitzonderingen
 
-De fiscale behandeling van een onroerend goed volgt een logica van **basisregel met drie uitzonderingen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 7]]).
+De fiscale behandeling van een onroerend goed volgt een logica van **basisregel met drie uitzonderingen** (WIB92 art. 7).
 
 **Basisregel**: het belastbare inkomen = **geïndexeerd KI × 1,40** voor gebouwde goederen (of geïndexeerd KI zonder verhoging voor ongebouwde goederen). Dit geldt voor elk goed dat niet verhuurd is — leegstand, eigen gebruik als tweede verblijf — én voor verhuur aan een particulier voor privégebruik. Het doorslaggevende criterium is dus **het gebruik door de huurder**, niet het feit van verhuur an sich.
 
-**Uitzondering 1 — eigen woning**: het inkomen van de woning waar de belastingplichtige op 31 december zelf werkelijk verblijft als hoofdverblijfplaats is volledig **vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). → Zie [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]].
+**Uitzondering 1 — eigen woning**: het inkomen van de woning waar de belastingplichtige op 31 december zelf werkelijk verblijft als hoofdverblijfplaats is volledig **vrijgesteld** (WIB92 art. 12, §3). → Zie [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]].
 
-**Uitzondering 2 — beroepsverhuur**: wanneer de huurder het goed (geheel of gedeeltelijk) gebruikt voor zijn **beroepsactiviteit**, wordt de **werkelijke huurprijs** belast — niet KI × 1,40 ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]). Het minimum blijft geïndexeerd KI × 1,40. → Zie [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]].
+**Uitzondering 2 — beroepsverhuur**: wanneer de huurder het goed (geheel of gedeeltelijk) gebruikt voor zijn **beroepsactiviteit**, wordt de **werkelijke huurprijs** belast — niet KI × 1,40 (WIB92 art. 7, §1, 2°, c). Het minimum blijft geïndexeerd KI × 1,40. → Zie [[inkomsten-onroerende-goederen#-beroepsverhuur-werkelijke-huur-en-kostenaftrek|Beroepsverhuur]].
 
-**Uitzondering 3 — verhuur aan eigen vennootschap door bedrijfsleider**: huur boven een bepaalde drempel wordt **geherkwalificeerd** als bezoldiging bedrijfsleider ([[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]]). → Zie [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie]].
+**Uitzondering 3 — verhuur aan eigen vennootschap door bedrijfsleider**: huur boven een bepaalde drempel wordt **geherkwalificeerd** als bezoldiging bedrijfsleider (WIB92 art. 32, alinea 2, 3°). → Zie [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie]].
 
 > [!info]- In de praktijk: eenmanszaak en patrimonium
 >
@@ -86,7 +86,7 @@ De fiscale behandeling van een onroerend goed volgt een logica van **basisregel 
 
 ## ⚖️ Eigen woning
 
-**Het inkomen van de eigen woning is volledig vrijgesteld** sinds aanslagjaar 2006 ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). De vrijstelling geldt voor de woning waarin de belastingplichtige op 31 december van het inkomstenjaar zelf werkelijk verblijft als **hoofdverblijfplaats**.
+**Het inkomen van de eigen woning is volledig vrijgesteld** sinds aanslagjaar 2006 (WIB92 art. 12, §3). De vrijstelling geldt voor de woning waarin de belastingplichtige op 31 december van het inkomstenjaar zelf werkelijk verblijft als **hoofdverblijfplaats**.
 
 **Beperkingen**:
 - Slechts **één** woning per gezin kan eigen woning zijn (gehuwd/wettelijk samenwonend → één gemeenschappelijke eigen woning)
@@ -105,19 +105,19 @@ De fiscale behandeling van een onroerend goed volgt een logica van **basisregel 
 
 ## 🔢 Beroepsverhuur: werkelijke huur en kostenaftrek
 
-Bij verhuur aan een **beroepsgebruiker** — zelfstandige die het pand voor zijn activiteit aanwendt, vennootschap, vrij beroep — wordt de **werkelijke jaarlijkse huurprijs** (inclusief huurvoordelen) als belastbare basis genomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]).
+Bij verhuur aan een **beroepsgebruiker** — zelfstandige die het pand voor zijn activiteit aanwendt, vennootschap, vrij beroep — wordt de **werkelijke jaarlijkse huurprijs** (inclusief huurvoordelen) als belastbare basis genomen (WIB92 art. 7, §1, 2°, c).
 
-**Forfaitaire kostenaftrek** ([[bronnen/wetteksten/II-wib92|WIB92 art. 13]]): op de brutohuur is een forfaitaire aftrek mogelijk als onderhouds- en herstellingskosten:
+**Forfaitaire kostenaftrek** (WIB92 art. 13): op de brutohuur is een forfaitaire aftrek mogelijk als onderhouds- en herstellingskosten:
 - **40%** voor gebouwde onroerende goederen (gebouwen, materieel en outillage)
 - **10%** voor ongebouwde onroerende goederen (gronden, bouwpercelen)
 
 Het maximum van de forfaitaire aftrek voor gebouwde goederen bij beroepsverhuur = **⅔ van het gerevaloriseerde KI** (geïndexeerd KI × revaloriseringscoëfficiënt, cijferzakboekje). Dit plafond verhindert dat hoge nettohuren volledig worden uitgeholden door de aftrek.
 
-**Werkelijke kosten als alternatief**: in plaats van het forfait mogen de **werkelijk gemaakte kosten** worden afgetrokken — als die hoger zijn dan de forfaitaire aftrek. Dit is zelden voordelig bij standaard verhuur maar kan relevant zijn bij hoge renovatielasten. ⚠️ Grondslag: [[bronnen/wetteksten/II-wib92|WIB92 art. 14]].
+**Werkelijke kosten als alternatief**: in plaats van het forfait mogen de **werkelijk gemaakte kosten** worden afgetrokken — als die hoger zijn dan de forfaitaire aftrek. Dit is zelden voordelig bij standaard verhuur maar kan relevant zijn bij hoge renovatielasten. ⚠️ Grondslag: WIB92 art. 14.
 
-**Minimum**: het belastbaar bedrag na kostenaftrek kan nooit lager zijn dan **geïndexeerd KI × 1,40** voor gebouwde goederen ([[bronnen/wetteksten/II-wib92|WIB92 art. 7, §1, 2°, c]]).
+**Minimum**: het belastbaar bedrag na kostenaftrek kan nooit lager zijn dan **geïndexeerd KI × 1,40** voor gebouwde goederen (WIB92 art. 7, §1, 2°, c).
 
-**Gemengd gebruik** (deel privé, deel beroep): wanneer de huurprijs in een **geregistreerde** huurovereenkomst uitdrukkelijk gesplitst is per bestemming, wordt elk deel afzonderlijk berekend ([[bronnen/wetteksten/II-wib92|WIB92 art. 8]]). Ontbreekt de splitsing, dan hangt het af van het overheersende gebruik.
+**Gemengd gebruik** (deel privé, deel beroep): wanneer de huurprijs in een **geregistreerde** huurovereenkomst uitdrukkelijk gesplitst is per bestemming, wordt elk deel afzonderlijk berekend (WIB92 art. 8). Ontbreekt de splitsing, dan hangt het af van het overheersende gebruik.
 
 > [!warning]- Gemengd gebruik: registratie van de huurovereenkomst is vereist
 > ❌ *"Een niet-geregistreerde huurovereenkomst met een beroeps/privé-opdeling volstaat om elk deel afzonderlijk te belasten."*
@@ -172,7 +172,7 @@ De twee grootheden waaruit het belastbare bedrag voortvloeit:
 
 ## 🔢 Herkwalificatie van huurinkomsten van bedrijfsleider
 
-Wanneer een **bedrijfsleider** (zaakvoerder, bestuurder, beherend vennoot) een **gebouw** verhuurt aan **zijn eigen vennootschap** waarvan hij de bedrijfsleidersactiviteit uitoefent, herkwalificeert de wet het deel van de huur dat een bepaalde **drempel overschrijdt** als **bezoldiging bedrijfsleider** ([[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]]).
+Wanneer een **bedrijfsleider** (zaakvoerder, bestuurder, beherend vennoot) een **gebouw** verhuurt aan **zijn eigen vennootschap** waarvan hij de bedrijfsleidersactiviteit uitoefent, herkwalificeert de wet het deel van de huur dat een bepaalde **drempel overschrijdt** als **bezoldiging bedrijfsleider** (WIB92 art. 32, alinea 2, 3°).
 
 **Drempel**:
 
@@ -196,7 +196,7 @@ Bezoldiging bedrijfsleider (deel boven drempel): € 15 357
 > [!warning]- Herkwalificatie geldt enkel voor gebouwen, niet voor gronden
 > ❌ *"De herkwalificatie van huurinkomsten van een bedrijfsleider geldt voor elk onroerend goed dat hij verhuurt aan zijn vennootschap."*
 >
-> De herkwalificatie van [[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]] is uitdrukkelijk beperkt tot **gebouwde** onroerende goederen. Bij verhuur van een **grond** (parking, weide, bouwperceel) aan de eigen vennootschap wordt de huur volledig als onroerend inkomen belast, zonder herkwalificatie. Dit verklaart waarom bedrijfsleiders soms parkeerterreinen of opslagruimtes apart verhuren — de huur ontsnapt aan de herkwalificatie.
+> De herkwalificatie van WIB92 art. 32, alinea 2, 3° is uitdrukkelijk beperkt tot **gebouwde** onroerende goederen. Bij verhuur van een **grond** (parking, weide, bouwperceel) aan de eigen vennootschap wordt de huur volledig als onroerend inkomen belast, zonder herkwalificatie. Dit verklaart waarom bedrijfsleiders soms parkeerterreinen of opslagruimtes apart verhuren — de huur ontsnapt aan de herkwalificatie.
 >
 > 🤖 *AI-aanvulling*
 
@@ -222,7 +222,7 @@ Bezoldiging bedrijfsleider (deel boven drempel): € 15 357
 
 ## 🔢 Aftrek interesten
 
-Interesten van schulden specifiek aangegaan om **OG te verwerven of te behouden** (hypothecaire lening, verbouwingslening, herfinanciering) zijn in beginsel aftrekbaar van het bruto onroerend inkomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 14]]).
+Interesten van schulden specifiek aangegaan om **OG te verwerven of te behouden** (hypothecaire lening, verbouwingslening, herfinanciering) zijn in beginsel aftrekbaar van het bruto onroerend inkomen (WIB92 art. 14).
 
 **Regels**:
 - Aftrek beperkt tot het **totaal aan onroerend inkomen** (eigen woning telt niet mee — die is vrijgesteld)
@@ -235,7 +235,7 @@ Interesten van schulden specifiek aangegaan om **OG te verwerven of te behouden*
 ## ⚖️ Onroerende voorheffing
 *Précompte immobilier (PI)*
 
-Aparte gewestelijke belasting op het KI — **niet verrekenbaar** met de PB voor de eigen woning of niet-beroepsmatige verhuur (sinds aj. 2015) ([[bronnen/wetteksten/II-wib92|WIB92 art. 277-280]]). De OV wordt dus naast de PB betaald.
+Aparte gewestelijke belasting op het KI — **niet verrekenbaar** met de PB voor de eigen woning of niet-beroepsmatige verhuur (sinds aj. 2015) (WIB92 art. 277-280). De OV wordt dus naast de PB betaald.
 
 **Voor verhuur voor beroep** (huurder vennootschap of zelfstandige) blijft de OV in beginsel een **kost** voor de verhuurder — maar verrekenbaarheid is afgeschaft.
 
@@ -245,7 +245,7 @@ Aparte gewestelijke belasting op het KI — **niet verrekenbaar** met de PB voor
 
 ## ⚖️ Buitenlandse onroerende goederen
 
-Sinds aanslagjaar 2022 wordt voor **buitenlandse OG** een **fictief KI** vastgesteld door de administratie, op basis van een aangifte door de eigenaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 13/1]]). Dit harmoniseert de behandeling met Belgische OG.
+Sinds aanslagjaar 2022 wordt voor **buitenlandse OG** een **fictief KI** vastgesteld door de administratie, op basis van een aangifte door de eigenaar (WIB92 art. 13/1). Dit harmoniseert de behandeling met Belgische OG.
 
 **Werkwijze**:
 1. Eigenaar van een buitenlands OG **moet aangifte doen** bij de FOD Financiën (verplichte registratie)
@@ -271,8 +271,8 @@ Sommige inkomsten **lijken** onroerend maar worden anders gekwalificeerd:
 |---|---|
 | **Vergoedingen voor verbreking huurcontract** | Onroerend inkomen — belastbaar als deel van het onroerend inkomen van het betrokken goed |
 | **Erfpachtcanon, opstal** | Onroerend inkomen volgens kapitalisatieregels |
-| **Vergoeding voor recht van uitweg** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]]) — niet onroerend |
-| **Toevallige meerwaarde op verkoop OG** | Diverse inkomsten ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 8°-10°]]) — speculatie of normaal beheer |
+| **Vergoeding voor recht van uitweg** | Diverse inkomsten (WIB92 art. 90, 1°) — niet onroerend |
+| **Toevallige meerwaarde op verkoop OG** | Diverse inkomsten (WIB92 art. 90, 8°-10°) — speculatie of normaal beheer |
 | **Beroepsmatige meerwaarde op OG** | Beroepsinkomsten (zelfstandige, bedrijfsleider) |
 
 ---
@@ -297,7 +297,7 @@ Verhuur via Airbnb of Booking.com valt **niet** onder de gewone onroerende inkom
 
 **Fiche 281.48**: platforms zijn verplicht (DAC7, wet 21 december 2021) uiterlijk 31 maart een fiche te bezorgen met de bruto-inkomsten. In de aangifte telt het **werkelijk ontvangen brutobedrag** — niet het fiche-bedrag, dat platformkosten al kan hebben afgetrokken.
 
-Wanneer de verhuur **frequent, intensief en georganiseerd** is, kan de administratie herkwalificeren als **beroepsinkomen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 37]]). Dit is een feitelijke beoordeling per geval.
+Wanneer de verhuur **frequent, intensief en georganiseerd** is, kan de administratie herkwalificeren als **beroepsinkomen** (WIB92 art. 37). Dit is een feitelijke beoordeling per geval.
 
 > [!warning]- Airbnb is geen deeleconomieplatform — geen verlaagd tarief
 > ❌ *"Verhuur via Airbnb valt onder de deeleconomieregeling en wordt belast aan het gunstige deeleconomie-tarief."*
@@ -333,7 +333,7 @@ Kenniselementen:
 > >
 > > **De hoofdverblijfwoning is vrijgesteld; het zomerverblijf wordt belast op geïndexeerd KI × 1,40.**
 > >
-> > De eigen woning (waar de belastingplichtige werkelijk verblijft op 31 december) is volledig vrijgesteld in de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). Het zomerverblijf is een "niet verhuurde tweede woning" → belast aan geïndexeerd KI verhoogd met 40%.
+> > De eigen woning (waar de belastingplichtige werkelijk verblijft op 31 december) is volledig vrijgesteld in de PB (WIB92 art. 12, §3). Het zomerverblijf is een "niet verhuurde tweede woning" → belast aan geïndexeerd KI verhoogd met 40%.
 > >
 > > *Zie: [[inkomsten-onroerende-goederen#-basisregel-en-uitzonderingen|Basisregel en uitzonderingen]] en [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]]*
 >
@@ -365,7 +365,7 @@ Kenniselementen:
 > >
 > > **Niet identiek: open parking (grond) → geen herkwalificatie; overdekte garagebox (gebouw) → wél herkwalificatie mogelijk.**
 > >
-> > De herkwalificatie van [[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 2, 3°]] geldt voor **gebouwde** onroerende goederen. Een open parkeerterrein is grond → geen herkwalificatie, volledige huur belast als onroerend inkomen (10% forfaitaire kostenaftrek). Een overdekte garagebox of parkeergebouw is een gebouw → herkwalificatiedrempel van toepassing (KI × 5/3 × revaloriseringscoëfficiënt).
+> > De herkwalificatie van WIB92 art. 32, alinea 2, 3° geldt voor **gebouwde** onroerende goederen. Een open parkeerterrein is grond → geen herkwalificatie, volledige huur belast als onroerend inkomen (10% forfaitaire kostenaftrek). Een overdekte garagebox of parkeergebouw is een gebouw → herkwalificatiedrempel van toepassing (KI × 5/3 × revaloriseringscoëfficiënt).
 > >
 > > *Zie: [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huurinkomsten bedrijfsleider]]*
 >
@@ -393,7 +393,7 @@ Kenniselementen:
 > >
 > > **Ja — verplicht.**
 > >
-> > Sinds aanslagjaar 2022 moet **elk** buitenlands OG worden aangegeven bij de FOD Financiën, die er een fictief KI aan toekent ([[bronnen/wetteksten/II-wib92|WIB92 art. 13/1]]). De inkomsten worden in vak XIII van de aangifte vermeld. Onder DBV BE-ES wordt het Spaans inkomen **vrijgesteld met progressievoorbehoud** — het verhoogt de tariefschijf op de overige Belgische inkomsten. Niet-aangifte → belastingverhoging tot 200%.
+> > Sinds aanslagjaar 2022 moet **elk** buitenlands OG worden aangegeven bij de FOD Financiën, die er een fictief KI aan toekent (WIB92 art. 13/1). De inkomsten worden in vak XIII van de aangifte vermeld. Onder DBV BE-ES wordt het Spaans inkomen **vrijgesteld met progressievoorbehoud** — het verhoogt de tariefschijf op de overige Belgische inkomsten. Niet-aangifte → belastingverhoging tot 200%.
 > >
 > > *Zie: [[inkomsten-onroerende-goederen#-buitenlandse-onroerende-goederen|Buitenlandse onroerende goederen]]*
 >

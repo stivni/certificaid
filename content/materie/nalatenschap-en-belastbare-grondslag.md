@@ -17,9 +17,9 @@ De erfbelasting wordt geheven op alles wat een erfgenaam, legataris of begiftigd
 
 ## 📌 Erfbelasting (Vlaams)
 
-De erfbelasting is het Vlaamse belastingrecht op nalatenschappen. Zij is van toepassing wanneer de erflater op het ogenblik van zijn overlijden zijn **fiscale woonplaats in het Vlaamse Gewest** had — ongeacht waar de goederen zich bevinden. De erfbelasting treft dus het **wereldwijd vermogen** van de rijksinwoner. ([[wetteksten/IVA-vcf#art-27102|VCF art. 2.7.1.0.2]])
+De erfbelasting is het Vlaamse belastingrecht op nalatenschappen. Zij is van toepassing wanneer de erflater op het ogenblik van zijn overlijden zijn **fiscale woonplaats in het Vlaamse Gewest** had — ongeacht waar de goederen zich bevinden. De erfbelasting treft dus het **wereldwijd vermogen** van de rijksinwoner. (VCF art. 2.7.1.0.2)
 
-De bevoegdheid ligt bij het Vlaamse Gewest op grond van de [[wetteksten/IVA-vcf#art-27101|VCF art. 2.7.1.0.1]] juncto art. 3, 4°, van de Bijzondere Financieringswet van 16 januari 1989. De erfbelasting wordt ingevorderd door de [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlaamse Belastingdienst (Vlabel)]].
+De bevoegdheid ligt bij het Vlaamse Gewest op grond van de VCF art. 2.7.1.0.1 juncto art. 3, 4°, van de Bijzondere Financieringswet van 16 januari 1989. De erfbelasting wordt ingevorderd door de [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlaamse Belastingdienst (Vlabel)]].
 
 ## 📌 Successierecht (Brussels/Waals — federaal kader)
 
@@ -27,9 +27,9 @@ Het **successierecht** is de federale variant (voor nalatenschappen met woonplaa
 
 ## 📌 Recht van overgang
 
-Het **recht van overgang** geldt niet voor rijksinwoners, maar voor **niet-rijksinwoners** met Belgisch onroerend goed. Het wordt geheven op de waarde van de in België gelegen onroerende goederen die de niet-rijksinwoner bij overlijden nalaat — ongeacht waar hij fiscaal woonachtig was. ([[wetteksten/IVA-vcf#art-27311|VCF art. 2.7.3.1.1]], tweede lid)
+Het **recht van overgang** geldt niet voor rijksinwoners, maar voor **niet-rijksinwoners** met Belgisch onroerend goed. Het wordt geheven op de waarde van de in België gelegen onroerende goederen die de niet-rijksinwoner bij overlijden nalaat — ongeacht waar hij fiscaal woonachtig was. (VCF art. 2.7.3.1.1, tweede lid)
 
-Het recht van overgang wordt gelokaliseerd op grond van de ligging van het onroerende goed: ligt het in het Vlaamse Gewest, dan int Vlabel; ligt het in Brussel of Wallonië, dan respectievelijk die gewesten. Alleen de schulden die **specifiek** zijn aangegaan om de Belgische onroerende goederen te verwerven of te behouden, zijn aftrekbaar als passief. ([[wetteksten/IVA-vcf#art-27322|VCF art. 2.7.3.2.2]])
+Het recht van overgang wordt gelokaliseerd op grond van de ligging van het onroerende goed: ligt het in het Vlaamse Gewest, dan int Vlabel; ligt het in Brussel of Wallonië, dan respectievelijk die gewesten. Alleen de schulden die **specifiek** zijn aangegaan om de Belgische onroerende goederen te verwerven of te behouden, zijn aftrekbaar als passief. (VCF art. 2.7.3.2.2)
 
 ## 📌 Nalatenschap
 
@@ -45,11 +45,11 @@ De erfbelasting wordt berekend op de **nettoverkrijging** van elke erfgenaam, le
 Nettoverkrijging = aandeel in brutoactief – aangerekend passief
 ```
 
-Het **brutoactief** is de verkoopwaarde op de dag van het overlijden van alle goederen die behoren tot de nalatenschap (eigen goederen van de erflater + zijn aandeel in de gemeenschap), uitgebreid met de goederen die via fictiebepalingen erbij worden geteld. ([[wetteksten/IVA-vcf#art-27321|VCF art. 2.7.3.2.1]])
+Het **brutoactief** is de verkoopwaarde op de dag van het overlijden van alle goederen die behoren tot de nalatenschap (eigen goederen van de erflater + zijn aandeel in de gemeenschap), uitgebreid met de goederen die via fictiebepalingen erbij worden geteld. (VCF art. 2.7.3.2.1)
 
 Het **aftrekbaar passief** omvat de schulden en begrafeniskosten zoals beschreven in de [[#📌-aftrekbaar-passief|sectie Aftrekbaar passief]] hieronder.
 
-De nettoverkrijging per verkrijger bepaalt dan het tarief (progressief per schijf) en de eventuele verminderingen. ([[wetteksten/IVA-vcf#art-27351|VCF art. 2.7.3.5.1]])
+De nettoverkrijging per verkrijger bepaalt dan het tarief (progressief per schijf) en de eventuele verminderingen. (VCF art. 2.7.3.5.1)
 
 ## ⚖️ Twee-stappen-vereffening: huwelijksvermogensrecht eerst, dan erfrecht
 
@@ -72,27 +72,27 @@ Een rijksinwoner — iemand die zijn fiscale woonplaats in België had — is on
 - of de goederen roerend of onroerend zijn
 - welke rechtsorde de goederen beheerst
 
-([[wetteksten/IVA-vcf#art-27311|VCF art. 2.7.3.1.1]], eerste lid; [[wetteksten/IVA-vcf#art-27321|VCF art. 2.7.3.2.1]])
+(VCF art. 2.7.3.1.1, eerste lid; VCF art. 2.7.3.2.1)
 
 Als dezelfde goederen ook in het buitenland aan een erfbelasting onderworpen zijn, biedt VCF art. 2.7.5.0.4 een vermindering ter voorkoming van dubbele belasting: de buitenlandse erfbelasting wordt in mindering gebracht van de Vlaamse erfbelasting voor hetzelfde goed.
 
 ## 📌 Aftrekbaar passief
 
-Als **passief van de nalatenschap** van een rijksinwoner worden alleen aanvaard: ([[wetteksten/IVA-vcf#art-27341|VCF art. 2.7.3.4.1]])
+Als **passief van de nalatenschap** van een rijksinwoner worden alleen aanvaard: (VCF art. 2.7.3.4.1)
 
 1. **Schulden van de erflater** die op de dag van zijn overlijden bestaan — alle opeisbare en niet-opeisbare schulden, waaronder hypothecaire leningen, openstaande rekeningen, belastingschulden, enz.
 2. **Begrafeniskosten** — de kosten van de uitvaart en de begraving.
 
-Schulden die voortkomen uit huwelijksovereenkomsten inzake de vereffening van het vermogensstelsel worden **niet** als schulden van de erflater beschouwd (art. 2.7.3.4.1 §1, 1°). Schulden aangegaan ten voordele van erfgenamen, legatarissen of begiftigden worden eveneens niet aanvaard als passief, tenzij de aangevers het bewijs van de echtheid leveren of aantonen dat de schuld diende voor de verwerving of het behoud van een goed. ([[wetteksten/IVA-vcf#art-27344|VCF art. 2.7.3.4.4]])
+Schulden die voortkomen uit huwelijksovereenkomsten inzake de vereffening van het vermogensstelsel worden **niet** als schulden van de erflater beschouwd (art. 2.7.3.4.1 §1, 1°). Schulden aangegaan ten voordele van erfgenamen, legatarissen of begiftigden worden eveneens niet aanvaard als passief, tenzij de aangevers het bewijs van de echtheid leveren of aantonen dat de schuld diende voor de verwerving of het behoud van een goed. (VCF art. 2.7.3.4.4)
 
-**Forfaitaire bedragen** (geïndexeerd — zie Cijferzakboekje voor actuele bedragen): ([[wetteksten/IVA-vcf#art-27342|VCF art. 2.7.3.4.2]])
+**Forfaitaire bedragen** (geïndexeerd — zie Cijferzakboekje voor actuele bedragen): (VCF art. 2.7.3.4.2)
 - Schulden alleenstaande/apart stelsel: forfait van 1.500 EUR (basisjaar 2014)
 - Schulden bij gemeenschap: forfait van 3.000 EUR (de helft = aftrekbaar in nalatenschap)
 - Begrafeniskosten: forfait van 6.000 EUR (vervalt als erflater uitvaartverzekering had)
 
 De aangevers kunnen in afwijking kiezen om de **werkelijke** schulden of werkelijke begrafeniskosten te bewijzen, via een verklaring in de aangifte.
 
-**Aanrekening van het passief**: niet-specifieke schulden worden aangerekend eerst op de familiale onderneming-goederen, daarna op roerende goederen, ten slotte op onroerende goederen. Specifieke schulden (specifiek aangegaan voor een goed) worden aangerekend op de bijbehorende goederencategorie. ([[wetteksten/IVA-vcf#art-27352|VCF art. 2.7.3.5.2]])
+**Aanrekening van het passief**: niet-specifieke schulden worden aangerekend eerst op de familiale onderneming-goederen, daarna op roerende goederen, ten slotte op onroerende goederen. Specifieke schulden (specifiek aangegaan voor een goed) worden aangerekend op de bijbehorende goederencategorie. (VCF art. 2.7.3.5.2)
 
 > [!warning]- Schulden gelijkgesteld aan legaten zijn geen aftrekbaar passief
 > ❌ *"Schulden die de erflater in zijn testament erkend heeft, zijn gewone schulden en aftrekbaar als passief."*
@@ -109,7 +109,7 @@ De VCF bevat zeven **fictiebepalingen** (art. 2.7.1.0.3 t.e.m. 2.7.1.0.9) die be
 
 ### 📌 Schenking onder opschortende voorwaarde overlijden (art. 2.7.1.0.3 VCF)
 
-([[wetteksten/IVA-vcf#art-27103|VCF art. 2.7.1.0.3]])
+(VCF art. 2.7.1.0.3)
 
 Drie categorieën worden gelijkgesteld met **legaten**:
 
@@ -127,7 +127,7 @@ Drie categorieën worden gelijkgesteld met **legaten**:
 
 ### 📌 Huwelijkscontract met meer dan helft gemeenschap (art. 2.7.1.0.4 VCF)
 
-([[wetteksten/IVA-vcf#art-27104|VCF art. 2.7.1.0.4]])
+(VCF art. 2.7.1.0.4)
 
 Wanneer de langstlevende echtgenoot op grond van een **huwelijkscontract** (buiten de gewone gelijke verdeling) **meer dan de helft** van de huwelijksgemeenschap ontvangt, wordt dat meerdere deel fiscaal gelijkgesteld met een **schenking onder de levenden of een legaat**. De erfbelasting is verschuldigd op het surplus boven de helft die de langstlevende normaal zou ontvangen.
 
@@ -142,7 +142,7 @@ Wanneer de langstlevende echtgenoot op grond van een **huwelijkscontract** (buit
 
 ### 📌 5-jarige verdachte periode voor kosteloze beschikkingen (art. 2.7.1.0.5 VCF)
 
-([[wetteksten/IVA-vcf#art-27105|VCF art. 2.7.1.0.5]])
+(VCF art. 2.7.1.0.5)
 
 Goederen waarvan bewezen wordt dat de erflater er **kosteloos over beschikte** gedurende de **vijf jaar vóór zijn overlijden**, worden geacht deel uit te maken van zijn nalatenschap — **tenzij** de bevoordeling onderworpen was aan de schenkbelasting of het registratierecht op schenkingen (d.w.z. de schenking werd geregistreerd of de schenkbelasting werd betaald).
 
@@ -165,7 +165,7 @@ Goederen waarvan bewezen wordt dat de erflater er **kosteloos over beschikte** g
 
 ### 📌 Levensverzekering als legaat (art. 2.7.1.0.6 VCF)
 
-([[wetteksten/IVA-vcf#art-27106|VCF art. 2.7.1.0.6]])
+(VCF art. 2.7.1.0.6)
 
 Sommen, renten of waarden die **kosteloos** toekomen aan een persoon **bij het overlijden** van de erflater op grond van een contract met een beding ten gunste van die persoon (typisch: een levensverzekering), worden geacht als **legaat** verkregen te zijn. De fictie geldt ook voor uitkeringen die binnen **vijf jaar** vóór het overlijden op grond van zo'n contract zijn toegekomen.
 
@@ -185,7 +185,7 @@ Sommen, renten of waarden die **kosteloos** toekomen aan een persoon **bij het o
 
 ### 📌 Gesplitste aankoop vruchtgebruik/blote eigendom (art. 2.7.1.0.7 VCF)
 
-([[wetteksten/IVA-vcf#art-27107|VCF art. 2.7.1.0.7]])
+(VCF art. 2.7.1.0.7)
 
 Wanneer de erflater het **vruchtgebruik** van een goed bezit en een derde de **blote eigendom** heeft verworven **onder bezwarende titel**, wordt het goed voor de erfbelasting geacht in **volle eigendom** tot de nalatenschap te behoren — en als legaat door die derde te zijn verkregen.
 
@@ -203,7 +203,7 @@ De logica: het vruchtgebruik dooft uit bij overlijden van de erflater, waarna de
 
 ### 📌 Gesplitste verdeling (art. 2.7.1.0.8 VCF)
 
-([[wetteksten/IVA-vcf#art-27108|VCF art. 2.7.1.0.8]])
+(VCF art. 2.7.1.0.8)
 
 Als bij een **verdeling of een met verdeling gelijkgestelde akte** aan de erflater een **vruchtgebruik, een rente of een ander recht** wordt toebedeeld dat vervalt bij zijn overlijden, wordt de verrichting fiscaal gelijkgesteld met een **legaat** ten voordele van de deelgenoten die boven hun aandeel goederen in volle eigendom verkregen.
 
@@ -211,7 +211,7 @@ Als bij een **verdeling of een met verdeling gelijkgestelde akte** aan de erflat
 
 ### 📌 Verkoop met voorbehoud vruchtgebruik of levenslang recht (art. 2.7.1.0.9 VCF)
 
-([[wetteksten/IVA-vcf#art-27109|VCF art. 2.7.1.0.9]])
+(VCF art. 2.7.1.0.9)
 
 Als de erflater een goed **onder bezwarende titel** heeft verkocht of afgestaan, maar daarbij:
 - ofwel een **vruchtgebruik** op de afgestane goederen of andere goederen heeft voorbehouden; ofwel
@@ -231,7 +231,7 @@ dan worden die goederen geacht deel uit te maken van zijn nalatenschap en als le
 
 ## 📋 Aangifte van nalatenschap
 
-De aangifte moet ingediend worden bij [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] door de **erfgenamen, algemene legatarissen en begiftigden**. ([[wetteksten/IVA-vcf#art-33105|VCF art. 3.3.1.0.5]])
+De aangifte moet ingediend worden bij [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] door de **erfgenamen, algemene legatarissen en begiftigden**. (VCF art. 3.3.1.0.5)
 
 **Termijnen** (te rekenen vanaf de datum van het overlijden):
 
@@ -243,7 +243,7 @@ De aangifte moet ingediend worden bij [[fiscale-actoren#-vlaamse-belastingdienst
 
 Bij een gerechtelijke verklaring van overlijden beginnen de termijnen pas te lopen wanneer het vonnis in kracht van gewijsde is gegaan.
 
-**Verlenging** van de aangiftetermijn is mogelijk op gemotiveerd verzoek aan Vlabel. ([[wetteksten/IVA-vcf#art-33107|VCF art. 3.3.1.0.7]])
+**Verlenging** van de aangiftetermijn is mogelijk op gemotiveerd verzoek aan Vlabel. (VCF art. 3.3.1.0.7)
 
 **Inhoud van de aangifte** (art. 3.3.1.0.8 VCF): identificatie erflater en aangevers, verwantschapsgraden, nauwkeurige raming van elk actief-element afzonderlijk, opgave van de schulden, vermelding van recente schenkingen (minder dan 3 jaar vóór overlijden onder opschortende voorwaarde, of minder dan 3 jaar vóór en voor het register aangeboden), vermelding van begunstigden van levensverzekeringscontracten en gesplitste eigendomssituaties.
 
@@ -253,17 +253,17 @@ Voor de praktische werkwijze: → [[aangifte-nalatenschap-opmaken|Aangifte nalat
 
 ## 🔒 Hoofdelijke aansprakelijkheid van erfgenamen
 
-De erfbelasting kan ten laste van elk van de belastingschuldigen worden ingevorderd; zij zijn **hoofdelijk** gehouden tot de betaling. ([[wetteksten/IVA-vcf#art-310311|VCF art. 3.10.3.1.1]], §2)
+De erfbelasting kan ten laste van elk van de belastingschuldigen worden ingevorderd; zij zijn **hoofdelijk** gehouden tot de betaling. (VCF art. 3.10.3.1.1, §2)
 
 Dit betekent in de praktijk dat Vlabel de volledige verschuldigde erfbelasting kan verhalen op één enkele erfgenaam, die dan intern verhaal heeft op de overige mede-erfgenamen. De hoofdelijkheid geldt ook voor aanvullende rechten bij onjuiste of onvolledige aangifte.
 
-**Bijzonder geval**: de met erfstelling bezwaarde erfgenaam die de aangifte in geval van fideï-commis (art. 3.3.1.0.6, §1, 5°) niet indient, is hoofdelijk aansprakelijk voor de ontdoken belastingen en toebehoren. ([[wetteksten/IVA-vcf#art-310312|VCF art. 3.10.3.1.2]])
+**Bijzonder geval**: de met erfstelling bezwaarde erfgenaam die de aangifte in geval van fideï-commis (art. 3.3.1.0.6, §1, 5°) niet indient, is hoofdelijk aansprakelijk voor de ontdoken belastingen en toebehoren. (VCF art. 3.10.3.1.2)
 
 ## 📋 Vestiging en invordering
 
-De erfbelasting wordt gevestigd op zicht van de ingediende aangifte. Als de aangifte niet tijdig ingediend is, onjuist of onvolledig is, kan Vlabel de erfbelasting **ambtshalve** vestigen. ([[wetteksten/IVA-vcf#art-27701|VCF art. 2.7.7.0.1]])
+De erfbelasting wordt gevestigd op zicht van de ingediende aangifte. Als de aangifte niet tijdig ingediend is, onjuist of onvolledig is, kan Vlabel de erfbelasting **ambtshalve** vestigen. (VCF art. 2.7.7.0.1)
 
-**Bezwaar**: erfgenamen kunnen bezwaar indienen tegen een gevestigde aanslag. De bezwaartermijnen en -procedure volgen de algemene bepalingen van de VCF (Titel 3, Hoofdstuk 17 en verder). ([[wetteksten/IVA-vcf#art-317001|VCF art. 3.17.0.0.1]] e.v.)
+**Bezwaar**: erfgenamen kunnen bezwaar indienen tegen een gevestigde aanslag. De bezwaartermijnen en -procedure volgen de algemene bepalingen van de VCF (Titel 3, Hoofdstuk 17 en verder). (VCF art. 3.17.0.0.1 e.v.)
 
 **Nalatigheidsinteresten**: verschuldigd bij laattijdige betaling, berekend conform de VCF-interestregeling.
 

@@ -10,14 +10,14 @@ bronnen:
 
 # Belastingplichtigen personenbelasting
 
-De personenbelasting wordt enkel geheven van **rijksinwoners** — de andere natuurlijke personen vallen onder de [[#-niet-rijksinwoner|belasting van niet-inwoners (BNI)]] of zijn niet onderworpen ([[bronnen/wetteksten/II-wib92|WIB92 art. 3, 5]]). De vraag "is deze persoon rijksinwoner?" is daarom altijd de eerste fiscale kwalificatievraag — ze bepaalt of de Belgische [[personenbelasting-basisbegrippen|personenbelasting]] van toepassing is en of het wereldwijde of enkel het Belgische inkomen wordt belast.
+De personenbelasting wordt enkel geheven van **rijksinwoners** — de andere natuurlijke personen vallen onder de [[#-niet-rijksinwoner|belasting van niet-inwoners (BNI)]] of zijn niet onderworpen (WIB92 art. 3, 5). De vraag "is deze persoon rijksinwoner?" is daarom altijd de eerste fiscale kwalificatievraag — ze bepaalt of de Belgische [[personenbelasting-basisbegrippen|personenbelasting]] van toepassing is en of het wereldwijde of enkel het Belgische inkomen wordt belast.
 
 ---
 
 ## 📌 Rijksinwoner
 *Habitant du royaume*
 
-Natuurlijke persoon die in België haar **woonplaats** heeft of, bij gebrek daaraan, haar **zetel van fortuin** ([[bronnen/wetteksten/II-wib92|WIB92 art. 2, §1, 1°]] en [[bronnen/wetteksten/II-wib92|art. 3]]).
+Natuurlijke persoon die in België haar **woonplaats** heeft of, bij gebrek daaraan, haar **zetel van fortuin** (WIB92 art. 2, §1, 1° en art. 3).
 
 Een rijksinwoner is **onbeperkt belastbaar**: alle inkomsten waar ook ter wereld behaald, worden in België aangegeven en belast. Buitenlandse belastingen worden vermeden of verminderd via [[#-dubbelbelastingverdragen|dubbelbelastingverdragen]].
 
@@ -34,11 +34,11 @@ De woonplaats heeft voorrang op de zetel van fortuin: de zetel van fortuin wordt
 
 ## ⚖️ Inschrijving in het rijksregister — wettelijk vermoeden
 
-**Iedere natuurlijke persoon ingeschreven in het rijksregister wordt vermoed rijksinwoner te zijn**, behoudens tegenbewijs ([[bronnen/wetteksten/II-wib92|WIB92 art. 2, §1, 1°, tweede lid]]).
+**Iedere natuurlijke persoon ingeschreven in het rijksregister wordt vermoed rijksinwoner te zijn**, behoudens tegenbewijs (WIB92 art. 2, §1, 1°, tweede lid).
 
 Het is een **weerlegbaar vermoeden**: de belastingplichtige kan bewijzen dat hij ondanks zijn inschrijving in werkelijkheid in het buitenland woont (geen feitelijk centrum van belangen in België). De bewijslast ligt bij wie het vermoeden weerlegt.
 
-**Voor gehuwden en wettelijk samenwonenden** geldt een **onweerlegbaar vermoeden**: het fiscaal domicilie wordt **op de plaats gevestigd waar het gezin is gevestigd** — niet daar waar één van de partners eventueel beroepshalve verblijft ([[bronnen/wetteksten/II-wib92|WIB92 art. 2, §1, 1°, derde lid]]).
+**Voor gehuwden en wettelijk samenwonenden** geldt een **onweerlegbaar vermoeden**: het fiscaal domicilie wordt **op de plaats gevestigd waar het gezin is gevestigd** — niet daar waar één van de partners eventueel beroepshalve verblijft (WIB92 art. 2, §1, 1°, derde lid).
 
 > [!info]- In de praktijk
 >
@@ -57,7 +57,7 @@ Het is een **weerlegbaar vermoeden**: de belastingplichtige kan bewijzen dat hij
 
 ## 📌 Niet-rijksinwoner
 
-Natuurlijke persoon die geen rijksinwoner is en die **Belgische inkomsten** geniet, wordt onderworpen aan de **belasting van niet-inwoners (BNI)** — niet aan de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 227, 232]]).
+Natuurlijke persoon die geen rijksinwoner is en die **Belgische inkomsten** geniet, wordt onderworpen aan de **belasting van niet-inwoners (BNI)** — niet aan de PB (WIB92 art. 227, 232).
 
 **Verschillen met PB**:
 
@@ -75,7 +75,7 @@ De **BNI is geen onderwerp van PO 2.2** in de strikte zin — ze is wel relevant
 
 ## ⚖️ Diplomaten en internationale ambtenaren — uitzondering
 
-Sommige categorieën van personen worden in afwijking van de algemene regel **niet** beschouwd als rijksinwoner, hoewel zij in België verblijven ([[bronnen/wetteksten/II-wib92|WIB92 art. 4]]):
+Sommige categorieën van personen worden in afwijking van de algemene regel **niet** beschouwd als rijksinwoner, hoewel zij in België verblijven (WIB92 art. 4):
 
 - Buitenlandse diplomaten en hun gezinsleden
 - Buitenlandse consulaire ambtenaren (onder voorwaarden van wederkerigheid)
@@ -87,7 +87,7 @@ Deze personen worden behandeld als BNI-belastingplichtige op hun Belgische brone
 
 ## ⚖️ Wijziging van fiscale woonplaats tijdens het jaar
 
-Wie tijdens het inkomstenjaar zijn fiscale woonplaats wijzigt (immigratie of emigratie), wordt voor het deel van het jaar dat hij rijksinwoner was als **rijksinwoner** belast, en voor het andere deel als **niet-rijksinwoner** ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]). Het belastbaar tijdperk is in dat geval geen volledig kalenderjaar.
+Wie tijdens het inkomstenjaar zijn fiscale woonplaats wijzigt (immigratie of emigratie), wordt voor het deel van het jaar dat hij rijksinwoner was als **rijksinwoner** belast, en voor het andere deel als **niet-rijksinwoner** (WIB92 art. 360). Het belastbaar tijdperk is in dat geval geen volledig kalenderjaar.
 
 **Praktische regel**: er worden twee aangiftes ingediend voor hetzelfde aanslagjaar — één PB-aangifte voor de Belgische periode, één BNI-aangifte voor de niet-Belgische periode (indien Belgische inkomsten in die periode).
 
@@ -108,7 +108,7 @@ Bij internationale situaties (rijksinwoner met buitenlands inkomen, of niet-rijk
 | **Verrekening (credit)** | Buitenlandse belasting wordt afgetrokken van de Belgische belasting, beperkt tot het Belgische deel | Roerende inkomsten (interesten, dividenden, royalty's) |
 | **Forfaitair gedeelte buitenlandse belasting (FBB)** | Forfaitaire verrekening voor royalty's (oudere DBV) | Beperkt — vaak afgeschaft in moderne DBV |
 
-**De DBV is een primaire bron** — het verdrag heeft voorrang op de interne wet ([[bronnen/wetteksten/II-wib92|WIB92 art. 5]] in fine). Bij elke internationale situatie: lees eerst het van toepassing zijnde DBV.
+**De DBV is een primaire bron** — het verdrag heeft voorrang op de interne wet (WIB92 art. 5 in fine). Bij elke internationale situatie: lees eerst het van toepassing zijnde DBV.
 
 > [!warning]- Vrijstelling met progressievoorbehoud betekent niet dat het inkomen "niet meetelt"
 > ❌ *"Een buitenlands inkomen vrijgesteld onder een DBV moet niet aangegeven worden in de Belgische aangifte."*
@@ -127,7 +127,7 @@ Bij internationale situaties (rijksinwoner met buitenlands inkomen, of niet-rijk
 | **Schuldenaar van de belasting** | De persoon op wiens naam de aanslag wordt ingekohierd — bij gezamenlijke aanslag: beide partners hoofdelijk |
 | **Schuldenaar van de voorheffing** | Werkgever (bedrijfsvoorheffing) of debiteur van het inkomen (roerende voorheffing) — int en stort door, geen eigen belastingschuld |
 
-**Hoofdelijkheid bij gezamenlijke aanslag**: beide partners zijn elk voor het volledige bedrag aansprakelijk. De FOD Financiën kan elke partner aanspreken voor de totale belastingschuld, ook al zou het inkomen integraal aan één partner toebehoren ([[bronnen/wetteksten/II-wib92|WIB92 art. 393, §2]]). Specifieke ontheffingsregels bestaan bij scheiding.
+**Hoofdelijkheid bij gezamenlijke aanslag**: beide partners zijn elk voor het volledige bedrag aansprakelijk. De FOD Financiën kan elke partner aanspreken voor de totale belastingschuld, ook al zou het inkomen integraal aan één partner toebehoren (WIB92 art. 393, §2). Specifieke ontheffingsregels bestaan bij scheiding.
 
 ---
 
@@ -178,7 +178,7 @@ Kenniselementen:
 > >
 > > **Juist.**
 > >
-> > Bij een gezamenlijke aanslag zijn beide partners **hoofdelijk** schuldenaar voor de volledige belasting ([[bronnen/wetteksten/II-wib92|WIB92 art. 393, §2]]). De administratie kan elke partner aanspreken voor het totaalbedrag. Specifieke ontheffingsregels bestaan bij scheiding (verdeling van de schuld) en bij niet-toerekenbaarheid van een fout.
+> > Bij een gezamenlijke aanslag zijn beide partners **hoofdelijk** schuldenaar voor de volledige belasting (WIB92 art. 393, §2). De administratie kan elke partner aanspreken voor het totaalbedrag. Specifieke ontheffingsregels bestaan bij scheiding (verdeling van de schuld) en bij niet-toerekenbaarheid van een fout.
 > >
 > > *Zie: [[belastingplichtigen-personenbelasting#-belastingplichtige-vs-schuldenaar-van-de-belasting|Belastingplichtige vs. schuldenaar]]*
 >

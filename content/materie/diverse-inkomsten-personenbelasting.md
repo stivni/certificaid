@@ -9,7 +9,7 @@ bronnen:
 
 # Diverse inkomsten — personenbelasting
 
-Diverse inkomsten zijn de **restcategorie** van de PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 90]]) — inkomsten die noch onroerend, noch beroeps, noch roerend zijn maar **niet vrijgesteld** zijn als "normaal beheer van het privévermogen". Het is de meest complexe categorie omwille van de **kwalificatievraag**: wanneer wordt een opbrengst van een verrichting van een particulier belastbaar?
+Diverse inkomsten zijn de **restcategorie** van de PB (WIB92 art. 90) — inkomsten die noch onroerend, noch beroeps, noch roerend zijn maar **niet vrijgesteld** zijn als "normaal beheer van het privévermogen". Het is de meest complexe categorie omwille van de **kwalificatievraag**: wanneer wordt een opbrengst van een verrichting van een particulier belastbaar?
 
 Het centrale onderscheid: een **occasionele** verrichting valt onder diverse inkomsten en wordt meestal aan **33% afzonderlijk** belast — een **normaal beheer** verrichting blijft vrijgesteld. De grens is een feitenkwestie waarop de fiscale administratie en de belastingplichtige vaak van mening verschillen.
 
@@ -17,7 +17,7 @@ Het centrale onderscheid: een **occasionele** verrichting valt onder diverse ink
 
 ## 📌 Diverse inkomsten
 
-Inkomsten beschreven in [[bronnen/wetteksten/II-wib92|WIB92 art. 90]] — een **gesloten lijst** van situaties die niet onder andere inkomstencategorieën vallen maar wél belast worden. De wet onderscheidt **12 categorieën**, de belangrijkste:
+Inkomsten beschreven in WIB92 art. 90 — een **gesloten lijst** van situaties die niet onder andere inkomstencategorieën vallen maar wél belast worden. De wet onderscheidt **12 categorieën**, de belangrijkste:
 
 | Subcategorie | Voorbeeld | Tarief |
 |---|---|---|
@@ -36,7 +36,7 @@ Inkomsten beschreven in [[bronnen/wetteksten/II-wib92|WIB92 art. 90]] — een **
 
 ## 📌 Normaal beheer van het privévermogen
 
-Begrip dat de **scheidingslijn** vormt tussen vrijgesteld en belastbaar — niet wettelijk gedefinieerd, ontwikkeld door rechtspraak ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]] in fine).
+Begrip dat de **scheidingslijn** vormt tussen vrijgesteld en belastbaar — niet wettelijk gedefinieerd, ontwikkeld door rechtspraak (WIB92 art. 90, 1° in fine).
 
 **"Normaal beheer"** betekent dat een belastingplichtige zijn privévermogen beheert als een goede huisvader — kopen, verkopen, beleggen, verhuren binnen de grenzen van wat een normaal voorzichtig persoon doet. Opbrengsten ervan zijn **vrijgesteld**.
 
@@ -46,7 +46,7 @@ Begrip dat de **scheidingslijn** vormt tussen vrijgesteld en belastbaar — niet
 - **Risico-aanvaarding** boven wat een normaal voorzichtig persoon zou doen
 - **Verkoop met aanmerkelijke meerwaarde** in een patroon van herhaling
 
-Bij overschrijding van de grens valt het inkomen onder **diverse inkomsten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]]) en wordt belast aan **33% afzonderlijk**.
+Bij overschrijding van de grens valt het inkomen onder **diverse inkomsten** (WIB92 art. 90, 1°) en wordt belast aan **33% afzonderlijk**.
 
 > [!warning]- Eén verkoop met grote winst is niet automatisch speculatief
 > ❌ *"Wie zijn aandelen verkoopt met € 50 000 winst, betaalt sowieso belasting omdat het bedrag te hoog is om 'normaal beheer' te zijn."*
@@ -57,9 +57,9 @@ Bij overschrijding van de grens valt het inkomen onder **diverse inkomsten** ([[
 
 ---
 
-## 🔢 Occasionele winsten of baten ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]])
+## 🔢 Occasionele winsten of baten (WIB92 art. 90, 1°)
 
-Winsten of baten verkregen door een **buitenberoepsmatige activiteit** of door **abnormaal beheer** van het privévermogen ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]]).
+Winsten of baten verkregen door een **buitenberoepsmatige activiteit** of door **abnormaal beheer** van het privévermogen (WIB92 art. 90, 1°).
 
 **Voorbeelden**:
 - Eenmalige consultancy door een werknemer die niet als zelfstandige geregistreerd is
@@ -68,7 +68,7 @@ Winsten of baten verkregen door een **buitenberoepsmatige activiteit** of door *
 - Kunsthandel door een privépersoon zonder beroepsregistratie
 - Crypto-trading met speculatief karakter
 
-**Tarief**: **33% afzonderlijke aanslag** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 1°, a]]).
+**Tarief**: **33% afzonderlijke aanslag** (WIB92 art. 171, 1°, a).
 
 **Aftrek werkelijke kosten**: kosten gemaakt om de inkomsten te verwerven (bv. transportkosten, materiaal) zijn aftrekbaar — bewijs vereist.
 
@@ -76,7 +76,7 @@ Winsten of baten verkregen door een **buitenberoepsmatige activiteit** of door *
 
 ## 🔢 Toevallige meerwaarden op onroerende goederen
 
-Verkoop van een **niet-eigen** onroerend goed binnen een wettelijk gestelde **bewaartermijn** levert een **toevallige meerwaarde** op die belastbaar is ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 8° en 9°]]).
+Verkoop van een **niet-eigen** onroerend goed binnen een wettelijk gestelde **bewaartermijn** levert een **toevallige meerwaarde** op die belastbaar is (WIB92 art. 90, 8° en 9°).
 
 | Soort | Bewaartermijn | Tarief |
 |---|---|---|
@@ -95,7 +95,7 @@ Verkoopprijs (excl. registratierechten/notariskosten van koper)
 ```
 
 **Vrijstellingen**:
-- **Eigen woning** — geen meerwaardeheffing, ongeacht houdperiode ([[bronnen/wetteksten/II-wib92|WIB92 art. 93bis]])
+- **Eigen woning** — geen meerwaardeheffing, ongeacht houdperiode (WIB92 art. 93bis)
 - **Verkoop na overlijden** waarbij erfgenaam binnen korte tijd verkoopt — meestal vrijgesteld
 - **Onteigening** — vrijgesteld (verlies eigendom is geen vrijwillige verkoop)
 
@@ -121,7 +121,7 @@ Verkoopprijs (excl. registratierechten/notariskosten van koper)
 
 ## 🔢 Aanmerkelijke deelneming verkocht aan buitenlandse vennootschap
 
-Bijzonder regime ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 9°]] in fine): bij verkoop van een **aanmerkelijke deelneming** (> **25%** in de afgelopen 5 jaar) aan een **vennootschap buiten de EER** is de meerwaarde belastbaar aan **16,5% afzonderlijk**.
+Bijzonder regime (WIB92 art. 90, 9° in fine): bij verkoop van een **aanmerkelijke deelneming** (> **25%** in de afgelopen 5 jaar) aan een **vennootschap buiten de EER** is de meerwaarde belastbaar aan **16,5% afzonderlijk**.
 
 **Doel**: vermijden dat aandelen van Belgische vennootschappen via een verkoop aan een offshore vennootschap fiscaal ontsnappen.
 
@@ -131,7 +131,7 @@ Bijzonder regime ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 9°]] in fine): b
 
 ## 🔢 Inkomsten uit deeleconomie
 
-Sinds 2017: vergoedingen ontvangen door particulieren via **erkende deelplatforms** (Airbnb, Deliveroo, Uber, Tako, …) genieten een **fiscaal gunstig regime** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°bis en art. 90ter]]):
+Sinds 2017: vergoedingen ontvangen door particulieren via **erkende deelplatforms** (Airbnb, Deliveroo, Uber, Tako, …) genieten een **fiscaal gunstig regime** (WIB92 art. 90, 1°bis en art. 90ter):
 
 | Drempel (cijferzakboekje aj. 2026, indicatief) | Tarief |
 |---|---|
@@ -150,7 +150,7 @@ Sinds 2017: vergoedingen ontvangen door particulieren via **erkende deelplatform
 
 ## 🔢 Prijzen, subsidies en gelijkaardige uitkeringen
 
-Prijzen voor wetenschappelijk, sportief, artistiek of literair werk worden gedeeltelijk vrijgesteld ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 2° en art. 38, §1, 25°]]):
+Prijzen voor wetenschappelijk, sportief, artistiek of literair werk worden gedeeltelijk vrijgesteld (WIB92 art. 90, 2° en art. 38, §1, 25°):
 
 | Bedrag | Behandeling |
 |---|---|
@@ -165,7 +165,7 @@ Prijzen voor wetenschappelijk, sportief, artistiek of literair werk worden gedee
 
 ## 🔢 Onderhoudsuitkeringen ontvangen
 
-Onderhoudsuitkeringen ontvangen door de begunstigde (ex-echtgenoot, kind, ouder) zijn belastbaar als divers inkomen aan **80% van het werkelijke bedrag**, aan **progressieve tarieven** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 3°]] en [[bronnen/wetteksten/II-wib92|art. 99]]). Zie [[onderhoudsuitkeringen-fiscaal|Onderhoudsuitkeringen fiscaal]] voor de volledige uitwerking.
+Onderhoudsuitkeringen ontvangen door de begunstigde (ex-echtgenoot, kind, ouder) zijn belastbaar als divers inkomen aan **80% van het werkelijke bedrag**, aan **progressieve tarieven** (WIB92 art. 90, 3° en art. 99). Zie [[onderhoudsuitkeringen-fiscaal|Onderhoudsuitkeringen fiscaal]] voor de volledige uitwerking.
 
 **Symmetrisch regime** met de aftrek bij de schuldenaar (80% aftrekbaar) — de wet zorgt voor evenwicht tussen schuldenaar en begunstigde.
 
@@ -173,7 +173,7 @@ Onderhoudsuitkeringen ontvangen door de begunstigde (ex-echtgenoot, kind, ouder)
 
 ## 🔢 Onderverhuring
 
-Wie een onroerend goed huurt en **onderverhuurt** aan een derde, ontvangt huurinkomsten die belastbaar zijn als **divers inkomen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 5°]]) — niet als onroerend inkomen.
+Wie een onroerend goed huurt en **onderverhuurt** aan een derde, ontvangt huurinkomsten die belastbaar zijn als **divers inkomen** (WIB92 art. 90, 5°) — niet als onroerend inkomen.
 
 **Berekening**: ontvangen onderhuur **min** betaalde huur **min** kosten = belastbaar bedrag aan progressieve tarieven.
 
@@ -183,13 +183,13 @@ Wie een onroerend goed huurt en **onderverhuurt** aan een derde, ontvangt huurin
 
 ## ⚖️ Aanslagregime — afzonderlijk vs. gezamenlijk belast
 
-Diverse inkomsten worden in beginsel aan **afzonderlijke aanslagvoeten** belast ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]):
+Diverse inkomsten worden in beginsel aan **afzonderlijke aanslagvoeten** belast (WIB92 art. 171):
 
 - **33%**: occasionele winsten, toevallige meerwaarden gronden binnen 5 jaar
 - **16,5%**: meerwaarden gebouwen, gronden 5-8 jaar, prijzen boven plafond, aanmerkelijke deelneming
 - **20%**: deeleconomie tot plafond (bevrijdend, geen aangifte)
 
-**Vergelijkingsregel** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]] in fine): als globalisatie aan progressieve tarieven voordeliger is, wordt globalisatie automatisch toegepast.
+**Vergelijkingsregel** (WIB92 art. 171 in fine): als globalisatie aan progressieve tarieven voordeliger is, wordt globalisatie automatisch toegepast.
 
 **Onderhoudsuitkeringen ontvangen** en **onderverhuring** zijn een uitzondering — die worden aan **gezamenlijke** progressieve tarieven belast.
 
@@ -197,7 +197,7 @@ Diverse inkomsten worden in beginsel aan **afzonderlijke aanslagvoeten** belast 
 
 ## 🚩 Herkwalificatie naar beroepsinkomen
 
-De fiscus kan een opbrengst die de belastingplichtige als "divers inkomen" of "normaal beheer" aangeeft, **herkwalificeren** als **beroepsinkomen** wanneer ze meent dat er **een georganiseerd beroep** achter zit ([[bronnen/wetteksten/II-wib92|WIB92 art. 23 e.v.]]).
+De fiscus kan een opbrengst die de belastingplichtige als "divers inkomen" of "normaal beheer" aangeeft, **herkwalificeren** als **beroepsinkomen** wanneer ze meent dat er **een georganiseerd beroep** achter zit (WIB92 art. 23 e.v.).
 
 **Signalen voor herkwalificatie**:
 - Frequentie en regelmaat van de transacties
@@ -239,7 +239,7 @@ Kenniselementen:
 > >
 > > **Toevallige meerwaarde van € 80 000 belast aan 33% afzonderlijk = € 26 400.**
 > >
-> > Verkoop van een bouwgrond binnen **5 jaar** na verwerving valt onder [[bronnen/wetteksten/II-wib92|WIB92 art. 90, 8°]] → **33% afzonderlijke aanslag** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]). Berekening meerwaarde: € 180 000 − € 100 000 = € 80 000 (vermindering met aankoopkosten zoals registratierechten en notariskosten zou de meerwaarde nog verkleinen). Wachten tot na 5 jaar → tarief 16,5%. Wachten tot na 8 jaar → vrijgesteld.
+> > Verkoop van een bouwgrond binnen **5 jaar** na verwerving valt onder WIB92 art. 90, 8° → **33% afzonderlijke aanslag** (WIB92 art. 171). Berekening meerwaarde: € 180 000 − € 100 000 = € 80 000 (vermindering met aankoopkosten zoals registratierechten en notariskosten zou de meerwaarde nog verkleinen). Wachten tot na 5 jaar → tarief 16,5%. Wachten tot na 8 jaar → vrijgesteld.
 > >
 > > *Zie: [[diverse-inkomsten-personenbelasting#-toevallige-meerwaarden-op-onroerende-goederen|Toevallige meerwaarden OG]]*
 >
@@ -253,7 +253,7 @@ Kenniselementen:
 > >
 > > **In beginsel niet — vrijgesteld als normaal beheer van het privévermogen.**
 > >
-> > Een lange beleggingshorizon (8 jaar), eigen middelen en passieve aanpak voldoen aan de criteria van **normaal beheer van het privévermogen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]] a contrario). De meerwaarde is dus **vrijgesteld**, ongeacht het bedrag. Cruciaal: de fiscus kan een controle openen — voorzichtig: bewijs bewaren van aankoop-/verkoopdata, geen geleende fondsen, geen speculatief patroon. Bij twijfel: ruling vragen aan de Dienst Voorafgaande Beslissingen.
+> > Een lange beleggingshorizon (8 jaar), eigen middelen en passieve aanpak voldoen aan de criteria van **normaal beheer van het privévermogen** (WIB92 art. 90, 1° a contrario). De meerwaarde is dus **vrijgesteld**, ongeacht het bedrag. Cruciaal: de fiscus kan een controle openen — voorzichtig: bewijs bewaren van aankoop-/verkoopdata, geen geleende fondsen, geen speculatief patroon. Bij twijfel: ruling vragen aan de Dienst Voorafgaande Beslissingen.
 > >
 > > *Zie: [[diverse-inkomsten-personenbelasting#-normaal-beheer-van-het-privévermogen|Normaal beheer van het privévermogen]]*
 >
@@ -267,7 +267,7 @@ Kenniselementen:
 > >
 > > **Tot het deeleconomie-plafond (~ € 7 460): 20% bevrijdend; daarboven: reclassificatie als beroepsinkomen.**
 > >
-> > Onder het plafond (~ € 7 460 voor aj. 2026, indicatief) wordt de inkomst onderworpen aan **20% bevrijdend** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90ter]]) — de platform houdt deze in. Boven het plafond wordt het **volledige bedrag** geherkwalificeerd als **beroepsinkomen** met progressieve tarieven en sociale bijdragen. In dit geval: € 7 460 × 20% = € 1 492 RV; resterende € 1 040 → reclassificatie naar beroepsinkomen voor het volledige bedrag → mogelijk fors hogere belasting + sociale bijdragen + boekhoudplicht.
+> > Onder het plafond (~ € 7 460 voor aj. 2026, indicatief) wordt de inkomst onderworpen aan **20% bevrijdend** (WIB92 art. 90ter) — de platform houdt deze in. Boven het plafond wordt het **volledige bedrag** geherkwalificeerd als **beroepsinkomen** met progressieve tarieven en sociale bijdragen. In dit geval: € 7 460 × 20% = € 1 492 RV; resterende € 1 040 → reclassificatie naar beroepsinkomen voor het volledige bedrag → mogelijk fors hogere belasting + sociale bijdragen + boekhoudplicht.
 > >
 > > *Zie: [[diverse-inkomsten-personenbelasting#-inkomsten-uit-deeleconomie|Inkomsten uit deeleconomie]]*
 >
@@ -281,7 +281,7 @@ Kenniselementen:
 > >
 > > **Risico op herkwalificatie naar beroepsinkomen.**
 > >
-> > Wekelijkse activiteit gedurende meerdere jaren met substantiële omzet voldoet aan de **regelmaat-en-stelselmatigheid-criteria** voor beroepsinkomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 23, 24]]). Bij controle: herkwalificatie naar **beroepsinkomen** met progressieve tarieven, sociale bijdragen zelfstandige, boekhoudplicht én belastingverhoging. Strategische keuze: registreren als **zelfstandige in bijberoep** met BTW-vrijstelling kleine ondernemer (omzet < € 25 000) — vermijdt herkwalificatie en laat eenvoudige boekhouding toe.
+> > Wekelijkse activiteit gedurende meerdere jaren met substantiële omzet voldoet aan de **regelmaat-en-stelselmatigheid-criteria** voor beroepsinkomen (WIB92 art. 23, 24). Bij controle: herkwalificatie naar **beroepsinkomen** met progressieve tarieven, sociale bijdragen zelfstandige, boekhoudplicht én belastingverhoging. Strategische keuze: registreren als **zelfstandige in bijberoep** met BTW-vrijstelling kleine ondernemer (omzet < € 25 000) — vermijdt herkwalificatie en laat eenvoudige boekhouding toe.
 > >
 > > *Zie: [[diverse-inkomsten-personenbelasting#-herkwalificatie-naar-beroepsinkomen|Herkwalificatie naar beroepsinkomen]]*
 >

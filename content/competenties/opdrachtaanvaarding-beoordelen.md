@@ -29,7 +29,7 @@ Bepaal eerst wat er gevraagd wordt en wie het vraagt. Dit bepaalt welke verdere 
 
 Gewone opdrachten (bv. boekhouding voeren, belastingaangifte opstellen) staan open voor elke beroepsbeoefenaar die aan de voorwaarden voldoet. Wettelijk voorbehouden opdrachten (bv. commissarisopdracht, verslag bij fusie of vereffening) zijn uitsluitend toegankelijk voor gecertificeerde accountants — en soms enkel voor bedrijfsrevisoren. Een [[beroep-van-accountant-en-belastingadviseur#-gecertificeerd-belastingadviseur-gba|gecertificeerd belastingadviseur (GBA)]] mag die opdrachten niet aanvaarden.
 
-*(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-3|ITAA-LEX XXI · Wet ITAA art. 3]], [[bronnen/wetteksten/XXI-wet-itaa#art-6|art. 6]])*
+*(Grondslag: ITAA-LEX XXI · Wet ITAA art. 3, art. 6)*
 
 > [!warning]- Een GBA mag geen voorbehouden opdrachten (art. 3, 6°–8°) uitvoeren, ook niet op verzoek van de cliënt
 > ❌ *"Een gecertificeerd belastingadviseur kan ook een omzettingsverslag opstellen als de cliënt dat vraagt."*
@@ -51,7 +51,7 @@ Gewone opdrachten (bv. boekhouding voeren, belastingaangifte opstellen) staan op
 > - Oordeel: onafhankelijkheidsrisico aanwezig of afwezig
 > - Indien aanwezig: beletsel (weigeren) of beheersbaar (mitigeren en documenteren)
 
-Controleer of er omstandigheden zijn die de objectieve uitvoering in het gedrang brengen of een belangenconflict teweegbrengen ([[bronnen/wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]).
+Controleer of er omstandigheden zijn die de objectieve uitvoering in het gedrang brengen of een belangenconflict teweegbrengen (ITAA-LEX XXI · Wet ITAA art. 48).
 
 Bij een **assurance-opdracht** (bv. controleopdracht, verklaring, verslag bij vennootschapsrechtelijke verrichting) gelden striktere vereisten dan bij een **niet-assurance-opdracht** (bv. boekhouden, belastingadvies). Het onderscheid staat uitgewerkt in [[deontologische-beginselen#-onafhankelijkheidsvereisten-assurance-vs-niet-assurance|Onafhankelijkheidsvereisten assurance vs. niet-assurance]].
 
@@ -61,7 +61,7 @@ Bij een **assurance-opdracht** (bv. controleopdracht, verklaring, verslag bij ve
 - De beroepsbeoefenaar wordt gevraagd zijn eigen eerder geleverd werk te controleren (self-review)
 - De vergoeding is afhankelijk van het resultaat van de opdracht (resultaatafhankelijk honorarium)
 
-*(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-48|ITAA-LEX XXI · Wet ITAA art. 48]]; zie ook [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]])*
+*(Grondslag: ITAA-LEX XXI · Wet ITAA art. 48; zie ook [[deontologische-beginselen#-onafhankelijkheid|Onafhankelijkheid]])*
 
 > [!warning]- Aandeelhouderschap in een cliëntvennootschap is ook bij niet-assurance-opdrachten problematisch
 > ❌ *"Ik houd 5% aandelen in een vennootschap waarvoor ik enkel de loonadministratie verzorg — dat is geen probleem want het is geen controleopdracht."*
@@ -82,11 +82,11 @@ Bij een **assurance-opdracht** (bv. controleopdracht, verklaring, verslag bij ve
 > 📤 **Uitkomst**:
 > - Oordeel: kan de beroepsbeoefenaar de opdracht behoorlijk uitvoeren?
 
-De beroepsbeoefenaar mag een opdracht enkel aanvaarden als hij beschikt over de nodige **bekwaamheid**, **medewerking** (mensen en middelen) en **tijd** om de opdracht behoorlijk uit te voeren ([[bronnen/wetteksten/XXI-wet-itaa#art-40|ITAA-LEX XXI · Wet ITAA art. 40]]).
+De beroepsbeoefenaar mag een opdracht enkel aanvaarden als hij beschikt over de nodige **bekwaamheid**, **medewerking** (mensen en middelen) en **tijd** om de opdracht behoorlijk uit te voeren (ITAA-LEX XXI · Wet ITAA art. 40).
 
 Dit is een **opdracht-specifieke toets** — los van de structurele kantoortoegang die art. 38 regelt. Een kantoor kan structureel goed georganiseerd zijn (art. 38), maar toch een specifieke opdracht niet aannemen omdat de vereiste specialistische kennis (bv. een zeer complex internationaal fiscaal dossier) ontbreekt.
 
-*(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-40|ITAA-LEX XXI · Wet ITAA art. 40]])*
+*(Grondslag: ITAA-LEX XXI · Wet ITAA art. 40)*
 
 ---
 
@@ -132,7 +132,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 - Beoordeling van het doel of de aard van de zakelijke relatie is niet mogelijk
 - Doorlopende waakzaamheid die evenredig is met het risiconiveau kan niet worden nagekomen
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19 §2]]; AWW-reglement ITAA punt 4.1–4.3)*
+*(Grondslag: ITAA-LEX XVII · AWW art. 19 §2; AWW-reglement ITAA punt 4.1–4.3)*
 
 > [!warning]- Weigering van een cliënt ontslaat niet automatisch van de meldingsplicht aan de CFI
 > ❌ *"Als ik een cliënt weiger wegens een hoog WG/FT-risico, hoef ik niets te melden — ik voer de opdracht gewoon niet uit."*
@@ -155,7 +155,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 
 Het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek]] is een wettelijke verplichting bij het aanknopen van een nieuwe zakelijke relatie. De intensiteit hangt af van het risiconiveau: **standaard** bij normaal risico, **vereenvoudigd** bij bewezen laag risico, en **verscherpt** bij hoog risico (bv. politiek prominente personen, hoge-risicolanden) — met als bijkomende vereiste een hoger hiërarchisch akkoord. De volledige beschrijving van de drie niveaus, inclusief checkpoints per niveau, staat in [[antiwitwaswetgeving#-niveaus-van-cliëntenonderzoek|Niveaus van cliëntenonderzoek]].
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-19|ITAA-LEX XVII · AWW art. 19 §2]], [[bronnen/wetteksten/XVII-antiwitwaswet#art-21|art. 21–32]], [[bronnen/wetteksten/XVII-antiwitwaswet#art-37|art. 37–41]]; AWW-reglement ITAA punt 4.2, 4.4)*
+*(Grondslag: ITAA-LEX XVII · AWW art. 19 §2, art. 21–32, art. 37–41; AWW-reglement ITAA punt 4.2, 4.4)*
 
 ---
 
@@ -168,9 +168,9 @@ Het [[antiwitwaswetgeving#-cliëntenonderzoek-cdd|cliëntenonderzoek]] is een we
 > 📤 **Uitkomst**:
 > - Ondertekende [[relaties-met-clienten#-opdrachtbrief|opdrachtbrief]] (beide partijen, twee exemplaren)
 
-De [[relaties-met-clienten#-opdrachtbrief|opdrachtbrief]] documenteert de wederzijdse rechten en plichten en vormt de contractuele basis voor de uitvoering van de opdracht ([[bronnen/wetteksten/XXI-wet-itaa#art-41|ITAA-LEX XXI · Wet ITAA art. 41]]). Ze moet de volgende elementen bevatten: identificatie partijen, begindatum, beschrijving en reikwijdte opdracht, verantwoordelijkheden beide partijen, aansprakelijkheidsregeling, erelonen en betalingsvoorwaarden, beëindigingsmodaliteiten, bewaring van stukken, geschillenregeling.
+De [[relaties-met-clienten#-opdrachtbrief|opdrachtbrief]] documenteert de wederzijdse rechten en plichten en vormt de contractuele basis voor de uitvoering van de opdracht (ITAA-LEX XXI · Wet ITAA art. 41). Ze moet de volgende elementen bevatten: identificatie partijen, begindatum, beschrijving en reikwijdte opdracht, verantwoordelijkheden beide partijen, aansprakelijkheidsregeling, erelonen en betalingsvoorwaarden, beëindigingsmodaliteiten, bewaring van stukken, geschillenregeling.
 
-*(Grondslag: [[bronnen/wetteksten/XXI-wet-itaa#art-41|ITAA-LEX XXI · Wet ITAA art. 41]]; Nota opdrachtbrief (ITAA))*
+*(Grondslag: ITAA-LEX XXI · Wet ITAA art. 41; Nota opdrachtbrief (ITAA))*
 
 > [!tip]- AWW-clausule opnemen in de opdrachtbrief
 > Vermeld in de opdrachtbrief dat de opdracht pas aanvangt nadat alle AWW-documenten zijn overgemaakt (identiteitskaart, UBO-identificatie, ...). Zo creëer je een formele opschortende voorwaarde en documenteer je de AWW-naleving in de contractuele relatie.

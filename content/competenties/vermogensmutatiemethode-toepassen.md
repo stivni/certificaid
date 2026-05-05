@@ -35,9 +35,9 @@ Aankoopprijs deelneming
 = Initieel consolidatieverschil (positief: actief; negatief: passief)
 ```
 
-Het verschil wordt eerst toegerekend aan activa/passiva met stille reserves/lasten. Het saldo is het initiële [[consolidatieverschillen|consolidatieverschil]]. ([[bronnen/wetteksten/XV-KB-wvv#art-3146|KB-WVV art. 3:146]])
+Het verschil wordt eerst toegerekend aan activa/passiva met stille reserves/lasten. Het saldo is het initiële [[consolidatieverschillen|consolidatieverschil]]. (KB-WVV art. 3:146)
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3142|KB-WVV art. 3:141–3:142]], [[bronnen/wetteksten/XV-KB-wvv#art-3146|art. 3:146]])*
+*(Grondslag: KB-WVV art. 3:141–3:142, art. 3:146)*
 
 ### 2. 🔢 Jaarlijkse aanpassing boekwaarde deelneming
 
@@ -61,9 +61,9 @@ Beginwaarde deelneming (begin boekjaar)
 = Eindwaarde deelneming (einde boekjaar)
 ```
 
-In de geconsolideerde resultatenrekening verschijnt het aandeel in het resultaat als een afzonderlijke post. ([[bronnen/wetteksten/XV-KB-wvv#art-3143|KB-WVV art. 3:143]])
+In de geconsolideerde resultatenrekening verschijnt het aandeel in het resultaat als een afzonderlijke post. (KB-WVV art. 3:143)
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3142|KB-WVV art. 3:142–3:143]])*
+*(Grondslag: KB-WVV art. 3:142–3:143)*
 
 > [!warning]- Ontvangen dividend van geassocieerde vennootschap als financiële opbrengst boeken
 > ❌ *"Dividenden ontvangen van een geassocieerde vennootschap worden als financiële opbrengst geboekt in de geconsolideerde resultatenrekening."*
@@ -92,7 +92,7 @@ In de geconsolideerde resultatenrekening verschijnt het aandeel in het resultaat
 
 Behandel het initiële consolidatieverschil op dezelfde wijze als bij [[consolideren-integraal|integrale consolidatie]]:
 
-- **Positief verschil**: afschrijven ten laste van de geconsolideerde resultatenrekening ([[bronnen/wetteksten/XV-KB-wvv#art-3147|KB-WVV art. 3:147]]).
+- **Positief verschil**: afschrijven ten laste van de geconsolideerde resultatenrekening (KB-WVV art. 3:147).
 - **Negatief verschil**: niet meteen in resultaat; enkel vrijval wanneer verwachte verliezen of kosten van de geassocieerde vennootschap werkelijkheid worden.
 
 > [!info]- Concreet: consolidatieverschil bij equity-methode
@@ -119,7 +119,7 @@ Behandel het initiële consolidatieverschil op dezelfde wijze als bij [[consolid
 >
 > 🤖 *AI-aanvulling*
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3146|KB-WVV art. 3:146–3:147]])*
+*(Grondslag: KB-WVV art. 3:146–3:147)*
 
 ### 4. ✅ Presentatie in de geconsolideerde jaarrekening controleren
 
@@ -130,11 +130,11 @@ Behandel het initiële consolidatieverschil op dezelfde wijze als bij [[consolid
 > 📤 **Uitkomst**:
 > - Correcte presentatie in balans en resultatenrekening
 
-**Balans**: de deelneming verschijnt onder de financiële vaste activa in de afzonderlijke post **"Vennootschappen waarop vermogensmutatie is toegepast"**. ([[bronnen/wetteksten/XV-KB-wvv#art-3141|KB-WVV art. 3:141]])
+**Balans**: de deelneming verschijnt onder de financiële vaste activa in de afzonderlijke post **"Vennootschappen waarop vermogensmutatie is toegepast"**. (KB-WVV art. 3:141)
 
 **Resultatenrekening**: het aandeel in het resultaat verschijnt als afzonderlijke post. Dividenden verschijnen **niet** als opbrengst.
 
-**Toelichting**: geef per geassocieerde vennootschap informatie over de naam, zetel, percentage belang en de boekwaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-3148|KB-WVV art. 3:148]])
+**Toelichting**: geef per geassocieerde vennootschap informatie over de naam, zetel, percentage belang en de boekwaarde. (KB-WVV art. 3:148)
 
 ```
 Geconsolideerde balans (extract) — passiva/activa
@@ -151,7 +151,7 @@ VII. Aandeel in het resultaat van vennootschappen
 [Dividenden van G verschijnen hier NIET]
 ```
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3141|KB-WVV art. 3:141]], [[bronnen/wetteksten/XV-KB-wvv#art-3143|art. 3:143]], [[bronnen/wetteksten/XV-KB-wvv#art-3148|art. 3:148]])*
+*(Grondslag: KB-WVV art. 3:141, art. 3:143, art. 3:148)*
 
 ## Voorbeelden
 

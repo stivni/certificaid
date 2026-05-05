@@ -102,7 +102,7 @@ Voortgang wordt gemeten via een **input-methode** (kosten gemaakt vs. totaal ver
 > Op te nemen kosten jaar 1: €2,1M.
 > Marge jaar 1: €0,9M.
 >
-> Identieke logica als de oude IAS 11 percentage-of-completion-methode. Onder Belgisch GAAP wordt dit doorgaans verwerkt via [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:48 (onderhanden werk)]] — meting aan vervaardigingsprijs, opbrengst gespreid via overlopende rekeningen of "geactiveerde kosten".
+> Identieke logica als de oude IAS 11 percentage-of-completion-methode. Onder Belgisch GAAP wordt dit doorgaans verwerkt via KB WVV art. 3:48 (onderhanden werk) — meting aan vervaardigingsprijs, opbrengst gespreid via overlopende rekeningen of "geactiveerde kosten".
 >
 > 🤖 *AI-aanvulling*
 
@@ -129,7 +129,7 @@ IAS 11 (constructiecontracten) is per 2018 afgeschaft en geïntegreerd in IFRS 1
 - **Percentage-of-completion** wordt onder IFRS 15 hernoemd tot **input/output-methode** voor *over time* opbrengsterkenning
 - **Voorspelde verlies**: zodra een totaal verlies op het contract wordt voorzien, moet dit **onmiddellijk** worden ten laste genomen — IAS 11 was hierin expliciet, IFRS 15 verwijst naar IAS 37 (voorzieningen voor verlieslatende contracten)
 
-Onder Belgisch GAAP wordt onderhanden werk gewaardeerd aan **vervaardigingsprijs** ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:42 e.v.]]) tenzij gekozen wordt voor verwerking met progressieve winstopname — analoog aan percentage-of-completion. CBN-advies 2018/05 erkent beide methodes.
+Onder Belgisch GAAP wordt onderhanden werk gewaardeerd aan **vervaardigingsprijs** (KB WVV art. 3:42 e.v.) tenzij gekozen wordt voor verwerking met progressieve winstopname — analoog aan percentage-of-completion. CBN-advies 2018/05 erkent beide methodes.
 
 ---
 
@@ -142,7 +142,7 @@ IFRS 15 §110-129 vereist uitgebreide toelichting:
 - **Resterende prestatieverplichtingen** (*backlog*): bedrag dat aan toekomstige opbrengst zal worden toegerekend, met verwachte timing
 - **Significant judgements**: wanneer is een prestatie vervuld, hoe is variabele vergoeding geschat
 
-Onder Belgisch GAAP zijn de toelichtingsvereisten op opbrengsten **veel beperkter** — typisch alleen omzet per geografisch gebied of per activiteitsgroep voor grote vennootschappen ([[bronnen/wetteksten/XV-KB-wvv|KB WVV-Boek 3 toelichting]]).
+Onder Belgisch GAAP zijn de toelichtingsvereisten op opbrengsten **veel beperkter** — typisch alleen omzet per geografisch gebied of per activiteitsgroep voor grote vennootschappen (KB WVV-Boek 3 toelichting).
 
 ---
 

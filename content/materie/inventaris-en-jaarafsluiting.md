@@ -17,7 +17,7 @@ De boekhoudkundige inventaris en de jaarafsluiting vormen samen het scharnierpun
 
 ## 📌 Boekhoudkundige inventaris
 
-De inventaris is de vaststelling van de toestand van het volledige vermogen van de onderneming op een welbepaald tijdstip — de inventarisdatum. Hij omvat al haar bezittingen en rechten van welke aard ook, én haar vorderingen, schulden en verplichtingen van welke aard ook die betrekking hebben op het bedrijf, alsmede de eigen middelen eraan verstrekt ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]).
+De inventaris is de vaststelling van de toestand van het volledige vermogen van de onderneming op een welbepaald tijdstip — de inventarisdatum. Hij omvat al haar bezittingen en rechten van welke aard ook, én haar vorderingen, schulden en verplichtingen van welke aard ook die betrekking hebben op het bedrijf, alsmede de eigen middelen eraan verstrekt (ITAA-LEX XIII · WER art. III.89 §1).
 
 De inventaris is **geen overschrijving van geboekte bedragen**. Hij is in de eerste plaats een effectief gecontroleerde opgave van alles wat op dat tijdstip het vermogen uitmaakt: immateriële, materiële en financiële vaste activa, voorraden en goederen in bewerking, vorderingen, geldbeleggingen, liquide middelen, eigen-vermogensbestanddelen, noodzakelijke voorzieningen, schulden en aan te passen actief- en passiefbedragen (CBN-advies 0174/01).
 
@@ -36,9 +36,9 @@ De controle is tweevoudig:
 
 ## 📌 Inventarisboek
 
-Het formele boek — of digitaal equivalent — waarin de inventarisstukken worden ingeschreven. Stukken die wegens hun omvang bezwaarlijk kunnen worden overgeschreven, worden in het inventarisboek **samengevat** en erbij **gevoegd** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]).
+Het formele boek — of digitaal equivalent — waarin de inventarisstukken worden ingeschreven. Stukken die wegens hun omvang bezwaarlijk kunnen worden overgeschreven, worden in het inventarisboek **samengevat** en erbij **gevoegd** (ITAA-LEX XIII · WER art. III.89 §1).
 
-Het inventarisboek valt onder dezelfde formele eisen als de kernboeken: het moet de materiële continuïteit, regelmatigheid en onveranderlijkheid van de inschrijvingen waarborgen ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · KB WER 2018 art. 4]]). Het **origineel** moet worden bewaard — een afschrift volstaat niet ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]).
+Het inventarisboek valt onder dezelfde formele eisen als de kernboeken: het moet de materiële continuïteit, regelmatigheid en onveranderlijkheid van de inschrijvingen waarborgen (ITAA-LEX XIII (KB) · KB WER 2018 art. 4). Het **origineel** moet worden bewaard — een afschrift volstaat niet (ITAA-LEX XIII (KB) · KB WER 2018 art. 8).
 
 De waarderingsregels die het bestuursorgaan heeft vastgesteld, worden in het inventarisboek opgenomen ter staving van de verrichte waarderingen en samengevat in de toelichting bij de jaarrekening (CBN-advies 0174/01).
 
@@ -46,7 +46,7 @@ De waarderingsregels die het bestuursorgaan heeft vastgesteld, worden in het inv
 
 ## 📌 Boekjaar
 
-De periode waarover de boekhouding wordt gevoerd en waarvoor de jaarrekening wordt opgesteld. De boekhoudplichtige onderneming kiest zelf de **inventarisdatum** — dat is de datum waarop het boekjaar wordt afgesloten en het vermogen wordt opgenomen ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]). Doorgaans is dat 31 december, maar een gebroken boekjaar is toegestaan.
+De periode waarover de boekhouding wordt gevoerd en waarvoor de jaarrekening wordt opgesteld. De boekhoudplichtige onderneming kiest zelf de **inventarisdatum** — dat is de datum waarop het boekjaar wordt afgesloten en het vermogen wordt opgenomen (ITAA-LEX XIII · WER art. III.89 §1). Doorgaans is dat 31 december, maar een gebroken boekjaar is toegestaan.
 
 ---
 
@@ -76,7 +76,7 @@ Afschrijvingen, waardeverminderingen, voorzieningen en voorraadwijzigingen **mog
 
 De **sluitingsbalans** is de balans op het einde van het boekjaar, nadat alle afsluitingsboekingen zijn geboekt. Ze weerspiegelt het vermogen van de onderneming op de inventarisdatum, na correctie met de inventarisgegevens.
 
-De **openingsbalans** van het volgende boekjaar stemt overeen met de sluitingsbalans van het vorige boekjaar ([[bronnen/wetteksten/XV-KB-wvv#art-359|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:59]]). Dit is het principe van de **onaantastbaarheid van de openingsbalans**: de openingsbalans mag niet worden gewijzigd zonder doorwerking naar de sluitingsbalans van het vorige jaar.
+De **openingsbalans** van het volgende boekjaar stemt overeen met de sluitingsbalans van het vorige boekjaar (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:59). Dit is het principe van de **onaantastbaarheid van de openingsbalans**: de openingsbalans mag niet worden gewijzigd zonder doorwerking naar de sluitingsbalans van het vorige jaar.
 
 > [!warning]- Sluitingsbalans boekjaar N = openingsbalans boekjaar N+1
 > ❌ *"Correcties op de jaarrekening van het vorige boekjaar kunnen in de openingsbalans van het nieuwe boekjaar worden verwerkt zonder aanpassing van de vorige jaarrekening."*
@@ -91,9 +91,9 @@ De **openingsbalans** van het volgende boekjaar stemt overeen met de sluitingsba
 
 ## ⚖️ Inventarisplicht is jaarlijks en voor alle boekhoudplichtige ondernemingen
 
-Elke [[boekhoudplicht-wer#-boekhoudplichtige-onderneming|boekhoudplichtige onderneming]] die de dubbele boekhouding voert, is verplicht ten minste éénmaal per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen te verrichten om de inventaris op te maken ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]). De inventarisplicht geldt voor **alle** boekhoudplichtige ondernemingen, ook voor de kleinste.
+Elke [[boekhoudplicht-wer#-boekhoudplichtige-onderneming|boekhoudplichtige onderneming]] die de dubbele boekhouding voert, is verplicht ten minste éénmaal per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen te verrichten om de inventaris op te maken (ITAA-LEX XIII · WER art. III.89 §1). De inventarisplicht geldt voor **alle** boekhoudplichtige ondernemingen, ook voor de kleinste.
 
-**Uitzondering**: de verplichting om de inventaris in te richten conform het rekeningenstelsel van de onderneming ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|WER art. III.89 §2]]) geldt niet voor ondernemingen die de [[boekhoudplicht-wer#-vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] voeren. Zij moeten de inventaris toch opmaken, maar zijn niet gebonden aan de MAR-indeling.
+**Uitzondering**: de verplichting om de inventaris in te richten conform het rekeningenstelsel van de onderneming (WER art. III.89 §2) geldt niet voor ondernemingen die de [[boekhoudplicht-wer#-vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] voeren. Zij moeten de inventaris toch opmaken, maar zijn niet gebonden aan de MAR-indeling.
 
 ---
 
@@ -127,19 +127,19 @@ De rekeningen worden bijgewerkt zodat ze de werkelijke toestand op inventarisdat
 
 **Fase 5 — Van inventaris naar jaarrekening**
 
-Nadat de rekeningen in overeenstemming zijn gebracht met de inventarisgegevens, worden ze samengevat in de [[jaarrekening|jaarrekening]] ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii90|ITAA-LEX XIII · WER art. III.90]]).
+Nadat de rekeningen in overeenstemming zijn gebracht met de inventarisgegevens, worden ze samengevat in de [[jaarrekening|jaarrekening]] (ITAA-LEX XIII · WER art. III.90).
 
 ---
 
 ## 🔒 Inventarisverplichting: jaarlijks en volledig
 
-Iedere [[boekhoudplicht-wer#-boekhoudplichtige-onderneming|boekhoudplichtige onderneming]] die de [[boekhoudplicht-wer#-dubbele-boekhouding|dubbele boekhouding]] voert, moet ten minste eenmaal per jaar een volledige inventaris opmaken ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]). "Volledig" betekent: alle vermogensbestanddelen — actief én passief, in de balans én in klasse 0 (rechten en verplichtingen buiten balans).
+Iedere [[boekhoudplicht-wer#-boekhoudplichtige-onderneming|boekhoudplichtige onderneming]] die de [[boekhoudplicht-wer#-dubbele-boekhouding|dubbele boekhouding]] voert, moet ten minste eenmaal per jaar een volledige inventaris opmaken (ITAA-LEX XIII · WER art. III.89 §1). "Volledig" betekent: alle vermogensbestanddelen — actief én passief, in de balans én in klasse 0 (rechten en verplichtingen buiten balans).
 
 ---
 
 ## 🔒 Bewaarplicht inventarisboek: 7 jaar, origineel
 
-Het inventarisboek moet **7 jaar** worden bewaard, te rekenen van 1 januari van het jaar dat volgt op de afsluiting ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|ITAA-LEX XIII (KB) · KB WER 2018 art. 8]]). Van het inventarisboek moet het **origineel** worden bewaard — een afschrift volstaat niet.
+Het inventarisboek moet **7 jaar** worden bewaard, te rekenen van 1 januari van het jaar dat volgt op de afsluiting (ITAA-LEX XIII (KB) · KB WER 2018 art. 8). Van het inventarisboek moet het **origineel** worden bewaard — een afschrift volstaat niet.
 
 ---
 

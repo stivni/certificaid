@@ -6,16 +6,6 @@ status: "⏳ tekst nog niet beschikbaar"
 online: https://eur-lex.europa.eu
 ---
 
-# ITAA-LEX X
-
-**Europese en internationale belastingen (moeder-dochterrichtlijn, interest/royalties, fusierichtlijn, modelverdrag OESO)**
-
-> [!warning] Tekst niet beschikbaar
->
-> De gecoördineerde tekst van deze wet is nog niet lokaal beschikbaar.
->
-> **Publicatie**: diverse publicaties — ITAA-LEX p. 1557
->
-> [Online raadplegen](https://eur-lex.europa.eu) · ejustice.just.fgov.be
->
-> Zie ook: [[../resources/wetteksten/status|Status wetteksten]] voor instructies om deze wet toe te voegen.
+> [!info] Volledige tekst
+> Beschikbaar in `resources/wetteksten/` voor schrijven en factchecking.
+> Geciteerde artikelen worden hier toegevoegd zodra ze in een leerfiche worden gebruikt.

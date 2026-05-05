@@ -18,9 +18,9 @@ Het boekjaar afsluiten is de reeks boekhoudkundige en juridische stappen waarmee
 
 > [!info]- Grondslag van deze werkwijze (⚖️ 75% · 🤖 25%)
 > De procedure volgt in hoofdzaak uit wettelijke verplichtingen:
-> - **Inventarisplicht en cut-off**: WER art. III.89–III.90 ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89]])
-> - **Boekhoudnormen en bewaring**: KB WER 21 oktober 2018 art. 4 en 8 ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|ITAA-LEX XIII (KB) · art. 4]])
-> - **Waarderingsregels, rubrieken, toelichting**: KB WVV 29 april 2019, m.n. art. 3:6, 3:11, 3:28, 3:59 en bijlage 3 ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV art. 3:6]])
+> - **Inventarisplicht en cut-off**: WER art. III.89–III.90 (ITAA-LEX XIII · WER art. III.89)
+> - **Boekhoudnormen en bewaring**: KB WER 21 oktober 2018 art. 4 en 8 (ITAA-LEX XIII (KB) · art. 4)
+> - **Waarderingsregels, rubrieken, toelichting**: KB WVV 29 april 2019, m.n. art. 3:6, 3:11, 3:28, 3:59 en bijlage 3 (ITAA-LEX XV (KB) · KB WVV art. 3:6)
 > - **Uitkeringstests en reservevorming**: WVV art. 5:142–5:144, art. 7:211–7:214
 > - **Aangifte belasting**: geraamd via analytische praktijk 🤖 — de exacte belastingberekening staat in de competentie [[aangifte-vennootschapsbelasting-invullen|aangifte vennootschapsbelasting invullen]] *(⚠️ aan te maken)*
 
@@ -38,9 +38,9 @@ Het boekjaar afsluiten is de reeks boekhoudkundige en juridische stappen waarmee
 
 **Waarom**: de inventarisdatum is het scharnierpunt tussen twee boekjaren — alles vóór die datum hoort in dit boekjaar, alles erna in het volgende. Een foutieve cut-off leidt tot een verschoven resultaat en een jaarrekening die geen getrouw beeld geeft.
 
-Het boekjaar duurt normaal **12 maanden**; een korter of langer boekjaar is mogelijk, maar enkel bij oprichting, bij wijziging van de afsluitingsdatum of bij liquidatie. De boekhoudplichtige onderneming kiest zelf haar inventarisdatum ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|ITAA-LEX XIII · WER art. III.89 §1]]).
+Het boekjaar duurt normaal **12 maanden**; een korter of langer boekjaar is mogelijk, maar enkel bij oprichting, bij wijziging van de afsluitingsdatum of bij liquidatie. De boekhoudplichtige onderneming kiest zelf haar inventarisdatum (ITAA-LEX XIII · WER art. III.89 §1).
 
-**Subsequent events** — feiten die na de inventarisdatum bekend worden maar betrekking hebben op de vermogenstoestand *op* die datum, moeten worden verwerkt in de boekhouding van het afgesloten boekjaar. Feiten die een nieuwe situatie creëren na de inventarisdatum, worden enkel vermeld in de toelichting als ze materieel zijn ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV art. 3:11]]).
+**Subsequent events** — feiten die na de inventarisdatum bekend worden maar betrekking hebben op de vermogenstoestand *op* die datum, moeten worden verwerkt in de boekhouding van het afgesloten boekjaar. Feiten die een nieuwe situatie creëren na de inventarisdatum, worden enkel vermeld in de toelichting als ze materieel zijn (ITAA-LEX XV (KB) · KB WVV art. 3:11).
 
 > [!info]- Concreet: klant gaat failliet na balansdatum
 >
@@ -67,7 +67,7 @@ Het boekjaar duurt normaal **12 maanden**; een korter of langer boekjaar is moge
 
 **Waarom**: de inventaris is de boekhoudkundige grondslag voor de jaarrekening. Zonder een effectieve opname van het volledige vermogen is er geen zekerheid dat de balans de werkelijke toestand weerspiegelt — en kan de jaarrekening geen getrouw beeld geven.
 
-De inventaris is **geen overschrijving van de boekwaarden** maar een effectief gecontroleerde vaststelling van alle bezittingen, rechten, schulden en verplichtingen ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|WER art. III.89 §1]]). Zie voor de volledige definitie en procedure: [[inventaris-en-jaarafsluiting#-boekhoudkundige-inventaris|Inventaris en jaarafsluiting — Boekhoudkundige inventaris]].
+De inventaris is **geen overschrijving van de boekwaarden** maar een effectief gecontroleerde vaststelling van alle bezittingen, rechten, schulden en verplichtingen (WER art. III.89 §1). Zie voor de volledige definitie en procedure: [[inventaris-en-jaarafsluiting#-boekhoudkundige-inventaris|Inventaris en jaarafsluiting — Boekhoudkundige inventaris]].
 
 **Wat wordt opgenomen:**
 
@@ -102,7 +102,7 @@ Machines
 >
 > De boekhoudkundige inventaris slaat op **alle** vermogensbestanddelen — actief én passief — niet alleen op de voorraden. Vorderingen, schulden, vaste activa, rechten en verplichtingen buiten balans: alles moet worden opgenomen en gewaardeerd. Een inventaris die enkel de voorraden omvat, is onvolledig en schendt de wettelijke plicht.
 >
-> ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii89|WER art. III.89 §1]])
+> (WER art. III.89 §1)
 
 ---
 
@@ -195,7 +195,7 @@ Voorraaldaling:
 
 **f) Wisselkoersresultaten op vreemde valutaposities**
 
-Vorderingen en schulden in vreemde valuta worden op de inventarisdatum omgerekend tegen de koers van die datum. Koersverschillen ten opzichte van de koers bij boeking worden verwerkt via financiële opbrengsten (755) of financiële kosten (655) ([[bronnen/wetteksten/XV-KB-wvv#art-366|ITAA-LEX XV (KB) · KB WVV art. 3:66–3:67]]). Latente winsten op monetaire items worden niet gerealiseerd maar vermeld in de toelichting; latente verliezen worden wel als kost geboekt ([[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]]).
+Vorderingen en schulden in vreemde valuta worden op de inventarisdatum omgerekend tegen de koers van die datum. Koersverschillen ten opzichte van de koers bij boeking worden verwerkt via financiële opbrengsten (755) of financiële kosten (655) (ITAA-LEX XV (KB) · KB WVV art. 3:66–3:67). Latente winsten op monetaire items worden niet gerealiseerd maar vermeld in de toelichting; latente verliezen worden wel als kost geboekt ([[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]]).
 
 **g) Vakantiegeldvoorziening (arbeiders)**
 
@@ -209,7 +209,7 @@ De vakantiegeldverplichting voor arbeiders — berekend op de bruto-bezoldiginge
 > [!warning]- Voorziening boeken voor een waardecorrectie op een actief
 > ❌ *"Een oninbare vordering van € 8.000 boek ik als voorziening op het passief."*
 >
-> Een ontwaarding van een bestaand actief (bv. een oninbare vordering of een gedaalde voorraadwaarde) vraagt een **waardevermindering** — een correctionele minpost op de actiefzijde. Een voorziening staat op het passief en dekt *toekomstige* uitstromen of verplichtingen. De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]]).
+> Een ontwaarding van een bestaand actief (bv. een oninbare vordering of een gedaalde voorraadwaarde) vraagt een **waardevermindering** — een correctionele minpost op de actiefzijde. Een voorziening staat op het passief en dekt *toekomstige* uitstromen of verplichtingen. De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa (KB WVV art. 3:28).
 
 ---
 
@@ -299,17 +299,17 @@ F. Uit te keren winst
    2. Tantièmes (bestuurders/zaakvoerders)    rec. 695
 ```
 
-**Wettelijke reservevorming (NV)**: jaarlijks verplicht 5% van de nettowinst (rubriek IX) aan de wettelijke reserve toevoegen, totdat de reserve 10% van het geplaatst kapitaal bereikt ([[bronnen/wetteksten/XV-wvv#art-7211|ITAA-LEX XV · WVV art. 7:211]]). Bij de BV bestaat geen wettelijk verplichte reservevorming. Zie [[eigen-vermogen#-wettelijke-reserve--berekening-nv|Wettelijke reserve — berekening NV]].
+**Wettelijke reservevorming (NV)**: jaarlijks verplicht 5% van de nettowinst (rubriek IX) aan de wettelijke reserve toevoegen, totdat de reserve 10% van het geplaatst kapitaal bereikt (ITAA-LEX XV · WVV art. 7:211). Bij de BV bestaat geen wettelijk verplichte reservevorming. Zie [[eigen-vermogen#-wettelijke-reserve--berekening-nv|Wettelijke reserve — berekening NV]].
 
 **Uitkeringstests** — vóór het vaststellen van het dividendvoorstel controleert het bestuursorgaan of de uitkering juridisch toelaatbaar is:
 
-- **BV**: dubbele test — netto-actieftest én liquiditeitstest. Het bestuursorgaan maakt een verslag op over de liquiditeit voor de komende 12 maanden ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]). Zie [[resultaatverwerking#-uitkeringstest-bv--dubbele-test|Uitkeringstest BV]].
-- **NV**: netto-actieftest alleen — het nettoactief na uitkering mag niet dalen onder het gestorte of opgevraagde kapitaal (hoogste van beide) plus wettelijk en statutair onbeschikbare reserves ([[bronnen/wetteksten/XV-wvv#art-7212|WVV art. 7:212]]). Zie [[resultaatverwerking#-uitkeringstest-nv--netto-actieftest|Uitkeringstest NV]].
+- **BV**: dubbele test — netto-actieftest én liquiditeitstest. Het bestuursorgaan maakt een verslag op over de liquiditeit voor de komende 12 maanden (WVV art. 5:143). Zie [[resultaatverwerking#-uitkeringstest-bv--dubbele-test|Uitkeringstest BV]].
+- **NV**: netto-actieftest alleen — het nettoactief na uitkering mag niet dalen onder het gestorte of opgevraagde kapitaal (hoogste van beide) plus wettelijk en statutair onbeschikbare reserves (WVV art. 7:212). Zie [[resultaatverwerking#-uitkeringstest-nv--netto-actieftest|Uitkeringstest NV]].
 
 > [!warning]- BV-liquiditeitstest vergeten bij dividendvoorstel
 > ❌ *"Als het nettoactief van de BV positief blijft na de uitkering, kan ik het dividendvoorstel opmaken."*
 >
-> De BV heeft een **dubbele** test. Een positief nettoactief na uitkering is noodzakelijk maar niet voldoende. Het bestuursorgaan moet ook — in een apart schriftelijk verslag — formeel vaststellen dat de vennootschap na de uitkering gedurende minstens 12 maanden haar schulden kan betalen. Zonder dat verslag heeft het AV-besluit tot uitkering geen rechtsgeldige uitwerking ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]).
+> De BV heeft een **dubbele** test. Een positief nettoactief na uitkering is noodzakelijk maar niet voldoende. Het bestuursorgaan moet ook — in een apart schriftelijk verslag — formeel vaststellen dat de vennootschap na de uitkering gedurende minstens 12 maanden haar schulden kan betalen. Zonder dat verslag heeft het AV-besluit tot uitkering geen rechtsgeldige uitwerking (WVV art. 5:143).
 
 > [!info]- Concreet: voorstel resultaatverwerking NV
 >
@@ -331,7 +331,7 @@ F. Uit te keren winst
 > 📤 **Uitkomst**:
 > - Ingevulde toelichting conform het toepasselijke schema (volledig, verkort of micro)
 
-**Waarom**: de toelichting is het derde verplichte onderdeel van de jaarrekening en vormt samen met balans en resultatenrekening één geheel ([[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]]). Ze maakt de cijfers begrijpbaar, vermeldt verplichte informatie die niet uit de cijferkolommen blijkt, en laat de aandeelhouder — en elke gebruiker van de neerlegde jaarrekening — toe de financiële toestand correct te beoordelen.
+**Waarom**: de toelichting is het derde verplichte onderdeel van de jaarrekening en vormt samen met balans en resultatenrekening één geheel (WVV art. 3:1). Ze maakt de cijfers begrijpbaar, vermeldt verplichte informatie die niet uit de cijferkolommen blijkt, en laat de aandeelhouder — en elke gebruiker van de neerlegde jaarrekening — toe de financiële toestand correct te beoordelen.
 
 **Inhoud van de toelichting (volledig schema — niet limitatief):**
 
@@ -360,16 +360,16 @@ TOELICHTING — hoofdrubrieken (volledig schema)
 ────────────────────────────────────────────────────────────
 ```
 
-**Sociale balans**: verplicht voor alle vennootschappen die personeel tewerkstellen met een volledige jaarrekening (volledig schema). De sociale balans vermeldt het aantal medewerkers, de personeelsrotatie en de opleidingskosten ([[bronnen/wetteksten/XV-wvv#art-32|WVV art. 3:2]]).
+**Sociale balans**: verplicht voor alle vennootschappen die personeel tewerkstellen met een volledige jaarrekening (volledig schema). De sociale balans vermeldt het aantal medewerkers, de personeelsrotatie en de opleidingskosten (WVV art. 3:2).
 
-**Wijzigingen in waarderingsregels**: als de onderneming de waarderingsmethode heeft gewijzigd ten opzichte van het vorige boekjaar, vermeldt ze dit in de toelichting met de reden, de impact op het resultaat en het eigen vermogen, en de vergelijkbaarheid met vorige jaren ([[bronnen/wetteksten/XV-KB-wvv#art-312|KB WVV art. 3:12]]).
+**Wijzigingen in waarderingsregels**: als de onderneming de waarderingsmethode heeft gewijzigd ten opzichte van het vorige boekjaar, vermeldt ze dit in de toelichting met de reden, de impact op het resultaat en het eigen vermogen, en de vergelijkbaarheid met vorige jaren (KB WVV art. 3:12).
 
-**Niet in de balans opgenomen rechten en verplichtingen**: borgstellingen, zakelijke zekerheden voor derden, garantieverplichtingen, opties en andere rechten en verplichtingen die niet in de balans verschijnen, worden per soort vermeld in de toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV art. 3:11 §3]]). Zie [[niet-in-balans-opgenomen-elementen|Niet in de balans opgenomen elementen]] *(⚠️ aan te maken)*.
+**Niet in de balans opgenomen rechten en verplichtingen**: borgstellingen, zakelijke zekerheden voor derden, garantieverplichtingen, opties en andere rechten en verplichtingen die niet in de balans verschijnen, worden per soort vermeld in de toelichting (KB WVV art. 3:11 §3). Zie [[niet-in-balans-opgenomen-elementen|Niet in de balans opgenomen elementen]] *(⚠️ aan te maken)*.
 
 > [!warning]- Toelichting weglaten bij het verkort schema
 > ❌ *"Een kleine vennootschap met het verkort schema heeft geen uitgebreide toelichting nodig."*
 >
-> Het verkort schema brengt een **verkorte** toelichting mee — maar geen lege toelichting. De verkorte toelichting bevat nog steeds de verplichte gegevens die relevant zijn voor het getrouw beeld: waarderingsregels, staat vaste activa, niet in de balans opgenomen elementen, informatie over verbonden ondernemingen. De verplichting is verminderd in omvang, niet afgeschaft ([[bronnen/wetteksten/XV-KB-wvv#art-n3|KB WVV art. 3:89–3:90]]).
+> Het verkort schema brengt een **verkorte** toelichting mee — maar geen lege toelichting. De verkorte toelichting bevat nog steeds de verplichte gegevens die relevant zijn voor het getrouw beeld: waarderingsregels, staat vaste activa, niet in de balans opgenomen elementen, informatie over verbonden ondernemingen. De verplichting is verminderd in omvang, niet afgeschaft (KB WVV art. 3:89–3:90).
 
 > [!info]- Concreet: wijziging afschrijvingsmethode vermelden
 >
@@ -389,20 +389,20 @@ TOELICHTING — hoofdrubrieken (volledig schema)
 > - Bevestiging dat de jaarrekening een getrouw beeld geeft
 > - Lijst van eventuele bijsturingen voor finale versie
 
-**Waarom**: het getrouw beeld is het overkoepelende beginsel waaraan alle andere regels ondergeschikt zijn ([[bronnen/wetteksten/XV-KB-wvv#art-37|KB WVV art. 3:7]]). Een technisch correcte jaarrekening die desondanks een vertekend beeld geeft, moet worden bijgesteld — zelfs als dat een afwijking van een specifieke regel vereist. Dit is de finale kwaliteitscheck vóór voorlegging aan de AV.
+**Waarom**: het getrouw beeld is het overkoepelende beginsel waaraan alle andere regels ondergeschikt zijn (KB WVV art. 3:7). Een technisch correcte jaarrekening die desondanks een vertekend beeld geeft, moet worden bijgesteld — zelfs als dat een afwijking van een specifieke regel vereist. Dit is de finale kwaliteitscheck vóór voorlegging aan de AV.
 
 **Controlepunten:**
 
 - **Getrouw beeld**: zijn alle materiële zaken adequaat verwerkt? Geeft de jaarrekening een waarheidsgetrouwe weergave van het vermogen, de financiële positie en het resultaat?
 - **Consistentie**: zijn dezelfde waarderingsregels gebruikt als het vorige boekjaar? Als er wijzigingen zijn: staan ze vermeld in de toelichting? Zie [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|Consistentiebeginsel]].
-- **Materialiteit**: zijn alle bedragen die materieel zijn voor het begrip van de jaarrekening, opgenomen of vermeld? Niet-materiële posten mogen worden samengevoegd ([[bronnen/wetteksten/XV-KB-wvv#art-358|KB WVV art. 3:58]]).
+- **Materialiteit**: zijn alle bedragen die materieel zijn voor het begrip van de jaarrekening, opgenomen of vermeld? Niet-materiële posten mogen worden samengevoegd (KB WVV art. 3:58).
 - **Openings- en sluitingsbalans**: stemt de openingsbalans van dit boekjaar overeen met de sluitingsbalans van het vorige? Zie [[inventaris-en-jaarafsluiting#-openings-en-sluitingsbalans|Onaantastbaarheid openingsbalans]].
 - **Vergelijkende cijfers**: worden vergelijkende cijfers van het vorige boekjaar correct weergegeven? Als de vorige jaarrekening werd aangepast, is dit vermeld in de toelichting?
 
 > [!warning]- Getrouw beeld is niet hetzelfde als wettelijk juist
 > ❌ *"Als alle posten correct geboekt zijn volgens de waarderingsregels, geeft de jaarrekening automatisch een getrouw beeld."*
 >
-> Het getrouw beeld is het **overkoepelende beginsel** dat boven de individuele regels staat. Als strikte toepassing van een waarderingsregel leidt tot een vertekend beeld, **moet** van die regel worden afgeweken — met vermelding in de toelichting. Een jaarrekening kan boekhoudkundig correct zijn maar toch geen getrouw beeld geven als materiële informatie ontbreekt of als het geheel misleidend is ([[bronnen/wetteksten/XV-KB-wvv#art-37|KB WVV art. 3:7]]).
+> Het getrouw beeld is het **overkoepelende beginsel** dat boven de individuele regels staat. Als strikte toepassing van een waarderingsregel leidt tot een vertekend beeld, **moet** van die regel worden afgeweken — met vermelding in de toelichting. Een jaarrekening kan boekhoudkundig correct zijn maar toch geen getrouw beeld geven als materiële informatie ontbreekt of als het geheel misleidend is (KB WVV art. 3:7).
 
 ---
 
@@ -432,9 +432,9 @@ Neerlegging bij NBB: binnen 30 dagen na goedkeuring,
                      uiterlijk 7 maanden na afsluitingsdatum
 ```
 
-([[bronnen/wetteksten/XV-wvv#art-310|ITAA-LEX XV · WVV art. 3:10]])
+(ITAA-LEX XV · WVV art. 3:10)
 
-De jaarrekening wordt ondertekend door (minstens twee leden van) het bestuursorgaan. Bij een commissaris legt die zijn verslag neer vóór de AV. Het bewaarboek van de jaarrekening moet worden bijgehouden overeenkomstig de bewaarplicht van 7 jaar ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|KB WER 2018 art. 8]]).
+De jaarrekening wordt ondertekend door (minstens twee leden van) het bestuursorgaan. Bij een commissaris legt die zijn verslag neer vóór de AV. Het bewaarboek van de jaarrekening moet worden bijgehouden overeenkomstig de bewaarplicht van 7 jaar (KB WER 2018 art. 8).
 
 Voor de procedure van neerlegging zelf: zie de competentie [[jaarrekening-neerleggen|Jaarrekening neerleggen]].
 
@@ -554,7 +554,7 @@ Voor de procedure van neerlegging zelf: zie de competentie [[jaarrekening-neerle
 > >
 > > **Fout.**
 > >
-> > Een ontwaarding van een bestaand actief (de handelsvordering) vraagt een **waardevermindering** — een correctionele minpost op de actiefzijde (rekening 409). De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa ([[bronnen/wetteksten/XV-KB-wvv#art-328|KB WVV art. 3:28]]). Een voorziening (passief, rubriek VII.A) dekt toekomstige uitstromen of verplichtingen — niet de ontwaarding van een bestaand actief.
+> > Een ontwaarding van een bestaand actief (de handelsvordering) vraagt een **waardevermindering** — een correctionele minpost op de actiefzijde (rekening 409). De wet verbiedt uitdrukkelijk het gebruik van voorzieningen voor waardecorrecties op activa (KB WVV art. 3:28). Een voorziening (passief, rubriek VII.A) dekt toekomstige uitstromen of verplichtingen — niet de ontwaarding van een bestaand actief.
 > >
 > > *Zie: [[voorzieningen#-voorziening-vs-waardevermindering-vs-schuld|Voorziening vs. waardevermindering vs. schuld]]*
 >
@@ -570,7 +570,7 @@ Voor de procedure van neerlegging zelf: zie de competentie [[jaarrekening-neerle
 > >
 > > **Nee.**
 > >
-> > Bij een BV is het AV-besluit tot uitkering slechts geldig nadat het **bestuursorgaan apart heeft vastgesteld** — in een schriftelijk verslag — dat de vennootschap na de uitkering gedurende minstens twaalf maanden haar schulden kan betalen ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]). De netto-actieftest is voldaan, maar de liquiditeitstest ontbreekt. Zonder dat verslag heeft het AV-besluit geen uitwerking en is de uitkering onregelmatig.
+> > Bij een BV is het AV-besluit tot uitkering slechts geldig nadat het **bestuursorgaan apart heeft vastgesteld** — in een schriftelijk verslag — dat de vennootschap na de uitkering gedurende minstens twaalf maanden haar schulden kan betalen (WVV art. 5:143). De netto-actieftest is voldaan, maar de liquiditeitstest ontbreekt. Zonder dat verslag heeft het AV-besluit geen uitwerking en is de uitkering onregelmatig.
 > >
 > > *Zie: [[resultaatverwerking#-uitkeringstest-bv--dubbele-test|Uitkeringstest BV — dubbele test]]*
 >
@@ -586,7 +586,7 @@ Voor de procedure van neerlegging zelf: zie de competentie [[jaarrekening-neerle
 > >
 > > **Nee.**
 > >
-> > Plafond wettelijke reserve: 10% × 250.000 = € 25.000. Ruimte: 25.000 − 22.000 = € 3.000. Verplichte minimale dotatie: min(5% × 40.000 ; 3.000) = min(2.000 ; 3.000) = **€ 2.000**. De AV moet minstens € 2.000 doteren aan de wettelijke reserve — de volledige winst uitkeren is niet toegestaan ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]]).
+> > Plafond wettelijke reserve: 10% × 250.000 = € 25.000. Ruimte: 25.000 − 22.000 = € 3.000. Verplichte minimale dotatie: min(5% × 40.000 ; 3.000) = min(2.000 ; 3.000) = **€ 2.000**. De AV moet minstens € 2.000 doteren aan de wettelijke reserve — de volledige winst uitkeren is niet toegestaan (WVV art. 7:211).
 > >
 > > *Zie: [[resultaatverwerking#-wettelijke-reservevorming-nv|Wettelijke reservevorming NV]]*
 >

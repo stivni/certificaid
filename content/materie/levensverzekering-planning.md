@@ -102,17 +102,17 @@ Tak 26 ontsnapt aan de fictiebepaling van art. 2.7.1.0.6 VCF omdat het geen uitk
 
 ## ⚖️ Levensverzekering = legaat (fictiebepaling)
 
-([[wetteksten/IVA-vcf#art-27106|VCF art. 2.7.1.0.6]])
+(VCF art. 2.7.1.0.6)
 
 De fictiebepaling van art. 2.7.1.0.6 VCF luidt: sommen, renten of waarden die **kosteloos** toekomen aan een persoon **bij het overlijden** van de erflater, ingevolge een contract dat een door de erflater of door een derde in het voordeel van die persoon gemaakt beding bevat, worden **geacht als legaat verkregen te zijn** door die persoon.
 
 De fictie heeft drie uitbreidingen:
 
-1. **Vijf-jarige terugwerkende kracht**: uitkeringen die toegekomen zijn binnen **vijf jaar** vóór het overlijden op grond van zo'n contract, worden ook als legaat beschouwd. ([[wetteksten/IVA-vcf#art-27106|VCF art. 2.7.1.0.6 §1, lid 2]])
+1. **Vijf-jarige terugwerkende kracht**: uitkeringen die toegekomen zijn binnen **vijf jaar** vóór het overlijden op grond van zo'n contract, worden ook als legaat beschouwd. (VCF art. 2.7.1.0.6 §1, lid 2)
 2. **Afkoop na overlijden**: als na het overlijden een persoon het contract afkoopt, is hij belastbaar op het tijdstip van de afkoop.
 3. **Gemeenschapsstelsel**: bij een erflater gehuwd onder een gemeenschapsstelsel geldt de fictie ook voor uitkeringen aan de langstlevende echtgenoot voor contracten die de *langstlevende zelf* heeft afgesloten — voor zover de premies met gemeenschappelijke goederen zijn betaald.
 
-**Uitsluitingen van de fictiebepaling** ([[wetteksten/IVA-vcf#art-27106|VCF art. 2.7.1.0.6 §2]]):
+**Uitsluitingen van de fictiebepaling** (VCF art. 2.7.1.0.6 §2):
 1. Bedingen die reeds aan **schenkbelasting** (of registratierecht op schenkingen) zijn onderworpen.
 2. Renten en kapitalen gevestigd ter uitvoering van een **wettelijke verplichting**.
 3. Uitkeringen via **groepsverzekering of voorzorgsfonds** door tussenkomst van de werkgever, ten voordele van de langstlevende echtgenoot of kinderen jonger dan 21 jaar.
@@ -241,7 +241,7 @@ Kenniselementen:
 > >
 > > **Ja — het kapitaal is belastbaar als legaat.**
 > >
-> > Dit is een AAB-constructie (verzekeringnemer = verzekerde = mevrouw Janssen; begunstigde = dochter C). De [[wetteksten/IVA-vcf#art-27106|fictiebepaling van art. 2.7.1.0.6 VCF]] is van toepassing: sommen die kosteloos toekomen aan een persoon bij het overlijden van de erflater ingevolge een contract met een beding ten gunste van die persoon, worden geacht als legaat te zijn verkregen. Het kapitaal valt buiten de nalatenschap maar wordt fiscaal als legaat aan de dochter beschouwd. De dochter betaalt erfbelasting op €150.000 tegen het tarief in rechte lijn.
+> > Dit is een AAB-constructie (verzekeringnemer = verzekerde = mevrouw Janssen; begunstigde = dochter C). De fictiebepaling van art. 2.7.1.0.6 VCF is van toepassing: sommen die kosteloos toekomen aan een persoon bij het overlijden van de erflater ingevolge een contract met een beding ten gunste van die persoon, worden geacht als legaat te zijn verkregen. Het kapitaal valt buiten de nalatenschap maar wordt fiscaal als legaat aan de dochter beschouwd. De dochter betaalt erfbelasting op €150.000 tegen het tarief in rechte lijn.
 > >
 > > *Zie: [[#⚖️-levensverzekering-legaat-fictiebepaling|Fictiebepaling VCF art. 2.7.1.0.6]]*
 >

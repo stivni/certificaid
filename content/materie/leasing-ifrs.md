@@ -16,7 +16,7 @@ De leaseboekhouding heeft onder IFRS een ingrijpende verandering doorgemaakt. To
 
 De ITAA-brochure verwijst expliciet naar IAS 17 (publicatiejaar 2022, kenniselement V.C). Voor het examen is het cruciaal om **beide standaarden** te kennen: IAS 17 (historisch en lessor-zijde) én IFRS 16 (huidige norm voor lessee).
 
-Voor het Belgische GAAP-equivalent zie [[leasing-boekhoudkundig]].
+Voor het Belgische GAAP-equivalent zie [[leasing-boekhoudkundig#-belgisch-boekhoudrecht-vs-ifrs-16|Belgisch GAAP-equivalent]].
 
 ---
 
@@ -64,7 +64,7 @@ Bij minstens één indicator: financiële leasing. Anders: operationele leasing.
 - IFRS 16 behield deze classificatie voor de **lessor-zijde** — IFRS 16 §61-97
 
 **Lessor bij operationele leasing**:
-- Actief blijft op de balans, wordt afgeschreven volgens IAS 16
+- Actief blijft op de balans, wordt afgeschreven volgens [[vaste-activa-ifrs#-afschrijvingsmethode|IAS 16]]
 - Periodieke leasebetalingen als **opbrengst** in P&L, lineair over de leaseperiode
 
 ### Onder IFRS 16 (vanaf 2019) — voor lessee
@@ -83,7 +83,7 @@ IFRS 16 schrapt het onderscheid voor de lessee. **Elke** lease (behalve enkele u
 2. Tegenboeking: **leaseschuld** (*lease liability*) gewaardeerd aan contante waarde van de toekomstige leasebetalingen, verdisconteerd aan de impliciete rentevoet of — bij gebrek — aan de **incrementele leningsvoet** van de lessee
 
 3. Periodiek:
-   - Afschrijving van het recht-van-gebruik-actief volgens IAS 16 (typisch lineair over de leaseperiode)
+   - Afschrijving van het recht-van-gebruik-actief volgens [[vaste-activa-ifrs#-afschrijvingsmethode|IAS 16]] (typisch lineair over de leaseperiode)
    - **Interestlast** op de leaseschuld via de effectieve-rentemethode
    - Aflossing van de leaseschuld
 
@@ -117,13 +117,13 @@ In dat geval: lineair ten laste over de leaseperiode (zoals IAS 17 operationeel)
 >
 > IFRS 16 brengt **alle** leases (op uitzonderingen na) op de balans van de lessee. Voor een onderneming met veel operationele leases (bv. retailer met gehuurde winkels, luchtvaartmaatschappij met geleasde vliegtuigen) kan dit het balanstotaal en de **schuldgraad** dramatisch verhogen — een operationele leaseverbintenis van €500M wordt €500M extra schuld én €500M extra activa.
 >
-> Dit beïnvloedt **financiële ratio's** (zie [[financiele-ratios]]):
+> Dit beïnvloedt **[[financiele-ratios#-solvabiliteitsratios|financiële ratio's]]** (specifiek solvabiliteit en rentabiliteit):
 > - Schuldgraad ↑
 > - Solvabiliteitsratio (EV/TA) ↓
 > - EBITDA ↑ (huurkost wordt afschrijving + interest, beide *under the line* van EBITDA)
 > - ROCE wijzigt door grotere kapitaalbasis
 >
-> Voor analyse over een vergelijkende periode 2018→2019 moet de analist de bruisende impact corrigeren of expliciet bespreken.
+> Voor [[financiele-positie-beoordelen|analyse van de financiële positie]] over een vergelijkende periode 2018→2019 moet de analist de bruisende impact corrigeren of expliciet bespreken.
 >
 > 🤖 *AI-aanvulling op basis van IFRS 16*
 
@@ -218,6 +218,6 @@ Kenniselementen:
 > >
 > > Voor een operationele leasing (zoals huur kantoor) zou het verhaal verschillen — daar staat onder BE-GAAP niets op de balans, onder IFRS wél.
 > >
-> > *Zie: [[leasing-ifrs#-be-gaap-vs-ifrs|BE-GAAP vs. IFRS leasing]]*
+> > *Zie: [[leasing-ifrs#-be-gaap-vs-ifrs---leasing|BE-GAAP vs. IFRS leasing]]*
 >
 > 🤖 *AI-aanvulling*

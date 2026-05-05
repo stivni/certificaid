@@ -73,7 +73,7 @@ Beoordeel per signaal of er een aannemelijke tijdelijke verklaring is. [[continu
 > [!warning]- Eén negatief signaal volstaat niet voor een continuïteitsrisico — vereist zijn gewichtige én overeenstemmende feiten
 > ❌ *"De current ratio is onder 1 — er is een continuïteitsrisico."*
 >
-> Continuïteitsrisico vereist "gewichtige **en** overeenstemmende feiten" ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]]). Eén afwijkende ratio is geen continuïteitsrisico — het is een signaal dat nader onderzoek rechtvaardigt. Pas als meerdere signalen in dezelfde richting wijzen, én er geen aannemelijke tijdelijke verklaring is, is er een continuïteitsrisico.
+> Continuïteitsrisico vereist "gewichtige **en** overeenstemmende feiten" (WVV art. 2:52). Eén afwijkende ratio is geen continuïteitsrisico — het is een signaal dat nader onderzoek rechtvaardigt. Pas als meerdere signalen in dezelfde richting wijzen, én er geen aannemelijke tijdelijke verklaring is, is er een continuïteitsrisico.
 >
 > 🤖 *AI-aanvulling*
 
@@ -87,7 +87,7 @@ Beoordeel per signaal of er een aannemelijke tijdelijke verklaring is. [[continu
 > 📤 **Uitkomst**:
 > - Oordeel: ja (ga naar stap 4) of nee (documenteer en monitor)
 
-**Waarom**: de wet vereist "gewichtige én overeenstemmende feiten" ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]]) als drempel — pas als aan beide criteria voldaan is, zijn de verplichtingen van stap 4 en 5 getriggerd.
+**Waarom**: de wet vereist "gewichtige én overeenstemmende feiten" (WVV art. 2:52) als drempel — pas als aan beide criteria voldaan is, zijn de verplichtingen van stap 4 en 5 getriggerd.
 
 "Gewichtig en overeenstemmend" betekent dat de signalen:
 - Voldoende ernstig zijn om op zichzelf al bezorgdheid te rechtvaardigen (*gewichtig*)
@@ -130,11 +130,11 @@ Als de feiten individueel of tegengesteld zijn → documenteer de bevindingen, f
 
 De drempels verschillen per vennootschapsvorm:
 
-**BV** ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153]]):
+**BV** (WVV art. 5:153):
 - [[nettoactief|Nettoactief]] is negatief of dreigt negatief te worden, **of**
 - Onzekerheid of schulden de komende 12 maanden betaald kunnen worden
 
-**NV** ([[bronnen/wetteksten/XV-wvv#art-7228|WVV art. 7:228–7:229]]):
+**NV** (WVV art. 7:228–7:229):
 - [[nettoactief|Nettoactief]] < **50%** van het geplaatst kapitaal → algemene vergadering bijeenroepen
 - [[nettoactief|Nettoactief]] < **25%** van het geplaatst kapitaal → AV kan ontbinden met ¼ van de stemmen
 - [[nettoactief|Nettoactief]] < **€ 61.500** → elke belanghebbende kan ontbinding vorderen
@@ -145,7 +145,7 @@ Als geen drempel bereikt maar feiten zijn gewichtig en overeenstemmend → **[[c
 > [!warning]- De alarmbelprocedure is een verplichting van het bestuursorgaan, niet van de beroepsbeoefenaar
 > ❌ *"Als het [[nettoactief|nettoactief]] negatief is, moet de accountant de rechtbank inlichten."*
 >
-> De alarmbelprocedure (bijeenroeping AV, bijzonder verslag) is een **verplichting van het bestuursorgaan** — niet van de beroepsbeoefenaar. De beroepsbeoefenaar heeft een eigen, aparte [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23]]). Die twee procedures zijn onderscheiden: het bestuursorgaan roept de AV bijeen; de GA stuurt bij onvoldoende reactie een aangetekende brief aan de bestuurders, en daarna eventueel een melding aan de rechtbank.
+> De alarmbelprocedure (bijeenroeping AV, bijzonder verslag) is een **verplichting van het bestuursorgaan** — niet van de beroepsbeoefenaar. De beroepsbeoefenaar heeft een eigen, aparte [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] (WER art. XX.23). Die twee procedures zijn onderscheiden: het bestuursorgaan roept de AV bijeen; de GA stuurt bij onvoldoende reactie een aangetekende brief aan de bestuurders, en daarna eventueel een melding aan de rechtbank.
 >
 > 📝 *Terugkerende valkuil — zie ook [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|Meldingsplicht beroepsbeoefenaar]]*
 
@@ -170,13 +170,13 @@ Als geen drempel bereikt maar feiten zijn gewichtig en overeenstemmend → **[[c
 
 Controleer als beroepsbeoefenaar of het bestuursorgaan de volgende stappen heeft uitgevoerd of uitvoert — het bestuursorgaan is de verantwoordelijke actor, **niet de beroepsbeoefenaar** zelf:
 
-1. Bijeenroeping van de **algemene vergadering** binnen **2 maanden** na vaststelling ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153]], [[bronnen/wetteksten/XV-wvv#art-7228|WVV art. 7:228]])
+1. Bijeenroeping van de **algemene vergadering** binnen **2 maanden** na vaststelling (WVV art. 5:153, WVV art. 7:228)
 2. Opstellen van een **bijzonder verslag** met herstelmaatregelen, tenzij ontbinding wordt voorgesteld
 3. De AV beslist over de voorgestelde maatregelen of over ontbinding
 
 Na naleving: geen nieuwe verplichting gedurende de volgende **12 maanden** voor dezelfde reden.
 
-Bestuurders die de procedure niet naleven zijn aansprakelijk voor schade aan derden, tenzij ze het tegendeel bewijzen. ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153 §3]])
+Bestuurders die de procedure niet naleven zijn aansprakelijk voor schade aan derden, tenzij ze het tegendeel bewijzen. (WVV art. 5:153 §3)
 
 De rol van de beroepsbeoefenaar hier is **adviseur**: hij informeert het bestuursorgaan over de toepasselijke procedure, maar voert ze niet zelf uit.
 
@@ -218,7 +218,7 @@ De [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht
 
 **Waarom**: de meldingsplicht bij continuïteitsrisico is tweefasig — de aangetekende brief is de eerste kans voor het bestuursorgaan om te reageren; pas bij uitblijven van reactie of bij imminente insolventie escaleert de verplichting naar de rechtbank.
 
-De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van de [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht van de beroepsbeoefenaar]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]]).
+De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van de [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht van de beroepsbeoefenaar]] (WER art. XX.23 §3).
 
 ---
 
@@ -230,7 +230,7 @@ De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van d
 >
 > **Conclusie**: gewichtige en overeenstemmende feiten aanwezig; wettelijke alarmbeldrempel bereikt; alarmbelprocedure vereist; [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] (GA) geactiveerd.
 >
-> **Grondslag**: [[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153]] (alarmbeldrempel BV: negatief [[nettoactief|nettoactief]]); [[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]] (meldingsplicht bij continuïteitsrisico)
+> **Grondslag**: WVV art. 5:153 (alarmbeldrempel BV: negatief [[nettoactief|nettoactief]]); WER art. XX.23 §3 (meldingsplicht bij continuïteitsrisico)
 >
 > **Redenering**: (1) Signalen: negatief EV, slechte liquiditeit, verlies klanten, dalende omzet — meerdere signalen, alle in dezelfde richting. (2) Geen misleidende verklaring: geen seizoenspatroon, geen recente capex, geen groeipijn. (3) Feiten zijn gewichtig én overeenstemmend. (4) Drempel BV bereikt: [[nettoactief|nettoactief]] is negatief. (5a) Bestuursorgaan moet AV bijeenroepen binnen 2 maanden. (5b) GA stuurt aangetekende brief aan elk bestuurslid; bij geen reactie binnen 1 maand → melding aan voorzitter ondernemingsrechtbank.
 >
@@ -242,7 +242,7 @@ De melding aan de voorzitter van de ondernemingsrechtbank is het sluitstuk van d
 >
 > **Conclusie**: alarmbeldrempel 50% bereikt (procedure bestuursorgaan vereist); maar feiten zijn nog niet "gewichtig en overeenstemmend" voor [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] (GA) — de situatie is verklaarbaar en tijdelijk.
 >
-> **Grondslag**: [[bronnen/wetteksten/XV-wvv#art-7228|WVV art. 7:228]] (alarmbeldrempel NV 50%); [[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]] (meldingsplicht bij continuïteitsrisico — nog niet getriggerd)
+> **Grondslag**: WVV art. 7:228 (alarmbeldrempel NV 50%); WER art. XX.23 §3 (meldingsplicht bij continuïteitsrisico — nog niet getriggerd)
 >
 > **Redenering**: het [[nettoactief|nettoactief]] is onder 50% → bestuursorgaan moet de AV bijeenroepen. Maar de positieve operationele kasstroom en de eenmalige aard van de verliezen maken dat de feiten niet "gewichtig en overeenstemmend" zijn in de zin van WVV art. 2:52. De GA informeert het bestuursorgaan over de procedure maar heeft zijn eigen [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] nog niet geactiveerd — hij monitort de situatie.
 >
@@ -273,7 +273,7 @@ Bij integratievragen geldt de motiveringsstructuur: **conclusie → grondslag �
 > >
 > > **Fout — de [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] is niet correct nageleefd.**
 > >
-> > De GA heeft bij vaststelling van gewichtige en overeenstemmende feiten een wettelijke [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]]). Die vereist een **aangetekende brief** aan elk lid van het bestuursorgaan afzonderlijk — een gewone e-mail volstaat niet. Bovendien moet de brief de vastgestelde feiten vermelden en de gevraagde maatregelen. Na 1 maand zonder voldoende reactie moet de GA de voorzitter van de ondernemingsrechtbank inlichten — als hij dat nalaat, riskeer hij zijn eigen aansprakelijkheid.
+> > De GA heeft bij vaststelling van gewichtige en overeenstemmende feiten een wettelijke [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] (WER art. XX.23 §3). Die vereist een **aangetekende brief** aan elk lid van het bestuursorgaan afzonderlijk — een gewone e-mail volstaat niet. Bovendien moet de brief de vastgestelde feiten vermelden en de gevraagde maatregelen. Na 1 maand zonder voldoende reactie moet de GA de voorzitter van de ondernemingsrechtbank inlichten — als hij dat nalaat, riskeer hij zijn eigen aansprakelijkheid.
 > >
 > > *Zie: [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|Meldingsplicht bij continuïteitsrisico]]*
 >
@@ -287,7 +287,7 @@ Bij integratievragen geldt de motiveringsstructuur: **conclusie → grondslag �
 > >
 > > **De drempel van 25% is bereikt — de AV kan ontbinden met ¼ van de stemmen.**
 > >
-> > [[nettoactief|Nettoactief]] / geplaatst kapitaal = 95.000 / 400.000 = **23,75%** → onder de 25%-drempel (WVV art. 7:228–7:229). Het bestuursorgaan moet de AV bijeenroepen binnen 2 maanden. Op die AV kan met ¼ van de stemmen ontbinding besloten worden. Het is het **bestuursorgaan** dat de procedure voert — niet de accountant. De accountant adviseert en heeft zijn eigen [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23]]), maar is niet verantwoordelijk voor de uitvoering van de alarmbelprocedure zelf.
+> > [[nettoactief|Nettoactief]] / geplaatst kapitaal = 95.000 / 400.000 = **23,75%** → onder de 25%-drempel (WVV art. 7:228–7:229). Het bestuursorgaan moet de AV bijeenroepen binnen 2 maanden. Op die AV kan met ¼ van de stemmen ontbinding besloten worden. Het is het **bestuursorgaan** dat de procedure voert — niet de accountant. De accountant adviseert en heeft zijn eigen [[continuiteitsrisico#-meldingsplicht-van-de-beroepsbeoefenaar|meldingsplicht bij continuïteitsrisico]] (WER art. XX.23), maar is niet verantwoordelijk voor de uitvoering van de alarmbelprocedure zelf.
 > >
 > > *Zie: [[continuiteitsrisico#-alarmbelprocedure|Alarmbelprocedure]]*
 >

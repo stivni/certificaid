@@ -26,13 +26,13 @@ Een obligatielening is een **schuld** — de obligatiehouders zijn crediteuren, 
 - Rubriek VIII.A.1 — Achtergestelde leningen (rekening 170)
 - Rubriek VIII.A.2 — Niet-achtergestelde obligatieleningen (rekening 171)
 
-Wanneer de vervaldag binnen het jaar valt of het af te lossen deel van het lopende boekjaar, wordt het bedrag overgeboekt naar rubriek IX.A — Schulden op meer dan één jaar die binnen het jaar vervallen (rekening 421). ([[bronnen/wetteksten/XV-KB-wvv#art-355|KB WVV art. 3:55]])
+Wanneer de vervaldag binnen het jaar valt of het af te lossen deel van het lopende boekjaar, wordt het bedrag overgeboekt naar rubriek IX.A — Schulden op meer dan één jaar die binnen het jaar vervallen (rekening 421). (KB WVV art. 3:55)
 
 ## 📌 Gewone obligatie vs. converteerbare obligatie vs. obligatie met warrant
 
 **Gewone obligatie**: geeft de houder enkel het recht op terugbetaling van de hoofdsom en op de overeengekomen interesten. Geen recht op aandelen.
 
-**Converteerbare obligatie** (CB): geeft de houder (of, afhankelijk van de uitgiftevoorwaarden, de vennootschap) het recht om de obligatie op een vastgesteld tijdstip om te zetten in aandelen. Converteerbare obligaties moeten volledig worden volgestort bij uitgifte. ([[bronnen/wetteksten/XV-wvv#art-553|WVV art. 5:53]] voor BV; [[bronnen/wetteksten/XV-wvv#art-765|WVV art. 7:65]] voor NV)
+**Converteerbare obligatie** (CB): geeft de houder (of, afhankelijk van de uitgiftevoorwaarden, de vennootschap) het recht om de obligatie op een vastgesteld tijdstip om te zetten in aandelen. Converteerbare obligaties moeten volledig worden volgestort bij uitgifte. (WVV art. 5:53 voor BV; WVV art. 7:65 voor NV)
 
 Bij conversie wordt de schuld omgezet in eigen vermogen: de obligatiehouder wordt aandeelhouder. De boekwaarde van de obligatie vloeit naar het kapitaal en de uitgiftepremies — de schuld verdwijnt van het passief.
 
@@ -40,7 +40,7 @@ Bij conversie wordt de schuld omgezet in eigen vermogen: de obligatiehouder word
 
 ## 📌 Achtergestelde obligaties
 
-Een achtergestelde obligatie is een obligatie waarbij de houder bij faillissement of vereffening als laatste schuldeiser wordt terugbetaald — na alle gewone schuldeisers, maar vóór de aandeelhouders. De achtergestelde aard verandert niets aan de boekhoudkundige kwalificatie: achtergestelde obligaties zijn en blijven schulden, geboekt op rubriek VIII.A.1 (rekening 170). ([[bronnen/wetteksten/XV-KB-wvv|KB WVV — rubrieken passief, art. N3]])
+Een achtergestelde obligatie is een obligatie waarbij de houder bij faillissement of vereffening als laatste schuldeiser wordt terugbetaald — na alle gewone schuldeisers, maar vóór de aandeelhouders. De achtergestelde aard verandert niets aan de boekhoudkundige kwalificatie: achtergestelde obligaties zijn en blijven schulden, geboekt op rubriek VIII.A.1 (rekening 170). (KB WVV — rubrieken passief, art. N3)
 
 ## 📌 Couponrente (nominale rente)
 
@@ -64,7 +64,7 @@ Bij een uitgifte onder pari (de belegger betaalt minder dan de nominale waarde) 
 
 **Uitgifte onder pari** (met disagio): de belegger betaalt minder dan de nominale waarde. De vennootschap ontvangt minder dan ze terugbetaalt — dit nadeel is een kost die pro rata temporis over de looptijd in resultaat wordt genomen (als extra rentekost). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07 — Agio en disagio]])
 
-**Boekhoudkundige verwerking van agio/disagio**: de obligatielening wordt initieel geboekt tegen de **uitgiftewaarde** (het bedrag dat de vennootschap effectief ontvangt). Het verschil tussen de uitgiftewaarde en de terugbetalingswaarde wordt daarna pro rata temporis verwerkt als rentekost (disagio) of renteopbrengst (agio), en gecrediteerd aan of gedebiteerd van de schuldenrekening. De schuld nadert zo geleidelijk de terugbetalingswaarde. ([[bronnen/wetteksten/XV-KB-wvv#art-351|KB WVV art. 3:51]] via [[bronnen/wetteksten/XV-KB-wvv#art-355|art. 3:55]])
+**Boekhoudkundige verwerking van agio/disagio**: de obligatielening wordt initieel geboekt tegen de **uitgiftewaarde** (het bedrag dat de vennootschap effectief ontvangt). Het verschil tussen de uitgiftewaarde en de terugbetalingswaarde wordt daarna pro rata temporis verwerkt als rentekost (disagio) of renteopbrengst (agio), en gecrediteerd aan of gedebiteerd van de schuldenrekening. De schuld nadert zo geleidelijk de terugbetalingswaarde. (KB WVV art. 3:51 via art. 3:55)
 
 ## 📌 Aflossingswijzen
 
@@ -77,7 +77,7 @@ Een obligatielening kan op verschillende manieren worden terugbetaald:
 
 ## ⚖️ Obligaties zijn schulden — ook als achtergesteld
 
-Achtergestelde obligaties lijken op eigen vermogen omdat ze pas na alle andere schuldeisers worden terugbetaald bij vereffening. Toch zijn het schulden. Het achtergestelde karakter verandert niets aan de juridische aard — de vennootschap heeft een contractuele terugbetalingsverplichting jegens de obligatiehouders. ([[bronnen/wetteksten/XV-KB-wvv|KB WVV — rubrieken passief]])
+Achtergestelde obligaties lijken op eigen vermogen omdat ze pas na alle andere schuldeisers worden terugbetaald bij vereffening. Toch zijn het schulden. Het achtergestelde karakter verandert niets aan de juridische aard — de vennootschap heeft een contractuele terugbetalingsverplichting jegens de obligatiehouders. (KB WVV — rubrieken passief)
 
 > [!warning]- Achtergestelde obligaties zijn schulden, geen eigen vermogen
 > ❌ *"Achtergestelde obligaties lijken zo sterk op eigen vermogen dat ze boekhoudkundig als quasi-eigen vermogen worden behandeld."*
@@ -88,7 +88,7 @@ Achtergestelde obligaties lijken op eigen vermogen omdat ze pas na alle andere s
 
 ## ⚖️ Waarderingsregel: uitgiftewaarde + pro rata temporis verschil
 
-Een obligatielening wordt initieel gewaardeerd tegen de **uitgiftewaarde** — het bedrag dat de vennootschap effectief ontvangt van de inschrijvers. ([[bronnen/wetteksten/XV-KB-wvv#art-355|KB WVV art. 3:55]] verwijst naar [[bronnen/wetteksten/XV-KB-wvv#art-351|art. 3:51]])
+Een obligatielening wordt initieel gewaardeerd tegen de **uitgiftewaarde** — het bedrag dat de vennootschap effectief ontvangt van de inschrijvers. (KB WVV art. 3:55 verwijst naar art. 3:51)
 
 Wanneer de uitgiftewaarde verschilt van de terugbetalingswaarde op vervaldag, wordt dat verschil:
 - op **geactualiseerde basis** (actuariële methode, standaard), of
@@ -167,7 +167,7 @@ DR  480   Vervallen obligaties en coupons              100.625
   CR  5500  Kredietinstellingen – Rekening-courant             100.625
 ```
 
-De [[overlopende-rekeningen|overlopende rekening]] 492 (toe te rekenen kosten) wordt gebruikt voor de pro rata toerekening van rente aan het lopende boekjaar wanneer de couponvervaldag niet samenvalt met de afsluitdatum. De tegenboeking gebeurt begin van het volgende boekjaar. ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV art. 3:11]])
+De [[overlopende-rekeningen|overlopende rekening]] 492 (toe te rekenen kosten) wordt gebruikt voor de pro rata toerekening van rente aan het lopende boekjaar wanneer de couponvervaldag niet samenvalt met de afsluitdatum. De tegenboeking gebeurt begin van het volgende boekjaar. (KB WVV art. 3:11)
 
 > [!info]- In de praktijk
 >
@@ -184,7 +184,7 @@ De [[overlopende-rekeningen|overlopende rekening]] 492 (toe te rekenen kosten) w
 
 ## 📋 Reclassificatie kortetermijndeel
 
-Op elke balansdatum wordt het deel van de lening dat **binnen de twaalf maanden na de balansdatum** vervalt, overgeboekt van rubriek VIII naar rubriek IX. ([[bronnen/wetteksten/XV-KB-wvv|KB WVV — rubrieken passief, art. N3]])
+Op elke balansdatum wordt het deel van de lening dat **binnen de twaalf maanden na de balansdatum** vervalt, overgeboekt van rubriek VIII naar rubriek IX. (KB WVV — rubrieken passief, art. N3)
 
 ```
 Reclassificatie per 31 december (vervaldag: 1 april volgend jaar):
@@ -223,14 +223,14 @@ DR  1711  Niet-achtergestelde obligatieleningen (boekwaarde)   1.000.000
   CR  1100  Uitgiftepremies                                         500.000
 ```
 
-Het verschil tussen de boekwaarde van de obligatie en de nominale waarde van de nieuwe aandelen gaat naar de uitgiftepremies. ([[bronnen/wetteksten/XV-wvv#art-553|WVV art. 5:53]] voor BV; [[bronnen/wetteksten/XV-wvv#art-765|WVV art. 7:65]] voor NV)
+Het verschil tussen de boekwaarde van de obligatie en de nominale waarde van de nieuwe aandelen gaat naar de uitgiftepremies. (WVV art. 5:53 voor BV; WVV art. 7:65 voor NV)
 
 > [!warning]- Disagio integraal als kost boeken in het jaar van uitgifte
 > ❌ *"Bij uitgifte onder pari wordt het volledige disagio in het jaar van uitgifte als kost geboekt."*
 >
 > Het disagio (het verschil tussen de ontvangen uitgifteprijs en de terugbetalingswaarde) wordt **niet** integraal als kost geboekt in het jaar van uitgifte. Het wordt pro rata temporis over de looptijd van de lening in resultaat genomen als bestanddeel van de rentekost. De obligatielening wordt geboekt tegen de uitgiftewaarde; de balanswaarde schuift elk jaar op richting de terugbetalingswaarde. Pas op de vervaldag is de balanswaarde gelijk aan het terug te betalen bedrag.
 >
-> Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-355|KB WVV art. 3:55]] → [[bronnen/wetteksten/XV-KB-wvv#art-351|art. 3:51]]; [[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]]
+> Grondslag: KB WVV art. 3:55 → art. 3:51; [[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]]
 >
 > 🤖 *AI-aanvulling*
 
@@ -258,9 +258,9 @@ Pro rata voor onvolledig jaar (9 maanden):
 
 ## 🔒 Uitgifte obligaties — vennootschapsrechtelijke basis
 
-**Besloten vennootschap (BV)**: de BV kan een overeenkomst van lening aangaan in de vorm van uitgifte van obligaties, in voorkomend geval converteerbaar in aandelen. Het conversierecht kan toekomen aan de obligatiehouder of aan de vennootschap, dan wel automatisch plaatsvinden. ([[bronnen/wetteksten/XV-wvv#art-550|WVV art. 5:50]])
+**Besloten vennootschap (BV)**: de BV kan een overeenkomst van lening aangaan in de vorm van uitgifte van obligaties, in voorkomend geval converteerbaar in aandelen. Het conversierecht kan toekomen aan de obligatiehouder of aan de vennootschap, dan wel automatisch plaatsvinden. (WVV art. 5:50)
 
-**Naamloze vennootschap (NV)**: in de overeenkomst van lening aangegaan in de vorm van obligaties is de ontbindende voorwaarde bij niet-nakoming altijd stilzwijgend begrepen. ([[bronnen/wetteksten/XV-wvv#art-764|WVV art. 7:64]])
+**Naamloze vennootschap (NV)**: in de overeenkomst van lening aangegaan in de vorm van obligaties is de ontbindende voorwaarde bij niet-nakoming altijd stilzwijgend begrepen. (WVV art. 7:64)
 
 Het bestuursorgaan bepaalt de uitgiftevoorwaarden (uitgifteprijs, couponrente, terugbetalingswaarde, looptijd, conversierecht). ([[bronnen/adviezen/CBN-2019-07-boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening|CBN-advies 2019/07]])
 
@@ -272,7 +272,7 @@ Zie ook [[roerende-inkomsten-personenbelasting|roerende inkomsten in de personen
 
 ## 🔒 Toelichting in de jaarrekening
 
-De vennootschap vermeldt in de toelichting bij de jaarrekening voor elke lening: de aard, de vervaldag, de gewaarborgde of niet-gewaarborgde aard, het conversierecht (indien van toepassing), en het uitstaande bedrag. De specificatie van schulden op meer dan één jaar is verplicht. ([[bronnen/wetteksten/XV-KB-wvv|KB WVV — toelichtingsvereisten]])
+De vennootschap vermeldt in de toelichting bij de jaarrekening voor elke lening: de aard, de vervaldag, de gewaarborgde of niet-gewaarborgde aard, het conversierecht (indien van toepassing), en het uitstaande bedrag. De specificatie van schulden op meer dan één jaar is verplicht. (KB WVV — toelichtingsvereisten)
 
 ## ↔️ Obligatie vs. aandeel
 

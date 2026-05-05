@@ -18,7 +18,7 @@ Bij elke transactie of situatie die een gewestelijke belasting kan triggeren (ov
 Deze competentie is de eerste stap voor zowat elke gewestelijke fiscaalkundige tussenkomst — voor de eigenlijke belastingberekening of aangifte verwijst ze naar de specifieke materie- of taakcompetenties (bv. [[aangifte-nalatenschap-opmaken|aangifte nalatenschap]]).
 
 > [!info]- Grondslag van deze werkwijze (🤖 70% · ⚖️ 30%)
-> De **lokaliseringsfactoren per belasting** zijn bindend gecodificeerd in de [[bronnen/wetteksten/IVA-vcf|VCF]] (Vlaanderen), de Brusselse Codex Fiscale Procedure en federale wetten (Wb. Succ., Wb. Reg., WIB92 art. 249) — dat is het wettelijke deel. De **stappen om die factoren systematisch toe te passen** in een concreet dossier zijn analytische praktijk: wij hebben hier geen ITAA-norm of CBN-advies dat de procedure gecodificeerd vastlegt. De stappen volgen de redeneerlogica die elke fiscaal raadgever zou volgen.
+> De **lokaliseringsfactoren per belasting** zijn bindend gecodificeerd in de VCF (Vlaanderen), de Brusselse Codex Fiscale Procedure en federale wetten (Wb. Succ., Wb. Reg., WIB92 art. 249) — dat is het wettelijke deel. De **stappen om die factoren systematisch toe te passen** in een concreet dossier zijn analytische praktijk: wij hebben hier geen ITAA-norm of CBN-advies dat de procedure gecodificeerd vastlegt. De stappen volgen de redeneerlogica die elke fiscaal raadgever zou volgen.
 
 ## Aanbevolen werkwijze
 
@@ -63,17 +63,17 @@ Per situatie kan **één** of **meerdere** gewestelijke belastingen verschuldigd
 > 📤 **Uitkomst**:
 > - Per belasting: de wettelijk vastgelegde lokaliseringsfactor (woonplaats / ligging goed / zetel / inschrijvingsdatum)
 
-**Waarom**: de federale wetgever heeft per belastingtype een verschillend **aanknopingspunt** vastgelegd. Een verkoper raden op basis van zijn woonplaats het verkooprecht te bepalen leidt tot foute conclusie — want het criterium is de ligging van het pand, niet de woonplaats van de verkoper. *(Grondslag: [[bronnen/wetteksten/IVA-vcf|VCF]] + Wb. Reg., Wb. Succ., WIB92 — verschilt per belasting)*
+**Waarom**: de federale wetgever heeft per belastingtype een verschillend **aanknopingspunt** vastgelegd. Een verkoper raden op basis van zijn woonplaats het verkooprecht te bepalen leidt tot foute conclusie — want het criterium is de ligging van het pand, niet de woonplaats van de verkoper. *(Grondslag: VCF + Wb. Reg., Wb. Succ., WIB92 — verschilt per belasting)*
 
 | Belasting | Lokaliseringsfactor | Bron |
 |---|---|---|
-| **OV** | Ligging van het onroerend goed | [[bronnen/wetteksten/IVA-vcf#art-21101\|VCF art. 2.1.1.0.1]]; WIB92 art. 249 |
-| **Erfbelasting (rijksinwoner)** | **Fiscale woonplaats overledene** op datum overlijden — bij verhuis: het gewest waar overledene de **langste fiscale woonplaats** had in de **laatste 5 jaar** vóór overlijden | BFW art. 5 §2; [[bronnen/wetteksten/IVA-vcf#art-27101\|VCF art. 2.7.1.0.1]] (belastbaar feit); Wb. Succ. art. 1 |
-| **Schenkbelasting (schenker rijksinwoner)** | **Fiscale woonplaats schenker** op datum schenking — bij verhuis: gewest waar schenker langst woonde in laatste 5 jaar | BFW art. 5 §2; [[bronnen/wetteksten/IVA-vcf#art-28101\|VCF art. 2.8.1.0.1]]; Wb. Reg. |
-| **Verkooprecht / verdeelrecht** | **Ligging van het onroerend goed** | [[bronnen/wetteksten/IVA-vcf#art-29101\|VCF art. 2.9.1.0.1]]; Wb. Reg. |
-| **Verkeersbelasting (natuurlijke persoon)** | **Fiscale woonplaats** op 1 januari aanslagjaar | [[bronnen/wetteksten/IVA-vcf#art-22101\|VCF art. 2.2.1.0.1]] |
+| **OV** | Ligging van het onroerend goed | VCF art. 2.1.1.0.1; WIB92 art. 249 |
+| **Erfbelasting (rijksinwoner)** | **Fiscale woonplaats overledene** op datum overlijden — bij verhuis: het gewest waar overledene de **langste fiscale woonplaats** had in de **laatste 5 jaar** vóór overlijden | BFW art. 5 §2; VCF art. 2.7.1.0.1 (belastbaar feit); Wb. Succ. art. 1 |
+| **Schenkbelasting (schenker rijksinwoner)** | **Fiscale woonplaats schenker** op datum schenking — bij verhuis: gewest waar schenker langst woonde in laatste 5 jaar | BFW art. 5 §2; VCF art. 2.8.1.0.1; Wb. Reg. |
+| **Verkooprecht / verdeelrecht** | **Ligging van het onroerend goed** | VCF art. 2.9.1.0.1; Wb. Reg. |
+| **Verkeersbelasting (natuurlijke persoon)** | **Fiscale woonplaats** op 1 januari aanslagjaar | VCF art. 2.2.1.0.1 |
 | **Verkeersbelasting (rechtspersoon)** | **Statutaire zetel** | Idem |
-| **BIV** | Bij inschrijving: woonplaats / zetel op datum inschrijving | [[bronnen/wetteksten/IVA-vcf#art-23101\|VCF art. 2.3.1.0.1]] |
+| **BIV** | Bij inschrijving: woonplaats / zetel op datum inschrijving | VCF art. 2.3.1.0.1 |
 | **Aanvullende GB op PB** | **Fiscale woonplaats op 1 januari** aanslagjaar | WIB92 art. 466 |
 
 > [!warning]- Statutaire zetel ≠ werkelijke leiding voor de VB op rechtspersonen
@@ -127,7 +127,7 @@ Peildatums per belasting (samenvatting):
 > | BHG | 10/3/2020 | 31/12/2021 | ≈ 1 jaar 9 maanden |
 > | Vlaanderen | 1/1/2022 | 10/3/2025 | ≈ 3 jaar 2 maanden |
 >
-> Vlaanderen wint → **Vlabel** is bevoegd voor de erfbelasting. De [[bronnen/wetteksten/IVA-vcf|VCF]] en de Vlaamse tarieven zijn van toepassing — niet de Brusselse, ondanks de langere absolute aanwezigheid in BHG (vóór de peilperiode telt niet mee).
+> Vlaanderen wint → **Vlabel** is bevoegd voor de erfbelasting. De VCF en de Vlaamse tarieven zijn van toepassing — niet de Brusselse, ondanks de langere absolute aanwezigheid in BHG (vóór de peilperiode telt niet mee).
 >
 > 🤖 *AI-aanvulling*
 
@@ -144,13 +144,13 @@ Peildatums per belasting (samenvatting):
 
 | Bevoegd gewest | Administratie | Bezwaartermijn | Specifieke aandachtspunten |
 |---|---|---|---|
-| **Vlaanderen** | Vlabel | 3 maanden ([[bronnen/wetteksten/IVA-vcf#art-35201\|VCF art. 3.5.2.0.1]]) | VCF-procedure |
+| **Vlaanderen** | Vlabel | 3 maanden (VCF art. 3.5.2.0.1) | VCF-procedure |
 | **Brussel** | Brussel Fiscaliteit (overgedragen overheveling sinds 2018) of FOD Financiën (rest) | Per belasting verschillend; check BCFP | NL/FR taalkeuze |
 | **Wallonië** | SPW (eigen Waalse) of FOD Financiën (federaal geïnde overgedragen) | Per belasting verschillend | FR-talige administratie |
 
 > [!info]- Concreet: na stap 3 → klant-conclusie voor erfbelasting
 >
-> "Voor de nalatenschap van mevrouw V. is **Vlabel** bevoegd op grond van de regel van de langste fiscale woonplaats in de laatste 5 jaar (Vlaanderen 3j2m vs. BHG 1j9m). De aangifte moet binnen **4 maanden** na overlijden (verlengbaar met 2 maanden) worden ingediend bij Vlabel via MyMinfin/Vlabel-portaal. Tarief volgens [[bronnen/wetteksten/IVA-vcf|VCF]] Titel 2 Hfdst 7 — voor de specifieke berekening: zie [[aangifte-nalatenschap-opmaken|aangifte nalatenschap]]."
+> "Voor de nalatenschap van mevrouw V. is **Vlabel** bevoegd op grond van de regel van de langste fiscale woonplaats in de laatste 5 jaar (Vlaanderen 3j2m vs. BHG 1j9m). De aangifte moet binnen **4 maanden** na overlijden (verlengbaar met 2 maanden) worden ingediend bij Vlabel via MyMinfin/Vlabel-portaal. Tarief volgens VCF Titel 2 Hfdst 7 — voor de specifieke berekening: zie [[aangifte-nalatenschap-opmaken|aangifte nalatenschap]]."
 >
 > 🤖 *AI-aanvulling*
 
@@ -166,7 +166,7 @@ Peildatums per belasting (samenvatting):
 >
 > **Conclusie**: voor AJ 2025 betaalt hij OV aan Vlabel (ligging pand), VB aan Vlabel (woonplaats op 1/1/2025), en aanvullende GB van de Vlaamse gemeente Knokke-Heist (woonplaats op 1/1/2025).
 >
-> **Grondslag**: [[bronnen/wetteksten/IVA-vcf#art-21101|VCF art. 2.1.1.0.1]] (OV — ligging); [[bronnen/wetteksten/IVA-vcf#art-22101|VCF art. 2.2.1.0.1]] (VB — fiscale woonplaats); WIB92 art. 466 (aanvullende GB — woonplaats 1/1).
+> **Grondslag**: VCF art. 2.1.1.0.1 (OV — ligging); VCF art. 2.2.1.0.1 (VB — fiscale woonplaats); WIB92 art. 466 (aanvullende GB — woonplaats 1/1).
 >
 > **Redenering**:
 > - **OV**: peildatum 1/1/2025; pand in Vlaanderen → Vlabel int. (Was overigens al zo in 2024 — ligging is altijd bepalend, woonplaats irrelevant voor OV.)
@@ -181,7 +181,7 @@ Peildatums per belasting (samenvatting):
 >
 > **Conclusie**: vandaag betaalt de bv VB aan **Brussel Fiscaliteit** voor alle 8 voertuigen (statutaire zetel doorslaggevend). Verhuis van de statutaire zetel naar Antwerpen maakt **Vlabel** bevoegd vanaf het volgende aanslagjaar — wat voordelig of nadelig kan zijn naargelang de voertuigcategorieën (Vlaamse vergroeningsformule vs. Brussels regime).
 >
-> **Grondslag**: [[bronnen/wetteksten/IVA-vcf#art-22101|VCF art. 2.2.1.0.1]] — voor rechtspersonen is de statutaire zetel doorslaggevend (analoog in BCFP voor BHG-bevoegdheid).
+> **Grondslag**: VCF art. 2.2.1.0.1 — voor rechtspersonen is de statutaire zetel doorslaggevend (analoog in BCFP voor BHG-bevoegdheid).
 >
 > **Redenering**: de werkelijke leiding speelt geen rol voor de gewestelijke VB op een rechtspersoon — de wettelijke aanknoping is uitsluitend de statutaire zetel. Dit is het tegenovergestelde van de **federale Ven.B** waar de werkelijke leiding kan doorslaggevend zijn voor onbeperkte fiscale aansprakelijkheid (WIB92 art. 2 §1, 5°). Voor de gewestelijke heffing telt de zetel zoals ingeschreven in het KBO en in de aangifte van de bv.
 >
@@ -212,7 +212,7 @@ Peildatums per belasting (samenvatting):
 > >
 > > **Brussels Hoofdstedelijk Gewest.**
 > >
-> > Op grond van de **5-jaarsregel** (BFW art. 5 §2; aanknoping ook in [[bronnen/wetteksten/IVA-vcf#art-27101|VCF art. 2.7.1.0.1]] en Wb. Succ. art. 1) is het bevoegd gewest dat waar de overledene in de **laatste 5 jaar** vóór overlijden de **langste fiscale woonplaats** had.
+> > Op grond van de **5-jaarsregel** (BFW art. 5 §2; aanknoping ook in VCF art. 2.7.1.0.1 en Wb. Succ. art. 1) is het bevoegd gewest dat waar de overledene in de **laatste 5 jaar** vóór overlijden de **langste fiscale woonplaats** had.
 > >
 > > Berekening (peilperiode 5/5/2020 – 5/5/2025):
 > > - Etterbeek (BHG): van 5/5/2020 tot 30/9/2022 = ongeveer 2 jaar 5 maanden

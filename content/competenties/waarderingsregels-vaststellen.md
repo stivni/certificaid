@@ -32,7 +32,7 @@ Het bepalen, documenteren en periodiek herzien van de waarderingsregels van een 
 
 Het [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|getrouwe beeld]] is de primaire norm — de waarderingsregels zijn het instrument om dat beeld te bereiken en te bewaken. Zonder dit doel voorop te stellen, bestaat het risico dat methoden worden gekozen op basis van fiscale opportuniteit terwijl ze het boekhoudkundig beeld vertekenen.
 
-De wet schrijft geen universele methodes voor maar verplicht het bestuursorgaan tot een gemotiveerde keuze die past bij de eigen kenmerken van de vennootschap ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1]]). De keuzeruimte is reëel maar niet onbeperkt: elke gekozen methode moet bijdragen aan het getrouwe beeld.
+De wet schrijft geen universele methodes voor maar verplicht het bestuursorgaan tot een gemotiveerde keuze die past bij de eigen kenmerken van de vennootschap (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6 §1). De keuzeruimte is reëel maar niet onbeperkt: elke gekozen methode moet bijdragen aan het getrouwe beeld.
 
 **Twee spanningsvelden die bewuste afweging vereisen:**
 
@@ -108,7 +108,7 @@ De wet biedt per rubriek een beperkt menu van aanvaardbare methoden. De keuze is
 
 **Materiële vaste activa — afschrijvingsmethode**
 
-De wet schrijft geen methode voor. De drie gangbare methoden ([[bronnen/wetteksten/XV-KB-wvv#art-326|KB WVV art. 3:26]]):
+De wet schrijft geen methode voor. De drie gangbare methoden (KB WVV art. 3:26):
 
 ```
 Lineaire methode       → jaarlijks gelijk bedrag
@@ -149,7 +149,7 @@ Software                   3–5 jaar          3 jaar
 
 **Voorraden — methode voor identieke goederen**
 
-Voor voorraden van identieke goederen zijn vier methoden aanvaardbaar ([[bronnen/wetteksten/XV-KB-wvv#art-321|KB WVV art. 3:21]]):
+Voor voorraden van identieke goederen zijn vier methoden aanvaardbaar (KB WVV art. 3:21):
 
 ```
 Individualisering     → per stuk gevolgd (bv. exclusieve goederen, dure machines)
@@ -165,11 +165,11 @@ De gekozen methode heeft directe impact op de kostprijs van de verkopen en dus o
 
 **Vorderingen — nominale waarde en discontobepaling**
 
-Vorderingen worden opgenomen voor hun **nominale waarde** ([[bronnen/wetteksten/XV-KB-wvv#art-345|KB WVV art. 3:45]]). Voor vorderingen op meer dan één jaar die renteloos zijn of abnormaal laag rentend, beslist de onderneming of ze een disconto boekt in de overlopende rekeningen. Dit is geen vrije keuze maar een consequentie van het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] — enkel relevant bij vorderingen die betrekking hebben op opbrengsten of overdracht van vaste activa.
+Vorderingen worden opgenomen voor hun **nominale waarde** (KB WVV art. 3:45). Voor vorderingen op meer dan één jaar die renteloos zijn of abnormaal laag rentend, beslist de onderneming of ze een disconto boekt in de overlopende rekeningen. Dit is geen vrije keuze maar een consequentie van het [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsbeginsel]] — enkel relevant bij vorderingen die betrekking hebben op opbrengsten of overdracht van vaste activa.
 
 **Vreemde valuta — omrekeningsmethode**
 
-De gekozen methode en grondslagen worden verplicht vermeld in de toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-312|KB WVV art. 3:12]]). De gangbare keuzes:
+De gekozen methode en grondslagen worden verplicht vermeld in de toelichting (KB WVV art. 3:12). De gangbare keuzes:
 
 ```
 Methode                Wanneer zinvol
@@ -187,7 +187,7 @@ De onderneming bepaalt welke criteria leiden tot het aanleggen of herzien van ee
 > [!warning]- Afschrijvingen mogen niet afhangen van het resultaat van het boekjaar
 > ❌ *"Een onderneming mag haar afschrijvingsplan aanpassen als het resultaat tegenvalt."*
 >
-> Afschrijvingen worden **stelselmatig** gevormd volgens het vastgelegde plan en mogen **niet afhangen van het resultaat** van het boekjaar ([[bronnen/wetteksten/XV-KB-wvv#art-326|KB WVV art. 3:26]]). Willekeurig verlagen om een verlies te maskeren schendt zowel het [[boekhoudkundige-beginselen#-stelselmatigheidsbeginsel|stelselmatigheidsbeginsel]] als de [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsregel]]. De enige legitieme reden voor aanpassing is een structurele wijziging in de economische realiteit van het actief — niet een tegenvallend resultaat.
+> Afschrijvingen worden **stelselmatig** gevormd volgens het vastgelegde plan en mogen **niet afhangen van het resultaat** van het boekjaar (KB WVV art. 3:26). Willekeurig verlagen om een verlies te maskeren schendt zowel het [[boekhoudkundige-beginselen#-stelselmatigheidsbeginsel|stelselmatigheidsbeginsel]] als de [[boekhoudkundige-beginselen#-voorzichtigheid-waarachtigheid-en-goede-trouw|voorzichtigheidsregel]]. De enige legitieme reden voor aanpassing is een structurele wijziging in de economische realiteit van het actief — niet een tegenvallend resultaat.
 >
 > 🤖 *AI-aanvulling*
 
@@ -226,7 +226,7 @@ De onderneming bepaalt welke criteria leiden tot het aanleggen of herzien van ee
 > - Volledig document waarderingsregels (voor het inventarisboek)
 > - Samenvatting voor de toelichting bij de jaarrekening
 
-Het bestuursorgaan is wettelijk verplicht de waarderingsregels vast te leggen in het inventarisboek en ze samen te vatten in de toelichting bij de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6 §1]]). De samenvatting in de toelichting moet voldoende nauwkeurig zijn zodat de lezer inzicht krijgt in de toegepaste waarderingsmethoden.
+Het bestuursorgaan is wettelijk verplicht de waarderingsregels vast te leggen in het inventarisboek en ze samen te vatten in de toelichting bij de jaarrekening (KB WVV art. 3:6 §1). De samenvatting in de toelichting moet voldoende nauwkeurig zijn zodat de lezer inzicht krijgt in de toegepaste waarderingsmethoden.
 
 Het document bestaat uit twee lagen:
 1. **Volledig document** — opgenomen in het inventarisboek, beschikbaar bij controle en audit; bevat de volledige motivering per keuze
@@ -297,7 +297,7 @@ Datum: [datum] | Volgende herziening: [datum]
 > - rente op vreemd vermogen in aanschaffingswaarde (art. 3:16)
 > - waarderingsmethode vreemde valuta (art. 3:12)
 >
-> Microvennootschappen zijn **niet** verplicht een samenvatting van de waarderingsregels op te nemen in de toelichting ([[bronnen/wetteksten/XV-KB-wvv#art-361|KB WVV art. 3:61 §3]]).
+> Microvennootschappen zijn **niet** verplicht een samenvatting van de waarderingsregels op te nemen in de toelichting (KB WVV art. 3:61 §3).
 >
 > 🤖 *AI-aanvulling*
 
@@ -309,7 +309,7 @@ Datum: [datum] | Volgende herziening: [datum]
 > 📤 **Uitkomst**:
 > - Formeel vastgestelde waarderingsregels (notulen + opname in inventarisboek)
 
-De wet legt de bevoegdheid uitdrukkelijk bij het **bestuursorgaan**: het bestuursorgaan bepaalt de regels en legt ze vast ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6 §1]]). Dit is geen delegeerbare administratieve taak — het is een governance-beslissing die formeel moet worden genomen en gedocumenteerd.
+De wet legt de bevoegdheid uitdrukkelijk bij het **bestuursorgaan**: het bestuursorgaan bepaalt de regels en legt ze vast (KB WVV art. 3:6 §1). Dit is geen delegeerbare administratieve taak — het is een governance-beslissing die formeel moet worden genomen en gedocumenteerd.
 
 **Werkwijze als beroepsbeoefenaar:**
 
@@ -331,7 +331,7 @@ Controlelijst bestuursorgaan-goedkeuring
 > [!warning]- Bestuursorgaan moet de regels vaststellen, niet alleen goedkeuren na opmaak door derden
 > ❌ *"De accountant maakt de waarderingsregels op en het bestuursorgaan tekent ze achteraf."*
 >
-> De wettelijke verantwoordelijkheid ligt bij het **bestuursorgaan** — niet bij de externe beroepsbeoefenaar. Het bestuursorgaan *bepaalt* de regels ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6 §1]]). In de praktijk worden de waarderingsregels vaak opgesteld met hulp van de externe boekhouder of accountant, maar de formele vaststelling (en dus de verantwoordelijkheid) blijft bij het bestuursorgaan. Zorg als beroepsbeoefenaar dat de notulen dit reflecteren: geen handtekening van de bestuurder onder een document dat de accountant heeft opgesteld, maar een formele vaststelling in de notulen.
+> De wettelijke verantwoordelijkheid ligt bij het **bestuursorgaan** — niet bij de externe beroepsbeoefenaar. Het bestuursorgaan *bepaalt* de regels (KB WVV art. 3:6 §1). In de praktijk worden de waarderingsregels vaak opgesteld met hulp van de externe boekhouder of accountant, maar de formele vaststelling (en dus de verantwoordelijkheid) blijft bij het bestuursorgaan. Zorg als beroepsbeoefenaar dat de notulen dit reflecteren: geen handtekening van de bestuurder onder een document dat de accountant heeft opgesteld, maar een formele vaststelling in de notulen.
 >
 > 🤖 *AI-aanvulling*
 
@@ -344,7 +344,7 @@ Controlelijst bestuursorgaan-goedkeuring
 > 📤 **Uitkomst**:
 > - Bevestiging dat bestaande regels voldoen, of: herziene regels + toelichting van de wijziging
 
-Het [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]] eist dat waarderingsregels van jaar tot jaar identiek worden toegepast. Maar dezelfde wet verplicht tot herziening zodra de bestaande regels door gewijzigde omstandigheden niet langer voldoen aan het getrouwe beeld ([[bronnen/wetteksten/XV-KB-wvv#art-38|KB WVV art. 3:8]]). Actieve monitoring is dus geen optie maar een verplichting.
+Het [[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]] eist dat waarderingsregels van jaar tot jaar identiek worden toegepast. Maar dezelfde wet verplicht tot herziening zodra de bestaande regels door gewijzigde omstandigheden niet langer voldoen aan het getrouwe beeld (KB WVV art. 3:8). Actieve monitoring is dus geen optie maar een verplichting.
 
 **Wanneer zijn bestaande regels niet langer adequaat?**
 
@@ -381,7 +381,7 @@ Art. 3:8 stelt geen exhaustieve lijst van aanvaardbare redenen vast. De toets is
 
 1. Motivering van de wijziging in het document (de omstandigheidswijziging die tot de herziene methode leidt)
 2. Hernieuwde vaststelling door het bestuursorgaan
-3. Vermelding in de toelichting bij de jaarrekening over het boekjaar van eerste toepassing — inclusief de **geraamde invloed op vermogen, financiële positie en resultaat** ([[bronnen/wetteksten/XV-KB-wvv#art-37|KB WVV art. 3:7 lid 3]] via art. 3:8 lid 3)
+3. Vermelding in de toelichting bij de jaarrekening over het boekjaar van eerste toepassing — inclusief de **geraamde invloed op vermogen, financiële positie en resultaat** (KB WVV art. 3:7 lid 3 via art. 3:8 lid 3)
 
 > [!warning]- Consistentiebeginsel verbiedt willekeurige wijzigingen, niet gemotiveerde aanpassingen
 > ❌ *"Eens een methode gekozen, mag die nooit meer worden gewijzigd."*
@@ -393,7 +393,7 @@ Art. 3:8 stelt geen exhaustieve lijst van aanvaardbare redenen vast. De toets is
 > [!warning]- Wijziging van waarderingsregel vereist vermelding van de impact in de toelichting
 > ❌ *"Het volstaat te vermelden dat de methode is gewijzigd — de impact hoeft niet gekwantificeerd te worden."*
 >
-> Art. 3:7 lid 3 (via art. 3:8 lid 3) vereist dat bij de toelichting over het boekjaar van eerste toepassing ook de **geraamde invloed op vermogen, financiële positie en resultaat** wordt vermeld ([[bronnen/wetteksten/XV-KB-wvv#art-37|KB WVV art. 3:7]]). De naam van de nieuwe methode is niet genoeg — de lezer moet kunnen inschatten hoe de switch het beeld wijzigt.
+> Art. 3:7 lid 3 (via art. 3:8 lid 3) vereist dat bij de toelichting over het boekjaar van eerste toepassing ook de **geraamde invloed op vermogen, financiële positie en resultaat** wordt vermeld (KB WVV art. 3:7). De naam van de nieuwe methode is niet genoeg — de lezer moet kunnen inschatten hoe de switch het beeld wijzigt.
 >
 > 🤖 *AI-aanvulling*
 

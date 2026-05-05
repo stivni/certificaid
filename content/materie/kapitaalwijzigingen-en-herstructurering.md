@@ -27,7 +27,7 @@ Een kapitaalverhoging is een verrichting waarbij het geplaatst kapitaal van de N
 Drie vormen:
 
 - **In geld**: de aandeelhouders verbinden zich tot een nieuwe geldinbreng in ruil voor nieuwe aandelen.
-- **In natura**: een aandeelhouder brengt een niet-geldelijk goed in (gebouw, voertuig, vordering). Vereist een bestuursverslag met gemotiveerde waardering en een onafhankelijk revisorverslag ([[bronnen/wetteksten/XV-wvv#art-77|WVV art. 7:7]]).
+- **In natura**: een aandeelhouder brengt een niet-geldelijk goed in (gebouw, voertuig, vordering). Vereist een bestuursverslag met gemotiveerde waardering en een onafhankelijk revisorverslag (WVV art. 7:7).
 - **Door incorporatie van reserves of uitgiftepremies**: bestaande eigen vermogenscomponenten worden omgezet in kapitaal zonder nieuwe inbreng.
 
 Met of zonder **uitgiftepremie** (rubriek 11 / rekening 110): het verschil tussen de uitgifteprijs en de fractiewaarde of nominale waarde van de nieuwe aandelen vergoedt de bestaande aandeelhouders voor de verwateringseffecten.
@@ -38,7 +38,7 @@ Met of zonder **uitgiftepremie** (rubriek 11 / rekening 110): het verschil tusse
 
 De BV en CV kennen geen "kapitaalverhoging" in de klassieke zin: ze hebben geen wettelijk kapitaal. Het equivalent is de uitgifte van nieuwe aandelen tegen een nieuwe inbreng — in geld of in natura — die de [[eigen-vermogen#-inbreng-bv-en-cv-en-kapitaal-nv|inbreng buiten kapitaal]] (rubriek I, rekening 110/111) verhoogt.
 
-Bij inbreng in natura bij de BV gelden analoge verslaggevingsverplichtingen als bij de NV: bestuursverslag met gemotiveerde waardering + onafhankelijk revisorverslag ([[bronnen/wetteksten/XV-wvv#art-5133|WVV art. 5:133]]).
+Bij inbreng in natura bij de BV gelden analoge verslaggevingsverplichtingen als bij de NV: bestuursverslag met gemotiveerde waardering + onafhankelijk revisorverslag (WVV art. 5:133).
 
 ---
 
@@ -46,10 +46,10 @@ Bij inbreng in natura bij de BV gelden analoge verslaggevingsverplichtingen als 
 
 Een kapitaalverlaging is een verrichting waarbij het geplaatst kapitaal van de NV wordt verminderd. Twee hoofdvormen:
 
-- **Terugbetaling aan aandeelhouders**: het vrijgekomen bedrag wordt teruggegeven aan de aandeelhouders. De **wachttermijn van twee maanden** is verplicht: schuldeisers met een vaststaande, nog niet-opeisbare schuldvordering kunnen zekerheid eisen tijdens die periode ([[bronnen/wetteksten/XV-wvv#art-7209|WVV art. 7:209]]).
-- **Aanzuivering van verlies**: het kapitaal wordt verminderd om overgedragen verliezen te absorberen. Hiervoor geldt **geen wachttermijn** ([[bronnen/wetteksten/XV-wvv#art-7210|WVV art. 7:210]]).
+- **Terugbetaling aan aandeelhouders**: het vrijgekomen bedrag wordt teruggegeven aan de aandeelhouders. De **wachttermijn van twee maanden** is verplicht: schuldeisers met een vaststaande, nog niet-opeisbare schuldvordering kunnen zekerheid eisen tijdens die periode (WVV art. 7:209).
+- **Aanzuivering van verlies**: het kapitaal wordt verminderd om overgedragen verliezen te absorberen. Hiervoor geldt **geen wachttermijn** (WVV art. 7:210).
 
-Beide vormen vereisen een statutenwijziging en worden beslist door de algemene vergadering ([[bronnen/wetteksten/XV-wvv#art-7208|WVV art. 7:208]]).
+Beide vormen vereisen een statutenwijziging en worden beslist door de algemene vergadering (WVV art. 7:208).
 
 ---
 
@@ -65,14 +65,14 @@ Bij de BV en CV heeft een terugbetaling van inbreng aan aandeelhouders dezelfde 
 
 Een fusie is de rechtshandeling waarbij het gehele vermogen van één of meer vennootschappen — zowel de rechten als de verplichtingen — als gevolg van ontbinding **zonder vereffening** overgaat op een andere (bestaande of nieuw opgerichte) vennootschap, tegen uitreiking van aandelen aan de aandeelhouders van de verdwijnende vennootschap.
 
-Het WVV onderscheidt twee vormen ([[bronnen/wetteksten/XV-wvv#art-122|WVV art. 12:2]] en [[bronnen/wetteksten/XV-wvv#art-123|art. 12:3]]):
+Het WVV onderscheidt twee vormen (WVV art. 12:2 en art. 12:3):
 
 - **Fusie door overneming**: vermogen van vennootschap A gaat over op bestaande vennootschap B; A verdwijnt.
 - **Fusie door oprichting van een nieuwe vennootschap**: vermogens van A en B gaan beide over op nieuwe vennootschap C; A en B verdwijnen.
 
-Rechtsgevolgen treden van **rechtswege** in: de overgenomen vennootschap houdt op te bestaan, haar vermogen gaat universeel over, en haar aandeelhouders worden aandeelhouder van de verkrijgende vennootschap ([[bronnen/wetteksten/XV-wvv#art-1213|WVV art. 12:13]]).
+Rechtsgevolgen treden van **rechtswege** in: de overgenomen vennootschap houdt op te bestaan, haar vermogen gaat universeel over, en haar aandeelhouders worden aandeelhouder van de verkrijgende vennootschap (WVV art. 12:13).
 
-Gelijkgestelde verrichtingen (bv. 100%-dochterfusie zonder uitgifte van nieuwe aandelen): [[bronnen/wetteksten/XV-wvv#art-127|WVV art. 12:7]].
+Gelijkgestelde verrichtingen (bv. 100%-dochterfusie zonder uitgifte van nieuwe aandelen): WVV art. 12:7.
 
 ---
 
@@ -82,13 +82,13 @@ Gelijkgestelde verrichtingen (bv. 100%-dochterfusie zonder uitgifte van nieuwe a
 
 Een splitsing is de rechtshandeling waarbij het gehele vermogen van een vennootschap, als gevolg van ontbinding **zonder vereffening**, wordt verdeeld over twee of meer vennootschappen.
 
-Hoofdvormen ([[bronnen/wetteksten/XV-wvv#art-124|WVV art. 12:4–12:6]]):
+Hoofdvormen (WVV art. 12:4–12:6):
 
 - **Splitsing door overneming**: vermogen van A wordt verdeeld over bestaande vennootschappen B en C; A verdwijnt.
 - **Splitsing door oprichting van nieuwe vennootschappen**: A verdwijnt; haar vermogen wordt verdeeld over nieuw opgerichte vennootschappen.
 - **Gemengde splitsing**: combinatie van beide.
 
-**Gelijkgestelde verrichtingen** — ook als "partiële splitsing" of "inbreng van bedrijfstak" aangeduid ([[bronnen/wetteksten/XV-wvv#art-128|WVV art. 12:8]]):
+**Gelijkgestelde verrichtingen** — ook als "partiële splitsing" of "inbreng van bedrijfstak" aangeduid (WVV art. 12:8):
 
 - **Partiële splitsing** (art. 12:8, 1°): een deel van het vermogen gaat over zonder ontbinding van de overdragende vennootschap. De overdragende vennootschap blijft bestaan.
 - **Inbreng van algemeenheid** (art. 12:9): het volledige vermogen gaat over zonder ontbinding, tegen uitsluitend aandelen.
@@ -117,21 +117,21 @@ Bij een **share deal** koopt de koper de aandelen van de doelvennootschap en boe
 
 De vereffening is de procedure waarbij een ontbonden vennootschap haar activa realiseert (verkoopt of omzet in geld), haar schuldeisers betaalt en het eventuele resterende saldo uitkeert aan de aandeelhouders. Pas na de vereffening houdt de vennootschap definitief op te bestaan.
 
-**Drie ontbindingsvormen** ([[bronnen/wetteksten/XV-wvv#art-270|WVV art. 2:70]]):
+**Drie ontbindingsvormen** (WVV art. 2:70):
 
 1. **Vrijwillige ontbinding**: beslissing van de algemene vergadering.
 2. **Ontbinding van rechtswege**: door verstrijken van de duur of vervulling van een ontbindende voorwaarde.
 3. **Gerechtelijke ontbinding**: door de ondernemingsrechtbank.
 
-De ontbinding heeft de **afsluiting van het boekjaar** tot gevolg — de vennootschap maakt een laatste jaarrekening op voor de periode tot de ontbindingsdatum ([[bronnen/wetteksten/XV-wvv#art-270|WVV art. 2:70, lid 2]]; CBN-advies 2022/04).
+De ontbinding heeft de **afsluiting van het boekjaar** tot gevolg — de vennootschap maakt een laatste jaarrekening op voor de periode tot de ontbindingsdatum (WVV art. 2:70, lid 2; CBN-advies 2022/04).
 
-Onmiddellijke sluiting in één akte (ontbinding + vereffening tegelijk) is mogelijk als alle schulden zijn terugbetaald of geconsigneerd ([[bronnen/wetteksten/XV-wvv#art-280|WVV art. 2:80]]).
+Onmiddellijke sluiting in één akte (ontbinding + vereffening tegelijk) is mogelijk als alle schulden zijn terugbetaald of geconsigneerd (WVV art. 2:80).
 
 ---
 
 ## ⚖️ Boekhoudkundig continuïteitsbeginsel bij fusie en splitsing
 
-Bij een fusie, splitsing of gelijkgestelde verrichting neemt de verkrijgende vennootschap de activa, passiva en eigen vermogensbestanddelen over **tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen** op de datum van de verrichting ([[bronnen/wetteksten/XV-KB-wvv#art-356|KB WVV art. 3:56]]).
+Bij een fusie, splitsing of gelijkgestelde verrichting neemt de verkrijgende vennootschap de activa, passiva en eigen vermogensbestanddelen over **tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen** op de datum van de verrichting (KB WVV art. 3:56).
 
 Dit betekent:
 
@@ -139,14 +139,14 @@ Dit betekent:
 - De boekwaarden, afschrijvingen, waardeverminderingen en voorzieningen gaan mee over
 - De fiscale samenstelling van het eigen vermogen (belaste reserves, belastingvrije reserves, gestort kapitaal) wordt door de verkrijgende vennootschap gerepliceerd
 
-**Consequentie voor het eigen vermogen**: het verschil tussen de netto-boekwaarde van het overgenomen vermogen en de tegenwaarde die de verkrijgende vennootschap verstrekt (= de boekhoudkundige pariteitswaarde van de nieuw uitgegeven aandelen) wordt verwerkt via de regels in [[bronnen/wetteksten/XV-KB-wvv#art-377|KB WVV art. 3:77]] (fusies) en [[bronnen/wetteksten/XV-KB-wvv#art-378|art. 3:78]] (splitsingen). Het verschil wordt aangerekend op of onttrokken aan de reserves van de verkrijgende vennootschap (CBN-advies 2021/10).
+**Consequentie voor het eigen vermogen**: het verschil tussen de netto-boekwaarde van het overgenomen vermogen en de tegenwaarde die de verkrijgende vennootschap verstrekt (= de boekhoudkundige pariteitswaarde van de nieuw uitgegeven aandelen) wordt verwerkt via de regels in KB WVV art. 3:77 (fusies) en art. 3:78 (splitsingen). Het verschil wordt aangerekend op of onttrokken aan de reserves van de verkrijgende vennootschap (CBN-advies 2021/10).
 
-**Inbreng van bedrijfstak/algemeenheid**: zelfde principe — continuïteitsbeginsel van toepassing zodra de verrichting voldoet aan de definitie van art. 12:9–12:11 WVV ([[bronnen/wetteksten/XV-KB-wvv#art-357|KB WVV art. 3:57]]; CBN-advies 2009/15).
+**Inbreng van bedrijfstak/algemeenheid**: zelfde principe — continuïteitsbeginsel van toepassing zodra de verrichting voldoet aan de definitie van art. 12:9–12:11 WVV (KB WVV art. 3:57; CBN-advies 2009/15).
 
 > [!warning]- Fusie boekhoudkundig herwaarderen op reële waarde
 > ❌ *"Bij een fusie door overneming worden de overgenomen activa opgenomen tegen hun reële waarde (fair value)."*
 >
-> Dit is IFRS-logica (IFRS 3 Bedrijfscombinaties) — niet de Belgische boekhoudkundige norm. Onder het Belgisch recht geldt het **boekhoudkundig continuïteitsbeginsel**: de overgenomen activa en passiva worden opgenomen tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen ([[bronnen/wetteksten/XV-KB-wvv#art-356|KB WVV art. 3:56]]). Goodwill als activum ontstaat bijgevolg niet via een fusie in het Belgisch schema.
+> Dit is IFRS-logica (IFRS 3 Bedrijfscombinaties) — niet de Belgische boekhoudkundige norm. Onder het Belgisch recht geldt het **boekhoudkundig continuïteitsbeginsel**: de overgenomen activa en passiva worden opgenomen tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen (KB WVV art. 3:56). Goodwill als activum ontstaat bijgevolg niet via een fusie in het Belgisch schema.
 >
 > 🤖 *AI-aanvulling*
 
@@ -203,7 +203,7 @@ Bij onmiddellijke volstorting vervalt rekening 416:
 
 ### Terugbetaling aan aandeelhouders (NV)
 
-De terugbetaling mag pas plaatsvinden na het verstrijken van de **wachttermijn van twee maanden** voor schuldeisers ([[bronnen/wetteksten/XV-wvv#art-7209|WVV art. 7:209]]):
+De terugbetaling mag pas plaatsvinden na het verstrijken van de **wachttermijn van twee maanden** voor schuldeisers (WVV art. 7:209):
 
 ```
 Beslissing tot kapitaalverlaging (bij vaststelling schuld aan aandeelhouders):
@@ -226,7 +226,7 @@ Geen wachttermijn — geen schuld aan aandeelhouders:
 
 ### Terugbetaling inbreng (BV)
 
-Zelfde boekhoudkundige structuur als NV, maar via rekening **110** (beschikbare inbreng) of **111** (onbeschikbare inbreng). Vereist de dubbele uitkeringstest ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142–5:143]]) — zie [[eigen-vermogen#bv-dubbele-test-art-5142143-wvv|uitkeringstests BV]].
+Zelfde boekhoudkundige structuur als NV, maar via rekening **110** (beschikbare inbreng) of **111** (onbeschikbare inbreng). Vereist de dubbele uitkeringstest (WVV art. 5:142–5:143) — zie [[eigen-vermogen#bv-dubbele-test-art-5142143-wvv|uitkeringstests BV]].
 
 ---
 
@@ -269,7 +269,7 @@ Het eigen vermogen van A (350) gaat over; de uitreiking van nieuwe aandelen door
 
 ## 📋 Boeking vereffening — boekhoudkundige stappen
 
-Bij vereffening worden de waarderingsregels aangepast aan het **discontinuïteitsbeginsel**: activa worden gewaardeerd aan **vermoedelijke realisatiewaarde**, niet aan aanschaffingswaarde minus afschrijvingen ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6, §2]]; CBN-advies 2022/04).
+Bij vereffening worden de waarderingsregels aangepast aan het **discontinuïteitsbeginsel**: activa worden gewaardeerd aan **vermoedelijke realisatiewaarde**, niet aan aanschaffingswaarde minus afschrijvingen (KB WVV art. 3:6, §2; CBN-advies 2022/04).
 
 ```
 Stap 1 — aanpassing waarderingsregels bij ontbinding:
@@ -312,19 +312,19 @@ Stap 4 — uitkering resterende activa aan aandeelhouders:
 
 ## 🔒 Verplichtingen bij kapitaalverhoging in natura
 
-Bij elke **inbreng in natura** zijn drie formaliteiten verplicht ([[bronnen/wetteksten/XV-wvv#art-77|WVV art. 7:7]] voor NV; [[bronnen/wetteksten/XV-wvv#art-5133|WVV art. 5:133]] voor BV):
+Bij elke **inbreng in natura** zijn drie formaliteiten verplicht (WVV art. 7:7 voor NV; WVV art. 5:133 voor BV):
 
 1. **Bestuursverslag** (of oprichtersverslag bij oprichting): beschrijving van de inbreng, gemotiveerde waardering, vermelding van de vergoeding.
 2. **Revisorverslag**: een onafhankelijke bedrijfsrevisor controleert de beschrijving en de waarderingsmethode, en bevestigt dat de waarde ten minste overeenstemt met de tegenwaarde in aandelen.
 3. **Authentieke akte**: de beslissing tot kapitaalverhoging (en de inbreng) wordt vastgesteld bij notariële akte.
 
-**Uitzonderingen op revisorverslag** ([[bronnen/wetteksten/XV-wvv#art-77|WVV art. 7:7, §2]]): o.a. bij effecten die op een gereglementeerde markt worden verhandeld (gewogen gemiddelde koers), bij activa die reeds recent door een revisor werden gewaardeerd, of bij activa waarvan de waarde rechtstreeks uit de gecontroleerde jaarrekening kan worden afgeleid.
+**Uitzonderingen op revisorverslag** (WVV art. 7:7, §2): o.a. bij effecten die op een gereglementeerde markt worden verhandeld (gewogen gemiddelde koers), bij activa die reeds recent door een revisor werden gewaardeerd, of bij activa waarvan de waarde rechtstreeks uit de gecontroleerde jaarrekening kan worden afgeleid.
 
 ---
 
 ## 🔒 Verplichtingen bij fusie en splitsing
 
-Een fusie of splitsing vereist de volgende formaliteiten ([[bronnen/wetteksten/XV-wvv#art-1224|WVV art. 12:24–12:26]]):
+Een fusie of splitsing vereist de volgende formaliteiten (WVV art. 12:24–12:26):
 
 1. **Fusievoorstel** (of splitsingsvoorstel): door de bestuursorganen van alle betrokken vennootschappen opgesteld bij authentieke of onderhandse akte — neergelegd ten minste zes weken vóór het besluit.
 2. **Bestuursverslag** per betrokken vennootschap: juridische en economische toelichting van de wenselijkheid van de verrichting en de ruilverhouding.
@@ -338,11 +338,11 @@ Een fusie of splitsing vereist de volgende formaliteiten ([[bronnen/wetteksten/X
 
 ## 🔒 Verplichtingen bij vereffening
 
-1. **Besluit tot ontbinding** bij authentieke akte + **staat van activa en passiva** (niet ouder dan 3 maanden) + **bestuursverslag** + **bevestiging door commissaris of revisior** ([[bronnen/wetteksten/XV-wvv#art-271|WVV art. 2:71, §2]]).
+1. **Besluit tot ontbinding** bij authentieke akte + **staat van activa en passiva** (niet ouder dan 3 maanden) + **bestuursverslag** + **bevestiging door commissaris of revisior** (WVV art. 2:71, §2).
 2. **Wachttermijn** voor schuldeisers van twee maanden na bekendmaking — geldt bij gewone ontbinding met vereffening.
 3. **Jaarlijkse jaarrekening** door de vereffenaar, neer te leggen bij de NBB (CBN-advies 2022/04).
-4. **Omstandige staat** aan de griffie in de 7e en 13e maand na de invereffeningstelling ([[bronnen/wetteksten/XV-wvv#art-296|WVV art. 2:96]]).
-5. **Cijfermatig verslag** bij de sluiting van de vereffening + bekendmaking in het Belgisch Staatsblad ([[bronnen/wetteksten/XV-wvv#art-2100|WVV art. 2:100–2:103]]).
+4. **Omstandige staat** aan de griffie in de 7e en 13e maand na de invereffeningstelling (WVV art. 2:96).
+5. **Cijfermatig verslag** bij de sluiting van de vereffening + bekendmaking in het Belgisch Staatsblad (WVV art. 2:100–2:103).
 
 ---
 
@@ -353,7 +353,7 @@ Een fusie of splitsing vereist de volgende formaliteiten ([[bronnen/wetteksten/X
 | Verdwijnt overdragende vennootschap? | Ja — van rechtswege | Ja (bij zuivere splitsing) | Nee — blijft bestaan |
 | Wat gaat over? | Volledig vermogen | Volledig vermogen (verdeeld) | Één bedrijfsafdeling |
 | Vergoeding | Aandelen (+ max 1/10 opleg) | Aandelen (+ max 1/10 opleg) | Uitsluitend aandelen |
-| Continuïteitsbeginsel | Ja ([[bronnen/wetteksten/XV-KB-wvv#art-356|KB WVV art. 3:56]]) | Ja ([[bronnen/wetteksten/XV-KB-wvv#art-356|art. 3:56, §2]]) | Ja ([[bronnen/wetteksten/XV-KB-wvv#art-357|art. 3:57]]) |
+| Continuïteitsbeginsel | Ja (KB WVV art. 3:56) | Ja (art. 3:56, §2) | Ja (art. 3:57) |
 | Onafhankelijkheid overdragende vennootschap | n.v.t. | n.v.t. | Blijft zelfstandig |
 
 ---
@@ -365,9 +365,9 @@ Bij de BV is een terugbetaling van inbreng aan aandeelhouders een **uitkering** 
 > [!warning]- BV-terugbetaling zonder liquiditeitstest goedkeuren
 > ❌ *"De BV heeft voldoende beschikbare inbreng en het nettoactief blijft positief na de terugbetaling — de uitkering is toegestaan."*
 >
-> De BV heeft een **dubbele** test: naast de nettoactief-test ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]) moet het bestuursorgaan ook de **liquiditeitstest** ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]) uitvoeren. Dat vereist een formeel besluit van het bestuursorgaan waaruit blijkt dat de vennootschap na de uitkering gedurende ten minste twaalf maanden haar schulden kan voldoen. Ontbreekt dit besluit, dan is de uitkering onregelmatig — ongeacht de hoogte van het nettoactief.
+> De BV heeft een **dubbele** test: naast de nettoactief-test (WVV art. 5:142) moet het bestuursorgaan ook de **liquiditeitstest** (WVV art. 5:143) uitvoeren. Dat vereist een formeel besluit van het bestuursorgaan waaruit blijkt dat de vennootschap na de uitkering gedurende ten minste twaalf maanden haar schulden kan voldoen. Ontbreekt dit besluit, dan is de uitkering onregelmatig — ongeacht de hoogte van het nettoactief.
 >
-> Leden van het bestuursorgaan die wisten of behoorden te weten dat de vennootschap na de uitkering haar schulden niet meer kon betalen, zijn **hoofdelijk aansprakelijk** voor alle schade ([[bronnen/wetteksten/XV-wvv#art-5144|WVV art. 5:144]]).
+> Leden van het bestuursorgaan die wisten of behoorden te weten dat de vennootschap na de uitkering haar schulden niet meer kon betalen, zijn **hoofdelijk aansprakelijk** voor alle schade (WVV art. 5:144).
 >
 > 🤖 *AI-aanvulling*
 
@@ -378,9 +378,9 @@ Bij de BV is een terugbetaling van inbreng aan aandeelhouders een **uitkering** 
 > [!warning]- Kapitaal NV onmiddellijk terugbetalen na beslissing
 > ❌ *"De algemene vergadering besliste tot kapitaalvermindering met terugbetaling — het bedrag kan meteen aan de aandeelhouders worden uitgekeerd."*
 >
-> Bij een kapitaalvermindering die gepaard gaat met terugbetaling aan aandeelhouders, geldt een **verplichte wachttermijn van twee maanden** na bekendmaking van het besluit in de Bijlagen bij het Belgisch Staatsblad. Gedurende die periode kunnen schuldeisers met vaststaande, niet-opeisbare vorderingen zekerheid eisen ([[bronnen/wetteksten/XV-wvv#art-7209|WVV art. 7:209]]). Aan aandeelhouders mag geen uitkering worden gedaan zolang die schuldeisers geen voldoening hebben gekregen.
+> Bij een kapitaalvermindering die gepaard gaat met terugbetaling aan aandeelhouders, geldt een **verplichte wachttermijn van twee maanden** na bekendmaking van het besluit in de Bijlagen bij het Belgisch Staatsblad. Gedurende die periode kunnen schuldeisers met vaststaande, niet-opeisbare vorderingen zekerheid eisen (WVV art. 7:209). Aan aandeelhouders mag geen uitkering worden gedaan zolang die schuldeisers geen voldoening hebben gekregen.
 >
-> **Uitzondering**: bij kapitaalvermindering ter aanzuivering van verlies of tot dekking van een voorzienbaar verlies geldt geen wachttermijn ([[bronnen/wetteksten/XV-wvv#art-7210|WVV art. 7:210]]).
+> **Uitzondering**: bij kapitaalvermindering ter aanzuivering van verlies of tot dekking van een voorzienbaar verlies geldt geen wachttermijn (WVV art. 7:210).
 >
 > 🤖 *AI-aanvulling*
 
@@ -391,7 +391,7 @@ Bij de BV is een terugbetaling van inbreng aan aandeelhouders een **uitkering** 
 > [!warning]- Fusie is juridisch hetzelfde als een overname (share deal)
 > ❌ *"Bij een overname via aandelen gaat het vermogen van de overgenomen vennootschap over op de koper."*
 >
-> Een fusie en een aandelenovername (share deal) zijn juridisch fundamenteel verschillend. Bij een **fusie** verdwijnt de overgenomen vennootschap van rechtswege: haar vermogen (rechten én verplichtingen) gaat universeel over op de verkrijgende vennootschap ([[bronnen/wetteksten/XV-wvv#art-1213|WVV art. 12:13]]). Bij een **share deal** koopt de koper de aandelen — de doelvennootschap blijft bestaan als zelfstandige rechtspersoon en wordt dochter. De koopprijs voor de aandelen wordt geboekt als financieel vast actief, niet als overname van activa en passiva.
+> Een fusie en een aandelenovername (share deal) zijn juridisch fundamenteel verschillend. Bij een **fusie** verdwijnt de overgenomen vennootschap van rechtswege: haar vermogen (rechten én verplichtingen) gaat universeel over op de verkrijgende vennootschap (WVV art. 12:13). Bij een **share deal** koopt de koper de aandelen — de doelvennootschap blijft bestaan als zelfstandige rechtspersoon en wordt dochter. De koopprijs voor de aandelen wordt geboekt als financieel vast actief, niet als overname van activa en passiva.
 >
 > 🤖 *AI-aanvulling*
 
@@ -439,7 +439,7 @@ Kenniselementen:
 > >
 > > **Fout. B boekt het gebouw aan € 300.000 (de boekwaarde bij A).**
 > >
-> > Het Belgisch boekhoudrecht verplicht bij fusies het **continuïteitsbeginsel**: activa worden opgenomen tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen ([[bronnen/wetteksten/XV-KB-wvv#art-356|KB WVV art. 3:56]]). De reële waarde van € 450.000 speelt geen rol in de boekhoudkundige verwerking. Dit verschilt van IFRS 3 (bedrijfscombinaties), waarbij herwaardering naar reële waarde en goodwill-activering wél verplicht zijn.
+> > Het Belgisch boekhoudrecht verplicht bij fusies het **continuïteitsbeginsel**: activa worden opgenomen tegen de waarde waarvoor ze in de boekhouding van de overgenomen vennootschap voorkwamen (KB WVV art. 3:56). De reële waarde van € 450.000 speelt geen rol in de boekhoudkundige verwerking. Dit verschilt van IFRS 3 (bedrijfscombinaties), waarbij herwaardering naar reële waarde en goodwill-activering wél verplicht zijn.
 > >
 > > *Zie: [[kapitaalwijzigingen-en-herstructurering#-boekhoudkundig-continuïteitsbeginsel-bij-fusie-en-splitsing|Continuïteitsbeginsel]]*
 >
@@ -455,7 +455,7 @@ Kenniselementen:
 > >
 > > **Na de fusie (overname van Z).**
 > >
-> > Bij een aandelenovername (Y) blijft Y bestaan als zelfstandige rechtspersoon — ze wordt een dochter van X. Bij een fusie door overneming (Z) verdwijnt Z van **rechtswege**: haar gehele vermogen gaat universeel over op X en Z houdt op te bestaan ([[bronnen/wetteksten/XV-wvv#art-1213|WVV art. 12:13]]). De aandeelhouders van Z worden aandeelhouder van X.
+> > Bij een aandelenovername (Y) blijft Y bestaan als zelfstandige rechtspersoon — ze wordt een dochter van X. Bij een fusie door overneming (Z) verdwijnt Z van **rechtswege**: haar gehele vermogen gaat universeel over op X en Z houdt op te bestaan (WVV art. 12:13). De aandeelhouders van Z worden aandeelhouder van X.
 > >
 > > *Zie: [[kapitaalwijzigingen-en-herstructurering#-fusie-vs-splitsing-vs-inbreng-van-bedrijfstak|Vergelijking fusie/overname]]*
 >
@@ -471,7 +471,7 @@ Kenniselementen:
 > >
 > > **Aanvullende waardevermindering van € 40.000 boeken (van € 120.000 naar € 80.000).**
 > >
-> > Bij ontbinding en vereffening worden de waarderingsregels aangepast aan de stopzetting van de activiteit ([[bronnen/wetteksten/XV-KB-wvv#art-36|KB WVV art. 3:6, §2]]): vaste activa worden gewaardeerd op de vermoedelijke realisatiewaarde, niet op (historische) boekwaarde. Aanvullende afschrijvingen of waardeverminderingen zijn verplicht als de boekwaarde de realisatiewaarde overschrijdt (CBN-advies 2022/04).
+> > Bij ontbinding en vereffening worden de waarderingsregels aangepast aan de stopzetting van de activiteit (KB WVV art. 3:6, §2): vaste activa worden gewaardeerd op de vermoedelijke realisatiewaarde, niet op (historische) boekwaarde. Aanvullende afschrijvingen of waardeverminderingen zijn verplicht als de boekwaarde de realisatiewaarde overschrijdt (CBN-advies 2022/04).
 > >
 > > *Zie: [[kapitaalwijzigingen-en-herstructurering#-boeking-vereffening--boekhoudkundige-stappen|Boeking vereffening]]*
 >

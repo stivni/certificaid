@@ -62,7 +62,7 @@ IAS 38 stelt strengere voorwaarden voor de opname van immateriële activa dan IA
 | Fase | Belgisch GAAP (KB WVV) | IFRS (IAS 38) |
 |---|---|---|
 | **Onderzoek** *(research)* | Niet activeerbaar | **Niet activeerbaar** (§54) — direct ten laste |
-| **Ontwikkeling** *(development)* | Activering toegestaan onder voorwaarden ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:34]]) | **Verplicht activeren** wanneer aan zes voorwaarden voldaan (§57): technische haalbaarheid, voornemen tot afwerking, vermogen om te gebruiken/verkopen, toekomstige economische voordelen aantoonbaar, beschikbaarheid middelen, betrouwbare meting kosten |
+| **Ontwikkeling** *(development)* | Activering toegestaan onder voorwaarden (KB WVV art. 3:34) | **Verplicht activeren** wanneer aan zes voorwaarden voldaan (§57): technische haalbaarheid, voornemen tot afwerking, vermogen om te gebruiken/verkopen, toekomstige economische voordelen aantoonbaar, beschikbaarheid middelen, betrouwbare meting kosten |
 
 **Verboden activering** (IAS 38 §63 — niet erkend als immaterieel actief):
 - Intern gegenereerde **goodwill**
@@ -161,7 +161,7 @@ IAS 16 §51 en §61 verplichten een **jaarlijkse herziening** van:
 
 Wijzigingen worden behandeld als **schattingswijzigingen** (IAS 8) — **prospectief** verwerkt over de resterende gebruiksduur. Geen retroactieve aanpassing.
 
-Onder Belgisch GAAP is de herziening minder geformaliseerd — wijzigingen aan de afschrijvingsmethode worden vaak gemotiveerd via [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:6]] (consistentiebeginsel) en moeten in de toelichting worden vermeld als afwijking van de waarderingsregels.
+Onder Belgisch GAAP is de herziening minder geformaliseerd — wijzigingen aan de afschrijvingsmethode worden vaak gemotiveerd via KB WVV art. 3:6 (consistentiebeginsel) en moeten in de toelichting worden vermeld als afwijking van de waarderingsregels.
 
 ---
 
@@ -258,7 +258,7 @@ Kenniselementen:
 > >
 > > IAS 38 §57 vereist activering zodra aan de zes ontwikkelingskosten-voorwaarden is voldaan: technische haalbaarheid, voornemen tot afwerking, vermogen om te gebruiken of verkopen, aantoonbare toekomstige economische voordelen, beschikbaarheid van middelen, en betrouwbare meting van de kosten. Dit is geen keuze.
 > >
-> > Onder Belgisch GAAP ([[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:34]]) is activering toegelaten maar niet verplicht — de onderneming mag de kosten ook ten laste nemen. Veel KMO's kiezen voor onmiddellijke kostneming wegens fiscale eenvoud.
+> > Onder Belgisch GAAP (KB WVV art. 3:34) is activering toegelaten maar niet verplicht — de onderneming mag de kosten ook ten laste nemen. Veel KMO's kiezen voor onmiddellijke kostneming wegens fiscale eenvoud.
 > >
 > > *Zie: [[vaste-activa-ifrs#-specifieke-elementen-immateriële-activa-ias-38|Immateriële activa]]*
 >

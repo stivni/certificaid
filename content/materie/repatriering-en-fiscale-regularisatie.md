@@ -57,7 +57,7 @@ Het **Centraal Aanspreekpunt** (CAP) is een door de Nationale Bank van België (
 Een rijksinwoner — iemand met fiscale woonplaats in België — is belastbaar op zijn **wereldwijd vermogen en wereldwijd inkomen**, ongeacht de locatie van het vermogen of de bron van het inkomen. Dit geldt voor:
 
 - **Personenbelasting (PB)**: alle wereldwijde inkomsten zijn in principe belastbaar in België — art. 5 WIB92 (⚠️ WIB92 nog niet volledig lokaal beschikbaar als gecoördineerde tekst; raadpleeg fisconet.be). Dubbelbelastingverdragen beperken de heffingsbevoegdheid maar heffen de aangifteplicht niet op.
-- **Erfbelasting**: de erfbelasting treft het volledige wereldwijde vermogen van de erflater die rijksinwoner was. ([[wetteksten/IVA-vcf#art-27311|VCF art. 2.7.3.1.1]], eerste lid) — zie [[nalatenschap-en-belastbare-grondslag#📌-wereldwijde-belastbaarheid-voor-rijksinwoner|Wereldwijde belastbaarheid (erfbelasting)]].
+- **Erfbelasting**: de erfbelasting treft het volledige wereldwijde vermogen van de erflater die rijksinwoner was. (VCF art. 2.7.3.1.1, eerste lid) — zie [[nalatenschap-en-belastbare-grondslag#📌-wereldwijde-belastbaarheid-voor-rijksinwoner|Wereldwijde belastbaarheid (erfbelasting)]].
 
 De combinatie van beide principes betekent dat buitenlands vermogen dubbel blootgesteld is: de inkomsten eruit zijn belastbaar in de PB tijdens het leven, en het vermogen zelf is onderdeel van de belastbare grondslag bij overlijden.
 
@@ -68,12 +68,12 @@ De combinatie van beide principes betekent dat buitenlands vermogen dubbel bloot
 Fiscale regularisatie via DLU-quater herstelt de fiscale toestand voor het verleden — maar ze verandert niets aan de **toekomstige** belastbaarheid van het vermogen. Na regularisatie is het vermogen:
 
 1. **Zichtbaar** als onderdeel van het belastbare vermogen van de rijksinwoner
-2. **Onderworpen aan erfbelasting** bij overlijden, als deel van het wereldwijd belastbare vermogen ([[wetteksten/IVA-vcf#art-27311|VCF art. 2.7.3.1.1]])
+2. **Onderworpen aan erfbelasting** bij overlijden, als deel van het wereldwijd belastbare vermogen (VCF art. 2.7.3.1.1)
 3. **Onderworpen aan de 5-jarige verdachte periode** als de eigenaar het vermogen na regularisatie wegschenkt — een niet-geregistreerde schenking van geregulariseerd vermogen binnen vijf jaar vóór overlijden valt onder [[nalatenschap-en-belastbare-grondslag#📌-5-jarige-verdachte-periode-voor-kosteloze-beschikkingen-art-27105-vcf|art. 2.7.1.0.5 VCF]]
 
 **Gevolg voor successieplanning**: regularisatie is een startpunt, geen eindpunt. Na regularisatie begint de eigenlijke successieplanning — met de planning van schenkingen, de keuze voor geregistreerde vs. niet-geregistreerde overdracht, en de evaluatie van de verdachte periodes.
 
-**Regularisatieheffing als passief van de nalatenschap**: de VCF voorziet (met ingang van 1 januari 2026, DVR 2025-12-19/56) dat de betaalde regularisatieheffing wordt gelijkgesteld met een schuld van de erflater als bedoeld in art. 2.7.3.4.1 §1, 1° VCF — en dus als aftrekbaar passief van de nalatenschap kan worden opgenomen, mits de geregulariseerde inkomsten of kapitalen in de aangifte van nalatenschap zijn opgenomen en door de erflater zijn behaald. ([[wetteksten/IVA-vcf#art-27341|VCF art. 2.7.3.4.1]], §1, 1° — derde lid, in werking 01-01-2026)
+**Regularisatieheffing als passief van de nalatenschap**: de VCF voorziet (met ingang van 1 januari 2026, DVR 2025-12-19/56) dat de betaalde regularisatieheffing wordt gelijkgesteld met een schuld van de erflater als bedoeld in art. 2.7.3.4.1 §1, 1° VCF — en dus als aftrekbaar passief van de nalatenschap kan worden opgenomen, mits de geregulariseerde inkomsten of kapitalen in de aangifte van nalatenschap zijn opgenomen en door de erflater zijn behaald. (VCF art. 2.7.3.4.1, §1, 1° — derde lid, in werking 01-01-2026)
 
 ---
 

@@ -134,7 +134,7 @@ Persoonlijke belastingen volgen de [[fiscale-beginselen#-gelijkheidsbeginsel|gel
 | **Consumptie** | BTW, accijnzen |
 | **Vermogen / bezit** | OV, verkeersbelasting, taks op effectenrekeningen |
 | **Vermogensoverdracht** | Registratierechten, successierechten, schenkingsrechten |
-| **Akten en documenten** | Diverse rechten en taksen ([[bronnen/wetteksten/V-wdrt\|WDRT]]) |
+| **Akten en documenten** | Diverse rechten en taksen (WDRT) |
 
 ### As 5: Periodiek vs. eenmalig
 

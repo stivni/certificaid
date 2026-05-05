@@ -17,7 +17,7 @@ De fiche legt **niet** uit hoe de belastingvrije som of de toeslagen worden bere
 
 ## 📌 Burgerlijke staat in fiscalibus
 
-De fiscale wet onderscheidt voor de toepassing van de PB drie grote situaties ([[bronnen/wetteksten/II-wib92|WIB92 art. 126]]):
+De fiscale wet onderscheidt voor de toepassing van de PB drie grote situaties (WIB92 art. 126):
 
 | Situatie | Aanslag | Decumul |
 |---|---|---|
@@ -32,7 +32,7 @@ De fiscale wet onderscheidt voor de toepassing van de PB drie grote situaties ([
 ## 📌 Wettelijke samenwoning
 *Cohabitation légale*
 
-Verklaring van twee personen die samenleven en een gemeenschappelijk huishouden voeren, ingeschreven bij de gemeente ([[bronnen/wetteksten/XI-bw-2019|BW art. 1475 e.v.]]). Sinds aanslagjaar 2005 worden wettelijk samenwonenden voor de PB **volledig gelijkgesteld** met gehuwden ([[bronnen/wetteksten/II-wib92|WIB92 art. 2, §1, 2°]]).
+Verklaring van twee personen die samenleven en een gemeenschappelijk huishouden voeren, ingeschreven bij de gemeente (BW art. 1475 e.v.). Sinds aanslagjaar 2005 worden wettelijk samenwonenden voor de PB **volledig gelijkgesteld** met gehuwden (WIB92 art. 2, §1, 2°).
 
 **Gevolgen van de gelijkstelling**:
 - Gezamenlijke aanslag (in plaats van afzonderlijke)
@@ -54,7 +54,7 @@ Verklaring van twee personen die samenleven en een gemeenschappelijk huishouden 
 
 ## ⚖️ Jaar van huwelijk of wettelijke samenwoning
 
-In het **jaar waarin** twee personen huwen of een verklaring van wettelijke samenwoning afleggen, worden ze nog **afzonderlijk** belast — als alleenstaande ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 1°]]). De gezamenlijke aanslag begint pas vanaf het **eerste volledige kalenderjaar** waarin het huwelijk of de wettelijke samenwoning bestaat.
+In het **jaar waarin** twee personen huwen of een verklaring van wettelijke samenwoning afleggen, worden ze nog **afzonderlijk** belast — als alleenstaande (WIB92 art. 126, §2, 1°). De gezamenlijke aanslag begint pas vanaf het **eerste volledige kalenderjaar** waarin het huwelijk of de wettelijke samenwoning bestaat.
 
 Praktisch: huwelijk in juni 2025 → afzonderlijke aanslagen voor aanslagjaar 2026 (inkomsten 2025) → gezamenlijke aanslag vanaf aanslagjaar 2027 (inkomsten 2026).
 
@@ -62,7 +62,7 @@ Praktisch: huwelijk in juni 2025 → afzonderlijke aanslagen voor aanslagjaar 20
 
 ## ⚖️ Jaar van scheiding van tafel en bed of feitelijke scheiding
 
-Vanaf het jaar waarin partners feitelijk gescheiden gaan leven of waarin de scheiding van tafel en bed wordt uitgesproken, krijgen beide partners een **afzonderlijke aanslag** ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 2°]]). De gezamenlijke aanslag eindigt dus van het ene jaar op het andere — niet pas na de echtscheiding.
+Vanaf het jaar waarin partners feitelijk gescheiden gaan leven of waarin de scheiding van tafel en bed wordt uitgesproken, krijgen beide partners een **afzonderlijke aanslag** (WIB92 art. 126, §2, 2°). De gezamenlijke aanslag eindigt dus van het ene jaar op het andere — niet pas na de echtscheiding.
 
 **Bewijs van feitelijke scheiding**: in beginsel is een verschillend domicilie het bewijs. De administratie kan andere feitelijke elementen onderzoeken (verschillende bankrekeningen, geen gezamenlijke betalingen, getuigenverklaringen).
 
@@ -70,7 +70,7 @@ Vanaf het jaar waarin partners feitelijk gescheiden gaan leven of waarin de sche
 
 ## ⚖️ Jaar van overlijden
 
-Bij overlijden van een partner geldt voor het inkomstenjaar van overlijden een **keuzeregime** ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 3°]]):
+Bij overlijden van een partner geldt voor het inkomstenjaar van overlijden een **keuzeregime** (WIB92 art. 126, §2, 3°):
 
 - **Gezamenlijke aanslag**: de inkomsten van beide partners (incl. inkomsten van de overledene tot aan overlijden) worden samen aangegeven
 - **Afzonderlijke aanslag**: elke partner krijgt eigen aanslag
@@ -83,7 +83,7 @@ De keuze wordt gemaakt door de **langstlevende partner** (of, bij gelijktijdig o
 
 ## 📌 Personen ten laste
 
-Personen die fiscaal ten laste zijn van de belastingplichtige, geven recht op **toeslagen op de belastingvrije som** ([[bronnen/wetteksten/II-wib92|WIB92 art. 132]]). Vier categorieën:
+Personen die fiscaal ten laste zijn van de belastingplichtige, geven recht op **toeslagen op de belastingvrije som** (WIB92 art. 132). Vier categorieën:
 
 | Categorie | Vereisten |
 |---|---|
@@ -92,7 +92,7 @@ Personen die fiscaal ten laste zijn van de belastingplichtige, geven recht op **
 | **Broers en zussen** | Deel uitmaken van het gezin; eigen netto-inkomen onder grens |
 | **Persoon ouder dan 65 die hulpbehoevend is** en deel uitmaakt van het gezin | Verhoogde toeslag |
 
-**Algemene voorwaarden om ten laste te zijn** ([[bronnen/wetteksten/II-wib92|WIB92 art. 136]]):
+**Algemene voorwaarden om ten laste te zijn** (WIB92 art. 136):
 
 1. **Deel uitmaken van het gezin op 1 januari** van het aanslagjaar (toestand op 1 januari = peildatum)
 2. **Eigen netto-bestaansmiddelen** mogen niet hoger zijn dan een geïndexeerde grens (cijferzakboekje raadplegen — verschillende grenzen voor kinderen van alleenstaanden, andere personen ten laste)
@@ -101,7 +101,7 @@ Personen die fiscaal ten laste zijn van de belastingplichtige, geven recht op **
 > [!warning]- Toestand op 1 januari van het aanslagjaar telt — niet op het einde van het inkomstenjaar
 > ❌ *"Een kind dat in november 2025 geboren wordt, kan voor inkomstenjaar 2025 niet als ten laste worden aangegeven omdat het pas op het einde van het jaar bestaat."*
 >
-> De peildatum is **1 januari van het aanslagjaar**, niet 31 december van het inkomstenjaar. Voor inkomstenjaar 2025 is de peildatum 1 januari 2026. Een kind geboren in november 2025 leeft op 1 januari 2026 → telt als ten laste voor aanslagjaar 2026. Omgekeerd: een kind dat in november 2025 sterft, is op 1 januari 2026 niet meer in leven, maar wordt **wel** als ten laste aanvaard voor het jaar van overlijden (specifieke fictie). Lees [[bronnen/wetteksten/II-wib92|WIB92 art. 138]] voor de overlijdens-fictie.
+> De peildatum is **1 januari van het aanslagjaar**, niet 31 december van het inkomstenjaar. Voor inkomstenjaar 2025 is de peildatum 1 januari 2026. Een kind geboren in november 2025 leeft op 1 januari 2026 → telt als ten laste voor aanslagjaar 2026. Omgekeerd: een kind dat in november 2025 sterft, is op 1 januari 2026 niet meer in leven, maar wordt **wel** als ten laste aanvaard voor het jaar van overlijden (specifieke fictie). Lees WIB92 art. 138 voor de overlijdens-fictie.
 >
 > 🤖 *AI-aanvulling*
 
@@ -109,24 +109,24 @@ Personen die fiscaal ten laste zijn van de belastingplichtige, geven recht op **
 
 ## 📌 Kinderen ten laste
 
-Kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin van de belastingplichtige en wier netto-bestaansmiddelen de geïndexeerde grens niet overschrijden ([[bronnen/wetteksten/II-wib92|WIB92 art. 136, 140]]).
+Kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin van de belastingplichtige en wier netto-bestaansmiddelen de geïndexeerde grens niet overschrijden (WIB92 art. 136, 140).
 
 **Soorten "kind"**:
 - Eigen kinderen (huwelijk, buitenhuwelijks, geadopteerde)
 - Kleinkinderen en achterkleinkinderen
 - **Pleegkinderen** waar de belastingplichtige uitsluitend of hoofdzakelijk in onderhoudt
 
-**Bestaansmiddelen-grens**: verschillend voor kinderen van **alleenstaande** of **gezamenlijk belaste** ouders — de grens is hoger voor kinderen van een alleenstaande, om de zwaardere financiële last te erkennen ([[bronnen/wetteksten/II-wib92|WIB92 art. 141]]). Specifieke uitsluitingen gelden voor:
+**Bestaansmiddelen-grens**: verschillend voor kinderen van **alleenstaande** of **gezamenlijk belaste** ouders — de grens is hoger voor kinderen van een alleenstaande, om de zwaardere financiële last te erkennen (WIB92 art. 141). Specifieke uitsluitingen gelden voor:
 - Onderhoudsuitkeringen tot een bepaald bedrag (eerste schijf telt niet mee)
 - Bezoldigingen tijdens vakantieperiodes (eerste schijf telt niet mee voor studenten)
 
-**Toeslag op de belastingvrije som**: stijgt **niet-lineair** naargelang het aantal kinderen — de marginale toeslag voor het 4e en volgende kind is groter dan voor het 1e kind ([[bronnen/wetteksten/II-wib92|WIB92 art. 132]]). Daarbij komen verhoogde bedragen voor kinderen jonger dan 3 jaar zonder kinderoppasaftrek.
+**Toeslag op de belastingvrije som**: stijgt **niet-lineair** naargelang het aantal kinderen — de marginale toeslag voor het 4e en volgende kind is groter dan voor het 1e kind (WIB92 art. 132). Daarbij komen verhoogde bedragen voor kinderen jonger dan 3 jaar zonder kinderoppasaftrek.
 
 ---
 
 ## ⚖️ Fiscaal co-ouderschap
 
-Bij gescheiden ouders die samen het gezag uitoefenen over een kind kan de **toeslag voor kinderen ten laste worden verdeeld** tussen beide ouders, als ze dat **uitdrukkelijk overeenkomen of als de rechter dat heeft beslist** ([[bronnen/wetteksten/II-wib92|WIB92 art. 132bis]]).
+Bij gescheiden ouders die samen het gezag uitoefenen over een kind kan de **toeslag voor kinderen ten laste worden verdeeld** tussen beide ouders, als ze dat **uitdrukkelijk overeenkomen of als de rechter dat heeft beslist** (WIB92 art. 132bis).
 
 **Voorwaarden voor verdeling 50/50**:
 
@@ -153,7 +153,7 @@ Bij gescheiden ouders die samen het gezag uitoefenen over een kind kan de **toes
 
 ## ⚖️ Personen met een handicap
 
-Een persoon met een handicap geeft recht op een **verhoogde toeslag** op de belastingvrije som ([[bronnen/wetteksten/II-wib92|WIB92 art. 132, 135]]). De verhoogde toeslag geldt voor:
+Een persoon met een handicap geeft recht op een **verhoogde toeslag** op de belastingvrije som (WIB92 art. 132, 135). De verhoogde toeslag geldt voor:
 
 - De belastingplichtige zelf (indien fysieke handicap)
 - Zijn echtgenoot/wettelijk samenwonende partner
@@ -168,7 +168,7 @@ Een persoon met een handicap geeft recht op een **verhoogde toeslag** op de bela
 ## 🔢 Huwelijksquotiënt
 *Quotient conjugal*
 
-Techniek waarbij een deel van het hoogste beroepsinkomen wordt overgeheveld naar de partner zonder of met laag eigen beroepsinkomen, om gebruik te maken van de lagere belastingschijven van de andere partner ([[bronnen/wetteksten/II-wib92|WIB92 art. 87]]).
+Techniek waarbij een deel van het hoogste beroepsinkomen wordt overgeheveld naar de partner zonder of met laag eigen beroepsinkomen, om gebruik te maken van de lagere belastingschijven van de andere partner (WIB92 art. 87).
 
 **Voorwaarden**:
 - Gezamenlijke aanslag (gehuwd of wettelijk samenwonend)
@@ -198,7 +198,7 @@ Techniek waarbij een deel van het hoogste beroepsinkomen wordt overgeheveld naar
 
 ## ⚖️ Alleenstaande ouder — toeslag
 
-Een **alleenstaande ouder** met minstens één kind ten laste krijgt een bijkomende toeslag op de belastingvrije som ([[bronnen/wetteksten/II-wib92|WIB92 art. 133]]). De toeslag wordt nog verhoogd voor alleenstaande ouders met laag belastbaar inkomen.
+Een **alleenstaande ouder** met minstens één kind ten laste krijgt een bijkomende toeslag op de belastingvrije som (WIB92 art. 133). De toeslag wordt nog verhoogd voor alleenstaande ouders met laag belastbaar inkomen.
 
 **Definitie alleenstaande ouder voor PB-doeleinden**: een belastingplichtige die zelf niet gezamenlijk wordt belast (niet gehuwd, niet wettelijk samenwonend) en die effectief de gezinslast draagt voor minstens één kind. Een alleenstaande ouder die later wettelijk samenwoont, verliest de bijkomende toeslag — ook als de nieuwe partner geen ouder is van het kind.
 
@@ -206,9 +206,9 @@ Een **alleenstaande ouder** met minstens één kind ten laste krijgt een bijkome
 
 ## 🔢 Aftrek voor onderhoudsuitkeringen
 
-Onderhoudsuitkeringen die de belastingplichtige verschuldigd is op grond van het [[bronnen/wetteksten/XI-bw-2019|Burgerlijk Wetboek]] of een rechterlijke beslissing zijn **aftrekbaar tot 80%** van het werkelijk betaalde bedrag, mits aan de wettelijke voorwaarden is voldaan ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°]]).
+Onderhoudsuitkeringen die de belastingplichtige verschuldigd is op grond van het Burgerlijk Wetboek of een rechterlijke beslissing zijn **aftrekbaar tot 80%** van het werkelijk betaalde bedrag, mits aan de wettelijke voorwaarden is voldaan (WIB92 art. 104, 1°).
 
-Aan ontvangende kant zijn ze belastbaar als [[personenbelasting-basisbegrippen#-inkomstencategorieën|divers inkomen]] aan dezelfde 80%-regel ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 3°]]).
+Aan ontvangende kant zijn ze belastbaar als [[personenbelasting-basisbegrippen#-inkomstencategorieën|divers inkomen]] aan dezelfde 80%-regel (WIB92 art. 90, 3°).
 
 **Voorwaarden van aftrekbaarheid**:
 1. **Periodieke betaling** — geen kapitaalbetaling (uitzondering: kapitalen omgevormd in fictieve rente)
@@ -220,7 +220,7 @@ Aan ontvangende kant zijn ze belastbaar als [[personenbelasting-basisbegrippen#-
 > [!warning]- Onderhoudsuitkering aan kind ten laste is niet aftrekbaar
 > ❌ *"Een gescheiden vader betaalt elke maand alimentatie voor zijn 16-jarige zoon die bij de moeder woont. De zoon is wel deels bij hem ten laste (fiscaal co-ouderschap). Dus is de alimentatie aftrekbaar."*
 >
-> Bij **fiscaal co-ouderschap** (50/50 verdeling van de toeslag voor het kind) is de aftrek van onderhoudsuitkeringen **uitgesloten** — de wet aanvaardt de cumul niet ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°, b]]). De vader moet kiezen: ofwel kind 50% ten laste, ofwel onderhoudsuitkeringen aftrekken (kind volledig bij moeder ten laste). Beide tegelijk is niet mogelijk.
+> Bij **fiscaal co-ouderschap** (50/50 verdeling van de toeslag voor het kind) is de aftrek van onderhoudsuitkeringen **uitgesloten** — de wet aanvaardt de cumul niet (WIB92 art. 104, 1°, b). De vader moet kiezen: ofwel kind 50% ten laste, ofwel onderhoudsuitkeringen aftrekken (kind volledig bij moeder ten laste). Beide tegelijk is niet mogelijk.
 >
 > 🤖 *AI-aanvulling*
 
@@ -273,7 +273,7 @@ Kenniselementen:
 > >
 > > **Nee.**
 > >
-> > De cumul van **fiscaal co-ouderschap** en **aftrek onderhoudsuitkering** voor hetzelfde kind is wettelijk uitgesloten ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°, b]]). De vader moet kiezen: ofwel 50% van de toeslag voor de dochter (co-ouderschap, geen aftrek alimentatie), ofwel volledige aftrek alimentatie (dochter integraal ten laste van de moeder, geen 50% bij vader). Beide opties zijn niet combineerbaar — dit voorkomt dubbele fiscale bevoordeling.
+> > De cumul van **fiscaal co-ouderschap** en **aftrek onderhoudsuitkering** voor hetzelfde kind is wettelijk uitgesloten (WIB92 art. 104, 1°, b). De vader moet kiezen: ofwel 50% van de toeslag voor de dochter (co-ouderschap, geen aftrek alimentatie), ofwel volledige aftrek alimentatie (dochter integraal ten laste van de moeder, geen 50% bij vader). Beide opties zijn niet combineerbaar — dit voorkomt dubbele fiscale bevoordeling.
 > >
 > > *Zie: [[gezinsfiscaliteit#-aftrek-voor-onderhoudsuitkeringen|Aftrek voor onderhoudsuitkeringen]]*
 >

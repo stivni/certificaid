@@ -33,7 +33,7 @@ Een **complete IFRS-jaarrekening** bestaat uit vijf primaire overzichten plus to
 6. **Vergelijkende informatie** voor de voorgaande periode (verplicht)
 7. Bij retroactieve aanpassing of herclassificatie: ook een **derde balans** per begin van de vorigste periode
 
-Onder Belgisch GAAP daarentegen bestaat de jaarrekening uit drie bestanddelen: **balans**, **resultatenrekening** en **toelichting** ([[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]]). Een mutatieoverzicht eigen vermogen en een kasstroomtabel zijn er **geen verplichte onderdelen** van — zie [[jaarrekening#-jaarrekening|Jaarrekening (BE-GAAP)]].
+Onder Belgisch GAAP daarentegen bestaat de jaarrekening uit drie bestanddelen: **balans**, **resultatenrekening** en **toelichting** (WVV art. 3:1). Een mutatieoverzicht eigen vermogen en een kasstroomtabel zijn er **geen verplichte onderdelen** van — zie [[jaarrekening#-jaarrekening|Jaarrekening (BE-GAAP)]].
 
 ---
 
@@ -58,7 +58,7 @@ De jaarrekening wordt **minstens jaarlijks** opgesteld (IAS 1 §36). Wanneer een
 - de reden vermelden waarom een afwijkende periode wordt gebruikt
 - vermelden dat de bedragen niet volledig vergelijkbaar zijn met de vorige periode
 
-Vergelijkbaar met [[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]] (Belgisch boekjaar = twaalf maanden, behoudens uitzondering bij oprichting/wijziging).
+Vergelijkbaar met WVV art. 3:1 (Belgisch boekjaar = twaalf maanden, behoudens uitzondering bij oprichting/wijziging).
 
 ---
 

@@ -21,7 +21,7 @@ Voor de [[beroep-van-accountant-en-belastingadviseur|GA/GBA]] is dit relevant bi
 
 *Taxe de circulation*
 
-Een **gewestelijke jaarlijkse belasting** op het bezit (of het houden) van een voertuig dat ingeschreven moet zijn in het repertorium van het Directoraat-generaal Mobiliteit en Verkeersveiligheid (DIV — federaal) ([[bronnen/wetteksten/IVA-vcf#art-22101|VCF art. 2.2.1.0.1]]). Belastingplichtige is **op wiens naam het voertuig staat ingeschreven**.
+Een **gewestelijke jaarlijkse belasting** op het bezit (of het houden) van een voertuig dat ingeschreven moet zijn in het repertorium van het Directoraat-generaal Mobiliteit en Verkeersveiligheid (DIV — federaal) (VCF art. 2.2.1.0.1). Belastingplichtige is **op wiens naam het voertuig staat ingeschreven**.
 
 De VB blijft verschuldigd zolang het voertuig op naam staat — niet zolang er wordt gereden. Een geschrapt of verkocht voertuig stopt de VB-verplichting bij **schrapping uit het DIV-repertorium**, niet bij de feitelijke verkoop. Dit veroorzaakt het meest voorkomende advies-incident: een verkoper die de schrapping niet doorvoert blijft VB betalen.
 
@@ -44,7 +44,7 @@ De VB blijft verschuldigd zolang het voertuig op naam staat — niet zolang er w
 
 *Taxe de mise en circulation*
 
-Een **eenmalige gewestelijke belasting** geheven bij de **eerste inschrijving** van een voertuig op naam van een persoon (natuurlijke of rechtspersoon) ([[bronnen/wetteksten/IVA-vcf#art-23101|VCF art. 2.3.1.0.1 e.v.]]). De BIV is verschuldigd ongeacht of het voertuig nieuw of tweedehands is — bij doorverkoop wordt opnieuw BIV geheven op naam van de nieuwe inschrijver.
+Een **eenmalige gewestelijke belasting** geheven bij de **eerste inschrijving** van een voertuig op naam van een persoon (natuurlijke of rechtspersoon) (VCF art. 2.3.1.0.1 e.v.). De BIV is verschuldigd ongeacht of het voertuig nieuw of tweedehands is — bij doorverkoop wordt opnieuw BIV geheven op naam van de nieuwe inschrijver.
 
 | Element | Inhoud |
 |---|---|

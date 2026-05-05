@@ -16,10 +16,10 @@ De operationele cyclus van het boekhouden uitvoeren: van de keuze van het boekho
 
 > [!info]- Grondslag van deze werkwijze (⚖️ 70% · 🤖 30%)
 > De kern van deze procedure is wettelijk vastgelegd:
-> - **Dagboek, centraal boek en MAR**: verplichting en werking volgen uit [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]] en [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|KB WER 2018 art. 4–5]].
-> - **Verantwoordingsstukken**: [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]].
-> - **Rekeningstelsel**: minimumindeling vastgelegd via [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|KB WER 2018 art. 9–11]].
-> - **Bewaarplicht**: [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|WER art. III.88]] en [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|KB WER 2018 art. 8]].
+> - **Dagboek, centraal boek en MAR**: verplichting en werking volgen uit WER art. III.84 en KB WER 2018 art. 4–5.
+> - **Verantwoordingsstukken**: WER art. III.86.
+> - **Rekeningstelsel**: minimumindeling vastgelegd via KB WER 2018 art. 9–11.
+> - **Bewaarplicht**: WER art. III.88 en KB WER 2018 art. 8.
 >
 > De stappen voor anomaliedetectie (bankafstemming, klanten/leveranciersafstemming, btw-aansluiting) zijn gebaseerd op beroepspraktijk 🤖 — ze vloeien logisch voort uit de wettelijke verplichting van een getrouwe boekhouding maar zijn niet als afzonderlijke procedure voorgeschreven.
 
@@ -36,9 +36,9 @@ De operationele cyclus van het boekhouden uitvoeren: van de keuze van het boekho
 
 **Waarom**: het regime bepaalt welke registers verplicht zijn, of een MAR-conform rekeningenstelsel nodig is en hoe frequent gecentraliseerd moet worden. Een verkeerd regime leidt tot een onwettige boekhouding.
 
-Het basisregime is de **[[dubbele-boekhouding|dubbele boekhouding]]**: dagboek, centraal boek en MAR-conform rekeningenstelsel ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]).
+Het basisregime is de **[[dubbele-boekhouding|dubbele boekhouding]]**: dagboek, centraal boek en MAR-conform rekeningenstelsel (WER art. III.84).
 
-**Uitzondering — vereenvoudigde boekhouding**: bepaalde kleine ondernemingen mogen de [[boekhoudplicht-wer#-vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] voeren met drie dagboeken, zonder centraal boek of MAR ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii85|WER art. III.85]]):
+**Uitzondering — vereenvoudigde boekhouding**: bepaalde kleine ondernemingen mogen de [[boekhoudplicht-wer#-vereenvoudigde-boekhouding|vereenvoudigde boekhouding]] voeren met drie dagboeken, zonder centraal boek of MAR (WER art. III.85):
 - Voorwaarde: omzet excl. btw ≤ **€ 500.000** (of € 620.000 voor brandstofhandelaren)
 - Wie mag: natuurlijke personen-ondernemingen, vof en gewone commanditaire vennootschappen
 - Vennootschappen (bv, nv, …) vallen hier nooit onder — zij zijn altijd verplicht de dubbele boekhouding te voeren
@@ -53,7 +53,7 @@ Regime bepalen:
 
 > [!info]- Concreet: regime van een startende architect-eenmanszaak
 >
-> Een architect start zijn eenmanszaak in januari. Zijn verwachte omzet voor het eerste jaar is € 80.000 excl. btw. Hij mag starten met de vereenvoudigde boekhouding zolang de verwachte omzet te goeder trouw de drempel niet overschrijdt ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|KB WER 2018 art. 3]]). Richt hij een bv op, dan is hij per definitie verplicht de dubbele boekhouding te voeren — ongeacht de omzet.
+> Een architect start zijn eenmanszaak in januari. Zijn verwachte omzet voor het eerste jaar is € 80.000 excl. btw. Hij mag starten met de vereenvoudigde boekhouding zolang de verwachte omzet te goeder trouw de drempel niet overschrijdt (KB WER 2018 art. 3). Richt hij een bv op, dan is hij per definitie verplicht de dubbele boekhouding te voeren — ongeacht de omzet.
 >
 > 🤖 *AI-aanvulling*
 
@@ -95,7 +95,7 @@ Totaal D = Totaal C                         163.000   163.000
 
 **Resultatenrekeningen (klassen 6 en 7) beginnen altijd op nul** — ze worden volledig verrekend bij de afsluiting van het vorige boekjaar via MAR 14 (overgedragen resultaat).
 
-**MAR aanpassen aan de onderneming** — de minimumindeling is een vloer, geen plafond. De omschrijving van rekeningen mag worden aangepast aan de aard van het bedrijf. Niet-dienstige rekeningen hoeven niet opgenomen te worden. Subrekeningen mogen worden toegevoegd door het rekeningnummer verder uit te splitsen (bv. rekening 40000 → 40010 binnenlandse klanten / 40020 buitenlandse klanten) ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|KB WER 2018 art. 10–11]]).
+**MAR aanpassen aan de onderneming** — de minimumindeling is een vloer, geen plafond. De omschrijving van rekeningen mag worden aangepast aan de aard van het bedrijf. Niet-dienstige rekeningen hoeven niet opgenomen te worden. Subrekeningen mogen worden toegevoegd door het rekeningnummer verder uit te splitsen (bv. rekening 40000 → 40010 binnenlandse klanten / 40020 buitenlandse klanten) (KB WER 2018 art. 10–11).
 
 > [!warning]- Resultatenrekeningen mogen nooit een beginstand hebben
 > ❌ *"Ik neem de omzet van het vorige jaar ook over als beginstand van rekening 700."*
@@ -117,9 +117,9 @@ Totaal D = Totaal C                         163.000   163.000
 
 **Waarom**: de dagboekregistratie is de enige bron van waarheid voor de boekhouding. Elke verrichting die niet tijdig, volledig of getrouw wordt ingeschreven, leidt tot een onbetrouwbare boekhouding en mogelijke fiscale sancties.
 
-Elke boeking moet steunen op een **gedagtekend verantwoordingsstuk** waarnaar de boeking verwijst ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]]). De verrichtingen worden ingeschreven **zonder uitstel, getrouw, volledig en naar tijdsorde** ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]).
+Elke boeking moet steunen op een **gedagtekend verantwoordingsstuk** waarnaar de boeking verwijst (WER art. III.86). De verrichtingen worden ingeschreven **zonder uitstel, getrouw, volledig en naar tijdsorde** (WER art. III.84).
 
-**Hulpdagboeken** — de meeste ondernemingen splitsen het dagboek op per verrichtingstype ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]; [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|KB WER 2018 art. 5]]):
+**Hulpdagboeken** — de meeste ondernemingen splitsen het dagboek op per verrichtingstype (WER art. III.84; KB WER 2018 art. 5):
 
 | Hulpdagboek | Inhoud | Verantwoordingsstuk |
 |---|---|---|
@@ -171,9 +171,9 @@ Verwijzing: factuur XYZ-2024/0045 dd. 20/01/2024
 
 **Waarom**: het grootboek is het thematische register — het geeft per rekening het volledige overzicht van mutaties en het actuele saldo. Zonder periodieke centralisering is het onmogelijk om balansen of proefbalansen op te stellen of te controleren of de totalen kloppen.
 
-De totalen van de hulpdagboeken worden minstens **maandelijks** samengevat in een centralisatieboeking in het centraal boek ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]). De boeking omvat hetzij het totaal van alle hulpdagboeken uitgesplitst per hoofdrekening, hetzij het totaal per hulpdagboek afzonderlijk ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]).
+De totalen van de hulpdagboeken worden minstens **maandelijks** samengevat in een centralisatieboeking in het centraal boek (WER art. III.84). De boeking omvat hetzij het totaal van alle hulpdagboeken uitgesplitst per hoofdrekening, hetzij het totaal per hulpdagboek afzonderlijk (WER art. III.84).
 
-**Uitzondering**: ondernemingen die de vereenvoudigde boekhouding voeren en toch voor de dubbele kiezen, mogen **driemaandelijks** centraliseren ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]).
+**Uitzondering**: ondernemingen die de vereenvoudigde boekhouding voeren en toch voor de dubbele kiezen, mogen **driemaandelijks** centraliseren (WER art. III.84).
 
 ```
 Centralisatieboeking januari (voorbeeld — Aankoopdagboek)
@@ -188,7 +188,7 @@ Centralisatieboeking januari — aankoopdagboek
 
 In **geautomatiseerde systemen** (boekhoudpakketten) is de centralisering doorgaans automatisch bij elke boeking — de proefbalans is altijd actueel. De logica van centralisering blijft dezelfde, maar het mechanisme is onzichtbaar. Zie ook: [[dubbele-boekhouding#-computerverwerking|Computerverwerking]].
 
-**Uitzondering — hulpdagboeken als centraal boek**: als de hulpdagboeken zelf aan de formele vereisten van art. 4 KB WER voldoen (materiële continuïteit, regelmatigheid, onveranderlijkheid), hoeven de gezamenlijke mutaties niet afzonderlijk overgeschreven te worden in een centraal boek ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|KB WER 2018 art. 5]]). In de praktijk is dit het geval bij de meeste informaticasystemen.
+**Uitzondering — hulpdagboeken als centraal boek**: als de hulpdagboeken zelf aan de formele vereisten van art. 4 KB WER voldoen (materiële continuïteit, regelmatigheid, onveranderlijkheid), hoeven de gezamenlijke mutaties niet afzonderlijk overgeschreven te worden in een centraal boek (KB WER 2018 art. 5). In de praktijk is dit het geval bij de meeste informaticasystemen.
 
 ---
 
@@ -230,7 +230,7 @@ Saldo bankrekeninguittreksel        + 10.415   ✓ OK
 
 **5c. Btw-aansluiting** — controleer of de btw-omzet in de boekhouding overeenkomt met de btw-aangifte. Elk kwartaal (of maand) wordt het totaal van MAR 70 (omzet), MAR 451 (te betalen btw) en MAR 411 (aftrekbare btw) vergeleken met de ingediende btw-aangifte. Afwijkingen wijzen op een onvolledige of foutief geboekte periode.
 
-**Correctieboeking** — een foutieve boeking wordt niet doorgestreept of verwijderd maar gecorrigeerd via een tegenboeking. Het oorspronkelijke blijft leesbaar ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|WER art. III.88]]). In een boekhoudpakket: gebruik een stornorekening of maak een tegengestelde boeking met expliciete omschrijving.
+**Correctieboeking** — een foutieve boeking wordt niet doorgestreept of verwijderd maar gecorrigeerd via een tegenboeking. Het oorspronkelijke blijft leesbaar (WER art. III.88). In een boekhoudpakket: gebruik een stornorekening of maak een tegengestelde boeking met expliciete omschrijving.
 
 ```
 Foutieve boeking (factuur verkeerd op 61 ipv 60 geboekt, € 500):
@@ -271,13 +271,13 @@ Foutieve boeking (factuur verkeerd op 61 ipv 60 geboekt, € 500):
 
 **Jaarafsluiting** — verwijs naar de competentie [[boekjaar-afsluiten|Boekjaar afsluiten]] voor de volledige procedure (inventaris, eindejaarboekingen, opmaken jaarrekening, neerlegging). De boekhoudcyclus eindigt formeel bij de goedkeuring en neerlegging van de jaarrekening.
 
-**Bewaarplicht** — boeken bewaren **7 jaar** te rekenen van 1 januari van het jaar dat volgt op de afsluiting ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|WER art. III.88]]; [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|KB WER 2018 art. 8]]):
+**Bewaarplicht** — boeken bewaren **7 jaar** te rekenen van 1 januari van het jaar dat volgt op de afsluiting (WER art. III.88; KB WER 2018 art. 8):
 - **Kernboeken** (dagboek, centraal boek, inventarisboek): **origineel** bewaren
 - **Overige boeken**: origineel of afschrift
 - **Verantwoordingsstukken** die tot bewijs tegenover derden kunnen dienen (facturen, bankafschriften): **7 jaar**
 - **Interne stukken** die niet strekken tot bewijs jegens derden: **3 jaar**
 
-De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijkheid gedurende de volledige bewaringstermijn garanderen ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-8|KB WER 2018 art. 8]]).
+De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijkheid gedurende de volledige bewaringstermijn garanderen (KB WER 2018 art. 8).
 
 > [!tip]- Digitale bewaring: zorg voor een onveranderlijk formaat
 > Een bestand dat gewoon op een harde schijf staat, voldoet mogelijk niet aan de eis van onveranderlijkheid. Gebruik bij digitale bewaring een formaat en opslagmethode waarbij latere wijziging aantoonbaar is (bv. digitale handtekening, PDF/A, gecertificeerd archiveringsplatform). Een boekhoudpakket met locked periods biedt deze garantie doorgaans intern voor de boekingen zelf, maar niet voor geëxporteerde bestanden.
@@ -292,7 +292,7 @@ De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijk
 >
 > **Conclusie**: na registratie, centralisering en bankafstemming toont de proefbalans een sluitend evenwicht. De btw-positie is: terugvorderbare btw (MAR 411) € 1.680 versus te betalen btw (MAR 451) € 2.520 → netto btw-schuld € 840 voor de aangifte.
 >
-> **Grondslag**: [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]; [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]]
+> **Grondslag**: WER art. III.84; WER art. III.86
 >
 > **Redenering**:
 >
@@ -332,7 +332,7 @@ De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijk
 >
 > **Conclusie**: een correctieboeking rechtzet de verkeerde rekening. De proefbalans blijft in evenwicht, de inhoudelijke juistheid wordt hersteld.
 >
-> **Grondslag**: [[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|WER art. III.88]] (correcties: oorspronkelijke boeking blijft leesbaar)
+> **Grondslag**: WER art. III.88 (correcties: oorspronkelijke boeking blijft leesbaar)
 >
 > **Redenering**:
 > ```
@@ -377,7 +377,7 @@ De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijk
 > > 3. **Financieel dagboek** — bank- en kasverrichtingen (bankafschriften, kasbetalingen en -ontvangsten)
 > > 4. **Dagboek diverse verrichtingen** — alle overige boekingen: lonen, afschrijvingen, eindejaarboekingen, correcties
 > >
-> > De hulpdagboeken zijn een toegelaten opsplitsing van het verplichte dagboek ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]). Als ze aan de formele vereisten voldoen, hoeven hun totalen niet apart overgeschreven te worden in het centraal boek ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-4|KB WER 2018 art. 5]]).
+> > De hulpdagboeken zijn een toegelaten opsplitsing van het verplichte dagboek (WER art. III.84). Als ze aan de formele vereisten voldoen, hoeven hun totalen niet apart overgeschreven te worden in het centraal boek (KB WER 2018 art. 5).
 > >
 > > *Zie: [[dubbele-boekhouding#-hulpdagboeken|Hulpdagboeken]]*
 >
@@ -391,7 +391,7 @@ De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijk
 > >
 > > **Tot en met 31 december 2031 (7 jaar).**
 > >
-> > Verantwoordingsstukken die tot bewijs tegenover derden kunnen dienen (inkoopfacturen vallen hier altijd onder) moeten **7 jaar** bewaard worden ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]]). De termijn loopt vanaf **1 januari van het jaar dat volgt op de afsluiting**: hier 1 januari 2025, dus tot 31 december 2031.
+> > Verantwoordingsstukken die tot bewijs tegenover derden kunnen dienen (inkoopfacturen vallen hier altijd onder) moeten **7 jaar** bewaard worden (WER art. III.86). De termijn loopt vanaf **1 januari van het jaar dat volgt op de afsluiting**: hier 1 januari 2025, dus tot 31 december 2031.
 > >
 > > *Zie: [[boekhoudplicht-wer#-bewaarplicht-boeken-7-jaar|Bewaarplicht 7 jaar]]*
 >
@@ -430,7 +430,7 @@ De bewaarmethode (papier of digitaal) moet de onveranderlijkheid en toegankelijk
 > >
 > > **B — Minstens maandelijks.**
 > >
-> > Voor ondernemingen die de dubbele boekhouding voeren, moeten de gezamenlijke mutaties in de hulpdagboeken minstens maandelijks worden samengevat in een centralisatieboeking in het centraal boek ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]). De driemaandelijkse termijn is een uitzondering voor ondernemingen die recht hebben op de vereenvoudigde boekhouding maar toch voor de dubbele kiezen.
+> > Voor ondernemingen die de dubbele boekhouding voeren, moeten de gezamenlijke mutaties in de hulpdagboeken minstens maandelijks worden samengevat in een centralisatieboeking in het centraal boek (WER art. III.84). De driemaandelijkse termijn is een uitzondering voor ondernemingen die recht hebben op de vereenvoudigde boekhouding maar toch voor de dubbele kiezen.
 > >
 > > *Zie: [[dubbele-boekhouding#-centralisering-van-boekingen|Centralisering van boekingen]]*
 >

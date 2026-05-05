@@ -20,7 +20,7 @@ Onderscheid met aangrenzende competenties:
 - **[[fiscale-optimalisatie-personenbelasting-beoordelen|Optimalisatie]]**: vergelijkt scenario's via deze berekening
 
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
-> De berekeningsstappen zelf zijn **wettelijk** vastgelegd in [[bronnen/wetteksten/II-wib92|WIB92 art. 126-178]] en het [[bronnen/wetteksten/II-KB-wib92|KB/WIB92]]. De **uitvoeringsmethode** (handmatige berekening, gebruik van Tax-on-web simulator, vergelijking globalisatie/bevrijdend) is geen genormeerde procedure maar gangbare beroepspraktijk.
+> De berekeningsstappen zelf zijn **wettelijk** vastgelegd in WIB92 art. 126-178 en het KB/WIB92. De **uitvoeringsmethode** (handmatige berekening, gebruik van Tax-on-web simulator, vergelijking globalisatie/bevrijdend) is geen genormeerde procedure maar gangbare beroepspraktijk.
 
 ## Aanbevolen werkwijze
 
@@ -242,7 +242,7 @@ Eindbelasting vóór verrekening = Hoofdsom + Gemeente + BBSZ
 > [!warning]- Gemeente van fiscale woonplaats op 1 januari telt — niet de gemeente waar inkomen verdiend werd
 > ❌ *"Ik werk in Antwerpen maar woon in Knokke-Heist — ik betaal Antwerpse gemeentebelasting (8%)."*
 >
-> De aanvullende gemeentebelasting wordt bepaald door **het gemeentelijk opcentiem van de fiscale woonplaats op 1 januari van het aanslagjaar** ([[bronnen/wetteksten/II-wib92|WIB92 art. 466]]) — niet door de werkplek of inkomstenbron. Wonen in Knokke-Heist op 1 januari → 0% aanvullende gemeentebelasting, ongeacht waar het loon verdiend wordt. Bij verhuis tijdens het inkomstenjaar telt de woonplaats op 1 januari van het volgend jaar (= aanslagjaar).
+> De aanvullende gemeentebelasting wordt bepaald door **het gemeentelijk opcentiem van de fiscale woonplaats op 1 januari van het aanslagjaar** (WIB92 art. 466) — niet door de werkplek of inkomstenbron. Wonen in Knokke-Heist op 1 januari → 0% aanvullende gemeentebelasting, ongeacht waar het loon verdiend wordt. Bij verhuis tijdens het inkomstenjaar telt de woonplaats op 1 januari van het volgend jaar (= aanslagjaar).
 >
 > 🤖 *AI-aanvulling*
 
@@ -338,7 +338,7 @@ Eindbelasting          € 26 630       € 29 780     +€ 3 150
 >
 > **Conclusie**: Eindbelasting ~ € 17 800 — te ontvangen ~ € 1 200 (na BV ingehouden ~ € 19 000).
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 87 (huwelijksquotiënt), art. 130 (tarieven), art. 132 (gezinslast), art. 466 (gemeentebelasting)]]
+> **Grondslag**: WIB92 art. 87 (huwelijksquotiënt), art. 130 (tarieven), art. 132 (gezinslast), art. 466 (gemeentebelasting)
 >
 > **Redenering**:
 > - Stap 1: Belastbaar A € 65 000 (na sociale bijdragen en forfait); B € 0
@@ -358,7 +358,7 @@ Eindbelasting          € 26 630       € 29 780     +€ 3 150
 >
 > **Conclusie**: Eindbelasting ~ € 35 200 — VA's van € 30 000 → te betalen ~ € 5 200.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 30 (bezoldiging), art. 7 (OG), art. 17 (RV), art. 130, art. 466]]
+> **Grondslag**: WIB92 art. 30 (bezoldiging), art. 7 (OG), art. 17 (RV), art. 130, art. 466
 >
 > **Redenering**:
 > - Stap 1: Belastbaar = € 80 000 (bezoldiging na sociale bijdragen en forfait 3% bedrijfsleider) + onroerend inkomen werkelijke nettohuur ~ € 10 800 = € 90 800. Dividend bevrijdend → niet in belastbaar.

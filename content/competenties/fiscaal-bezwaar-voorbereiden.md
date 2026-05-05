@@ -12,14 +12,14 @@ bouwversie: 2
 
 # Fiscaal bezwaar voorbereiden
 
-Het bezwaar tegen een aanslag in de directe belastingen (PB, Ven.B, RPB, BNI) is een **administratief beroep** bij de gewestelijke directeur die de aanslag heeft gevestigd ([[bronnen/wetteksten/II-wib92|WIB92 art. 366]]). Het is de **eerste stap** in de fiscale geschillenprocedure — vóór een rechtszaak bij de fiscale rechtbank van eerste aanleg. Een goed gemotiveerd bezwaar lost vaak het probleem op zonder gerechtelijke procedure.
+Het bezwaar tegen een aanslag in de directe belastingen (PB, Ven.B, RPB, BNI) is een **administratief beroep** bij de gewestelijke directeur die de aanslag heeft gevestigd (WIB92 art. 366). Het is de **eerste stap** in de fiscale geschillenprocedure — vóór een rechtszaak bij de fiscale rechtbank van eerste aanleg. Een goed gemotiveerd bezwaar lost vaak het probleem op zonder gerechtelijke procedure.
 
 Deze competentie is **gedeeld** met PO 2.5 (Fiscale procedure) — de generieke procedureregels staan daar; deze fiche focust op het **opstellen** van een bezwaarschrift in een PB-context. Onderscheid:
 - **[[fiscaal-advies-personenbelasting-formuleren|Fiscaal advies]]**: vóór de aanslag (preventief); deze competentie is **na** de aanslag (curatief)
 - **[[aangifte-personenbelasting-invullen|Aangifte invullen]]**: tijdens het indienen van de aangifte; deze competentie is wanneer iets misgegaan is
 
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
-> De **bezwaarprocedure** is wettelijk geregeld in [[bronnen/wetteksten/II-wib92|WIB92 art. 366-378]] en biedt een **dwingend** kader (vorm, termijn, behandeling). De **inhoud** van het bezwaarschrift (welke argumenten, welke bewijsstukken) is beroepspraktijk — geen genormeerde procedure maar gangbare aanpak in fiscale handboeken en beroepspublicaties.
+> De **bezwaarprocedure** is wettelijk geregeld in WIB92 art. 366-378 en biedt een **dwingend** kader (vorm, termijn, behandeling). De **inhoud** van het bezwaarschrift (welke argumenten, welke bewijsstukken) is beroepspraktijk — geen genormeerde procedure maar gangbare aanpak in fiscale handboeken en beroepspublicaties.
 
 > [!info]- In de praktijk: vraag om inlichtingen vóór de aanslag
 >
@@ -42,12 +42,12 @@ Deze competentie is **gedeeld** met PO 2.5 (Fiscale procedure) — de generieke 
 
 **Waarom**: een bezwaar is **te laat** als het buiten de wettelijke termijn wordt ingediend — onontvankelijk, ongeacht de inhoudelijke gronden. De termijn is de eerste prioriteit en moet **onmiddellijk** worden gechecked. Inhoudelijke analyse komt daarna.
 
-**Termijn**: **6 maanden** vanaf de derde werkdag na de **verzending** van het aanslagbiljet ([[bronnen/wetteksten/II-wib92|WIB92 art. 371]]). Verstuurd 15 september 2025 → bezwaartermijn loopt tot ~ 18 maart 2026.
+**Termijn**: **6 maanden** vanaf de derde werkdag na de **verzending** van het aanslagbiljet (WIB92 art. 371). Verstuurd 15 september 2025 → bezwaartermijn loopt tot ~ 18 maart 2026.
 
 > [!warning]- De bezwaartermijn loopt vanaf verzending, niet vanaf ontvangst
 > ❌ *"Mijn aanslagbiljet werd verstuurd op 15 september maar ik kreeg het pas op 28 september — dus mijn termijn loopt vanaf 28 september."*
 >
-> De termijn loopt **vanaf de derde werkdag na verzending** door de FOD ([[bronnen/wetteksten/II-wib92|WIB92 art. 371]]) — niet vanaf werkelijke ontvangst door de belastingplichtige. Vakantie, vertraging post, lange afwezigheid zijn **geen** geldige redenen om de termijn te verlengen. Bij twijfel of de aanslag tijdig werd ontvangen: vraag de **verzendingsdatum** opnieuw via MyMinfin of bij de inningsdienst.
+> De termijn loopt **vanaf de derde werkdag na verzending** door de FOD (WIB92 art. 371) — niet vanaf werkelijke ontvangst door de belastingplichtige. Vakantie, vertraging post, lange afwezigheid zijn **geen** geldige redenen om de termijn te verlengen. Bij twijfel of de aanslag tijdig werd ontvangen: vraag de **verzendingsdatum** opnieuw via MyMinfin of bij de inningsdienst.
 >
 > 🤖 *AI-aanvulling*
 
@@ -116,7 +116,7 @@ Lees ook de **motivering** van de FOD (apart blad of paragraaf in het aanslagbil
 **Waarom**: een bezwaar zonder **wettelijke onderbouwing** is een mening — een bezwaar **met** wettekstcitaat en rechtspraak heeft de structuur van een juridisch argument en wordt door de gewestelijke directeur veel ernstiger genomen.
 
 **Standaard bronnen**:
-- [[bronnen/wetteksten/II-wib92|WIB92]] (placeholder lokaal — gecombineerd met online raadpleging)
+- WIB92 (placeholder lokaal — gecombineerd met online raadpleging)
 - Fisconetplus.belgium.be — wettelijke teksten + rechtspraak met verwijzingen
 - Juridat.be — gerechtelijke uitspraken
 - Ruling.be — voorafgaande beslissingen
@@ -138,7 +138,7 @@ Lees ook de **motivering** van de FOD (apart blad of paragraaf in het aanslagbil
 > 📤 **Uitkomst**:
 > - Schriftelijk bezwaarschrift (papier of elektronisch)
 
-**Waarom**: het bezwaarschrift moet **vormvereisten** voldoen om ontvankelijk te zijn ([[bronnen/wetteksten/II-wib92|WIB92 art. 366, 371]]). Een gestructureerd bezwaar met heldere argumentatie verhoogt aanzienlijk de kans op succes.
+**Waarom**: het bezwaarschrift moet **vormvereisten** voldoen om ontvankelijk te zijn (WIB92 art. 366, 371). Een gestructureerd bezwaar met heldere argumentatie verhoogt aanzienlijk de kans op succes.
 
 **Vormvereisten**:
 
@@ -255,7 +255,7 @@ Met de meeste hoogachting,
 > - Verzoek om vrijstelling van betaling ingediend (in bezwaarschrift of separaat)
 > - Cliënt geïnformeerd over **minimum betaling** verplichting
 
-**Waarom**: een bezwaar **schorst de betalingsverplichting niet automatisch** — de cliënt blijft in beginsel verplicht het volledige aanslagbedrag te betalen binnen de gewone termijn (2 maanden na verzending), behalve indien expliciet **vrijstelling van betaling** wordt aangevraagd ([[bronnen/wetteksten/II-wib92|WIB92 art. 410]]).
+**Waarom**: een bezwaar **schorst de betalingsverplichting niet automatisch** — de cliënt blijft in beginsel verplicht het volledige aanslagbedrag te betalen binnen de gewone termijn (2 maanden na verzending), behalve indien expliciet **vrijstelling van betaling** wordt aangevraagd (WIB92 art. 410).
 
 **Voorwaarden vrijstelling van betaling**:
 - Aanvraag ingediend in het bezwaarschrift of separaat
@@ -290,7 +290,7 @@ Met de meeste hoogachting,
 2. **Eventuele vraag om bijkomende informatie** — beantwoorden binnen gestelde termijn (vaak 30 dagen)
 3. **Voorlopige beslissing** of **uitnodiging hoorzitting**
 4. **Hoorzitting** (indien) — mondelinge toelichting van de argumenten
-5. **Definitieve beslissing** door de gewestelijke directeur — **maximaal 6 maanden** na indiening (verlengbaar tot 9 maanden bij complexe dossiers) ([[bronnen/wetteksten/II-wib92|WIB92 art. 375]])
+5. **Definitieve beslissing** door de gewestelijke directeur — **maximaal 6 maanden** na indiening (verlengbaar tot 9 maanden bij complexe dossiers) (WIB92 art. 375)
 
 **Hoorzitting voorbereiden**:
 - Cliënt en mandataris aanwezig
@@ -324,7 +324,7 @@ Met de meeste hoogachting,
 >
 > **Conclusie**: Bezwaar indienen — kansrijk gezien de aangeleverde bewijsstukken (facturen vakliteratuur, attest werkgever bevestigend de noodzakelijkheid).
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 49 (aftrekbaarheid beroepskosten)]] + Cassatie-arresten over noodzakelijkheid en zakelijke bewezenheid.
+> **Grondslag**: WIB92 art. 49 (aftrekbaarheid beroepskosten) + Cassatie-arresten over noodzakelijkheid en zakelijke bewezenheid.
 >
 > **Redenering**:
 > - Stap 1: Bezwaartermijn nog ruim voldoende. Betwist element: € 1 200 vakliteratuur + € 1 800 computer + € 1 200 eigen kantoor afgewezen = € 4 200 weigering aftrek
@@ -345,9 +345,9 @@ Met de meeste hoogachting,
 >
 > **Situatie**: Cliënt S vergat zijn aangifte aj. 2024 in te dienen. FOD heeft een **ambtshalve aanslag** opgelegd op basis van geschatte gegevens, met belastingverhoging 50%. Aanslag verstuurd 30 januari 2025. Cliënt komt nu (november 2025) bij mandataris met de werkelijke gegevens — werkelijk inkomen veel lager dan geraamd.
 >
-> **Conclusie**: Bezwaar tijdig — termijn loopt tot 4 augustus 2025 (verlopen!). **Te laat** voor regulier bezwaar. Wel mogelijk: **ambtshalve ontheffing** ([[bronnen/wetteksten/II-wib92|WIB92 art. 376]]) wegens nieuwe stukken die de aanslag onjuist tonen.
+> **Conclusie**: Bezwaar tijdig — termijn loopt tot 4 augustus 2025 (verlopen!). **Te laat** voor regulier bezwaar. Wel mogelijk: **ambtshalve ontheffing** (WIB92 art. 376) wegens nieuwe stukken die de aanslag onjuist tonen.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 351 (ambtshalve aanslag), art. 366 (bezwaartermijn), art. 376 (ambtshalve ontheffing)]].
+> **Grondslag**: WIB92 art. 351 (ambtshalve aanslag), art. 366 (bezwaartermijn), art. 376 (ambtshalve ontheffing).
 >
 > **Redenering**:
 > - Stap 1: Bezwaartermijn verlopen. Optie A: regulier bezwaar onontvankelijk. Optie B: **ambtshalve ontheffing** mogelijk gedurende **5 jaar** vanaf 1 januari aanslagjaar (cf. art. 376), gebaseerd op nieuwe stukken die ten onrechte niet werden aangeleverd
@@ -385,7 +385,7 @@ Met de meeste hoogachting,
 > >
 > > **Tegen ~ 16 maart 2026 (6 maanden vanaf de derde werkdag na 12 september).**
 > >
-> > Termijn van 6 maanden ([[bronnen/wetteksten/II-wib92|WIB92 art. 371]]) loopt **vanaf de derde werkdag na verzending**. Verzending donderdag 12 september → derde werkdag = dinsdag 16 september → bezwaartermijn loopt tot **16 maart 2026**. Bezwaar ingediend daarna is onontvankelijk, ongeacht de inhoudelijke gronden. Vakantie of vertraging post zijn geen geldige redenen om de termijn te verlengen.
+> > Termijn van 6 maanden (WIB92 art. 371) loopt **vanaf de derde werkdag na verzending**. Verzending donderdag 12 september → derde werkdag = dinsdag 16 september → bezwaartermijn loopt tot **16 maart 2026**. Bezwaar ingediend daarna is onontvankelijk, ongeacht de inhoudelijke gronden. Vakantie of vertraging post zijn geen geldige redenen om de termijn te verlengen.
 > >
 > > *Zie: [[fiscaal-bezwaar-voorbereiden#-1--aanslag-analyseren-en-tijdslijn-checken|Aanslag analyseren en tijdslijn checken]]*
 >
@@ -399,7 +399,7 @@ Met de meeste hoogachting,
 > >
 > > **Niet automatisch — vrijstelling van betaling moet expliciet worden gevraagd.**
 > >
-> > De cliënt blijft in beginsel verplicht het **volledige** aanslagbedrag te betalen binnen de gewone termijn (2 maanden na verzending), tenzij **vrijstelling van betaling** wordt aangevraagd ([[bronnen/wetteksten/II-wib92|WIB92 art. 410]]). De vrijstelling kan in het bezwaarschrift of separaat worden gevraagd. Voorwaarde: het deel dat **niet betwist** wordt, blijft verplicht binnen de gewone termijn. Beslissing door de inningsambtenaar — geen automatische toekenning. **Risico bij niet-betaling zonder vrijstelling**: nalatigheidsintresten ~ 4-7% per jaar + vervolgingen.
+> > De cliënt blijft in beginsel verplicht het **volledige** aanslagbedrag te betalen binnen de gewone termijn (2 maanden na verzending), tenzij **vrijstelling van betaling** wordt aangevraagd (WIB92 art. 410). De vrijstelling kan in het bezwaarschrift of separaat worden gevraagd. Voorwaarde: het deel dat **niet betwist** wordt, blijft verplicht binnen de gewone termijn. Beslissing door de inningsambtenaar — geen automatische toekenning. **Risico bij niet-betaling zonder vrijstelling**: nalatigheidsintresten ~ 4-7% per jaar + vervolgingen.
 > >
 > > *Zie: [[fiscaal-bezwaar-voorbereiden#-6--vrijstelling-van-betaling-vragen-indien-gewenst|Vrijstelling van betaling]]*
 >

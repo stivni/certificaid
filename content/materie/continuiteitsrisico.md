@@ -19,13 +19,13 @@ bouwversie: 0
 ## 📌 Continuïteitsveronderstelling
 *Going concern*
 
-De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in de voorzienbare toekomst voortzet — activa en passiva worden gewaardeerd vanuit die veronderstelling. Bij twijfel moeten de waarderingsregels worden aangepast en moet de toelichting dit vermelden. ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]], [[bronnen/normen/ISA-570-herzien#par-2|ISA 570 herzien, par. 2]])
+De continuïteitsveronderstelling houdt in dat een entiteit haar activiteiten in de voorzienbare toekomst voortzet — activa en passiva worden gewaardeerd vanuit die veronderstelling. Bij twijfel moeten de waarderingsregels worden aangepast en moet de toelichting dit vermelden. (WVV art. 2:52, [[bronnen/normen/ISA-570-herzien#par-2|ISA 570 herzien, par. 2]])
 
 De beoordelingsperiode bedraagt minstens **12 maanden** na de balansdatum. ([[bronnen/normen/ISA-570-herzien#par-13|ISA 570 herzien, par. 13]])
 
 ## ⚖️ Waardering bij discontinuïteit
 
-Wanneer de continuïteitsveronderstelling niet langer geldt (stopzetting, vereffening, sluiting van een bedrijfsonderdeel), moeten de waarderingsregels dienovereenkomstig worden aangepast ([[bronnen/wetteksten/XV-KB-wvv#art-36|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6]]):
+Wanneer de continuïteitsveronderstelling niet langer geldt (stopzetting, vereffening, sluiting van een bedrijfsonderdeel), moeten de waarderingsregels dienovereenkomstig worden aangepast (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:6):
 
 - **Oprichtingskosten** worden volledig afgeschreven
 - **Vaste en vlottende activa** worden zo nodig bijkomend afgeschreven tot hun **vermoedelijke realisatiewaarde** (liquidatiewaarde, niet boekwaarde)
@@ -45,16 +45,16 @@ Het [[nettoactief|nettoactief]] is de centrale maatstaf voor de alarmbelprocedur
 
 De alarmbelprocedure verplicht het bestuursorgaan de algemene vergadering bijeen te roepen wanneer continuïteit in het gedrang komt. De triggers en drempels verschillen per vennootschapsvorm:
 
-**BV** ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153]]):
+**BV** (WVV art. 5:153):
 - Nettoactief is negatief of dreigt negatief te worden, **of**
 - Onzekerheid of schulden betaald kunnen worden gedurende de komende 12 maanden
 
-**NV** ([[bronnen/wetteksten/XV-wvv#art-7228|WVV art. 7:228–7:229]]):
+**NV** (WVV art. 7:228–7:229):
 - Nettoactief gedaald onder **50%** van het geplaatst kapitaal, **of**
 - Nettoactief gedaald onder **25%** van het geplaatst kapitaal (AV kan dan ontbinden met ¼ van de stemmen), **of**
 - Nettoactief gedaald onder **€61.500** (ontbindingsvordering door elke belanghebbende)
 
-**Procedure** (alle vennootschapsvormen): bijeenroeping binnen **2 maanden** na vaststelling. Het bestuursorgaan stelt een bijzonder verslag op met herstelmaatregelen, tenzij het ontbinding voorstelt. Na eerste naleving: geen nieuwe verplichting gedurende de volgende 12 maanden voor dezelfde reden. ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153 §4]])
+**Procedure** (alle vennootschapsvormen): bijeenroeping binnen **2 maanden** na vaststelling. Het bestuursorgaan stelt een bijzonder verslag op met herstelmaatregelen, tenzij het ontbinding voorstelt. Na eerste naleving: geen nieuwe verplichting gedurende de volgende 12 maanden voor dezelfde reden. (WVV art. 5:153 §4)
 
 ## 🔢 Altman Z-score (illustratief model)
 
@@ -102,7 +102,7 @@ Z = 1,2 × (NBK/TA) + 1,4 × (IW/TA) + 3,3 × (EBIT/TA) + 0,6 × (MVE/VV) + 1,0 
 
 ## 🔎 Signalen van continuïteitsrisico
 
-Signalen zijn nooit op zichzelf conclusief — het is de combinatie ("gewichtige **en** overeenstemmende feiten") die de alarmbel triggert. ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]])
+Signalen zijn nooit op zichzelf conclusief — het is de combinatie ("gewichtige **en** overeenstemmende feiten") die de alarmbel triggert. (WVV art. 2:52)
 
 De onderstaande indeling is gangbaar in financiële analyse. Ze is ook terug te vinden in de auditstandaard [[bronnen/normen/ISA-570-herzien#par-a3|ISA 570 herzien, par. A3]] — die is niet bindend voor de gecertificeerd accountant (dat is een IBR-norm voor bedrijfsrevisoren), maar de signalen zelf zijn breed erkend analytisch referentiemateriaal.
 
@@ -152,17 +152,17 @@ Sommige situaties lijken op going concern-problemen maar zijn dat niet per defin
 
 Wanneer het bestuursorgaan "gewichtige en overeenstemmende feiten" vaststelt die de continuïteit in het gedrang brengen:
 
-1. Beraadslagen over herstelmaatregelen ([[bronnen/wetteksten/XV-wvv#art-252|WVV art. 2:52]])
+1. Beraadslagen over herstelmaatregelen (WVV art. 2:52)
 2. [[continuiteitsrisico#-alarmbelprocedure|Alarmbelprocedure uitvoeren]] als de wettelijke drempels bereikt zijn
 3. Bij verdere verslechtering: overwegen om de voorzitter van de ondernemingsrechtbank in te lichten
 
-Bestuursleden die de alarmbelprocedure niet naleven zijn aansprakelijk voor de schade die derden lijden, tenzij ze het tegendeel bewijzen. ([[bronnen/wetteksten/XV-wvv#art-5153|WVV art. 5:153 §3]])
+Bestuursleden die de alarmbelprocedure niet naleven zijn aansprakelijk voor de schade die derden lijden, tenzij ze het tegendeel bewijzen. (WVV art. 5:153 §3)
 
 ## 🔒 Meldingsplicht van de beroepsbeoefenaar
 
 *Niet te verwarren met de [[antiwitwaswetgeving#-meldingsplicht-en-het-verbod-op-mededeling-tipping-off|meldingsplicht (AWW)]] — dit is een aparte wettelijke verplichting op grond van het WER.*
 
-De gecertificeerd accountant (GA) en gecertificeerd belastingadviseur (GBA) hebben een meldingsplicht wanneer zij bij de uitoefening van hun opdracht "gewichtige en overeenstemmende feiten" vaststellen die de continuïteit in het gedrang kunnen brengen. ([[bronnen/wetteksten/XIII-wer/boek-xx#art-xx23|WER art. XX.23 §3]])
+De gecertificeerd accountant (GA) en gecertificeerd belastingadviseur (GBA) hebben een meldingsplicht wanneer zij bij de uitoefening van hun opdracht "gewichtige en overeenstemmende feiten" vaststellen die de continuïteit in het gedrang kunnen brengen. (WER art. XX.23 §3)
 
 **Procedure** (gecertificeerd accountant):
 1. Aangetekende brief aan elk lid van het bestuursorgaan (ook per gewone brief aan elk lid afzonderlijk), met vermelding van de vastgestelde feiten en de gevraagde maatregelen

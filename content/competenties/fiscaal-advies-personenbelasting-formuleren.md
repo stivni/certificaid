@@ -20,7 +20,7 @@ Onderscheid met aangrenzende competenties:
 - **[[fiscale-optimalisatie-personenbelasting-beoordelen|Fiscale optimalisatie]]**: zoekt actief naar besparingen, eventueel grensgebied wettelijk; deze competentie beantwoordt vragen, niet noodzakelijk optimaliseert
 
 > [!info]- Grondslag van deze werkwijze (🤖 80% · ⚖️ 20%)
-> Geen specifieke **ITAA-norm** of **CBN-advies** beschrijft het opmaken van een fiscaal advies in de PB. De wettelijke grondslag is de **algemene aansprakelijkheid** van de beroepsbeoefenaar voor zijn advies ([[bronnen/wetteksten/XXI-wet-itaa|Wet ITAA art. 31, 32]]) en de **deontologische verplichting** tot vakbekwaamheid en zorgvuldigheid ([[deontologische-beginselen|7 deontologische beginselen]]). De **structuur conclusie → grondslag → redenering** is een [CLAUDE.md](file://CLAUDE.md)-stelregel die de leesbaarheid en evaluatie van het advies waarborgt.
+> Geen specifieke **ITAA-norm** of **CBN-advies** beschrijft het opmaken van een fiscaal advies in de PB. De wettelijke grondslag is de **algemene aansprakelijkheid** van de beroepsbeoefenaar voor zijn advies (Wet ITAA art. 31, 32) en de **deontologische verplichting** tot vakbekwaamheid en zorgvuldigheid ([[deontologische-beginselen|7 deontologische beginselen]]). De **structuur conclusie → grondslag → redenering** is een [CLAUDE.md](file://CLAUDE.md)-stelregel die de leesbaarheid en evaluatie van het advies waarborgt.
 
 ## Aanbevolen werkwijze
 
@@ -121,7 +121,7 @@ Onderscheid met aangrenzende competenties:
 3. Onderzoek **onbetwiste vs. betwiste** materie — verifieer recente rechtspraak (Hof van Cassatie, Grondwettelijk Hof) of rulings van de Dienst Voorafgaande Beslissingen voor onzekerheid
 
 **Tools**:
-- Wetteksten: [[bronnen/wetteksten/II-wib92|WIB92]] (placeholder), [[bronnen/wetteksten/II-KB-wib92|KB/WIB92]]
+- Wetteksten: WIB92 (placeholder), KB/WIB92
 - Rechtspraak: fisconetplus.belgium.be, juridat.be
 - Rulings: ruling.be (publicaties Dienst Voorafgaande Beslissingen)
 - Fiscale tijdschriften: Fiscoloog, Fiscale Actualiteit
@@ -274,7 +274,7 @@ Advies inzake [vraag van de cliënt]
 >
 > **Conclusie**: Aanbeveling: combinatie van bezoldigingstop tot maximaal forfaitair voordelig + dividend voor de rest. Onder de feiten: hoog persoonlijk inkomen → marginale schijf 50% — dividend (15% RV op VVPRbis) is fiscaal voordeliger dan bezoldiging boven schijf 45%.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 32 (bezoldigingen bedrijfsleiders), art. 130 (tarieven), art. 269 §2 (VVPRbis)]] + sociale bijdragen zelfstandige.
+> **Grondslag**: WIB92 art. 32 (bezoldigingen bedrijfsleiders), art. 130 (tarieven), art. 269 §2 (VVPRbis) + sociale bijdragen zelfstandige.
 >
 > **Redenering**:
 > - Stap 1: Werkelijke vraag = "hoeveel bezoldiging en hoeveel dividend voor optimale netto?"
@@ -295,7 +295,7 @@ Advies inzake [vraag van de cliënt]
 >
 > **Conclusie**: Ja — verplicht aangifte, met vrijstelling met progressievoorbehoud onder DBV BE-FR. Aanbeveling: rechtzettingsaangifte voor de jaren 2019-2024 om belastingverhoging te beperken.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 5 (wereldwijd inkomen rijksinwoner), art. 13/1 (buitenlands KI), art. 444 (belastingverhoging niet-aangifte)]]; DBV BE-FR art. 6 (onroerende inkomsten — heffingsbevoegdheid bronstaat) en art. 22 (vrijstelling met progressievoorbehoud).
+> **Grondslag**: WIB92 art. 5 (wereldwijd inkomen rijksinwoner), art. 13/1 (buitenlands KI), art. 444 (belastingverhoging niet-aangifte); DBV BE-FR art. 6 (onroerende inkomsten — heffingsbevoegdheid bronstaat) en art. 22 (vrijstelling met progressievoorbehoud).
 >
 > **Redenering**:
 > - Stap 1: Werkelijke vraag = niet alleen "moet ik aangeven?" maar ook "wat zijn de gevolgen voor de vorige jaren?"
@@ -358,7 +358,7 @@ Advies inzake [vraag van de cliënt]
 > >
 > > **Rechtzettingsaangifte indienen voor de openstaande jaren — niet zwijgen.**
 > >
-> > Niet-aangifte van buitenlandse inkomsten is een **fiscale inbreuk** ([[bronnen/wetteksten/II-wib92|WIB92 art. 305, 444]]) — bestraft met belastingverhoging tot **200%**. Sinds DAC (uitwisseling fiscale informatie EU) is detectie via FR/SP-administratie waarschijnlijk. **Vrijwillige rechtzetting** beperkt de belastingverhoging vaak tot 10-50% (versus 100-200% bij ontdekking). Stappen: (1) feiten verzamelen (aankoop, huurinkomsten/jaar, FR-belastingbetaald); (2) berekening Belgische belasting per jaar met vrijstelling progressievoorbehoud; (3) rechtzettingsaangiftes indienen; (4) eventueel ruling vragen voor de boete-vermindering bij grote bedragen. **Niet aangeven** is geen optie — de mandataris heeft de **deontologische plicht** om de cliënt op de naleving te wijzen.
+> > Niet-aangifte van buitenlandse inkomsten is een **fiscale inbreuk** (WIB92 art. 305, 444) — bestraft met belastingverhoging tot **200%**. Sinds DAC (uitwisseling fiscale informatie EU) is detectie via FR/SP-administratie waarschijnlijk. **Vrijwillige rechtzetting** beperkt de belastingverhoging vaak tot 10-50% (versus 100-200% bij ontdekking). Stappen: (1) feiten verzamelen (aankoop, huurinkomsten/jaar, FR-belastingbetaald); (2) berekening Belgische belasting per jaar met vrijstelling progressievoorbehoud; (3) rechtzettingsaangiftes indienen; (4) eventueel ruling vragen voor de boete-vermindering bij grote bedragen. **Niet aangeven** is geen optie — de mandataris heeft de **deontologische plicht** om de cliënt op de naleving te wijzen.
 > >
 > > *Zie: [[belastingplichtigen-personenbelasting#-dubbelbelastingverdragen|DBV]] en [[fiscaal-advies-personenbelasting-formuleren#-5--risico-afweging-per-alternatief|Risico-afweging]]*
 >

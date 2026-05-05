@@ -54,7 +54,7 @@ De BFW werd ingrijpend uitgebreid door:
 
 > [!info]- In de praktijk: de BFW is geen wet die je leest om een aangifte in te vullen
 >
-> Voor de dagelijkse praktijk van de [[beroep-van-accountant-en-belastingadviseur|GA/GBA]] bepaalt de BFW vooral *welke* codex of wet je moet raadplegen voor een concrete belasting. Voor een Vlaamse erfbelasting consulteer je de [[bronnen/wetteksten/IVA-vcf|VCF]], niet de BFW. De BFW komt enkel terug in bevoegdheidsdiscussies (bv. mag een gewest deze nieuwe belasting heffen?) en in advieswerk over verhuis tussen gewesten ([[bevoegd-gewest-vaststellen|lokaliseringsfactor]]).
+> Voor de dagelijkse praktijk van de [[beroep-van-accountant-en-belastingadviseur|GA/GBA]] bepaalt de BFW vooral *welke* codex of wet je moet raadplegen voor een concrete belasting. Voor een Vlaamse erfbelasting consulteer je de VCF, niet de BFW. De BFW komt enkel terug in bevoegdheidsdiscussies (bv. mag een gewest deze nieuwe belasting heffen?) en in advieswerk over verhuis tussen gewesten ([[bevoegd-gewest-vaststellen|lokaliseringsfactor]]).
 >
 > 🤖 *AI-aanvulling*
 
@@ -146,7 +146,7 @@ Kenniselementen:
 > > **Federaal voor de PB-hoofdsom; gewest voor de OV-hoofdsom; provincie en gemeente voor de opcentiemen op de OV.**
 > >
 > > - **PB**: federale belasting (Gw. art. 170 §1 + WIB92). De gemeente heft daarbovenop een [[#aanvullende-belastingen-en-opcentiemen|aanvullende gemeentebelasting]] (Gw. art. 170 §4).
-> > - **OV-hoofdsom**: gewestelijke belasting — overgedragen via de [[#-bijzondere-financieringswet-bfw|BFW]]. In Vlaanderen geheven door [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] op grond van de [[bronnen/wetteksten/IVA-vcf|VCF]]; in Brussel en Wallonië nog steeds op de federale grondslag van WIB92 art. 249 e.v., met regionale tariefdecreten.
+> > - **OV-hoofdsom**: gewestelijke belasting — overgedragen via de [[#-bijzondere-financieringswet-bfw|BFW]]. In Vlaanderen geheven door [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] op grond van de VCF; in Brussel en Wallonië nog steeds op de federale grondslag van WIB92 art. 249 e.v., met regionale tariefdecreten.
 > > - **Opcentiemen op de OV**: provincie (Gw. art. 170 §3) en gemeente (Gw. art. 170 §4). De gemeente bepaalt vrij het percentage.
 > >
 > > *Zie: [[#-fiscale-bevoegdheid-van-gemeenschappen-en-gewesten|Fiscale bevoegdheid §170]], [[onroerende-voorheffing#-opcentiemen|Opcentiemen OV]]*

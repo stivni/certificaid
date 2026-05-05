@@ -21,7 +21,7 @@ Voor de [[beroep-van-accountant-en-belastingadviseur|GA/GBA]] is de OV alomtegen
 
 *Précompte immobilier · Withholding tax on real estate*
 
-Een **gewestelijke directe belasting** geheven op het kadastraal inkomen van onroerende goederen gelegen in België. Belastingplichtige is wie op **1 januari** van het aanslagjaar eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is van het belastbare goed ([[bronnen/wetteksten/IVA-vcf#art-21201|VCF art. 2.1.2.0.1]]; in BHG/Wallonië: WIB92 art. 251).
+Een **gewestelijke directe belasting** geheven op het kadastraal inkomen van onroerende goederen gelegen in België. Belastingplichtige is wie op **1 januari** van het aanslagjaar eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is van het belastbare goed (VCF art. 2.1.2.0.1; in BHG/Wallonië: WIB92 art. 251).
 
 Hoewel de naam "voorheffing" suggereert dat ze verrekenbaar is met een hoofdbelasting, is dat sinds de Lambermont-hervorming (2001) **niet meer het geval**: de OV is een eindbelasting per zichzelf. De naam is historisch — vroeger werd ze inderdaad verrekend met de PB.
 
@@ -55,7 +55,7 @@ Het **belastbaar feit** is het **bezit van onroerend goed in België op 1 januar
 
 ## 🔢 Belastbare grondslag — kadastraal inkomen
 
-De grondslag van de OV is het **kadastraal inkomen (KI)** van het belastbare goed, zoals dat op 1 januari van het aanslagjaar bekend is bij de Algemene Administratie van de Patrimoniumdocumentatie (AAPD) ([[bronnen/wetteksten/IVA-vcf#art-21301|VCF art. 2.1.3.0.1]]).
+De grondslag van de OV is het **kadastraal inkomen (KI)** van het belastbare goed, zoals dat op 1 januari van het aanslagjaar bekend is bij de Algemene Administratie van de Patrimoniumdocumentatie (AAPD) (VCF art. 2.1.3.0.1).
 
 Het **kadastraal inkomen** is een **forfaitaire schatting** van het netto-jaarlijkse huurinkomen dat het goed normaal zou opbrengen, gewaardeerd in de **economische context van 1 januari 1975** (basis-KI) en jaarlijks **geïndexeerd** voor de berekening van de PB en OV (indexcoëfficiënt staat in het [[bronnen-fiscaal-recht|cijferzakboekje]]).
 
@@ -85,13 +85,13 @@ Het **basistarief** is de procentuele aanslagvoet die het gewest op het geïndex
 
 | Gewest | Basistarief gewone goederen | Wettekst |
 |---|---|---|
-| **Vlaanderen** | 3,97% | [[bronnen/wetteksten/IVA-vcf#art-21401\|VCF art. 2.1.4.0.1 §1]] |
+| **Vlaanderen** | 3,97% | VCF art. 2.1.4.0.1 §1 |
 | **Brussel** | 1,25% | Brussels Wetboek + ordonnantie |
 | **Wallonië** | 1,25% | Code wallon + WIB92 art. 255 |
 
 Verschil ≠ feitelijke OV-druk: in Vlaanderen liggen de opcentiemen lager (omdat het basistarief hoger is), in BHG en Wallonië liggen ze veel hoger. Onderzoek wat de **finale druk** is, niet enkel het basistarief.
 
-**Verlaagde tarieven** worden in Vlaanderen toegekend voor sociale woningen (2,54%) en bepaalde wooninfrastructuur voor personen met een handicap ([[bronnen/wetteksten/IVA-vcf#art-21401|VCF art. 2.1.4.0.1 §2]]). Voor **materieel en outillage** geldt een geïndexeerd tarief (VCF art. 2.1.4.0.1 §3).
+**Verlaagde tarieven** worden in Vlaanderen toegekend voor sociale woningen (2,54%) en bepaalde wooninfrastructuur voor personen met een handicap (VCF art. 2.1.4.0.1 §2). Voor **materieel en outillage** geldt een geïndexeerd tarief (VCF art. 2.1.4.0.1 §3).
 
 ```
 Hoofdsom OV = geïndexeerd KI × basistarief
@@ -111,7 +111,7 @@ Eindbedrag OV = hoofdsom × (1 + (opcentiemen provincie + opcentiemen gemeente) 
 
 | Niveau | Wettelijke basis | Bevoegdheid |
 |---|---|---|
-| **Provincie** | [[bronnen/wetteksten/IVA-vcf#art-21402\|VCF art. 2.1.4.0.2]] (Vlaanderen); WIB92 art. 464/1 (federaal voor BHG/Wallonië) | Provincieraad bepaalt |
+| **Provincie** | VCF art. 2.1.4.0.2 (Vlaanderen); WIB92 art. 464/1 (federaal voor BHG/Wallonië) | Provincieraad bepaalt |
 | **Gemeente** | Idem — gemeenteraadsbesluit | Gemeenteraad bepaalt |
 
 **Voorbeeld berekening** (woning in Antwerpen, geïndexeerd KI 1.741 EUR, gemeentelijke opcentiemen 1.190, geen provincieopcentiem):
@@ -141,7 +141,7 @@ De OV kent verschillende verminderingen — voornamelijk gewestelijk geregeld, m
 
 | Vermindering | Voorwaarde (algemeen) | Bron |
 |---|---|---|
-| **Bescheiden woning** | Het KI van het pand + dat van andere bezitten in België ligt onder een drempel | [[bronnen/wetteksten/IVA-vcf#art-21501\|VCF art. 2.1.5.0.1]] (Vl); WIB92 art. 257 (Br/W) |
+| **Bescheiden woning** | Het KI van het pand + dat van andere bezitten in België ligt onder een drempel | VCF art. 2.1.5.0.1 (Vl); WIB92 art. 257 (Br/W) |
 | **Kinderen ten laste** | Minstens 2 kinderen ten laste; vermindering per kind, opgelegd op de woning waar het gezin woont | VCF art. 2.1.5.0.2 (Vl); WIB92 art. 257 |
 | **Personen met handicap in het gezin** | Forfaitaire bijkomende vermindering | VCF art. 2.1.5.0.5; WIB92 art. 257 |
 | **Energiezuinige nieuwbouw** | Vermindering 5 jaar — Vlaams instrument | VCF art. 2.1.5.0.7 |
@@ -185,7 +185,7 @@ Kenniselementen:
 > >
 > > **Fiscaal niet — civiel ja (mits geen wettelijk verbod).**
 > >
-> > De **fiscale belastingplichtige** voor de OV is altijd de **eigenaar** op 1 januari ([[bronnen/wetteksten/IVA-vcf#art-21201|VCF art. 2.1.2.0.1]]). Vlabel int de OV bij de eigenaar, vervolgt enkel de eigenaar bij wanbetaling. De huurder kan in een **civiele afspraak** verbinden de last te dragen — dat blijft een burgerrechtelijk recht van de eigenaar tegenover de huurder, geen fiscale verandering. Voor **woninghuur in Vlaanderen** is een dergelijke clausule sinds de invoering van het Vlaams Woninghuurdecreet (2018) bovendien **verboden** voor de hoofdverblijfplaats. Voor commerciële huur en niet-residentiële huur is ze toegelaten.
+> > De **fiscale belastingplichtige** voor de OV is altijd de **eigenaar** op 1 januari (VCF art. 2.1.2.0.1). Vlabel int de OV bij de eigenaar, vervolgt enkel de eigenaar bij wanbetaling. De huurder kan in een **civiele afspraak** verbinden de last te dragen — dat blijft een burgerrechtelijk recht van de eigenaar tegenover de huurder, geen fiscale verandering. Voor **woninghuur in Vlaanderen** is een dergelijke clausule sinds de invoering van het Vlaams Woninghuurdecreet (2018) bovendien **verboden** voor de hoofdverblijfplaats. Voor commerciële huur en niet-residentiële huur is ze toegelaten.
 > >
 > > Praktisch: gebruikt de eigenaar deze clausule om de OV "weg te belasten" naar de huurder en blijft die in gebreke, dan blijft Vlabel de **eigenaar** vervolgen voor het volledige bedrag.
 > >
@@ -223,7 +223,7 @@ Kenniselementen:
 > > **Twee aparte procedures.**
 > >
 > > 1. **KI te hoog** → bezwaar bij het [[fiscale-actoren#-fod-financiën|Kadaster (AAPD)]] tegen de KI-vaststelling. Dit moet binnen **2 maanden** na betekening van het nieuwe KI gebeuren — een eenmalige procedure die na het verstrijken van de termijn niet meer kan worden ingesteld via een aanslagbezwaar. (KI-bezwaar is een afzonderlijke materie buiten PO 2.7.)
-> > 2. **Ontbrekende vermindering kinderen ten laste** → bezwaar tegen de OV-aanslag bij **Vlabel** binnen 3 maanden na verzending van het aanslagbiljet ([[bronnen/wetteksten/IVA-vcf#art-35201|VCF art. 3.5.2.0.1]]). De [[gewestelijke-belastingen#vlaanderen-eigen-administratie-en-eigen-procedure|Vlaamse procedure]] geldt.
+> > 2. **Ontbrekende vermindering kinderen ten laste** → bezwaar tegen de OV-aanslag bij **Vlabel** binnen 3 maanden na verzending van het aanslagbiljet (VCF art. 3.5.2.0.1). De [[gewestelijke-belastingen#vlaanderen-eigen-administratie-en-eigen-procedure|Vlaamse procedure]] geldt.
 > >
 > > Het ene bezwaar kan niet het andere vervangen: een Vlabel-bezwaarschrift dat het KI betwist wordt afgewezen wegens onbevoegdheid.
 > >

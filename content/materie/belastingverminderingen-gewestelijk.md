@@ -20,11 +20,11 @@ Voor de federale belastingverminderingen (pensioensparen, giften, kinderoppas, �
 
 ## 📌 Gewestelijke belastingvermindering
 
-Vermindering van de PB die wordt toegepast **na** de berekening van de federale belasting, **op het gewestelijk deel** van de belasting ([[bronnen/wetteksten/II-wib92|WIB92 art. 145]]). De wettelijke grondslag varieert per gewest:
+Vermindering van de PB die wordt toegepast **na** de berekening van de federale belasting, **op het gewestelijk deel** van de belasting (WIB92 art. 145). De wettelijke grondslag varieert per gewest:
 
 | Gewest | Wetgevingsbron |
 |---|---|
-| **Vlaanderen** | [[bronnen/wetteksten/IVA-vcf|Vlaamse Codex Fiscaliteit (VCF)]] |
+| **Vlaanderen** | Vlaamse Codex Fiscaliteit (VCF) |
 | **Brussel** | Ordonnantie over de Brusselse Codex Fiscaliteit |
 | **Wallonië** | Code wallon des impôts + diverse decreten |
 
@@ -150,7 +150,7 @@ In hoofdzaak vervangen door **directe premies** — geen PB-vermindering meer.
 
 ## 🔢 Monumentenzorg — Vlaams
 
-Specifieke Vlaamse vermindering voor **onderhoudswerken aan beschermde monumenten** ([[bronnen/wetteksten/IVA-vcf|VCF art. 2.6.4.0.1 e.v.]]). Tarief 40% van de uitgaven, geplafonneerd op ~ € 39 770/jaar per pand (cijferzakboekje).
+Specifieke Vlaamse vermindering voor **onderhoudswerken aan beschermde monumenten** (VCF art. 2.6.4.0.1 e.v.). Tarief 40% van de uitgaven, geplafonneerd op ~ € 39 770/jaar per pand (cijferzakboekje).
 
 **Voorwaarden**:
 - Monument **wettelijk beschermd** door de gewestelijke overheid (Onroerend Erfgoed)
@@ -174,7 +174,7 @@ Wie in dezelfde aangifte **pensioensparen** (federaal) én **dienstencheques** (
 
 ## 🚩 Verhuis tussen gewesten
 
-Bij **verhuis** van Vlaanderen naar Wallonië (of omgekeerd, of vanuit/naar Brussel) tijdens het inkomstenjaar geldt het **gewest van de fiscale woonplaats op 1 januari van het aanslagjaar** ([[bronnen/wetteksten/II-wib92|WIB92 art. 5/2]]).
+Bij **verhuis** van Vlaanderen naar Wallonië (of omgekeerd, of vanuit/naar Brussel) tijdens het inkomstenjaar geldt het **gewest van de fiscale woonplaats op 1 januari van het aanslagjaar** (WIB92 art. 5/2).
 
 **Praktische gevolgen**:
 - Wie verhuist van Vlaanderen naar Wallonië in oktober 2025 → fiscale woonplaats op 1 januari 2026 = Wallonië → **Waalse** verminderingen (Chèque habitat, lagere dienstencheques) voor aj. 2026

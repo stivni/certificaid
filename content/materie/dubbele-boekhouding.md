@@ -10,7 +10,7 @@ bronnen:
 
 # Dubbele boekhouding
 
-De dubbele boekhouding is het systeem waarbij elke verrichting tweemaal wordt geregistreerd — als aanwending én als herkomst van middelen. Het is het fundament van de Belgische bedrijfsboekhouding: elke boekhoudplichtige onderneming die niet in aanmerking komt voor de vereenvoudigde boekhouding, is verplicht de dubbele boekhouding te voeren ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]). De fiche [[boekhoudplicht-wer|Boekhoudplicht WER]] beschrijft wie boekhoudplichtig is en wanneer de vereenvoudigde boekhouding een alternatief biedt.
+De dubbele boekhouding is het systeem waarbij elke verrichting tweemaal wordt geregistreerd — als aanwending én als herkomst van middelen. Het is het fundament van de Belgische bedrijfsboekhouding: elke boekhoudplichtige onderneming die niet in aanmerking komt voor de vereenvoudigde boekhouding, is verplicht de dubbele boekhouding te voeren (ITAA-LEX XIII · WER art. III.84). De fiche [[boekhoudplicht-wer|Boekhoudplicht WER]] beschrijft wie boekhoudplichtig is en wanneer de vereenvoudigde boekhouding een alternatief biedt.
 
 ---
 
@@ -197,12 +197,12 @@ Elke verrichting raakt precies één of meer debet-posten en één of meer credi
 
 ## ⚖️ Procedure van dubbele boeking
 
-Elke economische verrichting leidt tot minstens twee boekingen die samen in evenwicht zijn ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]):
+Elke economische verrichting leidt tot minstens twee boekingen die samen in evenwicht zijn (ITAA-LEX XIII · WER art. III.84):
 
 1. **Identificeer de betrokken rekeningen** — welke balans- of resultatenrekeningen worden geraakt?
 2. **Stel vast welke kant** — debet of credit, per rekening, op basis van de regels in [[#-werking-van-actief-passief-kosten-en-opbrengstenrekeningen|§ Werking van actief-, passief-, kosten- en opbrengstenrekeningen]]
 3. **Controleer het evenwicht** — totaal debet = totaal credit
-4. **Noteer in het dagboek** met datum en omschrijving ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]])
+4. **Noteer in het dagboek** met datum en omschrijving (WER art. III.86)
 5. **Breng over naar de rekeningen** in het grootboek
 
 **Richtlijn**: de debet-rekening(en) worden gewoonlijk als eerste vermeld in de journaalboeking.
@@ -245,7 +245,7 @@ Een rekening wordt geopend wanneer ze voor het eerst gebruikt wordt of bij de st
 
 ## 📌 Dagboek en centraliserend grootboek
 
-De boekhoudcyclus kent twee centrale registers ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|ITAA-LEX XIII · WER art. III.84]]):
+De boekhoudcyclus kent twee centrale registers (ITAA-LEX XIII · WER art. III.84):
 
 **Dagboek** (journaal) — het chronologische register. Elke verrichting wordt hier zonder uitstel, getrouw, volledig en naar tijdsorde ingeschreven. Het dagboek kan zijn:
 - Een **ongesplitst dagboek**: alle verrichtingen in één register
@@ -259,7 +259,7 @@ Het grootboek geeft per rekening het volledige overzicht van alle mutaties — h
 
 ## 📌 Hulpdagboeken
 
-De meeste ondernemingen splitsen het dagboek op in bijzondere hulpdagboeken, elk voor een type verrichting ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]; [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-5|KB WER 2018 art. 5]]):
+De meeste ondernemingen splitsen het dagboek op in bijzondere hulpdagboeken, elk voor een type verrichting (WER art. III.84; KB WER 2018 art. 5):
 
 | Hulpdagboek | Inhoud |
 |---|---|
@@ -268,7 +268,7 @@ De meeste ondernemingen splitsen het dagboek op in bijzondere hulpdagboeken, elk
 | Financieel dagboek | Bankafschriften en kasverrichtingen |
 | Dagboek diverse verrichtingen | Alle overige boekingen (lonen, afschrijvingen, eindejaarboekingen …) |
 
-Voldoen de hulpdagboeken aan de formele vereisten (zie [[boekhoudplicht-wer#-formele-vereisten-voor-boeken|Boekhoudplicht WER §Formele vereisten]]), dan moeten hun totalen — uitgesplitst per hoofdrekening — ten minste maandelijks worden overgebracht naar het centraal boek ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-5|KB WER 2018 art. 5]]).
+Voldoen de hulpdagboeken aan de formele vereisten (zie [[boekhoudplicht-wer#-formele-vereisten-voor-boeken|Boekhoudplicht WER §Formele vereisten]]), dan moeten hun totalen — uitgesplitst per hoofdrekening — ten minste maandelijks worden overgebracht naar het centraal boek (KB WER 2018 art. 5).
 
 ---
 
@@ -281,7 +281,7 @@ Verrichting → Verantwoordingsstuk → Dagboek → Grootboek → Balans / RR
 ```
 
 1. **Verrichting** — een economische gebeurtenis (aankoop, verkoop, betaling, …)
-2. **Verantwoordingsstuk** — elke boeking steunt op een gedagtekend stuk (factuur, bankafschrift, …) ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]])
+2. **Verantwoordingsstuk** — elke boeking steunt op een gedagtekend stuk (factuur, bankafschrift, …) (WER art. III.86)
 3. **Dagboek** — de verrichting wordt chronologisch ingeschreven met datum, rekeningen, bedragen en verwijzing naar het stuk
 4. **Grootboek** — de dagboekboekingen worden overgebracht naar de betrokken rekeningen (centralisering)
 5. **Balans en resultatenrekening** — de saldo's van alle rekeningen worden samengevat in de eindstaten
@@ -290,7 +290,7 @@ Verrichting → Verantwoordingsstuk → Dagboek → Grootboek → Balans / RR
 
 ## 📋 Centralisering van boekingen
 
-Centralisering is de periodieke samenvatting van de hulpdagboekboekingen in het centraal boek ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]):
+Centralisering is de periodieke samenvatting van de hulpdagboekboekingen in het centraal boek (WER art. III.84):
 
 - Minstens **maandelijks** voor ondernemingen met de volledige dubbele boekhouding
 - Minstens **driemaandelijks** voor ondernemingen met de vereenvoudigde boekhouding die toch voor de dubbele kiezen
@@ -321,7 +321,7 @@ De proefbalans **vangt rekenkundige fouten op** (oneven boekingen) maar niet all
 
 ## 📌 Minimum Algemeen Rekeningstelsel (MAR)
 
-Het MAR is de door de Koning vastgestelde minimumindeling van rekeningen voor de dubbele boekhouding ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]]; [[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|KB WER 2018 art. 9–11]]).
+Het MAR is de door de Koning vastgestelde minimumindeling van rekeningen voor de dubbele boekhouding (WER art. III.84; KB WER 2018 art. 9–11).
 
 Het MAR is georganiseerd in **10 klassen**:
 
@@ -338,7 +338,7 @@ Het MAR is georganiseerd in **10 klassen**:
 | 9 | Analytische boekhouding | Analytisch |
 | 0 | Bijzondere rekeningen | Specifiek gebruik |
 
-**Omschrijvingen mogen worden aangepast** aan de aard van het bedrijf. Rekeningen die niet van toepassing zijn, hoeven niet te worden opgenomen. De minimumindeling is een vloer, geen plafond ([[bronnen/wetteksten/XIII-KB-wer-boekhouding#art-9|KB WER 2018 art. 9–11]]).
+**Omschrijvingen mogen worden aangepast** aan de aard van het bedrijf. Rekeningen die niet van toepassing zijn, hoeven niet te worden opgenomen. De minimumindeling is een vloer, geen plafond (KB WER 2018 art. 9–11).
 
 ---
 
@@ -369,9 +369,9 @@ De logica van de dubbele boekhouding is onveranderd wanneer ze in een boekhoudpa
 De dubbele boekhouding levert pas waardevolle informatie als ze aan kwaliteitsvereisten voldoet. Die vereisten zijn tegelijk vaktechnisch (wat maakt een boekhouding goed?) en normatief (wat verplicht de wet?).
 
 **Betrouwbaarheid** — de boekhouding weerspiegelt de werkelijkheid:
-- Elke boeking steunt op een verantwoordingsstuk ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii86|WER art. III.86]])
-- Verrichtingen worden ingeschreven zonder uitstel, getrouw en volledig ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii84|WER art. III.84]])
-- Correcties worden aangebracht zonder het oorspronkelijke te onleesbaar maken ([[bronnen/wetteksten/XIII-wer/boek-iii#art-iii88|WER art. III.88]])
+- Elke boeking steunt op een verantwoordingsstuk (WER art. III.86)
+- Verrichtingen worden ingeschreven zonder uitstel, getrouw en volledig (WER art. III.84)
+- Correcties worden aangebracht zonder het oorspronkelijke te onleesbaar maken (WER art. III.88)
 - Waarderingsregels zijn consistent toegepast ([[boekhoudkundige-beginselen#-beginsel-van-consistentie-in-waarderingsmethoden|consistentiebeginsel]])
 
 **Vergelijkbaarheid** — informatie is bruikbaar over tijd en tussen ondernemingen:

@@ -21,7 +21,7 @@ Ze verschijnen op twee plaatsen in de balans:
 
 ## 📌 Overlopende rekening van het actief (MAR 490/491)
 
-De **overlopende rekeningen van het actief** bevatten twee soorten posten ([[bronnen/wetteksten/XV-KB-wvv#art-389|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:89 §1 X]]):
+De **overlopende rekeningen van het actief** bevatten twee soorten posten (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:89 §1 X):
 
 **490 — Over te dragen kosten**
 Kosten die al betaald zijn in dit boekjaar maar die (gedeeltelijk) betrekking hebben op een **volgend boekjaar**. De kost is reëel maar "te vroeg" geboekt — het gedeelte voor het volgende jaar wordt tijdelijk geparkeerd op de balans als actief.
@@ -43,7 +43,7 @@ Typisch: rente op een lening die op 31/12 opgebouwd is maar pas in januari gecas
 > - **Rechtstitel aanwezig** → vordering (44 Handelsdebiteuren), want de schuld van de klant is juridisch vastgesteld
 > - **Geen rechtstitel** maar bedrag staat vast of is nauwkeurig te schatten → verkregen opbrengst (491)
 >
-> Het KB maakt dit onderscheid expliciet: "vorderingen ... waarvoor nog geen rechtstitel bestaat" gaan naar overlopende rekeningen, niet naar vorderingen ([[bronnen/wetteksten/XV-KB-wvv#art-389|KB WVV 2019 art. 3:89 §1, rubriek VII]])
+> Het KB maakt dit onderscheid expliciet: "vorderingen ... waarvoor nog geen rechtstitel bestaat" gaan naar overlopende rekeningen, niet naar vorderingen (KB WVV 2019 art. 3:89 §1, rubriek VII)
 >
 > 🤖 *AI-aanvulling*
 
@@ -51,7 +51,7 @@ Typisch: rente op een lening die op 31/12 opgebouwd is maar pas in januari gecas
 
 ## 📌 Overlopende rekening van het passief (MAR 492/493)
 
-De **overlopende rekeningen van het passief** bevatten twee soorten posten ([[bronnen/wetteksten/XV-KB-wvv#art-389|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:89 §2 X]]):
+De **overlopende rekeningen van het passief** bevatten twee soorten posten (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:89 §2 X):
 
 **492 — Toe te rekenen kosten**
 Kosten die economisch betrekking hebben op **dit boekjaar**, maar die pas in het volgende boekjaar gefactureerd of betaald worden. Ze zijn een schuld aan het resultaat van dit jaar: de kost is er al, de betaling volgt.
@@ -67,7 +67,7 @@ Typisch: vooruitontvangen huur, voorschotten op abonnementen, vooruitbetaalde on
 
 ## ⚖️ Matchingbeginsel als grondslag
 
-Het [[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|matchingbeginsel]] vereist dat kosten en opbrengsten worden toegerekend aan het boekjaar **waarop ze betrekking hebben**, niet aan het boekjaar waarin ze betaald of gefactureerd worden ([[bronnen/wetteksten/XV-KB-wvv#art-311|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11]]).
+Het [[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|matchingbeginsel]] vereist dat kosten en opbrengsten worden toegerekend aan het boekjaar **waarop ze betrekking hebben**, niet aan het boekjaar waarin ze betaald of gefactureerd worden (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:11).
 
 Overlopende rekeningen zijn de **technische vertaling** van dat beginsel: telkens wanneer betaling en economische realiteit niet samenvallen, corrigeert een overlopende rekening het verschil zodat elke resultatenrekening de activiteit van precies dat boekjaar weerspiegelt.
 
@@ -247,7 +247,7 @@ Toe te rekenen kosten (492) en te ontvangen facturen (44 Handelscrediteuren) lij
 > [!warning]- 492 is voor kosten zonder rechtstitel, niet voor elke ontvangen factuur
 > ❌ *"Een toe te rekenen kost (492) en een te betalen factuur (44) zijn hetzelfde — beide zijn schulden aan leveranciers."*
 >
-> Het KB maakt een expliciet onderscheid ([[bronnen/wetteksten/XV-KB-wvv#art-389|KB WVV 2019 art. 3:89 §2, rubriek VIII en X]]): schulden aan leveranciers (44) vereisen een bestaande rechtstitel. Toe te rekenen kosten (492) zijn kosten die al betrekking hebben op dit boekjaar maar waarvoor **nog geen rechtstitel bestaat** — denk aan gasverbruik dat pas maand later afgerekend wordt. Zodra de factuur ontvangen is, wordt 492 vereffend naar 44.
+> Het KB maakt een expliciet onderscheid (KB WVV 2019 art. 3:89 §2, rubriek VIII en X): schulden aan leveranciers (44) vereisen een bestaande rechtstitel. Toe te rekenen kosten (492) zijn kosten die al betrekking hebben op dit boekjaar maar waarvoor **nog geen rechtstitel bestaat** — denk aan gasverbruik dat pas maand later afgerekend wordt. Zodra de factuur ontvangen is, wordt 492 vereffend naar 44.
 >
 > 🤖 *AI-aanvulling*
 

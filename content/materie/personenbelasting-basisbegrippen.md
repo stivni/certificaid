@@ -10,7 +10,7 @@ bronnen:
 
 # Personenbelasting — basisbegrippen
 
-De personenbelasting (PB) is de rechtstreekse belasting op het wereldwijde inkomen van rijksinwoners ([[bronnen/wetteksten/II-wib92|WIB92 art. 3, 5]]). Ze is **persoonlijk** (afhankelijk van gezinssituatie en draagkracht), **jaarlijks** (per inkomstenjaar) en **progressief** (stijgende tarieven per inkomensschijf). De aangifte is de motor die de aanslag in werking stelt.
+De personenbelasting (PB) is de rechtstreekse belasting op het wereldwijde inkomen van rijksinwoners (WIB92 art. 3, 5). Ze is **persoonlijk** (afhankelijk van gezinssituatie en draagkracht), **jaarlijks** (per inkomstenjaar) en **progressief** (stijgende tarieven per inkomensschijf). De aangifte is de motor die de aanslag in werking stelt.
 
 Deze fiche legt de structurele begrippen uit die nodig zijn om alle andere PB-fiches te begrijpen. Ze legt **niet** uit hoe je een aangifte invult of een belasting berekent — daarvoor zie [[aangifte-personenbelasting-invullen|Aangifte personenbelasting invullen]] en [[belastingberekening-personenbelasting|Belastingberekening personenbelasting]].
 
@@ -18,9 +18,9 @@ Deze fiche legt de structurele begrippen uit die nodig zijn om alle andere PB-fi
 
 ## 📌 Personenbelasting (PB)
 
-Belasting op het totale wereldwijde [[#-belastbaar-inkomen|netto belastbaar inkomen]] van [[belastingplichtigen-personenbelasting#-rijksinwoner|rijksinwoners]], geheven door de federale overheid op basis van het [[bronnen/wetteksten/II-wib92|Wetboek van de Inkomstenbelastingen 1992 (WIB92)]] ([[bronnen/wetteksten/II-wib92|WIB92 art. 3]]).
+Belasting op het totale wereldwijde [[#-belastbaar-inkomen|netto belastbaar inkomen]] van [[belastingplichtigen-personenbelasting#-rijksinwoner|rijksinwoners]], geheven door de federale overheid op basis van het Wetboek van de Inkomstenbelastingen 1992 (WIB92) (WIB92 art. 3).
 
-Eén van de vier inkomstenbelastingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 1]]):
+Eén van de vier inkomstenbelastingen (WIB92 art. 1):
 
 | Belasting | Belastingplichtige |
 |---|---|
@@ -34,7 +34,7 @@ Eén van de vier inkomstenbelastingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 
 ## 📌 Aanslagjaar en inkomstenjaar
 *Exercice d'imposition · Période imposable*
 
-Twee verschillende jaren die altijd één jaar uit elkaar liggen — fundamenteel om geen aangiftes te verwarren ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]).
+Twee verschillende jaren die altijd één jaar uit elkaar liggen — fundamenteel om geen aangiftes te verwarren (WIB92 art. 360).
 
 | Begrip | Wat is het? |
 |---|---|
@@ -60,7 +60,7 @@ Twee verschillende jaren die altijd één jaar uit elkaar liggen — fundamentee
 
 ## 📌 Belastbaar tijdperk
 
-Het tijdvak waarin de inkomsten worden behaald die onderworpen zijn aan een welbepaald aanslagjaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]). Voor de PB **valt het belastbaar tijdperk altijd samen met het kalenderjaar** dat het aanslagjaar voorafgaat — ook bij overlijden of wijziging van fiscale woonplaats (in dat geval is het belastbaar tijdperk een **gedeelte** van het kalenderjaar).
+Het tijdvak waarin de inkomsten worden behaald die onderworpen zijn aan een welbepaald aanslagjaar (WIB92 art. 360). Voor de PB **valt het belastbaar tijdperk altijd samen met het kalenderjaar** dat het aanslagjaar voorafgaat — ook bij overlijden of wijziging van fiscale woonplaats (in dat geval is het belastbaar tijdperk een **gedeelte** van het kalenderjaar).
 
 In de Ven.B kan het belastbaar tijdperk afwijken van het kalenderjaar (boekjaar). In de PB niet.
 
@@ -81,7 +81,7 @@ Twee onderscheiden ogenblikken in het ontstaan van de fiscale verplichting.
 
 ## 📌 Belastbaar inkomen
 
-Het netto-inkomen waarop de belasting berekend wordt, na aftrek van beroepskosten, beroepsverliezen en aftrekbare uitgaven, en na verrekening van [[#-decumul|decumul]] tussen partners ([[bronnen/wetteksten/II-wib92|WIB92 art. 6]]).
+Het netto-inkomen waarop de belasting berekend wordt, na aftrek van beroepskosten, beroepsverliezen en aftrekbare uitgaven, en na verrekening van [[#-decumul|decumul]] tussen partners (WIB92 art. 6).
 
 Opbouw in vier stappen — gedetailleerd in [[belastingberekening-personenbelasting|Belastingberekening personenbelasting]]:
 
@@ -97,7 +97,7 @@ Het belastbaar inkomen wordt opgesplitst in **gezamenlijk belastbaar** (onderwor
 ## 📌 Inkomstencategorieën
 *Catégories de revenus*
 
-De PB belast vier categorieën van inkomsten. Elke categorie heeft een eigen aangiftedeel, eigen aftrekken en eigen kwalificatieregels ([[bronnen/wetteksten/II-wib92|WIB92 art. 6]]).
+De PB belast vier categorieën van inkomsten. Elke categorie heeft een eigen aangiftedeel, eigen aftrekken en eigen kwalificatieregels (WIB92 art. 6).
 
 | Categorie | Wat | Materie-fiche |
 |---|---|---|
@@ -125,7 +125,7 @@ In de aangifte rapporteer je **brutobedragen** — de aftrekken worden door de a
 ## ⚖️ Annualiteitsbeginsel
 *Principe d'annualité*
 
-De belasting wordt geheven per **belastbaar tijdperk** — elke periode is op zichzelf een fiscaal afgesloten geheel ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]). Inkomsten die toebehoren aan jaar X mogen niet aan jaar Y worden toegewezen, ook niet als ze pas in jaar Y worden geïnd.
+De belasting wordt geheven per **belastbaar tijdperk** — elke periode is op zichzelf een fiscaal afgesloten geheel (WIB92 art. 360). Inkomsten die toebehoren aan jaar X mogen niet aan jaar Y worden toegewezen, ook niet als ze pas in jaar Y worden geïnd.
 
 **Praktische gevolgen:**
 
@@ -145,7 +145,7 @@ De belasting wordt geheven per **belastbaar tijdperk** — elke periode is op zi
 ## ⚖️ Decumul
 *Décumul*
 
-Sinds aanslagjaar 2005 worden de beroepsinkomsten van de partners **afzonderlijk** belast aan elk hun eigen tarief, ook wanneer er een **gezamenlijke aanslag** is ([[bronnen/wetteksten/II-wib92|WIB92 art. 126-128]]). Vóór de decumul werden de inkomsten samengeteld en zwaar belast door de progressie — wat samenwonen fiscaal afstrafte.
+Sinds aanslagjaar 2005 worden de beroepsinkomsten van de partners **afzonderlijk** belast aan elk hun eigen tarief, ook wanneer er een **gezamenlijke aanslag** is (WIB92 art. 126-128). Vóór de decumul werden de inkomsten samengeteld en zwaar belast door de progressie — wat samenwonen fiscaal afstrafte.
 
 **Mechanisme:**
 
@@ -154,7 +154,7 @@ Sinds aanslagjaar 2005 worden de beroepsinkomsten van de partners **afzonderlijk
 3. Niet-beroepsinkomsten (OG, roerend, divers) worden samengeteld en toegerekend volgens specifieke regels (huwelijksvermogensstelsel, eigen vermogen)
 4. De gemeenschappelijke aanslag levert één aanslagbiljet op, maar twee belastingberekeningen
 
-**Huwelijksquotiënt**: een aanvullende techniek die een deel van het hoogste beroepsinkomen overhevelt naar de partner zonder of met laag inkomen — beperkt tot 30% en een geïndexeerd plafond. Daardoor profiteert het overhevelde deel van de lagere belastingschijven van de andere partner ([[bronnen/wetteksten/II-wib92|WIB92 art. 87]]).
+**Huwelijksquotiënt**: een aanvullende techniek die een deel van het hoogste beroepsinkomen overhevelt naar de partner zonder of met laag inkomen — beperkt tot 30% en een geïndexeerd plafond. Daardoor profiteert het overhevelde deel van de lagere belastingschijven van de andere partner (WIB92 art. 87).
 
 > [!info]- In de praktijk
 >
@@ -167,7 +167,7 @@ Sinds aanslagjaar 2005 worden de beroepsinkomsten van de partners **afzonderlijk
 ## ⚖️ Gezamenlijke vs. afzonderlijke aanslag
 *Imposition commune vs. distincte*
 
-Bepaalt of twee personen één gezamenlijk aanslagbiljet krijgen of elk een eigen aanslagbiljet ([[bronnen/wetteksten/II-wib92|WIB92 art. 126-128]]).
+Bepaalt of twee personen één gezamenlijk aanslagbiljet krijgen of elk een eigen aanslagbiljet (WIB92 art. 126-128).
 
 | Situatie | Aanslag |
 |---|---|
@@ -202,7 +202,7 @@ De PB onderwerpt inkomsten in beginsel aan de **progressieve tarieven** (= globa
 | Kapitalen pensioensparen / groepsverzekering bij pensionering | 10% / 16,5% / 20% afhankelijk van leeftijd |
 | Roerende inkomsten met bevrijdende RV | 30% (regel) — geen aangifte nodig als RV ingehouden |
 
-**Vergelijkingsregel**: de wet legt op dat de afzonderlijke aanslag wordt vervangen door de globalisatie als die laatste **voordeliger** is voor de belastingplichtige ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]] in fine).
+**Vergelijkingsregel**: de wet legt op dat de afzonderlijke aanslag wordt vervangen door de globalisatie als die laatste **voordeliger** is voor de belastingplichtige (WIB92 art. 171 in fine).
 
 > [!info]- In de praktijk: stopzettingsmeerwaarde — afzonderlijk of globaliseren?
 >
@@ -220,7 +220,7 @@ De PB onderwerpt inkomsten in beginsel aan de **progressieve tarieven** (= globa
 ## 🔒 Aangifteplicht
 *Obligation de déclaration*
 
-Iedere belastingplichtige is verplicht jaarlijks een aangifte in te dienen ([[bronnen/wetteksten/II-wib92|WIB92 art. 305]]). De aangifte is geen vrijblijvend formulier — ze is de **enige rechtsgrond** waarop de administratie de aanslag kan vestigen op basis van wat de belastingplichtige verklaart.
+Iedere belastingplichtige is verplicht jaarlijks een aangifte in te dienen (WIB92 art. 305). De aangifte is geen vrijblijvend formulier — ze is de **enige rechtsgrond** waarop de administratie de aanslag kan vestigen op basis van wat de belastingplichtige verklaart.
 
 **Vorm**: papieren aangifte (uitzondering) of elektronisch via [Tax-on-web](https://eservices.minfin.fgov.be/taxonweb/) (regel). Voor klanten die hun aangifte laten invullen door een mandataris (accountant, belastingadviseur) gelden specifieke termijnen.
 
@@ -240,13 +240,13 @@ Iedere belastingplichtige is verplicht jaarlijks een aangifte in te dienen ([[br
 >
 > 🤖 *AI-aanvulling*
 
-**Sancties**: bij niet-aangifte volgt een **ambtshalve aanslag** (administratie schat het inkomen, omkering bewijslast) en mogelijk een **belastingverhoging** van 10% tot 200% naargelang de aard van de inbreuk ([[bronnen/wetteksten/II-wib92|WIB92 art. 351, 444]]).
+**Sancties**: bij niet-aangifte volgt een **ambtshalve aanslag** (administratie schat het inkomen, omkering bewijslast) en mogelijk een **belastingverhoging** van 10% tot 200% naargelang de aard van de inbreuk (WIB92 art. 351, 444).
 
 ---
 
 ## 🔒 Bewaarplicht
 
-De belastingplichtige moet de bewijsstukken van zijn aangifte bewaren — voor PB geldt een bewaartermijn van **7 jaar** vanaf 1 januari van het aanslagjaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 315]]).
+De belastingplichtige moet de bewijsstukken van zijn aangifte bewaren — voor PB geldt een bewaartermijn van **7 jaar** vanaf 1 januari van het aanslagjaar (WIB92 art. 315).
 
 Concrete documenten:
 - Loonfiches 281.10 (werknemer), 281.20 (bedrijfsleider)
@@ -259,7 +259,7 @@ Deze stukken moeten beschikbaar zijn voor controle. Voor [[fiscaal-bezwaar-voorb
 
 > [!info]- In de praktijk: kantoren bewaren 10 jaar
 >
-> De wettelijke minimumtermijn is 7 jaar, maar de beroepspraktijk hanteert **10 jaar** als kantoorstandaard — gelijk aan de fiscale onderzoekstermijn bij fraude ([[bronnen/wetteksten/II-wib92|WIB92 art. 358]]). Kantoren die na 7 jaar vernietigen riskeren bewijs-problemen bij latere fraudeonderzoeken waarbij de onderzoekstermijn 10 jaar is.
+> De wettelijke minimumtermijn is 7 jaar, maar de beroepspraktijk hanteert **10 jaar** als kantoorstandaard — gelijk aan de fiscale onderzoekstermijn bij fraude (WIB92 art. 358). Kantoren die na 7 jaar vernietigen riskeren bewijs-problemen bij latere fraudeonderzoeken waarbij de onderzoekstermijn 10 jaar is.
 >
 > 🤖 *AI-aanvulling*
 
@@ -268,7 +268,7 @@ Deze stukken moeten beschikbaar zijn voor controle. Voor [[fiscaal-bezwaar-voorb
 ## 📌 Cijferzakboekje
 *Mémento fiscal*
 
-Jaarlijks geactualiseerde uitgave met alle [[#-geïndexeerde-bedragen|geïndexeerde bedragen]], tarieven en drempels van het lopende aanslagjaar — een onmisbaar examenhulpmiddel naast [[bronnen/wetteksten/II-wib92|ITAA-LEX]].
+Jaarlijks geactualiseerde uitgave met alle [[#-geïndexeerde-bedragen|geïndexeerde bedragen]], tarieven en drempels van het lopende aanslagjaar — een onmisbaar examenhulpmiddel naast ITAA-LEX.
 
 Wat staat in het cijferzakboekje en niet (volledig) in de wet:
 - Geïndexeerde belastingvrije som en gezinslast-toeslagen
@@ -285,7 +285,7 @@ Wat staat in het cijferzakboekje en niet (volledig) in de wet:
 
 ## ⚖️ Geïndexeerde bedragen
 
-Veel drempels en maxima in de PB worden jaarlijks geïndexeerd op basis van de gezondheidsindex ([[bronnen/wetteksten/II-wib92|WIB92 art. 178]]). Een wettekst noemt vaak een **basisbedrag** (bv. "1 250 EUR"); het werkelijke bedrag in het cijferzakboekje is altijd hoger.
+Veel drempels en maxima in de PB worden jaarlijks geïndexeerd op basis van de gezondheidsindex (WIB92 art. 178). Een wettekst noemt vaak een **basisbedrag** (bv. "1 250 EUR"); het werkelijke bedrag in het cijferzakboekje is altijd hoger.
 
 **Tijdelijke indexering-stop**: voor sommige bedragen (bv. de woonbonus) geldt een wettelijke "bevriezing" — de wet gebruikt een vaste waarde zonder indexering. Lees altijd de bron, niet enkel het cijferzakboekje, als de evolutie cruciaal is.
 

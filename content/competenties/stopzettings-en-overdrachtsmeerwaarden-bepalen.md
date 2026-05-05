@@ -16,7 +16,7 @@ Bij **stopzetting** of **overdracht** van een onderneming (eenmanszaak, vrij ber
 Deze competentie loodst de mandataris door de berekening: kwalificeren, waarderen, tarief bepalen, aangeven. Voor de onderliggende kennis: zie [[stopzettingsmeerwaarden-personenbelasting|materie-fiche stopzettingsmeerwaarden]].
 
 > [!info]- Grondslag van deze werkwijze (🤖 30% · ⚖️ 70%)
-> De **kwalificatie** en **tarieven** zijn wettelijk vastgelegd in [[bronnen/wetteksten/II-wib92|WIB92 art. 28-47, 171, 184ter]]. De **werkwijze voor toewijzing** tussen materieel en cliënteel bij verkoop van een praktijk volgt beroepspraktijk, ondersteund door schattingen van onafhankelijke experts of beëdigd schatters. De **fiscale neutraliteit bij omvorming** is wettelijk geregeld ([[bronnen/wetteksten/II-wib92|WIB92 art. 46]]) maar de toepassingsvoorwaarden vereisen specifieke documentatie.
+> De **kwalificatie** en **tarieven** zijn wettelijk vastgelegd in WIB92 art. 28-47, 171, 184ter. De **werkwijze voor toewijzing** tussen materieel en cliënteel bij verkoop van een praktijk volgt beroepspraktijk, ondersteund door schattingen van onafhankelijke experts of beëdigd schatters. De **fiscale neutraliteit bij omvorming** is wettelijk geregeld (WIB92 art. 46) maar de toepassingsvoorwaarden vereisen specifieke documentatie.
 
 ## Aanbevolen werkwijze
 
@@ -45,7 +45,7 @@ Deze competentie loodst de mandataris door de berekening: kwalificeren, waardere
 > [!warning]- Vermeende stopzetting met intentie van voortzetting kwalificeert niet
 > ❌ *"Ik beëindig in december 2025 om in maart 2026 onder andere naam te herstarten — geen stopzetting in fiscale zin."*
 >
-> Cliënt heeft **gelijk** dat een **tijdelijke** onderbreking met intentie van voortzetting niet als stopzetting kwalificeert ([[bronnen/wetteksten/II-wib92|WIB92 art. 28]]) — geen meerwaardeheffing. **Maar**: bij wijziging van naam, statuut of werkmethode kan de fiscus **herkwalificeren** als werkelijke stopzetting + nieuwe activiteit, mits de fiscale activa daadwerkelijk werden overgedragen. Bij twijfel: **ruling** vragen vooraf bij Dienst Voorafgaande Beslissingen om de neutraliteit te bevestigen.
+> Cliënt heeft **gelijk** dat een **tijdelijke** onderbreking met intentie van voortzetting niet als stopzetting kwalificeert (WIB92 art. 28) — geen meerwaardeheffing. **Maar**: bij wijziging van naam, statuut of werkmethode kan de fiscus **herkwalificeren** als werkelijke stopzetting + nieuwe activiteit, mits de fiscale activa daadwerkelijk werden overgedragen. Bij twijfel: **ruling** vragen vooraf bij Dienst Voorafgaande Beslissingen om de neutraliteit te bevestigen.
 >
 > 🤖 *AI-aanvulling*
 
@@ -219,12 +219,12 @@ Berekening per activum:
 | Alternatief | Werking | Wanneer voordelig |
 |---|---|---|
 | **Wachten tot 60 jaar** | Cliënteel-tarief van 33% naar 16,5% | Cliënt jonger dan 60, cliënteel-component groot |
-| **Inbreng eenmanszaak in vennootschap** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 46]]) | Fiscale neutraliteit — uitgestelde heffing | Cliënt wil voortzetting; latere belastingdruk in Ven.B |
+| **Inbreng eenmanszaak in vennootschap** (WIB92 art. 46) | Fiscale neutraliteit — uitgestelde heffing | Cliënt wil voortzetting; latere belastingdruk in Ven.B |
 | **Overlijden afwachten** (cynisch maar feitelijk) | Verlaagd tarief 16,5%, soms vrijstelling | Niet adviseerbaar als planning, maar relevante feitelijkheid |
 | **Verkoop activa in delen** over meerdere jaren | Spreiding belasting | Bij grote cliënteel-component — deelt het tarief over jaren |
 | **Verlaagd tarief op cliënteel verworven van derde** | 16,5% i.p.v. 33% | Specifiek geval — cliënteel reeds aangekocht |
 
-**Inbreng tegen aandelen — fiscale neutraliteit** ([[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]):
+**Inbreng tegen aandelen — fiscale neutraliteit** (WIB92 art. 46, §1, 2°):
 - **Voorwaarden**: alle beroepsmatige activa, tegen aandelen, voortzetting activiteit, continuïteit waardering
 - **Effect**: geen onmiddellijke heffing op meerwaarden — uitstel tot vennootschap verkoopt
 - **Risico**: latere Ven.B-heffing bij verkoop door vennootschap; aandelen-verkoop is mogelijk vrijgesteld als normaal beheer
@@ -288,7 +288,7 @@ Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 >
 > **Conclusie**: Bij realistische toewijzing (gebouw € 280 000, materieel € 30 000, cliënteel € 170 000) en vrijwillige stopzetting < 60 jaar: meerwaarde-belasting = € 86 045. Aanbeveling: overweeg wachten tot 60 jaar voor verlaging van € 28 050 op cliënteel-tarief.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 28, 171, 1°, c]] (cliënteel 33% vrijwillig < 60); [[bronnen/wetteksten/II-wib92|WIB92 art. 171, 4°, b]] (verlaagd 16,5% bij ≥ 60 of gedwongen).
+> **Grondslag**: WIB92 art. 28, 171, 1°, c (cliënteel 33% vrijwillig < 60); WIB92 art. 171, 4°, b (verlaagd 16,5% bij ≥ 60 of gedwongen).
 >
 > **Redenering**:
 > - Stap 1: Vrijwillige stopzetting < 60 jaar
@@ -315,9 +315,9 @@ Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 > - Cliënteel: boekwaarde € 0, marktwaarde € 120 000 (gebaseerd op omzet-veelvoud)
 > - Voorraden: € 0
 >
-> **Conclusie**: Inbreng tegen aandelen + voortzetting activiteit + continuïteit waardering = **fiscale neutraliteit** ([[bronnen/wetteksten/II-wib92|WIB92 art. 46]]). Geen onmiddellijke heffing op latente meerwaarde € 123 000. Vennootschap neemt boekwaarde over (€ 5 000); bij latere verkoop heffing in Ven.B.
+> **Conclusie**: Inbreng tegen aandelen + voortzetting activiteit + continuïteit waardering = **fiscale neutraliteit** (WIB92 art. 46). Geen onmiddellijke heffing op latente meerwaarde € 123 000. Vennootschap neemt boekwaarde over (€ 5 000); bij latere verkoop heffing in Ven.B.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]; CBN-advies inzake inbreng tegen aandelen.
+> **Grondslag**: WIB92 art. 46, §1, 2°; CBN-advies inzake inbreng tegen aandelen.
 >
 > **Redenering**:
 > - Stap 1: Omvorming naar vennootschap met fiscale neutraliteit (geen werkelijke stopzetting)
@@ -356,7 +356,7 @@ Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 > >
 > > **€ 90 100** (cliënteel € 250 000 × 33% = € 82 500 + materieel meerwaarde € 40 000 × 16,5% = € 6 600 + cliënteel-tarief 33% want vrijwillig < 60).
 > >
-> > Vrijwillige stopzetting **vóór 60 jaar** → standaardtarief 33% op cliënteel ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 1°, c]]). Wachten tot 60 jaar zou cliënteel-tarief verlagen naar 16,5% → besparing € 41 250 louter door 2 jaar wachten. Strategische beslissing afhankelijk van inkomstenverlies tijdens wachttijd.
+> > Vrijwillige stopzetting **vóór 60 jaar** → standaardtarief 33% op cliënteel (WIB92 art. 171, 1°, c). Wachten tot 60 jaar zou cliënteel-tarief verlagen naar 16,5% → besparing € 41 250 louter door 2 jaar wachten. Strategische beslissing afhankelijk van inkomstenverlies tijdens wachttijd.
 > >
 > > *Zie: [[stopzettings-en-overdrachtsmeerwaarden-bepalen#-5--tarief-per-activum-categorie-bepalen|Tarief bepalen]]*
 >
@@ -384,7 +384,7 @@ Code 1692-54  Gezamenlijk belastbaar               (uitzonderlijk)
 > >
 > > **(1) Inbreng van alle beroepsmatige activa (geen selectief uithalen); (2) Tegen aandelen (geen liquide vergoeding); (3) Voortzetting activiteit door vennootschap; (4) Continuïteit waardering (vennootschap neemt fiscale boekwaarde over).**
 > >
-> > Onder deze 4 cumulatieve voorwaarden ([[bronnen/wetteksten/II-wib92|WIB92 art. 46, §1, 2°]]) wordt geen onmiddellijke meerwaardeheffing toegepast. De latente meerwaarde van € 150 000 wordt **uitgesteld** tot toekomstige verkoop door de vennootschap (waar Ven.B 25% van toepassing is). Vergeleken met directe stopzetting: € 150 000 × 16,5% = € 24 750 onmiddellijke heffing vermeden, vervangen door latere Ven.B-heffing bij verkoop.
+> > Onder deze 4 cumulatieve voorwaarden (WIB92 art. 46, §1, 2°) wordt geen onmiddellijke meerwaardeheffing toegepast. De latente meerwaarde van € 150 000 wordt **uitgesteld** tot toekomstige verkoop door de vennootschap (waar Ven.B 25% van toepassing is). Vergeleken met directe stopzetting: € 150 000 × 16,5% = € 24 750 onmiddellijke heffing vermeden, vervangen door latere Ven.B-heffing bij verkoop.
 > >
 > > *Zie: [[stopzettings-en-overdrachtsmeerwaarden-bepalen#-6--optimalisatie-mogelijkheden-onderzoeken|Optimalisatie]] en [[stopzettingsmeerwaarden-personenbelasting#-vrijstelling-bij-omzetting-eenmanszaak-vennootschap|Vrijstelling bij omzetting]]*
 >

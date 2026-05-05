@@ -13,7 +13,7 @@ bronnen:
 
 De resultatenrekening bestaat uit drie lagen: het bedrijfsresultaat, het financieel resultaat en het niet-recurrent resultaat. Deze fiche behandelt de eerste laag — de **operationele activiteit** van de onderneming. Bedrijfskosten en bedrijfsopbrengsten zijn de posten die voortkomen uit de gewone bedrijfsuitoefening; ze bepalen het [[resultaatniveaus#-resultaatniveaus|bedrijfsresultaat (EBIT)]].
 
-De resultatenrekening wordt opgesteld overeenkomstig het schema in bijlage 3 van het KB WVV. ([[bronnen/wetteksten/XV-KB-wvv#art-381|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:81]])
+De resultatenrekening wordt opgesteld overeenkomstig het schema in bijlage 3 van het KB WVV. (ITAA-LEX XV (KB) · KB WVV 2019 art. 3:81)
 
 ---
 
@@ -31,13 +31,13 @@ Het volledig schema onderscheidt de volgende posten:
 | **I.D Andere bedrijfsopbrengsten** | Overige bedrijfsverbonden opbrengsten: exploitatiesubsidies, meerwaarden op handelsvorderingen | 74 |
 | **I.E Niet-recurrente bedrijfsopbrengsten** | Opbrengsten buiten de gewone bedrijfsuitoefening | 76 |
 
-([[bronnen/wetteksten/XV-KB-wvv#art-390|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:90]])
+(ITAA-LEX XV (KB) · KB WVV 2019 art. 3:90)
 
 ---
 
 ## 📌 Omzet (post I.A)
 
-De omzet omvat het bedrag van de **verkoop van goederen en de levering van diensten aan derden**, in het kader van de gewone bedrijfsuitoefening, na aftrek van in de handel toegestane kortingen. De omzet bevat **geen btw** en geen andere rechtstreeks met de omzet verbonden belastingen. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+De omzet omvat het bedrag van de **verkoop van goederen en de levering van diensten aan derden**, in het kader van de gewone bedrijfsuitoefening, na aftrek van in de handel toegestane kortingen. De omzet bevat **geen btw** en geen andere rechtstreeks met de omzet verbonden belastingen. (KB WVV 2019 art. 3:90)
 
 Overheidstegemoetkomingen als compensatie voor lagere ontvangsten in het kader van een tariferingspolitiek vallen ook onder de omzet.
 
@@ -90,7 +90,7 @@ Bedrijfsverbonden opbrengsten die:
 - **niet** hun oorsprong vinden in een verkoop of dienstverlening aan derden in het kader van de gewone bedrijfsuitoefening, en
 - **niet** als niet-recurrente bedrijfsopbrengst of financiële opbrengst kunnen worden aangemerkt.
 
-Voorbeelden ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]]): exploitatiesubsidies, compenserende bedragen bij in- of uitvoer, meerwaarden bij de realisatie van handelsvorderingen.
+Voorbeelden (KB WVV 2019 art. 3:90): exploitatiesubsidies, compenserende bedragen bij in- of uitvoer, meerwaarden bij de realisatie van handelsvorderingen.
 
 ---
 
@@ -109,13 +109,13 @@ De bedrijfskosten zijn alle kosten die voortvloeien uit de gewone bedrijfsuitoef
 | **II.G Andere bedrijfskosten** | Overige bedrijfsverbonden kosten: belastingen als bedrijfskost (onroerende voorheffing), minderwaarden op handelsvorderingen | 640/641 |
 | **II.I Niet-recurrente bedrijfskosten** | Kosten buiten de gewone bedrijfsuitoefening | 66 |
 
-([[bronnen/wetteksten/XV-KB-wvv#art-390|ITAA-LEX XV (KB) · KB WVV 2019 art. 3:90]])
+(ITAA-LEX XV (KB) · KB WVV 2019 art. 3:90)
 
 ---
 
 ## 📌 Aankopen handelsgoederen, grond- en hulpstoffen (post II.A)
 
-Na aftrek van in de handel toegestane kortingen en van de **aftrekbare btw**. Worden eveneens onder deze post geboekt: ingekochte diensten, werken en studies met een rechtstreekse invloed op de vervaardigingsprijs, algemene onderaannemingen en aankopen van onroerende goederen bestemd voor verkoop. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+Na aftrek van in de handel toegestane kortingen en van de **aftrekbare btw**. Worden eveneens onder deze post geboekt: ingekochte diensten, werken en studies met een rechtstreekse invloed op de vervaardigingsprijs, algemene onderaannemingen en aankopen van onroerende goederen bestemd voor verkoop. (KB WVV 2019 art. 3:90)
 
 Standaard aankoop handelsgoederen (btw aftrekbaar):
 
@@ -129,7 +129,7 @@ Standaard aankoop handelsgoederen (btw aftrekbaar):
 
 ## 📌 Diensten en diverse goederen (post II.B)
 
-Kosten verbonden met dienstverlening of levering van goederen door derden in het kader van de bedrijfsuitoefening, tenzij die kosten onder rubriek II.A of II.C moeten worden geboekt. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+Kosten verbonden met dienstverlening of levering van goederen door derden in het kader van de bedrijfsuitoefening, tenzij die kosten onder rubriek II.A of II.C moeten worden geboekt. (KB WVV 2019 art. 3:90)
 
 Hieronder vallen ook:
 - Vergoedingen van uitzendkrachten en ter beschikking gestelde personen
@@ -138,7 +138,7 @@ Hieronder vallen ook:
 > [!warning]- Bezoldigingen van bestuurders zonder arbeidsovereenkomst horen in post II.B, niet in II.C
 > ❌ *"Alle bezoldigingen van personen die werken voor de vennootschap, staan in post II.C Bezoldigingen."*
 >
-> Bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten die **geen arbeidsovereenkomst** hebben, staan in **post II.B Diensten en diverse goederen**. Post II.C is bestemd voor personeel onder arbeidsovereenkomst. Het onderscheid is relevant voor de loonmassa-analyse en voor de sociale balans. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+> Bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten die **geen arbeidsovereenkomst** hebben, staan in **post II.B Diensten en diverse goederen**. Post II.C is bestemd voor personeel onder arbeidsovereenkomst. Het onderscheid is relevant voor de loonmassa-analyse en voor de sociale balans. (KB WVV 2019 art. 3:90)
 >
 > 🤖 *AI-aanvulling*
 
@@ -178,13 +178,13 @@ Bij uitbetaling van het nettoloon:
         aan 55 Bank                               xxx
 ```
 
-**Vakantiegeld bij afsluiting** — het vakantiegeld voor het lopende boekjaar dat pas in het volgende boekjaar wordt uitbetaald, wordt via een [[voorzieningen|voorziening]] (of overlopende rekening) toegerekend aan het boekjaar waarop het betrekking heeft, in toepassing van het [[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|matchingbeginsel]]. ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV 2019 art. 3:11]])
+**Vakantiegeld bij afsluiting** — het vakantiegeld voor het lopende boekjaar dat pas in het volgende boekjaar wordt uitbetaald, wordt via een [[voorzieningen|voorziening]] (of overlopende rekening) toegerekend aan het boekjaar waarop het betrekking heeft, in toepassing van het [[boekhoudkundige-beginselen#-matching-overeenstemming-van-kosten-en-opbrengsten|matchingbeginsel]]. (KB WVV 2019 art. 3:11)
 
 ---
 
 ## 📌 Afschrijvingen en waardeverminderingen op vaste activa (post II.D)
 
-Planmatige [[afschrijvingen|afschrijvingen]] op oprichtingskosten, immateriële en materiële vaste activa, én incidentele [[waardeverminderingen|waardeverminderingen]] op vaste activa — tenzij die wegens hun uitzonderlijk karakter als niet-recurrente bedrijfskost moeten worden geboekt (post II.I). ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+Planmatige [[afschrijvingen|afschrijvingen]] op oprichtingskosten, immateriële en materiële vaste activa, én incidentele [[waardeverminderingen|waardeverminderingen]] op vaste activa — tenzij die wegens hun uitzonderlijk karakter als niet-recurrente bedrijfskost moeten worden geboekt (post II.I). (KB WVV 2019 art. 3:90)
 
 Terugnemingen van afschrijvingen of waardeverminderingen worden **niet** onder post II.D geboekt maar onder de niet-recurrente bedrijfsopbrengsten (post I.E).
 
@@ -194,7 +194,7 @@ MAR-codes: 630 (afschrijvingen op oprichtingskosten en immateriële vaste activa
 
 ## 📌 Waardeverminderingen op voorraden, bestellingen in uitvoering en handelsvorderingen (post II.E)
 
-Toevoegingen (+) en terugnemingen (−) van [[waardeverminderingen|waardeverminderingen]] op de activa in de balansposten voorraden (rubriek V.A) en handelsvorderingen (rubriek VII.A). ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+Toevoegingen (+) en terugnemingen (−) van [[waardeverminderingen|waardeverminderingen]] op de activa in de balansposten voorraden (rubriek V.A) en handelsvorderingen (rubriek VII.A). (KB WVV 2019 art. 3:90)
 
 MAR-codes: 6321/6331 (voorraden), 6340/6350 (handelsvorderingen).
 
@@ -202,7 +202,7 @@ MAR-codes: 6321/6331 (voorraden), 6340/6350 (handelsvorderingen).
 
 ## 📌 Voorzieningen voor risico's en kosten (post II.F)
 
-Toevoegingen (+) aan [[voorzieningen|voorzieningen]] voor **bedrijfsrisico's en -verplichtingen**, en bestedingen en terugnemingen (−) van eerder gevormde voorzieningen voor gewone bedrijfsrisico's. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+Toevoegingen (+) aan [[voorzieningen|voorzieningen]] voor **bedrijfsrisico's en -verplichtingen**, en bestedingen en terugnemingen (−) van eerder gevormde voorzieningen voor gewone bedrijfsrisico's. (KB WVV 2019 art. 3:90)
 
 MAR-codes: 635/637.
 
@@ -214,7 +214,7 @@ Bedrijfsverbonden kosten betaald aan derden die:
 - niet hun oorsprong vinden in een dienstverlening of levering in het kader van de gewone bedrijfsuitoefening, en
 - niet als financiële of niet-recurrente bedrijfskost kunnen worden aangemerkt.
 
-In het bijzonder: **belastingen als bedrijfskost** (onroerende voorheffing, belasting op voertuigen, belasting op drijfkracht, accijnsrechten, uitvoerheffingen) en minderwaarden op handelsvorderingen (tenzij gelijk aan disconto). ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+In het bijzonder: **belastingen als bedrijfskost** (onroerende voorheffing, belasting op voertuigen, belasting op drijfkracht, accijnsrechten, uitvoerheffingen) en minderwaarden op handelsvorderingen (tenzij gelijk aan disconto). (KB WVV 2019 art. 3:90)
 
 MAR-codes: 640 (bedrijfsbelastingen en -taksen), 641 (minderwaarden op realisatie van handelsvorderingen).
 
@@ -238,7 +238,7 @@ Een factuur die in december wordt opgesteld maar pas in januari geïnd, is een *
 
 ## ⚖️ Matchingbeginsel
 
-Kosten vallen in het boekjaar waarop ze **economisch betrekking hebben**, ongeacht wanneer de cash vloeit. Dit vereist bij jaarafsluiting: ([[bronnen/wetteksten/XV-KB-wvv#art-311|KB WVV 2019 art. 3:11]])
+Kosten vallen in het boekjaar waarop ze **economisch betrekking hebben**, ongeacht wanneer de cash vloeit. Dit vereist bij jaarafsluiting: (KB WVV 2019 art. 3:11)
 
 - **Toe te rekenen kosten** (kosten van dit boekjaar, nog niet gefactureerd) → [[overlopende-rekeningen#regularisatie-492-toe-te-rekenen-kosten-nog-te-ontvangen-factuur|overlopende rekening passief]]
 - **Over te dragen kosten** (vooruitbetaald voor volgend boekjaar) → [[overlopende-rekeningen#regularisatie-490-over-te-dragen-kosten-vooruitbetaald|overlopende rekening actief]]
@@ -266,7 +266,7 @@ Brutomarge = Omzet (I.A) + Voorraadwijziging (I.B) + Geproduceerde vaste activa 
            + Andere bedrijfsopbrengsten (I.D) − Aankopen (II.A) − Diensten en div. goederen (II.B)
 ```
 
-In het verkort en microschema wordt dit als één post gepubliceerd: **I.A.B. Brutomarge (+/−)**. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+In het verkort en microschema wordt dit als één post gepubliceerd: **I.A.B. Brutomarge (+/−)**. (KB WVV 2019 art. 3:90)
 
 **Voorbeeld doorrekening:**
 
@@ -453,7 +453,7 @@ Kenniselementen:
 > >
 > > **Post II.B Diensten en diverse goederen.**
 > >
-> > Bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten die niet worden toegekend uit hoofde van een arbeidsovereenkomst, vallen onder post II.B — niet onder II.C Bezoldigingen. Post II.C is bestemd voor personeel onder arbeidsovereenkomst. ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+> > Bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten die niet worden toegekend uit hoofde van een arbeidsovereenkomst, vallen onder post II.B — niet onder II.C Bezoldigingen. Post II.C is bestemd voor personeel onder arbeidsovereenkomst. (KB WVV 2019 art. 3:90)
 > >
 > > *Zie: [[bedrijfsresultaat-kosten-opbrengsten#-diensten-en-diverse-goederen-post-iib|Diensten en diverse goederen]]*
 >
@@ -469,7 +469,7 @@ Kenniselementen:
 > >
 > > **Post I.E Niet-recurrente bedrijfsopbrengsten.**
 > >
-> > Terugnemingen van afschrijvingen of waardeverminderingen worden **niet** geboekt onder post II.D (Afschrijvingen) maar onder de niet-recurrente bedrijfsopbrengsten (post I.E in het volledig schema). ([[bronnen/wetteksten/XV-KB-wvv#art-390|KB WVV 2019 art. 3:90]])
+> > Terugnemingen van afschrijvingen of waardeverminderingen worden **niet** geboekt onder post II.D (Afschrijvingen) maar onder de niet-recurrente bedrijfsopbrengsten (post I.E in het volledig schema). (KB WVV 2019 art. 3:90)
 > >
 > > *Zie: [[bedrijfsresultaat-kosten-opbrengsten#-afschrijvingen-en-waardeverminderingen-op-vaste-activa-post-iid|Post II.D]]*
 >

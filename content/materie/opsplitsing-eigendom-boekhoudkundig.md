@@ -60,7 +60,7 @@ Voor de boekhoudkundige verwerking verwijst CBN-advies 2015/5 naar de regels voo
 
 ## ⚖️ Zakelijk recht actief op de balans — wanneer?
 
-Een tijdelijk zakelijk recht wordt **op het actief opgenomen** wanneer de vergoeding vooruitbetaald is bij aanvang van de overeenkomst. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]]; [[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Boekhoudkundige bepalingen]])
+Een tijdelijk zakelijk recht wordt **op het actief opgenomen** wanneer de vergoeding vooruitbetaald is bij aanvang van de overeenkomst. (KB WVV art. 3:40; [[bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht|CBN-advies 2015/5, § Boekhoudkundige bepalingen]])
 
 Wanneer de vergoeding uitsluitend in **periodieke termijnen** wordt betaald en de overeenkomst niet voldoet aan de criteria voor onroerende leasing, worden die termijnen als een **huurkost** geboekt (rekening 61 Diensten en diverse goederen). Het zakelijk recht verschijnt dan niet op het actief maar wordt vermeld in de orderekeningen en de toelichting.
 

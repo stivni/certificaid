@@ -10,7 +10,7 @@ bronnen:
 
 # Roerende inkomsten — personenbelasting
 
-Roerende inkomsten zijn inkomsten uit **kapitalen en roerende goederen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 17]]) — dividenden, interesten, royalty's en bepaalde lijfrentes. De fiscale behandeling kent één centrale eigenaardigheid: de **roerende voorheffing (RV)** is in beginsel **bevrijdend**, wat betekent dat het inkomen niet meer aangegeven hoeft te worden en de RV niet verrekend wordt. Deze regel maakt de aangifte schijnbaar eenvoudig, maar verbergt fundamentele keuzes (globaliseren of niet) en cruciale uitzonderingen (vrijstellingen, VVPRbis, geen-RV-gevallen).
+Roerende inkomsten zijn inkomsten uit **kapitalen en roerende goederen** (WIB92 art. 17) — dividenden, interesten, royalty's en bepaalde lijfrentes. De fiscale behandeling kent één centrale eigenaardigheid: de **roerende voorheffing (RV)** is in beginsel **bevrijdend**, wat betekent dat het inkomen niet meer aangegeven hoeft te worden en de RV niet verrekend wordt. Deze regel maakt de aangifte schijnbaar eenvoudig, maar verbergt fundamentele keuzes (globaliseren of niet) en cruciale uitzonderingen (vrijstellingen, VVPRbis, geen-RV-gevallen).
 
 Verschil met andere inkomstencategorieën:
 - **[[beroepsinkomsten-personenbelasting|Beroepsinkomsten]]**: vereisen een actieve beroepsactiviteit — roerende inkomsten zijn passief
@@ -21,7 +21,7 @@ Verschil met andere inkomstencategorieën:
 
 ## 📌 Roerende inkomsten
 
-Inkomsten uit "**kapitalen en roerende goederen**" — opbrengsten van geldbeleggingen of roerende goederen, zonder dat de belastingplichtige er een actieve beroepsmatige inzet voor levert ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1]]). Vier categorieën:
+Inkomsten uit "**kapitalen en roerende goederen**" — opbrengsten van geldbeleggingen of roerende goederen, zonder dat de belastingplichtige er een actieve beroepsmatige inzet voor levert (WIB92 art. 17, §1). Vier categorieën:
 
 | Categorie | Voorbeeld |
 |---|---|
@@ -39,7 +39,7 @@ Sluit uit:
 
 ## 📌 Dividend
 
-Uitkering door een vennootschap aan haar aandeelhouders **ten gevolge** van het bezit van aandelen ([[bronnen/wetteksten/II-wib92|WIB92 art. 18]]). Vormen ervan:
+Uitkering door een vennootschap aan haar aandeelhouders **ten gevolge** van het bezit van aandelen (WIB92 art. 18). Vormen ervan:
 
 | Vorm | Toelichting |
 |---|---|
@@ -49,13 +49,13 @@ Uitkering door een vennootschap aan haar aandeelhouders **ten gevolge** van het 
 | **Inkoop eigen aandelen** | Verschil tussen inkoopprijs en gestort kapitaal = dividend |
 | **Verlaging van kapitaal door uitkering** | Het deel boven het werkelijk gestort kapitaal = dividend |
 
-**Standaardtarief RV**: **30%** ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 1°]]) — geheven door de uitkerende vennootschap.
+**Standaardtarief RV**: **30%** (WIB92 art. 269, §1, 1°) — geheven door de uitkerende vennootschap.
 
 ---
 
 ## 📌 Interest
 
-Vergoeding voor de **terbeschikkingstelling van een geldsom** ([[bronnen/wetteksten/II-wib92|WIB92 art. 19]]). Inclusief:
+Vergoeding voor de **terbeschikkingstelling van een geldsom** (WIB92 art. 19). Inclusief:
 
 - Rente op spaarboekjes (al dan niet gereglementeerd)
 - Rente op zicht- en termijnrekeningen
@@ -63,15 +63,15 @@ Vergoeding voor de **terbeschikkingstelling van een geldsom** ([[bronnen/wetteks
 - Rente op leningen aan derden of aan eigen vennootschap (rekening-courant)
 - Inkomsten uit beleggingsfondsen die voor > 10% in obligaties beleggen (Reynders-tax)
 
-**Standaardtarief RV**: **30%** ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 1°]]) — uitzonderingen onderaan.
+**Standaardtarief RV**: **30%** (WIB92 art. 269, §1, 1°) — uitzonderingen onderaan.
 
 ---
 
 ## 📌 Royalty's
 
-Vergoedingen voor het **gebruik of de licentie** van auteursrechten, naburige rechten, octrooien, modellen, formules of soortgelijke immateriële rechten ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1, 5°]]).
+Vergoedingen voor het **gebruik of de licentie** van auteursrechten, naburige rechten, octrooien, modellen, formules of soortgelijke immateriële rechten (WIB92 art. 17, §1, 5°).
 
-**Bijzonder regime auteursrechten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 17, §1, 5° + art. 37]]): inkomsten uit auteursrechten worden tot een geïndexeerd plafond (cijferzakboekje aj. 2026: ~ € 73 070) als **roerend inkomen aan 15% RV** belast — de rest is beroepsinkomen aan progressieve tarieven. Sinds de hervorming door de wet van 12 maart 2023 is het regime strenger: enkel werkelijke kunstenaars/auteurs onder een specifiek wettelijk statuut komen nog in aanmerking.
+**Bijzonder regime auteursrechten** (WIB92 art. 17, §1, 5° + art. 37): inkomsten uit auteursrechten worden tot een geïndexeerd plafond (cijferzakboekje aj. 2026: ~ € 73 070) als **roerend inkomen aan 15% RV** belast — de rest is beroepsinkomen aan progressieve tarieven. Sinds de hervorming door de wet van 12 maart 2023 is het regime strenger: enkel werkelijke kunstenaars/auteurs onder een specifiek wettelijk statuut komen nog in aanmerking.
 
 > [!warning]- Auteursrechten zijn niet altijd roerend inkomen
 > ❌ *"Een werknemer van een softwarebedrijf laat zijn werkgever 30% van zijn loon uitbetalen als auteursrechten op de code die hij schrijft — daardoor betaalt hij maar 15% RV."*
@@ -85,7 +85,7 @@ Vergoedingen voor het **gebruik of de licentie** van auteursrechten, naburige re
 ## 📌 Roerende voorheffing (RV)
 *Précompte mobilier (Pr.M.)*
 
-Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen — bank, vennootschap, debiteur — en doorbetaald aan de FOD Financiën ([[bronnen/wetteksten/II-wib92|WIB92 art. 261-266]]). De RV bedraagt in beginsel **30%**, met talrijke uitzonderingen.
+Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen — bank, vennootschap, debiteur — en doorbetaald aan de FOD Financiën (WIB92 art. 261-266). De RV bedraagt in beginsel **30%**, met talrijke uitzonderingen.
 
 **Twee mogelijke statussen**:
 
@@ -100,7 +100,7 @@ Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen — bank,
 
 ## 🔢 Tarieven roerende voorheffing — overzicht
 
-De wet voorziet talrijke afwijkende tarieven afhankelijk van de aard van het inkomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 269]]):
+De wet voorziet talrijke afwijkende tarieven afhankelijk van de aard van het inkomen (WIB92 art. 269):
 
 | Tarief | Toepassing |
 |---|---|
@@ -117,12 +117,12 @@ De wet voorziet talrijke afwijkende tarieven afhankelijk van de aard van het ink
 
 ## ⚖️ VVPRbis — verlaagde RV op KMO-dividenden
 
-VVPRbis (*Verlaagde Voorheffing Pour Réserves bis*) is een fiscaal regime dat aandeelhouders van **kleine vennootschappen** (volgens [[groottecriteria-vennootschappen-verenigingen#-kleine-vennootschap|WVV-criteria]]) toelaat dividenden te ontvangen met **verlaagde RV** ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §2]]).
+VVPRbis (*Verlaagde Voorheffing Pour Réserves bis*) is een fiscaal regime dat aandeelhouders van **kleine vennootschappen** (volgens [[groottecriteria-vennootschappen-verenigingen#-kleine-vennootschap|WVV-criteria]]) toelaat dividenden te ontvangen met **verlaagde RV** (WIB92 art. 269, §2).
 
 **Voorwaarden**:
 
 1. Kapitaalinbreng in **geld** vanaf 1 juli 2013
-2. Vennootschap is **klein** ([[bronnen/wetteksten/XV-wvv#art-124|WVV art. 1:24]]) op het ogenblik van uitkering
+2. Vennootschap is **klein** (WVV art. 1:24) op het ogenblik van uitkering
 3. Aandelen ononderbroken in volle eigendom van **dezelfde aandeelhouder** sinds inbreng
 4. Geen preferente aandelen
 
@@ -158,7 +158,7 @@ VVPRbis (*Verlaagde Voorheffing Pour Réserves bis*) is een fiscaal regime dat a
 
 ## ⚖️ Liquidatiereserve — uitkering aan 10% RV
 
-Een **kleine vennootschap** kan jaarlijks een deel van haar boekhoudkundige winst toewijzen aan een **liquidatiereserve** door betaling van een **bijzondere aanslag van 10%** in de [[2.3-vennootschapsbelasting|vennootschapsbelasting]] ([[bronnen/wetteksten/II-wib92|WIB92 art. 184quater]] — aanleg). Bij latere uitkering aan de aandeelhouder wordt deze reserve onderworpen aan een verlaagde RV ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 8°]] — uitkering):
+Een **kleine vennootschap** kan jaarlijks een deel van haar boekhoudkundige winst toewijzen aan een **liquidatiereserve** door betaling van een **bijzondere aanslag van 10%** in de [[2.3-vennootschapsbelasting|vennootschapsbelasting]] (WIB92 art. 184quater — aanleg). Bij latere uitkering aan de aandeelhouder wordt deze reserve onderworpen aan een verlaagde RV (WIB92 art. 269, §1, 8° — uitkering):
 
 | Wachttijd na aanleg | RV bij uitkering |
 |---|---|
@@ -177,7 +177,7 @@ Een **kleine vennootschap** kan jaarlijks een deel van haar boekhoudkundige wins
 
 ## ⚖️ Vrijstelling gereglementeerd spaarboekje
 
-De eerste schijf interesten op een **gereglementeerd spaarboekje** (HSBC, Argenta, KBC, …) is **volledig vrijgesteld** van RV en PB ([[bronnen/wetteksten/II-wib92|WIB92 art. 21, 5°]]).
+De eerste schijf interesten op een **gereglementeerd spaarboekje** (HSBC, Argenta, KBC, …) is **volledig vrijgesteld** van RV en PB (WIB92 art. 21, 5°).
 
 **Vrijstellingsbedrag** (cijferzakboekje aj. 2026, indicatief): ~ € 1 020 per belastingplichtige (€ 2 040 voor gezamenlijke aanslag).
 
@@ -196,7 +196,7 @@ De eerste schijf interesten op een **gereglementeerd spaarboekje** (HSBC, Argent
 
 ## ⚖️ Vrijstelling eerste schijf dividenden
 
-Bij **vrijwillige globalisatie** van dividenden (= aangeven in vak VII) wordt de **eerste schijf** vrijgesteld van PB en de RV verrekend ([[bronnen/wetteksten/II-wib92|WIB92 art. 21, 14°]]). Dit is een **PB-vrijstelling, niet een RV-vrijstelling** — de bank houdt de RV gewoon in, en de belastingplichtige recupereert ze via zijn aangifte.
+Bij **vrijwillige globalisatie** van dividenden (= aangeven in vak VII) wordt de **eerste schijf** vrijgesteld van PB en de RV verrekend (WIB92 art. 21, 14°). Dit is een **PB-vrijstelling, niet een RV-vrijstelling** — de bank houdt de RV gewoon in, en de belastingplichtige recupereert ze via zijn aangifte.
 
 **Vrijstellingsbedrag** (cijferzakboekje aj. 2026, indicatief): ~ € 833 per belastingplichtige.
 
@@ -248,7 +248,7 @@ De keuze tussen bevrijdende RV (geen aangifte) en globalisatie (aangeven in vak 
 
 ## 🔒 Aangifteplicht — uitzonderingen op bevrijdend karakter
 
-In bepaalde situaties is **aangifte verplicht** ondanks ingehouden RV ([[bronnen/wetteksten/II-wib92|WIB92 art. 313]]):
+In bepaalde situaties is **aangifte verplicht** ondanks ingehouden RV (WIB92 art. 313):
 
 | Situatie | Reden |
 |---|---|
@@ -263,7 +263,7 @@ In bepaalde situaties is **aangifte verplicht** ondanks ingehouden RV ([[bronnen
 
 ## 🚩 Cayman-tax — anti-misbruikregeling
 
-De **Cayman-tax** ([[bronnen/wetteksten/II-wib92|WIB92 art. 5/1]] en omliggend) belast inkomsten van **buitenlandse juridische constructies zonder reële economische activiteit** (off-shore trusts, foundations, holdingstructuren in belastingparadijzen) **rechtstreeks bij de Belgische rijksinwoner-oprichter of -begunstigde** — alsof de constructie transparant zou zijn.
+De **Cayman-tax** (WIB92 art. 5/1 en omliggend) belast inkomsten van **buitenlandse juridische constructies zonder reële economische activiteit** (off-shore trusts, foundations, holdingstructuren in belastingparadijzen) **rechtstreeks bij de Belgische rijksinwoner-oprichter of -begunstigde** — alsof de constructie transparant zou zijn.
 
 **Toepassingsgebied**:
 - Trusts met privaat-fiduciair karakter
@@ -294,7 +294,7 @@ Kenniselementen:
 > >
 > > **Niet verplicht — de RV is bevrijdend. Aangifte kan wel voordelig zijn.**
 > >
-> > Standaard is de 30% RV op dividenden **bevrijdend** ([[bronnen/wetteksten/II-wib92|WIB92 art. 313]]) — geen aangifte, geen verdere belasting. **Echter**: bij vrijwillige globalisatie (= aangeven in vak VII) kan de aandeelhouder gebruik maken van de **vrijstelling van de eerste schijf dividenden** (~ € 833 voor aj. 2026). Voor lage marginale tarieven of als de vrijstelling niet elders gebruikt wordt, levert dit een teruggave op. Voor hoge inkomens is het standaardregime (bevrijdend) meestal voordeliger.
+> > Standaard is de 30% RV op dividenden **bevrijdend** (WIB92 art. 313) — geen aangifte, geen verdere belasting. **Echter**: bij vrijwillige globalisatie (= aangeven in vak VII) kan de aandeelhouder gebruik maken van de **vrijstelling van de eerste schijf dividenden** (~ € 833 voor aj. 2026). Voor lage marginale tarieven of als de vrijstelling niet elders gebruikt wordt, levert dit een teruggave op. Voor hoge inkomens is het standaardregime (bevrijdend) meestal voordeliger.
 > >
 > > *Zie: [[roerende-inkomsten-personenbelasting#-roerende-voorheffing-rv|Roerende voorheffing]] en [[roerende-inkomsten-personenbelasting#-vrijstelling-eerste-schijf-dividenden|Vrijstelling eerste schijf dividenden]]*
 >
@@ -336,7 +336,7 @@ Kenniselementen:
 > >
 > > **5% RV (wachttijd ≥ 5 jaar verstreken).**
 > >
-> > Bij uitkering van een liquidatiereserve **na minstens 5 jaar** wachten geldt **5% RV** ([[bronnen/wetteksten/II-wib92|WIB92 art. 269, §1, 8°]]). Berekening: € 100 000 × 5% = € 5 000 RV ingehouden door de vennootschap. Cumulatieve heffing: bijzondere aanslag 10% + RV 5% = effectieve heffing ~ 14,5% van de originele winst — fors voordeliger dan standaard 30% dividend. Bij uitkering binnen 5 jaar zou 20% RV gelden (sanctie); bij uitkering bij vereffening 0% (volledige vrijstelling).
+> > Bij uitkering van een liquidatiereserve **na minstens 5 jaar** wachten geldt **5% RV** (WIB92 art. 269, §1, 8°). Berekening: € 100 000 × 5% = € 5 000 RV ingehouden door de vennootschap. Cumulatieve heffing: bijzondere aanslag 10% + RV 5% = effectieve heffing ~ 14,5% van de originele winst — fors voordeliger dan standaard 30% dividend. Bij uitkering binnen 5 jaar zou 20% RV gelden (sanctie); bij uitkering bij vereffening 0% (volledige vrijstelling).
 > >
 > > *Zie: [[roerende-inkomsten-personenbelasting#-liquidatiereserve-uitkering-aan-10-rv|Liquidatiereserve]]*
 >

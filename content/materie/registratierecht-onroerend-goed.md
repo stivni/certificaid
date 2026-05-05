@@ -21,11 +21,11 @@ De evenredige registratierechten op onroerend goed zijn in de praktijk de financ
 
 *Droit de vente · Registratiebelasting op overdracht onroerend goed*
 
-Het **verkooprecht** is de registratiebelasting die geheven wordt op de overdracht van eigendom of vruchtgebruik van onroerend goed onder bezwarende titel. Het wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van de akte of het geschrift dat als titel dient van de overeenkomst. ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]])
+Het **verkooprecht** is de registratiebelasting die geheven wordt op de overdracht van eigendom of vruchtgebruik van onroerend goed onder bezwarende titel. Het wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van de akte of het geschrift dat als titel dient van de overeenkomst. (VCF art. 2.9.1.0.1)
 
 Belastbaar feit: de overdracht van **eigendom** of **vruchtgebruik** van een in het Vlaamse Gewest gelegen onroerend goed onder bezwarende titel. Schenking valt hier niet onder — dat is de [[schenking-fiscaal|schenkbelasting]].
 
-De **belastingplichtige** is de verkrijger van het zakelijk recht — dus de koper. ([[bronnen/wetteksten/IVA-vcf#art-2920201|VCF art. 2.9.2.0.1]])
+De **belastingplichtige** is de verkrijger van het zakelijk recht — dus de koper. (VCF art. 2.9.2.0.1)
 
 ---
 
@@ -38,7 +38,7 @@ Het **verdeelrecht** is de registratiebelasting op:
 2. **Afstanden onder bezwarende titel** van onverdeelde delen in onroerend goed, tussen mede-eigenaars
 3. **Omzetting** van vruchtgebruik als bedoeld in het Burgerlijk Wetboek
 
-([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.10.1.0.1]])
+(VCF art. 2.10.1.0.1)
 
 Het verdeelrecht is van toepassing wanneer een onverdeeldheid wordt opgeheven — bv. bij uittreding van een mede-eigenaar, bij echtscheiding waarbij de gemeenschappelijke woning wordt toebedeeld aan één van de ex-echtgenoten, of bij verdeling van een erfenis.
 
@@ -48,11 +48,11 @@ Het verdeelrecht is van toepassing wanneer een onverdeeldheid wordt opgeheven �
 
 *Droit sur les constitutions hypothécaires*
 
-Het **recht op hypotheekvestiging** wordt geheven op akten of geschriften die de vestiging van een **hypotheek op een onroerend goed** als inhoud hebben. ([[bronnen/wetteksten/IVA-vcf#art-29101|VCF art. 2.11.1.0.1]])
+Het **recht op hypotheekvestiging** wordt geheven op akten of geschriften die de vestiging van een **hypotheek op een onroerend goed** als inhoud hebben. (VCF art. 2.11.1.0.1)
 
-De **belastingplichtige** is de hypotheeksteller — de eigenaar die zijn goed als zekerheid stelt, niet de schuldeiser (bank). ([[bronnen/wetteksten/IVA-vcf#art-2920201|VCF art. 2.11.2.0.1]])
+De **belastingplichtige** is de hypotheeksteller — de eigenaar die zijn goed als zekerheid stelt, niet de schuldeiser (bank). (VCF art. 2.11.2.0.1)
 
-De **grondslag** is het bedrag van de gewaarborgde sommen, met uitsluiting van de interesten of rentetermijnen van drie jaar die door de hypotheekwet zelf gewaarborgd zijn. ([[bronnen/wetteksten/IVA-vcf#art-29301|VCF art. 2.11.3.0.1]])
+De **grondslag** is het bedrag van de gewaarborgde sommen, met uitsluiting van de interesten of rentetermijnen van drie jaar die door de hypotheekwet zelf gewaarborgd zijn. (VCF art. 2.11.3.0.1)
 
 ---
 
@@ -65,9 +65,9 @@ De **grondslag** is het bedrag van de gewaarborgde sommen, met uitsluiting van d
 1. **Enig**: de verkrijger is niet voor de **geheelheid in volle eigendom** eigenaar van een andere woning of bouwgrond. Als er meerdere verkrijgers zijn: ze zijn ook **samen** niet voor de geheelheid volle eigenaar van een andere woning of bouwgrond.
 2. **Eigen**: de verkrijger verbindt zich ertoe zijn inschrijving in het bevolkingsregister of vreemdelingenregister te nemen op het adres van de aangekochte woning, **binnen 3 jaar** na de datum van de authentieke aankoopakte, én die inschrijving gedurende een **ononderbroken periode van minstens 1 jaar** te behouden.
 
-([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11 § 2]])
+(VCF art. 2.9.4.2.11 § 2)
 
-**Uitzondering op het "enig"-criterium**: men kijkt voorbij de bestaande woning als de verkrijger zich ertoe verbindt deze uiterlijk **2 jaar** na de authentieke akte volledig en ten bezwarende titel te vervreemden én een causaal verband aantoont met de nieuwe aankoop. ([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11 § 3]])
+**Uitzondering op het "enig"-criterium**: men kijkt voorbij de bestaande woning als de verkrijger zich ertoe verbindt deze uiterlijk **2 jaar** na de authentieke akte volledig en ten bezwarende titel te vervreemden én een causaal verband aantoont met de nieuwe aankoop. (VCF art. 2.9.4.2.11 § 3)
 
 > [!warning]- "Enig" slaat op het moment van de akte, niet op de situatie daarna
 > ❌ *"Als ik mijn oude woning al te koop heb gezet maar ze nog niet verkocht is op de datum van de notarisaktes, verlies ik automatisch het gunsttarief."*
@@ -107,7 +107,7 @@ De belastbare grondslag is **de hoogste van** twee bedragen:
 - De **overeengekomen prijs en lasten** (verkoopprijs + overgenomen lasten ten laste van de verkrijger)
 - De **verkoopwaarde** van het overgedragen goed (venale waarde)
 
-([[bronnen/wetteksten/IVA-vcf#art-2930101|VCF art. 2.9.3.0.1]])
+(VCF art. 2.9.3.0.1)
 
 De grondslag kan dus nooit lager zijn dan de marktwaarde, ook al wordt de woning onder de marktprijs verkocht. [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlabel]] controleert actief op onderwaardatie en kan een **aanvullend recht** vestigen binnen 2 jaar na registratie als de opgegeven prijs te laag is.
 
@@ -115,18 +115,18 @@ De grondslag kan dus nooit lager zijn dan de marktwaarde, ook al wordt de woning
 
 | Situatie | Tarief | Grondslag |
 |---|---|---|
-| **Standaardtarief** | **12%** | [[bronnen/wetteksten/IVA-vcf#art-2941 11|VCF art. 2.9.4.1.1]] (sedert 01/01/2022) |
-| **Enige eigen woning** | **2%** | [[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11]] (sedert 01/01/2025; was 3% van 01/01/2022) |
-| **Enige eigen woning + ingrijpende energetische renovatie** | **1%** | [[bronnen/wetteksten/IVA-vcf#art-2942212|VCF art. 2.9.4.2.12]] — enkel voor verkoopovereenkomsten **gesloten vóór 01/01/2025**; afgeschaft voor latere overeenkomsten ⚠️ |
-| **Landbouwgrond / bepaald natuurgebied** | **10%** | [[bronnen/wetteksten/IVA-vcf#art-2942215|VCF art. 2.9.4.2.15]] |
-| **Sociale woonmaatschappij (koper sociaal wonen)** | **1,5%** | [[bronnen/wetteksten/IVA-vcf#art-2942203|VCF art. 2.9.4.2.3]] |
-| **Beroepsaankoper (erkend projectontwikkelaar)** | **6%** | [[bronnen/wetteksten/IVA-vcf#art-2942204|VCF art. 2.9.4.2.4]] (sedert 01/01/2025; was 4% voorheen) |
+| **Standaardtarief** | **12%** | VCF art. 2.9.4.1.1 (sedert 01/01/2022) |
+| **Enige eigen woning** | **2%** | VCF art. 2.9.4.2.11 (sedert 01/01/2025; was 3% van 01/01/2022) |
+| **Enige eigen woning + ingrijpende energetische renovatie** | **1%** | VCF art. 2.9.4.2.12 — enkel voor verkoopovereenkomsten **gesloten vóór 01/01/2025**; afgeschaft voor latere overeenkomsten ⚠️ |
+| **Landbouwgrond / bepaald natuurgebied** | **10%** | VCF art. 2.9.4.2.15 |
+| **Sociale woonmaatschappij (koper sociaal wonen)** | **1,5%** | VCF art. 2.9.4.2.3 |
+| **Beroepsaankoper (erkend projectontwikkelaar)** | **6%** | VCF art. 2.9.4.2.4 (sedert 01/01/2025; was 4% voorheen) |
 
 *Tarieven zonder datum zijn van toepassing sedert 01/01/2022 tenzij anders vermeld. Exacte drempelbedragen: Cijferzakboekje [jaar].*
 
 ### Rechtenvermindering voor bescheiden woningen
 
-Voor woningen waarvan de **totale belastbare grondslag niet hoger is dan 220.000 EUR** (240.000 EUR in kernsteden en Vlaamse Rand) en waarbij het 2%-tarief van toepassing is, wordt een **rechtenvermindering van 1.867 EUR** toegekend op het verschuldigde verkooprecht. ([[bronnen/wetteksten/IVA-vcf#art-2945 05|VCF art. 2.9.5.0.5]])
+Voor woningen waarvan de **totale belastbare grondslag niet hoger is dan 220.000 EUR** (240.000 EUR in kernsteden en Vlaamse Rand) en waarbij het 2%-tarief van toepassing is, wordt een **rechtenvermindering van 1.867 EUR** toegekend op het verschuldigde verkooprecht. (VCF art. 2.9.5.0.5)
 
 ### Tariefsevolutie (historisch, relevant voor examencontext)
 
@@ -143,7 +143,7 @@ Voor woningen waarvan de **totale belastbare grondslag niet hoger is dan 220.000
 
 ## 🔢 Verdeelrecht — grondslag en tarief Vlaanderen
 
-De **belastbare grondslag** is de overeengekomen waarde van de verdeelde goederen, maar niet lager dan de verkoopwaarde. ([[bronnen/wetteksten/IVA-vcf#art-2103 01|VCF art. 2.10.3.0.1]])
+De **belastbare grondslag** is de overeengekomen waarde van de verdeelde goederen, maar niet lager dan de verkoopwaarde. (VCF art. 2.10.3.0.1)
 
 | Situatie | Tarief |
 |---|---|
@@ -151,7 +151,7 @@ De **belastbare grondslag** is de overeengekomen waarde van de verdeelde goedere
 | Verdeling **na echtscheiding** (tussen ex-echtgenoten) | **1%** |
 | Verdeling na **beëindiging wettelijk samenwonen** (binnen 3 jaar na beëindiging, minstens 1 jaar samengewoond) | **1%** |
 
-([[bronnen/wetteksten/IVA-vcf#art-2104 01|VCF art. 2.10.4.0.1]])
+(VCF art. 2.10.4.0.1)
 
 > [!warning]- Verdeelrecht 2,5% versus verkooprecht 12% — één partij die uitkoopt
 > ❌ *"Wanneer één ex-echtgenoot de andere uitkoopt bij echtscheiding, betaalt die altijd 1% verdeelrecht."*
@@ -169,7 +169,7 @@ De **belastbare grondslag** is de overeengekomen waarde van de verdeelde goedere
 | **Standaard recht op hypotheekvestiging** | **1%** |
 | Hypotheek tot zekerheid van een schuld die al gedekt is door hypotheek op schip, pand handelszaak of landbouwvoorrecht | **0,5%** |
 
-([[bronnen/wetteksten/IVA-vcf#art-2 11401|VCF art. 2.11.4.0.1]] en [[bronnen/wetteksten/IVA-vcf#art-2 11403|art. 2.11.4.0.3]])
+(VCF art. 2.11.4.0.1 en art. 2.11.4.0.3)
 
 Het recht op hypotheekvestiging is een **Vlaamse gewestbelasting** (VCF Hfst. 11), niet federaal. Dit is een belangrijk onderscheid: het hypotheekrecht is weliswaar geregionaliseerd net als het verkooprecht, maar de **procedure** voor de hypothecaire overschrijving (inschrijving in de hypotheekregisters) blijft federaal geregeld.
 
@@ -205,15 +205,15 @@ De tarieven en abattementen verschillen per gewest. Het bepalen van het bevoegde
 
 ## 📋 Voorwaarden voor het 2%-tarief enige eigen woning
 
-Om het verlaagde tarief van 2% ([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11]]) te genieten, moeten de volgende voorwaarden **cumulatief** vervuld zijn:
+Om het verlaagde tarief van 2% (VCF art. 2.9.4.2.11) te genieten, moeten de volgende voorwaarden **cumulatief** vervuld zijn:
 
 1. **Zuivere aankoop van volle eigendom**: de gehele volle eigendom van een woning wordt verkregen — niet enkel een aandeel of een ander zakelijk recht.
 2. **Enkel door natuurlijke personen**: rechtspersonen (vennootschappen) komen niet in aanmerking.
 3. **Enige woning**: de verkrijger is op datum van de authentieke akte niet voor de geheelheid volle eigenaar van een andere woning of bouwgrond (of verbindt zich tot vervreemding binnen 2 jaar — zie [[#-enige-eigen-woning-vlaams-criterium|Enige eigen woning]]).
 4. **Domiciliëringsverplichting**: inschrijving in het bevolkingsregister op het adres van de aangekochte woning binnen 3 jaar, en behoud van die inschrijving gedurende minimaal 1 ononderbroken jaar.
-5. **Verklaring in de akte**: de vereiste verklaringen zijn opgenomen in de akte ([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11 § 2, 3°]]).
+5. **Verklaring in de akte**: de vereiste verklaringen zijn opgenomen in de akte (VCF art. 2.9.4.2.11 § 2, 3°).
 
-**Sanctie bij niet-nakoming**: de verkrijger die de domiciliëringsverplichting niet nakomt, is de **aanvullende rechten** verschuldigd (verschil tussen 12% en 2%). ([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art. 2.9.4.2.11 § 2, tweede lid]])
+**Sanctie bij niet-nakoming**: de verkrijger die de domiciliëringsverplichting niet nakomt, is de **aanvullende rechten** verschuldigd (verschil tussen 12% en 2%). (VCF art. 2.9.4.2.11 § 2, tweede lid)
 
 ---
 
@@ -221,7 +221,7 @@ Om het verlaagde tarief van 2% ([[bronnen/wetteksten/IVA-vcf#art-2942211|VCF art
 
 **Misvatting**: "Een onderhands compromis is nog geen notarisaktes — het registratierecht is pas verschuldigd wanneer de notariële akte verleden wordt."
 
-**Werkelijkheid**: het verkooprecht wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van akten *of geschriften* die als titel dienen van de overeenkomst. ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]) Een onderhands compromis of onderhandse koopbelofte is ook een "geschrift" dat verplicht ter registratie moet worden aangeboden. De belasting is dus reeds opeisbaar op het moment van de ondertekening van de onderhandse akte, niet pas bij de notariële akte.
+**Werkelijkheid**: het verkooprecht wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van akten *of geschriften* die als titel dienen van de overeenkomst. (VCF art. 2.9.1.0.1) Een onderhands compromis of onderhandse koopbelofte is ook een "geschrift" dat verplicht ter registratie moet worden aangeboden. De belasting is dus reeds opeisbaar op het moment van de ondertekening van de onderhandse akte, niet pas bij de notariële akte.
 
 In de praktijk wordt het compromis doorgaans niet afzonderlijk geregistreerd omdat het samen met de notariële akte aangeboden wordt. Maar als het compromis afzonderlijk ter registratie moet of wordt aangeboden, is op dat moment al het verkooprecht verschuldigd — niet pas bij de notariële akte.
 
@@ -298,7 +298,7 @@ Kenniselementen:
 > >
 > > Het verdeelrecht (en het verlaagde tarief van 1% bij echtscheiding) is van toepassing op **verdelingen of afstanden tussen de mede-eigenaars onderling**. Jan staat zijn aandeel af aan **Pieter**, die geen mede-eigenaar is. Dat is een overdracht aan een vreemde derde, geen verdeling. De juridische structuur van de transactie bepaalt het toepasselijke recht, niet de aanleiding (echtscheiding).
 > >
-> > Grondslag: [[bronnen/wetteksten/IVA-vcf#art-2104 01|VCF art. 2.10.4.0.1]] — verdeelrecht vereist verdeling of afstand tussen mede-eigenaars; [[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]] — verkooprecht bij overdracht aan derde.
+> > Grondslag: VCF art. 2.10.4.0.1 — verdeelrecht vereist verdeling of afstand tussen mede-eigenaars; VCF art. 2.9.1.0.1 — verkooprecht bij overdracht aan derde.
 > >
 > > *Zie: [[#-antipatroon-verdeelrecht-25-bij-echtscheiding-waarbij-derde-betrokken-is|Antipatroon verdeelrecht bij derde]], [[#-verdeelrecht|Verdeelrecht]]*
 >
@@ -312,7 +312,7 @@ Kenniselementen:
 > >
 > > **Ja, het verkooprecht is verschuldigd bij de registratie of verplichting tot registratie van het compromis.**
 > >
-> > Een onderhands compromis is een "geschrift dat als titel dient van een overeenkomst houdende overdracht onder bezwarende titel" — het valt onder het toepassingsgebied van het verkooprecht ([[bronnen/wetteksten/IVA-vcf#art-2910101|VCF art. 2.9.1.0.1]]). De constructie met een stroman die de definitieve koper nog mag aanduiden, kan het belastbaar feit uitstellen als de aanduiding van de lastgever tijdig bij authentieke akte plaatsvindt (vrijstelling bij aanwijzing van lastgever, [[bronnen/wetteksten/IVA-vcf#art-2946 01|VCF art. 2.9.6.0.1, 1°]]). Maar als die procedure niet correct gevolgd wordt, is het verkooprecht gewoon verschuldigd op de naam van de broer.
+> > Een onderhands compromis is een "geschrift dat als titel dient van een overeenkomst houdende overdracht onder bezwarende titel" — het valt onder het toepassingsgebied van het verkooprecht (VCF art. 2.9.1.0.1). De constructie met een stroman die de definitieve koper nog mag aanduiden, kan het belastbaar feit uitstellen als de aanduiding van de lastgever tijdig bij authentieke akte plaatsvindt (vrijstelling bij aanwijzing van lastgever, VCF art. 2.9.6.0.1, 1°). Maar als die procedure niet correct gevolgd wordt, is het verkooprecht gewoon verschuldigd op de naam van de broer.
 > >
 > > *Zie: [[#-antipatroon-onderhandse-koopbelofte-onttrekt-zich-aan-registratierecht|Antipatroon koopbelofte]], [[#-verkooprecht|Verkooprecht]]*
 >

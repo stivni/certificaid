@@ -20,7 +20,7 @@ Vermogensplanning via een rechtspersoon speelt in op drie doelen tegelijk: de **
 
 *Patrimoniumvennootschap · Holdco voor vermogensbeheer*
 
-Een **patrimoniumvennootschap** is een vennootschap — meestal een BV of NV ([[bronnen/wetteksten/XV-wvv|WVV]]) — waarvan het doel bestaat in het **beheer van privévermogen**: onroerend goed, effecten of andere activa die niet in een operationele onderneming zitten. De vennootschap heeft geen commerciële activiteit: ze int huurinkomsten, ontvangt dividenden van deelnemingen of beheert een beleggingsportefeuille.
+Een **patrimoniumvennootschap** is een vennootschap — meestal een BV of NV (WVV) — waarvan het doel bestaat in het **beheer van privévermogen**: onroerend goed, effecten of andere activa die niet in een operationele onderneming zitten. De vennootschap heeft geen commerciële activiteit: ze int huurinkomsten, ontvangt dividenden van deelnemingen of beheert een beleggingsportefeuille.
 
 **Drie planningsfuncties**:
 
@@ -75,7 +75,7 @@ Een **managementvennootschap** is een vennootschap — typisch een BV — waarme
 
 *Maatschap · Société de droit commun · Société simple*
 
-De **gemeenrechtelijke vennootschap** of **maatschap** is een vennootschapsvorm zonder rechtspersoonlijkheid ([[bronnen/wetteksten/XV-wvv|WVV art. 4:1 e.v.]]). Ze bestaat louter in de contractuele relatie tussen de vennoten — er is geen afzonderlijke rechtspersoon die eigenaar is van de activa. De **activa blijven in juridische zin eigendom van de vennoten**, via een bijzondere mede-eigendom die door het maatschapcontract geregeld wordt.
+De **gemeenrechtelijke vennootschap** of **maatschap** is een vennootschapsvorm zonder rechtspersoonlijkheid (WVV art. 4:1 e.v.). Ze bestaat louter in de contractuele relatie tussen de vennoten — er is geen afzonderlijke rechtspersoon die eigenaar is van de activa. De **activa blijven in juridische zin eigendom van de vennoten**, via een bijzondere mede-eigendom die door het maatschapcontract geregeld wordt.
 
 **Fiscale transparantie**: precies doordat de maatschap geen rechtspersoonlijkheid heeft, is ze **fiscaal transparant** — de inkomsten worden rechtstreeks belast bij de vennoten (personenbelasting of vennootschapsbelasting), niet bij de maatschap zelf.
 

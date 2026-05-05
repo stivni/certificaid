@@ -6,8 +6,8 @@ bouwversie: 2
 bronnen:
   - Richtlijn 2013/34/EU
   - Verordening (EG) nr. 1606/2002
-  - WVV art. 3:1, 3:30, 3:32 (consolidatie)
-  - KB WVV 2019 art. 3:1
+  - WVV art. 3:1, 3:23 (consolidatieplicht)
+  - KB WVV 2019 art. 3:1, 3:104 (IFRS-optie geconsolideerde JR)
 ---
 
 # IFRS-rechtskader
@@ -60,14 +60,14 @@ België heeft van die optie maar selectief gebruik gemaakt — zie hieronder.
 
 [Richtlijn 2013/34/EU](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:02013L0034-20240528) van 26 juni 2013 vervangt de oudere "Vierde Richtlijn" (78/660/EEG) en "Zevende Richtlijn" (83/349/EEG). Ze regelt het algemeen jaarrekeningrecht voor Europese vennootschappen die **niet** onder IFRS vallen — voor België dus de meeste niet-genoteerde Belgische enkelvoudige en geconsolideerde jaarrekeningen.
 
-De richtlijn is in Belgisch recht omgezet via het **WVV en het KB WVV 2019**. De inhoud is bijna één-op-één terug te vinden in [[bronnen/wetteksten/XV-KB-wvv|KB WVV Boek 3]].
+De richtlijn is in Belgisch recht omgezet via het **WVV en het KB WVV 2019**. De inhoud is bijna één-op-één terug te vinden in KB WVV Boek 3.
 
 **Hoofdpunten**:
-- **Groottecategorieën** ([[bronnen/wetteksten/EU-richtlijn-2013-34#art-3|Richtlijn art. 3]]): micro / klein / middelgroot / groot — België neemt deze grenzen over in [[bronnen/wetteksten/XV-wvv#art-124|WVV art. 1:24-1:26]] (zie [[groottecriteria-vennootschappen-verenigingen]])
-- **Algemene beginselen** ([[bronnen/wetteksten/EU-richtlijn-2013-34#art-6|Richtlijn art. 6]]): voortzettingsbeginsel, consistentie, voorzichtigheid, toerekening, individuele waardering, geen verrekening, *substance over form*, aanschaffingsprijs, materialiteit — zie [[boekhoudkundige-beginselen]] voor de Belgische uitwerking
-- **Getrouw beeld als override** ([[bronnen/wetteksten/EU-richtlijn-2013-34#art-4|Richtlijn art. 4]] §3-4): wanneer de richtlijn-regels onvoldoende zijn, wordt afgeweken — vermelding en motivatie in toelichting (zie ook [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]])
-- **Alternatieve waardering tegen geherwaardeerd bedrag** ([[bronnen/wetteksten/EU-richtlijn-2013-34#art-7|Richtlijn art. 7]]): lidstaatoptie — overgenomen in België voor materiële vaste activa met duurzame meerwaarde (zie [[herwaarderingsmeerwaarden]])
-- **Schema's voor balans en winst-en-verliesrekening** (Bijlagen III/IV/V/VI): vier varianten — België koos varianten die in [[bronnen/wetteksten/XV-KB-wvv|KB WVV]] terugkomen
+- **Groottecategorieën** (Richtlijn art. 3): micro / klein / middelgroot / groot — België neemt deze grenzen over in WVV art. 1:24-1:26 (zie [[groottecriteria-vennootschappen-verenigingen]])
+- **Algemene beginselen** (Richtlijn art. 6): voortzettingsbeginsel, consistentie, voorzichtigheid, toerekening, individuele waardering, geen verrekening, *substance over form*, aanschaffingsprijs, materialiteit — zie [[boekhoudkundige-beginselen]] voor de Belgische uitwerking
+- **Getrouw beeld als override** (Richtlijn art. 4 §3-4): wanneer de richtlijn-regels onvoldoende zijn, wordt afgeweken — vermelding en motivatie in toelichting (zie ook [[boekhoudkundige-beginselen#-getrouw-beeld-overkoepelend-beginsel|Getrouw beeld]])
+- **Alternatieve waardering tegen geherwaardeerd bedrag** (Richtlijn art. 7): lidstaatoptie — overgenomen in België voor materiële vaste activa met duurzame meerwaarde (zie [[herwaarderingsmeerwaarden]])
+- **Schema's voor balans en winst-en-verliesrekening** (Bijlagen III/IV/V/VI): vier varianten — België koos varianten die in KB WVV terugkomen
 - **Geconsolideerde jaarrekening** (hoofdstuk 6): omschrijving consolidatieplicht, schema's, beginselen — zie [[geconsolideerde-jaarrekening]]
 
 > [!warning]- Richtlijn = via Belgisch recht; verordening = rechtstreeks van toepassing
@@ -85,7 +85,7 @@ Voor een Belgische vennootschap geldt het volgende kader:
 
 | Type jaarrekening | Genoteerde vennootschap | Niet-genoteerde vennootschap |
 |---|---|---|
-| **Geconsolideerd** | **IFRS verplicht** (Verord. 1606/2002 art. 4) | IFRS **optioneel** (KB WVV art. 3:30, België heeft de optie geactiveerd) — eens gekozen, onomkeerbaar tenzij gerechtvaardigd |
+| **Geconsolideerd** | **IFRS verplicht** (Verord. 1606/2002 art. 4) | IFRS **optioneel** (KB WVV art. 3:104 §2, België heeft de optie geactiveerd) — eens gekozen, onomkeerbaar tenzij gerechtvaardigd |
 | **Enkelvoudig** (Belgische statutaire) | **Belgisch GAAP** (KB WVV) — IFRS niet toegestaan voor Belgische statutaire jaarrekening | **Belgisch GAAP** (KB WVV) — IFRS niet toegestaan |
 
 Concreet:
@@ -199,7 +199,7 @@ Kenniselementen:
 > >
 > > **A juist · B juist · C juist · D fout.**
 > >
-> > A, B en C zijn de drie deelregels van het voorzichtigheidsbeginsel zoals letterlijk uitgewerkt in [[bronnen/wetteksten/EU-richtlijn-2013-34#art-6|Richtlijn 2013/34/EU art. 6]] §1 punt c).
+> > A, B en C zijn de drie deelregels van het voorzichtigheidsbeginsel zoals letterlijk uitgewerkt in Richtlijn 2013/34/EU art. 6 §1 punt c).
 > >
 > > D is fout: de richtlijn (art. 7) **kan** lidstaten toestaan om herwaardering toe te laten — het is een lidstaatoptie, geen verplichting. België heeft deze optie geactiveerd voor materiële vaste activa met duurzame meerwaarde, maar ook dan blijft de toepassing facultatief op niveau van de onderneming.
 > >

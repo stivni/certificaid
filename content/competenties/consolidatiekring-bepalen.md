@@ -15,7 +15,7 @@ Vaststellen welke entiteiten deel uitmaken van de consolidatiekring en welke met
 
 > [!info]- Grondslag van deze werkwijze (🤖 20% · ⚖️ 80%)
 >
-> De procedure volgt rechtstreeks uit het [[bronnen/wetteksten/XV-wvv|WVV]] (art. 3:23–3:27 voor de consolidatieplicht en vrijstellingen) en het [[bronnen/wetteksten/XV-KB-wvv|KB-WVV]] (art. 3:96–3:102 voor weglatingen en methodekeuze; art. 3:124 voor het vermoeden van invloed van betekenis). De volgorde van de stappen — eerst consolidatieplicht, dan type relatie per entiteit, dan weglatingen, dan documentatie — is een analytische conventie 🤖 die de wettelijke logica van algemeen kader naar concrete uitvoering volgt.
+> De procedure volgt rechtstreeks uit het WVV (art. 3:23–3:27 voor de consolidatieplicht en vrijstellingen) en het KB-WVV (art. 3:96–3:102 voor weglatingen en methodekeuze; art. 3:124 voor het vermoeden van invloed van betekenis). De volgorde van de stappen — eerst consolidatieplicht, dan type relatie per entiteit, dan weglatingen, dan documentatie — is een analytische conventie 🤖 die de wettelijke logica van algemeen kader naar concrete uitvoering volgt.
 
 ## Aanbevolen werkwijze
 
@@ -32,13 +32,13 @@ Vaststellen welke entiteiten deel uitmaken van de consolidatiekring en welke met
 
 Bepaal of de vennootschap onderworpen is aan de consolidatieverplichting op basis van twee vragen:
 
-**Vraag 1 — Is er een moeder-dochterrelatie of consortium?** Controleer of de vennootschap exclusieve of gezamenlijke controle uitoefent over één of meer dochterondernemingen, dan wel deel uitmaakt van een [[consolidatiekring#-consortium|consortium]]. ([[bronnen/wetteksten/XV-wvv#art-323|WVV art. 3:23–3:24]])
+**Vraag 1 — Is er een moeder-dochterrelatie of consortium?** Controleer of de vennootschap exclusieve of gezamenlijke controle uitoefent over één of meer dochterondernemingen, dan wel deel uitmaakt van een [[consolidatiekring#-consortium|consortium]]. (WVV art. 3:23–3:24)
 
 **Vraag 2 — Gelden vrijstellingen?** Indien een moeder-dochterrelatie of consortium bestaat, controleer dan of de vrijstelling voor [[consolidatiekring#-vrijstellingen-van-de-consolidatieverplichting|groepen van beperkte omvang]] (WVV art. 3:25) of de [[consolidatiekring#-vrijstellingen-van-de-consolidatieverplichting|vrijstelling als dochtervennootschap van hogere moeder]] (WVV art. 3:26) van toepassing is.
 
 **Let op**: beide vrijstellingen vervallen zodra **één van de te consolideren vennootschappen is genoteerd** (WVV art. 3:27). Controleer dit altijd als eerste.
 
-*(Grondslag: [[bronnen/wetteksten/XV-wvv#art-323|WVV art. 3:23–3:27]])*
+*(Grondslag: WVV art. 3:23–3:27)*
 
 > [!warning]- Een genoteerde vennootschap in de groep maakt alle vrijstellingen ongeldig
 > ❌ *"De groep is klein genoeg voor de vrijstelling, dus hoeft er niet geconsolideerd te worden."*
@@ -66,7 +66,7 @@ Beoordeel voor elke participatie het type relatie:
 | Gezamenlijke controle | Contractueel gedeelde zeggenschap | Evenredige consolidatie |
 | Invloed van betekenis | Vermoeden bij ≥ 20% stemrechten | Vermogensmutatiemethode |
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-3124|KB-WVV art. 3:124]]; [[bronnen/wetteksten/XV-wvv#art-121|WVV art. 1:21]])*
+*(Grondslag: KB-WVV art. 3:124; WVV art. 1:21)*
 
 > [!info]- Concreet: type relatie bepalen voor drie participaties
 >
@@ -98,7 +98,7 @@ Beoordeel voor elke participatie het type relatie:
 
 **Waarom**: niet elke entiteit waarover controle bestaat moet effectief in de kring opgenomen worden. De wet voorziet specifieke weglatingsgronden (verwaarloosbaar, controlebeperkingen, vereffening) die een gemotiveerde keuze vereisen — een ongemotiveerde weglating maakt de geconsolideerde jaarrekening niet getrouw.
 
-Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[bronnen/wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]]):
+Doorloop elke dochteronderneming op mogelijke weglatingsgronden (KB-WVV art. 3:97–3:100):
 
 - **Verwaarloosbare betekenis**: individueel of gezamenlijk te verwaarloosbaar voor de beoordeling van het geconsolideerde vermogen/resultaat.
 - **Effectieve controlebeperkingen**: ingrijpende en duurzame beperkingen belemmeren de uitoefening van controlebevoegdheid.
@@ -108,7 +108,7 @@ Doorloop elke dochteronderneming op mogelijke weglatingsgronden ([[bronnen/wette
 
 Elke weglating vergt **motivering in de toelichting**.
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-397|KB-WVV art. 3:97–3:100]])*
+*(Grondslag: KB-WVV art. 3:97–3:100)*
 
 ### 4. 💬 Consolidatiekring documenteren
 
@@ -134,7 +134,7 @@ Associé A1      | 30%     | Vermogensmutatie    |
 Dochter D3      | 60%     | Weglating (art. 97) | in vereffening → VM-methode
 ```
 
-*(Grondslag: [[bronnen/wetteksten/XV-KB-wvv#art-396|KB-WVV art. 3:96]], [[bronnen/wetteksten/XV-KB-wvv#art-3102|art. 3:102]])*
+*(Grondslag: KB-WVV art. 3:96, art. 3:102)*
 
 ## Voorbeelden
 

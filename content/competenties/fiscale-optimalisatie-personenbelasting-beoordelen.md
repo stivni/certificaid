@@ -13,15 +13,15 @@ bouwversie: 2
 # Fiscale optimalisatie personenbelasting beoordelen
 
 Fiscale optimalisatie is een **wettige** activiteit die de cliënt minder belasting laat betalen door de wettelijk voorziene mogelijkheden uit te buiten. Ze grenst aan twee andere fenomenen die fundamenteel anders zijn:
-- **Belastingontwijking**: kunstmatige constructies die het doel van de wet ondermijnen — onder de **antimisbruikbepaling** ([[bronnen/wetteksten/II-wib92|WIB92 art. 344, §1]]) → **niet-tegenstelbaar** aan de fiscus
-- **Belastingontduiking**: bewust verzwijgen of verdraaien van feiten — **strafbaar** ([[bronnen/wetteksten/II-wib92|WIB92 art. 449-457]])
+- **Belastingontwijking**: kunstmatige constructies die het doel van de wet ondermijnen — onder de **antimisbruikbepaling** (WIB92 art. 344, §1) → **niet-tegenstelbaar** aan de fiscus
+- **Belastingontduiking**: bewust verzwijgen of verdraaien van feiten — **strafbaar** (WIB92 art. 449-457)
 
 Deze competentie beoordeelt **vooraf** een geplande verrichting op haar fiscale geldigheid: optimaal of misbruik? Toelaatbaar of risicovol? Onderscheid met aangrenzende competenties:
 - **[[fiscaal-advies-personenbelasting-formuleren|Fiscaal advies]]**: beantwoordt de cliëntvraag; deze competentie beoordeelt het **risico** van een specifieke planning
 - **[[belastingberekening-personenbelasting-uitvoeren|Berekening]]**: cijfermatige uitvoering; ondersteunt deze competentie
 
 > [!info]- Grondslag van deze werkwijze (🤖 50% · ⚖️ 50%)
-> De **wettelijke grens** tussen optimalisatie en misbruik is vastgelegd in [[bronnen/wetteksten/II-wib92|WIB92 art. 344, §1]] (antimisbruikbepaling) — interpretatie verloopt via uitvoerige rechtspraak (Hof van Cassatie, Grondwettelijk Hof). De **werkwijze** voor het beoordelen van een planning is geen genormeerde procedure maar gangbare beroepspraktijk: identificeer doel, vergelijk met "normale weg", weeg risico, adviseer of weiger.
+> De **wettelijke grens** tussen optimalisatie en misbruik is vastgelegd in WIB92 art. 344, §1 (antimisbruikbepaling) — interpretatie verloopt via uitvoerige rechtspraak (Hof van Cassatie, Grondwettelijk Hof). De **werkwijze** voor het beoordelen van een planning is geen genormeerde procedure maar gangbare beroepspraktijk: identificeer doel, vergelijk met "normale weg", weeg risico, adviseer of weiger.
 
 ## Aanbevolen werkwijze
 
@@ -92,7 +92,7 @@ Deze competentie beoordeelt **vooraf** een geplande verrichting op haar fiscale 
 > - Oordeel: optimalisatie toelaatbaar / risicovol / misbruik
 > - Identificatie van de "normale weg" (referentiekader voor antimisbruik)
 
-**Waarom**: de antimisbruikbepaling ([[bronnen/wetteksten/II-wib92|WIB92 art. 344, §1]]) is de **wettelijke grens**. Een correcte toets vereist het identificeren van twee elementen: (a) is de verrichting fiscaal gemotiveerd, (b) is er een "normale weg" die hetzelfde zakelijk doel zou bereiken zonder de fiscale optimalisatie?
+**Waarom**: de antimisbruikbepaling (WIB92 art. 344, §1) is de **wettelijke grens**. Een correcte toets vereist het identificeren van twee elementen: (a) is de verrichting fiscaal gemotiveerd, (b) is er een "normale weg" die hetzelfde zakelijk doel zou bereiken zonder de fiscale optimalisatie?
 
 **Antimisbruikbepaling — drie vereisten cumulatief**:
 
@@ -241,7 +241,7 @@ Indien cliënt opteert voor de geadviseerde mitigatie of het alternatief, draagt
 >
 > **Conclusie**: 🔴 **Rood — antimisbruik waarschijnlijk**. Aanbeveling: doe de schenking ofwel **niet** in het kader van de verkoop, ofwel ten minste **6-12 maanden vóór** de start van de verkooponderhandelingen, met expliciete documentatie van de successieplanningmotivering.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 344, §1 (antimisbruikbepaling)]]; [[bronnen/wetteksten/II-wib92|WIB92 art. 90, 9° (aanmerkelijke deelneming)]]; rechtspraak Cassatie inzake schenkingen vóór verkoop (verschillende arresten 2010-2020).
+> **Grondslag**: WIB92 art. 344, §1 (antimisbruikbepaling); WIB92 art. 90, 9° (aanmerkelijke deelneming); rechtspraak Cassatie inzake schenkingen vóór verkoop (verschillende arresten 2010-2020).
 >
 > **Redenering**:
 > - Stap 1: Verrichting = schenking + verkoop, sequencing zeer kort. Zakelijke motivatie zwak (kinderen zijn minderjarig — geen actieve betrokkenheid).
@@ -265,7 +265,7 @@ Indien cliënt opteert voor de geadviseerde mitigatie of het alternatief, draagt
 >
 > **Conclusie**: 🟢 **Groen — alle wettelijke optimalisaties**. Voer uit zonder zorg.
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 145/8, 145/1, 145/33, 145/24 — alle expliciete wettelijke verminderingen]].
+> **Grondslag**: WIB92 art. 145/8, 145/1, 145/33, 145/24 — alle expliciete wettelijke verminderingen.
 >
 > **Redenering**:
 > - Stap 1: Verrichting = combinatie van 4 verschillende wettelijke verminderingen, geen kunstmatige sequencing
@@ -336,7 +336,7 @@ Indien cliënt opteert voor de geadviseerde mitigatie of het alternatief, draagt
 > >
 > > **Optimalisatie — wettelijk voorzien.**
 > >
-> > Het verhoogd plafond pensioensparen is **expliciet** wettelijk voorzien ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/8]]). Wie de keuze maakt, doet niets meer dan de wet voorziet — geen antimisbruik. Vergelijking: € 1 020 × 30% = € 306 vermindering vs. € 1 310 × 25% = € 327,50 vermindering. Voordeel verhoogd plafond: € 21,50/jaar — beperkt maar wettelijk groen. Voorwaarde: uitdrukkelijke keuze bij bank/verzekeraar **vóór** storting, anders verlies van vermindering.
+> > Het verhoogd plafond pensioensparen is **expliciet** wettelijk voorzien (WIB92 art. 145/8). Wie de keuze maakt, doet niets meer dan de wet voorziet — geen antimisbruik. Vergelijking: € 1 020 × 30% = € 306 vermindering vs. € 1 310 × 25% = € 327,50 vermindering. Voordeel verhoogd plafond: € 21,50/jaar — beperkt maar wettelijk groen. Voorwaarde: uitdrukkelijke keuze bij bank/verzekeraar **vóór** storting, anders verlies van vermindering.
 > >
 > > *Zie: [[fiscale-optimalisatie-personenbelasting-beoordelen#-2--identificeren-van-fiscale-optimalisatie-mechanisme|Identificeren mechanisme]] en [[belastingverminderingen-federaal#-pensioensparen|Pensioensparen]]*
 >

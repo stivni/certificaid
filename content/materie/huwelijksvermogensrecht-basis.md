@@ -242,7 +242,7 @@ Een **finaal verrekenbeding** creëert bij overlijden een **geldschuldvordering*
 
 **Het risico**: als het finaal verrekenbeding zo is opgesteld dat de langstlevende bij overlijden een **bedrag verkrijgt dat verder gaat dan de zuivere vermogensverrekening** — bv. door een clausule die een minimumbedrag of een vaste toewijzing garandeert — kan Vlabel dit herinterpreteren als een **bedekte bevoordeling** die gelijkgesteld wordt met een legaat.
 
-**VCF art. 2.7.1.0.4** stelt uitdrukkelijk: de langstlevende die via een huwelijksovereenkomst **meer dan de helft van de gemeenschap** toebedeeld krijgt, wordt voor de erfbelasting **gelijkgesteld met een legataris** voor het meerdere boven de helft. ([[bronnen/wetteksten/IVA-vcf#art-271104|VCF art. 2.7.1.0.4]])
+**VCF art. 2.7.1.0.4** stelt uitdrukkelijk: de langstlevende die via een huwelijksovereenkomst **meer dan de helft van de gemeenschap** toebedeeld krijgt, wordt voor de erfbelasting **gelijkgesteld met een legataris** voor het meerdere boven de helft. (VCF art. 2.7.1.0.4)
 
 **Wat is geen probleem**: een verrekenbeding dat alleen een zuivere economische gelijkstelling beoogt (aanwinsten worden verrekend alsof beide partners gelijke bijdragen hadden), blijft buiten de fictiebepaling.
 
@@ -253,7 +253,7 @@ Een **finaal verrekenbeding** creëert bij overlijden een **geldschuldvordering*
 >
 > Art. 2.7.1.0.4 VCF stelt letterlijk dat de wederkerigheid de aard van bevoordeling **niet wegneemt**. De fictie geldt voor het meerdere boven de helft van de gemeenschap — ongeacht of het beding symmetrisch of asymmetrisch is.
 >
-> 📝 *Gebaseerd op [[bronnen/wetteksten/IVA-vcf#art-271104|VCF art. 2.7.1.0.4]]*
+> 📝 *Gebaseerd op VCF art. 2.7.1.0.4*
 
 ---
 
@@ -337,7 +337,7 @@ Kenniselementen:
 > >
 > > **VCF art. 2.7.1.0.4**: de langstlevende die via het huwelijkscontract meer dan de helft van de gemeenschap toebedeeld krijgt, wordt voor de erfbelasting **gelijkgesteld met een legataris** voor het meerdere boven de helft. Dus: de 300.000 EUR die ze bovenop haar aandeel verkrijgt, wordt belast als legaat — ook al is het beding wederkerig.
 > >
-> > *Zie: [[#-keuzebeding-en-beding-van-toebedeling|Keuzebeding]], [[#-finaal-verrekenbeding-interpreteren-als-legaat|Antipatroon VCF art. 2.7.1.0.4]], [[bronnen/wetteksten/IVA-vcf#art-271104|VCF art. 2.7.1.0.4]]*
+> > *Zie: [[#-keuzebeding-en-beding-van-toebedeling|Keuzebeding]], [[#-finaal-verrekenbeding-interpreteren-als-legaat|Antipatroon VCF art. 2.7.1.0.4]], VCF art. 2.7.1.0.4*
 >
 > 🤖 *AI-aanvulling*
 

@@ -10,7 +10,7 @@ bronnen:
 
 # Voorafbetalingen — personenbelasting
 
-Voorafbetalingen zijn **vrijwillige vooruitbetalingen** van de PB die de belastingplichtige doet aan de FOD Financiën gedurende het inkomstenjaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 157-168]]). Voor **werknemers** is dit doorgaans niet nodig — de [[voorheffingen-personenbelasting#-bedrijfsvoorheffing-bv|bedrijfsvoorheffing]] dekt de belasting al. Voor **zelfstandigen, vrije beroepers en bedrijfsleiders** zijn voorafbetalingen feitelijk **verplicht**: zonder voorafbetalingen wordt een **vermeerdering** opgelegd die de belasting verhoogt.
+Voorafbetalingen zijn **vrijwillige vooruitbetalingen** van de PB die de belastingplichtige doet aan de FOD Financiën gedurende het inkomstenjaar (WIB92 art. 157-168). Voor **werknemers** is dit doorgaans niet nodig — de [[voorheffingen-personenbelasting#-bedrijfsvoorheffing-bv|bedrijfsvoorheffing]] dekt de belasting al. Voor **zelfstandigen, vrije beroepers en bedrijfsleiders** zijn voorafbetalingen feitelijk **verplicht**: zonder voorafbetalingen wordt een **vermeerdering** opgelegd die de belasting verhoogt.
 
 De systematiek komt op het examen elk jaar terug — niet omwille van de berekening (die wordt door Tax-on-web automatisch gedaan) maar omdat de fiscale optimalisatie ervan onderdeel is van het [[fiscaal-advies-personenbelasting-formuleren|fiscaal advies]] aan de cliënt.
 
@@ -19,7 +19,7 @@ De systematiek komt op het examen elk jaar terug — niet omwille van de bereken
 ## 📌 Voorafbetaling (VA)
 *Versement anticipé (VA)*
 
-Vrijwillige betaling op een specifieke rekening van de FOD Financiën **gedurende het inkomstenjaar**, met als doel de uiteindelijke belastingschuld geleidelijk te vereffenen ([[bronnen/wetteksten/II-wib92|WIB92 art. 157]]).
+Vrijwillige betaling op een specifieke rekening van de FOD Financiën **gedurende het inkomstenjaar**, met als doel de uiteindelijke belastingschuld geleidelijk te vereffenen (WIB92 art. 157).
 
 **Wie?**
 - **Verplicht in feite** (om vermeerdering te vermijden): zelfstandigen, bedrijfsleiders, vrije beroepers
@@ -45,7 +45,7 @@ Vrijwillige betaling op een specifieke rekening van de FOD Financiën **gedurend
 
 ## 🔢 Vermeerdering wegens onvoldoende VA
 
-Als de som van **VA × waarde-coëfficiënt** **lager** is dan **vermeerderingscoëfficiënt × belastingschuld**, wordt een **vermeerdering** opgelegd ([[bronnen/wetteksten/II-wib92|WIB92 art. 158]]).
+Als de som van **VA × waarde-coëfficiënt** **lager** is dan **vermeerderingscoëfficiënt × belastingschuld**, wordt een **vermeerdering** opgelegd (WIB92 art. 158).
 
 **Vereenvoudigde formule**:
 
@@ -118,7 +118,7 @@ Voor inkomstenjaar 2025 (6,75% vermeerderingsbasis):
 
 ## 🔢 Bonificatie wegens vroegtijdige betaling
 
-Voor **werknemers** (= geen verplichte VA) kan een vrijwillige VA leiden tot een **bonificatie** — een vermindering van de belasting ([[bronnen/wetteksten/II-wib92|WIB92 art. 175]]).
+Voor **werknemers** (= geen verplichte VA) kan een vrijwillige VA leiden tot een **bonificatie** — een vermindering van de belasting (WIB92 art. 175).
 
 **Voorwaarden**:
 - VA in **VA1, VA2, of VA3** (niet VA4 — geen bonificatie)
@@ -175,7 +175,7 @@ Standaardadvies aan een nieuwe zelfstandige cliënt: **schat de jaarbelasting** 
 
 ## ⚖️ Eerste 3 jaar zelfstandige — vrijstelling vermeerdering
 
-Voor de **eerste 3 jaar** als zelfstandige in hoofdberoep wordt de **vermeerdering volledig kwijtgescholden** ([[bronnen/wetteksten/II-wib92|WIB92 art. 165]]) — een wettelijke vrijstelling om startende zelfstandigen liquiditeitsruimte te geven.
+Voor de **eerste 3 jaar** als zelfstandige in hoofdberoep wordt de **vermeerdering volledig kwijtgescholden** (WIB92 art. 165) — een wettelijke vrijstelling om startende zelfstandigen liquiditeitsruimte te geven.
 
 **Voorwaarden**:
 - Zelfstandige in **hoofdberoep** (niet bijberoep)
@@ -216,7 +216,7 @@ De drie meest voorkomende fiscale verrassingen rond VA:
 > [!warning]- Vermeerdering van 6,75% wordt zelden teruggevorderd door bezwaar
 > ❌ *"Ik vergat VA1 te storten omdat ik op vakantie was — bij bezwaar krijg ik die vermeerdering wel kwijt."*
 >
-> De vermeerdering wegens onvoldoende VA is **automatisch** en **niet ontheffbaar** door bezwaar omwille van persoonlijke omstandigheden ([[bronnen/wetteksten/II-wib92|WIB92 art. 159]]). Enkel zeer beperkte uitzonderingen gelden (overmacht in de strikte zin, onmogelijkheid van betaling). Vakantie, vergetelheid, cashflow-krap zijn geen geldige redenen — beste mitigatie blijft preventie via reminders en standing orders.
+> De vermeerdering wegens onvoldoende VA is **automatisch** en **niet ontheffbaar** door bezwaar omwille van persoonlijke omstandigheden (WIB92 art. 159). Enkel zeer beperkte uitzonderingen gelden (overmacht in de strikte zin, onmogelijkheid van betaling). Vakantie, vergetelheid, cashflow-krap zijn geen geldige redenen — beste mitigatie blijft preventie via reminders en standing orders.
 >
 > 🤖 *AI-aanvulling*
 
@@ -267,7 +267,7 @@ Kenniselementen:
 > >
 > > **Geen vermeerdering — vrijstelling eerste 3 jaar zelfstandige in hoofdberoep.**
 > >
-> > [[bronnen/wetteksten/II-wib92|WIB92 art. 165]] voorziet een **wettelijke vrijstelling** van vermeerdering wegens onvoldoende VA gedurende de **eerste 3 jaar** als zelfstandige in hoofdberoep. De € 8 000 belasting moet volledig betaald worden bij PB-aanslag, maar zonder bijkomende vermeerderingssanctie. Strategisch advies: zelfs zonder sanctie is het aan te raden om VA's te beginnen in jaar 2 of 3 om een fiscale opbouw te creëren — de overgang naar volledig betalen vanaf jaar 4 zonder VA is een grote schok.
+> > WIB92 art. 165 voorziet een **wettelijke vrijstelling** van vermeerdering wegens onvoldoende VA gedurende de **eerste 3 jaar** als zelfstandige in hoofdberoep. De € 8 000 belasting moet volledig betaald worden bij PB-aanslag, maar zonder bijkomende vermeerderingssanctie. Strategisch advies: zelfs zonder sanctie is het aan te raden om VA's te beginnen in jaar 2 of 3 om een fiscale opbouw te creëren — de overgang naar volledig betalen vanaf jaar 4 zonder VA is een grote schok.
 > >
 > > *Zie: [[voorafbetalingen-personenbelasting#-eerste-3-jaar-zelfstandige-vrijstelling-vermeerdering|Eerste 3 jaar zelfstandige]]*
 >

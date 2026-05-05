@@ -20,9 +20,9 @@ Op boekhoudkundig vlak is de cruciale vraag niet de juridische vorm (huur vs. ei
 
 *Full-payout lease*
 
-Een leasingovereenkomst is boekhoudkundig een **financiële leasing** wanneer de contractueel te storten termijnen, in voorkomend geval verhoogd met de aankoopoptie, naast de rente en de kosten van de verrichting ook de **integrale wedersamenstelling** dekken van het door de leasinggever geïnvesteerde kapitaal. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]] en [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+Een leasingovereenkomst is boekhoudkundig een **financiële leasing** wanneer de contractueel te storten termijnen, in voorkomend geval verhoogd met de aankoopoptie, naast de rente en de kosten van de verrichting ook de **integrale wedersamenstelling** dekken van het door de leasinggever geïnvesteerde kapitaal. (KB WVV art. 3:40 en [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
 
-Concreet voor **roerende leasing** (rubriek III.D): de termijnen + eventuele koopoptie moeten naast de rente en kosten ook het volledige geïnvesteerde kapitaal wedersamenstellen. Een koopoptie ten gunste van de nemer telt mee als het bedrag ervan **ten hoogste 15%** vertegenwoordigt van het door de leasinggever geïnvesteerde kapitaal. Is de optie hoger dan 15%, dan telt ze niet mee — de verrichting kwalificeert dan enkel als financiële leasing als de termijnen zonder die optie al het volledige kapitaal wedersamenstellen. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]] · rubriek III.D)
+Concreet voor **roerende leasing** (rubriek III.D): de termijnen + eventuele koopoptie moeten naast de rente en kosten ook het volledige geïnvesteerde kapitaal wedersamenstellen. Een koopoptie ten gunste van de nemer telt mee als het bedrag ervan **ten hoogste 15%** vertegenwoordigt van het door de leasinggever geïnvesteerde kapitaal. Is de optie hoger dan 15%, dan telt ze niet mee — de verrichting kwalificeert dan enkel als financiële leasing als de termijnen zonder die optie al het volledige kapitaal wedersamenstellen. (KB WVV art. 3:40 · rubriek III.D)
 
 Concreet voor **onroerende leasing**: de termijnen moeten, naast de rente en kosten, het door de leasinggever **in het gebouw** geïnvesteerde kapitaal integraal wedersamenstellen. Voor onroerende leasing telt de koopoptie of verlengingsoptie van de nemer niet mee bij de wedersamenstelling (wel een verkoopoptie van de gever).
 
@@ -47,14 +47,14 @@ Renting is een gangbare term voor kortlopende verhuur van roerende goederen zond
 
 Een sale-and-leaseback is een verrichting waarbij een onderneming een materieel vast actief verkoopt aan een derde en tegelijkertijd het gebruik ervan terugkrijgt via een leasingcontract op hetzelfde goed. De twee overeenkomsten — verkoop en leasing — worden als één geheel beschouwd.
 
-De meer- of minderwaarde vastgesteld bij de overdracht wordt **niet onmiddellijk in resultaat genomen** maar opgenomen in de overlopende rekeningen aan de passiefzijde, en elk jaar in resultaat genomen naar verhouding van de [[afschrijvingen|afschrijving]] van het geleasede goed. ([[bronnen/wetteksten/XV-KB-wvv#art-341|KB WVV art. 3:41]] · [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
+De meer- of minderwaarde vastgesteld bij de overdracht wordt **niet onmiddellijk in resultaat genomen** maar opgenomen in de overlopende rekeningen aan de passiefzijde, en elk jaar in resultaat genomen naar verhouding van de [[afschrijvingen|afschrijving]] van het geleasede goed. (KB WVV art. 3:41 · [[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
 
 > [!warning]- Sale-and-leaseback: meerwaarde is geen onmiddellijke winst
 > ❌ *"Bij een sale-and-leaseback wordt de verkoopwinst op het actief onmiddellijk als opbrengst geboekt."*
 >
 > De meer- of minderwaarde wordt aan de passiefzijde in overlopende rekeningen geboekt en jaarlijks vrijgegeven in verhouding tot de afschrijving van het geleasede goed. De achterliggende redenering: tegenover de verkoopwinst staat een toekomstige kost die via de leasingtermijnen loopt — er is geen echte gerealiseerde meerwaarde.
 >
-> 🤖 *AI-aanvulling op basis van [[bronnen/wetteksten/XV-KB-wvv#art-341|KB WVV art. 3:41]]*
+> 🤖 *AI-aanvulling op basis van KB WVV art. 3:41*
 
 ## 📌 Leasinggever en leasingnemer
 
@@ -81,7 +81,7 @@ Dit principe verankert het verschil met operationele leasing, waar de voornaamst
 
 ## 🔢 Activeringswaarde bij financiële leasing (leasingnemer)
 
-De leasingnemer neemt het goed op in zijn actief voor **het gedeelte van de te storten termijnen dat strekt tot de wedersamenstelling van de kapitaalwaarde** van het goed — m.a.w. de som van de kapitaalbestanddelen van alle toekomstige leasingbetalingen. ([[bronnen/wetteksten/XV-KB-wvv#art-340|KB WVV art. 3:40]])
+De leasingnemer neemt het goed op in zijn actief voor **het gedeelte van de te storten termijnen dat strekt tot de wedersamenstelling van de kapitaalwaarde** van het goed — m.a.w. de som van de kapitaalbestanddelen van alle toekomstige leasingbetalingen. (KB WVV art. 3:40)
 
 De aankoopoptie telt **niet** mee in de activeringswaarde: het lichten van de optie is geen verplichting, dus geen schuld. De optie wordt geboekt onder de niet in de balans opgenomen rechten (klasse 0, rekening 09). ([[bronnen/adviezen/CBN-2015-04-leasing|CBN-advies 2015/4]])
 
@@ -255,7 +255,7 @@ Bij een jaarrekeninganalyse: als een onderneming veel "huur en huurlasten" (610)
 
 Onder **Belgisch boekhoudrecht** (KB WVV) blijft het onderscheid tussen financiële en operationele leasing bestaan. Enkel financiële leasing wordt geactiveerd.
 
-Onder **IFRS 16** (van toepassing op geconsolideerde jaarrekeningen van beursgenoteerde vennootschappen) moet de leasingnemer **vrijwel alle leasingovereenkomsten** activeren als een "right-of-use asset" met een bijhorende leasingverplichting — het onderscheid financieel/operationeel verdwijnt voor de nemer. Zie [[consolidatie-ifrs|IFRS-concepten bij consolidatie]] voor de bredere context.
+Onder **IFRS 16** (van toepassing op geconsolideerde jaarrekeningen van beursgenoteerde vennootschappen) moet de leasingnemer **vrijwel alle leasingovereenkomsten** activeren als een "right-of-use asset" met een bijhorende leasingverplichting — het onderscheid financieel/operationeel verdwijnt voor de nemer. Zie [[leasing-ifrs|Leasing onder IFRS (IFRS 16)]] voor de volledige behandeling.
 
 > [!warning]- IFRS 16 geldt niet voor de Belgische enkelvoudige jaarrekening
 > ❌ *"Onder Belgisch boekhoudrecht moet ook operationele leasing geactiveerd worden, net zoals onder IFRS 16."*

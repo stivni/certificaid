@@ -10,7 +10,7 @@ bronnen:
 
 # Voorheffingen — personenbelasting
 
-Voorheffingen zijn **vooruitbetalingen** op de uiteindelijke PB die door een derde (werkgever, bank, vennootschap, gemeente) worden ingehouden of betaald **op het moment van uitkering of bezit** van een belastbaar bestanddeel ([[bronnen/wetteksten/II-wib92|WIB92 art. 249-296]]). Drie voorheffingen zijn relevant voor de PB:
+Voorheffingen zijn **vooruitbetalingen** op de uiteindelijke PB die door een derde (werkgever, bank, vennootschap, gemeente) worden ingehouden of betaald **op het moment van uitkering of bezit** van een belastbaar bestanddeel (WIB92 art. 249-296). Drie voorheffingen zijn relevant voor de PB:
 
 | Voorheffing | Wat? | Schuldenaar |
 |---|---|---|
@@ -25,7 +25,7 @@ Twee fundamentele eigenschappen onderscheiden de voorheffingen: ze kunnen **bevr
 ## 📌 Bedrijfsvoorheffing (BV)
 *Précompte professionnel (Pr.P.)*
 
-Voorheffing **maandelijks ingehouden** door de werkgever (of vennootschap) op brutoloon van werknemers en bedrijfsleiders, en op pensioenen en vervangingsinkomsten ([[bronnen/wetteksten/II-wib92|WIB92 art. 270-275]] en [[bronnen/wetteksten/II-KB-wib92|KB/WIB92 art. 86 e.v.]]).
+Voorheffing **maandelijks ingehouden** door de werkgever (of vennootschap) op brutoloon van werknemers en bedrijfsleiders, en op pensioenen en vervangingsinkomsten (WIB92 art. 270-275 en KB/WIB92 art. 86 e.v.).
 
 **Schuldenaar van de inhouding**:
 - Werkgever (op brutoloon werknemer)
@@ -34,7 +34,7 @@ Voorheffing **maandelijks ingehouden** door de werkgever (of vennootschap) op br
 
 **Doelstelling**: vermijden dat werknemers/zelfstandigen op het einde van het jaar plots een grote belastingschuld zien ontstaan — de BV brengt de fiscale druk gelijkmatig over het jaar.
 
-**Bedragen**: bepaald door **schalen** in het [[bronnen/wetteksten/II-KB-wib92|KB/WIB92]], die jaarlijks geactualiseerd worden. De schalen houden rekening met:
+**Bedragen**: bepaald door **schalen** in het KB/WIB92, die jaarlijks geactualiseerd worden. De schalen houden rekening met:
 - Brutoloon
 - Burgerlijke staat (alleenstaand, gehuwd)
 - Aantal kinderen ten laste
@@ -87,7 +87,7 @@ De **werkgever** kan BV gedeeltelijk **niet doorstorten** in bepaalde situaties 
 ## 📌 Roerende voorheffing (RV)
 *Précompte mobilier (Pr.M.)*
 
-Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen (bank, vennootschap, debiteur) op het moment van uitkering ([[bronnen/wetteksten/II-wib92|WIB92 art. 261-266]]). Volledige inhoud zie [[roerende-inkomsten-personenbelasting#-roerende-voorheffing-rv|Roerende inkomsten — RV]].
+Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen (bank, vennootschap, debiteur) op het moment van uitkering (WIB92 art. 261-266). Volledige inhoud zie [[roerende-inkomsten-personenbelasting#-roerende-voorheffing-rv|Roerende inkomsten — RV]].
 
 **Tarieven** (overzicht): 30% standaard, 20% / 15% (VVPRbis), 15% (auteursrechten tot plafond, gereglementeerd spaarboekje boven vrijstelling), 10% / 5% (liquidatiereserve), 0% (vrijgestelde schijven).
 
@@ -98,7 +98,7 @@ Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen (bank, ve
 ## 📌 Onroerende voorheffing (OV)
 *Précompte immobilier (Pr.I.)*
 
-**Aparte gewestelijke belasting** op het [[inkomsten-onroerende-goederen#-kadastraal-inkomen-ki|kadastraal inkomen]] van onroerende goederen — sinds aj. 2015 **niet langer verrekenbaar** met de PB. De verrekeningsmogelijkheid werd opgeheven ([[bronnen/wetteksten/II-wib92|WIB92 art. 277-280]] zoals gewijzigd voor aj. 2015).
+**Aparte gewestelijke belasting** op het [[inkomsten-onroerende-goederen#-kadastraal-inkomen-ki|kadastraal inkomen]] van onroerende goederen — sinds aj. 2015 **niet langer verrekenbaar** met de PB. De verrekeningsmogelijkheid werd opgeheven (WIB92 art. 277-280 zoals gewijzigd voor aj. 2015).
 
 **Verschil met BV en RV**: de OV is geen **voorheffing** in de eigenlijke fiscale zin sinds de afschaffing van de verrekening — ze is **een autonome belasting** geworden. De naam "voorheffing" is historisch.
 
@@ -108,7 +108,7 @@ Voorheffing **ingehouden door de schuldenaar** van het roerend inkomen (bank, ve
 
 **Tarieven en opcentiemen** verschillen sterk per gewest, provincie en gemeente. Voor een eigen woning in Vlaanderen: gemiddeld ~ 50% van het geïndexeerd KI (basis 1,6% + opcentiemen ~ 850-950%).
 
-**Verlagingen** ([[bronnen/wetteksten/IVA-vcf|VCF art. 2.1.5.0.1 e.v.]]):
+**Verlagingen** (VCF art. 2.1.5.0.1 e.v.):
 - Voor woningen bewoond door een **groot gezin** (verminderde OV)
 - Voor **bescheiden woningen** (kadastraal inkomen onder drempel)
 - Voor **leegstand** of onbewoonbaar verklaarde woningen — onder voorwaarden
@@ -251,7 +251,7 @@ Kenniselementen:
 > >
 > > **Fout — BV is een voorschot, geen definitieve belasting.**
 > >
-> > De BV is een **vooruitbetaling** op de definitieve PB-aanslag. De werkelijke belasting wordt pas berekend na indiening van de aangifte — afhankelijk van forfait/werkelijke kosten, federale en gewestelijke verminderingen, gemeentelijke opcentiemen, persoonlijke gegevens. Het saldo (te betalen of te ontvangen) verschijnt in het aanslagbiljet. Niet aangeven leidt automatisch tot een **ambtshalve aanslag** met belastingverhoging — ook al is de BV correct ingehouden. **Aangifteplicht blijft** ([[bronnen/wetteksten/II-wib92|WIB92 art. 305]]).
+> > De BV is een **vooruitbetaling** op de definitieve PB-aanslag. De werkelijke belasting wordt pas berekend na indiening van de aangifte — afhankelijk van forfait/werkelijke kosten, federale en gewestelijke verminderingen, gemeentelijke opcentiemen, persoonlijke gegevens. Het saldo (te betalen of te ontvangen) verschijnt in het aanslagbiljet. Niet aangeven leidt automatisch tot een **ambtshalve aanslag** met belastingverhoging — ook al is de BV correct ingehouden. **Aangifteplicht blijft** (WIB92 art. 305).
 > >
 > > *Zie: [[voorheffingen-personenbelasting#-bedrijfsvoorheffing-bv|Bedrijfsvoorheffing]]*
 >
@@ -265,7 +265,7 @@ Kenniselementen:
 > >
 > > **Nee — sinds aj. 2015 is de onroerende voorheffing niet meer verrekenbaar met de PB.**
 > >
-> > De OV is sinds aj. 2015 een **autonome belasting** geworden, niet meer een voorheffing in fiscale zin ([[bronnen/wetteksten/II-wib92|WIB92 art. 277-280]] — afgeschaft voor PB-doeleinden). Ze wordt afzonderlijk geïnd door de gewesten/provincies/gemeenten en levert geen aftrek of vermindering op in de PB. De OV verschijnt **niet** in vak III van de aangifte. Wel kan de eigenaar in beperkte gevallen een gewestelijke vermindering of vrijstelling van OV verkrijgen (groot gezin, leegstand, …) — los van de PB.
+> > De OV is sinds aj. 2015 een **autonome belasting** geworden, niet meer een voorheffing in fiscale zin (WIB92 art. 277-280 — afgeschaft voor PB-doeleinden). Ze wordt afzonderlijk geïnd door de gewesten/provincies/gemeenten en levert geen aftrek of vermindering op in de PB. De OV verschijnt **niet** in vak III van de aangifte. Wel kan de eigenaar in beperkte gevallen een gewestelijke vermindering of vrijstelling van OV verkrijgen (groot gezin, leegstand, …) — los van de PB.
 > >
 > > *Zie: [[voorheffingen-personenbelasting#-onroerende-voorheffing-ov|Onroerende voorheffing]]*
 >

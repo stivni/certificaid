@@ -10,7 +10,7 @@ bronnen:
 
 # Beroepsinkomsten en beroepskosten
 
-Beroepsinkomsten vormen voor de meeste belastingplichtigen het **belangrijkste** inkomstenbestanddeel. De fiscale wet onderscheidt **vijf categorieën** van beroepsinkomsten met elk eigen kwalificatieregels en aftrekken ([[bronnen/wetteksten/II-wib92|WIB92 art. 23]]). De berekening van het belastbare beroepsinkomen volgt steeds dezelfde logica: bruto-inkomen − beroepskosten − sociale bijdragen − beroepsverliezen = netto belastbaar beroepsinkomen.
+Beroepsinkomsten vormen voor de meeste belastingplichtigen het **belangrijkste** inkomstenbestanddeel. De fiscale wet onderscheidt **vijf categorieën** van beroepsinkomsten met elk eigen kwalificatieregels en aftrekken (WIB92 art. 23). De berekening van het belastbare beroepsinkomen volgt steeds dezelfde logica: bruto-inkomen − beroepskosten − sociale bijdragen − beroepsverliezen = netto belastbaar beroepsinkomen.
 
 Deze fiche dekt de **structurele** kennis: categorieën, kwalificatie, kostenaftrek, beroepsverliezen, voordeel alle aard. Specifieke regels voor onderneming-stopzetting en overdracht worden uitgewerkt in [[stopzettingsmeerwaarden-personenbelasting|Stopzettingsmeerwaarden personenbelasting]].
 
@@ -19,7 +19,7 @@ Deze fiche dekt de **structurele** kennis: categorieën, kwalificatie, kostenaft
 ## 📌 Beroepsinkomen
 *Revenu professionnel*
 
-Inkomen verworven door de uitoefening van een beroepsactiviteit ([[bronnen/wetteksten/II-wib92|WIB92 art. 23]]). Vereist twee elementen die samen aanwezig moeten zijn:
+Inkomen verworven door de uitoefening van een beroepsactiviteit (WIB92 art. 23). Vereist twee elementen die samen aanwezig moeten zijn:
 
 1. Een **activiteit** (handeling van de belastingplichtige zelf — geen passieve belegging)
 2. Een **doelstelling van inkomstenverwerving** met een zekere **regelmaat of duurzaamheid** (uitgesloten: zuiver toevallige verrichting → diverse inkomsten)
@@ -32,11 +32,11 @@ Ontbreekt een van beide, dan valt het inkomen niet onder beroepsinkomsten maar o
 
 | Categorie | Wie? | Aangifte |
 |---|---|---|
-| **Bezoldigingen werknemers** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 30, 1°]]) | Werknemers met arbeidsovereenkomst | Vak IV |
-| **Bezoldigingen bedrijfsleiders** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 30, 2° + art. 32]]) | Bestuurders, zaakvoerders, vereffenaars | Vak XVII |
-| **Winsten** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 24]]) | Zelfstandigen-handelaars, nijverheid, landbouw | Vak XV / XVI |
-| **Baten** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 27]]) | Vrije beroepen (advocaten, accountants, artsen) | Vak XV / XVI |
-| **Vervangingsinkomsten en pensioenen** ([[bronnen/wetteksten/II-wib92\|WIB92 art. 31bis, 34]]) | Werkloosheidsvergoedingen, ziekte-uitkeringen, pensioenen | Vak V (werknemerspensioenen), VII (zelfstandigen) |
+| **Bezoldigingen werknemers** (WIB92 art. 30, 1°) | Werknemers met arbeidsovereenkomst | Vak IV |
+| **Bezoldigingen bedrijfsleiders** (WIB92 art. 30, 2° + art. 32) | Bestuurders, zaakvoerders, vereffenaars | Vak XVII |
+| **Winsten** (WIB92 art. 24) | Zelfstandigen-handelaars, nijverheid, landbouw | Vak XV / XVI |
+| **Baten** (WIB92 art. 27) | Vrije beroepen (advocaten, accountants, artsen) | Vak XV / XVI |
+| **Vervangingsinkomsten en pensioenen** (WIB92 art. 31bis, 34) | Werkloosheidsvergoedingen, ziekte-uitkeringen, pensioenen | Vak V (werknemerspensioenen), VII (zelfstandigen) |
 
 **Verschil winsten / baten** is historisch en heeft beperkte praktische gevolgen — beide categorieën worden volgens dezelfde regels berekend. Het onderscheid kan wel relevant zijn voor specifieke vrijstellingen of het BTW-stelsel.
 
@@ -44,7 +44,7 @@ Ontbreekt een van beide, dan valt het inkomen niet onder beroepsinkomsten maar o
 
 ## 📌 Bezoldigingen werknemers
 
-Alle vergoedingen die een werknemer ontvangt **uit hoofde van zijn arbeidsovereenkomst** ([[bronnen/wetteksten/II-wib92|WIB92 art. 30, 1°]] en [[bronnen/wetteksten/II-wib92|art. 31]]). Veelvormig:
+Alle vergoedingen die een werknemer ontvangt **uit hoofde van zijn arbeidsovereenkomst** (WIB92 art. 30, 1° en art. 31). Veelvormig:
 
 | Soort | Voorbeeld |
 |---|---|
@@ -58,15 +58,15 @@ Alle vergoedingen die een werknemer ontvangt **uit hoofde van zijn arbeidsoveree
 
 **Bron**: loonfiche **281.10** opgesteld door werkgever, jaarlijks afgeleverd aan werknemer en automatisch aangeleverd aan de FOD Financiën.
 
-**Toerekeningsregel**: kasprincipe — een loon wordt belast in het jaar van **werkelijke betaling of toekenning**, ongeacht het jaar van prestatie ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]).
+**Toerekeningsregel**: kasprincipe — een loon wordt belast in het jaar van **werkelijke betaling of toekenning**, ongeacht het jaar van prestatie (WIB92 art. 360).
 
 ---
 
 ## 📌 Bezoldigingen bedrijfsleiders
 
-Vergoedingen die een **bedrijfsleider** ontvangt van de vennootschap waarin hij die hoedanigheid uitoefent ([[bronnen/wetteksten/II-wib92|WIB92 art. 32]]). Sinds 1997 een afzonderlijke categorie — geen bezoldigingen werknemer (geen arbeidsovereenkomst), geen winsten (geen eigen onderneming).
+Vergoedingen die een **bedrijfsleider** ontvangt van de vennootschap waarin hij die hoedanigheid uitoefent (WIB92 art. 32). Sinds 1997 een afzonderlijke categorie — geen bezoldigingen werknemer (geen arbeidsovereenkomst), geen winsten (geen eigen onderneming).
 
-**Wie is bedrijfsleider?** ([[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 1]]):
+**Wie is bedrijfsleider?** (WIB92 art. 32, alinea 1):
 1. Bestuurder, zaakvoerder, vereffenaar of gelijkaardige functie van een vennootschap
 2. Persoon die binnen de vennootschap een **leidende functie of activiteit** uitoefent buiten arbeidsovereenkomst om
 
@@ -79,7 +79,7 @@ Vergoedingen die een **bedrijfsleider** ontvangt van de vennootschap waarin hij 
 > [!warning]- "Bedrijfsleider" omvat ook de niet-bestuurder met leidende functie
 > ❌ *"Een werknemer zonder bestuursmandaat kan nooit als bedrijfsleider belast worden — dus zijn loon valt altijd onder bezoldigingen werknemers."*
 >
-> [[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 1, 2°]] kwalificeert ook een persoon met een **leidende functie buiten arbeidsovereenkomst om** als bedrijfsleider. Een directielid dat geen bestuurdersmandaat heeft maar zelf een aanzienlijk deel van de aandelen bezit en buiten een arbeidsovereenkomst werkt, valt onder bezoldigingen bedrijfsleider — niet werknemers. Het verschil is fiscaal relevant: bedrijfsleiders hebben minder ruime forfaitaire kostenaftrek, geen maaltijdcheque-vrijstelling, en specifieke regels voor herkwalificatie van huur en rekening-courant.
+> WIB92 art. 32, alinea 1, 2° kwalificeert ook een persoon met een **leidende functie buiten arbeidsovereenkomst om** als bedrijfsleider. Een directielid dat geen bestuurdersmandaat heeft maar zelf een aanzienlijk deel van de aandelen bezit en buiten een arbeidsovereenkomst werkt, valt onder bezoldigingen bedrijfsleider — niet werknemers. Het verschil is fiscaal relevant: bedrijfsleiders hebben minder ruime forfaitaire kostenaftrek, geen maaltijdcheque-vrijstelling, en specifieke regels voor herkwalificatie van huur en rekening-courant.
 >
 > 🤖 *AI-aanvulling*
 
@@ -87,9 +87,9 @@ Vergoedingen die een **bedrijfsleider** ontvangt van de vennootschap waarin hij 
 
 ## 📌 Winsten en baten
 
-**Winsten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 24]]): inkomsten uit een **handels-, nijverheids- of landbouwactiviteit** uitgeoefend door een natuurlijke persoon (eenmanszaak).
+**Winsten** (WIB92 art. 24): inkomsten uit een **handels-, nijverheids- of landbouwactiviteit** uitgeoefend door een natuurlijke persoon (eenmanszaak).
 
-**Baten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 27]]): inkomsten uit een **vrij beroep** of een gelijkaardige activiteit niet-handelaars (advocaten, accountants, artsen, architecten, kunstenaars).
+**Baten** (WIB92 art. 27): inkomsten uit een **vrij beroep** of een gelijkaardige activiteit niet-handelaars (advocaten, accountants, artsen, architecten, kunstenaars).
 
 **Bepaling**: winst/baat = **brutoinkomsten** (omzet, erelonen) − **werkelijke beroepskosten**. Geen forfaitaire kostenaftrek voor zelfstandigen — werkelijke kosten worden integraal aangetoond.
 
@@ -101,13 +101,13 @@ Vergoedingen die een **bedrijfsleider** ontvangt van de vennootschap waarin hij 
 
 ## 📌 Vervangingsinkomsten en pensioenen
 
-Inkomsten die het loon **vervangen** wanneer de belastingplichtige niet (meer) actief is ([[bronnen/wetteksten/II-wib92|WIB92 art. 31bis, 34]]). Specifieke fiscale behandeling met:
+Inkomsten die het loon **vervangen** wanneer de belastingplichtige niet (meer) actief is (WIB92 art. 31bis, 34). Specifieke fiscale behandeling met:
 
-- **Belastingvermindering vervangingsinkomsten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 146-154]]) — degressief naargelang inkomen
+- **Belastingvermindering vervangingsinkomsten** (WIB92 art. 146-154) — degressief naargelang inkomen
 - Specifieke regels voor pensioenen (wettelijk pensioen vs. aanvullend pensioen 2e/3e pijler)
 - Werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen, brugpensioen (SWT)
 
-**Pensioenkapitaal vs. lijfrente**: kapitaal van een **groepsverzekering** of **pensioensparen** wordt afzonderlijk belast afhankelijk van leeftijd bij vereffening ([[bronnen/wetteksten/II-wib92|WIB92 art. 171]]):
+**Pensioenkapitaal vs. lijfrente**: kapitaal van een **groepsverzekering** of **pensioensparen** wordt afzonderlijk belast afhankelijk van leeftijd bij vereffening (WIB92 art. 171):
 - **10%**: vereffening op wettelijke pensioenleeftijd (65/67 jaar)
 - **16,5%**: vereffening op 60-64 jaar (of bij bepaalde pensioneringscondities)
 - **20%**: vroegtijdige uitkering vóór 60 jaar
@@ -133,7 +133,7 @@ Brutoberoepsinkomen (bezoldiging, winsten, baten, vervangingsinkomsten)
 
 ## 🔢 Werkelijke vs. forfaitaire beroepskosten
 
-De wet geeft de werknemer en bedrijfsleider de **keuze** ([[bronnen/wetteksten/II-wib92|WIB92 art. 51]]):
+De wet geeft de werknemer en bedrijfsleider de **keuze** (WIB92 art. 51):
 
 - **Forfaitaire aftrek**: vast percentage van het beroepsinkomen, met maximumbedrag — geen bewijsstukken nodig
 - **Werkelijke kosten**: bewijs van elke afzonderlijke kost — meestal voordeliger bij hoge kosten (bv. lange woon-werkverkeer, beroepskleding, vakliteratuur)
@@ -161,7 +161,7 @@ De wet geeft de werknemer en bedrijfsleider de **keuze** ([[bronnen/wetteksten/I
 
 ## 🔢 Aftrekbaarheid van specifieke beroepskosten
 
-Wettelijke beperkingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 53, 65-67, 198bis]]):
+Wettelijke beperkingen (WIB92 art. 53, 65-67, 198bis):
 
 | Kostentype | Aftrekbaarheid |
 |---|---|
@@ -181,7 +181,7 @@ Wettelijke beperkingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 53, 65-67, 198b
 
 ## 🔢 Voordelen alle aard (VAA)
 
-Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werknemer of bedrijfsleider — fiscaal belast als bezoldiging op basis van een **forfaitaire waardering** ([[bronnen/wetteksten/II-wib92|WIB92 art. 36]] en [[bronnen/wetteksten/II-KB-wib92|KB/WIB92 art. 18-19]]).
+Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werknemer of bedrijfsleider — fiscaal belast als bezoldiging op basis van een **forfaitaire waardering** (WIB92 art. 36 en KB/WIB92 art. 18-19).
 
 **Belangrijkste VAA-categorieën** (waardering volgens KB/WIB92 — bedragen in cijferzakboekje):
 
@@ -194,7 +194,7 @@ Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werk
 | **PC, GSM, internet** | Forfait per item (~ € 72/jaar voor PC, ~ € 36/jaar voor GSM, …) |
 | **Maaltijdcheques, ecocheques** | Vrijgesteld onder voorwaarden van bedrag en gebruik |
 
-**Aftrekbaarheid bij werkgever/vennootschap**: het werkelijke bedrag dat de werkgever betaalt, is in beginsel aftrekbaar — maar voor firmawagens geldt een specifieke aftrekbeperking gebaseerd op CO₂-uitstoot ([[bronnen/wetteksten/II-wib92|WIB92 art. 198bis]]).
+**Aftrekbaarheid bij werkgever/vennootschap**: het werkelijke bedrag dat de werkgever betaalt, is in beginsel aftrekbaar — maar voor firmawagens geldt een specifieke aftrekbeperking gebaseerd op CO₂-uitstoot (WIB92 art. 198bis).
 
 > [!info]- In de praktijk
 >
@@ -218,7 +218,7 @@ Een **niet-cash voordeel** dat de werkgever of vennootschap toekent aan een werk
 ## 🔢 Beroepsverliezen
 *Pertes professionnelles*
 
-Een netto **negatief** beroepsinkomen (zelfstandige met meer kosten dan opbrengsten) wordt eerst **horizontaal** verrekend (binnen hetzelfde aanslagjaar met andere positieve beroepsinkomsten), dan **verticaal** overgedragen naar volgende jaren ([[bronnen/wetteksten/II-wib92|WIB92 art. 78-80]]).
+Een netto **negatief** beroepsinkomen (zelfstandige met meer kosten dan opbrengsten) wordt eerst **horizontaal** verrekend (binnen hetzelfde aanslagjaar met andere positieve beroepsinkomsten), dan **verticaal** overgedragen naar volgende jaren (WIB92 art. 78-80).
 
 **Mechanisme**:
 
@@ -245,19 +245,19 @@ Resterend te belasten in jaar X = € 30 000 − € 15 000 (X-2) − € 10 000
 
 ## 🔢 Persoonlijke sociale bijdragen
 
-Sociale bijdragen die de belastingplichtige zelf betaalt zijn **integraal aftrekbaar** als beroepskost ([[bronnen/wetteksten/II-wib92|WIB92 art. 52, 7°]]):
+Sociale bijdragen die de belastingplichtige zelf betaalt zijn **integraal aftrekbaar** als beroepskost (WIB92 art. 52, 7°):
 
 - **Werknemer**: RSZ-bijdragen (13,07%) automatisch ingehouden door werkgever — al verrekend op loonfiche
 - **Zelfstandige**: voorlopige sociale bijdragen aan socialeverzekeringskas + regularisatiebijdragen — geboekt onder beroepskosten
 - **Bedrijfsleider**: zelfstandige bijdragen (vermits meestal geen arbeidsovereenkomst)
 
-**VAPZ (Vrij Aanvullend Pensioen voor Zelfstandigen)** is afzonderlijk aftrekbaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 52bis]]) — beperkt tot 8,17% van het netto belastbaar beroepsinkomen, met geïndexeerd plafond.
+**VAPZ (Vrij Aanvullend Pensioen voor Zelfstandigen)** is afzonderlijk aftrekbaar (WIB92 art. 52bis) — beperkt tot 8,17% van het netto belastbaar beroepsinkomen, met geïndexeerd plafond.
 
 ---
 
 ## ⚖️ Stopzettingsmeerwaarden — kort
 
-Bij **definitieve stopzetting** van een zelfstandige activiteit worden de meerwaarden op de beroepsmatige activa **belast als beroepsinkomsten** maar onderworpen aan **afzonderlijke aanslagvoeten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 28, 171]]):
+Bij **definitieve stopzetting** van een zelfstandige activiteit worden de meerwaarden op de beroepsmatige activa **belast als beroepsinkomsten** maar onderworpen aan **afzonderlijke aanslagvoeten** (WIB92 art. 28, 171):
 
 | Activatype | Tarief |
 |---|---|
@@ -303,7 +303,7 @@ Kenniselementen:
 > >
 > > **€ 3 312 (= 69% van € 4 800).**
 > >
-> > Restaurantkosten zijn voor 69% aftrekbaar als beroepskost ([[bronnen/wetteksten/II-wib92|WIB92 art. 53, 8°]]bis). De resterende 31% is een "verworpen uitgave" die niet de belastbare grondslag verlaagt. Voorwaarde: zakelijk karakter (bewijs van klantontmoeting nodig). Voor bedrijfsleiders die restaurantkosten in de vennootschap boeken, geldt dezelfde 69%-beperking op vennootschapsniveau.
+> > Restaurantkosten zijn voor 69% aftrekbaar als beroepskost (WIB92 art. 53, 8°bis). De resterende 31% is een "verworpen uitgave" die niet de belastbare grondslag verlaagt. Voorwaarde: zakelijk karakter (bewijs van klantontmoeting nodig). Voor bedrijfsleiders die restaurantkosten in de vennootschap boeken, geldt dezelfde 69%-beperking op vennootschapsniveau.
 > >
 > > *Zie: [[beroepsinkomsten-personenbelasting#-aftrekbaarheid-van-specifieke-beroepskosten|Aftrekbaarheid specifieke beroepskosten]]*
 >
@@ -317,7 +317,7 @@ Kenniselementen:
 > >
 > > **Ja — beroepsverliezen zijn onbeperkt in de tijd overdraagbaar.**
 > >
-> > Onder [[bronnen/wetteksten/II-wib92|WIB92 art. 78-80]] kunnen beroepsverliezen onbeperkt in de tijd overgedragen worden. Bij winst in jaar X worden eerst de oudste verliezen verrekend (FIFO). Voorwaarde: het verlies moet werkelijk zijn (boekhouding gestaafd) en effectief geleden door dezelfde belastingplichtige. Verliezen kunnen niet overgedragen worden naar de partner.
+> > Onder WIB92 art. 78-80 kunnen beroepsverliezen onbeperkt in de tijd overgedragen worden. Bij winst in jaar X worden eerst de oudste verliezen verrekend (FIFO). Voorwaarde: het verlies moet werkelijk zijn (boekhouding gestaafd) en effectief geleden door dezelfde belastingplichtige. Verliezen kunnen niet overgedragen worden naar de partner.
 > >
 > > *Zie: [[beroepsinkomsten-personenbelasting#-beroepsverliezen|Beroepsverliezen]]*
 >
@@ -329,7 +329,7 @@ Kenniselementen:
 >
 > > [!success]- Antwoord
 > >
-> > **Bezoldiging bedrijfsleider** ([[bronnen/wetteksten/II-wib92|WIB92 art. 32, alinea 1, 2°]]).
+> > **Bezoldiging bedrijfsleider** (WIB92 art. 32, alinea 1, 2°).
 > >
 > > Een persoon die binnen een vennootschap een **leidende functie buiten arbeidsovereenkomst om** uitoefent, is een bedrijfsleider — ongeacht het ontbreken van een formeel mandaat. Gevolg: lagere forfaitaire kostenaftrek (3% i.p.v. 30%), eigen sociale bijdragen (zelfstandig stelsel), specifieke regels voor herkwalificatie van huur en rekening-courant. Wie deze kwalificatie verwart met "bezoldiging werknemers", onderschat de fiscale druk en vergeet de compliance verplichtingen.
 > >
@@ -345,7 +345,7 @@ Kenniselementen:
 > >
 > > **Ja — als voordeel alle aard, gevoegd bij de bezoldiging.**
 > >
-> > Het VAA wordt forfaitair berekend volgens [[bronnen/wetteksten/II-KB-wib92|KB/WIB92 art. 18, §3, 9°]]: catalogusprijs × CO₂-coëfficiënt × 6/7. Voor een elektrische wagen geldt het laagste CO₂-tarief (4% basistarief). Voorbeeld: € 50 000 × 4% × 6/7 ≈ € 1 715/jaar — gevoegd bij de bezoldiging op de loonfiche 281.10. Niet-aangeven is een fiscale inbreuk. Voor de werkgever is de wagenkost integraal aftrekbaar (omdat CO₂ = 0).
+> > Het VAA wordt forfaitair berekend volgens KB/WIB92 art. 18, §3, 9°: catalogusprijs × CO₂-coëfficiënt × 6/7. Voor een elektrische wagen geldt het laagste CO₂-tarief (4% basistarief). Voorbeeld: € 50 000 × 4% × 6/7 ≈ € 1 715/jaar — gevoegd bij de bezoldiging op de loonfiche 281.10. Niet-aangeven is een fiscale inbreuk. Voor de werkgever is de wagenkost integraal aftrekbaar (omdat CO₂ = 0).
 > >
 > > *Zie: [[beroepsinkomsten-personenbelasting#-voordelen-alle-aard-vaa|Voordelen alle aard]]*
 >

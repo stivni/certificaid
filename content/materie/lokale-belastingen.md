@@ -91,7 +91,7 @@ De meest voorkomende gemeentebelastingen vallen in twee categorieën.
 
 *Centimes additionnels communaux à l'IPP*
 
-Een **procentuele opslag** op de federaal vastgestelde personenbelasting, geheven op basis van [[bronnen/wetteksten/II-wib92|WIB92 art. 465-470]]. De gemeente bepaalt het percentage (typisch tussen 5% en 9%; sommige rijke randgemeenten heffen 0%, sommige industrie-gemeenten gaan tot 9%).
+Een **procentuele opslag** op de federaal vastgestelde personenbelasting, geheven op basis van WIB92 art. 465-470. De gemeente bepaalt het percentage (typisch tussen 5% en 9%; sommige rijke randgemeenten heffen 0%, sommige industrie-gemeenten gaan tot 9%).
 
 ```
 Aanvullende GB = federaal verschuldigde PB × gemeente-percentage

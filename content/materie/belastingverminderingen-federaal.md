@@ -17,7 +17,7 @@ De belangrijkste federale verminderingen — pensioensparen, langetermijnsparen,
 
 ## 📌 Federale belastingvermindering
 
-Vermindering die de **federaal verschuldigde belasting** rechtstreeks verlaagt — verschilt van een **aftrek** (die de belastbare grondslag verlaagt) en van een **vrijstelling** (die het inkomen belastingvrij maakt) ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/1 e.v.]]).
+Vermindering die de **federaal verschuldigde belasting** rechtstreeks verlaagt — verschilt van een **aftrek** (die de belastbare grondslag verlaagt) en van een **vrijstelling** (die het inkomen belastingvrij maakt) (WIB92 art. 145/1 e.v.).
 
 **Algemene structuur**:
 
@@ -36,7 +36,7 @@ Bestede uitgave (binnen plafond) × Tarief van de vermindering = Bedrag verminde
 
 ## 🔢 Pensioensparen
 
-Vermindering voor stortingen op een **erkend pensioenspaarcontract** (bij bank of verzekeringsmaatschappij) — bedoeld als **derde pensioenpijler** voor aanvullende oudedagsvoorziening ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/8]]).
+Vermindering voor stortingen op een **erkend pensioenspaarcontract** (bij bank of verzekeringsmaatschappij) — bedoeld als **derde pensioenpijler** voor aanvullende oudedagsvoorziening (WIB92 art. 145/8).
 
 **Twee plafonds en tarieven**:
 
@@ -64,7 +64,7 @@ Vermindering voor stortingen op een **erkend pensioenspaarcontract** (bij bank o
 
 ## 🔢 Langetermijnsparen
 
-Vermindering voor **premies van levensverzekeringen** (individuele schuldsaldoverzekering, ouderdomsverzekering) en **kapitaalaflossingen van hypothecaire leningen** voor een **niet-eigen** woning ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/1, 1°]]).
+Vermindering voor **premies van levensverzekeringen** (individuele schuldsaldoverzekering, ouderdomsverzekering) en **kapitaalaflossingen van hypothecaire leningen** voor een **niet-eigen** woning (WIB92 art. 145/1, 1°).
 
 **Tarief**: **30%** van de bestedingen, met geïndexeerd plafond.
 
@@ -80,7 +80,7 @@ Vermindering voor **premies van levensverzekeringen** (individuele schuldsaldove
 
 ## 🔢 Giften
 
-Vermindering voor giften aan **erkende instellingen** (cultuur, wetenschap, ontwikkelingssamenwerking, hulporganisaties, …) ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/33]]).
+Vermindering voor giften aan **erkende instellingen** (cultuur, wetenschap, ontwikkelingssamenwerking, hulporganisaties, …) (WIB92 art. 145/33).
 
 **Tarief**: **45%** van het gegeven bedrag.
 
@@ -112,7 +112,7 @@ Vermindering voor giften aan **erkende instellingen** (cultuur, wetenschap, ontw
 
 ## 🔢 Kinderoppas
 
-Vermindering voor **uitgaven voor kinderoppas** van kinderen jonger dan 14 jaar (of 21 jaar bij persoon met handicap) ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/35]]).
+Vermindering voor **uitgaven voor kinderoppas** van kinderen jonger dan 14 jaar (of 21 jaar bij persoon met handicap) (WIB92 art. 145/35).
 
 **Tarief**: **45%** van het bedrag, met plafond per kind per dag.
 
@@ -145,7 +145,7 @@ Verminderingen voor **werkgevers** die werknemers tewerkstellen onder specifieke
 
 ## 🔢 Vermindering vervangingsinkomsten
 
-**Bijzondere vermindering** voor pensioenen, werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen — bedoeld om de fiscale druk op inactieve belastingplichtigen te verzachten ([[bronnen/wetteksten/II-wib92|WIB92 art. 146-154]]).
+**Bijzondere vermindering** voor pensioenen, werkloosheidsuitkeringen, ziekte- en invaliditeitsuitkeringen — bedoeld om de fiscale druk op inactieve belastingplichtigen te verzachten (WIB92 art. 146-154).
 
 **Werking**: berekend op de **belastbare basisbelasting** voor de vervangingsinkomsten — degressief in functie van het totaal belastbaar inkomen.
 
@@ -166,7 +166,7 @@ Verminderingen voor **werkgevers** die werknemers tewerkstellen onder specifieke
 
 ## 🔢 Tax shelter — investeringen starters en groeiende vennootschappen
 
-Vermindering voor **inschrijvingen op kapitaal van startende of groeiende vennootschappen** ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/26 en 145/27]]).
+Vermindering voor **inschrijvingen op kapitaal van startende of groeiende vennootschappen** (WIB92 art. 145/26 en 145/27).
 
 | Type | Tarief | Plafond per investeerder |
 |---|---|---|
@@ -186,7 +186,7 @@ Vermindering voor **inschrijvingen op kapitaal van startende of groeiende vennoo
 > [!warning]- Tax shelter aandelen mogen niet vervroegd verkocht worden zonder fiscale terugname
 > ❌ *"Ik heb in 2022 € 50 000 ingeschreven op een starter (45% × € 50 000 = € 22 500 vermindering ontvangen). In 2025 verkoop ik mijn aandelen — geen probleem want € 22 500 zit al in mijn zak."*
 >
-> Bij verkoop van de Tax Shelter-aandelen **vóór** de wettelijke aanhoudingstermijn (4 jaar) volgt **terugname** van de eerder verkregen vermindering, **pro rata** van de niet-aanhoudingstermijn ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/27]]). In dit voorbeeld: aandelen 3 jaar aangehouden van 4 vereiste = ¾ behouden, ¼ teruggegeven = € 5 625 belastingverhoging in inkomstenjaar 2025. Strategisch: aandelen pas verkopen **na** de 4 jaar.
+> Bij verkoop van de Tax Shelter-aandelen **vóór** de wettelijke aanhoudingstermijn (4 jaar) volgt **terugname** van de eerder verkregen vermindering, **pro rata** van de niet-aanhoudingstermijn (WIB92 art. 145/27). In dit voorbeeld: aandelen 3 jaar aangehouden van 4 vereiste = ¾ behouden, ¼ teruggegeven = € 5 625 belastingverhoging in inkomstenjaar 2025. Strategisch: aandelen pas verkopen **na** de 4 jaar.
 >
 > 🤖 *AI-aanvulling*
 
@@ -194,7 +194,7 @@ Vermindering voor **inschrijvingen op kapitaal van startende of groeiende vennoo
 
 ## 🔢 Eigen aandelen werknemer
 
-Vermindering voor werknemers die **inschrijven op aandelen van hun eigen werkgever** binnen een aandeelhoudersplan ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/2]]).
+Vermindering voor werknemers die **inschrijven op aandelen van hun eigen werkgever** binnen een aandeelhoudersplan (WIB92 art. 145/2).
 
 **Tarief**: 30% × inschrijving.
 **Plafond**: ~ € 850 per werknemer per jaar (cijferzakboekje aj. 2026, indicatief).
@@ -204,7 +204,7 @@ Vermindering voor werknemers die **inschrijven op aandelen van hun eigen werkgev
 
 ## 🔢 Vermindering werkgeversbijdrage groepsverzekering
 
-De werkgeversbijdrage in een **groepsverzekering** (tweede pensioenpijler) is **belastbaar als VAA** bij de werknemer — maar **80% wordt teruggegeven** als belastingvermindering ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/1, 2°]]).
+De werkgeversbijdrage in een **groepsverzekering** (tweede pensioenpijler) is **belastbaar als VAA** bij de werknemer — maar **80% wordt teruggegeven** als belastingvermindering (WIB92 art. 145/1, 2°).
 
 **Mechanisme**:
 - Bijdrage werkgever: € 5 000 → belastbaar als VAA
@@ -247,7 +247,7 @@ Kenniselementen:
 > >
 > > **Geen vermindering — het volledige bedrag valt buiten het standaardplafond.**
 > >
-> > Door overschrijding van het standaardplafond ~ € 1 020 **zonder** uitdrukkelijke keuze voor het verhoogd plafond (~ € 1 310 aan 25%), is de vermindering volledig **uitgesloten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/8]]). Hij verliest 30% × € 1 020 = € 306 die hij wél had gekregen bij correcte storting van € 1 020. Strategie volgend jaar: ofwel storten exact € 1 020 (30% = € 306), ofwel uitdrukkelijk kiezen voor verhoogd plafond + storten € 1 310 (25% = € 327,50). Bij twijfel: storten € 1 020 — de marginale meeropbrengst van het verhoogd plafond is beperkt.
+> > Door overschrijding van het standaardplafond ~ € 1 020 **zonder** uitdrukkelijke keuze voor het verhoogd plafond (~ € 1 310 aan 25%), is de vermindering volledig **uitgesloten** (WIB92 art. 145/8). Hij verliest 30% × € 1 020 = € 306 die hij wél had gekregen bij correcte storting van € 1 020. Strategie volgend jaar: ofwel storten exact € 1 020 (30% = € 306), ofwel uitdrukkelijk kiezen voor verhoogd plafond + storten € 1 310 (25% = € 327,50). Bij twijfel: storten € 1 020 — de marginale meeropbrengst van het verhoogd plafond is beperkt.
 > >
 > > *Zie: [[belastingverminderingen-federaal#-pensioensparen|Pensioensparen]]*
 >
@@ -261,7 +261,7 @@ Kenniselementen:
 > >
 > > **Nee — alleen giften aan erkende instellingen geven recht op vermindering.**
 > >
-> > De fiscale erkenning door de FOD Financiën is een **voorwaarde** voor de federale vermindering ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/33]]). De erkenning waarborgt dat de instelling werkelijk in het algemeen belang werkt en niet voor private bevoordeling. Lokale buurtverenigingen zonder erkenning kunnen hun leden niet helpen om hun gift fiscaal te recupereren — wel kunnen ze de erkenning aanvragen bij de FOD voor toekomstige jaren. Strategisch: bij meerdere giften — kiezen voor erkende instellingen om 45% te recupereren.
+> > De fiscale erkenning door de FOD Financiën is een **voorwaarde** voor de federale vermindering (WIB92 art. 145/33). De erkenning waarborgt dat de instelling werkelijk in het algemeen belang werkt en niet voor private bevoordeling. Lokale buurtverenigingen zonder erkenning kunnen hun leden niet helpen om hun gift fiscaal te recupereren — wel kunnen ze de erkenning aanvragen bij de FOD voor toekomstige jaren. Strategisch: bij meerdere giften — kiezen voor erkende instellingen om 45% te recupereren.
 > >
 > > *Zie: [[belastingverminderingen-federaal#-giften|Giften]]*
 >
@@ -275,7 +275,7 @@ Kenniselementen:
 > >
 > > **Nee — alleen erkende kinderopvang komt in aanmerking.**
 > >
-> > De vermindering voor kinderoppas vereist een **erkende organisator** (crèche, onthaalmoeder met BKO-erkenning, schoolvakantieopvang) ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/35]]). Privéoppas door grootouders, andere gezinsleden of vrienden — hoe nuttig ook — geeft **geen** recht op vermindering. De vergoeding aan de grootmoeder is bovendien geen aftrekbare beroepskost. Wel kan de moeder de toeslag voor kind ten laste behouden + de verhoogde toeslag voor kind < 3 jaar zonder oppas (mits niet erkende oppasaftrek wordt geclaimd voor andere dagen).
+> > De vermindering voor kinderoppas vereist een **erkende organisator** (crèche, onthaalmoeder met BKO-erkenning, schoolvakantieopvang) (WIB92 art. 145/35). Privéoppas door grootouders, andere gezinsleden of vrienden — hoe nuttig ook — geeft **geen** recht op vermindering. De vergoeding aan de grootmoeder is bovendien geen aftrekbare beroepskost. Wel kan de moeder de toeslag voor kind ten laste behouden + de verhoogde toeslag voor kind < 3 jaar zonder oppas (mits niet erkende oppasaftrek wordt geclaimd voor andere dagen).
 > >
 > > *Zie: [[belastingverminderingen-federaal#-kinderoppas|Kinderoppas]]*
 >
@@ -289,7 +289,7 @@ Kenniselementen:
 > >
 > > **Pro rata terugname van de eerder verkregen vermindering.**
 > >
-> > Vereiste aanhoudingstermijn: 4 jaar. Werkelijk aangehouden: 3 jaar (= 75%). Pro rata terugname: 25% × € 13 500 = € 3 375 te belasten in inkomstenjaar 2025 ([[bronnen/wetteksten/II-wib92|WIB92 art. 145/27]]). Naast de fiscale terugname: eventuele meerwaarde op de aandelen kwalificeert als [[diverse-inkomsten-personenbelasting#-normaal-beheer-van-het-privévermogen|normaal beheer van het privévermogen]] (vrijgesteld) of als [[diverse-inkomsten-personenbelasting#-aanmerkelijke-deelneming-verkocht-aan-buitenlandse-vennootschap|aanmerkelijke deelneming]] (16,5%) afhankelijk van koper en deelneming. Strategisch: wachten 1 jaar tot 2026 → volledige aanhouding → geen terugname.
+> > Vereiste aanhoudingstermijn: 4 jaar. Werkelijk aangehouden: 3 jaar (= 75%). Pro rata terugname: 25% × € 13 500 = € 3 375 te belasten in inkomstenjaar 2025 (WIB92 art. 145/27). Naast de fiscale terugname: eventuele meerwaarde op de aandelen kwalificeert als [[diverse-inkomsten-personenbelasting#-normaal-beheer-van-het-privévermogen|normaal beheer van het privévermogen]] (vrijgesteld) of als [[diverse-inkomsten-personenbelasting#-aanmerkelijke-deelneming-verkocht-aan-buitenlandse-vennootschap|aanmerkelijke deelneming]] (16,5%) afhankelijk van koper en deelneming. Strategisch: wachten 1 jaar tot 2026 → volledige aanhouding → geen terugname.
 > >
 > > *Zie: [[belastingverminderingen-federaal#-tax-shelter-investeringen-starters-en-groeiende-vennootschappen|Tax Shelter]]*
 >

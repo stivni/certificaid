@@ -16,7 +16,7 @@ Het opzetten, actueel houden en naleven van de structurele AWW-compliance van ee
 > [!info]- Grondslag van deze werkwijze (🤖 20% · ⚖️ 80%)
 >
 > De procedure combineert twee bronnen:
-> - **Wettelijke verplichting** (stap 1–4): het intern beleid, de AMLCO-aanduiding en de opleiding zijn volledig genormeerd in [[bronnen/wetteksten/XVII-antiwitwaswet#art-8|AWW art. 8]] en [[bronnen/wetteksten/XVII-antiwitwaswet#art-9|AWW art. 9]] — de elementen zijn niet vrij te kiezen.
+> - **Wettelijke verplichting** (stap 1–4): het intern beleid, de AMLCO-aanduiding en de opleiding zijn volledig genormeerd in AWW art. 8 en AWW art. 9 — de elementen zijn niet vrij te kiezen.
 > - **Geconstrueerde stappen** (stap 3 — prioritering): welke sectoren of cliënttypes prioritair in het risicoprofiel opnemen, is analytische praktijk 🤖.
 >
 > 🤖 *AI-aanvulling — exacte inhoud van het ITAA AWW-reglement (punt 4.1) verificeerbaar via itaa.be*
@@ -31,11 +31,11 @@ Het opzetten, actueel houden en naleven van de structurele AWW-compliance van ee
 > 📤 **Uitkomst**:
 > - Ja/nee: is dit kantoor of deze persoon een [[antiwitwaswetgeving#-onderworpen-entiteit|onderworpen entiteit]]?
 
-**Waarom**: de AWW-verplichtingen — inclusief intern beleid en AMLCO — gelden uitsluitend voor [[antiwitwaswetgeving#-onderworpen-entiteit|onderworpen entiteiten]] ([[bronnen/wetteksten/XVII-antiwitwaswet#art-5|ITAA-LEX XVII · AWW art. 5]]). Een gecertificeerd accountant of belastingadviseur die zelfstandig werkt of als kantoor actief is, is een onderworpen entiteit. Een interne accountant in loondienst bij een niet-onderworpen werkgever is dat in beginsel niet — zijn werkgever is dat mogelijk wel.
+**Waarom**: de AWW-verplichtingen — inclusief intern beleid en AMLCO — gelden uitsluitend voor [[antiwitwaswetgeving#-onderworpen-entiteit|onderworpen entiteiten]] (ITAA-LEX XVII · AWW art. 5). Een gecertificeerd accountant of belastingadviseur die zelfstandig werkt of als kantoor actief is, is een onderworpen entiteit. Een interne accountant in loondienst bij een niet-onderworpen werkgever is dat in beginsel niet — zijn werkgever is dat mogelijk wel.
 
 **Uitzondering — loondienst**: werkt de beroepsbeoefenaar in loondienst bij een rechtspersoon die zelf geen onderworpen entiteit is, dan vallen de AWW-verplichtingen bij die rechtspersoon, niet bij de individuele werknemer.
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-5|ITAA-LEX XVII · AWW art. 5]])*
+*(Grondslag: ITAA-LEX XVII · AWW art. 5)*
 
 ---
 
@@ -50,7 +50,7 @@ Het opzetten, actueel houden en naleven van de structurele AWW-compliance van ee
 
 **Waarom**: zonder een aangewezen AMLCO ontbreekt de interne rapporteringsstructuur die de drie situaties afdekt waarbij intern verslag verplicht is (atypische verrichtingen, risicobeoordeling niet mogelijk, weigering cliënt).
 
-De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke persoon (AMLCO)]] is de persoon die toeziet op de naleving van de AWW binnen het kantoor ([[bronnen/wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]]). Bij een éénpersoonskantoor is de beroepsbeoefenaar zelf de AMLCO. Bij een grotere structuur wordt een vennoot, zaakvoerder of bestuurder aangeduid.
+De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke persoon (AMLCO)]] is de persoon die toeziet op de naleving van de AWW binnen het kantoor (ITAA-LEX XVII · AWW art. 9). Bij een éénpersoonskantoor is de beroepsbeoefenaar zelf de AMLCO. Bij een grotere structuur wordt een vennoot, zaakvoerder of bestuurder aangeduid.
 
 **Taken van de AMLCO:**
 - Intern verslagen opstellen bij atypische verrichtingen, bij onmogelijkheid van risicobeoordeling, en bij weigering van een cliënt
@@ -65,7 +65,7 @@ De [[antiwitwaswetgeving#-verantwoordelijke-persoon-amlco|verantwoordelijke pers
 >
 > 🤖 *AI-aanvulling — verifieer via ITAA AWW-reglement punt 3*
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-9|ITAA-LEX XVII · AWW art. 9]])*
+*(Grondslag: ITAA-LEX XVII · AWW art. 9)*
 
 ---
 
@@ -105,7 +105,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 >
 > 🤖 *AI-aanvulling*
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-16|ITAA-LEX XVII · AWW art. 16]]; 🤖 analytische praktijk voor de prioritering)*
+*(Grondslag: ITAA-LEX XVII · AWW art. 16; 🤖 analytische praktijk voor de prioritering)*
 
 ---
 
@@ -120,7 +120,7 @@ De [[antiwitwaswetgeving#-risicogebaseerde-benadering|risicogebaseerde benaderin
 
 **Waarom**: het intern reglement is het centrale instrument waarmee alle medewerkers weten hoe ze de AWW-verplichtingen in de dagelijkse praktijk moeten naleven. Zonder formeel reglement kan het kantoor zijn naleving niet aantonen aan de toezichthouder.
 
-Het intern AWW-reglement moet gedragslijnen en procedures bevatten voor ([[bronnen/wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8]]):
+Het intern AWW-reglement moet gedragslijnen en procedures bevatten voor (ITAA-LEX XVII · AWW art. 8):
 1. **Cliëntacceptatie**: wanneer aanvaarden, wanneer weigeren, welk CDD-niveau?
 2. **Cliëntenonderzoek (CDD)**: identificatie, verificatie, doorlopende waakzaamheid
 3. **Bewaring van documenten**: welke documenten, hoe lang, hoe beveiligd?
@@ -150,7 +150,7 @@ Het intern AWW-reglement moet gedragslijnen en procedures bevatten voor ([[bronn
 >
 > 🤖 *AI-aanvulling*
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8]])*
+*(Grondslag: ITAA-LEX XVII · AWW art. 8)*
 
 ---
 
@@ -164,13 +164,13 @@ Het intern AWW-reglement moet gedragslijnen en procedures bevatten voor ([[bronn
 
 **Waarom**: de AWW-verplichtingen rusten op het kantoor als onderworpen entiteit, maar worden in de praktijk uitgevoerd door individuele medewerkers. Als een medewerker een atypische verrichting niet herkent omdat hij niet getraind is, draagt het kantoor de gevolgen.
 
-De opleiding dekt minstens ([[bronnen/wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8, 3°]]):
+De opleiding dekt minstens (ITAA-LEX XVII · AWW art. 8, 3°):
 - Wat is witwassen van geld? Wat is financiering van terrorisme?
 - Hoe herken je een atypische verrichting?
 - Hoe meld je intern aan de AMLCO?
 - Wat is het tipping-off verbod en wat mag je niet zeggen aan de cliënt?
 
-*(Grondslag: [[bronnen/wetteksten/XVII-antiwitwaswet#art-8|ITAA-LEX XVII · AWW art. 8, 3°]])*
+*(Grondslag: ITAA-LEX XVII · AWW art. 8, 3°)*
 
 ---
 

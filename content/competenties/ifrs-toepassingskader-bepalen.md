@@ -6,7 +6,7 @@ bouwversie: 2
 programmaonderdelen: ["1.5", "1.4"]
 itaa-lex-secties:
   - EU (Verordening 1606/2002, Richtlijn 2013/34/EU)
-  - XV (WVV art. 3:1, 3:30; KB WVV art. 3:1)
+  - XV (WVV art. 3:1; KB WVV art. 3:1, 3:104)
 procedure-grondslag: "Verordening (EG) 1606/2002 + KB WVV — wettelijk genormeerd toepassingskader"
 ---
 
@@ -16,7 +16,7 @@ Voor een gegeven entiteit vaststellen welk **boekhoudkader** van toepassing is o
 
 > [!info]- Grondslag van deze werkwijze (⚖️ 100%)
 >
-> Deze werkwijze volgt rechtstreeks uit [Verordening (EG) 1606/2002](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32002R1606) art. 4-5 (toepassingsgebied IFRS) en [[bronnen/wetteksten/XV-KB-wvv|KB WVV]] art. 3:1 en 3:30. Geen analytische conventie — de regels zijn dwingend en gespecificeerd in de wettekst.
+> Deze werkwijze volgt rechtstreeks uit [Verordening (EG) 1606/2002](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32002R1606) art. 4-5 (toepassingsgebied IFRS) en KB WVV art. 3:1 en KB WVV art. 3:104. Geen analytische conventie — de regels zijn dwingend en gespecificeerd in de wettekst.
 
 ## Aanbevolen werkwijze
 
@@ -31,8 +31,8 @@ Voor een gegeven entiteit vaststellen welk **boekhoudkader** van toepassing is o
 
 **Waarom**: het toepassingskader hangt eerst en vooral af van het *type* jaarrekening, niet van de entiteit zelf. Eenzelfde groep maakt zowel een enkelvoudige als een geconsolideerde jaarrekening, met mogelijk verschillende kaders.
 
-- **Enkelvoudige jaarrekening**: de jaarrekening van één rechtspersoon op basis van haar eigen boekhouding — wettelijk verplicht voor elke vennootschap met rechtspersoonlijkheid en elke vzw die boekhoudplichtig is ([[bronnen/wetteksten/XV-wvv#art-31|WVV art. 3:1]])
-- **Geconsolideerde jaarrekening**: jaarrekening die de moedervennootschap met haar dochterondernemingen alsof het één economische entiteit betreft consolideert ([[bronnen/wetteksten/XV-wvv|WVV art. 3:23]])
+- **Enkelvoudige jaarrekening**: de jaarrekening van één rechtspersoon op basis van haar eigen boekhouding — wettelijk verplicht voor elke vennootschap met rechtspersoonlijkheid en elke vzw die boekhoudplichtig is (WVV art. 3:1)
+- **Geconsolideerde jaarrekening**: jaarrekening die de moedervennootschap met haar dochterondernemingen alsof het één economische entiteit betreft consolideert (WVV art. 3:23)
 
 > [!info]- Concreet: KBC Group NV
 >
@@ -91,7 +91,7 @@ Voor een gegeven entiteit vaststellen welk **boekhoudkader** van toepassing is o
 ─────────────────── ────────────────────── ───────────────────────
 Geconsolideerd      IFRS VERPLICHT          IFRS OPTIONEEL — eens
                     (Verord. 1606/2002      gekozen onomkeerbaar
-                    art. 4)                 (KB WVV art. 3:30)
+                    art. 4)                 (KB WVV art. 3:104 §2)
 
 Enkelvoudig         Belgisch GAAP           Belgisch GAAP
 (statutair BE)      (KB WVV — IFRS niet     (KB WVV — IFRS niet
@@ -100,8 +100,8 @@ Enkelvoudig         Belgisch GAAP           Belgisch GAAP
 
 Toelichting per cel:
 
-- **Genoteerd, geconsolideerd**: IFRS is **verplicht** sinds 2005 ([[ifrs-rechtskader#-verordening-eg-nr-16062002|Verordening 1606/2002]]). De entiteit kan niet kiezen.
-- **Niet-genoteerd, geconsolideerd**: IFRS is **optioneel**. België heeft de lidstaatoptie van Verord. 1606/2002 art. 5 geactiveerd via [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:30]]. **Eenmaal gekozen** is de keuze in principe onomkeerbaar — terugkeer naar Belgisch GAAP enkel mogelijk in uitzonderlijke omstandigheden, met motivatie.
+- **Genoteerd, geconsolideerd**: IFRS is **verplicht** sinds 2005 ([[ifrs-rechtskader#-ias-verordening|Verordening 1606/2002]]). De entiteit kan niet kiezen.
+- **Niet-genoteerd, geconsolideerd**: IFRS is **optioneel**. De keuze is geregeld in KB WVV art. 3:104 §2 — het bestuursorgaan kan beslissen om de geconsolideerde jaarrekening op te stellen volgens de door de EU aangenomen IFRS-normen. **Eenmaal gekozen** is de keuze in principe onomkeerbaar — terugkeer naar Belgisch GAAP enkel mogelijk in uitzonderlijke omstandigheden, met motivatie.
 - **Enkelvoudig (Belgische statutaire jaarrekening)**: **altijd Belgisch GAAP**, ongeacht notering. IFRS is **niet toegestaan** voor de Belgische statutaire jaarrekening, omdat die als basis dient voor:
   - Dividenduitkering (uitkeerbaar resultaat onder Belgisch concept)
   - Vennootschapsbelasting (fiscale balans afgeleid van boekhoudkundige balans)
@@ -120,7 +120,7 @@ Toelichting per cel:
 > Een Belgische niet-genoteerde groep met dochters in 6 EU-landen overweegt IFRS voor de geconsolideerde jaarrekening, omdat haar bankenpool dat als rapporteringsstandaard verlangt voor een nieuwe €100M kredietlijn.
 >
 > Beslissingstraject:
-> 1. KB WVV art. 3:30 staat de keuze toe — **OK**
+> 1. KB WVV art. 3:104 §2 staat de keuze toe — **OK**
 > 2. Eenmaal gekozen, blijft de IFRS-keuze in principe onomkeerbaar — financiële impact moet vooraf worden ingeschat (extra rapporteringskost, training, interne audit)
 > 3. **Statutaire jaarrekening** van de moeder en alle Belgische dochters blijft Belgisch GAAP — hier verandert niets
 >
@@ -176,8 +176,8 @@ Beantwoord in de conclusie:
 > - Elke Belgische dochter: eigen statutaire jaarrekening Belgisch GAAP, neerlegging NBB
 >
 > **Grondslag**:
-> - [[ifrs-rechtskader#-verordening-eg-nr-16062002|Verordening 1606/2002]] art. 4 — IFRS verplicht voor geconsolideerde rekeningen van EU-genoteerde vennootschappen
-> - [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:1]] — statutaire jaarrekening volgens Belgisch GAAP, IFRS niet toegestaan
+> - [[ifrs-rechtskader#-ias-verordening|Verordening 1606/2002]] art. 4 — IFRS verplicht voor geconsolideerde rekeningen van EU-genoteerde vennootschappen
+> - KB WVV art. 3:1 — statutaire jaarrekening volgens Belgisch GAAP, IFRS niet toegestaan
 >
 > **Redenering**: Solvay NV is genoteerd → IFRS verplicht voor consolidatie. De statutaire jaarrekening blijft Belgisch GAAP omdat dividend, vennootschapsbelasting en alarmbelprocedure die als referentie nemen. Beide jaarrekeningen worden gepubliceerd, met aparte controleverklaringen.
 >
@@ -193,7 +193,7 @@ Beantwoord in de conclusie:
 >
 > **Grondslag**:
 > - [[ifrs-rechtskader#-toepassingsgebied-van-ifrs-in-belgië|Toepassingsgebied IFRS in België]]
-> - [[bronnen/wetteksten/XV-KB-wvv|KB WVV art. 3:30]] — IFRS is een optie voor niet-genoteerde geconsolideerde rekeningen
+> - KB WVV art. 3:104 §2 — IFRS is een optie voor niet-genoteerde geconsolideerde rekeningen
 >
 > **Redenering**: zonder noteringsplicht en zonder externe vereiste, is Belgisch GAAP de meest economische keuze. IFRS-conversie zou jaarlijks ~5-10% extra rapporteringskost veroorzaken zonder duidelijke meerwaarde — wel een serieuze drempel om later via IPO de markten op te gaan.
 >
@@ -206,7 +206,7 @@ Beantwoord in de conclusie:
 2. **Notering** verifiëren — gereglementeerde EU-markt of niet
 3. Het **kader** afleiden uit de matrix (Belgisch GAAP / IFRS verplicht / IFRS optioneel)
 4. Bevestigen dat de **statutaire jaarrekening** altijd Belgisch GAAP blijft
-5. Verwijzen naar de wettelijke grondslag: Verordening 1606/2002 of KB WVV art. 3:30
+5. Verwijzen naar de wettelijke grondslag: Verordening 1606/2002 of KB WVV art. 3:104 §2
 
 **Voorbeeldvragen**
 
@@ -219,7 +219,7 @@ Beantwoord in de conclusie:
 > > **Twee jaarrekeningen, twee kaders.**
 > >
 > > 1. **Geconsolideerde jaarrekening: IFRS verplicht** krachtens [Verordening (EG) 1606/2002](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32002R1606) art. 4 — gevolg van notering op gereglementeerde EU-markt.
-> > 2. **Enkelvoudige (statutaire) jaarrekening: Belgisch GAAP** volgens [[bronnen/wetteksten/XV-KB-wvv|KB WVV]] — IFRS is **niet** toegestaan voor de Belgische statutaire jaarrekening, omdat die als basis dient voor dividend, vennootschapsbelasting, alarmbelprocedure en groottecriteria.
+> > 2. **Enkelvoudige (statutaire) jaarrekening: Belgisch GAAP** volgens KB WVV art. 3:1 — IFRS is **niet** toegestaan voor de Belgische statutaire jaarrekening, omdat die als basis dient voor dividend, vennootschapsbelasting, alarmbelprocedure en groottecriteria.
 > >
 > > De controleverklaring van de commissaris staat in beide jaarrekeningen — twee controles, twee referentiekaders.
 > >

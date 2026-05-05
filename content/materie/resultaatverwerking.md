@@ -18,7 +18,7 @@ De resultaatverwerking is de boekhoudkundige en juridische verwerking van het re
 
 ## 📌 Resultaat van het boekjaar vóór belasting (rubriek VI)
 
-Het brutoresultaat van de bedrijfs- en financiële activiteiten vóór aftrek van belastingen en voor aanpassingen aan belastingvrije en uitgestelde belastingsposten. In het schema van de resultatenrekening is dit de som van het bedrijfsresultaat en het financiële resultaat ([[bronnen/wetteksten/XV-KB-wvv#art-n3|KB WVV bijlage 3, rubriek VI]]).
+Het brutoresultaat van de bedrijfs- en financiële activiteiten vóór aftrek van belastingen en voor aanpassingen aan belastingvrije en uitgestelde belastingsposten. In het schema van de resultatenrekening is dit de som van het bedrijfsresultaat en het financiële resultaat (KB WVV bijlage 3, rubriek VI).
 
 Dit bedrag is het vertrekpunt voor de verdere fiscale en boekhoudkundige verwerkingsstappen.
 
@@ -26,7 +26,7 @@ Dit bedrag is het vertrekpunt voor de verdere fiscale en boekhoudkundige verwerk
 
 ## 📌 Belasting op het resultaat (rubriek VIII)
 
-De belasting op het resultaat omvat twee componenten ([[bronnen/wetteksten/XV-KB-wvv#art-n3|KB WVV bijlage 3, rubriek VIII]]):
+De belasting op het resultaat omvat twee componenten (KB WVV bijlage 3, rubriek VIII):
 
 - **VIII.A Belastingen**: de verschuldigde vennootschapsbelasting of rechtspersonenbelasting — berekend op de belastbare grondslag van het boekjaar, verminderd met reeds betaalde voorafbetalingen en verrekenbare voorheffingen. Het saldo wordt geboekt als schuld (rekening 450) of als vordering (rekening 412) afhankelijk van of er nog iets verschuldigd dan wel terugbetaalbaar is.
 - **VIII.B Regulariseringen van belastingen en terugnemingen van voorzieningen voor belastingen**: bijsturingen ten opzichte van eerder geraamde bedragen, of vrijval van eerder aangelegde belastingprovisies.
@@ -97,7 +97,7 @@ Te bestemmen resultaat van het boekjaar (9904)
 = Te bestemmen winst (verlies) (9905)
 ```
 
-Dit totaal is het bedrag waarover de algemene vergadering beslist. De verwerking ervan staat in de **resultaatverwerking** — een afzonderlijk schema dat deel uitmaakt van de jaarrekening ([[bronnen/wetteksten/XV-KB-wvv#art-n3|KB WVV bijlage 3]]).
+Dit totaal is het bedrag waarover de algemene vergadering beslist. De verwerking ervan staat in de **resultaatverwerking** — een afzonderlijk schema dat deel uitmaakt van de jaarrekening (KB WVV bijlage 3).
 
 ---
 
@@ -141,17 +141,17 @@ Het standaardtarief roerende voorheffing op dividenden is 30% (⚠️ te verifi�
 
 ## ⚖️ Bevoegdheid over de winstbestemming
 
-De algemene vergadering beslist over de winstbestemming. Bij de **BV** is het de gewone algemene vergadering die de jaarrekening goedkeurt en tegelijkertijd beslist over de winstbestemming ([[bronnen/wetteksten/XV-wvv#art-598|WVV art. 5:98]]). Bij de **NV** geldt hetzelfde principe.
+De algemene vergadering beslist over de winstbestemming. Bij de **BV** is het de gewone algemene vergadering die de jaarrekening goedkeurt en tegelijkertijd beslist over de winstbestemming (WVV art. 5:98). Bij de **NV** geldt hetzelfde principe.
 
 Het bestuursorgaan stelt een voorstel tot winstbestemming voor (opgenomen in het jaarverslag of in het dossier voor de algemene vergadering), maar de **beslissing** ligt bij de aandeelhouders.
 
-**Uitzondering — interimdividend**: de statuten kunnen aan het bestuursorgaan de bevoegdheid verlenen om een interimdividend uit te keren vóór de goedkeuring van de jaarrekening. Dit is enkel mogelijk voor NV's en aan strikte voorwaarden gebonden, waaronder een tussentijdse staat van activa en passiva beoordeeld door de commissaris ([[bronnen/wetteksten/XV-wvv#art-7213|WVV art. 7:213]]).
+**Uitzondering — interimdividend**: de statuten kunnen aan het bestuursorgaan de bevoegdheid verlenen om een interimdividend uit te keren vóór de goedkeuring van de jaarrekening. Dit is enkel mogelijk voor NV's en aan strikte voorwaarden gebonden, waaronder een tussentijdse staat van activa en passiva beoordeeld door de commissaris (WVV art. 7:213).
 
 ---
 
 ## ⚖️ Wettelijke reservevorming (NV)
 
-Bij de NV is de vorming van een wettelijke reserve verplicht: jaarlijks wordt ten minste **één twintigste (5%) van de nettowinst** toegevoegd aan de wettelijke reserve, totdat die reserve een **tiende (10%) van het kapitaal** bereikt ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]]).
+Bij de NV is de vorming van een wettelijke reserve verplicht: jaarlijks wordt ten minste **één twintigste (5%) van de nettowinst** toegevoegd aan de wettelijke reserve, totdat die reserve een **tiende (10%) van het kapitaal** bereikt (WVV art. 7:211).
 
 - De nettowinst is het resultaat van het boekjaar na belastingen (rubriek IX), vóór aanpassingen belastingvrije reserves.
 - Zodra de 10%-grens bereikt is, vervalt de dotatieverplichting.
@@ -185,7 +185,7 @@ Als de reserve wordt vrijgemaakt (bv. dividend uitkeren, incorporeren in kapitaa
 
 ## 📋 Schema resultaatverwerking (volledig schema — NV/BV)
 
-Het volledige winstverdelingsschema volgt de structuur van bijlage 3 bij het KB WVV. In de jaarrekening verschijnt dit als een apart luik na de resultatenrekening ([[bronnen/wetteksten/XV-KB-wvv#art-n3|KB WVV bijlage 3]]):
+Het volledige winstverdelingsschema volgt de structuur van bijlage 3 bij het KB WVV. In de jaarrekening verschijnt dit als een apart luik na de resultatenrekening (KB WVV bijlage 3):
 
 ```
 RESULTATENREKENING (vereenvoudigd)
@@ -295,7 +295,7 @@ F. Uit te keren winst
 
 ## 🔢 Berekening nettoactief voor uitkeringstest
 
-Zowel de BV als de NV gebruiken het **nettoactief** als referentiemaatstaf voor hun uitkeringstest. De definitie is gelijk voor beide vennootschapsvormen ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]; [[bronnen/wetteksten/XV-wvv#art-7212|WVV art. 7:212]]):
+Zowel de BV als de NV gebruiken het **nettoactief** als referentiemaatstaf voor hun uitkeringstest. De definitie is gelijk voor beide vennootschapsvormen (WVV art. 5:142; WVV art. 7:212):
 
 ```
 Nettoactief = Totaal activa
@@ -307,33 +307,33 @@ Nettoactief = Totaal activa
 
 Dit bedrag correspondeert in de praktijk met het **eigen vermogen** zoals weergegeven op de balans — minus eventuele niet-afgeschreven oprichtingskosten die nog op het actief staan.
 
-**Bijzonderheid bij herwaarderingsmeerwaarden**: het niet-afgeschreven gedeelte van herwaarderingsmeerwaarden geldt als **onbeschikbaar eigen vermogen**. Bij de BV betekent dit dat de nettoactief-test ook rekening houdt met dit onbeschikbare deel: een uitkering waardoor het nettoactief daalt onder de onbeschikbare reserves (inclusief niet-afgeschreven herwaarderingsmeerwaarden) is verboden ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]).
+**Bijzonderheid bij herwaarderingsmeerwaarden**: het niet-afgeschreven gedeelte van herwaarderingsmeerwaarden geldt als **onbeschikbaar eigen vermogen**. Bij de BV betekent dit dat de nettoactief-test ook rekening houdt met dit onbeschikbare deel: een uitkering waardoor het nettoactief daalt onder de onbeschikbare reserves (inclusief niet-afgeschreven herwaarderingsmeerwaarden) is verboden (WVV art. 5:142).
 
 ---
 
 ## 🔒 Uitkeringstest BV — dubbele test
 
-Elke uitkering door een BV (dividend, terugbetaling inbreng, inkoop eigen aandelen) is slechts toegelaten als aan **beide** volgende tests is voldaan ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142–143]]):
+Elke uitkering door een BV (dividend, terugbetaling inbreng, inkoop eigen aandelen) is slechts toegelaten als aan **beide** volgende tests is voldaan (WVV art. 5:142–143):
 
-**1. Netto-actieftest** ([[bronnen/wetteksten/XV-wvv#art-5142|WVV art. 5:142]]):
+**1. Netto-actieftest** (WVV art. 5:142):
 Geen uitkering is toegelaten indien het [[nettoactief|nettoactief]] negatief is of door de uitkering negatief zou worden. Evenmin als het nettoactief daalt tot onder het onbeschikbaar eigen vermogen.
 
-**2. Liquiditeitstest** ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]):
+**2. Liquiditeitstest** (WVV art. 5:143):
 Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking nadat het **bestuursorgaan** formeel heeft vastgesteld dat de vennootschap na de uitkering gedurende **minstens twaalf maanden** haar schulden kan voldoen naarmate ze opeisbaar worden. Dit oordeel wordt vastgelegd in een **verslag dat niet wordt neergelegd**.
 
 Bij vennootschappen met een commissaris beoordeelt die de historische en prospectieve gegevens van dit verslag.
 
-**Aansprakelijkheid**: als leden van het bestuursorgaan bij het nemen van het liquiditeitstest-besluit wisten of behoorden te weten dat de vennootschap na de uitkering haar schulden niet meer zou kunnen betalen, zijn zij **hoofdelijk aansprakelijk** voor alle schade ([[bronnen/wetteksten/XV-wvv#art-5144|WVV art. 5:144]]). Onregelmatige uitkeringen kunnen worden teruggevorderd, ongeacht de goede trouw van de aandeelhouder.
+**Aansprakelijkheid**: als leden van het bestuursorgaan bij het nemen van het liquiditeitstest-besluit wisten of behoorden te weten dat de vennootschap na de uitkering haar schulden niet meer zou kunnen betalen, zijn zij **hoofdelijk aansprakelijk** voor alle schade (WVV art. 5:144). Onregelmatige uitkeringen kunnen worden teruggevorderd, ongeacht de goede trouw van de aandeelhouder.
 
 ---
 
 ## 🔒 Uitkeringstest NV — netto-actieftest
 
-Bij de NV geldt één test: geen uitkering mag het nettoactief doen dalen onder het bedrag van het **gestorte of opgevraagde kapitaal** (het hoogste van beide) vermeerderd met alle wettelijk of statutair onbeschikbare reserves ([[bronnen/wetteksten/XV-wvv#art-7212|WVV art. 7:212]]).
+Bij de NV geldt één test: geen uitkering mag het nettoactief doen dalen onder het bedrag van het **gestorte of opgevraagde kapitaal** (het hoogste van beide) vermeerderd met alle wettelijk of statutair onbeschikbare reserves (WVV art. 7:212).
 
 De NV heeft **geen** liquiditeitstest.
 
-Aandeelhouders moeten onregelmatige uitkeringen terugstorten als zij van de onregelmatigheid op de hoogte waren of niet onkundig konden zijn ([[bronnen/wetteksten/XV-wvv#art-7214|WVV art. 7:214]]).
+Aandeelhouders moeten onregelmatige uitkeringen terugstorten als zij van de onregelmatigheid op de hoogte waren of niet onkundig konden zijn (WVV art. 7:214).
 
 ---
 
@@ -341,16 +341,16 @@ Aandeelhouders moeten onregelmatige uitkeringen terugstorten als zij van de onre
 
 Een BV keert een dividend uit op basis van een positief nettoactief na uitkering. De netto-actieftest is voldaan. Het bestuursorgaan neemt geen liquiditeitstest-besluit.
 
-De uitkering is **ongeldig**: het besluit van de algemene vergadering heeft pas uitwerking nadat het bestuursorgaan de liquiditeitstest heeft uitgevoerd en vastgelegd ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]]). De netto-actieftest is noodzakelijk maar **niet voldoende** bij een BV.
+De uitkering is **ongeldig**: het besluit van de algemene vergadering heeft pas uitwerking nadat het bestuursorgaan de liquiditeitstest heeft uitgevoerd en vastgelegd (WVV art. 5:143). De netto-actieftest is noodzakelijk maar **niet voldoende** bij een BV.
 
-Gevolg: de vennootschap kan de uitkering terugvorderen van de aandeelhouders, ook als zij te goeder trouw waren ([[bronnen/wetteksten/XV-wvv#art-5144|WVV art. 5:144]]).
+Gevolg: de vennootschap kan de uitkering terugvorderen van de aandeelhouders, ook als zij te goeder trouw waren (WVV art. 5:144).
 
 > [!warning]- BV-liquiditeitstest: bestuursorgaan beslist — niet de algemene vergadering
 > ❌ *"De algemene vergadering die het dividend goedkeurt, heeft daarmee automatisch de liquiditeitstest uitgevoerd."*
 >
 > De liquiditeitstest is een **aparte beslissing van het bestuursorgaan**, niet een automatisch gevolg van het dividendbesluit van de AV. Het bestuursorgaan maakt een afzonderlijk verslag op. Pas nadat dat verslag bestaat, heeft het AV-besluit uitwerking. Als het verslag ontbreekt, is de uitkering juridisch niet geldig — ook niet als de AV het dividend correct heeft goedgekeurd.
 >
-> ([[bronnen/wetteksten/XV-wvv#art-5143|WVV art. 5:143]])
+> (WVV art. 5:143)
 >
 > 🤖 *AI-aanvulling*
 
@@ -360,14 +360,14 @@ Gevolg: de vennootschap kan de uitkering terugvorderen van de aandeelhouders, oo
 
 Een NV maakt € 40.000 nettowinst maar de algemene vergadering besluit geen dotatie te doen aan de wettelijke reserve omdat "het niet nodig is".
 
-Als de wettelijke reserve nog niet het 10%-plafond heeft bereikt, is de dotatie **verplicht** ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]]). De AV kan de verplichting niet omzeilen via een loutere stemming. Een dividend uitkeren zonder de verplichte dotatie is een onregelmatige uitkering.
+Als de wettelijke reserve nog niet het 10%-plafond heeft bereikt, is de dotatie **verplicht** (WVV art. 7:211). De AV kan de verplichting niet omzeilen via een loutere stemming. Een dividend uitkeren zonder de verplichte dotatie is een onregelmatige uitkering.
 
 > [!warning]- Wettelijke reserve NV niet aanleggen tot plafond bereikt
 > ❌ *"De AV kan bij de NV vrij beslissen of ze al dan niet een dotatie doet aan de wettelijke reserve."*
 >
 > De dotatie aan de wettelijke reserve is een **wettelijke verplichting** zolang de reserve 10% van het geplaatst kapitaal nog niet heeft bereikt. De AV heeft geen discretie om de dotatie te omzeilen — het is geen facultatieve reservevorming maar een minimum. Pas als het plafond bereikt is, vervalt de verplichting.
 >
-> ([[bronnen/wetteksten/XV-wvv#art-7211|WVV art. 7:211]])
+> (WVV art. 7:211)
 >
 > 🤖 *AI-aanvulling*
 

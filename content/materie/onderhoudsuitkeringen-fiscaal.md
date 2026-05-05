@@ -10,7 +10,7 @@ bronnen:
 
 # Onderhoudsuitkeringen — fiscaal regime
 
-Onderhoudsuitkeringen zijn periodieke betalingen die de ene persoon verschuldigd is aan de andere op grond van een **wettelijke onderhoudsplicht** ([[bronnen/wetteksten/XI-bw-2019|BW art. 203, 207, 213]]) — meestal tussen ex-echtgenoten of tussen ouders en kinderen na scheiding. Het fiscaal regime kent een **symmetrische** behandeling: wat de schuldenaar mag aftrekken, wordt bij de begunstigde belast — maar steeds aan **80%** van het werkelijk betaalde bedrag, en strikt onder dezelfde voorwaarden.
+Onderhoudsuitkeringen zijn periodieke betalingen die de ene persoon verschuldigd is aan de andere op grond van een **wettelijke onderhoudsplicht** (BW art. 203, 207, 213) — meestal tussen ex-echtgenoten of tussen ouders en kinderen na scheiding. Het fiscaal regime kent een **symmetrische** behandeling: wat de schuldenaar mag aftrekken, wordt bij de begunstigde belast — maar steeds aan **80%** van het werkelijk betaalde bedrag, en strikt onder dezelfde voorwaarden.
 
 Het regime is een **beleidskeuze**: door de aftrek bij de schuldenaar wordt de fiscale druk verschoven naar de begunstigde, die meestal in een lagere belastingschijf zit. Cumulatie met andere fiscale voordelen (kind ten laste, fiscaal co-ouderschap) is wettelijk uitgesloten om dubbele bevoordeling te vermijden.
 
@@ -19,7 +19,7 @@ Het regime is een **beleidskeuze**: door de aftrek bij de schuldenaar wordt de f
 ## 📌 Onderhoudsuitkering
 *Pension alimentaire*
 
-Periodieke vergoeding die de ene persoon verschuldigd is aan een andere persoon **op grond van een wettelijke onderhoudsplicht** uit het [[bronnen/wetteksten/XI-bw-2019|Burgerlijk Wetboek]] — uitvoerbaar via gerechtelijke beslissing of contractueel akkoord (dading, EOT-overeenkomst).
+Periodieke vergoeding die de ene persoon verschuldigd is aan een andere persoon **op grond van een wettelijke onderhoudsplicht** uit het Burgerlijk Wetboek — uitvoerbaar via gerechtelijke beslissing of contractueel akkoord (dading, EOT-overeenkomst).
 
 **Wettelijke onderhoudsplichten** (niet exhaustief):
 
@@ -38,7 +38,7 @@ Periodieke vergoeding die de ene persoon verschuldigd is aan een andere persoon 
 
 ## 🔢 Aftrek bij de schuldenaar — 80%-regel
 
-De schuldenaar mag **80% van het werkelijk betaalde bedrag** aftrekken van zijn belastbaar inkomen ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°]]). De aftrek wordt **vóór** de berekening van de basisbelasting toegepast — verlaagt dus de belastbare grondslag, niet enkel de belasting.
+De schuldenaar mag **80% van het werkelijk betaalde bedrag** aftrekken van zijn belastbaar inkomen (WIB92 art. 104, 1°). De aftrek wordt **vóór** de berekening van de basisbelasting toegepast — verlaagt dus de belastbare grondslag, niet enkel de belasting.
 
 **Plaats in de aangifte**: vak VIII (aftrekbare uitgaven).
 
@@ -59,11 +59,11 @@ Belastingvoordeel: € 4 800 × marginale aanslagvoet 50% = € 2 400 fiscale be
 
 ## 🔒 Voorwaarden van aftrekbaarheid
 
-De aftrek wordt enkel toegestaan als **alle vijf** voorwaarden gelijktijdig vervuld zijn ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°]]):
+De aftrek wordt enkel toegestaan als **alle vijf** voorwaarden gelijktijdig vervuld zijn (WIB92 art. 104, 1°):
 
 | Voorwaarde | Toelichting |
 |---|---|
-| **1. Wettelijke onderhoudsplicht** | Verplichting moet voortvloeien uit het [[bronnen/wetteksten/XI-bw-2019\|BW]] — vrijwillige bijdrage of "morele plicht" telt niet |
+| **1. Wettelijke onderhoudsplicht** | Verplichting moet voortvloeien uit het BW — vrijwillige bijdrage of "morele plicht" telt niet |
 | **2. Periodieke betaling** | Eenmalige kapitalen niet aftrekbaar (uitzondering: omzetting tot fictieve rente) |
 | **3. Niet-gezinslid** | Begunstigde mag geen deel uitmaken van het gezin van de schuldenaar (anders → ten laste, geen aftrek) |
 | **4. Werkelijke betaling** | Bewijs van betaling vereist (bankoverschrijving, ontvangstbewijs) — schuldbekentenis volstaat niet |
@@ -74,7 +74,7 @@ De aftrek wordt enkel toegestaan als **alle vijf** voorwaarden gelijktijdig verv
 > [!warning]- Onderhoudsuitkering aan eigen kind dat ten laste is, is niet aftrekbaar
 > ❌ *"Een gescheiden vader betaalt elke maand alimentatie voor zijn 16-jarige zoon die bij de moeder woont. De zoon is wel deels bij hem ten laste (fiscaal co-ouderschap). Dus is de alimentatie aftrekbaar."*
 >
-> Bij **fiscaal co-ouderschap** (50/50 verdeling van de toeslag voor het kind) is de aftrek van onderhoudsuitkeringen **wettelijk uitgesloten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°, b]]). De vader moet kiezen: ofwel kind 50% ten laste, ofwel onderhoudsuitkeringen aftrekken (kind volledig bij moeder ten laste). Beide tegelijk is niet mogelijk — de wet vermijdt dubbele bevoordeling. Vergelijk de twee scenario's: vaak is de aftrek voordeliger bij hoge inkomens, maar kan de toeslag voor kind ten laste voor zeer lage inkomens beter zijn.
+> Bij **fiscaal co-ouderschap** (50/50 verdeling van de toeslag voor het kind) is de aftrek van onderhoudsuitkeringen **wettelijk uitgesloten** (WIB92 art. 104, 1°, b). De vader moet kiezen: ofwel kind 50% ten laste, ofwel onderhoudsuitkeringen aftrekken (kind volledig bij moeder ten laste). Beide tegelijk is niet mogelijk — de wet vermijdt dubbele bevoordeling. Vergelijk de twee scenario's: vaak is de aftrek voordeliger bij hoge inkomens, maar kan de toeslag voor kind ten laste voor zeer lage inkomens beter zijn.
 >
 > 🤖 *AI-aanvulling*
 
@@ -89,7 +89,7 @@ De aftrek wordt enkel toegestaan als **alle vijf** voorwaarden gelijktijdig verv
 
 ## 🔢 Belastbaarheid bij de begunstigde — 80%-regel
 
-Symmetrisch met de aftrek bij de schuldenaar wordt de uitkering bij de begunstigde belast aan **80% van het werkelijk ontvangen bedrag**, als **divers inkomen** aan **progressieve tarieven** ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 3°, art. 99]]).
+Symmetrisch met de aftrek bij de schuldenaar wordt de uitkering bij de begunstigde belast aan **80% van het werkelijk ontvangen bedrag**, als **divers inkomen** aan **progressieve tarieven** (WIB92 art. 90, 3°, art. 99).
 
 **Plaats in de aangifte**: vak XII (diverse inkomsten).
 
@@ -110,7 +110,7 @@ Bij progressieve tarieven valt het bedrag in de belastingschijf van de begunstig
 
 ## 🔢 Onderhoudsuitkeringen aan minderjarige kinderen
 
-Bijzonder regime: onderhoudsuitkeringen ontvangen voor een **minderjarig kind** worden **bij het kind zelf** belast (en niet bij de ontvangende ouder), tenzij specifieke uitzonderingen ([[bronnen/wetteksten/II-wib92|WIB92 art. 99]]).
+Bijzonder regime: onderhoudsuitkeringen ontvangen voor een **minderjarig kind** worden **bij het kind zelf** belast (en niet bij de ontvangende ouder), tenzij specifieke uitzonderingen (WIB92 art. 99).
 
 **Gevolg**:
 - Kind moet eigen aangifte indienen als de uitkeringen + andere inkomsten boven de [[gezinsfiscaliteit#-personen-ten-laste|bestaansmiddelen-grens]] uitkomen
@@ -129,7 +129,7 @@ Bijzonder regime: onderhoudsuitkeringen ontvangen voor een **minderjarig kind** 
 
 ## ⚖️ Kapitalen — uitzonderingsregime
 
-Een **eenmalige kapitaaluitkering** (bv. uitkoopsom bij echtscheiding) is in beginsel **niet aftrekbaar** als onderhoudsuitkering ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°]] — vereist periodieke betaling).
+Een **eenmalige kapitaaluitkering** (bv. uitkoopsom bij echtscheiding) is in beginsel **niet aftrekbaar** als onderhoudsuitkering (WIB92 art. 104, 1° — vereist periodieke betaling).
 
 **Uitzondering — omzetting tot fictieve rente**: een kapitaal dat conventioneel of gerechtelijk wordt **omgezet tot een fictieve rente** (= een berekende periodieke uitkering op basis van het kapitaal en een omzettingscoëfficiënt) kan onder voorwaarden **alsnog aftrekbaar** zijn — maar dit vereist specifieke notariële akten en wordt zelden in de praktijk toegepast.
 
@@ -139,11 +139,11 @@ Een **eenmalige kapitaaluitkering** (bv. uitkoopsom bij echtscheiding) is in beg
 
 ## ⚖️ Achterstallen en moratoire intresten
 
-**Achterstallen** van onderhoudsuitkeringen (bv. via dwangmaatregelen geïnde achterstand) volgen het **kasprincipe** — belast in het jaar van werkelijke ontvangst, ook al hadden ze betrekking op vorige jaren ([[bronnen/wetteksten/II-wib92|WIB92 art. 360]]).
+**Achterstallen** van onderhoudsuitkeringen (bv. via dwangmaatregelen geïnde achterstand) volgen het **kasprincipe** — belast in het jaar van werkelijke ontvangst, ook al hadden ze betrekking op vorige jaren (WIB92 art. 360).
 
 **Risico voor begunstigde**: ontvangst van een grote achterstand in één jaar kan een **fiscale piek** veroorzaken (hoge marginale aanslagvoet). De wet voorziet géén spreiding van achterstallen over de jaren waarin ze hadden moeten betaald zijn.
 
-**Beperkte mitigatie**: voor sommige achterstallen geldt het tarief van het **gemiddelde aanslagvoet vorig jaar** ([[bronnen/wetteksten/II-wib92|WIB92 art. 171, 5°]] — afzonderlijke aanslag) — voorwaarde: oorzaak van laattijdige betaling buiten de wil van begunstigde.
+**Beperkte mitigatie**: voor sommige achterstallen geldt het tarief van het **gemiddelde aanslagvoet vorig jaar** (WIB92 art. 171, 5° — afzonderlijke aanslag) — voorwaarde: oorzaak van laattijdige betaling buiten de wil van begunstigde.
 
 **Moratoire intresten** (vergoeding voor te late betaling) worden belast als roerend inkomen aan 30% RV — niet als onderhoudsuitkering.
 
@@ -151,7 +151,7 @@ Een **eenmalige kapitaaluitkering** (bv. uitkoopsom bij echtscheiding) is in beg
 
 ## 🚩 Cumul met fiscaal co-ouderschap — uitsluiting
 
-Belangrijke combinatie-valkuil: bij **fiscaal co-ouderschap** ([[gezinsfiscaliteit#-fiscaal-co-ouderschap|gezinsfiscaliteit]]) krijgen beide ouders de toeslag voor het kind 50/50. In dat geval is **aftrek van onderhoudsuitkeringen voor hetzelfde kind uitgesloten** ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°, b]]).
+Belangrijke combinatie-valkuil: bij **fiscaal co-ouderschap** ([[gezinsfiscaliteit#-fiscaal-co-ouderschap|gezinsfiscaliteit]]) krijgen beide ouders de toeslag voor het kind 50/50. In dat geval is **aftrek van onderhoudsuitkeringen voor hetzelfde kind uitgesloten** (WIB92 art. 104, 1°, b).
 
 **Keuze tussen twee scenario's**:
 
@@ -192,7 +192,7 @@ Voor bewijs bij belastingcontrole zijn volgende documenten essentieel:
 3. **Identificatiegegevens van de begunstigde** (naam, RR-nummer of buitenlands fiscaal nummer)
 4. **Bewijs van behoeftige situatie** voor begunstigden buiten standaardgevallen (bv. ouder die alimentatie ontvangt van kind)
 
-**Bewaartermijn**: 7 jaar vanaf 1 januari van het aanslagjaar ([[bronnen/wetteksten/II-wib92|WIB92 art. 315]]).
+**Bewaartermijn**: 7 jaar vanaf 1 januari van het aanslagjaar (WIB92 art. 315).
 
 ---
 
@@ -215,7 +215,7 @@ Kenniselementen:
 > >
 > > **Enkel de periodieke alimentatie is aftrekbaar — 80% van € 6 000 = € 4 800.**
 > >
-> > De maandelijkse alimentatie van € 500 (= € 6 000/jaar) is **periodiek** en aftrekbaar aan **80%** ([[bronnen/wetteksten/II-wib92|WIB92 art. 104, 1°]]). De jaarlijkse € 1 000 voor specifieke verbouwingen is **eenmalig en doelgebonden** — geen onderhoudsuitkering in fiscale zin, niet aftrekbaar. Ook al voortvloeit uit een vonnis: de wet vereist een **periodieke** betaling met algemeen onderhoudskarakter. Eventuele uitzondering: omzetting tot fictieve rente — in praktijk zelden toegepast.
+> > De maandelijkse alimentatie van € 500 (= € 6 000/jaar) is **periodiek** en aftrekbaar aan **80%** (WIB92 art. 104, 1°). De jaarlijkse € 1 000 voor specifieke verbouwingen is **eenmalig en doelgebonden** — geen onderhoudsuitkering in fiscale zin, niet aftrekbaar. Ook al voortvloeit uit een vonnis: de wet vereist een **periodieke** betaling met algemeen onderhoudskarakter. Eventuele uitzondering: omzetting tot fictieve rente — in praktijk zelden toegepast.
 > >
 > > *Zie: [[onderhoudsuitkeringen-fiscaal#-voorwaarden-van-aftrekbaarheid|Voorwaarden van aftrekbaarheid]]*
 >
@@ -229,7 +229,7 @@ Kenniselementen:
 > >
 > > **Nee — de uitkering wordt belast bij het kind zelf, niet bij de moeder.**
 > >
-> > Onderhoudsuitkeringen ontvangen voor een **minderjarig kind** worden **bij het kind belast** ([[bronnen/wetteksten/II-wib92|WIB92 art. 99]]) — niet bij de ontvangende ouder. Het kind moet eigen aangifte indienen als zijn totale inkomsten (incl. alimentatie boven vrijgestelde schijf) de bestaansmiddelen-grens overschrijden. Bij € 400/maand × 12 = € 4 800: ligt boven de vrijgestelde schijf (~ € 4 200) — kind moet eigen aangifte. Ouder mag de uitkering **niet** in eigen aangifte vermelden. Gevolg: kind verliest mogelijk ten laste-statuut bij moeder als bestaansmiddelen-grens overschreden.
+> > Onderhoudsuitkeringen ontvangen voor een **minderjarig kind** worden **bij het kind belast** (WIB92 art. 99) — niet bij de ontvangende ouder. Het kind moet eigen aangifte indienen als zijn totale inkomsten (incl. alimentatie boven vrijgestelde schijf) de bestaansmiddelen-grens overschrijden. Bij € 400/maand × 12 = € 4 800: ligt boven de vrijgestelde schijf (~ € 4 200) — kind moet eigen aangifte. Ouder mag de uitkering **niet** in eigen aangifte vermelden. Gevolg: kind verliest mogelijk ten laste-statuut bij moeder als bestaansmiddelen-grens overschreden.
 > >
 > > *Zie: [[onderhoudsuitkeringen-fiscaal#-onderhoudsuitkeringen-aan-minderjarige-kinderen|Onderhoudsuitkeringen aan minderjarige kinderen]]*
 >

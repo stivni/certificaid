@@ -12,14 +12,14 @@ bouwversie: 2
 
 # Aangifte personenbelasting invullen
 
-De aangifte is het **enige** formele instrument waarop de FOD Financiën de aanslag in de personenbelasting kan vestigen ([[bronnen/wetteksten/II-wib92|WIB92 art. 305]]). Een onvolledige of foute aangifte kost de cliënt geld (te hoge aanslag, niet-toegekende verminderingen) of stelt hem bloot aan controles, belastingverhogingen en strafsancties. Deze competentie beschrijft hoe je systematisch alle vakken doorloopt, de juiste informatie verzamelt en de aangifte tijdig en correct indient namens de cliënt.
+De aangifte is het **enige** formele instrument waarop de FOD Financiën de aanslag in de personenbelasting kan vestigen (WIB92 art. 305). Een onvolledige of foute aangifte kost de cliënt geld (te hoge aanslag, niet-toegekende verminderingen) of stelt hem bloot aan controles, belastingverhogingen en strafsancties. Deze competentie beschrijft hoe je systematisch alle vakken doorloopt, de juiste informatie verzamelt en de aangifte tijdig en correct indient namens de cliënt.
 
 Onderscheid met andere competenties:
 - **[[belastingberekening-personenbelasting-uitvoeren|Belastingberekening personenbelasting uitvoeren]]**: rekent de belasting uit eens de aangifte volledig is — focus op het tarievenschema en de verminderingen
 - **[[fiscaal-advies-personenbelasting-formuleren|Fiscaal advies personenbelasting formuleren]]**: adviesopdracht — keuzes vooraf (vóór de aangifte zelf), bv. werkelijke vs. forfaitaire kosten, voorafbetalingen, optimalisatie
 
 > [!info]- Grondslag van deze werkwijze (🤖 70% · ⚖️ 30%)
-> De aangifteplicht zelf is wettelijk geregeld ([[bronnen/wetteksten/II-wib92|WIB92 art. 305-315]]) en de structuur van de aangifte volgt de vakindeling van het uitvoeringsbesluit ([[bronnen/wetteksten/II-KB-wib92|KB/WIB92]]). Het **invulproces** als gestructureerde werkwijze is echter **geen genormeerde procedure** — er bestaat geen ITAA-norm of CBN-advies dat per vak voorschrijft hoe te werk te gaan. De stappen hieronder volgen de courante beroepspraktijk: verzamelen → kwalificeren → invullen → controleren → indienen → archiveren.
+> De aangifteplicht zelf is wettelijk geregeld (WIB92 art. 305-315) en de structuur van de aangifte volgt de vakindeling van het uitvoeringsbesluit (KB/WIB92). Het **invulproces** als gestructureerde werkwijze is echter **geen genormeerde procedure** — er bestaat geen ITAA-norm of CBN-advies dat per vak voorschrijft hoe te werk te gaan. De stappen hieronder volgen de courante beroepspraktijk: verzamelen → kwalificeren → invullen → controleren → indienen → archiveren.
 
 ## Aanbevolen werkwijze
 
@@ -85,7 +85,7 @@ Vak II — Persoonlijke gegevens
 > [!warning]- Bij een wijziging tijdens het jaar gelden specifieke regimes
 > ❌ *"Een echtpaar dat in juni huwt, doet onmiddellijk een gezamenlijke aangifte voor dat jaar."*
 >
-> Voor het **jaar van huwelijk of wettelijke samenwoning** worden de partners nog **afzonderlijk** belast als alleenstaanden ([[bronnen/wetteksten/II-wib92|WIB92 art. 126, §2, 1°]]) — de gezamenlijke aanslag begint pas vanaf het eerste **volledige** kalenderjaar. Wie deze regel mist, dient een verkeerde aangifte in en mist mogelijk de [[gezinsfiscaliteit#-huwelijksquotiënt|huwelijksquotiënt]]-berekening. Bij scheiding of overlijden gelden eigen regels — zie [[gezinsfiscaliteit#-jaar-van-overlijden|jaar van overlijden]].
+> Voor het **jaar van huwelijk of wettelijke samenwoning** worden de partners nog **afzonderlijk** belast als alleenstaanden (WIB92 art. 126, §2, 1°) — de gezamenlijke aanslag begint pas vanaf het eerste **volledige** kalenderjaar. Wie deze regel mist, dient een verkeerde aangifte in en mist mogelijk de [[gezinsfiscaliteit#-huwelijksquotiënt|huwelijksquotiënt]]-berekening. Bij scheiding of overlijden gelden eigen regels — zie [[gezinsfiscaliteit#-jaar-van-overlijden|jaar van overlijden]].
 >
 > 🤖 *AI-aanvulling*
 
@@ -161,9 +161,9 @@ Per ontvangen som: stel jezelf de vraag *"in welke inkomstencategorie hoort dit?
 > ❌ *"Een meerwaarde op aandelen wordt altijd belast als roerend inkomen."*
 >
 > Een meerwaarde op aandelen is in beginsel **niet belastbaar** in de PB (kwalificeert als normaal beheer van het privévermogen — geen inkomstencategorie), tenzij:
-> - **Speculatieve verrichting** (kort tijdsverloop, geleende fondsen) → diverse inkomsten 33% ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 1°]])
+> - **Speculatieve verrichting** (kort tijdsverloop, geleende fondsen) → diverse inkomsten 33% (WIB92 art. 90, 1°)
 > - **Beroepsmatig** (zelfstandige effectenmakelaar) → beroepsinkomen
-> - **Aanmerkelijke deelneming** (> 25%) verkocht aan buitenlandse vennootschap → 16,5% ([[bronnen/wetteksten/II-wib92|WIB92 art. 90, 9°]])
+> - **Aanmerkelijke deelneming** (> 25%) verkocht aan buitenlandse vennootschap → 16,5% (WIB92 art. 90, 9°)
 >
 > De juiste kwalificatie hangt af van de feitelijke context. Verkeerde kwalificatie kan zowel een te hoge als een te lage aanslag opleveren.
 >
@@ -263,7 +263,7 @@ Vak IV — Bezoldigingen werknemers  (geverifieerd via FOD Financiën voorbereid
 > - Bevestigingsattest opgeslagen in cliëntdossier
 > - Aanslagbiljet binnen redelijke termijn opgevolgd
 
-**Waarom**: niet-tijdige indiening leidt automatisch tot **belastingverhoging** (10% tot 200%) en mogelijk **ambtshalve aanslag** met omkering van de bewijslast ([[bronnen/wetteksten/II-wib92|WIB92 art. 351, 444]]).
+**Waarom**: niet-tijdige indiening leidt automatisch tot **belastingverhoging** (10% tot 200%) en mogelijk **ambtshalve aanslag** met omkering van de bewijslast (WIB92 art. 351, 444).
 
 Indien via mandataris: indieningstermijn is **eind oktober** van het aanslagjaar (voor aj. 2026 indicatief, te bevestigen via fiscale kalender). Indienen via Tax-on-web Mandataris.
 
@@ -272,7 +272,7 @@ Indien via mandataris: indieningstermijn is **eind oktober** van het aanslagjaar
 - Sla op in het cliëntdossier (digitaal, met datumstempel)
 - Voorzie reminders voor het verwachte aanslagbiljet (~ september-december van het aanslagjaar; voor laattijdige aangiftes mogelijk later)
 
-**Bewaarplicht**: de mandataris bewaart de stukken minstens **7 jaar** vanaf 1 januari van het aanslagjaar (gelijklopend met de fiscale bewaartermijn van de cliënt — [[bronnen/wetteksten/II-wib92|WIB92 art. 315]]).
+**Bewaarplicht**: de mandataris bewaart de stukken minstens **7 jaar** vanaf 1 januari van het aanslagjaar (gelijklopend met de fiscale bewaartermijn van de cliënt — WIB92 art. 315).
 
 > [!warning]- De aangifte is rechtsgeldig vanaf indiening, niet vanaf het ontvangen bevestigingsattest
 > ❌ *"Ik moet wachten op het bevestigingsattest van Tax-on-web voor de aangifte officieel is."*
@@ -325,7 +325,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 >
 > **Conclusie**: Gezamenlijke aanslag, decumul toegepast, geïntegreerde woonbonus toegepast (gewestelijk Vlaams), pensioensparen en giften als federale verminderingen. Geraamde aanslag: te ontvangen ~ € 1 800 (door gewestelijke woonbonus en federale verminderingen).
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 30, 1°, 126-128, 130, 145/3, 145/24, 145/33]]; [[gezinsfiscaliteit#-burgerlijke-staat-in-fiscalibus|Burgerlijke staat]]; [[beroepsinkomsten-personenbelasting]].
+> **Grondslag**: WIB92 art. 30, 1°, 126-128, 130, 145/3, 145/24, 145/33; [[gezinsfiscaliteit#-burgerlijke-staat-in-fiscalibus|Burgerlijke staat]]; [[beroepsinkomsten-personenbelasting]].
 >
 > **Redenering**:
 > - Stap 1-2: Gezamenlijk gehuwd, 2 kinderen ten laste op 1 januari 2026 → één gemeenschappelijke aangifte
@@ -343,7 +343,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 >
 > **Conclusie**: Bezoldiging bedrijfsleider in **vak XVI** (code 1401-54); deel huur (€ 7 620) geherkwalificeerd als bezoldiging bedrijfsleider en aangegeven in **vak XVI, rubriek 2** (code 1402-53); rest huur (€ 16 380) in vak III als onroerend inkomen. Voorafbetalingen ingevuld in vak XII. Geraamde aanslag: te betalen ~ € 4 500 (VA en BV onvoldoende voor totale aanslag).
 >
-> **Grondslag**: [[bronnen/wetteksten/II-wib92|WIB92 art. 32 alinea 2, 3°, art. 7, 130, 157]]; [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huur bedrijfsleider]].
+> **Grondslag**: WIB92 art. 32 alinea 2, 3°, art. 7, 130, 157; [[inkomsten-onroerende-goederen#-herkwalificatie-van-huurinkomsten-van-bedrijfsleider|Herkwalificatie huur bedrijfsleider]].
 >
 > **Redenering**:
 > - Stap 1: Mandataris-mandaat tot indienen aangifte, met advies over voorafbetalingen voor volgend jaar
@@ -376,7 +376,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 > >
 > > **Vermelden ja, maar het inkomen is vrijgesteld.**
 > >
-> > Het KI van de eigen woning wordt vermeld in vak III van de aangifte (informatieve verplichting), maar het inkomen zelf is **volledig vrijgesteld** ([[bronnen/wetteksten/II-wib92|WIB92 art. 12, §3]]). Het verhoogt de belastbare grondslag niet. Wel moet de eigen woning expliciet aangeduid worden om het onderscheid met andere niet-eigen woningen (waar geïndexeerd KI × 1,40 wel belastbaar is) te garanderen.
+> > Het KI van de eigen woning wordt vermeld in vak III van de aangifte (informatieve verplichting), maar het inkomen zelf is **volledig vrijgesteld** (WIB92 art. 12, §3). Het verhoogt de belastbare grondslag niet. Wel moet de eigen woning expliciet aangeduid worden om het onderscheid met andere niet-eigen woningen (waar geïndexeerd KI × 1,40 wel belastbaar is) te garanderen.
 > >
 > > *Zie: [[inkomsten-onroerende-goederen#-eigen-woning|Eigen woning]]*
 >
@@ -423,7 +423,7 @@ Voor cliënten met enkel **eenvoudige** inkomsten (loon, pensioen, gekend OG) wo
 > >
 > > **Drie gevolgen**: (1) ambtshalve aanslag, (2) belastingverhoging 10-200%, (3) omkering van de bewijslast voor bezwaar.
 > >
-> > Bij niet-aangifte stuurt de FOD Financiën een **herinnering** met een laatste termijn. Bij blijvende stilte: **ambtshalve aanslag** ([[bronnen/wetteksten/II-wib92|WIB92 art. 351]]) — de administratie schat het inkomen op basis van beschikbare gegevens (vorige jaren, externe bronnen, geschatte tekens en indiciën). De belastingplichtige moet zelf bewijzen dat de schatting onjuist is (bewijslast omgekeerd). Bovendien: belastingverhoging van 10-200% afhankelijk van de aard van de inbreuk ([[bronnen/wetteksten/II-wib92|WIB92 art. 444]]). Vandaar het belang van een tijdige indiening, eventueel met onvolledige gegevens en latere correctie via een **rechtzettingsaangifte** binnen de bezwaartermijn.
+> > Bij niet-aangifte stuurt de FOD Financiën een **herinnering** met een laatste termijn. Bij blijvende stilte: **ambtshalve aanslag** (WIB92 art. 351) — de administratie schat het inkomen op basis van beschikbare gegevens (vorige jaren, externe bronnen, geschatte tekens en indiciën). De belastingplichtige moet zelf bewijzen dat de schatting onjuist is (bewijslast omgekeerd). Bovendien: belastingverhoging van 10-200% afhankelijk van de aard van de inbreuk (WIB92 art. 444). Vandaar het belang van een tijdige indiening, eventueel met onvolledige gegevens en latere correctie via een **rechtzettingsaangifte** binnen de bezwaartermijn.
 > >
 > > *Zie: [[personenbelasting-basisbegrippen#-aangifteplicht|Aangifteplicht]]*
 >

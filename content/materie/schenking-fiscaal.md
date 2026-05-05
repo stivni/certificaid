@@ -37,9 +37,9 @@ Civielrechtelijk zijn schenkingen in principe onherroepelijk — het principe *d
 
 ## 📌 Schenkbelasting (Vlaams)
 
-De **schenkbelasting** is de Vlaamse registratiebelasting op schenkingen onder de levenden. Ze wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van akten of geschriften die tot bewijs strekken van een schenking. ([[wetteksten/IVA-vcf#art-28101|VCF art. 2.8.1.0.1]])
+De **schenkbelasting** is de Vlaamse registratiebelasting op schenkingen onder de levenden. Ze wordt gevestigd naar aanleiding van de **registratie of de verplichting tot registratie** van akten of geschriften die tot bewijs strekken van een schenking. (VCF art. 2.8.1.0.1)
 
-De schenkbelasting is een onderdeel van de [[registratierechten-grondslagen#📌-registratierecht|registratiebelasting]] en staat in VCF Titel 2, Hoofdstuk 8. De **belastingplichtige is de begiftigde** — bij een inbreng om niet is de begunstigde rechtspersoon de belastingplichtige. ([[wetteksten/IVA-vcf#art-28201|VCF art. 2.8.2.0.1]])
+De schenkbelasting is een onderdeel van de [[registratierechten-grondslagen#📌-registratierecht|registratiebelasting]] en staat in VCF Titel 2, Hoofdstuk 8. De **belastingplichtige is de begiftigde** — bij een inbreng om niet is de begunstigde rechtspersoon de belastingplichtige. (VCF art. 2.8.2.0.1)
 
 De schenkbelasting wordt ingevorderd door de [[fiscale-actoren#-vlaamse-belastingdienst-vlabel|Vlaamse Belastingdienst (Vlabel)]]. Ze is van toepassing wanneer de begiftigde in het Vlaamse Gewest gedomicilieerd is, of — voor onroerende goederen — wanneer het goed in het Vlaamse Gewest gelegen is.
 
@@ -104,7 +104,7 @@ Een **bankgift** is een schenking van roerende goederen (doorgaans geldmiddelen 
 
 ## ⚖️ Schenking = aktebelasting — vrij van schenkbelasting tenzij geregistreerd
 
-De **schenkbelasting** is een **aktebelasting**: ze wordt niet geheven op de schenking als economisch feit, maar op de **registratie of de verplichting tot registratie van een akte** die van de schenking getuigt. ([[wetteksten/IVA-vcf#art-28101|VCF art. 2.8.1.0.1]])
+De **schenkbelasting** is een **aktebelasting**: ze wordt niet geheven op de schenking als economisch feit, maar op de **registratie of de verplichting tot registratie van een akte** die van de schenking getuigt. (VCF art. 2.8.1.0.1)
 
 Dit principe heeft drie directe gevolgen:
 
@@ -122,14 +122,14 @@ Dit principe heeft drie directe gevolgen:
 
 ## 🔢 Schenkbelasting roerend Vlaanderen — vlak tarief
 
-De schenkbelasting op roerende goederen in Vlaanderen is een **vlak tarief** — niet progressief. ([[wetteksten/IVA-vcf#art-28411|VCF art. 2.8.4.1.1 § 2]])
+De schenkbelasting op roerende goederen in Vlaanderen is een **vlak tarief** — niet progressief. (VCF art. 2.8.4.1.1 § 2)
 
 | Categorie | Tarief |
 |---|---|
 | Rechte lijn en partners | **3%** |
 | Alle andere personen | **7%** |
 
-**Grondslag**: de verkoopwaarde van de geschonken roerende goederen op datum van de schenking, zonder aftrek van lasten — tenzij een last een kosteloze begunstiging ten voordele van een derde is (dan wordt die last als schenking belast bij de derde). ([[wetteksten/IVA-vcf#art-28301|VCF art. 2.8.3.0.1]])
+**Grondslag**: de verkoopwaarde van de geschonken roerende goederen op datum van de schenking, zonder aftrek van lasten — tenzij een last een kosteloze begunstiging ten voordele van een derde is (dan wordt die last als schenking belast bij de derde). (VCF art. 2.8.3.0.1)
 
 **"Partner"** in de zin van de VCF omvat de echtgenoot én de wettelijk samenwonende partner.
 
@@ -145,7 +145,7 @@ De schenkbelasting op roerende goederen in Vlaanderen is een **vlak tarief** —
 
 ## 🔢 Schenkbelasting onroerend Vlaanderen — progressief
 
-De schenkbelasting op onroerende goederen in Vlaanderen is **progressief per schijf**, met twee tabellen naargelang de verwantschapsgraad. ([[wetteksten/IVA-vcf#art-28411|VCF art. 2.8.4.1.1 § 1]])
+De schenkbelasting op onroerende goederen in Vlaanderen is **progressief per schijf**, met twee tabellen naargelang de verwantschapsgraad. (VCF art. 2.8.4.1.1 § 1)
 
 **Tabel I — rechte lijn en partners**
 
@@ -165,9 +165,9 @@ De schenkbelasting op onroerende goederen in Vlaanderen is **progressief per sch
 | 250.000,01 – 450.000 | 30% | 35.000 |
 | 450.000,01 en meer | 40% | 95.000 |
 
-**Samentelling van opeenvolgende schenkingen van onroerend goed**: als er binnen **3 jaar** vóór de nieuwe schenking al een eerdere schenking van onroerend goed was tussen dezelfde partijen, worden de belastbare grondslagen samengeteld om het progressief tarief te bepalen. ([[wetteksten/IVA-vcf#art-28303|VCF art. 2.8.3.0.3]])
+**Samentelling van opeenvolgende schenkingen van onroerend goed**: als er binnen **3 jaar** vóór de nieuwe schenking al een eerdere schenking van onroerend goed was tussen dezelfde partijen, worden de belastbare grondslagen samengeteld om het progressief tarief te bepalen. (VCF art. 2.8.3.0.3)
 
-**Belastingplichtige**: de begiftigde. ([[wetteksten/IVA-vcf#art-28201|VCF art. 2.8.2.0.1]])
+**Belastingplichtige**: de begiftigde. (VCF art. 2.8.2.0.1)
 
 **Verminderd tarief bij energetische renovatie**: art. 2.8.4.3.1 VCF voorziet een gunsttarief voor schenkingen van onroerend goed wanneer de begiftigde zich verbindt tot een energetische renovatie binnen 5 jaar — dit verminderd tarief gold voor akten verleden vóór 1 januari 2025. ⚠️ Controleer voor akten na die datum of een nieuw regime van kracht is.
 
@@ -187,7 +187,7 @@ De schenkbelasting op onroerende goederen in Vlaanderen is **progressief per sch
 
 *Vrijstelling schenkbelasting familiale onderneming*
 
-VCF art. 2.8.6.0.3 voorziet een **volledige vrijstelling van schenkbelasting** (0%) voor schenkingen van familiale ondernemingen en familiale vennootschappen, mits strikte voorwaarden. ([[wetteksten/IVA-vcf#art-28603|VCF art. 2.8.6.0.3]])
+VCF art. 2.8.6.0.3 voorziet een **volledige vrijstelling van schenkbelasting** (0%) voor schenkingen van familiale ondernemingen en familiale vennootschappen, mits strikte voorwaarden. (VCF art. 2.8.6.0.3)
 
 **Twee toepassingsgebieden**:
 
@@ -195,14 +195,14 @@ VCF art. 2.8.6.0.3 voorziet een **volledige vrijstelling van schenkbelasting** (
 
 2. **Aandelen familiale vennootschap**: de schenking van aandelen van een vennootschap die een reële economische activiteit uitoefent én waarbij de schenker (samen met zijn familie) minstens **50% van de stemrechten** bezit. Verlaagde drempel van **30%** is mogelijk als de schenker samenwerkt met één andere aandeelhouder (samen 70%) of twee andere aandeelhouders (samen 90%). Vennootschappen zonder reële economische activiteit zijn uitgesloten.
 
-**Formele voorwaarde**: de schenking moet vastgesteld worden bij **authentieke akte** (notarieel). ([[wetteksten/IVA-vcf#art-28604|VCF art. 2.8.6.0.4]])
+**Formele voorwaarde**: de schenking moet vastgesteld worden bij **authentieke akte** (notarieel). (VCF art. 2.8.6.0.4)
 
 **Continuïteitsvoorwaarden** — vrijstelling blijft behouden als gedurende **3 jaar** na de schenking:
 - De activiteit van de familiale onderneming zonder onderbreking wordt voortgezet
 - De familiale vennootschap voldoet aan de definitievoorwaarden en haar activiteit zet ze voort
 - Een jaarrekening of geconsolideerde jaarrekening wordt opgemaakt en gepubliceerd (voor elke van de 3 jaar)
 
-Worden de continuïteitsvoorwaarden niet nagekomen, dan is de schenkbelasting alsnog verschuldigd tegen de normale tarieven (art. 2.8.6.0.7 VCF). ([[wetteksten/IVA-vcf#art-28607|VCF art. 2.8.6.0.7]])
+Worden de continuïteitsvoorwaarden niet nagekomen, dan is de schenkbelasting alsnog verschuldigd tegen de normale tarieven (art. 2.8.6.0.7 VCF). (VCF art. 2.8.6.0.7)
 
 > [!warning]- Vrijstelling enkel voor activa met reële economische activiteit — geen puur vastgoed
 > ❌ *"Een schenking van een vennootschap die hoofdzakelijk onroerend goed bezit, komt in aanmerking voor het 0%-tarief familiale onderneming."*
@@ -285,7 +285,7 @@ De schenkbelasting op roerende goederen (3% of 7%) is doorgaans lager dan de erf
 
 ## 🔒 Schenkbelasting
 
-De schenkbelasting is verschuldigd zodra een akte of geschrift dat van een schenking getuigt, ter registratie wordt aangeboden — of wanneer de registratieplicht ontstaat. ([[wetteksten/IVA-vcf#art-28101|VCF art. 2.8.1.0.1]])
+De schenkbelasting is verschuldigd zodra een akte of geschrift dat van een schenking getuigt, ter registratie wordt aangeboden — of wanneer de registratieplicht ontstaat. (VCF art. 2.8.1.0.1)
 
 **Wanneer de registratieplicht ontstaat**:
 - Bij een notariële akte voor een Belgische notaris: registratie binnen **15 dagen** na verlijden van de akte
@@ -294,7 +294,7 @@ De schenkbelasting is verschuldigd zodra een akte of geschrift dat van een schen
 
 **Betaling**: de schenkbelasting wordt betaald bij de registratie van de akte, via de notaris die ze int en doorstort aan Vlabel. De notaris is persoonlijk verantwoordelijk voor de afdracht.
 
-**Aanvullende rechten**: als de in de akte opgegeven waarde lager is dan de verkoopwaarde van de geschonken goederen, kan Vlabel aanvullende rechten vestigen. ([[wetteksten/IVA-vcf#art-28301|VCF art. 2.8.3.0.1]]: grondslag = verkoopwaarde)
+**Aanvullende rechten**: als de in de akte opgegeven waarde lager is dan de verkoopwaarde van de geschonken goederen, kan Vlabel aanvullende rechten vestigen. (VCF art. 2.8.3.0.1: grondslag = verkoopwaarde)
 
 ---
 
