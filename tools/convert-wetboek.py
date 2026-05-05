@@ -234,6 +234,22 @@ CONFIGS = {
         'wet': 'K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde',
         'bijgewerkt': '2020', 'titel': 'BTW KB nr. 59 — Handelsgeschenken', 'tags': '["VI.B", "2.4"]',
     },
+    'wbtw-kb54': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB54-entrepot.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb54.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW',
+        'bijgewerkt': '2023', 'titel': 'BTW KB nr. 54 — Entrepot (art. 39quater)', 'tags': '["VI.B", "2.4"]',
+    },
+    'wbtw-kb22jun2020': {
+        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf',
+        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md',
+        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb22jun2020.md',
+        'mode': 'nl', 'itaa_sectie': 'VI.B',
+        'wet': 'K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en art. 35–37, 43–45 en 47 Wetboek Invordering inzake het e-notariaat',
+        'bijgewerkt': '2020', 'titel': 'BTW KB 22/06/2020 — E-notariaat', 'tags': '["VI.B", "2.4"]',
+    },
     'wbtw-mb-dagboek-2023': {
         'input': 'resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf',
         'output_resources': 'resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md',
