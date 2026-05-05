@@ -432,10 +432,11 @@ def clean_and_structure_eu(text):
 
 
 def make_header(cfg):
+    wet = cfg['wet'].replace('"', "'")  # YAML: geen dubbele quotes binnen dubbele quotes
     return f"""---
 tags: {cfg['tags']}
 itaa-lex-sectie: "{cfg['itaa_sectie']}"
-wet: "{cfg['wet']}"
+wet: "{wet}"
 status: "beschikbaar"
 bijgewerkt: "{cfg['bijgewerkt']}"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
