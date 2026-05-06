@@ -25,19 +25,31 @@ if _env_file.exists():
 import anthropic
 import chromadb
 import streamlit as st
-from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
-CHROMA_PATH = ROOT / "data" / "chroma_db"
-PATTERNS_DIR = ROOT / "data" / "exam_patterns"
+from lib.retrieval import (
+    EMBEDDING_MODEL,
+    build_retrieval_stack,
+    open_collections,
+    retrieve_and_rerank,
+    RetrievalResult,
+)
+
+CHROMA_PATH   = ROOT / "data" / "chroma_db"
+PATTERNS_DIR  = ROOT / "data" / "exam_patterns"
 QUESTIONS_DIR = ROOT / "data" / "generated_questions"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL  = "claude-sonnet-4-6"
 
 BRONNEN_COLS = ["wetteksten", "normen", "adviezen"]
-ALL_COLS = ["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches", "concepts"]
+ALL_COLS     = ["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches", "concepts"]
+
+# Rerank-instellingen per modus (ADR-005)
+TUTOR_BI_TOP_N       = 30
+TUTOR_RERANK_THRESH  = 0.60
+TUTOR_MAX_RESULTS    = 10
+CONCEPT_RERANK_THRESH = 0.65   # hogere drempel: concept-laag is al gecureerd
 
 SYSTEM_PROMPT = """Je bent een studietutor voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 
@@ -64,50 +76,73 @@ Stijl:
 
 @st.cache_resource
 def load_rag():
-    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
-    client = chromadb.PersistentClient(path=str(CHROMA_PATH))
-    collections = {}
-    for name in ALL_COLS:
-        try:
-            col = client.get_collection(name, embedding_function=ef)
-            collections[name] = col
-        except Exception:
-            pass
-    return client, ef, collections
+    """Laad ChromaDB, embedding-functie en reranker (één keer per Streamlit-sessie)."""
+    client, ef, reranker = build_retrieval_stack(CHROMA_PATH)
+    collections = open_collections(client, ef, ALL_COLS)
+    return client, ef, reranker, collections
 
 
-def retrieve(collections: dict, query: str, selected_cols: list[str],
-             n: int = 5) -> list[dict]:
-    results = []
-    for name in selected_cols:
-        col = collections.get(name)
-        if col is None:
-            continue
-        count = col.count()
-        if count == 0:
-            continue
-        res = col.query(query_texts=[query], n_results=min(n, count))
-        for doc, meta, dist in zip(res["documents"][0], res["metadatas"][0], res["distances"][0]):
-            results.append({
-                "collection": name,
-                "score": round(1 - dist, 4),
-                "bron": meta.get("bron", ""),
-                "artikel": meta.get("artikel_ref") or meta.get("sectie") or "",
-                "text": doc,
-            })
-    results.sort(key=lambda x: x["score"], reverse=True)
-    return results[:n * 3]
+def retrieve_two_pass(
+    collections: dict,
+    reranker,
+    query: str,
+    selected_cols: list[str],
+    po_filter: str | None = None,
+) -> tuple[list[RetrievalResult], str]:
+    """
+    Twee-pass retrieval (ADR-005):
+
+    Pass 1: zoek in concepts-collection (gecureerde kennislaag).
+            Als score ≥ CONCEPT_RERANK_THRESH → gebruik die als primaire context.
+
+    Pass 2: zoek altijd in bronnen-collections (wetteksten/normen/adviezen).
+            Resultaten worden gecombineerd met Pass 1.
+
+    Retourneert (chunks, retrieval_mode) waarbij mode "concept+bronnen" of "bronnen" is.
+    """
+    expanded_query = f"PO {po_filter} {query}" if po_filter else query
+
+    # Pass 1: concept-laag
+    concept_results: list[RetrievalResult] = []
+    if "concepts" in collections:
+        concept_results = retrieve_and_rerank(
+            expanded_query,
+            collections,
+            ["concepts"],
+            reranker,
+            bi_top_n=15,
+            rerank_threshold=CONCEPT_RERANK_THRESH,
+            max_results=3,
+            expand_context=False,
+        )
+
+    # Pass 2: bronnen-laag (altijd, ongeacht Pass 1)
+    bronnen_cols = [c for c in selected_cols if c != "concepts"]
+    bronnen_results = retrieve_and_rerank(
+        expanded_query,
+        collections,
+        bronnen_cols,
+        reranker,
+        bi_top_n=TUTOR_BI_TOP_N,
+        rerank_threshold=TUTOR_RERANK_THRESH,
+        max_results=TUTOR_MAX_RESULTS,
+        expand_context=True,
+    )
+
+    # Combineer: concept-chunks eerst (als structuur), dan bronnen
+    all_results = concept_results + bronnen_results
+    mode = "concept+bronnen" if concept_results else "bronnen"
+    return all_results, mode
 
 
-def format_context(chunks: list[dict], max_chars: int = 6000) -> str:
+def format_context(chunks: list[RetrievalResult], max_chars: int = 7000) -> str:
     parts = []
     total = 0
     for i, chunk in enumerate(chunks, 1):
-        bron = chunk["bron"]
-        art = chunk.get("artikel", "")
-        ref = f"{bron} — {art}" if art else bron
-        text = chunk["text"][:1000]
-        part = f"[Bron {i}: {ref} | score: {chunk['score']}]\n{text}"
+        ref = chunk.label()
+        score = chunk.rerank_score if chunk.rerank_score >= 0 else chunk.score
+        text = chunk.text[:1200]
+        part = f"[Bron {i}: {ref} | score: {score:.3f}]\n{text}"
         if total + len(part) > max_chars:
             break
         parts.append(part)
@@ -115,18 +150,17 @@ def format_context(chunks: list[dict], max_chars: int = 6000) -> str:
     return "\n\n---\n\n".join(parts)
 
 
-def format_sources_display(chunks: list[dict]) -> str:
+def format_sources_display(chunks: list[RetrievalResult]) -> str:
     """Formatteer bronvermeldingen voor display onder het antwoord."""
     seen = set()
     refs = []
     for chunk in chunks[:8]:
-        ref = chunk["bron"]
-        if chunk.get("artikel"):
-            ref += f" — {chunk['artikel']}"
+        ref = chunk.label()
         if ref not in seen:
             seen.add(ref)
-            score_pct = int(chunk["score"] * 100)
-            refs.append(f"- {ref} (relevantie: {score_pct}%)")
+            score = chunk.rerank_score if chunk.rerank_score >= 0 else chunk.score
+            tag = " [concept]" if chunk.collection == "concepts" else ""
+            refs.append(f"- {ref}{tag} (relevantie: {int(score * 100)}%)")
     return "\n".join(refs) if refs else "Geen specifieke bronnen"
 
 
@@ -217,12 +251,14 @@ def select_patterns_for_concept(patterns: list[dict], concept: str,
 # ---------------------------------------------------------------------------
 
 def generate_case(client: anthropic.Anthropic, concept: str, po_filter: str,
-                  collections: dict, patroon: dict | None = None) -> tuple[str, str]:
+                  collections: dict, reranker,
+                  patroon: dict | None = None) -> tuple[str, str]:
     """
     Genereer een examenvraag. Geeft (vraag_tekst, gvraag_id) terug.
     Als patroon opgegeven: gebruik dat patroon als template.
     """
-    chunks = retrieve(collections, concept, BRONNEN_COLS + ["bestaande_fiches"], n=5)
+    chunks, _ = retrieve_two_pass(collections, reranker, concept,
+                                   BRONNEN_COLS + ["bestaande_fiches"])
     context = format_context(chunks, max_chars=3000)
 
     if patroon:
@@ -325,7 +361,7 @@ def main():
     st.caption("ITAA-bekwaamheidsexamen — Gecertificeerd Accountant")
 
     # Laad resources
-    _, ef, collections = load_rag()
+    _, ef, reranker, collections = load_rag()
     claude = get_claude()
 
     active_cols = [n for n in ALL_COLS if n in collections]
@@ -385,7 +421,10 @@ def main():
                 query = f"PO {po_filter} {prompt}"
 
             with st.spinner("Bronnen zoeken..."):
-                chunks = retrieve(collections, query, ALL_COLS, n=6)
+                chunks, _mode = retrieve_two_pass(
+                    collections, reranker, query, ALL_COLS,
+                    po_filter=po_filter if po_filter != "Alle PO's" else None,
+                )
 
             context = format_context(chunks)
             sources_display = format_sources_display(chunks)
@@ -443,7 +482,7 @@ def main():
         if st.button("Genereer oefenvraag", disabled=not concept_input):
             with st.spinner("Vraag genereren..."):
                 case_text, gvraag_id = generate_case(
-                    claude, concept_input, po_filter, collections, patroon_keuze
+                    claude, concept_input, po_filter, collections, reranker, patroon_keuze
                 )
 
             st.markdown("---")
@@ -473,16 +512,16 @@ def main():
 
         if concept_search:
             with st.spinner("Zoeken..."):
-                chunks = retrieve(collections, concept_search, ALL_COLS, n=8)
+                chunks, mode = retrieve_two_pass(
+                    collections, reranker, concept_search, ALL_COLS
+                )
 
-            st.markdown(f"**Top resultaten voor:** _{concept_search}_")
-            for i, chunk in enumerate(chunks[:6], 1):
-                ref = chunk["bron"]
-                if chunk.get("artikel"):
-                    ref += f" — {chunk['artikel']}"
-                score_pct = int(chunk["score"] * 100)
-                with st.expander(f"[{i}] {ref} ({score_pct}% relevant)"):
-                    st.text(chunk["text"][:600])
+            st.markdown(f"**Top resultaten voor:** _{concept_search}_ _(mode: {mode})_")
+            for i, chunk in enumerate(chunks[:8], 1):
+                score = chunk.rerank_score if chunk.rerank_score >= 0 else chunk.score
+                tag = " 🗂️" if chunk.collection == "concepts" else ""
+                with st.expander(f"[{i}] {chunk.label()}{tag} ({int(score*100)}% relevant)"):
+                    st.text(chunk.text[:800])
 
 
 if __name__ == "__main__":

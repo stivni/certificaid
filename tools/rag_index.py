@@ -31,7 +31,7 @@ from tqdm import tqdm
 
 ROOT = Path(__file__).parent.parent
 CHROMA_PATH = ROOT / "data" / "chroma_db"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-001
 
 SOURCES = {
     "wetteksten":      ROOT / "resources" / "bronnen" / "wetteksten",
@@ -119,6 +119,8 @@ def split_markdown_into_chunks(text: str, source_id: str) -> list[dict]:
     Splits markdown in chunks per ## sectie.
     Korte artikels (< MIN_CHUNK_CHARS) worden samengevoegd met de vorige context-heading.
     Context-heading wordt als eerste zin aan elk chunk prepended.
+
+    Elk chunk bevat ook chunk_index en parent_section voor context-uitbreiding (ADR-002).
     """
     lines = text.split("\n")
     chunks = []
@@ -139,10 +141,12 @@ def split_markdown_into_chunks(text: str, source_id: str) -> list[dict]:
             full_text = f"{heading}\n\n{body}" if heading else body
         chunk_counter += 1
         chunks.append({
-            "id": f"{source_id}__chunk{chunk_counter}",
-            "text": full_text.strip(),
-            "heading": heading,
+            "id":             f"{source_id}__chunk{chunk_counter}",
+            "text":           full_text.strip(),
+            "heading":        heading,
             "context_heading": context,
+            "chunk_index":    chunk_counter,   # voor context-uitbreiding via prev/next
+            "parent_section": context,         # dichtstbijzijnde BOEK/TITEL/AFDELING
         })
 
     for line in lines:
@@ -202,12 +206,14 @@ def index_wetteksten(collection, reset: bool = False):
             ids.append(chunk["id"])
             texts.append(chunk["text"])
             metadatas.append({
-                "bron":         str(fm.get("wet", fm.get("bron", path.stem))),
-                "bestand":      path.name,
-                "artikel_ref":  chunk["heading"],
-                "themas":       json.dumps(fm.get("tags", [])),
-                "itaa_lex":     str(fm.get("itaa-lex-sectie", "")),
-                "collection":   "wetteksten",
+                "bron":           str(fm.get("wet", fm.get("bron", path.stem))),
+                "bestand":        path.name,
+                "artikel_ref":    chunk["heading"],
+                "themas":         json.dumps(fm.get("tags", [])),
+                "itaa_lex":       str(fm.get("itaa-lex-sectie", "")),
+                "chunk_index":    chunk["chunk_index"],    # voor context-uitbreiding
+                "parent_section": chunk["parent_section"], # BOEK/TITEL/AFDELING
+                "collection":     "wetteksten",
             })
 
     if ids:
@@ -240,11 +246,13 @@ def index_normen(collection, reset: bool = False):
             ids.append(chunk["id"])
             texts.append(chunk["text"])
             metadatas.append({
-                "bron":       str(fm.get("norm", path.stem)),
-                "bestand":    path.name,
-                "sectie":     chunk["heading"],
-                "themas":     json.dumps(fm.get("themas", [])),
-                "collection": "normen",
+                "bron":           str(fm.get("norm", path.stem)),
+                "bestand":        path.name,
+                "sectie":         chunk["heading"],
+                "themas":         json.dumps(fm.get("themas", [])),
+                "chunk_index":    chunk["chunk_index"],
+                "parent_section": chunk["parent_section"],
+                "collection":     "normen",
             })
 
     if ids:
@@ -271,8 +279,10 @@ def index_adviezen(collection, reset: bool = False):
         source_id = path.stem
         content = post.content.strip()
 
-        # Korte adviezen (< 500 chars): hele advies als 1 chunk
-        if len(content) < 500 or not re.search(r"^#{1,4} ", content, re.MULTILINE):
+        # Adviezen ≤ 40.000 chars (≈ 8.000 tokens): heel advies als 1 chunk (ADR-002)
+        # bge-m3 heeft een context window van 8.192 tokens — mediaan advies (~7.500 chars)
+        # past ruimschoots. Alleen de ~10% grootste adviezen worden gesplitst op ##-secties.
+        if len(content) <= 40_000 or not re.search(r"^#{1,4} ", content, re.MULTILINE):
             chunk_text = content
             nummer = str(fm.get("nummer", path.stem))
             ids.append(f"{source_id}__chunk1")
