@@ -14,7 +14,7 @@ Een gedeelde `retrieve()`-functie met één vaste top-N dient beide slecht.
 
 ## Beslissing
 
-### Concept-extractie (`tools/concept_extractor.py`)
+### Concept-extractie (`tools/extractie/concept_extractor.py`)
 
 ```
 Per concept: 5 gerichte sub-queries

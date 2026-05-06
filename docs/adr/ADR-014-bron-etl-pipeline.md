@@ -45,8 +45,8 @@ Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 - `remove_inline_metadata` — losse Staatsblad-referenties, datumregels
 
 **Twee commando's, twee bedoelingen**:
-- `convert.py --source NAAM` — volledige herconversie vanuit PDF (destructief)
-- `convert.py --cleanup-only --source NAAM` — enkel opmaak bijwerken (veilig, idempotent)
+- `tools/etl/convert.py --source NAAM` — volledige herconversie vanuit PDF (destructief)
+- `tools/etl/convert.py --cleanup-only --source NAAM` — enkel opmaak bijwerken (veilig, idempotent)
 
 **Invariant**: cleanup verandert nooit de juridische tekst — enkel opmaak en metadataruis.
 
@@ -58,7 +58,7 @@ Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 
 **Herkomst**: CBN-website (publiek toegankelijk). Adviezen zijn beschikbaar als HTML-pagina's.
 
-**Tooling**: `tools/download-cbn-adviezen.py` + `tools/reprocess_cbn_adviezen.py`
+**Tooling**: `tools/download/download-cbn-adviezen.py` + `tools/etl/reprocess_cbn_adviezen.py`
 
 **Output**: één `.md`-bestand per advies in `resources/bronnen/adviezen/`, met YAML frontmatter (`titel`, `themas`, `datum`).
 
@@ -72,7 +72,7 @@ Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 
 **Herkomst**: BeExcellent-platform (ITAA-normen) en ISA/ISAE/ISRS (IFAC-publicaties).
 
-**Tooling**: `tools/download_beexcellent_normen.py` + `tools/process_normen.py`
+**Tooling**: `tools/download/download_beexcellent_normen.py` + `tools/etl/process_normen.py`
 
 **Output**: één `.md`-bestand per norm in `resources/bronnen/normen/`, met YAML frontmatter.
 
@@ -88,8 +88,8 @@ Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 
 ## Gevolgen
 
-- Nieuwe wettekst: entry in `source_config.yaml` → `convert.py --source NAAM` → `generate_keywords.py` → `rag_index.py`
-- Nieuw CBN-advies: `download-cbn-adviezen.py` voor dat advies → `rag_index.py --collection adviezen`
-- Nieuwe norm: `download_beexcellent_normen.py` → `rag_index.py --collection normen`
+- Nieuwe wettekst: entry in `source_config.yaml` → `tools/etl/convert.py --source NAAM` → `tools/extractie/generate_keywords.py` → `tools/rag/rag_index.py`
+- Nieuw CBN-advies: `tools/download/download-cbn-adviezen.py` voor dat advies → `tools/rag/rag_index.py --collection adviezen`
+- Nieuwe norm: `tools/download/download_beexcellent_normen.py` → `tools/rag/rag_index.py --collection normen`
 - Handmatige correcties in wettekst-`.md`-bestanden gaan verloren bij herconversie; `--cleanup-only` is veilig
 - Buiten scope: keyword-generatie (ADR-004), chunk-strategie (ADR-002), bron_rol-classificatie (ADR-008)

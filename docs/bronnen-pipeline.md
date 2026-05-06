@@ -6,9 +6,9 @@ Nieuwe bronnen toevoegen verloopt in drie stappen:
 
 ```
 resources/raw/wetteksten/NAAM.pdf   (of Justel HTML via curl)
-    ↓  python3 tools/convert.py --source NAAM
+    ↓  python3 tools/etl/convert.py --source NAAM
 resources/bronnen/wetteksten/NAAM.md
-    ↓  python3 tools/rag_index.py --collection wetteksten --reset
+    ↓  python3 tools/rag/rag_index.py --collection wetteksten --reset
 data/chroma_db/  (bijgewerkt)
 ```
 
@@ -105,32 +105,32 @@ Extra stappen (via `cleanup:` in config):
 
 ```bash
 # Eén bron
-python3 tools/convert.py --source MijnWet
+python3 tools/etl/convert.py --source MijnWet
 
 # Alle bronnen van een type
-python3 tools/convert.py --type ejustice_nl
+python3 tools/etl/convert.py --type ejustice_nl
 
 # Alle toc-only bronnen
-python3 tools/convert.py --type toc_only
+python3 tools/etl/convert.py --type toc_only
 
 # Overzicht van alle bronnen en hun status
-python3 tools/convert.py --list
+python3 tools/etl/convert.py --list
 
 # Cleanup-only met diff (geen herconversie)
-python3 tools/convert.py --source WIB92 --cleanup-only --diff --dry-run
+python3 tools/etl/convert.py --source WIB92 --cleanup-only --diff --dry-run
 ```
 
 ## Stap 3 — RAG-index bijwerken
 
 ```bash
 # Volledige herbouw wetteksten-collection
-python3 tools/rag_index.py --collection wetteksten --reset
+python3 tools/rag/rag_index.py --collection wetteksten --reset
 
 # Alle collections herbouwen
-python3 tools/rag_index.py --reset
+python3 tools/rag/rag_index.py --reset
 
 # Verificatie
-python3 tools/rag_query.py "btw belastingplicht toepassingsgebied" --collections wetteksten --n 3
+python3 tools/rag/rag_query.py "btw belastingplicht toepassingsgebied" --collections wetteksten --n 3
 ```
 
 ## Stap 4 — ITAA-LEX.md bijwerken

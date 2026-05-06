@@ -7,7 +7,7 @@ Bereidt één concept voor op extractie door een Claude Code agent.
 De Claude Code scheduled task leest dat bestand en genereert het concept record.
 
 Gebruik:
-  python tools/prepare_extraction.py --concept meldingsplicht-aww --po 4.0 \
+  python tools/extractie/prepare_extraction.py --concept meldingsplicht-aww --po 4.0 \
       --tdk "Meldingsplicht bij vermoeden van WG/FT aan de CFI"
 """
 
@@ -20,7 +20,7 @@ from datetime import date
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 QUEUE_DIR = ROOT / "data" / "extraction_queue"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"

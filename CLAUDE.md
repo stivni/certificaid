@@ -16,7 +16,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | PO-build uitvoeren | [`docs/po-builder.md`](docs/po-builder.md) |
 | Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
-| RAG-index herbouwen of querien | `tools/rag_index.py`, `tools/rag_query.py` |
+| RAG-index herbouwen of querien | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` |
 
 ---
 
@@ -65,12 +65,13 @@ certificaid/
 │   ├── source_config.yaml      # Enige bron van waarheid voor alle bronnen
 │   └── po-builder-prompt.md    # Startbericht po-builder scheduled agent
 ├── tools/
-│   ├── lib/                    # Gedeelde bibliotheken (retrieval, cleanup)
-│   ├── rag_index.py            # ChromaDB-index bouwen
-│   ├── rag_query.py            # RAG bevragen (CLI)
-│   ├── convert.py              # Wetteksten converteren
-│   ├── generate_keywords.py    # Chunk-level keywords (KeyBERT, lokaal)
-│   └── concept_extractor.py   # Concept records genereren
+│   ├── download/               # Bron ophalen (CBN-adviezen, ITAA-normen)
+│   ├── etl/                    # PDF/HTML → markdown wetteksten + reprocessing
+│   ├── rag/                    # ChromaDB-index bouwen + bevragen
+│   ├── extractie/              # Concept- en keyword-extractie
+│   ├── examen/                 # Examenpatronen + question review
+│   ├── export/                 # Externe exports (NotebookLM)
+│   └── lib/                    # Gedeelde bibliotheken (retrieval, cleanup)
 ├── tutor/app.py                # Streamlit tutor
 ├── data/
 │   ├── chroma_db/              # ChromaDB (gitignored, herbouwbaar)

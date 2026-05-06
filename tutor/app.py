@@ -366,7 +366,7 @@ def main():
 
     active_cols = [n for n in ALL_COLS if n in collections]
     if not active_cols:
-        st.error("❌ Geen RAG-collections gevonden. Run eerst `python tools/rag_index.py`.")
+        st.error("❌ Geen RAG-collections gevonden. Run eerst `python tools/rag/rag_index.py`.")
         st.stop()
 
     # --- Sidebar ---
@@ -477,7 +477,7 @@ def main():
                     st.markdown(f"Cognitieve laag: `{patroon_keuze.get('cognitieve_laag', '?')}`")
                     st.markdown(f"Valkuil: _{patroon_keuze.get('valkuil', '?')}_")
         else:
-            st.info("💡 Geen examenpatronen geladen. Run `python tools/extract_exam_patterns.py` om patronen te extraheren.")
+            st.info("💡 Geen examenpatronen geladen. Run `python tools/examen/extract_exam_patterns.py` om patronen te extraheren.")
 
         if st.button("Genereer oefenvraag", disabled=not concept_input):
             with st.spinner("Vraag genereren..."):

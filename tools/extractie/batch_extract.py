@@ -5,10 +5,10 @@ Leest de TDKs uit de PO-fiches en roept concept_extractor aan per concept.
 Slaat voortgang op zodat je kunt hervatten bij onderbreking.
 
 Gebruik:
-  python tools/batch_extract.py --po 4.0
-  python tools/batch_extract.py --po 2.4 --resume      # hervat na onderbreking
-  python tools/batch_extract.py --po 2.4 --dry-run     # toon wat er geëxtraheerd zou worden
-  python tools/batch_extract.py --po all               # alle PO's
+  python tools/extractie/batch_extract.py --po 4.0
+  python tools/extractie/batch_extract.py --po 2.4 --resume      # hervat na onderbreking
+  python tools/extractie/batch_extract.py --po 2.4 --dry-run     # toon wat er geëxtraheerd zou worden
+  python tools/extractie/batch_extract.py --po all               # alle PO's
 """
 
 import argparse
@@ -20,12 +20,12 @@ from datetime import datetime
 
 import frontmatter
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 PO_DIR = ROOT / "content" / "programmaonderdelen"
 OUTPUT_DIR = ROOT / "data" / "concept_records"
 PROGRESS_DIR = ROOT / "data"
 
-sys.path.insert(0, str(ROOT / "tools"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from concept_extractor import extract_concept, save_record
 
 

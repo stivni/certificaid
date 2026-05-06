@@ -2,13 +2,13 @@
 Unified conversie-pipeline voor Certificaid-bronnen.
 
 Gebruik:
-  python tools/convert.py --list                          # overzicht alle bronnen
-  python tools/convert.py --source WIB92                 # converteer één bron
-  python tools/convert.py --source Antiwitwaswet-2017 --reindex
-  python tools/convert.py --type ejustice_nl              # alle bronnen van dit type
-  python tools/convert.py --type toc_only                 # alle bronnen die conversie nodig hebben
-  python tools/convert.py --cleanup-only --source WIB92  # alleen cleanup, geen herconversie
-  python tools/convert.py --diff --source WIB92          # toon diff na cleanup
+  python tools/etl/convert.py --list                          # overzicht alle bronnen
+  python tools/etl/convert.py --source WIB92                 # converteer één bron
+  python tools/etl/convert.py --source Antiwitwaswet-2017 --reindex
+  python tools/etl/convert.py --type ejustice_nl              # alle bronnen van dit type
+  python tools/etl/convert.py --type toc_only                 # alle bronnen die conversie nodig hebben
+  python tools/etl/convert.py --cleanup-only --source WIB92  # alleen cleanup, geen herconversie
+  python tools/etl/convert.py --diff --source WIB92          # toon diff na cleanup
 """
 
 import argparse
@@ -19,7 +19,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CONFIG_PATH = ROOT / "resources" / "source_config.yaml"
 
 sys.path.insert(0, str(ROOT / "tools"))
@@ -115,7 +115,7 @@ def make_frontmatter(cfg: dict, source_name: str) -> str:
 
 def convert_wib92(cfg: dict, source_name: str, dry_run: bool = False) -> str:
     """Delegeer naar het bestaande convert-wib92.py script."""
-    script = ROOT / "tools" / "convert-wib92.py"
+    script = ROOT / "tools" / "etl" / "convert-wib92.py"
     if not script.exists():
         raise FileNotFoundError(f"convert-wib92.py niet gevonden")
     print(f"  → Delegeer naar {script.name}")
@@ -131,7 +131,7 @@ def convert_wetboek(cfg: dict, source_name: str, dry_run: bool = False) -> str:
     key = cfg.get("wetboek_key")
     if not key:
         raise ValueError(f"wetboek_key ontbreekt voor {source_name}")
-    script = ROOT / "tools" / "convert-wetboek.py"
+    script = ROOT / "tools" / "etl" / "convert-wetboek.py"
     print(f"  → Delegeer naar {script.name} --config {key}")
     if not dry_run:
         result = subprocess.run(
@@ -253,7 +253,7 @@ def _show_diff(original: str, cleaned: str, name: str):
 
 def reindex(source_name: str, cfg: dict):
     """Voeg de geconverteerde bron toe aan de ChromaDB index."""
-    script = ROOT / "tools" / "rag_index.py"
+    script = ROOT / "tools" / "rag" / "rag_index.py"
     collection = _collection_for(cfg)
     print(f"  → Re-index in collection '{collection}'")
     result = subprocess.run(

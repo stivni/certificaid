@@ -12,10 +12,10 @@ Elk chunk krijgt contextual retrieval: de dichtstbijzijnde betekenisvolle
 sectietitel wordt als eerste zin in de chunk-tekst opgenomen.
 
 Gebruik:
-  python tools/rag_index.py                    # bouw alle collections
-  python tools/rag_index.py --collection normen
-  python tools/rag_index.py --add-concepts     # voeg concept records toe
-  python tools/rag_index.py --reset            # verwijder en herbouw alles
+  python tools/rag/rag_index.py                    # bouw alle collections
+  python tools/rag/rag_index.py --collection normen
+  python tools/rag/rag_index.py --add-concepts     # voeg concept records toe
+  python tools/rag/rag_index.py --reset            # verwijder en herbouw alles
 """
 
 import argparse
@@ -29,7 +29,7 @@ import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 from tqdm import tqdm
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-001
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"

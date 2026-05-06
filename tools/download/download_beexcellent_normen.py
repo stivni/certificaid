@@ -270,7 +270,7 @@ def process_html_norm(session, norm_meta):
 
 
 def main():
-    os.chdir(Path(__file__).parent.parent)
+    os.chdir(Path(__file__).resolve().parent.parent.parent)
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 

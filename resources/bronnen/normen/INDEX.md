@@ -38,7 +38,7 @@ Laatste update: 2026-05-02
 Alle normen zijn lokaal beschikbaar. Om een norm te vernieuwen na een update op BeExcellent:
 
 1. Log in op het ITAA-portaal via de browser
-2. Voer `python3 tools/download_beexcellent_normen.py` uit — het script haalt verse presigned URLs op en converteert de bestanden opnieuw
+2. Voer `python3 tools/download/download_beexcellent_normen.py` uit — het script haalt verse presigned URLs op en converteert de bestanden opnieuw
 
 **BeExcellent artikel-IDs** (voor handmatige toegang):
 - AWW BIBF richtlijn: artikel 4 | AWW geconsolideerd: artikel 416

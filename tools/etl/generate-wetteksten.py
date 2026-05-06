@@ -20,8 +20,8 @@ import os
 import sys
 from pathlib import Path
 
-RESOURCES = Path(__file__).parent.parent / "resources" / "wetteksten"
-CONTENT = Path(__file__).parent.parent / "content" / "wetteksten"
+RESOURCES = Path(__file__).resolve().parent.parent.parent / "resources" / "wetteksten"
+CONTENT = Path(__file__).resolve().parent.parent.parent / "content" / "wetteksten"
 
 # ---------------------------------------------------------------------------
 # Configuratie per bronbestand

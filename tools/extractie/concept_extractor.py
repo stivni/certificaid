@@ -7,9 +7,9 @@ Concept extractor: genereert een rijke concept record JSON vanuit:
 Output: data/concept_records/<id>.json
 
 Gebruik:
-  python tools/concept_extractor.py --concept "btw-belastingplicht" --po 2.4
-  python tools/concept_extractor.py --concept "meldingsplicht-aww" --po 4.0 --tdk-tekst "Meldingsplicht bij vermoeden van WG/FT"
-  python tools/concept_extractor.py --concept "btw-belastingplicht" --po 2.4 --dry-run
+  python tools/extractie/concept_extractor.py --concept "btw-belastingplicht" --po 2.4
+  python tools/extractie/concept_extractor.py --concept "meldingsplicht-aww" --po 4.0 --tdk-tekst "Meldingsplicht bij vermoeden van WG/FT"
+  python tools/extractie/concept_extractor.py --concept "btw-belastingplicht" --po 2.4 --dry-run
 """
 
 import argparse
@@ -24,7 +24,7 @@ import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 import anthropic
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 OUTPUT_DIR = ROOT / "data" / "concept_records"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"

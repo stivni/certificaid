@@ -6,10 +6,10 @@ Keywords worden prepended aan de chunk-tekst bij indexering zodat de embedding
 semantisch rijker is (zie rag_index.py: _prepend_keywords).
 
 Gebruik:
-  python tools/generate_keywords.py                        # alle wetteksten
-  python tools/generate_keywords.py --source Antiwitwaswet-2017
-  python tools/generate_keywords.py --priority             # AWW, WIB92, WBTW, WVV, Wet-ITAA, WER, ...
-  python tools/generate_keywords.py --dry-run              # toon chunks zonder keywords te genereren
+  python tools/extractie/generate_keywords.py                        # alle wetteksten
+  python tools/extractie/generate_keywords.py --source Antiwitwaswet-2017
+  python tools/extractie/generate_keywords.py --priority             # AWW, WIB92, WBTW, WVV, Wet-ITAA, WER, ...
+  python tools/extractie/generate_keywords.py --dry-run              # toon chunks zonder keywords te genereren
 
 Installatie (eenmalig):
   pip3 install keybert
@@ -27,7 +27,7 @@ from pathlib import Path
 
 import frontmatter
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 WETTEKSTEN_DIR = ROOT / "resources" / "bronnen" / "wetteksten"
 

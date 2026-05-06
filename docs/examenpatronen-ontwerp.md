@@ -187,7 +187,7 @@ Formaat: `JJJJMMDD.N` (bv. `20260506.1`, `20260506.2`)
 
 - Datum + volgnummer binnen die dag
 - Wanneer een patroon een nieuwe versie krijgt → alle `generated_questions` die dat patroon gebruiken krijgen `herzieningsstatus: "stale"`
-- Review via `python3 tools/question_review.py --flag --revise`
+- Review via `python3 tools/examen/question_review.py --flag --revise`
 
 ---
 

@@ -2,11 +2,11 @@
 CLI-test voor de Certificaid RAG-index.
 
 Gebruik:
-  python tools/rag_query.py "meldingsplicht bij vermoeden van witwassen"
-  python tools/rag_query.py "btw-vrijstelling kleine onderneming" --collections wetteksten,normen
-  python tools/rag_query.py "continuiteitsrisico" --n 10 --show-meta
-  python tools/rag_query.py "meldingsplicht" --rerank          # met cross-encoder reranking
-  python tools/rag_query.py "meldingsplicht" --rerank --expand # + context-uitbreiding
+  python tools/rag/rag_query.py "meldingsplicht bij vermoeden van witwassen"
+  python tools/rag/rag_query.py "btw-vrijstelling kleine onderneming" --collections wetteksten,normen
+  python tools/rag/rag_query.py "continuiteitsrisico" --n 10 --show-meta
+  python tools/rag/rag_query.py "meldingsplicht" --rerank          # met cross-encoder reranking
+  python tools/rag/rag_query.py "meldingsplicht" --rerank --expand # + context-uitbreiding
 """
 
 import argparse
@@ -14,7 +14,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 import chromadb

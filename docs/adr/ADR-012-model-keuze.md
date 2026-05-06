@@ -22,6 +22,6 @@ Het systeem gebruikt taalmodellen op twee plaatsen: voor interactieve generatie 
 
 ## Gevolgen
 
-- `tools/generate_keywords.py` gebruikt KeyBERT/YAKE, geen Anthropic SDK
+- `tools/extractie/generate_keywords.py` gebruikt KeyBERT/YAKE, geen Anthropic SDK
 - `ANTHROPIC_API_KEY` is nodig voor tutor en concept_extractor, maar niet voor indexering
 - Bij toekomstige model-upgrades: tutor en concept_extractor aanpassen, keywords-pipeline ongewijzigd

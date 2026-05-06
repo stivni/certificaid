@@ -32,7 +32,7 @@ De onderworpen entiteiten ... melden aan de CFI ...
 
 ### Aanpak
 
-- Eenmalig script `tools/generate_keywords.py` (gebruikt KeyBERT met bge-m3 als backbone — volledig lokaal, geen API). laadt elke wettekst, chunked op artikelen, vraagt Claude per chunk om 5–10 keywords
+- Eenmalig script `tools/extractie/generate_keywords.py` (gebruikt KeyBERT met bge-m3 als backbone — volledig lokaal, geen API). laadt elke wettekst, chunked op artikelen, vraagt Claude per chunk om 5–10 keywords
 - Output: per wettekst een `resources/bronnen/wetteksten/keywords/NAAM.json` (map artikel-heading → keywords)
 - `rag_index.py` leest dit bestand bij het indexeren en prepend de keywords aan de chunk-tekst
 - Bronbestanden (`.md`) worden **niet** gewijzigd — keywords leven apart

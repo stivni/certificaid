@@ -63,7 +63,7 @@ Het schema moet:
 
 ## Gevolgen
 
-- `tools/concept_extractor.py` genereert dit schema
-- `tools/rag_index.py` chunked het per veld voor de `concepts` collection
+- `tools/extractie/concept_extractor.py` genereert dit schema
+- `tools/rag/rag_index.py` chunked het per veld voor de `concepts` collection
 - Schema-wijzigingen vereisen herbouw van de concepts-collection
 - Bestaande records zijn niet automatisch compatibel bij schema-breaking changes

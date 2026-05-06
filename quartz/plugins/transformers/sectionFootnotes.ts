@@ -1,4 +1,4 @@
-import { QuartzTransformerPlugin } from "../quartz/plugins/types"
+import { QuartzTransformerPlugin } from "../types"
 
 /**
  * Injects CSS to style inline citation links (wikilinks to itaa-lex or wetteksten)

@@ -2,10 +2,10 @@
 Herzie gegenereerde examenvragen na patroonupdates.
 
 Gebruik:
-  python tools/question_review.py --flag              # markeer stale vragen
-  python tools/question_review.py --revise            # herzien stale vragen via Claude
-  python tools/question_review.py --report            # overzicht van de status
-  python tools/question_review.py --flag --revise     # vlag + meteen herzien
+  python tools/examen/question_review.py --flag              # markeer stale vragen
+  python tools/examen/question_review.py --revise            # herzien stale vragen via Claude
+  python tools/examen/question_review.py --report            # overzicht van de status
+  python tools/examen/question_review.py --flag --revise     # vlag + meteen herzien
 """
 
 import argparse
@@ -16,7 +16,7 @@ from pathlib import Path
 
 import anthropic
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 PATTERNS_DIR = ROOT / "data" / "exam_patterns"
 QUESTIONS_DIR = ROOT / "data" / "generated_questions"
 CONCEPTS_DIR = ROOT / "data" / "concept_records"

@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { SectionFootnotes } from "./tools/sectionFootnotes"
+import { SectionFootnotes } from "./quartz/plugins/transformers/sectionFootnotes"
 
 const config: QuartzConfig = {
   configuration: {

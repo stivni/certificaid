@@ -2,9 +2,9 @@
 Extraheer examenpatronen uit ITAA voorbeeldexamen PDFs.
 
 Gebruik:
-  python tools/extract_exam_patterns.py                    # alle examens
-  python tools/extract_exam_patterns.py --exam 2013-1.pdf  # één examen
-  python tools/extract_exam_patterns.py --merge-only       # herconsolideer bestaande patronen
+  python tools/examen/extract_exam_patterns.py                    # alle examens
+  python tools/examen/extract_exam_patterns.py --exam 2013-1.pdf  # één examen
+  python tools/examen/extract_exam_patterns.py --merge-only       # herconsolideer bestaande patronen
 """
 
 import argparse
@@ -18,7 +18,7 @@ from pathlib import Path
 import anthropic
 import pdfplumber
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 EXAMS_DIR = ROOT / "resources" / "voorbeeldexamens"
 PATTERNS_DIR = ROOT / "data" / "exam_patterns"
 INDEX_PATH = ROOT / "resources" / "voorbeeldexamens" / "INDEX.md"

@@ -1,9 +1,9 @@
 # Bronnen-configuratie voor de Certificaid conversie-pipeline.
 #
 # Gebruik:
-#   python tools/convert.py --source WIB92 --reindex
-#   python tools/convert.py --type ejustice --reindex   # alle ejustice bronnen
-#   python tools/convert.py --list                       # overzicht status
+#   python tools/etl/convert.py --source WIB92 --reindex
+#   python tools/etl/convert.py --type ejustice --reindex   # alle ejustice bronnen
+#   python tools/etl/convert.py --list                       # overzicht status
 #
 # Velden:
 #   type        : conversiemethode (wib92 | wetboek | ejustice_nl | ejustice_bilingual | raw_md | skip)
