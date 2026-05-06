@@ -23,7 +23,8 @@ resources/voorbeeldexamens/
 resources/samenvatting-deontologie.pdf
 resources/programma.pdf
 
-tools/__pycache__/
+**/__pycache__/
+*.pyc
 
 # PO-build voortgang (lokaal, niet in repo)
 .po-voortgang-*.md
