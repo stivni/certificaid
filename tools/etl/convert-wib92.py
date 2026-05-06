@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Converteert WIB92-deel1.pdf (tweetalig) naar gestructureerde NL markdown.
+Converteert WIB92.pdf (tweetalig) naar gestructureerde NL markdown.
 Extraheert alleen de rechterkolom (NL) via coördinaten.
 """
 
@@ -8,8 +8,8 @@ import subprocess
 import re
 import sys
 
-INPUT_PDF = "resources/wetteksten/raw/WIB92-deel1.pdf"
-OUTPUT_MD = "resources/wetteksten/WIB92.md"
+INPUT_PDF = "resources/raw/wetteksten/WIB92.pdf"
+OUTPUT_MD = "resources/bronnen/wetteksten/WIB92.md"
 
 # Pagina 42 = eerste pagina met artikeltekst (Art. 1)
 # Pagina 1315 = laatste pagina

@@ -7,476 +7,44 @@ Ondersteunt:
 """
 
 import subprocess, re, sys, os
+from pathlib import Path
+import yaml
 
-CONFIGS = {
-    'wbtw-2026': {
-        'input': 'resources/raw/wetteksten/WBTW-2026.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW.md',
-        'output_content': 'content/bronnen/wetteksten/VIA-wbtw.md',
-        'mode': 'nl',
-        'itaa_sectie': 'VI.A',
-        'wet': 'Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde (WBTW)',
-        'bijgewerkt': '19.12.2025',
-        'titel': 'Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)',
-        'tags': '["VI.A"]',
-    },
-    'reg-brussel': {
-        'input': 'resources/raw/wetteksten/Registratierechten-Brussel.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-Brussel.md',
-        'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-brussel.md',
-        'mode': 'nl',
-        'itaa_sectie': 'VIII',
-        'wet': 'Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest',
-        'bijgewerkt': '16.03.2026',
-        'titel': 'Registratierechten — Brussels Hoofdstedelijk Gewest',
-        'tags': '["VIII", "2.6"]',
-    },
-    'reg-waals': {
-        'input': 'resources/raw/wetteksten/Registratierechten-Waals.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-Waals.md',
-        'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-waals.md',
-        'mode': 'nl',
-        'itaa_sectie': 'VIII',
-        'wet': 'Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest',
-        'bijgewerkt': '16.03.2026',
-        'titel': 'Registratierechten — Waals Gewest',
-        'tags': '["VIII", "2.6"]',
-    },
-    'successie-brussel': {
-        'input': 'resources/raw/wetteksten/successie-brussel.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Successierechten-Brussel.md',
-        'output_content': 'content/bronnen/wetteksten/IX-successierechten-brussel.md',
-        'mode': 'nl',
-        'itaa_sectie': 'IX',
-        'wet': 'Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest',
-        'bijgewerkt': '16.03.2026',
-        'titel': 'Successierechten — Brussels Hoofdstedelijk Gewest',
-        'tags': '["IX", "2.6"]',
-    },
-    'successie-waals': {
-        'input': 'resources/raw/wetteksten/successie-waals.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Successierechten-Waals.md',
-        'output_content': 'content/bronnen/wetteksten/IX-successierechten-waals.md',
-        'mode': 'nl',
-        'itaa_sectie': 'IX',
-        'wet': 'Wetboek der Successierechten — Waals Gewest',
-        'bijgewerkt': '16.03.2026',
-        'titel': 'Successierechten — Waals Gewest',
-        'tags': '["IX", "2.6"]',
-    },
-    'successie-federaal': {
-        'input': 'resources/raw/wetteksten/successie-federaal.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Successierechten-federaal.md',
-        'output_content': 'content/bronnen/wetteksten/IX-successierechten-federaal.md',
-        'mode': 'bilingual',
-        'start_page': 8,
-        'col_x': 0,  # NL links
-        'itaa_sectie': 'IX',
-        'wet': 'Wetboek der Successierechten — federaal',
-        'bijgewerkt': '01.04.2026',
-        'titel': 'Successierechten — federaal',
-        'tags': '["IX", "2.6"]',
-    },
-    'vcf-update': {
-        'input': 'resources/raw/wetteksten/VCF-2026.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/VCF.md',
-        'output_content': 'content/bronnen/wetteksten/IVA-vcf.md',
-        'mode': 'bilingual',
-        'start_page': 30,
-        'col_x': 0,  # NL staat links
-        'itaa_sectie': 'IV.A',
-        'wet': 'Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)',
-        'bijgewerkt': '03.04.2026',
-        'titel': 'Vlaamse Codex Fiscaliteit (VCF)',
-        'tags': '["IV.A", "2.6"]',
-    },
-    'reg-federaal': {
-        'input': 'resources/raw/wetteksten/Registratierechten-federaal.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Registratierechten-federaal.md',
-        'output_content': 'content/bronnen/wetteksten/VIII-registratierechten-federaal.md',
-        'mode': 'bilingual',
-        'start_page': 8,
-        'col_x': 0,  # NL staat links in deze PDF (omgekeerd t.o.v. WIB92)
-        'itaa_sectie': 'VIII',
-        'wet': 'Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal',
-        'bijgewerkt': '01.04.2026',
-        'titel': 'Registratierechten — federaal',
-        'tags': '["VIII", "2.6"]',
-    },
-    'brusselse-codex-fiscale-procedure': {
-        'input': 'resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md',
-        'output_content': 'content/bronnen/wetteksten/IVB-brusselse-codex-fiscale-procedure.md',
-        'mode': 'nl',
-        'itaa_sectie': 'IV.B',
-        'wet': 'Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure',
-        'bijgewerkt': '04.06.2024',
-        'titel': 'Brusselse Codex Fiscale Procedure',
-        'tags': '["IV.B", "2.5"]',
-    },
-    'decr-waals-belastingen': {
-        'input': 'resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md',
-        'output_content': 'content/bronnen/wetteksten/IVC-decr-waals-directe-belastingen.md',
-        'mode': 'nl',
-        'itaa_sectie': 'IV.C',
-        'wet': 'Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen',
-        'bijgewerkt': '03.02.2026',
-        'titel': 'Decreet Waalse gewestelijke belastingen',
-        'tags': '["IV.C", "2.5"]',
-    },
+ROOT = Path(__file__).resolve().parents[2]
+YAML_PATH = ROOT / "resources" / "source_config.yaml"
 
 
+def load_wetboek_config(name):
+    """Lees een wetboek-entry uit source_config.yaml en map naar het interne cfg-formaat."""
+    with open(YAML_PATH) as f:
+        cfg = yaml.safe_load(f)
+    sources = cfg.get("sources", {})
+    if name not in sources:
+        return None
+    entry = sources[name]
+    if entry.get("type") != "wetboek":
+        return None
+    return {
+        "name": name,
+        "input": entry["raw"],
+        "output_resources": entry["output"],
+        "output_content": entry.get("content"),
+        "mode": entry["mode"],
+        "wet": entry["wet"],
+        "titel": entry["titel"],
+        "bijgewerkt": entry["bijgewerkt"],
+        "itaa_sectie": entry["itaa_sectie"],
+        "tags": entry["tags"],
+        "col_x": entry.get("col_x"),
+        "start_page": entry.get("start_page"),
+    }
 
 
+def all_wetboek_names():
+    with open(YAML_PATH) as f:
+        cfg = yaml.safe_load(f)
+    return [k for k, v in cfg.get("sources", {}).items() if v.get("type") == "wetboek"]
 
-    'kb-voorafgaande-beslissingen-art26': {
-        'input': 'resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art26-2003.md',
-        'output_content': 'content/bronnen/wetteksten/I-kb-voorafgaande-beslissingen-art26.md',
-        'mode': 'nl', 'itaa_sectie': 'I',
-        'wet': 'K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken',
-        'bijgewerkt': '30.01.2003', 'titel': 'K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)', 'tags': '["I"]',
-    },
-    'avg-verordening': {
-        'input': 'resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/EU-AVG-Verordening-2016-679.md',
-        'output_content': 'content/bronnen/wetteksten/XIX-avg-verordening-2016-679.md',
-        'mode': 'eu_richtlijn', 'itaa_sectie': 'XIX',
-        'wet': 'Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)',
-        'bijgewerkt': '27.04.2016', 'titel': 'AVG — Algemene Verordening Gegevensbescherming 2016/679', 'tags': '["XIX", "4.0"]',
-    },
-    'wet-voorafgaande-beslissingen': {
-        'input': 'resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md',
-        'output_content': 'content/bronnen/wetteksten/I-wet-voorafgaande-beslissingen.md',
-        'mode': 'nl', 'itaa_sectie': 'I',
-        'wet': 'Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken',
-        'bijgewerkt': '24.12.2002', 'titel': 'Wet voorafgaande beslissingen in fiscale zaken', 'tags': '["I", "2.1"]',
-    },
-    'wet-betalingsachterstand': {
-        'input': 'resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md',
-        'output_content': 'content/bronnen/wetteksten/XIV-wet-betalingsachterstand.md',
-        'mode': 'nl', 'itaa_sectie': 'XIV',
-        'wet': 'Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties',
-        'bijgewerkt': '02.08.2002', 'titel': 'Wet betalingsachterstand handelstransacties', 'tags': '["XIV"]',
-    },
-    'klokkenluiderswet': {
-        'input': 'resources/raw/wetteksten/Klokkenluiderswet-2022.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Klokkenluiderswet-2022.md',
-        'output_content': 'content/bronnen/wetteksten/XVIII-klokkenluiderswet.md',
-        'mode': 'nl', 'itaa_sectie': 'XVIII',
-        'wet': 'Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector',
-        'bijgewerkt': '28.11.2022', 'titel': 'Klokkenluiderswet 2022', 'tags': '["XVIII", "4.0"]',
-    },
-    'avg-wet-2018': {
-        'input': 'resources/raw/wetteksten/AVG-wet-2018.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/AVG-wet-2018.md',
-        'output_content': 'content/bronnen/wetteksten/XIX-avg-wet-2018.md',
-        'mode': 'nl', 'itaa_sectie': 'XIX',
-        'wet': 'Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens',
-        'bijgewerkt': '30.07.2018', 'titel': 'Belgische AVG-uitvoeringswet 2018', 'tags': '["XIX", "4.0"]',
-    },
-    'strafwetboek2024-boek1': {
-        'input': 'resources/raw/wetteksten/Strafwetboek2024-boek1.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Strafwetboek2024-boek1.md',
-        'output_content': 'content/bronnen/wetteksten/XII-strafwetboek2024-boek1.md',
-        'mode': 'nl', 'itaa_sectie': 'XII',
-        'wet': 'Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1',
-        'bijgewerkt': '29.02.2024', 'titel': 'Strafwetboek 2024 — Boek 1', 'tags': '["XII"]',
-    },
-    'strafwetboek2024-boek2': {
-        'input': 'resources/raw/wetteksten/Strafwetboek2024-boek2.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Strafwetboek2024-boek2.md',
-        'output_content': 'content/bronnen/wetteksten/XII-strafwetboek2024-boek2.md',
-        'mode': 'nl', 'itaa_sectie': 'XII',
-        'wet': 'Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2',
-        'bijgewerkt': '29.02.2024', 'titel': 'Strafwetboek 2024 — Boek 2', 'tags': '["XII"]',
-    },
-    'wet-arbeidsovereenkomsten': {
-        'input': 'resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md',
-        'output_content': 'content/bronnen/wetteksten/XVI-wet-arbeidsovereenkomsten.md',
-        'mode': 'nl', 'itaa_sectie': 'XVI',
-        'wet': 'Wet 3 juli 1978 betreffende de arbeidsovereenkomsten',
-        'bijgewerkt': '03.07.1978', 'titel': 'Wet arbeidsovereenkomsten 1978', 'tags': '["XVI"]',
-    },
-    'wbtw-kb2': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb2.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw',
-        'bijgewerkt': '2018', 'titel': 'BTW KB nr. 2 — Forfaitaire regeling', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb2bis': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB2bis-cafehouders.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb2bis.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders',
-        'bijgewerkt': '2022', 'titel': 'BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb31': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB31-niet-gevestigd.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb31.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 31, 2 april 2002, met betrekking tot de toepassingsmodaliteiten van de btw ten aanzien van niet in België gevestigde belastingplichtigen',
-        'bijgewerkt': '2002', 'titel': 'BTW KB nr. 31 — Niet in België gevestigde belastingplichtigen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb59': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb59.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde',
-        'bijgewerkt': '2020', 'titel': 'BTW KB nr. 59 — Handelsgeschenken', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb54': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB54-entrepot.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb54.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW',
-        'bijgewerkt': '2023', 'titel': 'BTW KB nr. 54 — Entrepot (art. 39quater)', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb22jun2020': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb22jun2020.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en art. 35–37, 43–45 en 47 Wetboek Invordering inzake het e-notariaat',
-        'bijgewerkt': '2020', 'titel': 'BTW KB 22/06/2020 — E-notariaat', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-mb-dagboek-2023': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md',
-        'output_content': 'content/bronnen/wetteksten/VIC-wbtw-mb-dagboek-2023.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.C',
-        'wet': 'M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets',
-        'bijgewerkt': '2023', 'titel': 'BTW MB 17/03/2023 — Elektronisch dagboek ontvangsten en kastickets', 'tags': '["VI.C", "2.4"]',
-    },
-    'wbtw-kb29aug2019': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB29aug2019-registers.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb29aug2019.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. 29 augustus 2019 tot uitvoering van artikel 85, § 2, derde lid van het WBTW met betrekking tot de opmaak van innings- en invorderingsregisters',
-        'bijgewerkt': '2019', 'titel': 'BTW KB 29/08/2019 — Innings- en invorderingsregisters', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb7': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB7-invoer.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB7-invoer.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb7.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 7, 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de btw',
-        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 7 — Invoer', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb18': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB18-uitvoer-vrijstellingen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb18.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 18, 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen',
-        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 18 — Uitvoer vrijstellingen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb46': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB46-intracommunautaire-aangifte.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb46.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 46, 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen',
-        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 46 — Intracommunautaire aangifte vervoermiddelen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb48': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB48-levering-vervoermiddelen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb48.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 48, 29 december 1992, met betrekking tot de levering van vervoermiddelen',
-        'bijgewerkt': '1992', 'titel': 'BTW KB nr. 48 — Levering vervoermiddelen', 'tags': '["VI.B", "2.4"]',
-    },
-
-    'wbtw-kb23': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB23-jaarlijkse-lijst.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb23.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 23, 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers',
-        'bijgewerkt': '2009', 'titel': 'BTW KB nr. 23 — Jaarlijkse lijst afnemers', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb44': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB44-geldboeten.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb44.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 44, 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de btw',
-        'bijgewerkt': '2012', 'titel': 'BTW KB nr. 44 — Niet-proportionele geldboeten', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb-gks': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB-GKS.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb-gks.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen',
-        'bijgewerkt': '2024', 'titel': 'BTW KB — Geregistreerd kassasysteem (GKS)', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb50': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB50-intracommunautaire-opgave.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb50.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 50, 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen',
-        'bijgewerkt': '2019', 'titel': 'BTW KB nr. 50 — Intracommunautaire opgave', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb52': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB52-intracommunautaire-vrijstellingen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb52.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 52, 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen',
-        'bijgewerkt': '2019', 'titel': 'BTW KB nr. 52 — Bewijsregeling intracommunautaire vrijstellingen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb56': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb56.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf',
-        'bijgewerkt': '2022', 'titel': 'BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb19': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb19.md',
-        'mode': 'nl', 'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen',
-        'bijgewerkt': '2024', 'titel': 'BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen', 'tags': '["VI.B", "2.4"]',
-    },
-    'wbtw-kb1': {
-        'input': 'resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/WBTW-KB1-voldoening.md',
-        'output_content': 'content/bronnen/wetteksten/VIB-wbtw-kb1.md',
-        'mode': 'nl',
-        'itaa_sectie': 'VI.B',
-        'wet': 'K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde',
-        'bijgewerkt': '2024',
-        'titel': 'BTW KB nr. 1 — Voldoening',
-        'tags': '["VI.B", "2.4"]',
-    },
-    'bw-boek1': {
-        'input': 'resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek1.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 28 april 2022 houdende Boek 1 "Algemene bepalingen" van het Burgerlijk Wetboek',
-        'bijgewerkt': '28.04.2022',
-        'titel': 'BW Boek 1 — Algemene bepalingen',
-        'tags': '["XI"]',
-    },
-    'bw-boek2': {
-        'input': 'resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek2-relatievermogensrecht.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek2.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 19 januari 2022 houdende Boek 2 Titel 3 "Relatievermogensrecht" en Boek 4 van het Burgerlijk Wetboek',
-        'bijgewerkt': '19.01.2022',
-        'titel': 'BW Boek 2 Titel 3 — Relatievermogensrecht',
-        'tags': '["XI"]',
-    },
-    'bw-boek3': {
-        'input': 'resources/raw/wetteksten/BW-boek3-goederen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek3-goederen.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek3.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 4 februari 2020 houdende Boek 3 "Goederen" van het Burgerlijk Wetboek',
-        'bijgewerkt': '04.02.2020',
-        'titel': 'BW Boek 3 — Goederen',
-        'tags': '["XI"]',
-    },
-    'bw-boek4': {
-        'input': 'resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek4.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 19 januari 2022 houdende Boek 4 "Nalatenschappen, schenkingen en testamenten" van het Burgerlijk Wetboek',
-        'bijgewerkt': '19.01.2022',
-        'titel': 'BW Boek 4 — Nalatenschappen, schenkingen en testamenten',
-        'tags': '["XI"]',
-    },
-    'bw-boek5': {
-        'input': 'resources/raw/wetteksten/BW-boek5-verbintenissen.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek5-verbintenissen.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek5.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 28 april 2022 houdende Boek 5 "Verbintenissen" van het Burgerlijk Wetboek',
-        'bijgewerkt': '28.04.2022',
-        'titel': 'BW Boek 5 — Verbintenissen',
-        'tags': '["XI"]',
-    },
-    'bw-boek9': {
-        'input': 'resources/raw/wetteksten/BW-boek9-zekerheden.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/BW-boek9-zekerheden.md',
-        'output_content': 'content/bronnen/wetteksten/XI-bw-boek9.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Wet 5 juni 2025 houdende Titel 1 "Persoonlijke zekerheden" van Boek 9 "Zekerheden" van het Burgerlijk Wetboek',
-        'bijgewerkt': '05.06.2025',
-        'titel': 'BW Boek 9 — Zekerheden (Titel 1: Persoonlijke zekerheden)',
-        'tags': '["XI"]',
-    },
-    'bw-geconsolideerd': {
-        'input': 'resources/raw/wetteksten/BW-geconsolideerd-incl-boek8.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/Oud-BW.md',
-        'output_content': 'content/bronnen/wetteksten/XI-oud-bw.md',
-        'mode': 'nl',
-        'itaa_sectie': 'XI',
-        'wet': 'Burgerlijk Wetboek (geconsolideerd, inclusief Boek 8 Bewijs — wet 13 april 2019)',
-        'bijgewerkt': '2024',
-        'titel': 'Burgerlijk Wetboek (geconsolideerd)',
-        'tags': '["XI"]',
-    },
-    'eu-moeder-dochter': {
-        'input': 'resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md',
-        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-moeder-dochter.md',
-        'mode': 'eu_richtlijn',
-        'itaa_sectie': 'X',
-        'wet': 'Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten',
-        'bijgewerkt': '29.12.2011',
-        'titel': 'Moeder-dochterrichtlijn 2011/96/EU',
-        'tags': '["X", "2.8"]',
-    },
-    'eu-fusie': {
-        'input': 'resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md',
-        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-fusie.md',
-        'mode': 'eu_richtlijn',
-        'itaa_sectie': 'X',
-        'wet': 'Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)',
-        'bijgewerkt': '25.11.2009',
-        'titel': 'Fusierichtlijn 2009/133/EG',
-        'tags': '["X", "2.8"]',
-    },
-    'eu-interest-royalties': {
-        'input': 'resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf',
-        'output_resources': 'resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md',
-        'output_content': 'content/bronnen/wetteksten/X-eu-richtlijn-interest-royalties.md',
-        'mode': 'eu_richtlijn',
-        'itaa_sectie': 'X',
-        'wet': 'Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty\'s tussen verbonden ondernemingen van verschillende lidstaten',
-        'bijgewerkt': '26.06.2003',
-        'titel': 'Interest- en royalty\'srichtlijn 2003/49/EG',
-        'tags': '["X", "2.8"]',
-    },
-}
 
 
 def extract_nl_text(pdf, mode, start_page=None, col_x=300):
@@ -512,6 +80,9 @@ def clean_and_structure(text, wet_naam):
     lines = text.split('\n')
     out = []
     prev_empty = False
+    in_toc = False
+    seen_toc = False  # eenmalig: alleen de eerste 'Inhoudstafel' is een TOC-start
+    in_wijzigingsnota = False
 
     noise_patterns = [
         r'^(FOD Financiën|www\.fisconet|W\.Btw|W\.Reg|Federale|Overheidsdienst|Beleidsexpertise)',
@@ -528,12 +99,10 @@ def clean_and_structure(text, wet_naam):
         r'^Bron\s*: (BRUSSELS|WAALSE|BRUSSEL|FOD|JUSTITIE)',
         r'^Publicatie\s*:',
         r'^Inwerkingtreding\s*:',
-        r'^Inhoudstafel$',
-        r'^Tekst$',
         r'^Nota.*:$',
         r'^Copyright Belgisch',
         r'^Pagina \d+ van \d+',
-        r'^Art\.\s+[\d][\d]*[-–,/]',  # TOC-artikelranges zoals "Art. 1-4", "Art. 5-8"
+        r'^Art\.\s+[\d][\d]*[-–,/]',  # fallback voor losstaande TOC-artikelranges
         r'^[-–—=]{3,}$',
         r'^\d+$',
         r'^[IVX]+/\d+\s*-?\s*$',  # paginanummers zoals "I/1 -"
@@ -543,10 +112,47 @@ def clean_and_structure(text, wet_naam):
     for line in lines:
         stripped = line.strip()
 
+        # Wijzigingsnota-blok (meerdere regels): skip tot blanco regel
+        if in_wijzigingsnota:
+            if not stripped:
+                in_wijzigingsnota = False
+                if not prev_empty:
+                    out.append('')
+                    prev_empty = True
+            continue
+
+        # Inhoudstafel-modus: alles skippen tot een eind-marker
+        if in_toc:
+            # Ejustice gebruikt 'Tekst' tussen TOC en inhoud
+            if re.match(r'^Tekst$', stripped):
+                in_toc = False
+                continue
+            # Fisconetplus: een 'kale' chapter heading op eigen regel (geen ':' of Art-range erachter)
+            if re.match(r'^HOOFDSTUK\s+[IVXLC]+(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies)?$', stripped):
+                in_toc = False
+                # doorvallen: dit is de eerste echte heading
+            else:
+                continue
+
         if not stripped:
             if not prev_empty:
                 out.append('')
             prev_empty = True
+            continue
+
+        # Begin van Inhoudstafel (eenmalig per document)
+        if not seen_toc and re.match(r'^Inhoudstafel$', stripped, re.I):
+            in_toc = True
+            seen_toc = True
+            continue
+
+        # Wijzigingsnota-intro vlak na 'Artikel N': 'Art. N, ... werd/wordt/met ingang/B.S./Numac' →
+        # opening + alle vervolgregels (over PDF-regelafbreking heen) skippen tot blanco regel.
+        # Moet vóór de noise-filter staan, anders consumeert die de openingsregel zonder de
+        # vervolgregels mee te nemen (zie Art. 1, Art. 53 in WBTW).
+        if (re.match(r'^Art\.\s+\d+\w*\s*,', stripped)
+                and re.search(r'\b(werd|wordt|met ingang|B\.S\.|Numac)\b', stripped)):
+            in_wijzigingsnota = True
             continue
 
         # Ruis verwijderen
@@ -673,8 +279,13 @@ def clean_and_structure_eu(text):
 
 def make_header(cfg):
     wet = cfg['wet'].replace('"', '\\"')  # escape " als \" voor geldige YAML
+    tags = cfg['tags']
+    if isinstance(tags, list):
+        tags_str = '[' + ', '.join(f'"{t}"' for t in tags) + ']'
+    else:
+        tags_str = tags
     return f"""---
-tags: {cfg['tags']}
+tags: {tags_str}
 itaa-lex-sectie: "{cfg['itaa_sectie']}"
 wet: "{wet}"
 status: "beschikbaar"
@@ -690,7 +301,9 @@ bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 
 
 def convert(name):
-    cfg = CONFIGS[name]
+    cfg = load_wetboek_config(name)
+    if cfg is None:
+        raise KeyError(f"Geen wetboek-entry voor '{name}' in source_config.yaml")
     print(f"\n=== {name} ({cfg['input']}) ===")
 
     text = extract_nl_text(
@@ -713,19 +326,21 @@ def convert(name):
 
     with open(cfg['output_resources'], 'w') as f:
         f.write(content)
-    with open(cfg['output_content'], 'w') as f:
-        f.write(content)
-
-    print(f"Output: {cfg['output_resources']} + {cfg['output_content']}")
+    if cfg.get('output_content'):
+        with open(cfg['output_content'], 'w') as f:
+            f.write(content)
+        print(f"Output: {cfg['output_resources']} + {cfg['output_content']}")
+    else:
+        print(f"Output: {cfg['output_resources']}")
     return art_count
 
 
 if __name__ == '__main__':
-    targets = sys.argv[1:] if len(sys.argv) > 1 else list(CONFIGS.keys())
+    targets = sys.argv[1:] if len(sys.argv) > 1 else all_wetboek_names()
     for name in targets:
-        if name not in CONFIGS:
-            print(f"Onbekend: {name}. Beschikbaar: {list(CONFIGS.keys())}")
-            continue
-        convert(name)
+        try:
+            convert(name)
+        except KeyError as e:
+            print(f"Onbekend: {e}")
 
     print("\nKlaar.")

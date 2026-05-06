@@ -127,15 +127,12 @@ def convert_wib92(cfg: dict, source_name: str, dry_run: bool = False) -> str:
 
 
 def convert_wetboek(cfg: dict, source_name: str, dry_run: bool = False) -> str:
-    """Delegeer naar convert-wetboek.py met de juiste config-key."""
-    key = cfg.get("wetboek_key")
-    if not key:
-        raise ValueError(f"wetboek_key ontbreekt voor {source_name}")
+    """Delegeer naar convert-wetboek.py — die leest de YAML-entry zelf."""
     script = ROOT / "tools" / "etl" / "convert-wetboek.py"
-    print(f"  → Delegeer naar {script.name} --config {key}")
+    print(f"  → Delegeer naar {script.name} {source_name}")
     if not dry_run:
         result = subprocess.run(
-            ["python3", str(script), key],
+            ["python3", str(script), source_name],
             capture_output=True, text=True, cwd=ROOT
         )
         if result.returncode != 0:
@@ -290,6 +287,12 @@ def process_source(name: str, cfg: dict, cleanup_only: bool = False,
         print(f"  → Overgeslagen (type=skip)")
         if cleanup_only and cfg.get("output"):
             cleanup_in_place(cfg, name, dry_run, show_diff)
+        return
+
+    if source_type == "split":
+        derived_from = cfg.get("derived_from", "?")
+        print(f"  → Afgeleid uit '{derived_from}' (type=split). Re-genereer via "
+              f"de bijbehorende splits-tool, niet via convert.py.")
         return
 
     try:

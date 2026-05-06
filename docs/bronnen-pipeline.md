@@ -38,9 +38,10 @@ Na conversie: update `status` naar `volledig` en voeg toe aan `content/bronnen/I
 | Type | Beschrijving | Gebruik voor |
 |---|---|---|
 | `wib92` | Delegeert naar `convert-wib92.py` | WIB92 (Fisconet tweetalig, eigen script) |
-| `wetboek` | Delegeert naar `convert-wetboek.py` via `wetboek_key` | Bronnen met config in dat script |
+| `wetboek` | Delegeert naar `convert-wetboek.py` (leest YAML-entry direct) | Wettenboeken met `mode: nl/bilingual/eu_richtlijn` |
 | `ejustice_nl` | pdftotext -layout + cleanup | ejustice NL-only PDFs |
 | `ejustice_bilingual` | pdftotext met kolom-extractie | ejustice NL/FR tweetalig |
+| `split` | Afgeleid uit een andere MD via een aparte tool — `convert.py` skipt deze | KBs afgesplitst uit `WBTW-KB-compilatie` via `split-kb-compilatie.py` (zie `derived_from`) |
 | `skip` | Geen (her)conversie via convert.py | Al manueel verwerkt, HTML-extractie, formulieren |
 
 **`simple_mode: true`** toevoegen bij `ejustice_nl` voor EU-publicatieblad CELEX-documenten (tweekoloms — zonder `-layout` betere output).

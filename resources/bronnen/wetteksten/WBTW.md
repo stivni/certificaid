@@ -1,11 +1,10 @@
 ---
-tags: ["VI.A"]
+tags: ["VI.A", "2.4"]
 itaa-lex-sectie: "VI.A"
 wet: "Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde (WBTW)"
 status: "beschikbaar"
 bijgewerkt: "19.12.2025"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
-raw-bron: "resources/wetteksten/raw/WBTW-2026.pdf"
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)
@@ -37,8 +36,6 @@ kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten (B.S. 31.12.2025
 
 ____________________________
 (1)   Inwerkingtreding op 31.12.2025
-
-Inhoudstafel
 
 #### HOOFDSTUK I:            INVOERING VAN DE BELASTING                             Art. 1-3bis
 
@@ -183,7 +180,6 @@ INVOERING VAN DE BELASTING
 
 ## Art. 1
 
-Art. 1, § 13, 3° werd ingevoegd (Art. 2, W 06.02.2024, B.S. 20.02.2024, pg. 24025, Numac:
 2024001635) met ingang van 01.01.2026
 
 § 1. Onder de naam belasting over de toegevoegde waarde wordt een omzetbelasting
@@ -4603,7 +4599,6 @@ opheffing van het beslag te verzoeken voor de beslagrechter.
 
 ## Art. 53
 
-Art. 53, met ingang van 01.01.2026 (§ 2, eerste lid, inleidende zin werd vervangen; § 2bis werd
 ingevoegd en § 3 werd vervangen (Art. 3, W 06.02.2024, B.S. 20.02.2024, pg. 24025, Numac:
 2024001635))
 

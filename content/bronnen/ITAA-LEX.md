@@ -103,10 +103,10 @@ Editie 11 juli 2025 — *© Larcier-Intersentia*
 
 ### VI.D — Europese richtlijnen inzake btw
 
-- ✅ Richtl. 2006/112/EG Raad 28 november 2006 betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde *(PB.L 347, 11 december 2006)* · p. 1132 · `resources/bronnen/wetteksten/EU-BTW-richtlijn-2006-112.md` · 203 artikelen
-- ✅ Richtl. 13, 86/560/EEG Raad 17 november 1986 – Regeling voor de teruggaaf van de btw aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen *(PB.L 326, 21 november 1986)* · p. 1215 · `resources/bronnen/wetteksten/EU-BTW-dertiende-richtlijn-1986.md` · 8 artikelen
-- ✅ Richtl. 2008/9/EG Raad 12 februari 2008 tot vaststelling van nadere voorschriften voor de teruggaaf van de btw aan belastingplichtigen die niet in de Lid-Staat van teruggaaf maar in een andere Lid-Staat gevestigd zijn *(PB.L 44, 20 februari 2008)* · p. 1216 · `resources/bronnen/wetteksten/EU-BTW-teruggaaf-richtlijn-2008-9.md` · 31 artikelen
-- ✅ Verord. (EG) nr. 282/2011 Raad 15 maart 2011 houdende vaststelling van maatregelen ter uitvoering van Richtlijn 2006/112/EG (herschikking) *(PB.L 77, 23 maart 2011)* · p. 1219 · `resources/bronnen/wetteksten/EU-BTW-uitvoeringsverordening-282-2011.md` · 45 artikelen
+- ✅ Richtl. 2006/112/EG Raad 28 november 2006 betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde *(PB.L 347, 11 december 2006)* · p. 1132 · `resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md` · 203 artikelen
+- ✅ Richtl. 13, 86/560/EEG Raad 17 november 1986 – Regeling voor de teruggaaf van de btw aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen *(PB.L 326, 21 november 1986)* · p. 1215 · `resources/bronnen/wetteksten/BTW-dertiende-richtlijn-1986.md` · 8 artikelen
+- ✅ Richtl. 2008/9/EG Raad 12 februari 2008 tot vaststelling van nadere voorschriften voor de teruggaaf van de btw aan belastingplichtigen die niet in de Lid-Staat van teruggaaf maar in een andere Lid-Staat gevestigd zijn *(PB.L 44, 20 februari 2008)* · p. 1216 · `resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md` · 31 artikelen
+- ✅ Verord. (EG) nr. 282/2011 Raad 15 maart 2011 houdende vaststelling van maatregelen ter uitvoering van Richtlijn 2006/112/EG (herschikking) *(PB.L 77, 23 maart 2011)* · p. 1219 · `resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md` · 45 artikelen
 
 ### VII — INVORDERING
 

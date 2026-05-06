@@ -5,7 +5,6 @@ wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofds
 status: "beschikbaar"
 bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
-raw-bron: "resources/wetteksten/raw/Registratierechten-Brussel.pdf"
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest
@@ -1956,7 +1955,6 @@ huurcontracten en -overdrachten gelijkgesteld, voor de toepassing van dit wetboe
 van de artikelen 2quater en 161, 12°.
 
 Dit recht is evenwel niet verschuldigd in geval van toepassing van artikel 140bis (1).
-Nota:
 (1) Volgens art. 20, § 2, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 - ed. 3): « Elke vermelding van 140bis in het
 volgende ».
 
@@ -2020,7 +2018,6 @@ onroerend goed.
 
 De vestigingen van een hypotheek op een schip dat niet naar zijn aard voor het zeevervoer bestemd is, worden aan
 een recht van 0,50 pct. onderworpen.
-Nota (1) – Overgangsbepaling:
 Het recht van 0,50 pct., geheven overeenkomstig art. 88 W.Reg. vóór de inwerkingtreding van deze wet, wordt in mindering
 gebracht op het krachtens art. 87 van hetzelfde Wetboek verschuldigde recht, wanneer later een hypotheek wordt gevestigd
 tot zekerheid van dezelfde schuld (art. 69).
@@ -2613,8 +2610,6 @@ Deze vrijstelling is alleen toepasselijk indien in de akte of in een vóór de r
 wordt bevestigd dat de toepassingsvoorwaarden ervan zijn vervuld.
 
 In geval van onjuistheid van die vermelding verbeurt de vennootschap een boete gelijk aan het ontdoken recht.
-Nota:
-Nota (1) – Overgangsbepalingen:
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk IV, afdeling II, van de wet van 23 maart
 2019, niet van toepassing is op een vennootschap, vereniging of stichting, moet elke verwijzing naar een bepaling van het
 Wetboek van vennootschappen en verenigingen die voorkomt in een bepaling van het Wetboek van de inkomstenbelastingen
@@ -2714,7 +2709,6 @@ persoon, die de inbreng gedaan heeft;
 2° onroerende goederen welke door de vennootschap met betaling van het voor de verkopingen bepaald
 registratierecht verkregen werden, wanneer het vaststaat dat de vennoot die eigenaar van die onroerende
 goederen wordt deel uitmaakte van de vennootschap toen laatstgenoemde de goederen verkreeg.
-Nota (1) – Overgangsbepaling:
 In afwijking van art. 15, 1ste lid, voor de vennootschappen, met uitzondering van de landbouwvennootschappen, waarvan de
 oprichting voorafgaat aan de inwerkingtreding van het Wetboek van vennootschappen en verenigingen overeenkomstig art. 38,
 1ste lid, van de wet van 23.03.2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse
@@ -2742,7 +2736,6 @@ Het verkrijgen anderszins dan bij inbreng in vennootschap door één of meer ven
 onroerende goederen, voortkomende van een naamloze vennootschap, van een Europese vennootschap of van
 een Europese coöperatieve vennootschap, geeft, welke ook de wijze zij waarop het geschiedt, aanleiding tot het
 heffen van het voor verkopingen gesteld recht.
-Nota (1) – Overgangsbepaling:
 In afwijking van art. 15, 1ste lid, voor de vennootschappen, met uitzondering van de landbouwvennootschappen, waarvan de
 oprichting voorafgaat aan de inwerkingtreding van het Wetboek van vennootschappen en verenigingen overeenkomstig art. 38,
 1ste lid, van de wet van 23.03.2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse
@@ -2974,7 +2967,6 @@ geboorte van het kind.
 
 De begiftigde die in verband met het aantal van zijn wettige (1) afstammelingen een onjuiste verklaring heeft
 afgelegd, verbeurt een boete gelijk aan het ontdoken recht.
-Nota:
 (1) Bij vergetelheid werd het woord “wettige” niet geschrapt.
 
 ## Art. 137
@@ -3304,7 +3296,6 @@ uit de jaarrekeningen.
 4° de zetel van de werkelijke leiding van de vennootschap wordt niet overgebracht naar een Staat die geen deel
 uitmaakt van de Europese Economische Ruimte gedurende drie jaar vanaf de datum van de authentieke akte van
 schenking.
-Nota (1) – overgangsbepalingen:
 Artikelen 2, 3, 4, 1° tot en met 3°, 5, § 1, 2°, 7, 1°, b) en c), 2° en 3°, 8 en 11 tot en met 13 hebben uitwerking met ingang
 van 01.05.2019 (art. 15, lid 1).
 In afwijking van artikel 15, eerste lid, voor de vennootschappen waarvan de oprichting voorafgaat aan de inwerkingtreding
@@ -4028,7 +4019,6 @@ Hoofdstuk IV van het Wetboek bepaald recht, ander dan het in artikel 158 bepaald
 16° de akten van erfopvolging bedoeld in artikel 3.30, § 1, 7°, van het Burgerlijk Wetboek, op voorwaarde dat de
 instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld
 wordt binnen de 6 maanden na het overlijden.
-Nota:
 (1) Vanaf 03.08.2017 tot 02.08.2020 mag het netto actief van de nalatenschap niet meer bedragen dan 5.000 EUR. Vanaf
 03.08.2020 tot 31.07.2023 bedraagt het geïndexeerde bedrag 5.219,21 euro. Vanaf 01.08.2023 tot 31.07.2026
 bedraagt het geïndexeerde bedrag 6.093,20 euro (EE/107.394).
@@ -4259,7 +4249,6 @@ b) de in artikelen 146 en 147 bedoelde vonnissen en arresten;
 
 52° De exploten en processen-verbaal van de gerechtsdeurwaarders in verband met de invordering van
 onbetwiste geldschulden bedoeld in de artikelen 1394/20 tot 1394/27 van het Gerechtelijk Wetboek.
-Nota:
 (1) Aangezien door de wet van 05.07.1998 (B.S., 31.07.1998), eveneens een “46°” werd ingevoegd, zou het “46°” dat werd
 ingevoegd bij de wet van 19.11.1998 (B.S., 10.12.1998), in feite “47°” moeten zijn.
 (2) Het “47°” ingevoegd bij art. 28, § 1 van de wet van 21.02.2003 zou het “48°” moeten zijn.
@@ -4367,7 +4356,6 @@ goed worden nagegaan per kadastraal perceel of per gedeelte van kadastraal perce
 een afzonderlijke huisvesting, ofwel een afdeling van de productie of van de werkzaamheden die, of een onderdeel
 daarvan dat, afzonderlijk kan werken, ofwel een eenheid die van de andere goederen of delen die het perceel
 vormen kan worden afgezonderd.
-Nota:
 (1) Volgens art. 20, § 2, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 - ed. 3): « Elke vermelding van 140bis in het Wetboek
 der registratie-, hypotheek-, en griffierechten, dient te worden gelezen als vermelding van artikel 140/1 en volgende ».
 
@@ -4697,7 +4685,6 @@ zich te vergewissen van de juiste heffing van de door de verzoekers of derden ve
 
 Elke weigering van inzageverlening wordt bij proces-verbaal vastgesteld en wordt gestraft met een geldboete van
 1250 EUR.
-Nota:
 (1) Volgens art. 20, § 2, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 - ed. 3): « Elke vermelding van 140bis in het
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
@@ -6213,7 +6200,6 @@ de consumptieprijzen van de maand september die elke indexatie voorafgaat.
 Uiterlijk in de loop van de maand december van elk jaar wordt het bedrag toepasselijk tijdens het volgende
 kalenderjaar in het Belgisch Staatsblad gepubliceerd. De Federale Overheidsdienst Financiën vermeldt die inlichting
 eveneens op zijn webstek.
-Nota:
 Procedures tot verkrijging van de Belgische nationaliteit - Publicatie voorgeschreven bij art. 238, laatste lid, W.Reg.:
 - geïndexeerde bedragen vanaf 01.01.2026: bericht van B.S., 29.12.2025: 1030 euro (z. art. 238, 2de lid) ; aangevuld
 bij bericht van B.S., 16.03.2026 – ed. 2: 160 euro (z. art. 238, 3de lid).
@@ -6644,7 +6630,6 @@ die van toepassing waren vóór de inwerkingtreding van die bepalingen
 (opgeheven bij art. 4 van de wet van 14.10.2018 (B.S., 20.12.2018 – ed. 2). Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
 (…)
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -6655,7 +6640,6 @@ herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 (opgeheven bij art. 5 van de wet van 14.10.2018 (B.S., 20.12.2018 – ed. 2). Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
 (…)
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -6851,7 +6835,6 @@ de wet op het gebruik der talen in gerechtszaken of ingevolge een rechterlijke b
 
 4° de inschrijving van zaken die ingeleid worden in het kader van het boek XX van het Wetboek van economisch
 recht.
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -6940,7 +6923,6 @@ overeenkomsten.
 (opgeheven bij art. 8 van de wet van 14.10.2018 (B.S., 20.12.2018 – ed. 2). Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
 (…)
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -7036,7 +7018,6 @@ de verjaringstermijnen, de wijzen waarop de verjaring wordt gestuit of geschorst
 de moratoire interesten en daarbij afwijken van de in artikelen 286 en 287 bepaalde regels. De besluiten die
 genomen worden in toepassing van dit artikel, worden bekrachtigd door de wet binnen de 12 maanden volgend op
 de datum van hun bekendmaking in het Belgisch Staatsblad.
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -7049,7 +7030,6 @@ herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 De Koning kan bepalen dat wegens de laattijdige betaling van een rolrecht een administratieve boete zal
 verschuldigd zijn waarvan het bedrag niet minder kan bedragen dan 25 euro en niet hoger mag zijn dan de helft
 van het recht bepaald in artikel 2691.
-Nota (1) – Overgangsbepaling:
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 2691, eerste lid, W.Reg. bedoelde inschrijving of
 herinschrijving wordt verzocht vanaf hun datums van inwerkingtreding (art. 28).
 
@@ -8144,7 +8124,6 @@ het CCN-netwerk, stelt de Commissie de lidstaten zonder onnodige vertraging in k
 en van eventuele corrigerende maatregelen die zijn genomen. Zulke corrigerende maatregelen kunnen inhouden
 dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt
 geschorst totdat de gegevensinbreuk is verholpen.
-Nota:
 - in § 6/1, lid 1, 5°, i): lees ‘rechtspersonen’ ipv. ‘rechtpersonen’.
 - in § 6/1, lid 1, 5°, a) en i): lees ‘1° en 3°’ ipv. ‘1° en 4°’.
 - in § 6/1, lid 2: lees ‘5°, a) en i)’ ipv. ‘6°, a) en k)’.
@@ -8991,7 +8970,6 @@ het CCN-netwerk, stelt de Commissie de lidstaten zonder onnodige vertraging in k
 en van eventuele corrigerende maatregelen die zijn genomen. Zulke corrigerende maatregelen kunnen inhouden
 dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt
 geschorst totdat de gegevensinbreuk is verholpen.
-Nota:
 - in § 6/1, lid 1, 5°, i): lees ‘rechtspersonen’ ipv. ‘rechtpersonen’.
 - in § 6/1, lid 1, 5°, a) en i): lees ‘1° en 3°’ ipv. ‘1° en 4°’.
 - in § 6/1, lid 2: lees ‘5°, a) en i)’ ipv. ‘6°, a) en k)’.
@@ -9408,7 +9386,6 @@ en overgangsbepalingen (art. 61, lid 2))
 Voor de toepassing van de artikelen 289bis, § 6/3 en 289bis/1 tot en met 289bis/9 en de daaruit voortvloeiende
 uitvoeringsbesluiten dient de melding van de inlichtingen, voor de onderdelen die de Koning nader bepaalt, naast
 het gebruik van één van de officiële landstalen, ook in het Engels te gebeuren.
-Nota:
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende
 ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden
 meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt
@@ -9424,7 +9401,6 @@ en overgangsbepalingen (art. 61, lid 2))
 
 De Koning bepaalt het formulier waarop de intermediair of de relevante belastingplichtige de verplichtingen
 opgenomen in de artikelen 289bis/1 tot en met 289bis/9 moeten naleven.
-Nota:
 Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën of de door hem aangewezen leidinggevende
 ambtenaar bepaalt welke gegevens, naast het gebruik van één van de officiële landstalen, ook in het Engels moeten worden
 meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of de relevante belastingplichtige moet worden gebruikt
@@ -9523,7 +9499,6 @@ bepalingen van deze wet (art. 219, lid 2))
 (art. -))
 
 (…) (1)
-Nota:
 (1) § 2, ingevoegd bij art. 84 van de wet van 26.01.2021 (B.S., 10.02.2021) die nooit in werking is getreden wordt opgeheven
 bij art. 213 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
