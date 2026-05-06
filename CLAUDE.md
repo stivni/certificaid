@@ -34,7 +34,7 @@ Deze regels gelden bij elke sessie en elke agent:
 
 5. **Alle beslissingen worden vastgelegd als ADR** — technisch én domein. Draft-status is OK; vastleggen is verplicht.
 
-6. **Twee werkwijzen — weet welke actief is** (zie ADR-014):
+6. **Twee werkwijzen — weet welke actief is**:
    - **Design/sparring-modus**: we bespreken een beslissing samen. Het resultaat *moet* landen in een nieuw of bijgewerkt ADR vóór de uitvoering start.
    - **Werk-modus**: zelfstandige uitvoering (indexeren, fiches schrijven, bronnen verwerken, ...). Werkt altijd binnen de spelregels van de bestaande ADRs — geen nieuwe ontwerpkeuzes maken zonder terug te schakelen naar design-modus.
 

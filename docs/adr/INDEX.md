@@ -27,7 +27,6 @@ Alle architectuurbeslissingen voor het Certificaid-project.
 | [ADR-011](ADR-011-tutor-interface.md) | Streamlit als tutor-interface | Draft | Infrastructuur | Streamlit, tutor, lokaal, cache, chat |
 | [ADR-012](ADR-012-model-keuze.md) | Model-keuze: Sonnet voor generatie, lokaal voor bulk | Draft | Infrastructuur | claude-sonnet-4-6, KeyBERT, YAKE, lokaal, geen-API-bulk |
 | [ADR-013](ADR-013-site-generator.md) | Quartz als static site generator | Draft | Infrastructuur | Quartz, Obsidian, wikilinks, static, GitHub-Pages, ankers |
-| [ADR-014](ADR-014-werkwijze-modi.md) | Twee werkwijze-modi: design/sparring vs. werk | Draft | Werkwijze | design-modus, werk-modus, autonomie, ADR, sparring, planmode |
 
 ---
 
@@ -70,7 +69,6 @@ Ik breng elk ADR op bij het begin van de eerste taak waarvoor het relevant is.
 | ADR-011 (Streamlit) | ⏳ Te bespreken | Tutor gebouwd; deployment nog open |
 | ADR-012 (model-keuze) | ✅ Besproken | KeyBERT voor bulk; Sonnet voor generatie |
 | ADR-013 (Quartz) | ✅ Besproken | Deploy werkt; anker-conventies in content-richtlijnen |
-| ADR-014 (werkwijze-modi) | ✅ Besproken | Design- vs. werk-modus; in CLAUDE.md als regel 6 |
 
 ---
 
