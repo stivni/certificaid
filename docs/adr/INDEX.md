@@ -27,6 +27,7 @@ Alle architectuurbeslissingen voor het Certificaid-project.
 | [ADR-011](ADR-011-tutor-interface.md) | Streamlit als tutor-interface | Draft | Infrastructuur | Streamlit, tutor, lokaal, cache, chat |
 | [ADR-012](ADR-012-model-keuze.md) | Model-keuze: Sonnet voor generatie, lokaal voor bulk | Draft | Infrastructuur | claude-sonnet-4-6, KeyBERT, YAKE, lokaal, geen-API-bulk |
 | [ADR-013](ADR-013-site-generator.md) | Quartz als static site generator | Draft | Infrastructuur | Quartz, Obsidian, wikilinks, static, GitHub-Pages, ankers |
+| [ADR-014](ADR-014-bron-etl-pipeline.md) | Bron ETL-pipeline: wetteksten, adviezen, normen | Draft | Bronnen | ETL, ejustice, pdftotext, cleanup, web-scrape, source_config, artikel-headings |
 
 ---
 
@@ -36,7 +37,7 @@ Raadpleeg deze mapping vóór je aan een taak begint.
 
 | Taak | Relevante ADRs |
 |---|---|
-| **Bron toevoegen** (nieuw `.md` + source_config.yaml) | ADR-008 (bron_rol), ADR-004 (keywords genereren na toevoeging) |
+| **Bron toevoegen of herconverteren** | ADR-014 (ETL-pipeline), ADR-008 (bron_rol), ADR-004 (keywords) |
 | **RAG-index herbouwen** | ADR-001 (model), ADR-002 (chunk-strategie), ADR-004 (keywords), ADR-010 (ChromaDB) |
 | **Queries testen / tutor draaien** | ADR-003 (reranking), ADR-005 (query-strategie), ADR-011 (Streamlit) |
 | **Concept record genereren** | ADR-005 (query-strategie), ADR-007 (confidence), ADR-009 (schema) |
@@ -69,6 +70,7 @@ Ik breng elk ADR op bij het begin van de eerste taak waarvoor het relevant is.
 | ADR-011 (Streamlit) | ⏳ Te bespreken | Tutor gebouwd; deployment nog open |
 | ADR-012 (model-keuze) | ✅ Besproken | KeyBERT voor bulk; Sonnet voor generatie |
 | ADR-013 (Quartz) | ✅ Besproken | Deploy werkt; anker-conventies in content-richtlijnen |
+| ADR-014 (ETL-pipeline) | ✅ Besproken | Fixes in cleanup.py gedaan; 10 bronnen opgeschoond |
 
 ---
 

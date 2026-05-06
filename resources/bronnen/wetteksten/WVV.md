@@ -33,7 +33,6 @@ Een stichting is een rechtspersoon zonder leden, opgericht bij rechtshandeling d
 Voor de doeleinden van de artikelen 1:2 en 1:3 wordt als onrechtstreekse uitkering van een
  vermogensvoordeel beschouwd elke verrichting waardoor de activa van een vereniging of stichting dalen of haar
  passiva stijgen en waarvoor zij hetzij geen tegenprestatie ontvangt, hetzij een tegenprestatie die kennelijk te laag
-Pagina 34 van 332 Copyright Belgisch S taatsblad 23-01-2026
  is in verhouding tot de waarde van haar prestatie.
    Het in de artikelen 1:2 en 1:3 bedoelde verbod belet niet dat de vereniging voor haar leden diensten om niet
  levert die binnen haar voorwerp en in het kader van haar doel vallen.
@@ -96,7 +95,9 @@ Dit wetboek erkent als stichting met rechtspersoonlijkheid:
  noch enige activiteit ontwikkelen die de vennootschap nadeel zou kunnen toebrengen of de waarde van zijn
  inbreng zou kunnen verminderen.
 
-  Art. 1:10.§ 1. Tenzij anders is overeengekomen, draagt de vennootschap overeenkomstig artikel [1 5.80]1 van
+## Art. 1:10
+
+§ 1. Tenzij anders is overeengekomen, draagt de vennootschap overeenkomstig artikel [1 5.80]1 van
  het Burgerlijk Wetboek het risico van de zekere zaak die het voorwerp is van een inbreng in eigendom, zodra er
  overeenstemming is over die inbreng.
   Als de inbreng in eigendom vervangbare zaken betreft, is het risico ervan voor de vennootschap, te rekenen
@@ -114,7 +115,6 @@ Dit wetboek erkent als stichting met rechtspersoonlijkheid:
 ## Art. 1:11
 
 Onder "genoteerde vennootschap" wordt verstaan een vennootschap waarvan de aandelen,
-Pagina 35 van 332 Copyright Belgisch S taatsblad 23-01-2026
  winstbewijzen of de certificaten die betrekking hebben op deze aandelen zijn toegelaten tot de verhandeling op
  een gereglementeerde markt als bedoeld in artikel 3, 7°, van de wet van 21 november 2017 over de
  infrastructuren voor de markten voor financiële instrumenten en houdende omzetting van richtlijn 2014/65/EU.
@@ -124,7 +124,9 @@ Pagina 35 van 332 Copyright Belgisch S taatsblad 23-01-2026
  2017 over de infrastructuren voor de markten voor financiële instrumenten en houdende omzetting van richtlijn
  2014/65/EU, of op een georganiseerde handelsfaciliteit als bedoeld in artikel 3, 13°, van voornoemde wet.
 
-   Art. 1:12.Onder "organisatie van openbaar belang" wordt verstaan:
+## Art. 1:12
+
+Onder "organisatie van openbaar belang" wordt verstaan:
    1° de genoteerde vennootschappen bedoeld in artikel 1:11;
    2° de vennootschappen waarvan de effecten als bedoeld in artikel 2, 31°, b) en c), van de wet van 2 augustus
  2002 betreffende het toezicht op de financiële sector en de financiële diensten, zijn toegelaten tot de
@@ -152,7 +154,9 @@ Onder "verordening (EU) nr. 537/2014" wordt verstaan: de verordening (EU) nr. 53
 
   HOOFDSTUK 1. Controle.
 
-  Art. 1:14.§ 1. Onder "controle" over een vennootschap wordt verstaan, de bevoegdheid in rechte of in feite om
+## Art. 1:14
+
+§ 1. Onder "controle" over een vennootschap wordt verstaan, de bevoegdheid in rechte of in feite om
  een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van bestuurders of zaakvoerders of
  op de oriëntatie van het beleid.
   § 2. De controle is in rechte en wordt onweerlegbaar vermoed:
@@ -181,12 +185,13 @@ Voor de toepassing van dit wetboek wordt verstaan onder:
  vennootschap;
   2° "dochtervennootschap", de vennootschap ten opzichte waarvan een controlebevoegdheid bestaat.
 
-  Art. 1:16.§ 1. Om de controlebevoegdheid vast te stellen:
+## Art. 1:16
+
+§ 1. Om de controlebevoegdheid vast te stellen:
   1° wordt de onrechtstreekse bevoegdheid via een dochtervennootschap bij de rechtstreekse bevoegdheid
  geteld;
   2° wordt de bevoegdheid van een persoon die optreedt als tussenpersoon van een andere persoon, geacht
  uitsluitend in het bezit te zijn van laatstgenoemde.
-Pagina 36 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Om de controlebevoegdheid vast te stellen wordt geen rekening gehouden met een schorsing van het
  stemrecht, noch met de stemrechtbeperkingen bedoeld in dit wetboek of in wettelijke of statutaire bepalingen
  met een soortgelijke uitwerking.
@@ -217,7 +222,9 @@ Onder "gezamenlijke controle" wordt verstaan, de controle die een beperkt aantal
 
   HOOFDSTUK 2. Consortium.
 
-  Art. 1:19.§ 1. Onder "consortium" wordt verstaan, de situatie waarbij een vennootschap enerzijds, en één of
+## Art. 1:19
+
+§ 1. Onder "consortium" wordt verstaan, de situatie waarbij een vennootschap enerzijds, en één of
  meer andere vennootschappen naar Belgisch of naar buitenlands recht anderzijds, die geen
  dochtervennootschappen zijn van elkaar, noch dochtervennootschappen zijn van één en dezelfde
  vennootschap, onder centrale leiding staan.
@@ -264,7 +271,6 @@ Onder "deelnemingen" wordt verstaan, de maatschappelijke rechten in andere venno
  vennootschap in staat te stellen een invloed uit te oefenen op de oriëntatie van het beleid van deze
  vennootschappen.
   Behoudens bewijs van het tegendeel, wordt vermoed een deelneming te zijn:
-Pagina 37 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° het bezit van maatschappelijke rechten die één tiende vertegenwoordigen van het kapitaal, van het eigen
  vermogen of van een soort aandelen van een vennootschap;
    2° het bezit van maatschappelijke rechten die een quotum van minder dan 10 % vertegenwoordigen:
@@ -288,7 +294,9 @@ Onder "vennootschappen waarmee een deelnemingsverhouding bestaat", wordt verstaa
 
   HOOFDSTUK 1. Kleine vennootschappen.
 
-   Art. 1:24.§ 1. Kleine vennootschappen zijn vennootschappen met rechtspersoonlijkheid die op balansdatum van
+## Art. 1:24
+
+§ 1. Kleine vennootschappen zijn vennootschappen met rechtspersoonlijkheid die op balansdatum van
  het laatst afgesloten boekjaar, niet meer dan één van de volgende criteria overschrijden:
    - jaargemiddelde van het aantal werknemers: 50;
    - [2 jaarlijkse netto-omzet als bedoeld in artikel 1:26/1]2, exclusief de belasting over de toegevoegde waarde: [1
@@ -334,7 +342,6 @@ Onder "vennootschappen waarmee een deelnemingsverhouding bestaat", wordt verstaa
  ter uitvoering van artikel 3:30, § 1, bedoelde verrekeningen en elke daaruit voortvloeiende weglating niet worden
  verricht, dan worden deze grensbedragen betreffende het balanstotaal en de netto-omzet vermeerderd met
  twintig procent.
-Pagina 38 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 7. Paragraaf 6 is niet van toepassing op andere vennootschappen dan moedervennootschappen als bedoeld
  in artikel 1:15, 1°, behalve indien dergelijke vennootschappen zijn opgericht met als enig doel de verslaggeving
  van bepaalde informatie te ontwijken.
@@ -348,7 +355,9 @@ Pagina 38 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2024-03-28/60, art. 147, 019; Inwerkingtreding : 08-04-2024>
    (2)<W 2024-12-02/04, art. 3, 024; Inwerkingtreding : 30-12-2024>
 
-  Art. 1:25.§ 1. Onder "microvennootschappen" wordt verstaan, kleine vennootschappen met
+## Art. 1:25
+
+§ 1. Onder "microvennootschappen" wordt verstaan, kleine vennootschappen met
  rechtspersoonlijkheid die geen dochtervennootschap of moedervennootschap zijn en die op balansdatum van
  het laatst afgesloten boekjaar niet meer dan één der volgende criteria overschrijden:
   - jaargemiddelde van het aantal werknemers: 10;
@@ -362,7 +371,9 @@ Pagina 38 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 2. Groepen van beperkte omvang.
 
-   Art. 1:26.§ 1. Een vennootschap samen met haar dochtervennootschappen, of vennootschappen die samen
+## Art. 1:26
+
+§ 1. Een vennootschap samen met haar dochtervennootschappen, of vennootschappen die samen
  een consortium uitmaken, worden geacht een groep van beperkte omvang te vormen, indien deze
  vennootschappen samen, op geconsolideerde basis, niet meer dan één van de volgende criteria overschrijden:
    - jaargemiddelde van het aantal werknemers: 250;
@@ -402,7 +413,6 @@ Pagina 38 van 332 Copyright Belgisch S taatsblad 23-01-2026
 [1 Onder "netto-omzet" wordt verstaan:
    1° het bedrag met betrekking tot de verkoop van goederen en de verlening van diensten, na aftrek van
  kortingen en belasting over de toegevoegde waarde en andere rechtstreeks met de omzet verbonden
-Pagina 39 van 332 Copyright Belgisch S taatsblad 23-01-2026
  belastingen;
     2° in afwijking van de bepaling onder 1°, voor de vennootschappen bedoeld in artikel 1:12, 4°, het bedrag
  overeenkomstig artikel 199, tweede lid, van de wet van 13 maart 2016 op het statuut van en het toezicht op de
@@ -434,7 +444,9 @@ Voor de toepassing van de boeken 5, 6 en 7 wordt onder "personeel" verstaan:
 
   HOOFDSTUK 1. Kleine verenigingen.
 
-   Art. 1:28.§ 1. Kleine VZW's en IVZW's zijn VZW's en IVZW's die op balansdatum van het laatst afgesloten
+## Art. 1:28
+
+§ 1. Kleine VZW's en IVZW's zijn VZW's en IVZW's die op balansdatum van het laatst afgesloten
  boekjaar, niet meer dan één van de volgende criteria overschrijden:
    - jaargemiddelde van het aantal werknemers: 50;
    - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 11 250 000]1 euro;
@@ -472,11 +484,12 @@ Voor de toepassing van de boeken 5, 6 en 7 wordt onder "personeel" verstaan:
  balansschema dat vastgesteld is bij koninklijk besluit genomen ter uitvoering van artikel 3:47. De omzet bedoeld
  in de paragrafen 1, 4 en 5 is het bedrag zoals bepaald door dit koninklijk besluit.
    § 6. De Koning kan de in paragraaf 1 vermelde cijfers en de wijze waarop ze worden berekend, wijzigen.
-Pagina 40 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<KB 2024-05-25/17, art. 1, 021; Inwerkingtreding : 17-06-2024>
 
-  Art. 1:29.§ 1. Onder "microVZW's" of "microIVZW's" wordt verstaan, kleine VZW'S of iVZW'S die op
+## Art. 1:29
+
+§ 1. Onder "microVZW's" of "microIVZW's" wordt verstaan, kleine VZW'S of iVZW'S die op
  balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgende criteria overschrijden:
   - jaargemiddelde van het aantal werknemers: 10;
   - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 900 000]1 euro;
@@ -487,7 +500,9 @@ Pagina 40 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 2. Kleine stichtingen.
 
-  Art. 1:30.§ 1. Kleine stichtingen zijn stichtingen die op balansdatum van het laatst afgesloten boekjaar, niet meer
+## Art. 1:30
+
+§ 1. Kleine stichtingen zijn stichtingen die op balansdatum van het laatst afgesloten boekjaar, niet meer
  dan één van de volgende criteria overschrijden:
   - jaargemiddelde van het aantal werknemers: 50;
   - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 11 250 000]1 euro;
@@ -496,7 +511,9 @@ Pagina 40 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<KB 2024-05-25/17, art. 3, 021; Inwerkingtreding : 17-06-2024>
 
-  Art. 1:31.§ 1. Onder "microstichtingen" wordt verstaan, kleine stichtingen die op balansdatum van het laatst
+## Art. 1:31
+
+§ 1. Onder "microstichtingen" wordt verstaan, kleine stichtingen die op balansdatum van het laatst
  afgesloten boekjaar niet meer dan één van de volgende criteria overschrijden:
   - jaargemiddelde van het aantal werknemers: 10;
   - jaaromzet, exclusief de belasting over de toegevoegde waarde: [1 900 000]1 euro;
@@ -541,7 +558,6 @@ Pagina 40 van 332 Copyright Belgisch S taatsblad 23-01-2026
     8° lidstaat: een lidstaat van de Europese Unie of in zoverre het akkoord over de Europese Economische Ruimte
  het voorziet, een Staat die dit akkoord heeft ondertekend.]1
    ----------
-Pagina 41 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<Ingevoegd bij W 2024-01-08/03, art. 4, 017; Inwerkingtreding : 05-02-2024>
 
   TITEL 6/2. [1 Definities betreffende de duurzaamheidsinformatie.]1
@@ -606,7 +622,9 @@ Onder "uiteindelijke begunstigde(n)" wordt verstaan, de personen vermeld in arti
  a) en c), van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van
  terrorisme en tot beperking van het gebruik van contanten.
 
-  Art. 1:35.Vennootschappen en rechtspersonen moeten toereikende, accurate en actuele informatie inwinnen
+## Art. 1:35
+
+Vennootschappen en rechtspersonen moeten toereikende, accurate en actuele informatie inwinnen
  en bijhouden over hun uiteindelijke begunstigden. De inlichtingen betreffen ten minste de naam, geboortedatum,
  nationaliteit en adres van de uiteindelijke begunstigden evenals, wanneer het een vennootschap betreft, de aard
  en omvang van het door hen gehouden economisch belang. [1 De uiteindelijke begunstigde verstrekt aan de
@@ -615,7 +633,6 @@ Onder "uiteindelijke begunstigde(n)" wordt verstaan, de personen vermeld in arti
   Het bestuursorgaan maakt de in het vorige lid bedoelde informatie binnen de maand via elektronische weg over
  aan het Register van uiteindelijke begunstigden (UBO), opgericht door artikel 73 van voornoemde wet, op de
  wijze bepaald door artikel 75 van dezelfde wet.
-Pagina 42 van 332 Copyright Belgisch S taatsblad 23-01-2026
    De informatie over de uiteindelijke begunstigde, bedoeld in het tweede lid, wordt, naast de informatie over de
  juridische eigenaar, aan de onderworpen entiteiten, bedoeld in artikel 5, § 1, van voornoemde wet, verstrekt
  wanneer deze entiteiten cliëntonderzoeksmaatregelen toepassen overeenkomstig boek II, titel 3, van dezelfde
@@ -623,7 +640,9 @@ Pagina 42 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 171, 003; Inwerkingtreding : 15-08-2020>
 
-  Art. 1:36.Worden gestraft met een geldboete van 50 euro tot 5 000 euro, de leden van het bestuursorgaan die
+## Art. 1:36
+
+Worden gestraft met een geldboete van 50 euro tot 5 000 euro, de leden van het bestuursorgaan die
  de formaliteiten bedoeld in artikel 1:35, eerste en tweede lid, binnen de in dat artikel vastgelegde termijn niet
  uitvoeren.
   [1 De administratieve sancties bepaald in artikel 132, § 6, eerste en tweede lid, van de wet van 18 september
@@ -694,10 +713,11 @@ De statuten moeten het Gewest bepalen waarin de zetel van de rechtspersoon is ge
 
   TITEL 4. Oprichting en openbaarmakingsformaliteiten.
 
-Pagina 43 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 1. Vorm van de oprichtingsakte.
 
-   Art. 2:5.§ 1. Vennootschappen onder firma, commanditaire vennootschappen en Europese economische
+## Art. 2:5
+
+§ 1. Vennootschappen onder firma, commanditaire vennootschappen en Europese economische
  samenwerkingsverbanden worden, op straffe van nietigheid, opgericht bij authentieke of onderhandse akte, met
  inachtneming, in dit laatste geval, van artikel [2 8.20]2 van het Burgerlijk Wetboek.
    Besloten vennootschappen, coöperatieve vennootschappen, naamloze vennootschappen, Europese
@@ -739,7 +759,9 @@ Pagina 43 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 2. Verkrijging van de rechtspersoonlijkheid.
 
-   Art. 2:6.§ 1. De vennootschappen verkrijgen rechtspersoonlijkheid vanaf de dag van de neerlegging van de in
+## Art. 2:6
+
+§ 1. De vennootschappen verkrijgen rechtspersoonlijkheid vanaf de dag van de neerlegging van de in
  artikel 2:8, § 1, eerste lid, 1°, 2° en 5°, a), bedoelde stukken. Nochtans verkrijgen Europese vennootschappen,
  Europese coöperatieve vennootschappen en Europese economische samenwerkingsverbanden
  rechtspersoonlijkheid de dag van hun inschrijving in het rechtspersonenregister, onderdeel van de
@@ -761,14 +783,15 @@ Pagina 43 van 332 Copyright Belgisch S taatsblad 23-01-2026
  voorwaarden.
    ----------
    (1)<W 2020-04-28/06, art. 49, 002; Inwerkingtreding : 06-05-2020>
-Pagina 44 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 3. Openbaarmakingsformaliteiten.
 
   Afdeling 1. Belgische rechtspersonen.
 
   Onderafdeling 1. Het dossier van de rechtspersoon.
 
-   Art. 2:7.§ 1. Onverminderd paragraaf 2 [2 ...]2, wordt op de griffie van de ondernemingsrechtbank van de zetel
+## Art. 2:7
+
+§ 1. Onverminderd paragraaf 2 [2 ...]2, wordt op de griffie van de ondernemingsrechtbank van de zetel
  van de rechtspersoon, voor iedere rechtspersoon een dossier gehouden.
    Het in het eerste lid bedoelde dossier strekt ertoe derden waarmee elke rechtspersoon handelt of te maken
  heeft na te gaan of die rechtspersoon geldig is opgericht, of hij het recht heeft zijn activiteiten uit te oefenen, of
@@ -820,7 +843,9 @@ Pagina 44 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2021-07-12/01, art. 3, 007; Inwerkingtreding : 01-08-2021>
    (2)<W 2023-12-19/08, art. 19, 015; Inwerkingtreding : 08-01-2024>
 
-  Art. 2:8.§ 1. Met het oog op hun opname in het vennootschapsdossier worden binnen dertig dagen, te rekenen
+## Art. 2:8
+
+§ 1. Met het oog op hun opname in het vennootschapsdossier worden binnen dertig dagen, te rekenen
  vanaf de dagtekening van de definitieve akte, de uitspraak van het vonnis uitvoerbaar bij voorraad of het in
  kracht van gewijsde gaan van het vonnis, voor vennootschappen de volgende stukken neergelegd:
   1° een uitgifte van de authentieke oprichtingsakte of een dubbel van de onderhandse oprichtingsakte;
@@ -829,7 +854,6 @@ Pagina 44 van 332 Copyright Belgisch S taatsblad 23-01-2026
  onderhandse oprichtingsakte;
   4° de eerste versie van de tekst van de statuten samen met de oprichtingsakte, en de bijgewerkte en
  gecoördineerde tekst van de statuten samen met iedere statutenwijziging met inbegrip, in voorkomend geval,
-Pagina 45 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van iedere wijziging in de samenstelling van een Europees economisch samenwerkingsverband;
    5° het uittreksel uit de akten betreffende de benoeming en ambtsbeëindiging van:
    a) de personen die gemachtigd zijn de vennootschap te besturen en te vertegenwoordigen;
@@ -898,7 +922,6 @@ Pagina 45 van 332 Copyright Belgisch S taatsblad 23-01-2026
    a) de naam, de handelsnaam of benaming, de rechtsvorm, de woonplaats of de zetel evenals, in voorkomend
  geval, het nummer en de plaats van inschrijving van elk van de leden;
    b) in voorkomend geval, het beding waarbij een nieuw lid wordt vrijgesteld van betaling van de schulden die voor
-Pagina 46 van 332 Copyright Belgisch S taatsblad 23-01-2026
  zijn toetreding zijn ontstaan;
    c) het beding waarbij in de aanwijzing van een bedrijfsrevisor wordt voorzien, belast met de waardering van
  inbrengen die niet in geld bestaan. De Koning kan bij in Ministerraad overlegd besluit de soorten Europese
@@ -916,7 +939,9 @@ Pagina 46 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 50, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2021-07-12/01, art. 4, 007; Inwerkingtreding : 01-08-2021>
 
-  Art. 2:9.§ 1. Met het oog op hun opname in het verenigingsdossier worden voor een VZW binnen dertig dagen,
+## Art. 2:9
+
+§ 1. Met het oog op hun opname in het verenigingsdossier worden voor een VZW binnen dertig dagen,
  te rekenen vanaf de dagtekening van de definitieve akte, de uitspraak van het vonnis uitvoerbaar bij voorraad of
  het in kracht van gewijsde gaan van het vonnis, de volgende stukken neergelegd:
   1° de oprichtingsakte;
@@ -967,7 +992,6 @@ Pagina 46 van 332 Copyright Belgisch S taatsblad 23-01-2026
   c) in voorkomend geval, de wijze van benoeming en ambtsbeëindiging van de personen aan wie het dagelijks
  bestuur van de VZW is opgedragen overeenkomstig artikel 9:10, [1 de omvang van hun bevoegdheden]1 en de
  wijze waarop zij hun bevoegdheid uitoefenen, alleen dan wel gezamenlijk, of als college;
-Pagina 47 van 332 Copyright Belgisch S taatsblad 23-01-2026
   8° het maximumbedrag van de bijdragen of van de stortingen ten laste van de leden;
   9° het belangeloos doel waaraan de VZW, bij haar ontbinding, het vermogen moet bestemmen;
   10° de duur van de VZW ingeval zij niet voor onbepaalde tijd is aangegaan;
@@ -980,7 +1004,9 @@ Pagina 47 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 51, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2021-07-12/01, art. 5, 007; Inwerkingtreding : 01-08-2021>
 
-  Art. 2:10.§ 1. Met het oog op hun opname in het verenigingsdossier worden voor de IVZW binnen dertig
+## Art. 2:10
+
+§ 1. Met het oog op hun opname in het verenigingsdossier worden voor de IVZW binnen dertig
  dagen, [2 te rekenen vanaf de datum van het koninklijk besluit waarbij zij worden erkend of tot goedkeuring van
  de wijziging van de gegevens vermeld in paragraaf 2, 3°, dan wel in de andere gevallen]2 te rekenen vanaf de
  dagtekening van de definitieve akte, de uitspraak van het vonnis uitvoerbaar bij voorraad of het in kracht van
@@ -1036,7 +1062,6 @@ Pagina 47 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bestuur van de IVZW is opgedragen [1 de omvang van hun bevoegdheden...]1, [1 ]1 en de wijze waarop zij hun
  bevoegdheid uitoefenen, alleen dan wel gezamenlijk, of als college.
   8° de voorwaarden voor statutenwijziging;
-Pagina 48 van 332 Copyright Belgisch S taatsblad 23-01-2026
   9° de voorwaarden voor ontbinding en vereffening van de IVZW en het belangeloos doel waaraan de IVZW, bij
  haar ontbinding, het vermogen moet bestemmen;
   10° de nauwkeurige aanduiding van het adres waarop de zetel van de IVZW is gevestigd en, in voorkomend
@@ -1048,7 +1073,9 @@ Pagina 48 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2021-07-12/01, art. 6,1°, 007; Inwerkingtreding : 25-07-2021>
   (3)<W 2021-07-12/01, art. 6,2°, 007; Inwerkingtreding : 01-08-2021>
 
-  Art. 2:11.§ 1. Met het oog op hun opname in het stichtingsdossier worden voor de stichting binnen dertig
+## Art. 2:11
+
+§ 1. Met het oog op hun opname in het stichtingsdossier worden voor de stichting binnen dertig
  dagen, [2 te rekenen voor de stichtingen van openbaar nut vanaf de datum van het koninklijk besluit waarbij zij
  worden erkend of tot goedkeuring van de wijziging van de gegevens vermeld in paragraaf 2, 3°, dan wel in de
  andere gevallen]2 te rekenen vanaf de dagtekening van de definitieve akte, de uitspraak van het vonnis
@@ -1104,12 +1131,13 @@ Pagina 48 van 332 Copyright Belgisch S taatsblad 23-01-2026
   8° de identiteit van de bestuurders, dagelijks bestuurders en de andere personen bevoegd om de stichting te
  vertegenwoordigen, en, in voorkomend geval, van de commissaris.
   ----------
-Pagina 49 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 53, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2021-07-12/01, art. 7,1°, 007; Inwerkingtreding : 25-07-2021>
   (3)<W 2021-07-12/01, art. 7,2°, 007; Inwerkingtreding : 01-08-2021>
 
-  Art. 2:12.§ 1. De neerleggingen bedoeld in de artikelen 2:8, 2:9, 2:10 en 2:11 gebeuren voor de authentieke
+## Art. 2:12
+
+§ 1. De neerleggingen bedoeld in de artikelen 2:8, 2:9, 2:10 en 2:11 gebeuren voor de authentieke
  akten door de notaris en voor de onderhandse akten en rechterlijke beslissingen door een notaris, door een
  ondernemingsloket of door alle hoofdelijk aansprakelijke vennoten, het vertegenwoordigingsbevoegd orgaan of
  hun gemachtigde.
@@ -1185,7 +1213,6 @@ De stukken die krachtens dit hoofdstuk moeten worden openbaar gemaakt, kunnen aa
 ## Art. 2:19
 
 Na de vervulling van de formaliteiten van de openbaarmaking betreffende de personen die als orgaan
-Pagina 50 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van de rechtspersoon bevoegd zijn om deze te vertegenwoordigen, kan een onregelmatigheid in hun benoeming
  niet meer aan derden worden tegengeworpen, tenzij de rechtspersoon aantoont dat die derden daarvan kennis
  hadden.
@@ -1254,14 +1281,15 @@ Hij die namens een rechtspersoon meewerkt aan een akte of website die niet voldo
 
   Onderafdeling 1. Dossier van de buitenlandse rechtspersoon met een bijkantoor in België.
 
-   Art. 2:23.§ 1. Op de griffie van de ondernemingsrechtbank in het ambtsgebied waarvan het bijkantoor is
+## Art. 2:23
+
+§ 1. Op de griffie van de ondernemingsrechtbank in het ambtsgebied waarvan het bijkantoor is
  gevestigd, wordt voor iedere buitenlandse rechtspersoon met een bijkantoor in België een dossier gehouden.
  Ingeval de buitenlandse rechtspersoon in België verscheidene bijkantoren heeft, wordt het dossier gehouden op
  de griffie van de ondernemingsrechtbank in het ambtsgebied waarvan een van die bijkantoren is gevestigd, zulks
  naar keuze van de buitenlandse rechtspersoon. In dat geval vermeldt de buitenlandse rechtspersoon in zijn
  akten en in zijn briefwisseling de plaats waar zijn dossier wordt gehouden.
    Het in het eerste lid bedoelde dossier strekt ertoe derden waarmee elke rechtspersoon handelt of te maken
-Pagina 51 van 332 Copyright Belgisch S taatsblad 23-01-2026
  heeft na te gaan of die rechtspersoon geldig is opgericht, of hij het recht heeft zijn activiteiten uit te oefenen, of
  zijn vertegenwoordigingsorganen het recht hebben hem te verbinden, en of, in een vennootschap, de vennoten
  of aandeelhouders al dan niet onbeperkt aansprakelijk zijn. Dit dossier stelt elke belanghebbende in staat de
@@ -1332,7 +1360,6 @@ Pagina 51 van 332 Copyright Belgisch S taatsblad 23-01-2026
   a) als orgaan van de vennootschap waarin de wet voorziet of als leden van dit orgaan;
   b) als vertegenwoordigers van de vennootschap voor de werkzaamheden van het bijkantoor, met vermelding
  van de bevoegdheden van deze vertegenwoordigers;
-Pagina 52 van 332 Copyright Belgisch S taatsblad 23-01-2026
    7° de jaarrekening en de geconsolideerde jaarrekening van de vennootschap betreffende het laatst afgesloten
  boekjaar, in de vorm waarin deze rekeningen werden opgesteld, gecontroleerd en openbaar gemaakt volgens
  het recht van de lidstaat waaronder de vennootschap valt.
@@ -1403,7 +1430,6 @@ Pagina 52 van 332 Copyright Belgisch S taatsblad 23-01-2026
  rechtspersoon betreft, hun naam, rechtsvorm, ondernemingsnummer en zetel.
    § 2. Met het oog op hun opname in het dossier van een vereniging met rechtspersoonlijkheid die op geldige
  wijze in het buitenland is opgericht overeenkomstig de wet van de Staat waartoe zij behoort en die een bijkantoor
-Pagina 53 van 332 Copyright Belgisch S taatsblad 23-01-2026
  heeft in België, worden de volgende stukken neergelegd:
   1° binnen dertig dagen na de beslissing of de gebeurtenis:
   a) elke wijziging van de stukken en gegevens bedoeld in paragraaf 1, 1°, 2°, 3° en 4° ;
@@ -1480,7 +1506,6 @@ Alle akten, facturen, aankondigingen, bekendmakingen, brieven, orders, websites 
   1° de naam van de rechtspersoon;
   2° de rechtsvorm;
   3° de nauwkeurige aanduiding van de zetel van de rechtspersoon en van het adres van het bijkantoor;
-Pagina 54 van 332 Copyright Belgisch S taatsblad 23-01-2026
    4° in voorkomend geval, het register waarin de rechtspersoon is ingeschreven, gevolgd door het nummer van
  inschrijving;
    5° het ondernemingsnummer;
@@ -1555,7 +1580,6 @@ Vennootschappen en onder de taalwetgeving vallende VZW's, IVZW's en stichtingen,
  vertaald en neergelegd, al dan niet in elektronische vorm, in één of meer officiële talen van de Europese Unie.
   In geval van tegenstrijdigheid tussen de stukken bedoeld in het eerste lid met de vertaling die krachtens het
  tweede lid vrijwillig wordt openbaar gemaakt, kan deze laatste vertaling niet aan derden worden tegengeworpen.
-Pagina 55 van 332 Copyright Belgisch S taatsblad 23-01-2026
  Die derden kunnen zich echter wel beroepen op de vrijwillig openbaar gemaakte vertaling, tenzij de
  rechtspersoon aantoont dat de derden kennis droegen van de versie bedoeld in het eerste lid.
 
@@ -1615,7 +1639,9 @@ De artikelen 2:34 en 2:36 zijn van toepassing op de nietigheid wegens vormgebrek
 
   Afdeling 2. Procedure en gevolgen van de nietigheid van verenigingen en stichtingen.
 
-   Art. 2:40.§ 1. De nietigheid van een vereniging of stichting moet bij rechterlijke beslissing worden uitgesproken.
+## Art. 2:40
+
+§ 1. De nietigheid van een vereniging of stichting moet bij rechterlijke beslissing worden uitgesproken.
    Wanneer het mogelijk is de toestand van de vereniging of stichting te regulariseren, kan de rechtbank daarvoor
  een termijn toestaan.
    § 2. Onverminderd de artikelen 2:9, 2:10, 2:11 en 2:18, heeft de nietigheid gevolgen te rekenen van de dag
@@ -1638,7 +1664,6 @@ De artikelen 2:34 en 2:36 zijn van toepassing op de nietigheid wegens vormgebrek
 
 Bij gebrek aan andersluidende statutaire bepalingen, zijn de gewone regels van de beraadslagende
  vergaderingen toepasselijk op de colleges en vergaderingen waarin dit wetboek voorziet, tenzij het wetboek
-Pagina 56 van 332 Copyright Belgisch S taatsblad 23-01-2026
  anders bepaalt.
 
   Afdeling 2. Nietigheid van besluiten van organen, van besluiten van de algemene vergadering van
@@ -1721,7 +1746,6 @@ De nietigheid kan niet worden tegengeworpen aan derden die, op grond van het bes
 
   TITEL 6. Bestuur.
 
-Pagina 57 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 1. Bestuur en vertegenwoordiging.
 
 ## Art. 2:49
@@ -1760,7 +1784,9 @@ Elk lid van een bestuursorgaan of dagelijks bestuurder kan keuze van woonplaats 
  van de rechtspersoon, voor alle materies die aan de uitoefening van zijn mandaat raken. Deze woonplaatskeuze
  kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
 
-  Art. 2:55.Wanneer een rechtspersoon een mandaat opneemt van lid van een bestuursorgaan of dagelijks
+## Art. 2:55
+
+Wanneer een rechtspersoon een mandaat opneemt van lid van een bestuursorgaan of dagelijks
  bestuurder, benoemt hij een natuurlijke persoon als vaste vertegenwoordiger die wordt belast met de uitvoering
  van dat mandaat in naam en voor rekening van de rechtspersoon. Deze vaste vertegenwoordiger moet aan
  dezelfde voorwaarden voldoen als de rechtspersoon en is hoofdelijk met hem aansprakelijk alsof hij zelf het
@@ -1804,8 +1830,9 @@ De in artikel 2:51 bedoelde personen en alle andere personen die ten aanzien van
  zij gebeurt aan een collegiaal bestuurs- of toezichtsorgaan, wordt deze melding, evenals de bespreking waartoe
  zij aanleiding geeft, opgenomen in de notulen.
 
-Pagina 58 van 332 Copyright Belgisch S taatsblad 23-01-2026
-   Art. 2:57.§ 1. De aansprakelijkheid bedoeld in artikel 2:56, elke andere schadeaansprakelijkheid die voortvloeit uit
+## Art. 2:57
+
+§ 1. De aansprakelijkheid bedoeld in artikel 2:56, elke andere schadeaansprakelijkheid die voortvloeit uit
  dit wetboek of andere wetten of reglementen ten laste van de personen vermeld in artikel 2:51, evenals de
  aansprakelijkheid voor de schulden van de rechtspersoon bedoeld [1 in artikel XX.227]1 van het Wetboek van
  economisch recht is beperkt tot de volgende bedragen:
@@ -1860,7 +1887,9 @@ Pagina 58 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 58, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2021-12-20/04, art. 2, 009; Inwerkingtreding : 07-01-2022>
 
-  Art. 2:58.De aansprakelijkheid van een lid van een bestuursorgaan of dagelijks bestuurder kan niet verder
+## Art. 2:58
+
+De aansprakelijkheid van een lid van een bestuursorgaan of dagelijks bestuurder kan niet verder
  worden beperkt dan vermeld in artikel 2:57.
   De rechtspersoon, zijn dochtervennootschappen of de door hem gecontroleerde entiteiten mogen de in het
  eerste lid vermelde personen niet vooraf exonereren of vrijwaren voor hun aansprakelijkheid jegens de [1
@@ -1872,8 +1901,9 @@ Pagina 58 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 3. Intern reglement.
 
-Pagina 59 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 2:59.Het bestuursorgaan kan een intern reglement uitvaardigen mits statutaire machtiging. Dergelijk intern
+## Art. 2:59
+
+Het bestuursorgaan kan een intern reglement uitvaardigen mits statutaire machtiging. Dergelijk intern
  reglement kan geen bepalingen bevatten:
   1° die strijdig zijn met dwingende wetsbepalingen of de statuten;
   2° over materies waarvoor dit wetboek een statutaire bepaling vereist;
@@ -1955,7 +1985,6 @@ Nadat de dagvaarding is betekend, mag de gedaagde zijn effecten niet vervreemden
 
 Bij de indiening van zijn eerste conclusie voegt de gedaagde een kopie van de gecoördineerde
  statuten, alsook een kopie of een uittreksel van alle overeenkomsten die de overdraagbaarheid van zijn effecten
-Pagina 60 van 332 Copyright Belgisch S taatsblad 23-01-2026
  beperken.
    Wanneer de rechter de uitsluiting beveelt, ziet hij erop toe dat die statutaire en contractuele beperkingen in acht
  worden genomen. Voor zover de begunstigden in het geding zijn betrokken, kan de rechter:
@@ -2011,7 +2040,9 @@ Iedere aandeelhouder kan om gegronde redenen in rechte vorderen dat zijn effecte
   Artikel 2:66, tweede en derde lid, is van toepassing. Artikel 2:66, eerste lid, is van overeenkomstige toepassing
  op de eiser.
 
-  Art. 2:69.De rechter veroordeelt de gedaagde om, binnen de door hem gestelde termijn te rekenen van de
+## Art. 2:69
+
+De rechter veroordeelt de gedaagde om, binnen de door hem gestelde termijn te rekenen van de
  betekening van het vonnis, de effecten over te nemen en de eiser om deze effecten aan de gedaagde over te
  dragen tegen betaling van de prijs die hij vaststelt. Het recht op betaling van de prijs ontstaat op het tijdstip van
  de eigendomsoverdracht. Indien de rechter de eigendomsoverdracht beveelt zonder op te leggen dat de
@@ -2025,7 +2056,6 @@ Iedere aandeelhouder kan om gegronde redenen in rechte vorderen dat zijn effecte
   De rechter raamt de waarde van de effecten op het tijdstip waarop hij de overname ervan beveelt, tenzij dit tot
  een kennelijk onredelijk resultaat leidt. In dat geval mag hij, met inachtneming van alle relevante omstandigheden,
  beslissen tot een billijke prijsverhoging of -vermindering.
-Pagina 61 van 332 Copyright Belgisch S taatsblad 23-01-2026
   De rechter kan de eigendomsoverdracht bevelen tegen betaling van een provisionele prijs in afwachting van de
  bepaling van de definitieve prijs.
   De rechter kan een deel van de prijs koppelen aan de instemming van eisers met de naleving van een nietconcurrentiebeding dat hij voorstelt of met de verstrenging van een bestaand niet-concurrentiebeding. Op
@@ -2059,7 +2089,9 @@ De vennootschap wordt ontbonden:
 
   Onderafdeling 2. Vrijwillige ontbinding.
 
-   Art. 2:71.§ 1. [1 Het besluit van de algemene vergadering tot ontbinding van een besloten vennootschap, een
+## Art. 2:71
+
+§ 1. [1 Het besluit van de algemene vergadering tot ontbinding van een besloten vennootschap, een
  coöperatieve vennootschap, een naamloze vennootschap, een Europese vennootschap of een Europese
  coöperatieve vennootschap, dat op elk ogenblik kan worden genomen, vereist een statutenwijziging.]1
    § 2. Het bestuursorgaan licht het voorstel tot ontbinding toe in een verslag dat wordt vermeld in de agenda van
@@ -2096,7 +2128,6 @@ Onverminderd de bijzondere bepalingen waarin dit wetboek voorziet, worden de ven
  uitdrukkelijke ontbindende voorwaarde waaraan de vennoten of aandeelhouders de vennootschap in de statuten
  hebben onderworpen.
 
-Pagina 62 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 4. Gerechtelijke ontbinding.
 
 ## Art. 2:73
@@ -2109,7 +2140,9 @@ De voorzitter van de ondernemingsrechtbank van de zetel van de vennootschap kan 
  die de normale voortzetting van de zaken van de vennootschap onmogelijk maken, zoals de diepgaande en
  blijvende onenigheid tussen de aandeelhouders of vennoten.
 
-   Art. 2:74.§ 1. De rechtbank kan op vraag van iedere belanghebbende of van het openbaar ministerie, dan wel
+## Art. 2:74
+
+§ 1. De rechtbank kan op vraag van iedere belanghebbende of van het openbaar ministerie, dan wel
  na mededeling door de kamer voor ondernemingen in moeilijkheden krachtens artikel XX.29 van het Wetboek
  van economisch recht, de ontbinding uitspreken van een vennootschap die haar verplichting om een
  jaarrekening neer te leggen overeenkomstig de artikelen 3:10 en 3:12 niet is nagekomen.
@@ -2168,7 +2201,6 @@ De voorzitter van de ondernemingsrechtbank van de zetel van de vennootschap kan 
 
   Afdeling 2. Vereffening van vennootschappen.
 
-Pagina 63 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 1. Algemene bepalingen.
 
 ## Art. 2:76
@@ -2192,7 +2224,9 @@ Een besluit tot verplaatsing van de zetel van een vennootschap in vereffening ka
  neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 1°, wanneer er een kopie wordt
  bijgevoegd van de beslissing tot homologatie door de rechtbank.
 
-   Art. 2:79.Worden geen vereffenaars benoemd of aangewezen, dan worden de vennoten-zaakvoerders in de
+## Art. 2:79
+
+Worden geen vereffenaars benoemd of aangewezen, dan worden de vennoten-zaakvoerders in de
  vennootschappen onder firma of in de commanditaire vennootschappen, de leden van de raad van bestuur of de
  leden van directieraad in een Europese vennootschap of Europese coöperatieve vennootschap alsook de
  bestuurders in de besloten vennootschap, de coöperatieve vennootschap, en de naamloze vennootschap, ten
@@ -2204,7 +2238,9 @@ Een besluit tot verplaatsing van de zetel van een vennootschap in vereffening ka
 
   Onderafdeling 2. Onmiddellijke sluiting van de vereffening.
 
-   Art. 2:80.Onverminderd artikel 2:71, zijn een ontbinding en de sluiting van de vereffening in één akte mogelijk
+## Art. 2:80
+
+Onverminderd artikel 2:71, zijn een ontbinding en de sluiting van de vereffening in één akte mogelijk
  met naleving van de volgende voorwaarden:
    1° er wordt geen vereffenaar benoemd;
    2° alle schulden ten aanzien van vennoten of aandeelhouders, of derden zoals vermeld in de staat van activa en
@@ -2235,7 +2271,9 @@ In het geval van een gerechtelijke ontbinding de rechtbank geen vereffenaar aanw
 
   Onderafdeling 3. Vereffening door één of meerdere vereffenaars.
 
-  Art. 2:82.De vennootschap wordt vereffend door de vereffenaar. Onder voorbehoud van artikel 2:93 vormen
+## Art. 2:82
+
+De vennootschap wordt vereffend door de vereffenaar. Onder voorbehoud van artikel 2:93 vormen
  zij, indien meer dan één vereffenaar worden benoemd of aangewezen, een college dat beraadslaagt en besluit
  overeenkomstig artikel 2:41.
   Ingeval een vereffenaar een rechtspersoon is, is artikel 2:55 van overeenkomstige toepassing.
@@ -2244,7 +2282,6 @@ In het geval van een gerechtelijke ontbinding de rechtbank geen vereffenaar aanw
  worden aangewezen, net zomin als enige bewaarder, voogd, bestuurder of rekenplichtige die niet tijdig rekening
  en verantwoording heeft gedaan en niet tijdig heeft afgerekend. Dit verbod geldt voor een termijn van tien jaar, te
  rekenen van een definitief rechterlijke uitspraak van veroordeling dan wel van het uitblijven van [1 een tijdige
-Pagina 64 van 332 Copyright Belgisch S taatsblad 23-01-2026
  afrekening en verantwoording]1.
   ----------
   (1)<W 2020-04-28/06, art. 64, 002; Inwerkingtreding : 06-05-2020>
@@ -2314,14 +2351,15 @@ De voorzitter van de bevoegde rechtbank kan op verzoek van het openbaar minister
 
   Onderafdeling 4. Bevoegdheden van de vereffenaar.
 
-   Art. 2:87.§ 1. Tenzij de statuten, [1 het benoemingsbesluit]1 of de rechterlijke uitspraak anders bepalen, is de
+## Art. 2:87
+
+§ 1. Tenzij de statuten, [1 het benoemingsbesluit]1 of de rechterlijke uitspraak anders bepalen, is de
  vereffenaar bevoegd voor alle handelingen die nodig of dienstig zijn voor de vereffening van de vennootschap.
    De statuten, het benoemingsbesluit of de rechterlijke uitspraak kunnen de bevoegdheden van de vereffenaar
  beperken. Zodanig beperking kan aan derden worden tegengeworpen mits neerlegging en bekendmaking
  overeenkomstig de artikelen 2:8 en 2:14, 1°.
    In afwijking van het tweede lid kunnen bevoegdheidsbeperkingen van de vereffenaar opgenomen in de statuten,
  in het benoemingsbesluit of de rechterlijke uitspraak in een besloten vennootschap, een coöperatieve
-Pagina 65 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennootschap en een naamloze vennootschap niet aan derden worden tegengeworpen, ook al zijn ze openbaar
  gemaakt.
   § 2. De vereffenaar vertegenwoordigt de vennootschap jegens derden, met inbegrip van de
@@ -2378,7 +2416,9 @@ De leden van het bestuursorgaan van de ontbonden vennootschap geven gevolg aan a
   De leden van het bestuursorgaan van de ontbonden vennootschap zijn verplicht de vereffenaar elke
  adreswijziging mede te delen.
 
-  Art. 2:91.De vereffenaar ontbiedt de leden van het bestuursorgaan van de ontbonden vennootschap om in hun
+## Art. 2:91
+
+De vereffenaar ontbiedt de leden van het bestuursorgaan van de ontbonden vennootschap om in hun
  tegenwoordigheid de boeken en bescheiden vast te stellen en af te sluiten.
   De vereffenaar gaat onmiddellijk over tot verificatie en verbetering van de laatst neergelegde balans. Hij maakt
  een balans op, overeenkomstig de regels en de beginselen van het boekhoudrecht, met behulp van de boeken
@@ -2398,7 +2438,6 @@ De vereffenaar kan de leden van het bestuursorgaan, hun werknemers en wie dan oo
  aangaande het onderzoek van de boeken en de boekhoudkundige bescheiden als aangaande de oorzaken en de
  omstandigheden die aanleiding hebben gegeven tot de ontbinding.
 
-Pagina 66 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 5. College van vereffenaars.
 
 ## Art. 2:93
@@ -2477,7 +2516,6 @@ De vereffenaar zendt in de zevende en de dertiende maand na de invereffeningstel
  worden terugbetaald, legt de vereffenaar vooraleer de vereffening wordt gesloten, bij eenzijdig verzoekschrift
  overeenkomstig de artikelen 1025 en volgende van het Gerechtelijk Wetboek het plan voor de verdeling van de
  activa onder de verschillende categorieën schuldeisers ter goedkeuring voor aan de bevoegde rechtbank.
-Pagina 67 van 332 Copyright Belgisch S taatsblad 23-01-2026
  Voormeld verzoekschrift mag worden ondertekend door de vereffenaar, door een advocaat of door een notaris.
   De in het eerste lid bedoelde verplichting tot het ter goedkeuring voorleggen van het plan van verdeling aan de
  rechtbank geldt niet wanneer de schuldeisers die niet integraal werden terugbetaald, aandeelhouders of
@@ -2536,7 +2574,9 @@ Elk boekjaar legt de vereffenaar aan de algemene vergadering de jaarrekening voo
 
   Onderafdeling 7. Sluiting van de vereffening.
 
-  Art. 2:100.Bij de beëindiging van de vereffening en ten minste één maand voor de algemene vergadering, legt
+## Art. 2:100
+
+Bij de beëindiging van de vereffening en ten minste één maand voor de algemene vergadering, legt
  de vereffenaar op de zetel van de vennootschap een cijfermatig verslag over de vereffening neer, houdende de
  vereffeningsrekeningen samen met de stukken tot staving. Het verslag bevat in voorkomend geval de informatie
  over de teruggave van de inbrengen en de uitkering van een eventueel vereffeningssaldo aan de aandeelhouders
@@ -2550,7 +2590,6 @@ Elk boekjaar legt de vereffenaar aan de algemene vergadering de jaarrekening voo
   Nadat zij in voorkomend geval kennis heeft genomen van het verslag van de commissaris, beslist de algemene
  vergadering over de goedkeuring van de rekeningen. Bij afzonderlijke stemming beslist zij aansluitend over de
  kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris, en over de sluiting van de
-Pagina 68 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vereffening.
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
@@ -2627,8 +2666,9 @@ Voor elke vereffening worden ter griffie in het in artikel 2:7 bedoelde dossier,
  bij de sluiting van de vereffening van de vennootschap.
 
   Onderafdeling 8. Heropening van de vereffening.
-Pagina 69 van 332 Copyright Belgisch S taatsblad 23-01-2026
-   Art. 2:105.§ 1. Indien na de sluiting van de vereffening blijkt dat één of meerdere actieve
+## Art. 2:105
+
+§ 1. Indien na de sluiting van de vereffening blijkt dat één of meerdere actieve
  vermogensbestanddelen van de vennootschap werden vergeten, kan elke schuldeiser wiens schuldvordering
  niet integraal werd voldaan de heropening van de vereffening vorderen.
    De vordering tot heropening van de vereffening wordt ingesteld tegen de vereffenaars die laatst in functie
@@ -2701,14 +2741,15 @@ Worden gestraft met geldboete van vijftig euro tot tienduizend euro:
  overeenkomstig artikel 2:96.
   Indien de schending van de artikelen bedoeld in het eerste lid, 1°, gebeurt met bedrieglijk oogmerk kunnen zij
  bovendien worden gestraft met gevangenisstraf van een maand tot een jaar of met beide straffen samen.
-Pagina 70 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 2. Ontbinding van verenigingen en stichtingen.
 
   Afdeling 1. Ontbinding van VZW's en van IVZW's.
 
   Onderafdeling 1. Algemene bepaling.
 
-  Art. 2:109.De VZW en de IVZW worden ontbonden:
+## Art. 2:109
+
+De VZW en de IVZW worden ontbonden:
   1° door een besluit van de algemene vergadering [1 van de VZW of van het door de statuten aangewezen
  orgaan van de IVZW]1;
   2° van rechtswege, als gevolg van een door de wet of de statuten omschreven feit of gebeurtenis;
@@ -2758,7 +2799,9 @@ De verlenging van de duur van een VZW of van een IVZW die voor een bepaalde duur
 
   Onderafdeling 4. Gerechtelijke ontbinding.
 
-  Art. 2:113.§ 1. De rechtbank kan op verzoek van een lid, van een belanghebbende derde of van het openbaar
+## Art. 2:113
+
+§ 1. De rechtbank kan op verzoek van een lid, van een belanghebbende derde of van het openbaar
  ministerie de ontbinding uitspreken van een VZW of van een IVZW die:
   1° niet in staat is haar verbintenissen na te komen;
   2° haar vermogen of de inkomsten uit dat vermogen voor een ander doel aanwendt dan dat waarvoor zij is
@@ -2775,7 +2818,6 @@ De verlenging van de duur van een VZW of van een IVZW die voor een bepaalde duur
  roept de griffie de vereniging op per gerechtsbrief die de tekst van dit artikel weergeeft.
   De vordering tot ontbinding bedoeld in paragraaf 1, 4°, kan slechts worden ingesteld na het verstrijken van een
  termijn van zeven maanden te rekenen van de datum van afsluiting van het boekjaar.
-Pagina 71 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 3. De rechtbank die de ontbinding uitspreekt, kan hetzij tot de onmiddellijke sluiting van de vereffening
  beslissen, hetzij één of meer vereffenaars aanwijzen. In dit laatste geval bepaalt de rechtbank de bevoegdheden
  van de vereffenaars en de vereffeningswijze.
@@ -2800,7 +2842,9 @@ Pagina 71 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 2. Ontbinding van stichtingen.
 
-  Art. 2:114.§ 1. Alleen de rechtbank van het arrondissement waar de stichting haar zetel heeft, kan op verzoek
+## Art. 2:114
+
+§ 1. Alleen de rechtbank van het arrondissement waar de stichting haar zetel heeft, kan op verzoek
  van een stichter of van een van zijn rechthebbenden, van één of meer bestuurders, van een belanghebbende
  derde of van het openbaar ministerie de ontbinding uitspreken van een stichting:
   1° waarvan het doel of het voorwerp is verwezenlijkt;
@@ -2841,7 +2885,6 @@ Pagina 71 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 68, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2023-06-07/07, art. 269, 014; Inwerkingtreding : 01-09-2023>
 
-Pagina 72 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Hoofdstuk 3. Vereffening van verenigingen en stichtingen.
 
   Afdeling 1. Algemene bepalingen.
@@ -2887,7 +2930,9 @@ Een besluit tot verplaatsing van de zetel van een VZW in vereffening, een IVZW i
  rechtbank op gemotiveerd verzoek van een lid, van een belanghebbende derde of van het openbaar ministerie de
  vereffenaars.
 
-   Art. 2:119.Indien uit de staat van actief en passief opgemaakt overeenkomstig artikel 2:110, § 2, tweede lid,
+## Art. 2:119
+
+Indien uit de staat van actief en passief opgemaakt overeenkomstig artikel 2:110, § 2, tweede lid,
  blijkt dat niet alle schulden integraal kunnen worden betaald, dan moet de benoeming van de vereffenaars in de
  statuten dan wel door de algemene vergadering of door het door de statuten aangewezen orgaan ter
  bevestiging worden voorgelegd aan de voorzitter van de rechtbank. De bevoegde rechtbank is die van het
@@ -2918,7 +2963,6 @@ Een besluit tot verplaatsing van de zetel van een VZW in vereffening, een IVZW i
  gehomologeerd door de voorzitter van de rechtbank. Zo de voorzitter van de bevoegde rechtbank weigert over
  te gaan tot homologatie of bevestiging, wijst hij één van deze alternatieve kandidaten aan als vereffenaar. Voldoet
  geen enkele van de kandidaten aan de in dit artikel omschreven voorwaarden, dan wijst de voorzitter van de
-Pagina 73 van 332 Copyright Belgisch S taatsblad 23-01-2026
  rechtbank zelf een vereffenaar aan.
    De voorzitter van de rechtbank wordt aangezocht bij eenzijdig verzoekschrift van de vereniging, dat wordt
  ingediend overeenkomstig de artikelen 1025 en volgende van het Gerechtelijk Wetboek. Het eenzijdig
@@ -2941,7 +2985,9 @@ De voorzitter van de bevoegde rechtbank kan op verzoek van het openbaar minister
 
   Onderafdeling 2. Bevoegdheden van de vereffenaar.
 
-  Art. 2:121.§ 1. Tenzij de statuten of [1 het benoemingsbesluit]1 anders bepalen, zijn de vereffenaars bevoegd
+## Art. 2:121
+
+§ 1. Tenzij de statuten of [1 het benoemingsbesluit]1 anders bepalen, zijn de vereffenaars bevoegd
  voor alle handelingen die nodig of dienstig zijn voor de vereffening van de VZW of de IVZW.
   De statuten of het benoemingsbesluit kunnen de bevoegdheden van de vereffenaars beperken. Zodanig
  beperking kan aan derden niet worden tegengeworpen, ook al is ze openbaar gemaakt.
@@ -2993,7 +3039,6 @@ Indien meerdere vereffenaars worden benoemd, vormen zij een college dat beraadsl
  overeenkomstig naargelang van het geval de artikelen 2:9 en 2:15 of 2:10 en 2:16.
 
   Onderafdeling 4. Verrichtingen van de vereffening.
-Pagina 74 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 2:124
 
 De vereffenaars vervullen hun opdracht hetzij overeenkomstig de statuten, hetzij krachtens een
@@ -3033,7 +3078,9 @@ Onverminderd de rechten van de bevoorrechte schuldeisers, betalen de vereffenaar
  boven gaan of de schuldvorderingen op termijn voldoende gewaarborgd zijn, onverminderd het recht van de
  schuldeisers om zich tot de rechtbank te wenden.
 
-  Art. 2:129.§ 1. Wanneer er meerdere vereffenaars zijn die elk individueel bevoegd zijn, en zij een beslissing
+## Art. 2:129
+
+§ 1. Wanneer er meerdere vereffenaars zijn die elk individueel bevoegd zijn, en zij een beslissing
  moeten nemen of zich over een verrichting moeten uitspreken die onder hun bevoegdheid vallen, waarbij een
  vereffenaar een rechtstreeks of onrechtstreeks belang van vermogensrechtelijke aard heeft dat strijdig is met
  het belang van de VZW of IVZW, moet de betrokken vereffenaar dit mededelen aan de andere vereffenaars. Zijn
@@ -3076,7 +3123,6 @@ Het vereffeningssaldo mag noch rechtstreeks noch onrechtstreeks worden uitgekeer
  orgaan, geven de vereffenaars aan het vereffeningssaldo een bestemming die zoveel mogelijk overeenkomt met
  het doel waarvoor de vereniging is opgericht. De leden, de belanghebbende derden en het openbaar ministerie
  kunnen bij de rechtbank beroep instellen tegen het besluit van de vereffenaars.
-Pagina 75 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 2:133
 
 Indien uit de in artikel 2:134, § 1, bedoelde rekeningen van de VZW's en de IVZW's die
@@ -3090,7 +3136,9 @@ Indien uit de in artikel 2:134, § 1, bedoelde rekeningen van de VZW's en de IVZ
    De rechtbank kan van de vereffenaars alle dienstige inlichtingen vorderen om de geldigheid van het
  verdelingsplan na te gaan.
 
-  Art. 2:134.§ 1. Bij de beëindiging van de vereffening en ten minste één maand voor de algemene vergadering
+## Art. 2:134
+
+§ 1. Bij de beëindiging van de vereffening en ten minste één maand voor de algemene vergadering
  van de VZW respectievelijk voor de vergadering van het in de statuten van de IVZW aangewezen orgaan, leggen
  de vereffenaars op de zetel van de vereniging een cijfermatig verslag over de vereffening neer, houdende de
  vereffeningsrekeningen, samen met de stukken tot staving. In voorkomend geval worden deze documenten
@@ -3112,7 +3160,9 @@ Indien uit de in artikel 2:134, § 1, bedoelde rekeningen van de VZW's en de IVZ
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 2:135.Onverminderd artikel 2:110, zijn een ontbinding en vereffening in één akte slechts mogelijk mits
+## Art. 2:135
+
+Onverminderd artikel 2:110, zijn een ontbinding en vereffening in één akte slechts mogelijk mits
  naleving van de volgende voorwaarden:
    1° er is geen vereffenaar aangeduid;
    2° alle schulden ten aanzien van leden of derden zoals vermeld in de staat van activa en passiva bedoeld in
@@ -3149,7 +3199,6 @@ De sluiting van de vereffening wordt bekendgemaakt overeenkomstig de artikelen 2
 
 Voor elke vereffening worden ter griffie in het in artikel 2:7 bedoelde dossier, de volgende stukken
  neergelegd:
-Pagina 76 van 332 Copyright Belgisch S taatsblad 23-01-2026
   1° in voorkomend geval, de kopie van de in artikel 2:110, § 2, bedoelde verslagen;
   2° in voorkomend geval, een kopie van de in artikel 2:125 bedoelde vereffeningsstaten;
   3° de uittreksels van de in de artikelen 2:9, § 1, 7°, 2:10, § 1, 7°, en 2:136 bedoelde bekendmakingen;
@@ -3158,7 +3207,9 @@ Pagina 76 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Elke belanghebbende kan kosteloos inzage nemen van het dossier en er tegen betaling van de griffiekosten een
  kopie van verkrijgen.
 
-   Art. 2:138.§ 1. [1 Indien]1 na de sluiting van de vereffening blijkt dat één of meerdere actieve
+## Art. 2:138
+
+§ 1. [1 Indien]1 na de sluiting van de vereffening blijkt dat één of meerdere actieve
  vermogensbestanddelen van de VZW of van de IVZW werden vergeten, kan elke schuldeiser wiens
  schuldvordering niet integraal werd voldaan de heropening van de vereffening vorderen.
    De vordering tot heropening van de vereffening wordt ingesteld tegen de vereffenaar die laatst in functie was.
@@ -3210,7 +3261,9 @@ De bestemming van het actief mag de rechten van de schuldeisers niet schaden.
 De rechtsvorderingen tegen vennootschappen, verenigingen en stichtingen verjaren door verloop
  van dezelfde tijd als de rechtsvorderingen tegen natuurlijke personen.
 
-  Art. 2:143.§ 1. Met betrekking tot vennootschappen verjaren door verloop van vijf jaren:
+## Art. 2:143
+
+§ 1. Met betrekking tot vennootschappen verjaren door verloop van vijf jaren:
   - alle rechtsvorderingen tegen oprichters, te rekenen vanaf de oprichting;
   - alle rechtsvorderingen tegen vennoten of aandeelhouders, te rekenen van de bekendmaking hetzij van hun
  uittreding hetzij van de akte van ontbinding van de vennootschap, hetzij, voor de vorderingen als bedoeld in
@@ -3226,7 +3279,6 @@ De rechtsvorderingen tegen vennootschappen, verenigingen en stichtingen verjaren
   - alle rechtsvorderingen tegen de vereffenaars als zodanig, of bij ontstentenis van vereffenaars, tegen de
  personen die krachtens artikel 2:85 als vereffenaars worden beschouwd, te rekenen van de bekendmaking
  voorgeschreven bij artikel 2:102;
-Pagina 77 van 332 Copyright Belgisch S taatsblad 23-01-2026
   - alle rechtsvorderingen tot nietigverklaring van een naamloze vennootschap, een Europese vennootschap, een
  Europese coöperatieve vennootschap, een besloten vennootschap of een coöperatieve vennootschap, gegrond
  op een vormgebrek, te rekenen van de bekendmaking, indien het vennootschapscontract gedurende ten minste
@@ -3257,7 +3309,9 @@ Pagina 77 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 74, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 2:144.In alle vennootschappen kunnen de schuldeisers door de rechter de geldstortingen doen bevelen die
+## Art. 2:144
+
+In alle vennootschappen kunnen de schuldeisers door de rechter de geldstortingen doen bevelen die
  door de statuten zijn bedongen en noodzakelijk zijn tot bewaring van hun rechten; de vennootschap kan de
  rechtsvordering afweren door hun schuldvordering te voldoen naar haar waarde, verminderd met het disconto.
   De leden van het bestuursorgaan zijn persoonlijk verplicht de daarop gewezen vonnissen uit te voeren.
@@ -3288,7 +3342,9 @@ De leden van het bestuursorgaan, dagelijks bestuurders, commissarissen en vereff
  gedaan betreffende de zaken van de rechtspersoon en de verantwoordelijkheid voor hun bestuur en hun
  toezicht.
 
-  Art. 2:148.De rechtspersonen die hun statutaire zetel in het buitenland hebben, kunnen in België hun
+## Art. 2:148
+
+De rechtspersonen die hun statutaire zetel in het buitenland hebben, kunnen in België hun
  werkzaamheden verrichten en in rechte optreden, en er een bijkantoor oprichten.
   De rechtsvorderingen ingesteld door buitenlandse rechtspersonen die in België een bijkantoor hebben, zijn
  evenwel niet ontvankelijk indien zij hun oprichtingsakte niet hebben neergelegd overeenkomstig [1 de artikelen
@@ -3303,14 +3359,15 @@ Zij die in België met het bestuur van een bijkantoor van een buitenlandse recht
 
   BOEK 3. De jaarrekening.
 
-Pagina 78 van 332 Copyright Belgisch S taatsblad 23-01-2026
   TITEL 1. Jaarrekeningen van vennootschappen met rechtspersoonlijkheid.
 
   HOOFDSTUK 1. Jaarrekening, jaarverslag en openbaarmakingsverplichtingen.
 
   Afdeling 1. De jaarrekening.
 
-   Art. 3:1.§ 1. Het bestuursorgaan is verplicht elk jaar een inventaris op te maken volgens de waarderingsregels
+## Art. 3:1
+
+§ 1. Het bestuursorgaan is verplicht elk jaar een inventaris op te maken volgens de waarderingsregels
  bepaald door de Koning, evenals een jaarrekening in de vorm en met de inhoud bepaald door de Koning. Die
  jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting, en vormt een geheel.
    De jaarrekening moet binnen zes maanden na de afsluitingsdatum van het boekjaar ter goedkeuring worden
@@ -3338,7 +3395,9 @@ Pagina 78 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2021-06-27/09, art. 304, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 3:2.De kleine vennootschappen kunnen hun jaarrekening opmaken volgens een verkort schema dat de
+## Art. 3:2
+
+De kleine vennootschappen kunnen hun jaarrekening opmaken volgens een verkort schema dat de
  Koning vaststelt.
   De vennootschappen onder firma, de commanditaire vennootschappen en de Europese economische
  samenwerkingsverbanden wier omzet over het laatste boekjaar, exclusief de belasting over de toegevoegde
@@ -3353,7 +3412,9 @@ Pagina 78 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 305, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 3:3.Microvennootschappen kunnen hun jaarrekening opstellen volgens een door de Koning vastgesteld
+## Art. 3:3
+
+Microvennootschappen kunnen hun jaarrekening opstellen volgens een door de Koning vastgesteld
  microschema.
   De vennootschappen onder firma, de commanditaire vennootschappen en de Europese economische
  samenwerkingsverbanden wier omzet over het laatste boekjaar, exclusief de belasting over de toegevoegde
@@ -3368,10 +3429,11 @@ Pagina 78 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 2. Het jaarverslag.
 
-  Art. 3:4.[2 Tenzij het gaat om één van de in artikel 3:1, § 3, 1°, 2° en 3°, bedoelde vennootschappen of om één
+## Art. 3:4
+
+[2 Tenzij het gaat om één van de in artikel 3:1, § 3, 1°, 2° en 3°, bedoelde vennootschappen of om één
  van de in artikel 1:12, 5°, bedoelde organisaties van openbaar belang]2 is deze afdeling niet van toepassing op:
   1° de niet-genoteerde kleine vennootschappen;
-Pagina 79 van 332 Copyright Belgisch S taatsblad 23-01-2026
    2° de kleine vennootschappen die geen organisaties van openbaar belang als bedoeld in artikel 1:12, 2°, zijn;
    3° de vennootschappen onder firma, de commanditaire vennootschappen en de Europese economische
  samenwerkingsverbanden waarvan alle onbeperkt aansprakelijke vennoten natuurlijke personen zijn;
@@ -3389,7 +3451,9 @@ Pagina 79 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 Het bestuursorgaan stelt een verslag op waarin het rekenschap geeft van zijn beleid.
 
-   Art. 3:6.§ 1. Het jaarverslag bedoeld in artikel 3:5 bevat:
+## Art. 3:6
+
+§ 1. Het jaarverslag bedoeld in artikel 3:5 bevat:
    1° ten minste een getrouw overzicht van de ontwikkeling en de resultaten van het bedrijf en van de positie van
  de vennootschap, evenals een beschrijving van de voornaamste risico's en onzekerheden waarmee zij wordt
  geconfronteerd;
@@ -3440,7 +3504,6 @@ Het bestuursorgaan stelt een verslag op waarin het rekenschap geeft van zijn bel
  of achtergrond inzake opleiding en beroepservaring]3 met betrekking tot de leden van de raad van bestuur, of, in
  voorkomend geval, de raad van toezicht en de directieraad, de personen belast met de leiding en de personen
  belast met het dagelijks bestuur van de vennootschap;
-Pagina 80 van 332 Copyright Belgisch S taatsblad 23-01-2026
    b) de doelstellingen van dit diversiteitsbeleid;
    c) de wijze van tenuitvoerlegging van dit beleid;
    d) de resultaten van dit beleid over het boekjaar.
@@ -3509,7 +3572,6 @@ Pagina 80 van 332 Copyright Belgisch S taatsblad 23-01-2026
  mogelijk maakt.
     Het remuneratieverslag vermeldt tevens de ratio tussen de hoogste remuneratie van de managementleden als
  bedoeld in het derde lid, en de laagste verloning (in voltijds equivalent) van de werknemers als bedoeld in het
-Pagina 81 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vierde lid.
     Deze paragraaf doet geen afbreuk aan de artikelen 7:91 en 7:92 en aan de wettelijke bepalingen voorzien in
  bijzondere wetten.
@@ -3577,7 +3639,6 @@ Pagina 81 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Artikel 1:24, § 5, eerste lid, is van toepassing voor de berekening van het jaargemiddelde van het aantal
  werknemers.
     § 2. Deze afdeling is niet van toepassing op:
-Pagina 82 van 332 Copyright Belgisch S taatsblad 23-01-2026
     1° de vennootschappen onder firma, de commanditaire vennootschappen en de Europese economische
  samenwerkingsverbanden waarvan alle onbeperkt aansprakelijke vennoten natuurlijke personen zijn;
     2° de organisaties van openbaar belang bedoeld in artikel 1:12, 1° en 2°, en die op balansdatum van het laatst
@@ -3648,7 +3709,6 @@ Pagina 82 van 332 Copyright Belgisch S taatsblad 23-01-2026
  doelstellingen ten aanzien van milieufactoren van de vennootschap gebaseerd zijn op overtuigend
  wetenschappelijk bewijs;
     3° een beschrijving van de rol van de bestuurs-, leidinggevende en toezichthoudende organen met betrekking
-Pagina 83 van 332 Copyright Belgisch S taatsblad 23-01-2026
  tot duurzaamheidskwesties, en van de daarin aanwezige deskundigheid en vaardigheden met betrekking tot het
  vervullen van die rol ofwel de toegang die deze organen hebben tot dergelijke deskundigheid en vaardigheden;
     4° een beschrijving van het beleid van de vennootschap met betrekking tot duurzaamheidskwesties;
@@ -3718,7 +3778,6 @@ Pagina 83 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° kleine en niet-complexe instellingen bedoeld in artikel 4, lid 1, punt 145), van Verordening (EU) nr. 575/2013
  van het Europees Parlement en de Raad van 26 juni 2013 betreffende prudentiële vereisten voor
  kredietinstellingen en beleggingsondernemingen en tot wijziging van Verordening (EU) nr. 648/2012;
-Pagina 84 van 332 Copyright Belgisch S taatsblad 23-01-2026
    2° verzekeringscaptives: de ondernemingen bedoeld in artikel 15, 21°, van de wet van 13 maart 2016 op het
  statuut van en het toezicht op verzekerings- of herverzekeringsondernemingen;
    3° herverzekeringscaptives: ondernemingen bedoeld in artikel 15, 22°, van de wet van 13 maart 2016 op het
@@ -3789,7 +3848,6 @@ Pagina 84 van 332 Copyright Belgisch S taatsblad 23-01-2026
  duurzaamheidsinformatie opstelt overeenkomstig artikel 3:32/2 op een wijze die gelijkwaardig is aan die waarin de
  op grond van artikel 29ter van Richtlijn 2013/34/EU vastgestelde standaarden voor duurzaamheidsrapportering,
  als bepaald overeenkomstig een op grond van artikel 23, lid 4, derde alinea, van Richtlijn 2004/109/EG
-Pagina 85 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vastgestelde uitvoeringshandeling inzake de gelijkwaardigheid van standaarden voor duurzaamheidsrapportage
  voorziet, en die openbaar maakt;
    b) de weblinks naar de geconsolideerde duurzaamheidsinformatie van de moederonderneming, bedoeld in 1°,
@@ -3860,7 +3918,6 @@ Pagina 85 van 332 Copyright Belgisch S taatsblad 23-01-2026
  beschikbaar, dan verzoekt het bestuursorgaan van de dochtervennootschap de uiteindelijke
  moederonderneming alle vereiste duurzaamheidsinformatie te verstrekken om hem in staat te stellen aan de in
  paragraaf 2 bedoelde verplichtingen te voldoen.
-Pagina 86 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Verstrekt de uiteindelijke moederonderneming van een derde land niet alle vereiste duurzaamheidsinformatie,
  dan stelt het bestuursorgaan van de betrokken dochtervennootschap de vereiste duurzaamheidsinformatie op.
  De betrokken dochtervennootschap brengt in haar jaarverslag een verklaring uit waaruit blijkt dat de uiteindelijke
@@ -3907,7 +3964,9 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
   2° vennootschap actief in de houtkap van oerbossen: een vennootschap met activiteiten in oerbossen die vallen
  onder sectie A, afdeling 02, groep 02.2, van dezelfde bijlage.
 
-   Art. 3:8.§ 1. Genoteerde vennootschappen, [1 organisaties van openbaar belang als bedoeld in artikel 1:12, 2°
+## Art. 3:8
+
+§ 1. Genoteerde vennootschappen, [1 organisaties van openbaar belang als bedoeld in artikel 1:12, 2°
  en 5°, vennootschappen bedoeld in artikel 3:1, § 3, 1°, 2° of 3° ]1, alsook vennootschappen die meer dan één
  van de in artikel 1:26, § 1, vermelde criteria overschrijden, met dien verstande dat de criteria worden berekend
  op enkelvoudige basis tenzij deze vennootschap een moedervennootschap is, en die actief zijn in de
@@ -3929,7 +3988,6 @@ Voor de toepassing van deze afdeling wordt verstaan onder:
  richtlijn 2013/34/EU als gelijkwaardig aan de vereisten van deze afdeling zijn beoordeeld. Deze vennootschappen
  zijn verplicht dit verslag openbaar te maken.
    § 2. Het verslag wordt door toedoen van het bestuursorgaan tegelijkertijd met de jaarrekening neergelegd bij de
-Pagina 87 van 332 Copyright Belgisch S taatsblad 23-01-2026
  Nationale Bank van België.
   ----------
   (1)<W 2021-06-27/09, art. 307, 006; Inwerkingtreding : 19-07-2021>
@@ -3997,7 +4055,6 @@ Pagina 87 van 332 Copyright Belgisch S taatsblad 23-01-2026
     § 2. De Koning kan het in paragraaf 1 vermelde cijfer wijzigen, na overleg in de Ministerraad en na advies van de
  Centrale Raad voor het Bedrijfsleven.]1
    ----------
-Pagina 88 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<Ingevoegd bij W 2024-01-08/03, art. 9, 017; Inwerkingtreding : 05-02-2024>
 
 ## Art. 3:8/3
@@ -4040,7 +4097,9 @@ Pagina 88 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 1. Belgische vennootschappen.
 
-  Art. 3:9.[1 Tenzij het gaat om één van de in artikel 3:1, § 3, 1°, 2° of 3°, bedoelde vennootschappen of om één
+## Art. 3:9
+
+[1 Tenzij het gaat om één van de in artikel 3:1, § 3, 1°, 2° of 3°, bedoelde vennootschappen of om één
  van de in artikel 1:12, 5°, bedoelde organisaties van openbaar belang]1 is deze onderafdeling niet van toepassing
  op:
   1° de kleine vennootschappen die de vorm hebben aangenomen van een vennootschap onder firma of een
@@ -4066,11 +4125,12 @@ De niet-genoteerde kleine vennootschappen, de kleine vennootschappen die geen or
  respectievelijk krachtens artikel 3:2, eerste lid, of krachtens artikel 3:3, eerste lid, in een verkorte vorm of
  microvorm is opgesteld, in deze verkorte vorm of microvorm openbaar maken.
 
-  Art. 3:12.§ 1. Binnen dertig dagen nadat de jaarrekening is goedgekeurd en ten laatste zeven maanden na de
+## Art. 3:12
+
+§ 1. Binnen dertig dagen nadat de jaarrekening is goedgekeurd en ten laatste zeven maanden na de
  datum van afsluiting van het boekjaar, worden door toedoen van het bestuursorgaan neergelegd bij de Nationale
  Bank van België:
   1° een stuk met de volgende gegevens: de naam, de voornaam, het beroep en de woonplaats van de leden van
-Pagina 89 van 332 Copyright Belgisch S taatsblad 23-01-2026
  het bestuursorgaan, naar gelang van het geval, en van de commissaris in functie. Indien de jaarrekening is
  geverifieerd en/of gecorrigeerd door een [2 gecertificeerd accountant]2 of een bedrijfsrevisor, moeten ook de
  naam, de voornaam, het beroep, het professioneel adres van de [2 gecertificeerd accountant]2 of van de
@@ -4138,7 +4198,6 @@ Pagina 89 van 332 Copyright Belgisch S taatsblad 23-01-2026
  document dat overeenkomstig dit artikel moet worden neergelegd.
   § 3. Indien de stukken bedoeld in dit artikel niet werden neergelegd overeenkomstig paragraaf 1, wordt de door
  derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.
-Pagina 90 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 309, 006; Inwerkingtreding : 19-07-2021>
   (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
@@ -4161,7 +4220,9 @@ Pagina 90 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<Ingevoegd bij W 2024-01-08/03, art. 12, 017; Inwerkingtreding : 05-02-2024>
 
-  Art. 3:13.[1 De Koning bepaalt onder welke voorwaarden en op welke wijze de stukken bedoeld in de artikelen
+## Art. 3:13
+
+[1 De Koning bepaalt onder welke voorwaarden en op welke wijze de stukken bedoeld in de artikelen
  3:10 en 3:12 worden neergelegd en stelt het bedrag vast van de openbaarmakingskosten, alsook de wijze van
  betaling.
    Hij bepaalt welke categorieën van vennootschappen die neerlegging anders mogen uitvoeren dan langs
@@ -4210,8 +4271,9 @@ De neerlegging wordt slechts aanvaard indien de bepalingen die zijn uitgevaardig
  van België wezenlijke fouten bevat, legt de vennootschap binnen twee maanden te rekenen van de verzending
  van de lijst met fouten een verbeterde versie van de jaarrekening neer.
 
-Pagina 91 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 3:15.De Nationale Bank van België verstrekt op ieders verzoek een kopie, in de vorm vastgesteld door de
+## Art. 3:15
+
+De Nationale Bank van België verstrekt op ieders verzoek een kopie, in de vorm vastgesteld door de
  Koning, van de stukken bedoeld in de [1 artikelen 3:10, 3:12, 3:12/1, 3:20/1 en 3:36/1]1, hetzij van al die stukken,
  hetzij van de stukken betreffende een met name te noemen vennootschap en nader op te geven jaren.
   De Koning stelt het bedrag vast van de kosten die aan de Nationale Bank van België moeten worden betaald om
@@ -4289,7 +4351,6 @@ De Algemene Directie Statistiek - Statistics Belgium van de Federale Overheidsdi
  van 21 november 2017 over de infrastructuren voor de markten voor financiële instrumenten en houdende
  omzetting van richtlijn 2014/65/EU.
    § 2. De artikelen 3:12 tot 3:16 zijn van toepassing op de stukken bedoeld in paragraaf 1.
-Pagina 92 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 3. De in paragraaf 1 bedoelde verplichting geldt ook voor de jaarrekening van het bijkantoor van een
  vennootschap die niet is onderworpen aan het boekhoudrecht van een andere lidstaat van de Europese
  Economische Ruimte, en waarvan het boekhoudrecht ook niet gelijkwaardig is aan het Europese boekhoudstelsel
@@ -4361,7 +4422,6 @@ Pagina 92 van 332 Copyright Belgisch S taatsblad 23-01-2026
  verzoekt de verantwoordelijke persoon van het bijkantoor onderworpen aan de verplichting bedoeld in artikel
  3:20/1, § 1, eerste lid, haar uiteindelijke moederonderneming om alle informatie te verstrekken die het nodig heeft
  om zich van zijn verplichtingen uit hoofde van artikel 3:20/1 te kwijten.
-Pagina 93 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Verstrekt de uiteindelijke moederonderneming niet alle vereiste informatie, dan stelt het bijkantoor het verslag
  inzake informatie over de inkomstenbelasting op en maakt het openbaar. Dit verslag bevat alle informatie
  waarover het bijkantoor onderworpen aan de verplichting bedoeld in artikel 3:20/1, § 1, eerste lid, beschikt, of
@@ -4432,7 +4492,6 @@ Pagina 93 van 332 Copyright Belgisch S taatsblad 23-01-2026
  moederonderneming heeft openbaar gemaakt.
    § 3. Het verslag over de specifieke duurzaamheidsinformatie van de moederonderneming van een derde land
  wordt opgesteld volgens een van de volgende standaarden:
-Pagina 94 van 332 Copyright Belgisch S taatsblad 23-01-2026
     1° de standaarden van specifieke duurzaamheidsinformatie die de Europese Commissie heeft aangenomen
  volgens de uitvoeringsverordening tot uitvoering van artikel 40ter van Richtlijn 2013/34/EU;
     2° de standaarden voor duurzaamheidsinformatie die de Europese Commissie vaststelt volgens de
@@ -4474,7 +4533,9 @@ Pagina 94 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 1. Toepassingsgebied.
 
-  Art. 3:21.Onverminderd andersluidende bepalingen [2 ...]2, is dit hoofdstuk niet van toepassing op:
+## Art. 3:21
+
+Onverminderd andersluidende bepalingen [2 ...]2, is dit hoofdstuk niet van toepassing op:
   1° vennootschappen die vallen onder de wet van 25 april 2014 op het statuut van en het toezicht op
  kredietinstellingen en beursvennootschappen, de Nationale Bank van België, het Herdisconterings- en
  Waarborginstituut en de Deposito- en Consignatiekas;
@@ -4502,7 +4563,6 @@ Voor de toepassing van dit hoofdstuk wordt verstaan:
    - onder "dochteronderneming", indien zij onder controle staat van een Belgische vennootschap,
    1° de dochtervennootschap naar Belgisch of buitenlands recht,
    2° het Europees economisch samenwerkingsverband met zetel in België of in het buitenland, en
-Pagina 95 van 332 Copyright Belgisch S taatsblad 23-01-2026
   3° de instelling naar Belgisch of buitenlands recht, al dan niet openbaar, met of zonder winstuitkering, die, al
  dan niet ingevolge haar statutaire opdracht, een activiteit uitoefent van commerciële, financiële of industriële
  aard;
@@ -4579,7 +4639,6 @@ Een vennootschap wordt vrijgesteld van de verplichting om een geconsolideerde ja
  van de geconsolideerde jaarrekening van de in paragraaf 1 bedoelde moedervennootschap moeten, met het oog
  op hun terbeschikkingstelling voor het publiek in België overeenkomstig voorgaande leden, in de taal of de talen
  worden opgesteld of vertaald waarin de vrijgestelde vennootschap haar jaarrekening dient openbaar te maken;
-Pagina 96 van 332 Copyright Belgisch S taatsblad 23-01-2026
    d) de geconsolideerde jaarrekening van de in paragraaf 1 bedoelde moedervennootschap en het
  geconsolideerde jaar- en controleverslag over deze jaarrekening hoeven evenwel niet te worden openbaar
  gemaakt zoals voorgeschreven in de punten a) en b), wanneer zij reeds met toepassing van de artikelen 3:35 en
@@ -4634,7 +4693,9 @@ De geconsolideerde jaarrekening moet worden opgesteld door het bestuursorgaan va
 
   Afdeling 4. Jaarverslag over de geconsolideerde jaarrekening.
 
-   Art. 3:32.§ 1. Het bestuursorgaan voegt bij de geconsolideerde jaarrekening een jaarverslag over de
+## Art. 3:32
+
+§ 1. Het bestuursorgaan voegt bij de geconsolideerde jaarrekening een jaarverslag over de
  geconsolideerde jaarrekening.
    Dit verslag bevat:
    1° ten minste een getrouw overzicht van de ontwikkeling van het bedrijf en van de resultaten en de positie van
@@ -4658,7 +4719,6 @@ De geconsolideerde jaarrekening moet worden opgesteld door het bestuursorgaan va
  is voor de beoordeling van haar activa, passiva, financiële positie en resultaat:
    - de doelstellingen en het beleid van de gezamenlijke in de consolidatie opgenomen ondernemingen inzake de
  beheersing van het risico, met inbegrip van hun beleid inzake hedging van alle belangrijke soorten voorgenomen
-Pagina 97 van 332 Copyright Belgisch S taatsblad 23-01-2026
  transacties, waarvoor hedge accounting wordt toegepast, alsook
    - het door de gezamenlijke in de consolidatie opgenomen ondernemingen gelopen prijsrisico, kredietrisico,
  liquiditeitsrisico, en kasstroomrisico;
@@ -4727,7 +4787,6 @@ Pagina 97 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 2. Paragraaf 1 is ook van toepassing op:
    1° de vennootschappen bedoeld in artikel 3:6/1, § 1, tweede lid, en die moedervennootschappen zijn;
    2° de vennootschappen bedoeld in artikel 3:21, 1°, en die moedervennootschappen zijn.
-Pagina 98 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Worden voor de toepassing van deze afdeling beschouwd als een dochtervennootschap:
     1° de kredietinstellingen die blijvend aangesloten zijn bij een centraal orgaan dat toezicht op hen uitoefent onder
  de voorwaarden bepaald in artikel 10 van Verordening (EU) nr. 575/2013 van het Europees Parlement en de
@@ -4798,7 +4857,6 @@ Pagina 98 van 332 Copyright Belgisch S taatsblad 23-01-2026
  duurzaamheidskwesties en, indien van toepassing, in overeenstemming met de vereisten van de Europese Unie
  voor ondernemingen om een passende zorgvuldigheidsprocedure uit te voeren;
     7° een beschrijving van de belangrijkste feitelijke of potentiële negatieve effecten die verband houden met de
-Pagina 99 van 332 Copyright Belgisch S taatsblad 23-01-2026
  eigen activiteiten en met de waardeketen van de groep, met inbegrip van haar producten en diensten, haar
  zakenrelaties en haar toeleveringsketen, welke activiteiten zijn ondernomen voor het in kaart brengen en
  monitoren van die effecten en van andere negatieve effecten die de moedervennootschap op grond van andere
@@ -4868,7 +4926,6 @@ Pagina 99 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<Ingevoegd bij W 2024-12-02/07, art. 31, 024; Inwerkingtreding : 30-12-2024>
 
-Pagina 100 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 3:32/5
 
 [1 § 1. Een moedervennootschap die tevens dochtervennootschap is, wordt vrijgesteld van de in
@@ -4938,7 +4995,6 @@ Pagina 100 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<Ingevoegd bij W 2024-12-02/07, art. 32, 024; Inwerkingtreding : 30-12-2024>
 
-Pagina 101 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 3:32/6
 
 [1 Het bestuursorgaan van de moedervennootschap die voor zijn groep duurzaamheidsinformatie
@@ -4955,7 +5011,9 @@ Pagina 101 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 5. Geconsolideerd verslag van betalingen aan overheden.
 
-  Art. 3:33.Het bestuursorgaan van een vennootschap die verplicht is om een geconsolideerde jaarrekening op te
+## Art. 3:33
+
+Het bestuursorgaan van een vennootschap die verplicht is om een geconsolideerde jaarrekening op te
  stellen overeenkomstig artikel 3:22 tot 3:28 en die actief is in de winningsindustrie of de houtkap van oerbossen
  als bedoeld in artikel 3:7, stelt elk jaar een geconsolideerd verslag van betalingen aan overheden op waarvan de
  Koning de vorm en de inhoud bepaalt. Deze verplichting geldt eveneens voor vennootschappen die op grond van
@@ -5009,7 +5067,6 @@ Het verslag bedoeld in artikel 3:33 wordt door toedoen van het bestuursorgaan te
  toezicht op beursvennootschappen en houdende diverse bepalingen, en een verslag inzake informatie over de
  inkomstenbelasting met toepassing van artikel 109, § 1, tweede lid, van voormelde wet en haar
  uitvoeringsbesluiten heeft opgesteld en openbaar gemaakt.
-Pagina 102 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 2. De Koning kan het in paragraaf 1 vermelde cijfer wijzigen, na overleg in de Ministerraad en na advies van de
  Centrale Raad voor het Bedrijfsleven.]1
   ----------
@@ -5088,7 +5145,6 @@ De Koning kan de regels door hem vastgelegd met betrekking tot de vorm en de inh
 ## Art. 3:39
 
 § 1. De Koning kan de regels met betrekking tot de opmaak en de openbaarmaking van de
-Pagina 103 van 332 Copyright Belgisch S taatsblad 23-01-2026
  geconsolideerde jaarrekening, alsook die met betrekking tot de opmaak en de openbaarmaking van een
  jaarverslag, en de regels met betrekking tot de vorm en de inhoud van de geconsolideerde jaarrekening die Hij op
  grond van artikel 3:30 heeft gesteld, aanpassen en aanvullen naar gelang van de bedrijfstakken of economische
@@ -5155,7 +5211,9 @@ De koninklijke besluiten ter uitvoering van deze titel worden ter advies voorgel
    § 2. De vennootschappen zijn burgerrechtelijk aansprakelijk voor de betaling van de geldboetes waartoe hun
  leden van het bestuursorgaan, directeurs of lasthebbers krachtens paragraaf 1 zijn veroordeeld.
 
-  Art. 3:44.Met opsluiting van vijf jaar tot tien jaar en met geldboete van zesentwintig euro tot tweeduizend euro
+## Art. 3:44
+
+Met opsluiting van vijf jaar tot tien jaar en met geldboete van zesentwintig euro tot tweeduizend euro
  worden gestraft:
   1° zij die met bedrieglijk opzet of met het oogmerk om te schaden, valsheid plegen in de door de wet of door de
  statuten voorgeschreven jaarrekening [1 of de duurzaamheidsinformatie]1 van een vennootschap:
@@ -5165,7 +5223,6 @@ De koninklijke besluiten ter uitvoering van deze titel worden ter advies voorgel
  achteraf in de jaarrekening op te nemen;
   - hetzij door toevoeging of vervalsing van bedingen, verklaringen of feiten die deze akten tot voorwerp hebben
  op te nemen of vast te stellen;
-Pagina 104 van 332 Copyright Belgisch S taatsblad 23-01-2026
   2° zij die gebruik maken van die valse akten.
   Voor de toepassing van het eerste lid bestaat de jaarrekening, zodra zij voor de vennoten of aandeelhouders
  ter inzage is gelegd.
@@ -5220,7 +5277,9 @@ Met de straffen gesteld in artikel 458 van het Strafwetboek wordt gestraft hij d
 
   TITEL 2. Jaarrekeningen en begrotingen van verenigingen.
 
-  Art. 3:47.§ 1. Het bestuursorgaan maakt ieder jaar een jaarrekening op [1 ...]1.
+## Art. 3:47
+
+§ 1. Het bestuursorgaan maakt ieder jaar een jaarrekening op [1 ...]1.
   De jaarrekening van de VZW of de IVZW, alsook de begroting van het boekjaar dat volgt op het boekjaar
  waarop deze jaarrekening betrekking heeft, moeten binnen zes maanden na de afsluitingsdatum van het
  boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.
@@ -5239,7 +5298,6 @@ Met de straffen gesteld in artikel 458 van het Strafwetboek wordt gestraft hij d
  consumptieprijzen.
   § 3. Kleine VZW's of IVZW'S kunnen hun jaarrekening opmaken volgens een verkort schema dat de Koning
  vaststelt.
-Pagina 105 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 4. MicroVZW's of microIVZW's kunnen hun jaarrekening opmaken volgens een microschema dat de Koning
  vaststelt.
    § 5. Paragraaf 1, derde lid, en [1 paragrafen 2 tot 4]1 zijn niet van toepassing op:
@@ -5310,7 +5368,6 @@ Pagina 105 van 332 Copyright Belgisch S taatsblad 23-01-2026
  betrekking hebben op de specifieke activiteiten van de vereniging, met inbegrip van informatie over milieu- en
  personeelsaangelegenheden.
   In deze analyse verwijst het jaarverslag in voorkomend geval naar en aanvullende uitleg over de bedragen
-Pagina 106 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vermeld in de jaarrekening;
   2° informatie over de belangrijke gebeurtenissen die na het einde van het boekjaar hebben plaatsgevonden;
   3° inlichtingen over de omstandigheden die de ontwikkeling van de vereniging aanmerkelijk kunnen beïnvloeden,
@@ -5350,7 +5407,9 @@ Elke buitenlandse vereniging, die een bijkantoor heeft in België, is gehouden h
 
   TITEL 3. Jaarrekeningen en begrotingen van stichtingen.
 
-   Art. 3:51.§ 1. Ieder jaar en ten laatste binnen zes maanden na de afsluitingsdatum van het boekjaar maakt het
+## Art. 3:51
+
+§ 1. Ieder jaar en ten laatste binnen zes maanden na de afsluitingsdatum van het boekjaar maakt het
  bestuursorgaan van de stichting de jaarrekening van het voorbije boekjaar op [1 ...]1, alsook de begroting van
  het volgende boekjaar dat volgt op het boekjaar waarop deze jaarrekening betrekking heeft.
    Het bestuursorgaan maakt elk jaar een inventaris op volgens de waarderingsmaatstaven bepaald door de
@@ -5382,7 +5441,6 @@ Elke buitenlandse vereniging, die een bijkantoor heeft in België, is gehouden h
  één van de in paragraaf 2 bedoelde criteria overschrijden door de bestuurders neergelegd bij de Nationale Bank
  van België.
    Overeenkomstig het eerste lid worden gelijktijdig neergelegd:
-Pagina 107 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° een stuk met de naam en voornaam van de bestuurders en in voorkomend geval van de commissarissen die
  in functie zijn;
    2° in voorkomend geval, het verslag van de commissaris;
@@ -5454,10 +5512,11 @@ Elke buitenlandse stichting, die een bijkantoor heeft in België, is gehouden ha
 
   Afdeling 1. Definities.
 
-   Art. 3:55.Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de statutaire
+## Art. 3:55
+
+Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de statutaire
  jaarrekening of van de geconsolideerde jaarrekening, voor zover deze controle:
    1° door het recht van de Europese Unie wordt voorgeschreven;
-Pagina 108 van 332 Copyright Belgisch S taatsblad 23-01-2026
   2° door het Belgisch recht wordt voorgeschreven met betrekking tot kleine vennootschappen;
   3° op vrijwillige basis op verzoek van kleine vennootschappen wordt uitgevoerd, wanneer deze opdracht
  gepaard gaat met de bekendmaking van het verslag bedoeld in artikel 3:74 of 3:80.
@@ -5505,7 +5564,9 @@ Onder "geregistreerd auditkantoor" wordt verstaan, een auditkantoor dat is erken
 
   Afdeling 2. Benoeming.
 
-    Art. 3:58.§ 1. De commissaris wordt benoemd, door de algemene vergadering, onder de bedrijfsrevisoren,
+## Art. 3:58
+
+§ 1. De commissaris wordt benoemd, door de algemene vergadering, onder de bedrijfsrevisoren,
  ingeschreven in het openbaar register van de bedrijfsrevisoren of onder de geregistreerde auditkantoren, voor
  de opdracht van de wettelijke controle van de jaarrekening en, in voorkomend geval, van de geconsolideerde
  jaarrekening.
@@ -5530,7 +5591,6 @@ Onder "geregistreerd auditkantoor" wordt verstaan, een auditkantoor dat is erken
  assurance van duurzaamheidsinformatie van de vennootschap uitgevoerd door:
     1° hetzij dezelfde commissaris benoemd door de algemene vergadering overeenkomstig paragraaf 1;
     2° hetzij een bedrijfsrevisor, andere dan de commissaris bedoeld in paragraaf 1.
-Pagina 109 van 332 Copyright Belgisch S taatsblad 23-01-2026
    De bedrijfsrevisor bedoeld in het eerste lid, 2°, is ingeschreven is in het openbaar register van de
  bedrijfsrevisoren en wordt eveneens benoemd door de algemene vergadering volgens de procedure voor de
  benoeming als commissaris.
@@ -5552,7 +5612,9 @@ Pagina 109 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2024-12-02/07, art. 39, 024; Inwerkingtreding : 30-12-2024>
 
-  Art. 3:59.Als er geen commissarissen zijn of wanneer alle commissarissen zich in de onmogelijkheid bevinden
+## Art. 3:59
+
+Als er geen commissarissen zijn of wanneer alle commissarissen zich in de onmogelijkheid bevinden
  om hun taak uit te voeren wordt onmiddellijk in de benoeming of vervanging van de commissarissen voorzien. Bij
  gebreke hiervan, benoemt de voorzitter van de ondernemingsrechtbank, zitting houdend zoals in kort geding, bij
  verzoekschrift van iedere belanghebbende, een bedrijfsrevisor wiens honoraria hij vaststelt en die met de taak
@@ -5564,7 +5626,9 @@ Pagina 109 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2024-12-02/07, art. 40, 024; Inwerkingtreding : 30-12-2024>
 
-  Art. 3:60.[1 § 1.]1 Ingeval een bedrijfsrevisorenkantoor als bedoeld in artikel 3, 2°, van de wet van 7 december
+## Art. 3:60
+
+[1 § 1.]1 Ingeval een bedrijfsrevisorenkantoor als bedoeld in artikel 3, 2°, van de wet van 7 december
  2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren, of een geregistreerd
  auditkantoor wordt aangesteld als commissaris, wordt ten minste één bedrijfsrevisor-natuurlijk persoon
  aangesteld als vaste vertegenwoordiger van het bedrijfsrevisorenkantoor of van het geregistreerd auditkantoor
@@ -5586,7 +5650,9 @@ Pagina 109 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 3. Duur van het mandaat en aantal opeenvolgende mandaten.
 
-  Art. 3:61.§ 1. De commissaris wordt benoemd voor een hernieuwbare termijn van drie jaar.
+## Art. 3:61
+
+§ 1. De commissaris wordt benoemd voor een hernieuwbare termijn van drie jaar.
   § 2. De commissaris belast met een opdracht van wettelijke controle van een organisatie van openbaar belang
  als bedoeld in artikel 1:12, kan niet meer dan drie opeenvolgende mandaten bij dezelfde organisatie uitoefenen,
  wat aldus een maximale duur van negen jaar omvat.
@@ -5598,7 +5664,6 @@ Pagina 109 van 332 Copyright Belgisch S taatsblad 23-01-2026
   b) om de wettelijke controle samen met één of meerdere andere commissarissen te verrichten, die een college
  van elkaar onafhankelijke commissarissen vormen belast met de gezamenlijke controle.
   De hernieuwingen bedoeld in het eerste lid laten een totale maximale duur toe van:
-Pagina 110 van 332 Copyright Belgisch S taatsblad 23-01-2026
    a) achttien jaar, met name maximum drie bijkomende mandaten, wanneer beslist wordt om het mandaat van de
  commissaris in functie te hernieuwen;
    b) vierentwintig jaar, met name maximum vijf bijkomende mandaten, wanneer beslist wordt om meerdere
@@ -5629,7 +5694,9 @@ Pagina 110 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 1. Principes van onafhankelijkheid.
 
-   Art. 3:62.§ 1. Diegenen die zich in een positie bevinden die een onafhankelijke taakuitoefening, overeenkomstig
+## Art. 3:62
+
+§ 1. Diegenen die zich in een positie bevinden die een onafhankelijke taakuitoefening, overeenkomstig
  de regels geldend voor het beroep van bedrijfsrevisoren, in het gedrang kan brengen, kunnen niet tot
  commissaris benoemd worden. De commissarissen moeten er op toezien dat zij na hun benoeming niet in een
  dergelijke positie worden geplaatst. Hun onafhankelijkheid is in elk geval vereist zowel gedurende de periode
@@ -5667,10 +5734,11 @@ Pagina 110 van 332 Copyright Belgisch S taatsblad 23-01-2026
  assurance van duurzaamheidsinformatie.]1
    ----------
    (1)<W 2024-12-02/07, art. 43, 024; Inwerkingtreding : 30-12-2024>
-Pagina 111 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 2. Niet-controlediensten.
 
-   Art. 3:63.§ 1. Een commissaris alsook ieder lid van het netwerk bedoeld in artikel 3:56 waartoe een commissaris
+## Art. 3:63
+
+§ 1. Een commissaris alsook ieder lid van het netwerk bedoeld in artikel 3:56 waartoe een commissaris
  behoort, mogen noch direct, noch indirect verboden niet-controlediensten verstrekken aan de vennootschap
  onderworpen aan de wettelijke controle, haar moedervennootschap en de ondernemingen waarover zij de
  controle heeft binnen de Europese Unie tijdens:
@@ -5734,7 +5802,6 @@ Pagina 111 van 332 Copyright Belgisch S taatsblad 23-01-2026
  537/2014;
    c) de commissaris voldoet aan de algemene onafhankelijkheidsbeginselen.
    § 5. Krachtens artikel 5, lid 4, van de verordening (EU) nr. 537/2014, mag de commissaris van een organisatie
-Pagina 112 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van openbaar belang bedoeld in artikel 1:12 en, indien de commissaris tot een netwerk behoort bedoeld in artikel
  3:56, een lid van dat netwerk, niet-controlediensten die niet verboden zijn slechts leveren aan de betrokken
  organisatie van openbaar belang, aan haar moedervennootschap of aan ondernemingen waarover zij de controle
@@ -5806,7 +5873,6 @@ Pagina 112 van 332 Copyright Belgisch S taatsblad 23-01-2026
  artikel 32 van de wet van 7 december 2016 houdende de organisatie van het beroep van en het publiek toezicht
  op de bedrijfsrevisoren bij wijze van uitzondering toestaan dat de commissaris voor een periode van maximaal
  twee boekjaren wordt vrijgesteld van het verbod bedoeld in paragraaf 1.
-Pagina 113 van 332 Copyright Belgisch S taatsblad 23-01-2026
   In dit geval wordt de afwijking en de verantwoording ervan vermeld:
   a) in de toelichting bij de geconsolideerde jaarrekening of, bij gebrek aan geconsolideerde jaarrekening, in de
  toelichting bij de jaarrekening van de vennootschap die gebruik maakt van de vrijstelling voorzien in artikel 3:26,
@@ -5877,7 +5943,6 @@ Pagina 113 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 § 1. Voor de toepassing van dit artikel wordt verstaan onder:
   1° "met de commissaris verbonden persoon": iedere persoon die deel uitmaakt van het netwerk bedoeld in
-Pagina 114 van 332 Copyright Belgisch S taatsblad 23-01-2026
  artikel 3:56 waartoe de commissaris behoort alsook iedere vennootschap of persoon verbonden met de
  commissaris bedoeld in artikel 1:20;
    2° "gelijkgesteld mandaat": een mandaat uitgevoerd in een vennootschap naar buitenlands recht dat
@@ -5948,7 +6013,6 @@ Pagina 114 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 § 1. Op straffe van schadevergoeding kan de commissaris tijdens zijn opdracht alleen om wettige
  redenen worden opgezegd door de algemene vergadering. Meer in het bijzonder is een verschil van mening over
-Pagina 115 van 332 Copyright Belgisch S taatsblad 23-01-2026
  een boekhoudkundige verwerking of een controleprocedure op zich geen wettige reden voor opzegging.
   In geval van een wettelijke controle van een organisatie van openbaar belang bedoeld in artikel 1:12, kan een
  verzoek worden ingediend voor de opzegging van de commissaris, indien daartoe gegronde redenen bestaan, bij
@@ -5989,7 +6053,9 @@ Wanneer de algemene vergadering zich moet uitspreken over de opzegging van een c
 
   Afdeling 7. Bevoegdheden.
 
-   Art. 3:68.§ 1. De commissarissen kunnen op elk ogenblik ter plaatse inzage nemen van de boeken, brieven,
+## Art. 3:68
+
+§ 1. De commissarissen kunnen op elk ogenblik ter plaatse inzage nemen van de boeken, brieven,
  notulen en in het algemeen van alle documenten en geschriften van de vennootschap. Zij kunnen van het
  bestuursorgaan, van de gemachtigden en van de aangestelden van de vennootschap alle ophelderingen en
  inlichtingen vorderen en alle verificaties verrichten die zij nodig achten.
@@ -6020,7 +6086,6 @@ Wanneer de algemene vergadering zich moet uitspreken over de opzegging van een c
  verwijzingen van de duurzaamheidsinformatie naar de vermelde bedragen in de jaarrekening om de
  interconnectiviteit tussen de jaarrekening en de duurzaamheidsinformatie van de vennootschap te
  waarborgen.]1
-Pagina 116 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2024-12-02/07, art. 47, 024; Inwerkingtreding : 30-12-2024>
 
@@ -6040,7 +6105,9 @@ De commissarissen die in de uitoefening van hun opdracht gewichtige en overeenst
  schriftelijk meedelen aan de voorzitter van de ondernemingsrechtbank. In dat geval is artikel 458 van het
  Strafwetboek niet van toepassing.
 
-  Art. 3:70.[1 De commissarissen of de bedrijfsrevisoren belast met de assurance van
+## Art. 3:70
+
+[1 De commissarissen of de bedrijfsrevisoren belast met de assurance van
  duurzaamheidsinformatie]1 kunnen zich bij de uitoefening van hun taak, op hun kosten, doen bijstaan door
  aangestelden of andere personen voor wie zij instaan.
   ----------
@@ -6048,7 +6115,9 @@ De commissarissen die in de uitoefening van hun opdracht gewichtige en overeenst
 
   Afdeling 8. Aansprakelijkheid.
 
-  Art. 3:71.Onverminderd de aansprakelijkheidsbeperking overeenkomstig artikel 24, § 1, van de wet van 7
+## Art. 3:71
+
+Onverminderd de aansprakelijkheidsbeperking overeenkomstig artikel 24, § 1, van de wet van 7
  december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren zijn [1 de
  commissarissen of de bedrijfsrevisoren belast met de assurance van duurzaamheidsinformatie, ieder wat hun
  bevoegdheden bedoeld in artikel 3:68 betreft,]1 jegens de rechtspersoon aansprakelijk voor de fouten die zij in de
@@ -6064,7 +6133,9 @@ De commissarissen die in de uitoefening van hun opdracht gewichtige en overeenst
 
   HOOFDSTUK 2. Wettelijke controle van de jaarrekening.
 
-  Art. 3:72.[1 Tenzij het gaat om één van de in artikel 3:1, § 3, 1° of 2° bedoelde vennootschappen of om één van
+## Art. 3:72
+
+[1 Tenzij het gaat om één van de in artikel 3:1, § 3, 1° of 2° bedoelde vennootschappen of om één van
  de in artikel 1:12, 5°, bedoelde organisaties van openbaar belang]1 of om een beleggingsonderneming met het
  statuut van beursvennootschap krachtens artikel 6, § 1, 1°, van de wet van 25 oktober 2016 betreffende de
  toegang tot het beleggingsdienstenbedrijf en betreffende het statuut van en het toezicht op de
@@ -6094,13 +6165,14 @@ De commissarissen stellen naar aanleiding van de jaarrekening een omstandig schr
  minste één maand of, bij genoteerde vennootschappen, vijfenveertig dagen vóór de geplande datum van de
  algemene vergadering.
   Indien het bestuursorgaan in gebreke blijft om hen deze stukken binnen de wettelijke termijn, bedoeld in het
-Pagina 117 van 332 Copyright Belgisch S taatsblad 23-01-2026
  eerste lid, te overhandigen, stellen de commissarissen een verslag van niet-bevinding op, bestemd voor de
  algemene vergadering en gericht aan het bestuursorgaan, voor zover zij niet in staat zijn om de termijnen na te
  leven die in onderhavig wetboek zijn voorgeschreven in verband met de terbeschikkingstelling van hun verslag
  van commissaris.
 
-   Art. 3:75.§ 1. Het verslag van de commissarissen bedoeld in artikel 3:74, eerste lid, moet minstens volgende
+## Art. 3:75
+
+§ 1. Het verslag van de commissarissen bedoeld in artikel 3:74, eerste lid, moet minstens volgende
  elementen bevatten:
    1° een inleiding, waarin ten minste wordt vermeld op welke jaarrekening de wettelijke controle betrekking heeft,
  welke vennootschap is onderworpen aan de wettelijke controle, wie tussenkomt in de benoemingsprocedure van
@@ -6163,7 +6235,6 @@ Pagina 117 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 4. De wettelijke controle biedt geen zekerheid omtrent de toekomstige levensvatbaarheid van de
  vennootschap, noch van de efficiëntie of de doeltreffendheid waarmee het bestuursorgaan de bedrijfsvoering
  van de vennootschap ter hand heeft genomen of zal nemen.
-Pagina 118 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2024-01-08/03, art. 21, 017; Inwerkingtreding : 05-02-2024>
   (2)<W 2024-12-02/07, art. 50, 024; Inwerkingtreding : 30-12-2024>
@@ -6235,7 +6306,6 @@ Pagina 118 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° een inleiding, waarin ten minste wordt vermeld op welke duurzaamheidsinformatie opgenomen in het
  jaarverslag de assurance betrekking heeft, wie tussenkomt in de benoemingsprocedure van de commissaris of
  de bedrijfsrevisor, de datum van de benoeming, de termijn van het mandaat, het aantal opeenvolgende boekjaren
-Pagina 119 van 332 Copyright Belgisch S taatsblad 23-01-2026
  dat de commissaris of de bedrijfsrevisor belast is met de assurance van duurzaamheidsinformatie sinds de
  eerste benoeming, en volgens welke duurzaamheidsstandaarden de duurzaamheidsinformatie werd opgesteld,
  alsook de periode waarop de duurzaamheidsinformatie betrekking heeft;
@@ -6311,7 +6381,6 @@ De consoliderende vennootschap moet haar controlebevoegdheid aanwenden om van de
 
 § 1. De commissaris, de bedrijfsrevisor of het geregistreerd auditkantoor, belast met de wettelijke
  controle van de geconsolideerde jaarrekening:
-Pagina 120 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° draagt de volledige verantwoordelijkheid voor het controleverslag bedoeld in artikel 3:80 en, waar van
  toepassing, artikel 10 van de verordening (EU) nr. 537/2014 en voor, waar van toepassing, de aanvullende
  verklaring aan het auditcomité als bedoeld in artikel 11 van die verordening;
@@ -6345,7 +6414,9 @@ Pagina 120 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Deze maatregelen kunnen, in voorkomend geval, onder meer inhouden dat, hetzij direct, hetzij door deze taken
  uit te besteden, aanvullende controlewerkzaamheden bij de betrokken dochteronderneming worden uitgevoerd.
 
-   Art. 3:80.§ 1. De commissarissen, of de bedrijfsrevisoren of de geregistreerde auditkantoren aangesteld voor
+## Art. 3:80
+
+§ 1. De commissarissen, of de bedrijfsrevisoren of de geregistreerde auditkantoren aangesteld voor
  de wettelijke controle van de geconsolideerde jaarrekening stellen een omstandig schriftelijk verslag op dat
  minstens de volgende elementen bevat:
    1° een inleiding, waarin ten minste wordt vermeld op welke geconsolideerde jaarrekening de wettelijke controle
@@ -6380,7 +6451,6 @@ Pagina 120 van 332 Copyright Belgisch S taatsblad 23-01-2026
    7° een vermelding ter bevestiging, enerzijds, dat zij geen opdrachten hebben verricht die onverenigbaar zijn met
  de wettelijke controle en dat zij in de loop van hun mandaat onafhankelijk zijn gebleven tegenover de groep en,
  anderzijds, dat de bedragen voor de bijkomende opdrachten die verenigbaar zijn met de wettelijke controle
-Pagina 121 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bedoeld in artikel 3:65 desgevallend correct zijn vermeld en uitgesplitst in de toelichting bij de jaarrekening. Indien
  dit niet het geval is, vermelden de commissarissen de gedetailleerde informatie zelf in hun verslag over de
  wettelijke controle van de geconsolideerde jaarrekening;
@@ -6455,7 +6525,6 @@ De minister bevoegd voor Economie of zijn afgevaardigde, kan, na een gemotiveerd
    1° hetzij de commissaris belast met de opdracht van de wettelijke controle;
    2° hetzij een bedrijfsrevisor bedoeld in artikel 3, 3°, van de wet van 7 december 2016 houdende de organisatie
  van het beroep van en het publiek toezicht op de bedrijfsrevisoren, andere dan deze bedoeld in 1°.
-Pagina 122 van 332 Copyright Belgisch S taatsblad 23-01-2026
    De in het eerste lid bedoelde personen worden benoemd overeenkomstig artikel 3:58, § 6.
    Worden meerdere personen belast met de assurance van geconsolideerde duurzaamheidsinformatie, dan
  vormen zij een college.
@@ -6526,7 +6595,6 @@ Pagina 122 van 332 Copyright Belgisch S taatsblad 23-01-2026
  die met de auditor(s) of auditorganisatie(s) van een derde land overeen dat de commissaris of de bedrijfsrevisor
  onbeperkte toegang heeft, op zijn verzoek, tot dergelijke documentatie, of neemt de groepsauditor andere
  passende maatregelen. Wanneer de werkdocumenten van de assurance om juridische of andere redenen niet
-Pagina 123 van 332 Copyright Belgisch S taatsblad 23-01-2026
  door een derde land kunnen worden doorgegeven aan de commissaris of de bedrijfsrevisor, omvat de door de
  commissaris of de bedrijfsrevisor bewaarde documentatie bewijs dat die de juiste procedures heeft gevolgd om
  toegang te verschaffen tot de documenten met betrekking tot de assurance van geconsolideerde
@@ -6597,7 +6665,6 @@ Pagina 123 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Is een rechtspersoon belast met de opdracht van assurance van geconsolideerde duurzaamheidsinformatie,
  dan wordt het assuranceverslag ondertekend door ten minste een bedrijfsrevisor, natuurlijk persoon, die de
  rechtspersoon vertegenwoordigt.
-Pagina 124 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Zijn er meerdere commissarissen of bedrijfsrevisoren tegelijkertijd belast met de opdracht van assurance van
  geconsolideerde duurzaamheidsinformatie, dan ondertekenen al die personen die ermee belast zijn.
     Is de commissaris belast met de opdracht van assurance van geconsolideerde duurzaamheidsinformatie, dan
@@ -6677,7 +6744,6 @@ De commissarissen van de vennootschap bedoeld in artikel 3:87 worden benoemd op 
  selectiecriteria, over.
   Indien het voorstel van het bestuursorgaan verschilt van de voorkeur zoals vermeld in de aanbeveling van het
  auditcomité, licht het bestuursorgaan de redenen toe waarom de aanbeveling van het auditcomité niet wordt
-Pagina 125 van 332 Copyright Belgisch S taatsblad 23-01-2026
  gevolgd en maakt hij aan de ondernemingsraad de informatie over die hij aan de algemene vergadering zal
  verstrekken.
 
@@ -6758,9 +6824,10 @@ Tenzij in de gevallen waarin dit wetboek ervan afwijkt, zijn de artikelen 3:58 t
 
   HOOFDSTUK 5. Strafbepalingen.
 
-  Art. 3:96.Met gevangenisstraf van een maand tot een jaar en met geldboete van vijftig tot tienduizend euro of
+## Art. 3:96
+
+Met gevangenisstraf van een maand tot een jaar en met geldboete van vijftig tot tienduizend euro of
  met een van die straffen alleen worden gestraft:
-Pagina 126 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° de personen die in de loop van een periode van twee jaar, die ingaat vanaf het einde van hun mandaat van
  commissaris, een mandaat aanvaarden van bestuurder, zaakvoerder of enige andere functie in de vennootschap
  die was onderworpen aan hun toezicht of in een daarmee verbonden vennootschap of persoon zoals bepaald in
@@ -6782,7 +6849,9 @@ Pagina 126 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2024-12-02/07, art. 64, 024; Inwerkingtreding : 30-12-2024>
 
-   Art. 3:97.§ 1. De leden van het bestuursorgaan, directeurs en lasthebbers van vennootschappen die wetens de
+## Art. 3:97
+
+§ 1. De leden van het bestuursorgaan, directeurs en lasthebbers van vennootschappen die wetens de
  bepalingen overtreden van hoofdstuk 2 van deze titel met betrekking tot de wettelijke controle op de jaarrekening
  of van hoofdstuk 3 van deze titel met betrekking tot de wettelijke controle op de geconsolideerde jaarrekening,
  worden gestraft met geldboete van vijftig euro tot tienduizend euro.
@@ -6816,7 +6885,9 @@ Pagina 126 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   TITEL 5. De wettelijke controle van de jaarrekening van verenigingen.
 
-  Art. 3:98.§ 1. Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de jaarrekening,
+## Art. 3:98
+
+§ 1. Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de jaarrekening,
  voor zover deze controle:
   1° door het Belgisch recht wordt voorgeschreven met betrekking tot verenigingen als bedoeld in artikel 3:47, §
  6, overeenkomstig toegepast krachtens paragraaf 2;
@@ -6827,7 +6898,6 @@ Pagina 126 van 332 Copyright Belgisch S taatsblad 23-01-2026
  op de VZW's en IVZW's die een commissaris hebben benoemd. [1 ...]1
   [1 Voor deze toepassing op overeenkomstige wijze, moeten in de voormelde artikelen de volgende wijzigingen
  worden doorgevoerd:
-Pagina 127 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° het woord "vennootschap" moet worden begrepen als "vereniging";
    2° in artikel 3:75, § 1, eerste lid, 6°, worden de woorden "overeenkomstig de artikelen 3:5 en 3:6" vervangen
  door de woorden "overeenkomstig artikel 3:48".]1
@@ -6836,7 +6906,9 @@ Pagina 127 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   TITEL 6. De wettelijke controle van de jaarrekening van stichtingen.
 
-  Art. 3:99.§ 1. Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de jaarrekening,
+## Art. 3:99
+
+§ 1. Onder "wettelijke controle van de jaarrekening" wordt verstaan, een controle van de jaarrekening,
  voor zover deze controle:
   1° door het Belgisch recht wordt voorgeschreven met betrekking tot stichtingen als bedoeld in artikel 3:51, § 6,
  overeenkomstig toegepast krachtens paragraaf 2 of;
@@ -6863,13 +6935,17 @@ Moet met toepassing van artikel 3:72 geen commissaris worden benoemd, dan is het
  benoeming van een commissaris, belast met de taak bedoeld in artikel 3:73, voor te leggen aan het bevoegde
  orgaan.
 
-   Art. 3:101.Wordt geen commissaris benoemd, dan heeft, niettegenstaande andersluidende statutaire bepaling,
+## Art. 3:101
+
+Wordt geen commissaris benoemd, dan heeft, niettegenstaande andersluidende statutaire bepaling,
  iedere vennoot of aandeelhouder individueel de onderzoeks- en controlebevoegdheid van een commissaris. Hij
  kan zich laten vertegenwoordigen of bijstaan door een [1 gecertificeerd accountant]1.
    ----------
    (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 3:102.De vergoeding van de [1 gecertificeerd accountant]1 bedoeld in artikel 3:101 komt ten laste van de
+## Art. 3:102
+
+De vergoeding van de [1 gecertificeerd accountant]1 bedoeld in artikel 3:101 komt ten laste van de
  vennootschap indien hij met haar toestemming werd benoemd of indien deze vergoeding door haar ten laste
  moet worden genomen krachtens een rechterlijke beslissing. In deze gevallen worden de opmerkingen van de [1
  gecertificeerd accountant]1 meegedeeld aan de vennootschap.
@@ -6892,14 +6968,15 @@ Wordt geen commissaris benoemd, dan kunnen alle leden op de zetel van de VZW of 
 
   TITEL 1. Inleidende bepalingen.
 
-   Art. 4:1.De maatschap is een overeenkomst waarbij twee of meer personen zich verbinden om hun inbrengen
+## Art. 4:1
+
+De maatschap is een overeenkomst waarbij twee of meer personen zich verbinden om hun inbrengen
  in gemeenschap te brengen, met het oogmerk [1 aan haar vennoten een rechtstreeks of onrechtstreeks
  vermogensvoordeel uit te keren of te bezorgen]1. Zij wordt in het gemeenschappelijk belang van de partijen
  aangegaan.
    De maatschap is "stil" wanneer overeengekomen wordt dat zij bestuurd wordt door een of meer zaakvoerders,
  al dan niet vennoten, die handelen in eigen naam.
    Tenzij anders overeengekomen, wordt zij aangegaan met inachtneming van de persoon van de vennoten.
-Pagina 128 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 82, 002; Inwerkingtreding : 06-05-2020>
 
@@ -6990,7 +7067,6 @@ De vennoten, verenigd in vergadering, nemen eenparig alle beslissingen die de ve
   Het beding dat de vennoten in staat stelt om de overeenkomst bij meerderheid te wijzigen laat niet toe het
  essentiële voorwerp van de vennootschap te wijzigen.
   De beslissingen genomen bij een meerderheid van de vennoten onder de voorwaarden bepaald in de
-Pagina 129 van 332 Copyright Belgisch S taatsblad 23-01-2026
  overeenkomst, verbinden alle vennoten behoudens bedrog of rechtsmisbruik.
 
   TITEL 5. Het vennootschapsvermogen en de rechten van de schuldeisers.
@@ -7002,7 +7078,9 @@ De goederen die worden ingebracht in een vennootschap en die voortkomen uit de
   De goederen die het vennootschapsvermogen vormen, zijn bestemd voor de activiteit van de vennootschap.
   De vennoten mogen geen rechten op deze goederen laten gelden die strijdig zijn met de bestemming ervan.
 
-  Art. 4:14.De schuldeisers wier schuldvordering voortvloeit uit de activiteit van de vennootschap kunnen verhaal
+## Art. 4:14
+
+De schuldeisers wier schuldvordering voortvloeit uit de activiteit van de vennootschap kunnen verhaal
  uitoefenen op het volledige vennootschapsvermogen. De vennoten zijn ten aanzien van deze schuldeisers
  persoonlijk en hoofdelijk gehouden met hun eigen vermogen.
   [1 Tegen de vennoot die niet op de hoogte is gebracht of geen kennis heeft gekregen van het geding waarbij de
@@ -7015,7 +7093,9 @@ De goederen die worden ingebracht in een vennootschap en die voortkomen uit de
   ----------
   (1)<W 2024-04-21/12, art. 2, 022; Inwerkingtreding : 22-07-2024>
 
-  Art. 4:15.Onverminderd artikel [1 5.242]1 van het Burgerlijk Wetboek hebben de persoonlijke schuldeisers van
+## Art. 4:15
+
+Onverminderd artikel [1 5.242]1 van het Burgerlijk Wetboek hebben de persoonlijke schuldeisers van
  de vennoten wier schuldvordering vreemd is aan de vennootschapsactiviteit, en degenen die hebben gehandeld
  met een vennoot die niet de bevoegdheid had om de anderen te vertegenwoordigen, enkel verhaal op het
  aandeel van die vennoot en op de winsten die hem zijn uitgekeerd.
@@ -7067,7 +7147,6 @@ De vennootschap wordt ontbonden:
   De overeenkomst kan de toepassing van het voortzettingsbeding tevens onderwerpen aan de aanvaarding van
  de erfgenamen en legatarissen van de overleden vennoot als vennoten, indien zij nog geen vennoot zijn. De
  overeenkomst bepaalt met welke meerderheid en binnen welke termijn de erfgenamen en legatarissen als
-Pagina 130 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennoten moeten worden aanvaard. Deze termijn mag evenwel drie maanden te rekenen vanaf het overlijden niet
  overschrijden. Bij gebrek aan een beslissing binnen deze termijn wordt de aanvaarding geacht te zijn geweigerd.
  Tenzij de overeenkomst anders bepaalt, moeten de erfgenamen en legatarissen unaniem door de andere
@@ -7150,10 +7229,11 @@ De commanditaire vennoten zijn slechts persoonlijk aansprakelijk voor de geldsom
  de vennootschap, waaraan hij heeft meegewerkt met overtreding van de verbodsbepaling van paragraaf 1.
   Hij is ten aanzien van derden net als de gecommanditeerde vennoten hoofdelijk aansprakelijk voor alle
  verbintenissen van de vennootschap indien hij er een gewoonte van gemaakt heeft de zaken van de
-Pagina 131 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennootschap waar te nemen of indien zijn naam in de naam van de vennootschap voorkomt.
 
-  Art. 4:26.Vennoten in een vennootschap onder firma of in een commanditaire vennootschap kunnen niet
+## Art. 4:26
+
+Vennoten in een vennootschap onder firma of in een commanditaire vennootschap kunnen niet
  persoonlijk worden veroordeeld op grond van verbintenissen van de vennootschap zolang deze niet zelf is
  veroordeeld.
   [1 Tegen de vennoot die niet op de hoogte is gebracht of geen kennis heeft gekregen van het geding waarbij de
@@ -7189,7 +7269,9 @@ Indien is bedongen dat de vennootschap onder firma of de commanditaire vennootsc
 De besloten vennootschap is een vennootschap zonder kapitaal waarin de aandeelhouders slechts hun
  inbreng verbinden.
 
-  Art. 5:2.[1 Indien een besloten vennootschap wordt genoteerd als bedoeld in artikel 1:11, zijn de volgende
+## Art. 5:2
+
+[1 Indien een besloten vennootschap wordt genoteerd als bedoeld in artikel 1:11, zijn de volgende
  regels van toepassing:
    1° als er meerdere bestuurders zijn vormen zij een college;
    2° de artikelen 7:53, 7:61, § 1, derde en vijfde lid, tweede zin, 7:82, § 1, 7:83, 7:84, 7:86, [2 7:86/1,]2 7:87,
@@ -7228,7 +7310,6 @@ De oprichters zien erop toe dat de besloten vennootschap bij de oprichting over 
   2° een overzicht van alle financieringsbronnen bij oprichting, in voorkomend geval, met opgave van de in dat
  verband verstrekte zekerheden;
   3° een openingsbalans opgesteld volgens het schema bedoeld in artikel 3:3, evenals geprojecteerde balansen
-Pagina 132 van 332 Copyright Belgisch S taatsblad 23-01-2026
  na twaalf en vierentwintig maanden;
    4° een geprojecteerde resultatenrekening na twaalf en vierentwintig maanden, opgesteld volgens het schema
  bedoeld in artikel 3:3;
@@ -7303,7 +7384,6 @@ De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande
  uit de jaarrekening van het voorgaande boekjaar, mits de jaarrekening door de commissaris of door de met de
  controle van de jaarrekening belaste persoon werd gecontroleerd en mits het verslag van die persoon een
  verklaring zonder voorbehoud bevat.
-Pagina 133 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Paragraaf 1 is evenwel van toepassing op de herwaardering waartoe wordt overgegaan op initiatief en onder de
  verantwoordelijkheid van de oprichters:
    1° op het in paragraaf 2, eerste lid, 1°, bepaalde geval indien de koers is beïnvloed door uitzonderlijke
@@ -7331,7 +7411,9 @@ Pagina 133 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 Tenzij de oprichtingsakte anders bepaalt worden alle inbrengen vanaf de oprichting volledig gestort.
 
-  Art. 5:9.In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
+## Art. 5:9
+
+In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
  van de vennootschap bij storting of overschrijving gedeponeerd op een bijzondere rekening, ten name van de
  vennootschap in oprichting geopend bij een in de Europese Economische Ruimte gevestigde kredietinstelling als
  bedoeld in artikel 4, lid 1, punt 1), van verordening (EU) nr. 575/2013. Een bewijs van die deponering wordt
@@ -7380,7 +7462,6 @@ Naast de gegevens opgenomen in het uittreksel bestemd voor bekendmaking overeenk
   2° de instelling waar de inbreng in geld is gedeponeerd overeenkomstig artikel 5:9;
   3° de regels, voor zover deze niet uit de wet voortvloeien, die het aantal en de wijze van benoeming bepalen van
  de leden van de organen belast met het bestuur en, in voorkomend geval, het dagelijks bestuur, de
-Pagina 134 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vertegenwoordiging tegenover derden evenals de verdeling van de bevoegdheden tussen die organen;
    4° het aantal aandelen, evenals in voorkomend geval, de overdrachtsbeperkingen en, indien er verschillende
  soorten aandelen bestaan, dezelfde gegevens en de rechten per soort;
@@ -7460,7 +7541,6 @@ Een besloten vennootschap kan alle effecten uitgeven die niet door of krachtens 
  een buitenlands recht kunnen evenwel de vorm aannemen van individuele of verzameleffecten aan toonder. Deze
  obligaties aan toonder mogen evenwel niet fysiek worden afgeleverd in België. De eigenaars van deze obligaties
  aan toonder kunnen te allen tijde vragen dat deze op hun kosten worden omgezet in obligaties op naam.
-Pagina 135 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 5:19
 
 De eigenaars van gedematerialiseerde effecten kunnen te allen tijde vragen dat deze op hun kosten
@@ -7502,7 +7582,9 @@ Op de zetel van de vennootschap wordt een register gehouden voor elke categorie 
  bestuursorgaan kan beslissen dat het register wordt aangehouden in elektronische vorm. De Koning kan
  voorwaarden opleggen waaraan het elektronische register dient te voldoen.
 
-   Art. 5:25.Het register van aandelen op naam vermeldt:
+## Art. 5:25
+
+Het register van aandelen op naam vermeldt:
    1° het totale aantal door de vennootschap uitgegeven aandelen en, in voorkomend geval, het totale aantal per
  soort;
    2° voor natuurlijke personen naam en woonplaats en voor rechtspersonen naam [1 en zetel]1 van elke
@@ -7546,7 +7628,6 @@ Het register van obligaties op naam vermeldt:
 ## Art. 5:28
 
 Het bestuursorgaan kan besluiten tot splitsing van een register in twee delen, waarvan het ene wordt
-Pagina 136 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bewaard op de zetel van de vennootschap en het andere buiten die zetel, in België of in het buitenland.
   Van elk deel wordt een kopie bewaard op de plaats waar het andere deel berust.
   Deze kopie wordt regelmatig bijgehouden en, indien zulks onmogelijk blijkt, bijgewerkt zodra de omstandigheden
@@ -7569,7 +7650,9 @@ Hij die in een register van effecten op naam staat ingeschreven als houder van e
 
   Afdeling 2. Gedematerialiseerde effecten.
 
-   Art. 5:30.Het gedematerialiseerde effect wordt vertegenwoordigd door een boeking op rekening, op naam van
+## Art. 5:30
+
+Het gedematerialiseerde effect wordt vertegenwoordigd door een boeking op rekening, op naam van
  de eigenaar of de houder, [2 bij een centrale effectenbewaarinstelling]2 of bij een erkende rekeninghouder.
    [3 De centrale effectenbewaarinstelling en de erkende rekeninghouder kunnen de in het eerste lid bedoelde
  rekening aanhouden in of door middel van beveiligde mechanismen voor elektronische registratie, met inbegrip
@@ -7612,10 +7695,11 @@ Hij die in een register van effecten op naam staat ingeschreven als houder van e
    (2)<W 2021-06-27/09, art. 313, 006; Inwerkingtreding : 19-07-2021>
    (3)<W 2021-06-27/09, art. 411, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 5:31.De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
+## Art. 5:31
+
+De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
  van derden en voor eigen rekening bij op rekeningen [1 bij de centrale effectenbewaarinstelling]1, bij één of
  meerdere instellingen die voor hen rechtstreeks of onrechtstreeks als tussenpersoon [1 ten opzichte van die
-Pagina 137 van 332 Copyright Belgisch S taatsblad 23-01-2026
  centrale effectenbewaarinstelling]1 optreden, of tegelijk [1 bij de centrale effectenbewaarinstelling]1 en één of
  meerdere voornoemde instellingen. In voorkomend geval houden de erkende rekeninghouders de
  gedematerialiseerde effecten die zij houden voor rekening van derden en voor eigen rekening bij op rekeningen
@@ -7639,7 +7723,9 @@ Een pand op gedematerialiseerde effecten wordt gevestigd overeenkomstig de wet v
  de geldigheid van het pand onderworpen aan de machtiging van de eigenaar voor de inpandgeving van deze
  effecten.
 
-   Art. 5:33.De eigenaars van gedematerialiseerde effecten bedoeld in artikel 5:31 kunnen hun rechten van medeeigendom bedoeld in artikel 5:30, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
+## Art. 5:33
+
+De eigenaars van gedematerialiseerde effecten bedoeld in artikel 5:31 kunnen hun rechten van medeeigendom bedoeld in artikel 5:30, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
  effecten op rekening werden geboekt of, indien zij die effecten rechtstreeks aanhouden bij [2 de centrale
  effectenbewaarinstelling]2, jegens deze laatste. Bij wijze van uitzondering kunnen zij:
    1° een recht van terugvordering uitoefenen overeenkomstig de bepalingen van dit artikel en artikel 9bis, tweede
@@ -7680,11 +7766,12 @@ Een pand op gedematerialiseerde effecten wordt gevestigd overeenkomstig de wet v
    (2)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
    (3)<W 2023-12-20/08, art. 89, 016; Inwerkingtreding : 25-01-2024>
 
-  Art. 5:34.Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
+## Art. 5:34
+
+Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
  van een erkende rekeninghouder bij [1 de centrale effectenbewaarinstelling]1 of, in voorkomend geval, bij de
  erkende rekeninghouder wanneer artikel 5:39 wordt toegepast.
   Onverminderd de toepassing van artikel 5:33 mogen de schuldeisers van de eigenaar van de effecten, in geval
-Pagina 138 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van faillissement van de eigenaar of in alle andere gevallen van samenloop, hun rechten laten gelden op het
  beschikbaar saldo van de effecten dat op naam en voor rekening van hun schuldenaar is ingeschreven, na aftrek
  of optelling van de effecten die, ingevolge voorwaardelijke verbintenissen, verbintenissen waarvan het bedrag
@@ -7695,7 +7782,9 @@ Pagina 138 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 5:35.De betaling van vervallen dividenden, interesten en kapitalen van gedematerialiseerde effecten [1 aan
+## Art. 5:35
+
+De betaling van vervallen dividenden, interesten en kapitalen van gedematerialiseerde effecten [1 aan
  de centrale effectenbewaarinstelling]1 of, in voorkomend geval, aan de erkende rekeninghouder wanneer artikel
  5:39 wordt toegepast, is bevrijdend voor de uitgever.
   [1 De centrale effectenbewaarinstelling]1 of, in voorkomend geval, de erkende rekeninghouder wanneer artikel
@@ -7706,7 +7795,9 @@ Pagina 138 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 316, 006; Inwerkingtreding : 19-07-2021>
 
-   Art. 5:36.Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
+## Art. 5:36
+
+Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
  verhaal in geval van faillissement van de emittent ervan of in alle andere gevallen van samenloop tegen deze
  laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
  effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
@@ -7714,7 +7805,9 @@ Pagina 138 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 5:37.Met het oog op de uitvoering van de artikelen 5:31 tot 5:36, kan de Koning de voorwaarden bepalen
+## Art. 5:37
+
+Met het oog op de uitvoering van de artikelen 5:31 tot 5:36, kan de Koning de voorwaarden bepalen
  waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de rekeningen, de aard van
  de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
  vervallen dividenden, interesten en kapitalen door de erkende rekeninghouders en [1 de centrale
@@ -7722,12 +7815,16 @@ Pagina 138 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 5:38.[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
+## Art. 5:38
+
+[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
  bedoeld in deze afdeling.
   ----------
   (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
-  Art. 5:39.Behalve voor effecten die worden toegelaten tot de verhandeling op een gereglementeerde markt,
+## Art. 5:39
+
+Behalve voor effecten die worden toegelaten tot de verhandeling op een gereglementeerde markt,
  gelden de bepalingen van deze afdeling tevens voor effecten ingeschreven op een rekening bij een erkende
  rekeninghouder die die rekeninghouder niet bijhoudt [1 bij een centrale effectenbewaarinstelling of bij een
  onderneming die ten opzichte van die centrale effectenbewaarinstelling als tussenpersoon optreedt]1.
@@ -7756,7 +7853,6 @@ De vennootschap moet minstens één aandeel uitgeven en minstens één aandeel m
 
 Elk aandeel deelt in de winst of het vereffeningssaldo. Tenzij de statuten anders bepalen, geeft elk
  aandeel recht op een gelijk aandeel in de winst en van het vereffeningssaldo.
-Pagina 139 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Stemrechten kunnen enkel aan aandelen worden verbonden.
 
 ## Art. 5:42
@@ -7805,7 +7901,9 @@ De statuten kunnen het aantal stemmen waarover iedere aandeelhouder in de vergad
 
   Onderafdeling 2. Aandelen zonder stemrecht.
 
-  Art. 5:47.§ 1. In geval van uitgifte van aandelen zonder stemrecht, geven zij toch recht op [1 ...]1 één stem per
+## Art. 5:47
+
+§ 1. In geval van uitgifte van aandelen zonder stemrecht, geven zij toch recht op [1 ...]1 één stem per
  aandeel in volgende gevallen, niettegenstaande andersluidende bepaling:
   1° het geval bedoeld in artikel 5:102;
   2° bij omzetting van de vennootschap;
@@ -7832,11 +7930,12 @@ Wanneer aan één of een reeks aandelen andere rechten zijn verbonden dan aan an
 
   Afdeling 3. Certificaten.
 
-   Art. 5:49.§ 1. Certificaten die betrekking hebben op aandelen, [1 converteerbare obligaties of
+## Art. 5:49
+
+§ 1. Certificaten die betrekking hebben op aandelen, [1 converteerbare obligaties of
  inschrijvingsrechten]1 kunnen, al dan niet met medewerking van de vennootschap, worden uitgegeven door een
  rechtspersoon die eigenaar blijft of wordt [1 van de effecten]1 waarop de certificaten betrekking hebben en zich
  ertoe verbindt de opbrengst van of de inkomsten [1 uit die effecten]1 voor te behouden aan de houder van de
-Pagina 140 van 332 Copyright Belgisch S taatsblad 23-01-2026
  certificaten. Deze certificaten moeten op naam zijn.
    De emittent van de certificaten oefent alle rechten uit verbonden aan de [1 effecten]1 waarop zij betrekking
  hebben, daaronder begrepen het stemrecht.
@@ -7873,7 +7972,9 @@ Pagina 140 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 1. Algemene bepalingen.
 
-  Art. 5:50.De besloten vennootschap kan een overeenkomst van lening aangaan in de vorm van uitgifte van
+## Art. 5:50
+
+De besloten vennootschap kan een overeenkomst van lening aangaan in de vorm van uitgifte van
  obligaties [1 ...]1, in voorkomend geval converteerbaar in aandelen, waarbij het conversierecht krachtens de
  uitgiftevoorwaarden kan toekomen aan de obligatiehouder of aan de vennootschap, dan wel automatisch, al dan
  niet onder bepaalde voorwaarden, kan plaatsvinden. Obligaties kunnen voor een bepaalde termijn of
@@ -7905,7 +8006,6 @@ Pagina 140 van 332 Copyright Belgisch S taatsblad 23-01-2026
  een kopie van de notulen van de algemene vergadering overeenkomstig artikel 5:117.
   De algemene vergadering van obligatiehouders kan de vertegenwoordiger te allen tijde herroepen, op
  voorwaarde dat zij tegelijkertijd één of meer nieuwe vertegenwoordigers aanstelt. De algemene vergadering
-Pagina 141 van 332 Copyright Belgisch S taatsblad 23-01-2026
  beraadslaagt en besluit overeenkomstig artikel 5:115.
   De vertegenwoordiger oefent zijn bevoegdheid uit in het uitsluitend belang van de obligatiehouders en is hen
  rekenschap verschuldigd volgens de regels bepaald in de uitgiftevoorwaarden of in het aanstellingsbesluit.
@@ -7987,12 +8087,13 @@ Indien de vennootschap besluit de lening, zelfs gedeeltelijk, vervroegd terug te
 
   Afdeling 1. Algemene bepalingen.
 
-  Art. 5:61.De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen recht.
+## Art. 5:61
+
+De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen recht.
   Een overdracht of overgang van effecten op naam kan aan de vennootschap en aan derden slechts worden
  tegengeworpen door een verklaring van overdracht, ingeschreven in het register van de betrokken effecten en
  gedagtekend en ondertekend door de overdrager en de overnemer of door hun gevolmachtigden in geval van
  overdracht onder de levenden, en door een lid van het bestuursorgaan en de rechtsverkrijgenden of door hun
-Pagina 142 van 332 Copyright Belgisch S taatsblad 23-01-2026
  gevolmachtigden in geval van overgang wegens overlijden.
    Het bestuursorgaan kan een overdracht erkennen en in het register inschrijven, als uit stukken het bewijs van
  de toestemming van de overdrager en van de overnemer blijkt.
@@ -8011,7 +8112,9 @@ Een overdracht of overgang van een gedematerialiseerd effect kan aan de vennoots
 
   Afdeling 2. Overdracht en overgang van aandelen.
 
-   Art. 5:63.§ 1. Tenzij de statuten anders bepalen, is elke overdracht of overgang, onder bijzondere of algemene
+## Art. 5:63
+
+§ 1. Tenzij de statuten anders bepalen, is elke overdracht of overgang, onder bijzondere of algemene
  titel, onder bezwarende titel of om niet, onder levenden of ten gevolge van overlijden van aandelen, onderworpen
  aan de instemming van ten minste de helft van de aandeelhouders die ten minste drie vierde van de aandelen
  bezitten, na aftrek van de aandelen waarvan de overdracht is voorgesteld. Deze instemming moet blijken uit een
@@ -8061,7 +8164,9 @@ In geval van overdracht van een niet volgestort aandeel, zijn de overdrager en d
 
   Afdeling 3. Beperkingen op de vrije overdraagbaarheid van effecten.
 
-   Art. 5:67.De statuten, de uitgiftevoorwaarden van effecten of overeenkomsten kunnen perken stellen aan de
+## Art. 5:67
+
+De statuten, de uitgiftevoorwaarden van effecten of overeenkomsten kunnen perken stellen aan de
  overdraagbaarheid, onder de levenden of bij overlijden, van aandelen, van inschrijvingsrechten of van alle andere
  effecten die toegang geven tot aandelen. Overeenkomsten of de uitgiftevoorwaarden van effecten mogen de
  wettelijke of statutaire voorwaarden voor hun overdracht niet versoepelen.
@@ -8069,7 +8174,6 @@ In geval van overdracht van een niet volgestort aandeel, zijn de overdrager en d
  opgenomen, kan aan de vennootschap of derden niet worden tegengeworpen, ongeacht de goede of kwade
  trouw van de overnemer, zelfs wanneer de statutaire overdrachtsbeperking niet in het aandelenregister is
 
-Pagina 143 van 332 Copyright Belgisch S taatsblad 23-01-2026
  opgenomen.]1
   ----------
   (1)<W 2020-04-28/06, art. 91, 002; Inwerkingtreding : 06-05-2020>
@@ -8089,7 +8193,9 @@ De statuten en de uitgiftevoorwaarden van effecten op naam of in gedematerialise
 
   Afdeling 4. Het uitkoopbod.
 
-   Art. 5:69.§ 1. Iedere natuurlijke persoon of iedere rechtspersoon die, alleen of in onderling overleg handelend, [1
+## Art. 5:69
+
+§ 1. Iedere natuurlijke persoon of iedere rechtspersoon die, alleen of in onderling overleg handelend, [1
  rechtstreeks of onrechtstreeks]1 95 % van de aandelen met stemrecht van een besloten vennootschap bezit,
  kan een uitkoopbod doen om het geheel van de aandelen met stemrecht of de effecten die toegang geven tot
  stemrecht van deze vennootschap te verkrijgen.
@@ -8142,7 +8248,6 @@ De statuten en de uitgiftevoorwaarden van effecten op naam of in gedematerialise
  redenen met onmiddellijke ingang beeïndigen.
   Tenzij de statuten anders bepalen, kan de algemene vergadering op het moment van de opzegging evenwel
  steeds de datum bepalen waarop het bestuursmandaat eindigt of een vertrekvergoeding toekennen.
-Pagina 144 van 332 Copyright Belgisch S taatsblad 23-01-2026
   De algemene vergadering kan het mandaat van een al dan niet in de statuten benoemde bestuurder steeds
  beëindigen wegens wettige reden, zonder opzeggingstermijn of vertrekvergoeding.
   § 4. Elke bestuurder kan ontslag nemen door loutere kennisgeving aan het bestuursorgaan. Op verzoek van de
@@ -8223,7 +8328,6 @@ De notulen van de vergaderingen van een collegiaal bestuursorgaan worden onderte
  bestuursorgaan ze uitvoeren.
   § 2. Als de statuten bepalen dat het bestuursorgaan een collegiaal orgaan is, dan wordt de beslissing genomen
  of de verrichting uitgevoerd door het bestuursorgaan, waarbij de bestuurder met het belangenconflict niet mag
-Pagina 145 van 332 Copyright Belgisch S taatsblad 23-01-2026
  deelnemen aan de beraadslagingen van het bestuursorgaan over deze beslissing of verrichting, noch aan de
  stemming in dat verband. Wanneer alle bestuurders van een collegiaal bestuursorgaan een belangenconflict
  hebben, wordt de beslissing of verrichting aan de algemene vergadering voorgelegd; indien de algemene
@@ -8270,7 +8374,9 @@ Onverminderd artikel 2:56, zijn de bestuurders persoonlijk en hoofdelijk aanspra
 
   Afdeling 4. Dagelijks bestuur.
 
-  Art. 5:79.Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vertegenwoordiging
+## Art. 5:79
+
+Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vertegenwoordiging
  van de vennootschap wat dat bestuur aangaat, opdragen aan een of meer personen, die elk alleen, gezamenlijk
  of als college optreden. [1 ...]1 Het bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld is
  belast met het toezicht op dit orgaan.
@@ -8298,8 +8404,9 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
 
   Onderafdeling 2. Bevoegdheden.
 
-Pagina 146 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 5:81.De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
+## Art. 5:81
+
+De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
  toewijst.
   De statuten kunnen de bevoegdheden van de algemene vergadering uitbreiden. Zodanige uitbreiding kan niet
  aan derden worden tegengeworpen, [1 ook al is ze openbaar gemaakt]1.
@@ -8313,7 +8420,9 @@ Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdh
 
   Onderafdeling 3. Bijeenroeping van de algemene vergadering.
 
-  Art. 5:83.Het bestuursorgaan en, in voorkomend geval, de commissaris, roepen de algemene vergadering
+## Art. 5:83
+
+Het bestuursorgaan en, in voorkomend geval, de commissaris, roepen de algemene vergadering
  bijeen en bepalen haar agenda. Zij zijn verplicht de algemene vergadering binnen drie weken bijeen te roepen
  wanneer aandeelhouders die een tiende van het aantal uitgegeven aandelen vertegenwoordigen, dat vragen, met
  ten minste de door de betrokken aandeelhouders voorgestelde agendapunten.
@@ -8335,7 +8444,9 @@ Samen met de oproepingsbrief voor de algemene vergadering, bezorgt de vennootsch
 
   Onderafdeling 4. Schriftelijke algemene vergadering.
 
-  Art. 5:85.De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van de
+## Art. 5:85
+
+De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van de
  algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. In dat geval dienen de
  formaliteiten van bijeenroeping niet te worden nageleefd. De leden van het bestuursorgaan, de commissaris en
  de houders van converteerbare obligaties, inschrijvingsrechten of met medewerking van de vennootschap
@@ -8345,7 +8456,9 @@ Samen met de oproepingsbrief voor de algemene vergadering, bezorgt de vennootsch
 
   Onderafdeling 5. Deelneming aan de algemene vergadering.
 
-  Art. 5:86.De aandeelhouders mogen deelnemen aan de algemene vergadering.
+## Art. 5:86
+
+De aandeelhouders mogen deelnemen aan de algemene vergadering.
   De houders [1 van aandelen zonder stemrecht,]1 van converteerbare obligaties, inschrijvingsrechten en met
  medewerking van de vennootschap uitgegeven certificaten mogen de algemene vergadering bijwonen met
  raadgevende stem.
@@ -8368,14 +8481,15 @@ De statuten bepalen welke formaliteiten moeten worden vervuld om tot de algemene
  agendapunten, tenzij de vennootschap op de hoogte wordt gesteld van een overdracht van de betrokken
  effecten.
 
-   Art. 5:89.§ 1. [1 Het bestuursorgaan kan]1 de houders van aandelen, van converteerbare obligaties, van
+## Art. 5:89
+
+§ 1. [1 Het bestuursorgaan kan]1 de houders van aandelen, van converteerbare obligaties, van
  inschrijvingsrechten en van met medewerking van de vennootschap uitgegeven certificaten de mogelijkheid
  bieden om op afstand deel te nemen aan de algemene vergadering door middel van een door de vennootschap
  ter beschikking gesteld elektronisch communicatiemiddel. Wat de naleving van de voorwaarden inzake
  aanwezigheid en meerderheid betreft, worden de effectenhouders die op die manier aan de algemene
  vergadering deelnemen, geacht aanwezig te zijn op de plaats waar de algemene vergadering wordt gehouden.
    Voor de toepassing van het eerste lid moet de vennootschap de hoedanigheid en de identiteit van de in het
-Pagina 147 van 332 Copyright Belgisch S taatsblad 23-01-2026
  eerste lid bedoelde effectenhouder kunnen controleren aan de hand van het gebruikte elektronische
  communicatiemiddel [1 ...]1. Aan het gebruik van het elektronische communicatiemiddel kunnen [1 ...]1
  bijkomende voorwaarden worden gesteld, met als enige doelstelling de veiligheid van het elektronische
@@ -8411,12 +8525,16 @@ Pagina 147 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 6. Verloop van de algemene vergadering.
 
-   Art. 5:90.Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
+## Art. 5:90
+
+Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
  inzage krijgen in deze lijst.]1
    ----------
    (1)<W 2020-04-28/06, art. 98, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 5:91.De leden van het bestuursorgaan geven antwoord op de vragen die hun door de houders van
+## Art. 5:91
+
+De leden van het bestuursorgaan geven antwoord op de vragen die hun door de houders van
  aandelen, converteerbare obligaties of inschrijvingsrechten, of van certificaten die met medewerking van de
  vennootschap zijn uitgegeven, vooraf of tijdens de vergadering, mondeling of schriftelijk worden gesteld en die
  verband houden met de agendapunten. De leden van het bestuursorgaan kunnen, in het belang van de
@@ -8442,7 +8560,6 @@ Pagina 147 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 99, 002; Inwerkingtreding : 06-05-2020>
 
-Pagina 148 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 5:92
 
 Behalve in de gevallen waarin hun krachtens de wet of de statuten stemrecht is toegekend, wordt
@@ -8515,7 +8632,9 @@ Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de go
 
   Onderafdeling 1. Statutenwijziging: algemeen.
 
-  Art. 5:100.[1 De algemene vergadering heeft het recht om wijzigingen aan te brengen in de statuten.]1
+## Art. 5:100
+
+[1 De algemene vergadering heeft het recht om wijzigingen aan te brengen in de statuten.]1
    De algemene vergadering kan over wijzigingen in de statuten alleen dan geldig beraadslagen en besluiten,
  wanneer de voorgestelde wijzigingen nauwkeurig zijn aangegeven in de oproeping en wanneer de aanwezige of
  vertegenwoordigde aandeelhouders ten minste de helft van het totaal aantal uitgegeven aandelen
@@ -8526,7 +8645,6 @@ Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de go
   Een wijziging is alleen dan aangenomen, wanneer zij drie vierde van de uitgebrachte stemmen heeft verkregen,
  waarbij onthoudingen in de teller noch in de noemer worden meegerekend.
   ----------
-Pagina 149 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 100, 002; Inwerkingtreding : 06-05-2020>
 
   Onderafdeling 2. Wijziging van het voorwerp en de doelen.
@@ -8549,7 +8667,9 @@ Indien wordt voorgesteld het voorwerp of de doelen van de vennootschap, zoals be
 
   Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
 
-  Art. 5:102.De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
+## Art. 5:102
+
+De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
  nieuwe soorten van aandelen goedkeuren, één of meer soorten afschaffen, de rechten verbonden aan een soort
  van aandelen gelijkstellen met de rechten van een andere soort, of de rechten verbonden aan een soort
  rechtstreeks of onrechtstreeks wijzigen. De uitgifte van nieuwe aandelen die niet evenredig aan het aantal
@@ -8601,7 +8721,6 @@ De algemene vergadering beslist of tegen de leden van het bestuursorgaan of tege
  vordering, heeft geen invloed op de voortzetting van de bedoelde procedure noch op de aanwending van de
  rechtsmiddelen.
   § 3. Indien zowel de wettelijke vertegenwoordigers van de vennootschap als één of meer houders van effecten
-Pagina 150 van 332 Copyright Belgisch S taatsblad 23-01-2026
  een vordering instellen tegen één of meerdere leden van het bestuursorgaan worden de vorderingen wegens
  hun samenhang samengevoegd.
   § 4. Een dading aangegaan voordat de vordering is ingesteld kan nietig worden verklaard op verzoek van de
@@ -8684,7 +8803,6 @@ Het bestuursorgaan en, in voorkomend geval, de commissaris, kunnen een algemene 
  en de voorstellen van besluiten die aan de vergadering worden voorgelegd.
   § 2. Heeft de vennootschap gedematerialiseerde obligaties uitgegeven, dan gebeurt de oproeping door middel
  van een aankondiging die ten minste vijftien dagen vóór de vergadering wordt geplaatst:
-Pagina 151 van 332 Copyright Belgisch S taatsblad 23-01-2026
   1° in het Belgisch Staatsblad;
   2° in een nationaal verspreid blad, op papier of elektronisch;
   3° als de vennootschap een vennootschapswebsite heeft als bedoeld in artikel 2:31, op de
@@ -8697,7 +8815,9 @@ Pagina 151 van 332 Copyright Belgisch S taatsblad 23-01-2026
 De statuten bepalen de formaliteiten die moeten worden vervuld om tot de algemene vergadering
  van obligatiehouders te worden toegelaten.
 
-  Art. 5:113.[1 Het bestuursorgaan kan]1 de in artikel 5:89 bedoelde regeling voor deelname op afstand, onder
+## Art. 5:113
+
+[1 Het bestuursorgaan kan]1 de in artikel 5:89 bedoelde regeling voor deelname op afstand, onder
  dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
   ----------
   (1)<W 2020-12-20/02, art. 25, 005; Inwerkingtreding : 24-12-2020>
@@ -8760,14 +8880,15 @@ Alle obligatiehouders kunnen in persoon of bij volmacht stemmen.
 
   Afdeling 1. Gemeenschappelijke bepalingen.
 
-  Art. 5:120.§ 1. De uitgifte van nieuwe aandelen [1 , converteerbare obligaties of inschrijvingsrechten]1 vereist
+## Art. 5:120
+
+§ 1. De uitgifte van nieuwe aandelen [1 , converteerbare obligaties of inschrijvingsrechten]1 vereist
  een statutenwijziging, in voorkomend geval met toepassing van artikel 5:102.
   De uitgegeven aandelen moeten volledig en, niettegenstaande andersluidende bepaling, onvoorwaardelijk zijn
  geplaatst.
   § 2. De algemene vergadering is bevoegd om bijkomende inbrengen zonder uitgifte van nieuwe aandelen te
  aanvaarden met gewone meerderheid. Dit besluit wordt in een authentieke akte vastgesteld [1 en neergelegd en
 
-Pagina 152 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 1°]1.
   ----------
   (1)<W 2020-04-28/06, art. 102, 002; Inwerkingtreding : 06-05-2020>
@@ -8838,7 +8959,9 @@ Wanneer op nieuwe aandelen niet gelijktijdig met de beslissing tot uitgifte daar
    De akte vermeldt tevens de naleving van de wettelijke vereisten aangaande de inschrijving en de volstorting van
  aandelen.
 
-   Art. 5:127.Wanneer nieuwe aandelen worden uitgegeven ten gevolge van een conversie van converteerbare
+## Art. 5:127
+
+Wanneer nieuwe aandelen worden uitgegeven ten gevolge van een conversie van converteerbare
  obligaties in aandelen, van een vervanging van obligaties door aandelen overeenkomstig artikel 5:108, 3°, of van
  een inschrijving op aandelen in geval van uitoefening van een inschrijvingsrecht, worden de conversie, de
  vervanging of de inschrijving, de daaruit voortvloeiende inbrengen en het aantal uitgegeven nieuwe aandelen
@@ -8848,7 +8971,6 @@ Wanneer op nieuwe aandelen niet gelijktijdig met de beslissing tot uitgifte daar
  aantal uitgegeven aandelen; zij verleent de hoedanigheid van aandeelhouder [1 ...]1 aan de obligatiehouder wiens
  obligaties werden [1 geconverteerd of vervangen door aandelen]1 en aan de houder van het inschrijvingsrecht
  die zijn recht heeft uitgeoefend.
-Pagina 153 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 103, 002; Inwerkingtreding : 06-05-2020>
 
@@ -8880,7 +9002,9 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
 
   Onderafdeling 2. Beperking en opheffing van het voorkeurrecht.
 
-  Art. 5:130.§ 1. Het voorkeurrecht kan niet door de statuten worden beperkt of opgeheven.
+## Art. 5:130
+
+§ 1. Het voorkeurrecht kan niet door de statuten worden beperkt of opgeheven.
   § 2. Er is geen sprake van een opheffing of beperking van het voorkeurrecht wanneer alle aandeelhouders
  afstand doen van hun voorkeurrecht bij het besluit van de algemene vergadering om nieuwe aandelen uit te
  geven. Alle aandeelhouders van de vennootschap moeten tijdens die vergadering aanwezig of vertegenwoordigd
@@ -8908,7 +9032,9 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 5:131.Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer bepaalde
+## Art. 5:131
+
+Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer bepaalde
  personen die niet behoren tot het personeel, moet de identiteit van de begunstigde of de begunstigden van de
  beperking of de opheffing van het voorkeurrecht worden vermeld in het door het bestuursorgaan op te stellen
  verslag, alsook in de oproeping.
@@ -8921,7 +9047,6 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
  een bedrijfsrevisor of een [1 gecertificeerd accountant]1 aangewezen door het bestuursorgaan.
    Het ontbreken van de verantwoording bedoeld in het tweede lid, of van de beoordeling bedoeld in het derde lid,
  heeft de nietigheid van de in de artikelen 5:121 of 5:122 bedoelde verslagen en van het besluit van de algemene
-Pagina 154 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vergadering tot gevolg.
   Indien een begunstigde effecten van de vennootschap in zijn bezit houdt waaraan meer dan 10 % van de
  stemrechten zijn verbonden mag hij niet deelnemen aan de stemming op de algemene vergadering die tot de
@@ -8949,7 +9074,9 @@ Pagina 154 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 3. Storting van de inbreng in geld.
 
-   Art. 5:132.In geval van inbreng in geld, te storten bij het verlijden van de akte die de uitgifte van nieuwe
+## Art. 5:132
+
+In geval van inbreng in geld, te storten bij het verlijden van de akte die de uitgifte van nieuwe
  aandelen of de aanvaarding van de inbreng door de algemene vergadering vaststelt wordt dat geld tevoren bij
  storting of overschrijving gedeponeerd op een bijzondere rekening, ten name van de vennootschap of bij een in
  de Europese Economische Ruimte gevestigde kredietinstelling als bedoeld in artikel 4, lid 1, punt 1), van
@@ -8992,7 +9119,6 @@ Pagina 154 van 332 Copyright Belgisch S taatsblad 23-01-2026
   In het in het eerste lid bedoelde verslag, waarbij het in het tweede lid bedoelde verslag wordt gevoegd, geeft het
  bestuursorgaan in voorkomend geval aan waarom het van de conclusies van dit laatste verslag afwijkt.
   De hierboven bedoelde verslagen worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en
-Pagina 155 van 332 Copyright Belgisch S taatsblad 23-01-2026
  2:14, 4°. Zij worden in de agenda vermeld. Een kopie ervan kan worden verkregen overeenkomstig artikel 5:84.
    Wanneer de in het eerste lid bedoelde beschrijving en verantwoording door het bestuursorgaan, of van de in
  het tweede lid bedoelde waardering en verklaring van de commissaris of van de bedrijfsrevisor ontbreekt, is het
@@ -9063,10 +9189,11 @@ De statuten kunnen aan het bestuursorgaan de bevoegdheid toekennen om nieuwe aan
  nagestreefde doeleinden in een bijzonder verslag uiteengezet. In voorkomend geval wordt dit verslag in de
  agenda vermeld. Een kopie ervan kan worden verkregen overeenkomstig artikel 5:84. Wanneer dit verslag
  ontbreekt is de beslissing van de oprichters of van de algemene vergadering nietig.
-Pagina 156 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 2. Beperkingen.
 
-   Art. 5:135.Tenzij de machtiging daarin uitdrukkelijk voorziet, kan het bestuursorgaan de bevoegdheid bedoeld in
+## Art. 5:135
+
+Tenzij de machtiging daarin uitdrukkelijk voorziet, kan het bestuursorgaan de bevoegdheid bedoeld in
  artikel 5:134 niet gebruiken voor:
    1° de uitgifte van aandelen, converteerbare obligaties of inschrijvingsrechten met beperking of opheffing van
  het voorkeurrecht overeenkomstig artikel 5:130;
@@ -9099,7 +9226,9 @@ Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 5:134 niet gebruiken vo
   ----------
   (1)<W 2020-04-28/06, art. 106, 002; Inwerkingtreding : 06-05-2020>
 
-   Art. 5:137.§ 1. Bij uitgifte van aandelen [1 , van converteerbare obligaties of van inschrijvingsrechten]1 door het
+## Art. 5:137
+
+§ 1. Bij uitgifte van aandelen [1 , van converteerbare obligaties of van inschrijvingsrechten]1 door het
  bestuursorgaan, zijn de artikelen [1 5:120, § 1, en 5:121 tot 5:133, met uitzondering van artikel 5:130, § 2]1 van
  toepassing.
    Indien de uitgifte van aandelen plaatsvindt tegen een inbreng in natura met toepassing van de procedure
@@ -9123,7 +9252,9 @@ Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 5:134 niet gebruiken vo
 
   Afdeling 5. Garantie en aansprakelijkheid.
 
-  Art. 5:138.Niettegenstaande andersluidende bepaling, zijn de leden van het bestuursorgaan jegens de
+## Art. 5:138
+
+Niettegenstaande andersluidende bepaling, zijn de leden van het bestuursorgaan jegens de
  belanghebbenden hoofdelijk gehouden:
   1° voor de aandelen waarvoor niet op geldige wijze zou zijn ingeschreven overeenkomstig artikel 5:120, § 1,
  tweede lid; zij worden van rechtswege als inschrijvers ervan beschouwd;
@@ -9132,7 +9263,6 @@ Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 5:134 niet gebruiken vo
   3° tot volstorting van de aandelen waarop rechtstreeks of middels certificaten is ingeschreven in strijd met
  artikel [1 5:124]1.
   ----------
-Pagina 157 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 108, 002; Inwerkingtreding : 06-05-2020>
 
 ## Art. 5:139
@@ -9177,7 +9307,9 @@ Geen uitkering mag gebeuren indien het nettoactief van de vennootschap negatief 
  jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor
  onderzoek en ontwikkeling.
 
-  Art. 5:143.Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking nadat het
+## Art. 5:143
+
+Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking nadat het
  bestuursorgaan heeft vastgesteld dat de vennootschap, volgens de redelijkerwijs te verwachten ontwikkelingen,
  na de uitkering in staat zal blijven haar schulden te voldoen naarmate deze opeisbaar worden over een periode
  van ten minste twaalf maanden te rekenen van de datum van de uitkering.
@@ -9190,7 +9322,9 @@ Geen uitkering mag gebeuren indien het nettoactief van de vennootschap negatief 
   ----------
   (1)<W 2020-04-28/06, art. 109, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 5:144.Indien komt vast te staan dat de leden van het bestuursorgaan bij het nemen van het besluit als
+## Art. 5:144
+
+Indien komt vast te staan dat de leden van het bestuursorgaan bij het nemen van het besluit als
  bedoeld in artikel 5:143 wisten of, gezien de omstandigheden, behoorden te weten dat de vennootschap ten
  gevolge van de uitkering kennelijk niet meer in staat zou zijn haar schulden te voldoen zoals bepaald in artikel
  5:143, zijn zij tegenover de vennootschap en derden hoofdelijk aansprakelijk voor alle daaruit voortvloeiende
@@ -9211,7 +9345,6 @@ De vennootschap mag slechts, hetzij rechtstreeks, hetzij door personen die hande
  maar voor rekening van de vennootschap, door aankoop of ruil eigen aandelen of certificaten die daarop
  betrekking hebben, verkrijgen of inschrijven op certificaten na de uitgifte van de daarmee overeenstemmende
  aandelen, onder de volgende voorwaarden:
-Pagina 158 van 332 Copyright Belgisch S taatsblad 23-01-2026
   1° de verkrijging is toegelaten door een voorafgaand besluit van de algemene vergadering van aandeelhouders
  genomen met naleving van de aanwezigheids- en meerderheidsvereisten voorgeschreven voor een
  statutenwijziging;
@@ -9237,7 +9370,9 @@ De aandelen en certificaten verkregen met overtreding van artikel 5:145 zijn van
    Het eerste lid is van toepassing naar evenredigheid van de aandelen en de certificaten van dezelfde soort die de
  vennootschap in haar bezit houdt.
 
-  Art. 5:147.De artikelen [1 5:145]1 en 5:149, eerste lid, zijn niet van toepassing:
+## Art. 5:147
+
+De artikelen [1 5:145]1 en 5:149, eerste lid, zijn niet van toepassing:
   1° op aandelen of certificaten die op de vennootschap overgaan onder algemene titel;
   2° op aandelen of op certificaten verkregen bij een verkoop die overeenkomstig de artikelen 1494 en volgende
  van het Gerechtelijk Wetboek plaatsvindt ter voldoening van een schuld van de eigenaar van die aandelen of
@@ -9265,7 +9400,9 @@ De aandelen en certificaten verkregen met overtreding van artikel 5:145 zijn van
  verbonden aan de aandelen waarop de verkregen certificaten betrekking hebben worden geschorst, voor zover
  deze certificaten met medewerking van de vennootschap werden uitgegeven.
 
-  Art. 5:149.De vennootschap kan de krachtens [1 artikel 5:145]1 verkregen aandelen of certificaten slechts
+## Art. 5:149
+
+De vennootschap kan de krachtens [1 artikel 5:145]1 verkregen aandelen of certificaten slechts
  vervreemden op grond van een besluit genomen met naleving, in voorkomend geval binnen elke soort, van de
  aanwezigheids- en meerderheidsvereisten voorgeschreven voor een statutenwijziging, waarbij de voorwaarden
  voor de vervreemding, in voorkomend geval, per soort of per categorie van effecten worden bepaald.
@@ -9286,7 +9423,6 @@ Wanneer een vennootschap om niet eigenaar wordt van eigen aandelen of certificat
  effecten van rechtswege nietig. Artikel 5:146 is van overeenkomstige toepassing.
 
   Onderafdeling 3. Vermeldingen in de vennootschapsakten.
-Pagina 159 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 5:151
 
 Wanneer de vennootschap eigen aandelen of certificaten verkrijgt, hetzij zelf, hetzij door een
@@ -9360,7 +9496,6 @@ Wanneer de vennootschap eigen aandelen of certificaten verkrijgt, hetzij zelf, h
    § 3. Is de algemene vergadering niet overeenkomstig dit artikel bijeengeroepen, dan wordt de door derden
  geleden schade, behoudens tegenbewijs, geacht uit het ontbreken van een bijeenroeping voort te vloeien.
    § 4. Nadat het bestuursorgaan de verplichtingen bedoeld in paragrafen 1 en 2 een eerste maal heeft nageleefd,
-Pagina 160 van 332 Copyright Belgisch S taatsblad 23-01-2026
  is het gedurende de twaalf maanden volgend op de aanvankelijke bijeenroeping niet meer verplicht de algemene
  vergadering om dezelfde reden opnieuw bijeen te roepen.
 
@@ -9399,7 +9534,9 @@ Pagina 160 van 332 Copyright Belgisch S taatsblad 23-01-2026
    § 3. De uittredingen en de daaruit voortvloeiende statutenwijziging worden, vóór het einde van elk boekjaar,
  vastgesteld bij een authentieke akte verleden op verzoek van het bestuursorgaan.
 
-  Art. 5:155.§ 1. De statuten kunnen bepalen dat de vennootschap een aandeelhouder om een wettige reden of
+## Art. 5:155
+
+§ 1. De statuten kunnen bepalen dat de vennootschap een aandeelhouder om een wettige reden of
  omwille van een andere in de statuten vermelde reden kan uitsluiten. Het gemotiveerde voorstel tot uitsluiting
  wordt hem meegedeeld overeenkomstig artikel 2:32. Heeft de aandeelhouder ervoor gekozen om per post met
  de vennootschap te communiceren, dan wordt het voorstel hem per aangetekende brief meegedeeld.
@@ -9424,14 +9561,15 @@ Pagina 160 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 113 , 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 5:156.§ 1. De statuten kunnen bepalen dat in geval van overlijden, faillissement, kennelijk onvermogen,
+## Art. 5:156
+
+§ 1. De statuten kunnen bepalen dat in geval van overlijden, faillissement, kennelijk onvermogen,
  vereffening of onbekwaamverklaring van een aandeelhouder hij op dat ogenblik van rechtswege wordt geacht uit
  te treden. De aandeelhouder, of, naargelang van het geval, zijn erfgenamen, schuldeisers of vertegenwoordigers
  hebben recht op uitkering van de waarde van zijn scheidingsaandeel overeenkomstig artikel 5:154. [1 In dit geval
  zijn de termijnen als bedoeld in artikel 5:154, § 1, tweede lid, 1° en 2°, niet van toepassing.]1
   De uitgetreden aandeelhouders of, in geval van overlijden, faillissement, kennelijk onvermogen, vereffening of
  onbekwaamverklaring van een aandeelhouder, zijn erfgenamen, schuldeisers of vertegenwoordigers kunnen de
-Pagina 161 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vereffening van de vennootschap niet vorderen.
   § 2. De statuten kunnen bepalen dat de aandeelhouder die niet langer beantwoordt aan de statutaire vereisten
  om aandeelhouder te worden, wordt geacht op dat ogenblik van rechtswege uit te treden. De bepalingen van
@@ -9441,7 +9579,9 @@ Pagina 161 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   TITEL 7. Duur en ontbinding.
 
-  Art. 5:157.Tenzij de statuten anders bepalen, zijn de besloten vennootschappen voor onbepaalde duur
+## Art. 5:157
+
+Tenzij de statuten anders bepalen, zijn de besloten vennootschappen voor onbepaalde duur
  aangegaan.
   Wanneer de duur bepaald is, kan de algemene vergadering besluiten tot verlenging voor een bepaalde of
  onbepaalde duur. Dit besluit vereist een statutenwijziging.
@@ -9451,7 +9591,9 @@ Pagina 161 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   TITEL 8. Strafbepalingen.
 
-  Art. 5:158.Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien met
+## Art. 5:158
+
+Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien met
  gevangenisstraf van één maand tot een jaar kunnen worden gestraft:
   1° de bestuurders bedoeld in artikel 2:51 die het bijzonder verslag samen met het verslag van de commissaris,
  of van de bedrijfsrevisor, niet voorleggen zoals voorgeschreven door de artikelen 5:7 of 5:133;
@@ -9490,7 +9632,9 @@ Pagina 161 van 332 Copyright Belgisch S taatsblad 23-01-2026
  statuten en, in voorkomend geval, aangevuld met een uitvoerigere toelichting in een intern reglement of een
  handvest.
 
-  Art. 6:2.De aandeelhouders van een coöperatieve vennootschap verbinden slechts hun inbreng.
+## Art. 6:2
+
+De aandeelhouders van een coöperatieve vennootschap verbinden slechts hun inbreng.
   [1 De aandeelhouders kunnen in de statuten "aandeelhouders", "vennoten", "coöperanten" of "leden" worden
  genoemd, dan wel een soortgelijke benaming dragen.]1
   ----------
@@ -9504,7 +9648,6 @@ Pagina 161 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 Een coöperatieve vennootschap moet op straffe van nietigheid door minstens drie personen worden
  opgericht.
-Pagina 162 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 2. Aanvangsvermogen.
 
 ## Art. 6:4
@@ -9541,7 +9684,9 @@ De oprichters zien erop toe dat de coöperatieve vennootschap bij de oprichting 
 
   Afdeling 1. Volledige plaatsing.
 
-  Art. 6:6.De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande andersluidende
+## Art. 6:6
+
+De door de vennootschap uitgegeven aandelen moeten volledig en, niettegenstaande andersluidende
  statutaire bepaling, onvoorwaardelijk zijn geplaatst.
   [1 In de in het Frans gestelde statuten mogen voor het Nederlandse begrip "aandeel", de Franse begrippen
  "action" dan wel "part" worden gebruikt.]1
@@ -9580,7 +9725,6 @@ De oprichters zien erop toe dat de coöperatieve vennootschap bij de oprichting 
    § 2. Paragraaf 1 is niet van toepassing wanneer een inbreng in natura plaatsvindt:
    1° in de vorm van effecten of geldmarktinstrumenten zoals bepaald in artikel 2, 31° en 32°, van de wet van 2
  augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, die worden
-Pagina 163 van 332 Copyright Belgisch S taatsblad 23-01-2026
  gewaardeerd tegen de gewogen gemiddelde koers waartegen zij gedurende drie maanden voorafgaand aan de
  daadwerkelijke datum van de verwezenlijking van de inbreng in natura op een of meer gereglementeerde markten
  zoals bepaald in artikel 3, 7°, 8° en 9°, van de wet van 21 november 2017 over de infrastructuren voor de
@@ -9624,7 +9768,9 @@ Pagina 163 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 Tenzij de oprichtingsakte anders bepaalt worden alle inbrengen vanaf de oprichting volledig gestort.
 
-  Art. 6:10.In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
+## Art. 6:10
+
+In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
  van de vennootschap bij storting of overschrijving gedeponeerd op een bijzondere rekening, ten name van de
  vennootschap in oprichting geopend bij een in de Europese Economische Ruimte gevestigde kredietinstelling als
  bedoeld in artikel 4, lid 1, punt 1), van verordening (EU) nr. 575/2013. Een bewijs van die deponering wordt
@@ -9653,7 +9799,6 @@ In geval van overlijden, onbekwaamheid of enige andere vreemde oorzaak waardoor 
  opgeschort voor de hele duur van die onmogelijkheid die deze periode van drie maanden overstijgt.
   De statuten kunnen afwijken van dit artikel.
 
-Pagina 164 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 5. Oprichtingsformaliteiten.
 
 ## Art. 6:12
@@ -9733,7 +9878,6 @@ Niettegenstaande andersluidende bepaling, zijn de oprichters jegens de belangheb
  faillissement uitgesproken binnen drie jaar na de verkrijging van rechtspersoonlijkheid, indien het bedrag van het
  aanvangsvermogen bij de oprichting kennelijk ontoereikend was voor de normale uitoefening van de
  voorgenomen bedrijvigheid over ten minste twee jaar. In dit geval maakt de notaris, op verzoek van de rechtercommissaris of van de procureur des Konings, het in artikel 6:5 voorgeschreven financieel plan aan de rechtbank
-Pagina 165 van 332 Copyright Belgisch S taatsblad 23-01-2026
  over.
 
 ## Art. 6:18
@@ -9746,7 +9890,9 @@ Zij die een verbintenis voor derden hebben aangegaan, worden geacht persoonlijk 
 
   HOOFDSTUK 1. Algemene bepalingen.
 
-  Art. 6:19.Een coöperatieve vennootschap kan enkel aandelen op naam met stemrecht en obligaties uitgeven.
+## Art. 6:19
+
+Een coöperatieve vennootschap kan enkel aandelen op naam met stemrecht en obligaties uitgeven.
  Haar effecten kunnen niet worden gecertificeerd.
   De obligaties zijn op naam of, indien de statuten dit toelaten, gedematerialiseerd.
   De coöperatieve vennootschappen die gereglementeerde ondernemingen zijn zoals bedoeld in artikel 3, 42°,
@@ -9799,7 +9945,9 @@ Op de zetel van de vennootschap wordt een register gehouden voor elke categorie 
  bestuursorgaan kan beslissen dat het register wordt aangehouden in elektronische vorm. De Koning kan
  voorwaarden opleggen waaraan het elektronische register dient te voldoen.
 
-   Art. 6:25.Het register van aandelen op naam vermeldt:
+## Art. 6:25
+
+Het register van aandelen op naam vermeldt:
    1° het totale aantal door de vennootschap uitgegeven aandelen en, in voorkomend geval, het totale aantal per
  soort;
    2° voor natuurlijke personen naam en woonplaats en voor rechtspersonen naam [1 en zetel]1 van elke
@@ -9814,7 +9962,6 @@ Op de zetel van de vennootschap wordt een register gehouden voor elke categorie 
  12°, van de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende
  elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot
  intrekking van Richtlijn 1999/93/EG]2;
-Pagina 166 van 332 Copyright Belgisch S taatsblad 23-01-2026
    7° de aan elk aandeel verbonden stemrechten en winstrechten evenals hun aandeel in het vereffeningssaldo,
  indien dat afwijkt van hun winstrechten.
    In geval van tegenstrijdigheid tussen de statuten en het aandelenregister, gelden de statuten.
@@ -9857,7 +10004,9 @@ Hij die in een register van effecten op naam staat ingeschreven als houder van e
 
   Afdeling 2. Gedematerialiseerde effecten.
 
-   Art. 6:29.Het gedematerialiseerd effect wordt vertegenwoordigd door een boeking op rekening, op naam van
+## Art. 6:29
+
+Het gedematerialiseerd effect wordt vertegenwoordigd door een boeking op rekening, op naam van
  de eigenaar of de houder, [2 bij een centrale effectenbewaarinstelling]2 of bij een erkende rekeninghouder.
    [3 De centrale effectenbewaarinstelling en de erkende rekeninghouder kunnen de in het eerste lid bedoelde
  rekening aanhouden in of door middel van beveiligde mechanismen voor elektronische registratie, met inbegrip
@@ -9888,7 +10037,6 @@ Hij die in een register van effecten op naam staat ingeschreven als houder van e
  de erkende rekeninghouders maakt de Nationale Bank van België:
    1° ten aanzien van kredietinstellingen gebruik van de bevoegdheden die haar worden toegekend door de wet
  van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen;
-Pagina 167 van 332 Copyright Belgisch S taatsblad 23-01-2026
   2° [2 ten aanzien van beursvennootschappen]2 gebruik van de bevoegdheden die haar werden toegekend door
  de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen;
   3° [2 ten aanzien van centrale tegenpartijen en centrale effectenbewaarinstellingen gebruik van de
@@ -9901,7 +10049,9 @@ Pagina 167 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2021-06-27/09, art. 313, 006; Inwerkingtreding : 19-07-2021>
   (3)<W 2021-06-27/09, art. 412, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 6:30.De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
+## Art. 6:30
+
+De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
  van derden en voor eigen rekening bij op rekeningen [1 bij de centrale effectenbewaarinstelling]1, bij één of
  meerdere instellingen die voor hen rechtstreeks of onrechtstreeks als tussenpersoon [1 ten opzichte van die
  centrale effectenbewaarinstelling]1 optreden, of tegelijk [1 bij de centrale effectenbewaarinstelling]1 en één of
@@ -9927,7 +10077,9 @@ Een pand op gedematerialiseerde effecten wordt gevestigd overeenkomstig de wet v
  de geldigheid van het pand onderworpen aan de machtiging van de eigenaar voor de inpandgeving van deze
  effecten.
 
-   Art. 6:32.De eigenaars van gedematerialiseerde effecten bedoeld in artikel 6:30 kunnen hun rechten van medeeigendom bedoeld in artikel 6:29, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
+## Art. 6:32
+
+De eigenaars van gedematerialiseerde effecten bedoeld in artikel 6:30 kunnen hun rechten van medeeigendom bedoeld in artikel 6:29, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
  effecten op rekening werden geboekt of, indien zij die effecten rechtstreeks aanhouden bij [1 de centrale
  effectenbewaarinstelling]1, jegens deze laatste. Bij wijze van uitzondering kunnen zij:
    1° een recht van terugvordering uitoefenen overeenkomstig de bepalingen van dit artikel en artikel 9bis, tweede
@@ -9957,7 +10109,6 @@ Een pand op gedematerialiseerde effecten wordt gevestigd overeenkomstig de wet v
  heeft laten inschrijven op zijn naam of op naam van een derde persoon, mag de eigenaar voor rekening waarvan
  deze inschrijving is genomen, van de erkende rekeninghouder of van het vereffeningsstelsel het tegoed
  terugvorderen dat op naam van deze tussenpersoon of derde persoon is ingeschreven. Deze terugvordering
-Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
  wordt uitgeoefend volgens de in het eerste tot vierde lid omschreven regels.
   De teruggave van de in artikel 6:30 bedoelde gedematerialiseerde effecten gebeurt door overschrijving op een
  effectenrekening bij een andere erkende rekeninghouder, aangewezen door de persoon die het
@@ -9966,7 +10117,9 @@ Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
   (2)<W 2023-12-20/08, art. 91, 016; Inwerkingtreding : 25-01-2024>
 
-  Art. 6:33.Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
+## Art. 6:33
+
+Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
  van een erkende rekeninghouder bij [1 de centrale effectenbewaarinstelling]1 of, in voorkomend geval, bij de
  erkende rekeninghouder wanneer artikel 6:38 wordt toegepast.
   Onverminderd de toepassing van artikel 6:32 mogen de schuldeisers van de eigenaar van de effecten, in geval
@@ -9980,7 +10133,9 @@ Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 6:34.De betaling van vervallen interesten en kapitalen van gedematerialiseerde effecten [1 aan de centrale
+## Art. 6:34
+
+De betaling van vervallen interesten en kapitalen van gedematerialiseerde effecten [1 aan de centrale
  effectenbewaarinstelling]1 of, in voorkomend geval, aan de erkende rekeninghouder wanneer artikel 6:38 wordt
  toegepast, is bevrijdend voor de uitgever.
   [1 De centrale effectenbewaarinstelling]1 of, in voorkomend geval, de erkende rekeninghouder wanneer artikel
@@ -9991,7 +10146,9 @@ Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 316, 006; Inwerkingtreding : 19-07-2021>
 
-   Art. 6:35.Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
+## Art. 6:35
+
+Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
  verhaal in geval van faillissement van de emittent ervan of in alle andere gevallen van samenloop tegen deze
  laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
  effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
@@ -9999,19 +10156,25 @@ Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 6:36.Met het oog op de uitvoering van de artikelen 6:30 tot 6:35, kan de Koning de voorwaarden bepalen
+## Art. 6:36
+
+Met het oog op de uitvoering van de artikelen 6:30 tot 6:35, kan de Koning de voorwaarden bepalen
  waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de rekeningen, de aard van
  de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
  vervallen interesten en kapitalen door de erkende rekeninghouders en [1 de centrale effectenbewaarinstelling]1.
   ----------
   (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 6:37.[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
+## Art. 6:37
+
+[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
  bedoeld in deze afdeling.
   ----------
   (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
-  Art. 6:38.Behalve voor effecten die worden toegelaten tot de verhandeling op een gerelementeerde markt,
+## Art. 6:38
+
+Behalve voor effecten die worden toegelaten tot de verhandeling op een gerelementeerde markt,
  gelden de bepalingen van deze afdeling tevens voor effecten ingeschreven op een rekening bij een erkende
  rekeninghouder die die rekeninghouder niet bijhoudt [1 bij een centrale effectenbewaarinstelling of bij een
  onderneming die ten opzichte van die centrale effectenbewaarinstelling als tussenpersoon optreedt]1.
@@ -10025,7 +10188,6 @@ Pagina 168 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 318, 006; Inwerkingtreding : 19-07-2021>
 
-Pagina 169 van 332 Copyright Belgisch S taatsblad 23-01-2026
   HOOFDSTUK 3. Categorieën van effecten.
 
   Afdeling 1. Aandelen.
@@ -10114,7 +10276,6 @@ De coöperatieve vennootschap kan een overeenkomst van lening aangaan in de vorm
  zonder de identiteit van deze laatste bekend te maken.
   § 2. Bovendien kunnen de uitgiftevoorwaarden of de algemene vergadering van obligatiehouders bepalen dat
  deze vertegenwoordiger tevens optreedt, in eigen naam, maar voor rekening van de obligatiehouders als
-Pagina 170 van 332 Copyright Belgisch S taatsblad 23-01-2026
  begunstigde van voorrechten of zekerheden gevestigd tot waarborg van de obligatielening.
   De vertegenwoordigers kunnen alle bevoegdheden uitoefenen van de obligatiehouders voor wier rekening zij
  optreden. De vertegenwoordiging en de door de vertegenwoordiger verrichte handelingen kunnen worden
@@ -10146,7 +10307,9 @@ In de overeenkomst van lening, aangegaan in de vorm van uitgifte van obligaties,
 
   Afdeling 1. Algemene bepalingen.
 
-   Art. 6:50.De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen recht.
+## Art. 6:50
+
+De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen recht.
    Een overdracht of overgang van effecten op naam kan aan de vennootschap en aan derden slechts worden
  tegengeworpen door een verklaring van overdracht, ingeschreven in het register van de betrokken effecten en
  gedagtekend en ondertekend door de overdrager en de overnemer of door hun gevolmachtigden in geval van
@@ -10182,7 +10345,9 @@ Een coöperatieve vennootschap mag hetzij zelf, hetzij door een dochtervennootsc
    Het eerste lid is niet van toepassing op de verkrijging of inpandneming van aandelen door een vennootschap die
  in haar hoedanigheid van professionele effectenhandelaar, een beursvennootschap of een kredietinstelling is.
 
-  Art. 6:54.Aan derden kunnen de aandelen slechts worden overgedragen indien zij behoren tot de door de
+## Art. 6:54
+
+Aan derden kunnen de aandelen slechts worden overgedragen indien zij behoren tot de door de
  statuten bepaalde categorieën en voldoen aan de statutaire vereisten om aandeelhouder te worden. Het
  bestuursorgaan is bevoegd om hierover te beslissen, tenzij de statuten bepalen dat deze bevoegdheid bij de
  algemene vergadering ligt. De statuten kunnen bepalen dat het bevoegde orgaan een kandidaat verwerver kan
@@ -10191,7 +10356,6 @@ Een coöperatieve vennootschap mag hetzij zelf, hetzij door een dochtervennootsc
  worden tegengeworpen, ongeacht de goede of kwade trouw van de overnemer [1 ...]1.
   ----------
   (1)<W 2020-04-28/06, art. 123, 002; Inwerkingtreding : 06-05-2020>
-Pagina 171 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 6:55
 
 In geval van overdracht van een niet volgestort aandeel, zijn de overdrager en de overnemer,
@@ -10204,7 +10368,9 @@ In geval van overdracht van een niet volgestort aandeel, zijn de overdrager en d
 
   Afdeling 3. Beperkingen op de vrije overdraagbaarheid van effecten.
 
-   Art. 6:56.[1 De statuten of overeenkomsten]1 kunnen perken stellen aan de overdraagbaarheid, onder de
+## Art. 6:56
+
+[1 De statuten of overeenkomsten]1 kunnen perken stellen aan de overdraagbaarheid, onder de
  levenden of bij overlijden, van aandelen. [1 Overeenkomsten]1 mogen de wettelijke of statutaire voorwaarden
  voor hun overdracht niet versoepelen.
    [1 Een overdracht in strijd met overdrachtsbeperkingen die in regelmatig openbaar gemaakte statuten zijn
@@ -10267,7 +10433,6 @@ Wanneer de bestuurders een collegiaal orgaan vormen als bedoeld in artikel 6:61,
  bevestiging volbrengt de gecoöpteerde bestuurder het mandaat van zijn voorganger, tenzij de algemene
  vergadering er anders over beslist. Bij gebrek aan bevestiging eindigt het mandaat van de gecoöpteerde
  bestuurder na afloop van de algemene vergadering, zonder dat dit afbreuk doet aan de regelmatigheid van de
-Pagina 172 van 332 Copyright Belgisch S taatsblad 23-01-2026
  samenstelling van het bestuursorgaan tot op dat ogenblik.
 
   Afdeling 2. Bezoldiging.
@@ -10346,7 +10511,6 @@ De notulen van de vergaderingen van een collegiaal bestuursorgaan worden onderte
   Bovendien zijn de paragrafen 1 tot 3 niet van toepassing wanneer de beslissingen van het bestuursorgaan
  betrekking hebben op gebruikelijke verrichtingen die plaatshebben onder de voorwaarden en tegen de
  zekerheden die op de markt gewoonlijk gelden voor soortgelijke verrichtingen.
-Pagina 173 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 6:65
 
 § 1. De andere bestuurders of de algemene vergadering omschrijven in de notulen of in een bijzonder
@@ -10373,7 +10537,9 @@ Onverminderd artikel 2:56, zijn de bestuurders persoonlijk en hoofdelijk aanspra
 
   Afdeling 4. Dagelijks bestuur.
 
-  Art. 6:67.Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vertegenwoordiging
+## Art. 6:67
+
+Het bestuursorgaan kan het dagelijks bestuur van de vennootschap, alsook de vertegenwoordiging
  van de vennootschap wat dat bestuur aangaat, opdragen aan een of meer personen, die elk alleen, gezamenlijk
  of als college optreden. [1 ...]1 Het bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld is
  belast met het toezicht op dit orgaan.
@@ -10401,7 +10567,9 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
 
   Onderafdeling 2. Bevoegdheden.
 
-  Art. 6:69.§ 1. De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
+## Art. 6:69
+
+§ 1. De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
  toewijst.
   De statuten kunnen de bevoegdheden van de algemene vergadering uitbreiden. Zodanige uitbreiding kan niet
  aan derden worden tegengeworpen [1 ook al is ze openbaar gemaakt]1.
@@ -10422,7 +10590,6 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
  ten minste de door de betrokken aandeelhouders voorgestelde agendapunten.
   De bijeenroeping tot de algemene vergadering vermeldt de agenda met de te behandelen onderwerpen.
   Zij wordt ten minste vijftien dagen vóór de vergadering meegedeeld overeenkomstig artikel 2:32 aan de
-Pagina 174 van 332 Copyright Belgisch S taatsblad 23-01-2026
  aandeelhouders, de leden van het bestuursorgaan, en, in voorkomend geval, de commissaris, tenzij de statuten
  of het intern reglement andere bijeenroepingsformaliteiten bepalen.
   § 2. De statuten kunnen bepalen dat de vennootschap, samen met de oproepingsbrief voor de algemene
@@ -10432,7 +10599,9 @@ Pagina 174 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 4. Schriftelijke algemene vergadering.
 
-  Art. 6:71.De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van de
+## Art. 6:71
+
+De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van de
  algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. In dat geval dienen de
  formaliteiten van bijeenroeping niet te worden nageleefd. De leden van het bestuursorgaan en de commissaris
  mogen op hun verzoek van die besluiten kennisnemen.
@@ -10459,7 +10628,9 @@ De statuten bepalen welke formaliteiten moeten worden vervuld om tot de algemene
  worden ook toegelaten tot elke volgende algemene vergadering met dezelfde agendapunten, tenzij de
  vennootschap op de hoogte wordt gesteld van een overdracht van de betrokken aandelen.
 
-  Art. 6:75.§ 1. [1 Het bestuursorgaan kan]1 de aandeelhouders de mogelijkheid bieden om op afstand deel te
+## Art. 6:75
+
+§ 1. [1 Het bestuursorgaan kan]1 de aandeelhouders de mogelijkheid bieden om op afstand deel te
  nemen aan de algemene vergadering door middel van een door de vennootschap ter beschikking gesteld
  elektronisch communicatiemiddel. Wat de naleving van de voorwaarden inzake aanwezigheid en meerderheid
  betreft, worden de aandeelhouders die op die manier aan de algemene vergadering deelnemen, geacht aanwezig
@@ -10495,12 +10666,13 @@ De statuten bepalen welke formaliteiten moeten worden vervuld om tot de algemene
  wijze.
   ----------
   (1)<W 2020-12-20/02, art. 27, 005; Inwerkingtreding : 24-12-2020>
-Pagina 175 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2020-12-20/02, art. 28, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
   Onderafdeling 6. Verloop van de algemene vergadering.
 
-   Art. 6:76.Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
+## Art. 6:76
+
+Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
  inzage krijgen in deze lijst.]1
    ----------
    (1)<W 2020-04-28/06, art. 128, 002; Inwerkingtreding : 06-05-2020>
@@ -10577,7 +10749,6 @@ De algemene vergadering hoort in voorkomend geval, het jaarverslag, het jaarvers
  voorschrijft en behandelt de jaarrekening.
   Na de goedkeuring van de jaarrekening, beslist de algemene vergadering bij afzonderlijke stemming over de aan
  de bestuurders en commissaris te verlenen kwijting. Deze kwijting is alleen dan rechtsgeldig, wanneer de ware
-Pagina 176 van 332 Copyright Belgisch S taatsblad 23-01-2026
  toestand van de vennootschap niet wordt verborgen door enige weglating of onjuiste opgave in de jaarrekening,
  en, wat de met de statuten of met dit wetboek strijdige verrichtingen betreft, wanneer deze bepaaldelijk zijn
  aangegeven in de oproeping.
@@ -10593,7 +10764,9 @@ Het bestuursorgaan heeft het recht, tijdens de zitting, de beslissing over de go
 
   Onderafdeling 1. Statutenwijziging: algemeen.
 
-   Art. 6:85.[1 De algemene vergadering heeft het recht om wijzigingen aan te brengen in de statuten.]1
+## Art. 6:85
+
+[1 De algemene vergadering heeft het recht om wijzigingen aan te brengen in de statuten.]1
     De algemene vergadering kan over wijzigingen in de statuten alleen dan geldig beraadslagen en besluiten, en
  behoudens andersluidende statutaire bepaling, wanneer de voorgestelde wijzigingen nauwkeurig zijn aangegeven
  in de oproeping en wanneer de aanwezige of vertegenwoordigde aandeelhouders ten minste de helft van het
@@ -10629,7 +10802,9 @@ Indien wordt voorgesteld het voorwerp, de doelen, de finaliteit of de waarden va
 
   Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen.
 
-  Art. 6:87.De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
+## Art. 6:87
+
+De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
  nieuwe soorten van aandelen goedkeuren, één of meer soorten afschaffen, de rechten verbonden aan een soort
  van aandelen gelijkstellen met de rechten van een andere soort, of de rechten verbonden aan een soort
  rechtstreeks of onrechtstreeks wijzigen. De wijziging van het aantal aandelen van een bestaande soort die niet
@@ -10650,7 +10825,6 @@ Indien wordt voorgesteld het voorwerp, de doelen, de finaliteit of de waarden va
  worden toegelaten tot de besluitvorming en de stemming in de betrokken soort, waarbij de stemmen worden
  geteld op basis van één stem voor het kleinste ondereffect.
   ----------
-Pagina 177 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
   HOOFDSTUK 3. Vennootschapsvordering en minderheidsvordering.
@@ -10731,7 +10905,6 @@ De algemene vergadering van obligatiehouders is bevoegd om de uitgiftevoorwaarde
  tenzij de algemene vergadering van aandeelhouders vooraf haar toestemming heeft gegeven met inachtneming
  van de voorschriften voor statutenwijziging;
    4° regelingen te aanvaarden om bijzondere zekerheden te stellen ten gunste van de obligatiehouders of de
-Pagina 178 van 332 Copyright Belgisch S taatsblad 23-01-2026
  reeds gestelde zekerheden te wijzigen of op te heffen.
 
 ## Art. 6:94
@@ -10774,7 +10947,9 @@ Het bestuursorgaan en, in voorkomend geval, de commissaris, kunnen een algemene 
 De statuten bepalen de formaliteiten die moeten worden vervuld om tot de algemene vergadering van
  obligatiehouders te worden toegelaten.
 
-  Art. 6:98.[1 Het bestuursorgaan kan]1 de in artikel 6:75 bedoelde regeling voor deelname op afstand, onder
+## Art. 6:98
+
+[1 Het bestuursorgaan kan]1 de in artikel 6:75 bedoelde regeling voor deelname op afstand, onder
  dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
   ----------
   (1)<W 2020-12-20/02, art. 29, 005; Inwerkingtreding : 24-12-2020>
@@ -10818,7 +10993,6 @@ Mits inachtneming van de oproepingsformaliteiten bedoeld in de artikelen 6:95 en
  besluiten die tot de bevoegdheid van de algemene vergadering van obligatiehouders behoren via elektronische
  weg of via schriftelijk akkoord worden genomen. Een besluit is in dat geval alleen dan aangenomen wanneer het
  akkoord wordt verkregen, via elektronische weg of via schriftelijk akkoord, van obligatiehouders die ten minste
-Pagina 179 van 332 Copyright Belgisch S taatsblad 23-01-2026
  drie vierde vertegenwoordigen van het bedrag van de bestaande obligaties.
   De Koning kan de aard en de toepassingsvoorwaarden van de in het eerste lid bedoelde elektronische weg en
  het te verkrijgen schriftelijk akkoord verduidelijken.
@@ -10901,7 +11075,6 @@ Tenzij de statuten anders bepalen, moeten aandelen bij hun uitgifte worden volge
  tegenprestatie voor de inbreng wordt verstrekt. Het bestuursorgaan deelt dit verslag in ontwerp mee aan de
  commissaris of, als er geen commissaris is, een door het bestuursorgaan aangestelde bedrijfsrevisor.
   De commissaris of, als er geen commissaris is, een bedrijfsrevisor aangewezen door het bestuursorgaan,
-Pagina 180 van 332 Copyright Belgisch S taatsblad 23-01-2026
  onderzoekt in het in artikel 6:108, § 2, bedoelde verslag de door het bestuursorgaan gegeven beschrijving van
  elke inbreng in natura, de toegepaste waardering en de daartoe aangewende waarderingsmethoden. Het verslag
  moet aangeven of de waarden waartoe de toegepaste methoden leiden, ten minste overeenkomen met de
@@ -10970,7 +11143,6 @@ Pagina 180 van 332 Copyright Belgisch S taatsblad 23-01-2026
  neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 4°, die de datum van het besluit tot
  uitgifte alsook de in paragraaf 3 bedoelde informatie bevat. In dat geval houdt de in paragraaf 3 bedoelde
  verklaring enkel in dat zich sinds de openbaarmaking van de aankondiging geen nieuwe bijzondere
-Pagina 181 van 332 Copyright Belgisch S taatsblad 23-01-2026
  omstandigheden hebben voorgedaan.
 
   Afdeling 3. Garantie en aansprakelijkheid.
@@ -11038,7 +11210,9 @@ Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking n
  boekhoudkundige en financiële gegevens van dit verslag. De commissaris vermeldt in zijn jaarlijks controleverslag
  dat hij deze opdracht heeft uitgevoerd.
 
-  Art. 6:117.Indien komt vast te staan dat de leden van het bestuursorgaan bij het nemen van het besluit als
+## Art. 6:117
+
+Indien komt vast te staan dat de leden van het bestuursorgaan bij het nemen van het besluit als
  bedoeld in artikel 6:116 wisten of, gezien de omstandigheden, behoorden te weten dat de vennootschap ten
  gevolge van de uitkering redelijk niet meer in staat zou zijn haar schulden te voldoen zoals bepaald in artikel
  6:116, zijn zij tegenover de vennootschap en derden hoofdelijk aansprakelijk voor alle daaruit voortvloeiende
@@ -11051,7 +11225,6 @@ Het besluit van de algemene vergadering tot uitkering heeft slechts uitwerking n
 
   Afdeling 2. Financiering van de verkrijging van aandelen van de vennootschap door derden.
 
-Pagina 182 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 6:118
 
 § 1. De vennootschap mag slechts middelen voorschieten, leningen toestaan of zekerheden stellen
@@ -11126,7 +11299,6 @@ Pagina 182 van 332 Copyright Belgisch S taatsblad 23-01-2026
   6° het bedrag waarop de aandeelhouder recht heeft bij een uittreding een uitkering is als bedoeld in de artikelen
  6:115 en 6:116.
   Niettegenstaande andersluidende statutaire bepaling wordt, indien het scheidingsaandeel bedoeld in het tweede
-Pagina 183 van 332 Copyright Belgisch S taatsblad 23-01-2026
  lid, 6°, met toepassing van de artikelen 6:115 en 6:116 niet of niet geheel kan worden uitgekeerd, het recht op
  betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Het op het scheidingsaandeel nog
  verschuldigde bedrag wordt uitgekeerd vóór elke andere uitkering aan aandeelhouders. Op dit bedrag is geen
@@ -11161,7 +11333,9 @@ De statuten kunnen bepalen dat de aandeelhouder die niet langer beantwoordt aan 
 
   Afdeling 3. Uitsluiting.
 
-  Art. 6:123.§ 1. Niettegenstaande andersluidende statutaire bepaling, kan de vennootschap een aandeelhouder
+## Art. 6:123
+
+§ 1. Niettegenstaande andersluidende statutaire bepaling, kan de vennootschap een aandeelhouder
  uitsluiten om een wettige reden. De statuten kunnen bijkomende redenen tot uitsluiting bepalen. Het
  gemotiveerde voorstel tot uitsluiting wordt hem meegedeeld overeenkomstig artikel 2:32. Heeft de
  aandeelhouder ervoor gekozen om per post met de vennootschap te communiceren, dan wordt het voorstel
@@ -11197,11 +11371,12 @@ Het jaarverslag, of, bij gebrek daaraan, een stuk dat samen met de jaarrekening 
 
   TITEL 7. Duur en ontbinding.
 
-  Art. 6:125.Tenzij de statuten anders bepalen, zijn de coöperatieve vennootschappen voor onbepaalde duur
+## Art. 6:125
+
+Tenzij de statuten anders bepalen, zijn de coöperatieve vennootschappen voor onbepaalde duur
  aangegaan.
   Wanneer de duur bepaald is, kan de algemene vergadering besluiten tot verlenging voor een bepaalde of
  onbepaalde duur. Dit besluit vereist een statutenwijziging.
-Pagina 184 van 332 Copyright Belgisch S taatsblad 23-01-2026
   [1 ...]1
   ----------
   (1)<W 2020-04-28/06, art. 132, 002; Inwerkingtreding : 06-05-2020>
@@ -11224,7 +11399,9 @@ De ondernemingsrechtbank kan op verzoek van een aandeelhouder, van een belangheb
 
   TITEL 8. Strafbepalingen.
 
-  Art. 6:128.Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien met
+## Art. 6:128
+
+Met geldboete van vijftig euro tot tienduizend euro worden gestraft en bovendien met
  gevangenisstraf van één maand tot een jaar kunnen worden gestraft:
   1° de bestuurders bedoeld in artikel 2:51 die het bijzonder verslag samen met het verslag van de commissaris
  of van de bedrijfsrevisor, niet voorleggen zoals voorgeschreven door de artikelen 6:8 en 6:110;
@@ -11280,7 +11457,6 @@ Het kapitaal mag niet minder bedragen dan 61 500 euro.
   HOOFDSTUK 2. Plaatsing van het kapitaal.
 
   Afdeling 1. Volledige plaatsing.
-Pagina 185 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:4
 
 Het kapitaal van de vennootschap moet volledig en, niettegenstaande andersluidende bepaling,
@@ -11356,7 +11532,6 @@ Inbreng in natura komt slechts in aanmerking voor vergoeding met aandelen die he
    § 3. In de gevallen van paragraaf 2 waarin de inbreng plaatsvindt zonder toepassing van paragraaf 1, legt het
  bestuursorgaan binnen één maand na de effectieve datum van de inbreng van het vermogensbestanddeel een
  verklaring neer en maakt deze bekend overeenkomstig de artikelen 2:8 en 2:14, 4°, waarin de volgende
-Pagina 186 van 332 Copyright Belgisch S taatsblad 23-01-2026
  inlichtingen worden vermeld:
    1° een beschrijving van de desbetreffende inbreng in natura;
    2° de naam van de inbrenger;
@@ -11431,7 +11606,6 @@ Artikel 7:8 is niet van toepassing op verkrijgingen in het gewone bedrijf van de
  of geldmarktinstrumenten niet meer liquide is;
   2° op de in paragraaf 2, eerste lid, 2° en 3°, bepaalde gevallen indien nieuwe bijzondere omstandigheden
  zouden leiden tot een aanzienlijke wijziging van de waarde in het economisch verkeer van het
-Pagina 187 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vermogensbestanddeel op de effectieve datum van de quasi-inbreng ervan.
   Bij het ontbreken van een herwaardering zoals bedoeld in paragraaf 2, tweede lid, 2°, kunnen één of meer
  aandeelhouders die op de dag dat het besluit tot quasi-inbreng wordt genomen gezamenlijk ten minste 5 % van
@@ -11464,7 +11638,9 @@ Vanaf de oprichting van de vennootschap moet het kapitaal zijn volgestort ten be
   2° moeten de aandelen die geheel of ten dele inbrengen in natura vertegenwoordigen, volgestort zijn binnen
  een termijn van vijf jaar na de oprichting van de vennootschap.
 
-  Art. 7:12.In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
+## Art. 7:12
+
+In geval van inbreng in geld, te storten bij het verlijden van de akte, wordt dat geld vóór de oprichting
  van de vennootschap bij storting of overschrijving gedeponeerd op een bijzondere rekening, ten name van de
  vennootschap in oprichting geopend bij een in de Europese Economische Ruimte gevestigde kredietinstelling als
  bedoeld in artikel 4, lid 1, punt 1), van verordening (EU) nr. 575/2013. Een bewijs van die deponering wordt
@@ -11506,7 +11682,6 @@ Naast de gegevens opgenomen in het uittreksel bestemd voor bekendmaking overeenk
  de leden van de organen belast met het bestuur en, in voorkomend geval, het dagelijks bestuur, de
  vertegenwoordiging tegenover derden evenals de verdeling van de bevoegdheden tussen die organen;
   4° het aantal en de nominale waarde van de aandelen of, indien ze zijn uitgegeven zonder vermelding van
-Pagina 188 van 332 Copyright Belgisch S taatsblad 23-01-2026
  nominale waarde, hun aantal alleen, evenals eventueel de bijzondere voorwaarden die hun overdracht beperken
  en, indien er verschillende soorten aandelen bestaan, dezelfde gegevens voor elk der soorten en de rechten die
  aan de aandelen van elke soort zijn verbonden;
@@ -11589,7 +11764,6 @@ Niettegenstaande andersluidende bepaling zijn de bestuurders jegens belanghebben
 ## Art. 7:21
 
 Zij die een verbintenis voor derden zijn aangegaan, hetzij als lasthebber, hetzij door zich voor hen
-Pagina 189 van 332 Copyright Belgisch S taatsblad 23-01-2026
  sterk te maken, worden geacht persoonlijk verbonden te zijn, indien er geen geldige lastgeving bestaat of indien
  de verbintenis niet is bekrachtigd binnen twee maanden nadat ze is aangegaan; deze termijn wordt verminderd
  tot vijftien dagen, indien de namen van de personen voor wie de verbintenis is aangegaan, niet zijn opgegeven.
@@ -11650,7 +11824,9 @@ Op de zetel van de vennootschap wordt een register gehouden voor elke categorie 
  kan beslissen dat het register wordt aangehouden in elektronische vorm. De Koning kan voorwaarden opleggen
  waaraan het elektronische register dient te voldoen.
 
-   Art. 7:29.Het register van aandelen op naam vermeldt:
+## Art. 7:29
+
+Het register van aandelen op naam vermeldt:
    1° het totale aantal door de vennootschap uitgegeven aandelen en, in voorkomend geval, het totale aantal per
  soort;
    2° voor natuurlijke personen naam en woonplaats en voor rechtspersonen naam [1 en zetel]1 van elke
@@ -11672,14 +11848,15 @@ Op de zetel van de vennootschap wordt een register gehouden voor elke categorie 
    (1)<W 2020-04-28/06, art. 134, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2021-07-12/01, art. 21, 007; Inwerkingtreding : 25-07-2021>
 
-Pagina 190 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:30
 
 De vennootschap houdt op haar zetel een register voor elke categorie van effecten op naam die
  toegang geven tot aandelen. Artikel 7:29, met uitzondering van het eerste lid, 4° en 7°, is van overeenkomstige
  toepassing.
 
-  Art. 7:31.[1 Het register van de winstbewijzen op naam vermeldt:
+## Art. 7:31
+
+[1 Het register van de winstbewijzen op naam vermeldt:
    1° het totale aantal door de vennootschap uitgegeven winstbewijzen en, in voorkomend geval, het totale aantal
  per soort;
    2° voor natuurlijke personen, naam en woonplaats, en voor rechtspersonen naam en zetel van elke
@@ -11741,14 +11918,15 @@ Hij die in een register van effecten op naam staat ingeschreven als houder van e
 
   Afdeling 2. Gedematerialiseerde effecten.
 
-  Art. 7:35.Het gedematerialiseerde effect wordt vertegenwoordigd door een boeking op rekening, op naam van
+## Art. 7:35
+
+Het gedematerialiseerde effect wordt vertegenwoordigd door een boeking op rekening, op naam van
  de eigenaar of de houder, [2 bij een centrale effectenbewaarinstelling]2 of bij een erkende rekeninghouder.
   [3 De centrale effectenbewaarinstelling en de erkende rekeninghouder kunnen de in het eerste lid bedoelde
  rekening aanhouden in of door middel van beveiligde mechanismen voor elektronische registratie, met inbegrip
  van mechanismen voor gedistribueerde elektronische registratie. De Koning kan de voorwaarden bepalen
  waaraan dergelijke beveiligde mechanismen voor elektronische registratie dienen te voldoen.]3
   [2 De Nationale Bank van België, in haar hoedanigheid van centrale effectenbewaarinstelling of enige andere
-Pagina 191 van 332 Copyright Belgisch S taatsblad 23-01-2026
  centrale effectenbewaarinstelling die een vergunning bezit of erkend is krachtens Verordening (EU) nr. 909/2014
  van het Europees Parlement en de Raad van 23 juli 2014 betreffende de verbetering van de effectenafwikkeling
  in de Europese Unie, betreffende centrale effectenbewaarinstellingen en tot wijziging van richtlijnen 98/26/EG en
@@ -11785,7 +11963,9 @@ Pagina 191 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (2)<W 2021-06-27/09, art. 319, 006; Inwerkingtreding : 19-07-2021>
    (3)<W 2021-06-27/09, art. 413, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:36.De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
+## Art. 7:36
+
+De erkende rekeninghouders houden de gedematerialiseerde effecten die zij houden voor rekening
  van derden en voor eigen rekening bij op rekeningen [1 bij de centrale effectenbewaarinstelling]1, bij één of
  meerdere instellingen die voor hen rechtstreeks of onrechtstreeks als tussenpersoon [1 ten opzichte van die
  centrale effectenbewaarinstelling]1 optreden, of [1 tegelijk bij de centrale effectenbewaarinstelling]1 en één of
@@ -11811,12 +11991,13 @@ Een pand op gedematerialiseerde effecten wordt gevestigd overeenkomstig de wet v
  de geldigheid van het pand onderworpen aan de machtiging van de eigenaar voor de inpandgeving van deze
  effecten.
 
-  Art. 7:38.De eigenaars van gedematerialiseerde effecten bedoeld in artikel 7:36 kunnen hun rechten van medeeigendom bedoeld in artikel 7:35, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
+## Art. 7:38
+
+De eigenaars van gedematerialiseerde effecten bedoeld in artikel 7:36 kunnen hun rechten van medeeigendom bedoeld in artikel 7:35, vierde lid, alleen laten gelden jegens de erkende rekeninghouder bij wie deze
  effecten op rekening werden geboekt of, indien zij die effecten rechtstreeks aanhouden bij [2 de centrale
  effectenbewaarinstelling]2, jegens deze laatste. Bij wijze van uitzondering kunnen zij:
   1° een recht van terugvordering uitoefenen overeenkomstig de bepalingen van dit artikel en artikel 9bis, tweede
  tot vierde lid, van het koninklijk besluit nr. 62 van 10 november 1967 ter bevordering van de omloop van de
-Pagina 192 van 332 Copyright Belgisch S taatsblad 23-01-2026
  financiële instrumenten;
    2° rechtstreeks hun lidmaatschapsrechten uitoefenen bij de emittent;
    3° in geval van faillissement of in alle andere gevallen van samenloop in hoofde van de emittent rechtstreeks
@@ -11853,7 +12034,9 @@ Pagina 192 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (2)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
    (3)<W 2023-12-20/08, art. 92, 016; Inwerkingtreding : 25-01-2024>
 
-  Art. 7:39.Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
+## Art. 7:39
+
+Derdenbeslag is niet toegelaten op de rekeningen van gedematerialiseerde effecten geopend op naam
  van een erkende rekeninghouder bij [1 de centrale effectenbewaarinstelling]1 of, in voorkomend geval, bij de
  erkende rekeninghouder wanneer artikel 7:44 wordt toegepast.
   Onverminderd de toepassing van artikel 7:38 mogen de schuldeisers van de eigenaar van de effecten, in geval
@@ -11867,7 +12050,9 @@ Pagina 192 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 315, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:40.De betaling van vervallen dividenden, interesten en kapitalen van gedematerialiseerde effecten [1 aan
+## Art. 7:40
+
+De betaling van vervallen dividenden, interesten en kapitalen van gedematerialiseerde effecten [1 aan
  de centrale effectenbewaarinstelling]1 of, in voorkomend geval, aan de erkende rekeninghouder wanneer artikel
  7:44 wordt toegepast, is bevrijdend voor de uitgever.
   [1 De centrale effectenbewaarinstelling]1 of, in voorkomend geval, de erkende rekeninghouder wanneer artikel
@@ -11878,16 +12063,19 @@ Pagina 192 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 321, 006; Inwerkingtreding : 19-07-2021>
 
-   Art. 7:41.Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
+## Art. 7:41
+
+Alle lidmaatschapsrechten van de eigenaars van gedematerialiseerde effecten en alle rechten van
  verhaal in geval van faillissement van de emittent ervan of in alle andere gevallen van samenloop tegen deze
  laatste worden uitgeoefend na voorlegging van een attest dat de erkende rekeninghouder of [1 de centrale
  effectenbewaarinstelling]1 opstelt, dat het aantal van de gedematerialiseerde effecten bevestigt dat op naam van
  de eigenaar of van de tussenpersoon is ingeschreven op de datum vereist voor de uitoefening van deze rechten.
    ----------
-Pagina 193 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:42.Met het oog op de uitvoering van de artikelen 7:36 tot 7:41, kan de Koning de voorwaarden bepalen
+## Art. 7:42
+
+Met het oog op de uitvoering van de artikelen 7:36 tot 7:41, kan de Koning de voorwaarden bepalen
  waaronder de erkende rekeninghouders rekeningen houden, de werkingswijze van de rekeningen, de aard van
  de certificaten die aan de houders van de rekeningen moeten worden afgegeven en de wijze van betaling van
  vervallen dividenden, interesten en kapitalen door de erkende rekeninghouders en [1 de centrale
@@ -11895,12 +12083,16 @@ Pagina 193 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:43.[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
+## Art. 7:43
+
+[1 Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing]1 op de gedematerialiseerde effecten
  bedoeld in deze afdeling.
   ----------
   (1)<W 2020-02-04/16, art. 7, 008; Inwerkingtreding : 01-09-2021>
 
-  Art. 7:44.Behalve voor effecten die worden toegelaten tot de verhandeling op een gereglementeerde markt,
+## Art. 7:44
+
+Behalve voor effecten die worden toegelaten tot de verhandeling op een gereglementeerde markt,
  gelden de bepalingen van deze afdeling tevens voor effecten ingeschreven op een rekening bij een erkende
  rekeninghouder die die rekeninghouder niet bijhoudt [1 bij een centrale effectenbewaarinstelling]1 of bij een
  onderneming die ten opzichte van die instelling als tussenpersoon optreedt.
@@ -11969,8 +12161,9 @@ Wanneer de aandelen een gelijke kapitaalvertegenwoordigende waarde hebben, geven
 
 In niet genoteerde vennootschappen kunnen de statuten afwijken van artikel 7:51.
 
-Pagina 194 van 332 Copyright Belgisch S taatsblad 23-01-2026
-   Art. 7:53.§ 1. In genoteerde vennootschappen kunnen de statuten, aan de volgestorte aandelen die ten minste
+## Art. 7:53
+
+§ 1. In genoteerde vennootschappen kunnen de statuten, aan de volgestorte aandelen die ten minste
  twee jaar ononderbroken op naam van dezelfde aandeelhouder in het register van de aandelen op naam zijn
  ingeschreven, een dubbel stemrecht verlenen in vergelijking met de andere aandelen die een gelijk deel in het
  kapitaal vertegenwoordigen. In afwijking van artikel 7:153, vierde lid, kan dit besluit worden genomen met een
@@ -12030,7 +12223,9 @@ De statuten kunnen het aantal stemmen waarover iedere aandeelhouder in de vergad
  beschikt, beperken, op voorwaarde dat die beperking verplicht van toepassing is op iedere aandeelhouder
  zonder onderscheid van het effect waarmee hij aan de stemming deelneemt.
 
-  Art. 7:56.§ 1. Overeenkomsten kunnen de uitoefening van het stemrecht regelen.
+## Art. 7:56
+
+§ 1. Overeenkomsten kunnen de uitoefening van het stemrecht regelen.
   Deze overeenkomsten moeten in de tijd beperkt zijn en mogen niet strijdig zijn met het belang van de
  vennootschap.
   Zijn nietig:
@@ -12040,7 +12235,6 @@ De statuten kunnen het aantal stemmen waarover iedere aandeelhouder in de vergad
  vennootschappen [1 ...]1;
   [1 3° overeenkomsten waarbij een aandeelhouder of een andere effectenhouder zich tegenover diezelfde
  vennootschappen of diezelfde organen verbindt om de voorstellen van de organen van de vennootschap goed
-Pagina 195 van 332 Copyright Belgisch S taatsblad 23-01-2026
  te keuren.]1
   § 2. Stemmen uitgebracht tijdens een algemene vergadering op grond van overeenkomsten bedoeld in
  paragraaf 1, derde lid, zijn nietig. Die stemmen brengen de nietigheid mee van de genomen besluiten, tenzij zij
@@ -12050,7 +12244,9 @@ Pagina 195 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 2. Aandelen zonder stemrecht.
 
-  Art. 7:57.§ 1. De aandelen zonder stemrecht geven toch recht op één stem per aandeel in volgende gevallen,
+## Art. 7:57
+
+§ 1. De aandelen zonder stemrecht geven toch recht op één stem per aandeel in volgende gevallen,
  niettegenstaande andersluidende bepaling:
   1° het geval bedoeld in artikel 7:155;
   2° bij omzetting van de vennootschap;
@@ -12100,7 +12296,9 @@ Wanneer aan één of een reeks aandelen of winstbewijzen andere rechten zijn ver
 
   Afdeling 4. Certificaten.
 
-   Art. 7:61.§ 1. Certificaten die betrekking hebben op aandelen, winstbewijzen, converteerbare obligaties of
+## Art. 7:61
+
+§ 1. Certificaten die betrekking hebben op aandelen, winstbewijzen, converteerbare obligaties of
  inschrijvingsrechten kunnen, al dan niet met medewerking van de vennootschap, worden uitgegeven door een
  rechtspersoon die eigenaar blijft of wordt van de effecten waarop de certificaten betrekking hebben en zich
  ertoe verbindt de opbrengst van of de inkomsten uit die effecten voor te behouden aan de houder van de
@@ -12115,7 +12313,6 @@ Wanneer aan één of een reeks aandelen of winstbewijzen andere rechten zijn ver
    Tenzij in de uitgiftevoorwaarden anders is bepaald, stelt de emittent van certificaten die betrekking hebben op
  aandelen of winstbewijzen onmiddellijk en na aftrek van eventuele kosten, aan de houder van certificaten de
  dividenden betaalbaar, de eventuele opbrengst van het inschrijvingsrecht en het overschot na vereffening die
-Pagina 196 van 332 Copyright Belgisch S taatsblad 23-01-2026
  eventueel door de vennootschap worden uitgekeerd, alsook alle bedragen die voortkomen uit de vermindering
  van het kapitaal.
    Geen enkele overdracht van effecten waarop certificaten betrekking hebben, is toegestaan indien de emittent
@@ -12192,7 +12389,6 @@ In de overeenkomst van lening, aangegaan in de vorm van uitgifte van obligaties,
 ## Art. 7:65
 
 De converteerbare obligaties moeten volledig zijn volgestort.
-Pagina 197 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:66
 
 Te rekenen van de uitgifte van de converteerbare obligaties en tot het einde van de termijn van
@@ -12258,7 +12454,9 @@ Indien de vennootschap besluit de lening, zelfs gedeeltelijk, vervroegd terug te
 
 De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen recht.
 
-   Art. 7:74.Een overdracht of overgang van effecten op naam kan aan de vennootschap en aan derden slechts
+## Art. 7:74
+
+Een overdracht of overgang van effecten op naam kan aan de vennootschap en aan derden slechts
  worden tegengeworpen door een verklaring van overdracht, ingeschreven in het register van de betrokken
  effecten en gedagtekend en ondertekend door de overdrager en de overnemer of door hun gevolmachtigden in
  geval van overdracht onder de levenden, en door een lid van het bestuursorgaan en de rechtsverkrijgenden of
@@ -12278,7 +12476,6 @@ De overdracht en overgang van effecten gebeurt volgens de regels van het gemeen 
 Een overdracht of overgang van een gedematerialiseerd effect kan aan de vennootschap en aan
  derden slechts worden tegengeworpen door boeking van de ene op de andere effectenrekening.
 
-Pagina 198 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:76
 
 In de akten betreffende de overdracht van winstbewijzen of van effecten die daarop rechtstreeks of
@@ -12351,7 +12548,9 @@ De statuten en de uitgiftevoorwaarden van obligaties en andere effecten dan deze
 
   Afdeling 3. Het uitkoopbod.
 
-  Art. 7:82.§ 1. Iedere natuurlijke persoon of iedere rechtspersoon die, alleen of in onderling overleg handelend, [1
+## Art. 7:82
+
+§ 1. Iedere natuurlijke persoon of iedere rechtspersoon die, alleen of in onderling overleg handelend, [1
  rechtstreeks of onrechtstreeks]1 95 % van de effecten met stemrecht van een genoteerde naamloze
  vennootschap bezit, kan een openbaar bod tot uitkoop doen om het geheel van de door de vennootschap
  uitgegeven effecten met stemrecht of die toegang geven tot stemrecht te verkrijgen.
@@ -12359,7 +12558,6 @@ De statuten en de uitgiftevoorwaarden van obligaties en andere effecten dan deze
  geen rekening gehouden met het dubbel stemrecht bedoeld in artikel 7:53.
   Na afloop van de procedure worden de niet-aangeboden effecten, ongeacht of de eigenaar ervan zich kenbaar
  heeft gemaakt, geacht van rechtswege op die persoon te zijn overgegaan met consignatie van de prijs.
-Pagina 199 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Na afloop van het uitkoopbod wordt de vennootschap niet langer beschouwd als een genoteerde
  vennootschap.
    Onder personen die in onderling overleg handelen wordt verstaan:
@@ -12432,7 +12630,6 @@ Pagina 199 van 332 Copyright Belgisch S taatsblad 23-01-2026
   3° onder zijn toezicht de verkoop van de bewuste effecten aan een derde, die niet met de huidige
  aandeelhouder verbonden is, bevelen binnen een termijn die hij vaststelt en die kan worden verlengd.
   § 2. De procedure wordt ingesteld door een dagvaarding uitgaande van de vennootschap of uitgaande van één
-Pagina 200 van 332 Copyright Belgisch S taatsblad 23-01-2026
  of meer stemgerechtigde aandeelhouders. Wanneer het voorwerp van de vraag de opschorting van een reeds
  bijeengeroepen algemene vergadering betreft, kan ook de persoon wiens effecten het voorwerp zijn van een
  vraag of beslissing tot opschorting van alle of een deel van de aan de betrokken effecten verbonden rechten de
@@ -12454,7 +12651,9 @@ Pagina 200 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 1. Samenstelling.
 
-   Art. 7:85.§ 1. De vennootschap wordt bestuurd door een collegiaal bestuursorgaan, raad van bestuur
+## Art. 7:85
+
+§ 1. De vennootschap wordt bestuurd door een collegiaal bestuursorgaan, raad van bestuur
  genoemd, dat minstens drie bestuurders telt, die natuurlijke of rechtspersonen zijn.
    [1 Behalve bij genoteerde vennootschappen mag de raad van bestuur bestaan uit twee bestuurders, indien en
  zolang de vennootschap minder dan drie aandeelhouders heeft.]1 Zolang de raad van bestuur tweehoofdig is,
@@ -12483,7 +12682,9 @@ Pagina 200 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2024-03-27/02, art. 153, 019; Inwerkingtreding : 08-04-2024>
 
-   Art. 7:86.[2 § 1.]2 In genoteerde vennootschappen en de organisaties van openbaar belang bedoeld in artikel
+## Art. 7:86
+
+[2 § 1.]2 In genoteerde vennootschappen en de organisaties van openbaar belang bedoeld in artikel
  1:12, 2°, is ten minste één derde van de leden van de raad van bestuur van een ander geslacht dan de overige
  leden, waarbij het vereiste minimum aantal wordt afgerond naar het dichtstbijzijnde gehele getal. Is de bestuurder
  een rechtspersoon, dan wordt zijn geslacht bepaald door dat van zijn vaste vertegenwoordiger.
@@ -12501,7 +12702,6 @@ Pagina 200 van 332 Copyright Belgisch S taatsblad 23-01-2026
    [2 § 2. De bestuurders in genoteerde vennootschappen en organisaties van openbaar belang bedoeld in artikel
  1:12, 2°, mogen zich niet in één van de in artikel 20 van de wet van 25 april 2014 op het statuut van en het
 
-Pagina 201 van 332 Copyright Belgisch S taatsblad 23-01-2026
  toezicht op kredietinstellingen voorziene gevallen bevinden.]2
   ----------
   (1)<W 2020-04-28/06, art. 142, 002; Inwerkingtreding : 06-05-2020>
@@ -12522,7 +12722,9 @@ Pagina 201 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<Ingevoegd bij W 2024-03-28/60, art. 155, 019; Inwerkingtreding : 08-04-2024>
 
-   Art. 7:87.§ 1. Een bestuurder in een genoteerde vennootschap wordt als onafhankelijk beschouwd indien hij
+## Art. 7:87
+
+§ 1. Een bestuurder in een genoteerde vennootschap wordt als onafhankelijk beschouwd indien hij
  met de vennootschap of met een belangrijke aandeelhouder ervan geen relatie onderhoudt die zijn
  onafhankelijkheid in het gedrang brengt. Is de bestuurder een rechtspersoon, dan moet de onafhankelijkheid
  worden beoordeeld zowel in hoofde van de rechtspersoon als van zijn vaste vertegenwoordiger.
@@ -12545,7 +12747,9 @@ Pagina 201 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2024-03-28/60, art. 156, 019; Inwerkingtreding : 08-04-2024>
 
-  Art. 7:88.§ 1. Wanneer de plaats van een bestuurder openvalt, hebben de overblijvende bestuurders het recht
+## Art. 7:88
+
+§ 1. Wanneer de plaats van een bestuurder openvalt, hebben de overblijvende bestuurders het recht
  een nieuwe bestuurder te coöpteren, tenzij de statuten dit uitsluiten.
   De eerstvolgende algemene vergadering moet het mandaat van de gecoöpteerde bestuurder bevestigen; bij
  bevestiging volbrengt de gecoöpteerde bestuurder het mandaat van zijn voorganger, tenzij de algemene
@@ -12571,7 +12775,6 @@ Pagina 201 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 Tenzij de statuten anders bepalen of de algemene vergadering bij hun benoeming anders besluit,
  worden de bestuurders bezoldigd voor de uitoefening van hun mandaat.
-Pagina 202 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:89/1
 
 [1 § 1. De genoteerde vennootschappen stellen een remuneratiebeleid vast met betrekking tot de
@@ -12640,7 +12843,6 @@ Pagina 202 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<Ingevoegd bij W 2020-04-28/06, art. 31, 002; Inwerkingtreding : 16-05-2020>
 
-Pagina 203 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:90
 
 In een genoteerde vennootschap worden de criteria die de toekenning van een vergoeding aan een
@@ -12652,7 +12854,9 @@ In een genoteerde vennootschap worden de criteria die de toekenning van een verg
  criteria, wordt met deze variabele vergoedingen geen rekening gehouden bij de berekening van de
  vertrekvergoeding van de betrokken uitvoerend bestuurder.
 
-   Art. 7:91.In een genoteerde vennootschap kan, behoudens andersluidende statutaire bepaling of uitdrukkelijke
+## Art. 7:91
+
+In een genoteerde vennootschap kan, behoudens andersluidende statutaire bepaling of uitdrukkelijke
  goedkeuring door de algemene vergadering, een bestuurder, bij wijze van vergoeding, aandelen pas definitief
  verwerven, dan wel aandelenopties of alle andere rechten om aandelen te verwerven pas uitoefenen na een
  periode van ten minste drie jaar na de toekenning ervan.
@@ -12668,7 +12872,9 @@ In een genoteerde vennootschap worden de criteria die de toekenning van een verg
    ----------
    (1)<W 2020-04-28/06, art. 32, 002; Inwerkingtreding : 16-05-2020>
 
-  Art. 7:92.Een overeenkomst met een uitvoerend bestuurder of een andere persoon belast met de leiding
+## Art. 7:92
+
+Een overeenkomst met een uitvoerend bestuurder of een andere persoon belast met de leiding
  bedoeld in artikel 3:6, § 3, derde lid, of een persoon belast met het dagelijks bestuur van een genoteerde
  vennootschap die voorziet in een vertrekvergoeding die hoger is dan 12 maanden remuneratie als bedoeld in [1
  artikel 3:6, § 3, derde lid, 1°]1, wordt, niettegenstaande andersluidende statutaire of contractuele bepaling,
@@ -12713,7 +12919,6 @@ In een genoteerde vennootschap worden de criteria die de toekenning van een verg
  in artikel 2:18.
    De statuten kunnen aan deze vertegenwoordigingsbevoegdheid beperkingen aanbrengen. Zodanige beperking
  kan niet aan derden worden tegengeworpen, ook al is ze openbaar gemaakt. Hetzelfde geldt voor een onderlinge
-Pagina 204 van 332 Copyright Belgisch S taatsblad 23-01-2026
  taakverdeling onder de vertegenwoordigingsbevoegde bestuurders.
 
 ## Art. 7:94
@@ -12767,7 +12972,9 @@ De notulen van de vergaderingen van de raad van bestuur worden ondertekend door 
  hebben op gebruikelijke verrichtingen die plaatshebben onder de voorwaarden en tegen de zekerheden die op de
  markt gewoonlijk gelden voor soortgelijke verrichtingen.
 
-  Art. 7:97.§ 1. [1 Voor elke beslissing of voor elke verrichting ter uitvoering van een beslissing die tot de
+## Art. 7:97
+
+§ 1. [1 Voor elke beslissing of voor elke verrichting ter uitvoering van een beslissing die tot de
  bevoegdheid behoort van de raad van bestuur van een genoteerde vennootschap, en die verband houdt met
  een verbonden partij in de zin van de internationale standaarden voor jaarrekeningen die zijn goedgekeurd
  overeenkomstig verordening (EG) 1606/2002, past de raad van bestuur de procedure toe die is vastgelegd in de
@@ -12788,7 +12995,6 @@ De notulen van de vergaderingen van de raad van bestuur worden ondertekend door 
  natuurlijke of rechtspersonen dan de genoteerde vennootschap, een deelneming aanhoudt die minstens 25 %
  van het kapitaal van de betrokken dochtervennootschap vertegenwoordigt of die hem ingeval van winstuitkering
  door die dochtervennootschap recht geeft op minstens 25 % daarvan.]1
-Pagina 205 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Deze paragraaf vindt geen toepassing op:
    1° beslissingen en verrichtingen die voor de genoteerde vennootschap of voor haar dochtervennootschappen
  gebruikelijk zijn, onder de voorwaarden en tegen de zekerheden die op de markt gebruikelijk zijn;
@@ -12855,7 +13061,6 @@ Pagina 205 van 332 Copyright Belgisch S taatsblad 23-01-2026
    [1 § 4/1. Alle beslissingen of verrichtingen waarop de paragrafen 1 en 2 van toepassing zijn worden openbaar
  aangekondigd, uiterlijk op het moment dat de beslissing wordt genomen of de verrichting wordt aangegaan.
     De mededeling bevat ten minste:
-Pagina 206 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° informatie over de aard van de relatie met de verbonden partij;
    2° de naam van de verbonden partij;
    3° de datum en de waarde van de verrichting;
@@ -12889,7 +13094,9 @@ Pagina 206 van 332 Copyright Belgisch S taatsblad 23-01-2026
 De raad van bestuur kan in zijn midden en onder zijn aansprakelijkheid een of meer adviserende
  comités oprichten. Hij omschrijft hun samenstelling en hun opdracht.
 
-   Art. 7:99.§ 1. De genoteerde vennootschappen en de organisaties van openbaar belang als bedoeld in artikel
+## Art. 7:99
+
+§ 1. De genoteerde vennootschappen en de organisaties van openbaar belang als bedoeld in artikel
  1:12, 2°, richten een auditcomité op binnen hun raad van bestuur [1 als bedoeld in artikel 7:87, § 1]1.
    § 2. Het auditcomité is samengesteld uit niet-uitvoerende leden van de raad van bestuur. Ten minste één lid van
  het auditcomité is een onafhankelijk bestuurder.
@@ -12926,7 +13133,6 @@ De raad van bestuur kan in zijn midden en onder zijn aansprakelijkheid een of me
  vennootschap alsook, indien er een interne audit bestaat, monitoring van de interne audit en van zijn
  doeltreffendheid en, in voorkomend geval, de duurzaamheidsrapportering, met inbegrip van het elektronische
  verslagleggingsproces bedoeld in artikel 3:6/8 zonder zijn onafhankelijkheid te verliezen;
-Pagina 207 van 332 Copyright Belgisch S taatsblad 23-01-2026
     4° monitoring van de wettelijke controle van de jaarrekening en de geconsolideerde jaarrekening inclusief
  opvolging van de vragen en aanbevelingen geformuleerd door de commissaris en, in voorkomend geval, door de
  bedrijfsrevisor die instaat voor de controle van de geconsolideerde jaarrekening, alsook de monitoring van de
@@ -12995,7 +13201,6 @@ Pagina 207 van 332 Copyright Belgisch S taatsblad 23-01-2026
  waardepapieren, zoals gedefinieerd in artikel 2, lid 5, van verordening (EG) nr. 809/2004 van de Europese
  Commissie; in dat geval zet de vennootschap aan het publiek uiteen waarom zij het niet dienstig acht hetzij een
  auditcomité in te stellen, hetzij het bestuursorgaan te belasten met de uitvoering van de taken van een
-Pagina 208 van 332 Copyright Belgisch S taatsblad 23-01-2026
  auditcomité.
   De opdrachten van de commissaris en, in voorkomend geval, van de bedrijfsrevisor die instaat voor de controle
  van de geconsolideerde jaarrekening, zoals opgenomen onder paragraaf 7, blijven van toepassing, maar worden
@@ -13004,7 +13209,9 @@ Pagina 208 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 145, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2024-12-02/07, art. 66, 024; Inwerkingtreding : 30-12-2024>
 
-  Art. 7:100.§ 1. De genoteerde vennootschappen richten een remuneratiecomité op binnen hun raad van
+## Art. 7:100
+
+§ 1. De genoteerde vennootschappen richten een remuneratiecomité op binnen hun raad van
  bestuur.
   § 2. Het remuneratiecomité is samengesteld uit niet-uitvoerende leden van de raad van bestuur. Elke
  bestuurder aan wie het dagelijks bestuur als bedoeld in artikel 7:121 is opgedragen, wordt in elk geval
@@ -13062,9 +13269,10 @@ Pagina 208 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 2. De enige bestuurder.
 
-  Art. 7:101.§ 1. De statuten kunnen bepalen dat de naamloze vennootschap wordt bestuurd door één enkele
+## Art. 7:101
+
+§ 1. De statuten kunnen bepalen dat de naamloze vennootschap wordt bestuurd door één enkele
  bestuurder, al dan niet in de statuten benoemd.
-Pagina 209 van 332 Copyright Belgisch S taatsblad 23-01-2026
    [1 In een genoteerde vennootschap of wanneer een wettelijke bepaling een collegiaal bestuur vereist, moet de
  enige bestuurder een naamloze vennootschap zijn met collegiaal bestuur.
     Als de enige bestuurder een naamloze vennootschap is met een monistisch bestuur, zijn de artikelen 7:89,
@@ -13098,7 +13306,9 @@ Pagina 209 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2020-04-28/06, art. 147, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 7:102.§ 1. Wanneer de enige bestuurder een beslissing moet nemen of zich over een verrichting moet
+## Art. 7:102
+
+§ 1. Wanneer de enige bestuurder een beslissing moet nemen of zich over een verrichting moet
  uitspreken die onder zijn bevoegdheid valt en waarbij hij een rechtstreeks of onrechtstreeks belang van
  vermogensrechtelijke aard heeft dat strijdig is met het belang van de vennootschap, dan legt hij die beslissing of
  verrichting voor aan de algemene vergadering; ingeval de algemene vergadering de beslissing of de verrichting
@@ -13126,13 +13336,14 @@ Pagina 209 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 148, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 7:103.§ 1. Naargelang het geval, omschrijven de algemene vergadering, de [1 andere leden van het
+## Art. 7:103
+
+§ 1. Naargelang het geval, omschrijven de algemene vergadering, de [1 andere leden van het
  bestuursorgaan]1, of de enige bestuurder die tevens de enige aandeelhouder is in de notulen of in een bijzonder
  verslag de aard van de in artikel 7:102, § 1, bedoelde beslissing of verrichting en de vermogensrechtelijke
  gevolgen ervan voor de vennootschap en verantwoorden zij het genomen besluit. In geval de enige bestuurder
  tevens de enige aandeelhouder is, neemt hij in zijn bijzonder verslag eveneens de tussen hem en [1 ...]1 de
  vennootschap gesloten overeenkomsten op.
-Pagina 210 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Dit deel van de notulen of dit verslag wordt in zijn geheel opgenomen in het jaarverslag of in een stuk dat samen
  met de jaarrekening wordt neergelegd.
    Ingeval de vennootschap een commissaris heeft benoemd, worden de notulen of het verslag aan hem
@@ -13182,12 +13393,16 @@ De statuten kunnen bepalen dat het bestuur van de vennootschap wordt waargenomen
  zelf het nodige doen om de beëindiging van zijn mandaat aan derden tegen te werpen onder de voorwaarden
  bepaald in artikel 2:18.
 
-  Art. 7:106.De artikelen 7:86, [1 7:86/1,]1 7:87 en 7:88 zijn van overeenkomstige toepassing op de raad van
+## Art. 7:106
+
+De artikelen 7:86, [1 7:86/1,]1 7:87 en 7:88 zijn van overeenkomstige toepassing op de raad van
  toezicht.
   ----------
   (1)<W 2024-03-28/60, art. 159, 019; Inwerkingtreding : 08-04-2024>
 
-  Art. 7:107.De directieraad is een collegiaal orgaan dat minstens drie leden telt, die natuurlijke of rechtspersonen
+## Art. 7:107
+
+De directieraad is een collegiaal orgaan dat minstens drie leden telt, die natuurlijke of rechtspersonen
  zijn. Leden van de directieraad kunnen niet tevens ook lid zijn van de raad van toezicht.
   Leden van de directieraad kunnen in deze hoedanigheid niet door een arbeidsovereenkomst met de
  vennootschap zijn verbonden.
@@ -13200,19 +13415,22 @@ De statuten kunnen bepalen dat het bestuur van de vennootschap wordt waargenomen
 
   Onderafdeling 2. Bezoldiging.
 
-  Art. 7:108.Tenzij de statuten anders bepalen of de algemene vergadering bij hun benoeming anders besluit,
+## Art. 7:108
+
+Tenzij de statuten anders bepalen of de algemene vergadering bij hun benoeming anders besluit,
  worden de leden van de raad van toezicht bezoldigd voor de uitoefening van hun mandaat.
   Onverminderd strengere wettelijke bepalingen stelt de raad van toezicht de bezoldiging vast van de leden van
  de directieraad. Hij brengt daarover verslag uit in het jaarverslag.
   De artikelen [1 7:89/1,]1 7:90, 7:91 en 7:92 zijn van overeenkomstige toepassing op de leden van de raad van
-Pagina 211 van 332 Copyright Belgisch S taatsblad 23-01-2026
  toezicht en van de directieraad van een genoteerde vennootschap.
   ----------
   (1)<W 2020-04-28/06, art. 35, 002; Inwerkingtreding : 16-05-2020>
 
   Onderafdeling 3. Bevoegdheden en werking.
 
-   Art. 7:109.§ 1. De raad van toezicht is bevoegd voor het algemeen beleid en de strategie van de vennootschap
+## Art. 7:109
+
+§ 1. De raad van toezicht is bevoegd voor het algemeen beleid en de strategie van de vennootschap
  en voor alle handelingen die op grond van andere bepalingen van het wetboek specifiek aan de raad van bestuur
  zoals bedoeld in afdeling 1 zijn voorbehouden. Hij stelt alle door dit wetboek opgelegde verslagen op en alle
  voorstellen voorgeschreven in de boeken 12 en 14. Hij houdt toezicht op de directieraad. De leden van de raad
@@ -13284,7 +13502,6 @@ De notulen van de vergaderingen van de directieraad worden ondertekend door al z
   De besluiten van de directieraad kunnen bij eenparig schriftelijk akkoord van alle leden worden genomen, met
  uitzondering van enig statutair uitgesloten besluit.
 
-Pagina 212 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:115
 
 § 1. Wanneer de raad van toezicht een beslissing moet nemen of zich over een verrichting moet
@@ -13321,7 +13538,9 @@ Pagina 212 van 332 Copyright Belgisch S taatsblad 23-01-2026
  hebben op gebruikelijke verrichtingen die plaatshebben onder de voorwaarden en tegen de zekerheden die op de
  markt gewoonlijk gelden voor soortgelijke verrichtingen.
 
-  Art. 7:116.§ 1. [1 Voor elke beslissing of voor elke verrichting ter uitvoering van een beslissing die tot de
+## Art. 7:116
+
+§ 1. [1 Voor elke beslissing of voor elke verrichting ter uitvoering van een beslissing die tot de
  bevoegdheid behoort van de raad van toezicht van een genoteerde vennootschap, en die verband houdt met
  een verbonden partij in de zin van de internationale standaarden voor jaarrekeningen die zijn goedgekeurd
  overeenkomstig verordening (EG) 1606/2002, past de raad van toezicht de procedure toe die is vastgelegd in de
@@ -13354,7 +13573,6 @@ Pagina 212 van 332 Copyright Belgisch S taatsblad 23-01-2026
  beslissingen en verrichtingen van een kredietinstelling die zijn uitgevoerd op grond van maatregelen die door de
  toezichthouder bedoeld in artikel 134 van de wet van 25 april 2014 op het statuut van en het toezicht op
  kredietinstellingen en beursvennootschappen zijn vastgesteld ter vrijwaring van haar stabiliteit.
-Pagina 213 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Deze vrijstelling kan met name worden verleend om redenen die verband houden met de stabiliteit van de
  betrokken instelling of, meer in het algemeen, met de financiële stabiliteit;
     5° aan de verkrijging of vervreemding van eigen aandelen, aan de uitkering van interimdividenden en aan de
@@ -13420,7 +13638,6 @@ Pagina 213 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bedoeld in paragraaf 4.
     Het jaarverslag bevat een overzicht van alle mededelingen die tijdens het boekjaar werden gedaan, met
  verwijzing naar de plaats waar de mededelingen kunnen worden geraadpleegd.]1
-Pagina 214 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 5. Onverminderd het recht voor de in de artikelen 2:44 en 2:46 genoemde personen om de nietigheid of
  opschorting van het besluit van de raad van toezicht te vorderen, kan de vennootschap de nietigheid vorderen
  van besluiten of verrichtingen die hebben plaatsgevonden met overtreding van dit artikel, indien de wederpartij bij
@@ -13437,7 +13654,9 @@ Pagina 214 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2020-04-28/06, art. 151, 002; Inwerkingtreding : 06-05-2020>
   (3)<W 2024-03-28/60, art. 161, 019; Inwerkingtreding : 08-04-2024>
 
-   Art. 7:117.§ 1. Wanneer de directieraad een beslissing moet nemen of zich over een verrichting moet
+## Art. 7:117
+
+§ 1. Wanneer de directieraad een beslissing moet nemen of zich over een verrichting moet
  uitspreken die onder zijn bevoegdheid vallen, waarbij een lid van de raad een rechtstreeks of onrechtstreeks
  belang van vermogensrechtelijke aard heeft dat strijdig is met het belang van de vennootschap, verwijst de
  directieraad deze beslissing naar de raad van toezicht, die handelt overeenkomstig artikel 7:115.
@@ -13471,7 +13690,9 @@ Pagina 214 van 332 Copyright Belgisch S taatsblad 23-01-2026
 De raad van toezicht kan in zijn midden en onder zijn aansprakelijkheid een of meer adviserende
  comités oprichten. Hij omschrijft hun samenstelling en hun mandaten.
 
-  Art. 7:119.§ 1. De genoteerde vennootschappen en de organisaties van openbaar belang bedoeld in artikel
+## Art. 7:119
+
+§ 1. De genoteerde vennootschappen en de organisaties van openbaar belang bedoeld in artikel
  1:12, 2°, richten een auditcomité op binnen hun raad van toezicht.
   § 2. Ten minste één lid van het auditcomité is een onafhankelijk lid van de raad van toezicht [1 als bedoeld in
  artikel 7:87, § 1]1.
@@ -13490,7 +13711,6 @@ De raad van toezicht kan in zijn midden en onder zijn aansprakelijkheid een of m
  volgende taken:
   [2 1° de raad van toezicht in kennis stellen van het resultaat van de wettelijke controle van de jaarrekening en, in
  voorkomend geval, van de geconsolideerde jaarrekening en het resultaat van de assurance van
-Pagina 215 van 332 Copyright Belgisch S taatsblad 23-01-2026
  duurzaamheidsinformatie, en de raad van toezicht toelichten op welke wijze de wettelijke controle van de
  jaarrekening, het jaarverslag, en, in voorkomend geval, van de geconsolideerde jaarrekening, alsook de
  assurance van duurzaamheidsinformatie, hebben bijgedragen tot de integriteit van respectievelijk de financiële
@@ -13559,7 +13779,6 @@ Pagina 215 van 332 Copyright Belgisch S taatsblad 23-01-2026
  worden zij uitgeoefend ten aanzien van de raad van toezicht.
    De commissaris en, in voorkomend geval, de bedrijfsrevisor die instaat voor de controle van de
  geconsolideerde jaarrekening, maken jaarlijks aan het auditcomité, enerzijds, indien dergelijk comité is ingericht,
-Pagina 216 van 332 Copyright Belgisch S taatsblad 23-01-2026
  en aan de raad van toezicht, anderzijds, de aanvullende verklaring bedoeld in artikel 11 van de verordening (EU)
  nr. 537/2014 over. Deze aanvullende verklaring wordt overgemaakt uiterlijk op de datum van indiening van het
  controleverslag bedoeld in de artikelen 3:75 en 3:80 en in artikel 10 van de verordening (EU) nr. 537/2014.
@@ -13584,7 +13803,9 @@ Pagina 216 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 152, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2024-12-02/07, art. 67, 024; Inwerkingtreding : 30-12-2024>
 
-   Art. 7:120.§ 1. De genoteerde vennootschappen richten een remuneratiecomité op binnen hun raad van
+## Art. 7:120
+
+§ 1. De genoteerde vennootschappen richten een remuneratiecomité op binnen hun raad van
  toezicht.
    § 2. Het remuneratiecomité is samengesteld uit een meerderheid van onafhankelijke leden van de raad van
  toezicht [1 als bedoeld in artikel 7:87, § 1]1, en beschikt over de nodige deskundigheid op het gebied van
@@ -13628,7 +13849,6 @@ Pagina 216 van 332 Copyright Belgisch S taatsblad 23-01-2026
  als bedoeld in de paragrafen 1 tot 7:
    1° de vennootschappen die een openbare instelling voor collectieve belegging met een veranderlijk aantal
  rechten van deelneming zijn als omschreven in artikel 10 van de wet van 20 juli 2004 betreffende bepaalde
-Pagina 217 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vormen van collectief beheer van beleggingsportefeuilles;
   2° de vennootschappen waarvan de enige zakelijke activiteit bestaat in de uitgifte van door activa gedekte
  waardepapieren, zoals gedefinieerd in artikel 2, lid 5, van verordening (EG) nr. 809/2004 van de Europese
@@ -13640,7 +13860,9 @@ Pagina 217 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 4. Dagelijks bestuur.
 
-   Art. 7:121.De raad van bestuur, de enige bestuurder, of, in een duale structuur de directieraad, kan het
+## Art. 7:121
+
+De raad van bestuur, de enige bestuurder, of, in een duale structuur de directieraad, kan het
  dagelijks bestuur van de vennootschap, alsook de vertegenwoordiging van de vennootschap wat dat bestuur
  aangaat, opdragen aan een of meer personen, die elk alleen, gezamenlijk of als college optreden. Het
  bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld is belast met het toezicht op dit orgaan.
@@ -13697,11 +13919,12 @@ Bij de toepassing van dit hoofdstuk draagt de vennootschap zorg voor een gelijke
 
   Onderafdeling 2. Bevoegdheden.
 
-  Art. 7:124.De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
+## Art. 7:124
+
+De algemene vergadering van aandeelhouders oefent de bevoegdheden uit die dit wetboek haar
  toewijst.
   De statuten kunnen de bevoegdheden van de algemene vergadering uitbreiden. Zodanige uitbreiding kan niet
  aan derden worden tegengeworpen, [1 ook al is ze openbaar gemaakt]1.
-Pagina 218 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 155, 002; Inwerkingtreding : 06-05-2020>
 
@@ -13712,7 +13935,9 @@ Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdh
 
   Onderafdeling 3. Bijeenroeping van de algemene vergadering.
 
-  Art. 7:126.De raad van bestuur, [1 de enige bestuurder of]1 de raad van toezicht, en, in voorkomend geval, de
+## Art. 7:126
+
+De raad van bestuur, [1 de enige bestuurder of]1 de raad van toezicht, en, in voorkomend geval, de
  commissaris, roepen de algemene vergadering bijeen en bepalen haar agenda. Zij zijn verplicht de algemene
  vergadering binnen drie weken bijeen te roepen wanneer aandeelhouders die een tiende van het kapitaal
  vertegenwoordigen, het vragen, met ten minste de door de betrokken aandeelhouders voorgestelde
@@ -13720,7 +13945,9 @@ Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdh
   ----------
   (1)<W 2020-04-28/06, art. 156, 002; Inwerkingtreding : 06-05-2020>
 
-   Art. 7:127.§ 1. In een niet genoteerde vennootschap, gebeurt de oproeping door middel van een aankondiging
+## Art. 7:127
+
+§ 1. In een niet genoteerde vennootschap, gebeurt de oproeping door middel van een aankondiging
  die ten minste vijftien dagen vóór de vergadering wordt geplaatst:
    1° in het Belgisch Staatsblad;
    2° in een nationaal verspreid blad, op papier of elektronisch, behalve voor gewone algemene vergaderingen die
@@ -13767,11 +13994,12 @@ Wanneer de vennootschap slechts één aandeelhouder telt, oefent hij de bevoegdh
    (1)<W 2020-04-28/06, art. 157, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2025-12-11/13, art. 167, 025; Inwerkingtreding : 03-01-2026>
 
-  Art. 7:128.§ 1. In een genoteerde vennootschap gebeurt de oproeping door middel van een aankondiging die
+## Art. 7:128
+
+§ 1. In een genoteerde vennootschap gebeurt de oproeping door middel van een aankondiging die
  ten minste dertig dagen vóór de vergadering wordt geplaatst:
   1° [2 ...]2
   2° [2 ...]2
-Pagina 219 van 332 Copyright Belgisch S taatsblad 23-01-2026
    3° in media waarvan redelijkerwijze mag worden aangenomen dat zij kunnen zorgen voor een doeltreffende
  verspreiding van de informatie bij het publiek in de Europese Economische Ruimte en die snel en op nietdiscriminerende wijze toegankelijk is;
    4° op de vennootschapswebsite.
@@ -13804,7 +14032,9 @@ Pagina 219 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 158, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2025-12-11/13, art. 168, 025; Inwerkingtreding : 03-01-2026>
 
-   Art. 7:129.§ 1. De oproeping tot een algemene vergadering van een niet genoteerde vennootschap vermeldt de
+## Art. 7:129
+
+§ 1. De oproeping tot een algemene vergadering van een niet genoteerde vennootschap vermeldt de
  plaats waar en de datum en het uur waarop de algemene vergadering plaatsvindt, en de agenda met opgave van
  te behandelen onderwerpen.
    § 2. De oproeping tot een algemene vergadering van een genoteerde vennootschap bevat ten minste de
@@ -13838,7 +14068,6 @@ Pagina 219 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vergadering;
    6° de vermelding van de plaats waar en de wijze waarop de volledige tekst kan worden verkregen [1 ...]1 van de
  in paragraaf 3, [1 3°, 4° en 5°]1, bedoelde stukken en voorstellen tot besluit;
-Pagina 220 van 332 Copyright Belgisch S taatsblad 23-01-2026
    7° de vermelding van de vennootschapswebsite, waarop zij de in paragraaf 3 bedoelde informatie ter
  beschikking stelt.
    § 3. Vanaf de dag van de publicatie van de oproeping tot de algemene vergadering tot op de dag van de
@@ -13867,7 +14096,9 @@ Pagina 220 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 159, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2020-12-20/02, art. 30, 005; Inwerkingtreding : 24-12-2020>
 
-   Art. 7:130.§ 1. Eén of meer aandeelhouders die samen minstens 3 % bezitten van het kapitaal van een
+## Art. 7:130
+
+§ 1. Eén of meer aandeelhouders die samen minstens 3 % bezitten van het kapitaal van een
  genoteerde vennootschap, kunnen te behandelen onderwerpen op de agenda van de algemene vergadering
  laten plaatsen en voorstellen tot besluit indienen over op de agenda opgenomen of daarin op te nemen te
  behandelen onderwerpen. Aandeelhouders hebben dit recht niet voor een algemene vergadering die met
@@ -13907,7 +14138,6 @@ Pagina 220 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2020-04-28/06, art. 160, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
-Pagina 221 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:131
 
 Wanneer, binnen twintig dagen vóór de datum waarop een algemene vergadering is
@@ -13934,7 +14164,9 @@ Samen met de oproepingsbrief en volgens dezelfde modaliteiten, wordt aan de houd
 
   Onderafdeling 4. Schriftelijke algemene vergadering.
 
-  Art. 7:133.De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van
+## Art. 7:133
+
+De aandeelhouders kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van
  de algemene vergadering behoren, met uitzondering van [1 statutenwijzigingen]1. In dat geval dienen de
  formaliteiten van bijeenroeping niet te worden vervuld. De leden van het bestuursorgaan, de commissaris en de
  houders van converteerbare obligaties, inschrijvingsrechten of certificaten die met medewerking van de
@@ -13944,7 +14176,9 @@ Samen met de oproepingsbrief en volgens dezelfde modaliteiten, wordt aan de houd
 
   Onderafdeling 5. Deelneming aan de algemene vergadering.
 
-  Art. 7:134.§ 1. De statuten bepalen de formaliteiten die de aandeelhouders moeten vervullen om tot de
+## Art. 7:134
+
+§ 1. De statuten bepalen de formaliteiten die de aandeelhouders moeten vervullen om tot de
  algemene vergadering te worden toegelaten.
   § 2. Het recht om deel te nemen aan een algemene vergadering van een genoteerde vennootschap en om er
  het stemrecht uit te oefenen wordt slechts verleend op grond van de boekhoudkundige registratie van de
@@ -13971,12 +14205,13 @@ Samen met de oproepingsbrief en volgens dezelfde modaliteiten, wordt aan de houd
   (1)<W 2020-04-28/06, art. 161, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2021-06-27/09, art. 323, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:135.De houders van aandelen zonder stemrecht, winstbewijzen zonder stemrecht, converteerbare
+## Art. 7:135
+
+De houders van aandelen zonder stemrecht, winstbewijzen zonder stemrecht, converteerbare
  obligaties, inschrijvingsrechten of certificaten die met medewerking van de vennootschap werden uitgegeven,
  mogen de algemene vergadering bijwonen, doch slechts met raadgevende stem. De statuten bepalen de
  formaliteiten die zij moeten vervullen om tot de algemene vergadering te worden toegelaten.
   [1 Houders van aandelen, winstbewijzen, converteerbare obligaties, inschrijvingsrechten en met medewerking
-Pagina 222 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van de vennootschap uitgegeven certificaten die de formaliteiten om tot een algemene vergadering te worden
  toegelaten hebben vervuld, worden ook toegelaten tot elke volgende algemene vergadering met dezelfde
  agendapunten, tenzij de vennootschap op de hoogte wordt gesteld van een overdracht van de betrokken
@@ -13989,7 +14224,9 @@ Pagina 222 van 332 Copyright Belgisch S taatsblad 23-01-2026
 De commissaris woont de algemene vergadering bij wanneer deze te beraadslagen heeft op grond
  van een door hem opgemaakt verslag.
 
-   Art. 7:137.§ 1. [1 De raad van bestuur, de enige bestuurder of de raad van toezicht kunnen]1 de houders van
+## Art. 7:137
+
+§ 1. [1 De raad van bestuur, de enige bestuurder of de raad van toezicht kunnen]1 de houders van
  aandelen, converteerbare obligaties, inschrijvingsrechten of met medewerking van de vennootschap uitgegeven
  certificaten de mogelijkheid bieden om op afstand deel te nemen aan de algemene vergadering door middel van
  een door de vennootschap ter beschikking gesteld elektronisch communicatiemiddel. Wat de naleving van de
@@ -14027,12 +14264,16 @@ De commissaris woont de algemene vergadering bij wanneer deze te beraadslagen he
 
   Onderafdeling 6. Verloop van de algemene vergadering.
 
-   Art. 7:138.Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
+## Art. 7:138
+
+Op elke algemene vergadering wordt een aanwezigheidslijst bijgehouden. [1 Elke aandeelhouder kan
  inzage krijgen in deze lijst.]1
    ----------
    (1)<W 2020-04-28/06, art. 163, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 7:139.De leden van het bestuursorgaan geven antwoord op de vragen die hun door de houders van
+## Art. 7:139
+
+De leden van het bestuursorgaan geven antwoord op de vragen die hun door de houders van
  aandelen, converteerbare obligaties of inschrijvingsrechten op naam, of van certificaten op naam die met
  medewerking van de vennootschap zijn uitgegeven, vooraf of tijdens de vergadering, mondeling of schriftelijk
  worden gesteld en die verband houden met de agendapunten. De leden van het bestuursorgaan kunnen, in het
@@ -14044,7 +14285,6 @@ De commissaris woont de algemene vergadering bij wanneer deze te beraadslagen he
  op naam, of de houders van certificaten op naam die met medewerking van de vennootschap zijn uitgegeven,
  vooraf of tijdens de vergadering, mondeling of schriftelijk worden gesteld en die verband houden met de
  agendapunten waarover hij verslag uitbrengt. [1 ...]1 Hij kan, in het belang van de vennootschap, weigeren op
-Pagina 223 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vragen te antwoorden wanneer de mededeling van bepaalde gegevens of feiten de vennootschap schade kan
  berokkenen of in strijd is met zijn beroepsgeheim of met door de vennootschap aangegane
  vertrouwelijkheidsverbintenissen. Hij heeft het recht ter algemene vergadering het woord te voeren in verband
@@ -14068,7 +14308,9 @@ Behalve in de gevallen waarin hun krachtens de wet of de statuten stemrecht is t
  moeten worden nageleefd, geen rekening gehouden met aandelen of winstbewijzen zonder stemrecht, noch met
  de aandelen waarvan het stemrecht is geschorst.
 
-   Art. 7:141.[1 § 1.]1 De notulen van een algemene vergadering worden ondertekend door de leden van het
+## Art. 7:141
+
+[1 § 1.]1 De notulen van een algemene vergadering worden ondertekend door de leden van het
  bureau en door de aandeelhouders die erom verzoeken; kopieën voor derden worden ondertekend door één of
  meer vertegenwoordigingsbevoegde leden van het bestuursorgaan.
    In de notulen van de algemene vergaderingen van een genoteerde vennootschap, wordt voor elk besluit het
@@ -14119,7 +14361,6 @@ Alle stemgerechtigde aandeelhouders kunnen in persoon of bij volmacht stemmen.
  artikel 3.10 van verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014
  betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt
  en tot intrekking van richtlijn 1999/93/EG of een gekwalificeerde elektronische handtekening in de zin van artikel
-Pagina 224 van 332 Copyright Belgisch S taatsblad 23-01-2026
  3.12 van dezelfde verordening. Zij wordt aan de vennootschap meegedeeld via het e-mailadres van de
  vennootschap of het in de oproeping tot de algemene vergadering vermelde specifieke e-mailadres.
   De vennootschap moet de volmacht uiterlijk op de zesde dag vóór de datum van de vergadering ontvangen.
@@ -14194,7 +14435,6 @@ Het openbaar verzoek tot verlening van volmachten is aan de volgende voorwaarden
  vergadering, per brief of via de vennootschapswebsite, door middel van een door de vennootschap ter
  beschikking gesteld formulier.
   Als de vennootschap stemmen op afstand via een website toestaat, moet zij op de bij of krachtens de statuten
-Pagina 225 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bepaalde wijze in staat zijn de hoedanigheid en de identiteit van de aandeelhouder te controleren.
   § 2. Onverminderd andere, bij of krachtens de statuten vereiste vermeldingen dient het formulier om te
  stemmen op afstand minstens de volgende vermeldingen te bevatten:
@@ -14263,7 +14503,6 @@ Pagina 225 van 332 Copyright Belgisch S taatsblad 23-01-2026
  rechtspersoon die, beroepshalve en op commerciële basis, de bedrijfsinformatie en, indien van belang, andere
  informatie van beursgenoteerde vennootschappen analyseert teneinde beleggers in staat te stellen met kennis
  van zaken te stemmen door onderzoek, advies of stemadviezen te verstrekken met betrekking tot de
-Pagina 226 van 332 Copyright Belgisch S taatsblad 23-01-2026
  uitoefening van stemrechten.
    § 2. Deze onderafdeling is van toepassing op de volmachtadviseurs die, voor zover zij diensten verlenen aan
  aandeelhouders met betrekking tot aandelen van vennootschappen die hun zetel in een lidstaat hebben en
@@ -14335,8 +14574,9 @@ De houders van aandelen, converteerbare obligaties, inschrijvingsrechten en cert
   Deze informatie, evenals de informatie die overeenkomstig artikel 3:12 wordt neergelegd bij de Nationale Bank
  van België, worden ter beschikking gesteld overeenkomstig artikel 7:132.
 
-  Art. 7:149.De algemene vergadering hoort, in voorkomend geval, het jaarverslag, het jaarverslag over de
-Pagina 227 van 332 Copyright Belgisch S taatsblad 23-01-2026
+## Art. 7:149
+
+De algemene vergadering hoort, in voorkomend geval, het jaarverslag, het jaarverslag over de
  geconsolideerde jaarrekening, het verslag van de commissaris en de andere verslagen die het wetboek
  voorschrijft en behandelt de jaarrekening.
   Na de goedkeuring van de jaarrekening beslist de algemene vergadering bij afzonderlijke stemming over de aan
@@ -14411,7 +14651,6 @@ In genoteerde vennootschappen kan enkel de algemene vergadering aan derden recht
    ----------
    (1)<Ingevoegd bij W 2024-03-28/60, art. 163, 019; Inwerkingtreding : 08-04-2024>
 
-Pagina 228 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:152
 
 Vanaf het tijdstip dat de vennootschap de mededeling van de Autoriteit voor Financiële Diensten en
@@ -14471,7 +14710,9 @@ Indien wordt voorgesteld het voorwerp of de doelen van de vennootschap, zoals om
 
   Onderafdeling 3. Wijziging van de rechten verbonden aan soorten van aandelen of winstbewijzen.
 
-  Art. 7:155.De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
+## Art. 7:155
+
+De algemene vergadering kan, niettegenstaande andersluidende statutaire bepaling, de uitgifte van
  nieuwe soorten van aandelen of winstbewijzen goedkeuren, één of meer soorten afschaffen, de rechten
  verbonden aan een soort gelijkstellen met de rechten van een andere soort, of de respectieve rechten
  verbonden aan een soort van effecten rechtstreeks of onrechtstreeks wijzigen. De uitgifte van nieuwe aandelen
@@ -14485,7 +14726,6 @@ Indien wordt voorgesteld het voorwerp of de doelen van de vennootschap, zoals om
  getrouw en voldoende zijn om de algemene vergadering die over het voorstel moet stemmen voor te lichten.
  Beide verslagen worden in de agenda vermeld en aan de aandeelhouders ter beschikking gesteld
  overeenkomstig artikel 7:132. Wanneer deze verslagen ontbreken is het besluit van de algemene vergadering
-Pagina 229 van 332 Copyright Belgisch S taatsblad 23-01-2026
  nietig. Deze verslagen worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en 2:14, 4°.
   Elke wijziging van de rechten verbonden aan één of meerdere soorten vereist een statutenwijziging, waarbij het
  besluit binnen elke soort moet worden genomen met naleving van de aanwezigheids- en meerderheidsvereisten
@@ -14564,7 +14804,6 @@ Indien de minderheidsvordering wordt afgewezen, kunnen de eisers persoonlijk in 
 ## Art. 7:160
 
 Op verzoek van één of meer aandeelhouders die ten minste 1 % hebben van het geheel aantal
-Pagina 230 van 332 Copyright Belgisch S taatsblad 23-01-2026
  stemmen, of die effecten bezitten die een gedeelte van het kapitaal vertegenwoordigen ter waarde van ten
  minste 1 250 000 euro, kan de voorzitter van de ondernemingsrechtbank, in kort geding één of meer
  deskundigen aanstellen om de boeken en de rekeningen van de vennootschap na te zien en ook de verrichtingen
@@ -14610,7 +14849,9 @@ Geen enkel besluit van de algemene vergadering van obligatiehouders tot wijzigin
 
   Afdeling 3. Bijeenroeping van de algemene vergadering van obligatiehouders.
 
-  Art. 7:164.De raad van bestuur, [1 de enige bestuurder of]1 de raad van toezicht en, in voorkomend geval, de
+## Art. 7:164
+
+De raad van bestuur, [1 de enige bestuurder of]1 de raad van toezicht en, in voorkomend geval, de
  commissaris, kunnen een algemene vergadering van de obligatiehouders bijeenroepen en bepalen haar agenda.
   Zij zijn verplicht de algemene vergadering van aandeelhouders binnen drie weken bijeen te roepen wanneer
  obligatiehouders die een vijfde van het bedrag van de in omloop zijnde effecten vertegenwoordigen, dat vragen,
@@ -14632,7 +14873,9 @@ De oproeping tot de algemene vergadering van obligatiehouders bevat de agenda en
 
   Afdeling 4. Deelneming aan de algemene vergadering van obligatiehouders.
 
-   Art. 7:166.Tenzij de statuten of de uitgiftevoorwaarden anders bepalen wordt het recht deel te nemen aan de
+## Art. 7:166
+
+Tenzij de statuten of de uitgiftevoorwaarden anders bepalen wordt het recht deel te nemen aan de
  algemene vergadering van obligatiehouders verleend, hetzij op grond van de inschrijving van de obligatiehouder
  in het register van de obligaties op naam van de vennootschap, hetzij op grond van de neerlegging van een door
  de erkende rekeninghouder of door [1 de centrale effectenbewaarinstelling]1 opgesteld attest waarbij de
@@ -14641,12 +14884,13 @@ De oproeping tot de algemene vergadering van obligatiehouders bevat de agenda en
  vastgestelde termijn, maar ten minste drie werkdagen en ten hoogste zes werkdagen vóór de datum bepaald
  voor de bijeenkomst van de algemene vergadering van obligatiehouders. Bij gebrek aan enige vermelding terzake
  in de statuten verstrijkt de termijn op de derde dag voor de datum bepaald voor de bijeenkomst van de algemene
-Pagina 231 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vergadering van obligatiehouders.
   ----------
   (1)<W 2021-06-27/09, art. 317, 006; Inwerkingtreding : 19-07-2021>
 
-  Art. 7:167.[1 Het bestuursorgaan kan]1 de in artikel 7:137 bedoelde regeling voor deelname op afstand, onder
+## Art. 7:167
+
+[1 Het bestuursorgaan kan]1 de in artikel 7:137 bedoelde regeling voor deelname op afstand, onder
  dezelfde voorwaarden, uitbreiden tot de algemene vergadering van obligatiehouders.
   ----------
   (1)<W 2020-12-20/02, art. 34, 005; Inwerkingtreding : 24-12-2020>
@@ -14728,7 +14972,6 @@ Het openbaar verzoek tot verlening van volmachten is aan de volgende voorwaarden
   c) de mededeling in welke zin de gemachtigde zijn stemrecht zal uitoefenen;
   d) een omstandige omschrijving en verantwoording van de doelstelling van degene die om een volmacht
  verzoekt.
-Pagina 232 van 332 Copyright Belgisch S taatsblad 23-01-2026
    De gemachtigde kan van de instructies van zijn lastgever afwijken, hetzij wegens omstandigheden die op het
  tijdstip dat de instructies zijn gegeven niet bekend waren, hetzij wanneer de uitvoering van die instructies de
  belangen van de lastgever zou kunnen schaden. De gemachtigde moet zijn lastgever daarvan in kennis stellen.
@@ -14768,7 +15011,9 @@ Aandelen kunnen worden uitgegeven onder, boven of met de fractiewaarde van de be
  aandelen zonder nominale waarde van dezelfde soort gelijk, ongeacht of zij boven, onder of met de
  fractiewaarde van aandelen van dezelfde soort worden uitgegeven.
 
-  Art. 7:179.§ 1. Het bestuursorgaan stelt een verslag op over de verrichting, dat inzonderheid de uitgifteprijs
+## Art. 7:179
+
+§ 1. Het bestuursorgaan stelt een verslag op over de verrichting, dat inzonderheid de uitgifteprijs
  verantwoordt en de gevolgen van de verrichting voor de vermogens- en lidmaatschapsrechten van de
  aandeelhouders beschrijft.
   De commissaris of, als er geen commissaris is, een bedrijfsrevisor of een [1 gecertificeerd accountant]1
@@ -14787,7 +15032,9 @@ Aandelen kunnen worden uitgegeven onder, boven of met de fractiewaarde van de be
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 7:180.In geval van uitgifte van converteerbare obligaties of van inschrijvingsrechten verantwoordt het
+## Art. 7:180
+
+In geval van uitgifte van converteerbare obligaties of van inschrijvingsrechten verantwoordt het
  bestuursorgaan de voorgestelde verrichting in een verslag. Dat verslag verantwoordt ook de uitgifteprijs en
  beschrijft de gevolgen van de verrichting voor de vermogens- en lidmaatschapsrechten van de aandeelhouders.
    De commissaris, of, als er geen commissaris is, een bedrijfsrevisor of een [1 gecertificeerd accountant]1
@@ -14801,7 +15048,6 @@ Aandelen kunnen worden uitgegeven onder, boven of met de fractiewaarde van de be
  bedoelde beoordeling bevat ontbreekt, is het besluit van de algemene vergadering nietig.
    ----------
    (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
-Pagina 233 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:181
 
 Indien de kapitaalverhoging niet volledig is geplaatst, wordt het kapitaal slechts verhoogd met het
@@ -14852,7 +15098,9 @@ Indien de totstandkoming van de verhoging niet gelijktijdig gebeurt met het besl
  aangaande de inschrijving en de volstorting van het kapitaal. Die akte wordt neergelegd en bekendgemaakt
  overeenkomstig de artikelen 2:8 en 2:14, 4°.
 
-   Art. 7:187.Wanneer het kapitaal wordt verhoogd ten gevolge van een conversie van converteerbare obligaties
+## Art. 7:187
+
+Wanneer het kapitaal wordt verhoogd ten gevolge van een conversie van converteerbare obligaties
  in aandelen, van een vervanging van obligaties door aandelen overeenkomstig artikel 7:162, 3°, of van een
  inschrijving op aandelen in geval van uitoefening van het inschrijvingsrecht worden de conversie, de vervanging
  of de inschrijving, de daaruit voortvloeiende verhoging van het kapitaal en het aantal ter vertegenwoordiging van
@@ -14883,7 +15131,6 @@ De aandelen waarop in geld wordt ingeschreven, de converteerbare obligaties en d
  gebruik hebben gemaakt.
    Het voorkeurrecht bedoeld in het eerste lid geldt onverkort bij de uitgifte van aandelen van een nieuwe soort,
  ongeacht het bestaan van verschillende soorten van aandelen.
-Pagina 234 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:189
 
 Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vijftien dagen te
@@ -14914,7 +15161,9 @@ Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vi
 
 Het voorkeurrecht kan niet door de statuten worden beperkt of opgeheven.
 
-   Art. 7:191.De algemene vergadering die moet beraadslagen en besluiten over de kapitaalverhoging, over de
+## Art. 7:191
+
+De algemene vergadering die moet beraadslagen en besluiten over de kapitaalverhoging, over de
  uitgifte van converteerbare obligaties of over de uitgifte van inschrijvingsrechten, kan met naleving van de
  aanwezigheids- en meerderheidsvereisten voorgeschreven voor een statutenwijziging, in het belang van de
  vennootschap het voorkeurrecht beperken of opheffen. Het voorstel daartoe moet speciaal in de oproeping
@@ -14947,7 +15196,9 @@ Er is geen opheffing of beperking van het voorkeurrecht wanneer de aandelen, ove
  doen van dat voorkeurrecht. De afstand van het voorkeurrecht van iedere aandeelhouder wordt opgenomen in
  de authentieke akte met betrekking tot het besluit om het kapitaal te verhogen.
 
-  Art. 7:193.§ 1. Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer bepaalde
+## Art. 7:193
+
+§ 1. Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van een of meer bepaalde
  personen die niet behoren tot het personeel, moet de identiteit van de begunstigde of de begunstigden van de
  beperking of de opheffing van het voorkeurrecht worden vermeld in het door het bestuursorgaan op te stellen
  verslag, alsook in de oproeping.
@@ -14957,7 +15208,6 @@ Er is geen opheffing of beperking van het voorkeurrecht wanneer de aandelen, ove
   In het in artikel 7:191, derde lid, bedoelde verslag verstrekt de commissaris een omstandige beoordeling over
  de verantwoording van de uitgifteprijs. Als er geen commissaris is, wordt deze beoordeling verstrekt door een
  bedrijfsrevisor of een [1 gecertificeerd accountant]1 aangewezen door het bestuursorgaan.
-Pagina 235 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Wanneer de verantwoording bedoeld in het tweede lid, of de beoordeling bedoeld in het derde lid, ontbreekt, is
  het besluit van de algemene vergadering nietig.
    Indien een begunstigde effecten van de vennootschap in zijn bezit houdt waaraan meer dan 10 % van de
@@ -15011,7 +15261,9 @@ Bij beperking of opheffing van het voorkeurrecht kan de algemene vergadering bep
 
   Onderafdeling 3. Storting van de inbreng in geld.
 
-  Art. 7:195.In geval van inbreng in geld, te storten bij het verlijden van de akte die de kapitaalverhoging vaststelt,
+## Art. 7:195
+
+In geval van inbreng in geld, te storten bij het verlijden van de akte die de kapitaalverhoging vaststelt,
  wordt dat geld tevoren bij storting of overschrijving gedeponeerd op een bijzondere rekening, ten name van de
  vennootschap geopend bij een in de Europese Economische Ruimte gevestigde kredietinstelling als bedoeld in
  artikel 4, lid 1, punt 1), van verordening (EU) nr. 575/2013. Een bewijs van die deponering wordt overhandigd
@@ -15028,7 +15280,6 @@ Bij beperking of opheffing van het voorkeurrecht kan de algemene vergadering bep
   (1)<W 2021-07-12/01, art. 24, 007; Inwerkingtreding : 25-07-2021>
 
   Afdeling 3. Kapitaalverhoging bij wijze van inbreng in natura.
-Pagina 236 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:196
 
 Inbreng in natura komt slechts in aanmerking voor vergoeding door aandelen, indien hij bestaat uit
@@ -15100,7 +15351,6 @@ Inbreng in natura komt slechts in aanmerking voor vergoeding door aandelen, indi
  inlichtingen worden vermeld:
    1° een beschrijving van de desbetreffende inbreng in natura;
    2° de naam van de inbrenger;
-Pagina 237 van 332 Copyright Belgisch S taatsblad 23-01-2026
   3° de waarde van deze inbreng, de herkomst van deze waardering, en in voorkomend geval, de
  waarderingsmethode;
   4° de nominale waarde van de aandelen of, bij gebrek aan een nominale waarde, het aantal aandelen die tegen
@@ -15115,7 +15365,9 @@ Pagina 237 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Onderafdeling 1. Beginselen.
 
-   Art. 7:198.De statuten kunnen [1 , naar gelang van het geval, aan de raad van bestuur, de enige bestuurder
+## Art. 7:198
+
+De statuten kunnen [1 , naar gelang van het geval, aan de raad van bestuur, de enige bestuurder
  of]1 de raad van toezicht de bevoegdheid toekennen om het geplaatste kapitaal in één of meer malen [1 met een
  bepaald]1 bedrag te verhogen, dat, voor genoteerde vennootschappen, niet hoger mag zijn dan het bedrag van
  dat kapitaal.
@@ -15148,7 +15400,9 @@ De bevoegdheid bedoeld in artikel 7:198 kan slechts worden uitgeoefend gedurende
 
   Onderafdeling 2. Beperkingen.
 
-  Art. 7:200.Tenzij de machtiging daarin uitdrukkelijk voorziet, kan het bestuursorgaan de bevoegdheid bedoeld in
+## Art. 7:200
+
+Tenzij de machtiging daarin uitdrukkelijk voorziet, kan het bestuursorgaan de bevoegdheid bedoeld in
  artikel 7:198 niet gebruiken voor de volgende verrichtingen:
   1° de kapitaalverhogingen of de uitgiften van converteerbare obligaties of van inschrijvingsrechten waarbij het
  voorkeurrecht van de aandeelhouders is beperkt of uitgesloten;
@@ -15161,7 +15415,9 @@ De bevoegdheid bedoeld in artikel 7:198 kan slechts worden uitgeoefend gedurende
   ----------
   (1)<W 2020-04-28/06, art. 169, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 7:201.Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 7:198 niet gebruiken voor de volgende
+## Art. 7:201
+
+Het bestuursorgaan mag de bevoegdheid bedoeld in artikel 7:198 niet gebruiken voor de volgende
  verrichtingen:
   1° de uitgifte van inschrijvingsrechten die in hoofdzaak is bestemd voor één of meer bepaalde personen,
  andere dan de leden van het personeel;
@@ -15170,7 +15426,6 @@ De bevoegdheid bedoeld in artikel 7:198 kan slechts worden uitgeoefend gedurende
   3° kapitaalverhogingen die voornamelijk tot stand worden gebracht door een inbreng in natura uitsluitend
  voorbehouden aan een aandeelhouder van de vennootschap die effecten van deze vennootschap in zijn bezit
  houdt waaraan meer dan 10 % van de stemrechten verbonden zijn.
-Pagina 238 van 332 Copyright Belgisch S taatsblad 23-01-2026
   4° de uitgifte van een nieuwe soort van effecten.
   Voor de berekening van de drempel voor de stemrechten bedoeld in het eerste lid, 3°, worden de effecten
  bedoeld in [1 artikel 7:193]1, § 1, zesde en zevende lid, gevoegd bij de effecten in bezit gehouden door een
@@ -15218,7 +15473,9 @@ Wanneer het bestuursorgaan besluit tot een kapitaalverhoging, een uitgifte van c
 
   Afdeling 5. Kapitaalverhoging ten gunste van het personeel.
 
-  Art. 7:204.§ 1. Een vennootschap die in de loop van de laatste drie boekjaren ten minste twee dividenden heeft
+## Art. 7:204
+
+§ 1. Een vennootschap die in de loop van de laatste drie boekjaren ten minste twee dividenden heeft
  uitgekeerd, kan tot kapitaalverhoging overgaan door de uitgifte van aandelen met stemrecht, die geheel of
  gedeeltelijk zijn bestemd voor het personeel.
   Over het beginsel om over te gaan tot de in het eerste lid bedoelde verrichting moet overleg worden gepleegd in
@@ -15243,7 +15500,6 @@ Wanneer het bestuursorgaan besluit tot een kapitaalverhoging, een uitgifte van c
   4° de uitgifteprijs van die aandelen die niet lager mag zijn dan 80 % van de prijs die in het verslag van het
  bestuursorgaan en door het verslag van de commissaris, bedrijfsrevisor of [2 gecertificeerd accountant]2,
  bedoeld in artikel 7:191, wordt gerechtvaardigd.
-Pagina 239 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Ten minste tien dagen voor de opening van de inschrijving moeten alle leden van het personeel die voor
  inschrijving in aanmerking komen, worden ingelicht over de voorgestelde voorwaarden. Zij kunnen de in de
  artikelen 3:10 en 3:12 bedoelde documenten van de vennootschap verkrijgen.
@@ -15320,9 +15576,10 @@ Indien het kapitaal wordt verminderd door een terugbetaling aan de aandeelhouder
  van twee maanden hun rechten hebben doen gelden, geen voldoening hebben gekregen, tenzij hun aanspraak
  om zekerheid te verkrijgen bij een uitvoerbare rechterlijke beslissing is afgewezen.
 
-  Art. 7:210.Artikel 7:209 is niet van toepassing op de kapitaalverminderingen ter aanzuivering van een geleden
+## Art. 7:210
+
+Artikel 7:209 is niet van toepassing op de kapitaalverminderingen ter aanzuivering van een geleden
  verlies of om een reserve te vormen tot dekking van een voorzienbaar verlies of om een onbeschikbare reserve
-Pagina 240 van 332 Copyright Belgisch S taatsblad 23-01-2026
  aan te leggen overeenkomstig artikel [1 7:217]1, § 2.
   De reserve die wordt gevormd om een voorzienbaar verlies te dekken, mag niet hoger zijn dan 10 % van het
  geplaatste kapitaal, na de vermindering daarvan. Deze reserve mag, behoudens in geval van een latere
@@ -15382,7 +15639,9 @@ De statuten kunnen aan het bestuursorgaan de bevoegdheid verlenen om uit het res
 
   Onderafdeling 4. Sanctie.
 
-  Art. 7:214.De aandeelhouders [1 en alle andere personen]1 moeten elke uitkering die zij in strijd met de artikelen
+## Art. 7:214
+
+De aandeelhouders [1 en alle andere personen]1 moeten elke uitkering die zij in strijd met de artikelen
  7:212 en 7:213 hebben ontvangen, terugstorten indien de vennootschap bewijst dat de aandeelhouders [1 of alle
  andere personen ten behoeve van wie de uitkering is beslist]1 van de onregelmatigheid op de hoogte waren of
  daarvan, gezien de omstandigheden, niet onkundig konden zijn.
@@ -15393,10 +15652,11 @@ De statuten kunnen aan het bestuursorgaan de bevoegdheid verlenen om uit het res
 
   Onderafdeling 1. Verkrijging van eigen aandelen, winstbewijzen of certificaten door de vennootschap zelf.
 
-  Art. 7:215.§ 1. De vennootschap mag slechts, hetzij zelf, hetzij door personen die handelen in eigen naam maar
+## Art. 7:215
+
+§ 1. De vennootschap mag slechts, hetzij zelf, hetzij door personen die handelen in eigen naam maar
  voor rekening van de vennootschap, door aankoop of ruil eigen aandelen of winstbewijzen of certificaten die
  daarop betrekking hebben, verkrijgen of inschrijven op certificaten na de uitgifte van de daarmee
-Pagina 241 van 332 Copyright Belgisch S taatsblad 23-01-2026
  overeenstemmende aandelen of winstbewijzen, onder de volgende voorwaarden:
    1° de verkrijging is toegelaten door een voorafgaand besluit van de algemene vergadering, genomen met
  naleving van de aanwezigheids- en meerderheidsvereisten voorgeschreven voor een statutenwijziging;
@@ -15467,7 +15727,6 @@ Artikel 7:215 is niet van toepassing:
  vermogensovergang onder algemene titel;
   3° op al dan niet volgestorte aandelen, winstbewijzen of certificaten die betrekking hebben op al dan niet
  volgestorte aandelen en winstbewijzen, verkregen bij een verkoop die overeenkomstig de artikelen 1494 en
-Pagina 242 van 332 Copyright Belgisch S taatsblad 23-01-2026
  volgende van het Gerechtelijk Wetboek plaatsvindt ter voldoening van een schuld van de eigenaar van die
  aandelen, winstbewijzen of certificaten aan de vennootschap.
 
@@ -15544,7 +15803,6 @@ Pagina 242 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 7:220
 
 § 1. Het jaarverslag van de vennootschap die zelf of door een persoon die in eigen naam maar voor
-Pagina 243 van 332 Copyright Belgisch S taatsblad 23-01-2026
  rekening van de vennootschap handelt of door een rechtstreeks gecontroleerde dochtervennootschap als
  bedoeld in artikel 7:221, hetzij zelf, hetzij door de persoon die in eigen naam maar voor rekening van de
  dochtervennootschap handelt, eigen aandelen, winstbewijzen of certificaten heeft verkregen, vermeldt ten
@@ -15623,7 +15881,6 @@ Elke dochtervennootschap geeft haar moedervennootschap kennis van het aantal en 
  de door deze laatste uitgegeven effecten met stemrecht en van de certificaten met betrekking tot deze effecten
  met stemrecht die zij in bezit heeft en ook van elke wijziging in haar effectenportefeuille.
   Die kennisgevingen gebeuren binnen twee dagen te rekenen, hetzij van de dag waarop de nieuw gecontroleerde
-Pagina 244 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennootschap in kennis is gesteld van de verkrijging van de controle, met betrekking tot de effecten die zij voor
  die datum in haar bezit had, hetzij van de dag van de verrichting, met betrekking tot latere verkrijgingen of
  vervreemdingen.
@@ -15698,7 +15955,6 @@ Wanneer ten gevolge van geleden verlies het nettoactief gedaald is tot minder da
  kapitaal, moet het bestuursorgaan de algemene vergadering, tenzij strengere bepalingen in de statuten,
  oproepen tot een vergadering, te houden binnen twee maanden nadat het verlies is vastgesteld of krachtens
  wettelijke of statutaire bepalingen had moeten worden vastgesteld om te besluiten over de ontbinding van de
-Pagina 245 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennootschap of over in de agenda aangekondigde maatregelen om de continuïteit van de vennootschap te
  vrijwaren.
    Tenzij het bestuursorgaan de ontbinding van de vennootschap voorstelt overeenkomstig artikel 7:230, zet het
@@ -15723,7 +15979,9 @@ Wanneer het nettoactief is gedaald tot beneden 61 500 euro, kan iedere belangheb
 
   TITEL 6. Duur en ontbinding.
 
-  Art. 7:230.Tenzij de statuten anders bepalen, zijn de naamloze vennootschappen voor onbepaalde duur
+## Art. 7:230
+
+Tenzij de statuten anders bepalen, zijn de naamloze vennootschappen voor onbepaalde duur
  aangegaan.
   Wanneer de duur bepaald is, kan voor verlenging tot een bepaalde of onbepaalde duur worden besloten door
  de algemene vergadering volgens de regels die voor de statutenwijziging zijn gesteld.
@@ -15774,13 +16032,14 @@ Een vennootschap onder firma kan onder door de Koning te bepalen voorwaarden wor
  "landbouwonderneming" toe, en wordt zij afgekort als "CommVLO".
    Een besloten vennootschap kan worden erkend als een landbouwonderneming onder door de Koning te
  bepalen voorwaarden. In dat geval voegt zij aan de benaming van haar rechtsvorm de woorden
-Pagina 246 van 332 Copyright Belgisch S taatsblad 23-01-2026
  "landbouwonderneming" toe, en wordt zij afgekort als "BVLO".
    Een coöperatieve vennootschap kan worden erkend als een landbouwonderneming onder door de Koning te
  bepalen voorwaarden. In dat geval voegt zij aan de benaming van haar rechtsvorm de woorden
  "landbouwonderneming" toe, en wordt zij afgekort als "CVLO".
 
-  Art. 8:3.Voor de toepassing van de pachtwet wordt de uitbating als werkende vennoot in een VOFLO, als
+## Art. 8:3
+
+Voor de toepassing van de pachtwet wordt de uitbating als werkende vennoot in een VOFLO, als
  gecommanditeerde vennoot in een CommVLO, of als bestuurder in een BVLO of een CVLO, gelijkgesteld met
  diens persoonlijke uitbating. Dit geldt zowel ten aanzien van de pachter als de verpachter, wier rechten en
  plichten onverkort blijven voortbestaan.
@@ -15801,7 +16060,9 @@ Pagina 246 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   TITEL 3. De erkenning van de coöperatieve vennootschap, al dan niet als sociale onderneming.
 
-  Art. 8:4.Een coöperatieve vennootschap wiens voornaamste doel erin bestaat om haar aandeelhouders een
+## Art. 8:4
+
+Een coöperatieve vennootschap wiens voornaamste doel erin bestaat om haar aandeelhouders een
  economisch of sociaal voordeel te verschaffen ter bevrediging van hun beroeps- of persoonlijke behoeften kan
  worden erkend in toepassing van de [1 wet van 3 mei 2024 houdende instelling van een Nationale Raad voor de
  coöperatie en de sociale onderneming]1 en haar uitvoeringsbesluiten. Zij voegt aan de benaming van haar
@@ -15814,7 +16075,9 @@ Pagina 246 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2024-05-03/39, art. 2, 020; Inwerkingtreding : 21-06-2024>
 
-   Art. 8:5.§ 1. Een coöperatieve vennootschap kan, in toepassing van de [1 wet van 3 mei 2024 houdende
+## Art. 8:5
+
+§ 1. Een coöperatieve vennootschap kan, in toepassing van de [1 wet van 3 mei 2024 houdende
  instelling van een Nationale Raad voor de coöperatie en de sociale onderneming]1 worden erkend als sociale
  onderneming wanneer zij aan de volgende voorwaarden voldoet:
    1° zij heeft hoofdzakelijk tot doel, in het algemeen belang, een positieve maatschappelijke impact te
@@ -15845,7 +16108,6 @@ Pagina 246 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 8:6
 
 De ondernemingsrechtbank kan op verzoek van de minister bevoegd voor Economie, het openbaar
-Pagina 247 van 332 Copyright Belgisch S taatsblad 23-01-2026
  ministerie of elke belanghebbende de ontbinding uitspreken van een vennootschap die zich voordoet als een
  landbouwonderneming hoewel zij niet is erkend.
    In voorkomend geval kan de rechtbank een termijn aan de vennootschap toestaan om haar toestand te
@@ -15926,7 +16188,6 @@ De nietigheid van de vereniging kan alleen in de hiernavolgende gevallen worden 
 De vereniging wordt bestuurd door een collegiaal bestuursorgaan, dat minstens drie bestuurders telt,
  die natuurlijke of rechtspersonen zijn.
   Indien en zolang de vereniging minder dan drie leden heeft, mag het bestuursorgaan bestaan uit twee
-Pagina 248 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bestuurders. Zolang het bestuursorgaan tweehoofdig is, verliest elke bepaling die aan een lid van het
  bestuursorgaan een doorslaggevende stem toekent, van rechtswege haar werking.
 
@@ -16003,8 +16264,9 @@ De besluiten van het bestuursorgaan kunnen bij eenparig schriftelijk besluit van
  vertegenwoordigingsbevoegde leden van het bestuursorgaan.
 
   Afdeling 3. Dagelijks bestuur.
-Pagina 249 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 9:10.[1 Het bestuursorgaan kan]1 het dagelijks bestuur van de vereniging, alsook de vertegenwoordiging
+## Art. 9:10
+
+[1 Het bestuursorgaan kan]1 het dagelijks bestuur van de vereniging, alsook de vertegenwoordiging
  van de vereniging wat dat bestuur aangaat, [1 ...]1 opdragen aan een of meer personen, die elk alleen,
  gezamenlijk of als college optreden. Het bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld is
  belast met het toezicht op dit orgaan.
@@ -16080,7 +16342,6 @@ Alle leden, bestuurders en commissarissen worden ten minste vijftien dagen vóó
 ## Art. 9
 
 [1 De leden kunnen eenparig en schriftelijk alle besluiten nemen die tot de bevoegdheid van de algemene
-Pagina 250 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vergadering behoren, met uitzondering van statutenwijzigingen. In dat geval dienen de formaliteiten van
  bijeenroeping niet te worden vervuld. De leden van het bestuursorgaan en, in voorkomend geval, de
  commissaris, mogen op hun verzoek van die besluiten kennis nemen.]1
@@ -16099,7 +16360,9 @@ De leden kunnen zich op de algemene vergadering laten vertegenwoordigen door een
 Wanneer de algemene vergadering beraadslaagt op grond van een door de commissaris opgesteld
  verslag, neemt hij deel aan de vergadering.
 
-   Art. 9:16/1.[1 § 1. Het bestuursorgaan kan de leden de mogelijkheid bieden om op afstand deel te nemen aan de
+## Art. 9:16/1
+
+[1 § 1. Het bestuursorgaan kan de leden de mogelijkheid bieden om op afstand deel te nemen aan de
  algemene vergadering door middel van een door de VZW ter beschikking gesteld elektronisch
  communicatiemiddel. Wat de naleving van de voorwaarden inzake aanwezigheid en meerderheid betreft, worden
  de leden die op die manier aan de algemene vergadering deelnemen, geacht aanwezig te zijn op de plaats waar
@@ -16138,7 +16401,9 @@ Wanneer de algemene vergadering beraadslaagt op grond van een door de commissari
 
 Tenzij de statuten anders bepalen, heeft ieder lid op de algemene vergadering een gelijk stemrecht.
 
-   Art. 9:18.De bestuurders geven antwoord op de vragen die hun door de leden, vooraf of tijdens de
+## Art. 9:18
+
+De bestuurders geven antwoord op de vragen die hun door de leden, vooraf of tijdens de
  vergadering, mondeling of schriftelijk, worden gesteld en die verband houden met de agendapunten. Zij kunnen,
  in het belang van de vereniging, weigeren op vragen te antwoorden wanneer de mededeling van bepaalde
  gegevens of feiten de vereniging schade kan berokkenen of in strijd is met de door de vereniging aangegane
@@ -16153,7 +16418,6 @@ Tenzij de statuten anders bepalen, heeft ieder lid op de algemene vergadering ee
    De bestuurders en de commissaris kunnen hun antwoord op verschillende vragen over hetzelfde onderwerp
  groeperen.
    ----------
-Pagina 251 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 181, 002; Inwerkingtreding : 06-05-2020>
 
   Afdeling 2. De gewone algemene vergadering.
@@ -16234,7 +16498,6 @@ Elk lid van de vereniging is vrij uit te treden door zijn ontslag in te dienen b
   5° de aankopen van vee, machines en andere werktuigen, en, in het algemeen, van alle voorwerpen bestemd
  om de eigendom te blijven van de vereniging om te worden gebruikt door haar leden, bij verhuring of anders,
  met het oog op de uitoefening van hun beroep of van hun ambacht.
-Pagina 252 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Om te worden erkend moeten de statuten van de vereniging bovendien het volgende vermelden:
    1° de voorwaarden voor de in- en uittrede van de verschillende door de statuten erkende categorieën van
  leden; ieder lid heeft het recht te allen tijde de vereniging te verlaten; deze laatste kan, in voorkomend geval,
@@ -16268,7 +16531,9 @@ Alle akten of stukken uitgaande van de vereniging erkend als beroepsvereniging o
 
   TITEL 6. Buitenlandse verenigingen.
 
-  Art. 9:27.De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige belanghebbende
+## Art. 9:27
+
+De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige belanghebbende
  de sluiting bevelen van een Belgisch bijkantoor van een buitenlandse vereniging met rechtspersoonlijkheid
  waarvan de activiteiten op ernstige wijze strijdig zijn met de statuten van de vereniging waarvan het afhangt, of
  met de wet of met de openbare orde. De vereniging, het openbaar ministerie of elke belanghebbende legt de in
@@ -16311,7 +16576,6 @@ De nietigheid van de vereniging kan alleen in de hiernavolgende gevallen worden 
   5° wanneer zij is opgericht met als doel rechtstreekse of onrechtstreekse vermogensvoordelen als bedoeld in
  artikel 1:4 te verschaffen aan haar leden, haar toegetreden leden, aan de leden van haar bestuursorgaan of aan
  enig andere persoon, behalve voor het in de statuten bepaald belangeloos doel.
-Pagina 253 van 332 Copyright Belgisch S taatsblad 23-01-2026
   TITEL 2. Organen.
 
   HOOFDSTUK 1. De algemene vergadering van leden.
@@ -16355,7 +16619,9 @@ Onverminderd de in de statuten bepaalde wijze van bijeenroeping, kan, in voorkom
 Wanneer de algemene vergadering beraadslaagt op grond van een door de commissaris opgesteld
  verslag, neemt hij deel aan de vergadering.
 
-   Art. 10:7/1.[1 § 1. Het bestuursorgaan kan de leden de mogelijkheid bieden om op afstand deel te nemen aan de
+## Art. 10:7/1
+
+[1 § 1. Het bestuursorgaan kan de leden de mogelijkheid bieden om op afstand deel te nemen aan de
  algemene vergadering door middel van een door de IVZW ter beschikking gesteld elektronisch
  communicatiemiddel. Wat de naleving van de voorwaarden inzake aanwezigheid en meerderheid betreft, worden
  de leden die op die manier aan de algemene vergadering deelnemen, geacht aanwezig te zijn op de plaats waar
@@ -16384,7 +16650,6 @@ Wanneer de algemene vergadering beraadslaagt op grond van een door de commissari
  vergadering, volgens de statutair bepaalde modaliteiten.
    Als de IVZW stemmen op afstand vóór de algemene vergadering langs elektronische weg toestaat, moet zij in
  staat zijn de hoedanigheid en de identiteit van het lid te controleren, op de bij of krachtens de statuten bepaalde
-Pagina 254 van 332 Copyright Belgisch S taatsblad 23-01-2026
  wijze.]1
   ----------
   (1)<Ingevoegd bij W 2020-12-20/02, art. 41, 005; Inwerkingtreding : 24-12-2020>
@@ -16464,7 +16729,6 @@ Indien ongewijzigde handhaving van de statuten gevolgen zou hebben die de sticht
 ## Art. 11:5
 
 De nietigheid van een stichting kan alleen in de hiernavolgende gevallen worden uitgesproken:
-Pagina 255 van 332 Copyright Belgisch S taatsblad 23-01-2026
   1° wanneer de oprichtingsakte niet werd opgemaakt in de vereiste vorm;
   2° wanneer de statuten de vermeldingen bedoeld in artikel 2:11, § 2, 2° en 3°, niet bevatten;
   3° wanneer het doel of het voorwerp waarvoor zij is opgericht, of haar werkelijk doel of voorwerp, strijdig is met
@@ -16486,7 +16750,9 @@ De stichting wordt bestuurd door één of meer bestuurders, die natuurlijke of r
 
   Afdeling 2. Bevoegdheid en werkwijze.
 
-  Art. 11:7.§ 1. Het bestuursorgaan is bevoegd om alle handelingen te verrichten die nodig of dienstig zijn tot
+## Art. 11:7
+
+§ 1. Het bestuursorgaan is bevoegd om alle handelingen te verrichten die nodig of dienstig zijn tot
  verwezenlijking van het voorwerp van de stichting.
   De bestuurders kunnen overeenkomen de taken onderling te verdelen. Zodanige taakverdeling kan niet aan
  derden worden tegengeworpen, ook al is ze openbaar gemaakt.
@@ -16541,7 +16807,6 @@ De besluiten van het bestuursorgaan kunnen bij eenparig schriftelijk besluit van
   De statuten kunnen bepalen dat een bestuurder zich op een vergadering van het bestuursorgaan door een
  ander bestuurder kan laten vertegenwoordigen.
 
-Pagina 256 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 11:11
 
 Het bestuursorgaan is bevoegd voor de benoeming en de ambtsbeëindiging van de commissaris.
@@ -16565,7 +16830,9 @@ De ondernemingsrechtbank van het rechtsgebied waar de stichting haar zetel heeft
 
   Afdeling 3. Dagelijks bestuur.
 
-  Art. 11:14.[1 Het bestuursorgaan kan]1 het dagelijks bestuur van de stichting, alsook de vertegenwoordiging
+## Art. 11:14
+
+[1 Het bestuursorgaan kan]1 het dagelijks bestuur van de stichting, alsook de vertegenwoordiging
  van de stichting wat dat bestuur aangaat, [1 ...]1 opdragen aan een of meer personen, die elk alleen, gezamenlijk
  of als college optreden. Het bestuursorgaan dat het orgaan van dagelijks bestuur heeft aangesteld is belast met
  het toezicht op dit orgaan.
@@ -16598,7 +16865,9 @@ Met uitzondering van handgiften, behoeft elke gift onder de levenden aan de stic
 
   TITEL 4. Buitenlandse stichtingen.
 
-  Art. 11:16.De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
+## Art. 11:16
+
+De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
  belanghebbende de sluiting bevelen van een Belgisch bijkantoor van een buitenlandse stichting waarvan de
  activiteiten op ernstige wijze strijdig zijn met de statuten van de stichting waarvan het afhangt, of strijdig zijn met
  de wet of met de openbare orde. De stichting, het openbaar ministerie of elke belanghebbende legt de in kracht
@@ -16620,7 +16889,6 @@ Met uitzondering van handgiften, behoeft elke gift onder de levenden aan de stic
 ## Art. 12:1
 
 § 1. Dit boek is van toepassing op alle vennootschappen met rechtspersoonlijkheid die dit wetboek
-Pagina 257 van 332 Copyright Belgisch S taatsblad 23-01-2026
  regelt.
   Naar analogie is artikel 12:103 echter van toepassing op elke, al dan niet bij dit wetboek bedoelde,
  rechtspersoon die expliciet kiest voor de toepassing ervan in de bij dit artikel bedoelde vormen.
@@ -16699,8 +16967,9 @@ Gemengde splitsing is de rechtshandeling waarbij het gehele vermogen van een ven
  opleg in geld als bedoeld in de artikelen 12:4 en 12:5.
 
   Afdeling 3. Gelijkgestelde verrichtingen.
-Pagina 258 van 332 Copyright Belgisch S taatsblad 23-01-2026
-   Art. 12:7.[1 Tenzij anders bij wet bepaald, wordt met fusie door overneming gelijkgesteld:
+## Art. 12:7
+
+[1 Tenzij anders bij wet bepaald, wordt met fusie door overneming gelijkgesteld:
     1° de rechtshandeling waarbij het gehele vermogen van één of meer vennootschappen, zowel de rechten als
  de verplichtingen, als gevolg van ontbinding zonder vereffening overgaat op een andere vennootschap, wanneer
  al hun aandelen en andere stemrechtverlenende effecten in handen zijn ofwel van die andere vennootschap,
@@ -16714,7 +16983,9 @@ Pagina 258 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2023-05-25/04, art. 5, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 12:8.Worden met splitsing gelijkgesteld:
+## Art. 12:8
+
+Worden met splitsing gelijkgesteld:
    1° de rechtshandeling waarbij een deel van het vermogen van een vennootschap, zowel de rechten als de
  verplichtingen, zonder ontbinding op één of meer bestaande vennootschappen of door haar opgerichte
  vennootschappen overgaat tegen uitreiking aan de vennoten of aandeelhouders van de [1 gesplitste]1
@@ -16773,8 +17044,9 @@ Fusie of splitsing kan ook plaatsvinden wanneer één of meer vennootschappen wa
 
   Afdeling 2. Rechtsgevolgen van een fusie of een splitsing.
 
-  Art. 12:13.De fusie of splitsing heeft van rechtswege en gelijktijdig de volgende rechtsgevolgen:
-Pagina 259 van 332 Copyright Belgisch S taatsblad 23-01-2026
+## Art. 12:13
+
+De fusie of splitsing heeft van rechtswege en gelijktijdig de volgende rechtsgevolgen:
   1° in afwijking van artikel 2:76, eerste lid, houden de ontbonden vennootschappen op te bestaan; evenwel
  worden voor de toepassing van de artikelen 2:44, 12:19 en 12:20 de ontbonden vennootschappen geacht te
  bestaan gedurende de in artikel [1 2:143, § 4]1, bepaalde termijn van zes maanden en, als een vordering tot
@@ -16808,7 +17080,9 @@ Pagina 259 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 3. Tegenwerpelijkheid van de fusie of splitsing.
 
-  Art. 12:14.De fusie of splitsing kan aan derden slechts worden tegengeworpen overeenkomstig artikel 2:18.
+## Art. 12:14
+
+De fusie of splitsing kan aan derden slechts worden tegengeworpen overeenkomstig artikel 2:18.
   De akten bedoeld in artikel [1 3.30 van het Burgerlijk Wetboek]1 en de akten bedoeld in de hoofdstukken II en III
  van titel I, boek II, van het Wetboek van koophandel en in artikel 272 van boek II van hetzelfde wetboek, kunnen
  aan derden slechts worden tegengeworpen overeenkomstig de bijzondere wetten ter zake. Daartoe moeten de
@@ -16844,7 +17118,6 @@ Pagina 259 van 332 Copyright Belgisch S taatsblad 23-01-2026
  de waarborgen en voorrechten waarover de schuldeiser beschikt of op de solvabiliteit van de verkrijgende
  vennootschap.
   Indien de zekerheid niet binnen de bepaalde termijn is gesteld, wordt de schuldvordering onverwijld opeisbaar,
-Pagina 260 van 332 Copyright Belgisch S taatsblad 23-01-2026
  en zijn, bij splitsing, de verkrijgende vennootschappen hoofdelijk gehouden tot nakoming van deze verbintenis.
   § 2. Paragraaf 1 is niet van toepassing bij fusies van financiële instellingen die aan de controle van de Nationale
  Bank van België of de Europese Centrale Bank zijn onderworpen.
@@ -16883,7 +17156,9 @@ Bij splitsing blijven de verkrijgende vennootschappen hoofdelijk gehouden tot be
  verkrijgende vennootschap beschouwd voor de toepassing van het eerste lid, waarbij de aansprakelijkheid van de
  gesplitste vennootschap is beperkt tot het nettoactief dat zij behoudt.
 
-  Art. 12:18.Iedere vennoot of aandeelhouder van een ontbonden vennootschap kan tegen de leden van het
+## Art. 12:18
+
+Iedere vennoot of aandeelhouder van een ontbonden vennootschap kan tegen de leden van het
  bestuursorgaan van die vennootschap een aansprakelijkheidsvordering instellen voor de vergoeding van de
  schade die hij heeft geleden ten gevolge van een bij de voorbereiding en de totstandkoming van de fusie of de
  splitsing begane fout.
@@ -16911,7 +17186,9 @@ De ondernemingsrechtbank spreekt op verzoek van de in artikel 2:44 genoemde pers
  vennootschap heeft verkregen, kan de rechtbank verklaren dat de nietigheid ten opzichte van die rechten geen
  gevolg heeft, onverminderd het recht op schadevergoeding van de eiser, indien daartoe grond bestaat.
 
-  Art. 12:20.De ondernemingsrechtbank kan, op verzoek van de in artikel 2:44 genoemde personen, de nietigheid
+## Art. 12:20
+
+De ondernemingsrechtbank kan, op verzoek van de in artikel 2:44 genoemde personen, de nietigheid
  van de fusie of splitsing uitspreken indien de besluiten van de algemene vergaderingen of van de
  bestuursorganen die de fusie of splitsing hebben goedgekeurd niet bij authentieke akte zijn vastgesteld, of indien
  die besluiten werden genomen terwijl de door dit boek voorgeschreven verslagen van het bestuursorgaan, de
@@ -16919,7 +17196,6 @@ De ondernemingsrechtbank spreekt op verzoek van de in artikel 2:44 genoemde pers
  nietigheidsgrond.
   Wanneer herstel van het gebrek dat tot de vernietiging van de fusie of splitsing kan leiden mogelijk is, verleent
  de rechtbank daartoe aan de betrokken vennootschappen een termijn om de toestand te regulariseren.
-Pagina 261 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
@@ -16953,7 +17229,9 @@ De nietigheid doet op zichzelf geen afbreuk aan de geldigheid van de verbintenis
 
   Afdeling 1. Procedure bij fusie door overneming.
 
-  Art. 12:24.De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
+## Art. 12:24
+
+De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
  akte een fusievoorstel op.
   Het fusievoorstel vermeldt ten minste:
   1° de rechtsvorm, de naam, het voorwerp en de zetel van de te fuseren vennootschappen;
@@ -16990,10 +17268,11 @@ De nietigheid doet op zichzelf geen afbreuk aan de geldigheid van de verbintenis
   (1)<W 2023-05-25/04, art. 9, 013; Inwerkingtreding : 16-06-2023>
   (2)<W 2023-05-25/04, art. 82, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:25.In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op waarin het de
+## Art. 12:25
+
+In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op waarin het de
  stand van het vermogen van de te fuseren vennootschappen uiteenzet en waarin het tevens, vanuit een juridisch
  en economisch oogpunt, de wenselijkheid van de fusie, haar voorwaarden, de wijze waarop ze zal gebeuren en
-Pagina 262 van 332 Copyright Belgisch S taatsblad 23-01-2026
  haar gevolgen, de methoden waarmee de ruilverhouding van de aandelen is vastgesteld, het betrekkelijk gewicht
  dat aan deze methoden wordt gehecht, de waardering waartoe elke methode komt, de moeilijkheden die zich
  eventueel hebben voorgedaan en de voorgestelde ruilverhouding toelicht en verantwoordt.
@@ -17007,7 +17286,9 @@ Pagina 262 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2020-04-28/06, art. 193, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 12:26.§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
+## Art. 12:26
+
+§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
  bestuursorgaan aangewezen bedrijfsrevisor of een [2 gecertificeerd accountant]2, een schriftelijk verslag over
  het fusievoorstel op.
   De commissaris of de aangewezen bedrijfsrevisor of [2 gecertificeerd accountant]2 moet inzonderheid
@@ -17065,7 +17346,6 @@ De bestuursorganen van alle bij de fusie betrokken vennootschappen moeten hun ei
  algemene vergadering van de fuserende vennootschappen die over het fusievoorstel moet besluiten, of, in het
  geval bedoeld in artikel 12:30, § 6, de algemene vergadering van de overgenomen vennootschap of
  vennootschappen, op de zetel van de vennootschap kennis te nemen van de volgende stukken:
-Pagina 263 van 332 Copyright Belgisch S taatsblad 23-01-2026
    1° het fusievoorstel;
    2° in voorkomend geval, de in de artikelen 12:25 en 12:26 bedoelde verslagen;
    3° de jaarrekeningen over de laatste drie boekjaren van elk van de bij de fusie betrokken vennootschappen;
@@ -17119,7 +17399,9 @@ Pagina 263 van 332 Copyright Belgisch S taatsblad 23-01-2026
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot fusie wordt aangenomen.
   In de oproepingsbrief wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
 
-  Art. 12:30.§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
+## Art. 12:30
+
+§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
  bepalingen van dit artikel, besluit de algemene vergadering tot fusie van een vennootschap overeenkomstig de
  volgende regels van aanwezigheid en meerderheid:
   1° de aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als de vennootschap
@@ -17136,7 +17418,6 @@ Pagina 263 van 332 Copyright Belgisch S taatsblad 23-01-2026
  of niet vertegenwoordigen en de fusie aanleiding geeft tot wijziging van hun respectieve rechten, is artikel 5:102,
  derde lid, artikel 6:87, derde lid, of artikel 7:155, derde lid, van overeenkomstige toepassing.
   § 4. De instemming van alle vennoten of aandeelhouders is vereist:
-Pagina 264 van 332 Copyright Belgisch S taatsblad 23-01-2026
   1° in de overnemende of over te nemen vennootschappen die vennootschappen onder firma zijn;
   2° in de over te nemen vennootschappen wanneer de overnemende vennootschap de rechtsvorm heeft
  aangenomen van:
@@ -17180,7 +17461,9 @@ In elke vennootschap die de fusie aangaat worden de notulen van de algemene verg
   De notaris moet na onderzoek het bestaan en zowel de interne als de externe wettigheid bevestigen van de
  rechtshandelingen en formaliteiten waartoe de vennootschap waarvoor hij optreedt, is gehouden.
 
-  Art. 12:32.[1 Onverminderd artikel 12:30, § 6, stelt de algemene vergadering van de overnemende
+## Art. 12:32
+
+[1 Onverminderd artikel 12:30, § 6, stelt de algemene vergadering van de overnemende
  vennootschap onmiddellijk na het besluit tot fusie]1 de eventuele wijzigingen van haar statuten, met inbegrip van
  de bepalingen tot wijziging van haar voorwerp, vast volgens de regels van aanwezigheid en meerderheid door dit
  wetboek vereist. Bij gebrek daaraan blijft het besluit tot fusie zonder gevolg.
@@ -17211,7 +17494,6 @@ Met inachtneming van de in het tweede en het derde lid bepaalde regels, worden d
  hun bestuursorganen op het ogenblik van de fusie.
   Deze organen zorgen zo nodig voor de bijwerking van de registers van de aandelen op naam of andere
  registers.
-Pagina 265 van 332 Copyright Belgisch S taatsblad 23-01-2026
   De kosten van deze verrichtingen komen ten laste van de overnemende vennootschap.
   § 2. Er vindt geen omwisseling plaats van aandelen van de overnemende vennootschap tegen aandelen van de
  overgenomen vennootschap die worden gehouden:
@@ -17235,7 +17517,9 @@ Het bestuursorgaan van de overgenomen vennootschap maakt de jaarrekening op over
 
   Afdeling 2. Procedure bij fusie door oprichting van een nieuwe vennootschap.
 
-   Art. 12:36.§ 1. Onder voorbehoud van de paragrafen 2 en 3 gelden voor de oprichting van de nieuwe
+## Art. 12:36
+
+§ 1. Onder voorbehoud van de paragrafen 2 en 3 gelden voor de oprichting van de nieuwe
  vennootschap alle voorwaarden die dit wetboek voor de gekozen vennootschapsvorm voorschrijft. De artikelen
  5:4, 6:5 en 7:3 zijn niet van toepassing.
    § 2. Ongeacht de rechtsvorm van de nieuwe vennootschap moet haar oprichting op straffe van nietigheid bij
@@ -17253,7 +17537,9 @@ Het bestuursorgaan van de overgenomen vennootschap maakt de jaarrekening op over
    (1)<W 2020-04-28/06, art. 197, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:37.De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
+## Art. 12:37
+
+De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
  akte een fusievoorstel op.
   Het fusievoorstel vermeldt ten minste:
   1° de rechtsvorm, de naam, het voorwerp en de zetel van de te ontbinden vennootschappen en van de nieuwe
@@ -17281,7 +17567,6 @@ Het bestuursorgaan van de overgenomen vennootschap maakt de jaarrekening op over
  van de fuserende vennootschappen die over het fusievoorstel moet besluiten en die niet eerder eindigt dan bij de
  sluiting van die vergadering, kosteloos op de vennootschapswebsite beschikbaar stellen.
    In het geval bedoeld in het vierde lid, worden uiterlijk zes weken vóór het besluit tot fusie vermeld in artikel
-Pagina 266 van 332 Copyright Belgisch S taatsblad 23-01-2026
  12:43 ten minste onderstaande gegevens neergelegd en bekendgemaakt bij uittreksel overeenkomstig de
  artikelen 2:8 en 2:14, 1° :
    1° voor elk van de te fuseren vennootschappen de rechtsvorm, het ondernemingsnummer, de naam, het
@@ -17304,7 +17589,9 @@ In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag
    Het eerste lid is niet van toepassing indien alle vennoten of aandeelhouders en houders van andere
  stemrechtverlenende effecten in elke bij de fusie betrokken vennootschap hiermee hebben ingestemd.
 
-  Art. 12:39.Onverminderd artikel 12:36, § 3, stelt de commissaris, of, wanneer er geen commissaris is, een door
+## Art. 12:39
+
+Onverminderd artikel 12:36, § 3, stelt de commissaris, of, wanneer er geen commissaris is, een door
  het bestuursorgaan aangewezen bedrijfsrevisor of [1 gecertificeerd accountant]1 een schriftelijk verslag over het
  fusievoorstel op in elke vennootschap.
   De commissaris of de aangewezen bedrijfsrevisor of [1 gecertificeerd accountant]1 moet inzonderheid
@@ -17356,7 +17643,6 @@ De bestuursorganen van alle bij de fusie betrokken vennootschappen moeten hun ei
   2° in voorkomend geval, de in de artikelen 12:38 en 12:39 bedoelde verslagen;
   3° de jaarrekeningen over de laatste drie boekjaren van elke bij de fusie betrokken vennootschap;
   4° wat de besloten vennootschap betreft, de coöperatieve vennootschap, de naamloze vennootschap, de
-Pagina 267 van 332 Copyright Belgisch S taatsblad 23-01-2026
  Europese vennootschap en de Europese coöperatieve vennootschap, de verslagen van het bestuursorgaan en
  de verslagen van de commissaris over de laatste drie boekjaren, als er één is;
    5° in voorkomend geval, indien de laatste jaarrekening betrekking heeft op een boekjaar dat meer dan zes
@@ -17403,7 +17689,9 @@ Pagina 267 van 332 Copyright Belgisch S taatsblad 23-01-2026
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot fusie wordt aangenomen.
   In de oproepingsbrief wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
 
-  Art. 12:43.§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
+## Art. 12:43
+
+§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
  bepalingen van dit artikel, besluit de algemene vergadering tot fusie van een vennootschap overeenkomstig de
  volgende regels van aanwezigheid en meerderheid:
   1° de aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als de vennootschap
@@ -17427,7 +17715,6 @@ Pagina 267 van 332 Copyright Belgisch S taatsblad 23-01-2026
   b) een commanditaire vennootschap.
   In de in het eerste lid, 2°, bedoelde gevallen is, in voorkomend geval, de eenparige instemming vereist van de
  houders van effecten die het kapitaal van de vennootschap niet vertegenwoordigen.
-Pagina 268 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 5. In de commanditaire vennootschap is bovendien de instemming van alle gecommanditeerde vennoten
  vereist.
   ----------
@@ -17494,7 +17781,9 @@ Het bestuursorgaan van de overgenomen vennootschap maakt haar jaarrekening op ov
 
   Afdeling 3. Procedure bij met fusie door overneming gelijkgestelde verrichtingen.
 
-  Art. 12:50.De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
+## Art. 12:50
+
+De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
  akte een fusievoorstel op.
   Het fusievoorstel vermeldt ten minste:
   1° de rechtsvorm, de naam, het voorwerp en de zetel van de te fuseren vennootschappen;
@@ -17508,7 +17797,6 @@ Het bestuursorgaan van de overgenomen vennootschap maakt haar jaarrekening op ov
   4° ieder bijzonder voordeel toegekend aan de leden van de bestuursorganen van de te fuseren
  vennootschappen.
   Het fusievoorstel moet door elke bij de fusie betrokken vennootschap ter griffie van de ondernemingsrechtbank
-Pagina 269 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van haar zetel worden neergelegd en bekendgemaakt bij uittreksel [1 overeenkomstig de artikelen 2:8 en 2:14,
  1°]1. De neerlegging gebeurt uiterlijk zes weken vóór het besluit tot fusie vermeld in artikel 12:53.
   [1 In afwijking van het derde lid, kan de vennootschap het in het eerste lid bedoelde stuk, gedurende een
@@ -17579,7 +17867,6 @@ Pagina 269 van 332 Copyright Belgisch S taatsblad 23-01-2026
  de in paragraaf 2 bedoelde stukken niet op haar zetel beschikbaar stellen.
    Wanneer de vennootschapswebsite aan de vennoten of aandeelhouders gedurende de gehele in paragraaf 2
  bedoelde periode de mogelijkheid biedt de in paragraaf 2 bedoelde stukken te downloaden en af te drukken, is
-Pagina 270 van 332 Copyright Belgisch S taatsblad 23-01-2026
  paragraaf 3 niet van toepassing. In dit geval moet de informatie ten minste tot één maand na de datum van de
  algemene vergadering van elk van de vennootschappen die over het fusievoorstel moet besluiten, of, in het geval
  bedoeld in artikel 12:53, § 6, de datum waarop de fusie van kracht wordt, op de vennootschapswebsite blijven
@@ -17599,7 +17886,9 @@ Pagina 270 van 332 Copyright Belgisch S taatsblad 23-01-2026
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot fusie wordt aangenomen.
   In de oproepingsbrief wordt de tekst van het eerste en het tweede lid opgenomen.
 
-  Art. 12:53.§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
+## Art. 12:53
+
+§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
  bepalingen van dit artikel, besluit de algemene vergadering tot fusie van een vennootschap overeenkomstig de
  volgende regels van aanwezigheid en meerderheid:
   1° de aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als de vennootschap
@@ -17652,7 +17941,6 @@ In elke vennootschap die de fusie aangaat, worden de notulen van de algemene ver
  het geval bedoeld in artikel 12:53, § 6, van het bestuursorgaan, waarin tot de fusie wordt besloten op straffe van
  nietigheid opgesteld bij authentieke akte.
   De notaris moet na onderzoek het bestaan en zowel de interne als de externe wettigheid bevestigen van de
-Pagina 271 van 332 Copyright Belgisch S taatsblad 23-01-2026
  rechtshandelingen en formaliteiten waartoe de vennootschap waarvoor hij optreedt, is gehouden.
 
 ## Art. 12:55
@@ -17706,7 +17994,9 @@ Het bestuursorgaan van de overgenomen vennootschap maakt haar jaarrekening op ov
 
   Afdeling 1. Procedure bij splitsing door overneming.
 
-  Art. 12:59.De bestuursorganen van de vennootschappen die aan de splitsing deelnemen, stellen bij authentieke
+## Art. 12:59
+
+De bestuursorganen van de vennootschappen die aan de splitsing deelnemen, stellen bij authentieke
  of bij onderhandse akte een splitsingsvoorstel op.
   Het splitsingsvoorstel vermeldt ten minste:
   1° de rechtsvorm, de naam, het voorwerp en de zetel van de vennootschappen die aan de splitsing deelnemen;
@@ -17729,7 +18019,6 @@ Het bestuursorgaan van de overgenomen vennootschap maakt haar jaarrekening op ov
  van de activa en passiva van het vermogen;
   10° de verdeling onder de vennoten of aandeelhouders van de te splitsen vennootschap van de aandelen van
  de verkrijgende vennootschappen evenals het criterium waarop deze verdeling is gebaseerd;
-Pagina 272 van 332 Copyright Belgisch S taatsblad 23-01-2026
    11° [1 ...]1
    Het splitsingsvoorstel moet door elke vennootschap die aan de splitsing deelneemt ter griffie van de
  ondernemingsrechtbank waar haar respectievelijke zetel is gevestigd worden neergelegd en bekendgemaakt bij
@@ -17765,7 +18054,9 @@ Wanneer een gedeelte van de activa van het vermogen niet in het splitsingsvoorst
    De opbrengsten en kosten van welbepaalde activa en passiva worden vanaf de in artikel 12:59, tweede lid, 5°,
  bedoelde datum toegerekend aan de vennootschap waaraan die activa en passiva werden toebedeeld.
 
-  Art. 12:61.In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op waarin het de
+## Art. 12:61
+
+In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op waarin het de
  stand van het vermogen van de vennootschappen die aan de splitsing deelnemen uiteenzet en waarin het tevens
  uit een juridisch en economisch oogpunt de wenselijkheid van de splitsing, de voorwaarden en de wijze waarop
  ze zal gebeuren en de gevolgen ervan, de methoden volgens welke de ruilverhouding van de aandelen is
@@ -17780,7 +18071,9 @@ Wanneer een gedeelte van de activa van het vermogen niet in het splitsingsvoorst
   ----------
   (1)<W 2020-04-28/06, art. 200, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 12:62.§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
+## Art. 12:62
+
+§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
  bestuursorgaan aangewezen bedrijfsrevisor of [2 gecertificeerd accountant]2 een schriftelijk verslag over het
  splitsingsvoorstel op.
   De commissaris of de aangewezen bedrijfsrevisor of [2 gecertificeerd accountant]2 moet inzonderheid
@@ -17799,7 +18092,6 @@ Wanneer een gedeelte van de activa van het vermogen niet in het splitsingsvoorst
   § 2. [1 Indien zowel een verslag overeenkomstig paragraaf 1 en een verslag overeenkomstig artikel 12:61,
  eerste lid, werden opgesteld, zijn de artikelen 5:121, 5:133, 6:110, 7:179 en 7:197, naar gelang het geval, niet
  van toepassing op een overnemende vennootschap die de rechtsvorm heeft van een besloten vennootschap,
-Pagina 273 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van een coöperatieve vennootschap, van een naamloze vennootschap, van een Europese vennootschap of van
  een Europese coöperatieve vennootschap.]1
   ----------
@@ -17872,7 +18164,6 @@ De bestuursorganen van alle bij de splitsing betrokken vennootschappen moeten hu
  waarop de splitsing van kracht wordt, kosteloos op de vennootschapswebsite beschikbaar stelt, moet zij de in
  paragraaf 2 bedoelde stukken niet op haar zetel beschikbaar stellen.
    Wanneer de vennootschapswebsite aan de vennoten of aandeelhouders gedurende de gehele in paragraaf 2
-Pagina 274 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bedoelde periode de mogelijkheid biedt de in paragraaf 2 bedoelde stukken te downloaden en af te drukken, is
  paragraaf 3 niet van toepassing. In dit geval moet de informatie ten minste tot één maand na de datum van de
  algemene vergadering die over het splitsingsvoorstel moet besluiten of, in het geval bedoeld in artikel 12:67, § 7,
@@ -17905,7 +18196,9 @@ Indien alle vennoten of aandeelhouders en alle houders van andere stemrechtverle
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot splitsing wordt aangenomen.
   In de oproepingsbrief wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
 
-   Art. 12:67.§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
+## Art. 12:67
+
+§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
  bepalingen van dit artikel [2 ...]2, besluit de algemene vergadering tot splitsing van een vennootschap
  overeenkomstig de volgende regels van aanwezigheid en meerderheid:
    1° de aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als de vennootschap
@@ -17945,7 +18238,6 @@ Indien alle vennoten of aandeelhouders en alle houders van andere stemrechtverle
    2° iedere vennoot of aandeelhouder van de aan de splitsing deelnemende vennootschappen heeft het recht
  uiterlijk een maand voordat de splitsing van kracht wordt, op de zetel van de vennootschap kennis te nemen van
  de in artikel 12:64, § 2 , vermelde stukken. De in artikel 12:62, § 1, laatste lid, en artikel 12:64, §§ 2, 3 en 4, en
-Pagina 275 van 332 Copyright Belgisch S taatsblad 23-01-2026
  artikel 12:65, eerste lid, bepaalde uitzonderingen, blijven van toepassing;
   3° de in artikel 12:63 bedoelde informatie heeft betrekking op alle wijzigingen in de activa en passiva sedert de
  datum waarop het splitsingsvoorstel is opgesteld.
@@ -18024,11 +18316,12 @@ Het bestuursorgaan van de gesplitste vennootschap maakt haar jaarrekening over h
  toezichtsorganen van de gesplitste vennootschap, onverminderd artikel 12:18.
 
 ## Art. 12:73.
-Pagina 276 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 2. Procedure bij splitsing door oprichting van nieuwe vennootschappen.
 
-   Art. 12:74.§ 1. Onder voorbehoud van de paragrafen 2 en 3 gelden voor de oprichting van ieder van de nieuwe
+## Art. 12:74
+
+§ 1. Onder voorbehoud van de paragrafen 2 en 3 gelden voor de oprichting van ieder van de nieuwe
  vennootschappen alle voorwaarden die dit wetboek voor de gekozen vennootschapsvorm stelt. De artikelen 5:4,
  6:5 en 7:3 zijn niet van toepassing.
    § 2. Ongeacht de rechtsvorm van de nieuwe vennootschap, moet haar oprichting, op straffe van nietigheid, bij
@@ -18046,7 +18339,9 @@ Pagina 276 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<W 2020-04-28/06, art. 203, 002; Inwerkingtreding : 06-05-2020>
    (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:75.De bestuursorganen van de vennootschappen die aan de splitsing deelnemen, stellen bij authentieke
+## Art. 12:75
+
+De bestuursorganen van de vennootschappen die aan de splitsing deelnemen, stellen bij authentieke
  of bij onderhandse akte een splitsingsvoorstel op.
   Het splitsingsvoorstel vermeldt ten minste:
   1° de rechtsvorm, de naam, het voorwerp en de zetel van de te splitsen vennootschap en van de nieuwe
@@ -18091,7 +18386,6 @@ Pagina 276 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 15, 013; Inwerkingtreding : 16-06-2023>
   (2)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
-Pagina 277 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 12:76
 
 Wanneer een gedeelte van de activa van het vermogen niet in het splitsingsvoorstel wordt
@@ -18118,7 +18412,9 @@ In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag
  het kapitaal van deze vennootschap, of, als de vennootschap geen kapitaal heeft, hun aandeel in het eigen
  vermogen.
 
-  Art. 12:78.In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
+## Art. 12:78
+
+In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
  bestuursorgaan aangewezen bedrijfsrevisor of [1 gecertificeerd accountant]1 een schriftelijk verslag over het
  splitsingsvoorstel op.
   De commissaris of de aangewezen bedrijfsrevisor of [1 gecertificeerd accountant]1 moet inzonderheid
@@ -18167,7 +18463,6 @@ De bestuursorganen van alle bij de splitsing betrokken vennootschappen moeten hu
   Wanneer het evenwel gaat om een coöperatieve vennootschap, moeten het voorstel en de verslagen bedoeld in
  het eerste lid, niet aan de aandeelhouders worden meegedeeld overeenkomstig het tweede en het derde lid.
   In dat geval heeft iedere aandeelhouder overeenkomstig paragraaf 2 het recht om uiterlijk een maand vóór de
-Pagina 278 van 332 Copyright Belgisch S taatsblad 23-01-2026
  algemene vergadering op de zetel van de vennootschap van voornoemde stukken kennis te nemen en kan hij
  overeenkomstig paragraaf 3 binnen dezelfde termijn een kopie ervan verkrijgen.
    § 2. Iedere vennoot of aandeelhouder heeft tevens het recht uiterlijk een maand vóór de datum van de
@@ -18236,11 +18531,12 @@ Indien alle vennoten of aandeelhouders en alle houders van andere stemrechtverle
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot splitsing wordt aangenomen.
   In de oproepingsbrief wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
 
-  Art. 12:83.§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
+## Art. 12:83
+
+§ 1. Onder voorbehoud van strengere statutaire bepalingen en onverminderd de bijzondere
  bepalingen van dit artikel, besluit de algemene vergadering tot splitsing van een vennootschap overeenkomstig
  de volgende regels van aanwezigheid en meerderheid:
   1° de aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als de vennootschap
-Pagina 279 van 332 Copyright Belgisch S taatsblad 23-01-2026
  geen kapitaal heeft, de helft van het totaal aantal uitgegeven aandelen vertegenwoordigen. Is deze voorwaarde
  niet vervuld, dan is een nieuwe bijeenroeping nodig. De tweede vergadering kan geldig beraadslagen en besluiten,
  ongeacht het aantal aanwezige of vertegenwoordigde aandelen;
@@ -18321,7 +18617,6 @@ De splitsing is voltrokken zodra de nieuwe vennootschappen zijn opgericht.
 De jaarrekening van de gesplitste vennootschap over het tijdvak begrepen tussen de datum van
  jaarafsluiting van het laatste boekjaar waarvoor de rekeningen zijn goedgekeurd en de in artikel 12:75, tweede lid,
  5°, bedoelde datum, wordt door het bestuursorgaan van die vennootschap opgemaakt overeenkomstig de
-Pagina 280 van 332 Copyright Belgisch S taatsblad 23-01-2026
  bepalingen van dit wetboek die op haar toepasselijk zijn. In voorkomend geval, stelt het bestuursorgaan van die
  vennootschap eveneens een jaarverslag op met betrekking tot dit tijdvak overeenkomstig de bepalingen van dit
  wetboek die op haar toepasselijk zijn. Wanneer er een commissaris is aangesteld in de gesplitste vennootschap,
@@ -18381,7 +18676,9 @@ De door een vennootschap verrichte inbreng van algemeenheid of van bedrijfstak i
  vennootschap die over de inbreng van de algemeenheid een besluit moet nemen, ter griffie van de
  ondernemingsrechtbank worden neergelegd.
 
-  Art. 12:94.§ 1. De algemene vergadering van de vennootschap die de inbreng doet, is bevoegd voor de
+## Art. 12:94
+
+§ 1. De algemene vergadering van de vennootschap die de inbreng doet, is bevoegd voor de
  beslissing tot inbreng van algemeenheid, het bestuursorgaan voor de beslissing tot inbreng van bedrijfstak.
   § 2. Het bestuursorgaan van de vennootschap die de inbreng [1 van algemeenheid]1 doet, stelt een omstandig
  schriftelijk verslag op waarin het de stand van het vermogen van de betrokken vennootschappen uiteenzet en
@@ -18395,7 +18692,6 @@ De door een vennootschap verrichte inbreng van algemeenheid of van bedrijfstak i
  algemeenheid]1 doen, coöperatieve vennootschappen zijn, aangezien het voorstel en het verslag op de zetel van
  de vennootschap ter beschikking liggen van de aandeelhouders.
   § 3. Het besluit om de inbreng [1 van algemeenheid]1 te doen wordt genomen met naleving van de
-Pagina 281 van 332 Copyright Belgisch S taatsblad 23-01-2026
  aanwezigheids- en meerderheidsvereisten voorgeschreven voor een statutenwijziging, tenzij de statuten
  strengere regels bevatten.
   In de commanditaire vennootschap en de coöperatieve vennootschap staat het stemrecht van de vennoten en
@@ -18434,7 +18730,9 @@ Wanneer een gedeelte van de activa van het vermogen in het voorstel van inbreng 
 
   HOOFDSTUK 3. Tegenwerpelijkheid.
 
-  Art. 12:98.De inbreng kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
+## Art. 12:98
+
+De inbreng kan aan derden worden tegengeworpen onder de voorwaarden bepaald in artikel 2:18.
   De akten bedoeld in artikel [1 3.30 van het Burgerlijk Wetboek]1 en de akten bedoeld in de hoofdstukken II en III
  van titel I, boek II, van het Wetboek van koophandel en in artikel 272 van boek II van hetzelfde wetboek, kunnen
  aan derden slechts worden tegengeworpen overeenkomstig de bijzondere wetten ter zake. Daartoe moeten de
@@ -18447,7 +18745,9 @@ Wanneer een gedeelte van de activa van het vermogen in het voorstel van inbreng 
 
   HOOFDSTUK 4. Zekerheidstelling.
 
-   Art. 12:99.[1 § 1.]1 Uiterlijk binnen twee maanden na de bekendmaking van de akten tot vaststelling van de
+## Art. 12:99
+
+[1 § 1.]1 Uiterlijk binnen twee maanden na de bekendmaking van de akten tot vaststelling van de
  inbreng in de Bijlagen bij het Belgisch Staatsblad, kunnen de schuldeisers van iedere vennootschap die aan de
  verrichting deelneemt wier vordering vaststaand is vóór die bekendmaking maar nog niet opeisbaar is of die voor
  deze schuldvordering in rechte of via arbitrage een vordering hebben ingesteld vóór de akte houdende
@@ -18470,7 +18770,6 @@ Wanneer een gedeelte van de activa van het vermogen in het voorstel van inbreng 
    (1)<W 2022-07-20/40, art. 422, 011; Inwerkingtreding : 06-10-2022>
 
   HOOFDSTUK 5. Aansprakelijkheid.
-Pagina 282 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 12:100
 
 § 1. De vennootschap die de inbreng doet, blijft hoofdelijk aansprakelijk voor de schulden die op de
@@ -18544,13 +18843,14 @@ In het geval bedoeld in artikel 12:104 wordt de fusie, de splitsing of de inbren
 
   Afdeling 1. Inleidende bepaling.
 
-   Art. 12:106.De bepalingen inzake fusie van dit boek zijn van toepassing [2 op de grensoverschrijdende fusie]2,
+## Art. 12:106
+
+De bepalingen inzake fusie van dit boek zijn van toepassing [2 op de grensoverschrijdende fusie]2,
  behoudens de volgende afwijkende bepalingen.
    Zijn uitgesloten van de toepassing van deze titel:
    1° de openbare beleggingsvennootschappen met veranderlijk kapitaal als bedoeld in [1 artikel 15 van de wet van
  3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van
  richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen]1;
-Pagina 283 van 332 Copyright Belgisch S taatsblad 23-01-2026
   2° vennootschappen die in vereffening zijn;
   [2 3° kredietinstellingen die zijn onderworpen aan boek II, titel VIII van de wet van 25 april 2014 op het statuut
  van en het toezicht op kredietinstellingen;
@@ -18577,7 +18877,9 @@ De grensoverschrijdende fusie vindt rechtsgeldig plaats niettegenstaande de ople
 
   Afdeling 3. Rechtsgevolgen van grensoverschrijdende fusie.
 
-  Art. 12:108.De grensoverschrijdende fusie heeft met ingang van de datum [1 van het van kracht worden van
+## Art. 12:108
+
+De grensoverschrijdende fusie heeft met ingang van de datum [1 van het van kracht worden van
  de grensoverschrijdende fusie]1 de rechtsgevolgen bepaald in artikel 12:13, met uitzondering van het eerste lid,
  1°, tweede deel van voornoemd artikel [1 , en van het eerste lid, 2°, van voornoemd artikel wanneer er vennoten
  of aandeelhouders zijn die zijn uitgetreden overeenkomstig de toepasselijke wettelijke bepalingen]1.
@@ -18590,14 +18892,18 @@ De grensoverschrijdende fusie vindt rechtsgeldig plaats niettegenstaande de ople
 
   Afdeling 5. Nietigheid van de grensoverschrijdende fusie.
 
-  Art. 12:110.Een overeenkomstig [1 de toepasselijke wettelijke bepalingen]1 van kracht geworden
+## Art. 12:110
+
+Een overeenkomstig [1 de toepasselijke wettelijke bepalingen]1 van kracht geworden
  grensoverschrijdende fusie kan niet worden nietig verklaard.
   ----------
   (1)<W 2023-05-25/04, art. 21, 013; Inwerkingtreding : 16-06-2023>
 
   HOOFDSTUK 2. Te volgen procedure bij grensoverschrijdende fusie van vennootschappen.
 
-  Art. 12:111.De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
+## Art. 12:111
+
+De bestuursorganen van de te fuseren vennootschappen stellen bij authentieke of bij onderhandse
  akte een gemeenschappelijk fusievoorstel op.
   Het grensoverschrijdend fusievoorstel vermeldt ten minste:
   1° [1 voor elk van de fuserende vennootschappen de rechtsvorm, de naam, het voorwerp en de zetel, en de
@@ -18617,7 +18923,6 @@ De grensoverschrijdende fusie vindt rechtsgeldig plaats niettegenstaande de ople
  recht geven op winstdeelname, evenals elke bijzondere regeling betreffende dit recht;
   6° de datum vanaf wanneer de handelingen van de fuserende vennootschappen boekhoudkundig worden
  geacht voor rekening van de uit de grensoverschrijdende fusie ontstane vennootschap te zijn verricht, die niet
-Pagina 284 van 332 Copyright Belgisch S taatsblad 23-01-2026
  eerder mag worden geplaatst dan op de eerste dag na de afsluiting van het boekjaar waarvoor de jaarrekening
  reeds werd goedgekeurd van de bij de verrichting betrokken vennootschappen;
    7° de rechten die de uit de grensoverschrijdende fusie ontstane vennootschap [1 toekent]1 aan de vennoten of
@@ -18650,7 +18955,9 @@ Pagina 284 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2023-05-25/04, art. 22, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:112.[1 § 1. Door elke bij de fusie betrokken vennootschap moet ter griffie van de
+## Art. 12:112
+
+[1 § 1. Door elke bij de fusie betrokken vennootschap moet ter griffie van de
  ondernemingsrechtbank van haar zetel de volgende stukken worden neergelegd en bekendgemaakt in hun
  geheel overeenkomstig de artikelen 2:8 en 2:14, 1° :
    1° het gemeenschappelijk fusievoorstel als bedoeld in artikel 12:111;
@@ -18684,7 +18991,6 @@ Pagina 284 van 332 Copyright Belgisch S taatsblad 23-01-2026
  12:114, en volledige informatie over de in de bepaling onder 3° bedoelde regelingen online en kosteloos
  verkrijgbaar zijn.]1
   [2 § 3. Wanneer een Belgische besloten vennootschap, coöperatieve vennootschap of naamloze vennootschap
-Pagina 285 van 332 Copyright Belgisch S taatsblad 23-01-2026
  fuseert met een vennootschap met een van de vormen zoals genoemd in bijlage II bij richtlijn 2017/1132/EU van
  het Europees Parlement en de Raad van 14 juni 2017, maakt de beheersdienst van de Kruispuntbank van
  Ondernemingen de gegevens en stukken zoals vermeld in de tabellen 6.2.1. a) en 6.2.1. b) van
@@ -18728,7 +19034,9 @@ Pagina 285 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 24, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 12:113.[1 § 1. In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op
+## Art. 12:113
+
+[1 § 1. In elke vennootschap stelt het bestuursorgaan een omstandig schriftelijk verslag op
  bestemd voor de houders van aandelen en winstbewijzen en de werknemers waarin de juridische en
  economische aspecten van de grensoverschrijdende fusie worden toegelicht en verantwoord en waarin de
  gevolgen van de grensoverschrijdende fusie voor de werknemers worden toegelicht. In het verslag wordt met
@@ -18754,7 +19062,6 @@ Pagina 285 van 332 Copyright Belgisch S taatsblad 23-01-2026
  ingestemd. Vennootschappen waarvan alle aandelen in één hand zijn verenigd moeten het derde lid niet
  toepassen.
    Het in het eerste lid bedoelde verslag vermeldt voor de werknemers:
-Pagina 286 van 332 Copyright Belgisch S taatsblad 23-01-2026
     1° de gevolgen van de grensoverschrijdende fusie voor de arbeidsrelaties en, in voorkomend geval, alle
  maatregelen om die relaties te vrijwaren;
     2° materiële wijzigingen van de toepasselijke arbeidsvoorwaarden of van de vestigingsplaatsen van de
@@ -18787,7 +19094,9 @@ Pagina 286 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2023-05-25/04, art. 25, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:114.§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
+## Art. 12:114
+
+§ 1. In elke vennootschap stelt de commissaris, of, wanneer er geen commissaris is, een door het
  bestuursorgaan [2 of, bij een vennootschap onder firma of een commanditaire vennootschap, door de algemene
  vergadering]2 aangewezen bedrijfsrevisor of [3 gecertificeerd accountant]3, een schriftelijk verslag over het
  fusievoorstel op.
@@ -18820,7 +19129,6 @@ Pagina 286 van 332 Copyright Belgisch S taatsblad 23-01-2026
  verslag op.
   § 3. Indien alle [2 houders van aandelen en winstbewijzen]2 in elke bij de grensoverschrijdende fusie betrokken
  vennootschap hiermee hebben ingestemd, is [2 het verslag waarvan sprake in paragraaf 1 niet vereist]2.
-Pagina 287 van 332 Copyright Belgisch S taatsblad 23-01-2026
   [2 Vennootschappen waarvan alle aandelen in één hand zijn verenigd moeten dit artikel niet toepassen.]2
   § 4. [2 Het verslag waarvan sprake in de eerste paragraaf is niet vereist in geval van een grensoverschrijdende
  fusie als bedoeld in artikel 12:7, 1°, en in geval van een grensoverschrijdende fusie als bedoeld in artikel 12:7, 2°,
@@ -18844,7 +19152,9 @@ Pagina 287 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2023-05-25/04, art. 26, 013; Inwerkingtreding : 16-06-2023>
   (3)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 12:115.§ 1. In elke vennootschap vermeldt de agenda van de algemene vergadering die [2 over het
+## Art. 12:115
+
+§ 1. In elke vennootschap vermeldt de agenda van de algemene vergadering die [2 over het
  fusievoorstel moet besluiten]2 het fusievoorstel en de verslagen bedoeld in de artikelen 12:113 en 12:114,
  evenals de mogelijkheid voor de [2 houders van aandelen en winstbewijzen]2 om de genoemde stukken kosteloos
  te verkrijgen. Deze verplichting geldt niet indien het bestuursorgaan overeenkomstig artikel 12:116, § 1, tweede
@@ -18885,7 +19195,6 @@ Pagina 287 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Het eerste lid, 5°, is niet van toepassing indien de vennootschap een halfjaarlijks financieel verslag als bedoeld in
  artikel 13 van het koninklijk besluit van 14 november 2007 betreffende de verplichtingen van emittenten van
  financiële instrumenten die zijn toegelaten tot de verhandeling op een gereglementeerde markt bekendmaakt, en
-Pagina 288 van 332 Copyright Belgisch S taatsblad 23-01-2026
  dit overeenkomstig deze paragraaf aan de [2 houders van aandelen en winstbewijzen]2 beschikbaar stelt.
   Het eerste lid, 5°, is niet van toepassing indien alle vennoten of aandeelhouders en houders van andere
  stemrechtverlenende effecten in elke bij de fusie betrokken vennootschap hiermee hebben ingestemd.
@@ -18912,7 +19221,9 @@ Pagina 288 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2020-04-28/06, art. 208, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2023-05-25/04, art. 27, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 12:116.§ 1. [2 Na het verstrijken van de in artikel 12:112/1 bedoelde termijn, onder]2 voorbehoud van
+## Art. 12:116
+
+§ 1. [2 Na het verstrijken van de in artikel 12:112/1 bedoelde termijn, onder]2 voorbehoud van
  strengere statutaire bepalingen en onverminderd de bijzondere bepalingen van dit artikel, besluit de algemene
  vergadering tot grensoverschrijdende fusie van een vennootschap overeenkomstig de volgende regels van
  aanwezigheid en meerderheid:
@@ -18951,7 +19262,6 @@ Pagina 288 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vennootschap, die 5 % van het geplaatste kapitaal vertegenwoordigen, hebben niettemin het recht om de
  algemene vergadering van deze vennootschap bijeen te roepen, die over het fusievoorstel moet besluiten.[2 ...]2
   In de gevallen vermeld in paragraaf 1, tweede lid, en paragraaf 2, eerste lid, beslist het bestuursorgaan van de
-Pagina 289 van 332 Copyright Belgisch S taatsblad 23-01-2026
  overgenomen vennootschap [2 , na het verstrijken van de in artikel 12:112/1 bedoelde termijn,]2 over de
  goedkeuring van de fusie en, indien van toepassing, de wijziging van het aantal aandelen van de overnemende
  vennootschap, en in voorkomend geval, haar kapitaal, ten gevolge van de fusie. De artikelen [1 5:134 tot 5:137
@@ -19019,7 +19329,6 @@ Pagina 289 van 332 Copyright Belgisch S taatsblad 23-01-2026
  effect zoals vermeld in het fusievoorstel als bedoeld in artikel 12:111, tweede lid, 13°.
    De uitbetaling van dit scheidingsaandeel kan pas geschieden nadat de vennootschap is tegemoet gekomen aan
  de schuldeisers die binnen de in artikel 12:112/1 bedoelde termijn van drie maanden hun rechten hebben doen
-Pagina 290 van 332 Copyright Belgisch S taatsblad 23-01-2026
  gelden, tenzij hun aanspraak om een zekerheid te verkrijgen bij een uitvoerbare rechterlijke beslissing is
  afgewezen, maar mag niet later plaatsvinden dan twee maanden nadat de grensoverschrijdende fusie van kracht
  wordt overeenkomstig de jurisdictie waaronder de uit de grensoverschrijdende fusie ontstane vennootschap
@@ -19088,7 +19397,6 @@ De instrumenterende notaris moet na onderzoek het bestaan en zowel de interne al
  volgens dewelke, overeenkomstig de collectieve arbeidsovereenkomst nr. 94 van 29 april 2008, zoals gewijzigd
  door de collectieve arbeidsovereenkomst nr. 94/1 van 20 december 2022, regelingen inzake
  werknemersmedezeggenschap worden vastgesteld en over de mogelijke opties voor deze regelingen;
-Pagina 291 van 332 Copyright Belgisch S taatsblad 23-01-2026
    2° van de in het tweede lid bedoelde documenten;
    3° in voorkomend geval, van een vermelding door de fuserende vennootschappen dat de in de collectieve
  arbeidsovereenkomst nr. 94 van 29 april 2008, zoals gewijzigd door de collectieve arbeidsovereenkomst nr. 94/1
@@ -19130,7 +19438,9 @@ Pagina 291 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2023-05-25/04, art. 30,L11, 013; Inwerkingtreding : 30-06-2023>
   (3)<W 2023-05-25/04, art. 30,L2, 013; Inwerkingtreding : 01-12-2023>
 
-  Art. 12:118.[1 Indien de uit de grensoverschrijdende fusie ontstane vennootschap wordt beheerst door het
+## Art. 12:118
+
+[1 Indien de uit de grensoverschrijdende fusie ontstane vennootschap wordt beheerst door het
  Belgische recht, stelt de notaris de voltooiing van de fusie vast in een authentieke akte nadat hij er zich van
  vergewist]1 dat de fuserende vennootschappen gemeenschappelijke voorstellen voor een grensoverschrijdende
  fusie van gelijke strekking hebben goedgekeurd en dat, in voorkomend geval, de regelingen [1 voor de]1
@@ -19154,8 +19464,9 @@ Pagina 291 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 31, 013; Inwerkingtreding : 16-06-2023>
 
-Pagina 292 van 332 Copyright Belgisch S taatsblad 23-01-2026
-   Art. 12:119.§ 1. Indien de [1 uit de grensoverschrijdende fusie ontstane]1 vennootschap wordt beheerst door
+## Art. 12:119
+
+§ 1. Indien de [1 uit de grensoverschrijdende fusie ontstane]1 vennootschap wordt beheerst door
  het Belgische recht, wordt de grensoverschrijdende fusie [1 ...]1 van kracht op de datum waarop de
  instrumenterende notaris de voltooiing van de fusie heeft vastgesteld [1 overeenkomstig artikel 12:118]1. Bij
  grensoverschrijdende fusie door oprichting van een nieuwe vennootschap moet bovendien de nieuwe
@@ -19219,7 +19530,6 @@ Pagina 292 van 332 Copyright Belgisch S taatsblad 23-01-2026
  het toelaat.
    Indien de vennootschap die de aandelen uitreikt een vennootschap zonder kapitaal is, wordt met de
  fractiewaarde gelijkgesteld de inbrengwaarde, zoals die blijkt uit de jaarrekening, van alle door de vennoten of
-Pagina 293 van 332 Copyright Belgisch S taatsblad 23-01-2026
  aandeelhouders toegezegde inbrengen in geld of in natura, met uitzondering van de inbrengen in nijverheid, in
  voorkomend geval verhoogd met de reserves die op grond van een statutaire bepaling slechts aan de vennoten
  of aandeelhouders kunnen worden uitgekeerd mits een statutenwijziging, dit alles gedeeld door het aantal
@@ -19287,7 +19597,6 @@ Pagina 293 van 332 Copyright Belgisch S taatsblad 23-01-2026
  of aandeelhouders van de te splitsen vennootschap met bijzondere rechten en aan de houders van andere
  effecten dan aandelen, of de jegens hen voorgestelde maatregelen;
    12° de waarborgen, zoals garanties of pandrechten, die na grensoverschrijdende splitsing aan de schuldeisers
-Pagina 294 van 332 Copyright Belgisch S taatsblad 23-01-2026
  zullen worden geboden;
     13° de bijzondere voordelen die worden toegekend aan de deskundigen die het voorstel voor een
  grensoverschrijdende splitsing onderzoeken evenals aan de leden van de bestuurs-, leidinggevende,
@@ -19323,7 +19632,9 @@ Pagina 294 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<Ingevoegd bij W 2023-05-25/04, art. 44, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 12:125.[1 § 1. Door elke bij de splitsing betrokken vennootschap moet ter griffie van de
+## Art. 12:125
+
+[1 § 1. Door elke bij de splitsing betrokken vennootschap moet ter griffie van de
  ondernemingsrechtbank van haar zetel de volgende stukken worden neergelegd en bekendgemaakt in hun
  geheel overeenkomstig de artikelen 2:8 en 2:14, 1° :
    1° het gemeenschappelijk splitsingsvoorstel als bedoeld in artikel 12:124;
@@ -19355,7 +19666,6 @@ Pagina 294 van 332 Copyright Belgisch S taatsblad 23-01-2026
    4° een hyperlink naar de vennootschapswebsite waar het voorstel voor de grensoverschrijdende splitsing, de
  in paragraaf 1, eerste lid, 2°, bedoelde kennisgeving, het verslag bedoeld in artikel 12:128, en volledige informatie
  over de in de bepaling onder 3° bedoelde regelingen online en kosteloos verkrijgbaar zijn.]1
-Pagina 295 van 332 Copyright Belgisch S taatsblad 23-01-2026
    [2 § 3. Wanneer een Belgische besloten vennootschap, coöperatieve vennootschap of naamloze vennootschap
  wordt gesplitst door oprichting van nieuwe vennootschappen en ten minste een van de nieuwe
  vennootschappen een van de in bijlage II bij richtlijn 2017/1132/EU van het Europees Parlement en de Raad van
@@ -19426,7 +19736,6 @@ Pagina 295 van 332 Copyright Belgisch S taatsblad 23-01-2026
    Het derde lid is niet van toepassing indien alle houders van aandelen en winstbewijzen hiermee hebben
  ingestemd. Vennootschappen waarvan alle aandelen in één hand zijn verenigd moeten het derde lid niet
  toepassen.
-Pagina 296 van 332 Copyright Belgisch S taatsblad 23-01-2026
     Het in het eerste lid bedoelde verslag vermeldt voor de werknemers:
     1° de gevolgen van de grensoverschrijdende splitsing voor de arbeidsrelaties en, in voorkomend geval, alle
  maatregelen om die relaties te vrijwaren;
@@ -19496,7 +19805,6 @@ Pagina 296 van 332 Copyright Belgisch S taatsblad 23-01-2026
  dergelijke aanwijzing of goedkeuring in België wordt verzocht. Deze onafhankelijke deskundige(n) stel(l)t(en) één
  voor alle houders van aandelen en winstbewijzen bestemd verslag op.
     § 3. Indien alle houders van aandelen en winstbewijzen in elke bij de splitsing betrokken vennootschap hiermee
-Pagina 297 van 332 Copyright Belgisch S taatsblad 23-01-2026
  hebben ingestemd, is het verslag waarvan sprake in paragraaf 1 niet vereist.
    Vennootschappen waarvan alle aandelen in één hand zijn verenigd moeten dit artikel niet toepassen.
    § 4. In geval van de met splitsing gelijkgestelde verrichting als bedoeld in artikel 12:8, 2° en 3°, is dit artikel niet
@@ -19566,7 +19874,6 @@ Pagina 297 van 332 Copyright Belgisch S taatsblad 23-01-2026
  5° , niet van toepassing.
     § 3. Iedere houder van aandelen of winstbewijzen kan op zijn verzoek kosteloos een volledige of desgewenst
  gedeeltelijke kopie verkrijgen van de in paragraaf 2, eerste lid, bedoelde stukken, met uitzondering van diegene
-Pagina 298 van 332 Copyright Belgisch S taatsblad 23-01-2026
  die hem overeenkomstig paragraaf 1 zijn toegezonden.
    Het in het eerste lid bedoelde recht om kosteloos een kopie van de in paragraaf 2, eerste lid, 1°, 3°, 4° en 5°,
  en artikel 12:127, § 1, derde lid, 1°, bedoelde stukken te verkrijgen komt eveneens toe aan schuldeisers die op
@@ -19637,7 +19944,6 @@ Pagina 298 van 332 Copyright Belgisch S taatsblad 23-01-2026
  kapitaal al of niet vertegenwoordigen en de grensoverschrijdende splitsing aanleiding geeft tot wijziging van hun
  respectieve rechten, is artikel 5:102, derde lid, artikel 6:87, derde lid, of artikel 7:155, derde lid, van
  overeenkomstige toepassing. De algemene vergadering kan echter alleen op geldige wijze beraadslagen en
-Pagina 299 van 332 Copyright Belgisch S taatsblad 23-01-2026
  besluiten indien voor iedere soort is voldaan aan de aanwezigheids- en meerderheidsvereisten bepaald in
  paragraaf 1.
     § 4. In afwijking van de paragrafen 1 tot 3 is de instemming van alle vennoten of aandeelhouders vereist:
@@ -19710,7 +20016,6 @@ Pagina 299 van 332 Copyright Belgisch S taatsblad 23-01-2026
  het door de algemene vergadering of, in het geval bedoeld in artikel 12:131, § 2, het bestuursorgaan, van de
  gesplitste vennootschap genomen besluit tot splitsing en, in geval van een grensoverschrijdende splitsing door
  overneming, van de verkrijgende vennootschappen neergelegd en bij uittreksel bekendgemaakt, overeenkomstig
-Pagina 300 van 332 Copyright Belgisch S taatsblad 23-01-2026
  de artikelen 2:8 en 2:14, 1°.
    In geval van een grensoverschrijdende splitsing door overneming worden, in voorkomend geval, de akten tot
  statutenwijziging van een verkrijgende vennootschap neergelegd en bekendgemaakt overeenkomstig de artikelen
@@ -19781,7 +20086,6 @@ Pagina 300 van 332 Copyright Belgisch S taatsblad 23-01-2026
  ontvangst van de documenten en informatie bedoeld in het tweede lid een attest af waaruit afdoende blijkt dat de
  aan de grensoverschrijdende splitsing voorafgaande handelingen en formaliteiten correct zijn vervuld.
    Bij de aanvraag van het aan de grensoverschrijdende splitsing voorafgaande attest, in geval van
-Pagina 301 van 332 Copyright Belgisch S taatsblad 23-01-2026
  grensoverschrijdende splitsing door overneming, door iedere vennootschap die deelneemt aan de splitsing en
  onder het Belgische recht valt of, in geval van grensoverschrijdende splitsing door oprichting van nieuwe
  vennootschappen, door de splitsende vennootschap die onder het Belgische recht valt, bij de in het eerste lid
@@ -19850,12 +20154,13 @@ Pagina 301 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vanuit het in artikel 2:7 bedoelde dossier, over aan de registers van de lidstaten van de nieuwe vennootschappen
  en met het oog op de terbeschikkingstelling ervan aan het publiek.]2
    ----------
-Pagina 302 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<Ingevoegd bij W 2023-05-25/04, art. 58, 013; Inwerkingtreding : 16-06-2023>
   (2)<W 2023-05-25/04, art. 58,L11, 013; Inwerkingtreding : 30-06-2023>
   (3)<W 2023-05-25/04, art. 58,L2, 013; Inwerkingtreding : 01-12-2023>
 
-  Art. 12:139.[1 § 1. In geval van een grensoverschrijdende splitsing door oprichting van nieuwe
+## Art. 12:139
+
+[1 § 1. In geval van een grensoverschrijdende splitsing door oprichting van nieuwe
  vennootschappen gelden voor de oprichting van nieuwe vennootschappen die door het Belgische recht worden
  beheerst, onder voorbehoud van de paragrafen 2 en 3, voor ieder van hen alle voorwaarden die dit wetboek
  voor de gekozen vennootschapsvorm stelt. De artikelen 5:4, 6:5 en 7:3 zijn niet van toepassing.
@@ -19919,7 +20224,6 @@ Pagina 302 van 332 Copyright Belgisch S taatsblad 23-01-2026
  datum waarop de instrumenterende notaris de voltooiing van de splitsing heeft vastgesteld op verzoek van de
  gesplitste vennootschap, op voorlegging van de attesten en andere documenten die de verrichting en oprichting
  rechtvaardigen. Hiertoe leveren de bevoegde buitenlandse instanties van de vennootschap of vennootschappen
-Pagina 303 van 332 Copyright Belgisch S taatsblad 23-01-2026
  die onder een buitenlands recht vallen een attest af waaruit afdoende blijkt dat de aan de splitsing voorafgaande
  handelingen en formaliteiten, alsook de oprichting indien van toepassing, correct zijn verricht overeenkomstig het
  recht van toepassing op deze vennootschappen.
@@ -19990,7 +20294,6 @@ Pagina 303 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
 § 1. In afwijking van de bepalingen van boek 2, titel 8, hoofdstuk 2, kunnen de VZW's, de IVZW's en
  de stichtingen - onder de in deze titel bedoelde voorwaarden - beslissen zich te ontbinden zonder vereffening
-Pagina 304 van 332 Copyright Belgisch S taatsblad 23-01-2026
  teneinde hun gehele vermogen in te brengen in één of meer rechtspersonen die hun belangeloos doel
  verderzetten.
   § 2. Wanneer de verrichting op wettige wijze uitwerking heeft:
@@ -20027,7 +20330,9 @@ Pagina 304 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 3. Over de ontbinding zonder vereffening voor voornoemde doeleinden kan enkel worden beslist mits de
  artikelen 13:3 en 13:4 in acht wordt genomen.
 
-  Art. 13:3.§ 1. De bestuursorganen van de rechtspersonen die partij zijn bij de verrichting stellen gezamenlijk een
+## Art. 13:3
+
+§ 1. De bestuursorganen van de rechtspersonen die partij zijn bij de verrichting stellen gezamenlijk een
  verrichtingsvoorstel op.
   Het verrichtingsvoorstel omschrijft de redenen voor die verrichting en alle nadere regels ervan, alsmede indien
  het vermogen van de ontbonden rechtspersoon in meerdere verkrijgende rechtspersonen wordt ingebracht, de
@@ -20062,7 +20367,6 @@ Pagina 304 van 332 Copyright Belgisch S taatsblad 23-01-2026
  artikel en, indien het om een andere rechtspersoon gaat, door het bevoegde orgaan volgens de vereisten
  bedoeld in de wettelijke, regelgevende of statutaire bepalingen die erop van toepassing zijn.
   § 2. De notulen van de organen van de partijen bij de verrichting worden in authentieke vorm opgemaakt tenzij
-Pagina 305 van 332 Copyright Belgisch S taatsblad 23-01-2026
  het om een universiteit of om een publiekrechtelijke rechtspersoon gaat.
   § 3. Deze notulen worden bij uittreksel neergelegd en bekendgemaakt overeenkomstig de artikelen 2:9, 2:10,
  2:11, 2:15, 2:16 of 2:17 naargelang het om een VZW, een IVZW of een stichting gaat en in voorkomend geval
@@ -20071,7 +20375,9 @@ Pagina 305 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 3. Tegenwerpelijkheid aan derden.
 
-  Art. 13:5.De inbreng van het gehele vermogen van een VZW, van een IVZW of van een stichting kan aan
+## Art. 13:5
+
+De inbreng van het gehele vermogen van een VZW, van een IVZW of van een stichting kan aan
  derden slechts worden tegengeworpen onder de in artikel 2:18 bepaalde voorwaarden.
   De akten bedoeld in artikel [1 3.30 van het Burgerlijk Wetboek]1 kunnen aan derden slechts worden
  tegengeworpen overeenkomstig deze wet. Daartoe moeten de notulen van de algemene vergaderingen van alle
@@ -20105,7 +20411,9 @@ Pagina 305 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   HOOFDSTUK 5. Nietigheid van de verrichting.
 
-  Art. 13:7.De ondernemingsrechtbank kan, op verzoek van elke belanghebbende, de nietigheid van de
+## Art. 13:7
+
+De ondernemingsrechtbank kan, op verzoek van elke belanghebbende, de nietigheid van de
  verrichting uitspreken indien de besluiten van de algemene vergaderingen die ze hebben goedgekeurd niet in de
  vereiste vorm zijn vastgesteld of indien die besluiten werden genomen terwijl het door deze titel voorgeschreven
  verrichtingsvoorstel of verslag van de commissarissen of de bedrijfsrevisoren of [1 gecertificeerd accountants]1
@@ -20139,7 +20447,6 @@ De nietigheid doet op zichzelf geen afbreuk aan de geldigheid van de verbintenis
 ## Art. 13:10
 
 Ingeval een beroep wordt gedaan op de mogelijkheid vervat in artikel 12:1, § 1, tweede lid, zijn artikel
-Pagina 306 van 332 Copyright Belgisch S taatsblad 23-01-2026
  12:103 en de artikelen waarnaar het verwijst, op overeenkomstige wijze van toepassing op de inbreng om niet
  van algemeenheid of van bedrijfstak, door een VZW, een IVZW, een stichting van openbaar nut of een private
  stichting, ten voordele van een rechtspersoon die tot een van de voormelde categorieën behoort.
@@ -20198,7 +20505,9 @@ Wanneer een vennootschap, opgericht in een van de rechtsvormen genoemd in artike
 
   Afdeling 2. Formaliteiten die het besluit tot omzetting van een vennootschap voorafgaan.
 
-  Art. 14:3.Alvorens tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva
+## Art. 14:3
+
+Alvorens tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva
  op, die niet meer dan drie maanden vóór de algemene vergadering die over het voorstel tot omzetting moet
  besluiten is afgesloten.
   Wanneer [1 in de naamloze vennootschap, de Europese vennootschap en de Europese coöperatieve
@@ -20211,8 +20520,9 @@ Wanneer een vennootschap, opgericht in een van de rechtsvormen genoemd in artike
   ----------
   (1)<W 2020-04-28/06, art. 211, 002; Inwerkingtreding : 06-05-2020>
 
-  Art. 14:4.De commissaris of, als er geen commissaris is, een door het bestuursorgaan of, bij een vennootschap
-Pagina 307 van 332 Copyright Belgisch S taatsblad 23-01-2026
+## Art. 14:4
+
+De commissaris of, als er geen commissaris is, een door het bestuursorgaan of, bij een vennootschap
  onder firma of een commanditaire vennootschap, een door de algemene vergadering aangewezen bedrijfsrevisor
  of [2 gecertificeerd accountant]2, brengt over deze staat verslag uit en vermeldt inzonderheid of het nettoactief
  is overgewaardeerd.
@@ -20229,7 +20539,9 @@ Het bestuursorgaan licht het omzettingsvoorstel toe in een verslag dat wordt ver
  van de algemene vergadering die het besluit moet nemen. Bij dat verslag wordt de staat van activa en passiva
  gevoegd.
 
-  Art. 14:6.Een kopie van het verslag van het bestuursorgaan en van het verslag van de commissaris of van de
+## Art. 14:6
+
+Een kopie van het verslag van het bestuursorgaan en van het verslag van de commissaris of van de
  bedrijfsrevisor of [1 gecertificeerd accountant]1, alsook het ontwerp van statutenwijziging worden meegedeeld
  aan de aandeelhouders samen met de oproeping tot de algemene vergadering overeenkomstig de artikelen 5:83,
  6:70, § 1, 7:128 en 7:129. In een vennootschap onder firma en in een commanditaire vennootschap worden zij
@@ -20249,7 +20561,9 @@ Wanneer de verslagen vereist door deze afdeling ontbreken, is het besluit van de
 
   Afdeling 3. Besluit tot omzetting.
 
-   Art. 14:8.§ 1. Onverminderd strengere bepalingen in de statuten en de bijzondere bepalingen van dit artikel,
+## Art. 14:8
+
+§ 1. Onverminderd strengere bepalingen in de statuten en de bijzondere bepalingen van dit artikel,
  beslist de algemene vergadering tot omzetting overeenkomstig de volgende regels van aanwezigheid en
  meerderheid:
    1° de op de vergadering aanwezigen of vertegenwoordigden moeten ten minste de helft van het kapitaal, of, als
@@ -20284,7 +20598,6 @@ Wanneer de verslagen vereist door deze afdeling ontbreken, is het besluit van de
    Hij geeft van zijn uittreding aan de vennootschap kennis overeenkomstig artikel 2:32 uiterlijk vijf dagen vóór de
  datum van de algemene vergadering. Zij heeft enkel gevolg als het voorstel tot omzetting wordt aangenomen.
    In de oproeping wordt de tekst van deze paragraaf, eerste en tweede lid, opgenomen.
-Pagina 308 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 62, 013; Inwerkingtreding : 16-06-2023>
 
@@ -20295,7 +20608,9 @@ Onmiddellijk na het besluit tot omzetting worden de statuten van de vennootschap
  aanwezigheid en meerderheid als voor de omzetting zijn voorgeschreven, bij gebrek waaraan het besluit tot
  omzetting zonder gevolg blijft.
 
-  Art. 14:10.De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
+## Art. 14:10
+
+De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
   In die akte wordt de conclusie overgenomen van het verslag van de commissaris of van de bedrijfsrevisor of [1
  gecertificeerd accountant]1.
   De akte van omzetting en de statuten worden tegelijk neergelegd en bekendgemaakt overeenkomstig de
@@ -20308,7 +20623,9 @@ Onmiddellijk na het besluit tot omzetting worden de statuten van de vennootschap
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 14:11.De artikelen 5:7, [1 5:9,]1 5:11, 5:12, eerste lid, 5° en 8°, 5:15, 5:16, 5:17, 5:138, 5:139 en 5:140
+## Art. 14:11
+
+De artikelen 5:7, [1 5:9,]1 5:11, 5:12, eerste lid, 5° en 8°, 5:15, 5:16, 5:17, 5:138, 5:139 en 5:140
  vinden geen toepassing in geval van omzetting in een besloten vennootschap.
   De artikelen 6:8, [1 6:10,]1 6:12, 6:13, eerste lid, 5° en 8°, 6:16, 6:17, 6:18, 6:111, 6:112 en 6:113 vinden geen
  toepassing in geval van omzetting in een coöperatieve vennootschap.
@@ -20360,7 +20677,6 @@ Wanneer de statuten van een vennootschap onder firma bepalen dat de vennootschap
   Afdeling 1. [1 Algemene bepalingen.]1
   ----------
   (1)<W 2023-05-25/04, art. 63, 013; Inwerkingtreding : 16-06-2023>
-Pagina 309 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 1. [1 Inleidende bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-25/04, art. 64, 013; Inwerkingtreding : 16-06-2023>
@@ -20374,13 +20690,17 @@ Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregeld
  rechtspersoonlijkheid, die hun zetel naar België willen verplaatsen (immigratie), met uitzondering van de SE en de
  SCE.
 
-  Art. 14:16.Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, zet zij zich om in een
+## Art. 14:16
+
+Wanneer een vennootschap haar [1 ...]1 zetel over de grenzen heen verplaatst, zet zij zich om in een
  rechtsvorm van de jurisdictie waarheen zij haar zetel verplaatst, met continuïteit van haar rechtspersoonlijkheid
  [1 , waarbij zij de rechtsgevolgen vermeld in artikel 14:17/1 ondergaat]1.
   ----------
   (1)<W 2023-05-25/04, art. 65, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 14:17.[1 Zijn uitgesloten van de toepassing van dit hoofdstuk:
+## Art. 14:17
+
+[1 Zijn uitgesloten van de toepassing van dit hoofdstuk:
    1° de openbare beleggingsvennootschappen met veranderlijk kapitaal als bedoeld in artikel 15 van de wet van 3
  augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van
  Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen;
@@ -20421,14 +20741,15 @@ Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregeld
 
   Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
-  Art. 14:18.[1 Het bestuursorgaan stelt bij authentieke of bij onderhandse akte het voorstel tot
+## Art. 14:18
+
+[1 Het bestuursorgaan stelt bij authentieke of bij onderhandse akte het voorstel tot
  grensoverschrijdende omzetting op.
    Dit voorstel vermeldt ten minste:
    1° de rechtsvorm, de naam, het voorwerp en de zetel van de vennootschap vóór grensoverschrijdende
  omzetting;
    2° de rechtsvorm, de naam, het voorwerp en de zetel van de vennootschap na grensoverschrijdende
 
-Pagina 310 van 332 Copyright Belgisch S taatsblad 23-01-2026
  omzetting;
    3° een e-mailadres van de vennootschap waarop elke communicatie door de vennoten of aandeelhouders,
  houders van winstbewijzen, schuldeisers en werknemers wordt geacht geldig te zijn gebeurd;
@@ -20458,7 +20779,9 @@ Pagina 310 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 71, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 14:18/1.[1 § 1. Op de griffie van de ondernemingsrechtbank van de zetel van de vennootschap worden de
+## Art. 14:18/1
+
+[1 § 1. Op de griffie van de ondernemingsrechtbank van de zetel van de vennootschap worden de
  volgende stukken neergelegd en bekendgemaakt in hun geheel overeenkomstig de artikelen 2:8 en 2:14, 1° :
     1° het omzettingsvoorstel als bedoeld in artikel 14:18;
     2° een kennisgeving aan de houders van aandelen en winstbewijzen, de schuldeisers en de
@@ -20497,8 +20820,9 @@ Pagina 310 van 332 Copyright Belgisch S taatsblad 23-01-2026
    (1)<Ingevoegd bij W 2023-05-25/04, art. 72, 013; Inwerkingtreding : 16-06-2023>
    (2)<W 2023-05-25/04, art. 72,§3, 013; Inwerkingtreding : 30-06-2023>
 
-Pagina 311 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 14:19.Uiterlijk binnen [1 drie]1 maanden na de bekendmaking van het omzettingsvoorstel in de Bijlagen bij
+## Art. 14:19
+
+Uiterlijk binnen [1 drie]1 maanden na de bekendmaking van het omzettingsvoorstel in de Bijlagen bij
  het Belgisch Staatsblad, kunnen de schuldeisers [1 die geen genoegen nemen met de in artikel 14:18, 7°,
  geboden waarborgen]1 jegens de vennootschap, niettegenstaande andersluidende bepaling, een [1 bijkomende]1
  zekerheid of enige andere waarborg eisen voor hun schuldvorderingen die op het tijdstip van de bekendmaking
@@ -20523,7 +20847,9 @@ Pagina 311 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 73, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 14:20.[1 Het bestuursorgaan stelt een omstandig schriftelijk verslag op bestemd voor de houders van
+## Art. 14:20
+
+[1 Het bestuursorgaan stelt een omstandig schriftelijk verslag op bestemd voor de houders van
  aandelen en winstbewijzen en de werknemers waarin de juridische en economische aspecten van de
  grensoverschrijdende omzetting worden toegelicht en verantwoord en waarin de gevolgen van de
  grensoverschrijdende omzetting voor de werknemers worden toegelicht. In het verslag wordt met name
@@ -20565,12 +20891,13 @@ Pagina 311 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van de informatie voorgeschreven door artikel 11 van de collectieve arbeidsovereenkomst nr. 9 van 9 maart
  1972, wordt dit advies aan het in het eerste lid of, in voorkomend geval, het vijfde lid bedoelde verslag gehecht.
  Het bestuursorgaan verstrekt de voornoemde organisaties of de werknemers zelf vóór de algemene
-Pagina 312 van 332 Copyright Belgisch S taatsblad 23-01-2026
  vergadering die over het omzettingsvoorstel moet besluiten een gemotiveerd antwoord over dit advies.]1
   ----------
   (1)<W 2023-05-25/04, art. 74, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 14:21.[1 § 1. De commissaris of, als er geen commissaris is, een door het bestuursorgaan of, bij een
+## Art. 14:21
+
+[1 § 1. De commissaris of, als er geen commissaris is, een door het bestuursorgaan of, bij een
  vennootschap onder firma of een commanditaire vennootschap, door de algemene vergadering aangewezen
  bedrijfsrevisor of gecertificeerd accountant, stelt een schriftelijk verslag over het voorstel tot
  grensoverschrijdende omzetting op en brengt over de in artikel 14:20, derde lid, 1°, bedoelde staat verslag uit en
@@ -20595,7 +20922,9 @@ Pagina 312 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2023-05-25/04, art. 75, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 14:22.[1 § 1. De agenda van de algemene vergadering die over het omzettingsvoorstel moet besluiten
+## Art. 14:22
+
+[1 § 1. De agenda van de algemene vergadering die over het omzettingsvoorstel moet besluiten
  vermeldt het omzettingsvoorstel en de verslagen bedoeld in de artikelen 14:20 en 14:21, evenals de mogelijkheid
  voor de houders van aandelen en winstbewijzen om de genoemde stukken kosteloos te verkrijgen.
     Aan de houders van aandelen en winstbewijzen op naam wordt uiterlijk zes weken vóór de algemene
@@ -20634,7 +20963,6 @@ Pagina 312 van 332 Copyright Belgisch S taatsblad 23-01-2026
    ----------
    (1)<W 2023-05-25/04, art. 76, 013; Inwerkingtreding : 16-06-2023>
 
-Pagina 313 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ## Art. 14:23
@@ -20642,7 +20970,9 @@ Pagina 313 van 332 Copyright Belgisch S taatsblad 23-01-2026
 Na het verstrijken van de in artikel 14:19 bedoelde termijn besluit de algemene vergadering tot de
  grensoverschrijdende omzetting overeenkomstig de bepalingen van deze onderafdeling.
 
-  Art. 14:24.§ 1. Onverminderd strengere bepalingen in de statuten en de bijzondere bepalingen van dit artikel,
+## Art. 14:24
+
+§ 1. Onverminderd strengere bepalingen in de statuten en de bijzondere bepalingen van dit artikel,
  beslist de algemene vergadering tot de grensoverschrijdende omzetting overeenkomstig de volgende regels van
  aanwezigheid en meerderheid:
   1° de op de vergadering aanwezigen of vertegenwoordigden moeten [2 niet alleen]2 ten minste de helft van het
@@ -20684,7 +21014,9 @@ Na het verstrijken van de in artikel 14:19 bedoelde termijn besluit de algemene 
   (1)<W 2020-04-28/06, art. 214, 002; Inwerkingtreding : 06-05-2020>
   (2)<W 2023-05-25/04, art. 77, 013; Inwerkingtreding : 16-06-2023>
 
-   Art. 14:25.[1 Het besluit tot grensoverschrijdende]1 omzetting wordt [1 ...]1 bij authentieke akte vastgesteld
+## Art. 14:25
+
+[1 Het besluit tot grensoverschrijdende]1 omzetting wordt [1 ...]1 bij authentieke akte vastgesteld
  door de notaris aangeduid in het in artikel 14:18 bedoelde omzettingsvoorstel. In de authentieke akte wordt [1 ,
  in voorkomend geval,]1 de conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [2
  gecertificeerd accountant]2 overgenomen. De staat van actief en passief wordt er aangehecht.
@@ -20703,7 +21035,6 @@ Na het verstrijken van de in artikel 14:19 bedoelde termijn besluit de algemene 
  effect zoals vermeld in het omzettingsvoorstel als bedoeld in artikel 14:18, 11°.
    De uitbetaling van dit scheidingsaandeel kan pas geschieden nadat de vennootschap is tegemoet gekomen aan
  de schuldeisers die binnen de in artikel 14:19 bedoelde termijn van drie maanden hun rechten hebben doen
-Pagina 314 van 332 Copyright Belgisch S taatsblad 23-01-2026
  gelden, tenzij hun aanspraak om een zekerheid te verkrijgen bij een uitvoerbare rechterlijke beslissing is
  afgewezen, maar mag niet later plaatsvinden dan twee maanden nadat de grensoverschrijdende omzetting van
  kracht wordt overeenkomstig de jurisdictie waarheen de vennootschap haar zetel verplaatst.
@@ -20773,7 +21104,6 @@ Pagina 314 van 332 Copyright Belgisch S taatsblad 23-01-2026
  de notaris alle relevante feiten en omstandigheden in aanmerking nemen, zoals indicatieve factoren, indien van
  belang en niet op zichzelf beschouwd, waarvan hij in het kader van het in het eerste lid bedoelde toezicht, onder
  meer door raadpleging van de in het tweede lid, 7°, bedoelde overheidsinstanties, kennis heeft genomen.
-Pagina 315 van 332 Copyright Belgisch S taatsblad 23-01-2026
    De in het eerste lid bedoelde termijn kan met twee maanden worden verlengd opdat de notaris rekening kan
  houden met aanvullende informatie of om aanvullende onderzoeksactiviteiten te verrichten.
    Indien de notaris oordeelt dat het attest niet kan worden afgeleverd vanwege de complexiteit van de
@@ -20798,7 +21128,9 @@ Pagina 315 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (2)<W 2023-05-25/04, art. 80,L11, 013; Inwerkingtreding : 30-06-2023>
   (3)<W 2023-05-25/04, art. 80,L2, 013; Inwerkingtreding : 01-12-2023>
 
-  Art. 14:27.[1 De omzetting kan pas worden ingeschreven in het Belgische rechtspersonenregister na ontvangst
+## Art. 14:27
+
+[1 De omzetting kan pas worden ingeschreven in het Belgische rechtspersonenregister na ontvangst
  van de notificatie door het buitenlandse register dat de omzetting van kracht is geworden. De beheersdienst van
  de Kruispuntbank van Ondernemingen maakt deze notificatie bekend overeenkomstig artikel 2:14, 1°, en gaat
  over tot wijziging van de gegevens vermeldt in het Belgische rechtspersonenregister.
@@ -20811,7 +21143,9 @@ Pagina 315 van 332 Copyright Belgisch S taatsblad 23-01-2026
 
   Afdeling 3. Immigratie.
 
-  Art. 14:28.De [1 notaris stelt de voltooiing van de]1 grensoverschrijdende omzetting van een buitenlandse
+## Art. 14:28
+
+De [1 notaris stelt de voltooiing van de]1 grensoverschrijdende omzetting van een buitenlandse
  vennootschap naar een vennootschap geregeld door dit wetboek, [1 vast in een authentieke akte nadat hij er
  zich, in voorkomend geval, van vergewist dat de regelingen voor de medezeggenschap van de werknemers
  formeel zijn vastgesteld overeenkomstig de collectieve arbeidsovereenkomst nr. 94 van 29 april 2008, zoals
@@ -20832,14 +21166,15 @@ Pagina 315 van 332 Copyright Belgisch S taatsblad 23-01-2026
   ----------
   (1)<W 2023-05-25/04, art. 82, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 14:29.De grensoverschrijdende omzetting en de daarmee gepaard gaande statutenwijziging worden van
+## Art. 14:29
+
+De grensoverschrijdende omzetting en de daarmee gepaard gaande statutenwijziging worden van
  kracht vanaf de inschrijving van de vennootschap in het Belgisch rechtspersonenregister.
   [1 Indien een vennootschap met een vorm zoals genoemd in bijlage II van richtlijn 2017/1132/EU van het
  Europees Parlement en de Raad van 14 juni 2017 zich omvormt in een Belgische besloten vennootschap,
  coöperatieve vennootschap of naamloze vennootschap, maakt de beheersdienst van de Kruispuntbank van
  Ondernemingen het van kracht worden van de grensoverschrijdende omzetting via het Europese systeem van
  gekoppelde registers als bedoeld in artikel 22 van richtlijn 2017/1132/EU van het Europees Parlement en de Raad
-Pagina 316 van 332 Copyright Belgisch S taatsblad 23-01-2026
  van 14 juni 2017 aangaande bepaalde aspecten van het vennootschapsrecht over aan het register van de
  lidstaat van vertrek.]1
    ----------
@@ -20863,7 +21198,9 @@ Een vennootschap met rechtspersoonlijkheid kan worden omgezet in een VZW of een 
   Deze omzetting laat de rechtspersoonlijkheid van de vennootschap die blijft voortbestaan in de vorm van een
  VZW of een IVZW, onverlet.
 
-   Art. 14:32.Het bestuursorgaan licht het voorstel tot omzetting, haar redenen en haar gevolgen voor de rechten
+## Art. 14:32
+
+Het bestuursorgaan licht het voorstel tot omzetting, haar redenen en haar gevolgen voor de rechten
  van de vennoten of aandeelhouders toe in een verslag dat wordt vermeld in de agenda van de algemene
  vergadering.
    Bij dat verslag worden de volgende documenten gevoegd:
@@ -20897,7 +21234,9 @@ Een kopie van het verslag van het bestuursorgaan en van de bijlagen erbij worden
  dat alle vennoten of aandeelhouders van de vennootschap eveneens unaniem daarmee instemmen.
   Indien zulks niet gebeurt, blijft het besluit tot omzetting zonder gevolg.
 
-  Art. 14:35.De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
+## Art. 14:35
+
+De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
   In die akte worden de conclusies van het verslag van de commissaris, de bedrijfsrevisor of de [1 gecertificeerd
  accountant]1 overgenomen.
   De akte van omzetting en de statuten worden gelijktijdig neergelegd en bekendgemaakt overeenkomstig de
@@ -20918,7 +21257,6 @@ In geval van omzetting van een vennootschap onder firma of een commanditaire ven
  blijven de vennoten onder firma of de gecommanditeerde vennoten hoofdelijk en onbeperkt aansprakelijk ten
  aanzien van derden voor alle verbintenissen van de vennootschap voorafgaand aan de dag waarop de akte van
  omzetting aan derden kan worden tegengeworpen overeenkomstig artikel 2:18.
-Pagina 317 van 332 Copyright Belgisch S taatsblad 23-01-2026
   TITEL 3. Omzetting van een VZW in een erkende CVSO of een CV erkend als SO.
 
 ## Art. 14:37
@@ -20927,7 +21265,9 @@ De VZW kan worden omgezet in een erkende CVSO of een CV erkend als SO.
   Deze omzetting laat de rechtspersoonlijkheid van de VZW die blijft voortbestaan in de vorm van een
  coöperatieve vennootschap, onverlet.
 
-  Art. 14:38.Het voorstel tot omzetting wordt toegelicht in een verslag van het bestuursorgaan dat wordt
+## Art. 14:38
+
+Het voorstel tot omzetting wordt toegelicht in een verslag van het bestuursorgaan dat wordt
  vermeld in de agenda van de algemene vergadering.
   Bij dat verslag worden de volgende documenten gevoegd:
   1° het ontwerp van de statuten van de coöperatieve vennootschap waarin de VZW zal worden omgezet;
@@ -20951,7 +21291,9 @@ Het besluit tot omzetting is onderworpen aan de voorwaarden van artikel 9:21, de
  omzetting zonder gevolg.
   In de oproepingsbrief voor de algemene vergadering wordt de tekst van het eerste en tweede lid opgenomen.
 
-  Art. 14:40.De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
+## Art. 14:40
+
+De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
   In die akte worden de conclusies van het verslag van de commissaris of van de bedrijfsrevisor of [1
  gecertificeerd accountant]1 overgenomen.
   De akte van omzetting en de statuten worden gelijktijdig neergelegd en bekendgemaakt overeenkomstig de
@@ -20998,8 +21340,9 @@ Op verzoek van een aandeelhouder, van een belanghebbende derde, of van het openb
  zij bewijzen dat deze laatsten kennis hadden van de onrechtmatigheid van de terugbetaling of uitkering te
  hunnen voordele of, gelet op de omstandigheden, daarvan niet onkundig konden zijn.
 
-Pagina 318 van 332 Copyright Belgisch S taatsblad 23-01-2026
-  Art. 14:45.Niettegenstaande andersluidende bepaling, zijn de leden van het bestuursorgaan van de VZW die
+## Art. 14:45
+
+Niettegenstaande andersluidende bepaling, zijn de leden van het bestuursorgaan van de VZW die
  wordt omgezet, jegens de belanghebbenden hoofdelijk gehouden tot vergoeding van de schade die het
  onmiddellijk en rechtstreeks gevolg is:
   1° van de overwaardering van het nettoactief, zoals dit blijkt uit de bij artikel 14:38 bedoelde staat;
@@ -21020,7 +21363,9 @@ Een VZW kan worden omgezet in een IVZW. Een IVZW kan worden omgezet in een VZW.
   Die omzetting laat de rechtspersoonlijkheid van de vereniging die in een andere vorm blijft voortbestaan,
  onverlet.
 
-  Art. 14:47.Het voorstel tot omzetting wordt toegelicht in een verslag dat door het bestuursorgaan wordt
+## Art. 14:47
+
+Het voorstel tot omzetting wordt toegelicht in een verslag dat door het bestuursorgaan wordt
  opgemaakt en dat wordt vermeld in de agenda van de algemene vergadering.
   Bij dat verslag worden de volgende documenten gevoegd:
   1° het ontwerp van statuten van de IVZW of de VZW waarin de vereniging zal worden omgezet;
@@ -21045,7 +21390,9 @@ Het besluit tot omzetting is onderworpen aan de aanwezigheids- en meerderheidsve
  zonder gevolg.
   In de oproeping tot de algemene vergadering wordt de tekst van het eerste en tweede lid opgenomen.
 
-  Art. 14:49.De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
+## Art. 14:49
+
+De omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld.
   In die akte worden de conclusies van het verslag van de commissaris of van de bedrijfsrevisor of [1
  gecertificeerd accountant]1 overgenomen.
   De akte van omzetting en de statuten worden gelijktijdig neergelegd en bekendgemaakt overeenkomstig de
@@ -21072,7 +21419,6 @@ Niettegenstaande andersluidende bepaling zijn de leden van het bestuursorgaan va
 
   Afdeling 1. Inleidende bepalingen.
 
-Pagina 319 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 14:51
 
 Afdeling 2 van dit hoofdstuk is van toepassing op alle door dit wetboek geregelde verenigingen met
@@ -21127,7 +21473,9 @@ Het bestuursorgaan licht het voorstel tot grensoverschrijdende omzetting, haar j
  een verslag dat wordt vermeld in de agenda van de algemene vergadering voor de VZW of de vergadering van
  het door de statuten aangewezen orgaan voor de IVZW die het omzettingsbesluit moet nemen.
 
-  Art. 14:57.Bij het in artikel 14:56 bedoelde verslag voegt het bestuursorgaan een staat van activa en passiva,
+## Art. 14:57
+
+Bij het in artikel 14:56 bedoelde verslag voegt het bestuursorgaan een staat van activa en passiva,
  die niet meer dan vier maanden vóór de algemene vergadering voor de VZW of de vergadering van het door de
  statuten aangewezen orgaan voor de IVZW die over het voorstel tot grensoverschrijdende omzetting moet
  besluiten is afgesloten.
@@ -21137,7 +21485,9 @@ Het bestuursorgaan licht het voorstel tot grensoverschrijdende omzetting, haar j
   ----------
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-  Art. 14:58.Een kopie van het verslag van het bestuursorgaan en van het verslag van de commissaris of van de
+## Art. 14:58
+
+Een kopie van het verslag van het bestuursorgaan en van het verslag van de commissaris of van de
  bedrijfsrevisor of [1 gecertificeerd accountant]1, alsook het ontwerp van statutenwijziging, worden meegedeeld
  aan de leden samen met de oproeping tot de algemene vergadering voor de VZW of de vergadering van het
  door de statuten aangewezen orgaan voor de IVZW overeenkomstig artikel 2:32.
@@ -21154,7 +21504,6 @@ Het bestuursorgaan licht het voorstel tot grensoverschrijdende omzetting, haar j
 Na het verstrijken van de in artikel 14:55 bedoelde termijn besluit de algemene vergadering voor de
  VZW of het door de statuten aangewezen orgaan voor de IVZW tot de grensoverschrijdende omzetting
  overeenkomstig de bepalingen van deze onderafdeling.
-Pagina 320 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 14:60
 
 § 1. Onverminderd strengere bepalingen in de statuten en de bijzondere bepalingen van dit artikel,
@@ -21175,7 +21524,9 @@ Pagina 320 van 332 Copyright Belgisch S taatsblad 23-01-2026
   3° indien in de statuten is bepaald dat zij geen andere rechtsvorm mag aannemen. Deze bepaling van de
  statuten kan slechts met instemming van alle leden worden gewijzigd.
 
-  Art. 14:61.De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld
+## Art. 14:61
+
+De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld
  door de notaris aangeduid in het in artikel 14:54 bedoelde omzettingsvoorstel. In de authentieke akte wordt de
  conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [1 gecertificeerd accountant]1
  overgenomen. De staat van actief en passief wordt er aangehecht.
@@ -21231,10 +21582,11 @@ De zich omzettende rechtspersoon legt door toedoen van haar bestuursorgaan een s
 
   Hoofdstuk 1. Nationale omzetting.
 
-  Art. 14:67.§ 1. Iedere private stichting kan bij authentieke akte en mits goedkeuring van de Koning worden
+## Art. 14:67
+
+§ 1. Iedere private stichting kan bij authentieke akte en mits goedkeuring van de Koning worden
  omgezet in een stichting van openbaar nut overeenkomstig de bepalingen van boek 11. Die omzetting brengt
  geen wijziging mee in de rechtspersoonlijkheid van de stichting.
-Pagina 321 van 332 Copyright Belgisch S taatsblad 23-01-2026
   § 2. Aan de akte worden toegevoegd:
   1° een toelichtend verslag opgesteld door het bestuursorgaan;
   2° een staat van de activa en passiva van de stichting die niet meer dan drie maanden vóór de vergadering van
@@ -21302,7 +21654,9 @@ Uiterlijk binnen twee maanden na de bekendmaking van het omzettingsvoorstel in d
 Het bestuursorgaan licht het voorstel tot grensoverschrijdende omzetting, haar juridische en
  economische redenen en gevolgen, en haar gevolgen voor de schuldeisers en de werknemers toe in een verslag.
 
-  Art. 14:74.Bij het in artikel 14:73 bedoelde verslag voegt het bestuursorgaan een staat van activa en passiva,
+## Art. 14:74
+
+Bij het in artikel 14:73 bedoelde verslag voegt het bestuursorgaan een staat van activa en passiva,
  die niet meer dan vier maanden vóór de vergadering van het bestuursorgaan die over het voorstel tot
  grensoverschrijdende omzetting moet besluiten is afgesloten.
   De commissaris of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
@@ -21316,7 +21670,6 @@ Het bestuursorgaan licht het voorstel tot grensoverschrijdende omzetting, haar j
 Iedere schuldeiser die op grond van artikel 14:72 over een verzetsrecht beschikt kan, vanaf de
  bekendmaking van het omzettingsvoorstel overeenkomstig artikel 14:71 op de zetel van de stichting kosteloos
  een kopie van de in het eerste lid bedoelde stukken verkrijgen.
-Pagina 322 van 332 Copyright Belgisch S taatsblad 23-01-2026
   Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ## Art. 14:76
@@ -21339,7 +21692,9 @@ Na het verstrijken van de in artikel 14:72 bedoelde termijn besluit het bestuurs
   3° indien in de statuten is bepaald dat zij geen andere rechtsvorm mag aannemen. Deze bepaling van de
  statuten kan slechts met instemming van alle bestuurders worden gewijzigd.
 
-  Art. 14:78.De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld
+## Art. 14:78
+
+De grensoverschrijdende omzetting wordt, op straffe van nietigheid, bij authentieke akte vastgesteld
  door de notaris aangeduid in het in artikel 14:71 bedoelde omzettingsvoorstel. In de authentieke akte wordt de
  conclusie van het verslag van de commissaris of van de bedrijfsrevisor of [1 gecertificeerd accountant]1
  overgenomen. De staat van actief en passief wordt er aangehecht.
@@ -21398,7 +21753,6 @@ De zich omzettende rechtspersoon legt door toedoen van haar bestuursorgaan een s
   TITEL 1. Algemene bepalingen.
 
   HOOFDSTUK 1. Definities en toepasselijk recht.
-Pagina 323 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 15:1
 
 Voor de toepassing van dit boek wordt verstaan onder "verordening (EG) nr. 2157/2001":
@@ -21479,7 +21833,9 @@ Na de vervulling van de openbaarmakingsvereisten eigen aan elke lidstaat met bet
 Het oprichtingsvoorstel van de SE wordt neergelegd en bekendgemaakt overeenkomstig de
  artikelen 2:8 en 2:14, 1°.
 
-  Art. 15:11.De onafhankelijke deskundige(n) bedoeld in artikel 32, lid 4, van verordening (EG) nr. 2157/2001 is de
+## Art. 15:11
+
+De onafhankelijke deskundige(n) bedoeld in artikel 32, lid 4, van verordening (EG) nr. 2157/2001 is de
  commissaris of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
  gecertificeerd accountant]1.
   ----------
@@ -21488,7 +21844,6 @@ Het oprichtingsvoorstel van de SE wordt neergelegd en bekendgemaakt overeenkomst
 ## Art. 15:12
 
 Elke initiatiefnemende vennootschap naar Belgisch recht legt, overeenkomstig de artikelen 2:8 en
-Pagina 324 van 332 Copyright Belgisch S taatsblad 23-01-2026
  2:14, 4°, een document neer dat vaststelt dat, wat haar betreft, aan de voorwaarden voor de oprichting van de
  SE is voldaan.
 
@@ -21507,7 +21862,9 @@ De oprichtingsakte van de holding-SE stelt vast dat binnen de in artikel 33, lid
 Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en
  2:14, 4°.
 
-  Art. 15:15.De onafhankelijke deskundige(n) bedoeld in artikel 37, lid 6, van verordening (EG) nr. 2157/2001, is
+## Art. 15:15
+
+De onafhankelijke deskundige(n) bedoeld in artikel 37, lid 6, van verordening (EG) nr. 2157/2001, is
  de commissaris, of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of [1
  gecertificeerd accountant]1.
   ----------
@@ -21581,7 +21938,6 @@ Het voorstel tot zetelverplaatsing wordt neergelegd en bekendgemaakt overeenkoms
 ## Art. 15:25
 
 Overeenkomstig artikel 8, lid 8, van verordening (EG) nr. 2157/2001 geeft een instrumenterende
-Pagina 325 van 332 Copyright Belgisch S taatsblad 23-01-2026
  notaris met standplaats in België een attest af waaruit afdoende blijkt dat de aan de zetelverplaatsing
  voorafgaande handelingen en formaliteiten zijn vervuld.
 
@@ -21646,7 +22002,9 @@ De openbaarmaking bedoeld in artikel 65 van verordening (EG) nr. 2157/2001 gebeu
 Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en
  2:14, 4°.
 
-  Art. 15:33.De onafhankelijke deskundige(n) bedoeld in artikel 66, lid 5, van verordening (EG) nr. 2157/2001, is
+## Art. 15:33
+
+De onafhankelijke deskundige(n) bedoeld in artikel 66, lid 5, van verordening (EG) nr. 2157/2001, is
  de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
  door het bestuursorgaan.
   ----------
@@ -21668,7 +22026,6 @@ De strafbepalingen van dit wetboek betreffende de naamloze vennootschap zijn van
 ## Art. 16:1
 
 Voor de toepassing van dit boek wordt verstaan onder "verordening (EG) nr. 1435/2003":
-Pagina 326 van 332 Copyright Belgisch S taatsblad 23-01-2026
  verordening (EG) nr. 1435/2003 van de Raad van 22 juli 2003 betreffende het statuut voor een Europese
  coöperatieve vennootschap (SCE).
 
@@ -21751,11 +22108,12 @@ Na de vervulling van de openbaarmakingsvereisten eigen aan elke lidstaat met bet
 Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en
  2:14, 4°.
 
-  Art. 16:11.De onafhankelijke deskundige(n) bedoeld in artikel 35, lid 5, van verordening (EG) nr. 1435/2003, is
+## Art. 16:11
+
+De onafhankelijke deskundige(n) bedoeld in artikel 35, lid 5, van verordening (EG) nr. 1435/2003, is
  de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
  door het bestuursorgaan.
   ----------
-Pagina 327 van 332 Copyright Belgisch S taatsblad 23-01-2026
   (1)<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
   HOOFDSTUK 3. Deelname aan een SCE door een vennootschap die haar hoofdbestuur niet in de Europese Unie
@@ -21840,7 +22198,6 @@ Elke aandeelhouder beschikt over één stem, ongeacht het aantal aandelen dat hi
  indien dit lager is, twintig percent van de totale stemrechten worden toegekend.
    In een Europese coöperatieve vennootschap waarvan een meerderheid van de aandeelhouders coöperaties
  zijn, kunnen de statuten bepalen dat een aandeelhouder beschikt over een aantal stemmen naargelang zijn
-Pagina 328 van 332 Copyright Belgisch S taatsblad 23-01-2026
  deelneming in het coöperatieve bedrijf, inclusief zijn deelneming in het kapitaal van de SCE, en/of naargelang het
  aantal aandeelhouders van elke rechtspersoon die er deel van uitmaakt.
   De kapitaalverschaffers bepaald in artikel 16:4 mogen over niet meer dan vijfentwintig percent van de totale
@@ -21929,13 +22286,14 @@ De openbaarmaking bedoeld in artikel 74 van verordening (EG) nr. 1435/2003 gebeu
  verordening (EG) nr. 1435/2003.
 
   TITEL 8. Omzetting van een SCE in een CV.
-Pagina 329 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 16:30
 
 Het voorstel tot omzetting wordt neergelegd en bekendgemaakt overeenkomstig de artikelen 2:8 en
  2:14, 4°.
 
-  Art. 16:31.De onafhankelijke deskundige(n) bedoeld in artikel 76, lid 5, van verordening (EG) nr. 1435/2003, is
+## Art. 16:31
+
+De onafhankelijke deskundige(n) bedoeld in artikel 76, lid 5, van verordening (EG) nr. 1435/2003, is
  de commissaris, of, als er geen commissaris is, een bedrijfsrevisor of [1 gecertificeerd accountant]1 aangewezen
  door het bestuursorgaan.
   ----------
@@ -22013,7 +22371,6 @@ In geval van verlies van de Europese rechtspersoonlijkheid in toepassing van art
  voorrechten waarover de schuldeiser beschikt of gelet op de solvabiliteit van de betrokken EUPP.
    Indien de zekerheid niet binnen de bepaalde termijn is gesteld, wordt de schuldvordering onmiddellijk opeisbaar.
    § 2. De doorhaling in België van de oude inschrijving in het rechtspersonenregister ten gevolge van de
-Pagina 330 van 332 Copyright Belgisch S taatsblad 23-01-2026
  verplaatsing van de statutaire zetel naar het buitenland wordt in de Bijlagen bij het Belgisch Staatsblad
  bekendgemaakt.
 
@@ -22098,7 +22455,6 @@ Onverminderd de bijzondere bepalingen die op hen toepasselijk zijn, kunnen de na
  kredietinstellingen, mag dat Europees economisch samenwerkingsverband niet afwijken van de bepalingen van
  de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen.
 
-Pagina 331 van 332 Copyright Belgisch S taatsblad 23-01-2026
 ## Art. 18:4
 
 Een lid van een Europees economisch samenwerkingsverband houdt op van dat Europees
@@ -22152,4 +22508,3 @@ In afwijking van de artikelen 1:5, § 3, en 2:6 wordt het overeenkomstig dit wet
   (NOTA : Inwerkingtreding van artikelen 31, L 1; 42, § 2 vastgesteld op 15-07-2019 door KB 2019-07-03/02, art.
  1)
 
-Pagina 332 van 332 Copyright Belgisch S taatsblad 23-01-2026

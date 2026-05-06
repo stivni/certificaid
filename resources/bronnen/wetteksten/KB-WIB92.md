@@ -20,7 +20,6 @@ Om voor de toepassing van artikel 21, 5°, van het Wetboek van de inkomstenbelas
   2° van de spaardeposito's kunnen, rechtstreeks of via een zichtrekening, slechts opvragingen worden gedaan
  voor volgende verrichtingen :
   a) terugbetaling in specie;
-Pagina 8 van 107 Copyright Belgisch S taatsblad 05-01-2022
    b) transfer of overschrijving, niet krachtens een doorlopende opdracht uitgevoerd, naar een rekening op naam
  van de titularis van het spaardeposito;
    c) transfer naar een spaardeposito bij dezelfde instelling, op naam van de echtgeno(o)t(e) of van een familielid
@@ -90,7 +89,6 @@ Om het netto-inkomen uit verhuring, verpachting, gebruik en concessie van roeren
  maatschappelijke zetel, haar voornaamste inrichting of haar zetel van bestuur of beheer heeft, en die goederen
  niet voor het uitoefenen van de beroepswerkzaamheid van de verkrijger worden gebruikt;
   2° een niet-inwoner is als vermeld in artikel 227, van het Wetboek van de inkomstenbelastingen 1992, en
-Pagina 9 van 107 Copyright Belgisch S taatsblad 05-01-2022
  gezegde goederen door die niet-inwoner niet voor de beroepswerkzaamheid worden gebruikt die hij in een in
  België gelegen inrichting uitoefent.
 
@@ -167,7 +165,6 @@ De normaal ten laste van de verkrijger van de inkomsten vallende kosten die, al 
  bestanddelen van het inkomen. <KB 1995-09-01/42, art. 3, 3°, 019; Inwerkingtreding : 01-01-1992>
    § 9. De investeringsaftrek vermeld in de artikelen 68 tot 77 van hetzelfde Wetboek komt eerst in mindering van
  de winst of de baten van Belgische oorsprong die niet vermeld zijn in artikel 171 van hetzelfde Wetboek en
-Pagina 10 van 107 Copyright Belgisch S taatsblad 05-01-2022
  vervolgens evenredig in mindering van de beroepsinkomsten waarvan sprake in hetzelfde artikel 171.
 
 ## Art. 8
@@ -254,7 +251,6 @@ Onverminderd de toepassing van artikel 16, is het optiestelsel onherroepelijk vo
 ## Art. 16
 
 In geval van omzetting van de landbouwvennootschap in een vennootschap opgericht in één van de
-Pagina 11 van 107 Copyright Belgisch S taatsblad 05-01-2022
  vormen bepaald in het Wetboek van koophandel, neemt het optiestelsel ambtshalve een einde met ingang van
  het belastbare tijdperk waarin de akte van omzetting uitwerking heeft.
   De vennootschap die onder de nieuwe rechtsvorm blijft bestaan, wordt onderworpen aan de
@@ -318,7 +314,6 @@ De belastbare brutobezoldiging van volledig, hoofdzakelijk of bijkomend met fooi
  1973 6,75
  1974 7,50
  1975 9,00
-Pagina 12 van 107 Copyright Belgisch S taatsblad 05-01-2022
  1976 en 1977 8,75
  1978 en 1979 8,50
  1980 9,50
@@ -374,7 +369,6 @@ Pagina 12 van 107 Copyright Belgisch S taatsblad 05-01-2022
    (De lijst van de in het vorige lid vermelde referteïndexen, welke maandelijks door toedoen van de Controledienst
  der Verzekeringen in het Belgisch Staatsblad werd bekendgemaakt, is opgenomen onder afdeling I van bijlage I.)
  <KB 1996-03-06/34, art. 2, 5°, 027; Inwerkingtreding : 01-01-1995>
-Pagina 13 van 107 Copyright Belgisch S taatsblad 05-01-2022
    c) Voor niet-hypothecaire leningen met vaste looptijd geldt de referentierentevoet van het jaar waarin de
  leningsovereenkomst gesloten is en wordt die referentierentevoet vastgesteld :
    1° wanneer de leningsovereenkomst gesloten is tijdens de jaren 1981 tot 1984 en een looptijd heeft van meer
@@ -429,7 +423,6 @@ Pagina 13 van 107 Copyright Belgisch S taatsblad 05-01-2022
  ----------
  n+1
 
-Pagina 14 van 107 Copyright Belgisch S taatsblad 05-01-2022
  waarin :
 
  i = reeel jaarlijks lastenpercentage
@@ -482,7 +475,6 @@ Pagina 14 van 107 Copyright Belgisch S taatsblad 05-01-2022
    2° wat de in 1° vermelde leningen betreft waarvan het kapitaal ineens wordt terugbetaald op het einde van de
  looptijd van de lening : bij elke rentevervaldag indien de lening tegen verminderde rentevoet is toegestaan en bij
 
-Pagina 15 van 107 Copyright Belgisch S taatsblad 05-01-2022
  het einde van elke kalendermaand indien de lening renteloos is toegestaan; het voordeel wordt in deze gevallen
  telkens berekend op het aanvangsbedrag van de lening;
   3° wat de niet-hypothecaire leningen zonder vaste looptijd betreft : bij het einde van elke kalendermaand waarin
@@ -546,7 +538,6 @@ Pagina 15 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Huisvesting, verwarming, verlichting 0,74 EUR 266,40 EUR
  ------------------- ---- --------
  Totaal 3,22 EUR 1.159,20 EUR ]
-Pagina 16 van 107 Copyright Belgisch S taatsblad 05-01-2022
  <KB 2001-07-13/52, art. 4, 083; Inwerkingtreding : 01-01-2002>
 
    De forfaitaire raming van de huisvesting, verwarming, verlichting geldt evenwel slechts voor het huispersoneel
@@ -618,7 +609,6 @@ Pagina 16 van 107 Copyright Belgisch S taatsblad 05-01-2022
 (Opgeheven) <KB 1994-08-12/48, art. 2, 006; Inwerkingtreding : 27-03-1992>
 
   Afdeling IX. - Grenzen en voorwaarden voor belastingvrijstelling van waardeverminderingen en voorzieningen
-Pagina 17 van 107 Copyright Belgisch S taatsblad 05-01-2022
  voor risico's en kosten. (Wetboek van de inkomstenbelastingen 1992, artikel 48)
 
 ## Art. 22
@@ -700,7 +690,6 @@ Het in artikel 51, vierde lid, van het Wetboek van de inkomstenbelastingen 1992 
 
   Afdeling XI. - Interesten van obligaties, leningen, schulden, deposito's en andere effecten ter
  vertegenwoordiging van leningen. (Wetboek van de inkomstenbelastingen 1992, artikel 55, eerste lid)
-Pagina 18 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 29
 
 (Opgeheven) <KB 1993-10-22/33, art. 3; Inwerkingtreding : 01-01-1992>
@@ -782,7 +771,6 @@ Voor de toepassing van (de artikelen 52, 3°, b, en 5°, en 59), van het Wetboek
  van de onderneming of het fonds waaraan zij zijn gestort; <KB 1995-09-01/42, art. 7, 2°, 019; Inwerkingtreding
  : 01-01-1994>
    3° voorschotten op contracten en inpandgevingen van contracten mogen slechts worden toegestaan om het
-Pagina 19 van 107 Copyright Belgisch S taatsblad 05-01-2022
  de werknemer mogelijk te maken in België gelegen onroerende goederen die belastbare inkomsten opbrengen te
  verwerven, te bouwen, te verbeteren, te herstellen of te verbouwen en op voorwaarde dat de voorschotten en
  leningen terugbetaald worden zodra de voormelde goederen uit het vermogen van de werknemer verdwijnen;
@@ -842,7 +830,6 @@ Pagina 19 van 107 Copyright Belgisch S taatsblad 05-01-2022
  62 jaar 12,3100
  63 jaar 12,0023
 
-Pagina 20 van 107 Copyright Belgisch S taatsblad 05-01-2022
  64 jaar 11,6908
  65 jaar en meer 11,3761
 
@@ -922,7 +909,6 @@ Belastingplichtigen die het stelsel van degressieve afschrijving kiezen voor tij
 
 De uitgedrukte keuze is onherroepelijk ten aanzien van elke groep vaste activa die tijdens het in artikel
  41 vermelde belastbare tijdperk zijn verkregen of tot stand gebracht; hetzelfde geldt met betrekking tot de
-Pagina 21 van 107 Copyright Belgisch S taatsblad 05-01-2022
  groepen naar hetzelfde degressieve percent afschrijfbare vaste activa van gelijke aard, die tijdens de
  daaropvolgende belastbare tijdperken zijn verkregen of tot stand gebracht, behalve wanneer de belastingplichtige
  voor het verstrijken van een van die tijdperken aan de controle van de belastingen of aan het centraal
@@ -948,7 +934,6 @@ Het keuzestelsel van degressieve afschrijving is niet van toepassing op de volge
 
 ## Art. 43.1
 
-<Ingevoegd bij KB 2002-08-22/36, art. 1; Inwerkingtreding : 01-01-2003 (aanslagjaar 2003)> Voor
  de toepassing van artikel 66bis van het Wetboek van de inkomstenbelastingen 1992 wordt de grens van 25
  kilometer verhoogd tot 50 kilometer.
 
@@ -1001,7 +986,6 @@ Het keuzestelsel van degressieve afschrijving is niet van toepassing op de volge
  opgave toevoegen, waarvan het model door de Minister van Financiën of zijn gedelegeerde wordt vastgelegd.
    § 2. Met betrekking tot het personeelsbestand dat voor het wetenschappelijk onderzoek wordt tewerkgesteld
  en het personeelsbestand dat voor de uitbouw van het technologisch potentieel van de onderneming wordt
-Pagina 22 van 107 Copyright Belgisch S taatsblad 05-01-2022
  tewerkgesteld, moeten de belastingplichtigen eveneens, voor elk van de belastbare tijdperken waarvoor de
  toekenning of het behoud van de vrijstelling wordt gevraagd, aan hun aangifte in de inkomstenbelastingen een
  attest op naam toevoegen van de Federale Diensten voor Wetenschappelijke, Technische en Culturele
@@ -1049,7 +1033,6 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
 
 ## Art. 47bis
 
-<Ingevoegd bij KB 1996-01-31/34, art. 1; Inwerkingtreding : 01-01-1997> Wat (de in artikel 69, § 1,
  eerste lid, 2°,) van het Wetboek van de inkomstenbelastingen 1992 vermelde octrooien betreft, dienen de
  belanghebbende belastingplichtigen de in artikel 47 vermelde stukken te staven door : <KB 2000-09-21/33, art.
  2, 068; Inwerkingtreding : 01-01-1999>
@@ -1076,7 +1059,6 @@ Om de in de artikelen 68 tot 70 van het Wetboek van de inkomstenbelastingen 1992
  ordening van maatregelen ter bevordering van de economische expansie en de oprichting van nieuwe
  industrieën, hetzij de artikelen 7, eerste lid, derde streepje, of 25 van de wet van 30 december 1970 betreffende
  de economische expansie, hetzij artikel 4, b, van de wet van 4 augustus 1978 tot economische heroriëntering
-Pagina 23 van 107 Copyright Belgisch S taatsblad 05-01-2022
  met het oog op de financiering van andere investeringen dan markt- en organisatiestudies en
  commercialisatiemethodes, hetzij een contract voor opzoeking gesloten door de Minister die bevoegd is voor het
  wetenschapsbeleid;
@@ -1145,7 +1127,6 @@ Pagina 23 van 107 Copyright Belgisch S taatsblad 05-01-2022
    Voor vaste activa verkregen of tot stand gebracht vanaf 1 januari 1991 waarvoor de investeringsaftrek is
  verleend met toepassing van artikel 201 van het Wetboek van de inkomstenbelastingen 1992 is de factor die
  vermeld is in het eerste lid, a, tweede streepje, gelijk aan 10,5.
-Pagina 24 van 107 Copyright Belgisch S taatsblad 05-01-2022
   § 4. De belanghebbende belastingplichtigen moeten de in artikel 47 vermelde stukken staven door :
   1° indien het materiële vaste activa betreft :
   - ofwel een rechtvaardigende nota die, met verwijzing naar § 1, A, 1°, 2°, a of b, of 3°, aantoont dat de vaste
@@ -1213,10 +1194,8 @@ Pagina 24 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 49bis
 
-<Ingevoegd bij KB 2000-09-21/33, art. 5, 068; Inwerkingtreding : 01-01-1999> § 1. Voor de
  toepassing van artikel 69, § 2, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, moet onder
  productieproces worden verstaan het geheel van verrichtingen dat uitsluitend dient om een productiesysteem te
-Pagina 25 van 107 Copyright Belgisch S taatsblad 05-01-2022
  installeren, te vervangen, te verbeteren of in stand te houden.
    § 2. De in artikel 69, § 2, eerste lid, van hetzelfde Wetboek, beoogde materiële vaste activa die uitsluitend
  bestemd zijn voor het verzekeren van het productieproces van herbruikbare verpakkingen van dranken en
@@ -1292,7 +1271,6 @@ Pagina 25 van 107 Copyright Belgisch S taatsblad 05-01-2022
    - de Vereniging voor Economie;
    - de Fondation économique et sociale du Brabant wallon;
    - de Vereniging voor Kankerbestrijding;
-Pagina 26 van 107 Copyright Belgisch S taatsblad 05-01-2022
    - de Stichting van Gysel;
    - de Stichting Nany Philippart.
    (- la Fondation Rik & Nel Wouters Stichting;
@@ -1359,7 +1337,6 @@ Pagina 26 van 107 Copyright Belgisch S taatsblad 05-01-2022
  de rente of het levenslang recht, ofwel, indien die hoger is, de verkoopwaarde van respectievelijk de volle of de
  blote eigendom van de goederen op het tijdstip van de verkrijging. <KB 1997-05-20/39, art. 3, 4°, 039;
  Inwerkingtreding : 01-01-1997>
-Pagina 27 van 107 Copyright Belgisch S taatsblad 05-01-2022
    Slaat een overdracht of verkrijging als vermeld in deze paragraaf op de blote eigendom met voorbehoud van
  vruchtgebruik, dan gelden dezelfde regels, mits de verkoopwaarde van het goed te verminderen met die van het
  vruchtgebruik op de datum van de verkrijging berekend overeenkomstig artikel 47 van het Wetboek der
@@ -1427,7 +1404,6 @@ Pagina 27 van 107 Copyright Belgisch S taatsblad 05-01-2022
  van die gebeurtenis gediend heeft tot maatstaf van heffing van het registratierecht (of de BTW). <KB 1997-0520/39, art. 3, 9°, 039; Inwerkingtreding : 01-01-1997>
    § 9. In gevallen als vermeld in dit artikel wordt de meerwaarde bepaald met inachtneming van de kosten en
  uitgaven, van de verhoging met 5 pct. per jaar en (van de vergoedingen) die vermeld zijn in (artikel 101, §§ 1 en
-Pagina 28 van 107 Copyright Belgisch S taatsblad 05-01-2022
  2), van het Wetboek van de inkomstenbelastingen 1992. <KB 1997-05-20/39, art. 3, 10°, 039; Inwerkingtreding
  : 01-01-1997>
    In gevallen als vermeld in § 5, tweede lid, wordt die verhoging met 5 pct. per jaar toegepast door, enerzijds, de
@@ -1500,7 +1476,6 @@ De krachtens artikel 104 van het Wetboek van de inkomstenbelastingen 1992 van he
    b) aan de schenkers een ontvangstbewijs uit te reiken waarvan het model door de Minister van Financiën of zijn
  gedelegeerde wordt vastgesteld, en bij de administratie der directe belastingen binnen 2 maanden na het einde
  van ieder kalenderjaar van de periode waarvoor de erkenning is toegestaan een afschrift van de tijdens dat jaar
-Pagina 29 van 107 Copyright Belgisch S taatsblad 05-01-2022
  uitgereikte ontvangstbewijzen en een verzamelstaat of -attest daarvan in te leveren;
    c) de ambtenaren van de administratie der directe belastingen toe te staan haar boekhouding te controleren
  telkens als zij dat nuttig achten;
@@ -1570,7 +1545,6 @@ Pagina 29 van 107 Copyright Belgisch S taatsblad 05-01-2022
    b) aan de schenkers een ontvangstbewijs uit te reiken waarvan het model door de Minister van Financiën of zijn
  gedelegeerde wordt vastgesteld en bij de administratie der directe belastingen binnen 2 maanden na het einde
  van ieder kalenderjaar van de periode waarvoor de erkenning is toegestaan een afschrift van de tijdens dat jaar
-Pagina 30 van 107 Copyright Belgisch S taatsblad 05-01-2022
  uitgereikte ontvangstbewijzen en een verzamelstaat of -attest daarvan in te leveren;
   c) de ambtenaren van de administratie der directe belastingen toe te staan haar boekhouding te controleren
  telkens als zij dat nuttig achten;
@@ -1637,11 +1611,9 @@ Pagina 30 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 59bis
 
-<ingevoegd bij KB 1998-10-29/37, art. 1; Inwerkingtreding : 1996-06-14> § 1. Voor de toepassing
  van artikel 104, 3°, i, van het Wetboek van de inkomstenbelastingen 1992, kunnen worden erkend de instellingen
  die zich bezighouden met het natuurbehoud of de bescherming van het leefmilieu, op voorwaarde :
   1° dat zij rechtspersoonlijkheid bezitten krachtens het Belgisch publiekrecht of privaatrecht;
-Pagina 31 van 107 Copyright Belgisch S taatsblad 05-01-2022
    2° dat zij generlei gewin bejagen, noch voor zichzelf, noch voor hun leden als zodanig;
    3° dat ze werkzaamheden in België uitoefenen die rechtstreeks en uitsluitend gericht zijn op het natuurbehoud
  en/of de bescherming van het leefmilieu;
@@ -1710,7 +1682,6 @@ Pagina 31 van 107 Copyright Belgisch S taatsblad 05-01-2022
  erkenning wordt voor een periode van ten hoogste (6 opeenvolgende kalenderjaren) toegestaan. <KB 2000-1016/32, art. 7, 069; Inwerkingtreding : 09-11-2000>
    § 4. De aanvragen om erkenning moeten worden gestaafd met een voor eensluidend verklaard afschrift van de
  rekening van de ontvangsten en uitgaven van het laatste afgesloten boekjaar en van de begroting van het
-Pagina 32 van 107 Copyright Belgisch S taatsblad 05-01-2022
  lopende boekjaar, en moeten omvatten :
    1° alle nuttige gegevens om te kunnen onderzoeken of de aanvragende instelling aan de in § 1 gestelde
  voorwaarden voldoet;
@@ -1781,7 +1752,6 @@ Pagina 32 van 107 Copyright Belgisch S taatsblad 05-01-2022
  zich uitstrekt in het Duitse taalgebied.
    § 7. Ingeval een instelling één van de voor haar erkenning gestelde voorwaarden niet nakomt, kan haar
  erkenning op voorstel van de Minister van Financiën door de Koning worden ingetrokken.
-Pagina 33 van 107 Copyright Belgisch S taatsblad 05-01-2022
   Het besluit waarbij de erkenning wordt ingetrokken, heeft uitwerking met ingang van 1 januari volgend op de
  bekendmaking ervan in het Belgisch Staatsblad.
 
@@ -1858,7 +1828,6 @@ De in artikel 115, 2°, b, van het Wetboek van de inkomstenbelastingen 1992 verm
  dienstverrichtingen zijn deze vermeld in rubriek XXXI van tabel A van de bijlage bij het koninklijk besluit nr. 20 van
  20 juli 1970 tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de
  goederen en de diensten bij die tarieven, (...). <KB 1994-08-12/48, art. 4, 006; Inwerkingtreding : 20-09-1994>
-Pagina 34 van 107 Copyright Belgisch S taatsblad 05-01-2022
   Afdeling XXV. - Aanrekening van de verliezen van één van de echtgenoot op de inkomsten van de andere
  echtgenoot. (Wetboek van de inkomstenbelastingen 1992, artikel 129)
 
@@ -1882,7 +1851,6 @@ Pagina 34 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.1
 
-<Ingevoegd bij KB 1995-09-01/42, art. 9; Inwerkingtreding : 01-01-1994> De persoonlijke bijdragen
  voor aanvullende verzekering tegen ouderdom en vroegtijdige dood bedoeld in artikel 145/3, van het Wetboek
  van de inkomstenbelastingen 1992 worden voor de vermindering van het lange termijnsparen in aanmerking
  genomen overeenkomstig de bepalingen van de artikelen 34 en 35.
@@ -1894,7 +1862,6 @@ Pagina 34 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.2
 
-<Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993> Eenmalige premies of
  termijnpremies die de belastingplichtige heeft betaald ter uitvoering van levensverzekeringscontracten die hij
  individueel heeft gesloten, worden, binnen de grenzen gesteld in de artikelen 145/4 en 145/6, eerste lid, van het
  Wetboek van de inkomstenbelastingen 1992, slechts in aanmerking genomen voor de vermindering voor het
@@ -1924,7 +1891,6 @@ Pagina 34 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.4
 
-<Ingevoegd bij KB 1995-09-01/42, art. 10; Inwerkingtreding : 01-01-1993> Premies betreffende een
  contract met kosteloze of betalende deelneming in de winst, worden tot hun nominale bedrag in aanmerking
  genomen voor de vermindering voor het lange termijnsparen.
 
@@ -1933,11 +1899,9 @@ Pagina 34 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.5
 
-<Ingevoegd bij KB 1995-09-01/42, art. 11; Inwerkingtreding : 01-01-1993> § 1. Binnen de twee
  maanden na het einde van ieder kalenderjaar waarin betalingen voor pensioensparen zijn verricht, moeten de
  instellingen en ondernemingen bedoeld in artikel 145/15 van het Wetboek van de inkomstenbelastingen 1992 aan
  de administratie van de directe belastingen een afschrift bezorgen van het attest dat zij aan iedere houder van
-Pagina 35 van 107 Copyright Belgisch S taatsblad 05-01-2022
  een spaarrekening of ondertekenaar van een spaarverzekeringscontract hebben uitgereikt en waarvan het
  model door de Minister van Financiën of zijn gedelegeerde is vastgelegd ter uitvoering van artikel 145.9, eerste
  lid, 3°, van hetzelfde Wetboek.
@@ -1951,7 +1915,6 @@ Pagina 35 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.6
 
-<Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. Tot staving van de
  aanvraag die de beheersvennootschap indient om voor de toepassing van artikel 145.16, 1°, van het Wetboek
  van de inkomstenbelastingen 1992 een Belgisch beleggingsfonds als pensioenspaarfonds te erkennen, moet die
  vennootschap verstrekken :
@@ -1986,7 +1949,6 @@ Pagina 35 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.7
 
-<Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. Het naleven van de
  verplichtingen bedoeld in artikel 145.11, van het Wetboek van de inkomstenbelastingen 1992, wordt nagegaan
  op grond van de in § 2 bedoelde bescheiden die door de beheersvennootschap bij de Minister van Financiën
  worden ingediend uiterlijk één maand na het einde van ieder volledig kalenderkwartaal sedert de erkenning van
@@ -2010,7 +1972,6 @@ Pagina 35 van 107 Copyright Belgisch S taatsblad 05-01-2022
   § 4. De voorwaarden bedoeld in artikel 145.11, van hetzelfde Wetboek worden beschouwd als nageleefd indien
  uit de in §§ 1 en 2 bedoelde bescheiden blijkt :
   a) dat de op grond van de toestand op het einde van iedere maand van het kalenderkwartaal berekende totale
-Pagina 36 van 107 Copyright Belgisch S taatsblad 05-01-2022
  gemiddelde waarde in kapitaal van de aandelen die een fractie van het maatschappelijk kapitaal van
  vennootschappen naar Belgisch recht vertegenwoordigen hoger is dan 30 pct. van de refertewaarde van het
  fonds;
@@ -2029,7 +1990,6 @@ Pagina 36 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.8
 
-<Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> § 1. De erkenning van het
  fonds wordt ingetrokken :
     1° wanneer de Commissie voor het Bank- en Financiewezen de inschrijving van het pensioenspaarfonds op de
  lijst van de Belgische beleggingsinstellingen herroept;
@@ -2047,7 +2007,6 @@ Pagina 36 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.9
 
-<Ingevoegd bij KB 1995-09-01/42, art. 12; Inwerkingtreding : 01-01-1993> De toekenning en de
  intrekking van de erkenning worden in het Belgisch Staatsblad bekendgemaakt.
 
   Afdeling XXVsexies. - <KB 2002-04-02/41, art. 1, 088; Inwerkingtreding : 01-01-2002> Vermindering voor
@@ -2081,12 +2040,10 @@ Pagina 36 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 63.11
 
-<Ingevoegd bij KB 2002-12-20/36, art. 1; Inwerkingtreding : 01-01-2004> § 1. De in artikel 145.24
  van het Wetboek van de inkomstenbelastingen 1992 opgesomde uitgaven, worden slechts in aanmerking
  genomen voor de in dat artikel vermelde belastingvermindering indien de daarmee verband houdende werken
  voldoen aan de volgende voorwaarden :
   1° de werken die aan de basis liggen van de uitgaven bedoeld in artikel 145.24, eerste lid, 1° tot 6°, van
-Pagina 37 van 107 Copyright Belgisch S taatsblad 05-01-2022
  hetzelfde Wetboek, moeten worden uitgevoerd door een persoon die op het ogenblik van het afsluiten van de
  overeenkomst voor de uit te voeren werken als aannemer geregistreerd is overeenkomstig artikel 401 van het
  genoemde Wetboek.
@@ -2156,7 +2113,6 @@ Voor de aan de personenbelasting of de overeenkomstig artikel 227, 1°, van het 
  bijzondere regels van de §§ 2 tot 6, met dien verstande dat :
    a) indien het boekjaar of de uitoefening van de werkzaamheid :
    - niet aanvangt op de eerste dag van een maand, die maand niet wordt meegeteld;
-Pagina 38 van 107 Copyright Belgisch S taatsblad 05-01-2022
   - niet eindigt op de laatste dag van een maand, die maand voor een volle wordt geteld;
   b) een begonnen kwartaal voor een vol kwartaal wordt geteld.
   § 2. Voor belastingplichtigen die niet per kalenderjaar boekhouden en van wie het boekjaar 12 maanden telt,
@@ -2232,7 +2188,6 @@ Voor zover voorafbetalingen nog niet zijn verrekend met de inkomstenbelasting di
  bij het uitvoeren van stortingen of overschrijvingen voor rekening van belastingplichtigen en waarvoor zij ten
  laatste op het einde van de tweede maand die volgt op het belastbare tijdperk waarop de stortingen of
  overschrijvingen betrekking hebben, de rechtzetting aanvragen;
-Pagina 39 van 107 Copyright Belgisch S taatsblad 05-01-2022
    2° de gestorte of overgeschreven bedragen terugbetalen, overschrijven naar de postrekening van een
  ontvangkantoor van de directe belastingen of overdragen naar het volgende belastbare tijdperk, wanneer de
  belastingplichtigen de gehele of gedeeltelijke terugbetaling, overschrijving of overdracht ervan aanvragen ten
@@ -2290,7 +2245,6 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
 
 ## Art. 73.1
 
-<Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> Worden vrijgesteld onder
  de voorwaarden en binnen de grenzen als vermeld in de artikelen 73.2 tot 73.4, de volgende technische
  voorzieningen :
   - de voorziening voor egalisatie en catastrofen wat betreft de risico's als vermeld in artikel 73.3;
@@ -2298,13 +2252,11 @@ Kapitalen en afkoopwaarden als vermeld in artikel 169 van het Wetboek van de ink
 
 ## Art. 73.2
 
-<Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De in artikel 73.1 vermelde
  voorzieningen geboekt bij het verstrijken van het belastbare tijdperk, worden uit de winst van dit tijdperk gesloten
  op voorwaarde dat :
   1° de voorzieningen overeenstemmen met de verplichtingen die rusten op de onderneming voor de uitvoering
  van verzekeringscontracten die op de laatste dag van het belastbare tijdperk bestaan of van contracten die
  vervallen maar nog niet volledig vereffend zijn;
-Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
   2° de voorzieningen voorkomen onder de passende rubrieken van het passief;
   3° ieder bedrag van de bij het verstrijken van het belastbare tijdperk bestaande technische voorziening en
  waarvoor de vrijstelling wordt gevraagd, verantwoord is door alle documenten noodzakelijk voor de bepaling
@@ -2316,7 +2268,6 @@ Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.3
 
-<Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De voorziening voor
  egalisatie en catastrofen is vrijgesteld binnen de volgende grenzen :
    1° met betrekking tot de risico's in verband met natuurelementen, de lucht- en ruimtevaartrisico's en de risico's
  in verband met aanslagen en arbeidsconflicten :
@@ -2337,7 +2288,6 @@ Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.4
 
-<Ingevoegd bij KB 1999-05-13/44, art. 1; Inwerkingtreding : 01-01-2000> De voorziening voor nietverdiende premies is vrijgesteld ten belope van het deel van de premies bruto van herverzekering, verminderd
  met de commissielonen voor acquisitie, dat betrekking heeft op het belastbare tijdperk dat volgt op het in artikel
  73/2 vermelde tijdperk of op latere belastbare tijdperken teneinde de schadelast, de administratiekosten en de
  beheerskosten van beleggingen te dekken.
@@ -2351,7 +2301,6 @@ Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.4bis
 
-<Ingevoegd bij AR 2003-02-06/30, art. 1; Inwerkingtreding : 01-01-2004> In geval van inbreng
  van een tak van werkzaamheid of een bedrijfsafdeling of van een algemeenheid van goederen als vermeld in
  artikel 46, § 1, eerste lid, 2° van hetzelfde Wetboek en ingeval van verrichtingen als vermeld in artikel 211, § 1,
  van hetzelfde wetboek, mag de verrichting niet tot gevolg hebben dat de oorspronkelijke investeringstermijn als
@@ -2370,7 +2319,6 @@ Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.4ter
 
-<Ingevoegd bij KB 2003-03-27/42, art. 1, Inwerkingtreding : 01-01-2004> Voor de toepassing van
  artikel 202, § 2, eerste lid, 2°, van het Wetboek van inkomstenbelastingen 1992 wordt onder aandelen die de
  aard van financiële vaste activa hebben, verstaan :
   1° ten name van de in artikel 56, § 1, van hetzelfde Wetboek bedoelde kredietinstellingen, de in post VII
@@ -2380,7 +2328,6 @@ Pagina 40 van 107 Copyright Belgisch S taatsblad 05-01-2022
  post C.II. "Beleggingen in verbonden ondernemingen en deelnemingen" van de balans te boeken aandelen en
  deelbewijzen, zoals die balanspost wordt omschreven in het koninklijk besluit van 17 november 1994 betreffende
  de jaarrekening van verzekeringsondernemingen;
-Pagina 41 van 107 Copyright Belgisch S taatsblad 05-01-2022
   3° ten name van de in artikel 47 van de wet van 6 april 1995 inzake de secundaire markten, het statuut en het
  toezicht op de beleggingsondernemingen, de bemiddelaars en beleggingsadviseurs bedoelde
  beursvennootschappen, de aandelen te boeken in post IV "Financiële vaste activa", zoals die balanspost wordt
@@ -2388,7 +2335,6 @@ Pagina 41 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.4quater
 
-<Ingevoegd bij KB 2003-02-13/33, art. 1, Inwerkingtreding : 01-01-2004> Voor de toepassing
  van artikel 203, § 1, derde lid van het Wetboek van de inkomstenbelastingen 1992 worden met betrekking tot de
  landen van de hiernavolgende lijst, de gemeenrechtelijke bepalingen inzake belastingen als vermeld in artikel 203,
  § 1, eerste lid, 1°, van hetzelfde Wetboek, geacht aanzienlijk gunstiger te zijn dan in België :
@@ -2448,12 +2394,10 @@ Pagina 41 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.5
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Voor de toepassing van
  dit besluit moet verstaan worden onder :
   1° " gecentraliseerd systeem voor het lenen en ontlenen van aandelen ", een systeem voor het lenen en
  ontlenen van aandelen dat tot doel heeft in laatste instantie de afwikkeling van orders tot overdracht van
  aandelen te vergemakkelijken en dat geïntegreerd is in een vereffeningssysteem voor aandelen zoals bedoeld in
-Pagina 42 van 107 Copyright Belgisch S taatsblad 05-01-2022
  artikel 2, § 1, b van de wet van 28 april 1999 tot overdracht houdende omzetting van de Richtlijn 98/26/CEEG van
  19 mei 1998 betreffende het definitief karakter van de afwikkeling van de betalingen en effectentransacties in
  betaling- en afwikkelingssystemen van de operaties op aandelen of in een systeem van een andere Staat
@@ -2464,7 +2408,6 @@ Pagina 42 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.6
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Kunnen erkend worden
  voor de toepassing van artikel 203, § 2, 6de lid, 2°, van het Wetboek van de inkomstenbelastingen 1992, de
  gecentraliseerde systemen voor het lenen en ontlenen van aandelen die aan de volgende voorwaarden voldoen :
   1° de interpositionering tussen de ontlener en de uitlener zelf op een zodanige manier waarborgen dat de
@@ -2479,7 +2422,6 @@ Pagina 42 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.7
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het
  systeem die in België niet zijn maatschappelijke zetel, noch zijn voornaamste inrichting, noch zijn zetel van
  bestuur of beheer heeft en die geen Belgische inrichting is in de zin van artikel 229 van het Wetboek van de
  inkomstenbelastingen 1992 moet, voorafgaand aan de aanvraag tot erkenning, een in België verblijvende
@@ -2488,7 +2430,6 @@ Pagina 42 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.8
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> § 1. Om hun erkenning te
  bekomen, moeten de gecentraliseerde systemen voor het lenen en ontlenen van aandelen een schriftelijke
  aanvraag indienen, in de hierna bepaalde vormen en termijnen.
   De aanvragen tot erkenning moeten ingediend worden bij de Minister van Financiën. Er wordt ontvangst gemeld
@@ -2527,13 +2468,11 @@ Pagina 42 van 107 Copyright Belgisch S taatsblad 05-01-2022
  datum van de betekenis van de weigering. of van de datum van de intrekking van de erkenning.
   § 3. Als één der inlichtingen die moeten voorkomen in de aanvraag tot erkenning krachtens de eerste paragraaf
  wordt veranderd in de loop van de erkenningsperiode, moet de beheerder van het systeem, of in de gevallen
-Pagina 43 van 107 Copyright Belgisch S taatsblad 05-01-2022
  bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, ten minste een maand voor de inwerkingtreding
  van de verandering dit feit ter kennis brengen van de Minister van Financiën.
 
 ## Art. 73.9
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het
  systeem of, in de gevallen bedoeld in artikel 737 van dit besluit, zijn aansprakelijke vertegenwoordiger, deelt aan
  de Administratie van de ondernemings- en inkomensfiscaliteit voor 15 september van elk burgerlijke jaar
  volgende gegevens mee :
@@ -2551,7 +2490,6 @@ Pagina 43 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.10
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> De beheerder van het
  systeem of, in de gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger, moet, voorafgaand aan
  elke wijziging van de regels tot bepaling van het tarief der kosten ten laste van de ontlener bedoeld in artikel 73.6,
  4° en hierna " tarief " genoemd, dit feit ter kennis brengen van de Minister van Financiën.
@@ -2578,7 +2516,6 @@ Pagina 43 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.11
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> Het gecentraliseerd
  systeem voor het lenen en ontlenen van aandelen moet toelaten het bedrag te bepalen van de betaalde
  vergoedingen voor ontbrekende coupon per schuldenaar en per ontleend aandeel voor de periode bedoeld in
  artikel 73.9 tot vijf jaren na het jaar gedurende hetwelk de in artikel 73.9 vermelde gegevens moeten worden
@@ -2593,7 +2530,6 @@ Pagina 43 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 73.12
 
-<Ingevoegd bij AR 2000-11-29/33, art. 1; Inwerkingtreding : 28-11-2000> § 1. Als de Administratie
  van de ondernemings- en inkomensfiscaliteit een inbreuk vaststelt op de bepalingen van dit besluit, deelt ze dit
  mee aan de beheerder van het systeem of, in de gevallen bedoeld in artikel 73.7, aan zijn aansprakelijke
  vertegenwoordiger.
@@ -2604,7 +2540,6 @@ Pagina 43 van 107 Copyright Belgisch S taatsblad 05-01-2022
  gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger de door de Administratie van de
  ondernemings- en inkomensfiscaliteit meegedeelde elementen betwist, beschikt deze laatste over een termijn van
  een maand te rekenen vanaf de ontvangst van de brief ter betwisting om er op te antwoorden. De afwezigheid
-Pagina 44 van 107 Copyright Belgisch S taatsblad 05-01-2022
  van antwoord van de Administratie van de ondernemings- en inkomensfiscaliteit wordt gelijkgesteld met het
  behoud van haar kennisgeving.
    De beheerder van het systeem, of in de gevallen bedoeld in artikel 73.7, zijn aansprakelijke vertegenwoordiger
@@ -2677,7 +2612,6 @@ Om het aan de vennootschapsbelasting te onderwerpen resultaat vast te stellen, w
 ## Art. 75
 
 Het totale bedrag van het overeenkomstig artikel 74 vastgestelde resultaat wordt eventueel volgens
-Pagina 45 van 107 Copyright Belgisch S taatsblad 05-01-2022
  oorsprong onderverdeeld in :
    1° in België behaald resultaat, indien positief hierna te noemen "Belgische winst";
    2° in het buitenland behaald resultaat waarvoor de belasting wordt verlaagd, indien positief hierna te noemen
@@ -2762,7 +2696,6 @@ De in de artikelen 68 tot 77 en 201 van het Wetboek van de inkomstenbelastingen 
 Voor de berekening van de roerende voorheffing wordt het bedrag van het belastbare inkomen (in
  euro vastgesteld en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076; Inwerkingtreding : 01-01-2002>
   De roerende voorheffing wordt (in euro gevestigd en afgerond op de cent). <KB 2000-07-20/63, art. 5, 076;
-Pagina 46 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Inwerkingtreding : 01-01-2002>
 
 ## Art. 84
@@ -2843,7 +2776,6 @@ Het bedrag van de aan de bron verschuldigde bedrijfsvoorheffing wordt vastgestel
 
 Ten aanzien van bepaalde categorieën van belastingplichtigen die tot buitengewone beroepskosten
  genoodzaakt zijn, kan de Minister van Financiën of zijn gedelegeerde het deel van het bruto-inkomen bepalen dat
-Pagina 47 van 107 Copyright Belgisch S taatsblad 05-01-2022
  voor het berekenen van de bedrijfsvoorheffing in aanmerking komt.
 
 ## Art. 90
@@ -2917,7 +2849,6 @@ Ingeval vergoedingen in globo aan een in artikel 87, 5°, vermelde niet-inwoner 
  werklieden, verkrijgers van pensioenen en renten, (bedrijfsleiders), of per in (artikel 87, 1° tot 7°,) bepaalde
  inkomstencategorie. <KB 1997-05-20/39, art. 8, 039; Inwerkingtreding : 01-01-1997> <KB 1997-01-10/42, art.
  3, 2°, 033; Inwerkingtreding : 01-01-1997>
-Pagina 48 van 107 Copyright Belgisch S taatsblad 05-01-2022
   (De Minister van Financiën of zijn gedelegeerde kan vergunning verlenen om de fiches en de samenvattende
  opgaven te vervangen door een magnetische informatiedrager. De vergunning vermeldt de na te leven
  voorwaarden en kan steeds worden ingetrokken.) <KB 1994-01-20/37, art. 2, 002; Inwerkingtreding : 01-011994>
@@ -3001,7 +2932,6 @@ Tenzij de in artikel 98 gestelde formaliteiten vervuld zijn, is het verboden cou
 De Minister van Financiën stelt het model van de in de artikelen 96 tot 99 vermelde registers, zegels en
  documenten vast en regelt het bijhouden of de gebruikswijze daarvan.
 
-Pagina 49 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 101
 
 De ambtenaren van de administratie der directe belastingen en van de administratie der douane en
@@ -3084,7 +3014,6 @@ Voor de toepassing van de artikelen 106 tot 119 verstaat men :
    f) de hypotheekbanken die onder de toepassing vallen van het koninklijk besluit nr. 225 van 7 januari 1936 tot
  reglementering van de hypothecaire leningen en tot inrichting van de controle op de ondernemingen van
  hypothecaire leningen;
-Pagina 50 van 107 Copyright Belgisch S taatsblad 05-01-2022
    g) de vennootschappen die uitsluitend of hoofdzakelijk de financiering van verkopen op afbetaling ten doel
  hebben en (onder de toepassing vallen van de wet van 12 juni 1991 op het consumentenkrediet); <KB 1994-0812/48, art. 8, 006; Inwerkingtreding : 01-07-1992>
    h) (de tot het net van het beroepskrediet toegetreden kredietverenigingen), de plaatselijke
@@ -3154,7 +3083,6 @@ Pagina 50 van 107 Copyright Belgisch S taatsblad 05-01-2022
  van buitenlandse beleggingsfondsen.
   § 2. Er wordt eveneens volledig afgezien van de inning van de roerende voorheffing op dividenden waarvan de
  schuldenaar, hetzij een vennootschap, vereniging, inrichting of instelling is die haar maatschappelijke zetel, haar
-Pagina 51 van 107 Copyright Belgisch S taatsblad 05-01-2022
  voornaamste inrichting of haar zetel van bestuur of beheer in België heeft, hetzij een rechtspersoon naar
  Belgisch publiek recht is, wanneer de verkrijger wordt geïdentificeerd als een spaarder niet-inwoner die geen
  onderneming exploiteert of die zich niet met verrichtingen van winstgevende aard bezighoudt en die in het land
@@ -3223,7 +3151,6 @@ Pagina 51 van 107 Copyright Belgisch S taatsblad 05-01-2022
  voorheffing volledig afgezien met betrekking tot de dividenden die worden uitgekeerd door een
  vastgoedbeleggingsvennootschap met vast kapitaal als bedoeld in artikel 2, 1°, van het koninklijk besluit van 10
  april 1995 met betrekking tot vastgoedbevaks, voor zover, bij het afsluiten van het boekjaar waarmee de
-Pagina 52 van 107 Copyright Belgisch S taatsblad 05-01-2022
  dividenden verband houden, tenminste 60 % van het vastgoed in de zin van artikel 2, 4°, van het voornoemde
  besluit rechtstreeks of onrechtstreeks belegd is in onroerende goederen die in België zijn gelegen en uitsluitend
  voor woninggebruik aangewend worden of bestemd zijn.) <KB 1995-04-10/95, art. 1, 2°, 017; Inwerkingtreding :
@@ -3293,7 +3220,6 @@ Pagina 52 van 107 Copyright Belgisch S taatsblad 05-01-2022
  uitvoering van overeenkomsten gesloten tijdens het tijdperk gaande van 1 maart 1977 tot en met 31 december
  1978, door rechtspersoon naar Belgisch publiek recht, of enige nijverheids-, handels- of landbouwonderneming
  worden verleend of toegekend aan niet-inwoners die niet belastingplichtig zijn volgens de artikelen 232 en 233
-Pagina 53 van 107 Copyright Belgisch S taatsblad 05-01-2022
  van het Wetboek van de inkomstenbelastingen 1992, in zover :
    - die schuldvorderingen en leningen gebruikt worden tot de financiering van verrichtingen die, op eensluidend
  advies van de Minister van Economische Zaken of de Minister van Middenstand, door de Minister van Financiën
@@ -3362,7 +3288,6 @@ Pagina 53 van 107 Copyright Belgisch S taatsblad 05-01-2022
  als vermeld in die bepaling.
    Die verzoekschriften moeten bevatten :
    a) alle nuttige bijzonderheden in verband met de aard, het bedrag, de rentevoet, de termijn en de uitgifteregels
-Pagina 54 van 107 Copyright Belgisch S taatsblad 05-01-2022
  van de lening, zomede met de economische en technische aspecten van de voorgenomen belegging tot
  financiering waarvoor de lening is bestemd;
    b) de verbintenis aan de bevoegde diensten van het Ministerie van Financiën, het Ministerie van Economische
@@ -3437,7 +3362,6 @@ Met betrekking tot inkomsten van gelddeposito's die, ofwel voor of vanaf 1 decem
    d) door beursvennootschappen aan spaarders niet-inwoners;
    5° inkomsten van niet in 1° tot 3° vermelde deposito's, waarvan de verkrijgers worden geïdentificeerd als :
    a) financiële instellingen of ermede gelijkgestelde ondernemingen;
-Pagina 55 van 107 Copyright Belgisch S taatsblad 05-01-2022
   b) parastatale instellingen voor sociale zekerheid of ermede gelijkgestelde instellingen;
   6° inkomsten van deposito's, waarvan de verkrijgers worden geïdentificeerd als coördinatiecentra, erkend
  overeenkomstig het koninklijk besluit nr. 187 van 30 december 1982.
@@ -3511,7 +3435,6 @@ Van de inning van de roerende voorheffing wordt volledig afgezien met betrekking
  schuldvorderingen en leningen, die niet van mobiliënbelasting of van zakelijke belastingen waren vrijgesteld en die
  worden verleend of toegekend ter uitvoering van overeenkomsten die de last van de mobiliënbelasting op de
  schuldenaar van de belastbare inkomsten leggen, heeft deze laatste het recht op die inkomsten het
-Pagina 56 van 107 Copyright Belgisch S taatsblad 05-01-2022
  overeenkomstig artikel 234 bepaalde gedeelte van de voorheffing in te houden.
   § 6. De in §§ 2 tot 5 bepaalde volledige of gedeeltelijke verzaking van de inning van de roerende voorheffing is
  van toepassing op de inkomsten die zijn behaald tot het vervallen van de in de overeenkomst bepaalde vaste
@@ -3587,7 +3510,6 @@ Pagina 56 van 107 Copyright Belgisch S taatsblad 05-01-2022
  toegestaan indien aan de schuldenaar van de inkomsten een attest wordt overhandigd waarbij is bevestigd dat
  de verkrijgers :
    a) eigenaar of vruchtgebruiker zijn van de rentegevende roerende kapitalen;
-Pagina 57 van 107 Copyright Belgisch S taatsblad 05-01-2022
    b) niet-inwoners zijn die geen onderneming exploiteren of zich niet met verrichtingen van winstgevende aard
  bezighouden en die in het land waarvan zij inwoner zijn, vrijgesteld zijn van inkomstenbelastingen.
    § 3. De in de artikelen 106, § 3, en 110, 4°, c, gestelde verzaking van de inning van de roerende voorheffing
@@ -3654,7 +3576,6 @@ Pagina 57 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Wetboek.
    § 9. De verzaking van de inning van de roerende voorheffing ingevolge artikel 116 is slechts van toepassing
  indien de beleggingsvennootschap aan de schuldenaar van de roerende voorheffing een attest overhandigt
-Pagina 58 van 107 Copyright Belgisch S taatsblad 05-01-2022
  waarbij wordt bevestigd dat het gaat om inkomsten uit activa waarvan zij eigenares is. <KB 1995-09-01/42, art.
  15, 2°, 019; Inwerkingtreding : 01-01-1993>
    § 10. De Minister van Financiën of zijn gedelegeerde bepaalt de wijze waarop de schuldenaar van lijfrenten of
@@ -3725,7 +3646,6 @@ Pagina 58 van 107 Copyright Belgisch S taatsblad 05-01-2022
    - de verkrijger van de inkomsten moet eigenaar of vruchtgebruiker van de rentegevende effecten zijn geweest
  gedurende het gehele tijdperk waarop die inkomsten betrekking hebben;
    - de rentegevende effecten moeten gedurende datzelfde gehele tijdperk bij de uitgever op naam zijn
-Pagina 59 van 107 Copyright Belgisch S taatsblad 05-01-2022
  ingeschreven;
    2° voor inkomsten vermeld in artikel 107, § 2, 8°, a :
    - de in artikel 117, § 11, vermelde voorwaarden tot identificatie van de verkrijger van de inkomsten zijn
@@ -3794,9 +3714,7 @@ Pagina 59 van 107 Copyright Belgisch S taatsblad 05-01-2022
   4° houders van individuele spaarrekeningen vermeld in artikel 115, § 2, in de gevallen waarin die voorheffing bij
  de bron is geheven terwijl zij werkelijk de verzaking van de inning van de roerende voorheffing kunnen genieten;
   5° beleggingsvennootschappen vermeld in de (artikelen 114, 118 en 119quinquies) van de wet van 4 december
- 1990 op de financiële transacties en de financiële markten. <KB 1993-10-22/33, art. 12; Inwerkingtreding : 01-
-Pagina 60 van 107 Copyright Belgisch S taatsblad 05-01-2022
- 01-1993>
+ 1990 op de financiële transacties en de financiële markten. <KB 1993-10-22/33, art. 12; Inwerkingtreding : 0101-1993>
    Wanneer de in artikel 118 vermelde effecten zijn verkregen tussen twee vervaldagen van de inkomsten, kunnen
  de koper en de verkoper teruggave verkrijgen van de bij de bron geïnde roerende voorheffing die betrekking
  heeft op het prorata van de bruto-interesten waarvan elk van hen werkelijk het genot of de beschikking heeft
@@ -3820,7 +3738,6 @@ Pagina 60 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 119bis
 
-<Ingevoegd bij KB 1995-09-01/41, art. 1; Inwerkingtreding : 28-09-1995> § 1. Voor de toepassing
  van artikel 269, derde lid, b, van het Wetboek van de inkomstenbelastingen 1992, moeten de aandelen aan
  toonder vanaf hun uitgifte permanent in België in open bewaring zijn gegeven bij een bank, een openbare
  kredietinstelling, een beursvennootschap of een spaarkas die aan de controle van de Commissie voor het Banken Financiewezen is onderworpen.
@@ -3869,7 +3786,6 @@ Een fictieve onroerende voorheffing wordt toegekend met betrekking tot de inkoms
 ## Art. 121
 
 § 1. De te verrekenen fictieve roerende voorheffing met betrekking tot inkomsten van roerende
-Pagina 61 van 107 Copyright Belgisch S taatsblad 05-01-2022
  goederen en kapitalen waarvoor geheel of gedeeltelijk van de inning van roerende voorheffing is afgezien, is gelijk
  aan :
    1° vijfentwintig vijfenzeventigsten van het geïnde of verkregen nettobedrag van premies van Belgische
@@ -3947,8 +3863,6 @@ Het in artikel 290, 2°, van het Wetboek van de inkomstenbelastingen 1992 vermel
 
 ## Art. 125bis
 
-<Ingevoegd bij KB 1997-07-06/35, art. 1, 2°; Inwerkingtreding : 01-01-1997> Het controlecentrum
-Pagina 62 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Brussel 4 is belast met het onderzoek van de aangifte in de personenbelasting van de personen vermeld in artikel
  27, 5°, van het Wetboek van de inkomstenbelastingen 1992.
 
@@ -4040,7 +3954,6 @@ Zodra de kohieren uitvoerbaar verklaard zijn, wordt aan de betrokken belastingsc
 Onverminderd de bepalingen van de artikelen 141 en 177, zijn de inkomstenbelastingen en
  voorheffingen te betalen (bij de bevoegde) ontvanger van de directe belastingen, hierna de ontvanger genoemd.
  <KB 1999-05-03/39, art. 5, 053; Inwerkingtreding : 06-04-1999>
-Pagina 63 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 138
 
 De ontvanger mag slechts de betaling eisen van inkomstenbelastingen en voorheffingen die
@@ -4122,7 +4035,6 @@ De ontvangkantoren van de directe belastingen zijn open de eerste 5 werkdagen va
  1992.) <KB 1999-05-03/39, art. 6, 053; Inwerkingtreding : 06-04-1999>
   (De roerende voorheffing en de bedrijfsvoorheffing verjaren door verloop van vijf jaren vanaf de datum van
  uitvoerbaarverklaring van het kohier waarin ze zijn opgenomen krachtens artikel 304, § 1, 2° lid, van hetzelfde
-Pagina 64 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Wetboek.) <KB 1999-05-03/39, art. 6, 053; Inwerkingtreding : 06-04-1999>
    (De termijn bedoeld in de vorige leden) kan worden gestuit op de wijze bepaald in de artikelen 2244 en volgende
  van het Burgerlijk Wetboek of door afstand te doen van de op de verjaring verlopen termijn. In geval van stuiting
@@ -4211,7 +4123,6 @@ Tegenover belastingschuldigen die door wegneming van roerende voorwerpen of ande
 
 Alvorens te verkopen, doet de instrumenterende deurwaarder daarvan aangifte ten kantore van de
  registratie. Hij vermeldt deze formaliteit in het proces-verbaal van verkoop.
-Pagina 65 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 156
 
 Zo geen koper opdaagt, wordt de verkoop verdaagd en worden de voorwerpen, krachtens een
@@ -4297,7 +4208,6 @@ De ontvanger rekent de hem gestorte sommen aan volgens de in artikel 143 gesteld
  gerechtsdeurwaarders, griffiers, curatoren, vertegenwoordigers en andere bewaarnemers en schuldenaars van
  aan een belastingschuldige verschuldigde of toebehorende inkomsten, sommen en zaken, verplicht, op het hun
  door de bevoegde ontvanger bij ter post aangetekende brief gedane verzoek, te betalen met het voor beslag
-Pagina 66 van 107 Copyright Belgisch S taatsblad 05-01-2022
  vatbare gedeelte van de inkomsten, sommen en zaken die zij verschuldigd zijn of die zij onder zich houden en
  met kwijting insluitend gevolg voor de belastingschuldige, tot beloop van het bedrag, geheel of gedeeltelijk, dat
  door deze laatste verschuldigd is uit hoofde van belastingen, belastingverhogingen, nalatigheidsinteresten,
@@ -4374,7 +4284,6 @@ Bij het uitoefenen van hun ambt moeten de deurwaarders van de directe belastinge
 
 De deurwaarders van de directe belastingen mogen hun ambt slechts uitoefenen in het ambtsgebied
  waarvoor zij op 1 mei 1967 definitief waren aangesteld.
-Pagina 67 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 170
 
 In geen geval en onder geen enkel voorwendsel, mogen de deurwaarders van de directe belastingen,
@@ -4456,7 +4365,6 @@ Onverminderd de bevoegdheden van de gerechtelijke officieren bij de parketten, z
  de verklaring waarbij de overdracht is vastgesteld verplicht, voor registratie, aan de ontvanger van de registratie
  een aangifte in tweevoud voor te leggen waarbij kennis wordt gegeven van alle gegevens die nodig zijn voor de
  berekening van de belasting van niet-inwoners met betrekking tot de verwezenlijkte meerwaarde en eventueel de
-Pagina 68 van 107 Copyright Belgisch S taatsblad 05-01-2022
  kosten en uitgaven te verantwoorden die de overdrager vraagt van de overdrachtprijs af te trekken of bij de
  verkrijgingsprijs te voegen.
    Hangt de in de belasting van niet-inwoners belastbare grondslag geheel of gedeeltelijk af van de waardering van
@@ -4529,7 +4437,6 @@ Pagina 68 van 107 Copyright Belgisch S taatsblad 05-01-2022
 § 1. De naamloze vennootschap naar Belgisch recht Joos, waarvan de statuten zijn bekendgemaakt in
  de bijlagen van het Belgisch Staatsblad van 29 oktober 1983, wordt aangewezen om mededeling te verkrijgen
  van informatiegegevens als vermeld in artikel 314, § 4, eerste lid, van het Wetboek van de inkomstenbelastingen
-Pagina 69 van 107 Copyright Belgisch S taatsblad 05-01-2022
  1992.
   § 2. Die mededeling staat niet gelijk met het recht van toegang tot het Rijksregister van de natuurlijke personen.
 
@@ -4548,7 +4455,6 @@ Pagina 69 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 181bis
 
-<Ingevoegd bij KB 1995-04-04/34, art. 1; Inwerkingtreding : 01-01-1993> De onderzoekingen
  bedoeld in hoofdstuk III van titel VII van het Wetboek van de inkomstenbelastingen 1992 mogen worden verricht
  door de ambtenaren van de administratie der douane en accijnzen die bij toepassing van het koninklijk besluit van
  7 december 1992 ter beschikking van de administratie der directe belastingen zijn gesteld.
@@ -4608,7 +4514,6 @@ De bevoegdheid van de commissie strekt zich uit tot de gevallen die haar worden 
 ## Art. 185
 
 De commissie bestaat uit :
-Pagina 70 van 107 Copyright Belgisch S taatsblad 05-01-2022
    1° een inspecteur van de directe belastingen die van rechtswege voorzitter is van de commissie;
    2° 3 afgevaardigden van de handel en de nijverheid, te kiezen uit de personen van het ambtsgebied die in
  dubbel aantal zijn voorgedragen door de voorzitter van de rechtbank van koophandel van het gerechtelijk
@@ -4691,7 +4596,6 @@ Ten minste 15 dagen voor de vergadering roept de inspecteur-voorzitter de leden 
  elk van de betrokken belastingplichtigen belastbaar is.
    Die controleur kan zich laten bijstaan door de ambtenaar die de verificatie heeft verricht van de aangifte in de
  inkomstenbelastingen die wordt betwist.
-Pagina 71 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 193
 
 Ten minste 15 dagen voor de vergadering deelt de inspecteur-voorzitter de plaats, de datum en het
@@ -4777,7 +4681,6 @@ Het belastbare tijdperk valt samen met het boekjaar voor het jaar waarnaar het a
  wanneer het boekjaar loopt over een tijdperk dat korter of langer is dan een jaar en de betrokkenen hun
  boekhouding afsluiten op 31 december van het jaar.
 
-Pagina 72 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 202
 
 Het belastbare tijdperk valt samen met het boekjaar, afgesloten in het jaar waarnaar het aanslagjaar
@@ -4859,7 +4762,6 @@ De bijzondere aanslag in de vennootschapsbelasting vermeld in artikel 219 van he
  de inkomstenbelastingen 1992 en van artikel 30bis van de wet van 27 juni 1969 tot herziening van de besluitwet
  van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders bepaalde definities geen
  schuldenaar is bij de Rijksdienst voor Sociale Zekerheid of bij een Fonds voor bestaanszekerheid of voor de
-Pagina 73 van 107 Copyright Belgisch S taatsblad 05-01-2022
  verschuldigde bedragen uitstel van betaling heeft gekregen zonder gerechtelijke procedure of bij een in kracht
  van gewijsde gegane rechterlijke beslissing en de opgelegde termijnen strikt naleeft. De Rijksdienst voor Sociale
  Zekerheid stelt te dien einde een publiek toegankelijke gegevensbank in die voor de toepassing van dit lid
@@ -4906,7 +4808,6 @@ Pagina 73 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 210bis
 
-<Ingevoegd bij KB 1997-01-10/42, art. 5; Inwerkingtreding : 01-01-1997> § 1. De in artikel 270, 5°,
  van het Wetboek van de inkomstenbelastingen 1992 vermelde personen zijn verplicht, bij de registratie van de
  akte of van de verklaring waarbij de overdracht is vastgesteld, op het in artikel 39 of 40 van het Wetboek der
  registratie-, hypotheek- en griffierechten vermelde kantoor, de bedrijfsvoorheffing bepaald overeenkomstig
@@ -4933,7 +4834,6 @@ Pagina 73 van 107 Copyright Belgisch S taatsblad 05-01-2022
  verwezenlijkt op de goederen welke het voorwerp van de akte zijn.
    In geval van openbare verkoop zullen de ontvangers, in afwijking van het eerste lid, aan de betrokken
  schuldenaar van bedrijfsvoorheffing enkel kennis geven van het totale bedrag dat van de overdrachtprijs moet
-Pagina 74 van 107 Copyright Belgisch S taatsblad 05-01-2022
  worden afgetrokken, om het bedrag van de verwezenlijke meerwaarde te bekomen zodat deze, evenals de erop
  verschuldigde bedrijfsvoorheffing, door voormelde schuldenaar zelf kan berekend worden.
   § 4. De smchuldenaar van de bedrijfsvoorheffing zal, vóór registratie, aan de ontvanger belast met de
@@ -4952,7 +4852,6 @@ Pagina 74 van 107 Copyright Belgisch S taatsblad 05-01-2022
 
 ## Art. 210ter
 
-<Ingevoegd bij KB 1997-01-10/42, art. 5; Inwerkingtreding : 01-01-1997> De in artikel 210bis
  bedoelde aangifte en kennisgeving moeten worden opgesteld op een formulier dat overeenkomt met het model
  van bijlage 1 van het koninklijk besluit van 10 januari 1997.
 
@@ -5010,7 +4909,6 @@ De onroerende goederen die als hypothecaire waarborg worden aangeboden, moeten i
  schenken en onder meer door een schatting van een algemeen als bevoegd erkende deskundige, zo zulks
  vanwege de ontvanger geëist wordt.
 
-Pagina 75 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 215
 
 Borgtochten in geld worden gestort of overgeschreven op de rekening die bij (de Post) is geopend op
@@ -5098,7 +4996,6 @@ Een exemplaar van het attest vermeld in artikel 443 van het Wetboek van de inkom
 § 1. Wanneer uit het uitgereikte attest dat aan de kredietinstelling of -inrichting wordt overgelegd blijkt
  dat een bedrag als belastingen of bijbehoren eisbaar is ten name van de natuurlijke persoon of rechtspersoon
  aan wie een krediet, lening of voorschot is verleend waarvoor een voordeel inzake economische expansie is
-Pagina 76 van 107 Copyright Belgisch S taatsblad 05-01-2022
  aangevraagd, mogen de fondsen die afkomstig zijn van het krediet, de lening of het voorschotten belope van dat
  bedrag niet worden vrijgegeven, tenzij de belanghebbende natuurlijke persoon of rechtspersoon een attest
  overlegt waarin de in artikel 220 aangewezen ambtenaar verklaart dat die belastingen en bijbehoren betaald zijn.
@@ -5156,7 +5053,6 @@ De schaal van de belastingverhogingen bij onvolledige of onjuiste aangifte, ande
  - 3e overtreding : 30 pct.
  Vanaf de 4e overtreding worden de overtredingen
  van deze aard bij C ingedeeld en als zodanig
-Pagina 77 van 107 Copyright Belgisch S taatsblad 05-01-2022
  bestraft.
  C. Onvolledige of onjuiste aangifte met het
  opzet de belasting te ontduiken :
@@ -5217,7 +5113,6 @@ Voor de vaststelling van het krachtens de artikelen 225, 226 en 228 toe te passe
 
   HOOFDSTUK IV. - BELASTINGWEZEN VAN DE PROVINCIES, DE AGGLOMERATIES EN DE GEMEENTEN.
  (Wetboek van de inkomstenbelastingen 1992, artikelen 300 en 469)
-Pagina 78 van 107 Copyright Belgisch S taatsblad 05-01-2022
   Afdeling I. - Provinciale belastingen.
 
 ## Art. 230
@@ -5260,7 +5155,6 @@ Het bepaalde in de artikelen 133, 136 tot 176 en 207 tot 230 is op de in artikel
 
 ## Art. 233bis
 
-<ingevoegd bij KB 1999-03-10/41, art. 1, Inwerkingtreding : 1999-04-17> § 1. Voor de toepassing
  van artikel 470bis, vierde lid, van het Wetboek van de inkomstenbelastingen 1992 geeft de administratie der
  directe belastingen de eerste werkdag die volgt op de dag waarop is vastgesteld dat er een ambtshalve
  inhouding moet gebeuren, aan de provincie, de gemeente of de agglomeratie van gemeenten kennis van het
@@ -5295,7 +5189,6 @@ Wanneer de last van de mobiliënbelasting of van de roerende voorheffing, kracht
  mobiliënbelasting of van zakelijke belastingen waren vrijgesteld en die worden verleend of toegekend ter
  uitvoering van overeenkomsten die de last van de mobiliënbelasting op de schuldenaar leggen :
   a) is de door de schuldenaar te dragen roerende voorheffing gelijk aan 2/98 van het bedrag van het bedongen
-Pagina 79 van 107 Copyright Belgisch S taatsblad 05-01-2022
    b) is de aan de bron in te houden roerende voorheffing gelijk aan 10,5 pct. van hetzelfde bedrag.
    2° met betrekking tot andere inkomsten die worden verleend of toegekend ter uitvoering van :
    a) voor 1 december 1962 gesloten overeenkomsten die de last van de mobiliënbelasting op de schuldenaar
@@ -5373,7 +5266,6 @@ Eventueel kan slechts een nieuwe aanschaffings- of beleggingswaarde worden toege
  is verkregen of tot stand gebracht.
    Dat deel wordt bepaald met inachtneming van de gegevens van de laatste jaarbalans opgemaakt voor 31
  december 1940 of, in gevallen als vermeld in artikel 238, § 1, tweede lid, in de openingsbalans van de nieuwe
-Pagina 80 van 107 Copyright Belgisch S taatsblad 05-01-2022
  onderneming.
 
 ## Art. 240
@@ -5456,7 +5348,6 @@ De belastingplichtige verdeelt de herschatte activa in 3 of 4 categorieën naar 
 
 Afschrijving van de nieuwe aanschaffings- of beleggingswaarde moet bij het afsluiten van elk boekjaar
  geschieden.
-Pagina 81 van 107 Copyright Belgisch S taatsblad 05-01-2022
   Bij gebreke van afschrijvingen of bij ontoereikende afschrijvingen voor één of meer boekjaren ten gevolge van
  verlies of van ontoereikende brutowinst, kan het tijdperk van afschrijving verlengd worden tot de af te schrijven
  waarde volledig bereikt is.
@@ -5538,7 +5429,6 @@ Het koninklijk besluit van 12 oktober 1930, tot berekening van de afschrijvingen
 
  Periode Belgisch
 
-Pagina 82 van 107 Copyright Belgisch S taatsblad 05-01-2022
     Staatsblad Index A Index B Index C Index D Index E
 
  ----------------- ------------ --------- --------- --------- --------- --------
@@ -5591,7 +5481,6 @@ Pagina 82 van 107 Copyright Belgisch S taatsblad 05-01-2022
  [januari 1998 31.01.1998 4,019 4,348 4,602 4,758 4,957
  februari 1998 28.02.1998 3,821 4,150 4,371 4,602 4,733
  maart 1998 31.03.1998 3,733 4,069 4,263 4,498 4,606
-Pagina 83 van 107 Copyright Belgisch S taatsblad 05-01-2022
  april 1998 30.04.1998 3,777 4,095 4,264 4,469 4,559
  mei 1998 30.05.1998 3,889 4,182 4,352 4,540 4,616
  juni 1998 30.06.1998 3,932 4,197 4,371 4,557 4,636
@@ -5643,7 +5532,6 @@ Pagina 83 van 107 Copyright Belgisch S taatsblad 05-01-2022
  (1) (2) (3)
 
  4 0,1380 0,1524
-Pagina 84 van 107 Copyright Belgisch S taatsblad 05-01-2022
  5 0,1620 0,1789
  6 0,1790 0,1976
  7 0,1980 0,2186
@@ -5708,7 +5596,6 @@ Categorie 2. - Beperking van energieverlies in bestaande broeikassen of bij de v
   a) plaatsen van dubbel glas of van glas waarvan het isolatievermogen is verhoogd door het aanbrengen van
  metaaloxydelagen met een laag emissievermogen;
   b) plaatsen van wegneembare schermen die een scheiding vormen tussen kweekruimte en dak.
-Pagina 85 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 3N2
 
 Categorie 3. - Terugwinnen van energie door het herinrichten van bestaande
@@ -5791,7 +5678,6 @@ Categorie 10. - Aanwenden van expansieënergie die vrijkomt bij bestaande produk
   - generatoren, met inbegrip van snelheidsreductoren, waarin de opgewekte mechanische energie wordt
  omgezet in elektrische energie.
 
-Pagina 86 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 11N2
 
 Categorie 11. - Apparatuur waarin krachtopwekking en warmteproduktie zijn gecombineerd.
@@ -5870,7 +5756,6 @@ Categorie 15. - Aanwenden van steenkool als brandstof.
  verbrandingslucht;
   c) rookgasreinigingsapparatuur en schoorstenen.
 
-Pagina 87 van 107 Copyright Belgisch S taatsblad 05-01-2022
 ## Art. 16N2
 
 Categorie 16. - Produktie van energie door verbranding van afvalstoffen.
@@ -5959,7 +5844,6 @@ Categorie 25. - Regeling van de aandrijving van machines.
  van de inkomstenbelastingen 1992 opgesomd zijn met het oog op een rationeler energiegebruik in een woning
  (KB/WIB 92, artikel 63.11).
   Maatregel 1 : Vervanging van oude stookketels
-Pagina 88 van 107 Copyright Belgisch S taatsblad 05-01-2022
    A. Met betrekking tot de oude stookketels : de geregistreerde aannemer bevestigt dat hij de oude stookketel
  vervangt en vermeldt de beschikbare kenmerken van de oude stookketel (merk, type en serienummer van het
  toestel);
@@ -6025,7 +5909,6 @@ Pagina 88 van 107 Copyright Belgisch S taatsblad 05-01-2022
   (Gewijzigd bij KB 2010-12-01/02, art. 2; Inwerkingtreding : 01-01-2011; voor de tekst; zie VARIA 2009-1203/10>
   (Gewijzigd bij KB 2012-06-06/01, art. 1; Inwerkingtreding : 01-07-2012; voor de tekst ; zie VARIA 2011-0315/01>
   (Gewijzigd bij KB 2012-12-11/02, art. 1; Inwerkingtreding : 01-01-2013; voor de tekst, zie VARIA 2012-1211/03>
-Pagina 89 van 107 Copyright Belgisch S taatsblad 05-01-2022
   Art. N4. BIJLAGE IV. <KB 1994-08-12/48, art. 13, 006; Inwerkingtreding : 10-09-1994>itvoering van het
  Wetboek van de inkomstenbelastingen 1992, artikel 183)
 
@@ -6081,7 +5964,6 @@ Tabel 4. Directie Brussel II.
  Schaarbeek Evere, Schaarbeek en Sint-Joost-ten-Node
  Commissie I
 
-Pagina 90 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Schaarbeek Bever, Drogenbos, Ganshoren, Jette,
  Commisie II Koekelberg, Kraainem, Linkebeek,
     Sint-Agatha-Berchem, Sint-Genesius-Rode,
@@ -6135,7 +6017,6 @@ Tabel 6. Directie Brugge.
     Lo-Reninge, Nieuwpoort, Torhout en Veurne
  Roeselare Ardooie, Dentergem, Harelbeke, Ingelmunster,
 
-Pagina 91 van 107 Copyright Belgisch S taatsblad 05-01-2022
     Ingelmunster, Izegem, Lendelede, Meulebeke,
     Oostrozebeke, Pittem, Roeselare, Ruiselede,
     Staden, Tielt, Wielsbeke en Wingene
@@ -6189,7 +6070,6 @@ Tabel 9. Directie Bergen.
 
  Benaming Ambtsgebied
 
-Pagina 92 van 107 Copyright Belgisch S taatsblad 05-01-2022
  Aat Aat, Beloeil, Bernissart, Brugelette,
     Chievres, Colfontaine, Dour, Edingen,
     Elzele, Hensies, Honnelles, Jurbeke, Lens,
@@ -6243,7 +6123,6 @@ Tabel 11. - Directie Hasselt.
     Leopoldsburg, Lommel, Lummen,
     Meeuwen-Gruitrode, Neerpelt, Overpelt, Peer,
 
-Pagina 93 van 107 Copyright Belgisch S taatsblad 05-01-2022
     Tessenderlo en Zonhoven
  Tongeren Alken, As, Bilzen, Borgloon, Dilsen, Genk,
     Gingelom, Halen, Heers, Herk-de-Stad,
@@ -6297,7 +6176,6 @@ Tabel 13. - Directie Namen.
     Ramillies, Rixensart, Sambreville,
     Sombreffe, Terhulpen, Villers-la-Ville,
 
-Pagina 94 van 107 Copyright Belgisch S taatsblad 05-01-2022
     Walhain en Waver
 
   Art. N5. BIJLAGE V. Rentevoeten die in aanmerking komen voor de vaststelling van de als beroepskosten
@@ -6349,7 +6227,6 @@ Pagina 94 van 107 Copyright Belgisch S taatsblad 05-01-2022
  14quinquies 33
  14sexies --
  15 235
-Pagina 95 van 107 Copyright Belgisch S taatsblad 05-01-2022
  16 236
  17 237
  18 238
@@ -6402,7 +6279,6 @@ Pagina 95 van 107 Copyright Belgisch S taatsblad 05-01-2022
  49bis 66
  49ter --
  50 67
-Pagina 96 van 107 Copyright Belgisch S taatsblad 05-01-2022
  51 68
  52 69
  53 70
@@ -6455,7 +6331,6 @@ Pagina 96 van 107 Copyright Belgisch S taatsblad 05-01-2022
  90 109
  91 110
 
-Pagina 97 van 107 Copyright Belgisch S taatsblad 05-01-2022
  92 111
 
  93 112
@@ -6509,7 +6384,6 @@ Pagina 97 van 107 Copyright Belgisch S taatsblad 05-01-2022
  137 123
  138 124
 
-Pagina 98 van 107 Copyright Belgisch S taatsblad 05-01-2022
  139 --
  140 --
  141 125
@@ -6562,7 +6436,6 @@ Pagina 98 van 107 Copyright Belgisch S taatsblad 05-01-2022
  185 141
  186 142
  187 143
-Pagina 99 van 107 Copyright Belgisch S taatsblad 05-01-2022
  188 144
  189 --
  190 --
@@ -6615,7 +6488,6 @@ Pagina 99 van 107 Copyright Belgisch S taatsblad 05-01-2022
  232 215
  233 216
  234 217
-Pagina 100 van 107 Copyright Belgisch S taatsblad 05-01-2022
  235 218
  236 219
  237 220
@@ -6664,7 +6536,6 @@ Pagina 100 van 107 Copyright Belgisch S taatsblad 05-01-2022
  X II
 
  Andere bepalingen Artikel KB/WIB 92
-Pagina 101 van 107 Copyright Belgisch S taatsblad 05-01-2022
  KB 17.1.1989, art.1 6 1
  KB 17.4.1990 48 (4, 5)
  KB 6.2.1989, art. 1 180
@@ -6716,7 +6587,6 @@ Pagina 101 van 107 Copyright Belgisch S taatsblad 05-01-2022
  41 39
  42 40
 
-Pagina 102 van 107 Copyright Belgisch S taatsblad 05-01-2022
  43 41
  44 12bis
  45 12ter
@@ -6769,7 +6639,6 @@ Pagina 102 van 107 Copyright Belgisch S taatsblad 05-01-2022
  92 118
  93 119
  94 120
-Pagina 103 van 107 Copyright Belgisch S taatsblad 05-01-2022
  95 124
  96 79
  97 80
@@ -6822,7 +6691,6 @@ Pagina 103 van 107 Copyright Belgisch S taatsblad 05-01-2022
  144 188
  145 194
  146 195
-Pagina 104 van 107 Copyright Belgisch S taatsblad 05-01-2022
  147 196
  148 197
  149 198
@@ -6876,7 +6744,6 @@ Pagina 104 van 107 Copyright Belgisch S taatsblad 05-01-2022
  196 160
  197 161
 
-Pagina 105 van 107 Copyright Belgisch S taatsblad 05-01-2022
  198 162
  199 163
  200 164
@@ -6930,7 +6797,6 @@ Pagina 105 van 107 Copyright Belgisch S taatsblad 05-01-2022
  247 27
  248 28
 
-Pagina 106 van 107 Copyright Belgisch S taatsblad 05-01-2022
  249 29
  250 30
  251 31
@@ -6944,4 +6810,3 @@ Pagina 106 van 107 Copyright Belgisch S taatsblad 05-01-2022
  IV V
  V II
 
-Pagina 107 van 107 Copyright Belgisch S taatsblad 05-01-2022

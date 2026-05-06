@@ -155,6 +155,12 @@ _PAGE_NUMBER_RE = re.compile(r"^\s*\d{1,4}\s*$")
 _URL_FRAGMENT_RE = re.compile(r"^\s*(net|fisconet|www\.|ejustice|belgisch\s+staatsblad)", re.I)
 _DECORATION_RE = re.compile(r"^\s*[—–]{3,}\s*$")  # enkel em/en-dashes, NIET --- (YAML)
 _FORM_FEED_RE = re.compile(r"\x0c")
+# "Pagina 7 van 76 Copyright Belgisch S taatsblad 17-01-2026" — ejustice PDF running footer
+# "S taatsblad" (met spatie) is een OCR-artefact dat ook voorkomt als "Staatsblad"
+_STAATSBLAD_FOOTER_RE = re.compile(
+    r"^\s*Pagina\s+\d+\s+van\s+\d+\s+Copyright\s+Belgisch\s+S?\s*taatsblad\b",
+    re.IGNORECASE,
+)
 
 
 def remove_page_artifacts(text: str) -> str:
@@ -174,6 +180,8 @@ def remove_page_artifacts(text: str) -> str:
         if _URL_FRAGMENT_RE.match(stripped):
             continue
         if _DECORATION_RE.match(stripped):
+            continue
+        if _STAATSBLAD_FOOTER_RE.match(line):
             continue
         lines.append(line)
     return "\n".join(lines)
@@ -248,9 +256,6 @@ def ensure_article_headings(text: str) -> str:
     3. ejustice inline: `  Art. 47. § 1. tekst...` → `## Art. 47\n\n§ 1. tekst...`
     4. MIGB inline: `Art. 47. tekst...` (geen inspringing) → `## Art. 47\n\ntekst...`
     """
-    if re.search(r"^#{1,4}\s+Art\.", text, re.MULTILINE):
-        return text  # al goed opgemaakt
-
     lines = text.split("\n")
     result = []
 
@@ -262,12 +267,13 @@ def ensure_article_headings(text: str) -> str:
         rf"^\s*(Art(?:ikel|\.)\s+{_num})\s*$", re.IGNORECASE
     )
     # Patroon 3: ejustice inline met inspringing (ook WER: "  Art. IV.85. tekst")
+    # \s* i.p.v. \s+ na de punt — dekt "Art. 4.Voor" (geen spatie na punt)
     inline_indented = re.compile(
-        rf"^\s{{1,4}}(Art\.)\s+({_num})\.\s+(.*)", re.IGNORECASE
+        rf"^\s{{1,4}}(Art\.)\s+({_num})\.\s*(.*\S)", re.IGNORECASE
     )
     # Patroon 4: inline zonder inspringing — MIGB/WVV-stijl
     inline_noindent = re.compile(
-        rf"^(Art\.)\s+({_num})\.\s+(\S.*)", re.IGNORECASE
+        rf"^(Art\.)\s+({_num})\.\s*(\S.*)", re.IGNORECASE
     )
     # Patroon 5: EU-richtlijn "Artikel X" inline met tekst
     artikel_inline = re.compile(

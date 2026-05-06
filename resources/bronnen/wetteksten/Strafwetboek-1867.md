@@ -30,7 +30,9 @@ Het misdrijf, op het grondgebied van het Rijk door Belgen of door vreemdelingen 
 Het misdrijf, buiten het grondgebied van het Rijk door Belgen of door vreemdelingen gepleegd, wordt in
  België niet gestraft dan in de gevallen bij de wet bepaald.
 
-  Art. 5.[1 Een rechtspersoon is strafrechtelijk verantwoordelijk voor de misdrijven die hetzij een intrinsiek
+## Art. 5
+
+[1 Een rechtspersoon is strafrechtelijk verantwoordelijk voor de misdrijven die hetzij een intrinsiek
  verband hebben met de verwezenlijking van zijn doel of de waarneming van zijn belangen, of die, zoals blijkt uit de
  concrete omstandigheden, voor zijn rekening zijn gepleegd.
   [2 Met rechtspersonen worden gelijkgesteld:
@@ -51,14 +53,15 @@ De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toep
 
   AFDELING I. - VERSCHILLENDE SOORTEN VAN STRAFFEN.
 
-  Art. 7.[3 § 1.]3 De straffen op de misdrijven (gepleegd door natuurlijke personen) toepasselijk, zijn : <W 199905-04/60, art. 3, 024; Inwerkingtreding : 02-07-1999>
+## Art. 7
+
+[3 § 1.]3 De straffen op de misdrijven (gepleegd door natuurlijke personen) toepasselijk, zijn : <W 199905-04/60, art. 3, 024; Inwerkingtreding : 02-07-1999>
   In criminele zaken :
   (1° Opsluiting;
   2° Hechtenis.) <W 1996-07-10/42, art. 4, 018; Inwerkingtreding : 11-08-1996>
   [2 In correctionele zaken en in politiezaken :
    1° gevangenisstraf;
    2° straf onder elektronisch toezicht;
-Pagina 12 van 145 Copyright Belgisch S taatsblad 18-03-2026
    3° werkstraf;
    4° autonome probatiestraf.
    De in het 1° tot 4° bepaalde straffen mogen niet samen worden toegepast.]2
@@ -93,7 +96,9 @@ Pagina 12 van 145 Copyright Belgisch S taatsblad 18-03-2026
  48, 114; Inwerkingtreding : 29-02-2016>
   (3)<W 2025-07-18/16, art. 2, 163; Inwerkingtreding : 04-08-2025>
 
-  Art. 7bis.<Ingevoegd bij W 1999-05-04/60, art. 4; Inwerkingtreding : 02-07-1999> [1 De straffen toepasselijk
+## Art. 7bis
+
+<Ingevoegd bij W 1999-05-04/60, art. 4; Inwerkingtreding : 02-07-1999> [1 De straffen toepasselijk
  op misdrijven gepleegd door rechtspersonen, met uitsluiting van publiekrechtelijke rechtspersonen bedoeld in het
  derde lid, zijn:]1
   in criminele zaken, in correctionele zaken en in politiezaken :
@@ -123,11 +128,12 @@ Pagina 12 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 <W 1996-07-10/42, art. 5, 018; Inwerkingtreding : 11-08-1996> Opsluiting is levenslang of tijdelijk.
 
-  Art. 9.<W 1996-07-10/42, art. 6, 018; Inwerkingtreding : 11-08-1996> Tijdelijke opsluiting wordt uitgesproken
+## Art. 9
+
+<W 1996-07-10/42, art. 6, 018; Inwerkingtreding : 11-08-1996> Tijdelijke opsluiting wordt uitgesproken
  voor een termijn van :
   1° vijf tot tien jaar;
   2° tien tot vijftien jaar;
-Pagina 13 van 145 Copyright Belgisch S taatsblad 18-03-2026
   3° vijftien tot twintig jaar;
   4° twintig tot dertig jaar.
   [1 5° dertig tot veertig jaar.]1
@@ -138,7 +144,9 @@ Pagina 13 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 <W 1996-07-10/42, art. 7, 018; Inwerkingtreding : 11-08-1996> Hechtenis is levenslang of tijdelijk.
 
-  Art. 11.<W 1996-07-10/42, art. 8, 018; Inwerkingtreding : 11-08-1996> Tijdelijke hechtenis wordt uitgesproken
+## Art. 11
+
+<W 1996-07-10/42, art. 8, 018; Inwerkingtreding : 11-08-1996> Tijdelijke hechtenis wordt uitgesproken
  voor een termijn van :
   1° vijf tot tien jaar;
   2° tien tot vijftien jaar;
@@ -174,14 +182,18 @@ Pagina 13 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
 
-   Art. 18.<W 2003-01-23/42, art. 7, 040; Inwerkingtreding : 13-03-2003> Het arrest houdende veroordeling tot
+## Art. 18
+
+<W 2003-01-23/42, art. 7, 040; Inwerkingtreding : 13-03-2003> Het arrest houdende veroordeling tot
  levenslange opsluiting of levenslange hechtenis, tot opsluiting of hechtenis van twintig jaar tot dertig jaar [1 of
  van dertig jaar tot veertig jaar]1 wordt bij uittreksel gedrukt en aangeplakt in de gemeente waar de misdaad is
  gepleegd en in die waar het arrest is gewezen.
    ----------
    (1)<W 2016-02-05/11, art. 4, 114; Inwerkingtreding : 29-02-2016>
 
-   Art. 19.<W 2003-01-23/42, art. 8, 040; Inwerkingtreding : 13-03-2003> Bij alle arresten van veroordeling tot
+## Art. 19
+
+<W 2003-01-23/42, art. 8, 040; Inwerkingtreding : 13-03-2003> Bij alle arresten van veroordeling tot
  levenslange opsluiting of levenslange hechtenis, tot tijdelijke opsluiting [1 of tot hechtenis van vijftien jaar tot
  twintig jaar of voor een langere termijn]1 wordt tegen de veroordeelden de afzetting uitgesproken van de titels,
  graden, openbare ambten, bedieningen en betrekkingen, waarmee zij bekleed zijn.
@@ -216,10 +228,11 @@ Pagina 13 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   AFDELING III. - CORRECTIONELE GEVANGENISSTRAF.
 
-  Art. 25.[1 De duur van de correctionele gevangenisstraf is, behoudens de in de wet bepaalde gevallen, ten
+## Art. 25
+
+[1 De duur van de correctionele gevangenisstraf is, behoudens de in de wet bepaalde gevallen, ten
  minste acht dagen en ten hoogste vijf jaar.
   Hij is ten hoogste vijf jaar voor een met opsluiting van vijf jaar tot tien jaar strafbare misdaad die
-Pagina 14 van 145 Copyright Belgisch S taatsblad 18-03-2026
  gecorrectionaliseerd is.
     Hij is ten hoogste tien jaar voor een met opsluiting van tien jaar tot vijftien jaar strafbare misdaad die
  gecorrectionaliseerd is.
@@ -261,7 +274,9 @@ De gevangenisstraf wegens overtreding mag niet minder zijn dan een dag en niet m
 
   (BEPALINGEN AAN DE AFDELINGEN II, III EN IV GEMEEN). <W 18-03-1970, art. 1>
 
-  Art. 30.Elke hechtenis, vóór het onherroepelijk worden van de veroordeling ondergaan ten gevolge van het
+## Art. 30
+
+Elke hechtenis, vóór het onherroepelijk worden van de veroordeling ondergaan ten gevolge van het
  misdrijf [1 , met uitzondering van de veroordeling tot een eenvoudige schuldigverklaring, wordt toegerekend op
  de duur van de nog lopende vrijheidsstraffen]1.
   (Iedere voorlopige plaatsingsmaatregel in een gesloten opvoedingsafdeling als bedoeld in artikel 52quater van
@@ -276,7 +291,6 @@ De gevangenisstraf wegens overtreding mag niet minder zijn dan een dag en niet m
 
 ## Art. 30bis
 
-<Ingevoegd bij W 1996-07-10/42, art. 13; Inwerkingtreding : 11-08-1996> De tot een vrijheidsstraf
  veroordeelden ondergaan hun straf in de inrichtingen, door de Koning aangewezen.
 
 ## Art. 30ter
@@ -287,7 +301,9 @@ De gevangenisstraf wegens overtreding mag niet minder zijn dan een dag en niet m
 
   Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen).
 
-   Art. 31.[3 Bij alle vonnissen of arresten van veroordeling tot levenslange opsluiting of levenslange hechtenis, tot
+## Art. 31
+
+[3 Bij alle vonnissen of arresten van veroordeling tot levenslange opsluiting of levenslange hechtenis, tot
  opsluiting van tien jaar of meer of tot gevangenisstraf van twintig jaar of meer]3 wordt tegen de veroordeelden
  levenslange ontzetting uitgesproken van het recht om :
    1° Openbare ambten, bedieningen of betrekkingen te vervullen;
@@ -297,7 +313,6 @@ De gevangenisstraf wegens overtreding mag niet minder zijn dan een dag en niet m
  getuigen, anders dan om enkel inlichtingen te geven;
    (5° Geroepen te worden tot het ambt van voogd, toeziend voogd of curator, behalve over hun eigen kinderen,
  of om het ambt van [2 ...]2 (gerechtelijk bewindvoerder over de goederen van een vermoedelijk afwezige) of [2
-Pagina 15 van 145 Copyright Belgisch S taatsblad 18-03-2026
  bewindvoerder van een persoon die krachtens artikel 492/1 van het Burgerlijk Wetboek is beschermd]2 uit te
  oefenen.) <W 2001-04-29/39, art. 73, 054; Inwerkingtreding : 01-08-2001> <W 2007-05-09/44, art. 48, 067;
  Inwerkingtreding : 01-07-2007>
@@ -311,13 +326,17 @@ Pagina 15 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2013-03-17/14, art. 150, 101; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
    (3)<W 2016-02-05/11, art. 7, 114; Inwerkingtreding : 29-02-2016>
 
-   Art. 32.[1 De hoven en rechtbanken kunnen de veroordeelden tot opsluiting van vijf tot minder dan tien jaar, tot
+## Art. 32
+
+[1 De hoven en rechtbanken kunnen de veroordeelden tot opsluiting van vijf tot minder dan tien jaar, tot
  tijdelijke hechtenis of tot gevangenisstraf van tien tot minder dan twintig jaar, voor hun leven of voor tien jaar tot
  twintig jaar, geheel of ten dele ontzetten van de uitoefening van de rechten bedoeld in artikel 31.]1
    ----------
    (1)<W 2016-02-05/11, art. 8, 114; Inwerkingtreding : 29-02-2016>
 
-   Art. 33.[2 Onder voorbehoud van de toepassing van de artikelen 31 en 32 kunnen de hoven en rechtbanken]2,
+## Art. 33
+
+[2 Onder voorbehoud van de toepassing van de artikelen 31 en 32 kunnen de hoven en rechtbanken]2,
  in de gevallen bij de wet bepaald, de tot correctionele straffen veroordeelden voor een termijn van vijf jaar tot tien
  jaar, geheel of ten dele ontzetten van de uitoefening van de rechten genoemd in [1 artikel 31, eerste lid]1.
    [3 Zij kunnen dezelfde ontzetting voor dezelfde duur uitspreken tegen de schuldigen wier criminele straf
@@ -350,7 +369,9 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
 
   Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-0426/89, art. 3; Inwerkingtreding : 01-01-2012>
 
-  Art. 34bis.<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De terbeschikkingstelling
+## Art. 34bis
+
+<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De terbeschikkingstelling
  van de strafuitvoeringsrechtbank is een bijkomende straf die in de door de wet bepaalde gevallen moet of kan
  worden uitgesproken met het oog op de bescherming van de maatschappij tegen personen die bepaalde
  ernstige strafbare feiten plegen die de integriteit van personen aantasten. Deze bijkomende straf gaat in na het
@@ -358,7 +379,9 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   ----------
   (1)<W 2014-04-25/23, art. 31, 104; Inwerkingtreding : 24-05-2014>
 
-  Art. 34ter.<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De hoven en rechtbanken
+## Art. 34ter
+
+<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De hoven en rechtbanken
  spreken een terbeschikkingstelling van de strafuitvoeringsrechtbank uit voor een periode van minimum vijf en
  maximum vijftien jaar die ingaat na afloop van de [1 ...]1 hoofdstraf bij de volgende veroordelingen :
   1° De veroordelingen die [2 toepassing maken van de artikelen 54 en 57bis]2, behalve indien de vroegere straf
@@ -367,7 +390,6 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
  misdaad vaststellen, behalve indien de vroegere straf voor een politieke misdaad werd opgelegd.
   3° De veroordelingen [3 tot een vrijheidsstraf van minstens vijf jaar]3 op grond van de artikelen 137, ingeval dit
  de dood heeft veroorzaakt, [4 417/12, 417/2, derde lid, 2°]4, [5 417/16, tweede lid, vijfde streepje, 417/17,
-Pagina 16 van 145 Copyright Belgisch S taatsblad 18-03-2026
  tweede lid, vijfde streepje en 417/18, tweede lid, vijfde streepje]5 en 428, § 5.
   ----------
   (1)<W 2014-04-25/23, art. 32, 104; Inwerkingtreding : 24-05-2014>
@@ -376,7 +398,9 @@ Pagina 16 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (4)<W 2022-03-21/01, art. 84, 148; Inwerkingtreding : 01-06-2022>
   (5)<W 2024-02-29/11, art. 33, 159; Inwerkingtreding : 18-04-2024>
 
-   Art. 34quater.<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De hoven en
+## Art. 34quater
+
+<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> De hoven en
  rechtbanken kunnen een terbeschikkingstelling van de strafuitvoeringsrechtbank uitspreken voor een periode
  van minimum vijf en maximum vijftien jaar die ingaat na afloop van de [2 ...]2 hoofdstraf bij de volgende gevallen :
    1° De veroordelingen ten aanzien van personen die, na tot een straf van ten minste vijf jaar gevangenis [3 of tot
@@ -399,7 +423,9 @@ Pagina 16 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (6)<W 2020-05-04/16, art. 3, 142; Inwerkingtreding : 01-07-2020>
    (7)<W 2022-03-21/01, art. 85, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 34quinquies.<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> Ingeval de
+## Art. 34quinquies
+
+<Ingevoegd bij W 2007-04-26/89, art. 3; Inwerkingtreding : 01-01-2012> Ingeval de
  terbeschikkingstelling van de strafuitvoeringsrechtbank niet wettelijk verplicht is, worden de procedures
  betreffende de misdrijven die als grondslag voor de herhaling gelden, bij het dossier der vervolging gevoegd en
  de gronden van de beslissing worden erin omschreven.
@@ -434,7 +460,6 @@ Pagina 16 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 37bis
 
-<Ingevoegd bij W 1999-05-04/60, art. 6; Inwerkingtreding : 02-07-1999> Bekendmaking of
  verspreiding van de beslissing op kosten van de veroordeelde kan door de rechter worden uitgesproken in de
  gevallen bepaald door de wet.
 
@@ -442,11 +467,12 @@ Pagina 16 van 145 Copyright Belgisch S taatsblad 18-03-2026
  toezicht]1
   ----------
 
-Pagina 17 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2014-02-07/15, art. 6, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
   (2)<W 2014-04-10/80, art. 3, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-0508/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
 
-   Art. 37ter.[1 § 1. Indien een feit van die aard is om gestraft te worden met een gevangenisstraf van ten hoogste
+## Art. 37ter
+
+[1 § 1. Indien een feit van die aard is om gestraft te worden met een gevangenisstraf van ten hoogste
  een jaar, kan de rechter als hoofdstraf een straf onder elektronisch toezicht opleggen van dezelfde duur als de
  gevangenisstraf die hij anders zou opleggen en die van toepassing kan worden ingeval de straf onder
  elektronisch toezicht niet wordt uitgevoerd. Voor de bepaling van de duur van deze vervangende
@@ -510,7 +536,6 @@ Pagina 17 van 145 Copyright Belgisch S taatsblad 18-03-2026
  gewijzigd bij W 2016-02-05/11, art. 44, 114>
    (2)<W 2022-03-21/01, art. 86, 148; Inwerkingtreding : 01-06-2022>
 
-Pagina 18 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 37quater
 
 [1 § 1. Zodra de veroordeling tot de straf onder elektronisch toezicht in kracht van gewijsde is
@@ -581,7 +606,6 @@ Pagina 18 van 145 Copyright Belgisch S taatsblad 18-03-2026
  kracht van gewijsde gegane beslissing vastgesteld zijn dat de veroordeelde tijdens de uitvoering van de straf
  onder elektronisch toezicht of tijdens de schorsing van de controle met elektronische middelen een wanbedrijf of
  een misdaad, of een gelijkwaardig misdrijf dat in aanmerking genomen wordt overeenkomstig artikel 99bis, heeft
-Pagina 19 van 145 Copyright Belgisch S taatsblad 18-03-2026
  gepleegd.
    De beslissing tot herroeping van de schorsing van de controle met elektronische middelen omvat een
  beslissing over :
@@ -607,7 +631,9 @@ Pagina 19 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
 
-  Art. 37quinquies.([1 oud art. 37ter vernummerd tot nieuw art. 37quinquies]1) <Ingevoegd bij W 2002-0417/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Indien een feit van die aard is om door een politiestraf of een
+## Art. 37quinquies
+
+([1 oud art. 37ter vernummerd tot nieuw art. 37quinquies]1) <Ingevoegd bij W 2002-0417/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Indien een feit van die aard is om door een politiestraf of een
  correctionele straf gestraft te worden, kan de rechter als hoofdstraf een werkstraf opleggen. Binnen de perken
  van de op het misdrijf gestelde straffen, alsook van de wet op grond waarvan de zaak voor hem werd gebracht,
  voorziet de rechter in een gevangenisstraf of in een geldboete die van toepassing kan worden ingeval de
@@ -647,14 +673,14 @@ Pagina 19 van 145 Copyright Belgisch S taatsblad 18-03-2026
  het risico op herhaling van dergelijke misdrijven.]4
   ----------
   (1)<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
-  (2)<W 2014-04-10/80, art. 4, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-
-Pagina 20 van 145 Copyright Belgisch S taatsblad 18-03-2026
- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
+  (2)<W 2014-04-10/80, art. 4, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-0508/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
   (3)<W 2016-02-05/11, art. 12, 114; Inwerkingtreding : 29-02-2016>
   (4)<W 2019-05-05/12, art. 2, 138; Inwerkingtreding : 07-06-2019>
   (5)<W 2022-03-21/01, art. 87, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 37sexies.([1 oud art. 37quater vernummerd tot nieuw art. 37sexies]1) <Ingevoegd bij W 2002-04-17/33,
+## Art. 37sexies
+
+([1 oud art. 37quater vernummerd tot nieuw art. 37sexies]1) <Ingevoegd bij W 2002-04-17/33,
  art. 3; Inwerkingtreding : 07-05-2002> § 1. De veroordeelde verricht de werkstraf kosteloos tijdens de vrije tijd
  waarover hij naast zijn eventuele school- of beroepsactiviteiten beschikt.
   De werkstraf mag uitsluitend worden verricht bij openbare diensten van de Staat, de gemeenten, de provincies,
@@ -684,7 +710,9 @@ Pagina 20 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
   (2)<W 2014-04-10/80, art. 5, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-0508/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
 
-   Art. 37septies.([1 oud art. 37quinquies vernummerd tot nieuw art. 37septies)]1) <Ingevoegd bij W 2002-0417/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Wie overeenkomstig artikel 37ter tot een werkstraf is
+## Art. 37septies
+
+([1 oud art. 37quinquies vernummerd tot nieuw art. 37septies)]1) <Ingevoegd bij W 2002-0417/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Wie overeenkomstig artikel 37ter tot een werkstraf is
  veroordeeld, wordt gevolgd door een justitieassistent van de Dienst justitiehuizen van (FOD Justitie) van het
  gerechtelijk arrondissement van zijn verblijfplaats. <W 2006-12-27/33, art. 36, 1°, 061; Inwerkingtreding : 07-012007>
    Op de tenuitvoerlegging van de werkstraf wordt toegezien door de probatiecommissie van de verblijfplaats van
@@ -711,9 +739,7 @@ Pagina 20 van 145 Copyright Belgisch S taatsblad 18-03-2026
  ambtshalve, hetzij op vordering van het openbaar ministerie, hetzij op verzoek van de veroordeelde.
    (De concrete invulling van de werkstraf wordt vastgelegd in een door de veroordeelde te ondertekenen
  overeenkomst waarvan de justitieassistent hem een kopie overhandigt. De justitieassistent deelt eveneens een
- kopie van de ondertekende overeenkomst mee aan de probatiecommissie binnen de drie werkdagen.) <W 2006-
-Pagina 21 van 145 Copyright Belgisch S taatsblad 18-03-2026
- 12-27/33, art. 36, 5°, 061; Inwerkingtreding : 07-01-2007>eestdagen niet inbegrepen.
+ kopie van de ondertekende overeenkomst mee aan de probatiecommissie binnen de drie werkdagen.) <W 200612-27/33, art. 36, 5°, 061; Inwerkingtreding : 07-01-2007>eestdagen niet inbegrepen.
    § 4. Ingeval de werkstraf niet of slechts gedeeltelijk wordt uitgevoerd, meldt de justitieassistent dit onverwijld
  aan de probatiecommissie. Meer dan tien dagen vóór de datum die werd vastgesteld om de zaak te behandelen,
  roept de commissie de veroordeelde bij aangetekende brief [2 of op een door de Koning te bepalen elektronische
@@ -736,7 +762,9 @@ Pagina 21 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2014-04-10/80, art. 7, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W
  2014-05-08/55, art. 6, gewijzid zichzelf bij W 2015-11-23/02, art. 13)>
 
-   Art. 37octies.[1 § 1. Indien een feit van die aard is om door een politiestraf of een correctionele straf gestraft te
+## Art. 37octies
+
+[1 § 1. Indien een feit van die aard is om door een politiestraf of een correctionele straf gestraft te
  worden, kan de rechter als hoofdstraf een autonome probatiestraf opleggen.
    [4 Een autonome probatiestraf bestaat uit de verplichting om:
     1° algemene voorwaarden na te leven van zodra het vonnis in kracht van gewijsde is gegaan, gedurende de
@@ -779,7 +807,6 @@ Pagina 21 van 145 Copyright Belgisch S taatsblad 18-03-2026
  ontkennen, minimaliseren, rechtvaardigen of goedkeuren van de genocide die tijdens de tweede wereldoorlog
  door het Duitse nationaal-socialistische regime is gepleegd, van 10 mei 2007 ter bestrijding van bepaalde vormen
  van discriminatie, van 10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en mannen en van 22 mei
-Pagina 22 van 145 Copyright Belgisch S taatsblad 18-03-2026
  2014 ter bestrijding van seksisme in de openbare ruimte en tot aanpassing van de wet van 10 mei 2007 ter
  bestrijding van discriminatie tussen vrouwen en mannen teneinde de daad van discriminatie te bestraffen, kan de
  rechter aanwijzingen geven opdat de invulling van de autonome probatiestraf in verband zou staan met,
@@ -795,7 +822,9 @@ Pagina 22 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (3)<W 2022-03-21/01, art. 88, 148; Inwerkingtreding : 01-06-2022>
   (4)<W 2024-01-18/06, art. 13, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 37novies.[1 § 1. Wie overeenkomstig artikel 37octies tot een autonome probatiestraf is veroordeeld, wordt
+## Art. 37novies
+
+[1 § 1. Wie overeenkomstig artikel 37octies tot een autonome probatiestraf is veroordeeld, wordt
  onderworpen aan een justitiële begeleiding die wordt uitgeoefend door [2 de bevoegde dienst van de
  gemeenschappen]2 van het gerechtelijk arrondissement van zijn verblijfplaats.
     Op de tenuitvoerlegging van de autonome probatiestraf wordt toegezien door de probatiecommissie van de
@@ -844,9 +873,10 @@ Pagina 22 van 145 Copyright Belgisch S taatsblad 18-03-2026
  2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
   (2)<W 2024-01-18/06, art. 14, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 37decies.[1 § 1. De probatiecommissie kan de concrete invulling van de autonome probatiestraf geheel of
+## Art. 37decies
+
+[1 § 1. De probatiecommissie kan de concrete invulling van de autonome probatiestraf geheel of
  ten dele opschorten, nader omschrijven of aanpassen aan de omstandigheden, hetzij ambtshalve, hetzij op
-Pagina 23 van 145 Copyright Belgisch S taatsblad 18-03-2026
  vordering van het openbaar ministerie, hetzij op verzoek van de veroordeelde. Ingeval een van de voorwaarden
  van de autonome probatiestraf buiten de wil van de veroordeelde niet kon worden verwezenlijkt tijdens de
  aanvankelijke probatietermijn, kan de probatiecommissie de probatietermijn eenmaal verlengen met maximaal een
@@ -881,7 +911,9 @@ Pagina 23 van 145 Copyright Belgisch S taatsblad 18-03-2026
  W 2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
    (2)<W 2024-01-18/06, art. 15, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 37undecies.[1 [2 Ingeval de veroordeelde de voorwaarden van de autonome probatiestraf, bedoeld in
+## Art. 37undecies
+
+[1 [2 Ingeval de veroordeelde de voorwaarden van de autonome probatiestraf, bedoeld in
  artikel 37octies, § 1, tweede lid, niet of slechts gedeeltelijk naleeft, meldt de bevoegde dienst van de
  gemeenschappen dit onverwijld aan de probatiecommissie.]2 Meer dan tien dagen voor de datum die werd
  vastgesteld om de zaak te behandelen, roept de commissie de veroordeelde op bij aangetekende zending [2 ...]2
@@ -920,7 +952,6 @@ Wanneer verscheidene personen wegens een zelfde misdrijf worden veroordeeld, wor
 
 Bij gebreke van betaling binnen twee maanden te rekenen van het arrest of van het vonnis, indien het
  op tegenspraak, of te rekenen van de betekening, indien het bij verstek is gewezen, kan de geldboete worden
-Pagina 24 van 145 Copyright Belgisch S taatsblad 18-03-2026
  vervangen door gevangenisstraf, waarvan de duur bij het vonnis of het arrest van veroordeling wordt bepaald
  en die zes maanden niet zal te boven gaan voor hen die wegens misdaad, drie maanden voor hen die wegens
  wanbedrijf, en drie dagen voor hen die wegens overtreding zijn veroordeeld.
@@ -941,7 +972,6 @@ In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door
 
 ## Art. 41bis
 
-<Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999> § 1. De geldboeten
  toepasselijk op misdrijven gepleegd door rechtspersonen, zijn :
   in criminele en correctionele zaken :
   - wanneer de wet op het feit levenslange vrijheidsstraf stelt : geldboete van tweehonderdveertig duizend [euro]
@@ -971,7 +1001,9 @@ Bijzondere verbeurdverklaring wordt toegepast :
  in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen.) <W 1990-07-17/30, art. 1, 004;
  Inwerkingtreding : 25-08-1990>
 
-  Art. 43.Bij misdaad of wanbedrijf wordt bijzondere verbeurdverklaring (toepasselijk op de zaken bedoeld in
+## Art. 43
+
+Bij misdaad of wanbedrijf wordt bijzondere verbeurdverklaring (toepasselijk op de zaken bedoeld in
  artikel 42, 1° en 2°) altijd uitgesproken. [1 De verbeurdverklaring van zaken die gediend hebben of bestemd
  waren tot het plegen van de misdaad of het wanbedrijf wordt uitgesproken, behoudens wanneer dit tot gevolg
  zou hebben dat de veroordeelde aan een onredelijk zware straf zou worden onderworpen.]1 <W 1990-07-17/30,
@@ -980,7 +1012,9 @@ Bijzondere verbeurdverklaring wordt toegepast :
   ----------
   (1)<W 2018-03-18/14, art. 19, 129; Inwerkingtreding : 12-05-2018>
 
-  Art. 43bis.<Ingevoegd bij W 1990-07-17/30, art. 3, 004; Inwerkingtreding : 25-08-1990> (Bijzondere
+## Art. 43bis
+
+<Ingevoegd bij W 1990-07-17/30, art. 3, 004; Inwerkingtreding : 25-08-1990> (Bijzondere
  verbeurdverklaring toepasselijk op de zaken bedoeld in artikel 42, 3°, kan door de rechter in elk geval worden
  uitgesproken, maar slechts voorzover zij door de procureur des Konings schriftelijk wordt gevorderd.) <W
  2002-12-19/86, art. 2, 039; Inwerkingtreding : 24-02-2003>
@@ -995,7 +1029,6 @@ Bijzondere verbeurdverklaring wordt toegepast :
   Iedere andere derde die beweert recht te hebben op de verbeurdverklaarde zaak, zal dit recht kunnen laten
  gelden binnen een termijn en volgens modaliteiten bepaald door de Koning.
   [1 De bijzondere verbeurdverklaring van de onroerende goederen moet of kan, naargelang de rechtsgrond die
-Pagina 25 van 145 Copyright Belgisch S taatsblad 18-03-2026
  dit bepaalt, door de rechter worden uitgesproken, maar slechts voor zover zij door het openbaar ministerie
  schriftelijk werd gevorderd.
     De schriftelijke vordering van het openbaar ministerie strekkende tot de verbeurdverklaring van een onroerend
@@ -1014,12 +1047,13 @@ Pagina 25 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 43ter
 
-<Ingevoegd bij W 1997-05-20/50, art. 12, Inwerkingtreding : 13-07-1997> De bijzondere
  verbeurdverklaring die van toepassing is op de zaken bedoeld (in de artikelen 42, 43bis en 43quater), kan
  eveneens worden uitgesproken wanneer die zaken zich buiten het grondgebied van de Belgische Staat bevinden.
  <W 2002-12-19/86, art. 3, 039; Inwerkingtreding : 24-02-2003>
 
-    Art. 43quater.<ingevoegd bij W 2002-12-19/86, art. 4; Inwerkingtreding : 24-02-2003> § 1. [2 Onverminderd
+## Art. 43quater
+
+<ingevoegd bij W 2002-12-19/86, art. 4; Inwerkingtreding : 24-02-2003> § 1. [2 Onverminderd
  artikel 43bis, derde en vierde lid, kunnen op vordering van de procureur des Konings de in paragraaf 2 bedoelde
  vermogensvoordelen, de goederen en waarden die in de plaats ervan zijn gesteld, en de inkomsten uit de
  belegde voordelen, die worden gevonden in het vermogen of in het bezit van een persoon worden
@@ -1064,7 +1098,6 @@ Pagina 25 van 145 Copyright Belgisch S taatsblad 18-03-2026
  1921 betreffende het verhandelen van gifstoffen, slaapmiddelen en verdovende middelen, psychotrope stoffen,
  ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging
  van verdovende middelen en psychotrope stoffen, straffen worden gesteld;
-Pagina 26 van 145 Copyright Belgisch S taatsblad 18-03-2026
     4° ofwel aan meerdere strafbare feiten die gezamenlijk worden vervolgd, en waarvan de ernst, de finaliteit en
  de onderlinge afstemming, de rechtbank toelaat zeker en noodzakelijk te besluiten dat deze feiten werden
  gepleegd in het kader van ernstige fiscale fraude, al dan niet georganiseerd.]2
@@ -1115,7 +1148,9 @@ Wanneer de wet de schadevergoeding niet regelt, bepaalt het hof of de rechtbank 
  zonder nochtans te mogen beslissen, zelfs met toestemming van de benadeelde partij, dat zij aan enig werk zal
  worden toegewezen.
 
-  Art. 46.[1 Wanneer het hof of de rechtbank een persoon die in aanmerking zou kunnen komen om als wettelijke
+## Art. 46
+
+[1 Wanneer het hof of de rechtbank een persoon die in aanmerking zou kunnen komen om als wettelijke
  erfgenaam tot de nalatenschap van het slachtoffer te worden geroepen, schuldig bevindt aan een [2 in de
  artikelen 417/11, 417/16 en 417/17,]2 398 tot 400, 402, 403, 405, 409, §§ 1 tot 3 en 5, en 422bis bedoeld
  misdrijf, kan het hof of de rechtbank ook de onwaardigheid om te erven uitspreken, waardoor de dader, de
@@ -1141,8 +1176,9 @@ Wanneer de goederen van de veroordeelde ontoereikend zijn om de veroordelingen t
  verjaringstermijn van zowel de geldboete als van de gerechtskosten.) <W 2006-12-27/32, art. 302, 062;
  Inwerkingtreding : 07-01-2007>
 
-  Art. 50.[1 Alle wegens eenzelfde misdrijf veroordeelde personen zijn hoofdelijk gehouden tot de gerechtskosten,
-Pagina 27 van 145 Copyright Belgisch S taatsblad 18-03-2026
+## Art. 50
+
+[1 Alle wegens eenzelfde misdrijf veroordeelde personen zijn hoofdelijk gehouden tot de gerechtskosten,
  wanneer zij door eenzelfde vonnis of arrest zijn veroordeeld.]1
   Nochtans kan de rechter alle veroordeelden of enige van hen vrijstellen van de hoofdelijkheid, mits hij de
  redenen van die vrijstelling opgeeft en het door ieder persoonlijk te dragen aandeel in de kosten bepaalt.
@@ -1153,7 +1189,6 @@ Pagina 27 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 50bis
 
-<Ingevoegd bij W 1999-05-04/60, art. 10; Inwerkingtreding : 02-07-1999> Niemand kan
  burgerrechtelijk aansprakelijk worden gesteld voor betaling van geldboete waartoe een ander wordt veroordeeld,
  indien hij wegens dezelfde feiten wordt veroordeeld.
 
@@ -1166,7 +1201,9 @@ Strafbare poging bestaat, wanneer het voornemen om een misdaad of een wanbedrijf
  uitmaken en alleen ten gevolge van omstandigheden, van de wil van de dader onafhankelijk, zijn gestaakt of hun
  uitwerking hebben gemist.
 
-   Art. 52.Poging tot misdaad wordt gestraft met de straf die, overeenkomstig de artikelen 80 en 81, onmiddellijk
+## Art. 52
+
+Poging tot misdaad wordt gestraft met de straf die, overeenkomstig de artikelen 80 en 81, onmiddellijk
  lager is dan die gesteld op de misdaad zelf.
    [1 De pogingen tot misdaden die strafbaar zijn met levenslange opsluiting of levenslange hechtenis worden
  echter respectievelijk gestraft met twintig jaar tot dertig jaar opsluiting of met twintig jaar tot dertig jaar
@@ -1216,13 +1253,14 @@ De wet bepaalt in welke gevallen en met welke straffen poging tot wanbedrijf wor
    ----------
    (1)<Ingevoegd bij W 2019-05-05/13, art. 2, 139; Inwerkingtreding : 07-06-2019>
 
-  Art. 56.Hij die, na tot een criminele straf te zijn veroordeeld, een wanbedrijf pleegt, kan worden veroordeeld tot
+## Art. 56
+
+Hij die, na tot een criminele straf te zijn veroordeeld, een wanbedrijf pleegt, kan worden veroordeeld tot
  het dubbele van het maximum van de straf, bij de wet op het wanbedrijf gesteld.
   Dezelfde straf kan worden uitgesproken in geval van een vroegere veroordeling tot gevangenisstraf van ten
  minste een jaar, indien de veroordeelde het nieuwe wanbedrijf pleegt voordat vijf jaren zijn verlopen sinds hij zijn
  straf heeft ondergaan of sinds zijn straf verjaard is.
 
-Pagina 28 van 145 Copyright Belgisch S taatsblad 18-03-2026
   [1 Zelfs in de gevallen bedoeld in het eerste en tweede lid, indien het nieuwe wanbedrijf een misdaad is die werd
  gecorrectionaliseerd of waarvoor het hof van assisen het bestaan van verzachtende omstandigheden heeft
  aanvaard, mag de gevangenisstraf de maximumduur van de opsluiting waarin de wet voorziet voor die misdaad
@@ -1294,7 +1332,6 @@ Bij samenloop van één of meer wanbedrijven met één of meer overtredingen wor
 (Zie NOTA 1 onder TITEL) Bij samenloop van verscheidene misdaden wordt alleen de zwaarste straf
  uitgesproken. Die straf kan zelfs tot vijf jaar boven het maximum worden verhoogd, indien zij bestaat in (tijdelijke
  opsluiting of hechtenis van vijftien jaar tot twintig jaar, respectievelijk gedurende een kortere termijn). <W 200301-23/42, art. 14, 040; Inwerkingtreding : 13-03-2003>
-Pagina 29 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 63
 
 (Zie NOTA 1 onder TITEL) <W 2003-01-23/42, art. 15, 040; Inwerkingtreding : 13-03-2003> De
@@ -1353,7 +1390,9 @@ Zij die, bekend met het misdadig gedrag van boosdoeners die roverijen plegen of 
  maken hun een onderdak, een schuilplaats of een vergaderplaats te verschaffen, worden als hun medeplichtigen
  gestraft.
 
-   Art. 69.Medeplichtigen aan een misdaad worden gestraft met de straf die, overeenkomstig de artikelen 80 en
+## Art. 69
+
+Medeplichtigen aan een misdaad worden gestraft met de straf die, overeenkomstig de artikelen 80 en
  81 van dit wetboek, onmiddellijk lager is dan die waarmee zij als daders van die misdaad zouden worden gestraft.
  [1 Zij worden echter gestraft met twintig jaar tot dertig jaar opsluiting of twintig jaar tot dertig jaar hechtenis
  indien zij medeplichtig waren aan een misdaad die strafbaar is met levenslange opsluiting of met levenslange
@@ -1378,7 +1417,6 @@ Zij die, bekend met het misdadig gedrag van boosdoeners die roverijen plegen of 
  hij gedwongen werd door een macht die hij niet heeft kunnen weerstaan.]1
   ----------
   (1)<W 2014-05-05/11, art. 87, 109; Inwerkingtreding : 01-01-2016 (zie art. 136). Overgangsbepalingen: art.
-Pagina 30 van 145 Copyright Belgisch S taatsblad 18-03-2026
  134 en 135>
   (2)<Art. 87 van vorige wijziging gewijzigd bij W 2016-05-04/03, art. 231; Inwerkingtreding : 23-05-2016>
 
@@ -1445,7 +1483,9 @@ Geen misdaad of wanbedrijf is verschoonbaar dan in de gevallen bij de wet bepaal
 Indien verzachtende omstandigheden aanwezig zijn, worden de criminele straffen verminderd of
  gewijzigd overeenkomstig de volgende bepalingen.
 
-   Art. 80.<W 2001-12-11/50, art. 2, 033; Inwerkingtreding : 17-02-2002> Levenslange opsluiting wordt
+## Art. 80
+
+<W 2001-12-11/50, art. 2, 033; Inwerkingtreding : 17-02-2002> Levenslange opsluiting wordt
  vervangen door tijdelijke opsluiting of door gevangenisstraf van ten minste drie jaar [1 en van ten hoogste veertig
  jaar]1.
    [1 Opsluiting van dertig jaar tot veertig jaar door opsluiting van achtendertig jaar of voor een kortere termijn, of
@@ -1461,8 +1501,9 @@ Indien verzachtende omstandigheden aanwezig zijn, worden de criminele straffen v
    ----------
    (1)<W 2016-02-05/11, art. 17, 114; Inwerkingtreding : 29-02-2016> (NOTA : bij arrest nr.148/2017 van 21-122017 (B.St. 12-01-2018, p. 1393), heeft het Grondwettelijk Hof het artikel 17, 1° en 2° vernietigd)
 
-  Art. 81.<W 2003-01-23/42, art. 16, 040; Inwerkingtreding : 13-03-2003> Levenslange hechtenis, gesteld op
-Pagina 31 van 145 Copyright Belgisch S taatsblad 18-03-2026
+## Art. 81
+
+<W 2003-01-23/42, art. 16, 040; Inwerkingtreding : 13-03-2003> Levenslange hechtenis, gesteld op
  misdaden tegen de uitwendige veiligheid van de Staat, wordt vervangen door tijdelijke hechtenis of door een
  gevangenisstraf van ten minste een jaar [1 en van ten hoogste veertig jaar]1.
   [1 Hechtenis van dertig jaar tot veertig jaar door hechtenis van achtendertig jaar of voor een kortere termijn, of
@@ -1479,7 +1520,9 @@ Pagina 31 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2016-02-05/11, art. 18, 114; Inwerkingtreding : 29-02-2016> (NOTA : bij arrest nr. 148/2017 van 2112-2017 (B.St. 12-01-2018, p. 1393), heeft het Grondwettelijk Hof het artikel 18, 1° en 2° vernietigd)
 
-  Art. 82.<W 23-08-1919, art. 2> In de gevallen van samenloop bepaald bij [1 het artikel 62]1 van het
+## Art. 82
+
+<W 23-08-1919, art. 2> In de gevallen van samenloop bepaald bij [1 het artikel 62]1 van het
  Strafwetboek, kan het vonnisgerecht niettemin, wanneer de criminele straffen op grond van verzachtende
  omstandigheden verminderd worden tot correctionele straffen, een enkele straf uitspreken.
   ----------
@@ -1490,7 +1533,9 @@ Pagina 31 van 145 Copyright Belgisch S taatsblad 18-03-2026
 De geldboete in criminele zaken kan worden verminderd zonder dat zij ooit lager mag zijn dan
  zesentwintig [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  Art. 84.Schuldigen wier criminele straf tot gevangenisstraf wordt verminderd, kunnen worden veroordeeld tot
+## Art. 84
+
+Schuldigen wier criminele straf tot gevangenisstraf wordt verminderd, kunnen worden veroordeeld tot
  geldboete van zesentwintig [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
   [2 ...]2
   (Lid 3 opgeheven) <W 09-04-1930, art. 32>
@@ -1498,7 +1543,9 @@ De geldboete in criminele zaken kan worden verminderd zonder dat zij ooit lager 
   (1)<W 2009-12-21/14, art. 3, 075; Inwerkingtreding : 21-01-2010>
   (2)<W 2017-07-06/24, art. 209, 124; Inwerkingtreding : 24-07-2017>
 
-  Art. 85.(Indien verzachtende omstandigheden aanwezig zijn, [3 kunnen de gevangenisstraffen, [4 ...]4 de
+## Art. 85
+
+(Indien verzachtende omstandigheden aanwezig zijn, [3 kunnen de gevangenisstraffen, [4 ...]4 de
  werkstraffen, de autonome probatiestraffen en de geldboeten respectievelijk tot beneden acht dagen, [4 ...]4
  vijfenveertig uren, twaalf maanden en zesentwintig euro]3 worden verminderd, zonder dat zij lager mogen zijn
  dan politiestraffen.) <W 2002-04-17/33, art. 7, 035; Inwerkingtreding : 07-05-2002>
@@ -1535,7 +1582,6 @@ Onbekwaamheden, door de rechter uitgesproken of door de wet aan sommige veroorde
 ## Art. 89
 
 (Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestid door
-Pagina 32 van 145 Copyright Belgisch S taatsblad 18-03-2026
  <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>)
 
 ## Art. 90
@@ -1549,7 +1595,9 @@ Pagina 32 van 145 Copyright Belgisch S taatsblad 18-03-2026
  136quater, verjaren criminele straffen) door verloop van twintig jaren, te rekenen van de dagtekening van de
  arresten of vonnissen waarbij zij zijn uitgesproken. <W 2003-08-05/32, art. 4; Inwerkingtreding : 07-08-2003>
 
-  Art. 92.[1 Behoudens straffen met betrekking tot misdrijven zoals bepaald in de artikelen 136bis, 136ter en
+## Art. 92
+
+[1 Behoudens straffen met betrekking tot misdrijven zoals bepaald in de artikelen 136bis, 136ter en
  136quater, die onverjaarbaar zijn, verjaren correctionele straffen door verloop van vijf jaren]1, te rekenen van de
  dagtekening van het arrest of van het in laatste aanleg gewezen vonnis, of te rekenen van de dag waarop het in
  eerste aanleg gewezen vonnis niet meer kan worden bestreden bij wege van hoger beroep.
@@ -1563,7 +1611,9 @@ Pagina 32 van 145 Copyright Belgisch S taatsblad 18-03-2026
 Politiestraffen verjaren door verloop van een jaar, te rekenen van de tijdstippen, in het vorige artikel
  vastgesteld.
 
-   Art. 94.[1 De geldboeten verjaren door verloop van de in de vorige artikelen vastgestelde termijnen, naargelang
+## Art. 94
+
+[1 De geldboeten verjaren door verloop van de in de vorige artikelen vastgestelde termijnen, naargelang
  zij zijn uitgesproken wegens misdaden, wanbedrijven of overtredingen.
     De bijzondere verbeurdverklaringen verjaren door verloop van de in de vorige artikelen vastgesteld termijnen,
  naargelang zij zijn uitgesproken wegens overtredingen of misdaden.
@@ -1584,7 +1634,9 @@ Indien de veroordeelde die zijn straf ondergaat, erin slaagt te ontvluchten, beg
 
 De verjaring van de straf wordt door de aanhouding van de veroordeelde gestuit.
 
-  Art. 97.[1 § 1. De verjaring van de verbeurdverklaring wordt geschorst wanneer de wet dit bepaalt of wanneer
+## Art. 97
+
+[1 § 1. De verjaring van de verbeurdverklaring wordt geschorst wanneer de wet dit bepaalt of wanneer
  er een wettelijk beletsel bestaat dat de onmiddellijke tenuitvoerlegging van deze straf verhindert.
    § 2. De verjaring wordt in elk geval geschorst in de volgende gevallen :
    1° zolang de veroordeelde het voorwerp uitmaakt van een wettelijke collectieve insolventieprocedure;
@@ -1596,7 +1648,9 @@ De verjaring van de straf wordt door de aanhouding van de veroordeelde gestuit.
   ----------
   (1)<hersteld bij W 2014-02-11/12, art. 49, 100; Inwerkingtreding : 18-04-2014>
 
-  Art. 98.[1 § 1. De verjaring van de verbeurdverklaring wordt gestuit door elke daad van tenuitvoerlegging
+## Art. 98
+
+[1 § 1. De verjaring van de verbeurdverklaring wordt gestuit door elke daad van tenuitvoerlegging
  uitgaande van de wettelijk bevoegde organen.
    § 2. De verjaring wordt in elk geval gestuit in de volgende gevallen :
    1° elke gedeeltelijke betaling die door of voor de veroordeelde is gedaan aan de bevoegde ambtenaar van de
@@ -1612,12 +1666,13 @@ De verjaring van de straf wordt door de aanhouding van de veroordeelde gestuit.
    5° de beslissing van het openbaar ministerie om een in artikel 464/1 van het Wetboek van strafvordering
  bedoeld strafrechtelijk uitvoeringsonderzoek te openen;
    6° alle uitvoeringshandelingen die verricht worden in het raam van het in artikel 464/1 van het Wetboek van
-Pagina 33 van 145 Copyright Belgisch S taatsblad 18-03-2026
  strafvordering bedoelde strafrechtelijk uitvoeringsonderzoek]1
   ----------
   (1)<hersteld bij W 2014-02-11/12, art. 50, 100; Inwerkingtreding : 18-04-2014>
 
-  Art. 99.Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in criminele, correctionele of
+## Art. 99
+
+Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in criminele, correctionele of
  politiezaken, verjaren naar de regels van het burgerlijk recht, te rekenen van de dag waarop zij onherroepelijk zijn
  geworden.
    [1 De onwaardigheid om te erven, door de rechter uitgesproken op grond van artikel 46, verjaart niet. Ze kan
@@ -1660,7 +1715,6 @@ Pagina 33 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 100ter
 
-<Ingevoegd bij W 2000-11-28/35, art. 3, 029; Inwerkingtreding : 27-03-2001> Wanneer in de
  bepalingen van boek II de term " minderjarige " wordt aangewend, wordt daaronder elke persoon verstaan die de
  leeftijd van achttien jaar nog niet heeft bereikt.
 
@@ -1694,7 +1748,6 @@ De aanslag op het leven of op de persoon van de Koning wordt gestraft met (leven
  aanverwanten in de rechte lijn, van 's Konings broeders die de staat van Belg hebben, op het leven van de
  Regent, of op het leven van de ministers die, in de gevallen bij de Grondwet bepaald, de grondwettelijke macht
  van de Koning uitoefenen, wordt altijd gestraft zoals het voltooide feit.
-Pagina 34 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (De aanslag op hun persoon wordt gestraft met opsluiting van tien jaar tot vijftien jaar; hij wordt gestraft met
  opsluiting van vijf jaar tot tien jaar indien hij geen schending van hun vrijheid ten gevolge heeft en bij hen noch
  bloedstorting, noch verwonding, noch ziekte veroorzaakt.) <W 2003-01-23/42, art. 19, 040; Inwerkingtreding :
@@ -1786,7 +1839,6 @@ Het voorstel dat wordt gedaan, maar niet aangenomen, om een samenspanning te sme
 
 <W 2003-01-23/42, art. 24, 040; Inwerkingtreding : 13-03-2003> Hij die met een vreemde
  mogendheid of met enige persoon die in het belang van een vreemde mogendheid handelt, kuiperijen pleegt of in
-Pagina 35 van 145 Copyright Belgisch S taatsblad 18-03-2026
  verstandhouding treedt met het oogmerk of die mogendheid tot het voeren van oorlog tegen België te bewegen
  of om haar daartoe middelen te verschaffen, wordt gestraft met hechtenis van twintig jaar tot dertig jaar. Indien
  daaruit vijandelijkheden zijn gevolgd, wordt hij gestraft met levenslange hechtenis.
@@ -1847,7 +1899,9 @@ Pagina 35 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (Voor de toepassing van deze bepaling is " bondgenoot van België " elke Staat die, zelfs zonder verdrag van
  bondgenootschap, oorlog voert tegen een Staat waarmee België zelf in oorlog is.) <B 17-12-1942, art. 2>
 
-  Art. 118.(Zie NOTA 1 onder TITEL) <W 19-07-1934, art. 1> [1 Met hechtenis van tien jaar tot vijftien jaar wordt
+## Art. 118
+
+(Zie NOTA 1 onder TITEL) <W 19-07-1934, art. 1> [1 Met hechtenis van tien jaar tot vijftien jaar wordt
  gestraft, hij die geheel of ten dele, in origineel of reproductie, wetens een staatsgeheim reproduceert,
  bekendmaakt of overdraagt aan een vreemde Staat of een buitenlandse gewapende groep of een persoon die in
  het belang van een vreemde Staat of dergelijke buitenlandse gewapende groep handelt, alsook het wetens
@@ -1858,7 +1912,6 @@ Pagina 35 van 145 Copyright Belgisch S taatsblad 18-03-2026
  met (hechtenis van vijftien jaar tot twintig jaar). <W 2003-01-23/42, art. 26, 040; Inwerkingtreding : 13-032003>
   ----------
   (1)<W 2024-03-28/60, art. 67, 158; Inwerkingtreding : 08-04-2024>
-Pagina 36 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 118bis
 
 <B 17-12-1942, art. 3> Met (levenslange hechtenis) wordt gestraft hij die deelneemt aan het
@@ -1870,7 +1923,9 @@ Pagina 36 van 145 Copyright Belgisch S taatsblad 18-03-2026
  bondgenoten of ertoe strekt de feiten in het vorige lid opgenoemd te verwekken. <W 1996-07-10/42, art. 15,
  018; Inwerkingtreding : 11-08-1996>
 
-   Art. 119.[1 Met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van vijfhonderd euro tot
+## Art. 119
+
+[1 Met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van vijfhonderd euro tot
  vijfduizend euro wordt gestraft hij die met het oogmerk afbreuk te doen aan de essentiële belangen van België of
  van een Staat waarmee België met het oog op een gemeenschappelijke verdediging door een internationale
  overeenkomst is verbonden, een staatsgeheim, geheel of ten dele, in origineel of in reproductie, overlevert of
@@ -1905,7 +1960,9 @@ Pagina 36 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2024-03-28/60, art. 70, 158; Inwerkingtreding : 08-04-2024>
 
-  Art. 120.[1 Hij die willens een staatsgeheim, geheel of ten dele, in origineel of reproductie aanschaft of ontvangt
+## Art. 120
+
+[1 Hij die willens een staatsgeheim, geheel of ten dele, in origineel of reproductie aanschaft of ontvangt
  zonder bevoegd te zijn dit in ontvangst te nemen of er kennis van te nemen, wordt gestraft met een
  gevangenisstraf van drie tot vijf jaar en een geldboete van drieduizend tot vijfduizend euro.]1
   ----------
@@ -1928,9 +1985,10 @@ Pagina 36 van 145 Copyright Belgisch S taatsblad 18-03-2026
  van belang zijn voor de verdediging van het grondgebied of de uitwendige veiligheid van de Staat, in te winnen of
  over te zenden, zonder dat hij daartoe bevoegd is.
 
-  Art. 120ter.<W 19-07-1934, art. 1> Met gevangenisstraf van acht dagen tot (een jaar) en met geldboete van
+## Art. 120ter
+
+<W 19-07-1934, art. 1> Met gevangenisstraf van acht dagen tot (een jaar) en met geldboete van
  zesentwintig [euro] tot honderd [euro] wordt gestraft : <W 10-12-1937, enig art., 4°> <W 2000-06-26/42, art.
-Pagina 37 van 145 Copyright Belgisch S taatsblad 18-03-2026
  2, Inwerkingtreding : 01-01-2002>
   1° Hij die, zonder verlof van de [1 militaire of luchtvaartoverheid]1, binnen een afstand van een myriameter of
  binnen enige andere door de minister van Landsverdediging later te bepalen afstand van een versterkte plaats,
@@ -1945,12 +2003,16 @@ Pagina 37 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2022-10-13/10, art. 2, 151; Inwerkingtreding : 01-01-2023>
 
-  Art. 120quater.<W 19-07-1934, art. 1> De poging tot een van de misdrijven in [1 de artikelen 116, 118, 119,
+## Art. 120quater
+
+<W 19-07-1934, art. 1> De poging tot een van de misdrijven in [1 de artikelen 116, 118, 119,
  119/1, 119/2, 120 tot 120ter]1 omschreven, wordt beschouwd als zijnde het misdrijf zelf.
   ----------
   (1)<W 2024-03-28/60, art. 72, 158; Inwerkingtreding : 08-04-2024>
 
-  Art. 120quinquies.[1 Wordt gestraft met een gevangenisstraf van zes maanden tot drie jaar en een geldboete
+## Art. 120quinquies
+
+[1 Wordt gestraft met een gevangenisstraf van zes maanden tot drie jaar en een geldboete
  van vijfhonderd euro tot drieduizend euro hij die, door een ernstig gebrek aan voorzorg of voorzichtigheid en in
  strijd met de geldende regelgeving, een staatsgeheim hetzij verplaatst of in zijn bezit houdt, hetzij geheel of ten
  dele laat vernietigen, ontvreemden of wegnemen, zelfs tijdelijk, of er geheel of ten dele kennis, afschrift of
@@ -1981,7 +2043,9 @@ Pagina 37 van 145 Copyright Belgisch S taatsblad 18-03-2026
  vijf jaar en met geldboete van vijfhonderd [euro] tot vijfduizend [euro]. <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 120septies.[1 Hij die wetens een onderdak, schuilplaats of vergaderruimte verschaft aan personen die de in
+## Art. 120septies
+
+[1 Hij die wetens een onderdak, schuilplaats of vergaderruimte verschaft aan personen die de in
  de artikelen 120 of 120bis bedoelde strafbare feiten hebben gepleegd of hebben gepoogd dit te doen, hulp biedt
  aan deze personen bij hun communicatie of zaken verbergt die gediend hebben of moesten dienen voor het
  plegen van die misdrijven, wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met
@@ -2005,7 +2069,6 @@ Pagina 37 van 145 Copyright Belgisch S taatsblad 18-03-2026
  overdracht aan de overheid ter kennis brengt, wordt niet gestraft.
    Indien de persoon de essentiële elementen van de door hem gepleegde overdracht van staatsgeheim aan een
  vreemde Staat of een buitenlandse gewapende groep, dan wel aan een derde met het oog op de latere verdere
-Pagina 38 van 145 Copyright Belgisch S taatsblad 18-03-2026
  overdracht aan een vreemde Staat of een buitenlandse gewapende groep, ter kennis brengt van de overheid
  wordt de straf vervangen overeenkomstig artikel 80.]1
   ----------
@@ -2032,7 +2095,9 @@ Pagina 38 van 145 Copyright Belgisch S taatsblad 18-03-2026
  echtgenoten, zelfs na echtscheiding, broers of zusters, noch op aanverwanten in dezelfde graden van de daders
  van of de medeplichtigen aan de bedoelde misdrijven.
 
-   Art. 121bis.<W 2003-01-23/42, art. 29, 040; Inwerkingtreding : 13-03-2003> Met opsluiting van vijf jaar tot tien
+## Art. 121bis
+
+<W 2003-01-23/42, art. 29, 040; Inwerkingtreding : 13-03-2003> Met opsluiting van vijf jaar tot tien
  jaar wordt gestraft hij die wetens, door aangifte van een werkelijk of denkbeeldig feit, enige persoon aan
  opsporingen, vervolgingen of gestrengheden van de vijand blootstelt.
    Hij wordt gestraft met opsluiting van tien jaar tot vijftien jaar, indien de aangifte voor enige persoon
@@ -2083,7 +2148,6 @@ Hij die door vijandelijke handelingen, door de Regering niet goedgekeurd, de Sta
 <W 19-07-1934, art. 1> Onverminderd de toepassing van artikel 1 van de wet van 7 juli 1875 en
  van de artikelen 66 en 67 van dit wetboek, worden gestraft met gevangenisstraf van acht dagen tot (drie jaar) en
  met geldboete van vijftig [euro] tot duizend [euro] : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
-Pagina 39 van 145 Copyright Belgisch S taatsblad 18-03-2026
  <W 10-12-1937, enig art., 5°>
   1° Het aanbod of het voorstel om een van de misdrijven, omschreven in de artikelen 113 tot 120bis, 121 tot
  123, te plegen;
@@ -2111,7 +2175,9 @@ Pagina 39 van 145 Copyright Belgisch S taatsblad 18-03-2026
   Wordt de samenspanning in oorlogstijd gesmeed, dan wordt zij met (opsluiting van vijf jaar tot tien jaar)
  gestraft. <W 2003-01-23/42, art. 32, 040; Inwerkingtreding : 13-03-2003>
 
-  Art. 123quinquies.<W 19-07-1934, art. 1> De verbeurdverklaring van de zaken die gediend hebben of
+## Art. 123quinquies
+
+<W 19-07-1934, art. 1> De verbeurdverklaring van de zaken die gediend hebben of
  bestemd waren om het misdrijf te plegen, wordt altijd uitgesproken, evenals de verbeurdverklaring van de plans,
  kaarten, geschriften, bescheiden, afschriften, opmetingen, fotografische opnamen, gezichten, reprodukties en
  alle andere door het misdrijf verkregen zaken.
@@ -2157,7 +2223,6 @@ Pagina 39 van 145 Copyright Belgisch S taatsblad 18-03-2026
    De vervallenverklaringen bepaald in de kieswetten, met inbegrip van (de artikelen 6 en 7 van het Kieswetboek),
  zijn in ieder geval van toepassing. <W 05-07-1976, art. 145>
    (De vervallenverklaringen kunnen worden uitgesproken voor een duur van tien jaar tot twintig jaar als de straf
-Pagina 40 van 145 Copyright Belgisch S taatsblad 18-03-2026
  opsluiting van vijf jaar tot tien jaar of hechtenis van vijf jaar tot tien jaar of van tien jaar tot vijftien jaar is en voor
  een duur van vijf jaar tot tien jaar als het een correctionele straf betreft.) <W 2003-01-23/42, art. 33, 040;
  Inwerkingtreding : 13-03-2003>
@@ -2234,7 +2299,6 @@ Pagina 40 van 145 Copyright Belgisch S taatsblad 18-03-2026
  persoonlijk niet verder gehouden dan tot de sommen of waarden die de verrichting hem opgebracht heeft.
   Die vennootschappen en vennoten kunnen rechtstreeks voor de strafrechter gedagvaard worden door het
  openbaar ministerie of door de burgerlijke partij.
-Pagina 41 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK III. - MISDADEN TEGEN DE INWENDIGE VEILIGHEID VAN DE STAAT.
 
 ## Art. 124
@@ -2322,14 +2386,15 @@ Geen straf wordt uit hoofde van oproer uitgesproken tegen hen die van die benden
  verwijderen op de eerste waarschuwing van de burgerlijke of de militaire overheid, of zelfs naderhand, wanneer
  zij buiten de plaats van de oproerige bijeenkomst worden gevat zonder tegenstand te bieden en zonder wapens.
   Zij worden echter gestraft wegens de andere misdaden of wanbedrijven die zij persoonlijk hebben gepleegd.
-Pagina 42 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 135
 
 Onder het woord wapens worden begrepen alle toestellen, werktuigen, gereedschappen of andere
  snijdende, stekende of kneuzende voorwerpen die men heeft ter hand genomen om te doden, te wonden of te
  slaan, zelfs indien men geen gebruik ervan gemaakt heeft.
 
-   Art. 135bis.[3 Hij die een democratisch beslissingsproces beïnvloedt of tracht te beïnvloeden, met het oogmerk
+## Art. 135bis
+
+[3 Hij die een democratisch beslissingsproces beïnvloedt of tracht te beïnvloeden, met het oogmerk
  om de democratische en grondwettelijke orde, de soevereiniteit of onafhankelijkheid van het Rijk, de veiligheid van
  de Staat, de verdediging van het Rijk, de internationale betrekkingen, het economisch of wetenschappelijk
  potentieel van het land of de werking van de besluitvormingsorganen van de Staat aan te tasten, ten dienste van
@@ -2357,7 +2422,9 @@ Onder het woord wapens worden begrepen alle toestellen, werktuigen, gereedschapp
  hij die van een minderjarige verkrijgt dat deze zonder toestemming van zijn ouders, zijn voogd of zijn curator
  dienst neemt in een vreemd leger of een vreemde troep. <W 01-08-1979, art. 6>
 
-  Art. 135quinquies.<W 23-06-1961, enig art.> De poging tot de wanbedrijven in [1 artikel 135quater]1
+## Art. 135quinquies
+
+<W 23-06-1961, enig art.> De poging tot de wanbedrijven in [1 artikel 135quater]1
  omschreven wordt gestraft met dezelfde straffen.
   ----------
   (1)<W 2014-05-05/09, art. 11, 106; Inwerkingtreding : 18-07-2014>
@@ -2376,7 +2443,6 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
 
 ## Art. 136bis
 
-<ingevoegd bij W 2003-08-05/32, art. 6; Inwerkingtreding : 07-08-2003>De misdaad van
  genocide, zoals hierna omschreven, gepleegd zowel in vredes- als in oorlogstijd, is een internationaal-rechtelijke
  misdaad en wordt gestraft volgens de bepalingen van deze titel. In overeenstemming met het Verdrag van 9
  december 1948 inzake de voorkoming en de bestraffing van genocide, en onverminderd de strafrechtelijke
@@ -2390,7 +2456,9 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
   4° opleggen van maatregelen bedoeld om geboorten binnen de groep te voorkomen;
   5° gewelddadig overbrengen van kinderen van een groep naar een andere groep.
 
-   Art. 136ter.<ingevoegd bij W 2003-08-05/32, art. 7; Inwerkingtreding : 07-08-2003> De misdaad tegen de
+## Art. 136ter
+
+<ingevoegd bij W 2003-08-05/32, art. 7; Inwerkingtreding : 07-08-2003> De misdaad tegen de
  mensheid, zoals hierna omschreven, gepleegd zowel in vredes- als in oorlogstijd, is een internationaal-rechtelijke
  misdaad en wordt gestraft volgens de bepalingen van deze titel. In overeenstemming met het Statuut van het
  Internationaal Strafhof wordt onder misdaad tegen de mensheid verstaan een van de volgende handelingen
@@ -2399,7 +2467,6 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
    1° [1 doodslag]1;
    2° uitroeiing;
    3° verlaging tot slavernij;
-Pagina 43 van 145 Copyright Belgisch S taatsblad 18-03-2026
    4° gedwongen deportatie of overbrenging van bevolking;
    5° gevangenneming of elke andere vorm van ernstige beroving van de lichamelijke vrijheid met schending van
  de fundamentele bepalingen van het internationaal recht;
@@ -2417,7 +2484,9 @@ Pagina 43 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2024-03-28/60, art. 78, 158; Inwerkingtreding : 08-04-2024>
 
-   Art. 136quater.<ingevoegd bij W 2003-08-05/32, art. 8; Inwerkingtreding : 07-08-2003> (NOTA : De derde
+## Art. 136quater
+
+<ingevoegd bij W 2003-08-05/32, art. 8; Inwerkingtreding : 07-08-2003> (NOTA : De derde
  paragraaf van artikel 136quater treedt in werking de dag van inwerkingtreding voor België van het Tweede
  Protocol inzake het Verdrag van 's-Gravenhage van 1954 inzake de bescherming van culturele goederen in geval
  van een gewapend conflict, aangenomen te 's-Gravenhage op 26 maart 1999 ; zie W 2003-08-05/32, art. 29, §
@@ -2468,7 +2537,6 @@ Pagina 43 van 145 Copyright Belgisch S taatsblad 18-03-2026
  humanitair recht;
    16° gebruik maken van de aanwezigheid van een burger of van een andere persoon beschermd door het
  internationaal humanitair recht teneinde bepaalde punten, gebieden of strijdkrachten te vrijwaren van militaire
-Pagina 44 van 145 Copyright Belgisch S taatsblad 18-03-2026
  operaties;
    17° opzettelijk richten van aanvallen op personeel, installaties, materieel, eenheden of voertuigen betrokken bij
  humanitaire opdrachten of vredesmissies overeenkomstig het Handvest van de Verenigde Naties, voor zover
@@ -2537,7 +2605,6 @@ Pagina 44 van 145 Copyright Belgisch S taatsblad 18-03-2026
  worden, zoals kogels met een harde mantel die de kern gedeeltelijk onbedekt laat of die is voorzien van
  inkepingen;
    39° gerechtelijk vervallen verklaren, schorsen of niet-ontvankelijk verklaren van de rechten en handelingen van
-Pagina 45 van 145 Copyright Belgisch S taatsblad 18-03-2026
  de personen die tot de vijandige partij behoren;
    40° gebruiken van wapens, projectielen, materieel en wijzen van oorlogvoering die van die aard zijn dat zij
  overbodig letsel of nodeloos lijden veroorzaken of dat zij zonder onderscheid treffen in strijd met het
@@ -2581,7 +2648,9 @@ Pagina 45 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (1)<W 2019-05-05/10, art. 72, 137; Inwerkingtreding : 03-06-2019>
    (2)<W 2024-03-28/60, art. 79, 158; Inwerkingtreding : 08-04-2024>
 
-   Art. 136quinquies.<ingevoegd bij W 2003-08-05/32, art. 9; Inwerkingtreding : 07-08-2003> (NOTA : het laatste
+## Art. 136quinquies
+
+<ingevoegd bij W 2003-08-05/32, art. 9; Inwerkingtreding : 07-08-2003> (NOTA : het laatste
  lid van artikel 136quinquies treedt in werking de dag van inwerkingtreding voor België van het Tweede Protocol
  inzake het Verdrag van 's-Gravenhage van 1954 inzake de bescherming van culturele goederen in geval van een
  gewapend conflict, aangenomen te 's-Gravenhage op 26 maart 1999 ; zie W 2003-08-05/32, art. 29, § 2) De
@@ -2605,7 +2674,6 @@ Pagina 45 van 145 Copyright Belgisch S taatsblad 18-03-2026
  opsluiting van tien jaar tot vijftien jaar, onder voorbehoud van de toepassing van strengere strafbepalingen
  houdende bestraffing van ernstige aanslagen op de menselijke waardigheid.
    Het misdrijf bedoeld in dezelfde paragraaf van hetzelfde artikel, 18°, wordt gestraft met opsluiting van tien jaar
-Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
  tot vijftien jaar. Het wordt gestraft met opsluiting van vijftien jaar tot twintig jaar indien het ernstige gevolgen voor
  de volksgezondheid ten gevolge heeft gehad.
    Het misdrijf bedoeld in dezelfde paragraaf van hetzelfde artikel, 39°, wordt gestraft met opsluiting van tien jaar
@@ -2628,7 +2696,6 @@ Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 136sexies
 
-<ingevoegd bij W 2003-08-05/32, art. 10; Inwerkingtreding : 07-08-2003> Zij die een werktuig,
  een toestel of enig voorwerp voortbrengen, onder zich houden of vervoeren, een bouwwerk oprichten of een
  bestaand bouwwerk veranderen, in de wetenschap dat het werktuig, het toestel, het voorwerp, het bouwwerk of
  de verandering bestemd is om een van de in de artikelen 136bis, 136ter en 136quater genoemde misdrijven te
@@ -2637,7 +2704,6 @@ Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 136septies
 
-<ingevoegd bij W 2003-08-05/32, art. 11; Inwerkingtreding : 07-08-2003> Met de op het
  voltooide misdrijf gestelde straf worden gestraft :
   1° het bevel, zelfs zonder dat dit gevolgen heeft gehad, om een van de in de artikelen 136bis, 136ter en
  136quater omschreven misdrijven te plegen;
@@ -2653,7 +2719,6 @@ Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 136octies
 
-<ingevoegd bij W 2003-08-05/32, art. 12; Inwerkingtreding : 07-08-2003> § 1. Onverminderd
  de in artikel 136quater, § 1, 18°, 22° en 23° genoemde uitzonderingen kan geen enkel belang, geen enkele
  noodzaak van politieke, militaire of nationale aard de in de artikelen 136bis, 136ter, 136quater, 136sexies en
  136septies omschreven misdrijven, zelfs bij wijze van represaille gepleegd, rechtvaardigen.
@@ -2663,7 +2728,9 @@ Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   TITEL Iter. - TERRORISTISCHE MISDRIJVEN. <Ingevoegd bij W 2003-12-19/34, art. 2; Inwerkingtreding : 08-012004>
 
-   Art. 137.<Ingevoegd bij W 2003-12-19/34, art. 3, 046; Inwerkingtreding : 08-01-2004> § 1. Als terroristisch
+## Art. 137
+
+<Ingevoegd bij W 2003-12-19/34, art. 3, 046; Inwerkingtreding : 08-01-2004> § 1. Als terroristisch
  misdrijf wordt aangemerkt het misdrijf bepaald in de §§ 2 en 3 dat door zijn aard of context een land of een
  internationale organisatie ernstig kan schaden en opzettelijk gepleegd is met het oogmerk om een bevolking
  ernstige vrees aan te jagen of om de overheid of een internationale organisatie op onrechtmatige wijze te
@@ -2679,7 +2746,6 @@ Pagina 46 van 145 Copyright Belgisch S taatsblad 18-03-2026
    4° de grootschalige vernieling of beschadiging bedoeld in de artikelen 521, eerste en derde lid, 522, 523, 525,
  526, 550bis, § 3, 3°, [4 in artikel 2.4.5.6 van het Belgisch Scheepvaartwetboek]4, en in artikel 114, § 4, van de
  wet van 21 maart 1991 betreffende de hervorming van sommige economische overheidsbedrijven, waardoor
-Pagina 47 van 145 Copyright Belgisch S taatsblad 18-03-2026
  mensenlevens in gevaar worden gebracht of aanzienlijke economische schade wordt aangericht;
   [3 4°/1 de onrechtmatige verstoring van een informaticasysteem en de onrechtmatige verstoring van de
  gegevens in een informaticasysteem, zoals bepaald in artikel 550ter, §§ 1 tot 3;]3
@@ -2722,7 +2788,9 @@ Pagina 47 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (4)<W 2019-05-08/14, art. 9, 143; Inwerkingtreding : 01-09-2020>
   (5)<W 2022-03-21/01, art. 91, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 138.<Ingevoegd bij W 2003-12-19/34, art. 4, 046; Inwerkingtreding : 08-01-2004> § 1. De straffen voor
+## Art. 138
+
+<Ingevoegd bij W 2003-12-19/34, art. 4, 046; Inwerkingtreding : 08-01-2004> § 1. De straffen voor
  de misdrijven opgesomd in artikel 137, § 2, worden als volgt vervangen, indien die misdrijven worden aangemerkt
  als terroristische misdrijven :
   1° geldboete, door gevangenisstraf van een jaar tot drie jaar;
@@ -2746,17 +2814,17 @@ Pagina 47 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2013-02-18/01, art. 3, 091; Inwerkingtreding : 14-03-2013>
 
-Pagina 48 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 139
 
-<Ingevoegd bij W 2003-12-19/34, art. 5, 046; Inwerkingtreding : 08-01-2004> Met terroristische
  groep wordt bedoeld iedere gestructureerde vereniging van meer dan twee personen die sinds enige tijd bestaat
  en die in onderling overleg optreedt om terroristische misdrijven te plegen, als bedoeld in artikel 137.
    Een organisatie waarvan het feitelijk oogmerk uitsluitend politiek, vakorganisatorisch, menslievend,
  levensbeschouwelijk of godsdienstig is of die uitsluitend enig ander rechtmatig oogmerk nastreeft, kan als
  zodanig niet beschouwd worden als een terroristische groep in de zin van het eerste lid.
 
-   Art. 140.<Ingevoegd bij W 2003-12-19/34, art. 6, 046; Inwerkingtreding : 08-01-2004> § 1. Iedere persoon die
+## Art. 140
+
+<Ingevoegd bij W 2003-12-19/34, art. 6, 046; Inwerkingtreding : 08-01-2004> § 1. Iedere persoon die
  deelneemt aan enige activiteit van een terroristische groep, zij het ook door het verstrekken van gegevens of
  materiële middelen aan een terroristische groep of door het in enigerlei vorm financieren van enige activiteit van
  een terroristische groep, terwijl hij [1 wist of moest weten]1 dat zijn deelname [1 zou kunnen bijdragen]1 tot het
@@ -2773,7 +2841,9 @@ Pagina 48 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (1)<W 2016-12-14/09, art. 2, 120; Inwerkingtreding : 01-01-2017>
    (2)<W 2019-05-05/10, art. 75, 137; Inwerkingtreding : 03-06-2019>
 
-   Art. 140bis.[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die een boodschap verspreidt
+## Art. 140bis
+
+[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die een boodschap verspreidt
  of anderszins publiekelijk ter beschikking stelt met het oogmerk [3 ...]3 aan te zetten tot het plegen van één van
  de [2 in de artikelen 137 of 140sexies]2 bedoelde misdrijven, met uitzondering van het in artikel 137, § 3, 6°,
  bedoelde misdrijf, gestraft met opsluiting van vijf jaar tot tien jaar en met een geldboete van honderd euro tot
@@ -2787,7 +2857,9 @@ Pagina 48 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2016-08-03/15, art. 2, 119; Inwerkingtreding : 21-08-2016> (NOTA : bij arrest nr.31/2018 van 15-032018 (B.St. 13-06-2018, p. 49144), heeft het Grondwettelijk Hof het artikel 2, 3° vernietigd)
    (3)<W 2019-05-05/10, art. 76, 137; Inwerkingtreding : 03-06-2019>
 
-   Art. 140ter.[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die een andere persoon werft
+## Art. 140ter
+
+[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die een andere persoon werft
  voor het plegen [3 of het bijdragen tot het plegen]3 van een van de [2 in de artikelen 137, 140 of 140sexies]2
  bedoelde misdrijven, met uitzondering van het in artikel 137, § 3, 6°, bedoelde misdrijf, gestraft met opsluiting
  van vijf jaar tot tien jaar en met een geldboete van honderd euro tot vijfduizend euro.]1
@@ -2798,7 +2870,9 @@ Pagina 48 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2016-08-03/15, art. 3, 119; Inwerkingtreding : 21-08-2016>
    (3)<W 2019-05-05/10, art. 77, 137; Inwerkingtreding : 03-06-2019>
 
-   Art. 140quater.[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die onderrichtingen geeft
+## Art. 140quater
+
+[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die onderrichtingen geeft
  of een opleiding verschaft voor de vervaardiging of het gebruik van explosieven, vuurwapens of andere wapens
  of schadelijke of gevaarlijke stoffen, dan wel voor andere specifieke methoden en technieken met het oog op het
  plegen [2 of het bijdragen tot het plegen]2 van een van de in artikel 137 bedoelde misdrijven, met uitzondering
@@ -2810,10 +2884,11 @@ Pagina 48 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (1)<Ingevoegd bij W 2013-02-18/01, art. 6, 091; Inwerkingtreding : 14-03-2013>
    (2)<W 2019-05-05/10, art. 78, 137; Inwerkingtreding : 03-06-2019>
 
-  Art. 140quinquies.[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die zich in België of in
+## Art. 140quinquies
+
+[1 Onverminderd de toepassing van artikel 140 wordt iedere persoon die zich in België of in
  het buitenland onderrichtingen doet geven of aldaar een opleiding volgt die worden bedoeld in artikel 140quater
  met het oog op het plegen [2 of het bijdragen tot het plegen]2 van een van de in artikel 137 bedoelde misdrijven,
-Pagina 49 van 145 Copyright Belgisch S taatsblad 18-03-2026
  met uitzondering van het in artikel 137, § 3, 6°, bedoelde misdrijf, gestraft met opsluiting van vijf jaar tot tien jaar
  en met een geldboete van honderd euro tot vijfduizend euro.]1
   [2 Met dezelfde straffen wordt gestraft iedere persoon die, in België of in het buitenland, zelf kennis verwerft of
@@ -2824,7 +2899,9 @@ Pagina 49 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2013-02-18/01, art. 7, 091; Inwerkingtreding : 14-03-2013>
   (2)<W 2019-05-05/10, art. 79, 137; Inwerkingtreding : 03-06-2019>
 
-   Art. 140sexies.[1 Onverminderd de toepassing van artikel 140, wordt gestraft met opsluiting van 5 jaar tot 10
+## Art. 140sexies
+
+[1 Onverminderd de toepassing van artikel 140, wordt gestraft met opsluiting van 5 jaar tot 10
  jaar en met geldboete van honderd euro tot vijfduizend euro :
     1° iedere persoon die het nationaal grondgebied verlaat met het oog op het plegen [2 of het bijdragen tot het
  plegen]2, in België of in het buitenland, van een misdrijf bedoeld in de artikelen 137, 140 tot 140quinquies en 141,
@@ -2867,7 +2944,9 @@ Pagina 49 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-14/09, art. 3, 120; Inwerkingtreding : 01-01-2017>
 
-   Art. 141.[1 Wordt gestraft met opsluiting van vijf jaar tot tien jaar en met geldboete van honderd euro tot
+## Art. 141
+
+[1 Wordt gestraft met opsluiting van vijf jaar tot tien jaar en met geldboete van honderd euro tot
  vijfduizend euro, iedere persoon die, op enigerlei wijze, direct of indirect, materiële middelen verstrekt of inzamelt,
  daaronder begrepen financiële hulp, met het oogmerk dat deze worden gebruikt of in de wetenschap dat zij,
  geheel of gedeeltelijk, zullen worden gebruikt,
@@ -2881,10 +2960,11 @@ Pagina 49 van 145 Copyright Belgisch S taatsblad 18-03-2026
  plegen van een terroristisch misdrijf als bedoeld in artikel 137.]2
    ----------
    (1)<W 2016-12-14/09, art. 4, 120; Inwerkingtreding : 01-01-2017>
-Pagina 50 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (2)<W 2019-05-05/10, art. 81, 137; Inwerkingtreding : 03-06-2019>
 
-  Art. 141bis.[1 § 1. Deze titel is niet van toepassing op daden gepleegd in het kader van een internationaal
+## Art. 141bis
+
+[1 § 1. Deze titel is niet van toepassing op daden gepleegd in het kader van een internationaal
  gewapend conflict of een gewapend conflict van niet-internationale aard, door strijdkrachten van een partij bij het
  conflict wanneer deze daden vallen onder de toepasselijke regels van het internationaal humanitair recht en
  ermee overeenstemmen.
@@ -2893,7 +2973,9 @@ Pagina 50 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2024-01-18/06, art. 17, 157; Inwerkingtreding : 05-02-2024>
 
-   Art. 141ter.[1 Geen enkele bepaling uit deze titel kan worden gelezen in die zin dat zij een [2 ...]2 beperking of
+## Art. 141ter
+
+[1 Geen enkele bepaling uit deze titel kan worden gelezen in die zin dat zij een [2 ...]2 beperking of
  belemmering beoogt van rechten of fundamentele vrijheden, zoals het stakingsrecht, de vrijheid van vergadering
  en vereniging, waaronder het recht om, voor de verdediging van de eigen belangen, samen met anderen
  vakbonden op te richten dan wel zich erbij aan te sluiten, evenals het daarmee samenhangende recht van
@@ -2923,7 +3005,9 @@ Pagina 50 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   HOOFDSTUK I. - WANBEDRIJVEN BETREFFENDE DE VRIJE UITOEFENING VAN DE EREDIENSTEN. <W 2003-1219/34, art. 11, 046; Inwerkingtreding : 08-01-2004>
 
-   Art. 142.Hij die een of meer personen door geweld of bedreiging dwingt of verhindert een eredienst uit te
+## Art. 142
+
+Hij die een of meer personen door geweld of bedreiging dwingt of verhindert een eredienst uit te
  oefenen, de uitoefening van die eredienst bij te wonen, bepaalde godsdienstige feesten te vieren, bepaalde
  rustdagen te onderhouden en dientengevolge hun werkhuizen, winkels of magazijnen te openen of te sluiten en
  een bepaalde arbeid te verrichten of te staken, wordt gestraft met gevangenisstraf van acht dagen tot twee
@@ -2954,7 +3038,6 @@ Hij die de voorwerpen van een eredienst door daden, woorden, gebaren of bedreigi
 ## Art. 145
 
 Met dezelfde straffen wordt gestraft hij die een bedienaar van een eredienst in de uitoefening van zijn
-Pagina 51 van 145 Copyright Belgisch S taatsblad 18-03-2026
  bediening smaadt door daden, woorden, gebaren of bedreigingen.
   Indien hij hem slaat, wordt hij gestraft met gevangenisstraf van twee maanden tot twee jaar en met geldboete
  van vijftig [euro] tot vijfhonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -2968,7 +3051,9 @@ Indien de slagen bloedstorting, verwonding of ziekte veroorzaken, wordt de schul
   HOOFDSTUK II. - SCHENDING DOOR OPENBARE AMBTENAREN VAN RECHTEN DOOR DE GRONDWET
  GEWAARBORGD. <W 2003-12-19/34, art. 12, 046; Inwerkingtreding : 08-01-2004>
 
-   Art. 147.Ieder openbaar officier of ambtenaar, ieder drager of agent van het openbaar gezag of van de
+## Art. 147
+
+Ieder openbaar officier of ambtenaar, ieder drager of agent van het openbaar gezag of van de
  openbare macht, die wederrechtelijk en willekeurig een of meer personen aanhoudt of doet aanhouden,
  gevangen houdt of doet houden, wordt gestraft met gevangenisstraf van drie maanden tot twee jaar.
    De gevangenisstraf is zes maanden tot drie jaar, indien de wederrechtelijke en willekeurige vrijheidsberoving
@@ -3043,7 +3128,6 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
  tweehonderd [euro] worden gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   De bestuurders, bevelhebbers, bewaarders en portiers van (gevangenissen) die een gevangene opnemen
  zonder wettige last of wettig bevel of zonder vonnis; <W 1999-05-07/61, art. 2, 025; Inwerkingtreding : 01-071999> <W 2005-01-12/39, art. 170, 050; Inwerkingtreding : 15-01-2007>
-Pagina 52 van 145 Copyright Belgisch S taatsblad 18-03-2026
   Die hem vasthouden of weigeren hem voor te brengen voor de officier van politie of voor de houder van diens
  bevelen, zonder te bewijzen dat de procureur des Konings of de rechter dit heeft verboden;
   Die weigeren hun registers aan de officier van politie te vertonen.
@@ -3114,7 +3198,9 @@ Met dezelfde straffen als de vervalsers of als hun medeplichtigen, naar de onder
  poging tot uitgifte van die nagemaakte of geschonden munten, hetzij aan het invoeren ervan op Belgisch
  grondgebied of aan de poging tot zodanig invoeren.
 
-  Art. 169.Hij die, zonder schuldig te zijn aan de deelneming, in het vorige artikel omschreven, met zijn weten zich
+## Art. 169
+
+Hij die, zonder schuldig te zijn aan de deelneming, in het vorige artikel omschreven, met zijn weten zich
  nagemaakte of geschonden muntstukken aanschaft en deze in omloop brengt of poogt te brengen, wordt
  gestraft met gevangenisstraf van een maand [1 tot vijf jaar]1.
   [1 Hij die nagemaakte of geschonden muntstukken invoert, uitvoert, vervoert, ontvangt of zich aanschaft met
@@ -3136,7 +3222,6 @@ Hij die nagemaakte of geschonden muntstukken, die hij voor goede ontvangen heeft
 ## Art. 170bis
 
 [1 De artikelen 160, 161, 162, 163, 168 en 169 zijn zonder onderscheid van toepassing op de
-Pagina 53 van 145 Copyright Belgisch S taatsblad 18-03-2026
  munten die reeds zijn uitgegeven en in omloop zijn gebracht als wettig betaalmiddel en op de munten die, hoewel
  zij bestemd zijn om in omloop te worden gebracht als wettig betaalmiddel, nog niet zijn uitgegeven.]1
   ----------
@@ -3194,7 +3279,9 @@ Met dezelfde straffen als de vervalsers of als hun medeplichtigen, naar de onder
  poging tot uitgifte van die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewijzen of
  biljetten, hetzij aan het invoeren ervan in België of aan de poging tot zodanig invoeren.
 
-  Art. 177.Hij die, zonder schuldig te zijn aan de deelneming in het vorige artikel omschreven, met zijn weten zich
+## Art. 177
+
+Hij die, zonder schuldig te zijn aan de deelneming in het vorige artikel omschreven, met zijn weten zich
  die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewijzen, biljetten aanschaft en ze
  uitgeeft of poogt uit te geven, wordt gestraft met gevangenisstraf van een jaar tot vijf jaar.
   [1 Hij die nagemaakte of vervalste biljetten invoert, uitvoert, vervoert, ontvangt of zich aanschaft met het
@@ -3218,7 +3305,6 @@ Hij die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewij
  voor goede ontvangen heeft, weer in omloop brengt, na de ondeugdelijkheid ervan te hebben vastgesteld of
  doen vaststellen, wordt gestraft met gevangenisstraf van een maand tot een jaar en met geldboete van vijftig
  [euro] tot duizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
-Pagina 54 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (Poging tot het wanbedrijf omschreven in het vorige lid wordt gestraft met gevangenisstraf van vijftien dagen
  tot zes maanden en met geldboete van zesentwintig [euro] tot vijfhonderd [euro] of met een van die straffen
  alleen.) <W 2001-04-04/39, art. 6, 031; Inwerkingtreding : 03-07-2001> <W 2000-06-26/42, art. 2,
@@ -3229,14 +3315,12 @@ Pagina 54 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 178bis
 
-<Ingevoegd bij W 2001-12-10/31, art. 20; Inwerkingtreding : 01-01-2002> Hij die een geldteken
  uitgeeft bestemd om in het publiek te circuleren als betaalmiddel zonder hiertoe gemachtigd te zijn door de
  bevoegde overheid, wordt gestraft met gevangenisstraf van één maand tot één jaar en met geldboete van 50 tot
  10 000 EUR of met één van die straffen alleen. ".
 
 ## Art. 178ter
 
-<Ingevoegd bij W 2001-12-10/31, art. 21; Inwerkingtreding : 01-01-2002> Hij die, wetens en
  willens, een geldteken, dat in België of in het buitenland wettig betaalmiddel is, aanwendt als drager van een
  boodschap van publicitaire of andere aard, of hij die, wetens en willens, het gebruik ervan als betaalmiddel
  bemoeilijkt door het te beschadigen, bekladden, overschrijven, of ongeschikt te maken, op welke wijze ook,
@@ -3293,7 +3377,6 @@ Pagina 54 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2023-07-12/10, art. 8, 153; Inwerkingtreding : 18-09-2023>
 
-Pagina 55 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 178nonies
 
 [1 Hij die, onrechtmatig, enig instrument, met inbegrip van informaticagegevens, dat
@@ -3361,7 +3444,9 @@ Met gevangenisstraf van twee maanden tot drie jaar wordt gestraft hij die zich e
  overheid of zelfs van een bijzondere persoon.
   Poging tot dat wanbedrijf wordt gestraft met gevangenisstraf van vijftien dagen tot een jaar.
 
-  Art. 185bis.<W 2001-04-04/39, art. 8, 031; Inwerkingtreding : 03-07-2001> Met gevangenisstraf van acht
+## Art. 185bis
+
+<W 2001-04-04/39, art. 8, 031; Inwerkingtreding : 03-07-2001> Met gevangenisstraf van acht
  dagen tot een jaar worden gestraft :
   Zij die met bedrieglijk opzet [1 zich aanschaffen of bezitten]1 hetzij nagemaakte of vervalste muntstempels, -
  matrijzen of andere voorwerpen of middelen als bedoeld in artikel 180, voorlaatste lid, hetzij echte muntstempels,
@@ -3376,7 +3461,6 @@ Met gevangenisstraf van twee maanden tot drie jaar wordt gestraft hij die zich e
  aanschaffen.]1
   ----------
   (1)<W 2017-10-18/09, art. 2, 125; Inwerkingtreding : 13-11-2017>
-Pagina 56 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 186
 
 <W 2001-04-04/39, art. 9, 031; Inwerkingtreding : 03-07-2001> Zij die zegels, stempels of merken
@@ -3436,7 +3520,9 @@ Met geldboete van zesentwintig [euro] tot driehonderd [euro] worden gestraft : <
  van het merk waaruit blijkt dat die reeds tot gebruik hebben gediend;
   Zij die gebruik maken van een zegel of een biljet die men van dat merk ontdaan heeft.
 
-  Art. 190bis.<Ingevoegd bij W 1991-03-21/30, art. 150, 006; Inwerkingtreding : 01-10-1992> De bepalingen
+## Art. 190bis
+
+<Ingevoegd bij W 1991-03-21/30, art. 150, 006; Inwerkingtreding : 01-10-1992> De bepalingen
  van de artikelen 188 tot 190 zijn niet alleen van toepassing op de plakpostzegels, maar eveneens op die welke
  gedrukt worden op documenten die [1 bpost]1 uitgeeft, evenals op de [euro]eerwaarden die vertegenwoordigd
  worden door afdrukken van machines of door symbolen die door [1 bpost]1 erkend zijn. <W 2000-06-26/42, art.
@@ -3454,11 +3540,12 @@ Hij die op fabrikaten de naam van een andere fabrikant dan de voortbrenger, of d
 
   [Bijzondere bepaling]<W 2014-05-05/09, art. 12, 106; Inwerkingtreding : 18-07-2014>
 
-  Art. 192.<W 12-07-1932, art. 1, 11°> Personen die schuldig zijn aan een der misdrijven, omschreven in de
+## Art. 192
+
+<W 12-07-1932, art. 1, 11°> Personen die schuldig zijn aan een der misdrijven, omschreven in de
  artikelen 160 tot 168, 169, tweede lid, 171 tot 176, 177, tweede lid, [1 178quinquies tot 178septies, 178nonies,]1
  180, laatste en voorlaatste lid, 185bis, 186, tweede tot vierde lid, 187bis, 497, tweede lid, en 497bis, eerste lid,
  blijven vrij van straf, indien zij, vóór enige uitgifte van nagemaakte of geschonden munten [1 , of van andere
-Pagina 57 van 145 Copyright Belgisch S taatsblad 18-03-2026
  vervalste of nagemaakte niet-contante betaalinstrumenten,]1 of van nagemaakt of vervalst papier en vóór enige
  vervolging, die misdrijven en hun daders aan de overheid kenbaar maken.
   ----------
@@ -3466,13 +3553,14 @@ Pagina 57 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 192bis
 
-<Ingevoegd bij W 2001-04-04/39, art. 11; Inwerkingtreding : 03-07-2001> De feiten gekwalificeerd
  als misdrijf betreffende de euro, zoals omschreven in de hoofdstukken I, II en III van deze titel, worden gestraft
  met de straffen voorzien in dezelfde bepalingen wanneer zij gepleegd zijn ten overstaan van de Belgische
  muntstukken of bankbiljetten of deze van een lidstaat van de Europese Unie, die niet wettelijk gangbaar meer zijn
  of waarvan de uitgifte niet meer toegelaten is ingevolge de introductie of de aanneming van de chartale euro.
 
-   Art. 192ter.<Ingevoegd bij W 2005-01-10/38, art. 2, Inwerkingtreding : 20-02-2005> § 1. Hij die, na tot een
+## Art. 192ter
+
+<Ingevoegd bij W 2005-01-10/38, art. 2, Inwerkingtreding : 20-02-2005> § 1. Hij die, na tot een
  gevangenisstraf van meer dan vijf jaar te zijn veroordeeld door een rechtscollege van een lid-Staat van de
  Europese Unie wegens feiten bedoeld in de artikelen 160 tot 170, 173, 176 tot 178, [1 178quinquies tot
  178nonies,]1 180 en 185 tot 187bis, één van deze feiten opnieuw pleegt, kan worden veroordeeld met opsluiting
@@ -3536,7 +3624,6 @@ Valsheid in (geschriften, informatica of in telegrammen), met bedrieglijk opzet 
   Hetzij door overeenkomsten, beschikkingen, verbintenissen of schuldbevrijdingen valselijk op te maken of
  achteraf in de akten in te voegen,
   Hetzij door toevoeging of vervalsing van bedingen, verklaringen of feiten die deze akten ten doel hadden op te
-Pagina 58 van 145 Copyright Belgisch S taatsblad 18-03-2026
  nemen of vast te stellen.
 
 ## Art. 197
@@ -3625,7 +3712,6 @@ Hij die onder de naam van een openbaar officier of ambtenaar valselijk een getui
 Zij die onder de naam van een openbaar officier of ambtenaar valselijk getuigschriften van welke aard
  ook opmaken die openbare of private belangen kunnen schaden, worden gestraft met gevangenisstraf van zes
  maanden tot vijf jaar en zij kunnen bovendien worden veroordeeld tot ontzetting van rechten overeenkomstig
-Pagina 59 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 33.
   Indien het getuigschrift valselijk opgemaakt wordt onder de naam van een bijzondere persoon, wordt de
  schuldige gestraft met gevangenisstraf van twee maanden tot een jaar.
@@ -3661,7 +3747,6 @@ Zij die als getuige meewerken om door een openbare overheid een vals getuigschri
 
 ## Art. 210bis
 
-<ingevoegd bij W 2000-11-28/34, art. 4; Inwerkingtreding : 13-02-2001> § 1. Hij die valsheid
  pleegt, door gegevens die worden opgeslagen, verwerkt of overgedragen door middel van een
  informaticasysteem, in te voeren in een informaticasysteem, te wijzigen, te wissen of met enig ander
  technologisch middel de mogelijke aanwending van gegevens in een informaticasysteem te veranderen,
@@ -3692,20 +3777,23 @@ Hij die van het vals telegram gebruik maakt, wordt gestraft alsof hij de dader v
   [Bepalingen aan de vijf vorige hoofdstukken gemeen]&
   <W 2023-07-12/10, art. 12, 153; Inwerkingtreding : 18-09-2023>
 
-  Art. 213.De toepassing van de straffen, gesteld tegen hen die gebruik maken van de munten, effecten, renteof dividendbewijzen, biljetten, [1 niet contante betaalinstrumenten,]1 zegels, stempels, merken, telegrammen en
+## Art. 213
+
+De toepassing van de straffen, gesteld tegen hen die gebruik maken van de munten, effecten, renteof dividendbewijzen, biljetten, [1 niet contante betaalinstrumenten,]1 zegels, stempels, merken, telegrammen en
  geschriften welke nagemaakt, valselijk opgemaakt of vervalst zijn, heeft slechts plaats voor zover die personen
  van de valse zaak gebruik maken met bedrieglijk opzet of met het oogmerk om te schaden.
   ----------
   (1)<W 2023-07-12/10, art. 13, 153; Inwerkingtreding : 18-09-2023>
 
-   Art. 214.In de gevallen, [1 omschreven in de hoofdstukken I tot IV van deze titel]1 en waarvoor geen geldboete
+## Art. 214
+
+In de gevallen, [1 omschreven in de hoofdstukken I tot IV van deze titel]1 en waarvoor geen geldboete
  in het bijzonder bepaald is, wordt een geldboete van zesentwintig [euro] tot tweeduizend [euro] uitgesproken.
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    ----------
    (1)<W 2014-05-05/09, art. 14, 106; Inwerkingtreding : 18-07-2014>
 
   HOOFDSTUK V. - VALS GETUIGENIS EN MEINEED.
-Pagina 60 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 215
 
 (Zie NOTA 1 onder TITEL) Vals getuigenis in criminele zaken, hetzij ten nadele, hetzij ten voordele van
@@ -3797,7 +3885,6 @@ De tolk en de deskundige, schuldig aan valse verklaringen, hetzij in criminele z
 De vorige bepalingen betreffende de valse verklaringen zijn niet toepasselijk op kinderen beneden
  zestien jaar, noch op personen die, uit hoofde van bloed- of aanverwantschap met de beschuldigden of de
  beklaagden, buiten ede gehoord worden, wanneer die verklaringen zijn afgelegd ten voordele van de
-Pagina 61 van 145 Copyright Belgisch S taatsblad 18-03-2026
  beschuldigden of de beklaagden.
 
 ## Art. 226
@@ -3881,7 +3968,6 @@ Hij die in het openbaar een naam aanneemt, die hem niet toekomt, wordt gestraft 
  gevangenisstraf van acht dagen tot drie maanden en met geldboete van vijfentwintig [euro] tot driehonderd
  [euro], of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-Pagina 62 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 232
 
 Ieder ambtenaar, ieder openbaar officier die in zijn akten aan de daarin vermelde personen, in
@@ -3901,7 +3987,9 @@ Wanneer personen of lichamen die met enig gedeelte van het openbaar gezag beklee
  die personen of die lichamen, hetzij door het zenden van afgevaardigden of van mededelingen aan elkaar,
  worden de schuldigen gestraft met gevangenisstraf van een maand tot zes maanden.
 
-  Art. 234.(Zie NOTA 1 onder TITEL) Indien maatregelen tegen de uitvoering van een wet of van een koninklijk
+## Art. 234
+
+(Zie NOTA 1 onder TITEL) Indien maatregelen tegen de uitvoering van een wet of van een koninklijk
  besluit beraamd worden door een van de middelen, in het vorige artikel vermeld, is de straf gevangenisstraf van
  zes maanden tot vijf jaar.
   De schuldigen kunnen bovendien worden veroordeeld tot ontzetting van de rechten genoemd in de eerste drie
@@ -3929,7 +4017,9 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van honderd [eu
 
   HOOFDSTUK II. - AANMATIGING VAN MACHT DOOR ADMINISTRATIEVE EN RECHTERLIJKE OVERHEDEN.
 
-   Art. 237.Met gevangenisstraf van een maand tot twee jaar en met geldboete van vijftig [euro] tot vijfhonderd
+## Art. 237
+
+Met gevangenisstraf van een maand tot twee jaar en met geldboete van vijftig [euro] tot vijfhonderd
  [euro] worden gestraft, en tot ontzetting, voor een duur van vijf jaar tot tien jaar, van de rechten genoemd in de
  eerste drie nummers van [1 artikel 31, eerste lid]1 kunnen worden veroordeeld : <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
@@ -3953,12 +4043,13 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van honderd [eu
   Ambtenaren van het openbaar ministerie die met het oog op dat vonnis vorderingen doen of conclusie nemen,
  worden gestraft met dezelfde straf.
 
-   Art. 239.Provinciegouverneurs, arrondissementscommissarissen, burgemeesters en leden van
+## Art. 239
+
+Provinciegouverneurs, arrondissementscommissarissen, burgemeesters en leden van
  bestuurslichamen, die zich inmengen in de uitoefening van de wetgevende macht, zoals in artikel 237, tweede lid,
  is omschreven, of die zich aanmatigen besluiten te nemen, strekkende tot het uitvaardigen van enig bevel of
  verbod aan hoven of rechtbanken, worden gestraft met gevangenisstraf van een maand tot twee jaar en met
  geldboete van vijftig [euro] tot vijfhonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
-Pagina 63 van 145 Copyright Belgisch S taatsblad 18-03-2026
   Zij kunnen bovendien worden veroordeeld tot ontzetting, voor vijf jaar tot tien jaar, van de rechten genoemd in
  de eerste drie nummers van [1 artikel 31, eerste lid]1.
   ----------
@@ -4026,7 +4117,9 @@ Pagina 63 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK IV. - (OMKOPING VAN PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN). <W 1999-02-10/39,
  art. 4, 023; Inwerkingtreding : 02-04-1999>
 
-  Art. 246.<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Passieve omkoping bestaat in
+## Art. 246
+
+<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Passieve omkoping bestaat in
  het feit dat een persoon die een openbaar ambt uitoefent, rechtstreeks of door tussenpersonen, voor zichzelf of
  voor een derde, een aanbod, een belofte of [1 een voordeel van welke aard dan ook vraagt, aanneemt of
  ontvangt]1 om een van de in artikel 247 bedoelde gedragingen aan te nemen.
@@ -4037,10 +4130,11 @@ Pagina 63 van 145 Copyright Belgisch S taatsblad 18-03-2026
  die zich kandidaat heeft gesteld voor een dergelijk ambt, die doet geloven een dergelijk ambt te zullen uitoefenen
  of die, door gebruik te maken van valse hoedanigheden, doet geloven een dergelijk ambt uit te oefenen.
   ----------
-Pagina 64 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<W 2016-02-05/11, art. 21, 114; Inwerkingtreding : 29-02-2016>
 
-   Art. 247.<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Indien de omkoping het
+## Art. 247
+
+<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Indien de omkoping het
  verrichten door de persoon die een openbaar ambt uitoefent, van een rechtmatige maar niet aan betaling
  onderworpen handeling van zijn ambt tot doel heeft, is de straf een gevangenisstraf [1 van zes maanden tot vier
  jaar]1 en een geldboete van 100 [euro] tot 10 000 [euro] of één van die straffen. <W 2000-06-26/42, art. 2,
@@ -4091,7 +4185,9 @@ Pagina 64 van 145 Copyright Belgisch S taatsblad 18-03-2026
  gestraft met een straf waarvan het maximum wordt gebracht op het dubbele van de straf die in artikel 247 voor
  de feiten is bepaald.
 
-  Art. 249.<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Indien de in artikel 246 bepaalde
+## Art. 249
+
+<W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999> § 1. Indien de in artikel 246 bepaalde
  omkoping een arbiter betreft en betrekking heeft op een handeling die behoort tot zijn rechtsprekend ambt, is de
  straf een gevangenisstraf [1 van een jaar tot vier jaar]1 en een geldboete van 100 [euro] tot 50 000 [euro]. <W
  2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -4105,7 +4201,6 @@ Pagina 64 van 145 Copyright Belgisch S taatsblad 18-03-2026
  01-01-2002>
   Indien, in het geval bepaald in het vorige lid, de vraag bedoeld in artikel 246, § 1, gevolgd wordt door een
  voorstel bedoeld in artikel 246, § 2, evenals ingeval het voorstel bedoeld in artikel 246, § 2, aangenomen wordt, is
-Pagina 65 van 145 Copyright Belgisch S taatsblad 18-03-2026
  de straf opsluiting van vijf jaar tot tien jaar en een geldboete van 500 [euro] tot 100 000 [euro]. <W 2000-0626/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 3. Indien de in artikel 246 bepaalde omkoping een rechter betreft en betrekking heeft op een handeling die
  behoort tot zijn rechtsprekend ambt, is de straf opsluiting van vijf jaar tot tien jaar en een geldboete van 500
@@ -4116,7 +4211,9 @@ Pagina 65 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2021-02-17/04, art. 26, 144; Inwerkingtreding : 24-02-2021>
 
-  Art. 250.[1 Indien de in de artikelen 246 tot 249 bepaalde omkoping een persoon betreft die een openbaar ambt
+## Art. 250
+
+[1 Indien de in de artikelen 246 tot 249 bepaalde omkoping een persoon betreft die een openbaar ambt
  uitoefent in een vreemde Staat of in een internationale publiekrechtelijke organisatie, worden het minimum van de
  geldboetes verdrievoudigd en het maximum van de geldboetes vervijfvoudigd.]1
   ----------
@@ -4138,7 +4235,9 @@ Pagina 65 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   HOOFDSTUK V. - MISBRUIK VAN GEZAG.
 
-  Art. 254.Met gevangenisstraf van een jaar tot vijf jaar wordt gestraft ieder openbaar ambtenaar, ieder agent of
+## Art. 254
+
+Met gevangenisstraf van een jaar tot vijf jaar wordt gestraft ieder openbaar ambtenaar, ieder agent of
  aangestelde van de Regering, van welke staat of rang ook, die het optreden of het aanwenden van de openbare
  macht vordert of beveelt, doet vorderen of bevelen tegen de uitvoering van een wet of van een koninklijk besluit,
  tegen de inning van een wettelijk ingevoerde belasting, of tegen de uitvoering hetzij van een rechterlijke
@@ -4188,8 +4287,9 @@ Ieder bevelhebber, ieder officier of onderofficier van de openbare macht die, na
  communicatie en gegevens van een informaticasysteem]1
   ----------
   (1)<W 2016-12-25/37, art. 29, 122; Inwerkingtreding : 27-01-2017>
-Pagina 66 van 145 Copyright Belgisch S taatsblad 18-03-2026
-   Art. 259bis.<Ingevoegd bij W 1994-06-30/49, art. 1; Inwerkingtreding : 03-02-1995> § 1. Met [4
+## Art. 259bis
+
+<Ingevoegd bij W 1994-06-30/49, art. 1; Inwerkingtreding : 03-02-1995> § 1. Met [4
  gevangenisstraf van zes maanden tot drie jaar]4 en met geldboete van vijfhonderd [euro] tot twintigduizend
  [euro] of met een van die straffen alleen wordt gestraft ieder openbaar officier of ambtenaar, drager of agent
  van de openbare macht die, naar aanleiding van de uitoefening van zijn bediening, buiten de gevallen die de wet
@@ -4261,14 +4361,17 @@ Ieder openbaar ambtenaar die wettig ontslagen, afgezet, geschorst of van rechten
 
   HOOFDSTUK VII. - ENIGE WANBEDRIJVEN BETREFFENDE HET HOUDEN VAN DE AKTEN VAN DE BURGERLIJKE
  STAND.
-Pagina 67 van 145 Copyright Belgisch S taatsblad 18-03-2026
-  Art. 263.<W 31-03-1987, art. 88> Met geldboete van zesentwintig [euro] tot driehonderd [euro] wordt
+## Art. 263
+
+<W 31-03-1987, art. 88> Met geldboete van zesentwintig [euro] tot driehonderd [euro] wordt
  gestraft de ambtenaar van de burgerlijke stand die een van de bepalingen van [1 titel 2 van boek I]1 van het
  Burgerlijk Wetboek overtreedt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   ----------
   (1)<W 2018-06-18/03, art. 99, 130; Inwerkingtreding : 31-03-2019>
 
-  Art. 264.<W 31-03-1987, art. 89> Met geldboete van honderd [euro] tot vijfhonderd [euro] worden gestraft de
+## Art. 264
+
+<W 31-03-1987, art. 89> Met geldboete van honderd [euro] tot vijfhonderd [euro] worden gestraft de
  ambtenaar van de burgerlijke stand of de speciaal door hem gemachtigde beambte die een van de bepalingen
  van [1 artikel 29, § 1]1, van het Burgerlijk Wetboek overtreden. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
   ----------
@@ -4341,7 +4444,6 @@ Weerspannigheid, gepleegd door een enkel persoon voorzien van wapens, wordt gest
  drie jaar tot vijf jaar, indien het zonder wapen is gepleegd, wordt het gestraft met een gevangenisstraf van zes
  maanden tot drie jaar.]1
   ----------
-Pagina 68 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2024-01-18/06, art. 18, 157; Inwerkingtreding : 05-02-2024>
 
 ## Art. 272
@@ -4381,7 +4483,9 @@ In alle gevallen waarin gevangenisstraf wegens weerspannigheid wordt uitgesproke
    ----------
    (1)<W 2024-01-18/06, art. 20, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 275.(Met gevangenisstraf van vijftien dagen tot zes maanden en met geldboete van vijftig [euro] tot
+## Art. 275
+
+(Met gevangenisstraf van vijftien dagen tot zes maanden en met geldboete van vijftig [euro] tot
  driehonderd [euro] wordt gestraft hij die een lid van de Wetgevende Kamers in de uitoefening of ter gelegenheid
  van de uitoefening van zijn mandaat, een minister (, een lid van het [1 Grondwettelijk Hof]1) of een (magistraat
  van de administratieve orde of een lid van de rechterlijke orde) of een officier van de openbare macht in actieve
@@ -4409,7 +4513,9 @@ Smaad door woorden, daden, gebaren of bedreigingen gepleegd tegen een ministerie
 Smaad tegen gestelde lichamen gepleegd wordt op dezelfde wijze gestraft als smaad tegen de leden
  van die lichamen, naar de onderscheidingen in de twee vorige artikelen gemaakt.
 
-  Art. 278.(Met gevangenisstraf van twee maanden tot twee jaar en met geldboete van vijftig [euro] tot
+## Art. 278
+
+(Met gevangenisstraf van twee maanden tot twee jaar en met geldboete van vijftig [euro] tot
  vijfhonderd [euro] wordt gestraft hij die slagen toebrengt aan een lid van de Wetgevende Kamers in de
  uitoefening of ter gelegenheid van de uitoefening van zijn mandaat, aan een minister, (een lid van het [1
  Grondwettelijk Hof]1,) een magistraat of een officier van de openbare macht in actieve dienst, in de uitoefening of
@@ -4417,9 +4523,7 @@ Smaad tegen gestelde lichamen gepleegd wordt op dezelfde wijze gestraft als smaa
  2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   Indien de slagen worden toegebracht in de vergadering van een der Kamers of op de terechtzitting van een hof
  of een rechtbank, wordt de schuldige gestraft met gevangenisstraf van drie maanden tot drie jaar en met
- geldboete van tweehonderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-
-Pagina 69 van 145 Copyright Belgisch S taatsblad 18-03-2026
- 2002>
+ geldboete van tweehonderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
   ----------
   (1)<W 2010-02-21/03, art. 7, 078; Inwerkingtreding : 08-03-2010>
 
@@ -4431,13 +4535,14 @@ Indien de toegebrachte slagen bloedstorting, verwonding of ziekte veroorzaken, w
 
 ## Art. 279bis
 
-<ingevoegd bij W 2006-12-20/41, art. 1; Inwerkingtreding : 22-02-2007> Wanneer de slagen
  worden toegebracht zonder het oogmerk om te doden, en toch de dood veroorzaken, wordt de schuldige
  gestraft met opsluiting van zeven jaar tot tien jaar.
   Hij wordt gestraft met opsluiting van twaalf jaar tot vijftien jaar indien hij die gewelddaden met voorbedachten
  rade pleegt.
 
-   Art. 280.[1 Indien de misdaad of het wanbedrijf is gepleegd op een ministerieel ambtenaar, een agent die drager
+## Art. 280
+
+[1 Indien de misdaad of het wanbedrijf is gepleegd op een ministerieel ambtenaar, een agent die drager
  is van het openbaar gezag of van de openbare macht of op enig ander persoon met een openbare hoedanigheid
  bekleed, in de uitvoering of [2 in de uitoefening of naar aanleiding van de uitoefening van deze functie,]2 zijn de
  straffen de volgende :
@@ -4495,7 +4600,6 @@ Hij die opzettelijk zegels verbreekt, wordt gestraft met gevangenisstraf van zes
  bewaarder gestraft met gevangenisstraf van drie maanden tot een jaar.) <W 2003-01-23/42, art. 55, 040;
  Inwerkingtreding : 13-03-2003>
 
-Pagina 70 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 286
 
 Hij die opzettelijk zegels verbreekt, die gelegd zijn op zodanige papieren of zaken als in het vorige
@@ -4589,7 +4693,6 @@ De openbare ambtenaren of de door de Regering aangestelde of bezoldigde agenten 
  bedrog deelnemen, worden gestraft met gevangenisstraf van twee jaar tot vijf jaar en met geldboete van
  tweehonderd [euro] tot tienduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   Zij worden bovendien veroordeeld tot ontzetting van rechten overeenkomstig artikel 33.
-Pagina 71 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK VI. - UITGEVEN OF VERSPREIDEN VAN GESCHRIFTEN ZONDER VERMELDING VAN NAAM EN
  WOONPLAATS VAN DE SCHRIJVER OF VAN DE DRUKKER.
 
@@ -4679,7 +4782,6 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
 ## Art. 309
 
 Hij die geheimen van de fabriek waarin hij werkzaam geweest is of nog is, kwaadwillig of bedrieglijk aan
-Pagina 72 van 145 Copyright Belgisch S taatsblad 18-03-2026
  anderen meedeelt, wordt gestraft met gevangenisstraf van drie maanden tot drie jaar en met geldboete van
  vijftig [euro] tot tweeduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
@@ -4693,7 +4795,9 @@ Zij die door enig bedrieglijk middel de stijging of daling van de prijs van eetw
  openbare effecten en papieren bewerken, worden gestraft met gevangenisstraf van een maand tot twee jaar en
  met geldboete van driehonderd [euro] tot tienduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
 
-  Art. 312.Ieder bevelhebber van militaire gebieden, van provincies of van plaatsen en steden, ieder
+## Art. 312
+
+Ieder bevelhebber van militaire gebieden, van provincies of van plaatsen en steden, ieder
  provinciegouverneur of arrondissementscommissaris die, binnen het gebied waar hij het recht heeft zijn gezag
  uit te oefenen, dergelijke handelingen pleegt of daaraan deelneemt, hetzij openlijk, hetzij door schijnhandelingen of
  door tussenpersonen, wordt gestraft met ontzetting van de rechten genoemd in de eerste drie nummers van [1
@@ -4709,7 +4813,9 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
  gestraft met gevangenisstraf van drie maanden tot twee jaar.
   De hoofden of aanstokers worden gestraft met gevangenisstraf van zes maanden tot drie jaar (...). <W 09-041930, art. 32>
 
-  Art. 314.<W 1993-12-24/37, art. 66, 011; Inwerkingtreding : 01-05-1997> Zij die bij toewijzingen van de
+## Art. 314
+
+<W 1993-12-24/37, art. 66, 011; Inwerkingtreding : 01-05-1997> Zij die bij toewijzingen van de
  eigendom, van het vruchtgebruik of van de huur van roerende of onroerende zaken, van een aanneming, van
  een levering, van een bedrijf of van enige dienst, de vrijheid van opbod of van inschrijving door geweld of
  bedreiging of door schenkingen of beloften of door gelijk welk ander frauduleus middel belemmeren of storen,
@@ -4730,7 +4836,9 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
   ----------
   (1)<W 2016-12-25/37, art. 31, 122; Inwerkingtreding : 27-01-2017>
 
-   Art. 314bis.<Ingevoegd bij W 1994-06-30/49, art. 2; Inwerkingtreding : 03-02-1995> § 1. Met [2
+## Art. 314bis
+
+<Ingevoegd bij W 1994-06-30/49, art. 2; Inwerkingtreding : 03-02-1995> § 1. Met [2
  gevangenisstraf van zes maanden tot twee jaar]2 en met geldboete van tweehonderd [euro] tot tienduizend
  [euro] of met een van die straffen alleen wordt gestraft hij die : <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
    1° [1 ofwel, opzettelijk, met behulp van enig toestel niet voor publiek toegankelijke communicatie, waaraan hij
@@ -4749,7 +4857,6 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
    (§ 2bis. Met [2 gevangenisstraf van zes maanden tot twee jaar]2 en met geldboete van tweehonderd euro tot
  tienduizend euro of met één van die straffen alleen wordt gestraft hij die, onrechtmatig, een instrument, met
  inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast om het in § 1 bedoelde misdrijf
-Pagina 73 van 145 Copyright Belgisch S taatsblad 18-03-2026
  mogelijk te maken, bezit, produceert, verkoopt, verkrijgt met het oog op het gebruik ervan, invoert, verspreidt of
  op enige andere manier ter beschikking stelt.) <W 2006-05-15/46, art. 3, 1°, 059; Inwerkingtreding : 22-092006>
   § 3. Poging tot het plegen van een der misdrijven bedoeld (in de §§ 1, 2 of 2bis) wordt gestraft zoals het misdrijf
@@ -4839,7 +4946,6 @@ Elke vereniging met het oogmerk om een aanslag te plegen op personen of op eigen
 ## Art. 324
 
 Alle andere personen die van de vereniging deel uitmaken en zij die wetens en willens aan de bende of
-Pagina 74 van 145 Copyright Belgisch S taatsblad 18-03-2026
  aan haar afdelingen wapens, munitie, werktuigen tot het plegen van misdaden, een onderdak, een schuilplaats of
  een vergaderplaats verschaffen, worden gestraft :
   In het eerste geval van het vorige artikel, met gevangenisstraf van zes maanden tot vijf jaar;
@@ -4917,9 +5023,7 @@ Van de in dit hoofdstuk bepaalde straffen blijven vrij de schuldigen die, vóór
 
 ## Art. 328bis
 
-<Ingevoegd bij W 2003-04-04/59, art. 3; Inwerkingtreding : 15-05-2003> Hij die op om het even
  welke wijze stoffen verspreidt die, zonder op zichzelf gevaar in te houden, de indruk geven gevaarlijk te zijn en
-Pagina 75 van 145 Copyright Belgisch S taatsblad 18-03-2026
  waarvan hij weet of moet weten dat hierdoor ernstige gevoelens van vrees kunnen worden teweeg gebracht
  voor een aanslag op personen of op eigendommen, waarop gevangenisstraf van ten minste twee jaar is gesteld,
  wordt gestraft met een gevangenisstraf van drie maanden tot twee jaar en met geldboete van vijftig euro tot
@@ -4955,7 +5059,9 @@ Pagina 75 van 145 Copyright Belgisch S taatsblad 18-03-2026
 In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot ontzetting van
  rechten overeenkomstig artikel 33 (...). <W 09-04-1930, art. 32>
 
-  Art. 331bis.(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 1> Met (opsluiting van vijf jaar tot tien jaar) wordt
+## Art. 331bis
+
+(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 1> Met (opsluiting van vijf jaar tot tien jaar) wordt
  gestraft : <W 2003-01-23/42, art. 59, 040; Inwerkingtreding : 13-03-2003>
   1° [1 hij die, met het oogmerk de dood van of ernstige letsels aan een persoon, dan wel aanzienlijke schade aan
  goederen of aan het milieu te veroorzaken, dreigt radioactief materiaal of radioactieve instrumenten te gebruiken
@@ -4974,7 +5080,9 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
   ----------
   (1)<W 2025-12-19/73, art. 2, 164; Inwerkingtreding : 16-01-2026>
 
-  Art. 332.[1 § 1. Met gevangenisstraf van zes maanden tot drie jaar wordt gestraft hij die zich opzettelijk
+## Art. 332
+
+[1 § 1. Met gevangenisstraf van zes maanden tot drie jaar wordt gestraft hij die zich opzettelijk
  onttrekt:
    1° aan de voorlopige hechtenis, de gevangenisstraf of de hem in het kader van een strafrechtelijke procedure
  opgelegde vrijheidsberovende maatregel door te ontsnappen uit een gevangenis, een inrichting waar een
@@ -4993,22 +5101,27 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
   ----------
   (1)<W 2025-12-19/73, art. 3, 164; Inwerkingtreding : 16-01-2026>
 
-  Art. 333.[1 De medeplichtige aan het in artikel 332 bedoelde misdrijf wordt gestraft met dezelfde straf als de
-Pagina 76 van 145 Copyright Belgisch S taatsblad 18-03-2026
+## Art. 333
+
+[1 De medeplichtige aan het in artikel 332 bedoelde misdrijf wordt gestraft met dezelfde straf als de
  dader of de mededader.
    Zij die, bekleed met een openbare functie in het kader van de uitoefening van deze functie, een ontsnapping
  bewerkstelligen of vergemakkelijken, worden gestraft met gevangenisstraf van drie jaar tot vijf jaar.]1
   ----------
   (1)<W 2025-12-19/73, art. 4, 164; Inwerkingtreding : 16-01-2026>
 
-   Art. 334.[1 Personen die schuldig zijn aan de misdrijven bedoeld in de artikelen 332 en 333, blijven vrij van straf
+## Art. 334
+
+[1 Personen die schuldig zijn aan de misdrijven bedoeld in de artikelen 332 en 333, blijven vrij van straf
  indien de ontsnapping gebeurde zonder geweld of bedreiging en de ontsnapte persoon zich binnen een periode
  van achtenveertig uren na de ontsnapping spontaan aanbiedt bij de gevangenis of de inrichting waar hij verbleef,
  dan wel bij een politiedienst.]1
    ----------
    (1)<W 2025-12-19/73, art. 5, 164; Inwerkingtreding : 16-01-2026>
 
-   Art. 335.[1 Het opzettelijk beschadigen of verduisteren van het elektronisch toezichtsmateriaal wordt gestraft
+## Art. 335
+
+[1 Het opzettelijk beschadigen of verduisteren van het elektronisch toezichtsmateriaal wordt gestraft
  met gevangenisstraf van zes maanden tot drie jaar en een geldboete van tweehonderd euro tot vierduizend
  euro, of met een van die straffen alleen.
     Onder elektronisch toezichtsmateriaal moet worden verstaan het geheel aan elektronische middelen dat de
@@ -5017,9 +5130,13 @@ Pagina 76 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2025-12-19/73, art. 6, 164; Inwerkingtreding : 16-01-2026>
 
-  Art. 336.<Opgeheven bij W 2025-12-19/73, art. 7, 164; Inwerkingtreding : 16-01-2026>
+## Art. 336
 
-  Art. 337.<Opgeheven bij W 2025-12-19/73, art. 8, 164; Inwerkingtreding : 16-01-2026>
+<Opgeheven bij W 2025-12-19/73, art. 7, 164; Inwerkingtreding : 16-01-2026>
+
+## Art. 337
+
+<Opgeheven bij W 2025-12-19/73, art. 8, 164; Inwerkingtreding : 16-01-2026>
 
 ## Art. 337bis
 
@@ -5083,8 +5200,9 @@ De twee vorige bepalingen zijn niet van toepassing op de bloedverwanten in de op
 (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
 
   TITEL VIBIS. - (MISDADEN MET BETREKKING TOT HET NEMEN VAN GIJZELAARS). <W 02-07-1975, art. 1>
-Pagina 77 van 145 Copyright Belgisch S taatsblad 18-03-2026
-   Art. 347bis.<W 2000-11-28/35, art. 4, 029; Inwerkingtreding : 27-03-2001> § 1. Gijzeling is de aanhouding, de
+## Art. 347bis
+
+<W 2000-11-28/35, art. 4, 029; Inwerkingtreding : 27-03-2001> § 1. Gijzeling is de aanhouding, de
  gevangenhouding of de ontvoering van personen om deze borg te doen staan voor de voldoening aan een bevel
  of een voorwaarde, onder meer een misdaad of een wanbedrijf voor te bereiden of te vergemakkelijken, de
  vlucht, de ontvluchting van de daders van een misdaad of wanbedrijf of hun medeplichtigen in de hand te
@@ -5112,7 +5230,9 @@ Pagina 77 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   HOOFDSTUK I. - VRUCHTAFDRIJVING.
 
-  Art. 348.(Zie NOTA 1 onder TITEL) <W 1990-04-03/30, art. 1, 002; Inwerkingtreding : 15-04-1990> Hij die, al
+## Art. 348
+
+(Zie NOTA 1 onder TITEL) <W 1990-04-03/30, art. 1, 002; Inwerkingtreding : 15-04-1990> Hij die, al
  dan niet geneesheer, door enig middel opzettelijk vruchtafdrijving veroorzaakt bij een vrouw die daarin niet heeft
  toegestemd, wordt gestraft met (opsluiting van vijf jaar tot tien jaar). Indien de gebruikte middelen hun uitwerking
  hebben gemist, vindt artikel 52 toepassing.
@@ -5134,7 +5254,9 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 ## Art. 351.
 
-  Art. 352.[1 Wanneer de middelen, gebruikt met het oogmerk om vruchtafdrijving te verwekken bij een vrouw
+## Art. 352
+
+[1 Wanneer de middelen, gebruikt met het oogmerk om vruchtafdrijving te verwekken bij een vrouw
  die er niet in heeft toegestemd, de dood tot gevolg hebben, wordt hij die ze met dat oogmerk heeft aangewend
  of aangewezen, veroordeeld tot opsluiting van tien jaar tot vijftien jaar.]1
   [2 Bij de keuze van de straf of de maatregel en de zwaarte ervan moet de rechter in overweging nemen dat het
@@ -5152,7 +5274,6 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 ## Art. 354
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
-Pagina 78 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 355
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
@@ -5184,7 +5305,9 @@ Pagina 78 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK III. - MISDADEN EN WANBEDRIJVEN STREKKENDE TOT HET VERHINDEREN OF VERNIETIGEN VAN
  HET BEWIJS VAN DE BURGERLIJKE STAAT VAN KINDEREN.
 
-   Art. 361.<W 30-03-1984, art. 4> Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van
+## Art. 361
+
+<W 30-03-1984, art. 4> Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van
  26 [euro] tot 200 [euro] of met een van die straffen alleen wordt gestraft : <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
    1° hij die gehouden is krachtens [1 artikel 43, § 1]1 van het Burgerlijk Wetboek, de geboorte van een kind aan te
@@ -5194,7 +5317,9 @@ Pagina 78 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2018-06-18/03, art. 101, 130; Inwerkingtreding : 31-03-2019>
 
-  Art. 362.[1 Met de straffen, bij het vorige artikel bedoeld, wordt gestraft hij die een pasgeboren kind heeft
+## Art. 362
+
+[1 Met de straffen, bij het vorige artikel bedoeld, wordt gestraft hij die een pasgeboren kind heeft
  gevonden en hier niet onmiddellijk kennis van heeft gegeven aan de openbare hulpdiensten, zoals bij artikel 45
  van het Burgerlijk Wetboek is voorgeschreven.]1
   Deze bepaling is niet toepasselijk op hem die erin heeft toegestemd het kind te zijnen laste te nemen en
@@ -5253,14 +5378,13 @@ Pagina 78 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK V. [1 - Voyeurisme, niet-consensuele verspreiding van seksueel getinte beelden en opnames,
  aanranding van de eerbaarheid en verkrachting]1
   ----------
-Pagina 79 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<W 2020-05-04/16, art. 4, 142; Inwerkingtreding : 01-07-2020>
 
-  Art. 371/1.
+## Art. 371/1.
 
-  Art. 371/2.
+## Art. 371/2.
 
-  Art. 371/3.
+## Art. 371/3.
 
 ## Art. 372.
 
@@ -5309,7 +5433,6 @@ Pagina 79 van 145 Copyright Belgisch S taatsblad 18-03-2026
  Inwerkingtreding : 27-03-2001>
 
 ## Art. 381.
-Pagina 80 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 381bis
 
 (afgeschaft bij verandering van nummering) <W 2000-11-28/35, art. 17, 029; Inwerkingtreding :
@@ -5331,7 +5454,7 @@ Pagina 80 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 383bis.
 
-  Art. 383bis/1.
+## Art. 383bis/1.
 
 ## Art. 384.
 
@@ -5369,11 +5492,12 @@ Pagina 80 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   HOOFDSTUK IX. - VERLATING VAN FAMILIE.
 
-  Art. 391bis.<W 05-07-1963, art. 1> Met gevangenisstraf van acht dagen tot zes maanden en met geldboete
+## Art. 391bis
+
+<W 05-07-1963, art. 1> Met gevangenisstraf van acht dagen tot zes maanden en met geldboete
  van vijftig [euro] tot vijfhonderd [euro] of met een van die straffen alleen, onverminderd de toepassing van
  strengere straffen, indien daartoe grond bestaat, wordt gestraft hij die, na door een rechterlijke beslissing
  waartegen geen verzet of hoger beroep meer openstaat, te zijn veroordeeld om een uitkering tot onderhoud te
-Pagina 81 van 145 Copyright Belgisch S taatsblad 18-03-2026
  betalen aan zijn echtgenoot, aan zijn bloedverwanten in de nederdalende of in de opgaande lijn, meer dan twee
  maanden vrijwillig in gebreke blijft de termijnen ervan te kwijten. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
    (Met dezelfde straffen wordt gestraft hij die, in de omstandigheden omschreven in het eerste lid, niet voldoet
@@ -5426,7 +5550,6 @@ Pagina 81 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 391quater
 
-<ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
  gevangenisstraf van een maand tot een jaar en met geldboete van zesentwintig euro tot vijfhonderd euro of met
  een van die straffen alleen wordt gestraft hij die voor zichzelf, met bedrieglijk inzicht, een adoptie heeft verkregen
  of proberen te verkrijgen die strijdig is met de bepalingen van de wet.
@@ -5435,7 +5558,6 @@ Pagina 81 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 391quinquies
 
-<ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een
  gevangenisstraf van een jaar tot vijf jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro of
  met een van die straffen alleen wordt gestraft hij die bij een adoptie als tussenpersoon is opgetreden en voor een
  derde een adoptie heeft verkregen of proberen te verkrijgen zonder lid te zijn van een daartoe vooraf door de
@@ -5444,11 +5566,12 @@ Pagina 81 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
    HOOFDSTUK XI. - Gedwongen huwelijk [1 en gedwongen wettelijke samenwoning]1. <W 2007-04-25/76, art. 2;
  Inwerkingtreding : 25-06-2007>
-Pagina 82 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2013-06-02/08, art. 13, 098; Inwerkingtreding : 03-10-2013>
 
-  Art. 391sexies.<W 2007-04-25/76, art. 2; Inwerkingtreding : 25-06-2007> Hij die iemand door geweld of
+## Art. 391sexies
+
+<W 2007-04-25/76, art. 2; Inwerkingtreding : 25-06-2007> Hij die iemand door geweld of
  bedreiging dwingt een huwelijk aan te gaan, wordt gestraft met gevangenisstraf [1 van drie maanden tot vijf jaar
  en met geldboete van tweehonderdvijftig euro tot vijfduizend euro]1.
   De poging wordt gestraft met gevangenisstraf [1 van twee maanden tot drie jaar en met geldboete van
@@ -5459,7 +5582,9 @@ Pagina 82 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<W 2013-06-02/08, art. 14, 098; Inwerkingtreding : 03-10-2013>
   (2)<W 2024-01-18/06, art. 26, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 391septies.[1 Hij die iemand door geweld of bedreiging dwingt een wettelijke samenwoning aan te gaan,
+## Art. 391septies
+
+[1 Hij die iemand door geweld of bedreiging dwingt een wettelijke samenwoning aan te gaan,
  wordt gestraft met gevangenisstraf van drie maanden tot vijf jaar en met geldboete van tweehonderdvijftig euro
  tot vijfduizend euro.
    De poging wordt gestraft met gevangenisstraf van twee maanden tot drie jaar en met geldboete van
@@ -5470,7 +5595,9 @@ Pagina 82 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2013-06-02/08, art. 15, 098; Inwerkingtreding : 03-10-2013>
   (2)<W 2024-01-18/06, art. 27, 157; Inwerkingtreding : 05-02-2024>
 
-   Art. 391octies.[1 § 1. De rechter die een veroordeling uitspreekt op basis van de artikelen 391sexies of
+## Art. 391octies
+
+[1 § 1. De rechter die een veroordeling uitspreekt op basis van de artikelen 391sexies of
  391septies of die de schuld vaststelt voor een inbreuk op deze bepalingen, kan ook de nietigheid van het huwelijk
  of van de wettelijke samenwoning uitspreken, op vordering van de procureur des Konings of van enige in het
  geding belanghebbende partij.
@@ -5511,7 +5638,6 @@ Pagina 82 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2018-06-18/03, art. 103, 130; Inwerkingtreding : 31-03-2019>
    (3)<W 2023-09-13/08, art. 75, 155; Inwerkingtreding : 01-01-2024>
 
-Pagina 83 van 145 Copyright Belgisch S taatsblad 18-03-2026
   TITEL VIII. - MISDADEN EN WANBEDRIJVEN TEGEN PERSONEN.
 
    HOOFDSTUK I. - (OPZETTELIJK DODEN, OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL, FOLTERING,
@@ -5525,7 +5651,9 @@ Opzettelijk worden genoemd het doden en het toebrengen van letsel met het oogmer
  afhankelijk van enige omstandigheid of van enige voorwaarde en zelfs al heeft de dader zich vergist omtrent de
  persoon die het slachtoffer van de aanranding is geworden.
 
-   Art. 392bis.<W 31-03-1987, art. 94> Voor de toepassing van dit hoofdstuk worden met de woorden " vader ",
+## Art. 392bis
+
+<W 31-03-1987, art. 94> Voor de toepassing van dit hoofdstuk worden met de woorden " vader ",
  " moeder ", " ouders " en " bloedverwant in opgaande lijn " ook de adoptanten en, in geval van adoptie en volle
  adoptie, ook de bloedverwanten in de opgaande lijn van de adoptanten bedoeld.
    [1 Voor de toepassing van hetzelfde hoofdstuk betekent het woord "journalist": de persoon die een activiteit
@@ -5594,7 +5722,6 @@ Vergiftiging wordt genoemd de doodslag gepleegd door middel van stoffen die min 
 ## Art. 398
 
 Hij die opzettelijk verwondingen of slagen toebrengt, wordt gestraft met gevangenisstraf van acht
-Pagina 84 van 145 Copyright Belgisch S taatsblad 18-03-2026
  dagen tot zes maanden en met geldboete van zesentwintig [euro] tot honderd [euro] of met een van die straffen
  alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    Ingeval de schuldige heeft gehandeld met voorbedachte rade, wordt hij veroordeeld tot gevangenisstraf van
@@ -5610,7 +5737,9 @@ Indien de slagen of verwondingen een ziekte of ongeschiktheid tot het verrichten
  [euro] tot vijfhonderd [euro], indien hij met voorbedachten rade heeft gehandeld. <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 400.(Zie NOTA 1 onder TITEL) De straf is gevangenisstraf van twee jaar tot vijf jaar en geldboete van
+## Art. 400
+
+(Zie NOTA 1 onder TITEL) De straf is gevangenisstraf van twee jaar tot vijf jaar en geldboete van
  tweehonderd [euro] tot vijfhonderd [euro], indien de slagen of verwondingen, hetzij een ongeneeslijk lijkende
  ziekte, hetzij een [1 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden]1, hetzij
  het volledig verlies van het gebruik van een orgaan, hetzij een zware verminking ten gevolg hebben. <W 200006-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -5639,7 +5768,9 @@ Met gevangenisstraf van drie maanden tot vijf jaar en met geldboete van vijftig 
  kunnen teweegbrengen, of stoffen die, al zijn zij niet van die aard dat zij de dood teweegbrengen, toch de
  gezondheid zwaar kunnen schaden. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  Art. 403.(Zie NOTA 1 onder TITEL) De straf is (opsluiting van vijf jaar tot tien jaar), wanneer die stoffen hetzij
+## Art. 403
+
+(Zie NOTA 1 onder TITEL) De straf is (opsluiting van vijf jaar tot tien jaar), wanneer die stoffen hetzij
  een ongeneeslijk lijkende ziekte, hetzij een [1 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer
  dan vier maanden]1, hetzij het volledig verlies van het gebruik van een orgaan ten gevolge hebben. <W 2003-0123/42, art. 68, 041; Inwerkingtreding : 13-03-2003>
   ----------
@@ -5657,7 +5788,9 @@ Poging om iemand stoffen als bedoeld in artikel 402 toe te dienen, zonder het oo
  wordt gestraft met gevangenisstraf van een maand tot drie jaar en met geldboete van zesentwintig [euro] tot
  driehonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-   Art. 405bis.<Ingevoegd bij W 2000-11-28/35, art. 28, 029; Inwerkingtreding : 27-03-2001> In de hierna
+## Art. 405bis
+
+<Ingevoegd bij W 2000-11-28/35, art. 28, 029; Inwerkingtreding : 27-03-2001> In de hierna
  bedoelde gevallen, indien de misdaad of het wanbedrijf is gepleegd op een minderjarige of op een persoon [1 van
  wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of
  geestelijk gebrek of onvolwaardigheid duidelijk is of de dader bekend is en die]1 niet bij machte is om in zijn
@@ -5669,7 +5802,6 @@ Poging om iemand stoffen als bedoeld in artikel 402 toe te dienen, zonder het oo
    3° in de gevallen bedoeld in artikel 399, eerste lid, zijn de straffen gevangenisstraf van vier maanden tot vier jaar
  en geldboete van vijftig [euro] tot tweehonderd [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
    4° in de gevallen bedoeld in artikel 399, tweede lid, zijn de straffen gevangenisstraf van een jaar tot vijf jaar en
-Pagina 85 van 145 Copyright Belgisch S taatsblad 18-03-2026
  geldboete van honderd [euro] tot vijfhonderd [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   5° in de gevallen bedoeld in artikel 400, eerste lid, is de straf opsluiting van vijf jaar tot tien jaar;
   6° in de gevallen bedoeld in artikel 400, tweede lid, is de straf opsluiting van tien jaar tot vijftien jaar;
@@ -5681,7 +5813,9 @@ Pagina 85 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 10, 084; Inwerkingtreding : 02-02-2012>
 
-  Art. 405ter.<Ingevoegd bij W 2000-11-28/35, art. 28, 029; Inwerkingtreding : 27-03-2001> In de gevallen
+## Art. 405ter
+
+<Ingevoegd bij W 2000-11-28/35, art. 28, 029; Inwerkingtreding : 27-03-2001> In de gevallen
  bepaald in de artikelen 398 tot 405bis, indien de misdaad of het wanbedrijf is gepleegd op een minderjarige of op
  [1 een persoon die kwetsbaar was ten gevolge van zijn leeftijd, zwangerschap, een ziekte, dan wel een lichamelijk
  of geestelijk gebrek of onvolwaardigheid, en die]1 niet bij machte is om in zijn onderhoud te voorzien, door zijn
@@ -5693,7 +5827,9 @@ Pagina 85 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 11, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 405quater.[1 [2 Wanneer een van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van
+## Art. 405quater
+
+[1 [2 Wanneer een van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van
  of de vijandigheid tegen een persoon wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische
  afstamming, nationaliteit, geslacht, zwangerschap, bevalling, het geven van borstvoeding, medisch begeleide
  voortplanting, ouderschap, zogenaamde geslachtsverandering, genderidentiteit, genderexpressie,
@@ -5723,7 +5859,9 @@ Pagina 85 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2022-12-06/02, art. 27, 152; Inwerkingtreding : 31-12-2022>
    (3)<W 2024-01-18/06, art. 31, 157; Inwerkingtreding : 05-02-2024>
 
-   Art. 406.(Zie NOTA 1 onder TITEL) <W 07-06-1963, art. 2> Met (opsluitingvan vijf jaar tot tien jaar) wordt
+## Art. 406
+
+(Zie NOTA 1 onder TITEL) <W 07-06-1963, art. 2> Met (opsluitingvan vijf jaar tot tien jaar) wordt
  gestraft hij die kwaadwillig het verkeer op de spoorweg, de weg, de binnenwateren of op zee belemmert door
  enige handeling die een aanslag uitmaakt op de verkeerswegen, de kunstwerken of het materieel, of door enige
  andere handeling die het verkeer met of het gebruik van vervoermiddelen gevaarlijk kan maken of die ongevallen
@@ -5737,7 +5875,6 @@ Pagina 85 van 145 Copyright Belgisch S taatsblad 18-03-2026
  vijfhonderd [euro] wordt gestraft hij die, door enige andere handeling, kwaadwillig het verkeer dat gaande is op
  de spoorweg of op de weg, belet. [1 De rechter kan bovendien het verval van het recht tot het besturen van een
 
-Pagina 86 van 145 Copyright Belgisch S taatsblad 18-03-2026
  motorvoertuig uitspreken voor een duur van ten minste acht dagen en ten hoogste vijf jaar of levenslang
  overeenkomstig de artikelen 38 tot 49/1 van de gecoördineerde wetten van 16 maart 1968 betreffende de politie
  over het wegverkeer.]1 <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -5756,7 +5893,9 @@ Pagina 86 van 145 Copyright Belgisch S taatsblad 18-03-2026
 (Zie NOTA 1 onder TITEL) Indien het feit iemands dood ten gevolge heeft, wordt de schuldige gestraft
  met (opsluiting van twintig jaar tot dertig jaar). <W 2003-01-23/42, art. 72, 041; Inwerkingtreding : 13-03-2003>
 
-   Art. 409.<W 2000-11-28/35, art. 29, 029; Inwerkingtreding : 27-03-2001> § 1. Hij die eender welke vorm van
+## Art. 409
+
+<W 2000-11-28/35, art. 29, 029; Inwerkingtreding : 27-03-2001> § 1. Hij die eender welke vorm van
  verminking van de genitaliën van een persoon van het vrouwelijk geslacht uitvoert, vergemakkelijkt of bevordert,
  met of zonder haar toestemming, wordt gestraft met gevangenisstraf van drie jaar tot vijf jaar.
    De poging wordt gestraft met gevangenisstraf van acht dagen tot een jaar. [1 Met dezelfde straf wordt gestraft
@@ -5783,7 +5922,9 @@ Pagina 86 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (2)<W 2016-02-05/11, art. 24, 114; Inwerkingtreding : 29-02-2016>
    (3)<W 2024-01-18/06, art. 32, 157; Inwerkingtreding : 05-02-2024>
 
-   Art. 410.<W 2000-11-28/35, art. 30, 029; Inwerkingtreding : 27-03-2001> Indien de schuldige, in de gevallen
+## Art. 410
+
+<W 2000-11-28/35, art. 30, 029; Inwerkingtreding : 27-03-2001> Indien de schuldige, in de gevallen
  omschreven in de artikelen 398 tot 405, de misdaad of het wanbedrijf pleegt tegen zijn vader, moeder of andere
  bloedverwanten [1 in de rechte opgaande lijn of in de zijlijn tot de vierde graad]1, wordt de minimumstraf bedoeld
  in die artikelen verdubbeld in geval van gevangenisstraf en met twee jaar verhoogd in geval van opsluiting.
@@ -5797,7 +5938,9 @@ Pagina 86 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (1)<W 2011-11-26/19, art. 12, 084; Inwerkingtreding : 02-02-2012>
    (2)<W 2024-01-18/06, art. 33, 157; Inwerkingtreding : 05-02-2024>
 
-   Art. 410bis.<ingevoegd bij W 2006-12-20/41, art. 6; Inwerkingtreding : 22-02-2007> [2 Indien in de gevallen
+## Art. 410bis
+
+<ingevoegd bij W 2006-12-20/41, art. 6; Inwerkingtreding : 22-02-2007> [2 Indien in de gevallen
  omschreven in de artikelen 398 tot 405, de misdaad of het wanbedrijf gepleegd wordt tegen een chauffeur, een
  begeleider, een controleur of een loketbediende van een uitbater van een netwerk voor openbaar vervoer, een
  personeelslid door de FOD Justitie tewerkgesteld in een penitentiaire inrichting, een personeelslid aangesteld voor
@@ -5809,7 +5952,6 @@ Pagina 86 van 145 Copyright Belgisch S taatsblad 18-03-2026
  maatschappelijk welzijn, een erkend journalist, een advocaat, een notaris, een gerechtsdeurwaarder, in de
  uitoefening of naar aanleiding van de uitoefening van deze functie, zijn de straffen die welke bij het derde lid
 
-Pagina 87 van 145 Copyright Belgisch S taatsblad 18-03-2026
  worden bepaald.]2
    [1 Indien]1 de schuldige, die als leerling of student is ingeschreven in een onderwijsinstelling of er was
  ingeschreven tijdens de zes maanden die aan de feiten zijn voorafgegaan, of die vader, moeder of familielid van
@@ -5859,7 +6001,9 @@ De misdaden en wanbedrijven, in het vorige artikel genoemd, zijn eveneens versch
 
 (Opgeheven) <W 1997-11-24/51, art. 3, 020; Inwerkingtreding : 16-02-1998>
 
-   Art. 414.[1 Wanneer het verschonend feit bewezen is, wordt de straf verminderd :
+## Art. 414
+
+[1 Wanneer het verschonend feit bewezen is, wordt de straf verminderd :
     - tot gevangenisstraf van een jaar tot vijf jaar en tot geldboete van honderd euro tot vijfhonderd euro, indien
  het een misdaad betreft, waarop een maximumstraf van meer dan twintig jaar opsluiting gesteld is, ongeacht of
  deze al dan niet gecorrectionaliseerd is;
@@ -5890,7 +6034,6 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
  afweren, bij nacht, van de beklimming of de braak van de afsluitingen, muren of toegangen van een bewoond
  huis of appartement of de aanhorigheden ervan, behalve wanneer blijkt dat de dader niet kon geloven aan een
  aanranding van personen, hetzij als rechtstreeks doel van hem die poogt in te klimmen of in te breken, hetzij als
-Pagina 88 van 145 Copyright Belgisch S taatsblad 18-03-2026
  gevolg van de weerstand welke diens voornemen mocht ontmoeten;
   Wanneer het feit plaatsheeft bij het zich verdedigen tegen de daders van diefstal of plundering die met geweld
  tegen personen wordt gepleegd.
@@ -5900,7 +6043,6 @@ Pagina 88 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 417/1
 
-<ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002> Voor de toepassing van
  deze afdeling wordt verstaan onder :
    1° foltering : elke opzettelijke onmenselijke behandeling die hevige pijn of ernstig en vreselijk lichamelijk of
  geestelijk lijden veroorzaakt;
@@ -5914,7 +6056,6 @@ Pagina 88 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 417/2
 
-<ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002> Hij die een persoon aan
  foltering onderwerpt, wordt gestraft met opsluiting van tien jaar tot vijftien jaar.
    Het misdrijf bedoeld in het eerste lid wordt gestraft met opsluiting van vijftien jaar tot twintig jaar in de volgende
  gevallen :
@@ -5953,14 +6094,15 @@ Pagina 88 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (3)<W 2022-03-21/01, art. 95, 148; Inwerkingtreding : 01-06-2022>
    (4)<W 2024-01-18/06, art. 35, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 417/3.<ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002> Hij die een persoon aan
+## Art. 417/3
+
+<ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002> Hij die een persoon aan
  een onmenselijke behandeling onderwerpt, wordt gestraft met opsluiting van vijf jaar tot tien jaar.
   Het misdrijf bedoeld in het eerste lid wordt gestraft met opsluiting van tien jaar tot vijftien jaar in de volgende
  gevallen :
   1° als het is gepleegd :
   a) hetzij door een openbaar officier of ambtenaar, drager of agent van de openbare macht die handelt naar
  aanleiding van de uitoefening van zijn bediening;
-Pagina 89 van 145 Copyright Belgisch S taatsblad 18-03-2026
    b) hetzij op een persoon [1 van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een
  ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid of precaire situatie duidelijk was of de
  dader bekend was]1;
@@ -5993,7 +6135,6 @@ Pagina 89 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 417/4
 
-<ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002> Hij die een persoon aan
  een onterende behandeling onderwerpt, wordt gestraft met gevangenisstraf van vijftien dagen tot twee jaar en
  met geldboete van 50 EUR tot 300 EUR of met een van die straffen alleen.
   [1 Ingeval de onterende behandeling wordt gepleegd ten aanzien van een persoon van wie de kwetsbare
@@ -6026,7 +6167,6 @@ Pagina 89 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 4, 148; Inwerkingtreding : 01-06-2022>
 
-Pagina 90 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 417/5
 
 [1 Definitie van toestemming met betrekking tot het seksueel zelfbeschikkingsrecht
@@ -6097,7 +6237,6 @@ Pagina 90 van 145 Copyright Belgisch S taatsblad 18-03-2026
  voor ongewenste blikken.
    Onder ontblote persoon wordt begrepen de persoon die zonder toestemming of buiten zijn medeweten een
  deel van zijn lichaam toont dat op grond van zijn seksuele integriteit verhuld zou zijn gebleven indien die persoon
-Pagina 91 van 145 Copyright Belgisch S taatsblad 18-03-2026
  had geweten dat hij werd geobserveerd of dat er een beeld- of geluidsopname van hem werd gemaakt.
    Dit misdrijf wordt bestraft met gevangenisstraf van zes maanden tot vijf jaar.
    Voyeurisme bestaat, zodra er begin van uitvoering is.]1
@@ -6167,7 +6306,6 @@ Pagina 91 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 15, 148; Inwerkingtreding : 01-06-2022>
 
-Pagina 92 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 417/14
 
 [1 Niet-consensuele seksuele handelingen gepleegd onder bedreiging van een wapen of op een
@@ -6241,7 +6379,6 @@ Pagina 92 van 145 Copyright Belgisch S taatsblad 18-03-2026
    - voyeurisme wordt bestraft met opsluiting van tien jaar tot vijtien jaar;
    - niet-consensuele verspreiding van seksueel getinte inhoud wordt bestraft met opsluiting van vijftien jaar tot
  twintig jaar;
-Pagina 93 van 145 Copyright Belgisch S taatsblad 18-03-2026
    - niet-consensuele verspreiding met kwaadwillig opzet of uit winstbejag van seksueel getinte inhoud wordt
  bestraft met opsluiting van vijftien jaar tot twintig jaar en met geldboete van tweehonderd euro tot tienduizend
  euro;
@@ -6273,7 +6410,9 @@ Pagina 93 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<Ingevoegd bij W 2022-03-21/01, art. 21, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/20.[1 Niet-consensuele seksuele handelingen gepleegd vanuit een discriminerende drijfveer
+## Art. 417/20
+
+[1 Niet-consensuele seksuele handelingen gepleegd vanuit een discriminerende drijfveer
     Niet-consensuele seksuele handelingen waarvan een van de drijfveren bestaat uit de haat, het misprijzen van of
  de vijandigheid tegen een persoon wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische
  afstamming, nationaliteit, geslacht, zwangerschap, [2 bevalling, het geven van borstvoeding, medisch begeleide
@@ -6311,7 +6450,6 @@ Pagina 93 van 145 Copyright Belgisch S taatsblad 18-03-2026
  bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van tweehonderd euro tot tienduizend euro;
     - verkrachting wordt bestraft met opsluiting van vijftien jaar tot twintig jaar.]1
   ----------
-Pagina 94 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2022-03-21/01, art. 23, 148; Inwerkingtreding : 01-06-2022>
 
 ## Art. 417/22
@@ -6377,7 +6515,6 @@ Pagina 94 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 30, 148; Inwerkingtreding : 01-06-2022>
 
-Pagina 95 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 417/25
 
 [1 Bewegen van een minderjarige tot het plegen van ontucht of prostitutie
@@ -6452,7 +6589,6 @@ Pagina 95 van 145 Copyright Belgisch S taatsblad 18-03-2026
    Ter beschikking stellen van een ruimte aan een minderjarige met het oog op ontucht of prostitutie is het
  verkopen, verhuren of ter beschikking stellen van een kamer of enige andere ruimte aan een minderjarige met
  het oogmerk de ontucht of prostitutie van een minderjarige mogelijk te maken.
-Pagina 96 van 145 Copyright Belgisch S taatsblad 18-03-2026
     Dit misdrijf wordt bestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete van vijfhonderd euro tot
  vijftigduizend euro.
     De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.]1
@@ -6526,7 +6662,6 @@ Pagina 96 van 145 Copyright Belgisch S taatsblad 18-03-2026
    - het bewegen van een minderjarige tot het plegen van ontucht of prostitutie zoals bedoeld in de artikelen
  417/25 en 417/26;
 
-Pagina 97 van 145 Copyright Belgisch S taatsblad 18-03-2026
    - het werven van een minderjarige voor ontucht of prostitutie zoals bedoeld in de artikelen 417/27 en 417/28;
    - het houden van een huis van ontucht of prostitutie waar een minderjarige ontucht of prostitutie pleegt zoals
  bedoeld in de artikelen 417/29 en 417/30;
@@ -6590,14 +6725,15 @@ Pagina 97 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 47, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/42.[1 Verbeurdverklaring van het instrument van het misdrijf
+## Art. 417/42
+
+[1 Verbeurdverklaring van het instrument van het misdrijf
    In afwijking van artikel 42, 1°, worden de zaken die gediend hebben of bestemd waren tot het plegen van de
  misdrijven omschreven in deze onderafdeling verbeurd verklaard, ook al zijn ze geen eigendom van de
  veroordeelde, zonder dat deze verbeurdverklaring evenwel afbreuk doet aan de rechten die derden kunnen laten
  gelden op die goederen.
    De verbeurdverklaring wordt eveneens toegepast, onder dezelfde voorwaarden, op de onroerende goederen
  of gedeelten ervan die gediend hebben of bestemd waren tot het plegen van het misdrijf.]1
-Pagina 98 van 145 Copyright Belgisch S taatsblad 18-03-2026
   [2 Ze kan ook worden toegepast op de tegenwaarde van de in het eerste of het tweede lid bedoelde roerende
  of onroerende goederen die werden vervreemd tussen het tijdstip waarop het misdrijf werd gepleegd en de
  definitieve rechterlijke beslissing.]2
@@ -6646,7 +6782,9 @@ Pagina 98 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<Ingevoegd bij W 2022-03-21/01, art. 52, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/46.[1 Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen
+## Art. 417/46
+
+[1 Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen
     Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen is het bezitten of verwerven, al
  dan niet voor een derde, van beelden van seksueel misbruik van minderjarigen.
     Dit misdrijf wordt bestraft met [2 ...]2 gevangenisstraf van een jaar tot vijf jaar en met geldboete van
@@ -6669,7 +6807,6 @@ Pagina 98 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 [1 Rechtvaardigingsgrond inzake het rechtens ontvangen, analyseren en overzenden van beelden
  van seksueel misbruik van minderjarigen
-Pagina 99 van 145 Copyright Belgisch S taatsblad 18-03-2026
    Een door de Koning erkende organisatie kan rechtens meldingen die beelden van seksueel misbruik van
  minderjarigen zouden kunnen bevatten, ontvangen, de inhoud en de herkomst ervan analyseren en ze aan de
  politiediensten en gerechtelijke overheden overzenden.
@@ -6715,7 +6852,9 @@ Pagina 99 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 57, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/50.[1 Verzwarende factoren
+## Art. 417/50
+
+[1 Verzwarende factoren
    Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt
  de rechter in het bijzonder rekening met het feit dat:
    - [2 ...]2
@@ -6736,7 +6875,6 @@ Pagina 99 van 145 Copyright Belgisch S taatsblad 18-03-2026
   Afdeling 3. [1 - Openbare zedenschennis.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 59, 148; Inwerkingtreding : 01-06-2022>
-Pagina 100 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 417/51
 
 [1 Vervaardigen of verspreiden van inhoud van extreem pornografische of gewelddadige aard
@@ -6785,7 +6923,9 @@ Pagina 100 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 63, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/55.[1 Verzwarende factoren
+## Art. 417/55
+
+[1 Verzwarende factoren
    Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt
  de rechter in het bijzonder rekening met het feit dat:
    - [2 ...]2
@@ -6806,7 +6946,6 @@ Pagina 100 van 145 Copyright Belgisch S taatsblad 18-03-2026
   Afdeling 4. [1 - Gemeenschappelijke bepalingen.]1
   ----------
 
-Pagina 101 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2022-03-21/01, art. 65, 148; Inwerkingtreding : 01-06-2022>
 
 ## Art. 417/56
@@ -6878,7 +7017,6 @@ Pagina 101 van 145 Copyright Belgisch S taatsblad 18-03-2026
    § 1. In de gevallen omschreven in dit hoofdstuk worden de schuldigen veroordeeld tot de ontzetting van de
  rechten bedoeld in artikel 31, eerste lid.
    § 2. Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen de
-Pagina 102 van 145 Copyright Belgisch S taatsblad 18-03-2026
  veroordeelde verbieden tijdelijk of levenslang, rechtstreeks of onrechtstreeks een rusthuis, een home, een
  bejaardenverblijf of elke andere structuur voor gemeenschappelijk verblijf van kwetsbare personen uit te baten,
  of als vrijwilliger, contractueel of statutair personeelslid dan wel als lid van de bestuurs- en beheersorganen deel
@@ -6912,7 +7050,9 @@ Pagina 102 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 70, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 417/61.[1 De samenloop
+## Art. 417/61
+
+[1 De samenloop
    De straffen bedoeld in de [2 artikelen 417/57 tot 417/59]2 kunnen ook worden uitgesproken bij toepassing van
  de artikelen 62 of 65 wat een veroordeling met zich meebrengt op basis van misdrijven die samenlopen met deze
  bedoeld in dit hoofdstuk.]1
@@ -6948,7 +7088,6 @@ Pagina 102 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 73, 148; Inwerkingtreding : 01-06-2022>
 
-Pagina 103 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 417/64
 
 [1 Het advies van een dienst gespecialiseerd in de begeleiding of behandeling van seksuele
@@ -6968,7 +7107,9 @@ Schuldig aan onopzettelijk doden of aan onopzettelijk toebrengen van letsel is h
  veroorzaakt door gebrek aan voorzichtigheid of voorzorg, maar zonder het oogmerk om de persoon van een
  ander aan te randen.
 
-  Art. 419.Hij die onopzettelijk iemands dood veroorzaakt, wordt gestraft met gevangenisstraf van drie maanden
+## Art. 419
+
+Hij die onopzettelijk iemands dood veroorzaakt, wordt gestraft met gevangenisstraf van drie maanden
  tot twee jaar en met geldboete van vijftig [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding :
  01-01-2002>
   (Wanneer de doding het gevolg is van een verkeersongeval dan bedraagt de gevangenisstraf drie maanden tot
@@ -7018,7 +7159,9 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
 
   ENKELE GEVALLEN VAN SCHULDIG VERZUIM.
 
-  Art. 422bis.<W 06-01-1961, art. 1> Met gevangenisstraf van acht dagen tot (een jaar) en met geldboete van
+## Art. 422bis
+
+<W 06-01-1961, art. 1> Met gevangenisstraf van acht dagen tot (een jaar) en met geldboete van
  vijftig [euro] tot vijfhonderd [euro] of met een van die straffen alleen wordt gestraft hij die verzuimt hulp te
  verlenen of te verschaffen aan iemand die in groot gevaar verkeert, hetzij hij zelf diens toestand heeft
  vastgesteld, hetzij die toestand hem is beschreven door degenen die zijn hulp inroepen. <W 1995-04-13/33, art.
@@ -7027,7 +7170,6 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
  Heeft de verzuimer niet persoonlijk het gevaar vastgesteld waarin de hulpbehoevende verkeerde, dan kan hij niet
  worden gestraft, indien hij op grond van de omstandigheden waarin hij werd verzocht te helpen, kon geloven dat
  het verzoek niet ernstig was of dat er gevaar aan verbonden was.
-Pagina 104 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (De straf bedoeld in het eerste lid wordt op twee jaar gebracht indien de persoon die in groot gevaar verkeert,
  minderjarig is [1 of een persoon is van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een
  ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk was of de dader bekend was]1.)
@@ -7044,7 +7186,9 @@ Pagina 104 van 145 Copyright Belgisch S taatsblad 18-03-2026
  beroering, schipbreuk, overstroming, brand of andere rampen, evenals in geval van roverij, plundering,
  ontdekking op heterdaad, vervolging door het openbaar geroep of van gerechtelijke tenuitvoerlegging.
 
-   Art. 422quater.<W 2007-05-10/35, art. 35, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
+## Art. 422quater
+
+<W 2007-05-10/35, art. 35, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
  artikelen 422bis en 422ter kan het minimum van de bij die artikelen bepaalde correctionele straffen worden
  verdubbeld, [2 wanneer een van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van of de
  vijandigheid tegen een persoon wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische
@@ -7071,7 +7215,9 @@ Pagina 104 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 17, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 423.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Zij die een minderjarige of een
+## Art. 423
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Zij die een minderjarige of een
  persoon [1 van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een
  lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk was of de dader bekend was]1, op om het even welke
  plaats verlaten of doen verlaten, worden gestraft met gevangenisstraf van een maand tot drie jaar en met
@@ -7085,7 +7231,9 @@ Pagina 104 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2011-11-26/19, art. 18, 084; Inwerkingtreding : 02-02-2012>
 
-  Art. 424.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Met gevangenisstraf van acht
+## Art. 424
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Met gevangenisstraf van acht
  dagen tot zes maanden en met geldboete van vijftig [euro] tot zeshonderd [euro] of met een van die straffen
  alleen, onverminderd, indien daartoe grond bestaat, de toepassing van strengere strafbepalingen, worden
  gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -7096,7 +7244,6 @@ Pagina 104 van 145 Copyright Belgisch S taatsblad 18-03-2026
  de opgaande lijn in een behoeftige toestand achterlaten, ook al wordt de persoon niet alleen gelaten, die weigeren
  hem weer bij zich te nemen en weigeren zijn onderhoud te betalen als zij hem aan een derde hebben
 
-Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
  toevertrouwd of als hij bij rechterlijke beslissing aan een derde is toevertrouwd.]1
   In geval van een tweede veroordeling wegens een van de in dit artikel omschreven misdrijven, gepleegd binnen
  een termijn van vijf jaar, te rekenen van de eerste, kunnen de straffen worden verdubbeld.
@@ -7108,7 +7255,9 @@ Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 20, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 425.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Zij die een minderjarige of [1
+## Art. 425
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Zij die een minderjarige of [1
  een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een
  lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk of bekend was bij de pleger van de feiten en die]1 niet
  in staat is om in zijn onderhoud te voorzien, opzettelijk voedsel of verzorging onthouden, in dusdanige mate dat
@@ -7123,7 +7272,9 @@ Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2011-11-26/19, art. 21, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 426.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met gevangenisstraf van acht
+## Art. 426
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met gevangenisstraf van acht
  dagen tot twee maanden en met geldboete van vijftig [euro] tot vijfhonderd [euro] of met een van die straffen
  alleen, onverminderd, indien daartoe grond bestaat, de toepassing van strengere strafbepalingen, worden
  gestraft zij die de bewaring hebben van een minderjarige of van [1 een persoon die kwetsbaar was ten gevolge
@@ -7141,7 +7292,9 @@ Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
    Afdeling III. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Bepaling aan de afdelingen I en
  II gemeen.
 
-  Art. 427.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen omschreven in de
+## Art. 427
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen omschreven in de
  artikelen 423, 425 en 426, wordt de minimumstraf gesteld in die artikelen verdubbeld in geval van
  gevangenisstraf en met twee jaar verhoogd in geval van opsluiting indien de schuldige de daden tegen zijn vader,
  moeder, adoptanten of andere bloedverwanten in de opgaande lijn heeft gepleegd.
@@ -7156,7 +7309,9 @@ Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 24, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 428.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met opsluiting van vijf jaar tot
+## Art. 428
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met opsluiting van vijf jaar tot
  tien jaar wordt gestraft hij die een minderjarige die de leeftijd van twaalf jaar niet heeft bereikt, ontvoert of doet
  ontvoeren, zelfs als de minderjarige zijn ontvoerder vrijwillig is gevolgd.
    § 2. Met opsluiting van vijf jaar tot tien jaar wordt gestraft hij die een minderjarige die de leeftijd van twaalf jaar
@@ -7164,7 +7319,6 @@ Pagina 105 van 145 Copyright Belgisch S taatsblad 18-03-2026
  ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk was of de dader bekend was]1
  ontvoert of doet ontvoeren door geweld, list of bedreiging.
 
-Pagina 106 van 145 Copyright Belgisch S taatsblad 18-03-2026
    § 3. (...) <W 2002-06-14/42, art. 6, 036; Inwerkingtreding : 24-08-2002>
    § 4. De straf is opsluiting van vijftien jaar tot twintig jaar indien de ontvoering of de gevangenhouding van de
  ontvoerde minderjarige [1 of van de in § 2 bedoelde persoon]1 , hetzij een ongeneeslijk lijkende ziekte, hetzij een
@@ -7176,13 +7330,17 @@ Pagina 106 van 145 Copyright Belgisch S taatsblad 18-03-2026
    (1)<W 2011-11-26/19, art. 25, 084; Inwerkingtreding : 02-02-2012>
    (2)<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>
 
-  Art. 429.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Met dezelfde straffen als de dader
+## Art. 429
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Met dezelfde straffen als de dader
  van de ontvoering wordt gestraft hij die een minderjarige [1 of een kwetsbaar persoon als bedoeld in artikel 428,
  § 2, van wie hij weet dat hij is ontvoerd]1, bij zich houdt.
   ----------
   (1)<W 2011-11-26/19, art. 26, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 430.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen bedoeld in de
+## Art. 430
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> In de gevallen bedoeld in de
  artikelen 428 en 429, met uitzondering van de gevallen bedoeld in [2 artikel 428, §§ 4 en 5]2, is de straf
  gevangenisstraf van twee jaar tot vijf jaar en geldboete van tweehonderd [euro] tot vijfhonderd [euro] indien,
  binnen vijf dagen na de ontvoering, de ontvoerder of de persoon bedoeld in artikel 429 [1 de ontvoerde
@@ -7206,7 +7364,9 @@ Pagina 106 van 145 Copyright Belgisch S taatsblad 18-03-2026
  hij gestraft met gevangenisstraf van een jaar tot vijf jaar en met geldboete van zesentwintig [euro] tot
  tweehonderd [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
 
-  Art. 432.<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met gevangenisstraf van acht
+## Art. 432
+
+<W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> § 1. Met gevangenisstraf van acht
  dagen tot een jaar en met geldboete van zesentwintig [euro] tot duizend [euro], of met een van deze straffen
  alleen worden gestraft :<W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   de vader of moeder die het minderjarige kind onttrekt of poogt te onttrekken aan de rechtsvervolging, tegen dit
@@ -7233,7 +7393,6 @@ Pagina 106 van 145 Copyright Belgisch S taatsblad 18-03-2026
  akte van echtscheiding]1, het minderjarige kind onttrekt of poogt te onttrekken aan de bewaring van hen aan wie
  het krachtens de beslissing of de minnelijke schikking is toevertrouwd, die het niet afgeeft aan hen die het recht
  hebben het op te eisen of die het, zelfs met zijn toestemming, ontvoert of doet ontvoeren.
-Pagina 107 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2023-09-13/08, art. 76, 155; Inwerkingtreding : 01-01-2024>
 
@@ -7242,7 +7401,9 @@ Pagina 107 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 28, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 433.<W 2005-08-10/62, art. 4, 054 ; Inwerkingtreding : 02-09-2005> Onder voorbehoud van de
+## Art. 433
+
+<W 2005-08-10/62, art. 4, 054 ; Inwerkingtreding : 02-09-2005> Onder voorbehoud van de
  toepassing van artikel 433quinquies, wordt eenieder die een minderjarige [1 of een persoon van wie de
  kwetsbare toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of geestelijk
  gebrek of onvolwaardigheid, duidelijk was of de dader bekend was,]1 rechtstreeks of via een tussenpersoon,
@@ -7270,7 +7431,6 @@ Pagina 107 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 433bis
 
-<ingevoegd bij W 2005-08-10/62, art. 6 ; Inwerkingtreding : 02-09-2005> Publicatie en
  verspreiding van het verslag van de debatten voor de jeugdrechtbank, voor de onderzoeksrechter en voor de
  kamers van het hof van beroep die bevoegd zijn om over het hoger beroep tegen hun beslissingen te oordelen,
  door middel van boeken, pers, film, radio, televisie, of op enige andere wijze, zijn verboden.
@@ -7305,7 +7465,6 @@ Pagina 107 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-10/25, art. 3, 103; Inwerkingtreding : 10-05-2014>
 
-Pagina 108 van 145 Copyright Belgisch S taatsblad 18-03-2026
   HOOFDSTUK IIIbis. - Exploitatie van bedelarij <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-092005>
 
    Artikel 433ter.<Ingevoegd bij W 2005-08-10/61, art. 7; Inwerkingtreding : 12-09-2005> Met gevangenisstraf
@@ -7321,7 +7480,9 @@ Pagina 108 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2013-06-24/24, art. 3, 097; Inwerkingtreding : 02-08-2013>
 
-   Art. 433quater.<Ingevoegd bij W 2005-08-10/61, art. 8; Inwerkingtreding : 12-09-2005> Het in artikel 433ter,
+## Art. 433quater
+
+<Ingevoegd bij W 2005-08-10/61, art. 8; Inwerkingtreding : 12-09-2005> Het in artikel 433ter,
  eerste lid, bedoelde misdrijf wordt gestraft met gevangenisstraf van een jaar tot vijf jaar en met geldboete van
  vijfhonderd euro tot vijftigduizend euro wanneer het wordt gepleegd :
    1° ten opzichte van een minderjarige;
@@ -7359,7 +7520,9 @@ Pagina 108 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 76, 148; Inwerkingtreding : 01-06-2022>
 
-  Art. 433quater/2.[1 Reclame maken voor prostitutie
+## Art. 433quater/2
+
+[1 Reclame maken voor prostitutie
    § 1. Reclame maken voor prostitutie is:
    - het met welk middel ook, op enigerlei wijze, direct of indirect, reclame maken, uitgeven, verdelen of
  verspreiden voor een aanbod van diensten van seksuele aard door een meerderjarige, zelfs indien het aanbod
@@ -7372,7 +7535,6 @@ Pagina 108 van 145 Copyright Belgisch S taatsblad 18-03-2026
    Het verbod is niet van toepassing:
    - ten aanzien van een meerderjarige die reclame maakt voor eigen seksuele diensten achter een raam in een
  ruimte die specifiek voor prostitutie is bestemd;
-Pagina 109 van 145 Copyright Belgisch S taatsblad 18-03-2026
    - ten aanzien van een meerderjarige die reclame plaatst voor eigen seksuele diensten op een internetplatform
  of enig ander medium of een onderdeel ervan, die specifiek voor dit doel zijn bestemd;
    - ten aanzien van de aanbieder van een internetplatform of enig ander medium of een onderdeel ervan, die
@@ -7407,7 +7569,9 @@ Pagina 109 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 78, 148; Inwerkingtreding : 01-06-2022>
 
-   Art. 433quater/4.[1 Verzwaard misbruik van prostitutie
+## Art. 433quater/4
+
+[1 Verzwaard misbruik van prostitutie
     Misbruik van prostitutie, zoals bedoeld in de artikelen 433quater/1 tot 433quater/3 is verzwaard indien het
  misdrijf werd gepleegd tegen een kwetsbare meerderjarige ten gevolge van zijn onwettige of precaire
  administratieve toestand, zijn precaire sociale toestand, zijn leeftijd, een zwangerschap, een ziekte dan wel een
@@ -7443,7 +7607,6 @@ Pagina 109 van 145 Copyright Belgisch S taatsblad 18-03-2026
    De sluiting van de inrichting houdt het verbod in om hierin enige activiteit uit te oefenen die verband houdt met
  diegene die geleid heeft tot het plegen van het misdrijf. De sluiting gaat in vanaf de dag waarop de veroordeling in
  kracht van gewijsde is getreden. Bij gebreke aan vrijwillige sluiting gebeurt deze op initiatief van het openbaar
-Pagina 110 van 145 Copyright Belgisch S taatsblad 18-03-2026
  ministerie op kosten van de veroordeelde.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 80, 148; Inwerkingtreding : 01-06-2022>
@@ -7511,10 +7674,11 @@ Pagina 110 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
   HOOFDSTUK IIIter. Mensenhandel <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09-2005>
 
-  Art. 433quinquies.<Ingevoegd bij W 2005-08-10/61, art. 10; Inwerkingtreding : 12-09-2005> § 1. [1 Levert het
+## Art. 433quinquies
+
+<Ingevoegd bij W 2005-08-10/61, art. 10; Inwerkingtreding : 12-09-2005> § 1. [1 Levert het
  misdrijf mensenhandel op, de werving, het vervoer, de overbrenging, de huisvesting, de opvang van een
  persoon, het nemen of de overdracht van de controle over hem met als doel :
-Pagina 111 van 145 Copyright Belgisch S taatsblad 18-03-2026
    1° de uitbuiting van prostitutie of andere vormen van seksuele uitbuiting;
    2° de uitbuiting van bedelarij;
    3° het verrichten van werk of het verlenen van diensten, in omstandigheden die in strijd zijn met de menselijke
@@ -7535,7 +7699,9 @@ Pagina 111 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (2)<W 2013-06-24/24, art. 5, 097; Inwerkingtreding : 02-08-2013>
   (3)<W 2019-05-22/19, art. 2, 141; Inwerkingtreding : 01-07-2019>
 
-  Art. 433sexies.<Ingevoegd bij W 2005-08-10/61, art. 11; Inwerkingtreding : 12-09-2005> Het in artikel
+## Art. 433sexies
+
+<Ingevoegd bij W 2005-08-10/61, art. 11; Inwerkingtreding : 12-09-2005> Het in artikel
  433quinquies, § 1, bedoelde misdrijf wordt gestraft met opsluiting van vijf jaar tot tien jaar en met geldboete van
  zevenhonderd vijftig euro tot vijfenzeventigduizend euro ingeval het werd gepleegd :
   1° door een persoon die gezag heeft over het slachtoffer of door een persoon die misbruik heeft gemaakt van
@@ -7546,7 +7712,9 @@ Pagina 111 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2013-06-24/24, art. 6, 097; Inwerkingtreding : 02-08-2013>
 
-  Art. 433septies.<Ingevoegd bij W 2005-08-10/61, art. 12; Inwerkingtreding : 12-09-2005> Het in artikel
+## Art. 433septies
+
+<Ingevoegd bij W 2005-08-10/61, art. 12; Inwerkingtreding : 12-09-2005> Het in artikel
  433quinquies, § 1, bedoelde misdrijf wordt gestraft met opsluiting van tien jaar tot vijftien jaar en met geldboete
  van duizend euro tot honderdduizend euro in de volgende gevallen :
   1° ingeval het misdrijf is gepleegd ten opzichte van een minderjarige;
@@ -7572,7 +7740,9 @@ Pagina 111 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (3)<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>
   (4)<W 2016-05-31/02, art. 8, 118; Inwerkingtreding : 18-06-2016>
 
-  Art. 433octies.<Ingevoegd bij W 2005-08-10/61, art. 13; Inwerkingtreding : 12-09-2005> Het in artikel
+## Art. 433octies
+
+<Ingevoegd bij W 2005-08-10/61, art. 13; Inwerkingtreding : 12-09-2005> Het in artikel
  433quinquies, § 1, bedoelde misdrijf wordt gestraft met opsluiting van vijftien jaar tot twintig jaar en met
  geldboete van duizend euro tot honderdvijftigduizend euro in de volgende gevallen :
   1° ingeval het misdrijf de dood van het slachtoffer heeft veroorzaakt zonder het oogmerk te doden;
@@ -7581,8 +7751,9 @@ Pagina 111 van 145 Copyright Belgisch S taatsblad 18-03-2026
   [1 De boete wordt zo veel keer toegepast als er slachtoffers zijn.]1
   ----------
   (1)<W 2013-06-24/24, art. 8, 097; Inwerkingtreding : 02-08-2013>
-Pagina 112 van 145 Copyright Belgisch S taatsblad 18-03-2026
-  Art. 433novies.[3 § 1.]3 In de gevallen bedoeld in de artikelen [3 433quinquies tot 433octies]3 worden de
+## Art. 433novies
+
+[3 § 1.]3 In de gevallen bedoeld in de artikelen [3 433quinquies tot 433octies]3 worden de
  schuldigen bovendien veroordeeld tot ontzetting van de in [1 artikel 31, eerste lid]1 genoemde rechten.
   [3 § 2.]3 [3 De rechtbanken kunnen de verboden bedoeld [4 in de artikelen [5 417/58,]5 417/59, § 2, en
  433quater/6]4 uitspreken ten aanzien van de personen die veroordeeld zijn voor feiten bedoeld in de artikelen
@@ -7612,7 +7783,9 @@ Pagina 112 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (4)<W 2022-03-21/01, art. 98, 148; Inwerkingtreding : 01-06-2022>
   (5)<W 2022-07-30/03, art. 8, 150; Inwerkingtreding : 18-08-2022>
 
-  Art. 433novies/1.[1 De publicatie en de verspreiding van teksten, tekeningen, foto's, enigerlei beelden of
+## Art. 433novies/1
+
+[1 De publicatie en de verspreiding van teksten, tekeningen, foto's, enigerlei beelden of
  geluidsfragmenten waaruit de identiteit kan blijken van het slachtoffer van het misdrijf bedoeld in artikel
  433quinquies, § 1, eerste lid, 1°, of van de poging hiertoe, zijn verboden en strafbaar overeenkomstig [2 artikel
  417/63,]2 tenzij met schriftelijke toestemming van het slachtoffer of met toestemming, ten behoeve van het
@@ -7647,7 +7820,6 @@ Pagina 112 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<Ingevoegd bij W 2019-05-22/19, art. 4, 141; Inwerkingtreding : 01-07-2019>
 
-Pagina 113 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 433novies/3
 
 [1 Met opsluiting van vijf jaar tot tien jaar en met geldboete van zevenhonderdvijftig euro tot
@@ -7721,7 +7893,6 @@ Pagina 113 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 [1 Met gevangenisstraf van een jaar tot vijf jaar en met geldboete van vijfhonderd euro tot
  vijftigduizend euro wordt gestraft hij die, rechtstreeks of door tussenpersonen, aan een persoon een voordeel
-Pagina 114 van 145 Copyright Belgisch S taatsblad 18-03-2026
  van welke aard dan ook, voor zichzelf of voor een derde, belooft, aanbiedt of overhandigt, opdat hij een orgaan
  wegneemt, transplanteert of gebruikt in strijd met de artikelen 433novies/2 tot 433novies/4, of het plegen van
  een dergelijke handeling vergemakkelijkt.
@@ -7771,7 +7942,9 @@ Pagina 114 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<Ingevoegd bij W 2019-05-22/19, art. 12, 141; Inwerkingtreding : 01-07-2019>
 
-  Art. 433novies/11.[1 § 1. In de gevallen bedoeld in dit Hoofdstuk worden de schuldigen bovendien veroordeeld
+## Art. 433novies/11
+
+[1 § 1. In de gevallen bedoeld in dit Hoofdstuk worden de schuldigen bovendien veroordeeld
  tot ontzetting van de in artikel 31, eerste lid, genoemde rechten.
    § 2. De rechtbanken kunnen de personen die veroordeeld zijn voor feiten bedoeld in dit Hoofdstuk, voor een
  termijn van een jaar tot twintig jaar verbieden een beroepsactiviteit of sociale activiteit uit te oefenen die verband
@@ -7790,7 +7963,6 @@ Pagina 114 van 145 Copyright Belgisch S taatsblad 18-03-2026
  enige andere ruimte. Ze kan ook worden toegepast op de tegenwaarde van deze roerende of onroerende
  goederen die werden vervreemd tussen het tijdstip waarop het misdrijf werd gepleegd en de definitieve
  rechterlijke beslissing.
-Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
    § 6. In geval van beslag op een onroerend goed, wordt gehandeld overeenkomstig de vormvoorschriften van
  artikel 35bis van het Wetboek van strafvordering.]1
   ----------
@@ -7802,7 +7974,9 @@ Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2011-11-26/19, art. 32, 084; Inwerkingtreding : 02-02-2012>
 
-  Art. 433decies.<Ingevoegd bij W 2005-08-10/61, art. 3, 053; Inwerkingtreding : 12-09-2005> Met
+## Art. 433decies
+
+<Ingevoegd bij W 2005-08-10/61, art. 3, 053; Inwerkingtreding : 12-09-2005> Met
  gevangenisstraf van zes maanden tot drie jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend
  euro wordt gestraft hij die rechtstreeks of via een tussenpersoon misbruik maakt van de [1 de kwetsbare
  toestand waarin een persoon verkeert ten gevolge van zijn onwettige of precaire administratieve toestand, zijn
@@ -7817,7 +7991,6 @@ Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 433undecies
 
-<Ingevoegd bij W 2005-08-10/61, art. 17; Inwerkingtreding : 12-09-2005> Het in artikel
  433decies bedoelde misdrijf wordt gestraft met gevangenisstraf van een jaar tot vijf jaar en met geldboete van
  duizend euro tot honderdduizend euro in de volgende gevallen :
   1° ingeval van de betrokken activiteit een gewoonte wordt gemaakt;
@@ -7827,14 +8000,15 @@ Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 433duodecies
 
-<Ingevoegd bij W 2005-08-10/61, art. 18; Inwerkingtreding : 12-09-2005> Het in artikel
  433decies bedoelde misdrijf wordt gestraft met opsluiting van vijf jaar tot tien jaar en met geldboete van duizend
  euro tot honderdvijftigduizend euro ingeval het een daad van deelneming aan de hoofd- of bijkomende
  bedrijvigheid van een criminele organisatie betreft, ongeacht of de schuldige de hoedanigheid van leidend
  persoon heeft of niet.
   De boete wordt zo veel keer toegepast als er slachtoffers zijn.
 
-  Art. 433terdecies.<Ingevoegd bij W 2005-08-10/61, art. 19; Inwerkingtreding : 12-09-2005> In de gevallen
+## Art. 433terdecies
+
+<Ingevoegd bij W 2005-08-10/61, art. 19; Inwerkingtreding : 12-09-2005> In de gevallen
  bedoeld in de artikelen 433undecies en 433duodecies worden de schuldigen bovendien veroordeeld tot de
  ontzetting van de rechten bedoeld in [1 artikel 31, eerste lid]1.
   De bijzondere verbeurdverklaring zoals bedoeld in artikel 42, 1°, wordt toegepast op de schuldigen aan het
@@ -7849,7 +8023,9 @@ Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2009-04-14/01, art. 20, 073; Inwerkingtreding : 15-04-2009>
 
-   Art. 433quaterdecies.<Ingevoegd bij W 2005-08-10/61, art. 20; Inwerkingtreding : 12-09-2005> Naargelang
+## Art. 433quaterdecies
+
+<Ingevoegd bij W 2005-08-10/61, art. 20; Inwerkingtreding : 12-09-2005> Naargelang
  van het geval kan de procureur des Konings of de onderzoeksrechter beslag leggen op het roerend goed, het
  deel ervan, het onroerend goed, de kamer of enige andere in artikel 433decies bedoelde ruimte. Indien hij beslist
  tot inbeslagneming moet voormeld roerend goed, het deel ervan, het onroerend goed, de kamer of enige andere
@@ -7861,7 +8037,6 @@ Pagina 115 van 145 Copyright Belgisch S taatsblad 18-03-2026
  worden aangeboden op [2 de bevoegde dienst van de Federale Overheidsdienst Financiën]2. Als dagtekening van
  de overschrijving geldt de dag van de betekening van de beslissing tot inbeslagneming. Het beslag geldt tot op
  het tijdstip van de definitieve rechterlijke beslissing waarbij hetzij de verbeurdverklaring werd bevolen, hetzij de
-Pagina 116 van 145 Copyright Belgisch S taatsblad 18-03-2026
  opheffing van het beslag wordt uitgesproken. Opheffing van het beslag kan voordien te allen tijde worden
  verleend, al naar gelang van het geval, door de procureur des Konings of door de onderzoeksrechter nadat deze
  de procureur des Konings daarvan in kennis heeft gesteld. De beslagene kan de rechtsmiddelen waarin voorzien
@@ -7873,7 +8048,6 @@ Pagina 116 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 433quinquiesdecies
 
-<Ingevoegd bij W 2005-08-10/61, art. 21; Inwerkingtreding : 12-09-2005> In de in
  artikel 433decies van het Strafwetboek bedoelde gevallen kunnen slachtoffers op beslissing, naargelang het
  geval, van de bevoegde minister, van de bevoegde overheid of de door hen aangewezen ambtenaren, in overleg
  met de terzake bevoegde diensten, in voorkomend geval worden opgevangen of gehuisvest. Deze
@@ -7913,7 +8087,9 @@ Indien de wederrechtelijke en willekeurige vrijheidsberoving langer dan een maan
 
 (Opgeheven) <W 2002-06-14/42, art. 7, 036; Inwerkingtreding : 24-08-2002>
 
-  Art. 438bis.<W 2007-05-10/35, art. 36, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in dit
+## Art. 438bis
+
+<W 2007-05-10/35, art. 36, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in dit
  hoofdstuk kan het minimum van de bij die artikelen bepaalde straffen worden verdubbeld in geval van
  correctionele straffen en met twee jaar verhoogd in geval van opsluiting, [2 wanneer een van de drijfveren van de
  dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens
@@ -7930,7 +8106,9 @@ Indien de wederrechtelijke en willekeurige vrijheidsberoving langer dan een maan
   (1)<W 2009-12-30/01, art. 112, 074; Inwerkingtreding : 31-12-2009>
   (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  Art. 439.Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesentwintig [euro] tot
+## Art. 439
+
+Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesentwintig [euro] tot
  driehonderd [euro] wordt gestraft hij die, zonder een bevel van de overheid en buiten de gevallen waarin de wet
  toelaat in de woning van bijzondere personen tegen hun wil binnen te treden, in een door een ander bewoond
  huis, appartement, kamer of verblijf, of [1 in de aanhorigheden ervan hetzij binnendringt met behulp van
@@ -7943,7 +8121,6 @@ Indien de wederrechtelijke en willekeurige vrijheidsberoving langer dan een maan
 ## Art. 440
 
 De gevangenisstraf is zes maanden tot vijf jaar en de geldboete honderd [euro] tot vijfhonderd [euro],
-Pagina 117 van 145 Copyright Belgisch S taatsblad 18-03-2026
  indien het feit gepleegd wordt, hetzij op een vals bevel van het openbaar gezag, hetzij in de kledij, hetzij onder de
  naam van een van haar agenten, hetzij met vereniging van de volgende drie omstandigheden : <W 2000-0626/42, art. 2, Inwerkingtreding : 01-01-2002>
    Dat het feit wordt gepleegd bij nacht;
@@ -7965,7 +8142,9 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
  439 aangewezen plaatsen binnendringt en daar bij nacht wordt aangetroffen. <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 442/1.[1 § 1. Met gevangenisstraf van acht dagen tot een maand en met geldboete van zesentwintig euro
+## Art. 442/1
+
+[1 § 1. Met gevangenisstraf van acht dagen tot een maand en met geldboete van zesentwintig euro
  tot honderd euro of met een van die straffen alleen wordt gestraft hij die, zonder een bevel van de overheid
  hetzij zonder toestemming van een houder van een titel die of een recht dat toegang verschaft tot de betrokken
  plaats of gebruik van of verblijf in het betrokken goed toestaat en buiten de gevallen waarin de wet het toelaat,
@@ -7986,7 +8165,9 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
 
   HOOFDSTUK IVbis. - (ingevoegd bij <W 1998-10-30/34, art. 2, Inwerkingtreding : 27-12-1998>) BELAGING.
 
-  Art. 442bis.(ingevoegd bij <W 1998-10-30/34, art. 2, Inwerkingtreding : 27-12-1998>) Hij die een persoon
+## Art. 442bis
+
+(ingevoegd bij <W 1998-10-30/34, art. 2, Inwerkingtreding : 27-12-1998>) Hij die een persoon
  heeft belaagd terwijl hij wist of had moeten weten dat hij door zijn gedrag de rust van die bewuste persoon
  ernstig zou verstoren, wordt gestraft met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van
  vijftig [euro] tot driehonderd [euro] of met een van die straffen alleen.
@@ -8002,7 +8183,9 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
   (2)<W 2016-03-25/07, art. 2, 116; Inwerkingtreding : 15-04-2016>
   (3)<W 2024-01-18/06, art. 39, 157; Inwerkingtreding : 05-02-2024>
 
-  Art. 442ter.<W 2007-05-10/35, art. 37, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in artikel
+## Art. 442ter
+
+<W 2007-05-10/35, art. 37, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in artikel
  442bis kan het minimum van de bij dit artikel bepaalde correctionele straffen worden verdubbeld, [2 wanneer een
  van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon
  wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische afstamming, nationaliteit, geslacht,
@@ -8014,7 +8197,6 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
   [2 Hetzelfde geldt wanneer een van de drijfveren van de dader erin bestaat dat het slachtoffer een band of
  vermeende band heeft met een persoon ten aanzien van wie hij haat, misprijzen of vijandigheid koestert wegens
 
-Pagina 118 van 145 Copyright Belgisch S taatsblad 18-03-2026
  een of meer van de in het eerste lid aangehaalde werkelijke of vermeende kenmerken.]2
   ----------
   (1)<W 2009-12-30/01, art. 113, 074; Inwerkingtreding : 31-12-2009>
@@ -8024,7 +8206,9 @@ Pagina 118 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2011-11-26/19, art. 35, 084; Inwerkingtreding : 02-02-2012>
 
-   Art. 442quater.[1 § 1. Eenieder die, terwijl hij kennis had van iemands fysieke of psychische zwakheid die het
+## Art. 442quater
+
+[1 § 1. Eenieder die, terwijl hij kennis had van iemands fysieke of psychische zwakheid die het
  oordeelsvermogen van de betrokkene ernstig verstoort, bedrieglijk misbruik heeft gemaakt van die zwakheid
  teneinde hem ertoe te brengen een handeling te verrichten dan wel zich van een handeling te onthouden waarbij
  zulks diens fysieke of geestelijke integriteit dan wel diens vermogen ernstig aantast, wordt gestraft met
@@ -8084,7 +8268,6 @@ Pagina 118 van 145 Copyright Belgisch S taatsblad 18-03-2026
  ten aanzien van het slachtoffer bevindt;
    - het misdrijf werd gepleegd op een minderjarige of op een persoon van wie de kwetsbare toestand ten gevolge
  van de leeftijd, een zwangerschap, een ziekte dan wel een lichamelijk of geestelijk gebrek duidelijk was of de dader
-Pagina 119 van 145 Copyright Belgisch S taatsblad 18-03-2026
  bekend was.
    § 3. De poging tot het uitvoeren van conversiepraktijken wordt bestraft met gevangenisstraf van acht dagen
  tot zes maanden en met geldboete van 26 euro tot 100 euro of met een van die straffen alleen.]1
@@ -8160,7 +8343,6 @@ Met gevangenisstraf van vijftien dagen tot zes maanden en met geldboete van vijf
  duizend [euro] wordt gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   Hij die schriftelijk bij de overheid een lasterlijke aangifte indient;
   Hij die schriftelijk aan een persoon lasterlijke aantijgingen tegen zijn ondergeschikte toestuurt.
-Pagina 120 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 446
 
 Laster en eerroof jegens een gesteld lichaam worden op dezelfde wijze gestraft als laster en eerroof
@@ -8234,7 +8416,9 @@ Met gevangenisstraf van een maand tot een jaar en met geldboete van zesentwintig
  tweehonderd [euro] wordt gestraft hij die zich schuldig maakt aan grafschennis. <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 453bis.<W 2007-05-10/35, art. 38, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in dit
+## Art. 453bis
+
+<W 2007-05-10/35, art. 38, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in dit
  hoofdstuk kan het minimum van de correctionele straffen worden verdubbeld, [2 wanneer een van de drijfveren
  van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens
  zogenaamd ras, huidskleur, afkomst, nationale of etnische afstamming, nationaliteit, geslacht, zwangerschap,
@@ -8243,7 +8427,6 @@ Met gevangenisstraf van een maand tot een jaar en met geldboete van zesentwintig
  staat, geboorte, leeftijd, vermogen, geloof of levensbeschouwing, gezondheidstoestand, handicap, taal, politieke
  overtuiging, syndicale overtuiging, fysieke of genetische eigenschap of sociale afkomst en positie, ongeacht of
  dit kenmerk daadwerkelijk aanwezig is of slechts vermeend is door de dader]2.
-Pagina 121 van 145 Copyright Belgisch S taatsblad 18-03-2026
   [2 Hetzelfde geldt wanneer een van de drijfveren van de dader erin bestaat dat het slachtoffer een band of
  vermeende band heeft met een persoon ten aanzien van wie hij haat, misprijzen of vijandigheid koestert wegens
  een of meer van de in het eerste lid aangehaalde werkelijke of vermeende kenmerken.]2
@@ -8285,7 +8468,9 @@ De vermengde spijzen, dranken, voedingswaren of voedingsmiddelen worden in besla
   De rechtbank beveelt dat het vonnis zal worden aangeplakt op de plaatsen die zij bepaalt, en in zijn geheel of bij
  uittreksel zal worden opgenomen in de bladen die zij aanwijst; een en ander op kosten van de veroordeelde.
 
-  Art. 458.Geneesheren, heelkundigen, officieren van gezondheid, apothekers, vroedvrouwen en alle andere
+## Art. 458
+
+Geneesheren, heelkundigen, officieren van gezondheid, apothekers, vroedvrouwen en alle andere
  personen die uit hoofde van hun staat of beroep kennis dragen van geheimen die hun zijn toevertrouwd, en deze
  bekendmaken buiten het geval dat zij geroepen worden om in rechte (of voor een parlementaire
  onderzoekscommissie) getuigenis af te leggen en buiten [1 het geval dat de wet, het decreet of de ordonnantie
@@ -8294,7 +8479,9 @@ De vermengde spijzen, dranken, voedingswaren of voedingsmiddelen worden in besla
   ----------
   (1)<W 2017-07-06/24, art. 312, 124; Inwerkingtreding : 03-08-2017>
 
-   Art. 458bis.[1 Eenieder, die uit hoofde van zijn staat of beroep houder is van geheimen en hierdoor kennis heeft
+## Art. 458bis
+
+[1 Eenieder, die uit hoofde van zijn staat of beroep houder is van geheimen en hierdoor kennis heeft
  van een misdrijf zoals omschreven [7 in de artikelen 417/7 tot 417/22, 417/24 tot 417/38, 417/44 tot 417/47,
  417/56, 433quater/1 en 433quater/4]7, [5 392 tot 394, 396 tot 405ter, 409, 423, 425, 426, [8 433quinquies en
  442quinquies tot 442nonies]8]5, gepleegd op een minderjarige of op een persoon die kwetsbaar is ten gevolge
@@ -8316,7 +8503,6 @@ De vermengde spijzen, dranken, voedingswaren of voedingsmiddelen worden in besla
    (1)<W 2011-11-30/28, art. 6, 083; Inwerkingtreding : 30-01-2012>
    (2)<W 2012-02-23/08, art. 2, 085; Inwerkingtreding : 01-03-2013>
 
-Pagina 122 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (3)<W 2014-04-10/24, art. 6, 102; Inwerkingtreding : 10-05-2014>
   (4)<W 2016-02-01/09, art. 14, 115; Inwerkingtreding : 29-02-2016>
   (5)<W 2016-05-31/02, art. 11, 118; Inwerkingtreding : 18-06-2016>
@@ -8367,7 +8553,9 @@ Hij die schuldig bevonden wordt aan het wegmaken van een (aan een postoperator) 
  optreedt) is. <KB 1999-06-09/57, art. 27, 026; Inwerkingtreding : 18-08-1999> <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 460bis.<W 14-01-1928, art. 4> (Met dezelfde straffen wordt gestraft hij die het afschrift van een exploot
+## Art. 460bis
+
+<W 14-01-1928, art. 4> (Met dezelfde straffen wordt gestraft hij die het afschrift van een exploot
  dat hij in zijn bezit heeft ingevolge artikel 68bis van het Wetboek van Burgerlijke Rechtsvordering, wegmaakt of
  die de omslag opent waarin dit afschrift zich bevindt, om het geheim ervan te schenden, behalve, in dit laatste
  geval, wanneer hij een van de ouders is van een minderjarig kind, ofwel de echtgenoot, de voogd, de
@@ -8375,7 +8563,9 @@ Hij die schuldig bevonden wordt aan het wegmaken van een (aan een postoperator) 
   ----------
   (1)<W 2013-03-17/14, art. 151, 101; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-   Art. 460ter.<ingevoegd bij W 1998-03-12/39, art. 44; Inwerkingtreding : 1998-10-02> Elk gebruik [1 ...]1 van
+## Art. 460ter
+
+<ingevoegd bij W 1998-03-12/39, art. 44; Inwerkingtreding : 1998-10-02> Elk gebruik [1 ...]1 van
  door de [1 inzage of het nemen van een afschrift van]1 het dossier [3 of het met eigen middelen tijdens een
  inzage gemaakte kopie van stukken van het dossier,]3 verkregen inlichtingen, dat tot doel en tot gevolg heeft het
  verloop [2 van het opsporingsonderzoek of]2 van het gerechtelijk onderzoek te hinderen, inbreuk te maken op
@@ -8390,14 +8580,15 @@ Hij die schuldig bevonden wordt aan het wegmaken van een (aan een postoperator) 
   TITEL IX. - MISDADEN EN WANBEDRIJVEN TEGEN EIGENDOMMEN.
 
   HOOFDSTUK I. - DIEFSTAL EN AFPERSING.
-Pagina 123 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 461
 
 Hij die een zaak die hem niet toebehoort, bedrieglijk wegneemt, is schuldig aan diefstal.
   (Met diefstal wordt gelijkgesteld het bedrieglijk wegnemen van andermans goed voor een kortstondig gebruik.)
  <W 25-06-1964, art. 1>
 
-  Art. 462.Diefstallen gepleegd door een gehuwde ten nadele van zijn echtgenoot, door een weduwnaar of een
+## Art. 462
+
+Diefstallen gepleegd door een gehuwde ten nadele van zijn echtgenoot, door een weduwnaar of een
  weduwe wat zaken betreft die aan de overleden echtgenoot hebben toebehoord, door afstammelingen ten
  nadele van hun bloedverwanten in de opgaande lijn, door bloedverwanten in de opgaande lijn ten nadele van hun
  afstammelingen, of door aanverwanten in dezelfde graden, geven alleen aanleiding tot burgerrechtelijke
@@ -8412,7 +8603,9 @@ Hij die een zaak die hem niet toebehoort, bedrieglijk wegneemt, is schuldig aan 
 
   AFDELING I. - DIEFSTAL ZONDER GEWELD OF BEDREIGING.
 
-   Art. 463.Diefstallen, in dit hoofdstuk niet nader omschreven, worden gestraft met gevangenisstraf van een
+## Art. 463
+
+Diefstallen, in dit hoofdstuk niet nader omschreven, worden gestraft met gevangenisstraf van een
  maand tot vijf jaar en met geldboete van zesentwintig [euro] tot vijfhonderd [euro]. <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
    (In het geval bedoeld bij artikel 461, tweede lid, bedraagt de gevangenisstraf echter niet meer dan drie jaren.)
@@ -8463,13 +8656,16 @@ Met diefstal gepleegd door middel van geweld of bedreiging wordt gelijkgesteld h
  op heterdaad betrapt wordt en geweld of bedreigingen gebruikt hetzij om in het bezit van de weggenomen
  voorwerpen te kunnen blijven, hetzij om zijn vlucht te verzekeren.
 
-  Art. 470.[1 Met de straffen, bij het artikel 468 bedoeld, wordt gestraft alsof hij een diefstal met geweld of
+## Art. 470
+
+[1 Met de straffen, bij het artikel 468 bedoeld, wordt gestraft alsof hij een diefstal met geweld of
  bedreiging had gepleegd, hij die opzettelijk met behulp van geweld of bedreiging hetzij een goed, hetzij een
  ongeoorloofd voordeel verkrijgt.]1
   ----------
   (1)<W 2023-07-12/10, art. 14, 153; Inwerkingtreding : 18-09-2023>
-Pagina 124 van 145 Copyright Belgisch S taatsblad 18-03-2026
-  Art. 471.(Zie NOTA 1 onder TITEL) <W 2001-12-11/50, art. 3, 033; Inwerkingtreding : 17-02-2002> In de
+## Art. 471
+
+(Zie NOTA 1 onder TITEL) <W 2001-12-11/50, art. 3, 033; Inwerkingtreding : 17-02-2002> In de
  gevallen van de artikelen 468, 469 en 470 is de straf de ops luiting van tien jaar tot vijftien jaar :
   indien het misdrijf wordt gepleegd door middel van braak, inklimming of valse sleutels;
   indien het misdrijf wordt gepleegd door een openbaar ambtenaar door middel van zijn ambtsbediening;
@@ -8502,7 +8698,9 @@ Pagina 124 van 145 Copyright Belgisch S taatsblad 18-03-2026
  verwarring kan ontstaan met een motorvoertuig of enig ander met een motor aangedreven tuig van de
  ordediensten.
 
-  Art. 473.(Zie NOTA 1 onder TITEL) <W 02-07-1975, art. 4> In de gevallen van de artikelen 468, 469, 470 en
+## Art. 473
+
+(Zie NOTA 1 onder TITEL) <W 02-07-1975, art. 4> In de gevallen van de artikelen 468, 469, 470 en
  471 is de straf (opsluiting) van vijftien jaar tot twintig jaar, indien het geweld of de bedreiging, hetzij een
  ongeneeslijk lijkende ziekte, hetzij een [1 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan
  vier maanden]1, hetzij het volledig verlies van het gebruik van een orgaan, hetzij een zware verminking ten
@@ -8526,7 +8724,9 @@ Pagina 124 van 145 Copyright Belgisch S taatsblad 18-03-2026
 Doodslag, gepleegd om diefstal of afpersing te vergemakkelijken of om de straffeloosheid ervan te
  verzekeren, wordt gestraft met (levenslange opsluiting). <W 1996-07-10/42, art. 15, 018; Inwerkingtreding : 1108-1996>
 
-  Art. 476.De straffen, bij de [1 artikelen 473 tot 475]1 bepaald, worden zelfs dan toegepast wanneer de
+## Art. 476
+
+De straffen, bij de [1 artikelen 473 tot 475]1 bepaald, worden zelfs dan toegepast wanneer de
  voltooiing van de diefstal of van de afpersing wordt verhinderd door omstandigheden, onafhankelijk van de wil
  van de schuldigen.
   ----------
@@ -8543,7 +8743,6 @@ Doodslag, gepleegd om diefstal of afpersing te vergemakkelijken of om de straffe
 
 (Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> De diefstal van kernmateriaal wordt gestraft
  met (opsluiting) van tien jaar tot vijftien jaar : <W 2003-01-23/42, art. 78, 041; Inwerkingtreding : 13-03-2003>
-Pagina 125 van 145 Copyright Belgisch S taatsblad 18-03-2026
   1° indien hij gepleegd wordt door middel van geweld of bedreiging;
   2° indien hij gepleegd wordt door middel van braak, inklimming of valse sleutels;
   3° indien hij gepleegd wordt door een openbaar ambtenaar door middel van zijn ambtsbediening;
@@ -8578,7 +8777,9 @@ Pagina 125 van 145 Copyright Belgisch S taatsblad 18-03-2026
   6° indien de schuldige, om de afpersing te vergemakkelijken of zijn vlucht te verzekeren, gebruik maakt van een
  voertuig of enig ander al dan niet met een motor aangedreven tuig.
 
-  Art. 477sexies.(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> § 1. De diefstal of de afpersing van
+## Art. 477sexies
+
+(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 2> § 1. De diefstal of de afpersing van
  kernmateriaal met behulp van geweld of bedreiging alsmede het feit bedoeld in artikel 477quater, worden
  gestraft met (opsluiting van twintig jaar tot dertig jaar) : <W 2003-01-23/42, art. 79, 041; Inwerkingtreding : 1303-2003>
   1° indien zij gepleegd worden onder twee van de omstandigheden vermeld in artikel 477quinquies;
@@ -8622,7 +8823,6 @@ Als bewoond huis wordt beschouwd elk gebouw, appartement, verblijf, loods, elke 
 Als aanhorigheden van een bewoond huis worden beschouwd de binnenplaatsen, neerhoven, tuinen
  en alle andere besloten erven, alsook de schuren, stallen en alle andere bouwwerken die zich daarin bevinden,
  onverschillig waarvoor zij gebruikt worden, zelfs wanneer zij een afzonderlijke ruimte vormen binnen de algemene
-Pagina 126 van 145 Copyright Belgisch S taatsblad 18-03-2026
  omheining.
 
 ## Art. 481
@@ -8671,7 +8871,9 @@ Valse sleutels worden genoemd :
   Evenwel is het gebruik van valse sleutels alleen dan een verzwarende omstandigheid, wanneer zij dienen om
  voorwerpen te openen, waarvan de braak een verzwaring van straf ten gevolge zou hebben.
 
-   Art. 487bis.[1 § 1. Onder kernmateriaal wordt kernmateriaal verstaan dat wordt bedoeld in artikel 1, 8e streepje,
+## Art. 487bis
+
+[1 § 1. Onder kernmateriaal wordt kernmateriaal verstaan dat wordt bedoeld in artikel 1, 8e streepje,
  van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit
  ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle.
     § 2. Onder radioactief materiaal wordt verstaan : alle kernmateriaal of andere radioactieve stoffen met nucliden
@@ -8707,7 +8909,6 @@ Valse sleutels worden genoemd :
 
 Hij die bedrieglijk sleutels namaakt of vervalst, wordt veroordeeld tot gevangenisstraf van drie
  maanden tot twee jaar en tot geldboete van zesentwintig [euro] tot tweehonderd [euro]. <W 2000-06-26/42,
-Pagina 127 van 145 Copyright Belgisch S taatsblad 18-03-2026
  art. 2, Inwerkingtreding : 01-01-2002>
   Indien de schuldige slotenmaker van beroep is, wordt hij gestraft met gevangenisstraf van twee jaar tot vijf jaar
  en met geldboete van tweehonderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
@@ -8716,7 +8917,9 @@ Pagina 127 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2013-05-23/09, art. 4, 093; Inwerkingtreding : 16-06-2013>
 
-   Art. 488bis.(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 4> § 1. Hij die opzettelijk en zonder vergunning,
+## Art. 488bis
+
+(Zie NOTA 1 onder TITEL) <W 17-04-1986, art. 4> § 1. Hij die opzettelijk en zonder vergunning,
  verleend door het bevoegd gezag, of niet op de voorwaarden daarin gesteld, zich kernmateriaal laat afgeven,
  dan wel zodanig materiaal verkrijgt, in zijn bezit houdt, gebruikt, verandert, afstaat, achterlaat, vervoert of
  verspreidt, wordt gestraft met (opsluiting van vijf jaar tot tien jaar). <W 2003-01-23/42, art. 80, 041;
@@ -8780,7 +8983,6 @@ Pagina 127 van 145 Copyright Belgisch S taatsblad 18-03-2026
  toestemming te hebben gekregen van de exploitant of zijn aangestelde, hetzij door gebruik te maken van listige
  kunstgrepen om de exploitant of zijn aangestelde te misleiden over zijn bevoegdheid om in deze gedeeltes van de
  installatie binnen te dringen.]1
-Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2013-05-23/09, art. 8, 093; Inwerkingtreding : 16-06-2013>
 
@@ -8790,7 +8992,9 @@ Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2017-08-11/14, art. 4, 128; Inwerkingtreding : 01-05-2018>
 
-  Art. 489.(Zie NOTA 1 onder TITEL) <W 1997-08-08/80, art. 118, 019; Inwerkingtreding : 01-01-1998> Met
+## Art. 489
+
+(Zie NOTA 1 onder TITEL) <W 1997-08-08/80, art. 118, 019; Inwerkingtreding : 01-01-1998> Met
  gevangenisstraf van een maand tot een jaar en met geldboete van honderd [euro] tot honderdduizend [euro] of
  met een van die straffen alleen worden gestraft [1 de ondernemingen bedoeld in [2 artikel I.1, eerste lid, 1°]2 van
  het Wetboek van economisch recht, of de bestuurders, in rechte of in feite, van vennootschappen of
@@ -8804,7 +9008,9 @@ Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<W 2017-08-11/14, art. 5, 128; Inwerkingtreding : 01-05-2018>
   (2)<W 2018-04-15/14, art. 4, 135; Inwerkingtreding : 01-11-2018>
 
-   Art. 489bis.<inséré par L 1997-08-08/80, art. 119, 019; Inwerkingtreding : 01-01-1998> Met gevangenisstraf
+## Art. 489bis
+
+<inséré par L 1997-08-08/80, art. 119, 019; Inwerkingtreding : 01-01-1998> Met gevangenisstraf
  van een maand tot twee jaar en met geldboete van honderd [euro] tot vijfhonderdduizend [euro] of met een van
  die straffen alleen worden gestraft de personen bedoeld in artikel 489 die : <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
@@ -8824,7 +9030,9 @@ Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
    ----------
    (1)<W 2017-08-11/14, art. 6, 128; Inwerkingtreding : 01-05-2018>
 
-  Art. 489ter.<ingevoegd bij W 1997-08-08/80, art. 120, 019; Inwerkingtreding : 01-01-1998> Met
+## Art. 489ter
+
+<ingevoegd bij W 1997-08-08/80, art. 120, 019; Inwerkingtreding : 01-01-1998> Met
  gevangenisstraf van een maand tot vijf jaar en met geldboete van honderd [euro] tot vijfhonderdduizend [euro]
  worden gestraft de in artikel 489 bedoelde personen die met bedrieglijk opzet of met het oogmerk om te
  schaden : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -8837,7 +9045,9 @@ Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<W 2017-08-11/14, art. 7, 128; Inwerkingtreding : 01-05-2018>
 
-   Art. 489quater.<ingevoegd bij W 1997-08-08/80, art. 121, 019; Inwerkingtreding : 01-01-1998> De
+## Art. 489quater
+
+<ingevoegd bij W 1997-08-08/80, art. 121, 019; Inwerkingtreding : 01-01-1998> De
  strafvordering terzake van de strafbare feiten omschreven in de artikelen 489, 489bis en 489ter wordt vervolgd
  los van enige vordering die bij de rechtbank van koophandel mocht zijn ingesteld. Nochtans kan de staat van
  faillissement voor de strafrechter niet worden betwist wanneer hij vastgesteld is bij een in kracht van gewijsde
@@ -8846,8 +9056,9 @@ Pagina 128 van 145 Copyright Belgisch S taatsblad 18-03-2026
  onderneming]1.
    ----------
    (1)<W 2017-08-11/14, art. 8, 128; Inwerkingtreding : 01-05-2018>
-Pagina 129 van 145 Copyright Belgisch S taatsblad 18-03-2026
-   Art. 489quinquies.<ingevoegd bij W 1997-08-08/80, art. 122, 019; Inwerkingtreding : 01-01-1998> Met
+## Art. 489quinquies
+
+<ingevoegd bij W 1997-08-08/80, art. 122, 019; Inwerkingtreding : 01-01-1998> Met
  gevangenisstraf van een maand tot twee jaar en met geldboete van honderd [euro] tot vijfhonderdduizend
  [euro] of met een van die straffen alleen worden gestraft zij die bedrieglijk : <W 2000-06-26/42, art. 2,
  Inwerkingtreding : 01-01-2002>
@@ -8861,13 +9072,14 @@ Pagina 129 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 489sexies
 
-<ingevoegd bij W 1997-08-08/80, art. 123, 019; Inwerkingtreding : 01-01-1998> Met
  gevangenisstraf van een maand tot vijf jaar en met geldboete van honderd [euro] tot vijfhonderdduizend [euro]
  wordt gestraft de curator die zich schuldig maakt aan ontrouw in zijn beheer. Hij wordt daarenboven veroordeeld
  tot teruggave en schadeloosstelling die aan de boedel is verschuldigd. De schuldige kan bovendien veroordeeld
  worden tot ontzetting van rechten overeenkomstig artikel 33. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
 
-  Art. 490.<W 1997-08-08/80, art. 124, 019; Inwerkingtreding : 01-01-1998> Alle arresten of vonnissen van
+## Art. 490
+
+<W 1997-08-08/80, art. 124, 019; Inwerkingtreding : 01-01-1998> Alle arresten of vonnissen van
  veroordeling tot een gevangenisstraf, uitgesproken krachtens de artikelen 489, 489bis en 489ter, bevelen dat de
  beslissing op kosten van de veroordeelde bij uittreksel zal worden bekendgemaakt in het Belgisch Staatsblad.
   Het uittreksel bevat :
@@ -8919,12 +9131,13 @@ Pagina 129 van 145 Copyright Belgisch S taatsblad 18-03-2026
  een bijzondere overeenkomst aangegaan zijn waaruit voor hen een voordeel zou voortvloeien ten laste van het
  actief van de schuldenaar.]1
   ----------
-Pagina 130 van 145 Copyright Belgisch S taatsblad 18-03-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 12, 128; Inwerkingtreding : 01-05-2018>
 
   AFDELING II. - MISBRUIK VAN VERTROUWEN.
 
-   Art. 491.Hij die ten nadele van een ander [1 een roerend goed met economische waarde dat hem overhandigd
+## Art. 491
+
+Hij die ten nadele van een ander [1 een roerend goed met economische waarde dat hem overhandigd
  is onder verplichting om het terug te geven of het voor een bepaald doel te gebruiken of aan te wenden]1,
  bedrieglijk verduistert of verspilt, wordt gestraft met gevangenisstraf van een maand tot vijf jaar en met
  geldboete van zesentwintig [euro] tot vijfhonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-012002>
@@ -8938,7 +9151,6 @@ De bepaling van artikel 462 is toepasselijk op het misdrijf in het vorige artike
 
 ## Art. 492bis
 
-<ingevoegd bij W 1997-08-08/80, art. 142, Inwerkingtreding : 01-01-1998> Met gevangenisstraf
  van een maand tot vijf jaar en met geldboete van honderd [euro] tot vijfhonderdduizend [euro] worden gestraft
  de bestuurders, in feite of in rechte, van burgerlijke en handelsvennootschappen, alsook van verenigingen
  zonder winstoogmerk, die met bedrieglijk opzet en voor persoonlijke rechtstreekse of indirecte doeleinden
@@ -8948,7 +9160,9 @@ De bepaling van artikel 462 is toepasselijk op het misdrijf in het vorige artike
   De schuldigen kunnen daarenboven veroordeeld worden tot ontzetting van hun rechten overeenkomstig artikel
  33.
 
-  Art. 493.(Met gevangenisstraf van drie maanden tot vijf jaar en met geldboete van zesentwintig [euro] tot
+## Art. 493
+
+(Met gevangenisstraf van drie maanden tot vijf jaar en met geldboete van zesentwintig [euro] tot
  vijfhonderd [euro] wordt gestraft hij die misbruik maakt van de behoeften, de zwakheden, (de hartstochten of de
  onwetendheid) van een minderjarige [1 of van iedere andere persoon van wie de kwetsbare toestand ten gevolge
  van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of geestelijk gebrek of onvolwaardigheid duidelijk
@@ -8989,14 +9203,15 @@ Hij die, na in een rechtsgeding enige titel, enig stuk of enige memorie te hebbe
 
   AFDELING III. - OPLICHTING EN BEDRIEGERIJ.
 
-   Art. 496.[2 Hij die, met bedrieglijk opzet, beoogt een onrechtmatig economisch voordeel voor zichzelf of voor
+## Art. 496
+
+[2 Hij die, met bedrieglijk opzet, beoogt een onrechtmatig economisch voordeel voor zichzelf of voor
  een ander te verwerven, hetzij door gebruik te maken van valse namen of valse hoedanigheden, hetzij door
  listige kunstgrepen aan te wenden om te doen geloven aan het bestaan van valse ondernemingen, van een
  denkbeeldige macht of van een denkbeeldig krediet, om een goede afloop, een ongeval of enige andere
  hersenschimmige gebeurtenis te doen verwachten of te doen vrezen of om op andere wijze misbruik te maken
  van het vertrouwen of van de lichtgelovigheid, wordt gestraft met gevangenisstraf van een maand tot vijf jaar en
 
-Pagina 131 van 145 Copyright Belgisch S taatsblad 18-03-2026
  met geldboete van zesentwintig euro tot drieduizend euro.]2
    [1 Indien de in het eerste lid bedoelde feiten zijn gepleegd ten nadele van een persoon van wie de kwetsbare
  toestand ten gevolge van de leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of geestelijk gebrek of
@@ -9080,7 +9295,6 @@ In de gevallen (van de artikelen 500 en 501) kan de rechtbank bevelen dat het vo
  zij aanwijst; een en ander op kosten van de veroordeelde. <W 24-01-1977, art. 24, 4°>
   (Lid 2 opgeheven) <W 29-10-1919, art. 90>
 
-Pagina 132 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 503
 
 <W 24-01-1977, art. 25> De vervalste voedingsmiddelen die in het bezit van de schuldige worden
@@ -9104,7 +9318,9 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
 
   AFDELING IIIBIS. <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999>
 
-  Art. 504bis.<Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999> § 1. Passieve private
+## Art. 504bis
+
+<Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999> § 1. Passieve private
  omkoping bestaat in het feit dat een persoon die bestuurder of zaakvoerder van een rechtspersoon, lasthebber
  of aangestelde van een rechtspersoon of van een natuurlijke persoon is, rechtstreeks of door tussenpersonen,
  voor zichzelf of voor een derde, een aanbod, een belofte of [1 een voordeel van welke aard dan ook vraagt,
@@ -9122,7 +9338,6 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
 
 ## Art. 504ter
 
-<Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999> § 1. In geval van private
  omkoping is de straf een gevangenisstraf van zes maanden tot twee jaar en een geldboete van 100 [euro] tot
  100 000 [euro] of één van die straffen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 2. Indien de vraag bedoeld in artikel 504bis, § 1, gevolgd wordt door een voorstel bedoeld in artikel 504bis, §
@@ -9134,7 +9349,9 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
   ----------
   (1)<Ingevoegd bij W 2024-01-18/06, art. 40, 157; Inwerkingtreding : 05-02-2024>
 
-    Art. 504ter/1.[1 § 1. Met gevangenisstraf van vijftien dagen tot een jaar en een geldboete van zesentwintig euro
+## Art. 504ter/1
+
+[1 § 1. Met gevangenisstraf van vijftien dagen tot een jaar en een geldboete van zesentwintig euro
  tot honderdduizend euro of met een van die straffen alleen worden gestraft hij die opzettelijk een voer-, vaar- of
  vliegtuig of elk ander vervoermiddel uitrust met een niet-fabriekseigen ruimte voor het heimelijk in bezit hebben of
  heimelijk vervoeren van illegale voorwerpen, [2 verboden of]2 vergunningsplichtige wapens of geld met een
@@ -9153,7 +9370,6 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
     ----------
     (1)<Ingevoegd bij W 2024-01-18/06, art. 41, 157; Inwerkingtreding : 05-02-2024>
     (2)<W 2026-02-08/04, art. 12, 166; Inwerkingtreding : 26-02-2026>
-Pagina 133 van 145 Copyright Belgisch S taatsblad 18-03-2026
   AFDELING IIIbis. - Informaticabedrog. <ingevoegd bij W 2000-11-28/34, art. 5; Inwerkingtreding : 13-02-2001>
 
 ## Art. 504quater
@@ -9174,7 +9390,9 @@ Pagina 133 van 145 Copyright Belgisch S taatsblad 18-03-2026
   AFDELING IV. - (Heling en andere verrichtingen met betrekking tot zaken die uit een misdrijf voortkomen.) <W
  1990-07-17/30, art. 4, 004; Inwerkingtreding : 25-08-1990>
 
-   Art. 505.<L 1995-04-07/57, art. 7, 004; Inwerkingtreding : 20-05-1995 Met gevangenisstraf van vijftien dagen
+## Art. 505
+
+<L 1995-04-07/57, art. 7, 004; Inwerkingtreding : 20-05-1995 Met gevangenisstraf van vijftien dagen
  tot vijf jaar en met geldboete van zesentwintig [euro] tot honderdduizend [euro] of met een van die straffen
  alleen worden gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    1° zij die weggenomen, verduisterde of door misdaad of wanbedrijf verkregen [2 goederen]2 of een gedeelte
@@ -9221,7 +9439,6 @@ Pagina 133 van 145 Copyright Belgisch S taatsblad 18-03-2026
  aan de rechten die derden op de voor verbeurdverklaring vatbare goederen kunnen doen gelden. Zo die zaken
  niet in het vermogen van de veroordeelde kunnen worden aangetroffen, gaat de rechter over tot een raming van
  de geldwaarde ervan en heeft de verbeurdverklaring betrekking op een geldbedrag dat in verhouding staat tot de
-Pagina 134 van 145 Copyright Belgisch S taatsblad 18-03-2026
  mate waarin de veroordeelde bij het misdrijf betrokken was.) <W 2007-05-10/63, art. 2, 071; Inwerkingtreding :
  01-09-2007>
   Poging tot een van de misdrijven bedoeld in 2°, 3° en 4° van dit artikel wordt bestraft met gevangenisstraf van
@@ -9236,7 +9453,6 @@ Pagina 134 van 145 Copyright Belgisch S taatsblad 18-03-2026
 
 ## Art. 505bis
 
-<ingevoegd bij W 2005-08-10/62, art. 7 ; Inwerkingtreding : 02-09-2005> Zij die weggenomen,
  verduisterde of door de misdaad of het wanbedrijf bedoeld in artikel 433 verkregen zaken of een gedeelte ervan
  helen, worden gestraft met de straffen bepaald in artikel 505, eerste lid, waarbij de minimumstraf in het geval van
  gevangenisstraf wordt verhoogd tot drie maanden en in het geval van geldboete tot duizend euro.
@@ -9281,7 +9497,6 @@ Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwint
 
 ## Art. 507bis
 
-<ingevoegd bij W 1998-03-12/39, art. 45; Inwerkingtreding : 1998-10-02> Met gevangenisstraf
  van acht dagen tot twee jaar en met geldboete van zesentwintig [euro] tot vijfhonderd [euro] wordt gestraft hij
  die de overeenkomstig de artikelen 28sexies en 61quater van het Wetboek van Strafvordering opgelegde
  voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling niet naleeft. <W 2000-06-26/42, art.
@@ -9302,9 +9517,7 @@ Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwint
  geldboete van tweehonderd [euro] tot vijftienhonderd [euro] of met een van die straffen alleen wordt gestraft hij
  die, wetende dat hij in de volstrekte onmogelijkheid verkeert om te betalen, zich in een daartoe bestemde
  inrichting dranken of spijzen laat opdienen, die hij daar geheel of gedeeltelijk verbruikt, zich logies doet geven in
- een reizigershotel of in een herberg, of een huurrijtuig huurt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-
-Pagina 135 van 145 Copyright Belgisch S taatsblad 18-03-2026
- 01-2002>
+ een reizigershotel of in een herberg, of een huurrijtuig huurt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 0101-2002>
   In geval van herhaling kunnen de straffen worden verdubbeld.
   (Lid 3 opgeheven) <W 17-12-1963, art. 2>
 
@@ -9386,7 +9599,6 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van zesentwinti
 
 <W 07-06-1963, art. 5> Met gevangenisstraf van een jaar tot vijf jaar en met geldboete van honderd
  [euro] tot duizend [euro] worden gestraft zij die opzettelijk de roerende goederen die aan een ander toebehoren
-Pagina 136 van 145 Copyright Belgisch S taatsblad 18-03-2026
  in brand steken, met uitzondering van schepen, vaartuigen en vliegtuigen, en op voorwaarde dat de daad aan
  anderen ernstig nadeel kan berokkenen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    Indien de roerende goederen uitsluitend toebehoren aan hen die ze hebben in brand gestoken en de brand met
@@ -9410,7 +9622,9 @@ Wanneer op brandstichting gevangenisstraf gesteld is, wordt de poging tot brands
  met gevangenisstraf van twee maanden tot twee jaar en met geldboete van zesentwintig [euro] tot tweehonderd
  [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  Art. 514bis.<W 2007-05-10/35, art. 39, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
+## Art. 514bis
+
+<W 2007-05-10/35, art. 39, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
  artikelen 510 tot 514 kan het minimum van de bij die artikelen bepaalde straffen worden verdubbeld in geval van
  correctionele straffen en met twee jaar verhoogd in geval van opsluiting, [2 wanneer een van de drijfveren van de
  dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens
@@ -9467,7 +9681,6 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
  beplantingen, hagen, mijten, tassen graan, stro, hooi, voeder of van enige andere stapel brandbare stoffen,
  hetzij door vuur of licht te dragen of te laten staan of vuurwerk aan- of af te steken zonder voldoende voorzorg.
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
-Pagina 137 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 520
 
 <W 07-06-1963, art. 8> Met de straffen bij de vorige artikelen bepaald, en naar de onderscheidingen
@@ -9515,7 +9728,9 @@ De bepaling van artikel 518 is toepasselijk op het geval in het vorige artikel o
    De hoofden en de aanstokers worden veroordeeld tot opsluiting van tien jaar tot vijftien jaar en tot geldboete
  van vijfhonderd [euro] tot vijfduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  Art. 525bis.<ingevoegd bij W 2007-05-10/35, art. 40, Inwerkingtreding : 09-06-2007> In de gevallen bepaald in
+## Art. 525bis
+
+<ingevoegd bij W 2007-05-10/35, art. 40, Inwerkingtreding : 09-06-2007> In de gevallen bepaald in
  de artikelen 521 tot 525, kan het minimum van de bij die artikelen bepaalde straffen worden verdubbeld in geval
  van correctionele straffen en met twee jaar verhoogd in geval van opsluiting, [2 wanneer een van de drijfveren
  van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens
@@ -9551,7 +9766,6 @@ Hij die registers, minuten of oorspronkelijke akten van het openbaar gezag, tite
  wisselbrieven, handels- of bankpapieren, die een verbintenis, beschikking of schuldbevrijding inhouden of
  teweegbrengen, op enigerlei wijze kwaadwillig of bedrieglijk vernietigt, wordt gestraft alsof hij die stukken had
  weggenomen, en naar de onderscheidingen in het eerste hoofdstuk van deze titel gemaakt.
-Pagina 138 van 145 Copyright Belgisch S taatsblad 18-03-2026
   AFDELING IV. - VERNIELING OF BESCHADIGING VAN EETWAREN, KOOPWAREN OF ANDERE ROERENDE
  EIGENDOMMEN.
 
@@ -9590,7 +9804,9 @@ Doodslag gepleegd om de vernieling of de beschadiging te vergemakkelijken of om 
  ervan te verzekeren, wordt gestraft met (levenslange opsluiting). <W 1996-07-10/42, art. 15, 018;
  Inwerkingtreding : 11-08-1996>
 
-  Art. 532bis.<W 2007-05-10/35, art. 41, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
+## Art. 532bis
+
+<W 2007-05-10/35, art. 41, 064; Inwerkingtreding : 09-06-2007> In de gevallen bepaald in de
  artikelen 528 tot 532 kan het minimum van de bij die artikelen bepaalde straffen worden verdubbeld in geval van
  correctionele straffen en met twee jaar verhoogd in geval van opsluiting, [2 wanneer een van de drijfveren van de
  dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens
@@ -9625,7 +9841,6 @@ Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voer
 
 ## Art. 534bis
 
-<ingevoegd bij W 2007-01-25/39, art. 3, Inwerkingtreding : 02-03-2007> § 1. Met gevangenisstraf
  van één maand tot zes maanden en met geldboete van zesentwintig euro tot tweehonderd euro of met een van
  die straffen alleen wordt gestraft hij die zonder toestemming graffiti aanbrengt op roerende of onroerende
  goederen.
@@ -9635,12 +9850,12 @@ Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voer
 
 ## Art. 534ter
 
-<ingevoegd bij W 2007-01-25/39, art. 3, Inwerkingtreding : 02-03-2007> Met gevangenisstraf van
-Pagina 139 van 145 Copyright Belgisch S taatsblad 18-03-2026
  een maand tot zes maanden en met geldboete van zesentwintig euro tot tweehonderd euro of met een van die
  straffen alleen wordt gestraft hij die opzettelijk andermans onroerende eigendommen beschadigt.
 
-  Art. 534quater.<ingevoegd bij W 2007-05-10/35, art. 42, Inwerkingtreding : 09-06-2007> In de gevallen
+## Art. 534quater
+
+<ingevoegd bij W 2007-05-10/35, art. 42, Inwerkingtreding : 09-06-2007> In de gevallen
  bepaald in de artikelen 534bis en 534ter kan het minimum van de bij die artikelen bepaalde straffen worden
  verdubbeld in geval van correctionele straffen en met twee jaar verhoogd in geval van opsluiting, [2 wanneer een
  van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon
@@ -9719,7 +9934,6 @@ Zij die buiten noodzaak een van de in artikel 538 vermelde dieren doden of zwaar
 Hij die buiten noodzaak een ander huisdier dan de in artikel 538 vermelde doodt of zwaar letsel
  toebrengt, op een plaats waarvan degene aan wie het dier toebehoort, eigenaar, vruchtgebruiker, gebruiker,
  huurder, deelpachter of pachter is, wordt gestraft met gevangenisstraf van acht dagen tot drie maanden en met
-Pagina 140 van 145 Copyright Belgisch S taatsblad 18-03-2026
  geldboete van zesentwintig [euro] tot tweehonderd [euro] of met een van die straffen alleen. <W 2000-0626/42, art. 2, Inwerkingtreding : 01-01-2002>
   Deze straffen worden opgelegd, indien die feiten kwaadwillig gepleegd worden op een tam of een gevangen
  gehouden dier op de plaatsen waar zij gehouden worden, ofwel op een huisdier op het ogenblik dat het gebruikt
@@ -9763,7 +9977,9 @@ Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oog
   ----------
   (1)<Ingevoegd bij W 2016-05-20/04, art. 2, 117; Inwerkingtreding : 12-06-2016>
 
-   Art. 546/1.[1 Met gevangenisstraf van acht dagen tot zes maanden en met een geldboete van zesentwintig
+## Art. 546/1
+
+[1 Met gevangenisstraf van acht dagen tot zes maanden en met een geldboete van zesentwintig
  euro tot vijfhonderd euro of met een van die straffen alleen wordt gestraft hij die, zonder daartoe gemachtigd of
  toegelaten te zijn, binnenkomt of binnendringt in een havenfaciliteit bedoeld in [2 [3 artikel 2.5.2.3, 4° en 5° van
  het Belgisch Scheepvaartwetboek]3 of in een onroerend dan wel roerend goed binnen de grenzen van een haven
@@ -9775,7 +9991,9 @@ Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oog
    (3)<W 2022-10-13/10, art. 3, 151; Inwerkingtreding : 01-01-2023>
    (4)<W 2024-05-16/55, art. 4, 161; Inwerkingtreding : 01-06-2024>
 
-   Art. 546/2.[1 § 1. Het misdrijf bedoeld in art. 546/1 wordt gestraft met gevangenisstraf van acht dagen tot één
+## Art. 546/2
+
+[1 § 1. Het misdrijf bedoeld in art. 546/1 wordt gestraft met gevangenisstraf van acht dagen tot één
  jaar en met een geldboete van zesentwintig tot duizend euro of met een van die straffen alleen:
     1° ingeval van de betrokken activiteit een gewoonte wordt gemaakt;
     2° indien het gepleegd wordt bij nacht;
@@ -9797,7 +10015,6 @@ Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oog
  een van die bepalingen wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die
  strafbare feiten.]1
 
-Pagina 141 van 145 Copyright Belgisch S taatsblad 18-03-2026
   ----------
   (1)<Ingevoegd bij W 2016-05-20/04, art. 5, 117; Inwerkingtreding : 12-06-2016>
 
@@ -9834,7 +10051,9 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
  van de gegevens die door middel daarvan worden opgeslagen, verwerkt of overgedragen. <ingevoegd bij W
  2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001>
 
-   Art. 550bis.<ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001> § 1. Hij die, terwijl hij weet
+## Art. 550bis
+
+<ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001> § 1. Hij die, terwijl hij weet
  dat hij daar toe niet gerechtigd is, zich toegang verschaft tot een informaticasysteem of zich daarin handhaaft,
  wordt gestraft met [1 gevangenisstraf van zes maanden tot twee jaar]1 en met geldboete van zesentwintig
  [euro] tot vijfentwintig duizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2,
@@ -9870,14 +10089,15 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
  maakt, wordt gestraft met gevangenisstraf van zes maanden tot drie jaar en met geldboete van zesentwintig
  [euro] tot honderdduizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding
  : 01-01-2002>
-Pagina 142 van 145 Copyright Belgisch S taatsblad 18-03-2026
   § 8. De straffen bepaald in de §§ 1 tot 7 worden verdubbeld indien een overtreding van een van die bepalingen
  wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die strafbare feiten of
  wegens een van de strafbare feiten bedoeld in de artikelen 210bis, 259bis, 314bis, 504quater of 550ter.
   ----------
   (1)<W 2017-07-06/24, art. 214, 124; Inwerkingtreding : 03-08-2017>
 
-   Art. 550ter.<ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001> § 1. (Hij die, terwijl hij weet
+## Art. 550ter
+
+<ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001> § 1. (Hij die, terwijl hij weet
  dat hij daartoe niet gerechtigd is, rechtstreeks of onrechtstreeks, gegevens in een informaticasysteem invoert,
  wijzigt, wist of met enig ander technologisch middel de normale aanwending van gegevens in een
  informaticasysteem verandert, wordt gestraft met gevangenisstraf van zes maanden tot drie jaar en met
@@ -9953,7 +10173,6 @@ Pagina 142 van 145 Copyright Belgisch S taatsblad 18-03-2026
    HOOFDSTUK III. - OVERTREDINGEN VAN DE DERDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
-Pagina 143 van 145 Copyright Belgisch S taatsblad 18-03-2026
 ## Art. 559
 
 (Met geldboete van tien [euro] tot twintig [euro] worden gestraft :
@@ -9983,7 +10202,9 @@ Pagina 143 van 145 Copyright Belgisch S taatsblad 18-03-2026
   6° (...). <W 22-03-1929, art. 9>
   7° (...). <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-  Art. 562.<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
+## Art. 562
+
+<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
  opgesteld voor hun opheffing)> In geval van herhaling kan, naast geldboete, gevangenisstraf van ten hoogste
  vijf dagen worden uitgesproken wegens de overtredingen, in [1 artikel 559]1 omschreven.
   Ten aanzien van de overtredingen, in het vorige artikel omschreven, kan de rechter, in geval van herhaling,
@@ -10030,19 +10251,21 @@ Pagina 143 van 145 Copyright Belgisch S taatsblad 18-03-2026
    BEPALINGEN AAN DE VIER VORIGE HOOFDSTUKKEN GEMEEN. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
-  Art. 565.<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
+## Art. 565
+
+<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
  opgesteld voor hun opheffing)> In de gevallen [1 in deze titel]1 omschreven, bestaat herhaling wanneer de
  overtreder wegens dezelfde overtreding reeds is veroordeeld binnen de twaalf voorafgaande maanden (...).
-Pagina 144 van 145 Copyright Belgisch S taatsblad 18-03-2026
  <KB59 10-01-1935, art. 3>
   ----------
   (1)<W 2014-05-05/09, art. 17, 106; Inwerkingtreding : 18-07-2014>
 
-   Art. 566.<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
+## Art. 566
+
+<W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was
  opgesteld voor hun opheffing)> Wanneer in de gevallen [1 in deze titel]1 omschreven, verzachtende
  omstandigheden aanwezig zijn, kan de geldboete tot beneden vijf [euro] verminderd worden, zonder dat zij ooit
  lager mag zijn dan een [euro] <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>.
    ----------
    (1)<W 2014-05-05/09, art. 18, 106; Inwerkingtreding : 18-07-2014>
 
-Pagina 145 van 145 Copyright Belgisch S taatsblad 18-03-2026

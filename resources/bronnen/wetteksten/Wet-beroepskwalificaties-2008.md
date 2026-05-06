@@ -27,7 +27,7 @@ bron: "ejustice.just.fgov.be (gecoördineerde versie)"
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 8, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 5/1_WAALS_GEWEST.
+## Art. 5/1_WAALS_GEWEST.
   [1 Wanneer de Europese Commissie voor een bepaald beroep een Europese beroepskaart heeft ingevoerd
  door middel van een uitvoeringshandeling en ze er de voorwaarden van heeft bepaald, kan de houder van de
  beroepskwalificatie die dit beroep in een andere lidstaat wil uitoefenen:
@@ -60,12 +60,11 @@ bron: "ejustice.just.fgov.be (gecoördineerde versie)"
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 9, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 5/2_WAALS_GEWEST.
+## Art. 5/2_WAALS_GEWEST.
   [1 § 1. De houder van een in artikel 5/1 bedoelde beroepskwalificatie die een beroepsactiviteit in andere lidstaten
  wil uitoefenen, kan zijn aanvraag van een Europese beroepskaart indienen middels het door de Europese
  Commissie ter beschikking gestelde online-instrument, dat voor de betrokken aanvrager automatisch een IMIbestand aanmaakt.
    De aanvrager ondersteunt zijn aanvraag met alle documenten die zijn voorgeschreven in de door de Europese
-Pagina 10 van 39 Copyright Belgisch S taatsblad 12-03-2026
  Commissie genomen uitvoeringshandeling.
    § 2. De bevoegde autoriteit bevestigt binnen een week na ontvangst van de aanvraag dat deze is ontvangen en
  deelt de aanvrager mee welke documenten ontbreken.
@@ -103,7 +102,7 @@ Pagina 10 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 10, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 5/3_WAALS_GEWEST.
+## Art. 5/3_WAALS_GEWEST.
   [1 Indien de aanvraag van de beroepskaart bedoeld in artikel 5/1 betrekking heeft op het tijdelijk en incidenteel
  verrichten van andere diensten dan de diensten die gevolgen hebben voor de volksgezondheid of de openbare
  veiligheid bedoeld in artikel 9, § 4, levert de bevoegde autoriteit, na controle van de aanvraag en de bijhorende
@@ -130,9 +129,8 @@ Pagina 10 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 11, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 5/4_WAALS_GEWEST.
+## Art. 5/4_WAALS_GEWEST.
   [1 De houder van een Europese beroepskaart die andere diensten wenst te leveren dan diegene vermeld in zijn
-Pagina 11 van 39 Copyright Belgisch S taatsblad 12-03-2026
  oorspronkelijke aanvraag of die diensten wenst te blijven leveren na de oorspronkelijke periode van achttien
  maanden bedoeld in artikel 5/3, stelt de bevoegde autoriteit hiervan in kennis. Hij verschaft eveneens alle door
  deze autoriteit, in toepassing van de uitvoeringshandeling aangenomen door de Europese Commissie, vereiste
@@ -163,7 +161,7 @@ Pagina 11 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 12, 002; Inwerkingtreding : 10-02-2017>
 
-   Art. 5/5_WAALS_GEWEST.
+## Art. 5/5_WAALS_GEWEST.
    [1 § 1. Indien de Europese beroepskaart bedoeld in artikel 5/1 aangevraagd wordt voor vestiging of voor
  tijdelijke en incidentele verrichting van diensten die gevolgen kunnen hebben voor de volksgezondheid of de
  openbare veiligheid, stelt de bevoegde autoriteit het voorbereidend dossier op met betrekking tot de aanvraag.
@@ -202,7 +200,6 @@ Pagina 11 van 39 Copyright Belgisch S taatsblad 12-03-2026
  eerste verlenging éénmaal met twee weken verlengen als die verlenging strikt noodzakelijk is, met name om
  redenen van volksgezondheid of veiligheid van de begunstigden van de diensten.
    § 5. In geval van gegronde twijfel kan de bevoegde autoriteit de lidstaat van oorsprong om aanvullende
-Pagina 12 van 39 Copyright Belgisch S taatsblad 12-03-2026
  informatie dan wel om het meesturen van een voor eensluidend gewaarmerkt afschrift van een document
  verzoeken.
     Wanneer eenzelfde aanvrager nadien andere aanvragen doet, mag de bevoegde autoriteit niet opnieuw eisen
@@ -271,7 +268,6 @@ Pagina 12 van 39 Copyright Belgisch S taatsblad 12-03-2026
    § 6. Wanneer de bevoegde Belgische autoriteit geen beslissing neemt binnen de in de §§ 2 en 3 gestelde
  termijnen of geen proeve van bekwaamheid organiseert zoals bedoeld in artikel 9, wordt de Europese
  beroepskaart automatisch geacht te zijn afgegeven en wordt zij via het IMI automatisch toegezonden aan de
-Pagina 13 van 39 Copyright Belgisch S taatsblad 12-03-2026
  houder van een beroepskwalificatie.
    Ten behoeve van vestiging verleent de afgifte van een Europese beroepskaart geen automatisch recht om een
  bepaald beroep uit te oefenen als er in België al registratievoorschriften of andere controleprocedures gelden
@@ -281,7 +277,7 @@ Pagina 13 van 39 Copyright Belgisch S taatsblad 12-03-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 13, 002; Inwerkingtreding : 10-02-2017>
 
-   Art. 5/6_WAALS_GEWEST.
+## Art. 5/6_WAALS_GEWEST.
    [1 § 1. De gegevens op de Europese beroepskaart beperken zich tot de gegevens die nodig zijn om vast te
  stellen dat de houder gerechtigd is om het beroep uit te oefenen waarvoor de kaart werd afgegeven, namelijk de
  voor- en achternaam van de houder, datum en plaats van geboorte, beroep, de opleidingstitels van de houder,
@@ -339,7 +335,6 @@ Pagina 13 van 39 Copyright Belgisch S taatsblad 12-03-2026
  beroepskaart, beschouwd als verantwoordelijke voor de verwerking in de zin van artikel 1, § 4, van de
  voornoemde wet van 8 december 1992.
     § 7. Elke belanghebbende, daarin begrepen de werkgevers en klanten van de houder van de Europese
-Pagina 14 van 39 Copyright Belgisch S taatsblad 12-03-2026
  beroepskaart en de overheidsinstanties, kan aan de bevoegde Belgische overheid vragen om de echtheid en
  geldigheid van een Europese beroepskaart die hem door de kaarthouder wordt voorgelegd, te controleren.]1
   ----------
@@ -358,7 +353,7 @@ Pagina 14 van 39 Copyright Belgisch S taatsblad 12-03-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 14, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 5/7_WAALS_GEWEST.
+## Art. 5/7_WAALS_GEWEST.
   [1 § 1. De bevoegde autoriteiten verlenen per geval gedeeltelijke toegang tot een beroepsactiviteit op het
  grondgebied van het Gewest, doch alleen indien aan alle volgende voorwaarden is voldaan:
    1° de beroepsbeoefenaar is in zijn lidstaat van oorsprong volledig gekwalificeerd om de beroepsactiviteit uit te
@@ -406,7 +401,6 @@ Pagina 14 van 39 Copyright Belgisch S taatsblad 12-03-2026
  informatie op te nemen over tuchtrechtelijke maatregelen of de strafrechtelijke sancties die betrekking hebben op
  een verbod of beperking op de uitoefening van een professionele activiteit en die invloed hebben op de
  uitoefening van de werkzaamheden van de houder van een Europese beroepskaart.
-Pagina 15 van 39 Copyright Belgisch S taatsblad 12-03-2026
     Daarbij nemen zij de regels in acht inzake de bescherming van persoonsgegevens en in het bijzonder de
  bepalingen van of genomen in uitvoering van de wet van 8 december 1992 tot bescherming van de persoonlijke
  levenssfeer ten opzichte van de verwerking van persoonsgegevens en van de wet van 24 augustus 2005 tot
@@ -475,7 +469,6 @@ Pagina 15 van 39 Copyright Belgisch S taatsblad 12-03-2026
  om tot het volledige gereglementeerde beroep in België toegelaten te worden;
     3° de beroepsactiviteit waarvoor gedeeltelijke toegang wordt gevraagd, kan objectief worden gescheiden van
  andere activiteiten die het gereglementeerde beroep in België omvat.
-Pagina 16 van 39 Copyright Belgisch S taatsblad 12-03-2026
    Om te bepalen of de voorwaarde bedoeld in punt 3° vervuld is, onderzoekt de bevoegde Belgische autoriteit of
  de beroepsactiviteit in de lidstaat van oorsprong autonoom kan worden uitgeoefend.
    Het onderzoek of de voorwaarden bedoeld in het vorige lid vervuld zijn, gebeurt geval per geval en de toegang
@@ -508,7 +501,9 @@ De bepalingen van deze titel zijn uitsluitend van toepassing wanneer de dienstve
 
   Beginsel van het vrij verrichten van diensten.
 
-   Art. 7.§ 1. Onverminderd de artikelen 8 en 9, kunnen om redenen van beroepskwalificatie geen beperkingen
+## Art. 7
+
+§ 1. Onverminderd de artikelen 8 en 9, kunnen om redenen van beroepskwalificatie geen beperkingen
  worden gesteld aan het vrij verrichten van diensten :
    a) indien de dienstverrichter op wettige wijze is gevestigd in een lidstaat (hierna "lidstaat van vestiging"
  genoemd) om er hetzelfde beroep uit te oefenen, en
@@ -544,7 +539,6 @@ De bepalingen van deze titel zijn uitsluitend van toepassing wanneer de dienstve
    (1)<W 2016-12-25/44, art. 18, 002; Inwerkingtreding : 10-02-2017>
    (2)<DWG 2017-07-12/16, art. 19, 004; Inwerkingtreding : 22-09-2017>
 
-Pagina 17 van 39 Copyright Belgisch S taatsblad 12-03-2026
   Vrijstellingen.
 
 ## Art. 8
@@ -568,7 +562,9 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
   Vooraf af te leggen verklaring
   in geval de dienstverrichter zich naar België begeeft
 
-   Art. 9.§ 1. De bevoegde Belgische autoriteit kan eisen dat de dienstverrichter, wanneer hij zich voor het eerst
+## Art. 9
+
+§ 1. De bevoegde Belgische autoriteit kan eisen dat de dienstverrichter, wanneer hij zich voor het eerst
  van een lidstaat naar België begeeft om er diensten te verrichten, haar vooraf door middel van een schriftelijke
  verklaring, met daarin de gegevens betreffende verzekeringsdekking of soortgelijke individuele of collectieve
  vormen van bescherming inzake beroepsaansprakelijkheid, in kennis stelt. Deze verklaring wordt eenmaal per
@@ -614,7 +610,6 @@ Overeenkomstig artikel 7, § 1, wordt een in een andere lidstaat gevestigde dien
     2° na controle van zijn beroepskwalificaties :
     a) de dienstverrichter een proeve van bekwaamheid op te leggen; of
     b) de dienstverrichting toe te staan.
-Pagina 18 van 39 Copyright Belgisch S taatsblad 12-03-2026
     Bij problemen die een vertraging kunnen meebrengen bij het nemen van een besluit als bedoeld in het tweede
  lid, stelt de bevoegde Belgische autoriteit de dienstverrichter binnen dezelfde termijn van één maand in kennis
  van de reden van de vertraging. Het probleem wordt binnen de maand die volgt op deze kennisgeving opgelost
@@ -681,7 +676,6 @@ Pagina 18 van 39 Copyright Belgisch S taatsblad 12-03-2026
  voor dat doeleinde]3.
     De bevoegde autoriteiten stellen de dienstverrichter binnen een termijn van ten hoogste een maand na
  ontvangst van de verklaring en de begeleidende documenten als bedoeld in de paragrafen 1 en 2 in kennis van
-Pagina 19 van 39 Copyright Belgisch S taatsblad 12-03-2026
  hun besluit om:
     1° de dienstverrichting toe te laten zonder zijn beroepskwalificaties te controleren;
     2° na de beroepskwalificatie te hebben gecontroleerd:
@@ -711,7 +705,9 @@ Pagina 19 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Administratieve samenwerking.
 
-   Art. 10.§ 1. [1 De bevoegde Belgische autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging
+## Art. 10
+
+§ 1. [1 De bevoegde Belgische autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging
  in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed
  gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke
  maatregelen met betrekking tot de beroepsuitoefening.
@@ -751,7 +747,6 @@ Pagina 19 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
 Wanneer de dienst wordt verricht onder de beroepstitel van de lidstaat van vestiging of onder de
  opleidingstitel van de dienstverrichter, kunnen de bevoegde Belgische autoriteiten eisen dat de dienstverrichter in
-Pagina 20 van 39 Copyright Belgisch S taatsblad 12-03-2026
  aanvulling op de overige informatievoorschriften van het Gemeenschapsrecht, aan de afnemer van de dienst een
  van de volgende gegevens of al de volgende gegevens verstrekt :
    a) wanneer de dienstverrichter in een handelsregister of een vergelijkbaar openbaar register is ingeschreven,
@@ -787,7 +782,9 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
   Kwalificatieniveaus.
 
-   Art. 13.[1 Voor de toepassing van artikel 15 en artikel 16, § 6,]1 worden de beroepskwalificaties in de volgende
+## Art. 13
+
+[1 Voor de toepassing van artikel 15 en artikel 16, § 6,]1 worden de beroepskwalificaties in de volgende
  niveaus ingedeeld :
    a) een bekwaamheidsattest dat is afgegeven door een overeenkomstig de wettelijke en bestuursrechtelijke
  bepalingen aangewezen bevoegde autoriteit van de lidstaat van oorsprong, nadat men :
@@ -821,7 +818,6 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
  opleiding heeft afgesloten, die daarnaast kan worden uitgedrukt in een daaraan gelijkwaardig aantal ECTSstudiepunten, behaald aan een universiteit of een instelling voor hoger onderwijs of aan een andere instelling met
  hetzelfde opleidingsniveau, en dat, in voorkomend geval, bewijst dat hij de beroepsopleiding die als aanvulling op
  de postsecundaire opleiding vereist is, met succes heeft afgesloten;
-Pagina 21 van 39 Copyright Belgisch S taatsblad 12-03-2026
    e) een diploma dat bewijst dat de houder met succes een postsecundaire opleiding met een duur van ten
  minste vier jaar of met een daaraan gelijkwaardige duur in geval van een deeltijdse opleiding heeft afgesloten, die
  daarnaast kan worden uitgedrukt in een daaraan gelijkwaardig aantal ECTS-studiepunten, behaald aan een
@@ -879,7 +875,9 @@ Pagina 21 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Gelijke behandeling van kwalificaties.
 
-   Art. 14.[1 Met een opleidingstitel bedoeld in artikel 13, met inbegrip van het betrokken niveau, wordt
+## Art. 14
+
+[1 Met een opleidingstitel bedoeld in artikel 13, met inbegrip van het betrokken niveau, wordt
  gelijkgesteld elke opleidingstitel die ofwel elk geheel van opleidingstitels dat door een bevoegde autoriteit in een
  lidstaat is afgegeven, wanneer daarmee een in de Europese Unie op voltijdse of deeltijdse basis zowel binnen als
  buiten formele programma's gevolgde opleiding wordt afgesloten die door deze lidstaat als gelijkwaardig wordt
@@ -888,7 +886,6 @@ Pagina 21 van 39 Copyright Belgisch S taatsblad 12-03-2026
    Onder dezelfde voorwaarden als die in het eerste lid wordt met een dergelijke opleidingstitel ook gelijkgesteld
  elke beroepskwalificatie die weliswaar niet voldoet aan de eisen die in de wettelijke en bestuursrechtelijke
  bepalingen van de lidstaat van oorsprong voor de toegang tot of uitoefening van een beroep zijn vastgesteld,
-Pagina 22 van 39 Copyright Belgisch S taatsblad 12-03-2026
  maar die de houder ervan krachtens deze bepalingen verworven rechten verleent. Dit geldt met name indien de
  lidstaat van oorsprong het niveau verhoogt van de opleiding die vereist is voor de toegang tot een beroep of de
  uitoefening ervan, en indien een persoon die vroeger een opleiding heeft genoten die niet meer voldoet aan de
@@ -922,7 +919,9 @@ Pagina 22 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Voorwaarden inzake erkenning.
 
-   Art. 15.[1 § 1. Wanneer de toegang tot of uitoefening van een gereglementeerd beroep afhankelijk wordt
+## Art. 15
+
+[1 § 1. Wanneer de toegang tot of uitoefening van een gereglementeerd beroep afhankelijk wordt
  gesteld van het bezit van bepaalde beroepskwalificaties, staat de bevoegde Belgische autoriteit onder dezelfde
  voorwaarden als die welke voor de eigen onderdanen gelden, de toegang tot en uitoefening van dit beroep toe
  aan aanvragers die in het bezit zijn van een bekwaamheidsattest dat of een opleidingstitel zoals bedoeld in artikel
@@ -958,7 +957,6 @@ Pagina 22 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
 .
   [1 § 1. Wanneer de toegang tot of uitoefening van een gereglementeerd beroep afhankelijk wordt gesteld van
-Pagina 23 van 39 Copyright Belgisch S taatsblad 12-03-2026
  het bezit van bepaalde beroepskwalificaties, staan de bevoegde autoriteiten onder dezelfde voorwaarden als
  diegenen die in het Waalse Gewest zijn gevestigd, de toegang tot en uitoefening van dit beroep toe aan
  aanvragers die in het bezit zijn van een bekwaamheidsattest of een opleidingstitel zoals bedoeld in artikel 13 die in
@@ -990,7 +988,9 @@ Pagina 23 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Compenserende maatregelen.
 
-  Art. 16.§ 1. De bevoegde Belgische autoriteit kan in een van de volgende gevallen van de aanvrager eisen dat hij
+## Art. 16
+
+§ 1. De bevoegde Belgische autoriteit kan in een van de volgende gevallen van de aanvrager eisen dat hij
  een aanpassingsstage van ten hoogste drie jaar doorloopt of een proeve van bekwaamheid aflegt :
   [1 a) wanneer de door de aanvrager gevolgde opleiding betrekking heeft op vakken die wezenlijk verschillen van
  die welke worden afgedekt door de in België vereiste opleidingstitel;
@@ -1025,7 +1025,6 @@ Pagina 23 van 39 Copyright Belgisch S taatsblad 12-03-2026
   [1 In afwijking van het in § 2 neergelegde beginsel op grond waarvan de aanvrager het recht heeft te kiezen,
  kan de bevoegde Belgische autoriteit hetzij een aanpassingsstage hetzij een proeve van bekwaamheid
  voorschrijven in het geval dat :
-Pagina 24 van 39 Copyright Belgisch S taatsblad 12-03-2026
     a) de houder van een beroepskwalificatie als bedoeld in artikel 13, onder a), een aanvraag tot erkenning van
  zijn beroepskwalificaties indient, terwijl de benodigde nationale beroepskwalificatie is ingedeeld onder artikel 13,
  punt c); of
@@ -1092,7 +1091,6 @@ Pagina 24 van 39 Copyright Belgisch S taatsblad 12-03-2026
     1° de houder van een beroepskwalificatie als bedoeld in artikel 13, onder a), een aanvraag tot erkenning van
  zijn beroepskwalificaties indient, terwijl de benodigde nationale beroepskwalificatie is ingedeeld onder artikel 13,
  punt c); of
-Pagina 25 van 39 Copyright Belgisch S taatsblad 12-03-2026
     2° de houder van een beroepskwalificatie als bedoeld in artikel 13, onder b), een aanvraag tot erkenning van
  zijn beroepskwalificaties indient, terwijl de benodigde nationale beroepskwalificatie is ingedeeld onder artikel 13,
  punt d) of e).
@@ -1161,7 +1159,6 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
  onderneming, wanneer de begunstigde kan aantonen dat hij voor de betrokken werkzaamheid een voorafgaande
  opleiding van ten minste drie jaar heeft gevolgd, die met een door de lidstaat erkend certificaat is afgesloten of
  die door een bevoegde beroepsorganisatie als volwaardig is erkend.
-Pagina 26 van 39 Copyright Belgisch S taatsblad 12-03-2026
    § 2. In de onder a) en d) bedoelde gevallen mag deze werkzaamheid niet meer dan tien jaar vóór de datum van
  indiening van het volledige dossier van de betrokkene bij de bevoegde Belgische autoriteit zijn beëindigd.
    § 3. § 1, onder e), is niet van toepassing op de werkzaamheden van groep Ex 855 van de ISIC-nomenclatuur,
@@ -1235,7 +1232,6 @@ Pagina 26 van 39 Copyright Belgisch S taatsblad 12-03-2026
    1° in België zijn er geen onderwijs- of opleidingsinstellingen die een dergelijke opleiding voor het betrokken
  beroep kunnen aanbieden;
    2° de invoering van het gemeenschappelijk opleidingskader zou nadelige gevolgen hebben voor de organisatie
-Pagina 27 van 39 Copyright Belgisch S taatsblad 12-03-2026
  van het onderwijs- en opleidingsstelsel;
    3° tussen het gemeenschappelijk opleidingskader en de in België vereiste opleiding zijn er wezenlijke verschillen
  die ernstige risico's inhouden voor de openbare orde, de openbare veiligheid, de volksgezondheid of de veiligheid
@@ -1243,7 +1239,7 @@ Pagina 27 van 39 Copyright Belgisch S taatsblad 12-03-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 27, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 21/1_WAALS_GEWEST.
+## Art. 21/1_WAALS_GEWEST.
   [1 Gemeenschappelijk opleidingskader
    Voor de toegang tot of de uitoefening van een beroep, hebben de op basis van een gemeenschappelijk
  opleidingskader verworven opleidingstitels in de zin van artikel 49 bis, § 2, van de Richtlijn, dezelfde gevolgen als
@@ -1283,7 +1279,7 @@ Pagina 27 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 28, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 21/2_WAALS_GEWEST.
+## Art. 21/2_WAALS_GEWEST.
   [1 Gemeenschappelijke opleidingsproeven
    Het slagen voor een gemeenschappelijke opleidingsproef in de zin van artikel 49ter van de Richtlijn, laat de
  houder van een bepaalde beroepskwalificatie toe om het beroep in het Waalse Gewest onder dezelfde
@@ -1297,12 +1293,13 @@ Pagina 27 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Documenten en formaliteiten.
 
-  Art. 22.§ 1. Wanneer de bevoegde Belgische autoriteiten overeenkomstig deze titel over een aanvraag tot
+## Art. 22
+
+§ 1. Wanneer de bevoegde Belgische autoriteiten overeenkomstig deze titel over een aanvraag tot
  uitoefening van het betrokken gereglementeerde beroep beslissen, kunnen zij de in § 5 genoemde documenten
  eisen.
   De in § 5, onder d), e) en f), bedoelde documenten mogen bij overlegging niet ouder dan drie maanden zijn.
   De bevoegde Belgische autoriteiten dragen er zorg voor dat de inhoud van de verstrekte informatie geheim
-Pagina 28 van 39 Copyright Belgisch S taatsblad 12-03-2026
  blijft.
    § 2. Ingeval van gegronde twijfel kan de bevoegde Belgische autoriteit de bevoegde autoriteiten van een andere
  lidstaat vragen om bevestiging van de echtheid van de in die andere lidstaat afgegeven getuigschriften en
@@ -1371,7 +1368,6 @@ Pagina 28 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<W 2016-12-25/44, art. 29, 002; Inwerkingtreding : 10-02-2017>
 
-Pagina 29 van 39 Copyright Belgisch S taatsblad 12-03-2026
 ## Art. 22_WAALS_GEWEST.
     § 1. Wanneer de bevoegde Belgische autoriteiten overeenkomstig deze titel over een aanvraag tot uitoefening
  van het betrokken gereglementeerde beroep beslissen, kunnen zij de in § 5 genoemde documenten eisen.
@@ -1440,7 +1436,6 @@ Pagina 29 van 39 Copyright Belgisch S taatsblad 12-03-2026
  veroordeling is.]2
    § 6. Met betrekking tot de in § 5, d) en e) bedoelde documenten moet de bevoegde Belgische autoriteit de
  gevraagde documenten binnen twee maanden verstrekken aan de bevoegde autoriteit van een andere lidstaat.
-Pagina 30 van 39 Copyright Belgisch S taatsblad 12-03-2026
   Procedure voor de onderlinge erkenning van beroepskwalificaties
   ----------
   (1)<W 2016-12-25/44, art. 29, 002; Inwerkingtreding : 10-02-2017>
@@ -1475,7 +1470,9 @@ Pagina 30 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Talenkennis.
 
-  Art. 25.[1 § 1. De beroepsbeoefenaren die erkenning van beroepskwalificaties hebben verkregen, moeten
+## Art. 25
+
+[1 § 1. De beroepsbeoefenaren die erkenning van beroepskwalificaties hebben verkregen, moeten
  beschikken over de talenkennis die vereist is voor de uitoefening van het beroep in België.
    § 2. De controles die tot doel hebben de taalkennis bedoeld in § 1 na te gaan, zijn beperkt tot de kennis van één
  officiële Belgische landstaal.
@@ -1513,7 +1510,6 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
  eventueel van de afkorting daarvan, in de taal van de lidstaat van herkomst. De bevoegde Belgische autoriteit kan
  voorschrijven dat deze titel wordt gevolgd door de naam en de plaats van de instelling of van de
  examencommissie die de titel heeft verleend. Wanneer een academische titel van de lidstaat van oorsprong in
-Pagina 31 van 39 Copyright Belgisch S taatsblad 12-03-2026
  België kan worden verward met een titel waarvoor in België een aanvullende opleiding is vereist die de
  begunstigde niet heeft gevolgd, kan de bevoegde Belgische autoriteit voorschrijven dat de begunstigde een
  academische titel van de lidstaat van oorsprong voert in een door haar aangegeven passende vorm.
@@ -1536,7 +1532,7 @@ Pagina 31 van 39 Copyright Belgisch S taatsblad 12-03-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 31, 002; Inwerkingtreding : 10-02-2017>
 
-   Art. 26/1_WAALS_GEWEST.
+## Art. 26/1_WAALS_GEWEST.
    [1 Erkenning van beroepsstages
     § 1. Indien de voor toegang tot een gereglementeerd beroep een beroepsstage in het Waalse Gewest moet
  worden volbracht, erkennen de bevoegde autoriteiten, wanneer zij een verzoek om toelating om het
@@ -1558,7 +1554,9 @@ Pagina 31 van 39 Copyright Belgisch S taatsblad 12-03-2026
 
   Bevoegde autoriteiten.
 
-   Art. 27.§ 1. De bevoegde Belgische autoriteiten werken nauw samen met de bevoegde autoriteiten van de
+## Art. 27
+
+§ 1. De bevoegde Belgische autoriteiten werken nauw samen met de bevoegde autoriteiten van de
  lidstaat van oorsprong bij de toepassing van de richtlijn. Zij zien toe op de vertrouwelijkheid van de uitgewisselde
  informatie.
    § 2. De bevoegde Belgische autoriteiten wisselen informatie uit met de bevoegde autoriteiten van de lidstaat van
@@ -1581,7 +1579,6 @@ Pagina 31 van 39 Copyright Belgisch S taatsblad 12-03-2026
  oorsprong bij de toepassing van de richtlijn. Zij zien toe op de vertrouwelijkheid van de uitgewisselde informatie.
   § 2. De bevoegde Belgische autoriteiten wisselen informatie uit met de bevoegde autoriteiten van de lidstaat van
  oorsprong over tuchtrechtelijke maatregelen of strafrechtelijke sancties die genomen zijn, en over alle andere
-Pagina 32 van 39 Copyright Belgisch S taatsblad 12-03-2026
  specifieke ernstige feiten die van invloed kunnen zijn op de uitoefening van werkzaamheden in het kader van
  deze wet, met inachtneming van de wet [2 van 8 december 1992 tot bescherming van de persoonlijke
  levenssfeer ten opzichte van de verwerking van persoonsgegevens]2 en van de wet van 24 augustus 2005 voor
@@ -1621,7 +1618,7 @@ Pagina 32 van 39 Copyright Belgisch S taatsblad 12-03-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-25/44, art. 33, 002; Inwerkingtreding : 10-02-2017>
 
-   Art. 27/1_WAALS_GEWEST.
+## Art. 27/1_WAALS_GEWEST.
    [1 Waarschuwingsmechanismes
    § 1. De bevoegde autoriteiten stellen de bevoegde autoriteiten van alle andere lidstaten binnen drie dagen nadat
  de rechtbank het besluit heeft genomen, door middel van een waarschuwing via het IMI in kennis van de identiteit
@@ -1650,10 +1647,9 @@ Pagina 32 van 39 Copyright Belgisch S taatsblad 12-03-2026
    Het eerste lid is niet van toepassing op het uitvoeren van een aanpassingsstage of een proeve van
  bekwaamheid.]1
   ----------
-Pagina 33 van 39 Copyright Belgisch S taatsblad 12-03-2026
   (1)<Ingevoegd bij W 2016-12-25/44, art. 34, 002; Inwerkingtreding : 10-02-2017>
 
-  Art. 27/2_WAALS_GEWEST.
+## Art. 27/2_WAALS_GEWEST.
   [1 De bevoegde autoriteiten zorgen ervoor dat alle vereisten, procedures en formaliteiten inzake
  aangelegenheden die onder deze wet vallen, eenvoudig, op afstand en met elektronische middelen kunnen
  worden afgewikkeld of opgevolgd.
@@ -1723,7 +1719,6 @@ Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bek
    16. Royal Society of Chemistry
    17. British Psychological Society
    18. Library Association
-Pagina 34 van 39 Copyright Belgisch S taatsblad 12-03-2026
   19. Institute of Chartered Foresters
   20. Chartered Institute of Building
   21. Engineering Council
@@ -1788,7 +1783,6 @@ Pagina 34 van 39 Copyright Belgisch S taatsblad 12-03-2026
   271 Houtslijp- en cellulosefabrieken; papier- en kartonfabrieken
   272 Papierwaren- en kartonnagefabrieken (vervaardiging van artikelen uit papierstof, papier en karton)
   Klasse 28 280 Grafische nijverheid, uitgeverijen
-Pagina 35 van 39 Copyright Belgisch S taatsblad 12-03-2026
   Klasse 29 Vervaardiging van leder en lederwaren
   291 Leerlooierijen
   292 Lederwarenfabrieken
@@ -1857,7 +1851,6 @@ Pagina 35 van 39 Copyright Belgisch S taatsblad 12-03-2026
   385 Rijwiel- en motorrijwielfabrieken; fabrieken van rijwiel- en motorrijwielonderdelen
   389 Overige transportmiddelenindustrie
   Klasse 39 Fijnmechanische en optische industrie; nijverheidsbedrijven niet elders genoemd
-Pagina 36 van 39 Copyright Belgisch S taatsblad 12-03-2026
   391 Fijnmechanische industrie
   392 Medische- en orthopedische-artikelenfabrieken (met uitzondering van fabrieken van orthopedisch
  schoeisel)
@@ -1926,7 +1919,6 @@ Pagina 36 van 39 Copyright Belgisch S taatsblad 12-03-2026
   Ex 856 Fotostudio's : portretfotografie en fotografie voor handelsdoeleinden, met uitzondering van
  persfotografie
   Ex 859 Persoonlijke diensten, niet elders ingedeeld (alleen onderhoud en schoonhouden van gebouwen of
-Pagina 37 van 39 Copyright Belgisch S taatsblad 12-03-2026
  lokalen)
    2.
    Richtlijn 75/369/EEG (artikel 6 : indien de werkzaamheid als een industriële of ambachtelijke activiteit wordt
@@ -1995,7 +1987,6 @@ Pagina 37 van 39 Copyright Belgisch S taatsblad 12-03-2026
    854 Verhuur van gewassen linnengoed
    859 Verhuur van kleding
    3.
-Pagina 38 van 39 Copyright Belgisch S taatsblad 12-03-2026
    Richtlijn 68/368/EEG
    (Liberaliseringsrichtlijn : 68/367/EEG)
    ISIC-nomenclatuur
@@ -2064,4 +2055,3 @@ Pagina 38 van 39 Copyright Belgisch S taatsblad 12-03-2026
   Art. N5. Bijlage V. - Omzettingstabel.
   (Tabel niet opgenomen om technische redenen. Zie B.S. 02-04-2008, p. 17918-17921).
 
-Pagina 39 van 39 Copyright Belgisch S taatsblad 12-03-2026

@@ -41,7 +41,9 @@ In procedures waarin een ontvanger of een adviseur-generaal van de administratie
 
   Afdeling 1. - Algemene bepalingen
 
-   Art. 6.§ 1. Onverminderd het nemen van bewarende of waarborgmaatregelen, overeenkomstig dit Wetboek, de
+## Art. 6
+
+§ 1. Onverminderd het nemen van bewarende of waarborgmaatregelen, overeenkomstig dit Wetboek, de
  fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of het
  gemeen recht, wordt de invordering van fiscale en niet-fiscale schuldvorderingen vervolgd op grond van een
  uitvoerbaar verklaard kohier of innings- en invorderingsregister of op grond van een rechterlijke beslissing
@@ -61,7 +63,6 @@ In procedures waarin een ontvanger of een adviseur-generaal van de administratie
  bescherming van natuurlijke personen in verband met de verwerking van [1 persoonsgegevens]1 en betreffende
  het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG.
    § 5. Onverminderd de noodzakelijke bewaring voor de verdere verwerking met het oog op archivering in het
-Pagina 5 van 30 Copyright Belgisch S taatsblad 19-03-2026
  algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden bedoeld in artikel 89 van
  verordening (EU) 2016/679 van 27 april 2016 van het Europees Parlement en de Raad betreffende de
  bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het
@@ -140,7 +141,6 @@ De invordering van een inkomstenbelasting gevestigd overeenkomstig artikel 126, 
 ## Art. 11
 
 Zolang de overgang van een eigendom niet in de stukken van het kadaster is overgeschreven, zijn de
-Pagina 6 van 30 Copyright Belgisch S taatsblad 19-03-2026
  vroegere houder van het recht op de belastbare goederen of zijn erfgenamen, tenzij zij bewijzen dat het recht op
  een andere houder is overgegaan en dat zij de volledige identiteit en adres van de nieuwe houder laten kennen,
  aansprakelijk voor de betaling van de onroerende voorheffing, behoudens hun verhaal op de nieuwe houder van
@@ -198,7 +198,9 @@ De administratie of instelling belast met het beheer van een goed van de Staat, 
 
   HOOFDSTUK 1. - De aanmaning tot betaling
 
-  Art. 13.§ 1. Wanneer de invordering van een fiscale of niet-fiscale schuldvordering wordt vervolgd lastens een
+## Art. 13
+
+§ 1. Wanneer de invordering van een fiscale of niet-fiscale schuldvordering wordt vervolgd lastens een
  schuldenaar, wordt een aanmaning tot betaling, waarin de gegevens van de schuldvordering volledig en
  ondubbelzinnig zijn opgenomen, bij gewone zending aan de schuldenaar verzonden. De aanmaning tot betaling
  heeft uitwerking vanaf de derde werkdag die volgt op [1 de datum van haar verzending, behalve wanneer de
@@ -212,7 +214,6 @@ De administratie of instelling belast met het beheer van een goed van de Staat, 
  medeschuldenaar, wordt een aanmaning tot betaling, waarin een exemplaar van het aanslagbiljet of een afschrift
  van het innings- en invorderingsbericht, de wettelijke of reglementaire oorzaken en het bedrag van zijn schuld
  worden opgenomen, bij gewone zending aan de medeschuldenaar verzonden. De aanmaning tot betaling heeft
-Pagina 7 van 30 Copyright Belgisch S taatsblad 19-03-2026
  uitwerking vanaf de derde werkdag die volgt op de datum van haar verzending. [1 Behalve wanneer de rechten
  van de Schatkist in het gedrang komen, mag deze aanmaning niet verzonden worden]1 dan na het verstrijken
  van een termijn van tien dagen, te rekenen van de eerste dag na het verstrijken van de wettelijke betaaltermijn
@@ -258,7 +259,9 @@ De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij
 
   HOOFDSTUK 2. - De betalingen
 
-   Art. 15.§ 1. Behoudens indien de fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking tot
+## Art. 15
+
+§ 1. Behoudens indien de fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking tot
  niet-fiscale schuldvorderingen anders bepalen, gebeurt de betaling van fiscale en niet-fiscale schuldvorderingen
  op een van de volgende manieren:
    1° door storting of overschrijving op de financiële rekening "Inning en Invordering" van de administratie van de
@@ -283,7 +286,6 @@ De aanmaning tot betaling bedoeld in artikel 13 geldt als ingebrekestelling. Zij
    ----------
    (1)<W 2023-03-12/08, art. 11, 014; Inwerkingtreding : 01-01-2025>
 
-Pagina 8 van 30 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 15/1
 
 [1 § 1. In afwijking van artikel 15 kan de Koning bepalen dat de spontane betaling van fiscale en nietfiscale schuldvorderingen gebeurt op één van de volgende manieren:
@@ -326,14 +328,18 @@ Pagina 8 van 30 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2023-03-12/08, art. 13, 014; Inwerkingtreding : 01-01-2025>
 
-  Art. 16.Gelden als bewijs van betaling:
+## Art. 16
+
+Gelden als bewijs van betaling:
   - voor stortingen, de door de naamloze vennootschap van publiek recht bpost gedateerde ontvangstbewijzen;
   - [1 voor overschrijvingen en betalingen via om het even welk door de minister van Financiën erkend
  elektronisch betaalmiddel en via de domiciliëringen]1, de rekeninguittreksels en de bijbehorende stukken.
   ----------
   (1)<W 2023-03-12/08, art. 14, 014; Inwerkingtreding : 01-01-2025>
 
-  Art. 17.[1 De betaling van de fiscale en niet-fiscale schuldvorderingen heeft uitwerking:
+## Art. 17
+
+[1 De betaling van de fiscale en niet-fiscale schuldvorderingen heeft uitwerking:
    1° voor betalingen en overschrijvingen, op de valutadatum van de creditering van de in de artikelen 15, § 1,
  eerste lid, 1° en 15/1, § 1, eerste lid, 1° bedoelde financiële rekeningen;
    2° voor betalingen via om het even welk door de minister van Financiën erkend elektronisch betaalmiddel, op
@@ -354,7 +360,6 @@ Pagina 8 van 30 Copyright Belgisch S taatsblad 19-03-2026
 § 1. In afwijking van de aanrekeningsregels die bepaald zijn in de fiscale wetten, kan een persoon,
  wanneer hij verschillende sommen verschuldigd is uit hoofde van fiscale en niet-fiscale schuldvorderingen
  waarvan de betaling moet gebeuren op de financiële rekening "Inning en Invordering" bedoeld in artikel 15,
-Pagina 9 van 30 Copyright Belgisch S taatsblad 19-03-2026
  aangeven welke hij wil aanzuiveren ofwel bij elke betaling die hij verricht via het elektronisch platform dat de
  Federale Overheidsdienst Financiën hem ter beschikking stelt, ofwel wanneer hij het voorafgaand aan zijn betaling
  aanvraagt bij de daartoe door de Koning aangewezen dienst.
@@ -429,7 +434,6 @@ De kosten van de in dit Wetboek voorgeschreven aangetekende zendingen met betrek
  1 bedoelde beslag onder derden leggen op elektronische wijze.
   Dit akkoord blijft van toepassing zolang de derde-beslagene het niet uitdrukkelijk bij aangetekende zending heeft
  opgezegd. De opzegging gaat in vanaf de eerste dag van de derde maand volgend op de ontvangst van de
-Pagina 10 van 30 Copyright Belgisch S taatsblad 19-03-2026
  kennisgeving ervan door de bevoegde dienst van de Federale Overheidsdienst Financiën.
   In de gevallen waarin gebruik wordt gemaakt van de mogelijkheid bedoeld in het eerste lid, heeft het beslag
  onder derden uitwerking vanaf de datum van ontvangstmelding van het beslag door de derde-beslagene.
@@ -498,7 +502,6 @@ Pagina 10 van 30 Copyright Belgisch S taatsblad 19-03-2026
  zijn bewarend effect behouden wanneer een uitvoerend beslag onder derden bij deurwaardersexploot wordt
  gelegd als bepaald bij artikel 1539 van het Gerechtelijk Wetboek, binnen een maand na:
   1° ofwel de afgifte bij de aanbieder van de universele postdienst van het verzet van de schuldenaar of de
-Pagina 11 van 30 Copyright Belgisch S taatsblad 19-03-2026
  medeschuldenaar als bepaald in paragraaf 3, tweede lid, of van de verklaring als bedoeld in artikel 1452 van het
  Gerechtelijk Wetboek;
   2° ofwel de ontvangstmelding van deze verklaring wanneer zij werd verzonden op elektronische wijze als
@@ -515,7 +518,9 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
 
   Afdeling 1. - De verjaringstermijnen
 
-   Art. 23.§ 1. De inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde
+## Art. 23
+
+§ 1. De inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde
  belastingen, evenals de verhogingen en de administratieve geldboeten met betrekking tot deze belastingen en
  voorheffingen, verjaren door verloop van vijf jaren vanaf de datum van uitvoerbaarverklaring van het kohier
  waarin ze zijn opgenomen overeenkomstig de fiscale wetten.
@@ -573,7 +578,6 @@ De verjaring bedoeld in artikel 23, § 1, § 2, tweede lid, § 3, tweede lid, §
 
 § 1. De inleidende akte van een rechtsgeding met betrekking tot de toepassing of de vestiging, de
  inning of de invordering van fiscale en niet-fiscale schuldvorderingen die wordt ingesteld door de Belgische Staat,
-Pagina 12 van 30 Copyright Belgisch S taatsblad 19-03-2026
  door de schuldenaar van deze schuldvorderingen, door elke medeschuldenaar, alsook door iedere andere
  persoon die een verkregen en dadelijk belang heeft om in rechte te treden, schorst de verjaring bedoeld in de
  artikelen 23, § 1, § 2, tweede lid, § 3, tweede lid, § 4, tweede lid, en § 5, tweede lid, alsook de verjaring van de
@@ -652,10 +656,11 @@ De ontvanger kan de inschrijving van de wettelijke hypotheek vorderen vanaf de d
  betreft de fiscale of niet-fiscale schuldvordering die is opgenomen in een kohier of een innings- en
  invorderingsregister dat vóór het vonnis van faillietverklaring uitvoerbaar werd verklaard, of die het voorwerp
  uitmaakt van een rechterlijke beslissing houdende veroordeling tot betaling van deze schuldvordering die vóór
-Pagina 13 van 30 Copyright Belgisch S taatsblad 19-03-2026
  het vonnis van faillietverklaring in kracht van gewijsde is getreden.
 
-  Art. 31.[1 De inschrijving van de wettelijke hypotheek heeft plaats niettegenstaande verzet, betwisting of
+## Art. 31
+
+[1 De inschrijving van de wettelijke hypotheek heeft plaats niettegenstaande verzet, betwisting of
  beroep.
    Behalve de vermeldingen bedoeld in artikel 89 van de hypotheekwet van 16 december 1851, vermeldt het
  borderel, voor elke fiscale of niet-fiscale schuldvordering die gewaarborgd is door de wettelijke hypotheek, de
@@ -693,7 +698,9 @@ De kosten van de hypothecaire formaliteiten in verband met de wettelijke hypothe
   Onderafdeling 1. - De aansprakelijkheid en plichten inzake de opmaak van akten die de vervreemding of
  hypothecaire aanwending van een voor hypotheek vatbaar goed tot voorwerp hebben
 
-  Art. 35.§ 1. [1 Om de Schatkist, met het oog op de invordering van fiscale en niet-fiscale schuldvorderingen, in
+## Art. 35
+
+§ 1. [1 Om de Schatkist, met het oog op de invordering van fiscale en niet-fiscale schuldvorderingen, in
  staat te stellen een wettelijke hypotheek te nemen op een voor hypotheek vatbaar goed dat het voorwerp
  uitmaakt van een ontwerpakte tot vervreemding of hypothecaire aanwending is de notaris die verzocht is om
  een akte op te maken die de vervreemding of de hypothecaire aanwending van een voor hypotheek vatbaar
@@ -725,7 +732,6 @@ De kosten van de hypothecaire formaliteiten in verband met de wettelijke hypothe
  respectievelijk in paragraaf 1, eerste lid, 1° en 2°, dan zal het bericht opgesteld overeenkomstig paragraaf 1,
  eerste lid, 2°, slechts primeren indien de verzendingsdatum ervan de verzendingsdatum van het bericht
  opgesteld overeenkomstig paragraaf 1, eerste lid, 1°, voorafgaat.
-Pagina 14 van 30 Copyright Belgisch S taatsblad 19-03-2026
   § 3. Wanneer het bericht meegedeeld is overeenkomstig § 1, eerste lid, 1°, wordt onder de verzendingsdatum
  van het bericht verstaan de datum van ontvangstmelding meegedeeld door [2 de dienst belast]2 met informatieen communicatietechnologie van de Federale Overheidsdienst Financiën.
   § 4. De Koning stelt de praktische toepassingsvoorwaarden van dit artikel vast.
@@ -734,7 +740,9 @@ Pagina 14 van 30 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2021-12-20/04, art. 14, 006; Inwerkingtreding : 07-01-2022>
   (3)<W 2024-02-07/18, art. 7, 013; Inwerkingtreding : 01-01-2025>
 
-   Art. 36.Indien het belang van de Schatkist dit vereist, geeft de bevoegde ontvanger aan de notaris, vóór het
+## Art. 36
+
+Indien het belang van de Schatkist dit vereist, geeft de bevoegde ontvanger aan de notaris, vóór het
  verstrijken van de [2 tiende]2 werkdag volgend op de verzending van het in artikel 35 bedoelde bericht, kennis
  van het bedrag van de fiscale en niet-fiscale schuldvorderingen die aanleiding kunnen geven tot inschrijving van
  de wettelijke hypotheek van de Schatkist op het goed [1 dat het voorwerp van de akte is en in voorkomend geval
@@ -768,7 +776,9 @@ Pagina 14 van 30 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2020-04-23/27, art. 18, 002; Inwerkingtreding : 01-01-2020>
    (2)<W 2023-12-28/01, art. 93, 011; Inwerkingtreding : 08-01-2024>
 
-   Art. 37.§ 1. Wanneer de in artikel 35 bedoelde akte verleden is, geldt de in artikel 36 bedoelde kennisgeving als
+## Art. 37
+
+§ 1. Wanneer de in artikel 35 bedoelde akte verleden is, geldt de in artikel 36 bedoelde kennisgeving als
  beslag onder derden in handen van de notaris op de bedragen en waarden die hij krachtens de akte onder zich
  houdt voor rekening of ten bate van de schuldenaar of de medeschuldenaar en geldt ze als verzet tegen de prijs
  in de zin van artikel 1642 van het Gerechtelijk Wetboek in de gevallen waarin de notaris gehouden is deze
@@ -792,7 +802,6 @@ Pagina 14 van 30 Copyright Belgisch S taatsblad 19-03-2026
  hij het bericht bedoeld in artikel 35, § 1, bij aangetekende zending heeft verzonden.
    De datum van de inlichting is, naargelang het geval, de datum van ontvangstmelding meegedeeld door [1 de
  dienst belast]1 met informatie- en communicatietechnologie van de Federale Overheidsdienst Financiën, of de
-Pagina 15 van 30 Copyright Belgisch S taatsblad 19-03-2026
  verzendingsdatum van de aangetekende zending.
   § 2. Wanneer eenzelfde inlichting achtereenvolgens gegeven wordt overeenkomstig respectievelijk paragraaf 1,
  derde lid, 1° en 2°, dan zal de inlichting opgesteld overeenkomstig paragraaf 1, derde lid, 2°, slechts primeren
@@ -846,7 +855,9 @@ De aansprakelijkheid door de notaris opgelopen krachtens de artikelen 35 en 37 k
  waarde van het vervreemde goed of het bedrag van de hypothecaire inschrijving, na aftrek van de sommen en
  waarden waarop in zijn handen beslag onder derden werd gelegd, niet te bovengaan.
 
-  Art. 40.De artikelen [1 35 tot 37 en 38 tot 39]1 zijn van toepassing op elke persoon die bevoegd is om
+## Art. 40
+
+De artikelen [1 35 tot 37 en 38 tot 39]1 zijn van toepassing op elke persoon die bevoegd is om
  authenticiteit te verlenen aan de in artikel 35 bedoelde akten.
   ----------
   (1)<W 2020-04-23/27, art. 20, 002; Inwerkingtreding : 01-01-2020>
@@ -870,7 +881,6 @@ Geen akte die in het buitenland verleden is en de vervreemding of hypothecaire a
  wat de schepen betreft, toegelaten, indien zij niet vergezeld gaat van een attest van de ontvanger bedoeld in
 ## Art. 35.
   Dit attest moet vaststellen ofwel dat de eigenaar of de houder van een zakelijk recht geen sommen
-Pagina 16 van 30 Copyright Belgisch S taatsblad 19-03-2026
  verschuldigd is uit hoofde van fiscale en niet-fiscale schuldvorderingen die tot een hypothecaire inschrijving
  aanleiding kunnen geven, ofwel dat de wettelijke hypotheek, die de fiscale en niet-fiscale schuldvorderingen
  waarborgt, ingeschreven is.
@@ -881,7 +891,9 @@ Pagina 16 van 30 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2022-01-19/18, art. 41, 008; Inwerkingtreding : 01-07-2022>
   (2)<W 2022-07-30/03, art. 35, 009; Inwerkingtreding : 01-11-2022>
 
-   Art. 43.§ 1. [1 Om de inning van zekere en vaststaande fiscale en niet-fiscale schuldvorderingen, die de erflater,
+## Art. 43
+
+§ 1. [1 Om de inning van zekere en vaststaande fiscale en niet-fiscale schuldvorderingen, die de erflater,
  zijn erfgenamen en legatarissen of de begunstigden van een door de erflater gemaakte contractuele erfstelling
  verschuldigd zijn, te verzekeren zijn de notarissen die verzocht zijn om een in artikel [5 4.59, § 4, derde lid,]5 van
  het Burgerlijk Wetboek bedoelde akte of attest van erfopvolging op te maken, persoonlijk aansprakelijk in de zin
@@ -927,7 +939,9 @@ Pagina 16 van 30 Copyright Belgisch S taatsblad 19-03-2026
    (5)<W 2022-07-30/03, art. 36, 009; Inwerkingtreding : 01-11-2022>
    (6)<W 2024-02-07/18, art. 9, 013; Inwerkingtreding : 01-01-2025>
 
-  Art. 44.§ 1. De bevoegde ontvanger kan aan de notaris die het in artikel 43 bedoelde bericht verzonden heeft,
+## Art. 44
+
+§ 1. De bevoegde ontvanger kan aan de notaris die het in artikel 43 bedoelde bericht verzonden heeft,
  vóór het verstrijken van de [2 tiende]2 werkdag volgend op de verzendingsdatum van dat bericht, kennisgeven
  van het bestaan lastens de erflater of een andere persoon vermeld in het bericht, van een som verschuldigd uit
  hoofde van fiscale en niet-fiscale schuldvorderingen, met opgave voor elk van de schuldenaars van het bedrag
@@ -937,7 +951,6 @@ Pagina 16 van 30 Copyright Belgisch S taatsblad 19-03-2026
  kan worden meegedeeld overeenkomstig 1°, of wanneer de notaris het in artikel 43, § 1, bedoelde bericht
  verzonden heeft bij aangetekende zending.
   Het eerste lid is enkel van toepassing voor zover deze schuld een zekere en vaststaande schuld uitmaakt.
-Pagina 17 van 30 Copyright Belgisch S taatsblad 19-03-2026
    § 2. Wanneer eenzelfde kennisgeving achtereenvolgens wordt verzonden volgens de procedures voorzien
  respectievelijk in § 1, eerste lid, 1° en 2°, dan zal de kennisgeving opgesteld overeenkomstig paragraaf 1, eerste
  lid, 2°, slechts primeren wanneer de verzendingsdatum ervan de verzendingsdatum van de kennisgeving
@@ -963,7 +976,9 @@ Pagina 17 van 30 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2020-04-23/27, art. 22, 002; Inwerkingtreding : 01-01-2020>
    (2)<W 2023-12-28/01, art. 95, 011; Inwerkingtreding : 08-01-2024>
 
-  Art. 45.In het attest van erfopvolging of onderaan de afgeleverde uitgifte [1 of het uittreksel]1 van de akte van
+## Art. 45
+
+In het attest van erfopvolging of onderaan de afgeleverde uitgifte [1 of het uittreksel]1 van de akte van
  erfopvolging wordt vermeld hetzij dat er geen kennisgeving van schulden bij toepassing van artikel 44 werd
  gedaan en dit zowel in hoofde van de erflater als in hoofde van één of meerdere personen die vermeld zijn in het
  bericht en die bestemmeling zijn van het attest [1 , de uitgifte of het uittreksel]1, hetzij dat de schulden waarvan
@@ -979,7 +994,9 @@ Pagina 17 van 30 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2022-07-30/03, art. 37, 009; Inwerkingtreding : 01-11-2022>
 
-  Art. 46.§ 1. Op straffe van persoonlijk aansprakelijk te zijn voor de betaling van de schulden waarvan kennis
+## Art. 46
+
+§ 1. Op straffe van persoonlijk aansprakelijk te zijn voor de betaling van de schulden waarvan kennis
  werd gegeven bij toepassing van artikel 44, kan diegene die tegoeden van een overledene vrijgeeft
  overeenkomstig artikel [2 4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek, dat maar op een bevrijdende wijze
  doen indien duidelijk uit het attest van erfopvolging [2 , de uitgifte of het uittreksel]2 van de akte van erfopvolging
@@ -1007,7 +1024,6 @@ Pagina 17 van 30 Copyright Belgisch S taatsblad 19-03-2026
 Het in artikel 43 bedoelde bericht wordt opgemaakt overeenkomstig het door de Koning bepaalde
  model.
 
-Pagina 18 van 30 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 47/1
 
 [1 De Federale Overheidsdienst Financiën vertegenwoordigd door de voorzitter van het Directiecomité
@@ -1031,7 +1047,9 @@ Pagina 18 van 30 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<Ingevoegd bij W 2020-04-23/27, art. 23, 002; Inwerkingtreding : 01-01-2020>
 
-  Art. 48.De artikelen 43 tot 47 zijn van toepassing op elke persoon of dienst die bevoegd is om een in artikel [2
+## Art. 48
+
+De artikelen 43 tot 47 zijn van toepassing op elke persoon of dienst die bevoegd is om een in artikel [2
  4.59, § 4, derde lid,]2 van het Burgerlijk Wetboek bedoeld attest van erfopvolging op te maken.
   ----------
   (1)<W 2022-01-19/18, art. 44, 008; Inwerkingtreding : 01-07-2022>
@@ -1039,7 +1057,9 @@ Pagina 18 van 30 Copyright Belgisch S taatsblad 19-03-2026
 
   Onderafdeling 3. - De overige aansprakelijkheden en plichten
 
-   Art. 49.Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop van roerende
+## Art. 49
+
+Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop van roerende
  goederen waarvan de waarde ten minste 2 500 euro bedraagt, zijn persoonlijk aansprakelijk in de zin van artikel
  [2 6.5]2 van het Burgerlijk Wetboek, voor de betaling van de sommen verschuldigd uit hoofde van fiscale en nietfiscale schuldvorderingen die de eigenaar op het ogenblik van de verkoop verschuldigd is, indien zij niet ten
  minste [1 zeven]1 werkdagen vooraf, bij aangetekende zending, de ontvanger waarvan de eigenaar van die
@@ -1051,7 +1071,9 @@ Pagina 18 van 30 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2023-12-28/01, art. 96, 011; Inwerkingtreding : 08-01-2024>
    (2)<W 2024-02-07/18, art. 10, 013; Inwerkingtreding : 01-01-2025>
 
-   Art. 50.§ 1. Onverminderd de toepassing van de artikelen 35 tot 41 is de overdracht in eigendom of in
+## Art. 50
+
+§ 1. Onverminderd de toepassing van de artikelen 35 tot 41 is de overdracht in eigendom of in
  vruchtgebruik, van een geheel van goederen, samengesteld uit onder meer elementen die het behoud van de
  clientèle mogelijk maken, die voor de uitoefening van een vrij beroep, ambt of post of een industrieel, handels- of
  landbouwbedrijf worden aangewend, evenals de vestiging van een vruchtgebruik op dezelfde goederen, niet
@@ -1075,7 +1097,6 @@ Pagina 18 van 30 Copyright Belgisch S taatsblad 19-03-2026
    Het certificaat wordt ofwel uitgereikt ofwel geweigerd binnen dertig dagen na de indiening van de aanvraag van
  de overdrager.
    § 4. Zijn niet onderworpen aan de bepalingen van dit artikel de overdrachten die worden uitgevoerd door een
-Pagina 19 van 30 Copyright Belgisch S taatsblad 19-03-2026
  curator, een gerechtsmandataris gelast met het organiseren en realiseren van een overdracht onder gerechtelijk
  gezag overeenkomstig artikel XX.85 van het Wetboek van economisch recht of in geval van fusie, splitsing,
  inbreng van de algemeenheid van goederen of van een tak van werkzaamheid verricht overeenkomstig de
@@ -1084,7 +1105,9 @@ Pagina 19 van 30 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2021-12-20/04, art. 7, 006; Inwerkingtreding : 07-01-2022>
 
-   Art. 51.§ 1. In geval van tekortkoming, door een vennootschap of [1 een vereniging zonder winstoogmerk, een
+## Art. 51
+
+§ 1. In geval van tekortkoming, door een vennootschap of [1 een vereniging zonder winstoogmerk, een
  internationale vereniging zonder winstoogmerk of een buitenlandse vereniging wanneer deze verenigingen meer
  dan één van de criteria bedoeld in artikel 3:47, § 2, eerste lid, van het Wetboek van vennootschappen en
  verenigingen overschrijden]1, aan haar verplichting tot het betalen van de bedrijfsvoorheffing of de belasting
@@ -1146,7 +1169,6 @@ Pagina 19 van 30 Copyright Belgisch S taatsblad 19-03-2026
  en geldboeten die betrekking hebben op:
   1° het belastbaar tijdperk waarin de overdracht van de aandelen plaatsheeft;
   2° de drie belastbare tijdperken voorafgaand aan deze waarin de overdracht van de aandelen plaatsheeft.
-Pagina 20 van 30 Copyright Belgisch S taatsblad 19-03-2026
   Als de vennootschap uiterlijk de dag van de overdracht van de aandelen een meerwaarde gerealiseerd heeft op
  immateriële of materiële vaste activa dewelke het voorwerp kunnen uitmaken van een gespreide taxatie als
  bedoeld in artikel 47 van het Wetboek van de inkomstenbelastingen 1992 op voorwaarde van herbelegging van
@@ -1161,7 +1183,9 @@ Pagina 20 van 30 Copyright Belgisch S taatsblad 19-03-2026
   Afdeling 4. - De hoofdelijke aansprakelijkheid voor de fiscale en niet-fiscale schulden van een aannemer of
  onderaannemer
 
-   Art. 53.Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
+## Art. 53
+
+Voor de toepassing van de artikelen [2 54 tot 59]2, wordt verstaan onder:
    1° "werken":
    a) de werkzaamheden die zijn vermeld in artikel 20, § 2, van het koninklijk besluit nr. 1 van 29 december 1992
  met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde [1 alsook de
@@ -1215,7 +1239,6 @@ Pagina 20 van 30 Copyright Belgisch S taatsblad 19-03-2026
  stadium ook, tegen een prijs het aan de aannemer toevertrouwde werk of een onderdeel ervan uit te voeren of
  te laten uitvoeren of daartoe werknemers ter beschikking te stellen;
    5° "fiscale en niet-fiscale schulden":
-Pagina 21 van 30 Copyright Belgisch S taatsblad 19-03-2026
    a) de sommen verschuldigd uit hoofde van fiscale en niet-fiscale schuldvorderingen, met inbegrip van de nietbetaalde bedragen in het kader van de hoofdelijke aansprakelijkheid bedoeld in artikel 54;
    b) de sommen verschuldigd uit hoofde van buitenlandse fiscale schuldvorderingen waarvoor
  invorderingsbijstand is gevraagd in het kader van internationale en communautaire rechtsinstrumenten.
@@ -1230,7 +1253,9 @@ Pagina 21 van 30 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2021-12-20/04, art. 9, 006; Inwerkingtreding : 07-01-2022>
    (2)<W 2021-12-20/04, art. 17, 006; Inwerkingtreding : 07-01-2022>
 
-   Art. 54.§ 1. De opdrachtgever die, voor de in artikel 53, eerste lid, 1°, vermelde werken een beroep doet op een
+## Art. 54
+
+§ 1. De opdrachtgever die, voor de in artikel 53, eerste lid, 1°, vermelde werken een beroep doet op een
  aannemer die fiscale en niet-fiscale schulden heeft op het ogenblik van het afsluiten van de overeenkomst, is
  hoofdelijk aansprakelijk voor de betaling van de schulden van zijn medecontractant.
    § 2. De aannemer die, voor de in artikel 53, eerste lid, 1°, vermelde werken een beroep doet op een
@@ -1285,7 +1310,6 @@ Pagina 21 van 30 Copyright Belgisch S taatsblad 19-03-2026
  aansprakelijkheid niet toegepast.
   Wanneer de in paragrafen 1 en 2 bedoelde inhouding en storting niet correct zijn uitgevoerd bij elke betaling
  van een deel of het geheel van de prijs van de werken aan een aannemer of onderaannemer die op het ogenblik
-Pagina 22 van 30 Copyright Belgisch S taatsblad 19-03-2026
  van de betaling fiscale en niet-fiscale schulden heeft, worden bij de toepassing van de in artikel 54, §§ 1 en 2,
  bedoelde hoofdelijke aansprakelijkheid de eventueel gestorte bedragen in mindering gebracht van het bedrag
  waarvoor de opdrachtgever of de aannemer aansprakelijk wordt gesteld.
@@ -1335,7 +1359,9 @@ De artikelen 54 tot 58 blijven van toepassing in geval van een procedure van ger
   ----------
   (1)<Ingevoegd bij W 2023-12-19/07, art. 74, 010; Inwerkingtreding : 07-01-2024>
 
-  Art. 59/1.[1 De aan de binnenlandse bijheffing onderworpen groepsentiteiten, joint ventures en de met de joint
+## Art. 59/1
+
+[1 De aan de binnenlandse bijheffing onderworpen groepsentiteiten, joint ventures en de met de joint
  ventures gelieerde partijen, bedoeld in artikel 27/1 van de wet van 19 december 2023 houdende de invoering van
  een minimumbelasting voor multinationale ondernemingen en omvangrijke binnenlandse groepen, zijn hoofdelijk
  gehouden tegenover de Staat tot de betaling van de bedragen verschuldigd ten titel van fiscale
@@ -1364,7 +1390,6 @@ In geval van een administratief beroep of een rechtsvordering, kunnen de aldus b
 In geval van administratief beroep of van een rechtsvordering, worden de betwiste
  inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde belastingen
  beschouwd als een zekere en vaststaande schuldvordering en kunnen ze door middelen tot tenuitvoerlegging
-Pagina 23 van 30 Copyright Belgisch S taatsblad 19-03-2026
  worden ingevorderd, in de mate dat zij overeenstemmen met het bedrag van de aangegeven inkomsten of,
  wanneer zij ambtshalve werden gevestigd bij niet-aangifte, voor zover zij niet meer bedragen dan de laatste
  aanslag welke, voor een vorig aanslagjaar, definitief gevestigd werd ten laste van de schuldenaar.
@@ -1442,7 +1467,6 @@ De behandeling van het verzoek tot onbeperkt uitstel van de invordering wordt to
  administrateur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en
  de invordering van fiscale en niet-fiscale schuldvorderingen, of zijn gemachtigde.
    Aan de eiser wordt een ontvangstbewijs uitgereikt met vermelding van de datum van ontvangst van het beroep.
-Pagina 24 van 30 Copyright Belgisch S taatsblad 19-03-2026
   De commissie doet uitspraak binnen de drie maanden na de ontvangst van het beroep.
   De beslissing van de commissie wordt per aangetekende zending ter kennis van de eiser gebracht.
 
@@ -1527,7 +1551,6 @@ Iedere persoon is gehouden om, zonder verplaatsing, op ieder verzoek van de ambt
  uitrusting kopies te maken in de door hen gewenste vorm van het geheel of een deel van de voormelde
  gegevens, alsook om de informaticabewerkingen te verrichten die nodig worden geacht met het oog op het
  invorderen van de fiscale en niet-fiscale schuldvorderingen.
-Pagina 25 van 30 Copyright Belgisch S taatsblad 19-03-2026
    De ambtenaren belast met de invordering hebben het recht om de boeken en bescheiden bedoeld in het eerste
  lid, te behouden, telkens wanneer zij menen dat de boeken en bescheiden de vermogenssituatie van de
  betrokkene of van derden aantonen of ertoe bijdragen die aan te tonen.
@@ -1577,7 +1600,9 @@ Teneinde zijn vermogenssituatie of die van een derde te bepalen en met het oog o
  door inzonderheid de voorlegging ter inzage te vorderen van stukken die in het bijzonder zijn opgesteld om de
  op informatiedragers geplaatste gegevens om te zetten in een leesbare en verstaanbare vorm.
 
-   Art. 77.§ 1. De administratieve diensten van de Staat, de parketten en de griffies van de hoven en van alle
+## Art. 77
+
+§ 1. De administratieve diensten van de Staat, de parketten en de griffies van de hoven en van alle
  rechtscolleges, de administraties van de Gemeenschappen, de Gewesten, de provincies, de agglomeraties, de
  federaties van gemeenten en de gemeenten evenals de openbare instellingen en inrichtingen, zijn gehouden,
  wanneer zij daartoe worden aangezocht door een ambtenaar belast met de invordering van fiscale en niet-fiscale
@@ -1600,7 +1625,6 @@ Teneinde zijn vermogenssituatie of die van een derde te bepalen en met het oog o
    [1 § 3. Teneinde de omvang van het vermogen en het inkomen vast te stellen dat noodzakelijk moet gekend zijn
  om de invordering van de fiscale en niet-fiscale schuldvorderingen te verzekeren, kunnen de verzoeken om
  inlichtingen en de mededeling van deze inlichtingen bedoeld in paragraaf 1, ook gebeuren door
-Pagina 26 van 30 Copyright Belgisch S taatsblad 19-03-2026
  gegevensuitwisseling in bulk via elektronische weg tussen de administratie waarvan de ambtenaar belast met de
  invordering afhangt, en de administratieve diensten van de Staat, de parketten en de griffies van de hoven en
  van alle rechtscolleges, de administraties van de Gemeenschappen, de Gewesten, de provincies, de
@@ -1631,7 +1655,9 @@ Pagina 26 van 30 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2021-12-20/04, art. 10, 006; Inwerkingtreding : 07-01-2022>
 
-  Art. 78.Alle administraties die ressorteren onder de Federale Overheidsdienst [1 Financiën zijn gehouden]1 aan
+## Art. 78
+
+Alle administraties die ressorteren onder de Federale Overheidsdienst [1 Financiën zijn gehouden]1 aan
  de ambtenaren belast met de invordering, alle in hun bezit zijnde toereikende, ter zake dienende en niet
  overmatige inlichtingen ter beschikking te stellen, die bijdragen tot de vervulling van de opdracht van die
  ambtenaren om de invordering van fiscale en niet-fiscale schuldvorderingen te verzekeren, onder de
@@ -1657,7 +1683,9 @@ Elke inlichting, stuk, proces-verbaal of akte, bij het uitoefenen van zijn funct
  77 bedoelde administratieve diensten, parketten en griffies, administraties, openbare instellingen of inrichtingen,
  kan door de Staat worden ingeroepen om elke krachtens de fiscale wetten verschuldigde som op te sporen.
 
-   Art. 81.[1 § 1. Elk bericht dat onder gesloten omslag wordt verzonden aan de Federale Overheidsdienst
+## Art. 81
+
+[1 § 1. Elk bericht dat onder gesloten omslag wordt verzonden aan de Federale Overheidsdienst
  Financiën in het kader van de toepassing van dit Wetboek of de ter uitvoering ervan genomen besluiten, de
  fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen
  wordt [2 door de administratie]2 van de Federale Overheidsdienst Financiën belast met de inning en de
@@ -1673,7 +1701,6 @@ Elke inlichting, stuk, proces-verbaal of akte, bij het uitoefenen van zijn funct
  vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van richtlijn
  1999/93/EG.
     In dat geval is de vernietiging van het papieren origineel toegestaan.
-Pagina 27 van 30 Copyright Belgisch S taatsblad 19-03-2026
     De Koning bepaalt welke papieren documenten moeten worden bewaard, zelfs na digitalisering.
     § 2. Elk bericht verzonden in het kader van de toepassing van de bepalingen van dit Wetboek of de ter
  uitvoering ervan genomen besluiten, de fiscale wetten of de wettelijke of reglementaire bepalingen met betrekking
@@ -1750,7 +1777,6 @@ De adviseur-generaal van de administratie van de Federale Overheidsdienst Financ
 
 Hij die met bedrieglijk opzet of met het oogmerk om te schaden, de bepalingen van dit Wetboek of van
  de ter uitvoering ervan genomen besluiten overtreedt, wordt gestraft met een gevangenisstraf van acht dagen
-Pagina 28 van 30 Copyright Belgisch S taatsblad 19-03-2026
  tot twee jaar en met een geldboete van 250 euro tot 500 000 euro of met een van die straffen alleen.
 
 ## Art. 86
@@ -1823,16 +1849,19 @@ Hij die, hetzij rechtstreeks, hetzij onrechtstreeks, hetzij door een tussenperso
  verbod uitgesproken krachtens artikel 90, schendt, wordt gestraft met een gevangenisstraf van acht dagen tot
  twee jaar en met een geldboete van 250 euro tot 12 500 euro of met één van die straffen alleen.
 
-  Art. 92.Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 81 zijn van
+## Art. 92
+
+Alle bepalingen van boek I, van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 81 zijn van
  toepassing op de in de artikelen 85 tot 89 en 91 bedoelde misdrijven.
   De wet van 5 maart 1952 betreffende de opdecimes op de strafrechtelijke geldboeten, is van toepassing op de
  misdrijven bedoeld in de [1 artikelen 85, 86, 88 en 91]1.
   ----------
   (1)<W 2021-12-20/04, art. 20, 006; Inwerkingtreding : 07-01-2022>
 
-  Art. 93.§ 1. Personen die als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 85 tot 88
+## Art. 93
+
+§ 1. Personen die als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 85 tot 88
  werden veroordeeld, zijn hoofdelijk gehouden tot betaling van de fiscale en niet-fiscale schuldvorderingen, met
-Pagina 29 van 30 Copyright Belgisch S taatsblad 19-03-2026
  uitsluiting van de verhogingen, de administratieve en fiscale geldboeten bedoeld in artikel 2, § 1, 7°, en de op
  deze verhogingen en geldboeten betrekking hebbende bijbehoren, waarvan de betaling werd ontdoken.
   De hoofdelijkheid bedoeld in het eerste lid is eveneens van toepassing op de personen die, als daders of als
@@ -1853,7 +1882,9 @@ Pagina 29 van 30 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2021-12-20/04, art. 21, 006; Inwerkingtreding : 07-01-2022>
   (2)<W 2024-04-09/07, art. 59, 012; Inwerkingtreding : 28-04-2024>
 
-   Art. 94.§ 1. De strafvordering wordt uitgeoefend door het openbaar ministerie.
+## Art. 94
+
+§ 1. De strafvordering wordt uitgeoefend door het openbaar ministerie.
    § 2. Het openbaar ministerie kan echter geen vervolgingen instellen, indien het kennis heeft gekregen van de
  feiten enkel ten gevolge van een klacht of een aangifte van een ambtenaar die niet de machtiging had waarvan
  sprake is in [1 artikel 29, § 2]1, van het Wetboek van Strafvordering.
@@ -1871,7 +1902,9 @@ Pagina 29 van 30 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2020-06-11/15, art. 10, 003; Inwerkingtreding : 01-01-2020>
 
-  Art. 95.In het kader van de kennisgeving en het overleg bedoeld in [1 artikel 29, § 2 en § 3, tweede lid]1, van het
+## Art. 95
+
+In het kader van de kennisgeving en het overleg bedoeld in [1 artikel 29, § 2 en § 3, tweede lid]1, van het
  Wetboek van Strafvordering, deelt de bevoegde adviseur-generaal van de administratie van de Federale
  Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen of
  de ambtenaar die hij aanwijst, de gegevens van het dossier met betrekking tot de feiten die strafrechtelijk
@@ -1880,7 +1913,9 @@ Pagina 29 van 30 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2020-06-11/15, art. 11, 003; Inwerkingtreding : 01-01-2020>
 
-   Art. 96.De ambtenaren van de administratie van de Federale Overheidsdienst Financiën belast met de inning en
+## Art. 96
+
+De ambtenaren van de administratie van de Federale Overheidsdienst Financiën belast met de inning en
  de invordering van fiscale en niet-fiscale schuldvorderingen mogen, op straffe van nietigheid van de akte van
  rechtspleging, slechts als getuige worden gehoord.
    Het eerste lid is niet van toepassing op de krachtens artikel 71 van de wet van 28 december 1992 houdende
@@ -1893,4 +1928,3 @@ Pagina 29 van 30 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2020-06-11/15, art. 12, 003; Inwerkingtreding : 01-01-2020>
 
-Pagina 30 van 30 Copyright Belgisch S taatsblad 19-03-2026

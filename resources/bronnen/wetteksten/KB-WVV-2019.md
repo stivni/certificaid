@@ -62,13 +62,14 @@ Online raadplegingen gebeuren volgens de technische voorschriften vastgesteld do
  Belgisch Notariaat en vrij raadpleegbaar is.
    Wanneer een neergelegd stuk niet elektronisch beschikbaar is, kan via de door de Minister van Justitie bepaalde
  webpagina een aanvraag tot scanning van het gevraagde papieren stuk worden gedaan. De aangevraagde
-Pagina 8 van 110 Copyright Belgisch S taatsblad 29-07-2025
  stukken mogen evenwel niet vóór 1 januari 1997 zijn neergelegd.
    De griffier beschikt vanaf de aanvraag over een termijn van 15 dagen om het te scannen document in te voeren
  in het elektronisch dossier. De griffier brengt op het gescande stuk diens elektronische handtekening aan. Deze
  geldt echter niet als waarmerking.
 
-   Art. 1:7.§ 1. Wanneer een rechtspersoon voor het eerst een bij het in artikel 1:2, eerste lid, bedoelde dossier te
+## Art. 1:7
+
+§ 1. Wanneer een rechtspersoon voor het eerst een bij het in artikel 1:2, eerste lid, bedoelde dossier te
  voegen akte, uittreksel van een akte, beslissing of stuk neerlegt, schrijft deze zich hetzij rechtstreeks
  elektronisch in, hetzij wordt zij door de instrumenterende notaris, hetzij door de griffie van de
  ondernemingsrechtbank ingeschreven in het rechtspersonenregister van de Kruispuntbank van Ondernemingen.
@@ -133,7 +134,6 @@ Het ondernemingsnummer van de rechtspersoon wordt vermeld op alle in het dossier
  opgenomen, geeft ze een volgnummer en bergt ze er in op. De griffier houdt een inventaris bij van de stukken.
  Deze inventaris vermeldt voor ieder neergelegd stuk het volgnummer, het onderwerp en de neerleggingsdatum.
   De stukken die in het elektronische deel van de dossiers worden opgenomen, krijgen een volgnummer. Een
-Pagina 9 van 110 Copyright Belgisch S taatsblad 29-07-2025
  inventaris van de stukken die het elektronische deel bevat, wordt automatisch bijgehouden. Deze inventaris
  vermeldt voor ieder neergelegd stuk het volgnummer, het onderwerp en de neerleggingsdatum.
    Onverminderd de elektronische neerlegging door alle hoofdelijk aansprakelijke vennoten, het
@@ -204,7 +204,6 @@ Pagina 9 van 110 Copyright Belgisch S taatsblad 29-07-2025
  paragrafen.
    De verbetering van een vergissing in een stuk waarvan de neerlegging werd bekendgemaakt door mededeling
  in de Bijlagen bij het Belgisch Staatsblad, gebeurt door neerlegging ter griffie, overeenkomstig de voorgaande
-Pagina 10 van 110 Copyright Belgisch S taatsblad 29-07-2025
  paragrafen, van één of meer verbeterde of bijkomende bladen, waarop "verbetering" is vermeld. Zij worden
  gevoegd bij een blad waarop de gegevens bedoeld in paragraaf 2, vierde lid zijn vermeld alsook de aanduiding
  van het stuk waarop de verbetering betrekking heeft. De verbeterde of bijkomende bladen worden in het dossier
@@ -287,7 +286,6 @@ De Minister van Justitie stelt het tarief vast van de kosten van bekendmaking va
 Wanneer aan de griffie een integrale kopie wordt gevraagd, worden de uittreksels uit de in artikel 1:2
  bepaalde dossiers afgegeven op een fotokopie of beschikbaar gesteld op elektronische wijze.
   Elektronische kopieën worden niet voor eensluidend gewaarmerkt, tenzij de aanvrager hier uitdrukkelijk om
-Pagina 11 van 110 Copyright Belgisch S taatsblad 29-07-2025
  verzoekt. De waarmerking gebeurt via een elektronische systeemhandtekening.
   In de mate dat de elektronische kopie betrekking heeft op stukken die zijn opgenomen in het deel van het in
  artikel 2:7, § 2, van het Wetboek van vennootschappen en verenigingen bedoelde elektronisch databanksysteem
@@ -313,7 +311,9 @@ Wanneer hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de p
  ondernemingsrechtbank van het rechtsgebied waarbinnen hetzij de zetel, hetzij het bijkantoor dat bepalend is
  geweest voor de plaats waar het dossier moest worden neergelegd zich bevond.
 
-   Art. 1:20.[1 Via het Europese systeem van gekoppelde registers als bedoeld in artikel 22 van richtlijn
+## Art. 1:20
+
+[1 Via het Europese systeem van gekoppelde registers als bedoeld in artikel 22 van richtlijn
  2017/1132/EU van het Europees Parlement en de Raad van 14 juni 2017 aangaande bepaalde aspecten van het
  vennootschapsrecht notificeert het rechtspersonenregister, onderdeel van de Kruispuntbank van
  Ondernemingen, aan de centrale, handels- of vennootschapsregisters van de Europese Economische Ruimte de
@@ -336,7 +336,9 @@ Wanneer hetzij de zetel, hetzij het bijkantoor dat bepalend is geweest voor de p
    ----------
    (1)<KB 2022-09-14/03, art. 4, 004; Inwerkingtreding : 23-10-2022>
 
-  Art. 1:21.[1 Door de beheersdienst van de Kruispuntbank van Ondernemingen wordt de informatie, via
+## Art. 1:21
+
+[1 Door de beheersdienst van de Kruispuntbank van Ondernemingen wordt de informatie, via
  elektronische weg ontvangen via het Europese systeem van gekoppelde registers als bedoeld in artikel 1:20,
  opgenomen in het rechtspersonenregister betreffende:
    1° de stopzetting van een buitenlandse vennootschap met een bijkantoor in België en;
@@ -364,7 +366,6 @@ Het vonnis dat overeenkomstig artikel 2:101, tweede lid, van het Wetboek van ven
  verenigingen de sluiting van de vereffening van een vennootschap uitspreekt, beveelt het deposito in de
  Deposito- en Consignatiekas van alle geldsommen en andere effecten die het aan de schuldeisers of aan de
  vennoten of aandeelhouders heeft toegekend, maar niet aan hun kunnen worden afgeleverd.
-Pagina 12 van 110 Copyright Belgisch S taatsblad 29-07-2025
   De consignatie geschiedt overeenkomstig de bepalingen van het koninklijk besluit van 24 december 1934
  betreffende de toepassing der wetten op het onvrijwillig bezitsverlies van toonderpapier.
 
@@ -449,7 +450,6 @@ Het rekeningenstelsel van de vennootschap, VZW, IVZW of stichting moet zodanig w
 
 In de jaarrekening worden de bedragen in euro uitgedrukt.
 
-Pagina 13 van 110 Copyright Belgisch S taatsblad 29-07-2025
   HOOFDSTUK 2. - Waarderingsregels
 
   Afdeling 1. - Algemene beginselen
@@ -530,7 +530,6 @@ Er moet rekening worden gehouden met alle voorzienbare risico's, mogelijke verli
  boekjaren zijn verricht. Wanneer de opbrengsten of de kosten in belangrijke mate worden beïnvloed door
  opbrengsten of kosten die aan een ander boekjaar moeten worden toegerekend, wordt daarvan melding
  gemaakt in de toelichting.
-Pagina 14 van 110 Copyright Belgisch S taatsblad 29-07-2025
 ## Art. 3:12
 
 De methoden en grondslagen voor de omrekening van in vreemde valuta uitgedrukte bezittingen,
@@ -598,7 +597,9 @@ Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente:
   2° wordt een voorziening gevormd ten belope van het bedrag van het hiervoorgenoemde kapitaal; deze
  voorziening wordt jaarlijks aangepast.
 
-  Art. 3:19.§ 1. De aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen
+## Art. 3:19
+
+§ 1. De aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen
  die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, stemt overeen met de
  conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. Als evenwel
  die conventionele waarde lager is dan de marktwaarde van de ingebrachte goederen en waarden of van de
@@ -612,7 +613,6 @@ Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente:
  aandelen in de verkrijgende vennootschappen vindt plaats pro rata [1 het aandeel in de reële waarde van de
  overgedragen vermogens dat kan worden toegerekend aan de vennootschap, VZW, IVZW of stichting die deze
  deelnemingen of aandelen ontvangt]1.
-Pagina 15 van 110 Copyright Belgisch S taatsblad 29-07-2025
    [1 Bij een met een fusie door overneming gelijkgestelde verrichting zoals gedefinieerd in artikel 12:7, 2°, van het
  Wetboek van vennootschappen en verenigingen worden de deelnemingen of aandelen die de vennootschap,
  VZW, IVZW of stichting in de overnemende vennootschap behoudt, in haar boekhouding opgenomen tegen de
@@ -685,7 +685,6 @@ Indien, bij het begin van het eerste boekjaar waarin voor een vennootschap, VZW,
  VZW, IVZW of stichting de bepalingen van deze titel van toepassing zijn, de kapitaalsubsidies die bekomen
  werden voor datzelfde boekjaar alsook de door een vennootschap ontvangen uitgiftepremies moeten in de
  jaarrekening slechts opgenomen worden voor zover ze nog als zodanig in de boekhouding van de
-Pagina 16 van 110 Copyright Belgisch S taatsblad 29-07-2025
  vennootschap, VZW, IVZW of stichting voorkwamen op het einde van het voorafgaande boekjaar.
    Zijn door een vennootschap meerwaarden geboekt tijdens een boekjaar dat voorafgaat aan het boekjaar dat
  ingaat na 31 december 1983, dan mogen deze meerwaarden in rubriek III "Herwaarderingsmeerwaarden"
@@ -776,7 +775,6 @@ Voorzieningen moeten, onder meer, gevormd worden met het oog op:
 De voorzieningen voor risico's en kosten mogen niet worden gehandhaafd in die mate waarin ze op
  het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling, conform de normen
  waarvan sprake in artikel 3:29, van de risico's en kosten waarvoor ze werden gevormd.
-Pagina 17 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Afdeling 5. - Herwaarderingsmeerwaarden
 
 ## Art. 3:34
@@ -856,7 +854,6 @@ Andere dan van derden verworven immateriële vaste activa worden slechts tegen v
  aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het
  bedrag van de afschrijvingen in de resultatenrekening van het boekjaar.
   Voor de in het vorige lid bedoelde vaste activa wordt overgegaan tot aanvullende of niet-recurrente
-Pagina 18 van 110 Copyright Belgisch S taatsblad 29-07-2025
  afschrijvingen wanneer, ingevolge hun technische ontwaarding of wegens de wijziging van economische of
  technologische omstandigheden, hun boekhoudkundige waarde hoger is dan hun gebruikswaarde voor de
  vennootschap, VZW, IVZW of stichting.
@@ -935,7 +932,6 @@ Voor de buiten gebruik gestelde of niet meer duurzaam tot de activiteit van de v
   Op de vorderingen, inclusief de vastrentende effecten, die in de financiële vaste activa zijn opgenomen, worden
  waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat
  over de betaling hiervan op de vervaldag.
-Pagina 19 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Onderafdeling 5. - Bijzondere regels betreffende vorderingen terugbetaalbaar op meer dan een jaar en op ten
  hoogste een jaar
 
@@ -1014,7 +1010,6 @@ Ten aanzien van de bestellingen in uitvoering worden waardeverminderingen toegep
  vervaardigingsprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten, hoger is dan de in de
  overeenkomst bedongen prijs.
   Er worden aanvullende waardeverminderingen geboekt op de bestellingen in uitvoering, om rekening te houden
-Pagina 20 van 110 Copyright Belgisch S taatsblad 29-07-2025
  hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's inherent aan de aard van de
  betrokken producten of van de gevoerde activiteit.
 
@@ -1081,7 +1076,9 @@ De artikelen 3:45 en 3:51 zijn van overeenkomstige toepassing op de schulden van
   Onderafdeling 11. - Bijzondere regels betreffende bestanddelen verworven in het kader van een fusie, splitsing
  of hiermee gelijkgestelde verrichting
 
-  Art. 3:56.§ 1. Bij een fusie door overneming, een fusie door oprichting van een nieuwe vennootschap of een
+## Art. 3:56
+
+§ 1. Bij een fusie door overneming, een fusie door oprichting van een nieuwe vennootschap of een
  met fusie door overneming gelijkgestelde verrichting zoals gedefinieerd in de artikelen 12:2, 12:3 en 12:7 [1 , 1°
  en 2°,]1 van het Wetboek van vennootschappen en verenigingen, alsook bij uitvoering van deze verrichtingen
  door VZW's, IVZW's of stichtingen zoals bedoeld in artikel 13:1 van hetzelfde wetboek, worden alle actief- en
@@ -1093,7 +1090,6 @@ De artikelen 3:45 en 3:51 zijn van overeenkomstige toepassing op de schulden van
  IVZW of stichting voorkwamen op de datum vanaf wanneer de handelingen van de overgenomen vennootschap,
  VZW, IVZW of stichting boekhoudkundig geacht worden te zijn verricht voor rekening van de overnemende
  vennootschap, VZW, IVZW of stichting.
-Pagina 21 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Bij een fusie door oprichting wordt elke fuserende vennootschap, VZW, IVZW of stichting beschouwd als
  overgenomen vennootschap, VZW, IVZW of stichting en wordt de nieuw opgerichte vennootschap, VZW, IVZW
  of stichting beschouwd als overnemende vennootschap, VZW, IVZW of stichting.
@@ -1123,7 +1119,9 @@ Pagina 21 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Onderafdeling 12. - Bijzondere regels betreffende bestanddelen verworven in het kader van een inbreng van
  algemeenheid of van bedrijfstak
 
-   Art. 3:57.Bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de
+## Art. 3:57
+
+Bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de
  artikelen 12:9 tot 12:11 van het Wetboek van vennootschappen en verenigingen [1 of bij een met een splitsing
  gelijkgestelde grensoverschrijdende verrichting zoals gedefinieerd in artikel 12:8, 3°, van het Wetboek van
  vennootschappen en verenigingen]1 of bij toepassing van artikel 13:1 van hetzelfde wetboek, worden de
@@ -1163,7 +1161,6 @@ Pagina 21 van 110 Copyright Belgisch S taatsblad 29-07-2025
  moet worden vermeld, dan mogen ze slechts worden weggelaten wanneer zij ook voor dat boekjaar niet dienstig
  zijn.
    § 5. De posten die met Arabische cijfers zijn aangeduid van de balans en resultatenrekening kunnen worden
-Pagina 22 van 110 Copyright Belgisch S taatsblad 29-07-2025
  samengevoegd wanneer hun bedrag niet van materieel belang is voor het geven van een getrouw beeld van het
  vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting, of indien die
  samenvoeging de duidelijkheid ten goede komt, mits de aldus samengevoegde posten in de toelichting bij de
@@ -1242,7 +1239,6 @@ De voorstelling van de jaarrekening moet identiek zijn van het ene jaar tot het 
   HOOFDSTUK 4. - Openbaarmaking van de jaarrekening en van de geconsolideerde jaarrekening
 
   Afdeling 1. - Voorstelling van de jaarrekening en de geconsolideerde jaarrekening waarvan de neerlegging bij het
-Pagina 23 van 110 Copyright Belgisch S taatsblad 29-07-2025
  Wetboek van vennootschappen en verenigingen is voorgeschreven
 
   Onderafdeling 1. - Opmaak van de jaarrekening waarvan de openbaarmaking door het Wetboek van
@@ -1319,7 +1315,6 @@ De Nationale Bank van België ontvangt de neerlegging van de volgende documenten
    § 3. De jaarrekening of geconsolideerde jaarrekening en de andere stukken die het voorwerp van een
  neerlegging vormen, moeten in éénzelfde taal worden opgemaakt.
    § 4. De rechtspersonen die hun jaarrekening moeten opmaken overeenkomstig de schema's in de bijlagen van
-Pagina 24 van 110 Copyright Belgisch S taatsblad 29-07-2025
  titel 2 en 3 van dit boek, volgen voor de neerlegging van hun jaarrekening en van de sociale balans
  voorgeschreven door de wet van 22 december 1995 houdende maatregelen tot uitvoering van het
  meerjarenplan voor werkgelegenheid, een model van jaarrekening dat door de Nationale Bank van België wordt
@@ -1366,7 +1361,9 @@ De jaarrekening opgesteld in euro, zonder afwijkingen, volgens één van de sche
  betrekking hebben op een buitenlandse vennootschap of een Europees economisch samenwerkingsverband
  naar buitenlands recht.
 
-   Art. 3:69.§ 1. De jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken worden
+## Art. 3:69
+
+§ 1. De jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken worden
  langs elektronische weg neergelegd.
    De gestandaardiseerde schema's kunnen worden neergelegd in de vorm van een gestructureerd databestand
  dat voldoet:
@@ -1388,7 +1385,6 @@ De jaarrekening opgesteld in euro, zonder afwijkingen, volgens één van de sche
  horizontale strook van ten minste 2 centimeter openlaten;
    2° bovenaan elk blad het ondernemingsnummer van de rechtspersoon vermelden;
    3° geen handgeschreven gegevens bevatten;
-Pagina 25 van 110 Copyright Belgisch S taatsblad 29-07-2025
    4° een duidelijke leesbaarheid van de gegevens garanderen door een voldoende grootte van de gebruikte
  karakters en voldoende contrast tussen de gegevens en de achtergrond;
    5° in het geval van een jaarrekening van een rechtspersoon bedoeld in artikel 3:67, § 4, dezelfde voorstelling
@@ -1459,7 +1455,6 @@ Pagina 25 van 110 Copyright Belgisch S taatsblad 29-07-2025
  een termijn van achttien maanden na de afsluitingsdatum van die jaarrekening bij gewone brief gericht aan de
  FOD Economie. In deze aanvraag vermeldt de betrokken vennootschap de omstandigheden die voor haar een
  geval van overmacht hebben gevormd en het nummer van de bankrekening waarop de bijdrage kan worden
-Pagina 26 van 110 Copyright Belgisch S taatsblad 29-07-2025
  terugbetaald. Aan deze aanvraag worden alle bewijsstukken die de ingeroepen overmacht kunnen staven
  toegevoegd, alsook een kopie van de mededeling van de neerlegging bedoeld in artikel 3:72, tweede lid, voor
  zover dit reeds mogelijk is.
@@ -1498,7 +1493,9 @@ De Nationale Bank van België registreert de datum van ontvangst van de in artik
   De persoon die het niet-aanvaarde document heeft geüpload kan deze kennisgeving raadplegen in de
  toepassing bedoeld in artikel 3:69, § 3, eerste lid, gedurende maximum één maand na die upload.
 
-  Art. 3:72.Wanneer de neerlegging van een in artikel 3:66 bedoeld document aanvaard wordt, neemt de
+## Art. 3:72
+
+Wanneer de neerlegging van een in artikel 3:66 bedoeld document aanvaard wordt, neemt de
  Nationale Bank van België deze neerlegging op in het elektronisch register van aanvaarde jaarrekeningen en
  geconsolideerde jaarrekeningen.
   Binnen elf werkdagen die volgen op de datum van de aanvaarding van de neerlegging, stuurt de Nationale Bank
@@ -1527,12 +1524,13 @@ De aanpassing van een in artikel 3:66 bedoeld document, waarvan de neerlegging e
  veelvoud hiervan en gebeurt in dezelfde taal als het betrokken document.
   De artikelen 3:71 en 3:72 zijn van toepassing op de neerlegging van een aangepast document.
 
-   Art. 3:74.[1 De Nationale Bank van België onderwerpt de neer te leggen jaarrekening, opgemaakt volgens de
+## Art. 3:74
+
+[1 De Nationale Bank van België onderwerpt de neer te leggen jaarrekening, opgemaakt volgens de
  schema's zoals opgenomen in de bijlagen bij titel 2 en 3 van dit boek, aan rekenkundige en logische controles,
  met uitsluiting van het document dat wordt neergelegd ter verbetering van deze jaarrekening overeenkomstig
  artikel 3:73 en van de jaarrekeningen met betrekking tot boekjaren die het laatste boekjaar waarvoor een
  jaarrekening werd neergelegd, voorafgaan.
-Pagina 27 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Deze rekenkundige en logische controles beogen de samenhang van de bedragen van het recentste boekjaar,
  voor de rubrieken die voorzien zijn van een code, na te gaan. Ze zijn opgenomen in een lijst opgesteld door de
  Nationale Bank van België na advies van de Commissie voor Boekhoudkundige normen. Deze lijst wordt
@@ -1607,7 +1605,6 @@ Naamloze vennootschappen, Europese vennootschappen en Europese coöperatieve
  onttrokken aan het eigen vermogen van de overgenomen vennootschap.
   Deze onttrekking aan het eigen vermogen gebeurt op de wijze vastgesteld door de algemene vergadering die
  tot fusie besluit met naleving van de wettelijke en statutaire bepalingen.
-Pagina 28 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Indien de algemene vergadering die tot fusie besluit, niet heeft beslist aan welke post van het eigen vermogen
  die opleg moet worden onttrokken, gebeurt dit in deze volgorde: aan de overgedragen winst, aan de beschikbare
  reserves en aan de andere reserves die volgens de wet of de statuten mogen worden uitgekeerd en aan de
@@ -1639,7 +1636,9 @@ Pagina 28 van 110 Copyright Belgisch S taatsblad 29-07-2025
  waardeverminderingen, voorzieningen en correcties geboekt.
   Het verschil dat overblijft na deze correctieboekingen wordt in resultaat genomen.
 
-  Art. 3:78.Een splitsing door overneming, een splitsing door oprichting van nieuwe vennootschappen of een
+## Art. 3:78
+
+Een splitsing door overneming, een splitsing door oprichting van nieuwe vennootschappen of een
  gemengde splitsing zoals gedefinieerd in de artikelen 12:4, 12:5 en 12:6 van het Wetboek van vennootschappen
  en verenigingen, alsook een met splitsing gelijkgestelde verrichting zoals gedefinieerd in artikel 12:8 [1 , 1° en
  2°,]1 van hetzelfde wetboek, wordt verwerkt overeenkomstig het bepaalde in artikel 3:77.
@@ -1684,7 +1683,6 @@ In de toelichting bij het volledig schema van de jaarrekening worden de hierna v
  einde van het vorige boekjaar, de mutaties tijdens het boekjaar (nieuwe kosten van het boekjaar, afschrijvingen,
  andere) alsmede de nettoboekwaarde per einde van het boekjaar. Deze laatste wordt uitgesplitst in:
   - kosten van oprichting of, in voorkomend geval, kapitaalverhoging of verhoging van de inbreng, kosten bij
-Pagina 29 van 110 Copyright Belgisch S taatsblad 29-07-2025
  uitgifte van leningen, en andere oprichtingskosten;
   - herstructureringskosten.
   II.
@@ -1753,7 +1751,6 @@ Pagina 29 van 110 Copyright Belgisch S taatsblad 29-07-2025
  beschikbaar is, mogen worden weggelaten:
   1° indien de onderneming waarin wordt deelgenomen of waarvan maatschappelijke rechten worden gehouden
  door consolidatie wordt opgenomen in de geconsolideerde jaarrekening van de vennootschap, opgemaakt en
-Pagina 30 van 110 Copyright Belgisch S taatsblad 29-07-2025
  openbaar gemaakt overeenkomstig het Wetboek van vennootschappen en verenigingen en titel 1 van dit boek,
  of
    2° indien de betrokken onderneming deze gegevens niet openbaar moet maken; deze uitzondering geldt
@@ -1822,7 +1819,6 @@ Pagina 30 van 110 Copyright Belgisch S taatsblad 29-07-2025
  vennootschap toepasselijk is;
    B. het aantal eigen aandelen dat respectievelijk door de vennootschap zelf en door haar dochters wordt
  gehouden;
-Pagina 31 van 110 Copyright Belgisch S taatsblad 29-07-2025
    C. de verplichtingen tot uitgifte van aandelen als gevolg van de uitoefening van conversie- of
  inschrijvingsrechten, met vermelding van het bedrag van de lopende converteerbare leningen, van het aantal
  inschrijvingsrechten in omloop, van het maximum aantal uit te geven aandelen en van het overeenstemmende
@@ -1891,7 +1887,6 @@ Pagina 31 van 110 Copyright Belgisch S taatsblad 29-07-2025
    c) patronale premies voor buitenwettelijke verzekeringen;
    d) andere personeelskosten;
    e) pensioenen;
-Pagina 32 van 110 Copyright Belgisch S taatsblad 29-07-2025
    3° de voorzieningen voor pensioenen (toevoegingen +; bestedingen en terugnemingen -);
    D. wat betreft de waardeverminderingen op voorraden, bestellingen in uitvoering en handelsvorderingen (post
  II.E.) het respectievelijk bedrag van de geboekte waardeverminderingen eensdeels, en van de terugnemingen van
@@ -1960,7 +1955,6 @@ Pagina 32 van 110 Copyright Belgisch S taatsblad 29-07-2025
    2° belastingen op het resultaat van vorige boekjaren uitgesplitst naar:
    a) verschuldigde of betaalde belastingsupplementen;
    b) geraamde belastingsupplementen (opgenomen onder post IX.E.1. van de passiva) of belastingsupplementen
-Pagina 33 van 110 Copyright Belgisch S taatsblad 29-07-2025
  waarvoor een voorziening werd gevormd (opgenomen onder post VII van de passiva);
    B. in de mate waarin het resultaat van het boekjaar op belangrijke wijze werd beïnvloed op het stuk van de
  belastingen, door een verschil tussen de winst vóór belastingen, zoals deze blijkt uit de jaarrekening en de
@@ -2028,7 +2022,6 @@ Pagina 33 van 110 Copyright Belgisch S taatsblad 29-07-2025
  en die niet in de resultatenrekening of balans worden weergegeven;
    F. verplichtingen betreffende de aan- of verkoopverbintenissen die de vennootschap als optieschrijver van callen putopties heeft.
    XVIII.
-Pagina 34 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Aard en zakelijk doel van buitenbalans regelingen.
    De aard en het zakelijke doel van de regelingen van de vennootschappen die niet in de balans zijn opgenomen,
  en de financiële gevolgen van deze regelingen voor de vennootschap, mits de risico's of voordelen die uit
@@ -2097,7 +2090,6 @@ Pagina 34 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Financiële betrekkingen met bestuurders, zaakvoerders en commissarissen
    A. De volgende gegevens over bestuurders en zaakvoerders:
    - het bedrag per einde van het boekjaar van de op hen uitstaande vorderingen, alsmede de in hun voordeel
-Pagina 35 van 110 Copyright Belgisch S taatsblad 29-07-2025
  toegestane waarborgen en de andere betekenisvolle verplichtingen aangegaan in hun voordeel, met vermelding
  van de rente en de duur van deze vorderingen, de belangrijkste voorwaarden en de eventuele afgeloste
  bedragen of bedragen waarvan werd afgezien;
@@ -2171,7 +2163,6 @@ De resultatenrekening wordt opgesteld overeenkomstig het schema opgenomen in bij
 ## Art. 3:85
 
 In de toelichting bij het verkort schema van de jaarrekening worden de hierna volgende gegevens
-Pagina 36 van 110 Copyright Belgisch S taatsblad 29-07-2025
  opgenomen:
    I.
    Een staat van de vaste activa (rubrieken II, III en IV van de activa) die respectievelijk inzake de immateriële, de
@@ -2240,7 +2231,6 @@ Pagina 36 van 110 Copyright Belgisch S taatsblad 29-07-2025
  vennootschap overgedragen en door haar geëndosseerde wissels;
    2° het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd
  op haar eigen activa als waarborg voor eigen schulden en verplichtingen eensdeels, en voor schulden en
-Pagina 37 van 110 Copyright Belgisch S taatsblad 29-07-2025
  verplichtingen van derden anderdeels, met volgende vermeldingen:
    - wat de hypotheken (met inbegrip van de hypotheek op activa waarvan de oprichting begonnen of zelfs nog
  maar ontworpen is) betreft, de boekwaarde van de bezwaarde activa en het bedrag van de hypothecaire
@@ -2309,7 +2299,6 @@ Pagina 37 van 110 Copyright Belgisch S taatsblad 29-07-2025
  partij:
    A. de personen die een deelneming in de vennootschap in eigendom hebben;
    B. de ondernemingen waarin de vennootschap zelf een deelneming heeft;
-Pagina 38 van 110 Copyright Belgisch S taatsblad 29-07-2025
   C. de leden van de leidinggevende, toezichthoudende of bestuursorganen van de vennootschap.
   Informatie over individuele transacties kan overeenkomstig de aard daarvan worden samengevoegd, behalve
  wanneer gescheiden informatie nodig is voor het verkrijgen van inzicht in de gevolgen van de transacties met
@@ -2384,7 +2373,6 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
  hierboven niet zijn bedoeld. Het bedrag en de aard van verplichtingen jegens verbonden of geassocieerde
  ondernemingen worden afzonderlijk vermeld.
    C. Indien ten behoeve van de personeels- of directieleden van de vennootschap is voorzien in een aanvullend
-Pagina 39 van 110 Copyright Belgisch S taatsblad 29-07-2025
  rust- of overlevingspensioen, een beknopte beschrijving van de desbetreffende regeling met opgave van de
  maatregelen die de vennootschap heeft genomen om de daaruit voortvloeiende kosten te dekken. Wat de
  pensioenen betreft die door de vennootschap zelf worden gedragen wordt het bedrag geschat van de
@@ -2454,7 +2442,6 @@ Pagina 39 van 110 Copyright Belgisch S taatsblad 29-07-2025
  een mogelijkheid om de verrichting te verlengen.
    Met een in het 1° en 2° bedoelde termijn wordt het bedrag gelijkgesteld, voor zover bepaald:
    a) dat de nemer verschuldigd is voor de verwerving van de zakelijke rechten die de gever bezit op het
-Pagina 40 van 110 Copyright Belgisch S taatsblad 29-07-2025
  betrokken onroerend of roerend goed wanneer de nemer er zich bij het afsluiten van de verrichting, eventueel
  ingevolge een verkoopoptie, toe verbonden heeft deze rechten te verwerven;
    b) dat de gever van een derde moet ontvangen voor de overdracht van de zakelijke rechten die hij bezit op het
@@ -2523,7 +2510,6 @@ Pagina 40 van 110 Copyright Belgisch S taatsblad 29-07-2025
  vorderingen of het gedeelte van de vorderingen met een looptijd van meer dan één jaar, die binnen twaalf
  maanden vervallen, worden uit die post gelicht en, al naar het geval, onder post VII. A. of VII. B. opgenomen.
    Naast de vorderingen waarvoor een titel bestaat, worden eveneens onder de overeenstemmende posten van
-Pagina 41 van 110 Copyright Belgisch S taatsblad 29-07-2025
  deze rubriek opgenomen, de te ontvangen opbrengsten die tijdens het boekjaar of tijdens een vorig boekjaar zijn
  ontstaan en waarvoor nog geen rechtstitel bestaat, indien het bedrag daarvan vaststaat of met nauwkeurigheid
  kan worden geschat.
@@ -2592,7 +2578,6 @@ Pagina 41 van 110 Copyright Belgisch S taatsblad 29-07-2025
    3° voor vennootschappen onder firma of commanditaire vennootschappen wordt onder I. Inbreng begrepen:
  het vennootschapsvermogen dat bestaat uit het bedongen bedrag van de in de vennootschap ingebrachte of
  nog in te brengen waarden, in voorkomend geval zoals statutair vastgelegd;
-Pagina 42 van 110 Copyright Belgisch S taatsblad 29-07-2025
    4° wat de natuurlijke personen betreft en de bijkantoren in België van ondernemingen naar buitenlands recht
  wordt onder I. Inbreng begrepen: de verbindingsrekening met het vermogen van respectievelijk de exploitant en
  de zetel die de eigen middelen bevat die de buitenlandse onderneming duurzaam besteedt aan de
@@ -2661,7 +2646,6 @@ Pagina 42 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Onder die post worden de schulden opgenomen die een contractuele looptijd hebben van meer dan één jaar.
  De schulden of de gedeelten van de schulden op meer dan één jaar die binnen de twaalf maanden vervallen
  worden uit deze rubriek gelicht en overgebracht naar rubriek IX. A.
-Pagina 43 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Worden hier onder de overeenkomstige post geboekt de te betalen kosten die in de loop van het boekjaar of
  van een vorig boekjaar werden gemaakt en waarvoor nog geen titel bestaat maar waarvan het bedrag vaststaat
  of met nauwkeurigheid kan worden geschat. De pro rata van kosten worden evenwel onder de overlopende
@@ -2732,7 +2716,6 @@ De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedef
    Na aftrek van de in de handel toegestane kortingen en van de belasting over de toegevoegde waarde, voor
  zover deze aftrekbaar is, worden onder deze post opgenomen de inkopen van handelsgoederen, grond- en
  hulpstoffen.
-Pagina 44 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Worden eveneens onder deze post geboekt, de ingekochte diensten, werken en studies, voor zover deze een
  rechtstreekse invloed hebben op de vervaardigingsprijs van de geproduceerde goederen, de algemene
  onderaannemingen en de inkopen van onroerende goederen bestemd voor verkoop.
@@ -2800,7 +2783,6 @@ Pagina 44 van 110 Copyright Belgisch S taatsblad 29-07-2025
    5° de als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-).
    I. A. B. Brutomarge (+) (-) (verkort en microschema)
    Deze post uit de resultatenrekening van het verkort en microschema bedoeld in bijlage 4 beantwoordt aan de
-Pagina 45 van 110 Copyright Belgisch S taatsblad 29-07-2025
  algebraïsche som van de volgende posten uit het volledig schema van de resultatenrekening:
   I. A. Omzet
   I. B. Wijziging in de voorraad goederen in bewerking en gereed product en in de bestellingen in uitvoering
@@ -2869,7 +2851,6 @@ Pagina 45 van 110 Copyright Belgisch S taatsblad 29-07-2025
   - het verschil tussen het geraamde bedrag van de op het resultaat van het boekjaar verschuldigde belastingen
  en het bedrag van de voorafbetalingen en verrekenbare bestanddelen;
   - de belastingsupplementen waarvoor een voorziening werd gevormd;
-Pagina 46 van 110 Copyright Belgisch S taatsblad 29-07-2025
   - de in het buitenland betaalde of verschuldigde winstbelastingen;
   b) op de winst van vorige boekjaren:
   de betaalde, verschuldigde of geraamde belastingsupplementen alsmede de belastingsupplementen waarvoor
@@ -2940,7 +2921,6 @@ De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinie
   - Dient te worden verstaan onder reële waarde : de waarde vastgesteld met verwijzing naar:
   a) een marktwaarde voor de financiële instrumenten waarvoor een betrouwbare markt gemakkelijk is aan te
  wijzen. Wanneer een marktwaarde voor een gegeven instrument niet eenvoudig kan worden bepaald, maar dit
-Pagina 47 van 110 Copyright Belgisch S taatsblad 29-07-2025
  wel kan voor de samenstellende elementen of voor een gelijkaardig instrument, kan de marktwaarde berekend
  worden op basis van die van zijn bestanddelen of die van het gelijkaardige instrument, of
    b) een waarde berekend met behulp van modellen en algemeen aanvaarde waarderingstechnieken voor de
@@ -3025,7 +3005,6 @@ Een dochteronderneming waarover de consoliderende vennootschap een controle in f
 ## Art. 3:99
 
 De dochterondernemingen in vereffening alsmede de dochterondernemingen die hebben besloten
-Pagina 48 van 110 Copyright Belgisch S taatsblad 29-07-2025
  hun bedrijf stop te zetten of waarvoor er niet meer kan van worden uitgegaan dat zij hun bedrijf zullen
  voortzetten, worden buiten de consolidatie gelaten.
 
@@ -3106,7 +3085,6 @@ De geconsolideerde jaarrekening moet een getrouw beeld geven van het vermogen, d
   Wanneer de toepassing van de bepalingen van deze titel niet volstaat om te voldoen aan dit voorschrift, moeten
  aanvullende inlichtingen worden verstrekt in de toelichting.
 
-Pagina 49 van 110 Copyright Belgisch S taatsblad 29-07-2025
 ## Art. 3:106
 
 Indien in uitzonderingsgevallen blijkt dat de toepassing van een bepaling van de afdelingen 2 tot 4
@@ -3193,7 +3171,6 @@ Behalve wanneer artikel 3:109, tweede lid, wordt toegepast, wordt de geconsolide
 
   Afdeling 3. - Waarderingsregels.
 
-Pagina 50 van 110 Copyright Belgisch S taatsblad 29-07-2025
 ## Art. 3:115
 
 De in de geconsolideerde jaarrekening opgenomen actief- en passiefbestanddelen en rechten en
@@ -3278,7 +3255,6 @@ De actief- en passiefbestanddelen, de rechten en verplichtingen alsmede de opbre
  datum, indien later. De monetaire activa en passiva, rechten en verplichtingen worden omgerekend tegen
  slotkoers; wanneer het wisselrisico met betrekking tot een monetaire post specifiek wordt gedekt, worden de
  monetaire post en de dekkingsverrichting samen omgerekend, hetzij tegen slotkoers, hetzij tegen de koers van
-Pagina 51 van 110 Copyright Belgisch S taatsblad 29-07-2025
  de dekkingsverrichting.
   Volgens de slotkoersmethode worden alle zowel monetaire als niet-monetaire actief- en passiefbestanddelen,
  rechten en verplichtingen - inclusief de verrichtingen ter dekking van het wisselrisico, met uitzondering van
@@ -3357,7 +3333,6 @@ In de geconsolideerde balans wordt het eigen vermogen van elke geconsolideerde
  dan de consoliderende vennootschap en de in de consolidatie opgenomen dochterondernemingen, aan
  passiefzijde van de geconsolideerde balans geboekt, in de post "Belangen van derden".
 
-Pagina 52 van 110 Copyright Belgisch S taatsblad 29-07-2025
 ## Art. 3:128
 
 Het eigen vermogen van de dochteronderneming, dat in aanmerking wordt genomen voor de
@@ -3442,7 +3417,6 @@ Worden uit de geconsolideerde balans weggelaten:
 ## Art. 3:135
 
 Alle opbrengsten en kosten van de consoliderende vennootschap en van de in de consolidatie
-Pagina 53 van 110 Copyright Belgisch S taatsblad 29-07-2025
  opgenomen dochterondernemingen worden onverminderd de artikelen 3:136, 3:143 en 3:145 in de
  geconsolideerde resultatenrekening opgenomen.
   Ze bevat onder de kosten het gedeelte van het resultaat van de dochterondernemingen dat bij bestemming
@@ -3525,7 +3499,6 @@ Deelnemingen in vennootschappen waarop de vermogensmutatiemethode is toegepast, 
    Wanneer geen uniforme regels werden gehanteerd voor de waardering van actief- of passiefbestanddelen van
  de geassocieerde vennootschap en voor de consolidatie, kunnen deze bestanddelen opnieuw worden
  gewaardeerd volgens de voor de consolidatie gehanteerde methoden. Wanneer niet opnieuw wordt
-Pagina 54 van 110 Copyright Belgisch S taatsblad 29-07-2025
  gewaardeerd, moet zulks in de toelichting onder de waarderingsregels worden vermeld.
    § 3. Voorzover het verschil tussen de boekwaarde van de deelneming en de hiermee overeenstemmende fractie
  van het eigen vermogen zoals vastgesteld overeenkomstig paragraaf 2, kan worden toegerekend aan
@@ -3608,7 +3581,6 @@ De vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing 
   De omschrijving van de posten in de jaarrekeningschema's opgelegd bij titel 2, hoofdstuk 1 van dit boek zijn,
  onverminderd onderafdeling 2 van deze afdeling, van toepassing op de overeenstemmende posten in de
  schema's van de geconsolideerde jaarrekening.
-Pagina 55 van 110 Copyright Belgisch S taatsblad 29-07-2025
   § 2. De bedrijfsresultaten kunnen, in afwijking van paragraaf 1, in de geconsolideerde resultatenrekening
  worden gerangschikt naar hun bestemming, overeenkomstig onderafdeling 2 van deze afdeling.
   § 3. Indien het bedrijf van de consoliderende vennootschap en van de in de consolidatie opgenomen
@@ -3691,7 +3663,6 @@ In de toelichting moeten, naast de door andere bepalingen van dit hoofdstuk voor
  opgenomen dochterondernemingen, alsmede door personen die in eigen naam optreden maar voor rekening
  van de consoliderende vennootschap of van de in de consolidatie opgenomen dochterondernemingen.
   b) Dezelfde gegevens moeten worden verstrekt met betrekking tot de dochterondernemingen die, met
-Pagina 56 van 110 Copyright Belgisch S taatsblad 29-07-2025
  toepassing van artikel 3:97 niet volledig worden geconsolideerd, alsmede de reden van die uitsluiting.
    III.
    a) Naam en zetel - en zo het gaat om een dochteronderneming naar Belgisch recht, het ondernemingsnummer
@@ -3760,7 +3731,6 @@ Pagina 56 van 110 Copyright Belgisch S taatsblad 29-07-2025
    - andere materiële vaste activa (IV.E),
    - vaste activa in aanbouw en vooruitbetalingen (IV.F),
    en die voor elk van deze posten volgende gegevens vermeldt:
-Pagina 57 van 110 Copyright Belgisch S taatsblad 29-07-2025
    a) het bedrag van de aanschaffingswaarde aan het einde van het voorgaande boekjaar, de wijzigingen ervan
  tijdens het boekjaar (aanschaffingen, met inbegrip van de geproduceerde vaste activa, overboekingen van één
  post naar een andere, overdrachten en buitengebruikstellingen, omrekeningsverschillen), (andere wijzigingen) en
@@ -3829,7 +3799,6 @@ Pagina 57 van 110 Copyright Belgisch S taatsblad 29-07-2025
  hebben op het boekjaar, indien niet afzonderlijk vermeld in de geconsolideerde resultatenrekening;
    2° verhoudingsgewijs dezelfde gegevens voor het personeelsbestand bij de dochterondernemingen waarop een
  evenredige consolidatie is toegepast.
-Pagina 58 van 110 Copyright Belgisch S taatsblad 29-07-2025
    C. Wat de niet-recurrente resultaten betreft, een uitsplitsing van de posten "Andere niet-recurrente
  bedrijfsopbrengsten", "Andere niet-recurrente bedrijfskosten", "Andere niet-recurrente financiële opbrengsten"
  en "Andere niet-recurrente financiële kosten", wanneer in deze posten belangrijke bedragen voorkomen.
@@ -3898,7 +3867,6 @@ Pagina 58 van 110 Copyright Belgisch S taatsblad 29-07-2025
  zaakvoerders van de consoliderende vennootschap uit hoofde van hun werkzaamheden in de consoliderende
  vennootschap, haar dochterondernemingen en geassocieerde vennootschappen, inclusief het bedrag van aan
  de gewezen bestuurders of zaakvoerders uit dien hoofde toegekende rustpensioenen.
-Pagina 59 van 110 Copyright Belgisch S taatsblad 29-07-2025
    B. Het totaalbedrag van de voorschotten en kredieten toegekend aan de bestuurders of zaakvoerders van de
  consoliderende vennootschap, door deze laatste, door een dochteronderneming of een geassocieerde
  vennootschap.
@@ -3970,7 +3938,6 @@ Inbreng: deze rubriek bevat uitsluitend het kapitaal of de inbreng van de consol
   TITEL 3. - Jaarrekening van VZW's, IVZW's en stichtingen andere dan deze bedoeld in de artikelen 3:47, § 2 en
  3:51, § 2 van het Wetboek van vennootschappen en verenigingen: bijzondere bepalingen
 
-Pagina 60 van 110 Copyright Belgisch S taatsblad 29-07-2025
   HOOFDSTUK 1. - Jaarrekening
 
   Afdeling 1. - Waarderingsregels: bijzondere bepalingen
@@ -4051,7 +4018,6 @@ De toelichting bij het volledige schema van de jaarrekening bevat de hierna verm
   en voor elk van deze posten de gegevens vermeldt bedoeld onder de punten a), c) en d) van de hieronder
  vermelde staat III.
   III.
-Pagina 61 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Een staat van de materiële vaste activa (post III van de activa) die een uitsplitsing bevat in:
    - Terreinen en gebouwen (III.A);
    - Installaties, machines en uitrusting (III.B);
@@ -4120,7 +4086,6 @@ Pagina 61 van 110 Copyright Belgisch S taatsblad 29-07-2025
  aan de entiteit heeft toegekend.
    De jaarrekening van elk van deze entiteiten wordt bij deze van de VZW, IVZW of stichting gevoegd en samen
  hiermee openbaar gemaakt. Deze bepaling is evenwel niet van toepassing, mits zulks wordt vermeld:
-Pagina 62 van 110 Copyright Belgisch S taatsblad 29-07-2025
    1° indien de jaarrekening van deze entiteiten in België wordt openbaar gemaakt op een wijze die strookt met de
  openbaarmaking voorgeschreven voor de jaarrekeningen van vennootschappen of van VZW's, IVZW's en
  stichtingen;
@@ -4189,7 +4154,6 @@ Pagina 62 van 110 Copyright Belgisch S taatsblad 29-07-2025
    C. wat personeel en personeelskosten betreft:
    1° de volgende gegevens over het boekjaar en over het vorig boekjaar met betrekking tot de werknemers
  waarvoor de VZW, IVZW of stichting een DIMONA-verklaring (onmiddellijke aangifte van tewerkstelling) heeft
-Pagina 63 van 110 Copyright Belgisch S taatsblad 29-07-2025
  ingediend bij de Rijksdienst voor Sociale Zekerheid (RSZ) conform de bepalingen van het koninklijk besluit van 5
  november 2002 tot invoering van een onmiddellijke aangifte van tewerkstelling of, indien de tewerkstelling
  uitgesloten is van het toepassingsgebied van het koninklijk besluit van 5 november 2002 tot invoering van een
@@ -4258,7 +4222,6 @@ Pagina 63 van 110 Copyright Belgisch S taatsblad 29-07-2025
    4° Andere niet-recurrente financiële opbrengsten.
    D. Niet-recurrente financiële kosten (post V. D.) in:
    1° Waardeverminderingen op financiële vaste activa;
-Pagina 64 van 110 Copyright Belgisch S taatsblad 29-07-2025
    2° Voorzieningen voor niet-recurrente financiële risico's en kosten;
    3° Minderwaarden bij realisatie van financiële vaste activa;
    4° Andere niet-recurrente financiële kosten;
@@ -4327,7 +4290,6 @@ Pagina 64 van 110 Copyright Belgisch S taatsblad 29-07-2025
    5. het bedrag van de termijnverrichtingen, met afzonderlijke vermelding van het bedrag van de gekochte (te
  ontvangen) goederen, van de verkochte (te leveren) goederen, van de gekochte (te ontvangen) deviezen en van
  de verkochte (te leveren) deviezen;
-Pagina 65 van 110 Copyright Belgisch S taatsblad 29-07-2025
    B. inlichtingen betreffende de technische waarborgen verbonden met reeds gepresteerde verkopen of
  diensten;
    C. het bedrag, de aard en de vorm van belangrijke hangende geschillen en andere belangrijke verplichtingen die
@@ -4396,7 +4358,6 @@ Pagina 65 van 110 Copyright Belgisch S taatsblad 29-07-2025
  bedragen of bedragen waarvan werd afgezien;
    - het bedrag van de rechtstreekse en onrechtstreekse bezoldigingen en van de ten laste van de
  resultatenrekening toegekende pensioenen, respectievelijk aan bestuurders en aan oud-bestuurders, voor zover
-Pagina 66 van 110 Copyright Belgisch S taatsblad 29-07-2025
  deze vermelding niet uitsluitend of hoofdzakelijk betrekking heeft op de toestand van een enkel identificeerbaar
  persoon.
    De gegevens bedoeld achter het eerste streepje van het eerste lid moeten eveneens worden verstrekt voor de
@@ -4471,7 +4432,6 @@ De toelichting bij het verkorte schema van de jaarrekening bevat de hierna verme
   II.
   Een staat met betrekking tot de samenstelling van de fondsen van de VZW, IVZW of stichting (post I. van het
  passief) en de wijzigingen daarvan tijdens het boekjaar en een overzicht van de bestemde fondsen (post IV. van
-Pagina 67 van 110 Copyright Belgisch S taatsblad 29-07-2025
  het passief) die de waarderingsregels vermeldt die werden gekozen om het bestemde bedrag te bepalen.
    III.
    Een staat met betrekking tot de voorzieningen met daarin een uitsplitsing van de voorzieningen voor terug te
@@ -4540,7 +4500,6 @@ Pagina 67 van 110 Copyright Belgisch S taatsblad 29-07-2025
    C. indien ten behoeve van de personeels- of directieleden van de VZW, IVZW of stichting is voorzien in een
  aanvullend rust- of overlevingspensioen, een beknopte beschrijving van de desbetreffende regeling met opgave
  van de maatregelen die de VZW, IVZW of stichting heeft genomen om de daaruit voortvloeiende kosten te
-Pagina 68 van 110 Copyright Belgisch S taatsblad 29-07-2025
  dekken. Wat de pensioenen betreft die door de VZW, IVZW of stichting zelf worden gedragen wordt het bedrag
  geschat van de verplichtingen die voortvloeien uit reeds gepresteerd werk met een korte beschrijving van de
  wijze waarop dit bedrag wordt berekend.
@@ -4615,7 +4574,6 @@ In de toelichting bij het microschema van de jaarrekening worden de hierna volge
  mutaties ervan tijdens het boekjaar, evenals het bedrag ervan per einde van het boekjaar;
   e) het bedrag van de nettoboekwaarde per einde van het boekjaar.
   Wat de materiële vaste activa betreft, indien van materieel belang, de uitsplitsing tussen de bestanddelen
-Pagina 69 van 110 Copyright Belgisch S taatsblad 29-07-2025
  waarvan de VZW, IVZW of stichting de volle eigendom heeft, maar die ze niet vrij mag gebruiken of waarover ze
  niet vrij kan beschikken omwille van opgelegde eisen.
    II.
@@ -4665,7 +4623,9 @@ Pagina 69 van 110 Copyright Belgisch S taatsblad 29-07-2025
 
   1. Inhoud van bepaalde rubrieken van de balans.
 
-  Art. 3:171.§ 1. De inhoud van bepaalde rubrieken van het actief worden als volgt gedefinieerd:
+## Art. 3:171
+
+§ 1. De inhoud van bepaalde rubrieken van het actief worden als volgt gedefinieerd:
   I. Oprichtingskosten
   Onder die post worden vermeld, voor zover zij niet op een andere wijze ten laste van de resultatenrekening van
  het lopende boekjaar worden gebracht, de kosten verbonden met de oprichting, de verdere ontwikkeling of de
@@ -4684,7 +4644,6 @@ Pagina 69 van 110 Copyright Belgisch S taatsblad 29-07-2025
  de octrooien, licenties, knowhow, merken en andere gelijkaardige rechten waarvan de VZW, IVZW of stichting
  eigenares is, anderzijds de rechten tot exploitatie van onroerende goederen, octrooien, licenties, merken en
  andere gelijkaardige rechten die eigendom zijn van derden, evenals de aanschaffingswaarde van het recht van de
-Pagina 70 van 110 Copyright Belgisch S taatsblad 29-07-2025
  VZW, IVZW of stichting om van derden dienstverleningen van knowhow te verkrijgen, wanneer die rechten door
  de vereniging ten bezwarende titel werden verworven.
    Onder goodwill dient voor de toepassing van dit besluit de prijs te worden verstaan betaald voor de verwerving
@@ -4752,7 +4711,6 @@ Pagina 70 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Moederonderneming: de vennootschap of entiteit die niet de rechtsvorm van een vennootschap heeft
  aangenomen en met een andere vennootschap of entiteit banden heeft zoals bedoeld in artikel 1:15, 1°, van het
  Wetboek van vennootschappen en verenigingen;
-Pagina 71 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Dochteronderneming: de vennootschap of entiteit die niet de rechtsvorm van een vennootschap heeft
  aangenomen en met een andere vennootschap of entiteit banden heeft zoals bedoeld in artikel 1:15, 2°, van het
  Wetboek van vennootschappen en verenigingen;
@@ -4821,7 +4779,6 @@ Pagina 71 van 110 Copyright Belgisch S taatsblad 29-07-2025
  luidden doch die binnen twaalf maanden vervallen.
    Leden 2 en 3 van de omschrijving van rubriek "V. Vorderingen op meer dan één jaar" zijn van overeenkomstige
  toepassing op de vorderingen op ten hoogste één jaar.
-Pagina 72 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Onder post "B. Overige vorderingen" worden onder meer de door belastingdiensten terug te betalen
  belastingen vermeld.
    Worden ook onder subpost VII.B. geboekt, de vorderingen van de VZW, IVZW of stichting die voortvloeien uit
@@ -4890,7 +4847,6 @@ Pagina 72 van 110 Copyright Belgisch S taatsblad 29-07-2025
    b) de naar latere boekjaren uitgestelde belastingen op gerealiseerde meerwaarden op immateriële en materiële
  vaste activa en op effecten die zijn uitgegeven door de Belgische openbare sector ingeval de belasting op deze
  meerwaarden is uitgesteld;
-Pagina 73 van 110 Copyright Belgisch S taatsblad 29-07-2025
   c) de naar latere boekjaren uitgestelde buitenlandse belastingen van dezelfde aard als de sub a) en b) bedoelde
  belastingen.
   VIII. Schulden op meer dan één jaar.
@@ -4961,7 +4917,6 @@ De inhoud van bepaalde rubrieken van de resultatenrekening wordt als volgt gedef
  stichting; dit laatste zal blijken uit de regelmaat waarmee dergelijke activa worden gerealiseerd en het normale
  karakter ervan;
    4° de andere niet-recurrente bedrijfsopbrengsten.
-Pagina 74 van 110 Copyright Belgisch S taatsblad 29-07-2025
    II. A. Handelsgoederen, grond- en hulpstoffen (volledig schema)
    Na aftrek van de in de handel toegestane kortingen en van de belasting over de toegevoegde waarde, voor
  zover deze aftrekbaar is, worden onder deze post opgenomen de inkopen van handelsgoederen, grond- en
@@ -5029,7 +4984,6 @@ Pagina 74 van 110 Copyright Belgisch S taatsblad 29-07-2025
  materiële vaste activa dan moeten deze minderwaarden onder de post "II. G. Andere bedrijfskosten" worden
  opgenomen wanneer de realisatie kadert in de gewone bedrijfsuitoefening van de VZW, IVZW of stichting; dit
  laatste zal blijken uit de regelmaat waarmee dergelijke activa worden gerealiseerd en het normale karakter
-Pagina 75 van 110 Copyright Belgisch S taatsblad 29-07-2025
  daarvan;
   4° andere niet-recurrente bedrijfskosten;
   5° de als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-).
@@ -5098,7 +5052,6 @@ Pagina 75 van 110 Copyright Belgisch S taatsblad 29-07-2025
  gevraagd;
   - het verschil tussen het geraamde bedrag van de op het resultaat van het boekjaar verschuldigde belastingen
  en het bedrag van de voorafbetalingen en verrekenbare bestanddelen;
-Pagina 76 van 110 Copyright Belgisch S taatsblad 29-07-2025
   - de belastingsupplementen waarvoor een voorziening werd gevormd;
   - de in het buitenland betaalde of verschuldigde winstbelastingen;
   b) op de winst van vorige boekjaren:
@@ -5169,7 +5122,6 @@ De inhoud van bepaalde verplichte vermeldingen in de toelichting wordt gedefinie
  risico van derden onder zich houdt, alsmede de daartegenoverstaande verplichtingen.
    B. Reële waarde
    Voor het opstellen van de staat XXII die de informatie bevat met betrekking tot het niet-gebruik van de
-Pagina 77 van 110 Copyright Belgisch S taatsblad 29-07-2025
  waarderingsmethode op basis van de reële waarde voor financiële instrumenten:
    - Dient te worden verstaan onder reële waarde : de waarde vastgesteld met verwijzing naar:
    a) een marktwaarde voor de financiële instrumenten waarvoor een betrouwbare markt gemakkelijk is aan te
@@ -5246,7 +5198,6 @@ Titel 1, 2 en 3 zijn niet van toepassing op VZW's, IVZW's en stichtingen die ove
 
 De in artikel 3:47, § 2, en 3:51, § 2, van het Wetboek van vennootschappen en verenigingen
  bedoelde jaarrekening bevat de staat van ontvangsten en uitgaven alsook de toelichting. Deze stukken vormen
-Pagina 78 van 110 Copyright Belgisch S taatsblad 29-07-2025
  een geheel. De jaarrekening wordt in euro geformuleerd, zonder decimalen.
 
   HOOFDSTUK 2. - Waarderingsregels
@@ -5333,7 +5284,6 @@ Een VZW, IVZW of stichting die een vereenvoudigde boekhouding kan voeren en haar
 De jaarrekening en de andere stukken die bij de Nationale Bank moeten worden neergelegd in
  toepassing van de artikelen 3:47, § 7, en 3:51, § 7, van het Wetboek van vennootschappen en verenigingen of in
  toepassing van andere wettelijke of reglementaire bepalingen worden langs elektronische weg neergelegd in de
-Pagina 79 van 110 Copyright Belgisch S taatsblad 29-07-2025
  vorm van een gestructureerd databestand dat voldoet aan alle technische voorwaarden vastgesteld door de
  Nationale Bank van België en opgenomen in het "Protocol voor de neerlegging langs elektronische weg van
  jaarrekeningen in de vorm van een gestructureerd databestand". Dit technisch Protocol wordt door de Nationale
@@ -5412,7 +5362,6 @@ De aanpassing van een in artikel 3:186 bedoeld document, waarvan de neerlegging 
   De vermelding "verbetering" wordt opgenomen in het gestructureerd databestand bedoeld in artikel 3:186.
   De verbetering van een eerder openbaar gemaakt document luidt in dezelfde munteenheid en hetzelfde
  veelvoud hiervan en gebeurt in dezelfde taal als het betrokken document.
-Pagina 80 van 110 Copyright Belgisch S taatsblad 29-07-2025
   De artikelen 3:189 en 3:190 zijn van toepassing op de neerlegging van een verbeterd document.
 
 ## Art. 3:192
@@ -5489,7 +5438,6 @@ Indien op de in artikel 4:2 bedoelde vergadering van de ondernemingsraad geen ov
  datum waarop de benoeming in de schoot van de vennootschap zal plaats hebben.
   Indien er voor die datum geen gewone vergadering van de ondernemingsraad meer wordt gehouden moet
  desgevallend een bijzondere vergadering van de ondernemingsraad worden bijeengeroepen.
-Pagina 81 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Het orgaan dat statutair bevoegd is voor het bestuur van de vennootschap of het ondernemingshoofd kunnen
  desgevallend één of meer nieuwe kandidaat commissarissen of bedrijfsrevisoren voordragen.
 
@@ -5572,7 +5520,6 @@ Volgende gegevens inzake het personeelsbestand dienen te worden vermeld:
    - het gemiddelde aantal voltijdse en deeltijdse werknemers van het boekjaar en het totale aantal werknemers in
  voltijdse equivalenten van het boekjaar en van het vorige boekjaar;
    - het aantal gepresteerde uren van de voltijdse en deeltijdse werknemers tijdens het boekjaar en het totale
-Pagina 82 van 110 Copyright Belgisch S taatsblad 29-07-2025
  aantal gepresteerde uren van het boekjaar en van het vorige boekjaar;
    - de personeelskosten van de voltijdse en deeltijdse werknemers van het boekjaar en de totale
  personeelskosten van het boekjaar en het vorige boekjaar;
@@ -5641,7 +5588,6 @@ Pagina 82 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Wat betreft de voortgezette informele opleiding en de initiële opleiding wordt per geslacht de netto kost
  betrekking hebbende op elk van deze opleidingen vermeld.
 
-Pagina 83 van 110 Copyright Belgisch S taatsblad 29-07-2025
   TITEL 3. - Inhoud sociale balans voor kleine vennootschappen en kleine VZW's, IVZW's en stichtingen
 
 ## Art. 5:3
@@ -5712,7 +5658,6 @@ De kleine vennootschappen bedoeld in artikel 1:24 en kleine VZW's, IVZW's en sti
    - de betaalde bijdragen en/of de stortingen aan de collectieve fondsen in het kader van deze opleiding;
    - de subsidies en andere financiële voordelen toegekend aan de onderneming in het kader van deze opleiding;
    - de netto kost van de opleiding die verkregen wordt door de som van de bruto kost, de betaalde bijdragen en
-Pagina 84 van 110 Copyright Belgisch S taatsblad 29-07-2025
  de stortingen aan collectieve fondsen, waarvan de subsidies en andere financiële voordelen toegekend aan de
  onderneming in het kader van deze opleiding afgetrokken worden.
   Wat betreft de voortgezette informele opleiding en de initiële opleiding wordt per geslacht de netto kost
@@ -5780,9 +5725,10 @@ Voor het opstellen van de sociale balans verstaat men onder:
 
   TITEL 1. - Definities
 
-  Art. 6:1.Voor de toepassing van dit boek wordt verstaan onder:
+## Art. 6:1
+
+Voor de toepassing van dit boek wordt verstaan onder:
   1° overheid: eender welke nationale, regionale of lokale autoriteit van een lidstaat van de Europese Unie of van
-Pagina 85 van 110 Copyright Belgisch S taatsblad 29-07-2025
  een derde land. Onder overheid vallen tevens enige departementen, organen of ondernemingen waarover die
  autoriteit controle uitoefent als bepaald in artikel 1:14 van het Wetboek van vennootschappen en verenigingen;
    2° project: de operationele activiteiten die worden beheerst door in één enkele overeenkomst of één enkele
@@ -5856,7 +5802,6 @@ De definities gegeven in artikel 6:1 zijn van overeenkomstige toepassing.
  in de jaarrekening over het betrokken boekjaar zijn geconsolideerd.
    Voor de toepassing van deze titel mogen de instructies bedoeld in artikel 321/2 van het Wetboek van
  Inkomstenbelasting 1992 gebruikt worden. Wordt er gebruik gemaakt van deze optie, dan wordt dat in het
-Pagina 86 van 110 Copyright Belgisch S taatsblad 29-07-2025
  verslag inzake informatie over de inkomstenbelasting vermeld.]1
   ----------
   (1)<Ingevoegd bij KB 2024-04-18/29, art. 4, 006; Inwerkingtreding : 16-06-2024>
@@ -5926,7 +5871,6 @@ Pagina 86 van 110 Copyright Belgisch S taatsblad 29-07-2025
  dochtervennootschap het verslag inzake informatie over de inkomstenbelasting op, dan is de gebruikte
  munteenheid de munteenheid waarin de jaarrekening van de dochtervennootschap is uitgedrukt.
     De inkomsten bedoeld in het eerste lid, 7°, omvatten ook de transacties met verbonden partijen.
-Pagina 87 van 110 Copyright Belgisch S taatsblad 29-07-2025
     De belastinglasten van het lopende jaar bedoeld in het eerste lid, 9°, hebben enkel betrekking op de activiteiten
  in het betrokken boekjaar. Deze lasten omvatten geen uitgestelde belastingen of voorzieningen voor onzekere
  belastingverplichtingen.
@@ -5998,7 +5942,6 @@ Pagina 87 van 110 Copyright Belgisch S taatsblad 29-07-2025
 [1 De Nationale Bank van België aanvaardt de neerlegging van het verslag inzake informatie over de
  inkomstenbelasting enkel wanneer dit verslag in overeenstemming is met artikel 6:6 wat betreft het model en het
  formaat en na betaling van de neerleggingskosten. De neerleggingskosten die aan Nationale Bank van België
-Pagina 88 van 110 Copyright Belgisch S taatsblad 29-07-2025
  moeten worden betaald, bedragen 81,70 euro.
     De in dit artikel bepaalde neerleggingskosten worden jaarlijks, op 1 januari, aangepast aan de evolutie van het
  indexcijfer van de consumptieprijzen volgens de volgende formule: het nieuwe bedrag is gelijk aan het
@@ -6070,7 +6013,6 @@ Pagina 88 van 110 Copyright Belgisch S taatsblad 29-07-2025
    1° andere dan statutaire overeenkomsten die een blokkering van de effecten, een goedkeuring of een
  gelijkaardig mechanisme voor de verwerving of overdracht van effecten van de betrokken vennootschap
  inhouden;
-Pagina 89 van 110 Copyright Belgisch S taatsblad 29-07-2025
   2° andere dan statutaire overeenkomsten waarin een recht van voorkoop dan wel opties of verplichtingen tot
  aankoop of verkoop van effecten van de betrokken vennootschap zijn bedongen;
   3° de gezamenlijke controle over een vennootschap die effecten bezit van de betrokken vennootschap.
@@ -6147,7 +6089,6 @@ Bij het schriftelijke en omstandige verslag van de bieder wordt gevoegd:
  accountants van het Instituut van Accountants en de Belastingsconsulenten. In dit verslag spreekt de
  bedrijfsrevisor of de accountant zich uit over de relevantie, ten aanzien van de gebruikelijk gehanteerde
  waarderingscriteria, van de door de bieder gebruikte waarderingsmethode(s) om de vennootschap te waarderen
-Pagina 90 van 110 Copyright Belgisch S taatsblad 29-07-2025
  en de prijs te rechtvaardigen; de bedrijfsrevisor of de accountant vermeldt ook of hij van oordeel is dat de prijs
  de belangen van de eigenaars van effecten veilig stelt.
   2° het advies van het bestuursorgaan van de doelvennootschap, waarin het bestuursorgaan stelt dat het door
@@ -6230,7 +6171,6 @@ Met uitzondering van de effecten waarvan de eigenaars uitdrukkelijk en schriftel
  inschrijvingen die dateren van voor de opmaak van het elektronisch register.
    § 3. De keuze om voor een bepaalde categorie van effecten een elektronisch register te houden, impliceert geen
  verplichting om de effectenregisters voor de andere categorieën van effecten in dezelfde vorm te houden.
-Pagina 91 van 110 Copyright Belgisch S taatsblad 29-07-2025
    § 4. De vennootschap kan zelf het elektronisch register bewaren en beheren voor eigen rekening of kan voor
  de bewaring en het beheer van het elektronisch register beroep doen op een vertrouwensderde. De
  vennootschap die optreedt voor eigen rekening en de vertrouwensderde die optreedt voor rekening van de
@@ -6303,7 +6243,6 @@ Pagina 91 van 110 Copyright Belgisch S taatsblad 29-07-2025
 ## Art. 7:14
 
 § 1. De vennootschap wordt met betrekking tot deze gegevens beschouwd als de verantwoordelijke
-Pagina 92 van 110 Copyright Belgisch S taatsblad 29-07-2025
  voor de verwerking als bedoeld in artikel 4.7 van Verordening (EU) 2016/679 van 27 april 2016 van het Europees
  Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van
  persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG. De
@@ -6382,7 +6321,6 @@ Voor de toepassing van deze titel wordt verstaan onder:
  verhandeling op een MTF moeten de inkoopverrichtingen die zij met toepassing van artikel 7:215, § 1, van het
  Wetboek van vennootschappen en verenigingen hebben uitgevoerd, uiterlijk op het einde van de zevende
  beursdag volgend op de datum van uitvoering van deze verrichtingen openbaar maken.
-Pagina 93 van 110 Copyright Belgisch S taatsblad 29-07-2025
    Bij een inkoopverrichting op termijn moet de openbaarmaking als bedoeld in het eerste lid uiterlijk plaatsvinden
  op het einde van de zevende beursdag volgend op de datum waarop de inkoopovereenkomst wordt afgesloten.
    § 2. Deze openbaarmaking omvat:
@@ -6429,7 +6367,9 @@ Pagina 93 van 110 Copyright Belgisch S taatsblad 29-07-2025
  zich elke informatie en elk document, in welke vorm ook, te laten meedelen, met inbegrip van informatie en
  documenten die betrekking hebben op de relaties tussen de tussenpersoon en een bepaalde cliënt.
 
-   Art. 8:5.Voor de toepassing van artikel 7:215, § 1, eerste lid, 4°, van het Wetboek van vennootschappen en
+## Art. 8:5
+
+Voor de toepassing van artikel 7:215, § 1, eerste lid, 4°, van het Wetboek van vennootschappen en
  verenigingen, [1 wordt aangenomen dat de biedprijs van de genoteerde vennootschappen of de
  vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een MTF]1, gelijkwaardig is en de
  gelijke behandeling van de aandeelhouders of certificaathouders die zich in gelijke omstandigheden bevinden,
@@ -6450,7 +6390,6 @@ Pagina 93 van 110 Copyright Belgisch S taatsblad 29-07-2025
  laatst gedane koers gehanteerd.]1
    Voor de toepassing van het eerste [1 en vierde]1 lid wordt onder "in termen van liquiditeit meest relevante MTF"
  de MTF verstaan waarop het volume voor de effecten waarop de verrichting betrekking heeft, het hoogst was in
-Pagina 94 van 110 Copyright Belgisch S taatsblad 29-07-2025
  de laatste drie maanden vóór de verrichting.
    [1 Voor de toepassing van het eerste lid wordt onder "intragroepstransactie" verstaan een aankoop van
  aandelen, winstbewijzen of certifcaten van een genoteerde moedervennootschap of van een
@@ -6463,7 +6402,9 @@ Pagina 94 van 110 Copyright Belgisch S taatsblad 29-07-2025
    ----------
    (1)<KB 2022-08-31/05, art. 1, 003; Inwerkingtreding : 22-09-2022>
 
-   Art. 8:6.§ 1. Genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de
+## Art. 8:6
+
+§ 1. Genoteerde vennootschappen en vennootschappen waarvan de effecten zijn toegelaten tot de
  verhandeling op een MTF moeten de verrichtingen tot vervreemding die zij met toepassing van artikel 7:218, § 1,
  van het Wetboek van vennootschappen en verenigingen hebben uitgevoerd, uiterlijk op het einde van de
  zevende beursdag volgend op de datum van uitvoering van deze verrichtingen openbaar maken. [1 Deze
@@ -6519,8 +6460,9 @@ Pagina 94 van 110 Copyright Belgisch S taatsblad 29-07-2025
    ----------
    (1)<KB 2022-08-31/05, art. 2, 003; Inwerkingtreding : 22-09-2022>
 
-Pagina 95 van 110 Copyright Belgisch S taatsblad 29-07-2025
-   Art. 8:7.Voor de toepassing van artikel 7:218, § 1, eerste lid, 2°, van het Wetboek van vennootschappen en
+## Art. 8:7
+
+Voor de toepassing van artikel 7:218, § 1, eerste lid, 2°, van het Wetboek van vennootschappen en
  verenigingen, wordt aangenomen dat de vraagprijs van de genoteerde vennootschappen of de
  vennootschappen waarvan de effecten zijn toegelaten tot de verhandeling op een gereglementeerde markt of
  een MTF, gelijkwaardig is en de gelijke behandeling van de aandeelhouders of certificaathouders die zich in gelijke
@@ -6589,7 +6531,6 @@ Worden opgeheven:
  december 2003, 23 juni 2003 en 4 april 2003;
    2° het koninklijk besluit van 26 juni 2003 op de openbaarmaking van akten en stukken van verenigingen zonder
  winstoogmerk, van internationale verenigingen zonder winstoogmerk, van stichtingen en van organismen voor
-Pagina 96 van 110 Copyright Belgisch S taatsblad 29-07-2025
  de financiering van pensioenen, gewijzigd bij de koninklijke besluiten van 12 juli 2004, 31 mei 2005, 21 december
  2006 en 17 maart 2013;
   3° het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde
@@ -6676,7 +6617,6 @@ In hoofdstuk 1 van de bijlage 1 van het koninklijk besluit van 21 oktober 2018 t
  aangebracht:
   1° de Franstalige omschrijving van de rekening 1 "Patrimoine propre, provisions pour risques et charges et
  dettes à plus d'un an" wordt vervangen door de omschrijving "Fonds propres, provisions pour risques et
-Pagina 97 van 110 Copyright Belgisch S taatsblad 29-07-2025
  charges et dettes à plus d'un an";
    2° de rekening "11 Uitgiftepremies" wordt vervangen door de volgende rekeningen:
    "11 Inbreng buiten kapitaal
@@ -6745,7 +6685,6 @@ Pagina 97 van 110 Copyright Belgisch S taatsblad 29-07-2025
  omschrijving "Variations des stocks";
    24° de Franstalige omschrijving van de rekening 6095 "d'immeubles destinés à la vente" wordt vervangen door
  de omschrijving "d'immeubles achetés destinés à la vente";
-Pagina 98 van 110 Copyright Belgisch S taatsblad 29-07-2025
   25° de omschrijving van de rekening 691 "Toevoeging aan het kapitaal en aan de uitgiftepremies" wordt
  vervangen door de omschrijving "Toevoeging aan de inbreng ";
   26° de omschrijving van de rekening 694 "Vergoeding van het kapitaal" wordt vervangen door de omschrijving
@@ -6819,7 +6758,6 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
   IV. Financiële vaste activa
   A. Verbonden ondernemingen
   1. Deelnemingen
-Pagina 99 van 110 Copyright Belgisch S taatsblad 29-07-2025
   2. Vorderingen
   B. Ondernemingen waarmee een deelnemingsverhouding bestaat
   1. Deelnemingen
@@ -6888,7 +6826,6 @@ Pagina 99 van 110 Copyright Belgisch S taatsblad 29-07-2025
   C. Beschikbare reserves
   IV. Overgedragen winst of overgedragen verlies
   V. Kapitaalsubsidies
-Pagina 100 van 110 Copyright Belgisch S taatsblad 29-07-2025
    VI. Voorschot aan de vennoten op de verdeling van het netto-actief (-)
    Voorzieningen en uitgestelde belastingen
    VII. A. Voorzieningen voor risico's en kosten
@@ -6957,7 +6894,6 @@ Pagina 100 van 110 Copyright Belgisch S taatsblad 29-07-2025
    B. Waardeverminderingen op vlottende activa andere dan bedoeld onder II.E: toevoegingen (terugnemingen)
    C. Andere financiële kosten
    D. Niet-recurrente financiële kosten
-Pagina 101 van 110 Copyright Belgisch S taatsblad 29-07-2025
   VI. Winst (Verlies) van het boekjaar voor belasting
   VII. A. Onttrekking aan de uitgestelde belastingen
   B. Overboeking naar de uitgestelde belastingen
@@ -7026,7 +6962,6 @@ Pagina 101 van 110 Copyright Belgisch S taatsblad 29-07-2025
   1. Geplaatst kapitaal
   2. Niet opgevraagd kapitaal
   B. Buiten kapitaal
-Pagina 102 van 110 Copyright Belgisch S taatsblad 29-07-2025
    1. Uitgiftepremies
    2. Andere
    II. Herwaarderingsmeerwaarden
@@ -7095,7 +7030,6 @@ Pagina 102 van 110 Copyright Belgisch S taatsblad 29-07-2025
    D. Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa
    E. Waardeverminderingen op voorraden, op bestellingen in uitvoering en op handelsvorderingen: toevoegingen
  (terugnemingen)
-Pagina 103 van 110 Copyright Belgisch S taatsblad 29-07-2025
   F. Voorzieningen voor risico's en kosten: toevoegingen (bestedingen en terugnemingen)
   G. Andere bedrijfskosten
   H. Als herstructureringskosten geactiveerde bedrijfskosten (-)
@@ -7164,7 +7098,6 @@ Pagina 103 van 110 Copyright Belgisch S taatsblad 29-07-2025
   V. Consolidatieverschillen
   VI. Omrekeningsverschillen (+) (-)
   VII. Kapitaalsubsidies
-Pagina 104 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Belangen van derden
   VIII. Belangen van derden
   Voorzieningen, uitgestelde belastingen en belastinglatenties
@@ -7233,7 +7166,6 @@ Pagina 104 van 110 Copyright Belgisch S taatsblad 29-07-2025
   III. Materiële vaste activa
   A. Terreinen en gebouwen
   B. Installaties, machines en uitrusting
-Pagina 105 van 110 Copyright Belgisch S taatsblad 29-07-2025
   C. Meubilair en rollend materieel
   D. Leasing en soortgelijke rechten
   E. Overige materiële vaste activa
@@ -7302,7 +7234,6 @@ Pagina 105 van 110 Copyright Belgisch S taatsblad 29-07-2025
   A. Schulden op meer dan één jaar die binnen het jaar vervallen
   B. Financiële schulden
   1. Kredietinstellingen
-Pagina 106 van 110 Copyright Belgisch S taatsblad 29-07-2025
    2. Overige leningen
    C. Handelsschulden
    1. Leveranciers
@@ -7371,7 +7302,6 @@ Pagina 106 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Balans
   ACTIVA
   I. Oprichtingskosten
-Pagina 107 van 110 Copyright Belgisch S taatsblad 29-07-2025
   Vaste activa
   II. Immateriële vaste activa
   III. Materiële vaste activa
@@ -7440,7 +7370,6 @@ Pagina 107 van 110 Copyright Belgisch S taatsblad 29-07-2025
   I. A.B. Brutomarge
   Waarvan niet-recurrente bedrijfsopbrengsten
   C. Bezoldigingen, sociale lasten en pensioenen
-Pagina 108 van 110 Copyright Belgisch S taatsblad 29-07-2025
    D. Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa
    E. Waardeverminderingen op voorraden, op bestellingen in uitvoering en op handelsvorderingen: toevoegingen
  (terugnemingen)
@@ -7499,7 +7428,6 @@ Pagina 108 van 110 Copyright Belgisch S taatsblad 29-07-2025
  Beloofde subsidies Hypotheken en hypotheekbeloften
  Beloofde schenkingen Gegeven waarborgen
 
-Pagina 109 van 110 Copyright Belgisch S taatsblad 29-07-2025
  Andere rechten Andere verbintenissen
 
  5. Belangrijke rechten en verplichtingen die niet in cijfers kunnen worden weergegeven
@@ -7508,4 +7436,3 @@ Pagina 109 van 110 Copyright Belgisch S taatsblad 29-07-2025
 
   (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42423)
 
-Pagina 110 van 110 Copyright Belgisch S taatsblad 29-07-2025

@@ -59,7 +59,6 @@ Voor de toepassing van deze wet wordt verstaan onder :
  procedures inzake kwaliteitsbeheersing, een gemeenschappelijke bedrijfsstrategie, het gebruik van een
  gemeenschappelijke merknaam of een aanzienlijk deel van de bedrijfsmiddelen;
    14° het wettelijk, reglementair en normatief kader :
-Pagina 5 van 33 Copyright Belgisch S taatsblad 10-01-2025
   a) deze wet;
   b) de uitvoeringsbesluiten van deze wet, de normen en aanbevelingen als bedoeld in artikel 72, eerste lid, 2°,
  van het Instituut die van toepassing zijn op de uitoefening van de beroepsactiviteit;
@@ -90,7 +89,9 @@ Pagina 5 van 33 Copyright Belgisch S taatsblad 10-01-2025
 
   Afdeling 1. - De beroepsactiviteiten van de gecertificeerd accountant
 
-  Art. 3.Een gecertificeerd accountant voert hoofdzakelijk de volgende beroepsactiviteiten uit :
+## Art. 3
+
+Een gecertificeerd accountant voert hoofdzakelijk de volgende beroepsactiviteiten uit :
   1° de boekhouding en de boekhoudkundige diensten organiseren en advies verstrekken inzake de
  boekhoudkundige organisatie bij ondernemingen;
   2° het bepalen van de resultaten en het opmaken van de jaarrekening conform de wettelijke bepalingen ter
@@ -119,7 +120,9 @@ Pagina 5 van 33 Copyright Belgisch S taatsblad 10-01-2025
 
   Afdeling 2. - Dragen van de titel van gecertificeerd accountant
 
-   Art. 4.Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de
+## Art. 4
+
+Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de
  hoedanigheid van gecertificeerd accountant dragen de titel van gecertificeerd accountant, alsook desgevallend
  het Engelse equivalent "certified accountant" ervan.
    Personen die hun activiteiten uitoefenen binnen een arbeidsovereenkomst of een door de overheid bezoldigde
@@ -128,7 +131,6 @@ Pagina 5 van 33 Copyright Belgisch S taatsblad 10-01-2025
    De erkende rechtspersonen bedoeld in artikel 24 mogen de titel van gecertificeerd accountant gebruiken of
  opnemen in hun maatschappelijke benaming [1 in zoverre de titel is opgenomen in het openbaar register bedoeld
  in artikel 29]1.
-Pagina 6 van 33 Copyright Belgisch S taatsblad 10-01-2025
   Onverminderd artikel 9 mag niemand een andere titel dragen die verwarring kan scheppen of zou kunnen
  scheppen met die van gecertificeerd accountant.
   ----------
@@ -160,7 +162,9 @@ Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandi
 
   Afdeling 4. - De beroepsactiviteiten van de gecertificeerd belastingadviseur
 
-   Art. 6.[1 § 1.]1 Een gecertificeerd belastingadviseur voert hoofdzakelijk de volgende beroepsactiviteiten uit :
+## Art. 6
+
+[1 § 1.]1 Een gecertificeerd belastingadviseur voert hoofdzakelijk de volgende beroepsactiviteiten uit :
    1° advies verstrekken in alle fiscale aangelegenheden;
    2° de belastingplichtige bijstaan bij het nakomen van zijn fiscale verplichtingen;
    3° de belastingplichtige vertegenwoordigen bij de belastingdiensten;
@@ -187,7 +191,9 @@ Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandi
 
   Afdeling 5. - Het dragen van de titel van gecertificeerd belastingadviseur
 
-  Art. 7.Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de
+## Art. 7
+
+Enkel de natuurlijke personen ingeschreven in het openbaar register van het Instituut met de
  hoedanigheid van gecertificeerd belastingadviseur mogen de titel van gecertificeerd belastingadviseur dragen,
  alsook het Engelse equivalent "certified tax advisor" ervan.
   De erkende rechtspersonen mogen de titel van gecertificeerd belastingadviseur gebruiken of opnemen in hun
@@ -200,7 +206,6 @@ Enkel de volgende personen, natuurlijke of rechtspersonen, mogen, als zelfstandi
 Een gecertificeerd accountant mag ook de titel van (intern) gecertificeerd fiscaal accountant dragen. Een
  (gecertificeerd) accountant of een bedrijfsrevisor mag de titel van gecertificeerd belastingadviseur echter niet
  dragen.
-Pagina 7 van 33 Copyright Belgisch S taatsblad 10-01-2025
   Personen die hun activiteiten uitoefenen binnen een arbeidsovereenkomst of een door de overheid bezoldigde
  betrekking in de hoedanigheid van intern gecertificeerd belastingadviseur, mogen de titel van intern gecertificeerd
  belastingadviseur dragen.
@@ -209,7 +214,9 @@ Pagina 7 van 33 Copyright Belgisch S taatsblad 10-01-2025
 
   Afdeling 6. - De accountant en de fiscaal accountant
 
-   Art. 9.De personen ingeschreven in het openbaar register van het Instituut als accountant mogen de titel van
+## Art. 9
+
+De personen ingeschreven in het openbaar register van het Instituut als accountant mogen de titel van
  accountant dragen.
    De personen ingeschreven in het openbaar register van het Instituut als fiscaal accountant mogen de titel van
  fiscaal accountant dragen. De bedrijfsrevisoren mogen de titel van fiscaal accountant echter niet dragen.
@@ -265,13 +272,14 @@ Pagina 7 van 33 Copyright Belgisch S taatsblad 10-01-2025
  zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
    § 5. Een bedrijfsrevisor mag niet om de hoedanigheid van gecertificeerd belastingadviseur verzoeken.
 
-   Art. 11.§ 1. Ter ondersteuning van zijn verzoek om ingeschreven te worden in het openbaar register van het
+## Art. 11
+
+§ 1. Ter ondersteuning van zijn verzoek om ingeschreven te worden in het openbaar register van het
  Instituut met de hoedanigheid van gecertificeerd (intern) accountant of van (intern) gecertificeerd
  belastingadviseur kan een natuurlijk persoon, onderdaan van een lidstaat, een bekwaamheidstest of een
  opleidingstitel bedoeld in titel III, hoofdstuk I, van de wet van 12 februari 2008 betreffende de
  beroepskwalificaties, afgeleverd door een andere lidstaat doen gelden die beantwoordt aan de voorwaarden
  bepaald in hetzelfde hoofdstuk van die wet of een opleidingstitel gelijkgesteld aan een dergelijke titel in toepassing
-Pagina 8 van 33 Copyright Belgisch S taatsblad 10-01-2025
  van artikel 2, § 3, van de wet van 12 februari 2008 betreffende de beroepskwalificaties. De onderdanen van een
  lidstaat die een bekwaamheidsattest of een opleidingstitel bedoeld in deze paragraaf hebben verworven, zijn
  onderworpen aan alle voorwaarden en genieten van alle rechten voorzien in de wet van 12 februari 2008
@@ -342,7 +350,6 @@ De diploma's of titels bedoeld in artikel 10, § 1, 5°, die toegang geven tot h
  KMO van de Franse Gemeenschapscommissie in uitvoering van het samenwerkingsakkoord, gesloten op 20
  februari 1995 door de Franse Gemeenschapscommissie, de Franse Gemeenschap en het Waalse Gewest
  betreffende de Permanente Vorming van de Middenstand en de kleine en middelgrote ondernemingen en het
-Pagina 9 van 33 Copyright Belgisch S taatsblad 10-01-2025
  toezicht op het Instituut voor Permanente Vorming van de Middenstand en de kleine en middelgrote
  ondernemingen, zoals gewijzigd door het aanhangsel van 4 juni 2003;
    2° de volgende diploma's erkend door de Vlaamse Gemeenschap :
@@ -406,14 +413,15 @@ Pagina 9 van 33 Copyright Belgisch S taatsblad 10-01-2025
    § 2. De bepalingen bedoeld in hoofdstuk 11, afdeling 2, zijn van toepassing op de personen bedoeld onder
  paragraaf 1.
 
-  Art. 14.De stagecommissie kan, onder de voorwaarden bepaald door de Koning, de stage inkorten of een
+## Art. 14
+
+De stagecommissie kan, onder de voorwaarden bepaald door de Koning, de stage inkorten of een
  vrijstelling van de stage toestaan wanneer de persoon ten minste zeven jaar relevante ervaring met de
  uitoefening van het beroep kan aantonen. [1 De persoon die vrijgesteld is van de stage legt een
  bekwaamheidsexamen af volgens de nadere regels bepaald door de Koning.]1
   ----------
   (1)<W 2021-02-02/06, art. 26, 005; Inwerkingtreding : 21-02-2021>
 
-Pagina 10 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 15
 
 De stagecommissie kan een tussentijdse proef of meerdere tussentijdse proeven gedurende de stage
@@ -494,7 +502,6 @@ Een natuurlijk persoon kan slechts ingeschreven worden in het openbaar register 
    De persoon die niet de Belgische nationaliteit heeft, legt de volgende eed af : "Ik zweer de opdrachten die mij
  worden toevertrouwd, in eer en geweten te vervullen volgens de voorschriften van de Belgische wet.".
    De persoon die zijn woonplaats in België heeft, legt de eed af voor de ondernemingsrechtsbank van zijn
-Pagina 11 van 33 Copyright Belgisch S taatsblad 10-01-2025
  woonplaats.
   De persoon die geen woonplaats in België heeft, legt de eed af voor de ondernemingsrechtsbank van zijn
  keuze.
@@ -505,7 +512,9 @@ Pagina 11 van 33 Copyright Belgisch S taatsblad 10-01-2025
   Afdeling 5. - Inschrijving als accountant en fiscaal accountant en de overgang naar de hoedanigheid van
  gecertificeerd accountant en van gecertificeerd belastingadviseur
 
-  Art. 21.De personen die op de datum van de inwerkingtreding van deze wet ingeschreven waren op het tableau
+## Art. 21
+
+De personen die op de datum van de inwerkingtreding van deze wet ingeschreven waren op het tableau
  van "boekhouders" als bedoeld in artikel 46, § 1, tweede lid, van de wet van 22 april 1999, worden als (intern)
  accountant ingeschreven in het openbaar register van het Instituut.
   Wensen deze personen de hoedanigheid van "(intern) gecertificeerd accountant" te bekomen, dan moeten zij
@@ -530,7 +539,9 @@ Pagina 11 van 33 Copyright Belgisch S taatsblad 10-01-2025
   ----------
   (1)<W 2021-02-02/06, art. 27, 005; Inwerkingtreding : 21-02-2021>
 
-  Art. 22.De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven waren op het
+## Art. 22
+
+De personen die op de datum van de inwerkingtreding van deze wet, ingeschreven waren op het
  tableau van "boekhouders-fiscalisten" als bedoeld in artikel 46, § 1, tweede lid, van de wet van 22 april 1999,
  worden als (intern) fiscaal accountant ingeschreven in het openbaar register van het Instituut.
   Wensen deze personen de hoedanigheid van "(intern) gecertificeerd accountant" te bekomen, dan moeten zij
@@ -565,7 +576,6 @@ Pagina 11 van 33 Copyright Belgisch S taatsblad 10-01-2025
  indien het beroep niet gereglementeerd is in de lidstaat van vestiging.
    Het tijdelijk en occasioneel karakter van de dienstverrichting wordt door de Raad van het Instituut per geval
  beoordeeld, met name in functie van de duur, de frequentie, de regelmaat en de continuïteit.
-Pagina 12 van 33 Copyright Belgisch S taatsblad 10-01-2025
    § 2. In toepassing van artikel 9 van de wet van 12 februari 2008 betreffende de beroepskwalificatie stellen de
  personen bedoeld in paragraaf 1 die zich voor het eerst naar België begeven om er tijdelijk en occasioneel het
  beroep van gecertificeerd accountant of gecertificeerd belastingadviseur uit te oefenen, de Raad van het
@@ -584,7 +594,9 @@ Pagina 12 van 33 Copyright Belgisch S taatsblad 10-01-2025
 
   Afdeling 7. - De toekenning van de hoedanigheid aan rechtspersonen
 
-   Art. 24.[1 § 1.]1 Een rechtspersoon wordt op zijn verzoek in het openbaar register van het Instituut
+## Art. 24
+
+[1 § 1.]1 Een rechtspersoon wordt op zijn verzoek in het openbaar register van het Instituut
  ingeschreven met de hoedanigheid van erkend rechtspersoon, indien hij aan de volgende voorwaarden voldoet :
    1° de rechtspersoon is opgericht met rechtspersoonlijkheid naar Belgisch recht of naar het recht van een
  andere lidstaat;
@@ -638,7 +650,6 @@ De Raad van het Instituut kan de toekenning van de hoedanigheid van (intern) gec
    2° wanneer de persoon een beroepsactiviteit uitoefent die onverenigbaar is met de beroepsactiviteiten bedoeld
  in de artikel en 3 en 6.
 
-Pagina 13 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 27
 
 De Raad van het Instituut kan de toekenning van de hoedanigheid aan een rechtspersoon weigeren
@@ -671,7 +682,9 @@ Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Insti
 
   Afdeling 1. - Inschrijving in het openbaar register
 
-  Art. 29.[1 § 1.]1 Het Instituut houdt een openbaar register bij om toe te laten de lijst van personen die het
+## Art. 29
+
+[1 § 1.]1 Het Instituut houdt een openbaar register bij om toe te laten de lijst van personen die het
  beroep mogen uitoefenen of de beroepstitel mogen dragen, te raadplegen en na te kijken.
   Elke beroepsbeoefenaar, zowel een natuurlijk als een rechtspersoon, wordt ingeschreven in het openbaar
  register, met de toevoeging van zijn hoedanigheid.
@@ -687,7 +700,9 @@ Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Insti
   ----------
   (1)<W 2020-07-20/12, art. 154, 004; Inwerkingtreding : 15-08-2020>
 
-  Art. 30.[2 § 1.]2 Het openbaar register [2 bedoeld in artikel 29, § 1,]2 bevat de volgende gegevens :
+## Art. 30
+
+[2 § 1.]2 Het openbaar register [2 bedoeld in artikel 29, § 1,]2 bevat de volgende gegevens :
   1° de naam van de beroepsbeoefenaar of in voorkomend geval van de stagiair of van de persoon bedoeld in
  artikel 29, vierde lid, het inschrijvingsnummer en de contactgegevens;
   2° het adres waar de beroepsbeoefenaar kantoor houdt;
@@ -710,7 +725,6 @@ Beroep tegen de in deze afdeling bedoelde beslissingen van de Raad van het Insti
    De Raad van het Instituut brengt zijn advies uit binnen de drie maanden na ontvangst van de adviesaanvraag
  over het ontwerp, zo niet wordt de Raad van het Instituut geacht geen opmerkingen op het ontwerp te hebben.
    § 3. Bij elke kandidatuur wordt een dossier gevoegd, met de in deze paragraaf genoemde gegevens. Het
-Pagina 14 van 33 Copyright Belgisch S taatsblad 10-01-2025
  dossier omvat bovendien een omstandige beschrijving van de samenstelling en de organisatie van zijn kantoor en
  van zijn werkmethodes. Indien de persoon werkzaam is of is geweest in het kader van een rechtspersoon,
  omvat het dossier bovendien een beschrijving van de rechtspersoon, haar organisatie en werking en van de
@@ -727,7 +741,9 @@ Pagina 14 van 33 Copyright Belgisch S taatsblad 10-01-2025
   (1)<W 2019-05-02/28, art. 109, 002; Inwerkingtreding : 01-06-2019>
   (2)<W 2020-07-20/12, art. 155, 004; Inwerkingtreding : 15-08-2020>
 
-   Art. 31.De Raad van het Instituut is belast met het houden en het bijwerken van de gegevens van het openbaar
+## Art. 31
+
+De Raad van het Instituut is belast met het houden en het bijwerken van de gegevens van het openbaar
  register.
    De [1 persoon ingeschreven in het openbaar register]1 brengt de Raad van het Instituut binnen de vijftien
  dagen na de wijziging op de hoogte van elke wijziging van de gegevens opgenomen in het openbaar register. Hij
@@ -750,7 +766,9 @@ Het openbaar register bevat ook de gegevens van :
 
   Afdeling 2. - Uitschrijving uit het openbaar register
 
-   Art. 33.[1 § 1.]1 Wanneer de beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern)
+## Art. 33
+
+[1 § 1.]1 Wanneer de beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern)
  gecertificeerd accountant of een (intern) gecertificeerd belastingadviseur, een (intern) accountant of een (intern)
  fiscaal accountant hierom verzoekt, wordt hij uit het openbaar register uitgeschreven.
    Wanneer de persoon om de uitschrijving van het openbaar register verzoekt, nadat hij binnen de gestelde
@@ -778,9 +796,10 @@ Het openbaar register bevat ook de gegevens van :
 
   Afdeling 3. - De herinschrijving in het openbaar register
 
-  Art. 34.Elke beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern) gecertificeerd accountant of
+## Art. 34
+
+Elke beroepsbeoefenaar of in voorkomend geval de stagiair of een (intern) gecertificeerd accountant of
  een (intern) gecertificeerd belastingadviseur, een (intern) accountant of een (intern) fiscaal accountant [1 of de
-Pagina 15 van 33 Copyright Belgisch S taatsblad 10-01-2025
  persoon bedoeld in artikel 29, § 2,]1 die op zijn verzoek is uitgeschreven, kan na de uitschrijving om zijn
  herinschrijving verzoeken.
   Een herinschrijving is pas mogelijk wanneer hij de voorwaarden voor de toelating tot het beroep opnieuw
@@ -819,7 +838,9 @@ Beroep tegen de weigering van herinschrijving kan door de uitgeschrevene worden 
 
   Afdeling 2. - Onafhankelijkheid
 
-   Art. 37.Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in
+## Art. 37
+
+Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in
  artikel 29, § 2,]1 handelt bij het vervullen van de hem toevertrouwde activiteiten of opdrachten in volledige
  onafhankelijkheid, met respect voor de beginselen van de deontologie. Voor een beroepsbeoefenaar hebben
  deze minstens betrekking op de verantwoordelijkheid voor het openbaar belang van de beroepsbeoefenaar, zijn
@@ -838,7 +859,9 @@ De beroepsbeoefenaar organiseert zijn beroepsactiviteiten in functie van de aard
 
   Afdeling 4. - Bekwaamheid
 
-  Art. 39.Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in
+## Art. 39
+
+Elke persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld in
  artikel 29, § 2,]1 beschikt over de nodige beroepsbekwaamheid om de activiteiten of opdrachten te vervullen die
  hem kan worden toegewezen of wordt toegewezen.
   Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn beroepskennis
@@ -857,7 +880,6 @@ De beroepsbeoefenaar organiseert zijn beroepsactiviteiten in functie van de aard
 Voor het aanvaarden van een opdracht beschikt de beroepsbeoefenaar over de nodige bekwaamheid,
  medewerking en tijd om de opdracht behoorlijk uit te voeren.
 
-Pagina 16 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 41
 
 De beroepsbeoefenaar maakt, in overleg met zijn cliënt, een opdrachtbrief op, die de uitvoering van
@@ -943,8 +965,9 @@ De Koning kan, na advies van de Raad van het Instituut, de nadere regels vastste
 
   Afdeling 9. - Geheimhouding
 
-  Art. 50.Onverminderd zijn verplichtingen inzake beroepsgeheim, is de persoon ingeschreven in het openbaar
-Pagina 17 van 33 Copyright Belgisch S taatsblad 10-01-2025
+## Art. 50
+
+Onverminderd zijn verplichtingen inzake beroepsgeheim, is de persoon ingeschreven in het openbaar
  register [1 , met uitzondering van de personen bedoeld in artikel 29, § 2,]1 gehouden tot de verplichting van
  geheimhouding van gegevens die hem uitdrukkelijk of stilzwijgend in de uitoefening van zijn beroep zijn
  toevertrouwd en van de feiten met een vertrouwelijk karakter die hij in de uitoefening van zijn beroep zelf heeft
@@ -952,7 +975,9 @@ Pagina 17 van 33 Copyright Belgisch S taatsblad 10-01-2025
   ----------
   (1)<W 2020-07-20/12, art. 161, 004; Inwerkingtreding : 15-08-2020>
 
-  Art. 51.Er kan de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen
+## Art. 51
+
+Er kan de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen
  bedoeld in artikel 29, § 2,]1 geen inbreuk op de verplichting van geheimhouding ten laste worden gelegd :
   1° wanneer hij geroepen wordt om in rechte getuigenis af te leggen;
   2° wanneer de wet hem tot mededeling van gegevens verplicht;
@@ -962,7 +987,9 @@ Pagina 17 van 33 Copyright Belgisch S taatsblad 10-01-2025
   ----------
   (1)<W 2020-07-20/12, art. 162, 004; Inwerkingtreding : 15-08-2020>
 
-   Art. 52.Indien de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld
+## Art. 52
+
+Indien de persoon ingeschreven in het openbaar register [1 , met uitzondering van de personen bedoeld
  in artikel 29, § 2,]1 vertrouwelijke informatie deelt met zijn personeelsleden, stagiairs, of met andere
  beroepsbeoefenaars, moet hij erop toezien dat zij het vertrouwelijk karakter daarvan eerbiedigen.
    ----------
@@ -983,7 +1010,9 @@ Om zijn werkzaamheden uit te oefenen of zijn overeenkomstige beroepstitel te dra
 
   Afdeling 11. - Bijdragen
 
-   Art. 54.[1 § 1.]1 De personen, natuurlijke of rechtspersonen, ingeschreven met een hoedanigheid en de
+## Art. 54
+
+[1 § 1.]1 De personen, natuurlijke of rechtspersonen, ingeschreven met een hoedanigheid en de
  stagiairs betalen jaarlijks een bijdrage aan het Instituut.
    De Koning bepaalt het maximumbedrag van de bijdragen voor de verschillende groepen personen bedoeld in
  het eerste lid. Het bedrag van de bijdrage wordt door de algemene vergadering vastgesteld naargelang de
@@ -1018,7 +1047,6 @@ De kwaliteitstoetsing heeft in het bijzonder tot doel na te gaan of de beroepsbe
  kader.
   Het Instituut wijst voldoende middelen voor de kwaliteitstoetsing toe, zodat de onafhankelijkheid en de
  autonomie van de kwaliteitstoetsing van de beroepsbeoefenaars verzekerd zijn.
-Pagina 18 van 33 Copyright Belgisch S taatsblad 10-01-2025
   De methodologie, de uitvoering van de kwaliteitstoetsing en de beoordeling zijn passend en evenredig met de
  omvang en de complexiteit van de activiteiten van de beroepsbeoefenaar waarvoor een toetsingsopdracht wordt
  uitgevoerd.
@@ -1078,7 +1106,9 @@ Er wordt een Instituut van de Belastingadviseurs en de Accountants (IBA) opgeric
 
   Afdeling 2. - Opdracht
 
-   Art. 62.§ 1. Het Instituut heeft als opdracht :
+## Art. 62
+
+§ 1. Het Instituut heeft als opdracht :
    1° het beschermen van de rechten en de gemeenschappelijke beroepsbelangen van de personen ingeschreven
  in het openbaar register;
    2° het toezien op de toegang tot het beroep van gecertificeerd accountant en gecertificeerd belastingadviseur
@@ -1097,7 +1127,6 @@ Er wordt een Instituut van de Belastingadviseurs en de Accountants (IBA) opgeric
  beroep en de beroepsbeoefenaars, overeenkomstig de artikel en XV.49 en XV.52 van het Wetboek van
  economisch recht en de artikel en 27 en 27/1 van de wet van 12 februari 2008 tot instelling van een algemeen
  kader voor de erkenning van EU-beroepskwalificaties;
-Pagina 19 van 33 Copyright Belgisch S taatsblad 10-01-2025
   [1 9° het toezien op de naleving door de personen bedoeld in artikel 6, § 2, van de modaliteiten en voorwaarden
  van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van
  terrorisme en tot beperking van het gebruik van contanten.]1
@@ -1176,7 +1205,6 @@ Wanneer één vijfde van de leden van de algemene vergadering, natuurlijke perso
   Afdeling 4. - De Raad van het Instituut
 
   Onderafdeling 1. - Samenstelling
-Pagina 20 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 68
 
 De Raad van het Instituut bestaat uit :
@@ -1221,7 +1249,9 @@ De beslissingen van de Raad van het Instituut en van het uitvoerend comité word
 
   Onderafdeling 2. - Bevoegdheden van de Raad van het Instituut
 
-   Art. 72.In overeenstemming met het artikel 62, is de Raad van het Instituut bevoegd voor :
+## Art. 72
+
+In overeenstemming met het artikel 62, is de Raad van het Instituut bevoegd voor :
    1° het houden en het bijwerken van een openbaar register;
    2° het uitvaardigen en openbaar maken op de website van het Instituut van technische normen en
  aanbevelingen, specifiek voor de uitoefening van het beroep;
@@ -1252,7 +1282,6 @@ De beslissingen van de Raad van het Instituut en van het uitvoerend comité word
    Een norm als bedoeld in het eerste lid, 2°, is bindend. Een aanbeveling als bedoeld in het eerste lid, 2°, is
  eveneens bindend, tenzij in bijzondere omstandigheden gemotiveerd kan worden dat de afwijking ten aanzien van
  de aanbeveling geen afbreuk doet aan de criteria vastgesteld in hoofdstuk 4.
-Pagina 21 van 33 Copyright Belgisch S taatsblad 10-01-2025
   De normen en aanbevelingen worden in het Nederlands, het Frans en zo mogelijk in het Duits openbaar
  gemaakt op de website van het Instituut, met vermelding van de datum van de inwerkingtreding van de normen
  en aanbevelingen.
@@ -1302,7 +1331,9 @@ De algemene vergadering duidt één of meer commissarissen aan onder de personen
 
   Afdeling 7. - Inkomsten
 
-   Art. 77.De inkomsten van het Instituut bestaan uit :
+## Art. 77
+
+De inkomsten van het Instituut bestaan uit :
    1° de bijdragen bedoeld in artikel 54 en, in voorkomend geval, de geïnde interesten aangerekend bij laattijdige
  betaling van de bijdragen;
    2° de opbrengsten uit het vermogen van het Instituut;
@@ -1331,7 +1362,6 @@ De algemene vergadering duidt één of meer commissarissen aan onder de personen
 
 Er wordt een interinstitutencomité opgericht, samengesteld uit de voorzitter en de ondervoorzitter van
  het Instituut en de voorzitter en de ondervoorzitter van het Instituut van de Bedrijfsrevisoren.
-Pagina 22 van 33 Copyright Belgisch S taatsblad 10-01-2025
   Het interinstitutencomité heeft als doel overleg te organiseren over aangelegenheden die beide Instituten
  aanbelangen.
   Dit comité vergadert minstens tweemaal per jaar. Telkens wanneer een Instituut erom verzoekt, vergadert het
@@ -1355,7 +1385,9 @@ Er wordt een Hoge Raad voor de Economische Beroepen opgericht.
  Deze adviezen of aanbevelingen hebben onder meer betrekking op de uitoefening van de opdrachten
  omschreven in artikel 15bis van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven.
 
-  Art. 80.De Hoge Raad moet worden geraadpleegd voor elk besluit met betrekking tot de beroepen bedoeld in
+## Art. 80
+
+De Hoge Raad moet worden geraadpleegd voor elk besluit met betrekking tot de beroepen bedoeld in
  deze wet en met betrekking tot het beroep van de bedrijfsrevisor en voor elk besluit dat wordt genomen in
  uitvoering van deze wet of wetten betreffende de beroepen bedoeld in deze wet en het beroep van
  bedrijfsrevisor. Elke afwijking van een eensluidend advies van de Hoge Raad over een besluit moet uitdrukkelijk
@@ -1409,8 +1441,9 @@ De Koning stelt het huishoudelijk reglement van de Hoge Raad vast, op diens voor
 
   Onderafdeling 1. - Redenen voor een terechtwijzing
 
-  Art. 85.De Raad van het Instituut kan elke persoon ingeschreven in het openbaar register, met uitzondering
-Pagina 23 van 33 Copyright Belgisch S taatsblad 10-01-2025
+## Art. 85
+
+De Raad van het Instituut kan elke persoon ingeschreven in het openbaar register, met uitzondering
  van de personen bedoeld in artikel 23 [1 en in artikel 29, § 2]1, terechtwijzen bij de volgende inbreuken :
   1° wanneer de betrokkene in gebreke blijft om, binnen een termijn bepaald door de Raad van het Instituut, alle
  of een gedeelte van de bijdragen, bedoeld in artikel 54 te betalen;
@@ -1493,7 +1526,6 @@ Een of meerdere tuchtstraffen worden opgelegd aan personen ingeschreven in het o
  wanneer inbreuken zijn vastgesteld tegen het wettelijk, reglementair en normatief kader waarbinnen de
  beroepsactiviteiten worden uitgeoefend.
 
-Pagina 24 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 93
 
 § 1. De volgende tuchtstraffen kunnen worden opgelegd aan een beroepsbeoefenaar, natuurlijk of
@@ -1566,13 +1598,14 @@ De betrokkene heeft het recht van wraking in de gevallen bepaald bij artikel 828
  Wetboek.
   Over de wraking beslist de commissie van beroep.
 
-   Art. 98.De betrokkene mag tijdens de zitting zijn verweer mondeling of schriftelijk doen gelden. Hij mag zich
+## Art. 98
+
+De betrokkene mag tijdens de zitting zijn verweer mondeling of schriftelijk doen gelden. Hij mag zich
  laten bijstaan of vertegenwoordigen door een advocaat of een andere persoon ingeschreven in het openbaar
  register met een hoedanigheid [1 , met uitzondering van de personen bedoeld in artikel 29, § 2]1.
    De rechtskundig assessor wordt uitgenodigd. Hij neemt niet deel aan de beraadslagingen.
    ----------
    (1)<W 2020-07-20/12, art. 169, 004; Inwerkingtreding : 15-08-2020>
-Pagina 25 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 99
 
 De zitting is openbaar.
@@ -1652,7 +1685,6 @@ Beroep wordt ingesteld bij de commissie van beroep.
   De effectieve en de plaatsvervangende leden worden benoemd voor een hernieuwbare periode van zes jaar.
   De leden mogen geen lid zijn van de Raad van het Instituut noch van een andere commissie of werkgroep van
  het Instituut.
-Pagina 26 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 105
 
 Elke kamer beschikt ook over een griffie die waargenomen wordt door de personeelsleden van het
@@ -1737,12 +1769,13 @@ De Koning kan de nadere regels van de procedure voor de commissies bepalen na ad
  hoedanigheid, wanneer hij opnieuw voldoet aan de voorwaarden tot toelating van het beroep vermeld in artikel
  10.
 
-  Art. 116.De Raad van het Instituut is bevoegd om [1 administratieve maatregelen te nemen en]1 administratieve
+## Art. 116
+
+De Raad van het Instituut is bevoegd om [1 administratieve maatregelen te nemen en]1 administratieve
  sancties uit te spreken zoals voorzien in de wet van 18 september 2017 tot voorkoming van het witwassen van
  geld en de financiering van terrorisme en tot beperking van het gebruik van contanten.
   [1 De Koning legt, na advies van de Raad van het Instituut, de nadere regels over de in het eerste lid bedoelde
  administratieve maatregelen en administratieve sancties vast. De Raad van het Instituut brengt zijn advies uit
-Pagina 27 van 33 Copyright Belgisch S taatsblad 10-01-2025
  binnen drie maanden te rekenen vanaf de dag van ontvangst van de adviesaanvraag over het ontwerp van
  koninklijk besluit. Wordt er binnen deze termijn geen advies uitgebracht, dan wordt de Raad van het Instituut
  geacht geen opmerkingen te hebben op het ontwerp dat hem wordt voorgelegd.]1
@@ -1751,7 +1784,9 @@ Pagina 27 van 33 Copyright Belgisch S taatsblad 10-01-2025
 
   Afdeling 4. - Strafbepalingen
 
-  Art. 117.Met [2 hetzij]2 een gevangenisstraf van acht dagen tot drie maanden en met een [2 strafrechtelijke]2
+## Art. 117
+
+Met [2 hetzij]2 een gevangenisstraf van acht dagen tot drie maanden en met een [2 strafrechtelijke]2
  geldboete van tweehonderd tot tweeduizend euro of met een van die straffen alleen [2 , hetzij met een
  administratieve geldboete van tweehonderd tot tweeduizend euro]2 wordt gestraft :
   1° hij die zich publiekelijk en onrechtmatig de hoedanigheid of de titel toe-eigent van de volgende beroepen :
@@ -1770,7 +1805,9 @@ Pagina 27 van 33 Copyright Belgisch S taatsblad 10-01-2025
   (1)<W 2020-07-20/12, art. 170, 004; Inwerkingtreding : 15-08-2020>
   (2)<W 2024-02-09/19, art. 181, 008; Inwerkingtreding : 31-03-2024>
 
-   Art. 118.Onverminderd de bevoegdheid van de officieren van de gerechtelijke politie worden de ambtenaren die
+## Art. 118
+
+Onverminderd de bevoegdheid van de officieren van de gerechtelijke politie worden de ambtenaren die
  hiertoe door de Koning zijn aangesteld op voorstel van de minister bevoegd voor Economie en de minister
  bevoegd voor Middenstand, belast met het opsporen en vaststellen in processen-verbaal van de inbreuken
  bedoeld in artikel 117, eerste lid. Deze processen-verbaal hebben bewijskracht tot tegenbewijs. Zij worden
@@ -1812,7 +1849,6 @@ Pagina 27 van 33 Copyright Belgisch S taatsblad 10-01-2025
    3° een strafrechtelijke vervolging.
    § 2. De vervolging gebeurt overeenkomstig titel 1/1 van boek XV van het Wetboek van economisch recht.]1
   ----------
-Pagina 28 van 33 Copyright Belgisch S taatsblad 10-01-2025
   (1)<Ingevoegd bij W 2024-02-09/19, art. 184, 008; Inwerkingtreding : 31-03-2024>
 
 ## Art. 118/3
@@ -1862,7 +1898,9 @@ Bij elke inbreuk, vastgesteld in een proces-verbaal, met betrekking tot artikel 
  het Instituut in rechte optreden om de rechten en de gemeenschappelijke beroepsbelangen van zijn leden te
  beschermen en desgevallend schadevergoeding te eisen.
 
-  Art. 120.Artikel 458 van het Strafwetboek is van toepassing op de beroepsbeoefenaars en stagiairs en op de
+## Art. 120
+
+Artikel 458 van het Strafwetboek is van toepassing op de beroepsbeoefenaars en stagiairs en op de
  personen voor wie zij instaan, alsook op de personen die tijdelijk en occasioneel het beroep uitoefenen.
   Artikel 458 van het Strafwetboek is eveneens van toepassing op het Instituut, op de organen, op de leden van
  die organen, met inbegrip van de commissies, op de toetsers, op de rechtskundig assessor en op de
@@ -1887,8 +1925,9 @@ Bij elke inbreuk, vastgesteld in een proces-verbaal, met betrekking tot artikel 
 
 De rechten van het personeel van de fusionerende instituten blijven verworven ten aanzien van het
  Instituut dat door deze wet opgericht wordt.
-Pagina 29 van 33 Copyright Belgisch S taatsblad 10-01-2025
-   Art. 122.[1 § 1.]1 De tuchtdossiers die aanhangig zijn bij de tuchtinstanties van beide fusionerende instituten op
+## Art. 122
+
+[1 § 1.]1 De tuchtdossiers die aanhangig zijn bij de tuchtinstanties van beide fusionerende instituten op
  de dag van de inwerkingtreding van deze wet, blijven behandeld door de tuchtorganen van beide fusionerende
  instituten in dezelfde samenstelling en volgens dezelfde procedureregels van toepassing op deze tuchtorganen
  voorafgaand aan de datum van inwerkingtreding van deze wet. Elk hoger beroep dat ingesteld wordt na de
@@ -1928,7 +1967,9 @@ Elke persoon ingeschreven op de lijst van stagiairs van de fusionerende institut
  inwerkingtreding van deze wet, wordt automatisch ingeschreven in het openbaar register van het Instituut.
    De gepresteerde stageduur binnen elk van de fusionerende instituten blijft verworven.
 
-   Art. 124.§ 1. Elke persoon ingeschreven op de lijst van de stagiairs van het Instituut van de Accountants en de
+## Art. 124
+
+§ 1. Elke persoon ingeschreven op de lijst van de stagiairs van het Instituut van de Accountants en de
  Belastingconsulenten voorzien in de wet van 22 april 1999 op de datum van de inwerkingtreding van deze wet
  kan na die datum :
    1° deelnemen aan het volgende bekwaamheidsexamen tot het bekomen van de hoedanigheid van (intern)
@@ -1956,7 +1997,6 @@ Elke persoon ingeschreven op de lijst van stagiairs van de fusionerende institut
    § 2. Elke persoon ingeschreven op de lijst van de stagiairs van het Beroepsinstituut van Erkende Boekhouders
  en Fiscalisten bedoeld in de wet van 22 april 1999 op de datum van de inwerkingtreding van deze wet, kan na die
  datum zijn stage verderzetten onder de voorwaarden en nadere regels voorzien door of in uitvoering van de wet
-Pagina 30 van 33 Copyright Belgisch S taatsblad 10-01-2025
  van 22 april 1999 [1 , onder voorbehoud van de regels bepaald in paragrafen 3 tot 5]1. Indien deze persoon aan
  het einde van de zes jaar te rekenen vanaf de datum van zijn inschrijving als stagiair niet slaagt voor het
  bekwaamheidsexamen op het einde van de stage, kan hij overeenkomstig artikel 13 slechts een nieuwe stage
@@ -2026,10 +2066,11 @@ In alle andere wettelijke en reglementaire bepalingen moeten de woorden "Beroeps
   In alle andere wettelijke en reglementaire bepalingen moeten de woorden "boekhouder(-fiscalist)" telkens
  gelezen worden als "(fiscaal) accountant".
 
-  Art. 127.§ 1. In afwijking van de artikel en 68 en 69, wordt voor een periode van vier jaar na de inwerkingtreding
+## Art. 127
+
+§ 1. In afwijking van de artikel en 68 en 69, wordt voor een periode van vier jaar na de inwerkingtreding
  van dit artikel een overgangsraad opgericht die bestaat uit :
   1° een voorzitter die de voorzitter is van het Instituut van de Accountants en de Belastingconsulenten,
-Pagina 31 van 33 Copyright Belgisch S taatsblad 10-01-2025
  verkozen door de laatste algemene vergadering gehouden vóór de inwerkingtreding van dit artikel ;
    2° een ondervoorzitter die de voorzitter is van het Beroepsinstituut van erkende Boekhouders en Fiscalisten,
  verkozen door en onder de leden van de Nationale Raad van dat Instituut na de laatste verkiezingen die vóór de
@@ -2098,7 +2139,6 @@ Pagina 31 van 33 Copyright Belgisch S taatsblad 10-01-2025
    ----------
    (1)<W 2020-02-22/01, art. 2, 003; Inwerkingtreding : 03-03-2020>
 
-Pagina 32 van 33 Copyright Belgisch S taatsblad 10-01-2025
 ## Art. 128
 
 De minister bevoegd voor Economie en de minister bevoegd voor Middenstand dragen elk een
@@ -2137,4 +2177,3 @@ Deze wet treedt in werking op de datum bepaald door de Koning, met uitzondering 
 
   (NOTA : Inwerkingtreding vastgesteld op 30-09-2020 door KB 2020-09-11/10, art. 1)
 
-Pagina 33 van 33 Copyright Belgisch S taatsblad 10-01-2025

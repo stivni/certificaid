@@ -19,11 +19,11 @@ bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 
 ## Art. 17.
 
-  Titel V. [Diverse bepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 27, Inwerkingtreding : 01-01-
-Pagina 5 van 69 Copyright Belgisch S taatsblad 19-03-2026
- 2007>
+  Titel V. [Diverse bepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 27, Inwerkingtreding : 01-012007>
 
-  Art. 18.<W 2006-12-19/33, art. 28, Inwerkingtreding : 01-01-2007> Wanneer een akte vrijgesteld is van het
+## Art. 18
+
+<W 2006-12-19/33, art. 28, Inwerkingtreding : 01-01-2007> Wanneer een akte vrijgesteld is van het
  recht uit hoofde van haar bestemming of van de hoedanigheid van de persoon aan wie ze wordt afgeleverd, mag
  zij tot geen andere doeleinden of door geen andere personen worden aangewend op straf van een boete gelijk
  aan twintigmaal het ontdoken recht [1 ...]1. Bedoelde boete wordt persoonlijk en zonder verhaal opgelopen door
@@ -32,7 +32,9 @@ Pagina 5 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2025-12-19/35, art. 9, 065; Inwerkingtreding : 10-01-2026>
 
-   Art. 19.[1 De betaling van een bedrag, ander dan een strafrechtelijke boete, verschuldigd in uitvoering van dit
+## Art. 19
+
+[1 De betaling van een bedrag, ander dan een strafrechtelijke boete, verschuldigd in uitvoering van dit
  Wetboek of een koninklijk besluit genomen in uitvoering van dit Wetboek, wordt als niet bestaande beschouwd
  indien het niet gedaan werd overeenkomstig dit Wetboek of bij het in uitvoering van dit Wetboek genomen
  koninklijk besluit.]1
@@ -43,7 +45,9 @@ Pagina 5 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
   Titel VI. [Vrijstellingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 31, Inwerkingtreding : 01-01-2007>
 
-   Art. 21.<W 2006-12-19/33, art. 32, Inwerkingtreding : 01-01-2007> Worden van het recht vrijgesteld:
+## Art. 21
+
+<W 2006-12-19/33, art. 32, Inwerkingtreding : 01-01-2007> Worden van het recht vrijgesteld:
    1° akten [7 ...]7 opgemaakt of afgeleverd ter uitvoering van wetten, reglementen en transacties ten bate van de
  Staat, gemeenschappen, gewesten, provincies, gemeenten en openbare organismen betreffende belastingen,
  onteigeningen en ruilverkavelingen;
@@ -82,17 +86,20 @@ Pagina 5 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (5)<W 2022-01-19/18, art. 47, 051; Inwerkingtreding : 01-07-2022>
    (6)<W 2022-05-18/04, art. 12, 052; Inwerkingtreding : 01-07-2022>
    (7)<W 2025-12-19/35, art. 10, 065; Inwerkingtreding : 10-01-2026>
-Pagina 6 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (8)<W 2026-02-10/05, art. 4, 067; Inwerkingtreding : 09-03-2026>
 
-  Art. 22.[1 Een akte waarvan de tekst geen melding maakt van de oorzaak van de vrijstelling van het recht,
+## Art. 22
+
+[1 Een akte waarvan de tekst geen melding maakt van de oorzaak van de vrijstelling van het recht,
  vermeldt die oorzaak bovenaan op de akte, op straffe het voordeel ervan te verliezen.]1
   ----------
   (1)<W 2025-12-19/35, art. 11, 065; Inwerkingtreding : 10-01-2026>
 
   Titel VII. [Terugbetalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 34, Inwerkingtreding : 01-01-2007>
 
-  Art. 23.[1 Het recht is tot het passend beloop voor teruggave vatbaar wanneer een hoger dan het
+## Art. 23
+
+[1 Het recht is tot het passend beloop voor teruggave vatbaar wanneer een hoger dan het
  verschuldigde bedrag werd betaald]1.
   De Koning bepaalt de wijze waarop de teruggave geschiedt, de formaliteiten en voorwaarden waarvan zij
  afhankelijk wordt gesteld, alsmede de ontvanger die bevoegd is om ze uit te voeren.
@@ -120,7 +127,9 @@ Pagina 6 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<Ingevoegd bij W 2019-04-13/09, art. 74, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 23.2.[1 De eerste akte van vervolging tot invordering van de rechten of boeten en bijbehoren is een
+## Art. 23.2
+
+[1 De eerste akte van vervolging tot invordering van de rechten of boeten en bijbehoren is een
  dwangschrift.
    Het wordt door de met de invordering belaste ontvanger uitgevaardigd; het wordt geviseerd en uitvoerbaar
  verklaard door de bevoegde adviseur-generaal van de administratie belast met de vestiging van de rechten
@@ -135,7 +144,9 @@ Pagina 6 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 76, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 23.4.[1 Voor de invordering van de rechten bedoeld in dit Wetboek, evenals van de [3
+## Art. 23.4
+
+[1 Voor de invordering van de rechten bedoeld in dit Wetboek, evenals van de [3
  nalatigheidsinteresten]3 en kosten, heeft de Schatkist een algemeen voorrecht op alle roerende goederen van de
  schuldenaar en een wettelijke hypotheek op al zijn onroerende goederen. Het voorrecht neemt rang onmiddellijk
  na deze vermeld in de artikelen 19 en 20 van de Wet van 16 december 1851 en deze in artikel 23 van [2 het
@@ -149,7 +160,6 @@ Pagina 6 van 69 Copyright Belgisch S taatsblad 19-03-2026
  hetzij van een provisionele storting, hetzij van een borgstelling, voor het geheel of een deel van de door het
  dwangschrift gevorderde sommen. Het bevel is uitvoerbaar niettegenstaande beroep.
    Ingeval het verzet tegen dwangschrift verworpen werd, kan geen beroep tegen de rechterlijke beslissing geldig
-Pagina 7 van 69 Copyright Belgisch S taatsblad 19-03-2026
  aangetekend worden alvorens het bedrag der verschuldigde sommen geconsigneerd werd.]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 77, 039; Inwerkingtreding : 01-01-2020>
@@ -256,7 +266,6 @@ Pagina 7 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 45
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
-Pagina 8 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 46
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
@@ -392,7 +401,6 @@ Pagina 8 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 79
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
-Pagina 9 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 80
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
@@ -528,7 +536,6 @@ Pagina 9 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 112/2
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
-Pagina 10 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 112/3
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
@@ -579,7 +586,9 @@ Pagina 10 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2021-01-26/12, art. 129, 044; Inwerkingtreding : 20-02-2021>
 
-  Art. 120.<W 1993-12-24/33, art. 35, Inwerkingtreding : 01-01-1994> De hiernavolgende verrichtingen die in
+## Art. 120
+
+<W 1993-12-24/33, art. 35, Inwerkingtreding : 01-01-1994> De hiernavolgende verrichtingen die in
  België worden aangegaan of uitgevoerd zijn aan de taks op de beursverrichtingen onderworpen, wanneer zij
  Belgische of vreemde openbare fondsen tot voorwerp hebben :
   1° elke verkoop, elke aankoop en, meer algemeen, elke afstand en elke verwerving onder bezwarende titel;
@@ -595,7 +604,9 @@ Pagina 10 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2016-12-25/01, art. 122, 021; Inwerkingtreding : 01-01-2017>
 
-   Art. 120bis.[1 Voor de toepassing van deze titel wordt verstaan :
+## Art. 120bis
+
+[1 Voor de toepassing van deze titel wordt verstaan :
    1° onder instelling voor collectieve belegging :
    - een gemeenschappelijk beleggingsfonds of een beleggingsvennootschap als bedoeld in deel II van de wet van
  3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van
@@ -609,7 +620,6 @@ Pagina 10 van 69 Copyright Belgisch S taatsblad 19-03-2026
  beleggingsinstelling in de zin van Richtlijn 2011/61/EU van het Europees Parlement en de Raad van 8 juni 2011
  inzake beheerders van alternatieve beleggingsinstellingen en tot wijziging van de Richtlijnen 2003/41/EG en
  2009/65/EG en van de Verordeningen (EG) nr. 1060/2009 en (EU) nr. 1095/2010, en die als zodanig
-Pagina 11 van 69 Copyright Belgisch S taatsblad 19-03-2026
  gereglementeerd is en voorwerp is van een inschrijving, aanmelding of notificatie bij de bevoegde autoriteit van
  een andere lidstaat van de EER;
    2° onder gereglementeerde vastgoedvennootschap : enigerlei openbare of institutionele gereglementeerde
@@ -621,7 +631,9 @@ Pagina 11 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2017-12-25/03, art. 21, 028; Inwerkingtreding : 01-01-2018>
 
-  Art. 121.<W 1993-12-24/33, art. 37, Inwerkingtreding : 01-01-1994> § 1. Voor de in artikel 120, 1°, vermelde
+## Art. 121
+
+<W 1993-12-24/33, art. 37, Inwerkingtreding : 01-01-1994> § 1. Voor de in artikel 120, 1°, vermelde
  verrichtingen, wordt het tarief van de taks vastgesteld:
   1° op [5 1,20 per duizend]5, indien de verrichting slaat op effecten van de Belgische openbare schuld in het
  algemeen; effecten van de openbare schuld van buitenlandse Staten of leningen uitgegeven door de
@@ -648,7 +660,9 @@ Pagina 11 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (5)<W 2017-12-25/01, art. 132, 027; Inwerkingtreding : 08-01-2018>
   (6)<W 2017-12-25/03, art. 22, 028; Inwerkingtreding : 01-01-2018>
 
-  Art. 122.<W 1993-12-24/33, art. 38, Inwerkingtreding : 01-01-1994>
+## Art. 122
+
+<W 1993-12-24/33, art. 38, Inwerkingtreding : 01-01-1994>
   [...] <Verdeling in paragrafen afgeschaft bij W 2004-12-27/30, art. 346, Inwerkingtreding : 15-07-2004>
   Wat de verrichtingen betreft vermeld:
   1° onder artikel 120, 1°, is een taks van [1 [4 1,20, 3,50 per duizend]4 of 1,32 pct.]2]1 volgens het geval,
@@ -663,7 +677,9 @@ Pagina 11 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (3)<W 2014-05-12/18, art. 101, 015; Inwerkingtreding : 16-07-2014 (KB 2014-07-13/01, art. 33)>>
   (4)<W 2017-12-25/01, art. 133, 027; Inwerkingtreding : 08-01-2018>
 
-  Art. 123.<W 1993-12-24/33, art. 39, Inwerkingtreding : 01-01-1994> De vorderbare taks wordt berekend:
+## Art. 123
+
+<W 1993-12-24/33, art. 39, Inwerkingtreding : 01-01-1994> De vorderbare taks wordt berekend:
   1° [wat betreft de aankopen of verwervingen, op de sommen door de koper te betalen, het loon van de
  makelaar niet inbegrepen;] <W 2004-12-27/30, art. 347, Inwerkingtreding : 15-07-2004>
   2° wat aangaat de verkopen of afstanden, op de door de verkoper of afstanddoener te ontvangen som,
@@ -677,12 +693,13 @@ Pagina 11 van 69 Copyright Belgisch S taatsblad 19-03-2026
  het Europees Parlement en de Raad van 13 juli 2009 tot coördinatie van de wettelijke en bestuursrechtelijke
  bepalingen betreffende bepaalde instellingen voor collectieve belegging in effecten;
    b) een collectieve beleggingsinstelling gevestigd buiten het grondgebied waarop het Verdrag betreffende de
-Pagina 12 van 69 Copyright Belgisch S taatsblad 19-03-2026
  werking van de Europese Unie krachtens zijn artikel 355 van toepassing is.]1
   ----------
   (1)<W 2021-02-07/01, art. 29, 046; Inwerkingtreding : 01-03-2021>
 
-  Art. 124.<W 2005-04-28/37, art. 2, Inwerkingtreding : 31-12-2004> Op elk van de verrichtingen waarop
+## Art. 124
+
+<W 2005-04-28/37, art. 2, Inwerkingtreding : 31-12-2004> Op elk van de verrichtingen waarop
  overeenkomstig artikel 122 afzonderlijke taks wordt geheven, mag geen taks worden geheven ten belope van
  een bedrag van meer dan [3 1 300 euro]3, behalve wat betreft [1 de verrichtingen bedoeld in artikel 121, § 1,
  eerste lid, 2°, [2 voor welke verrichtingen dat bedrag op [3 1 600 euro]3 wordt gebracht, en voor de
@@ -693,7 +710,9 @@ Pagina 12 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2014-12-19/07, art. 101, 016; Inwerkingtreding : 01-01-2015>
   (3)<W 2016-12-25/01, art. 124, 021; Inwerkingtreding : 01-01-2017>
 
-  Art. 125.[1 § 1. De taks is betaalbaar uiterlijk de laatste werkdag :
+## Art. 125
+
+[1 § 1. De taks is betaalbaar uiterlijk de laatste werkdag :
    1° van de tweede maand die volgt op die waarin de verrichting werd aangegaan of uitgevoerd, wanneer de
  ordergever de belastingschuldige is;
    2° van de maand die volgt op die waarin de verrichting werd aangegaan of uitgevoerd, in de andere gevallen.
@@ -715,7 +734,9 @@ Pagina 12 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2022-11-20/01, art. 20, 053; Inwerkingtreding : 01-01-2023>
   (3)<W 2026-02-10/05, art. 5, 067; Inwerkingtreding : 09-03-2026>
 
-   Art. 126/1.<Ingevoegd bij W 1947-08-13/02, art. 50, Inwerkingtreding : 27-09-1947> Zijn van de taks
+## Art. 126/1
+
+<Ingevoegd bij W 1947-08-13/02, art. 50, Inwerkingtreding : 27-09-1947> Zijn van de taks
  vrijgesteld:
    1° de verrichtingen waarin geen tussenpersoon van beroep optreedt of een overeenkomst sluit hetzij voor
  rekening van een der partijen, hetzij voor zijn eigen rekening;
@@ -743,7 +764,6 @@ Pagina 12 van 69 Copyright Belgisch S taatsblad 19-03-2026
  Gemeenschap gehechte Protocol betreffende de procedure bij buitensporige tekorten;]10
    6° [10 de verrichtingen met als voorwerp effecten uitgegeven door de Belgische Staat of door een nationale of
  federale entiteit van een lidstaat van de Europese Economische Ruimte, uitgedrukt in euro of in de munt van een
-Pagina 13 van 69 Copyright Belgisch S taatsblad 19-03-2026
  van deze lidstaten, en bestaande uit:
     a) schatkistcertificaten; of
     b) lineaire obligaties of effecten met een looptijd van ten minste één jaar;]10
@@ -781,7 +801,9 @@ Pagina 13 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (9)<W 2023-12-22/05, art. 2, 057; Inwerkingtreding : 08-01-2024>
    (10)<W 2026-02-10/05, art. 6, 067; Inwerkingtreding : 09-03-2026>
 
-  Art. 126/2.<Ingevoegd bij W 1947-08-13/02, art. 50, Inwerkingtreding : 27-09-1947> De tussenpersoon van
+## Art. 126/2
+
+<Ingevoegd bij W 1947-08-13/02, art. 50, Inwerkingtreding : 27-09-1947> De tussenpersoon van
  beroep zijn persoonlijk gehouden tot de betaling der rechten op de verrichtingen welke zij hetzij voor rekening
  van derden, hetzij voor hun eigen rekening doen.
   [1 Wanneer evenwel de tussenpersoon van beroep in het buitenland gevestigd is, wordt de ordergever
@@ -813,8 +835,9 @@ Pagina 13 van 69 Copyright Belgisch S taatsblad 19-03-2026
  het soort van verrichtingen, het bedrag of de waarde van de verrichtingen en het bedrag van de verschuldigde
  taks.
 
-Pagina 14 van 69 Copyright Belgisch S taatsblad 19-03-2026
-  Art. 128.<W 2001-12-10/33, art. 29, Inwerkingtreding : 01-01-2002> Het borderel bepaald bij artikel 127 wordt
+## Art. 128
+
+<W 2001-12-10/33, art. 29, Inwerkingtreding : 01-01-2002> Het borderel bepaald bij artikel 127 wordt
  genummerd volgens één of meerdere series van doorlopende nummerreeksen en opgemaakt in tweevoud.
   Het duplicaat van het borderel kan evenwel worden vervangen door een van dag tot dag opgestelde listing,
  genummerd volgens een doorlopende nummerreeks, waarin het volgende wordt vermeld:
@@ -845,7 +868,9 @@ Pagina 14 van 69 Copyright Belgisch S taatsblad 19-03-2026
 [artikel nummer afgeschaft bij hernummering tot art. 129] <W 2001-12-10/31, art. 31,
  Inwerkingtreding : 01-01-2002>
 
-  Art. 130/1.<W 2001-12-10/31, art. 32, Inwerkingtreding : 01-01-2002> De duplicaten van de borderellen of
+## Art. 130/1
+
+<W 2001-12-10/31, art. 32, Inwerkingtreding : 01-01-2002> De duplicaten van de borderellen of
  van de listings die ze vervangen evenals de borderellen betreffende de verrichtingen welke de tussenpersonen
  voor hun eigen rekening doen, moeten worden bewaard gedurende zes jaar te rekenen vanaf hun datum.
   Bij beëindiging van de zaken, mogen die stukken worden vernield, mits voorafgaande machtiging door de [1
@@ -855,7 +880,9 @@ Pagina 14 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2016-04-27/04, art. 86, 018; Inwerkingtreding : 16-05-2016>
 
-   Art. 130/2.<W 2001-12-10/31, art. 33, Inwerkingtreding : 01-01-2002> Op straf van een boete van 250 tot
+## Art. 130/2
+
+<W 2001-12-10/31, art. 33, Inwerkingtreding : 01-01-2002> Op straf van een boete van 250 tot
  2500 EUR per overtreding, zijn de tussenpersonen gehouden op elke vordering [2 van de ambtenaren]2 van [1
  administratie belast met de vestiging of de inning en de invordering van de taksen bedoeld in Boek II]1, registratie
  en domeinen [2 ...]2, zonder verplaatsing inzage te verlenen van de duplicaten van de borderellen of van de
@@ -889,7 +916,6 @@ Pagina 14 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 [opgeheven] <KB63 1939-11-28/35, art. 10>
 
-Pagina 15 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 136
 
 [De taks wordt terugbetaald:
@@ -963,11 +989,12 @@ Pagina 15 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
   Titel II. [1 Taks op de effectenrekeningen]1
   ----------
-Pagina 16 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2018-02-07/14, art. 2, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-   Art. 151.[1 De natuurlijke persoon die tijdens de referentieperiode titularis is van één of meerdere
+## Art. 151
+
+[1 De natuurlijke persoon die tijdens de referentieperiode titularis is van één of meerdere
  effectenrekeningen in België of in het buitenland, is over zijn aandeel in de gemiddelde waarde van de belastbare
  financiële instrumenten op die rekeningen onderworpen aan een taks overeenkomstig de bepalingen van deze
  titel.
@@ -978,7 +1005,9 @@ Pagina 16 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2018-02-07/14, art. 3, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-   Art. 152.[1 Voor de toepassing van deze titel wordt verstaan onder :
+## Art. 152
+
+[1 Voor de toepassing van deze titel wordt verstaan onder :
     1° effectenrekening :
     a) wat de rijksinwoners betreft, de effectenrekeningen gehouden bij een of meerdere tussenpersonen,
  ongeacht waar de tussenpersoon opgericht of gevestigd is, en wat de niet-inwoners betreft, de
@@ -1032,7 +1061,6 @@ Pagina 16 van 69 Copyright Belgisch S taatsblad 19-03-2026
     a) voor beursgenoteerde financiële instrumenten, de slotkoers van het financieel instrument. Wanneer er op
  een van de referentietijdstippen geen notering is, wordt de slotkoers genomen op de eerste voorgaande dag
  waarop er een notering was;
-Pagina 17 van 69 Copyright Belgisch S taatsblad 19-03-2026
     b) voor niet-beursgenoteerde gemeenschappelijke beleggingsfondsen of beleggingsvennootschappen, de op
  het referentietijdstip laatst publiekelijk beschikbare netto-inventariswaarde;
     c) voor andere niet beursgenoteerde financiële instrumenten:
@@ -1049,12 +1077,16 @@ Pagina 17 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2018-02-07/14, art. 4, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-  Art. 153.[1 Het tarief van de taks wordt vastgesteld op 0,15 pct.]1
+## Art. 153
+
+[1 Het tarief van de taks wordt vastgesteld op 0,15 pct.]1
   ----------
   (1)<W 2018-02-07/14, art. 5, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-   Art. 154.[1 § 1. De gemiddelde waarde bedoeld in artikel 151 wordt als volgt berekend :
+## Art. 154
+
+[1 § 1. De gemiddelde waarde bedoeld in artikel 151 wordt als volgt berekend :
     1° doorheen de referentieperiode vormt de laatste dag van elke driemaandelijkse periode een referentietijdstip;
     2° op elk referentietijdstip wordt een staat opgemaakt van de waarde van de belastbare financiële
  instrumenten ingeschreven op de effectenrekeningen;
@@ -1090,7 +1122,9 @@ Pagina 17 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2018-02-07/14, art. 6, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-   Art. 155.[1 De Belgische tussenpersonen maken op elk referentietijdstip de in artikel 154 bedoelde staat op voor
+## Art. 155
+
+[1 De Belgische tussenpersonen maken op elk referentietijdstip de in artikel 154 bedoelde staat op voor
  iedere titularis die de volgende gegevens vermeldt :
    1° de naam en het adres van de titularis;
    2° het rekeningnummer van de titularis;
@@ -1101,7 +1135,6 @@ Pagina 17 van 69 Copyright Belgisch S taatsblad 19-03-2026
  behalve in geval van overdracht als bedoeld in artikel 154, § 2, derde lid, op het einde van elke referentieperiode
  een overzicht op met daarin vermelding van de in artikel 154 bedoelde gemiddelde waarde, de uiteindelijk
  verschuldigde taks, het tarief en in voorkomend geval de reeds ingehouden taks. Dit overzicht wordt
-Pagina 18 van 69 Copyright Belgisch S taatsblad 19-03-2026
  medegedeeld aan de titularis uiterlijk op de laatste dag van de maand die volgt op het einde van de
  referentieperiode.
    De Belgische tussenpersoon stelt in het overzicht als bedoeld in het tweede lid de mogelijkheid tot inhouding
@@ -1110,12 +1143,16 @@ Pagina 18 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2018-02-07/14, art. 7, 029; Inwerkingtreding : 10-03-2018>
 
-  Art. 156.[1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
+## Art. 156
+
+[1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
   ----------
   (1)<W 2018-02-07/14, art. 8, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS
  van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-  Art. 157.[1 Behalve in geval van overdracht bedoeld in artikel 154, § 2, derde lid, gaat de Belgische
+## Art. 157
+
+[1 Behalve in geval van overdracht bedoeld in artikel 154, § 2, derde lid, gaat de Belgische
  tussenpersoon over tot een bevrijdende inhouding, aangifte en betaling van de taks indien :
    1° het aandeel van de titularis op de effectenrekeningen bedoeld in artikel 152, 1°, a) gehouden bij de Belgische
  tussenpersoon gelijk is aan of meer bedraagt dan het in artikel 151, tweede lid, bepaalde bedrag; of indien
@@ -1177,7 +1214,6 @@ Pagina 18 van 69 Copyright Belgisch S taatsblad 19-03-2026
    De taks wordt betaald op de in het eerste lid bedoelde dag door storting of overschrijving op de rekening van
  het bevoegde kantoor met vermelding van de heffingsbasis. De Koning bepaalt de wijze waarop de schuldenaars
  van de taks aangifte doen evenals het bevoegde kantoor.
-Pagina 19 van 69 Copyright Belgisch S taatsblad 19-03-2026
    § 2. Niet aangifte, laattijdige, onnauwkeurige of onvolledige aangifte, alsook de laattijdige betaling, worden
  bestraft met een boete die wordt vastgelegd naar gelang van de aard en de ernst van de overtreding, volgens
  een schaal waarvan de trappen door de Koning worden vastgesteld en gaande van 10 pct. tot 200 pct. van de
@@ -1222,7 +1258,9 @@ Pagina 19 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<Ingevoegd bij W 2018-02-07/14, art. 13, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van
  17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-   Art. 158/5.[1 § 1. De taks wordt teruggegeven wanneer deze een hogere som vertegenwoordigt dan die welke
+## Art. 158/5
+
+[1 § 1. De taks wordt teruggegeven wanneer deze een hogere som vertegenwoordigt dan die welke
  wettelijk verschuldigd was op de laatste dag van de referentieperiode. De Koning bepaalt de nadere regels en het
  bevoegde kantoor voor de vraag tot teruggave.
    § 2. Indien het aandeel in de gemiddelde waarde van de belastbare financiële instrumenten op
@@ -1248,7 +1286,6 @@ Pagina 19 van 69 Copyright Belgisch S taatsblad 19-03-2026
  van een effectenrekening, worden deze in geval van teruggave gelijkgesteld met een titularis wanneer het
  aangerekende deel gelijk is aan of meer bedraagt dan het in artikel 151 bedoelde bedrag.
    Wanneer de in het derde lid bedoelde teruggave aanleiding geeft tot een aanrekening van het deel dat het
-Pagina 20 van 69 Copyright Belgisch S taatsblad 19-03-2026
  wettelijke of contractuele aandeel van de titularis overstijgt, aan een of meerdere medegerechtigden in de
  onverdeeldheid, aan de vruchtgebruiker of aan de blote eigenaar, staat elke medegerechtigde in de
  onverdeeldheid, elke vruchtgebruiker of elke blote eigenaar, alsook de titularis, hoofdelijk in voor de taks die
@@ -1293,7 +1330,9 @@ Pagina 20 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2022-03-28/01, art. 28, 050; Inwerkingtreding : 01-04-2022>
 
-   Art. 159.[1 Voor de toepassing van deze titel wordt verstaan onder:
+## Art. 159
+
+[1 Voor de toepassing van deze titel wordt verstaan onder:
     1° luchthaven: een burgerlijk luchthaventerrein bedoeld in artikel 43 van het koninklijk besluit van 15 maart
  1954 tot regeling der luchtvaart;
     2° luchthavenexploitant: rechtspersoon of natuurlijke persoon die de luchthaven als onderneming drijft, of bij
@@ -1315,10 +1354,11 @@ Pagina 20 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2022-03-28/01, art. 29, 050; Inwerkingtreding : 01-04-2022>
 
-  Art. 160.[1 § 1. Een taks op de inscheping van een luchtvaartuig wordt geheven ter zake van het vertrek van
+## Art. 160
+
+[1 § 1. Een taks op de inscheping van een luchtvaartuig wordt geheven ter zake van het vertrek van
  een passagier vanaf een in België gelegen luchthaven.
    Als vertrek van een passagier vanaf een in België gelegen luchthaven wordt ook aangemerkt, het vertrek van
-Pagina 21 van 69 Copyright Belgisch S taatsblad 19-03-2026
  een passagier per helikopter vanaf een andere in België gelegen plaats dan een luchthaven.
     Als vertrek van een passagier wordt niet aangemerkt, het vertrek vanaf een luchthaven indien:
     1° dat vertrek als onderdeel van één vervoerovereenkomst plaatsvindt aansluitend op de aankomst van de
@@ -1339,7 +1379,9 @@ Pagina 21 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2022-03-28/01, art. 30, 050; Inwerkingtreding : 01-04-2022>
 
-   Art. 161.[1 De belastingschuldige is de luchtvaart-maatschappij.
+## Art. 161
+
+[1 De belastingschuldige is de luchtvaart-maatschappij.
     De niet in België gevestigde luchtvaartmaatschappijen die hun hoofdkantoor hebben buiten de Europese
  Economische Ruimte, moeten door de minister van Financiën of zijn gemachtigde een in België gevestigde
  aansprakelijke vertegenwoordiger laten erkennen.
@@ -1361,7 +1403,9 @@ Pagina 21 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2022-03-28/01, art. 31, 050; Inwerkingtreding : 01-04-2022>
 
-  Art. 162.[1 De taks bedraagt:
+## Art. 162
+
+[1 De taks bedraagt:
    1° 10 euro voor een passagier met een bestemming die niet verder gelegen is dan 500 km in vogelvlucht te
  rekenen vanaf het ARP van de luchthaven met het hoogste jaarlijkse aantal passagiers van het land;
    2° [2 5 euro voor een passagier met een bestemming verder dan onder 1°.]2
@@ -1370,11 +1414,15 @@ Pagina 21 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2022-03-28/01, art. 32, 050; Inwerkingtreding : 01-04-2022>
   (2)<W 2025-07-18/06, art. 2, 063; Inwerkingtreding : 29-07-2025>
 
-  Art. 163.[1 De taks wordt verschuldigd op het tijdstip waarop de passagier met een luchtvaartuig vertrekt.]1
+## Art. 163
+
+[1 De taks wordt verschuldigd op het tijdstip waarop de passagier met een luchtvaartuig vertrekt.]1
   ----------
   (1)<W 2022-03-28/01, art. 33, 050; Inwerkingtreding : 01-04-2022>
 
-  Art. 164.[1 Worden van de taks vrijgesteld:
+## Art. 164
+
+[1 Worden van de taks vrijgesteld:
    1° de passagiers die als gevolg van technische incidenten, ongunstig weer of enig ander geval van overmacht,
  een onderbroken vlucht hernemen;
    2° de passagiers van een luchtvaartuig dat uitsluitend voor medische of humanitaire doeleinden wordt
@@ -1382,11 +1430,12 @@ Pagina 21 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2022-03-28/01, art. 34, 050; Inwerkingtreding : 01-04-2022>
 
-  Art. 165.[1 Uiterlijk op de laatste werkdag van de maand volgend op het kalenderkwartaal waarin de taks
+## Art. 165
+
+[1 Uiterlijk op de laatste werkdag van de maand volgend op het kalenderkwartaal waarin de taks
  verschuldigd wordt, verstrekt de luchthavenexploitant aan de bevoegde dienst de door de Koning bepaalde
  nodige gegevens om de juiste heffing van de taks te verzekeren.
    Elke overtreding van deze bepaling wordt gestraft met een boete die wordt vastgelegd naar gelang van de aard
-Pagina 22 van 69 Copyright Belgisch S taatsblad 19-03-2026
  en de ernst van de overtreding, volgens een schaal waarvan de trappen door de Koning worden vastgesteld en
  gaande van 250 euro tot 25 000 euro.
     De Koning kan voor de juiste heffing van de taks nuttige en noodzakelijke elementen bepalen, waaronder voor
@@ -1395,7 +1444,9 @@ Pagina 22 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2022-03-28/01, art. 35, 050; Inwerkingtreding : 01-04-2022>
 
-   Art. 166.[1 § 1. De taks wordt betaald uiterlijk op de laatste werkdag van de maand volgend op die waarin de
+## Art. 166
+
+[1 § 1. De taks wordt betaald uiterlijk op de laatste werkdag van de maand volgend op die waarin de
  taks verschuldigd wordt.
    [3 ...]3
     Op de dag van de betaling wordt door de belastingschuldige bij de bevoegde dienst een aangifte ingediend die
@@ -1449,12 +1500,13 @@ Pagina 22 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 172.1.
 
 ## Art. 173.
-Pagina 23 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Titel V. [Jaarlijkse taks op de verzekeringsverrichtingen] <Opschrift vervangen bij W 2005-12-27/30, art. 133,
  Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006 vervallen>
  Oorspronkelijke titel XII vernummerd tot titel V bij W 2006-12-19/33, art.42, Inwerkingtreding : 01-01-2007>
 
-   Art. 173.1.[1 art. 173 wordt art. 173.1]1 <W 2005-12-27/30, art. 134, Inwerkingtreding : van toepassing op de
+## Art. 173.1
+
+[1 art. 173 wordt art. 173.1]1 <W 2005-12-27/30, art. 134, Inwerkingtreding : van toepassing op de
  premies en bijdragen die vanaf 1 januari 2006 vervallen> De verzekeringsverrichtingen zijn onderworpen aan een
  jaarlijkse taks wanneer het risico in België is gelegen.
    Het risico van de verzekeringsverrichting wordt geacht in België gelegen te zijn indien de verzekeringnemer zijn
@@ -1495,7 +1547,9 @@ Pagina 23 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 [Art. 175/1 geworden.] <W 1953-07-27/40, art. 16.>
 
-   Art. 175/1.<W 2003-04-28/36, art. 99, Inwerkingtreding : van toepassing op de premies die vervallen of
+## Art. 175/1
+
+<W 2003-04-28/36, art. 99, Inwerkingtreding : van toepassing op de premies die vervallen of
  worden betaald vanaf 1 januari 2004> § 1. Het tarief van de taks bedraagt 9,25 %.
    § 2. Dit tarief wordt verminderd tot 4,40 % wat betreft:
    1° de verzekeringen in geval van leven;
@@ -1516,7 +1570,6 @@ Pagina 23 van 69 Copyright Belgisch S taatsblad 19-03-2026
  de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening;] <W
  2006-12-27/32, art. 333, 1°, Inwerkingtreding : 01-01-2007>
    6° de individuele voortzetting van pensioentoezeggingen als bedoeld in artikel 33 van de wet van 28 april 2003
-Pagina 24 van 69 Copyright Belgisch S taatsblad 19-03-2026
  betreffende de aanvullende pensioenen en het belastingstelsel van die pensioenen en van sommige aanvullende
  voordelen inzake sociale zekerheid [2 en de pensioenovereenkomsten als bedoeld in titel 2 van de wet van 6
  december 2018 tot instelling van een vrij aanvullend pensioen voor de werknemers en houdende diverse
@@ -1573,7 +1626,9 @@ Pagina 24 van 69 Copyright Belgisch S taatsblad 19-03-2026
   Worden met de in het eerste lid, 2°, derde gedachtenstreepje, bedoelde motorvoertuigen gelijkgesteld, de
  aanhangwagens waarvan de maximaal toegelaten massa meer dan 3,5 ton bedraagt en minder dan 12 ton.
 
-   Art. 175/3.<Ingevoegd bij W 2005-12-27/30, art. 137, Inwerkingtreding : van toepassing op de premies en
+## Art. 175/3
+
+<Ingevoegd bij W 2005-12-27/30, art. 137, Inwerkingtreding : van toepassing op de premies en
  bijdragen die vanaf 1 januari 2006 vervallen> De taks wordt verminderd tot [1 2 pct.]1 voor de verrichtingen van
  levensverzekeringen, ook indien deze met een beleggingsfonds verbonden zijn, en de vestigingen van lijfrenten
  of tijdelijke renten, wanneer ze worden aangegaan door natuurlijke personen.
@@ -1584,7 +1639,6 @@ Pagina 24 van 69 Copyright Belgisch S taatsblad 19-03-2026
    [2 In afwijking van het eerste lid wordt de taks verminderd tot 1,10 pct. voor verzekeringsovereenkomsten die
  beantwoorden aan de criteria en voorwaarden bepaald in de wet van 26 december 2013 houdende diverse
  bepalingen inzake de thematische volksleningen.]2
-Pagina 25 van 69 Copyright Belgisch S taatsblad 19-03-2026
   Het begrip levensverzekering duidt op de personenverzekeringen tot uitkering van een vast bedrag, waarbij het
  zich voordoen van het verzekerde voorval alleen afhankelijk is van de menselijke levensduur.
   ----------
@@ -1592,7 +1646,9 @@ Pagina 25 van 69 Copyright Belgisch S taatsblad 19-03-2026
  vanaf 1 januari 2013 worden betaald.>
   (2)<W 2013-12-26/07, art. 25, 013; Inwerkingtreding : 01-01-2014>
 
-  Art. 176/1.<Oorspronkelijk artikel 176 hernummerd tot Art. 176/1 bij KB 63 1939-11-28/35, art. 9> <W 200512-27/30, art. 138, Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006
+## Art. 176/1
+
+<Oorspronkelijk artikel 176 hernummerd tot Art. 176/1 bij KB 63 1939-11-28/35, art. 9> <W 200512-27/30, art. 138, Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006
  vervallen> De invorderbare taks wordt berekend op [1 het bedrag van de premies, persoonlijke bijdragen en
  werkgeversbijdragen, alsmede op de vergoeding voor met de verzekering samenhangende diensten wanneer die
  vrijgesteld zijn van de belasting over de toegevoegde waarde overeenkomstig artikel 44, § 3, 4°, van het
@@ -1602,7 +1658,9 @@ Pagina 25 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2023-12-28/01, art. 2, 058; Inwerkingtreding : 08-01-2024>
 
-   Art. 176/2.<[2 ]2 <Deel van oorspronkelijk art. 176, hernummerd en gewijzigd bij KB63 1939-11-28/35, art. 9>
+## Art. 176/2
+
+<[2 ]2 <Deel van oorspronkelijk art. 176, hernummerd en gewijzigd bij KB63 1939-11-28/35, art. 9>
  [Zijn alleen van de taks vrijgesteld]: <KB63 1939-11-28/35, art. 9>
     1° [de kredietverzekeringscontracten tegen commerciële risico's, tegen landenrisico's of tegen deze beide
  risico's;] <W 2009-03-27/37, art. 23, Inwerkingtreding : van toepassing op de premies die vervallen vanaf 7 april
@@ -1649,7 +1707,6 @@ Pagina 25 van 69 Copyright Belgisch S taatsblad 19-03-2026
     7° [de diensten die door de ziekenfondsen, landsbonden en maatschappijen van onderlinge bijstand, andere
  dan deze bedoeld in artikelen 43bis, § 5, en 70, §§ 6, 7 en 8 van de wet van 6 augustus 1990 betreffende de
  ziekenfondsen en landsbonden van ziekenfondsen, voor hun leden worden ingericht indien ze worden erkend
-Pagina 26 van 69 Copyright Belgisch S taatsblad 19-03-2026
  overeenkomstig de bepalingen van de zelfde wet;] <W 2010-04-18/19, art. 2, a), Inwerkingtreding : 01-072011>
     [7°bis met uitzondering van de beroepsgebonden ziekteverzekeringsovereenkomst zoals bedoeld in artikel
  138bis-1, § 2 van de wet van 25 juni 1992 op de landverzekeringsovereenkomst, de ziektekostenverzekeringen
@@ -1715,7 +1772,6 @@ Pagina 26 van 69 Copyright Belgisch S taatsblad 19-03-2026
     [Lid 2 opgeheven] <W 2005-12-27/30, art. 139, g), Inwerkingtreding : van toepassing op de premies en
  bijdragen die vanaf 1 januari 2006 vervallen>
     [Lid 3 opgeheven] <W 2005-12-27/30, art. 139, h), Inwerkingtreding : van toepassing op de premies en
-Pagina 27 van 69 Copyright Belgisch S taatsblad 19-03-2026
  bijdragen die vanaf 1 januari 2006 vervallen>
 
   ----------
@@ -1731,7 +1787,9 @@ Pagina 27 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (7)<W 2019-05-08/14, art. 20, 043; Inwerkingtreding : 01-09-2020>
   (8)<W 2025-12-19/35, art. 15, 065; Inwerkingtreding : 10-01-2026>
 
-   Art. 177.De jaarlijkse taks op de [3 verzekeringsverrichtingen]3 wordt [1 verschuldigd]1:
+## Art. 177
+
+De jaarlijkse taks op de [3 verzekeringsverrichtingen]3 wordt [1 verschuldigd]1:
    1° [door de vennootschappen, kassen, verenigingen, verzekeringsondernemingen, pensioeninstellingen,
  instellingen voor bedrijfspensioenvoorziening en de rechtspersonen belast met de uitvoering van de
  solidariteitstoezegging in het kader van de pensioenstelsels bedoeld in de wet van 28 april 2003 betreffende de
@@ -1761,7 +1819,9 @@ Pagina 27 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2024-05-12/11, art. 81, 060; Inwerkingtreding : 08-06-2024>
   (3)<W 2026-02-10/05, art. 11, 067; Inwerkingtreding : 09-03-2026>
 
-  Art. 178.[2 ...]2
+## Art. 178
+
+[2 ...]2
   De niet in België gevestigde verzekeringsondernemingen die hun hoofdkantoor hebben buiten de Europese
  Economische Ruimte moeten, vooraleer verzekeringsverrichtingen in België uit te oefenen, door of vanwege de
  Minister van Financiën een in België gevestigde aansprakelijke vertegenwoordiger laten erkennen. Deze
@@ -1779,10 +1839,11 @@ Pagina 27 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2016-04-27/04, art. 89, 018; Inwerkingtreding : 16-05-2016>
   (2)<W 2021-06-27/02, art. 100, 047; Inwerkingtreding : 10-07-2021>
 
-  Art. 179/1.<W 1992-12-28/32, art. 113, Inwerkingtreding : 01-07-1995> [Wat de in [3 artikel 177, 1°, 2° en 2°
+## Art. 179/1
+
+<W 1992-12-28/32, art. 113, Inwerkingtreding : 01-07-1995> [Wat de in [3 artikel 177, 1°, 2° en 2°
  bis]3, bedoelde belastingschuldigen betreft, is de jaarlijkse taks betaalbaar uiterlijk op de [1 twintigste]1 van de
  maand welke volgt op die waarin een premie, werkgeversbijdrage of persoonlijke bijdrage is vervallen.] <W 200512-27/30, art. 142, Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006
-Pagina 28 van 69 Copyright Belgisch S taatsblad 19-03-2026
  vervallen>
    Een voorschot op de jaarlijkse taks twintigsteverschuldigd in de maand januari, volgens de tarieven bepaald in
  de artikelen [1751, § 1,] en 1752, is betaalbaar uiterlijk op de 15de van de maand december die voorafgaat; dat
@@ -1820,7 +1881,9 @@ Pagina 28 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2023-12-28/01, art. 5, 058; Inwerkingtreding : 08-01-2024>
 
-   Art. 179/2.[1 § 1. De artikelen 1791 en 180 zijn van toepassing op de aansprakelijke vertegenwoordiger bedoeld
+## Art. 179/2
+
+[1 § 1. De artikelen 1791 en 180 zijn van toepassing op de aansprakelijke vertegenwoordiger bedoeld
  in artikel 178, eerste en tweede lid.
     De verzekeringsonderneming en zijn aansprakelijke vertegenwoordiger zijn hoofdelijk aansprakelijk voor de
  betaling van elke verschuldigde som met betrekking tot de belastbare verzekeringsverrichtingen.
@@ -1841,7 +1904,6 @@ Pagina 28 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 179/3
 
-<Ingevoegd bij W 2005-12-27/30, art. 144, Inwerkingtreding : van toepassing op de premies en
  bijdragen die vanaf 1 januari 2006 vervallen> De Belgische en buitenlandse verzekeringsondernemingen die de in
  artikel 1753 bedoelde verrichtingen van verzekeringen aan Belgische verzekeringnemers aanbieden, zijn verplicht
  op het einde van ieder jaar een staat op te stellen die, voor iedere verzekeringnemer, de volgende gegevens
@@ -1853,7 +1915,6 @@ Pagina 28 van 69 Copyright Belgisch S taatsblad 19-03-2026
   – de datum van betaling van de taks.
   De staat moet vóór 1 juni van het jaar volgend op dat waarop de staat betrekking heeft, worden ingediend op
  het bevoegde kantoor. Het model van de staat, de wijze van indiening en het bevoegde kantoor worden bij
-Pagina 29 van 69 Copyright Belgisch S taatsblad 19-03-2026
  koninklijk besluit vastgesteld.
   Wanneer de staat niet binnen de vastgestelde termijn werd ingediend, wordt een boete geheven van 12,50 euro
  per week vertraging. Iedere begonnen week wordt voor een gehele week gerekend.
@@ -1876,7 +1937,9 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 ## Art. 182.
 
-   Art. 183.[De Belgische verzekeraars, de pensioeninstellingen [, instellingen voor bedrijfspensioenvoorziening] en
+## Art. 183
+
+[De Belgische verzekeraars, de pensioeninstellingen [, instellingen voor bedrijfspensioenvoorziening] en
  de rechtspersonen belast met de uitvoering van de solidariteitstoezegging bedoeld in de wet van 28 april 2003
  betreffende de aanvullende pensioenen en het belastingstelsel van die pensioenen en van sommige aanvullende
  voordelen inzake sociale zekerheid alsmede de vertegenwoordigers in België van de vreemde verzekeraars,
@@ -1920,13 +1983,10 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 ## Art. 183ter
 
-<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> Het percentage van de
  taks bedraagt 9,25 pct.
 
-Pagina 30 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 183quater
 
-<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De invorderbare
  belasting wordt berekend op het totale bedrag van de sommen verdeeld als winstdeelnemingen voor het
  belastingjaar.
   [lid 2 opgeheven] <W 1999-01-20/32, art. 3, Inwerkingtreding : 01-01-1999>
@@ -1949,13 +2009,14 @@ Pagina 30 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 183sexies
 
-<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De jaarlijkse taks op
  winstdeelnemingen wordt gekweten door [de vennootschappen, kassen, verenigingen, pensioeninstellingen,
  instellingen voor bedrijfspensioenvoorziening] of verzekeringsondernemingen en alle andere verzekeraars, die in
  België hun hoofdinrichting, een agentschap, een bijhuis, een vertegenwoordiger of enige zetel voor hun
  verrichtingen hebben. <W 2006-12-27/32, art. 339, Inwerkingtreding : 01-01-2007>
 
-  Art. 183septies.<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De aansprakelijke
+## Art. 183septies
+
+<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De aansprakelijke
  vertegenwoordiger, die de vreemde verzekeraars ter utivoering van artikel 178, [1 eerste lid]1, moeten laten
  aannemen, moet zich persoonlijk en schriftelijk jegens de Staat verbinden om de bij de huidige titel bepaalde taks
  en de boeten die mochten verschuldigd zijn, te betalen.
@@ -1963,7 +2024,9 @@ Pagina 30 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2021-06-27/02, art. 101, 047; Inwerkingtreding : 10-07-2021>
 
-  Art. 183octies.<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De jaarlijkse taks is
+## Art. 183octies
+
+<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De jaarlijkse taks is
  betaalbaar binnen drie maanden te rekenen vanaf de datum van de beslissing tot verdeling van de
  winstdeelnemingen.
   [2 ...]2
@@ -1989,15 +2052,15 @@ Pagina 30 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 183decies
 
-<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De taks wordt naar
  behoren teruggegeven wanneer zij een hogere som vertegenwoordigt dan die welke wettelijk verschuldigd was
  op het ogenblik van de betaling.
   De Koning bepaalt de wijze en de voorwaarden volgens welke de terugbetaling geschiedt en bepaalt tevens,
  binnen de maximumgrens van twee jaar te rekenen van de dag waarop de vordering ontstaan is, de termijn
  binnen welke de terugbetaling moet worden gevraagd.
 
-  Art. 183undecies.<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> [De Belgische
-Pagina 31 van 69 Copyright Belgisch S taatsblad 19-03-2026
+## Art. 183undecies
+
+<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> [De Belgische
  verzekeringsondernemingen, de pensioeninstellingen, de instellingen voor bedrijfspensioenvoorziening en de
  vertegenwoordigers in België van de vreemde verzekeringsondernemingen] zijn gehouden hun repertoria,
  registers, boeken, polissen, contracten en alle andere stukken, zonder verplaatsing, mede te delen op elk
@@ -2056,7 +2119,6 @@ Pagina 31 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Indien de afkoopwaarden of het spaartegoed evenwel vóór deze datum wordt betaald of toegekend en de
  verzekeringnemer of de rekeninghouder 60 jaar of ouder is, is de taks opeisbaar op de dag waarop de
  afkoopwaarden of het spaartegoed worden betaald of toegekend.
-Pagina 32 van 69 Copyright Belgisch S taatsblad 19-03-2026
   § 3. Met de in § 2 vermelde levensverzekeringscontracten of spaarrekeningen afgesloten of geopend door een
  persoon die de leeftijd van 55 jaar of meer bereikt heeft, worden gelijkgesteld de contracten of de rekeningen die,
  zelfs bij het afsluiten of openen ervan, voorzien in een verhoging van de premies of betalingen vanaf de leeftijd
@@ -2067,7 +2129,9 @@ Pagina 32 van 69 Copyright Belgisch S taatsblad 19-03-2026
  verzekeringnemer of de rekeninghouder 60 jaar of ouder is, is de taks opeisbaar op de dag waarop de eerste
  betaling plaatsvindt.
 
-   Art. 185.<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. [1 ...]1
+## Art. 185
+
+<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. [1 ...]1
     § 2. [1 De taks wordt vastgesteld op 10 pct. :
     1° voor de theoretische afkoopwaarde, pensioenen, renten, kapitalen of afkoopwaarden van
  levensverzekeringscontracten;
@@ -2088,7 +2152,9 @@ Pagina 32 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2012-06-22/02, art. 78, 003; Inwerkingtreding : 30-09-2012 (zie KB 2012-09-27/01, art. 1>
    (2)<W 2014-12-19/07, art. 103, 016; Inwerkingtreding : 01-01-2015>
 
-   Art. 186.<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De opeisbare taks wordt berekend:
+## Art. 186
+
+<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De opeisbare taks wordt berekend:
    1° wat de levensverzekeringscontracten betreft waarvoor op de datum dat de verzekeringnemer de leeftijd van
  60 jaar bereikt heeft geen prestaties worden betaald of toegekend, op het bedrag van de theoretische
  afkoopwaarde vastgesteld op de dag waarop de verzekeringnemer de leeftijd van 60 jaar bereikt heeft. Onder
@@ -2125,7 +2191,6 @@ Pagina 32 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 <W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> De taks wordt betaald:
   1° wat de levensverzekeringscontracten betreft, door de genootschappen, kassen, verenigingen of
-Pagina 33 van 69 Copyright Belgisch S taatsblad 19-03-2026
  verzekeringsondernemingen;
   2° wat de spaarrekeningen betreft, door de instellingen of ondernemingen gemachtigd om spaarrekeningen te
  openen, vermeld in artikel 14515, eerste lid, van het Wetboek van de inkomstenbelastingen 1992.
@@ -2139,7 +2204,9 @@ Pagina 33 van 69 Copyright Belgisch S taatsblad 19-03-2026
   2° de levensverzekeringscontracten in zoverre ze ertoe strekken de aflossing of de wedersamenstelling van
  een hypothecaire lening te waarborgen.
 
-  Art. 187/3.<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De taks is betaalbaar uiterlijk op
+## Art. 187/3
+
+<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De taks is betaalbaar uiterlijk op
  de laatste werkdag van de maand die volgt op die waarin het belastbare feit zich heeft voorgedaan. [3 Ten laatste
  op de dag van de betaling wordt een opgave die onder andere de heffingsbasis laat kennen voorgelegd.]3
   [1 De vervroegde inning, bedoeld bij artikel 185, § 4, is betaalbaar uiterlijk op 30 september van elk der jaren
@@ -2185,14 +2252,15 @@ Pagina 33 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2026-02-10/05, art. 17, 067; Inwerkingtreding : 01-01-2028>
 
-   Art. 187/6.<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> De schuldenaars van de taks zijn
+## Art. 187/6
+
+<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> De schuldenaars van de taks zijn
  gehouden hun repertoria, registers, boeken, polissen, contracten en alle andere stukken zonder verplaatsing
  mede te delen op elk verzoek van de ambtenaren van [1 administratie belast met de vestiging of de inning en de
  invordering van de taksen bedoeld in Boek II]1 [2 ...]2.
    Elke weigering van mededeling wordt met een boete van [250 tot 2.500 EUR] gestraft. <KB 2000-07-20/64, art.
  2, 10, Inwerkingtreding : 01-01-2002, zelf gewijzigd bij KB %2001-07-13/50, art. 42, 5°, Inwerkingtreding : 0101-2002>
    ----------
-Pagina 34 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<W 2014-04-25/36, art. 87, 014; Inwerkingtreding : 16-05-2014>
   (2)<W 2016-04-27/04, art. 92, 018; Inwerkingtreding : 16-05-2016>
 
@@ -2251,7 +2319,6 @@ Pagina 34 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 200_VLAAMS_GEWEST.
 
 ## Art. 201/1.
-Pagina 35 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 201/2.
 
@@ -2259,7 +2326,9 @@ Pagina 35 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2021-02-17/05, art. 2, 045; Inwerkingtreding : 26-02-2021>
 
-   Art. 201/3.[1 Voor de toepassing van deze titel, wordt verstaan onder:
+## Art. 201/3
+
+[1 Voor de toepassing van deze titel, wordt verstaan onder:
     1° inwoners:
     a) de in artikel 2, § 1, 1°, van het Wetboek van de Inkomstenbelastingen 1992 bedoelde rijksinwoners;
     b) de in artikel 2, § 1, 5°, b, van het Wetboek van de Inkomstenbelastingen 1992 bedoelde vennootschappen;
@@ -2316,9 +2385,10 @@ Pagina 35 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<W 2021-02-17/05, art. 2, 045; Inwerkingtreding : 26-02-2021>
 
-  Art. 201/4.[1 Er wordt een jaarlijkse taks geheven op de effectenrekeningen.
+## Art. 201/4
+
+[1 Er wordt een jaarlijkse taks geheven op de effectenrekeningen.
   De belastbare grondslag is de gemiddelde waarde van de belastbare financiële instrumenten tijdens de
-Pagina 36 van 69 Copyright Belgisch S taatsblad 19-03-2026
  referentieperiode.
     De taks is slechts verschuldigd indien deze gemiddelde waarde meer bedraagt dan 1 000 000 euro.
     De taks is niet verschuldigd wat betreft de effectenrekeningen die, zonder dat een derde, andere dan een in dit
@@ -2355,7 +2425,9 @@ Pagina 36 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2021-02-17/05, art. 4, 045; Inwerkingtreding : 26-02-2021, (NOTA : bij arrest nr. 138/2022 van 27-102022 (2022-10-27/15, B.St. 30-01-2023, p. 13678), heeft het Grondwettelijk Hof de woorden in cursief van dit
  artikel vernietigd) >
 
-  Art. 201/5.[1 Tijdens de referentieperiode zijn de referentietijdstippen 31 december, 31 maart, 30 juni en 30
+## Art. 201/5
+
+[1 Tijdens de referentieperiode zijn de referentietijdstippen 31 december, 31 maart, 30 juni en 30
  september.
    De belastbare grondslag is de som van de waarden van de belastbare financiële instrumenten op de
  referentietijdstippen, gedeeld door het aantal van die tijdstippen.
@@ -2365,13 +2437,17 @@ Pagina 36 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2021-02-17/05, art. 5, 045; Inwerkingtreding : 26-02-2021>
 
-  Art. 201/6.[1 Het tarief van de taks bedraagt 0,15 pct.
+## Art. 201/6
+
+[1 Het tarief van de taks bedraagt 0,15 pct.
    Het bedrag van de taks wordt beperkt tot 10 % van het verschil tussen de belastbare grondslag en het in
  artikel 201/4, derde lid, bedoelde drempelbedrag.]1
   ----------
   (1)<W 2021-02-17/05, art. 6, 045; Inwerkingtreding : 26-02-2021>
 
-  Art. 201/7.[1 Uiterlijk op de laatste dag van de maand die volgt op het einde van de referentieperiode leveren de
+## Art. 201/7
+
+[1 Uiterlijk op de laatste dag van de maand die volgt op het einde van de referentieperiode leveren de
  Belgische tussenpersonen aan de titularissen een overzicht af dat de volgende gegevens bevat:
    1° het rekeningnummer van de effectenrekening;
    2° de identiteit van de titularis(sen), bevattende de naam, eerste voornaam en woonplaats, of het
@@ -2381,11 +2457,14 @@ Pagina 36 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2021-02-17/05, art. 7, 045; Inwerkingtreding : 26-02-2021>
 
-  Art. 201/8.[1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
+## Art. 201/8
+
+[1 De taks is verschuldigd op de eerste dag die volgt op het einde van de referentieperiode.]1
   ----------
   (1)<W 2021-02-17/05, art. 8, 045; Inwerkingtreding : 26-02-2021>
-Pagina 37 van 69 Copyright Belgisch S taatsblad 19-03-2026
-   Art. 201/9.[1 § 1. De Belgische tussenpersoon gaat over tot inhouding, aangifte en betaling van de taks.
+## Art. 201/9
+
+[1 § 1. De Belgische tussenpersoon gaat over tot inhouding, aangifte en betaling van de taks.
     § 2. In alle andere gevallen gaat de titularis zelf over tot aangifte en betaling van de taks, tenzij hij kan bewijzen
  dat de taks reeds aangegeven en betaald werd door een al dan niet in België opgerichte of gevestigde
  tussenpersoon.
@@ -2410,7 +2489,9 @@ Pagina 37 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2021-02-17/05, art. 10, 045; Inwerkingtreding : 26-02-2021>
 
-  Art. 201/9/2.[1 § 1. De Belgische tussenpersonen dienen een aangifte in bij het bevoegde kantoor, uiterlijk op de
+## Art. 201/9/2
+
+[1 § 1. De Belgische tussenpersonen dienen een aangifte in bij het bevoegde kantoor, uiterlijk op de
  twintigste dag van de derde maand die volgt op het einde van de referentieperiode.
    De taks wordt betaald op de in het eerste lid bedoelde dag.
    De Koning bepaalt de nadere regels van de aangifte.
@@ -2424,7 +2505,9 @@ Pagina 37 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<Ingevoegd bij W 2021-02-17/05, art. 11, 045; Inwerkingtreding : 26-02-2021>
   (2)<W 2022-11-20/01, art. 26, 053; Inwerkingtreding : 01-01-2023>
 
-   Art. 201/9/3.[1 § 1. In de in artikel 201/9, § 2, bedoelde gevallen dient de titularis zelf een elektronische aangifte
+## Art. 201/9/3
+
+[1 § 1. In de in artikel 201/9, § 2, bedoelde gevallen dient de titularis zelf een elektronische aangifte
  in.
     De indieningstermijn van deze aangifte is dezelfde als die geldende voor de indiening van de aangifte in de
  personenbelasting, door een belastingplichtige zelf, via MyMinfin.
@@ -2451,7 +2534,6 @@ Pagina 37 van 69 Copyright Belgisch S taatsblad 19-03-2026
     § 4. [2 ...]2]1
    ----------
    (1)<Ingevoegd bij W 2021-02-17/05, art. 12, 045; Inwerkingtreding : 26-02-2021>
-Pagina 38 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2022-11-20/01, art. 27, 053; Inwerkingtreding : 01-01-2023>
 
   Art. 201/9/3 TOEKOMSTIG RECHT.
@@ -2486,7 +2568,9 @@ Pagina 38 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (2)<W 2022-11-20/01, art. 27, 053; Inwerkingtreding : 01-01-2023>
    (3)<W 2023-12-28/01, art. 7, 058; Inwerkingtreding : onbepaald>
 
-  Art. 201/9/4.[1 In geval van betaling van een bedrag hoger dan het verschuldigde bedrag wordt het teveel
+## Art. 201/9/4
+
+[1 In geval van betaling van een bedrag hoger dan het verschuldigde bedrag wordt het teveel
  betaalde teruggegeven.
    De Koning bepaalt de nadere regels voor de vraag tot teruggave.
   [2 ...]2
@@ -2518,7 +2602,6 @@ Pagina 38 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 [1 § 1. Voor de toepassing van dit artikel, wordt verstaan onder:
   1° omzetting: de omzetting van financiële instrumenten die zijn ingeschreven op een effectenrekening naar
-Pagina 39 van 69 Copyright Belgisch S taatsblad 19-03-2026
  financiële instrumenten die niet zijn ingeschreven op een dergelijke rekening, met behoud van alle andere
  kenmerken van het financieel instrument, voor zover dat onmiddellijk voor deze omzetting, de totale waarde van
  de belastbare financiële instrumenten op de betreffende rekening meer bedraagt dan 1.000.000 euro;
@@ -2585,7 +2668,6 @@ Pagina 39 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Deze verplichting geldt enkel voor zover de mededeling van dezelfde gegevens niet reeds is opgelegd door de
  voornoemde wet van 8 juli 2018.]1
 
-Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2025-12-18/06, art. 1, 064; Inwerkingtreding : 01-12-2026>
 
@@ -2593,7 +2675,9 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2012-06-22/02, art. 49, 003; Inwerkingtreding : 08-07-2012>
 
-  Art. 201/10.[1 De volgende kredietinstellingen zijn aan een jaarlijkse taks onderworpen :
+## Art. 201/10
+
+[1 De volgende kredietinstellingen zijn aan een jaarlijkse taks onderworpen :
    a) de kredietinstellingen naar Belgisch recht die zijn ingeschreven op de lijst bedoeld in artikel [2 14 van de wet
  van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen]2;
    b) de kredietinstellingen waarvan de Staat van herkomst een andere lidstaat van de Europese Economische
@@ -2606,7 +2690,9 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<Ingevoegd bij W 2012-06-22/02, art. 50, 003; Inwerkingtreding : 08-07-2012>
   (2)<W 2015-12-18/12, art. 33, 017; Inwerkingtreding : 07-01-2016>
 
-  Art. 201/11.[1 Een kredietinstelling bedoeld in artikel 20110 is de taks verschuldigd op het gemiddeld bedrag
+## Art. 201/11
+
+[1 Een kredietinstelling bedoeld in artikel 20110 is de taks verschuldigd op het gemiddeld bedrag
  van haar schulden tegenover cliënten in het jaar voorafgaand aan het aanslagjaar. Voor de toepassing van dit
  artikel wordt onder het gemiddeld bedrag van de schulden van de kredietinstelling tegenover cliënten verstaan
  het rekenkundig gemiddelde van de bedragen die op het einde van iedere maand van het bedoelde jaar
@@ -2616,7 +2702,9 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2016-08-03/13, art. 2, 019; Inwerkingtreding : 21-08-2016 (overgangsbepalingen art. 14 en 15)>
 
-  Art. 201/12.[1 Het tarief van de taks wordt vastgesteld [2 op [4 0,15205]4 pct.]2 [3 voor de eerste 50 miljard
+## Art. 201/12
+
+[1 Het tarief van de taks wordt vastgesteld [2 op [4 0,15205]4 pct.]2 [3 voor de eerste 50 miljard
  euro van de belastbare grondslag en op [4 0,20204]4 pct. voor het deel van de belastbare grondslag dat 50
  miljard euro overschrijdt.]3]1
   ----------
@@ -2625,7 +2713,9 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (3)<W 2023-12-22/06, art. 2, 056; Inwerkingtreding : 30-12-2023>
   (4)<W 2025-12-19/16, art. 6, 066; Inwerkingtreding : 30-12-2025>
 
-   Art. 201/12/1.[1 De jaarlijkse taks is niet van toepassing op de vennootschappen die [2 een vergunning bezitten
+## Art. 201/12/1
+
+[1 De jaarlijkse taks is niet van toepassing op de vennootschappen die [2 een vergunning bezitten
  of erkend zijn als centrale effectenbewaarinstelling]2 in de zin van het gecoördineerd koninklijk besluit nr. 62 van
  10 november 1967 betreffende de bewaargeving van vervangbare financiële instrumenten en de vereffening van
  transacties op deze instrumenten, of die een vergunning hebben als [2 depositobank overeenkomstig artikel
@@ -2636,7 +2726,9 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
  en 15)>
    (2)<W 2021-06-27/02, art. 102, 047; Inwerkingtreding : 10-07-2021>
 
-  Art. 201/13.[1 De taks is opeisbaar op 1 januari van elk jaar en voor de eerste keer op 1 januari [2 2016]2.
+## Art. 201/13
+
+[1 De taks is opeisbaar op 1 januari van elk jaar en voor de eerste keer op 1 januari [2 2016]2.
    Hij moet betaald zijn uiterlijk op 1 juli van elk jaar [2 ...]2.
   [3 ...]3]1
   ----------
@@ -2652,7 +2744,6 @@ Pagina 40 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Indien de aangifte niet binnen de voorgeschreven termijn wordt ingediend, wordt een boete verbeurd van 250
  euro per week vertraging. Elke begonnen week wordt voor een gehele week gerekend.
    De Koning bepaalt de vorm en de inhoud van de aangifte.]1
-Pagina 41 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2012-06-22/02, art. 54, 003; Inwerkingtreding : 08-07-2012>
 
@@ -2674,7 +2765,9 @@ Pagina 41 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2012-06-22/02, art. 57, 003; Inwerkingtreding : 08-07-2012>
 
-  Art. 201/18.[1 Op straf van een boete van 250 tot 2.500 euro zijn de schuldenaars van de taks gehouden op
+## Art. 201/18
+
+[1 Op straf van een boete van 250 tot 2.500 euro zijn de schuldenaars van de taks gehouden op
  elk verzoek van een ambtenaar van [2 de administratie belast met de vestiging of de inning en de invordering van
  de taksen bedoeld in Boek II]2, zonder verplaatsing inzage te verlenen van alle documenten nodig voor de juiste
  heffing van de taks.]1
@@ -2682,7 +2775,9 @@ Pagina 41 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<Ingevoegd bij W 2012-06-22/02, art. 58, 003; Inwerkingtreding : 08-07-2012>
   (2)<W 2016-04-27/04, art. 96, 018; Inwerkingtreding : 16-05-2016>
 
-  Art. 201/19.[1 De kredietinstellingen en hun bijkantoren mogen noch de taks noch de in het tweede lid bedoelde
+## Art. 201/19
+
+[1 De kredietinstellingen en hun bijkantoren mogen noch de taks noch de in het tweede lid bedoelde
  boete verhalen op de cliënten bedoeld in artikel 20111.
    Elke overtreding van deze bepaling wordt gestraft met een boete volgens een door de Koning vastgelegde
  schaal die gaat van 10 pct. tot 200 pct. in functie van de herhaling van de overtreding. De boete wordt berekend
@@ -2724,7 +2819,6 @@ Pagina 41 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 [1 § 1. Wat de beleggingsinstellingen bedoeld in artikel 20120, 1° en 2°, betreft, is de taks
  verschuldigd op het totaal van de in België op 31 december van het voorgaande jaar netto uitstaande bedragen.
-Pagina 42 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Voor de toepassing van het eerste lid:
    1° worden de in het buitenland voor rekening van een rijksinwoner verworven rechten van deelneming, geacht
  uit te staan in België;
@@ -2759,7 +2853,9 @@ Pagina 42 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 81, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 201/23.[1 De taks is opeisbaar de eerste januari van elk jaar.
+## Art. 201/23
+
+[1 De taks is opeisbaar de eerste januari van elk jaar.
    Hij moet betaald zijn uiterlijk op 31 maart van elk jaar.
   [2 ...]2]1
   ----------
@@ -2775,7 +2871,9 @@ Pagina 42 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 83, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 201/25.[1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
+## Art. 201/25
+
+[1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
  om de juiste heffing van de belasting te verzekeren.]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 84, 039; Inwerkingtreding : 01-01-2020>
@@ -2795,7 +2893,6 @@ Pagina 42 van 69 Copyright Belgisch S taatsblad 19-03-2026
 [1 De taks wordt teruggegeven voor het gedeelte dat meer bedraagt dan hetgeen wettelijk
  verschuldigd is.
    De Koning bepaalt de wijze en de voorwaarden van de terugbetaling.]1
-Pagina 43 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 86, 039; Inwerkingtreding : 01-01-2020>
 
@@ -2810,7 +2907,9 @@ Pagina 43 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 88, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 201/29.[1 Onderworpen aan een jaarlijkse taks vanaf de eerste januari volgend op hun inschrijving bij de [2
+## Art. 201/29
+
+[1 Onderworpen aan een jaarlijkse taks vanaf de eerste januari volgend op hun inschrijving bij de [2
  Nationale Bank van België]2 zijn:
    1° de verzekeringsondernemingen bedoeld in artikel 6 van de wet van 13 maart 2016 op het statuut van en
  het toezicht op de verzekerings- of herverzekeringsondernemingen, die inkomsten toekennen als bedoeld in
@@ -2857,14 +2956,15 @@ Pagina 43 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 91, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 201/32.[1 De taks is opeisbaar de eerste januari van elk jaar.
+## Art. 201/32
+
+[1 De taks is opeisbaar de eerste januari van elk jaar.
    Hij moet betaald zijn uiterlijk op 31 maart van elk jaar. Nochtans wordt die termijn, wat betreft de betaling van
  de taks of van het gedeelte van de taks met betrekking tot de dividenden bedoeld in artikel 20129,1°, in
  voorkomend geval, verlengd tot de achtste werkdag na de datum van de algemene vergadering waarop over de
  toekenning van de dividenden is beslist.
   [2 ...]2]1
 
-Pagina 44 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 92, 039; Inwerkingtreding : 01-01-2020>
   (2)<W 2022-11-20/01, art. 31, 053; Inwerkingtreding : 01-01-2023>
@@ -2883,7 +2983,9 @@ Pagina 44 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 93, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 201/34.[1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
+## Art. 201/34
+
+[1 De Koning bepaalt de vorm en de inhoud van de aangifte. Hij kan [2 aanvullende regels bepalen]2
  om de juiste heffing van de belasting te verzekeren.]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 94, 039; Inwerkingtreding : 01-01-2020>
@@ -2935,7 +3037,6 @@ Pagina 44 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Indien na onderhandelingen met de minister of met de door hem gemachtigde ambtenaar geen akkoord wordt
  bereikt over een moeilijkheid als bedoeld in het eerste lid, kan de belastingplichtige een aanvraag tot bemiddeling
 
-Pagina 45 van 69 Copyright Belgisch S taatsblad 19-03-2026
  indienen bij de fiscale bemiddelingsdienst bedoeld in artikel 116 van de wet van 25 april 2007 houdende diverse
  bepalingen (IV).
     De Koning kan bepalen voor welke moeilijkheden met betrekking tot de heffing van de diverse taksen
@@ -2945,7 +3046,9 @@ Pagina 45 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<Ingevoegd bij W 2019-04-13/09, art. 99, 039; Inwerkingtreding : 01-01-2020>
 
-   Art. 201/39.[1 § 1. Bij niet-betaling van de belastingschuld bestaande uit de taks, de [3 nalatigheidsinteresten]3,
+## Art. 201/39
+
+[1 § 1. Bij niet-betaling van de belastingschuld bestaande uit de taks, de [3 nalatigheidsinteresten]3,
  de geldboeten en de bijbehoren, wordt deze opgenomen in een innings- en invorderingsregister, dat de
  uitvoerbare titel vormt waardoor de belastingschuld kan ingevorderd worden en deze [2 geconcretiseerd]2
  wordt. Een innings- en invorderingsregister vermeldt, voor elke schuldenaar erin opgenomen:
@@ -3001,7 +3104,6 @@ Pagina 45 van 69 Copyright Belgisch S taatsblad 19-03-2026
  belastingschuld in dit register aan de belastingschuldige ter kennis gebracht door de verzending, onder gesloten
  omslag, van een innings- en invorderingsbericht, dat een uittreksel is van het innings- en invorderingsregister
  met betrekking tot de betrokken schuldenaar en hem informeert dat de belastingschuld die hij verschuldigd is in
-Pagina 46 van 69 Copyright Belgisch S taatsblad 19-03-2026
  een innings- en invorderingsregister [2 werd]2 opgenomen met het oog op zijn invordering. Het innings- en
  invorderingsbericht vermeldt:
     - de identificatiegegevens van de schuldenaar;
@@ -3069,8 +3171,9 @@ Pagina 46 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2019-04-13/09, art. 102, 039; Inwerkingtreding : 01-01-2020>
 
-  Art. 202/4.[1 ...]1
-Pagina 47 van 69 Copyright Belgisch S taatsblad 19-03-2026
+## Art. 202/4
+
+[1 ...]1
   [Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten vastgesteld in
  dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen
  door de Koning worden vastgesteld.] <W 1986-08-04/38, art. 75 (Errat., B.S. 15-10-1986), Inwerkingtreding :
@@ -3106,7 +3209,9 @@ Pagina 47 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2024-05-12/11, art. 108, 060; Inwerkingtreding : 08-06-2024>
 
-   Art. 202/9.[1 § 1. De verjaringen worden, zowel voor de invordering als voor de terugbetaling van de rechten,
+## Art. 202/9
+
+[1 § 1. De verjaringen worden, zowel voor de invordering als voor de terugbetaling van de rechten,
  de [3 nalatigheidsinteresten]3 en de geldboeten, gestuit op de wijze en onder de voorwaarden voorzien in de [2
  artikelen 2244 en volgende]2 van het Burgerlijk Wetboek. In dit geval wordt een nieuwe verjaring, die op dezelfde
  wijze kan worden gestuit, verkregen twee jaar na de laatste stuitingsdaad van de vorige verjaring, indien er geen
@@ -3138,7 +3243,6 @@ Pagina 47 van 69 Copyright Belgisch S taatsblad 19-03-2026
  de verjaring van de vordering tot invordering van het recht, de taks, de [3 nalatigheidsinteresten]3 en de erop
  betrekking hebbende geldboeten.
 
-Pagina 48 van 69 Copyright Belgisch S taatsblad 19-03-2026
    De schorsing neemt aanvang vanaf het ogenblik dat de strafvordering wordt ingesteld en eindigt wanneer de
  strafvervolging wordt stopgezet, de strafvordering uitdooft of wanneer het vonnis of het arrest in kracht van
  gewijsde is getreden voor de overtredingen bedoeld in het eerste lid.]1
@@ -3147,7 +3251,9 @@ Pagina 48 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2021-12-20/04, art. 28, 048; Inwerkingtreding : 07-01-2022>
   (3)<W 2022-11-20/01, art. 33, 053; Inwerkingtreding : 01-01-2023>
 
-   Art. 202/10.<Ingevoegd bij W 1960-07-11/01, art. 11> Wanneer dit Wetboek of de uitvoering ervan genomen
+## Art. 202/10
+
+<Ingevoegd bij W 1960-07-11/01, art. 11> Wanneer dit Wetboek of de uitvoering ervan genomen
  besluiten een zekere termijn bepalen binnen dewelke een verplichting die zij opleggen moet nageleefd worden of
  binnen dewelke een [recht of taks] moet betaald worden en wanneer de laatste dag van de termijn geen werkdag
  is, wordt die termijn verlengd tot de eerste werkdag die volgt op de dag waarop hij verstrijkt. <W 2006-12-19/33,
@@ -3160,7 +3266,9 @@ Pagina 48 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2014-04-25/36, art. 91, 014; Inwerkingtreding : 16-05-2014>
    (2)<W 2016-04-27/04, art. 100, 018; Inwerkingtreding : 16-05-2016>
 
-  Art. 203/1.[1 [2 ...]2
+## Art. 203/1
+
+[1 [2 ...]2
    De Koning kan de indiening van een periodieke aangifte toelaten.]1
   ----------
   (1)<W 2021-02-07/01, art. 32, 046; Inwerkingtreding : 01-03-2021>
@@ -3182,7 +3290,9 @@ Pagina 48 van 69 Copyright Belgisch S taatsblad 19-03-2026
  56, Inwerkingtreding : 01-01-2007>
   [lid 2 opgeheven] <KB 2001-07-13/50, art. 10, Inwerkingtreding : 01-01-2002>
 
-   Art. 204/3.[1 § 1. Wanneer de taks of het recht niet is betaald binnen de in dit Wetboek daarvoor bepaalde
+## Art. 204/3
+
+[1 § 1. Wanneer de taks of het recht niet is betaald binnen de in dit Wetboek daarvoor bepaalde
  termijn, is een nalatigheidsinterest van rechtswege verschuldigd tegen de rentevoet zoals bepaald
  overeenkomstig artikel 2, § 2/1, eerste lid, 1°, van de wet van 5 mei 1865 betreffende de lening tegen intrest op
  het in te vorderen bedrag, vanaf de dag die volgt op de vervaldatum voor de betaling.
@@ -3209,7 +3319,6 @@ Pagina 48 van 69 Copyright Belgisch S taatsblad 19-03-2026
  van de administratie belast met de vestiging van de taks of het recht.
    Bij een onvolledig verzoek stelt de administratie de verzoeker binnen de twee maanden na de indiening van het
  verzoek op de hoogte van de ontbrekende gegevens en documenten. De aanvraag wordt geacht volledig te zijn
-Pagina 49 van 69 Copyright Belgisch S taatsblad 19-03-2026
  op de dag dat de administratie alle ontbrekende gegevens en documenten ontvangt.
     Wanneer het de belastingschuldige is toegestaan krachtens de bepalingen van dit Wetboek, om rechtstreeks
  beroep te doen op de rechter, is de moratoriuminterest tegen de rentevoet bepaald door de paragraaf 3, eerste
@@ -3231,7 +3340,9 @@ Pagina 49 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
   Titel III. [Controle en boeten] <Opschrift ingevoegd bij W 2006-12-19/33, art. 57, Inwerkingtreding : 01-012007>
 
-   Art. 205/1.<Oorspronkelijk art. 205, vernummerd bij KB63 1939-11-28/35, art. 11> [ [Onverminderd de
+## Art. 205/1
+
+<Oorspronkelijk art. 205, vernummerd bij KB63 1939-11-28/35, art. 11> [ [Onverminderd de
  bijzondere bepalingen van dit Wetboek [...] ], zijn [de openbare instellingen, de stichtingen van openbaar nut, de
  private stichtingen], de verenigingen, maatschappijen of vennootschappen die in België hun hoofdinrichting, een
  filiale of enigerlei zetel van verrichtingen hebben, de [3 banken, de beursvennootschappen]3, en alle personen bij
@@ -3251,7 +3362,9 @@ Pagina 49 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (3)<W 2022-05-18/04, art. 13, 052; Inwerkingtreding : 01-07-2022>
    (4)<W 2024-05-12/11, art. 109, 060; Inwerkingtreding : 08-06-2024>
 
-  Art. 205/2.<Ingevoegd bij KB63 1939-11-28/35, art. 11> Het bedrag der fiscale boeten [waarvan deze wet]
+## Art. 205/2
+
+<Ingevoegd bij KB63 1939-11-28/35, art. 11> Het bedrag der fiscale boeten [waarvan deze wet]
  enkel het minimum en het maximum aanduidt, wordt door de [1 bevoegde adviseur-generaal van de administratie
  belast met de vestiging of de inning en de invordering van de diverse rechten en taksen bedoeld in het
  Wetboek]1 vastgesteld.] <R 1947-11-25/01, art. 5> <W 1989-12-22/30, art. 240, Inwerkingtreding : 01-011990>
@@ -3259,7 +3372,9 @@ Pagina 49 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2016-04-27/04, art. 102, 018; Inwerkingtreding : 16-05-2016>
 
-  Art. 206/1.<Ingevoegd bij W 1947-08-13/02, art. 60> <Vernummerd bij W 1953-07-27/40, art. 18> [1 De
+## Art. 206/1
+
+<Ingevoegd bij W 1947-08-13/02, art. 60> <Vernummerd bij W 1953-07-27/40, art. 18> [1 De
  administratie]1 wordt gemachtigd, volgens de regels en door alle middelen van het gemeen recht, getuigen en
  vermoedens inbegrepen, met uitsluiting van de eed, en daarenboven door de processen-verbaal van de [1
  ambtenaren van de Federale Overheidsdienst Financiën]1n, elke overtreding te bewijzen van de bepalingen dezer
@@ -3272,8 +3387,9 @@ Pagina 49 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2016-04-27/04, art. 103, 018; Inwerkingtreding : 16-05-2016>
 
-Pagina 50 van 69 Copyright Belgisch S taatsblad 19-03-2026
-  Art. 206/2.[opgeheven] <W 1969-07-10/33, art. 5, Inwerkingtreding : 01-01-1971>
+## Art. 206/2
+
+[opgeheven] <W 1969-07-10/33, art. 5, Inwerkingtreding : 01-01-1971>
 
   Art. 206/2 TOEKOMSTIG RECHT.[1 De door de bevoegde adviseur-generaal gemachtigde ambtenaar [2 kan]2
  voor de overtreding van de bepalingen van de artikelen 211bis/1 tot en met 211bis/9, evenals van de ter
@@ -3297,7 +3413,9 @@ Pagina 50 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Titel IV. [Strafrechtelijke sancties en procedure] <Opschrift ingevoegd bij W 2006-12-19/33, art. 59,
  Inwerkingtreding : 01-01-2007>
 
-   Art. 207.<W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Onverminderd de fiscale geldboeten,
+## Art. 207
+
+<W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Onverminderd de fiscale geldboeten,
  wordt hij die met bedrieglijk opzet of met het oogmerk om te schaden, de bepalingen van dit Wetboek of van de
  ter uitvoering ervan genomen Besluiten overtreedt, gestraft met gevangenisstraf van acht dagen tot twee jaar
  en met geldboete van [250 tot [1 500.000 euro]1 [of met één van die straffen alleen]. <W 1986-08-04/38, art.
@@ -3311,7 +3429,9 @@ Pagina 50 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2012-09-20/47, art. 30, 004; Inwerkingtreding : 01-11-2012>
    (2)<W 2013-06-17/06, art. 100, 008; Inwerkingtreding : 08-07-2013>
 
-   Art. 207bis.<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Met gevangenisstraf van
+## Art. 207bis
+
+<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Met gevangenisstraf van
  een maand tot vijf jaar en met geldboete van [250 tot [1 500.000 euro]1 [of met één deze straffen alleen,] wordt
  gestraft, hij die, met het oogmerk om een van de in artikel 207 bedoelde misdrijven te plegen, in openbare
  geschriften, in handelsgeschriften of in private geschriften valsheid pleegt, of die van een zodanig vals geschrift
@@ -3338,10 +3458,8 @@ Pagina 50 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 207ter
 
-<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> § 1. Wanneer de
  beoefenaar van een van de volgende beroepen:
   1° belastingadviseur;
-Pagina 51 van 69 Copyright Belgisch S taatsblad 19-03-2026
    2° zaakbezorger;
    3° deskundige in belastingzaken of in boekhouden;
    4° of enig ander beroep dat tot doel heeft voor een of meer belastingplichtigen boek te houden of te helpen
@@ -3366,7 +3484,9 @@ Pagina 51 van 69 Copyright Belgisch S taatsblad 19-03-2026
  veroordeling in kracht van gewijsde is gegaan.] <W 2005-12-27/30, art. 147, Inwerkingtreding : 01-01-2006>
  <KB 2011-03-03/01, art. 331, Inwerkingtreding : 01-04-2011>
 
-   Art. 207quater.<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Hij die, rechtstreeks
+## Art. 207quater
+
+<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Hij die, rechtstreeks
  of onrechtstreeks, het verbod of de sluiting, uitgesproken krachtens artikel 207ter overtreedt, wordt gestraft
  met gevangenisstraf van acht dagen tot twee jaar en geldboete van [250 tot [1 500.000 euro]1 [of met één van
  die straffen alleen]. <W 1986-08-04/38, art. 79, Inwerkingtreding : 20-08-1986> <KB 2000-07-20/64, art. 2, 10,
@@ -3376,7 +3496,9 @@ Pagina 51 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2012-09-20/47, art. 31, 004; Inwerkingtreding : 01-11-2012>
 
-  Art. 207quinquies.<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> § 1. [...] Alle
+## Art. 207quinquies
+
+<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> § 1. [...] Alle
  bepalingen van het Eerste Boek van het Strafwetboek, [met inbegrip van artikel 85,] zijn van toepassing op de
  misdrijven bedoeld in de artikelen 207, 207bis en 207quater. <KB41 1982-04-02/32, art. 3, Inwerkingtreding :
  07-04-1982> <W 1986-08-04/38, art. 80, Inwerkingtreding : 20-08-1986>
@@ -3389,7 +3511,9 @@ Pagina 51 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2012-09-20/47, art. 31, 004; Inwerkingtreding : 01-11-2012>
 
-  Art. 207sexies.<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Personen die als
+## Art. 207sexies
+
+<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> Personen die als
  daders of als medeplichtigen van misdrijven bedoeld in de artikelen 207 en 207bis werden veroordeeld zijn
  hoofdelijk gehouden tot betaling van de ontdoken belasting [1 en de [2 nalatigheidsinteresten]2 verschuldigd door
  de oorspronkelijke belastingschuldige]1.
@@ -3408,7 +3532,6 @@ Pagina 51 van 69 Copyright Belgisch S taatsblad 19-03-2026
  kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 207 tot 207quater tegen hun
  aangestelden of [1 hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun
  functie, in rechte of in feite]1 zijn uitgesproken.
-Pagina 52 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2018-03-26/01, art. 93, 053; Inwerkingtreding : 09-04-2018>
   (2)<W 2022-11-20/01, art. 35, 053; Inwerkingtreding : 01-01-2023>
@@ -3416,7 +3539,6 @@ Pagina 52 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 207septies
 
-<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> De rechter kan
  bevelen dat ieder vonnis of arrest houdende veroordeling tot een gevangenisstraf, uitgesproken krachtens de
  artikelen 207, 207bis en 207quater, wordt aangeplakt in de plaatsen die hij bepaalt en, eventueel bij uittreksel
  wordt bekendgemaakt op de wijze die bij bepaalt, een en ander op kosten van de veroordeelde.
@@ -3425,11 +3547,12 @@ Pagina 52 van 69 Copyright Belgisch S taatsblad 19-03-2026
 
 ## Art. 207octies
 
-<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> De schending van
  het bij artikel 212 bepaalde beroepsgeheim wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het
  Strafwetboek.
 
-  Art. 207nonies.<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> § 1. De
+## Art. 207nonies
+
+<Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> § 1. De
  strafvordering wordt uitgeoefend door het openbaar ministerie.
   § 2. [1 Het openbaar ministerie kan geen vervolging instellen indien het kennis heeft gekregen van de feiten ten
  gevolge van een klacht of een aangifte van een ambtenaar die niet de machtiging had waarvan sprake is in artikel
@@ -3452,7 +3575,9 @@ Pagina 52 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2016-04-27/04, art. 104, 018; Inwerkingtreding : 16-05-2016>
   (3)<W 2019-05-05/10, art. 87, 040; Inwerkingtreding : 01-01-2020>
 
-  Art. 207decies.<Ingevoegd bij W 1986-08-04/38, art. 82, Inwerkingtreding : 01-02-1987> De ambtenaren van
+## Art. 207decies
+
+<Ingevoegd bij W 1986-08-04/38, art. 82, Inwerkingtreding : 01-02-1987> De ambtenaren van
  [2 de administratie belast met de vestiging of de inning en de invordering van de [3 diverse rechten en taksen]3
  bedoeld in het Wetboek]2 en van de Administratie van de bijzondere belastinginspectie mogen, op straffe van
  nietigheid van de akte van rechtspleging, slechts als getuige worden gehoord.
@@ -3468,14 +3593,15 @@ Pagina 52 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (2)<W 2014-04-25/36, art. 93, 014; Inwerkingtreding : 16-05-2014>
   (3)<W 2016-04-27/04, art. 105, 018; Inwerkingtreding : 16-05-2016>
 
-  Art. 208.<W 1969-07-10/33, art. 6, Inwerkingtreding : 01-01-1970> Worden gelijkgesteld met de Staat voor de
+## Art. 208
+
+<W 1969-07-10/33, art. 6, Inwerkingtreding : 01-01-1970> Worden gelijkgesteld met de Staat voor de
  toepassing van de wetsbepalingen betreffende de [in dit Wetboek bedoelde diverse rechten en taksen] : <W
  2006-12-19/33, art. 60, Inwerkingtreding : 01-01-2007>
   1° de Nationale Maatschappij der Belgische Spoorwegen;
   2° de Nationale Maatschappij van Buurtspoorwegen;
   3° de Maatschappij voor het Intercommunaal Vervoer te Brussel;
   4° de maatschappijen voor intercommunaal vervoer beheerst door de wet betreffende de oprichting van
-Pagina 53 van 69 Copyright Belgisch S taatsblad 19-03-2026
  maatschappijen voor stedelijk gemeenschappelijk vervoer.
   [1 5° HR Rail]1.
   ----------
@@ -3507,7 +3633,9 @@ Pagina 53 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2013-08-17/31, art. 14, 010; Inwerkingtreding : 01-01-2013>
 
-   Art. 211.<R 1950-02-20/11, art. 1> § 1. De bestuursdiensten van de Staat, met inbegrip van de parketten en
+## Art. 211
+
+<R 1950-02-20/11, art. 1> § 1. De bestuursdiensten van de Staat, met inbegrip van de parketten en
  de griffies der hoven en rechtbanken, de besturen van de provinciën en van de gemeenten, zomede de
  openbare organismen en instellingen, zijn gehouden wanneer ze daartoe aangezocht zijn door een ambtenaar
  van een der rijksbesturen belast met de aanslag in, of de invordering van de belastingen, hem alle in hun bezit
@@ -3544,7 +3672,6 @@ Pagina 53 van 69 Copyright Belgisch S taatsblad 19-03-2026
  ambtenaren van deze Overheidsdienst, voorzover die ambtenaren regelmatig belast zijn met de vestiging of de
  invordering van de belastingen, en voorzover die gegevens bijdragen tot de vervulling van de opdracht van die
  ambtenaren tot de vestiging of de invordering van eender welke door de Staat geheven belasting.
-Pagina 54 van 69 Copyright Belgisch S taatsblad 19-03-2026
    Elke ambtenaar van de Federale Overheidsdienst Financiën, die wettelijk werd belast met een controle- of
  onderzoeksopdracht, is van rechtswege gemachtigd alle toereikende, ter zake dienende en niet overmatige
  inlichtingen te vragen, op te zoeken of in te zamelen die bijdragen tot de vestiging of de invordering van eender
@@ -3553,7 +3680,9 @@ Pagina 54 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<W 2013-01-14/07, art. 2, 007; Inwerkingtreding : 10-02-2013>
 
-   Art. 211bis.[1 § 1. Dit artikel legt de voorschriften en procedures vast voor de samenwerking tussen België en
+## Art. 211bis
+
+[1 § 1. Dit artikel legt de voorschriften en procedures vast voor de samenwerking tussen België en
  de andere lidstaten van de Europese Unie met het oog op de uitwisseling van inlichtingen die naar verwachting
  van belang zijn voor de administratie en de handhaving van de nationale wetgeving van alle lidstaten met
  betrekking tot de diverse rechten en taksen.
@@ -3613,7 +3742,6 @@ Pagina 54 van 69 Copyright Belgisch S taatsblad 19-03-2026
  instrument of handeling met soortgelijke effecten, inbegrepen deze verstrekt, gewijzigd of hernieuwd, in het
  kader van een belastingcontrole, en die aan de volgende cumulatieve voorwaarden voldoen :
     a) verstrekt, gewijzigd of hernieuwd door de FOD Financiën, ongeacht of deze beslissingen effectief gebruikt
-Pagina 55 van 69 Copyright Belgisch S taatsblad 19-03-2026
  worden;
     b) verstrekt, gewijzigd of hernieuwd, voor een welbepaalde persoon of groep van personen, en voor zover
  deze persoon of groep van personen er zich kan op beroepen;
@@ -3681,7 +3809,6 @@ Pagina 55 van 69 Copyright Belgisch S taatsblad 19-03-2026
     De inlichtingen worden door de Belgische bevoegde autoriteit zo spoedig mogelijk, doch [4 uiterlijk drie
  maanden]4 na de datum van ontvangst van het verzoek verstrekt. Indien de Belgische bevoegde autoriteit
  evenwel de inlichtingen al in haar bezit heeft, verstrekt zij deze binnen twee maanden. In bijzondere gevallen
-Pagina 56 van 69 Copyright Belgisch S taatsblad 19-03-2026
  kunnen de Belgische bevoegde autoriteit en de verzoekende autoriteit een andere termijn overeenkomen.
     De ontvangst van het verzoek wordt door de Belgische bevoegde autoriteit aan de verzoekende autoriteit
  onmiddellijk, en in elk geval uiterlijk zeven werkdagen na ontvangst, indien mogelijk langs elektronische weg,
@@ -3749,7 +3876,6 @@ Pagina 56 van 69 Copyright Belgisch S taatsblad 19-03-2026
  bevoegde autoriteit automatisch inlichtingen aan de bevoegde autoriteiten van alle andere lidstaten en de
  Europese Commissie, overeenkomstig de volgens § 24 vastgestelde van toepassing zijnde praktische
  modaliteiten wanneer een grensoverschrijdende voorafgaande fiscale beslissing werd verstrekt, gewijzigd of
-Pagina 57 van 69 Copyright Belgisch S taatsblad 19-03-2026
  hernieuwd na 31 december 2016.
     2° de Belgische bevoegde autoriteit verstrekt eveneens, overeenkomstig de volgens § 24 vastgestelde van
  toepassing zijnde praktische modaliteiten, aan de bevoegde autoriteiten van alle andere lidstaten, evenals aan de
@@ -3817,7 +3943,6 @@ Pagina 57 van 69 Copyright Belgisch S taatsblad 19-03-2026
  voor zover van toepassing:
     1° de identificatiegegevens van intermediairs en relevante belastingplichtigen bedoeld in artikel 211bis/1, 4° en
  5°, met inbegrip van hun naam, geboortedatum en -plaats (in het geval van een natuurlijk persoon), fiscale
-Pagina 58 van 69 Copyright Belgisch S taatsblad 19-03-2026
  woonplaats, fiscaal identificatienummer, en, in voorkomend geval, van de personen die overeenkomstig
  paragraaf 2, 18°, een verbonden onderneming vormen met de relevante belastingplichtige;
     2° nadere bijzonderheden over de wezenskenmerken bedoeld in artikel 211bis/1 op grond waarvan de
@@ -3886,7 +4011,6 @@ Pagina 58 van 69 Copyright Belgisch S taatsblad 19-03-2026
  gebruikmaking van elektronische communicatiemiddelen, in voorkomend geval.
     De Belgische bevoegde autoriteit antwoordt op het overeenkomstig de eerste alinea ingediende verzoek binnen
  een termijn van 60 dagen na ontvangst van het verzoek, om haar instemming te bevestigen of haar
-Pagina 59 van 69 Copyright Belgisch S taatsblad 19-03-2026
  gemotiveerde weigering aan de buitenlandse bevoegde autoriteit mee te delen.
     Indien de gevraagde inlichtingen vermeld staan in bescheiden waartoe de ambtenaren van de Belgische
  bevoegde autoriteit toegang hebben, ontvangen de ambtenaren van de verzoekende autoriteit een afschrift van
@@ -3954,7 +4078,6 @@ Pagina 59 van 69 Copyright Belgisch S taatsblad 19-03-2026
    [4 § 11/2. De Belgische bevoegde autoriteit kan de bevoegde autoriteit van een andere of meerdere lidstaten
  verzoeken een gezamenlijke audit uit te voeren.
     Gezamenlijke audits worden op vooraf overeengekomen en gecoördineerde wijze, met inbegrip van
-Pagina 60 van 69 Copyright Belgisch S taatsblad 19-03-2026
  taalregelingen, uitgevoerd door de betrokken bevoegde autoriteiten, en in overeenstemming met de wetgeving
  en de procedurele voorschriften van de lidstaat waar de activiteiten van de gezamenlijke audit plaatsvinden.
    De rechten en plichten van de Belgische ambtenaren die deelnemen aan de gezamenlijke audit op het
@@ -4023,7 +4146,6 @@ Pagina 60 van 69 Copyright Belgisch S taatsblad 19-03-2026
  rechten en andere maatregelen, en voor de vaststelling en invordering van verplichte socialezekerheidsbijdragen;
    3° in mogelijk tot bestraffing leidende gerechtelijke en administratieve procedures wegens overtreding van de
  belastingwetgeving, onverminderd de algemene regels en de bepalingen betreffende de rechten van de
-Pagina 61 van 69 Copyright Belgisch S taatsblad 19-03-2026
  verdachten en getuigen in dergelijke procedures.
     Mits toestemming van de buitenlandse bevoegde autoriteit die de inlichtingen overeenkomstig de richtlijn heeft
  verstrekt en voor zover het in België wettelijk is toegestaan, kunnen de inlichtingen en bescheiden ontvangen van
@@ -4092,7 +4214,6 @@ Pagina 61 van 69 Copyright Belgisch S taatsblad 19-03-2026
     § 22. Indien de Belgische overheid voorziet in een samenwerking met een derde land welke verder reikt dan de
  bij de richtlijn geregelde samenwerking, kan de Belgische overheid de verderreikende samenwerking niet
  weigeren aan een andere lidstaat die met haar deze verderreikende, wederzijdse samenwerking wenst aan te
-Pagina 62 van 69 Copyright Belgisch S taatsblad 19-03-2026
  gaan.
     § 23. [4 Verzoeken om inlichtingen en de administratieve onderzoeken die zijn ingediend op grond van § 4,
  alsook de antwoorden op grond van § 5, de ontvangstbevestigingen, de verzoeken om inlichtingen van algemene
@@ -4160,7 +4281,6 @@ Pagina 62 van 69 Copyright Belgisch S taatsblad 19-03-2026
  gegevensinbreuk, en verzoekt zij de Commissie, daarvan schriftelijk in kennis gesteld, om de schorsing van de
  toegang tot het CCN-netwerk voor de toepassing van deze richtlijn, indien de gegevensinbreuk niet onmiddellijk
  en op passende wijze onder controle kan worden gebracht. Op een dergelijk verzoek schorst de Commissie de
-Pagina 63 van 69 Copyright Belgisch S taatsblad 19-03-2026
  toegang van die lidstaat of lidstaten tot het CCN-netwerk voor de toepassing van de richtlijn.
     De Belgische bevoegde autoriteit stelt, in geval van een gegevensinbreuk, de Commissie op de hoogte wanneer
  zij deze inbreuk heeft verholpen. Indien een of meer lidstaten de Commissie verzoeken om gezamenlijk te
@@ -4227,7 +4347,6 @@ Pagina 63 van 69 Copyright Belgisch S taatsblad 19-03-2026
    ----------
    (1)<Ingevoegd bij W 2019-12-20/09, art. 49, 041; Inwerkingtreding : 01-07-2020>
 
-Pagina 64 van 69 Copyright Belgisch S taatsblad 19-03-2026
 ## Art. 211bis/2.
    [1 De in artikel 211bis/1, 3°, bedoelde wezenskenmerken van een grensoverschrijdende constructie kunnen
  worden onderverdeeld in vijf categorieën, categorie A zijnde de algemene wezenskenmerken die aan de in het
@@ -4296,7 +4415,6 @@ Pagina 64 van 69 Copyright Belgisch S taatsblad 19-03-2026
  relevante belastingplichtige;
     c) de herkwalificatie van inkomsten en vermogen in producten of betalingen die niet onder de automatische
  uitwisseling van inlichtingen vallen;
-Pagina 65 van 69 Copyright Belgisch S taatsblad 19-03-2026
     d) de overdracht of omzetting van een financiële instelling of een financiële rekening of de activa daarvan in een
  financiële instelling of een financiële rekening of activa die niet onder de rapportage in het kader van de
  automatische uitwisseling van inlichtingen vallen;
@@ -4365,7 +4483,6 @@ Pagina 65 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<Ingevoegd bij W 2019-12-20/09, art. 51, 041; Inwerkingtreding : 01-07-2020>
 
 ## Art. 211bis/4.
-Pagina 66 van 69 Copyright Belgisch S taatsblad 19-03-2026
    [1 ndien het gaat om een marktklare constructie moet de intermediair om de drie maanden een periodiek
  verslag opstellen met een overzicht van nieuwe meldingsplichtige inlichtingen zoals bedoeld in artikel 211bis, §
  6/3, 1°, 4°, 7° en 8°, die sinds het laatste ingediende verslag beschikbaar zijn geworden. ]1
@@ -4434,7 +4551,6 @@ Pagina 66 van 69 Copyright Belgisch S taatsblad 19-03-2026
  relevante belastingplichtige of;
    - vanaf het ogenblik dat de eerste stap voor de implementatie ervan met betrekking tot de relevante
  belastingplichtige is ondernomen.
-Pagina 67 van 69 Copyright Belgisch S taatsblad 19-03-2026
     § 3. Wanneer de relevante belastingplichtige inlichtingen over de meldingsplichtige grensoverschrijdende
  constructie moet verstrekken aan de bevoegde autoriteiten van meer dan één lidstaat, moet hij deze inlichtingen
  enkel verstrekken aan de Belgische bevoegde autoriteit indien België als eerste op de onderstaande lijst
@@ -4490,7 +4606,9 @@ Pagina 67 van 69 Copyright Belgisch S taatsblad 19-03-2026
   ----------
   (1)<Ingevoegd bij W 2019-12-20/09, art. 60, 041; Inwerkingtreding : 01-07-2020>
 
-  Art. 211ter.[1 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van
+## Art. 211ter
+
+[1 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van
  de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, de taksen, de [2
  nalatigheidsinteresten]2, de fiscale geldboeten en de bijbehoren door een burgerlijke partijstelling of door een
  aansprakelijkheidsvordering.]1
@@ -4498,11 +4616,12 @@ Pagina 67 van 69 Copyright Belgisch S taatsblad 19-03-2026
   (1)<Ingevoegd bij W 2018-03-26/01, art. 94, 053; Inwerkingtreding : 09-04-2018>
   (2)<W 2022-11-20/01, art. 36, 053; Inwerkingtreding : 01-01-2023>
 
-   Art. 211quater.[1 § 1. Elk bericht dat door de belastingplichtige of elke andere persoon onder gesloten omslag
+## Art. 211quater
+
+[1 § 1. Elk bericht dat door de belastingplichtige of elke andere persoon onder gesloten omslag
  wordt verzonden aan de Federale Overheidsdienst Financiën, in het kader van de toepassing van de wetgeving
  inzake de diverse rechten taksen, wordt [2 door de administratie]2 die de diverse rechten en taksen vestigt,
  gereproduceerd, geregistreerd en bewaard [2 ...]2 volgens een informatica- of telegeleidingstechniek.
-Pagina 68 van 69 Copyright Belgisch S taatsblad 19-03-2026
     Het aldus gedigitaliseerd beeld van het bericht verzonden aan de Federale Overheidsdienst Financiën,
  verkregen door middel van een informatica- of telegeleidingstechniek, heeft, voor de toepassing van de
  bepalingen van dit Wetboek, de bijzondere wetsbepalingen op het stuk van diverse rechten en taksen of hun
@@ -4533,7 +4652,9 @@ Pagina 68 van 69 Copyright Belgisch S taatsblad 19-03-2026
   Titel VI. [Beroepsgeheim] <Oorspronkelijke titel XVII (art. 212) ingevoegd bij W 1978-08-04/01, art. 55, en
  vernummerd tot titel VI bij W 2006-12-19/33, art. 63, Inwerkingtreding : 01-01-2007>
 
-   Art. 212.<Ingevoegd bij W 1978-08-04/01, art. 55, Inwerkingtreding : 27-08-1978> Hij die, uit welken hoofde
+## Art. 212
+
+<Ingevoegd bij W 1978-08-04/01, art. 55, Inwerkingtreding : 27-08-1978> Hij die, uit welken hoofde
  ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van [1 de
  administratie belast met de vestiging of de inning en de invordering van de [2 diverse rechten en taksen]2
  bedoeld in het Wetboek]1, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte
@@ -4557,4 +4678,3 @@ Pagina 68 van 69 Copyright Belgisch S taatsblad 19-03-2026
    (1)<W 2014-04-25/36, art. 94, 014; Inwerkingtreding : 16-05-2014>
    (2)<W 2016-04-27/04, art. 106, 018; Inwerkingtreding : 16-05-2016>
 
-Pagina 69 van 69 Copyright Belgisch S taatsblad 19-03-2026

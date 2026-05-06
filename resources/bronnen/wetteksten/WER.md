@@ -20,7 +20,6 @@ bron: "ejustice.just.fgov.be (gecoördineerde versie)"
  handelstransacties, de fraudebestrijding, de bescherming van het milieu en het stedelijke milieu, dierenwelzijn, de
  intellectuele eigendom, het behoud van het nationaal historisch en artistiek erfgoed en doelstellingen van het
  sociaal beleid en het cultuurbeleid;
-Pagina 54 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° beroepsaansprakelijkheidsverzekering : een door de dienstverrichter afgesloten verzekering ter dekking,
  jegens afnemers en, in voorkomend geval, derden, van zijn eventuele aansprakelijkheid in het geval van schade
  voortvloeiend uit de verrichting van de dienst;
@@ -43,7 +42,9 @@ Pagina 54 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. I.4.[1 Voor de toepassing van boek III, titel 2 gelden de volgende definities :
+## Art. I.4
+
+[1 Voor de toepassing van boek III, titel 2 gelden de volgende definities :
    1° [2 geregistreerde entiteit]2 : elke entiteit die zich dient in te schrijven in de Kruispuntbank van Ondernemingen
  krachtens artikel III.16;
    2° dienst : openbare dienst, instelling, natuurlijke persoon of rechtspersoon, aan wie taken van openbare dienst
@@ -70,7 +71,9 @@ Pagina 54 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 38, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. I.5.[1 Voor de toepassing van boek III, titel 3, hoofdstuk 2, geldt de volgende definitie :
+## Art. I.5
+
+[1 Voor de toepassing van boek III, titel 3, hoofdstuk 2, geldt de volgende definitie :
    1° boekhoudplichtige onderneming : een onderneming in de zin van artikel III.82;]1
   ----------
   (1)<W 2018-04-15/14, art. 39, 059; Inwerkingtreding : 01-11-2018>
@@ -79,7 +82,9 @@ Pagina 54 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-06-29/01, art. 2, 036; Inwerkingtreding : 16-07-2016>
 
-  Art. I.6.[1 Voor de toepassing van boek IV gelden de volgende definities:
+## Art. I.6
+
+[1 Voor de toepassing van boek IV gelden de volgende definities:
    1° nationale mededingingsautoriteit: de Belgische Mededingingsautoriteit of een andere autoriteit die bevoegd is
  om de artikelen 101 en 102 van het Verdrag betreffende de werking van de Europese Unie (hierna "VWEU") toe
  te passen, aangewezen door een lidstaat op grond van artikel 35 van Verordening (EG) nr. 1/2003 van de Raad
@@ -88,7 +93,6 @@ Pagina 54 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° mededingingsautoriteit: de Europese Commissie of een nationale mededingingsautoriteit, of beide, indien de
  omstandigheden dit vereisen;
    3° Europees netwerk van mededingingsautoriteiten: het netwerk van publieke autoriteiten dat wordt gevormd
-Pagina 55 van 764 Copyright Belgisch S taatsblad 16-04-2026
  door de nationale mededingingsautoriteiten en de Europese Commissie om een forum te bieden voor discussie
  en samenwerking met betrekking tot de toepassing en de handhaving van de artikelen 101 en 102 VWEU;
     4° Belgische Mededingingsautoriteit: de Belgische nationale mededingingsautoriteit, opgericht bij de wet van 3
@@ -157,7 +161,6 @@ Pagina 55 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geldboeten of immuniteit in het kader van een clementieregeling. Reeds bestaande informatie wordt hiervan
  uitgesloten, met name het bewijsmateriaal dat los van de procedure van een mededingingsautoriteit bestaat
  ongeacht of dit zich al dan niet in het dossier van een mededingingsautoriteit bevindt;
-Pagina 56 van 764 Copyright Belgisch S taatsblad 16-04-2026
     28° clementieverzoek: de clementieverklaring, alsook de informatie en het bewijsmateriaal bedoeld in artikel
  IV.54, §§ 2 tot 4, overgemaakt om uitzicht te krijgen op een volledige of gedeeltelijke vrijstelling van geldboeten;
     29° immuniteitsverzoek: de clementieverklaring, alsook de informatie en bewijsmateriaal bedoeld in artikel
@@ -201,7 +204,9 @@ Pagina 56 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 3,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  Art. I.7.[1 Voor de toepassing van boek V gelden de volgende definities :
+## Art. I.7
+
+[1 Voor de toepassing van boek V gelden de volgende definities :
    1° prijzenobservatorium : de instelling belast met de observaties en analyses bedoeld in artikel 108, i), van de
  wet van 21 december 1994 houdende sociale en diverse bepalingen.
    2° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
@@ -213,7 +218,9 @@ Pagina 56 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. I.8.[1 Voor de toepassing van boek VI gelden de volgende definities:
+## Art. I.8
+
+[1 Voor de toepassing van boek VI gelden de volgende definities:
    1° homogene diensten: alle diensten waarvan de eigenschappen en de modaliteiten identiek of gelijkaardig zijn,
  ongeacht onder meer het ogenblik, de plaats van de uitvoering, de dienstverstrekker of de persoon voor wie ze
  bestemd zijn;
@@ -225,7 +232,6 @@ Pagina 56 van 764 Copyright Belgisch S taatsblad 16-04-2026
  tekoopaanbieding, de verkoop, het huuraanbod van goederen en diensten, de verhuring van goederen en
  diensten, de afstand onder bezwarende titel of gratis, als deze verrichtingen worden gedaan door een
  onderneming;
-Pagina 57 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° geregistreerde benaming:
    a) voor de landbouwproducten en de levensmiddelen:
    de beschermde benaming van oorsprong of de beschermde herkomstaanduiding of elke gelijkwaardige
@@ -293,7 +299,6 @@ Pagina 57 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consument tot een transactie besluit waartoe hij anders niet had besloten;
    25° professionele toewijding: het normale niveau van bijzondere vakkundigheid en zorgvuldigheid dat
  redelijkerwijs van een onderneming in haar activiteitsdomein ten aanzien van de consument mag worden
-Pagina 58 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verwacht, overeenkomstig de eerlijke handelsgebruiken;
     26° uitnodiging tot aankoop: een commerciële boodschap die de kenmerken en de prijs van het product op
  een aan het gebruikte medium aangepaste wijze vermeldt en de consument aldus in staat stelt een aankoop te
@@ -361,7 +366,6 @@ Pagina 58 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overeenkomsten te sluiten met andere ondernemingen of consumenten;
     42° aanbieder van een onlinemarktplaats: iedere onderneming die consumenten een onlinemarktplaats
  aanbiedt;
-Pagina 59 van 764 Copyright Belgisch S taatsblad 16-04-2026
    43° compatibiliteit: het vermogen van de digitale inhoud of digitale dienst om te functioneren met hardware of
  software waarmee digitale inhoud of digitale diensten van hetzelfde type gewoonlijk worden gebruikt, zonder de
  noodzaak om de digitale inhoud of digitale dienst te converteren;
@@ -415,7 +419,9 @@ Pagina 59 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 2, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  Art. I.9.[1 Voor de toepassing van boek VII gelden de volgende definities :
+## Art. I.9
+
+[1 Voor de toepassing van boek VII gelden de volgende definities :
    1° betalingsdienst : elke dienst, te koop aangeboden in het raam van een bedrijfsactiviteit, als hierna vermeld :
    a) diensten waarbij de mogelijkheid wordt geboden contanten op een betaalrekening te plaatsen alsook alle
  verrichtingen die voor het beheren van een betaalrekening vereist zijn;
@@ -428,7 +434,6 @@ Pagina 59 van 764 Copyright Belgisch S taatsblad 16-04-2026
    - uitvoering van overschrijvingen, met inbegrip van doorlopende betalingsopdrachten;
    d) uitvoering van betalingstransacties waarbij de geldmiddelen zijn gedekt door een krediet die aan de
  betalingsdienstgebruiker wordt verstrekt :
-Pagina 60 van 764 Copyright Belgisch S taatsblad 16-04-2026
     - uitvoering van domiciliëringen;
     - uitvoering van betalingstransacties via een betaalinstrument;
     - uitvoering van overschrijvingen, met inbegrip van doorlopende betalingsopdrachten;
@@ -495,7 +500,6 @@ Pagina 60 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betaalrekening kan omvatten;
     17° werkdag [13 in de titels 1 tot 6]13 : een dag waarop de relevante betalingsdienstaanbieder van de betaler of
  de betalingsdienstaanbieder van de begunstigde die betrokken is bij de uitvoering van een betalingstransactie
-Pagina 61 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toegankelijk is voor de bij de uitvoering van een betalingstransactie vereiste werkzaamheden;
     18° valutadatum : het referentietijdstip dat door een betalingsdienstaanbieder wordt gebruikt voor de
  berekening van de interesten op de geldmiddelen waarmee een betaalrekening wordt gedebiteerd of
@@ -563,7 +567,6 @@ Pagina 61 van 764 Copyright Belgisch S taatsblad 16-04-2026
     33/6° doorlopende betalingsopdracht: een instructie die de betaler geeft aan de rekeninghoudende
  betalingsdienstaanbieder, om met regelmatige tussenpozen of op vooraf vastgelegde data overschrijvingen uit te
  voeren;
-Pagina 62 van 764 Copyright Belgisch S taatsblad 16-04-2026
     33/7° overschrijving met memodatum: een overschrijving waarbij de betaler een toekomstige uitvoeringsdatum
  heeft aangeduid;
     33/8° vooraf betaalde kaart: een categorie van betaalinstrumenten waarop elektronisch geld kan worden
@@ -631,7 +634,6 @@ Pagina 62 van 764 Copyright Belgisch S taatsblad 16-04-2026
     36° [3 verbonden agent: een kredietbemiddelaar die handelt voor rekening van en onder de volle en
  onvoorwaardelijke verantwoordelijkheid van:
     a) slechts één kredietgever, of
-Pagina 63 van 764 Copyright Belgisch S taatsblad 16-04-2026
     b) meerdere kredietgevers die behoren tot eenzelfde groep;]3
     37° [2 kredietmakelaar : een kredietbemiddelaar, met uitsluiting van een verbonden agent, een subagent of een
  agent in een nevenfunctie, die zijn bemiddelingsactiviteiten uitoefent buiten elke exclusieve
@@ -698,7 +700,6 @@ Pagina 63 van 764 Copyright Belgisch S taatsblad 16-04-2026
  percentage wordt gebruikt;
     46° verkoop op afbetaling : elke kredietovereenkomst, ongeacht de benaming of de vorm, welke normaal leidt
  tot de verkrijging van goederen of levering van diensten, verkocht door de kredietgever of de kredietbemiddelaar
-Pagina 64 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedoeld in [19 35°, tweede lid]19, en waarvan de prijs betaald wordt door middel van periodieke stortingen;
     47° financieringshuur : elke kredietovereenkomst, ongeacht de benaming of de vorm, waarbij de ene partij zich
  ertoe verbindt de andere het genot van een lichamelijk roerend goed te verschaffen tegen een bepaalde prijs, die
@@ -766,7 +767,6 @@ Pagina 64 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitoefent of de vestiging van een andere kredietgever of kredietbemiddelaar;
     60° kapitaal : de schuld in hoofdsom die het voorwerp uitmaakt van de kredietovereenkomst.
     Voor de geoorloofde debetstanden op een rekening en de overschrijdingen zonder regeling voor gespreide
-Pagina 65 van 764 Copyright Belgisch S taatsblad 16-04-2026
  terugbetaling van de hoofdsom : het door de consument opgenomen bedrag, vermeerderd met de vervallen
  debetintresten en, in het geval van eenvoudige betalingsachterstand zoals bedoeld in artikel VII.106, § 2,
  vervallen nalatigheidsinteresten op het bedrag van de overschrijding;
@@ -834,7 +834,6 @@ Pagina 65 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor de distributie, die, bij een kredietgever of een kredietbemiddelaar, op welke wijze dan ook, in contact staat
  met het publiek met het oog op het voorstellen van kredietovereenkomsten of hierover informatie verstrekt;
 
-Pagina 66 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Iedere persoon die rechtstreeks bij de bemiddelingswerkzaamheden betrokken is, zelfs zonder in contact te
  staan met het publiek, wordt gelijkgesteld met een persoon die in contact staat met het publiek;]16
     80° wet van 2 augustus 2002 : wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en
@@ -902,7 +901,6 @@ Pagina 66 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (13)<W 2018-04-15/14, art. 44, 059; Inwerkingtreding : 01-11-2018>
    (14)<W 2019-05-02/28, art. 2,b-2,c, 077; Inwerkingtreding : 01-06-2019>
 
-Pagina 67 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (15)<W 2019-05-08/14, art. 98, 089; Inwerkingtreding : 01-09-2020>
   (16)<W 2021-06-27/09, art. 367, 099; Inwerkingtreding : 01-08-2022>
   (17)<W 2022-09-25/14, art. 2, 120; Inwerkingtreding : 26-01-2023>
@@ -911,7 +909,9 @@ Pagina 67 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   HOOFDSTUK 6. - Definities eigen aan boek VIII
 
-   Art. I.9.Voor de toepassing van boek VIII gelden de volgende definities :
+## Art. I.9
+
+Voor de toepassing van boek VIII gelden de volgende definities :
    1° " Norm " : een door een erkende normalisatie-instelling vastgestelde technische specificatie voor herhaalde of
  voortdurende toepassing, waarvan de naleving niet verplicht is en die tot een van de volgende categorieën
  behoort :
@@ -972,7 +972,6 @@ Pagina 67 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betreffende de toegankelijkheidsvoorschriften voor producten en diensten;
    2° personen met een handicap: personen met langdurige fysieke, mentale, intellectuele of zintuiglijke
  beperkingen die in hun interactie te kampen hebben met diverse drempels die hen kunnen beletten volledig,
-Pagina 68 van 764 Copyright Belgisch S taatsblad 16-04-2026
  effectief en op voet van gelijkheid met anderen in de samenleving te participeren;
     3° dienst: elke economische activiteit, anders dan in loondienst, die gewoonlijk tegen vergoeding geschiedt,
  bedoeld in artikel 57 van het Verdrag betreffende de werking van de Europese Unie;
@@ -1004,7 +1003,9 @@ Pagina 68 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 2, 004; Inwerkingtreding : 12-12-2013 par KB 2013-12-08/01, art. 2>
 
-   Art. I.10.[1 Voor de toepassing van boek IX gelden de volgende definities :
+## Art. I.10
+
+[1 Voor de toepassing van boek IX gelden de volgende definities :
    1° " product " : elk lichamelijk goed dat ongeacht of het nieuw, tweedehands of opnieuw in goede staat
  gebracht is, tegen betaling of gratis, in het kader van een handelsactiviteit of in het kader van een dienst aan een
  gebruiker wordt geleverd of ter beschikking gesteld, evenals elk lichamelijk goed dat door een werkgever in
@@ -1040,7 +1041,6 @@ Pagina 68 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dienstverlener van een product dat risico's inhoudt voor een [2 gebruiker]2, voor zover het een product betreft
  dat rechtstreeks verband houdt met de dienstverlening;
    6° " veilige dienst " : een dienst waarbij enkel veilige producten aan worden geboden en waarbij de
-Pagina 69 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dienstverlening geen risico's inhoudt voor de gebruiker dan wel beperkte risico's die verenigbaar zijn met de
  dienstverlening en vanuit het oogpunt van een hoog beschermingsniveau voor de gezondheid en de veiligheid
  aanvaardbaar worden geacht;
@@ -1111,7 +1111,6 @@ Pagina 69 van 764 Copyright Belgisch S taatsblad 16-04-2026
    - een gemeenschappelijk uithangbord;
    - een gemeenschappelijke handelsnaam;
    - een overdracht van know how;
-Pagina 70 van 764 Copyright Belgisch S taatsblad 16-04-2026
     - een commerciële of technische bijstand.
     3° "verkoopconcessie" : iedere overeenkomst krachtens welke een concessiegever aan een of meer
  concessiehouders het recht voorbehoudt in eigen naam en voor eigen rekening producten te verkopen, die
@@ -1123,7 +1122,9 @@ Pagina 70 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. I.13.[1 Voor de toepassing van boek XI gelden de volgende definities :
+## Art. I.13
+
+[1 Voor de toepassing van boek XI gelden de volgende definities :
    1° Verdrag van Parijs : het Verdrag tot bescherming van de industriële eigendom ondertekend te Parijs op 20
  maart 1883 en goedgekeurd bij de wet van 5 juli 1884, inbegrepen iedere herzieningsakte die door België werd
  bekrachtigd;
@@ -1173,13 +1174,14 @@ Pagina 70 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2015-07-20/15, art. 3, 027; Inwerkingtreding : 03-09-2015>
    (4)<W 2022-06-19/03, art. 2, 113; Inwerkingtreding : 01-08-2022>
 
-   Art. I.14.[1 Voor de toepassing van boek XI, titels 1 en 2, gelden de volgende definities :
+## Art. I.14
+
+[1 Voor de toepassing van boek XI, titels 1 en 2, gelden de volgende definities :
    1° Samenwerkingsverdrag : het Verdrag tot samenwerking inzake octrooien, opgemaakt te Washington op 19
  juni 1970 en goedgekeurd door de wet van 8 juli 1977;
    2° Europees Octrooiverdrag : het Verdrag inzake de verlening van Europese octrooien, opgemaakt te München
  op 5 oktober 1973, goedgekeurd bij de wet van 8 juli 1977, zoals gewijzigd door de Akte tot herziening van het
  Verdrag inzake de verlening van Europese octrooien, aangenomen te München op 29 november 2000 en
-Pagina 71 van 764 Copyright Belgisch S taatsblad 16-04-2026
  goedgekeurd bij wet van 21 april 2007;
    3° wet van 10 januari 1955 : de wet betreffende de bekendmaking en de toepassing der uitvindingen en
  fabrieksgeheimen die de verdediging van het grondgebied of de veiligheid van de Staat aangaan;
@@ -1234,7 +1236,9 @@ Pagina 71 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. I.16.[1 § 1. Voor de toepassing van boek XI, titel 5, gelden de volgende definities:
+## Art. I.16
+
+[1 § 1. Voor de toepassing van boek XI, titel 5, gelden de volgende definities:
    1° Controledienst: de controledienst van de vennootschappen voor het beheer van auteursrechten en
  naburige rechten bij de Federale Overheidsdienst Economie;
    2° rechtmatig gebruiker: eenieder die handelingen verricht welke door de auteur of bij wet zijn toegestaan;
@@ -1249,7 +1253,6 @@ Pagina 71 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ether, met inbegrip van satellietuitzending, maar niet via online-uitzending, mits:
    a) de doorgifte wordt verricht door een andere partij dan de omroeporganisatie die de eerste uitzending heeft
  gedaan of onder controle of verantwoordelijkheid waarvan die eerste uitzending plaatsvond, ongeacht de wijze
-Pagina 72 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waarop de partij die de doorgifte verricht de programmadragende signalen van de omroeporganisatie met het
  oog op doorgifte verkrijgt; en
     b) indien de doorgifte via een internettoegangsdienst als gedefinieerd in artikel 2, tweede alinea, punt 2, van
@@ -1317,7 +1320,6 @@ Pagina 72 van 764 Copyright Belgisch S taatsblad 16-04-2026
     3° lid: een rechthebbende of een entiteit die rechthebbenden vertegenwoordigt, met inbegrip van andere
  beheersvennootschappen, collectieve beheerorganisaties en verenigingen van rechthebbenden, die voldoet aan
  de voorwaarden tot lidmaatschap van de collectieve beheerorganisatie en door deze collectieve
-Pagina 73 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beheerorganisatie is toegelaten;
     4° rechteninkomsten: door een beheersvennootschap of een collectieve beheerorganisatie namens
  rechthebbenden geïnde inkomsten, hetzij voortvloeiend uit een exclusief recht, een recht op vergoeding of een
@@ -1387,8 +1389,9 @@ Pagina 73 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>
 
-  Art. I.18.[1 Voor de toepassing van Boek XII gelden de volgende definities :
-Pagina 74 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. I.18
+
+[1 Voor de toepassing van Boek XII gelden de volgende definities :
     1° dienst van de informatiemaatschappij : elke dienst die gewoonlijk tegen vergoeding, langs elektronische weg
  op afstand en op individueel verzoek van een afnemer van de dienst verricht wordt;
     2° elektronische post : tekst-, spraak, geluids- of beeldbericht dat over een openbaar communicatienetwerk
@@ -1457,7 +1460,6 @@ Pagina 74 van 764 Copyright Belgisch S taatsblad 16-04-2026
     21° organisatie voor data-altruïsme: een rechtspersoon die zonder winstoogmerk een altruïstische
  gegevensactiviteit uitoefent zoals gedefinieerd in artikel 2, 16), van Verordening 2022/868;
     22° inschrijvingsorgaan: het orgaan bedoeld in de artikelen 13 en 23 van Verordening 2022/868 opgericht
-Pagina 75 van 764 Copyright Belgisch S taatsblad 16-04-2026
  binnen de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie en belast met het inschrijven van
  de aanbieders van databemiddelingsdiensten en de registratie van organisaties voor data-altruïsme die gevestigd
  zijn in België of een wettelijke vertegenwoordiger in België hebben;
@@ -1475,7 +1477,9 @@ Pagina 75 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. I.19.[1 Voor de toepassing van Boek XVI gelden de volgende definities :
+## Art. I.19
+
+[1 Voor de toepassing van Boek XVI gelden de volgende definities :
     1° handelsvereniging, beroepsorde of organisatie : vereniging die uitsluitend of hoofdzakelijk het bestuderen,
  het beschermen en het bevorderen van de professionele of interprofessionele belangen van zijn leden tot doel
  heeft;
@@ -1503,7 +1507,9 @@ Pagina 75 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 3, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. I.20.[1 Voor de toepassing van boek XV gelden de volgende definities :
+## Art. I.20
+
+[1 Voor de toepassing van boek XV gelden de volgende definities :
     1° persoonsgegevens : informatie over een geïdentificeerde of identificeerbare natuurlijke persoon in
  overeenstemming met de definitie van artikel 1, § 1, van de wet van 8 december 1992 tot bescherming van de
  persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens;
@@ -1525,7 +1531,6 @@ Pagina 75 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [2 6° Bank : de Nationale Bank van België;]2
   [3 7° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
 
-Pagina 76 van 764 Copyright Belgisch S taatsblad 16-04-2026
  nastreeft, alsmede zijn verenigingen;
     8° inschrijvingsplichtige onderneming : elke entiteit die zich dient in te schrijven krachtens artikel III.49;]3
    [4 9° klager in de landbouw- en voedselvoorzieningsketen: elke leverancier van landbouw- en
@@ -1588,8 +1593,9 @@ Pagina 76 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. I.20/1.
 
-  Art. I.21.[1 Voor de toepassing van boek XVII, [3 titel 1 en]3 titel 2, gelden de volgende definities :
-Pagina 77 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. I.21
+
+[1 Voor de toepassing van boek XVII, [3 titel 1 en]3 titel 2, gelden de volgende definities :
    1° collectieve schade : het geheel van alle individuele schade die een gemeenschappelijke oorzaak heeft en die
  de leden van een groep hebben geleden;
    2° groep : het geheel van consumenten [2 of het geheel van kmo's]2 die individueel benadeeld zijn door een
@@ -1626,7 +1632,9 @@ Pagina 77 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-12-22/06, art. 82, 126; Inwerkingtreding : 08-01-2024>
 
-   Art. I.22.[1 Voor de toepassing van Boek XVII, Titel 3, gelden de volgende definities:
+## Art. I.22
+
+[1 Voor de toepassing van Boek XVII, Titel 3, gelden de volgende definities:
     1° "inbreuk op het mededingingsrecht": een inbreuk op artikel 101 of 102 van het Verdrag betreffende de
  werking van de Europese Unie (hierna "VWEU") [3 en/of op artikel IV.1, op artikel IV.2 of op artikel IV.2/1]3;
     2° "inbreukpleger": de onderneming of de ondernemingsvereniging die een inbreuk op het mededingingsrecht
@@ -1657,7 +1665,6 @@ Pagina 77 van 764 Copyright Belgisch S taatsblad 16-04-2026
     10° "inbreukbeslissing": een beslissing op grond waarvan het bestaan van een inbreuk op het
  mededingingsrecht wordt vastgesteld, uitgesproken door een mededingingsautoriteit of door een
  beroepsinstantie;
-Pagina 78 van 764 Copyright Belgisch S taatsblad 16-04-2026
     11° "definitieve inbreukbeslissing": een beslissing op grond waarvan het bestaan van een inbreuk op het
  mededingingsrecht wordt vastgesteld waartegen op grond van gangbare rechtsmiddelen geen of niet langer
  meer beroep open staat;
@@ -1725,7 +1732,6 @@ Pagina 78 van 764 Copyright Belgisch S taatsblad 16-04-2026
  invorderen van tegen betaling overgenomen schuldvorderingen;
    3° schuldinvorderaar: elke onderneming die een activiteit van minnelijke invordering van schulden uitoefent;
    4° onderneming: iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel
-Pagina 79 van 764 Copyright Belgisch S taatsblad 16-04-2026
  nastreeft, alsmede zijn verenigingen.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 3, 121; Inwerkingtreding : 01-09-2023>
@@ -1734,7 +1740,9 @@ Pagina 79 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 2, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. I.23.[1 Voor de toepassing van boek XX gelden de volgende definities:
+## Art. I.23
+
+[1 Voor de toepassing van boek XX gelden de volgende definities:
     1° insolventieprocedure: een procedure van minnelijk akkoord buiten gerechtelijke reorganisatie, een procedure
  van openbare of besloten gerechtelijke reorganisatie, een procedure van overdracht onder gerechtelijk gezag,
  een procedure van besloten voorbereiding van het faillissement of een faillissementsprocedure;
@@ -1792,7 +1800,6 @@ Pagina 79 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schuldvordering in de opschorting;
     16° [...]
     16° /1 betrokken partijen: schuldeisers of categorieën van schuldeisers en kapitaalhouders, wier vorderingen
-Pagina 80 van 764 Copyright Belgisch S taatsblad 16-04-2026
  of belangen naargelang het geval door een reorganisatieplan rechtstreeks worden getroffen;
    16° /2 kapitaalhouder: een persoon die een eigendomsbelang heeft in het vermogen van een rechtspersoon,
  waaronder een aandeelhouder, voor zover die persoon geen schuldeiser is;
@@ -1867,8 +1874,9 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2017-04-18/03, art. 2, 046; Inwerkingtreding : 04-05-2017>
 
-Pagina 81 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. II.5.[1 Voor besluiten die een loutere omzetting zijn van harmonisatiemaatregelen genomen op Europees
+## Art. II.5
+
+[1 Voor besluiten die een loutere omzetting zijn van harmonisatiemaatregelen genomen op Europees
  vlak, zijn de raadplegingen van adviesorganen voorzien door dit Wetboek, niet verplicht, [2 maar zullen deze
  besluiten ter kennis worden gebracht van deze adviesorganen]2.
    Ontwerpen van besluiten die invulling geven aan een door de maatregel voorziene beleidsmarge of die andere
@@ -1890,7 +1898,9 @@ Pagina 81 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.1.[1 § 1. Deze titel voert gedeeltelijk de bepalingen uit van de Richtlijn 2006/123/EG van het Europees
+## Art. III.1
+
+[1 § 1. Deze titel voert gedeeltelijk de bepalingen uit van de Richtlijn 2006/123/EG van het Europees
  Parlement en de Raad van 12 december 2006 betreffende diensten op de interne markt.
    § 2. Deze titel is van toepassing op diensten, onverminderd de bevoegdheden van de gemeenschappen en de
  gewesten, met uitzondering van :
@@ -1933,7 +1943,6 @@ Pagina 81 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° de wet van 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van EGberoepskwalificaties.
    § 4. Deze titel heeft geen betrekking op de regels van het internationaal privaatrecht, in het bijzonder de regels
  betreffende de bepaling van het op contractuele en niet-contractuele verbintenissen toepasselijke recht, met
-Pagina 82 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inbegrip van de regels die waarborgen dat voor de consumenten de bescherming geldt die hen wordt geboden
  door de regels inzake consumentenbescherming die zijn neergelegd in de consumentenwetgeving die in hun
  lidstaat van kracht is.
@@ -2011,7 +2020,6 @@ Pagina 82 van 764 Copyright Belgisch S taatsblad 16-04-2026
  lidstaat waar hij een vestiging heeft, al gedekt is door een waarborg die gelijkwaardig is of die, met betrekking tot
  het doel en de dekking die hij biedt wat het verzekerde risico, de verzekerde som, de maximale waarborg en de
 
-Pagina 83 van 764 Copyright Belgisch S taatsblad 16-04-2026
  mogelijke uitzonderingen van de dekking betreft, in wezen vergelijkbaar is.
   Indien de waarborg slechts ten dele gelijkwaardig is, zal voor de nog niet gedekte elementen een aanvullende
  waarborg geëist worden.
@@ -2089,7 +2097,6 @@ Pagina 83 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Wanneer het aantal beschikbare vergunningen voor een activiteit beperkt is door schaarste van
  de beschikbare natuurlijke hulpbronnen of de bruikbare technische mogelijkheden, wordt een selectie gemaakt
  uit de gegadigden volgens een selectieprocedure die alle waarborgen voor onpartijdigheid en transparantie biedt,
-Pagina 84 van 764 Copyright Belgisch S taatsblad 16-04-2026
  met name een toereikende bekendmaking van de opening, uitvoering en afsluiting van de procedure.
   In de in het eerste lid bedoelde gevallen wordt de vergunning voor een passende beperkte duur verleend en
  wordt zij niet automatisch verlengd; evenmin wordt enig ander voordeel toegekend aan de dienstverrichter wiens
@@ -2161,7 +2168,6 @@ Pagina 84 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. Het vrij verrichten van diensten door een in een andere lidstaat gevestigde dienstverrichter mag niet
  beperkt worden door één van de volgende vereisten :
   a) een verplichting voor de dienstverrichter een vestiging in België te hebben;
-Pagina 85 van 764 Copyright Belgisch S taatsblad 16-04-2026
   b) een verplichting voor de dienstverrichter bij de Belgische bevoegde autoriteit een vergunning te verkrijgen of
  zich in te schrijven in een register of bij een beroepsorde of -vereniging in België, behalve in de in deze titel of
  door het gemeenschapsrecht geregelde gevallen;
@@ -2177,7 +2183,9 @@ Pagina 85 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.14.[1 Artikel III.13 is niet van toepassing :
+## Art. III.14
+
+[1 Artikel III.13 is niet van toepassing :
    1° op diensten van algemeen economisch belang;
    2° op de aangelegenheden die vallen onder [2 de wet van 5 maart 2002 betreffende de arbeids-, loon- en
  tewerkstellingsvoorwaarden in geval van detachering van werknemers in België en de naleving ervan]2, en
@@ -2229,8 +2237,9 @@ Pagina 85 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 1. [1 Oprichting van de Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
-Pagina 86 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. III.15.[1 Er wordt een register opgericht, genaamd " Kruispuntbank van Ondernemingen ".
+## Art. III.15
+
+[1 Er wordt een register opgericht, genaamd " Kruispuntbank van Ondernemingen ".
    Dit register en de daarmee gepaard gaande invoering van een uniek ondernemingsnummer heeft tot doel door
  de realisatie van het principe van de unieke gegevensinzameling de administratieve verplichtingen opgelegd [2 aan
  geregistreerde entiteiten]2 te vereenvoudigen en de werking van de overheidsdiensten efficiënter te organiseren.
@@ -2262,7 +2271,9 @@ Pagina 86 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2024-02-09/19, art. 4, 129; Inwerkingtreding : 31-03-2024>
    (4)<W 2023-12-22/06, art. 73, 126; Inwerkingtreding : 01-07-2024>
 
-   Art. III.16.[1 § 1. In de Kruispuntbank van Ondernemingen worden gegevens opgenomen betreffende :
+## Art. III.16
+
+[1 § 1. In de Kruispuntbank van Ondernemingen worden gegevens opgenomen betreffende :
     1° [2 elke natuurlijke persoon die zich dient in te schrijven in de hoedanigheid van inschrijvingsplichtige
  onderneming;]2
     2° elke rechtspersoon naar Belgisch recht;
@@ -2286,15 +2297,18 @@ Pagina 86 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.17.[1 [2 Iedere geregistreerde entiteit]2 of vestigingseenheid bedoeld in artikel III.16, wordt in de
+## Art. III.17
+
+[1 [2 Iedere geregistreerde entiteit]2 of vestigingseenheid bedoeld in artikel III.16, wordt in de
  Kruispuntbank van Ondernemingen ingeschreven en verkrijgt op het ogenblik van de inschrijving een
  ondernemings- of vestigingseenheidsnummer. Dit nummer vormt hun uniek identificatienummer.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 51, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 87 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. III.18.[1 § 1. De inschrijving die gebeurt krachtens artikel III.17 omvat de volgende gegevens :
+## Art. III.18
+
+[1 § 1. De inschrijving die gebeurt krachtens artikel III.17 omvat de volgende gegevens :
    1° de naam, de benaming of de firmanaam;
    2° de nauwkeurige aanduiding van de onderscheiden adressen, in voorkomend geval, van de maatschappelijke
  zetel van de [2 geregistreerde entiteit]2 en van de verschillende vestigingseenheden in België;
@@ -2327,7 +2341,9 @@ Pagina 87 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2024-02-09/19, art. 6, 129; Inwerkingtreding : 31-03-2024>
    (4)<W 2023-12-22/06, art. 74, 126; Inwerkingtreding : 01-07-2024>
 
-  Art. III.19.[1 De Koning wijst, bij een besluit vastgesteld na overleg in de ministerraad, de overheden,
+## Art. III.19
+
+[1 De Koning wijst, bij een besluit vastgesteld na overleg in de ministerraad, de overheden,
  administraties en diensten aan die, betreffende de categorieën van [2 geregistreerde entiteiten]2 die Hij aanduidt
  en volgens de functionele verdeling die Hij vastlegt, belast zijn met de eenmalige inzameling en het actualiseren
  van de gegevens bedoeld in artikel III.18.
@@ -2337,7 +2353,9 @@ Pagina 87 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 53, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.20.[2 § 1.]2 [1 Voor de uitvoering van hun opdrachten zoals omschreven in deze titel en zijn
+## Art. III.20
+
+[2 § 1.]2 [1 Voor de uitvoering van hun opdrachten zoals omschreven in deze titel en zijn
  uitvoeringsbesluiten, hebben de Kruispuntbank van Ondernemingen en de overheden, administraties en diensten
  bedoeld bij artikel III.19, eerste lid :
   1° toegang tot de informatie bedoeld in artikel 3, eerste lid, 1° tot 9°, en tweede lid van de wet van 8 augustus
@@ -2351,21 +2369,24 @@ Pagina 87 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2024-02-09/19, art. 7, 129; Inwerkingtreding : 31-03-2024>
 
-  Art. III.21.[1 De Koning stelt, bij een besluit vastgesteld na overleg in de ministerraad, de modaliteiten en de aard
+## Art. III.21
+
+[1 De Koning stelt, bij een besluit vastgesteld na overleg in de ministerraad, de modaliteiten en de aard
  van de inschrijvingen en de wijzigingen vast, die rechtstreeks op een elektronisch beveiligde wijze door de [2
  geregistreerde entiteiten]2, bedoeld in artikel III.16, mogen [3 of dienen te]3 worden meegedeeld aan de
  Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 54, 059; Inwerkingtreding : 01-11-2018>
-Pagina 88 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2023-12-22/06, art. 75, 126; Inwerkingtreding : 01-07-2024>
 
   Afdeling 3. [1 Toekenning en gebruik van het ondernemings- en vestigingseenheidsnummer.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.22.[1 Het ondernemingsnummer en het vestigingseenheidsnummer toegekend op het ogenblik van de
+## Art. III.22
+
+[1 Het ondernemingsnummer en het vestigingseenheidsnummer toegekend op het ogenblik van de
  inschrijving in de Kruispuntbank van Ondernemingen worden onmiddellijk na de toekenning medegedeeld [2 aan
  de geregistreerde entiteit]2 door de krachtens artikel III.19, eerste lid, aangewezen overheden, administraties en
  diensten.
@@ -2375,7 +2396,9 @@ Pagina 88 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
    (2)<W 2018-04-15/14, art. 55, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.23.[1 Het gebruik van het ondernemingsnummer is verplicht in de betrekkingen die de [2 geregistreerde
+## Art. III.23
+
+[1 Het gebruik van het ondernemingsnummer is verplicht in de betrekkingen die de [2 geregistreerde
  entiteiten]2 hebben met de administratieve en rechterlijke overheden, evenals in de betrekkingen die deze laatste
  onderling hebben.
   De krachtens artikel III.19, eerste lid, aangewezen overheden, administraties en diensten nemen, teneinde de
@@ -2390,7 +2413,9 @@ Pagina 88 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. III.24.
 
-   Art. III.25.[1 Alle akten, facturen, aankondigingen, bekendmakingen, brieven, orders en andere stukken
+## Art. III.25
+
+[1 Alle akten, facturen, aankondigingen, bekendmakingen, brieven, orders en andere stukken
  uitgaande van [3 inschrijvingsplichtige ondernemingen]3 dienen steeds het ondernemingsnummer te vermelden.
    [4 Deze documenten moeten eveneens de domiciliëring en het nummer vermelden van ten minste één
  betaalrekening waarvan de inschrijvingsplichtige onderneming houdster is bij een kredietinstelling gevestigd in de
@@ -2412,7 +2437,9 @@ Pagina 88 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2018-04-15/14, art. 58, 059; Inwerkingtreding : 01-11-2018>
    (4)<W 2022-09-25/14, art. 3, 120; Inwerkingtreding : 26-01-2023>
 
-  Art. III.26.[1 § 1. Elk op verzoek van een [2 inschrijvingsplichtige onderneming]2 betekend deurwaardersexploot
+## Art. III.26
+
+[1 § 1. Elk op verzoek van een [2 inschrijvingsplichtige onderneming]2 betekend deurwaardersexploot
  vermeldt steeds het ondernemingsnummer.
   [2 Bij gebreke aan vermelding van het ondernemingsnummer op het deurwaardersexploot, verleent de
  rechtbank uitstel aan de inschrijvingsplichtige onderneming om haar inschrijving in de Kruispuntbank van
@@ -2423,7 +2450,6 @@ Pagina 88 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ambtswege de vordering van de inschrijvingsplichtige onderneming onontvankelijk.]2
   § 2. [3 ...]3]1
   ----------
-Pagina 89 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 59, 059; Inwerkingtreding : 01-11-2018>
   (3)<W 2019-05-02/22, art. 2, 072; Inwerkingtreding : 27-05-2019>
@@ -2435,7 +2461,9 @@ Pagina 89 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.28.[1 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, de verplichtingen bedoeld
+## Art. III.28
+
+[1 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, de verplichtingen bedoeld
  in de artikelen III.25 en III.26, uitbreiden tot andere [2 categorieën van geregistreerde entiteiten]2 die in de
  Kruispuntbank van Ondernemingen zijn opgenomen.]1
    ----------
@@ -2446,7 +2474,9 @@ Pagina 89 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.29.[1 § 1. De toegang tot de volgende gegevens, vermeld in de Kruispuntbank van Ondernemingen, kan
+## Art. III.29
+
+[1 § 1. De toegang tot de volgende gegevens, vermeld in de Kruispuntbank van Ondernemingen, kan
  [3 worden verleend aan de overheden, besturen, diensten of andere instanties handelend in het kader van de
  uitoefening van hun wettelijke of reglementaire opdrachten]3 :
   1° de ondernemingsnummers en nummers van vestigingseenheidsnummers, toegekend door de
@@ -2491,8 +2521,9 @@ Pagina 89 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2024-02-09/19, art. 8, 129; Inwerkingtreding : 31-03-2024>
   (4)<W 2023-12-22/06, art. 76, 126; Inwerkingtreding : 01-07-2024>
 
-Pagina 90 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. III.30.[1 § 1. De toegang tot de andere gegevens opgenomen in de Kruispuntbank van Ondernemingen dan
+## Art. III.30
+
+[1 § 1. De toegang tot de andere gegevens opgenomen in de Kruispuntbank van Ondernemingen dan
  die opgesomd in artikel III.29, kan worden verleend door de beheersdienst van de Kruispuntbank van
  Ondernemingen, mits machtiging door de minister bevoegd voor Economie, aan de overheden, besturen,
  diensten of andere instanties handelend in het kader van de uitoefening van hun wettelijke of reglementaire
@@ -2524,7 +2555,9 @@ Pagina 90 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.32.[1 [2 Iedere geregistreerde entiteit]2 heeft recht op mededeling van de hem betreffende gegevens die
+## Art. III.32
+
+[1 [2 Iedere geregistreerde entiteit]2 heeft recht op mededeling van de hem betreffende gegevens die
  opgenomen zijn in de Kruispuntbank van Ondernemingen. Indien blijkt dat de medegedeelde gegevens
  overeenkomstig de ter zake geldende wetgeving onnauwkeurig, onvolledig of onjuist zijn, kan de houder van een
  inschrijving in de Kruispuntbank van Ondernemingen de verbetering van deze gegevens vragen op de wijze en
@@ -2533,7 +2566,9 @@ Pagina 90 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
    (2)<W 2018-04-15/14, art. 62, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.33.[1 Zonder afbreuk te doen aan de bepalingen van de artikelen III.29 en III.30, stelt de Koning [2 ...]2
+## Art. III.33
+
+[1 Zonder afbreuk te doen aan de bepalingen van de artikelen III.29 en III.30, stelt de Koning [2 ...]2
  de gegevens van de Kruispuntbank van Ondernemingen vast die het voorwerp kunnen uitmaken van een
  commercieel of niet-commercieel hergebruik alsook de modaliteiten inzake hun terbeschikkingstelling.
   Enkel de beheersdienst mag deze basisgegevens aan ondernemingen verstrekken.]1
@@ -2541,7 +2576,9 @@ Pagina 90 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2024-02-09/19, art. 10, 129; Inwerkingtreding : 31-03-2024>
 
-  Art. III.34.[1 § 1. Onverminderd artikel III.33 kan eenieder bij een ondernemingsloket inzage nemen van de
+## Art. III.34
+
+[1 § 1. Onverminderd artikel III.33 kan eenieder bij een ondernemingsloket inzage nemen van de
  gegevens [2 ...]2 betreffende een bepaalde [2 inschrijvingsplichtige onderneming]2 en zich volledige of
  gedeeltelijke afschriften dan wel uittreksels van het register doen afgeven op de wijze bepaald door de Koning.
   § 2. De afschriften of uittreksels [2 betreffende een inschrijvingsplichtige onderneming]2 worden op uitdrukkelijk
@@ -2552,19 +2589,22 @@ Pagina 90 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-04-15/14, art. 63, 059; Inwerkingtreding : 01-11-2018>
   (3)<W 2024-02-09/19, art. 11, 129; Inwerkingtreding : 31-03-2024>
 
-  Art. III.35.[2 § 1.]2 [1 De gegevens vermeld op de uittreksels van de Kruispuntbank van Ondernemingen hebben
+## Art. III.35
+
+[2 § 1.]2 [1 De gegevens vermeld op de uittreksels van de Kruispuntbank van Ondernemingen hebben
  bewijskracht tot bewijs van het tegendeel.]1
   [2 § 2. De uittreksels zijn beschikbaar in de drie officiële landstalen. Zij worden ook afgeleverd in het Engels op
  uitdrukkelijk verzoek.]2
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2016-06-06/06, art. 2, 048; Inwerkingtreding : 10-06-2017>
-Pagina 91 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 5. [1 Realisatie van het principe van de unieke gegevensinzameling.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.36.[1 Overheden, administraties en diensten die gemachtigd zijn de gegevens van de Kruispuntbank van
+## Art. III.36
+
+[1 Overheden, administraties en diensten die gemachtigd zijn de gegevens van de Kruispuntbank van
  Ondernemingen te raadplegen mogen deze gegevens niet meer opnieuw rechtstreeks opvragen bij de [2
  geregistreerde entiteiten]2 of bij de lasthebbers van deze laatste.]1
   ----------
@@ -2583,7 +2623,9 @@ Pagina 91 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.38.[1 § 1. Elke belanghebbende kan bij de beheersdienst de rechtzetting van een onjuist gegeven of de
+## Art. III.38
+
+[1 § 1. Elke belanghebbende kan bij de beheersdienst de rechtzetting van een onjuist gegeven of de
  inschrijving van een ontbrekend gegeven in de Kruispuntbank van Ondernemingen aanvragen. Hij deelt ter
  ondersteuning van dit verzoek alle rechtvaardigende stukken mee.
    De [2 geregistreerde entiteit]2 die de formaliteiten niet heeft vervuld waartoe ze gehouden is door of krachtens
@@ -2610,7 +2652,9 @@ Pagina 91 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.40.[1 § 1. Wanneer het onjuiste of ontbrekende gegeven het gevolg is van het niet vervullen door een
+## Art. III.40
+
+[1 § 1. Wanneer het onjuiste of ontbrekende gegeven het gevolg is van het niet vervullen door een
  geregistreerde entiteit van de formaliteiten waartoe ze gehouden is door of krachtens een wet, een decreet of
  een ordonnantie, verzoekt de beheersdienst de geregistreerde entiteit, door middel van een schrijven, om over
  te gaan tot de inschrijving, de wijziging of de doorhaling van haar gegeven bij de dienst die door de beheersdienst
@@ -2629,7 +2673,6 @@ Pagina 91 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verzoekt hij de geregistreerde entiteit opnieuw, door middel van een schrijven, om over te gaan tot het vervullen
  van de formaliteiten binnen een termijn van dertig dagen. Na het verstrijken van deze termijn, gaat de
  beheersdienst over tot de ambtshalve doorhaling van de desbetreffende gegevens.
-Pagina 92 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 3. De beheersdienst verstuurt het schrijven, zoals bedoeld in paragrafen 1, eerste lid, en 2, derde lid, naar
  het adres van de zetel van de entiteit, of, in geval van een buitenlandse entiteit, naar het adres van één van haar
  bijkantoren.
@@ -2660,7 +2703,9 @@ Pagina 92 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. III.41.
 
-   Art. III.42.[1 § 1. In afwijking van de procedure voorzien in artikel III.39 kan de beheersdienst van de
+## Art. III.42
+
+[1 § 1. In afwijking van de procedure voorzien in artikel III.39 kan de beheersdienst van de
  Kruispuntbank van Ondernemingen zonder aanrekening van de kosten overgaan tot :
    1° de ambtshalve doorhaling van de activiteiten, hoedanigheden, toelatingen en vestigingseenheden van [2
  geregistreerde entiteiten]2 natuurlijke personen waarvan de oprichter reeds minstens zes maanden overleden is
@@ -2694,7 +2739,6 @@ Pagina 92 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Staatsblad of in het Belgisch Staatsblad hebben uitgevoerd;
    [4 6° de ambtshalve doorhaling van de Belgische informatieplichtigen bedoeld in artikel 2, 3°, van het koninklijk
  besluit van 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register, dat verwijst naar de definitie
-Pagina 93 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vervat in artikel 74, § 1, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de
  financiering van terrorisme en tot beperking van het gebruik van contanten, voor zover deze entiteiten volgens
  de gegevens van de Algemene Administratie van de Thesaurie van de Federale Overheidsdienst Financiën
@@ -2765,7 +2809,6 @@ Pagina 93 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. III.45
 
 [1 De personen die bij het uitoefenen van hun functies tussenkomen in het opnemen, het bewaren,
-Pagina 94 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het beheren en het ter inzage stellen van de gegevens bedoeld in artikel III.18, zijn gehouden aan het
  beroepsgeheim.
   Zij nemen alle nodige voorzorgsmaatregelen om de veiligheid van de opgenomen gegevens te verzekeren en
@@ -2810,7 +2853,9 @@ Pagina 94 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.49.[1 § 1. [2 Vooraleer haar activiteiten te starten, is elke onderneming gehouden zich bij een
+## Art. III.49
+
+[1 § 1. [2 Vooraleer haar activiteiten te starten, is elke onderneming gehouden zich bij een
  ondernemingsloket naar keuze in te schrijven in de Kruispuntbank van Ondernemingen in de hoedanigheid van
  inschrijvingsplichtige onderneming. Deze inschrijving moet uitgevoerd worden voor zover de activiteiten worden
  uitgeoefend in of vanuit een vestigingseenheid.]2
@@ -2836,10 +2881,11 @@ Pagina 94 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderneming vormt, behoudens tegenbewijs, een vermoeden van de hoedanigheid van onderneming.]1
    ----------
    (1)<W 2018-04-15/14, art. 70, 059; Inwerkingtreding : 01-11-2018, en wat betreft vzw's : onbepaald>
-Pagina 95 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2024-02-09/19, art. 14, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. III.50.[1 § 1. De Koning stelt het bedrag vast van het inschrijvingsrecht voor de Kruispuntbank van
+## Art. III.50
+
+[1 § 1. De Koning stelt het bedrag vast van het inschrijvingsrecht voor de Kruispuntbank van
  Ondernemingen als [2 inschrijvingsplichtige onderneming]2.
    Hij kan hierbij een onderscheid maken op basis van de juridische aard van de onderneming.
    De aldus vastgestelde bedragen kunnen op 1 januari worden aangepast aan de procentuele verandering van
@@ -2858,7 +2904,9 @@ Pagina 95 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.51.[1 § 1. Niettegenstaande de bepalingen van paragraaf 2, moeten de [2 inschrijvingsplichtige
+## Art. III.51
+
+[1 § 1. Niettegenstaande de bepalingen van paragraaf 2, moeten de [2 inschrijvingsplichtige
  ondernemingen]2 die voornemens zijn een andere activiteit uit te oefenen dan deze waarvoor zij werden
  ingeschreven, vooraf om een wijziging van hun inschrijving in de Kruispuntbank van Ondernemingen verzoeken.
  Deze verplichting geldt op dezelfde wijze voor de [2 inschrijvingsplichtige ondernemingen]2 die voornemens zijn in
@@ -2889,7 +2937,9 @@ Pagina 95 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.52.[1 In geval van beëindiging van de activiteiten of sluiting van één van de vestigingseenheden, moet de
+## Art. III.52
+
+[1 In geval van beëindiging van de activiteiten of sluiting van één van de vestigingseenheden, moet de
  [2 inschrijvingsplichtige onderneming]2 of haar rechtsopvolgers, binnen één maand na de beëindiging van de
  activiteiten, om de doorhaling van de inschrijving verzoeken.
    Wanneer de in het eerste lid vermelde beëindiging voortvloeit uit een overdracht van de bedrijvigheid van een [2
@@ -2902,10 +2952,11 @@ Pagina 95 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 4. [1 Gemeenschappelijke bepalingen aan de inschrijving, wijziging of doorhaling.]1
   ----------
-Pagina 96 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.53.[1 Het verzoek tot inschrijving, wijziging of doorhaling moet gebeuren door de [2 inschrijvingsplichtige
+## Art. III.53
+
+[1 Het verzoek tot inschrijving, wijziging of doorhaling moet gebeuren door de [2 inschrijvingsplichtige
  onderneming]2, dit wil zeggen door de inschrijvingsplichtige natuurlijke personen respectievelijk de daartoe
  bevoegde vertegenwoordigers van de inschrijvingsplichtige onderneming.
   Het verzoek geschiedt op de door de Koning vastgestelde wijze.
@@ -2943,7 +2994,9 @@ Pagina 96 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.57.[1 Een ondernemingsloket verstrekt [2 inschrijvingsplichtige onderneming]2, op de wijze door de
+## Art. III.57
+
+[1 Een ondernemingsloket verstrekt [2 inschrijvingsplichtige onderneming]2, op de wijze door de
  Koning bepaald, op haar verzoek een volledig uittreksel van de inschrijving in de Kruispuntbank van
  Ondernemingen met vermelding van de datum van afgifte van het uittreksel.
    Het eerste uittreksel betreffende een inschrijving, een wijziging of een doorhaling wordt aan [2
@@ -2967,7 +3020,9 @@ Pagina 96 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.59.[1 § 1. Onverminderd de taken die hen opgedragen worden door of in uitvoering van dit boek of
+## Art. III.59
+
+[1 § 1. Onverminderd de taken die hen opgedragen worden door of in uitvoering van dit boek of
  andere wetten, hebben de ondernemingsloketten als taak :
    1° via hun infrastructuur, de dienstverrichters toe te laten :
    a) alle procedures en formaliteiten te laten afwikkelen die nodig zijn voor de toegang tot hun dienstenactiviteiten
@@ -2977,7 +3032,6 @@ Pagina 96 van 764 Copyright Belgisch S taatsblad 16-04-2026
    b) alle vergunningsaanvragen te laten afwikkelen die nodig zijn voor de uitoefening van hun dienstenactiviteiten,
  zoals bedoeld in de Dienstenrichtlijn;
    2° de [3 inschrijvingsplichtige ondernemingen]3 in die [3 hoedanigheid]3 inschrijven in de Kruispuntbank van
-Pagina 97 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Ondernemingen;
    3° in de door de Koning bepaalde gevallen nagaan of de [3 inschrijvingsplichtige ondernemingen]3 voldoen aan
  de krachtens bijzondere wetten en reglementen opgelegde voorwaarden om ingeschreven te worden;
@@ -3036,7 +3090,9 @@ Pagina 97 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-07-30/47, art. 5, 065; Inwerkingtreding : 15-09-2018>
    (3)<W 2018-04-15/14, art. 76, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.60.[1 § 1. De ondernemingsloketten dienen de inschrijvingsdossiers van [2 inschrijvingsplichtige
+## Art. III.60
+
+[1 § 1. De ondernemingsloketten dienen de inschrijvingsdossiers van [2 inschrijvingsplichtige
  ondernemingen]2, waarvoor ze in uitvoering van artikel III.59, 2°, niet gemachtigd zijn zelf te beslissen omtrent
  de inschrijving, voorafgaandelijk voor te leggen aan de hiertoe aangewezen dienst van de Federale
  Overheidsdienst Economie, K.M.O., Middenstand en Energie.
@@ -3045,7 +3101,6 @@ Pagina 97 van 764 Copyright Belgisch S taatsblad 16-04-2026
  documenten die toelaten het dossier van de [2 inschrijvingsplichtige onderneming]2 te onderzoeken,
  aangekomen zijn, brengt hij de onderneming en het ondernemingsloket op de hoogte van de volledigheid van het
 
-Pagina 98 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dossier. Hij verleent een schriftelijk en gemotiveerd advies binnen een termijn van vijftien dagen volgend op de
  betekening van de volledigheid van het dossier.
   § 3. Bij gebreke aan een schriftelijk en gemotiveerd advies binnen een termijn van vijftien dagen volgend op de
@@ -3118,7 +3173,6 @@ Pagina 98 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zonder winstoogmerk, hoofdzakelijk of uitsluitend gefinancierd met openbare middelen en die informatie-,
  begeleidings- of adviesactiviteiten uitoefent voor ondernemingsoprichters als blijkt dat in een zone die door de
  Europese of regionale overheid geografisch bepaald wordt als een zone die in aanmerking moet komen voor
-Pagina 99 van 764 Copyright Belgisch S taatsblad 16-04-2026
  positieve discriminatie, geen actief ondernemingsloket bestaat.
   Bij de toepassing van het voorafgaande lid zijn de erkenningsvoorwaarden voorzien in artikel III.61, § 1, 2° en §
  2, niet van toepassing.]1
@@ -3201,7 +3255,6 @@ Pagina 99 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De ondernemingsloketten moeten aan de overheden, de administraties en de diensten, met
  inbegrip van de parketten, de griffies van de hoven en van alle rechtscolleges, de leden van de rechterlijke
  machten de daartoe gemachtigde ambtenaren van de ministeries, alsook de besturen van de gemeenschappen,
-Pagina 100 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de gewesten, de provincies, de agglomeraties en de federaties van gemeenten en de gemeenten, en andere
  instellingen of organisaties aangeduid door de Koning, wanneer zij daartoe door hen wordt aangezocht,
  onverwijld en kosteloos, op de wijze door de Koning bepaald, alle in hun bezit zijnde inlichtingen verstrekken,
@@ -3272,7 +3325,6 @@ Pagina 100 van 764 Copyright Belgisch S taatsblad 16-04-2026
    11° het eventuele bestaan van een niet bij wet voorgeschreven garantie na verkoop;
    12° de prijs van de dienst wanneer de onderneming de prijs van een bepaalde soort dienst vooraf heeft
  vastgesteld;
-Pagina 101 van 764 Copyright Belgisch S taatsblad 16-04-2026
   13° de belangrijkste kenmerken van de ondernemingsactiviteit;
   14° de in artikel III.6 bedoelde verzekering of waarborgen, met name de adresgegevens van de verzekeraar of
  de borg en de geografische dekking.
@@ -3351,7 +3403,6 @@ Pagina 101 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een dienst die door een in België gevestigde onderneming wordt verricht.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
-Pagina 102 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. III.81
 
 [1 De afnemers worden niet onderworpen aan discriminerende vereisten op grond van nationaliteit of
@@ -3367,7 +3418,9 @@ Pagina 102 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. III.82.[1 § 1. De volgende ondernemingen zijn boekhoudplichtig :
+## Art. III.82
+
+[1 § 1. De volgende ondernemingen zijn boekhoudplichtig :
     1° iedere onderneming in de zin van artikel I.1. eerste lid, a), die in België zelfstandig een beroepsactiviteit
  uitoefent;
     2° iedere onderneming naar Belgisch recht in de zin van artikel I.1. eerste lid, b) en c);
@@ -3409,7 +3462,9 @@ Pagina 102 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2019-03-23/06, art. 28, 070; Inwerkingtreding : 01-05-2019>
    (3)<W 2019-03-17/14, art. 118, 071; Inwerkingtreding : 01-05-2019>
 
-  Art. III.83.[1 [2 De boekhouding van boekhoudplichtige ondernemingen omvat al hun verrichtingen, bezittingen,
+## Art. III.83
+
+[1 [2 De boekhouding van boekhoudplichtige ondernemingen omvat al hun verrichtingen, bezittingen,
  en rechten van welke aard ook, en hun vorderingen, schulden en verplichtingen van welke aard ook. De
  boekhouding van de boekhoudplichtige ondernemingen in de zin van artikel III.82, § 1, eerste lid, 1°, omvat deze
  gegevens evenwel uitsluitend wat betreft hun zelfstandige beroepsactiviteit; de eigen middelen die voor deze
@@ -3420,7 +3475,6 @@ Pagina 102 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zaakvoerder of deelgenoot in een [2 vennootschap zonder rechtspersoonlijkheid]2 verricht, wordt haar
  boekhouding derwijze aangepast dat ze naar het voorschrift van het eerste lid volledig is, zowel wat betreft de
 
-Pagina 103 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betrekkingen met derden als wat betreft de rekening en verantwoording die door de deelgenoten onderling of
  door zaakvoerder en deelgenoten aan elkaar moet worden gedaan.]1 [2 De rekeningen van vennootschappen
  zonder rechtspersoonlijkheid worden door de zaakvoerders of deelgenoten in hun eigen boekhouding
@@ -3429,7 +3483,9 @@ Pagina 103 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 80, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. III.84.[1 Elke boekhouding wordt door middel van een stelsel van boeken en rekeningen gevoerd met
+## Art. III.84
+
+[1 Elke boekhouding wordt door middel van een stelsel van boeken en rekeningen gevoerd met
  inachtneming van de gebruikelijke regels van het dubbel boekhouden.
    Alle verrichtingen worden zonder uitstel, getrouw, volledig en naar tijdsorde ingeschreven in een ongesplitst
  dagboek of in een hulpdagboek, al dan niet gesplitst in bijzondere hulpdagboeken. Ze worden methodisch
@@ -3465,7 +3521,9 @@ Pagina 103 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2014-04-02/21, art. 5, 014; Inwerkingtreding : 09-05-2014>
    (3)<W 2018-04-15/14, art. 81, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. III.85.[2 § 1.]2 [1 [2 boekhoudplichtige ondernemingen die een onderneming zijn in de zin van artikel I.1,
+## Art. III.85
+
+[2 § 1.]2 [1 [2 boekhoudplichtige ondernemingen die een onderneming zijn in de zin van artikel I.1,
  eerste lid, [5 1°,]5 (a) of (c)]2, de vennootschappen onder firma en de gewone commanditaire vennootschappen
  waarvan de omzet over het laatste boekjaar, exclusief de belasting over de toegevoegde waarde, een door de
  Koning bepaald bedrag niet overschrijdt, behoeven geen boekhouding te voeren volgens de voorschriften van de
@@ -3486,7 +3544,6 @@ Pagina 103 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de verkoopfacturen dan wel op de volledige staten die in de vorm van een rekening leveranciers of rekening
  klanten worden bijgehouden.]1
    [2 § 2. [4 De verenigingen zonder winstoogmerk, de stichtingen en de internationale verenigingen zonder
-Pagina 104 van 764 Copyright Belgisch S taatsblad 16-04-2026
  winstoogmerk die niet meer dan één van de criteria vermeld in [5 de respectievelijke artikelen 3:47, § 2, en 3:51, §
  2, van het Wetboek van vennootschappen en verenigingen]5 overschrijden, behoeven geen boekhouding te
  voeren volgens de voorschriften van de artikelen III.83 en III.84 wanneer de verrichtingen die betrekking hebben
@@ -3514,7 +3571,9 @@ Pagina 104 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Art. III.87.[1 § 1. De boeken worden per blad genummerd; ze vormen elk in hun soort een doorlopende reeks;
+## Art. III.87
+
+[1 § 1. De boeken worden per blad genummerd; ze vormen elk in hun soort een doorlopende reeks;
  ze dragen de vermelding van hun soort, hun plaats in de reeks en de naam, de firmanaam of de bijzondere naam
  van de onderneming.
   § 2. De boeken worden op zodanige wijze gehouden dat de materiële continuïteit ervan, evenals de
@@ -3527,7 +3586,9 @@ Pagina 104 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 83, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.88.[1 De boeken worden naar tijdsorde bijgehouden, zonder enig wit vak of enige weglating. In geval van
+## Art. III.88
+
+[1 De boeken worden naar tijdsorde bijgehouden, zonder enig wit vak of enige weglating. In geval van
  correctie moet het oorspronkelijk geschrevene leesbaar blijven.
   De [2 boekhoudplichtige ondernemingen]2 moeten hun boeken bewaren gedurende zeven jaar, te rekenen van
  de eerste januari van het jaar dat op de afsluiting volgt.]1
@@ -3535,7 +3596,9 @@ Pagina 104 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 84, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.89.[1 § 1. Elke [2 boekhoudplichtige onderneming]2 verricht, omzichtig en te goeder trouw, ten minste
+## Art. III.89
+
+[1 § 1. Elke [2 boekhoudplichtige onderneming]2 verricht, omzichtig en te goeder trouw, ten minste
  eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen om op een door haar
  gekozen datum de inventaris op te maken van al haar bezittingen, en rechten van welke aard ook, en van haar
  vorderingen, schulden en verplichtingen van welke aard ook, die betrekking hebben op haar bedrijf, en van de
@@ -3550,11 +3613,12 @@ Pagina 104 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 85, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.90.[1 § 1. Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris,
+## Art. III.90
+
+[1 § 1. Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris,
  worden ze samengevat en beschreven in een staat, zijnde de jaarrekening.
   § 2. De [3 boekhoudplichtige ondernemingen]3 die niet zijn onderworpen aan het Wetboek van
  Vennootschappen en de uitvoeringsbesluiten ervan [3 ...]3 moeten zich gedragen naar de bepalingen daarvan
-Pagina 105 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wat de vorm, de inhoud, de controle en de neerlegging van de jaarrekening en het jaarverslag betreft.
    De inhoud en de omvang van hun verplichtingen worden bepaald op basis van dezelfde criteria inzake
  personeelsbestand, jaaromzet en balanstotaal als degene die gelden voor de ondernemingen onderworpen aan
@@ -3587,7 +3651,9 @@ Pagina 105 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2015-12-18/31, art. 38, 030; Inwerkingtreding : 09-01-2016>
    (3)<W 2018-04-15/14, art. 86, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. III.91.[1 § 1. De openbare instellingen naar Belgisch recht die een statutaire opdracht vervullen van
+## Art. III.91
+
+[1 § 1. De openbare instellingen naar Belgisch recht die een statutaire opdracht vervullen van
  commerciële, financiële of industriële aard, met uitzondering van de ondernemingen die bedoeld zijn in artikel
  III.95, § 1, moeten zich gedragen naar de bepalingen van het Wetboek van Vennootschappen en de
  uitvoeringsbesluiten ervan voor wat de vorm, de inhoud, de controle en de neerlegging van een geconsolideerde
@@ -3604,7 +3670,9 @@ Pagina 105 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
    (2)<W 2018-04-15/14, art. 87, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.92.[1 De koninklijke besluiten ter uitvoering van dit hoofdstuk worden genomen na overleg in de
+## Art. III.92
+
+[1 De koninklijke besluiten ter uitvoering van dit hoofdstuk worden genomen na overleg in de
  ministerraad.
   De besluiten ter uitvoering van artikel III.84, [2 zevende]2 lid, artikel III.89, § 2 en artikelen III.90 en III.91 worden
  genomen na advies van de Centrale Raad voor het Bedrijfsleven.
@@ -3614,13 +3682,14 @@ Pagina 105 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
   (2)<W 2018-04-15/14, art. 88, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.93.[1 § 1. De Koning stelt een Commissie voor Boekhoudkundige Normen in; deze heeft tot taak :
+## Art. III.93
+
+[1 § 1. De Koning stelt een Commissie voor Boekhoudkundige Normen in; deze heeft tot taak :
    1° de regering en het Parlement op hun verzoek of uit eigen beweging van advies te dienen;
    2° door middel van adviezen en aanbevelingen bij te dragen tot de ontwikkeling van de leer van het
  boekhouden en de beginselen te bepalen van een regelmatige boekhouding.
   [2 De commissie voor Boekhoudkundige Normen is een autonome instelling met rechtspersoonlijkheid.]2
    § 2. De Koning stelt in de schoot van de Commissie voor Boekhoudkundige normen een afzonderlijk College in
-Pagina 106 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dat tot taak heeft door middel van een Individuele Beslissing inzake Boekhoudrecht vragen te beantwoorden
  betreffende de toepassing van de wettelijke bepalingen van het Belgisch Boekhoudrecht die onder de
  bevoegdheid van de Commissie vallen en waarvoor het op formele wijze wordt gevat.]1
@@ -3685,12 +3754,13 @@ Pagina 106 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2016-12-12/04, art. 3, 041; Inwerkingtreding : 30-12-2016>
 
-   Art. III.93/2.[1 § 1. De werkingskosten van de Commissie voor boekhoudkundige normen met inbegrip van deze
+## Art. III.93/2
+
+[1 § 1. De werkingskosten van de Commissie voor boekhoudkundige normen met inbegrip van deze
  van het voormelde College worden gedragen door de [2 boekhoudplichtige]2 ondernemingen die hun
  jaarrekening of hun geconsolideerde jaarrekening openbaar moeten maken door neerlegging bij de Nationale
  Bank van België. De Koning bepaalt het bedrag van deze bijdrage, die echter niet hoger mag zijn dan 3,72 euro
  geïndexeerd volgens dezelfde regels als deze die werden vastgesteld voor de indexering van de wedden en lonen
-Pagina 107 van 764 Copyright Belgisch S taatsblad 16-04-2026
  in de overheidsdiensten. De Nationale Bank van België int deze bijdrage samen met de kosten voor de
  openbaarmaking van de jaarrekening of geconsolideerde jaarrekening en maakt haar over aan de Commissie.
     § 2. Op de voorzitter na moeten de leden van de Commissie en van het College telkens voor de helft bestaan
@@ -3708,7 +3778,9 @@ Pagina 107 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2016-12-12/04, art. 4, 041; Inwerkingtreding : 30-12-2016>
    (2)<W 2018-04-15/14, art. 89, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. III.94.[1 § 1. De minister bevoegd voor de Economische Zaken of zijn afgevaardigde kan in bijzondere
+## Art. III.94
+
+[1 § 1. De minister bevoegd voor de Economische Zaken of zijn afgevaardigde kan in bijzondere
  gevallen, na een met redenen omkleed advies van de in artikel III.93 vermelde Commissie voor boekhoudkundige
  Normen, toestaan dat wordt afgeweken van de regels vastgesteld op grond van artikel III.84, zesde lid, artikel
  III.89, § 2, artikel III.90 en artikel III.91. Deze bevoegdheid wordt op dezelfde wijze door de minister bevoegd
@@ -3727,7 +3799,9 @@ Pagina 107 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2018-04-15/14, art. 90, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. III.95.[1 § 1. Artikel III.85 en de artikelen III.90 tot III.94, alsook de besluiten genomen ter uitvoering van
+## Art. III.95
+
+[1 § 1. Artikel III.85 en de artikelen III.90 tot III.94, alsook de besluiten genomen ter uitvoering van
  artikel III.84, [3 zevende]3 lid, en artikel III.89, § 2, zijn niet van toepassing op de Nationale Bank van België, de
  Deposito- en Consignatiekas, de kredietinstellingen [2 die vallen onder de wet van 25 april 2014 op het statuut
  van en het toezicht op kredietinstellingen en beursvennootschappen en de beleggingsondernemingen die vallen
@@ -3755,9 +3829,10 @@ Pagina 107 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-02-28/02, art. 5, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.1.[1 § 1. Zijn verboden, zonder dat hiertoe een voorafgaande beslissing vereist is, alle overeenkomsten
+## Art. IV.1
+
+[1 § 1. Zijn verboden, zonder dat hiertoe een voorafgaande beslissing vereist is, alle overeenkomsten
  tussen ondernemingen, alle besluiten van ondernemingsverenigingen en alle onderling afgestemde feitelijke
-Pagina 108 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gedragingen welke ertoe strekken of ten gevolge hebben dat de mededinging op de Belgische betrokken markt
  of op een wezenlijk deel ervan merkbaar wordt verhinderd, beperkt of vervalst en met name die welke bestaan
  in:
@@ -3800,7 +3875,9 @@ Pagina 108 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.2.[1 Het is verboden, zonder dat hiertoe een voorafgaande beslissing nodig is, dat één of meer
+## Art. IV.2
+
+[1 Het is verboden, zonder dat hiertoe een voorafgaande beslissing nodig is, dat één of meer
  ondernemingen misbruik maken van een machtspositie op de betrokken Belgische markt of op een wezenlijk deel
  daarvan.
    Dit misbruik kan met name bestaan in:
@@ -3828,13 +3905,14 @@ Pagina 108 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° het toepassen ten opzichte van economische partners van ongelijke voorwaarden bij gelijkwaardige
  prestaties, hun daarmede nadeel berokkenend bij de mededinging;
    5° het feit dat het sluiten van overeenkomsten afhankelijk wordt gesteld van het aanvaarden door de
-Pagina 109 van 764 Copyright Belgisch S taatsblad 16-04-2026
  economische partners van bijkomende prestaties, die naar hun aard of volgens het handelsgebruik geen
  verband houden met het onderwerp van deze overeenkomsten.]1
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 4, 080; Inwerkingtreding : 01-06-2020>
 
-  Art. IV.3.[1 Het verbod van artikel IV.1, § 1, geldt niet voor overeenkomsten, besluiten van
+## Art. IV.3
+
+[1 Het verbod van artikel IV.1, § 1, geldt niet voor overeenkomsten, besluiten van
  ondernemingsverenigingen en onderling afgestemde feitelijke gedragingen waarvoor artikel 101, § 3, VWEU van
  toepassing is verklaard door een verordening van de Raad van de Europese Unie of een verordening of een
  beschikking van de Europese Commissie.
@@ -3846,13 +3924,17 @@ Pagina 109 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.4.[1 Het verbod van artikel IV.1, § 1, is niet van toepassing op overeenkomsten, besluiten van
+## Art. IV.4
+
+[1 Het verbod van artikel IV.1, § 1, is niet van toepassing op overeenkomsten, besluiten van
  ondernemingsverenigingen en onderling afgestemde feitelijke gedragingen van ondernemingen die binnen de
  werkingssfeer vallen van een koninklijk besluit genomen op grond van artikel IV.5.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.5.[1 § 1. De Koning kan, na advies van de Bijzondere raadgevende commissie Mededinging en van de
+## Art. IV.5
+
+[1 § 1. De Koning kan, na advies van de Bijzondere raadgevende commissie Mededinging en van de
  Belgische Mededingingsautoriteit, bij in Ministerraad overlegd en gemotiveerd besluit verklaren dat, bij toepassing
  van artikel IV.1, § 3, artikel IV.1, § 1, niet van toepassing is op categorieën van overeenkomsten, besluiten en
  onderling afgestemde feitelijke gedragingen.
@@ -3871,7 +3953,9 @@ Pagina 109 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.6.[1 § 1. Voor de toepassing van dit boek komt een concentratie tot stand ingeval er een duurzame
+## Art. IV.6
+
+[1 § 1. Voor de toepassing van dit boek komt een concentratie tot stand ingeval er een duurzame
  wijziging van zeggenschap voortvloeit uit:
    1° de fusie van twee of meer voorheen onafhankelijke ondernemingen of delen van deze ondernemingen; of
    2° het verkrijgen, door één of meer personen die reeds de zeggenschap over ten minste één onderneming
@@ -3895,7 +3979,6 @@ Pagina 109 van 764 Copyright Belgisch S taatsblad 16-04-2026
  werkzaamheden de verhandeling van financiële instrumenten voor eigen rekening of voor rekening van derden
  behoort, tijdelijke deelnemingen houden die zij in een onderneming hebben verworven ten einde deze
  deelnemingen weer te verkopen, mits zij de aan deze deelnemingen verbonden stemrechten niet uitoefenen om
-Pagina 110 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het concurrentiegedrag van deze onderneming te bepalen of mits zij deze stemrechten slechts uitoefenen om de
  verkoop van deze onderneming of van haar activa, geheel of gedeeltelijk, of de verkoop van deze deelnemingen
  voor te bereiden, en deze verkoop plaatsvindt binnen één jaar na de verwerving; deze termijn bedraagt twee jaar
@@ -3914,7 +3997,9 @@ Pagina 110 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.7.[1 § 1. De bepalingen van dit hoofdstuk zijn slechts van toepassing ingeval de betrokken
+## Art. IV.7
+
+[1 § 1. De bepalingen van dit hoofdstuk zijn slechts van toepassing ingeval de betrokken
  ondernemingen samen in België een omzet, bepaald volgens de in artikel IV.8 bedoelde criteria, van meer dan
  100 miljoen euro bereiken en ten minste twee van de betrokken ondernemingen elk in België een omzet halen
  van ten minste 40 miljoen euro.
@@ -3927,7 +4012,9 @@ Pagina 110 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.8.[1 § 1. De omzet bedoeld in artikel IV.7 omvat de bedragen met betrekking tot de verkoop van
+## Art. IV.8
+
+[1 § 1. De omzet bedoeld in artikel IV.7 omvat de bedragen met betrekking tot de verkoop van
  producten door de betrokken ondernemingen tijdens het laatste boekjaar in het kader van de normale
  bedrijfsuitoefening, onder aftrek van kortingen, van belasting over de toegevoegde waarde en van andere
  rechtstreeks met de omzet samenhangende belastingen. Bij de omzet wordt geen rekening gehouden met
@@ -3964,7 +4051,6 @@ Pagina 110 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderneming de omzetten van de volgende ondernemingen worden opgeteld:
    1° de betrokken onderneming;
    2° de ondernemingen waarin de betrokken onderneming, rechtstreeks of middellijk:
-Pagina 111 van 764 Copyright Belgisch S taatsblad 16-04-2026
    a) hetzij meer dan de helft van het kapitaal of de bedrijfsactiva bezit;
    b) hetzij de bevoegdheid heeft om meer dan de helft van de stemrechten uit te oefenen;
    c) hetzij de bevoegdheid heeft om meer dan de helft van de leden van de raad van toezicht of van bestuur of
@@ -3991,7 +4077,9 @@ Pagina 111 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.9.[1 § 1. Voor de concentraties die onderworpen zijn aan het toezicht ingesteld bij dit hoofdstuk is een
+## Art. IV.9
+
+[1 § 1. Voor de concentraties die onderworpen zijn aan het toezicht ingesteld bij dit hoofdstuk is een
  voorafgaande beslissing nodig van de Belgische Mededingingsautoriteit, die vaststelt of zij al of niet toelaatbaar
  zijn.
     § 2. Bij de in paragraaf 1 bedoelde beslissing wordt rekening gehouden met:
@@ -4024,7 +4112,9 @@ Pagina 111 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.10.[1 § 1. De concentraties die onderworpen zijn aan het toezicht ingesteld bij dit hoofdstuk worden bij
+## Art. IV.10
+
+[1 § 1. De concentraties die onderworpen zijn aan het toezicht ingesteld bij dit hoofdstuk worden bij
  de auditeur-generaal aangemeld vóór hun tenuitvoerlegging en na de sluiting van de overeenkomst, de
  openbaarmaking van het aanbod tot aankoop of ruil, of de verwerving van een zeggenschapsdeelneming. De
  partijen kunnen echter een ontwerpovereenkomst aanmelden, mits alle partijen uitdrukkelijk verklaren dat zij de
@@ -4033,7 +4123,6 @@ Pagina 111 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kunnen de partijen eveneens een ontwerp aanmelden wanneer zij hun voornemen tot het doen van een dergelijk
  bod publiekelijk hebben aangekondigd.
    § 2. Concentraties door fusie in de zin van artikel IV.6, § 1, 1°, of door totstandkoming van een gezamenlijke
-Pagina 112 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zeggenschap in de zin van artikel IV.6, § 1, 2°, worden gezamenlijk aangemeld door de partijen bij de fusie of
  door de partijen die de gezamenlijke zeggenschap verkrijgen. In alle andere gevallen vindt de aanmelding plaats
  door de persoon of de onderneming die de zeggenschap over een of meer ondernemingen of een gedeelte
@@ -4086,7 +4175,9 @@ Pagina 112 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 6, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.11.[1 De concentraties die onderworpen zijn aan het toezicht van de Europese Commissie, met inbegrip
+## Art. IV.11
+
+[1 De concentraties die onderworpen zijn aan het toezicht van de Europese Commissie, met inbegrip
  van concentraties die bij toepassing van artikel 22 van Verordening (EG) nr. 139/2004 zijn verwezen naar de
  Europese Commissie, zijn niet onderworpen aan het toezicht ingesteld bij dit hoofdstuk.
    Zijn echter wel onderworpen aan het toezicht ingesteld door dit hoofdstuk, de concentraties die door de
@@ -4100,8 +4191,9 @@ Pagina 112 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 3. [1 - Overheidsondernemingen]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
-Pagina 113 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. IV.12.[1 De ondernemingen belast met het beheer van diensten van algemeen economisch belang of die
+## Art. IV.12
+
+[1 De ondernemingen belast met het beheer van diensten van algemeen economisch belang of die
  het karakter hebben van een fiscaal monopolie, zijn onderworpen aan de bepalingen van dit boek voor zover de
  toepassing daarvan de vervulling, in feite of in rechte, van de hun door of krachtens de wet toevertrouwde
  specifieke taak niet verhindert.]1
@@ -4112,7 +4204,9 @@ Pagina 113 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.13.[1 Behoudens ontheffing in de gevallen door de Koning bepaald, is het aan ieder persoon, verblijvend
+## Art. IV.13
+
+[1 Behoudens ontheffing in de gevallen door de Koning bepaald, is het aan ieder persoon, verblijvend
  op het Belgisch grondgebied of er zijn zetel of een inrichting hebbend, verboden gevolg te geven aan
  maatregelen of beslissingen door een vreemde Staat of door diens organismen genomen en die betrekking
  hebben op een reglementering inzake mededinging, economische machtsposities of handelsbeperkende
@@ -4122,12 +4216,16 @@ Pagina 113 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.14.[1 Elk bevel of verzoek dat gegrond is op de in artikel IV.13 bedoelde maatregelen of beslissingen,
+## Art. IV.14
+
+[1 Elk bevel of verzoek dat gegrond is op de in artikel IV.13 bedoelde maatregelen of beslissingen,
  moet binnen vijftien dagen na ontvangst worden medegedeeld aan de minister of aan zijn gemachtigde.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.15.[1 Onverminderd de artikelen IV.13 en IV.14 en behoudens de uitzonderingen die Hij bepaalt, kan de
+## Art. IV.15
+
+[1 Onverminderd de artikelen IV.13 en IV.14 en behoudens de uitzonderingen die Hij bepaalt, kan de
  Koning bij een besluit vastgesteld na overleg in de Ministerraad, en na advies van de Belgische
  Mededingingsautoriteit en de Bijzondere raadgevende commissie Mededinging, maatregelen treffen waarbij het
  de ondernemingen verboden wordt niet bekendgemaakte inlichtingen of bescheiden met betrekking tot hun
@@ -4147,7 +4245,9 @@ Pagina 113 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.16.[1 § 1. De Belgische Mededingingsautoriteit is een overheidsdienst met rechtspersoonlijkheid en
+## Art. IV.16
+
+[1 § 1. De Belgische Mededingingsautoriteit is een overheidsdienst met rechtspersoonlijkheid en
  beheersautonomie zoals bedoeld in artikel 2, eerste lid, 3°, [2 en]2 tweede lid, b), van de wet van 22 mei 2003
  houdende de organisatie van de begroting en van de comptabiliteit van de Federale Staat.
   [5 § 1/1. De Belgische Mededingingsautoriteit is de mededingingsautoriteit in de zin van artikel 35 van
@@ -4164,7 +4264,6 @@ Pagina 113 van 764 Copyright Belgisch S taatsblad 16-04-2026
  artikelen 101 en 102 VWEU en Verordening (EU) 2022/1925]5, onder voorbehoud van haar evenredige verantwoordingsverplichtingen en onverminderd de nauwe samenwerking tussen de mededingingsautoriteiten in
  het Europees netwerk van mededingingsautoriteiten.
    De voorzitter, de assessor-voorzitter, de voor een zaak aangeduide assessoren, de auditeur-generaal, de
-Pagina 114 van 764 Copyright Belgisch S taatsblad 16-04-2026
  auditeurs en de personeelsleden van de Belgische Mededingingsautoriteit mogen geen instructies vragen, noch
  ontvangen van een regering of enige andere publieke of private entiteiten bij de uitoefening van de taken en
  bevoegdheden die hen bij dit boek worden toegekend, onverminderd de mogelijkheid voor de minister om
@@ -4216,7 +4315,9 @@ Pagina 114 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.17.[1 § 1. De voorzitter wordt door de Koning benoemd, bij een besluit vastgesteld na overleg in de
+## Art. IV.17
+
+[1 § 1. De voorzitter wordt door de Koning benoemd, bij een besluit vastgesteld na overleg in de
  Ministerraad, voor een mandaat van zes jaar dat eenmaal kan worden hernieuwd.
    De voorzitter vervult de opdrachten die hem door dit boek zijn opgedragen. Hij kan taken delegeren aan de
  assessor-ondervoorzitter ingeval het taken betreft die hij uitoefent als lid van het Mededingingscollege en, ingeval
@@ -4231,7 +4332,6 @@ Pagina 114 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Koning bepaald. De kandidaat brengt verder het bewijs van een nuttige ervaring voor de uitoefening van de
  functie. Hij moet houder zijn van een diploma van master of licentiaat en een functionele kennis van het
  Nederlands, het Frans en het Engels bewijzen.
-Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
    In voorkomend geval wordt de uitoefening van de functie van voorzitter beschouwd als een opdracht in de zin
  van artikel 323bis, § 1, van het Gerechtelijk Wetboek.
    § 4. De voorzitter wordt bij koninklijk besluit op rust gesteld ingeval hij wegens een ernstig en permanent
@@ -4240,7 +4340,9 @@ Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.18.[1 De voorzitter mag geen enkele instructie ontvangen wat betreft de beslissingen die hij neemt in
+## Art. IV.18
+
+[1 De voorzitter mag geen enkele instructie ontvangen wat betreft de beslissingen die hij neemt in
  uitvoering van zijn opdrachten krachtens dit boek, en de standpunten die hij inneemt in mededingingszaken van
  de Europese Commissie betreffende de toepassing van de artikelen 101 en 102 VWEU en Verordening (EG) nr.
  139/2004. De personen aan wie de voorzitter taken heeft gedelegeerd mogen betreffende deze taken alleen
@@ -4248,7 +4350,9 @@ Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.19.[1 § 1. De voorzitter is onder meer belast met de volgende opdrachten:
+## Art. IV.19
+
+[1 § 1. De voorzitter is onder meer belast met de volgende opdrachten:
    1° het vertegenwoordigen van België in de Europese en internationale mededingingsinstellingen voor alle
  besprekingen die de bevoegdheden van de Belgische Mededingingsautoriteit betreffen; hij neemt deel aan andere
  besprekingen in Europese en internationale instellingen over wet- en regelgeving die het mededingingsbeleid
@@ -4278,7 +4382,9 @@ Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 9, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.20.[1 De voorzitter stelt per zaak het Mededingingscollege samen overeenkomstig artikel IV.21 voor het
+## Art. IV.20
+
+[1 De voorzitter stelt per zaak het Mededingingscollege samen overeenkomstig artikel IV.21 voor het
  nemen van de [2 in hoofdstuk 1 van titel 3]2 bedoelde beslissingen.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
@@ -4286,7 +4392,9 @@ Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 2.
 
-   Art. IV.21.[1 § 1. Het Mededingingscollege bestaat uit:
+## Art. IV.21
+
+[1 § 1. Het Mededingingscollege bestaat uit:
     1° de voorzitter;
     2° twee assessoren aangewezen op de alfabetische lijsten van assessoren.
     De aanwijzing van de assessoren gebeurt in alfabetische orde op de lijsten bedoeld in artikel IV.22, § 1, tweede
@@ -4298,7 +4406,6 @@ Pagina 115 van 764 Copyright Belgisch S taatsblad 16-04-2026
  taalgroep.
     § 2. In geval van een belangenconflict of gemotiveerde onbeschikbaarheid van de voorzitter wordt het
 
-Pagina 116 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Mededingingscollege samengesteld en voorgezeten door de assessor-ondervoorzitter.
    In geval van een belangenconflict of gemotiveerde onbeschikbaarheid van zowel de voorzitter als de assessorondervoorzitter, wordt het Mededingingscollege samengesteld en voorgezeten door de oudste onder de
  assessoren rekening houdend met de proceduretaal.
@@ -4308,7 +4415,9 @@ Pagina 116 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.22.[1 § 1. De assessor-ondervoorzitter, die tot een andere taalgroep behoort dan de voorzitter, en de
+## Art. IV.22
+
+[1 § 1. De assessor-ondervoorzitter, die tot een andere taalgroep behoort dan de voorzitter, en de
  assessoren, samen ten beloop van maximum 20, worden door de Koning benoemd bij een besluit vastgesteld na
  overleg in de Ministerraad voor een hernieuwbaar mandaat van zes jaar.
    Zij worden ingedeeld in twee gelijke lijsten, in alfabetische volgorde, volgens de Nederlandstalige of Franstalige
@@ -4332,11 +4441,15 @@ Pagina 116 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 11, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.23.[1 Het directiecomité is belast met de leiding van de Belgische Mededingingsautoriteit.]1
+## Art. IV.23
+
+[1 Het directiecomité is belast met de leiding van de Belgische Mededingingsautoriteit.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.24.[1 § 1. Het directiecomité is samengesteld uit:
+## Art. IV.24
+
+[1 § 1. Het directiecomité is samengesteld uit:
    1° de voorzitter;
    2° de auditeur-generaal;
    3° de directeur economische zaken;
@@ -4363,8 +4476,9 @@ Pagina 116 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2021-02-02/06, art. 2, 096; Inwerkingtreding : 21-02-2021>
   (3)<W 2024-03-29/39, art. 12, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.25.[1 Het directiecomité is onder meer belast met:
-Pagina 117 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. IV.25
+
+[1 Het directiecomité is onder meer belast met:
    1° het organiseren en samenstellen van de dienst van de voorzitter, het auditoraat en het secretariaat;
    2° het vaststellen van richtsnoeren en bekendmakingen met betrekking tot de toepassing van de
  mededingingsregels en dit boek;
@@ -4381,7 +4495,9 @@ Pagina 117 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 13, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.26.[1 § 1. De Koning benoemt de auditeur-generaal bij een besluit vastgesteld na overleg in de
+## Art. IV.26
+
+[1 § 1. De Koning benoemt de auditeur-generaal bij een besluit vastgesteld na overleg in de
  Ministerraad voor een mandaat van zes jaar dat eenmaal kan worden hernieuwd.
     Om tot auditeur-generaal te worden benoemd, dient de kandidaat te voldoen aan de benoemingsvoorwaarden
  gesteld voor de voorzitter, bepaald in art. IV.17, § 3.
@@ -4431,13 +4547,14 @@ Pagina 117 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitvoering van de opdrachten die hem door dit boek zijn opgedragen.
     § 6. De auditeur-generaal kan taken die behoren tot de opdrachten die hem door dit boek worden opgedragen,
  delegeren aan de auditeur.]1
-Pagina 118 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 9, 104; Inwerkingtreding : 17-03-2022>
   (3)<W 2024-03-29/39, art. 14, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.27.[1 § 1. Een auditoraat wordt opgericht bij de Belgische Mededingingsautoriteit.
+## Art. IV.27
+
+[1 § 1. Een auditoraat wordt opgericht bij de Belgische Mededingingsautoriteit.
    Het auditoraat bestaat uit de personeelsleden van de Belgische Mededingingsautoriteit die door het
  directiecomité aan deze dienst worden toegewezen.
    § 2. De auditeur-generaal wijst voor elke zaak een personeelslid van het auditoraat aan dat als auditeur met de
@@ -4455,7 +4572,9 @@ Pagina 118 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2024-03-29/39, art. 15, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.28.[1 De auditeur is onder meer belast met:
+## Art. IV.28
+
+[1 De auditeur is onder meer belast met:
     1° het dagelijks leiden en organiseren van het onderzoek;
     2° het nemen van de beslissingen in de concentratiezaken die het voorwerp zijn van een vereenvoudigde
  procedure;
@@ -4483,7 +4602,9 @@ Pagina 118 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 16, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.29.[1 Het secretariaat staat, onder leiding en toezicht van de auditeur-generaal, het auditoraat bij.
+## Art. IV.29
+
+[1 Het secretariaat staat, onder leiding en toezicht van de auditeur-generaal, het auditoraat bij.
    Het secretariaat is tevens belast met het uitvoeren, onder leiding en toezicht van de voorzitter, van de taken
  van een griffie voor de procedures voor het Mededingingscollege.]1
   ----------
@@ -4493,11 +4614,12 @@ Pagina 118 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 1, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.30.[1 De voorzitter, de assessor-ondervoorzitter, de voor een zaak aangeduide assessoren, de
+## Art. IV.30
+
+[1 De voorzitter, de assessor-ondervoorzitter, de voor een zaak aangeduide assessoren, de
  auditeur-generaal en de auditeur kunnen worden gewraakt om de redenen vermeld in artikel 828 van het
  Gerechtelijk Wetboek.
    De persoon die weet dat er een reden van wraking tegen hem bestaat, onthoudt zich.
-Pagina 119 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De wraking wordt ingediend door middel van een gemotiveerd verzoekschrift dat bij het secretariaat wordt
  ingediend. Het bevat de middelen en is ondertekend door de verzoekende partij of door haar bijzondere
  gemachtigde, in welk geval de bijzondere volmacht bij het verzoekschrift wordt gevoegd.
@@ -4518,7 +4640,9 @@ Pagina 119 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.31.[1 Het Marktenhof kan op vordering van de procureur-generaal bij het hof van beroep te Brussel, op
+## Art. IV.31
+
+[1 Het Marktenhof kan op vordering van de procureur-generaal bij het hof van beroep te Brussel, op
  gemotiveerde wijze aan de voorzitter, de assessor-ondervoorzitter, de assessoren, de auditeur-generaal, [2 de
  directeur economische zaken, de directeur juridische zaken en de directeur planning en budget]2 een
  terechtwijzing, een blaam of een inhouding van wedde als tuchtrechtelijke sanctie opleggen. Het hof kan hen ook
@@ -4531,7 +4655,9 @@ Pagina 119 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 19, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.32.[1 § 1. [2 De voorzitter, de assessor-ondervoorzitter, de assessoren, de auditeur-generaal, de
+## Art. IV.32
+
+[1 § 1. [2 De voorzitter, de assessor-ondervoorzitter, de assessoren, de auditeur-generaal, de
  directeur economische zaken, de directeur juridische zaken, de directeur planning en budget en de
  personeelsleden van de Belgische Mededingingsautoriteit, alsmede iedereen die onder hun gezag werkt, zijn
  gebonden door het beroepsgeheim en mogen, onder voorbehoud van artikel IV.26, § 3, 9°, de bepalingen van de
@@ -4555,7 +4681,9 @@ Pagina 119 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2024-03-29/39, art. 20, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.33.[2 § 1.]2 [1 Het is de Belgische Mededingingsautoriteit verboden gevolg te geven aan een bevel of
+## Art. IV.33
+
+[2 § 1.]2 [1 Het is de Belgische Mededingingsautoriteit verboden gevolg te geven aan een bevel of
  verzoek van een rechter of rechtscollege tot overleggen van clementie- en immuniteitsverklaringen alsmede [2
  schikkingsverklaringen, onverminderd de artikelen XVII.77, XVII.78 en XVII.79]2. Een gerechtelijke instantie, met
  inbegrip van een onderzoeksrechter, kan geen bevel of verzoek in die zin richten tot de Belgische
@@ -4564,7 +4692,6 @@ Pagina 119 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de Belgische Mededingingsautoriteit, leden van het directiecomité of assessoren.]1
    [2 § 2. De partij die toegang heeft verkregen tot het onderzoeksdossier of proceduredossier van de Belgische
  Mededingingsautoriteit, mag de informatie verkregen uit clementieverklaringen en schikkingsverklaringen,
-Pagina 120 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitsluitend gebruiken wanneer dat noodzakelijk is om haar rechten van verdediging uit te oefenen in procedures
  voor de nationale rechterlijke instanties, in zaken die rechtstreeks verband houden met de zaak waarvoor de
  toegang is verleend, en enkel wanneer dergelijke procedures betrekking hebben op:
@@ -4586,7 +4713,9 @@ Pagina 120 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 6.
 
-  Art. IV.34.[1 De voorzitter, de assessor-ondervoorzitter, de assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [2 , de directeur planning en budget]2
+## Art. IV.34
+
+[1 De voorzitter, de assessor-ondervoorzitter, de assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [2 , de directeur planning en budget]2
  en de personeelsleden van de Belgische Mededingingsautoriteit genieten bij de uitoefening van hun ambt van
  dezelfde immuniteiten als de rijksambtenaren.]1
   ----------
@@ -4597,7 +4726,9 @@ Pagina 120 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 22, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.35.[1 § 1. De functies van voorzitter, auditeur-generaal, directeur economische zaken, directeur
+## Art. IV.35
+
+[1 § 1. De functies van voorzitter, auditeur-generaal, directeur economische zaken, directeur
  juridische zaken [3 , directeur planning en budget]3 en personeelslid van de Belgische Mededingingsautoriteit zijn
  onverenigbaar met de gerechtelijke functies, met de uitoefening van een openbaar mandaat toegekend door
  verkiezing op een ander niveau dan het lokale of provinciale niveau, met elke bezoldigde functie of openbaar
@@ -4627,9 +4758,10 @@ Pagina 120 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2022-02-28/02, art. 12, 104; Inwerkingtreding : 17-03-2022>
    (3)<W 2024-03-29/39, art. 23, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.36.[1 § 1. De voorzitter, de assessor-ondervoorzitter of assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [3 , de directeur planning en budget]3
+## Art. IV.36
 
-Pagina 121 van 764 Copyright Belgisch S taatsblad 16-04-2026
+[1 § 1. De voorzitter, de assessor-ondervoorzitter of assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [3 , de directeur planning en budget]3
+
  en de personeelsleden van de Belgische Mededingingsautoriteit, alsmede iedereen die onder hun gezag werkt,
  mogen mondeling noch schriftelijk de betrokkenen in een zaak verdedigen of bijstaan; zij mogen hen ook geen
  consult geven.
@@ -4654,7 +4786,9 @@ Pagina 121 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2022-02-28/02, art. 13, 104; Inwerkingtreding : 17-03-2022>
    (3)<W 2024-03-29/39, art. 24, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.36/1.[1 De voorzitter, de assessor-ondervoorzitter, de assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [2 , de directeur planning en budget]2
+## Art. IV.36/1
+
+[1 De voorzitter, de assessor-ondervoorzitter, de assessoren die zetelen in een zaak, de auditeurgeneraal, de directeur economische zaken, de directeur juridische zaken [2 , de directeur planning en budget]2
  en de personeelsleden van de Belgische Mededingingsautoriteit, alsook elke persoon die onder hun gezag werkt,
  onthouden zich van elk optreden dat niet verenigbaar is met de uitvoering van hun taken of met de uitoefening
  van hun bevoegdheden voor de toepassing van dit boek en de artikelen 101 en 102 VWEU.
@@ -4669,14 +4803,18 @@ Pagina 121 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 26, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.37.[1 Er wordt in de Centrale Raad voor het Bedrijfsleven een paritaire raadgevende commissie opgericht
+## Art. IV.37
+
+[1 Er wordt in de Centrale Raad voor het Bedrijfsleven een paritaire raadgevende commissie opgericht
  die Bijzondere raadgevende commissie Mededinging wordt genoemd en die een adviserende bevoegdheid heeft
  voor alle algemene kwesties in verband met het mededingingsbeleid; zij oefent die bevoegdheid uit op eigen
  initiatief of op verzoek van de minister.]1
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.38.[1 De Koning bepaalt de samenstelling en de werking van de Bijzondere raadgevende commissie
+## Art. IV.38
+
+[1 De Koning bepaalt de samenstelling en de werking van de Bijzondere raadgevende commissie
  Mededinging alsook van haar secretariaat.
    De voorzitter, de werkende leden en hun plaatsvervangers worden benoemd door de minister.
    De Koning bepaalt eveneens, bij een besluit vastgesteld na overleg in de Ministerraad, het bedrag van de
@@ -4694,11 +4832,12 @@ Pagina 121 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2024-03-29/39, art. 28, 131; Inwerkingtreding : 13-05-2024>
 
   Afdeling 1. [1 - Onderzoeksprocedure]1
-Pagina 122 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 29, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.39.[1 De auditeur-generaal beslist tot het openen van een onderzoek:
+## Art. IV.39
+
+[1 De auditeur-generaal beslist tot het openen van een onderzoek:
     1° op verzoek van de aanmeldende partijen in het geval van een aangemelde concentratie;
     2° ambtshalve of na een klacht van een natuurlijke persoon of rechtspersoon die aantoont daarbij een
  rechtmatig belang te hebben, in het geval van een inbreuk op artikel IV.1, § 1, op artikel IV.1, § 4, op artikel IV.2,
@@ -4721,7 +4860,9 @@ Pagina 122 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<KB 2020-07-31/11, art. 2, 088; Inwerkingtreding : 22-08-2020>
   (3)<W 2023-11-05/07, art. 5, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. IV.40.[1 § 1. Ter vervulling van zijn opdrachten, kan de auditeur alle noodzakelijke inlichtingen inwinnen bij de
+## Art. IV.40
+
+[1 § 1. Ter vervulling van zijn opdrachten, kan de auditeur alle noodzakelijke inlichtingen inwinnen bij de
  ondernemingen, de ondernemingsverenigingen en de natuurlijke personen [3 , inbegrepen voorafgaandelijk aan
  de opening van een onderzoek bedoeld in artikel IV.39]3. Hij bepaalt de termijn binnen welke deze inlichtingen
  hem worden medegedeeld. De auditeur kan het inwinnen van inlichtingen opdragen aan leden van het
@@ -4761,7 +4902,6 @@ Pagina 122 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inlichtingen onvolledig, onjuist of verdraaid zijn, kan de auditeur de inlichtingen bij een gemotiveerde beslissing
  eisen.
     Deze beslissing omschrijft de gevraagde inlichtingen, de rechtsgrond en het doel van het verzoek en bepaalt
-Pagina 123 van 764 Copyright Belgisch S taatsblad 16-04-2026
  binnen welke termijn ze moeten worden verstrekt.
    De beslissing tot eisen van inlichtingen is evenredig en dwingt de onderneming, de ondernemingsvereniging of
  de natuurlijke persoon van wie de inlichtingen worden geëist niet een inbreuk op het mededingingsrecht toe te
@@ -4777,7 +4917,9 @@ Pagina 123 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-09-25/14, art. 7, 120; Inwerkingtreding : 26-01-2023>
   (3)<W 2023-11-05/07, art. 6, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. IV.40/1.[1 Onverminderd de bevoegdheden van de politieambtenaren van de lokale en federale politie zijn de
+## Art. IV.40/1
+
+[1 Onverminderd de bevoegdheden van de politieambtenaren van de lokale en federale politie zijn de
  auditeur en de door de minister gemachtigde personeelsleden van de Belgische Mededingingsautoriteit bevoegd
  om inbreuken op dit boek op te sporen en om deze inbreuken vast te stellen bij processen-verbaal waarvan die
  feitelijke vaststellingen gelden als bewijs tot het tegendeel is bewezen.
@@ -4794,7 +4936,9 @@ Pagina 123 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2022-02-28/02, art. 16, 104; Inwerkingtreding : 17-03-2022>
    (2)<W 2023-11-05/07, art. 7, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. IV.40/2.[1 § 1. De auditeur en de door de minister gemachtigde personeelsleden van de Belgische
+## Art. IV.40/2
+
+[1 § 1. De auditeur en de door de minister gemachtigde personeelsleden van de Belgische
  Mededingingsautoriteit mogen tussen acht en achttien uur, met voorafgaande machtiging van een
  onderzoeksrechter in de Nederlandstalige rechtbank van eerste aanleg te Brussel of een onderzoeksrechter in
  de Franstalige rechtbank van eerste aanleg te Brussel, die voor de toepassing van deze paragraaf ook bevoegd
@@ -4829,7 +4973,6 @@ Pagina 123 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 4. Zij kunnen voor zover nodig verzegelen voor de duur van hun opdracht maar niet langer dan
  tweeënzeventig uur in de lokalen bedoeld in paragraaf 1, 2°.
     § 5. Zij kunnen elke vertegenwoordiger of elk personeelslid van de onderneming of de ondernemingsvereniging
-Pagina 124 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ondervragen over feiten of documenten die verband houden met het voorwerp en het doel van het
  opdrachtbevel, alsook met de interne organisatie van de onderneming, de werkmethoden, en de verdeling van de
  verantwoordelijkheden, met het oog op het vergemakkelijken van het opzoeken van documenten. De
@@ -4888,14 +5031,15 @@ Pagina 124 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 1.
 
-  Art. IV.41.[1 § 1. De auditeur beoordeelt de vertrouwelijkheid van de documenten en gegevens afzonderlijk ten
+## Art. IV.41
+
+[1 § 1. De auditeur beoordeelt de vertrouwelijkheid van de documenten en gegevens afzonderlijk ten
  aanzien van elke persoon die kennis krijgt van de mededeling van grieven en van het voorstel van beslissing.
    § 2. [2 Ingeval een persoon documenten of gegevens verstrekt en bepaalde documenten of gegevens als
  vertrouwelijk beschouwt, dient hij de vertrouwelijkheid in te roepen en te motiveren, en bezorgt hij tezelfdertijd
  een niet-vertrouwelijke versie of samenvatting van de betrokken documenten of gegevens. Ingeval geen nietvertrouwelijke versie of samenvatting wordt verstrekt, worden de betrokken documenten en gegevens als nietvertrouwelijk beschouwd.
    Ingeval documenten of gegevens werden verkregen met toepassing van artikel IV.40/2 en indien een persoon
  bepaalde documenten of gegevens als vertrouwelijk beschouwt, stelt deze persoon binnen tien werkdagen, na
-Pagina 125 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de datum van de beëindiging van de procedure die tot de verkrijging van de gegevens heeft geleid, de auditeur in
  kennis van het vertrouwelijke karakter van bepaalde documenten of gegevens en verzoeken om een termijn voor
  de bezorging van een niet-vertrouwelijke versie of samenvatting van de betrokken documenten of gegevens. De
@@ -4959,9 +5103,10 @@ Pagina 125 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 2.
 
-  Art. IV.42.[1 § 1. De auditeur stelt, na de regeling van de vertrouwelijkheid, het onderzoeksdossier samen.
+## Art. IV.42
+
+[1 § 1. De auditeur stelt, na de regeling van de vertrouwelijkheid, het onderzoeksdossier samen.
   Het onderzoeksdossier bevat alle documenten en gegevens die zijn ontvangen, verkregen, gekopieerd,
-Pagina 126 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overgelegd of verzameld tijdens het onderzoek [3 , inbegrepen voorafgaandelijk aan de opening van een
  onderzoek bedoeld in artikel IV.39,]3 alsmede alle documenten die zijn opgesteld door of op verzoek van de
  Belgische Mededingingsautoriteit, met uitzondering van de documenten en gegevens die werden verwijderd [2
@@ -4996,7 +5141,9 @@ Pagina 126 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 30, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.43.[1 De klachten alsmede de verzoeken en injuncties tot het openen van een onderzoek betreffende de
+## Art. IV.43
+
+[1 De klachten alsmede de verzoeken en injuncties tot het openen van een onderzoek betreffende de
  [2 inbreuken op het mededingingsrecht]2 en het niet-naleven van beslissingen genomen krachtens de artikelen
  IV.10, § 6, IV.44, § 1, 2°, IV.45, eerste lid, 2°, IV.46, § 2, 1°, IV.52, IV.66, IV.69, IV.71 of IV.73 worden ingediend
  bij de auditeur-generaal.]1
@@ -5004,7 +5151,9 @@ Pagina 126 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 25, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.44.[1 § 1. De auditeur kan, na advies van de auditeur-adviseur, een klacht, verzoek of injunctie bij
+## Art. IV.44
+
+[1 § 1. De auditeur kan, na advies van de auditeur-adviseur, een klacht, verzoek of injunctie bij
  gemotiveerde beslissing seponeren:
    1° ingeval hij tot het besluit komt dat de klacht, het verzoek of de injunctie, betreffende de [2 inbreuk op het
  mededingingsrecht]2 of de niet-naleving van een beslissing die er het voorwerp van is niet ontvankelijk,
@@ -5027,7 +5176,6 @@ Pagina 126 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Het beroep tegen sepotbeslissingen wordt, op straffe van niet ontvankelijkheid, ingesteld door middel van
  een gemotiveerd en ondertekend verzoekschrift dat wordt ingediend bij het secretariaat binnen een termijn van
  één maand na de kennisgeving van de beslissing. Het verzoekschrift beantwoordt, op straffe van nietigheid, aan
-Pagina 127 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de vereisten van artikel IV.90, § 5, tweede en derde lid.
    § 3. De voorzitter stelt het Mededingingscollege samen dat het beroep zal behandelen.
    De voorzitter van het Mededingingscollege stelt de termijnen vast waarbinnen de betrokken partijen, de klager,
@@ -5047,7 +5195,9 @@ Pagina 127 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 3.
 
-  Art. IV.45.[1 De auditeur kan, na advies van de auditeur-adviseur, beslissen dat een ambtshalve onderzoek
+## Art. IV.45
+
+[1 De auditeur kan, na advies van de auditeur-adviseur, beslissen dat een ambtshalve onderzoek
  geheel of gedeeltelijk wordt stopgezet ten aanzien van bepaalde of alle betrokken partijen:
     1° ingeval hij tot het besluit komt dat de resultaten van het ambtshalve gevoerd onderzoek niet volstaan om op
  afdoende wijze het bestaan van een vermeende [2 inbreuk op het mededingingsrecht]2 of niet-naleving van een
@@ -5067,7 +5217,9 @@ Pagina 127 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 27, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.46.[1 § 1. [3 Ingeval de auditeur de klacht, het verzoek, de injunctie, of het ambtshalve onderzoek,
+## Art. IV.46
+
+[1 § 1. [3 Ingeval de auditeur de klacht, het verzoek, de injunctie, of het ambtshalve onderzoek,
  gegrond acht, deelt hij, na advies van de auditeur-adviseur, de betrokken partijen mee welke gemotiveerde
  grieven hij jegens hen aanhoudt en brengt hen ter kennis dat zij op het secretariaat inzage kunnen nemen van
  het onderzoeksdossier zoals het is samengesteld op het ogenblik van de mededeling van de grieven en tegen
@@ -5093,7 +5245,6 @@ Pagina 127 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Commissie vereist met toepassing van artikel IV.78/1, derde lid, wordt de termijn geschorst vanaf de dag van het
  versturen van het ontwerp van beslissing tot op de dag waarop de Belgische Mededingingsautoriteit de
  opmerkingen van de Europese Commissie ontvangt.]2
-Pagina 128 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De auditeur geeft kennis van de stopzettingsbeslissing aan de indiener van de klacht, het verzoek of de
  injunctie, alsmede aan de betrokken partijen. Hij vermeldt dat zij de documenten en gegevens uit het
  onderzoeksdossier waarop de auditeur steunt in zijn stopzettingsbeslissing op het secretariaat kunnen
@@ -5133,7 +5284,9 @@ Pagina 128 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2022-02-28/02, art. 28, 104; Inwerkingtreding : 17-03-2022>
    (3)<W 2024-03-29/39, art. 31, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.47.[1 Het directiecomité kan op verzoek van de voorzitter, van de minister of van de minister die de
+## Art. IV.47
+
+[1 Het directiecomité kan op verzoek van de voorzitter, van de minister of van de minister die de
  betrokken sector onder zijn bevoegdheid heeft, beslissen dat de voorzitter een algemeen of sectoraal onderzoek
  voert ingeval er aanwijzingen zijn van marktverstoringen. In voorkomend geval kan de voorzitter de auditeurgeneraal vragen dat het auditoraat zijn medewerking verleent aan een algemeen of sectoraal onderzoek. [2 De
  bepalingen van artikel IV.40, artikel IV.40/1]2 en van artikel IV.41 zijn van overeenkomstige toepassing op het
@@ -5146,21 +5299,24 @@ Pagina 128 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 32, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.48.[1 Na ontvangst van het voorstel van beslissing stelt de voorzitter zonder verwijl het
+## Art. IV.48
+
+[1 Na ontvangst van het voorstel van beslissing stelt de voorzitter zonder verwijl het
  Mededingingscollege samen dat de zaak zal behandelen. Hij bezorgt het Mededingingscollege het voorstel van
  beslissing alsmede, na het verstrijken van de in artikel IV.49, § 5, eerste lid, bedoelde termijn en in voorkomend
  geval rekening houdend met de beslissing bedoeld in artikel IV.49, § 5, tweede lid, het proceduredossier.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.49.[1 § 1. Op dezelfde dag als het indienen van het voorstel van beslissing brengt de auditeur de
+## Art. IV.49
+
+[1 § 1. Op dezelfde dag als het indienen van het voorstel van beslissing brengt de auditeur de
  betrokken partijen hiervan op de hoogte en stuurt hun een kopie van het voorstel van beslissing. Hij brengt hen
  ter kennis dat zij op het secretariaat inzage kunnen nemen van het onderzoeksdossier en het proceduredossier
  en tegen betaling een elektronische kopie ervan kunnen krijgen.
    Het secretariaat brengt de klager, de verzoeker of de minister op de hoogte van het indienen van het voorstel
  van beslissing.
    § 2. Zo de voorzitter van het Mededingingscollege dit nodig acht, krijgen de klager en de derden die het
-Pagina 129 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Mededingingscollege zal horen een niet-vertrouwelijke versie van het voorstel van beslissing of van een uittreksel
  daarvan.
     De auditeur nodigt de betrokken partijen uit om de in het voorstel van beslissing opgenomen vertrouwelijke
@@ -5227,8 +5383,9 @@ Pagina 129 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2022-02-28/02, art. 31, 104; Inwerkingtreding : 17-03-2022>
    (3)<W 2024-03-29/39, art. 33, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.50.[1 § 1. Na ontvangst van de schriftelijke opmerkingen en stukken of het verstrijken van de termijn
-Pagina 130 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. IV.50
+
+[1 § 1. Na ontvangst van de schriftelijke opmerkingen en stukken of het verstrijken van de termijn
  waarin schriftelijke opmerkingen en stukken kunnen worden neergelegd, verklaart de voorzitter van het
  Mededingingscollege de schriftelijke procedure gesloten en organiseert hij zonder verwijl een zitting van het
  Mededingingscollege. Deze zitting vindt plaats ten minste twee weken en ten hoogste twee maanden na het
@@ -5264,7 +5421,9 @@ Pagina 130 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 4.
 
-  Art. IV.51.[1 Het Mededingingscollege neemt zijn beslissing binnen een termijn van één maand na het sluiten van
+## Art. IV.51
+
+[1 Het Mededingingscollege neemt zijn beslissing binnen een termijn van één maand na het sluiten van
  de debatten.
    Ingeval [2 met toepassing van artikel IV.78/1, derde lid,]2 de voorgenomen beslissing de raadpleging vereist
  van de Europese Commissie wordt de in het eerste lid bedoelde termijn geschorst, vanaf het versturen van het
@@ -5274,7 +5433,9 @@ Pagina 130 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 33, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.52.[1 § 1. Het Mededingingscollege kan bij een gemotiveerde beslissing:
+## Art. IV.52
+
+[1 § 1. Het Mededingingscollege kan bij een gemotiveerde beslissing:
    1° verklaren dat, op grond van de gegevens die het Mededingingscollege bekend zijn, er voor het
  Mededingingscollege geen reden bestaat om op te treden;
    2° vaststellen dat er een [2 inbreuk op het mededingingsrecht]2 en in voorkomend geval een inbreuk op artikel
@@ -5294,7 +5455,6 @@ Pagina 130 van 764 Copyright Belgisch S taatsblad 16-04-2026
  mededingingsrecht]2 met artikel IV.1, § 3, onverenigbare gevolgen heeft;
    6° vaststellen dat de werking van een verordening in de zin van artikel IV.3, eerste lid, in een individueel geval
  vervalt, ingeval de betrokken [2 inbreuk op het mededingingsrecht]2 met artikel 101, § 3, VWEU onverenigbare
-Pagina 131 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gevolgen heeft op het nationale grondgebied of een gedeelte daarvan, welk gebied alle kenmerken vertoont van
  een afzonderlijke geografische markt;
    7° [2 de aangeboden toezeggingen verbindend verklaren en vaststellen dat er niet langer gronden bestaan
@@ -5332,7 +5492,9 @@ Pagina 131 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 34, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.53.[1 De auditeur-generaal kan de procedure van onderzoek en beslissing heropenen op verzoek of op
+## Art. IV.53
+
+[1 De auditeur-generaal kan de procedure van onderzoek en beslissing heropenen op verzoek of op
  eigen initiatief:
    1° ingeval er een wezenlijke verandering optreedt in een van de feiten waarop de beslissing steunt;
    2° ingeval de betrokken partijen in strijd met de door hen gedane toezeggingen handelen; of
@@ -5345,7 +5507,9 @@ Pagina 131 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 34, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.54.[1 § 1. Er kan een volledige of gedeeltelijke vrijstelling van de geldboeten waarin dit boek voorziet,
+## Art. IV.54
+
+[1 § 1. Er kan een volledige of gedeeltelijke vrijstelling van de geldboeten waarin dit boek voorziet,
  worden toegekend aan een onderneming of een ondernemingsvereniging die samen met anderen bij een geheim
  kartel betrokken was.
    De volledige of gedeeltelijke vrijstelling van geldboeten die wordt toegekend aan een ondernemingsvereniging,
@@ -5361,7 +5525,6 @@ Pagina 131 van 764 Copyright Belgisch S taatsblad 16-04-2026
    b) voldoende is om de Belgische Mededingingsautoriteit in staat te stellen het geheim kartel vast te stellen, voor
  zover ze, op het ogenblik van het clementieverzoek, nog niet over voldoende bewijsmateriaal beschikte om het
  betreffende kartel vast te stellen, en voor zover aan geen enkele andere onderneming of
-Pagina 132 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ondernemingsvereniging een volledige vrijstelling van type A werd toegekend in verband met het kartel (volledige
  vrijstelling van geldboeten van type B); en
    4° voldoet aan de voorwaarden van paragraaf 4.
@@ -5430,7 +5593,6 @@ Pagina 132 van 764 Copyright Belgisch S taatsblad 16-04-2026
  4, niet.]1
   ----------
   (1)<W 2022-02-28/02, art. 36, 104; Inwerkingtreding : 17-03-2022>
-Pagina 133 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2024-03-29/39, art. 35, 131; Inwerkingtreding : 13-05-2024>
 
 ## Art. IV.54/1
@@ -5502,7 +5664,6 @@ Pagina 133 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De clementieverzoeker actualiseert indien nodig de in het tweede lid overgemaakte gegevens.]1
    ----------
    (1)<Ingevoegd bij W 2022-02-28/02, art. 38, 104; Inwerkingtreding : 17-03-2022>
-Pagina 134 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. IV.54/3
 
 [1 § 1. De onderneming of ondernemingsvereniging dient haar clementieverzoek in bij de auditeurgeneraal.
@@ -5533,7 +5694,9 @@ Pagina 134 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2022-02-28/02, art. 39, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.54/4.[1 § 1. Een natuurlijke persoon bedoeld in artikel IV.1, § 4, kan een verzoek tot immuniteit indienen
+## Art. IV.54/4
+
+[1 § 1. Een natuurlijke persoon bedoeld in artikel IV.1, § 4, kan een verzoek tot immuniteit indienen
  bij de auditeurgeneraal met betrekking tot de inbreuken op artikel IV.1, § 4.
     De natuurlijke persoon die voor een onderneming of ondernemingsvereniging optreedt via een
  managementvennootschap wordt gelijkgesteld met een natuurlijke persoon, tenzij gelet op de feiten in een
@@ -5569,7 +5732,6 @@ Pagina 134 van 764 Copyright Belgisch S taatsblad 16-04-2026
  neemt hij een immuniteitsbeslissing waarin hij de verplichtingen bepaalt waaraan de immuniteit is onderworpen.
     Wanneer de voorzitter beslist dat niet is voldaan aan de in paragraaf 2 bedoelde voorwaarden voor de
  toekenning van immuniteit, kan de natuurlijke persoon zijn immuniteitsverzoek en de bijhorende stukken
-Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
  intrekken.
     Het secretariaat deelt de immuniteitsbeslissing mee aan de immuniteitsverzoeker. De beslissing wordt niet
  bekendgemaakt en is niet vatbaar voor afzonderlijk beroep.
@@ -5579,7 +5741,9 @@ Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2022-02-28/02, art. 40, 104; Inwerkingtreding : 17-03-2022>
    (2)<W 2024-03-29/39, art. 36, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.54/5.[1 De clementieverzoeken en de immuniteitsverzoeken evenals de clementie- en
+## Art. IV.54/5
+
+[1 De clementieverzoeken en de immuniteitsverzoeken evenals de clementie- en
  immuniteitsbeslissingen van de voorzitter maken deel uit van het onderzoeks- en proceduredossier. De andere
  betrokken partijen krijgen inzage in de clementieverzoeken en de immuniteitsverzoeken alsmede in de clementieen immuniteitsbeslissingen van de voorzitter doch hebben niet het recht een kopie te nemen van de
  clementieverklaringen in de zin van artikel I.6, 27°, noch van de daarmee samenhangende beslissingen van de
@@ -5601,7 +5765,9 @@ Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 38, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.55.[1 Tijdens [2 een onderzoek op grond van inbreuk op artikel IV.1, artikel IV.2 of artikel IV.2/1]2 al dan
+## Art. IV.55
+
+[1 Tijdens [2 een onderzoek op grond van inbreuk op artikel IV.1, artikel IV.2 of artikel IV.2/1]2 al dan
  niet met gelijktijdige toepassing van artikel 101 of artikel 102 VWEU, kan de auditeur-generaal op elk ogenblik van
  de procedure, doch vooraleer het voorstel van beslissing wordt ingediend, ten aanzien van de betrokken partijen
  een termijn vaststellen waarbinnen zij schriftelijk kunnen aangeven dat zij bereid zijn schikkingsbesprekingen te
@@ -5613,7 +5779,9 @@ Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<KB 2020-07-31/11, art. 3, 088; Inwerkingtreding : 22-08-2020>
   (3)<W 2022-02-28/02, art. 43, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.56.[1 Ingeval één of meerdere betrokken partijen aangeven dat zij bereid zijn om schikkingsbesprekingen
+## Art. IV.56
+
+[1 Ingeval één of meerdere betrokken partijen aangeven dat zij bereid zijn om schikkingsbesprekingen
  te voeren, kan de auditeur-generaal beslissen om een schikkingsprocedure te openen ten aanzien van hen.
     De auditeur deelt de betrokken partij of partijen mee welke grieven hij lastens hen meent te kunnen staven en
  hij geeft hen toegang tot alle niet-vertrouwelijke versies van de documenten en gegevens waarnaar hij verwijst of
@@ -5626,7 +5794,9 @@ Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.57.[1 Ingeval de schikkingsbesprekingen uitzicht bieden op het nemen van een schikkingsbeslissing, stelt
+## Art. IV.57
+
+[1 Ingeval de schikkingsbesprekingen uitzicht bieden op het nemen van een schikkingsbeslissing, stelt
  de auditeur een voorontwerp van schikkingsbeslissing op.
   [2 ...]2]1
   ----------
@@ -5634,8 +5804,9 @@ Pagina 135 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-02-28/02, art. 44, 104; Inwerkingtreding : 17-03-2022>
 
   Onderafdeling 5.
-Pagina 136 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. IV.58.[1 De auditeur deelt, in voorkomend geval na ontvangst van de opmerkingen van de Europese
+## Art. IV.58
+
+[1 De auditeur deelt, in voorkomend geval na ontvangst van de opmerkingen van de Europese
  Commissie, zijn ontwerp van schikkingsbeslissing mee aan de betrokken partij of partijen. Hij stelt de termijn vast
  waarbinnen de betrokken partij of partijen vrijwillig een schikkingsverklaring kunnen indienen. [2 Deze termijn
  bedraagt ten minste twee weken.]2
@@ -5648,7 +5819,9 @@ Pagina 136 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 45, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.59.[1 § 1. Ingeval de schikkingsverklaring van een betrokken partij beantwoordt aan de voorwaarden
+## Art. IV.59
+
+[1 § 1. Ingeval de schikkingsverklaring van een betrokken partij beantwoordt aan de voorwaarden
  gesteld in artikel IV.58, kan de auditeur, na advies van de auditeur-adviseur, een schikkingsbeslissing nemen
  overeenkomstig het ontwerp van schikkingsbeslissing en de procedure sluiten ten aanzien van die partij.
   [2 De schikkingsbeslissing stelt ten aanzien van de betrokken partij of partijen de inbreuk op het
@@ -5667,7 +5840,9 @@ Pagina 136 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 6.
 
-  Art. IV.60.[1 § 1. Bij het berekenen van de geldboete overeenkomstig de richtsnoeren van de Belgische
+## Art. IV.60
+
+[1 § 1. Bij het berekenen van de geldboete overeenkomstig de richtsnoeren van de Belgische
  Mededingingsautoriteit betreffende de berekening van de geldboete, past de auditeur een vermindering van 10 %
  toe. Hij kan ook rekening houden met een verbintenis van de betrokken partij om zich te kwijten van de betaling
  van een schadevergoeding. In het geval van natuurlijke personen bedoeld in artikel IV.1, § 4, past de auditeur een
@@ -5684,7 +5859,9 @@ Pagina 136 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.61.[1 Alle documenten en gegevens, die door de auditeur-generaal, de auditeur en een betrokken partij
+## Art. IV.61
+
+[1 Alle documenten en gegevens, die door de auditeur-generaal, de auditeur en een betrokken partij
  in het kader van een schikkingsprocedure worden uitgewisseld, zijn vertrouwelijk onverminderd de toepassing
  van artikel XVII.79. Ingeval de procedure niet leidt tot een schikkingsbeslissing en de auditeur-generaal beslist het
  onderzoek verder te zetten, worden deze documenten en gegevens voor zover zij niet reeds bij de aanvang van
@@ -5700,8 +5877,9 @@ Pagina 136 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-Pagina 137 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. IV.62.[1 De auditeur-generaal kan de schikkingsprocedure te allen tijde stopzetten ten aanzien van een
+## Art. IV.62
+
+[1 De auditeur-generaal kan de schikkingsprocedure te allen tijde stopzetten ten aanzien van een
  betrokken partij. Deze beslissing is niet vatbaar voor beroep.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
@@ -5710,7 +5888,9 @@ Pagina 137 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 39, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.63.[1 § 1. De auditeur stelt het onderzoek van de concentratie in van zodra hij de aanmelding heeft
+## Art. IV.63
+
+[1 § 1. De auditeur stelt het onderzoek van de concentratie in van zodra hij de aanmelding heeft
  ontvangen of, ingeval de verstrekte inlichtingen onvolledig zijn, van zodra hij de volledige inlichtingen heeft
  ontvangen. [2 Met het voorafgaande akkoord van de partijen die een aanmelding kunnen indienen, kan de
  auditeur ook gebruik maken van de procedures bedoeld in de artikelen IV.40 en IV.40/1 alvorens hij de
@@ -5732,7 +5912,9 @@ Pagina 137 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 8.-.
 
-   Art. IV.64.[1 § 1. De auditeur dient, na advies van de auditeur-adviseur, zijn gemotiveerd voorstel van beslissing
+## Art. IV.64
+
+[1 § 1. De auditeur dient, na advies van de auditeur-adviseur, zijn gemotiveerd voorstel van beslissing
  in bij de voorzitter van het Mededingingscollege, samen met het proceduredossier.
     § 2. Het voorstel van beslissing wordt ingediend binnen een termijn van vijfentwintig werkdagen vanaf de dag
  volgend op de dag van de indiening van de aanmelding bij de auditeur-generaal. Ingeval de inlichtingen die bij de
@@ -5765,7 +5947,6 @@ Pagina 137 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Ingeval de aanmeldende partijen een stuk indienen dat zich niet in het onderzoeksdossier bevindt, stelt de
  voorzitter van het Mededingingscollege een termijn vast waarbinnen de auditeur schriftelijke opmerkingen kan
  indienen betreffende dat stuk alsmede een termijn waarbinnen de aanmeldende partijen kunnen antwoorden op
-Pagina 138 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deze opmerkingen. De auditeur kan [2 toepassing maken van artikel IV.40]2 bij de voorbereiding van zijn
  schriftelijke opmerkingen. De aanmeldende partijen en de auditeur doen mekaar per e-mail mededeling van hun
  schriftelijke opmerkingen en stukken, op de dag van de indiening ervan op het secretariaat. De beslissingstermijn
@@ -5813,7 +5994,9 @@ Pagina 138 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 48, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.66.[1 § 1. Het Mededingingscollege stelt bij gemotiveerde beslissing naar gelang het geval vast, dat:
+## Art. IV.66
+
+[1 § 1. Het Mededingingscollege stelt bij gemotiveerde beslissing naar gelang het geval vast, dat:
     1° de concentratie niet binnen het toepassingsgebied valt van titel 1, hoofdstuk 2, van dit boek;
     2° de concentratie binnen het toepassingsgebied valt titel 1, hoofdstuk 2, van dit boek.
     § 2. Ingeval de concentratie binnen het toepassingsgebied valt van titel 1, hoofdstuk 2, van dit boek, neemt het
@@ -5833,7 +6016,6 @@ Pagina 138 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [3 De motivering van de beslissing van het Mededingingscollege is uitdrukkelijk en afdoende.]3
     § 3. De beslissingen van het Mededingingscollege bedoeld in paragrafen 1 en 2 worden genomen binnen een
  termijn van veertig werkdagen te rekenen vanaf de dag volgend op de dag van ontvangst van de aanmelding.
-Pagina 139 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Ingeval de inlichtingen die bij de aanmelding werden verstrekt niet volledig waren, loopt deze termijn vanaf de dag
  volgend op de dag waarop de volledige inlichtingen werden ontvangen. In voorkomend geval wordt de termijn
  geschorst [3 met toepassing van de artikelen IV.40, § 2, vierde lid]3, en IV.65, § 1, tweede lid.
@@ -5856,7 +6038,9 @@ Pagina 139 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 10.
 
-   Art. IV.67.[1 § 1. Ingeval het Mededingingscollege beslist de procedure van bijkomend onderzoek en beslissing
+## Art. IV.67
+
+[1 § 1. Ingeval het Mededingingscollege beslist de procedure van bijkomend onderzoek en beslissing
  in te zetten, voert de auditeur een bijkomend onderzoek.
     Uiterlijk twintig werkdagen na de beslissing om de procedure van bijkomend onderzoek in te zetten, kunnen de
  aanmeldende partijen aan de auditeur verbintenissen aanbieden met het oog op het verkrijgen van een beslissing
@@ -5887,7 +6071,9 @@ Pagina 139 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 47, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.68.[1 § 1. De aanmeldende partijen en de derden die het Mededingingscollege zal horen dienen hun
+## Art. IV.68
+
+[1 § 1. De aanmeldende partijen en de derden die het Mededingingscollege zal horen dienen hun
  eventuele schriftelijke opmerkingen en stukken in bij het secretariaat binnen een termijn van tien werkdagen na
  de indiening van het voorstel van beslissing, met kopie per e-mail op dezelfde dag aan de auditeur en de
  aanmeldende partijen.
@@ -5900,7 +6086,6 @@ Pagina 139 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beslissingstermijn bedoeld in artikel IV.69, § 2, wordt geschorst vanaf de eerste werkdag volgend op de dag van
  indiening door de aanmeldende partijen van de schriftelijke opmerkingen bedoeld in het eerste lid tot de dag
  waarop de termijn verstrijkt waar-binnen de aanmeldende partijen hun antwoord kunnen indienen.]3
-Pagina 140 van 764 Copyright Belgisch S taatsblad 16-04-2026
     In geval van vertrouwelijke informatie van derden is artikel IV.65, § 2, tweede lid, van toepassing.
     De derden die het Mededingingscollege zal horen hebben geen recht van toegang tot het onderzoeksdossier
  en het proceduredossier, tenzij de voorzitter van het Mededingingscollege hiertoe een andersluidende beslissing
@@ -5934,7 +6119,9 @@ Pagina 140 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-02-28/02, art. 48, 104; Inwerkingtreding : 17-03-2022>
   (3)<W 2022-02-28/02, art. 50, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.69.[1 § 1. Het Mededingingscollege oordeelt bij gemotiveerde beslissing over de toelaatbaarheid van de
+## Art. IV.69
+
+[1 § 1. Het Mededingingscollege oordeelt bij gemotiveerde beslissing over de toelaatbaarheid van de
  concentratie bij toepassing van de criteria bedoeld in artikel IV.9.
    Ingeval het Mededingingscollege vaststelt dat de concentratie toelaatbaar is, kan het aan zijn beslissing
  voorwaarden en verplichtingen verbinden die moeten waarborgen dat de betrokken ondernemingen de
@@ -5968,7 +6155,6 @@ Pagina 140 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de verkoper, van een andere aanmeldende partij of van de doelonderneming en de aanmeldende partij kennis
  heeft kunnen nemen van een niet-vertrouwelijke versie of samenvatting van deze documenten en gegevens.]1
   ----------
-Pagina 141 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 51, 104; Inwerkingtreding : 17-03-2022>
 
@@ -5978,7 +6164,9 @@ Pagina 141 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 40, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.70.[1 § 1. De aanmeldende partijen kunnen om de toepassing van de vereenvoudigde procedure
+## Art. IV.70
+
+[1 § 1. De aanmeldende partijen kunnen om de toepassing van de vereenvoudigde procedure
  verzoeken. In dat geval gelden de hiernavolgende bepalingen, in afwijking van de bepalingen van de artikelen
  IV.63 tot IV.69.
    § 2. De auditeur stelt het onderzoek van de zaak in zodra hij de aanmelding heeft ontvangen of, ingeval de
@@ -6013,7 +6201,9 @@ Pagina 141 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 42, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.71.[1 Het Mededingingscollege kan voorlopige maatregelen nemen teneinde [2 inbreuken op het
+## Art. IV.71
+
+[1 Het Mededingingscollege kan voorlopige maatregelen nemen teneinde [2 inbreuken op het
  mededingingsrecht]2, die het voorwerp van een onderzoek uitmaken, te schorsen, indien dringend een toestand
  moet worden vermeden die een ernstig, onmiddellijk en moeilijk herstelbaar nadeel kan veroorzaken voor de
  ondernemingen waarvan de belangen aangetast worden door deze [2 inbreuken]2 of die schadelijk kan zijn voor
@@ -6022,7 +6212,9 @@ Pagina 141 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 53, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.72.[1 § 1. Gemotiveerde verzoeken om voorlopige maatregelen worden, samen met de daarop
+## Art. IV.72
+
+[1 § 1. Gemotiveerde verzoeken om voorlopige maatregelen worden, samen met de daarop
  betrekking hebbende stukken door een klager, de auditeur-generaal, de minister of de minister bevoegd voor de
  betrokken sector, ingediend bij de voorzitter.
     Op straffe van nietigheid stuurt de verzoeker op de dag van indiening een kopie van zijn verzoek en de
@@ -6035,7 +6227,6 @@ Pagina 141 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 3. De voorzitter stelt zonder verwijl het Mededingingscollege samen dat over het verzoek zal beslissen en legt
  het verzoek en de bijhorende stukken voor.
     De voorzitter van het Mededingingscollege stelt de datum vast van de zitting van het Mededingingscollege die
-Pagina 142 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zal plaats hebben niet vroeger dan twee weken en niet later dan een maand na het indienen van het verzoek.
     Het secretariaat brengt de verzoeker, de ondernemingen of ondernemingsverenigingen jegens wie voorlopige
  maatregelen worden gevraagd, de auditeur-generaal en de minister op de hoogte van deze beslissing en van de
@@ -6075,7 +6266,9 @@ Pagina 142 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 54, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.73.[1 § 1. Het Mededingingscollege oordeelt bij gemotiveerde beslissing binnen een termijn van één
+## Art. IV.73
+
+[1 § 1. Het Mededingingscollege oordeelt bij gemotiveerde beslissing binnen een termijn van één
  maand na de zitting. Bij ontstentenis van een beslissing binnen de termijn wordt het verzoek om voorlopige
  maatregelen geacht te zijn verworpen.
     Ingeval het Mededingingscollege het noodzakelijk acht om voorlopige maatregelen op te leggen, deelt het de
@@ -6103,7 +6296,6 @@ Pagina 142 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 § 4. De beslissing bedoeld in paragraaf 1 is evenredig en van toepassing hetzij gedurende een bepaalde
  tijdspanne, die kan worden verlengd voor zover dat nodig en passend is, hetzij totdat de beslissing van het
  Mededingingscollege bedoeld in artikel IV.52, § 1, of de beslissing van de auditeur bedoeld in artikel IV.44, § 1,
-Pagina 143 van 764 Copyright Belgisch S taatsblad 16-04-2026
  eerste lid, in artikel IV.45, eerste lid, of in artikel IV.59, § 1, niet meer vatbaar is voor beroep op grond van
  gewone rechtsmiddelen.]2
   ----------
@@ -6114,7 +6306,9 @@ Pagina 143 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 43, 131; Inwerkingtreding : 13-05-2024>
 
-  Art. IV.74.[1 § 1. De beslissingen van het Mededingingscollege, de sepotbeslissingen, de schikkingsbeslissingen,
+## Art. IV.74
+
+[1 § 1. De beslissingen van het Mededingingscollege, de sepotbeslissingen, de schikkingsbeslissingen,
  de beslissingen tot stopzetting van het onderzoek en de beslissingen inzake vereenvoudigde procedures bij
  concentraties worden door het secretariaat bij aangetekende zending met ontvangstbewijs ter kennis gebracht
  van de betrokken partijen, de klager, de verzoeker en de minister alsook van elke persoon die voldoende belang
@@ -6137,7 +6331,9 @@ Pagina 143 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   HOOFDSTUK 2.
 
-  Art. IV.75.[1 § 1. [3 Op initiatief van de auditeur-generaal wordt de aanmelding van een concentratie bij uittreksel
+## Art. IV.75
+
+[1 § 1. [3 Op initiatief van de auditeur-generaal wordt de aanmelding van een concentratie bij uittreksel
  bekendgemaakt op de website van de Belgische Mededingingsautoriteit. Het uittreksel vermeldt de namen van de
  ondernemingen die betrokken zijn bij de concentratie en de economische sectoren die mogelijk betrokken zijn. De
  bekendmaking geeft aan of de toepassing van de vereenvoudigde procedure wordt gevraagd.]3
@@ -6169,8 +6365,9 @@ Pagina 143 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2024-03-29/39, art. 44, 131; Inwerkingtreding : 13-05-2024>
 
-Pagina 144 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. IV.76.[1 Ingeval de Belgische Mededingingsautoriteit zich, bij toepassing van artikel 104 VWEU, uitspreekt
+## Art. IV.76
+
+[1 Ingeval de Belgische Mededingingsautoriteit zich, bij toepassing van artikel 104 VWEU, uitspreekt
  over de toelaatbaarheid van afspraken of over het misbruik maken van een machtspositie op de interne markt,
  wordt de beslissing genomen in overeenstemming met de artikelen 101, lid 1, en 102 VWEU, volgens de
  procedure en de sancties bepaald in dit boek.
@@ -6181,7 +6378,9 @@ Pagina 144 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Art. IV.77.[1 De daartoe door de auditeur-generaal aangeduide personeelsleden van de Belgische
+## Art. IV.77
+
+[1 De daartoe door de auditeur-generaal aangeduide personeelsleden van de Belgische
  Mededingingsautoriteit worden, met toepassing van de artikelen 20, lid 5, en 22 van Verordening (EG) nr.
  1/2003, belast met het vervullen bij de ondernemingen, ondernemingsverenigingen en natuurlijke personen van
  bijstands-, verificatie- of andere opdrachten in het kader van het toezicht op de naleving van de
@@ -6208,7 +6407,9 @@ Pagina 144 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-02-28/02, art. 58, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.78.[1 Voor de toepassing van de artikelen 101 en 102 VWEU, van Verordening (EG) nr. 1/2003 en van
+## Art. IV.78
+
+[1 Voor de toepassing van de artikelen 101 en 102 VWEU, van Verordening (EG) nr. 1/2003 en van
  Verordening (EG) nr. 139/2004, hebben de voorzitter, de auditeur-generaal en de personeelsleden van de
  Belgische Mededingingsautoriteit de bevoegdheid om alle gegevens, zowel van feitelijke als van juridische aard,
  met inbegrip van vertrouwelijke inlichtingen, mee te delen aan de Europese Commissie en aan de nationale
@@ -6231,13 +6432,14 @@ Pagina 144 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2022-02-28/02, art. 59, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.78/1.[2 § 1.]2 [1 Wanneer een onderzoeksprocedure, geopend krachtens artikel IV.39, betrekking heeft
+## Art. IV.78/1
+
+[2 § 1.]2 [1 Wanneer een onderzoeksprocedure, geopend krachtens artikel IV.39, betrekking heeft
  op de toepassing van artikel 101 of 102 VWEU, stelt de auditeur belast met het onderzoek de Europese
  Commissie hiervan in kennis overeenkomstig artikel 11, lid 3, van Verordening (EG) nr. 1/2003, ten laatste
  onverwijld na het begin van de eerste daad van onderzoek. Hij stelt de Europese Commissie eveneens in kennis
  van de kennisgeving van deze eerste onderzoeksdaad en van zijn eventuele latere beslissing tot stopzetting van
  het onderzoek met toepassing van de artikelen IV.44, § 1, eerste lid, 1° of 3°, IV.45, eerste lid, 1° of 3°, of IV.46,
-Pagina 145 van 764 Copyright Belgisch S taatsblad 16-04-2026
  § 2, eerste lid, 2° of 3°.
     Wanneer een beslissing bedoeld in artikel IV.52, § 1, eerste lid, 1°, 3°, 4° of 8°, betrekking heeft op de
  toepassing van artikel 101 of 102 VWEU, dan stelt het Mededingingscollege de Europese Commissie hiervan in
@@ -6309,7 +6511,6 @@ Pagina 145 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dwangsom het voorwerp kan uitmaken van een gedwongen tenuitvoerlegging niet over voldoende activa
  beschikt in de lidstaat van deze nationale mededingingsautoriteit om de invordering van de geldboete of de
  dwangsom mogelijk te maken.
-Pagina 146 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De auditeur-generaal kan eveneens de beslissingen bedoeld in het eerste lid uitvoeren, op verzoek van de
  nationale mededingingsautoriteit, in andere gevallen dan deze bedoeld in het eerste lid, 2°, met name wanneer de
  onderneming of de ondernemingsvereniging ten overstaan van wie de geldboete of de dwangsom het voorwerp
@@ -6380,7 +6581,6 @@ Pagina 146 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 § 1. Verzoeken als bedoeld in de artikelen IV.78/2 tot IV.78/5 worden uitgevoerd door middel van
  een uniform instrument dat vergezeld gaat van een afschrift van de handeling die ter kennis moet worden
-Pagina 147 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gebracht of ten uitvoer moet worden gelegd. Een dergelijk uniform instrument bevat:
    a) de naam, het bekende adres van de adressaat en alle andere relevante informatie voor de identificatie van de
  adressaat;
@@ -6407,7 +6607,9 @@ Pagina 147 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-03-29/39, art. 46, 131; Inwerkingtreding : 13-05-2024>
 
-   Art. IV.79.[1 § 1. [2 Wanneer het Mededingingscollege een beslissing neemt zoals bedoeld in artikel IV.52, § 1,
+## Art. IV.79
+
+[1 § 1. [2 Wanneer het Mededingingscollege een beslissing neemt zoals bedoeld in artikel IV.52, § 1,
  eerste lid, 2° of 2° /1, kan het aan elk van de betrokken ondernemingen en ondernemingsverenigingen
  geldboeten opleggen van maximaal 10 % van hun omzet, wanneer zij opzettelijk of uit onachtzaamheid een
  inbreuk op het mededingingsrecht begaan. Bovendien kan het ter naleving van zijn beslissing dwangsommen
@@ -6440,20 +6642,23 @@ Pagina 147 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   HOOFDSTUK 4.
 
-  Art. IV.80.[1 § 1. Het Mededingingscollege kan de bij artikel IV.79, § 1, eerste lid, bedoelde geldboeten en
+## Art. IV.80
+
+[1 § 1. Het Mededingingscollege kan de bij artikel IV.79, § 1, eerste lid, bedoelde geldboeten en
  dwangsommen opleggen in geval van inbreuk op artikel IV.10, § 4, en wegens niet-naleving van de beslissingen
  bedoeld in [2 artikel IV.52, § 1, eerste lid, 8°]2.
    § 2. In afwijking van paragraaf 1, kan de geldboete wegens niet-naleving van een beslissing die betrekking heeft
  op misbruik van economische afhankelijkheid in de zin van artikel IV.2/1, niet meer bedragen dan 2 % van de
  omzet van de betrokken onderneming of ondernemingsvereniging en beloopt de dwangsom tot 2 % van de
-Pagina 148 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gemiddelde dagelijkse omzet per dag vertraging te rekenen vanaf de dag bepaald door het
  Mededingingscollege.]1
   ----------
   (1)<W 2021-02-02/06, art. 4, 096; Inwerkingtreding : 21-02-2021>
   (2)<W 2022-02-28/02, art. 67, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.81.[2 § 1.]2 [1 Het Mededingingscollege kan de in artikel IV.79, § 1, eerste lid, bedoelde [3 geldboete en]3
+## Art. IV.81
+
+[2 § 1.]2 [1 Het Mededingingscollege kan de in artikel IV.79, § 1, eerste lid, bedoelde [3 geldboete en]3
  dwangsom opleggen teneinde de voorlopige maatregelen, bedoeld in artikel IV.71, te doen naleven.]1
   [2 § 2. In afwijking van paragraaf 1 is de in artikel IV.79, § 2, bedoelde dwangsom van toepassing, wanneer de
  voorlopige maatregelen betrekking hebben op misbruik van een positie van economische afhankelijkheid in de zin
@@ -6463,7 +6668,9 @@ Pagina 148 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<KB 2020-07-31/11, art. 5, 088; Inwerkingtreding : 22-08-2020>
   (3)<W 2022-02-28/02, art. 68, 104; Inwerkingtreding : 17-03-2022>
 
-   Art. IV.82.[1 § 1. Het Mededingingscollege kan aan ondernemingen of ondernemingsverenigingen geldboeten
+## Art. IV.82
+
+[1 § 1. Het Mededingingscollege kan aan ondernemingen of ondernemingsverenigingen geldboeten
  opleggen tot belope van 1 % van de omzet ingeval zij opzettelijk of uit onachtzaamheid:
     1° bij een aanmelding of een verzoek om inlichtingen onjuiste, verdraaide of onvolledige gegevens verstrekken;
     2° de inlichtingen niet verstrekken binnen de termijn gesteld in de beslissing tot het eisen van inlichtingen;
@@ -6488,12 +6695,16 @@ Pagina 148 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 69, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.83.[1 De boetes en dwangsommen bedoeld in de artikelen IV.79 tot en met IV.82 en in artikel IV.59, § 1,
+## Art. IV.83
+
+[1 De boetes en dwangsommen bedoeld in de artikelen IV.79 tot en met IV.82 en in artikel IV.59, § 1,
  zijn niet fiscaal aftrekbaar.]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.84.[1 § 1. De omzet bedoeld in de artikelen IV.79 en IV.82 is
+## Art. IV.84
+
+[1 § 1. De omzet bedoeld in de artikelen IV.79 en IV.82 is
    1° voor de inbreuken die een aanvang hebben genomen en gestopt zijn voor het in werking treden van deze
  wet, de totale omzet op de nationale markt en bij de export, behaald tijdens het boekjaar voorafgaand aan de
  beslissing;
@@ -6513,7 +6724,6 @@ Pagina 148 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorafgaand aan de beslissing.
    § 3. De in aanmerking te nemen omzet van een onderneming is gelijk aan de som van de omzetcijfers van alle
  ondernemingen die een economische eenheid vormen zoals bepaald in artikel IV.8, § 4. Voor de
-Pagina 149 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overheidsondernemingen bedoeld in artikel IV.12, is de in aanmerking te nemen omzet evenwel deze van alle
  ondernemingen die een economische eenheid vormen met een zelfstandige beslissingsbevoegdheid, ongeacht
  wie het kapitaal ervan bezit of welke regels van bestuurlijk toezicht daarop van toepassing zijn.
@@ -6585,7 +6795,6 @@ Pagina 149 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kan het rechtscollege waarbij de zaak aanhangig is gemaakt de uitspraak uitstellen en een prejudiciële vraag
  stellen aan het Hof van Cassatie.
    De beslissing om een prejudiciële vraag te stellen aan het Hof van Cassatie schorst de termijnen en de
-Pagina 150 van 764 Copyright Belgisch S taatsblad 16-04-2026
  procedure voor het rechtscollege dat de vraag stelt vanaf de dag waarop de beslissing werd genomen tot de
  dag waarop dit rechtscollege het antwoord van het Hof van Cassatie ontvangt.
     Tegen de beslissing van een rechtscollege om een prejudiciële vraag te stellen of een dergelijke vraag niet te
@@ -6605,7 +6814,9 @@ Pagina 150 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.88.[1 § 1. De Belgische Mededingingsautoriteit kan ambtshalve of op verzoek van het rechtscollege
+## Art. IV.88
+
+[1 § 1. De Belgische Mededingingsautoriteit kan ambtshalve of op verzoek van het rechtscollege
  waarbij de zaak aanhangig is, binnen de door het rechtscollege bepaalde termijnen, schriftelijke opmerkingen
  indienen in verband met de toepassing [2 van artikel IV.1, artikel IV.2 en artikel IV.2/1]2 of van de artikelen 101 en
  102 VWEU.
@@ -6624,7 +6835,9 @@ Pagina 150 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<KB 2020-07-31/11, art. 6, 088; Inwerkingtreding : 22-08-2020>
    (3)<W 2022-02-28/02, art. 72, 104; Inwerkingtreding : 17-03-2022>
 
-  Art. IV.89.[1 Elk door de hoven en rechtbanken gewezen vonnis of arrest waarbij het gaat om het geoorloofde
+## Art. IV.89
+
+[1 Elk door de hoven en rechtbanken gewezen vonnis of arrest waarbij het gaat om het geoorloofde
  karakter van een mededingingspraktijk in de zin van dit boek, wordt binnen acht dagen aan de Belgische
  Mededingingsautoriteit en de minister medegedeeld en, voor zover het gaat om een vonnis of arrest dat een
  toepassing van het Europees mededingingsrecht bevat, aan de Europese Commissie, door toedoen van de
@@ -6639,7 +6852,9 @@ Pagina 150 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.90.[1 § 1. Tegen de beslissingen van het Mededingingscollege of de auditeur bedoeld in de artikelen
+## Art. IV.90
+
+[1 § 1. Tegen de beslissingen van het Mededingingscollege of de auditeur bedoeld in de artikelen
  IV.52, [3 IV.66, § 1, 1°, en § 2, eerste lid, 1° en 2°]3, IV.69, § 1, IV.70, § 3, IV.71, IV.79, IV.80, IV.81 en IV.82
  alsmede tegen impliciete beslissingen tot toelating van concentraties door het verstrijken van de in artikelen
  IV.66, § 3, IV.69, § 2, en IV.70, § 6, bepaalde termijnen of tot afwijzen van een verzoek om voorlopige
@@ -6650,7 +6865,6 @@ Pagina 150 van 764 Copyright Belgisch S taatsblad 16-04-2026
  in [2 artikel IV.26, § 3, 13°]2, betreffende het aanwenden in het onderzoek van de in het kader van een
  huiszoeking verkregen gegevens, voor zover deze gegevens daadwerkelijk zijn gebruikt voor het staven van de
 
-Pagina 151 van 764 Copyright Belgisch S taatsblad 16-04-2026
  grieven.
     Tegen andere beslissingen van het Mededingingscollege, de auditeur, de auditeur-generaal, de voorzitter, de
  voorzitter van het Mededingingscollege of een aangewezen assessor staat alleen het beroep open waarin dit
@@ -6716,7 +6930,6 @@ Pagina 151 van 764 Copyright Belgisch S taatsblad 16-04-2026
     4° de tenuitvoerleggingsmaatregelen genomen met toepassing van artikel IV.78/4;
     5° de kennisgeving van het uniform instrument bedoeld in artikel IV.78/5, § 2.]3
     Het verzoekschrift bevat op straffe van nietigheid:
-Pagina 152 van 764 Copyright Belgisch S taatsblad 16-04-2026
     1° de aanduiding van dag, maand en jaar;
     2° ingeval de verzoeker een natuurlijke persoon is, zijn naam, voornaam, beroep en woonplaats, alsook, in
  voorkomend geval, zijn ondernemingsnummer; ingeval de verzoeker een rechtspersoon is, de benaming, de
@@ -6760,7 +6973,9 @@ Pagina 152 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.91.[1 § 1. Het onderzoek bedoeld in artikel IV.39 mag slechts betrekking hebben op feiten die zich niet
+## Art. IV.91
+
+[1 § 1. Het onderzoek bedoeld in artikel IV.39 mag slechts betrekking hebben op feiten die zich niet
  vroeger hebben voorgedaan dan vijf jaar voor de datum van de beslissing van de auditeur-generaal om
  ambtshalve een onderzoek in te stellen of de datum van het aanhangig maken van de zaak bij de auditeurgeneraal overeenkomstig artikel IV.39.
    In geval van voortdurende of herhaalde inbreuken loopt de termijn van vijf jaar slechts vanaf de dag dat aan de
@@ -6782,7 +6997,6 @@ Pagina 152 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De verjaringstermijn gaat in op de dag waarop de inbreuk is gepleegd. Bij voortdurende of herhaalde inbreuken
  gaat de verjaringstermijn echter pas in op de dag waarop aan de laatste inbreuk een einde is gekomen.
    [2 De verjaring inzake de oplegging van geldboeten en dwangsommen wordt slechts gestuit door daden van
-Pagina 153 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderzoek en van beslissing van de Belgische Mededingingsautoriteit of, als het de toepassing van de artikelen
  101 en 102 VWEU betreft, van de Europese Commissie of een nationale mededingingsautoriteit met het oog op
  het onderzoek of vervolging van een inbreuk betreffende dezelfde overeenkomst, dezelfde beslissing van een
@@ -6827,7 +7041,9 @@ Pagina 153 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-   Art. IV.92.[1 § 1. Onverminderd paragraaf 3, wordt het onderzoek gevoerd en wordt de zaak beslist in de taal
+## Art. IV.92
+
+[1 § 1. Onverminderd paragraaf 3, wordt het onderzoek gevoerd en wordt de zaak beslist in de taal
  van het taalgebied waarin de onderneming of de ondernemingsvereniging die het voorwerp is van het
  onderzoek, haar zetel of, in het geval van een buitenlandse onderneming of ondernemingsvereniging, een
  inrichting heeft.
@@ -6847,7 +7063,6 @@ Pagina 153 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 2. Onverminderd paragraaf 3 worden alle akten, schriftelijke opmerkingen, documenten en beslissingen die in
  het kader van de procedure van onderzoek en beslissing worden opgesteld door de auditeur, de auditeurgeneraal, het Mededingingscollege, de betrokken partijen, de aanmeldende partijen alsmede de derden die
  worden gehoord door het Mededingingscollege, opgesteld in de bij toepassing van paragraaf 1 bepaalde taal.
-Pagina 154 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 3. De volgende bijzondere regels gelden met betrekking tot het taalgebruik:
     1° de natuurlijke personen worden ondervraagd in en gebruiken voor al hun mondelinge en schriftelijke
  verklaringen en schriftelijke opmerkingen het Nederlands, het Frans of het Duits naar hun keuze of een taal die
@@ -6917,7 +7132,6 @@ Pagina 154 van 764 Copyright Belgisch S taatsblad 16-04-2026
  instelling of ander overheidslichaam zijn geplaatst, kan de Koning, na raadpleging van die instellingen of lichamen,
  de samenwerking tussen de Belgische Mededingingsautoriteit en die instellingen of lichamen regelen, wat het
  onderzoek betreft evenals de wederzijdse uitwisseling van vertrouwelijke inlichtingen.]1
-Pagina 155 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -6990,7 +7204,6 @@ Pagina 155 van 764 Copyright Belgisch S taatsblad 16-04-2026
  auditoraat als auditeur aanwijzen die met de dagelijkse leiding van het onderzoek wordt belast, en een
  onderzoeksteam samenstellen. De artikelen IV.40 tot IV.40/5 zijn van overeenkomstige toepassing op het
 
-Pagina 156 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderzoek.
    § 2. Indien een Belgische autoriteit die lid is van een in artikel 40, lid 2, van Verordening (EU) 2022/1925
  opgesomd netwerk, een geëigende openbare instelling of ander overheidslichaam dat belast is met de controle of
@@ -7034,16 +7247,22 @@ Pagina 156 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  Art. V.1.[1 Deze titel is van toepassing op de door de ondernemingen toegepaste prijzen, met uitzondering van
+## Art. V.1
+
+[1 Deze titel is van toepassing op de door de ondernemingen toegepaste prijzen, met uitzondering van
  de in titel 2 bedoelde prijzen van goederen.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  Art. V.2.[1 De prijzen van goederen en diensten worden bepaald door de vrije mededinging.]1
+## Art. V.2
+
+[1 De prijzen van goederen en diensten worden bepaald door de vrije mededinging.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  Art. V.3.[1 Wanneer het Prijzenobservatorium een probleem inzake prijzen of marges, een abnormale
+## Art. V.3
+
+[1 Wanneer het Prijzenobservatorium een probleem inzake prijzen of marges, een abnormale
  prijzenevolutie, of een structureel marktprobleem vaststelt, kan het de betrokken partijen, de beroepsfederaties
  en de consumentenorganisaties raadplegen, en deelt het aan de minister het verslag van zijn vaststellingen mee.
  Zijn verslag wordt tegelijkertijd bezorgd aan de Belgische Mededingingsautoriteit die hierdoor wordt gevat en, in
@@ -7058,8 +7277,9 @@ Pagina 156 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vraag van de minister, uitbrengen.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
-Pagina 157 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. V.4.[1 § 1. Indien het dringend is een toestand te vermijden die een ernstig, onmiddellijk en moeilijk te
+## Art. V.4
+
+[1 § 1. Indien het dringend is een toestand te vermijden die een ernstig, onmiddellijk en moeilijk te
  herstellen nadeel kan veroorzaken voor de betrokken ondernemingen of voor de consumenten waarvan de
  belangen aangetast worden, of die schadelijk kan zijn voor het algemeen economisch belang, kan het
  Mededingingscollege, behalve voor de prijzen van goederen en diensten waarvan de niveaus kunnen worden
@@ -7101,7 +7321,9 @@ Pagina 157 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-   Art. V.5.[1 § 1. Een beroep kan ingediend worden bij het [2 Marktenhof]2 door elke betrokken partij of elke
+## Art. V.5
+
+[1 § 1. Een beroep kan ingediend worden bij het [2 Marktenhof]2 door elke betrokken partij of elke
  organisatie die werd gehoord krachtens artikel V. 4 evenals door elke belanghebbende persoon.
     Dit beroep wordt ingediend in de vormen voorgeschreven door artikel IV, 79, § 4, eerste en tweede lid.
     In geval van beroep maakt het Mededingingscollege zijn beslissing en alle bijkomende stukken onverwijld over
@@ -7124,14 +7346,17 @@ Pagina 157 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-04-03/19, art. 13, 003; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  3)>
    (2)<W 2017-02-20/01, art. 2, 044; Inwerkingtreding : 27-02-2017>
-Pagina 158 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. V.6.[1 Het Mededingingscollege betekent zijn beslissing aan de minister. Wanneer het Mededingingscollege
+## Art. V.6
+
+[1 Het Mededingingscollege betekent zijn beslissing aan de minister. Wanneer het Mededingingscollege
  voorlopige maatregelen vastlegt, legt de minister binnen zes maanden een plan aan de regering voor houdende
  structurele wijziging van de marktwerking in de betrokken sector.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-   Art. V.7.[1 § 1. De minister kan met individuele of gegroepeerde ondernemingen programmaovereenkomsten
+## Art. V.7
+
+[1 § 1. De minister kan met individuele of gegroepeerde ondernemingen programmaovereenkomsten
  sluiten die met name op het vlak van de toegepaste prijzen verplichtingen inhouden.
    Deze overeenkomsten worden gesloten voor een bepaalde termijn en kunnen door de partijen worden
  opgezegd met inachtneming van de daarbij bepaalde opzeggingstermijn.
@@ -7158,7 +7383,9 @@ Pagina 158 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  Art. V.8.[1 Bij de toepassing van de bepalingen van onderhavige titel, kunnen de producenten en de verdelers
+## Art. V.8
+
+[1 Bij de toepassing van de bepalingen van onderhavige titel, kunnen de producenten en de verdelers
  niet weigeren naar beste vermogen en onder voorwaarden conform de handelsgebruiken aan de vraag van de
  verdelers of verbruikers naar producten of dienstverstrekkingen te beantwoorden, als die vraag niet abnormaal
  voorkomt.]1
@@ -7189,11 +7416,12 @@ Pagina 158 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
-  Art. V.10.[1 § 1. De af-fabrieksprijzen van nieuwe geneesmiddelen en gelijkgestelden bedoeld in artikel V.9, 1° en
+## Art. V.10
+
+[1 § 1. De af-fabrieksprijzen van nieuwe geneesmiddelen en gelijkgestelden bedoeld in artikel V.9, 1° en
  2°, de verhogingen van de af-fabrieksprijzen van de geneesmiddelen en gelijkgestelden bedoeld in artikel V.9, 1°
  en 2°, evenals de prijsverhogingen van de grondstoffen bedoeld in artikel V.9, 3°, zijn onderworpen aan de
 
-Pagina 159 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorafgaande goedkeuring van de minister.
    [3 Met nieuwe geneesmiddelen wordt bedoeld :
     - alle geneesmiddelen bedoeld in artikel V.9, 1°, die voor de eerste maal op de markt worden gebracht door een
@@ -7263,7 +7491,6 @@ Pagina 159 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verkoopprijzen aan publiek.
   Voor de vaststelling van de maximale marges voor de groothandel en de aflevering van de geneesmiddelen
  bedoeld in artikel V.9, 1°, terugbetaalbaar in het kader van de verplichte verzekering geneeskundige verzorging
-Pagina 160 van 764 Copyright Belgisch S taatsblad 16-04-2026
  en uitkeringen, overlegt de minister met de minister die Sociale Zaken onder zijn bevoegdheid heeft.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
@@ -7277,7 +7504,9 @@ Pagina 160 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
-   Art. V.14.[1 § 1. De houder van de vergunning voor het in de handel brengen of van de registratie van het
+## Art. V.14
+
+[1 § 1. De houder van de vergunning voor het in de handel brengen of van de registratie van het
  geneesmiddel, of de houder van de vergunning voor parallelinvoer [3 of de houder van een notificatie voor
  parallelle distributie]3 voor geneesmiddelen bedoeld in artikel V.9, 1°, terugbetaalbaar in het kader van de
  verplichte verzekering voor geneeskundige verzorging en uitkeringen en de onderneming die terugbetaalbare
@@ -7334,7 +7563,6 @@ Pagina 160 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verzekering voor geneeskundige verzorging en uitkeringen en voor de terugbetaalbare implantaten bedoeld in §
  1, deelt de minister aan de minister die de Sociale Zaken in zijn bevoegdheid heeft, de doorgevoerde
  aanpassingen mee van de af-fabrieksprijzen opdat bijgevolg deze laatste de vergoedingsbasis of de bedragen
-Pagina 161 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de terugbetaling kan aanpassen.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
@@ -7388,7 +7616,9 @@ Pagina 161 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.1.[1 § 1. Dit boek beoogt voornamelijk de regeling van de marktpraktijken en de bescherming van de
+## Art. VI.1
+
+[1 § 1. Dit boek beoogt voornamelijk de regeling van de marktpraktijken en de bescherming van de
  consument, onverminderd de bijzondere regels die hieromtrent zijn vastgesteld in bepaalde sectoren.
   Het zet de bepalingen om van:
   1. Richtlijn 76/211/EEG van de Raad van 20 januari 1976 betreffende de onderlinge aanpassing van de
@@ -7404,7 +7634,6 @@ Pagina 161 van 764 Copyright Belgisch S taatsblad 16-04-2026
   5. Richtlijn 2002/65/EG van het Europees Parlement en de Raad van 23 september 2002 betreffende de
  verkoop op afstand van financiële diensten aan consumenten en tot wijziging van de Richtlijnen 90/619/EEG,
  97/7/EG en 98/27/EG van de Raad;
-Pagina 162 van 764 Copyright Belgisch S taatsblad 16-04-2026
    6. Richtlijn 2004/48/EG van het Europees Parlement en de Raad van 29 april 2004 betreffende de handhaving
  van intellectuele-eigendomsrechten;
    7. [3 Verordening (EU) 2017/2394 van het Europees Parlement en de Raad van 12 december 2017 betreffende
@@ -7451,7 +7680,9 @@ Pagina 162 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 92, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. VI.2.[1 Vooraleer een consument wordt gebonden door een andere overeenkomst dan een overeenkomst
+## Art. VI.2
+
+[1 Vooraleer een consument wordt gebonden door een andere overeenkomst dan een overeenkomst
  op afstand of een buiten verkoopruimten gesloten overeenkomst, of [6 door een overeenkomst bedoeld in artikel
  VI.66, § 1, verstrekt]6 de onderneming de consument op duidelijke en begrijpelijke wijze de volgende informatie,
  indien die informatie al niet duidelijk is uit de context:
@@ -7473,7 +7704,6 @@ Pagina 162 van 764 Copyright Belgisch S taatsblad 16-04-2026
    6° desgevallend, de duur van de overeenkomst, of, wanneer de overeenkomst van onbepaalde duur is of
  automatisch verlengd wordt, de voorwaarden voor het opzeggen van de overeenkomst;
    7° desgevallend, de verkoopsvoorwaarden, rekening houdend met de door de consument uitgedrukte behoefte
-Pagina 163 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan informatie en met het door de consument meegedeelde of redelijkerwijze voorzienbare gebruik;
   8° [6 desgevallend, de functionaliteit van goederen met digitale elementen, digitale inhoud en digitale diensten,
  met inbegrip van toepasselijke technische beveiligingsvoorzieningen;]6
@@ -7520,7 +7750,9 @@ Pagina 163 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.4.[1 [2 Onverminderd artikel VI. 7/1, is de aangeduide prijs]2 de door de consument totaal te betalen
+## Art. VI.4
+
+[1 [2 Onverminderd artikel VI. 7/1, is de aangeduide prijs]2 de door de consument totaal te betalen
  prijs, waaronder is begrepen: de belasting over de toegevoegde waarde, alle overige taksen en de kosten van alle
  diensten die door de consument verplicht moeten worden bijbetaald.]1
   ----------
@@ -7549,7 +7781,6 @@ Pagina 163 van 764 Copyright Belgisch S taatsblad 16-04-2026
   3° voor de diensten of de categorieën van diensten andere dan homogene diensten bepalen in welke gevallen
  en volgens welke regels een voorafgaand bestek aan de consument moet worden afgeleverd, voor zover deze
 
-Pagina 164 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hierom verzoekt en de onderneming bereid is de dienst te verlenen.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
@@ -7599,7 +7830,9 @@ Pagina 164 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2015-12-18/17, art. 50, 029; Inwerkingtreding : 08-01-2016>
   (3)<W 2019-05-02/28, art. 5, 077; Inwerkingtreding : 01-12-2019>
 
-  Art. VI.7/3.[1 De betaling van het te betalen totaalbedrag dat in overeenstemming met artikel VI. 7/2 werd
+## Art. VI.7/3
+
+[1 De betaling van het te betalen totaalbedrag dat in overeenstemming met artikel VI. 7/2 werd
  afgerond, bevrijdt de consument [2 en de onderneming van hun schuld]2.
    In afwijking van artikel [3 5.195]3 van het Burgerlijk Wetboek kan het verschil tussen het overeenkomstig artikel
  VI. 7/2 afgeronde en betaalde totaalbedrag en het totaalbedrag vóór afronding niet worden teruggevorderd.]1
@@ -7623,7 +7856,6 @@ Pagina 164 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VI.7/5
 
 [1 § 1. Overeenkomstig artikel 128, § 1, van het Verdrag betreffende de werking van de Europese
-Pagina 165 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Unie, waarbij de euro wettig betaalmiddel wordt, en de artikelen 10 en 11 van Verordening (EG) nr. 974/98 van
  de Raad van 3 mei 1998 over de invoering van de euro, aanvaardt de onderneming een betaling in speciën van
  de consument wanneer een betaling in euro in gelijktijdige fysieke aanwezigheid van de consument en de
@@ -7643,7 +7875,9 @@ Pagina 165 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.8.[1 De vermeldingen die het voorwerp zijn van de etikettering en die dwingend voorgeschreven zijn door
+## Art. VI.8
+
+[1 De vermeldingen die het voorwerp zijn van de etikettering en die dwingend voorgeschreven zijn door
  dit boek, zijn uitvoeringsbesluiten of de uitvoeringsbesluiten van de wet van 9 februari 1960 waarbij aan de
  Koning de toelating verleend wordt om het gebruik van de benamingen waaronder koopwaren in de handel
  gebracht worden, te regelen, van de wet van 14 juli 1971 betreffende de handelspraktijken en van de wet van 14
@@ -7658,7 +7892,9 @@ Pagina 165 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
    (2)<W 2015-10-26/06, art. 6, 028; Inwerkingtreding : 09-11-2015>
 
-  Art. VI.9.[1 § 1. De Koning kan, onverminderd de bevoegdheid die Hem is verleend op het gebied van de
+## Art. VI.9
+
+[1 § 1. De Koning kan, onverminderd de bevoegdheid die Hem is verleend op het gebied van de
  volksgezondheid, met het oog op het waarborgen van de eerlijkheid van de handelsverrichtingen of de
  bescherming van de consument:
   1° voor de goederen of categorieën van goederen die Hij aanwijst, de etikettering voorschrijven en de
@@ -7692,7 +7928,6 @@ Pagina 165 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitdrukkingen worden toegevoegd bedoeld om de betekenis ervan te verduidelijken;
   5° verbieden dat bepaalde tekens, woorden of uitdrukkingen worden toegevoegd aan de benaming waaronder
  diensten op de markt worden gebracht.
-Pagina 166 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Wanneer ter uitvoering van dit artikel te treffen maatregelen betrekking hebben op de financiële diensten,
  worden die maatregelen gezamenlijk voorgesteld door de minister en de minister van Financiën.]1
   ----------
@@ -7771,12 +8006,13 @@ Pagina 166 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-Pagina 167 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 5. - [1 Vergelijkende reclame]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.17.[1 § 1. Vergelijkende reclame is, wat de vergelijking betreft, geoorloofd op voorwaarde dat ze:
+## Art. VI.17
+
+[1 § 1. Vergelijkende reclame is, wat de vergelijking betreft, geoorloofd op voorwaarde dat ze:
   1° niet misleidend is in de zin van de artikelen VI.97 tot VI.100 en [2 de artikelen VI.105 tot VI.109]2 ;
   2° goederen of diensten vergelijkt die in dezelfde behoeften voorzien of voor hetzelfde doel zijn bestemd;
   3° op objectieve wijze een of meer wezenlijke, relevante, controleerbare en representatieve kenmerken van
@@ -7806,7 +8042,9 @@ Pagina 167 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-05-08/01, art. 10, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.18.[1 § 1. Bij aankondigingen van prijsverminderingen aan de consument wordt de vorige prijs aangeduid
+## Art. VI.18
+
+[1 § 1. Bij aankondigingen van prijsverminderingen aan de consument wordt de vorige prijs aangeduid
  die door de onderneming is toegepast gedurende een bepaalde periode voorafgaand aan de toepassing van de
  prijsvermindering.
    Onder de vorige prijs wordt verstaan de laagste prijs die door de onderneming is toegepast tijdens een periode
@@ -7822,7 +8060,9 @@ Pagina 167 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-05-08/01, art. 11, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.19.[1 In afwijking van artikel VI.18, § 1, tweede lid, is de vorige prijs de prijs zonder prijsvermindering,
+## Art. VI.19
+
+[1 In afwijking van artikel VI.18, § 1, tweede lid, is de vorige prijs de prijs zonder prijsvermindering,
  voorafgaand aan de toepassing van de eerste prijsvermindering, wanneer de prijsvermindering gedurende een
  ononderbroken periode van maximaal dertig dagen progressief wordt verhoogd.]1
   ----------
@@ -7836,7 +8076,6 @@ Pagina 167 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-Pagina 168 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VI.22
 
 [1 Het gebruik van de benaming "Uitverkoop", "Liquidation" of "Ausverkauf" of enige andere
@@ -7865,7 +8104,9 @@ Pagina 168 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.23.[1 § 1. De duur van de uitverkoop is beperkt tot vijf maanden voor de gevallen bedoeld in artikel VI.22,
+## Art. VI.23
+
+[1 § 1. De duur van de uitverkoop is beperkt tot vijf maanden voor de gevallen bedoeld in artikel VI.22,
  1° tot 8°, en tot twaalf maanden in het geval bedoeld in artikel VI.22, 9°. Onderbrekingen van de uitverkoop
  tijdens deze termijnen hebben geen schorsende werking. [3 Evenwel wordt de duurtijd van de uitverkoop die nog
  liep op 18 maart, datum van inwerkingtreding van het ministerieel besluit van 18 maart 2020 houdende
@@ -7905,12 +8146,13 @@ Pagina 168 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2020-05-27/03, art. 3, 085; Inwerkingtreding : 18-03-2020>
 
 ## Art. VI.24.
-Pagina 169 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 3. - [1 Opruimingen of solden]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.25.[1 § 1. Teneinde eerlijke marktpraktijken te verzekeren tussen ondernemingen zijn
+## Art. VI.25
+
+[1 § 1. Teneinde eerlijke marktpraktijken te verzekeren tussen ondernemingen zijn
  tekoopaanbiedingen en verkopen onder de benaming "opruimingen", "solden", "soldes", "Schlussverkauf" of
  onder enige gelijkaardige benaming, enkel toegelaten voor de tekoopaanbieding en de verkoop van goederen aan
  verminderde prijs tijdens de volgende periodes:
@@ -7927,7 +8169,9 @@ Pagina 169 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2020-05-27/03, art. 4, 085; Inwerkingtreding : 29-05-2020>
   (3)<W 2021-02-02/02, art. 2, 095; Inwerkingtreding : 08-02-2021>
 
-  Art. VI.26.[1 § 1. Enkel goederen die de onderneming bij aanvang van de in artikel VI.25 bedoelde periodes in
+## Art. VI.26
+
+[1 § 1. Enkel goederen die de onderneming bij aanvang van de in artikel VI.25 bedoelde periodes in
  bezit heeft en die zij voorheen minstens gedurende dertig dagen te koop heeft aangeboden, mogen onder de in
  artikel VI.25, § 1, bedoelde benamingen worden aangeboden.
   § 2. [2 ...]2.
@@ -7952,7 +8196,9 @@ Pagina 169 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.29.[1 § 1. Voor de sectoren van de kleding, de lederwaren en de schoenen is het verboden
+## Art. VI.29
+
+[1 § 1. Voor de sectoren van de kleding, de lederwaren en de schoenen is het verboden
  prijsverminderingen aan te kondigen die uitwerking hebben tijdens de sperperiode.
   Het verbod bedoeld in het eerste lid houdt tevens het verbod in om titels te verspreiden die recht geven op een
  prijsvermindering tijdens de sperperiode.
@@ -7970,12 +8216,13 @@ Pagina 169 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2023-11-05/07, art. 11, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. VI.30.[1 De minister raadpleegt de [2 bijzondere raadgevende commissie Verbruik]2 en de Hoge Raad voor
+## Art. VI.30
+
+[1 De minister raadpleegt de [2 bijzondere raadgevende commissie Verbruik]2 en de Hoge Raad voor
  de Zelfstandigen en de KMO vooraleer een besluit voor te stellen in toepassing van de artikelen VI.25 en VI.29. Hij
  bepaalt de redelijke termijn waarbinnen het advies wordt gegeven. Eenmaal deze termijn verstreken, is het advies
  niet meer vereist.]1
   ----------
-Pagina 170 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
@@ -8048,10 +8295,11 @@ Pagina 170 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.35.[1 § 1. Onverminderd de bevoegdheden die Hem krachtens een andere wetsbepaling zijn toegekend,
+## Art. VI.35
+
+[1 § 1. Onverminderd de bevoegdheden die Hem krachtens een andere wetsbepaling zijn toegekend,
  kan de Koning, bij een besluit vastgesteld na overleg in de ministerraad, voor de goederen of diensten of de
  categorieën van goederen of diensten die Hij bepaalt:
-Pagina 171 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de reclame verbieden of beperken, teneinde een betere bescherming van de veiligheid van de consument en
  van het leefmilieu te waarborgen;
   2° de minimale vermeldingen van de reclame vaststellen, teneinde een betere voorlichting van de consument te
@@ -8089,7 +8337,9 @@ Pagina 171 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.38.[1 Wanneer een overeenkomst met een consument werd gesloten ingevolge een oneerlijke
+## Art. VI.38
+
+[1 Wanneer een overeenkomst met een consument werd gesloten ingevolge een oneerlijke
  handelspraktijk bedoeld in artikel VI.100, 12°, 16° en 17°, en artikel VI.103, 1°, 2° en 8°, kan de consument de
  terugbetaling van de betaalde bedragen eisen binnen een redelijke termijn vanaf het ogenblik waarop hij kennis
  had of hoorde te hebben van het bestaan ervan, zonder teruggave van het reeds geleverde product.
@@ -8125,14 +8375,15 @@ Pagina 171 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Voordat de consument gebonden is door een overeenkomst of een aanbod, vraagt de
  onderneming de uitdrukkelijke toestemming van de consument voor elke extra betaling boven de vergoeding die
  is overeengekomen voor de contractuele hoofdverbintenis van de onderneming. Wanneer de onderneming niet
-Pagina 172 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de uitdrukkelijke toestemming van de consument heeft verkregen, maar deze toestemming heeft afgeleid door
  het gebruik van standaardopties die de consument moet afwijzen om extra betaling te vermijden, heeft de
  consument recht op terugbetaling van deze betaalde bedragen.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.42.[1 [2 Onverminderd de artikelen VII.3, § 1, 11°, en VII.30, § 3, is het]2 de onderneming verboden om
+## Art. VI.42
+
+[1 [2 Onverminderd de artikelen VII.3, § 1, 11°, en VII.30, § 3, is het]2 de onderneming verboden om
  consumenten voor het gebruik van een bepaald betaalmiddel vergoedingen aan te rekenen die de kosten voor de
  onderneming als gevolg van het gebruik van dit middel overschrijden.]1
   ----------
@@ -8191,12 +8442,13 @@ Pagina 172 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.44/1.[2 VI.44/2]2 [1 § 1. Deze afdeling is niet van toepassing op overeenkomsten opgesteld door een
+## Art. VI.44/1
+
+[2 VI.44/2]2 [1 § 1. Deze afdeling is niet van toepassing op overeenkomsten opgesteld door een
  notaris of door een gerechtsdeurwaarder in hun hoedanigheid van openbaar ambtenaar.
    § 2. Deze afdeling is niet van toepassing op overeenkomsten met betrekking tot juridische bijstand geleverd
  door een advocaat met toepassing van deel II, boek IIIbis, van het Gerechtelijk Wetboek.]1
 
-Pagina 173 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [2 § 3. Deze afdeling is van toepassing wanneer de onderneming digitale inhoud die niet wordt geleverd op een
  materiële drager of een digitale dienst levert of zich ertoe verbindt deze te leveren aan de consument en de
  consument persoonsgegevens aan de onderneming verstrekt of zich ertoe verbindt deze te verstrekken,
@@ -8208,7 +8460,9 @@ Pagina 173 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 94, 059; Inwerkingtreding : 01-11-2018>
   (2)<W 2022-05-08/01, art. 15, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.45.[1 § 1. Voordat de consument door een overeenkomst op afstand daartoe gebonden is, verstrekt de
+## Art. VI.45
+
+[1 § 1. Voordat de consument door een overeenkomst op afstand daartoe gebonden is, verstrekt de
  onderneming de consument op duidelijke en begrijpelijke wijze de volgende informatie:
    1° de voornaamste kenmerken van de goederen en de diensten voor zover aangepast is aan de gebruikte
  drager en de goederen of diensten;
@@ -8264,7 +8518,6 @@ Pagina 173 van 764 Copyright Belgisch S taatsblad 16-04-2026
  met inbegrip van toepasselijke technische beveiligingsvoorzieningen;]3
    19° [3 desgevallend, iedere relevante compatibiliteit en interoperabiliteit van goederen met digitale elementen,
  digitale inhoud en digitale diensten waarvan de onderneming op de hoogte is of redelijkerwijs kan worden geacht
-Pagina 174 van 764 Copyright Belgisch S taatsblad 16-04-2026
  op de hoogte te zijn;]3
    20° desgevallend, de mogelijkheid van toegang tot buitengerechtelijke klachten- en
  geschillenbeslechtingsprocedures waaraan de onderneming is onderworpen, en de wijze waarop daar toegang
@@ -8335,11 +8588,12 @@ Pagina 174 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Middenstand en Energie de toepassing van deze bepaling. Het verslag van deze evaluatie wordt overgemaakt aan
  de minister, de minister bevoegd voor Middenstand, de minister bevoegd voor Consumenten, en de minister
  bevoegd voor Post.]1
-Pagina 175 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 18, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. VI.46.[1 § 1. De onderneming verstrekt de in artikel VI.45, § 1, genoemde informatie aan de consument of
+## Art. VI.46
+
+[1 § 1. De onderneming verstrekt de in artikel VI.45, § 1, genoemde informatie aan de consument of
  stelt deze beschikbaar, op een wijze die passend is voor de gebruikte techniek voor communicatie op afstand, in
  een duidelijke en begrijpelijke taal. Voor zover deze informatie op een duurzame gegevensdrager wordt verstrekt,
  is zij in leesbare vorm.
@@ -8402,7 +8656,6 @@ Pagina 175 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beschikken.]3]1
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
-Pagina 176 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-09-20/14, art. 5, 067; Inwerkingtreding : 20-10-2018>
   (3)<W 2022-05-08/01, art. 18, 107; Inwerkingtreding : 28-05-2022>
   (4)<W 2024-05-03/21, art. 5, 135; Inwerkingtreding : 10-06-2024>
@@ -8461,7 +8714,9 @@ Pagina 176 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.50.[1 § 1. De onderneming vergoedt alle van de consument ontvangen betalingen, inclusief,
+## Art. VI.50
+
+[1 § 1. De onderneming vergoedt alle van de consument ontvangen betalingen, inclusief,
  desgevallend, de leveringskosten, onverwijld en in elk geval binnen14 dagen na de dag waarop ze wordt
  geïnformeerd van de beslissing van de consument om de overeenkomst overeenkomstig artikel VI.49 te
  herroepen.
@@ -8476,7 +8731,6 @@ Pagina 176 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderneming, voor wat betreft verkoopovereenkomsten, wachten met de terugbetaling totdat zij alle goederen
  heeft teruggekregen, of totdat de consument heeft aangetoond dat hij de goederen heeft teruggezonden, naar
  gelang welk tijdstip eerst valt.]1
-Pagina 177 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 § 4. Met betrekking tot de persoonsgegevens van de consument voldoet de onderneming aan de
  verplichtingen uit hoofde van Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april
  2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van
@@ -8504,7 +8758,9 @@ Pagina 177 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
    (2)<W 2022-05-08/01, art. 19, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.51.[1 § 1. Onverwijld en in elk geval binnen 14 dagen na de dag waarop hij zijn beslissing om de
+## Art. VI.51
+
+[1 § 1. Onverwijld en in elk geval binnen 14 dagen na de dag waarop hij zijn beslissing om de
  overeenkomst te herroepen overeenkomstig artikel VI.49 aan de onderneming heeft meegedeeld, zendt de
  consument de goederen terug of overhandigt die aan de onderneming of aan een persoon die door de
  onderneming gemachtigd is om de goederen in ontvangst te nemen, tenzij de onderneming aangeboden heeft
@@ -8544,10 +8800,11 @@ Pagina 177 van 764 Copyright Belgisch S taatsblad 16-04-2026
  digitale inhoud of de digitale dienst, en van de terbeschikkingstelling daarvan aan derden.]2
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
-Pagina 178 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-05-08/01, art. 20, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.52.[1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om:
+## Art. VI.52
+
+[1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om:
   1° de overeenkomst op afstand uit te voeren, of
   2° een overeenkomst op afstand te sluiten, in het geval de consument een aanbod heeft gedaan.
   § 2. [2 Onverminderd de toepassing van artikel VII. 92, eerste en tweede lid,]2 stelt de uitoefening door de
@@ -8558,7 +8815,9 @@ Pagina 178 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2014-04-19/39, art. 22, 021; Inwerkingtreding : 01-04-2015>
 
-  Art. VI.53.[1 De consument kan het herroepingsrecht waarin artikel VI.47 voorziet niet uitoefenen voor:
+## Art. VI.53
+
+[1 De consument kan het herroepingsrecht waarin artikel VI.47 voorziet niet uitoefenen voor:
   1° [3 dienstenovereenkomsten na volledige uitvoering van de dienst maar, als de overeenkomst voor de
  consument een betalingsverplichting inhoudt, enkel als de uitvoering is begonnen met de voorafgaande
  uitdrukkelijke toestemming van de consument, en mits de consument heeft erkend dat hij zijn herroepingsrecht
@@ -8614,14 +8873,15 @@ Pagina 178 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aparte verrichtingen van dezelfde aard tussen dezelfde overeenkomstsluitende partijen worden uitgevoerd, zijn
  de artikelen VI.55 en VI.56 uitsluitend van toepassing wanneer de eerste verrichting wordt uitgevoerd. Indien er
 
-Pagina 179 van 764 Copyright Belgisch S taatsblad 16-04-2026
  evenwel langer dan één jaar geen verrichting van dezelfde aard wordt uitgevoerd, wordt de uitvoering van de
  volgende verrichting geacht de uitvoering van de eerste van een nieuwe reeks verrichtingen te zijn waarop de
  artikelen VI.55 en VI.56 van toepassing zijn.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.55.[1 § 1. Te gelegener tijd, voordat de consument gebonden is door een overeenkomst of door een
+## Art. VI.55
+
+[1 § 1. Te gelegener tijd, voordat de consument gebonden is door een overeenkomst of door een
  aanbod, dient hij ondubbelzinnig, op heldere en begrijpelijke wijze en door elk middel dat aangepast is aan de
  gebruikte techniek voor communicatie op afstand te worden ingelicht over minstens de volgende elementen:
    1° de aanbieder
@@ -8683,7 +8943,6 @@ Pagina 179 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het commerciële oogmerk van die informatie moet duidelijk vast te stellen zijn.
    § 2. Informatie over contractuele verplichtingen, die in de precontractuele fase aan de consument wordt
  meegedeeld, dient in overeenstemming te zijn met de contractuele verplichtingen die in geval van het sluiten van
-Pagina 180 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de overeenkomst op afstand zouden gelden op grond van het toepasselijk geachte recht.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
@@ -8731,7 +8990,9 @@ Pagina 180 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.58.[1 § 1. De consument beschikt over een termijn van minstens 14 kalenderdagen om de
+## Art. VI.58
+
+[1 § 1. De consument beschikt over een termijn van minstens 14 kalenderdagen om de
  overeenkomst op afstand met betrekking tot een financiële dienst te herroepen. Hij kan dit recht uitoefenen
  zonder betaling van een boete en zonder opgave van enige reden.
    Voor de uitoefening van dit recht gaat de termijn in :
@@ -8755,7 +9016,6 @@ Pagina 180 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ("equity swaps");
    - opties ter verkrijging of vervreemding van in dit punt bedoelde instrumenten, met inbegrip van gelijkwaardige
  instrumenten die aanleiding geven tot afwikkeling in contanten, inzonderheid valuta- en renteopties;
-Pagina 181 van 764 Copyright Belgisch S taatsblad 16-04-2026
   2° overeenkomsten die op uitdrukkelijk verzoek van de consument door beide partijen volledig zijn uitgevoerd
  voordat de consument van zijn herroepingsrecht gebruik maakt;
   3° [2 de hypothecaire kredietovereenkomsten onderworpen aan boek VII, titel 4, hoofdstuk 2.]2
@@ -8833,7 +9093,6 @@ Pagina 181 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toegekend, wordt voor niet geschreven gehouden.
   Elk beding dat de wet van een staat die geen lid is van de Europese Unie op de overeenkomst toepasselijk
 
-Pagina 182 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verklaart, is verboden en nietig voor wat de in deze afdeling geregelde aangelegenheden betreft, wanneer bij
  gebreke van dat beding de wet van een lidstaat van de Europese Unie van toepassing zou zijn en die wet de
  consumenten in de genoemde aangelegenheden een hogere bescherming zou bieden.]1
@@ -8844,7 +9103,9 @@ Pagina 182 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.63/1.[1 § 1. Dit hoofdstuk is niet van toepassing op overeenkomsten opgesteld door een notaris of door
+## Art. VI.63/1
+
+[1 § 1. Dit hoofdstuk is niet van toepassing op overeenkomsten opgesteld door een notaris of door
  een gerechtsdeurwaarder in hun hoedanigheid van openbaar ambtenaar.
    § 2. Dit hoofdstuk is niet van toepassing op overeenkomsten met betrekking tot juridische bijstand geleverd
  door een advocaat met toepassing van deel II, boek IIIbis, van het Gerechtelijk Wetboek.]1
@@ -8859,7 +9120,9 @@ Pagina 182 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 95, 059; Inwerkingtreding : 01-11-2018>
   (2)<W 2022-05-08/01, art. 22, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.64.[1 § 1. Voordat de consument door een buiten verkoopruimten gesloten overeenkomst, daartoe
+## Art. VI.64
+
+[1 § 1. Voordat de consument door een buiten verkoopruimten gesloten overeenkomst, daartoe
  gebonden is, verstrekt de onderneming de consument op duidelijke en begrijpelijke wijze de volgende informatie :
    1° de voornaamste kenmerken van de goederen en de diensten voor zover aangepast is aan de gebruikte
  drager en de goederen of diensten;
@@ -8901,7 +9164,6 @@ Pagina 182 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inhoud en digitale diensten, bepaald door de artikelen 1649bis tot 1649nonies en 1701/1 tot 1701/19 van het
  oud Burgerlijk Wetboek]2;
    12° desgevallend, het bestaan en de voorwaarden van bijstand aan de consument na verkoop, diensten na
-Pagina 183 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verkoop en commerciële garanties;
    13° desgevallend, het bestaan van relevante gedragscodes en hoe daarvan kopie verkrijgbaar is;
    14° desgevallend, de duur van de overeenkomst of, wanneer de overeenkomst van onbepaalde duur is of
@@ -8943,7 +9205,9 @@ Pagina 183 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2022-03-20/05, art. 14, 106; Inwerkingtreding : 01-06-2022>
    (3)<W 2022-05-08/01, art. 23, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.65.[1 § 1. De onderneming verstrekt de in artikel VI.64, § 1, genoemde informatie aan de consument op
+## Art. VI.65
+
+[1 § 1. De onderneming verstrekt de in artikel VI.64, § 1, genoemde informatie aan de consument op
  papier of, indien de consument hiermee instemt, op een andere duurzame gegevensdrager. Die informatie wordt
  verstrekt in een leesbare vorm en in een duidelijke en begrijpelijke taal.
   § 2. De onderneming verstrekt de consument een kopie van de ondertekende overeenkomst of de bevestiging
@@ -8961,7 +9225,9 @@ Pagina 183 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2022-05-08/01, art. 24, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.66.[4 § 1.]4 [1 Vallen niet onder de toepassing van dit hoofdstuk:
+## Art. VI.66
+
+[4 § 1.]4 [1 Vallen niet onder de toepassing van dit hoofdstuk:
   1° de verkopen van voedingsmiddelen, dranken of andere goederen die bestemd zijn voor dagelijkse
  huishoudelijke consumptie en die fysiek door een onderneming op basis van frequente en regelmatige rondes bij
  de woon- of verblijfplaats, dan wel arbeidsplaats van de consument worden afgeleverd;
@@ -8969,7 +9235,6 @@ Pagina 183 van 764 Copyright Belgisch S taatsblad 16-04-2026
   3° de verkopen georganiseerd in het raam van manifestaties zonder handelskarakter en met een uitsluitend
  menslievend doel, onder de voorwaarden bepaald in uitvoering van de wet van 25 juni 1993 betreffende de
  uitoefening van ambulante activiteiten en de organisatie van openbare markten, en voor zover de verkoopsom
-Pagina 184 van 764 Copyright Belgisch S taatsblad 16-04-2026
  50 euro niet overschrijdt. De Koning kan dit bedrag aanpassen voor zover het 50 euro niet overschrijdt;
   4° [3 de kredietovereenkomsten, onderworpen aan boek VII van dit wetboek.]3]1
   [4 § 2. In het kader van ongevraagde bezoeken door een onderneming bij de consument thuis of van excursies
@@ -9000,7 +9265,9 @@ Pagina 184 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (4)<W 2022-05-08/01, art. 25, 107; Inwerkingtreding : 28-05-2022>
   (5)<W 2023-11-05/07, art. 12, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. VI.67.[1 § 1. Onverminderd artikel VI.73 beschikt de consument over een termijn van 14 dagen om de
+## Art. VI.67
+
+[1 § 1. Onverminderd artikel VI.73 beschikt de consument over een termijn van 14 dagen om de
  buiten verkoopruimten gesloten overeenkomst zonder opgave van redenen te herroepen, en zonder andere
  kosten te moeten dragen dan die welke in artikel VI.70, § 1, tweede lid, en artikel VI.71 zijn vastgesteld.
   § 2. Onverminderd artikel VI.68 verstrijkt de in paragraaf 1 bedoelde herroepingstermijn 14 dagen na:
@@ -9041,7 +9308,6 @@ Pagina 184 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hoogte van zijn beslissing de overeenkomst te herroepen. Daartoe kan de consument :
   1° gebruikmaken van het modelformulier voor herroeping opgenomen in bijlage 2 bij dit boek, of
   2° een andere ondubbelzinnige verklaring afgeven waarin hij verklaart de overeenkomst te herroepen.
-Pagina 185 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De consument heeft zijn herroepingsrecht binnen de in artikel VI.67, § 2, en artikel VI.68, bedoelde
  herroepingstermijn uitgeoefend indien de consument de mededeling betreffende de uitoefening van het
  herroepingsrecht verzendt voordat deze termijn is verstreken.
@@ -9055,7 +9321,9 @@ Pagina 185 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.70.[1 § 1. De onderneming vergoedt alle van de consument ontvangen betalingen, inclusief,
+## Art. VI.70
+
+[1 § 1. De onderneming vergoedt alle van de consument ontvangen betalingen, inclusief,
  desgevallend, de leveringskosten, onverwijld en in elk geval veertien dagen na de dag waarop ze wordt
  geïnformeerd van de beslissing van de consument om de overeenkomst overeenkomstig artikel VI.69 te
  herroepen.
@@ -9097,7 +9365,9 @@ Pagina 185 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
    (2)<W 2022-05-08/01, art. 26, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.71.[1 § 1. Onverwijld en in elk geval binnen 14 dagen na de dag waarop hij zijn beslissing om de
+## Art. VI.71
+
+[1 § 1. Onverwijld en in elk geval binnen 14 dagen na de dag waarop hij zijn beslissing om de
  overeenkomst te herroepen overeenkomstig artikel VI.69 aan de onderneming heeft meegedeeld, zendt de
  consument de goederen terug of overhandigt die aan de onderneming of aan een persoon die door de
  onderneming gemachtigd is om de goederen in ontvangst te nemen, tenzij de onderneming aangeboden heeft
@@ -9109,7 +9379,6 @@ Pagina 185 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wat buiten verkoopruimten gesloten overeenkomsten betreft, haalt de onderneming, indien de goederen bij de
  consument thuis zijn geleverd bij het sluiten van de overeenkomst, deze op eigen kosten af indien de goederen
  door hun aard niet per gewone post kunnen worden teruggezonden.
-Pagina 186 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De consument is alleen aansprakelijk voor de waardevermindering van de goederen die het gevolg is van
  het behandelen van de goederen dat verder gaat dan nodig was om de aard, de kenmerken en de werking van
  de goederen vast te stellen. De consument is in geen geval aansprakelijk voor waardevermindering van de
@@ -9143,7 +9412,9 @@ Pagina 186 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2022-05-08/01, art. 27, 107; Inwerkingtreding : 28-05-2022>
 
-  Art. VI.72.[1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om :
+## Art. VI.72
+
+[1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om :
   1° de buiten verkoopruimten gesloten overeenkomst uit te voeren, of
   2° de buiten verkoopruimte overeenkomst te sluiten, in het geval de consument een aanbod heeft gedaan.
   § 2. Onverminderd [2 artikel VII.92]2, stelt de uitoefening door de consument van zijn herroepingsrecht voor
@@ -9154,7 +9425,9 @@ Pagina 186 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2018-07-30/47, art. 7, 065; Inwerkingtreding : 15-09-2018>
 
-  Art. VI.73.[1 De consument kan het herroepingsrecht waarin artikel VI.67 voorziet niet uitoefenen voor :
+## Art. VI.73
+
+[1 De consument kan het herroepingsrecht waarin artikel VI.67 voorziet niet uitoefenen voor :
   1° [3 dienstenovereenkomsten na volledige uitvoering van de dienst maar, als de overeenkomst voor de
  consument een betalingsverplichting inhoudt, enkel als de uitvoering is begonnen met de voorafgaande
  uitdrukkelijke toestemming van de consument, en mits de consument heeft erkend dat hij zijn herroepingsrecht
@@ -9177,7 +9450,6 @@ Pagina 186 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dan vervangstukken die noodzakelijk gebruikt worden om het onderhoud of de herstellingen uit te voeren, is het
  herroepingsrecht op die aanvullende diensten of goederen van toepassing;
   9° de levering van verzegelde audio- en verzegelde video-opnamen en verzegelde computerprogrammatuur
-Pagina 187 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waarvan de verzegeling na levering is verbroken;
   10° de levering van kranten, tijdschriften of magazines, met uitzondering van overeenkomsten voor een
  abonnement op dergelijke publicaties;
@@ -9254,7 +9526,6 @@ Pagina 187 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Eenieder die een openbare tekoopaanbieding of verkoop organiseert, is verantwoordelijk voor de naleving van
  de bepalingen van het eerste lid en van artikel VI.76.
   De organisator vermeldt goed leesbaar zijn naam, voornaam of maatschappelijke benaming, woonplaats of
-Pagina 188 van 764 Copyright Belgisch S taatsblad 16-04-2026
  maatschappelijke zetel en zijn ondernemingsnummer op alle aankondigingen, reclame en documenten die
  betrekking hebben op de openbare tekoopaanbieding en verkoop.]1
   ----------
@@ -9331,13 +9602,14 @@ Pagina 188 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De beoordeling van het onrechtmatige karakter van bedingen heeft geen betrekking op de bepaling van het
  eigenlijke voorwerp van de overeenkomst, noch op de gelijkwaardigheid van, enerzijds, de prijs of vergoeding, en,
 
-Pagina 189 van 764 Copyright Belgisch S taatsblad 16-04-2026
  anderzijds, de als tegenprestatie te leveren goederen of te verrichten diensten, voor zover die bedingen duidelijk
  en begrijpelijk zijn geformuleerd.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. VI.83.[1 In de overeenkomsten gesloten tussen een onderneming en een consument zijn in elk geval
+## Art. VI.83
+
+[1 In de overeenkomsten gesloten tussen een onderneming en een consument zijn in elk geval
  onrechtmatig, de bedingen en voorwaarden of de combinaties van bedingen en voorwaarden die ertoe strekken
  :
    1° te voorzien in een onherroepelijke verbintenis van de consument terwijl de uitvoering van de prestaties van
@@ -9399,7 +9671,6 @@ Pagina 189 van 764 Copyright Belgisch S taatsblad 16-04-2026
  nakomt, zonder in een gelijkwaardige vergoeding te voorzien ten laste van de onderneming die in gebreke blijft;
    18° de consument voor een onbepaalde termijn te binden, zonder duidelijke vermelding van een redelijke
  opzeggingstermijn;
-Pagina 190 van 764 Copyright Belgisch S taatsblad 16-04-2026
    19° de overeenkomst van bepaalde duur voor de opeenvolgende levering van goederen voor een onredelijke
  termijn te verlengen indien de consument niet tijdig opzegt;
    20° een overeenkomst van bepaalde duur automatisch te verlengen bij het ontbreken van een tegengestelde
@@ -9471,8 +9742,9 @@ Pagina 190 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vereist.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
-Pagina 191 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. VI.86.[1 § 1. De [2 bijzondere raadgevende commissie Onrechtmatige bedingen]2 neemt kennis van de
+## Art. VI.86
+
+[1 § 1. De [2 bijzondere raadgevende commissie Onrechtmatige bedingen]2 neemt kennis van de
  bedingen en voorwaarden die in tekoopaanbiedingen en in verkopen van producten van ondernemingen aan
  consumenten voorkomen.
   § 2. Op de [3 bijzondere raadgevende commissie Onrechtmatige bedingen]3 kan een beroep worden gedaan
@@ -9494,7 +9766,9 @@ Pagina 191 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<KB 2017-12-13/13, art. 10, 055; Inwerkingtreding : 01-01-2018>
   (4)<W 2024-02-09/19, art. 20, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. VI.87.[1 § 1. De [2 bijzondere raadgevende commissie]2 beveelt aan :
+## Art. VI.87
+
+[1 § 1. De [2 bijzondere raadgevende commissie]2 beveelt aan :
    1° de schrapping of wijziging van bedingen en voorwaarden die haar kennelijk het evenwicht tussen de rechten
  en verplichtingen van de partijen lijken te verstoren, ten nadele van de consument;
    2° de invoeging van vermeldingen, bedingen en voorwaarden die haar voor de voorlichting van de consument
@@ -9533,13 +9807,14 @@ Pagina 191 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.89.[1 § 1. Elke onderneming die diensten verleent aan de consument is verplicht aan de consument die
+## Art. VI.89
+
+[1 § 1. Elke onderneming die diensten verleent aan de consument is verplicht aan de consument die
  erom verzoekt, gratis een bewijsstuk af te geven. Deze verplichting vervalt indien de prijs van de dienst werd
  medegedeeld overeenkomstig artikel VI.3, § 2, of indien een bestek of factuur die de in paragraaf 2 genoemde
  vermeldingen bevat, wordt afgegeven.
   Onder de toepassing van dit artikel vallen niet de overeenkomsten die onder de benaming "forfaitair bedrag" of
  onder enige andere gelijkwaardige benaming zijn aangegaan en die het verlenen van een dienst tot voorwerp
-Pagina 192 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hebben voor een vast totaalbedrag dat vóór de dienstverlening is overeengekomen en dat op deze dienst in zijn
  geheel betrekking heeft.
   § 2. De Koning :
@@ -9579,7 +9854,9 @@ Pagina 192 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 21, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. VI.91.[1 § 1. Dit hoofdstuk is van toepassing op de dienstenovereenkomst en op de
+## Art. VI.91
+
+[1 § 1. Dit hoofdstuk is van toepassing op de dienstenovereenkomst en op de
  verkoopsovereenkomst die zowel goederen als diensten tot voorwerp heeft.
    Wanneer een overeenkomst van bepaalde duur afgesloten tussen een onderneming en een consument een
  beding tot stilzwijgende verlenging bevat, wordt dit beding geplaatst in vetgedrukte letters en in een kader los
@@ -9606,10 +9883,11 @@ Pagina 192 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 13, 080; Inwerkingtreding : 01-12-2020>
 
-  Art. VI.91/1.[1 § 1. Deze titel is niet van toepassing op financiële diensten.
+## Art. VI.91/1
+
+[1 § 1. Deze titel is niet van toepassing op financiële diensten.
   De Koning kan, bij een in Ministerraad overlegd besluit, en op advies van de Nationale Bank van België en van de
 
-Pagina 193 van 764 Copyright Belgisch S taatsblad 16-04-2026
  FSMA bepaalde bepalingen van deze titel van toepassing verklaren op financiële diensten die Hij bepaalt.
     § 2. Deze titel is niet van toepassing op overheidsopdrachten en op de overeenkomsten die eruit voortvloeien.
     De Koning kan, bij een in Ministerraad overlegd besluit, bepaalde bepalingen van deze titel van toepassing
@@ -9665,7 +9943,9 @@ Pagina 193 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2019-04-04/53, art. 17, 080; Inwerkingtreding : 01-12-2020>
 
-  Art. VI.91/5.[1 Worden behoudens bewijs van het tegendeel vermoed onrechtmatig te zijn de bedingen die ertoe
+## Art. VI.91/5
+
+[1 Worden behoudens bewijs van het tegendeel vermoed onrechtmatig te zijn de bedingen die ertoe
  strekken :
    1° de onderneming het recht te verlenen om zonder geldige reden de prijs, de kenmerken of de voorwaarden
  van de overeenkomst eenzijdig te wijzigen;
@@ -9680,7 +9960,6 @@ Pagina 193 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opgave van een redelijke opzegtermijn;
    6° de onderneming te ontslaan van haar aansprakelijkheid voor haar opzet, haar zware fout of voor die van
  haar aangestelden of, behoudens overmacht, voor het niet-uitvoeren van de essentiële verbintenissen die het
-Pagina 194 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorwerp van de overeenkomst uitmaken;
    7° de bewijsmiddelen waarop de andere partij een beroep kan doen te beperken;
    8° in geval van niet-uitvoering of vertraging in de uitvoering van de verbintenissen van de andere partij,
@@ -9713,7 +9992,9 @@ Pagina 194 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 20, 080; Inwerkingtreding : 01-12-2020>
 
-  Art. VI.91/8.[1 § 1. In voorkomend geval kan op de bijzondere raadgevende commissie "Onrechtmatige
+## Art. VI.91/8
+
+[1 § 1. In voorkomend geval kan op de bijzondere raadgevende commissie "Onrechtmatige
  bedingen" een beroep worden gedaan door de minister of de minister bevoegd voor Middenstand, wanneer deze
  het bestaan van een onevenwicht tussen de rechten en plichten van de partijen in de contractvoorwaarden van
  sommige beroepsactiviteitsectoren vaststellen.
@@ -9751,7 +10032,6 @@ Pagina 194 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 22, 080; Inwerkingtreding : 01-12-2020>
 
-Pagina 195 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VI.91/10
 
 [1 Om de vier jaar vanaf de datum van inwerkingtreding van de betrokken bepalingen evalueert de
@@ -9772,7 +10052,9 @@ Pagina 195 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.92.[1 [2 Dit hoofdstuk]2 is van toepassing op oneerlijke handelspraktijken van ondernemingen jegens
+## Art. VI.92
+
+[1 [2 Dit hoofdstuk]2 is van toepassing op oneerlijke handelspraktijken van ondernemingen jegens
  consumenten vóór, gedurende en na de tekoopaanbieding en de verkoop van producten.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
@@ -9813,7 +10095,9 @@ Pagina 195 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.96.[1 Is eveneens verboden elke handeling of omissie die strijdig is met de wetgeving ter bescherming
+## Art. VI.96
+
+[1 Is eveneens verboden elke handeling of omissie die strijdig is met de wetgeving ter bescherming
  van de belangen van de consument, - namelijk met de verordeningen vermeld in de Bijlage van [2 Verordening
  (EU) 2017/2394 van het Europees Parlement en de Raad van 12 december 2017 betreffende samenwerking
  tussen de nationale autoriteiten die verantwoordelijk zijn voor handhaving van de wetgeving inzake
@@ -9825,14 +10109,15 @@ Pagina 195 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vermogensbestanddelen met betrekking tot de handeling of omissie gevonden kunnen worden.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
-Pagina 196 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2020-09-29/05, art. 3, 092; Inwerkingtreding : 30-11-2020>
 
   Afdeling 3. - [1 Misleidende handelspraktijken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.97.[1 Als misleidend wordt beschouwd een handelspraktijk die gepaard gaat met onjuiste informatie en
+## Art. VI.97
+
+[1 Als misleidend wordt beschouwd een handelspraktijk die gepaard gaat met onjuiste informatie en
  derhalve op onwaarheden berust of, zelfs als de informatie feitelijk correct is, de gemiddelde consument op
  enigerlei wijze, inclusief door de algemene presentatie, bedriegt of kan bedriegen ten aanzien van een of meer
  van de volgende elementen, en de gemiddelde consument er zowel in het ene als in het andere geval toe brengt
@@ -9858,7 +10143,9 @@ Pagina 196 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2022-03-20/05, art. 16, 106; Inwerkingtreding : 01-06-2022>
 
-  Art. VI.98.[1 Als misleidend wordt eveneens beschouwd een handelspraktijk die in haar feitelijke context, al haar
+## Art. VI.98
+
+[1 Als misleidend wordt eveneens beschouwd een handelspraktijk die in haar feitelijke context, al haar
  kenmerken en omstandigheden in aanmerking genomen, de gemiddelde consument ertoe brengt of kan brengen
  een besluit over een transactie te nemen dat hij anders niet had genomen, en die het volgende behelst :
   1° marketing van een product, onder andere door vergelijkende reclame, op zodanige wijze dat verwarring
@@ -9875,7 +10162,9 @@ Pagina 196 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2022-05-08/01, art. 29, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.99.[1 § 1. Als misleidende omissie wordt beschouwd een handelspraktijk die in haar feitelijke context, al
+## Art. VI.99
+
+[1 § 1. Als misleidende omissie wordt beschouwd een handelspraktijk die in haar feitelijke context, al
  haar kenmerken en omstandigheden en de beperkingen van het communicatiemedium in aanmerking genomen,
  essentiële informatie welke de gemiddelde consument, naargelang de context, nodig heeft om een geïnformeerd
  besluit over een transactie te nemen, weglaat en die de gemiddelde consument er toe brengt of kan brengen een
@@ -9893,7 +10182,6 @@ Pagina 196 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deze niet reeds uit de context blijkt :
    1° de voornaamste kenmerken van het product, in de mate waarin zulks gezien het gebruikte medium en het
  betrokken product passend is;
-Pagina 197 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° het geografische adres en de identiteit van de onderneming en, desgevallend, het geografische adres en de
  identiteit van de onderneming namens wie zij optreedt;
    3° de prijs, inclusief belastingen, of, als het om een soort product gaat waarvan de prijs redelijkerwijs niet vooraf
@@ -9927,7 +10215,9 @@ Pagina 197 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
    (2)<W 2022-05-08/01, art. 30, 107; Inwerkingtreding : 28-05-2022>
 
-   Art. VI.100.[1 Worden onder alle omstandigheden als oneerlijk beschouwd, de volgende misleidende
+## Art. VI.100
+
+[1 Worden onder alle omstandigheden als oneerlijk beschouwd, de volgende misleidende
  handelspraktijken :
    1° beweren een gedragscode te hebben ondertekend wanneer dit niet het geval is;
    2° een vertrouwens-, kwaliteits- of ander soortgelijk label aanbrengen zonder daarvoor de vereiste
@@ -9960,7 +10250,6 @@ Pagina 197 van 764 Copyright Belgisch S taatsblad 16-04-2026
    10° wettelijke en reglementaire rechten van consumenten voorstellen als een onderscheidend kenmerk van het
  aanbod van de onderneming;
    11° redactionele inhoud in de media, waarvoor de onderneming heeft betaald, gebruiken om reclame te maken
-Pagina 198 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor een product, zonder dat dit duidelijk uit de inhoud of uit duidelijk door de consument identificeerbare
  beelden of geluiden blijkt;
    12° feitelijk onjuiste beweringen doen betreffende de aard en de omvang van het gevaar dat de persoonlijke
@@ -10032,7 +10321,6 @@ Pagina 198 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consument met betrekking tot het product te beïnvloeden;
    4° door de onderneming opgelegde, kosten meebrengende of bovenmatige niet-contractuele belemmeringen
  ten aanzien van rechten die de consument uit hoofde van het contract wil uitoefenen, waaronder het recht om
-Pagina 199 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het contract te beëindigen of een ander product of een andere onderneming te kiezen;
   5° het dreigen met maatregelen die wettelijk niet kunnen worden genomen.]1
   ----------
@@ -10105,12 +10393,13 @@ Pagina 199 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 27, 080; Inwerkingtreding : 01-09-2019>
 
-Pagina 200 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 2. [1 Misleidende marktpraktijken]1
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 28, 080; Inwerkingtreding : 01-09-2019>
 
-   Art. VI.105.[1 Als misleidend wordt beschouwd een marktpraktijk die gepaard gaat met onjuiste informatie en
+## Art. VI.105
+
+[1 Als misleidend wordt beschouwd een marktpraktijk die gepaard gaat met onjuiste informatie en
  derhalve op onwaarheden berust of, zelfs als de informatie feitelijk correct is, een onderneming op enigerlei wijze,
  inclusief door de algemene presentatie, bedriegt of kan bedriegen ten aanzien van een of meer van de volgende
  elementen, en haar er zowel in het ene als in het andere geval toe brengt of kan brengen een besluit over een
@@ -10177,7 +10466,6 @@ Pagina 200 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 Het is verboden voor een onderneming ofwel rechtstreeks, ofwel via een betalingsformulier, een
  bestelformulier, een factuur, een aanbod, algemene voorwaarden, een voorstel tot verbetering of elk ander
-Pagina 201 van 764 Copyright Belgisch S taatsblad 16-04-2026
  soortgelijk document, adverteerders te werven om hen in gidsen, adressenbestanden, telefoonboeken of
  soortgelijke lijsten of bestanden op te nemen, zonder ondubbelzinnig aan te geven dat deze werving een aanbod
  van overeenkomst tegen betaling uitmaakt en zonder in het vet en in het grootste lettertype dat in het document
@@ -10188,7 +10476,9 @@ Pagina 201 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VI.108.
   (Hernummerd in artikel VI.109/3 bij W 2019-04-04/53, art. 31, 2°, 080; Inwerkingtreding : 01-09-2019)
 
-  Art. VI.109.[1 Het is verboden een piramidesysteem op te zetten, te beheren of te promoten waarbij een
+## Art. VI.109
+
+[1 Het is verboden een piramidesysteem op te zetten, te beheren of te promoten waarbij een
  onderneming tegen betaling kans maakt op een vergoeding die eerder [2 voortkomt]2 uit het aanbrengen van
  nieuwe ondernemingen in het systeem dan uit de verkoop of het verbruik van producten.]1
   ----------
@@ -10230,7 +10520,9 @@ Pagina 201 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2019-04-04/53, art. 34, 080; Inwerkingtreding : 01-09-2019>
 
-  Art. VI.109/3.[2 Oud Artikel VI.108]2 [1 Het is verboden voor een onderneming om aan een andere persoon,
+## Art. VI.109/3
+
+[2 Oud Artikel VI.108]2 [1 Het is verboden voor een onderneming om aan een andere persoon,
  zonder dat deze hierom eerst heeft verzocht, enig goed toe te zenden, met het verzoek dit tegen betaling van
  zijn prijs te verwerven, het te bewaren of het, zelfs kosteloos, aan de afzender terug te zenden.
   Het is eveneens verboden voor een onderneming om aan een andere persoon, zonder dat deze hierom eerst
@@ -10245,7 +10537,6 @@ Pagina 201 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 4. [1 Oneerlijke marktpraktijken tussen ondernemingen in de landbouw- en voedselvoorzieningsketen]1
   ----------
-Pagina 202 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2021-11-28/08, art. 4, 102; Inwerkingtreding : 25-12-2021>
 
 ## Art. VI.109/4
@@ -10315,7 +10606,6 @@ Pagina 202 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voordracht van de ministers bevoegd voor Economie, Middenstand en Landbouw, termijnen van minder dan
  dertig dagen vaststellen voor de sectoren die Hij bepaalt;
     3° de afnemer wijzigt eenzijdig de voorwaarden van een leveringsovereenkomst voor landbouw- en
-Pagina 203 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voedingsproducten die verband houden met de frequentie, de methode, de plaats, de timing of het volume van
  de bevoorrading of de levering van de landbouw- en voedingsproducten, de kwaliteitsnormen, de
  betalingsvoorwaarden of de prijzen, of met de verlening van diensten, voor zover die uitdrukkelijk worden
@@ -10386,7 +10676,6 @@ Pagina 203 van 764 Copyright Belgisch S taatsblad 16-04-2026
  artikelen VI.109/5 en VI.109/6 wijzigen of aanvullen.
    Alvorens een besluit ter uitvoering van het eerste lid voor te stellen, raadpleegt de minister de Hoge Raad voor
  de Zelfstandigen en de kmo en de Centrale Raad voor het Bedrijfsleven en bepaalt de redelijke termijn
-Pagina 204 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waarbinnen het advies moet worden gegeven. Eenmaal deze termijn is verstreken, is het advies niet meer
  vereist.]1
   ----------
@@ -10405,7 +10694,9 @@ Pagina 204 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.110.[1 § 1. Het gebruik van geautomatiseerde oproepsystemen zonder menselijke tussenkomst en het
+## Art. VI.110
+
+[1 § 1. Het gebruik van geautomatiseerde oproepsystemen zonder menselijke tussenkomst en het
  gebruik van faxen met het oog op direct marketing, zijn verboden zonder de voorafgaande, vrije, specifieke en
  geïnformeerde toestemming van de geadresseerde van de boodschap.
   De persoon die zijn toestemming heeft gegeven kan deze te allen tijde terugtrekken, zonder daarvoor een
@@ -10426,7 +10717,9 @@ Pagina 204 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2015-10-26/06, art. 12, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2024-02-08/05, art. 4, 128; Inwerkingtreding : 29-02-2024>
 
-  Art. VI.111.[1 Elke operator informeert zijn abonnee en de gebruiker over de mogelijkheid om op elk ogenblik
+## Art. VI.111
+
+[1 Elke operator informeert zijn abonnee en de gebruiker over de mogelijkheid om op elk ogenblik
  mee te delen dat zij zich verzetten tegen het gebruik van het telefoonnummer of de telefoonnummers die hen
  zijn toegekend voor redenen van telefonische direct marketing. Bij het aangaan van de overeenkomst vestigt de
  operator de aandacht van de abonnee en de gebruiker op een uitdrukkelijke en opvallende wijze op dit recht.
@@ -10438,7 +10731,9 @@ Pagina 204 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-02-08/05, art. 5, 128; Inwerkingtreding : 29-02-2024>
 
-  Art. VI.112.[1 § 1. Elke telefonisch oproep voor redenen van direct marketing naar een telefoonnummer dat is
+## Art. VI.112
+
+[1 § 1. Elke telefonisch oproep voor redenen van direct marketing naar een telefoonnummer dat is
  opgenomen in [2 de "Bel me niet meer!"-lijst,]2 is verboden.
   Voor elke telefoonoproep om redenen van direct marketing gaat de oproeper voorafgaandelijk na of het
  desbetreffende nummer niet is opgenomen in [2 de "Bel me niet meer!"-lijst,]2.
@@ -10455,10 +10750,11 @@ Pagina 204 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De operatoren en de personen die aan direct marketing doen of voor wiens rekening dit gebeurt,
  dragen de bewijslast van de naleving van de bepalingen van dit hoofdstuk.]1
   ----------
-Pagina 205 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.114.[1 § 1. De terbeschikkingstelling van de "Bel me niet meer!"-lijst aan de ondernemingen die aan
+## Art. VI.114
+
+[1 § 1. De terbeschikkingstelling van de "Bel me niet meer!"-lijst aan de ondernemingen die aan
  telefonische direct marketing wensen te doen, wordt georganiseerd door een vereniging zonder winstoogmerk.
  Deze vereniging wordt hiertoe erkend door de Koning overeenkomstig paragraaf 2.
    § 2. De Koning erkent de vereniging bedoeld in paragraaf 1. Daartoe kan slechts één vereniging tegelijk worden
@@ -10531,7 +10827,6 @@ Pagina 205 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De collectieve consumentenovereenkomst bepaalt het toepassingsgebied, de datum van inwerkingtreding
  en de duur ervan.
   De collectieve consumentenovereenkomst is niet van toepassing op de lopende overeenkomsten, behoudens
-Pagina 206 van 764 Copyright Belgisch S taatsblad 16-04-2026
  andersluidende bepaling en voor zover zij gunstiger is voor de consument.
   De collectieve consumentenovereenkomst bepaalt de wijze waarop informatie betreffende de overeenkomst
  wordt verstrekt zowel aan de ondernemingen als aan de consumenten.
@@ -10543,7 +10838,9 @@ Pagina 206 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.119.[1 Het onderhandelen over en het ondertekenen van collectieve consumentenovereenkomsten
+## Art. VI.119
+
+[1 Het onderhandelen over en het ondertekenen van collectieve consumentenovereenkomsten
  gebeurt binnen de [2 bijzondere raadgevende commissie Verbruik]2.
   De vraag om over een collectieve consumentenovereenkomst te onderhandelen gaat uit van een lid van de [2
  bijzondere raadgevende commissie Verbruik]2 of van een lid van de regering.
@@ -10563,7 +10860,9 @@ Pagina 206 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-  Art. VI.120.[1 De algemene contractuele voorwaarden die in de collectieve consumentenovereenkomsten zijn
+## Art. VI.120
+
+[1 De algemene contractuele voorwaarden die in de collectieve consumentenovereenkomsten zijn
  vastgesteld, moeten vooraf voor advies worden voorgelegd aan de [2 bijzondere raadgevende commissie
  Onrechtmatige bedingen]2, die binnen de drie maanden haar advies uitbrengt. Eenmaal deze termijn is
  verstreken, kan de collectieve consumentenovereenkomst worden afgesloten.]1
@@ -10594,14 +10893,15 @@ Pagina 206 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.123.[1 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, op eenparig advies van
+## Art. VI.123
+
+[1 De Koning kan, bij een besluit vastgesteld na overleg in de ministerraad, op eenparig advies van
  de [2 bijzondere raadgevende commissie Verbruik]2 aan een ganse sector de toepassing opleggen van een
  collectieve consumentenovereenkomst waarvan het toepassingsgebied nationaal is.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
   (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-Pagina 207 van 764 Copyright Belgisch S taatsblad 16-04-2026
   TITEL 6. - [1 Bijzondere regels inzake geregistreerde benamingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
@@ -10677,7 +10977,6 @@ Pagina 207 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een deel van de ten gevolge van de inbreuk genoten winst, alsmede tot het afleggen van rekening en
  verantwoording dienaangaande. Bij het bepalen van de af te dragen winst worden enkel de kosten in mindering
  gebracht die rechtstreeks verbonden zijn aan de betrokken inbreukactiviteiten.]1
-Pagina 208 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -10685,7 +10984,9 @@ Pagina 208 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. VI.128.[1 De Koning oefent de bevoegdheden, Hem toegekend door de bepalingen van boek VI, titels 1, 2,
+## Art. VI.128
+
+[1 De Koning oefent de bevoegdheden, Hem toegekend door de bepalingen van boek VI, titels 1, 2,
  3, 4, hoofdstukken 1 en 3, en van titel 5, uit op de gezamenlijke voordracht van de ministers bevoegd voor
  Economie, Middenstand en Consumentenzaken.
   De Koning oefent de bevoegdheden, Hem toegekend door de bepalingen van boek VI, titel 4, hoofdstukken 2
@@ -10745,7 +11046,6 @@ Pagina 208 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderdelen : "waarop u of een door u aangewezen derde, die niet de vervoerder is, de laatste zending of het
  laatste onderdeel fysiek in bezit krijgt.";
    e) voor overeenkomsten betreffende regelmatige levering van goederen gedurende een bepaalde periode :
-Pagina 209 van 764 Copyright Belgisch S taatsblad 16-04-2026
  "waarop u of een door u aangewezen derde, die niet de vervoerder is, het eerste goed fysiek in bezit krijgt.".
     (2) [2 Vul hier uw naam, adres, telefoonnummer en e-mailadres in.]2
     (3) Indien u de consument de mogelijkheid biedt informatie over de herroeping van de overeenkomst
@@ -10813,8 +11113,9 @@ Pagina 209 van 764 Copyright Belgisch S taatsblad 16-04-2026
   TITEL 1. - [1 Algemene principes.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
-Pagina 210 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. VII.1.[1 Dit boek beoogt voornamelijk de regeling van de betalingsdiensten en de kredietovereenkomsten [6
+## Art. VII.1
+
+[1 Dit boek beoogt voornamelijk de regeling van de betalingsdiensten en de kredietovereenkomsten [6
  , evenals die van de handelspapieren en van de cheque]6.
    Het zet de bepalingen om van :
    1° [5 richtlijn 2015/2366/EU van het Europees Parlement en de Raad van 25 november 2015 betreffende
@@ -10851,7 +11152,9 @@ Pagina 210 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
-  Art. VII.2.[1 § 1. [5 [6 Titels 3, 5, 6 en 7 van dit boek]6 zijn van toepassing op betalingstransacties in de valuta
+## Art. VII.2
+
+[1 § 1. [5 [6 Titels 3, 5, 6 en 7 van dit boek]6 zijn van toepassing op betalingstransacties in de valuta
  van een lidstaat waarbij zowel de betalingsdienstaanbieder van de betaler als de betalingsdienstaanbieder van de
  begunstigde allebei in een lidstaat zijn gevestigd, of waarbij de enige bij de betalingstransactie betrokken
  betalingsdienstaanbieder zich in een lidstaat bevindt.
@@ -10879,7 +11182,6 @@ Pagina 210 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° betaalrekeningen waarmee consumenten ten minste geldmiddelen op een betaalrekening kunnen plaatsen,
  contanten van een betaalrekening kunnen opnemen, en betalingstransacties, met inbegrip van overschrijvingen
  van en naar derden, kunnen ontvangen en uitvoeren;
-Pagina 211 van 764 Copyright Belgisch S taatsblad 16-04-2026
     2° vooraf betaalde kaarten.
     De Koning kan, rekening houdende met de aard en beschikbaarheid van de aangeboden betalingsdiensten,
  vooraf betaalde instrumenten uitsluiten van alle of sommige bepalingen van de hoofdstukken 1/1 en 9/1 van titel
@@ -10933,7 +11235,9 @@ Pagina 211 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (7)<W 2022-09-25/14, art. 11, 120; Inwerkingtreding : 26-01-2023>
    (8)<W 2023-07-31/04, art. 2, 130; Inwerkingtreding : 01-01-2024>
 
-  Art. VII.3.[1 § 1. [7 Titels 1 tot 7 van dit boek zijn niet van toepassing op :]7
+## Art. VII.3
+
+[1 § 1. [7 Titels 1 tot 7 van dit boek zijn niet van toepassing op :]7
   1° betalingstransacties die uitsluitend in contanten, rechtstreeks door de betaler aan de begunstigde worden
  verricht, zonder enige tussenkomst;
   2° betalingstransacties die door de betaler aan de begunstigde worden uitgevoerd via een handelsagent [5
@@ -10946,7 +11250,6 @@ Pagina 211 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingstransactie op uitdrukkelijk verzoek van de betalingsdienstgebruiker vlak voor de uitvoering van een
  betalingstransactie in de vorm van een betaling voor de aankoop van goederen of diensten;
   6° [5 contante valutawisseltransacties]5 waarbij de geldmiddelen niet op een betaalrekening worden
-Pagina 212 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aangehouden;
    7° betalingstransacties die zijn gebaseerd op een van de volgende documenten die door een
  betalingsdienstaanbieder zijn uitgegeven met de bedoeling geldmiddelen beschikbaar te stellen aan de
@@ -11013,7 +11316,6 @@ Pagina 212 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kaartuitgevers handelende dienstaanbieders die geen partij zijn bij het raamcontract met de cliënt die geld van
  een betaalrekening opneemt, mits die dienstaanbieders geen andere betalingsdiensten als bedoeld in bijlage I
  verrichten. Niettemin wordt aan de cliënt de in de artikelen VII.10, VII.15, VII.18 en VII.19 bedoelde informatie
-Pagina 213 van 764 Copyright Belgisch S taatsblad 16-04-2026
  over eventuele kosten voor geldopname verstrekt, zowel vóór de geldopname als na ontvangst van de
  contanten aan het einde van de transactie na de geldopname.]5
   § 2. Dit boek is niet van toepassing op :
@@ -11082,7 +11384,6 @@ Pagina 213 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overschrijding van de bij koninklijk besluit van 14 september 2016 bepaalde maximale terugbetalingstermijn en
  nulstellingstermijn.
     De wijzigingen van de kredietovereenkomst, met inbegrip van de nieuwe einddatum van het krediet, dienen
-Pagina 214 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geregistreerd te worden in de Centrale voor Kredieten aan Particulieren.
     5° de wijziging van de kredietovereenkomst die bestaat uit het uitstel van terugbetaling of de verlenging van de
  nulstellingstermijn hoeft niet in de kredietovereenkomst zelf te worden geformaliseerd, maar kan worden
@@ -11150,7 +11451,6 @@ Pagina 214 van 764 Copyright Belgisch S taatsblad 16-04-2026
  boek, die hij aanwijst, niet van toepassing zijn :
    1° op kredietovereenkomsten waarbij het krediet als nevenactiviteit door een werkgever rentevrij of tegen een
  jaarlijks kostenpercentage dat lager is dan gebruikelijk op de markt, aan zijn werknemers wordt toegekend, en die
-Pagina 215 van 764 Copyright Belgisch S taatsblad 16-04-2026
  niet aan het publiek in het algemeen worden aangeboden;
   2° op kredietovereenkomsten die door overheidsinstellingen of door particuliere instellingen die daartoe door de
  bevoegde overheid zijn erkend worden toegestaan, met een doelstelling van algemeen belang, aan een beperkt
@@ -11191,7 +11491,9 @@ Pagina 215 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 5, 057; Inwerkingtreding : 01-02-2018>
 
-   Art. VII.4/1.[1 § 1. Onverminderd de toepassing [2 van de artikelen VII.22, 3°,]2 VII.70 en VII.71, verstrekt de
+## Art. VII.4/1
+
+[1 § 1. Onverminderd de toepassing [2 van de artikelen VII.22, 3°,]2 VII.70 en VII.71, verstrekt de
  betalingsdienstaanbieder ruimschoots voordat met een consument een contract voor een betaalrekening wordt
  aangegaan, de consument op een duurzame drager een informatiedocument betreffende de vergoedingen.
     Het in het eerste lid bedoelde informatiedocument betreffende de vergoedingen bevat een lijst van ten minste
@@ -11220,7 +11522,6 @@ Pagina 215 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een gemeenschappelijk symbool om het document van andere documentatie te onderscheiden;
     7° omvat een verklaring dat het document de voor de meest representatieve diensten in verband met de
  betaalrekening aangerekende vergoedingen bevat en dat volledige precontractuele en contractuele informatie
-Pagina 216 van 764 Copyright Belgisch S taatsblad 16-04-2026
  over alle diensten wordt verstrekt in andere documenten.
     Onverminderd de toepassing van het eerste lid, wordt het informatiedocument betreffende de vergoedingen
  bedoeld in paragraaf 1 samen met de uit hoofde van andere wettelijke bepalingen inzake betaalrekeningen en
@@ -11255,7 +11556,9 @@ Pagina 216 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-12-22/14, art. 6, 057; Inwerkingtreding : 01-03-2019>
    (2)<W 2018-07-19/09, art. 6, 063; Inwerkingtreding : 09-08-2018>
 
-   Art. VII.4/2.[1 § 1. Onverminderd de toepassing [2 van de artikelen VII.27, VII.28]2 en VII.99 verstrekt de
+## Art. VII.4/2
+
+[1 § 1. Onverminderd de toepassing [2 van de artikelen VII.27, VII.28]2 en VII.99 verstrekt de
  betalingsdienstaanbieder de consument ten minste jaarlijks, uiterlijk op de laatste dag van de maand februari,
  kosteloos een staat van alle vergoedingen evenals, indien toepasselijk, informatie over de in paragraaf 2, 3° en
  4°, bedoelde rentevoeten, voor aan een betaalrekening verbonden diensten. Indien toepasselijk gebruikt de
@@ -11289,7 +11592,6 @@ Pagina 216 van 764 Copyright Belgisch S taatsblad 16-04-2026
     4° is gesteld in de officiële taal van de plaats waar de betaalrekening wordt aangeboden, of in een andere taal
  indien aldus tussen de consument en de betalingsdienstaanbieder is overeengekomen.
     Onverminderd de toepassing van de bepalingen van het eerste lid, wordt deze vergoedingenstaat samen
-Pagina 217 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verstrekt met de hyperlink naar de in artikel VII.4/4 bedoelde vergelijkingswebsite, en indien van toepassing,
  samen met de uit hoofde van andere wetgeving inzake betaalrekeningen en aanverwante diensten
  voorgeschreven informatie.
@@ -11360,7 +11662,6 @@ Pagina 217 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betaalinstrumenten en bijhorende kosten, in het kader van betalingen in euro die plaatsvinden in gelijktijdige
  fysieke aanwezigheid van de consument en de onderneming, zoals bedoeld in artikel VI.7/4, hebben de
  ondernemingen als gedefinieerd in artikel I.8, 39°, op nationaal niveau kosteloos toegang tot een website waarop
-Pagina 218 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de verschillende soorten betaalinstrumenten en de bijhorende kosten worden vergeleken.
    De Koning kan, op advies van de FOD Economie, de lijst uitbreiden van de soorten betaalinstrumenten die
  moeten voorkomen op de vergelijkingswebsite en deze vergelijkingswebsite uitbreiden naar e-commerce
@@ -11434,7 +11735,6 @@ Pagina 218 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de betalingsdienstaanbieder toe.]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
-Pagina 219 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.9
 
 [1 § 1. In geval van betaalinstrumenten die overeenkomstig het raamcontract ofwel uitsluitend
@@ -11510,7 +11810,6 @@ Pagina 219 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Betalingsinstellingen zorgen ervoor dat agenten of bijkantoren die voor hun rekening handelen,
  de betalingsdienstgebruikers daarvan in kennis stellen.]1
   ----------
-Pagina 220 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2021-02-02/06, art. 10, 096; Inwerkingtreding : 21-02-2021>
 
   Afdeling 2. - [1 Eenmalige betalingstransacties]1
@@ -11542,7 +11841,9 @@ Pagina 220 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Art. VII.14.[1 § 1. Voordat de betalingsdienstgebruiker gebonden is door een contract of een aanbod
+## Art. VII.14
+
+[1 § 1. Voordat de betalingsdienstgebruiker gebonden is door een contract of een aanbod
  betreffende een eenmalige betalingstransactie dient de betalingsdienstaanbieder hem op een gemakkelijk
  toegankelijke wijze de in artikel VII.15 bedoelde informatie en voorwaarden met betrekking tot zijn eigen diensten
  ter beschikking te stellen.
@@ -11583,7 +11884,6 @@ Pagina 220 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deze autoriteit waarin de betalingsdienstaanbieder met het oog op zijn vergunning is ingeschreven en het
  registratienummer of gelijkaardig middel waarmee de registerinschrijvingen gecontroleerd kunnen worden.
   § 3. Voor zover van toepassing worden de overige in artikel VII.22 bedoelde informatie en voorwaarden op
-Pagina 221 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gemakkelijk toegankelijke wijze ter beschikking gesteld van de betalingsdienstgebruiker.]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
@@ -11658,7 +11958,6 @@ Pagina 221 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 1. - [1 Toepassingsgebied]1
   ----------
-Pagina 222 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 ## Art. VII.20
@@ -11731,7 +12030,6 @@ Pagina 222 van 764 Copyright Belgisch S taatsblad 16-04-2026
  index of basis voor de vaststelling van die referentierentevoet of -wisselkoers, en
    c) indien zo overeengekomen, de onmiddellijke toepassing van wijzigingen in de referentierentevoeten of
  wisselkoersen en de informatievereisten met betrekking tot die wijzigingen, overeenkomstig artikel VII.24, § 2;
-Pagina 223 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° de communicatie:
    a) desgevallend, de communicatiemiddelen, met inbegrip van de technische vereisten van de apparatuur en
  software van de betalingsdienstgebruiker, zoals tussen de partijen voor de overdracht van informatie of
@@ -11804,7 +12102,6 @@ Pagina 223 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingsdienstgebruiker de wijzigingen verwerpt, de betalingsdienstgebruiker het recht heeft het raamcontract
  kosteloos en met onmiddellijke ingang te beëindigen tot de datum waarop de wijziging van toepassing zou
  worden.
-Pagina 224 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Wijzigingen in de rentevoeten of de wisselkoersen kunnen met onmiddellijke ingang en zonder kennisgeving
  worden toegepast, mits het recht daartoe in het raamcontract is overeengekomen en de wijzigingen gebaseerd
  zijn op het overeenkomstige artikel VII.22, 3°, b) en c), overeengekomen referentierentevoeten of wisselkoersen.
@@ -11878,7 +12175,6 @@ Pagina 224 van 764 Copyright Belgisch S taatsblad 16-04-2026
  houden.
   § 3. De Koning kan, in afwijking van paragraaf 2 en volgens de nadere regels die Hij bepaalt, bij een besluit
  vastgesteld na overleg in de Ministerraad, de betalingsdienstaanbieder verplichten om, op vraag van de betaler
-Pagina 225 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de in paragraaf 1 bedoelde informatie eenmaal per maand kosteloos op een duurzame drager te verstrekken.]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
@@ -11954,7 +12250,6 @@ Pagina 225 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. Met betrekking tot betaalinstrumenten die overeenkomstig het raamcontract uitsluitend
  worden gebruikt voor afzonderlijke betalingstransacties van maximaal 30 euro ofwel een uitgavenlimiet van 150
  euro hebben of waarop maximaal een bedrag van 150 euro tegelijk kan worden opgeslagen, kunnen
-Pagina 226 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingsdienstaanbieders met hun betalingsdienstgebruikers overeenkomen dat:
    1° de artikelen VII.38, § 1, 2°, VII.39, 3° en 4°, en VII.44, § 3, niet van toepassing zijn als het betaalinstrument
  niet kan worden geblokkeerd of verder gebruik ervan niet kan worden voorkomen;
@@ -12026,7 +12321,6 @@ Pagina 226 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° de te geven volmacht moet uitdrukkelijk verwijzen naar de onderliggende overeenkomst die op haar beurt de
  draagwijdte van de gedomicilieerde schuldvorderingen bepaalt met betrekking tot de aard, de vervaltermijn en zo
  mogelijk het juiste bedrag.
-Pagina 227 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De domiciliëring kan slechts rechtsgeldig tot stand komen indien de betaler voorafgaand in kennis werd gesteld
  van de onderliggende overeenkomst.
   § 3. Onverminderd de toepassing van artikel VII.46, § 3, indien het juiste bedrag of de datum van debitering niet
@@ -12102,7 +12396,6 @@ Pagina 227 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betaalinstrument, kunnen de betaler en de betalingsdienstaanbieder uitgavenlimieten overeenkomen voor
  betalingstransacties die met dat betaalinstrument zijn uitgevoerd.
 
-Pagina 228 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Indien zulks in het raamcontract is overeengekomen, kan de betalingsdienstaanbieder zich het recht
  voorbehouden het betaalinstrument te blokkeren om objectief gerechtvaardigde redenen die verband houden
  met de veiligheid van het betaalinstrument, een vermoeden van niet-toegestaan of frauduleus gebruik van het
@@ -12175,7 +12468,6 @@ Pagina 228 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De betalingsdienstaanbieder dient een intern register bij te houden van de betalingstransacties,
  gedurende een periode van ten minste tien jaar te rekenen vanaf de uitvoering van de transacties.
-Pagina 229 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Deze bepaling doet geen afbreuk aan andere wettelijke bepalingen inzake het leveren van bewijsstukken.]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
@@ -12248,7 +12540,6 @@ Pagina 229 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rekeninghoudende betalingsdienstaanbieder onmiddellijk, en in elk geval uiterlijk aan het einde van de
  eerstvolgende werkdag, het bedrag van de niet-toegestane betalingstransactie terug en herstelt hij, in
  voorkomend geval, de betaalrekening die met dat bedrag was gedebiteerd, in de toestand zoals die geweest zou
-Pagina 230 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zijn mocht de niet-toegestane betalingstransactie niet hebben plaatsgevonden.
   Ingeval de betalingsinitiatiedienstaanbieder aansprakelijk is voor de niet-toegestane betalingstransactie,
  vergoedt hij de rekeninghoudende betalingsdienstaanbieder op diens verzoek onmiddellijk voor de geleden
@@ -12320,7 +12611,6 @@ Pagina 230 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 7. - [1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd]1
   ----------
-Pagina 231 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 ## Art. VII.46
@@ -12394,7 +12684,6 @@ Pagina 231 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingsopdracht geacht op de eerstvolgende werkdag te zijn ontvangen.]1
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
-Pagina 232 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.49
 
 [1 § 1. Wanneer de betalingsdienstaanbieder weigert een betalingsopdracht uit te voeren of een
@@ -12469,7 +12758,6 @@ Pagina 232 van 764 Copyright Belgisch S taatsblad 16-04-2026
   2° betalingstransacties met slechts één valutawissel tussen de euro en de officiële valuta van een lidstaat die de
  euro niet als munt heeft, mits de vereiste valutawissel wordt uitgevoerd in de betrokken lidstaat waar de euro
  niet de munteenheid is en, bij grensoverschrijdende betalingstransacties, de overmaking in euro geschiedt.
-Pagina 233 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Deze onderafdeling is van toepassing op niet in paragraaf 1 vermelde betalingstransacties, tenzij tussen de
  betalingsdienstgebruiker en de betalingsdienstaanbieder anders is overeengekomen, met uitzondering van artikel
  VII.55/1, waarvan partijen niet kunnen afwijken.
@@ -12545,7 +12833,6 @@ Pagina 233 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-Pagina 234 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.55/2
 
 [1 § 1. Een betalingsopdracht uitgevoerd in overeenstemming met de unieke identificator, wordt
@@ -12620,7 +12907,6 @@ Pagina 234 van 764 Copyright Belgisch S taatsblad 16-04-2026
  VII.55/2, §§ 2 tot 5, en VII.55/9, aansprakelijk jegens de begunstigde voor het behandelen van de geldtransactie
  overeenkomstig zijn verplichtingen krachtens artikel VII.55/1.
   Wanneer de betalingsdienstaanbieder van de begunstigde aansprakelijk is uit hoofde van paragraaf 1, eerste en
-Pagina 235 van 764 Copyright Belgisch S taatsblad 16-04-2026
  tweede lid, zorgt hij ervoor dat het bedrag van de betalingstransactie onmiddellijk ter beschikking van de
  begunstigde wordt gesteld zodra de rekening van de betalingsdienstaanbieder van de begunstigde met het
  bedrag is gecrediteerd.
@@ -12695,7 +12981,6 @@ Pagina 235 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Aanvullende financiële compensatie kan worden vastgesteld conform de bestaande overeenkomsten tussen de
  betalingsdienstaanbieders en/of tussenpersonen en het recht dat van toepassing is op de tussen hen gesloten
  overeenkomst.]1
-Pagina 236 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -12711,7 +12996,9 @@ Pagina 236 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-   Art. VII.55/10.[1 Na de melding van incidenten zoals bepaald in artikel 53, paragraaf 2, en 57, paragraaf 3,
+## Art. VII.55/10
+
+[1 Na de melding van incidenten zoals bepaald in artikel 53, paragraaf 2, en 57, paragraaf 3,
  laatste lid van de wet van 11 maart 2018, en na de incidenten te hebben geëvalueerd, informeert de Bank zo
  nodig de FOD Economie, opdat deze laatste, indien noodzakelijk en in overleg met de Bank, passende
  maatregelen kan nemen ter vrijwaring van de rechten van de betalingsdienstgebruikers.]1
@@ -12772,7 +13059,6 @@ Pagina 236 van 764 Copyright Belgisch S taatsblad 16-04-2026
  15 werkdagen na ontvangst van de klacht.
   In uitzonderlijke situaties, waarin het om redenen waarop de betalingsdienstaanbieder geen controle heeft, niet
  mogelijk is om binnen de 15 werkdagen antwoord te geven, stuurt de betalingsdienstaanbieder een bericht
-Pagina 237 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waarin om verlenging van de antwoordtermijn wordt verzocht, de redenen van de vertraging in de
  beantwoording van de klacht duidelijk worden vermeld en de termijn wordt genoemd waarbinnen de
  betalingsdienstgebruiker een definitieve reactie zal ontvangen.
@@ -12808,7 +13094,9 @@ Pagina 237 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-11-08/04, art. 2, 098; Inwerkingtreding : 01-05-2021>
 
-   Art. VII.57.[1 § 1. De basisbankdienst is een betalingsdienst [2 beschikbaar binnen de Europese Unie]2 die
+## Art. VII.57
+
+[1 § 1. De basisbankdienst is een betalingsdienst [2 beschikbaar binnen de Europese Unie]2 die
  bestaat uit de diensten bedoeld in artikel I. 9, 1°, a) tot c), met uitzondering van iedere uitgestelde
  betalingsverrichting aan de hand van een betaalinstrument, en de boeking van cheques.
    [2 De diensten waarbij contanten op een rekening kunnen worden geplaatst of opgenomen, zijn mogelijk aan
@@ -12841,7 +13129,6 @@ Pagina 237 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De Koning kan echter bepalen dat een minimumaantal verrichtingen met betrekking tot de diensten bedoeld in
  artikel VII.57, § 1, gratis zijn en dat een minimumaantal papieren overschrijvingen tegen een redelijke prijs
  verkrijgbaar zijn, waarbij het minimumaantal verrichtingen voldoende is om het persoonlijk gebruik door de
-Pagina 238 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consument te dekken, waarbij rekening wordt gehouden met het bestaande consumentengedrag en de
  gebruikelijke commerciële praktijk. De vergoedingen die worden aangerekend voor verrichtingen boven het
  minimumaantal verrichtingen zijn in geen geval hoger dan die welke worden aangerekend in het kader van het
@@ -12858,7 +13145,9 @@ Pagina 238 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2024-02-09/19, art. 24, 129; Inwerkingtreding : 31-03-2024>
   (4)<W 2024-05-03/21, art. 8, 135; Inwerkingtreding : 10-06-2024>
 
-  Art. VII.58.[1 De aanvraag tot opening van een basisbankdienst gebeurt door het overmaken aan de
+## Art. VII.58
+
+[1 De aanvraag tot opening van een basisbankdienst gebeurt door het overmaken aan de
  kredietinstelling van een formulier dat op [3 elektronische wijze en, in voorkomend geval, wanneer de
  kredietinstelling beschikt over een fysiek kantoor waar de consument een aanvraagformulier kan indienen, op
  papier]3 ter beschikking wordt gesteld door de kredietinstelling.
@@ -12882,7 +13171,9 @@ Pagina 238 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
   (3)<W 2024-05-03/21, art. 9, 135; Inwerkingtreding : 10-06-2024>
 
-   Art. VII.59.[1 § 1. De kredietinstelling weigert de aanvraag indien de aanvraag van de basisbankdienst zou
+## Art. VII.59
+
+[1 § 1. De kredietinstelling weigert de aanvraag indien de aanvraag van de basisbankdienst zou
  resulteren in een schending van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en
  de financiering van terrorisme en tot beperking van het gebruik van contanten.
     De kredietinstelling kan de aanvraag weigeren indien de consument in België een andere betaalrekening heeft
@@ -12908,7 +13199,6 @@ Pagina 238 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het kader van de basisbankdienst geen betalingstransactie plaatsgevonden;
     3° de consument heeft onjuiste informatie verstrekt om de basisbankdienst te verkrijgen, met dien verstande
 
-Pagina 239 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dat als hij wel juiste informatie zou hebben verstrekt, hij geen recht op een dergelijke basisbankdienst zou hebben
  gehad;
     4° [2 de consument voldoet niet meer aan de verblijfsvoorwaarden bedoeld in artikel VII.57, § 2, eerste lid;]2
@@ -12964,7 +13254,9 @@ Pagina 239 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 17, 057; Inwerkingtreding : 01-02-2018>
 
-  Art. VII.59/3.[1 De kredietinstelling stelt voor de consumenten gratis op een duidelijke wijze en zichtbare plaats,
+## Art. VII.59/3
+
+[1 De kredietinstelling stelt voor de consumenten gratis op een duidelijke wijze en zichtbare plaats,
  de informatie over de basisbankdienst minstens op papier [2 te allen tijde]2 beschikbaar in de kantoren
  toegankelijk voor het publiek. Indien de kredietinstelling beschikbaar is via een website, wordt deze informatie
  bovendien op een voor de consument duidelijke wijze en goed zichtbare plaats op deze website geplaatst.
@@ -12977,7 +13269,6 @@ Pagina 239 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 18, 057; Inwerkingtreding : 01-02-2018>
 
-Pagina 240 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2024-05-03/21, art. 11, 135; Inwerkingtreding : 10-06-2024>
 
   Afdeling 2. [1 Basisbankdienst voor ondernemingen [2 en diplomatieke zendingen]2]1
@@ -12985,7 +13276,9 @@ Pagina 240 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2020-11-08/04, art. 3, 098; Inwerkingtreding : 01-05-2021>
   (2)<W 2022-09-25/14, art. 12, 120; Inwerkingtreding : 26-01-2023>
 
-   Art. VII.59/4.[1 § 1. Elke in België gevestigde onderneming die overeenkomstig artikel III.17 ingeschreven is in de
+## Art. VII.59/4
+
+[1 § 1. Elke in België gevestigde onderneming die overeenkomstig artikel III.17 ingeschreven is in de
  Kruispunt-bank van Ondernemingen of een dergelijke inschrijving aanvraagt, en die overeenkomstig paragraaf 3
  door ten minste drie kredietinstellingen een aanvraag tot opening van minimaal de betalingsdiensten bedoeld in
  artikel I.9, 1°, a, b of c is geweigerd [4 of aan wie ten minste tweemaal een aanvraag tot opening van voormelde
@@ -13041,7 +13334,6 @@ Pagina 240 van 764 Copyright Belgisch S taatsblad 16-04-2026
     [3 In geval het in het vierde lid bedoelde advies positief is, of de Cel voor financiële informatieverwerking niet
  heeft gereageerd binnen zestig kalenderdagen, wijst de basisbankdienst-kamer een kredietinstelling aan als
  basisbankdienst-aanbieder die de basisbankdienst moet aanbieden aan de aanvragende onderneming of
-Pagina 241 van 764 Copyright Belgisch S taatsblad 16-04-2026
  diplomatieke zending. De basisbankdienst-aanbieder is een in België gevestigde kredietinstelling uit de lijst van
  systeemrelevante instellingen als gedefinieerd in artikel 3, eerste lid, 29°, van de wet van 25 april 2014 op het
  statuut van en het toezicht op kredietinstellingen, met uitzondering van de in de artikelen 36/1, 13°, 14° en 25°,
@@ -13106,7 +13398,6 @@ Pagina 241 van 764 Copyright Belgisch S taatsblad 16-04-2026
  24 april 1963, de permanente missies van lidstaten bij de Europese Unie of bij de Noord-Atlantische
  Verdragsorganisatie, en de missies van derde staten bij de Europese Unie of bij de Noord-Atlantische
 
-Pagina 242 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Verdragsorganisatie.]5
    [5 Naast ondernemingen, zoals bedoeld in het eerste lid, is deze afdeling van toepassing op verenigingen van
  mede-eigenaars zoals bedoeld in artikel 3.86 van het Burgerlijk Wetboek die niet over een inschrijving in de
@@ -13169,7 +13460,6 @@ Pagina 242 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan met het oog op de naleving van de verplichting tot identificatie en identiteitsverificatie bepaald in boek II, titel
  3, hoofdstuk 1, afdeling 2 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de
  financiering van terrorisme en tot beperking van het gebruik van contanten. [5 ...]5
-Pagina 243 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De Koning richt binnen de FOD Economie de basisbankdienst-kamer op, die belast is met het aanwijzen van een
  basisbankdienst-aanbieder voor ondernemingen [2 en diplomatieke zendingen]2. Hij bepaalt de wijze van
  spreiding van de aanwijzing over de in aanmerking komende basisbankdienst-aanbieders en de wijze van controle
@@ -13210,7 +13500,9 @@ Pagina 243 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (4)<W 2024-02-09/19, art. 25, 129; Inwerkingtreding : 31-03-2024>
    (5)<W 2024-05-03/21, art. 12, 135; Inwerkingtreding : 30-09-2025>
 
-  Art. VII.59/5.[1 De aanvraag bij de basisbankdienst-kamer tot opening van een basisbankdienst gebeurt
+## Art. VII.59/5
+
+[1 De aanvraag bij de basisbankdienst-kamer tot opening van een basisbankdienst gebeurt
  schriftelijk, door middel van een formulier dat op papier of op elektronische wijze ter beschikking wordt gesteld
  door de kredietinstelling [2 die een aanvraag tot opening van minimaal de betalingsdiensten bedoeld in artikel I.9,
  1°, a), b) of c), heeft geweigerd]2.
@@ -13233,7 +13525,6 @@ Pagina 243 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Art. VII_59/5.TOEKOMSTIG_RECHT.
 
    [1 De aanvraag bij de basisbankdienst-kamer tot opening van een basisbankdienst gebeurt schriftelijk, door
-Pagina 244 van 764 Copyright Belgisch S taatsblad 16-04-2026
  middel van een formulier dat op papier of op elektronische wijze ter beschikking wordt gesteld door de
  kredietinstelling [2 die een aanvraag tot opening van minimaal de betalingsdiensten bedoeld in artikel I.9, 1°, a), b)
  of c), heeft geweigerd]2.
@@ -13259,7 +13550,9 @@ Pagina 244 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2024-02-09/19, art. 26, 129; Inwerkingtreding : 31-03-2024>
    (4)<W 2024-05-03/21, art. 13, 135; Inwerkingtreding : 30-09-2025>
 
-   Art. VII.59/6.[1 § 1. [2 De kredietinstelling weigert de aanvraag tot opening van minimaal de betalingsdiensten
+## Art. VII.59/6
+
+[1 § 1. [2 De kredietinstelling weigert de aanvraag tot opening van minimaal de betalingsdiensten
  bedoeld in artikel VII.59/4, § 1, indien ten minste een van de volgende voorwaarden is vervuld:
     1° de weigering is in overeenstemming met de wet van 18 september 2017 tot voorkoming van het witwassen
  van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten;
@@ -13298,7 +13591,6 @@ Pagina 244 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zending brengt de kredietinstelling bij wie zij een basisbankdienst heeft aangegaan daarvan onverwijld op de
  hoogte;]3
     5° de opzegging is in overeenstemming met de wet van 18 september 2017 tot voorkoming van het
-Pagina 245 van 764 Copyright Belgisch S taatsblad 16-04-2026
  witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten.
     Onverminderd andere wettelijke bepalingen of andere instructies of aanbevelingen van enige
  overheidsinstantie, neemt de kredietinstelling die het raamcontract beëindigt, een opzegtermijn van ten minste
@@ -13336,7 +13628,9 @@ Pagina 245 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2023-11-05/07, art. 15, 123; Inwerkingtreding : 21-12-2023>
    (4)<W 2024-05-03/21, art. 14, 135; Inwerkingtreding : 10-06-2024>
 
-  Art. VII.59/7.[1 § 1. [2 De ombudsdienst voor financiële diensten]2 spreekt zich uit over de geschillen die hem
+## Art. VII.59/7
+
+[1 § 1. [2 De ombudsdienst voor financiële diensten]2 spreekt zich uit over de geschillen die hem
  worden voorgelegd. Dit orgaan kan de beslissing van de kredietinstelling vernietigen. De beslissing is bindend
  voor de kredietinstelling en wordt meegedeeld aan zowel de kredietinstelling als aan de betrokken onderneming.
    § 2. Elke kredietinstelling zendt elk jaar aan het bevoegde toezichthoudend bestuur bij de FOD Economie, en de
@@ -13363,8 +13657,9 @@ Pagina 245 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2020-11-08/04, art. 7, 098; Inwerkingtreding : 01-05-2021>
    (2)<W 2022-09-25/14, art. 16, 120; Inwerkingtreding : 26-01-2023>
    (3)<W 2024-05-03/21, art. 15, 135; Inwerkingtreding : 30-09-2025>
-Pagina 246 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. VII.59/8.[1 De kredietinstellingen die buiten de toepassing van artikel VII.59/4, § 3, vijfde lid, een
+## Art. VII.59/8
+
+[1 De kredietinstellingen die buiten de toepassing van artikel VII.59/4, § 3, vijfde lid, een
  basisbankdienst aanbieden, stellen de informatie over de basisbankdienst op een duidelijke wijze en op een goed
  zichtbare plaats gratis ter beschikking van de ondernemingen en plaatsen deze informatie minstens op hun
  website.
@@ -13376,7 +13671,9 @@ Pagina 246 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-11-08/04, art. 8, 098; Inwerkingtreding : 01-05-2021>
 
-  Art. VII.59/9.[1 § 1. In het kader van hun opdrachten, als bedoeld in artikel VII.59/10, §§ 1, 2 en 3, verwerken de
+## Art. VII.59/9
+
+[1 § 1. In het kader van hun opdrachten, als bedoeld in artikel VII.59/10, §§ 1, 2 en 3, verwerken de
  basisbankdienst-kamer en de basisbankdienst-aanbieder persoonsgegevens over de volgende categorieën van
  betrokken personen:
    1° de aandeelhouders, medewerkers en bestuurders van aanvragende ondernemingen in België;
@@ -13428,9 +13725,7 @@ Pagina 246 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 6. De persoonsgegevens worden niet langer dan nodig bewaard voor de doeleinden waarvoor ze worden
  verwerkt.
    Behoudens andersluidende wettelijke bepaling, mogen de persoonsgegevens niet langer bewaard worden dan
- voor een periode van twee jaar door de basisbankdienst-kamer vanaf de beslissing van de basisbankdienst-
-Pagina 247 van 764 Copyright Belgisch S taatsblad 16-04-2026
- kamer.
+ voor een periode van twee jaar door de basisbankdienst-kamer vanaf de beslissing van de basisbankdienstkamer.
     Behoudens andersluidende wettelijke bepaling, mogen de persoonsgegevens niet langer bewaard worden door
  de basisbankdienst-aanbieder dan voor een periode van tien jaar vanaf het einde van de zakelijke relatie met hun
  cliënt.
@@ -13496,7 +13791,6 @@ Pagina 247 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor een periode van twee jaar door de basisbankdienst-kamer vanaf de beslissing van de basisbankdienstkamer.
    Behoudens andersluidende wettelijke bepaling, mogen de persoonsgegevens niet langer bewaard worden door
  de basisbankdienst-aanbieder dan voor een periode van tien jaar vanaf het einde van de zakelijke relatie met hun
-Pagina 248 van 764 Copyright Belgisch S taatsblad 16-04-2026
  cliënt.
     In geval van gerechtelijke procedure kunnen deze termijnen worden verlengd tot het moment dat de uitspraak
  in kracht van gewijsde is getreden.]1
@@ -13536,7 +13830,9 @@ Pagina 248 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-09-25/14, art. 18, 120; Inwerkingtreding : 26-01-2023>
 
-  Art. VII.59/11.[1 [2 De op 1 januari in België gevestigde kredietinstellingen als bedoeld in artikel 14 van de wet
+## Art. VII.59/11
+
+[1 [2 De op 1 januari in België gevestigde kredietinstellingen als bedoeld in artikel 14 van de wet
  van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen die betalingsdiensten aan
  ondernemingen aanbieden als bedoeld in artikel I.9, 1°, a), b) en c), dragen jaarlijks bij in de werkingskosten van
  de basisbankdienst-kamer.]2
@@ -13565,12 +13861,13 @@ Pagina 248 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.60
 
 [1 Uitgevers van elektronisch geld geven elektronisch geld uit tegen de nominale waarde, in ruil voor
-Pagina 249 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ontvangen geld.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
-   Art. VII.61.[1 § 1. Uitgevers van elektronisch geld betalen de nominale monetaire waarde van het aangehouden
+## Art. VII.61
+
+[1 § 1. Uitgevers van elektronisch geld betalen de nominale monetaire waarde van het aangehouden
  elektronisch geld op elk ogenblik terug [2 in wettig betaalmiddel begrepen in de zin van de Verordening (EG) nr.
  974/98 van de Raad van 3 mei 1998 over de invoering van de euro]2 wanneer de houder van het elektronisch
  geld daarom verzoekt.
@@ -13624,7 +13921,9 @@ Pagina 249 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 20, 057; Inwerkingtreding : 01-02-2018>
 
-   Art. VII.62/2.[1 § 1. De overstapdienst wordt door de ontvangende betalingsdienstaanbieder geïnitieerd op
+## Art. VII.62/2
+
+[1 § 1. De overstapdienst wordt door de ontvangende betalingsdienstaanbieder geïnitieerd op
  verzoek van de consument.
    De aanvraag gebeurt schriftelijk, door middel van een aanvraagformulier dat in alle mogelijkheden van
  paragraaf 2 voorziet, en dat op papier of op elektronische wijze ter beschikking wordt gesteld door de
@@ -13637,7 +13936,6 @@ Pagina 249 van 764 Copyright Belgisch S taatsblad 16-04-2026
  benodigde informatie, en de specifieke toestemmingen voorzien in dit artikel.
    § 2. De ontvangende betalingsdienstaanbieder verricht de overstapdienst bij ontvangst van de door de
 
-Pagina 250 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consument verleende toestemming. Bij twee of meer rekeninghouders wordt de toestemming door elk van de
  rekeninghouders verleend.
    De toestemming biedt de consument de mogelijkheid de overdragende betalingsdienstaanbieder specifiek
@@ -13706,7 +14004,6 @@ Pagina 250 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toestemming bepaalde datum;
    3° desgevallend de consument in kennis stellen van zijn uitgeoefende rechten bij de overdragende
  betalingsdienstaanbieder overeenkomstig artikel 5, lid 3, onder d), van Verordening (EU) nr. 260/2012;
-Pagina 251 van 764 Copyright Belgisch S taatsblad 16-04-2026
     4° de in de toestemming vermelde betalers die terugkerende inkomende overschrijvingen naar een
  betaalrekening van een consument verrichten, in kennis stellen van de gegevens betreffende de betaalrekening
  van de consument bij de ontvangende betalingsdienstaanbieder, en de betalers een kopie van de door de
@@ -13779,7 +14076,6 @@ Pagina 251 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingsopdrachten, overschrijvingen met memodatum, domiciliëringen, en de betaalinstrumenten gekoppeld
  aan een betaalrekening die in hun bezit zijn.
    § 2. De overdragende betalingsdienstaanbieder die de door de ontvangende betalingsdienstaanbieder
-Pagina 252 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overeenkomstig artikel VII.62/2, § 4, 1°, gevraagde informatie verstrekt, brengt hiervoor geen kosten in rekening
  voor de consument of de ontvangende betalingsdienstaanbieder.
    Er mogen geen kosten worden aangerekend aan de consument voor het beëindigen van de rekening en voor
@@ -13798,7 +14094,9 @@ Pagina 252 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 24, 057; Inwerkingtreding : 01-02-2018>
 
-  Art. VII.62/6.[1 § 1. De betalingsdienstaanbieder stelt de volgende informatie over de overstapdienst
+## Art. VII.62/6
+
+[1 § 1. De betalingsdienstaanbieder stelt de volgende informatie over de overstapdienst
  beschikbaar voor consumenten:
     1° de taken van de overdragende en de ontvangende betalingsdienstaanbieder voor elke stap van het
  overstapproces, bedoeld in artikel VII.62/2;
@@ -13843,7 +14141,9 @@ Pagina 252 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
-  Art. VII.63.[1 Onverminderd de toepassing van de wet van 8 december 1992 tot bescherming van de
+## Art. VII.63
+
+[1 Onverminderd de toepassing van de wet van 8 december 1992 tot bescherming van de
  persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, is de verwerking van
  persoonsgegevens door betalingssystemen en betalingsdienstaanbieders toegelaten wanneer dit noodzakelijk en
  relevant is voor de voorkoming van, het onderzoek naar en de opsporing van betalingsbedrog.
@@ -13851,7 +14151,6 @@ Pagina 252 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verwerking van dergelijke gegevens en enige andere verwerking van persoonsgegevens voor de bij het
  onderhavige boek beoogde doeleinden geschiedt overeenkomstig de wet van 8 december 1992 tot bescherming
 
-Pagina 253 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en de verordening (EU)
  2016/679 van het Europees parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke
  personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die
@@ -13921,7 +14220,6 @@ Pagina 253 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 
-Pagina 254 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
 
   Onderafdeling 1. [1 – Reclame.]1
@@ -13929,7 +14227,9 @@ Pagina 254 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.64.[1 § 1. Alle reclame waarin een rentevoet of cijfers betreffende de kosten van het krediet voor de
+## Art. VII.64
+
+[1 § 1. Alle reclame waarin een rentevoet of cijfers betreffende de kosten van het krediet voor de
  consument worden vermeld, bevat op een duidelijke, beknopte, opvallende en desgevallend hoorbare wijze [2 ...]2
  de volgende standaardinformatie :
    1° de debetrentevoet, vast en/of veranderlijk, alsook nadere informatie over eventuele kosten die in de totale
@@ -13991,7 +14291,6 @@ Pagina 254 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toekenning van deze tarieven is onderworpen;
   7° aanduidt met bewoordingen, tekenen of symbolen dat het kredietbedrag ter beschikking wordt gesteld in
  baar geld of contant;
-Pagina 255 van 764 Copyright Belgisch S taatsblad 16-04-2026
   8° de vermelding "gratis krediet "of een gelijkaardige vermelding, anders dan de verwijzing naar het jaarlijkse
  kostenpercentage, bevat;
   9° een daad in de hand werkt die beschouwd moet worden als een niet-naleving van of een inbreuk op dit boek
@@ -14007,7 +14306,9 @@ Pagina 255 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.67.[1 Het leuren voor kredietovereenkomsten is verboden. Wordt als leuren beschouwd :
+## Art. VII.67
+
+[1 Het leuren voor kredietovereenkomsten is verboden. Wordt als leuren beschouwd :
   1° het bezoek van de kredietgever of de kredietbemiddelaar, aan de woonplaats, de verblijfplaats of de
  werkplaats van de consument, alsook aan de woonplaats of de verblijfplaats van een andere consument, ter
  gelegenheid waarvan een kredietaanbod wordt geformuleerd of een kredietaanvraagformulier of een
@@ -14060,7 +14361,6 @@ Pagina 255 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
-Pagina 256 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
 
 ## Art. VII.69
@@ -14096,7 +14396,9 @@ Pagina 256 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.70.[1 § 1. Te gelegener tijd, voordat de consument door een kredietovereenkomst of een kredietaanbod
+## Art. VII.70
+
+[1 § 1. Te gelegener tijd, voordat de consument door een kredietovereenkomst of een kredietaanbod
  wordt gebonden, verstrekt de kredietgever en, in voorkomend geval, de kredietbemiddelaar op basis van de
  door de kredietgever aangeboden kredietvoorwaarden en de eventueel door de consument kenbaar gemaakte
  voorkeur en verstrekte informatie, de consument de gepersonaliseerde informatie noodzakelijk om verschillende
@@ -14130,7 +14432,6 @@ Pagina 256 van 764 Copyright Belgisch S taatsblad 16-04-2026
  andere kredietopnemingsmechanismen voor dat soort kredietovereenkomst hogere jaarlijkse kostenpercentages
  tot gevolg kunnen hebben;
   8° [2 de termijnbedragen, de betalingstermijnen en het aantal van de door de consument te verrichten
-Pagina 257 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betalingen]2 en, in voorkomend geval, de volgorde waarin de betalingen aan de verschillende openstaande saldi
  tegen verschillende debetrentevoeten worden toegerekend met het oog op aflossing;
    9° de eventuele kosten voor het aanhouden van een of meer rekeningen indien dat vereist is voor de boeking
@@ -14188,7 +14489,9 @@ Pagina 257 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2016-04-22/01, art. 6, 038; Inwerkingtreding : 01-12-2016>
    (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Art. VII.71.[1 § 1. Dit artikel is van toepassing op :
+## Art. VII.71
+
+[1 § 1. Dit artikel is van toepassing op :
   1° de geoorloofde debetstanden op een rekening terugbetaalbaar op verzoek van de kredietgever of binnen
  een termijn van drie maanden;
   2° de geoorloofde debetstanden op een rekening die binnen een maand moeten worden afgelost voor wat
@@ -14199,7 +14502,6 @@ Pagina 257 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietovereenkomst of een aanbod wordt gebonden, verstrekt de kredietgever en, in voorkomend geval, de
  kredietbemiddelaarop basis van de door de kredietgever aangeboden kredietvoorwaarden en de eventueel door
  de consument kenbaar gemaakte voorkeur en verstrekte informatie, de consument de nodige informatie om
-Pagina 258 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verschillende aanbiedingen te kunnen vergelijken en zo een geïnformeerd besluit te kunnen nemen over het
  sluiten van een kredietovereenkomst. Die informatie wordt op een [2 duurzame gegevensdrager]2 verstrekt
  overeenkomstig het SECCI-formulier in bijlage 2 bij dit boek. De kredietgever wordt geacht te hebben voldaan aan
@@ -14247,7 +14549,9 @@ Pagina 258 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-   Art. VII.72.[1 De artikelen VII.70, VII.71, VII.74 en VII.75, zijn niet van toepassing op leveranciers van goederen
+## Art. VII.72
+
+[1 De artikelen VII.70, VII.71, VII.74 en VII.75, zijn niet van toepassing op leveranciers van goederen
  of aanbieders van diensten die als agent in een nevenfunctie optreden. Deze bepaling doet geen afbreuk aan de
  verplichting van de kredietgever ervoor te zorgen dat de consument de in die artikelen bedoelde precontractuele
  informatie daadwerkelijk ontvangt.
@@ -14269,7 +14573,6 @@ Pagina 258 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietbemiddelaar, alsook van de aard en de draagwijdte van zijn bevoegdheden, zowel in zijn reclame als in de
  documenten bestemd voor het cliënteel. Deze informatie heeft onder meer betrekking op de hoedanigheid van
  kredietmakelaar of verbonden agent.
-Pagina 259 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De verbonden agent geeft in alle documenten bestemd voor het cliënteel de elementen ter identificatie van de
  kredietgever aan.]1
   ----------
@@ -14336,14 +14639,15 @@ Pagina 259 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.77.[1 § 1. Vooraleer de kredietovereenkomst te sluiten gaat de kredietgever over tot de [2 grondige]2
+## Art. VII.77
+
+[1 § 1. Vooraleer de kredietovereenkomst te sluiten gaat de kredietgever over tot de [2 grondige]2
  beoordeling van de kredietwaardigheid van de consument en gaat na of hij in staat zal zijn om zijn
  betalingsverplichtingen na te komen. Hij gaat eveneens over tot de [2 grondige]2 beoordeling van de
  kredietwaardigheid van de persoonlijke zekerheidsstellers.
   Hiertoe is de kredietgever bovendien gehouden tot het raadplegen van de Centrale, behoudens in het geval van
  een overschrijding. De Koning stelt de nadere regels vast betreffende deze raadpleging.
 
-Pagina 260 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De Koning bepaalt op welke wijze de kredietgever het bewijs levert van de raadpleging van de Centrale evenals
  de termijn gedurende welke dit bewijs dient bewaard te worden. [2 De voorwaarden inzake toegang tot de
  Centrale of elke ander bestand dat aangewend wordt om de kredietwaardigheid van de consument of een
@@ -14381,7 +14685,9 @@ Pagina 260 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.78.[1 § 1. De kredietovereenkomst wordt gesloten door de handmatige handtekening of de
+## Art. VII.78
+
+[1 § 1. De kredietovereenkomst wordt gesloten door de handmatige handtekening of de
  elektronische ondertekening, [2 ...]2 van alle contracterende partijen en wordt opgesteld op een [6 duurzame
  gegevensdrager]6 die het geheel van alle contractuele voorwaarden en vermeldingen bedoeld in dit artikel bevat.
  Elke overeenkomstsluitende partij die een onderscheiden belang heeft evenals de kredietbemiddelaar krijgt een
@@ -14410,7 +14716,6 @@ Pagina 260 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° de identiteit van de kredietgever met inbegrip van zijn ondernemingsnummer, zijn geografisch adres dat
  relevant is voor de betrekkingen met de consument evenals de benaming en het adres van het bevoegde
  toezichthoudend bestuur bij de FOD Economie;
-Pagina 261 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° desgevallend, de identiteit van de kredietbemiddelaar met inbegrip van zijn ondernemingsnummer, zijn
  geografisch adres dat relevant is voor de betrekkingen met de consument evenals de benaming en het adres
  van het bevoegde toezichthoudend bestuur bij de FOD Economie;
@@ -14478,7 +14783,6 @@ Pagina 261 van 764 Copyright Belgisch S taatsblad 16-04-2026
    15° in voorkomend geval, de overige bedingen en contractvoorwaarden.
    § 4. Naast de informatie bedoeld in § 2, vermelden de geoorloofde debetstanden op een rekening
  terugbetaalbaar op verzoek van de kredietgever of binnen een termijn van drie maanden, op een duidelijke en
-Pagina 262 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beknopte wijze :
   1° in voorkomend geval, de vermelding dat de consument te allen tijde gevraagd kan worden het kredietbedrag
  volledig terug te betalen;
@@ -14504,7 +14808,9 @@ Pagina 262 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.79.[1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos het
+## Art. VII.79
+
+[1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos het
  resultaat van de raadpleging mee evenals de identiteit en het adres van de verantwoordelijke voor de verwerking
  van de bestanden die hij heeft geraadpleegd met inbegrip van, in voorkomend geval, de identiteit en het adres
  van de geraadpleegde kredietverzekeraar, en tot wie de consument zich kan wenden overeenkomstig [2 in artikel
@@ -14528,7 +14834,9 @@ Pagina 262 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.80.[1 De financieringshuur heeft een welbepaalde duur. Met de eigendomsoverdracht of de lichting van
+## Art. VII.80
+
+[1 De financieringshuur heeft een welbepaalde duur. Met de eigendomsoverdracht of de lichting van
  de koopoptie komt er een einde aan de kredietverrichting.
   De kredietgever verwittigt de consument [2 bij een aangetekende zending]2 dat hij de mogelijkheid heeft de
  koopoptie te lichten een maand voor de laatste hiertoe overeengekomen datum. Wanneer de koopoptie niet
@@ -14547,7 +14855,6 @@ Pagina 262 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onverminderd de toepassing van artikel VII. 87, eveneens begrepen in het kredietbedrag. In dat geval vermeldt
  het contract ook de prijs van de samenstellende delen van het kredietbedrag.
   § 2. Indien een financieringshuur een of meerdere tijdstippen voorziet waarop een koopoptie kan gelicht
-Pagina 263 van 764 Copyright Belgisch S taatsblad 16-04-2026
  worden, moet de kredietovereenkomst ook telkens de overeenstemmende residuele waarden vermelden.
    Indien deze residuele waarden niet kunnen bepaald worden bij het sluiten van de kredietovereenkomst dan
  moet het contract parameters vermelden die de consument moeten toelaten bij het lichten van de koopoptie
@@ -14586,7 +14893,9 @@ Pagina 263 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.83.[1 § 1. De consument heeft het recht om, zonder opgave van redenen, de kredietovereenkomst te
+## Art. VII.83
+
+[1 § 1. De consument heeft het recht om, zonder opgave van redenen, de kredietovereenkomst te
  herroepen binnen een termijn van veertien dagen. De termijn van dit herroepingsrecht gaat in :
   1° op de dag van het sluiten van de kredietovereenkomst, of
   2° op de dag waarop de consument de contractuele voorwaarden en informatie bedoeld in artikel VII. 78
@@ -14617,7 +14926,6 @@ Pagina 263 van 764 Copyright Belgisch S taatsblad 16-04-2026
  VII.70, VII.74 en VII.78 geniet.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
-Pagina 264 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2016-04-22/01, art. 11, 038; Inwerkingtreding : 01-12-2016>
 
@@ -14659,7 +14967,9 @@ Pagina 264 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.86.[1 § 1. De debetrentevoet is vast of veranderlijk. Indien één of meer vaste debetrentevoeten
+## Art. VII.86
+
+[1 § 1. De debetrentevoet is vast of veranderlijk. Indien één of meer vaste debetrentevoeten
  bedongen zijn, gelden deze voor de duur bedongen in de kredietovereenkomst.
   § 2. Behoudens de uitzonderingen bedoeld in dit artikel met betrekking tot de veranderlijkheid van de
  debetrentevoet en de kosten van opnemen van contanten via een geldautomaat en, onverminderd de toepassing
@@ -14689,7 +14999,6 @@ Pagina 264 van 764 Copyright Belgisch S taatsblad 16-04-2026
  pct. bedraagt van de aanvankelijk of voorheen overeengekomen rentevoet en in het geval van overeenkomsten
  gesloten voor een termijn van meer dan één jaar, dan heeft de consument de mogelijkheid de
 
-Pagina 265 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietovereenkomst eenzijdig en kosteloos opzeggen, binnen de perken van artikel VII. 98. Elk hiermee strijdig
  beding in de overeenkomst is nietig.
   § 6. Indien niet alle debetrentevoeten in de kredietovereenkomst worden gespecificeerd, wordt de
@@ -14763,7 +15072,6 @@ Pagina 265 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de bepalingen van de artikelen 27 tot 35 van de wet van 12 april 1965 betreffende de bescherming van het
  loon der werknemers en kan slechts uitgevoerd en aangewend worden tot beloop van de op de dag van de
  kennisgeving van de overdracht krachtens de kredietovereenkomst opeisbare bedragen.
-Pagina 266 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De inkomsten of het loon van de minderjarigen, ontvoogd of niet, zijn niet vatbaar voor overdracht en
  beslag uit hoofde van kredietovereenkomsten.]1
   ----------
@@ -14803,7 +15111,9 @@ Pagina 266 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.91.[1 Wanneer het gefinancierde goed of de gefinancierde dienstverlening in de kredietovereenkomst
+## Art. VII.91
+
+[1 Wanneer het gefinancierde goed of de gefinancierde dienstverlening in de kredietovereenkomst
  wordt vermeld, of wanneer het bedrag van de kredietovereenkomst rechtstreeks door de kredietgever aan de
  verkoper of de dienstverlener wordt gestort, krijgen de verplichtingen van de consument slechts uitwerking
  vanaf de levering van het goed of de verlening van de dienst, ingeval van een verkoop of dienstverlening met
@@ -14821,7 +15131,9 @@ Pagina 266 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Art. VII.92.[1 Indien de consument een contract voor de levering van een goed of de verrichting van een dienst
+## Art. VII.92
+
+[1 Indien de consument een contract voor de levering van een goed of de verrichting van een dienst
  heeft herroepen, is hij niet langer gebonden aan de daarmee gelieerde kredietovereenkomst.
   Indien de onder de gelieerde kredietovereenkomst vallende goederen of diensten niet of slechts gedeeltelijk
  geleverd, respectievelijk verricht worden of niet met de voorwaarden van het contract voor de levering van een
@@ -14833,7 +15145,6 @@ Pagina 266 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° [2 de consument bij een aangetekende zending, de verkoper van het goed of de dienstverlener met het oog
  op de uitvoering van de overeenkomst in gebreke heeft gesteld, zonder dat hij genoegdoening heeft verkregen
 
-Pagina 267 van 764 Copyright Belgisch S taatsblad 16-04-2026
  binnen een termijn van een maand vanaf de datum van verzending;]2
   2° de consument de kredietgever op de hoogte heeft gesteld dat wanneer hij van de verkoper van het goed of
  van de dienstverlener geen genoegdoening heeft bekomen overeenkomstig het punt 1°, hij de nog verschuldigde
@@ -14907,7 +15218,6 @@ Pagina 267 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° in de achtste maand voor het verstrijken van de nulstellingstermijn, en 2° in de tweede maand voor het
  verstrijken van de nulstellingstermijn. In afwijking van het eerste lid, wanneer de kredietovereenkomst
  onderworpen is aan een nulstellingstermijn van minder dan of gelijk aan een jaar, verwittigt de kredietgever de
-Pagina 268 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consument, door middel van ieder nuttig communicatiemiddel, van de datum van het verstrijken van de
  nulstellingstermijn alsook van de gevolgen van niet-betaling op de nulstellingsdag ten laatste twee maanden voor
  het verstrijken van de nulstellingstermijn.]2]1
@@ -14921,7 +15231,9 @@ Pagina 268 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.96.[1 De consument heeft te allen tijde het recht om geheel of gedeeltelijk het verschuldigd kapitaalsaldo
+## Art. VII.96
+
+[1 De consument heeft te allen tijde het recht om geheel of gedeeltelijk het verschuldigd kapitaalsaldo
  vervroegd terug te betalen. In dat geval heeft hij recht op een verlaging van de totale kosten van het krediet voor
  de consument die overeenstemmen met de interesten en de kosten verschuldigd voor de resterende duur van
  de overeenkomst.
@@ -14933,7 +15245,9 @@ Pagina 268 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2016-04-22/01, art. 14, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.97.[1 § 1. De kredietgever kan een billijke en objectief gegronde vergoeding bedingen in geval van
+## Art. VII.97
+
+[1 § 1. De kredietgever kan een billijke en objectief gegronde vergoeding bedingen in geval van
  volledige of gedeeltelijke vervroegde terugbetaling.
   De kredietgever deelt aan de consument op een [2 duurzame gegevensdrager]2 het gevraagde bedrag mee
  binnen de tien dagen na de ontvangst van de brief bedoeld in artikel VII. 96, tweede lid of na de ontvangst op zijn
@@ -14959,7 +15273,9 @@ Pagina 268 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2018-09-20/14, art. 23, 067; Inwerkingtreding : 20-10-2018>
 
-   Art. VII.98.[1 § 1. De consument kan een kredietovereenkomst van onbepaalde duur te allen tijde kosteloos
+## Art. VII.98
+
+[1 § 1. De consument kan een kredietovereenkomst van onbepaalde duur te allen tijde kosteloos
  beëindigen, tenzij de partijen een opzeggingstermijn zijn overeengekomen. Deze termijn mag niet langer zijn dan
  één maand. Wanneer de consument zijn recht uitoefent, stelt hij de kredietgever hiervan in kennis [2 bij een
  aangetekende zending]2 of op een andere door de kredietgever aanvaarde drager.
@@ -14973,7 +15289,6 @@ Pagina 268 van 764 Copyright Belgisch S taatsblad 16-04-2026
  grond van een kredietovereenkomst op te schorten. De kredietgever stelt de consument, op een [3 duurzame
  gegevensdrager]3, indien mogelijk van tevoren en uiterlijk onmiddellijk na de opschorting, van die opschorting in
  kennis, alsook van de gronden hiervoor, tenzij het verstrekken van dergelijke informatie op grond van andere
-Pagina 269 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wetgeving is verboden of indruist tegen doelstellingen van openbare orde of openbare veiligheid.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
@@ -15019,7 +15334,9 @@ Pagina 269 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.100.[1 § 1. [4 Wanneer een debetstand zich voordoet in het raam van een kredietopening of een
+## Art. VII.100
+
+[1 § 1. [4 Wanneer een debetstand zich voordoet in het raam van een kredietopening of een
  betaalrekening terwijl de kredietgever iedere debetstand die het toegestane kredietbedrag te boven gaat
  uitdrukkelijk verboden heeft, schort de kredietgever de kredietopnemingen op en eist hij de terugstorting van het
  bedrag in niet geoorloofde debetstand binnen een termijn van maximaal vijfenveertig dagen te rekenen vanaf de
@@ -15042,7 +15359,6 @@ Pagina 269 van 764 Copyright Belgisch S taatsblad 16-04-2026
  nagekomen. Dit schrijven wordt verstuurd wanneer de consument zijn verplichtingen voortvloeiend uit het eerste
  lid niet is nagekomen.
     In het geval van een debetstand bedoeld in het eerste lid wordt de consument onverwijld, op een duurzame
-Pagina 270 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gegevensdrager, op de hoogte gebracht van:
    1° de niet geoorloofde debetstand;
    2° het bedrag van de niet geoorloofde debetstand;
@@ -15067,7 +15383,9 @@ Pagina 270 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (4)<W 2023-07-31/04, art. 4, 130; Inwerkingtreding : 01-01-2024>
   (5)<W 2024-12-20/49, art. 38, 139; Inwerkingtreding : 24-01-2025>
 
-  Art. VII.101.[1 Wanneer een overschrijding minstens 1.250 euro bedraagt en langer dan een maand aanhoudt,
+## Art. VII.101
+
+[1 Wanneer een overschrijding minstens 1.250 euro bedraagt en langer dan een maand aanhoudt,
  brengt de kredietgever onverwijld de consument, op een [2 duurzame gegevensdrager]2, op de hoogte van :
   1° de overschrijding;
   2° het overschreden bedrag;
@@ -15092,7 +15410,9 @@ Pagina 270 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.102.[1 De overeenkomst of de schuldvordering uit de kredietovereenkomst kan slechts worden
+## Art. VII.102
+
+[1 De overeenkomst of de schuldvordering uit de kredietovereenkomst kan slechts worden
  overgedragen aan, of, na indeplaatsstelling slechts worden verworven door een op grond van dit boek
  vergunninghoudende of geregistreerde kredietgever, dan wel overgedragen worden aan of verworven worden
  door de Bank, het Beschermingsfonds voor deposito's en financiële instrumenten, de kredietverzekeraars, de [3
@@ -15105,11 +15425,12 @@ Pagina 270 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2015-10-26/06, art. 21, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2018-07-30/47, art. 13, 065; Inwerkingtreding : 15-09-2018>
 
-  Art. VII.103.[1 Onverminderd het bepaalde in artikel VII. 102 kan de overdracht of de indeplaatsstelling aan de
+## Art. VII.103
+
+[1 Onverminderd het bepaalde in artikel VII. 102 kan de overdracht of de indeplaatsstelling aan de
  consument niet worden tegengeworpen dan nadat hem hiervan [2 bij een aangetekende zending]2 kennis is
  gegeven, behalve wanneer de onmiddellijke overdracht of indeplaatsstelling uitdrukkelijk is bepaald in het
  contract, en wanneer de identiteit van de overnemer of van de indeplaatsgestelde in de kredietovereenkomst is
-Pagina 271 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vermeld. Deze kennisgeving is niet verplicht wanneer de oorspronkelijke kredietgever, in overleg met de nieuwe
  houder van de schuldvordering, tegenover de consument het krediet verder beheert.]1
   ----------
@@ -15131,7 +15452,9 @@ Pagina 271 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-12-20/49, art. 40, 139; Inwerkingtreding : 24-01-2025>
 
-   Art. VII.105.[3 § 1. De kredietgever beschikt over adequaat beleid en adequate procedures, zodat hij zich
+## Art. VII.105
+
+[3 § 1. De kredietgever beschikt over adequaat beleid en adequate procedures, zodat hij zich
  inspant om waar passend een redelijke mate van tolerantie aan te houden alvorens een handhavingsprocedure in
  te leiden. Bij dergelijke respijtmaatregelen wordt onder andere rekening gehouden met de individuele
  omstandigheden van de consument en de maatregelen kunnen uitsluitend bestaan uit het voorleggen van een
@@ -15163,7 +15486,9 @@ Pagina 271 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2016-04-22/01, art. 17, 038; Inwerkingtreding : 01-12-2016>
    (3)<W 2024-12-20/49, art. 41, 139; Inwerkingtreding : 24-01-2025>
 
-  Art. VII.106.[1 § 1. Bij ontbinding van de kredietovereenkomst of bij verval van de termijnbepaling wegens de
+## Art. VII.106
+
+[1 § 1. Bij ontbinding van de kredietovereenkomst of bij verval van de termijnbepaling wegens de
  niet-uitvoering door de consument van zijn verbintenissen mag aan de consument geen andere betaling
  gevraagd worden dan die hieronder vermeld :
   - het verschuldigd blijvende saldo;
@@ -15178,7 +15503,6 @@ Pagina 271 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hieronder vermeld :
   - het vervallen en niet-betaalde kapitaal;
   - het bedrag van de vervallen en niet-betaalde totale kosten van het krediet voor de consument;
-Pagina 272 van 764 Copyright Belgisch S taatsblad 16-04-2026
   - het bedrag van de overeengekomen nalatigheidsintrest berekend op het vervallen en niet-betaalde kapitaal;
   - de overeengekomen kosten voor de maanbrieven en de brieven voor ingebrekestelling, a rato van één
  verzending per maand. Deze kosten bestaan uit een forfaitair maximumbedrag van 7,50 euro, vermeerderd met
@@ -15216,7 +15540,9 @@ Pagina 272 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-04-22/01, art. 18, 038; Inwerkingtreding : 01-12-2016>
   (3)<W 2022-04-28/25, art. 18, 118; Inwerkingtreding : 01-01-2023>
 
-  Art. VII.107.[1 § 1. De vrederechter kan de betalingsfaciliteiten, die hij bepaalt, toestaan aan de consument
+## Art. VII.107
+
+[1 § 1. De vrederechter kan de betalingsfaciliteiten, die hij bepaalt, toestaan aan de consument
  wiens financiële toestand is verslechterd.
   Wanneer het toestaan van betalingsfaciliteiten de kosten van de kredietovereenkomst verhoogt, bepaalt de
  vrederechter het deel dat door de consument moet worden gedragen.
@@ -15235,7 +15561,9 @@ Pagina 272 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2024-12-20/49, art. 42, 139; Inwerkingtreding : 24-01-2025>
 
-  Art. VII.108.[1 § 1. Onverminderd de toepassing van § 2, wanneer de consument reeds sommen gelijk aan ten
+## Art. VII.108
+
+[1 § 1. Onverminderd de toepassing van § 2, wanneer de consument reeds sommen gelijk aan ten
  minste 40 % heeft betaald van de prijs bij contante betaling van een goed dat het voorwerp is, hetzij van een
  beding van eigendomsvoorbehoud, hetzij van een pandbelofte met onherroepelijke volmacht, kan dit goed niet
  worden teruggenomen dan op grond van een gerechtelijke beslissing, of van een schriftelijke overeenkomst,
@@ -15246,7 +15574,6 @@ Pagina 272 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. Wanneer een consument, in het raam van een financieringshuur, 40 pct. of meer van de prijs bij contante
  betaling van een lichamelijk roerend goed betaald heeft, kan hij slechts eisen het bezit van het goed te bewaren
  op grond van een uitdrukkelijk akkoord tussen de partijen, gesloten na de totstandkoming van de
-Pagina 273 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietovereenkomst of bij beschikking van de rechter.
   § 3. In geen geval mag een lastgeving of een akkoord gesloten met het oog op de terugname van een goed
  gefinancierd door een kredietovereenkomst leiden tot een ongerechtvaardigde verrijking.]1
@@ -15287,7 +15614,9 @@ Pagina 273 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.110.[1 De kredietgever verwittigt de borg en, desgevallend, de steller van een zekerheid, wanneer de
+## Art. VII.110
+
+[1 De kredietgever verwittigt de borg en, desgevallend, de steller van een zekerheid, wanneer de
  consument [2 twee termijnbedragen]2 of minstens een vijfde van de totale te betalen som achterstaat. Hij geeft
  hem kennis van de toegekende betalingsfaciliteiten en deelt hem vooraf elke wijziging van de oorspronkelijke
  kredietovereenkomst mee.]1
@@ -15296,7 +15625,9 @@ Pagina 273 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2016-04-22/01, art. 20, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.111.[1 In afwijking van [2 artikelen 9.1.22 en 9.1.23]2 van het Burgerlijk Wetboek kan de kredietgever de
+## Art. VII.111
+
+[1 In afwijking van [2 artikelen 9.1.22 en 9.1.23]2 van het Burgerlijk Wetboek kan de kredietgever de
  borg en, desgevallend, de steller van een zekerheid dan eerst aanspreken wanneer de consument ten minste
  twee termijnbedragen of een bedrag gelijk aan 20 pct. van de totale terug te betalen som of het laatste
  termijnbedrag niet heeft betaald en, nadat de kredietgever de consument bij een aangetekende zending in
@@ -15318,7 +15649,6 @@ Pagina 273 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De kredietmakelaar mag zijn activiteit slechts onder zijn eigen naam uitoefenen.]1
   ----------
 
-Pagina 274 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
@@ -15338,7 +15668,9 @@ Pagina 274 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.114.[1 § 1. De kredietbemiddelaar mag van de consument die om zijn bemiddeling heeft verzocht, geen
+## Art. VII.114
+
+[1 § 1. De kredietbemiddelaar mag van de consument die om zijn bemiddeling heeft verzocht, geen
  enkele vergoeding in welke vorm ook, rechtstreeks of onrechtstreeks ontvangen.
    § 2. De kredietbemiddelaar heeft slechts recht op een commissie voor de kredietovereenkomsten die met zijn
  bemiddeling geldig en volgens de vormregels zijn tot stand gekomen.
@@ -15389,7 +15721,6 @@ Pagina 274 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 11. - [1 Verwerking van persoonsgegevens.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
-Pagina 275 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
 
   Onderafdeling 1. - [1 Overmaking van persoonsgegevens.]1
@@ -15397,7 +15728,9 @@ Pagina 275 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.116.[1 Behalve in geval van overdracht of indeplaatsstelling zoals die heeft plaats gevonden
+## Art. VII.116
+
+[1 Behalve in geval van overdracht of indeplaatsstelling zoals die heeft plaats gevonden
  overeenkomstig de artikelen VII. 102 en VII. 103, kunnen de persoonsgegevens van een consument of een
  zekerheidssteller die door de kredietgever verwerkt werden in het raam van het sluiten of het uitvoeren van een
  kredietovereenkomst enkel aan een derde worden overgemaakt onder de voorwaarden [2 opgesomd in deze
@@ -15444,7 +15777,9 @@ Pagina 275 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.119.[1 § 1. De persoonsgegevens mogen slechts aan de volgende personen worden medegedeeld :
+## Art. VII.119
+
+[1 § 1. De persoonsgegevens mogen slechts aan de volgende personen worden medegedeeld :
   1° de vergunninghoudende of geregistreerde kredietgevers;
   2° de personen die [2 ...]2 zijn toegelaten om kredietverzekeringsverrichtingen uit te voeren [2 met toepassing
  van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of
@@ -15461,7 +15796,6 @@ Pagina 275 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De minister of zijn gemachtigde beslist over de aanvraag tot erkenning binnen twee maanden na de dag waarop
  alle vereiste documenten en gegevens zijn ontvangen.
   Indien de aanvraag niet is vergezeld van alle voornoemde documenten en gegevens wordt de aanvrager
-Pagina 276 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hiervan op de hoogte gesteld binnen vijftien dagen na ontvangst van de aanvraag. Bij ontstentenis van een
  mededeling in die zin binnen deze termijn wordt de aanvraag geacht volledig en regelmatig te zijn.
    De weigering tot erkenning is met redenen omkleed en [3 wordt aan de aanvrager meegedeeld bij een
@@ -15533,7 +15867,6 @@ Pagina 276 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de identiteit en het adres van de verantwoordelijke voor de verwerking. Wanneer deze geen vaste vestiging
  op het grondgebied van de Europese Unie heeft, moet hij een op het Belgische grondgebied gevestigde
  vertegenwoordiger aanwijzen, onverminderd rechtsvorderingen die tegen de verantwoordelijke voor de
-Pagina 277 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verwerking zelf kunnen worden ingesteld;
   2° het adres van de Commissie voor de Bescherming van de Persoonlijke Levenssfeer;
   3° de identiteit en het adres van de persoon die het gegeven heeft medegedeeld;
@@ -15605,7 +15938,6 @@ Pagina 277 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kostenpercentage, bevat;
   9° waarin bewoordingen worden gebruikt die bij de consument valse verwachtingen kunnen scheppen
  betreffende de beschikbaarheid of de kosten van een krediet;
-Pagina 278 van 764 Copyright Belgisch S taatsblad 16-04-2026
   10° een daad in de hand werkt die beschouwd moet worden als een niet-naleving van of een inbreuk op dit
  boek of zijn besluiten.]1
   ----------
@@ -15656,7 +15988,9 @@ Pagina 278 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.125.[1 De kredietgever en, desgevallend de kredietbemiddelaar, zorgen er te allen tijde voor om
+## Art. VII.125
+
+[1 De kredietgever en, desgevallend de kredietbemiddelaar, zorgen er te allen tijde voor om
  algemene, duidelijke en begrijpelijke informatie over kredietovereenkomsten, onder de vorm van een prospectus,
  kosteloos beschikbaar te stellen op een [2 duurzame gegevensdrager]2 of in een elektronische vorm.
    Deze algemene informatie omvat ten minste het volgende :
@@ -15675,7 +16009,6 @@ Pagina 278 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vreemde valuta;
    7° een representatief voorbeeld van het kredietbedrag, de totale kosten van het krediet voor de consument,
  het totale door de consument te betalen bedrag en het jaarlijkse kostenpercentage. De Koning stelt criteria vast
-Pagina 279 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor het bepalen van dat voorbeeld.
    Het kredietbedrag en de duur zijn gebaseerd op het kredietbedrag en de duur die, naargelang het soort van
  kredietovereenkomst dat in de prospectus wordt opgenomen, representatief zijn voor de aanbiedingen van de
@@ -15727,7 +16060,9 @@ Pagina 279 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.126.[1 § 1. In het raam van het beoordelen van de kredietwaardigheid vragen de kredietgever en de
+## Art. VII.126
+
+[1 § 1. In het raam van het beoordelen van de kredietwaardigheid vragen de kredietgever en de
  kredietbemiddelaar aan de consument die om een kredietovereenkomst verzoekt en, in voorkomend geval, aan
  de steller van een persoonlijke zekerheid, de juiste en volledige informatie die de kredietgever noodzakelijk acht
  om hun financiële toestand en hun terugbetalingsmogelijkheden te beoordelen. De consument en de steller van
@@ -15744,7 +16079,6 @@ Pagina 279 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gebied of het lidmaatschap van een vakbond of van een ziekenfonds.
   § 2. De kredietgever of desgevallend de kredietbemiddelaar legt respectievelijk aan de consument en aan de
  persoonlijke zekerheidssteller een kredietaanvraagformulier of, desgevallend, een informatieaanvraagformulier
-Pagina 280 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor onder de vorm van een vragenlijst met een beschrijving van alle informatie gevraagd door de kredietgever
  en/of de kredietbemiddelaar overeenkomstig § 1, eerste lid. Met het oog op de bewijslevering van de
  verbintenissen die voortvloeien uit dit artikel is de kredietgever gehouden dit formulier te bewaren zolang het
@@ -15773,7 +16107,9 @@ Pagina 280 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.127.[1 § 1. De kredietgever en, in voorkomend geval, de kredietbemiddelaar verstrekt gratis aan de
+## Art. VII.127
+
+[1 § 1. De kredietgever en, in voorkomend geval, de kredietbemiddelaar verstrekt gratis aan de
  consument de op diens persoon toegesneden informatie die hij nodig heeft om de op de markt beschikbare
  kredietproducten te kunnen vergelijken, de respectieve gevolgen ervan te kunnen beoordelen en zo een
  geïnformeerd besluit over het al dan niet sluiten van een kredietovereenkomst te kunnen nemen.
@@ -15812,10 +16148,11 @@ Pagina 280 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 3. - [1 Informatievoorschriften voor bemiddelaars inzake hypothecair krediet]1
   ----------
-Pagina 281 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.128.[1 § 1. Ruimschoots vooraleer te bemiddelen verstrekt de kredietbemiddelaar aan de consument op
+## Art. VII.128
+
+[1 § 1. Ruimschoots vooraleer te bemiddelen verstrekt de kredietbemiddelaar aan de consument op
  een [2 duurzame gegevensdrager]2 de volgende informatie :
    1° de identiteit en het geografische adres van de kredietbemiddelaar;
    2° het register waarin hij is ingeschreven, in voorkomend geval het registratienummer, en op welke wijze deze
@@ -15884,8 +16221,9 @@ Pagina 281 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-Pagina 282 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. VII.131.[1 § 1. De kredietgever en de kredietbemiddelaar zijn gehouden om voor de kredietovereenkomsten
+## Art. VII.131
+
+[1 § 1. De kredietgever en de kredietbemiddelaar zijn gehouden om voor de kredietovereenkomsten
  die zij gewoonlijk aanbieden of waarvoor zij gewoonlijk bemiddelen, het krediet te zoeken dat qua soort en bedrag
  het best is aangepast, rekening houdend met de financiële toestand van de consument op het ogenblik van het
  sluiten van de kredietovereenkomst en met het doel van het krediet.
@@ -15949,12 +16287,13 @@ Pagina 282 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.133.[1 § 1. Vooraleer de kredietovereenkomst te sluiten, gaat de kredietgever over tot de grondige
+## Art. VII.133
+
+[1 § 1. Vooraleer de kredietovereenkomst te sluiten, gaat de kredietgever over tot de grondige
  beoordeling van de kredietwaardigheid van de consument en gaat na of hij in staat zal zijn om zijn
  betalingsverplichtingen na te komen. Hij gaat eveneens over tot de beoordeling van de kredietwaardigheid van de
  persoonlijke zekerheidsstellers.
   De kredietwaardigheidsbeoordeling wordt uitgevoerd op basis van noodzakelijke, voldoende en evenredige
-Pagina 283 van 764 Copyright Belgisch S taatsblad 16-04-2026
  informatie inzake het inkomen en de uitgaven van de consument en andere financiële en economische
  omstandigheden. De informatie wordt door de kredietgever verkregen uit relevante interne en externe bronnen,
  waaronder de consument, en met inbegrip van aan de kredietbemiddelaar tijdens het kredietaanvraagproces
@@ -16013,7 +16352,9 @@ Pagina 283 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.134.[1 § 1. De kredietovereenkomst wordt gesloten door de handmatige handtekening of de
+## Art. VII.134
+
+[1 § 1. De kredietovereenkomst wordt gesloten door de handmatige handtekening of de
  elektronische ondertekening, van alle contracterende partijen en wordt opgesteld op een [3 duurzame
  gegevensdrager]3 die het geheel van alle contractuele voorwaarden en vermeldingen bedoeld in dit artikel bevat.
  Elke overeenkomstsluitende partij die een onderscheiden belang heeft, krijgt een exemplaar van de
@@ -16022,7 +16363,6 @@ Pagina 283 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De elektronische ondertekening bedoeld in het eerste lid gebeurt :
   [2 - door een gekwalificeerde elektronische handtekening of een gekwalificeerd elektronisch zegel, bedoeld in
  respectievelijk artikel 3.12. en 3.27. van verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad
-Pagina 284 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in
  de interne markt en tot intrekking van Richtlijn 1999/93/EG;
     - of door een andere elektronische handtekening, die de identiteit van de partijen, hun instemming met de
@@ -16091,7 +16431,6 @@ Pagina 284 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietbedrag.
    Indien voor eenzelfde kapitaal meerdere wijzen van aflossing of wedersamenstelling worden gebruikt, duidt de
  kredietovereenkomst aan op welk gedeelte van het kapitaal elke wijze betrekking heeft.
-Pagina 285 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer noch aflossing noch wedersamenstelling van het kapitaal is bedongen, vermeldt de
  kredietovereenkomst de tijdstippen en de voorwaarden van betaling van de intresten en terugkerende en niet
  terugkerende kosten;
@@ -16161,7 +16500,6 @@ Pagina 285 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uit een andere vorm van sparen.
   Het wedersamengestelde kapitaal is op eender welk ogenblik de afkoopwaarde of gevormd kapitaal in geval van
  een levensverzekerings- of kapitalisatieovereenkomst of het reeds gespaarde kapitaal in de andere gevallen van
-Pagina 286 van 764 Copyright Belgisch S taatsblad 16-04-2026
  spaarovereenkomsten.
   Wanneer de wedersamenstelling bij de kredietgever gebeurt, wordt, ingeval van wettelijke of gerechtelijke
  ontbinding of van faillissement van deze laatste, het wedersamengestelde kapitaal bij schuldvergelijking
@@ -16193,7 +16531,9 @@ Pagina 286 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.137.[1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos
+## Art. VII.137
+
+[1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos
  het resultaat van de raadpleging mee evenals de identiteit en het adres van de verantwoordelijke voor de
  verwerking van de bestanden die hij heeft geraadpleegd met inbegrip van, in voorkomend geval, de identiteit en
  het adres van de geraadpleegde kredietverzekeraar, en tot wie de consument zich kan wenden overeenkomstig
@@ -16233,7 +16573,6 @@ Pagina 286 van 764 Copyright Belgisch S taatsblad 16-04-2026
   3° betaalt hij voor de overige kredietovereenkomsten onverwijld en uiterlijk binnen dertig dagen nadat hij de
  kennisgeving van de herroeping aan de kredietgever heeft gestuurd, het kapitaal terug aan de kredietgever en de
  op dit kapitaal lopende rente vanaf de datum waarop het krediet is opgenomen tot de datum waarop het kapitaal
-Pagina 287 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wordt terugbetaald.
   De verschuldigde rente wordt berekend aan de hand van de overeengekomen debetrentevoet. De kredietgever
  heeft geen recht op een andere vergoeding van de consument, met uitzondering van de vergoeding voor niet
@@ -16309,12 +16648,13 @@ Pagina 287 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 Voor de berekening van het bedrag van de debetrente wordt gerekend met de periodieke
 
-Pagina 288 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rentevoet.]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.143.[1 § 1. De periodieke rentevoet en de debetrentevoet zijn vast of veranderlijk. Indien één of meer
+## Art. VII.143
+
+[1 § 1. De periodieke rentevoet en de debetrentevoet zijn vast of veranderlijk. Indien één of meer
  vaste rentevoeten bedongen zijn, gelden deze voor de duur bedongen in de kredietovereenkomst.
    § 2. Behoudens de uitzonderingen bedoeld in dit artikel met betrekking tot de veranderlijkheid van de
  debetrentevoet en/of de periodieke rentevoet, en onverminderd het bepaalde in artikel VII.145 wordt elk beding
@@ -16376,7 +16716,6 @@ Pagina 288 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een wijziging van de debetrentevoet door middel van een wijziging van de periodieke rentevoet voordat de
  wijziging van kracht wordt. Daarbij wordt ook, desgevallend, het bedrag van de na de inwerkingtreding van de
  nieuwe periodieke rentevoet en debetrentevoet te verrichten betalingen vermeld evenals bijzonderheden
-Pagina 289 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betreffende een eventuele verandering in het aantal of de frequentie van de betalingen. In voorkomend geval
  moet bij die mededeling kosteloos een nieuw aflossingsplan worden gevoegd waarin de gegevens bedoeld in
  artikel VII.134, § 3, 4°, zijn opgenomen voor de overblijvende looptijd.
@@ -16422,7 +16761,9 @@ Pagina 289 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.145.[1 Bij een hypothecair krediet met een onroerende bestemming kan de consument de kredietgever
+## Art. VII.145
+
+[1 Bij een hypothecair krediet met een onroerende bestemming kan de consument de kredietgever
  verzoeken wijzigingen aan te brengen aan de voorwaarden en/of zekerheden van de lopende
  kredietovereenkomst. De kredietgever is vrij om al dan niet in te gaan op dit verzoek.
   Deze wijzigingen kunnen slechts betrekking hebben op :
@@ -16446,7 +16787,6 @@ Pagina 289 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het ogenblik van het verzoek van de consument nadat de consument het [2 bijvoegsel op een duurzame drager
  dat het bewijs levert van de instemming van de partijen met de inhoud]2 heeft aanvaard. De kredietgever verwijst
 
-Pagina 290 van 764 Copyright Belgisch S taatsblad 16-04-2026
  in zijn [2 bijvoegsel op een duurzame drager dat het bewijs levert van de instemming van de partijen met de
  inhoud]2 naar het in voege zijnde tarief. De Koning kan een methode bepalen tot vaststelling van maximale
  dossierkosten en, in voorkomend geval, tot aanpassing van deze maxima.
@@ -16458,7 +16798,9 @@ Pagina 290 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2024-05-03/21, art. 17, 135; Inwerkingtreding : 10-06-2024>
 
-   Art. VII.145/1.[1 § 1. Bij een hypothecair krediet met een onroerende bestemming kan de kredietnemer de
+## Art. VII.145/1
+
+[1 § 1. Bij een hypothecair krediet met een onroerende bestemming kan de kredietnemer de
  kredietgever verzoeken tot de verlenging van de looptijd of de tijdelijke opschorting van betaling van
  kapitaalaflossingen en interest.
     De bepalingen van artikel VII.133 zijn niet van toepassing op het tijdelijke uitstel van betaling of verlenging van
@@ -16487,7 +16829,9 @@ Pagina 290 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2020-12-20/10, art. 60, 094; Inwerkingtreding : 01-01-2021>
 
-   Art. VII.145/2.[1 Voor de hypothecaire kredieten met roerende bestemming, zijn de kredietgevers gemachtigd
+## Art. VII.145/2
+
+[1 Voor de hypothecaire kredieten met roerende bestemming, zijn de kredietgevers gemachtigd
  om, tijdens de periode tussen 1 februari en 31 maart 2021, tijdelijk uitstel te verlenen van terugbetaling van een
  lening of verkoop op afbetaling, alsmede van de verlenging van de nulstellingstermijn in geval van
  kredietopeningen voor een maximale termijn van 3 maanden.
@@ -16514,7 +16858,6 @@ Pagina 290 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De kredietlooptijd wordt verlengd met de periode van uitstel.
    De uitgestelde intresten worden gespreid over de nog resterende terugbetalingstermijnen. Bij toekenning van
  het uitstel zal een aangepaste aflossingstabel worden opgemaakt voor de nog resterende
-Pagina 291 van 764 Copyright Belgisch S taatsblad 16-04-2026
  terugbetalingstermijnen van het krediet na het uitstel.
    - de nulstellingstermijn voor een kredietopening uit te stellen met maximaal drie maanden indien de
  nulstellingstermijn van die kredietopening wordt bereikt in de periode tussen 1 februari en 31 maart 2021. Tijdens
@@ -16584,12 +16927,13 @@ Pagina 291 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° het krediet waarop het aangehecht contract betrekking heeft;
   2° de aanvaarding door de kredietgever van de verzekeringsovereenkomst als aangehecht contract;
   3° de verplichtingen die de consument draagt krachtens het aangehechte contract.]1
-Pagina 292 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2023-11-05/07, art. 20, 123; Inwerkingtreding : 01-06-2024>
 
-   Art. VII.147.[1 § 1. [2 Koppelverkoop is verboden. Het is de kredietgever en de kredietbemiddelaar eveneens
+## Art. VII.147
+
+[1 § 1. [2 Koppelverkoop is verboden. Het is de kredietgever en de kredietbemiddelaar eveneens
  verboden om de consument te verplichten in het raam van het sluiten van een kredietovereenkomst, een andere
  overeenkomst te ondertekenen bij de kredietgever, de kredietbemiddelaar of een door hen aangewezen derde,
  tenzij het een gebundelde verkoop betreft.]2
@@ -16653,7 +16997,6 @@ Pagina 292 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.147/1
 
 [1 In het raam van een kredietovereenkomst is het de consument, of, desgevallend, de steller
-Pagina 293 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van een zekerheid verboden, op een wisselbrief of orderbriefje de betaling te beloven of te waarborgen van de
  verbintenissen die hij naar aanleiding van een kredietovereenkomst heeft aangegaan. Het is eveneens verboden
  een cheque te laten ondertekenen als zekerheid van de volledige of gedeeltelijke terugbetaling van het
@@ -16661,7 +17004,9 @@ Pagina 293 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/2.[1 § 1. Elke afstand van rechten betreffende de bedragen bepaald [2 in de artikelen 1409, 1409bis
+## Art. VII.147/2
+
+[1 § 1. Elke afstand van rechten betreffende de bedragen bepaald [2 in de artikelen 1409, 1409bis
  en 1410, § 1, van het Gerechtelijk Wetboek]2, gedaan in het raam van een kredietovereenkomst beheerst door
  dit boek, is onderworpen aan de bepalingen van de artikelen 27 tot 35, met uitzondering van artikel 34, van de
  wet van 12 april 1965 betreffende de bescherming van het loon der werknemers en kan slechts uitgevoerd en
@@ -16710,7 +17055,9 @@ Pagina 293 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.147/5.[1 Wanneer het gefinancierde goed of de gefinancierde dienstverlening in de
+## Art. VII.147/5
+
+[1 Wanneer het gefinancierde goed of de gefinancierde dienstverlening in de
  kredietovereenkomst wordt vermeld, of wanneer het bedrag van de kredietovereenkomst rechtstreeks door de
  kredietgever aan de verkoper of de dienstverlener wordt gestort, krijgen de verplichtingen van de consument
  slechts uitwerking vanaf de levering van het goed of de verlening van de dienst, ingeval van een verkoop of
@@ -16724,7 +17071,6 @@ Pagina 293 van 764 Copyright Belgisch S taatsblad 16-04-2026
  leveringsbewijs, dat door de consument gedagtekend en ondertekend moet zijn.
    De krachtens de kredietovereenkomst verschuldigde rente gaat eerst in op de dag van deze kennisgeving.]1
    ----------
-Pagina 294 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
@@ -16758,7 +17104,9 @@ Pagina 294 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/7.[1 Wanneer de kredietovereenkomst op afstand het gefinancierde goed, verkocht op afstand,
+## Art. VII.147/7
+
+[1 Wanneer de kredietovereenkomst op afstand het gefinancierde goed, verkocht op afstand,
  vermeldt of wanneer het kredietbedrag of het opgenomen bedrag rechtstreeks door de kredietgever aan de
  verkoper op afstand wordt gestort, kan de levering van het goed, in afwijking van de artikelen VII.139, eerste lid,
  en VII.147/3, plaats vinden voor het sluiten van de kredietovereenkomst in zoverre [2 de consument]2 te
@@ -16800,7 +17148,6 @@ Pagina 294 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 § 1. De Koning kan de maximale termijn voor de terugbetaling van het krediet bepalen,
  rekening houdend met het geleende bedrag en de kredietsoort.
-Pagina 295 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De kredietopeningen van onbepaalde duur of met een looptijd van meer dan vijf jaar moeten een termijn van
  nulstelling voorzien waarbinnen het totaal terug te betalen bedrag dient betaald te worden. De Koning kan een
  maximale nulstellingstermijn bepalen.
@@ -16820,7 +17167,9 @@ Pagina 295 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/11.[1 § 1. De consument heeft te allen tijde het recht om het verschuldigd kapitaalsaldo vervroegd
+## Art. VII.147/11
+
+[1 § 1. De consument heeft te allen tijde het recht om het verschuldigd kapitaalsaldo vervroegd
  terug te betalen. In dat geval heeft hij recht op een verlaging van de totale kosten van het krediet voor de
  consument die overeenstemmen met de intresten en de kosten verschuldigd voor de resterende duur van de
  kredietovereenkomst.
@@ -16870,11 +17219,12 @@ Pagina 295 van 764 Copyright Belgisch S taatsblad 16-04-2026
  terugbetaling van zijn krediet te bekomen.
   § 4. Zijn bevrijdend tegenover de kredietgever, de stortingen in kapitaal en vergoeding gedaan krachtens de
  kredietovereenkomst aan een derde, met het oog op een vervroegde terugbetaling.]1
-Pagina 296 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.147/13.[1 § 1. De consument kan een hypothecair krediet met een roerende bestemming van
+## Art. VII.147/13
+
+[1 § 1. De consument kan een hypothecair krediet met een roerende bestemming van
  onbepaalde duur te allen tijde kosteloos beëindigen, tenzij de partijen een opzeggingstermijn zijn
  overeengekomen. Deze termijn mag niet langer zijn dan één maand. Wanneer de consument zijn recht uitoefent,
  stelt hij de kredietgever hiervan in kennis bij een aangetekende zending of op een andere door de kredietgever
@@ -16898,7 +17248,9 @@ Pagina 296 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/14.[1 § 1. Bij iedere kredietopening die een hypothecair krediet met een roerende bestemming
+## Art. VII.147/14
+
+[1 § 1. Bij iedere kredietopening die een hypothecair krediet met een roerende bestemming
  uitmaakt, wordt de consument regelmatig op de hoogte gebracht met een rekeningafschrift op een [2 duurzame
  gegevensdrager]2 van de volgende informatie :
   1° de juiste periode waarop het rekeningafschrift betrekking heeft;
@@ -16924,7 +17276,9 @@ Pagina 296 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.147/15.[1 § 1. Wanneer een debetstand zich voordoet in het raam van een kredietopening of een
+## Art. VII.147/15
+
+[1 § 1. Wanneer een debetstand zich voordoet in het raam van een kredietopening of een
  betaalrekening, die een hypothecair krediet met een roerende bestemming uitmaakt, terwijl de kredietgever
  iedere debetstand die het toegestane kredietbedrag te boven gaat uitdrukkelijk verboden heeft, schort de
  kredietgever de kredietopnemingen op en eist de terugstorting van het bedrag in niet geoorloofde debetstand
@@ -16937,7 +17291,6 @@ Pagina 296 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° de niet geoorloofde debetstand;
    2° het bedrag van de niet geoorloofde debetstand;
    3° de eventuele boetes, kosten of verwijlintresten toepasselijk op het bedrag van de niet geoorloofde
-Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
  debetstand.
   § 2. In geval de consument de verplichtingen die voortvloeien uit de vorige paragraaf niet nakomt, stelt de
  kredietgever een einde aan de overeenkomst binnen de perken van artikel VII.147/20, § 1, 3°, of sluit bij wege
@@ -16947,7 +17300,9 @@ Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Art. VII.147/16.[1 Wanneer een overschrijding, die een hypothecair krediet met een roerende bestemming
+## Art. VII.147/16
+
+[1 Wanneer een overschrijding, die een hypothecair krediet met een roerende bestemming
  uitmaakt, minstens 1 250 euro bedraagt en langer dan een maand aanhoudt, brengt de kredietgever onverwijld
  de consument, op een [2 duurzame gegevensdrager]2, op de hoogte van :
   1° de overschrijding;
@@ -16970,7 +17325,9 @@ Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/17.[1 Onverminderd de toepassing van [2 de artikelen 5.218 tot 5.220]2 van het Burgerlijk Wetboek
+## Art. VII.147/17
+
+[1 Onverminderd de toepassing van [2 de artikelen 5.218 tot 5.220]2 van het Burgerlijk Wetboek
  kan een hypothecair krediet [3 ...]3 of de schuldvordering uit deze kredietovereenkomst slechts worden
  overgedragen aan, of, na indeplaatsstelling slechts worden verworven door een op grond van dit boek
  vergunninghoudende of geregistreerde kredietgever, dan wel overgedragen worden aan of verworven worden
@@ -16983,7 +17340,9 @@ Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-04-28/25, art. 19, 118; Inwerkingtreding : 01-01-2023>
   (3)<W 2024-12-20/49, art. 44, 139; Inwerkingtreding : 24-01-2025>
 
-   Art. VII.147/18.[1 Onverminderd het bepaalde in artikel VII.147/17 kan, bij een hypothecair krediet [2 ...]2, de
+## Art. VII.147/18
+
+[1 Onverminderd het bepaalde in artikel VII.147/17 kan, bij een hypothecair krediet [2 ...]2, de
  overdracht of de indeplaatsstelling aan de consument niet worden tegengeworpen dan nadat hem hiervan bij een
  aangetekende zending kennis is gegeven, behalve wanneer de onmiddellijke overdracht of indeplaatsstelling
  uitdrukkelijk is bepaald in het contract, en wanneer de identiteit van de overnemer of van de indeplaatsgestelde in
@@ -16993,7 +17352,9 @@ Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2024-12-20/49, art. 45, 139; Inwerkingtreding : 24-01-2025>
 
-  Art. VII.147/19.[1 Bij overdracht van of indeplaatsstelling voor de vordering uit een hypothecair krediet [2 ...]2
+## Art. VII.147/19
+
+[1 Bij overdracht van of indeplaatsstelling voor de vordering uit een hypothecair krediet [2 ...]2
  behoudt de consument tegenover de overnemer of de indeplaatsgestelde schuldeiser de verweermiddelen, het
  beroep op de schuldvergelijking inbegrepen, die hij de overdrager of de indeplaatssteller kan tegenwerpen. Elk
  hiermee strijdig beding wordt voor niet geschreven gehouden.]1
@@ -17004,8 +17365,9 @@ Pagina 297 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 8. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1
   ----------
   (1)<W 2024-12-20/49, art. 47, 139; Inwerkingtreding : 24-01-2025>
-Pagina 298 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. VII.147/20.[2 § 1. De kredietgevers beschikken over adequaat beleid en adequate procedures, zodat zij zich
+## Art. VII.147/20
+
+[2 § 1. De kredietgevers beschikken over adequaat beleid en adequate procedures, zodat zij zich
  inspannen om waar passend een redelijke mate van tolerantie aan te houden alvorens een
  handhavingsprocedure in te leiden. Bij dergelijke respijtmaatregelen wordt onder andere rekening gehouden met
  de individuele omstandigheden van de consument.
@@ -17071,7 +17433,6 @@ Pagina 298 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2024-12-20/49, art. 48, 139; Inwerkingtreding : 24-01-2025>
-Pagina 299 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.147/21
 
 [1 Bij wanbetaling van een verschuldigd bedrag verzendt de kredietgever, binnen drie maanden
@@ -17084,7 +17445,9 @@ Pagina 299 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/22.[1 § 1. Bij ontbinding van een hypothecair krediet met roerende bestemming of bij verval van de
+## Art. VII.147/22
+
+[1 § 1. Bij ontbinding van een hypothecair krediet met roerende bestemming of bij verval van de
  termijnbepaling opgenomen in deze kredietovereenkomst wegens de niet-uitvoering door de consument van zijn
  verbintenissen mag aan de consument geen andere betaling gevraagd worden dan die hieronder vermeld :
   - het verschuldigd blijvende saldo;
@@ -17142,7 +17505,6 @@ Pagina 299 van 764 Copyright Belgisch S taatsblad 16-04-2026
   - het verschuldigd blijvende saldo;
   - de nalatigheidsintresten die eisbaar zijn geworden overeenkomstig § 2;
   - de vervallen en niet betaalde intresten en kosten die eisbaar zijn geworden overeenkomstig § 2;
-Pagina 300 van 764 Copyright Belgisch S taatsblad 16-04-2026
   - een schadevergoeding ten hoogste gelijk aan de wederbeleggingsvergoeding, bedoeld in artikel VII 147/12, §
  1, berekend op het verschuldigd blijvend saldo.
   § 2. Bij eenvoudige betalingsachterstand van een hypothecair krediet met een onroerende bestemming die geen
@@ -17216,7 +17578,6 @@ Pagina 300 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. De borgtocht en, desgevallend, elke andere vorm van zekerheid toegestaan door
  derden-consumenten voor de verbintenissen die voortvloeien uit een kredietovereenkomst geven nauwkeurig
  het bedrag weer dat gewaarborgd is. De gevraagde zekerheden gelden enkel voor deze bedragen, eventueel
-Pagina 301 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verhoogd met de nalatigheidsintresten, met uitsluiting van alle andere boetes of kosten van niet-uitvoering. De
  kredietgever dient hiertoe voorafgaandelijk en gratis aan de borg en, desgevallend, aan de steller van een
  zekerheid een exemplaar van het kredietcontract te overhandigen.
@@ -17238,7 +17599,9 @@ Pagina 301 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/27.[1 De kredietgever verwittigt de borg en, desgevallend, de steller van een zekerheid, wanneer de
+## Art. VII.147/27
+
+[1 De kredietgever verwittigt de borg en, desgevallend, de steller van een zekerheid, wanneer de
  consument twee betalingen of minstens een vijfde van de totale te betalen som achterstaat. Hij [2 geeft hen
  kennis]2 van de toegekende betalingsfaciliteiten en [2 deelt hen]2 vooraf elke wijziging van de oorspronkelijke
  kredietovereenkomst mee.]1
@@ -17246,7 +17609,9 @@ Pagina 301 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-07-30/47, art. 18, 065; Inwerkingtreding : 15-09-2018>
 
-  Art. VII.147/28.[1 In afwijking van [2 artikelen 9.1.22 en 9.1.23]2 van het Burgerlijk Wetboek kan de kredietgever
+## Art. VII.147/28
+
+[1 In afwijking van [2 artikelen 9.1.22 en 9.1.23]2 van het Burgerlijk Wetboek kan de kredietgever
  de borg en, desgevallend, de steller van een zekerheid dan eerst aanspreken wanneer de consument ten minste
  twee termijnen of een bedrag gelijk aan 20 pct. van de totale terug te betalen som of de laatste termijn niet
  betaald heeft en, nadat de kredietgever de consument bij aangetekende zending in gebreke heeft gesteld, de
@@ -17288,7 +17653,6 @@ Pagina 301 van 764 Copyright Belgisch S taatsblad 16-04-2026
  personeelsleden ten minste voor de helft gespreid naargelang van de aard van het krediet en van de duur ervan.
  De wijze waarop de kredietgevers hun personeelsleden en kredietbemiddelaars belonen en de wijze waarop
 
-Pagina 302 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietbemiddelaars hun personeelsleden en hun subagenten belonen, staan de in artikel VII.130, eerste lid,
  bedoelde verplichting niet in de weg.
    § 4. Wanneer een kredietovereenkomst wordt gesloten met het oog op de volledige, vervroegde terugbetaling
@@ -17333,7 +17697,9 @@ Pagina 302 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.147/32.[1 Behalve in geval van overdracht of indeplaatsstelling zoals die heeft plaats gevonden
+## Art. VII.147/32
+
+[1 Behalve in geval van overdracht of indeplaatsstelling zoals die heeft plaats gevonden
  overeenkomstig de artikelen VII.147/17 en VII.147/18, kunnen de persoonsgegevens van een consument of een
  zekerheidssteller die door de kredietgever verwerkt werden in het raam van het sluiten of het uitvoeren van een
  kredietovereenkomst enkel aan een derde worden overgemaakt onder de voorwaarden [2 opgesomd in deze
@@ -17362,7 +17728,6 @@ Pagina 302 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. Met uitsluiting van alle andere, mogen slechts worden verwerkt de gegevens betreffende
  de identiteit van de consument of van de zekerheidssteller, het bedrag en de duur van de kredieten, de
 
-Pagina 303 van 764 Copyright Belgisch S taatsblad 16-04-2026
  periodiciteit van de betalingen, de gebeurlijk toegestane betalingsfaciliteiten, de betalingsachterstanden, alsook de
  identiteit van de kredietgever. Dit laatste gegeven mag uitsluitend aan de verantwoordelijke voor de verwerking
  en aan de consument worden medegedeeld tenzij het betalingsachterstanden betreft.
@@ -17435,7 +17800,6 @@ Pagina 303 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. De gegevens worden uitgewist wanneer het behoud ervan in het bestand niet meer
  verantwoord is. De Koning kan een termijn bepalen voor de bewaring van de gegevens of van categorieën van
  gegevens.
-Pagina 304 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De personen die mededeling hebben ontvangen van persoonsgegevens in het raam van het sluiten of het
  beheer van een kredietovereenkomst, mogen daarover slechts beschikken gedurende de tijd nodig voor het
  sluiten en het uitvoeren van kredietovereenkomsten, inzonderheid rekening houdend met de door de Koning,
@@ -17501,13 +17865,14 @@ Pagina 304 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.148.[1 § 1. [5 De Bank is belast met de registratie in de Centrale van:
+## Art. VII.148
+
+[1 § 1. [5 De Bank is belast met de registratie in de Centrale van:
    1° de kredietovereenkomsten die vallen onder het toepassingsgebied van dit boek (positieve luik);
    2° de wanbetalingen die uit deze overeenkomsten voortvloeien (negatieve luik) die beantwoorden aan de door
  de Koning vastgestelde criteria;
    3° de niet geoorloofde debetstanden op een betaalrekening waaraan geen kredietovereenkomst verbonden is,
  bedoeld in artikel VII.100 (negatieve luik).
-Pagina 305 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het eerste lid is niet van toepassing op de kredietovereenkomsten bedoeld in artikel VII.3, § 3, 2°, met een
  kredietbedrag lager dan of gelijk aan 1250 euro en op de overschrijdingen, wat betreft het positieve luik.]5
   § 2. De gegevens die in de Centrale worden geregistreerd betreffen :
@@ -17545,7 +17910,9 @@ Pagina 305 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.149.[1 § 1. [2 Teneinde informatie te verkrijgen over de financiële toestand en de solvabiliteit van zowel
+## Art. VII.149
+
+[1 § 1. [2 Teneinde informatie te verkrijgen over de financiële toestand en de solvabiliteit van zowel
  de consument als van de persoonlijke zekerheidssteller, raadplegen de kredietgevers, behoudens in het geval
  van een overschrijding, de Centrale vooraleer zij een kredietovereenkomst sluiten of het kredietaanbod, bedoeld
  in de artikelen VII.127, § 3, en VII.133, overhandigen.]2 De Koning stelt de nadere regels vast betreffende deze
@@ -17564,7 +17931,9 @@ Pagina 305 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
    (2)<W 2016-04-22/01, art. 25, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.150.[1 Voor de toepassing van dit boek en met het oog op de identificatie van de consumenten en de
+## Art. VII.150
+
+[1 Voor de toepassing van dit boek en met het oog op de identificatie van de consumenten en de
  zekerheidsstellers, gebruiken de kredietgevers [3 , in voorkomend geval,]3 het identificatienummer van het
  Rijksregister van de natuurlijke personen.
   Bij de aanvraag van een kredietovereenkomst deelt de consument het voornoemde identificatienummer mee.
@@ -17574,7 +17943,6 @@ Pagina 305 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
-Pagina 306 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2015-10-26/06, art. 22, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2023-07-31/04, art. 6, 130; Inwerkingtreding : 01-01-2024>
 
@@ -17608,7 +17976,9 @@ Pagina 306 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.153.[1 § 1. Volgens de regels die de Koning bepaalt, mag de Bank de inlichtingen slechts meedelen aan :
+## Art. VII.153
+
+[1 § 1. Volgens de regels die de Koning bepaalt, mag de Bank de inlichtingen slechts meedelen aan :
    1° de personen bedoeld [2 in de artikelen VII. 119, § 1, 1° tot 3°, 6° tot 8°, 10° en 11° en VII.147/35, 1° tot 3°,
  6° tot 8°, 10° en 11°]2 ;
    2° de personen bedoeld in artikel VII. 119, § 1, eerste lid, 4°, in de mate dat deze personen ook beschikken
@@ -17646,7 +18016,6 @@ Pagina 306 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bezitten, over de inlichtingen die door de Bank worden meegedeeld te informeren, in zoverre de raadpleging
  heeft plaatsgevonden op basis van een concrete kredietaanvraag waarvoor deze kredietbemiddelaar daden van
  kredietbemiddeling stelt.]3
-Pagina 307 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 3. De personen die inlichtingen van de Centrale hebben verkregen moeten de nodige maatregelen treffen om
  het vertrouwelijk karakter van die inlichtingen te waarborgen.
   § 4. [3 Onverminderd de toepassing van de Verordening (EU) 2016/679 van het Europees Parlement en de
@@ -17666,7 +18035,9 @@ Pagina 307 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-04-22/01, art. 26, 038; Inwerkingtreding : 01-12-2016>
   (3)<W 2023-07-31/04, art. 7, 130; Inwerkingtreding : 01-01-2024>
 
-  Art. VII.154.[1 Ter aanvulling van de informatie verkregen bij de raadpleging [2 bedoeld in artikel VII.149, § 1]2 :
+## Art. VII.154
+
+[1 Ter aanvulling van de informatie verkregen bij de raadpleging [2 bedoeld in artikel VII.149, § 1]2 :
   1° wordt de Bank gemachtigd om voor rekening van de kredietgevers ondervragingen te verrichten van het
  bestand van berichten van beslag, delegatie, overdracht, collectieve schuldenregeling en protest, bedoeld in
  artikel 1389bis/1 van het Gerechtelijk Wetboek. De Koning bepaalt de gegevens die kunnen worden
@@ -17716,7 +18087,6 @@ Pagina 307 van 764 Copyright Belgisch S taatsblad 16-04-2026
  tussentijd al dan niet werd geregulariseerd.
    Indien na afloop van deze maximale termijn van tien jaar een nieuwe wanbetaling zich voordoet, wordt een
  nieuwe tienjarige bewaartermijn opgestart vanaf de datum waarop de registratiecriteria van deze nieuwe
-Pagina 308 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wanbetaling zijn vervuld.
    § 2. Bij het verstrijken van de bewaartermijnen worden alle gegevens verwijderd uit de Centrale.
    § 3. Met het oog op de verwerking voor de doeleinden bedoeld in artikel VII.153, § 4, kan de Bank de gegevens
@@ -17791,7 +18161,6 @@ Pagina 308 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kredietbemiddelaar uitoefent.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
-Pagina 309 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
   Afdeling 1. [1 – Kredietgevers.]1
@@ -17799,7 +18168,9 @@ Pagina 309 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.159.[1 § 1. Niemand mag in België de activiteit van kredietgever uitoefenen als hij niet op voorhand van
+## Art. VII.159
+
+[1 § 1. Niemand mag in België de activiteit van kredietgever uitoefenen als hij niet op voorhand van
  de FSMA een vergunning heeft verkregen of door haar is geregistreerd.
   Niemand mag de titel van kredietgever voeren om aan te geven dat hij de in dit boek bedoelde activiteit van
  kredietgever uitoefent, als hij niet op voorhand van de FSMA een vergunning heeft verkregen of door haar is
@@ -17839,7 +18210,9 @@ Pagina 309 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.160.[1 § 1. Elke vergunningsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
+## Art. VII.160
+
+[1 § 1. Elke vergunningsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
  vastgestelde vormen en voorwaarden.
   § 2. Er kan een vergunning worden aangevraagd :
   1° hetzij als kredietgever inzake hypothecair krediet;
@@ -17859,7 +18232,6 @@ Pagina 309 van 764 Copyright Belgisch S taatsblad 16-04-2026
  organisatiestructuur van de instelling en haar nauwe banden met andere personen worden vermeld. De
  aanvrager verstrekt de FSMA alle voor de beoordeling van zijn aanvraag vereiste inlichtingen.
   Elke wijziging van de in het vergunningsdossier vermelde gegevens wordt onverwijld aan de FSMA meegedeeld,
-Pagina 310 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onverminderd het recht van de FSMA om bij de betrokkene informatie in te winnen of bewijskrachtige
  documenten op te vragen.
    Het vergunningsdossier bevat ook het bewijs dat de modelkredietovereenkomsten, met inbegrip van de
@@ -17900,7 +18272,9 @@ Pagina 310 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (4)<W 2019-05-02/28, art. 9, 077; Inwerkingtreding : 01-06-2019>
    (5)<W 2022-05-08/03, art. 15, 112; Inwerkingtreding : 03-07-2022>
 
-  Art. VII.161.[1 De kredietgevers moeten worden opgericht in een van de volgende vennootschapsvormen:
+## Art. VII.161
+
+[1 De kredietgevers moeten worden opgericht in een van de volgende vennootschapsvormen:
  coöperatieve vennootschap, naamloze vennootschap, Europese vennootschap of Europese coöperatieve
  vennootschap, of als rechtspersoon voor de Europese economische samenwerkingsverbanden die geen
  vennootschap zijn, met inachtneming van de specifieke vereisten die neergelegd zijn in deze wet, het Wetboek
@@ -17908,7 +18282,9 @@ Pagina 310 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2021-06-27/09, art. 297, 099; Inwerkingtreding : 19-07-2021>
 
-   Art. VII.162.[1 Om een vergunning te kunnen verkrijgen, is een minimumkapitaal vereist dat aan de hand van de
+## Art. VII.162
+
+[1 Om een vergunning te kunnen verkrijgen, is een minimumkapitaal vereist dat aan de hand van de
  volgende regels wordt vastgesteld :
    1° minimaal 250.000 euro per categorie van kredietovereenkomst voor de kredietgevers die verkopen of
  leningen op afbetaling of financieringshuurovereenkomsten aanbieden, alsook voor de kredietgevers die als
@@ -17926,12 +18302,13 @@ Pagina 310 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geval bedoeld in het eerste lid, 1°, en minimaal 2.000.000 euro in het geval bedoeld in [2 het eerste lid, 2° en 3°]2,
  bedragen en voor die bedragen zijn volgestort.]1
    ----------
-Pagina 311 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
   (2)<W 2018-07-30/47, art. 19, 065; Inwerkingtreding : 15-09-2018>
 
-  Art. VII.163.[1 § 1. De FSMA verleent pas een vergunning nadat zij in kennis is gesteld van de identiteit van de
+## Art. VII.163
+
+[1 § 1. De FSMA verleent pas een vergunning nadat zij in kennis is gesteld van de identiteit van de
  natuurlijke of rechtspersonen die, alleen of in onderling overleg, rechtstreeks of onrechtstreeks, [2 een al dan
  niet stemrechtverlenende deelneming van ten minste 20 % in het kapitaal van de kredietgever bezitten, ten
  minste 20 % van de stemrechten bezitten of de kredietgever controleren]2. De kennisgeving vermeldt welke
@@ -17966,7 +18343,9 @@ Pagina 311 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gewijzigd bij KB 2015-06-28/02, art. 2)>
   (2)<W 2021-06-27/09, art. 298, 099; Inwerkingtreding : 19-07-2021>
 
-   Art. VII.164.[1 § 1. De leden van het [3 bestuursorgaan]3 van de kredietgevers en de personen belast met de
+## Art. VII.164
+
+[1 § 1. De leden van het [3 bestuursorgaan]3 van de kredietgevers en de personen belast met de
  effectieve leiding, in voorkomend geval, de leden van het directiecomité, zijn uitsluitend natuurlijke personen.
    De in het eerste lid bedoelde personen moeten permanent over de voor de uitoefening van hun functie vereiste
  professionele betrouwbaarheid en passende deskundigheid beschikken, met name rekening houdend met het
@@ -17987,14 +18366,15 @@ Pagina 311 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2015-10-26/06, art. 26, 028; Inwerkingtreding : 01-11-2015>
    (3)<W 2021-06-27/09, art. 299, 099; Inwerkingtreding : 19-07-2021>
 
-   Art. VII.165.[1 § 1. [2 De kredietgevers beschikken over een organisatie [5 , waaronder toezichtsmaatregelen,]5
+## Art. VII.165
+
+[1 § 1. [2 De kredietgevers beschikken over een organisatie [5 , waaronder toezichtsmaatregelen,]5
  die hen in staat stelt te allen tijde de wettelijke en reglementaire verplichtingen na te komen die voor hen gelden
  krachtens dit boek [3 en de ter uitvoering ervan genomen besluiten en reglementen]3.]2
    Zij voeren met name een organisatie in die hen in staat stelt na te gaan of hun verbonden agenten, alsook de
  werknemers en de subagenten van die verbonden agenten de wettelijke en reglementaire verplichtingen
  nakomen die krachtens dit Boek en de ter uitvoering ervan genomen besluiten en reglementen voor hen gelden,
  inzonderheid de geldende bepalingen inzake beroepskennis.
-Pagina 312 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [5 Die organisatie berust onder meer op:
     1° een passende beleidsstructuur die op het hoogste niveau gebaseerd is op een duidelijk onderscheid tussen
  de effectieve leiding van de onderneming, enerzijds, en het toezicht op die leiding, anderzijds, en die binnen de
@@ -18025,7 +18405,9 @@ Pagina 312 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.166.[1 § 1. [2 Onder voorbehoud van de hierna volgende bepalingen, worden de
+## Art. VII.166
+
+[1 § 1. [2 Onder voorbehoud van de hierna volgende bepalingen, worden de
  bedrijfsuitoefeningsvoorwaarden]2 permanent vervuld tijdens de uitoefening van het bedrijf.
    § 2. De kredietgevers mogen geen beroep doen op een kredietbemiddelaar die niet overeenkomstig de
  bepalingen van dit hoofdstuk is ingeschreven.
@@ -18056,7 +18438,9 @@ Pagina 312 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.168.[1 § 1. [3 Onverminderd de toepassing van de wet van 2 mei 2007 op de openbaarmaking van
+## Art. VII.168
+
+[1 § 1. [3 Onverminderd de toepassing van de wet van 2 mei 2007 op de openbaarmaking van
  belangrijke deelnemingen in emittenten waarvan aandelen zijn toegelaten tot de verhandeling op een
  gereglementeerde markt en houdende diverse bepalingen, geeft iedere alleen of in onderling overleg handelende
  natuurlijke of rechtspersoon die besloten heeft om, rechtstreeks of onrechtstreeks, een deelneming in het
@@ -18064,7 +18448,6 @@ Pagina 312 van 764 Copyright Belgisch S taatsblad 16-04-2026
  percentage van de gehouden stemrechten of aandelen in het kapitaal de drempel van 20 %, 30 % of 50 %
  bereikt of overschrijdt, dan wel de kredietgever zijn dochteronderneming wordt, daarvan vooraf schriftelijk
 
-Pagina 313 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kennis aan de FSMA.]3
    De FSMA mag aan die persoon alle inlichtingen vragen die nuttig zijn om te kunnen beoordelen of hij, gelet op de
  noodzaak om een gezond en voorzichtig beleid van de kredietgever te waarborgen, over de nodige kwaliteiten
@@ -18121,7 +18504,9 @@ Pagina 313 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
    (3)<W 2021-06-27/09, art. 301, 099; Inwerkingtreding : 19-07-2021>
 
-   Art. VII.169.[1 De kredietgevers brengen de FSMA voorafgaandelijk op de hoogte van de voordracht tot
+## Art. VII.169
+
+[1 De kredietgevers brengen de FSMA voorafgaandelijk op de hoogte van de voordracht tot
  benoeming van de leden van het [3 bestuursorgaan]3 en de leden van het directiecomité of, wanneer er geen
  directiecomité is, van de personen belast met de effectieve leiding.
    In het kader van de krachtens het eerste lid vereiste informatieverstrekking, delen de kredietgevers de FSMA de
@@ -18131,7 +18516,6 @@ Pagina 313 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het eerste lid is ook van toepassing op de voordracht tot hernieuwing van de benoeming van de aldaar
  bedoelde personen, en op de niet-hernieuwing van hun benoeming en op hun ontslag.
    Voor de benoeming van de in het eerste lid bedoelde personen is de voorafgaande goedkeuring van de FSMA
-Pagina 314 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vereist.
    Wanneer het de voordracht tot benoeming betreft van een persoon die voor het eerst wordt voorgedragen
  voor een in het eerste lid bedoelde functie bij een financiële onderneming die, met toepassing van artikel 45, § 1,
@@ -18167,7 +18551,9 @@ Pagina 314 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.171.[1 Elke kredietgever moet de FSMA een vergoeding betalen voor de dekking van de [2
+## Art. VII.171
+
+[1 Elke kredietgever moet de FSMA een vergoeding betalen voor de dekking van de [2
  werkingskosten]2. Het bedrag van die vergoeding, de gevallen waarin zij verschuldigd is, en de termijnen
  waarbinnen zij moet worden betaald, worden door de Koning bepaald met toepassing van artikel 56 van de wet
  van 2 augustus 2002.]1
@@ -18176,7 +18562,9 @@ Pagina 314 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gewijzigd bij KB 2015-06-28/02, art. 2)>
   (2)<W 2018-07-30/47, art. 21, 065; Inwerkingtreding : 15-09-2018>
 
-  Art. VII.172.[1 De FSMA publiceert op haar website een regelmatig geactualiseerde lijst van de kredietgevers,
+## Art. VII.172
+
+[1 De FSMA publiceert op haar website een regelmatig geactualiseerde lijst van de kredietgevers,
  alsook de historiek van de wijzigingen die tijdens de laatste twaalf maanden in die lijst zijn aangebracht. Die lijst is
  onderverdeeld als volgt :
   Lijst van de kredietgevers inzake hypothecair krediet
@@ -18200,7 +18588,6 @@ Pagina 314 van 764 Copyright Belgisch S taatsblad 16-04-2026
   d. Betalingsinstellingen die ressorteren onder het recht van andere lidstaten van de Europese Economische
  Ruimte;
   e. Instellingen voor elektronisch geld die ressorteren onder het recht van Staten die geen lid zijn van de
-Pagina 315 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Europese Economische Ruimte en waaraan als dusdanig een vergunning is verleend in België;
    f. [4 Kredietgevers die geen kredieten meer toestaan maar enkel bestaande kredieten beheren en afwikkelen
  (artikel VII.159, § 2/1);]4
@@ -18253,7 +18640,9 @@ Pagina 315 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2015-12-18/31, art. 39, 030; Inwerkingtreding : 09-01-2016>
    (4)<W 2017-04-18/03, art. 16, 046; Inwerkingtreding : 04-05-2017>
 
-  Art. VII.173.[1 De artikelen VII. 161 tot VII. 164, en VII. 167 tot VII. 169 zijn niet van toepassing op de
+## Art. VII.173
+
+[1 De artikelen VII. 161 tot VII. 164, en VII. 167 tot VII. 169 zijn niet van toepassing op de
  kredietgevers die hetzij als kredietinstellingen op de in [2 artikel 14 van de wet van 25 april 2014, hetzij als
  beleggingsonderneming op de in [4 artikel 7 van de wet van 25 oktober 2016]4 bedoelde lijst]2 bedoelde lijst, [3
  hetzij als verzekeringsondernemingen op de lijst als bedoeld in artikel 31 van de wet van 13 maart 2016 op het
@@ -18266,7 +18655,6 @@ Pagina 315 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2015-10-26/06, art. 29, 028; Inwerkingtreding : 01-11-2015>
   (3)<W 2016-03-13/07, art. 751, 033; Inwerkingtreding : 23-03-2016; zie ook art.756>
   (4)<W 2016-10-25/04, art. 174, 039; Inwerkingtreding : 28-11-2016>
-Pagina 316 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 3. - [1 Kredietgevers naar buitenlands recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
@@ -18278,7 +18666,9 @@ Pagina 316 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.174.[1 § 1. De kredietinstellingen, de financiële instellingen als bedoeld in [2 artikel 332 van de wet van 25
+## Art. VII.174
+
+[1 § 1. De kredietinstellingen, de financiële instellingen als bedoeld in [2 artikel 332 van de wet van 25
  april 2014, de beleggingsondernemingen,]2, de instellingen voor elektronisch geld, en de betalingsinstellingen die
  ressorteren onder het recht van een andere lidstaat, die op grond van hun nationaal recht
  consumentenkredietovereenkomsten mogen verlenen in hun lidstaat van herkomst, mogen, via de vestiging van
@@ -18332,7 +18722,6 @@ Pagina 316 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (4)<W 2017-04-18/03, art. 17, 046; Inwerkingtreding : 04-05-2017>
    (5)<W 2019-05-02/28, art. 10, 077; Inwerkingtreding : 01-06-2019>
 
-Pagina 317 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.175
 
 [1 De artikelen VII. 165, § 1, en VII. 166, §§ 2 tot 4, zijn van toepassing op in deze onderafdeling
@@ -18348,7 +18737,9 @@ Pagina 317 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.176.[1 § 1. Deze onderafdeling beoogt de andere vennootschappen naar buitenlands recht dan bedoeld
+## Art. VII.176
+
+[1 § 1. Deze onderafdeling beoogt de andere vennootschappen naar buitenlands recht dan bedoeld
  in onderafdeling 1.
    De door deze onderafdeling beoogde vennootschappen die ressorteren onder het recht van een derde staat,
  mogen de activiteit van kredietgever niet uitoefenen in België, tenzij ze er zijn gevestigd.
@@ -18404,7 +18795,6 @@ Pagina 317 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de bemiddelaars inzake hypothecair krediet;
   2° de bemiddelaars inzake consumentenkrediet.
   Onder "bemiddelaar inzake hypothecair krediet" wordt een kredietbemiddelaar verstaan die actief is op het vlak
-Pagina 318 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van het hypothecair krediet.
   Onder "bemiddelaar inzake consumentenkrediet" wordt een kredietbemiddelaar verstaan die actief is op het vlak
  van het consumentenkrediet.]1
@@ -18412,7 +18802,9 @@ Pagina 318 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.178.[1 Iedere kredietbemiddelaar die is opgericht in de vorm van een rechtspersoon naar Belgisch
+## Art. VII.178
+
+[1 Iedere kredietbemiddelaar die is opgericht in de vorm van een rechtspersoon naar Belgisch
  recht, moet zijn hoofdbestuur in België hebben.
   [2 Iedere kredietbemiddelaar die niet is opgericht in de vorm van een rechtspersoon en die zijn hoofdactiviteit
  effectief in België verricht, moet daar zijn hoofdbestuur hebben.]2]1
@@ -18423,7 +18815,9 @@ Pagina 318 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gewijzigd bij KB 2015-06-28/02, art. 2)>
   (2)<W 2021-06-27/09, art. 369, 099; Inwerkingtreding : 19-07-2021>
 
-  Art. VII.179.[1 Elke kredietbemiddelaar moet de FSMA een vergoeding betalen voor de dekking van de [2
+## Art. VII.179
+
+[1 Elke kredietbemiddelaar moet de FSMA een vergoeding betalen voor de dekking van de [2
  werkingskosten]2. Het bedrag van die vergoeding, de gevallen waarin zij verschuldigd is, en de termijnen
  waarbinnen zij moet worden betaald, worden door de Koning bepaald met toepassing van artikel 56 van de wet
  van 2 augustus 2002.]1
@@ -18442,7 +18836,9 @@ Pagina 318 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.180.[1 § 1. Geen enkele bemiddelaar inzake hypothecair krediet waarvan België de lidstaat van herkomst
+## Art. VII.180
+
+[1 § 1. Geen enkele bemiddelaar inzake hypothecair krediet waarvan België de lidstaat van herkomst
  is, mag de [2 activiteit van hypothecaire kredietbemiddeling]2 uitoefenen als hij niet op voorhand in het daartoe
  door de FSMA bijgehouden register is ingeschreven.
    Geen enkele bemiddelaar inzake hypothecair krediet met een ander land dan België als lidstaat van herkomst
@@ -18471,7 +18867,6 @@ Pagina 318 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kennis te stellen. De Koning bepaalt op advies van de FSMA de voorwaarden van die verzekering.
    De betrokken kredietgevers geven over het bepaalde bij punten 1° en 2° van het vorige lid periodiek
  rekenschap aan de FSMA door mededeling van een naamlijst van de verantwoordelijken voor de distributie en van
-Pagina 319 van 764 Copyright Belgisch S taatsblad 16-04-2026
  alle latere wijzigingen in die lijst. [2 Zij staan in voor de geschiktheid en de professionele betrouwbaarheid van de
  personen als bedoeld in 2° van het eerste lid en voor de beroepskennis van de personen als bedoeld in de
  bepalingen onder 2° en 3°, van hetzelfde lid. Zij bewaren alle documenten die aantonen dat die personen over de
@@ -18503,7 +18898,9 @@ Pagina 319 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.181.[1 § 1. Om in het register van de bemiddelaars inzake hypothecair krediet te kunnen worden
+## Art. VII.181
+
+[1 § 1. Om in het register van de bemiddelaars inzake hypothecair krediet te kunnen worden
  ingeschreven, en om die inschrijving te kunnen behouden, dient de aanvrager van een inschrijving aan de
  volgende voorwaarden te voldoen :
    1° de bemiddelaar, de verantwoordelijken voor de distributie en de personen die in contact staan met het
@@ -18537,7 +18934,6 @@ Pagina 319 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deskundigheid]9 en professionele betrouwbaarheid voor de uitoefening van hun taken. Zij mogen zich niet in één
  van de in [2 artikel 20 van de wet van 25 april 2014]2 bedoelde gevallen bevinden, [4 noch failliet zijn verklaard
  minder dan 10 jaar geleden]4, tenzij eerherstel werd verkregen [4 ...]4;
-Pagina 320 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° de rechtspersoon stelt de FSMA in kennis van de identiteit van de aandeelhouders die de vennootschap
  controleren; die aandeelhouders moeten, naar het oordeel van de FSMA, geschikt zijn gelet op de noodzaak van
  een gezond en voorzichtig beleid. Elke wijziging in de identiteitsgegevens van de aandeelhouders die de
@@ -18586,7 +18982,9 @@ Pagina 320 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.182.[1 § 1. Elke inschrijvingsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
+## Art. VII.182
+
+[1 § 1. Elke inschrijvingsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
  vastgestelde vormen en voorwaarden.
    § 2. Elke wijziging van de in het inschrijvingsdossier vermelde gegevens wordt onverwijld aan de FSMA
  meegedeeld, onverminderd het recht van de FSMA om bij de betrokkene informatie in te winnen of
@@ -18603,7 +19001,6 @@ Pagina 320 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 3. De FSMA schrijft de bemiddelaars inzake hypothecair krediet in die voldoen aan de in onderafdeling 2
  vastgestelde voorwaarden. [6 Binnen zestig dagen na ontvangst van de aanvraag en van alle vereiste
  documenten doet zij uitspraak.]6
-Pagina 321 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 4. Het directiecomité van de FSMA kan een door hem aangeduid personeelslid van de FSMA belasten met de
  kennisgeving van beslissingen tot inschrijving of weigering van inschrijving in het register van de bemiddelaars
  inzake hypothecair krediet, alsook van beslissingen tot wijziging, aanmaning, verbod, schorsing en schrapping
@@ -18653,7 +19050,9 @@ Pagina 321 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.183.[1 § 1. Elke in België ingeschreven bemiddelaar inzake hypothecair krediet die voornemens is om
+## Art. VII.183
+
+[1 § 1. Elke in België ingeschreven bemiddelaar inzake hypothecair krediet die voornemens is om
  voor het eerst in een andere lidstaat activiteiten te verrichten in het kader van de vrijheid van vestiging of in het
  kader van het vrij verrichten van diensten, stelt de FSMA hiervan op voorhand in kennis. Het register vermeldt in
  welke lidstaten de bemiddelaar actief is in het kader van de vrijheid van vestiging of in het kader van het vrij
@@ -18671,7 +19070,6 @@ Pagina 321 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deze de autoriteiten van de betrokken lidstaten van ontvangst daarvan binnen veertien dagen op de hoogte.
    § 2. De bemiddelaar inzake hypothecair krediet aan wie als dusdanig een toelating is verleend in een andere
  lidstaat dan België, kan zijn werkzaamheden in België aanvangen, hetzij in het kader van de vrijheid van vestiging,
-Pagina 322 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hetzij in het kader van het vrij verrichten van diensten, na de bevoegde autoriteit van zijn lidstaat van herkomst
  daarvan in kennis te hebben gesteld, en nadat die autoriteit de FSMA daarvan op de hoogte heeft gebracht
  overeenkomstig de desbetreffende Europeesrechtelijke bepaling. De FSMA publiceert de lijst van die bemiddelaars
@@ -18726,7 +19124,9 @@ Pagina 322 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. VII.184.[1 § 1. Niemand mag in België de [2 activiteit van consumentenkredietbemiddeling]2 uitoefenen als
+## Art. VII.184
+
+[1 § 1. Niemand mag in België de [2 activiteit van consumentenkredietbemiddeling]2 uitoefenen als
  hij niet op voorhand in het daartoe door de FSMA bijgehouden register is ingeschreven.
   Niettemin is het de kredietgevers inzake consumentenkrediet, die op rechtsgeldige wijze een vergunning
  hebben verkregen of zijn geregistreerd, toegestaan [2 de activiteit van consumentenkredietbemiddeling]2 uit te
@@ -18738,7 +19138,6 @@ Pagina 322 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bemiddelaars inzake consumentenkrediet;
   3° de andere, door de kredietgever tewerkgestelde personen die, op welke wijze ook, in contact staan met het
  publiek in de zin van artikel I.9, 79°, voldoen aan dezelfde vereisten inzake beroepskennis als de door de
-Pagina 323 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bemiddelaars inzake consumentenkrediet tewerkgestelde personen die in contact staan met het publiek;
   4° zij hebben een burgerlijke beroepsaansprakelijkheidsverzekering gesloten die het hele grondgebied van de
  Europese Economische Ruimte dekt. De verzekeringsovereenkomst bevat een bepaling die de
@@ -18783,7 +19182,9 @@ Pagina 323 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.186.[1 § 1. Om in het register van de bemiddelaars inzake consumentenkrediet te kunnen worden
+## Art. VII.186
+
+[1 § 1. Om in het register van de bemiddelaars inzake consumentenkrediet te kunnen worden
  ingeschreven, en om die inschrijving te kunnen behouden, dient de aanvrager van een inschrijving als
  kredietmakelaar of als verbonden agent aan de volgende voorwaarden te voldoen :
    1° de bemiddelaar, de verantwoordelijken voor de distributie en de personen die in contact staan met het
@@ -18807,7 +19208,6 @@ Pagina 323 van 764 Copyright Belgisch S taatsblad 16-04-2026
  collectieve mededelingen kan versturen die zij, ter uitvoering van dit hoofdstuk [7 of van enige andere wettelijke
  of reglementaire bepaling waarop zij toeziet-7, verricht;
    [7 8° in voorkomend geval, de bepalingen van artikel XV.18/1 naleven.]7
-Pagina 324 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De in dit artikel bedoelde bemiddelaars [5 ...]5 leveren het bewijs aan de FSMA, volgens de door haar bij
  reglement vastgestelde regels, inclusief inzake frequentie, dat de in het eerste lid bedoelde bepalingen worden
  nageleefd.
@@ -18843,7 +19243,9 @@ Pagina 324 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (6)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>
    (7)<W 2022-05-08/03, art. 21, 112; Inwerkingtreding : 03-07-2022>
 
-   Art. VII.187.[1 § 1. Om in het register van de bemiddelaars inzake consumentenkrediet te kunnen worden
+## Art. VII.187
+
+[1 § 1. Om in het register van de bemiddelaars inzake consumentenkrediet te kunnen worden
  ingeschreven, en om die inschrijving te kunnen behouden, dient de aanvrager van een inschrijving als agent in
  een nevenfunctie aan de volgende voorwaarden te voldoen :
    1° de verantwoordelijken voor de distributie en de personen die in contact staan met het publiek, bezitten de
@@ -18874,13 +19276,14 @@ Pagina 324 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2015-10-26/06, art. 37, 028; Inwerkingtreding : 01-11-2015>
    (3)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>
    (4)<W 2024-05-03/21, art. 20, 135; Inwerkingtreding : 10-06-2024>
-Pagina 325 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Onderafdeling 3. - [1 Inschrijvingsprocedure]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. VII.188.[1 § 1. Elke inschrijvingsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
+## Art. VII.188
+
+[1 § 1. Elke inschrijvingsaanvraag wordt aan de FSMA gericht overeenkomstig de door de Koning
  vastgestelde vormen en voorwaarden.
    § 2. Elke wijziging van de in het inschrijvingsdossier vermelde gegevens wordt onverwijld aan de FSMA
  meegedeeld, onverminderd het recht van de FSMA om bij de betrokkene informatie in te winnen of
@@ -18940,12 +19343,13 @@ Pagina 325 van 764 Copyright Belgisch S taatsblad 16-04-2026
  1)>
 
   HOOFDSTUK 1. [1 – Betalingsdiensten.]1
-Pagina 326 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  Art. VII.189.[1 Tenzij de betalingsdienstaanbieder bewijst dat de betaler bedrieglijk heeft gehandeld, blijft de
+## Art. VII.189
+
+[1 Tenzij de betalingsdienstaanbieder bewijst dat de betaler bedrieglijk heeft gehandeld, blijft de
  betalingsdienstaanbieder aansprakelijk jegens de betaler voor alle gevolgen van het gebruik van een
  betalingsinstrument door een niet gerechtigde derde in geval van niet-naleving door de betalingsdienstaanbieder
  van de verplichtingen die hij heeft op grond van [2 de artikelen VII.22, 5°, a) en d), en VII.39, 1° en 3°]2.]1
@@ -18954,7 +19358,9 @@ Pagina 326 van 764 Copyright Belgisch S taatsblad 16-04-2026
  1)>
   (2)<W 2023-11-05/07, art. 22, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. VII.190.[1 Bij niet-naleving door de betalingsdienstaanbieder van de verplichtingen voortvloeiend uit [2 artikel
+## Art. VII.190
+
+[1 Bij niet-naleving door de betalingsdienstaanbieder van de verplichtingen voortvloeiend uit [2 artikel
  VII.30, § 1]2, en onverminderd de gemeenrechtelijke sancties, wordt de betalingsdienstgebruiker van rechtswege
  ontslagen van het betalen van de gevraagde kosten.]1
   ----------
@@ -18962,7 +19368,9 @@ Pagina 326 van 764 Copyright Belgisch S taatsblad 16-04-2026
  1)>
   (2)<W 2023-11-05/07, art. 23, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. VII.191.[1 Bij niet-naleving door de betalingsdienstaanbieder van de verplichtingen voortvloeiend uit [3 de
+## Art. VII.191
+
+[1 Bij niet-naleving door de betalingsdienstaanbieder van de verplichtingen voortvloeiend uit [3 de
  artikelen VII.7, VII.9, VII.11, VII.21, VII.22, 2° tot 6°, VII.23, VII.24, VII.30, VII.31, VII.33, VII.39, VII.43, VII.46,
  VII.47, § 2, VII.48, VII.49, VII.51, VII.53 tot VII.55/1, en VII.55/3 tot VII.55/5]3 kan de betalingsdienstgebruiker,
  onverminderd de gemeenrechtelijke sancties, de raamovereenkomst [2 met een bij aangetekende zending
@@ -18974,7 +19382,9 @@ Pagina 326 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-04-22/01, art. 30, 038; Inwerkingtreding : 01-12-2016>
   (3)<W 2023-11-05/07, art. 24, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. VII.192.[1 Bij niet-naleving door de uitgever van elektronisch geld van de verplichtingen voortvloeiend uit
+## Art. VII.192
+
+[1 Bij niet-naleving door de uitgever van elektronisch geld van de verplichtingen voortvloeiend uit
  artikel VII. 61, en onverminderd de gemeenrechtelijke sancties :
   1° wordt de houder van elektronisch geld van rechtswege ontslagen van de eventuele vergoeding die
  samenhangt met de terugbetaling;
@@ -19009,7 +19419,6 @@ Pagina 326 van 764 Copyright Belgisch S taatsblad 16-04-2026
  1)>
 
   HOOFDSTUK 2. [1 – Consumentenkrediet.]1
-Pagina 327 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -19025,7 +19434,9 @@ Pagina 327 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-   Art. VII.195.[1 Onverminderd de gemeenrechtelijke sancties, verklaart de rechter de overeenkomst nietig of
+## Art. VII.195
+
+[1 Onverminderd de gemeenrechtelijke sancties, verklaart de rechter de overeenkomst nietig of
  vermindert de verplichtingen van de consument en dit hoogstens tot de prijs bij contante betaling of tot het
  ontleende bedrag,wanneer de kredietgever de in artikel VII. 78, § 1, tweede lid, § 2, 5° tot 9°, § 3, 1° tot 7°, 11°,
  13° en 14° bedoelde vermeldingen niet naleeft.
@@ -19042,7 +19453,9 @@ Pagina 327 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
    (2)<W 2015-10-26/06, art. 39, 028; Inwerkingtreding : 09-11-2015>
 
-   Art. VII.196.[1 De verplichtingen van de consument zijn van rechtswege beperkt tot de prijs bij contante betaling
+## Art. VII.196
+
+[1 De verplichtingen van de consument zijn van rechtswege beperkt tot de prijs bij contante betaling
  van het goed of de dienst of tot het ontleende bedrag wanneer :
    1° de kredietgever een kredietovereenkomst toegezegd heeft tegen een percentage dat hoger ligt dan het
  percentage dat de Koning met toepassing van artikel VII. 94 heeft vastgesteld;
@@ -19072,14 +19485,15 @@ Pagina 327 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
    (2)<W 2015-10-26/06, art. 40, 028; Inwerkingtreding : 09-11-2015>
 
-  Art. VII.197.[1 De consument kan de terugbetaling eisen van de door hem gestorte bedragen, verhoogd met de
+## Art. VII.197
+
+[1 De consument kan de terugbetaling eisen van de door hem gestorte bedragen, verhoogd met de
  som van de wettelijke intresten, wanneer een betaling gebeurd is ondanks het in de artikelen VII. 79, VII. 90 [2 ,
  VII.105, § 1, tweede lid,]2 en VII. 114, § 1, bedoelde verbod, of wanneer zij is gebeurd in het raam van een in
  artikel VII. 115 verboden schuldbemiddeling.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 
-Pagina 328 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
   (2)<W 2024-12-20/49, art. 50, 139; Inwerkingtreding : 24-01-2025>
 
@@ -19093,7 +19507,9 @@ Pagina 328 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.199.[1 Wanneer van de consument of de steller van een zekerheid straffen of schadevergoedingen
+## Art. VII.199
+
+[1 Wanneer van de consument of de steller van een zekerheid straffen of schadevergoedingen
  worden gevraagd waarin dit boek niet voorziet, worden zij van rechtswege daarvan volledig ontslagen.
   Indien de rechter bovendien oordeelt dat de overeengekomen of toegepaste straffen of schadevergoedingen,
  onder meer in de vorm van [2 schadebedingen]2, bij niet-uitvoering van de overeenkomst, overdreven of
@@ -19116,7 +19532,9 @@ Pagina 328 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.201.[1 Onverminderd de andere gemeenrechtelijke sancties, kan de rechter de consument ontslaan van
+## Art. VII.201
+
+[1 Onverminderd de andere gemeenrechtelijke sancties, kan de rechter de consument ontslaan van
  het geheel of van een gedeelte van de nalatigheidsintresten en zijn verplichtingen verminderen tot de prijs bij
  contante betaling van het goed of de dienst of tot het ontleende bedrag wanneer :
   1° de kredietgever de verplichtingen bedoeld in de artikelen VII. 69, VII. 70, VII. 72, VII. 74, VII. 75 et VII. 77 niet
@@ -19156,7 +19574,6 @@ Pagina 328 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de ontbinding van de overeenkomst ten laste van de consument bevelen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
-Pagina 329 van 764 Copyright Belgisch S taatsblad 16-04-2026
  2)>
 
 ## Art. VII.205
@@ -19186,7 +19603,9 @@ Pagina 329 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. VII.208.[1 Geen enkele commissie is verschuldigd wanneer de kredietovereenkomst ontbonden of
+## Art. VII.208
+
+[1 Geen enkele commissie is verschuldigd wanneer de kredietovereenkomst ontbonden of
  verbroken wordt of het voorwerp uitmaakt van een termijnverval en de kredietbemiddelaar de bepalingen [2 van
  artikel VII.113]2 niet heeft nageleefd.]1
   ----------
@@ -19198,7 +19617,9 @@ Pagina 329 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.209.[1 § 1. Wanneer de kredietgever de in de artikelen VII.126, VII.127, VII.129, VII.130, VII.133 of
+## Art. VII.209
+
+[1 § 1. Wanneer de kredietgever de in de artikelen VII.126, VII.127, VII.129, VII.130, VII.133 of
  VII.147 bedoelde verplichtingen of verbodsbepalingen, de vormvereisten bedoeld in artikel VII.132 of [2 de in de
  artikelen VII.134, VII.145, vijfde lid, en VII.147/20, § 1, derde lid]2 bedoelde vermeldingen niet naleeft dan kan de
  rechter :
@@ -19231,7 +19652,6 @@ Pagina 329 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bepalingen op het moment van de kredietverlening;
   b) door een kredietgever die voorheen afstand had gedaan van die registratie of vergunning;
   c) door bemiddeling van een niet-ingeschreven kredietbemiddelaar conform de geldende wettelijke of
-Pagina 330 van 764 Copyright Belgisch S taatsblad 16-04-2026
  reglementaire bepalingen op het moment van de kredietverlening;
   d) door een kredietgever wiens vergunning of registratie was geschrapt, herroepen of opgeschort, of die een
  verbod had opgelopen op grond van artikel XV.67/3;
@@ -19250,7 +19670,9 @@ Pagina 330 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
-   Art. VII.211.[1 De consument kan de terugbetaling eisen van de door hem gestorte bedragen, verhoogd met de
+## Art. VII.211
+
+[1 De consument kan de terugbetaling eisen van de door hem gestorte bedragen, verhoogd met de
  som van de wettelijke intresten, wanneer een betaling gebeurd is ondanks het in de artikelen VII.137, VII.140 en
  VII.141, VII.147/3 [2 , VII.147/20, § 1, vierde lid,]2 en VII.147/30, § 1, bedoelde verbod, of wanneer zij is gebeurd
  in het raam van een in artikel VII. 147/31 verboden schuldbemiddeling.]1
@@ -19266,7 +19688,9 @@ Pagina 330 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
-  Art. VII.213.[1 Wanneer van de consument of de steller van een zekerheid straffen of schadevergoedingen
+## Art. VII.213
+
+[1 Wanneer van de consument of de steller van een zekerheid straffen of schadevergoedingen
  worden gevraagd waarin dit boek niet voorziet, worden zij van rechtswege daarvan volledig ontslagen.
   Indien de rechter bovendien oordeelt dat de overeengekomen of toegepaste straffen of schadevergoedingen,
  onder meer in de vorm van [2 schadebedingen]2, bij niet-uitvoering van de overeenkomst, overdreven of
@@ -19275,7 +19699,9 @@ Pagina 330 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2022-04-28/25, art. 22, 118; Inwerkingtreding : 01-01-2023>
 
-  Art. VII.214.[1 In geval van niet naleving van de bepalingen bedoeld in de artikelen [2 VII.143, §§ 2 tot 4 en 8]2,
+## Art. VII.214
+
+[1 In geval van niet naleving van de bepalingen bedoeld in de artikelen [2 VII.143, §§ 2 tot 4 en 8]2,
  VII.147/14 en VII. 147/22, § 4, wordt de consument van rechtswege ontslagen van de intresten en de kosten
  voor de periode waarop de inbreuk betrekking heeft.]1
   ----------
@@ -19306,7 +19732,6 @@ Pagina 330 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De niet-naleving van de bepalingen van artikel VII.139, eerste lid, verleent de consument het
  recht de nietigverklaring van de koop- of dienstverleningsovereenkomst te vorderen en van de verkoper of
  dienstverlener, de terugbetaling te vorderen van de door hem reeds verrichte betalingen.]1
-Pagina 331 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
@@ -19389,11 +19814,12 @@ Pagina 331 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   TITEL 6. - [1 Buitengerechtelijke regeling van consumentengeschillen.]1
   ----------
-Pagina 332 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  Art. VII.216.[1 Er wordt een buitengerechtelijke klachtenregeling inzake financiële diensten [3 bedoeld in dit
+## Art. VII.216
+
+[1 Er wordt een buitengerechtelijke klachtenregeling inzake financiële diensten [3 bedoeld in dit
  boek]3 ingesteld met als doel geschillen tussen een betalingsdienstaanbieder, kredietgever of kredietbemiddelaar
  aan de ene kant, en een consument, aan de andere kant, te helpen oplossen door hierover advies te verstrekken
  of op te treden als bemiddelaar.
@@ -19456,7 +19882,6 @@ Pagina 332 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De handtekening, waarvan sprake in artikel VII.216/2, 8°, kan vervangen worden door een notariële akte in
  brevet, die op de wisselbrief gesteld wordt en waaruit de wil blijkt van degene die zou hebben moeten
  ondertekenen.]1
-Pagina 333 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
@@ -19530,7 +19955,6 @@ Pagina 333 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 334 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 2. [1 - Endossement]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 106, 059; Inwerkingtreding : 01-05-2018>
@@ -19604,7 +20028,6 @@ Pagina 334 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Zij die uit hoofde van de wisselbrief worden aangesproken, kunnen de verweermiddelen,
  gegrond op hun persoonlijke verhoudingen tot de trekker of tot vroegere houders, niet aan de houder
  tegenwerpen, tenzij deze bij de verkrijging van de wisselbrief desbewust ten nadele van de schuldenaar heeft
-Pagina 335 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gehandeld.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
@@ -19676,7 +20099,6 @@ Pagina 335 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 336 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/25
 
 [1 De betrokkene kan verzoeken dat hem een tweede aanbieding wordt gedaan de dag,
@@ -19749,7 +20171,6 @@ Pagina 336 van 764 Copyright Belgisch S taatsblad 16-04-2026
  daarvan door een borgtocht (aval) worden verzekerd.
    Deze borgtocht kan door een derde, of zelfs door iemand wiens handtekening op de wisselbrief voorkomt,
  worden gegeven.]1
-Pagina 337 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 111, 059; Inwerkingtreding : 01-11-2018>
 
@@ -19822,7 +20243,6 @@ Pagina 337 van 764 Copyright Belgisch S taatsblad 16-04-2026
  maand, dan wordt onder die uitdrukkingen verstaan: de eerste, de vijftiende, de laatste van die maand.
    Onder de uitdrukkingen "acht dagen" of "vijftien dagen" ("quinze jours") moet worden verstaan niet één of twee
 
-Pagina 338 van 764 Copyright Belgisch S taatsblad 16-04-2026
  weken, maar een termijn van acht of van vijftien werkelijke dagen.
    De uitdrukking "halve maand" duidt een termijn van vijftien dagen aan.]1
   ----------
@@ -19894,7 +20314,6 @@ Pagina 338 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waarde heeft in het land van uitgifte en in dat van betaling, wordt vermoed dat men het geld van de plaats van
  betaling heeft bedoeld.]1
 
-Pagina 339 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
@@ -19964,7 +20383,6 @@ Pagina 339 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Hij die een kennisgeving heeft te doen, kan zulks doen in iedere vorm, zelfs door enkele terugzending van de
  wisselbrief.
    Hij moet bewijzen dat hij de kennisgeving binnen de voorgeschreven termijn heeft gedaan. Deze termijn wordt
-Pagina 340 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gehouden te zijn in acht genomen, wanneer een brief die de kennisgeving behelst, binnen de genoemde termijn
  ter post is bezorgd.
    Wie de kennisgeving niet binnen de bovenvermelde termijn doet, treft geen verval van zijn recht; hij is, bij
@@ -20037,7 +20455,6 @@ Pagina 340 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dat van de volgende endossanten doorhalen.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
-Pagina 341 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/52
 
 [1 In geval van uitoefening van het recht van regres na gedeeltelijke acceptatie, kan degene die
@@ -20106,7 +20523,6 @@ Pagina 341 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 118, 059; Inwerkingtreding : 01-11-2018>
 
   Onderafdeling 1. [1 Algemene bepalingen]1
-Pagina 342 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 119, 059; Inwerkingtreding : 01-11-2018>
 
@@ -20177,7 +20593,6 @@ Pagina 342 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opgemaakt.]1
   ----------
 
-Pagina 343 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
 ## Art. VII.216/61
@@ -20248,7 +20663,6 @@ Pagina 343 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de kracht der andere exemplaren teniet doet. Echter blijft de betrokkene verbonden door elk geaccepteerd
  exemplaar dat hem niet is terugbezorgd.
    De endossant die de exemplaren aan verschillende personen heeft overgedragen, alsook de latere
-Pagina 344 van 764 Copyright Belgisch S taatsblad 16-04-2026
  endossanten, zijn verbonden door alle exemplaren die hun handtekening dragen en die niet zijn terugbezorgd.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
@@ -20317,7 +20731,6 @@ Pagina 344 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kosten", van de vervaldag.
    De rechtsvorderingen van de endossanten tegen elkander en tegen de trekker verjaren door verloop van zes
  maanden, te rekenen van de dag waarop de endossant de wisselbrief heeft betaald tot voldoening aan zijn
-Pagina 345 van 764 Copyright Belgisch S taatsblad 16-04-2026
  regresplicht, of van de dag waarop hijzelf in rechte is aangesproken.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 133, 059; Inwerkingtreding : 01-11-2018>
@@ -20386,7 +20799,6 @@ Pagina 345 van 764 Copyright Belgisch S taatsblad 16-04-2026
    7° de handtekening van degene die de titel uitgeeft (ondertekenaar).]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
-Pagina 346 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/78
 
 [1 De titel waarin een der vermeldingen, in artikel VII.216/77 aangegeven, ontbreekt, geldt niet
@@ -20455,7 +20867,6 @@ Pagina 346 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Fonds moet worden bezorgd door de trekker, of indien de wisselbrief voor andermans
  rekening is getrokken, door de lastgever of ordergever.]1
   ----------
-Pagina 347 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
 ## Art. VII.216/82
@@ -20526,7 +20937,6 @@ Pagina 347 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 141, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 348 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/88
 
 [1 In geval van onvrijwillige en toevallige buitenbezitstelling van een niet geaccepteerde
@@ -20601,7 +21011,6 @@ Pagina 348 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geëndosseerde over.
    Behoudens andersluidend beding van het contract van kredietopening, genieten de houders van de
  wisselbrieven en orderbriefjes welke overeenkomstig de bepalingen van dat contract zijn getrokken of
-Pagina 349 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geëndosseerd, de zekerheden die de kredietopening waarborgen, ten belope van het bedrag dat krachtens de
  kredietopening zal verschuldigd blijven.
    Zijn de zekerheden niet toereikend om de crediteur en de derden, houders van de wisselbrieven en van de
@@ -20672,7 +21081,6 @@ Pagina 349 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° het bedrag van het geprotesteerde handelspapier.
    Indien niemand wordt aangetroffen aan de bedoelde woonplaats of zetel, vermeldt de protestakte dit feit en
  wordt geen bericht nagelaten.]1
-Pagina 350 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
@@ -20743,7 +21151,6 @@ Pagina 350 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 351 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/105
 
 [1 De cheque kan betaalbaar worden gesteld :
@@ -20818,7 +21225,6 @@ Pagina 351 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Indien een cheque, onvolledig ten tijde van de uitgifte, volledig is gemaakt in strijd met de
  aangegane overeenkomsten, kan de niet-naleving van die overeenkomsten niet worden tegengeworpen aan de
  houder, tenzij deze de cheque te kwader trouw heeft verkregen of hem grove schuld bij de verkrijging te wijten
-Pagina 352 van 764 Copyright Belgisch S taatsblad 16-04-2026
  is.]1
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
@@ -20890,7 +21296,6 @@ Pagina 352 van 764 Copyright Belgisch S taatsblad 16-04-2026
  laatste geacht de cheque door het endossement in blanco verkregen te hebben.]1
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
-Pagina 353 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/120
 
 [1 Een op een cheque aan toonder voorkomend endossement maakt de endossant
@@ -20962,7 +21367,6 @@ Pagina 353 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wanneer de handtekening die is van de trekker.
    In het aval moet worden vermeld voor wie het is gegeven. Bij gebreke hiervan wordt het geacht voor de
  trekker te zijn gegeven.]1
-Pagina 354 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 153, 059; Inwerkingtreding : 01-11-2018>
 
@@ -21035,7 +21439,6 @@ Pagina 354 van 764 Copyright Belgisch S taatsblad 16-04-2026
  invloed op de gevolgen van de cheque.]1
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
-Pagina 355 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/134
 
 [1 De betrokkene die de cheque betaalt, kan vorderen dat deze hem wordt bezorgd, voorzien
@@ -21106,7 +21509,6 @@ Pagina 355 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De algemene kruising kan worden veranderd in een bijzondere, maar de bijzondere kruising kan niet worden
  veranderd in een algemene.
    De doorhaling van de kruising of van de naam van de aangewezen bankier wordt geacht niet te zijn geschied.]1
-Pagina 356 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 157, 059; Inwerkingtreding : 01-11-2018>
 
@@ -21178,7 +21580,6 @@ Pagina 356 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verklaring op de eerstvolgende werkdag worden gedaan.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
-Pagina 357 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VII.216/145
 
 [1 De houder van de niet-betaling geeft kennis aan zijn endossant en aan de trekker binnen
@@ -21250,7 +21651,6 @@ Pagina 357 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° een interest berekend tegen de wettelijke rentevoet op die som, te rekenen van de dag waarop hij deze
  betaald heeft;
    3° de kosten van protest of van de daarmee gelijkstaande verklaring, die van de gedane kennisgevingen,
-Pagina 358 van 764 Copyright Belgisch S taatsblad 16-04-2026
  alsmede de andere kosten.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
@@ -21322,7 +21722,6 @@ Pagina 358 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De betaling, op één der exemplaren gedaan, is bevrijdend, ook al is niet bedongen dat die
  betaling de kracht der andere exemplaren teniet doet.
-Pagina 359 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De endossant die de exemplaren aan verschillende personen heeft overgedragen, alsook de latere
  endossanten, zijn verbonden door alle exemplaren die hun handtekening dragen en die niet zijn terugbezorgd.]1
   ----------
@@ -21392,7 +21791,6 @@ Pagina 359 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 In de termijnen, door dit hoofdstuk bepaald, wordt de dag waarop zij aanvangen, niet
  medegerekend.]1
   ----------
-Pagina 360 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
 ## Art. VII.216/162
@@ -21465,7 +21863,6 @@ Pagina 360 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De bepalingen van dit boek, waarbij het protest van niet-betaling wordt geregeld, zijn van
  toepassing op de cheque, in zover zij verenigbaar zijn met de bepalingen van deze afdeling.]1
-Pagina 361 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 171, 059; Inwerkingtreding : 01-11-2018>
 
@@ -21474,7 +21871,9 @@ Pagina 361 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  Art. VII.217.[1 De koninklijke besluiten welke worden vastgesteld op grond van de artikelen VII. 3, [4 VII.4/1 tot
+## Art. VII.217
+
+[1 De koninklijke besluiten welke worden vastgesteld op grond van de artikelen VII. 3, [4 VII.4/1 tot
  VII.4/4,]4 VII. 57 tot VII. 59, [4 VII.62/1 tot VII.62/7,]4 VII. 64, VII. 90, § 1, derde lid, VII. 94, VII. 95, VII. 86, § 3,
  tweede lid, [2 VII.101, VII. 114, § 3, VII.124, VII.147/9, VII.147/10 en VII.147/30, § 3, van dit boek]2 worden door
  de minister voor advies voorgelegd aan de [3 bijzondere raadgevende commissie Verbruik]3. De minister bepaalt
@@ -21486,7 +21885,9 @@ Pagina 361 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
   (4)<W 2017-12-22/14, art. 28, 057; Inwerkingtreding : 01-02-2018>
 
-   Art. VII.218.[1 Onverminderd de andere raadplegingsvereisten die door dit boek zijn opgelegd, oefent de Koning
+## Art. VII.218
+
+[1 Onverminderd de andere raadplegingsvereisten die door dit boek zijn opgelegd, oefent de Koning
  de bevoegdheden uit welke Hem zijn toegekend door de artikelen VII.118, [2 VII.120, VII.122, VII.147/34,
  VII.147/36 en VII.147/38]2 na raadpleging van de Commissie voor de bescherming van de persoonlijke
  levenssfeer.
@@ -21500,7 +21901,9 @@ Pagina 361 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2016-04-22/01, art. 34, 038; Inwerkingtreding : 01-12-2016>
    (3)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-  Art. VII.219.[1 De Koning oefent de bevoegdheden, Hem toegekend door de bepalingen van de artikelen VII. 3,
+## Art. VII.219
+
+[1 De Koning oefent de bevoegdheden, Hem toegekend door de bepalingen van de artikelen VII. 3,
  VII. 64, VII. 86, § 3, tweede lid, VII. 90, § 1er, derde lid, VII. 94, VII. 95, VII. 101, [2 VII.120, VII.122, VII.124,
  VII.147/9, VII.147/10, VII.147/36 en VII.147/38]2 uit op de gezamenlijke voordracht van de Ministers bevoegd
  voor Economie en Financiën, na raadpleging van de Bank. ]1
@@ -21530,7 +21933,6 @@ Pagina 361 van 764 Copyright Belgisch S taatsblad 16-04-2026
  risicowaarschuwingen worden geaccentueerd/gemarkeerd.
     ESIS-model
 
-Pagina 362 van 764 Copyright Belgisch S taatsblad 16-04-2026
  (Inleidende tekst)
 
  Dit document is ten behoeve van [naam van de consument] opgesteld op [datum van de dag].
@@ -21586,7 +21988,6 @@ Pagina 362 van 764 Copyright Belgisch S taatsblad 16-04-2026
  (Indien van toepassing) [Dit deel van] houdt enkel de betaling in van rente en kosten. Aan het einde van de
  looptijd van het krediet bent u nog een hoofdsom van [bedrag van het aflossingsvrije krediet] verschuldigd.
 
-Pagina 363 van 764 Copyright Belgisch S taatsblad 16-04-2026
  (Indien van toepassing) Voor het opstellen van dit informatieblad veronderstelde waarde van het onroerend
  goed : [bedrag invullen]
  (Indien van toepassing) Maximaal beschikbaar kredietbedrag in verhouding tot de waarde van het onroerend
@@ -21646,7 +22047,6 @@ Pagina 363 van 764 Copyright Belgisch S taatsblad 16-04-2026
  7. (Indien van toepassing) Illustratieve aflossingstabel
  In deze tabel is te zien welk bedrag om de [frequentie] moet worden betaald.
 
-Pagina 364 van 764 Copyright Belgisch S taatsblad 16-04-2026
  De afbetalingstermijnen (kolom [desbetreffend nr.]) bestaan uit de som van de te betalen rente (kolom
  [desbetreffend nr.]), indien van toepassing, het betaald kapitaal (kolom [desbetreffend nr.]) en, indien van
  toepassing, andere kosten (kolom [desbetreffend nr.]). (Indien van toepassing) De kosten in de kolom voor
@@ -21705,7 +22105,6 @@ Pagina 364 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Mocht u moeilijkheden ondervinden bij het uitvoeren van uw [frequentie] betalingen, graag dan meteen contact
  met ons op te nemen om naar mogelijke oplossingen te zoeken.
 
-Pagina 365 van 764 Copyright Belgisch S taatsblad 16-04-2026
  (Indien van toepassing) Als uiterste maatregel kan uw woning in beslag worden genomen als u uw betalingen
  niet tijdig uitvoert.
  14. (Indien van toepassing) Aanvullende informatie
@@ -21771,7 +22170,6 @@ Pagina 365 van 764 Copyright Belgisch S taatsblad 16-04-2026
     3. De duur van het krediet wordt naar gelang van de relevantie in jaren of maanden uitgedrukt. Indien de duur
  van het krediet gedurende de looptijd van het contract kan variëren, licht de kredietgever toe wanneer en onder
  welke voorwaarden dit kan geschieden. In het geval van een krediet voor onbepaalde tijd, bijvoorbeeld voor een
-Pagina 366 van 764 Copyright Belgisch S taatsblad 16-04-2026
  door een zekerheid gedekte kredietkaart, dient de kredietgever dit feit duidelijk te vermelden.
     4. Het soort krediet wordt duidelijk vermeld (bijvoorbeeld hypotheekkrediet, woonkrediet, door een zekerheid
  gedekte kredietkaart). In de beschrijving van het soort krediet wordt duidelijk vermeld hoe het kapitaal en de
@@ -21840,7 +22238,6 @@ Pagina 366 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kostenpercentage opgenomen kosten worden vermeld, met inbegrip van eenmalige kosten, zoals
  administratiekosten, en periodieke kosten, zoals jaarlijkse administratiekosten. De kredietgever specificeert alle
  kosten per categorie (eenmalig te betalen kosten, regelmatig te betalen kosten die in de afbetalingstermijn zijn
-Pagina 367 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opgenomen, regelmatig te betalen kosten die niet in de afbetalingstermijnen zijn opgenomen), met vermelding
  van het bedrag, aan wie ze moeten worden betaald en wanneer. Kosten die zijn ontstaan door inbreuken op de
  contractuele verplichtingen hoeven niet te worden vermeld. Indien het bedrag niet bekend is, geeft de
@@ -21909,7 +22306,6 @@ Pagina 367 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het in de nationale valuta van de consument uitgedrukte bedrag van elke termijn afhankelijk is van het
  dienovereenkomstige bedrag in een andere valuta, wordt in deze rubriek aangegeven op welke datum de
  toepasselijke wisselkoers is berekend en hetzij de wisselkoers hetzij de basis waarop deze zal worden berekend
-Pagina 368 van 764 Copyright Belgisch S taatsblad 16-04-2026
  en de frequentie van de aanpassing daarvan. In voorkomend geval wordt daarbij onder meer de naam vermeld
  van de instelling die de rentevoet publiceert.
    8. Indien het krediet een krediet met uitgestelde rentebetaling betreft, waarbij de verschuldigde rente niet
@@ -21978,7 +22374,6 @@ Pagina 368 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kenmerken omvat, moeten deze kenmerken in deze rubriek worden vermeld en worden voorzien van een korte
  toelichting omtrent de omstandigheden waarin de consument van het kenmerk gebruik kan maken; eventuele
  voorwaarden die aan het kenmerk zijn verbonden; de vraag of de consument, indien het kenmerk deel uitmaakt
-Pagina 369 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de door een hypotheek of gelijkwaardige zekerheid gedekte krediet, wettelijke of andere
  beschermingsvoorzieningen kwijtraakt die doorgaans aan dat kenmerk zijn verbonden; en de onderneming die
  het kenmerk aanbiedt (indien deze niet dezelfde is als de kredietgever).
@@ -22046,7 +22441,6 @@ Pagina 369 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Titel 1. - Normalisatie
 
   HOOFDSTUK 1. - Algemene bepalingen
-Pagina 370 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VIII.1
 
 Normen geven de regels van goed vakmanschap weer die, op het ogenblik dat ze worden
@@ -22054,7 +22448,9 @@ Normen geven de regels van goed vakmanschap weer die, op het ogenblik dat ze wor
   De naleving van de normen gebeurt op vrijwillige basis, tenzij de naleving ervan is opgelegd door een wettelijke,
  reglementaire of contractuele bepaling.
 
-  Art. VIII.2.De Staat en alle andere publiekrechtelijke personen kunnen refereren aan de door het Bureau voor
+## Art. VIII.2
+
+De Staat en alle andere publiekrechtelijke personen kunnen refereren aan de door het Bureau voor
  Normalisatie gepubliceerde normen door een eenvoudige verwijzing naar de referte van deze normen.
   [1 De Staat en alle andere publiekrechtelijke personen kunnen de toepassing van een door het Bureau voor
  Normalisatie gepubliceerde norm of deel van een norm verplichten. Zij brengen het Bureau voor Normalisatie
@@ -22077,7 +22473,9 @@ Een Bureau voor Normalisatie wordt opgericht, hierna " Bureau " genoemd. Het Bur
  van Brussel-Hoofdstad. Het Bureau valt onder de toepassing van de wet van 16 maart 1954 betreffende de
  controle op sommige instellingen van openbaar nut.
 
-  Art. VIII.4.In het kader van het door de minister vastgestelde beleid inzake normalisatie heeft het Bureau als
+## Art. VIII.4
+
+In het kader van het door de minister vastgestelde beleid inzake normalisatie heeft het Bureau als
  opdrachten :
   1° het uitoefenen van een algemene opdracht van inventariseren van zowel de behoeften aan nieuwe normen
  en technische documenten als het aanbod om deze te realiseren, en evalueren van de nodige financiële middelen;
@@ -22119,13 +22517,14 @@ Het algemeen schema van de normalisatieprogramma's wordt ieder jaar, in overeens
  normalisatiecommissies. De Koning kan het soort inhoud en de regels voor de voorstelling van het algemeen
  schema vaststellen.
 
-Pagina 371 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VIII.6
 
 De uitwerking van ontwerpen van normen wordt opgevolgd of verwezenlijkt, naargelang het geval,
  door normalisatiecommissies.
 
-  Art. VIII.7.[1 Het Bureau stelt alles in het werk opdat de belangrijkste belanghebbende partijen in de
+## Art. VIII.7
+
+[1 Het Bureau stelt alles in het werk opdat de belangrijkste belanghebbende partijen in de
  normalisatiecommissies vertegenwoordigd zouden zijn. Daartoe kan de Koning:
    1° de categorieën van belanghebbende partijen bepalen wier deelname moet worden aangemoedigd of voor
  wie de toegang naar normen moet vergemakkelijkt worden;
@@ -22151,7 +22550,9 @@ Het Bureau, de normalisatiecommissies en de sectorale normalisatieoperatoren dra
  volgens eigen bevoegdheid, bij tot de uitvoering van de normalisatieprogramma's, zoals bedoeld in artikel VIII.5,
  overeenkomstig de nadere regelen die door de Koning worden vastgesteld.
 
-  Art. VIII.10.§ 1. De volgens artikel VIII.5, door het Bureau vastgestelde programma's worden gefinancierd door
+## Art. VIII.10
+
+§ 1. De volgens artikel VIII.5, door het Bureau vastgestelde programma's worden gefinancierd door
  technische en/of financiële bijdragen in verhouding tot de belangen van de betrokken partijen.
   § 2. Het Bureau wordt gefinancierd door :
   1° een dotatie ten laste van de federale begroting die op de kredieten van de Federale Overheidsdienst
@@ -22180,7 +22581,9 @@ De boekhouding van het Bureau gebeurt overeenkomstig de bepalingen van de wet va
  1975 op de boekhouding van de ondernemingen en de uitvoeringsbesluiten ervan. Het Bureau streeft een
  financieel evenwicht na.
 
-  Art. VIII.12.De organen van het Bureau zijn [1 de directeur]1 en de Raad van Bestuur. In overleg maken zij een
+## Art. VIII.12
+
+De organen van het Bureau zijn [1 de directeur]1 en de Raad van Bestuur. In overleg maken zij een
  huishoudelijk reglement op dat aan de Koning ter goedkeuring wordt voorgelegd.
   ----------
   (1)<W 2022-09-25/14, art. 22, 120; Inwerkingtreding : 31-12-2023>
@@ -22199,7 +22602,6 @@ Onverminderd het recht van dagvaarding voor de bevoegde rechter, kan de invorder
  van zes jaar op voordracht van de minister na raadpleging van de Raad van Bestuur. Zijn mandaat is
  hernieuwbaar en wordt voltijds uitgeoefend. De directeur wordt gekozen op basis van zijn competenties in de
  materie die hij zal beheren. De Koning bepaalt in een besluit vastgesteld na overleg in de Ministerraad de
-Pagina 372 van 764 Copyright Belgisch S taatsblad 16-04-2026
  contractuele voorwaarden en het geldelijk statuut waaraan de directeur onderworpen is.
    De directeur wordt periodiek geëvalueerd door de Raad van Bestuur, volgens de regels vastgelegd door de
  Raad van Bestuur. De evaluatie van de directeur geldt onder voorbehoud van bekrachtiging door de bevoegde
@@ -22212,7 +22614,9 @@ Pagina 372 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-09-25/14, art. 23, 120; Inwerkingtreding : 31-12-2023>
 
-  Art. VIII.15.[1 De directeur staat onder toezicht van de Raad van Bestuur die samengesteld is uit
+## Art. VIII.15
+
+[1 De directeur staat onder toezicht van de Raad van Bestuur die samengesteld is uit
  vertegenwoordigers van de federale overheden, van de representatieve ondernemingsorganisaties en van de
  niet-gouvernementele organisaties bevoegd inzake maatschappelijke belangen.
    In een besluit vastgesteld na overleg in de Ministerraad stelt de Koning het aantal leden en de samenstelling van
@@ -22276,7 +22680,6 @@ Behoudens een voorzitter is de Hoge Raad samengesteld uit :
    4° [1 zeven effectieve leden en zeven plaatsvervangende leden die de federale en regionale overheden
  vertegenwoordigen;]1
    5° [1 een effectief lid en een plaatsvervangend lid die de conformiteitsbeoordelingsinstellingen
-Pagina 373 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vertegenwoordigen.]1
   ----------
   (1)<W 2022-09-25/14, art. 26, 120; Inwerkingtreding : 31-12-2023>
@@ -22326,7 +22729,9 @@ De noodzakelijke kredieten om de werking van de Hoge Raad te verzekeren worden i
   ----------
   (1)<W 2019-05-02/28, art. 11, 077; Inwerkingtreding : 10-11-2023>
 
-   Art. VIII.30.[1 § 1. De Koning kan, bij een besluit, vastgesteld na overleg in de Ministerraad, alle nuttige
+## Art. VIII.30
+
+[1 § 1. De Koning kan, bij een besluit, vastgesteld na overleg in de Ministerraad, alle nuttige
  maatregelen treffen om één enkele nationale accreditatie-instelling voor conformiteitsbeoordelingsinstellingen op
  te richten waarvan de werking beantwoordt aan de eisen van hoofdstuk II van verordening (EG) nr. 765/2008
  van het Europees Parlement en de Raad van 9 juli 2008 tot vaststelling van de eisen inzake accreditatie en
@@ -22349,7 +22754,9 @@ De noodzakelijke kredieten om de werking van de Hoge Raad te verzekeren worden i
 De Koning oefent de Hem krachtens de bepalingen van deze Titel toegekende machten uit op
  voordracht van de minister.
 
-  Art. VIII.32.§ 1. De uitgaven met betrekking tot het beheer [1 van de nationale accreditatie-instelling en van de
+## Art. VIII.32
+
+§ 1. De uitgaven met betrekking tot het beheer [1 van de nationale accreditatie-instelling en van de
  promotie van accreditatie]1 komen ten laste van de FOD Economie, K.M.O., Middenstand en Energie.
   § 2. Een Fonds tot dekking van de accreditatie- en certificatiekosten wordt opgericht.
   Onverminderd de toepassing van andere wets- en reglementsbepalingen kan de Koning, ten bate van dit Fonds,
@@ -22360,7 +22767,6 @@ De Koning oefent de Hem krachtens de bepalingen van deze Titel toegekende machte
 
   Titel 3. - Meeteenheden, de meetstandaarden en de meetinstrumenten
 
-Pagina 374 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 1. - Wettelijke eenheden
 
   Afdeling 1. - Algemeenheden
@@ -22379,7 +22785,9 @@ Het internationaal meeteenhedenstelsel (SI) omvat :
   2° de afgeleide eenheden;
   3° de veelvouden en delen van de grondeenheden.
 
-  Art. VIII.35.[1 § 1. De in artikel VIII.34, 1°, bedoelde grondeenheden, de grootheden waarop zij betrekking
+## Art. VIII.35
+
+[1 § 1. De in artikel VIII.34, 1°, bedoelde grondeenheden, de grootheden waarop zij betrekking
  hebben en de symbolen waardoor zij worden aangeduid, zijn :
 
  Grootheid Eenheid Quantité Unité
@@ -22426,7 +22834,6 @@ Het internationaal meeteenhedenstelsel (SI) omvat :
    De candela (symbool cd) is de SI-eenheid van lichtsterkte in een gegeven richting. Deze is gedefinieerd door
  aan te nemen dat de vaste numerieke waarde van het lichtrendement van de monochromatische straling van de
 
-Pagina 375 van 764 Copyright Belgisch S taatsblad 16-04-2026
  frequentie 540 x 1012 Hz (Kcd) uitgedrukt in de eenheid lm W m-1 683 bedraagt, waarbij lm W m-1 gelijk is aan cd
  sr W m-1 of cd sr kgm-1 mm-2 s 3 en de kilogram, meter en seconde zijn gedefinieerd in termen van h, c en
  gDvCs]1
@@ -22511,7 +22918,6 @@ De nationale standaarden en de toepassing van de regels vastgesteld door de Koni
  hoegrootheid van een dienst te bepalen, worden met geijkte meetinstrumenten verricht.
   § 2. Metingen die worden uitgevoerd ter berekening van heffingen en restituties, worden met geijkte
  meetinstrumenten verricht.
-Pagina 376 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 3. De Koning kan de toepassing van paragraaf 1 verruimen tot andere metingen in het economisch verkeer.
   § 4. De Koning kan het gebruik van geijkte meetinstrumenten opleggen voor metingen buiten het economisch
  verkeer.
@@ -22598,7 +23004,6 @@ De Koning kan de meetinstrumenten onderwerpen aan een technische controle om na 
  die werktuigen aan de wettelijke eisen voldoen en of zij zich in goede staat bevinden. In bevestigend geval worden
  één of meer goedkeuringstekens aangebracht of wordt een attest afgegeven.
 
-Pagina 377 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. VIII.53
 
 § 1. De Koning bepaalt de nadere regels voor de modelgoedkeuring voor de eerste ijk, voor de
@@ -22647,7 +23052,9 @@ Bij de goedkeuring van een model, de aflevering van goedkeuringsmerken, de eerst
  werkingsmodaliteiten van het Netwerk, alsook de voorwaarden waaraan die onderzoeksinstituten en laboratoria
  moeten voldoen om er deel van uit te maken en om er deel van te blijven uitmaken.
 
-   Art. VIII.56.De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de artikelen VIII.39, §§ 1
+## Art. VIII.56
+
+De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de artikelen VIII.39, §§ 1
  en 2, VIII.43, §§ 1 en 2, en VIII.44, § 1.
    Eveneens kan de Koning bijzondere afwijkingen toestaan van voornoemde bepalingen alsmede van de
  bepalingen vastgesteld krachtens de artikelen VIII.39, § 3, VIII.43, §§ 3 en 4, en VIII.44, § 4. Hij kan de diensten,
@@ -22662,7 +23069,9 @@ Bij de goedkeuring van een model, de aflevering van goedkeuringsmerken, de eerst
   ----------
   (1)<Ingevoegd bij W 2016-06-29/01, art. 15, 036; Inwerkingtreding : 16-07-2016>
 
-   Art. VIII.57.[1 Met het oog op de omzetting of toepassing van technische communautaire
+## Art. VIII.57
+
+[1 Met het oog op de omzetting of toepassing van technische communautaire
  harmonisatiewetgeving zoals bedoeld in Verordening (EG) 765/2008 van het Europees Parlement en de Raad van
  9 juli 2008, [2 en Verordening (EU) 2019/1020 van het Europees Parlement en de Raad van 20 juni 2019
  betreffende markttoezicht en conformiteit van producten en tot wijziging van Richtlijn 2004/42/EG en de
@@ -22672,7 +23081,6 @@ Bij de goedkeuring van een model, de aflevering van goedkeuringsmerken, de eerst
  intrekking van Richtlijn 2010/30/EU en haar gedelegeerde handelingen, kan de Koning, zonder zich te beperken
  tot de minimumeisen]2 :
    1° de voorwaarden bepalen waaraan producten moeten voldoen om op de markt te worden aangeboden;
-Pagina 378 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° de verplichtingen van marktdeelnemers bepalen;
    3° de voorwaarden bepalen waaraan aangemelde instanties moeten voldoen;
   [3 4° marktdeelnemers vrijstellen van de verplichtingen bepaald op grond van de bepaling onder 2°.]3]1
@@ -22740,7 +23148,6 @@ Pagina 378 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uit op welke manier de diensten al dan niet aan de toepasselijke toegankelijkheidsvoorschriften voldoen. De
  informatie wordt het publiek schriftelijk en mondeling ter beschikking gesteld, mede op een manier die
  toegankelijk is voor personen met een handicap. Dienstverleners bewaren die informatie zolang de dienst in
-Pagina 379 van 764 Copyright Belgisch S taatsblad 16-04-2026
  werking is.
    De Koning kan de lijst met informatie over diensten die aan toegankelijkheidsvoorschriften voldoen in bijlage 2
  bij dit boek wijzigen en aanvullen.]1
@@ -22810,7 +23217,6 @@ Pagina 379 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ambtenaren bedoeld in artikel XV.2.
    De Koning kan bepalen op welke wijze de dienstverleners de ambtenaren bedoeld in artikel XV.2 hiervan op de
  hoogte kunnen brengen en welke informatie precies meegedeeld moet worden.
-Pagina 380 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 7. De Koning kan de lijst van criteria voor de beoordeling van onevenredige last bedoeld in bijlage 3 bij dit boek
  wijzigen, aanvullen en verduidelijken.
    De ambtenaren bedoeld in artikel XV.2 kunnen reglementen uitvaardigen over de wijze waarop de criteria
@@ -22877,7 +23283,6 @@ Pagina 380 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (Beeld niet opgenomen om technische redenen, zie B.St. van 28-11-2023, p. 110587)
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 23, 141; Inwerkingtreding : 28-06-2025>
-Pagina 381 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Boek IX. [1 Veiligheid van producten en diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
@@ -22927,7 +23332,9 @@ Pagina 381 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
 
-  Art. IX.4.[1 § 1. Met het oog op de bescherming van de veiligheid of de gezondheid van de gebruiker kan de
+## Art. IX.4
+
+[1 § 1. Met het oog op de bescherming van de veiligheid of de gezondheid van de gebruiker kan de
  Koning, op de voordracht van de minister :
   1° voor een categorie van producten de vervaardiging, de invoer, de verwerking, de uitvoer, het aanbod, de
  tentoonstelling, de verkoop, de behandeling, het vervoer, de verdeling, zelfs kosteloos, de verhuring, het ter
@@ -22949,7 +23356,6 @@ Pagina 381 van 764 Copyright Belgisch S taatsblad 16-04-2026
  IX.5, §§ 1 en 2. [2 Tenzij de maatregel de omzetting of het gevolg is van een maatregel die op Europees vlak is
  genomen, raadpleegt de minister of zijn gemachtigde]2 vooraf de producent van het betrokken product of de
 
-Pagina 382 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betrokken dienstverlener en licht hem in uiterlijk vijftien dagen na het nemen van de maatregelen.
    § 3. In een besluit genomen ter uitvoering van de paragrafen 1 of 2, kunnen tevens de volgende maatregelen
  worden bevolen :
@@ -22969,7 +23375,9 @@ Pagina 382 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2017-04-18/03, art. 21, 046; Inwerkingtreding : 04-05-2017>
    (3)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-   Art. IX.5.[1 § 1. In geval van ernstig risico kan de minister of zijn gemachtigde voor een periode van ten hoogste
+## Art. IX.5
+
+[1 § 1. In geval van ernstig risico kan de minister of zijn gemachtigde voor een periode van ten hoogste
  één jaar, maximaal eenmaal met een periode van ten hoogste één jaar verlengbaar, een gemotiveerd totaal of
  gedeeltelijk verbod uitvaardigen of voorwaarden vaststellen voor :
    1° de vervaardiging, de invoer, de verwerking, de uitvoer, het aanbod, de tentoonstelling, de verkoop, de
@@ -23009,7 +23417,9 @@ Pagina 382 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
 
-  Art. IX.7.[1 De minister of zijn gemachtigde kan :
+## Art. IX.7
+
+[1 De minister of zijn gemachtigde kan :
   1° aan de producenten een waarschuwing richten en hun vragen de producten en diensten die zij aan de
  gebruiker aanbieden, in overeenstemming te brengen met artikel IX.2 of met de besluiten genomen ter uitvoering
  van artikel IX.4, §§ 1 tot 3, of artikel IX.5, §§ 1 en 2;
@@ -23019,7 +23429,6 @@ Pagina 382 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aanwijzingen bestaan dat ze gevaarlijk zijn of indien de kenmerken van een nieuw product of een nieuwe dienst
  deze voorzorgsmaatregel rechtvaardigen.
   De Koning bepaalt bij besluit de voorwaarden voor de terugbetaling, in voorkomend geval, van de kosten die de
-Pagina 383 van 764 Copyright Belgisch S taatsblad 16-04-2026
  producenten voor deze ontleding of deze controle hebben gemaakt.
   Zolang een product of een dienst niet werd onderworpen aan de met toepassing van dit artikel voorgeschreven
  ontleding of controle, wordt het geacht niet te beantwoorden aan de vereisten van artikel IX.2, tenzij het bewijs
@@ -23091,7 +23500,6 @@ Pagina 383 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. IX.10.
 
-Pagina 384 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. IX.11
 
 [1 De Koning kan de erkennings- en werkingscriteria bepalen van de tussenkomende organismen, de
@@ -23106,7 +23514,9 @@ Pagina 384 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
 
-   Art. IX.12.[1 Binnen de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie wordt een "
+## Art. IX.12
+
+[1 Binnen de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie wordt een "
  Centraal Meldpunt voor producten ", verder " Centraal Meldpunt " genoemd, ingesteld. De kernopdrachten van
  het Centraal Meldpunt zijn :
    1° optreden als contactpunt voor [2 gebruikers]2, producenten, distributeurs, werkgevers en overheden voor
@@ -23135,7 +23545,9 @@ Pagina 384 van 764 Copyright Belgisch S taatsblad 16-04-2026
  4)>
    (2)<W 2016-06-29/01, art. 19, 036; Inwerkingtreding : 16-07-2016>
 
-   Art. IX.13.[1 Het Centraal Meldpunt heeft een coördinerende opdracht. Het Centraal Meldpunt zendt de
+## Art. IX.13
+
+[1 Het Centraal Meldpunt heeft een coördinerende opdracht. Het Centraal Meldpunt zendt de
  specifieke vragen waarop het geen onmiddellijk antwoord kan geven en de klachten van [2 gebruikers]2,
  producenten of distributeurs voor uitvoering door aan de betrokken administratie, die het Centraal Meldpunt
  inlicht over het gegeven gevolg. Het Centraal Meldpunt moet de administraties alle inlichtingen verstrekken
@@ -23151,7 +23563,9 @@ Pagina 384 van 764 Copyright Belgisch S taatsblad 16-04-2026
  4)>
    (2)<W 2016-06-29/01, art. 20, 036; Inwerkingtreding : 16-07-2016>
 
-  Art. IX.14.[1 Ten aanzien van de onderwerpen die onder dit boek en zijn uitvoeringsbesluiten vallen bepaalt de
+## Art. IX.14
+
+[1 Ten aanzien van de onderwerpen die onder dit boek en zijn uitvoeringsbesluiten vallen bepaalt de
  Koning voor een product of een categorie van producten, op de gezamenlijke voordracht van de minister en van
  de andere ministers die bevoegd zijn voor de veiligheid van dit product of deze categorie van producten :
   1° de samenstelling van de vertegenwoordiging van België bij de internationale of supranationale organisaties;
@@ -23161,7 +23575,6 @@ Pagina 384 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
 
-Pagina 385 van 764 Copyright Belgisch S taatsblad 16-04-2026
  4)>
   (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
@@ -23242,7 +23655,6 @@ Pagina 385 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Alle elementen van de vergoeding die variëren naar gelang van het aantal zaken of de waarde daarvan worden
  geacht een commissie te zijn in de zin van deze afdeling.
   Indien de vergoeding van de handelsagent niet geheel of gedeeltelijk uit een commissie bestaat zijn de artikelen
-Pagina 386 van 764 Copyright Belgisch S taatsblad 16-04-2026
  X.8 tot X.14 niet van toepassing.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
@@ -23308,7 +23720,9 @@ Pagina 386 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
-  Art. X.13.[1 § 1. Bij het sluiten van de handelsagentuurovereenkomst bepalen de partijen vrij het bedrag van de
+## Art. X.13
+
+[1 § 1. Bij het sluiten van de handelsagentuurovereenkomst bepalen de partijen vrij het bedrag van de
  commissies.
    Zij kunnen verschillende bedragen overeenkomen naargelang van de categorieën van de bezochte klanten, de
  aard van de verspreide producten of geleverde diensten en de rol die de handelsagent heeft gespeeld bij de
@@ -23319,7 +23733,6 @@ Pagina 386 van 764 Copyright Belgisch S taatsblad 16-04-2026
  commissies en indien geen enkel element, afgeleid uit de band tussen de partijen, het mogelijk maakt hun
  onuitgesproken wil ter zake te kennen, wordt het bedrag toegepast dat in de economische sector van de plaats
 
-Pagina 387 van 764 Copyright Belgisch S taatsblad 16-04-2026
  waar de handelsagent zijn activiteit uitoefent, gebruikelijk is voor zaken van dezelfde aard. Bij ontstentenis van
  dergelijke gebruiken heeft de handelsagent recht op een billijk percentage, waarbij rekening wordt gehouden met
  alle op de transactie betrekking hebbende elementen.
@@ -23393,7 +23806,6 @@ Pagina 387 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 3. De partij die de handelsagentuurovereenkomst beëindigt zonder de in paragraaf 1, tweede lid, vastgestelde
  opzeggingstermijn in acht te nemen of zonder een van de in artikel X.17, eerste lid, vermelde redenen op te
  geven is gehouden de andere partij een opzeggingsvergoeding te betalen die gelijk is aan de vergoeding die
-Pagina 388 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gebruikelijk is en overeenstemt hetzij met de duur van de opzeggingstermijn, hetzij met het resterende deel van
  die termijn.
    Wanneer de vergoeding van de handelsagent geheel of gedeeltelijk uit commissies bestaat, wordt de
@@ -23466,7 +23878,6 @@ Pagina 388 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitbreiding van de zaken als met de aanbreng van klanten.
   De uitwinningvergoeding mag niet meer bedragen dan het bedrag van een jaar vergoeding berekend op basis
  van het gemiddelde van de vijf voorafgaande jaren of op basis van de gemiddelde vergoeding in de voorafgaande
-Pagina 389 van 764 Copyright Belgisch S taatsblad 16-04-2026
  jaren indien de handelsagentuurovereenkomst minder dan vijf jaar heeft geduurd.
    De uitwinningvergoeding is niet verschuldigd :
    1° indien de principaal de handelsagentuurovereenkomst heeft beëindigd vanwege een aan de handelsagent te
@@ -23544,7 +23955,6 @@ Pagina 389 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aansprakelijk stelt, de commissie overstijgen, zonder evenwel hoger te zijn dan het bedrag dat effectief
  verschuldigd is door de derde aan de principaal.
   Indien er een kennelijke wanverhouding is tussen het risico dat de handelsagent op zich heeft genomen en de
-Pagina 390 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedongen commissie, kan de rechter het bedrag waarvoor de handelsagent aansprakelijk is verminderen voor
  zover dit bedrag de commissie te boven gaat. De rechter houdt met alle omstandigheden rekening, in het
  bijzonder met de wijze waarop de handelsagent de belangen van de principaal heeft behartigd.]1
@@ -23584,7 +23994,9 @@ Pagina 390 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
-  Art. X.27.[1 Onder voorbehoud van de toepassing van artikel X.29, verstrekt de persoon die het recht verleent
+## Art. X.27
+
+[1 Onder voorbehoud van de toepassing van artikel X.29, verstrekt de persoon die het recht verleent
  aan de andere persoon, minstens één maand voor het sluiten van de commerciële
  samenwerkingsovereenkomst, bedoeld in artikel I.11, 2°, het ontwerp van overeenkomst evenals een
  afzonderlijk document dat de gegevens bedoeld in artikel X.28 bevat. [2 Het ontwerp van overeenkomst en het
@@ -23619,7 +24031,6 @@ Pagina 390 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verleent en de berekeningswijze voor de onrechtstreekse vergoeding die de persoon die het recht verleent,
  ontvangt en, in voorkomend geval, de wijze van herziening in de loop van de overeenkomst en bij de hernieuwing
  ervan;
-Pagina 391 van 764 Copyright Belgisch S taatsblad 16-04-2026
     d) de kosten bij opstart of wederkerende kosten zoals de marketing, informatica, transport, opleiding ten laste
  van de persoon die het recht verkrijgt en de voorwaarden tot wijziging hiervan;
     e) de exclusiviteit die is voorbehouden aan de persoon die het recht verleent;
@@ -23689,7 +24100,6 @@ Pagina 391 van 764 Copyright Belgisch S taatsblad 16-04-2026
  tussen dezelfde partijen of in geval van wijziging van een commerciële samenwerkingsovereenkomst die in
  uitvoering is en sinds minstens 2 jaar gesloten is, verstrekt degene die het recht verleent de andere persoon een
  ontwerp van overeenkomst en een vereenvoudigd document, minstens een maand vóór de hernieuwing of het
-Pagina 392 van 764 Copyright Belgisch S taatsblad 16-04-2026
  sluiten van een nieuwe overeenkomst of de wijziging van de lopende commerciële samenwerkingsovereenkomst,
  bedoeld in artikel I.11, 2°.
    Dit vereenvoudigd document omvat minstens de volgende gegevens :
@@ -23766,7 +24176,6 @@ Pagina 392 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de concessies van alleenverkoop;
   2° de verkoopconcessies krachtens welke de concessiehouder nagenoeg alle producten waarop de
  overeenkomst slaat in het concessiegebied verkoopt;
-Pagina 393 van 764 Copyright Belgisch S taatsblad 16-04-2026
   3° de verkoopconcessies waarbij de concessiegever de concessiehouder belangrijke verplichtingen oplegt, die
  op strikte en bijzondere wijze aan de verkoopconcessie gekoppeld zijn en waarvan de last zo zwaar is dat de
  concessiehouder groot nadeel zou lijden in geval van beëindiging van de concessie.]1
@@ -23783,7 +24192,9 @@ Pagina 393 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
-  Art. X.37.[1 Ingeval de verkoopconcessie als bedoeld in [2 artikel X.36]2 door de concessiegever wordt
+## Art. X.37
+
+[1 Ingeval de verkoopconcessie als bedoeld in [2 artikel X.36]2 door de concessiegever wordt
  beëindigd op andere gronden dan een grove tekortkoming van de concessiehouder, of ingeval deze laatste het
  contract beëindigt wegens grove tekortkoming van de concessiegever, kan de concessiehouder aanspraak
  maken op een billijke bijkomende vergoeding.
@@ -23842,7 +24253,6 @@ Pagina 393 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 173, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 394 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. X.41
 
 [1 De vervoerovereenkomst wordt bewezen door alle middelen rechtens, inzonderheid door de
@@ -23915,7 +24325,6 @@ Pagina 394 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De inontvangstneming van de vervoerde goederen doet elke vordering tegen de vervoerder en de
  commissionair vervallen behalve wanneer een bijzonder voorbehoud is gemaakt of in geval van niet uiterlijk
  zichtbare beschadiging.
-Pagina 395 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het bijzonder voorbehoud of het bezwaar moet op schrift worden gesteld en aan de vervoerder gezonden
  uiterlijk de tweede dag na de inontvangstneming in geval van uiterlijk zichtbare beschadiging en van verlies, en
  binnen een termijn van zeven dagen, de dag van inontvangstneming niet inbegrepen, in geval van vertraging.
@@ -23954,7 +24363,9 @@ Pagina 395 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 181, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. X.49.[1 Alle rechtsvorderingen, ontstaan uit de overeenkomst van goederenvervoer, met uitzondering van
+## Art. X.49
+
+[1 Alle rechtsvorderingen, ontstaan uit de overeenkomst van goederenvervoer, met uitzondering van
  het ziekenvervoer en van die welke volgen uit een strafbaar feit, verjaren door verloop van zes maanden ten
  aanzien van binnenlands vervoer en door verloop van een jaar ten aanzien van internationaal vervoer.
     De verjaring loopt, in geval van totaal verlies of van vertraging, van de dag waarop het vervoer had moeten
@@ -23986,7 +24397,6 @@ Pagina 395 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 184, 059; Inwerkingtreding : 01-11-2018>
 
-Pagina 396 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. X.52
 
 [1 De tarieven, die van toepassing zijn op het personenvervoer in binnenlandse dienst, worden door
@@ -24061,7 +24471,6 @@ Pagina 396 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verklaring onjuist is of dat er zich schadelijke of gevaarlijke stoffen, waarvan geen aangifte is gedaan of waarvan
  het vervoer verboden is, in de colli's of de bagage bevinden, kan hij deze doen openen, ook als ze in bewaring
  gegeven zijn of als de reizigers ze overeenkomstig de reglementen bij zich houden. De opening geschiedt hetzij in
-Pagina 397 van 764 Copyright Belgisch S taatsblad 16-04-2026
  tegenwoordigheid van de afzender of de reiziger, hetzij, in geval van afwezigheid of van weigering, ten overstaan
  van een officier van gerechtelijke politie.]1
   ----------
@@ -24128,7 +24537,6 @@ Pagina 397 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2018-07-30/18, art. 3, 064; Inwerkingtreding : 24-08-2018>
 
-Pagina 398 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Titel 1. - [1 Uitvindingsoctrooien]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
@@ -24192,7 +24600,9 @@ Pagina 398 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-   Art. XI.5.[1 § 1. Niet octrooieerbaar zijn :
+## Art. XI.5
+
+[1 § 1. Niet octrooieerbaar zijn :
    1° planten - en dierenrassen;
    2° werkwijzen van wezenlijk biologische aard voor de voortbrenging van planten of dieren;
    [2 3° planten of dieren uitsluitend verkregen door middel van de werkwijzen bedoeld in de bepaling onder 2°,
@@ -24203,7 +24613,6 @@ Pagina 398 van 764 Copyright Belgisch S taatsblad 16-04-2026
  microbiologische of andere technische werkwijze of op een met behulp van deze werkwijze verkregen
  voortbrengsel.
    § 4. Niet octrooieerbaar zijn de uitvindingen waarvan de commerciële exploitatie strijdig zou zijn met de
-Pagina 399 van 764 Copyright Belgisch S taatsblad 16-04-2026
  openbare orde of met de goede zeden, met inbegrip van bescherming van het leven of de gezondheid van
  mensen, dieren of planten of ter vermijding van ernstige schade voor het milieu, met dien verstande dat niet als
  strijdig in deze zin zal worden beschouwd het enkele feit dat de toepassing van de uitvinding door een wettelijke
@@ -24276,7 +24685,6 @@ Pagina 399 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gelaten.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
-Pagina 400 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.8
 
 [1 Een uitvinding wordt voor toepassing op het gebied van de nijverheid vatbaar geacht, indien het
@@ -24354,7 +24762,6 @@ Pagina 400 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
   Afdeling 3. - [1 De aflevering van het uitvindingsoctrooi]1
-Pagina 401 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -24430,7 +24837,6 @@ Pagina 401 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overeenkomstig de bepalingen van het eerste lid om een onvolledige aanvraag te regulariseren die op de datum
  waarop minstens één van de elementen bedoeld in paragraaf 1 voor het eerst werden ontvangen door de
  Dienst, een beroep doet op een recht van voorrang op grond van een eerdere aanvraag, is de datum van
-Pagina 402 van 764 Copyright Belgisch S taatsblad 16-04-2026
  indiening, op een binnen de door de Koning voorgeschreven termijn ingediend verzoek van de aanvrager en,
  onverminderd de door de Koning voorgeschreven vereisten, en onder voorbehoud dat de ontbrekende
  onderdelen die later worden toegevoegd, voorkomen in het voorrangsdocument, de datum waarop aan alle in
@@ -24504,7 +24910,6 @@ Pagina 402 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. De octrooiaanvrager die zich wil beroepen op het recht van voorrang van een eerdere
  indiening voorzien door het Verdrag van Parijs of door de TRIPs-Overeenkomst, moet een verklaring van
  voorrang alsook een afschrift van de eerdere aanvraag indienen volgens de door de Koning bepaalde
-Pagina 403 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorwaarden, en binnen de door de Koning bepaalde termijnen.
    De octrooiaanvrager kan bij de verklaring van voorrang, in de plaats van een afschrift van de eerdere aanvraag,
  ook verwijzen naar een door de Koning aangewezen databank.
@@ -24573,7 +24978,6 @@ Pagina 403 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorgenomen weigering.
    § 10. Wanneer een afschrift van een eerdere aanvraag dat ingeroepen wordt als bewijs van voorrang niet
  binnen een door de Koning bepaalde termijn bij de Dienst is ingediend, herstelt de Dienst het recht van voorrang
-Pagina 404 van 764 Copyright Belgisch S taatsblad 16-04-2026
  indien :
    1° in overeenstemming met de door de Koning voorgeschreven vereisten daartoe een verzoekschrift tot de
  Dienst wordt gericht;
@@ -24600,7 +25004,9 @@ Pagina 404 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-09-25/06, art. 4, 119; Inwerkingtreding : 01-12-2022>
 
-  Art. XI.21.[1 § 1. Indien de octrooiaanvraag wel beantwoordt aan de in het artikel XI.17 gestelde voorwaarden
+## Art. XI.21
+
+[1 § 1. Indien de octrooiaanvraag wel beantwoordt aan de in het artikel XI.17 gestelde voorwaarden
  doch niet aan de andere wettelijke of reglementaire voorwaarden, geeft de Dienst de aanvrager daarvan kennis,
  en stelt hem daarbij in de gelegenheid zijn aanvraag te regulariseren en commentaar te leveren binnen een door
  de Koning vastgestelde termijn en mits betaling [2 van een eenmalige taks voor de gehele regularisatie van de
@@ -24639,12 +25045,13 @@ Pagina 404 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.23.[1 § 1. De octrooiaanvraag kan worden gewijzigd tijdens de procedure voor de Dienst of voor de
+## Art. XI.23
+
+[1 § 1. De octrooiaanvraag kan worden gewijzigd tijdens de procedure voor de Dienst of voor de
  rechtbanken in overeenstemming met de wet en de uitvoeringsbesluiten.
   § 2. De octrooiaanvraag wordt gevolgd door het opstellen van een verslag van nieuwheidsonderzoek
  aangaande de uitvinding.
   Het wordt, bij wijze van voorlichting van de aanvrager, vergezeld van een schriftelijke opinie over de
-Pagina 405 van 764 Copyright Belgisch S taatsblad 16-04-2026
  octrooieerbaarheid van de uitvinding aan de hand van de vermelde documenten. Deze opinie is voor derden
  toegankelijk in het dossier van het verleende octrooi.
    § 3. Het verslag van nieuwheidsonderzoek en de schriftelijke opinie worden opgemaakt door een door de
@@ -24712,7 +25119,6 @@ Pagina 405 van 764 Copyright Belgisch S taatsblad 16-04-2026
  mag de Koning beslissen dat dit verslag van nieuwheidsonderzoek en deze schriftelijke opinie, onder de
  voorwaarden door Hem vastgelegd, zullen kunnen aangewend worden, op verzoek van de aanvrager, bij de
  verleningsprocedure van het Belgisch octrooi.
-Pagina 406 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 10. Op verzoek van de aanvrager, gericht aan de Dienst binnen de termijn bepaald in paragraaf 4, onderwerpt
  de Dienst de uitvinding, voorwerp der octrooiaanvraag, aan het nieuwheidsonderzoek van het internationale type
  zoals bedoeld in artikel 15, lid 5, a) van het Samenwerkingsverdrag. Dit onderzoek maakt het
@@ -24731,7 +25137,9 @@ Pagina 406 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
    (2)<W 2022-09-25/06, art. 5, 119; Inwerkingtreding : 01-12-2022>
 
-   Art. XI.24.[1 § 1. Onder voorbehoud van de bepalingen van artikel XI.47, § 2, wordt de vervulling van de
+## Art. XI.24
+
+[1 § 1. Onder voorbehoud van de bepalingen van artikel XI.47, § 2, wordt de vervulling van de
  formaliteiten die voorgeschreven zijn voor de verlening van het octrooi bekrachtigd door een ministerieel besluit.
  Dit besluit maakt het octrooi uit.
    § 2. Het besluit wordt zo vlug mogelijk verleend na het verstrijken van een termijn van achttien maanden te
@@ -24773,14 +25181,15 @@ Pagina 406 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2019-05-02/28, art. 17, 077; Inwerkingtreding : 01-06-2019>
    (3)<W 2022-09-25/06, art. 6, 119; Inwerkingtreding : 01-01-2024>
 
-  Art. XI.25.[1 § 1. Onder de voorwaarden bedoeld in artikel XI.24, §§ 3 tot 5, maakt de Dienst de octrooiaanvraag
+## Art. XI.25
+
+[1 § 1. Onder de voorwaarden bedoeld in artikel XI.24, §§ 3 tot 5, maakt de Dienst de octrooiaanvraag
  toegankelijk voor het publiek via het register.
    Zodra de octrooiaanvraag toegankelijk voor het publiek is gemaakt met toepassing van het eerste lid, wordt
  het aanvraagdossier onderworpen aan de inzage ten behoeve van het publiek via het register.
    § 2. Zodra het octrooi verleend is, wordt het octrooidossier, onder voorbehoud van de toepassing van de wet
  van 10 januari 1955, onderworpen aan de inzage ten behoeve van het publiek via het register.
    Vanaf dat tijdstip kan hiervan, in de door de Koning vastgestelde voorwaarden en vormen, afschrift worden
-Pagina 407 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bekomen.
    § 3. De aanvraag- en octrooidossiers die op grond van de paragrafen 1 en 2 onderworpen zijn aan de inzage
  ten behoeve van het publiek bevatten alle informatie en stukken betreffende de octrooiverleningsprocedure, met
@@ -24812,7 +25221,9 @@ Pagina 407 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.27.[1 § 1. De Dienst stelt het register en de Verzameling via elektronische weg ter beschikking van het
+## Art. XI.27
+
+[1 § 1. De Dienst stelt het register en de Verzameling via elektronische weg ter beschikking van het
  publiek. De Koning bepaalt de nadere regels voor het bijhouden van het register en de Verzameling alsook de
  voorwaarden van beschikbaarstelling voor het publiek van het register en de Verzameling.
    § 2. De Dienst vermeldt in de Verzameling de inschrijvingen opgenomen in het register. De bibliografische
@@ -24841,7 +25252,9 @@ Pagina 407 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.29.[1 § 1. Een octrooi verleent de houder ervan het recht om iedere derde die hiertoe niet de
+## Art. XI.29
+
+[1 § 1. Een octrooi verleent de houder ervan het recht om iedere derde die hiertoe niet de
  toestemming van de houder heeft verkregen, het volgende te verbieden:
    a) een product waarop het octrooi betrekking heeft, te vervaardigen, aan te bieden, in de handel te brengen, te
  gebruiken, dan wel met dat doel in te voeren of in voorraad te hebben;
@@ -24852,7 +25265,6 @@ Pagina 407 van 764 Copyright Belgisch S taatsblad 16-04-2026
  te bieden, in de handel te brengen, te gebruiken, of met dat doel in te voeren of in voorraad te hebben.
    § 2. Een octrooi verleent de houder het recht om iedere derde die hiertoe niet de toestemming van de houder
  heeft verkregen, te verbieden op Belgisch grondgebied, aan een ander dan degene die gerechtigd is de
-Pagina 408 van 764 Copyright Belgisch S taatsblad 16-04-2026
  geoctrooieerde uitvinding toe te passen, middelen die een wezenlijk bestanddeel van de uitvinding betreffen, voor
  de toepassing van die uitvinding aan te bieden of te leveren, indien de derde weet of behoorde te weten dat deze
  middelen voor die toepassing geschikt en bestemd zijn.
@@ -24891,7 +25303,9 @@ Pagina 408 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XI.33.
 
-   Art. XI.34.[1 § 1. [3 De uit een octrooi voortvloeiende rechten zijn niet van toepassing op:
+## Art. XI.34
+
+[1 § 1. [3 De uit een octrooi voortvloeiende rechten zijn niet van toepassing op:
     a) in de particuliere sfeer en zonder commerciële doeleinden verrichte handelingen;
     b) [4 handelingen voor experimentele doeleinden]4 die het voorwerp van de geoctrooieerde uitvinding
  betreffen;
@@ -24922,7 +25336,6 @@ Pagina 408 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de Raad van 27 juli 1994 inzake het communautaire kwekersrecht;
     j) het gebruik voor landbouwdoeleinden, door een landbouwer, van vee dat onder octrooibescherming valt, op
  voorwaarde dat het fokvee of ander dierlijk fokmateriaal door de octrooihouder of met zijn instemming aan de
-Pagina 409 van 764 Copyright Belgisch S taatsblad 16-04-2026
  landbouwer is verkocht of anderszins is verhandeld. Dit gebruik omvat het beschikbaar stellen van het dier of
  ander dierlijk fokmateriaal met het oog op de activiteit van de landbouwer, doch niet de verkoop daarvan in het
  kader van of ten behoeve van een commerciële reproductieve bedrijvigheid;
@@ -24996,7 +25409,6 @@ Pagina 409 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het octrooi in België aanzien worden wanneer deze vervaardiging voor de economie van het land belangrijker is
  dan de vervaardiging van de machine zelf.
   Een gedwongen licentie wegens niet of onvoldoende exploitatie wordt slechts verleend op voorwaarde dat de
-Pagina 410 van 764 Copyright Belgisch S taatsblad 16-04-2026
  licentie hoofdzakelijk verleend wordt voor de voorziening van de binnenlandse markt.
    2° wanneer een uitvinding, beschermd door een octrooi toebehorend aan de aanvrager van de licentie, niet kan
  geëxploiteerd worden zonder dat inbreuk wordt gepleegd op de rechten verbonden aan een octrooi, verleend
@@ -25067,7 +25479,6 @@ Pagina 410 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het Raadgevend Comité voor Bio-ethiek verstrekt de minister een met redenen omkleed en niet bindend advies
  over de gegrondheid van de aanvraag.
    De minister legt binnen een termijn van drie maanden na ontvangst van het advies van het Raadgevend Comité
-Pagina 411 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor Bio-ethiek een gemotiveerd voorstel tot besluit over de gegrondheid van de aanvraag voor overleg aan de
  Ministerraad voor. De minister legt tevens een voorstel aangaande de vergoeding voor de octrooihouder voor.
    Indien de Koning, overeenkomstig paragraaf 1, besluit de gedwongen licentie te verlenen, bepaalt Hij
@@ -25140,7 +25551,6 @@ Pagina 411 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Vanaf de toekenning van de gedwongen licentie worden de betrekkingen tussen de octrooihouder en de
  licentiehouder, behoudens afwijkingen in het toekenningsbesluit, gelijkgesteld met deze die bestaan bij
  contractuele licentiegeving-licentieneming.
-Pagina 412 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 3. De licentie toegekend met toepassing van artikel XI.37, § 1, 2°, is beperkt tot het gedeelte van de uitvinding
  door het heersend octrooi beschermd waarvan het gebruik onontbeerlijk is voor het exploiteren van het
  afhankelijk octrooi en laat dit gebruik slechts toe in verband met deze exploitatie.
@@ -25209,10 +25619,11 @@ Pagina 412 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.43.[1 § 1. Bij de FOD Economie wordt een Commissie voor de gedwongen licenties ingesteld die belast is
+## Art. XI.43
+
+[1 § 1. Bij de FOD Economie wordt een Commissie voor de gedwongen licenties ingesteld die belast is
  met het uitvoeren van de taken die haar krachtens de artikelen XI.41, XI.44 en XI.45 werden toebedeeld.
   De Commissie bestaat uit tien leden benoemd door de minister.
-Pagina 413 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Acht leden worden aangewezen op voorstel van de representatieve organisaties van de nijverheid, de
  landbouw, de handel, de kleine en middelgrote nijverheidsondernemingen en de consumenten.
    De in het vorige lid bedoelde organisaties worden door de minister aangewezen.
@@ -25283,7 +25694,6 @@ Pagina 413 van 764 Copyright Belgisch S taatsblad 16-04-2026
  procedure is dezelfde als die welke voorzien is om de beslissing te nemen die het voorwerp is van de
  herziening.]1
   ----------
-Pagina 414 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
 ## Art. XI.45
@@ -25358,8 +25768,9 @@ Pagina 414 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.49.[1 § 1. Bij ontstentenis van een overeenkomst wordt de medeëigendom op een octrooiaanvraag of op
-Pagina 415 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XI.49
+
+[1 § 1. Bij ontstentenis van een overeenkomst wordt de medeëigendom op een octrooiaanvraag of op
  een octrooi geregeld door de bepalingen van dit artikel.
   § 2. Elke mede-eigenaar heeft het recht om de uitvinding persoonlijk te exploiteren.
   Geen mede-eigenaar mag de octrooiaanvraag of het octrooi met een recht bezwaren, een exploitatielicentie
@@ -25430,7 +25841,6 @@ Pagina 415 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inkomsten die deze taks genereert; en
    3° de verspreiding van informatie aan derden over het statuut van het octrooi of van de octrooiaanvraag.
    § 5. Het verlenen van een licentie voor een octrooiaanvraag of voor een octrooi en elke wijziging aangebracht
-Pagina 416 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan het attest voorzien in voorgaande paragraaf kunnen ten opzichte van de Dienst slechts uitwerking hebben
  en aan derden worden tegengesteld na de inschrijving in het register van het attest of van het wijzigingsattest en
  wel in de omvang die blijkt uit voormelde attesten. Artikel XI.50, § 6, tweede zin, is van toepassing.
@@ -25471,7 +25881,9 @@ Pagina 416 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-   Art. XI.55.[1 § 1. De houder van een octrooi kan er op elk moment geheel of gedeeltelijk afstand van doen door
+## Art. XI.55
+
+[1 § 1. De houder van een octrooi kan er op elk moment geheel of gedeeltelijk afstand van doen door
  een [2 schriftelijk en ondertekend verzoek]2 gericht aan de minister. [2 Het verzoek tot]2 van afstand wordt
  ingeschreven in het register.
    Het octrooi kan niet zodanig via een afstand worden gewijzigd dat het voorwerp ervan verder reikt dan de
@@ -25502,10 +25914,11 @@ Pagina 416 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wijze van betaling van de bijdrage die de Dienst kan innen.]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
-Pagina 417 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2019-05-02/28, art. 18, 077; Inwerkingtreding : 01-06-2019>
 
-   Art. XI.56.[1 § 1. De houder van een octrooi kan dit elk moment geheel of gedeeltelijk herroepen door een [2
+## Art. XI.56
+
+[1 § 1. De houder van een octrooi kan dit elk moment geheel of gedeeltelijk herroepen door een [2
  schriftelijk en ondertekend verzoek]2 gericht aan de minister onverminderd de burgerrechtelijke aansprakelijkheid
  van de aangever. [2 Het verzoek tot]2 herroeping is ingeschreven in het register.
    Als de herroeping wordt uitgevoerd in de loop van een gerechtelijke procedure met betrekking tot het octrooi,
@@ -25573,13 +25986,14 @@ Pagina 417 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beslissing tot nietigverklaring of vóór de inschrijving in het register van de vrijwillige herroeping van het octrooi;
   2° de vóór de beslissing van nietigverklaring van het octrooi of vóór de inschrijving van de herroeping in het
  register gesloten overeenkomsten, voor zover zij vóór deze beslissing zijn uitgevoerd; uit
-Pagina 418 van 764 Copyright Belgisch S taatsblad 16-04-2026
  billijkheidsoverwegingen kan echter terugbetaling worden geëist van op grond van deze overeenkomst betaalde
  bedragen voor zover dit door de omstandigheden gerechtvaardigd is.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.59.[1 § 1. Wanneer een octrooi geheel of gedeeltelijk nietig wordt verklaard, door een vonnis of een
+## Art. XI.59
+
+[1 § 1. Wanneer een octrooi geheel of gedeeltelijk nietig wordt verklaard, door een vonnis of een
  arrest of door een arbitrale beslissing, heeft deze beslissing tot nietigverklaring tegenover eenieder gezag van
  gewijsde onder voorbehoud van derdenverzet.
   De beslissingen tot nietigverklaring die in kracht van gewijsde zijn gegaan, worden in het register ingeschreven.
@@ -25630,7 +26044,9 @@ Pagina 418 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 5, 061; Inwerkingtreding : 01-12-2020>
 
-   Art. XI.62.[1 § 1. Onder voorbehoud van de in paragraaf 2, en de in paragraaf 3, eerste lid, voorziene
+## Art. XI.62
+
+[1 § 1. Onder voorbehoud van de in paragraaf 2, en de in paragraaf 3, eerste lid, voorziene
  bepalingen is niemand ertoe verplicht zich, inzake uitvindingsoctrooien, voor de Dienst te doen
  vertegenwoordigen.
    § 2. De natuurlijke personen en de rechtspersonen die inzake uitvindingsoctrooien voor de Dienst door de
@@ -25643,7 +26059,6 @@ Pagina 418 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° het indienen van een aanvraag ten behoeve van de toekenning van een datum van indiening;
    2° het betalen van een taks;
    3° het indienen van een afschrift van een eerdere aanvraag;
-Pagina 419 van 764 Copyright Belgisch S taatsblad 16-04-2026
   4° de afgifte van een bewijs van ontvangst of een kennisgeving door de Dienst ten aanzien van een procedure
  als bedoeld onder 1°, 2° en 3°.
   § 4. Jaartaksen kunnen door iedereen worden betaald.
@@ -25716,7 +26131,6 @@ Pagina 419 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 9, 061; Inwerkingtreding : 01-04-2024>
 
-Pagina 420 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.64/3
 
 [1 Elke persoon die onderdaan is van een lidstaat, die op wettige wijze is gevestigd in een lidstaat
@@ -25774,7 +26188,9 @@ Pagina 420 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 13, 061; Inwerkingtreding : 01-12-2020>
 
-  Art. XI.65.[3 § 1.]3 [1 Bij de Dienst wordt een register ingesteld waarin de erkende gemachtigden ingeschreven
+## Art. XI.65
+
+[3 § 1.]3 [1 Bij de Dienst wordt een register ingesteld waarin de erkende gemachtigden ingeschreven
  zijn welke, in de materies [2 bedoeld in de artikelen XI.62 en XI.63]2, de vertegenwoordiging van natuurlijke of
  rechtspersonen voor de Dienst verzekeren.
   De Koning bepaalt de vermeldingen die in het register voor erkende gemachtigden moeten worden opgenomen
@@ -25785,7 +26201,6 @@ Pagina 420 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gemachtigden, alsook de vermeldingen van het register die onderworpen zijn aan de inzage ten behoeve van het
  publiek.]3
 
-Pagina 421 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
   (2)<W 2019-05-02/28, art. 20, 077; Inwerkingtreding : 01-06-2019>
@@ -25793,7 +26208,9 @@ Pagina 421 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XI.65/1..
 
-   Art. XI.66.[1 § 1. Elke persoon die wenst ingeschreven te worden in het register van erkende gemachtigden
+## Art. XI.66
+
+[1 § 1. Elke persoon die wenst ingeschreven te worden in het register van erkende gemachtigden
  dient te voldoen aan de volgende voorwaarden:
     1° de hoedanigheid bezitten van natuurlijke persoon;
     2° onderdaan zijn van een lidstaat en gedomicilieerd zijn in een lidstaat;
@@ -25836,7 +26253,9 @@ Pagina 421 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 (Artikel XI.75/2 geworden).
 
-  Art. XI.69.[1 De aanvraag tot inschrijving in het register van erkende gemachtigden wordt aan de minister
+## Art. XI.69
+
+[1 De aanvraag tot inschrijving in het register van erkende gemachtigden wordt aan de minister
  gericht. Deze geeft ze voor advies door aan de [2 Commissie tot erkenning van de gemachtigden bedoeld in
  artikel XI.75/1]2. Het advies wordt samen met het dossier aan de minister overhandigd.
   Indien de aanvrager de gestelde voorwaarden vervult, doet de minister hem in het register van erkende
@@ -25858,7 +26277,6 @@ Pagina 421 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-Pagina 422 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.71
 
 [1 Elke in het register van erkende gemachtigden ingeschreven persoon kan de minister verzoeken
@@ -25866,7 +26284,9 @@ Pagina 422 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.72.[1 In het register van erkende gemachtigden wordt doorgehaald de naam van de persoon :
+## Art. XI.72
+
+[1 In het register van erkende gemachtigden wordt doorgehaald de naam van de persoon :
   1° die overleden is of zich in staat van onbekwaamheid bevindt zoals bedoeld bij artikel XI.75;
   2° die, ingeschreven in het register van erkende gemachtigden bij toepassing van artikel XI.69, de bij de [2
  artikel XI.66, § 1, eerste lid, 2° en 3°, ]2 vastgestelde voorwaarden niet meer vervult of zich niet meer kan
@@ -25891,7 +26311,9 @@ Pagina 422 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2018-07-08/06, art. 39, 061; Inwerkingtreding : 01-12-2020>
   (4)<W 2024-02-09/19, art. 33, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. XI.73.[1 De erkende gemachtigde, wiens inschrijving is doorgehaald, wordt op zijn verzoek opnieuw
+## Art. XI.73
+
+[1 De erkende gemachtigde, wiens inschrijving is doorgehaald, wordt op zijn verzoek opnieuw
  ingeschreven in het register van de erkende gemachtigden, in de volgende gevallen:
     1° de redenen voor de doorhaling [2 bedoeld in de artikelen XI.71 en XI.72, eerste lid, 1° tot 3°]2, bestaan niet
  meer;
@@ -25901,7 +26323,9 @@ Pagina 422 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<W 2018-07-08/06, art. 19, 061; Inwerkingtreding : 01-12-2020>
    (2)<W 2024-02-09/19, art. 34, 129; Inwerkingtreding : 31-03-2024>
 
-   Art. XI.74.[1 § 1. In de bij artikel XI.72 bepaalde gevallen, die vermeld in het eerste lid, 1° en 7°, van die bepaling
+## Art. XI.74
+
+[1 § 1. In de bij artikel XI.72 bepaalde gevallen, die vermeld in het eerste lid, 1° en 7°, van die bepaling
  uitgezonderd, wint de minister vooraf advies in van het Instituut voor Octrooigemachtigden, bedoeld in artikel
  XI.75/3, § 1.
     Wanneer op grond van artikel XI.73 om een nieuwe inschrijving wordt verzocht, wint de minister vooraf advies
@@ -25928,7 +26352,6 @@ Pagina 422 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 Wanneer een erkend gemachtigde overlijdt of in de onmogelijkheid verkeert zijn
  vertegenwoordigingsactiviteit uit te oefenen, kunnen de hem bij de Dienst toevertrouwde opdrachten gedurende
-Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zes maanden verder worden uitgevoerd door een ander erkende gemachtigde zonder dat deze zijn mandaat
  dient te bewijzen.]1
   ----------
@@ -25938,7 +26361,9 @@ Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 21, 061; Inwerkingtreding : 01-12-2020>
 
-  Art. XI.75/1.[2 oud art. XI.67]2 [1 Bij de FOD Economie wordt een Commissie ingesteld tot erkenning van de
+## Art. XI.75/1
+
+[2 oud art. XI.67]2 [1 Bij de FOD Economie wordt een Commissie ingesteld tot erkenning van de
  gemachtigden die toegelaten worden tot de vertegenwoordiging van natuurlijke en rechtspersonen voor de
  Dienst in de materies vermeld in artikel XI.62.
   De Commissie heeft tot opdracht :
@@ -25954,7 +26379,9 @@ Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
   (2)<W 2018-07-08/06, art. 15, 061; Inwerkingtreding : 01-12-2020>
 
-  Art. XI.75/2.[2 Oud art. XI.68.]2 [1 De Commissie bestaat uit twee afdelingen. De ene behandelt de zaken in de
+## Art. XI.75/2
+
+[2 Oud art. XI.68.]2 [1 De Commissie bestaat uit twee afdelingen. De ene behandelt de zaken in de
  Nederlandse taal, de andere de zaken in de Franse [2 en de Duitse]2 taal.
   De Koning bepaalt de samenstelling en de werkwijze van de Commissie. Hij bepaalt de voorwaarden voor het bij
  [2 artikel XI.66, § 2, eerste lid, 3°]2, bedoelde examen. Een lid van de Franse afdeling moet een voldoende kennis
@@ -25968,7 +26395,9 @@ Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 22, 061; Inwerkingtreding : 01-12-2020>
 
-  Art. XI.75/3.[1 § 1. Er wordt een Instituut voor Octrooigemachtigden opgericht. Het Instituut bezit
+## Art. XI.75/3
+
+[1 § 1. Er wordt een Instituut voor Octrooigemachtigden opgericht. Het Instituut bezit
  rechtspersoonlijkheid. [2 ...]2 De zetel van het Instituut is gevestigd in het Brusselse Hoofdstedelijke Gewest.
    § 2. Het Instituut stelt zich exclusief de studie, de bescherming en de ontwikkeling van de professionele, socioeconomische, morele en wetenschappelijke belangen van de octrooigemachtigden tot doel.
    § 3. De organen van het Instituut zijn:
@@ -25979,7 +26408,9 @@ Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-07-08/06, art. 23, 061; Inwerkingtreding : 01-12-2020>
   (2)<W 2022-09-25/06, art. 12, 119; Inwerkingtreding : 01-01-2024>
 
-   Art. XI.75/4.[2 § 1.]2 [1 Het Instituut voor Octrooigemachtigden heeft tot taak:
+## Art. XI.75/4
+
+[2 § 1.]2 [1 Het Instituut voor Octrooigemachtigden heeft tot taak:
     1° de lijst van zijn leden op te stellen;
     2° een permanente vorming van zijn leden te coördineren;
     3° te waken over de naleving van het tuchtreglement en de gedragsregels;
@@ -25991,7 +26422,6 @@ Pagina 423 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verwerkingsverantwoordelijke, is de goede interne werking, de bewaking van de toegang tot en de uitoefening
  van het beroep van octrooigemachtigde, met inbegrip van het goede verloop van de tuchtprocedures, de
  samenwerking tussen bevoegde autoriteiten in België of in andere landen, het beheer van het lidmaatschap, de
-Pagina 424 van 764 Copyright Belgisch S taatsblad 16-04-2026
  coördinatie van permanente vorming en het verlenen van adviezen en informatie over materies die tot zijn
  bevoegdheid behoren.
    Het Instituut verwerkt de volgende categorieën van persoonsgegevens:
@@ -26033,7 +26463,9 @@ Pagina 424 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-07-08/06, art. 25, 061; Inwerkingtreding : 01-12-2020 en 01-04-2024 voor § 1, L2; §
  3, 3°>
 
-   Art. XI.75/6.[1 § 1. De algemene vergadering van het Instituut voor Octrooigemachtigden bestaat uit alle leden
+## Art. XI.75/6
+
+[1 § 1. De algemene vergadering van het Instituut voor Octrooigemachtigden bestaat uit alle leden
  van het Instituut.
     De algemene vergadering kiest uit haar leden een voorzitter en een ondervoorzitter [2 ...]2. Deze personen
  dienen aan de volgende voorwaarden te voldoen:
@@ -26060,7 +26492,6 @@ Pagina 424 van 764 Copyright Belgisch S taatsblad 16-04-2026
     10° het reglement houdende de organisatie van een permanente vorming van haar leden of wijzigingen
  daarvan op te stellen om nadien ter goedkeuring aan de minister voor te leggen;
     11° te beraadslagen over alle onderwerpen waarvoor een wet, een besluit of een reglement haar bevoegdheid
-Pagina 425 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verlenen;
     12° berichten, voorstellen of aanbevelingen te richten aan de raad over alle onderwerpen die het Instituut
  aanbelangen en die de algemene vergadering regelmatig zijn voorgelegd.
@@ -26089,7 +26520,9 @@ Pagina 425 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2018-07-08/06, art. 26, 061; Inwerkingtreding : 01-12-2020 en 01-04-2024 voor § 3, L2>
    (2)<W 2023-11-05/07, art. 26, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XI.75/7.[1 § 1. De raad van het Instituut voor Octrooigemachtigden bestaat uit vier leden, die door de
+## Art. XI.75/7
+
+[1 § 1. De raad van het Instituut voor Octrooigemachtigden bestaat uit vier leden, die door de
  algemene vergadering uit haar leden worden verkozen [3 ...]3. Twee leden van de raad dienen tot een andere
  taalgroep te behoren.
     De raad kiest uit zijn leden een voorzitter en een ondervoorzitter. Deze personen dienen aan de volgende
@@ -26128,13 +26561,14 @@ Pagina 425 van 764 Copyright Belgisch S taatsblad 16-04-2026
     2° de procedureregels voor de vergaderingen van de raad, waarbij de regeringscommissaris, bedoeld in artikel
  XI.75/10, steeds de raad kan bijeenroepen.]1
    ----------
-Pagina 426 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-07-08/06, art. 27, 061; Inwerkingtreding : 01-12-2020, en 01-04-2024 voor §2, L1,
  5°>
   (2)<W 2022-09-25/06, art. 14, 119; Inwerkingtreding : 01-12-2022>
   (3)<W 2023-11-05/07, art. 27, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XI.75/8.[1 § 1. De tuchtcommissie van het Instituut voor Octrooigemachtigden bestaat uit vier leden,
+## Art. XI.75/8
+
+[1 § 1. De tuchtcommissie van het Instituut voor Octrooigemachtigden bestaat uit vier leden,
  inclusief de voorzitter. Behoudens de voorzitter, worden zij door de algemene vergadering uit haar leden
  verkozen [3 ...]3. Behoudens voor de voorzitter, verkiest de algemene vergadering uit haar leden voor elk
  effectief lid van de tuchtcommissie een plaatsvervanger [3 ...]3.
@@ -26198,7 +26632,6 @@ Pagina 426 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vergadering worden vastgesteld, is elk van de functies bedoeld in paragraaf 1 onbezoldigd.
     De Koning bepaalt of het presentiegeld en de functievergoeding bedoeld in het eerste lid kunnen worden
 
-Pagina 427 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toegekend. Indien Hij deze toekenning toestaat, kan de Koning het maximum bepalen van de bedragen bedoeld
  in het eerste lid.]1
    ----------
@@ -26220,7 +26653,9 @@ Pagina 427 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-09-25/06, art. 16, 119; Inwerkingtreding : 01-01-2024>
 
-   Art. XI.75/10.[1 § 1. Een regeringscommissaris, bijgestaan door een plaatsvervanger, oefent toezicht uit op de
+## Art. XI.75/10
+
+[1 § 1. Een regeringscommissaris, bijgestaan door een plaatsvervanger, oefent toezicht uit op de
  handelingen gesteld door de algemene vergadering en door de raad van het Instituut voor Octrooigemachtigden.
     De regeringscommissaris en zijn plaatsvervanger worden door de Koning benoemd, op voordracht van de
  minister, overeenkomstig de voorwaarden door de Koning bepaald.
@@ -26250,7 +26685,9 @@ Pagina 427 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 31, 061; Inwerkingtreding : 01-12-2020>
 
-  Art. XI.75/11.[1 § 1. Elk lid van het Instituut voor Octrooigemachtigden dient het tuchtreglement, de
+## Art. XI.75/11
+
+[1 § 1. Elk lid van het Instituut voor Octrooigemachtigden dient het tuchtreglement, de
  gedragsregels, het reglement houdende de organisatie van een permanente vorming, en het huishoudelijk
  reglement na te leven.
   [2 De leden bedoeld in artikel XI.75/5, § 1, tweede lid, vallen slechts onder de regels vervat in de reglementen
@@ -26263,7 +26700,6 @@ Pagina 427 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van octrooigemachtigde kan voortvloeien, gedekt te zijn door een verzekering.
    De Koning bepaalt de regels en de voorwaarden van deze verzekering, en bepaalt minstens:
    1° het minimum te waarborgen grensbedrag;
-Pagina 428 van 764 Copyright Belgisch S taatsblad 16-04-2026
     2° de uitwerking in de tijd van de waarborg;
     3° de risico's die dienen te worden gedekt.
     Bij het bepalen van de regels en voorwaarden van de verzekering houdt de Koning rekening met een adequate
@@ -26312,11 +26748,15 @@ Pagina 428 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 34, 061; Inwerkingtreding : 01-04-2024>
 
-  Art. XI.76.Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
+## Art. XI.76
+
+Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-   Art. XI.77.[1 § 1. Wanneer een aanvrager of een houder van een octrooi een termijn voor een handeling in een
+## Art. XI.77
+
+[1 § 1. Wanneer een aanvrager of een houder van een octrooi een termijn voor een handeling in een
  procedure voor de Dienst niet in acht heeft genomen, en dit verzuim het verlies van rechten ten aanzien van een
  aanvraag of octrooi tot rechtstreeks gevolg heeft, worden de rechten van de aanvrager of de houder ten
  aanzien van de desbetreffende aanvraag of het desbetreffende octrooi door de Dienst hersteld indien :
@@ -26333,7 +26773,6 @@ Pagina 428 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 Het verzoek tot herstel wordt pas behandeld nadat de voorgeschreven taks met betrekking tot dit verzoek is
  betaald. De betaling van deze taks wordt uitgevoerd binnen twee maanden na de indiening van het verzoek. Bij
  het niet in acht nemen van deze termijn is het verzoek tot herstel van rechtswege zonder gevolg.]2
-Pagina 429 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Een verzoekschrift uit hoofde van paragraaf 1 kan niet geheel of ten dele worden geweigerd zonder dat de
  verzoekende partij in de gelegenheid wordt gesteld binnen een door de Koning bepaalde termijn commentaar te
  leveren op de voorgenomen weigering.
@@ -26409,7 +26848,6 @@ Pagina 429 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.80/1
 
 [1 § 1. Behalve de verplichting een register en een Verzameling in de zin van artikel XI.27 te
-Pagina 430 van 764 Copyright Belgisch S taatsblad 16-04-2026
  houden, heeft de Dienst de taak om alle gegevens te verzamelen en in een elektronische databank op te slaan die
  worden verstrekt in het kader van de aan hem toevertrouwde opdrachten van algemeen belang betreffende de
  intellectuele eigendom.
@@ -26479,7 +26917,6 @@ Pagina 430 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rechten van derden;
    4° het beheer van de procedures in verband met de vertegenwoordiging voor de Dienst;
    5° het promoten van de intellectuele eigendom en de sensibilisering daarrond;
-Pagina 431 van 764 Copyright Belgisch S taatsblad 16-04-2026
    6° het opstellen van rapporten en statistieken aan de hand waarvan de Dienst zijn activiteiten kan optimaliseren
  en de werking van het systeem van intellectuele eigendom kan verbeteren.]1
   ----------
@@ -26497,7 +26934,9 @@ Pagina 431 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-   Art. XI.82.[1 § 1. [3 De octrooiaanvraag, verricht volgens de bepalingen van het Europees Octrooiverdrag,
+## Art. XI.82
+
+[1 § 1. [3 De octrooiaanvraag, verricht volgens de bepalingen van het Europees Octrooiverdrag,
  wordt ingediend bij het Europees Octrooibureau.]3
    § 2. [3 In afwijking van paragraaf 1 wordt de octrooiaanvraag, verricht volgens de bepalingen van het Europees
  Octrooiverdrag, door personen die de Belgische nationaliteit bezitten of hun woonplaats of hun zetel in België
@@ -26513,7 +26952,9 @@ Pagina 431 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2016-06-29/01, art. 21, 036; Inwerkingtreding : 01-04-2018>
    (3)<W 2022-09-25/06, art. 21, 119; Inwerkingtreding : 01-12-2022>
 
-  Art. XI.83.[1 § 1. Het Europees octrooi zonder eenheidswerking, zoals verleend naar aanleiding van een
+## Art. XI.83
+
+[1 § 1. Het Europees octrooi zonder eenheidswerking, zoals verleend naar aanleiding van een
  aanvraag waarin België wordt aangewezen, of zoals in stand gehouden in gewijzigde of beperkte vorm door het
  Europees Octrooibureau, verleent aan de houder ervan, onafhankelijk van de officiële taal van het Europees
  Octrooibureau waarin het octrooi wordt verleend, en in voorkomend geval in stand gehouden, dezelfde rechten
@@ -26537,7 +26978,9 @@ Pagina 431 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-06-29/01, art. 22, 036; Inwerkingtreding : 01-01-2017. Overgangsbepalingen : art.94>
 
-  Art. XI.83/1.[1 § 1. Als het verzoek om eenheidswerking van een Europees octrooi als bedoeld in artikel 9, § 1,
+## Art. XI.83/1
+
+[1 § 1. Als het verzoek om eenheidswerking van een Europees octrooi als bedoeld in artikel 9, § 1,
  g), van Verordening 1257/2012 werd verworpen en de betalingstermijn van de eerste jaartaks verschuldigd na
  de publicatie van de vermelding van de verlening van het Europese octrooi waarin België wordt aangewezen,
  berekend volgens artikel XI.48, verstreken is, dan beschikt de houder van het octrooi over een termijn van twee
@@ -26548,7 +26991,6 @@ Pagina 431 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het Europese Octrooiblad.
    In het verzoekschrift wordt aangegeven:
 
-Pagina 432 van 764 Copyright Belgisch S taatsblad 16-04-2026
     1° dat het verzoek om eenheidswerking bedoeld in het eerste lid werd ingediend binnen de termijn voorzien in
  regel 6(1) van de uitvoeringsverordening betreffende de Verordening (EU) nr. 1257/2012 van het Europees
  Parlement en de Raad van 17 december 2012 tot het uitvoering geven aan nauwere samenwerking op het
@@ -26612,7 +27054,9 @@ Pagina 432 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-   Art. XI.86.[1 § 1. Voor zover een Belgisch octrooi betrekking heeft op een uitvinding waarvoor een Europees
+## Art. XI.86
+
+[1 § 1. Voor zover een Belgisch octrooi betrekking heeft op een uitvinding waarvoor een Europees
  octrooi is verleend aan dezelfde uitvinder of aan zijn rechtverkrijgende met dezelfde aanvraagdatum of, indien
  voorrang is ingeroepen, met dezelfde voorrangsdatum, heeft het Belgisch octrooi voor zover het dezelfde
  uitvinding als het Europees octrooi beschermt geen rechtsgevolgen meer vanaf hetzij de datum waarop de voor
@@ -26620,7 +27064,6 @@ Pagina 432 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ingesteld hetzij de datum waarop de oppositieprocedure is afgesloten waarbij het Europees octrooi is in stand
  gehouden.
    Het beëindigen of de nietigverklaring van het Europees octrooi op een later tijdstip laat de bepalingen van dit
-Pagina 433 van 764 Copyright Belgisch S taatsblad 16-04-2026
  artikel onverlet.
    § 2. De [2 ondernemingsrechtbank]2 van Brussel stelt vast dat het Belgisch octrooi opgehouden heeft geheel of
  gedeeltelijk rechtsgevolgen te hebben in de voorwaarden bepaald in paragraaf 1.
@@ -26659,7 +27102,9 @@ Pagina 433 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.90.[1 De Koning neemt de maatregelen die nodig zijn voor de uitvoering van de bepalingen die
+## Art. XI.90
+
+[1 De Koning neemt de maatregelen die nodig zijn voor de uitvoering van de bepalingen die
  voortvloeien uit Verordening 1257/2012 van 17 december 2012 van het Europees Parlement en de Raad tot het
  uitvoering geven aan een nauwere samenwerking op het gebied van de instelling van
  eenheidsoctrooibescherming, Verordening 1260/2012 van 17 december 2012 van de Raad tot het uitvoering
@@ -26695,7 +27140,6 @@ Pagina 433 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 36, 061; Inwerkingtreding : 01-04-2024>
 
-Pagina 434 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.90/2
 
 [1 Tenzij er specifieke bepalingen gelden, zijn de bepalingen die gelden voor de Belgische octrooien
@@ -26735,7 +27179,9 @@ Pagina 434 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.92.[1 § 1. De aanvraag van een aanvullende beschermingscertificaat, hierna "certificaat" genoemd, en de
+## Art. XI.92
+
+[1 § 1. De aanvraag van een aanvullende beschermingscertificaat, hierna "certificaat" genoemd, en de
  aanvraag voor verlenging van de duur worden bij de Dienst ingediend.
   § 2. [2 De aanvraag van een certificaat en de aanvraag voor verlenging van de duur moeten voldoen aan de in
  de huidige titel en door de Koning vastgestelde voorwaarden en vormen.]2
@@ -26766,7 +27212,6 @@ Pagina 434 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zoals deze aanvankelijk werd ingediend, is de datum van indiening, onder voorbehoud van de in tweede lid
  bepaalde bepalingen, de datum waarop aan alle in paragraaf 1 bepaalde voorwaarden wordt voldaan.
   Wanneer aan één of meer van de voorwaarden bedoeld in het eerste lid niet binnen de door de Dienst
-Pagina 435 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vastgelegde termijn wordt voldaan, wordt de aanvraag geacht niet te zijn ingediend. Wanneer de aanvraag
  geacht wordt niet te zijn ingediend, geeft de Dienst de aanvrager, met opgaaf van de redenen, daarvan kennis.
   § 4. Wanneer aan alle in paragraaf 1 bedoelde voorwaarden wordt voldaan, deelt de Dienst aan de aanvrager de
@@ -26824,7 +27269,9 @@ Pagina 435 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.97.[1 De verlening van de certificaten vindt plaats zonder onderzoek van de in respectievelijk artikel 3, c
+## Art. XI.97
+
+[1 De verlening van de certificaten vindt plaats zonder onderzoek van de in respectievelijk artikel 3, c
  en d, van de verordening 469/2009 voor de geneesmiddelen, en artikel 3, § 1, c en d, van de verordening
  1610/1996 voor de gewasbeschermingsmiddelen, vastgestelde voorwaarden.]1
   [2 De Dienst kan echter wel de in het eerste lid bedoelde voorwaarden onderzoeken, als hij tijdens het
@@ -26839,7 +27286,6 @@ Pagina 435 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [1 De verlening van de certificaten vindt plaats zonder onderzoek van de in respectievelijk artikel 3, c en d, van
  de verordening 469/2009 voor de geneesmiddelen, en artikel 3, § 1, c en d, van de verordening 1610/1996 voor
 
-Pagina 436 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de gewasbeschermingsmiddelen, vastgestelde voorwaarden.]1
   [2 De Dienst kan echter wel de in het eerste lid bedoelde voorwaarden onderzoeken, als hij tijdens het
  onderzoek van de certificaataanvraag kennis krijgt van informatie betreffende die voorwaarden, die een
@@ -26906,13 +27352,14 @@ Pagina 436 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Art. XI.102.[1 § 1. Wanneer een aanvrager van een certificaat of van een verlenging van de duur of een houder
+## Art. XI.102
+
+[1 § 1. Wanneer een aanvrager van een certificaat of van een verlenging van de duur of een houder
  van een certificaat een termijn voor een handeling in een procedure voor de Dienst niet in acht heeft genomen,
  en dit verzuim het verlies van rechten ten aanzien van een certificaat of van de aanvraag van een certificaat of
  voor verlenging van de duur tot rechtstreeks gevolg heeft, worden de rechten van de aanvrager of de houder
  ten aanzien van het desbetreffende certificaat of de desbetreffende aanvraag van een certificaat of voor de
  verlenging van de duur door de Dienst hersteld indien :
-Pagina 437 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° een verzoek daartoe bij de Dienst wordt gedaan overeenkomstig de door de Koning gestelde voorwaarden
  en binnen de door de Koning bepaalde termijn;
    2° de niet-gestelde handeling wordt verricht binnen de in 1° vermelde termijn voor de indiening van het verzoek;
@@ -26987,7 +27434,6 @@ Pagina 437 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Het bestaan van een ander ras wordt met name als algemeen bekend beschouwd, indien op de datum van
  indiening van de aanvraag zoals bepaald in artikel XI.133, of in voorkomend geval, op de voorrangsdatum zoals
  bepaald in artikel XI.134 :
-Pagina 438 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° dat andere ras al het voorwerp van een kwekersrecht uitmaakt, of het ras in een officieel rassenregister is
  opgenomen in enige Staat of in een intergouvernementele organisatie die op dit gebied bevoegd is;
   2° voor dat andere ras al een aanvraag voor het verlenen van een kwekersrecht of tot opneming ervan in een
@@ -27065,7 +27511,6 @@ Pagina 438 van 764 Copyright Belgisch S taatsblad 16-04-2026
  heeft ontdekt en ontwikkeld, of aan zijn rechthebbende of rechtverkrijgende, die hierna "de kweker" wordt
  genoemd.
   § 2. Indien het nieuwe ras door twee of meer personen werd gekweekt, of werd ontdekt en ontwikkeld, komt
-Pagina 439 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het recht gezamenlijk toe aan deze personen of hun respectievelijke rechthebbenden of rechtverkrijgenden,
  tenzij anders is overeengekomen.
   § 3. Indien het nieuwe ras door een werknemer in de uitoefening van zijn arbeidscontract werd gekweekt, of
@@ -27140,7 +27585,6 @@ Pagina 439 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vermeerderingsdoeleinden op hun eigen bedrijf, het product te gebruiken van de oogst die zij hebben verkregen
  door aanplanting op hun eigen bedrijf van teeltmateriaal van een beschermd ras of een ras dat valt onder artikel
  XI.114.
-Pagina 440 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. De voorwaarden die uitvoering geven aan de in paragraaf 1 bedoelde afwijking, en die de rechtmatige
  belangen van de kweker en van de landbouwer beschermen, worden door de Koning vastgesteld.]1
   ----------
@@ -27218,8 +27662,9 @@ Pagina 440 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 441 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XI.121.[1 § 1. De houder kan afstand doen van het kwekersrecht door een [2 schriftelijk en ondertekend
+## Art. XI.121
+
+[1 § 1. De houder kan afstand doen van het kwekersrecht door een [2 schriftelijk en ondertekend
  verzoek]2 te sturen aan de Dienst.
    § 2. De afstand heeft het eind van het kwekersrecht tot gevolg op de datum van ontvangst door de Dienst van
  [ het in paragraaf 1 bedoelde verzoek]2 en behoudens zijn inschrijving in het in artikel XI.152 bedoelde register,
@@ -27291,7 +27736,6 @@ Pagina 441 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bekendgemaakt.
   § 5. De overdracht heeft alleen uitwerking jegens de Dienst en kan alleen tegengeworpen worden aan derden
  vanaf de datum van ontvangst door de Dienst van de bewijsstukken zoals die door de Koning vereist zijn en
-Pagina 442 van 764 Copyright Belgisch S taatsblad 16-04-2026
  behoudens de inschrijving ervan in het register. Voordat een overdracht in het register is ingeschreven, kan zij
  evenwel tegengeworpen worden aan derden die na de datum van de overdracht rechten hebben verworven
  maar die daarvan kennis hadden toen zij deze rechten verwierven.]1
@@ -27364,7 +27808,6 @@ Pagina 442 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zetelend zoals in kortgeding. De gerechtelijke beslissing is niet vatbaar voor hoger beroep of verzet.
    Het niet in acht nemen van de termijn voorzien in de twee voorgaande leden sluit het recht uit van de houder
  van het heersende kwekersrecht om zijn betwisting te doen gelden voor de rechtbank.
-Pagina 443 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 5. Binnen vier maanden na de mededeling van de beslissing wordt door de houder van het kwekersrecht en
  de licentiehouder een schriftelijke overeenkomst aangaande de wederzijdse rechten en verplichtingen afgesloten.
  De minister wordt hiervan in kennis gesteld.
@@ -27427,7 +27870,9 @@ Pagina 443 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.128.[1 § 1. Bij de in artikel XI.127, § 1, bedoelde Federale Overheidsdienst wordt een Commissie voor de
+## Art. XI.128
+
+[1 § 1. Bij de in artikel XI.127, § 1, bedoelde Federale Overheidsdienst wordt een Commissie voor de
  gedwongen licenties ingesteld, hierna de Commissie genoemd, die belast is met het uitvoeren van de taken die
  haar krachtens artikel XI.126 werden toebedeeld.
   De Commissie bestaat uit tien leden benoemd door de minister.
@@ -27435,7 +27880,6 @@ Pagina 443 van 764 Copyright Belgisch S taatsblad 16-04-2026
   - van de nijverheid en de handel,
   - van de landbouw,
   - van de kleine en middelgrote ondernemingen, en
-Pagina 444 van 764 Copyright Belgisch S taatsblad 16-04-2026
    - van de consumenten.
    De in vorige alinea bedoelde organisaties worden door de minister aangewezen.
    Twee leden worden onder de leden van de in artikel XI.127 bedoelde Raad aangewezen. Zij blijven lid van de
@@ -27504,7 +27948,6 @@ Pagina 444 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 1. - [1 Partijen in de procedure en gemachtigden]1
   ----------
-Pagina 445 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 ## Art. XI.129
@@ -27584,7 +28027,6 @@ Pagina 445 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de datum van indiening van de eerste aanvraag zal worden beschouwd als datum van indiening voor het
  Belgische kwekersrecht.
   § 4. Elk beroep op een recht van voorrang vervalt indien de aanvrager niet binnen de drie maanden na de
-Pagina 446 van 764 Copyright Belgisch S taatsblad 16-04-2026
  datum van indiening een afschrift van de eerste aanvraag aan de Dienst voorlegt. Als de eerste aanvraag niet in
  het Frans, in het Nederlands of in het Duits is opgesteld, kan de Dienst bovendien een vertaling van die eerste
  aanvraag in een van die talen eisen.]1
@@ -27658,7 +28100,6 @@ Pagina 446 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vereiste materiaal en elk ander vereist stuk over te leggen. Indien de eerste aanvraag vóór het verstrijken van de
  termijn van twee jaar wordt ingetrokken of afgewezen, kan de Dienst eisen dat de aanvrager binnen een
  bepaalde termijn het materiaal of elk ander vereist stuk overlegt.]1
-Pagina 447 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -27736,7 +28177,6 @@ Pagina 447 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 448 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.143
 
 [1 § 1. Wanneer een kwekersrecht wordt verleend, keurt de Dienst voor het betrokken ras de door
@@ -27814,12 +28254,13 @@ Pagina 448 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 449 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 6. - [1 Overige procedurevoorschriften]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.148.[1 § 1. Wanneer ondanks de in bijzondere omstandigheden betrachte zorg, de aanvrager van een
+## Art. XI.148
+
+[1 § 1. Wanneer ondanks de in bijzondere omstandigheden betrachte zorg, de aanvrager van een
  kwekersrecht, de houder of iedere andere partij in een procedure voor de Dienst, niet in staat is geweest
  tegenover de Dienst een termijn in acht te nemen, kan hij op verzoek in zijn rechten hersteld worden indien de
  verhindering ingevolge deze wet rechtstreeks het verlies van een recht of van een rechtsmiddel tot gevolg gehad
@@ -27882,11 +28323,12 @@ Pagina 449 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.151.[1 § 1. Met het oog op de instandhouding van het kwekersrecht, rekent de Dienst jaartaksen aan
+## Art. XI.151
+
+[1 § 1. Met het oog op de instandhouding van het kwekersrecht, rekent de Dienst jaartaksen aan
  gedurende de duur van het recht.
   § 2. De jaartaks is vooraf te betalen. De betaling vervalt op de laatste dag van de maand van de verjaardag van
 
-Pagina 450 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de verlening van het kwekersrecht. [2 De jaartaks kan niet geldig worden gekweten meer dan zes maanden vóór
  de vervaldatum.]2
   De jaartaks voor het eerste jaar wordt betaald vóór het einde van de maand volgend op de maand waarin het
@@ -27956,7 +28398,6 @@ Pagina 450 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het ras met de beschrijvingen van andere rassen van het betrokken taxon te kunnen vergelijken.]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
-Pagina 451 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.153
 
 [1 § 1. Het in artikel XI.152 genoemde register ligt ter inzage van het publiek, in de kantoren van de
@@ -28034,7 +28475,6 @@ Pagina 451 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 452 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 2. - [1 Opeising van het kwekersrecht en identificatie van een ras]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -28113,7 +28553,6 @@ Pagina 452 van 764 Copyright Belgisch S taatsblad 16-04-2026
  der stukken, die overgelegd worden met het oog op de tenuitvoerlegging in België van beslissingen tot
  vaststelling van de kosten van het Bureau voor Intellectuele Eigendom van de Europese Unie die een uitvoerbare
  titel uitmaken en genomen zijn op grond van Verordening (EG) nr. 6/2002 van de Raad van 12 december 2001
-Pagina 453 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betreffende Gemeenschapsmodellen, of op grond van Verordening (EU) 2017/1001 van het Europees Parlement
  en de Raad van 14 juni 2017 inzake het Uniemerk.
    De minister bevoegd voor Buitenlandse Zaken kan zijn bevoegdheid overdragen aan een ambtenaar, die
@@ -28132,7 +28571,9 @@ Pagina 453 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.164.[1 Deze titel voorziet in de omzetting van volgende richtlijnen :
+## Art. XI.164
+
+[1 Deze titel voorziet in de omzetting van volgende richtlijnen :
     1° richtlijn 93/83/EEG van de Raad van 27 september 1993 tot coördinatie van bepaalde voorschriften
  betreffende het auteursrecht en naburige rechten op het gebied van de satellietomroep en de doorgifte via de
  kabel;
@@ -28181,7 +28622,6 @@ Pagina 453 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 § 1. Alleen de auteur van een werk van letterkunde of kunst heeft het recht om het op welke
  wijze of in welke vorm ook, direct of indirect, tijdelijk of duurzaam, volledig of gedeeltelijk te reproduceren of te
-Pagina 454 van 764 Copyright Belgisch S taatsblad 16-04-2026
  laten reproduceren.
    Dat recht omvat onder meer het exclusieve recht om toestemming te geven tot het bewerken of het vertalen
  van het werk.
@@ -28245,14 +28685,15 @@ Pagina 454 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.167.[1 § 1. De vermogensrechten zijn roerende rechten die overgaan bij erfopvolging en vatbaar zijn
+## Art. XI.167
+
+[1 § 1. De vermogensrechten zijn roerende rechten die overgaan bij erfopvolging en vatbaar zijn
  voor gehele of gedeeltelijke overdracht, volgens de bepalingen van het Burgerlijk Wetboek. Zij kunnen onder
  meer worden [2 overgedragen]2 of in een gewone of exclusieve licentie worden ondergebracht.
   Ten aanzien van de auteur worden alle contracten schriftelijk bewezen.
   De contractuele bedingen met betrekking tot het auteursrecht en de exploitatiewijzen ervan moeten restrictief
  worden geïnterpreteerd. De overdracht van het voorwerp dat een werk omvat, leidt niet tot het recht om het
  werk te exploiteren; met het oog op de uitoefening van zijn vermogensrechten moet de auteur op een redelijke
-Pagina 455 van 764 Copyright Belgisch S taatsblad 16-04-2026
  manier toegang tot zijn werk behouden.
    Voor elke exploitatiewijze moeten de vergoeding voor de auteur, de reikwijdte en de duur van de overdracht [2
  of de licentie]2 uitdrukkelijk worden bepaald.
@@ -28323,7 +28764,6 @@ Pagina 455 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Bij gebrek aan toepasselijke collectieve overeenkomst, zoals bepaald in artikel XI.167/5, die
  voorziet in een mechanisme dat vergelijkbaar is met het in dit artikel bedoelde mechanisme, kan de auteur, of zijn
  vertegenwoordiger, van de persoon aan wie de rechten werden overgedragen of van de licentienemer, in het
-Pagina 456 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kader van een exploitatieovereenkomst, een aanvullende, passende en billijke vergoeding vorderen wanneer de
  oorspronkelijk overeengekomen vergoeding onevenredig laag blijkt te zijn in vergelijking met alle relevante
  daaropvolgende inkomsten die voortvloeien uit de exploitatie van het werk.]1
@@ -28392,8 +28832,9 @@ Pagina 456 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 10, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.168.[1 Wanneer het auteursrecht onverdeeld is [2 , en onverminderd artikel XI.245/1, § 2,]2 wordt de
-Pagina 457 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XI.168
+
+[1 Wanneer het auteursrecht onverdeeld is [2 , en onverminderd artikel XI.245/1, § 2,]2 wordt de
  uitoefening ervan bij overeenkomst geregeld. Bij gebreke van een overeenkomst mag geen van de auteurs het
  recht afzonderlijk uitoefenen, behoudens rechterlijke beslissing in geval van onenigheid.
   Iedere auteur blijft echter vrij om, in zijn naam en zonder tussenkomst van de andere auteurs, wegens inbreuk
@@ -28472,7 +28913,6 @@ Pagina 457 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De auteur of de eigenaar van een portret dan wel enige andere persoon die een portret bezit of
  voorhanden heeft, heeft niet het recht het te reproduceren of aan het publiek mede te delen zonder
-Pagina 458 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toestemming van de geportretteerde of, gedurende twintig jaar na diens overlijden, zonder toestemming van zijn
  rechtverkrijgenden.]1
   ----------
@@ -28517,7 +28957,9 @@ Pagina 458 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.177.[1 § 1. Het volgrecht kan ten aanzien van derden uitsluitend door het in § 2 bepaalde uniek platform
+## Art. XI.177
+
+[1 § 1. Het volgrecht kan ten aanzien van derden uitsluitend door het in § 2 bepaalde uniek platform
  worden uitgeoefend.
   Indien de auteur het beheer van zijn rechten niet aan een [2 beheersvennootschap of een collectieve
  beheerorganisatie]2 heeft opgedragen, wordt het uniek platform geacht met het beheer van zijn rechten te zijn
@@ -28532,7 +28974,9 @@ Pagina 458 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2017-06-08/13, art. 4, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.178.[1 § 1. Voor de doorverkopen die plaatsvinden in het kader van een openbare veiling zijn de actoren
+## Art. XI.178
+
+[1 § 1. Voor de doorverkopen die plaatsvinden in het kader van een openbare veiling zijn de actoren
  uit de professionele kunsthandel die bij de doorverkoop betrokken zijn als verkoper, koper, of tussenpersoon, de
  openbare ambtenaar, en de verkoper hoofdelijk verplicht, het uniek platform binnen een maand na de verkoop in
  kennis te stellen van die verkoop. Zij zijn tevens hoofdelijk verplicht de verschuldigde rechten binnen een termijn
@@ -28544,7 +28988,6 @@ Pagina 458 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kennis te stellen van die verkoop. Zij zijn tevens hoofdelijk verplicht de verschuldigde rechten binnen een termijn
  van twee maanden na de kennisgeving te betalen via het uniek platform.
 
-Pagina 459 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De kennisgevingen van de doorverkopen bepaald in het eerste en tweede lid gebeuren vanaf 1 januari 2015 op
  elektronische wijze bij het uniek platform door middel van een systeem dat aan de door de Koning bepaalde
  voorwaarden voldoet. De Koning kan de in de vorige zin bepaalde datum aanpassen.
@@ -28614,16 +29057,19 @@ Pagina 459 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.183.[1 § 1. Behoudens wat betreft de audiovisuele werken die tot de niet-culturele sector of tot de
+## Art. XI.183
+
+[1 § 1. Behoudens wat betreft de audiovisuele werken die tot de niet-culturele sector of tot de
  reclamewereld behoren, hebben de auteurs van het audiovisuele werk, voor elke wijze van exploitatie recht op
  een afzonderlijke vergoeding.
   § 2. [2 ...]2]1
   ----------
-Pagina 460 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2022-06-19/03, art. 11, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.184.[1 Het verlenen van het recht om van een bestaand werk een audiovisuele bewerking te maken,
+## Art. XI.184
+
+[1 Het verlenen van het recht om van een bestaand werk een audiovisuele bewerking te maken,
  moet geregeld worden in een afzonderlijk contract, los van het uitgavecontract betreffende het werk.
   [2 Het verlenen van het recht om het werk te adapteren in een andere vorm dan een bestaand audiovisueel
  werk, moet geregeld worden in een afzonderlijk contract, los van het contract betreffende het audiovisuele
@@ -28695,7 +29141,6 @@ Pagina 460 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toegang te krijgen tot en normaal gebruik te maken van de inhoud van de databank.
   Voor zover de rechtmatige gebruiker slechts toestemming heeft om een deel van de databank te gebruiken,
  geldt het eerste lid ook alleen voor dat deel.
-Pagina 461 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De bepalingen van het eerste en tweede lid zijn van dwingend recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -28708,7 +29153,9 @@ Pagina 461 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 3, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.189.[1 § 1. Het citeren uit een werk dat op geoorloofde wijze openbaar is gemaakt, ten behoeve van
+## Art. XI.189
+
+[1 § 1. Het citeren uit een werk dat op geoorloofde wijze openbaar is gemaakt, ten behoeve van
  kritiek, polemiek, [2 of recensie]2, maakt geen inbreuk op het auteursrecht, voorzover zulks geschiedt
  overeenkomstig de eerlijke beroepsgebruiken en het beoogde doel zulks wettigt.
   Het citeren bedoeld in het vorige lid moet de bron en de naam van de auteur vermelden, tenzij dit niet mogelijk
@@ -28724,7 +29171,9 @@ Pagina 461 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2016-12-22/03, art. 4, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.190.[1 Wanneer het werk op geoorloofde wijze openbaar is gemaakt, kan de auteur zich niet verzetten
+## Art. XI.190
+
+[1 Wanneer het werk op geoorloofde wijze openbaar is gemaakt, kan de auteur zich niet verzetten
  tegen :
    1° de reproductie en de mededeling aan het publiek, met het oog op informatie, van korte fragmenten uit
  werken of van integrale werken van grafische of beeldende kunst in een verslag dat over actuele gebeurtenissen
@@ -28759,7 +29208,6 @@ Pagina 461 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het publiek toegankelijke musea, door archieven of instellingen voor cinematografisch of audio(visueel) erfgoed.]6
    De materialen die aldus worden vervaardigd blijven eigendom van deze instellingen, die zichzelf ieder
  commercieel of winstgevend gebruik ervan ontzeggen.
-Pagina 462 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De auteur kan hiertoe toegang krijgen, onder strikte inachtneming van de bewaring van het werk en tegen een
  billijke vergoeding van het werk verricht door deze instellingen;
    13° de mededeling, met inbegrip van de beschikbaarstelling van niet te koop aangeboden of aan
@@ -28810,7 +29258,9 @@ Pagina 462 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (5)<W 2019-05-02/28, art. 24, 077; Inwerkingtreding : 01-06-2019>
    (6)<W 2022-06-19/03, art. 13, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.191.[1 § 1. In afwijking van artikel XI.190 kan de auteur wanneer de databank wettig openbaar is
+## Art. XI.191
+
+[1 § 1. In afwijking van artikel XI.190 kan de auteur wanneer de databank wettig openbaar is
  gemaakt, zich niet verzetten tegen :
   1° de gedeeltelijke of integrale reproductie op papier of op een soortgelijke drager, met behulp van een
  fotografische techniek of een andere werkwijze die een soortgelijk resultaat oplevert, van databanken die op
@@ -28826,7 +29276,6 @@ Pagina 462 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [2 ...]2.
   § 2. [3 Artikel XI.190, 1°, 2°, 10°, 12°, en 20°, is op analoge wijze van toepassing op databanken.]3]1
   ----------
-Pagina 463 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2016-12-22/03, art. 6, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
   (3)<W 2022-06-19/03, art. 14, 113; Inwerkingtreding : 01-08-2022>
@@ -28836,7 +29285,9 @@ Pagina 463 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 7, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.191/1.[1 § 1. [4 Wanneer het werk op geoorloofde wijze openbaar is gemaakt, en onverminderd de
+## Art. XI.191/1
+
+[1 § 1. [4 Wanneer het werk op geoorloofde wijze openbaar is gemaakt, en onverminderd de
  eventuele toepassing van de artikelen XI.189, § 3, en XI.190, 2°, 2/1°, 10°, 12°, 13°, 15°, 16°, 17°, 18°, 19°,
  20°, en 21°, kan de auteur zich niet verzetten tegen:]4
     1° het citeren ten behoeve van onderwijs, of in het kader van wetenschappelijk onderzoek, voor zover zulks
@@ -28886,13 +29337,14 @@ Pagina 463 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2019-05-02/24, art. 2, 073; Inwerkingtreding : 31-05-2019>
    (4)<W 2022-06-19/03, art. 15, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.191/2.[1 § 1. In afwijking van artikel XI.191/1 kan de auteur wanneer de databank wettig openbaar is
+## Art. XI.191/2
+
+[1 § 1. In afwijking van artikel XI.191/1 kan de auteur wanneer de databank wettig openbaar is
  gemaakt, zich niet verzetten tegen :
    1° de reproductie van databanken ter illustratie bij onderwijs of voor wetenschappelijk onderzoek, voor zover
  het gebruik verantwoord is door de nagestreefde, niet-winstgevende doelstelling [3 ...]3;
    2° de mededeling aan het publiek van databanken ter illustratie bij onderwijs of voor wetenschappelijk
  onderzoek, door instellingen die daartoe door de overheid officieel zijn erkend of opgericht en voorzover deze
-Pagina 464 van 764 Copyright Belgisch S taatsblad 16-04-2026
  mededeling verantwoord is door de nagestreefde niet-winstgevende doelstelling, plaatsvindt in het kader van de
  normale activiteiten van de instelling, [3 en]3 beveiligd wordt door passende maatregelen [3 ...]3;
   [3 3° de reproductie door onderzoeksorganisaties, door voor het publiek toegankelijke bibliotheken, door voor
@@ -28925,7 +29377,9 @@ Pagina 464 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 10, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.192.[1 § 1. De auteur kan de uitlening van werken van letterkunde, databanken, fotografische werken,
+## Art. XI.192
+
+[1 § 1. De auteur kan de uitlening van werken van letterkunde, databanken, fotografische werken,
  partituren van muziekwerken, geluidswerken en audiovisuele werken niet verbieden wanneer die uitlening
  geschiedt met een educatief of cultureel doel door instellingen die daartoe door de overheid officieel zijn erkend
  of opgericht.
@@ -28960,7 +29414,6 @@ Pagina 464 van 764 Copyright Belgisch S taatsblad 16-04-2026
  lidstaten van de Europese Unie en van de Europese Economische Ruimte gevestigd zijn, om taken van openbaar
  belang te vervullen, hebben de toestemming de in hun verzamelingen voorkomende verweesde werken op een
 
-Pagina 465 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de volgende wijzen en onder de voorwaarden bepaald in art. XI.245/5, te gebruiken :
     a) beschikbaarstelling voor het publiek van het verweesde werk in de zin van artikel XI.165, § 1, vierde lid;
     b) de reproductie in de zin van artikel XI.165, § 1, eerste lid, met als doel het digitaliseren, beschikbaar stellen,
@@ -29026,10 +29479,11 @@ Pagina 465 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 21, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.193.[1 De bepalingen van de artikelen XI.189, XI.190, XI.191, XI.191/1, XI.191/2, XI.192, XI.192/1 en
+## Art. XI.193
+
+[1 De bepalingen van de artikelen XI.189, XI.190, XI.191, XI.191/1, XI.191/2, XI.192, XI.192/1 en
  XI.192/2 zijn van dwingend recht.]1
   ----------
-Pagina 466 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2022-06-19/03, art. 22, 113; Inwerkingtreding : 01-08-2022>
 
   Afdeling 7. - [1 Gemeenschappelijke bepaling betreffende de geluidswerken en audiovisuele werken]1
@@ -29048,7 +29502,9 @@ Pagina 466 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.195.[1 Het uitgavecontract moet bepalen uit hoeveel exemplaren de eerste oplage minimum zal bestaan
+## Art. XI.195
+
+[1 Het uitgavecontract moet bepalen uit hoeveel exemplaren de eerste oplage minimum zal bestaan
  [2 en hoeveel auteursexemplaren voor de auteur zelf bestemd zijn]2.
   Deze verplichting geldt evenwel niet voor het c ontract waarin bedongen is dat een gewaarborgd minimum van
  auteursrechten ten laste komt van de uitgever [2 en evenmin in het geval van een digitale uitgave]2.]1
@@ -29056,7 +29512,9 @@ Pagina 466 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2022-06-19/03, art. 23, 113; Inwerkingtreding : 01-08-2022>
 
-   Art. XI.196.[1 § 1. [3 De uitgever moet de exemplaren van het werk binnen de termijn bedoeld in artikel XI.167/4
+## Art. XI.196
+
+[1 § 1. [3 De uitgever moet de exemplaren van het werk binnen de termijn bedoeld in artikel XI.167/4
  produceren of laten produceren en, in het geval van een digitale uitgave, het werk aanbieden in een technisch
  gebruikelijk exploiteerbaar formaat in zijn catalogus van digitale uitgaven en/of het via diverse digitale kanalen
  beschikbaar stellen voor het publiek.]3
@@ -29101,7 +29559,6 @@ Pagina 466 van 764 Copyright Belgisch S taatsblad 16-04-2026
  exploitatiecontracten die de uitgever op geldige wijze met derden heeft gesloten, zij het dat de auteur tegen deze
  laatsten een rechtstreekse vordering kan instellen tot betaling van de eventueel overeengekomen vergoeding die
  hem op grond daarvan toekomt.]1
-Pagina 467 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -29132,7 +29589,9 @@ Pagina 467 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.201.[1 Het opvoeringscontract wordt gesloten voor bepaalde tijd of voor het aantal keren dat het werk
+## Art. XI.201
+
+[1 Het opvoeringscontract wordt gesloten voor bepaalde tijd of voor het aantal keren dat het werk
  aan het publiek wordt meegedeeld.
    De [2 overdracht]2 of de exclusieve licentie die wordt verleend door een auteur met het oog op
  livevoorstellingen blijft ten hoogste drie jaar gelden; onderbreking van de opvoeringen gedurende twee
@@ -29143,7 +29602,9 @@ Pagina 467 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2022-06-19/03, art. 26, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.202.[1 De begunstigde van het opvoeringscontract moet aan de auteur of zijn rechtverkrijgenden het
+## Art. XI.202
+
+[1 De begunstigde van het opvoeringscontract moet aan de auteur of zijn rechtverkrijgenden het
  exacte programma van de openbare opvoeringen of uitvoeringen meedelen en hun een met bewijsstukken
  gestaafde staat van zijn inkomsten bezorgen.
   [2 ...]2]1
@@ -29159,7 +29620,9 @@ Pagina 467 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.203.[1 De bepalingen van dit hoofdstuk doen geen afbreuk aan het auteursrecht. Geen van deze
+## Art. XI.203
+
+[1 De bepalingen van dit hoofdstuk doen geen afbreuk aan het auteursrecht. Geen van deze
  bepalingen mag op zodanige wijze worden uitgelegd dat zij de uitoefening van het auteursrecht beperkt.
   De in dit hoofdstuk erkende naburige rechten zijn roerende rechten die overgaan bij erfopvolging en vatbaar
  zijn voor gehele of gedeeltelijke overdracht, overeenkomstig de bepalingen van het Burgerlijk Wetboek. Ze
@@ -29170,7 +29633,6 @@ Pagina 467 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 2. - [1 Bepalingen betreffende de uitvoerende kunstenaars]1
   ----------
-Pagina 468 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
 ## Art. XI.204
@@ -29185,7 +29647,9 @@ Pagina 468 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.205.[1 § 1. Alleen de uitvoerende kunstenaar heeft het recht om zijn prestatie te reproduceren of de
+## Art. XI.205
+
+[1 § 1. Alleen de uitvoerende kunstenaar heeft het recht om zijn prestatie te reproduceren of de
  reproductie ervan toe te staan, op welke wijze of in welke vorm ook, direct of indirect, tijdelijk of duurzaam,
  volledig of gedeeltelijk.
    Dat recht omvat onder meer het exclusieve recht om de verhuring of de uitlening ervan toe te staan.
@@ -29242,7 +29706,6 @@ Pagina 468 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wie de rechten werden overgedragen of de licentienemer binnen een redelijke termijn na het plaatsvinden van de
  betrokken exploitatie, op regelmatige basis en ten minste eenmaal per jaar aan de uitvoerende kunstenaar,
  rekening houdend met de specifieke kenmerken van elke sector, actuele, relevante en volledige informatie
-Pagina 469 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betreffende de exploitatie van zijn prestatie, met name wat betreft de exploitatiewijzen, alle voortgebrachte
  inkomsten en de verschuldigde vergoeding.
     In behoorlijk gemotiveerde gevallen, waarbij de administratieve lasten voortvloeiende uit de transparantieplicht
@@ -29313,7 +29776,6 @@ Pagina 469 van 764 Copyright Belgisch S taatsblad 16-04-2026
  degene die de bestelling heeft geplaatst een activiteit uitoefent in de niet-culturele sector of in de reclamewereld
  en voor zover de prestatie bestemd is voor die activiteit;
    5° indien een collectieve overeenkomst, zoals bedoeld in artikel XI.205/5, het herroepingsrecht regelt.
-Pagina 470 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Elke contractuele bepaling die afwijkt van wat in dit artikel wordt bepaald is alleen afdwingbaar als zij voortvloeit
  uit een collectieve overeenkomst, zoals bedoeld in artikel XI.205/5.]1
   ----------
@@ -29347,7 +29809,9 @@ Pagina 470 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 35, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.206.[1 § 1. Tenzij anders is overeengekomen, draagt de uitvoerende kunstenaar aan de producent het
+## Art. XI.206
+
+[1 § 1. Tenzij anders is overeengekomen, draagt de uitvoerende kunstenaar aan de producent het
  exclusieve recht van audiovisuele exploitatie van zijn prestatie over, met inbegrip van de voor deze exploitatie
  noodzakelijke rechten, zoals het recht om het werk van ondertiteling te voorzien of het na te synchroniseren,
  onverminderd de bepalingen voorzien [2 in de tweede en de derde paragraaf]2.
@@ -29386,7 +29850,6 @@ Pagina 470 van 764 Copyright Belgisch S taatsblad 16-04-2026
    - binnen deze termijn een vastlegging van de uitvoering op een fonogram op geoorloofde wijze gepubliceerd of
  op geoorloofde wijze aan het publiek medegedeeld is, vervallen de rechten zeventig jaar na de datum van die
  eerste publicatie of, ingeval deze eerder valt, die eerste mededeling aan het publiek.
-Pagina 471 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De in het eerste en tweede lid bepaalde termijnen worden berekend vanaf 1 januari van het jaar dat volgt op het
  feit dat de rechten doet ontstaan.
    Na het overlijden van de uitvoerende kunstenaar worden de rechten uitgeoefend door diens erfgenamen of
@@ -29457,7 +29920,6 @@ Pagina 471 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De uitvoerende kunstenaar kan geen afstand doen van dit recht op een jaarlijkse aanvullende vergoeding.
    § 3. Het totaalbedrag dat de producent van fonogrammen opzij moet leggen voor het bekostigen van de in
  paragraaf 2 bedoelde jaarlijkse aanvullende vergoeding komt overeen met 20 % van de inkomsten die de
-Pagina 472 van 764 Copyright Belgisch S taatsblad 16-04-2026
  producent van fonogrammen tijdens het jaar voorafgaande aan het jaar waarvoor voornoemde vergoeding
  wordt betaald, heeft verkregen uit de reproductie, verspreiding en beschikbaarstelling van het betrokken
  fonogram, volgend op het vijftigste jaar nadat het op geoorloofde wijze is gepubliceerd of, indien het fonogram
@@ -29501,7 +29963,9 @@ Pagina 472 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.212.[1 Wanneer de prestatie van een uitvoerende kunstenaar, die werd vastgelegd op een fonogram, op
+## Art. XI.212
+
+[1 Wanneer de prestatie van een uitvoerende kunstenaar, die werd vastgelegd op een fonogram, op
  geoorloofde wijze wordt gereproduceerd of door de omroep uitgezonden, mogen de uitvoerende kunstenaar en
  de producent van fonogrammen zich, onverminderd het recht van de auteur, niet verzetten:
     1° tegen de openbare uitvoering ervan, op voorwaarde dat die prestatie niet voor een voorstelling wordt
@@ -29511,7 +29975,9 @@ Pagina 472 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2018-11-25/03, art. 3, 076; Inwerkingtreding : 01-01-2019>
 
-   Art. XI.213.[1 [3 Het gebruik van prestaties, overeenkomstig artikel XI.212, geeft de uitvoerende kunstenaars
+## Art. XI.213
+
+[1 [3 Het gebruik van prestaties, overeenkomstig artikel XI.212, geeft de uitvoerende kunstenaars
  en de producenten van fonogrammen recht op een billijke vergoeding, ongeacht de plaats waar die prestaties
  zijn vastgelegd.]3
    De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zijn naargelang de betrokken
@@ -29527,12 +29993,13 @@ Pagina 472 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De Koning bepaalt op welke wijze die inlichtingen en stukken worden verstrekt.]1
    ----------
 
-Pagina 473 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2017-06-08/13, art. 6, 049; Inwerkingtreding : 01-01-2018>
   (3)<W 2018-11-25/03, art. 4, 076; Inwerkingtreding : 01-01-2019>
 
-  Art. XI.214.[1 Onverminderd het bepaalde in internationale overeenkomsten wordt de in artikel XI.213 bedoelde
+## Art. XI.214
+
+[1 Onverminderd het bepaalde in internationale overeenkomsten wordt de in artikel XI.213 bedoelde
  vergoeding door de [2 beheersvennootschappen en/of collectieve beheerorganisaties]2 verdeeld onder de
  uitvoerende kunstenaars en de producenten [3 van fonogrammen]3, ieder voor de helft. Deze verdeelsleutel is
  van dwingend recht.
@@ -29549,7 +30016,9 @@ Pagina 473 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.215.[1 § 1. Alleen de omroeporganisatie heeft het recht volgende handelingen toe te staan :
+## Art. XI.215
+
+[1 § 1. Alleen de omroeporganisatie heeft het recht volgende handelingen toe te staan :
    a) het rechtstreeks of later heruitzenden van haar uitzendingen daaronder begrepen de doorgifte via de kabel
  [ en/of de doorgifte]2 en de mededeling aan het publiek per satelliet;
    b) de reproductie van haar uitzendingen door welk procédé ook, direct of indirect, tijdelijk of duurzaam, volledig
@@ -29597,7 +30066,6 @@ Pagina 473 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zin van artikel I.18, 1°, verstaan.]1
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 38, 113; Inwerkingtreding : 01-08-2022>
-Pagina 474 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.216/2
 
 [1 § 1. Onverminderd de rechten van de auteur, de uitvoerende kunstenaar, de producent van
@@ -29665,7 +30133,6 @@ Pagina 474 van 764 Copyright Belgisch S taatsblad 16-04-2026
  minstens een poging tot bemiddeling bedoeld in de artikelen 1724 tot 1737 van het Gerechtelijk Wetboek hebben
  ondernomen.]1
    ----------
-Pagina 475 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2022-06-19/03, art. 39, 113; Inwerkingtreding : 01-08-2022>
 
 ## Art. XI.216/3
@@ -29685,7 +30152,9 @@ Pagina 475 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 14, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.217.[1 [5 De artikelen XI.205, XI.209, XI.213, XI.215 en XI.216/2]5 zijn niet van toepassing wanneer de
+## Art. XI.217
+
+[1 [5 De artikelen XI.205, XI.209, XI.213, XI.215 en XI.216/2]5 zijn niet van toepassing wanneer de
  handelingen bedoeld in die artikelen verricht worden met een van de hierna volgende doelstellingen :
    1° het citeren uit een prestatie, ten behoeve van kritiek, polemiek, [2 of recensie]2, maakt geen inbreuk op het
  auteursrecht, voor zover zulks geschiedt overeenkomstig de eerlijke beroepsgebruiken en het beoogde doel
@@ -29730,7 +30199,6 @@ Pagina 475 van 764 Copyright Belgisch S taatsblad 16-04-2026
  instellingen voor jeugd- of gehandicaptenzorg, voor zover deze instellingen geen winstoogmerk nastreven en dat
  deze reproductie is voorbehouden voor het exclusieve gebruik van de daar verblijvende natuurlijke personen;]1
    [3 17° een handeling die noodzakelijk is voor de vervaardiging van een exemplaar in toegankelijke vorm van een
-Pagina 476 van 764 Copyright Belgisch S taatsblad 16-04-2026
  werk of prestatie waartoe de begunstigde rechtmatige toegang heeft, door een begunstigde of een namens hem
  optredende persoon, voor exclusief gebruik door de begunstigde [5 ...]5. Een in België gevestigde begunstigde
  kan een exemplaar in toegankelijke vorm verkrijgen van of er toegang toe hebben bij een toegelaten entiteit die in
@@ -29762,7 +30230,9 @@ Pagina 476 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 16, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.217/1.[1 [4 Onverminderd de eventuele toepassing van artikel XI.217, 8°, 9°, 11°, 12°, 14°, 15°, 16°,
+## Art. XI.217/1
+
+[1 [4 Onverminderd de eventuele toepassing van artikel XI.217, 8°, 9°, 11°, 12°, 14°, 15°, 16°,
  17°, 18°, 19°, en 20°]4, zijn [4 de artikelen XI.205, XI.209, XI.213, XI.215 en XI.216/2]4 niet van toepassing
  wanneer de handelingen bedoeld in die artikelen verricht worden met een van de hierna volgende doelstellingen :
     1° het citeren uit een prestatie ten behoeve van onderwijs, of in het kader van wetenschappelijk onderzoek,
@@ -29797,7 +30267,6 @@ Pagina 476 van 764 Copyright Belgisch S taatsblad 16-04-2026
     a) plaatsvindt onder de verantwoordelijkheid van een onderwijsinstelling, in haar gebouwen of elders, of door
  middel van een beveiligde elektronische omgeving die alleen toegankelijk is voor de leerlingen of studenten en het
 
-Pagina 477 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderwijzend personeel van de onderwijsinstelling; en
    b) vergezeld gaat van de vermelding van de bron, tenzij dit niet mogelijk blijkt.
    Het in de voorgaande zin bedoelde gebruik van prestaties ter illustratie bij onderwijs via beveiligde elektronische
@@ -29812,7 +30281,9 @@ Pagina 477 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 18, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.218.[1 § 1. De uitvoerende kunstenaar en de producent kunnen de uitlening van fonogrammen en van
+## Art. XI.218
+
+[1 § 1. De uitvoerende kunstenaar en de producent kunnen de uitlening van fonogrammen en van
  eerste vastleggingen van films niet verbieden, wanneer die uitlening geschiedt met een educatief of cultureel doel
  door instellingen die daartoe door de overheid officieel zijn erkend of opgericht.
   [2 De uitvoerende kunstenaar en de producent kunnen de uitlening door een in België gevestigde toegelaten
@@ -29838,7 +30309,9 @@ Pagina 477 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 19, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-   Art. XI.218/1.[1 De voor het publiek toegankelijke bibliotheken, onderwijsinstellingen en musea, alsook
+## Art. XI.218/1
+
+[1 De voor het publiek toegankelijke bibliotheken, onderwijsinstellingen en musea, alsook
  archieven, instellingen voor cinematografisch- of geluidserfgoed en publieke omroeporganisaties, die in de
  lidstaten van de Europese Unie en van de Europese Economische Ruimte gevestigd zijn, om taken van openbaar
  belang te vervullen, hebben de toestemming om de in hun verzamelingen voorkomende verweesde werken op
@@ -29863,7 +30336,6 @@ Pagina 477 van 764 Copyright Belgisch S taatsblad 16-04-2026
  of mededeling aan het publiek voor niet-commerciële doeleinden door een voor het publiek toegankelijke
  bibliotheek of een voor het publiek toegankelijk museum, een archief of een instelling voor cinematografisch of
  audio(visueel) erfgoed, van een prestatie of perspublicatie die niet of niet meer in de handel is en die permanent
-Pagina 478 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deel uitmaakt van hun collecties, op voorwaarde dat:
     1° de overeenkomstig artikel XI.245/7/2, § 2, aangeduide representatieve beheersvennootschap niet is
  aangeduid voor de betrokken rechten;
@@ -29912,7 +30384,9 @@ Pagina 478 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 49, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.219.[1 De bepalingen van de artikelen XI.217, XI.217/1, XI.218, XI.218/1 en XI.218/2 zijn van dwingend
+## Art. XI.219
+
+[1 De bepalingen van de artikelen XI.217, XI.217/1, XI.218, XI.218/1 en XI.218/2 zijn van dwingend
  recht.]1
   ----------
   (1)<W 2022-06-19/03, art. 50, 113; Inwerkingtreding : 01-08-2022>
@@ -29933,7 +30407,6 @@ Pagina 478 van 764 Copyright Belgisch S taatsblad 16-04-2026
  satellietomroep.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
-Pagina 479 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.221
 
 [1 De mededeling aan het publiek per satelliet vindt slechts plaats in de lidstaat van de Europese
@@ -29967,14 +30440,18 @@ Pagina 479 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-04-01/04, art. 6, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.223.[1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
+## Art. XI.223
+
+[1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
  omschreven nadere regels beschikken alleen de auteur en de houders van de naburige rechten over het recht
  de doorgifte via de kabel [2 en/of de doorgifte]2 van hun werken en prestaties toe te staan.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2022-04-01/04, art. 6, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.224.[1 § 1. [3 Het recht van de auteur en van de houders van naburige rechten om de doorgifte via de
+## Art. XI.224
+
+[1 § 1. [3 Het recht van de auteur en van de houders van naburige rechten om de doorgifte via de
  kabel en/of de doorgifte toe te staan of te verbieden, kan uitsluitend door beheersvennootschappen en/of
  collectieve beheerorganisaties die in België het recht van doorgifte via de kabel en/of van doorgifte beheren,
  worden uitgeoefend.]3
@@ -29998,12 +30475,13 @@ Pagina 479 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2017-06-08/13, art. 8, 049; Inwerkingtreding : 01-01-2018>
   (3)<W 2022-04-01/04, art. 8, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.225.[1 § 1. [4 Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de doorgifte via de kabel
+## Art. XI.225
+
+[1 § 1. [4 Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de doorgifte via de kabel
  en/of de doorgifte toe te staan of te verbieden, heeft overgedragen [5 of in licentie heeft gegeven,]5 aan een
  producent van een audiovisueel werk, behoudt hij het recht op een vergoeding voor de doorgifte via de kabel
  en/of voor de doorgifte.]4
 
-Pagina 480 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 2. Het recht op een vergoeding voor de doorgifte via de kabel [4 en/of voor de doorgifte]4, zoals bepaald in de
  eerste paragraaf, is onoverdraagbaar en niet vatbaar voor afstand door de auteurs of uitvoerende kunstenaars.
  Deze bepaling is van dwingend recht.
@@ -30029,13 +30507,17 @@ Pagina 480 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-11-25/03, art. 8, 076; Inwerkingtreding : 01-07-2019>
 
-  Art. XI.226.[1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
+## Art. XI.226
+
+[1 Overeenkomstig de voorafgaande hoofdstukken en rekening houdend met de hierna
  omschreven nadere regels, beschikken alleen de auteur en de houders van de naburige rechten over het recht
  de mededeling aan het publiek via directe injectie van hun werken en prestaties toe te staan.]1
   ----------
   (1)<W 2018-11-25/03, art. 9, 076; Inwerkingtreding : 01-07-2019>
 
-   Art. XI.226/1.[1 Indien een omroeporganisatie haar programmadragende signalen via directe injectie aan een
+## Art. XI.226/1
+
+[1 Indien een omroeporganisatie haar programmadragende signalen via directe injectie aan een
  distributeur van signalen overbrengt, zonder dat zijzelf deze programmadragende signalen gelijktijdig en direct
  uitzendt naar het publiek, en de distributeur van signalen deze programmadragende signalen aan het publiek
  uitzendt, worden de omroeporganisatie en de distributeur van signalen geacht samen één enkele handeling van
@@ -30053,7 +30535,9 @@ Pagina 480 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2022-04-01/04, art. 10, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.227.[1 § 1. Het recht van de auteur en van de houders van naburige rechten om [2 toestemming te
+## Art. XI.227
+
+[1 § 1. Het recht van de auteur en van de houders van naburige rechten om [2 toestemming te
  verlenen of te weigeren voor]2 de mededeling aan het publiek via directe injectie [2 ...]2, kan uitsluitend door
  beheersvennootschappen en/of collectieve beheerorganisaties die in België het recht van mededeling aan het
  publiek via directe injectie beheren, worden uitgeoefend.
@@ -30069,7 +30553,6 @@ Pagina 480 van 764 Copyright Belgisch S taatsblad 16-04-2026
  die het beheer van hun rechten aan deze beheersvennootschap of collectieve beheerorganisatie hebben
  opgedragen. Zij kunnen die rechten doen gelden binnen een termijn van drie jaar te rekenen van de datum van
  de mededeling aan het publiek, via directe injectie, van hun werk of van hun prestatie.
-Pagina 481 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 3. De paragrafen 1 en 2 zijn niet van toepassing op de rechten die een omroeporganisatie in het kader van
  haar eigen uitzendingen uitoefent, [2 ongeacht of het om haar eigen rechten gaat dan wel of deze haar door
  andere rechthebbenden zijn overgedragen,]2 noch op de rechten waarvan de producenten houder zijn ten
@@ -30078,7 +30561,9 @@ Pagina 481 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2018-11-25/03, art. 11, 076; Inwerkingtreding : 01-07-2019>
   (2)<W 2022-04-01/04, art. 11, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.227/1.[1 § 1. Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de mededeling aan het
+## Art. XI.227/1
+
+[1 § 1. Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de mededeling aan het
  publiek via directe injectie toe te staan of te verbieden, heeft overgedragen [2 of in licentie heeft gegeven,]2 aan
  een producent van een audiovisueel werk, behoudt hij het recht op een vergoeding voor de mededeling aan het
  publiek via directe injectie.
@@ -30134,10 +30619,11 @@ Pagina 481 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2022-04-01/04, art. 14, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.227/2.[1 § 1. [2 Onverminderd de overige wettelijke en reglementaire informatievoorschriften wisselen de
+## Art. XI.227/2
+
+[1 § 1. [2 Onverminderd de overige wettelijke en reglementaire informatievoorschriften wisselen de
  producenten, de beheersvennootschappen, de collectieve beheerorganisaties, de exploitanten van
  satellietgrondstations, de omroeporganisaties, de exploitanten van doorgiftediensten via de kabel, de
-Pagina 482 van 764 Copyright Belgisch S taatsblad 16-04-2026
  exploitanten van doorgiftediensten en de distributeurs van signalen tijdig de passende en toereikende informatie
  uit in het kader van de volgende doeleinden:
     1° de vaststelling van het betrokken type van exploitatiehandeling zoals de uitzending, de mededeling aan het
@@ -30159,7 +30645,9 @@ Pagina 482 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2018-11-25/03, art. 14, 076; Inwerkingtreding : 01-07-2019>
    (2)<W 2022-04-01/04, art. 15, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.228.[1 § 1. [2 Wanneer er geen overeenkomst betreffende de toestemming voor de mededeling aan het
+## Art. XI.228
+
+[1 § 1. [2 Wanneer er geen overeenkomst betreffende de toestemming voor de mededeling aan het
  publiek per satelliet, de doorgifte via de kabel, de doorgifte, de mededeling aan het publiek via directe injectie
  en/of de ondersteunende onlinedienst kan worden gesloten, kunnen de partijen in onderling akkoord een beroep
  doen op een of meer bemiddelaars.]2
@@ -30175,7 +30663,9 @@ Pagina 482 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2018-11-25/03, art. 15, 076; Inwerkingtreding : 01-07-2019>
   (2)<W 2022-04-01/04, art. 16, 105; Inwerkingtreding : 01-05-2022>
 
-   Art. XI.228/1.[1 Onverminderd het tweede lid, voorzien de omroeporganisaties die voor hun eigen uitzendingen
+## Art. XI.228/1
+
+[1 Onverminderd het tweede lid, voorzien de omroeporganisaties die voor hun eigen uitzendingen
  het recht uitoefenen om de doorgifte via de kabel, de doorgifte of de mededeling aan het publiek via directe
  injectie toe te staan, zoals bedoeld in de artikelen XI.223 en XI.226, de beheersvennootschappen die de rechten
  beheren om de doorgifte via de kabel, de doorgifte en de mededeling aan het publiek via directe injectie toe te
@@ -30206,7 +30696,6 @@ Pagina 482 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Verleners van diensten als online-encyclopedieën zonder winstoogmerk, onderwijs- of wetenschappelijke
  gegevensbanken zonder winstoogmerk, platforms voor het ontwikkelen en delen van opensourcesoftware,
 
-Pagina 483 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aanbieders van elektronische communicatiediensten als gedefinieerd in Richtlijn (EU) 2018/1972 van het
  Europees Parlement en de Raad van 11 december 2018 tot vaststelling van het Europees wetboek voor
  elektronische communicatie, onlinemarktplaatsen en business-to-business clouddiensten en clouddiensten
@@ -30215,7 +30704,9 @@ Pagina 483 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 51, 113; Inwerkingtreding : 01-08-2022>
 
-   Art. XI.228/3.[1 § 1. Een verlener van een onlinedienst voor het delen van content verricht een handeling van
+## Art. XI.228/3
+
+[1 § 1. Een verlener van een onlinedienst voor het delen van content verricht een handeling van
  mededeling aan het publiek, met inbegrip van de beschikbaarstelling voor het publiek van werken en/of prestaties
  van de rechthebbenden bedoeld in de artikelen XI.165, § 1, vierde lid, XI.205, § 1, derde lid, XI.209, § 1, vierde lid,
  en/of een handeling van beschikbaarstelling van prestaties voor de rechthebbenden bedoeld in artikel XI.215, § 1,
@@ -30235,7 +30726,9 @@ Pagina 483 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2022-06-19/03, art. 53, 113; Inwerkingtreding : 01-08-2022>
    (2)<W 2024-04-21/06, art. 2, 132; Inwerkingtreding : 25-05-2024>
 
-  Art. XI.228/4.[1 § 1. Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de mededeling aan het
+## Art. XI.228/4
+
+[1 § 1. Wanneer een auteur of een uitvoerend kunstenaar zijn recht om de mededeling aan het
  publiek door een verlener van een onlinedienst voor het delen van content, zoals bedoeld in artikel XI.228/3, § 1,
  toe te staan of te verbieden, heeft overgedragen [2 of in licentie heeft gegeven]2, behoudt hij het recht op een
  vergoeding voor de mededeling aan het publiek door een verlener van een onlinedienst voor het delen van
@@ -30275,7 +30768,6 @@ Pagina 483 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° zich naar beste vermogen heeft ingespannen om toestemming te krijgen; en
    2° na ontvangst van een voldoende onderbouwde melding van de rechthebbenden, prompt is opgetreden om
  de toegang tot de werken en prestaties in kwestie te deactiveren of deze van zijn website te verwijderen.
-Pagina 484 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer het gemiddelde aantal maandelijkse unieke bezoekers van de in het eerste lid bedoelde dienstverlener
  meer dan vijf miljoen bedraagt, berekend op basis van het voorgaande kalenderjaar, is die dienstverlener
  aansprakelijk voor niet-toegestane handelingen van mededeling aan het publiek, met inbegrip van het
@@ -30346,7 +30838,6 @@ Pagina 484 van 764 Copyright Belgisch S taatsblad 16-04-2026
  worden behandeld, de te volgen procedure en de status van de content die het voorwerp uitmaakt van de klacht
  tijdens de behandeling ervan.]1
    ----------
-Pagina 485 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2022-06-19/03, art. 58, 113; Inwerkingtreding : 01-08-2022>
 
 ## Art. XI.228/9
@@ -30392,7 +30883,9 @@ Pagina 485 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 61, 113; Inwerkingtreding : 01-08-2022>
 
-   Art. XI.228/11.[1 § 1. [2 Wanneer een auteur of een uitvoerend kunstenaar van een geluids- of audiovisueel
+## Art. XI.228/11
+
+[1 § 1. [2 Wanneer een auteur of een uitvoerend kunstenaar van een geluids- of audiovisueel
  werk zijn recht om de mededeling aan het publiek, met inbegrip van de beschikbaarstelling aan het publiek, door
  een dienstverlener van de informatiemaatschappij bedoeld in artikel XI.228/10, toe te staan of te verbieden, heeft
  overgedragen of in licentie heeft gegeven aan een producent of uitgever, behoudt hij het recht op een
@@ -30413,12 +30906,13 @@ Pagina 485 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2022-06-19/03, art. 62, 113; Inwerkingtreding : 01-08-2022>
    (2)<W 2024-02-09/19, art. 39, 129; Inwerkingtreding : 21-03-2024>
 
-Pagina 486 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 5. [1 De vergoeding voor de reproductie voor eigen gebruik van werken en prestaties]1
   ----------
   (1)<W 2016-12-22/03, art. 22, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.229.[1 [2 De auteurs, de uitvoerende kunstenaars en de producenten van fonogrammen en van
+## Art. XI.229
+
+[1 [2 De auteurs, de uitvoerende kunstenaars en de producenten van fonogrammen en van
  audiovisuele werken hebben recht op een vergoeding voor de reproductie voor eigen gebruik van hun werken en
  prestaties, wanneer die reproductie plaatsvindt onder de voorwaarden bepaald in de artikelen XI.190, 9° en 17°
  en XI.217, 7° en 16°.]2
@@ -30441,7 +30935,9 @@ Pagina 486 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-12-22/03, art. 23, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
   (3)<W 2017-06-08/13, art. 10, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.230.[1 De in het kader van dit hoofdstuk door de Koning aangewezen [2 beheersvennootschap]2 kan de
+## Art. XI.230
+
+[1 De in het kader van dit hoofdstuk door de Koning aangewezen [2 beheersvennootschap]2 kan de
  nodige inlichtingen voor het uitvoeren van haar opdracht in naleving van artikel XI.281 en XV.113 bekomen bij :
   - de Administratie der Douane en Accijnzen met toepassing van artikel 320 van de algemene wet van 18 juli
  1977 inzake douane en accijnzen vervangen bij de wet van 27 december 1993;
@@ -30452,7 +30948,9 @@ Pagina 486 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2017-06-08/13, art. 11, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.231.[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
+## Art. XI.231
+
+[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
  inlichtingen doorgeven aan de Administratie der Douane en Accijnzen en aan de BTW-Administratie op hun
  verzoek.
    Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2 inlichtingen doorgeven
@@ -30464,7 +30962,9 @@ Pagina 486 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2017-06-08/13, art. 12, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.232.[1 De Koning bepaalt, per categorie van technische soortgelijke dragers en apparaten die Hij
+## Art. XI.232
+
+[1 De Koning bepaalt, per categorie van technische soortgelijke dragers en apparaten die Hij
  definieert, of deze kennelijk gebruikt worden voor het reproduceren voor eigen gebruik van werken en prestaties
  [2 ...]2 en bepaalt de nadere regels met betrekking tot de inning en de verdeling van en de controle op de
  vergoeding, alsmede het tijdstip waarop ze verschuldigd is.
@@ -30480,7 +30980,6 @@ Pagina 486 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Een apparaat dat kennelijk gebruikt wordt voor het reproduceren voor eigen gebruik van werken en prestaties
  [ ...]2 en die op voortdurende wijze een drager incorporeert, is slechts aan een enkele vergoeding onderworpen.
 
-Pagina 487 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Bij het vaststellen van deze vergoeding wordt onder andere rekening gehouden met het al dan niet toepassen
  van de in artikel I.13, 7°, XI.291 en XV.69 bedoelde technische voorzieningen op de betrokken werken of
  prestaties.
@@ -30527,7 +31026,9 @@ Pagina 487 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.234.[1 § 1. Met betrekking tot de in artikel XI.229 bedoelde vergoeding, kan de Koning de verdeelsleutel
+## Art. XI.234
+
+[1 § 1. Met betrekking tot de in artikel XI.229 bedoelde vergoeding, kan de Koning de verdeelsleutel
  vaststellen tussen de volgende categorieën van werken :
   1) de werken van letterkunde;
   2) de werken van beeldende of grafische kunst;
@@ -30550,18 +31051,21 @@ Pagina 487 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2016-12-22/03, art. 25, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
-Pagina 488 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 6. [1 De vergoeding voor reprografie]1
   ----------
   (1)<W 2016-12-22/03, art. 26, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.235.[1 De auteurs hebben recht op een vergoeding voor de reproductie op papier of op een soortgelijke
+## Art. XI.235
+
+[1 De auteurs hebben recht op een vergoeding voor de reproductie op papier of op een soortgelijke
  drager van hun werken, wanneer die reproductie plaatsvindt onder de voorwaarden bepaald in de artikelen
  XI.190, 5° en XI.191, § 1, 1°.]1
   ----------
   (1)<W 2016-12-22/03, art. 27, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.236.[1 De in het artikel XI.235 bedoelde vergoeding bestaat uit een evenredige vergoeding die bepaald
+## Art. XI.236
+
+[1 De in het artikel XI.235 bedoelde vergoeding bestaat uit een evenredige vergoeding die bepaald
  wordt in functie van het aantal reproducties van werken.
    Deze is verschuldigd door de natuurlijke personen of de rechtspersonen die reproducties van werken
  vervaardigen of, in voorkomend geval, met décharge van eerstgenoemden, door hen die onder bezwarende titel
@@ -30569,7 +31073,9 @@ Pagina 488 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-12-22/03, art. 28, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.237.[1 De in het kader van dit hoofdstuk door de Koning aangewezen [3 beheersvennootschap]3 kan de
+## Art. XI.237
+
+[1 De in het kader van dit hoofdstuk door de Koning aangewezen [3 beheersvennootschap]3 kan de
  nodige inlichtingen voor het uitvoeren van haar opdracht in naleving van artikel XI.281 en XV.113 bekomen bij :
   - de Administratie der Douane en Accijnzen met toepassing van artikel 320 van de algemene wet inzake douane
  en accijnzen van 18 juli 1977, [2 ...]2;
@@ -30581,7 +31087,9 @@ Pagina 488 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-12-22/03, art. 29, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
   (3)<W 2017-06-08/13, art. 13, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.238.[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
+## Art. XI.238
+
+[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
  inlichtingen doorgeven aan de Administratie der Douane en Accijnzen en btw-Administratie op hun verzoek.
    Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2 inlichtingen doorgeven
  aan en krijgen van :
@@ -30592,7 +31100,9 @@ Pagina 488 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2017-06-08/13, art. 14, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.239.[1 De Koning bepaalt bij een koninklijk besluit vastgesteld na overleg in de Ministerraad, de in de
+## Art. XI.239
+
+[1 De Koning bepaalt bij een koninklijk besluit vastgesteld na overleg in de Ministerraad, de in de
  artikel XI.236 bedoelde vergoeding.
    Deze vergoeding kan worden aangepast naar gelang van de betrokken sectoren.
    De Koning bepaalt de nadere regels voor de inning en de verdeling van en de controle op die vergoeding,
@@ -30616,10 +31126,11 @@ Pagina 488 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 7. [1 Het gebruik van werken of prestaties ten behoeve van onderwijs en wetenschappelijk
  onderzoek]1
   ----------
-Pagina 489 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2016-12-22/03, art. 31, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.240.[1 De auteurs en de uitgevers van werken hebben recht op een vergoeding voor de reproductie en
+## Art. XI.240
+
+[1 De auteurs en de uitgevers van werken hebben recht op een vergoeding voor de reproductie en
  de mededeling van die werken onder de voorwaarden bepaald in [3 artikel XI.191/1, § 1, 3°, 4°, 6° en 8°]3.
    De auteurs van databanken hebben recht op een vergoeding voor de reproductie en de mededeling ervan
  onder de voorwaarden bepaald in artikel XI.191/2, § 1.
@@ -30633,7 +31144,9 @@ Pagina 489 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XI.241.
 
-   Art. XI.242.[1 De vergoeding bedoeld in artikel XI.240, wordt vastgesteld bij een koninklijk besluit vastgesteld na
+## Art. XI.242
+
+[1 De vergoeding bedoeld in artikel XI.240, wordt vastgesteld bij een koninklijk besluit vastgesteld na
  overleg in de Ministerraad [2 met inachtneming van de doelstellingen voor bevordering van
  onderwijsactiviteiten]2.
    De Koning stelt de modaliteiten van inning, verdeling en toezicht van de vergoeding vast, evenals het tijdstip
@@ -30667,7 +31180,9 @@ Pagina 489 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.244.[1 Na raadpleging van de Gemeenschappen, de instellingen en [2 beheersvennootschappen]2
+## Art. XI.244
+
+[1 Na raadpleging van de Gemeenschappen, de instellingen en [2 beheersvennootschappen]2
  bepaalt de Koning het bedrag van de in artikel XI.243 bedoelde vergoedingen.
    De Koning kan het bedrag van de in artikel XI.243 bedoelde vergoeding bepalen, o.a. in functie van :
    1° het volume van de collectie van de uitleeninstelling; en/of
@@ -30684,7 +31199,6 @@ Pagina 489 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2017-06-08/13, art. 17, 049; Inwerkingtreding : 01-01-2018>
-Pagina 490 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.245
 
 [1 § 1. Onverminderd het bepaalde in internationale overeenkomsten wordt de in artikel XI.243, § 1,
@@ -30759,11 +31273,12 @@ Pagina 490 van 764 Copyright Belgisch S taatsblad 16-04-2026
  fonogram als verweesd hebben geregistreerd.
     § 2. Een werk of fonogram dat in een lidstaat van de Europese Unie of de Europese Economische Ruimte als
  een verweesd werk wordt beschouwd, wordt in België eveneens als een verweesd werk beschouwd.]1
-Pagina 491 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2015-07-20/15, art. 13, 027; Inwerkingtreding : 03-09-2015>
 
-  Art. XI.245/4.[1 § 1. Een zorgvuldig onderzoek, dat uitgevoerd wordt door de in de artikelen XI.192/1 en
+## Art. XI.245/4
+
+[1 § 1. Een zorgvuldig onderzoek, dat uitgevoerd wordt door de in de artikelen XI.192/1 en
  XI.218/1 bedoelde instellingen en organisaties, om uit te maken of een werk of fonogram al dan niet verweesd is,
  gebeurt door de geschikte bronnen voor de desbetreffende categorie van werken of fonogrammen te
  raadplegen.
@@ -30825,13 +31340,14 @@ Pagina 491 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2015-07-20/15, art. 16, 027; Inwerkingtreding : 03-09-2015>
 
-  Art. XI.245/7.[1 Wanneer de auteurs, de uitvoerende kunstenaars, [2 de producenten, de omroeporganisaties
+## Art. XI.245/7
+
+[1 Wanneer de auteurs, de uitvoerende kunstenaars, [2 de producenten, de omroeporganisaties
  en de persuitgevers]2 de status van verweesd werk beëindigen, hebben zij recht op een vergoeding voor het
  gebruik dat de in de artikelen XI.192/1 en XI.218/1 bedoelde instellingen en organisaties overeenkomstig de
  artikelen XI.192/1 en XI.218/1 van dergelijke werken [2 of fonogrammen]2 hebben gemaakt.
    De vergoeding wordt betaald door de instellingen en organisaties bedoeld in de artikelen XI.192/1 en XI.218/1.
 
-Pagina 492 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 De Koning kan de berekeningswijze van de vergoeding voor het gebruik van verweesde werken voor alle of
  bepaalde soorten werken en/of prestaties bepalen.]2
     De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer vennootschappen die
@@ -30902,7 +31418,6 @@ Pagina 492 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor cinematografisch of audio(visueel) erfgoed moeten de licentie bedoeld in artikel XI.245/7/2, § 1, sluiten met
  de representatieve beheersvennootschap bedoeld in artikel XI.245/7/2, § 2.]1
   ----------
-Pagina 493 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2022-06-19/03, art. 70, 113; Inwerkingtreding : 01-08-2022>
 
 ## Art. XI.245/7/5
@@ -30972,7 +31487,6 @@ Pagina 493 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° de lijst met werken of prestaties waarvan zij over exemplaren in toegankelijke vorm beschikt, alsmede de
  beschikbare vormen; en
    2° de naam en de contactgegevens van de toegelaten entiteiten waarmee zij exemplaren in toegankelijke vorm
-Pagina 494 van 764 Copyright Belgisch S taatsblad 16-04-2026
  op grond van de artikelen XI.190, 19°, XI.192, § 1, tweede lid, XI.217, 18°, XI.218, § 1, tweede lid, XI.299, § 4,
  2°, of XI.310, § 2, 2°, heeft uitgewisseld.]1
   ----------
@@ -30995,7 +31509,9 @@ Pagina 494 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 19, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.246.[1 § 1. De beheersvennootschappen zijn onderworpen aan de bepalingen van dit hoofdstuk.
+## Art. XI.246
+
+[1 § 1. De beheersvennootschappen zijn onderworpen aan de bepalingen van dit hoofdstuk.
     De collectieve beheerorganisaties die een bijkantoor in België hebben, zijn voor de uitoefening van hun
  activiteiten op Belgisch grondgebied onderworpen aan de artikelen XI.248, XI.248/6, XI.248/7, XI.248/9, § 3,
  XI.248/12, XI.249 tot XI.253, XI.255 tot XI.257, XI.261 tot XI.267, XI.269, XI.271 tot XI.273/1 en XI.273/13 tot
@@ -31017,7 +31533,9 @@ Pagina 494 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 21, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.247.[1 De beheersvennootschappen moeten rechtspersoonlijkheid bezitten en zijn beperkt aansprakelijk.
+## Art. XI.247
+
+[1 De beheersvennootschappen moeten rechtspersoonlijkheid bezitten en zijn beperkt aansprakelijk.
     De collectieve beheerorganisaties zijn organisaties die op regelmatige wijze zijn opgericht in een van de lidstaten
  van de Europese Unie, ander dan België, waar zij op geoorloofde wijze een activiteit van collectief beheer
  uitoefenen in de zin van artikel I.16, § 1, 5°.
@@ -31035,8 +31553,9 @@ Pagina 494 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 24, 049; Inwerkingtreding : 01-01-2018>
 
-Pagina 495 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XI.248.[1 De beheersvennootschappen beheren de rechten in het belang van de rechthebbenden. Dit
+## Art. XI.248
+
+[1 De beheersvennootschappen beheren de rechten in het belang van de rechthebbenden. Dit
  beheer moet worden uitgevoerd op billijke, zorgvuldige, doeltreffende en niet-discriminatoire wijze.
    De beheersvennootschappen leggen aan de rechthebbenden geen verplichtingen op die objectief beschouwd
  niet noodzakelijk zijn voor de bescherming van hun rechten en belangen of voor dit doeltreffende beheer van
@@ -31104,7 +31623,6 @@ Pagina 495 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voor het beheer van rechten, categorieën van rechten of soorten werk en prestaties te beëindigen, of uit een
  collectieve beheerorganisatie elk van de rechten, categorieën van rechten of soorten werk en prestaties van hun
  keuze, volgens de voorwaarden en nadere regels bepaald in artikel XI.248/3, terug te trekken.
-Pagina 496 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 6. Wanneer een rechthebbende een beheersvennootschap machtigt om zijn rechten te beheren, is de
  beheersvennootschap verplicht de rechthebbende informatie te verschaffen over beheerkosten en andere
  inhoudingen op de rechteninkomsten en op inkomsten uit de belegging van rechteninkomsten, alvorens zijn
@@ -31173,7 +31691,6 @@ Pagina 496 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overname van andere entiteiten en de verwerving van aandelen of rechten in andere entiteiten;
    9° de goedkeuring voor het opnemen van leningen, het verstrekken van leningen of het verstrekken van
  zekerheden voor leningen, onverminderd artikel XI.257.
-Pagina 497 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 4. De algemene vergadering kan de in paragraaf 3, 6°, 7°, 8° en 9°, opgesomde bevoegdheden bij besluit of
  door middel van een bepaling in de statuten delegeren aan de raad van bestuur.
     De raad van bestuur geeft in zijn bestuursverslag de beslissingen aan die genomen werden in het raam van de
@@ -31244,7 +31761,6 @@ Pagina 497 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bovendien opgenomen op de internetpagina van de beheersvennootschap op een duidelijk leesbare plaats en
  met duidelijke verwijzing in het hoofdmenu van de internetpagina.
    § 4. Na overleg met de Commissie voor de Boekhoudkundige Normen, het Instituut van de Bedrijfsrevisoren en
-Pagina 498 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de beheersvennootschappen die zetelen in het overlegcomité ingesteld door artikel XI.282, kan de Koning nadere
  regels bepalen betreffende de wijze waarop de in paragraaf 2 vermelde gegevens worden weergegeven.]1
   ----------
@@ -31315,7 +31831,6 @@ Pagina 498 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Elke persoon die de toezichtfunctie uitoefent, legt aan de algemene ledenvergadering jaarlijks een individuele
  verklaring inzake belangenconflicten af die de in artikel XI.248/10, § 2 bedoelde informatie bevat.
    § 2. Het orgaan dat de toezichtfunctie uitoefent, komt periodiek bijeen en heeft ten minste de bevoegdheid om:
-Pagina 499 van 764 Copyright Belgisch S taatsblad 16-04-2026
     1° de bevoegdheden uit te oefenen die het door de algemene ledenvergadering zijn gedelegeerd, met inbegrip
  van de bevoegdheden op grond van artikel XI.248/4, §§ 2 en 4;
     2° toezicht te houden op de activiteiten en de taakuitvoering van de in artikel XI.248/5 bedoelde personen, met
@@ -31386,7 +31901,6 @@ Pagina 499 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De Controledienst kan ten allen tijde de nodige gegevens opvragen inzake de beleidsstructuur, administratieve
  en boekhoudkundige organisatie en interne controle van een beheersvennootschap.
    Indien de Controledienst ernstige of herhaalde inbreuken door een beheersvennootschap op de bepalingen van
-Pagina 500 van 764 Copyright Belgisch S taatsblad 16-04-2026
  deze titel, van de uitvoeringsbesluiten ervan of van de bepalingen van haar statuten of reglementen vaststelt en
  hij op basis van de gegevens waarover hij beschikt duidelijke aanwijzingen heeft dat deze inbreuken een gevolg
  zijn van een niet aan haar werkzaamheden aangepaste beleidsstructuur of administratieve organisatie, zal de
@@ -31429,7 +31943,9 @@ Pagina 500 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 41, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.249.[1 § 1. De vennootschappen voor het beheer van de rechten stellen tariferingsregels en innings- en
+## Art. XI.249
+
+[1 § 1. De vennootschappen voor het beheer van de rechten stellen tariferingsregels en innings- en
  verdelingsregels vast voor alle exploitatiewijzen waarvoor zij rechten van de rechthebbenden beheren, behalve in
  de gevallen waarin zij door of krachtens de wet zijn of moeten worden vastgesteld.
    § 2. De verdelingsregels omvatten eveneens de informatie over de beheerkosten en andere inhoudingen op de
@@ -31452,8 +31968,9 @@ Pagina 500 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 43, 049; Inwerkingtreding : 01-01-2018>
 
-Pagina 501 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XI.250.[1 De rechteninkomsten en inkomsten uit de belegging van rechteninkomsten mogen van de kant
+## Art. XI.250
+
+[1 De rechteninkomsten en inkomsten uit de belegging van rechteninkomsten mogen van de kant
  van de beheersvennootschappen slechts het voorwerp zijn van [2 defensieve]2 beleggingen.
    Wanneer een beheersvennootschap overeenkomstig het eerste lid rechteninkomsten of inkomsten uit de
  belegging van rechteninkomsten belegt, doet zij dat in het belang van de rechthebbenden wier rechten zij
@@ -31473,7 +31990,9 @@ Pagina 501 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 45, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.251.[1 Het is een beheersvennootschap niet toegestaan om de rechteninkomsten of inkomsten uit de
+## Art. XI.251
+
+[1 Het is een beheersvennootschap niet toegestaan om de rechteninkomsten of inkomsten uit de
  belegging van rechteninkomsten te gebruiken voor andere doeleinden dan uitkering aan de rechthebbenden,
  behalve wanneer het haar is toegelaten om haar beheerkosten in te houden of te compenseren in
  overeenstemming met een besluit genomen overeenkomstig artikel XI.284/4, § 3, 4° of deze rechteninkomsten
@@ -31482,7 +32001,9 @@ Pagina 501 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2017-06-08/13, art. 46, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.252.[1 § 1. Onverminderd artikel XI.260, § 3, en artikel XI.273/7, verdelen en betalen de
+## Art. XI.252
+
+[1 § 1. Onverminderd artikel XI.260, § 3, en artikel XI.273/7, verdelen en betalen de
  beheersvennootschappen regelmatig, zorgvuldig en nauwkeurig de verschuldigde bedragen aan de
  rechthebbenden in overeenstemming met de verdelingsregels.
    De beheersvennootschappen of hun vennoten die entiteiten zijn die rechthebbenden vertegenwoordigen,
@@ -31518,12 +32039,13 @@ Pagina 501 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inning van de rechteninkomsten heeft plaatsgevonden nog niet kunnen worden verdeeld en mits de
  beheersvennootschap alle nodige maatregelen heeft getroffen om de rechthebbenden te identificeren en te
  lokaliseren als bedoeld in paragraaf 3, worden deze bedragen niet-verdeelbaar geacht. Deze bedragen worden
-Pagina 502 van 764 Copyright Belgisch S taatsblad 16-04-2026
  overeenkomstig artikel XI.254 beheerd.]1
   ----------
   (1)<W 2017-06-08/13, art. 47, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.253.[1 De beheersvennootschappen mogen enkel voorschotten op de rechten toekennen als elk van de
+## Art. XI.253
+
+[1 De beheersvennootschappen mogen enkel voorschotten op de rechten toekennen als elk van de
  volgende voorwaarden vervuld is:
    1° zij worden verleend op grond van niet-discriminatoire regels. Deze regels maken een wezenlijk bestanddeel
  van de verdelingsregels van de beheersvennootschap uit;
@@ -31531,7 +32053,9 @@ Pagina 502 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2017-06-08/13, art. 48, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.254.[1 De niet-verdeelbare sommen, met inbegrip van de sommen die overeenkomstig artikel XI.252, §
+## Art. XI.254
+
+[1 De niet-verdeelbare sommen, met inbegrip van de sommen die overeenkomstig artikel XI.252, §
  4, niet verdeelbaar worden geacht, worden verdeeld onder de rechthebbenden van de betrokken categorie, op
  de wijze die bij tweederde meerderheid van de algemene vergadering wordt bepaald, onverminderd het recht van
  de rechthebbenden om deze bedragen bij de beheersvennootschap op te eisen.
@@ -31550,7 +32074,9 @@ Pagina 502 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2017-06-08/13, art. 49, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.255.[1 Onverminderd specifieke afwijkende bepalingen verjaren de vorderingen tot betaling van de
+## Art. XI.255
+
+[1 Onverminderd specifieke afwijkende bepalingen verjaren de vorderingen tot betaling van de
  rechten geïnd door de beheersvennootschappen na tien jaar te rekenen van de dag van hun inning. Deze termijn
  wordt geschorst vanaf de inning tot de datum van hun inverdelingstelling.]1
   ----------
@@ -31560,7 +32086,9 @@ Pagina 502 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 51, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.256.[1 De beheersvennootschappen zorgen ervoor dat de beheerkosten in de loop van een bepaald
+## Art. XI.256
+
+[1 De beheersvennootschappen zorgen ervoor dat de beheerkosten in de loop van een bepaald
  boekjaar redelijk zijn en in verhouding met de overeenstemmende beheerdiensten, en niet hoger zijn dan de
  gerechtvaardigde en gedocumenteerde gemaakte kosten.
    Indien beheerkosten van een beheersvennootschap een plafond van vijtien procent overschrijden van het
@@ -31577,18 +32105,21 @@ Pagina 502 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 53, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.257.[1 De beheersvennootschappen mogen noch op rechtstreekse noch op onrechtstreekse wijze
+## Art. XI.257
+
+[1 De beheersvennootschappen mogen noch op rechtstreekse noch op onrechtstreekse wijze
  kredieten of leningen toestaan. Ze mogen zich evenmin op rechtstreekse of onrechtstreekse wijze borg stellen
  voor de verbintenissen aangegaan door derden.]1
   ----------
   (1)<W 2017-06-08/13, art. 54, 049; Inwerkingtreding : 01-01-2018>
 
-Pagina 503 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Onderafdeling 6. [1 Sociale, culturele en educatieve doeleinden]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 55, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.258.[1 Onverminderd artikel XI.234, § 2, kan enkel de algemene vergadering van de
+## Art. XI.258
+
+[1 Onverminderd artikel XI.234, § 2, kan enkel de algemene vergadering van de
  beheersvennootschap met een meerderheid van twee derden van de stemmen van de aanwezige of
  vertegenwoordigde vennoten, tenzij de statuten in strengere bepalingen voorzien, beslissen dat ten hoogste tien
  procent van de geïnde rechten door de beheersvennootschap kan worden bestemd voor sociale, culturele of
@@ -31613,14 +32144,18 @@ Pagina 503 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 57, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.259.[1 De beheersvennootschappen discrimineren niet jegens een rechthebbende wiens rechten zij
+## Art. XI.259
+
+[1 De beheersvennootschappen discrimineren niet jegens een rechthebbende wiens rechten zij
  beheren krachtens een vertegenwoordigingsovereenkomst, met name ten aanzien van toepasselijke tarieven,
  beheerskosten en de voorwaarden voor inning van de rechteninkomsten en verdeling van aan rechthebbenden
  verschuldigde bedragen.]1
   ----------
   (1)<W 2017-06-08/13, art. 58, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.260.[1 § 1. Een beheersvennootschap hanteert geen andere inhoudingen dan voor beheerkosten op de
+## Art. XI.260
+
+[1 § 1. Een beheersvennootschap hanteert geen andere inhoudingen dan voor beheerkosten op de
  rechteninkomsten die voortvloeien uit de rechten die zij beheert op grond van een
  vertegenwoordigingsovereenkomst, of op inkomsten uit de belegging van die rechteninkomsten, tenzij de andere
  beheersvennootschap of de andere collectieve beheerorganisatie die partij is bij de
@@ -31648,11 +32183,12 @@ Pagina 503 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-06-08/13, art. 60, 049; Inwerkingtreding : 01-01-2018>
 
   Onderafdeling 1. [1 Inning van de rechten]1
-Pagina 504 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 61, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.261.[1 § 1. De beheersvennootschappen en gebruikers van werken en prestaties voeren te goeder
+## Art. XI.261
+
+[1 § 1. De beheersvennootschappen en gebruikers van werken en prestaties voeren te goeder
  trouw onderhandelingen over de licentieverlening voor rechten, de inning en tarifering van rechten.
  Onderhandelingen te goeder trouw omvatten het verschaffen van alle noodzakelijke informatie over de
  respectieve diensten van de beheersvennootschappen en de gebruikers.
@@ -31674,7 +32210,9 @@ Pagina 504 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2017-06-08/13, art. 62, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.262.[1 § 1. Licentievoorwaarden zijn gebaseerd op objectieve en niet-discriminerende criteria. Bij het
+## Art. XI.262
+
+[1 § 1. Licentievoorwaarden zijn gebaseerd op objectieve en niet-discriminerende criteria. Bij het
  verlenen van licenties voor rechten zijn beheersvennootschappen niet verplicht licentievoorwaarden die zijn
  overeengekomen met een gebruiker als precedent te gebruiken voor andere onlinediensten, wanneer de
  gebruiker een nieuwe soort onlinedienst aanbiedt die nog geen drie jaar voor het publiek in de Europese Unie
@@ -31696,7 +32234,9 @@ Pagina 504 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2017-06-08/13, art. 63, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.263.[1 § 1. De beheersvennootschappen kunnen, binnen de perken van de hen op grond van hun
+## Art. XI.263
+
+[1 § 1. De beheersvennootschappen kunnen, binnen de perken van de hen op grond van hun
  statuten verleende bevoegdheden, algemene contracten sluiten met betrekking tot de exploitatie van
  auteursrechten en naburige rechten.
     § 2. De beheersvennootschappen zijn bevoegd om in rechte op te treden met het oog op de verdediging van
@@ -31714,8 +32254,9 @@ Pagina 504 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 65, 049; Inwerkingtreding : 01-01-2018>
 
-Pagina 505 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XI.264.[1 § 1. Indien de beheersvennootschappen verhogingen van de toepasselijke rechten toepassen
+## Art. XI.264
+
+[1 § 1. Indien de beheersvennootschappen verhogingen van de toepasselijke rechten toepassen
  wanneer de gebruiker de beschermde werken of prestaties niet binnen de vereiste termijnen aangeeft, of
  wanneer hij niet de informatie verschaft die vereist is voor de inning of verdeling van de rechten, nemen zij de
  regels betreffende deze verhogingen op in hun tariferings- of inningsregels. Deze verhogingen hebben een
@@ -31731,7 +32272,9 @@ Pagina 505 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 67, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.265.[1 Na overleg met de beheersvennootschappen, de organisaties die de debiteuren van de rechten
+## Art. XI.265
+
+[1 Na overleg met de beheersvennootschappen, de organisaties die de debiteuren van de rechten
  vertegenwoordigen en de organisaties die de consumenten vertegenwoordigen, die zetelen in het overlegcomité
  ingesteld door artikel XI.282 en onverminderd het exclusieve recht van auteurs en houders van naburige rechten
  of hun verkrijgers, kan de Koning, bij een besluit vastgesteld na overleg in de Ministerraad, rekening houdend met
@@ -31760,7 +32303,9 @@ Pagina 505 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 70, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.266.[1 Onverminderd andere wettelijke bepalingen maakt elke beheersvennootschap op haar
+## Art. XI.266
+
+[1 Onverminderd andere wettelijke bepalingen maakt elke beheersvennootschap op haar
  internetpagina op een duidelijk leesbare plaats en met duidelijke verwijzing in het hoofdmenu van de
  internetpagina op zijn minst de volgende informatie openbaar en houdt deze actueel:
    1° haar statuten;
@@ -31779,11 +32324,12 @@ Pagina 505 van 764 Copyright Belgisch S taatsblad 16-04-2026
    9° haar algemene beleid inzake de verdeling van op grond van artikel XI.254, niet-verdeelbare bedragen;
    10° de overeenkomstig de artikelen XI.273/1 en XI.273/12, beschikbare procedures voor klachtenafhandeling
  en geschillenbeslechting.]1
-Pagina 506 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2017-06-08/13, art. 71, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.267.[1 Elke beheersvennootschap maakt, in antwoord op een naar behoren gemotiveerd verzoek, op
+## Art. XI.267
+
+[1 Elke beheersvennootschap maakt, in antwoord op een naar behoren gemotiveerd verzoek, op
  elektronische wijze en zonder onnodige vertraging op zijn minst de volgende informatie bekend aan iedere
  beheersvennootschap of iedere collectieve beheerorganisatie namens wie zij rechten beheert op grond van een
  vertegenwoordigingsovereenkomst of aan iedere rechthebbende of iedere gebruiker:
@@ -31799,7 +32345,9 @@ Pagina 506 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 73, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.268.[1 Onverminderd de informatie die medegedeeld moet worden krachtens de wetten en de statuten,
+## Art. XI.268
+
+[1 Onverminderd de informatie die medegedeeld moet worden krachtens de wetten en de statuten,
  kan elke vennoot of zijn gemachtigde, binnen een maand te rekenen van de dag van zijn verzoek, een afschrift
  krijgen van de stukken van de laatste drie jaren die betrekking hebben op:
     1° de door de algemene vergadering goedgekeurde jaarrekeningen en de financiële structuur van de
@@ -31816,7 +32364,9 @@ Pagina 506 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2017-06-08/13, art. 74, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.269.[1 § 1. De beheersvennootschappen maken ten minste eenmaal per jaar de volgende informatie
+## Art. XI.269
+
+[1 § 1. De beheersvennootschappen maken ten minste eenmaal per jaar de volgende informatie
  bekend aan elke rechthebbende ten gunste van wie zij rechteninkomsten heeft verdeeld of betalingen heeft
  gedaan in de periode waarop de informatie betrekking heeft:
     1° de contactgegevens voor het gebruik waarvan de rechthebbende de beheersvennootschap heeft
@@ -31846,10 +32396,11 @@ Pagina 506 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Onderafdeling 3. [1 Informatie in het kader van vertegenwoordigingsovereenkomsten]1
   ----------
-Pagina 507 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-06-08/13, art. 76, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.270.[1 De beheersvennootschappen maken minimaal eenmaal per jaar en op elektronische wijze aan
+## Art. XI.270
+
+[1 De beheersvennootschappen maken minimaal eenmaal per jaar en op elektronische wijze aan
  beheersvennootschappen of collectieve beheerorganisaties namens wie zij rechten beheren op grond van een
  vertegenwoordigingsovereenkomst, voor de periode waarop de informatie betrekking heeft, ten minste de
  volgende informatie bekend:
@@ -31871,7 +32422,9 @@ Pagina 507 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 78, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.271.[1 Na overleg met de beheersvennootschappen, de organisaties die de debiteuren van de rechten
+## Art. XI.271
+
+[1 Na overleg met de beheersvennootschappen, de organisaties die de debiteuren van de rechten
  vertegenwoordigen en de organisaties die de consumenten vertegenwoordigen, die zetelen in het overlegcomité
  ingesteld door artikel XI.282, bepaalt de Koning:
     1° de minimuminformatie die de documenten betreffende de inning van rechten die door de
@@ -31888,7 +32441,9 @@ Pagina 507 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 80, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.272.[1 Niettegenstaande iedere andersluidende bepaling brengen de beheersvennootschappen de
+## Art. XI.272
+
+[1 Niettegenstaande iedere andersluidende bepaling brengen de beheersvennootschappen de
  Controledienst op de hoogte van de voorstellen tot wijziging van de statuten, [2 de lidmaatschapsvoorwaarden
  en]2 de tarifering-, inning- of verdelingregels minstens zestig dagen vóór onderzoek ervan door het bevoegde
  orgaan.
@@ -31899,7 +32454,9 @@ Pagina 507 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2017-06-08/13, art. 81, 049; Inwerkingtreding : 01-01-2018>
   (2)<W 2024-02-09/19, art. 42, 129; Inwerkingtreding : 21-03-2024>
 
-  Art. XI.273.[1 De beheersvennootschappen bezorgen aan de Controledienst bij wijzigingen een gecoördineerde
+## Art. XI.273
+
+[1 De beheersvennootschappen bezorgen aan de Controledienst bij wijzigingen een gecoördineerde
  en bijgewerkte versie van hun tariferings-, innings- en verdelingsregels.]1
   ----------
   (1)<W 2017-06-08/13, art. 82, 049; Inwerkingtreding : 01-01-2018>
@@ -31908,8 +32465,9 @@ Pagina 507 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 83, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.273/1.[1 § 1. De rechthebbenden, de beheersvennootschappen en de collectieve beheerorganisaties die
-Pagina 508 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XI.273/1
+
+[1 § 1. De rechthebbenden, de beheersvennootschappen en de collectieve beheerorganisaties die
  de rechten die zij vertegenwoordigen op grond van een vertegenwoordigingsovereenkomst hebben
  toevertrouwd, en de gebruikers van beschermde werken en prestaties, hebben het recht om rechtstreeks bij de
  beheersvennootschappen klacht in te dienen tegen handelingen van beheer van auteursrechten of naburige
@@ -31980,7 +32538,6 @@ Pagina 508 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 88, 049; Inwerkingtreding : 27-06-2017>
 
-Pagina 509 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.273/5
 
 [1 § 1. Een beheersvennootschap die multiterritoriale licenties voor onlinerechten inzake
@@ -32052,7 +32609,6 @@ Pagina 509 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zijn, heeft plaatsgevonden;
     2° de geïnde bedragen, ingehouden bedragen en bedragen die door de beheersvennootschap zijn verdeeld
  voor ieder recht voor online gebruik van een muziekwerk waarvoor de rechthebbenden de
-Pagina 510 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beheersvennootschap hebben gemachtigd hen geheel of gedeeltelijk te vertegenwoordigen;
     3° de voor rekening van de rechthebbenden geïnde bedragen, ingehouden bedragen en bedragen die door de
  beheersvennootschap zijn verdeeld met betrekking tot iedere aanbieder van onlinediensten.
@@ -32122,13 +32678,14 @@ Pagina 510 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inzake muziekwerken ten behoeve van multiterritoriale licentieverlening voor alle grondgebieden uit die
  vennootschap terugtrekken zonder de onlinerechten inzake muziekwerken ten behoeve van monoterritoriale
  licentieverlening te hoeven terugtrekken, teneinde zelf of via enige andere partij die zij machtigt of via een andere
-Pagina 511 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beheersvennootschap die wel voldoet aan de voorwaarden van deze titel, multiterritoriale licenties voor hun
  onlinerechten inzake muziekwerken te verlenen.]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 94, 049; Inwerkingtreding : 27-06-2017>
 
-  Art. XI.273/11.[1 De bepalingen van deze afdeling zijn niet van toepassing op de beheersvennootschappen die
+## Art. XI.273/11
+
+[1 De bepalingen van deze afdeling zijn niet van toepassing op de beheersvennootschappen die
  op grond van de vrijwillige samenvoeging van de vereiste rechten overeenkomstig de mededingingsregels
  krachtens de artikelen 101 en 102 VWEU, een multiterritoriale licentie verlenen voor de onlinerechten inzake
  muziekwerken die vereist zijn voor een [2 omroeporganisatie]2 die zijn radio- of televisieprogramma's gelijktijdig
@@ -32139,7 +32696,9 @@ Pagina 511 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-06-08/13, art. 95, 049; Inwerkingtreding : 27-06-2017>
   (2)<W 2022-04-01/04, art. 18, 105; Inwerkingtreding : 01-05-2022>
 
-  Art. XI.273/12.[1 De geschillen met betrekking tot een beheersvennootschap die multiterritoriale licenties voor
+## Art. XI.273/12
+
+[1 De geschillen met betrekking tot een beheersvennootschap die multiterritoriale licenties voor
  onlinerechten inzake muziekwerken verleent of aanbiedt te verlenen, kunnen in onderling akkoord worden
  onderworpen [2 aan een of meer bemiddelaars]2, in de volgende gevallen:
    1° geschillen met een feitelijke of potentiële aanbieder van onlinediensten betreffende de toepassing van de
@@ -32190,7 +32749,6 @@ Pagina 511 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De commissaris of revisor die het voorwerp heeft uitgemaakt van een tuchtsanctie, brengt de Controledienst
  alsmede de betrokken beheersvennootschap van die tuchtsanctie op de hoogte binnen vijf werkdagen na de
  betekening van die tuchtmaatregel door het Instituut van de Bedrijfsrevisoren.]1
-Pagina 512 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 99, 049; Inwerkingtreding : 01-01-2018>
 
@@ -32260,7 +32818,6 @@ Pagina 512 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De vergunningsvoorwaarden voor een collectieve beheerorganisatie met een bijkantoor in België mogen geen
  overlapping vormen met gelijkwaardige, of gezien hun doel in wezen vergelijkbare eisen en controles waaraan de
  collectieve beheerorganisatie al onderworpen is in het land van de Europese Unie waar ze gevestigd is.
-Pagina 513 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 3. Alle aanvragen om vergunning worden per aangetekende zending naar de minister gestuurd.
     De Koning bepaalt de inlichtingen en de stukken die bij de aanvraag om vergunning moeten worden gevoegd.
     Binnen twee maanden na de indiening van de aanvraag bezorgt de minister of zijn afgevaardigde de aanvrager
@@ -32316,13 +32873,14 @@ Pagina 513 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.279.[1 § 1. De Controledienst oefent toezicht uit op de toepassing door de beheersvennootschappen:
+## Art. XI.279
+
+[1 § 1. De Controledienst oefent toezicht uit op de toepassing door de beheersvennootschappen:
    1° van deze titel en van de uitvoeringsbesluiten ervan; en,
    2° van hun statuten en hun regels van tarifering, inning en verdeling.
    § 2. De Controledienst ziet toe op de toepassing door de collectieve beheerorganisaties bedoeld in artikel XI,
  246, § 1, tweede lid met betrekking tot hun activiteiten op het Belgisch grondgebied:
    1° van de bepalingen opgesomd in artikel XI.246, § 1, tweede lid, en van de uitvoeringsbesluiten ervan;
-Pagina 514 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° van hun statuten en hun regels inzake tarifering, inning en verdeling; en
    3° van de bepalingen van de hoofdstukken 1 tot 8 en 11 van deze titel toepasselijk op de exploitatiewijzen
  waarvoor de collectieve beheerorganisaties bedoeld in artikel XI.246, § 1, tweede lid, de rechten in België
@@ -32376,7 +32934,9 @@ Pagina 514 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-06-08/13, art. 106, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.280.[1 De beheersvennootschappen moeten alle gegevens betreffende het beheer van de rechten
+## Art. XI.280
+
+[1 De beheersvennootschappen moeten alle gegevens betreffende het beheer van de rechten
  bewaren, hetzij op de maatschappelijke zetel, hetzij op enige andere plaats die de minister of de daartoe
  aangestelde ambtenaar vooraf heeft toegestaan.
    De collectieve beheerorganisaties bedoeld in artikel XI.246, § 1, tweede lid, moeten alle gegevens betreffende
@@ -32391,8 +32951,9 @@ Pagina 514 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2017-06-08/13, art. 107, 049; Inwerkingtreding : 01-01-2018>
 
-Pagina 515 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XI.281.[1 De personeelsleden van de beheersvennootschappen, van de onafhankelijke beheerentiteiten
+## Art. XI.281
+
+[1 De personeelsleden van de beheersvennootschappen, van de onafhankelijke beheerentiteiten
  gevestigd in België, van de bijkantoren in België van collectieve beheerorganisaties en van onafhankelijke
  beheerentiteiten gevestigd in een andere lidstaat van de Europese Unie en alle andere personen die betrokken
  zijn bij de inning van de krachtens de hoofdstukken 5 tot 9 verschuldigde vergoedingen, moeten het
@@ -32465,7 +33026,6 @@ Pagina 515 van 764 Copyright Belgisch S taatsblad 16-04-2026
  naburige rechten;
   2° observeren en analyseren van de markt van het auteursrecht en de naburige rechten;
   3° uitvoeren van economische analyses;
-Pagina 516 van 764 Copyright Belgisch S taatsblad 16-04-2026
   4° organiseren van publieke raadplegingen;
   5° uitwerken van een gegevensbank van nationale, Europese of internationale studies betreffende het
  economische belang van het auteursrecht en de naburige rechten, die door of op aanvraag van een autoriteit of
@@ -32502,7 +33062,9 @@ Pagina 516 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.286.[1 § 1. Onverminderd de paragrafen 2 en 3 en artikel XI.288, zijn de ambtenaren van de
+## Art. XI.286
+
+[1 § 1. Onverminderd de paragrafen 2 en 3 en artikel XI.288, zijn de ambtenaren van de
  Controledienst gehouden tot een vertrouwelijkheidsplicht ten aanzien van vertrouwelijke informatie waarvan zij
  kennis hebben in het kader van de uitoefening van hun functie. Zij mogen na de beëindiging van hun functie
  gedurende één jaar geen enkele functie uitoefenen in een vennootschap die onderworpen is aan de controle
@@ -32533,9 +33095,10 @@ Pagina 516 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2016-06-29/01, art. 30, 036; Inwerkingtreding : 16-07-2016>
 
-  Art. XI.287.[1 § 1. Er wordt een organiek fonds opgericht voor de transparantie van het auteursrecht en de
+## Art. XI.287
+
+[1 § 1. Er wordt een organiek fonds opgericht voor de transparantie van het auteursrecht en de
  naburige rechten.
-Pagina 517 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De ontvangsten toegewezen aan het fonds bedoeld in het eerste lid, alsook de mogelijke uitgaven ten laste van
  het fonds, zijn vermeld bij het genoemde fonds, in de bij organieke wet van 27 december 1990 houdende
  oprichting van begrotingsfondsen gevoegde tabel.
@@ -32593,7 +33156,9 @@ Pagina 517 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2017-06-08/13, art. 109, 049; Inwerkingtreding : 01-01-2018>
 
-  Art. XI.288.[1 Jaarlijks publiceert de FOD Economie een activiteitenverslag betreffende het auteursrecht en de
+## Art. XI.288
+
+[1 Jaarlijks publiceert de FOD Economie een activiteitenverslag betreffende het auteursrecht en de
  naburige rechten. Dit verslag omvat een onderdeel "wetgeving", een onderdeel "controle", [2 ...]2 en een
  onderdeel "economische analyse". Het verslag biedt een overzicht van de activiteiten die gedurende het jaar
  werden uitgeoefend door de FOD Economie.
@@ -32604,7 +33169,6 @@ Pagina 517 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verslag uitbrengen van de specifieke rol en de financiële toestand van de beheersvennootschappen alsook van
  de recente ontwikkelingen binnen deze sector.
   Het verslag wordt meegedeeld aan de minister. Eveneens wordt het verslag op de website van de FOD
-Pagina 518 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Economie gepubliceerd.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -32614,7 +33178,9 @@ Pagina 518 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.289.[1 Onverminderd het bepaalde in internationale overeenkomsten gelden de bij deze titel
+## Art. XI.289
+
+[1 Onverminderd het bepaalde in internationale overeenkomsten gelden de bij deze titel
  gewaarborgde rechten in België ook voor de buitenlandse auteurs en de buitenlanders die naburige rechten
  genieten, maar niet voor een langere termijn dan bij de Belgische wet is bepaald.
   Indien evenwel die rechten in hun eigen land vervallen na een kortere termijn, vervallen zij ook in België na het
@@ -32652,7 +33218,9 @@ Pagina 518 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.291.[1 § 1. Eenieder die een doeltreffende technische voorziening omzeilt en dat weet of redelijkerwijs
+## Art. XI.291
+
+[1 § 1. Eenieder die een doeltreffende technische voorziening omzeilt en dat weet of redelijkerwijs
  behoort te weten en die weet of redelijkerwijs behoort te weten dat deze omzeiling het plegen van inbreuken
  bedoeld in artikel XI.293 kan vergemakkelijken, is schuldig aan een misdrijf. De omzeiling van technische
  voorzieningen getroffen, overeenkomstig of krachtens dit artikel of overeenkomstig artikel XI.336 en XVII.15, §
@@ -32674,7 +33242,6 @@ Pagina 518 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de gebruiker van een werk of een prestatie om de uitzonderingen bedoeld in artikel XI.190, 5°, 12°, 14°, 15°,
  17°, 18°, 19°, 20° en 21°, in artikel XI.191, § 1, 1° en 5°, in artikel XI.191/1, § 1, 3°, 4°, 5°, 7° en 8°, in artikel
 
-Pagina 519 van 764 Copyright Belgisch S taatsblad 16-04-2026
  XI.191/2, § 1, 1° tot 4°, in artikel XI.192, § 1, tweede lid, in artikel XI.217, 11°, 13°, 14°, 16°, 17°, 18°, 19° en
  20°, in artikel XI.217/1, 3°, 4°, 6° en 7°, in artikel XI.218, § 1, tweede lid, in artikel XI.299, §§ 4 tot 7, en in artikel
  XI.310, §§ 2 tot 5, te kunnen genieten, mits de gebruiker op rechtmatige wijze toegang heeft tot het door de
@@ -32748,10 +33315,11 @@ Pagina 519 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° Richtlijn (EU) 2019/790 van het Europees Parlement en de Raad van 17 april 2019 inzake auteursrechten en
  naburige rechten in de digitale eengemaakte markt en tot wijziging van Richtlijnen 96/9/EG en 2001/29/EG.]1
   ----------
-Pagina 520 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2022-06-19/03, art. 75, 113; Inwerkingtreding : 01-08-2022>
 
-  Art. XI.294.[1 [2 Computerprogramma's, het voorbereidend materiaal daaronder begrepen, worden]2
+## Art. XI.294
+
+[1 [2 Computerprogramma's, het voorbereidend materiaal daaronder begrepen, worden]2
  auteursrechtelijk beschermd en gelijkgesteld met werken van letterkunde in de zin van de Berner Conventie.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -32806,7 +33374,9 @@ Pagina 520 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.299.[1 § 1. Tenzij bij overeenkomst uitdrukkelijk anders is bepaald, is voor de in artikel XI.298, a) en b),
+## Art. XI.299
+
+[1 § 1. Tenzij bij overeenkomst uitdrukkelijk anders is bepaald, is voor de in artikel XI.298, a) en b),
  genoemde handelingen, geen toestemming van de rechthebbende vereist wanneer deze handelingen voor de
  rechtmatige gebruiker noodzakelijk zijn om het computerprogramma te kunnen gebruiken voor het beoogde
  doel, met inbegrip van het verbeteren van fouten.
@@ -32823,7 +33393,6 @@ Pagina 520 van 764 Copyright Belgisch S taatsblad 16-04-2026
  werk of prestatie waartoe de begunstigde rechtmatige toegang heeft, door een begunstigde of een namens hem
  optredende persoon, voor exclusief gebruik door de begunstigde, voor zover hierdoor geen afbreuk wordt
  gedaan aan de normale exploitatie van het computerprogramma en geen onredelijke schade wordt berokkend
-Pagina 521 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de wettige belangen van de rechthebbende. Een in België gevestigde begunstigde kan een exemplaar in
  toegankelijke vorm verkrijgen van of er toegang toe hebben bij een toegelaten entiteit die in een lidstaat van de
  Europese Unie gevestigd is;
@@ -32893,7 +33462,6 @@ Pagina 521 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° de mogelijkheid voor de rechthebbende om zijn rechten uit te sluiten van deze uitzondering, overeenkomstig
 ## Art. XI.245/7/3.
    De Koning kan nadere regels bepalen in verband met de in het eerste lid bedoelde kenbaarmaking, alsook
-Pagina 522 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aanvullende passende publiciteitsmaatregelen bepalen indien dit noodzakelijk blijkt voor de algemene
  bewustwording van rechthebbenden.
     § 4. De reproductie en de mededeling aan het publiek door een voor het publiek toegankelijke bibliotheek of een
@@ -32932,7 +33500,9 @@ Pagina 522 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.301.[1 De bepalingen van de artikelen XI.299, §§ 2 tot 7, XI.299/1 en XI.300 zijn van dwingend recht.]1
+## Art. XI.301
+
+[1 De bepalingen van de artikelen XI.299, §§ 2 tot 7, XI.299/1 en XI.300 zijn van dwingend recht.]1
   ----------
   (1)<W 2022-06-19/03, art. 80, 113; Inwerkingtreding : 01-08-2022>
 
@@ -32968,8 +33538,9 @@ Pagina 522 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 523 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XI.305.[1 Deze titel voorziet in de omzetting van volgende richtlijnen:
+## Art. XI.305
+
+[1 Deze titel voorziet in de omzetting van volgende richtlijnen:
    1° Richtlijn 96/9/EG van het Europees Parlement en de Raad van 11 maart 1996 betreffende de
  rechtsbescherming van databanken;
    2° Richtlijn (EU) 2019/790 van het Europees Parlement en de Raad van 17 april 2019 inzake auteursrechten en
@@ -33008,7 +33579,9 @@ Pagina 523 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.308.[1 Het recht van de producenten van databanken is een roerend recht dat overgaat bij erfopvolging
+## Art. XI.308
+
+[1 Het recht van de producenten van databanken is een roerend recht dat overgaat bij erfopvolging
  en vatbaar is voor gehele of gedeeltelijke overdracht, overeenkomstig de bepalingen van het Burgerlijk Wetboek.
  Het kan onder meer worden [2 overgedragen]2 of in een gewone of exclusieve licentie worden ondergebracht.]1
   ----------
@@ -33036,11 +33609,12 @@ Pagina 523 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.310.[2 § 1.]2 [1 De rechtmatige gebruiker van een databank die op enige wettige wijze aan het publiek ter
+## Art. XI.310
+
+[2 § 1.]2 [1 De rechtmatige gebruiker van een databank die op enige wettige wijze aan het publiek ter
  beschikking is gesteld, kan zonder toestemming van de producent :
   1° uitsluitend voor privégebruik een substantieel deel van de inhoud van een niet-electronische databank
  opvragen;
-Pagina 524 van 764 Copyright Belgisch S taatsblad 16-04-2026
     2° ter illustratie bij onderwijs of voor wetenschappelijk onderzoek een substantieel deel van de inhoud van een
  databank opvragen, voor zover zulks verantwoord is door de nagestreefde niet-winstgevende doelstelling;
     3° een substantieel deel van de inhoud van een databank opvragen en/of hergebruiken om de openbare
@@ -33110,7 +33684,6 @@ Pagina 524 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. Behoudens in het geval bedoeld in paragraaf 2, kan de producent van een databank zich
  niet verzetten tegen de reproductie of mededeling aan het publiek voor niet-commerciële doeleinden door een
  voor het publiek toegankelijke bibliotheek of een voor het publiek toegankelijk museum, een archief of een
-Pagina 525 van 764 Copyright Belgisch S taatsblad 16-04-2026
  instelling voor cinematografisch of audio(visueel) erfgoed, van een databank die niet of niet meer in de handel is
  en die permanent deel uitmaakt van hun collecties, op voorwaarde dat:
     1° de overeenkomstig artikel XI.245/7/2, § 2, aangeduide representatieve beheersvennootschap niet is
@@ -33177,12 +33750,13 @@ Pagina 525 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.314.[1 De bepalingen van de artikelen XI.310 tot XI.313 zijn van dwingend recht.
+## Art. XI.314
+
+[1 De bepalingen van de artikelen XI.310 tot XI.313 zijn van dwingend recht.
   [2 ...]2]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
   (2)<W 2022-06-19/03, art. 85, 113; Inwerkingtreding : 01-08-2022>
-Pagina 526 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 5. - [1 Beschermingsgerechtigden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -33255,7 +33829,6 @@ Pagina 526 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schuldig aan een misdrijf.
   § 2. In de zin van dit artikel wordt onder "informatie betreffende het beheer van rechten" verstaan alle door de
  producenten van databanken verstrekte informatie op grond waarvan de databank, dan wel de producent van
-Pagina 527 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de databank kunnen worden geïdentificeerd. Deze term wijst ook op informatie betreffende de voorwaarden
  voor het gebruik van de databank, alsook op de cijfers en codes waarin die informatie vervat ligt.
   Het eerste lid is van toepassing, wanneer bestanddelen van deze informatie zijn verbonden met een kopie van
@@ -33313,7 +33886,9 @@ Pagina 527 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 37, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
-  Art. XI.318/3.[1 De Koning bepaalt bij een koninklijk besluit vastgesteld na overleg in de Ministerraad, de in de
+## Art. XI.318/3
+
+[1 De Koning bepaalt bij een koninklijk besluit vastgesteld na overleg in de Ministerraad, de in de
  artikel XI.318/1 bedoelde vergoeding.
    Deze vergoeding kan worden aangepast naar gelang van de betrokken sectoren.
    De Koning bepaalt de nadere regels voor de inning en de verdeling van en de controle op die vergoeding,
@@ -33326,13 +33901,14 @@ Pagina 527 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Indien de omstandigheden die het bepalen van het bedrag hebben gerechtvaardigd, kennelijk en duurzaam
  gewijzigd zijn, kan dit bedrag voor het verstrijken van de termijn van drie jaar worden herzien.
    Indien de Koning het bedrag binnen de termijn van drie jaar herziet, motiveert Hij zijn beslissing door de
-Pagina 528 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wijziging van de initiële omstandigheden.]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 38, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
   (2)<W 2017-06-08/13, art. 110, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.318/4.[1 De in het kader van dit hoofdstuk door de Koning aangewezen [2 beheersvennootschap]2 kan
+## Art. XI.318/4
+
+[1 De in het kader van dit hoofdstuk door de Koning aangewezen [2 beheersvennootschap]2 kan
  de nodige inlichtingen voor het uitvoeren van haar opdracht in naleving van artikel XI.281 en XV.113 bekomen bij
  :
     1° de Administratie der Douane en Accijnzen met toepassing van artikel 320 van de algemene wet inzake
@@ -33344,7 +33920,9 @@ Pagina 528 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2016-12-22/03, art. 39, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
    (2)<W 2017-06-08/13, art. 111, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XI.318/5.[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
+## Art. XI.318/5
+
+[1 Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2
  inlichtingen doorgeven aan de Administratie der Douane en Accijnzen en btw-Administratie op hun verzoek.
     Onverminderd artikel XI.281 en XV.113 kan de [2 aangewezen beheersvennootschap]2 inlichtingen doorgeven
  aan en krijgen van :
@@ -33398,7 +33976,6 @@ Pagina 528 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Op hetzelfde moment dat Hij het statuut van de apparaten en dragers vaststelt, stelt de Koning bij een
  koninklijk besluit vastgesteld na overleg in de Ministerraad, de in artikel XI.318/7 bedoelde vergoeding vast.
 
-Pagina 529 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Deze vergoeding wordt vastgesteld per categorie van technisch soortgelijke apparaten en dragers.
    Een apparaat dat kennelijk gebruikt wordt voor het reproduceren voor eigen gebruik van uitgaven en dat op
  voortdurende wijze een drager incorporeert, is slechts aan een enkele vergoeding onderworpen.
@@ -33467,7 +34044,6 @@ Pagina 529 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 530 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XI.319
 
 [1 De maker van een topografie van een halfgeleiderproduct heeft het exclusief en tijdelijk recht
@@ -33550,7 +34126,6 @@ Pagina 530 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 531 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 3. - [1 De duur en het verstrijken van het exclusief recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -33630,7 +34205,6 @@ Pagina 531 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedrijfsinformatie (bedrijfsgeheimen) tegen het onrechtmatig verkrijgen, gebruiken en openbaar maken
  daarvan.]1
   ----------
-Pagina 532 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2018-07-30/18, art. 5, 064; Inwerkingtreding : 24-08-2018>
 
 ## Art. XI.332/2
@@ -33702,7 +34276,6 @@ Pagina 532 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gezien de omstandigheden, had moeten weten dat het bedrijfsgeheim direct of indirect werd verkregen van een
  andere persoon die het bedrijfsgeheim op een onrechtmatige manier gebruikte of openbaar maakte in de zin van
  paragraaf 2.
-Pagina 533 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 4. Het produceren, aanbieden of in de handel brengen van inbreukmakende goederen, of de invoer, uitvoer
  of opslag van inbreukmakende goederen voor die doeleinden, wordt ook als een onrechtmatig gebruik van een
  bedrijfsgeheim beschouwd wanneer de persoon die dergelijke activiteiten uitvoert, wist of, gezien de
@@ -33774,7 +34347,6 @@ Pagina 533 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beschermingscertificaat, een kwekersrecht, een auteursrecht, een naburig recht, het recht van een producent
  van databanken of het recht op een topografie van halfgeleiderproducten vaststelt, beveelt hij tegenover elke
 
-Pagina 534 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inbreukmaker de staking van deze inbreuk.
    De rechter kan eveneens een bevel tot staking uitvaardigen tegenover tussenpersonen wier diensten door
  derden worden gebruikt om inbreuk op een in het eerste lid bepaald recht te plegen.
@@ -33836,7 +34408,9 @@ Pagina 534 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.336.[1 § 1. Niettegenstaande de rechtsbescherming voorzien in artikel XI.291 en in artikel XI.316, zijn de
+## Art. XI.336
+
+[1 § 1. Niettegenstaande de rechtsbescherming voorzien in artikel XI.291 en in artikel XI.316, zijn de
  voorzitter van de rechtbank van eerste aanleg en de voorzitter van de [6 ondernemingsrechtbank]6 in
  aangelegenheden die tot de respectieve bevoegdheid van die rechtbanken behoren, bevoegd voor het vaststellen
  van elke overtreding van artikel XI.291, §§ 2 en 4, en van artikel XI.316, §§ 2 en 5, en naargelang het geval :
@@ -33844,7 +34418,6 @@ Pagina 534 van 764 Copyright Belgisch S taatsblad 16-04-2026
    a) [7 ofwel het opleggen aan de rechthebbenden van het nemen van passende maatregelen die de
  begunstigden van de uitzonderingen bedoeld in artikel XI.190, 5°, 12°, 14°, 15°, 17°, 18°, 19°, 20° en 21°, in
  artikel XI.191, § 1, 1° en 5°, in artikel XI.191/1, § 1, 3°, 4°, 5°, 7° en 8°, in artikel XI.191/2, § 1, 1° tot 4°, in artikel
-Pagina 535 van 764 Copyright Belgisch S taatsblad 16-04-2026
  XI.192, § 1, tweede lid, in artikel XI.217, 11°, 13°, 14°, 16°, 17°, 18°, 19° en 20°, in artikel XI.217/1, 3°, 4°, 6° en
  7°, in artikel XI.218, § 1, tweede lid, in artikel XI.299, §§ 4 tot 7, en in artikel XI.310, §§ 2 tot 5, of in de bepalingen
  door de Koning bepaald krachtens artikel XI.291, § 2, tweede lid, toelaten te kunnen genieten van deze
@@ -33912,7 +34485,6 @@ Pagina 535 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De houder van het bedrijfsgeheim heeft het recht te verzoeken om de toepassing van de
  maatregelen, procedures en rechtsmiddelen vastgesteld door de wet ter voorkoming van, of om
  schadeloosstelling te verkrijgen voor, het onrechtmatig verkrijgen, gebruiken of openbaar maken van zijn
-Pagina 536 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedrijfsgeheim.]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 14, 064; Inwerkingtreding : 24-08-2018>
@@ -33983,7 +34555,6 @@ Pagina 536 van 764 Copyright Belgisch S taatsblad 16-04-2026
  worden.]1
    ----------
    (1)<Ingevoegd bij W 2018-07-30/18, art. 16, 064; Inwerkingtreding : 24-08-2018>
-Pagina 537 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 3. [1 - Vergoeding van de schade geleden door het onrechtmatig verkrijgen, gebruiken of
  openbaar maken van een bedrijfsgeheim]1
   ----------
@@ -34014,7 +34585,9 @@ Pagina 537 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.337.[1 § 1. [2 Onverminderd de bevoegdheid van het eengemaakt octrooigerecht bedoeld in artikel 32,
+## Art. XI.337
+
+[1 § 1. [2 Onverminderd de bevoegdheid van het eengemaakt octrooigerecht bedoeld in artikel 32,
  eerste lid, van de Overeenkomst betreffende een eengemaakt octrooigerecht, neemt de [3
  ondernemingsrechtbank]3 te Brussel [3 ...]3 kennis van alle vorderingen inzake octrooien of aanvullende
  beschermingscertificaten, ongeacht het bedrag van de vordering.]2
@@ -34030,7 +34603,9 @@ Pagina 537 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2017-12-19/07, art. 7, 054; Inwerkingtreding : 01-02-2018>
   (3)<W 2018-04-15/14, art. 195, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. XI.338.[1 § 1. Elk exploot van betekening van een beslissing tot gehele of gedeeltelijke nietigverklaring van
+## Art. XI.338
+
+[1 § 1. Elk exploot van betekening van een beslissing tot gehele of gedeeltelijke nietigverklaring van
  een octrooi of een aanvullend beschermingscertificaat op basis van artikel XI.57, wordt door de
  instrumenterende gerechtsdeurwaarder onmiddellijk in afschrift medegedeeld aan de Dienst.
    § 2. De Dienst kan vragen aan de griffier van de [2 ondernemingsrechtbank]2 te Brussel of tegen de beslissing
@@ -34050,7 +34625,6 @@ Pagina 537 van 764 Copyright Belgisch S taatsblad 16-04-2026
  administratief comité overeenkomstig artikel 7(3) van de Overeenkomst van 19 februari 2013 betreffende het
  eengemaakt octrooigerecht, waarmee werd ingestemd bij de wet van 27 mei 2014.
    Deze lokale afdeling heeft haar zetel te Brussel.]1
-Pagina 538 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 43, 129; Inwerkingtreding : 31-03-2024>
 
@@ -34074,7 +34648,9 @@ Pagina 538 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-10/77, art. 4, 023; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.339.[1 De [2 ondernemingsrechtbanken]2 nemen [2 ...]2 kennis van alle vorderingen aangaande de
+## Art. XI.339
+
+[1 De [2 ondernemingsrechtbanken]2 nemen [2 ...]2 kennis van alle vorderingen aangaande de
  toepassing van titel 3, ongeacht het bedrag van de vordering.
    Is het geschil ontstaan in de loop van het administratieve onderzoek van de aanvraag voor de verlening van
  het kwekersrecht, dan kan de Dienst op vordering van een partij in het rechtsgeding, de verlening van het recht
@@ -34093,7 +34669,9 @@ Pagina 538 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XI.342.[1 § 1. De [2 ondernemingsrechtbanken]2 nemen [2 ...]2 kennis van alle vorderingen aangaande de
+## Art. XI.342
+
+[1 § 1. De [2 ondernemingsrechtbanken]2 nemen [2 ...]2 kennis van alle vorderingen aangaande de
  toepassing van titel 8, ongeacht het bedrag van de vordering.
    § 2. Tot kennisneming van de vordering bedoeld in paragraaf 1 is alleen bevoegd :
    1° de rechtbank die is gevestigd waar het hof van beroep zijn zetel heeft in het rechtsgebied waarvan de
@@ -34115,8 +34693,9 @@ Pagina 538 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 20, 064; Inwerkingtreding : 24-08-2018>
 
-Pagina 539 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XI.342/1.[1 § 1. Onverminderd de bevoegdheden van de arbeidsrechtbank, neemt de [2
+## Art. XI.342/1
+
+[1 § 1. Onverminderd de bevoegdheden van de arbeidsrechtbank, neemt de [2
  ondernemingsrechtbank]2, zelfs wanneer de partijen geen ondernemingen zijn, kennis van alle vorderingen
  inzake het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim, ongeacht het bedrag
  van de vordering.
@@ -34174,7 +34753,9 @@ Pagina 539 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XI.343.[1 [2 ...]2
+## Art. XI.343
+
+[1 [2 ...]2
   Dezelfde verplichting geldt voor de scheidsgerechten. ]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
@@ -34184,7 +34765,6 @@ Pagina 539 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-Pagina 540 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Titel 1. - [1 Bepaalde juridische aspecten van de diensten van de informatiemaatschappij]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
@@ -34193,7 +34773,9 @@ Pagina 540 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Art. XII.1.[1 § 1. Hoofdstukken 1 tot 6 van deze titel zetten de bepalingen om van Richtlijn 2000/31/EG van het
+## Art. XII.1
+
+[1 § 1. Hoofdstukken 1 tot 6 van deze titel zetten de bepalingen om van Richtlijn 2000/31/EG van het
  Europees Parlement en de Raad van 8 juni 2000 betreffende bepaalde juridische aspecten van de diensten van
  de informatiemaatschappij, met name de elektronische handel, in de interne markt.
   Hoofdstuk 4 zet bovendien gedeeltelijk de bepalingen om van Richtlijn 2009/136/EG van het Europees Parlement
@@ -34256,7 +34838,6 @@ Pagina 540 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het eerste en het tweede lid zijn gericht op de specifieke of algemene vereisten inzake de diensten van de
  informatiemaatschappij en de verleners van deze diensten. Zij hebben geen betrekking op de vereisten inzake
 
-Pagina 541 van 764 Copyright Belgisch S taatsblad 16-04-2026
  goederen als zodanig, de fysieke levering ervan of diensten die niet langs elektronische weg worden verleend.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
@@ -34265,7 +34846,9 @@ Pagina 541 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Art. XII.4.[1 In afwijking van artikel XII.3, [2 blijven Boek II, Titel II, Hoofdstuk V, Afdelingen 2 tot 4, en Boek III,
+## Art. XII.4
+
+[1 In afwijking van artikel XII.3, [2 blijven Boek II, Titel II, Hoofdstuk V, Afdelingen 2 tot 4, en Boek III,
  Titel I van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of
  herverzekeringsondernemingen van toepassing.]2
   In afwijking van artikel XII.3 is de reclame voor de verhandeling van aandelen van maatschappijen die collectief
@@ -34326,7 +34909,6 @@ Pagina 541 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Hoofdstuk 3. - [1 Informatie en doorzichtigheid]1
   ----------
-Pagina 542 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 ## Art. XII.6
@@ -34406,7 +34988,6 @@ Pagina 542 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorzien in de artikelen XII.6 tot XII.9 is voldaan.]1
   ----------
 
-Pagina 543 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
   Hoofdstuk 4. - [1 Reclame]1
@@ -34467,7 +35048,9 @@ Pagina 543 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-   Art. XII.15.[1 § 1. Aan elke wettelijke of reglementaire vormvereiste voor de totstandkoming van contracten
+## Art. XII.15
+
+[1 § 1. Aan elke wettelijke of reglementaire vormvereiste voor de totstandkoming van contracten
  langs elektronische weg is voldaan wanneer de functionele kwaliteiten van deze vereiste zijn gevrijwaard.
    § 2. Voor de toepassing van § 1, moet in overweging worden genomen dat :
    - [3 aan de vereiste van een geschrift is voldaan door een geheel van alfabetische tekens of van enige andere
@@ -34479,13 +35062,14 @@ Pagina 543 van 764 Copyright Belgisch S taatsblad 16-04-2026
  3.12. van verordening 910/2014]2;
    - aan de vereiste van een geschreven vermelding van degene die zich verbindt, kan worden voldaan door om
  het even welk procédé dat waarborgt dat de vermelding effectief uitgaat van deze laatste.]1
-Pagina 544 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
   (2)<W 2015-10-26/06, art. 46, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2018-09-20/14, art. 10, 067; Inwerkingtreding : 20-10-2018>
 
-  Art. XII.16.[1 [2 Op voorwaarde dat ze het bestaan van praktische belemmeringen vaststellen voor het vervullen
+## Art. XII.16
+
+[1 [2 Op voorwaarde dat ze het bestaan van praktische belemmeringen vaststellen voor het vervullen
  van een wettelijke of reglementaire vormvereiste in het kader van de totstandkoming van een contract langs
  elektronische weg, kunnen de bevoegde hoven en rechtbanken het artikel XII.15 niet toepassen]2 op de
  contracten die tot één van de volgende categorieën behoren :
@@ -34520,7 +35104,9 @@ Pagina 544 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Art. XII.20.[1 § 1. Onverminderd andere wettelijke of reglementaire bepalingen, wanneer door een bevoegde
+## Art. XII.20
+
+[1 § 1. Onverminderd andere wettelijke of reglementaire bepalingen, wanneer door een bevoegde
  gerechtelijke of administratieve autoriteit een inbreuk met betrekking tot specifieke inhoud wordt vastgesteld,
  maken de verleners van de in artikel 3, onder g), i) en j), van Verordening (EU) 2022/2065 van het Europees
  Parlement en de Raad van 19 oktober 2022 betreffende een eengemaakte markt voor digitale diensten en tot
@@ -34541,7 +35127,6 @@ Pagina 544 van 764 Copyright Belgisch S taatsblad 16-04-2026
  en de Raad van 19 oktober 2022 betreffende een eengemaakte markt voor digitale diensten en tot wijziging van
  Richtlijn 2000/31/EG.]1
   ----------
-Pagina 545 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2024-04-21/06, art. 4, 132; Inwerkingtreding : 25-05-2024>
 
   Hoofdstuk 7. - [1 De juridische bescherming van diensten van de informatiemaatschappij gebaseerd op of
@@ -34614,14 +35199,15 @@ Pagina 545 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toepassing op de componenten gebruikt voor elektronische handtekeningen, elektronische aangetekende
  zendingen en elektronische tijdstempel, als bedoeld in het eerste lid.]1
   ----------
-Pagina 546 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2016-07-21/40, art. 5, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
   Hoofdstuk 2. [1 Algemene principes]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 6, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Art. XII.25.[1 § 1. Behoudens andersluidende wettelijke bepalingen kan niemand verplicht worden
+## Art. XII.25
+
+[1 § 1. Behoudens andersluidende wettelijke bepalingen kan niemand verplicht worden
  rechtshandelingen te stellen via elektronische weg.
    § 2. De begrippen die in deze titel voorkomen en die niet in artikel I.18. worden vermeld, worden begrepen in de
  zin van de definities van artikel 3 van verordening 910/2014.
@@ -34680,7 +35266,6 @@ Pagina 546 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voldoet aan de eisen van artikel 36 van verordening 910/2014.]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 7, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
-Pagina 547 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2016-07-21/40, art. 7, 037; Inwerkingtreding : onbepaald (KB 2016-09-14/06, art. 1)>
   (3)<W 2019-04-13/28, art. 38, 090; Inwerkingtreding : 01-11-2020>
 
@@ -34751,7 +35336,6 @@ Pagina 547 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2016-07-21/40, art. 12, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
   Hoofdstuk 4. - [1 Eisen betreffende de diensten van gekwalificeerde elektronische aangetekende zending]1
-Pagina 548 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 13, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -34822,7 +35406,6 @@ Pagina 548 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 18, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-Pagina 549 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Hoofdstuk 6. - [1 De vertrouwende partijen van een gekwalificeerde elektronische handtekening of van een
  gekwalificeerd elektronisch zegel]1
   ----------
@@ -34891,7 +35474,6 @@ Pagina 549 van 764 Copyright Belgisch S taatsblad 16-04-2026
  sector, in het bijzonder van artikel 5 van de archiefwet van 24 juni 1955.
    Wanneer de gebruiker van de dienst vraagt om de gegevens terug te bezorgen of over te dragen naar een
  andere dienstverlener, bezorgt de dienstverlener de gegevens alsook de informatie bedoeld in artikel 24,
-Pagina 550 van 764 Copyright Belgisch S taatsblad 16-04-2026
  paragraaf 2, punt h) van verordening 910/2014 desgevallend terug aan de gebruiker van de dienst of draagt ze
  over naar de andere aangewezen dienstverlener, binnen een redelijke termijn en in een leesbare en bruikbare
  vorm, overeengekomen met de gebruiker van de dienst of met de nieuwe dienstverlener, met instemming van de
@@ -34959,7 +35541,6 @@ Pagina 550 van 764 Copyright Belgisch S taatsblad 16-04-2026
    8° de duur van het contract en de wijzen om het te beëindigen,
    9° de rechtsgevolgen die aan zijn dienst verbonden zijn;
    j) blijk geven van onpartijdigheid ten aanzien van de gebruikers van zijn dienst en van derden;
-Pagina 551 van 764 Copyright Belgisch S taatsblad 16-04-2026
    k) over voldoende financiële middelen beschikken om de dienst conform de eisen gesteld in verordening
  910/2014, in titel 2 van boek XII en in deze bijlage te kunnen aanbieden, in het bijzonder om de
  schadeverantwoordelijkheid aan te kunnen door bijvoorbeeld een geschikte verzekering af te sluiten.
@@ -35025,7 +35606,6 @@ Pagina 551 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de voorwaarden vastgelegd in de artikelen 11, 12 en 31 van Verordening 2022/868.
    § 3. Ter aanvulling van de artikelen 11, 12 en 31 van Verordening 2022/868 mag een rechtspersoon alleen
  worden geregistreerd als er wordt voldaan aan de volgende voorwaarden:
-Pagina 552 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° ingeschreven zijn in de Kruispuntbank van Ondernemingen;
    2° een wettelijk bestuursorgaan hebben dat enkel samengesteld is uit personen die beantwoorden aan de
  volgende voorwaarden:
@@ -35092,7 +35672,6 @@ Pagina 552 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 1. [1 - Vereisten inzake de registratie van activiteiten in verband met data-altruïsme]1
   ----------
-Pagina 553 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2024-05-15/13, art. 20, 137; Inwerkingtreding : 01-10-2024>
 
 ## Art. XII.43
@@ -35161,7 +35740,6 @@ Pagina 553 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De ontvangers van die gegevens zijn:
     1° het inschrijvingsorgaan en het controleorgaan voor databemiddelingsdiensten en organisaties voor dataaltruïsme;
     2° de Europese Commissie voor zover nodig voor de inschrijving van aanbieders van
-Pagina 554 van 764 Copyright Belgisch S taatsblad 16-04-2026
  databemiddelingsdiensten in het openbaar register van aanbieders van databemiddelingsdiensten in de Europese
  Unie en van organisaties voor data-altruïsme in het openbaar register van erkende organisaties voor dataaltruïsme binnen de Europese Unie.
     § 4. Persoonsgegevens die worden verwerkt overeenkomstig de bepalingen van deze titel worden niet langer
@@ -35234,7 +35812,6 @@ Pagina 554 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Bedrijfsleven en de overeenkomstig Titel 2 in de schoot van de Centrale Raad voor het Bedrijfsleven opgerichte
  bijzondere raadgevende commissies.
   Een koninklijk besluit, genomen op met redenen omkleed verslag van de Centrale Raad voor het Bedrijfsleven,
-Pagina 555 van 764 Copyright Belgisch S taatsblad 16-04-2026
  stelt het kader en het statuut van het personeel van het secretariaat, evenals de werkwijze ervan vast.
   De secretaris en de adjunct-secretaris worden, na overleg met de Centrale Raad voor het Bedrijfsleven,
  benoemd en ontslagen door de Koning.
@@ -35308,7 +35885,6 @@ Pagina 555 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Wanneer wordt voorzien in de vervanging van een werkend of plaatsvervangend lid, voleindigt de benoemde
  persoon het mandaat van zijn voorganger.]1
   ----------
-Pagina 556 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
 ## Art. XIII.8
@@ -35392,7 +35968,6 @@ Pagina 556 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 3. - [1 Integratie van bestaande raadgevende commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
-Pagina 557 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIII.17
 
 [1 De Koning kan, bij een besluit vastgesteld na overleg in de Ministerraad, de raadgevende
@@ -35466,7 +36041,6 @@ Pagina 557 van 764 Copyright Belgisch S taatsblad 16-04-2026
  commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
-Pagina 558 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIII.21
 
 [1 Binnen de grenzen van wat bepaald is in dit boek, oefenen de Centrale Raad voor het
@@ -35530,7 +36104,6 @@ Pagina 558 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 2.
 
 ## Art. XIV.4.
-Pagina 559 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIV.5.
 
 ## Art. XIV.6.
@@ -35576,7 +36149,6 @@ Pagina 559 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIV.17.
 
   Titel 3.
-Pagina 560 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   HOOFDSTUK 1.
 
@@ -35622,7 +36194,6 @@ Pagina 560 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XIV.37.
 
-Pagina 561 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 3.
 
 ## Art. XIV.38.
@@ -35668,7 +36239,6 @@ Pagina 561 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIV.55.
 
   HOOFDSTUK 8.
-Pagina 562 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIV.56.
 
 ## Art. XIV.57.
@@ -35714,7 +36284,6 @@ Pagina 562 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIV.70.
 
   HOOFDSTUK 2.
-Pagina 563 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XIV.71.
 
@@ -35769,8 +36338,9 @@ Pagina 563 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
-Pagina 564 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XV.2.[1 § 1. Onverminderd de bevoegdheden van de politieambtenaren van de lokale en federale politie, zijn
+## Art. XV.2
+
+[1 § 1. Onverminderd de bevoegdheden van de politieambtenaren van de lokale en federale politie, zijn
  de door de minister aangestelde ambtenaren bevoegd om de inbreuken op dit Wetboek op te sporen en vast te
  stellen. Deze ambtenaren kunnen de in deze titel bepaalde bevoegdheden uitsluitend uitoefenen ter opsporing en
  vaststelling van inbreuken op de bepalingen van [3 dit Wetboek, van zijn uitvoeringsbesluiten [4 , van de wetten
@@ -35794,7 +36364,9 @@ Pagina 564 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2019-05-02/28, art. 26, 077; Inwerkingtreding : 01-06-2019>
   (4)<W 2022-03-20/05, art. 17, 106; Inwerkingtreding : 01-06-2022>
 
-   Art. XV.3.[1 Met het oog op het opsporen en vaststellen van de inbreuken bedoeld in artikel XV.2, § 1, hebben
+## Art. XV.3
+
+[1 Met het oog op het opsporen en vaststellen van de inbreuken bedoeld in artikel XV.2, § 1, hebben
  de in artikel XV.2 bedoelde ambtenaren de volgende bevoegdheden :
    1° zich tijdens de gewone openings- of werkuren, tijdens het productieproces of op het ogenblik dat de
  producten of diensten worden aangeboden of er aanwijzingen zijn dat het productieproces gaande is of de
@@ -35835,7 +36407,6 @@ Pagina 564 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [5 De ambtenaren bedoeld in artikel XV.2 kunnen desgevallend de termijn bepalen waarbinnen deze gegevens
  moeten worden verstrekt.]5 [7 De termijn moet redelijk zijn in verhouding tot de omvang van het verzoek;]7
    [2 5° /1. [4 [5 in afwijking van de artikelen 46bis en]5 46quater van het Wetboek van Strafvordering,]4 zich op
-Pagina 565 van 764 Copyright Belgisch S taatsblad 16-04-2026
  eerste vordering door elke persoon gratis alle inlichtingen laten verstrekken die de identificatie mogelijk maken
  van personen die het voorwerp uitmaken van een onderzoek [5 en personen die betrokken zijn bij financiële en
  gegevensstromen die noodzakelijk zijn in het kader van het onderzoek]5.]2
@@ -35903,7 +36474,6 @@ Pagina 565 van 764 Copyright Belgisch S taatsblad 16-04-2026
    8° [5 goederen of diensten inspecteren, bestuderen, demonteren en testen of dit laten doen.
     Indien er voldoende aanwijzingen zijn dat een goed of dienst :
     a) niet voldoet aan de voorwaarden opgelegd door besluiten genomen in uitvoering van artikelen VI.9, § 1, en
-Pagina 566 van 764 Copyright Belgisch S taatsblad 16-04-2026
  VI.10, of
     b) het voorwerp is van een oneerlijke handelspraktijk, of
     c) in strijd is met de intellectuele eigendomsrechten zoals strafbaar gesteld in titel 3, hoofdstuk 2, afdeling 8,
@@ -35951,7 +36521,9 @@ Pagina 566 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XV.3/1.
 
-  Art. XV.4.[1 § 1. Met het oog op het opsporen en vaststellen van de inbreuken bedoeld in artikel XV.2, § 1,
+## Art. XV.4
+
+[1 § 1. Met het oog op het opsporen en vaststellen van de inbreuken bedoeld in artikel XV.2, § 1,
  hebben de in artikel XV.2 bedoelde ambtenaren tevens de bevoegdheid om vaststellingen te doen door middel
  van het maken van beeldmateriaal, ongeacht de drager ervan, en geluidsmateriaal van openbare communicatie
  of telecommunicatie, [2 of van communicatie waaraan de ambtenaar bedoeld in artikel XV.2 zelf deelneemt in de
@@ -35970,7 +36542,6 @@ Pagina 566 van 764 Copyright Belgisch S taatsblad 16-04-2026
  door middel van [2 geluids- en/of beeldmateriaal]2, dat volgende gegevens moet bevatten :
   a) de identiteit van de ambtenaar die het [2 geluids- en/of beeldmateriaal]2 heeft gemaakt;
 
-Pagina 567 van 764 Copyright Belgisch S taatsblad 16-04-2026
    b) de dag, de datum, het uur waarop en de exacte beschrijving van de plaats waar het [2 geluids- en/of
  beeldmateriaal]2 is gemaakt;
    c) de volledige identificatie van het technisch hulpmiddel waarmee het [2 geluids- en/of beeldmateriaal]2 is
@@ -36005,7 +36576,9 @@ Pagina 567 van 764 Copyright Belgisch S taatsblad 16-04-2026
  6)>
    (2)<W 2023-11-05/07, art. 31, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XV.5.[1 § 1. Wanneer de ambtenaren bedoeld in artikel XV.2, overeenkomstig de hun toegekende
+## Art. XV.5
+
+[1 § 1. Wanneer de ambtenaren bedoeld in artikel XV.2, overeenkomstig de hun toegekende
  bevoegdheden, een inbreuk vaststellen, kunnen zij, tegen afgifte van een ontvangstbewijs, beslag leggen op :
    1° de goederen die het voorwerp van de inbreuk uitmaken;
    2° de productie-, verwerking- en vervoermiddelen of welke voorwerpen dan ook, die gediend hebben om de
@@ -36037,7 +36610,6 @@ Pagina 567 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° de datum en het uur van de kennisgeving;
    3° de identiteit van de in artikel XV.2 bedoelde ambtenaren, de hoedanigheid waarin zij optreden en de
  administratie waartoe zij behoren;
-Pagina 568 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° de genomen maatregelen;
    5° de feitelijke en juridische grondslag;
    6° de plaats waar de maatregelen zijn genomen.
@@ -36061,7 +36633,9 @@ Pagina 568 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2015-10-26/06, art. 52, 028; Inwerkingtreding : 09-11-2015>
    (3)<W 2024-05-03/21, art. 27, 135; Inwerkingtreding : 10-06-2024>
 
-  Art. XV.5/1.[1 § 1. Indien er geen andere doeltreffende middelen zijn om de inbreuken bedoeld in artikel XV.2, §
+## Art. XV.5/1
+
+[1 § 1. Indien er geen andere doeltreffende middelen zijn om de inbreuken bedoeld in artikel XV.2, §
  1, te doen beëindigen of te verbieden, en om het gevaar van ernstige schade aan de collectieve
  consumentenbelangen te voorkomen, hebben de hiertoe door de minister aangeduide ambtenaren de
  bevoegdheid om :
@@ -36105,7 +36679,6 @@ Pagina 568 van 764 Copyright Belgisch S taatsblad 16-04-2026
  die een einde maakt aan de vervolgingen zodra die in kracht van gewijsde is gegaan, of door seponering van de
  zaak door het openbaar ministerie, of door een beslissing van de in paragraaf 1 bedoelde ambtenaren.]1
 
-Pagina 569 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 7, 092; Inwerkingtreding : 30-11-2020>
   (2)<W 2023-11-05/07, art. 32, 123; Inwerkingtreding : 21-12-2023>
@@ -36120,7 +36693,9 @@ Pagina 569 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-   Art. XV.6/1.[1 § 1. De in artikel XV.2 bedoelde ambtenaren zijn gebonden door het beroepsgeheim en mogen de
+## Art. XV.6/1
+
+[1 § 1. De in artikel XV.2 bedoelde ambtenaren zijn gebonden door het beroepsgeheim en mogen de
  vertrouwelijke informatie waarvan zij kennis hebben gekregen bij de uitoefening van hun taken, niet onthullen,
  aan welke persoon of autoriteit ook.
     In afwijking van het eerste lid mogen deze ambtenaren vertrouwelijke informatie meedelen:
@@ -36166,7 +36741,9 @@ Pagina 569 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2023-05-04/02, art. 5, 121; Inwerkingtreding : 01-09-2023>
 
-  Art. XV.7.[1 Onverminderd het vorderingsrecht van het openbaar ministerie en van de onderzoeksrechter,
+## Art. XV.7
+
+[1 Onverminderd het vorderingsrecht van het openbaar ministerie en van de onderzoeksrechter,
  bedoeld in de artikelen 28ter, § 3, en 56, § 2, van het Wetboek van Strafvordering, beschikken de ambtenaren
  bedoeld in artikel XV.2, bij de uitvoering van hun taak, over de mogelijkheid om inlichtingen en adviezen te
  verschaffen, met name met betrekking tot de meest doeltreffende middelen voor de naleving van de bepalingen
@@ -36175,11 +36752,12 @@ Pagina 569 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ervan]2.]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
-Pagina 570 van 764 Copyright Belgisch S taatsblad 16-04-2026
  6)>
   (2)<W 2020-09-29/05, art. 8, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.8.[1 § 1. De Koning wijst de ambtenaren bedoeld in artikel XV.2 aan die eveneens bekleed worden met
+## Art. XV.8
+
+[1 § 1. De Koning wijst de ambtenaren bedoeld in artikel XV.2 aan die eveneens bekleed worden met
  de hoedanigheid van officier van gerechtelijke politie, hulpofficier van de procureur des Konings.
   De Koning bepaalt de voorwaarden betreffende de ervaring en de opleiding van deze ambtenaren.
   § 2. De bevoegdheden van officier van gerechtelijke politie, hulpofficier van de procureur des Konings,
@@ -36224,7 +36802,9 @@ Pagina 570 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XV.10/1.
 
-  Art. XV.10/2.[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van de artikelen 13 en 14 van
+## Art. XV.10/2
+
+[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van de artikelen 13 en 14 van
  Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de
  bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het
  vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (hierna de "algemene verordening
@@ -36243,7 +36823,6 @@ Pagina 570 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schenden.
    De beperking bedoeld in paragraaf 1 heeft geen betrekking op de gegevens die losstaan van het voorwerp van
  het onderzoek of van de controle die het uitstel van het recht op informatie rechtvaardigt.
-Pagina 571 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 3. Bij ontvangst van een verzoek betreffende het recht op informatie, bevestigt de
  verwerkingsverantwoordelijke de ontvangst.
     De verwerkingsverantwoordelijke stelt de betrokkene zo snel mogelijk en in elk geval binnen de maand na
@@ -36281,7 +36860,9 @@ Pagina 571 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2023-11-05/07, art. 37, 123; Inwerkingtreding : 21-12-2023>
 
-  Art. XV.10/3.[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van artikel 15 van de algemene
+## Art. XV.10/3
+
+[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van artikel 15 van de algemene
  verordening gegevensbescherming kan het recht op inzage worden uitgesteld in het geval van de verwerking
  van persoonsgegevens, uitgevoerd op basis van de bepalingen van dit boek, ter waarborging van:
    1° de voorkoming, het onderzoek, de opsporing en de vervolging van strafbare feiten of de tenuitvoerlegging
@@ -36312,7 +36893,6 @@ Pagina 571 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer de verwerkingsverantwoordelijke gebruik heeft gemaakt van de uitzondering bepaald in paragraaf 1,
  en met uitzondering van de situaties bedoeld in het zevende lid, wordt de uitzonderingsregeling onmiddellijk na
  afsluiting van de inspectie of het onderzoek opgeheven. De verwerkingsverantwoordelijke brengt de betrokkene
-Pagina 572 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hiervan onverwijld op de hoogte.
     Wanneer een dossier wordt doorgezonden naar het openbaar ministerie bij de hoven en rechtbanken en/of
  naar de onderzoeksrechter, worden de rechten pas hersteld na toestemming van de rechterlijke instantie of
@@ -36336,7 +36916,9 @@ Pagina 572 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XV.10/4.
 
-  Art. XV.10/5.[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van artikel 18 van de algemene
+## Art. XV.10/5
+
+[1 § 1. Met toepassing van artikel 23, lid 1, d) en h), en in afwijking van artikel 18 van de algemene
  verordening gegevensbescherming kan het recht op beperking van de verwerking worden uitgesteld in het geval
  van de verwerking van persoonsgegevens, uitgevoerd op basis van de bepalingen van dit boek, ter waarborging
  van:
@@ -36380,7 +36962,6 @@ Pagina 572 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° het voornemen om een maatregel als bedoeld in artikel XV.5/1 te nemen, ter kennis wordt gebracht aan de
  overtreder;
    3° een waarschuwing wordt gegeven aan de overtreder, overeenkomstig artikel XV.31;
-Pagina 573 van 764 Copyright Belgisch S taatsblad 16-04-2026
     4° de overtreder ertoe wordt gebracht toezeggingen te doen, zoals bedoeld in artikel XV.31/2;
     5° contact werd opgenomen met de overtreder in het kader van de openbaarmakingsprocedure, zoals
  bedoeld in artikel XV.31/2/1;
@@ -36403,7 +36984,9 @@ Pagina 573 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-11-05/07, art. 42, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XV.10/7.[1 De persoonsgegevens die verwerkt worden overeenkomstig de bepalingen van dit boek worden
+## Art. XV.10/7
+
+[1 De persoonsgegevens die verwerkt worden overeenkomstig de bepalingen van dit boek worden
  niet langer bewaard dan noodzakelijk voor de doeleinden waarvoor zij worden verwerkt, met een maximale
  bewaartermijn van tien jaar:
     1° na de definitieve vaststelling dat er geen inbreuken werden begaan door de betrokken persoon;
@@ -36447,7 +37030,6 @@ Pagina 573 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
 
 ## Art. XV.10/1.
-Pagina 574 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XV.11
 
 [1 § 1. De inbreuken bedoeld in artikel XV.83, tweede lid, kunnen worden opgespoord en vastgesteld
@@ -36488,7 +37070,9 @@ Pagina 574 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
 
-   Art. XV.14.[1 Na kennisneming van de processen-verbaal opgemaakt op grond van artikel XV.2 en bij
+## Art. XV.14
+
+[1 Na kennisneming van de processen-verbaal opgemaakt op grond van artikel XV.2 en bij
  vaststelling van inbreuken op de bepalingen bedoeld in [2 artikel XV.83, 8°]2, kan de onderzoeksrechter, middels
  een met redenen omklede beschikking, de communicatietechniek-exploitanten gelasten, indien deze daartoe in
  staat zijn, de terbeschikkingstelling van de communicatietechniek die door de overtreder is gebruikt om de
@@ -36512,7 +37096,9 @@ Pagina 574 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
 
-  Art. XV.16.[1 De minister of de ambtenaar bedoeld in artikel XV.2 kan een onderneming vragen dat zij de
+## Art. XV.16
+
+[1 De minister of de ambtenaar bedoeld in artikel XV.2 kan een onderneming vragen dat zij de
  bewijzen levert betreffende de materiële juistheid van de feitelijke gegevens die zij meedeelt in het kader van een
  handelspraktijk.
   De onderneming moet binnen een termijn van maximum één maand het bewijs van de materiële juistheid van die
@@ -36521,13 +37107,14 @@ Pagina 574 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de minister of de [2 ambtenaar bedoeld in artikel XV.2]2 oordelen dat de handelspraktijk in strijd is met de
  bepalingen van boek VI, titel 4. ]1
   ----------
-Pagina 575 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2024-05-03/21, art. 28, 135; Inwerkingtreding : 10-06-2024>
 
 ## Art. XV.16/1.
 
-   Art. XV.16/2.[1 De minister of zijn gemachtigde kan een product uit de handel nemen en de terugname met het
+## Art. XV.16/2
+
+[1 De minister of zijn gemachtigde kan een product uit de handel nemen en de terugname met het
  oog op de wijziging, de gehele of gedeeltelijke terugbetaling dan wel de ruil ervan gelasten wanneer is vastgesteld
  dat :
     - een onderneming niet binnen de in artikel XV.16 bepaalde termijn de bewijzen levert betreffende de materiële
@@ -36591,7 +37178,6 @@ Pagina 575 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De in artikel XV.2 bedoelde ambtenaren werken samen met de aangewezen
  handhavingsautoriteiten van andere lidstaten, bedoeld in artikel 4, lid 1, van Richtlijn (EU) 2019/633 van het
  Europees Parlement en de Raad van 17 april 2019 inzake oneerlijke handelspraktijken in de relaties tussen
-Pagina 576 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ondernemingen in de landbouw- en voedselvoorzieningsketen, om elkaar wederzijdse bijstand te verlenen bij het
  verrichten van onderzoeken met een grensoverschrijdende dimensie.]1
   ----------
@@ -36607,7 +37193,9 @@ Pagina 576 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-   Art. XV.17.[1 § 1. Met het oog op het opsporen en vaststellen van inbreuken op de bepalingen van boek VII [5 ,
+## Art. XV.17
+
+[1 § 1. Met het oog op het opsporen en vaststellen van inbreuken op de bepalingen van boek VII [5 ,
  titels 1 tot 6]5, en van zijn uitvoeringsbesluiten, hebben de in artikel XV. 2 bedoelde ambtenaren de bevoegdheid
  de onderneming te benaderen door zich voor te doen als cliënten of potentiële cliënten, zonder dat zij hun
  hoedanigheid en de omstandigheid dat de bij deze gelegenheid gedane vaststellingen kunnen worden aangewend
@@ -36659,7 +37247,6 @@ Pagina 576 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vergoedingen, het overstappen naar een andere betaalrekening en de toegang tot betaalrekeningen met
  basisfuncties.
    Ze verlenen eveneens assistentie aan de bevoegde autoriteiten van de andere lidstaten.
-Pagina 577 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 2. De FOD Economie voorziet de bevoegde autoriteiten van de andere lidstaten die overeenkomstig het artikel
  36, (1) van de in paragraaf 1 bedoelde richtlijn 2014/17/EU en artikel 22, (1) van de in paragraaf 1 bedoelde
  richtlijn 2014/92/EU zijn aangeduid, onverwijld van alle gegevens die ze nodig hebben voor het vervullen van hun
@@ -36683,7 +37270,9 @@ Pagina 577 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2019-05-02/28, art. 29, 077; Inwerkingtreding : 01-06-2019>
 
-   Art. XV.18.[1 § 1.Wanneer de bevoegde ambtenaren bedoeld in artikel XV.2, vaststellen dat een
+## Art. XV.18
+
+[1 § 1.Wanneer de bevoegde ambtenaren bedoeld in artikel XV.2, vaststellen dat een
  betalingsdienstaanbieder of een uitgever van elektronisch geld een of meer [3 bepalingen van boek VII, titel 3,]3,
  van [6 Verordening (EU) 2021/1230]6 of van [7 het artikel 3, de artikelen 5 tot 5 bis, tweede lid, eerste alinea, de
  artikelen 5 bis, derde lid, tot 5 quater, de artikelen 6 tot 9 en het artikel 15, derde lid, a),]7 van Verordening (EU)
@@ -36717,7 +37306,9 @@ Pagina 577 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
 
-  Art. XV.18/1.[1 De FSMA ziet erop toe dat elke kredietgever of kredietbemiddelaar werkt overeenkomstig de
+## Art. XV.18/1
+
+[1 De FSMA ziet erop toe dat elke kredietgever of kredietbemiddelaar werkt overeenkomstig de
  bepalingen van [2 boek VII, titel 4, hoofdstuk 4, met uitzondering van artikel VII.183, § 5, 4°]2 en van de besluiten
  en reglementen genomen ter uitvoering daarvan.
   [3 De FSMA bepaalt welke gegevens en documenten de kredietgevers of kredietbemiddelaars haar moeten
@@ -36725,7 +37316,6 @@ Pagina 577 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderworpen, blijvend worden nageleefd. De FSMA bepaalt voor deze gegevens en documenten ook de
  rapporteringsfrequentie en -modaliteiten.]3
   [3 Op eenvoudig verzoek van de FSMA zijn de kredietgevers en kredietbemiddelaars verplicht om haar, binnen
-Pagina 578 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de termijn [4 en volgens de modaliteiten]4 die zij vaststelt, alle inlichtingen en alle documenten te verstrekken over
  hun organisatie, werking, toestand en verrichtingen, alsook alle andere inlichtingen of documenten die zij nodig
  heeft voor de uitvoering van haar opdracht.]3
@@ -36740,7 +37330,9 @@ Pagina 578 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2022-05-08/03, art. 23, 112; Inwerkingtreding : 03-07-2022>
   (4)<W 2024-05-03/21, art. 29, 135; Inwerkingtreding : 10-06-2024>
 
-  Art. XV.18/2.[1 Onverminderd de wettelijke bepalingen betreffende de onschendbaarheid van de woning en de
+## Art. XV.18/2
+
+[1 Onverminderd de wettelijke bepalingen betreffende de onschendbaarheid van de woning en de
  bescherming van de persoonlijke levenssfeer, mag de FSMA elk onderzoek uitvoeren, inclusief in de lokalen waar
  de kredietbemiddelaar zijn activiteit uitoefent en in de zetel en de agentschappen van de betrokken kredietgevers,
  om de juistheid van de verklaring op erewoord bedoeld in de artikelen VII.181, § 3 en VII.186, § 3 na te gaan.]1
@@ -36748,7 +37340,9 @@ Pagina 578 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. XV.18/3.[1 De FSMA kan ter plaatse controles verrichten in de bijkantoren gevestigd in de Europese
+## Art. XV.18/3
+
+[1 De FSMA kan ter plaatse controles verrichten in de bijkantoren gevestigd in de Europese
  Economische Ruimte van de bemiddelaars, bedoeld in artikel VII.183, § 1, waarvan zij de lidstaat van herkomst
  is.]1
    ----------
@@ -36793,7 +37387,6 @@ Pagina 578 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° alle stukken die de klager noodzakelijk acht.
    § 2. Indien de ambtenaren bedoeld in artikel XV.2 een klacht als ontvankelijk beschouwen, geven zij de klager
 
-Pagina 579 van 764 Copyright Belgisch S taatsblad 16-04-2026
  daarvan schriftelijk kennis binnen een termijn van dertig dagen, te rekenen vanaf de ontvangst van de klacht.
     § 3. De ambtenaren bedoeld in artikel XV.2 weigeren de behandeling van een klacht en verklaren de klacht
  onontvankelijk:
@@ -36855,13 +37448,14 @@ Pagina 579 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.19.[1 Onverminderd hoofdstuk 1 zijn, voor de toepassing van Boek IX, onderstaande bepalingen van
+## Art. XV.19
+
+[1 Onverminderd hoofdstuk 1 zijn, voor de toepassing van Boek IX, onderstaande bepalingen van
  toepassing :
   1° de in artikel XV.2 bedoelde ambtenaren, de personeelsleden van het Centraal Meldpunt en de leden van de [2
  bijzondere raadgevende commissie Verbruik]2 zijn verplicht tot geheimhouding van de informatie die in het kader
  van Boek IX werd verzameld en die door haar aard onder het beroepsgeheim valt tenzij die informatie
  veiligheidskenmerken van de producten betreft die, gelet op de omstandigheden, openbaar moeten worden
-Pagina 580 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gemaakt om de gezondheid en de veiligheid van de consumenten te beschermen;
   2° in het kader van hun opdracht mogen de in artikel XV.2 bedoelde ambtenaren de relevante vaststellingen en
  analyseresultaten gebruiken die door andere instellingen meegedeeld worden.]1
@@ -36910,7 +37504,9 @@ Pagina 580 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XV.23.[1 In afwijking van de bepaling uit artikel XV.5, § 1, eerste lid kunnen de ambtenaren bedoeld in artikel
+## Art. XV.23
+
+[1 In afwijking van de bepaling uit artikel XV.5, § 1, eerste lid kunnen de ambtenaren bedoeld in artikel
  XV.2 en XV.25/1 bij de uitoefening van hun bevoegdheden met betrekking tot de inbreuken bedoeld in titel 3,
  hoofdstuk 2, afdeling 8, onderafdeling 1, op risico van de eigenaar, de houder of de geadresseerde van de
  goederen waarvan wordt vermoed dat zij een inbreuk vormen op een intellectueel eigendomsrecht, overgaan tot
@@ -36938,7 +37534,6 @@ Pagina 580 van 764 Copyright Belgisch S taatsblad 16-04-2026
  naar een plaats worden gebracht waar de verificatie plaats kan vinden, dit alles ten laste van de vervoerder indien
  een inbreuk wordt waargenomen.]1
   ----------
-Pagina 581 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
 ## Art. XV.25/1
@@ -36960,7 +37555,9 @@ Pagina 581 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XV.25/3.[1 [2 De door de minister aangestelde ambtenaren bedoeld in artikel XV.61, § 1, eerste lid,
+## Art. XV.25/3
+
+[1 [2 De door de minister aangestelde ambtenaren bedoeld in artikel XV.61, § 1, eerste lid,
  kunnen]2 de vernietiging bevelen van de goederen die aan de Schatkist werden afgestaan indien geen derde die
  beweert recht te hebben op deze goederen binnen een termijn van één maand te rekenen vanaf de datum van
  afstand, enige terugvordering heeft geformuleerd. Voor de toepassing van dit lid, geldt een termijn van vijftien
@@ -36989,7 +37586,9 @@ Pagina 581 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XV.25/4.[1 § 1. Bij toepassing van artikel XV.2, mogen de ambtenaren van de Controledienst, aangesteld
+## Art. XV.25/4
+
+[1 § 1. Bij toepassing van artikel XV.2, mogen de ambtenaren van de Controledienst, aangesteld
  door de minister, als ze redenen hebben om aan te nemen dat een of meer bepalingen bedoeld in het artikel
  XI.279 of het artikel XV.112 wordt of worden geschonden:
    1° zich op eerste verzoek zonder verplaatsing de documenten, stukken of boeken die zij voor hun
@@ -37010,7 +37609,6 @@ Pagina 581 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Controledienst de hen op grond van paragrafen 1 en 2 verleende bevoegdheden uit onder het toezicht van de
  procureur-generaal en van de federale procureur voor wat betreft de taken tot opsporing en vaststelling van
  overtredingen bedoeld in artikel XV.112.
-Pagina 582 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 4. Wanneer toepassing wordt gemaakt van artikel XV.31/1, wordt het proces-verbaal tot vaststelling van een
  overtreding bedoeld in artikel XV.112 pas aan de procureur des Konings toegezonden als geen gevolg is
  gegeven aan de waarschuwing. Wanneer toepassing wordt gemaakt van artikel XV.62/1, wordt het procesverbaal pas aan de procureur des Konings toegezonden wanneer de overtreder niet op het voorstel tot
@@ -37072,7 +37670,6 @@ Pagina 582 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 Bij de uitvoering van hun taak kunnen de ambtenaren bedoeld in artikel XV.2 :
   1° kennisgeving doen van de regelmatig voorgeschreven opeisingen, ze uitvoeren of doen uitvoeren;
-Pagina 583 van 764 Copyright Belgisch S taatsblad 16-04-2026
    2° van de gemeentebesturen de nodige middelen opeisen voor de vervulling van hun opdracht. Deze
  gemeentebesturen kunnen, te dien einde, in de persoon van de burgemeester, van een der schepenen, van de
  gemeentesecretaris of van ambtenaren van de lokale en federale politie worden opgeëist.
@@ -37086,7 +37683,9 @@ Pagina 583 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.30.[1 Het openbaar ministerie of, indien een gerechtelijk onderzoek wordt geopend, de
+## Art. XV.30
+
+[1 Het openbaar ministerie of, indien een gerechtelijk onderzoek wordt geopend, de
  onderzoeksrechter, kan de voorlopige sluiting van de inrichting van de overtreder bevelen. De duur van de
  voorlopige sluiting mag de datum waarop over de inbreuk definitief uitspraak zal zijn gedaan, niet overschrijden.
   De beslissing tot voorlopige sluiting maakt de procedure van transactie als bedoeld in [3 de artikelen XV.61 en
@@ -37099,7 +37698,9 @@ Pagina 583 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2014-04-19/60, art. 5, 024; Inwerkingtreding : 01-01-2015>
   (3)<W 2023-11-05/07, art. 48, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XV.30/1.[1 § 1. De procureur des Konings beveelt de vernietiging van de goederen die met toepassing van
+## Art. XV.30/1
+
+[1 § 1. De procureur des Konings beveelt de vernietiging van de goederen die met toepassing van
  artikel XV.23 in beslag werden genomen wanneer dit in het belang van de openbare veiligheid is vereist of indien
  de bewaring of de opslag ervan een gevaar kan betekenen voor de openbare orde of problematisch kan zijn
  door de aard of hoeveelheid ervan of door de manier waarop ze zijn opgeslagen, indien geen derde die beweert
@@ -37140,7 +37741,6 @@ Pagina 583 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gerechtelijke bewaarder van deze goederen worden aangesteld.
     § 3. Tijdens het onderzoek en voor de toepassing van de paragrafen 1 en 2, beschikt de onderzoeksrechter
 
-Pagina 584 van 764 Copyright Belgisch S taatsblad 16-04-2026
  over dezelfde bevoegdheden als de procureur des Konings.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 6, 024; Inwerkingtreding : 01-01-2015>
@@ -37205,7 +37805,6 @@ Pagina 584 van 764 Copyright Belgisch S taatsblad 16-04-2026
   HOOFDSTUK 3. - [1 Waarschuwings- en [2 openbaarmakingsprocedures]2 [3 en herstelmaatregelen]3]1
   ----------
 
-Pagina 585 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
   (2)<W 2014-04-19/60, art. 7, 024; Inwerkingtreding : 01-01-2015>
@@ -37215,7 +37814,9 @@ Pagina 585 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 8, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XV.31.[1 § 1. Wanneer is vastgesteld dat een handeling een inbreuk bedoeld in artikel XV.2, § 1 vormt, of
+## Art. XV.31
+
+[1 § 1. Wanneer is vastgesteld dat een handeling een inbreuk bedoeld in artikel XV.2, § 1 vormt, of
  dat zij aanleiding kan geven tot een vordering tot staking, kunnen de ambtenaren bedoeld in artikel XV.2 een
  waarschuwing richten tot de overtreder waarbij die tot stopzetting van deze handeling wordt aangemaand.
    De waarschuwing wordt de overtreder ter kennis gebracht binnen een termijn van dertig dagen volgend op de
@@ -37262,7 +37863,9 @@ Pagina 585 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 10, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XV.31/1.[1 § 1. Wanneer na hen te hebben gehoord, vastgesteld wordt dat:
+## Art. XV.31/1
+
+[1 § 1. Wanneer na hen te hebben gehoord, vastgesteld wordt dat:
    1° de beheersvennootschap de bepalingen en rechtshandelingen bedoeld in artikel XI.279, § 1, eerste lid,
  schendt;
    2° de onafhankelijke beheerentiteit bedoeld in artikel XI.246, § 1, derde lid de bepalingen in artikel XI.279, § 1,
@@ -37272,7 +37875,6 @@ Pagina 585 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° de onafhankelijke beheerentiteit die gevestigd is in een andere lidstaat, met of zonder bijkantoor in België, de
  bepalingen bedoeld in artikel XI.279, § 3, schendt;
    5° een persoon zonder de vereiste vergunning bij toepassing van artikel XI.273/17 een beheersactiviteit in de
-Pagina 586 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zin van artikel I.16, § 1, 4° of 5°, uitoefent; of
    6° een persoon zonder de vereiste verklaring bij toepassing van artikel XI.273/18 een beheersactiviteit in de zin
  van artikel I.16, § 1, 6° uitoefent,
@@ -37300,7 +37902,9 @@ Pagina 586 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 13, 092; Inwerkingtreding : 30-11-2020>
 
-   Art. XV.31/2.[1 § 1. De in artikel XV.2 bedoelde ambtenaren hebben de bevoegdheid om toezeggingen tot het
+## Art. XV.31/2
+
+[1 § 1. De in artikel XV.2 bedoelde ambtenaren hebben de bevoegdheid om toezeggingen tot het
  beëindigen van inbreuken te verkrijgen of te aanvaarden van de onderneming die verantwoordelijk is voor de
  inbreuken bedoeld in artikel XV.2, § 1.
     § 2. De in artikel XV.2 bedoelde ambtenaren hebben de bevoegdheid om van de onderneming, op haar initiatief,
@@ -37338,8 +37942,9 @@ Pagina 586 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 15, 092; Inwerkingtreding : 30-11-2020>
 
-Pagina 587 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XV.31/2/1.[1 [2 Om ernstige schade aan de collectieve consumentenbelangen [3 en aan de collectieve
+## Art. XV.31/2/1
+
+[1 [2 Om ernstige schade aan de collectieve consumentenbelangen [3 en aan de collectieve
  belangen van ondernemingen]3 te voorkomen, beschikken de in artikel XV.2 bedoelde ambtenaren over de
  bevoegdheid om tijdelijk over te gaan tot de publicatie van de identificatiegegevens van de overtreders die
  praktijken gebruiken die schade toebrengen aan consumenten [3 en/of ondernemingen]3, en van de gegevens
@@ -37368,7 +37973,9 @@ Pagina 587 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 6, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. XV.31/3.[1 § 1. De FSMA kan een kredietgever of een kredietbemiddelaar gelasten om, binnen de termijn die
+## Art. XV.31/3
+
+[1 § 1. De FSMA kan een kredietgever of een kredietbemiddelaar gelasten om, binnen de termijn die
  zij vaststelt, zich te voegen naar de bepalingen van [2 boek VII, titel 4, hoofdstuk 4, met uitzondering van artikel
  VII.183, § 5, 4°]2, of naar de besluiten en reglementen genomen ter uitvoering daarvan.
     § 2. Onverminderd de andere maatregelen waarin dit boek of boek VII, hoofdstuk 4 voorziet, kan de FSMA, als
@@ -37399,13 +38006,14 @@ Pagina 587 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.32.[1 De ambtenaren bedoeld in artikel XV.2 kunnen [2 van]2 alle diensten van de Staat, met inbegrip
+## Art. XV.32
+
+[1 De ambtenaren bedoeld in artikel XV.2 kunnen [2 van]2 alle diensten van de Staat, met inbegrip
  van het openbaar ministerie en de griffies van alle rechtscolleges, de gemeenschappen, de gewesten, de
  provincies, de agglomeraties, de federaties van gemeenten, de gemeenten, de politiezones, de verenigingen
  waartoe ze behoren en van de openbare instellingen die ervan afhangen, verzoeken alle informatie en
  documenten te verzamelen [2 die noodzakelijk zijn voor de uitoefening van hun taken]2.
   Alle diensten bedoeld in het eerste lid, met uitzondering van de diensten van de gemeenschappen en gewesten,
-Pagina 588 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verstrekken de informatie en documenten zonder verplaatsing aan de ambtenaren bedoeld in artikel XV.2, met
  dien verstande dat de informatie en documenten met betrekking tot een opsporingsonderzoek of een
  gerechtelijk onderzoek niet kunnen worden meegedeeld zonder de uitdrukkelijke toestemming van de bevoegde
@@ -37415,7 +38023,9 @@ Pagina 588 van 764 Copyright Belgisch S taatsblad 16-04-2026
  6)>
   (2)<W 2023-11-05/07, art. 52, 123; Inwerkingtreding : 21-12-2023>
 
-   Art. XV.33.[1 De ambtenaren bedoeld in artikel XV.2 kunnen de bijstand vorderen van politieambtenaren van de
+## Art. XV.33
+
+[1 De ambtenaren bedoeld in artikel XV.2 kunnen de bijstand vorderen van politieambtenaren van de
  lokale en federale politie, van gerechtelijke deskundigen, of van deskundigen die door de minister erkend werden
  in bijzondere materies, om de tenuitvoerlegging van de door de overheid voorgeschreven maatregelen te
  waarborgen of te controleren of om de aard en de omstandigheden van een inbreuk te beoordelen.
@@ -37478,7 +38088,6 @@ Pagina 588 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de bevoegde autoriteit van een andere lidstaat die een met redenen omkleed verzoek doet, iedere relevante
  informatie waarover ze beschikt in verband met een dienstverrichter en/of zijn diensten.
    Ze verstrekt de gevraagde informatie met name betreffende de vestiging en de wettelijkheid van de verrichte
-Pagina 589 van 764 Copyright Belgisch S taatsblad 16-04-2026
  diensten.
    § 2. De bevoegde Belgische autoriteit voert, binnen de grenzen van haar bevoegdheden, de verificaties,
  inspecties en onderzoeken uit die haar door de bevoegde autoriteit van een andere lidstaat via een met redenen
@@ -37558,7 +38167,6 @@ Pagina 589 van 764 Copyright Belgisch S taatsblad 16-04-2026
  België zijn gevestigd, met inbegrip van de diensten die in een andere lidstaat zijn verricht of die in een andere
  lidstaat schade hebben veroorzaakt.
    § 2. Deze verplichting geldt niet voor :
-Pagina 590 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de controle van de naleving van specifieke eisen die opgelegd worden door de lidstaat waar de dienst
  geleverd wordt, ongeacht de plaats van vestiging van de dienstverrichter;
   2° de uitoefening van controles op het grondgebied van de lidstaat waar de dienst verricht wordt.
@@ -37634,7 +38242,6 @@ Pagina 590 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 5. De hierboven beschreven procedure geldt onverminderd gerechtelijke procedures.]1
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
-Pagina 591 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XV.48
 
 [1 Dit hoofdstuk geldt onverminderd de samenwerking inzake informatie in toepassing van de
@@ -37668,7 +38275,9 @@ Pagina 591 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 9, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Art. XV.57/1.[1 Ieder opsporingsonderzoek ten gevolge van een inbreuk [4 op de bepalingen van boek VII, titel
+## Art. XV.57/1
+
+[1 Ieder opsporingsonderzoek ten gevolge van een inbreuk [4 op de bepalingen van boek VII, titel
  4, hoofdstuk 4, met uitzondering van artikel VII.183, § 5, 4°,]4 of van een van de bepalingen bedoeld in [2 artikel
  20 van de [3 XV. 57/1]3]2 tegen een kredietgever of een kredietbemiddelaar, een effectieve leider of een
  verantwoordelijke voor de distributie bij een kredietgever of een kredietbemiddelaar, in de zin van de bepalingen
@@ -37695,7 +38304,6 @@ Pagina 591 van 764 Copyright Belgisch S taatsblad 16-04-2026
  eigendomsrechten te waarborgen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 11, 024; Inwerkingtreding : 01-01-2015>
-Pagina 592 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XV.59
 
 [1 § 1. De bevoegde autoriteiten en openbare diensten delen elkaar, op eigen initiatief of op verzoek,
@@ -37746,7 +38354,9 @@ Pagina 592 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 18, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.60/2.[1 Indien toepassing wordt gemaakt van een administratieve vervolging zoals bedoeld in artikel
+## Art. XV.60/2
+
+[1 Indien toepassing wordt gemaakt van een administratieve vervolging zoals bedoeld in artikel
  VI.60/1, § 1, 2°, beslissen de ambtenaren bedoeld in artikel XV.60/4, of de inbreuken aanleiding geven tot een
  administratieve geldboete, een schuldigverklaring of een klassering zonder gevolg.
    Zij beschikken over dezelfde bevoegdheden wanneer het openbaar ministerie afziet van vervolging van de
@@ -37767,7 +38377,6 @@ Pagina 592 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of de bemiddeling in
  strafzaken bedoeld in artikel 216ter van hetzelfde Wetboek sluiten eveneens de toepassing van een
  administratieve geldboete uit.]1
-Pagina 593 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 20, 092; Inwerkingtreding : 30-11-2020>
 
@@ -37823,7 +38432,9 @@ Pagina 593 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 26, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.60/7.[1 De overtreder wordt bij een aangetekende zending verzocht zijn verweermiddelen in te dienen.
+## Art. XV.60/7
+
+[1 De overtreder wordt bij een aangetekende zending verzocht zijn verweermiddelen in te dienen.
  Deze zending vermeldt de volgende gegevens :
    1° de referenties van het proces-verbaal tot vaststelling van de inbreuk en houdende het relaas van de feiten
  die aan de basis liggen van de aanvang van de procedure;
@@ -37834,7 +38445,6 @@ Pagina 593 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° het adres van de dienst waar de bevoegde ambtenaren bedoeld in artikel XV.60/4 deel van uitmaken en
  waar de overtreder zijn dossier kan inzien, alsmede de openingsuren gedurende dewelke hij hiervoor bij de
  bevoegde ambtenaren terecht kan;
-Pagina 594 van 764 Copyright Belgisch S taatsblad 16-04-2026
     5° het recht van de overtreder op een afschrift van het dossier;
     6° het postadres en het e-mailadres van de dienst waar de bevoegde ambtenaren bedoeld in artikel XV.60/4
  deel van uitmaken, met het oog op de indiening van de verweermiddelen;
@@ -37906,7 +38516,6 @@ Pagina 594 van 764 Copyright Belgisch S taatsblad 16-04-2026
  heeft gegeven om zich tegen de publicatie te verzetten.
    Elke toezegging die wordt bekendgemaakt, blijft gedurende een periode van maximaal één jaar na de
  bekendmaking op de website van de FOD Economie staan, waar ze toegankelijk is voor elke burger.
-Pagina 595 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Persoonsgegevens, zoals bedoeld in artikel 4, 1), van de algemene verordening gegevensbescherming, die in de
  bekendmaking zijn opgenomen, worden evenwel slechts op de website vermeld zolang als noodzakelijk in
  overeenstemming met de doelstellingen bedoeld in het eerste lid, en dit voor een maximumtermijn van één jaar.
@@ -37939,7 +38548,9 @@ Pagina 595 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2020-09-29/05, art. 32, 092; Inwerkingtreding : 30-11-2020>
 
-   Art. XV.60/12.[1 De beslissing tot oplegging van een administratieve geldboete omvat inzonderheid de volgende
+## Art. XV.60/12
+
+[1 De beslissing tot oplegging van een administratieve geldboete omvat inzonderheid de volgende
  elementen :
     1° de bepalingen die de rechtsgrond van de beslissing tot oplegging van een administratieve geldboete
  uitmaken;
@@ -37958,7 +38569,9 @@ Pagina 595 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2020-09-29/05, art. 33, 092; Inwerkingtreding : 30-11-2020>
    (2)<W 2024-05-03/21, art. 34, 135; Inwerkingtreding : 10-06-2024>
 
-  Art. XV.60/13.[1 De beslissing tot oplegging van een administratieve geldboete wordt per aangetekende zending
+## Art. XV.60/13
+
+[1 De beslissing tot oplegging van een administratieve geldboete wordt per aangetekende zending
  aan de overtreder ter kennis gebracht. De kennisgeving doet de strafvordering vervallen.]1
   [2 Indien de overtreder verzuimd heeft de aangetekende brief bij de post af te halen binnen de vastgestelde
  termijn, kunnen de bevoegde ambtenaren bedoeld in artikel XV.60/4 hem ter informatie bij gewone brief een
@@ -37974,11 +38587,12 @@ Pagina 595 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2020-09-29/05, art. 35, 092; Inwerkingtreding : 30-11-2020>
 
   HOOFDSTUK 4. [1 - Beroep]1
-Pagina 596 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 36, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.60/15.[1 De overtreder die de beslissing tot oplegging van een administratieve geldboete [2 of tot
+## Art. XV.60/15
+
+[1 De overtreder die de beslissing tot oplegging van een administratieve geldboete [2 of tot
  schuldigverklaring]2 betwist, tekent op straffe van verval binnen een termijn van zestig dagen vanaf de
  kennisgeving van de beslissing beroep aan bij de Raad van State in toepassing van het artikel 14, § 1, eerste lid,
  1°, van de wetten op de Raad van State, gecoördineerd op 12 januari 1973.
@@ -38036,13 +38650,14 @@ Pagina 596 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 42, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.60/20.[2 § 1.]2 [1 De minimale en maximale bedragen van de administratieve geldboete stemmen
+## Art. XV.60/20
+
+[2 § 1.]2 [1 De minimale en maximale bedragen van de administratieve geldboete stemmen
  overeen met de respectieve minimale en maximale bedragen van de strafrechtelijke geldboete, bepaald in de
  hoofdstukken 1 en 2 van titel 3 van dit boek, die hetzelfde feit sanctioneert.
    De opdeciemen bedoeld in artikel 1, eerste lid, van de wet van 5 maart 1952 betreffende de opdeciemen op
  strafrechtelijke geldboeten zijn eveneens van toepassing op de administratieve geldboeten bedoeld bij dit
  Wetboek.]1
-Pagina 597 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 § 2. Voor het opleggen van de administratieve geldboete wordt rekening gehouden met de volgende nietlimitatieve en indicatieve criteria:
     1° de aard, de ernst, de omvang en de duur van de inbreuk;
     2° de door de onderneming genomen maatregelen om de door de consumenten geleden schade te beperken
@@ -38062,7 +38677,9 @@ Pagina 597 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2021-11-28/08, art. 13, 102; Inwerkingtreding : 25-12-2021>
 
-   Art. XV.60/21.[1 § 1. De ambtenaren bedoeld in artikel XV.60/4 kunnen de beslissing tot het opleggen van een
+## Art. XV.60/21
+
+[1 § 1. De ambtenaren bedoeld in artikel XV.60/4 kunnen de beslissing tot het opleggen van een
  administratieve geldboete integraal of in beperkte vorm bekendmaken op de website van de Federale
  Overheidsdienst Economie, K.M.O., Middenstand en Energie en dit ten vroegste na de beroepstermijn bedoeld in
 ## Art. XV.60/15.
@@ -38110,7 +38727,6 @@ Pagina 597 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vooraleer de beslissing tot oplegging van een administratieve geldboete overeenkomstig artikel XV.60/13 aan de
  overtreder ter kennis wordt gebracht.]1
   ----------
-Pagina 598 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2023-11-05/07, art. 55, 123; Inwerkingtreding : 21-12-2023>
 
 ## Art. XV.60/23
@@ -38175,10 +38791,11 @@ Pagina 598 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 12, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XV.61.[1 § 1. [3 Wanneer de in artikel XV.2 bedoelde ambtenaren inbreuken]3 bedoeld in artikel XV.2, § 1,
+## Art. XV.61
+
+[1 § 1. [3 Wanneer de in artikel XV.2 bedoelde ambtenaren inbreuken]3 bedoeld in artikel XV.2, § 1,
  vaststellen, kunnen [2 de door de minister aangestelde ambtenaren]2 een geldsom voorstellen waarvan de
  vrijwillige betaling door de overtreder de strafvordering doet vervallen.
-Pagina 599 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De overtreder krijgt in dat geval de mogelijkheid om elk proces-verbaal tot vaststelling van een inbreuk waarop
  het voorstel betrekking heeft vooraf in te zien en zich daarvan een afschrift te doen afgeven.
    De tarieven alsook de betalings- en inningswijzen van deze transactie worden door de Koning vastgesteld.
@@ -38246,7 +38863,6 @@ Pagina 599 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het in het eerste lid bedoelde bedrag mag niet meer bedragen dan het maximum van de bij artikel XV.112
  bepaalde geldboete, verhoogd met de opcentiemen.
    De binnen de aangegeven termijn uitgevoerde betaling doet de strafvordering vervallen, behalve indien tevoren
-Pagina 600 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een klacht gericht werd aan de procureur des Konings, de onderzoeksrechter verzocht werd een onderzoek in
  te stellen of indien het feit bij de rechtbank aanhangig gemaakt werd. In deze gevallen worden de bedragen
  teruggestort aan de overtreder.]1
@@ -38257,7 +38873,9 @@ Pagina 600 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 44, 092; Inwerkingtreding : 30-11-2020>
 
-  Art. XV.62/2.[1 In geval van herhaling binnen een termijn van vijf jaar die volgt op een [2 definitieve]2
+## Art. XV.62/2
+
+[1 In geval van herhaling binnen een termijn van vijf jaar die volgt op een [2 definitieve]2
  administratieve beslissing tot schuldigverklaring, op een [2 definitieve]2 administratieve beslissing tot oplegging
  van een administratieve geldboete of op een gerechtelijke veroordeling tot een sanctie, kan het bedrag van de
  administratieve geldboete op het dubbele van het maximum worden gebracht.]1
@@ -38318,7 +38936,6 @@ Pagina 600 van 764 Copyright Belgisch S taatsblad 16-04-2026
  administratieve geldboete die tevoren gepaard ging met uitstel.
    § 5. Het uitstel wordt herroepen bij dezelfde beslissing als die waarbij de administratieve geldboete wordt
 
-Pagina 601 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opgelegd voor de nieuwe inbreuk die begaan is tijdens de proeftermijn.
    De vermelding van de herroeping van het uitstel in de beslissing geschiedt zowel wanneer de herroeping van
  rechtswege gebeurt, als wanneer deze ter beoordeling van de bevoegde ambtenaren wordt gelaten.
@@ -38392,7 +39009,6 @@ Pagina 601 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 3. De onder paragraaf 1, 1° en 2°, bedoelde verwittigingen en sancties kunnen, binnen de zestig dagen
  volgend op hun bekendmaking, het voorwerp uitmaken van een beroep, bij aangetekende zending gericht aan de
  minister. De minister of de daartoe gemachtigde ambtenaren horen de belanghebbenden en spreken zich uit
-Pagina 602 van 764 Copyright Belgisch S taatsblad 16-04-2026
  binnen de zestig dagen die volgen op de indiening van het beroep. De beslissingen worden bij aangetekende
  zending bekendgemaakt. Het beroep werkt opschortend. ]1
   ----------
@@ -38402,7 +39018,9 @@ Pagina 602 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2015-10-26/06, art. 57, 028; Inwerkingtreding : 01-11-2015>
 
-   Art. XV.66.[1 Onverminderd de maatregelen omschreven door dit boek, door boek VII, titel 4, hoofdstuk 4 of
+## Art. XV.66
+
+[1 Onverminderd de maatregelen omschreven door dit boek, door boek VII, titel 4, hoofdstuk 4 of
  door andere wetten of reglementen, kan de FSMA, wanneer zij een inbreuk vaststelt [2 op de bepalingen van
  boek VII, titel 4, hoofdstuk 4, met uitzondering van artikel VII.183, § 5, 4°,]2 of op de maatregelen genomen ter
  uitvoering daarvan, een kredietgever een administratieve geldboete opleggen die niet lager mag zijn dan 2 500
@@ -38425,7 +39043,9 @@ Pagina 602 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 14, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XV.66/1.[1 § 1. De minister kan de in artikel XI.273/17 bepaalde vergunning geheel of gedeeltelijk intrekken
+## Art. XV.66/1
+
+[1 § 1. De minister kan de in artikel XI.273/17 bepaalde vergunning geheel of gedeeltelijk intrekken
  wanneer de vennootschap niet of niet meer voldoet aan de voorwaarden voor het verkrijgen van de vergunning,
  alsook wanneer de vennootschap zware of herhaalde inbreuken op de bepalingen van boek XI, titel 5, van de
  uitvoeringsbesluiten ervan of op de bepalingen van haar statuten of reglementen begaat of heeft begaan of
@@ -38458,7 +39078,6 @@ Pagina 602 van 764 Copyright Belgisch S taatsblad 16-04-2026
  periodes na deze inwerkingtreding indien op de datum van inwerkingtreding van de beslissing tot intrekking van
  de vergunning geen andere beheersvennootschap of collectieve beheerorganisatie gemachtigd is om deze
  rechten voor dezelfde categorie van rechthebbenden te beheren.
-Pagina 603 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Het beheer van de in het eerste lid bedoelde rekening berust uitsluitend bij de bijzondere commissaris(sen)
  bedoeld in paragraaf 4.
     § 3. De handelingen en beslissingen van de vennootschap of de organisatie waarvan de vergunning werd
@@ -38488,7 +39107,9 @@ Pagina 603 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<W 2017-06-08/13, art. 115, 049; Inwerkingtreding : 01-01-2018>
 
-   Art. XV.66/2.[1 § 1. Onverminderd de andere maatregelen bepaald door de wet en indien op het einde van de in
+## Art. XV.66/2
+
+[1 § 1. Onverminderd de andere maatregelen bepaald door de wet en indien op het einde van de in
  toepassing van artikel XV.31/1 vastgestelde termijn, de vastgestelde tekortkoming niet werd verholpen, kan de
  minister of de hiertoe specifiek door de minister aangestelde ambtenaar, voor zover de beheersvennootschap,
  de onafhankelijke beheerentiteit, de collectieve beheerorganisatie of de persoon bedoeld in artikel XV.31/1, § 1,
@@ -38527,7 +39148,6 @@ Pagina 603 van 764 Copyright Belgisch S taatsblad 16-04-2026
  met de schorsing of het verbod, hoofdelijk aansprakelijk voor het nadeel dat daaruit voor derden voortvloeit.
    De beslissing tot schorsing of tot verbod wordt bekendgemaakt in het Belgisch Staatsblad. De daarmee
  strijdige handelingen en beslissingen zijn nietig.
-Pagina 604 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 4. De beslissingen van de minister bedoeld in paragraaf 1, 1° en 2°, hebben ten aanzien van de
  beheersvennootschap, de onafhankelijke beheerentiteit, de collectieve beheerorganisatie of van de persoon
  bedoeld in artikel XV.31/1, § 1, eerste lid gevolgen te rekenen vanaf hun betekening aan bedoelde vennootschap,
@@ -38545,7 +39165,9 @@ Pagina 604 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2017-06-08/13, art. 116, 049; Inwerkingtreding : 01-01-2018>
   (2)<W 2024-05-03/21, art. 36, 135; Inwerkingtreding : 10-06-2024>
 
-   Art. XV.66/3.[1 § 1. Onverminderd de andere maatregelen bepaald door de wet en indien op het einde van de
+## Art. XV.66/3
+
+[1 § 1. Onverminderd de andere maatregelen bepaald door de wet en indien op het einde van de
  door de Koning vastgestelde termijn, de in toepassing van artikel XI.285 door de FOD Economie gevraagde
  informatie niet wordt verschaft door een natuurlijk persoon of rechtspersoon van publiek of privaat recht, kan
  de minister of de hiertoe door de minister aangestelde ambtenaar, deze een administratieve geldboete opleggen
@@ -38599,7 +39221,6 @@ Pagina 604 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. Onverminderd de toepassing van de procedures en vervolgingen bedoeld in artikel
  XV.60/1, § 1, kan de inschrijving bedoeld in artikel XIX.6 door de ambtenaren van de FOD Economie geschrapt
  worden wanneer de betrokken schuldinvorderaar niet meer voldoet aan één van de voorwaarden bepaald in
-Pagina 605 van 764 Copyright Belgisch S taatsblad 16-04-2026
  boek XIX of de besluiten genomen in uitvoering ervan of wanneer hij één van de bepalingen van titel 3, hoofdstuk
  6, of titel 4, hoofdstuk 1, van boek VI of één van de bepalingen van boek XIX of de besluiten genomen in
  uitvoering ervan niet naleeft.
@@ -38668,7 +39289,6 @@ Pagina 605 van 764 Copyright Belgisch S taatsblad 16-04-2026
  controleorgaan voor de databemiddelingsdiensten en de organisaties voor data-altruïsme kan worden aanvaard
  en aanleiding kan geven tot de stopzetting van repressieve maatregelen, maar niet noodzakelijk andere
  administratieve toepassingen uitsluit en dat de verbintenis van de overtreder om een einde te maken aan de
-Pagina 606 van 764 Copyright Belgisch S taatsblad 16-04-2026
  inbreuk of, indien dat relevant blijkt, corrigerende maatregelen te nemen, openbaar kan worden gemaakt op de
  wijze voorzien in artikel XV.31/2, § 4.
     § 2. Bij de uitoefening van het toezicht op de in paragraaf 1, eerste lid, bedoelde bepalingen beschikt het
@@ -38737,7 +39357,6 @@ Pagina 606 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De dwangsom wordt opgelegd en bepaald door de in paragraaf 2 bedoelde bevoegde ambtenaren. De
  dwangsom kan als eenmalig bedrag, dan wel als bedrag per tijdseenheid of per inbreuk worden vastgesteld. In
  de laatste twee gevallen kan ook een bedrag worden bepaald waarboven geen dwangsom meer verbeurd wordt.
-Pagina 607 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De dwangsom kan worden opgeheven, voor een bepaalde periode worden geschorst of het bedrag van de
  dwangsom kan worden verlaagd op verzoek van de aanbieder van databemiddelingsdiensten tegen wie een bevel
  is uitgevaardigd om de inbreuk binnen een bepaalde termijn op straffe van een dwangsom te staken, indien hij
@@ -38807,7 +39426,6 @@ Pagina 607 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aanbieder van databemiddelingsdiensten of van de organisatie voor data-altruïsme. De beslissing wordt
  uitvoerbaar na het verstrijken van de beroepstermijn bedoeld in artikel XV.66/10, eerste lid, of, indien van
  toepassing, na het verstrijken van de beroepstermijn bedoeld in artikel XV.60/15.]1
-Pagina 608 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 29, 137; Inwerkingtreding : 01-10-2024>
 
@@ -38851,7 +39469,9 @@ Pagina 608 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
 
-  Art. XV.67.[1 Bij beslissing die met een ter post aangetekende brief of met een brief met ontvangstbewijs ter
+## Art. XV.67
+
+[1 Bij beslissing die met een ter post aangetekende brief of met een brief met ontvangstbewijs ter
  kennis wordt gebracht, schrapt de FSMA de vergunning van de kredietgevers of de inschrijving van de
  kredietbemiddelaars die hun activiteiten die overeenstemmen met de verleende vergunning of inschrijving niet
  binnen zes maanden na het verlenen van de vergunning of inschrijving hebben aangevat, die hiervan afstand
@@ -38860,7 +39480,9 @@ Pagina 608 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. XV.67/1.[1 § 1. Wanneer de FSMA vaststelt dat een kredietgever niet werkt overeenkomstig de bepalingen
+## Art. XV.67/1
+
+[1 § 1. Wanneer de FSMA vaststelt dat een kredietgever niet werkt overeenkomstig de bepalingen
  van boek VII, titel 4, hoofdstuk 4 en van de besluiten en reglementen genomen ter uitvoering daarvan,
  identificeert zij die tekortkomingen en stelt zij de termijn vast waarbinnen deze toestand moet worden verholpen.
    Indien de toestand na deze termijn niet is verholpen, kan de FSMA :
@@ -38876,7 +39498,6 @@ Pagina 608 van 764 Copyright Belgisch S taatsblad 16-04-2026
  of beslissingen nemen zonder de vereiste toestemming van de bijzonder commissaris, zijn hoofdelijk
  aansprakelijk voor het nadeel dat hieruit voor de kredietgever of voor derden is voortgevloeid.
    Indien de FSMA de aanstelling van de bijzonder commissaris in het Belgisch Staatsblad heeft bekendgemaakt,
-Pagina 609 van 764 Copyright Belgisch S taatsblad 16-04-2026
  met opgave van de handelingen en beslissingen waarvoor zijn toestemming vereist is, zijn alle handelingen en
  beslissingen zonder die vereiste toestemming nietig, tenzij de bijzonder commissaris ze bekrachtigt. Onder
  dezelfde voorwaarden zijn alle beslissingen van de algemene vergadering die werden genomen zonder de
@@ -38944,7 +39565,6 @@ Pagina 609 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [2 § 8. De FSMA kan de maatregelen die zij heeft genomen jegens een kredietgever op diens kosten laten
  publiceren in de kranten en tijdschriften die zij kiest of op plaatsen en voor de duur die zij bepaalt. De FSMA kan
  die maatregelen eveneens op haar website publiceren.]2
-Pagina 610 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
  gewijzigd bij KB 2015-06-28/02, art. 2)>
@@ -38952,7 +39572,9 @@ Pagina 610 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2018-04-15/14, art. 201, 059; Inwerkingtreding : 01-11-2018>
   (4)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. XV.67/2.[1 § 1. Wanneer de FSMA vaststelt dat een kredietbemiddelaar niet werkt overeenkomstig de
+## Art. XV.67/2
+
+[1 § 1. Wanneer de FSMA vaststelt dat een kredietbemiddelaar niet werkt overeenkomstig de
  bepalingen van boek VII, titel 4, hoofdstuk 4 en van de besluiten en reglementen genomen ter uitvoering
  daarvan, identificeert zij die tekortkomingen en stelt zij de termijn vast waarbinnen deze toestand moet worden
  verholpen.
@@ -38995,7 +39617,9 @@ Pagina 610 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
 
-   Art. XV.67/3.[1 § 1. Wanneer de FSMA, onverminderd [2 artikel 329, § 5, van de [3 wet van 25 april 2014 op het
+## Art. XV.67/3
+
+[1 § 1. Wanneer de FSMA, onverminderd [2 artikel 329, § 5, van de [3 wet van 25 april 2014 op het
  statuut van en het toezicht op kredietinstellingen en beursvennoot-schappen]3]2, vaststelt dat een kredietgever
  naar buitenlands recht die geregistreerd is overeenkomstig artikel VII. 174, § 4, zich niet schikt naar de voor hem
  geldende bepalingen van boek VII, titel 4, hoofdstuk 4 of wanneer de FOD Economie de FSMA bij gemotiveerde
@@ -39011,7 +39635,6 @@ Pagina 610 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hem in het bijzonder de instelling verbieden een activiteit van kredietgever en, desgevallend van
  kredietbemiddelaar, verder te zetten in België. Deze beslissing wordt met een ter post aangetekende brief ter
  kennis gebracht aan de kredietgever en hiervan wordt een kopie bezorgd aan de Nationale Bank van België en
-Pagina 611 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de FOD Economie.
    Als de kredietgever een kredietinstelling is, worden de Europese Commissie en de Europese Bankautoriteit
  onverwijld in kennis gesteld van de maatregelen die conform het vorige lid zijn genomen.
@@ -39038,7 +39661,9 @@ Pagina 611 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2016-10-25/04, art. 3, 039; Inwerkingtreding : 28-11-2016>
    (4)<W 2018-04-15/14, art. 203, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. XV.67/4.[1 De artikelen XV.67 en XV.67/1 zijn van toepassing op de andere kredietgevers naar buitenlands
+## Art. XV.67/4
+
+[1 De artikelen XV.67 en XV.67/1 zijn van toepassing op de andere kredietgevers naar buitenlands
  recht als bedoeld in artikel VII.176.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
@@ -39050,7 +39675,9 @@ Pagina 611 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
 
-   Art. XV.68.[1 § 1. [3 Wanneer de FSMA vaststelt dat een bemiddelaar inzake hypothecair krediet naar
+## Art. XV.68
+
+[1 § 1. [3 Wanneer de FSMA vaststelt dat een bemiddelaar inzake hypothecair krediet naar
  buitenlands recht als bedoeld in artikel VII. 183, § 2, zich niet schikt naar artikel VII.183, § 5, 1° tot 3°, of
  wanneer de FOD Economie de FSMA bij gemotiveerde kennisgeving meedeelt, na betrokkene te hebben gehoord,
  dat een dergelijke kredietbemiddelaar zich niet schikt naar artikel VII.183, § 5, 4°, maant de FSMA deze
@@ -39078,7 +39705,6 @@ Pagina 611 van 764 Copyright Belgisch S taatsblad 16-04-2026
  (EU) nr. 1093/2010 vastgestelde bepalingen, waarbij aan de bevoegde autoriteiten van de lidstaat van ontvangst
  geen bevoegdheden worden verleend, stelt de FSMA de bevoegde autoriteit van de lidstaat van herkomst van
  deze bemiddelaar hiervan in kennis en vraagt haar de passende maatregelen te treffen.
-Pagina 612 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Als de autoriteit van de lidstaat van herkomst van deze bemiddelaar geen maatregelen neemt binnen een
  termijn van een maand te rekenen vanaf de ontvangst van de mededeling van de FSMA of als de
  kredietbemiddelaar, ondanks de maatregelen die zijn genomen door de autoriteit van de lidstaat van herkomst,
@@ -39145,8 +39771,9 @@ Pagina 612 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
-Pagina 613 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XV.69.[1 De bepalingen van Boek I van het Strafwetboek [2 ,met inbegrip van hoofdstuk VII en van artikel
+## Art. XV.69
+
+[1 De bepalingen van Boek I van het Strafwetboek [2 ,met inbegrip van hoofdstuk VII en van artikel
  85,]2 zijn van toepassing op de inbreuken bedoeld in dit Wetboek, onder voorbehoud van toepassing van de
  hiernavermelde bijzondere bepalingen.]1
   ----------
@@ -39178,7 +39805,9 @@ Pagina 613 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 51, 092; Inwerkingtreding : 30-11-2020>
 
-   Art. XV.70.[1 § 1. De inbreuken op de bepalingen van dit Wetboek, van zijn uitvoeringsbesluiten, van de wetten
+## Art. XV.70
+
+[1 § 1. De inbreuken op de bepalingen van dit Wetboek, van zijn uitvoeringsbesluiten, van de wetten
  en uitvoeringsbesluiten waarvoor dit boek in sancties voorziet en van de verordeningen van de Europese Unie
  waarvoor dit boek in sancties voorziet, worden bestraft met een sanctie tussen niveau 1 en niveau 6, en dit als
  volgt:
@@ -39213,7 +39842,6 @@ Pagina 613 van 764 Copyright Belgisch S taatsblad 16-04-2026
    In geval van een grensoverschrijdende inbreuk, kan de jaaromzet verwezenlijkt in de andere landen waar de
  inbreuk is begaan, opgenomen worden in de berekening van de jaaromzet voor de bepaling van het
  maximumbedrag van de geldboete bedoeld in paragraaf 1.
-Pagina 614 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer er overeenkomstig artikel 21 van Verordening (EU) 2017/2394 van het Europees Parlement en de
  Raad van 12 december 2017 betreffende samenwerking tussen de nationale autoriteiten die verantwoordelijk zijn
  voor handhaving van de wetgeving inzake consumentenbescherming en tot intrekking van Verordening (EG) nr.
@@ -39243,7 +39871,9 @@ Pagina 614 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.72.[1 In geval van herhaling binnen een termijn van vijf jaar te rekenen van een in kracht van gewijsde
+## Art. XV.72
+
+[1 In geval van herhaling binnen een termijn van vijf jaar te rekenen van een in kracht van gewijsde
  gegane veroordeling [2 , een definitieve administratieve beslissing tot schuldigverklaring of een definitieve
  administratieve beslissing tot oplegging van een administratieve geldboete]2 wegens dezelfde inbreuk, worden de
  geldboeten en de gevangenisstraffen op het dubbele van het maximum gebracht.]1
@@ -39286,8 +39916,9 @@ Pagina 614 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 7, 007; Inwerkingtreding : 09-05-2014>
 
-Pagina 615 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XV.75.[1 Met een sanctie van niveau 2 worden gestraft :
+## Art. XV.75
+
+[1 Met een sanctie van niveau 2 worden gestraft :
    1° [2 De natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen]2 en de bestuurders,
  zaakvoerders, directeurs en procuratiehouders van rechtspersonen, die wetens de bepalingen overtreden van
  de artikelen III.82 en III.83, eerste en derde lid, van de artikelen III.84 tot III.89 of van de ter uitvoering van artikel
@@ -39316,7 +39947,9 @@ Pagina 615 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 7, 007; Inwerkingtreding : 09-05-2014>
 
-   Art. XV.77.[1 Met een sanctie van niveau 2 worden gestraft, zij die :
+## Art. XV.77
+
+[1 Met een sanctie van niveau 2 worden gestraft, zij die :
    1° gehouden zijn zich in te schrijven met de [2 hoedanigheid van inschrijvingsplichtige onderneming]2 in de
  Kruispuntbank van Ondernemingen en die activiteiten uitoefenen zonder daarvoor de inschrijving gevraagd te
  hebben van deze hoedanigheid;
@@ -39333,7 +39966,9 @@ Pagina 615 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2013-07-17/32, art. 7, 007; Inwerkingtreding : 09-05-2014>
    (2)<W 2018-04-15/14, art. 205, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. XV.78.[1 Met een sanctie van niveau 3 worden gestraft, zij die :
+## Art. XV.78
+
+[1 Met een sanctie van niveau 3 worden gestraft, zij die :
    1° een economische activiteit uitoefenen nadat de inschrijving [2 als inschrijvingsplichtige onderneming]2 hen
  werd geweigerd of nadat deze werd doorgehaald;
    2° drie dagen na de betekening van een in kracht van gewijsde gegaan vonnis of arrest van veroordeling, de
@@ -39356,8 +39991,9 @@ Pagina 615 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-Pagina 616 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XV.80.[1 Elke inbreuk op de artikelen IV.13 en IV.14 wordt bestraft met een sanctie van niveau 2. Elke
+## Art. XV.80
+
+[1 Elke inbreuk op de artikelen IV.13 en IV.14 wordt bestraft met een sanctie van niveau 2. Elke
  inbreuk op het besluit bedoeld in artikel IV.15 wordt bestraft met een sanctie van niveau 5.
    Het gebruik of de openbaarmaking van de met toepassing van de bepalingen van het Boek IV verkregen
  bescheiden of inlichtingen, voor andere doeleinden dan de toepassing van het Boek IV en de artikelen 101 en
@@ -39382,7 +40018,9 @@ Pagina 616 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-   Art. XV.82.[1 Met een sanctie van niveau 6 worden bestraft, zij die een inbreuk begaan op artikel V.8 of zich niet
+## Art. XV.82
+
+[1 Met een sanctie van niveau 6 worden bestraft, zij die een inbreuk begaan op artikel V.8 of zich niet
  houden aan of hun medewerking weigeren aan de uitvoering van hetgeen is bepaald in een beslissing genomen
  in toepassing van de artikelen V.4, V.5, [2 V.10,]2 V.11, V.12 en V.14, [2 ...]2 van dit Wetboek [2 of de besluiten
  genomen in uitvoering van de artikelen V.10, V.11, V.12 en V.14]2.
@@ -39406,7 +40044,9 @@ Pagina 616 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 52, 129; Inwerkingtreding : 31-03-2024>
 
-  Art. XV.83.[1 Met een sanctie van niveau 2 worden gestraft, zij die de bepalingen overtreden :
+## Art. XV.83
+
+[1 Met een sanctie van niveau 2 worden gestraft, zij die de bepalingen overtreden :
   1° van de artikelen VI. 3 tot VI. 6 betreffende de prijsaanduiding en van de besluiten ter uitvoering van artikel VI.
  7;
   [2 1°/1. van de artikelen VI. 7/1 en VI. 7/2 en [10 van de besluiten tot uitvoering van artikel VI.7/1]10;]2
@@ -39425,7 +40065,6 @@ Pagina 616 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [10 6° /1 van artikel VI.34 en van de besluiten ter uitvoering van artikel VI.35;]10
   7° van artikel VI. 39 betreffende het aan een consument ter ondertekening voorleggen van een wisselbrief;
 
-Pagina 617 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [7 7° /1 van artikel VI.40 betreffende de communicatie per telefoon;]7
    [7 7° /2 van artikel VI.41 betreffende extra betalingen;]7
    [7 7° /3 van artikel VI.42 betreffende vergoedingen voor het gebruik van betaalmiddelen;]7
@@ -39486,10 +40125,11 @@ Pagina 617 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (11)<W 2024-02-08/05, art. 8, 128; Inwerkingtreding : 29-02-2024>
    (12)<W 2024-02-09/19, art. 53, 129; Inwerkingtreding : 31-03-2024>
 
-  Art. XV.84.[1 Met een sanctie van niveau 3 worden gestraft, zij die te kwader trouw de bepalingen van boek VI
+## Art. XV.84
+
+[1 Met een sanctie van niveau 3 worden gestraft, zij die te kwader trouw de bepalingen van boek VI
  van dit Wetboek [2 en zijn uitvoeringsbesluiten]2 overtreden, met uitzondering van die welke bedoeld zijn in [2 de
  artikelen XV.85, XV.85/1]2, XV.86 en XV.126 en met uitzondering van de inbreuken bedoeld in artikel VI. 104.]1
-Pagina 618 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 5, 009; Inwerkingtreding : 31-05-2014>
   (2)<W 2023-11-05/07, art. 59, 123; Inwerkingtreding : 21-12-2023>
@@ -39535,13 +40175,17 @@ Pagina 618 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 13, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. XV.86/1.[1 Met een sanctie van niveau 2 worden gestraft zij die de bepalingen overtreden van de artikelen
+## Art. XV.86/1
+
+[1 Met een sanctie van niveau 2 worden gestraft zij die de bepalingen overtreden van de artikelen
  VII.64 [2 , VII.65]2, VII.123 en VII.124 betreffende reclame.]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/47, art. 42, 065; Inwerkingtreding : 15-09-2018>
   (2)<W 2019-05-02/28, art. 30, 077; Inwerkingtreding : 01-06-2019>
 
-  Art. XV.87.[1 Met een sanctie van niveau 3 wordt gestraft, zij die ter kwader trouw de bepalingen overtreden :
+## Art. XV.87
+
+[1 Met een sanctie van niveau 3 wordt gestraft, zij die ter kwader trouw de bepalingen overtreden :
   1° [3 van de artikelen VII.56/1 tot VII.59/1 [6 en VII.59/3]6;]3
   [5 1° /1 van de artikelen VII.59/4 tot VII.59/6 en de uitvoeringsbesluiten ervan betreffende de basisbankdienst
  voor ondernemingen;]5
@@ -39561,7 +40205,6 @@ Pagina 618 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Met een sanctie van niveau 4 wordt gestraft zij die de bepalingen overtreden :
   1° van artikel VII. 149, § 1, betreffende de verplichting tot raadpleging van de Centrale;
   2° van artikel VII. 149, § 2, betreffende de mededeling van gegevens aan de Centrale en van de besluiten ter
-Pagina 619 van 764 Copyright Belgisch S taatsblad 16-04-2026
  uitvoering van dat artikel;
   3° van artikel VII. 153, § 2, betreffende het gebruik van de ontvangen inlichtingen;
   4° van artikel VII. 153, § 2, derde en vierde lid, betreffende de gegevens van de Centrale die de
@@ -39570,7 +40213,9 @@ Pagina 619 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/39, art. 13, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Art. XV.89.[1 Worden gestraft met een sanctie van niveau 5, zij die de bepalingen overtreden:
+## Art. XV.89
+
+[1 Worden gestraft met een sanctie van niveau 5, zij die de bepalingen overtreden:
    [2 1° van de artikelen VII.4/1 tot VII.4/4 betreffende de vergelijkbaarheid van de in verband met
  betaalrekeningen aangerekende vergoedingen;]2
   [5 1° /1 van artikel VII.4/5 en van de genomen besluiten in uitvoering van dit artikel betreffende de
@@ -39628,7 +40273,6 @@ Pagina 619 van 764 Copyright Belgisch S taatsblad 16-04-2026
    26° van de artikelen VII. 60 tot VII. 62 die betrekking hebben op de uitgifte van elektronisch geld, de
  terugbetaalbaarheid van elektronisch geld en het verbod op rente;
   [2 26° /1 van de artikelen VII.62/1 tot VII.62/7 betreffende de overstapdienst betaalrekeningen;]2
-Pagina 620 van 764 Copyright Belgisch S taatsblad 16-04-2026
    27° van [6 het artikel 3, de artikelen 5 tot 5bis, tweede lid, eerste alinea, de artikelen 5bis, derde lid tot 5quater,
  de artikelen 6 tot 9 en het artikel 15, derde lid, a),]6 van verordening (EU) nr. 260/2012 van het Europees
  Parlement en de Raad van 14 maart 2012 tot vaststelling van technische en bedrijfsmatige vereisten voor
@@ -39647,7 +40291,9 @@ Pagina 620 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (5)<W 2024-05-03/21, art. 39, 135; Inwerkingtreding : 31-12-2025>
   (6)<W 2025-12-11/13, art. 166, 143; Inwerkingtreding : 03-01-2026>
 
-   Art. XV.90.[1 Met een sanctie van niveau 5 worden gestraft, zij die :
+## Art. XV.90
+
+[1 Met een sanctie van niveau 5 worden gestraft, zij die :
    1° als kredietgever de bepalingen [2 van artikel VII.95, §§ 1, 2 of 3 of artikel VII.147/10, §§ 1, 2 of 3]2
  overtreden;
    2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld in boek VII in blanco doet ondertekenen
@@ -39693,7 +40339,6 @@ Pagina 620 van 764 Copyright Belgisch S taatsblad 16-04-2026
    19° [2 als kredietgever of kredietbemiddelaar aan de consument niet het ESIS bedoeld [5 in artikel VII.127]5
  verstrekken of die in strijd met [6 de artikelen VII.129, [7 VII.131]7 en VII.131]6, wetens en willens niet de meest
  aangepaste informatie verstrekt of niet het best aangepaste krediet zoekt;]2
-Pagina 621 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [8 19° /1 als kredietgever de bepalingen van artikel VII.143, § 8 overtreden;]8
   [4 20° : a) wetens en willens een cheque of enig ander door dit Wetboek met de cheque gelijkgesteld
  waardepapier uitgeven zonder voorafgaand, toereikend en beschikbaar fonds; of
@@ -39714,7 +40359,9 @@ Pagina 621 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (7)<W 2024-02-09/19, art. 54, 129; Inwerkingtreding : 31-03-2024>
   (8)<W 2024-12-20/49, art. 54, 139; Inwerkingtreding : 24-01-2025>
 
-   Art. XV.91.[1 Met een sanctie van niveau 5 worden gestraft :
+## Art. XV.91
+
+[1 Met een sanctie van niveau 5 worden gestraft :
    1° zij die de activiteit van kredietgever uitoefenen zonder de vergunning of registratie te hebben verkregen als
  bedoeld in artikel VII.160, § 6, en VII. 174, § 4;
    2° zij die de activiteit van kredietbemiddelaar uitoefenen zonder de inschrijving te hebben verkregen voorzien in
@@ -39764,7 +40411,6 @@ Pagina 621 van 764 Copyright Belgisch S taatsblad 16-04-2026
  of een verslag van de conformiteitsbeoordeling verkrijgen of pogen te verkrijgen;
   2° zij die in overtreding met de bepalingen van Boek VIII, titel 2, of de uitvoeringsbesluiten ervan, een certificaat
  of een verslag van de conformiteitsbeoordeling toekennen;
-Pagina 622 van 764 Copyright Belgisch S taatsblad 16-04-2026
   3° zij die in overtreding met de bepalingen van Boek VIII, titel 2, of de uitvoeringsbesluiten ervan, een certificaat
  of een verslag van de conformiteitsbeoordeling gebruiken of pogen te gebruiken;
   4° zij die door listige kunstgrepen, inzonderheid door handelingen die tot verwarring aanleiding kunnen geven,
@@ -39820,7 +40466,9 @@ Pagina 622 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.102.[1 § 1. Met een sanctie van niveau 2 worden bestraft, zij die het artikel IX.9 overtreden.
+## Art. XV.102
+
+[1 § 1. Met een sanctie van niveau 2 worden bestraft, zij die het artikel IX.9 overtreden.
   § 2. Met een sanctie van niveau 3 worden bestraft :
   1° zij die producten op de markt brengen waarvan zij op grond van Europese of Belgische normen weten of
  hadden moeten weten dat zij niet voldoen aan de in artikel IX.2 bedoelde waarborgen met betrekking tot de
@@ -39837,7 +40485,6 @@ Pagina 622 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
-Pagina 623 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2022-09-25/14, art. 35, 120; Inwerkingtreding : 26-01-2023>
 
   Afdeling 8. - [1 De straffen voor inbreuken op boek XI]1
@@ -39911,7 +40558,6 @@ Pagina 623 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De misdrijven bepaald in artikel XI. 304 worden gestraft met een gevangenisstraf van een
  sanctie van niveau 6.]1
   ----------
-Pagina 624 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
 ## Art. XV.106
@@ -39991,12 +40637,13 @@ Pagina 624 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-Pagina 625 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Onderafdeling 2. - [1 Collectief beheer van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XV.112.[1 § 1. [2 Met een sanctie van niveau 4 worden gestraft, zij die de voorschriften overtreden
+## Art. XV.112
+
+[1 § 1. [2 Met een sanctie van niveau 4 worden gestraft, zij die de voorschriften overtreden
  voorzien door of krachtens de artikelen:
    1° XI.247, § 1;
    2° XI.248, § 6;
@@ -40049,7 +40696,9 @@ Pagina 625 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 4, 010; Inwerkingtreding : 31-05-2014>
 
-  Art. XV.118.[1 Met een sanctie van niveau 3 worden gestraft :
+## Art. XV.118
+
+[1 Met een sanctie van niveau 3 worden gestraft :
   1° de dienstverleners die de met redenen omklede beschikkingen bedoeld in artikel XII.5, § 6, eerste lid, niet
  naleven;
   2° zij die de beschikkingen niet naleven van een vonnis of arrest gewezen op grond van artikel [3 XVII.1/4]3,
@@ -40059,7 +40708,6 @@ Pagina 625 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 4, 010; Inwerkingtreding : 31-05-2014>
   (2)<W 2024-04-21/06, art. 5, 132; Inwerkingtreding : 25-05-2024>
-Pagina 626 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
 
 ## Art. XV.119
@@ -40115,7 +40763,9 @@ Pagina 626 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 4, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XV.125.[2 (vroegere art. XV.127]2[1 § 1. Met een sanctie van niveau 2 worden bestraft zij die de [3 artikelen
+## Art. XV.125
+
+[2 (vroegere art. XV.127]2[1 § 1. Met een sanctie van niveau 2 worden bestraft zij die de [3 artikelen
  XVI.2 tot XVI.4, §§ 1 tot 3, XVI.17, § 2, laatste lid, en XVI.27, § 2]3, overtreden.
    § 2. Met een sanctie van niveau 3 worden gestraft, zij die te kwader trouw de [3 artikelen XVI.2 tot XVI.4, §§ 1
  tot 3, XVI.17, § 2, laatste lid, en XVI.27, § 2]3, overtreden.]1
@@ -40128,9 +40778,10 @@ Pagina 626 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 4, 012; Inwerkingtreding : 31-05-2014>
 
-  Art. XV.125/1.[1 Zij die [2 de bevelen en maatregelen, bedoeld in de artikelen XVII.4 en XVII.6, § 2, tweede lid]2
+## Art. XV.125/1
+
+[1 Zij die [2 de bevelen en maatregelen, bedoeld in de artikelen XVII.4 en XVII.6, § 2, tweede lid]2
  niet naleven, worden gestraft met een sanctie van niveau 3.]1
-Pagina 627 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 4, 012; Inwerkingtreding : 31-05-2014>
   (2)<W 2024-04-21/10, art. 6, 134; Inwerkingtreding : 10-06-2024>
@@ -40200,7 +40851,6 @@ Pagina 627 van 764 Copyright Belgisch S taatsblad 16-04-2026
  consumentengeschillen en tot wijziging van Verordening (EG) nr. 2006/2004 en richtlijn 2009/22/EG
  overtreden.]1
   ----------
-Pagina 628 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-04-18/03, art. 30, 046; Inwerkingtreding : 04-05-2017>
 
   [1 Art.XV.125/4.]1 [1 Met een sanctie van niveau 2 worden bestraft zij die de bepalingen van verordening (EU)
@@ -40261,7 +40911,6 @@ Pagina 628 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-03-20/05, art. 18, 106; Inwerkingtreding : 01-06-2022>
 
-Pagina 629 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Art.XV.125/5. [1 Met een sanctie van niveau 2 worden bestraft zij die de bepalingen overtreden van de artikelen
  1649bis tot 1649nonies of de artikelen 1701/1 tot 1701/19 van het oud Burgerlijk Wetboek.
    De overtreding vermeld in het eerste lid wordt begrepen als elke handeling of omissie die in strijd is met een of
@@ -40310,7 +40959,9 @@ Pagina 629 van 764 Copyright Belgisch S taatsblad 16-04-2026
  6)>
   (2)<W 2020-09-29/05, art. 53, 092; Inwerkingtreding : 30-11-2020>
 
-   Art. XV.126.[1 Een vrijwillige verhindering of belemmering tot het uitoefenen van de functies van de in [2 de
+## Art. XV.126
+
+[1 Een vrijwillige verhindering of belemmering tot het uitoefenen van de functies van de in [2 de
  artikelen XV.2 en XV.30/2]2 bedoelde ambtenaren of de politieambtenaren van de lokale en federale politie, wordt
  in toepassing van de bepalingen van dit Wetboek, bestraft met een sanctie van niveau 4.
    Een nieuwe inbreuk zoals bedoeld in het eerste lid, voordat vijf jaren zijn verlopen sinds zijn straf werd
@@ -40320,17 +40971,20 @@ Pagina 629 van 764 Copyright Belgisch S taatsblad 16-04-2026
  6)>
    (2)<W 2017-04-18/03, art. 31, 046; Inwerkingtreding : 04-05-2017>
 
-  Art. XV.126/1.[1 Met een sanctie van niveau 4 worden gestraft zij die de controles in de weg staan waaraan zij
+## Art. XV.126/1
+
+[1 Met een sanctie van niveau 4 worden gestraft zij die de controles in de weg staan waaraan zij
  krachtens de bepalingen van de artikelen XV.18/1 tot XV.18/3 in België of in het buitenland zijn onderworpen, of
  die met opzet valse, onjuiste of onvolledige inlichtingen, documenten of stukken verstrekken.
    Een nieuwe inbreuk zoals bedoeld in het eerste lid, voordat vijf jaren zijn verlopen sinds de straf werd
  ondergaan of sinds de straf verjaard is voor dezelfde inbreuk, wordt bestraft met een sanctie van niveau 5.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 14, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3;
-Pagina 630 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-   Art. XV.126/2.[1 Onverminderd de artikelen XV.126 en XV.126/1, wordt met een sanctie van niveau 4 gestraft:
+## Art. XV.126/2
+
+[1 Onverminderd de artikelen XV.126 en XV.126/1, wordt met een sanctie van niveau 4 gestraft:
     1° zij die geen gevolg geeft aan de verzoeken of opgelegde maatregelen bedoeld in de artikelen XV.3, 5° /1, 5°
  /2, 8° en 9°, en XV.5/1;
     2° [2 de onderneming bedoeld in artikel XV.31/2 of artikel XV.60/9/1 die de gemaakte toezeggingen of
@@ -40362,7 +41016,9 @@ Pagina 630 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.130.[1 In geval van veroordeling voor een inbreuk [2 op artikelen XV.103, XV.112, XV.107 tot XV.109,
+## Art. XV.130
+
+[1 In geval van veroordeling voor een inbreuk [2 op artikelen XV.103, XV.112, XV.107 tot XV.109,
  en]2 op Boeken VIII en IX zijn, onverminderd de toepassing van de artikelen 42 tot en met 43quater van het
  Strafwetboek, de hoven en rechtbanken ertoe gemachtigd de verbeurdverklaring uit te spreken, zelfs wanneer
  de eigenaar van het voorwerp van de inbreuk een derde persoon is.
@@ -40400,7 +41056,6 @@ Pagina 630 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 Voor wat betreft inbreuken bedoeld in artikel XV.104 en XV.106, kunnen de ontvangsten en
  de verbeurdverklaarde voorwerpen aan de burgerlijke partij worden toegewezen, in mindering of ten belope van
  het geleden nadeel.]1
-Pagina 631 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 18, 024; Inwerkingtreding : 01-01-2015>
 
@@ -40432,7 +41087,9 @@ Pagina 631 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Art. XV.131.[1 In geval van veroordeling voor een inbreuk [4 op Titel 3, hoofdstuk 2, afdeling 8, van dit boek,
+## Art. XV.131
+
+[1 In geval van veroordeling voor een inbreuk [4 op Titel 3, hoofdstuk 2, afdeling 8, van dit boek,
  en]4 op Boeken [2 VI,]2 [5 ...]5 VIII en IX kunnen de hoven en rechtbanken de aanplakking van het vonnis of
  arrest of van de door hen opgestelde samenvatting ervan bevelen gedurende de door hen bepaalde termijn,
  zowel buiten als binnen de inrichtingen van de overtreder, evenals de bekendmaking van het vonnis of arrest of
@@ -40475,7 +41132,6 @@ Pagina 631 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 35, 141; Inwerkingtreding : 28-06-2025>
 
-Pagina 632 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XV.132
 
 [1 Voor wat de inbreuken bedoeld in de artikelen XV.99/1 en XV.101/1 betreft, kan de rechter
@@ -40506,7 +41162,9 @@ Pagina 632 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-   Art. XVI.2.[1 Teneinde de consument toe te laten bij een onderneming rechtstreeks een klacht in te dienen of
+## Art. XVI.2
+
+[1 Teneinde de consument toe te laten bij een onderneming rechtstreeks een klacht in te dienen of
  informatie te vragen in verband met een reeds afgesloten overeenkomst, verstrekt de onderneming daartoe,
  aanvullend op de gegevens bedoeld in artikel III.74, [2 en voor zover een klachtendienst bestaat]2, diens
  telefoon- en faxnummer en elektronisch adres. Deze dienst mag in zijn benaming geen verwijzing maken naar de
@@ -40523,7 +41181,9 @@ Pagina 632 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XVI.4.[1 § 1. Wanneer een onderneming door een wettelijke of reglementaire bepaling, door een
+## Art. XVI.4
+
+[1 § 1. Wanneer een onderneming door een wettelijke of reglementaire bepaling, door een
  gedragscode die ze heeft onderschreven, als gevolg van het lidmaatschap van een handelsvereniging, een
  beroepsorganisatie of een beroepsorde of op grond van een bepaling uit haar eigen algemene of bijzondere
  verkoopsvoorwaarden gehouden is tot buitengerechtelijke regeling van consumentengeschillen, brengt zij de
@@ -40547,7 +41207,6 @@ Pagina 632 van 764 Copyright Belgisch S taatsblad 16-04-2026
  mei 2013 betreffende onlinebeslechting van consumentengeschillen en tot wijziging van Verordening (EG) nr.
  2006/2004 en Richtlijn 2009/22/EG]3 is voldaan en dat de verstrekte informatie juist is.]1
   ----------
-Pagina 633 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
   (2)<W 2015-10-26/06, art. 65, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2017-04-18/03, art. 32, 046; Inwerkingtreding : 04-05-2017>
@@ -40568,7 +41227,9 @@ Pagina 633 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XVI.6.[1 De Consumentenombudsdienst is belast met de volgende opdrachten :
+## Art. XVI.6
+
+[1 De Consumentenombudsdienst is belast met de volgende opdrachten :
   1° de consumenten en ondernemingen inlichten over hun rechten en plichten, in het bijzonder over de
  mogelijkheden van buitengerechtelijke regeling van consumentengeschillen;
   2° elke aanvraag tot buitengerechtelijke regeling van een consumentengeschil in ontvangst nemen en hetzij
@@ -40578,7 +41239,9 @@ Pagina 633 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-   Art. XVI.7.[1 De Consumentenombudsdienst verstrekt aan de minister, op zijn vraag, alle inlichtingen in verband
+## Art. XVI.7
+
+[1 De Consumentenombudsdienst verstrekt aan de minister, op zijn vraag, alle inlichtingen in verband
  met zijn werking en de vervulling van zijn opdrachten.
     De Consumentenombudsdienst verstrekt aan de minister bevoegd voor Begroting, op zijn vraag, alle
  inlichtingen in verband met de financiering en de besteding van de werkingsmiddelen.
@@ -40592,7 +41255,9 @@ Pagina 633 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XVI.8.[1 § 1. De Consumentenombudsdienst wordt beheerd en vertegenwoordigd door een Directiecomité
+## Art. XVI.8
+
+[1 § 1. De Consumentenombudsdienst wordt beheerd en vertegenwoordigd door een Directiecomité
  dat bestaat uit de volgende tien leden :
   1° de twee leden van de "ombudsdienst voor telecommunicatie", als bedoeld in artikel 43bis, § 1, van de wet van
  21 maart 1991 betreffende de hervorming van sommige economische overheidsbedrijven;
@@ -40616,7 +41281,6 @@ Pagina 633 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Iedere ombudsdienst als bedoeld in paragraaf 1 beschikt over twee stemmen.
   [2 ...]2 Zo de voorzitter verhinderd is, neemt de ondervoorzitter zijn functies waar.
   § 3. Binnen het kader van de toepasselijke wettelijke en reglementaire bepalingen is het Directiecomité bevoegd
-Pagina 634 van 764 Copyright Belgisch S taatsblad 16-04-2026
  om alle daden van beschikking en beheer te stellen die nodig zijn voor het beheer van de
  Consumentenombudsdienst, ter vervulling van zijn opdrachten bedoeld in artikel XVI.6.
    Tot de taken van beheer behoren onder meer het jaarlijks goedkeuren van het beleidsplan, het opmaken van de
@@ -40635,7 +41299,9 @@ Pagina 634 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
    (2)<W 2017-04-18/03, art. 34, 046; Inwerkingtreding : 04-05-2017>
 
-  Art. XVI.9.[1 De leden lichten het Directiecomité zonder verwijl in van elke omstandigheid die van aard is hun
+## Art. XVI.9
+
+[1 De leden lichten het Directiecomité zonder verwijl in van elke omstandigheid die van aard is hun
  onafhankelijkheid of hun onpartijdigheid aan te tasten of aan te kunnen tasten of aanleiding te kunnen geven tot
  een belangenconflict met een van de partijen bij de procedure tot buitengerechtelijke regeling van een
  consumentengeschil waarmee zij zijn belast in toepassing van artikel XVI.6, 3°.
@@ -40651,7 +41317,9 @@ Pagina 634 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XVI.11.[1 § 1. Ter vervulling van zijn opdrachten bedoeld in artikel XVI.6 wordt de
+## Art. XVI.11
+
+[1 § 1. Ter vervulling van zijn opdrachten bedoeld in artikel XVI.6 wordt de
  Consumentenombudsdienst gefinancierd door:
    1° een subsidie ten laste van de algemene uitgavenbegroting;
    2° bijdragen door de ondernemingen die betrokken zijn bij de buitengerechtelijke regeling van
@@ -40689,10 +41357,11 @@ Pagina 634 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rechten en plichten van de consumenten en de ondernemingen en in het bijzonder over de bestaande
  procedures voor buitengerechtelijke regeling van consumentengeschillen.]1
   ----------
-Pagina 635 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Art. XVI.14.[1 De Consumentenombudsdienst stelt zijn jaarverslag ter beschikking van het publiek op zijn
+## Art. XVI.14
+
+[1 De Consumentenombudsdienst stelt zijn jaarverslag ter beschikking van het publiek op zijn
  website [2 en op een duurzame gegevensdrager, indien daarom wordt verzocht]2.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
@@ -40749,7 +41418,9 @@ Pagina 635 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Art. XVI.17.[1 § 1. De Consumentenombudsdienst brengt binnen een termijn van 90 kalenderdagen na
+## Art. XVI.17
+
+[1 § 1. De Consumentenombudsdienst brengt binnen een termijn van 90 kalenderdagen na
  ontvangst van de volledige aanvraag, de uitkomst van de geschillenregeling ter kennis van de partijen.
   Deze termijn kan in uitzonderlijke omstandigheden eenmalig met eenzelfde periode worden verlengd op
  voorwaarde dat de partijen daarvan zijn geïnformeerd voor het verstrijken van de eerste termijn, en dat deze
@@ -40759,7 +41430,6 @@ Pagina 635 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Wanneer geen minnelijke regeling kan worden bereikt, deelt de Consumentenombudsdienst dit [2 op een
  duurzame gegevensdrager]2 mede aan de partijen en kan hij tezelfdertijd een aanbeveling formuleren ten aanzien
  van de betrokken onderneming, met kopie aan de aanvrager.
-Pagina 636 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Wanneer de betrokken onderneming deze aanbeveling niet volgt, beschikt zij over een termijn van dertig
  kalenderdagen om haar gemotiveerd standpunt ter kennis te brengen aan de Consumentenombudsdienst en
  aan de aanvrager.]1
@@ -40820,7 +41490,9 @@ Pagina 636 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Art. XVI.23.[1 § 1. De personeelsleden die betrokken zijn bij de procedures tot buitengerechtelijke regeling van
+## Art. XVI.23
+
+[1 § 1. De personeelsleden die betrokken zijn bij de procedures tot buitengerechtelijke regeling van
  consumentengeschillen met toepassing van artikel XVI.6, 2° en 3°, beschikken over voldoende kennis op het vlak
  van regeling van consumentengeschillen.
   De Koning kan nadere regels bepalen voor de toepassing van het vorige lid.]1
@@ -40836,8 +41508,9 @@ Pagina 636 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-Pagina 637 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XVI.24.[1 § 1. De Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie stelt de lijst op van
+## Art. XVI.24
+
+[1 § 1. De Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie stelt de lijst op van
  de entiteiten die aan buitengerechtelijke regeling van consumentengeschillen doen en die voldoen aan de
  voorwaarden bedoeld in artikel XVI.25, en maakt deze lijst bekend op haar website.
   Deze lijst wordt meegedeeld aan de Europese Commissie.
@@ -40850,7 +41523,9 @@ Pagina 637 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-   Art. XVI.25.[1 § 1. De voorwaarden waaraan een gekwalificeerde entiteit voldoet, zijn de volgende :
+## Art. XVI.25
+
+[1 § 1. De voorwaarden waaraan een gekwalificeerde entiteit voldoet, zijn de volgende :
    1° de entiteit is onafhankelijk en onpartijdig;
    2° de natuurlijke personen die binnen de entiteit belast zijn met de buitengerechtelijke regeling van
  consumentengeschillen, beschikken over de vereiste deskundigheid;
@@ -40902,9 +41577,10 @@ Pagina 637 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2015-10-26/06, art. 67, 028; Inwerkingtreding : 09-11-2015>
    (3)<W 2018-09-20/14, art. 11, 067; Inwerkingtreding : 20-10-2018>
 
-  Art. XVI.26.[1 De personen die belast zijn met een procedure van buitengerechtelijke regeling van
+## Art. XVI.26
+
+[1 De personen die belast zijn met een procedure van buitengerechtelijke regeling van
  consumentengeschillen delen zonder verwijl aan de gekwalificeerde entiteit en/of aan de betrokken partijen elke
-Pagina 638 van 764 Copyright Belgisch S taatsblad 16-04-2026
  omstandigheid mee die van aard is of kan zijn om te worden beschouwd als hun onafhankelijkheid en hun
  onpartijdigheid aan te tasten of als aanleiding te geven tot een belangenconflict met een van de partijen.
   De Koning verduidelijkt de toepassingsregels van het vorige lid.]1
@@ -40959,7 +41635,9 @@ Pagina 638 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2015-10-26/06, art. 70, 028; Inwerkingtreding : 09-11-2015>
 
-  Art. XVI.27.[1 § 1. Van zodra de gekwalificeerde entiteit een volledige aanvraag tot buitengerechtelijke regeling
+## Art. XVI.27
+
+[1 § 1. Van zodra de gekwalificeerde entiteit een volledige aanvraag tot buitengerechtelijke regeling
  heeft ontvangen, worden de verjaringstermijnen van gemeen recht geschorst.
   De schorsing loopt tot op de dag waarop de gekwalificeerde entiteit aan de partijen meedeelt :
   - dat de behandeling van de aanvraag is geweigerd, in toepassing van artikel XVI.25, § 1, 8° ;
@@ -40970,12 +41648,13 @@ Pagina 638 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Art. XVI.28.[1 Teneinde een efficiënte en transparante behandeling van aanvragen tot buitengerechtelijke
+## Art. XVI.28
+
+[1 Teneinde een efficiënte en transparante behandeling van aanvragen tot buitengerechtelijke
  regeling van consumentengeschillen te verzekeren kan de Koning maatregelen nemen om :
   - de gekwalificeerde entiteiten te coördineren en te ondersteunen;
   - gekwalificeerde entiteiten op te richten ]1
   ----------
-Pagina 639 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
   Boek XVII. - [1 Bijzondere rechtsprocedures]1
@@ -41045,7 +41724,6 @@ Pagina 639 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 5. De rechtspersoon waarvan het statutair doel de verdediging van de collectieve belangen van kmo's is en
  die niet is erkend door de minister bevoegd voor Middenstand, kan worden beschouwd als een bevoegde
  instantie kmo's voor een specifieke vordering die hij instelt voor de Belgische rechtbanken. In dat geval
-Pagina 640 van 764 Copyright Belgisch S taatsblad 16-04-2026
  onderzoekt de voorzitter van de rechtbank die bevoegd is om uitspraak te doen over de collectieve vordering tot
  staking of de rechtbank die bevoegd is om uitspraak te doen over de rechtsvordering tot collectief herstel de
  conformiteit van de in paragraaf 4 vastgestelde erkenningscriteria, rekening houdend met de specificiteit van die
@@ -41116,7 +41794,6 @@ Pagina 640 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedoeld in artikel XVII.1, §§ 4 tot 6, zorgen ervoor dat die informatie voor ieder beschikbaar blijft op hun website
  voor een periode van minstens vijf jaar na het einde van de desbetreffende rechtspleging.]1
    ----------
-Pagina 641 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2024-04-21/10, art. 11, 134; Inwerkingtreding : 10-06-2024>
 
   TITEL 1. - [1 Vordering tot staking]1
@@ -41146,7 +41823,9 @@ Pagina 641 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2019-05-02/28, art. 38, 077; Inwerkingtreding : 01-06-2019>
    (3)<W 2024-04-21/10, art. 12, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.2.[1 De voorzitter van de [2 ondernemingsrechtbank]2 stelt het bestaan vast en beveelt eveneens de
+## Art. XVII.2
+
+[1 De voorzitter van de [2 ondernemingsrechtbank]2 stelt het bestaan vast en beveelt eveneens de
  staking van de hiernavolgende inbreuken :
     1° de uitoefening van een activiteit met miskenning van de bepalingen van boek III van dit Wetboek;
     2° de niet-naleving van de wettelijke en reglementaire bepalingen inzake het bijhouden van de sociale
@@ -41184,7 +41863,6 @@ Pagina 641 van 764 Copyright Belgisch S taatsblad 16-04-2026
  collectieve belangen van consumenten;]3
    [5 18° de niet-naleving van de bepalingen van artikelen 3, 6/1 en 10/1, van de wet van 26 januari 2018
  betreffende de postdiensten;]5
-Pagina 642 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [6 18° de niet-naleving van de bepalingen van de wet van 11 juni 2004 betreffende de informatieverstrekking bij
  de verkoop van tweedehandsvoertuigen.]6
   ----------
@@ -41196,14 +41874,18 @@ Pagina 642 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (6)<W 2024-02-09/19, art. 57, 129; Inwerkingtreding : 31-03-2024>
   (7)<W 2024-04-21/10, art. 13, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.3.[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan aan de overtreder een termijn toestaan om
+## Art. XVII.3
+
+[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan aan de overtreder een termijn toestaan om
  aan de inbreuk een einde te maken, wanneer de aard van de inbreuk dit nodig maakt. Hij kan de opheffing van
  het stakingsbevel toestaan wanneer een einde werd gemaakt aan de inbreuk.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/36, art. 4, 013; Inwerkingtreding : 31-05-2014>
   (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. XVII.4.[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan toestaan dat zijn beslissing of de
+## Art. XVII.4
+
+[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan toestaan dat zijn beslissing of de
  samenvatting die hij opstelt wordt aangeplakt tijdens de door hem bepaalde termijn, zowel buiten als binnen de
  inrichtingen van de overtreder en dat zijn vonnis of de samenvatting ervan in kranten of op enige andere wijze
  wordt bekendgemaakt, dit alles op kosten van de overtreder.
@@ -41219,13 +41901,17 @@ Pagina 642 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
    (3)<W 2024-04-21/10, art. 14, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.5.[1 De vordering bedoeld in de artikelen [2 XVII.1/4]2 en XVII. 2 kan niet meer worden ingesteld één
+## Art. XVII.5
+
+[1 De vordering bedoeld in de artikelen [2 XVII.1/4]2 en XVII. 2 kan niet meer worden ingesteld één
  jaar nadat de feiten waarop men zich beroept een einde hebben genomen.]1
    ----------
    (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
    (2)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.6.[3 § 1.]3 [1 De vordering wordt ingesteld en behandeld zoals in kortgeding.
+## Art. XVII.6
+
+[3 § 1.]3 [1 De vordering wordt ingesteld en behandeld zoals in kortgeding.
    Zij mag worden ingesteld bij verzoekschrift op tegenspraak, overeenkomstig de artikelen 1034ter tot
  1034sexies van het Gerechtelijk Wetboek.
    Het vonnis is uitvoerbaar bij voorraad, niettegenstaande elk rechtsmiddel en zonder borgtocht.
@@ -41251,7 +41937,6 @@ Pagina 642 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
    (2)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
-Pagina 643 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2024-04-21/10, art. 15, 134; Inwerkingtreding : 10-06-2024>
 
 ## Art. XVII.6/1
@@ -41274,7 +41959,9 @@ Pagina 643 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
-   Art. XVII.7.[8 § 1.]8 [1 De vordering gegrond op artikel [7 XVII.1/4]7 wordt ingesteld op verzoek van :
+## Art. XVII.7
+
+[8 § 1.]8 [1 De vordering gegrond op artikel [7 XVII.1/4]7 wordt ingesteld op verzoek van :
    1° de belanghebbenden;
    2° de voor deze materie bevoegde minister of de [5 directeur-generaal van de algemene directie Economische
  Inspectie]5 van de federale overheidsdienst Economie, K.M.O., Middenstand en Energie, tenzij het verzoek
@@ -41319,7 +42006,6 @@ Pagina 643 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een andere lidstaat in te stellen.]8
    ----------
    (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
-Pagina 644 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2014-05-15/07, art. 2, 020; Inwerkingtreding : 31-05-2014>
   (3)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
   (4)<W 2018-12-21/09, art. 155, 069; Inwerkingtreding : 10-01-2019>
@@ -41328,7 +42014,9 @@ Pagina 644 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (7)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
   (8)<W 2024-04-21/10, art. 18, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.8.[1 Onverminderd de eventuele toepassing van artikel VI. 104 en van artikel [2 XVII.1/4]2 op de daarin
+## Art. XVII.8
+
+[1 Onverminderd de eventuele toepassing van artikel VI. 104 en van artikel [2 XVII.1/4]2 op de daarin
  bedoelde daden kan de vordering wegens schending van artikel XVII.2 enkel worden ingesteld op verzoek van de
  minister die voor de betrokken aangelegenheid bevoegd is.
    De vordering op grond van artikel XVII.2, 9°, wordt ingesteld op verzoek van de minister bevoegd voor het
@@ -41347,7 +42035,9 @@ Pagina 644 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
-  Art. XVII.9.[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan de marktpraktijken bedoeld in de artikelen
+## Art. XVII.9
+
+[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan de marktpraktijken bedoeld in de artikelen
  VI. 92 tot VI.109 van dit Wetboek verbieden wanneer zij nog geen aanvang hebben genomen, doch op het punt
  staan plaats te vinden.]1
   ----------
@@ -41379,7 +42069,9 @@ Pagina 644 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
-  Art. XVII.12.[1 De vordering tot staking van de door [2 de artikelen VI.84 en VI.91/6]2 verboden handelingen
+## Art. XVII.12
+
+[1 De vordering tot staking van de door [2 de artikelen VI.84 en VI.91/6]2 verboden handelingen
  kan, afzonderlijk of gezamenlijk, worden ingesteld tegen verscheidene ondernemingen van dezelfde economische
  sector of hun verenigingen die gebruik maken dan wel het gebruik aanbevelen van dezelfde of van soortgelijke
  algemene contractuele bedingen.]1
@@ -41387,11 +42079,12 @@ Pagina 644 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
   (2)<W 2019-04-04/53, art. 37, 080; Inwerkingtreding : 01-12-2020>
 
-  Art. XVII.13.[1 De onderneming is er toe gehouden, binnen een termijn van maximum een maand, de bewijzen
+## Art. XVII.13
+
+[1 De onderneming is er toe gehouden, binnen een termijn van maximum een maand, de bewijzen
  te leveren betreffende de materiële juistheid van de feitelijke gegevens die zij meedeelt in het kader van een
  handelspraktijk, als er een vordering tot staking wordt ingesteld door :
 
-Pagina 645 van 764 Copyright Belgisch S taatsblad 16-04-2026
   1° de minister en, in voorkomend geval, de bevoegde minister bedoeld in artikel XVII.8;
   2° de andere personen bedoeld in artikelen XVII.7, voor zover, rekening houdend met de gerechtvaardigde
  belangen van de onderneming en van elke andere partij bij de procedure, de voorzitter van de [2
@@ -41411,7 +42104,9 @@ Pagina 645 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XVII.14.[1 § 1. De voorzitter van de [2 ondernemingsrechtbank]2 stelt het bestaan vast en beveelt de
+## Art. XVII.14
+
+[1 § 1. De voorzitter van de [2 ondernemingsrechtbank]2 stelt het bestaan vast en beveelt de
  staking van elke inbreuk op een intellectueel eigendomsrecht, met uitzondering van het octrooirecht met inbegrip
  van het recht betreffende aanvullende beschermingscertificaten, het auteursrecht, de naburige rechten en het
  recht van de producenten van databanken.
@@ -41428,7 +42123,9 @@ Pagina 645 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-04-10/77, art. 6, 023; Inwerkingtreding : 01-01-2015>
   (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-   Art. XVII.15.[1 § 1. Elke vordering tot staking voor het beëindigen van een inbreuk op een intellectueel
+## Art. XVII.15
+
+[1 § 1. Elke vordering tot staking voor het beëindigen van een inbreuk op een intellectueel
  eigendomsrecht met uitzondering van het octrooirecht, met inbegrip van het recht betreffende aanvullende
  beschermingscertificaten, het auteursrecht, naburige recht of het recht van de producenten van databanken,
  beoogt in artikel XVII.14, § 1, die ook de staking tot voorwerp heeft van een handeling bedoeld in artikel [2
@@ -41457,7 +42154,6 @@ Pagina 645 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
 
-Pagina 646 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XVII.16
 
 [1 De voorzitter kan, wanneer hij de staking beveelt, maatregelen bevelen zoals bepaald in artikel
@@ -41492,7 +42188,9 @@ Pagina 646 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
-   Art. XVII.19.[1 § 1. De vordering op grond van artikel XVII.14, §§ 1 en 2, wordt ingesteld op verzoek van de
+## Art. XVII.19
+
+[1 § 1. De vordering op grond van artikel XVII.14, §§ 1 en 2, wordt ingesteld op verzoek van de
  personen die een vordering inzake namaak kunnen instellen volgens de bepalingen betreffende het betrokken
  intellectueel eigendomsrecht.
    § 2. [2 In het geval van inbreuk op het auteursrecht of op een naburig recht wordt de vordering op grond van
@@ -41506,7 +42204,9 @@ Pagina 646 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
    (2)<W 2022-06-19/03, art. 87, 113; Inwerkingtreding : 01-06-2024>
 
-  Art. XVII.20.[1 § 1. [2 ...]2
+## Art. XVII.20
+
+[1 § 1. [2 ...]2
   § 2. De voorzitter van de rechtbank kan toestaan dat zijn beslissing of de samenvatting die hij opstelt wordt
  aangeplakt tijdens de door hem bepaalde termijn, zowel buiten als binnen de inrichtingen van de overtreder en
  dat zijn vonnis of de samenvatting ervan in kranten of op enige andere wijze wordt bekendgemaakt, dit alles op
@@ -41526,11 +42226,12 @@ Pagina 646 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
-  Art. XVII.21.[1 § 1. Als op het einde van de termijn bepaald in artikel XV.31/1 de vastgestelde inbreuk niet is
+## Art. XVII.21
+
+[1 § 1. Als op het einde van de termijn bepaald in artikel XV.31/1 de vastgestelde inbreuk niet is
  verholpen, kan de minister, onverminderd de andere maatregelen bepaald in de wet, aan de voorzitter van de
  rechtbank van eerste aanleg te Brussel, of, indien de verweerder [2 een onderneming]2 is, naar de keuze van de
  minister, aan de voorzitter van de [2 ondernemingsrechtbank]2 te Brussel of aan de voorzitter van de rechtbank
-Pagina 647 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van eerste aanleg te Brussel, vragen om:
    1° het bestaan vast te stellen en de staking te bevelen van de inbreuken vastgesteld in de waarschuwing
  bedoeld in artikel XV.31/1;
@@ -41558,7 +42259,9 @@ Pagina 647 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 24, 064; Inwerkingtreding : 24-08-2018>
 
-  Art. XVII.21/1.[1 § 1. Onverminderd de bevoegdheden van de arbeidsrechtbank, stelt de voorzitter van de [2
+## Art. XVII.21/1
+
+[1 § 1. Onverminderd de bevoegdheden van de arbeidsrechtbank, stelt de voorzitter van de [2
  ondernemingsrechtbank]2 het bestaan vast en beveelt hij de staking van elk onrechtmatig verkrijgen, gebruiken
  of openbaar maken van een bedrijfsgeheim in de zin van artikel XI.332/4, of, indien van toepassing, verbiedt hij
  het onrechtmatige gebruik of de onrechtmatige openbaarmaking van het bedrijfsgeheim in de zin van dat artikel.
@@ -41599,7 +42302,6 @@ Pagina 647 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2018-07-30/18, art. 27, 064; Inwerkingtreding : 24-08-2018>
 
-Pagina 648 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XVII.21/4
 
 [1 De vordering op grond van artikel XVII.21/1, § 1, wordt ingesteld op verzoek van de personen
@@ -41624,13 +42326,17 @@ Pagina 648 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
-  Art. XVII.22.[1 De vordering gegrond op artikel [2 XVII.1/4]2 kan ook worden ingesteld op verzoek van het
+## Art. XVII.22
+
+[1 De vordering gegrond op artikel [2 XVII.1/4]2 kan ook worden ingesteld op verzoek van het
  Toezichthoudend orgaan bedoeld in artikel I.18, 16°.]1
   ----------
   (1)<W 2016-07-21/40, art. 31, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
   (2)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.23.[2 § 1. In afwijking van de bepalingen van deze titel, zijn enkel de volgende paragrafen van
+## Art. XVII.23
+
+[2 § 1. In afwijking van de bepalingen van deze titel, zijn enkel de volgende paragrafen van
  toepassing in geval van schending van artikel XII.22.
     § 2. De voorzitter van de rechtbank van eerste aanleg, of in voorkomend geval, de voorzitter van de [4
  ondernemingsrechtbank]4, stelt het bestaan vast en beveelt de staking van elke registratie van een domeinnaam
@@ -41668,18 +42374,21 @@ Pagina 648 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
    (2)<W 2013-12-26/36, art. 8, 013; Inwerkingtreding : 31-05-2014>
-Pagina 649 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2014-05-15/07, art. 4, 020; Inwerkingtreding : 31-05-2014>
   (4)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. XVII.24.[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan de reclame bedoeld in artikel XII. 21, 3°,
+## Art. XVII.24
+
+[1 De voorzitter van de [2 ondernemingsrechtbank]2 kan de reclame bedoeld in artikel XII. 21, 3°,
  verbieden wanneer zij nog niet onder het publiek is gebracht, doch de publicatie ervan op het punt staat te
  gebeuren.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/36, art. 9, 013; Inwerkingtreding : 31-05-2014>
   (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. XVII.25.[1 Voor de toepasing van de artikelen XII. 1 tot XII. 20, kan de vordering tot staking bedoeld in
+## Art. XVII.25
+
+[1 Voor de toepasing van de artikelen XII. 1 tot XII. 20, kan de vordering tot staking bedoeld in
  artikel [2 XVII.1/4]2 eveneens ingesteld worden op verzoek van een ziekenfonds of een landsbond van
  ziekenfondsen.]1
   ----------
@@ -41721,7 +42430,6 @@ Pagina 649 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XVII.33.
 
 ## Art. XVII.34.
-Pagina 650 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   TITEL 1/1. [1 - Voorlopige maatregelen in geval van inbreuken op het auteursrecht, op een naburig recht, op het
  recht van een producent van databanken gepleegd op het internet of in geval van de exploitatie van een onwettig
@@ -41729,7 +42437,9 @@ Pagina 650 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-12-22/06, art. 83, 126; Inwerkingtreding : 01-06-2024>
 
-   Art. XVII.34/1.[1 § 1. In het geval van duidelijke en aanzienlijke inbreuk op het auteursrecht, op een naburig
+## Art. XVII.34/1
+
+[1 § 1. In het geval van duidelijke en aanzienlijke inbreuk op het auteursrecht, op een naburig
  recht of op het recht van een producent van databanken, gepleegd op het internet [2 , of in het geval van de
  exploitatie van een onwettig onlinekansspel]2, kan de voorzitter van de ondernemingsrechtbank te Brussel, ten
  aanzien van de vermeende inbreukmaker, alsook ten aanzien van elke tussenpersoon wiens diensten worden
@@ -41788,7 +42498,6 @@ Pagina 650 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De voorzitter van de ondernemingsrechtbank kan de Dienst bedoeld in artikel XVII.34/3 opdragen om de in het
  tweede lid bedoelde websites te identificeren en een geactualiseerde lijst ervan mee te delen aan de
  bestemmeling(en) van de maatregelen.
-Pagina 651 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 9. De voorzitter van de ondernemingsrechtbank kan de in artikel XVII.34/3 bedoelde Dienst machtigen om de
  voorlopige maatregelen uit te voeren om hun doeltreffendheid te garanderen in overeenstemming met artikel
  XVII.34/3. De Dienst mag de draagwijdte van de beschikking niet uitbreiden, beperken of wijzigen.
@@ -41845,7 +42554,9 @@ Pagina 651 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 90, 113; Inwerkingtreding : 01-06-2024>
 
-  Art. XVII.34/3.[1 § 1. De Koning wordt gemachtigd een dienst voor de strijd tegen inbreuken op het
+## Art. XVII.34/3
+
+[1 § 1. De Koning wordt gemachtigd een dienst voor de strijd tegen inbreuken op het
  auteursrecht en de naburige rechten op het internet [2 en tegen de exploitatie van onwettige onlinekansspelen]2
  op te richten. Hij bepaalt de werking en de organisatie.
    § 2. In overeenstemming met artikel XVII.34/1, § 9, kan de in paragraaf 1 bedoelde Dienst de machtiging krijgen
@@ -41857,7 +42568,6 @@ Pagina 651 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ontwerp van nadere toepassingsregels verzenden aan de betrokken partijen, in voorkomend geval per
  elektronische post. De betrokken partijen kunnen binnen drie werkdagen, te rekenen van de dag waarop het
  ontwerp van nadere toepassingsregels door de Dienst werd doorgezonden, hun opmerkingen betreffende het
-Pagina 652 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ontwerp meedelen aan de Dienst per elektronische post. Behoudens uitzonderlijke omstandigheden deelt de
  Dienst binnen een termijn van maximum drie werkdagen, te rekenen van de dag waarop de opmerkingen door
  de betrokken partijen werden meegedeeld of, bij gebrek aan opmerkingen, van de vervaldag van de termijn die
@@ -41926,7 +42636,6 @@ Pagina 652 van 764 Copyright Belgisch S taatsblad 16-04-2026
     1° de deelnemende partijen ertoe aanzetten om overleg te plegen om een actieplan te bepalen en/of
  overeenkomsten onder elkaar af te sluiten om tegen de inbreuken op het auteursrecht en de naburige rechten
  op het internet te strijden. Deze overlegprocedure verenigt op zijn minst vertegenwoordigers van de overheid,
-Pagina 653 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de houders van de rechten, van de dienstverleners van de informatiemaatschappij en van de afnemers van
  de betrokken diensten;
     2° volgens de door de Koning bepaalde procedure overeenkomsten afsluiten over de beste manier om tegen
@@ -41942,7 +42651,9 @@ Pagina 653 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2022-06-19/03, art. 91, 113; Inwerkingtreding : 01-06-2024>
    (2)<W 2023-12-22/06, art. 85, 126; Inwerkingtreding : 01-06-2024>
 
-   Art. XVII.34/4.[1 De in uitvoering van artikel XVII.34/1 bevolen voorlopige maatregelen worden herroepen op
+## Art. XVII.34/4
+
+[1 De in uitvoering van artikel XVII.34/1 bevolen voorlopige maatregelen worden herroepen op
  verzoek van elke persoon aan wie de beschikking werd betekend ter uitvoering, indien de eiser niet binnen een
  redelijke termijn een procedure instelt die leidt tot een beslissing ten gronde bij een bevoegde rechterlijke
  instantie. Het verzoek tot herroeping wordt gedaan voor de voorzitter van de ondernemingsrechtbank die de
@@ -41991,12 +42702,13 @@ Pagina 653 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.36.[1 In afwijking van de artikelen 17 en 18 van het Gerechtelijk Wetboek is een rechtsvordering tot
+## Art. XVII.36
+
+[1 In afwijking van de artikelen 17 en 18 van het Gerechtelijk Wetboek is een rechtsvordering tot
  collectief herstel ontvankelijk indien aan elk van de volgende voorwaarden is voldaan :
   1° de ingeroepen oorzaak betreft een mogelijke inbreuk door de onderneming op een van haar contractuele
  verplichtingen, op een van de Europese verordeningen of de wetten bedoeld in artikel XVII. 37 of op een van hun
  uitvoeringsbesluiten;
-Pagina 654 van 764 Copyright Belgisch S taatsblad 16-04-2026
   2° de rechtsvordering wordt ingesteld door een verzoeker die voldoet aan de vereisten bedoeld in artikel XVII.
  39 [2 en waarvan het statutair doel in rechtstreeks verband staat met het voorwerp van de rechtsvordering tot
  collectief herstel]2;
@@ -42006,7 +42718,9 @@ Pagina 654 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
   (2)<W 2024-04-21/10, art. 20, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.37.[1 De Europese verordeningen en wetgevingen die worden bedoeld in artikel XVII. 36, 1°, zijn de
+## Art. XVII.37
+
+[1 De Europese verordeningen en wetgevingen die worden bedoeld in artikel XVII. 36, 1°, zijn de
  volgende :
    1° de volgende boeken van dit Wetboek :
    a) boek IV - Bescherming van de mededinging;
@@ -42063,7 +42777,6 @@ Pagina 654 van 764 Copyright Belgisch S taatsblad 16-04-2026
  betreffende de vaststelling van een communautaire lijst van luchtvaartmaatschappijen waaraan een
  exploitatieverbod binnen de Gemeenschap is opgelegd en het informeren van luchtreizigers over de identiteit van
  de exploiterende luchtvaartmaatschappij, en tot intrekking van artikel 9 van Richtlijn 2004/36/EG;
-Pagina 655 van 764 Copyright Belgisch S taatsblad 16-04-2026
   24° de Verordening (EG) nr. 1107/2006 van het Europees Parlement en de Raad van 5 juli 2006 inzake de
  rechten van gehandicapten en personen met beperkte mobiliteit die per luchtvervoer reizen;
   25° de wet van 15 mei 2007 betreffende de bescherming van de consumenten inzake omroeptransmissie- en
@@ -42108,7 +42821,9 @@ Pagina 655 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.39.[1 § 1. Kunnen optreden als groepsvertegenwoordiger voor een groep van consumenten voor de
+## Art. XVII.39
+
+[1 § 1. Kunnen optreden als groepsvertegenwoordiger voor een groep van consumenten voor de
  Belgische rechtbanken:
    1° de bevoegde instanties Consumenten bedoeld in artikel XVII.1, §§ 1 tot 3;
    2° de autonome openbare dienst bedoeld in artikel XVI.5, enkel met het oog op het vertegenwoordigen van de
@@ -42124,12 +42839,13 @@ Pagina 655 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2024-04-21/10, art. 23, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.40.[2 § 1.]2 [1 De groepsvertegenwoordiger voldoet tijdens de volledige procedure tot collectief herstel
+## Art. XVII.40
+
+[2 § 1.]2 [1 De groepsvertegenwoordiger voldoet tijdens de volledige procedure tot collectief herstel
  aan de voorwaarden bedoeld in artikel XVII. 39.
   In het geval dat tijdens de procedure niet meer zou zijn voldaan aan een van deze voorwaarden, verliest de
  verzoeker zijn hoedanigheid van groepsvertegenwoordiger en duidt de rechter een andere
  groepsvertegenwoordiger aan, met de uitdrukkelijke instemming van deze laatste.
-Pagina 656 van 764 Copyright Belgisch S taatsblad 16-04-2026
   In het geval dat geen enkele andere kandidaat-vertegenwoordiger voldoet aan de voorwaarden van artikel XVII.
  39 of de hoedanigheid van groepsvertegenwoordiger aanvaardt, stelt de rechter de afsluiting van de procedure
  tot collectief herstel vast.
@@ -42168,7 +42884,9 @@ Pagina 656 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-   Art. XVII.42.[1 § 1. Onverminderd de toepassing van de artikelen 1034bis en volgende van het Gerechtelijk
+## Art. XVII.42
+
+[1 § 1. Onverminderd de toepassing van de artikelen 1034bis en volgende van het Gerechtelijk
  Wetboek wordt het verzoekschrift tot een collectief herstel gericht aan of neergelegd bij de griffie van de [3
  ondernemingsrechtbank]3 en bevat het :
    1° het bewijs dat voldaan is aan de ontvankelijkheidsvoorwaarden bedoeld in artikel XVII. 36;
@@ -42198,10 +42916,11 @@ Pagina 656 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
    (2)<W 2018-03-30/35, art. 5, 060; Inwerkingtreding : 01-06-2018>
    (3)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
-Pagina 657 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (4)<W 2024-04-21/10, art. 25, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.43.[1 § 1. [3 Behoudens akkoord van de partijen wordt de ontvankelijkheid van de rechtsvordering tot
+## Art. XVII.43
+
+[1 § 1. [3 Behoudens akkoord van de partijen wordt de ontvankelijkheid van de rechtsvordering tot
  collectief herstel door de rechter behandeld op grond van de voor de korte debatten voorziene procedure
  bedoeld in artikel 735 van het Gerechtelijk Wetboek.
     Wanneer de ontvankelijkheid van de rechtsvordering tot collectief herstel niet wordt behandeld op grond van
@@ -42268,7 +42987,6 @@ Pagina 657 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vervuld.
   § 3. De artikelen XVII. 49 tot 51 zijn van overeenkomstige toepassing op het vervolg van de procedure tot
  homologatie.]1
-Pagina 658 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -42276,7 +42994,9 @@ Pagina 658 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-   Art. XVII.45.[1 § 1. Gedurende de termijn die de rechter heeft vastgesteld, onderhandelen de
+## Art. XVII.45
+
+[1 § 1. Gedurende de termijn die de rechter heeft vastgesteld, onderhandelen de
  groepsvertegenwoordiger en de verweerder een akkoord over het herstel van de collectieve schade.
    Op gezamenlijk verzoek van de partijen, kan de rechter de termijn bedoeld in het vorige lid éénmalig verlengen
  met maximaal zes maanden.
@@ -42338,7 +43058,6 @@ Pagina 658 van 764 Copyright Belgisch S taatsblad 16-04-2026
  of schuld van de verweerder.]1
   ----------
 
-Pagina 659 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
 ## Art. XVII.47
@@ -42361,7 +43080,9 @@ Pagina 659 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.49.[1 § 1. De rechter onderzoekt het ter griffie neergelegde akkoord tot collectief herstel om de
+## Art. XVII.49
+
+[1 § 1. De rechter onderzoekt het ter griffie neergelegde akkoord tot collectief herstel om de
  overeenstemming ervan met artikel XVII. 45, § 3, na te gaan.
   In het geval van niet-overeenstemming met artikel XVII.45, § 3, zendt de rechter het akkoord terug naar de
  partijen en nodigt hen uit het te vervolledigen binnen de termijn die het vastlegt, met omschrijving van de aan te
@@ -42388,7 +43109,9 @@ Pagina 659 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-03-30/35, art. 6, 060; Inwerkingtreding : 01-06-2018>
   (3)<W 2024-04-21/10, art. 29, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.50.[3 Binnen tien dagen na het wijzen van de homologatiebeschikking stuurt de griffie bij gerechtsbrief
+## Art. XVII.50
+
+[3 Binnen tien dagen na het wijzen van de homologatiebeschikking stuurt de griffie bij gerechtsbrief
  een kopie van die beschikking aan de verweerder en de groepsvertegenwoordiger. In afwijking van artikel 1051
  van het Gerechtelijk Wetboek begint de termijn om beroep aan te tekenen tegen de homologatiebeschikking te
  lopen vanaf deze kennisgeving bij gerechtsbrief.]3
@@ -42411,12 +43134,13 @@ Pagina 659 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aansprakelijkheid of schuld van de verweerder.]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
-Pagina 660 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 4. - [1 Beslissing ten gronde]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.52.[1 Het onderzoek van de rechtsvordering tot collectief herstel, ingesteld overeenkomstig artikel
+## Art. XVII.52
+
+[1 Het onderzoek van de rechtsvordering tot collectief herstel, ingesteld overeenkomstig artikel
  XVII. 42, § 1, wordt voortgezet door de rechter, wanneer :
   - de groepsvertegenwoordiger en de verweerder geen akkoord tot collectief herstel hebben gesloten binnen de
  termijn die de rechter heeft vastgesteld in zijn ontvankelijkheidsbeslissing in toepassing van artikel XVII. 43, § 2,
@@ -42447,7 +43171,9 @@ Pagina 660 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.54.[1 § 1. De beslissing van de rechter ten gronde die besluit tot een verplichting tot collectief herstel in
+## Art. XVII.54
+
+[1 § 1. De beslissing van de rechter ten gronde die besluit tot een verplichting tot collectief herstel in
  hoofde van de verweerder bevat minstens de volgende elementen :
   1° een verwijzing naar de ontvankelijkheidsbeslissing bedoeld in artikel XVII. 43;
   2° de gedetailleerde beschrijving van de collectieve schade;
@@ -42479,7 +43205,6 @@ Pagina 660 van 764 Copyright Belgisch S taatsblad 16-04-2026
   § 3. De beslissing van de rechter ten gronde die het collectief herstel in hoofde van de verweerder verwerpt,
  verwijst naar de ontvankelijkheidsbeslissing bedoeld in artikel XVII. 43.
   § 4. De kosten verbonden aan de maatregelen tot bekendmaking bedoeld in artikel XVII. 43, § 2, 9° en § 3, in
-Pagina 661 van 764 Copyright Belgisch S taatsblad 16-04-2026
  artikel XVII. 55 en in § 1, 6°, van dit artikel zijn ten laste van de partij die in het ongelijk wordt gesteld.
   § 5. [3 ...]3]1
   ----------
@@ -42487,7 +43212,9 @@ Pagina 661 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-03-30/35, art. 7, 060; Inwerkingtreding : 01-06-2018>
   (3)<W 2024-04-21/10, art. 32, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.55.[1 [2 De griffie deelt onmiddellijk, in voorkomend geval na het verstrijken van de beroepstermijn, de
+## Art. XVII.55
+
+[1 [2 De griffie deelt onmiddellijk, in voorkomend geval na het verstrijken van de beroepstermijn, de
  beslissing van de rechter over de grond, onder elektronische vorm mee aan de FOD Economie, KMO,
  Middenstand en Energie die ze onmiddellijk integraal bekendmaakt op zijn website en die een bericht laat
  bekendmaken in het Belgisch Staatsblad dat de referentie van die beslissing vermeldt en de link naar de pagina
@@ -42516,7 +43243,9 @@ Pagina 661 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-04-21/10, art. 34, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.56.[1 De partijen kunnen op ieder ogenblik, tijdens de procedure ten gronde bepaald in de artikelen
+## Art. XVII.56
+
+[1 De partijen kunnen op ieder ogenblik, tijdens de procedure ten gronde bepaald in de artikelen
  XVII. 51 tot XVII. 54, en zolang de rechter de beslissing bedoeld in artikel XVII. [2 54]2, § 1, niet heeft genomen,
  een akkoord tot collectief herstel sluiten en het aan de rechter voorleggen met het oog op zijn homologatie. Deze
  verloopt overeenkomstig de bepalingen van de artikelen XVII. 49 tot XVII. 51.]1
@@ -42551,7 +43280,6 @@ Pagina 661 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aan de beschrijving van de groep, of, in voorkomend geval, van de subcategorie of aan de voorgeschreven
  modaliteiten, vermeldt hij de betwisting van zijn inschrijving op de voorlopige lijst, met opgave van de redenen.
   § 2. Van zodra de voorlopige lijst is opgesteld, maakt de schadeafwikkelaar ze over aan de rechter, aan de
-Pagina 662 van 764 Copyright Belgisch S taatsblad 16-04-2026
  groepsvertegenwoordiger en aan de verweerder. Hij brengt op hetzelfde ogenblik de leden van de groep die hij
  voorstelt uit te sluiten, op de hoogte met opgave van de reden van hun uitsluiting. De lijst ligt ter inzage op de
  griffie.
@@ -42577,7 +43305,9 @@ Pagina 662 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.59.[1 § 1. [2 ...]2
+## Art. XVII.59
+
+[1 § 1. [2 ...]2
   § 2. De verweerder komt zijn verplichting tot herstel in natura na onder toezicht van de schadeafwikkelaar en
  maakt hem, in geval van een herstel bij equivalent, de vastgestelde vergoeding over volgens hetgeen is
  overeengekomen in het gehomologeerd akkoord overeenkomstig artikel XVII. 45, § 3, 6°, of door de rechter is
@@ -42594,7 +43324,9 @@ Pagina 662 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-   Art. XVII.61.[3 § 1. De schadeafwikkelaar maakt een gedetailleerd driemaandelijks verslag over aan de rechter
+## Art. XVII.61
+
+[3 § 1. De schadeafwikkelaar maakt een gedetailleerd driemaandelijks verslag over aan de rechter
  over de uitvoering van zijn opdracht. Dit verslag wordt eveneens ter informatie aan de groepsvertegenwoordiger
  en de verweerder overgemaakt.
     Het driemaandelijks verslag bevat alle nuttige informatie met betrekking tot de voortgang van de uitvoering van
@@ -42620,7 +43352,6 @@ Pagina 662 van 764 Copyright Belgisch S taatsblad 16-04-2026
    [3 § 3. De vergoeding van de schadeafwikkelaar bedoeld in paragraaf 1, tweede lid, en in paragraaf 1/1, derde
  lid, wordt berekend overeenkomstig de regels die door de Koning zijn vastgelegd.]3
    [4 § 4. In uitzonderlijke omstandigheden, en nadat het betrokken groepslid in tussenkomst is gedagvaard door
-Pagina 663 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de verweerder of de groepsvertegenwoordiger, kan de rechter een groepslid veroordelen tot betaling van de
  kosten en uitgaven, met inbegrip van de rechtsplegingsvergoeding, die zijn veroorzaakt door zijn eigen opzettelijk
  of nalatig gedrag.]4
@@ -42630,7 +43361,9 @@ Pagina 663 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2018-07-30/47, art. 45, 065; Inwerkingtreding : 15-09-2018>
   (4)<W 2024-04-21/10, art. 35, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.62.[1 [2 De griffie deelt onmiddellijk, in voorkomend geval na het verstrijken van de beroepstermijn, de
+## Art. XVII.62
+
+[1 [2 De griffie deelt onmiddellijk, in voorkomend geval na het verstrijken van de beroepstermijn, de
  beslissing bedoeld in artikel XVII. 61, § 2, onder elektronische vorm mee aan de FOD Economie, KMO,
  Middenstand en Energie die ze onmiddellijk integraal bekendmaakt op zijn website en die een bericht laat
  bekendmaken in het Belgisch Staatsblad dat de referentie van die beslissing vermeldt en de link naar de pagina
@@ -42650,7 +43383,9 @@ Pagina 663 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-   Art. XVII.63.[1 De verjaringstermijn van de individuele rechtsvordering van de kmo en/of van de consument die
+## Art. XVII.63
+
+[1 De verjaringstermijn van de individuele rechtsvordering van de kmo en/of van de consument die
  valt binnen de beschrijving van de groep zoals weergegeven in het verzoekschrift tot collectief herstel, is
  opgeschort vanaf de indiening van het verzoekschrift tot collectief herstel of het verzoekschrift houdende
  vrijwillige tussenkomst in een rechtsvordering tot collectief herstel tot en met:
@@ -42687,10 +43422,11 @@ Pagina 663 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.65.[1 In afwijking van artikel 820 van het Gerechtelijk Wetboek kan de groepsvertegenwoordiger geen
+## Art. XVII.65
+
+[1 In afwijking van artikel 820 van het Gerechtelijk Wetboek kan de groepsvertegenwoordiger geen
  afstand doen van het geding, dan met het akkoord van de rechter.
 
-Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [2 De griffie deelt onmiddellijk de uitspraak houdende afstand van geding in elektronische vorm mee aan de FOD
  Economie, die ze integraal bekendmaakt op zijn website.]2
   In afwijking van artikel 821 van het Gerechtelijk Wetboek, kan de groepsvertegenwoordiger geen afstand doen
@@ -42699,7 +43435,9 @@ Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
   (2)<W 2024-04-21/10, art. 37, 134; Inwerkingtreding : 10-06-2024>
 
-   Art. XVII.66.[2 § 1.]2 [1 In afwijking van de artikelen 566 en 856, tweede lid, van het Gerechtelijk Wetboek
+## Art. XVII.66
+
+[2 § 1.]2 [1 In afwijking van de artikelen 566 en 856, tweede lid, van het Gerechtelijk Wetboek
  mogen een vordering tot collectief herstel en een rechtsvordering tot individueel herstel niet worden
  samengevoegd op grond van samenhang.]1
    [2 Eveneens in afwijking van de artikelen 566 en 856, tweede lid, van het Gerechtelijk Wetboek mogen twee of
@@ -42727,7 +43465,9 @@ Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Art. XVII.67.[1 De rechter beslist over de ontvankelijkheid van een rechtsvordering tot collectief herstel, over de
+## Art. XVII.67
+
+[1 De rechter beslist over de ontvankelijkheid van een rechtsvordering tot collectief herstel, over de
  homologatie van een akkoord tot herstel van een collectieve schade of over de grond van het geschil onafgezien
  elke vervolging die voor dezelfde feiten is ingesteld voor een strafrechtelijke rechtbank.
   Een consument [2 of een kmo]2 die zich burgerlijke partij stelt voor een strafrechtelijke rechtbank is geen
@@ -42740,7 +43480,9 @@ Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-03-30/35, art. 11, 060; Inwerkingtreding : 01-06-2018>
   (3)<W 2024-04-21/10, art. 39, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.68.[1 De rechtsvordering tot collectief herstel verzet er zich niet tegen dat een groepslid en de
+## Art. XVII.68
+
+[1 De rechtsvordering tot collectief herstel verzet er zich niet tegen dat een groepslid en de
  verweerder wegens eenzelfde oorzaak deelnemen aan een buitengerechtelijke regeling van een geschil. Wanneer
  een dergelijke regeling tot een oplossing van het geschil leidt, verliest de consument [2 of de kmo]2 zijn
  hoedanigheid van groepslid en brengt de verweerder de griffie hiervan op de hoogte.]1
@@ -42748,7 +43490,9 @@ Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
   (2)<W 2018-03-30/35, art. 12, 060; Inwerkingtreding : 01-06-2018>
 
-  Art. XVII.69.[1 Wanneer [2 de benadeelde persoon groepslid wordt overeenkomstig artikel XVII.45, § 3, 7°, of
+## Art. XVII.69
+
+[1 Wanneer [2 de benadeelde persoon groepslid wordt overeenkomstig artikel XVII.45, § 3, 7°, of
  artikel XVII.55/1]2,
   - wordt elke individuele rechtsvordering reeds ingesteld door [2 deze persoon]2 tegen dezelfde verweerder en
  met hetzelfde voorwerp en dezelfde oorzaak, zonder voorwerp;
@@ -42756,10 +43500,11 @@ Pagina 664 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verweerder en met hetzelfde voorwerp en dezelfde oorzaak, onontvankelijk. ]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
-Pagina 665 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2024-04-21/10, art. 39, 134; Inwerkingtreding : 10-06-2024>
 
-  Art. XVII.70.[1 Onverminderd de bepalingen van deze titel, zijn de bepalingen van Boek XVII, titel 3, van
+## Art. XVII.70
+
+[1 Onverminderd de bepalingen van deze titel, zijn de bepalingen van Boek XVII, titel 3, van
  toepassing op de rechtsvorderingen tot collectief herstel voor inbreuken op het mededingingsrecht, ingevoerd
  door deze titel [2 met uitzondering van artikel XVII.89]2.]1
   ----------
@@ -42822,7 +43567,6 @@ Pagina 665 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aannemelijkheid van zijn verzoek te staven, kan de rechter ten aanzien van een andere partij of een derde de
  overlegging gelasten van specifieke relevante bewijsstukken of relevante categorieën bewijsmateriaal, die zich in
  zijn bezit bevinden. Deze moeten zo nauwkeurig en zo eng mogelijk worden omschreven.
-Pagina 666 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. De rechter beperkt de overlegging van het bewijsmateriaal tot wat evenredig is. Hierbij houdt de rechter
  rekening met de rechtmatige belangen van alle betrokken partijen en derden. Hij houdt in het bijzonder rekening
  met de volgende elementen:
@@ -42863,7 +43607,9 @@ Pagina 666 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 23, 047; Inwerkingtreding : 22-06-2017>
 
-  Art. XVII.77.[1 § 1. De bepalingen van deze onderafdeling zijn van toepassing, onverminderd de artikelen
+## Art. XVII.77
+
+[1 § 1. De bepalingen van deze onderafdeling zijn van toepassing, onverminderd de artikelen
  XVII.74 tot XVII.76 en de regels en praktijken die gelden krachtens het recht van de Europese Unie, Boek IV of
  het mededingingsrecht van andere lidstaten betreffende de bescherming van de interne stukken van
  mededingingsautoriteiten en van de briefwisseling tussen mededingingsautoriteiten.
@@ -42891,7 +43637,6 @@ Pagina 666 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wie een verzoek tot overlegging van bewijsmateriaal gericht is om schriftelijke opmerkingen in te dienen
  betreffende de evenredigheid van dit verzoek. Zij kan eveneens worden gehoord als de rechter haar hiertoe de
 
-Pagina 667 van 764 Copyright Belgisch S taatsblad 16-04-2026
  toelating geeft.]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 25, 047; Inwerkingtreding : 22-06-2017>
@@ -42961,7 +43706,6 @@ Pagina 667 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° niet-nakoming van de op bevel van de rechter opgelegde verplichtingen ter bescherming van vertrouwelijke
  informatie, of weigering dergelijke verplichtingen na te leven;
    4° inbreuk op de beperkingen op het gebruik van bewijsmateriaal waarin dit hoofdstuk voorziet.
-Pagina 668 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De geldboete moet doeltreffend, afschrikwekkend en evenredig zijn, rekening houdend met de onderneming of
  persoon aan wie ze wordt opgelegd en met de concrete omstandigheden van het geval, zoals het bedrag van de
  schadevordering, het doorslaggevende belang van het bewijs waarvan de overlegging wordt bevolen door de
@@ -42981,7 +43725,9 @@ Pagina 668 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 30, 047; Inwerkingtreding : 22-06-2017>
 
-  Art. XVII.82.[1 § 1. Een inbreuk op het mededingingsrecht vastgesteld in het kader van een definitieve beslissing
+## Art. XVII.82
+
+[1 § 1. Een inbreuk op het mededingingsrecht vastgesteld in het kader van een definitieve beslissing
  door de Belgische Mededingingsautoriteit of, in voorkomend geval, in het kader van een arrest van het [2
  Marktenhof]2 dat in kracht van gewijsde is getreden en dat uitspraak doet over een beroep tegen een beslissing
  van de Belgische Mededingingsautoriteit conform artikel IV.79, wordt geacht onweerlegbaar vast te staan voor
@@ -43029,7 +43775,6 @@ Pagina 668 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verwerkt.
    Het tweede lid is echter niet van toepassing indien de rechter meent dat de verweerder aannemelijk heeft
 
-Pagina 669 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gemaakt dat de meerkosten niet gedeeltelijk of volledig aan de indirecte afnemer werden doorberekend.]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 34, 047; Inwerkingtreding : 22-06-2017>
@@ -43099,8 +43844,9 @@ Pagina 669 van 764 Copyright Belgisch S taatsblad 16-04-2026
  berokkend.]1
    ----------
    (1)<Ingevoegd bij W 2017-06-06/02, art. 38, 047; Inwerkingtreding : 22-06-2017>
-Pagina 670 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XVII.88.[1 § 1. Wanneer de benadeelde partij een minnelijke schikking heeft gesloten met de inbreukpleger
+## Art. XVII.88
+
+[1 § 1. Wanneer de benadeelde partij een minnelijke schikking heeft gesloten met de inbreukpleger
  wordt de schadevordering van de bij de schikking betrokken benadeelde partij verminderd met het aandeel dat
  de bij de schikking betrokken inbreukpleger heeft gehad in de schade die de benadeelde partij door de inbreuk op
  het mededingingsrecht heeft geleden.
@@ -43165,7 +43911,6 @@ Pagina 670 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 44, 047; Inwerkingtreding : 22-06-2017>
 
-Pagina 671 van 764 Copyright Belgisch S taatsblad 16-04-2026
   BOEK XVIII. - [1 Maatregelen voor crisisbeheer]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
@@ -43239,7 +43984,6 @@ Pagina 671 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De minister mag alle maatregelen bevelen van openbaarmaking betreffende de krachtens artikel
  XVIII.1 en artikel XVIII.2 opgelegde verplichtingen of betreffende de tenuitvoerlegging van deze verplichtingen.
-Pagina 672 van 764 Copyright Belgisch S taatsblad 16-04-2026
   De in artikel XV.2 bedoelde ambtenaren kunnen belast worden met de uitvoering van de op grond van deze Titel
  genomen beslissingen.]1
   ----------
@@ -43308,7 +44052,6 @@ Pagina 672 van 764 Copyright Belgisch S taatsblad 16-04-2026
  laten lopen vanaf de kalenderdag die volgt op de dag waarop de herinnering aan de consument wordt
  verzonden.
     Een kmo is elke onderneming die, op het moment van de toepassing van dit artikel, voldoet aan de criteria
-Pagina 673 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedoeld in artikel 1:24, § 1, van het Wetboek van vennootschappen en verenigingen.
    § 5. De bewijslast betreffende de naleving van de verplichtingen bedoeld in dit artikel ligt bij de onderneming.
    § 6. Is verboden en nietig, elk beding dat vrijstelt van de voorafgaande vormvereisten bepaald in dit artikel.]1
@@ -43373,8 +44116,9 @@ Pagina 673 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-Pagina 674 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XIX.6.[1 § 1. Geen enkele activiteit van minnelijke invordering van schulden kan worden uitgeoefend zonder
+## Art. XIX.6
+
+[1 § 1. Geen enkele activiteit van minnelijke invordering van schulden kan worden uitgeoefend zonder
  voorafgaande inschrijving bij de FOD Economie.
     Advocaten, ministeriële ambtenaren of gerechtelijke mandatarissen in de uitoefening van hun beroep of ambt
  zijn vrijgesteld van deze voorafgaande inschrijving.
@@ -43440,7 +44184,6 @@ Pagina 674 van 764 Copyright Belgisch S taatsblad 16-04-2026
  in het buitenland afgeleverd gelijkwaardig document, dat niet ouder is dan drie maanden;]2
     5° een attest, afgegeven door een verzekeringsonderneming, dat aantoont dat de onderneming [2 , of een
  derde die beantwoordt aan de door de Koning bepaalde voorwaarden,]2 een verzekeringsovereenkomst heeft
-Pagina 675 van 764 Copyright Belgisch S taatsblad 16-04-2026
  afgesloten die haar beroepsaansprakelijkheid dekt overeenkomstig de voorwaarden bepaald door de Koning. Dit
  attest, dat in één van de landstalen van België of in het Engels is opgesteld, vermeldt met name het
  ondernemingsnummer en de naam van de verzekeringsonderneming, het nummer van de
@@ -43459,7 +44202,9 @@ Pagina 675 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-   Art. XIX.7.[1 § 1. Iedere activiteit van minnelijke invordering begint met de controle door de schuldinvorderaar,
+## Art. XIX.7
+
+[1 § 1. Iedere activiteit van minnelijke invordering begint met de controle door de schuldinvorderaar,
  van het naleven van artikel XIX.4 met betrekking tot de bedragen die van de consument worden geëist.
     Er mag geen ingebrekestelling worden gestuurd naar de consument indien de schuldinvorderaar vaststelt dat
  artikel XIX.4 niet nageleefd is.
@@ -43510,7 +44255,6 @@ Pagina 675 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 § 1. Er mag worden overgegaan tot geen andere maatregel of handeling van minnelijke
  invordering voor het verstrijken van een termijn van veertien kalenderdagen die ingaat op de derde werkdag na
-Pagina 676 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de datum van het versturen van de ingebrekestelling, bedoeld in artikel XIX.7, § 2, aan de consument.
     § 2. Wanneer de consument een afbetalingsplan heeft aangevraagd binnen de in de eerste paragraaf bedoelde
  termijn, mag tot geen andere maatregel of handeling van minnelijke invordering worden overgegaan vooraleer er
@@ -43581,7 +44325,6 @@ Pagina 676 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer de schuld is uitgedoofd, brengt hij daar de consument onmiddellijk van op de hoogte.]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
-Pagina 677 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIX.13
 
 [1 Het is de schuldinvorderaar verboden om van de consument enige vergoeding, bezoldiging of
@@ -43649,7 +44392,6 @@ Pagina 677 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIX.18
 
 [1 De minnelijke schuldbemiddeling kan slechts worden ingeleid op verzoek van de schuldenaar.]1
-Pagina 678 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -43720,7 +44462,6 @@ Pagina 678 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De minnelijke schuldbemiddelaar kan, met voorafgaande toestemming van de schuldenaar, via
  elk communicatiemiddel contact opnemen met alle personen en instellingen om informatie te verzamelen over de
-Pagina 679 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schulden van de schuldenaar, die nodig is voor het opstellen van het verzoek tot minnelijke schuldbemiddeling en
  de opvolging ervan.]1
   ----------
@@ -43788,7 +44529,6 @@ Pagina 679 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Daartoe voorziet de minnelijke schuldbemiddelaar in zoveel gesprekken met de schuldenaar als nodig is.
     Tijdens de volledige duur van zijn opdracht presenteert de minnelijke schuldbemiddelaar alle mogelijkheden en
  alternatieven die de schuldenaar ter beschikking staan en hun gevolgen, zodat de schuldenaar weloverwogen
-Pagina 680 van 764 Copyright Belgisch S taatsblad 16-04-2026
  beslissingen kan nemen.]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
@@ -43857,7 +44597,6 @@ Pagina 680 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de schuldenaar op te maken;
    4° alle financiële, sociaal-familiale en professionele gegevens die nodig zijn om voor de schuldenaar een budget
  op te stellen dat de schuldenaar, zijn echtgenoot en/of elke persoon die met hem samenwoont, een
-Pagina 681 van 764 Copyright Belgisch S taatsblad 16-04-2026
  menswaardig bestaan garandeert;
     5° alle informatie die de minnelijke schuldbemiddelaar in staat stelt om de familiale, financiële, juridische en
  sociale situatie van de schuldenaar, zijn echtgenoot en/of elke persoon die met hem samenwoont, zo goed
@@ -43927,7 +44666,6 @@ Pagina 681 van 764 Copyright Belgisch S taatsblad 16-04-2026
  oorspronkelijk overeengekomen aflossingsvoorwaarden voor.]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
-Pagina 682 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XIX.36
 
 [1 De schuldenaar en de schuldeiser behouden elk voor zich het recht om eenzijdig, zonder opgave
@@ -43996,7 +44734,6 @@ Pagina 682 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De minnelijke schuldbemiddelaar brengt de schuldenaar hiervan op een duurzame gegevensdrager op de
  hoogte.
    Hij neemt een opzegtermijn van ten minste een maand in acht.
-Pagina 683 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. De minnelijke schuldbemiddelaar beëindigt de minnelijke schuldbemiddeling indien hij niet meer voldoet aan
  de voorwaarden van onafhankelijkheid bedoeld in de artikelen XIX.21 en XIX.22.
    De minnelijke schuldbemiddelaar brengt de schuldenaar hiervan op een duurzame gegevensdrager op de
@@ -44055,7 +44792,9 @@ Pagina 683 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.1.[1 § 1. De bepalingen van dit boek gelden onverminderd het bijzondere recht dat de gereglementeerde
+## Art. XX.1
+
+[1 § 1. De bepalingen van dit boek gelden onverminderd het bijzondere recht dat de gereglementeerde
  vrije beroepen of de ministeriële ambtenaren en notarissen betreft, met inbegrip van de toegang tot het beroep,
  de beperkingen aan het beheer en de overgang van het vermogen en de eerbiediging van het beroepsgeheim.
    De bepalingen van dit Wetboek mogen niet derwijze worden uitgelegd dat zij een beperking zouden inhouden
@@ -44063,7 +44802,6 @@ Pagina 683 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van een vrij beroep.
    De Koning bepaalt de nadere toepassingsregels van dit boek voor de vrije beroepen en hun verenigingen.
    § 2. [3 De bepalingen van de titels 2, 3, 4 en 5 van dit boek zijn niet van toepassing op de kredietinstellingen, de
-Pagina 684 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verzekeringsondernemingen, de herverzekeringsondernemingen, [5 de beleggingsondernemingen of instellingen
  voor collectieve beleggingen in de zin van artikel 1.2. c), van Richtlijn (EU) 2019/1023]5, de instellingen voor
  bedrijfspensioenvoorziening, de centrale tegenpartijen, de vereffeningsinstellingen, de centrale
@@ -44087,7 +44825,9 @@ Pagina 684 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.2.[1 Geen verzet of hoger beroep staat open tegen:
+## Art. XX.2
+
+[1 Geen verzet of hoger beroep staat open tegen:
     1° de beslissingen van de kamers voor ondernemingen in moeilijkheden bedoeld in artikel XX.29;
     2° de beslissingen waarbij een gedelegeerd rechter, een rechter-commissaris of een [3 gerechtsmandataris]3
  wordt benoemd of vervangen [2 , met uitzondering van de in artikel XX.39/1 bedoelde beschikking]2 [3 met
@@ -44132,10 +44872,11 @@ Pagina 684 van 764 Copyright Belgisch S taatsblad 16-04-2026
  en worden de daarop betrekking hebbende beslissingen van de rechtbank uitgesproken in openbare
  terechtzitting.]1
   ----------
-Pagina 685 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.6.[1 Wanneer er [2 ernstige en bepaalde aanwijzingen]2 bestaan dat de verzoeker of een derde een stuk
+## Art. XX.6
+
+[1 Wanneer er [2 ernstige en bepaalde aanwijzingen]2 bestaan dat de verzoeker of een derde een stuk
  onder zich heeft dat het bewijs van het bestaan inhoudt inzake een staking van betaling, de voorwaarden van de
  vaststelling van de datum van staking van betaling, de opening van een procedure van gerechtelijke reorganisatie
  of een ter zake doend stuk aangaande andere beslissingen die tijdens de insolventieprocedure kunnen worden
@@ -44147,7 +44888,9 @@ Pagina 685 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2019-04-13/28, art. 39, 090; Inwerkingtreding : 01-11-2020>
 
-   Art. XX.7.[1 De rechtbank onderzoekt ambtshalve alle omstandigheden die relevant zijn voor de
+## Art. XX.7
+
+[1 De rechtbank onderzoekt ambtshalve alle omstandigheden die relevant zijn voor de
  insolventieprocedure en beveelt ambtshalve elke nuttige onderzoeksmaatregel. Zij kan in dit verband getuigen
  horen en deskundigen aanstellen. In het kader van deze onderzoeksmaatregelen houdt de rechtbank rekening
  met de bijzondere regels die de ondernemingen bedoeld in artikel I.1.14°, beheersen en past, zo hiertoe
@@ -44159,7 +44902,9 @@ Pagina 685 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2018-04-15/14, art. 216, 059; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.8.[1 Natuurlijke personen die niet bijgestaan worden door een raadsman of rechtspersonen met een [2
+## Art. XX.8
+
+[1 Natuurlijke personen die niet bijgestaan worden door een raadsman of rechtspersonen met een [2
  ...]2 zetel in het buitenland kunnen steeds papieren akten neerleggen op de griffie, of, in geval van een
  faillissement, bij de curator.
     De neerlegging op de griffie, of, in geval van een faillissement, bij de curator, in papieren vorm blijft mogelijk
@@ -44172,7 +44917,9 @@ Pagina 685 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 7, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.9.[1 Onverminderd de bepalingen van artikel 32ter van het Gerechtelijk Wetboek, vindt elke
+## Art. XX.9
+
+[1 Onverminderd de bepalingen van artikel 32ter van het Gerechtelijk Wetboek, vindt elke
  kennisgeving of mededeling [2 , met inbegrip van een bericht, een oproeping,]2 of neerlegging bepaald in dit boek
  aan, bij of door [2 de rechtbank, een gerechtsmandataris]2, een gedelegeerd rechter of rechter-commissaris
  plaats via het register.
@@ -44201,14 +44948,17 @@ Pagina 685 van 764 Copyright Belgisch S taatsblad 16-04-2026
  elektronische handtekening.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
-Pagina 686 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XX.11/1.[1 Wanneer de bepalingen van dit boek voorzien in een verslag van de rechter-commissaris of van
+## Art. XX.11/1
+
+[1 Wanneer de bepalingen van dit boek voorzien in een verslag van de rechter-commissaris of van
  de gedelegeerd rechter, kan het verslag ook schriftelijk worden opgesteld, op voorwaarde dat het uiterlijk twee
  werkdagen voor de voor het verslag vastgestelde datum in het register neergelegd wordt.]1
   ----------
   (1)<W 2023-06-07/07, art. 9, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.12.[1 § 1. De insolventierechtbank gelegen in het rechtsgebied waarin op de dag dat de rechtbank
+## Art. XX.12
+
+[1 § 1. De insolventierechtbank gelegen in het rechtsgebied waarin op de dag dat de rechtbank
  wordt gevat, het centrum van de voornaamste belangen van de schuldenaar gelegen is, is uitsluitend bevoegd
  een insolventieprocedure te openen.
    Bij vennootschappen en rechtspersonen wordt, zolang het tegendeel niet is bewezen, het centrum van de
@@ -44232,7 +44982,9 @@ Pagina 686 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 10, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.13.[1 De rechtbank bevoegd om kennis te nemen van een [2 gerechtsmandataris]2 betreffende een
+## Art. XX.13
+
+[1 De rechtbank bevoegd om kennis te nemen van een [2 gerechtsmandataris]2 betreffende een
  onderneming is bevoegd om kennis te nemen van insolventieprocedures betreffende een met deze onderneming
  verbonden onderneming. Zij kan een gemeenschappelijke insolventiefunctionaris aanstellen voor alle
  procedures.]1
@@ -44240,7 +44992,9 @@ Pagina 686 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 11, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.14.[1 De rechtbank bevoegd om kennis te nemen van een insolventieprocedure betreffende een
+## Art. XX.14
+
+[1 De rechtbank bevoegd om kennis te nemen van een insolventieprocedure betreffende een
  onderneming bepaald in [2 artikel I.1, eerste lid, 1°, c)]2, of een rechtspersoon waarvan de vennoten onbeperkt
  aansprakelijk zijn, is bevoegd om kennis te nemen van [3 gerechtsmandataris]3 betreffende de vennoten van
  deze onderneming. Zij kan een gemeenschappelijke insolventiefunctionaris aanstellen voor alle procedures.]1
@@ -44265,8 +45019,9 @@ Pagina 686 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 687 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XX.16.[1 § 1. De Orde van Vlaamse Balies en de Ordre des barreaux francophones et germanophone
+## Art. XX.16
+
+[1 § 1. De Orde van Vlaamse Balies en de Ordre des barreaux francophones et germanophone
  respectievelijk bedoeld in artikel 488 van het Gerechtelijk Wetboek, hierna "de beheerder" genoemd, staan samen
  in voor de inrichting en het beheer van het register.
     § 2. De bewaartermijn van de in artikel XX.15 bedoelde gegevens bedraagt 30 jaar te rekenen vanaf de
@@ -44294,7 +45049,9 @@ Pagina 687 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 14, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.17.[1 § 1. De beheerder wordt met betrekking tot het register, bedoeld in artikel XX.15, beschouwd als
+## Art. XX.17
+
+[1 § 1. De beheerder wordt met betrekking tot het register, bedoeld in artikel XX.15, beschouwd als
  [2 verwerkingsverantwoordelijke]2 in de zin van artikel [2 26, 8°, van de wet van 30 juli 2018 betreffende de
  bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens of als
  verwerkingsverantwoordelijke in de zin van Verordening (EU) 2016/679 van het Europees Parlement en de Raad
@@ -44331,8 +45088,9 @@ Pagina 687 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 15, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.18.[1 § 1. In de vervulling van hun wettelijke opdracht hebben de magistraten met inbegrip van de leden
-Pagina 688 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XX.18
+
+[1 § 1. In de vervulling van hun wettelijke opdracht hebben de magistraten met inbegrip van de leden
  van het openbaar ministerie, de griffiers, de parketsecretarissen, de rechters-commissarissen en de gedelegeerd
  rechters, [2 de gerechtsmandatarissen]2, de schuldenaren en gefailleerden bedoeld in dit boek, alsook de
  schuldeisers en derden die beroepsmatig rechtbijstand verlenen, in beginsel toegang tot de voor hen relevante in
@@ -44391,14 +45149,15 @@ Pagina 688 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 18, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.20.[1 § 1. Onverminderd de bepalingen van artikel XX.122, worden de [3 vereffeningsdeskundigen]3,
+## Art. XX.20
+
+[1 § 1. Onverminderd de bepalingen van artikel XX.122, worden de [3 vereffeningsdeskundigen]3,
  aangewezen krachtens deze wet, gekozen op grond van hun kwaliteiten en volgens de noodwendigheden van de
  zaak.
    Ze dienen waarborgen te bieden van bekwaamheid, ervaring, onafhankelijkheid en onpartijdigheid.
    Hun beroepsaansprakelijkheid moet verzekerd zijn, behalve wanneer zij organen zijn van een overheid of van
  een overheidsinstelling [3 of wanneer zij overeenkomstig het vierde lid door de Ordes of Instituten worden
  aangewezen]3.
-Pagina 689 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De Ordes, de Instituten van beoefenaars van vrije beroepen [2 ...]2 stellen een lijst op van de personen die door
  de rechtbank als [3 vereffeningsdeskundige]3 kunnen worden aangeduid, onverminderd de bepaling van
  paragraaf 2. Deze lijsten worden jaarlijks bijgewerkt en bekendgemaakt in het [2 register]2.
@@ -44466,7 +45225,6 @@ Pagina 689 van 764 Copyright Belgisch S taatsblad 16-04-2026
  openbaar was gemaakt.
    Het vonnis waarbij de vervanging van een herstructureringsdeskundige wordt gelast, wordt door toedoen van
  de griffier aan hem ter kennis gebracht en binnen vijf dagen na de dagtekening bekendgemaakt in het Belgisch
-Pagina 690 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Staatsblad, voor zover zijn aanstelling aanvankelijk op deze wijze was bekendgemaakt.
     Indien de herstructureringsdeskundige wordt vervangen op eigen verzoek wordt dit uitdrukkelijk vermeld in
  voormelde bekendmaking.
@@ -44488,7 +45246,9 @@ Pagina 690 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 23, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.21.[1 § 1. De inlichtingen en gegevens die kunnen wijzen op dreigende insolventie en op de noodzaak
+## Art. XX.21
+
+[1 § 1. De inlichtingen en gegevens die kunnen wijzen op dreigende insolventie en op de noodzaak
  onverwijld te handelen, mogen worden verzameld door de bevoegde diensten van het openbaar ministerie of ter
  griffie van de rechtbank in het rechtsgebied waarin de schuldenaar het centrum van zijn voornaamste belangen
  heeft.
@@ -44535,7 +45295,6 @@ Pagina 690 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 § 1. De inlichtingen en gegevens bedoeld in artikel XX.21 bevatten:
   1° de berichten in verband met het beslag bedoeld in de artikelen 1390 tot 1390quater van het Gerechtelijk
  Wetboek, zoals ze moeten worden medegedeeld overeenkomstig artikel 1390septies van hetzelfde Wetboek,
-Pagina 691 van 764 Copyright Belgisch S taatsblad 16-04-2026
  alsook het identificatienummer ervan;
    2° de verschuldigde bedragen die wettelijk aan de ondernemingsrechtbanken moeten worden medegedeeld
  onder meer op grond van artikel XX.23;
@@ -44550,7 +45309,9 @@ Pagina 691 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 27, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.23.[1 § 1. Veroordelende verstekvonnissen en vonnissen op tegenspraak uitgesproken tegen
+## Art. XX.23
+
+[1 § 1. Veroordelende verstekvonnissen en vonnissen op tegenspraak uitgesproken tegen
  schuldenaren die de gevorderde hoofdsom niet hebben betwist, moeten worden gezonden aan de griffie van de
  rechtbank van het rechtsgebied waarbinnen het centrum van hun voornaamste belangen zich bevindt.
     De Koning bepaalt op welke wijze die gegevens worden overgemaakt.
@@ -44598,8 +45359,9 @@ Pagina 691 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 30, 122; Inwerkingtreding : 01-09-2023>
 
-Pagina 692 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XX.25.[1 § 1. De kamers voor ondernemingen in moeilijkheden bedoeld in artikel 84, derde lid, van het
+## Art. XX.25
+
+[1 § 1. De kamers voor ondernemingen in moeilijkheden bedoeld in artikel 84, derde lid, van het
  Gerechtelijk Wetboek volgen de toestand van de schuldenaren in moeilijkheden om de continuïteit van hun
  activiteiten te vrijwaren en de bescherming van de rechten van de schuldeisers te verzekeren.
     § 2. De kamer voor ondernemingen in moeilijkheden kan het onderzoek zelf voeren of een rechterverslaggever aanstellen. Deze kan een rechter bij de rechtbank zijn, de voorzitter uitgezonderd, of een [2 rechter
@@ -44654,7 +45416,9 @@ Pagina 692 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.28.[1 Wanneer de kamer een rechter verslaggever heeft aangesteld, beëindigt deze het onderzoek
+## Art. XX.28
+
+[1 Wanneer de kamer een rechter verslaggever heeft aangesteld, beëindigt deze het onderzoek
  binnen een termijn van [3 acht maanden]3 na zijn aanstelling. Wanneer de rechter dit onderzoek heeft beëindigd,
  stelt hij binnen de voornoemde termijn een verslag op over de gedane verrichtingen en voegt er zijn conclusie
  aan toe. Het verslag wordt gevoegd bij de verzamelde gegevens en voorgelegd aan de kamer voor
@@ -44665,8 +45429,9 @@ Pagina 692 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2021-03-21/02, art. 4, 097; Inwerkingtreding : 26-03-2021>
   (3)<W 2023-06-07/07, art. 32, 122; Inwerkingtreding : 01-09-2023>
-Pagina 693 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XX.29.[1 § 1. Indien uit het onderzoek naar de toestand van de schuldenaar blijkt dat die zich in staat van
+## Art. XX.29
+
+[1 § 1. Indien uit het onderzoek naar de toestand van de schuldenaar blijkt dat die zich in staat van
  faillissement bevindt kan de kamer voor ondernemingen in moeilijkheden het dossier naar de procureur des
  Konings zenden.
    § 2. Indien uit het onderzoek naar de toestand van de schuldenaar blijkt dat die zich in staat van faillissement
@@ -44733,7 +45498,6 @@ Pagina 693 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. Bij een navolgende samenloop van schuldeisers geniet de vordering van de herstructureringsdeskundige in
  verband met zijn bemiddeling van het voorrecht bedoeld in de artikelen 17 en 19, 1° van de Hypotheekwet van
  16 december 1851 of wordt deze vordering behandeld als een buitengewone schuldvordering in het kader van
-Pagina 694 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een reorganisatieplan.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 37, 122; Inwerkingtreding : 01-09-2023>
@@ -44742,7 +45506,9 @@ Pagina 694 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.30.[1 [4 Wanneer gebeurtenissen die leiden tot onbestuurbaarheid van de onderneming door haar
+## Art. XX.30
+
+[1 [4 Wanneer gebeurtenissen die leiden tot onbestuurbaarheid van de onderneming door haar
  bestuurders of wanneer kennelijke tekortkomingen van de schuldenaar of van een van haar organen de
  continuïteit van de onderneming of van haar economische activiteiten in gevaar brengen en de gevraagde
  maatregel van die aard is dat zij die continuïteit kan vrijwaren, kan de voorzitter van de rechtbank op verzoek van
@@ -44800,24 +45566,29 @@ Pagina 694 van 764 Copyright Belgisch S taatsblad 16-04-2026
  partij of, in geval van ambtshalve aanstelling, door de schuldenaar. Bij een navolgende samenloop van
  schuldeisers geniet de vordering van de voorlopige bewindvoerder het voorrecht bedoeld in de artikelen 17 en
  19, 1°, van de hypotheekwet van 16 december 1851 of wordt deze vordering behandeld als een buitengewone
-Pagina 695 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schuldvordering in de opschorting in een gerechtelijke reorganisatie.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.33.[1 De beslissingen bedoeld in de artikelen XX.30 [2 ...]2 en XX.32 worden bekendgemaakt in het
+## Art. XX.33
+
+[1 De beslissingen bedoeld in de artikelen XX.30 [2 ...]2 en XX.32 worden bekendgemaakt in het
    De Koning kan de inhoud van de bekendmaking bepalen.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 40, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.34.[1 Verzet tegen de beslissingen gewezen in toepassing van de artikelen XX.30 [2 ...]2 en XX.32 is niet
+## Art. XX.34
+
+[1 Verzet tegen de beslissingen gewezen in toepassing van de artikelen XX.30 [2 ...]2 en XX.32 is niet
  toegelaten.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 41, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.35.[1 Hoger beroep tegen de beslissingen bedoeld in de artikelen XX.30 [2 ...]2 en XX.32 wordt ingesteld
+## Art. XX.35
+
+[1 Hoger beroep tegen de beslissingen bedoeld in de artikelen XX.30 [2 ...]2 en XX.32 wordt ingesteld
  bij verzoekschrift dat ter griffie van het hof van beroep wordt neergelegd binnen een termijn van acht dagen na
  bekendmaking van het vonnis of bevelschrift. De griffier van het hof van beroep geeft kennis van het
  verzoekschrift aan de gebeurlijke geïntimeerde en, in voorkomend geval, bij gewone brief of elektronische
@@ -44832,7 +45603,9 @@ Pagina 695 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XX.36.
 
-   Art. XX.37.[1 § 1. De schuldenaar kan aan [2 een of meer van zijn schuldeisers]2 een minnelijk akkoord
+## Art. XX.37
+
+[1 § 1. De schuldenaar kan aan [2 een of meer van zijn schuldeisers]2 een minnelijk akkoord
  voorstellen met het oog op de reorganisatie van het geheel of een gedeelte van zijn activa of van zijn activiteiten.
  [2 ...]2
     De partijen bepalen vrij de inhoud van dit akkoord, dat de derden niet bindt.
@@ -44845,7 +45618,9 @@ Pagina 695 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 45, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.38.[1 § 1. Bij tegensprekelijk verzoekschrift gericht aan de voorzitter van de rechtbank en waarvan
+## Art. XX.38
+
+[1 § 1. Bij tegensprekelijk verzoekschrift gericht aan de voorzitter van de rechtbank en waarvan
  kennis is gegeven aan alle bij het akkoord betrokken partijen, kan de schuldenaar of een van de partijen bij het
  akkoord verzoeken het minnelijk akkoord te homologeren, en in voorkomend geval, er een uitvoerend karakter
  aan verlenen voor alle of een deel van de erin vermelde schuldvorderingen. De procedure verloopt volgens de
@@ -44864,7 +45639,6 @@ Pagina 695 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Wanneer het akkoord gehomologeerd wordt, kunnen de schuldeisers die partij zijn bij een minnelijk akkoord
  niet aansprakelijk worden gesteld door de schuldenaar, een andere schuldeiser of derden enkel en alleen omdat
  het minnelijk akkoord het niet daadwerkelijk mogelijk heeft gemaakt de continuïteit van het geheel of een gedeelte
-Pagina 696 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de activa of van de activiteiten in stand te houden.
     § 3. Deze beslissing wordt niet bekend gemaakt en er wordt geen kennis van gegeven. Zij is niet vatbaar voor
  hoger beroep.
@@ -44902,7 +45676,9 @@ Pagina 696 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 2.
 
-  Art. XX.40.[1 § 1. Er wordt in het register een dossier van de gerechtelijke reorganisatie [2 en van de overdracht
+## Art. XX.40
+
+[1 § 1. Er wordt in het register een dossier van de gerechtelijke reorganisatie [2 en van de overdracht
  onder gerechtelijk gezag]2 gehouden waarin alle elementen met betrekking tot deze procedure en de grond van
  de zaak voorkomen, met inbegrip van de verslagen van de gerechtsmandatarissen en voorlopige
  bewindvoerders, evenals de verslagen van de gedelegeerd rechter en de adviezen van het openbaar ministerie.
@@ -44927,7 +45703,6 @@ Pagina 696 van 764 Copyright Belgisch S taatsblad 16-04-2026
  nader welke gegevens slechts op beperkte wijze toegankelijk gemaakt worden en op welke wijze de
  vertrouwelijkheid en de bewaring van het dossier worden gewaarborgd.]1
   ----------
-Pagina 697 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 55, 122; Inwerkingtreding : 01-09-2023>
 
@@ -44941,7 +45716,9 @@ Pagina 697 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 57, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.41.[1 § 1. De schuldenaar die het openen van een procedure van gerechtelijke reorganisatie [4 of van
+## Art. XX.41
+
+[1 § 1. De schuldenaar die het openen van een procedure van gerechtelijke reorganisatie [4 of van
  overdracht onder gerechtelijk gezag]4 aanvraagt, richt een verzoekschrift aan de rechtbank.
     § 2. [4 Hij voegt]4 bij zijn verzoekschrift:
     1° een uiteenzetting van de gebeurtenissen waarop zijn verzoek is gegrond en waaruit blijkt dat naar zijn
@@ -44992,7 +45769,6 @@ Pagina 697 van 764 Copyright Belgisch S taatsblad 16-04-2026
   [4 § 3/1. De schuldenaar die de stukken vermeld in paragraaf 2, eerste lid, 5° tot 9° niet bij zijn verzoekschrift
  kan voegen, legt ze neer in het register uiterlijk twee dagen voor de zitting bedoeld in artikel XX.46.
     Indien de schuldenaar ondanks deze termijn niet in staat is de gevraagde documenten te verstrekken, legt hij
-Pagina 698 van 764 Copyright Belgisch S taatsblad 16-04-2026
  binnen dezelfde termijn een nota in het register neer waarin gedetailleerd wordt aangegeven waarom hij deze
  documenten niet heeft kunnen verstrekken.
    De rechtbank oordeelt op grond van de overgelegde stukken.
@@ -45013,7 +45789,9 @@ Pagina 698 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2021-03-21/02, art. 7, 097; Inwerkingtreding : 26-03-2021>
   (4)<W 2023-06-07/07, art. 58, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.42.[1 In elk geval wijst de voorzitter van de rechtbank onmiddellijk na de indiening van het verzoekschrift
+## Art. XX.42
+
+[1 In elk geval wijst de voorzitter van de rechtbank onmiddellijk na de indiening van het verzoekschrift
  een gedelegeerd rechter aan die rechter in de rechtbank is, de voorzitter uitgezonderd, of een [2 rechter in
  ondernemingszaken]2, om bij de kamer van de rechtbank waaraan de zaak is toebedeeld, verslag uit te brengen
  over de ontvankelijkheid en de gegrondheid van het verzoek en over elk element dat nuttig is voor de
@@ -45033,7 +45811,9 @@ Pagina 698 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.44.[1 § 1. Zolang de rechtbank geen uitspraak heeft gedaan over het verzoekschrift tot gerechtelijke
+## Art. XX.44
+
+[1 § 1. Zolang de rechtbank geen uitspraak heeft gedaan over het verzoekschrift tot gerechtelijke
  reorganisatie [3 of tot overdracht onder gerechtelijk gezag]3, ongeacht of de vordering werd ingeleid of het
  middel van tenuitvoerlegging aangevat voor of na de neerlegging van het verzoekschrift:
    - kan de schuldenaar niet worden failliet verklaard; indien de schuldenaar een rechtspersoon is, kan deze niet
@@ -45060,7 +45840,6 @@ Pagina 698 van 764 Copyright Belgisch S taatsblad 16-04-2026
    1° [3 op uitdrukkelijk verzoek van de schuldenaar spreekt de rechtbank de schorsing van de gedwongen
  verkoopswerkzaamheden uit, voorafgaand aan of gelijktijdig met de beslissing de procedure te openen, na de
  gedelegeerd rechter te hebben gehoord in zijn verslag, evenals de ingeschreven hypothecaire [4 schuldeisers, de
-Pagina 699 van 764 Copyright Belgisch S taatsblad 16-04-2026
  ingeschreven bevoorrechte schuldeisers, desgevallend de in het Pandregister geregistreerde schuldeisers, de
  beslagleggende schuldeiser en de schuldeisers die een vordering ingesteld krachtens artikel 5.243 van het
  Burgerlijk Wetboek hebben laten kantmelden]4 en de schuldenaar. Het verzoek tot schorsing van de verkoop
@@ -45099,7 +45878,9 @@ Pagina 699 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 60, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.45.[1 § 1. De procedure van gerechtelijke reorganisatie [3 of van overdracht onder gerechtelijk gezag]3
+## Art. XX.45
+
+[1 § 1. De procedure van gerechtelijke reorganisatie [3 of van overdracht onder gerechtelijk gezag]3
  wordt geopend indien de continuïteit van de [3 schuldenaar]3, onmiddellijk of op termijn bedreigd is.
     § 2. [3 ...]3
     § 3. De staat van faillissement van de schuldenaar sluit op zich niet uit dat een procedure van gerechtelijke
@@ -45125,11 +45906,12 @@ Pagina 699 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   Afdeling 3. [1 - Vonnis over het verzoek tot openbare gerechtelijke reorganisatie of overdracht onder
  gerechtelijk gezag en de gevolgen ervan]1
-Pagina 700 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 62, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.46.[1 § 1. De rechtbank behandelt het verzoek tot gerechtelijke reorganisatie [3 of overdracht onder
+## Art. XX.46
+
+[1 § 1. De rechtbank behandelt het verzoek tot gerechtelijke reorganisatie [3 of overdracht onder
  gerechtelijk gezag]3 binnen een termijn van vijftien dagen na de neerlegging van het verzoekschrift in het
  register.
     Behoudens verzaking aan deze oproeping wordt de schuldenaar uiterlijk drie vrije dagen voor de zitting
@@ -45165,7 +45947,9 @@ Pagina 700 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2021-03-21/02, art. 9, 097; Inwerkingtreding : 26-03-2021>
    (3)<W 2023-06-07/07, art. 63, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.47.[1 Tegen het vonnis dat beslist over de vordering tot het openen van een procedure van
+## Art. XX.47
+
+[1 Tegen het vonnis dat beslist over de vordering tot het openen van een procedure van
  gerechtelijke reorganisatie [2 of van overdracht onder gerechtelijk gezag]2 staat geen verzet open.
    Het hoger beroep ertegen wordt ingesteld bij verzoekschrift, neergelegd op de griffie van het hof van beroep
  binnen acht dagen na de kennisgeving van het vonnis. De griffier van het hof van beroep geeft bij gerechtsbrief
@@ -45179,7 +45963,9 @@ Pagina 700 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 64, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.48.[1 § 1. Het vonnis dat de procedure van gerechtelijke reorganisatie [4 of van overdracht onder
+## Art. XX.48
+
+[1 § 1. Het vonnis dat de procedure van gerechtelijke reorganisatie [4 of van overdracht onder
  gerechtelijk gezag]4 open verklaart, wordt door toedoen van de griffier binnen een termijn van vijf dagen bij
  uittreksel bekendgemaakt in het Belgisch Staatsblad.
    Het uittreksel vermeldt:
@@ -45192,7 +45978,6 @@ Pagina 700 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het ondernemingsnummer en de zetel van de activiteit en de identificatiegegevens van de gemachtigde, in
  voorkomend geval;
    2° de datum van het vonnis dat de procedure van gerechtelijke reorganisatie [4 of van overdracht onder
-Pagina 701 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gerechtelijk gezag]4 opent en de rechtbank die het heeft gewezen;
    3° de naam en de voornaam van de gedelegeerd rechter en, in voorkomend geval, van de krachtens [4 het
  artikel XX.30]4 aangestelde [4 herstructureringsdeskundigen]4, met het elektronisch adres waarop de
@@ -45212,7 +45997,9 @@ Pagina 701 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (3)<W 2021-03-21/02, art. 10, 097; Inwerkingtreding : 26-03-2021>
   (4)<W 2023-06-07/07, art. 65, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.49.[1 § 1. Indien de procedure [2 ...]2 strekt tot een collectief akkoord of een overdracht onder
+## Art. XX.49
+
+[1 § 1. Indien de procedure [2 ...]2 strekt tot een collectief akkoord of een overdracht onder
  gerechtelijk gezag, stelt de schuldenaar de schuldeisers individueel in kennis van de gegevens vermeld in artikel
  XX.48 binnen een termijn van acht dagen te rekenen vanaf de dag waarop het vonnis is uitgesproken.
     Bovendien voegt hij bij die mededeling de in artikel XX.41, § 2, [2 eerste lid]2 7°, bedoelde lijst van schuldeisers
@@ -45260,7 +46047,6 @@ Pagina 701 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 2. De rechtbank doet uitspraak op verzoek van elke belanghebbende of van het openbaar ministerie in het
  vonnis dat de procedure van de gerechtelijke reorganisatie of van overdracht onder gerechtelijk gezag opent of
  op tegensprekelijk verzoekschrift, dat in het register wordt neergelegd, in een later vonnis, na de middelen van
-Pagina 702 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de schuldenaar en het verslag van de gedelegeerd rechter te hebben gehoord.
    Wanneer de schuldenaar aanvoert dat de fouten te wijten zijn aan een andere welbepaalde natuurlijke persoon
  of rechtspersoon, moet hij deze persoon in gedwongen tussenkomst oproepen.
@@ -45323,7 +46109,9 @@ Pagina 702 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.51.[1 § 1. Tijdens de opschorting kan voor schuldvorderingen in de opschorting geen enkel beslag
+## Art. XX.51
+
+[1 § 1. Tijdens de opschorting kan voor schuldvorderingen in de opschorting geen enkel beslag
  worden gelegd, onverminderd het recht van de schuldeiser om een wettelijke of conventionele zekerheid te
  vestigen. Op dergelijke zekerheden is artikel XX.111, 3°, niet van toepassing.
   [3 De reeds eerder gelegde beslagen behouden hun bewarend karakter, maar de rechtbank kan, naar gelang
@@ -45331,7 +46119,6 @@ Pagina 702 van 764 Copyright Belgisch S taatsblad 16-04-2026
  handlichting van geven op verslag van de gedelegeerd rechter na de schuldeiser en de schuldenaar gehoord te
  hebben. Het verzoek tot handlichting wordt ingeleid bij verzoekschrift dat in het register wordt neergelegd.]3
    § 2. Indien de dag die vastgesteld is om over te gaan tot de gedwongen verkoop van roerende goederen
-Pagina 703 van 764 Copyright Belgisch S taatsblad 16-04-2026
  afloopt binnen een termijn van twee maanden na het neerleggen van het verzoekschrift tot gerechtelijke
  reorganisatie, en indien de schuldenaar, in voorkomend geval, geen gebruik gemaakt heeft van het recht tot
  schorsing in toepassing van artikel XX.44, § 2, of indien zijn verzoek werd verworpen, kunnen de
@@ -45399,8 +46186,9 @@ Pagina 703 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 704 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XX.53.[1 De opschorting staat de vrijwillige betaling door de schuldenaar van schuldvorderingen in de
+## Art. XX.53
+
+[1 De opschorting staat de vrijwillige betaling door de schuldenaar van schuldvorderingen in de
  opschorting niet in de weg [2 tijdens een procedure van gerechtelijke reorganisatie]2 in zoverre die betaling
  vereist is voor de continuïteit van de onderneming.
    De artikelen XX.111, 2°, en XX.112 zijn niet toepasselijk op de betalingen die tijdens de periode van opschorting
@@ -45417,7 +46205,9 @@ Pagina 704 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 75, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.54.[1 § 1. De opschorting komt ten goede aan de echtgenoot, gewezen echtgenoot, wettelijk
+## Art. XX.54
+
+[1 § 1. De opschorting komt ten goede aan de echtgenoot, gewezen echtgenoot, wettelijk
  samenwonende of gewezen wettelijk samenwonende van de schuldenaar, die persoonlijk medeverbonden zijn
  voor de contractuele schulden van de schuldenaar die verbonden zijn met diens beroepsactiviteit. De
  opschorting komt hen niet ten goede voor persoonlijke of gemeenschappelijke schulden volgend uit
@@ -45467,8 +46257,9 @@ Pagina 704 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opschorting is enkel toegestaan indien deze verknocht zijn.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
-Pagina 705 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XX.56.[1 § 1. Niettegenstaande enige andersluidende contractuele bepaling maakt de aanvraag of opening
+## Art. XX.56
+
+[1 § 1. Niettegenstaande enige andersluidende contractuele bepaling maakt de aanvraag of opening
  van de procedure van gerechtelijke reorganisatie [3 of van overdracht onder gerechtelijk gezag]3 geen einde aan
  de lopende overeenkomsten noch aan de modaliteiten van hun uitvoering.
    De contractuele wanprestatie van de schuldenaar voorafgaand aan de toekenning van de opschorting maakt
@@ -45503,7 +46294,9 @@ Pagina 705 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.58.[1 In de mate dat de schuldvorderingen ten aanzien van de schuldenaar beantwoorden aan
+## Art. XX.58
+
+[1 In de mate dat de schuldvorderingen ten aanzien van de schuldenaar beantwoorden aan
  prestaties uitgevoerd tijdens de procedure van gerechtelijke reorganisatie [2 of overdracht onder gerechtelijk
  gezag]2 door zijn medecontractant, en ongeacht of zij voortvloeien uit nieuwe verbintenissen van de schuldenaar
  of uit overeenkomsten die lopen op het ogenblik van het openen van de procedure, worden zij beschouwd als
@@ -45531,8 +46324,9 @@ Pagina 705 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 79, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.59.[1 § 1. Op verzoek van de schuldenaar [2 , van de herstructureringsdeskundige of van de
-Pagina 706 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XX.59
+
+[1 § 1. Op verzoek van de schuldenaar [2 , van de herstructureringsdeskundige of van de
  vereffeningsdeskundige]2 [2 ...]2 kan de rechtbank de overeenkomstig artikel XX.46, § 2, of overeenkomstig dit
  artikel verleende opschorting verlengen voor de duur die de rechtbank bepaalt [2 als dit verantwoord is in het
  licht van de omstandigheden en het doel van de procedure en voor zover de belangen van de betrokken partijen
@@ -45571,7 +46365,9 @@ Pagina 706 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 82, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.60.[1 Op elk ogenblik tijdens de opschorting kan de schuldenaar aan de rechtbank de wijziging vragen
+## Art. XX.60
+
+[1 Op elk ogenblik tijdens de opschorting kan de schuldenaar aan de rechtbank de wijziging vragen
  van het doel van de procedure, [2 onverminderd artikel XX.49]2.
    Het vonnis waarbij de rechtbank de aanvraag inwilligt, wordt bekendgemaakt in het Belgisch Staatsblad en er
  wordt kennis van gegeven overeenkomstig artikel XX.49, § 1. Van het vonnis dat het verzoek verwerpt, wordt
@@ -45584,7 +46380,9 @@ Pagina 706 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 84, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.61.[1 De schuldenaar kan op elk ogenblik tijdens de procedure geheel of gedeeltelijk verzaken aan zijn
+## Art. XX.61
+
+[1 De schuldenaar kan op elk ogenblik tijdens de procedure geheel of gedeeltelijk verzaken aan zijn
  vordering tot gerechtelijke reorganisatie [2 of tot overdracht onder gerechtelijk gezag]2.
    Op verzoek van de schuldenaar en na het verslag van de gedelegeerd rechter gehoord te hebben, beëindigt de
  rechtbank de procedure geheel of gedeeltelijk.
@@ -45595,11 +46393,12 @@ Pagina 706 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 85, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.62.[1 § 1. Wanneer de schuldenaar kennelijk niet meer in staat is de continuïteit van het geheel of een
+## Art. XX.62
+
+[1 § 1. Wanneer de schuldenaar kennelijk niet meer in staat is de continuïteit van het geheel of een
  gedeelte van zijn activa of van zijn activiteiten te verzekeren overeenkomstig [2 , wanneer de schorsing niet
  langer de onderhandelingen over het reorganisatieplan ondersteunt]2 of wanneer de informatie die aan de
  gedelegeerd rechter, aan de rechtbank of aan de schuldeisers is verstrekt bij de neerlegging van het
-Pagina 707 van 764 Copyright Belgisch S taatsblad 16-04-2026
  verzoekschrift of later kennelijk onvolledig of onjuist is, kan de rechtbank de voortijdige beëindiging van de
  procedure van gerechtelijke reorganisatie [2 of overdracht onder gerechtelijk gezag]2 bevelen bij een vonnis dat
  de procedure afsluit.
@@ -45626,7 +46425,9 @@ Pagina 707 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 86, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.63.[1 Vanaf het ogenblik van de uitspraak van het vonnis dat de voortijdige beëindiging van de
+## Art. XX.63
+
+[1 Vanaf het ogenblik van de uitspraak van het vonnis dat de voortijdige beëindiging van de
  procedure [2 ...]2 beveelt of dat ze afsluit, eindigt de opschorting en oefenen de schuldeisers opnieuw volledig
  hun rechten en vorderingen uit.
    Hetzelfde gebeurt wanneer de opschorting verstrijkt zonder verlengd te zijn met toepassing van artikel XX.59
@@ -45643,14 +46444,18 @@ Pagina 707 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 89, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.64.[1 De procedure van het minnelijk akkoord strekt tot het afsluiten van een akkoord tussen de
+## Art. XX.64
+
+[1 De procedure van het minnelijk akkoord strekt tot het afsluiten van een akkoord tussen de
  schuldenaar en [2 een of meer van zijn schuldeisers]2 met het oog op de gezondmaking van de financiële
  toestand of de reorganisatie van zijn onderneming.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 90, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.65.[1 § 1. Wanneer de procedure van gerechtelijke reorganisatie strekt tot het afsluiten van een of
+## Art. XX.65
+
+[1 § 1. Wanneer de procedure van gerechtelijke reorganisatie strekt tot het afsluiten van een of
  meerdere minnelijke akkoorden, streeft de schuldenaar dit doel na onder het toezicht van de gedelegeerd rechter
  en, in voorkomend geval, met [4 de bijstand van de met toepassing van artikel XX.30 aangestelde
  herstructureringsdeskundige]4.
@@ -45664,7 +46469,6 @@ Pagina 707 van 764 Copyright Belgisch S taatsblad 16-04-2026
  schuldeisers gematigde termijnen verlenen zoals bedoeld in artikel 5.201 van het Burgerlijk Wetboek. In dat geval
  geldt de beslissing van de rechtbank ten aanzien van die betrokken schuldeisers als een minnelijk akkoord.]4
    § 4. De beslissing inzake homologatie of toekenning van gematigde termijnen kan de opdracht verlengen van
-Pagina 708 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de [4 herstructureringsdeskundige aangewezen overeenkomstig artikel XX.30]4 om de uitvoering van het
  minnelijk akkoord of van de verplichtingen van de schuldenaar te vergemakkelijken.
     § 5. Die beslissingen worden bekendgemaakt volgens de nadere regels bedoeld in artikel XX.48.
@@ -45686,7 +46490,9 @@ Pagina 708 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (3)<W 2022-04-28/25, art. 24, 118; Inwerkingtreding : 01-01-2023>
    (4)<W 2023-06-07/07, art. 91, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.66.[1 De gevolgen van het minnelijk akkoord komen ten goede aan [2 de consument die een persoonlijke
+## Art. XX.66
+
+[1 De gevolgen van het minnelijk akkoord komen ten goede aan [2 de consument die een persoonlijke
  zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek]2 voor de
  schuldenaar en wiens verzoek, bedoeld in artikel XX.54, § 3, werd ingewilligd.]1
   ----------
@@ -45713,13 +46519,17 @@ Pagina 708 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 95, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.67.[1 De procedure van het collectief akkoord heeft het doel een akkoord van [2 zijn schuldeisers en, in
+## Art. XX.67
+
+[1 De procedure van het collectief akkoord heeft het doel een akkoord van [2 zijn schuldeisers en, in
  voorkomend geval, van de kapitaalhouders]2 te verkrijgen over een reorganisatieplan.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 96, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.68.[1 § 1. De schuldeiser in de opschorting of elke derde belanghebbende die het bedrag of de
+## Art. XX.68
+
+[1 § 1. De schuldeiser in de opschorting of elke derde belanghebbende die het bedrag of de
  hoedanigheid van zijn schuldvordering betwist met toepassing van artikel XX.49, § 2, dient het verzoekschrift in
  uiterlijk een maand voor de in artikel XX.78 bedoelde zitting.
    De rechtbank beslist, uiterlijk vijftien dagen voor dezelfde zitting op verslag van de gedelegeerd rechter, over
@@ -45729,7 +46539,6 @@ Pagina 708 van 764 Copyright Belgisch S taatsblad 16-04-2026
  bedoelde rechtszitting kan de betrokken schuldeiser, onverminderd de toepassing van artikel XX.69, enkel
  stemmen en in het plan worden opgenomen voor het bedrag [2 en de hoedanigheid]2 voorgesteld door de
  schuldenaar in de in artikel XX.49 bedoelde mededeling.]1
-Pagina 709 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 97, 122; Inwerkingtreding : 01-09-2023>
@@ -45754,7 +46563,9 @@ Pagina 709 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 98, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.70.[1 § 1. Tijdens de opschorting bedoeld in artikel XX.44 werkt de schuldenaar een reorganisatieplan
+## Art. XX.70
+
+[1 § 1. Tijdens de opschorting bedoeld in artikel XX.44 werkt de schuldenaar een reorganisatieplan
  uit.
    Als een herstructureringsdeskundige werd aangesteld, draagt hij bij tot het opstellen van het reorganisatieplan.
    § 2. Het plan moet worden opgesteld overeenkomstig de artikelen XX.70/1 tot en met XX.76.
@@ -45799,17 +46610,20 @@ Pagina 709 van 764 Copyright Belgisch S taatsblad 16-04-2026
    § 4. De Koning stelt in het register een uitgebreide checklist voor reorganisatieplannen beschikbaar die
  praktische richtsnoeren bevat over de manier waarop het reorganisatieplan moet worden opgesteld.
    De checklist wordt op het register ter beschikking gesteld in het Nederlands, het Frans, het Duits en het
-Pagina 710 van 764 Copyright Belgisch S taatsblad 16-04-2026
  Engels.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 100, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.71.[1 Het reorganisatieplan vermeldt welke schuldvorderingen nog betwist zijn met toepassing van de
+## Art. XX.71
+
+[1 Het reorganisatieplan vermeldt welke schuldvorderingen nog betwist zijn met toepassing van de
  artikelen XX.49 of XX.68, ten einde belanghebbenden in te lichten over de omvang ervan en hun grondslag.]1
   ----------
   (1)<W 2023-06-07/07, art. 101, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.72.[1 Het reorganisatieplan kan voorzien in een lijst van schuldeisers die beschikken over vorderingen
+## Art. XX.72
+
+[1 Het reorganisatieplan kan voorzien in een lijst van schuldeisers die beschikken over vorderingen
  van nominaal minieme omvang waarvan de indeling in het plan als betrokken schuldeisers een onverantwoorde
  administratieve en financiële last zou inhouden.
    Het plan geeft aan waarom het in het belang is van de gezamenlijke schuldeisers dat deze vorderingen buiten
@@ -45817,7 +46631,9 @@ Pagina 710 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 102, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.73.[1 [2 ...]2
+## Art. XX.73
+
+[1 [2 ...]2
    Het reorganisatieplan kan niet voorzien in:
    - een vermindering of kwijtschelding van schuldvorderingen in de opschorting ontstaan uit arbeidsprestaties
  met uitsluiting van de fiscale of sociale bijdragen of schulden;
@@ -45845,7 +46661,9 @@ Pagina 710 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 105, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.75.[1 Het reorganisatieplan kan voorzien in de vrijwillige overdracht van het geheel of een gedeelte van
+## Art. XX.75
+
+[1 Het reorganisatieplan kan voorzien in de vrijwillige overdracht van het geheel of een gedeelte van
  de activa of van de activiteiten.]1
   [2 Het plan kan, behalve wat de entiteiten bedoeld in artikel I.1, 1°, tweede lid, c), betreft, in de omzetting van
  schuldvorderingen in aandelen voorzien.]2
@@ -45867,7 +46685,6 @@ Pagina 710 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 107, 122; Inwerkingtreding : 01-09-2023>
 
-Pagina 711 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.75/2
 
 [1 § 1. Onverminderd de betaling van de interest die hen conventioneel of wettelijk op hun
@@ -45901,7 +46718,9 @@ Pagina 711 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 109, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.77.[1 § 1. De schuldenaar, voorlopige bewindvoerder of herstructureringsdeskundige leggen minstens
+## Art. XX.77
+
+[1 § 1. De schuldenaar, voorlopige bewindvoerder of herstructureringsdeskundige leggen minstens
  twintig dagen voor de rechtszitting bepaald in het vonnis bedoeld in artikel XX.48 in het register, het
  reorganisatieplan neer.
     De schuldenaar, voorlopige bewindvoerder of herstructureringsdeskundige leggen een lijst van de schuldeisers
@@ -45935,7 +46754,6 @@ Pagina 711 van 764 Copyright Belgisch S taatsblad 16-04-2026
     § 7. De schuldenaar, voorlopige bewindvoerder of herstructureringsdeskundige informeert de
  vertegenwoordigers van de werknemers, bedoeld in artikel XX.74/1, derde lid, over de inhoud van dit plan met
  inbegrip van de rechten van de buitengewone schuldeisers die werden gewijzigd met toepassing van artikel
-Pagina 712 van 764 Copyright Belgisch S taatsblad 16-04-2026
  XX.76.
    § 8. Als de stemming op afstand is toegelaten, moet de rechtbank de identiteit en hoedanigheid van de
  schuldeiser kunnen controleren. De mededeling bedoeld in paragraaf 5 omvat een nauwkeurige beschrijving van
@@ -45943,7 +46761,9 @@ Pagina 712 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 110, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.78.[1 § 1. Op de dag gemeld aan de schuldeisers en aan de schuldenaar overeenkomstig artikel XX.77,
+## Art. XX.78
+
+[1 § 1. Op de dag gemeld aan de schuldeisers en aan de schuldenaar overeenkomstig artikel XX.77,
  neemt de rechtbank kennis van het verslag van de gedelegeerd rechter dat deze uiterlijk twee werkdagen vooraf
  neerlegt in het register, en van de middelen van de schuldenaar en de schuldeisers.
     De stemming over het plan gebeurt tijdens een zitting waar de schuldeisers en de schuldenaar opgeroepen
@@ -45977,7 +46797,9 @@ Pagina 712 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 113, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.79.[1 § 1. Binnen vijftien dagen na de zitting, en in elk geval vóór de vervaldag van de met toepassing
+## Art. XX.79
+
+[1 § 1. Binnen vijftien dagen na de zitting, en in elk geval vóór de vervaldag van de met toepassing
  van de artikelen XX.48 en XX.59 bepaalde opschorting, beslist de rechtbank of zij al dan niet het
  reorganisatieplan homologeert.
    § 2. De rechtbank beoordeelt of:
@@ -46005,7 +46827,6 @@ Pagina 712 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het vonnis dat oordeelt over de homologatie, de reorganisatieprocedure af.
    Het wordt bij uittreksel in het Belgisch Staatsblad bekendgemaakt, door toedoen van de griffier.]1
   ----------
-Pagina 713 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<W 2023-06-07/07, art. 114, 122; Inwerkingtreding : 01-09-2023>
 
 ## Art. XX.80
@@ -46019,7 +46840,9 @@ Pagina 713 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 115, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.81.[1 Tegen het vonnis dat oordeelt over de homologatie staat geen verzet open.
+## Art. XX.81
+
+[1 Tegen het vonnis dat oordeelt over de homologatie staat geen verzet open.
     Hoger beroep kan worden ingesteld door de schuldenaar, indien de homologatie wordt geweigerd, en door de
  partijen die tijdens de procedure in het geding bij verzoekschrift zijn tussengekomen, indien de homologatie
  wordt toegekend. Het door een schuldeiser ingestelde hoger beroep is gericht tegen alle partijen die in het geding
@@ -46041,7 +46864,9 @@ Pagina 713 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 117, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.82.[1 De homologatie van het reorganisatieplan maakt het bindend voor alle schuldeisers in de
+## Art. XX.82
+
+[1 De homologatie van het reorganisatieplan maakt het bindend voor alle schuldeisers in de
  opschorting. [2 In de mate de uitvoering van het reorganisatieplan een beslissing vereist van een algemene
  vergadering van een rechtspersoon en de algemene vergadering op onredelijke wijze de tenuitvoerlegging van
  het plan verhindert, kan elke belanghebbende de rechtbank verzoeken aan de rechtspersoon te bevelen de
@@ -46071,7 +46896,6 @@ Pagina 713 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 118, 122; Inwerkingtreding : 01-09-2023>
   (3)<W 2025-06-05/09, art. 8, 142; Inwerkingtreding : 01-01-2026>
-Pagina 714 van 764 Copyright Belgisch S taatsblad 16-04-2026
   Afdeling 7. [1 - Intrekking van het reorganisatieplan en vaststelling van voltooiing van het reoganisatieplan.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 119, 122; Inwerkingtreding : 01-09-2023>
@@ -46137,7 +46961,6 @@ Pagina 714 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2023-06-07/07, art. 124, 122; Inwerkingtreding : 01-09-2023>
 
   Afdeling 3. [1 - Opstelling en inhoud van het reorganisatieplan]1
-Pagina 715 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 1, 122; Inwerkingtreding : 01-09-2023>
 
@@ -46209,7 +47032,6 @@ Pagina 715 van 764 Copyright Belgisch S taatsblad 16-04-2026
  administratieve en financiële last zou inhouden.
    Het plan geeft aan waarom het in het belang is van de gezamenlijke schuldeisers dat deze vorderingen buiten
  het plan worden gehouden en onmiddellijk worden vereffend.]1
-Pagina 716 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 129, 122; Inwerkingtreding : 01-09-2023>
 
@@ -46281,7 +47103,6 @@ Pagina 716 van 764 Copyright Belgisch S taatsblad 16-04-2026
  wanneer het plan een categorie van kapitaalhouders inhoudt, een lijst neer van de door hen gekende
  kapitaalhouders.
    § 2. De herstructureringsdeskundige kan het plan niet neerleggen zonder de toestemming van de schuldenaar,
-Pagina 717 van 764 Copyright Belgisch S taatsblad 16-04-2026
  die zijn toestemming niet op onredelijke wijze mag weigeren. Als de schuldenaar een rechtspersoon is, mag het
  bestuur niet op onredelijke wijze weigeren in te stemmen met de neerlegging van het plan. De rechtbank kan op
  verzoek van de herstructureringsdeskundige oordelen dat de schuldenaar of het bestuur op onredelijke wijze
@@ -46352,7 +47173,6 @@ Pagina 717 van 764 Copyright Belgisch S taatsblad 16-04-2026
  kapitaalhouder is gebonden door de stemming zelfs als hij niet deelneemt aan de stemming.
    § 2. De schuldenaar kan vragen dat de stemming wordt opgeschort om hem toe te laten een aangepast plan
  op te stellen dat aan de schuldeisers zal worden voorgelegd. Het aangepast plan wordt neergelegd in het register
-Pagina 718 van 764 Copyright Belgisch S taatsblad 16-04-2026
  en de griffier geeft kennis aan de schuldenaar en de schuldeisers, en in voorkomend geval aan de
  kapitaalhouders, dat een geamendeerd plan is neergelegd in het register en dat over dat plan zal gestemd
  worden op de dag waarop de zaak in voortzetting is gesteld.]1
@@ -46423,7 +47243,6 @@ Pagina 718 van 764 Copyright Belgisch S taatsblad 16-04-2026
  zich ertoe verbinden om gedurende een redelijke termijn hun deelneming in de onderneming in stand te
  houden.]1
     ----------
-Pagina 719 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2023-06-07/07, art. 142, 122; Inwerkingtreding : 01-09-2023>
 
   Afdeling 5. [1 - Beëindiging van de procedure en rechtsmiddelen]1
@@ -46440,7 +47259,9 @@ Pagina 719 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 145, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.83/20.[1 De homologatie van het reorganisatieplan maakt het bindend voor alle schuldeisers in de
+## Art. XX.83/20
+
+[1 De homologatie van het reorganisatieplan maakt het bindend voor alle schuldeisers in de
  opschorting en kapitaalhouders. In de mate dat de uitvoering van het reorganisatieplan een beslissing vereist van
  een algemene vergadering van een rechtspersoon en de algemene vergadering op onredelijke wijze de
  tenuitvoerlegging van het plan verhindert, kan elke belanghebbende de rechtbank verzoeken aan de
@@ -46488,7 +47309,6 @@ Pagina 719 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gedeelte van de activa of van de activiteiten. De intrekking heeft tot gevolg dat de schuldenaar, de schuldeisers
  en de kapitaalhouders zich in dezelfde toestand bevinden, behalve wat de voormelde elementen betreft, als er
  geen gehomologeerd reorganisatieplan zou geweest zijn.
-Pagina 720 van 764 Copyright Belgisch S taatsblad 16-04-2026
     De rechtbank kan ambtshalve, vanaf de eerste verjaardag van de homologatiebeslissing, de schuldenaar
  jaarlijks oproepen om verslag uit te brengen over de uitvoering van het collectief akkoord. De verklaringen van de
  schuldenaar worden door de griffier opgenomen om gevoegd te worden bij het dossier van de gerechtelijke
@@ -46556,7 +47376,6 @@ Pagina 720 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De schuldenaar verstrekt de herstructureringsdeskundige op eenvoudig verzoek een lijst van
  de schuldeisers en alle boekhoudkundige of andere stukken die nuttig zijn voor het tot stand brengen van een
-Pagina 721 van 764 Copyright Belgisch S taatsblad 16-04-2026
  minnelijk akkoord bedoeld in artikel XX.64 of voor het opstellen van het reorganisatieplan zoals bepaald in artikel
  XX.67 of in artikel XX.83/3. De herstructureringsdeskundige bepaalt de termijn waarbinnen de individuele
  schuldeisers in kennis worden gesteld van zijn opdracht en van de gegevens bepaald in artikel XX.48, § 1, tweede
@@ -46628,7 +47447,6 @@ Pagina 721 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De schuldenaar wordt bij gerechtsbrief opgeroepen om voor de voorzitter te verschijnen binnen acht dagen na
  de neerlegging van het verzoekschrift in het register. In de gerechtsbrief wordt vermeld dat het verzoek in het
  register is neergelegd en dat de schuldenaar in raadkamer zal worden gehoord.
-Pagina 722 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Ter terechtzitting worden de schuldenaar en de herstructureringsdeskundige gehoord. De voorzitter doet
  uitspraak in raadkamer.]1
   ----------
@@ -46697,7 +47515,6 @@ Pagina 722 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.83/31
 
 [1 De besloten gerechtelijke reorganisatieprocedure door een collectief akkoord heeft het doel
-Pagina 723 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een akkoord te verkrijgen van zijn schuldeisers of van een deel van hen en, in voorkomend geval, van de
  kapitaalhouders over een reorganisatieplan.]1
   ----------
@@ -46766,7 +47583,6 @@ Pagina 723 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De stemming over het plan verloopt zoals bepaald in de artikelen XX.78 tot en met XX.78/2 of
  in de artikelen XX.83/12 tot en met XX.83/14.]1
    ----------
-Pagina 724 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2023-06-07/07, art. 168, 122; Inwerkingtreding : 01-09-2023>
 
   Onderafdeling 4. [1 Homologatie van het reorganisatieplan]1
@@ -46836,7 +47652,6 @@ Pagina 724 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De homologatie van het reorganisatieplan maakt het bindend voor alle schuldeisers in de
  opschorting en kapitaalhouders aan wie de kennisgeving bedoeld in artikel XX.83/26 is gedaan.
    In de mate dat de uitvoering van het reorganisatieplan een beslissing vereist van een algemene vergadering
-Pagina 725 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van een rechtspersoon en de algemene vergadering op onredelijke wijze de tenuitvoerlegging van het plan
  verhindert, kan elke belanghebbende de rechtbank verzoeken aan de rechtspersoon te bevelen de beslissingen
  te nemen die de tenuitvoerlegging van het plan vereist.
@@ -46888,7 +47703,9 @@ Pagina 725 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 180, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.84.[1 § 1. [3 De overdracht onder gerechtelijk gezag van het geheel of een gedeelte van de activiteiten
+## Art. XX.84
+
+[1 § 1. [3 De overdracht onder gerechtelijk gezag van het geheel of een gedeelte van de activiteiten
  van een onderneming kan door de rechtbank bevolen worden teneinde een efficiënte vereffening van de
  rechtspersoon of van het patrimonium van de onderneming bedoeld in artikel I.1.1°, a), te verzekeren. De
  schuldenaar kan deze overdracht vragen, ofwel in het initieel verzoekschrift, ofwel later op elk ogenblik in de loop
@@ -46903,7 +47720,6 @@ Pagina 725 van 764 Copyright Belgisch S taatsblad 16-04-2026
  reorganisatie te hebben aangevraagd;
    2° wanneer de rechtbank de vordering tot het openen van de procedure met toepassing van artikel XX.46
  verwerpt, er de vroegtijdige beëindiging van beveelt met toepassing van artikel XX.62 of het reorganisatieplan
-Pagina 726 van 764 Copyright Belgisch S taatsblad 16-04-2026
  intrekt met toepassing van [3 artikelen XX.83, XX.83/21 of XX.83/41]3;
     3° wanneer de schuldeisers het reorganisatieplan niet goedkeuren met toepassing van [3 artikelen XX.78,
  XX.83/12 of XX.83/34]3;
@@ -46925,7 +47741,9 @@ Pagina 726 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-04-15/14, art. 253, 059; Inwerkingtreding : 01-11-2018>
    (3)<W 2023-06-07/07, art. 181, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.85.[1 [2 Het vonnis dat de overdracht beveelt, wijst een vereffeningsdeskundige aan die wordt gelast
+## Art. XX.85
+
+[1 [2 Het vonnis dat de overdracht beveelt, wijst een vereffeningsdeskundige aan die wordt gelast
  met het organiseren en realiseren van de overdracht in naam en voor rekening van de schuldenaar. Het bepaalt
  of de overdracht betrekking heeft op het geheel van de activa en activiteiten van de schuldenaar dan wel op een
  deel ervan. In dit laatste geval, preciseert het vonnis het voorwerp van de overdracht of laat die bepaling over
@@ -46941,7 +47759,9 @@ Pagina 726 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 182, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.86.[1 § 1. Onverminderd de bepalingen van dit boek verduidelijkt een collectieve arbeidsovereenkomst
+## Art. XX.86
+
+[1 § 1. Onverminderd de bepalingen van dit boek verduidelijkt een collectieve arbeidsovereenkomst
  die gesloten is in de Nationale Arbeidsraad en algemeen verbindend verklaard is door de Koning de nadere regels
  voor de overdracht van de rechten en verplichtingen van de werknemers die betrokken zijn bij een overdracht
  van onderneming onder gerechtelijk gezag.
@@ -46970,7 +47790,6 @@ Pagina 726 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Behoudens bewijs van het tegendeel wordt de afwezigheid van verboden differentiatie geacht bewezen te zijn
  indien de voor de overdracht onder gerechtelijk gezag bestaande verhouding tussen de werknemers van de
  overgedragen onderneming of het overgedragen gedeelte van de onderneming en hun vertegenwoordigers in de
-Pagina 727 van 764 Copyright Belgisch S taatsblad 16-04-2026
  organen van die onderneming of dat gedeelte van de onderneming na de overdracht behouden blijft.
    § 4. De in paragraaf 1 bedoelde collectieve arbeidsovereenkomst kan de verkrijger en de overgenomen
  werknemer toestaan om de individuele arbeidsovereenkomst op het ogenblik van de overdracht onder
@@ -46994,7 +47813,9 @@ Pagina 727 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 183, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.87.[1 § 1. [2 De aangewezen vereffeningsdeskundige organiseert en verricht de door de rechtbank
+## Art. XX.87
+
+[1 § 1. [2 De aangewezen vereffeningsdeskundige organiseert en verricht de door de rechtbank
  bevolen overdracht.]2
     Hij zoekt en wint offertes in en waakt bij voorrang over het behoud van het geheel of een gedeelte van de
  activiteit van de onderneming, rekening houdend met de rechten van de schuldeisers.
@@ -47033,12 +47854,13 @@ Pagina 727 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 184, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.88.[1 § 1. Wanneer de verkoop betrekking heeft op onroerende goederen en het ontwerp voorziet in de
+## Art. XX.88
+
+[1 § 1. Wanneer de verkoop betrekking heeft op onroerende goederen en het ontwerp voorziet in de
  openbare verkoop ervan, vindt deze plaats overeenkomstig artikel 1193 van het Gerechtelijk Wetboek, door het
  ambt van de notaris aangesteld door de rechtbank.
    § 2. Wanneer de verkoop betrekking heeft op onroerende goederen en de [4 vereffeningsdeskundige]4 voor
  een verkoop uit de hand kiest, legt hij de rechtbank een ontwerp van verkoopakte voor, opgesteld door een door
-Pagina 728 van 764 Copyright Belgisch S taatsblad 16-04-2026
  hem aangestelde notaris, onder opgave van de redenen waarom de verkoop uit de hand geboden is. Hij voegt
  hierbij een schattingsverslag [5 , opgemaakt door de deskundige aangewezen door de notaris die de
  ontwerpakte heeft opgesteld,]5 evenals een getuigschrift van de [3 Algemene Administratie van de
@@ -47082,7 +47904,9 @@ Pagina 728 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (4)<W 2023-06-07/07, art. 185, 122; Inwerkingtreding : 01-09-2023>
    (5)<W 2023-12-19/05, art. 79, 125; Inwerkingtreding : 06-01-2024>
 
-  Art. XX.89.[1 § 1. Op verslag van de gedelegeerd rechter machtigt de rechtbank, waarbij de zaak
+## Art. XX.89
+
+[1 § 1. Op verslag van de gedelegeerd rechter machtigt de rechtbank, waarbij de zaak
  overeenkomstig artikel XX.87 aanhangig werd gemaakt, de voorgenomen verkoop als zij voldoet aan de in
  paragraaf 1 van dat artikel vastgestelde voorwaarden. Indien er verscheidene vergelijkbare offertes [2 van
  potentiële kopers]2 zijn, geeft de rechtbank de voorkeur aan de offerte die het behoud van de werkgelegenheid
@@ -47095,14 +47919,15 @@ Pagina 728 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 186, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.90.[1 Het vonnis dat de verkoop toestaat, wordt bij uittreksel bekendgemaakt in het Belgisch Staatsblad
+## Art. XX.90
+
+[1 Het vonnis dat de verkoop toestaat, wordt bij uittreksel bekendgemaakt in het Belgisch Staatsblad
  en medegedeeld aan de schuldeisers door toedoen van de met de overdracht gelaste [2
  vereffeningsdeskundige]2, met vermelding van de naam van de aangestelde notaris of van de door de rechtbank
  aangewezen gerechtsdeurwaarder.
    De zaak [2 in hoger beroep]2 wordt behandeld, bij hoogdringendheid, op de inleidingszitting of op een
  nabijgelegen zitting, de gedelegeerd rechter wordt gehoord in zijn verslag. [2 ...]2
 
-Pagina 729 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Indien de koper de overdracht wenst uit te voeren niettegenstaande hoger beroep verleent de [2
  vereffeningsdeskundige]2 daaraan zijn volledige medewerking zonder dat deze de aansprakelijkheid draagt
  bedoeld in artikel 1398 van het Gerechtelijk Wetboek.]1
@@ -47110,7 +47935,9 @@ Pagina 729 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 187, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.91.[1 De verkoop gebeurt overeenkomstig het ontwerp dat door de rechtbank is aanvaard.
+## Art. XX.91
+
+[1 De verkoop gebeurt overeenkomstig het ontwerp dat door de rechtbank is aanvaard.
    Wanneer de verkoop betrekking heeft op roerende goederen en het ontwerp in de openbare verkoop ervan
  voorziet, wijst het vonnis de gerechtsdeurwaarder aan die belast wordt met de verkoop en de prijs ervan in
  ontvangst zal nemen. Deze prijs wordt geïnd door de door de rechtbank aangewezen [2
@@ -47124,13 +47951,17 @@ Pagina 729 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 188, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.92.[1 Door de verkoop van de roerende of onroerende goederen gaan de rechten van de schuldeisers
+## Art. XX.92
+
+[1 Door de verkoop van de roerende of onroerende goederen gaan de rechten van de schuldeisers
  over op de prijs.]1 [2 De verkoop is zuiverend.]2
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 189, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.93.[1 Wanneer de aangewezen [2 vereffeningsdeskundige]2 van oordeel is dat alle voor overdracht
+## Art. XX.93
+
+[1 Wanneer de aangewezen [2 vereffeningsdeskundige]2 van oordeel is dat alle voor overdracht
  vatbare activiteiten overgedragen zijn, en in elk geval voor het einde van de opschorting, vraagt hij aan de
  rechtbank bij [2 tegensprekelijk verzoekschrift gericht aan de schuldenaar en in voorkomend geval aan de eiser
  tot overdracht onder gerechtelijk gezag, dat zij de procedure afsluit en dat zij hem ontlast van zijn opdracht.]2]1
@@ -47163,13 +47994,14 @@ Pagina 729 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 191, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.94.[1 Als de schuldenaar failliet of in staat van gerechtelijke vereffening wordt verklaard vooraleer de [2
+## Art. XX.94
+
+[1 Als de schuldenaar failliet of in staat van gerechtelijke vereffening wordt verklaard vooraleer de [2
  vereffeningsdeskundige]2 zijn opdracht volledig heeft vervuld, verzoekt de [2 vereffeningsdeskundige]2 de
  rechtbank hem van zijn opdracht te ontlasten. De rechtbank kan beslissen, op verslag van de gedelegeerd
  rechter, dat de [2 vereffeningsdeskundige]2 nog bepaalde opdrachten kan voltooien. De [2
  vereffeningsdeskundige]2 draagt in elk geval de opbrengst van de overdrachten over aan de curator of de
  vereffenaar voor verdeling.
-Pagina 730 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Het ereloon van de [2 vereffeningsdeskundige]2 wordt aangerekend op het deel van het ereloon van de curator
  of de vereffenaar dat betrekking heeft op de opbrengst van de overdracht bewerkstelligd door de [2
  vereffeningsdeskundige]2.]1
@@ -47177,7 +48009,9 @@ Pagina 730 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 192, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.95.[1 De beslissing tot sluiting van de procedure van [2 overdracht onder gerechtelijk gezag]2 [2 en de
+## Art. XX.95
+
+[1 De beslissing tot sluiting van de procedure van [2 overdracht onder gerechtelijk gezag]2 [2 en de
  daaropvolgende faillietverklaring of vereffening worden]2 bij uittreksel in het Belgisch Staatsblad bekendgemaakt.
    De beslissing tot sluiting van de procedure van [2 overdracht onder gerechtelijk gezag]2 bevrijdt de verkrijger
  van alle andere verplichtingen dan die welke in de akte van overdracht zijn vermeld.]1
@@ -47187,7 +48021,9 @@ Pagina 730 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 ## Art. XX.96.
 
-  Art. XX.97.[1 De [2 ...]2 overdracht onder gerechtelijk gezag van [2 het vermogen van]2 een natuurlijke persoon
+## Art. XX.97
+
+[1 De [2 ...]2 overdracht onder gerechtelijk gezag van [2 het vermogen van]2 een natuurlijke persoon
  of een rechtspersoon kan op zich alleen geen grond zijn voor een aansprakelijkheidsvordering gericht tegen een
  kredietgever of een investeerder die krediet geeft voor of investeert in een nieuwe activiteit gevoerd door de
  schuldenaar of door een bestuurder, zaakvoerder of leider van de schuldenaar, ongeacht de vorm waaronder
@@ -47238,7 +48074,6 @@ Pagina 730 van 764 Copyright Belgisch S taatsblad 16-04-2026
  een deel van de activa dan wel het geheel of een deel van de onderneming zouden worden overgedragen aan
  verbonden ondernemingen of aan personen die controle op de onderneming uitoefenen of hebben uitgeoefend
  gedurende zes maanden voorafgaand aan de opening van de procedure, en die rechtstreeks of onrechtstreeks
-Pagina 731 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de controle hebben over rechten die bepalend zijn voor de waarde van de onderneming en de overdracht van
  haar activiteiten.]1
   ----------
@@ -47295,7 +48130,9 @@ Pagina 731 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.99.[1 De schuldenaar die op duurzame wijze heeft opgehouden te betalen en van wie het krediet
+## Art. XX.99
+
+[1 De schuldenaar die op duurzame wijze heeft opgehouden te betalen en van wie het krediet
  geschokt is, bevindt zich in staat van faillissement.
     Degene die als natuurlijke persoon geen economische activiteit meer uitoefent kan failliet worden verklaard
  indien hij heeft opgehouden te betalen toen hij die activiteit nog uitoefende.
@@ -47306,11 +48143,12 @@ Pagina 731 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rechtspersoon waarvan de vennoten onbeperkt aansprakelijk zijn krachtens de wet, kan enkel de curator de
  vennoot persoonlijk aansprakelijk stellen voor de passiva van deze onderneming.]1
    ----------
-Pagina 732 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2018-04-15/14, art. 229, 059; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.100.[1 Onverminderd de bepalingen van Titels I en IV van dit Boek, geschiedt de faillietverklaring bij
+## Art. XX.100
+
+[1 Onverminderd de bepalingen van Titels I en IV van dit Boek, geschiedt de faillietverklaring bij
  vonnis van de insolventierechtbank waarbij de zaak aanhangig is gemaakt, hetzij op aangifte van de schuldenaar,
  hetzij op dagvaarding van een of meer schuldeisers, van het openbaar ministerie, van de voorlopige
  bewindvoerder bedoeld in [3 artikelen XX.32 en XX.83/33]3 of van de curator van de hoofdprocedure in het geval
@@ -47336,7 +48174,9 @@ Pagina 732 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-04-15/14, art. 230, 059; Inwerkingtreding : 01-05-2018>
   (3)<W 2023-06-07/07, art. 203, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.101.[1 Zowel in geval van aangifte als in geval van vordering tot faillietverklaring kan de
+## Art. XX.101
+
+[1 Zowel in geval van aangifte als in geval van vordering tot faillietverklaring kan de
  insolventierechtbank haar beslissing opschorten voor een termijn van vijftien dagen tijdens welke de schuldenaar
  een gerechtelijke reorganisatie kan aanvragen of waarin de procureur des Konings, een schuldeiser of een
  persoon geïnteresseerd in het verwerven van het geheel of een deel van de activa of van de activiteiten van de
@@ -47364,7 +48204,9 @@ Pagina 732 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.103.[1 De schuldenaar voegt op dezelfde wijze bij zijn aangifte:
+## Art. XX.103
+
+[1 De schuldenaar voegt op dezelfde wijze bij zijn aangifte:
    1° de balans van zijn zaken of een nota waarin de redenen worden opgegeven die hem beletten de balans neer
  te leggen;
    2° een balans die een staat bevat van activa en passiva zoals bepaald door de boek III, titel 3, hoofdstuk 2, van
@@ -47375,7 +48217,6 @@ Pagina 732 van 764 Copyright Belgisch S taatsblad 16-04-2026
    3° de gegevens over de plaats waar de boekhouding zich bevindt, met aanduiding of deze gehouden worden
  door derden; in dat geval de contactgegevens van deze derden en de middelen om een toegang te krijgen;
 
-Pagina 733 van 764 Copyright Belgisch S taatsblad 16-04-2026
     4° in de mate de schuldenaar personeel tewerkstelt of heeft tewerkgesteld de laatste achttien maanden, het
  personeelsregister, de individuele rekening, zoals bepaald in artikel 4, § 1, 2°, van het koninklijk besluit nr. 5 van
  23 oktober 1978 betreffende het bijhouden van sociale documenten, zowel die van het afgelopen kalenderjaar als
@@ -47446,11 +48287,12 @@ Pagina 733 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aanwijzingen bestaan dat deze is of wordt bewerkstelligd met de bedoeling nadeel te berokkenen aan de
  schuldeisers. In dat geval kan het tijdstip van de staking van betaling worden vastgesteld op de dag van het
  ontbindingsbesluit.]1
-Pagina 734 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.106.[1 Het vonnis van faillietverklaring wordt op verzoek van de curatoren aan de gefailleerde betekend.
+## Art. XX.106
+
+[1 Het vonnis van faillietverklaring wordt op verzoek van de curatoren aan de gefailleerde betekend.
    Het exploot van betekening bevat op straffe van nietigheid, benevens de tekst van de artikelen [2 XX.108 en
  XX.109]2, aanmaning om kennis te nemen van de processen-verbaal van verificatie van de schuldvorderingen.
    Het exploot van betekening bevat eveneens de tekst van de artikelen [2 XX.146 en [3 XX.166]3]2.]1
@@ -47459,7 +48301,9 @@ Pagina 734 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2021-11-28/01, art. 139, 101; Inwerkingtreding : 10-12-2021>
   (3)<W 2023-06-07/07, art. 206, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.107.[3 § 1.]3 [1 Het vonnis van faillietverklaring en het latere vonnis dat de staking van betaling vaststelt,
+## Art. XX.107
+
+[3 § 1.]3 [1 Het vonnis van faillietverklaring en het latere vonnis dat de staking van betaling vaststelt,
  worden, door de curator binnen vijf dagen na hun respectievelijke dagtekening bij uittreksel bekendgemaakt in
  het Belgisch Staatsblad.
    Het uittreksel vermeldt:
@@ -47490,7 +48334,9 @@ Pagina 734 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (2)<W 2018-04-15/14, art. 232, 059; Inwerkingtreding : 01-05-2018>
   (3)<W 2023-06-07/07, art. 207, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.108.[1 § 1. Ieder vonnis van faillietverklaring of ieder vonnis waarbij het tijdstip van staking van betaling
+## Art. XX.108
+
+[1 § 1. Ieder vonnis van faillietverklaring of ieder vonnis waarbij het tijdstip van staking van betaling
  wordt vastgesteld, is bij voorraad en op de minuut vanaf de uitspraak uitvoerbaar.
     § 2. Tegen het vonnis kan verzet worden gedaan door de verstekdoende partijen en derdenverzet door de
  belanghebbenden die daarbij geen partij zijn geweest. [3 Een schuldenaar die aangifte doet van zijn staking van
@@ -47514,7 +48360,6 @@ Pagina 734 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.109
 
 [1 Hoger beroep, verzet of derdenverzet tegen het vonnis van faillietverklaring of tegen het vonnis
-Pagina 735 van 764 Copyright Belgisch S taatsblad 16-04-2026
  dat de faillietverklaring afwijst, worden zonder verwijl in staat gesteld.
    De curator dient in de zaak te worden betrokken voor het sluiten van de debatten.
    Op verzoek van de meest gerede partij wordt de zaak vastgesteld om gepleit te worden binnen een maand
@@ -47558,7 +48403,9 @@ Pagina 735 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.111.[1 Aan de boedel kunnen niet worden tegengeworpen, wanneer zij door de schuldenaar zijn verricht
+## Art. XX.111
+
+[1 Aan de boedel kunnen niet worden tegengeworpen, wanneer zij door de schuldenaar zijn verricht
  sinds het door de rechtbank bepaalde tijdstip van staking van betaling, onverminderd de artikelen XX.37, XX.53,
  XX.65 [2 , XX.82, XX.83/20 en XX.83/40]2:
    1° alle handelingen waarbij om niet wordt beschikt over roerende of onroerende goederen, alsmede
@@ -47573,7 +48420,9 @@ Pagina 735 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 210, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.112.[1 Alle andere betalingen door de schuldenaar wegens vervallen schulden gedaan, en alle
+## Art. XX.112
+
+[1 Alle andere betalingen door de schuldenaar wegens vervallen schulden gedaan, en alle
  handelingen onder bezwarende titel door hem aangegaan na de staking van betaling en voor het vonnis van
  faillietverklaring, kunnen niet-tegenwerpbaar verklaard worden, indien zij die van de schuldenaar iets hebben
  ontvangen of met hem hebben gehandeld, kennis hadden van de staking van betaling, onverminderd de artikelen
@@ -47582,7 +48431,6 @@ Pagina 735 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 211, 122; Inwerkingtreding : 01-09-2023>
 
-Pagina 736 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.113
 
 [1 De rechten van hypotheek, van voorrecht en van roerende zekerheid die op geldige wijze
@@ -47644,7 +48492,9 @@ Pagina 736 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.119.[1 Alle gedingen met betrekking tot de boedel, aanhangig op datum van het faillissement, waarin de
+## Art. XX.119
+
+[1 Alle gedingen met betrekking tot de boedel, aanhangig op datum van het faillissement, waarin de
  gefailleerde betrokken is, worden van rechtswege geschorst tot aangifte van de schuldvordering is gedaan. Zij
  blijven geschorst tot na het registreren van het eerste proces-verbaal van verificatie, tenzij de curator de
  gedingen hervat in het belang van de boedel.
@@ -47654,11 +48504,12 @@ Pagina 736 van 764 Copyright Belgisch S taatsblad 16-04-2026
  aangehouden ten aanzien van de boedel, dan wordt de curator verondersteld de hangende gedingen te
  hervatten, minstens voor de beslechting van het betwiste of aangehouden gedeelte.]1
   ----------
-Pagina 737 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 212, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.120.[1 § 1. Alle beslagen gelegd vóór het vonnis van faillietverklaring worden geschorst.
+## Art. XX.120
+
+[1 § 1. Alle beslagen gelegd vóór het vonnis van faillietverklaring worden geschorst.
     Indien evenwel de dag van de gedwongen verkoop van de in beslag genomen roerende goederen voor dat
  vonnis was bepaald en door aanplakking bekendgemaakt, geschiedt die verkoop voor rekening van de boedel.
  Wanneer het belang van de boedel het vereist, kan de [3 rechtbank]3 op verzoek van de curatoren, en na de
@@ -47717,10 +48568,11 @@ Pagina 737 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.122.[1 § 1. Onverminderd de toepassing van de bepalingen van de Verordening (EU) 2015/848 van het
+## Art. XX.122
+
+[1 § 1. Onverminderd de toepassing van de bepalingen van de Verordening (EU) 2015/848 van het
  Europees Parlement en de Raad betreffende insolventieprocedures, worden de curatoren gekozen uit de
  personen ingeschreven op een lijst opgesteld door de algemene vergadering van de [3 ondernemingsrechtbank]3
-Pagina 738 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van het rechtsgebied die het faillissement uitspreekt. Te dien einde kunnen de leden van de algemene
  vergadering zelf stemmen of bij volmacht.
     Alleen advocaten ingeschreven op het tableau van een Orde van Advocaten, ongeacht de plaats van hun
@@ -47743,7 +48595,9 @@ Pagina 738 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-04-15/14, art. 235, 059; Inwerkingtreding : 01-05-2018>
    (3)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  Art. XX.123.[1 Wanneer de gefailleerde de beoefenaar is van een vrij beroep, voegt de rechtbank aan de
+## Art. XX.123
+
+[1 Wanneer de gefailleerde de beoefenaar is van een vrij beroep, voegt de rechtbank aan de
  curator als medecurator overeenkomstig artikel XX.20, § 1, een beoefenaar van dit beroep toe [2 om bijstand
  aan de curator te verlenen in verband met de beroepstechnische en deontologische aspecten van het beroep en
  de vrijwaring van de vertrouwelijke gegevens verbonden met dit vrij beroep]2.]1
@@ -47761,7 +48615,9 @@ Pagina 738 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.125.[1 Een persoon die op de lijst staat kan op eigen verzoek worden geschrapt door de algemene
+## Art. XX.125
+
+[1 Een persoon die op de lijst staat kan op eigen verzoek worden geschrapt door de algemene
  vergadering van de [2 ondernemingsrechtbank]2. De algemene vergadering schrapt eveneens de personen van
  de lijst die niet meer aan de voorwaarden van de wet voldoet. Een persoon kan eveneens van de lijst worden
  geschrapt ter uitvoering van een vonnis dat is gewezen op dagvaarding door het openbaar ministerie. De
@@ -47774,7 +48630,9 @@ Pagina 738 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.126.[1 § 1. De curatoren bedoeld in artikel XX.122 leggen bij de inschrijving op de lijst ten overstaan van
+## Art. XX.126
+
+[1 § 1. De curatoren bedoeld in artikel XX.122 leggen bij de inschrijving op de lijst ten overstaan van
  de voorzitter van de rechtbank de eed af in de volgende bewoordingen: "Ik zweer getrouwheid aan de Koning,
  gehoorzaamheid aan de Grondwet en aan de wetten van het Belgische volk. Ik zweer mijn opdrachten in eer en
  geweten, nauwgezet en eerlijk te zullen vervullen. "Je jure fidélité au Roi, obéissance à la Constitution et aux lois
@@ -47787,7 +48645,6 @@ Pagina 738 van 764 Copyright Belgisch S taatsblad 16-04-2026
  van de rechtbank.
    In ieder geval meldt de curator dat hij of één van zijn vennoten of rechtstreekse medewerkers, behalve in de
  hoedanigheid van curator, prestaties heeft verricht voor de gefailleerde of de bestuurders en zaakvoerders van
-Pagina 739 van 764 Copyright Belgisch S taatsblad 16-04-2026
  de gefailleerde rechtspersoon, of voor een schuldeiser, tot achttien maanden vóór het vonnis van
  faillietverklaring.
    De verklaringen van de curator worden bij het faillissementsdossier gevoegd [2 , maar kunnen alleen
@@ -47833,7 +48690,9 @@ Pagina 739 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.129.[1 De rechter-commissaris is er in het bijzonder mee belast toezicht te houden op het beheer en op
+## Art. XX.129
+
+[1 De rechter-commissaris is er in het bijzonder mee belast toezicht te houden op het beheer en op
  de vereffening van het faillissement en de verrichtingen ervan te bespoedigen, in het bijzonder de afwikkeling van
  de schuldvorderingen van de werknemers van de gefailleerde; hij beveelt de dringende maatregelen die
  noodzakelijk zijn voor het beveiligen en het bewaren van de goederen van de boedel en hij zit de vergaderingen
@@ -47858,7 +48717,6 @@ Pagina 739 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 Onverminderd artikel XX.18, kan de procureur des Konings kan bij alle verrichtingen van het
  faillissement aanwezig zijn en zich door de curatoren alle inlichtingen doen verstrekken die hij dienstig acht.]1
-Pagina 740 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -47866,7 +48724,9 @@ Pagina 740 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.131.[1 § 1. Het register bevat, voor elk faillissement, een dossier dat ten minste het volgende bevat:
+## Art. XX.131
+
+[1 § 1. Het register bevat, voor elk faillissement, een dossier dat ten minste het volgende bevat:
    1° een voor eensluidend verklaard afschrift van het vonnis van faillietverklaring, van het vonnis dat het tijdstip
  van de staking van betaling bepaalt en van de beslissingen gewezen na uitoefening van de rechtsmiddelen tegen
  deze vonnissen;
@@ -47927,8 +48787,9 @@ Pagina 740 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 741 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XX.135.[1 § 1. Wanneer blijkt dat het actief ontoereikend is om de vermoedelijke kosten voor het beheer en
+## Art. XX.135
+
+[1 § 1. Wanneer blijkt dat het actief ontoereikend is om de vermoedelijke kosten voor het beheer en
  de vereffening van het faillissement te dekken, kan de rechtbank op verzoek van de curatoren of zelfs
  ambtshalve na de curatoren te hebben gehoord de sluiting van het faillissement uitspreken. De gefailleerde wordt
  opgeroepen met een gerechtsbrief die de tekst van dit artikel bevat.
@@ -47974,7 +48835,9 @@ Pagina 741 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.138.[1 Na het opmaken van de inventaris worden de koopwaren, het geld, de bescheiden, de titels van
+## Art. XX.138
+
+[1 Na het opmaken van de inventaris worden de koopwaren, het geld, de bescheiden, de titels van
  schuldvorderingen, de roerende goederen en voorwerpen van de schuldenaar toevertrouwd aan de zorg van de
  curatoren.
     De gefailleerde, dan wel de bestuurders of zaakvoerders van de gefailleerde rechtspersoon zijn gehouden
@@ -47995,7 +48858,6 @@ Pagina 741 van 764 Copyright Belgisch S taatsblad 16-04-2026
  gesloten zijn voor de datum van het vonnis van faillietverklaring en waaraan door dat vonnis geen einde wordt
  gemaakt, al dan niet verder uitvoeren, dan wel of zij de overeenkomsten eenzijdig beëindigen wanneer het beheer
  van de boedel dit noodzakelijkerwijs vereist. Deze beslissing kan geen afbreuk doen aan zakelijke rechten van
-Pagina 742 van 764 Copyright Belgisch S taatsblad 16-04-2026
  derden tegenwerpelijk aan de boedel.
     De medecontractant die de overeenkomst met de gefailleerde heeft gesloten, kan de curatoren aanmanen om
  die beslissing binnen vijftien dagen te nemen. Indien geen verlenging van termijn is overeengekomen of indien de
@@ -48066,7 +48928,6 @@ Pagina 742 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Na de neerlegging van het eerste proces-verbaal van verificatie van de schuldvorderingen kan de gefailleerde
  natuurlijke persoon de rechter-commissaris verzoeken zelf de aan hem gerichte brievenpost te mogen openen.
    Bij weigering moet de rechter-commissaris zijn beslissing motiveren.
-Pagina 743 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Brievenpost gericht aan de beoefenaar van een vrij beroep wordt afgegeven aan de curator volgens richtlijnen
  bepaald door de Orde of Instituut waarvan de gefailleerde deel uitmaakt bij zijn faillissement.]1
   ----------
@@ -48102,7 +48963,9 @@ Pagina 743 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.146.[1 De gefailleerde of de zaakvoerders en bestuurders van de gefailleerde rechtspersoon zijn
+## Art. XX.146
+
+[1 De gefailleerde of de zaakvoerders en bestuurders van de gefailleerde rechtspersoon zijn
  gehouden gevolg te geven aan alle oproepingen die zij ontvangen van de rechter-commissaris of van de
  curatoren [2 , verstrekken hen alle vereiste inlichtingen op het ogenblik van het faillissement dan wel na het
  faillissement en schrijven zich in het register in met een elektronisch adres waarvoor zij zelf instaan en waarop zij
@@ -48114,7 +48977,9 @@ Pagina 743 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 222, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.147.[1 De curatoren ontbieden de gefailleerde om in zijn tegenwoordigheid de boeken en bescheiden
+## Art. XX.147
+
+[1 De curatoren ontbieden de gefailleerde om in zijn tegenwoordigheid de boeken en bescheiden
  vast te stellen en af te sluiten.
     De curatoren gaan over tot verificatie van de balans. Voor zover blijkt dat aanzienlijke correcties noodzakelijk
  zijn, of wanneer geen balans is neergelegd bij de aangifte van staking van betaling, kunnen zij die opmaken,
@@ -48135,7 +49000,6 @@ Pagina 743 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 744 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.149
 
 [1 Wanneer een schuldenaar failliet is verklaard na zijn overlijden of wanneer de gefailleerde
@@ -48176,7 +49040,9 @@ Pagina 744 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.153.[1 In elk faillissement zijn de curatoren verplicht, binnen twee maanden na hun ambtsaanvaarding,
+## Art. XX.153
+
+[1 In elk faillissement zijn de curatoren verplicht, binnen twee maanden na hun ambtsaanvaarding,
  aan de rechter-commissaris een memorie of kort verslag mee te delen betreffende de vermoedelijke toestand
  van het faillissement, de voornaamste oorzaken en omstandigheden ervan en de kenmerken die het vertoont.
    De curator legt het verslag neer in het faillissementsdossier. De rechter-commissaris maakt zijn aanmerkingen
@@ -48208,7 +49074,6 @@ Pagina 744 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorrang te kunnen uitoefenen, zijn de schuldeisers gehouden aangifte te doen van hun schuldvorderingen, in
  het register uiterlijk op de door het vonnis van faillietverklaring bepaalde dag. De titels waarop de vordering
  berust worden aangehecht aan de aangifte. Bij de aangifte worden de identificatie-gegevens van de schuldeiser,
-Pagina 745 van 764 Copyright Belgisch S taatsblad 16-04-2026
  alsmede de grondslag, het bedrag en de zekerheden van de vordering nader gepreciseerd.
     De schuldeisers worden daartoe verwittigd door een bericht in het register en een rondschrijven dat hun door
  de curatoren wordt toegezonden in zoverre die schuldeisers bekend zijn.
@@ -48231,7 +49096,9 @@ Pagina 745 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.156.[1 De aangifte van elke schuldeiser bevat:
+## Art. XX.156
+
+[1 De aangifte van elke schuldeiser bevat:
    - zijn identiteit, zijn ondernemingsnummer en in voorkomend geval zijn beroep en woonplaats of, indien het een
  rechtspersoon betreft, zijn ondernemingsnummer, zijn maatschappelijke benaming en zijn [2 zetel]2;
    - het bedrag en de oorzaken van zijn schuldvordering, de eraan verbonden voorrechten, hypotheken of
@@ -48258,7 +49125,9 @@ Pagina 745 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.158.[1 De verificatie van de schuldvorderingen wordt door de curator verricht in tegenwoordigheid van
+## Art. XX.158
+
+[1 De verificatie van de schuldvorderingen wordt door de curator verricht in tegenwoordigheid van
  of althans na behoorlijke oproeping van de gefailleerde. [2 De in het register ingeschreven gefailleerde wordt
  opgeroepen via het register.]2 De titels van de schuldvorderingen worden getoetst aan de boeken en bescheiden
  van de gefailleerde.
@@ -48277,7 +49146,6 @@ Pagina 745 van 764 Copyright Belgisch S taatsblad 16-04-2026
  door de rechter van de plaats.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
-Pagina 746 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.160
 
 [1 De processen-verbaal van verificatie van de schuldvorderingen worden door de curatoren
@@ -48285,7 +49153,9 @@ Pagina 746 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.161.[1 Uiterlijk op de in het vonnis van faillietverklaring bepaalde dag leggen de curatoren het eerste
+## Art. XX.161
+
+[1 Uiterlijk op de in het vonnis van faillietverklaring bepaalde dag leggen de curatoren het eerste
  proces-verbaal van verificatie neer in het register.
     Na respectievelijk zes en twaalf maanden na de datum van het vonnis van faillietverklaring, leggen de curatoren
  in het register een aanvullend proces-verbaal van verificatie neer waarin zij het eerste proces-verbaal van
@@ -48335,7 +49205,9 @@ Pagina 746 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.164.[1 § 1. De curator stelt voor elk faillissement een tabel op die voor elke aangegeven schuldvordering
+## Art. XX.164
+
+[1 § 1. De curator stelt voor elk faillissement een tabel op die voor elke aangegeven schuldvordering
  de volgende vermeldingen bevat:
    1° het volgnummer;
    2° de identiteit, het beroep, het ondernemingsnummer in voorkomend geval en de woonplaats, of, indien het
@@ -48345,7 +49217,6 @@ Pagina 746 van 764 Copyright Belgisch S taatsblad 16-04-2026
  voorkomend geval het ondernemingsnummer en de zetel van de activiteit en de identificatiegegevens van de
  gemachtigde, in voorkomend geval;
    3° het bedrag van de aangegeven schuldvordering;
-Pagina 747 van 764 Copyright Belgisch S taatsblad 16-04-2026
    4° de door de schuldeiser ingeroepen voorrechten, hypotheken en zakelijke zekerheden op roerende
  goederen;
    5° de aanvaarding of de betwisting;
@@ -48379,7 +49250,9 @@ Pagina 747 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.166.[1 § 1. Vanaf de invoeging van het eerste proces-verbaal van verificatie van de schuldvorderingen
+## Art. XX.166
+
+[1 § 1. Vanaf de invoeging van het eerste proces-verbaal van verificatie van de schuldvorderingen
  of vanaf elke latere datum, gaan de curatoren over tot de vereffening van het faillissement.
   [2 De oproeping bedoeld in artikel XX.158 bevat ook de mededeling aan de gefailleerde dat hij kan gehoord
  worden door de rechter-commissaris, in aanwezigheid van de curatoren, mits daartoe een verzoek wordt
@@ -48415,7 +49288,6 @@ Pagina 747 van 764 Copyright Belgisch S taatsblad 16-04-2026
  vergadering in het register neergelegd door toedoen van de griffier. De bekendmaking kan evenwel, met de
  toestemming van de rechter-commissaris, worden vervangen door een rondschrijven aan de ingeschreven
  schuldeisers.
-Pagina 748 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De gefailleerde wordt op die vergadering behoorlijk opgeroepen en kan er gehoord worden nopens de
  vereffening van de boedel.
    De vergadering van de schuldeisers kan, bij gewone meerderheid, de curatoren ermede belasten te
@@ -48440,7 +49312,9 @@ Pagina 748 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.170.[1 [2 Wanneer de vereffening van het faillissement is beëindigd, legt de curator een verzoekschrift
+## Art. XX.170
+
+[1 [2 Wanneer de vereffening van het faillissement is beëindigd, legt de curator een verzoekschrift
  neer in het register gericht aan de rechter-commissaris tot vaststelling van de vergadering van de schuldeisers.
  De schuldeisers en de gefailleerde worden opgeroepen door de curator na inzage en goedkeuring van de
  rekeningen van de curatoren op beschikking van de rechter-commissaris. De datum, het uur en de plaats
@@ -48457,7 +49331,9 @@ Pagina 748 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 230, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.171.[1 [3 Op verzoek van de curator en nadat de rechtbank in voorkomend geval de betwistingen
+## Art. XX.171
+
+[1 [3 Op verzoek van de curator en nadat de rechtbank in voorkomend geval de betwistingen
  betreffende de rekening heeft beslecht en de rekening zo nodig heeft verbeterd, beveelt zij, op verslag van de
  rechter-commissaris, en na behoorlijke oproeping van de gefailleerde, de sluiting van het faillissement. De curator
  legt, in het register, samen met zijn verzoekschrift een verslag neer over de vraag of de gefailleerde natuurlijke
@@ -48479,10 +49355,11 @@ Pagina 748 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (2)<W 2018-04-15/14, art. 238, 059; Inwerkingtreding : 01-05-2018>
    (3)<W 2023-06-07/07, art. 231, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.172.[1 De beslissing tot sluiting van de verrichtingen van het faillissement van de rechtspersoon
+## Art. XX.172
+
+[1 De beslissing tot sluiting van de verrichtingen van het faillissement van de rechtspersoon
  ontbindt deze en brengt de onmiddellijke sluiting van zijn vereffening mee.
    [3 Artikel 2:79 van het Wetboek van vennootschappen en verenigingen is van toepassing.]3
-Pagina 749 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De beslissing wordt door toedoen van de [3 griffier]3 bij uittreksel bekendgemaakt in het Belgisch Staatsblad.
  Dat uittreksel vermeldt de naam, de voornaam, elektronisch adres en het adres van de personen die als
  vereffenaars worden beschouwd.
@@ -48498,7 +49375,9 @@ Pagina 749 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.173.[1 § 1. Indien de gefailleerde een natuurlijke persoon is, zal hij ten aanzien van de schuldeisers
+## Art. XX.173
+
+[1 § 1. Indien de gefailleerde een natuurlijke persoon is, zal hij ten aanzien van de schuldeisers
  worden bevrijd van de restschulden, onverminderd de zakelijke zekerheden gesteld door de schuldenaar of een
  derde.
    De kwijtschelding heeft geen gevolgen voor de onderhoudsschulden van de gefailleerde noch voor de schulden
@@ -48526,7 +49405,9 @@ Pagina 749 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<W 2023-06-07/07, art. 233, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.174.[1 De echtgenoot, gewezen echtgenoot, wettelijk samenwonende of gewezen wettelijk
+## Art. XX.174
+
+[1 De echtgenoot, gewezen echtgenoot, wettelijk samenwonende of gewezen wettelijk
  samenwonende van de gefailleerde die persoonlijk verbonden is voor de schuld die voornoemde persoon tijdens
  de duur van het huwelijk of de duur van de wettelijke samenwoning [2 krachtens de wet of de overeenkomst]2
  was aangegaan, wordt ingevolge de kwijtschelding van die verplichting bevrijd.
@@ -48548,15 +49429,18 @@ Pagina 749 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 750 van 764 Copyright Belgisch S taatsblad 16-04-2026
-  Art. XX.175.[1 Onverminderd de [3 artikelen 9.1.42 tot 9.1.50 van het Burgerlijk Wetboek]3 en XX.176, strekt
+## Art. XX.175
+
+[1 Onverminderd de [3 artikelen 9.1.42 tot 9.1.50 van het Burgerlijk Wetboek]3 en XX.176, strekt
  de kwijtschelding niet tot voordeel van de medeschuldenaars en de stellers van persoonlijke zekerheden.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 235, 122; Inwerkingtreding : 01-09-2023>
   (3)<W 2025-06-05/09, art. 12, 142; Inwerkingtreding : 01-01-2026>
 
-  Art. XX.176.[1 De [4 consument die een persoonlijke zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste
+## Art. XX.176
+
+[1 De [4 consument die een persoonlijke zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste
  en tweede lid, van het Burgerlijk Wetboek]4 voor de gefailleerde, kan, na het openen van de procedure, [3 in het
  register]3 een verzoekschrift neerleggen voor de insolventierechtbank strekkende tot gehele of gedeeltelijke
  bevrijding van haar verbintenis wanneer het bedrag van de zekerheid, bij het openen van de procedure, kennelijk
@@ -48619,7 +49503,6 @@ Pagina 750 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
 [1 De medeschuldenaar of de borg die de gedeeltelijke betaling gedaan heeft, komt in het
  faillissement op voor alles wat hij tot bevrijding van de gefailleerde betaald heeft.]1
-Pagina 751 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -48690,7 +49573,6 @@ Pagina 751 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-Pagina 752 van 764 Copyright Belgisch S taatsblad 16-04-2026
 ## Art. XX.187
 
 [1 De rechten van de hypothecaire schuldeisers die slechts voor een gedeelte batig gerangschikt
@@ -48714,7 +49596,9 @@ Pagina 752 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.189.[1 De curatoren kunnen de roerende en onroerende goederen uit het eigen vermogen van een
+## Art. XX.189
+
+[1 De curatoren kunnen de roerende en onroerende goederen uit het eigen vermogen van een
  gefailleerde echtgenoot zowel als uit hun gemeenschappelijk vermogen verkopen zonder de voorafgaande
  toestemming van de andere echtgenoot of de rechterlijke machtiging, voorgeschreven bij [2 artikel 215, § 1, van
  het Oud Burgerlijk Wetboek en de artikelen 2.3.32 en 2.3.34 van het Burgerlijk Wetboek]2.]1
@@ -48759,14 +49643,15 @@ Pagina 752 van 764 Copyright Belgisch S taatsblad 16-04-2026
  boedel, van de uitkeringen tot levensonderhoud aan de gefailleerde en zijn gezin en van hetgeen aan de
  bevoorrechte schuldeisers betaald is.]1
   ----------
-Pagina 753 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
   HOOFDSTUK 9. [1 - Verkoop van de onroerende goederen van de gefailleerde]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.193.[1 § 1. Onverminderd artikel XX.120, kunnen alleen de curatoren tot de verkoop van onroerende
+## Art. XX.193
+
+[1 § 1. Onverminderd artikel XX.120, kunnen alleen de curatoren tot de verkoop van onroerende
  goederen overgaan. De rechter-commissaris beveelt de verkoop op verzoek van de curator. Indien de rechtercommissaris de verkoop, hetzij openbaar, hetzij uit de hand, beveelt dan wel machtigt, geschiedt deze
  overeenkomstig de artikelen 1190 tot 1193ter van het Gerechtelijk Wetboek.
     De voorgaande bepalingen vinden geen toepassing op de eerst ingeschreven hypothecaire schuldeiser die na
@@ -48826,7 +49711,6 @@ Pagina 753 van 764 Copyright Belgisch S taatsblad 16-04-2026
 [1 De koopwaren aan de gefailleerde in bewaring gegeven of in consignatie gegeven om te worden
  verkocht voor rekening van de afzender, kunnen eveneens worden teruggevorderd, zolang zij geheel of
  gedeeltelijk in natura aanwezig zijn.
-Pagina 754 van 764 Copyright Belgisch S taatsblad 16-04-2026
    Zelfs de prijs van die koopwaren kan worden teruggevorderd in zover hij niet is betaald, noch in waardepapier
  voldaan, noch in rekening-courant tussen de gefailleerde en de koper verrekend.]1
   ----------
@@ -48868,7 +49752,9 @@ Pagina 754 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.201.[1 De curatoren kunnen met goedkeuring van de rechter-commissaris de verzoeken tot
+## Art. XX.201
+
+[1 De curatoren kunnen met goedkeuring van de rechter-commissaris de verzoeken tot
  terugvordering van koopwaren, handels- en andere papieren of andere goederen inwilligen.
    Indien het belang van de boedel het vereist kunnen de curatoren evenwel, met de toestemming van de rechtercommissaris, de terugvordering bepaald in artikel XX.194 afwijzen na betaling van de prijs die tussen verkoper en
  de gefailleerde is bedongen, met uitsluiting van interesten en [2 schadebedingen]2, die in voorkomend geval
@@ -48887,13 +49773,14 @@ Pagina 754 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.202.[1 Wanneer overeenkomstig artikel 3, § 1, van de Insolventieverordening in een andere lidstaat een
+## Art. XX.202
+
+[1 Wanneer overeenkomstig artikel 3, § 1, van de Insolventieverordening in een andere lidstaat een
  insolventieprocedure geopend is ten aanzien van een schuldenaar die in België een vestiging heeft, worden de
  hoofdzaken van de beslissing tot opening van de insolventieprocedure, de identiteit van de aangewezen [3
  vereffeningsdeskundige]3, alsmede de bevoegdheidsregel die toegepast wordt door het rechtscollege dat de
  procedure geopend heeft, [2 op verzoek van de buitenlandse [3 vereffeningsdeskundige]3]2 bekendgemaakt in
 
-Pagina 755 van 764 Copyright Belgisch S taatsblad 16-04-2026
  het Belgisch Staatsblad. Hetzelfde geldt indien de [3 vereffeningsdeskundige]3 of de schuldenaar die zijn
  goederen in bezit houdt daarom verzoekt.]1
   ----------
@@ -48914,7 +49801,9 @@ Pagina 755 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.204.[1 Wanneer een [2 vereffeningsdeskundige]2 in een in een andere lidstaat geopende
+## Art. XX.204
+
+[1 Wanneer een [2 vereffeningsdeskundige]2 in een in een andere lidstaat geopende
  hoofdinsolventieprocedure in verband met de goederen die zich in België bevinden een unilaterale toezegging wil
  doen overeenkomstig artikel 36 van de Insolventieverordening, moet die toezegging worden vermeld in een
  geschreven document waarvan een behoorlijk geauthentiseerd exemplaar wordt neergelegd in het register. Een
@@ -48924,7 +49813,9 @@ Pagina 755 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 240, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.205.[1 Is in een andere lidstaat een hoofdprocedure geopend op basis van artikel 3, § 1 van de
+## Art. XX.205
+
+[1 Is in een andere lidstaat een hoofdprocedure geopend op basis van artikel 3, § 1 van de
  Insolventieverordening, dan stelt de griffier de [2 vereffeningsdeskundige]2 binnen vijftien dagen schriftelijk in
  kennis van elke aanvraag tot opening van een secundaire insolventieprocedure onder mededeling dat deze zijn
  zienswijze binnen een daartoe door de rechtbank bepaalde termijn kenbaar kan maken. Zolang aan de [2
@@ -48937,7 +49828,9 @@ Pagina 755 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 241, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.206.[1 Elk optreden van een [2 vereffeningsdeskundige]2 in een in een andere lidstaat geopende
+## Art. XX.206
+
+[1 Elk optreden van een [2 vereffeningsdeskundige]2 in een in een andere lidstaat geopende
  insolventieprocedure gebeurt door tussenkomst van een advocaat.]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
@@ -48957,18 +49850,21 @@ Pagina 755 van 764 Copyright Belgisch S taatsblad 16-04-2026
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.208.[1 Zodra een vordering tot opening van een insolventieprocedure aanhangig wordt gemaakt bij een
+## Art. XX.208
+
+[1 Zodra een vordering tot opening van een insolventieprocedure aanhangig wordt gemaakt bij een
  Belgisch rechtscollege of voornoemd rechtscollege een insolventieprocedure heeft geopend op grond van de
  insolventieverordening, behoort enig verzoek van dit rechtscollege tot samenwerking met een door een
  rechtscollege van een andere lidstaat aangewezen [2 vereffeningsdeskundige]2 tot de bevoegdheid van de
 
-Pagina 756 van 764 Copyright Belgisch S taatsblad 16-04-2026
  rechter-commissaris of de gedelegeerd rechter.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 243, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.209.[1 De rechter-commissaris of gedelegeerd rechter is gemachtigd om rechtstreeks te
+## Art. XX.209
+
+[1 De rechter-commissaris of gedelegeerd rechter is gemachtigd om rechtstreeks te
  communiceren met de rechtbanken van andere lidstaten of met de personen die zij hebben aangewezen alsook
  om hen rechtstreeks gegevens of bijstand te verzoeken.
    De communicatie kan gebeuren via elk geschikt geacht middel.
@@ -49011,7 +49907,9 @@ Pagina 756 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.213.[1 Wanneer in een andere staat ten aanzien van een schuldenaar een insolventieprocedure wordt
+## Art. XX.213
+
+[1 Wanneer in een andere staat ten aanzien van een schuldenaar een insolventieprocedure wordt
  geopend, worden de hoofdzaken van de beslissing tot opening van de insolventieprocedure en de identiteit van
  de aangewezen [2 vereffeningsdeskundige]2 op verzoek van de buitenlandse [2 vereffeningsdeskundige]2 in het
  het Wetboek van internationaal privaatrecht in België wordt erkend of kan worden erkend.
@@ -49021,21 +49919,26 @@ Pagina 756 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 245, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.214.[1 De benoeming van de buitenlandse [2 vereffeningsdeskundige]2 wordt vastgesteld door
+## Art. XX.214
+
+[1 De benoeming van de buitenlandse [2 vereffeningsdeskundige]2 wordt vastgesteld door
  overlegging van een voor eensluidend gewaarmerkt afschrift van het aanwijzingsbesluit of van ieder ander door
  de bevoegde buitenlandse rechter opgesteld attest. Van deze stukken kan een vertaling worden verlangd.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 246, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.215.[1 Enig optreden van een [2 vereffeningsdeskundige]2 in een in een andere staat geopende
+## Art. XX.215
+
+[1 Enig optreden van een [2 vereffeningsdeskundige]2 in een in een andere staat geopende
  insolventieprocedure gebeurt door tussenkomst van een advocaat.]1
-Pagina 757 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 247, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.216.[1 § 1. De [2 vereffeningsdeskundige]2 in een op grond van artikel 121 van het Wetboek van
+## Art. XX.216
+
+[1 § 1. De [2 vereffeningsdeskundige]2 in een op grond van artikel 121 van het Wetboek van
  internationaal privaatrecht erkende buitenlandse hoofdinsolventie kan alle bevoegdheden uitoefenen die hem
  toekomen naar het recht van de staat waar de buitenlandse insolventie is uitgesproken, tenzij op grond van
  artikel 118, § 1, tweede lid, 2°, van het Wetboek van internationaal privaatrecht een procedure geopend is.
@@ -49054,7 +49957,9 @@ Pagina 757 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 248, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.217.[1 Wanneer een insolventieprocedure op grond van artikel 118 § 1, tweede lid, van het Wetboek
+## Art. XX.217
+
+[1 Wanneer een insolventieprocedure op grond van artikel 118 § 1, tweede lid, van het Wetboek
  van internationaal privaatrecht geopend is, is de rechter bevoegd zoveel als redelijkerwijze mogelijk, rechtstreeks
  of door tussenkomst van de [2 vereffeningsdeskundige]2 of van een derde, informatie te verschaffen aan, te
  communiceren met of anderszins samen te werken met de buitenlandse rechter of met de buitenlandse [2
@@ -49064,7 +49969,9 @@ Pagina 757 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 249, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.218.[1 Zodra een vordering tot opening van een insolventieprocedure aanhangig wordt gemaakt bij een
+## Art. XX.218
+
+[1 Zodra een vordering tot opening van een insolventieprocedure aanhangig wordt gemaakt bij een
  Belgisch rechtscollege of voornoemd rechtscollege een insolventieprocedure heeft geopend op grond van artikel
  118, § 1, tweede lid, van het Wetboek van internationaal privaatrecht, behoort enig verzoek tot samenwerking
  met een rechtscollege van een andere staat waarbij een vordering tot opening van een insolventieprocedure is
@@ -49085,7 +49992,9 @@ Pagina 757 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 250, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.219.[1 § 1. Op verzoek van de buitenlandse rechter of de buitenlandse [2 vereffeningsdeskundige]2
+## Art. XX.219
+
+[1 § 1. Op verzoek van de buitenlandse rechter of de buitenlandse [2 vereffeningsdeskundige]2
  verschaft de [2 vereffeningsdeskundige]2 de informatie die voor de afwikkeling van de buitenlandse
  insolventieprocedure van belang kan zijn, en met name de stand van de indiening en de verificatie van de
  vorderingen en alle maatregelen tot herstel of herstructurering van de schuldenaar of tot beëindiging van de
@@ -49097,7 +50006,6 @@ Pagina 757 van 764 Copyright Belgisch S taatsblad 16-04-2026
     Deze samenwerking kan met name slaan op het onderzoeken of herstructurering van de schuldenaar mogelijk
  is en het coördineren, indien die herstructurering mogelijk is, van de opstelling en uitvoering van een
  herstructureringsplan;
-Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
    De [2 vereffeningsdeskundige]2 werkt ook samen met de buitenlandse [2 vereffeningsdeskundige]2 bij het
  beheer van de tegeldemaking of het gebruik van de goederen en de onderneming van de schuldenaar.
    § 3. Op grond van zwaarwegende redenen kan de [2 vereffeningsdeskundige]2 weigeren te voldoen aan een
@@ -49107,7 +50015,9 @@ Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 251, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.220.[1 § 1. Zolang nog niet onherroepelijk is beslist over het verzoek tot erkenning van de buitenlandse
+## Art. XX.220
+
+[1 § 1. Zolang nog niet onherroepelijk is beslist over het verzoek tot erkenning van de buitenlandse
  insolventieprocedure kan de rechtbank op verzoek van de buitenlandse [2 vereffeningsdeskundige]2, een
  schuldeiser of de schuldenaar maatregelen gelasten ter verzekering van de bewaring van de goederen van de
  schuldenaar en de bescherming van de rechten van de schuldeisers.
@@ -49126,7 +50036,9 @@ Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 252, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.221.[1 De schuldeiser die, nadat een procedure in het buitenland, is geopend, door ongeacht welk
+## Art. XX.221
+
+[1 De schuldeiser die, nadat een procedure in het buitenland, is geopend, door ongeacht welk
  middel, met name door uitvoerende maatregelen, geheel of gedeeltelijk wordt voldaan uit goederen van een
  schuldenaar die zich op het Belgisch grondgebied bevinden, moet hetgeen hij heeft verkregen van de
  buitenlandse [2 vereffeningsdeskundige]2 teruggeven, op voorwaarde dat de buitenlandse procedure in België
@@ -49138,7 +50050,9 @@ Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 253, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.222.[1 Degene die een verbintenis uitvoert ten voordele van de schuldenaar die is onderworpen aan een
+## Art. XX.222
+
+[1 Degene die een verbintenis uitvoert ten voordele van de schuldenaar die is onderworpen aan een
  geopende insolventieprocedure terwijl hij die verbintenis had moeten uitvoeren voor de [2
  vereffeningsdeskundige]2 van die procedure, wordt bevrijd indien hij van de opening van de insolventieprocedure
  niet op de hoogte was.]1
@@ -49146,7 +50060,9 @@ Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 254, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.223.[1 Indien bij het einde van een territoriale insolventieprocedure een overschot rest, draagt de in die
+## Art. XX.223
+
+[1 Indien bij het einde van een territoriale insolventieprocedure een overschot rest, draagt de in die
  procedure aangewezen [2 vereffeningsdeskundige]2 het saldo onverwijld over aan de [2
  vereffeningsdeskundige]2 van de hoofdprocedure.]1
   ----------
@@ -49157,13 +50073,16 @@ Pagina 758 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.224.[1 Deze titel is niet van toepassing op ondernemingen als bedoeld in [2 artikel I.1, eerste lid, 1°, a)]2,
+## Art. XX.224
+
+[1 Deze titel is niet van toepassing op ondernemingen als bedoeld in [2 artikel I.1, eerste lid, 1°, a)]2,
  van dit boek.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2018-04-15/14, art. 244, 059; Inwerkingtreding : 01-05-2018>
-Pagina 759 van 764 Copyright Belgisch S taatsblad 16-04-2026
-   Art. XX.225.[1 § 1. Indien bij faillissement van een onderneming, de schulden de baten overtreffen, kunnen de
+## Art. XX.225
+
+[1 § 1. Indien bij faillissement van een onderneming, de schulden de baten overtreffen, kunnen de
  huidige of gewezen bestuurders, zaakvoerders, dagelijks bestuurders, leden van een directieraad of van een
  raad van toezicht, alsmede alle andere personen die ten aanzien van de zaken van de onderneming werkelijke
  bestuursbevoegdheid hebben gehad, persoonlijk en al dan niet hoofdelijk aansprakelijk worden verklaard voor het
@@ -49221,7 +50140,9 @@ Pagina 759 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.227.[1 § 1. Indien bij faillissement van een onderneming, de schulden de baten overtreffen, kunnen de
+## Art. XX.227
+
+[1 § 1. Indien bij faillissement van een onderneming, de schulden de baten overtreffen, kunnen de
  huidige of gewezen bestuurders, zaakvoerders, dagelijks bestuurders, leden van een directieraad of van een
  raad van toezicht, alsmede alle andere personen die ten aanzien van de zaken van de onderneming werkelijke
  bestuursbevoegdheid hebben gehad, persoonlijk en al dan niet hoofdelijk aansprakelijk worden verklaard voor het
@@ -49230,7 +50151,6 @@ Pagina 759 van 764 Copyright Belgisch S taatsblad 16-04-2026
  weten dat er kennelijk geen redelijk vooruitzicht was om de onderneming of haar activiteiten te behouden en een
  faillissement te vermijden;
    b) de betrokken persoon op dat ogenblik één van de hierboven vermelde hoedanigheden had; en
-Pagina 760 van 764 Copyright Belgisch S taatsblad 16-04-2026
     c) de betrokken persoon vanaf het ogenblik bedoeld in a) niet heeft gehandeld zoals een normaal voorzichtig
  en zorgvuldig bestuurder in dezelfde omstandigheden zou hebben gehandeld.
     § 2. De vordering in dit artikel bedoeld behoort tot de uitsluitende bevoegdheid van de curator.
@@ -49265,7 +50185,9 @@ Pagina 760 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-   Art. XX.229.[1 § 1. De insolventierechtbank die het faillissement heeft uitgesproken of, wanneer het faillissement
+## Art. XX.229
+
+[1 § 1. De insolventierechtbank die het faillissement heeft uitgesproken of, wanneer het faillissement
  in het buitenland is uitgesproken de insolventierechtbank te Brussel, kan, indien blijkt dat een kennelijke grove
  fout van de gefailleerde heeft bijgedragen tot het faillissement, deze bij een met redenen omkleed vonnis verbod
  opleggen persoonlijk of door een tussenpersoon een onderneming uit te baten.
@@ -49296,12 +50218,13 @@ Pagina 760 van 764 Copyright Belgisch S taatsblad 16-04-2026
  opschorten voor een zelfde duur.]1 [3 De rechtbank bepaalt de voorwaarden waaraan het uitstel of de
  opschorting van de uitspraak onderworpen zijn.]3
    ----------
-Pagina 761 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
   (3)<W 2023-06-07/07, art. 258, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.230.[1 [2 De verbodsbepaling bedoeld in dit hoofdstuk kan opgelegd worden door de
+## Art. XX.230
+
+[1 [2 De verbodsbepaling bedoeld in dit hoofdstuk kan opgelegd worden door de
  insolventierechtbank op vordering van het openbaar ministerie, van de curator, of van een schuldeiser die niet
  werd betaald in het kader van het faillissement.]2
    [2 Onverminderd artikel XX.171, worden de gefailleerde of een van de personen krachtens artikel XX.229
@@ -49313,7 +50236,9 @@ Pagina 761 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2023-06-07/07, art. 259, 122; Inwerkingtreding : 01-09-2023>
 
-   Art. XX.231.[1 Op de bepaalde dag, of de dag waarop de zaak is verdaagd, hoort de rechtbank de gefailleerde,
+## Art. XX.231
+
+[1 Op de bepaalde dag, of de dag waarop de zaak is verdaagd, hoort de rechtbank de gefailleerde,
  in voorkomend geval bijgestaan door zijn raadsman, in raadkamer. Zij kan eveneens enig ander persoon horen
  indien zij zulks dienstig acht, onder meer de rechter-commissaris wanneer het faillissement in België is
  uitgesproken.
@@ -49325,7 +50250,9 @@ Pagina 761 van 764 Copyright Belgisch S taatsblad 16-04-2026
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
    (2)<W 2018-04-15/14, art. 247, 059; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.232.[1 De gefailleerde of een van de personen krachtens artikel XX.229 [3 gelijkgesteld met de
+## Art. XX.232
+
+[1 De gefailleerde of een van de personen krachtens artikel XX.229 [3 gelijkgesteld met de
  gefailleerde]3 en het openbaar ministerie kunnen hoger beroep instellen. De termijn van hoger beroep loopt vanaf
  de kennisgeving.
    Van het verzoek om te verschijnen wordt aan de gefailleerde kennis gegeven door de griffie van het hof van
@@ -49362,10 +50289,11 @@ Pagina 761 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.235.[2 § 1.]2 [1 De arresten en vonnissen waarbij het verbod wordt opgelegd, houden op gevolg te
+## Art. XX.235
+
+[2 § 1.]2 [1 De arresten en vonnissen waarbij het verbod wordt opgelegd, houden op gevolg te
  hebben:
    - indien het vonnis van faillietverklaring wordt ingetrokken;
-Pagina 762 van 764 Copyright Belgisch S taatsblad 16-04-2026
     - indien de gefailleerde rehabilitatie verkrijgt.]1
    [2 § 2. Het openbaar ministerie kan vorderen bij de insolventierechtbank dat als de gefailleerde aan de
  voorwaarden niet heeft voldaan of aan een nieuwe insolventie procedure is onderworpen, een einde zou worden
@@ -49387,7 +50315,9 @@ Pagina 762 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.237.[1 De gefailleerde die geen kwijtschelding heeft verkregen en die alle nog door hem verschuldigde
+## Art. XX.237
+
+[1 De gefailleerde die geen kwijtschelding heeft verkregen en die alle nog door hem verschuldigde
  bedragen in hoofdsom, interest en kosten, geheel heeft voldaan, kan rehabilitatie verkrijgen.
   [2 ...]2
    De gefailleerde kan na zijn overlijden worden gerehabiliteerd.]1
@@ -49395,7 +50325,9 @@ Pagina 762 van 764 Copyright Belgisch S taatsblad 16-04-2026
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
   (2)<W 2023-06-07/07, art. 262, 122; Inwerkingtreding : 01-09-2023>
 
-  Art. XX.238.[1 Elk verzoek tot rehabilitatie wordt gericht aan de [2 ondernemingsrechtbank]2 van het
+## Art. XX.238
+
+[1 Elk verzoek tot rehabilitatie wordt gericht aan de [2 ondernemingsrechtbank]2 van het
  rechtsgebied waarbinnen de gefailleerde zijn woonplaats heeft. De verzoeker voegt bij zijn verzoekschrift de
  kwijtingen en andere bewijsstukken.
    Het wordt neergelegd in het register.
@@ -49421,7 +50353,9 @@ Pagina 762 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.241.[1 Het vonnis waarbij de rehabilitatie wordt toegestaan wordt bekend gemaakt in het Belgisch
+## Art. XX.241
+
+[1 Het vonnis waarbij de rehabilitatie wordt toegestaan wordt bekend gemaakt in het Belgisch
  Staatsblad [2 door toedoen van de griffier]2.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
@@ -49431,8 +50365,9 @@ Pagina 762 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.242.[1 Het vonnis tot intrekking van het faillissement wordt bij uittreksel bekendgemaakt [2 in het
-Pagina 763 van 764 Copyright Belgisch S taatsblad 16-04-2026
+## Art. XX.242
+
+[1 Het vonnis tot intrekking van het faillissement wordt bij uittreksel bekendgemaakt [2 in het
     Het uittreksel vermeldt:
     1° in het geval van een natuurlijke persoon, de naam, de voornamen, de plaats en datum van geboorte, het
  adres alsmede de plaats van hoofdvestiging en het ondernemingsnummer; in het geval van een rechtspersoon,
@@ -49449,7 +50384,9 @@ Pagina 763 van 764 Copyright Belgisch S taatsblad 16-04-2026
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Art. XX.243.[1 Twee jaar na de inwerkingtreding van [2 de wet van 21 maart 2021 tot wijziging van boek XX van
+## Art. XX.243
+
+[1 Twee jaar na de inwerkingtreding van [2 de wet van 21 maart 2021 tot wijziging van boek XX van
  het Wetboek van economisch recht en het Wetboek van de inkomstenbelastingen 1992]2 evalueert de minister
  die bevoegd is voor Justitie of de in dit boek beoogde procedures passend zijn voor de verenigingen [2 en
  stichtingen als bedoeld in het Wetboek van vennootschappen en verenigingen]2. Die studie stelt, zo nodig,
@@ -49466,4 +50403,3 @@ Pagina 763 van 764 Copyright Belgisch S taatsblad 16-04-2026
 
   ((NOTA : Inwerkingtreding vastgesteld op 12-12-2013 door AR 2013-12-08/01, art. 1)
 
-Pagina 764 van 764 Copyright Belgisch S taatsblad 16-04-2026

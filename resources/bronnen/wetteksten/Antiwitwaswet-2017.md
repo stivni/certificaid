@@ -38,7 +38,9 @@ Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvo
  organisatie, of door een terrorist die alleen handelt, zelfs zonder enige band met een bepaalde terroristische
  daad.
 
-   Art. 4.Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvoering ervan, wordt
+## Art. 4
+
+Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvoering ervan, wordt
  verstaan onder :
    1° "WG/FT" : het witwassen van geld en de financiering van terrorisme;
    2° "WG/FTP" : het witwassen van geld, de financiering van terrorisme en de financiering van de proliferatie van
@@ -74,7 +76,6 @@ Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvo
  juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de
  interne markt en tot intrekking van richtlijn 1999/93/EG;]1
    [5 5/4° "Verordening 2016/794": Verordening (EU) 2016/794 van het Europees Parlement en de Raad van 11
-Pagina 7 van 76 Copyright Belgisch S taatsblad 17-01-2026
  mei 2016 betreffende het Agentschap van de Europese Unie voor samenwerking op het gebied van
  rechtshandhaving (Europol) en tot vervanging en intrekking van de Besluiten 2009/371/JBZ, 2009/934/JBZ,
  2009/935/JBZ, 2009/936/JBZ en 2009/968/JBZ van de Raad;]5
@@ -142,7 +143,6 @@ Pagina 7 van 76 Copyright Belgisch S taatsblad 17-01-2026
  overeenkomstig artikel 32 van Richtlijn 2015/849 of een gelijkwaardige financiële inlichtingeneenheid opgericht
  door een derde land, hierna "FIE"genoemd;
    16° "CFI" : de Cel voor financiële informatieverwerking bedoeld in artikel 76;
-Pagina 8 van 76 Copyright Belgisch S taatsblad 17-01-2026
    17° "toezichtautoriteiten" : de autoriteiten bedoeld in artikel 85;
    [2 17° /1 "bevoegde autoriteiten": een overheidsorgaan met als wettelijke opdracht de strijd tegen het
  witwassen van geld en de financiering van het terrorisme of de daarmee verband houdende basisdelicten, de
@@ -210,7 +210,6 @@ Pagina 8 van 76 Copyright Belgisch S taatsblad 17-01-2026
  door de verzekeringnemer wordt gedragen;
    26° "trust" : een rechtsverhouding die door een rechtshandeling van de oprichter in het leven wordt geroepen
  ("express trust"), als bedoeld in artikel 122 van de wet van 16 juli 2004 houdende het Wetboek van internationaal
-Pagina 9 van 76 Copyright Belgisch S taatsblad 17-01-2026
  privaatrecht;
    27° "uiteindelijke begunstigde" : de natuurlijke perso(o)n(en) die de uiteindelijke eigenaar is (zijn) van of
  zeggenschap heeft (hebben) over de cliënt, de lasthebber van de cliënt of de begunstigde van
@@ -279,7 +278,6 @@ Pagina 9 van 76 Copyright Belgisch S taatsblad 17-01-2026
  uitzonderlijke omstandigheden;
    e) leden van rekenkamers of van raden van bestuur van centrale banken;
    f) ambassadeurs, consuls, zaakgelastigden en hoge officieren van de strijdkrachten;
-Pagina 10 van 76 Copyright Belgisch S taatsblad 17-01-2026
    g) leden van het leidinggevend, toezichthoudend of bestuurslichaam van overheidsbedrijven;
    h) bestuurders, plaatsvervangend bestuurders en leden van de raad van bestuur of bekleders van een
  gelijkwaardige functie bij een internationale organisatie;
@@ -346,7 +344,6 @@ Pagina 10 van 76 Copyright Belgisch S taatsblad 17-01-2026
  recht van een Staat waar ze geen vestiging, d.w.z. een bestuur en beheer van betekenis, heeft en die geen deel
  uitmaakt van een onder toezicht staande financiële groep;
    38° "managementverantwoordelijkheden" : de verantwoordelijkheden toegekend aan personen die
-Pagina 11 van 76 Copyright Belgisch S taatsblad 17-01-2026
  directiefuncties uitoefenen in een onderworpen entiteit door of krachtens een wettelijke bepaling, de statuten, of
  een toekenning van bevoegdheden door de betrokken entiteit;
    39° "managementfuncties" : de functies van lid van een wettelijk bestuurs- of beheersorgaan van de betrokken
@@ -414,8 +411,9 @@ Pagina 11 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (6)<W 2022-07-20/40, art. 378, 017; Inwerkingtreding : 06-10-2022>
    (7)<W 2025-12-11/13, art. 83, 023; Inwerkingtreding : 03-01-2026>
    (8)<W 2025-12-11/13, art. 157, 023; Inwerkingtreding : 03-01-2026>
-Pagina 12 van 76 Copyright Belgisch S taatsblad 17-01-2026
-   Art. 5.§ 1. De bepalingen van deze wet zijn van toepassing op de volgende onderworpen entiteiten, handelend in
+## Art. 5
+
+§ 1. De bepalingen van deze wet zijn van toepassing op de volgende onderworpen entiteiten, handelend in
  het kader van hun [6 gereglementeerde]6 beroepsactiviteiten :
    1° de Nationale Bank van België;
    2° [2 ...]2;
@@ -480,7 +478,6 @@ Pagina 12 van 76 Copyright Belgisch S taatsblad 17-01-2026
  en/of -activiteiten in de zin van artikel 2, 1° van de wet van 25 oktober 2016 betreffende de toegang tot het
  beleggingsdienstenbedrijf en betreffende het statuut van en het toezicht op de vennootschappen voor
  vermogensbeheer en beleggingsadvies, alsmede nevendiensten in de zin van artikel 2, 2° van dezelfde wet, te
-Pagina 13 van 76 Copyright Belgisch S taatsblad 17-01-2026
  verrichten;]11
    11° a) de beleggingsondernemingen naar Belgisch recht met een vergunning in de hoedanigheid van
  vennootschappen voor vermogensbeheer en beleggingsadvies in de zin van artikel 6, § 1, 2°, van de wet van 25
@@ -548,7 +545,6 @@ Pagina 13 van 76 Copyright Belgisch S taatsblad 17-01-2026
  VII, titel 4, hoofdstukken 1 en 2, van hetzelfde Wetboek, evenals de in België gevestigde bijkantoren van
  personen die gelijkwaardige werkzaamheden uitoefenen die ressorteren onder het recht van een andere lidstaat;
 
-Pagina 14 van 76 Copyright Belgisch S taatsblad 17-01-2026
    21° de personen bedoeld in artikel 2, § 1, van het koninklijk besluit nr. 55 van 10 november 1967 tot regeling
  van het juridisch statuut der ondernemingen gespecialiseerd in financieringshuur, evenals de in België gevestigde
  bijkantoren van personen die gelijkwaardige werkzaamheden uitoefenen die ressorteren onder het recht van een
@@ -614,7 +610,6 @@ Pagina 14 van 76 Copyright Belgisch S taatsblad 17-01-2026
  van douane-entrepots of in vrijhavens gelegen entrepots, die specifiek een opslagdienst aanbieden voor
  kunstwerken of roerende goederen van meer dan vijftig jaar oud en alleen voor dergelijke goederen en werken
  en die overeenkomstig het zevende lid van deze paragraaf ingeschreven zijn bij de Federale Overheidsdienst
-Pagina 15 van 76 Copyright Belgisch S taatsblad 17-01-2026
  Economie, KMO, Middenstand en Energie;]6
    [5 31° /3 de professionele topvoetbalclubs;]5
    [7 31° /4 de sportmakelaars in de voetbalsector;]7
@@ -682,7 +677,6 @@ Pagina 15 van 76 Copyright Belgisch S taatsblad 17-01-2026
    2° de financiële activiteit is beperkt wat de verrichtingen betreft;
    3° de financiële activiteit vormt niet de hoofdactiviteit van die personen en de omzet uit die activiteit bedraagt
 
-Pagina 16 van 76 Copyright Belgisch S taatsblad 17-01-2026
  niet meer dan vijf procent van de totale omzet van de betrokken persoon;
    4° de financiële activiteit heeft een bijkomstig karakter en houdt rechtstreeks verband met de hoofdactiviteit
  van die personen;
@@ -730,7 +724,9 @@ Pagina 16 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (12)<W 2024-02-09/19, art. 164, 022; Inwerkingtreding : 31-03-2024>
    (13)<W 2025-12-11/13, art. 84, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 6.De beperkingen op het gebruik van contanten bedoeld in de artikelen 66, § 2, en 67, zijn ook van
+## Art. 6
+
+De beperkingen op het gebruik van contanten bedoeld in de artikelen 66, § 2, en 67, zijn ook van
  toepassing op alle natuurlijke of rechtspersonen die betalingen of [1 schenkingen]1 doen als bedoeld in deze
  bepalingen.
   ----------
@@ -751,9 +747,10 @@ Behoudens andersluidende bepalingen gaan de bevoegde autoriteiten en de onderwor
 
   HOOFDSTUK 1. - Organisatie en interne controle binnen de onderworpen entiteiten
 
-  Art. 8.§ 1. De onderworpen entiteiten ontwikkelen en passen doeltreffende gedragslijnen, procedures en interne
+## Art. 8
+
+§ 1. De onderworpen entiteiten ontwikkelen en passen doeltreffende gedragslijnen, procedures en interne
  controlemaatregelen toe die evenredig zijn met hun aard en omvang :
-Pagina 17 van 76 Copyright Belgisch S taatsblad 17-01-2026
    1° om te voldoen aan de bepalingen van deze wet, van de besluiten en reglementen genomen ter uitvoering
  ervan en van de uitvoeringsmaatregelen van Richtlijn 2015/849, en om de op het niveau van de Europese Unie,
  België en de onderworpen entiteit zelf geïdentificeerde desbetreffende risico's te beperken en effectief te
@@ -785,7 +782,9 @@ Pagina 17 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2025-12-11/13, art. 158, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 9.§ 1. De onderworpen entiteiten die rechtspersonen zijn, wijzen, onder de leden van hun wettelijk
+## Art. 9
+
+§ 1. De onderworpen entiteiten die rechtspersonen zijn, wijzen, onder de leden van hun wettelijk
  bestuursorgaan of, in voorkomend geval, van hun effectieve leiding, de verantwoordelijke persoon aan, op het
  hoogste niveau, om te waken over de toepassing en de naleving van de bepalingen van deze wet en de besluiten
  en reglementen genomen ter uitvoering ervan en, in voorkomend geval, van de bestuursrechtelijke beslissingen
@@ -821,8 +820,9 @@ Pagina 17 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 34, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 10.[1 De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn
-Pagina 18 van 76 Copyright Belgisch S taatsblad 17-01-2026
+## Art. 10
+
+[1 De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn
  met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op
  vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek
  bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9.]1
@@ -859,7 +859,9 @@ Indien een natuurlijke persoon die onder een van de in artikel 5, § 1, 23° tot
 
   HOOFDSTUK 2. - Organisatie en interne controle binnen de groepen
 
-   Art. 13.§ 1. De onderworpen entiteiten die deel uitmaken van een groep moeten de op groepsniveau geldende
+## Art. 13
+
+§ 1. De onderworpen entiteiten die deel uitmaken van een groep moeten de op groepsniveau geldende
  gedragslijnen en procedures ter voorkoming van WG/FT toepassen, daaronder met name inbegrepen de
  gedragslijnen inzake gegevensbescherming en de gedragslijnen en procedures voor het delen van informatie
  binnen de groep ten behoeve van de strijd tegen WG/FT.
@@ -897,10 +899,11 @@ De onderworpen entiteiten mogen geen bijkantoor of vertegenwoordigingskantoor op
  of gebied dat door de Koning is aangewezen met toepassing van artikel 54.
   Zij mogen noch rechtstreeks noch onrechtstreeks een dochtervennootschap verwerven of oprichten die
  werkzaam is als onderworpen entiteit die gedomicilieerd, geregistreerd of gevestigd is in het bovenbedoelde land
-Pagina 19 van 76 Copyright Belgisch S taatsblad 17-01-2026
  of gebied.
 
-  Art. 15.De onderworpen entiteiten bedoeld in artikel 5, § 1, [1 4°, c), 6°, d), 7°, e), en 10°, c),]1 wijzen onder de
+## Art. 15
+
+De onderworpen entiteiten bedoeld in artikel 5, § 1, [1 4°, c), 6°, d), 7°, e), en 10°, c),]1 wijzen onder de
  voorwaarden bepaald door de Nationale Bank van België, bij wijze van reglement vastgesteld overeenkomstig de
  uitvoeringsmaatregelen van Richtlijn 2015/849 bedoeld in artikel 45, lid 10, van de voornoemde richtlijn, een in
  België gevestigd centraal contactpunt aan om namens de aanwijzende onderworpen entiteit toe te zien op de
@@ -960,7 +963,9 @@ De toezichtautoriteiten die bevoegd zijn op grond van artikel 85 kunnen beslisse
 
   Afdeling 1. - Algemene bepalingen
 
-  Art. 19.§ 1. De onderworpen entiteiten nemen ten aanzien van hun cliënten waakzaamheidsmaatregelen die
+## Art. 19
+
+§ 1. De onderworpen entiteiten nemen ten aanzien van hun cliënten waakzaamheidsmaatregelen die
  bestaan in het volgende :
   1° het identificeren en verifiëren van de identiteit van de personen bedoeld in afdeling 2, overeenkomstig de
  bepalingen van voornoemde afdeling;
@@ -972,7 +977,6 @@ De toezichtautoriteiten die bevoegd zijn op grond van artikel 85 kunnen beslisse
  uitgevoerd, overeenkomstig de bepalingen van afdeling 4.]1
   § 2. De in paragraaf 1 bedoelde waakzaamheidsmaatregelen zijn gebaseerd op een individuele beoordeling van
  de WG/FT-risico's, rekening houdend met de bijzondere kenmerken van de cliënt en de zakelijke relatie of de
-Pagina 20 van 76 Copyright Belgisch S taatsblad 17-01-2026
  betrokken verrichting. Deze individuele risicobeoordeling houdt bovendien rekening met de algemene
  risicobeoordeling bedoeld in artikel 16, eerste lid, evenals met de variabelen en factoren bedoeld in het tweede lid
  van hetzelfde artikel waarmee deze laatste met name rekening houdt.
@@ -985,7 +989,9 @@ Pagina 20 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 37, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 20.[1 De in artikel 5, § 1, 3° tot en met 22° [2 en 31° /6]2, bedoelde onderworpen entiteiten mogen geen
+## Art. 20
+
+[1 De in artikel 5, § 1, 3° tot en met 22° [2 en 31° /6]2, bedoelde onderworpen entiteiten mogen geen
  anonieme rekeningen of kluizen of rekeningen of kluizen onder valse namen of pseudoniemen openen. Ze
  nemen alle passende maatregelen om de naleving van dit verbod te verzekeren.]1
   ----------
@@ -996,7 +1002,9 @@ Pagina 20 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   Onderafdeling 1. - Te identificeren personen
 
-   Art. 21.§ 1. De onderworpen entiteiten identificeren en verifiëren de identiteit van de cliënten :
+## Art. 21
+
+§ 1. De onderworpen entiteiten identificeren en verifiëren de identiteit van de cliënten :
    1° met wie ze zakelijke relaties aangaan;
    2° die occasioneel, buiten een zakelijke relatie bedoeld in 1° :
    a) één of meerdere verrichtingen uitvoeren waartussen een verband lijkt te bestaan, voor een bedrag van 10
@@ -1039,13 +1047,16 @@ Pagina 20 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 39, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 22.[1 In voorkomend geval identificeren de onderworpen entiteiten de lasthebber(s) van de in artikel 21
-Pagina 21 van 76 Copyright Belgisch S taatsblad 17-01-2026
+## Art. 22
+
+[1 In voorkomend geval identificeren de onderworpen entiteiten de lasthebber(s) van de in artikel 21
  bedoelde cliënten. Zij verifiëren hun identiteit en hun bevoegdheid om op te treden in naam van die cliënten.]1
   ----------
   (1)<W 2020-07-20/12, art. 40, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 23.§ 1. In voorkomend geval identificeren de onderworpen entiteiten de uiteindelijke begunstigde(n) van de
+## Art. 23
+
+§ 1. In voorkomend geval identificeren de onderworpen entiteiten de uiteindelijke begunstigde(n) van de
  cliënten bedoeld in artikel 21, en de uiteindelijke begunstigde(n) van de lasthebbers bedoeld in artikel 22, en
  nemen zij passende maatregelen om hun identiteit te verifiëren.
    De identificatie van de uiteindelijke begunstigden overeenkomstig het eerste lid omvat het nemen van redelijke
@@ -1074,7 +1085,9 @@ Onverminderd de artikelen 21 tot en met 23, identificeren de onderworpen entitei
  begunstigde(n) van de begunstigden van de betrokken verzekeringsovereenkomsten, en verifiëren zij hun
  identiteit. In dat geval zijn de bepalingen van artikel 23 van toepassing.
 
-   Art. 25.De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van een passende
+## Art. 25
+
+De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van een passende
  beoordeling van het WG/FT-risico overeenkomstig artikel 16, die een laag risico aantoont, afwijken van de
  artikelen 21 tot en met 23 ten aanzien van cliënten in het kader van de uitgifte van elektronisch geld, indien de
  volgende risicobeperkende voorwaarden vervuld zijn :
@@ -1112,7 +1125,6 @@ Onverminderd de artikelen 21 tot en met 23, identificeren de onderworpen entitei
    § 2. Onverminderd de in paragraaf 3 bedoelde omstandigheden die een laag risico vertegenwoordigen of de in
  paragraaf 4 bedoelde omstandigheden die een hoog risico vertegenwoordigen, is de relevante informatie bedoeld
  in paragraaf 1 :
-Pagina 22 van 76 Copyright Belgisch S taatsblad 17-01-2026
    1° wanneer de identificatieverplichting betrekking heeft op een natuurlijke persoon, zijn naam, voornaam,
  geboortedatum en -plaats en, in de mate van het mogelijke, zijn adres;
    2° wanneer de identificatieverplichting betrekking heeft op een rechtspersoon, zijn maatschappelijke naam, zijn
@@ -1151,7 +1163,9 @@ Pagina 22 van 76 Copyright Belgisch S taatsblad 17-01-2026
  informatie haar in staat stelt om de betrokken persoon op onbetwistbare wijze te onderscheiden van elke andere
  persoon. Indien nodig wint ze daartoe bijkomende informatie in.
 
-  Art. 27.§ 1. [1 Om te voldoen aan hun verplichting tot verificatie van de identiteit van de personen bedoeld in de
+## Art. 27
+
+§ 1. [1 Om te voldoen aan hun verplichting tot verificatie van de identiteit van de personen bedoeld in de
  artikelen 21 tot en met 24, toetsen de onderworpen entiteiten, om voldoende zekerheid te verkrijgen dat ze de
  betrokken personen kennen, alle of een deel van de identificatiegegevens die verzameld zijn op grond van artikel
  26 aan :
@@ -1183,7 +1197,6 @@ Pagina 22 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
 § 1. Aan de door de Koning aangeduide beroepsorganisaties wordt toestemming verleend om op
  verzoek van een onderworpen entiteit bedoeld in artikel 5, § 1, en dit uitsluitend voor de verificatie door een
-Pagina 23 van 76 Copyright Belgisch S taatsblad 17-01-2026
  dergelijke entiteit, van de identiteit van de cliënten en hun lasthebbers, die natuurlijke personen zijn en die niet
  fysiek aanwezig zijn bij hun identificatie, evenals voor de verificatie van de identiteit van de uiteindelijke
  begunstigden van de cliënten en voor de bijwerking van de identificatiegegevens van de cliënten, lasthebbers en
@@ -1215,7 +1228,9 @@ Pagina 23 van 76 Copyright Belgisch S taatsblad 17-01-2026
  van hun duurzaamheid, hun governance en organisatie of in voorkomend geval van die van de instelling die ze
  oprichten.
 
-   Art. 29.[1 Bij het aangaan van een nieuwe zakelijke relatie met juridische entiteiten bedoeld in artikel 74, § 1,
+## Art. 29
+
+[1 Bij het aangaan van een nieuwe zakelijke relatie met juridische entiteiten bedoeld in artikel 74, § 1,
  verzamelen de onderworpen entiteiten een bewijs van de registratie van de in artikel 74, § 1, bedoelde informatie
  of een uittreksel uit dat register.]1
     De onderworpen entiteiten die toegang hebben tot het in artikel 73 bedoeld centraal register van de uiteindelijke
@@ -1256,7 +1271,6 @@ In afwijking van artikel 30, eerste en tweede lid, mogen de onderworpen entiteit
  37, in bijzondere omstandigheden die limitatief zijn opgesomd in hun interne procedures en voor zover het
  noodzakelijk is dat de uitoefening van de activiteiten niet wordt onderbroken, de identiteit van de personen
  bedoeld in de artikelen 21 tot en met 24 tijdens de zakelijke relatie verifiëren, indien aan de volgende voorwaarden
-Pagina 24 van 76 Copyright Belgisch S taatsblad 17-01-2026
  is voldaan :
    1° uit de overeenkomstig artikel 19, § 2, eerste lid, uitgevoerde individuele risicobeoordeling blijkt dat de zakelijke
  relatie een laag WG/FT-risico vertegenwoordigt;
@@ -1278,7 +1292,9 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
 
   Onderafdeling 4. - Niet-nakoming van de verplichting tot identificatie en identiteitsverificatie
 
-   Art. 33.§ 1. Wanneer de onderworpen entiteiten niet kunnen voldoen aan hun verplichting tot identificatie en
+## Art. 33
+
+§ 1. Wanneer de onderworpen entiteiten niet kunnen voldoen aan hun verplichting tot identificatie en
  identiteitsverificatie van een cliënt, zijn lasthebbers of zijn uiteindelijke begunstigden, binnen de termijnen bedoeld
  in de artikelen [1 30 en 31]1, mogen zij met deze cliënt geen zakelijke relatie aangaan of verrichtingen voor hem
  uitvoeren. Ze beëindigen bovendien de zakelijke relatie die reeds werd aangegaan.
@@ -1301,7 +1317,9 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
   Afdeling 3. - Verplichting tot identificatie van de kenmerken van de cliënt en van het doel en de aard van de
  zakelijke relatie of van de occasionele verrichting
 
-   Art. 34.§ 1. De onderworpen entiteiten nemen passende maatregelen om de kenmerken van [1 de
+## Art. 34
+
+§ 1. De onderworpen entiteiten nemen passende maatregelen om de kenmerken van [1 de
  overeenkomstig artikel 21, § 1, geïdentificeerde cliënten]1 en het doel en de aard van de zakelijke relatie of de
  voorgenomen occasionele verrichting te beoordelen.
    Ze vergewissen zich er met name van dat ze beschikken over de informatie die nodig is voor de
@@ -1326,7 +1344,6 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
  redenen waarom niet kan worden voldaan aan de in paragraaf 1 bedoelde verplichting een vermoeden van
  WG/FT doen rijzen en of er reden is tot melding aan de CFI.
    § 4. Paragraaf 3 is niet van toepassing op de onderworpen entiteiten bedoeld in artikel 5, § 1, 23° tot en met
-Pagina 25 van 76 Copyright Belgisch S taatsblad 17-01-2026
  28°, onder de strikte voorwaarde dat zij de rechtspositie van hun cliënt bepalen of deze cliënt verdedigen of
  vertegenwoordigen in of in verband met een rechtsgeding, met inbegrip van advies over het instellen of
  vermijden van een dergelijk rechtsgeding.
@@ -1338,7 +1355,9 @@ Pagina 25 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 47, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 35.§ 1. De onderworpen entiteiten leggen ten aanzien [1 van elke verrichting die occasioneel of gedurende
+## Art. 35
+
+§ 1. De onderworpen entiteiten leggen ten aanzien [1 van elke verrichting die occasioneel of gedurende
  de zakelijke relatie wordt uitgevoerd door hun overeenkomstig artikel 21, § 1, geïdentificeerde cliënten een
  waakzaamheid aan de dag die evenredig is]1 met het overeenkomstig artikel 19, § 2, eerste lid, geïdentificeerd
  risiconiveau, wat met name het volgende inhoudt :
@@ -1383,7 +1402,9 @@ Pagina 25 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 48, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 36.Elke onderworpen entiteit zorgt ervoor dat haar personeelsleden, alsook haar agenten en distributeurs
+## Art. 36
+
+Elke onderworpen entiteit zorgt ervoor dat haar personeelsleden, alsook haar agenten en distributeurs
  die een verrichting die ze als atypisch beschouwen in de zin van artikel 35, § 1, 1°, of het feit dat ze niet kunnen
  voldoen aan de waakzaamheidsverplichtingen bedoeld in de artikelen 33, § 1, 34, § 3, en 35, § 2, intern melden,
  worden beschermd tegen elke bedreiging [1 , elke vergeldingsmaatregel]1 of daad van agressie, en in het
@@ -1393,8 +1414,9 @@ Pagina 25 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 2. - Bijzondere gevallen van verhoogde waakzaamheid
 
-  Art. 37.§ 1. In de gevallen bedoeld in artikel 31 maken de maatregelen genomen voor de verificatie van de
-Pagina 26 van 76 Copyright Belgisch S taatsblad 17-01-2026
+## Art. 37
+
+§ 1. In de gevallen bedoeld in artikel 31 maken de maatregelen genomen voor de verificatie van de
  identiteit van de personen bedoeld in de artikelen 21 tot en met 24, en de in het kader van de zakelijke relatie
  uitgevoerde verrichtingen het voorwerp uit van een verhoogde waakzaamheid totdat de identiteit van alle
  betrokken personen werd geverifieerd. Voor elke anomalie, met inbegrip van de onmogelijkheid om de identiteit
@@ -1406,7 +1428,9 @@ Pagina 26 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 50, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 38.[1 § 1. De onderworpen entiteiten passen, in het kader van hun zakelijke relaties of occasionele
+## Art. 38
+
+[1 § 1. De onderworpen entiteiten passen, in het kader van hun zakelijke relaties of occasionele
  verrichtingen met natuurlijke of rechtspersonen of met juridische constructies, zoals trusts of fiducieën,
     die met een derde land met een hoog risico verband houden, de volgende maatregelen van verhoogde
  waakzaamheid toe ten aanzien van hun cliënten :
@@ -1456,14 +1480,15 @@ Pagina 26 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (1)<W 2020-07-20/12, art. 51, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2025-12-11/13, art. 86, 023; Inwerkingtreding : 03-01-2026>
 
-   Art. 39.De onderworpen entiteiten passen maatregelen van verhoogde waakzaamheid toe, inzonderheid
+## Art. 39
+
+De onderworpen entiteiten passen maatregelen van verhoogde waakzaamheid toe, inzonderheid
  rekening houdend met het risico op het witwassen van geld afkomstig uit al dan niet georganiseerde ernstige
  fiscale fraude als bedoeld in artikel 4, 23°, k) :
    1° ten aanzien van de verrichtingen, met inbegrip van het in ontvangst nemen van geldmiddelen, die verband
  houden met een Staat zonder of met een lage belasting die opgenomen is in de lijst die bij koninklijk besluit is
  vastgesteld overeenkomstig [1 artikel 307, § 1/2, derde lid]1, van het Wetboek van Inkomstenbelastingen 1992;
  en
-Pagina 27 van 76 Copyright Belgisch S taatsblad 17-01-2026
   2° ten aanzien van de zakelijke relaties in het kader waarvan er verrichtingen worden uitgevoerd, daaronder
  begrepen het in ontvangst nemen van geldmiddelen, die verband houden met een Staat bedoeld in punt 1°, of
  waarbij natuurlijke of rechtspersonen of juridische constructies, zoals trusts of fiducieën, die gevestigd zijn in een
@@ -1471,7 +1496,9 @@ Pagina 27 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 52, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 40.§ 1. De onderworpen entiteiten bedoeld in [2 artikel 5, § 1, 1°, 4° tot en met 7°, 9° tot en met 14° /1 en
+## Art. 40
+
+§ 1. De onderworpen entiteiten bedoeld in [2 artikel 5, § 1, 1°, 4° tot en met 7°, 9° tot en met 14° /1 en
  16° tot en met 22°]2, [1 die met een respondentinstelling uit een derde land grensoverschrijdende
  correspondentrelaties aangaan waarbij betalingen worden verricht]1, nemen naast de
  waakzaamheidsmaatregelen ten aanzien van de cliënten, als bedoeld in hoofdstuk 1, de volgende maatregelen :
@@ -1518,7 +1545,9 @@ Pagina 27 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (1)<W 2020-07-20/12, art. 53, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2025-12-11/13, art. 87, 023; Inwerkingtreding : 03-01-2026>
 
-   Art. 41.§ 1.[1 Onverminderd artikel 8 leggen de onderworpen entiteiten passende risicobeheersystemen,
+## Art. 41
+
+§ 1.[1 Onverminderd artikel 8 leggen de onderworpen entiteiten passende risicobeheersystemen,
  inclusief passende, op het risico afgestemde procedures, ten uitvoer om te bepalen of de cliënt waarmee ze een
  zakelijke relatie aangaan of hebben of waarvoor ze een occasionele verrichting uitvoeren, een lasthebber van de
  cliënt of een uiteindelijke begunstigde van de cliënt een politiek prominente persoon, een familielid van een politiek
@@ -1531,7 +1560,6 @@ Pagina 27 van 76 Copyright Belgisch S taatsblad 17-01-2026
  van verhoogde waakzaamheid :
     1° toestemming verkrijgen van het hoger leidinggevend personeel om zakelijke relaties met dergelijke personen
  aan te gaan of voort te zetten of om een occasionele verrichting voor dergelijke personen uit te voeren;
-Pagina 28 van 76 Copyright Belgisch S taatsblad 17-01-2026
    2° passende maatregelen nemen om de oorsprong vast te stellen van het vermogen en van de geldmiddelen
  die bij zakelijke relaties of verrichtingen met dergelijke personen worden gebruikt;
    3° een verscherpt toezicht uitoefenen op de zakelijke relatie.]1
@@ -1604,7 +1632,6 @@ Onverminderd de gevallen waarin een beroep wordt gedaan op lasthebbers of ondera
    1° een onderworpen entiteit als bedoeld in artikel 5;
    2° een onderworpen entiteit als bedoeld in artikel 2 van Richtlijn 2015/849, die ressorteert onder een andere
  lidstaat;
-Pagina 29 van 76 Copyright Belgisch S taatsblad 17-01-2026
    3° een onderworpen entiteit als bedoeld in artikel 2 van Richtlijn 2015/849, die ressorteert onder een derde land
  en :
    a) die onderworpen is aan de wettelijke of reglementaire verplichtingen op het stuk van waakzaamheid ten
@@ -1627,7 +1654,9 @@ Pagina 29 van 76 Copyright Belgisch S taatsblad 17-01-2026
  door de toezichtautoriteit die bevoegd is op grond van artikel 85, of de toezichtautoriteit van de lidstaat of het
  derde land waar de moederonderneming van de groep is gevestigd.
 
-   Art. 44.§ 1. De onderworpen entiteiten die een beroep doen op een derde zaakaanbrenger, eisen van hem dat
+## Art. 44
+
+§ 1. De onderworpen entiteiten die een beroep doen op een derde zaakaanbrenger, eisen van hem dat
  hij onmiddellijk de informatie doorgeeft betreffende de identiteit van de cliënt en, in voorkomend geval, van diens
  lasthebbers en uiteindelijke begunstigden, en betreffende de kenmerken van de cliënt en het doel en de beoogde
  aard van de zakelijke relatie, die nodig is voor de uitvoering van de waakzaamheidsverplichtingen die aan de
@@ -1662,7 +1691,9 @@ Pagina 29 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 1. - Analyse van atypische verrichtingen
 
-  Art. 45.§ 1. [1 De onderworpen entiteiten voeren onder de verantwoordelijkheid van de overeenkomstig artikel
+## Art. 45
+
+§ 1. [1 De onderworpen entiteiten voeren onder de verantwoordelijkheid van de overeenkomstig artikel
  9, § 2, aangeduide persoon een specifieke analyse uit van de met toepassing van artikel 35, § 1, 1°,
  geïdentificeerde atypische verrichtingen, teneinde vast te stellen of van deze verrichtingen vermoed kan worden
  dat ze verband houden met het witwassen van geld of financiering van terrorisme. Zij onderzoeken met name,
@@ -1673,7 +1704,6 @@ Pagina 29 van 76 Copyright Belgisch S taatsblad 17-01-2026
    3° zij vertonen een ongebruikelijk patroon;
    4° zij hebben geen duidelijk economisch of rechtmatig doel.
    Hierbij nemen zij alle nodige maatregelen ter aanvulling van de in de artikelen 19 tot en met 41 bedoelde
-Pagina 30 van 76 Copyright Belgisch S taatsblad 17-01-2026
  maatregelen en verhogen zij in het bijzonder de intensiteit en de aard van de waakzaamheid ten aanzien van de
  zakelijke relatie, teneinde te bepalen of die verrichtingen verdacht blijken.]1
   § 2. De onderworpen entiteiten stellen een schriftelijk verslag op over de analyse die met toepassing van
@@ -1749,10 +1779,11 @@ De informatie en de inlichtingen bedoeld in de artikelen 47, 48, en 66, § 2, de
    De Koning kan op advies van de CFI, de lijst van de onderworpen entiteiten opstellen waarvoor de in het eerste
  lid bedoelde kennisgevingen en inlichtingen, uitsluitend online worden gemeld.
 
-  Art. 51.§ 1. De informatie betreffende een verrichting, als bedoeld in artikel 47, § 1, 2°, en §§ 2 en 3, wordt [1
+## Art. 51
+
+§ 1. De informatie betreffende een verrichting, als bedoeld in artikel 47, § 1, 2°, en §§ 2 en 3, wordt [1
  onmiddellijk aan de CFI gemeld voor de uitvoering ervan. In voorkomend geval vermeldt de meldende
  onderworpen entiteit de termijn waarbinnen de desbetreffende verrichting moet worden uitgevoerd en geeft zij
-Pagina 31 van 76 Copyright Belgisch S taatsblad 17-01-2026
  gevolg aan de instructies van de CFI in toepassing van de artikelen 80 en 81]1.
   Wanneer de onderworpen entiteiten de CFI niet kunnen inlichten over de verrichting alvorens deze uit te
  voeren, hetzij omdat het niet mogelijk is de uitvoering van de verrichting, gezien haar aard, uit te stellen, hetzij
@@ -1767,7 +1798,9 @@ Pagina 31 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 57, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 52.[1 In afwijking van de artikelen 47 en 49]1, moeten de advocaten die bij de uitoefening van de activiteiten
+## Art. 52
+
+[1 In afwijking van de artikelen 47 en 49]1, moeten de advocaten die bij de uitoefening van de activiteiten
  opgesomd in artikel 5, § 1, 28°, worden geconfronteerd met geldmiddelen, uit te voeren verrichtingen, of feiten
  als bedoeld in hetzelfde artikel 47, de Stafhouder van de Orde waartoe zij behoren daarvan onmiddellijk op de
  hoogte brengen.
@@ -1809,7 +1842,9 @@ In afwijking van de artikelen 47, 48 en 54, delen de onderworpen entiteiten bedo
 
   Afdeling 2. - Mededelingsverbod
 
-   Art. 55.§ 1. De onderworpen entiteiten, hun bestuurders, personeelsleden, agenten en distributeurs, evenals de
+## Art. 55
+
+§ 1. De onderworpen entiteiten, hun bestuurders, personeelsleden, agenten en distributeurs, evenals de
  Stafhouder bedoeld in artikel 52, delen niet mee aan een betrokken cliënt noch aan derden dat informatie of
  inlichtingen, zijn, zullen worden of werden verstrekt aan de CFI in overeenstemming met de artikelen 47, 48, [1
  52,]1 54 of 66, § 2, derde lid, of dat een analyse naar het witwassen van geld of de financiering van terrorisme
@@ -1827,7 +1862,6 @@ In afwijking van de artikelen 47, 48 en 54, delen de onderworpen entiteiten bedo
 § 1. Het verbod waarvan sprake is in artikel 55 is niet van toepassing op de mededeling aan de
  toezichtautoriteiten die bevoegd zijn op grond van artikel 85, noch op de mededeling voor repressieve
  doeleinden.
-Pagina 32 van 76 Copyright Belgisch S taatsblad 17-01-2026
    § 2. Het verbod waarvan sprake in artikel 55 is niet van toepassing op de mededeling van informatie :
    1° tussen kredietinstellingen of financiële instellingen als bedoeld in artikel 2, lid 1, punten 1 en 2, van Richtlijn
  215/849, gevestigd in een lidstaat wanneer deze instellingen behoren tot eenzelfde groep;
@@ -1856,7 +1890,9 @@ Pagina 32 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   Afdeling 3. - Bescherming van de melders
 
-  Art. 57.De verstrekking te goeder trouw van informatie aan de CFI door een onderworpen entiteit, door één
+## Art. 57
+
+De verstrekking te goeder trouw van informatie aan de CFI door een onderworpen entiteit, door één
  van haar bestuurders, personeelsleden, agenten of distributeurs, of door de Stafhouder bedoeld in artikel 52, [1
  alsook door een advocaat aan de Stafhouder in toepassing van artikel 52,]1 vormt geen inbreuk op ongeacht
  welke op grond van een contract of van een wettelijke, reglementaire of bestuursrechtelijke bepaling opgelegde
@@ -1877,7 +1913,9 @@ Wanneer de CFI een mededeling doet aan de Procureur des Konings of aan de federa
    Indien de personen bedoeld in artikel 83, § 1, worden opgeroepen om in rechte te getuigen, mogen zij de
  identiteit van de in het eerste lid bedoelde auteurs evenmin bekendmaken.
 
-  Art. 59.De bevoegde autoriteiten inzake onderzoek en vervolging van WG/FT nemen alle passende maatregelen
+## Art. 59
+
+De bevoegde autoriteiten inzake onderzoek en vervolging van WG/FT nemen alle passende maatregelen
  om de bestuurders, personeelsleden, agenten en distributeurs van de onderworpen entiteiten die hetzij intern,
  hetzij aan de CFI vermoedens van het witwassen van geld of de financiering van terrorisme melden, [1 wettelijk te
  beschermen tegen bedreigingen, vergeldingsmaatregelen of daden van agressie]1.
@@ -1894,10 +1932,11 @@ Wanneer de CFI een mededeling doet aan de Procureur des Konings of aan de federa
   ----------
   (1)<W 2020-07-20/12, art. 62, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 60.De onderworpen entiteiten bewaren, op welke informatiedrager ook, met het oog op het voorkomen,
+## Art. 60
+
+De onderworpen entiteiten bewaren, op welke informatiedrager ook, met het oog op het voorkomen,
  opsporen of onderzoeken door de CFI of andere bevoegde autoriteiten van mogelijke gevallen van het witwassen
  van geld of de financiering van terrorisme, de volgende documenten en informatie :
-Pagina 33 van 76 Copyright Belgisch S taatsblad 17-01-2026
    1° [1 de identificatiegegevens bedoeld in afdelingen 2 en 3 van titel 3, hoofdstuk 1, in voorkomend geval
  bijgewerkt in overeenstemming met artikel 35, en een afschrift van de bewijsstukken of van het resultaat van de
  raadpleging van een informatiebron, bedoeld in artikel 27, met inbegrip van :
@@ -1923,7 +1962,9 @@ Pagina 33 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 63, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 61.In afwijking van artikel 60, 1°, kunnen de onderworpen entiteiten de bewaring van een afschrift van de
+## Art. 61
+
+In afwijking van artikel 60, 1°, kunnen de onderworpen entiteiten de bewaring van een afschrift van de
  daar bedoelde bewijsstukken vervangen door de bewaring van de verwijzingen van deze stukken, op voorwaarde
  dat de verwijzingen, wegens hun aard en de bewaringsmodaliteiten ervan, met zekerheid mogelijk maken voor de
  onderworpen entiteit om de betreffende stukken onmiddellijk te overleggen op verzoek van de CFI of andere
@@ -1944,7 +1985,9 @@ Pagina 33 van 76 Copyright Belgisch S taatsblad 17-01-2026
  de zakelijke relaties of de verrichtingen die zijn beëindigd of afgesloten tot en met 5 jaar vóór de inwerkingtreding
  van deze wet, zijn de bewaartermijnen zeven jaar voor de bedoelde documenten en informatie.
 
-  Art. 63.De onderworpen entiteiten beschikken over systemen die hen in staat stellen ten volle te reageren,
+## Art. 63
+
+De onderworpen entiteiten beschikken over systemen die hen in staat stellen ten volle te reageren,
  binnen de termijn bepaald in artikel 48 en via beveiligde kanalen, zodat de volledige vertrouwelijkheid gewaarborgd
  blijft, op verzoeken om informatie van de CFI [1 in toepassing van artikel 81]1, van de gerechtelijke overheden of
  van de toezichtautoriteiten bedoeld in artikel 85, in het kader van hun respectievelijke bevoegdheden, om te
@@ -1958,7 +2001,9 @@ Pagina 33 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 66, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 64.§ 1. [1 De verwerking van persoonsgegevens krachtens deze wet door de onderworpen entiteiten,
+## Art. 64
+
+§ 1. [1 De verwerking van persoonsgegevens krachtens deze wet door de onderworpen entiteiten,
  alsook door hun toezichthoudende autoriteiten, is onderworpen aan de bepalingen van Verordening 2016/679.
    De verwerking van deze gegevens is noodzakelijk voor het vervullen van een taak van algemeen belang in de
  zin van artikelen 6, 1. e) en 23, e) en wat betreft de toezichtautoriteiten 23, h), van Verordening 2016/679, en is
@@ -1966,7 +2011,6 @@ Pagina 33 van 76 Copyright Belgisch S taatsblad 17-01-2026
  toezichtautoriteitenkrachtens deze wet in acht moeten nemen.
    Deze verwerking is bovendien een noodzakelijke maatregel voor de voorkoming, de opsporing van het misdrijf
  witwassen van geld, de onderliggende misdrijven die hiermee verband houden en de financiering van terrorisme
-Pagina 34 van 76 Copyright Belgisch S taatsblad 17-01-2026
  in de zin van artikel 23, d) van Verordening 2016/679.]1
    [1 § 1/1. De verwerking van persoonsgegevens krachtens deze wet door de CFI is onderworpen aan de
  bepalingen van Titel 2 van de Wet van 30 juli 2018.
@@ -1989,7 +2033,9 @@ Pagina 34 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 67, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 65.[1 § 1. Elke onderworpen entiteit die wordt bedoeld in artikel 5, § 1, of die wordt aangewezen door de
+## Art. 65
+
+[1 § 1. Elke onderworpen entiteit die wordt bedoeld in artikel 5, § 1, of die wordt aangewezen door de
  Koning krachtens artikel 5, § 2, is de verwerkingsverantwoordelijke van de persoonsgegevens die zij krachtens
  deze wet verzamelt voor de in de artikelen 1 en 64 bedoelde doeleinden.
    De in het eerste lid bedoelde persoonsgegevens worden verzameld door de onderworpen entiteit voor de
@@ -2034,7 +2080,6 @@ Pagina 34 van 76 Copyright Belgisch S taatsblad 17-01-2026
  artikel 89 en in andere wettelijke bepalingen die van toepassing zijn op de betrokken toezichtautoriteit, en naast
  de uitzonderingen als bedoeld in de artikelen 14, lid 5, onder c) en d), 17, lid 3, onder b), 18, lid 2, en 20, lid 3,
  van Verordening 2016/679 wordt, teneinde de doelstellingen te waarborgen van artikel 23, lid 1, onder d), e) en
-Pagina 35 van 76 Copyright Belgisch S taatsblad 17-01-2026
  h), van de voornoemde verordening, de uitoefening van de rechten als bedoeld in de artikelen 12 (transparante
  informatie, communicatie en nadere regels voor de uitoefening van de rechten van de betrokkene), 13 (te
  verstrekken informatie wanneer persoonsgegevens bij de betrokkene worden verzameld), 15 (recht van inzage),
@@ -2101,11 +2146,12 @@ Pagina 35 van 76 Copyright Belgisch S taatsblad 17-01-2026
  en het tweede lid niet worden nageleefd, brengen ze dit onmiddellijk ter kennis aan de CFI overeenkomstig de
  modaliteiten omschreven in artikel 50.
 
-   Art. 67.§ 1. Voor de toepassing van dit artikel wordt verstaan onder :
+## Art. 67
+
+§ 1. Voor de toepassing van dit artikel wordt verstaan onder :
    1° "consument" : iedere natuurlijke persoon die handelt voor doeleinden buiten het kader van zijn commerciële,
  industriële of ambachtelijke activiteit of een vrij beroep;
    2° "edele stoffen" : goud, platina, zilver, palladium;
-Pagina 36 van 76 Copyright Belgisch S taatsblad 17-01-2026
    3° "oude metalen" : alle gebruikte en gerecupereerde metalen stukken;
    4° "koperkabels" : alle koperkabels geleverd, onder welke vorm en samenstelling ook, al dan niet gestript of
  versneden, vermalen of vermengd met andere materialen of voorwerpen, met uitzondering van flexibele
@@ -2155,7 +2201,9 @@ Pagina 36 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   TITEL 1. - Nationale risicobeoordeling
 
-   Art. 68.De coördinatieorganen nemen de nodige maatregelen om de WG/FT-risico's waaraan België is
+## Art. 68
+
+De coördinatieorganen nemen de nodige maatregelen om de WG/FT-risico's waaraan België is
  blootgesteld alsmede de desbetreffende gegevensbeschermingskwesties te identificeren, te beoordelen en te
  beperken.
    Daartoe maken ze een verslag op, elk voor wat hen aanbelangt en ten laatste zes maanden na de
@@ -2173,7 +2221,6 @@ Pagina 36 van 76 Copyright Belgisch S taatsblad 17-01-2026
   1° van de relevante bevindingen van het door de Europese Commissie overeenkomstig artikel 6 van Richtlijn
  2015/849 opgemaakte verslag;
   2° van de door de Europese Commissie aan België krachtens hetzelfde artikel gerichte aanbevelingen
-Pagina 37 van 76 Copyright Belgisch S taatsblad 17-01-2026
  betreffende de maatregelen die geschikt zijn om de geïdentificeerde risico's aan te pakken.
   Wanneer de coördinatieorganen elk voor wat hen aanbelangt, beslissen, geen toepassing te maken van de
  aanbevelingen bedoeld in het eerste lid, 2°, in het kader van de nationale regelgeving inzake de strijd tegen
@@ -2184,7 +2231,9 @@ Pagina 37 van 76 Copyright Belgisch S taatsblad 17-01-2026
   1° de in bijlage II vermelde indicatieve factoren welke een potentieel lager risico vertegenwoordigen;
   2° de in bijlage III vermelde indicatieve factoren welke een potentieel hoger risico vertegenwoordigen.
 
-   Art. 70.[1 In het rapport zoals bedoeld in artikel 68, tweede lid, en desgevallend op basis van de nationale
+## Art. 70
+
+[1 In het rapport zoals bedoeld in artikel 68, tweede lid, en desgevallend op basis van de nationale
  risicobeoordeling dat het bevat, zullen de coördinatieorganen :]1
    1° bepalen welke wetgevende of andere maatregelen er moeten genomen worden om de nationale regelgeving
  inzake de strijd tegen WG/FT te verbeteren, met name door te bepalen op welke gebieden de onderworpen
@@ -2216,7 +2265,9 @@ Pagina 37 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (1)<W 2020-07-20/12, art. 70, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2021-07-11/08, art. 304, 011; Inwerkingtreding : 30-06-2021>
 
-  Art. 71.Om bij te dragen aan de voorbereiding van de risicobeoordeling bedoeld in artikel 68 en om in staat te
+## Art. 71
+
+Om bij te dragen aan de voorbereiding van de risicobeoordeling bedoeld in artikel 68 en om in staat te
  zijn om de doeltreffendheid van het stelsel ter bestrijding van WG/FT op nationaal vlak te beoordelen, houden de
  bevoegde autoriteiten bedoeld in deze titel die zijn aangewezen door de Koning, op voorstel van de minister van
  Financiën en de minister van Justitie, uitgebreide statistieken bij over aangelegenheden die relevant zijn voor de
@@ -2227,7 +2278,9 @@ Pagina 37 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 71, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 72.§ 1. De door de Koning in toepassing van artikel 71 aangewezen autoriteiten zenden de statistieken die
+## Art. 72
+
+§ 1. De door de Koning in toepassing van artikel 71 aangewezen autoriteiten zenden de statistieken die
  ze bijhouden jaarlijks aan de minister van Justitie.
   § 2. De minister van Justitie publiceert [1 ...]1 een geconsolideerd overzicht van de statistieken die hem
  overeenkomstig paragraaf 1 zijn toegestuurd en doet dit [1 jaarlijks]1 toekomen aan de Europese Commissie.
@@ -2242,8 +2295,9 @@ Binnen de Algemene Administratie van de Thesaurie van de Federale Overheidsdiens
  te noemen "Administratie van de Thesaurie", wordt een dienst opgericht belast met een centraal register van
  uiteindelijke begunstigden, genaamd UBO-register.
 
-Pagina 38 van 76 Copyright Belgisch S taatsblad 17-01-2026
-   Art. 74.§ 1. Het UBO-register heeft tot doel toereikende, accurate en actuele informatie ter beschikking te
+## Art. 74
+
+§ 1. Het UBO-register heeft tot doel toereikende, accurate en actuele informatie ter beschikking te
  stellen over de uiteindelijke begunstigden bedoeld in artikel 4, 27°, a), van in België opgerichte vennootschappen,
  over de uiteindelijke begunstigden bedoeld in artikel 4, 27°, b), van [1 fiducieën of]1 trusts, over de uiteindelijke
  begunstigden bedoeld in artikel 4, 27°, c), van stichtingen en (internationale) verenigingen zonder winstoogmerk
@@ -2312,7 +2366,6 @@ Pagina 38 van 76 Copyright Belgisch S taatsblad 17-01-2026
  bedoeld in artikel 74, § 1, eerste lid, in kennis stellen van de gronden van de melding bedoeld in paragraaf 1 en
  vragen om de desbetreffende informatie over uiteindelijke begunstigden in het UBO-register binnen een termijn
  van een maand na de ontvangst van deze kennisgeving te bevestigen, te verbeteren, te verduidelijken, te
-Pagina 39 van 76 Copyright Belgisch S taatsblad 17-01-2026
  vervolle-digen of te wijzigen. De identiteit van de onderworpen entiteit of de bevoegde autoriteit die de melding
  heeft gemaakt, wordt in geen geval meegedeeld aan de betrokken informatieplichtige.
    Wanneer de Administratie van de Thesaurie een mededeling doet aan een derde, de Procureur des Konings of
@@ -2326,7 +2379,9 @@ Pagina 39 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2021-06-02/03, art. 48, 009; Inwerkingtreding : 28-06-2021>
 
-   Art. 75.[1 § 1. Het UBO-register verzamelt en verwerkt de volgende categorieën van persoonsgegevens van
+## Art. 75
+
+[1 § 1. Het UBO-register verzamelt en verwerkt de volgende categorieën van persoonsgegevens van
  uiteindelijke begunstigden bedoeld in artikel 74, § 1, eerste lid:
     1° de identificatiegegevens;
     2 de contact- en verblijfsgegevens;
@@ -2380,12 +2435,13 @@ Pagina 39 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (1)<W 2023-02-08/02, art. 5, 019; Inwerkingtreding : 17-02-2023>
    (2)<W 2025-12-11/13, art. 160, 023; Inwerkingtreding : 03-01-2026>
 
-Pagina 40 van 76 Copyright Belgisch S taatsblad 17-01-2026
   TITEL 3. - De Cel voor financiële informatieverwerking
 
   HOOFDSTUK 1. - Algemene bepalingen
 
-   Art. 76.§ 1. Er wordt, onder de benaming "Cel voor financiële informatieverwerking", hierna te noemen "CFI",
+## Art. 76
+
+§ 1. Er wordt, onder de benaming "Cel voor financiële informatieverwerking", hierna te noemen "CFI",
  een administratieve autoriteit met rechtspersoonlijkheid ingesteld belast met het verwerken en verstrekken van
  informatie met het oog op de bestrijding van WG/FT, evenals de strijd tegen de financiering van
  massavernietigingswapens, als deze laatste bevoegdheid haar is toegekend krachtens de Europese
@@ -2436,7 +2492,9 @@ Pagina 40 van 76 Copyright Belgisch S taatsblad 17-01-2026
    § 5. De burgerlijke aansprakelijkheid van de CFI en van haar leden kan niet worden ingeroepen bij het vervullen
  van haar wettelijke opdrachten, behalve in geval van bedrog of zware fout.
 
-   Art. 78.Ten minste één keer per jaar stelt de CFI een verslag op van haar werkzaamheden voor de minister van
+## Art. 78
+
+Ten minste één keer per jaar stelt de CFI een verslag op van haar werkzaamheden voor de minister van
  Justitie en de minister van Financiën. Dit verslag bevat, wat haar betreft, alle inlichtingen nuttig voor de
  beoordeling van de doeltreffendheid van het preventieve stelsel ter bestrijding van WG/FTP [1 , actuele informatie
  over praktijken van witwassen en financiering van terrorisme, en over aanwijzingen om verdachte verrichtingen
@@ -2450,8 +2508,9 @@ Pagina 40 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 2. - Bevoegdheden en rechten
 
-Pagina 41 van 76 Copyright Belgisch S taatsblad 17-01-2026
-   Art. 79.§ 1. Onverminderd de bevoegdheden van de gerechtelijke autoriteiten, wordt de CFI belast met het
+## Art. 79
+
+§ 1. Onverminderd de bevoegdheden van de gerechtelijke autoriteiten, wordt de CFI belast met het
  ontvangen en het analyseren van de meldingen van vermoedens die verband houden met WG/FT meegedeeld
  door de onderworpen entiteiten op grond van de artikelen 47, 54 en 66, § 2, derde lid, evenals de meldingen van
  vermoedens die verband houden met de financiering van de proliferatie van massavernietigingswapens,
@@ -2519,7 +2578,6 @@ Pagina 41 van 76 Copyright Belgisch S taatsblad 17-01-2026
  vaststelling van de modaliteiten voor het afleveren van kadastrale uittreksels en artikel 64, §§ 1 tot en met 2, van
  deze wet.
     De informatie verkregen op grond van het eerste lid maakt het voor de CFI mogelijk om alle natuurlijke of
-Pagina 42 van 76 Copyright Belgisch S taatsblad 17-01-2026
  rechtspersonen die eigenaar zijn van een onroerend goed tijdig te identificeren. De gegevens in deze informatie
  zijn de gegevens bedoeld in artikel 11, eerste lid, 1° en 3°, van het voornoemd koninklijk besluit van 30 juli
  2018.]2
@@ -2528,7 +2586,9 @@ Pagina 42 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (2)<W 2020-07-20/12, art. 77, 008; Inwerkingtreding : 15-08-2020>
   (3)<W 2023-06-07/07, art. 265, 021; Inwerkingtreding : 01-09-2023>
 
-  Art. 80.§ 1. Wanneer de CFI gevat wordt door een melding van een vermoeden of informatie in toepassing van
+## Art. 80
+
+§ 1. Wanneer de CFI gevat wordt door een melding van een vermoeden of informatie in toepassing van
  artikel 79, kan ze zich verzetten tegen de uitvoering van elke verrichting die hierop betrekking heeft.
   De CFI bepaalt op welke verrichtingen evenals op welke bankrekeningen het verzet betrekking heeft en brengt
  haar beslissing onmiddellijk schriftelijk ter kennis van de betrokken onderworpen entiteiten.
@@ -2546,7 +2606,9 @@ Pagina 42 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<W 2018-02-04/04, art. 56, 002; Inwerkingtreding : 01-07-2018>
   (2)<W 2022-05-15/03, art. 5, 014; Inwerkingtreding : 04-06-2022>
 
-   Art. 81.§ 1. Wanneer de CFI meldingen van de vermoedens en informatie bedoeld in artikel 79 ontvangt, mogen
+## Art. 81
+
+§ 1. Wanneer de CFI meldingen van de vermoedens en informatie bedoeld in artikel 79 ontvangt, mogen
  de CFI, of één van haar leden of één van haar personeelsleden, die daartoe is aangewezen door de magistraat
  die de Cel leidt of door zijn plaatsvervanger, volgens de door haar bepaalde modaliteiten, alle bijkomende
  inlichtingen [2 , waaronder alle financiële, administratieve en rechtshandhavingsinformatie,]2 opvragen die zij
@@ -2587,7 +2649,6 @@ Pagina 42 van 76 Copyright Belgisch S taatsblad 17-01-2026
    § 5. In afwijking van paragraaf 1, 8°, kan een onderzoeksrechter geen inlichtingen meedelen aan de CFI zonder
  uitdrukkelijke toestemming van de procureur des Konings of de federale procureur. Bovendien, en onverminderd
  artikel 123, kunnen de inlichtingen verkregen van een gerechtelijke overheid door de CFI niet worden
-Pagina 43 van 76 Copyright Belgisch S taatsblad 17-01-2026
  doorgegeven aan een instelling naar buitenlands recht met toepassing van artikel 83, § 2, zonder uitdrukkelijke
  toestemming van de procureur des Konings of de federale procureur.
   § 6. Onverminderd artikel 56, maken de in paragraaf 1 bedoelde entiteiten, overheden en diensten niet bekend
@@ -2598,7 +2659,9 @@ Pagina 43 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<W 2020-07-20/12, art. 78, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2022-05-15/03, art. 6, 014; Inwerkingtreding : 04-06-2022>
 
-   Art. 82.§ 1. Wanneer de CFI de meldingen van vermoedens en de informatie bedoeld in artikel 79 analyseert,
+## Art. 82
+
+§ 1. Wanneer de CFI de meldingen van vermoedens en de informatie bedoeld in artikel 79 analyseert,
  bepaalt zij, door middel van een grondige analyse, of de geldmiddelen of de goederen die worden gebruikt bij de
  verrichting of het aangeklaagde feit kunnen voortkomen uit een criminele activiteit, zoals gedefinieerd in artikel 4,
  23°.
@@ -2615,7 +2678,9 @@ Pagina 43 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2022-05-15/03, art. 7, 014; Inwerkingtreding : 04-06-2022>
 
-   Art. 83.§ 1. Onder voorbehoud van de toepassing van de artikelen 79 tot en met 82, de mededelingen bedoeld
+## Art. 83
+
+§ 1. Onder voorbehoud van de toepassing van de artikelen 79 tot en met 82, de mededelingen bedoeld
  in [3 paragrafen 2 en 3]3 en buiten het geval dat zij opgeroepen worden om in rechte te getuigen, of voor een
  parlementaire onderzoekscommissie, mogen de leden van de CFI en de leden van haar personeel, de leden van
  de politiediensten en de andere ambtenaren die bij haar gedetacheerd zijn alsook de externe deskundigen
@@ -2655,7 +2720,6 @@ Pagina 43 van 76 Copyright Belgisch S taatsblad 17-01-2026
  opsporingsbevoegdheid heeft, dan licht de CFI die autoriteit in over deze mededeling.
    Wanneer deze mededeling informatie bevat betreffende het witwassen van geld afkomstig van [1
  mensenhandel, mensensmokkel of sociale fraude]1, bezorgt de CFI aan de arbeidsauditeur een afschrift van het
-Pagina 44 van 76 Copyright Belgisch S taatsblad 17-01-2026
  doormeldingsverslag dat krachtens artikel 82, § 2, aan de procureur des Konings of aan de federale procureur
  werd meegedeeld.
    Wanneer deze mededeling informatie bevat betreffende het witwassen van geld afkomstig van misdrijven
@@ -2705,7 +2769,9 @@ Pagina 44 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (4)<W 2022-05-15/03, art. 8, 014; Inwerkingtreding : 04-06-2022>
    (5)<W 2022-11-20/01, art. 80, 018; Inwerkingtreding : 10-12-2022>
 
-   Art. 84.[1 § 1. Tijdens het verrichten van onderzoeken betreffende het witwassen van geld, de criminele
+## Art. 84
+
+[1 § 1. Tijdens het verrichten van onderzoeken betreffende het witwassen van geld, de criminele
  activiteiten die hiermee verband houden, en de financiering van terrorisme, kunnen de gerechtelijke overheden
  aan de CFI, onder voorbehoud van de toepassing van de vereiste van artikel 58, alle relevante inlichtingen
  verzoeken die ze bezit, alsook gemotiveerde verzoeken aan haar richten om financiële informatie en financiële
@@ -2723,7 +2789,6 @@ Pagina 44 van 76 Copyright Belgisch S taatsblad 17-01-2026
  behoren elke weigering om op een verzoek als bedoeld in het tweede lid te reageren.
    Voor elk gebruik door de gerechtelijke overheden voor andere dan de oorspronkelijk goedgekeurde doeleinden
 
-Pagina 45 van 76 Copyright Belgisch S taatsblad 17-01-2026
  is de voorafgaande toestemming van de CFI noodzakelijk.
     § 2. De gerechtelijke overheden mogen op verzoek, per geval, financiële informatie en financiële analyses die de
  CFI heeft verstrekt, uitwisselen met een op grond van artikel 3.2 van Richtlijn 2019/1153 aangewezen bevoegde
@@ -2754,7 +2819,9 @@ Pagina 45 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 1. - Algemene bepalingen
 
-   Art. 85.§ 1. Onder voorbehoud van de prerogatieven die hen zijn toegekend door of krachtens andere wettelijke
+## Art. 85
+
+§ 1. Onder voorbehoud van de prerogatieven die hen zijn toegekend door of krachtens andere wettelijke
  bepalingen, houden de hierna opgesomde autoriteiten toezicht op de naleving van de bepalingen van boek II van
  deze wet, van de besluiten en reglementen genomen ter uitvoering ervan, van de uitvoeringsmaatregelen van
  Richtlijn 2015/849, [3 in voorkomend geval]3 van de Europese verordening betreffende geldovermakingen en van
@@ -2790,7 +2857,6 @@ Pagina 45 van 76 Copyright Belgisch S taatsblad 17-01-2026
    12° de Federale Overheidsdienst Binnenlandse Zaken, ten aanzien van de onderworpen entiteiten bedoeld in
  artikel 5, § 1, 32° ;
    13° de Kansspelcommissie, ten aanzien van de onderworpen entiteiten bedoeld in artikel 5, § 1, 33° ;
-Pagina 46 van 76 Copyright Belgisch S taatsblad 17-01-2026
   § 2. De Koning wijst de autoriteiten aan die bevoegd zijn om, onverminderd de prerogatieven die hen zijn
  toegekend door of krachtens andere wettelijke bepalingen, toe te zien op de naleving van de in paragraaf 1
  bedoelde bepalingen door de entiteiten tot dewelke Hij in voorkomend geval het toepassingsgebied van alle of een
@@ -2815,7 +2881,9 @@ Pagina 46 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (5)<W 2024-02-09/19, art. 167, 022; Inwerkingtreding : 31-03-2024>
   (6)<W 2025-12-11/13, art. 89, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 86.§ 1. De toezichtautoriteiten of in voorkomend geval, de bij andere wetten aangewezen autoriteiten,
+## Art. 86
+
+§ 1. De toezichtautoriteiten of in voorkomend geval, de bij andere wetten aangewezen autoriteiten,
  kunnen reglementen uitvaardigen die van toepassing zijn op de onder hun bevoegdheid vallende onderworpen
  entiteiten en die de bepalingen van boek II en III en van de uitvoeringsbesluiten ervan op technisch vlak
  vervolledigen, rekening houdend met de nationale risicobeoordeling bedoeld in artikel 68.
@@ -2838,7 +2906,9 @@ Pagina 46 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 82, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 87.§ 1. De toezichtautoriteiten oefenen hun toezicht uit op basis van een risicobeoordeling. Daartoe zorgen
+## Art. 87
+
+§ 1. De toezichtautoriteiten oefenen hun toezicht uit op basis van een risicobeoordeling. Daartoe zorgen
  ze ervoor :
    1° dat ze beschikken over een helder inzicht in de WG/FT-risico's in België, door zich te baseren op relevante
  informatie aangaande nationale en internationale risico's, met inbegrip van het verslag opgemaakt door de
@@ -2859,7 +2929,6 @@ Pagina 46 van 76 Copyright Belgisch S taatsblad 17-01-2026
    1° periodiek, met een frequentie die aangepast is om met name rekening te houden met de kenmerken van de
  activiteitensector en het risicoprofiel dat voordien is toegekend aan de onderworpen entiteit; en
    2° wanneer belangrijke gebeurtenissen plaatsvinden die het niveau van de WG/FT-risico's waaraan de
-Pagina 47 van 76 Copyright Belgisch S taatsblad 17-01-2026
  onderworpen entiteit is blootgesteld of het beheer van deze risico's door de onderworpen entiteit, kunnen
  beïnvloeden.
   § 2. Bij de uitoefening van hun toezichtsbevoegdheden houden de toezichtautoriteiten rekening met de mate
@@ -2900,7 +2969,9 @@ In de gevallen bedoeld in artikel 13, § 3, derde lid, wanneer bijkomende maatre
  bepalingen van boek I van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 85, zijn van toepassing op
  inbreuken op dit artikel.
 
-   Art. 90.De toezichtautoriteiten stellen effectieve en betrouwbare mechanismen in voor de melding door de
+## Art. 90
+
+De toezichtautoriteiten stellen effectieve en betrouwbare mechanismen in voor de melding door de
  leidinggevenden, personeelsleden, agenten en distributeurs van de onderworpen entiteiten of door derden, aan
  deze autoriteiten, van mogelijke of werkelijke inbreuken op de bepalingen van deze wet, van de besluiten of
  reglementen genomen ter uitvoering ervan, van de uitvoeringsmaatregelen van Richtlijn 2015/849, van de
@@ -2933,7 +3004,6 @@ In de gevallen bedoeld in artikel 13, § 3, derde lid, wanneer bijkomende maatre
  zij de procureur des Konings daarvan tijdig in kennis.]1
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 85, 008; Inwerkingtreding : 15-08-2020>
-Pagina 48 van 76 Copyright Belgisch S taatsblad 17-01-2026
 ## Art. 90/2
 
 [1 Onverminderd andere wettelijke bepalingen hebben de toezichtautoriteiten bedoeld in artikel 85, §§
@@ -2953,7 +3023,9 @@ Pagina 48 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 2. - Toezichtsbevoegdheden en -maatregelen van de Nationale Bank van België
 
-   Art. 91.Onverminderd de prerogatieven die haar zijn toegekend voor het vervullen van haar andere wettelijke
+## Art. 91
+
+Onverminderd de prerogatieven die haar zijn toegekend voor het vervullen van haar andere wettelijke
  toezichtsopdrachten, kan de Bank zich voor de uitoefening van haar toezichtsbevoegdheden bepaald door of
  krachtens deze wet, alle informatie en elk document doen verstrekken in gelijk welke vorm en met name alle
  informatie over de organisatie, de werking, de positie en de verrichtingen van de onderworpen entiteiten [1 die
@@ -3003,7 +3075,6 @@ Pagina 48 van 76 Copyright Belgisch S taatsblad 17-01-2026
  revisor heeft in de zin van het Reglement van de Nationale Bank van België van 21 december 2012 betreffende
  de erkenning van revisoren en revisorenvennootschappen, kan de Bank een dergelijke revisor aanstellen om de
  in het eerste lid bedoelde bijzondere verslagen op te stellen.
-Pagina 49 van 76 Copyright Belgisch S taatsblad 17-01-2026
     De in het eerste en tweede lid bedoelde erkende revisoren handelen op hun eigen en uitsluitende
  verantwoordelijkheid en volgens de regels van het vak en de richtlijnen van de Bank.
     De in dit artikel bedoelde verslagen mogen slechts aan derden worden meegedeeld mits de Bank hier
@@ -3020,7 +3091,9 @@ Pagina 49 van 76 Copyright Belgisch S taatsblad 17-01-2026
 Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot de bevoegdheid van de
  Bank, tenzij het toezicht op die onderworpen entiteit dit vergt.
 
-   Art. 93.§ 1. Onverminderd de andere maatregelen die zijn vastgesteld in deze wet of in andere wettelijke of
+## Art. 93
+
+§ 1. Onverminderd de andere maatregelen die zijn vastgesteld in deze wet of in andere wettelijke of
  reglementaire bepalingen, kan de Bank een onderworpen entiteit [3 die onder haar toezicht valt krachtens artikel
  85, § 1, 3°]3, bevelen om binnen de door de Bank bepaalde termijn :
    1° te voldoen aan welbepaalde voorschriften van boek II van deze wet, van de besluiten en reglementen
@@ -3058,7 +3131,9 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
    (2)<W 2022-07-20/40, art. 380, 017; Inwerkingtreding : 06-10-2022>
    (3)<W 2025-12-11/13, art. 91, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 94.Onverminderd de andere bepalingen die in deze wet of in andere wettelijke of reglementaire bepalingen
+## Art. 94
+
+Onverminderd de andere bepalingen die in deze wet of in andere wettelijke of reglementaire bepalingen
  zijn vastgesteld, en de prerogatieven die haar zijn toegekend voor het vervullen van haar andere wettelijke
  toezichtsopdrachten, kan de Bank, wanneer ze vaststelt dat bij afloop van de termijn vastgesteld op grond van
  artikel 93, § 1, de toestand niet werd verholpen :
@@ -3072,7 +3147,6 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
   De leden van de bestuurs- en beleidsorganen en de personen die instaan voor het beleid, die handelingen
  stellen of beslissingen nemen zonder de vereiste toestemming van de speciaal commissaris, zijn hoofdelijk
  aansprakelijk voor het nadeel dat hieruit voortvloeit voor de onderworpen entiteit of voor derden.
-Pagina 50 van 76 Copyright Belgisch S taatsblad 17-01-2026
    Indien de Bank de aanstelling van een speciaal commissaris in het Belgisch Staatsblad heeft bekendgemaakt,
  met opgave van de handelingen en beslissingen waarvoor zijn toestemming is vereist, zijn alle handelingen en
  beslissingen zonder deze vereiste toestemming nietig, tenzij de speciaal commissaris die bekrachtigt.
@@ -3143,7 +3217,6 @@ Pagina 50 van 76 Copyright Belgisch S taatsblad 17-01-2026
  genomen, evenals over de financiële positie aan het begin en aan het einde van die opdracht.
    § 2. Hun ondersteunende rol ten aanzien van de Bank, als omschreven in paragraaf 1, impliceert dat zij als
  dusdanig niet als administratieve autoriteit kunnen worden beschouwd.
-Pagina 51 van 76 Copyright Belgisch S taatsblad 17-01-2026
    De vervanging van de voltallige bestuurs- en beleidsorganen van de onderworpen entiteit door voorlopige
  bestuurders, overeenkomstig artikel 94, eerste lid, 2°, impliceert niet dat deze laatsten moeten worden
  beschouwd als bestuurders of leden van het wettelijk bestuursorgaan in de zin van het Wetboek van
@@ -3157,7 +3230,9 @@ Pagina 51 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2022-07-20/40, art. 381, 017; Inwerkingtreding : 06-10-2022>
 
-  Art. 95.[1 Voor de toepassing van artikel 94, eerste lid, 3°, wanneer de betrokken onderworpen entiteit een
+## Art. 95
+
+[1 Voor de toepassing van artikel 94, eerste lid, 3°, wanneer de betrokken onderworpen entiteit een
  onderworpen entiteit is [2 als bedoeld in artikel 5, § 1, 6°, d), 7°, e), of 14° /1, b), die onder het toezicht van de
  Bank valt en die in België is gevestigd in een andere vorm dan die van bijkantoor,]2 en wanneer de ernst van de
  feiten dit rechtvaardigt, omvatten de in artikel 94, eerste lid, 3°, bedoelde maatregelen de bevoegdheid om de
@@ -3167,7 +3242,9 @@ Pagina 51 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<W 2020-07-20/12, art. 91, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2025-12-11/13, art. 92, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 96.Wanneer de Bank maatregelen neemt met toepassing van artikel 93, § 2, 2°, houdt zij met name
+## Art. 96
+
+Wanneer de Bank maatregelen neemt met toepassing van artikel 93, § 2, 2°, houdt zij met name
  rekening met :
   1° de ernst en de duur van de inbreuken;
   [1 1° /1 de mate van verantwoordelijkheid van de betrokken onderworpen entiteit;]1
@@ -3181,7 +3258,9 @@ Pagina 51 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 92, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 97.De Bank informeert de [1 EBA]1 over de maatregelen die ze met toepassing van [2 de artikelen 93 tot en
+## Art. 97
+
+De Bank informeert de [1 EBA]1 over de maatregelen die ze met toepassing van [2 de artikelen 93 tot en
  met 95]2 neemt, evenals van een eventueel beroep daartegen en van de uitkomst van dat beroep.
   ----------
   (1)<W 2021-07-11/08, art. 305, 011; Inwerkingtreding : 30-06-2021>
@@ -3194,7 +3273,9 @@ Wanneer de Bank in het kader van haar toezichtsopdracht en met name van haar ins
  brengt zij de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig mogelijk op de
  hoogte daarvan.
 
-  Art. 98/1.[1 Artikel 135, § 3, is van toepassing op de maatregelen die worden opgelegd door de Bank krachtens
+## Art. 98/1
+
+[1 Artikel 135, § 3, is van toepassing op de maatregelen die worden opgelegd door de Bank krachtens
  [2 de artikelen 93, §§ 1 en 2, 2°, 94 en 95]2.]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 93, 008; Inwerkingtreding : 15-08-2020>
@@ -3203,7 +3284,9 @@ Wanneer de Bank in het kader van haar toezichtsopdracht en met name van haar ins
   HOOFDSTUK 3. - Toezichtsbevoegdheden en -maatregelen van de Autoriteit voor Financiële diensten en
  markten
 
-  Art. 99.Onverminderd de prerogatieven die haar zijn toegekend bij het vervullen van haar andere wettelijke
+## Art. 99
+
+Onverminderd de prerogatieven die haar zijn toegekend bij het vervullen van haar andere wettelijke
  toezichtsopdrachten, kan de FSMA zich voor de uitoefening van haar toezichtsbevoegdheden bepaald door deze
  wet, alle informatie en elk document, in gelijk welke vorm, doen verstrekken en met name alle informatie over de
  organisatie, de werking, de positie en de verrichtingen van de onderworpen entiteiten [1 die onder haar toezicht
@@ -3211,7 +3294,6 @@ Wanneer de Bank in het kader van haar toezichtsopdracht en met name van haar ins
  onderworpen entiteit en haar cliënten.
   [1 Met het oog op de naleving, door de FSMA, van artikel 87, § 1, derde lid, bezorgen de onderworpen entiteiten
  aan de FSMA met name de door haar bepaalde relevante informatie en documenten die zij nodig heeft om hun
-Pagina 52 van 76 Copyright Belgisch S taatsblad 17-01-2026
  risicoprofiel op te stellen. De FSMA kan bij reglement de modaliteiten, de inhoud en de frequentie vastleggen voor
  het verstrekken van die informatie en documenten, waarbij zij, zo nodig, een onderscheid kan maken naargelang
  het type onderworpen entiteit.]1
@@ -3240,7 +3322,9 @@ Pagina 52 van 76 Copyright Belgisch S taatsblad 17-01-2026
 Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot de bevoegdheid van
  de FSMA, tenzij het toezicht op die onderworpen entiteit dit vergt.
 
-  Art. 101.§ 1. Onverminderd de andere maatregelen bepaald in deze wet, kan de FSMA een onderworpen entiteit
+## Art. 101
+
+§ 1. Onverminderd de andere maatregelen bepaald in deze wet, kan de FSMA een onderworpen entiteit
  [1 die onder haar toezicht staat krachtens artikel 85, § 1, 4°]1, bevelen om zich binnen de door de FSMA
  bepaalde termijn :
   1° te voldoen aan welbepaalde voorschriften van boek II [1 of van artikel 99]1 van deze wet of van de besluiten
@@ -3261,7 +3345,9 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
   ----------
   (1)<W 2020-07-20/12, art. 96, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 102.Onverminderd de andere bepalingen in deze wet en de prerogatieven die haar zijn toegekend bij het
+## Art. 102
+
+Onverminderd de andere bepalingen in deze wet en de prerogatieven die haar zijn toegekend bij het
  vervullen van haar andere wettelijke toezichtsopdrachten, kan de FSMA, wanneer ze vaststelt dat bij afloop van
  de termijn vastgesteld op grond van artikel 101, § 1, de toestand niet is verholpen :
   1° de vervanging gelasten van de betrokken bestuurders of de zaakvoerders van de onderworpen entiteit
@@ -3282,7 +3368,6 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
   ----------
   (1)<W 2020-07-20/12, art. 97, 008; Inwerkingtreding : 15-08-2020>
 
-Pagina 53 van 76 Copyright Belgisch S taatsblad 17-01-2026
 ## Art. 102/1
 
 [1 Voor de toepassing van artikel 102, eerste lid, 2°, wanneer de betrokken onderworpen entiteit
@@ -3294,7 +3379,9 @@ Pagina 53 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2025-12-11/13, art. 93, 023; Inwerkingtreding : 03-01-2026>
 
-   Art. 103.Wanneer de FSMA maatregelen neemt met toepassing van de artikelen 101 en 102, houdt zij met
+## Art. 103
+
+Wanneer de FSMA maatregelen neemt met toepassing van de artikelen 101 en 102, houdt zij met
  name rekening met de omstandigheden bedoeld in artikel 96.
    [1 De maatregelen die de FSMA neemt met toepassing van artikelen 101 en 102 worden gepubliceerd conform
  artikel 72, § 3, vierde tot en met zevende lid, van de wet van 2 augustus 2002 betreffende het toezicht op de
@@ -3309,7 +3396,9 @@ Wanneer de FSMA een dwangsom oplegt met toepassing van artikel 101, zijn de bepa
  hoofdstuk III, afdeling 5bis, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en
  de financiële diensten van toepassing.
 
-  Art. 105.De FSMA informeert de [1 EBA]1 over de maatregelen die ze met toepassing van de artikelen 101 en
+## Art. 105
+
+De FSMA informeert de [1 EBA]1 over de maatregelen die ze met toepassing van de artikelen 101 en
  102 neemt, evenals over een eventueel beroep daartegen en over de uitkomst van dit beroep.
   ----------
   (1)<W 2021-07-11/08, art. 306, 011; Inwerkingtreding : 30-06-2021>
@@ -3339,7 +3428,9 @@ Voor de uitoefening van de toezichtsbevoegdheden toegekend aan de Federale Overh
  bevoegdheden inzake opsporing en vaststelling bedoeld in de artikelen XV. 2, §§ 1 en 2, eerste lid, XV.3 tot en
  met XV.5, XV.10 en XV.32 tot en met XV.34 van genoemd wetboek.
 
-  Art. 108.§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
+## Art. 108
+
+§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
  voorgeschreven maatregelen, kan de minister van Economie [2 of één van de ambtenaren aangewezen door de
  Koning in toepassing van artikel XV.60/4 van het Wetboek van economisch recht]2, wanneer hij vaststelt dat een
  onderworpen entiteit, bedoeld in artikel 5, § 1, 21°, [2 25° /1]2 en 29° tot en [1 met [3 31° /6]3]1, een inbreuk
@@ -3357,7 +3448,6 @@ Voor de uitoefening van de toezichtsbevoegdheden toegekend aan de Federale Overh
  managementfuncties bij onderworpen entiteiten uit te oefenen.
   § 2. Bij het vaststellen van de maatregelen bedoeld in paragraaf 1 wordt er rekening gehouden met de
  omstandigheden bedoeld in artikel 96.
-Pagina 54 van 76 Copyright Belgisch S taatsblad 17-01-2026
   § 3. De Koning stelt de nodige procedureregels vast voor het opleggen van de in paragraaf 1 bedoelde
  maatregelen, alsook de verhaalmiddelen.
   ----------
@@ -3378,7 +3468,9 @@ Met het oog op de uitoefening van de toezichtsbevoegdheden toegekend door artike
   HOOFDSTUK 5. - Toezichtsbevoegdheden van de Administratie van de Thesaurie en toezichtmaatregelen van de
  minister van Financiën en van de minister bevoegd voor bpost
 
-   Art. 110.Onverminderd de prerogatieven die haar zijn toegekend voor het vervullen van haar andere wettelijke
+## Art. 110
+
+Onverminderd de prerogatieven die haar zijn toegekend voor het vervullen van haar andere wettelijke
  toezichtsopdrachten, kan de Administratie van de Thesaurie zich voor de uitoefening van haar
  toezichtsbevoegdheden bepaald door of krachtens deze wet, alle informatie en elk document, doen verstrekken
  in gelijk welke vorm en met name alle informatie over de organisatie, de werking, de positie en de verrichtingen
@@ -3410,7 +3502,9 @@ Met het oog op de uitoefening van de toezichtsbevoegdheden toegekend door artike
 Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot de bevoegdheid van
  de Administratie van de Thesaurie, tenzij het toezicht op die onderworpen entiteit dit vergt.
 
-   Art. 112.§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
+## Art. 112
+
+§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
  voorgeschreven maatregelen, kan [1 de minister bevoegd voor bpost, ten aanzien van deze laatste, wanneer hij
  vaststelt]1 dat de onderworpen entiteit een inbreuk heeft begaan op de bepalingen van boek II van deze wet of
  op de besluiten en reglementen genomen ter uitvoering ervan, of op de uitvoeringsmaatregelen van Richtlijn
@@ -3430,7 +3524,6 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
    ----------
    (1)<W 2018-07-30/10, art. 118, 005; Inwerkingtreding : 20-08-2018>
 
-Pagina 55 van 76 Copyright Belgisch S taatsblad 17-01-2026
 ## Art. 113
 
 Wanneer de Administratie van de Thesaurie in het kader van haar toezichtsopdracht en met name van
@@ -3509,7 +3602,6 @@ Wanneer de Kansspelcommissie in het kader van haar toezichtsopdracht een inbreuk
  om alle of een deel van haar activiteiten uit te oefenen, en haar inschrijving in het register schorsen.
    Indien het College een verbod uitspreekt in de zin van het tweede lid, kan het zelf, op kosten van de
  onderworpen entiteit, overgaan tot de publicatie van de maatregelen die het de onderworpen entiteit oplegt, in de
-Pagina 56 van 76 Copyright Belgisch S taatsblad 17-01-2026
  dagbladen en publicaties van zijn keuze en op de plaatsen en voor de duur die het vaststelt. Het College kan ook
  beslissen om die maatregel te publiceren op internet, in voorkomend geval, op de wijze als bepaald in artikel 72, §
  3, vierde tot en met zevende lid, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële
@@ -3562,7 +3654,9 @@ Pagina 56 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   HOOFDSTUK 7. - Toezichtsbevoegdheden en -maatregelen van andere toezichtautoriteiten
 
-  Art. 117.[1 Onverminderd de prerogatieven die hen zijn toegekend door of krachtens andere wettelijke of
+## Art. 117
+
+[1 Onverminderd de prerogatieven die hen zijn toegekend door of krachtens andere wettelijke of
  reglementaire bepalingen, stellen de toezichtautoriteiten bedoeld in artikel 85, § 1, 1°, en 7° tot en met 12°, een
  toezichtregime vast, in overeenstemming met de bepalingen van artikel 48, leden 1 en 2, van richtlijn 2015/849,
  om door de onderworpen entiteiten bedoeld in artikel 5, § 1, 1°, 24° tot en met 28°, en 32°, de naleving te
@@ -3573,11 +3667,12 @@ Pagina 56 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 105, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 118.§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
+## Art. 118
+
+§ 1. Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
  voorgeschreven maatregelen, kunnen [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 12°]1, of,
  in voorkomend geval, de bij andere wetten aangewezen autoriteiten, wanneer zij vaststellen dat een onder hun
  bevoegdheid vallende [1 onderworpen entiteit, bedoeld in artikel 5, § 1, 1°, 24° tot en met 28°, en 32° ]1, een
-Pagina 57 van 76 Copyright Belgisch S taatsblad 17-01-2026
  inbreuk heeft begaan op de bepalingen van boek II van deze wet of op de besluiten en reglementen genomen ter
  uitvoering ervan, of op artikel 66, § 2, tweede en derde lid, van deze wet, of op de uitvoeringsmaatregelen van
  Richtlijn 2015/849 of op de waakzaamheidsplichten bedoeld in de bindende bepalingen betreffende financiële
@@ -3603,14 +3698,18 @@ Voor de entiteit bedoeld in 5, § 1, 1°, worden de maatregelen bedoeld in artik
  minister van Financiën, en dit na de betrokken entiteit te hebben gehoord of minstens behoorlijk te hebben
  opgeroepen.
 
-  Art. 120.Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 12°]1, in het kader van haar
+## Art. 120
+
+Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 12°]1, in het kader van haar
  toezichtsopdracht, een inbreuk vaststelt op de bepalingen van artikel 66, § 2, eerste lid, of van artikel 67,
  brengen zij de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig mogelijk op de
  hoogte daarvan.
   ----------
   (1)<W 2020-07-20/12, art. 107, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 120/1.[1 De toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 11°, publiceren elk voor zich
+## Art. 120/1
+
+[1 De toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 11°, publiceren elk voor zich
  jaarlijks een verslag met informatie over :
     1° de krachtens artikelen 118, 132, §§ 1 tot en met 3 en 135, § 3, genomen maatregelen en sancties;
     2° in voorkomend geval, het aantal ontvangen meldingen van inbreuken bedoeld in artikel 90;
@@ -3634,7 +3733,9 @@ Voor de entiteit bedoeld in 5, § 1, 1°, worden de maatregelen bedoeld in artik
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 110, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 120/2.[1 Voor de toepassing van deze Titel wordt verstaan onder :
+## Art. 120/2
+
+[1 Voor de toepassing van deze Titel wordt verstaan onder :
    1° "financiële toezichtautoriteiten" : de toezichtautoriteiten bedoeld in artikel 85, § 1, 3°, 4° en 5°, in het kader
  van hun opdracht om toezicht uit te oefenen op de kredietinstellingen en de financiële instellingen
  overeenkomstig of krachtens deze wet;
@@ -3646,7 +3747,6 @@ Voor de entiteit bedoeld in 5, § 1, 1°, worden de maatregelen bedoeld in artik
  recht van een derde land;
    4° "buitenlandse toezichtautoriteiten" : de toezichtautoriteiten van een lidstaat en de toezichtautoriteiten van
  een derde land;
-Pagina 58 van 76 Copyright Belgisch S taatsblad 17-01-2026
     5° "toezichtautoriteiten van een lidstaat" : de toezichtautoriteiten die ressorteren onder het recht van een
  lidstaat en die taken van dezelfde aard uitvoeren als de toezichtautoriteiten;
     6° "toezichtautoriteiten van een derde land" : de toezichtautoriteiten die ressorteren onder het recht van een
@@ -3687,7 +3787,9 @@ Pagina 58 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 114, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 121.§ 1. De toezichtautoriteiten werken samen en [1 wisselen alle informatie uit die nuttig is voor de
+## Art. 121
+
+§ 1. De toezichtautoriteiten werken samen en [1 wisselen alle informatie uit die nuttig is voor de
  uitoefening van hun toezichtsbevoegdheden]1 bepaald bij of krachtens deze wet, met name ten aanzien van
  onderworpen entiteiten die gelijktijdig onder de bevoegdheid vallen van verschillende toezichtautoriteiten en ten
  aanzien van de onderworpen entiteiten die deel uitmaken van een groep met dochterondernemingen of
@@ -3712,7 +3814,6 @@ Pagina 58 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 117, 008; Inwerkingtreding : 15-08-2020>
 
-Pagina 59 van 76 Copyright Belgisch S taatsblad 17-01-2026
   Afdeling 3. [1 - Nationale samenwerking tussen de toezichtautoriteiten en de autoriteit die belast is met het
  toezicht op de financiële markten]1
   ----------
@@ -3738,7 +3839,9 @@ Pagina 59 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 121, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 122.De CFI werkt samen met, en vertrekt informatie aan, andere FIE's in een zo ruim mogelijke mate [1 en
+## Art. 122
+
+De CFI werkt samen met, en vertrekt informatie aan, andere FIE's in een zo ruim mogelijke mate [1 en
  dit ongeacht hun organisatorische status, onder de voorwaarden vermeld in deze Afdeling, alsook deze vermeld
  in artikelen 66 tot 70 van de Wet van 30 juli 2018]1.
    [1 De overeenkomstig deze Afdeling ontvangen informatie en documenten worden gebruikt voor het vervullen
@@ -3746,7 +3849,9 @@ Pagina 59 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<W 2020-07-20/12, art. 122, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 123.§ 1. De CFI zal uit eigen beweging of op verzoek, alle informatie uitwisselen die nuttig kan zijn voor de
+## Art. 123
+
+§ 1. De CFI zal uit eigen beweging of op verzoek, alle informatie uitwisselen die nuttig kan zijn voor de
  verwerking of de analyse door een FIE van informatie in verband met het witwassen van geld of de financiering
  van terrorisme en de betrokken natuurlijke of rechtspersonen, [1 ongeacht het type verband houdende
  onderliggende criminele activiteit en]1 zelfs indien op het tijdstip van de uitwisseling nog niet is vastgesteld welk
@@ -3770,7 +3875,9 @@ Pagina 59 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<W 2020-07-20/12, art. 123, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2022-05-15/03, art. 10, 014; Inwerkingtreding : 04-06-2022>
 
-  Art. 124.§ 1. Wanneer de CFI gevat wordt door een melding van een vermoeden, opgesteld door een
+## Art. 124
+
+§ 1. Wanneer de CFI gevat wordt door een melding van een vermoeden, opgesteld door een
  onderworpen entiteit op grond van de artikelen 47 of 54, betreffende een ander land, zendt zij de FIE van het
  betrokken land, zo spoedig mogelijk, voor analyse, alle nuttige informatie opgenomen in de melding.
   § 2. Wanneer de CFI bijkomende informatie wil verkrijgen van een onderworpen entiteit die onder het recht van
@@ -3778,12 +3885,13 @@ Pagina 59 van 76 Copyright Belgisch S taatsblad 17-01-2026
  betrokken lidstaat.
   Wanneer de CFI wordt gevat door een dergelijk verzoek dat uitgaat van een andere FIE, [1 maakt ze gebruik
  van alle bevoegdheden waarover ze beschikt krachtens deze wet voor het ontvangen en analyseren van
-Pagina 60 van 76 Copyright Belgisch S taatsblad 17-01-2026
  meldingen van vermoedens, en]1 verzendt ze onverwijld de gevraagde informatie.
   ----------
   (1)<W 2020-07-20/12, art. 124, 008; Inwerkingtreding : 15-08-2020>
 
-  Art. 125.§ 1. Ieder document dat door de CFI wordt verzonden aan een andere FIE vermeldt dat de als zodanig
+## Art. 125
+
+§ 1. Ieder document dat door de CFI wordt verzonden aan een andere FIE vermeldt dat de als zodanig
  meegedeelde informatie alleen kan gebruikt worden voor de analytische doeleinden waarvoor de informatie werd
  gevraagd of verstrekt en dat voor iedere mededeling van die informatie aan een andere autoriteit, een ander
  agentschap of een andere afdeling, en voor het gebruik van die informatie voor andere dan de oorspronkelijk
@@ -3818,7 +3926,9 @@ Wanneer de CFI wordt gevat door een verzoek om informatie, door een buitenlandse
    Wanneer de CFI informatie wil verkrijgen voor analysedoeleinden van een buitenlandse autoriteit die geen FIE is,
  richt ze zich tot de FIE van het betrokken land.
 
-  Art. 128.Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met het witwassen van geld
+## Art. 128
+
+Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met het witwassen van geld
  verband houdende onderliggende criminele activiteiten, zoals beoogd in artikel 4, 23°, van deze wet, vormen
  geen beletsel voor de CFI om informatie te gebruiken, uit te wisselen of bijstand te verlenen aan een andere FIE,
  overeenkomstig de bepalingen van dit Hoofdstuk.]1
@@ -3831,7 +3941,9 @@ Wanneer de CFI wordt gevat door een verzoek om informatie, door een buitenlandse
 
 ## Art. 129.
 
-  Art. 130.[1 § 1. De toezichtautoriteiten werken samen met de buitenlandse toezichtautoriteiten en wisselen met
+## Art. 130
+
+[1 § 1. De toezichtautoriteiten werken samen met de buitenlandse toezichtautoriteiten en wisselen met
  hen alle informatie uit die nuttig is voor de uitoefening van hun respectieve toezichtsbevoegdheden waarin is
  voorzien bij of krachtens deze wet, richtlijn 2015/849 of de gelijkwaardige bepalingen van hun nationaal recht.
     § 2. De in het eerste lid bedoelde samenwerking en uitwisseling van informatie vinden met name plaats met de
@@ -3849,7 +3961,6 @@ Wanneer de CFI wordt gevat door een verzoek om informatie, door een buitenlandse
  bepalen of de voorwaarden voor de toepassing van artikel 43, § 2, tweede lid, vervuld zijn;
     4° wanneer de Bank een maatregel wil nemen als bedoeld in artikel 95, de toezichtautoriteit van de lidstaat
  waaronder de onderworpen entiteit ressorteert; de samenwerking heeft met name tot doel de vastgestelde
-Pagina 61 van 76 Copyright Belgisch S taatsblad 17-01-2026
  ernstige inbreuken zo spoedig mogelijk te beëindigen;
    5° de buitenlandse toezichtautoriteiten die hun bevoegdheid willen uitoefenen om aan de onderworpen
  entiteiten die onder hun bevoegdheid vallen, sancties en maatregelen op te leggen als bedoeld in de artikelen 58
@@ -3871,7 +3982,9 @@ Pagina 61 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2020-07-20/12, art. 129, 008; Inwerkingtreding : 15-08-2020>
 
-   Art. 131.[1 § 1. De samenwerking en de uitwisseling van vertrouwelijke informatie krachtens artikel 130 zijn
+## Art. 131
+
+[1 § 1. De samenwerking en de uitwisseling van vertrouwelijke informatie krachtens artikel 130 zijn
  afhankelijk van de naleving van de volgende voorwaarden :
     1° overeenkomstig de bepalingen van zijn nationaal recht onderworpen aan een beroepsgeheimregeling die ten
  minste gelijkwaardig is aan die waaraan de betrokken toezichtautoriteit is onderworpen;
@@ -3916,7 +4029,6 @@ Pagina 61 van 76 Copyright Belgisch S taatsblad 17-01-2026
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 132, 008; Inwerkingtreding : 15-08-2020>
 
-Pagina 62 van 76 Copyright Belgisch S taatsblad 17-01-2026
 ## Art. 131/2
 
 [1 § 1. De samenwerking en de uitwisseling van vertrouwelijke informatie krachtens artikel 131/1 is
@@ -3987,7 +4099,6 @@ Pagina 62 van 76 Copyright Belgisch S taatsblad 17-01-2026
     5° tenzij de Europese richtlijnen voorzien in een beroepsgeheim voor de betrokken autoriteiten van een lidstaat,
  heeft de toezichthouder van een lidstaat of de autoriteit die belast is met het toezicht op de financiële markten
  van een lidstaat, een samenwerkingsovereenkomst ondertekend die voorziet in de uitwisseling van informatie en
-Pagina 63 van 76 Copyright Belgisch S taatsblad 17-01-2026
  voldoet aan de in voornoemde punten 1° tot en met 4° bedoelde voorwaarden.
    § 2. Wanneer de informatie die wordt meegedeeld, afkomstig is van een toezichtautoriteit van een lidstaat of
  van de autoriteit van die lidstaat die belast is met het toezicht op de financiële markten, wordt deze alleen
@@ -4001,7 +4112,9 @@ Pagina 63 van 76 Copyright Belgisch S taatsblad 17-01-2026
   ----------
   (1)<W 2021-07-11/08, art. 307, 011; Inwerkingtreding : 30-06-2021>
 
-  Art. 131/5.[1 De in artikel 85, § 1, 3° en 4° bedoelde toezichtautoriteiten fungeren als aanspreekpunt voor de
+## Art. 131/5
+
+[1 De in artikel 85, § 1, 3° en 4° bedoelde toezichtautoriteiten fungeren als aanspreekpunt voor de
  EBA.
    Deze toezichtautoriteiten stellen de EBA in kennis van gevallen waarin zij er overeenkomstig artikel 13, § 3,
  derde lid, van in kennis worden gesteld dat het volgens het recht van een derde land niet is toegestaan de
@@ -4017,7 +4130,9 @@ Pagina 63 van 76 Copyright Belgisch S taatsblad 17-01-2026
 
   TITEL I. - Administratieve sancties
 
-   Art. 132.§ 1. [2 Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
+## Art. 132
+
+§ 1. [2 Onverminderd andere bij deze wet of bij andere wettelijke of reglementaire bepalingen
  voorgeschreven maatregelen, kunnen de toezichtautoriteiten bedoeld in artikel 85 of, in voorkomend geval, de bij
  andere wetten aangewezen autoriteiten, indien zij vaststellen :
     1° dat een inbreuk is begaan op de bepalingen van deze wet of van de besluiten en reglementen genomen ter
@@ -4054,7 +4169,6 @@ Pagina 63 van 76 Copyright Belgisch S taatsblad 17-01-2026
  van de entiteit, overeenkomstig paragraaf 1.]2
    § 3. Het bedrag van de in paragraaf 1 bedoelde administratieve geldboete wordt vastgesteld overeenkomstig
  paragraaf 2, rekening houdend met alle relevante omstandigheden, en met name met :
-Pagina 64 van 76 Copyright Belgisch S taatsblad 17-01-2026
    1° de ernst en de duur van de inbreuken;
    2° de mate van verantwoordelijkheid van de betrokkene;
    3° de financiële draagkracht van de betrokkene, zoals die met name blijkt uit de totale omzet van de betrokken
@@ -4103,7 +4217,9 @@ Pagina 64 van 76 Copyright Belgisch S taatsblad 17-01-2026
    (3)<W 2021-06-02/03, art. 50, 009; Inwerkingtreding : 28-06-2021>
    (4)<W 2025-12-11/13, art. 161, 023; Inwerkingtreding : 03-01-2026>
 
-   Art. 133.§ 1. Wanneer de FSMA een administratieve geldboete oplegt met toepassing van artikel 132, § 1, zijn de
+## Art. 133
+
+§ 1. Wanneer de FSMA een administratieve geldboete oplegt met toepassing van artikel 132, § 1, zijn de
  bepalingen van hoofdstuk III, afdeling 5, van de wet van 2 augustus 2002 betreffende het toezicht op de
  financiële sector en de financiële diensten van toepassing.
    § 2. Wanneer de Kansspelcommissie een administratieve geldboete oplegt met toepassing van artikel 132, § 1,
@@ -4120,7 +4236,6 @@ Pagina 64 van 76 Copyright Belgisch S taatsblad 17-01-2026
  Administratie van de Thesaurie [2 binnen een termijn van dertig dagen na ontvangst van de kennisgeving dat een
  administratieve boete kan worden opgelegd]2 en bij voorkeur schriftelijk op elektronische wijze. De betrokken
  entiteit of persoon kan steeds verzoeken om mondeling gehoord te worden. De Koning kan voor de toepassing
-Pagina 65 van 76 Copyright Belgisch S taatsblad 17-01-2026
  van dit lid aanvullende modaliteiten en procedureregels bepalen.]1
    § 4. [1 De toezichtautoriteiten bedoeld in artikel 85, § 1, 5° en 7° tot en met 12°]1, of, in voorkomend geval, de
  bij andere wetten aangewezen autoriteiten, stellen de nodige procedureregels vast voor het opleggen van een
@@ -4139,7 +4254,9 @@ De administratieve geldboetes die met toepassing van deze titel worden opgelegd,
  ingevorderd door de administratie van de FOD Financiën belast met de inning en invordering van de niet-fiscale
  schuldvorderingen, overeenkomstig de artikelen 3 en volgende van de domaniale wet van 22 december 1949.
 
-   Art. 135.§ 1. De toezichtautoriteiten, of, in voorkomend geval, de bij andere wetten aangewezen autoriteiten, de
+## Art. 135
+
+§ 1. De toezichtautoriteiten, of, in voorkomend geval, de bij andere wetten aangewezen autoriteiten, de
  minister van Financiën en de minister bevoegd voor bpost informeren de CFI over de administratieve geldboetes
  die ze met toepassing van deze titel opleggen, evenals over een eventueel beroep daartegen en over de uitkomst
  van dat beroep.
@@ -4185,12 +4302,13 @@ De administratieve geldboetes die met toepassing van deze titel worden opgelegd,
 
   TITEL II. - Strafrechtelijke sancties
 
-  Art. 136.Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvoering ervan,
+## Art. 136
+
+Voor de toepassing van deze wet en de besluiten en reglementen genomen ter uitvoering ervan,
  worden gestraft zij die inspecties en verificaties hinderen van de toezichtautoriteiten waartoe zij verplicht zijn in
  het land of in het buitenland of die weigeren de gegevens te verstrekken die ze gehouden zijn mee te delen op
  grond van deze wet of die bewust onjuiste of onvolledige inlichtingen verstrekken :
   1° voor [2 de entiteiten die onder het toezicht van de Bank vallen krachtens artikel 85, § 1, 3°]2, met de straffen
-Pagina 66 van 76 Copyright Belgisch S taatsblad 17-01-2026
  bepaald in artikel 36/20, § 1, van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de
  Nationale Bank;
   2° voor [2 de entiteiten die onder het toezicht van de FSMA vallen krachtens artikel 85, § 1, 4°]2, met de
@@ -4203,7 +4321,9 @@ Pagina 66 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<W 2022-02-01/01, art. 5, 012; Inwerkingtreding : 21-02-2022>
   (2)<W 2025-12-11/13, art. 95, 023; Inwerkingtreding : 03-01-2026>
 
-  Art. 137.Worden bestraft met een geldboete van 250 tot 225 000 euro :
+## Art. 137
+
+Worden bestraft met een geldboete van 250 tot 225 000 euro :
   1° zij die in strijd zijn met de bepalingen van artikel 66, § 2, eerste lid, of van artikel 67. De geldboete mag
  evenwel niet meer bedragen dan tien procent van de betaling of de schenking;
   2° in afwijking van artikel 136, zij die met opzet, de vervulling van de opdracht van politieambtenaren of de
@@ -4265,7 +4385,6 @@ In artikel 46quater, § 1, tweede lid, van het Wetboek van Strafvordering, ingev
  voorkoming van het gebruik van het financiële stelsel tot voorkoming van het gebruik van het financiële stelsel
  voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 4, 23°, van
  de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en
-Pagina 67 van 76 Copyright Belgisch S taatsblad 17-01-2026
  tot beperking van het gebruik van contanten".
 
 ## Art. 141
@@ -4348,7 +4467,6 @@ In de inleidende zin van artikel 35/1, § 1, 1°, van de wet van 22 februari 199
  "artikel 39 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het
  witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 85, § 1, 3°, van de
  wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot
-Pagina 68 van 76 Copyright Belgisch S taatsblad 17-01-2026
  beperking van het gebruik van contanten".
 
 ## Art. 148
@@ -4433,7 +4551,6 @@ In afdeling V van hetzelfde wetboek, ingevoegd bij artikel 153, wordt een artike
 
 In afdeling V van hetzelfde wetboek, ingevoegd bij artikel 153, wordt een artikel 14/2 ingevoegd,
  luidende :
-Pagina 69 van 76 Copyright Belgisch S taatsblad 17-01-2026
   "Art. 14/2. Worden gestraft met een geldboete van 50 euro tot 5 000 euro, de bestuurders die de formaliteiten
  bedoeld in artikel 14/1, tweede en derde lid, binnen de in dit artikel vastgelegde termijn niet uitvoeren.".
 
@@ -4522,7 +4639,6 @@ In artikel 4, § 5, van de wet van 28 februari 2002 ter regeling van het opstell
  woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van
  terrorisme en tot beperking van het gebruik van contanten".
 
-Pagina 70 van 76 Copyright Belgisch S taatsblad 17-01-2026
   HOOFDSTUK 11. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector
  en de financiële diensten
 
@@ -4605,7 +4721,6 @@ In artikel 102, § 2, 7°, van de wet van 20 juli 2006 houdende diverse bepaling
  en de financiering van terrorisme en tot beperking van het gebruik van contanten" en worden de woorden
  "artikelen 4 tot 19" vervangen door de woorden "artikelen 2 en 3, artikel 4, 23°, artikel 5, § 1, 33°, en boek II,
  titels 1 tot en met 4, hoofdstukken 1 en 2, afdeling 4".
-Pagina 71 van 76 Copyright Belgisch S taatsblad 17-01-2026
   HOOFDSTUK 16. - Wijzigingen van de wet van 21 december 2009 op het statuut van de betalingsinstellingen en
  van de instellingen voor elektronisch geld, de toegang tot het bedrijf van betalingsdienstaanbieder en tot de
  activiteit van uitgifte van elektronisch geld en de toegang tot betalingssystemen
@@ -4691,7 +4806,6 @@ In artikel VII.40, § 2, van het Wetboek van economisch recht, ingevoegd bij de 
 In artikel VII.79, tweede lid, van hetzelfde wetboek, ingevoegd bij de wet van 19 april 2014, worden de
  woorden "artikel 12 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel
  voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 19, § 2,
-Pagina 72 van 76 Copyright Belgisch S taatsblad 17-01-2026
  tweede lid, en boek II, titel 3, hoofdstuk 2, van de wet van 18 september 2017 tot voorkoming van het
  witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
@@ -4776,7 +4890,6 @@ In artikel 6, 2°, van dezelfde wet, worden de woorden "artikel 5, § 3, van de 
 ## Art. 189
 
 In artikel 7, achtste lid, van dezelfde wet, worden de woorden "wet van 11 januari 1993" vervangen
-Pagina 73 van 76 Copyright Belgisch S taatsblad 17-01-2026
  door de woorden "wet van 18 september 2017".
 
   TITEL 3. - Opheffingsbepalingen
@@ -4851,7 +4964,6 @@ De koninklijke besluiten, de reglementen en alle andere handelingen van reglemen
   b) de cliënten die inwoner zijn van geografische gebieden met een hoog risico bedoeld onder 3° ;
   c) rechtspersonen of juridische constructies die vehikels zijn voor het aanhouden van persoonlijke activa;
   d) vennootschappen met gevolmachtigde aandeelhouders ("shareholders") of met aandelen aan toonder;
-Pagina 74 van 76 Copyright Belgisch S taatsblad 17-01-2026
    e) bedrijven waar veel geldverkeer in contanten plaatsvindt;
    f) de eigendomsstructuur van de vennootschap lijkt ongebruikelijk of buitensporig complex gezien de aard van
  de vennootschapsactiviteit;
@@ -4918,7 +5030,6 @@ Pagina 74 van 76 Copyright Belgisch S taatsblad 17-01-2026
  functie aangewezen zijn;
     c) de officieren bekleed met de graad van luitenant-generaal of vice-admiraal die, naargelang het geval, door de
  Koning of de minister van Defensie, voor hun ambt aangewezen zijn;
-Pagina 75 van 76 Copyright Belgisch S taatsblad 17-01-2026
    d) de officieren bekleed met de graad van generaal-majoor of divisieadmiraal die, naargelang het geval, door de
  Koning of de minister van Defensie, voor hun ambt aangewezen zijn;
    e) de officieren bekleed met de graad van brigadegeneraal of flottielje-admiraal die door de Koning voor een
@@ -4933,4 +5044,3 @@ Pagina 75 van 76 Copyright Belgisch S taatsblad 17-01-2026
   (1)<Ingevoegd bij W 2020-07-20/12, art. 145, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2021-06-27/02, art. 114, 010; Inwerkingtreding : 10-07-2021>
 
-Pagina 76 van 76 Copyright Belgisch S taatsblad 17-01-2026
