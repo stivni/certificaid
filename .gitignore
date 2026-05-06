@@ -27,3 +27,16 @@ tools/__pycache__/
 
 # PO-build voortgang (lokaal, niet in repo)
 .po-voortgang-*.md
+
+# RAG data (gegenereerd, groot)
+data/chroma_db/
+data/concept_records/
+data/cases/
+data/relations.json
+
+# Python virtual envs
+venv/
+.venv/
+
+# Environment variables
+.env

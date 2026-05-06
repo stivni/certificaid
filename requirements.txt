@@ -1,0 +1,15 @@
+# RAG-infrastructuur
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# Claude API
+anthropic>=0.40.0
+
+# Tutor interface
+streamlit>=1.35.0
+
+# Markdown + YAML parsing
+python-frontmatter>=1.1.0
+
+# Utilities
+tqdm>=4.66.0

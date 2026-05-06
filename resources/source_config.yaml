@@ -1,0 +1,942 @@
+# Bronnen-configuratie voor de Certificaid conversie-pipeline.
+#
+# Gebruik:
+#   python tools/convert.py --source WIB92 --reindex
+#   python tools/convert.py --type ejustice --reindex   # alle ejustice bronnen
+#   python tools/convert.py --list                       # overzicht status
+#
+# Velden:
+#   type        : conversiemethode (wib92 | wetboek | ejustice_nl | ejustice_bilingual | raw_md | skip)
+#   raw         : pad naar bronbestand (PDF of MD)
+#   output      : gestructureerde markdown output
+#   content     : site-versie (Quartz) — optioneel
+#   wetboek_key : sleutel in CONFIGS-dict van convert-wetboek.py (enkel voor type=wetboek)
+#   itaa_sectie : ITAA-LEX sectienummer
+#   tags        : YAML-lijst voor frontmatter
+#   bijgewerkt  : datum van de gecoördineerde versie
+#   cleanup     : lijst van extra cleanup-stappen (bovenop de standaard)
+#   status      : volledig | toc_only | onbekend | ontbreekt | skip
+#
+#   bron_rol    : autoriteit en studiegewicht van de bron (gebruik in RAG + conceptextractie)
+#     "itaa_lex"       — staat in ITAA-LEX, raadpleegbaar bij examen; hoogste autoriteit
+#     "normatief"      — wettekst buiten ITAA-LEX; hoge autoriteit, niet bij examen
+#     "interpretatief" — CBN-adviezen, ITAA-normen; autoriteit voor interpretatie
+#     "praktijkgids"   — toelichtingen, gidsen, commentaar; hoe het in de praktijk werkt
+#     "formulier"      — aangifteformulieren; referentie, geen conceptinhoud
+
+sources:
+
+  # ─── WIB92 ──────────────────────────────────────────────────────────────
+  WIB92:
+    type: wib92
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WIB92-deel1.pdf
+    output: resources/bronnen/wetteksten/WIB92.md
+    content: content/bronnen/wetteksten/II-wib92.md
+    itaa_sectie: "II"
+    tags: ["II", "2.2", "2.3"]
+    bijgewerkt: "10.02.2026"
+    status: volledig
+
+  # ─── wetboek-type (delegeert naar convert-wetboek.py) ──────────────────
+  WBTW:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-2026
+    output: resources/bronnen/wetteksten/WBTW.md
+    content: content/bronnen/wetteksten/VIA-wbtw.md
+    itaa_sectie: "VI.A"
+    tags: ["VI.A", "2.4"]
+    status: volledig
+
+  VCF:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: vcf-update
+    output: resources/bronnen/wetteksten/VCF.md
+    content: content/bronnen/wetteksten/IVA-vcf.md
+    itaa_sectie: "IV.A"
+    tags: ["IV.A", "2.5", "2.6"]
+    status: volledig
+
+  Registratierechten-federaal:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: reg-federaal
+    output: resources/bronnen/wetteksten/Registratierechten-federaal.md
+    content: content/bronnen/wetteksten/VIII-registratierechten-federaal.md
+    itaa_sectie: "VIII"
+    tags: ["VIII", "2.5", "2.6"]
+    status: volledig
+
+  Registratierechten-Brussel:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: reg-brussel
+    output: resources/bronnen/wetteksten/Registratierechten-Brussel.md
+    itaa_sectie: "VIII"
+    tags: ["VIII", "2.6"]
+    status: volledig
+
+  Registratierechten-Waals:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: reg-waals
+    output: resources/bronnen/wetteksten/Registratierechten-Waals.md
+    itaa_sectie: "VIII"
+    tags: ["VIII", "2.6"]
+    status: volledig
+
+  Successierechten-federaal:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: successie-federaal
+    output: resources/bronnen/wetteksten/Successierechten-federaal.md
+    itaa_sectie: "IX"
+    tags: ["IX", "2.6"]
+    status: volledig
+
+  Successierechten-Brussel:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: successie-brussel
+    output: resources/bronnen/wetteksten/Successierechten-Brussel.md
+    itaa_sectie: "IX"
+    tags: ["IX", "2.6"]
+    status: volledig
+
+  Successierechten-Waals:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: successie-waals
+    output: resources/bronnen/wetteksten/Successierechten-Waals.md
+    itaa_sectie: "IX"
+    tags: ["IX", "2.6"]
+    status: volledig
+
+  Brusselse-Codex-Fiscale-Procedure:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: brusselse-codex-fiscale-procedure
+    output: resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md
+    itaa_sectie: "IV.B"
+    tags: ["IV.B", "2.5"]
+    status: volledig
+
+  Decr-Waals-Directe-Belastingen:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: decr-waals-belastingen
+    output: resources/bronnen/wetteksten/Decr-Waals-Directe-Belastingen.md
+    itaa_sectie: "IV.C"
+    tags: ["IV.C", "2.5"]
+    status: volledig
+
+  Klokkenluiderswet-2022:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: klokkenluiderswet
+    output: resources/bronnen/wetteksten/Klokkenluiderswet-2022.md
+    itaa_sectie: "XVIII"
+    tags: ["XVIII", "4.0"]
+    status: volledig
+
+  AVG-wet-2018:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: avg-wet-2018
+    output: resources/bronnen/wetteksten/AVG-wet-2018.md
+    itaa_sectie: "XIX"
+    tags: ["XIX", "4.0"]
+    status: volledig
+
+  EU-AVG-Verordening-2016-679:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: avg-verordening
+    output: resources/bronnen/wetteksten/EU-AVG-Verordening-2016-679.md
+    itaa_sectie: "XIX"
+    tags: ["XIX", "4.0"]
+    status: volledig
+
+  Wet-voorafgaande-beslissingen-2002:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wet-voorafgaande-beslissingen
+    output: resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md
+    itaa_sectie: "I"
+    tags: ["I", "2.1"]
+    status: volledig
+
+  Wet-betalingsachterstand-2002:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wet-betalingsachterstand
+    output: resources/bronnen/wetteksten/Wet-betalingsachterstand-2002.md
+    itaa_sectie: "XIV"
+    tags: ["XIV"]
+    status: volledig
+
+  Wet-arbeidsovereenkomsten-1978:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wet-arbeidsovereenkomsten
+    output: resources/bronnen/wetteksten/Wet-arbeidsovereenkomsten-1978.md
+    itaa_sectie: "XVI"
+    tags: ["XVI"]
+    status: volledig
+
+  Strafwetboek2024-boek1:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: strafwetboek2024-boek1
+    output: resources/bronnen/wetteksten/Strafwetboek2024-boek1.md
+    itaa_sectie: "XII"
+    tags: ["XII"]
+    status: volledig
+
+  Strafwetboek2024-boek2:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: strafwetboek2024-boek2
+    output: resources/bronnen/wetteksten/Strafwetboek2024-boek2.md
+    itaa_sectie: "XII"
+    tags: ["XII"]
+    status: volledig
+
+  KB-voorafgaande-beslissingen-art26:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: kb-voorafgaande-beslissingen-art26
+    output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art26-2003.md
+    itaa_sectie: "I"
+    tags: ["I"]
+    status: volledig
+
+  # WBTW KB's (wetboek-type) — inclusief recenter dan compilatie (2020)
+  WBTW-KB1-voldoening:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb1
+    output: resources/bronnen/wetteksten/WBTW-KB1-voldoening.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    bijgewerkt: "2024"
+    status: volledig
+
+  WBTW-KB19-kleine-ondernemingen:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb19
+    output: resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    bijgewerkt: "2024"
+    status: volledig
+
+  WBTW-KB56-teruggaaf:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb56
+    output: resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    bijgewerkt: "2022"
+    status: volledig
+
+  WBTW-KB-GKS:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb-gks
+    output: resources/bronnen/wetteksten/WBTW-KB-GKS.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    bijgewerkt: "2024"
+    status: volledig
+
+  WBTW-KB2-forfaitaire:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb2
+    output: resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB2bis-cafehouders:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb2bis
+    output: resources/bronnen/wetteksten/WBTW-KB2bis-cafehouders.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB31-niet-gevestigd:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb31
+    output: resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB54-entrepot:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb54
+    output: resources/bronnen/wetteksten/WBTW-KB54-entrepot.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB59-handelsgeschenken:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb59
+    output: resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB22jun2020-e-notariaat:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb22jun2020
+    output: resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB-compilatie:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/btw-kbs/WBTW-KBs-compilatie-2020.pdf
+    output: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    bijgewerkt: "06.03.2020"
+    wet: "Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)"
+    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  WBTW-MB-compilatie:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/btw-kbs/WBTW-MB.pdf
+    output: resources/bronnen/wetteksten/WBTW-MB-compilatie.md
+    content: content/bronnen/wetteksten/VIC-wbtw-mb-compilatie.md
+    itaa_sectie: "VI.C"
+    tags: ["VI.C", "2.4"]
+    bijgewerkt: "29.04.2024"
+    wet: "Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)"
+    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  WBTW-MB-dagboek-2023:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-mb-dagboek-2023
+    output: resources/bronnen/wetteksten/WBTW-MB-dagboek-ontvangsten-2023.md
+    itaa_sectie: "VI.C"
+    tags: ["VI.C", "2.4"]
+    status: volledig
+
+  WBTW-KB29aug2019-registers:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb29aug2019
+    output: resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB7-invoer:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb7
+    output: resources/bronnen/wetteksten/WBTW-KB7-invoer.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB18-uitvoer-vrijstellingen:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb18
+    output: resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB46-intracommunautaire-aangifte:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb46
+    output: resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  WBTW-KB48-levering-vervoermiddelen:
+    type: wetboek
+    bron_rol: itaa_lex
+    wetboek_key: wbtw-kb48
+    output: resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md
+    itaa_sectie: "VI.B"
+    tags: ["VI.B", "2.4"]
+    status: volledig
+
+  # ─── ejustice-type (toc-only → moeten geconverteerd worden) ─────────────
+  # ejustice_bilingual: tweetalig NL/FR, kolom-extractie nodig
+  # ejustice_nl: enkel NL, maar met ejustice-ruis (TOC, headers, ...)
+
+  WVV:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WVV.pdf
+    output: resources/bronnen/wetteksten/WVV.md
+    content: content/bronnen/wetteksten/XV-wvv.md
+    itaa_sectie: "XV"
+    tags: ["XV", "1.5", "3.1", "3.2"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wetboek van vennootschappen en verenigingen 23/03/2019"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  Antiwitwaswet-2017:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
+    output: resources/bronnen/wetteksten/Antiwitwaswet-2017.md
+    content: content/bronnen/wetteksten/XVII-antiwitwaswet.md
+    itaa_sectie: "XVII"
+    tags: ["XVII", "4.0"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme"
+    cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  WER:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WER.pdf
+    output: resources/bronnen/wetteksten/WER.md
+    content: content/bronnen/wetteksten/XIII-wer.md
+    itaa_sectie: "XIII"
+    tags: ["XIII", "1.4"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wetboek van Economisch Recht"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  WER-Boek-VIII-normalisatie:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
+    output: resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md
+    itaa_sectie: "XIII"
+    tags: ["XIII", "1.4"]
+    bijgewerkt: "24.12.2025"
+    wet: "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  Wet-ITAA-2019:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/Wet-ITAA-2019.pdf
+    output: resources/bronnen/wetteksten/Wet-ITAA-2019.md
+    content: content/bronnen/wetteksten/XXI-wet-itaa.md
+    itaa_sectie: "XXI"
+    tags: ["XXI", "4.0"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants"
+    cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  Wetboek-Invordering:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/Wetboek-Invordering.pdf
+    output: resources/bronnen/wetteksten/Wetboek-Invordering.md
+    content: content/bronnen/wetteksten/VII-wetboek-invordering.md
+    itaa_sectie: "VII"
+    tags: ["VII", "2.5"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  WDRT:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WDRT.pdf
+    output: resources/bronnen/wetteksten/WDRT.md
+    content: content/bronnen/wetteksten/V-wdrt.md
+    itaa_sectie: "V"
+    tags: ["V", "2.5", "2.6"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wetboek Diverse Rechten en Taksen"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  KB-WVV-2019:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/KB-WVV-2019.pdf
+    output: resources/bronnen/wetteksten/KB-WVV-2019.md
+    content: content/bronnen/wetteksten/XV-KB-wvv.md
+    itaa_sectie: "XV"
+    tags: ["XV", "1.5", "3.1", "3.2"]
+    bijgewerkt: "24.12.2025"
+    wet: "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  KB-WIB92:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/KB-WIB92.pdf
+    output: resources/bronnen/wetteksten/KB-WIB92.md
+    content: content/bronnen/wetteksten/II-KB-wib92.md
+    itaa_sectie: "II"
+    tags: ["II", "2.2", "2.3"]
+    bijgewerkt: "24.12.2025"
+    wet: "Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  KB-21-10-2018:
+    type: ejustice_bilingual
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/KB-21-10-2018.pdf
+    output: resources/bronnen/wetteksten/KB-21-10-2018.md
+    content: content/bronnen/wetteksten/XIII-KB-wer-boekhouding.md
+    itaa_sectie: "XIII"
+    tags: ["XIII", "1.1", "1.2", "1.3"]
+    bijgewerkt: "24.12.2025"
+    wet: "Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van ondernemers"
+    nl_col_x: 0
+    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
+    status: toc_only
+
+  # ─── BW (Nieuw Burgerlijk Wetboek) ─────────────────────────────────────
+  BW-boek1:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf
+    output: resources/bronnen/wetteksten/BW-boek1-algemene-bepalingen.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 1 — Algemene bepalingen"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek2:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf
+    output: resources/bronnen/wetteksten/BW-boek2-relatievermogensrecht.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek3:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek3-goederen.pdf
+    output: resources/bronnen/wetteksten/BW-boek3-goederen.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 3 — Goederen"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek4:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
+    output: resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1", "2.6"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek5:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
+    output: resources/bronnen/wetteksten/BW-boek5-verbintenissen.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 5 — Verbintenissen"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek8:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek8-bewijs.pdf
+    output: resources/bronnen/wetteksten/BW-boek8-bewijs.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 8 — Bewijs"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  BW-boek9:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
+    output: resources/bronnen/wetteksten/BW-boek9-zekerheden.md
+    itaa_sectie: "XI"
+    tags: ["XI", "3.1"]
+    bijgewerkt: "24.12.2025"
+    wet: "Burgerlijk Wetboek — Boek 9 — Zekerheden"
+    cleanup: [remove_french_lines]
+    status: volledig
+
+  # ─── Nieuwe bronnen (toegevoegd 2026-05-06) ────────────────────────────
+
+  # BTW-richtlijnen en uitvoeringsverordening (EU Publicatieblad NL)
+  BTW-richtlijn-2006-112:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: "resources/raw/wetteksten/CELEX_32006L0112_NL_TXT.pdf"
+    output: resources/bronnen/wetteksten/EU-BTW-richtlijn-2006-112.md
+    content: content/bronnen/wetteksten/VIA-eu-btw-richtlijn.md
+    itaa_sectie: "VI.A"
+    tags: ["VI.A", "2.4"]
+    bijgewerkt: "11.12.2006"
+    wet: "Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  BTW-uitvoeringsverordening-282-2011:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: "resources/raw/wetteksten/CELEX_32011R0282_NL_TXT.pdf"
+    output: resources/bronnen/wetteksten/EU-BTW-uitvoeringsverordening-282-2011.md
+    content: content/bronnen/wetteksten/VIA-eu-btw-uitvoeringsverordening.md
+    itaa_sectie: "VI.A"
+    tags: ["VI.A", "2.4"]
+    bijgewerkt: "23.03.2011"
+    wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  BTW-teruggaaf-richtlijn-2008-9:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: "resources/raw/wetteksten/CELEX_02008L0009-20101001_NL_TXT.pdf"
+    output: resources/bronnen/wetteksten/EU-BTW-teruggaaf-richtlijn-2008-9.md
+    itaa_sectie: "VI.A"
+    tags: ["VI.A", "2.4"]
+    bijgewerkt: "01.10.2010"
+    wet: "Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  BTW-dertiende-richtlijn-1986:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: "resources/raw/wetteksten/CELEX_31986L0560_NL_TXT.pdf"
+    output: resources/bronnen/wetteksten/EU-BTW-dertiende-richtlijn-1986.md
+    itaa_sectie: "VI.A"
+    tags: ["VI.A", "2.4"]
+    bijgewerkt: "21.11.1986"
+    wet: "Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen"
+    cleanup: [remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  # Wetboek MIB Gelijkgestelde Belastingen (3 gewesten)
+  MIGB-Brussel:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: "resources/raw/wetteksten/Wetboek MIGB-Brussel.pdf"
+    output: resources/bronnen/wetteksten/MIGB-Brussel.md
+    content: content/bronnen/wetteksten/III-migb-brussel.md
+    itaa_sectie: "III"
+    tags: ["III", "2.2", "2.3"]
+    bijgewerkt: "12.05.2024"
+    wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest"
+    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  MIGB-Wallonie:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: "resources/raw/wetteksten/Wetboek MIGB-Wallonie.pdf"
+    output: resources/bronnen/wetteksten/MIGB-Wallonie.md
+    content: content/bronnen/wetteksten/III-migb-wallonie.md
+    itaa_sectie: "III"
+    tags: ["III", "2.2", "2.3"]
+    bijgewerkt: "30.05.2025"
+    wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest"
+    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  MIGB-Vlaanderen:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: "resources/raw/wetteksten/Wetboek MIGB-Vlaanderen.pdf"
+    output: resources/bronnen/wetteksten/MIGB-Vlaanderen.md
+    content: content/bronnen/wetteksten/III-migb-vlaanderen.md
+    itaa_sectie: "III"
+    tags: ["III", "2.2", "2.3"]
+    bijgewerkt: "13.04.2019"
+    wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest"
+    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  # Verdrag wederzijdse administratieve bijstand (WABB/CMAAT)
+  Verdrag-WABB:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: "resources/raw/wetteksten/Vertaling van de akte in het Nederlands.pdf"
+    output: resources/bronnen/wetteksten/Verdrag-WABB.md
+    itaa_sectie: "I"
+    tags: ["I", "2.1", "2.5"]
+    bijgewerkt: "1988"
+    wet: "Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)"
+    cleanup: [remove_page_artifacts, ensure_article_headings]
+    status: nieuw
+
+  # Wet beroepskwalificaties (Belgische omzetting EU-richtlijn)
+  Wet-beroepskwalificaties-2008:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/EU-beroepskwalificatie.pdf
+    output: resources/bronnen/wetteksten/Wet-beroepskwalificaties-2008.md
+    itaa_sectie: "XXI"
+    tags: ["XXI", "4.0"]
+    bijgewerkt: "12.02.2008"
+    wet: "Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties"
+    cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  # Oud Strafwetboek 1867
+  Strafwetboek-1867:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/strafwetboek.pdf
+    output: resources/bronnen/wetteksten/Strafwetboek-1867.md
+    itaa_sectie: "XII"
+    tags: ["XII"]
+    bijgewerkt: "gecoördineerd"
+    wet: "Strafwetboek 8 juni 1867 (Oud Strafwetboek)"
+    cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
+    status: nieuw
+
+  # ─── skip (al goed of niet relevant voor RAG) ───────────────────────────
+  Oud-BW:
+    type: skip
+    bron_rol: normatief
+    output: resources/bronnen/wetteksten/Oud-BW.md
+    status: volledig
+    note: "Groot bestand, al correct geconverteerd, enkel opkuisen via cleanup --in-place"
+
+  # ─── Sectie X — Europese richtlijnen (reeds geconverteerd, config was ontbrekend) ──
+  EU-Richtlijn-moeder-dochter-2011-96:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf
+    output: resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md
+    content: content/bronnen/wetteksten/X-eu-richtlijn-moeder-dochter.md
+    itaa_sectie: "X"
+    tags: ["X", "2.8"]
+    bijgewerkt: "29.12.2011"
+    wet: "Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  EU-Richtlijn-interest-royalties-2003-49:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
+    output: resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md
+    content: content/bronnen/wetteksten/X-eu-richtlijn-interest-royalties.md
+    itaa_sectie: "X"
+    tags: ["X", "2.8"]
+    bijgewerkt: "26.06.2003"
+    wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  EU-Richtlijn-fusie-2009-133:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
+    output: resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md
+    content: content/bronnen/wetteksten/X-eu-richtlijn-fusie.md
+    itaa_sectie: "X"
+    tags: ["X", "2.8"]
+    bijgewerkt: "25.11.2009"
+    wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  Richtlijn-2013-34-EU:
+    type: ejustice_nl
+    bron_rol: itaa_lex
+    simple_mode: true
+    raw: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
+    output: resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md
+    itaa_sectie: "XIII"
+    tags: ["XIII", "1.1", "1.2"]
+    bijgewerkt: "28.05.2024"
+    wet: "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  EU-IFRS-verordening-1606-2002:
+    type: ejustice_nl
+    bron_rol: normatief
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-IFRS-verordening-1606-2002.pdf
+    output: resources/bronnen/wetteksten/EU-IFRS-verordening-1606-2002.md
+    itaa_sectie: ""
+    tags: ["1.2", "1.5"]
+    bijgewerkt: "11.09.2002"
+    wet: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  EU-Richtlijn-witwassen-2018-1673:
+    type: ejustice_nl
+    bron_rol: normatief
+    simple_mode: true
+    raw: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
+    output: resources/bronnen/wetteksten/EU-Richtlijn-witwassen-2018-1673.md
+    itaa_sectie: ""
+    tags: ["1.2", "4.0"]
+    bijgewerkt: "12.11.2018"
+    wet: "Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld"
+    cleanup: [remove_toc_ejustice, remove_inline_metadata, ensure_article_headings]
+    status: volledig
+
+  # ─── Sectie I — KB voorafgaande beslissingen art. 22 (4 PDF-delen) ─────────
+  KB-voorafgaande-beslissingen-art22:
+    type: skip
+    bron_rol: normatief
+    output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art22-2003.md
+    status: volledig
+    note: "Gegenereerd uit 4 PDF-delen (p1-p4). Herconversie: manueel via pdftotext + cleanup op alle 4 delen samen."
+
+  X-oeso-model-verdrag:
+    type: skip
+    bron_rol: normatief
+    output: resources/bronnen/wetteksten/X-oeso-model-verdrag.md
+    status: volledig
+
+  aangifte-PB-2025:
+    type: skip
+    bron_rol: formulier
+    output: resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md
+    status: volledig
+    note: "Aangifteformulier PB 2025 — bezoldigingen; geen wettekst, enkel referentie"
+
+  aangifte-PB-2025-stopzetting:
+    type: skip
+    bron_rol: formulier
+    output: resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md
+    status: volledig
+    note: "Aangifteformulier PB 2025 — stopzetting; geen wettekst, enkel referentie"
+
+  Wet-verzekeringen-2014:
+    type: skip
+    bron_rol: normatief
+    output: resources/bronnen/wetteksten/Wet-verzekeringen-2014.md
+    tags: ["2.6", "1.2"]
+    bijgewerkt: "24.12.2025"
+    wet: "Wet 4 april 2014 betreffende de verzekeringen"
+    status: volledig
+    note: "Gegenereerd uit Justel HTML (gecoördineerde versie t.e.m. 24-12-2025); ejustice heeft geen gecoördineerde PDF voor deze wet"
+
+  toelichting-PB-2025-VG:
+    type: skip
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/toelichting-PB-2025-deel1-VG.pdf
+    output: resources/bronnen/wetteksten/toelichting-PB-2025-deel1-VG.md
+    tags: ["2.2", "2.3"]
+    bijgewerkt: "2025"
+    wet: "Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest"
+    status: volledig
+    note: "Praktische gids FOD Financiën — uitleg per code/vak; jaarlijks te vervangen"
+
+  toelichting-VenB-2025:
+    type: skip
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/toelichting-VenB-2025.pdf
+    output: resources/bronnen/wetteksten/toelichting-VenB-2025.md
+    tags: ["2.3"]
+    bijgewerkt: "2025"
+    wet: "Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025"
+    status: volledig
+    note: "Praktische gids FOD Financiën — uitleg per code bij de Biztax-aangifte; jaarlijks te vervangen"
+
+  toelichting-PB-2025-deel2:
+    type: skip
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
+    output: resources/bronnen/wetteksten/toelichting-PB-2025-deel2.md
+    tags: ["2.2", "2.3"]
+    bijgewerkt: "2025"
+    wet: "Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2"
+    status: volledig
+    note: "Deel 2: belastingverminderingen, aftrekbare bestedingen"
+
+  belastinggids-aclvb-2025:
+    type: skip
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/belastinggids-aclvb-2025.pdf
+    output: resources/bronnen/wetteksten/belastinggids-aclvb-2025.md
+    tags: ["2.2", "2.3", "2.5"]
+    bijgewerkt: "05.2025"
+    wet: "Belastinggids 2025 — ACLVB"
+    status: volledig
+    note: "Praktische PB-gids voor werknemers; nuttig als toegankelijk overzicht naast officiële toelichtingen"
+
+  MAR-vzw:
+    type: skip
+    bron_rol: normatief
+    output: resources/bronnen/wetteksten/MAR-vzw.md
+    tags: ["1.1", "1.2"]
+    bijgewerkt: "2023"
+    wet: "Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)"
+    status: volledig
+    note: "MAR voor vzw/ivzw/stichtingen. MAR voor ondernemingen zit in KB-21-10-2018.md"
+  fiscaal-memento-2025:
+    type: skip
+    bron_rol: praktijkgids
+    raw: resources/raw/wetteksten/fiscaal-memento-2025.pdf
+    output: resources/bronnen/wetteksten/fiscaal-memento-2025.md
+    tags: ["2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8"]
+    bijgewerkt: "31.12.2024"
+    wet: "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)"
+    status: volledig
+    note: "Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van FOD Financiën zelf"
