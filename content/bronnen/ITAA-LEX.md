@@ -315,4 +315,106 @@ grep -rl "  - fusie" resources/bronnen/adviezen/
 *Semantische index met alle advies-nummers, data en thema's: `resources/bronnen/adviezen/INDEX.md`*
 
 ---
+
+## ⏳ TODO — Nog toe te voegen bronnen
+
+*Bronnen die nuttig zijn voor de RAG-index en conceptextractie, maar nog niet verwerkt zijn. Procedure: download → `resources/raw/wetteksten/` → conversie → entry in `source_config.yaml` → herbouw index.*
+
+### Cijferzakboekje · `formulier / referentie`
+
+> **Status**: nog aan te vragen / te ontvangen — versie 2025 nodig.
+
+ITAA publiceert jaarlijks het Cijferzakboekje met geïndexeerde bedragen, tarieven en drempelwaarden die niet in de wetteksten staan. Het is een officiële examenbron, samen met ITAA-LEX.
+
+**Doel in de RAG**: bij vragen over exacte bedragen/tarieven het zakboekje ophalen als aanvulling op de wettekst. Structuur: per rubriek de sleutelwaarde + verwijzing naar de ITAA-LEX sectie.
+
+- 📥 Versie 2025 opvragen bij ITAA of downloaden via [itaa.be](https://itaa.be)
+- Verwerken als `type: skip`, `bron_rol: formulier` (of nieuw type `referentie`)
+- Toevoegen aan ITAA-LEX.md "Andere bronnen"
+
+---
+
+### Administratieve circulaires · `praktijkgids`
+
+> **Status**: lijst geverifieerd (29 referenties), PDFs nog te downloaden van [fisconetplus.fgov.be](https://fisconetplus.fgov.be).
+
+★ = FAQ-circulaire (meest verrijkend voor studie — prioriteit bij downloaden)
+
+**PB — Bezoldigingen, voordelen en kosten (PO 2.2)**
+
+| Referentie | Onderwerp | Prio |
+|---|---|---|
+| `2023/C/99` | FAQ fiscale vergroening mobiliteit — ATN bedrijfswagen | ★ |
+| `2024/C/50` | FAQ fiscale vergroening mobiliteit — geactualiseerd 2024 | ★ |
+| `2024/C/16` | Mobiliteitsbudget — berekeningsformules | |
+| `2024/C/22` | Vrijstelling fietsvergoeding en terbeschikkingstelling bedrijfsfiets | |
+| `2024/C/37` | Tussenkomsten werkgever voor thuiswerk | |
+| `2020/C/100` | Kosten eigen aan de werkgever — thuiswerk | |
+| `2022/C/62` | Verantwoording terugbetaling eigen kosten werkgever | |
+| `2022/C/86` | Aftrekbaarheid beroepskosten | |
+| `2024/C/77` | Terugbetaling elektriciteitskosten thuisladen bedrijfswagen | |
+
+**VenB (PO 2.3)**
+
+| Referentie | Onderwerp | Prio |
+|---|---|---|
+| `2020/C/95` | FAQ innovatie-inkomsten aftrek (IID) | ★ |
+| `2019/C/50` | Antimisbruikbepalingen art. 344 WIB92 | |
+| `2021/C/43` | Addendum antimisbruikbepalingen | |
+| `2020/C/35` | Verrekenprijzen (transfer pricing) — OESO-aanpak | |
+| `2023/C/8` | Interestaftrekbeperking (ATAD) | |
+| `2023/C/76` | Nieuwe verworpen uitgaven VenB | |
+| `2025/C/63` | DBI — minimumdeelneming | |
+| `2024/C/82` | CFC-regeling | |
+| `2024/C/29` | Niet-aftrekbaarheid huur onroerend goed | |
+| `2024/C/48` | Addendum bij 2024/C/29 | |
+| `2020/C/122` | Vrijgestelde wederopbouwreserve | |
+| `2022/C/42` | VVPRbis — voorwaarden | |
+
+**BTW (PO 2.4)**
+
+| Referentie | Onderwerp | Prio |
+|---|---|---|
+| `2019/C/65` | FAQ opeisbaarheid btw | ★ |
+| `2024/C/53` | FAQ aftrek btw: verhoudingsgetal vs. werkelijk gebruik | ★ |
+| `2024/C/32` | FAQ btw 6% afbraak en heropbouw | ★ |
+| `2023/C/34` | Wijzigingen WBTW en KB nr. 20 | |
+
+**Boekhoudrecht / vzw (PO 1.2)**
+
+| Referentie | Onderwerp | Prio |
+|---|---|---|
+| `2023/C/46` | FAQ verenigingsactiviteiten | ★ |
+
+**Procedure (PO 2.5)**
+
+| Referentie | Onderwerp | Prio |
+|---|---|---|
+| `2022/C/3` | Wetboek van minnelijke en gedwongen invordering | |
+
+**Verwerkingswijze** (na download):
+```bash
+# Per circulaire: PDF opslaan als:
+resources/raw/wetteksten/circulaire-JJJJ-C-NNN.pdf
+# Toevoegen aan source_config.yaml:
+#   type: skip
+#   bron_rol: praktijkgids
+#   tags: ["2.x"]
+# Converteren met pdftotext (geen -layout) → .md
+# Toevoegen aan ITAA-LEX.md "Andere bronnen" — subsectie "Circulaires"
+```
+
+---
+
+### Overige bronnen
+
+| Bron | Reden | Bron_rol | Status |
+|---|---|---|---|
+| BW 2019 (Burgerlijk Wetboek — alle boeken) | Contractenrecht, aansprakelijkheid — basisbegrippen PO 3.x | `normatief` | ⏳ Enkel via ejustice.just.fgov.be (numac 2019012168); groot bestand |
+| EU Richtlijn 2011/16/EU (DAC) + DAC6 + DAC7 | Meldingsplicht grensoverschrijdende constructies + platforms — relevant PO 2.8 | `normatief` | ⏳ EUR-Lex — geconsolideerde versie downloaden |
+| OESO Transfer Pricing Guidelines (2022) | Verrekenprijzen PO 2.3 — conceptuele grondslag voor circulaire 2020/C/35 | `praktijkgids` | ⏳ Engelstalig; samenvatting volstaat |
+| Actuele WBTW (Fisconet — bijwerking > 2020) | Huidige versie is t.e.m. 23.04.2020 ⚠️ | `itaa_lex` | ⏳ Wachten op Fisconet-actualisatie |
+| Wetboek Wetenschapsbeleid (tax shelter) | Tax shelter filminvesteringen — PO 2.3 | `normatief` | ⏳ Klein segment; overweeg of relevant genoeg |
+
+---
 *✅ = lokaal doorzoekbaar via grep of Read · ⏳ = enkel via fysieke ITAA-LEX of ejustice.just.fgov.be*
