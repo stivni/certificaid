@@ -2,6 +2,10 @@
 
 Kennisbank voor het ITAA bekwaamheidsexamen voor Gecertificeerd Accountant.
 
+> **Architectuurbeslissingen**: zie [`docs/adr/INDEX.md`](docs/adr/INDEX.md) voor alle ADRs en de taak→ADR-mapping. Raadpleeg die index vóór je begint aan indexering, model-wijzigingen, bronnen toevoegen of concept-extractie.
+>
+> CLAUDE.md dekt de **content-laag** (fiches schrijven, bronnengebruik, stijl). De **technische laag** (RAG, chunking, retrieval, tutor) is gedocumenteerd in de ADRs.
+
 ## Context
 
 ### Probleemstelling

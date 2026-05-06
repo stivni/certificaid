@@ -1,6 +1,6 @@
 # ADR-003: Twee-fase retrieval — bi-encoder + cross-encoder reranker
 
-**Status**: Accepted  
+**Status**: Draft  
 **Datum**: 2026-05-06
 
 ## Context

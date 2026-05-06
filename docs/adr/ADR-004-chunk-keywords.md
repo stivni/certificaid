@@ -1,6 +1,6 @@
 # ADR-004: Chunk-level semantische keywords voor wetteksten
 
-**Status**: Accepted  
+**Status**: Draft  
 **Datum**: 2026-05-06
 
 ## Context

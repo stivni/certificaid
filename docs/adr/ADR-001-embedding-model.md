@@ -1,6 +1,6 @@
 # ADR-001: Embedding model — BAAI/bge-m3
 
-**Status**: Accepted  
+**Status**: Draft  
 **Datum**: 2026-05-06
 
 ## Context

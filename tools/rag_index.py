@@ -32,6 +32,7 @@ from tqdm import tqdm
 ROOT = Path(__file__).parent.parent
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-001
+KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 
 SOURCES = {
     "wetteksten":      ROOT / "resources" / "bronnen" / "wetteksten",
@@ -43,6 +44,32 @@ SOURCES = {
 }
 
 MIN_CHUNK_CHARS = 100  # korter dan dit mergen we met context
+
+
+def _load_keywords(stem: str) -> dict:
+    """
+    Laad chunk-level keywords voor een wettekst (ADR-004).
+    Geeft dict {artikel_heading: [keyword, ...]} of {} als geen bestand bestaat.
+    """
+    path = KEYWORDS_DIR / f"{stem}.json"
+    if path.exists():
+        try:
+            return json.loads(path.read_text())
+        except Exception:
+            return {}
+    return {}
+
+
+def _prepend_keywords(text: str, heading: str, keywords_map: dict) -> str:
+    """
+    Prepend keywords aan chunk-tekst als ze beschikbaar zijn.
+    Formaat: [keyword1, keyword2, ...]\n\n{originele tekst}
+    """
+    kws = keywords_map.get(heading, [])
+    if not kws:
+        return text
+    kw_line = "[" + ", ".join(kws) + "]"
+    return f"{kw_line}\n\n{text}"
 
 
 def _has_real_content(text: str) -> bool:
@@ -94,7 +121,13 @@ def get_collection(client, name: str, reset: bool = False):
             client.delete_collection(name)
         except Exception:
             pass
-    return client.get_or_create_collection(name, embedding_function=ef)
+        # Na delete: nieuwe client om gecachte UUID-state te flushen (ChromaDB Rust-backend)
+        client = chromadb.PersistentClient(path=str(CHROMA_PATH))
+        return client.create_collection(name, embedding_function=ef), client
+    try:
+        return client.get_collection(name, embedding_function=ef), client
+    except Exception:
+        return client.create_collection(name, embedding_function=ef), client
 
 
 # ---------------------------------------------------------------------------
@@ -199,12 +232,17 @@ def index_wetteksten(collection, reset: bool = False):
         fm = post.metadata
         source_id = path.stem
         chunks = split_markdown_into_chunks(post.content, source_id)
+        keywords_map = _load_keywords(source_id)  # ADR-004: chunk-level keywords
+        if keywords_map:
+            print(f"    → keywords geladen voor {len(keywords_map)} artikelen")
 
         for chunk in chunks:
             if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
                 continue
+            # Keywords prependen aan chunk-tekst voor betere embedding (ADR-004)
+            chunk_text = _prepend_keywords(chunk["text"], chunk["heading"], keywords_map)
             ids.append(chunk["id"])
-            texts.append(chunk["text"])
+            texts.append(chunk_text)
             metadatas.append({
                 "bron":           str(fm.get("wet", fm.get("bron", path.stem))),
                 "bestand":        path.name,
@@ -213,6 +251,7 @@ def index_wetteksten(collection, reset: bool = False):
                 "itaa_lex":       str(fm.get("itaa-lex-sectie", "")),
                 "chunk_index":    chunk["chunk_index"],    # voor context-uitbreiding
                 "parent_section": chunk["parent_section"], # BOEK/TITEL/AFDELING
+                "has_keywords":   str(bool(keywords_map.get(chunk["heading"]))),
                 "collection":     "wetteksten",
             })
 
@@ -509,7 +548,7 @@ def main():
 
     for name in to_index:
         print(f"\n→ Indexeer collection: {name}")
-        col = get_collection(client, name, reset=args.reset)
+        col, client = get_collection(client, name, reset=args.reset)
         if name == "wetteksten":
             index_wetteksten(col, args.reset)
         elif name == "normen":

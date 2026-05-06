@@ -1,6 +1,6 @@
 # ADR-005: Query-strategie — concept-extractie vs. tutor
 
-**Status**: Accepted  
+**Status**: Draft  
 **Datum**: 2026-05-06
 
 ## Context

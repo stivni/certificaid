@@ -1,6 +1,6 @@
 # ADR-002: Chunk-strategie — small-to-big met begrensd context-venster
 
-**Status**: Accepted  
+**Status**: Draft  
 **Datum**: 2026-05-06
 
 ## Context
