@@ -13,7 +13,7 @@ Keywords op chunk-niveau (per artikel) prependen aan de chunk-tekst is de cleans
 
 ## Beslissing
 
-**Genereer 5–10 semantische keywords per wettekst-chunk via Claude, prepend aan de chunk-tekst.**
+**Genereer 5–10 semantische keywords per wettekst-chunk via KeyBERT (bge-m3, lokaal), prepend aan de chunk-tekst.**
 
 ```
 # Vóór:
@@ -32,7 +32,7 @@ De onderworpen entiteiten ... melden aan de CFI ...
 
 ### Aanpak
 
-- Eenmalig script `tools/generate_keywords.py`: laadt elke wettekst, chunked op artikelen, vraagt Claude per chunk om 5–10 keywords
+- Eenmalig script `tools/generate_keywords.py` (gebruikt KeyBERT met bge-m3 als backbone — volledig lokaal, geen API). laadt elke wettekst, chunked op artikelen, vraagt Claude per chunk om 5–10 keywords
 - Output: per wettekst een `resources/bronnen/wetteksten/keywords/NAAM.json` (map artikel-heading → keywords)
 - `rag_index.py` leest dit bestand bij het indexeren en prepend de keywords aan de chunk-tekst
 - Bronbestanden (`.md`) worden **niet** gewijzigd — keywords leven apart

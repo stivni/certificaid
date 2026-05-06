@@ -1,34 +1,39 @@
 """
-Genereer chunk-level semantische keywords voor wetteksten (ADR-004).
+Genereer chunk-level semantische keywords voor wetteksten (ADR-004, ADR-012).
 
-Per artikel-chunk worden 5–10 Nederlandstalige juridische keywords gegenereerd
-via Claude en opgeslagen in resources/bronnen/wetteksten/keywords/NAAM.json.
-Tijdens indexering (rag_index.py) worden deze keywords aan de chunk-tekst prepended
-zodat de bge-m3 embedding de semantische context meeneemt.
+Gebruikt KeyBERT met BAAI/bge-m3 als backbone — volledig lokaal, geen API-kosten.
+Keywords worden prepended aan de chunk-tekst bij indexering zodat de embedding
+semantisch rijker is (zie rag_index.py: _prepend_keywords).
 
 Gebruik:
   python tools/generate_keywords.py                        # alle wetteksten
   python tools/generate_keywords.py --source Antiwitwaswet-2017
-  python tools/generate_keywords.py --priority             # AWW, WIB92, WBTW, WVV, Wet-ITAA, WER
-  python tools/generate_keywords.py --dry-run              # toon zonder API-calls
+  python tools/generate_keywords.py --priority             # AWW, WIB92, WBTW, WVV, Wet-ITAA, WER, ...
+  python tools/generate_keywords.py --dry-run              # toon chunks zonder keywords te genereren
+
+Installatie (eenmalig):
+  pip3 install keybert
+
+Vereisten:
+  - BAAI/bge-m3 al gedownload (automatisch als rag_index.py eerder gedraaid is)
+  - sentence-transformers >= 3.0.0
 """
 
 import argparse
 import json
-import os
+import re
 import sys
-import time
 from pathlib import Path
 
 import frontmatter
 
 ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(ROOT / "tools"))
-
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 WETTEKSTEN_DIR = ROOT / "resources" / "bronnen" / "wetteksten"
 
-# Wetteksten die het meest bevraagd worden op het examen — eerst genereren
+EMBEDDING_MODEL = "BAAI/bge-m3"
+
+# Wetteksten die het meest bevraagd worden op het examen
 PRIORITY_SOURCES = [
     "Antiwitwaswet-2017",
     "WIB92",
@@ -42,28 +47,9 @@ PRIORITY_SOURCES = [
     "WDRT",
 ]
 
-SYSTEM_PROMPT = """Je bent een juridische taxonomie-expert voor Belgisch recht en accountancy.
-Genereer voor elk wetsartikel een compacte lijst van 5–10 Nederlandstalige keywords.
-
-Regels:
-- Keywords zijn juridische en boekhoudkundige termen die studenten gebruiken om dit artikel op te zoeken
-- Gebruik termen uit de tekst zelf + synoniemen + gerelateerde concepten
-- Geen volledige zinnen, alleen losse termen of korte woordgroepen (max 3 woorden)
-- Schrijf in het Nederlands (geen Engels tenzij de wet zelf Engels gebruikt)
-- Vermeld ook de naam van de wet als keyword als die niet duidelijk is uit de context
-
-Formaat: JSON-object met als key de artikel-heading en als value een array van strings.
-Voorbeeld:
-{
-  "Art. 47": ["meldingsplicht", "CFI", "vermoeden witwassen", "antiwitwaswetgeving", "melding", "onderworpen entiteit", "terrorismefinanciering"],
-  "Art. 48": ["tipping-off verbod", "mededeling", "meldingsplicht", "witwassen", "geheimhouding"]
-}"""
-
 
 def _chunk_wettekst(path: Path) -> list[dict]:
     """Splits een wettekst-bestand in artikel-chunks (zelfde logica als rag_index.py)."""
-    import re
-
     try:
         post = frontmatter.load(str(path))
     except Exception as e:
@@ -80,9 +66,8 @@ def _chunk_wettekst(path: Path) -> list[dict]:
             if current_lines and current_heading:
                 body = "\n".join(current_lines).strip()
                 if len(body) >= 80:
-                    chunks.append({"heading": current_heading, "body": body[:600]})
+                    chunks.append({"heading": current_heading, "body": body[:800]})
             stripped = line.lstrip("#").strip()
-            # Sla structurele headings over (BOEK/TITEL/etc.)
             if re.match(r"^(HOOFDSTUK|AFDELING|TITEL|DEEL|BOEK|SECTIE)", stripped, re.I):
                 current_heading = ""
             else:
@@ -94,16 +79,60 @@ def _chunk_wettekst(path: Path) -> list[dict]:
     if current_lines and current_heading:
         body = "\n".join(current_lines).strip()
         if len(body) >= 80:
-            chunks.append({"heading": current_heading, "body": body[:600]})
+            chunks.append({"heading": current_heading, "body": body[:800]})
 
     return chunks
 
 
+def load_keybert_model():
+    """Laad KeyBERT met bge-m3 als backbone."""
+    try:
+        from keybert import KeyBERT
+        from sentence_transformers import SentenceTransformer
+    except ImportError:
+        print("❌ KeyBERT niet geïnstalleerd. Installeer via: pip3 install keybert")
+        sys.exit(1)
+
+    print(f"  → KeyBERT laden met {EMBEDDING_MODEL}...")
+    sentence_model = SentenceTransformer(EMBEDDING_MODEL)
+    return KeyBERT(model=sentence_model)
+
+
+def generate_keywords_for_chunk(kw_model, text: str, top_n: int = 8) -> list[str]:
+    """
+    Extraheer keywords uit een chunk-tekst via KeyBERT.
+    Combineert 1-gram en 2-gram keyphrases.
+    """
+    # KeyBERT vindt keyphrases die semantisch het meest op de hele tekst lijken
+    keywords_1gram = kw_model.extract_keywords(
+        text,
+        keyphrase_ngram_range=(1, 1),
+        stop_words=None,
+        top_n=top_n // 2,
+    )
+    keywords_2gram = kw_model.extract_keywords(
+        text,
+        keyphrase_ngram_range=(1, 2),
+        stop_words=None,
+        top_n=top_n // 2,
+    )
+
+    # Combineer en dedupliceer
+    seen = set()
+    result = []
+    for kw, _ in keywords_1gram + keywords_2gram:
+        kw_clean = kw.strip().lower()
+        if kw_clean not in seen and len(kw_clean) > 2:
+            seen.add(kw_clean)
+            result.append(kw.strip())
+
+    return result[:top_n]
+
+
 def generate_keywords_for_file(
     path: Path,
-    client,
+    kw_model,
     dry_run: bool = False,
-    batch_size: int = 15,
 ) -> dict:
     """Genereer keywords voor alle chunks in één wettekst-bestand."""
     chunks = _chunk_wettekst(path)
@@ -111,51 +140,22 @@ def generate_keywords_for_file(
         print(f"  Geen chunks gevonden in {path.name}")
         return {}
 
-    print(f"  {len(chunks)} chunks → {(len(chunks) + batch_size - 1) // batch_size} API-calls")
+    print(f"  {len(chunks)} chunks te verwerken...")
 
     if dry_run:
-        return {c["heading"]: [f"[dry-run] {c['heading'][:20]}"] for c in chunks}
+        return {c["heading"]: ["[dry-run]"] for c in chunks}
 
     keywords_map = {}
-    batches = [chunks[i:i+batch_size] for i in range(0, len(chunks), batch_size)]
-
-    for batch_idx, batch in enumerate(batches):
-        # Bouw prompt op voor deze batch
-        batch_text = "\n\n".join(
-            f"Heading: {c['heading']}\nTekst: {c['body']}"
-            for c in batch
-        )
-        prompt = f"""Genereer keywords voor de volgende {len(batch)} wetsartikelen uit '{path.stem}'.
-Geef een JSON-object terug met als keys de headings en als values arrays van keywords.
-
-{batch_text}
-
-JSON:"""
-
+    for i, chunk in enumerate(chunks):
         try:
-            response = client.messages.create(
-                model="claude-haiku-4-5",
-                max_tokens=1500,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            raw = response.content[0].text.strip()
-
-            # Extraheer JSON uit de response
-            import re
-            json_match = re.search(r"\{.*\}", raw, re.DOTALL)
-            if json_match:
-                batch_keywords = json.loads(json_match.group())
-                keywords_map.update(batch_keywords)
-            else:
-                print(f"  ⚠️  Geen JSON gevonden in batch {batch_idx+1}")
-
+            kws = generate_keywords_for_chunk(kw_model, chunk["body"])
+            keywords_map[chunk["heading"]] = kws
         except Exception as e:
-            print(f"  ⚠️  API-fout batch {batch_idx+1}: {e}")
+            print(f"  ⚠️  Chunk {i+1} ({chunk['heading'][:30]}): {e}")
 
-        # Rate limiting: korte pauze tussen batches
-        if batch_idx < len(batches) - 1:
-            time.sleep(0.5)
+        # Voortgang tonen elke 25 chunks
+        if (i + 1) % 25 == 0:
+            print(f"    {i + 1}/{len(chunks)} chunks verwerkt...")
 
     return keywords_map
 
@@ -168,24 +168,17 @@ def save_keywords(stem: str, keywords_map: dict) -> Path:
     return out_path
 
 
-def load_existing(stem: str) -> dict:
-    """Laad bestaand keywords-bestand als dat er al is."""
-    path = KEYWORDS_DIR / f"{stem}.json"
-    if path.exists():
-        try:
-            return json.loads(path.read_text())
-        except Exception:
-            return {}
-    return {}
-
-
 def main():
-    parser = argparse.ArgumentParser(description="Genereer chunk-level keywords voor wetteksten")
+    parser = argparse.ArgumentParser(
+        description="Genereer chunk-level keywords voor wetteksten (KeyBERT, lokaal)"
+    )
     parser.add_argument("--source", help="Naam van één wettekst (stem, zonder .md)")
-    parser.add_argument("--priority", action="store_true", help="Verwerk alleen prioritaire wetteksten")
-    parser.add_argument("--force", action="store_true", help="Overschrijf bestaande keywords-bestanden")
-    parser.add_argument("--dry-run", action="store_true", help="Geen API-calls, toon alleen chunk-aantallen")
-    parser.add_argument("--batch-size", type=int, default=15, help="Aantal chunks per API-call (default: 15)")
+    parser.add_argument("--priority", action="store_true",
+                        help="Verwerk alleen prioritaire wetteksten")
+    parser.add_argument("--force", action="store_true",
+                        help="Overschrijf bestaande keywords-bestanden")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Toon chunks zonder keywords te genereren")
     args = parser.parse_args()
 
     # Bepaal welke bestanden verwerkt worden
@@ -198,10 +191,12 @@ def main():
         files = [WETTEKSTEN_DIR / f"{s}.md" for s in PRIORITY_SOURCES
                  if (WETTEKSTEN_DIR / f"{s}.md").exists()]
     else:
-        files = sorted(f for f in WETTEKSTEN_DIR.glob("*.md")
-                      if "INDEX" not in f.name and "compilatie" not in f.name.lower())
+        files = sorted(
+            f for f in WETTEKSTEN_DIR.glob("*.md")
+            if "INDEX" not in f.name and "compilatie" not in f.name.lower()
+        )
 
-    # Filter al-verwerkte bestanden (tenzij --force)
+    # Filter al-verwerkte bestanden (tenzij --force of --dry-run)
     if not args.force and not args.dry_run:
         to_process = [f for f in files if not (KEYWORDS_DIR / f"{f.stem}.json").exists()]
         skipped = len(files) - len(to_process)
@@ -215,41 +210,24 @@ def main():
 
     print(f"Te verwerken: {len(files)} wetteksten\n")
 
-    # Laad Claude client (niet nodig bij dry-run)
-    client = None
-    if not args.dry_run:
-        try:
-            import anthropic
-            api_key = os.environ.get("ANTHROPIC_API_KEY")
-            if not api_key:
-                # Probeer .env te laden
-                env_file = ROOT / ".env"
-                if env_file.exists():
-                    for line in env_file.read_text().splitlines():
-                        if line.strip() and not line.startswith("#") and "=" in line:
-                            k, v = line.split("=", 1)
-                            os.environ[k.strip()] = v.strip()
-                api_key = os.environ.get("ANTHROPIC_API_KEY")
-            if not api_key:
-                print("❌ ANTHROPIC_API_KEY niet ingesteld.")
-                sys.exit(1)
-            client = anthropic.Anthropic(api_key=api_key)
-        except ImportError:
-            print("❌ anthropic package niet geïnstalleerd: pip3 install anthropic")
-            sys.exit(1)
+    # Laad KeyBERT model (eenmalig voor alle bestanden)
+    kw_model = None if args.dry_run else load_keybert_model()
 
-    # Verwerk bestanden
     total_chunks = 0
     for path in files:
         print(f"\n{'='*55}")
         print(f"Verwerk: {path.stem}")
-        kw = generate_keywords_for_file(path, client, args.dry_run, args.batch_size)
+        kw = generate_keywords_for_file(path, kw_model, args.dry_run)
         if kw:
             out = save_keywords(path.stem, kw)
             total_chunks += len(kw)
+            # Toon een voorbeeld
+            first_heading = next(iter(kw))
+            first_kws = kw[first_heading]
             print(f"  ✓ {len(kw)} artikel-keywords → {out.relative_to(ROOT)}")
+            print(f"  Voorbeeld — {first_heading}: {first_kws}")
 
-    print(f"\n✓ Klaar — {total_chunks} artikel-keywords gegenereerd voor {len(files)} wetteksten.")
+    print(f"\n✓ Klaar — {total_chunks} artikel-keywords voor {len(files)} wetteksten.")
     print(f"  Keywords worden automatisch gebruikt bij de volgende rag_index.py run.")
 
 

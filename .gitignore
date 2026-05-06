@@ -40,3 +40,8 @@ venv/
 
 # Environment variables
 .env
+
+# Review-artifacts (gegenereerd door review-agents)
+.factcheck-*.md
+.leesbaarheid-*.md
+.student-feedback*.md
