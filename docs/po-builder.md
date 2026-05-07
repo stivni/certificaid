@@ -1,5 +1,7 @@
 # PO-builder: procesflow voor programmaonderdeel-builds
 
+> ⚠️ **Pre-redesign-document** (vóór 2026-05-07). PO-build-procesflow onder het oude drie-lagenmodel. PO-output gaat in de nieuwe architectuur via release-snapshots gegenereerd uit de concepten-laag — zie [ADR-010](adr/ADR-010-leermateriaal-tutor.md) en [`roadmap.md`](roadmap.md) Fase 5. De `po-builder` scheduled agent draait niet meer; document blijft staan als referentie tot Fase 5 een nieuwe builder definieert.
+
 Volledige procesflow voor het bouwen van een programmaonderdeel (PO). Wordt geladen door de po-builder scheduled agent via `resources/po-builder-prompt.md`.
 
 **Verwante docs**: [`docs/content-richtlijnen.md`](content-richtlijnen.md) — schrijfregels · [`docs/adr/INDEX.md`](adr/INDEX.md) — architectuurbeslissingen

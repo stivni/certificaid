@@ -1,5 +1,7 @@
 # Content-richtlijnen: fiches schrijven voor Certificaid
 
+> ⚠️ **Pre-redesign-document** (vóór 2026-05-07). Schrijfregels onder het oude drie-lagenmodel (materie / competentie / synthese). De architectuur is herzien — fiche-generatie loopt in de nieuwe opzet via concept-records → release-snapshots. Zie [ADR-007](adr/ADR-007-conceptmodel.md), [ADR-010](adr/ADR-010-leermateriaal-tutor.md) en [`roadmap.md`](roadmap.md) Fase 5. Document blijft staan als referentie; volledige herziening volgt bij Fase 5.
+
 Gedetailleerde regels voor het schrijven van materie-fiches, competentie-fiches en programmaonderdeel-fiches. Van toepassing bij elke PO-build en bij manuele ficheaanpassingen.
 
 **Verwante docs**: [`docs/po-builder.md`](po-builder.md) — procesflow · [`docs/adr/INDEX.md`](adr/INDEX.md) — architectuurbeslissingen

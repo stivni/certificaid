@@ -6,17 +6,20 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 
 **Bij het examen beschikbaar**: ITAA-LEX (wettekstenbundel) + Cijferzakboekje (tarieven en bedragen). Wat getoetst wordt: concepten begrijpen, uitzonderingen herkennen, correct redeneren — niet cijfers uit het hoofd kennen.
 
+> **Status (2026-05-07)**: Architectuur herzien. Fase 0 (provenance-plumbing) is af; Fase 1 (Bronnen-ETL) is de volgende. Zie [`docs/roadmap.md`](docs/roadmap.md) voor fasering en DoD per fase, en [`docs/adr/INDEX.md`](docs/adr/INDEX.md) voor de 10 nieuwe ADRs (oude set in `docs/adr/archive/`).
+
 ---
 
 ## Wegwijzer
 
 | Taak | Zie |
 |---|---|
-| Fiche schrijven (materie, competentie, PO) | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md) |
-| PO-build uitvoeren | [`docs/po-builder.md`](docs/po-builder.md) |
-| Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) |
+| Roadmap & fase-status | [`docs/roadmap.md`](docs/roadmap.md) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
-| RAG-index herbouwen of querien | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` |
+| Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
+| Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
+| RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
+| Fiche schrijven / PO-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
 
 ---
 

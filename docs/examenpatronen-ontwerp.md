@@ -1,5 +1,7 @@
 # Examenpatronen — Ontwerp en principes
 
+> ℹ️ **Designdocument** vóór de ADR-herziening op 2026-05-07. De architecturale kern is geabsorbeerd in [ADR-009 Examenpatronen](adr/ADR-009-examenpatronen.md). Dit document blijft staan voor de implementatie-detail (vraagvorm/complexiteitspatroon/examenfocus-schema's, camouflage-taxonomy, generatie-templates) die in de korte ADR niet werd hernomen. Wordt geconsolideerd zodra Fase 3-4 examenpatroon-tooling gebouwd wordt.
+
 ## Kernprincipe
 
 Concepten zijn **tijdloze kennislaag** (wetteksten, echte wereld). Examenpatronen zijn een **aparte observatielaag** over hoe ITAA die kennis toetst. De twee mogen niet vermengd worden.

@@ -1,5 +1,7 @@
 # Bronnen-pipeline: importeren en verwerken
 
+> ⚠️ **Pre-redesign-document** (vóór 2026-05-07). Beschrijft de ETL-pipeline onder de oude ADR-014/016/017. De architectuur is herzien — zie [ADR-005 Bronnen-ETL](adr/ADR-005-bronnen-etl.md) en [`roadmap.md`](roadmap.md) Fase 1. Het migratie-overzicht en de open punten hieronder blijven actueel; de architecturale principes zijn vervangen. Volledige herziening bij Fase 1.
+
 ## Overzicht
 
 Nieuwe bronnen toevoegen verloopt in drie stappen:
