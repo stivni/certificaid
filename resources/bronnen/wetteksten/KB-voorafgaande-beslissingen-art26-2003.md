@@ -5,6 +5,19 @@ wet: "K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 decem
 status: "beschikbaar"
 bijgewerkt: "30.01.2003"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf
+    sha256: 9a616600e724ea5ce9a9c66bc65b9d12cad11aaa7954d1efd33376da72e659f0
+    version: 30.01.2003
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)

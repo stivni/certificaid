@@ -5,6 +5,19 @@ wet: "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.
 status: "beschikbaar"
 bijgewerkt: "31.12.2024"
 bron: "fin.belgium.be — Algemene Administratie voor Beleidsexpertise en -Ondersteuning"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/fiscaal-memento-2025.pdf
+    sha256: 2a45a2e2a6869255c35f5a4f569d37d60220bd3e6e3736c4b5a756e95b54cf3d
+    version: 31.12.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Fiscaal Memento 2025

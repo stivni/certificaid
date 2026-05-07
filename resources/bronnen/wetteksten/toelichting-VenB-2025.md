@@ -5,6 +5,19 @@ wet: "Toelichting bij de aangifte in de vennootschapsbelasting — Aanslagjaar 2
 status: "beschikbaar"
 bijgewerkt: "2025"
 bron: "fin.belgium.be — FOD Financiën"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/toelichting-VenB-2025.pdf
+    sha256: cb6b6b560f551be6a770127b1d88d47f12a12fff920c874cac8c35c3670d4a10
+    version: '2025'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Toelichting aangifte Vennootschapsbelasting — AJ 2025

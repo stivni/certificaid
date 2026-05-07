@@ -5,6 +5,19 @@ wet: "Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake ink
 status: "beschikbaar"
 bijgewerkt: "24.12.2002"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
+    sha256: 2e02ac9cf2dee1a314196a6d19cc0d294c9c35c2f5d0c8422c728699d9615bd9
+    version: 24.12.2002
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken

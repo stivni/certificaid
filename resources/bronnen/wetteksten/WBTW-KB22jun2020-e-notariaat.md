@@ -5,6 +5,19 @@ wet: "K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433�
 status: "beschikbaar"
 bijgewerkt: "2020"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf
+    sha256: be45dc386b376439de59378c86082c733e467259a0ac3b2762a84ac514054d31
+    version: '2020'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # BTW KB 22/06/2020 — E-notariaat

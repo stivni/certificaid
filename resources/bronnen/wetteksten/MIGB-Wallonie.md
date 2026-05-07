@@ -5,6 +5,19 @@ wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — 
 status: "beschikbaar"
 bijgewerkt: "30.05.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
+    sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
+    version: 30.05.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest

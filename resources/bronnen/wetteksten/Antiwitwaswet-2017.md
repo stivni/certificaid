@@ -1,26 +1,23 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XVII
+tags: ["XVII", "4.0"]
+itaa-lex-sectie: "XVII"
+wet: "Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
-  generated_at: '2026-05-07T13:02:52Z'
   inputs:
   - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
     sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
     version: 24.12.2025
-  stale: false
-  stale_reason: null
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XVII
-- '4.0'
-wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering
-  van terrorisme
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:28:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
@@ -2417,3 +2414,4 @@ De koninklijke besluiten, de reglementen en alle andere handelingen van reglemen
    b) bestuurders, plaatsvervangend bestuurders en leden van de raad van bestuur of bekleders van een gelijkwaardige functie bij een internationale organisatie gevestigd op het Belgisch grondgebied.]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 145, 008; Inwerkingtreding : 15-08-2020> (2)<W 2021-06-27/02, art. 114, 010; Inwerkingtreding : 10-07-2021>
+

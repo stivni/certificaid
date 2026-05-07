@@ -5,6 +5,19 @@ wet: "Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenh
 status: "beschikbaar"
 bijgewerkt: "1988"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/Verdrag-WABB.pdf
+    sha256: ecfc8f00db22913505065b92b1e46272baa3cb95594f27889156b720b2cbb1bb
+    version: '1988'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)

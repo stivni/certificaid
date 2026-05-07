@@ -5,6 +5,19 @@ wet: "K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de 
 status: "beschikbaar"
 bijgewerkt: "11.12.2019"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 11.12.2019
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

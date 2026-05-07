@@ -5,6 +5,19 @@ wet: "Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften 
 status: "beschikbaar"
 bijgewerkt: "01.10.2010"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
+    sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
+    version: 01.10.2010
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn

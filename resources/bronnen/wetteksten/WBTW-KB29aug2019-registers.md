@@ -5,6 +5,19 @@ wet: "K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid 
 status: "beschikbaar"
 bijgewerkt: "29.08.2019"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 29.08.2019
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

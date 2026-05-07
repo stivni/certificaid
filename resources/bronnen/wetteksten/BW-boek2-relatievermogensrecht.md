@@ -5,6 +5,19 @@ wet: "Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf
+    sha256: dc2185d69e4bf8cbe98a067c4e2974c04e5859451dece12e6ebd006b1f8836ef
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht

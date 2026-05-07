@@ -5,6 +5,19 @@ wet: "Burgerlijk Wetboek — Boek 5 — Verbintenissen"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
+    sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Burgerlijk Wetboek — Boek 5 — Verbintenissen

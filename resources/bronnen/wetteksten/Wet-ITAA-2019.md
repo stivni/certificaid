@@ -5,6 +5,19 @@ wet: "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseu
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
+    sha256: d8e074afec249aa6819b22493d5c85bebc4d30251de41ec2eed3b455e8b05b0c
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants

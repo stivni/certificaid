@@ -6,6 +6,19 @@ status: "beschikbaar"
 bijgewerkt: "10.02.2026"
 bron: "Fisconet (officieuze gecoördineerde versie, editie 2026)"
 raw-bron: "resources/wetteksten/raw/WIB92-volledig.pdf" # nog te downloaden: geconsolideerde volledige versie
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/WIB92.pdf
+    sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
+    version: 10.02.2026
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:07Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wetboek van de Inkomstenbelastingen 1992 (WIB92)

@@ -5,6 +5,19 @@ wet: "K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatst
 status: "beschikbaar"
 bijgewerkt: "28.12.1999"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 28.12.1999
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:11Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

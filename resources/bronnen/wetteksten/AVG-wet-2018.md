@@ -5,6 +5,19 @@ wet: "Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met b
 status: "beschikbaar"
 bijgewerkt: "30.07.2018"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/AVG-wet-2018.pdf
+    sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
+    version: 30.07.2018
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # Belgische AVG-uitvoeringswet 2018

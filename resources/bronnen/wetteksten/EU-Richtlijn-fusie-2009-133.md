@@ -5,6 +5,19 @@ wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemee
 status: "beschikbaar"
 bijgewerkt: "25.11.2009"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
+    sha256: 5fff924203fcc785ca08213b7b43ca58dddc4caf14881882119732358b8c9bf2
+    version: 25.11.2009
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)

@@ -5,6 +5,19 @@ wet: "K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslage
 status: "beschikbaar"
 bijgewerkt: "2022"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
+    sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
+    version: '2022'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

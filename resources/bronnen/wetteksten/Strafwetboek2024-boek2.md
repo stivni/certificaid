@@ -5,6 +5,19 @@ wet: "Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2"
 status: "beschikbaar"
 bijgewerkt: "29.02.2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
+    sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
+    version: 29.02.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # Strafwetboek 2024 — Boek 2

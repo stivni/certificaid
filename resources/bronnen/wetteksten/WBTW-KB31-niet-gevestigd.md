@@ -5,6 +5,19 @@ wet: "K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modalitei
 status: "beschikbaar"
 bijgewerkt: "02.04.2002"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e622c63358c2e8e1495c218028988bc46e2c27543e812a3cdc3632f8abe12e01
+    version: 02.04.2002
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

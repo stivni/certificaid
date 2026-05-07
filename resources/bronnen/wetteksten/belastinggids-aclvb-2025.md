@@ -5,6 +5,19 @@ wet: "Belastinggids 2025 — ACLVB"
 status: "beschikbaar"
 bijgewerkt: "05.2025"
 bron: "aclvb.be — Algemene Centrale der Liberale Vakbonden van België"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/belastinggids-aclvb-2025.pdf
+    sha256: 6fc36df9c407289d6ef85297bdd13a9aca1a5ca13f492a7ffbe364ba796b1010
+    version: '05.2025'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Belastinggids 2025 (ACLVB)

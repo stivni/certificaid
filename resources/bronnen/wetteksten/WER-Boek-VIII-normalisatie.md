@@ -5,6 +5,19 @@ wet: "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
+    sha256: d26ab874052bcbe9c00e472d83d0fee1a6c75d6ac5cc3f220e43d02905f4ae95
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)

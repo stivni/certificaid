@@ -5,6 +5,19 @@ wet: "Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 okto
 status: "beschikbaar"
 bijgewerkt: "12.11.2018"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
+    sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
+    version: 12.11.2018
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

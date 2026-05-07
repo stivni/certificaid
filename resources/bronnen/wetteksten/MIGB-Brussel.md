@@ -5,6 +5,19 @@ wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — 
 status: "beschikbaar"
 bijgewerkt: "12.05.2024"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/MIGB-Brussel.pdf
+    sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
+    version: 12.05.2024
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:10Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

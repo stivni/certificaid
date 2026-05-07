@@ -5,6 +5,19 @@ wet: "K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervo
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 29.12.1992
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

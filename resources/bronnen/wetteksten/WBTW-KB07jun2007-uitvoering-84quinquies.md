@@ -5,6 +5,19 @@ wet: "K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84de
 status: "beschikbaar"
 bijgewerkt: "07.06.2007"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 07.06.2007
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:11Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde

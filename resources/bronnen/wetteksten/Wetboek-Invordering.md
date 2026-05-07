@@ -5,6 +5,19 @@ wet: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fis
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
+    sha256: c73b84f709753a3bae653ec5aa128ed53cdfc7a3dde79edf2a3671df996e4963
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen

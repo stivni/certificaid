@@ -5,6 +5,19 @@ wet: "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van ve
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/KB-WVV-2019.pdf
+    sha256: 2d9f15cf99469452fb1ab8d567f7243cc5d020e89a7fdd2002458be64e991f3d
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen

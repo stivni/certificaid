@@ -5,6 +5,19 @@ wet: "K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsges
 status: "beschikbaar"
 bijgewerkt: "2020"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
+    sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
+    version: '2020'
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:08Z'
+  stale: false
+  stale_reason:
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken

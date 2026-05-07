@@ -5,6 +5,19 @@ wet: "Wetboek der Successierechten — federaal"
 status: "beschikbaar"
 bijgewerkt: "01.04.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/successie-federaal.pdf
+    sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c
+    version: 01.04.2026
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:07Z'
+  stale: false
+  stale_reason:
 ---
 
 # Successierechten — federaal

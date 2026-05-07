@@ -2,25 +2,40 @@
 
 Schema and rationale: docs/adr/ADR-004-provenance.md.
 Workflow that consumes this (stale-cascade, regressie-gates): docs/adr/ADR-003-reprocessing-evaluatie.md.
+
+YAML writes use ruamel.yaml round-trip mode so existing frontmatter formatting
+(key order, quote style, list flow vs. block) is preserved.
 """
 from __future__ import annotations
 
 import hashlib
+import io
+import re
 import subprocess
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-import frontmatter
+from ruamel.yaml import YAML
 
 PROVENANCE_KEY = "provenance"
+
+_FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
+
+
+def _yaml() -> YAML:
+    y = YAML()
+    y.preserve_quotes = True
+    y.indent(mapping=2, sequence=2, offset=0)
+    y.width = 4096  # avoid line-wrapping on long values
+    return y
 
 
 @dataclass
 class Input:
     id: str
-    sha256: str
+    sha256: Optional[str] = None  # None for URL-sourced inputs we don't locally cache
     version: Optional[str] = None
 
 
@@ -96,8 +111,14 @@ def now_iso() -> str:
 
 
 def make_input(path: Path, *, version: Optional[str] = None, repo_root: Optional[Path] = None) -> Input:
+    """Build an Input for a local file (with sha256)."""
     rel = path.relative_to(repo_root) if repo_root else path
     return Input(id=str(rel), sha256=hash_file(path), version=version)
+
+
+def make_url_input(url: str, *, version: Optional[str] = None) -> Input:
+    """Build an Input for a remote URL (no sha256; only id-presence stale-detection)."""
+    return Input(id=url, sha256=None, version=version)
 
 
 def make_provenance(
@@ -122,23 +143,50 @@ def make_provenance(
 
 def read_provenance(md_path: Path) -> Optional[Provenance]:
     """Read provenance block from markdown YAML frontmatter, or None if absent."""
-    post = frontmatter.load(str(md_path))
-    block = post.metadata.get(PROVENANCE_KEY)
+    text = md_path.read_text(encoding="utf-8")
+    m = _FRONTMATTER_RE.match(text)
+    if not m:
+        return None
+    data = _yaml().load(m.group(1)) or {}
+    block = data.get(PROVENANCE_KEY)
     if block is None:
         return None
-    return Provenance.from_dict(block)
+    # ruamel returns CommentedMap/Seq; convert to plain for dataclass construction
+    return Provenance.from_dict(_to_plain(block))
 
 
 def write_provenance(md_path: Path, prov: Provenance) -> None:
-    """Write or overwrite the provenance block in a markdown file's frontmatter."""
-    post = frontmatter.load(str(md_path))
-    post.metadata[PROVENANCE_KEY] = prov.to_dict()
-    with open(md_path, "wb") as f:
-        frontmatter.dump(post, f)
+    """Add or replace the provenance block, preserving existing YAML formatting."""
+    text = md_path.read_text(encoding="utf-8")
+    m = _FRONTMATTER_RE.match(text)
+    yaml = _yaml()
+    if m:
+        data = yaml.load(m.group(1)) or {}
+        body = text[m.end():]
+    else:
+        data = {}
+        body = text
+    data[PROVENANCE_KEY] = prov.to_dict()
+    buf = io.StringIO()
+    yaml.dump(data, buf)
+    md_path.write_text(f"---\n{buf.getvalue()}---\n{body}", encoding="utf-8")
+
+
+def _to_plain(obj):
+    """Recursively convert ruamel.yaml CommentedMap/Seq to plain dict/list."""
+    if hasattr(obj, "items"):
+        return {k: _to_plain(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_to_plain(v) for v in obj]
+    return obj
 
 
 def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[bool, Optional[str]]:
-    """Compare recorded inputs against currently-resolved inputs. Returns (is_stale, reason)."""
+    """Compare recorded inputs against currently-resolved inputs. Returns (is_stale, reason).
+
+    Inputs without sha256 (e.g. URL-sourced) are checked only on id-presence,
+    not on content. Real content-based detection requires a local cache.
+    """
     rec = {i.id: i.sha256 for i in recorded.inputs}
     cur = {i.id: i.sha256 for i in current_inputs}
     if rec.keys() != cur.keys():
@@ -151,6 +199,8 @@ def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[boo
             parts.append(f"removed inputs: {removed}")
         return True, "; ".join(parts)
     for k, cur_hash in cur.items():
+        if rec[k] is None or cur_hash is None:
+            continue  # no content hash available; cannot detect content drift
         if rec[k] != cur_hash:
             return True, f"input changed: {k}"
     return False, None

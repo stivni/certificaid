@@ -5,6 +5,19 @@ wet: "Wetboek van Economisch Recht"
 status: "beschikbaar"
 bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+provenance:
+  inputs:
+  - id: resources/raw/wetteksten/WER.pdf
+    sha256: f1253ed1adb2f84082517dca7b9d6a9a98d457cda4c373b694f201c2ef3b48d5
+    version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:09Z'
+  stale: false
+  stale_reason:
 ---
 
 # Wetboek van Economisch Recht

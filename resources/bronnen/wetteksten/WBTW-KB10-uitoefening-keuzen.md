@@ -5,6 +5,19 @@ wet: "K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodali
 status: "beschikbaar"
 bijgewerkt: "29.12.1992"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+provenance:
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: e486ece5a9b1de35e82eb01d53b569233bb430c59026f72b0ec16e61850546c0
+    version: 29.12.1992
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:29:11Z'
+  stale: false
+  stale_reason:
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde
