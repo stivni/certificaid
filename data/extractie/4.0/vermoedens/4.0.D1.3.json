@@ -1,0 +1,125 @@
+{
+  "taakblok": "4.0.D1.3",
+  "vermoedens": [
+    {
+      "naam": "Permanente beroepsopleiding (PBO)",
+      "node_type": "regel",
+      "rationale": "De norm van permanente vorming is de centrale verplichting in dit taakblok en bepaalt hoeveel en welke bijscholing een accountant jaarlijks moet volgen.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Minimumuren permanente vorming per jaar",
+      "node_type": "drempel",
+      "rationale": "Het ITAA legt een concreet minimumaantal opleidingsuren op; kennis van deze grens is nodig om de vormingsnorm te kunnen naleven.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Erkende opleidingsverstrekkers en accreditatie",
+      "node_type": "procedure",
+      "rationale": "Niet alle vormingsactiviteiten tellen mee; de accountant moet weten welke aanbieders en activiteiten door het ITAA worden erkend.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Rapportering van vormingsactiviteiten aan het ITAA",
+      "node_type": "procedure",
+      "rationale": "De accountant moet zijn gevolgde opleiding aantonen en registreren bij het ITAA als bewijs van naleving van de PBO-verplichting.",
+      "gekoppeld_aan": "[4.0.I.D.5] Relaties met het ITAA"
+    },
+    {
+      "naam": "Sancties bij niet-naleving van de vormingsplicht",
+      "node_type": "regel",
+      "rationale": "Het niet halen van de PBO-norm kan leiden tot tuchtrechtelijke gevolgen, wat de accountant moet kennen als stok achter de deur.",
+      "gekoppeld_aan": "[4.0.I.D.9] Toezicht en beroepstucht"
+    },
+    {
+      "naam": "Volgen van fiscale actualiteit",
+      "node_type": "skill",
+      "rationale": "Het bijhouden van wijzigingen in fiscale wetgeving en rechtspraak is een expliciete doelstelling van dit taakblok die een actieve vaardigheid vereist.",
+      "gekoppeld_aan": "Doelstelling: Volgen van de fiscale actualiteit"
+    },
+    {
+      "naam": "Toepassing van wetswijzigingen in de praktijk",
+      "node_type": "skill",
+      "rationale": "De accountant moet nieuwe wetgeving niet alleen kennen maar ook correct implementeren in zijn dossiers en adviezen.",
+      "gekoppeld_aan": "Doelstelling: Toepassen van wijzigingen in de wetgeving"
+    },
+    {
+      "naam": "Kennisdeling met medewerkers en cliënten",
+      "node_type": "skill",
+      "rationale": "Het taakblok vermeldt expliciet het delen van kennis met collega's en medewerkers van de klant als beroepsverplichting.",
+      "gekoppeld_aan": "Doelstelling: Kennis delen met collega's en (medewerkers) van de klant"
+    },
+    {
+      "naam": "Interne opleiding en kennisbeheer in het kantoor",
+      "node_type": "procedure",
+      "rationale": "Systematische interne kennisoverdracht binnen een accountantskantoor is een praktische uitwerking van de kennisdelingsplicht.",
+      "gekoppeld_aan": "Doelstelling: Kennis delen met collega's"
+    },
+    {
+      "naam": "Competentiebeginsel (vakbekwaamheid)",
+      "node_type": "beginsel",
+      "rationale": "Het beginsel dat de accountant enkel opdrachten aanvaardt waarvoor hij voldoende deskundig is, stuurt de verplichting tot voortdurende bijscholing.",
+      "gekoppeld_aan": "[4.0.I.D.1] Basisprincipes"
+    },
+    {
+      "naam": "Zorgvuldigheidsbeginsel",
+      "node_type": "beginsel",
+      "rationale": "De plicht om met de nodige zorgvuldigheid te handelen omvat het up-to-date houden van kennis en het correct toepassen van actuele wetgeving.",
+      "gekoppeld_aan": "[4.0.I.D.1] Basisprincipes"
+    },
+    {
+      "naam": "Bronnen van beroepsnormen en juridische normen",
+      "node_type": "begrip",
+      "rationale": "De accountant moet weten waar hij de toepasselijke normen en regelgeving kan raadplegen om op de hoogte te blijven van relevante ontwikkelingen.",
+      "gekoppeld_aan": "[4.0.I.B] Bronnen van juridische en beroepsnormen"
+    },
+    {
+      "naam": "Rol en werking van het ITAA als beroepsinstituut",
+      "node_type": "actor",
+      "rationale": "Het ITAA stelt de PBO-normen vast, erkent opleidingen en houdt toezicht op naleving; begrip van deze rol is essentieel voor dit taakblok.",
+      "gekoppeld_aan": "[4.0.I.C.2] Het Instituut van de Belastingadviseurs en de Accountants (IBA)"
+    },
+    {
+      "naam": "Categorieën van toegelaten vormingsactiviteiten",
+      "node_type": "begrip",
+      "rationale": "De PBO-regelgeving onderscheidt verschillende vormen van opleiding (seminaries, e-learning, publicaties, …) met elk een eigen gewicht.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Verhouding tussen technische en deontologische vorming",
+      "node_type": "afwegingskader",
+      "rationale": "De PBO-norm vereist een evenwicht tussen vakinhoudelijke bijscholing en opleiding in ethiek en deontologie, wat een bewuste keuze van de accountant vraagt.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Toegang tot de hoedanigheid van gecertificeerd accountant",
+      "node_type": "procedure",
+      "rationale": "De voorwaarden voor toetreding tot het beroep omvatten initiële kwalificatievereisten die aansluiten bij de voortdurende vormingsplicht als continuum.",
+      "gekoppeld_aan": "[4.0.I.C.6] Toegang tot de hoedanigheid van gecertificeerd accountant"
+    },
+    {
+      "naam": "Bijhouden van een persoonlijk vormingsdossier",
+      "node_type": "procedure",
+      "rationale": "De accountant dient een gedocumenteerde registratie bij te houden van zijn gevolgde opleiding als bewijs tegenover het ITAA.",
+      "gekoppeld_aan": "[4.0.I.C.7] Permanente beroepsopleiding"
+    },
+    {
+      "naam": "Professionele scepticisme als permanente houding",
+      "node_type": "beginsel",
+      "rationale": "Het voortdurend kritisch evalueren van informatie en wetgeving is een houding die de accountant moet onderhouden en ontwikkelen via permanente vorming.",
+      "gekoppeld_aan": "[4.0.I.D.1] Basisprincipes"
+    }
+  ],
+  "_provenance": {
+    "inputs": [],
+    "tooling": {
+      "pipeline": "concept_extractor/vermoedensruimte",
+      "pipeline_version": "19fbc21-dirty",
+      "model": "claude-sonnet-4-6",
+      "prompt_version": "vermoedensruimte-v1"
+    },
+    "generated_at": "2026-05-07T18:57:55.230100+00:00",
+    "stale": false,
+    "stale_reason": null
+  }
+}

@@ -36,11 +36,24 @@ Gebruik:
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Laad .env als ANTHROPIC_API_KEY nog niet in de omgeving zit
+def _laad_dotenv():
+    env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+    if env_path.exists() and not os.environ.get("ANTHROPIC_API_KEY"):
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, _, val = line.partition("=")
+                os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+_laad_dotenv()
 
 import anthropic
 

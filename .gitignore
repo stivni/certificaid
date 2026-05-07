@@ -26,11 +26,18 @@ resources/raw/normen/
 # PO-build voortgang (lokaal, niet in repo)
 .po-voortgang-*.md
 
-# RAG data (gegenereerd, groot)
+# RAG data (gegenereerd, herbouwbaar)
 data/chroma_db/
+data/chroma_db_*/
+
+# Concept-records (gegenereerd door extractor — gitignored want herbouwbaar;
+# geverifieerde records kunnen later tracked worden wanneer status = geverifieerd)
 data/concept_records/
 data/cases/
 data/relations.json
+
+# Extractie-output: vermoedens worden WEL getracked (curatie-artefact, niet auto-herbouwbaar)
+# data/extractie/ is dus NIET geignoreerd
 
 # Python virtual envs
 venv/
