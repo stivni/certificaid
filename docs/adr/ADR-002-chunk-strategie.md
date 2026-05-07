@@ -100,9 +100,11 @@ ChromaDB ondersteunt geen geneste objecten; daarom JSON-string. Vervangt het v1-
 
 #### Praktijkgidzen
 
-**Open vraag** — zie spawn-task "Analyseer praktijkgids-structuur voor chunking" (mei 2026). De v1-strategie ("vaste grootte ~1.000 tokens met 20% overlap, geen context-uitbreiding") respecteert de heading-structuur niet die er wél blijkt te zijn (HOOFDSTUK + genummerde subsecties in fiscaal-memento; VAK I-XIII met letter-subsecties in toelichting-PB). Patch volgt zodra de analyse klaar is.
+Praktijkgidzen hebben **geen `## Art.`-headings** (fiscaal-memento gebruikt `## HOOFDSTUK X`/`### N.`; toelichting-PB gebruikt `## VAK I-XIII`/`### A./B./C.`). De artikel-strict splitser (`split_wettekst_v2`) levert daardoor 0 chunks.
 
-Tijdelijk blijft de v1-strategie van kracht.
+**Pragmatische graceful fallback**: in `index_wetteksten` wordt automatisch teruggevallen op `split_generic_headings` als `split_wettekst_v2` 0 chunks oplevert. De praktijkgids krijgt dan een minimaal path (`[wet, sectie]`) en breadcrumb `[wet-naam]` of `[wet-naam → heading]`.
+
+Een eigen, op heading-structuur afgestemde strategie blijft een **TODO** voor later (zie open vragen). De fallback is goed genoeg voor recall.
 
 #### TDKs / programmaonderdelen
 
@@ -158,7 +160,11 @@ Bij retrieval: fragments van hetzelfde artikel zitten naast elkaar in `chunk_ind
 
 ## Open vragen
 
-- **Praktijkgidzen** — zie hierboven, parked als spawn-task
+- **Praktijkgidzen-specifieke strategie** — fallback via `split_generic_headings` werkt, maar respecteert de hoofdstuk-/vak-structuur niet als pad in metadata. Een eigen strategie (HOOFDSTUK → genummerde subsecties als pad) zou de retrieval scherper maken. Niet kritiek; de fallback levert recall.
 - **Disambiguatie van Art. 1 in 87 wetten** — breadcrumb met wet-naam lost dit op voor de embedding, maar bij citaten naar "art. 5" zonder context is heuristiek nodig (zelfde wet tenzij anders aangegeven). Niet hier opgelost; concept-extractor zal dit moeten hanteren (ADR-009 stap 4).
-- **Multi-line structurele headings** — in WIB92 en WBTW staan TITEL/HOOFDSTUK over meerdere regels (PDF-extractor heeft wrap-breaks bewaard). Hierdoor pakt de breadcrumb-logica alleen het zichtbare deel. Geparkt als spawn-task "Fix multi-line headings in ETL pipeline" (mei 2026).
-- **Bijlages aan einde van wet** — in WBTW zijn Bijlage A (recente wijzigingen) en Bijlage B (opmerkingen bij artikelen) aan het laatste artikel geplakt door de ETL. Art. 109 wordt zo 58K chars terwijl het zelf "(opgeheven)" is. Vermoedelijk in andere wetten ook. Geparkt — fix in ETL: bijlages als aparte chunks met eigen heading.
+- **Adviezen-titel uit H1**: bij sommige adviezen plakt de eerste paragraaf aan het H1 wegens ontbrekende lege regel in de markdown. De breadcrumb wordt hard-capped op 80 chars op woordgrens — niet perfect maar functioneel. ETL-detail; geen blocker.
+
+## Opgeloste issues (mei 2026)
+
+- ✅ Multi-line structurele headings in WIB92/WBTW: ETL-pipeline merget heading-vervolg op de volgende regel.
+- ✅ Bijlages aan einde van wet (WBTW Bijlage A/B): ETL-pipeline geeft ze nu eigen `##`-heading.
