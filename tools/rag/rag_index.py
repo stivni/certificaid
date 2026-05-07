@@ -33,6 +33,7 @@ Gebruik:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -47,6 +48,10 @@ from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunct
 from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from tools.lib.provenance import read_trust  # noqa: E402
 DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
@@ -119,6 +124,42 @@ def _apply_filter(files: list[Path], allowed: set[str] | None) -> list[Path]:
     if allowed is None:
         return files
     return [f for f in files if f.name in allowed]
+
+
+def _apply_trust_filter(
+    files: list[Path], *, include_unreviewed: bool = False,
+) -> tuple[list[Path], dict[str, int], dict[Path, "Trust"]]:
+    """Filter op `provenance.trust.status == "trusted"` (ADR-005 §5).
+
+    Returnt (kept, skipped_counts, trust_per_path):
+      - kept: files die geïndexeerd mogen worden
+      - skipped_counts: dict {status: aantal} van geweerde bestanden
+      - trust_per_path: cache van Trust-objecten zodat indexers de metadata
+        niet opnieuw hoeven uitlezen
+
+    Met `--include-unreviewed` (opt-in) gaat de filter uit en worden ALLE
+    bronnen geïndexeerd ongeacht status. Trust-metadata wordt nog steeds
+    in ChromaDB-metadata geschreven, zodat retrieval-time-filtering nog werkt.
+    """
+    kept: list[Path] = []
+    skipped: dict[str, int] = {}
+    trust_per_path: dict[Path, "Trust"] = {}
+    for f in files:
+        t = read_trust(f)
+        trust_per_path[f] = t
+        if include_unreviewed or t.status == "trusted":
+            kept.append(f)
+        else:
+            skipped[t.status] = skipped.get(t.status, 0) + 1
+    return kept, skipped, trust_per_path
+
+
+def _format_trust_skip_msg(rol: str, skipped: dict[str, int]) -> str:
+    if not skipped:
+        return ""
+    parts = ", ".join(f"{k}: {v}" for k, v in sorted(skipped.items()))
+    total = sum(skipped.values())
+    return f"  → {total} {rol}-bron(nen) geskipt op trust-status ({parts})"
 
 
 # ---------------------------------------------------------------------------
@@ -481,6 +522,9 @@ def make_embedding_function(model_name: str, device: str):
         model.max_seq_length = MPS_MAX_SEQ_LENGTH
 
         class MPSEmbeddingFunction:
+            def name(self) -> str:          # vereist door nieuwere ChromaDB versies
+                return "mps-bge-m3"
+
             def __call__(self, input: list[str]) -> list[list[float]]:
                 embeddings = model.encode(
                     input,
@@ -497,24 +541,95 @@ def make_embedding_function(model_name: str, device: str):
     return SentenceTransformerEmbeddingFunction(model_name=model_name, device=device)
 
 
+def _chunk_sha(text: str) -> str:
+    """SHA256 van chunk-tekst, eerste 16 hex-chars (voldoende voor collision-detectie)."""
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+
+
+def _fetch_existing_shas(collection, ids: list[str]) -> dict[str, str]:
+    """
+    Haal bestaande chunk_sha-metadata op voor de opgegeven IDs.
+    Retourneert {chunk_id: sha}. Ontbrekende IDs zijn gewoon afwezig in het dict.
+    """
+    if not ids:
+        return {}
+    try:
+        # ChromaDB retourneert alleen IDs die bestaan — ontbrekende worden stil overgeslagen
+        result = collection.get(ids=ids, include=["metadatas"])
+        return {
+            eid: em.get("chunk_sha", "")
+            for eid, em in zip(result["ids"], result["metadatas"])
+        }
+    except Exception:
+        return {}
+
+
 def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
+    """
+    Embed en upsert chunks — sla chunks over waarvan de tekst niet veranderd is
+    (chunk_sha-vergelijking, ADR-004).
+
+    Algoritme:
+      1. Bereken SHA voor elke chunk-tekst
+      2. Haal bestaande SHA's op uit ChromaDB (één batch-get)
+      3. Filter: alleen nieuwe of gewijzigde chunks doorsturen naar het embedding-model
+      4. Voeg chunk_sha toe aan metadata zodat de volgende run kan vergelijken
+    """
     n = len(ids)
     if n == 0:
         return
-    n_batches = (n + batch_size - 1) // batch_size
-    for i in tqdm(range(0, n, batch_size), desc="    embedden", total=n_batches):
+
+    shas = [_chunk_sha(t) for t in texts]
+    existing = _fetch_existing_shas(collection, ids)
+
+    nieuwe_ids: list[str] = []
+    nieuwe_texts: list[str] = []
+    nieuwe_metas: list[dict] = []
+
+    for chunk_id, text, meta, sha in zip(ids, texts, metadatas, shas):
+        if existing.get(chunk_id) == sha:
+            continue   # ongewijzigd → skip embedding
+        meta = dict(meta)
+        meta["chunk_sha"] = sha
+        nieuwe_ids.append(chunk_id)
+        nieuwe_texts.append(text)
+        nieuwe_metas.append(meta)
+
+    overgeslagen = n - len(nieuwe_ids)
+    if overgeslagen:
+        print(f"    {overgeslagen}/{n} chunks ongewijzigd → overgeslagen")
+    if not nieuwe_ids:
+        return
+
+    n_nieuw = len(nieuwe_ids)
+    n_batches = (n_nieuw + batch_size - 1) // batch_size
+    for i in tqdm(range(0, n_nieuw, batch_size), desc="    embedden", total=n_batches):
         collection.upsert(
-            ids=ids[i:i + batch_size],
-            documents=texts[i:i + batch_size],
-            metadatas=metadatas[i:i + batch_size],
+            ids=nieuwe_ids[i:i + batch_size],
+            documents=nieuwe_texts[i:i + batch_size],
+            metadatas=nieuwe_metas[i:i + batch_size],
         )
 
 
-def index_wetteksten(collection, file_filter: set[str] | None = None, batch_size: int = 200):
+def index_wetteksten(
+    collection,
+    file_filter: set[str] | None = None,
+    batch_size: int = 200,
+    *,
+    include_unreviewed: bool = False,
+):
     src = BRON_DIRS["wettekst"]
     files = _apply_filter(sorted(src.glob("*.md")), file_filter)
     if not files:
         print(f"  Geen wetteksten{' in scope' if file_filter else ''}")
+        return
+
+    files, trust_skipped, trust_per_path = _apply_trust_filter(files, include_unreviewed=include_unreviewed)
+    msg = _format_trust_skip_msg("wettekst", trust_skipped)
+    if msg:
+        print(msg)
+    if not files:
+        print("  Geen trusted wetteksten — niets te indexeren")
         return
 
     ids, texts, metadatas = [], [], []
@@ -557,6 +672,7 @@ def index_wetteksten(collection, file_filter: set[str] | None = None, batch_size
             chunk_text = _prepend_keywords(chunk["text"], chunk["heading"], keywords_map)
             ids.append(chunk["id"])
             texts.append(chunk_text)
+            t = trust_per_path.get(path)
             metadatas.append({
                 "bron_rol":    "wettekst",
                 "bron":        str(fm.get("wet", fm.get("bron", path.stem))),
@@ -568,6 +684,8 @@ def index_wetteksten(collection, file_filter: set[str] | None = None, batch_size
                 "breadcrumb":  chunk.get("breadcrumb", ""),
                 "split_part":  chunk.get("_split_part", ""),
                 "has_keywords": str(bool(keywords_map.get(chunk["heading"]))),
+                "trust_status":       t.status if t else "unknown",
+                "trust_confirmed_by": t.confirmed_by or "" if t else "",
             })
 
     if ids:
@@ -576,12 +694,26 @@ def index_wetteksten(collection, file_filter: set[str] | None = None, batch_size
           f"({toc_skipped} TOC-only overgeslagen, {long_split_count} lange artikelen gesplitst)")
 
 
-def index_normen(collection, file_filter: set[str] | None = None, batch_size: int = 200):
+def index_normen(
+    collection,
+    file_filter: set[str] | None = None,
+    batch_size: int = 200,
+    *,
+    include_unreviewed: bool = False,
+):
     src = BRON_DIRS["norm"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
     files = _apply_filter(files, file_filter)
     if not files:
         print(f"  Geen normen{' in scope' if file_filter else ''}")
+        return
+
+    files, trust_skipped, trust_per_path = _apply_trust_filter(files, include_unreviewed=include_unreviewed)
+    msg = _format_trust_skip_msg("norm", trust_skipped)
+    if msg:
+        print(msg)
+    if not files:
+        print("  Geen trusted normen — niets te indexeren")
         return
 
     ids, texts, metadatas = [], [], []
@@ -620,6 +752,7 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
                 )
                 ids.append(fid)
                 texts.append(fragment["text"])
+                t = trust_per_path.get(path)
                 metadatas.append({
                     "bron_rol":  "norm",
                     "bron":      norm_naam,
@@ -628,6 +761,8 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
                     "themas":    json.dumps(fm.get("themas", [])),
                     "breadcrumb": breadcrumb,
                     "split_part": part,
+                    "trust_status":       t.status if t else "unknown",
+                    "trust_confirmed_by": t.confirmed_by or "" if t else "",
                 })
             continue
 
@@ -641,6 +776,7 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
                 fid = f"{chunk['id']}_part{part.split('/')[0]}" if part else chunk["id"]
                 ids.append(fid)
                 texts.append(fragment["text"])
+                t = trust_per_path.get(path)
                 metadatas.append({
                     "bron_rol":  "norm",
                     "bron":      norm_naam,
@@ -649,6 +785,8 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
                     "themas":    json.dumps(fm.get("themas", [])),
                     "breadcrumb": breadcrumb,
                     "split_part": part,
+                    "trust_status":       t.status if t else "unknown",
+                    "trust_confirmed_by": t.confirmed_by or "" if t else "",
                 })
 
     if ids:
@@ -656,12 +794,26 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
     print(f"  {len(ids)} chunks uit {len(files)} normen")
 
 
-def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: int = 200):
+def index_adviezen(
+    collection,
+    file_filter: set[str] | None = None,
+    batch_size: int = 200,
+    *,
+    include_unreviewed: bool = False,
+):
     src = BRON_DIRS["advies"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
     files = _apply_filter(files, file_filter)
     if not files:
         print(f"  Geen adviezen{' in scope' if file_filter else ''}")
+        return
+
+    files, trust_skipped, trust_per_path = _apply_trust_filter(files, include_unreviewed=include_unreviewed)
+    msg = _format_trust_skip_msg("advies", trust_skipped)
+    if msg:
+        print(msg)
+    if not files:
+        print("  Geen trusted adviezen — niets te indexeren")
         return
 
     ids, texts, metadatas = [], [], []
@@ -702,6 +854,7 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
                 fid = f"{source_id}__volledig_part{part.split('/')[0]}" if part else f"{source_id}__volledig"
                 ids.append(fid)
                 texts.append(fragment["text"])
+                t = trust_per_path.get(path)
                 metadatas.append({
                     "bron_rol":  "advies",
                     "bron":      nummer,
@@ -711,6 +864,8 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
                     "datum":     str(fm.get("datum", "")),
                     "breadcrumb": breadcrumb,
                     "split_part": part,
+                    "trust_status":       t.status if t else "unknown",
+                    "trust_confirmed_by": t.confirmed_by or "" if t else "",
                 })
         else:
             chunks = split_generic(content, source_id, breadcrumb_prefix=breadcrumb)
@@ -726,6 +881,7 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
                     fid = f"{chunk['id']}_part{part.split('/')[0]}" if part else chunk["id"]
                     ids.append(fid)
                     texts.append(fragment["text"])
+                    t = trust_per_path.get(path)
                     metadatas.append({
                         "bron_rol":  "advies",
                         "bron":      nummer,
@@ -735,6 +891,8 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
                         "datum":     str(fm.get("datum", "")),
                         "breadcrumb": section_breadcrumb,
                         "split_part": part,
+                        "trust_status":       t.status if t else "unknown",
+                        "trust_confirmed_by": t.confirmed_by or "" if t else "",
                     })
 
     if ids:
@@ -833,6 +991,9 @@ def main():
                         help="Verwijder en herbouw de collection(s)")
     parser.add_argument("--device", choices=["mps", "cuda", "cpu"],
                         help="Device voor embedding-model (default: auto-detect)")
+    parser.add_argument("--include-unreviewed", action="store_true",
+                        help="Indexeer ook bronnen met trust.status != trusted "
+                             "(default: alleen trusted, ADR-005 §5).")
     args = parser.parse_args()
 
     device = args.device or detect_device()
@@ -864,11 +1025,14 @@ def main():
                 print(f"  Geen {rol}en in scope — overgeslagen")
                 continue
             if rol == "wettekst":
-                index_wetteksten(col, scope_for_rol, batch_size=batch_size)
+                index_wetteksten(col, scope_for_rol, batch_size=batch_size,
+                                 include_unreviewed=args.include_unreviewed)
             elif rol == "norm":
-                index_normen(col, scope_for_rol, batch_size=batch_size)
+                index_normen(col, scope_for_rol, batch_size=batch_size,
+                             include_unreviewed=args.include_unreviewed)
             elif rol == "advies":
-                index_adviezen(col, scope_for_rol, batch_size=batch_size)
+                index_adviezen(col, scope_for_rol, batch_size=batch_size,
+                               include_unreviewed=args.include_unreviewed)
 
     print("\n✓ Klaar.")
 
