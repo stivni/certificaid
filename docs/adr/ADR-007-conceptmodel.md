@@ -60,9 +60,9 @@ Optionele velden op edges: `scope`, `conditie`, `scharnier`, `redenering`, `aspe
 
 `seed` ontstaat als dangling-target van een edge; `geverifieerd` vereist menselijke bevestiging.
 
-### TDK-koppeling (ADR-002)
+### Kenniselement-koppeling (ADR-002)
 
-Verplicht veld `afdekt_tdk: [...]` per node. Dekkingscheck draait per snapshot.
+Verplicht veld `afdekt_kenniselementen: [...]` per node, met codes uit het examenprogramma (bv. `["4.0.I.D.7"]`). Dekkingscheck draait per snapshot.
 
 ## Gevolgen
 

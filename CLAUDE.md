@@ -1,6 +1,6 @@
 # Certificaid
 
-Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destilleert uit het officiële ITAA-programma (TDKs per vak) + wetteksten + normen + voorbeeldexamens het studiemateriaal dat ontbreekt.
+Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destilleert uit het officiële ITAA-examenprogramma (taken, doelstellingen en kenniselementen per programmaonderdeel) + wetteksten + normen + voorbeeldexamens het studiemateriaal dat ontbreekt.
 
 **Doelpubliek**: Stagiairs GA/GBA met boekhoudkundige en fiscale basiskennis — geen juristen.
 
@@ -19,7 +19,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant. Destillee
 | Bron toevoegen of verwerken | [`docs/bronnen-pipeline.md`](docs/bronnen-pipeline.md) *(legacy; ADR-005 bij Fase 1)* |
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | RAG-index herbouwen of bevragen | `tools/rag/rag_index.py`, `tools/rag/rag_query.py` *(wacht op Fase 2)* |
-| Fiche schrijven / PO-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
+| Fiche schrijven / programmaonderdeel-build *(legacy)* | [`docs/content-richtlijnen.md`](docs/content-richtlijnen.md), [`docs/po-builder.md`](docs/po-builder.md) *(vervalt bij Fase 5)* |
 
 ---
 
@@ -52,11 +52,11 @@ certificaid/
 ├── CLAUDE.md                    # Deze wegwijzer
 ├── docs/
 │   ├── content-richtlijnen.md  # Schrijfregels voor fiches
-│   ├── po-builder.md           # PO-build procesflow
+│   ├── po-builder.md           # Programmaonderdeel-build procesflow (legacy)
 │   ├── bronnen-pipeline.md     # Bronnen toevoegen en verwerken
 │   └── adr/                    # Architecture Decision Records
 ├── content/
-│   ├── programmaonderdelen/    # PO-fiches (catalogus per vak)
+│   ├── programmaonderdelen/    # Programmaonderdeel-fiches (catalogus per vak, legacy)
 │   ├── competenties/           # Competentie-fiches (technieken)
 │   ├── materie/                # Materie-fiches (concepten)
 │   └── bronnen/                # Primaire bronnen als site-content
@@ -66,7 +66,7 @@ certificaid/
 │   │   ├── normen/             # ITAA-normen
 │   │   └── adviezen/           # CBN-adviezen
 │   ├── source_config.yaml      # Enige bron van waarheid voor alle bronnen
-│   └── po-builder-prompt.md    # Startbericht po-builder scheduled agent
+│   └── po-builder-prompt.md    # Startbericht po-builder scheduled agent (legacy)
 ├── tools/
 │   ├── download/               # Bron ophalen (CBN-adviezen, ITAA-normen)
 │   ├── etl/                    # PDF/HTML → markdown wetteksten + reprocessing

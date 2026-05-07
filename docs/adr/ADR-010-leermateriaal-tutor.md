@@ -52,21 +52,21 @@ Bron-claim zonder verwijzing = ⚠️ te verifiëren, **nooit** stilzwijgend ⚖
 ### 4. Fiche-structuur
 
 - Eén concept = één fiche (in de snapshot)
-- PO-fiches zijn navigatie (welke concepten, welke voorbeeldvragen) + voorbeeldvragen, geen content-duplicatie
+- Programmaonderdeel-fiches zijn navigatie (welke concepten, welke voorbeeldvragen) + voorbeeldvragen, geen content-duplicatie
 - Fiche-template per node-type (begrip-fiche ziet er anders uit dan procedure-fiche of beginsel-fiche)
 
 ### 5. Site-generator
 
 Quartz (Obsidian-compatibel, wikilinks, GitHub Pages). Leeft op `content/snapshots/<huidige>/` voor publieke site; oudere snapshots blijven via versie-routes bereikbaar.
 
-### 6. TDK-dekkingscheck als release-gate
+### 6. Kenniselement-dekkingscheck als release-gate
 
-Vóór een snapshot publiceerbaar is moet de TDK-dekkingscheck (ADR-002) groen zijn voor de POs in scope. Anders: blocking warning + lijst gaten.
+Vóór een snapshot publiceerbaar is moet de kenniselement-dekkingscheck (ADR-002) groen zijn voor de programmaonderdelen in scope. Anders: blocking warning + lijst gaten.
 
 ## Gevolgen
 
 - `tutor/app.py` — Streamlit, leest concept-laag direct
 - `tools/snapshot/` (nieuw) — concepten → fiches → versie-tag
 - `content/snapshots/<versie>/` — gepubliceerde leerstof (Quartz-input)
-- `content/` als losse-fiches-map verdwijnt geleidelijk; bestaande PO/competentie/materie-content gaat naar `_archive/` zodra de eerste snapshot stabiel is
+- `content/` als losse-fiches-map verdwijnt geleidelijk; bestaande programmaonderdeel-, competentie- en materie-content gaat naar `_archive/` zodra de eerste snapshot stabiel is
 - Tutor en snapshot-renderer delen template-logica voor confidence-labeling, citaties en wikilink-resolutie

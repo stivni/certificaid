@@ -7,7 +7,7 @@
 
 Concepten ontstaan niet vanzelf. Drie ingangen leveren materiaal, en geen van de drie alleen volstaat:
 
-- **TDK-programma** zegt *welke* concepten nodig zijn (scope), niet *wat* ze inhouden
+- **Het examenprogramma** zegt *welke* concepten nodig zijn (scope), niet *wat* ze inhouden
 - **Bronnen** leveren juridische inhoud, maar niet alle bronnen zijn even gezagsvol en niet alle relevante kennis staat letterlijk in een artikel
 - **Voorbeeldexamens** tonen de toetsings-realiteit (welke diepte, welke uitzonderingen worden bevraagd), maar als je extractie alleen daarop baseert loop je met oogkleppen — je dekt enkel wat eerder gevraagd werd
 
@@ -19,7 +19,7 @@ Daarom: alle drie de ingangen samen, in een iteratief proces dat het schema kan 
 
 | Ingang | Vraag | Werkwijze |
 |---|---|---|
-| **TDK-driven** | Welke concepten dekken deze TDK-tak? | Per TDK-element: bronnen-RAG + LLM-prompt → kandidaat-concepten |
+| **Programma-gestuurd** | Welke concepten dekken dit kenniselement? | Per kenniselement: bronnen-RAG + LLM-prompt → kandidaat-concepten |
 | **Bron-driven** | Welke concepten zitten verborgen in deze bron? | Bronnen-RAG iteratief met concept-spotting prompt; output = kandidaten + dangling-edges |
 | **Examen-driven** | Welke concepten waren nodig om deze vraag op te lossen? | Voorbeeldexamen-vraag oplossen met huidige concepten + bronnen-RAG; gat = nieuw concept of uitbreiding |
 
@@ -28,7 +28,7 @@ De drie ingangen draaien parallel; hun output convergeert op dezelfde `data/conc
 ### 2. Iteratief proces
 
 ```
-Trigger (TDK-tak / open vraag / dangling-edge)
+Trigger (kenniselement / open vraag / dangling-edge)
   → Bronnen-RAG (en concepten-RAG voor context)
   → Eerste extractie: node + edges (status `partieel` of `gevuld`)
   → Dangling-edges → seed-queue voor volgende ronde
@@ -63,7 +63,7 @@ Wanneer een concept niet past in het huidige conceptmodel:
 
 ## Gevolgen
 
-- `tools/extractie/concept_extractor.py` — orchestrator; per ingang (TDK / bron / examen) eigen entrypoint
+- `tools/extractie/concept_extractor.py` — orchestrator; per ingang (programma / bron / examen) eigen entrypoint
 - `tools/extractie/queue.py` — dangling-edges → seed-queue
 - LLM-cost: extractie is duur. Provenance-tracking maakt incremental re-runs goedkoop (alleen `stale` records herextraheren).
 - Voorbeeldexamens worden vroeg gestructureerd (vraag, oplossing, vereiste kennis) in `data/voorbeeldexamens/` als ground truth voor zowel deze ADR als ADR-009

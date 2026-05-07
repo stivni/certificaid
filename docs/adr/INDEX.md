@@ -16,7 +16,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | ADR | Onderwerp | Status |
 |---|---|---|
 | [ADR-001](ADR-001-lagen-architectuur.md) | Lagen-architectuur (kapstok) | Draft |
-| [ADR-002](ADR-002-tdk-scoping.md) | TDK als scoping-anker | Draft |
+| [ADR-002](ADR-002-examenprogramma-scoping.md) | Examenprogramma als scoping-anker | Draft |
 | [ADR-003](ADR-003-reprocessing-evaluatie.md) | Reprocessing & evaluatie | Draft |
 | [ADR-004](ADR-004-provenance.md) | Provenance & versionering | Draft |
 | [ADR-005](ADR-005-bronnen-etl.md) | Bronnen-ETL | Draft |
@@ -36,9 +36,9 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 |---|---|
 | Bron toevoegen of herconverteren | ADR-005 (ETL), ADR-004 (provenance bij output), ADR-003 (kwaliteits-gate) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
-| Concept-record maken of aanvullen | ADR-007 (model), ADR-008 (extractie), ADR-002 (TDK-koppeling), ADR-010 (confidence-labeling) |
+| Concept-record maken of aanvullen | ADR-007 (model), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling) |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
-| Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (TDK-dekkingscheck) |
+| Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |
 

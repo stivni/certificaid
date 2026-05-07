@@ -19,7 +19,7 @@ Bovendien: gericht reprocessen ("bron X is foutief, regenereer alle downstream")
 |---|---|
 | ETL | Golden set (5–10 reprocesste bronnen handmatig OK) groen + agent-QA-rapport "pass" |
 | Bronnen-RAG | Top-k recall op vragen-testset boven afgesproken drempel |
-| Concepten | Dekkingscheck TDK groen + voorbeeldexamen-vragen oplosbaar uit conceptenset |
+| Concepten | Kenniselement-dekkingscheck groen + voorbeeldexamen-vragen oplosbaar uit conceptenset |
 | Examenpatronen | Voorbeeldexamens gelabeld; gat-rapport met concepten leeg |
 | Leermateriaal | Student kan voorbeeldexamen-vragen oplossen na bestudering snapshot |
 

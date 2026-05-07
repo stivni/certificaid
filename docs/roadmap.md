@@ -5,9 +5,9 @@ Werkdocument — geen ADR. Beschrijft *welke fasen* in welke volgorde worden aan
 ## Mindset
 
 - **POC met protoduction-aanname** — alle code wordt productie-code. We bouwen geen wegwerpprototype.
-- **Vertical slice eerst** — één PO, end-to-end (ruwe bron → leesbare bron → bron-RAG → concepten → fiche → tutor → oefenvraag) vóór we horizontaal verbreden naar alle PO's. Forceert dat elke laag werkelijk werkt, niet enkel ontworpen is.
+- **Vertical slice eerst** — één programmaonderdeel, end-to-end (ruwe bron → leesbare bron → bron-RAG → concepten → fiche → tutor → oefenvraag) vóór we horizontaal verbreden naar alle programmaonderdelen. Forceert dat elke laag werkelijk werkt, niet enkel ontworpen is.
 - **"Never done" als framing** — DoD per fase is *"goed genoeg om door te schuiven + regressietest aanwezig"*. Niet "100%". Bij nieuwe inzichten kunnen we terugkeren naar elke laag zonder de hele pipeline te moeten herbouwen.
-- **Iteratief, niet sequentieel** — fasen kunnen overlappen. De voorbeeldexamens-laag (ground truth) en TDK-laag worden parallel opgebouwd; examenpatronen lopen parallel aan concept-extractie.
+- **Iteratief, niet sequentieel** — fasen kunnen overlappen. De voorbeeldexamens-laag (ground truth) en de examenprogramma-laag worden parallel opgebouwd; examenpatronen lopen parallel aan concept-extractie.
 
 ## Fasen
 
@@ -64,10 +64,10 @@ ADR: [ADR-006](adr/ADR-006-rag-strategie.md).
 
 Concreet:
 - Conceptmodel (node-types, edge-types, sleutel-velden) versie 1 vastgelegd
-- Concept-extractor: TDK-driven + bron-driven + examen-driven
+- Concept-extractor: programma-gestuurd + bron-gestuurd + examen-gestuurd
 - Schema-evolutie expliciet (versie per record); wijziging schema → record-status `stale`
 
-DoD: voor de POC-PO is de concepten-set "rond" — fiche-schrijver heeft genoeg context, voorbeeldvragen kunnen beantwoord worden, geen kritische dangling-edges.
+DoD: voor het POC-programmaonderdeel is de concepten-set "rond" — fiche-schrijver heeft genoeg context, voorbeeldvragen kunnen beantwoord worden, geen kritische dangling-edges.
 
 ADRs: [ADR-007](adr/ADR-007-conceptmodel.md), [ADR-008](adr/ADR-008-concept-extractie.md).
 
@@ -106,11 +106,11 @@ ADR: [ADR-010](adr/ADR-010-leermateriaal-tutor.md).
 
 ## Cross-cutting (loopt continu mee)
 
-- **TDK-dekkingscheck** — voor elke TDK-tak: minstens één concept dat hem afdekt + minstens één voorbeeldvraag of examenpatroon dat hem toetst. Eerste-orde regressietest. ([ADR-002](adr/ADR-002-tdk-scoping.md))
+- **Kenniselement-dekkingscheck** — voor elk kenniselement uit het examenprogramma: minstens één concept dat hem afdekt + minstens één voorbeeldvraag of examenpatroon dat hem toetst. Eerste-orde regressietest. ([ADR-002](adr/ADR-002-examenprogramma-scoping.md))
 - **Voorbeeldexamens-corpus** — vroeg ingelezen en gestructureerd; ground truth voor concepten én patronen. Nooit geforceerd ("dit examen vraagt X dus we maken concept X" is verboden — zie ADR-008).
 - **Examenpatronen-laag** — bouwt parallel aan concept-extractie. Drie functies: lens bij extractie, validator van conceptenset, generator van oefenvragen. ([ADR-009](adr/ADR-009-examenpatronen.md))
 - **Reprocessing-strategie** — input verandert → stale-cascade, geen auto-regen. Mens kiest of/wanneer. ([ADR-003](adr/ADR-003-reprocessing-evaluatie.md))
 
 ## POC-keuze (volgende stap)
 
-Eén PO kiezen die in een voorbeeldexamen écht getoetst is + waarvan de bronnen al gemigreerd zijn naar `extract:` (ADR-005). Eerste verticale slice doorlopen. Daarna verbreden.
+Eén programmaonderdeel kiezen dat in een voorbeeldexamen écht getoetst is + waarvan de bronnen al gemigreerd zijn naar `extract:` (ADR-005). Eerste verticale slice doorlopen. Daarna verbreden.

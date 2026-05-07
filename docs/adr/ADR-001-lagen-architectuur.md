@@ -5,7 +5,7 @@
 
 ## Context
 
-Certificaid moet een ITAA-bekwaamheidsexamen afdekken vanuit een mix van inputs (wetteksten, CBN-adviezen, normen, voorbeeldexamens, programma-TDK's) tot uiteindelijk leermateriaal en een interactieve tutor. Eerdere iteraties wankelden tussen "bron is leerstof" (te dicht bij artikelen, geen samenhang) en "vakindeling is leerstof" (artificiële splitsing van vakoverschrijdende fenomenen). Een expliciete lagenstructuur ontbrak; concept-, examenpatroon- en outputlagen liepen door elkaar.
+Certificaid moet een ITAA-bekwaamheidsexamen afdekken vanuit een mix van inputs (wetteksten, CBN-adviezen, normen, voorbeeldexamens, kenniselementen uit het examenprogramma) tot uiteindelijk leermateriaal en een interactieve tutor. Eerdere iteraties wankelden tussen "bron is leerstof" (te dicht bij artikelen, geen samenhang) en "vakindeling is leerstof" (artificiële splitsing van vakoverschrijdende fenomenen). Een expliciete lagenstructuur ontbrak; concept-, examenpatroon- en outputlagen liepen door elkaar.
 
 ## Beslissing
 
@@ -17,7 +17,7 @@ Vier opeenvolgende lagen + één parallelle observatielaag, met twee cross-cutti
 [leesbare bron-MD]
     ↓ indexering                            (ADR-006)
 [bronnen-RAG]
-    ↓ extractie ← TDK-scoping (ADR-002)     (ADR-008)
+    ↓ extractie ← examenprogramma-scoping (ADR-002)  (ADR-008)
 [concepten] ←→ examenpatronen               (ADR-009)
     ↓ indexering                            (ADR-006)
 [concepten-RAG]
@@ -29,7 +29,7 @@ cross-cutting: reprocessing (ADR-003), provenance (ADR-004)
 
 **Tutor draait *direct* op de concepten-laag** — lage latency tussen wijziging in concept en wat de student ziet. **Leermateriaal gaat door een release-snapshot** — append-only, met changelog. Studieleerstof bewegt niet onder de student z'n voeten.
 
-**Concepten zijn vakoverschrijdend** (één concept kan in meerdere PO's voorkomen). Vakindeling leeft enkel in de PO-laag van de output.
+**Concepten zijn vakoverschrijdend** (één concept kan in meerdere programmaonderdelen voorkomen). Vakindeling leeft enkel in de programmaonderdeel-fiches op output-niveau.
 
 **Examenpatronen lopen parallel aan concept-extractie**, niet erna. Beide gebruiken voorbeeldexamens als ground truth en voeden elkaar.
 

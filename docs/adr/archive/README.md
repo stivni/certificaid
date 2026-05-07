@@ -32,6 +32,6 @@ De nieuwe set staat in [`../INDEX.md`](../INDEX.md) en is *strategisch* van opze
 
 Twee onderwerpen zijn nieuw en hadden geen voorganger in de oude set:
 
-- **ADR-002 (TDK als scoping-anker)** — externe scope-definitie was er nog niet expliciet
+- **ADR-002 (Examenprogramma als scoping-anker)** — externe scope-definitie was er nog niet expliciet
 - **ADR-003 (Reprocessing & evaluatie) + ADR-004 (Provenance & versionering)** — fundament voor iteratief werken, eerder impliciet
 - **ADR-009 (Examenpatronen)** — bestond als ontwerp in `docs/examenpatronen-ontwerp.md` en in memory, nu verheven tot ADR
