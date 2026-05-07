@@ -5,145 +5,234 @@
       "naam": "Cliëntaanvaardingsbeleid",
       "node_type": "procedure",
       "rationale": "De kerntaak van dit blok is het vaststellen van een passend beleid voor de aanvaarding van klanten, wat een gestructureerde procedure vereist.",
-      "gekoppeld_aan": "Taak: Een passend beleid voor de aanvaarding van klanten vaststellen"
+      "gekoppeld_aan": "Taak: Een passend beleid voor de aanvaarding van klanten vaststellen",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Risicoanalyse bij klantaanvaarding",
       "node_type": "methode",
       "rationale": "De doelstelling 'een risicoanalyse uitvoeren' vereist een concrete methode om risico's verbonden aan een nieuwe of bestaande cliënt te beoordelen.",
-      "gekoppeld_aan": "Doelstelling: Een risicoanalyse uitvoeren"
+      "gekoppeld_aan": "Doelstelling: Een risicoanalyse uitvoeren",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Cliëntenonderzoek (Know Your Customer)",
       "node_type": "procedure",
       "rationale": "De antiwitwaswetgeving verplicht de accountant tot identificatie en verificatie van cliënten als onderdeel van de aanvaardingsprocedure.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Interne procedures antiwitwas",
       "node_type": "procedure",
       "rationale": "De doelstelling 'interne procedures uitwerken' en de antiwitwaswetgeving vereisen dat het kantoor interne controleprocedures opstelt.",
-      "gekoppeld_aan": "Doelstelling: Interne procedures uitwerken"
+      "gekoppeld_aan": "Doelstelling: Interne procedures uitwerken",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI)",
       "node_type": "regel",
       "rationale": "Bij vermoedens van witwassen of financiering van terrorisme rust op de accountant een wettelijke meldingsplicht aan de CFI.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Cel voor Financiële Informatieverwerking (CFI)",
       "node_type": "actor",
       "rationale": "De CFI is de bevoegde autoriteit die meldingen ontvangt en verwerkt in het kader van de antiwitwaswetgeving, relevant voor de communicatieplicht van de accountant.",
-      "gekoppeld_aan": "Doelstelling: Discreet en duidelijk communiceren met de autoriteiten"
+      "gekoppeld_aan": "Doelstelling: Discreet en duidelijk communiceren met de autoriteiten",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Verbod op doormelding (tipping-off)",
       "node_type": "regel",
       "rationale": "Bij het doen van een melding aan de CFI is de accountant verboden de betrokken cliënt hiervan op de hoogte te stellen, wat de discretieverplichting concretiseert.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Beroepsgeheim en professionele discretieplicht",
       "node_type": "beginsel",
       "rationale": "De accountant moet vertrouwelijke cliëntinformatie beschermen, terwijl hij tegelijk transparant moet zijn tegenover toezichthouders, wat een spanningsveld creëert bij klantaanvaarding.",
-      "gekoppeld_aan": "[4.0.I.D.7]"
+      "gekoppeld_aan": "[4.0.I.D.7]",
+      "kenniselementen": [
+        "4.0.I.D.7"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Onafhankelijkheidsbeginsel",
       "node_type": "beginsel",
       "rationale": "Bij de aanvaarding van een cliënt moet de accountant beoordelen of zijn onafhankelijkheid gewaarborgd kan worden, wat een fundamentele deontologische vereiste is.",
-      "gekoppeld_aan": "[4.0.I.D.2]"
+      "gekoppeld_aan": "[4.0.I.D.2]",
+      "kenniselementen": [
+        "4.0.I.D.2"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Onverenigbaarheden bij cliëntaanvaarding",
       "node_type": "regel",
       "rationale": "Bepaalde activiteiten of cliëntrelaties zijn wettelijk onverenigbaar met de uitoefening van het beroep en moeten worden gescreend bij aanvaarding.",
-      "gekoppeld_aan": "[4.0.I.C.5]"
+      "gekoppeld_aan": "[4.0.I.C.5]",
+      "kenniselementen": [
+        "4.0.I.C.5"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Basisprincipes beroepsdeontologie",
       "node_type": "beginsel",
       "rationale": "De fundamentele deontologische principes (integriteit, objectiviteit, deskundigheid, vertrouwelijkheid, professioneel gedrag) sturen het gehele aanvaardingsbeleid.",
-      "gekoppeld_aan": "[4.0.I.D.1]"
+      "gekoppeld_aan": "[4.0.I.D.1]",
+      "kenniselementen": [
+        "4.0.I.D.1"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Identificatie en verificatie van de cliënt",
       "node_type": "procedure",
       "rationale": "De antiwitwaswetgeving vereist dat de accountant de identiteit van de cliënt en de uiteindelijke begunstigde vaststelt en verifieert vóór aanvaarding.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Uiteindelijk begunstigde (UBO)",
       "node_type": "begrip",
       "rationale": "Het concept van de uiteindelijk begunstigde is centraal in het cliëntenonderzoek en de antiwitwaswetgeving en moet worden geïdentificeerd bij rechtspersonen.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Verhoogd risicoprofiel cliënt (PEP)",
       "node_type": "begrip",
       "rationale": "Politiek prominente personen vereisen verscherpt cliëntenonderzoek en een aangepast aanvaardingsbeleid onder de antiwitwaswetgeving.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Verscherpt cliëntenonderzoek",
       "node_type": "procedure",
       "rationale": "Bij hoger risico schrijft de antiwitwaswetgeving voor dat een uitgebreider onderzoek wordt gevoerd dan het standaard cliëntenonderzoek.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Vereenvoudigd cliëntenonderzoek",
       "node_type": "procedure",
       "rationale": "Bij aantoonbaar lager risico laat de antiwitwaswetgeving toe dat een beperkte onderzoeksprocedure wordt gevolgd, als onderdeel van de risicogebaseerde aanpak.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Risicogebaseerde aanpak (antiwitwas)",
       "node_type": "afwegingskader",
       "rationale": "De antiwitwaswetgeving verplicht accountants hun maatregelen te kalibreren op het vastgestelde risico, wat een sturend afwegingskader vormt voor het aanvaardingsbeleid.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Beperking gebruik van contanten",
       "node_type": "drempel",
       "rationale": "De wetgeving legt drempelwaarden op voor contante betalingen die de accountant in acht moet nemen in zijn relaties met cliënten.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Toezicht door het ITAA",
       "node_type": "actor",
       "rationale": "Het ITAA oefent tuchtrechtelijk en prudentieel toezicht uit op de naleving van deontologie en antiwitwaswetgeving, wat de accountant moet betrekken bij het uitwerken van procedures.",
-      "gekoppeld_aan": "[4.0.I.D.5] / [4.0.I.D.9]"
+      "gekoppeld_aan": "[4.0.I.D.5] / [4.0.I.D.9]",
+      "kenniselementen": [
+        "4.0.I.D.5",
+        "4.0.I.D.9"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Beroepstucht en disciplinaire aansprakelijkheid",
       "node_type": "regel",
       "rationale": "Het niet-naleven van de aanvaardingsplichten en deontologische regels kan leiden tot tuchtrechtelijke sancties door het ITAA.",
-      "gekoppeld_aan": "[4.0.I.D.9]"
+      "gekoppeld_aan": "[4.0.I.D.9]",
+      "kenniselementen": [
+        "4.0.I.D.9"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Aansprakelijkheid van de accountant",
       "node_type": "begrip",
       "rationale": "De accountant moet bij klantaanvaarding zijn civiele en professionele aansprakelijkheidsrisico's inschatten als onderdeel van de risicoanalyse.",
-      "gekoppeld_aan": "[4.0.I.D.8]"
+      "gekoppeld_aan": "[4.0.I.D.8]",
+      "kenniselementen": [
+        "4.0.I.D.8"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Opdrachtbrief en dienstverleningsovereenkomst",
       "node_type": "procedure",
       "rationale": "De formalisering van de cliëntrelatie via een schriftelijke overeenkomst is een essentiële stap in het aanvaardingsbeleid en de deontologische relatie met cliënten.",
-      "gekoppeld_aan": "[4.0.I.D.3]"
+      "gekoppeld_aan": "[4.0.I.D.3]",
+      "kenniselementen": [
+        "4.0.I.D.3"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Overdracht van dossiers aan een confrater",
       "node_type": "procedure",
       "rationale": "Regels over de relaties met confraters omvatten ook de situatie waarbij een cliënt wordt geweigerd of doorgegeven, wat deel uitmaakt van het aanvaardingsbeleid.",
-      "gekoppeld_aan": "[4.0.I.D.4]"
+      "gekoppeld_aan": "[4.0.I.D.4]",
+      "kenniselementen": [
+        "4.0.I.D.4"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Voortdurende waakzaamheid ten aanzien van de cliëntrelatie",
       "node_type": "regel",
       "rationale": "De antiwitwaswetgeving vereist niet alleen onderzoek bij aanvaarding maar ook een doorlopende monitoring van de cliëntrelatie en transacties.",
-      "gekoppeld_aan": "[4.0.I.D.6]"
+      "gekoppeld_aan": "[4.0.I.D.6]",
+      "kenniselementen": [
+        "4.0.I.D.6"
+      ],
+      "schaal_signaal": ""
     }
   ],
   "_provenance": {

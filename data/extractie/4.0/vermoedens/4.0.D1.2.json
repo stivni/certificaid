@@ -5,109 +5,164 @@
       "naam": "Communicatieplicht met de cliënt",
       "node_type": "regel",
       "rationale": "De accountant is gehouden duidelijk en gepast te communiceren met zijn cliënt als onderdeel van zijn professionele verplichtingen.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant (confraters, enz.)"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant (confraters, enz.)",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatie met belastingdiensten",
       "node_type": "procedure",
       "rationale": "Het onderhouden van contact met belastingdiensten vereist specifieke communicatienormen en formaliteiten die de accountant moet beheersen.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatie met rechterlijke instanties",
       "node_type": "procedure",
       "rationale": "Communicatie met rechtbanken vraagt om een formele, juridisch correcte aanpak die afwijkt van gewone professionele correspondentie.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals … rechtbanken"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals … rechtbanken",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatie met de Cel voor Financiële Informatieverwerking (CFI)",
       "node_type": "procedure",
       "rationale": "De melding aan de CFI vereist een specifieke communicatiewijze die los staat van gewone cliëntencontacten en onderworpen is aan strikte regels.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden … cel voor financiële informatieverwerking (antiwitwasbeleid)"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden … cel voor financiële informatieverwerking (antiwitwasbeleid)",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatie tussen confraters",
       "node_type": "regel",
       "rationale": "Relaties met collega-beroepsbeoefenaars zijn onderworpen aan specifieke deontologische gedragsregels inzake toon, inhoud en discretie.",
-      "gekoppeld_aan": "[4.0.I.D.4] Relaties met confraters"
+      "gekoppeld_aan": "[4.0.I.D.4] Relaties met confraters",
+      "kenniselementen": [
+        "4.0.I.D.4"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Discretieplicht bij vertrouwelijke informatie",
       "node_type": "beginsel",
       "rationale": "De accountant moet vertrouwelijke informatie die hij in het kader van zijn opdracht verkrijgt discreet behandelen, los van het formele beroepsgeheim.",
-      "gekoppeld_aan": "Vertrouwelijke informatie discreet behandelen"
+      "gekoppeld_aan": "Vertrouwelijke informatie discreet behandelen",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Naleving van wettelijke en contractuele termijnen",
       "node_type": "regel",
       "rationale": "De accountant moet diverse termijnen (fiscale aangiftetermijnen, antwoordtermijnen, …) kennen en respecteren als onderdeel van zijn communicatieverantwoordelijkheid.",
-      "gekoppeld_aan": "Termijnen in acht nemen"
+      "gekoppeld_aan": "Termijnen in acht nemen",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Reactietermijnen bij administratieve en gerechtelijke procedures",
       "node_type": "drempel",
       "rationale": "Specifieke wettelijke antwoord- en beroepstermijnen tegenover overheden en rechtbanken hebben juridische gevolgen bij niet-naleving.",
-      "gekoppeld_aan": "Termijnen in acht nemen / [4.0.I.C.1] Specifieke wettelijke en reglementaire bepalingen"
+      "gekoppeld_aan": "Termijnen in acht nemen / [4.0.I.C.1] Specifieke wettelijke en reglementaire bepalingen",
+      "kenniselementen": [
+        "4.0.I.C.1"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Informatieplicht tegenover de cliënt",
       "node_type": "regel",
       "rationale": "De accountant is verplicht zijn cliënt proactief te informeren over de voortgang van de opdracht en over relevante bevindingen.",
-      "gekoppeld_aan": "[4.0.I.D.3] Relaties met cliënten"
+      "gekoppeld_aan": "[4.0.I.D.3] Relaties met cliënten",
+      "kenniselementen": [
+        "4.0.I.D.3"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatie met financiële instellingen",
       "node_type": "procedure",
       "rationale": "Het contact met banken in het kader van een opdracht (bv. attestering, antiwitwas) vereist een specifieke aanpak en kennis van de wederzijdse verplichtingen.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Rapporteringsplicht aan het ITAA",
       "node_type": "regel",
       "rationale": "De accountant heeft communicatieverplichtingen tegenover het ITAA, onder meer in het kader van toezicht en tuchtprocedures.",
-      "gekoppeld_aan": "[4.0.I.D.5] Relaties met het ITAA"
+      "gekoppeld_aan": "[4.0.I.D.5] Relaties met het ITAA",
+      "kenniselementen": [
+        "4.0.I.D.5"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Professionele gedragsregels bij externe communicatie",
       "node_type": "beginsel",
       "rationale": "De basisprincipes van de beroepsdeontologie (integriteit, objectiviteit, professionalisme) sturen de wijze waarop de accountant extern communiceert.",
-      "gekoppeld_aan": "[4.0.I.D.1] Basisprincipes"
+      "gekoppeld_aan": "[4.0.I.D.1] Basisprincipes",
+      "kenniselementen": [
+        "4.0.I.D.1"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Schriftelijke versus mondelinge communicatie in professionele context",
       "node_type": "skill",
       "rationale": "De accountant moet kunnen oordelen wanneer schriftelijke vastlegging vereist of aangewezen is tegenover mondelinge communicatie.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant / de verschillende belanghebbenden"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant / de verschillende belanghebbenden",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     },
     {
       "naam": "Dossiergeheim en externe communicatiebeperkingen",
       "node_type": "regel",
       "rationale": "Niet alle informatie uit een dossier mag worden gedeeld met derden; de accountant moet de grenzen van zijn communicatiebevoegdheid kennen.",
-      "gekoppeld_aan": "[4.0.I.D.7] Beroepsgeheim en professionele discretieplicht"
+      "gekoppeld_aan": "[4.0.I.D.7] Beroepsgeheim en professionele discretieplicht",
+      "kenniselementen": [
+        "4.0.I.D.7"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Bewijswaarde van professionele correspondentie",
       "node_type": "begrip",
       "rationale": "Professionele geschreven communicatie (brieven, e-mails, verslagen) heeft potentiële bewijswaarde in tucht- of aansprakelijkheidsprocedures.",
-      "gekoppeld_aan": "[4.0.I.D.8] Aansprakelijkheid"
+      "gekoppeld_aan": "[4.0.I.D.8] Aansprakelijkheid",
+      "kenniselementen": [
+        "4.0.I.D.8"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Taalwetgeving en formele communicatievereisten",
       "node_type": "regel",
       "rationale": "Communicatie met Belgische overheden en rechtbanken is onderworpen aan taalregelgeving die de accountant moet naleven.",
-      "gekoppeld_aan": "[4.0.I.C.1] Specifieke wettelijke en reglementaire bepalingen"
+      "gekoppeld_aan": "[4.0.I.C.1] Specifieke wettelijke en reglementaire bepalingen",
+      "kenniselementen": [
+        "4.0.I.C.1"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Vertrouwelijkheid bij communicatie over derden",
       "node_type": "beginsel",
       "rationale": "Wanneer de accountant communiceert over cliënten of transacties met derden (bv. banken, overheden), moet hij de grenzen van geoorloofd informatiedelen respecteren.",
-      "gekoppeld_aan": "[4.0.I.D.6] Relaties met derden / [4.0.I.D.7] Beroepsgeheim"
+      "gekoppeld_aan": "[4.0.I.D.6] Relaties met derden / [4.0.I.D.7] Beroepsgeheim",
+      "kenniselementen": [
+        "4.0.I.D.6",
+        "4.0.I.D.7"
+      ],
+      "schaal_signaal": ""
     },
     {
       "naam": "Communicatievaardigheid als beroepscompetentie",
       "node_type": "skill",
       "rationale": "Duidelijk en gepast communiceren wordt als een kerncompetentie beschouwd die de accountant actief moet ontwikkelen en onderhouden.",
-      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant / de verschillende belanghebbenden"
+      "gekoppeld_aan": "Duidelijk en gepast communiceren met de klant / de verschillende belanghebbenden",
+      "kenniselementen": [],
+      "schaal_signaal": ""
     }
   ],
   "_provenance": {

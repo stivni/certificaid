@@ -40,17 +40,20 @@ Claude Code subagent in dev-omgeving).
 **Modelkeuze**: extractie-subagent draait op **Claude Opus** (huidige versie: claude-opus-4-7).
 Zie ADR-008 §0 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is fine.
 
-- [ ] `tools/extractie/concept_extractor.py` — **strippen** van alle `anthropic`-aanroepen.
+- [x] `tools/extractie/concept_extractor.py` — **strippen** van alle `anthropic`-aanroepen.
   Behouden als deterministische helpers (laad vermoedens, build prompts, write records).
   Geen sub-command structuur meer — orkestratie loopt via subagent.
-- [ ] `tools/extractie/normalize_vermoedens.py` — leidt `kenniselementen: [code]` af uit
+- [x] `tools/extractie/normalize_vermoedens.py` — leidt `kenniselementen: [code]` af uit
   `gekoppeld_aan` + taakblok-context van bestaande vermoedens. Inconsistente input
   ("Taak: ..." vs codes) wordt genormaliseerd. `kenniselementen: []` is geldig.
-- [ ] `tools/extractie/retrieve_batch.py` — leest een vermoedens-JSON, doet 4-niveau
+  Voegt ook lege `schaal_signaal`-placeholder toe als het veld ontbreekt.
+  Alle 60 bestaande vermoedens (D1.1/D1.2/D1.3) genormaliseerd.
+- [x] `tools/extractie/retrieve_batch.py` — leest een vermoedens-JSON, doet 4-niveau
   retrieval per vermoeden (programmaonderdeel + taakblok + kenniselementen + vermoeden),
   één bge-m3 model-load voor alle queries. Output: JSON naar stdout met chunks per vermoeden.
-- [ ] `tools/extractie/index_concept_incremental.py` — embed één concept-record en upsert
+- [x] `tools/extractie/index_concept_incremental.py` — embed één concept-record en upsert
   in `concepten` ChromaDB-collection. Aangeroepen door subagent na elke nieuwe seed-write.
+  Bevat ook `--duplicaat-check <naam>` voor live duplicate-check tijdens extractie.
 - [ ] `tools/extractie/queue.py` — dangling-edges → seed-queue (later, bij iteratieve runs)
 - [ ] `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen sync-script of cache op concepten zelf (ADR-002, ADR-007).
 - [ ] Prompt-templates in `prompts/` — versioneerd; subagent leest deze + `concept-schrijfregels.md`
