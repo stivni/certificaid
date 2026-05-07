@@ -61,18 +61,17 @@ class RetrievalResult:
 
 def _detect_device() -> str:
     """
-    Detecteer GPU. Volgorde: MPS → CUDA → CPU als laatste redmiddel.
-    Voor indexering: gebruik rag_index.py --device (defaultt naar GPU, fout als geen GPU).
-    Voor retrieval/tutor: CPU is acceptabel (reranker is klein, bi-encoder query is één vector).
+    Default device voor retrieval (query-time): CPU.
+
+    Bewust CPU als default omdat:
+    - Een query is één korte zin → bi-encoder embedding in <100ms op CPU
+    - Reranker scoort hooguit ~50 (query, chunk) paren → snel op CPU
+    - MPS geheugen blijft vrij voor zwaardere taken (indexering, tutor, andere apps)
+    - Vermijdt MPS allocator concurrentie met Claude Desktop op machines met
+      beperkt unified memory
+
+    Override via build_retrieval_stack(device="mps") indien expliciet gewenst.
     """
-    try:
-        import torch
-        if torch.backends.mps.is_available():
-            return "mps"
-        if torch.cuda.is_available():
-            return "cuda"
-    except ImportError:
-        pass
     return "cpu"
 
 
@@ -81,7 +80,9 @@ def build_retrieval_stack(chroma_path: Path = CHROMA_PATH, device: str | None = 
     device = device or _detect_device()
     ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
     client = chromadb.PersistentClient(path=str(chroma_path))
-    reranker = CrossEncoder(RERANKER_MODEL)
+    # Belangrijk: CrossEncoder default naar MPS als beschikbaar — expliciet device
+    # zetten voorkomt onverwachte GPU-allocatie tijdens query-time.
+    reranker = CrossEncoder(RERANKER_MODEL, device=device)
     return client, ef, reranker
 
 
@@ -131,7 +132,7 @@ def _retrieve_candidates(
         res = col.query(
             query_texts=[query],
             n_results=min(bi_top_n, count),
-            include=["documents", "metadatas", "distances", "ids"],
+            include=["documents", "metadatas", "distances"],
             where=where,
         )
         for doc, meta, dist, cid in zip(
