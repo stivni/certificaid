@@ -14,14 +14,8 @@ node_modules/
 # OS
 .DS_Store
 
-# Resources — ruwe downloads (PDFs, txt)
+# Resources — ruwe bronbestanden (PDFs, txt, xlsx, ...)
 resources/raw/
-resources/wetteksten/raw/
-resources/wetteksten/*.txt
-resources/normen/raw/
-resources/voorbeeldexamens/
-resources/samenvatting-deontologie.pdf
-resources/programma.pdf
 
 **/__pycache__/
 *.pyc
