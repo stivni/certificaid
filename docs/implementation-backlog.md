@@ -34,19 +34,27 @@ Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv v
 
 ## Fase 3 (Concept-extractie) — nieuw
 
-Driver: ADR-007 + ADR-008 herzien.
+Driver: ADR-007 + ADR-008 herzien (build-pipeline = geen externe API; LLM-werk via
+Claude Code subagent in dev-omgeving).
 
-- [ ] `tools/extractie/concept_extractor.py` — nieuwe orchestrator met sub-commands:
-  - `vermoedensruimte` — taakblok + kenniselementen → 10–30 vermoedens (LLM, geen retrieval)
-  - `seed` — vermoeden + multi-level retrieval → seed-record (LLM-synthese)
-  - `verdiep` — seed/partieel-record → uitgebreide velden (LLM, met cumulatieve concept-state als query-input)
-  - Per-veld provenance-blok bij elke schrijfactie
-- [ ] `tools/extractie/queue.py` — dangling-edges → seed-queue
+- [ ] `tools/extractie/concept_extractor.py` — **strippen** van alle `anthropic`-aanroepen.
+  Behouden als deterministische helpers (laad vermoedens, build prompts, write records).
+  Geen sub-command structuur meer — orkestratie loopt via subagent.
+- [ ] `tools/extractie/normalize_vermoedens.py` — leidt `kenniselementen: [code]` af uit
+  `gekoppeld_aan` + taakblok-context van bestaande vermoedens. Inconsistente input
+  ("Taak: ..." vs codes) wordt genormaliseerd. `kenniselementen: []` is geldig.
+- [ ] `tools/extractie/retrieve_batch.py` — leest een vermoedens-JSON, doet 4-niveau
+  retrieval per vermoeden (programmaonderdeel + taakblok + kenniselementen + vermoeden),
+  één bge-m3 model-load voor alle queries. Output: JSON naar stdout met chunks per vermoeden.
+- [ ] `tools/extractie/index_concept_incremental.py` — embed één concept-record en upsert
+  in `concepten` ChromaDB-collection. Aangeroepen door subagent na elke nieuwe seed-write.
+- [ ] `tools/extractie/queue.py` — dangling-edges → seed-queue (later, bij iteratieve runs)
 - [ ] `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen sync-script of cache op concepten zelf (ADR-002, ADR-007).
-- [ ] `tools/extractie/index_concepts.py` — bouwt `concepten` ChromaDB-collection (was `index_concepts()` in `rag_index.py`)
-- [ ] Prompt-templates in `prompts/` — geversioneerd, geladen met `prompt_version` in provenance
-- [ ] Concept-schrijfregels (`docs/concept-schrijfregels.md`) inladen bij elke prompt-bouw
-- [ ] Open-types-review-queue: `data/concept_records/_voorgestelde_types.yaml`
+- [ ] Prompt-templates in `prompts/` — versioneerd; subagent leest deze + `concept-schrijfregels.md`
+  bij start van zijn run
+- [ ] Open-types-review-queue: `data/concept_records/_voorgestelde_types.yaml` (auto-aangevuld)
+- [ ] Beslissingslog: `data/extractie/<po>/seed_log_<taakblok>.json` (subagent schrijft
+  kept/merged/rejected/split per vermoeden, met duplicate-check rerank-scores)
 
 ## Fase 0 / cross-cutting — provenance uitbreiden
 

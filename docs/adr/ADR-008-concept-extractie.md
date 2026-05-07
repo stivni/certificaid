@@ -1,7 +1,7 @@
 # ADR-008: Concept-extractie
 
 **Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-07 (extractie-volgorde, vermoedensruimte, examen-driven naar Fase 5)
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-08 (geen-API-tijdens-build, kenniselement-gestuurde retrieval, live duplicate-check, variabel record-aantal)
 
 ## Context
 
@@ -14,6 +14,19 @@ Concepten ontstaan niet vanzelf. Drie ingangen leveren materiaal, en geen van de
 Daarom: programma-gestuurd + bron-gestuurd in Fase 3 (initiële conceptenset), examen-gestuurd pas in Fase 5 (validatie + gerichte bijbouw). Iteratief proces dat het schema kan laten evolueren wanneer nieuw soort kennis niet past.
 
 ## Beslissing
+
+### 0. Geen externe LLM-API tijdens build-pipeline
+
+Alle LLM-werk in de extractie-pipeline (vermoedensruimte / seed / verdiep / bron-driven) gebeurt **lokaal via een Claude Code subagent** in de dev-omgeving. Geen `anthropic.Anthropic()`-calls vanuit build-tooling.
+
+Alleen de **gedeployde tutor** mag op runtime de Anthropic API aanroepen — dat is een productie-eindpunt, geen build-stap.
+
+Concreet voor build-tooling:
+- Helper-scripts in `tools/extractie/` doen **deterministisch werk** (vermoedens laden, retrieval orkestreren, JSON wegschrijven, Chroma-collection updaten)
+- Geen LLM-calls in deze scripts; geen `anthropic` import
+- LLM-synthese gebeurt door een Claude Code subagent die deze helpers via Bash-tool aanroept
+
+Dit aligneert met CLAUDE.md regel 3 (geen API voor batch-extractie zonder akkoord) — voor de build-pipeline is de regel verscherpt naar "nooit", omdat alle output meegedeployed wordt.
 
 ### 1. Drie ingangen, gefaseerd ingezet
 
@@ -39,42 +52,84 @@ D. Verdieping per concept (iteratief)
 
 #### A. Vermoedensruimte
 
-LLM krijgt:
+Subagent (in Claude Code) krijgt:
 - Programmaonderdeel-titel + parent-context
 - Eén taakblok in zijn geheel: taken + doelstellingen + kenniselementen
 - Conceptmodel-schema (node-types + edge-types)
-- Concept-schrijfregels (`docs/concept-schrijfregels.md`)
+- Concept-schrijfregels (`docs/concept-schrijfregels.md`) inclusief de "Wat is een concept?"-sectie
 - Lijst van bestaande concept-naburen (om duplicatie te vermijden)
 
-Output: 10–30 vermoedens per taakblok, elk met (a) voorgestelde naam, (b) voorgesteld node-type, (c) waarom-vermoed-gepost-aan-welk-onderdeel-van-het-taakblok. Géén main_rule/exceptions nog — pure vermoedensruimte.
+Output per vermoeden — **gestructureerd schema** (verplicht voor downstream stappen):
+
+```json
+{
+  "naam": "<volledige naam, simpele taal>",
+  "node_type": "<11 types, of voorgesteld:<naam>>",
+  "rationale": "<één zin: waarom dit concept hier relevant is>",
+  "kenniselementen": ["4.0.I.D.7", ...],   // optioneel — leeg als vermoeden uit pure taak/skill komt
+  "taken_doelstellingen": ["4.0.D1.1.taak.1", "..."],   // optioneel — voor procedure/skill-types
+  "schaal_signaal": "<klein|middel|groot>"  // hint voor granulariteit (zie schrijfregels)
+}
+```
+
+10–30 vermoedens per taakblok. **Geen main_rule/exceptions** in deze fase — pure vermoedensruimte.
+
+Belangrijk: `kenniselementen` mag een lege lijst zijn. Niet elk concept heeft een direct kenniselement-anker — een procedure of skill kan louter uit een taak/doelstelling komen. Forceer geen mapping als die er niet is.
 
 LLM mag een **niet-voorgedefinieerd node-type voorstellen** (`node_type: "voorgesteld:<naam>"`). Voorgestelde types verzamelen in review-queue (ADR-007).
 
 #### B. Multi-level retrieval
 
-Per vermoeden retrieval op drie niveaus tegen `bronnen`-collection (ADR-006):
+Per vermoeden retrieval op vier niveaus tegen `bronnen`-collection (ADR-006). Niveau 3 is optioneel (alleen als vermoeden kenniselementen koppelt):
 
-1. **Programmaonderdeel-niveau**: het hele programmaonderdeel-document als query → "thematische" chunks (overzicht van het domein)
-2. **Taakblok-niveau**: taken + doelstellingen + kenniselementen samen als query → mid-level
-3. **Vermoeden-niveau**: de vermoeden-naam + LLM-gegenereerde sub-queries → granulair
+1. **Programmaonderdeel-niveau**: programmaonderdeel-titel + samenvatting → brede thematische context
+2. **Taakblok-niveau**: taken + doelstellingen + kenniselementen samen → mid-level
+3. **Kenniselement-niveau** (optioneel): tekst van elk gekoppeld kenniselement (incl. parent + subitems) → formele scope-anker. **Skipt** als `kenniselementen` leeg is.
+4. **Vermoeden-niveau**: vermoeden-naam + rationale → granulair, concept-specifiek
 
-Multi-query retrieve via `tools/lib/retrieval.py::multi_query_retrieve` (bestaat al). Optioneel: `bron_rol`-filter voor brontype-targeting per vermoeden.
+Per vermoeden: combineer chunks uit alle 4 niveaus, dedupliceer op chunk-id, rerank gezamenlijk, top-N (~10–15) doorgeven aan stap C.
+
+**Waarom kenniselement-niveau apart**: een kenniselement zoals `4.0.I.D.7 Beroepsgeheim` is een formele scope-anker; zijn tekst hint vaak naar de exacte wetsartikelen. Zonder dit niveau zit retrieval te dicht op de generieke vermoeden-naam en mist het gezagsbron-passages.
+
+Implementatie: `multi_query_retrieve` in `tools/lib/retrieval.py` (bestaat al, accepteert lijst van sub-queries).
 
 #### C. Seed-records bouwen
 
-LLM krijgt per vermoeden:
-- Het vermoeden + parent-context (taakblok + programmaonderdeel)
-- 15–30 chunks uit de retrieval (met breadcrumb + path-metadata)
-- Concept-schrijfregels (geladen via `docs/concept-schrijfregels.md`)
-- Conceptmodel-schema
+Subagent verwerkt vermoedens **één voor één**, met deze flow per vermoeden:
 
-Output: seed-record met **alleen velden die uit de chunks gerechtvaardigd zijn**:
-- `id`, `naam`, `node_type`, `source`
-- `main_rule` of `definitie` (verbatim/paraphrase met `confidence: "grounded"` + bronverwijzing)
-- Initiële `edges` (mogelijk `_dangling: true`)
-- Status: `seed`
+1. **Live duplicate-check** tegen bestaande concepten:
+   - Embed vermoeden (naam + rationale) → query `concepten` ChromaDB-collection
+   - Top-1 rerank-score > 0.80 → mogelijk duplicaat → subagent beslist expliciet:
+     - **Merge**: voeg eventuele nieuwe info toe aan bestaand record, log als alias
+     - **Distinct**: motiveer waarom dit toch een ander concept is (dan toch nieuwe seed)
+   - Tussen 0.65–0.80 → grijze zone, subagent meldt expliciet in log
+   - < 0.65 → veilig nieuw concept
 
-Velden die niet gerechtvaardigd zijn blijven leeg. Sparse fields zijn de norm (ADR-007).
+2. **Relevantie-check** (anti-hallucinatie):
+   - Top rerank-score uit retrieval (stap B) < 0.30 → vermoeden niet gegrond → status `rejected`
+   - 0.30–0.50 → status `seed` met note "zwak gegrond, te verifiëren"
+   - ≥ 0.50 → status `seed`
+
+3. **Seed-record schrijven** wanneer relevantie-check passeert en geen merge:
+   - `id`, `naam`, `node_type`, `source`
+   - `main_rule` of `definitie` (paraphrase uit chunks met `confidence: "grounded"` + bronverwijzing)
+   - Initiële `edges` (mogelijk `_dangling: true`)
+   - Status: `seed` (of `rejected` bij stap 2)
+   - Velden die niet gerechtvaardigd zijn blijven leeg — sparse is de norm (ADR-007)
+
+4. **Onmiddellijk indexeren in `concepten`-collection**: nieuwe concepten worden direct embedded en in ChromaDB geschreven, zodat het volgende vermoeden ze in stap 1 kan terugvinden.
+
+5. **Programmaonderdeel-JSON updaten**: voeg de nieuwe concept-id toe aan `kenniselementen[<code>].concepten` voor elk kenniselement dat het concept afdekt (ADR-002). Ook voor taken/doelstellingen-concepten via `taakblokken[].taken[].concepten` of `taakblokken[].doelstellingen[].concepten`.
+
+#### Variabel record-aantal: agent mag splitsen / mergen / rejecteren / toevoegen
+
+Vertrek met N vermoedens per taakblok, eindig met M ≷ N records. De subagent mag:
+- **Mergen**: twee vermoedens blijken hetzelfde concept → één record (live duplicate-check)
+- **Splitsen**: één vermoeden bevat eigenlijk twee fenomenen → twee records
+- **Rejecteren**: vermoeden niet gegrond in bronnen → géén record (relevantie-check)
+- **Toevoegen** (dangling-resolutie): main_rule verwijst naar concept dat nog niet bestaat → extra seed voor de target
+
+Beslissingslog per run: `data/extractie/<po>/seed_log_<taakblok>.json` met per vermoeden de beslissing (`kept`/`merged_into:<id>`/`rejected:reason`/`split_into:[id, id]`) + duplicate-check rerank-scores. Dit is mens-curatie input.
 
 #### D. Verdieping per concept
 
@@ -140,9 +195,15 @@ Wanneer een concept niet past in het huidige conceptmodel:
 
 ## Gevolgen
 
-- `tools/extractie/concept_extractor.py` — orchestrator met sub-commands per fase (vermoedensruimte / multi-level-retrieval / seed-bouw / verdieping)
-- `tools/extractie/queue.py` — dangling-edges → seed-queue
+- **Build-pipeline tooling** (Python-scripts in `tools/extractie/`) doet alleen deterministisch werk:
+  - `tools/extractie/retrieve_batch.py` — leest vermoedens, doet 4-niveau retrieval, dumpt resultaat (één model-load voor alle queries)
+  - `tools/extractie/normalize_vermoedens.py` — leidt `kenniselementen: [code]` af uit `gekoppeld_aan` + taakblok-context
+  - `tools/extractie/index_concept_incremental.py` — embed één concept-record en upsert in `concepten` ChromaDB-collection
+  - `tools/extractie/queue.py` — dangling-edges → seed-queue
+  - **Geen `anthropic` import** in deze scripts. Geen LLM-calls.
+- **LLM-werk** gebeurt door een Claude Code subagent in dev-omgeving die deze helpers via Bash-tool aanroept en zijn eigen reasoning gebruikt voor synthese.
 - `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen state op concepten zelf (ADR-002, ADR-007).
-- LLM-cost: extractie is duur. Per-veld provenance + per-veld stale-marking maakt incremental re-runs **veld-precies** (alleen stale velden herextraheren, niet hele concept-records).
-- Voorbeeldexamens worden vroeg gestructureerd (`data/voorbeeldexamens/`) als ground truth — maar pas in Fase 5 als extractie-input gebruikt
-- Concept-schrijfregels (`docs/concept-schrijfregels.md`) als prompt-input bij elke LLM-call
+- Per-veld provenance + per-veld stale-marking maakt incremental re-runs **veld-precies** (alleen stale velden herextraheren, niet hele concept-records).
+- Voorbeeldexamens worden vroeg gestructureerd (`data/voorbeeldexamens/`) als ground truth — maar pas in Fase 5 als extractie-input gebruikt.
+- Concept-schrijfregels (`docs/concept-schrijfregels.md`) zijn input voor elke subagent-invocatie. Schrijfregels evolueren — bij wijziging stale-mark lopende seeds.
+- **Deployment**: gegenereerde `data/concept_records/` + `data/chroma_db/` (incl. `concepten`-collection) worden meegedeployed met de tutor-app. Tutor draait wel op de Anthropic API in productie (runtime chat), maar bouwt geen concepten meer op.

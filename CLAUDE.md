@@ -31,7 +31,7 @@ Deze regels gelden bij elke sessie en elke agent:
 
 2. **Confidence-labeling is verplicht.** ⚖️ = direct traceerbaar naar een bron (grounded). 🤖 = redenering of constructie (inferred). Elke claim krijgt een label; Claude mag niet weglaten bij twijfel.
 
-3. **Geen Claude API voor bulk-operaties zonder expliciete akkoord.** Keyword-generatie, herindexering, batch-extractie: gebruik lokale tools (KeyBERT, YAKE). Interactieve tutor en concept-extractie: Sonnet is OK.
+3. **Geen Claude API in de build-pipeline.** LLM-werk tijdens build (concept-extractie, vermoedensruimte, seed-bouw, verdiep) gebeurt **lokaal via een Claude Code subagent** in dev-omgeving — niet via `anthropic.Anthropic()`-calls vanuit scripts. Helper-scripts in `tools/extractie/` doen alleen deterministisch werk (retrieval, embedding, JSON-IO). Keyword-generatie en herindexering: lokale tools (KeyBERT, YAKE, bge-m3). De **gedeployde tutor** draait wel op de Anthropic API — dat is een productie-eindpunt, geen build-stap.
 
 4. **Raadpleeg de ADR-index vóór je begint** aan indexering, model-wijzigingen, bronnen toevoegen of concept-extractie. Zie taak→ADR mapping in [`docs/adr/INDEX.md`](docs/adr/INDEX.md).
 

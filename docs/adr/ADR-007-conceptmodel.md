@@ -98,7 +98,28 @@ Dekkingschecks die "welke kenniselementen dekt concept X af?" willen beantwoorde
 
 ### Schrijfregels concept-content
 
-Aparte content-conventie in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md). Wordt geladen bij prompt-opbouw voor de extractor en bij menselijke review. Niet in deze ADR — schrijfregels zijn geen architectuurbeslissing.
+Aparte content-conventie in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md). Bevat zowel **stijlregels** (taal, afkortingen, confidence-labels) als **conceptkeuze-regels** ("Wat is een concept?", "Wat is GEEN concept?", granulariteit, smell-tests). Wordt geladen bij prompt-opbouw voor de extractor en bij menselijke review.
+
+Niet in deze ADR — schrijfregels zijn geen architectuurbeslissing.
+
+### Vermoeden-schema (input voor concept-extractie, ADR-008)
+
+Vermoedens (kandidaat-concepten) hebben een eigen lichtgewicht schema dat als input dient voor de seed-extractie:
+
+```json
+{
+  "naam": "<volledige naam>",
+  "node_type": "<11 types of voorgesteld:<naam>>",
+  "rationale": "<één zin: waarom relevant>",
+  "kenniselementen": ["4.0.I.D.7", ...],          // optioneel, mag leeg
+  "taken_doelstellingen": ["4.0.D1.1.taak.1", ...], // optioneel, mag leeg
+  "schaal_signaal": "<klein|middel|groot>"          // hint voor granulariteit
+}
+```
+
+Belangrijk: zowel `kenniselementen` als `taken_doelstellingen` mogen leeg zijn. Sommige vermoedens komen uit pure procedurele taken zonder kenniselement-anker; andere zijn pure begrippen zonder taak-context. Forceer geen mapping waar die niet bestaat.
+
+Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<taakblok>.json` als een array onder de sleutel `vermoedens`.
 
 ## Gevolgen
 

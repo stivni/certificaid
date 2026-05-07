@@ -1,8 +1,55 @@
 # Concept-schrijfregels
 
-Content-conventie voor concept-records (`data/concept_records/*.json`). Wordt ingeladen in de extractor-prompt (ADR-008) en geldt ook voor menselijke review/aanvulling. Geen ADR — dit is content-stijl, geen architectuurbeslissing.
+Content-conventie voor concept-records (`data/concept_records/*.json`). Wordt ingeladen in de extractor-prompt (ADR-008) en geldt ook voor menselijke review/aanvulling. Geen ADR — dit is content-stijl + conceptkeuze, geen architectuurbeslissing.
 
 > **Doelpubliek**: stagiair gecertificeerd accountant, met boekhoudkundige en fiscale basiskennis. Géén jurist.
+
+## Wat IS een concept?
+
+Een concept is een **tijdloos fenomeen** uit het beroep van de gecertificeerd accountant — iets dat een student moet *begrijpen* om als professional te kunnen handelen. Niet een wetsartikel, niet een vakindeling, niet een examenvraag.
+
+Drie test-vragen om concept-status te valideren:
+
+1. **Tijdloosheid**: zou dit concept nog gelden als de wet morgen veranderd wordt? Een concept beschrijft een **fenomeen** (bv. "Beroepsgeheim" als principe); de wettelijke uitvoering kan wijzigen, het concept blijft.
+2. **Onderscheidbaarheid**: kan een student dit concept onderscheiden van zijn buren? Als concept A en concept B in elke voorbeeldvraag samen optreden en niet apart bevraagd kunnen worden → het is wellicht één concept.
+3. **Praktijkbruikbaarheid**: kan een student het concept toepassen op een casus? Als het te abstract is om mee te redeneren ("Algemeen ethisch handelen") → te grof. Als het te specifiek is om buiten één voorbeeld toepasbaar te zijn ("Meldingsplicht bij vastgoedtransactie >€10.000") → te fijn.
+
+### Voorbeelden van GOEDE concepten
+
+| Naam | Type | Waarom goed |
+|---|---|---|
+| Beroepsgeheim van de gecertificeerd accountant | beginsel | Tijdloos, onderscheidbaar van discretieplicht, breed toepasbaar |
+| Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI) | regel | Concrete verplichting, bron in AWW, niet identiek aan beroepsgeheim |
+| Cliëntenonderzoeksprocedure (Know Your Customer) | procedure | Stappen-gestructureerd, toepasbaar op elke nieuwe cliënt |
+| Uiteindelijk begunstigde (UBO) | begrip | Tijdloos juridisch begrip, gekoppeld aan concrete identificatieregels |
+| Risicogebaseerde aanpak (antiwitwas) | afwegingskader | Helpt bij keuzes tussen vereenvoudigd vs. verscherpt onderzoek |
+
+### Voorbeelden van GEEN concepten
+
+| Voorbeeld | Waarom niet | Wat dan wel? |
+|---|---|---|
+| "Artikel 47 AWW" | Een wetsartikel ≠ een concept | Concept = "Meldingsplicht aan CFI", waarvan Art. 47 AWW de bron is |
+| "Hoofdstuk 3 Deontologie" | Een examenvak/programma-onderdeel ≠ een concept | Het programmaonderdeel is een container; concepten leven daarbinnen |
+| "Wanneer is melding aan CFI verplicht voor een bouwopdracht?" | Een examenvraag ≠ een concept | Dit is een **toetsings-instantie** (examenfocus, ADR-009) van het concept "Meldingsplicht aan CFI" |
+| "Algemeen handelen volgens de wet" | Te abstract — niet onderscheidbaar | Splits in concrete principes: "Beroepsgeheim", "Onafhankelijkheidsbeginsel", ... |
+| "Meldingsplicht bij contante betaling boven €3.000 voor edelmetalen" | Te specifiek — niet generiek toepasbaar | Concept = "Beperking gebruik van contanten" met de drempel als veld |
+| "De accountant in de digitale wereld" | Te vaag, niet substantief | Splits in specifieke skills/methoden waar nodig |
+
+### Granulariteit — de "Goldilocks-zone"
+
+Voor een programmaonderdeel als 4.0 Deontologie verwacht je grosso modo **15–40 concepten**. Veel meer en het is gepulveriseerd; veel minder en het is te grof.
+
+**Schaal-signalen die je gebruikt om granulariteit te kalibreren**:
+- `klein` (= "feature van een ander concept"): wordt waarschijnlijk een **veld of edge** op een groter concept ipv. een eigen record. Voorbeeld: "Specifieke analyse bij vermoeden" → veld `exceptions[]` op `Meldingsplicht aan CFI`.
+- `middel` (= "kerndienstverlening"): krijgt zijn **eigen record**. Voorbeeld: "Verbod op doormelding (tipping-off)".
+- `groot` (= "overkoepelend principe"): krijgt zijn eigen record met veel **edges naar onderliggende concepten**. Voorbeeld: "Beroepsgeheim van de gecertificeerd accountant" met edges naar uitzonderingen, doorbrekingsgronden, sancties.
+
+### Smell tests bij twijfel
+
+- **De "definitie" smell**: als je hoofd-veld begint met "X is..." en de definitie bevat geen voorbehoud, geen uitzondering, geen onderscheid van naburen → het is wellicht een **begrip-node** maar mogelijk te abstract. Check tegen de tijdloosheid-test.
+- **De "stappenplan" smell**: als de hoofdtekst louter een nummering is van procedurele stappen → eerder `procedure`-type met `stappen[]`-veld dan losse concepten per stap.
+- **De "alleen in deze wet" smell**: als het concept alleen bestaat omdat één specifiek artikel het beschrijft → controleer of het werkelijk een fenomeen is of een wettelijke specificiteit. Als artikel verdwijnt en concept verdwijnt → twijfelachtig.
+- **De "casus" smell**: als de hoofdtekst gaat over "in het geval van..." met concrete feiten → het is een `casus`-node, geen begrip/regel.
 
 ## Taal
 
