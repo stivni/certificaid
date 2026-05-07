@@ -1,0 +1,8 @@
+{
+  "_comment": "Handmatige keyword-overrides — vullen vocabulairekloof aan die KeyBERT niet kan dekken (woorden die niet letterlijk in de chunk staan maar wel relevante zoekqueries vormen). Wordt samengevoegd met de auto-gegenereerde Strafwetboek-1867.json door tools/rag/rag_index.py:_load_keywords(). Manuele keywords komen eerst in de prefix.",
+
+  "Art. 458":     ["beroepsgeheim", "professionele discretie", "geheimhouding", "discretieplicht", "vertrouwelijkheid beroep"],
+  "Art. 458bis":  ["beroepsgeheim doorbreking", "beroepsgeheim uitzondering", "aangifte kwetsbare personen"],
+  "Art. 458ter":  ["beroepsgeheim overleg", "georganiseerd overleg geheimhouding"],
+  "Art. 458quater": ["beroepsgeheim advocaat"]
+}

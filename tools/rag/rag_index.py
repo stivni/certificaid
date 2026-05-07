@@ -167,13 +167,52 @@ def _format_trust_skip_msg(rol: str, skipped: dict[str, int]) -> str:
 # ---------------------------------------------------------------------------
 
 def _load_keywords(stem: str) -> dict:
-    path = KEYWORDS_DIR / f"{stem}.json"
-    if path.exists():
+    """
+    Laad keywords-mapping voor een bron.
+
+    Twee lagen, manuele heeft voorrang/aanvulling op auto:
+      - <stem>.json         — auto-gegenereerd door KeyBERT (generate_keywords.py)
+      - <stem>.manual.json  — handmatige aanvullingen (vocabulairekloof,
+                              domeinterminologie die KeyBERT niet vindt)
+
+    Per heading worden de twee lijsten samengevoegd, manuele eerst (gewicht
+    bij prepend-volgorde), met dedup op exacte tekst.
+    """
+    auto_path   = KEYWORDS_DIR / f"{stem}.json"
+    manual_path = KEYWORDS_DIR / f"{stem}.manual.json"
+
+    auto_map: dict = {}
+    if auto_path.exists():
         try:
-            return json.loads(path.read_text())
+            auto_map = json.loads(auto_path.read_text())
         except Exception:
-            return {}
-    return {}
+            auto_map = {}
+
+    manual_map: dict = {}
+    if manual_path.exists():
+        try:
+            manual_map = json.loads(manual_path.read_text())
+        except Exception:
+            manual_map = {}
+
+    if not manual_map:
+        return auto_map
+
+    # Merge: manuele keywords eerst, dan auto-keywords (dedup)
+    # Skip "_..."-keys (gereserveerd voor commentaar in manual files)
+    merged: dict = {}
+    headings = {k for k in (set(auto_map.keys()) | set(manual_map.keys())) if not k.startswith("_")}
+    for h in headings:
+        manual = manual_map.get(h, [])
+        auto   = auto_map.get(h, [])
+        seen   = set()
+        kws    = []
+        for kw in manual + auto:
+            if kw not in seen:
+                kws.append(kw)
+                seen.add(kw)
+        merged[h] = kws
+    return merged
 
 
 def _prepend_keywords(text: str, heading: str, keywords_map: dict) -> str:

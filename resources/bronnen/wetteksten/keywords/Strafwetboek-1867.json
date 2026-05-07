@@ -1,6 +1,6993 @@
 {
-  "Art. 458":     ["beroepsgeheim", "professionele discretie", "geheimhouding", "discretieplicht", "vertrouwelijkheid beroep"],
-  "Art. 458bis":  ["beroepsgeheim doorbreking", "beroepsgeheim uitzondering", "aangifte kwetsbare personen"],
-  "Art. 458ter":  ["beroepsgeheim overleg", "georganiseerd overleg geheimhouding"],
-  "Art. 458quater": ["beroepsgeheim advocaat"]
+  "Art. 2": [
+    "misdrijf",
+    "straffen",
+    "gestraft",
+    "straf",
+    "misdrijf kan",
+    "misdrijf werd",
+    "misdrijf was"
+  ],
+  "Art. 3": [
+    "misdrijf",
+    "gestraft",
+    "belgen",
+    "vreemdelingen",
+    "vreemdelingen gepleegd",
+    "misdrijf op",
+    "het misdrijf"
+  ],
+  "Art. 4": [
+    "misdrijf",
+    "belgië",
+    "vreemdelingen",
+    "belgen",
+    "vreemdelingen gepleegd",
+    "niet gestraft",
+    "misdrijf buiten"
+  ],
+  "Art. 5": [
+    "rechtspersonen",
+    "rechtspersoon",
+    "verantwoordelijkheid",
+    "verantwoordelijk",
+    "rechtspersoon is",
+    "een rechtspersoon",
+    "rechtspersonen worden",
+    "strafrechtelijke verantwoordelijkheid"
+  ],
+  "Art. 6": [
+    "straffen",
+    "rechtbanken",
+    "verschillende",
+    "verordeningen",
+    "ii straffen",
+    "rechtbanken zullen",
+    "bijzondere wetten",
+    "verordeningen verder"
+  ],
+  "Art. 7": [
+    "straffen",
+    "werkstraf",
+    "misdrijven",
+    "probatiestraf",
+    "bepaalde straffen",
+    "straffen op",
+    "politiezaken gevangenisstraf",
+    "de straffen"
+  ],
+  "Art. 7bis": [
+    "rechtspersonen",
+    "straffen",
+    "misdrijven",
+    "rechtspersoon",
+    "straffen toepasselijk",
+    "rechtspersonen kan",
+    "publiekrechtelijke rechtspersonen",
+    "door rechtspersonen"
+  ],
+  "Art. 8": [
+    "opsluiting",
+    "tijdelijk",
+    "inwerkingtreding",
+    "levenslang",
+    "opsluiting is",
+    "1996 opsluiting",
+    "of tijdelijk"
+  ],
+  "Art. 9": [
+    "termijn",
+    "tijdelijke",
+    "opsluiting",
+    "inwerkingtreding",
+    "tijdelijke opsluiting",
+    "termijn van",
+    "een termijn"
+  ],
+  "Art. 10": [
+    "hechtenis",
+    "tijdelijk",
+    "levenslang",
+    "inwerkingtreding",
+    "hechtenis is",
+    "1996 hechtenis",
+    "of tijdelijk"
+  ],
+  "Art. 11": [
+    "hechtenis",
+    "termijn",
+    "tijdelijke",
+    "dertig",
+    "tijdelijke hechtenis",
+    "hechtenis wordt",
+    "een termijn",
+    "termijn van"
+  ],
+  "Art. 12": [
+    "leeftijd",
+    "levenslange",
+    "opsluiting",
+    "levenslange hechtenis",
+    "levenslange opsluiting",
+    "2006 levenslange",
+    "leeftijd van"
+  ],
+  "Art. 18": [
+    "aangeplakt",
+    "uittreksel",
+    "arrest",
+    "opsluiting",
+    "levenslange hechtenis",
+    "levenslange opsluiting",
+    "houdende veroordeling",
+    "arrest is"
+  ],
+  "Art. 19": [
+    "afzetting",
+    "opsluiting",
+    "veroordeelden",
+    "hechtenis",
+    "levenslange hechtenis",
+    "levenslange opsluiting",
+    "afzetting uitspreken",
+    "hechtenis tot"
+  ],
+  "Art. 21": [
+    "opgeheven",
+    "inwerkingtreding",
+    "bevestigd",
+    "nota",
+    "opgeheven 2004",
+    "049 inwerkingtreding",
+    "nota bevestigd",
+    "050 inwerkingtreding"
+  ],
+  "Art. 22": [
+    "inwerkingtreding",
+    "opgeheven",
+    "bevestigd",
+    "nota",
+    "inwerkingtreding onbepaald",
+    "049 inwerkingtreding",
+    "opgeheven 2004",
+    "inwerkingtreding 19"
+  ],
+  "Art. 23": [
+    "opgeheven",
+    "inwerkingtreding",
+    "bevestigd",
+    "nota",
+    "opgeheven 2004",
+    "049 inwerkingtreding",
+    "nota bevestigd",
+    "050 inwerkingtreding"
+  ],
+  "Art. 24": [
+    "inwerkingtreding",
+    "correctionele",
+    "opgeheven",
+    "iii",
+    "iii correctionele",
+    "049 inwerkingtreding",
+    "opgeheven 2004"
+  ],
+  "Art. 25": [
+    "gevangenisstraf",
+    "correctionele",
+    "strafbare",
+    "gevangenisstraf is",
+    "correctionele gevangenisstraf",
+    "vijf jaar"
+  ],
+  "Art. 28": [
+    "gevangenisstraf",
+    "overtreding",
+    "behoudens",
+    "wet",
+    "gevangenisstraf wegens",
+    "de gevangenisstraf",
+    "zeven dagen"
+  ],
+  "Art. 29": [
+    "bepalingen",
+    "opgeheven",
+    "inwerkingtreding",
+    "afdelingen",
+    "1996 bepalingen",
+    "bepalingen aan"
+  ],
+  "Art. 30": [
+    "vrijheidsstraffen",
+    "opvoedingsafdeling",
+    "jeugdbescherming",
+    "schuldigverklaring",
+    "hechtenis vóór",
+    "vrijheidsstraffen iedere",
+    "vrijheidsstraffen waartoe",
+    "veroordeling ondergaan"
+  ],
+  "Art. 30bis": [
+    "vrijheidsstraf",
+    "veroordeelden",
+    "inrichtingen",
+    "inwerkingtreding",
+    "vrijheidsstraf veroordeelden",
+    "een vrijheidsstraf",
+    "veroordeelden ondergaan"
+  ],
+  "Art. 30ter": [
+    "onderafdeling",
+    "wanbedrijven",
+    "misdaden",
+    "afdeling",
+    "onderafdeling straffen",
+    "afdeling straffen",
+    "wanbedrijven gemeen",
+    "gemeen onderafdeling"
+  ],
+  "Art. 31": [
+    "veroordeelden",
+    "veroordeling",
+    "recht",
+    "levenslange",
+    "levenslange ontzetting",
+    "levenslange hechtenis",
+    "levenslange opsluiting",
+    "veroordeelden levenslange"
+  ],
+  "Art. 32": [
+    "gevangenisstraf",
+    "veroordeelden",
+    "tijdelijke hechtenis",
+    "veroordeelden tot",
+    "rechtbanken kunnen"
+  ],
+  "Art. 33": [
+    "veroordeelden",
+    "straffen",
+    "ontzetten",
+    "rechtbanken",
+    "straffen veroordeelden",
+    "correctionele straffen",
+    "straf verminderd",
+    "ontzetting voor"
+  ],
+  "Art. 33bis": [
+    "correctionele",
+    "straffen",
+    "inwerkingtreding",
+    "uitoefening",
+    "correctionele straffen",
+    "straffen veroordeelden",
+    "artikel 31",
+    "veroordeelden kunnen"
+  ],
+  "Art. 34": [
+    "uitstel",
+    "inwerkingtreding",
+    "ontzetting",
+    "veroordeelde",
+    "ontzetting bij",
+    "veroordeling onherroepelijk",
+    "zijn inwerkingtreding",
+    "straf heeft"
+  ],
+  "Art. 34bis": [
+    "terbeschikkingstelling",
+    "strafuitvoeringsrechtbank",
+    "straf",
+    "strafbare",
+    "strafuitvoeringsrechtbank is",
+    "de strafuitvoeringsrechtbank",
+    "de terbeschikkingstelling"
+  ],
+  "Art. 34ter": [
+    "terbeschikkingstelling",
+    "strafuitvoeringsrechtbank",
+    "hoofdstraf",
+    "rechtbanken",
+    "de strafuitvoeringsrechtbank",
+    "strafuitvoeringsrechtbank uit",
+    "terbeschikkingstelling van",
+    "een terbeschikkingstelling"
+  ],
+  "Art. 34quater": [
+    "strafuitvoeringsrechtbank",
+    "terbeschikkingstelling",
+    "hoofdstraf",
+    "rechtbanken",
+    "strafuitvoeringsrechtbank uitspreken",
+    "de strafuitvoeringsrechtbank",
+    "een terbeschikkingstelling"
+  ],
+  "Art. 34quinquies": [
+    "terbeschikkingstelling",
+    "vervolging",
+    "strafuitvoeringsrechtbank",
+    "misdrijven",
+    "terbeschikkingstelling van",
+    "de strafuitvoeringsrechtbank",
+    "vervolging gevoegd"
+  ],
+  "Art. 35": [
+    "ontbinding",
+    "rechtspersoon",
+    "uitspreekt",
+    "uitgesproken",
+    "ontbinding uitspreekt",
+    "ontbinding kan",
+    "rechtspersoon opzettelijk"
+  ],
+  "Art. 36": [
+    "rechtspersoon",
+    "maatschappelijk",
+    "tijdelijk",
+    "verbod",
+    "rechtspersoon kan",
+    "maatschappelijk doel",
+    "een werkzaamheid",
+    "tijdelijk of"
+  ],
+  "Art. 37": [
+    "rechtspersoon",
+    "sluiting",
+    "inrichtingen",
+    "tijdelijke",
+    "rechtspersoon kan",
+    "de rechtspersoon"
+  ],
+  "Art. 37bis": [
+    "elektronisch",
+    "toezicht",
+    "veroordeelde",
+    "vbis",
+    "elektronisch toezicht",
+    "toezicht ingevoegd",
+    "straf onder"
+  ],
+  "Art. 37ter": [
+    "elektronisch",
+    "gevangenisstraf",
+    "hoofdstraf",
+    "toezicht",
+    "elektronisch toezicht",
+    "straf onder",
+    "als hoofdstraf",
+    "toezicht opleggen"
+  ],
+  "Art. 37quater": [
+    "toezicht",
+    "elektronisch",
+    "controleren",
+    "bevoegde",
+    "elektronisch toezicht",
+    "toezicht controleren",
+    "toezicht in",
+    "toezicht daarover"
+  ],
+  "Art. 37quinquies": [
+    "werkstraf",
+    "politiestraf",
+    "hoofdstraf",
+    "maximumstraf",
+    "werkstraf opleggen",
+    "de werkstraf",
+    "een werkstraf"
+  ],
+  "Art. 37sexies": [
+    "werkstraf",
+    "overheidsdienst",
+    "inwerkingtreding",
+    "beroepsactiviteiten",
+    "de werkstraf",
+    "werkstraf kosteloos",
+    "werkstraf mag"
+  ],
+  "Art. 37septies": [
+    "werkstraf",
+    "justitieassistent",
+    "inwerkingtreding",
+    "justitie",
+    "werkstraf wordt",
+    "de werkstraf",
+    "werkstraf is",
+    "een werkstraf"
+  ],
+  "Art. 37octies": [
+    "probatiestraf",
+    "politiestraf",
+    "voorwaarden",
+    "probatiecommissie",
+    "autonome probatiestraf",
+    "probatiestraf opleggen",
+    "probatiestraf bestaat"
+  ],
+  "Art. 37novies": [
+    "probatiestraf",
+    "probatiecommissie",
+    "autonome",
+    "begeleiding",
+    "autonome probatiestraf",
+    "bevoegde probatiecommissie",
+    "probatiestraf is"
+  ],
+  "Art. 37decies": [
+    "probatietermijn",
+    "probatiecommissie",
+    "probatiestraf",
+    "opschorten",
+    "probatietermijn kan",
+    "probatiecommissie kan",
+    "autonome probatiestraf"
+  ],
+  "Art. 37undecies": [
+    "probatiecommissie",
+    "probatiestraf",
+    "commissie",
+    "veroordeelde",
+    "de probatiecommissie",
+    "autonome probatiestraf",
+    "verslag wordt"
+  ],
+  "Art. 38": [
+    "geldboeten",
+    "geldboete",
+    "misdaad",
+    "euro",
+    "geldboeten worden",
+    "geldboete wegens",
+    "zesentwintig euro"
+  ],
+  "Art. 39": [
+    "veroordeeld",
+    "misdrijf",
+    "geldboete",
+    "persoonlijk",
+    "geldboete uitgesproken",
+    "veroordeeld wordt",
+    "worden veroordeeld",
+    "verscheidene personen"
+  ],
+  "Art. 40": [
+    "gevangenisstraf",
+    "hoofdstraf",
+    "betaling",
+    "gevangenisst",
+    "geldboete worden",
+    "gevangenisstraf zijn",
+    "vervangende gevangenisstraf",
+    "gevangenisstraf te"
+  ],
+  "Art. 41": [
+    "rechtspersonen",
+    "gevangenisstraf",
+    "veroordeelde",
+    "geldboete",
+    "gevangenisstraf bevrijden",
+    "geldboete op",
+    "rechtspersonen toepasselijk",
+    "de gevangenisstraf"
+  ],
+  "Art. 41bis": [
+    "minimumgeldboete",
+    "minimumvrijheidsstraf",
+    "geldboeten",
+    "maximumvrijheidsstraf",
+    "geldboeten toepasselijk",
+    "minimumgeldboete op",
+    "de minimumgeldboete"
+  ],
+  "Art. 42": [
+    "verbeurdverklaring",
+    "misdrijf",
+    "vermogensvoordelen",
+    "voorwerp",
+    "verbeurdverklaring wordt",
+    "misdrijf uitmaken",
+    "bijzondere verbeurdverklaring",
+    "misdrijf voortkomen"
+  ],
+  "Art. 43": [
+    "verbeurdverklaring",
+    "uitgesproken",
+    "veroordeelde",
+    "misdaad",
+    "verbeurdverklaring toepasselijk",
+    "bijzondere verbeurdverklaring",
+    "de verbeurdverklaring"
+  ],
+  "Art. 43bis": [
+    "verbeurdverklaring",
+    "verbeurdverklaarde",
+    "verbeurdverkl",
+    "veroordeelde",
+    "verbeurdverklaring toepasselijk",
+    "verbeurdverklaarde zaken",
+    "verbeurdverklaring betrekking",
+    "bijzondere verbeurdverklaring"
+  ],
+  "Art. 43ter": [
+    "verbeurdverklaring",
+    "uitgesproken",
+    "43bis",
+    "bijzondere verbeurdverklaring",
+    "verbeurdverklaring die",
+    "uitgesproken wanneer"
+  ],
+  "Art. 43quater": [
+    "vermogensvoordelen",
+    "procureur",
+    "misdrijven",
+    "vordering",
+    "bedoelde vermogensvoordelen",
+    "artikel 43bis",
+    "misdrijven bedoeld"
+  ],
+  "Art. 44": [
+    "schadevergoeding",
+    "veroordeling",
+    "verschuldigd",
+    "straffen",
+    "gestelde straffen",
+    "straffen wordt",
+    "altijd uitgesproken"
+  ],
+  "Art. 45": [
+    "schadevergoeding",
+    "bepaalt",
+    "beslissen",
+    "rechtbank",
+    "schadevergoeding niet",
+    "de schadevergoeding",
+    "regelt bepaalt"
+  ],
+  "Art. 46": [
+    "onwaardigheid",
+    "nalatenschap",
+    "medeplichtige",
+    "misdrijf",
+    "misdrijf kan",
+    "schuldig bevindt"
+  ],
+  "Art. 49": [
+    "gerechtskosten",
+    "voorrang",
+    "veroordeelden",
+    "schadevergoeding",
+    "gerechtskosten toegerekend",
+    "verschuldigde gerechtskosten",
+    "gerechtskosten worden",
+    "die gerechtskosten"
+  ],
+  "Art. 50": [
+    "gerechtskosten",
+    "hoofdelijkheid",
+    "vrijstelling",
+    "veroordeelden",
+    "gerechtskosten wanneer",
+    "de gerechtskosten"
+  ],
+  "Art. 50bis": [
+    "aansprakelijk",
+    "burgerrechtelijk",
+    "inwerkingtreding",
+    "veroordeeld",
+    "aansprakelijk worden",
+    "burgerrechtelijk aansprakelijk",
+    "geldboete waartoe"
+  ],
+  "Art. 51": [
+    "poging",
+    "strafbare",
+    "voornemen",
+    "misdaad",
+    "strafbare poging",
+    "poging bestaat",
+    "een misdaad"
+  ],
+  "Art. 52": [
+    "gestraft",
+    "misdaad",
+    "strafbaar",
+    "pogingen",
+    "strafbaar zijn",
+    "misdaad wordt",
+    "straf die",
+    "levenslange hechtenis"
+  ],
+  "Art. 53": [
+    "wanbedrijf",
+    "gestraft",
+    "poging",
+    "straffen",
+    "straffen poging",
+    "wanbedrijf wordt",
+    "wordt gestraft",
+    "wet bepaalt"
+  ],
+  "Art. 54": [
+    "strafbaar",
+    "misdaad",
+    "opsluiting",
+    "veroordeeld",
+    "misdaad strafbaar",
+    "strafbaar is",
+    "criminele straf",
+    "schuldige worden"
+  ],
+  "Art. 55": [
+    "misdaad",
+    "gestraft",
+    "hechtenis",
+    "strafbaar",
+    "jaar hechtenis",
+    "misdaad strafbaar",
+    "gestraft wordt",
+    "schuldige worden"
+  ],
+  "Art. 55bis": [
+    "gevangenisstraf",
+    "opsluit",
+    "veroordeeld",
+    "strafbaar",
+    "een gevangenisstraf",
+    "straf heeft",
+    "jaar opsluit"
+  ],
+  "Art. 56": [
+    "wanbedrijf",
+    "gevangenisstraf",
+    "veroordeeld",
+    "veroordeelde",
+    "wanbedrijf pleegt",
+    "straf kan",
+    "wanbedrijf gesteld",
+    "een wanbedrijf"
+  ],
+  "Art. 57": [
+    "veroordeling",
+    "gestrafte",
+    "strafwetten",
+    "bepalingen",
+    "gestrafte feit",
+    "strafwetten misdaad",
+    "militaire wetten",
+    "vroegere veroordeling"
+  ],
+  "Art. 57bis": [
+    "misdrijven",
+    "inwerkingtreding",
+    "veroordeling",
+    "artikel 15",
+    "vroegere veroordeling",
+    "artikelen 54",
+    "bepalingen betreffende"
+  ],
+  "Art. 58": [
+    "werkstraffen",
+    "probatiestraffen",
+    "gestraft",
+    "overtredingen",
+    "werkstraffen worden",
+    "overtredingen wordt"
+  ],
+  "Art. 59": [
+    "werkstraffen",
+    "probatiestraffen",
+    "overtredingen",
+    "gevangenisstraffen",
+    "werkstraffen straffen",
+    "overtredingen worden",
+    "gevangenisstraffen samen"
+  ],
+  "Art. 60": [
+    "werkstraf",
+    "gevangenisstraf",
+    "probatiestraf",
+    "maximum",
+    "uren werkstraf",
+    "jaar straf",
+    "straffen samen",
+    "jaar gevangenisstraf"
+  ],
+  "Art. 62": [
+    "maximum",
+    "verhoogd",
+    "samenloop",
+    "misdaden",
+    "straf kan",
+    "straf uitgesproken",
+    "misdaden wordt",
+    "zwaarste straf"
+  ],
+  "Art. 63": [
+    "zwaarste",
+    "opsluiting",
+    "zwaardere",
+    "straf",
+    "zwaarste straf",
+    "zwaardere straf",
+    "straf is",
+    "langstdurende zijn"
+  ],
+  "Art. 64": [
+    "verbeurdverklaring",
+    "straffen",
+    "misdaden",
+    "opgelegd",
+    "verbeurdverklaring wegens",
+    "verscheidene misdaden",
+    "bijzondere verbeurdverklaring",
+    "samen opgelegd"
+  ],
+  "Art. 65": [
+    "misdrijven",
+    "straftoemeting",
+    "feitenrechter",
+    "straffen",
+    "misdrijven oplevert",
+    "feitenrechter vaststelt",
+    "zelfde feitenrechter",
+    "verschillende misdrijven"
+  ],
+  "Art. 66": [
+    "gestraft",
+    "misdaad",
+    "wanbedrijf",
+    "misdadige",
+    "misdaad of",
+    "een misdaad",
+    "worden gestraft",
+    "wanbedrijf hebben"
+  ],
+  "Art. 67": [
+    "medeplichtigen",
+    "gestraft",
+    "onderrichtingen",
+    "misdaad",
+    "medeplichtigen aan",
+    "als medeplichtigen",
+    "worden gestraft"
+  ],
+  "Art. 68": [
+    "medeplichtigen",
+    "gestraft",
+    "boosdoeners",
+    "misdadig",
+    "medeplichtigen gestraft",
+    "hun medeplichtigen",
+    "misdadig gedrag"
+  ],
+  "Art. 69": [
+    "medeplichtigen",
+    "medeplichtig",
+    "gestraft",
+    "misdaad",
+    "tegen medeplichtigen",
+    "medeplichtigen aan",
+    "medeplichtig waren"
+  ],
+  "Art. 70": [
+    "misdrijf",
+    "misdrijven",
+    "inwerkingtreding",
+    "ibis",
+    "misdrijf wanneer",
+    "misdrijven betreft",
+    "geen misdrijf"
+  ],
+  "Art. 71": [
+    "misdrijf",
+    "geestesstoornis",
+    "inwerkingtreding",
+    "oordeelsvermogen",
+    "misdrijf wanneer",
+    "een geestesstoornis"
+  ],
+  "Art. 78": [
+    "omstandigheden",
+    "verzwarende",
+    "inwerkingtreding",
+    "verschoonbaar",
+    "verzwarende omstandigheden",
+    "omstandigheden verzwarende",
+    "verzwarende factoren",
+    "verzachtende omstandigheden"
+  ],
+  "Art. 78bis": [
+    "maximumstraf",
+    "verzwarende",
+    "dat",
+    "verzwarende factoren",
+    "factoren moet",
+    "straf kan",
+    "de maximumstraf"
+  ],
+  "Art. 78ter": [
+    "discriminerende",
+    "drijfveren",
+    "misdrijven",
+    "misdrijf",
+    "discriminerende drijfveer",
+    "verzwarende factor",
+    "de discriminerende"
+  ],
+  "Art. 79": [
+    "straffen",
+    "verminderd",
+    "omstandigheden",
+    "bepalingen",
+    "verzachtende omstandigheden",
+    "straffen verminderd",
+    "criminele straffen",
+    "omstandigheden aanwezig"
+  ],
+  "Art. 80": [
+    "gevangenisstraf",
+    "opsluiting",
+    "levenslange opsluiting",
+    "opsluiting of",
+    "kortere termijn",
+    "tijdelijke opsluiting"
+  ],
+  "Art. 81": [
+    "gevangenisstraf",
+    "hechtenis",
+    "kortere",
+    "tijdelijke",
+    "levenslange hechtenis",
+    "jaar hechtenis",
+    "tijdelijke hechtenis",
+    "een gevangenisstraf"
+  ],
+  "Art. 82": [
+    "strafwetboek",
+    "samenloop",
+    "straffen",
+    "straf",
+    "strafwetboek kan",
+    "straf uitspreken",
+    "straffen een",
+    "criminele straffen"
+  ],
+  "Art. 83": [
+    "verminderd",
+    "criminele",
+    "euro",
+    "zesentwintig",
+    "zesentwintig euro",
+    "worden verminderd",
+    "geldboete in"
+  ],
+  "Art. 84": [
+    "gevangenisstraf",
+    "verminderd",
+    "schuldigen",
+    "veroordeeld",
+    "gevangenisstraf wordt",
+    "tot geldboete",
+    "duizend euro"
+  ],
+  "Art. 85": [
+    "werkstraffen",
+    "politiestraffen",
+    "gevangenisstraffen",
+    "probatiestraffen",
+    "geldboeten respectievelijk",
+    "straf uitspreken"
+  ],
+  "Art. 86": [
+    "onherroepelijk",
+    "rechtspersoonlijkheid",
+    "vervallen",
+    "veroordeelde",
+    "bij onherroepelijk",
+    "veroordeelde rechtspersoon",
+    "onherroepelijk geworden"
+  ],
+  "Art. 87": [
+    "onbekwaamheden",
+    "kwijtschelding",
+    "genade",
+    "recht",
+    "onbekwaamheden door",
+    "door kwijtschelding"
+  ],
+  "Art. 89": [
+    "opgeheven",
+    "inwerkingtreding",
+    "nota",
+    "050",
+    "opgeheven 2004",
+    "049 inwerkingtreding",
+    "050 inwerkingtreding"
+  ],
+  "Art. 90": [
+    "opgeheven",
+    "inwerkingtreding",
+    "bevestigd",
+    "nota",
+    "opgeheven 2004",
+    "049 inwerkingtreding",
+    "nota bevestigd",
+    "050 inwerkingtreding"
+  ],
+  "Art. 91": [
+    "misdrijven",
+    "straffen",
+    "criminele",
+    "criminele straffen",
+    "straffen door",
+    "straffen met"
+  ],
+  "Art. 92": [
+    "verjaringstermijn",
+    "gevangenisstraf",
+    "correctionele",
+    "straffen",
+    "de verjaringstermijn",
+    "verjaringstermijn tien",
+    "correctionele straffen"
+  ],
+  "Art. 93": [
+    "politiestraffen",
+    "tijdstippen",
+    "vastgesteld",
+    "verloop",
+    "politiestraffen verjaren",
+    "verjaren door",
+    "een jaar"
+  ],
+  "Art. 94": [
+    "verbeurdverklaringen",
+    "termijnen",
+    "geldboeten",
+    "overtredingen",
+    "geldboeten verjaren",
+    "verbeurdverklaringen verjaren",
+    "bijzondere verbeurdverklaringen"
+  ],
+  "Art. 95": [
+    "verjaringstermijn",
+    "ontvluchten",
+    "veroordeelde",
+    "verjaring",
+    "de verjaringstermijn",
+    "verjaringstermijn te",
+    "straf ondergaat"
+  ],
+  "Art. 97": [
+    "verbeurdverklaring",
+    "veroordeelde",
+    "verjaring",
+    "aanzuiveringsregeling",
+    "verbeurdverklaring wordt",
+    "verbeurdverklaring tijdens",
+    "verbeurdverklaring de"
+  ],
+  "Art. 98": [
+    "verbeurdverklaring",
+    "veroordeelde",
+    "aanzuiveringsregeling",
+    "betalingsverzoek",
+    "verbeurdverklaring wordt",
+    "verbeurdverklaring en",
+    "de verbeurdverklaring"
+  ],
+  "Art. 99": [
+    "burgerlijk",
+    "burgerlijke",
+    "veroordelingen",
+    "onherroepelijk",
+    "burgerlijke veroordelingen",
+    "burgerlijk recht",
+    "veroordelingen ingevoegd",
+    "burgerlijk wetboek"
+  ],
+  "Art. 99bis": [
+    "strafgerechten",
+    "rechtsgevolgen",
+    "veroordelingen",
+    "bepalingen",
+    "belgische strafgerechten",
+    "strafgerechten en",
+    "dezelfde rechtsgevolgen"
+  ],
+  "Art. 100": [
+    "misdrijven",
+    "bepalingen",
+    "verordeningen",
+    "strafbaar",
+    "wetboek toegepast",
+    "de misdrijven",
+    "verordeningen strafbaar"
+  ],
+  "Art. 100bis": [
+    "gevangenisstraf",
+    "hoofdstraf",
+    "strafwetboek",
+    "afzetting",
+    "militaire gevangenisstraf",
+    "militaire strafwetten",
+    "gevangenisstraf wordt",
+    "hoofdstraf is"
+  ],
+  "Art. 100ter": [
+    "minderjarige",
+    "leeftijd",
+    "inwerkingtreding",
+    "misdaden",
+    "term minderjarige",
+    "minderjarige wordt"
+  ],
+  "Art. 101": [
+    "aanslag",
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "levenslange opsluiting",
+    "wordt gestraft",
+    "aanslag op"
+  ],
+  "Art. 102": [
+    "aanslag",
+    "opsluiting",
+    "gestraft",
+    "inwerkingtreding",
+    "levenslange opsluiting",
+    "aanslag op",
+    "wordt gestraft"
+  ],
+  "Art. 103": [
+    "aanslag",
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "gestraft zoals"
+  ],
+  "Art. 104": [
+    "aanslag",
+    "gestraft",
+    "inwerkingtreding",
+    "wapens",
+    "aanslag ondernomen",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 106": [
+    "samenspanning",
+    "dwangarbeid",
+    "gestraft",
+    "inwerkingtreding",
+    "samenspanning tegen",
+    "wordt gestraft",
+    "met dwangarbeid"
+  ],
+  "Art. 107": [
+    "samenspanning",
+    "gestraft",
+    "inwerkingtreding",
+    "opsluiting",
+    "samenspanning tegen",
+    "wordt gestraft"
+  ],
+  "Art. 108": [
+    "gestraft",
+    "samenspanning",
+    "opsluiting",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "gestraft met",
+    "artikel 103"
+  ],
+  "Art. 109": [
+    "samenspanning",
+    "gestraft",
+    "bereiden",
+    "hechtenis",
+    "samenspanning gesmeed",
+    "de samenspanning",
+    "met hechtenis"
+  ],
+  "Art. 110": [
+    "samenspanning",
+    "samen",
+    "besluit",
+    "handelen",
+    "samenspanning bestaat",
+    "personen samen",
+    "besluit hebben"
+  ],
+  "Art. 111": [
+    "gevangenisstraf",
+    "gestraft",
+    "voorstel",
+    "samenspanning",
+    "met gevangenisstraf",
+    "wordt gestraft",
+    "gevangenisstraf van"
+  ],
+  "Art. 112": [
+    "aanslag",
+    "gestraft",
+    "opsluiting",
+    "regent",
+    "wordt gestraft",
+    "een aanslag"
+  ],
+  "Art. 112/1": [
+    "staatsgeheim",
+    "geheim",
+    "staat",
+    "inlichtingen",
+    "begrip staatsgeheim",
+    "staatsgeheim worden",
+    "geheim moeten"
+  ],
+  "Art. 113": [
+    "wapens",
+    "gestraft",
+    "hechtenis",
+    "belg",
+    "levenslange hechtenis",
+    "wapens tegen",
+    "bepaling geldt",
+    "iedere belg"
+  ],
+  "Art. 114": [
+    "vijandelijkheden",
+    "mogendheid",
+    "gestraft",
+    "hechtenis",
+    "levenslange hechtenis",
+    "met hechtenis",
+    "vreemde mogendheid",
+    "wordt gestraft"
+  ],
+  "Art. 115": [
+    "gestraft",
+    "inwerkingtreding",
+    "betreden",
+    "strafbare",
+    "levenslange hechtenis",
+    "hechtenis wordt",
+    "wordt gestraft"
+  ],
+  "Art. 116": [
+    "hechtenis",
+    "inlichtingen",
+    "gestraft",
+    "geheim",
+    "levenslange hechtenis",
+    "hechtenis wordt",
+    "geheim moeten"
+  ],
+  "Art. 117": [
+    "misdaden",
+    "straffen",
+    "belgië",
+    "gemeenschappelijke",
+    "gemeenschappelijke vijand",
+    "straffen bepaald",
+    "de straffen",
+    "waarmee belgië"
+  ],
+  "Art. 118": [
+    "staatsgeheim",
+    "gestraft",
+    "bekendmaking",
+    "hechtenis",
+    "een staatsgeheim",
+    "staatsgeheim reproduceert",
+    "met hechtenis"
+  ],
+  "Art. 118bis": [
+    "propaganda",
+    "gestraft",
+    "hechtenis",
+    "levenslange",
+    "levenslange hechtenis",
+    "hechtenis wordt",
+    "propaganda leidt"
+  ],
+  "Art. 119": [
+    "gevangenisstraf",
+    "gestraft",
+    "staatsgeheim",
+    "een staatsgeheim",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 119/1": [
+    "staatsgeheim",
+    "gevangenisstraf",
+    "gestraft",
+    "geheim",
+    "een staatsgeheim",
+    "staatsgeheim dat",
+    "een gevangenisstraf"
+  ],
+  "Art. 119/2": [
+    "staatsgeheim",
+    "misdrijf",
+    "bestraft",
+    "inwerkingtreding",
+    "staatsgeheim met",
+    "een staatsgeheim",
+    "misdrijf bestraft",
+    "vijf jaar"
+  ],
+  "Art. 120": [
+    "staatsgeheim",
+    "gevangenisstraf",
+    "gestraft",
+    "die",
+    "een staatsgeheim",
+    "een gevangenisstraf",
+    "staatsgeheim geheel"
+  ],
+  "Art. 120bis": [
+    "gestraft",
+    "gevangenisstraf",
+    "bewaking",
+    "verdedigingswerk",
+    "gestraft 2000",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 120ter": [
+    "gestraft",
+    "afstand",
+    "gevangenisstraf",
+    "verdedigingswerk",
+    "bepalen afstand",
+    "afstand gerekend",
+    "een afstand"
+  ],
+  "Art. 120quater": [
+    "misdrijf",
+    "misdrijven",
+    "inwerkingtreding",
+    "poging",
+    "misdrijf zelf",
+    "de misdrijven",
+    "het misdrijf"
+  ],
+  "Art. 120quinquies": [
+    "gevangenisstraf",
+    "staatsgeheim",
+    "gestraft",
+    "wegnemen",
+    "een staatsgeheim",
+    "een gevangenisstraf",
+    "staatsgeheim hetzij"
+  ],
+  "Art. 120quinquies/1": [
+    "bedrieglijk",
+    "gevangenisstraf",
+    "gestraft",
+    "correcte",
+    "foute informatie",
+    "informatie verbergt",
+    "informatie verstrekt"
+  ],
+  "Art. 120sexies": [
+    "gevangenisstraf",
+    "gestraft",
+    "misdrijven",
+    "inwerkingtreding",
+    "misdrijven gestraft",
+    "levenslange hechtenis",
+    "met gevangenisstraf"
+  ],
+  "Art. 120septies": [
+    "gevangenisstraf",
+    "gestraft",
+    "strafbare",
+    "onderdak",
+    "onderdak schuilplaats",
+    "wordt gestraft",
+    "een onderdak"
+  ],
+  "Art. 120octies": [
+    "straffen",
+    "misdrijven",
+    "120septies",
+    "120",
+    "straffen bepaald",
+    "de straffen"
+  ],
+  "Art. 120octies/1": [
+    "staatsgeheim",
+    "overdracht",
+    "overgedragen",
+    "gestraft",
+    "staatsgeheim aan",
+    "staatsgeheim wordt",
+    "buitenlandse gewapende",
+    "gepleegde overdracht"
+  ],
+  "Art. 121": [
+    "opsluiting",
+    "verbergen",
+    "gestraft",
+    "verspieders",
+    "levenslange opsluiting",
+    "wordt gestraft",
+    "vijandelijke agenten",
+    "vijandelijke soldaten"
+  ],
+  "Art. 121bis": [
+    "opsluiting",
+    "gestraft",
+    "aangifte",
+    "vrijheidsberoving",
+    "levenslange opsluiting",
+    "persoon vrijheidsberoving",
+    "wordt gestraft"
+  ],
+  "Art. 122": [
+    "gevangenisstraf",
+    "brandstichting",
+    "vernieling",
+    "straffen",
+    "vernield worden",
+    "gevangenisstraf door",
+    "volgt gevangenisstraf"
+  ],
+  "Art. 122bis": [
+    "inlichtingsdienst",
+    "gevangenisstraf",
+    "inlichtingen",
+    "gestraft",
+    "militaire inlichtingsdienst",
+    "inlichtingsdienst opricht",
+    "met gevangenisstraf"
+  ],
+  "Art. 123": [
+    "vijandelijkheden",
+    "gestraft",
+    "vijandelijke",
+    "hechtenis",
+    "vijandelijke handelingen",
+    "wordt gestraft",
+    "vijandelijkheden zijn"
+  ],
+  "Art. 123bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "voorstel",
+    "misdrijven",
+    "gestraft met",
+    "met gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 123ter": [
+    "eigendom",
+    "misdrijven",
+    "gevangenisstraffen",
+    "zij",
+    "winstbejag zijn",
+    "tijdelijke hechtenis",
+    "bepaalde gevangenisstraffen"
+  ],
+  "Art. 123quater": [
+    "samenspanning",
+    "gestraft",
+    "inwerkingtreding",
+    "straffen",
+    "samenspanning in",
+    "bepalingen gestraft",
+    "samenspanning om"
+  ],
+  "Art. 123quinquies": [
+    "verbeurdverklaring",
+    "veroordeelden",
+    "misdrijf",
+    "uitgesproken",
+    "verbeurdverklaring van",
+    "de verbeurdverklaring"
+  ],
+  "Art. 123sexies": [
+    "rechten",
+    "veroordeelden",
+    "strafwetboek",
+    "veroordeling",
+    "levenslange hechtenis",
+    "levenslange opsluiting",
+    "levenslange vervallenverklaring",
+    "veroordeling tot"
+  ],
+  "Art. 123septies": [
+    "vervallen",
+    "veroordeelden",
+    "vervallenverkla",
+    "voorwaarde",
+    "herstel aanvragen",
+    "voorwaarde ontslaan",
+    "vervallen verklaard",
+    "kunnen herstel"
+  ],
+  "Art. 123octies": [
+    "vervallenverklaring",
+    "gewijsde",
+    "vermelding",
+    "burgerlijke",
+    "tijdelijke vervallenverklaring",
+    "vervallenverklaring het",
+    "vervallenverklaring van"
+  ],
+  "Art. 123nonies": [
+    "gestraft",
+    "vervallenverklaring",
+    "gevangenisstraf",
+    "inwerkingtreding",
+    "gestraft met",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 123decies": [
+    "vennootschappen",
+    "aansprakelijk",
+    "aansprakelijke",
+    "handelsverenigingen",
+    "vennootschappen zijn",
+    "aansprakelijke vennoot",
+    "burgerrechtelijk aansprakelijk",
+    "burgerrechtelijk aansprakelijke"
+  ],
+  "Art. 124": [
+    "gestraft",
+    "samenspanning",
+    "aanslag",
+    "wapenen",
+    "aanslag met",
+    "wapenen wordt",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 125": [
+    "aanslag",
+    "gestraft",
+    "opsluiting",
+    "plundering",
+    "aanslag met",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 126": [
+    "krijgsbenden",
+    "gestraft",
+    "wapens",
+    "krijgslieden",
+    "gewapende krijgsbenden",
+    "worden gestraft",
+    "krijgslieden aanwerven"
+  ],
+  "Art. 127": [
+    "gestraft",
+    "hechtenis",
+    "bijeenhouden",
+    "troepen",
+    "met hechtenis",
+    "bevel nemen",
+    "worden gestraft",
+    "het bevel"
+  ],
+  "Art. 128": [
+    "gestraft",
+    "gewapende",
+    "misdaden",
+    "gewapende benden",
+    "openbare macht",
+    "wordt gestraft"
+  ],
+  "Art. 129": [
+    "plunderen",
+    "gestraft",
+    "misdaden",
+    "opsluiting",
+    "benden stellen",
+    "die benden"
+  ],
+  "Art. 130": [
+    "toepasselijk",
+    "straffen",
+    "onderscheidenlijk",
+    "vereniging",
+    "de straffen",
+    "zijn toepasselijk",
+    "onderscheidenlijk bepaald",
+    "straffen in"
+  ],
+  "Art. 131": [
+    "straffen",
+    "gestraft",
+    "misdaden",
+    "bende",
+    "bepaalde straffen",
+    "straffen toegepast",
+    "straffen wordt",
+    "dezelfde straffen"
+  ],
+  "Art. 132": [
+    "gestraft",
+    "misdaden",
+    "oproerige",
+    "bijeenkomst",
+    "oproerige bijeenkomst",
+    "benden deel",
+    "benden wordt",
+    "bedoelde benden"
+  ],
+  "Art. 133": [
+    "gestraft",
+    "onderdak",
+    "103",
+    "opsluiting",
+    "worden gestraft",
+    "benden aan",
+    "een onderdak"
+  ],
+  "Art. 134": [
+    "gestraft",
+    "oproer",
+    "tegenstand",
+    "oproerige",
+    "geen straf",
+    "zonder wapens",
+    "straf wordt",
+    "oproer uitgesproken"
+  ],
+  "Art. 135": [
+    "wapens",
+    "gereedschappen",
+    "voorwerpen",
+    "werktuigen",
+    "woord wapens",
+    "wapens worden"
+  ],
+  "Art. 135bis": [
+    "beïnvloeden",
+    "beslissingsproces",
+    "beïnvloedt",
+    "democratisch",
+    "democratisch beslissingsproces",
+    "beslissingsproces beïnvloedt",
+    "buitenlandse persoon",
+    "een democratisch"
+  ],
+  "Art. 135quater": [
+    "minderjarige",
+    "gestraft",
+    "gevangenisstraf",
+    "minderjarige verkrijgt",
+    "een minderjarige",
+    "met gevangenisstraf"
+  ],
+  "Art. 135quinquies": [
+    "wanbedrijven",
+    "gestraft",
+    "inwerkingtreding",
+    "straffen",
+    "dezelfde straffen",
+    "wanbedrijven in",
+    "de wanbedrijven"
+  ],
+  "Art. 136": [
+    "misdrijven",
+    "medeplichtigen",
+    "schuldigen",
+    "inwerkingtreding",
+    "misdrijven omschreven",
+    "de misdrijven",
+    "misdrijven en"
+  ],
+  "Art. 136bis": [
+    "genocide",
+    "misdaad",
+    "misdrijven",
+    "bestraffing",
+    "genocide verstaan",
+    "genocide zoals",
+    "genocide en"
+  ],
+  "Art. 136ter": [
+    "misdaad",
+    "mensheid",
+    "doodslag",
+    "misdaad tegen",
+    "onder misdaad",
+    "mensheid verstaan",
+    "de misdaad"
+  ],
+  "Art. 136quater": [
+    "genève",
+    "oorlogsmisdaden",
+    "inwerkingtreding",
+    "verdrag",
+    "artikel 136quater",
+    "omschreven oorlogsmisdaden",
+    "oorlogsmisdaden bedoeld"
+  ],
+  "Art. 136quinquies": [
+    "misdrijven",
+    "136quinquies",
+    "136bis",
+    "inwerkingtreding",
+    "artikel 136quinquies",
+    "artikel 136quater",
+    "artikelen 136bis",
+    "levenslange opsluiting"
+  ],
+  "Art. 136sexies": [
+    "misdrijven",
+    "misdrijf",
+    "vergemakkelijken",
+    "inwerkingtreding",
+    "bouwwerk veranderen",
+    "bouwwerk oprichten",
+    "voorwerp voortbrengen",
+    "136bis 136ter"
+  ],
+  "Art. 136septies": [
+    "misdrijven",
+    "misdrijf",
+    "gestraft",
+    "inwerkingtreding",
+    "misdrijf gestelde",
+    "omschreven misdrijven",
+    "gestelde straf"
+  ],
+  "Art. 136octies": [
+    "misdrijven",
+    "136bis",
+    "136quater",
+    "uitzonderingen",
+    "artikel 136quater",
+    "136bis 136ter",
+    "artikelen 136bis",
+    "136ter 136quater"
+  ],
+  "Art. 137": [
+    "terroristisch",
+    "misdrijf",
+    "inwerkingtreding",
+    "bepaald",
+    "terroristisch misdrijf",
+    "misdrijf bepaald",
+    "als terroristisch"
+  ],
+  "Art. 138": [
+    "gevangenisstraf",
+    "misdrijven",
+    "terroristische",
+    "straffen",
+    "terroristische misdrijven",
+    "misdrijven geldboete",
+    "straffen voor",
+    "jaar gevangenisstraf"
+  ],
+  "Art. 139": [
+    "terroristische",
+    "groep",
+    "organisatie",
+    "terroristische groep",
+    "een terroristische",
+    "met terroristische"
+  ],
+  "Art. 140": [
+    "terroristische",
+    "gestraft",
+    "inwerkingtreding",
+    "deelneemt",
+    "terroristische groep",
+    "een terroristische",
+    "de terroristische"
+  ],
+  "Art. 140bis": [
+    "gestraft",
+    "misdrijven",
+    "misdrijf",
+    "verspreiding",
+    "een geldboete",
+    "misdrijf gestraft",
+    "terroristische misdrijven",
+    "boodschap verspreidt"
+  ],
+  "Art. 140ter": [
+    "werven",
+    "gestraft",
+    "inwerkingtreding",
+    "persoon werft",
+    "het werven",
+    "een geldboete",
+    "misdrijf gestraft"
+  ],
+  "Art. 140quater": [
+    "onderrichtingen",
+    "gestraft",
+    "misdrijf",
+    "misdrijven",
+    "onderrichtingen geeft",
+    "misdrijf gestraft",
+    "een geldboete",
+    "een opleiding"
+  ],
+  "Art. 140quinquies": [
+    "gestraft",
+    "onderrichtingen",
+    "misdrijven",
+    "misdrijf",
+    "misdrijf gestraft",
+    "buitenland onderrichtingen",
+    "straffen wordt",
+    "artikel 140quater"
+  ],
+  "Art. 140sexies": [
+    "gestraft",
+    "misdrijf",
+    "141",
+    "opsluiting",
+    "wordt gestraft",
+    "gestraft met",
+    "artikel 140"
+  ],
+  "Art. 140septies": [
+    "gevangenisstraf",
+    "terroristisch",
+    "misdrijf",
+    "voorbereidt",
+    "terroristisch misdrijf",
+    "jaar gevangenisstraf",
+    "voorbereide misdrijf"
+  ],
+  "Art. 141": [
+    "gestraft",
+    "opsluiting",
+    "misdrijf",
+    "een geldboete",
+    "financiële hulp",
+    "middelen verstrekt",
+    "tienduizend euro"
+  ],
+  "Art. 141bis": [
+    "strijdkrachten",
+    "inwerkingtreding",
+    "handelingen",
+    "toepasselijke",
+    "internationaal gewapend",
+    "van toepassing",
+    "humanitair recht"
+  ],
+  "Art. 141ter": [
+    "stakingsrecht",
+    "vrijheden",
+    "inwerkingtreding",
+    "rechten",
+    "het stakingsrecht",
+    "stakingsrecht de",
+    "fundamentele vrijheden"
+  ],
+  "Art. 141quater": [
+    "vervallenverklaring",
+    "medeplichtige",
+    "veroordeling",
+    "misdaden",
+    "medeplichtige tot",
+    "belgische nationaliteit"
+  ],
+  "Art. 142": [
+    "gestraft",
+    "gevangenisstraf",
+    "was",
+    "dan",
+    "wordt gestraft",
+    "een eredienst"
+  ],
+  "Art. 143": [
+    "gestraft",
+    "gevangenisstraf",
+    "verhinderen",
+    "eredienst",
+    "een eredienst",
+    "worden gestraft",
+    "de eredienst"
+  ],
+  "Art. 144": [
+    "gestraft",
+    "beschimpt",
+    "bedreigingen",
+    "gevangenisstraf",
+    "bedreigingen beschimpt",
+    "wordt gestraft",
+    "een eredienst"
+  ],
+  "Art. 145": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "bedienaar",
+    "straffen wordt",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 146": [
+    "gestraft",
+    "bloedstorting",
+    "gevangenisstraf",
+    "slagen",
+    "bloedstorting verwonding",
+    "slagen bloedstorting",
+    "gestraft met"
+  ],
+  "Art. 147": [
+    "gevangenisstraf",
+    "gestraft",
+    "vrijheidsberoving",
+    "gevangenisstraf is",
+    "willekeurige vrijheidsberoving",
+    "de gevangenisstraf"
+  ],
+  "Art. 148": [
+    "gevangenisstraf",
+    "gestraft",
+    "binnendringt",
+    "inwerkingtreding",
+    "met gevangenisstraf",
+    "ingezetene tegen"
+  ],
+  "Art. 151": [
+    "gevangenisstraf",
+    "gestraft",
+    "vrijheden",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 152": [
+    "straffen",
+    "ondergeschikte",
+    "bewijst",
+    "meerderen",
+    "bevel hebben",
+    "bepaalde straffen",
+    "verdachte bewijst",
+    "straffen alleen"
+  ],
+  "Art. 153": [
+    "verplicht",
+    "handtekening",
+    "vervolgd",
+    "schuldige",
+    "beticht worden",
+    "openbare officieren",
+    "ambtenaren ervan"
+  ],
+  "Art. 154": [
+    "gestraft",
+    "inwerkingtreding",
+    "handtekening",
+    "bedrieglijk",
+    "valse handtekening",
+    "maken gestraft",
+    "ambtenaar worden"
+  ],
+  "Art. 155": [
+    "gevangenisstraf",
+    "gestraft",
+    "vrijheidsberoving",
+    "wederrechtelijke",
+    "openbare officieren",
+    "worden gestraft",
+    "wederrechtelijke vrijheidsberoving"
+  ],
+  "Art. 156": [
+    "gevangenisstraf",
+    "gestraft",
+    "vrijheidsberoving",
+    "wederrechtelijke",
+    "wederrechtelijke vrijheidsberoving",
+    "openbare officieren",
+    "worden gestraft"
+  ],
+  "Art. 157": [
+    "gevangenisstraf",
+    "gestraft",
+    "gevangene",
+    "weigeren",
+    "met gevangenisstraf",
+    "gevangene opnemen",
+    "gestraft 2000"
+  ],
+  "Art. 158": [
+    "gestraft",
+    "veroordeeld",
+    "beschuldiging",
+    "ambtenaren",
+    "worden gestraft",
+    "openbare ambten",
+    "gestraft en"
+  ],
+  "Art. 159": [
+    "gestraft",
+    "vasthouden",
+    "openbaar",
+    "openbare",
+    "straf worden",
+    "worden gestraft",
+    "openbare officieren",
+    "dezelfde straf"
+  ],
+  "Art. 160": [
+    "gestraft",
+    "munten",
+    "munten in",
+    "zilveren munten",
+    "wordt gestraft"
+  ],
+  "Art. 161": [
+    "munten",
+    "gestraft",
+    "inwerkingtreding",
+    "nota",
+    "munten wordt",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 162": [
+    "munten",
+    "gestraft",
+    "metaal",
+    "euro",
+    "munten uitgedrukt",
+    "wordt gestraft"
+  ],
+  "Art. 163": [
+    "munten",
+    "gestraft",
+    "verandering",
+    "opsluiting",
+    "munten wordt",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 168": [
+    "medeplichtigen",
+    "gestraft",
+    "munten",
+    "straffen",
+    "worden gestraft",
+    "geschonden munten",
+    "hun medeplichtigen"
+  ],
+  "Art. 169": [
+    "gestraft",
+    "muntstukken",
+    "gevangenisstraf",
+    "geschonden muntstukken",
+    "muntstukken aanschaft",
+    "muntstukken invoert",
+    "wordt gestraft"
+  ],
+  "Art. 170": [
+    "muntstukken",
+    "gestraft",
+    "geschonden",
+    "inwerkingtreding",
+    "geschonden muntstukken",
+    "duizend euro",
+    "zesentwintig euro"
+  ],
+  "Art. 170bis": [
+    "munten",
+    "betaalmiddel",
+    "bepalingen",
+    "160",
+    "wettig betaalmiddel",
+    "betaalmiddel nog",
+    "munten die"
+  ],
+  "Art. 171": [
+    "munten",
+    "gestraft",
+    "monsters",
+    "bedrog",
+    "worden gestraft",
+    "bedrog bij",
+    "zilveren munten"
+  ],
+  "Art. 172": [
+    "munten",
+    "gestraft",
+    "bedrog",
+    "bankbiljetten",
+    "worden gestraft",
+    "munten in",
+    "toegelaten bankbiljetten"
+  ],
+  "Art. 173": [
+    "schuldbrieven",
+    "rentebewijzen",
+    "bankbiljetten",
+    "gestraft",
+    "schuldbrieven waardebonnen",
+    "schuldbrieven door",
+    "bankbiljetten aan"
+  ],
+  "Art. 174": [
+    "gestraft",
+    "schuldbrieven",
+    "rentebewijzen",
+    "opsluiting",
+    "schuldbrieven aan",
+    "worden gestraft",
+    "van rentebewijzen"
+  ],
+  "Art. 175": [
+    "dividendbewijzen",
+    "schuldbrieven",
+    "gestraft",
+    "vervalsers",
+    "aandelen schuldbrieven",
+    "schuldbrieven of"
+  ],
+  "Art. 176": [
+    "medeplichtigen",
+    "dividendbewijzen",
+    "gestraft",
+    "straffen",
+    "vervalste aandelen",
+    "worden gestraft",
+    "hun medeplichtigen"
+  ],
+  "Art. 177": [
+    "gestraft",
+    "gevangenisstraf",
+    "dividendbewijzen",
+    "schuldbrieven",
+    "vervalste aandelen",
+    "vervalste biljetten",
+    "dividendbewijzen biljetten",
+    "biljetten aanschaft"
+  ],
+  "Art. 177bis": [
+    "biljetten",
+    "betaalmiddel",
+    "2017",
+    "biljetten die",
+    "betaalmiddel nog",
+    "wettig betaalmiddel"
+  ],
+  "Art. 178": [
+    "gestraft",
+    "gevangenisstraf",
+    "dividendbewijzen",
+    "schuldbrieven",
+    "vervalste aandelen",
+    "aandelen schuldbrieven",
+    "wordt gestraft"
+  ],
+  "Art. 178bis": [
+    "geldteken",
+    "gestraft",
+    "gevangenisstraf",
+    "betaalmiddel",
+    "een geldteken",
+    "geldteken uitgeeft",
+    "gestraft met"
+  ],
+  "Art. 178ter": [
+    "geldteken",
+    "gestraft",
+    "betaalmiddel",
+    "betaalinstrumenten",
+    "een geldteken",
+    "wettig betaalmiddel",
+    "geldteken dat"
+  ],
+  "Art. 178quater": [
+    "betaalinstrument",
+    "betaalmiddelen",
+    "contant",
+    "immaterieel",
+    "contant betaalinstrument",
+    "betaalinstrument verstaan",
+    "niet contant"
+  ],
+  "Art. 178quinquies": [
+    "betaalinstrument",
+    "gestraft",
+    "gevangenisstraf",
+    "contant betaalinstrument",
+    "betaalinstrument namaakt",
+    "vervalst wordt"
+  ],
+  "Art. 178sexies": [
+    "betaalinstrumenten",
+    "gestraft",
+    "contante",
+    "contante betaalinstrumenten",
+    "betaalinstrumenten gebruikt",
+    "wordt gestraft"
+  ],
+  "Art. 178septies": [
+    "betaalinstrumenten",
+    "gestraft",
+    "gevangenisstraf",
+    "contante",
+    "contante betaalinstrumenten",
+    "betaalinstrumenten bezit",
+    "onrechtmatig verkregen"
+  ],
+  "Art. 178octies": [
+    "gestraft",
+    "betaalinstrumenten",
+    "gevangenisstraf",
+    "contante betaalinstrumenten",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 178nonies": [
+    "gevangenisstraf",
+    "gestraft",
+    "informaticagegevens",
+    "die straffen",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 179": [
+    "gestraft",
+    "zegel",
+    "opsluiting",
+    "inwerkingtreding",
+    "nagemaakte zegel",
+    "worden gestraft",
+    "zegel gebruik"
+  ],
+  "Art. 180": [
+    "rijksstempels",
+    "muntstempels",
+    "stempels",
+    "keurstempels",
+    "vervalste stempels",
+    "die muntstempels"
+  ],
+  "Art. 181": [
+    "gestraft",
+    "keurstempel",
+    "zegel",
+    "dezelfde",
+    "vervalst zegel",
+    "straf worden",
+    "worden gestraft",
+    "dezelfde straf"
+  ],
+  "Art. 182": [
+    "waarborgkantoor",
+    "keurmerken",
+    "keurstempel",
+    "gevangenisstraf",
+    "keurmerken bedrieglijk",
+    "waarborgkantoor geplaatste"
+  ],
+  "Art. 183": [
+    "gestraft",
+    "gevangenisstraf",
+    "zegel",
+    "papier",
+    "vervalst zegel",
+    "papier aanschaft",
+    "wordt gestraft",
+    "zegel gemerkt"
+  ],
+  "Art. 184": [
+    "gestraft",
+    "gevangenisstraf",
+    "biljetten",
+    "veroordeeld",
+    "wordt gestraft",
+    "gestraft en",
+    "gestraft met"
+  ],
+  "Art. 185": [
+    "gestraft",
+    "stempels",
+    "gevangenisstraf",
+    "wederrechtelijk",
+    "zegels stempels",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 185bis": [
+    "muntstempels",
+    "bankbiljetten",
+    "munten",
+    "gestraft",
+    "vervalste muntstempels",
+    "vervalste stempels",
+    "echte muntstempels"
+  ],
+  "Art. 186": [
+    "muntstempels",
+    "stempels",
+    "straffen",
+    "gestraft",
+    "die muntstempels",
+    "zegels stempels"
+  ],
+  "Art. 187": [
+    "gestraft",
+    "gevangenisstraf",
+    "stempels",
+    "zegels stempels",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 187bis": [
+    "muntstempels",
+    "stempels",
+    "gestraft",
+    "gevangenisstraf",
+    "vervalste muntstempels",
+    "vervalste stempels",
+    "echte muntstempels"
+  ],
+  "Art. 188": [
+    "gestraft",
+    "plakzegels",
+    "gevangenisstraf",
+    "postzegels",
+    "plakzegels namaken",
+    "worden gestraft",
+    "wordt gestraft",
+    "nagemaakte zegels"
+  ],
+  "Art. 189": [
+    "postzegels",
+    "gestraft",
+    "gevangenisstraf",
+    "aanschaffen",
+    "nagemaakte postzegels",
+    "postzegels aanschaffen",
+    "worden gestraft",
+    "andere postzegels"
+  ],
+  "Art. 190": [
+    "gestraft",
+    "lakzegel",
+    "postzegel",
+    "zegel",
+    "een postzegel",
+    "gestraft 2000",
+    "worden gestraft"
+  ],
+  "Art. 190bis": [
+    "plakpostzegels",
+    "afdrukken",
+    "bepalingen",
+    "gedrukt",
+    "de plakpostzegels",
+    "plakpostzegels maar",
+    "gedrukt worden"
+  ],
+  "Art. 191": [
+    "handelsnaam",
+    "fabrikant",
+    "fabrikaten",
+    "gestraft",
+    "straf wordt",
+    "wordt gestraft"
+  ],
+  "Art. 192": [
+    "misdrijven",
+    "munten",
+    "geschonden",
+    "schuldig",
+    "geschonden munten",
+    "misdrijven omschreven",
+    "misdrijven en"
+  ],
+  "Art. 192bis": [
+    "euro",
+    "muntstukken",
+    "misdrijf",
+    "gestraft",
+    "euro zoals",
+    "misdrijf betreffende",
+    "chartale euro"
+  ],
+  "Art. 192ter": [
+    "gevangenisstraf",
+    "strafbaar",
+    "opsluiting",
+    "misdaad",
+    "een gevangenisstraf",
+    "vijf jaar",
+    "een opsluiting"
+  ],
+  "Art. 193": [
+    "inwerkingtreding",
+    "gestraft",
+    "bedrieglijk",
+    "geschriften",
+    "afdeling valsheid",
+    "wordt gestraft",
+    "inwerkingtreding 13"
+  ],
+  "Art. 194": [
+    "gestraft",
+    "inwerkingtreding",
+    "opsluiting",
+    "officier",
+    "openbaar officier",
+    "valse handtekeningen",
+    "valsheid pleegt",
+    "openbare akten"
+  ],
+  "Art. 195": [
+    "gestraft",
+    "officier",
+    "opsluiting",
+    "inwerkingtreding",
+    "openbaar officier",
+    "wordt gestraft",
+    "opgegeven of"
+  ],
+  "Art. 196": [
+    "bankgeschriften",
+    "valselijk",
+    "gestraft",
+    "geschriften",
+    "valsheid plegen",
+    "geschriften valsheid",
+    "valse handtekeningen",
+    "of bankgeschriften"
+  ],
+  "Art. 197": [
+    "gestraft",
+    "akte",
+    "reispassen",
+    "wapens",
+    "in reispassen",
+    "valse stuk",
+    "valse akte"
+  ],
+  "Art. 198": [
+    "wapenwet",
+    "gestraft",
+    "gevangenisstraf",
+    "reispas",
+    "een reispas",
+    "reispas een",
+    "vervalst zijn",
+    "een arbeidsboekje"
+  ],
+  "Art. 199": [
+    "gestraft",
+    "gevangenisstraf",
+    "wapenwet",
+    "inwerkingtreding",
+    "een reispas",
+    "wordt gestraft",
+    "verdichte naam",
+    "met gevangenisstraf"
+  ],
+  "Art. 199bis": [
+    "paspoort",
+    "gevangenisstraf",
+    "gestraft",
+    "identiteitskaart",
+    "een paspoort",
+    "paspoort reisdocument",
+    "gestraft met"
+  ],
+  "Art. 200": [
+    "gevangenisstraf",
+    "valselijk",
+    "gestraft",
+    "reisorder",
+    "reisorder valselijk",
+    "vervalste reisorder",
+    "een reisorder",
+    "valselijk opmaakt"
+  ],
+  "Art. 201": [
+    "gestraft",
+    "gevangenisstraf",
+    "reisorder",
+    "aanwijzing",
+    "een reisorder",
+    "reisorder op",
+    "valse hoedanigheid",
+    "openbaar officier"
+  ],
+  "Art. 202": [
+    "gestraft",
+    "officier",
+    "gevangenisstraf",
+    "hem",
+    "openbare officier",
+    "een reispas",
+    "officier bij",
+    "wordt gestraft"
+  ],
+  "Art. 203": [
+    "gevangenisstraf",
+    "getuigschrift",
+    "valselijk",
+    "gestraft",
+    "gebrek valselijk",
+    "een getuigschrift",
+    "met gevangenisstraf"
+  ],
+  "Art. 204": [
+    "gevangenisstraf",
+    "valselijk",
+    "gestraft",
+    "ziekten",
+    "geneesheer heelkundige",
+    "bevoordelen valselijk",
+    "ieder geneesheer"
+  ],
+  "Art. 205": [
+    "getuigschrift",
+    "gevangenisstraf",
+    "valselijk",
+    "gestraft",
+    "getuigschrift valselijk",
+    "getuigschrift opmaakt",
+    "ambtenaar valselijk",
+    "een getuigschrift"
+  ],
+  "Art. 206": [
+    "getuigschrift",
+    "getuigschriften",
+    "valselijk",
+    "gevangenisstraf",
+    "getuigschrift valselijk",
+    "valselijk getuigschriften",
+    "ambtenaar valselijk"
+  ],
+  "Art. 207": [
+    "getuigschrift",
+    "valselijk",
+    "gestraft",
+    "straffen",
+    "getuigschrift vervalst",
+    "vervalst getuigschrift",
+    "vals getuigschrift",
+    "straffen bij"
+  ],
+  "Art. 208": [
+    "getuigschrift",
+    "gestraft",
+    "officier",
+    "inwerkingtreding",
+    "vals getuigschrift",
+    "getuigschrift vervalst",
+    "vervalst getuigschrift",
+    "getuigschrift afgeeft"
+  ],
+  "Art. 209": [
+    "getuigschrift",
+    "gevangenisstraf",
+    "gestraft",
+    "getuige",
+    "vals getuigschrift",
+    "getuige meewerken",
+    "worden gestraft"
+  ],
+  "Art. 210": [
+    "gevangenisstraf",
+    "gestraft",
+    "register",
+    "inschrijft",
+    "vervalst wordt",
+    "een register",
+    "wordt gestraft"
+  ],
+  "Art. 210bis": [
+    "informaticasysteem",
+    "gestraft",
+    "gevangenisstraf",
+    "inwerkingtreding",
+    "gegevens vals",
+    "gegevens verandert",
+    "een informaticasysteem",
+    "informaticasysteem in"
+  ],
+  "Art. 211": [
+    "telegraafdienst",
+    "telegrammen",
+    "gevangenisstraf",
+    "gestraft",
+    "telegrammen valselijk",
+    "een telegraafdienst",
+    "valsheid plegen",
+    "bediening valsheid"
+  ],
+  "Art. 212": [
+    "telegram",
+    "gestraft",
+    "wordt",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "telegram gebruik",
+    "vals telegram"
+  ],
+  "Art. 213": [
+    "dividendbewijzen",
+    "stempels",
+    "munten",
+    "betaalinstrumenten",
+    "straffen gesteld",
+    "renteof dividendbewijzen",
+    "vervalst zijn",
+    "betaalinstrumenten zegels"
+  ],
+  "Art. 214": [
+    "geldboete",
+    "inwerkingtreding",
+    "euro",
+    "zesentwintig",
+    "een geldboete",
+    "zesentwintig euro",
+    "geldboete in",
+    "tweeduizend euro"
+  ],
+  "Art. 215": [
+    "gestraft",
+    "getuigenis",
+    "criminele",
+    "beschuldigde",
+    "vals getuigenis",
+    "getuigenis in",
+    "wordt gestraft"
+  ],
+  "Art. 216": [
+    "gestraft",
+    "getuige",
+    "veroordeeld",
+    "opsluiting",
+    "valse getuige",
+    "levenslange opsluiting",
+    "veroordeeld is",
+    "opsluiting veroordeeld"
+  ],
+  "Art. 217": [
+    "verminderd",
+    "straffen",
+    "beschuldigde",
+    "inlichtingen",
+    "straffen worden",
+    "bepaalde straffen",
+    "graad verminderd",
+    "valse verklaringen"
+  ],
+  "Art. 218": [
+    "gevangenisstraf",
+    "gestraft",
+    "correctionele",
+    "getuigenis",
+    "vals getuigenis",
+    "met gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 219": [
+    "gevangenisstraf",
+    "gestraft",
+    "getuigenis",
+    "schuldig",
+    "vals getuigenis",
+    "met gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 220": [
+    "gevangenisstraf",
+    "getuigenis",
+    "gestraft",
+    "burgerlijke",
+    "vals getuigenis",
+    "burgerlijke zaken",
+    "met gevangenisstraf"
+  ],
+  "Art. 221": [
+    "gestraft",
+    "deskundige",
+    "tolk",
+    "beklaagde",
+    "valse verklaringen",
+    "deskundige schuldig",
+    "valse getuige",
+    "getuige gestraft"
+  ],
+  "Art. 221bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "getuigenverhoor",
+    "aanmaning",
+    "getuigenverhoor of",
+    "een getuigenverhoor",
+    "wordt gestraft"
+  ],
+  "Art. 222": [
+    "rechten",
+    "221bis",
+    "221",
+    "ontzetting",
+    "art 133",
+    "artikelen 217",
+    "217 218",
+    "gevallen omschreven"
+  ],
+  "Art. 223": [
+    "verleiding",
+    "strafbaar",
+    "schuldig",
+    "getuigen",
+    "valse getuigen",
+    "artikel 221bis",
+    "schuldig is",
+    "strafbaar met"
+  ],
+  "Art. 223bis": [
+    "gestraft",
+    "getuigenverhoor",
+    "straffen",
+    "verandert",
+    "getuigenverhoor wordt",
+    "wordt gestraft",
+    "een getuigenverhoor"
+  ],
+  "Art. 224": [
+    "getuigenis",
+    "veroordeeld",
+    "verleider",
+    "schuldig",
+    "een geldboete",
+    "vals getuigenis",
+    "valse verklaringen",
+    "straf wordt"
+  ],
+  "Art. 225": [
+    "verklaringen",
+    "beklaagden",
+    "toepasselijk",
+    "beschuldigden",
+    "valse verklaringen",
+    "niet toepasselijk",
+    "verklaringen zijn"
+  ],
+  "Art. 226": [
+    "gevangenisstraf",
+    "gestraft",
+    "straffen",
+    "burgerlijke",
+    "eed aflegt",
+    "burgerlijke zaken",
+    "straffen wordt",
+    "wordt gestraft"
+  ],
+  "Art. 227": [
+    "gevangenisstraf",
+    "gestraft",
+    "burgerlijke",
+    "militaire",
+    "wordt gestraft",
+    "openbare ambten",
+    "met gevangenisstraf"
+  ],
+  "Art. 227bis": [
+    "reserveofficieren",
+    "eregraad",
+    "gestraft",
+    "officieren",
+    "reserveofficieren titularissen",
+    "reserveofficieren gepensioneerde",
+    "gepensioneerde officieren"
+  ],
+  "Art. 227ter": [
+    "ereadvocaat",
+    "advocaat",
+    "gestraft",
+    "machtiging",
+    "ereadvocaat zonder",
+    "advocaat aanneemt"
+  ],
+  "Art. 227quater": [
+    "bemiddelaar",
+    "bemiddelt",
+    "bemiddelaars",
+    "gestraft",
+    "beroepsmatig bemiddelt",
+    "erkend bemiddelaar",
+    "bemiddelaar wordt"
+  ],
+  "Art. 227quinquies": [
+    "kandidaatgerechtsdeurwaarder",
+    "gerechtsdeurwaarder",
+    "gestraft",
+    "kandidaat",
+    "kandidaat gerechtsdeurwaarder",
+    "gerechtsdeurwaarder of"
+  ],
+  "Art. 228": [
+    "gestraft",
+    "uniform",
+    "onderscheidingstekens",
+    "ereteken",
+    "een uniform",
+    "wordt gestraft",
+    "een ereteken",
+    "een kledij"
+  ],
+  "Art. 229": [
+    "gestraft",
+    "onderscheidingstekens",
+    "ereteken",
+    "verlof",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 230": [
+    "gestraft",
+    "adellijke",
+    "inwerkingtreding",
+    "openbaar",
+    "adellijke titel",
+    "wordt gestraft",
+    "een adellijke",
+    "duizend euro"
+  ],
+  "Art. 231": [
+    "gestraft",
+    "gevangenisstraf",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "naam aanneemt",
+    "gestraft met"
+  ],
+  "Art. 232": [
+    "ambtenaren",
+    "gestraft",
+    "inwerkingtreding",
+    "officier",
+    "openbaar ambt",
+    "ieder ambtenaar",
+    "ambtenaar ieder",
+    "openbaar officier"
+  ],
+  "Art. 233": [
+    "gevangenisstraf",
+    "gestraft",
+    "maatregelen",
+    "schuldigen",
+    "met gevangenisstraf",
+    "openbaar gezag"
+  ],
+  "Art. 234": [
+    "gevangenisstraf",
+    "gestraft",
+    "maatregelen",
+    "inwerkingtreding",
+    "beraamd worden",
+    "straf gevangenisstraf"
+  ],
+  "Art. 235": [
+    "gestraft",
+    "samenspanning",
+    "uitlokkers",
+    "burgerlijke",
+    "uitlokkers gestraft",
+    "burgerlijke overheden",
+    "met hechtenis"
+  ],
+  "Art. 236": [
+    "ontslag",
+    "gestraft",
+    "gevangenisstraf",
+    "ambtenaren",
+    "ontslag nemen",
+    "afspraak ontslag",
+    "worden gestraft"
+  ],
+  "Art. 237": [
+    "gestraft",
+    "gevangenisstraf",
+    "wetgevende",
+    "rechten",
+    "wetgevende macht",
+    "worden gestraft",
+    "gestraft en"
+  ],
+  "Art. 238": [
+    "gestraft",
+    "administratieve",
+    "overheid",
+    "assessoren",
+    "worden gestraft",
+    "euro gestraft",
+    "assessoren in"
+  ],
+  "Art. 239": [
+    "gevangenisstraf",
+    "burgemeesters",
+    "provinciegouverneurs",
+    "gestraft",
+    "wetgevende macht",
+    "worden gestraft",
+    "arrondissementscommissarissen burgemeesters"
+  ],
+  "Art. 240": [
+    "gestraft",
+    "openbaar",
+    "inwerkingtreding",
+    "openbare",
+    "openbaar ambt",
+    "wordt gestraft",
+    "zaken verduistert"
+  ],
+  "Art. 241": [
+    "gestraft",
+    "akten",
+    "inwerkingtreding",
+    "bewaarder",
+    "openbaar ambt",
+    "ambt toegang",
+    "wordt gestraft"
+  ],
+  "Art. 242": [
+    "bewaarder",
+    "bewaarplaatsen",
+    "straffen",
+    "gevangenisstraf",
+    "bewaarder gestraft",
+    "openbaar bewaarder",
+    "nalatige bewaarder",
+    "gerechtelijke procesakten"
+  ],
+  "Art. 243": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "knevelarij",
+    "straffen en",
+    "die straffen",
+    "wordt gestraft"
+  ],
+  "Art. 244": [
+    "inwerkingtreding",
+    "opgeheven",
+    "023",
+    "inwerkingtreding 02",
+    "023 inwerkingtreding",
+    "opgeheven 1999"
+  ],
+  "Art. 245": [
+    "gevangenisstraf",
+    "gestraft",
+    "ordonnancering",
+    "inwerkingtreding",
+    "openbaar ambt",
+    "openbare ambten",
+    "straffen en",
+    "ambt uitoefent"
+  ],
+  "Art. 246": [
+    "omkoping",
+    "aanbod",
+    "openbaar",
+    "inwerkingtreding",
+    "passieve omkoping",
+    "openbaar ambt",
+    "actieve omkoping",
+    "omkoping bestaat"
+  ],
+  "Art. 247": [
+    "gevangenisstraf",
+    "omkoping",
+    "inwerkingtreding",
+    "straffen",
+    "een gevangenisstraf",
+    "openbaar ambt",
+    "een geldboete",
+    "straf een"
+  ],
+  "Art. 248": [
+    "politieambtenaar",
+    "omgekochte",
+    "gestraft",
+    "omkoper",
+    "omgekochte gestraft",
+    "politieambtenaar een",
+    "een politieambtenaar"
+  ],
+  "Art. 249": [
+    "arbiter",
+    "gevangenisstraf",
+    "omkoping",
+    "straf",
+    "arbiter betreft",
+    "een gevangenisstraf",
+    "straf een"
+  ],
+  "Art. 250": [
+    "geldboetes",
+    "omkoping",
+    "inwerkingtreding",
+    "geldboetes verdrievoudigd",
+    "geldboetes vervijfvoudigd",
+    "bepaalde omkoping"
+  ],
+  "Art. 252": [
+    "gestraft",
+    "rechten",
+    "inwerkingtreding",
+    "ontzetting",
+    "gestraft kunnen",
+    "artikel 33",
+    "worden gestraft"
+  ],
+  "Art. 253": [
+    "hoofdstuk",
+    "inwerkingtreding",
+    "opgeheven",
+    "gezag",
+    "hoofdstuk misbruik",
+    "1999 hoofdstuk",
+    "van gezag"
+  ],
+  "Art. 254": [
+    "gevangenisstraf",
+    "gestraft",
+    "overheid",
+    "wettelijk",
+    "openbare macht",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 255": [
+    "gestraft",
+    "vordering",
+    "hechtenis",
+    "schuldige",
+    "bevel gevolg",
+    "vijf jaar",
+    "met hechtenis"
+  ],
+  "Art. 256": [
+    "straffen",
+    "aangestelden",
+    "opsluiting",
+    "strafbaar",
+    "zwaardere straffen",
+    "levenslange opsluiting",
+    "straffen toegepast",
+    "of aangestelden"
+  ],
+  "Art. 257": [
+    "geweld",
+    "verhoogd",
+    "hoofdbevelhebber",
+    "officier",
+    "openbaar officier",
+    "geweld gebruikt",
+    "ondergeschikt bevelhebber",
+    "personen geweld"
+  ],
+  "Art. 258": [
+    "gestraft",
+    "stilzwijgen",
+    "weigert",
+    "verschuldigde",
+    "stilzwijgen of",
+    "wordt gestraft"
+  ],
+  "Art. 259": [
+    "gevangenisstraf",
+    "gestraft",
+    "inwerkingtreding",
+    "weigert",
+    "openbare macht",
+    "ieder bevelhebber",
+    "bevelhebber ieder",
+    "bevel geplaatste"
+  ],
+  "Art. 259bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "communicatie",
+    "inwerkingtreding",
+    "openbaar officier",
+    "openbare macht",
+    "met gevangenisstraf"
+  ],
+  "Art. 260": [
+    "officier",
+    "ondergeschikte",
+    "openbaar",
+    "verschuldigd",
+    "openbaar officier",
+    "bevel hebben",
+    "openbare macht",
+    "openbaar gezag"
+  ],
+  "Art. 261": [
+    "eed",
+    "inwerkingtreding",
+    "uitoefening",
+    "openbaar ambtenaar",
+    "tot geldboete",
+    "voorgeschreven eed",
+    "vijfhonderd euro"
+  ],
+  "Art. 262": [
+    "ontslagen",
+    "gestraft",
+    "gevangenisstraf",
+    "aangesteld",
+    "openbaar ambtenaar",
+    "wettig ontslagen",
+    "aangesteld openbaar"
+  ],
+  "Art. 263": [
+    "burgerlijk",
+    "burgerlijke",
+    "gestraft",
+    "wetboek",
+    "burgerlijk wetboek",
+    "burgerlijke stand",
+    "wetboek overtreedt"
+  ],
+  "Art. 264": [
+    "burgerlijk",
+    "burgerlijke",
+    "gestraft",
+    "overtreden",
+    "burgerlijk wetboek",
+    "burgerlijke stand",
+    "wetboek overtreden"
+  ],
+  "Art. 265": [
+    "gestraft",
+    "burgerlijke",
+    "huwelijk",
+    "inwerkingtreding",
+    "burgerlijke stand",
+    "huwelijk voltrekt",
+    "wordt gestraft"
+  ],
+  "Art. 266": [
+    "misdrijven",
+    "wanbedrijven",
+    "straffen",
+    "misdaden",
+    "gestelde straffen",
+    "straffen wegens",
+    "straffen veroordeeld",
+    "gevangenisstraf betreft"
+  ],
+  "Art. 267": [
+    "huwelijksinzegening",
+    "gestraft",
+    "bedienaar",
+    "burgerlijk",
+    "burgerlijk huwelijk",
+    "een eredienst",
+    "huwelijksinzegening ontvangen"
+  ],
+  "Art. 268": [
+    "gestraft",
+    "gevangenisstraf",
+    "bedienaren",
+    "bediening",
+    "worden gestraft",
+    "een eredienst",
+    "met gevangenisstraf"
+  ],
+  "Art. 269": [
+    "weerspannigheid",
+    "dwangbevelen",
+    "belastingen",
+    "aangestelden",
+    "weerspannigheid wordt",
+    "dwangbevelen aangestelden",
+    "geweld of"
+  ],
+  "Art. 271": [
+    "weerspannigheid",
+    "gevangenisstraf",
+    "gestraft",
+    "wapens",
+    "weerspannigheid gepleegd",
+    "wapens gepleegd"
+  ],
+  "Art. 271bis": [
+    "weerspannigheid",
+    "gevangenisstraf",
+    "ongeschiktheid",
+    "gestraft",
+    "wapen gestraft",
+    "weerspannigheid gepleegd",
+    "wordt weerspannigheid"
+  ],
+  "Art. 272": [
+    "weerspannigheid",
+    "weerspannigen",
+    "gestraft",
+    "gevangenisstraf",
+    "weerspannigheid gepleegd",
+    "de weerspannigheid"
+  ],
+  "Art. 272bis": [
+    "weerspannigheid",
+    "ongeschiktheid",
+    "inwerkingtreding",
+    "verzwarende",
+    "weerspannigheid gepleegd",
+    "is weerspannigheid",
+    "verzwarende factor"
+  ],
+  "Art. 273": [
+    "weerspannigheid",
+    "weerspannigen",
+    "toepasselijk",
+    "samenscholing",
+    "de weerspannigheid",
+    "weerspannigheid in"
+  ],
+  "Art. 274": [
+    "weerspannigheid",
+    "gevangenisstraf",
+    "schuldigen",
+    "geweld",
+    "de weerspannigheid",
+    "weerspannigheid wordt",
+    "weerspannigheid en"
+  ],
+  "Art. 275": [
+    "gestraft",
+    "gevangenisstraf",
+    "mandaat",
+    "smaad",
+    "wordt gestraft",
+    "wetgevende kamers",
+    "gestraft hij"
+  ],
+  "Art. 276": [
+    "gestraft",
+    "gevangenisstraf",
+    "bedreigingen",
+    "smaad",
+    "gestraft met",
+    "wordt gestraft"
+  ],
+  "Art. 277": [
+    "gestraft",
+    "smaad",
+    "dezelfde",
+    "gestelde",
+    "smaad tegen",
+    "gestelde lichamen",
+    "gepleegd wordt"
+  ],
+  "Art. 278": [
+    "gestraft",
+    "gevangenisstraf",
+    "slagen",
+    "toegebracht",
+    "wordt gestraft",
+    "gestraft met",
+    "slagen worden"
+  ],
+  "Art. 279": [
+    "gevangenisstraf",
+    "bloedstorting",
+    "slagen",
+    "veroordeeld",
+    "bloedstorting verwonding",
+    "toegebrachte slagen",
+    "slagen bloedstorting"
+  ],
+  "Art. 279bis": [
+    "gestraft",
+    "slagen",
+    "gewelddaden",
+    "opsluiting",
+    "slagen worden",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 280": [
+    "gevangenisstraf",
+    "straffen",
+    "misdaad",
+    "straf",
+    "straffen gevangenisstraf",
+    "straf levenslange",
+    "de straffen"
+  ],
+  "Art. 282": [
+    "straffen",
+    "geslagen",
+    "getuigen",
+    "gezworenen",
+    "bepaalde straffen",
+    "straffen zijn",
+    "zijn toepasselijk"
+  ],
+  "Art. 283": [
+    "zegels",
+    "gestraft",
+    "gevangenisstraf",
+    "bewaarders",
+    "wanneer zegels",
+    "bewaarders wegens",
+    "nalatigheid gestraft"
+  ],
+  "Art. 284": [
+    "verzegeling",
+    "gevangenisstraf",
+    "gestraft",
+    "zegels",
+    "zegels verbreekt",
+    "opzettelijk zegels",
+    "wordt gestraft"
+  ],
+  "Art. 285": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "veroordeeld",
+    "bewaarder gestraft",
+    "levenslange hechtenis",
+    "verbroken zegels",
+    "hechtenis opsluiting"
+  ],
+  "Art. 286": [
+    "verzegeling",
+    "gestraft",
+    "gevangenisstraf",
+    "zegels",
+    "zegels verbreekt",
+    "opzettelijk zegels",
+    "wordt gestraft"
+  ],
+  "Art. 287": [
+    "zegelverbreking",
+    "gevangenisstraf",
+    "gestraft",
+    "geweld",
+    "zodanige zegelverbreking",
+    "zegelverbreking wordt",
+    "de zegelverbreking"
+  ],
+  "Art. 288": [
+    "inwerkingtreding",
+    "284",
+    "belemmering",
+    "286",
+    "tot geldboete",
+    "tweeduizend euro",
+    "artikelen 284",
+    "inwerkingtreding 01"
+  ],
+  "Art. 289": [
+    "gestraft",
+    "gevangenisstraf",
+    "machtiging",
+    "overheid",
+    "wordt gestraft",
+    "overheid bevel"
+  ],
+  "Art. 290": [
+    "gevangenisstraf",
+    "samenscholing",
+    "gestraft",
+    "bedreigingen",
+    "worden gestraft"
+  ],
+  "Art. 291": [
+    "schuldigen",
+    "misdaden",
+    "veroordeeld",
+    "inwerkingtreding",
+    "vijfhonderd euro",
+    "zesentwintig euro",
+    "tot geldboete",
+    "tot vijfhonderd"
+  ],
+  "Art. 292": [
+    "gestraft",
+    "leveringen",
+    "mislukken",
+    "inwerkingtreding",
+    "straffen worden",
+    "worden gestraft",
+    "dienst opzettelijk"
+  ],
+  "Art. 293": [
+    "aangestelde",
+    "opsluiting",
+    "schuldigen",
+    "veroordeeld",
+    "openbare ambtenaren",
+    "bezoldigde agenten",
+    "aangestelde of",
+    "schuldigen aanzetten"
+  ],
+  "Art. 294": [
+    "gestraft",
+    "gevangenisstraf",
+    "nalatigheid",
+    "schuldigen",
+    "schuldigen gestraft",
+    "gestraft met"
+  ],
+  "Art. 295": [
+    "vertraging",
+    "gevangenisstraf",
+    "vertraagd",
+    "gestraft",
+    "worden vertraagd",
+    "vertraging het"
+  ],
+  "Art. 296": [
+    "vervolging",
+    "aangifte",
+    "minister",
+    "294",
+    "verschillende gevallen",
+    "vervolging niet",
+    "artikelen 294"
+  ],
+  "Art. 297": [
+    "bedrog",
+    "gevangenisstraf",
+    "gestraft",
+    "schuldigen",
+    "bedrog gepleegd",
+    "schuldigen gestraft"
+  ],
+  "Art. 298": [
+    "gevangenisstraf",
+    "bedrog",
+    "gestraft",
+    "ambtenaren",
+    "openbare ambtenaren",
+    "bezoldigde agenten",
+    "bedrog deelnemen",
+    "worden gestraft"
+  ],
+  "Art. 299": [
+    "drukwerk",
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "gevangenisstraf kan",
+    "wordt gestraft",
+    "die straffen"
+  ],
+  "Art. 300": [
+    "gedrukte",
+    "verspreiders",
+    "aanplakkers",
+    "overtreding",
+    "omroepers aanplakkers",
+    "gedrukte stuk"
+  ],
+  "Art. 301": [
+    "loterijen",
+    "aangeboden",
+    "lot",
+    "verrichtingen",
+    "loterijen worden",
+    "als loterijen",
+    "aangeboden worden",
+    "publiek aangeboden"
+  ],
+  "Art. 302": [
+    "gestraft",
+    "loterij",
+    "gevangenisstraf",
+    "loterijen",
+    "toegelaten loterijen",
+    "loterijen worden",
+    "loterij is",
+    "loterij ingelegd"
+  ],
+  "Art. 303": [
+    "loterijbriefjes",
+    "aanplakbiljetten",
+    "gestraft",
+    "gevangenisstraf",
+    "loterijbriefjes bevorderen",
+    "loterijen plaatsen",
+    "de loterijbriefjes"
+  ],
+  "Art. 304": [
+    "aanplakkers",
+    "omroepers",
+    "straffen",
+    "gekregen",
+    "omroepers en",
+    "voormelde briefjes",
+    "aanplakkers die",
+    "geschriften gekregen"
+  ],
+  "Art. 306": [
+    "gestraft",
+    "gevangenisstraf",
+    "pandhuis",
+    "vergunning",
+    "pandhuis houden",
+    "een pandhuis",
+    "worden gestraft"
+  ],
+  "Art. 307": [
+    "gestraft",
+    "gevangenisstraf",
+    "vergunning",
+    "straffen",
+    "die straffen",
+    "register houden",
+    "vergunning hebben"
+  ],
+  "Art. 308": [
+    "gestraft",
+    "gevangenisstraf",
+    "barmhartigheid",
+    "misdrijven",
+    "gestraft 2000",
+    "worden gestraft"
+  ],
+  "Art. 309": [
+    "gevangenisstraf",
+    "gestraft",
+    "geheimen",
+    "bedrieglijk",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 311": [
+    "gestraft",
+    "gevangenisstraf",
+    "bedrieglijk",
+    "bewerken",
+    "worden gestraft",
+    "bedrieglijk middel",
+    "gestraft met"
+  ],
+  "Art. 312": [
+    "gestraft",
+    "inwerkingtreding",
+    "rechten",
+    "provinciegouverneur",
+    "straffen bij",
+    "ieder bevelhebber",
+    "wordt gestraft"
+  ],
+  "Art. 313": [
+    "plundering",
+    "gestraft",
+    "gevangenisstraf",
+    "samenscholing",
+    "worden gestraft",
+    "om plundering"
+  ],
+  "Art. 314": [
+    "gestraft",
+    "gevangenisstraf",
+    "vrijgesteld",
+    "straffen",
+    "worden gestraft"
+  ],
+  "Art. 314bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "communicatie",
+    "met gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 315": [
+    "begraving",
+    "gestraft",
+    "gevangenisstraf",
+    "begravingen",
+    "vervroegde begravingen",
+    "begraving verrichten",
+    "gestraft 2000"
+  ],
+  "Art. 316": [
+    "gestraft",
+    "gezworenen",
+    "vrijgesteld",
+    "antwoorden",
+    "een geldboete",
+    "valse verklaring",
+    "wordt gestraft"
+  ],
+  "Art. 316bis": [
+    "gestraft",
+    "vrijgestelde",
+    "assisen",
+    "inwerkingtreding",
+    "een geldboete",
+    "vrijgestelde gezworene",
+    "wordt gestraft"
+  ],
+  "Art. 318": [
+    "iii",
+    "1933",
+    "afdeling",
+    "afdeling iii",
+    "iii misdrijven",
+    "03 1933",
+    "opgeheven 03"
+  ],
+  "Art. 321": [
+    "misdaden",
+    "inwerkingtreding",
+    "veiligheid",
+    "criminele",
+    "veiligheid hoofdstuk",
+    "misdaden en",
+    "vi misdaden"
+  ],
+  "Art. 322": [
+    "wanbedrijf",
+    "aanslag",
+    "vereniging",
+    "misdaad",
+    "een wanbedrijf",
+    "een misdaad",
+    "een aanslag",
+    "misdaad of"
+  ],
+  "Art. 323": [
+    "gestraft",
+    "gevangenisstraf",
+    "vereniging",
+    "wanbedrijven",
+    "worden gestraft",
+    "levenslange opsluiting",
+    "met gevangenisstraf"
+  ],
+  "Art. 324": [
+    "gevangenisstraf",
+    "gestraft",
+    "misdaden",
+    "wapens",
+    "worden gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 324bis": [
+    "organisatie",
+    "criminele",
+    "criminale",
+    "criminale organisatie",
+    "criminele organisatie",
+    "een organisatie"
+  ],
+  "Art. 324ter": [
+    "gevangenisstraf",
+    "intimidatie",
+    "misdrijven",
+    "misdrijf",
+    "criminele organisatie",
+    "intimidatie bedreiging",
+    "bedreiging geweld",
+    "die straffen"
+  ],
+  "Art. 325": [
+    "rechten",
+    "schuldigen",
+    "gevangenisstraf",
+    "323",
+    "gevangenisstraf worden",
+    "artikel 33",
+    "artikelen 323"
+  ],
+  "Art. 326": [
+    "bedreigingen",
+    "schuldigen",
+    "misdaden",
+    "straffen",
+    "bepaalde straffen",
+    "blijven vrij",
+    "ii bedreigingen"
+  ],
+  "Art. 327": [
+    "bedreigt",
+    "gevangenisstraf",
+    "gestraft",
+    "voorwaarde",
+    "bedreigt met",
+    "straf gesteld",
+    "voorwaarde bedreigt"
+  ],
+  "Art. 328": [
+    "gevangenisstraf",
+    "gestraft",
+    "aanslag",
+    "straf",
+    "straf gesteld",
+    "bericht geeft",
+    "vals bericht"
+  ],
+  "Art. 328bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "gevaarlijk",
+    "aanslag",
+    "een gevangenisstraf",
+    "waarop gevangenisstraf",
+    "gestraft met"
+  ],
+  "Art. 329": [
+    "bedreigt",
+    "gevangenisstraf",
+    "gestraft",
+    "aanslag",
+    "straf gesteld",
+    "bedreigt met",
+    "met gevangenisstraf"
+  ],
+  "Art. 330": [
+    "bedreigt",
+    "gevangenisstraf",
+    "gestraft",
+    "voorwaarde",
+    "bedreigt met",
+    "waarop gevangenisstraf",
+    "voorwaarde bedreigt"
+  ],
+  "Art. 330bis": [
+    "bedreigd",
+    "aanslag",
+    "inlichtingen",
+    "minimum",
+    "aanslag worden",
+    "straffen verdubbeld",
+    "bepaalde straffen",
+    "aanslag wordt"
+  ],
+  "Art. 331": [
+    "rechten",
+    "schuldige",
+    "327",
+    "veroordeeld",
+    "artikel 33",
+    "artikel 327",
+    "art 32",
+    "rechten overeenkomstig"
+  ],
+  "Art. 331bis": [
+    "radioactieve",
+    "gestraft",
+    "radioactief",
+    "dreigt radioactief",
+    "radioactief materiaal",
+    "of radioactieve",
+    "wordt gestraft"
+  ],
+  "Art. 332": [
+    "gevangenisstraf",
+    "gevangenis",
+    "gestraft",
+    "ontsnappen",
+    "de gevangenisstraf",
+    "voorlopige hechtenis",
+    "gevangenisstraf of"
+  ],
+  "Art. 333": [
+    "medeplichtige",
+    "misdrijf",
+    "gevangenisstraf",
+    "gestraft",
+    "misdrijf wordt",
+    "medeplichtige aan",
+    "de medeplichtige"
+  ],
+  "Art. 334": [
+    "ontsnapping",
+    "ontsnapte",
+    "misdrijven",
+    "inwerkingtreding",
+    "ontsnapte persoon",
+    "ontsnapping spontaan",
+    "ontsnapping gebeurde"
+  ],
+  "Art. 335": [
+    "toezichtsmateriaal",
+    "elektronisch",
+    "toezicht",
+    "gestraft",
+    "elektronisch toezichtsmateriaal",
+    "elektronisch toezicht",
+    "elektronische middelen"
+  ],
+  "Art. 337bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "gevangenis",
+    "inwerkingtreding",
+    "een gevangenisstraf",
+    "een geldboete",
+    "wordt gestraft"
+  ],
+  "Art. 339": [
+    "gevangenisstraf",
+    "gestraft",
+    "verbergen",
+    "vervolgd",
+    "wordt gestraft",
+    "personen verbergt"
+  ],
+  "Art. 340": [
+    "gevangenisstraf",
+    "gestraft",
+    "lijk",
+    "wegmaakt",
+    "wordt gestraft",
+    "het lijk",
+    "gestraft met"
+  ],
+  "Art. 341": [
+    "bloedverwanten",
+    "medeplichtigen",
+    "aanverwanten",
+    "verwondingen",
+    "bloedverwanten in",
+    "aanverwanten in",
+    "de bloedverwanten"
+  ],
+  "Art. 347": [
+    "opgeheven",
+    "vibis",
+    "misdaden",
+    "inwerkingtreding",
+    "titel vibis",
+    "vibis misdaden",
+    "misdaden met",
+    "inwerkingtreding 01"
+  ],
+  "Art. 347bis": [
+    "gijzeling",
+    "gevangenhouding",
+    "vrijlating",
+    "aanhouding",
+    "gijzeling is",
+    "gijzeling wordt",
+    "gevangenhouding of"
+  ],
+  "Art. 348": [
+    "vruchtafdrijving",
+    "gestraft",
+    "inwerkingtreding",
+    "misdrijf",
+    "opzettelijk vruchtafdrijving",
+    "vruchtafdrijving veroorzaakt",
+    "wordt gestraft"
+  ],
+  "Art. 349": [
+    "vruchtafdrijving",
+    "gevangenisstraf",
+    "gestraft",
+    "afdrijving",
+    "de vruchtafdrijving",
+    "vruchtafdrijving wordt"
+  ],
+  "Art. 352": [
+    "vruchtafdrijving",
+    "veroordeeld",
+    "misdrijf",
+    "inwerkingtreding",
+    "om vruchtafdrijving",
+    "vruchtafdrijving te",
+    "veroordeeld tot"
+  ],
+  "Art. 353": [
+    "inwerkingtreding",
+    "opgeheven",
+    "hoofdstuk",
+    "002",
+    "opgeheven 2000",
+    "002 inwerkingtreding",
+    "hoofdstuk ii",
+    "inwerkingtreding 15"
+  ],
+  "Art. 360bis": [
+    "misdaden",
+    "inwerkingtreding",
+    "burgerlijke",
+    "opgeheven",
+    "iii misdaden",
+    "hoofdstuk iii",
+    "burgerlijke staat"
+  ],
+  "Art. 361": [
+    "burgerlijk",
+    "gevangenisstraf",
+    "gestraft",
+    "burgerlijke",
+    "burgerlijk wetboek",
+    "burgerlijke stand",
+    "die straffen"
+  ],
+  "Art. 362": [
+    "gestraft",
+    "straffen",
+    "burgerlijk",
+    "hulpdiensten",
+    "straffen bij",
+    "kind gevonden",
+    "wordt gestraft"
+  ],
+  "Art. 363": [
+    "gestraft",
+    "gevangenisstraf",
+    "burgerlijke",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "straf wordt",
+    "met gevangenisstraf"
+  ],
+  "Art. 367": [
+    "inwerkingtreding",
+    "opgeheven",
+    "hoofdstuk",
+    "hoofdstuk iv",
+    "opgeheven 2000",
+    "029 inwerkingtreding",
+    "2001 hoofdstuk"
+  ],
+  "Art. 371": [
+    "voyeurisme",
+    "inwerkingtreding",
+    "opgeheven",
+    "hoofdstuk voyeurisme",
+    "voyeurisme niet",
+    "inwerkingtreding 01"
+  ],
+  "Art. 380quater": [
+    "nummering",
+    "afgeschaft",
+    "verandering",
+    "inwerkingtreding",
+    "nummering 2000",
+    "afgeschaft bij",
+    "029 inwerkingtreding"
+  ],
+  "Art. 380quinquies": [
+    "nummering",
+    "afgeschaft",
+    "verandering",
+    "inwerkingtreding",
+    "nummering 2000",
+    "afgeschaft bij",
+    "029 inwerkingtreding"
+  ],
+  "Art. 381bis": [
+    "nummering",
+    "afgeschaft",
+    "verandering",
+    "inwerkingtreding",
+    "nummering 2000",
+    "afgeschaft bij",
+    "029 inwerkingtreding"
+  ],
+  "Art. 386bis": [
+    "nummering",
+    "afgeschaft",
+    "verandering",
+    "inwerkingtreding",
+    "nummering 2000",
+    "afgeschaft bij",
+    "029 inwerkingtreding"
+  ],
+  "Art. 386ter": [
+    "nummering",
+    "afgeschaft",
+    "verandering",
+    "inwerkingtreding",
+    "nummering 2000",
+    "afgeschaft bij",
+    "029 inwerkingtreding"
+  ],
+  "Art. 389.": [
+    "hoofdstuk",
+    "inwerkingtreding",
+    "2000",
+    "huwelijk",
+    "2000 11",
+    "inwerkingtreding 27",
+    "art 27"
+  ],
+  "Art. 391": [
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "huwelijk",
+    "ander huwelijk",
+    "huwelijk verbonden",
+    "huwelijk aangaat",
+    "wordt gestraft"
+  ],
+  "Art. 391bis": [
+    "uitkering",
+    "gestraft",
+    "gevangenisstraf",
+    "verplichtingen",
+    "een uitkering",
+    "uitkering tot",
+    "straffen wordt"
+  ],
+  "Art. 391ter": [
+    "oproeping",
+    "opgeroepen",
+    "inwerkingtreding",
+    "gebreke",
+    "oproeping geschiedt",
+    "worden opgeroepen",
+    "opgeroepen op"
+  ],
+  "Art. 391quater": [
+    "adoptie",
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "straffen worden",
+    "deze straffen",
+    "een gevangenisstraf"
+  ],
+  "Art. 391quinquies": [
+    "gevangenisstraf",
+    "adoptie",
+    "gestraft",
+    "adoptiedienst",
+    "een gevangenisstraf",
+    "wettelijke samenwoning"
+  ],
+  "Art. 391sexies": [
+    "gevangenisstraf",
+    "gestraft",
+    "huwelijk",
+    "met gevangenisstraf",
+    "wordt gestraft",
+    "dwingt een"
+  ],
+  "Art. 391septies": [
+    "gevangenisstraf",
+    "gestraft",
+    "samenwoning",
+    "wettelijke samenwoning",
+    "dwingt een",
+    "met gevangenisstraf"
+  ],
+  "Art. 391octies": [
+    "wettelijk",
+    "tegengeworpen",
+    "veroordeling",
+    "tussenkomst",
+    "wettelijk samenwonenden",
+    "wettelijk samenwonende",
+    "wettelijke samenwoning",
+    "veroordeling uitspreekt"
+  ],
+  "Art. 392": [
+    "opzettelijk",
+    "toebrengen",
+    "aanranding",
+    "worden",
+    "opzettelijk worden",
+    "aanranding is"
+  ],
+  "Art. 392bis": [
+    "adoptanten",
+    "adoptie",
+    "ouders",
+    "adoptanten bedoeld",
+    "adoptanten en",
+    "de adoptanten"
+  ],
+  "Art. 393": [
+    "doodslag",
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "doodslag genoemd",
+    "wordt doodslag",
+    "wordt gestraft"
+  ],
+  "Art. 393bis": [
+    "aangesteld",
+    "doodslag",
+    "gezondheidsberoepen",
+    "chauffeur",
+    "een gezondheidszorgberoep",
+    "gezondheidsberoepen een",
+    "gezondheidszorgberoep uitoefent",
+    "de gezondheidsberoepen"
+  ],
+  "Art. 394": [
+    "doodslag",
+    "gestraft",
+    "voorbedachten",
+    "moord",
+    "moord genoemd",
+    "doodslag met",
+    "voorbedachten rade",
+    "wordt gestraft"
+  ],
+  "Art. 395": [
+    "oudermoord",
+    "doodslag",
+    "gestraft",
+    "opsluiting",
+    "oudermoord genoemd",
+    "wordt oudermoord",
+    "doodslag op"
+  ],
+  "Art. 396": [
+    "kindermoord",
+    "doodslag",
+    "moord",
+    "geboorte",
+    "kindermoord genoemd",
+    "wordt kindermoord",
+    "genoemd kindermoord",
+    "kindermoord wordt"
+  ],
+  "Art. 397": [
+    "vergiftiging",
+    "doodslag",
+    "gestraft",
+    "vergiftiging wordt",
+    "doodslag gepleegd",
+    "wordt gestraft"
+  ],
+  "Art. 397bis": [
+    "misdrijf",
+    "toebrengen",
+    "minderjarige",
+    "maatregel",
+    "misdrijf omschreven",
+    "lichamelijk letsel",
+    "minderjarige ingevoegd",
+    "een misdrijf"
+  ],
+  "Art. 398": [
+    "gestraft",
+    "gevangenisstraf",
+    "verwondingen",
+    "straffen",
+    "opzettelijk verwondingen",
+    "gestraft met",
+    "wordt gestraft"
+  ],
+  "Art. 399": [
+    "gestraft",
+    "gevangenisstraf",
+    "slagen",
+    "verwondingen",
+    "gestraft met",
+    "schuldige gestraft",
+    "wordt gestraft"
+  ],
+  "Art. 400": [
+    "gevangenisstraf",
+    "ongeschiktheid",
+    "is gevangenisstraf",
+    "gevangenisstraf van",
+    "straf is"
+  ],
+  "Art. 401": [
+    "gestraft",
+    "gewelddaden",
+    "slagen",
+    "opzettelijk",
+    "verwondingen opzettelijk",
+    "gewelddaden met",
+    "schuldige gestraft",
+    "wordt gestraft"
+  ],
+  "Art. 402": [
+    "gevangenisstraf",
+    "gestraft",
+    "ongeschiktheid",
+    "ziekte",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 403": [
+    "ongeschiktheid",
+    "dan",
+    "orgaan",
+    "ongeschiktheid tot",
+    "vijf jaar",
+    "straf is"
+  ],
+  "Art. 404": [
+    "gestraft",
+    "opzettelijk",
+    "opsluiting",
+    "inwerkingtreding",
+    "stoffen opzettelijk",
+    "opzettelijk worden",
+    "gestraft met",
+    "dood veroorzaken"
+  ],
+  "Art. 405": [
+    "gevangenisstraf",
+    "gestraft",
+    "inwerkingtreding",
+    "gestraft met",
+    "met gevangenisstraf"
+  ],
+  "Art. 405bis": [
+    "gevangenisstraf",
+    "straffen",
+    "misdaad",
+    "minderjarige",
+    "straffen gevangenisstraf",
+    "de straffen",
+    "straffen de"
+  ],
+  "Art. 405ter": [
+    "minderjarige",
+    "minimum",
+    "misdaad",
+    "bij",
+    "minderjarige of",
+    "een minderjarige"
+  ],
+  "Art. 405quater": [
+    "straffen",
+    "drijfveren",
+    "een",
+    "geaardheid",
+    "haat tegen",
+    "de straffen",
+    "drijfveren van",
+    "straffen de"
+  ],
+  "Art. 406": [
+    "gevangenisstraf",
+    "gestraft",
+    "verkeer",
+    "vervoermiddelen",
+    "vervoermiddelen gevaarlijk",
+    "met gevangenisstraf"
+  ],
+  "Art. 407": [
+    "verwondingen",
+    "veroordeeld",
+    "opsluiting",
+    "inwerkingtreding",
+    "verwondingen betreft",
+    "veroordeeld tot",
+    "het verwondingen"
+  ],
+  "Art. 408": [
+    "gestraft",
+    "opsluiting",
+    "schuldige",
+    "inwerkingtreding",
+    "iemands dood",
+    "schuldige gestraft",
+    "gestraft met"
+  ],
+  "Art. 409": [
+    "genitaliën",
+    "gevangenisstraf",
+    "gestraft",
+    "verminking",
+    "verminking uitgevoerd",
+    "straf wordt",
+    "wordt gestraft",
+    "verminking van"
+  ],
+  "Art. 410": [
+    "minimumstraf",
+    "maximumstraf",
+    "misdaad",
+    "gevangenisstraf",
+    "maximumstraf in",
+    "de maximumstraf",
+    "de minimumstraf"
+  ],
+  "Art. 410bis": [
+    "politiediensten",
+    "misdaad",
+    "inwerkingtreding",
+    "vervoer",
+    "wanbedrijf gepleegd",
+    "gezondheidszorgberoep uitoefent",
+    "misdaad of"
+  ],
+  "Art. 410ter": [
+    "misdaad",
+    "verhoogd",
+    "straf",
+    "scheidsrechter",
+    "straf verhoogd",
+    "bepaalde straf",
+    "straf met",
+    "die straf"
+  ],
+  "Art. 411": [
+    "gewelddaden",
+    "doodslag",
+    "slagen",
+    "verschoonbaar",
+    "doodslag verwondingen",
+    "zware gewelddaden",
+    "zijn verschoonbaar",
+    "slagen zijn"
+  ],
+  "Art. 412": [
+    "misdaden",
+    "wanbedrijven",
+    "verschoonbaar",
+    "beklimming",
+    "gepleegd worden",
+    "eveneens verschoonbaar",
+    "wanbedrijven in"
+  ],
+  "Art. 414": [
+    "maximumstraf",
+    "gevangenisstraf",
+    "twee",
+    "misdaad",
+    "straf verminderd",
+    "een maximumstraf",
+    "maximumstraf van"
+  ],
+  "Art. 415": [
+    "opgeheven",
+    "slagen",
+    "doodslag",
+    "inwerkingtreding",
+    "2001 afdeling",
+    "gerechtvaardigde slagen",
+    "doodslag gerechtvaardigde",
+    "gerechtvaardigde verwondingen"
+  ],
+  "Art. 416": [
+    "wanbedrijf",
+    "verwondingen",
+    "verdediging",
+    "misdaad",
+    "wettige verdediging",
+    "noch wanbedrijf",
+    "noch misdaad"
+  ],
+  "Art. 417": [
+    "verdedigen",
+    "verdediging",
+    "doodslag",
+    "plundering",
+    "zich verdedigen",
+    "verdediging worden",
+    "verdedigen tegen",
+    "gevallen begrepen"
+  ],
+  "Art. 417/1": [
+    "foltering",
+    "behandeling",
+    "krenking",
+    "lijden",
+    "onterende behandeling",
+    "onmenselijke behandeling"
+  ],
+  "Art. 417/2": [
+    "foltering",
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "aan foltering",
+    "foltering onderwerpt",
+    "wordt gestraft"
+  ],
+  "Art. 417/3": [
+    "gestraft",
+    "onmenselijke",
+    "behandeling",
+    "misdrijf",
+    "onmenselijke behandeling",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 417/4": [
+    "behandeling",
+    "minimumstraf",
+    "gestraft",
+    "onterende",
+    "onterende behandeling",
+    "behandeling wordt",
+    "de minimumstraf"
+  ],
+  "Art. 417/4/1": [
+    "misdrijven",
+    "inhoud",
+    "inwerkingtreding",
+    "misdrijf",
+    "inwerkingtreding 01",
+    "hoofdstuk misdrijven",
+    "verkrachting ingevoegd",
+    "minderjarige ingevoegd"
+  ],
+  "Art. 417/5": [
+    "toestemming",
+    "zelfbeschikkingsrecht",
+    "seksuele",
+    "seksueel",
+    "zelfbeschikkingsrecht toestemming",
+    "toestemming is",
+    "toestemming kan",
+    "toestemming veronderstelt"
+  ],
+  "Art. 417/6": [
+    "leeftijdsverschil",
+    "minderjarige",
+    "leeftijd",
+    "minderjarigen",
+    "minderjarige kan",
+    "minderjarige onder",
+    "onderlinge leeftijdsverschil",
+    "leeftijdsverschil met"
+  ],
+  "Art. 417/7": [
+    "aantasting",
+    "inwerkingtreding",
+    "integriteit",
+    "misbruik",
+    "integriteit aantasting",
+    "seksuele integriteit",
+    "seksuele handeling",
+    "aantasting bestaat"
+  ],
+  "Art. 417/8": [
+    "voyeurisme",
+    "geobserveerd",
+    "observeren",
+    "voyeurisme is",
+    "voyeurisme voyeurisme",
+    "persoon ontbloot"
+  ],
+  "Art. 417/9": [
+    "verspreiden",
+    "verspreiding",
+    "bestraft",
+    "consensuele",
+    "consensuele verspreiding",
+    "seksueel getinte",
+    "niet consensuele"
+  ],
+  "Art. 417/10": [
+    "verspreiden",
+    "verspreiding",
+    "bestraft",
+    "winstbejag",
+    "consensuele verspreiding",
+    "kwaadwillig opzet",
+    "verspreiden van"
+  ],
+  "Art. 417/11": [
+    "verkrachting",
+    "bestraft",
+    "misdrijf",
+    "misdrijven",
+    "verkrachting is",
+    "verkrachting verkrachting",
+    "misdrijf wordt"
+  ],
+  "Art. 417/12": [
+    "verkrachting",
+    "bestraft",
+    "inwerkingtreding",
+    "seksuele",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "verkrachting wordt"
+  ],
+  "Art. 417/13": [
+    "verkrachting",
+    "bestraft",
+    "zwangerschapsafbreking",
+    "foltering",
+    "bestraft aantasting",
+    "verkrachting wordt",
+    "seksuele handelingen"
+  ],
+  "Art. 417/14": [
+    "verkrachting",
+    "bestraft",
+    "inwerkingtreding",
+    "bestraft aantasting",
+    "verkrachting wordt",
+    "seksuele handelingen",
+    "wordt bestraft"
+  ],
+  "Art. 417/15": [
+    "bestraft",
+    "voyeurisme",
+    "seksuele",
+    "seksueel",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "consensuele seksuele",
+    "wordt bestraft"
+  ],
+  "Art. 417/16": [
+    "bestraft",
+    "voyeurisme",
+    "seksuele",
+    "minderjarige",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "consensuele seksuele",
+    "wordt bestraft"
+  ],
+  "Art. 417/17": [
+    "bestraft",
+    "voyeurisme",
+    "leeftijd",
+    "seksuele",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "consensuele seksuele",
+    "wordt bestraft"
+  ],
+  "Art. 417/18": [
+    "incest",
+    "bestraft",
+    "voyeurisme",
+    "minderjarige",
+    "incest onder",
+    "incest wordt",
+    "onder incest"
+  ],
+  "Art. 417/19": [
+    "intrafamiliale",
+    "bestraft",
+    "seksuele",
+    "voyeurisme",
+    "intrafamiliale seksuele",
+    "seksuele handelingen",
+    "consensuele intrafamiliale"
+  ],
+  "Art. 417/20": [
+    "discriminerende",
+    "geslachtsverandering",
+    "drijfveren",
+    "seksuele",
+    "discriminerende drijfveer",
+    "seksuele handelingen",
+    "een discriminerende"
+  ],
+  "Art. 417/21": [
+    "bestraft",
+    "voyeurisme",
+    "seksuele",
+    "vertrouwenspositie",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "consensuele seksuele",
+    "wordt bestraft"
+  ],
+  "Art. 417/22": [
+    "voyeurisme",
+    "bestraft",
+    "verkrachting",
+    "seksuele",
+    "bestraft aantasting",
+    "seksuele handelingen",
+    "consensuele seksuele",
+    "wordt bestraft"
+  ],
+  "Art. 417/23": [
+    "verzwarende",
+    "misdrijf",
+    "seksuele",
+    "factoren bij",
+    "verzwarende factoren",
+    "seksuele handelingen",
+    "een bloedverwant"
+  ],
+  "Art. 417/24": [
+    "benaderen",
+    "minderjarige",
+    "misdrijf",
+    "minderjarigen",
+    "minderjarige voor",
+    "minderjarige een",
+    "benaderen van"
+  ],
+  "Art. 417/25": [
+    "prostitutie",
+    "minderjarige",
+    "ontucht",
+    "opwekken",
+    "minderjarige opwekken",
+    "prostitutie bewegen",
+    "prostitutie is",
+    "of prostitutie"
+  ],
+  "Art. 417/26": [
+    "minderjarige",
+    "leeftijd",
+    "prostitutie",
+    "bestraft",
+    "prostitutie bewegen",
+    "prostitutie wordt",
+    "minderjarige beneden"
+  ],
+  "Art. 417/27": [
+    "aanwerven",
+    "minderjarige",
+    "prostitutie",
+    "ontucht",
+    "prostitutie werven",
+    "minderjarige voor",
+    "prostitutie is"
+  ],
+  "Art. 417/28": [
+    "minderjarige",
+    "prostitutie",
+    "leeftijd",
+    "bestraft",
+    "prostitutie bestraft",
+    "geldboete wordt",
+    "leeftijd van",
+    "of prostitutie"
+  ],
+  "Art. 417/29": [
+    "prostitutie",
+    "ontucht",
+    "minderjarige",
+    "bestraft",
+    "of prostitutie",
+    "minderjarige ontucht",
+    "geldboete wordt"
+  ],
+  "Art. 417/30": [
+    "prostitutie",
+    "minderjarige",
+    "leeftijd",
+    "bestraft",
+    "geldboete wordt",
+    "of prostitutie",
+    "prostitutie waar"
+  ],
+  "Art. 417/31": [
+    "prostitutie",
+    "minderjarige",
+    "ontucht",
+    "bij",
+    "prostitutie is",
+    "minderjarige mogelijk",
+    "of prostitutie"
+  ],
+  "Art. 417/32": [
+    "prostitutie",
+    "minderjarige",
+    "leeftijd",
+    "bestraft",
+    "geldboete wordt",
+    "prostitutie wordt",
+    "of prostitutie"
+  ],
+  "Art. 417/33": [
+    "prostitutie",
+    "exploitatie",
+    "minderjarige",
+    "exploiteren",
+    "minderjarige exploitatie",
+    "of prostitutie",
+    "geldboete wordt"
+  ],
+  "Art. 417/34": [
+    "prostitutie",
+    "leeftijd",
+    "minderjarige",
+    "exploitatie",
+    "of prostitutie",
+    "geldboete wordt",
+    "leeftijd van"
+  ],
+  "Art. 417/35": [
+    "prostitutie",
+    "ontucht",
+    "minderjarige",
+    "minderjarige verkrijgen",
+    "geldboete wordt",
+    "de prostitutie"
+  ],
+  "Art. 417/36": [
+    "prostitutie",
+    "minderjarige",
+    "leeftijd",
+    "bestraft",
+    "geldboete wordt",
+    "leeftijd van",
+    "de prostitutie"
+  ],
+  "Art. 417/37": [
+    "misdrijf",
+    "bestraft",
+    "prostitutie",
+    "minderjarige",
+    "misdrijf bestraft",
+    "misdrijf wordt",
+    "een vereniging"
+  ],
+  "Art. 417/38": [
+    "bijwonen",
+    "minderjarige",
+    "prostitutie",
+    "bestraft",
+    "minderjarige bijwonen",
+    "geldboete wordt",
+    "bijwonen van",
+    "minderjarige dit"
+  ],
+  "Art. 417/39": [
+    "prostitutie",
+    "reclame",
+    "reclamemiddel",
+    "minderjarig",
+    "minderjarige reclame",
+    "reclame maken",
+    "aan prostitutie",
+    "die reclame"
+  ],
+  "Art. 417/40": [
+    "reclame",
+    "prostitutie",
+    "bestraft",
+    "gevangenisstraf",
+    "reclame maken",
+    "het reclame",
+    "misdrijf bestraft",
+    "of prostitutie"
+  ],
+  "Art. 417/41": [
+    "prostitutie",
+    "reclamemiddel",
+    "reclame",
+    "minderjarige",
+    "reclamemiddel aanzetten",
+    "minderjarige tot",
+    "ontucht aanzetten"
+  ],
+  "Art. 417/42": [
+    "verbeurdverklaring",
+    "misdrijven",
+    "verbeurd",
+    "misdrijf",
+    "verbeurdverklaring wordt",
+    "verbeurd verklaard",
+    "deze verbeurdverklaring"
+  ],
+  "Art. 417/43": [
+    "misbruik",
+    "minderjarige",
+    "minderjarigen",
+    "beelden",
+    "minderjarige uitziet",
+    "seksuele doeleinden",
+    "van minderjarigen",
+    "minderjarigen onder"
+  ],
+  "Art. 417/44": [
+    "misbruik",
+    "minderjarige",
+    "verspreiden",
+    "misdrijf",
+    "misbruik van",
+    "minderjarige dit",
+    "seksuele misbruik"
+  ],
+  "Art. 417/45": [
+    "misbruik",
+    "bestraft",
+    "misdrijf",
+    "verspreiden",
+    "misdrijf bestraft",
+    "een geldboete",
+    "misbruik van"
+  ],
+  "Art. 417/46": [
+    "misbruik",
+    "bestraft",
+    "misdrijf",
+    "gevangenisstraf",
+    "minderjarigen bezitten",
+    "misbruik van",
+    "minderjarigen is"
+  ],
+  "Art. 417/47": [
+    "misbruik",
+    "toegang",
+    "misdrijf",
+    "gevangenisstraf",
+    "misbruik van",
+    "seksueel misbruik",
+    "toegang verschaffen"
+  ],
+  "Art. 417/48": [
+    "hotlines",
+    "misbruik",
+    "rechtens",
+    "ontvangen",
+    "rechtens meldingen",
+    "rechtens ontvangen",
+    "ontvangen analyseren",
+    "internet hotlines"
+  ],
+  "Art. 417/49": [
+    "rechtvaardigingsgrond",
+    "leeftijd",
+    "minderjarigen",
+    "toestemming",
+    "rechtvaardigingsgrond geldt",
+    "wanneer minderjarigen",
+    "rechtvaardigingsgrond inzake"
+  ],
+  "Art. 417/50": [
+    "misdrijf",
+    "minderjarige",
+    "leeftijd",
+    "verzwarende",
+    "misdrijf bedoeld",
+    "minderjarige vanwege",
+    "een misdrijf",
+    "misdrijf werd"
+  ],
+  "Art. 417/51": [
+    "pornografische",
+    "pornografisch",
+    "extreem",
+    "gewelddadig",
+    "extreem pornografische"
+  ],
+  "Art. 417/52": [
+    "pornografische",
+    "gevangenisstraf",
+    "bestraft",
+    "minderjarige",
+    "extreem pornografische",
+    "pornografische of",
+    "minderjarige of"
+  ],
+  "Art. 417/53": [
+    "bestraft",
+    "exhibitionisme",
+    "gevangenisstraf",
+    "148",
+    "exhibitionisme is",
+    "wordt bestraft"
+  ],
+  "Art. 417/54": [
+    "bestraft",
+    "gevangenisstraf",
+    "minderjarige",
+    "wordt bestraft",
+    "bestraft met",
+    "met gevangenisstraf"
+  ],
+  "Art. 417/55": [
+    "misdrijf",
+    "minderjarige",
+    "leeftijd",
+    "verzwarende",
+    "misdrijf bedoeld",
+    "een misdrijf",
+    "misdrijf werd"
+  ],
+  "Art. 417/56": [
+    "weigeren",
+    "pornografische",
+    "verwijdering",
+    "weigering",
+    "weigeren technische",
+    "technische medewerking",
+    "beelden weigering"
+  ],
+  "Art. 417/57": [
+    "inrichting",
+    "sluiting",
+    "uitbater",
+    "inbreuken",
+    "inrichting bevelen",
+    "inrichting is"
+  ],
+  "Art. 417/58": [
+    "contactverbod",
+    "verblijven",
+    "vrijheidsstraf",
+    "verblijfs",
+    "verblijven of",
+    "verblijfs plaats",
+    "ontzetting opleggen",
+    "of contactverbod"
+  ],
+  "Art. 417/59": [
+    "ontzettingen",
+    "verbieden",
+    "veroordeelde",
+    "rechten",
+    "veroordeelde verbieden",
+    "verbieden tijdelijk",
+    "rechten bedoeld"
+  ],
+  "Art. 417/60": [
+    "inwerkingtreding",
+    "bestraft",
+    "gevangenisstraf",
+    "straffen",
+    "een straf",
+    "straf bestaande",
+    "overtreden van",
+    "die straffen"
+  ],
+  "Art. 417/61": [
+    "misdrijven",
+    "inwerkingtreding",
+    "straffen",
+    "samenloop",
+    "straffen bedoeld",
+    "de straffen",
+    "misdrijven die"
+  ],
+  "Art. 417/62": [
+    "overzending",
+    "rechterlijke",
+    "tuchtrechtelijk",
+    "beslissing",
+    "rechterlijke beslissing",
+    "een rechterlijke",
+    "overzending bevelen",
+    "rechter kan"
+  ],
+  "Art. 417/63": [
+    "publiceren",
+    "misdrijf",
+    "verspreiden",
+    "minderjarig",
+    "misdrijf zijn",
+    "het publiceren"
+  ],
+  "Art. 417/64": [
+    "advies",
+    "begeleiding",
+    "vervolgd",
+    "delinquenten",
+    "omkleed advies",
+    "advies inwinnen",
+    "het advies",
+    "advies van"
+  ],
+  "Art. 418": [
+    "onopzettelijk",
+    "schuldig",
+    "veroorzaakt",
+    "toebrengen",
+    "onopzettelijk toebrengen",
+    "onopzettelijk doden",
+    "kwaad veroorzaakt"
+  ],
+  "Art. 419": [
+    "gevangenisstraf",
+    "gestraft",
+    "misdrijf",
+    "veroorzaakt",
+    "dood veroorzaakt",
+    "iemands dood",
+    "wordt gestraft"
+  ],
+  "Art. 420": [
+    "gestraft",
+    "gevangenisstraf",
+    "verwondingen",
+    "voorzichtigheid",
+    "die straffen",
+    "gestraft met"
+  ],
+  "Art. 421": [
+    "gevangenisstraf",
+    "gestraft",
+    "ziekte",
+    "ongeschiktheid",
+    "met gevangenisstraf",
+    "die straffen"
+  ],
+  "Art. 422": [
+    "gevangenisstraf",
+    "ongeval",
+    "gestraft",
+    "trein",
+    "treinongeval voordoet",
+    "een treinongeval",
+    "de gevangenisstraf"
+  ],
+  "Art. 422bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "hulpbehoevende",
+    "misdrijf",
+    "hulpbehoevende verkeerde",
+    "met gevangenisstraf"
+  ],
+  "Art. 422ter": [
+    "gestraft",
+    "plundering",
+    "weigert",
+    "straffen",
+    "wordt gestraft",
+    "anderen weigert",
+    "straffen in"
+  ],
+  "Art. 422quater": [
+    "straffen",
+    "overtuiging",
+    "geaardheid",
+    "correctionele",
+    "straffen worden",
+    "verdubbeld wanneer",
+    "correctionele straffen",
+    "haat tegen"
+  ],
+  "Art. 423": [
+    "gevangenisstraf",
+    "gestraft",
+    "minderjarige",
+    "leeftijd",
+    "verlaten worden",
+    "verlating een",
+    "minderjarige of"
+  ],
+  "Art. 424": [
+    "gestraft",
+    "weigeren",
+    "adoptanten",
+    "adoptant",
+    "toestand achterlaten",
+    "worden gestraft"
+  ],
+  "Art. 425": [
+    "onthouden",
+    "gestraft",
+    "ziekte",
+    "gevangenisstraf",
+    "verzorging onthouden",
+    "opzettelijk voedsel",
+    "minderjarige of"
+  ],
+  "Art. 426": [
+    "gestraft",
+    "gevangenisstraf",
+    "minderjarige",
+    "strafbepalingen",
+    "die straffen",
+    "minderjarige of"
+  ],
+  "Art. 427": [
+    "minimumstraf",
+    "verhoogd",
+    "gevangenisstraf",
+    "opsluiting",
+    "de minimumstraf",
+    "minimumstraf gesteld",
+    "straf worden"
+  ],
+  "Art. 428": [
+    "ontvoeren",
+    "minderjarige",
+    "ontvoerder",
+    "ontvoert",
+    "minderjarige zijn",
+    "ontvoert of",
+    "minderjarige die"
+  ],
+  "Art. 429": [
+    "ontvoering",
+    "ontvoerd",
+    "gestraft",
+    "minderjarige",
+    "ontvoering wordt",
+    "ontvoerd bij"
+  ],
+  "Art. 430": [
+    "gevangenisstraf",
+    "ontvoering",
+    "ontvoerde",
+    "ontvoerder",
+    "straf gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 431": [
+    "minderjarige",
+    "gevangenisstraf",
+    "gestraft",
+    "leeftijd",
+    "minderjarige onrechtmatig",
+    "een minderjarige"
+  ],
+  "Art. 432": [
+    "gevangenisstraf",
+    "gestraft",
+    "minderjarige",
+    "ontvoeren",
+    "gestraft 2000",
+    "jeugdbescherming of",
+    "met gevangenisstraf"
+  ],
+  "Art. 433": [
+    "minderjarige",
+    "minimum",
+    "gestraft",
+    "vrijheidsstraf",
+    "vrijheidsstraf verhoogd",
+    "minderjarige of",
+    "bepaalde gevangenisstraf"
+  ],
+  "Art. 433bis": [
+    "jeugdrechtbank",
+    "verspreiding",
+    "oordelen",
+    "terechtzitting",
+    "de jeugdrechtbank",
+    "jeugdrechtbank voor",
+    "debatten voor"
+  ],
+  "Art. 433bis/1": [
+    "meerderjarige",
+    "minderjarige",
+    "gevangenisstraf",
+    "leeftijd",
+    "de meerderjarige",
+    "vijf jaar"
+  ],
+  "Art. 433quater": [
+    "misbruiken",
+    "misbruik",
+    "misdrijf",
+    "gevangenisstraf",
+    "misbruiken door"
+  ],
+  "Art. 433quater/1": [
+    "pooierschap",
+    "prostitutie",
+    "bestraft",
+    "misdrijf",
+    "pooierschap bestaat",
+    "het pooierschap",
+    "pooierschap het"
+  ],
+  "Art. 433quater/2": [
+    "prostitueren",
+    "prostitutie",
+    "reclame",
+    "reclamemiddel",
+    "prostitutie reclame",
+    "reclame maken",
+    "laat prostitueren"
+  ],
+  "Art. 433quater/3": [
+    "prostitueren",
+    "aanzetten",
+    "bestraft",
+    "gevangenisstraf",
+    "zich prostitueren",
+    "prostitueren is",
+    "prostitueren dit"
+  ],
+  "Art. 433quater/4": [
+    "misbruik",
+    "prostitutie",
+    "bestraft",
+    "meerderjarige",
+    "prostitutie misbruik",
+    "verzwaard misbruik"
+  ],
+  "Art. 433quater/5": [
+    "inrichting",
+    "sluiting",
+    "uitbater",
+    "inbreuken",
+    "inrichting bevelen",
+    "inrichting is"
+  ],
+  "Art. 433quater/6": [
+    "verbieden",
+    "verboden",
+    "drankgelegenheid",
+    "veroordeeld",
+    "jaar verbieden",
+    "specifieke verboden",
+    "verbieden een"
+  ],
+  "Art. 433quater/7": [
+    "inwerkingtreding",
+    "bestraft",
+    "gevangenisstraf",
+    "straf",
+    "een straf",
+    "straf bestaande",
+    "die straffen",
+    "volgende straffen"
+  ],
+  "Art. 433quater/8": [
+    "verbeurdverklaring",
+    "misdrijven",
+    "misdrijf",
+    "verbeurd",
+    "verbeurdverklaring wordt",
+    "verbeurd verklaard",
+    "deze verbeurdverklaring"
+  ],
+  "Art. 433quater/9": [
+    "evalueren",
+    "evaluatie",
+    "expertisegebieden",
+    "volksvertegenwoordigers",
+    "multidisciplinaire evaluatie",
+    "vertegenwoordigde expertisegebieden",
+    "expertisegebieden moeten"
+  ],
+  "Art. 433quinquies": [
+    "mensenhandel",
+    "misdrijf",
+    "prostitutie",
+    "overdracht",
+    "misdrijf mensenhandel",
+    "mensenhandel op"
+  ],
+  "Art. 433sexies": [
+    "misdrijf",
+    "gestraft",
+    "misbruik",
+    "433quinquies",
+    "boete wordt",
+    "artikel 433quinquies",
+    "misdrijf wordt"
+  ],
+  "Art. 433septies": [
+    "misbruiken",
+    "misbruik",
+    "misdrijf",
+    "gestraft",
+    "misbruiken ingeval",
+    "artikel 433quinquies"
+  ],
+  "Art. 433octies": [
+    "misdrijf",
+    "gestraft",
+    "433quinquies",
+    "misdrijf wordt",
+    "boete wordt",
+    "artikel 433quinquies"
+  ],
+  "Art. 433novies": [
+    "rechtbanken",
+    "schuldigen",
+    "veroordeeld",
+    "rechten",
+    "rechtbanken kunnen",
+    "genoemde rechten",
+    "artikelen 433quinquies",
+    "tot 433octies"
+  ],
+  "Art. 433novies/1": [
+    "strafbaar",
+    "inwerkingtreding",
+    "misdrijf",
+    "artikel 433quinquies",
+    "en strafbaar"
+  ],
+  "Art. 433novies/2": [
+    "wegnemen",
+    "orgaan",
+    "gestraft",
+    "voorwaarden",
+    "orgaan wegneemt",
+    "wegnemen bij",
+    "wegnemen van",
+    "wegnemen gebeurt"
+  ],
+  "Art. 433novies/3": [
+    "transplanteert",
+    "gestraft",
+    "transplantatie",
+    "orgaan",
+    "orgaan transplanteert",
+    "weggenomen organen",
+    "organen worden"
+  ],
+  "Art. 433novies/4": [
+    "weggenomen",
+    "orgaan",
+    "gestraft",
+    "organen",
+    "weggenomen organen",
+    "organen worden",
+    "een orgaan"
+  ],
+  "Art. 433novies/5": [
+    "gestraft",
+    "die",
+    "inwerkingtreding",
+    "wordt gestraft",
+    "kandidaat orgaandonor",
+    "gestraft hij"
+  ],
+  "Art. 433novies/6": [
+    "gevangenisstraf",
+    "gestraft",
+    "handelwijzen",
+    "met gevangenisstraf",
+    "gestraft met",
+    "wordt gestraft"
+  ],
+  "Art. 433novies/7": [
+    "orgaanuitwisselingen",
+    "gevangenisstraf",
+    "weggenomen",
+    "transplantatie",
+    "weggenomen organen",
+    "grensoverschrijdende orgaanuitwisselingen"
+  ],
+  "Art. 433novies/8": [
+    "transplanteren",
+    "gevangenisstraf",
+    "gestraft",
+    "transplanteert",
+    "met gevangenisstraf",
+    "transplanteren of"
+  ],
+  "Art. 433novies/9": [
+    "misdrijf",
+    "straffen",
+    "misbruik",
+    "hoedanigheid",
+    "straffen zullen",
+    "misdrijf is",
+    "misbruik heeft",
+    "de straffen"
+  ],
+  "Art. 433novies/10": [
+    "misdrijven",
+    "misdrijf",
+    "gestraft",
+    "straffen",
+    "straffen zullen",
+    "misdrijven bedoeld",
+    "de straffen"
+  ],
+  "Art. 433novies/11": [
+    "rechtbanken",
+    "verbieden",
+    "schuldigen",
+    "strafbaar",
+    "rechtbanken kunnen",
+    "genoemde rechten",
+    "hoofdstuk strafbaar",
+    "strafbaar gestelde"
+  ],
+  "Art. 433decies": [
+    "misbruik",
+    "gevangenisstraf",
+    "gestraft",
+    "onwettige",
+    "misbruik maakt",
+    "tussenpersoon misbruik",
+    "met gevangenisstraf"
+  ],
+  "Art. 433undecies": [
+    "gevangenisstraf",
+    "gestraft",
+    "misdrijf",
+    "deelneming",
+    "boete wordt",
+    "misdrijf wordt",
+    "met gevangenisstraf"
+  ],
+  "Art. 433duodecies": [
+    "misdrijf",
+    "gestraft",
+    "433decies",
+    "inwerkingtreding",
+    "misdrijf wordt",
+    "boete wordt",
+    "wordt gestraft"
+  ],
+  "Art. 433terdecies": [
+    "verbeurdverklaring",
+    "veroordeelde",
+    "schuldigen",
+    "verbeurd",
+    "verbeurdverklaring zoals",
+    "bijzondere verbeurdverklaring",
+    "artikel 433decies"
+  ],
+  "Art. 433quaterdecies": [
+    "inbeslagneming",
+    "beslag",
+    "verhuurder",
+    "procureur",
+    "beslag leggen",
+    "inbeslagneming moet",
+    "onderzoeksrechter beslag"
+  ],
+  "Art. 433quinquiesdecies": [
+    "huisvestingskosten",
+    "gehuisvest",
+    "slachtoffers",
+    "beklaagde",
+    "huisvestingskosten komen",
+    "deze huisvestingskosten",
+    "kunnen slachtoffers"
+  ],
+  "Art. 434": [
+    "gevangenisstraf",
+    "gestraft",
+    "gevangenhouding",
+    "aanhouding",
+    "iemand aanhouden",
+    "aanhouding of",
+    "met gevangenisstraf"
+  ],
+  "Art. 435": [
+    "gevangenisstraf",
+    "vrijheidsberoving",
+    "wederrechtelijke",
+    "duurt",
+    "gevangenisstraf is",
+    "de gevangenisstraf",
+    "vrijheidsberoving langer"
+  ],
+  "Art. 436": [
+    "gevangenisstraf",
+    "vrijheidsberoving",
+    "wederrechtelijke",
+    "veroordeeld",
+    "vrijheidsberoving langer",
+    "willekeurige vrijheidsberoving",
+    "gevangenisstraf van"
+  ],
+  "Art. 437": [
+    "aanhouding",
+    "opsluiting",
+    "aangehouden",
+    "uitgesproken",
+    "aangehouden of",
+    "bedreigd wordt",
+    "de aanhouding",
+    "gehouden persoon"
+  ],
+  "Art. 438bis": [
+    "straffen",
+    "verhoogd",
+    "correctionele",
+    "minimum",
+    "bepaalde straffen",
+    "straffen worden",
+    "straffen en",
+    "correctionele straffen"
+  ],
+  "Art. 439": [
+    "gevangenisstraf",
+    "binnendringt",
+    "gestraft",
+    "inwerkingtreding",
+    "met gevangenisstraf",
+    "wordt gestraft",
+    "binnendringt met"
+  ],
+  "Art. 440": [
+    "gevangenisstraf",
+    "gevangenisstraf is",
+    "de gevangenisstraf",
+    "schuldigen kunnen"
+  ],
+  "Art. 441": [
+    "gestraft",
+    "gevangenisstraf",
+    "wanbedrijf",
+    "inwerkingtreding",
+    "omschreven wanbedrijf",
+    "wordt gestraft"
+  ],
+  "Art. 442": [
+    "gestraft",
+    "gevangenisstraf",
+    "huurder",
+    "binnendringt",
+    "huurder in",
+    "wordt gestraft",
+    "de huurder"
+  ],
+  "Art. 442/1": [
+    "gevangenisstraf",
+    "gestraft",
+    "binnendringt",
+    "straffen",
+    "met gevangenisstraf",
+    "die straffen"
+  ],
+  "Art. 442bis": [
+    "gestraft",
+    "minimumstraf",
+    "gevangenisstraf",
+    "belaagd",
+    "belaagd terwijl",
+    "minimumstraf voorzien",
+    "heeft belaagd",
+    "de minimumstraf"
+  ],
+  "Art. 442ter": [
+    "straffen",
+    "haat",
+    "geaardheid",
+    "overtuiging",
+    "straffen worden",
+    "artikel 442bis",
+    "haat tegen",
+    "verdubbeld wanneer"
+  ],
+  "Art. 442quater": [
+    "gevangenisstraf",
+    "gestraft",
+    "misbruik",
+    "straffen",
+    "straffen zijn",
+    "deze straffen",
+    "bedrieglijk misbruik",
+    "misbruik heeft"
+  ],
+  "Art. 442quinquies": [
+    "conversiepraktijken",
+    "conversiepraktijk",
+    "genderidentiteit",
+    "behandelingen",
+    "conversiepraktijken onder",
+    "onder conversiepraktijk",
+    "conversiepraktijk beschouwd"
+  ],
+  "Art. 442sexies": [
+    "conversiepraktijken",
+    "gevangenisstraf",
+    "bestraffing",
+    "bestraft",
+    "van conversiepraktijken",
+    "conversiepraktijken en",
+    "conversiepraktijken wordt"
+  ],
+  "Art. 442septies": [
+    "conversiepraktijken",
+    "gevangenisstraf",
+    "bestraft",
+    "bestraffing",
+    "conversiepraktijken het",
+    "van conversiepraktijken",
+    "conversiepraktijken direct"
+  ],
+  "Art. 442octies": [
+    "conversiepraktijken",
+    "gevangenisstraf",
+    "bestraft",
+    "bestraffing",
+    "om conversiepraktijken",
+    "conversiepraktijken het",
+    "van conversiepraktijken"
+  ],
+  "Art. 442nonies": [
+    "beroepsactiviteit",
+    "strafbaar",
+    "activiteit",
+    "verbieden",
+    "beroepsactiviteit of",
+    "een beroepsactiviteit",
+    "sociale activiteit"
+  ],
+  "Art. 443": [
+    "vijandelijkheden",
+    "schuldig",
+    "laster",
+    "kwaadwillig",
+    "persoon kwaadwillig",
+    "kwaadwillig een",
+    "gelegde feit",
+    "is schuldig"
+  ],
+  "Art. 444": [
+    "gestraft",
+    "tenlasteleggingen",
+    "gevangenisstraf",
+    "beledigde",
+    "tentoongesteld worden",
+    "wordt gestraft"
+  ],
+  "Art. 445": [
+    "gevangenisstraf",
+    "gestraft",
+    "lasterlijke",
+    "schriftelijk",
+    "lasterlijke aangifte",
+    "lasterlijke aantijgingen",
+    "persoon lasterlijke"
+  ],
+  "Art. 446": [
+    "gestraft",
+    "laster",
+    "eerroof",
+    "dezelfde",
+    "gestraft als",
+    "als laster",
+    "dezelfde wijze"
+  ],
+  "Art. 447": [
+    "tegenbewijs",
+    "tenlasteleggingen",
+    "tenlastelegging",
+    "aangifte",
+    "laster beticht",
+    "beticht wordt",
+    "tegenbewijs door",
+    "gelegde feiten"
+  ],
+  "Art. 448": [
+    "gestraft",
+    "beledigt",
+    "straffen",
+    "gevangenisstraf",
+    "straffen wordt",
+    "die straffen",
+    "iemand beledigt",
+    "wordt gestraft"
+  ],
+  "Art. 449": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "ruchtbaarmaking",
+    "ruchtbaarmaking gestraft",
+    "kwaadwillige ruchtbaarmaking",
+    "die straffen"
+  ],
+  "Art. 450": [
+    "vervolging",
+    "vervolgd",
+    "misdrijven",
+    "lasterlijke",
+    "lasterlijke aangifte",
+    "vervolgd dan",
+    "overlijden kan"
+  ],
+  "Art. 451": [
+    "rechtvaardigings",
+    "vervolging",
+    "drukwerken",
+    "verschoningsgrond",
+    "vervolging uitmaken",
+    "rechtvaardigings of",
+    "drukwerken prenten"
+  ],
+  "Art. 452": [
+    "beledigende",
+    "strafvervolging",
+    "strafvordering",
+    "lasterlijke",
+    "lasterlijke beledigende",
+    "rechtbank gesproken",
+    "een strafvordering"
+  ],
+  "Art. 453": [
+    "gevangenisstraf",
+    "gestraft",
+    "grafschennis",
+    "schuldig",
+    "wordt gestraft",
+    "aan grafschennis"
+  ],
+  "Art. 453bis": [
+    "straffen",
+    "haat",
+    "overtuiging",
+    "correctionele",
+    "straffen worden",
+    "haat tegen",
+    "correctionele straffen",
+    "verdubbeld wanneer"
+  ],
+  "Art. 454": [
+    "gevangenisstraf",
+    "gestraft",
+    "tot",
+    "art",
+    "gestraft met",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 455": [
+    "gestraft",
+    "straffen",
+    "voedingsmiddelen",
+    "voedingswaren",
+    "straffen bij",
+    "voedingswaren moeten",
+    "wordt gestraft",
+    "de straffen"
+  ],
+  "Art. 456": [
+    "gevangenisstraf",
+    "gestraft",
+    "magazijn",
+    "euro",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 457": [
+    "veroordeeld",
+    "veroordeelde",
+    "beslag",
+    "rechten",
+    "schuldige kan",
+    "beslag genomen",
+    "worden veroordeeld",
+    "voedingsmiddelen worden"
+  ],
+  "Art. 458": [
+    "geheimen",
+    "heelkundigen",
+    "getuigenis",
+    "gevangenisstraf",
+    "geneesheren heelkundigen",
+    "die straffen",
+    "geheimen bekend"
+  ],
+  "Art. 458bis": [
+    "misdrijf",
+    "geheimen",
+    "verplichtingen",
+    "procureur",
+    "een misdrijf",
+    "misdrijf zoals",
+    "het misdrijf"
+  ],
+  "Art. 458ter": [
+    "misdrijven",
+    "misdrijf",
+    "geheimen",
+    "omklede",
+    "misdrijf wanneer",
+    "overleg kan",
+    "misdrijven bedoeld",
+    "een overleg"
+  ],
+  "Art. 458quater": [
+    "vertrouwelijke",
+    "strafvervolging",
+    "advocaat",
+    "vertrouwelijke informatie",
+    "van vertrouwelijke",
+    "artikelen 458bis"
+  ],
+  "Art. 459": [
+    "gestraft",
+    "barmhartigheid",
+    "bedienden",
+    "bekendmaken",
+    "straffen worden",
+    "worden gestraft",
+    "dezelfde straffen",
+    "bedienden of"
+  ],
+  "Art. 460": [
+    "gevangenisstraf",
+    "gestraft",
+    "straffen",
+    "een postoperator",
+    "toevertrouwde brief",
+    "postoperator toevertrouwde"
+  ],
+  "Art. 460bis": [
+    "afschrift",
+    "wegmaakt",
+    "exploot",
+    "gestraft",
+    "een exploot",
+    "wordt gestraft",
+    "afschrift van"
+  ],
+  "Art. 460ter": [
+    "inwerkingtreding",
+    "inlichtingen",
+    "gevangenisstraf",
+    "gestraft",
+    "verkregen inlichtingen",
+    "dossier verkregen"
+  ],
+  "Art. 461": [
+    "diefstal",
+    "wegnemen",
+    "bedrieglijk",
+    "wegneemt",
+    "bedrieglijk wegnemen",
+    "diefstal wordt",
+    "bedrieglijk wegneemt"
+  ],
+  "Art. 462": [
+    "diefstallen",
+    "gestolen",
+    "afstammelingen",
+    "vergoeding",
+    "diefstallen zijn",
+    "diefstallen deelneemt",
+    "gestolen voorwerpen"
+  ],
+  "Art. 463": [
+    "diefstal",
+    "diefstallen",
+    "gevangenisstraf",
+    "gestraft",
+    "straf bedraagt",
+    "maanden gevangenisstraf"
+  ],
+  "Art. 464": [
+    "diefstal",
+    "gevangenisstraf",
+    "gestolen",
+    "dief",
+    "gevangenisstraf is",
+    "diefstal gepleegd"
+  ],
+  "Art. 465": [
+    "schuldigen",
+    "rechten",
+    "veroordeeld",
+    "ontzetting",
+    "artikel 33",
+    "schuldigen bovendien",
+    "rechten overeenkomstig",
+    "vorige artikelen"
+  ],
+  "Art. 466": [
+    "diefstallen",
+    "gestraft",
+    "gevangenisstraf",
+    "inwerkingtreding",
+    "diefstallen in"
+  ],
+  "Art. 467": [
+    "diefstal",
+    "gestraft",
+    "ambtsbediening",
+    "inwerkingtreding",
+    "diefstal wordt",
+    "diefstal door"
+  ],
+  "Art. 468": [
+    "diefstal",
+    "gestraft",
+    "bedreiging",
+    "geweld",
+    "diefstal pleegt",
+    "een diefstal",
+    "wordt gestraft"
+  ],
+  "Art. 469": [
+    "diefstal",
+    "geweld",
+    "bedreigingen",
+    "bedreiging",
+    "diefstal gepleegd",
+    "met diefstal",
+    "dief op"
+  ],
+  "Art. 470": [
+    "gestraft",
+    "diefstal",
+    "geweld",
+    "straffen",
+    "straffen bij",
+    "wordt gestraft",
+    "diefstal met",
+    "een diefstal"
+  ],
+  "Art. 471": [
+    "misdrijf",
+    "ambtsbediening",
+    "inwerkingtreding",
+    "schuldigen",
+    "misdrijf gepleegd",
+    "misdrijf wordt",
+    "het misdrijf"
+  ],
+  "Art. 472": [
+    "misdrijf",
+    "misdaad",
+    "opsluiting",
+    "wapens",
+    "misdrijf wordt",
+    "het misdrijf",
+    "misdrijf te"
+  ],
+  "Art. 473": [
+    "opsluiting",
+    "ongeschiktheid",
+    "inwerkingtreding",
+    "straf opsluiting",
+    "straf op",
+    "straf wordt",
+    "ongeschiktheid tot"
+  ],
+  "Art. 474": [
+    "schuldigen",
+    "veroordeeld",
+    "geweld",
+    "bedreiging",
+    "bedreiging gepleegd",
+    "veroordeeld tot",
+    "schuldigen veroordeeld",
+    "veroorzaakt worden"
+  ],
+  "Art. 475": [
+    "doodslag",
+    "gestraft",
+    "opsluiting",
+    "diefstal",
+    "doodslag gepleegd",
+    "levenslange opsluiting",
+    "wordt gestraft"
+  ],
+  "Art. 476": [
+    "diefstal",
+    "straffen",
+    "afpersing",
+    "inwerkingtreding",
+    "straffen bij",
+    "toegepast wanneer",
+    "de straffen"
+  ],
+  "Art. 477": [
+    "kernmateriaal",
+    "diefstal",
+    "gestraft",
+    "inwerkingtreding",
+    "kernmateriaal wordt",
+    "diefstal van"
+  ],
+  "Art. 477bis": [
+    "kernmateriaal",
+    "diefstal",
+    "inwerkingtreding",
+    "gestraft",
+    "kernmateriaal wordt",
+    "diefstal van"
+  ],
+  "Art. 477ter": [
+    "gestraft",
+    "kernmateriaal",
+    "afpersing",
+    "opsluiting",
+    "kernmateriaal door",
+    "bedreiging wordt",
+    "wordt gestraft",
+    "gestraft met"
+  ],
+  "Art. 477quater": [
+    "afpersing",
+    "diefstal",
+    "bedreigingen",
+    "kernmateriaal",
+    "kernmateriaal gepleegd",
+    "diefstal of"
+  ],
+  "Art. 477quinquies": [
+    "afpersing",
+    "inwerkingtreding",
+    "diefstal",
+    "gestraft",
+    "kernmateriaal gepleegd",
+    "diefstal of"
+  ],
+  "Art. 477sexies": [
+    "diefstal",
+    "kernmateriaal",
+    "gestraft",
+    "afpersing",
+    "kernmateriaal met",
+    "diefstal of",
+    "van kernmateriaal",
+    "artikel 477quater"
+  ],
+  "Art. 478": [
+    "diefstal",
+    "nacht",
+    "uur",
+    "zonsopgang",
+    "diefstal bij",
+    "diefstal gepleegd",
+    "de diefstal"
+  ],
+  "Art. 479": [
+    "woning",
+    "bewoond",
+    "huis",
+    "hut",
+    "bewoond huis",
+    "als bewoond",
+    "huis wordt"
+  ],
+  "Art. 480": [
+    "aanhorigheden",
+    "binnenplaatsen",
+    "beschouwd",
+    "bewoond",
+    "als aanhorigheden",
+    "bewoond huis"
+  ],
+  "Art. 481": [
+    "omheiningen",
+    "verplaatsbare",
+    "aanhorigheden",
+    "schuilplaatsen",
+    "verplaatsbare omheiningen",
+    "verplaatsbare hutten"
+  ],
+  "Art. 482": [
+    "wapens",
+    "voorwerpen",
+    "135",
+    "wetboek",
+    "woord wapens",
+    "wapens worden",
+    "voorwerpen bedoeld"
+  ],
+  "Art. 483": [
+    "geweld",
+    "bedreiging",
+    "vrees",
+    "dreigend",
+    "geweld verstaat",
+    "bedreiging verstaat",
+    "onder geweld"
+  ],
+  "Art. 484": [
+    "afbreken",
+    "braak",
+    "openbreken",
+    "stukbreken",
+    "braak bestaat",
+    "beschadigen afbreken",
+    "stukbreken beschadigen",
+    "openbreken stukbreken"
+  ],
+  "Art. 485": [
+    "zegelverbreking",
+    "diefstal",
+    "wegnemen",
+    "meubels",
+    "met zegelverbreking",
+    "diefstal gepleegd",
+    "diefstal door",
+    "met diefstal"
+  ],
+  "Art. 486": [
+    "binnenkomen",
+    "inklimming",
+    "binnenplaatsen",
+    "toegang",
+    "binnenkomen door",
+    "binnenkomen over"
+  ],
+  "Art. 487": [
+    "sleutels",
+    "diefstal",
+    "kamerverhuurder",
+    "voorwerpen",
+    "vervalste sleutels",
+    "sleutels worden",
+    "weggenomen sleutels",
+    "valse sleutels"
+  ],
+  "Art. 487bis": [
+    "kernmateriaal",
+    "radioactief",
+    "radioactieve",
+    "materiaal",
+    "kernmateriaal verstaan",
+    "kernmateriaal wordt",
+    "kernmateriaal of"
+  ],
+  "Art. 488": [
+    "gevangenisstraf",
+    "gestraft",
+    "sleutels",
+    "bedrieglijk",
+    "bedrieglijk sleutels",
+    "schuldige slotenmaker",
+    "met gevangenisstraf"
+  ],
+  "Art. 488bis": [
+    "kernmateriaal",
+    "gestraft",
+    "strafbaar",
+    "inwerkingtreding",
+    "kernmateriaal laat",
+    "wordt gestraft"
+  ],
+  "Art. 488ter": [
+    "radioactieve",
+    "radioactief",
+    "gestraft",
+    "opsluiting",
+    "voorwaarden radioactief",
+    "of radioactieve",
+    "radioactief materiaal"
+  ],
+  "Art. 488quater": [
+    "opsluiting",
+    "radioactieve",
+    "gestraft",
+    "radioactief",
+    "of radioactieve",
+    "radioactief materiaal",
+    "wordt gestraft"
+  ],
+  "Art. 488quinquies": [
+    "gevangenisstraf",
+    "gestraft",
+    "kernmateriaal",
+    "een gevangenisstraf",
+    "kernmateriaal vervaardigd"
+  ],
+  "Art. 489": [
+    "gevangenisstraf",
+    "gestraft",
+    "faillissement",
+    "straffen",
+    "faillissement bevinden",
+    "die straffen",
+    "met gevangenisstraf"
+  ],
+  "Art. 489bis": [
+    "gevangenisstraf",
+    "faillietverklaring",
+    "gestraft",
+    "straffen",
+    "met gevangenisstraf",
+    "gevangenisstraf van"
+  ],
+  "Art. 489ter": [
+    "gevangenisstraf",
+    "gestraft",
+    "bedrieglijk",
+    "schaden",
+    "met gevangenisstraf",
+    "wordt gestraft"
+  ],
+  "Art. 489quater": [
+    "strafvordering",
+    "faillissement",
+    "strafrechter",
+    "strafbare",
+    "de strafvordering",
+    "strafbare feiten"
+  ],
+  "Art. 489quinquies": [
+    "gevangenisstraf",
+    "bedrieglijk",
+    "gestraft",
+    "faillissement",
+    "met gevangenisstraf",
+    "failliete onderneming"
+  ],
+  "Art. 489sexies": [
+    "curator",
+    "ontrouw",
+    "gestraft",
+    "gevangenisstraf",
+    "ontrouw in",
+    "wordt gestraft"
+  ],
+  "Art. 490": [
+    "uittreksel",
+    "ondernemingsnummer",
+    "veroordeelden",
+    "veroordeling",
+    "gevangenisstraf uitgesproken",
+    "uittreksel zal",
+    "bij uittreksel",
+    "uittreksel bevat"
+  ],
+  "Art. 490bis": [
+    "schuldenaar",
+    "gestraft",
+    "onvermogen",
+    "onvermogend",
+    "schuldenaar zijn",
+    "onvermogen heeft",
+    "onvermogend heeft"
+  ],
+  "Art. 490ter": [
+    "schuldenaar",
+    "schuldvorderingen",
+    "gevangenisstraf",
+    "gestraft",
+    "schuldenaar wordt",
+    "schuldeisers heeft"
+  ],
+  "Art. 490quater": [
+    "gevangenisstraf",
+    "schuldvorderingen",
+    "gestraft",
+    "schuldenaar",
+    "met gevangenisstraf",
+    "schuldenaar hetzij"
+  ],
+  "Art. 491": [
+    "bedrieglijk",
+    "gestraft",
+    "gevangenisstraf",
+    "veroordeeld",
+    "bedrieglijk verduistert",
+    "wordt gestraft"
+  ],
+  "Art. 492": [
+    "462",
+    "misdrijf",
+    "vorige",
+    "toepasselijk",
+    "artikel 462",
+    "462 is",
+    "misdrijf in"
+  ],
+  "Art. 492bis": [
+    "gestraft",
+    "gevangenisstraf",
+    "schuldigen",
+    "handelsvennootschappen",
+    "met gevangenisstraf",
+    "worden gestraft"
+  ],
+  "Art. 493": [
+    "misbruik",
+    "gestraft",
+    "gevangenisstraf",
+    "minderjarige",
+    "misbruik maakt",
+    "schuldige kan"
+  ],
+  "Art. 494": [
+    "gevangenisstraf",
+    "gestraft",
+    "straffen",
+    "misbruiken",
+    "interest overschrijden",
+    "lening overschrijden",
+    "geldlening voor",
+    "aangegane geldlening"
+  ],
+  "Art. 495": [
+    "gestraft",
+    "bedrieglijk",
+    "overgelegd",
+    "straf wordt",
+    "wordt gestraft",
+    "deze straf"
+  ],
+  "Art. 495bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "bedrieglijk",
+    "oplichting",
+    "met gevangenisstraf",
+    "die straffen",
+    "wordt gestraft"
+  ],
+  "Art. 496": [
+    "gevangenisstraf",
+    "bedrieglijk",
+    "gestraft",
+    "bedrieglijk opzet",
+    "onrechtmatig economisch",
+    "valse hoedanigheden",
+    "met gevangenisstraf"
+  ],
+  "Art. 497": [
+    "munten",
+    "gestraft",
+    "muntstukken",
+    "gevangenisstraf",
+    "munten uitgeven",
+    "munten in",
+    "zodanige munten",
+    "een munt"
+  ],
+  "Art. 497bis": [
+    "munten",
+    "gestraft",
+    "gevangenisstraf",
+    "munten waaraan",
+    "die munten",
+    "euro worden"
+  ],
+  "Art. 498": [
+    "bedriegt",
+    "gevangenisstraf",
+    "bedrieglijk",
+    "gestraft",
+    "bedriegt 2000",
+    "met gevangenisstraf"
+  ],
+  "Art. 499": [
+    "kunstgrepen",
+    "gevangenisstraf",
+    "bedriegen",
+    "straffen",
+    "listige kunstgrepen",
+    "zaken bedriegen",
+    "tot gevangenisstraf"
+  ],
+  "Art. 500": [
+    "gestraft",
+    "vervalsen",
+    "gevangenisstraf",
+    "aanplakbiljetten",
+    "vervalst zijn",
+    "doen vervalsen",
+    "worden vervalsen",
+    "vervalsen zij"
+  ],
+  "Art. 501": [
+    "gestraft",
+    "gevangenisstraf",
+    "voedingsmiddelen",
+    "vervalst",
+    "vervalst zijn",
+    "voedingsmiddelen gevonden",
+    "wordt gestraft"
+  ],
+  "Art. 501bis": [
+    "gevangenisstraf",
+    "gestraft",
+    "bedrieglijk",
+    "voedingsmiddelen",
+    "vervalste voedingsmiddelen",
+    "vereiste bedrieglijk",
+    "een geldboete",
+    "met gevangenisstraf"
+  ],
+  "Art. 502": [
+    "aangeplakt",
+    "plaatsen",
+    "veroordeelde",
+    "bepaalt",
+    "worden aangeplakt",
+    "aangeplakt op",
+    "rechtbank bevelen"
+  ],
+  "Art. 503": [
+    "voedingsmiddelen",
+    "verbeurdverklaring",
+    "denaturering",
+    "gedenatureerd",
+    "vervalste voedingsmiddelen",
+    "verbeurd verklaard",
+    "voedingsmiddelen wanneer",
+    "de voedingsmiddelen"
+  ],
+  "Art. 504": [
+    "misdrijven",
+    "462",
+    "toepasselijk",
+    "498",
+    "artikel 462",
+    "misdrijven in",
+    "artikelen 496"
+  ],
+  "Art. 504bis": [
+    "private",
+    "omkoping",
+    "zaakvoerder",
+    "rechtspersoon",
+    "private omkoping",
+    "omkoping bestaat",
+    "actieve private",
+    "passieve private"
+  ],
+  "Art. 504ter": [
+    "gevangenisstraf",
+    "omkoping",
+    "private",
+    "straffen",
+    "private omkoping",
+    "een gevangenisstraf",
+    "een geldboete"
+  ],
+  "Art. 504ter/1": [
+    "gevangenisstraf",
+    "gestraft",
+    "illegale",
+    "verboden",
+    "een geldboete",
+    "illegale voorwerpen",
+    "heimelijk vervoeren"
+  ],
+  "Art. 504quater": [
+    "informaticasysteem",
+    "gevangenisstraf",
+    "gestraft",
+    "bedrieglijk",
+    "een informaticasysteem",
+    "informaticasysteem in",
+    "met gevangenisstraf"
+  ],
+  "Art. 505": [
+    "gevangenisstraf",
+    "gestraft",
+    "weggenomen",
+    "straffen",
+    "gestraft 2000",
+    "die straffen"
+  ],
+  "Art. 505bis": [
+    "minimumstraf",
+    "gestraft",
+    "straffen",
+    "gevangenisstraf",
+    "de minimumstraf",
+    "minimumstraf in",
+    "straffen bepaald"
+  ],
+  "Art. 505ter": [
+    "misdrijven",
+    "misdrijf",
+    "gevangenisstraf",
+    "gestraft",
+    "misdrijven bedoeld",
+    "misdrijf is"
+  ],
+  "Art. 506": [
+    "helers",
+    "opsluiting",
+    "veroordeeld",
+    "levenslange",
+    "levenslange opsluiting",
+    "misdaad levenslange",
+    "helers veroordeeld",
+    "vijf jaar"
+  ],
+  "Art. 507": [
+    "beschadigen",
+    "gestraft",
+    "gevangenisstraf",
+    "beslag",
+    "goederen vernietigen",
+    "bedrieglijk vernietigen",
+    "beschadigen of"
+  ],
+  "Art. 507bis": [
+    "strafvordering",
+    "gestraft",
+    "gevangenisstraf",
+    "opheffing",
+    "strafvordering opgelegde",
+    "van strafvordering"
+  ],
+  "Art. 508": [
+    "gestraft",
+    "gevangenisstraf",
+    "bedrieglijk",
+    "hen",
+    "gestraft 2000",
+    "worden gestraft",
+    "bedrieglijk verbergen"
+  ],
+  "Art. 508bis": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "huurrijtuig",
+    "straffen worden",
+    "wordt gestraft"
+  ],
+  "Art. 508ter": [
+    "gestraft",
+    "gevangenisstraf",
+    "brandstof",
+    "bedrieglijk",
+    "straffen worden",
+    "wordt gestraft",
+    "met gevangenisstraf"
+  ],
+  "Art. 509": [
+    "effect",
+    "gevangenisstraf",
+    "schuldbevrijdingen",
+    "gestraft",
+    "schuldbevrijdingen bedrieglijk",
+    "bedrieglijk aanschaft",
+    "effect betaald"
+  ],
+  "Art. 509bis": [
+    "postcheque",
+    "gestraft",
+    "postoverschrijving",
+    "gevangenisstraf",
+    "een postcheque",
+    "postoverschrijving uitgeeft",
+    "gestraft 2000"
+  ],
+  "Art. 509ter": [
+    "factuur",
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "een factuur",
+    "factuur betreffende",
+    "dezelfde factuur"
+  ],
+  "Art. 509quater": [
+    "gestraft",
+    "gevangenisstraf",
+    "deskundige",
+    "beschadiging",
+    "wordt gestraft",
+    "die straffen"
+  ],
+  "Art. 510": [
+    "bouwwerken",
+    "gestraft",
+    "opsluiting",
+    "gebouwen",
+    "gebouwen bruggen",
+    "brand steken",
+    "worden gestraft",
+    "steken gebouwen"
+  ],
+  "Art. 511": [
+    "gestraft",
+    "gevangenisstraf",
+    "eigendommen",
+    "schuldigen",
+    "brand gestoken",
+    "worden gestraft",
+    "brand steken"
+  ],
+  "Art. 512": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "roerende",
+    "roerende goederen",
+    "jaar gevangenisstraf",
+    "brand gestoken"
+  ],
+  "Art. 513": [
+    "gevangenisstraf",
+    "straffen",
+    "nacht",
+    "512",
+    "bepaalde straffen",
+    "geldboete bij",
+    "gevangenisstraf en"
+  ],
+  "Art. 514": [
+    "brandstichting",
+    "gevangenisstraf",
+    "gestraft",
+    "poging",
+    "brandstichting gevangenisstraf",
+    "brandstichting gestraft",
+    "gevangenisstraf gesteld"
+  ],
+  "Art. 514bis": [
+    "straffen",
+    "verhoogd",
+    "correctionele",
+    "bepaalde straffen",
+    "straffen worden",
+    "correctionele straffen",
+    "straffen en"
+  ],
+  "Art. 515": [
+    "rechten",
+    "veroordeeld",
+    "schuldige",
+    "gevangenisstraf",
+    "artikel 33",
+    "gevangenisstraf veroordeeld",
+    "veroordeeld wordt",
+    "rechten overeenkomstig"
+  ],
+  "Art. 516": [
+    "gestraft",
+    "510",
+    "512",
+    "steekt",
+    "brand gestoken",
+    "brand steekt",
+    "wordt gestraft",
+    "steekt zodanig"
+  ],
+  "Art. 517": [
+    "verbranden",
+    "strafbaar",
+    "vernieling",
+    "schuldige",
+    "brand noodzakelijk",
+    "brand overslaat",
+    "vernieling strafbaar",
+    "strafbaar is"
+  ],
+  "Art. 518": [
+    "verwondingen",
+    "brandstichting",
+    "veroordeeld",
+    "veroorzaakt",
+    "brand verwondingen",
+    "gestelde straf",
+    "straf toegepast",
+    "verwondingen met"
+  ],
+  "Art. 519": [
+    "gevangenisstraf",
+    "gestraft",
+    "straffen",
+    "vuurwerk",
+    "die straffen",
+    "met gevangenisstraf"
+  ],
+  "Art. 520": [
+    "bouwwerken",
+    "gebouwen",
+    "gestraft",
+    "straffen",
+    "gebouwen bruggen",
+    "straffen bij",
+    "motorvoertuigen door"
+  ],
+  "Art. 521": [
+    "bouwwerken",
+    "onbruikbaarmaking",
+    "vernielt",
+    "gestraft",
+    "gedeeltelijke vernieli",
+    "vernielt wordt"
+  ],
+  "Art. 522": [
+    "518",
+    "toepasselijk",
+    "vorige",
+    "bepaling",
+    "artikel 518",
+    "vorige artikel",
+    "518 is"
+  ],
+  "Art. 523": [
+    "vernieling",
+    "vernielt",
+    "gevangenisstraf",
+    "machine",
+    "machine vernielt",
+    "vernieling bestaat",
+    "een machine"
+  ],
+  "Art. 525": [
+    "gestraft",
+    "bedreigingen",
+    "schuldigen",
+    "gewelddaden",
+    "schuldigen gestraft",
+    "gestraft met",
+    "gepleegd worden"
+  ],
+  "Art. 525bis": [
+    "straffen",
+    "verhoogd",
+    "minimum",
+    "correctionele",
+    "bepaalde straffen",
+    "straffen worden",
+    "correctionele straffen",
+    "straffen en"
+  ],
+  "Art. 526": [
+    "gestraft",
+    "beschadigt",
+    "grafstenen",
+    "gevangenisstraf",
+    "beschadigt grafsteden",
+    "monumenten standbeelden",
+    "wordt gestraft"
+  ],
+  "Art. 527": [
+    "beschadiging",
+    "weggenomen",
+    "vernieling",
+    "gestraft",
+    "of beschadiging",
+    "bedrieglijk vernietigt",
+    "of bankpapieren"
+  ],
+  "Art. 528": [
+    "beschadiging",
+    "gestraft",
+    "gevangenisstraf",
+    "vernieling",
+    "elke vernieling",
+    "elke beschadiging"
+  ],
+  "Art. 529": [
+    "gestraft",
+    "opsluiting",
+    "straf",
+    "inwerkingtreding",
+    "straf opsluiting",
+    "worden gestraft",
+    "gestraft met"
+  ],
+  "Art. 530": [
+    "gestraft",
+    "beschadiging",
+    "vernieling",
+    "misdaad",
+    "wordt gestraft",
+    "worden gestraft",
+    "of beschadiging"
+  ],
+  "Art. 531": [
+    "beschadiging",
+    "schuldigen",
+    "gestraft",
+    "geweld",
+    "beschadiging wordt",
+    "schuldigen gestraft",
+    "geweld of"
+  ],
+  "Art. 532": [
+    "doodslag",
+    "gestraft",
+    "opsluiting",
+    "straffeloosheid",
+    "doodslag gepleegd",
+    "levenslange opsluiting",
+    "wordt gestraft"
+  ],
+  "Art. 532bis": [
+    "straffen",
+    "verhoogd",
+    "correctionele",
+    "bepaalde straffen",
+    "straffen worden",
+    "correctionele straffen",
+    "straffen en"
+  ],
+  "Art. 533": [
+    "gevangenisstraf",
+    "gestraft",
+    "beschadigt",
+    "misdrijf",
+    "gevangenisstraf is",
+    "wordt gestraft"
+  ],
+  "Art. 534": [
+    "beschadiging",
+    "hindernissen",
+    "graffiti",
+    "gestraft",
+    "beschadiging van",
+    "hindernissen waarmee"
+  ],
+  "Art. 534bis": [
+    "graffiti",
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "graffiti aanbrengt",
+    "toestemming graffiti",
+    "gevangenisstraf bij"
+  ],
+  "Art. 534ter": [
+    "beschadigt",
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "eigendommen beschadigt",
+    "gestraft hij"
+  ],
+  "Art. 534quater": [
+    "straffen",
+    "verhoogd",
+    "correctionele",
+    "bepaalde straffen",
+    "straffen worden",
+    "correctionele straffen",
+    "straffen en"
+  ],
+  "Art. 535": [
+    "gestraft",
+    "gevangenisstraf",
+    "vruchten",
+    "wordt gestraft",
+    "gestraft hij",
+    "kwaadwillig afsnijdt"
+  ],
+  "Art. 536": [
+    "gestraft",
+    "schadelijk",
+    "gevangenisstraf",
+    "verwoest",
+    "akker verwoest",
+    "schadelijk kruid"
+  ],
+  "Art. 537": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "enten",
+    "geldboete betreft",
+    "wordt gestraft",
+    "die straffen"
+  ],
+  "Art. 538": [
+    "gestraft",
+    "vergiftigt",
+    "gevangenisstraf",
+    "paarden",
+    "varkens vergiftigt",
+    "vergiftigt wordt",
+    "gestraft met"
+  ],
+  "Art. 539": [
+    "gevangenisstraf",
+    "gestraft",
+    "een",
+    "art",
+    "gestraft met",
+    "wordt gestraft"
+  ],
+  "Art. 540": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "misdrijf",
+    "gewonde dier",
+    "volgende straffen",
+    "dieren doden"
+  ],
+  "Art. 541": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "huisdier",
+    "straffen worden",
+    "deze straffen",
+    "die straffen",
+    "wordt gestraft"
+  ],
+  "Art. 542": [
+    "afsluiting",
+    "minimum",
+    "verhoogd",
+    "vii",
+    "artikelen schending",
+    "afsluiting heeft",
+    "straf verhoogd",
+    "vii bepalingen"
+  ],
+  "Art. 543": [
+    "minimum",
+    "verhoogd",
+    "haat",
+    "266",
+    "straf verhoogd",
+    "artikel 266",
+    "het minimum",
+    "haat tegen"
+  ],
+  "Art. 544": [
+    "verwijdering",
+    "opgeheven",
+    "afsluitingen",
+    "vernieling",
+    "verwijdering van"
+  ],
+  "Art. 545": [
+    "gestraft",
+    "gevangenisstraf",
+    "straffen",
+    "grenzen",
+    "die straffen",
+    "wordt gestraft",
+    "gestraft hij"
+  ],
+  "Art. 546": [
+    "bezitsaanmatiging",
+    "gevangenisstraf",
+    "binnendringen",
+    "inwerkingtreding",
+    "een bezitsaanmatiging",
+    "bezitsaanmatiging op"
+  ],
+  "Art. 546/1": [
+    "havenfaciliteit",
+    "gevangenisstraf",
+    "gestraft",
+    "inwerkingtreding",
+    "belgisch scheepvaartwetboek",
+    "een havenfaciliteit",
+    "havenfaciliteit bedoeld"
+  ],
+  "Art. 546/2": [
+    "misdrijf",
+    "gevangenisstraf",
+    "gestraft",
+    "straffen",
+    "misdrijf bedoeld",
+    "misdrijf wordt",
+    "bedoelde misdrijf"
+  ],
+  "Art. 546/3": [
+    "overtreding",
+    "overstroming",
+    "straffen",
+    "strafbare",
+    "straffen bepaald",
+    "een overtreding",
+    "worden verdubbeld"
+  ],
+  "Art. 547": [
+    "overstroming",
+    "gestraft",
+    "opsluiting",
+    "inwerkingtreding",
+    "overstroming in",
+    "worden gestraft"
+  ],
+  "Art. 548": [
+    "518",
+    "toepasselijk",
+    "vorige",
+    "bepaling",
+    "artikel 518",
+    "518 is",
+    "toepasselijk op"
+  ],
+  "Art. 549": [
+    "schadelijke",
+    "bedrieglijk",
+    "water",
+    "inwerkingtreding",
+    "schadelijke wijze",
+    "tot geldboete",
+    "bedrieglijk andermans"
+  ],
+  "Art. 550": [
+    "beschadiging",
+    "gestraft",
+    "geldboete gevangenisstraf",
+    "eigendommen onder",
+    "naast geldboete",
+    "worden gestraft"
+  ],
+  "Art. 550bis": [
+    "gevangenisstraf",
+    "informaticasysteem",
+    "gestraft",
+    "inwerkingtreding",
+    "een informaticasysteem",
+    "informaticasysteem overschrijdt",
+    "met gevangenisstraf"
+  ],
+  "Art. 550ter": [
+    "informaticasysteem",
+    "gevangenisstraf",
+    "gestraft",
+    "inwerkingtreding",
+    "informaticasysteem verandert",
+    "informaticasysteem invoert",
+    "een informaticasysteem",
+    "gevangenisstraf zes"
+  ],
+  "Art. 554": [
+    "overtredingen",
+    "inwerkingtreding",
+    "opgeheven",
+    "tweede",
+    "ii overtredingen",
+    "048 inwerkingtreding",
+    "overtredingen van"
+  ],
+  "Art. 558": [
+    "overtredingen",
+    "inwerkingtreding",
+    "opgeheven",
+    "iii",
+    "iii overtredingen",
+    "048 inwerkingtreding",
+    "overtredingen van",
+    "inwerkingtreding 01"
+  ],
+  "Art. 559": [
+    "beschadigen",
+    "gestraft",
+    "inwerkingtreding",
+    "roerende",
+    "opzettelijk beschadigen",
+    "beschadigen of",
+    "eigendommen opzettelijk"
+  ],
+  "Art. 561": [
+    "nachtgerucht",
+    "gestraft",
+    "gevangenisstraf",
+    "inwerkingtreding",
+    "aan nachtgerucht",
+    "gestraft 2000",
+    "nachtgerucht of"
+  ],
+  "Art. 562": [
+    "gevangenisstraf",
+    "overtredingen",
+    "inwerkingtreding",
+    "opgeheven",
+    "geldboete gevangenisstraf",
+    "overtredingen in",
+    "naast geldboete"
+  ],
+  "Art. 563": [
+    "gestraft",
+    "beledigen",
+    "beledigingen",
+    "beschadigen",
+    "gestraft 2000",
+    "opzettelijk beschadigen",
+    "worden gestraft"
+  ],
+  "Art. 563bis": [
+    "gestraft",
+    "politieverordening",
+    "verborgen",
+    "straffen",
+    "deze straffen",
+    "worden gestraft",
+    "een politieverordening"
+  ],
+  "Art. 564": [
+    "gevangenisstraf",
+    "rechtbank",
+    "opheffing",
+    "bepalingen",
+    "geldboete gevangenisstraf",
+    "naast geldboete",
+    "rechtbank bevoegd"
+  ],
+  "Art. 565": [
+    "overtreding",
+    "inwerkingtreding",
+    "overtreder",
+    "hersteld",
+    "bestaat herhaling",
+    "herhaling wanneer",
+    "dezelfde overtreding",
+    "overtreder wegens"
+  ],
+  "Art. 566": [
+    "verminderd",
+    "euro",
+    "omstandigheden",
+    "inwerkingtreding",
+    "vijf euro",
+    "verzachtende omstandigheden",
+    "euro verminderd",
+    "verminderd worden"
+  ]
 }
