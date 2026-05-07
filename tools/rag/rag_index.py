@@ -67,7 +67,10 @@ BRON_DIRS = {
 CONCEPTS_DIR = ROOT / "data" / "concept_records"
 
 MIN_CHUNK_CHARS = 100
-MAX_CHUNK_CHARS = 24_000   # ADR-006 §4 — bge-m3 8K-token-window met marge
+# Aligneren met MPS_MAX_SEQ_LENGTH (2048 tokens ≈ 8K chars) zodat elke char
+# in elke chunk daadwerkelijk in de embedding zit. Voorheen: 24K chars,
+# maar dan wordt de tail van lange chunks niet ge-embed bij max_seq_length=2048.
+MAX_CHUNK_CHARS = 8_000
 
 
 # ---------------------------------------------------------------------------
@@ -631,16 +634,22 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
         for chunk in chunks:
             if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
                 continue
-            ids.append(chunk["id"])
-            texts.append(chunk["text"])
-            metadatas.append({
-                "bron_rol":  "norm",
-                "bron":      norm_naam,
-                "bestand":   path.name,
-                "sectie":    chunk["heading"],
-                "themas":    json.dumps(fm.get("themas", [])),
-                "breadcrumb": breadcrumb,
-            })
+            # Splits ook hier: één H1-norm zonder verdere headings produceert
+            # vaak één megachunk. ADR-006 §4: hard max 24K chars.
+            for fragment in split_long_chunk(chunk, MAX_CHUNK_CHARS):
+                part = fragment.get("_split_part", "")
+                fid = f"{chunk['id']}_part{part.split('/')[0]}" if part else chunk["id"]
+                ids.append(fid)
+                texts.append(fragment["text"])
+                metadatas.append({
+                    "bron_rol":  "norm",
+                    "bron":      norm_naam,
+                    "bestand":   path.name,
+                    "sectie":    chunk["heading"],
+                    "themas":    json.dumps(fm.get("themas", [])),
+                    "breadcrumb": breadcrumb,
+                    "split_part": part,
+                })
 
     if ids:
         _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
@@ -681,17 +690,28 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
 
         if len(content) <= 40_000 or not re.search(r"^#{2,4} ", content, re.MULTILINE):
             full_text = f"{breadcrumb}\n\n{content}"
-            ids.append(f"{source_id}__volledig")
-            texts.append(full_text)
-            metadatas.append({
-                "bron_rol":  "advies",
-                "bron":      nummer,
-                "bestand":   path.name,
-                "sectie":    "",
-                "themas":    json.dumps(fm.get("themas", [])),
-                "datum":     str(fm.get("datum", "")),
+            base_chunk = {
+                "id": f"{source_id}__volledig",
+                "text": full_text,
+                "heading": "",
+                "path": [],
                 "breadcrumb": breadcrumb,
-            })
+            }
+            for fragment in split_long_chunk(base_chunk, MAX_CHUNK_CHARS):
+                part = fragment.get("_split_part", "")
+                fid = f"{source_id}__volledig_part{part.split('/')[0]}" if part else f"{source_id}__volledig"
+                ids.append(fid)
+                texts.append(fragment["text"])
+                metadatas.append({
+                    "bron_rol":  "advies",
+                    "bron":      nummer,
+                    "bestand":   path.name,
+                    "sectie":    "",
+                    "themas":    json.dumps(fm.get("themas", [])),
+                    "datum":     str(fm.get("datum", "")),
+                    "breadcrumb": breadcrumb,
+                    "split_part": part,
+                })
         else:
             chunks = split_generic(content, source_id, breadcrumb_prefix=breadcrumb)
             for chunk in chunks:
@@ -701,17 +721,21 @@ def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: 
                     f"{breadcrumb[:-1]} → {chunk['heading']}]"
                     if chunk["heading"] else breadcrumb
                 )
-                ids.append(chunk["id"])
-                texts.append(chunk["text"])
-                metadatas.append({
-                    "bron_rol":  "advies",
-                    "bron":      nummer,
-                    "bestand":   path.name,
-                    "sectie":    chunk["heading"],
-                    "themas":    json.dumps(fm.get("themas", [])),
-                    "datum":     str(fm.get("datum", "")),
-                    "breadcrumb": section_breadcrumb,
-                })
+                for fragment in split_long_chunk(chunk, MAX_CHUNK_CHARS):
+                    part = fragment.get("_split_part", "")
+                    fid = f"{chunk['id']}_part{part.split('/')[0]}" if part else chunk["id"]
+                    ids.append(fid)
+                    texts.append(fragment["text"])
+                    metadatas.append({
+                        "bron_rol":  "advies",
+                        "bron":      nummer,
+                        "bestand":   path.name,
+                        "sectie":    chunk["heading"],
+                        "themas":    json.dumps(fm.get("themas", [])),
+                        "datum":     str(fm.get("datum", "")),
+                        "breadcrumb": section_breadcrumb,
+                        "split_part": part,
+                    })
 
     if ids:
         _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
