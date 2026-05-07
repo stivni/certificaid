@@ -1,25 +1,10 @@
 ---
-bijgewerkt: 30.01.2003
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: I
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art26-2003.pdf
-    sha256: 9a616600e724ea5ce9a9c66bc65b9d12cad11aaa7954d1efd33376da72e659f0
-    version: 30.01.2003
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- I
-wet: K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december
-  2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
+tags: ["I"]
+itaa-lex-sectie: "I"
+wet: "K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
+status: "beschikbaar"
+bijgewerkt: "30.01.2003"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)

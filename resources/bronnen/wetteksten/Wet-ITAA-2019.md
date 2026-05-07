@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XXI
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
-    sha256: d8e074afec249aa6819b22493d5c85bebc4d30251de41ec2eed3b455e8b05b0c
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XXI
-- '4.0'
-wet: Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs
-  en de Accountants
+tags: ["XXI", "4.0"]
+itaa-lex-sectie: "XXI"
+wet: "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants
@@ -1344,3 +1328,4 @@ De volgende wetten worden opgeheven op de datum vastgesteld door de Koning :
 Deze wet treedt in werking op de datum bepaald door de Koning, met uitzondering van de artikel en 127 tot en met 129 die in werking treden op 1 juni 2019.
 
   (NOTA : Inwerkingtreding vastgesteld op 30-09-2020 door KB 2020-09-11/10, art. 1)
+

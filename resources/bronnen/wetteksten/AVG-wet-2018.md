@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 30.07.2018
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: XIX
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/AVG-wet-2018.pdf
-    sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
-    version: 30.07.2018
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XIX
-- '4.0'
-wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking
-  tot de verwerking van persoonsgegevens
+tags: ["XIX", "4.0"]
+itaa-lex-sectie: "XIX"
+wet: "Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens"
+status: "beschikbaar"
+bijgewerkt: "30.07.2018"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Belgische AVG-uitvoeringswet 2018

@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '2024'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
-    sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
-    version: '2024'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van
-  belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen"
+status: "beschikbaar"
+bijgewerkt: "2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen

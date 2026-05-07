@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 25.11.2009
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: X
-provenance:
-  generated_at: '2026-05-07T13:15:18Z'
-  inputs:
-  - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
-    sha256: 5fff924203fcc785ca08213b7b43ca58dddc4caf14881882119732358b8c9bf2
-    version: 25.11.2009
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- X
-- '2.8'
-wet: Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke
-  fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van
-  activa en aandelenruil (gecodificeerde versie)
+tags: ["X", "2.8"]
+itaa-lex-sectie: "X"
+wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)"
+status: "beschikbaar"
+bijgewerkt: "25.11.2009"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
@@ -707,3 +690,5 @@ Bijlage II
 —
 
 Bijlage III
+
+

@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 12.03.1970
-bron: Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:58Z'
-  inputs:
-  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-    sha256: cf68c748ad2207d98b027cc121bbec354337d2cf0d57d96063da2f6181083e88
-    version: 12.03.1970
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van
-  de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde
-  waarde
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde"
+status: "beschikbaar"
+bijgewerkt: "12.03.1970"
+bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 13.04.2019
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: III
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
-    sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
-    version: 13.04.2019
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- III
-- '2.2'
-- '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams
-  Gewest
+tags: ["III", "2.2", "2.3"]
+itaa-lex-sectie: "III"
+wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest"
+status: "beschikbaar"
+bijgewerkt: "13.04.2019"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest
@@ -913,3 +896,4 @@ Art. 123 Art. 3.13.2.0.2
 
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 124 Art. 5.0.0.0.8
+

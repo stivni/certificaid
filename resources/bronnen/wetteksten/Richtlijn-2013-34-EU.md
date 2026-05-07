@@ -1,28 +1,10 @@
 ---
-bijgewerkt: 28.05.2024
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XIII
-provenance:
-  generated_at: '2026-05-07T13:15:18Z'
-  inputs:
-  - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
-    sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
-    version: 28.05.2024
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XIII
-- '1.1'
-- '1.2'
-wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende
-  de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en
-  aanverwante verslagen van bepaalde ondernemingsvormen
+tags: ["XIII", "1.1", "1.2"]
+itaa-lex-sectie: "XIII"
+wet: "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen"
+status: "beschikbaar"
+bijgewerkt: "28.05.2024"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
@@ -4358,3 +4340,4 @@ Artikel 41, leden 2 t/m 5
 ### Art. 55
 
 —
+

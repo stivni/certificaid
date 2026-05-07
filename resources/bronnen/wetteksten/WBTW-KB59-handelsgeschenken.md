@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '2020'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
-    sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
-    version: '2020'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken
-  van geringe waarde
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde"
+status: "beschikbaar"
+bijgewerkt: "2020"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken

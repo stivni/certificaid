@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 27.04.2016
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: XIX
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/EU-AVG-Verordening-2016-679.pdf
-    sha256: 7e7d37376612a2f097ae2861cb621eebe7f169ca5f6d93d94e294e74c09516cd
-    version: 27.04.2016
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XIX
-- '4.0'
-wet: Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april
-  2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)
+tags: ["XIX", "4.0"]
+itaa-lex-sectie: "XIX"
+wet: "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)"
+status: "beschikbaar"
+bijgewerkt: "27.04.2016"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679

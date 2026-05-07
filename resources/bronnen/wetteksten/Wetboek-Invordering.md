@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: VII
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
-    sha256: c73b84f709753a3bae653ec5aa128ed53cdfc7a3dde79edf2a3671df996e4963
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VII
-- '2.5'
-wet: Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale
-  schuldvorderingen
+tags: ["VII", "2.5"]
+itaa-lex-sectie: "VII"
+wet: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
@@ -950,3 +934,4 @@ De ambtenaren van de administratie van de Federale Overheidsdienst Financiën be
    Het eerste lid is niet van toepassing op de ambtenaren die deelnemen aan het in [1 artikel 29, § 3, tweede lid]1, van het Wetboek van Strafvordering bedoelde overleg.
    ----------
    (1)<W 2020-06-11/15, art. 12, 003; Inwerkingtreding : 01-01-2020>
+

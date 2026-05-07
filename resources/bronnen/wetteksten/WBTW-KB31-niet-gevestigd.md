@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 02.04.2002
-bron: Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:58Z'
-  inputs:
-  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-    sha256: cf68c748ad2207d98b027cc121bbec354337d2cf0d57d96063da2f6181083e88
-    version: 02.04.2002
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten
-  van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht
-  door niet in België gevestigde belastingplichtigen
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen"
+status: "beschikbaar"
+bijgewerkt: "02.04.2002"
+bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

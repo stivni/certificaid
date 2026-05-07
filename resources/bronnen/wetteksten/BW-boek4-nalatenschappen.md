@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XI
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
-    sha256: 43d46aa5ee3df05c14a99033ec6ee9d3c17d45f4ca559fcb41e2ffc9216550e1
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XI
-- '3.1'
-- '2.6'
-wet: Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten
+tags: ["XI", "3.1", "2.6"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten
@@ -2253,3 +2237,4 @@ Raadpleging
 [1 De Koning kan de nadere regels inzake het beheer alsook de vorm en modaliteiten van de inschrijving in, en kennisgeving aan, het centraal register van testamenten bepalen.]1
    ----------
    (1)<Ingevoegd bij W 2022-07-30/03, art. 31, 003; Inwerkingtreding : 01-11-2022>
+

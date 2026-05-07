@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 03.04.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: IV.A
-provenance:
-  generated_at: '2026-05-07T13:15:15Z'
-  inputs:
-  - id: resources/raw/wetteksten/VCF-2026.pdf
-    sha256: e48d80794da796d8b9822a99acf06ce70e7302f277f0973bd7e942acd3a59aa0
-    version: 03.04.2026
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- IV.A
-- '2.5'
-- '2.6'
-wet: Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)
+tags: ["IV.A", "2.5", "2.6"]
+itaa-lex-sectie: "IV.A"
+wet: "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)"
+status: "beschikbaar"
+bijgewerkt: "03.04.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

@@ -1,25 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XIII
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/WER.pdf
-    sha256: f1253ed1adb2f84082517dca7b9d6a9a98d457cda4c373b694f201c2ef3b48d5
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XIII
-- '1.4'
-wet: Wetboek van Economisch Recht
+tags: ["XIII", "1.4"]
+itaa-lex-sectie: "XIII"
+wet: "Wetboek van Economisch Recht"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Wetboek van Economisch Recht
@@ -28287,3 +28272,4 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   Art. N. Artikel 10 van de Wet tot invoering van het Wetboek van economisch recht : "De Koning bepaalt de datum van inwerkingtreding van deze wet".
 
   ((NOTA : Inwerkingtreding vastgesteld op 12-12-2013 door AR 2013-12-08/01, art. 1)
+

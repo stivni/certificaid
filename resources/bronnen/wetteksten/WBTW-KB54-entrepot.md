@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '2023'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
-    sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
-    version: '2023'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot
-  dan douane-entrepot bedoeld in artikel 39quater van het WBTW
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW"
+status: "beschikbaar"
+bijgewerkt: "2023"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)

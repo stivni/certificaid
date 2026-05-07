@@ -1,24 +1,10 @@
 ---
-bijgewerkt: 03.07.1978
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: XVI
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
-    sha256: c2bc8270cd3dd103e34066197790057edfcc50c512815decc06b6e9aea640116
-    version: 03.07.1978
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XVI
-wet: Wet 3 juli 1978 betreffende de arbeidsovereenkomsten
+tags: ["XVI"]
+itaa-lex-sectie: "XVI"
+wet: "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten"
+status: "beschikbaar"
+bijgewerkt: "03.07.1978"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Wet arbeidsovereenkomsten 1978

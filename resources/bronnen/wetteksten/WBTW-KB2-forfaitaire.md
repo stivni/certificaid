@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '2018'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
-    sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
-    version: '2018'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake
-  btw
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw"
+status: "beschikbaar"
+bijgewerkt: "2018"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # BTW KB nr. 2 — Forfaitaire regeling

@@ -1,27 +1,10 @@
 ---
-bijgewerkt: '1988'
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: I
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/Verdrag-WABB.pdf
-    sha256: ecfc8f00db22913505065b92b1e46272baa3cb95594f27889156b720b2cbb1bb
-    version: '1988'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- I
-- '2.1'
-- '2.5'
-wet: Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden
-  (WABB/CMAAT)
+tags: ["I", "2.1", "2.5"]
+itaa-lex-sectie: "I"
+wet: "Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)"
+status: "beschikbaar"
+bijgewerkt: "1988"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)

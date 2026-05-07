@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 29.04.2024
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: VI.C
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-    version: 29.04.2024
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.C
-- '2.4'
-wet: Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie
-  Fisconet, bijgewerkt t.e.m. 29.04.2024)
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)"
+status: "beschikbaar"
+bijgewerkt: "29.04.2024"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)

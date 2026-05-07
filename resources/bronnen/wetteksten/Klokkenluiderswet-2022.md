@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 28.11.2022
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: XVIII
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
-    sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
-    version: 28.11.2022
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XVIII
-- '4.0'
-wet: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op
-  het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private
-  sector
+tags: ["XVIII", "4.0"]
+itaa-lex-sectie: "XVIII"
+wet: "Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector"
+status: "beschikbaar"
+bijgewerkt: "28.11.2022"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Klokkenluiderswet 2022

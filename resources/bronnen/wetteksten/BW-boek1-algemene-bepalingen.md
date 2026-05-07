@@ -1,25 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XI
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/BW-boek1-algemene-bepalingen.pdf
-    sha256: ad2ba310c4c88af06d92641f8080f97a843a97717565956ee687d5928e0474cb
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XI
-- '3.1'
-wet: Burgerlijk Wetboek — Boek 1 — Algemene bepalingen
+tags: ["XI", "3.1"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek — Boek 1 — Algemene bepalingen"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Burgerlijk Wetboek — Boek 1 — Algemene bepalingen
@@ -50,3 +35,4 @@ Artikel 1 van het oude Burgerlijk Wetboek, vernummerd bij de wet van 18 juni 201
 ## Art. 5
 
 Deze wet treedt in werking op de eerste dag van de zesde maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
+

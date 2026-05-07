@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 12.02.2008
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XXI
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
-    sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
-    version: 12.02.2008
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XXI
-- '4.0'
-wet: Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning
-  van beroepskwalificaties
+tags: ["XXI", "4.0"]
+itaa-lex-sectie: "XXI"
+wet: "Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties"
+status: "beschikbaar"
+bijgewerkt: "12.02.2008"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
@@ -975,3 +959,4 @@ Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bek
 
   Art. N5. Bijlage V. - Omzettingstabel.
   (Tabel niet opgenomen om technische redenen. Zie B.S. 02-04-2008, p. 17918-17921).
+

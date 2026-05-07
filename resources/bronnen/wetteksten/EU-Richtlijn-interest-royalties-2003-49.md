@@ -1,27 +1,10 @@
 ---
-bijgewerkt: 26.06.2003
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: X
-provenance:
-  generated_at: '2026-05-07T13:15:18Z'
-  inputs:
-  - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
-    sha256: c84f67e63325e8fac7258bd751f5feef71fef11e23d6c5c0885349e65b5faf58
-    version: 26.06.2003
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- X
-- '2.8'
-wet: Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke
-  belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden
-  ondernemingen van verschillende lidstaten
+tags: ["X", "2.8"]
+itaa-lex-sectie: "X"
+wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten"
+status: "beschikbaar"
+bijgewerkt: "26.06.2003"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
@@ -301,3 +284,5 @@ l) Handelsvennootschappen, burgerlijke vennootschappen met handelsvorm, coöpera
 m) Ondernemingen naar Fins recht, geheten osakeyhtiö/aktiebolag, osuuskunta/andelslag, säästöpankki/sparbank en vakuutusyhtiö/försäkringsbolag.
 n) Ondernemingen naar Zweeds recht, geheten aktiebolag, försäkringsaktiebolag.
 o) Ondernemingen naar het recht van het Verenigd Koninkrijk.
+
+

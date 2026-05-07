@@ -1,25 +1,10 @@
 ---
-bijgewerkt: 16.03.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VIII
-provenance:
-  generated_at: '2026-05-07T13:15:15Z'
-  inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VIII
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
+tags: ["VIII", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest"
+status: "beschikbaar"
+bijgewerkt: "16.03.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Registratierechten — Waals Gewest

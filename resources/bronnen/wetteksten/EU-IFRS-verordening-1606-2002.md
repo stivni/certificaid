@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 11.09.2002
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: ''
-provenance:
-  generated_at: '2026-05-07T13:15:18Z'
-  inputs:
-  - id: resources/raw/wetteksten/EU-IFRS-verordening-1606-2002.pdf
-    sha256: 3058ca9daf16c08f91cb19b47c6e907350b49162a19276aa0bba741d3b1cce24
-    version: 11.09.2002
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- '1.2'
-- '1.5'
-wet: Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli
-  2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
+tags: ["1.2", "1.5"]
+itaa-lex-sectie: ""
+wet: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen"
+status: "beschikbaar"
+bijgewerkt: "11.09.2002"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
@@ -234,3 +218,4 @@ De voorzitter
 P. COX
 
 T. PEDERSEN
+

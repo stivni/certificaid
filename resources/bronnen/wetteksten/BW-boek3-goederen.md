@@ -1,25 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XI
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
-    sha256: ca4d76f69819a31bf460a475bb0b651d3e8dec3da8d6f15350cccabd7f97564d
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XI
-- '3.1'
-wet: Burgerlijk Wetboek — Boek 3 — Goederen
+tags: ["XI", "3.1"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek — Boek 3 — Goederen"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Burgerlijk Wetboek — Boek 3 — Goederen
@@ -1512,3 +1497,4 @@ Deze wet treedt in werking op de eerste dag van de achttiende maand na die waari
 
 De artikelen 3.30, § 1, 3°, 3.30, § 1, 5°, 3.30, § 1, 7°, en 3.30, § 2, tweede lid, van het Burgerlijk Wetboek, ingevoegd bij artikel 2, treden in werking op een door de Koning te bepalen datum, en uiterlijk op 1 juli
  2022.
+

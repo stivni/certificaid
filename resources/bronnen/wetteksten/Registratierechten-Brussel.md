@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 16.03.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VIII
-provenance:
-  generated_at: '2026-05-07T13:15:15Z'
-  inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
-    sha256: a5a42fdb62118bd14b1ff76a771cced7b25a5b4d9859eae758e7361286b4eb68
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VIII
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk
-  Gewest
+tags: ["VIII", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest"
+status: "beschikbaar"
+bijgewerkt: "16.03.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest

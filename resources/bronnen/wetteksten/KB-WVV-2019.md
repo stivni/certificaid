@@ -1,28 +1,10 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XV
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/KB-WVV-2019.pdf
-    sha256: 2d9f15cf99469452fb1ab8d567f7243cc5d020e89a7fdd2002458be64e991f3d
-    version: 24.12.2025
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XV
-- '1.5'
-- '3.1'
-- '3.2'
-wet: Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen
-  en verenigingen
+tags: ["XV", "1.5", "3.1", "3.2"]
+itaa-lex-sectie: "XV"
+wet: "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen
@@ -3813,3 +3795,4 @@ De minister van Economie, de minister van Justitie, de minister van Financiën e
   Art. N9. Bijlage 9.
 
   (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42423)
+

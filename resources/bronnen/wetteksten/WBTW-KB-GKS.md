@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '2024'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VI.B
-provenance:
-  generated_at: '2026-05-07T13:15:16Z'
-  inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
-    sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
-    version: '2024'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan
-  een geregistreerd kassasysteem moet voldoen
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen"
+status: "beschikbaar"
+bijgewerkt: "2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # BTW KB — Geregistreerd kassasysteem (GKS)

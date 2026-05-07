@@ -1,26 +1,11 @@
 ---
-bijgewerkt: 10.02.2026
-bron: Fisconet (officieuze gecoördineerde versie, editie 2026)
-itaa-lex-sectie: II
-provenance:
-  generated_at: '2026-05-07T13:15:15Z'
-  inputs:
-  - id: resources/raw/wetteksten/WIB92.pdf
-    sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
-    version: 10.02.2026
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-raw-bron: resources/wetteksten/raw/WIB92-volledig.pdf
-status: beschikbaar
-tags:
-- wettekst
-- II
-wet: Wetboek 10 april 1992 van de inkomstenbelastingen 1992 (WIB92)
+tags: [wettekst, "II"]
+itaa-lex-sectie: "II"
+wet: "Wetboek 10 april 1992 van de inkomstenbelastingen 1992 (WIB92)"
+status: "beschikbaar"
+bijgewerkt: "10.02.2026"
+bron: "Fisconet (officieuze gecoördineerde versie, editie 2026)"
+raw-bron: "resources/wetteksten/raw/WIB92-volledig.pdf" # nog te downloaden: geconsolideerde volledige versie
 ---
 
 # Wetboek van de Inkomstenbelastingen 1992 (WIB92)

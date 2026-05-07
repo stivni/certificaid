@@ -1,26 +1,10 @@
 ---
-bijgewerkt: '05.2025'
-bron: aclvb.be — Algemene Centrale der Liberale Vakbonden van België
-itaa-lex-sectie: ''
-provenance:
-  generated_at: '2026-05-07T13:15:18Z'
-  inputs:
-  - id: resources/raw/wetteksten/belastinggids-aclvb-2025.pdf
-    sha256: 6fc36df9c407289d6ef85297bdd13a9aca1a5ca13f492a7ffbe364ba796b1010
-    version: '05.2025'
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- '2.2'
-- '2.3'
-- '2.5'
-wet: Belastinggids 2025 — ACLVB
+tags: ["2.2", "2.3", "2.5"]
+itaa-lex-sectie: ""
+wet: "Belastinggids 2025 — ACLVB"
+status: "beschikbaar"
+bijgewerkt: "05.2025"
+bron: "aclvb.be — Algemene Centrale der Liberale Vakbonden van België"
 ---
 
 # Belastinggids 2025 (ACLVB)

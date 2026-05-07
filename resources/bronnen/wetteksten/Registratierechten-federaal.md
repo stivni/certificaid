@@ -1,26 +1,10 @@
 ---
-bijgewerkt: 01.04.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-itaa-lex-sectie: VIII
-provenance:
-  generated_at: '2026-05-07T13:15:15Z'
-  inputs:
-  - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
-    sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
-    version: 01.04.2026
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- VIII
-- '2.5'
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
+tags: ["VIII", "2.5", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal"
+status: "beschikbaar"
+bijgewerkt: "01.04.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 ---
 
 # Registratierechten — federaal

@@ -1,24 +1,10 @@
 ---
-bijgewerkt: gecoördineerd
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-itaa-lex-sectie: XII
-provenance:
-  generated_at: '2026-05-07T13:15:17Z'
-  inputs:
-  - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
-    sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
-    version: gecoördineerd
-  stale: false
-  stale_reason: null
-  tooling:
-    model: null
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    prompt_version: null
-status: beschikbaar
-tags:
-- XII
-wet: Strafwetboek 8 juni 1867 (Oud Strafwetboek)
+tags: ["XII"]
+itaa-lex-sectie: "XII"
+wet: "Strafwetboek 8 juni 1867 (Oud Strafwetboek)"
+status: "beschikbaar"
+bijgewerkt: "gecoördineerd"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)
@@ -5956,3 +5942,4 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
 <W 2005-07-20/41, art. 22, 051; Inwerkingtreding : 08-08-2005 (wordt hersteld zoals hij was opgesteld voor hun opheffing)> Wanneer in de gevallen [1 in deze titel]1 omschreven, verzachtende omstandigheden aanwezig zijn, kan de geldboete tot beneden vijf [euro] verminderd worden, zonder dat zij ooit lager mag zijn dan een [euro] <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>.
    ----------
    (1)<W 2014-05-05/09, art. 18, 106; Inwerkingtreding : 18-07-2014>
+
