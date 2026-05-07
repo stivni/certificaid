@@ -34,6 +34,7 @@ Gebruik:
 
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -49,6 +50,10 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
+
+# MPS-fallback: SDPA-ops die MPS niet aankan vallen automatisch terug op CPU.
+# Zonder dit crasht bge-m3 bij lange artikelen (attention buffer overflow).
+os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 
 BRON_DIRS = {
     "wettekst": ROOT / "resources" / "bronnen" / "wetteksten",
@@ -448,8 +453,35 @@ def split_generic(text: str, source_id: str, breadcrumb_prefix: str = "") -> lis
 # ---------------------------------------------------------------------------
 
 def _mps_safe_batch_size(device: str) -> int:
-    """MPS heeft beperkte GPU-buffer per batch — gebruik kleinere batches."""
-    return 16 if device == "mps" else 200
+    """MPS heeft beperkte GPU-buffer per batch — gebruik kleinere upsert-batches."""
+    return 32 if device == "mps" else 200
+
+
+def make_embedding_function(model_name: str, device: str):
+    """
+    Maak een ChromaDB-compatibele embedding-functie.
+    Op MPS: gebruik sentence_transformers direct met batch_size=1 zodat
+    de SDPA-fallback per chunk kan triggeren (PYTORCH_ENABLE_MPS_FALLBACK=1).
+    """
+    if device == "mps":
+        from sentence_transformers import SentenceTransformer
+
+        model = SentenceTransformer(model_name, device=device)
+
+        class MPSEmbeddingFunction:
+            def __call__(self, input: list[str]) -> list[list[float]]:
+                # batch_size=1: één chunk tegelijk, geeft MPS-fallback ruimte
+                embeddings = model.encode(
+                    input,
+                    batch_size=1,
+                    show_progress_bar=False,
+                    normalize_embeddings=True,
+                )
+                return embeddings.tolist()
+
+        return MPSEmbeddingFunction()
+
+    return SentenceTransformerEmbeddingFunction(model_name=model_name, device=device)
 
 
 def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
@@ -763,7 +795,7 @@ def main():
         print(f"→ Scope: {programmaonderdeel} — {chroma_path.name}")
     print(f"→ ChromaDB: {chroma_path}")
 
-    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
+    ef = make_embedding_function(EMBEDDING_MODEL, device)
     batch_size = _mps_safe_batch_size(device)
     client = get_client(chroma_path)
 
