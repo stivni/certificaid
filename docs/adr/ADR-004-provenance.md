@@ -1,7 +1,7 @@
 # ADR-004: Provenance & versionering
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 (gewijzigd 2026-05-08: `trust:` subkey toegevoegd aan schema)
 
 ## Context
 
@@ -31,6 +31,12 @@ provenance:
   generated_at: "2026-05-07T10:23:00Z"
   stale: false
   stale_reason: null
+  trust:                         # zie ADR-005 §5 — kwaliteits-gate output
+    status: "unreviewed"         # unreviewed | trusted | needs-rework | rejected
+    qa_version: null             # run-id van qa_bron.py / verdicts-bestand
+    confirmed_at: null           # ISO-datum van laatste status-wijziging
+    confirmed_by: null           # "human" | "subagent-sonnet-4-6" | "default" | …
+    rationale: null              # 1-3 zinnen optionele toelichting
 ```
 
 **Per artefact-type plek**:
@@ -40,6 +46,10 @@ provenance:
 - Snapshot-fiches: in YAML frontmatter
 
 **Stale-marking**: input-hash verandert → `tools/lib/provenance.py` cascadeert `stale: true` + reden naar alle downstream artefacten. Geen automatische regeneratie (zie ADR-003).
+
+**Trust-marking**: `trust.status` is de operationele output van de kwaliteits-gate (ADR-005 §5). Default `unreviewed` voor alle nieuwe of bestaande bronnen zonder expliciete beoordeling. Wordt door `tools/etl/mark_trusted.py` op `trusted | needs-rework | rejected` gezet, eventueel vanuit een subagent-verdict-bestand. `tools/rag/rag_index.py` filtert default op `trust.status == "trusted"`.
+
+Verband met stale: een ETL-update die een bron hercreëert kan beschouwd worden als reden om de vorige trust-confirmatie te laten vervallen (terug naar `unreviewed`). Die cascade is nog niet geïmplementeerd; voorlopig blijft trust expliciet door de mens beheerd via `mark_trusted.py`.
 
 **Chunk-id-stabiliteit als requirement**: voor incremental rebuild (alleen veranderde chunks her-embedden, alleen stale concept-velden her-extraheren) moeten chunk-ids stabiel zijn over runs zolang de chunk-strategie ongewijzigd is.
 

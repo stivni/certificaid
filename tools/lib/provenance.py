@@ -55,6 +55,38 @@ class Tooling:
     prompt_version: Optional[str] = None
 
 
+# Trust-statussen — zie ADR-005 §5 (kwaliteits-gate output).
+TRUST_VALID_STATUSES = ("unreviewed", "trusted", "needs-rework", "rejected")
+
+
+@dataclass
+class Trust:
+    """QA-uitkomst per bron-MD; bepaalt of rag_index.py de bron oppakt.
+
+    - unreviewed: default; nog niet beoordeeld → niet geïndexeerd
+    - trusted:    bevestigd OK voor RAG → geïndexeerd
+    - needs-rework: ETL-fix nodig voor we het in de index willen
+    - rejected:   structureel niet bruikbaar; weglaten
+    """
+    status: str = "unreviewed"
+    qa_version: Optional[str] = None
+    confirmed_at: Optional[str] = None
+    confirmed_by: Optional[str] = None
+    rationale: Optional[str] = None
+
+    def __post_init__(self) -> None:
+        if self.status not in TRUST_VALID_STATUSES:
+            raise ValueError(
+                f"Invalid trust status: {self.status!r}; "
+                f"expected one of {TRUST_VALID_STATUSES}"
+            )
+
+
+def default_trust() -> Trust:
+    """Default trust voor bronnen zonder expliciete trust-marking."""
+    return Trust(status="unreviewed", confirmed_by="default")
+
+
 @dataclass
 class Provenance:
     inputs: list[Input]
@@ -62,24 +94,30 @@ class Provenance:
     generated_at: str
     stale: bool = False
     stale_reason: Optional[str] = None
+    trust: Optional[Trust] = None
 
     def to_dict(self) -> dict:
-        return {
+        d = {
             "inputs": [asdict(i) for i in self.inputs],
             "tooling": asdict(self.tooling),
             "generated_at": self.generated_at,
             "stale": self.stale,
             "stale_reason": self.stale_reason,
         }
+        if self.trust is not None:
+            d["trust"] = asdict(self.trust)
+        return d
 
     @classmethod
     def from_dict(cls, data: dict) -> "Provenance":
+        trust_data = data.get("trust")
         return cls(
             inputs=[Input(**i) for i in data["inputs"]],
             tooling=Tooling(**data["tooling"]),
             generated_at=data["generated_at"],
             stale=data.get("stale", False),
             stale_reason=data.get("stale_reason"),
+            trust=Trust(**trust_data) if trust_data else None,
         )
 
 
@@ -239,6 +277,52 @@ def _to_plain(obj):
     if isinstance(obj, list):
         return [_to_plain(v) for v in obj]
     return obj
+
+
+def read_trust(path: Path) -> Trust:
+    """Lees trust-blok van een bron-MD (of JSON met _provenance).
+
+    Geeft altijd een Trust terug — ontbrekende trust of ontbrekende provenance
+    wordt geïnterpreteerd als default `Trust(status="unreviewed", confirmed_by="default")`.
+    Indexer kan dus altijd `read_trust(path).status == "trusted"` gebruiken.
+    """
+    prov = read_provenance(path)
+    if prov is None or prov.trust is None:
+        return default_trust()
+    return prov.trust
+
+
+def mark_trust(
+    path: Path,
+    status: str,
+    *,
+    confirmed_by: str = "human",
+    rationale: Optional[str] = None,
+    qa_version: Optional[str] = None,
+) -> Trust:
+    """Update het trust-blok op een bron-MD. Schrijft naar provenance.trust.
+
+    Vereist dat het bestand al een provenance-blok heeft (run
+    `tools/etl/backfill_trust_unreviewed.py` of `tools/etl/add_provenance.py` eerst).
+
+    Returnt de nieuwe Trust.
+    """
+    prov = read_provenance(path)
+    if prov is None:
+        raise ValueError(
+            f"{path}: geen provenance-blok aanwezig. "
+            f"Run eerst tools/etl/backfill_trust_unreviewed.py of add_provenance.py."
+        )
+    new_trust = Trust(
+        status=status,
+        qa_version=qa_version,
+        confirmed_at=now_iso(),
+        confirmed_by=confirmed_by,
+        rationale=rationale,
+    )
+    prov.trust = new_trust
+    write_provenance(path, prov)
+    return new_trust
 
 
 def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[bool, Optional[str]]:

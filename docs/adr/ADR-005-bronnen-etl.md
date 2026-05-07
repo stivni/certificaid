@@ -1,7 +1,7 @@
 # ADR-005: Bronnen-ETL
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 (gewijzigd 2026-05-08: §5 kwaliteits-gate uitgewerkt met trust-marker)
 **Vervangt**: archive/ADR-014 (oude ETL-pipeline), ADR-008 (bron_rol nu hier ingebed)
 
 ## Context
@@ -68,17 +68,95 @@ Per artikel `## Art. X`-headings (gezagsbron voor chunking, ADR-006). Tabellen a
 
 Stuurt confidence (ADR-010) en retrieval-filtering (ADR-006).
 
-### 5. Kwaliteits-gate (twee stappen, beide groen)
+### 5. Kwaliteits-gate (drie lagen → trust-marker)
 
-1. **Golden-set regressietest**: 5–10 bronnen handmatig OK-bevonden, hash-vergelijking bij re-run. Diff-rapport bij verschil.
-2. **Agent-QA**: LLM leest output-MD, scoort op structurele criteria (headings present, tabellen heel, geen leak van paginavoetregels, geen TOC-residu in body). Output: `pass` / `fail` / `warning` met concrete vindplaatsen.
+Bij ~580 bronnen is handmatig elk MD-bestand controleren niet realistisch, maar
+blind alles indexeren ondermijnt RAG-precisie. De gate is daarom drie lagen
+diep, met een expliciete trust-marker als operationele output.
 
-Een bron is "klaar" pas als beide groen.
+**Laag 1 — Deterministische checks** (`tools/etl/qa_bron.py`)
+
+Per bron-MD machine-controleerbare criteria:
+
+- frontmatter compleet voor bron-rol; provenance-blok valide (inputs+sha256, tooling, generated_at)
+- ≥ N `##`-headings voor bestand >X chars (anders: degraded chunking)
+- langste sectie tussen `##` < 24K chars (RAG-bovengrens, ADR-006)
+- geen extractie-artefacten: `\x0c` form feed, `....\d+$` TOC-rest, `Page N of N`,
+  `[A-Z][a-z]+\s{20,}[A-Z]` kolom-bleed, runs van >5 lege regels, OCR-flags
+  (`lAB`, `lBR`, l/I-verwarring op verdachte plekken)
+
+Output: `data/qa/<run-id>.json` met per bron `pass | warn | fail` + concrete
+vindplaatsen. Hergebruikt detectiepatronen uit `inject_norm_headings.py`.
+
+**Laag 2 — Subagent-judgment** (`tools/etl/qa_subagent_prompt.md`)
+
+Voor wat regels niet kunnen beoordelen — leesbaarheid, scrambled-words,
+verdwenen secties, abrupt einde, mismatch naam vs. inhoud. Een Claude Code
+subagent (Sonnet of Opus, lokaal — geen externe API per ADR-008 §0) leest de
+gemarkeerde bronnen plus het Laag-1-rapport en produceert per bron:
+
+```json
+{
+  "bestand": "...",
+  "aanbevolen_status": "trusted | needs-rework | rejected",
+  "rationale": "1-3 zinnen onderbouwing",
+  "concrete_problemen": [{"regel": N, "type": "...", "voorbeeld": "..."}],
+  "concrete_sterke_punten": ["..."]
+}
+```
+
+Heuristiek: conservatief — bij twijfel `needs-rework`, niet `trusted`. De
+output (`data/qa/<run-id>-verdicts.json`) is een aanbeveling, geen autoriteit.
+
+**Laag 3 — Mens-confirmatie** (`tools/etl/mark_trusted.py`)
+
+De mens bevestigt trust-statussen, hetzij per bron, per collection, of bulk
+vanuit een verdicts-bestand. Het resultaat landt als `provenance.trust` in de
+bron-MD (zie ADR-004 §schema-uitbreiding).
+
+**Vier trust-statussen:**
+
+| Status | Betekenis | rag_index gedrag |
+|---|---|---|
+| `unreviewed` | Default; nog niet beoordeeld | Geskipt |
+| `trusted` | Bevestigd OK voor RAG | Geïndexeerd |
+| `needs-rework` | Gemarkeerd: ETL-fix nodig | Geskipt |
+| `rejected` | Niet bruikbaar; weglaten | Geskipt |
+
+**Default-state strict**: bij introductie krijgen alle bestaande bronnen
+`unreviewed`. Niets in de RAG-index tot bewust `trusted` gemaakt
+(`tools/etl/backfill_trust_unreviewed.py`).
+
+**Golden-set regressietest** (parallel aan de drie lagen):
+5–10 bronnen handmatig OK-bevonden, hash-vergelijking bij re-run. Diff-rapport
+bij verschil. Bedoeld om regressies in de ETL-pipeline te vangen, niet om de
+inhoudelijke trust-beslissing te vervangen. Aparte tooling, niet in dezelfde
+PR.
+
+### 6. Indexering filtert op trust
+
+`tools/rag/rag_index.py` indexeert default alleen bronnen met
+`provenance.trust.status == "trusted"`. Geskipte bronnen worden geteld in de
+run-statistiek met reden. Een `--include-unreviewed` flag bestaat voor
+experimenten maar is niet de productieflow.
+
+Dankzij chunk-id-stabiliteit (ADR-004, ADR-006 §3.1), ChromaDB upsert én de
+chunk-sha-skip (`_batch_upsert` in `rag_index.py`) is het toevoegen van een
+nieuw-trusted bron volledig incrementeel: bestaande chunks behouden hun id én
+worden niet opnieuw geëmbed (de SHA wordt vergeleken vóór de embedding-call),
+nieuwe chunks worden toegevoegd. Conform ADR-004 §"Chunk-id-stabiliteit als
+requirement". Geverifieerd in test (2026-05-08): 16/21 chunks overgeslagen bij
+appenden van een tweede norm aan een collection met 16 bestaande chunks.
 
 ## Gevolgen
 
 - `tools/etl/convert.py` is dispatcher — `extract.method` selecteert de handler
-- `tools/etl/qa_agent.py` (nieuw) — LLM-QA per bron, deel van de gate
-- `resources/eval/golden/` — referentie-outputs voor regressietest
+- `tools/etl/qa_bron.py` (nieuw) — Laag 1 deterministische checks
+- `tools/etl/qa_subagent_prompt.md` (nieuw) — Laag 2 prompt-template (geen executable; mens kopieert in Claude Code Task-tool)
+- `tools/etl/mark_trusted.py` (nieuw) — Laag 3 mens-tool om trust te zetten
+- `tools/etl/backfill_trust_unreviewed.py` (one-off) — initiële migratie van bestaande bronnen
+- `tools/rag/rag_index.py` — krijgt trust-filter en `--include-unreviewed` flag
+- `tools/lib/provenance.py` — krijgt `Trust` dataclass (zie ADR-004)
+- `resources/eval/golden/` — referentie-outputs voor regressietest (later)
 - Open punten uit migratie blijven gelden: `justel_html`-handler implementeren, Oud-BW herconverteren, 104 legacy `type:`-bronnen migreren
-- ChromaDB-rebuild draait pas na groene gates op de POC-bronnen
+- ChromaDB-rebuild draait pas na groene gates + trust-confirmatie op de POC-bronnen

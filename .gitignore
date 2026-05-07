@@ -30,6 +30,9 @@ resources/raw/normen/
 data/chroma_db/
 data/chroma_db_*/
 
+# QA-rapporten (gegenereerd door tools/etl/qa_bron.py — per-run, niet getracked)
+data/qa/
+
 # Concept-records (gegenereerd door extractor — gitignored want herbouwbaar;
 # geverifieerde records kunnen later tracked worden wanneer status = geverifieerd)
 data/concept_records/

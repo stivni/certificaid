@@ -34,7 +34,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 
 | Taak | Relevante ADRs |
 |---|---|
-| Bron toevoegen of herconverteren | ADR-005 (ETL), ADR-004 (provenance bij output), ADR-003 (kwaliteits-gate) |
+| Bron toevoegen of herconverteren | ADR-005 (ETL), ADR-004 (provenance bij output), ADR-003 (reprocessing) |
+| Bron als trusted markeren / kwaliteits-gate doorlopen | ADR-005 §5 (drie-laag QA + trust-marker), ADR-004 (`provenance.trust` schema) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
 | Concept-record maken of aanvullen | ADR-007 (model), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling) |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
