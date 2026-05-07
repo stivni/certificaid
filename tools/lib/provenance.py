@@ -12,6 +12,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+import frontmatter
+
+PROVENANCE_KEY = "provenance"
+
 
 @dataclass
 class Input:
@@ -114,6 +118,23 @@ def make_provenance(
         ),
         generated_at=now_iso(),
     )
+
+
+def read_provenance(md_path: Path) -> Optional[Provenance]:
+    """Read provenance block from markdown YAML frontmatter, or None if absent."""
+    post = frontmatter.load(str(md_path))
+    block = post.metadata.get(PROVENANCE_KEY)
+    if block is None:
+        return None
+    return Provenance.from_dict(block)
+
+
+def write_provenance(md_path: Path, prov: Provenance) -> None:
+    """Write or overwrite the provenance block in a markdown file's frontmatter."""
+    post = frontmatter.load(str(md_path))
+    post.metadata[PROVENANCE_KEY] = prov.to_dict()
+    with open(md_path, "wb") as f:
+        frontmatter.dump(post, f)
 
 
 def detect_stale(recorded: Provenance, current_inputs: list[Input]) -> tuple[bool, Optional[str]]:
