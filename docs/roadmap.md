@@ -32,7 +32,11 @@ ADR: [ADR-004](adr/ADR-004-provenance.md).
 
 Concreet:
 - `extract.method`-dispatcher (zie ADR-005) afgewerkt voor alle voorkomende methodes
-- Open punten: `justel_html`-handler, Oud-BW herconverteren, 104 legacy `type:`-bronnen migreren
+- Open punten:
+  - `justel_html`-handler nog niet geïmplementeerd
+  - Oud-BW herconverteren
+  - 104 legacy `type:`-bronnen migreren naar `extract:`-schema
+  - **ITAA-norm-* produceren geen `##`-headings** — vastgesteld bij Fase 2-POC: `ITAA-norm-aww-geconsolideerd.md` heeft 0 headings, `ITAA-norm-opdrachtbrief.md` heeft 1. Resultaat: chunk-fallback levert één chunk per norm, wat de RAG-precisie degradeert. Norm-ETL moet structurele sectie-headings produceren bij conversie.
 - Golden set: 5–10 referentie-bronnen handmatig OK-bevonden, vastgepind als regressietest
 - Agent-QA-stap: LLM leest output-MD en flagt structurele problemen
 

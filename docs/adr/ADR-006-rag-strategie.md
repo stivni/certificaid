@@ -20,8 +20,28 @@ Companion van bge-m3. **Twee-fase pipeline**:
 - Fase 1 (bi-encoder): top-50 kandidaten — recall-georiënteerd
 - Fase 2 (cross-encoder): rescore → drempel ≥0,60 (tutor) of ≥0,50 (concept-extractie); cutoff bij 20 chunks
 
-### 3. Vector-DB: ChromaDB
-Persistent, lokaal in `data/chroma_db/`. Aparte collections: `wetteksten`, `adviezen`, `normen`, `concepts`.
+### 3. Vector-DB: ChromaDB met twee collections
+
+Persistent, lokaal in `data/chroma_db/`. **Twee collections**:
+- `bronnen` — alle wetteksten + normen + adviezen samen, met `bron_rol` als metadata-veld (`wettekst` / `norm` / `advies` / ...) voor optionele filtering bij retrieval
+- `concepten` — concept-records (zie ADR-007)
+
+**Waarom unified `bronnen` ipv per-brontype-collection** (eerder design):
+- Per-collection top-N is kunstmatige diversiteit-cap. Een AWW-vraag waarvan de top-20 chunks alle uit normen zouden moeten komen, krijgt forced "top-50 wettekst + top-50 norm + top-50 advies = 150 ruisige kandidaten". Reranker moet dat opruimen — extra werk.
+- Cross-brontype-overlap (een vraag raakt zowel wettekst als norm) wordt artificieel in aparte queries gesneden.
+- Filtering "alleen wetteksten" werkt even goed via metadata-where-filter (`where={"bron_rol": "wettekst"}`).
+- Schema-evolutie: nieuwe brontype toevoegen = nieuw `bron_rol`-waarde, geen nieuwe collection-codepath.
+
+Chunk-strategie blijft per brontype (zie §4) — alleen de storage is unified.
+
+### 3.1. Chunk-id-stabiliteit (vereiste voor incremental rebuild)
+
+Chunk-ids moeten stabiel zijn over re-runs zolang de chunk-strategie ongewijzigd is:
+- Wettekst: `<bron-stem>__art_<nr>` (bv. `Antiwitwaswet-2017__art_5`)
+- Norm: `<bron-stem>__sec_<sectie-naam-slug>`
+- Advies (één-chunk): `<bron-stem>` ; gesplitst: `<bron-stem>__sec_<sectie-naam-slug>`
+
+Als chunk-strategie verandert (bv. splitting-config gewijzigd): full rebuild nodig. Dan bumpt de pipeline-versie in provenance, wat de cascade triggert.
 
 ### 4. Chunking — bronnen-RAG
 

@@ -1,24 +1,30 @@
 """
 RAG-index builder voor de Certificaid kennisbank.
 
-Indexeert 6 ChromaDB-collections volgens ADR-002 v2:
-  - wetteksten      : per artikel (`## Art.`); breadcrumb-prefix met namen + gestructureerd path
-  - normen          : per sectie met norm-naam in breadcrumb
-  - adviezen        : heel advies (≤40K chars) of gesplitst op `##` met advies-titel als breadcrumb
-  - tdks            : per kenniselement + doelstelling
-  - bestaande_fiches: materie-fiches als hulpbron
-  - concepts        : per veld van een concept-node (ADR-009)
+Indexeert ChromaDB-collections volgens ADR-006:
+  - wetteksten : per artikel (`## Art.`); breadcrumb-prefix met namen + gestructureerd path
+  - normen     : per sectie met norm-naam in breadcrumb
+  - adviezen   : heel advies (≤40K chars) of gesplitst op `##` met advies-titel als breadcrumb
+  - concepts   : per veld van een concept-node (ADR-007); skip als data/concept_records/ leeg
 
 Elk chunk krijgt een breadcrumb-prefix (`[wet → titel-naam → ...]`) als eerste regel
 in de embedded tekst, plus path-array in metadata voor citatie en filtering.
 
-Te lange artikelen (> 24K chars) worden gesplitst op alinea-grenzen (ADR-002 v2 §6).
+Te lange artikelen (> 24K chars) worden gesplitst op alinea-grenzen (ADR-006 §4).
+
+Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
+  --scope path/to/<programmaonderdeel>-bronnen-scope.yaml
+
+Beperkt indexering tot de files vermeld in de scope-YAML, en gebruikt een aparte
+ChromaDB-path (data/chroma_db_<programmaonderdeel>/) zodat een full-corpus index
+en een POC-scope index naast elkaar kunnen bestaan.
 
 Gebruik:
-  python tools/rag/rag_index.py                    # bouw alle collections
-  python tools/rag/rag_index.py --collection normen
-  python tools/rag/rag_index.py --add-concepts     # voeg concept records toe
-  python tools/rag/rag_index.py --reset            # verwijder en herbouw alles
+  python tools/rag/rag_index.py                              # full corpus, alle collections
+  python tools/rag/rag_index.py --collection normen          # full corpus, één collection
+  python tools/rag/rag_index.py --scope data/programmaonderdelen/4.0-bronnen-scope.yaml
+  python tools/rag/rag_index.py --add-concepts               # voeg/vernieuw concept records toe
+  python tools/rag/rag_index.py --reset                      # verwijder en herbouw
 """
 
 import argparse
@@ -28,23 +34,24 @@ import sys
 from pathlib import Path
 
 import frontmatter
+import yaml
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-CHROMA_PATH = ROOT / "data" / "chroma_db"
-EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-001
+DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
+EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 
 SOURCES = {
-    "wetteksten":      ROOT / "resources" / "bronnen" / "wetteksten",
-    "normen":          ROOT / "resources" / "bronnen" / "normen",
-    "adviezen":        ROOT / "resources" / "bronnen" / "adviezen",
-    "tdks":            ROOT / "content" / "programmaonderdelen",
-    "bestaande_fiches": ROOT / "content" / "materie",
-    "concepts":        ROOT / "data" / "concept_records",
+    "wetteksten": ROOT / "resources" / "bronnen" / "wetteksten",
+    "normen":     ROOT / "resources" / "bronnen" / "normen",
+    "adviezen":   ROOT / "resources" / "bronnen" / "adviezen",
+    "concepts":   ROOT / "data" / "concept_records",
 }
+
+ALL_BRON_COLLECTIONS = ["wetteksten", "normen", "adviezen"]
 
 MIN_CHUNK_CHARS = 100      # korter dan dit filteren we weg
 MAX_CHUNK_CHARS = 24_000   # ADR-002 v2 §6 — bge-m3 8K-token-window met marge
@@ -108,25 +115,55 @@ def _is_toc_only(content: str) -> bool:
 # ChromaDB client
 # ---------------------------------------------------------------------------
 
-def get_client():
-    CHROMA_PATH.mkdir(parents=True, exist_ok=True)
-    return chromadb.PersistentClient(path=str(CHROMA_PATH))
+def get_client(chroma_path: Path):
+    chroma_path.mkdir(parents=True, exist_ok=True)
+    return chromadb.PersistentClient(path=str(chroma_path))
 
 
-def get_collection(client, name: str, reset: bool = False):
+def get_collection(client, chroma_path: Path, name: str, reset: bool = False):
     ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
     if reset:
         try:
             client.delete_collection(name)
         except Exception:
             pass
-        # Nieuwe client om gecachte UUID-state te flushen (zie ADR-010)
-        client = chromadb.PersistentClient(path=str(CHROMA_PATH))
+        # Nieuwe client om gecachte UUID-state te flushen
+        client = chromadb.PersistentClient(path=str(chroma_path))
         return client.create_collection(name, embedding_function=ef), client
     try:
         return client.get_collection(name, embedding_function=ef), client
     except Exception:
         return client.create_collection(name, embedding_function=ef), client
+
+
+# ---------------------------------------------------------------------------
+# Scope-loader (POC-vertical-slice; zie roadmap.md Fase 2)
+# ---------------------------------------------------------------------------
+
+def load_scope(scope_yaml_path: Path) -> tuple[str, dict[str, set[str]], Path]:
+    """
+    Laad een scope-YAML en return:
+      - programmaonderdeel-id (string, bv. "4.0")
+      - file_filter: dict mapping collection-naam → set van bestandsnamen die in scope zijn
+      - chroma_path: aparte ChromaDB-path voor deze scope
+    Een lege of ontbrekende collection-lijst betekent: collection helemaal overslaan.
+    """
+    data = yaml.safe_load(scope_yaml_path.read_text())
+    programmaonderdeel = str(data.get("programmaonderdeel", scope_yaml_path.stem))
+    raw = data.get("bronnen", {})
+    file_filter: dict[str, set[str]] = {}
+    for col_name in ALL_BRON_COLLECTIONS:
+        files = raw.get(col_name) or []
+        file_filter[col_name] = set(files)
+    chroma_path = ROOT / "data" / f"chroma_db_{programmaonderdeel}"
+    return programmaonderdeel, file_filter, chroma_path
+
+
+def _apply_filter(files: list[Path], allowed: set[str] | None) -> list[Path]:
+    """Filter files-lijst op allowed-set. None = geen filter (volledige corpus)."""
+    if allowed is None:
+        return files
+    return [f for f in files if f.name in allowed]
 
 
 # ---------------------------------------------------------------------------
@@ -395,11 +432,11 @@ def split_generic_headings(text: str, source_id: str, breadcrumb_prefix: str = "
 # Per-collection indexers
 # ---------------------------------------------------------------------------
 
-def index_wetteksten(collection, reset: bool = False):
+def index_wetteksten(collection, reset: bool = False, file_filter: set[str] | None = None):
     src = SOURCES["wetteksten"]
-    files = sorted(src.glob("*.md"))
+    files = _apply_filter(sorted(src.glob("*.md")), file_filter)
     if not files:
-        print(f"  Geen bestanden in {src}")
+        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
         return
 
     ids, texts, metadatas = [], [], []
@@ -463,11 +500,12 @@ def index_wetteksten(collection, reset: bool = False):
           f"({toc_skipped} TOC-only overgeslagen, {long_split_count} fragments uit te lange artikelen)")
 
 
-def index_normen(collection, reset: bool = False):
+def index_normen(collection, reset: bool = False, file_filter: set[str] | None = None):
     src = SOURCES["normen"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
+    files = _apply_filter(files, file_filter)
     if not files:
-        print(f"  Geen bestanden in {src}")
+        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
         return
 
     ids, texts, metadatas = [], [], []
@@ -504,11 +542,12 @@ def index_normen(collection, reset: bool = False):
     print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} normen")
 
 
-def index_adviezen(collection, reset: bool = False):
+def index_adviezen(collection, reset: bool = False, file_filter: set[str] | None = None):
     src = SOURCES["adviezen"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
+    files = _apply_filter(files, file_filter)
     if not files:
-        print(f"  Geen bestanden in {src}")
+        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
         return
 
     ids, texts, metadatas = [], [], []
@@ -579,96 +618,6 @@ def index_adviezen(collection, reset: bool = False):
     if ids:
         _batch_upsert(collection, ids, texts, metadatas)
     print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} adviezen")
-
-
-def index_tdks(collection, reset: bool = False):
-    src = SOURCES["tdks"]
-    files = sorted(src.glob("*.md"))
-    if not files:
-        print(f"  Geen bestanden in {src}")
-        return
-
-    ids, texts, metadatas = [], [], []
-    for path in tqdm(files, desc="tdks"):
-        try:
-            post = frontmatter.load(str(path))
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        fm = post.metadata
-        po_nr = str(fm.get("tags", [path.stem])[0]) if fm.get("tags") else path.stem
-        source_id = path.stem
-
-        content = post.content
-        sections = re.split(r"(?=^#{2,3} )", content, flags=re.MULTILINE)
-        chunk_counter = 0
-        for section in sections:
-            section = section.strip()
-            if not section or len(section) < MIN_CHUNK_CHARS:
-                continue
-            chunk_counter += 1
-            chunk_id = f"{source_id}__chunk{chunk_counter}"
-            first_line = section.split("\n")[0].lstrip("#").strip()
-            breadcrumb = f"[PO {po_nr} — {first_line}]"
-            ids.append(chunk_id)
-            texts.append(f"{breadcrumb}\n\n{section}")
-            metadatas.append({
-                "bron":       f"PO {po_nr}",
-                "bestand":    path.name,
-                "sectie":     first_line,
-                "po_nr":      po_nr,
-                "breadcrumb": breadcrumb,
-                "chunk_index": chunk_counter,
-                "collection": "tdks",
-            })
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} PO-fiches")
-
-
-def index_bestaande_fiches(collection, reset: bool = False):
-    """Materie-fiches als hulpbron voor concept-extractie."""
-    src = SOURCES["bestaande_fiches"]
-    files = sorted(src.glob("*.md"))
-    if not files:
-        print(f"  Geen bestanden in {src}")
-        return
-
-    ids, texts, metadatas = [], [], []
-    for path in tqdm(files, desc="bestaande_fiches"):
-        try:
-            post = frontmatter.load(str(path))
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        fm = post.metadata
-        source_id = path.stem
-        breadcrumb = f"[Materie-fiche — {path.stem}]"
-        chunks = split_generic_headings(post.content, source_id, breadcrumb_prefix=breadcrumb)
-
-        for chunk in chunks:
-            if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
-                continue
-            ids.append(chunk["id"])
-            texts.append(chunk["text"])
-            metadatas.append({
-                "bron":        path.stem,
-                "bestand":     path.name,
-                "sectie":      chunk["heading"],
-                "themas":      json.dumps(fm.get("tags", [])),
-                "niveau":      str(fm.get("niveau", "")),
-                "breadcrumb":  breadcrumb,
-                "chunk_index": chunk["chunk_index"],
-                "source_type": "bestaande_fiche",
-                "collection":  "bestaande_fiches",
-            })
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} bestaande materie-fiches")
 
 
 def index_concepts(collection):
@@ -757,34 +706,47 @@ def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Bouw de Certificaid RAG-index (ADR-002 v2)")
-    parser.add_argument("--collection", choices=["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches", "concepts"],
+    parser = argparse.ArgumentParser(description="Bouw de Certificaid RAG-index (ADR-006)")
+    parser.add_argument("--collection", choices=["wetteksten", "normen", "adviezen", "concepts"],
                         help="Indexeer alleen deze collection (default: alles)")
+    parser.add_argument("--scope",
+                        help="Pad naar bronnen-scope.yaml — beperk indexering tot files in scope, "
+                             "schrijf naar aparte chroma_db_<programmaonderdeel>/")
     parser.add_argument("--add-concepts", action="store_true",
                         help="Voeg/vernieuw concept records toe aan concepts collection")
     parser.add_argument("--reset", action="store_true",
                         help="Verwijder en herbouw de collection(s)")
     args = parser.parse_args()
 
-    client = get_client()
+    # Scope laden indien opgegeven
+    file_filter: dict[str, set[str]] = {}
+    chroma_path = DEFAULT_CHROMA_PATH
+    scope_label = "full corpus"
+    if args.scope:
+        programmaonderdeel, file_filter, chroma_path = load_scope(Path(args.scope))
+        scope_label = f"scope {programmaonderdeel} — {chroma_path.name}"
+    print(f"→ ChromaDB: {chroma_path} ({scope_label})")
 
-    to_index = [args.collection] if args.collection else ["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches"]
+    client = get_client(chroma_path)
+
+    to_index = [args.collection] if args.collection else list(ALL_BRON_COLLECTIONS)
     if args.add_concepts:
         to_index = ["concepts"]
 
     for name in to_index:
         print(f"\n→ Indexeer collection: {name}")
-        col, client = get_collection(client, name, reset=args.reset)
+        col, client = get_collection(client, chroma_path, name, reset=args.reset)
+        # Voor scope-modus: lege filter-set = collection helemaal overslaan
+        if args.scope and name in ALL_BRON_COLLECTIONS and not file_filter.get(name):
+            print(f"  Geen files in scope voor {name} — overgeslagen")
+            continue
+        scope_for_col = file_filter.get(name) if args.scope else None
         if name == "wetteksten":
-            index_wetteksten(col, args.reset)
+            index_wetteksten(col, args.reset, scope_for_col)
         elif name == "normen":
-            index_normen(col, args.reset)
+            index_normen(col, args.reset, scope_for_col)
         elif name == "adviezen":
-            index_adviezen(col, args.reset)
-        elif name == "tdks":
-            index_tdks(col, args.reset)
-        elif name == "bestaande_fiches":
-            index_bestaande_fiches(col, args.reset)
+            index_adviezen(col, args.reset, scope_for_col)
         elif name == "concepts":
             index_concepts(col)
 

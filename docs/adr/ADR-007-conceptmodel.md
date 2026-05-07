@@ -17,8 +17,9 @@ Een uniform schema kan dat niet vasthouden. Een **getypeerde knowledge graph** w
 - **Nodes** = JSON-files in `data/concept_records/<id>.json` (één file per node)
 - **Edges** = uitgaande velden binnen de bron-node
 - **Walking** via NetworkX (in-memory laden, walks in milliseconden, ~500–1500 nodes verwacht)
-- **Vector-zoek** via ChromaDB-collection `concepts` (ADR-006); edges meegedragen als metadata
+- **Vector-zoek** via ChromaDB-collection `concepten` (ADR-006); edges meegedragen als metadata
 - **Schema-evolutie** = veld toevoegen, geen migrations. Sparse fields zijn de norm.
+- **Open node- en edge-typering** — de initiële lijsten (zie onder) zijn geen limiet. Tijdens extractie mag een nieuw type voorgesteld worden via `node_type: "voorgesteld:<naam>"` of een edge-type `voorgesteld:<naam>`. Voorgestelde types worden verzameld in `data/concept_records/_voorgestelde_types.yaml` voor menselijke review; pas na akkoord wordt het schema gebumpt en records hernoemd.
 
 ### Designprincipes
 
@@ -54,15 +55,50 @@ Optionele velden op edges: `scope`, `conditie`, `scharnier`, `redenering`, `aspe
 }
 ```
 
-### Status-flow per node
+### Status-flow per node — welke velden in welke fase
 
-`seed` → `partieel` → `gevuld` → `geverifieerd`
+| Status | Aangevulde velden (cumulatief) | Trigger naar volgende fase |
+|---|---|---|
+| `seed` | `id`, `naam`, `node_type`, `source`, `main_rule` of `definitie` (verbatim/paraphrase met confidence) | LLM-extractor heeft genoeg bron-context om uitzonderingen + scope te formuleren |
+| `partieel` | + `exceptions`, `scope`, eerste batch `edges` (mogelijk dangling) | Edges grotendeels geresolveerd; bron-RAG levert geen nieuwe info op verdiepende queries |
+| `gevuld` | + `pitfalls`, `voorbeeld_inline`, gerelateerde casussen | Menselijke review |
+| `geverifieerd` | identiek; alleen status-flag | — |
 
-`seed` ontstaat als dangling-target van een edge; `geverifieerd` vereist menselijke bevestiging.
+Voorbeelden, valkuilen en cases worden **pas in `gevuld`** toegevoegd, niet in `seed` (zie ADR-008 voor extractie-volgorde).
 
-### Kenniselement-koppeling (ADR-002)
+`seed` ontstaat ofwel uit programma-/bron-gestuurde extractie, ofwel als dangling-target van een edge in een ander concept; `geverifieerd` vereist menselijke bevestiging.
 
-Verplicht veld `afdekt_kenniselementen: [...]` per node, met codes uit het examenprogramma (bv. `["4.0.I.D.7"]`). Dekkingscheck draait per snapshot.
+### Confidence-labels — string-tags, geen emoji in data
+
+Elke claim met confidence-veld:
+```json
+"confidence": "grounded"   // ⚖️ — direct traceerbaar naar bron in source.ref
+"confidence": "inferred"   // 🤖 — LLM-gegenereerde redenering of synthese
+```
+
+Emoji (⚖️/🤖) zijn UI-/render-conventie (tutor, fiches, conversaties) — niet in JSON-data.
+
+### Concept-laag is dependency-vrij naar boven
+
+Concept-records bevatten **geen** verwijzingen naar programmaonderdelen, kenniselementen, taken, doelstellingen of examenvragen. Dependencies stromen één kant op (programma → concepten, examen → concepten). De koppeling kenniselement → concept leeft uitsluitend in de programmaonderdeel-JSON (zie ADR-002):
+
+```json
+// data/programmaonderdelen/4.0-deontologie.json — ENIGE WAARHEID
+"kenniselementen": [
+  {"deel": 1, "code": "4.0.I.D.7", "tekst": "Beroepsgeheim",
+   "concepten": ["beroepsgeheim-gecertificeerd-accountant", "doorbreking-beroepsgeheim"]}
+]
+```
+
+Concepten zijn zo portable — bij hervorming van het examenprogramma (codes herschikt) raakt de conceptenset niet.
+
+**Bron-input via chunks** (provenance) is geen schending van deze regel: als een passage uit een voorbeeldexamen-toelichting of Mvt geciteerd wordt voor een concept-veld, gaat dat als chunk-id in `_provenance.inputs[]` — niet als examenvraag-link in een inhoudelijk veld. Het concept weet alleen "deze chunk is mijn bron"; chunk-metadata bepaalt of het een wettekst, norm of voorbeeldexamen-passage was.
+
+Dekkingschecks die "welke kenniselementen dekt concept X af?" willen beantwoorden, bouwen op aanvraag een in-memory reverse-index uit programmaonderdeel-JSON's (`tools/lib/coverage.py`). Geen state op concepten zelf.
+
+### Schrijfregels concept-content
+
+Aparte content-conventie in [`docs/concept-schrijfregels.md`](../concept-schrijfregels.md). Wordt geladen bij prompt-opbouw voor de extractor en bij menselijke review. Niet in deze ADR — schrijfregels zijn geen architectuurbeslissing.
 
 ## Gevolgen
 

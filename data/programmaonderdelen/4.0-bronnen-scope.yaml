@@ -1,0 +1,39 @@
+# Bronnen-scope voor programmaonderdeel 4.0 Deontologie
+#
+# Curated lijst van bron-bestanden die relevant zijn voor de POC-scope.
+# Gebruikt door tools/rag/rag_index.py --scope om een gefocuste RAG-index
+# te bouwen zonder de hele corpus te indexeren.
+#
+# Niet verbatim uit het examenprogramma — pragmatische curatie op basis van
+# de kern_kenniselementen 4.0.I.A t/m 4.0.I.D (deontologische beginselen +
+# antiwitwaswetgeving). Wordt herzien wanneer voorbeeldexamens andere
+# bronnen blijken te raken.
+
+programmaonderdeel: "4.0"
+
+bronnen:
+  wetteksten:
+    - Antiwitwaswet-2017.md          # AWW (kernbron antiwitwas)
+    - Wet-ITAA-2019.md               # Wet 17/03/2019 — beroep accountant + tucht
+    - EU-Richtlijn-witwassen-2018-1673.md  # 5e AML-richtlijn (achtergrond)
+
+  normen:
+    # AWW-specifiek
+    - ITAA-norm-aww-geconsolideerd.md
+    - ITAA-norm-aww-reglement.md
+    - ITAA-norm-aww-procedurereglement.md
+    - ITAA-norm-aww-richtlijn-bibf.md
+    # Algemene deontologie
+    - ITAA-norm-opdrachtbrief.md
+    - ITAA-norm-gedragslijnen-relaties-IBR.md
+    - ITAA-norm-intern-kwaliteitsmanagement.md
+    - ITAA-norm-permanente-vorming.md
+    - ITAA-norm-domiciliering.md
+
+  adviezen: []  # Geen CBN-adviezen relevant voor 4.0 (jaarrekening-domein)
+
+# Open punten:
+# - Deontologische Code (KB) zelf nog niet als markdown beschikbaar in
+#   resources/bronnen/wetteksten/. Toevoegen wanneer geconverteerd.
+# - Tuchtreglement en KB stage zouden in scope kunnen komen bij examen-driven
+#   uitbreiding.

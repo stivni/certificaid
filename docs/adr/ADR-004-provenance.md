@@ -36,10 +36,19 @@ provenance:
 **Per artefact-type plek**:
 - Markdown-bronnen: in YAML frontmatter
 - RAG-chunks: als metadata-velden in ChromaDB
-- Concept-records: als top-level `_provenance` veld in JSON
+- Concept-records: als top-level `_provenance` veld in JSON; **per veld een eigen sub-blok** zodat veld-precieze stale-marking mogelijk is (zie ADR-008 §6 — `main_rule`-veld kan stale worden zonder dat `exceptions` stale wordt)
 - Snapshot-fiches: in YAML frontmatter
 
 **Stale-marking**: input-hash verandert → `tools/lib/provenance.py` cascadeert `stale: true` + reden naar alle downstream artefacten. Geen automatische regeneratie (zie ADR-003).
+
+**Chunk-id-stabiliteit als requirement**: voor incremental rebuild (alleen veranderde chunks her-embedden, alleen stale concept-velden her-extraheren) moeten chunk-ids stabiel zijn over runs zolang de chunk-strategie ongewijzigd is.
+
+- Chunk-ids volgen een deterministisch patroon op basis van bron-stem + structureel anker (zie ADR-006 §3.1 — wettekst: `__art_<nr>`; norm: `__sec_<slug>`; advies: enkel `__sec_<slug>` indien gesplitst).
+- Per chunk wordt zijn content-sha256 als metadata-veld in ChromaDB opgeslagen (`chunk_sha`). Een re-run vergelijkt nieuwe chunk-sha tegen opgeslagen waarde:
+  - sha gelijk → skip (chunk ongewijzigd, embedding hergebruikt)
+  - sha verschilt → upsert (her-embedden, downstream concept-velden via input-id `<chunk-id>` als stale gemarkeerd)
+  - chunk-id verdwijnt → delete (downstream concepten met die chunk-id als input → stale + reden "input verdwenen")
+- Als de chunk-strategie zelf verandert (config gewijzigd: andere splitting-grenzen, ander breadcrumb-format) bumpt `pipeline_version` van `rag_index`. Dat is een tooling-input-verandering die alle chunks stale maakt (ook als content gelijk is) → full rebuild.
 
 **Versie-conventies**:
 - `pipeline_version`: git short-sha van de tool-commit als die in repo zit
