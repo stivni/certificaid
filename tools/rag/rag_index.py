@@ -586,12 +586,27 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
         breadcrumb = f"[Norm — {norm_naam}]"
         chunks = split_generic(post.content, source_id, breadcrumb_prefix=breadcrumb)
 
-        # Fallback: geen secties gevonden → één chunk voor de hele norm
+        # Fallback: geen secties gevonden → splits op alinea-grenzen om mega-chunks
+        # te vermijden (bv. ITAA-norm-aww-geconsolideerd.md heeft 0 headings, ~50K chars)
         if not chunks:
             full_text = f"{breadcrumb}\n\n{post.content.strip()}"
-            if len(full_text) >= MIN_CHUNK_CHARS and _has_real_content(full_text):
-                ids.append(f"{source_id}__sec_volledig")
-                texts.append(full_text)
+            if len(full_text) < MIN_CHUNK_CHARS or not _has_real_content(full_text):
+                continue
+            base_chunk = {
+                "id": f"{source_id}__sec_volledig",
+                "text": full_text,
+                "heading": "",
+                "path": [],
+                "breadcrumb": breadcrumb,
+            }
+            for fragment in split_long_chunk(base_chunk, MAX_CHUNK_CHARS):
+                part = fragment.get("_split_part", "")
+                fid = (
+                    f"{source_id}__sec_volledig_part{part.split('/')[0]}"
+                    if part else f"{source_id}__sec_volledig"
+                )
+                ids.append(fid)
+                texts.append(fragment["text"])
                 metadatas.append({
                     "bron_rol":  "norm",
                     "bron":      norm_naam,
@@ -599,6 +614,7 @@ def index_normen(collection, file_filter: set[str] | None = None, batch_size: in
                     "sectie":    "",
                     "themas":    json.dumps(fm.get("themas", [])),
                     "breadcrumb": breadcrumb,
+                    "split_part": part,
                 })
             continue
 
