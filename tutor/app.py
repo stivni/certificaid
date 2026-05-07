@@ -42,8 +42,12 @@ PATTERNS_DIR  = ROOT / "data" / "exam_patterns"
 QUESTIONS_DIR = ROOT / "data" / "generated_questions"
 CLAUDE_MODEL  = "claude-sonnet-4-6"
 
-BRONNEN_COLS = ["wetteksten", "normen", "adviezen"]
-ALL_COLS     = ["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches", "concepts"]
+# ADR-006: twee collections
+BRONNEN_COLS = ["bronnen"]
+ALL_COLS     = ["bronnen", "concepten"]
+
+# Bron-rollen voor filtering binnen de bronnen-collection (ADR-006 §3)
+ALLE_BRON_ROLLEN = ["wettekst", "norm", "advies"]
 
 # Rerank-instellingen per modus (ADR-005)
 TUTOR_BI_TOP_N       = 30
@@ -88,27 +92,28 @@ def retrieve_two_pass(
     query: str,
     selected_cols: list[str],
     po_filter: str | None = None,
+    bron_rollen: list[str] | None = None,
 ) -> tuple[list[RetrievalResult], str]:
     """
-    Twee-pass retrieval (ADR-005):
+    Twee-pass retrieval (ADR-006):
 
-    Pass 1: zoek in concepts-collection (gecureerde kennislaag).
-            Als score ≥ CONCEPT_RERANK_THRESH → gebruik die als primaire context.
+    Pass 1: zoek in concepten-collection (gecureerde kennislaag).
+            Als score ≥ CONCEPT_RERANK_THRESH → gebruik als primaire context.
 
-    Pass 2: zoek altijd in bronnen-collections (wetteksten/normen/adviezen).
-            Resultaten worden gecombineerd met Pass 1.
+    Pass 2: zoek altijd in bronnen-collection (unified, optioneel gefilterd op bron_rol).
+            Resultaten gecombineerd met Pass 1.
 
-    Retourneert (chunks, retrieval_mode) waarbij mode "concept+bronnen" of "bronnen" is.
+    Retourneert (chunks, retrieval_mode).
     """
     expanded_query = f"PO {po_filter} {query}" if po_filter else query
 
-    # Pass 1: concept-laag
+    # Pass 1: concepten-laag
     concept_results: list[RetrievalResult] = []
-    if "concepts" in collections:
+    if "concepten" in collections:
         concept_results = retrieve_and_rerank(
             expanded_query,
             collections,
-            ["concepts"],
+            ["concepten"],
             reranker,
             bi_top_n=15,
             rerank_threshold=CONCEPT_RERANK_THRESH,
@@ -116,20 +121,19 @@ def retrieve_two_pass(
             expand_context=False,
         )
 
-    # Pass 2: bronnen-laag (altijd, ongeacht Pass 1)
-    bronnen_cols = [c for c in selected_cols if c != "concepts"]
+    # Pass 2: bronnen-laag (unified collection met optionele bron_rol-filter)
     bronnen_results = retrieve_and_rerank(
         expanded_query,
         collections,
-        bronnen_cols,
+        BRONNEN_COLS,
         reranker,
         bi_top_n=TUTOR_BI_TOP_N,
         rerank_threshold=TUTOR_RERANK_THRESH,
         max_results=TUTOR_MAX_RESULTS,
         expand_context=True,
+        bron_rollen=bron_rollen,
     )
 
-    # Combineer: concept-chunks eerst (als structuur), dan bronnen
     all_results = concept_results + bronnen_results
     mode = "concept+bronnen" if concept_results else "bronnen"
     return all_results, mode
@@ -159,7 +163,7 @@ def format_sources_display(chunks: list[RetrievalResult]) -> str:
         if ref not in seen:
             seen.add(ref)
             score = chunk.rerank_score if chunk.rerank_score >= 0 else chunk.score
-            tag = " [concept]" if chunk.collection == "concepts" else ""
+            tag = " [concept]" if chunk.collection == "concepten" else ""
             refs.append(f"- {ref}{tag} (relevantie: {int(score * 100)}%)")
     return "\n".join(refs) if refs else "Geen specifieke bronnen"
 
@@ -257,8 +261,7 @@ def generate_case(client: anthropic.Anthropic, concept: str, po_filter: str,
     Genereer een examenvraag. Geeft (vraag_tekst, gvraag_id) terug.
     Als patroon opgegeven: gebruik dat patroon als template.
     """
-    chunks, _ = retrieve_two_pass(collections, reranker, concept,
-                                   BRONNEN_COLS + ["bestaande_fiches"])
+    chunks, _ = retrieve_two_pass(collections, reranker, concept, ALL_COLS)
     context = format_context(chunks, max_chars=3000)
 
     if patroon:
@@ -387,9 +390,17 @@ def main():
         )
 
         st.divider()
-        st.caption(f"Actieve collections: {', '.join(active_cols)}")
+        st.caption("Bron-types")
+        bron_rol_selectie = {
+            rol: st.checkbox(rol, value=True)
+            for rol in ALLE_BRON_ROLLEN
+        }
+        actieve_bron_rollen = [r for r, aan in bron_rol_selectie.items() if aan] or None
+
+        st.divider()
         total_docs = sum(collections[n].count() for n in active_cols if n in collections)
-        st.caption(f"Totaal geïndexeerde chunks: {total_docs:,}")
+        st.caption(f"Collections: {', '.join(active_cols)}")
+        st.caption(f"Geïndexeerde chunks: {total_docs:,}")
 
         if st.button("🗑️ Gesprek wissen"):
             st.session_state.messages = []
@@ -424,6 +435,7 @@ def main():
                 chunks, _mode = retrieve_two_pass(
                     collections, reranker, query, ALL_COLS,
                     po_filter=po_filter if po_filter != "Alle PO's" else None,
+                    bron_rollen=actieve_bron_rollen,
                 )
 
             context = format_context(chunks)
@@ -513,13 +525,14 @@ def main():
         if concept_search:
             with st.spinner("Zoeken..."):
                 chunks, mode = retrieve_two_pass(
-                    collections, reranker, concept_search, ALL_COLS
+                    collections, reranker, concept_search, ALL_COLS,
+                    bron_rollen=actieve_bron_rollen,
                 )
 
             st.markdown(f"**Top resultaten voor:** _{concept_search}_ _(mode: {mode})_")
             for i, chunk in enumerate(chunks[:8], 1):
                 score = chunk.rerank_score if chunk.rerank_score >= 0 else chunk.score
-                tag = " 🗂️" if chunk.collection == "concepts" else ""
+                tag = " 🗂️" if chunk.collection == "concepten" else ""
                 with st.expander(f"[{i}] {chunk.label()}{tag} ({int(score*100)}% relevant)"):
                     st.text(chunk.text[:800])
 
