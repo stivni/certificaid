@@ -36,6 +36,7 @@ from lib.retrieval import (
     build_retrieval_stack,
     open_collections,
     multi_query_retrieve,
+    _retrieve_candidates,
     BRONNEN_COLS,
 )
 
@@ -118,6 +119,27 @@ def bouw_sub_queries(
     return queries
 
 
+def bi_only_retrieve(
+    sub_queries: list[str],
+    cols: dict,
+    bi_top_n: int,
+    max_per_vermoeden: int,
+) -> list:
+    """
+    Bi-encoder-only retrieval: geen cross-encoder reranking.
+    Verzamelt kandidaten over alle sub-queries, dedupliceert op chunk_id,
+    sorteert op bi-score (cosine-similarity). Snel: seconden ipv minuten.
+    """
+    seen: dict[str, object] = {}  # chunk_id → best RetrievalResult
+    for q in sub_queries:
+        kandidaten = _retrieve_candidates(cols, q, list(cols.keys()), bi_top_n)
+        for r in kandidaten:
+            if r.chunk_id not in seen or r.score > seen[r.chunk_id].score:
+                seen[r.chunk_id] = r
+    resultaten = sorted(seen.values(), key=lambda r: r.score, reverse=True)
+    return resultaten[:max_per_vermoeden]
+
+
 def chunk_naar_dict(chunk) -> dict:
     """Converteer een RetrievalResult naar een serialiseerbaar dict."""
     return {
@@ -145,6 +167,7 @@ def verwerk_vermoedens(
     bi_top_n: int = 80,
     rerank_drempel: float = 0.40,
     max_per_vermoeden: int = 20,
+    no_rerank: bool = False,
 ) -> dict:
     """
     Voer 4-niveau retrieval uit voor elk vermoeden.
@@ -174,22 +197,28 @@ def verwerk_vermoedens(
 
         sub_queries = bouw_sub_queries(vermoeden, taakblok, po_titel, ke_index)
 
-        chunks = multi_query_retrieve(
-            sub_queries,
-            cols,
-            BRONNEN_COLS,
-            reranker,
-            bi_top_n=bi_top_n,
-            rerank_threshold=rerank_drempel,
-            max_per_query=max_per_vermoeden,
-            expand_context=True,
-        )
-
-        print(
-            f"    {len(sub_queries)} queries → {len(chunks)} chunks "
-            f"(rerank ≥ {rerank_drempel})",
-            file=sys.stderr,
-        )
+        if no_rerank:
+            chunks = bi_only_retrieve(sub_queries, cols, bi_top_n, max_per_vermoeden)
+            print(
+                f"    {len(sub_queries)} queries → {len(chunks)} chunks (bi-only)",
+                file=sys.stderr,
+            )
+        else:
+            chunks = multi_query_retrieve(
+                sub_queries,
+                cols,
+                BRONNEN_COLS,
+                reranker,
+                bi_top_n=bi_top_n,
+                rerank_threshold=rerank_drempel,
+                max_per_query=max_per_vermoeden,
+                expand_context=True,
+            )
+            print(
+                f"    {len(sub_queries)} queries → {len(chunks)} chunks "
+                f"(rerank ≥ {rerank_drempel})",
+                file=sys.stderr,
+            )
 
         output_vermoedens.append({
             "naam":             naam,
@@ -251,6 +280,19 @@ def main() -> None:
         default=20,
         help="Max chunks per vermoeden in output (default: 20)",
     )
+    parser.add_argument(
+        "--device",
+        default=None,
+        help="Device voor embedding + reranker: mps | cuda | cpu (default: cpu via retrieval.py)",
+    )
+    parser.add_argument(
+        "--no-rerank",
+        action="store_true",
+        help=(
+            "Sla cross-encoder reranking over — enkel bi-encoder (snel, seconden/vermoeden). "
+            "Aanbevolen voor batch-runs; de extractie-subagent doet eigen relevantie-oordeel."
+        ),
+    )
     args = parser.parse_args()
 
     vermoedens_pad = Path(args.vermoedens)
@@ -268,13 +310,16 @@ def main() -> None:
     po_data         = json.loads(po_pad.read_text(encoding="utf-8"))
 
     n = len(vermoedens_data.get("vermoedens", []))
+    device    = args.device  # None = default (cpu) uit retrieval.py
+    no_rerank = args.no_rerank
+    modus     = "bi-only (geen reranker)" if no_rerank else f"bi+rerank, device={device or 'cpu'}"
     print(
         f"→ Retrieval-stack laden voor {n} vermoedens "
-        f"(taakblok {vermoedens_data.get('taakblok', '?')}) …",
+        f"(taakblok {vermoedens_data.get('taakblok', '?')}, {modus}) …",
         file=sys.stderr,
     )
 
-    client_chroma, ef, reranker = build_retrieval_stack(chroma_pad)
+    client_chroma, ef, reranker = build_retrieval_stack(chroma_pad, device=device)
 
     result = verwerk_vermoedens(
         vermoedens_data,
@@ -285,6 +330,7 @@ def main() -> None:
         bi_top_n=args.bi_top_n,
         rerank_drempel=args.rerank_drempel,
         max_per_vermoeden=args.max_per_vermoeden,
+        no_rerank=no_rerank,
     )
 
     # Schrijf JSON naar stdout; progress naar stderr
