@@ -1,30 +1,35 @@
 """
 RAG-index builder voor de Certificaid kennisbank.
 
-Indexeert ChromaDB-collections volgens ADR-006:
-  - wetteksten : per artikel (`## Art.`); breadcrumb-prefix met namen + gestructureerd path
-  - normen     : per sectie met norm-naam in breadcrumb
-  - adviezen   : heel advies (≤40K chars) of gesplitst op `##` met advies-titel als breadcrumb
-  - concepts   : per veld van een concept-node (ADR-007); skip als data/concept_records/ leeg
+Indexeert twee ChromaDB-collections (ADR-006):
+  - bronnen   : wetteksten + normen + adviezen samen, met `bron_rol`-metadata
+  - concepten : concept-records per node-veld (ADR-007)
 
-Elk chunk krijgt een breadcrumb-prefix (`[wet → titel-naam → ...]`) als eerste regel
-in de embedded tekst, plus path-array in metadata voor citatie en filtering.
+Chunking per brontype (ADR-006 §4):
+  - wettekst : per artikel (`## Art.`); breadcrumb-prefix + gestructureerd path
+  - norm      : per `##`-sectie met norm-naam in breadcrumb
+  - advies    : heel advies (≤40K chars) of gesplitst op `##` met advies-titel
+
+Chunk-id-stabiliteit (ADR-006 §3.1, ADR-004):
+  - wettekst : `<bron-stem>__art_<nr>`       bv. Antiwitwaswet-2017__art_5
+  - norm      : `<bron-stem>__sec_<slug>`
+  - advies    : `<bron-stem>` (één chunk) of `<bron-stem>__sec_<slug>` (gesplitst)
 
 Te lange artikelen (> 24K chars) worden gesplitst op alinea-grenzen (ADR-006 §4).
+
+Device auto-detect (ADR implementatie-backlog):
+  MPS (Apple Silicon) > CUDA > CPU. Override via --device.
 
 Scope-modus (POC vertical-slice, zie roadmap.md Fase 2):
   --scope path/to/<programmaonderdeel>-bronnen-scope.yaml
 
-Beperkt indexering tot de files vermeld in de scope-YAML, en gebruikt een aparte
-ChromaDB-path (data/chroma_db_<programmaonderdeel>/) zodat een full-corpus index
-en een POC-scope index naast elkaar kunnen bestaan.
-
 Gebruik:
-  python tools/rag/rag_index.py                              # full corpus, alle collections
-  python tools/rag/rag_index.py --collection normen          # full corpus, één collection
+  python tools/rag/rag_index.py                              # alle bronnen-types
+  python tools/rag/rag_index.py --bron-rol norm              # alleen normen
   python tools/rag/rag_index.py --scope data/programmaonderdelen/4.0-bronnen-scope.yaml
-  python tools/rag/rag_index.py --add-concepts               # voeg/vernieuw concept records toe
+  python tools/rag/rag_index.py --add-concepten              # concept-records indexeren
   python tools/rag/rag_index.py --reset                      # verwijder en herbouw
+  python tools/rag/rag_index.py --device cpu                 # forceer device
 """
 
 import argparse
@@ -36,6 +41,7 @@ from pathlib import Path
 import frontmatter
 import yaml
 import chromadb
+import torch
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 from tqdm import tqdm
 
@@ -44,17 +50,55 @@ DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 
-SOURCES = {
-    "wetteksten": ROOT / "resources" / "bronnen" / "wetteksten",
-    "normen":     ROOT / "resources" / "bronnen" / "normen",
-    "adviezen":   ROOT / "resources" / "bronnen" / "adviezen",
-    "concepts":   ROOT / "data" / "concept_records",
+BRON_DIRS = {
+    "wettekst": ROOT / "resources" / "bronnen" / "wetteksten",
+    "norm":     ROOT / "resources" / "bronnen" / "normen",
+    "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
+CONCEPTS_DIR = ROOT / "data" / "concept_records"
 
-ALL_BRON_COLLECTIONS = ["wetteksten", "normen", "adviezen"]
+MIN_CHUNK_CHARS = 100
+MAX_CHUNK_CHARS = 24_000   # ADR-006 §4 — bge-m3 8K-token-window met marge
 
-MIN_CHUNK_CHARS = 100      # korter dan dit filteren we weg
-MAX_CHUNK_CHARS = 24_000   # ADR-002 v2 §6 — bge-m3 8K-token-window met marge
+
+# ---------------------------------------------------------------------------
+# Device detectie
+# ---------------------------------------------------------------------------
+
+def detect_device() -> str:
+    if torch.backends.mps.is_available():
+        return "mps"
+    if torch.cuda.is_available():
+        return "cuda"
+    return "cpu"
+
+
+# ---------------------------------------------------------------------------
+# Scope-loader (POC vertical-slice)
+# ---------------------------------------------------------------------------
+
+def load_scope(scope_yaml_path: Path) -> tuple[str, dict[str, set[str]], Path]:
+    """
+    Laad een scope-YAML en return:
+      - programmaonderdeel-id (bv. "4.0")
+      - file_filter: dict bron_rol → set bestandsnamen in scope
+      - chroma_path: aparte ChromaDB-path voor deze scope
+    """
+    data = yaml.safe_load(scope_yaml_path.read_text())
+    programmaonderdeel = str(data.get("programmaonderdeel", scope_yaml_path.stem))
+    raw = data.get("bronnen", {})
+    file_filter: dict[str, set[str]] = {}
+    for rol in BRON_DIRS:
+        files = raw.get(rol + "en", raw.get(rol, [])) or []   # "wetteksten" of "wettekst"
+        file_filter[rol] = set(files)
+    chroma_path = ROOT / "data" / f"chroma_db_{programmaonderdeel}"
+    return programmaonderdeel, file_filter, chroma_path
+
+
+def _apply_filter(files: list[Path], allowed: set[str] | None) -> list[Path]:
+    if allowed is None:
+        return files
+    return [f for f in files if f.name in allowed]
 
 
 # ---------------------------------------------------------------------------
@@ -62,7 +106,6 @@ MAX_CHUNK_CHARS = 24_000   # ADR-002 v2 §6 — bge-m3 8K-token-window met marge
 # ---------------------------------------------------------------------------
 
 def _load_keywords(stem: str) -> dict:
-    """Laad chunk-level keywords voor een wettekst (ADR-004)."""
     path = KEYWORDS_DIR / f"{stem}.json"
     if path.exists():
         try:
@@ -73,7 +116,6 @@ def _load_keywords(stem: str) -> dict:
 
 
 def _prepend_keywords(text: str, heading: str, keywords_map: dict) -> str:
-    """Prepend `[kw1, kw2, ...]` aan chunk-tekst als beschikbaar."""
     kws = keywords_map.get(heading, [])
     if not kws:
         return text
@@ -81,7 +123,6 @@ def _prepend_keywords(text: str, heading: str, keywords_map: dict) -> str:
 
 
 def _has_real_content(text: str) -> bool:
-    """Filtert chunks die enkel bestaan uit headings/structurele markers."""
     non_heading_chars = 0
     for line in text.split("\n"):
         stripped = line.strip()
@@ -91,14 +132,13 @@ def _has_real_content(text: str) -> bool:
             continue
         if re.match(r"^(BOEK|DEEL|TITEL|HOOFDSTUK|Afdeling|Onderafdeling|SECTIE)\s", stripped, re.I):
             continue
-        if re.match(r"^\[.*?\]$", stripped):  # breadcrumb-regels
+        if re.match(r"^\[.*?\]$", stripped):
             continue
         non_heading_chars += len(stripped)
     return non_heading_chars >= 80
 
 
 def _is_toc_only(content: str) -> bool:
-    """Detecteer of een wettekst enkel een inhoudsopgave is."""
     has_art_heading = bool(re.search(r"^#{1,4}\s+Art\.", content, re.MULTILINE))
     has_bold_art_ref = bool(re.search(r"^\*\*Art\.\s+", content, re.MULTILINE))
     if has_bold_art_ref and not has_art_heading:
@@ -111,6 +151,13 @@ def _is_toc_only(content: str) -> bool:
     return False
 
 
+def _slug(text: str) -> str:
+    """Maak een bestandsnaam-veilige slug uit een heading-tekst."""
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")[:60] or "sectie"
+
+
 # ---------------------------------------------------------------------------
 # ChromaDB client
 # ---------------------------------------------------------------------------
@@ -120,14 +167,12 @@ def get_client(chroma_path: Path):
     return chromadb.PersistentClient(path=str(chroma_path))
 
 
-def get_collection(client, chroma_path: Path, name: str, reset: bool = False):
-    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
+def get_collection(client, chroma_path: Path, name: str, ef, reset: bool = False):
     if reset:
         try:
             client.delete_collection(name)
         except Exception:
             pass
-        # Nieuwe client om gecachte UUID-state te flushen
         client = chromadb.PersistentClient(path=str(chroma_path))
         return client.create_collection(name, embedding_function=ef), client
     try:
@@ -137,37 +182,7 @@ def get_collection(client, chroma_path: Path, name: str, reset: bool = False):
 
 
 # ---------------------------------------------------------------------------
-# Scope-loader (POC-vertical-slice; zie roadmap.md Fase 2)
-# ---------------------------------------------------------------------------
-
-def load_scope(scope_yaml_path: Path) -> tuple[str, dict[str, set[str]], Path]:
-    """
-    Laad een scope-YAML en return:
-      - programmaonderdeel-id (string, bv. "4.0")
-      - file_filter: dict mapping collection-naam → set van bestandsnamen die in scope zijn
-      - chroma_path: aparte ChromaDB-path voor deze scope
-    Een lege of ontbrekende collection-lijst betekent: collection helemaal overslaan.
-    """
-    data = yaml.safe_load(scope_yaml_path.read_text())
-    programmaonderdeel = str(data.get("programmaonderdeel", scope_yaml_path.stem))
-    raw = data.get("bronnen", {})
-    file_filter: dict[str, set[str]] = {}
-    for col_name in ALL_BRON_COLLECTIONS:
-        files = raw.get(col_name) or []
-        file_filter[col_name] = set(files)
-    chroma_path = ROOT / "data" / f"chroma_db_{programmaonderdeel}"
-    return programmaonderdeel, file_filter, chroma_path
-
-
-def _apply_filter(files: list[Path], allowed: set[str] | None) -> list[Path]:
-    """Filter files-lijst op allowed-set. None = geen filter (volledige corpus)."""
-    if allowed is None:
-        return files
-    return [f for f in files if f.name in allowed]
-
-
-# ---------------------------------------------------------------------------
-# Heading-parsing (ADR-002 v2)
+# Heading-parsing (ADR-006)
 # ---------------------------------------------------------------------------
 
 STRUCTURAL_TYPES = (
@@ -192,7 +207,6 @@ STRUCTURAL_PREFIX_RE = re.compile(rf"^({STRUCTURAL_TYPES})\b")
 
 
 def parse_heading(line: str) -> dict | None:
-    """Parse markdown heading naar gestructureerde dict, of None als geen match."""
     m = HEADING_RE.match(line.rstrip())
     if not m:
         return None
@@ -208,11 +222,6 @@ def parse_heading(line: str) -> dict | None:
 
 
 def build_breadcrumb(path: list[dict]) -> str:
-    """
-    Bouw `[wet-naam → niveau-naam → ...]`-string uit path-array.
-    Naam wordt geprefereerd; fallback naar `<TYPE> <nr>` als naam leeg.
-    Het artikel zelf staat niet in de breadcrumb (dat is de heading eronder).
-    """
     parts = []
     for level in path:
         if level["type"] == "wet":
@@ -230,15 +239,10 @@ def build_breadcrumb(path: list[dict]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Hard maximum split (ADR-002 v2 §6)
+# Hard maximum split (ADR-006 §4)
 # ---------------------------------------------------------------------------
 
 def split_long_chunk(chunk: dict, max_chars: int) -> list[dict]:
-    """
-    Splits een te lange chunk op alinea-grenzen (\\n\\n).
-    Fallback: als één alinea zelf > max_chars, hard-split op woordgrens.
-    Elke fragment krijgt suffix `_split_part = "i/N"`.
-    """
     text = chunk["text"]
     if len(text) <= max_chars:
         return [chunk]
@@ -286,26 +290,23 @@ def split_long_chunk(chunk: dict, max_chars: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# v2 chunking voor wetteksten — per artikel met breadcrumb + path
+# Chunking — wetteksten (per artikel, stabiele id op art-nr)
 # ---------------------------------------------------------------------------
 
-def split_wettekst_v2(text: str, source_id: str, fm: dict) -> list[dict]:
+def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     """
-    Splits markdown op artikel-headings. Sub-headings (### §1, ### A.) blijven inline.
-    Houdt structurele stack bij voor breadcrumb + gestructureerd path per chunk.
-    Past ook hard-maximum splitsing toe (ADR-002 v2 §6).
+    Splits markdown op artikel-headings. Sub-headings blijven inline.
+    Chunk-id = `<source_id>__art_<nr>` (stabiel, zie ADR-006 §3.1).
     """
     wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
-
     lines = text.split("\n")
     chunks: list[dict] = []
     structural_stack: list[dict] = []
     current_article: dict | None = None
     current_lines: list[str] = []
-    chunk_counter = 0
+    art_counter: dict[str, int] = {}  # voor duplicate art-nrs (bis/ter)
 
     def flush():
-        nonlocal chunk_counter
         if current_article is None:
             return
         body = "\n".join(current_lines).strip()
@@ -323,25 +324,31 @@ def split_wettekst_v2(text: str, source_id: str, fm: dict) -> list[dict]:
 
         breadcrumb = build_breadcrumb(path)
         article_heading = current_article["raw"].lstrip("#").strip()
-        full_text = f"{breadcrumb}\n\n{article_heading}\n\n{body}".strip()
 
-        # Hard-max splitsing
+        # Stabiel chunk-id op art-nr
+        nr = current_article["nr"] or "ongenummerd"
+        art_key = f"art_{nr}"
+        art_counter[art_key] = art_counter.get(art_key, 0) + 1
+        suffix = f"_{art_counter[art_key]}" if art_counter[art_key] > 1 else ""
+        chunk_id = f"{source_id}__{art_key}{suffix}"
+
+        full_text = f"{breadcrumb}\n\n{article_heading}\n\n{body}".strip()
         provisional = {
+            "id": chunk_id,
             "text": full_text,
             "heading": article_heading,
             "path": path,
             "breadcrumb": breadcrumb,
         }
-        for fragment in split_long_chunk(provisional, MAX_CHUNK_CHARS):
-            chunk_counter += 1
+        for i, fragment in enumerate(split_long_chunk(provisional, MAX_CHUNK_CHARS), 1):
+            fid = f"{chunk_id}_part{i}" if fragment.get("_split_part") else chunk_id
             chunks.append({
-                "id":           f"{source_id}__chunk{chunk_counter}",
-                "chunk_index":  chunk_counter,
-                "text":         fragment["text"],
-                "heading":      fragment["heading"],
-                "path":         fragment["path"],
-                "breadcrumb":   fragment["breadcrumb"],
-                "_split_part":  fragment.get("_split_part", ""),
+                "id":          fid,
+                "text":        fragment["text"],
+                "heading":     fragment["heading"],
+                "path":        fragment["path"],
+                "breadcrumb":  fragment["breadcrumb"],
+                "_split_part": fragment.get("_split_part", ""),
             })
 
     for line in lines:
@@ -354,7 +361,6 @@ def split_wettekst_v2(text: str, source_id: str, fm: dict) -> list[dict]:
             current_article = parsed
             current_lines = []
         else:
-            # Stack-pruning op level: nieuwe heading op level N knipt diepere niveaus af
             structural_stack[:] = [s for s in structural_stack if s["level"] < parsed["level"]]
             structural_stack.append(parsed)
 
@@ -363,27 +369,25 @@ def split_wettekst_v2(text: str, source_id: str, fm: dict) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Generieke splitter voor bronnen zonder strikte artikel-structuur
+# Chunking — generiek (normen, adviezen; stabiele id op sectie-slug)
 # ---------------------------------------------------------------------------
 
-def split_generic_headings(text: str, source_id: str, breadcrumb_prefix: str = "") -> list[dict]:
+def split_generic(text: str, source_id: str, breadcrumb_prefix: str = "") -> list[dict]:
     """
-    Splitser op iedere `## sectie`-heading — voor normen, materie-fiches, gesplitste adviezen.
-    Optionele `breadcrumb_prefix` wordt aan elke chunk toegevoegd.
+    Splitser op iedere `##`-heading. Chunk-id = `<source_id>__sec_<slug>`.
     """
     lines = text.split("\n")
     chunks: list[dict] = []
     current_heading = ""
     current_context = ""
     current_lines: list[str] = []
-    chunk_counter = 0
+    slug_counter: dict[str, int] = {}
 
     def is_structural(line: str) -> bool:
         stripped = line.lstrip("#").strip()
         return bool(STRUCTURAL_PREFIX_RE.match(stripped))
 
     def flush(heading: str, context: str, body_lines: list[str]):
-        nonlocal chunk_counter
         body = "\n".join(body_lines).strip()
         if not body:
             return
@@ -400,13 +404,16 @@ def split_generic_headings(text: str, source_id: str, breadcrumb_prefix: str = "
         else:
             full_text = f"{prefix}\n\n{body}" if prefix else body
 
-        chunk_counter += 1
+        slug_base = _slug(heading) if heading else "intro"
+        slug_counter[slug_base] = slug_counter.get(slug_base, 0) + 1
+        suffix = f"_{slug_counter[slug_base]}" if slug_counter[slug_base] > 1 else ""
+        chunk_id = f"{source_id}__sec_{slug_base}{suffix}"
+
         chunks.append({
-            "id":              f"{source_id}__chunk{chunk_counter}",
+            "id":              chunk_id,
             "text":            full_text.strip(),
             "heading":         heading,
             "context_heading": context,
-            "chunk_index":     chunk_counter,
         })
 
     for line in lines:
@@ -429,263 +436,7 @@ def split_generic_headings(text: str, source_id: str, breadcrumb_prefix: str = "
 
 
 # ---------------------------------------------------------------------------
-# Per-collection indexers
-# ---------------------------------------------------------------------------
-
-def index_wetteksten(collection, reset: bool = False, file_filter: set[str] | None = None):
-    src = SOURCES["wetteksten"]
-    files = _apply_filter(sorted(src.glob("*.md")), file_filter)
-    if not files:
-        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
-        return
-
-    ids, texts, metadatas = [], [], []
-    toc_skipped = 0
-    long_split_count = 0
-    for path in tqdm(files, desc="wetteksten"):
-        try:
-            post = frontmatter.load(str(path))
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        if _is_toc_only(post.content):
-            toc_skipped += 1
-            continue
-
-        fm = post.metadata
-        source_id = path.stem
-        chunks = split_wettekst_v2(post.content, source_id, fm)
-        # Fallback voor bronnen zonder ## Art.-headings (bv. praktijkgidzen
-        # zoals fiscaal-memento, toelichting-PB; ADR-002 v2 — praktijkgidzen-TODO)
-        if not chunks:
-            wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
-            chunks = split_generic_headings(post.content, source_id, breadcrumb_prefix=f"[{wet_naam}]")
-            for c in chunks:
-                # Geef alle generic-chunks een minimaal path zodat metadata uniform is
-                c["path"] = [
-                    {"type": "wet", "nr": "", "naam": wet_naam},
-                    {"type": "sectie", "nr": "", "naam": c.get("heading", "")},
-                ]
-                c["breadcrumb"] = f"[{wet_naam}]" + (
-                    f" → {c['heading']}" if c.get("heading") else ""
-                )
-        keywords_map = _load_keywords(source_id)
-
-        for chunk in chunks:
-            if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
-                continue
-            if chunk.get("_split_part"):
-                long_split_count += 1
-            chunk_text = _prepend_keywords(chunk["text"], chunk["heading"], keywords_map)
-            ids.append(chunk["id"])
-            texts.append(chunk_text)
-            metadatas.append({
-                "bron":         str(fm.get("wet", fm.get("bron", path.stem))),
-                "bestand":      path.name,
-                "artikel_ref":  chunk["heading"],
-                "themas":       json.dumps(fm.get("tags", [])),
-                "itaa_lex":     str(fm.get("itaa-lex-sectie", "")),
-                "chunk_index":  chunk["chunk_index"],
-                "path":         json.dumps(chunk["path"], ensure_ascii=False),
-                "breadcrumb":   chunk["breadcrumb"],
-                "split_part":   chunk.get("_split_part", ""),
-                "has_keywords": str(bool(keywords_map.get(chunk["heading"]))),
-                "collection":   "wetteksten",
-            })
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} wetteksten "
-          f"({toc_skipped} TOC-only overgeslagen, {long_split_count} fragments uit te lange artikelen)")
-
-
-def index_normen(collection, reset: bool = False, file_filter: set[str] | None = None):
-    src = SOURCES["normen"]
-    files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
-    files = _apply_filter(files, file_filter)
-    if not files:
-        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
-        return
-
-    ids, texts, metadatas = [], [], []
-    for path in tqdm(files, desc="normen"):
-        try:
-            post = frontmatter.load(str(path))
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        fm = post.metadata
-        source_id = path.stem
-        norm_naam = str(fm.get("norm", path.stem))
-        breadcrumb = f"[Norm — {norm_naam}]"
-        chunks = split_generic_headings(post.content, source_id, breadcrumb_prefix=breadcrumb)
-
-        for chunk in chunks:
-            if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
-                continue
-            ids.append(chunk["id"])
-            texts.append(chunk["text"])
-            metadatas.append({
-                "bron":        norm_naam,
-                "bestand":     path.name,
-                "sectie":      chunk["heading"],
-                "themas":      json.dumps(fm.get("themas", [])),
-                "chunk_index": chunk["chunk_index"],
-                "breadcrumb":  breadcrumb,
-                "collection":  "normen",
-            })
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} normen")
-
-
-def index_adviezen(collection, reset: bool = False, file_filter: set[str] | None = None):
-    src = SOURCES["adviezen"]
-    files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
-    files = _apply_filter(files, file_filter)
-    if not files:
-        print(f"  Geen bestanden in {src}" + (" (na filter)" if file_filter else ""))
-        return
-
-    ids, texts, metadatas = [], [], []
-    for path in tqdm(files, desc="adviezen"):
-        try:
-            post = frontmatter.load(str(path))
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        fm = post.metadata
-        source_id = path.stem
-        content = post.content.strip()
-
-        # Strip "CBN-advies " prefix uit nummer (frontmatter heeft soms volledige string)
-        nummer_raw = str(fm.get("nummer", path.stem))
-        nummer = re.sub(r"^CBN[- ]advies\s*", "", nummer_raw).strip()
-
-        # Onderwerp uit eerste H1 (inhoudelijke titel; ADR-002 v2 §2 — "naam telt").
-        # Sommige H1's bevatten plak-tekst na de titel doordat ETL geen lege regel heeft
-        # geplaatst tussen H1 en eerste paragraaf. Pragmatisch: hard-cap op 80 chars
-        # op woordgrens. Volledige onderwerp blijft beschikbaar in de eerste chunk-text.
-        h1_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
-        onderwerp = h1_match.group(1).strip() if h1_match else ""
-        onderwerp = re.sub(r"^CBN[- ]advies\s*\S+\s*—\s*", "", onderwerp).strip()
-        if len(onderwerp) > 80:
-            onderwerp = onderwerp[:80].rsplit(" ", 1)[0] + "…"
-
-        breadcrumb = f"[CBN-advies {nummer} — {onderwerp}]" if onderwerp else f"[CBN-advies {nummer}]"
-
-        # ADR-002 v2: ≤40K chars → 1 chunk; anders splits op ##-secties
-        if len(content) <= 40_000 or not re.search(r"^#{2,4} ", content, re.MULTILINE):
-            full_text = f"{breadcrumb}\n\n{content}"
-            ids.append(f"{source_id}__chunk1")
-            texts.append(full_text)
-            metadatas.append({
-                "bron":        nummer,
-                "bestand":     path.name,
-                "sectie":      "",
-                "themas":      json.dumps(fm.get("themas", [])),
-                "datum":       str(fm.get("datum", "")),
-                "breadcrumb":  breadcrumb,
-                "chunk_index": 1,
-                "collection":  "adviezen",
-            })
-        else:
-            chunks = split_generic_headings(content, source_id, breadcrumb_prefix=breadcrumb)
-            for chunk in chunks:
-                if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
-                    continue
-                section_breadcrumb = (
-                    f"{breadcrumb[:-1]} → {chunk['heading']}]"
-                    if chunk["heading"] else breadcrumb
-                )
-                ids.append(chunk["id"])
-                texts.append(chunk["text"])
-                metadatas.append({
-                    "bron":        nummer,
-                    "bestand":     path.name,
-                    "sectie":      chunk["heading"],
-                    "themas":      json.dumps(fm.get("themas", [])),
-                    "datum":       str(fm.get("datum", "")),
-                    "breadcrumb":  section_breadcrumb,
-                    "chunk_index": chunk["chunk_index"],
-                    "collection":  "adviezen",
-                })
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} adviezen")
-
-
-def index_concepts(collection):
-    src = SOURCES["concepts"]
-    if not src.exists():
-        print(f"  {src} bestaat nog niet — sla concepts over")
-        return
-
-    files = sorted(src.glob("*.json"))
-    if not files:
-        print(f"  Geen concept records in {src}")
-        return
-
-    ids, texts, metadatas = [], [], []
-    for path in tqdm(files, desc="concepts"):
-        try:
-            record = json.loads(path.read_text())
-        except Exception as e:
-            print(f"  Overgeslagen {path.name}: {e}")
-            continue
-
-        concept_id = record.get("id", path.stem)
-        po_ref = json.dumps(record.get("po_ref", []))
-
-        def add_chunk(suffix, text, confidence=""):
-            if not text or len(text.strip()) < MIN_CHUNK_CHARS:
-                return
-            ids.append(f"{concept_id}__{suffix}")
-            texts.append(text.strip())
-            metadatas.append({
-                "bron":       concept_id,
-                "bestand":    path.name,
-                "veld":       suffix,
-                "po_ref":     po_ref,
-                "confidence": confidence,
-                "collection": "concepts",
-            })
-
-        naam = record.get("naam", concept_id)
-
-        mr = record.get("main_rule", {})
-        if mr:
-            add_chunk("main_rule", f"{naam}\n\n{mr.get('text', '')}", mr.get("confidence", ""))
-
-        for i, exc in enumerate(record.get("exceptions", [])):
-            add_chunk(f"exception_{i}", f"{naam} — uitzondering\n\n{exc.get('text', '')}", exc.get("confidence", ""))
-
-        scope = record.get("scope", {})
-        if scope:
-            scope_text = f"{naam} — toepassingsgebied\n\nVan toepassing op: {scope.get('applies_to', '')}\nUitgesloten: {scope.get('excludes', '')}"
-            add_chunk("scope", scope_text)
-
-        for i, pit in enumerate(record.get("pitfalls", [])):
-            add_chunk(f"pitfall_{i}", f"{naam} — valkuil\n\n{pit.get('text', '')}", pit.get("confidence", "inferred"))
-
-        for i, ex in enumerate(record.get("examples", [])):
-            if isinstance(ex, dict):
-                add_chunk(f"example_{i}", f"{naam} — voorbeeld\n\n{ex.get('text', '')}", ex.get("confidence", ""))
-            else:
-                add_chunk(f"example_{i}", f"{naam} — voorbeeld\n\n{ex}")
-
-    if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
-    print(f"  {len(ids)} chunks geïndexeerd uit {len(files)} concept records")
-
-
-# ---------------------------------------------------------------------------
-# Batch upsert met tqdm-voortgangsbar (ADR-002 v2 — kostbare les uit run 1)
+# Per-bron-rol indexers → allen schrijven naar 'bronnen' collection
 # ---------------------------------------------------------------------------
 
 def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
@@ -701,54 +452,327 @@ def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
         )
 
 
+def index_wetteksten(collection, file_filter: set[str] | None = None):
+    src = BRON_DIRS["wettekst"]
+    files = _apply_filter(sorted(src.glob("*.md")), file_filter)
+    if not files:
+        print(f"  Geen wetteksten{' in scope' if file_filter else ''}")
+        return
+
+    ids, texts, metadatas = [], [], []
+    toc_skipped = 0
+    long_split_count = 0
+
+    for path in tqdm(files, desc="wetteksten"):
+        try:
+            post = frontmatter.load(str(path))
+        except Exception as e:
+            print(f"  Overgeslagen {path.name}: {e}")
+            continue
+
+        if _is_toc_only(post.content):
+            toc_skipped += 1
+            continue
+
+        fm = post.metadata
+        source_id = path.stem
+        chunks = split_wettekst(post.content, source_id, fm)
+
+        # Fallback voor bronnen zonder ## Art.-headings
+        if not chunks:
+            wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
+            chunks = split_generic(post.content, source_id, breadcrumb_prefix=f"[{wet_naam}]")
+            for c in chunks:
+                c["path"] = [
+                    {"type": "wet", "nr": "", "naam": wet_naam},
+                    {"type": "sectie", "nr": "", "naam": c.get("heading", "")},
+                ]
+                c["breadcrumb"] = f"[{wet_naam}]" + (f" → {c['heading']}" if c.get("heading") else "")
+
+        keywords_map = _load_keywords(source_id)
+
+        for chunk in chunks:
+            if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
+                continue
+            if chunk.get("_split_part"):
+                long_split_count += 1
+            chunk_text = _prepend_keywords(chunk["text"], chunk["heading"], keywords_map)
+            ids.append(chunk["id"])
+            texts.append(chunk_text)
+            metadatas.append({
+                "bron_rol":    "wettekst",
+                "bron":        str(fm.get("wet", fm.get("bron", path.stem))),
+                "bestand":     path.name,
+                "artikel_ref": chunk["heading"],
+                "themas":      json.dumps(fm.get("tags", [])),
+                "itaa_lex":    str(fm.get("itaa-lex-sectie", "")),
+                "path":        json.dumps(chunk.get("path", []), ensure_ascii=False),
+                "breadcrumb":  chunk.get("breadcrumb", ""),
+                "split_part":  chunk.get("_split_part", ""),
+                "has_keywords": str(bool(keywords_map.get(chunk["heading"]))),
+            })
+
+    if ids:
+        _batch_upsert(collection, ids, texts, metadatas)
+    print(f"  {len(ids)} chunks uit {len(files)} wetteksten "
+          f"({toc_skipped} TOC-only overgeslagen, {long_split_count} lange artikelen gesplitst)")
+
+
+def index_normen(collection, file_filter: set[str] | None = None):
+    src = BRON_DIRS["norm"]
+    files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
+    files = _apply_filter(files, file_filter)
+    if not files:
+        print(f"  Geen normen{' in scope' if file_filter else ''}")
+        return
+
+    ids, texts, metadatas = [], [], []
+
+    for path in tqdm(files, desc="normen"):
+        try:
+            post = frontmatter.load(str(path))
+        except Exception as e:
+            print(f"  Overgeslagen {path.name}: {e}")
+            continue
+
+        fm = post.metadata
+        source_id = path.stem
+        norm_naam = str(fm.get("norm", path.stem))
+        breadcrumb = f"[Norm — {norm_naam}]"
+        chunks = split_generic(post.content, source_id, breadcrumb_prefix=breadcrumb)
+
+        # Fallback: geen secties gevonden → één chunk voor de hele norm
+        if not chunks:
+            full_text = f"{breadcrumb}\n\n{post.content.strip()}"
+            if len(full_text) >= MIN_CHUNK_CHARS and _has_real_content(full_text):
+                ids.append(f"{source_id}__sec_volledig")
+                texts.append(full_text)
+                metadatas.append({
+                    "bron_rol":  "norm",
+                    "bron":      norm_naam,
+                    "bestand":   path.name,
+                    "sectie":    "",
+                    "themas":    json.dumps(fm.get("themas", [])),
+                    "breadcrumb": breadcrumb,
+                })
+            continue
+
+        for chunk in chunks:
+            if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
+                continue
+            ids.append(chunk["id"])
+            texts.append(chunk["text"])
+            metadatas.append({
+                "bron_rol":  "norm",
+                "bron":      norm_naam,
+                "bestand":   path.name,
+                "sectie":    chunk["heading"],
+                "themas":    json.dumps(fm.get("themas", [])),
+                "breadcrumb": breadcrumb,
+            })
+
+    if ids:
+        _batch_upsert(collection, ids, texts, metadatas)
+    print(f"  {len(ids)} chunks uit {len(files)} normen")
+
+
+def index_adviezen(collection, file_filter: set[str] | None = None):
+    src = BRON_DIRS["advies"]
+    files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
+    files = _apply_filter(files, file_filter)
+    if not files:
+        print(f"  Geen adviezen{' in scope' if file_filter else ''}")
+        return
+
+    ids, texts, metadatas = [], [], []
+
+    for path in tqdm(files, desc="adviezen"):
+        try:
+            post = frontmatter.load(str(path))
+        except Exception as e:
+            print(f"  Overgeslagen {path.name}: {e}")
+            continue
+
+        fm = post.metadata
+        source_id = path.stem
+        content = post.content.strip()
+
+        nummer_raw = str(fm.get("nummer", path.stem))
+        nummer = re.sub(r"^CBN[- ]advies\s*", "", nummer_raw).strip()
+
+        h1_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
+        onderwerp = h1_match.group(1).strip() if h1_match else ""
+        onderwerp = re.sub(r"^CBN[- ]advies\s*\S+\s*—\s*", "", onderwerp).strip()
+        if len(onderwerp) > 80:
+            onderwerp = onderwerp[:80].rsplit(" ", 1)[0] + "…"
+
+        breadcrumb = f"[CBN-advies {nummer} — {onderwerp}]" if onderwerp else f"[CBN-advies {nummer}]"
+
+        if len(content) <= 40_000 or not re.search(r"^#{2,4} ", content, re.MULTILINE):
+            full_text = f"{breadcrumb}\n\n{content}"
+            ids.append(f"{source_id}__volledig")
+            texts.append(full_text)
+            metadatas.append({
+                "bron_rol":  "advies",
+                "bron":      nummer,
+                "bestand":   path.name,
+                "sectie":    "",
+                "themas":    json.dumps(fm.get("themas", [])),
+                "datum":     str(fm.get("datum", "")),
+                "breadcrumb": breadcrumb,
+            })
+        else:
+            chunks = split_generic(content, source_id, breadcrumb_prefix=breadcrumb)
+            for chunk in chunks:
+                if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
+                    continue
+                section_breadcrumb = (
+                    f"{breadcrumb[:-1]} → {chunk['heading']}]"
+                    if chunk["heading"] else breadcrumb
+                )
+                ids.append(chunk["id"])
+                texts.append(chunk["text"])
+                metadatas.append({
+                    "bron_rol":  "advies",
+                    "bron":      nummer,
+                    "bestand":   path.name,
+                    "sectie":    chunk["heading"],
+                    "themas":    json.dumps(fm.get("themas", [])),
+                    "datum":     str(fm.get("datum", "")),
+                    "breadcrumb": section_breadcrumb,
+                })
+
+    if ids:
+        _batch_upsert(collection, ids, texts, metadatas)
+    print(f"  {len(ids)} chunks uit {len(files)} adviezen")
+
+
+# ---------------------------------------------------------------------------
+# Concepten-collection (ADR-007)
+# ---------------------------------------------------------------------------
+
+def index_concepten(collection):
+    if not CONCEPTS_DIR.exists():
+        print(f"  {CONCEPTS_DIR} bestaat nog niet — sla concepten over")
+        return
+
+    files = sorted(CONCEPTS_DIR.glob("*.json"))
+    if not files:
+        print(f"  Geen concept-records in {CONCEPTS_DIR}")
+        return
+
+    ids, texts, metadatas = [], [], []
+
+    for path in tqdm(files, desc="concepten"):
+        try:
+            record = json.loads(path.read_text())
+        except Exception as e:
+            print(f"  Overgeslagen {path.name}: {e}")
+            continue
+
+        concept_id = record.get("id", path.stem)
+
+        def add_chunk(suffix, text, confidence=""):
+            if not text or len(text.strip()) < MIN_CHUNK_CHARS:
+                return
+            ids.append(f"{concept_id}__{suffix}")
+            texts.append(text.strip())
+            metadatas.append({
+                "bron_rol":   "concept",
+                "concept_id": concept_id,
+                "bestand":    path.name,
+                "veld":       suffix,
+                "confidence": confidence,
+            })
+
+        naam = record.get("naam", concept_id)
+        node_type = record.get("node_type", "")
+
+        mr = record.get("main_rule", {})
+        if mr:
+            add_chunk("main_rule", f"{naam}\n\n{mr.get('text', '')}", mr.get("confidence", ""))
+
+        definitie = record.get("definitie", {})
+        if definitie:
+            add_chunk("definitie", f"{naam}\n\n{definitie.get('text', '')}", definitie.get("confidence", ""))
+
+        for i, exc in enumerate(record.get("exceptions", [])):
+            add_chunk(f"exception_{i}", f"{naam} — uitzondering\n\n{exc.get('text', '')}", exc.get("confidence", ""))
+
+        scope = record.get("scope", {})
+        if scope:
+            scope_text = (
+                f"{naam} — toepassingsgebied\n\n"
+                f"Van toepassing op: {scope.get('applies_to', '')}\n"
+                f"Uitgesloten: {scope.get('excludes', '')}"
+            )
+            add_chunk("scope", scope_text)
+
+        for i, pit in enumerate(record.get("pitfalls", [])):
+            add_chunk(f"pitfall_{i}", f"{naam} — valkuil\n\n{pit.get('text', '')}", pit.get("confidence", "inferred"))
+
+        for i, ex in enumerate(record.get("voorbeeld_inline", record.get("examples", []))):
+            if isinstance(ex, dict):
+                add_chunk(f"voorbeeld_{i}", f"{naam} — voorbeeld\n\n{ex.get('text', '')}", ex.get("confidence", ""))
+            else:
+                add_chunk(f"voorbeeld_{i}", f"{naam} — voorbeeld\n\n{ex}")
+
+    if ids:
+        _batch_upsert(collection, ids, texts, metadatas)
+    print(f"  {len(ids)} chunks uit {len(files)} concept-records")
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(description="Bouw de Certificaid RAG-index (ADR-006)")
-    parser.add_argument("--collection", choices=["wetteksten", "normen", "adviezen", "concepts"],
-                        help="Indexeer alleen deze collection (default: alles)")
+    parser.add_argument("--bron-rol", choices=["wettekst", "norm", "advies"],
+                        help="Indexeer alleen deze bron-rol (default: alle drie)")
     parser.add_argument("--scope",
-                        help="Pad naar bronnen-scope.yaml — beperk indexering tot files in scope, "
-                             "schrijf naar aparte chroma_db_<programmaonderdeel>/")
-    parser.add_argument("--add-concepts", action="store_true",
-                        help="Voeg/vernieuw concept records toe aan concepts collection")
+                        help="Pad naar bronnen-scope.yaml — schrijft naar aparte chroma_db_<programmaonderdeel>/")
+    parser.add_argument("--add-concepten", action="store_true",
+                        help="Indexeer of vernieuw concept-records in de concepten-collection")
     parser.add_argument("--reset", action="store_true",
                         help="Verwijder en herbouw de collection(s)")
+    parser.add_argument("--device", choices=["mps", "cuda", "cpu"],
+                        help="Device voor embedding-model (default: auto-detect)")
     args = parser.parse_args()
 
-    # Scope laden indien opgegeven
+    device = args.device or detect_device()
+    print(f"→ Device: {device}")
+
     file_filter: dict[str, set[str]] = {}
     chroma_path = DEFAULT_CHROMA_PATH
-    scope_label = "full corpus"
     if args.scope:
         programmaonderdeel, file_filter, chroma_path = load_scope(Path(args.scope))
-        scope_label = f"scope {programmaonderdeel} — {chroma_path.name}"
-    print(f"→ ChromaDB: {chroma_path} ({scope_label})")
+        print(f"→ Scope: {programmaonderdeel} — {chroma_path.name}")
+    print(f"→ ChromaDB: {chroma_path}")
 
+    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
     client = get_client(chroma_path)
 
-    to_index = [args.collection] if args.collection else list(ALL_BRON_COLLECTIONS)
-    if args.add_concepts:
-        to_index = ["concepts"]
+    if args.add_concepten:
+        print("\n→ Indexeer collection: concepten")
+        col, client = get_collection(client, chroma_path, "concepten", ef, reset=args.reset)
+        index_concepten(col)
+    else:
+        print("\n→ Indexeer collection: bronnen")
+        col, client = get_collection(client, chroma_path, "bronnen", ef, reset=args.reset)
 
-    for name in to_index:
-        print(f"\n→ Indexeer collection: {name}")
-        col, client = get_collection(client, chroma_path, name, reset=args.reset)
-        # Voor scope-modus: lege filter-set = collection helemaal overslaan
-        if args.scope and name in ALL_BRON_COLLECTIONS and not file_filter.get(name):
-            print(f"  Geen files in scope voor {name} — overgeslagen")
-            continue
-        scope_for_col = file_filter.get(name) if args.scope else None
-        if name == "wetteksten":
-            index_wetteksten(col, args.reset, scope_for_col)
-        elif name == "normen":
-            index_normen(col, args.reset, scope_for_col)
-        elif name == "adviezen":
-            index_adviezen(col, args.reset, scope_for_col)
-        elif name == "concepts":
-            index_concepts(col)
+        rollen = [args.bron_rol] if args.bron_rol else ["wettekst", "norm", "advies"]
+        for rol in rollen:
+            scope_for_rol = file_filter.get(rol) if args.scope else None
+            if args.scope and scope_for_rol is not None and not scope_for_rol:
+                print(f"  Geen {rol}en in scope — overgeslagen")
+                continue
+            if rol == "wettekst":
+                index_wetteksten(col, scope_for_rol)
+            elif rol == "norm":
+                index_normen(col, scope_for_rol)
+            elif rol == "advies":
+                index_adviezen(col, scope_for_rol)
 
     print("\n✓ Klaar.")
 

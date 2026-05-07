@@ -28,11 +28,11 @@ from sentence_transformers import CrossEncoder
 logger = logging.getLogger(__name__)
 
 EMBEDDING_MODEL = "BAAI/bge-m3"
-RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
-CHROMA_PATH = Path(__file__).parent.parent.parent / "data" / "chroma_db"
+RERANKER_MODEL  = "BAAI/bge-reranker-v2-m3"
+CHROMA_PATH     = Path(__file__).parent.parent.parent / "data" / "chroma_db"
 
-ALL_COLLECTIONS = ["wetteksten", "normen", "adviezen", "tdks", "bestaande_fiches", "concepts"]
-BRONNEN_COLS    = ["wetteksten", "normen", "adviezen"]
+ALL_COLLECTIONS = ["bronnen", "concepten"]   # ADR-006: twee collections
+BRONNEN_COLS    = ["bronnen"]
 
 
 # ---------------------------------------------------------------------------
@@ -59,9 +59,23 @@ class RetrievalResult:
 # Setup
 # ---------------------------------------------------------------------------
 
-def build_retrieval_stack(chroma_path: Path = CHROMA_PATH):
+def _detect_device() -> str:
+    """Auto-detect beste beschikbaar device voor embedding-model."""
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            return "mps"
+        if torch.cuda.is_available():
+            return "cuda"
+    except ImportError:
+        pass
+    return "cpu"
+
+
+def build_retrieval_stack(chroma_path: Path = CHROMA_PATH, device: str | None = None):
     """Laad ChromaDB-client, embedding-functie en reranker (gecached door Streamlit)."""
-    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL)
+    device = device or _detect_device()
+    ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
     client = chromadb.PersistentClient(path=str(chroma_path))
     reranker = CrossEncoder(RERANKER_MODEL)
     return client, ef, reranker
@@ -87,7 +101,13 @@ def _retrieve_candidates(
     query: str,
     selected_cols: list[str],
     bi_top_n: int,
+    bron_rollen: list[str] | None = None,
 ) -> list[RetrievalResult]:
+    """
+    Haal bi_top_n kandidaten op per collection.
+    bron_rollen: optionele where-filter op metadata `bron_rol`
+    (bv. ["wettekst", "norm"] beperkt resultaten in de `bronnen`-collection).
+    """
     results: list[RetrievalResult] = []
     for name in selected_cols:
         col = collections.get(name)
@@ -96,10 +116,19 @@ def _retrieve_candidates(
         count = col.count()
         if count == 0:
             continue
+
+        where = None
+        if bron_rollen and name == "bronnen":
+            if len(bron_rollen) == 1:
+                where = {"bron_rol": {"$eq": bron_rollen[0]}}
+            else:
+                where = {"bron_rol": {"$in": bron_rollen}}
+
         res = col.query(
             query_texts=[query],
             n_results=min(bi_top_n, count),
             include=["documents", "metadatas", "distances", "ids"],
+            where=where,
         )
         for doc, meta, dist, cid in zip(
             res["documents"][0], res["metadatas"][0],
@@ -203,18 +232,20 @@ def retrieve_and_rerank(
     max_results: int = 20,
     expand_context: bool = True,
     n_neighbors: int = 2,
+    bron_rollen: list[str] | None = None,
 ) -> list[RetrievalResult]:
     """
-    Volledige retrieval-pipeline (zie ADR-003 en ADR-005):
+    Volledige retrieval-pipeline (ADR-006):
 
     1. Bi-encoder: haal bi_top_n kandidaten op per collection
+       bron_rollen: optionele where-filter op bron_rol-metadata in `bronnen`-collection
     2. Cross-encoder: rerank alle kandidaten gezamenlijk
     3. Dedupliceer op chunk_id
     4. Filter: alles met rerank_score >= rerank_threshold, cap op max_results
     5. Fallback: als 0 resultaten boven drempel → top-5 zonder drempel
     6. Context-uitbreiding voor wetteksten (±n_neighbors artikelen, begrensd)
     """
-    candidates = _retrieve_candidates(collections, query, selected_cols, bi_top_n)
+    candidates = _retrieve_candidates(collections, query, selected_cols, bi_top_n, bron_rollen)
     if not candidates:
         return []
 
@@ -260,6 +291,7 @@ def multi_query_retrieve(
     rerank_threshold: float = 0.50,
     max_per_query: int = 30,
     expand_context: bool = True,
+    bron_rollen: list[str] | None = None,
 ) -> list[RetrievalResult]:
     """
     Voer meerdere gerichte sub-queries uit en voeg de resultaten samen.
@@ -276,6 +308,7 @@ def multi_query_retrieve(
             rerank_threshold=rerank_threshold,
             max_results=max_per_query,
             expand_context=expand_context,
+            bron_rollen=bron_rollen,
         )
         for r in results:
             if r.chunk_id not in seen:
