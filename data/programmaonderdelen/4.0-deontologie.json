@@ -8,6 +8,11 @@
     "version": "04/2022",
     "pages": "48-51"
   },
+  "scope": {
+    "kern_taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+    "kern_kenniselementen": ["4.0.I.A", "4.0.I.B", "4.0.I.C", "4.0.I.D"],
+    "voorbehoud": "Deel 2 (taakblokken 4.0.D2.1 en 4.0.D2.2 + kenniselementen 4.0.II.A t/m 4.0.II.F) is generieke 'digitale wereld / IT / audit / management'-content en niet deontologie-specifiek. Buiten kernscope; in scope brengen wanneer voorbeeldexamens er expliciet naar verwijzen."
+  },
   "taakblokken": [
     {
       "deel": 1,
