@@ -1,0 +1,5 @@
+[server]
+# Schakel de module-introspectie van de file watcher uit.
+# Zonder dit scant Streamlit alle transitive imports (incl. transformers-submodules)
+# en crasht het op ontbrekende dependencies zoals torchvision.
+fileWatcherType = "none"

@@ -75,14 +75,27 @@ def _detect_device() -> str:
     return "cpu"
 
 
-def build_retrieval_stack(chroma_path: Path = CHROMA_PATH, device: str | None = None):
-    """Laad ChromaDB-client, embedding-functie en reranker (gecached door Streamlit)."""
+def build_retrieval_stack(
+    chroma_path: Path = CHROMA_PATH,
+    device: str | None = None,
+    reranker_device: str | None = None,
+):
+    """
+    Laad ChromaDB-client, embedding-functie en reranker (gecached door Streamlit).
+
+    device: device voor de bi-encoder (query-embedding). Default = CPU.
+    reranker_device: device voor de cross-encoder. Default = CPU.
+
+    Splitsing is bewust: de reranker voert een forward-pass uit over (query, chunk)-paren
+    en verbruikt significant meer actief MPS-geheugen dan de bi-encoder. Op een Mac met
+    Claude Desktop actief (5–6 GiB MPS bezet) kan dit leiden tot OOM. Tutor gebruikt
+    daarom MPS voor de bi-encoder en CPU voor de reranker.
+    """
     device = device or _detect_device()
+    reranker_device = reranker_device or "cpu"
     ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
     client = chromadb.PersistentClient(path=str(chroma_path))
-    # Belangrijk: CrossEncoder default naar MPS als beschikbaar — expliciet device
-    # zetten voorkomt onverwachte GPU-allocatie tijdens query-time.
-    reranker = CrossEncoder(RERANKER_MODEL, device=device)
+    reranker = CrossEncoder(RERANKER_MODEL, device=reranker_device)
     return client, ef, reranker
 
 
@@ -179,6 +192,14 @@ def _rerank(
 # Context-uitbreiding voor wetteksten (ADR-002)
 # ---------------------------------------------------------------------------
 
+def _art_nr_from_id(chunk_id: str) -> int:
+    """Extraheer het artikel-nummer uit een chunk_id als `<bron>__art_<nr>`."""
+    try:
+        return int(chunk_id.split("__art_")[1])
+    except (IndexError, ValueError):
+        return 0
+
+
 def _expand_wetteksten_context(
     result: RetrievalResult,
     collections: dict,
@@ -188,34 +209,72 @@ def _expand_wetteksten_context(
     Laad het gevonden artikel ± n_neighbors omliggende artikelen.
     Bovengrens: 2 buren aan elke kant = max ~5 artikelen in context.
     Laadt NOOIT de volledige wettekst.
+
+    Twee id-schema's:
+    - ADR-006 §3.1 (unified bronnen): `<bron-stem>__art_<nr>`
+      Artikel-nummer staat in het chunk_id; niet in metadata.
+    - Legacy (wetteksten-collection): `<bestand>__chunk<n>`
+      Nummer staat in `chunk_index`-metadata.
     """
-    col = collections.get("wetteksten")
+    col = collections.get("bronnen") or collections.get("wetteksten")
     if col is None:
         return result.text
 
     meta = result.meta
-    chunk_idx = meta.get("chunk_index")
-    bestand_stem = meta.get("bestand", "").replace(".md", "")
-    if chunk_idx is None or not bestand_stem:
+    chunk_id = result.chunk_id
+    use_art_schema = "__art_" in chunk_id
+
+    if use_art_schema:
+        bron_stem = chunk_id.split("__art_")[0]
+        try:
+            art_nr = int(chunk_id.split("__art_")[1])
+        except (IndexError, ValueError):
+            return result.text  # niet-numeriek artikelnummer (bv. "5bis") — geen uitbreiding
+        neighbor_ids = [
+            f"{bron_stem}__art_{art_nr + delta}"
+            for delta in range(-n_neighbors, n_neighbors + 1)
+            if delta != 0 and (art_nr + delta) >= 1
+        ]
+    elif meta.get("chunk_index") is not None:
+        # Legacy id-schema (`<bestand_stem>__chunk{n}`)
+        bestand_stem = meta.get("bestand", "").replace(".md", "")
+        if not bestand_stem:
+            return result.text
+        chunk_idx = int(meta["chunk_index"])
+        neighbor_ids = [
+            f"{bestand_stem}__chunk{chunk_idx + delta}"
+            for delta in range(-n_neighbors, n_neighbors + 1)
+            if delta != 0 and (chunk_idx + delta) >= 1
+        ]
+    else:
         return result.text
 
-    chunk_idx = int(chunk_idx)
-    neighbor_ids = [
-        f"{bestand_stem}__chunk{chunk_idx + delta}"
-        for delta in range(-n_neighbors, n_neighbors + 1)
-        if delta != 0 and (chunk_idx + delta) >= 1
-    ]
     if not neighbor_ids:
         return result.text
 
+    # In de unified `bronnen`-collection halen we ook wetteksten van andere bron-rollen op
+    # als we alleen op ids filteren. Geen extra where-filter nodig: de neighbor_ids bevatten
+    # al de bron-stem, dus we raken nooit norm- of advieschunks van dezelfde wettekst.
     try:
         res = col.get(ids=neighbor_ids, include=["documents", "metadatas"])
-        neighbors = sorted(
-            zip(res["documents"], res["metadatas"]),
-            key=lambda x: int(x[1].get("chunk_index", 0)),
-        )
-        before = [doc for doc, m in neighbors if int(m.get("chunk_index", 0)) < chunk_idx]
-        after  = [doc for doc, m in neighbors if int(m.get("chunk_index", 0)) > chunk_idx]
+
+        if use_art_schema:
+            # Sorteer op artikel-nummer in het chunk_id (niet in metadata)
+            triples = sorted(
+                zip(res["ids"], res["documents"], res["metadatas"]),
+                key=lambda x: _art_nr_from_id(x[0]),
+            )
+            before = [doc for cid, doc, _ in triples if _art_nr_from_id(cid) < art_nr]
+            after  = [doc for cid, doc, _ in triples if _art_nr_from_id(cid) > art_nr]
+        else:
+            # Legacy: sorteer op chunk_index in metadata
+            pairs = sorted(
+                zip(res["documents"], res["metadatas"]),
+                key=lambda x: int(x[1].get("chunk_index", 0)),
+            )
+            before = [doc for doc, m in pairs if int(m.get("chunk_index", 0)) < chunk_idx]
+            after  = [doc for doc, m in pairs if int(m.get("chunk_index", 0)) > chunk_idx]
+
         return "\n\n---\n\n".join(before + [result.text] + after)
     except Exception as exc:
         logger.debug("Context-uitbreiding mislukt voor %s: %s", result.chunk_id, exc)
@@ -230,7 +289,7 @@ def retrieve_and_rerank(
     query: str,
     collections: dict,
     selected_cols: list[str],
-    reranker: CrossEncoder,
+    reranker: CrossEncoder | None,
     *,
     bi_top_n: int = 50,
     rerank_threshold: float = 0.60,
@@ -244,39 +303,57 @@ def retrieve_and_rerank(
 
     1. Bi-encoder: haal bi_top_n kandidaten op per collection
        bron_rollen: optionele where-filter op bron_rol-metadata in `bronnen`-collection
-    2. Cross-encoder: rerank alle kandidaten gezamenlijk
-    3. Dedupliceer op chunk_id
-    4. Filter: alles met rerank_score >= rerank_threshold, cap op max_results
-    5. Fallback: als 0 resultaten boven drempel → top-5 zonder drempel
-    6. Context-uitbreiding voor wetteksten (±n_neighbors artikelen, begrensd)
+    2. Cross-encoder reranking (optioneel — reranker=None slaat stap over):
+       - Rerank alle kandidaten gezamenlijk
+       - Filter: alles met rerank_score >= rerank_threshold, cap op max_results
+       - Fallback: als 0 resultaten boven drempel → top-5 zonder drempel
+    3. Zonder reranker: dedup + top max_results op bi-encoder score
+    4. Context-uitbreiding voor wetteksten (±n_neighbors artikelen, begrensd)
     """
     candidates = _retrieve_candidates(collections, query, selected_cols, bi_top_n, bron_rollen)
     if not candidates:
         return []
 
-    ranked = _rerank(candidates, query, reranker)
+    if reranker is None:
+        # Reranker overgeslagen: sorteer op bi-encoder score, dedup, cap op max_results.
+        seen: set[str] = set()
+        filtered: list[RetrievalResult] = []
+        for r in sorted(candidates, key=lambda x: x.score, reverse=True):
+            if r.chunk_id not in seen:
+                seen.add(r.chunk_id)
+                filtered.append(r)
+            if len(filtered) >= max_results:
+                break
+    else:
+        ranked = _rerank(candidates, query, reranker)
 
-    seen: set[str] = set()
-    filtered: list[RetrievalResult] = []
-    for r in ranked:
-        if r.chunk_id in seen:
-            continue
-        seen.add(r.chunk_id)
-        if r.rerank_score >= rerank_threshold:
-            filtered.append(r)
-        if len(filtered) >= max_results:
-            break
+        seen = set()
+        filtered = []
+        for r in ranked:
+            if r.chunk_id in seen:
+                continue
+            seen.add(r.chunk_id)
+            if r.rerank_score >= rerank_threshold:
+                filtered.append(r)
+            if len(filtered) >= max_results:
+                break
 
-    # Fallback als niets boven de drempel uitkomt
-    if not filtered:
-        filtered = [r for r in ranked if r.chunk_id not in (
-            set(x.chunk_id for x in filtered)
-        )][:5]
+        # Fallback als niets boven de drempel uitkomt
+        if not filtered:
+            filtered = [r for r in ranked if r.chunk_id not in (
+                set(x.chunk_id for x in filtered)
+            )][:5]
 
-    # Context-uitbreiding: wetteksten krijgen omliggende artikelen
+    # Context-uitbreiding: wettekst-chunks krijgen omliggende artikelen.
+    # ADR-006: wetteksten zitten nu in de unified `bronnen`-collection, herkenbaar via
+    # bron_rol-metadata. Legacy `wetteksten`-collection wordt ook ondersteund.
     if expand_context:
         for r in filtered:
-            if r.collection == "wetteksten":
+            is_wettekst = (
+                r.collection == "wetteksten"
+                or (r.collection == "bronnen" and r.meta.get("bron_rol") == "wettekst")
+            )
+            if is_wettekst:
                 r.text = _expand_wetteksten_context(r, collections, n_neighbors)
 
     return filtered

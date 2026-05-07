@@ -23,8 +23,7 @@ if _env_file.exists():
             os.environ[_k.strip()] = _v.strip()
 
 import anthropic
-import chromadb
-import streamlit as st
+import streamlit as st  # noqa: E402 (streamlit voor sys.path-insert)
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
@@ -37,7 +36,10 @@ from lib.retrieval import (
     RetrievalResult,
 )
 
-CHROMA_PATH   = ROOT / "data" / "chroma_db"
+# CHROMA_PATH: leesbaar via env-var zodat je makkelijk wisselt tussen POC en volledig.
+# Standaard = chroma_db_4.0 (POC, gevuld). Zet CERTIFICAID_CHROMA_PATH voor productie.
+_chroma_env = os.environ.get("CERTIFICAID_CHROMA_PATH")
+CHROMA_PATH   = Path(_chroma_env) if _chroma_env else ROOT / "data" / "chroma_db_4.0"
 PATTERNS_DIR  = ROOT / "data" / "exam_patterns"
 QUESTIONS_DIR = ROOT / "data" / "generated_questions"
 CLAUDE_MODEL  = "claude-sonnet-4-6"
@@ -78,19 +80,64 @@ Stijl:
 # RAG setup (gecached)
 # ---------------------------------------------------------------------------
 
+def _tutor_device() -> str:
+    """
+    Kies het beste device voor query-time retrieval in de tutor.
+
+    MPS is hier wél gewenst — de tutor IS de primaire taak, niet een achtergrond-
+    build-stap. Gebruik MPS als het beschikbaar is voor ~1.7× snellere embedding +
+    reranking. Fallback naar CPU als torch/MPS niet beschikbaar is.
+    """
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            return "mps"
+    except Exception:
+        pass
+    return "cpu"
+
+
 @st.cache_resource
 def load_rag():
-    """Laad ChromaDB, embedding-functie en reranker (één keer per Streamlit-sessie)."""
-    client, ef, reranker = build_retrieval_stack(CHROMA_PATH)
+    """
+    Laad ChromaDB, embedding-functie en reranker (één keer per Streamlit-sessie).
+
+    Bi-encoder op MPS (query-embedding is klein, ~50ms sneller dan CPU).
+    Reranker altijd op CPU: de forward-pass over 30 paren verbruikt te veel actief
+    MPS-geheugen op een Mac waar Claude Desktop ook MPS-geheugen bezet.
+    """
+    device = _tutor_device()
+    client, ef, reranker = build_retrieval_stack(
+        CHROMA_PATH, device=device, reranker_device="cpu"
+    )
     collections = open_collections(client, ef, ALL_COLS)
-    return client, ef, reranker, collections
+    return client, ef, reranker, collections, device
+
+
+@st.cache_data(ttl=300)
+def _bron_rol_counts(chroma_path_str: str) -> dict:
+    """Tel chunks per bron_rol — gecached 5 minuten zodat dit niet bij elke rerun draait."""
+    import chromadb as _chromadb
+    _client = _chromadb.PersistentClient(path=chroma_path_str)
+    try:
+        _col = _client.get_collection("bronnen")
+        counts = {}
+        for rol in ALLE_BRON_ROLLEN:
+            try:
+                res = _col.get(where={"bron_rol": {"$eq": rol}}, include=[])
+                counts[rol] = len(res["ids"])
+            except Exception:
+                counts[rol] = 0
+        counts["_totaal"] = _col.count()
+        return counts
+    except Exception:
+        return {}
 
 
 def retrieve_two_pass(
     collections: dict,
-    reranker,
+    reranker,           # CrossEncoder | None — None = sla reranking over
     query: str,
-    selected_cols: list[str],
     po_filter: str | None = None,
     bron_rollen: list[str] | None = None,
 ) -> tuple[list[RetrievalResult], str]:
@@ -98,10 +145,13 @@ def retrieve_two_pass(
     Twee-pass retrieval (ADR-006):
 
     Pass 1: zoek in concepten-collection (gecureerde kennislaag).
-            Als score ≥ CONCEPT_RERANK_THRESH → gebruik als primaire context.
+            Resultaten met rerank_score ≥ CONCEPT_RERANK_THRESH als primaire context.
 
     Pass 2: zoek altijd in bronnen-collection (unified, optioneel gefilterd op bron_rol).
-            Resultaten gecombineerd met Pass 1.
+            Resultaten van beide passes worden samengevoegd.
+
+    po_filter: als opgegeven, wordt het als prefix aan de query toegevoegd (zachte sturing;
+               er is geen programmaonderdeel-metadata in de huidige bronnen-collection).
 
     Retourneert (chunks, retrieval_mode).
     """
@@ -181,8 +231,12 @@ def get_claude():
     return anthropic.Anthropic(api_key=api_key)
 
 
-def ask_claude(client: anthropic.Anthropic, question: str, context: str,
-               history: list[dict]) -> str:
+def ask_claude_stream(client: anthropic.Anthropic, question: str, context: str,
+                      history: list[dict]):
+    """
+    Generator die Claude's antwoord token voor token streamt.
+    Gebruik met st.write_stream() voor directe weergave terwijl Claude nog schrijft.
+    """
     messages = []
     # Voeg gespreksgeschiedenis toe (max 6 beurten)
     for turn in history[-6:]:
@@ -197,13 +251,13 @@ Aangeleverde bronnen (gebruik deze als primaire referentie):
 ---"""
     messages.append({"role": "user", "content": user_content})
 
-    response = client.messages.create(
+    with client.messages.stream(
         model=CLAUDE_MODEL,
         max_tokens=2048,
         system=SYSTEM_PROMPT,
         messages=messages,
-    )
-    return response.content[0].text
+    ) as stream:
+        yield from stream.text_stream
 
 
 # ---------------------------------------------------------------------------
@@ -255,13 +309,14 @@ def select_patterns_for_concept(patterns: list[dict], concept: str,
 # ---------------------------------------------------------------------------
 
 def generate_case(client: anthropic.Anthropic, concept: str, po_filter: str,
-                  collections: dict, reranker,
+                  collections: dict, active_reranker,
                   patroon: dict | None = None) -> tuple[str, str]:
     """
     Genereer een examenvraag. Geeft (vraag_tekst, gvraag_id) terug.
     Als patroon opgegeven: gebruik dat patroon als template.
+    active_reranker: CrossEncoder of None (reranker al resolved door de aanroeper).
     """
-    chunks, _ = retrieve_two_pass(collections, reranker, concept, ALL_COLS)
+    chunks, _ = retrieve_two_pass(collections, active_reranker, concept)
     context = format_context(chunks, max_chars=3000)
 
     if patroon:
@@ -364,7 +419,7 @@ def main():
     st.caption("ITAA-bekwaamheidsexamen — Gecertificeerd Accountant")
 
     # Laad resources
-    _, ef, reranker, collections = load_rag()
+    _, ef, reranker, collections, rag_device = load_rag()
     claude = get_claude()
 
     active_cols = [n for n in ALL_COLS if n in collections]
@@ -377,11 +432,13 @@ def main():
         st.header("Instellingen")
 
         po_filter = st.selectbox(
-            "Programmaonderdeel (optioneel)",
+            "Programmaonderdeel",
             ["Alle PO's", "1.1", "1.2", "1.3", "1.4", "1.5",
              "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8",
              "3.1", "3.2", "4.0"],
             index=0,
+            help="Stuurt de zoekopdracht zachter in de richting van dit programmaonderdeel. "
+                 "Geen harde filter — bronnen zijn niet per PO gepartitioneerd.",
         )
 
         modus = st.radio(
@@ -397,10 +454,31 @@ def main():
         }
         actieve_bron_rollen = [r for r, aan in bron_rol_selectie.items() if aan] or None
 
+        gebruik_reranker = st.checkbox(
+            "Reranker",
+            value=False,
+            help="Cross-encoder rerankt de kandidaten nauwkeuriger, maar voegt 1–3 s "
+                 "latency toe. Met 400 chunks en bge-m3 is de bi-encoder alleen al goed.",
+        )
+
         st.divider()
-        total_docs = sum(collections[n].count() for n in active_cols if n in collections)
-        st.caption(f"Collections: {', '.join(active_cols)}")
-        st.caption(f"Geïndexeerde chunks: {total_docs:,}")
+        # Toon tellingen per bron_rol — gecached zodat dit niet bij elke rerun draait.
+        if "bronnen" in collections:
+            counts = _bron_rol_counts(str(CHROMA_PATH))
+            totaal_concepten = collections["concepten"].count() if "concepten" in collections else 0
+            st.caption(
+                f"**Index:** `{CHROMA_PATH.name}`  \n"
+                f"**Device:** embed=`{rag_device}` · rerank=`cpu`  \n"
+                + "  \n".join(
+                    f"· {rol}: {counts.get(rol, 0):,}" for rol in ALLE_BRON_ROLLEN
+                )
+                + f"  \n· concepten: {totaal_concepten:,}"
+                + f"  \n**Totaal:** {counts.get('_totaal', 0) + totaal_concepten:,}"
+            )
+        else:
+            total_docs = sum(collections[n].count() for n in active_cols if n in collections)
+            st.caption(f"Collections: {', '.join(active_cols)}")
+            st.caption(f"Geïndexeerde chunks: {total_docs:,}")
 
         if st.button("🗑️ Gesprek wissen"):
             st.session_state.messages = []
@@ -426,14 +504,11 @@ def main():
                 st.markdown(prompt)
             st.session_state.messages.append({"role": "user", "content": prompt})
 
-            # RAG retrieval
-            query = prompt
-            if po_filter != "Alle PO's":
-                query = f"PO {po_filter} {prompt}"
-
+            # RAG retrieval — po_filter-prefix wordt intern door retrieve_two_pass toegevoegd.
+            active_reranker = reranker if gebruik_reranker else None
             with st.spinner("Bronnen zoeken..."):
                 chunks, _mode = retrieve_two_pass(
-                    collections, reranker, query, ALL_COLS,
+                    collections, active_reranker, prompt,
                     po_filter=po_filter if po_filter != "Alle PO's" else None,
                     bron_rollen=actieve_bron_rollen,
                 )
@@ -441,12 +516,12 @@ def main():
             context = format_context(chunks)
             sources_display = format_sources_display(chunks)
 
-            # Claude antwoord
+            # Claude antwoord — gestreamd zodat tekst direct zichtbaar is
             with st.chat_message("assistant"):
-                with st.spinner("Antwoord genereren..."):
-                    history = [m for m in st.session_state.messages[:-1]]
-                    answer = ask_claude(claude, prompt, context, history)
-                st.markdown(answer)
+                history = [m for m in st.session_state.messages[:-1]]
+                answer = st.write_stream(
+                    ask_claude_stream(claude, prompt, context, history)
+                )
                 with st.expander("📎 Gebruikte bronnen"):
                     st.text(sources_display)
 
@@ -494,7 +569,9 @@ def main():
         if st.button("Genereer oefenvraag", disabled=not concept_input):
             with st.spinner("Vraag genereren..."):
                 case_text, gvraag_id = generate_case(
-                    claude, concept_input, po_filter, collections, reranker, patroon_keuze
+                    claude, concept_input, po_filter, collections,
+                    reranker if gebruik_reranker else None,
+                    patroon_keuze,
                 )
 
             st.markdown("---")
@@ -525,7 +602,7 @@ def main():
         if concept_search:
             with st.spinner("Zoeken..."):
                 chunks, mode = retrieve_two_pass(
-                    collections, reranker, concept_search, ALL_COLS,
+                    collections, reranker if gebruik_reranker else None, concept_search,
                     bron_rollen=actieve_bron_rollen,
                 )
 
