@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/3 — de boekhoudkundige verwerking van step acquisitions update Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft

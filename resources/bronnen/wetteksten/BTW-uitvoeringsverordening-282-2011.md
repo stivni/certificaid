@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG

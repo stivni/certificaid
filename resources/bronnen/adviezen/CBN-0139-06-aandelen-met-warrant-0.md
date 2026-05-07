@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/6 — aandelen met warrant Bij de verwerving van aandelen met warrant mag de actuariële methode die wordt aanbevolen in advies 139/5 om te bepalen welke fractie van de aanschaffingswaarde van de obligaties met warrant moet worden toegerekend aan de obligatie enerzijds en de warrant anderzijds, per definitie niet worden gevolgd. 

@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/19 — goederen verworven tegen betaling van een lijfrente Boekhoudkundige verwerking in hoofde van de onderneming die een goed verwerft tegen betaling van een lijfrente

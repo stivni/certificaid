@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 12/2 — toepassingsgebied van de uitvoeringsbesluiten boekjaar waarop de criteria van toepassing Dit  advies  is  verouderd  gezien  het  nieuwe  artikel  12  van  de  wet  17  juli  1975  (artikel  8  van  de  wet  van  1  juli  1983)  

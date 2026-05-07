@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 147/1 — vastrentende effecten financiele vaste activa of geldbeleggingen criteria Krachtens het koninklijk besluit van 8 oktober 1976 kunnen obligaties hetzij als financiële vaste activa, hetzij als geldbelegging worden geboekt; op grond van dit onderscheid worden zij in de overeenstemmende actiefrubrieken ondergebracht.

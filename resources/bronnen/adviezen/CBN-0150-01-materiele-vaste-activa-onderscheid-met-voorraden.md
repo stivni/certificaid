@@ -27,6 +27,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 150/1 — materiele vaste activa onderscheid met voorraden De Commissie werd meermaals gevraagd op grond van welke criteria bepaalde vermogensbestanddelen in de boekhouding en de jaarrekening hetzij bij de vaste activa, hetzij bij de voorraden, moeten worden ingedeeld. 

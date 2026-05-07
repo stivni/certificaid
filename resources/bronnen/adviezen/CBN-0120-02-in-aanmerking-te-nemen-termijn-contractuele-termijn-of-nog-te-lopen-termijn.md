@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 120/2 — in aanmerking te nemen termijn contractuele termijn of nog te lopen termijn Wanneer de overblijvende duur van een tegoed op een financiële instelling, met een contractuele termijn van meer dan één maand, op de balansdatum geen maand meer bedraagt, mag - of moet - dit tegoed dan uit de rubriek *Thesauriebeleggingen *worden gehaald en onder de rubriek *Beschikbare waarden* worden ingeschreven ? 

@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies R101/2 — aandelen als waarborg van de goede uitoefening van een mandaat als bestuurder of Overeenkomstig de artikelen 57, eerste lid, en 69, eerste lid, W.Venn. moet iedere bestuurder of commissaris een bepaald aantal aandelen bij voorrecht verbinden tot waarborg van zijn mandaat.

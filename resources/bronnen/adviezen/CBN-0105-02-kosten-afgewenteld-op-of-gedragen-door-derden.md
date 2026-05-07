@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 105/2 — kosten afgewenteld op of gedragen door derden Het gebeurt regelmatig dat zekere uitgaven of kosten van een onderneming afgewenteld worden op - of gedragen worden door derden. 

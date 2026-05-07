@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/4 — voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de Aan de Commissie werd gevraagd of een onderneming een voorziening mag boeken voor de personeelskosten en andere sociale lasten die zij moeten dragen bij de stopzetting van het geheel of van een belangrijk gedeelte van haar bedrijf met als gevolg het ontslag van alle of een groot aantal personeelsleden.

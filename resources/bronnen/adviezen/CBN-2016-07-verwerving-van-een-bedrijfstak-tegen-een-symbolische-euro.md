@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/7 — verwerving van een bedrijfstak tegen een symbolische euro Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer

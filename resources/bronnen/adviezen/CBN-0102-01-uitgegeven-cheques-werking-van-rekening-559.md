@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies R102/1 — uitgegeven cheques werking van rekening Het genormaliseerd rekeningstelsel voorziet bij de rekening 55 *Kredietinstellingen *in een afzonderlijke subrekening 559 *Uitgegeven cheques* waarin worden ingeschreven, uitgegeven in omloop zijnde cheques die derhalve nog niet aan de financiële instelling waarop zij werden getrokken, ter inning werden aangeboden. 

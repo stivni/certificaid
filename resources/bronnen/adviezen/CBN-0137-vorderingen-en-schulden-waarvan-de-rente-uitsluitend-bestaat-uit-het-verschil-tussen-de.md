@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 137/5 — vorderingen en schulden waarvan de rente uitsluitend bestaat uit het verschil tussen de Artikel 27*bis* van het koninklijk besluit van 8 oktober 1976 bepaalt dat bij de boeking van een vordering in de balans voor haar nominale waarde in voorkomend geval in de overlopende rekeningen van het passief worden geboekt en pro rata temporis in resultaat worden genomen : 

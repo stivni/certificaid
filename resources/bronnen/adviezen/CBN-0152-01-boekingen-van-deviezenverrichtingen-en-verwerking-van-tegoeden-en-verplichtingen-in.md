@@ -47,6 +47,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 152/1 — boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in De betaling van de schuld of de inning van de vordering in vreemde valuta gaat gepaard met een wisselverrichting die daarmee rechtstreeks verbonden is.

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 169/2 — verwerking van cessie retrocessieverrichtingen in de jaarrekening van ondernemingen Voorbeeld : schema voor de boekhoudkundige verwerking van een cessie-retrocessieverrichting

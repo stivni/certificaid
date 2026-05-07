@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/1 — voorzieningen voor grote herstellings of onderhoudswerken Artikel 19, 5de lid van het koninklijk besluit van 8 oktober 1976 legt het vormen van voorzieningen op voor het dekken van deze risico's en lasten.

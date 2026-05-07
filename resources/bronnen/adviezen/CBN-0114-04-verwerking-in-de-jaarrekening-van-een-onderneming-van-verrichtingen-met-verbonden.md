@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 114/4 — verwerking in de jaarrekening van een onderneming van verrichtingen met verbonden Een onderneming, opgericht in de rechtsvorm van een naamloze vennootschap, baat verschillende hotels uit. In elk hotel is de barexploitatie toevertrouwd aan een afzonderlijke, speciaal daartoe opgerichte vzw. Zowel materieel als bedrijfseconomisch maken de bars deel uit van de hotelonderneming. 

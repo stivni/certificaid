@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2009/9 — boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten

@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:35Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de toegevoegde waarde ten aanzien van de kans- en geldspelen

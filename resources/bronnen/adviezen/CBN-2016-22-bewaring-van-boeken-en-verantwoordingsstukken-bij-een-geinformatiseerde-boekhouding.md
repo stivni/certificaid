@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:47Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/22 — bewaring van boeken en verantwoordingsstukken bij een geinformatiseerde boekhouding Bewaring van de bestanden tot waarborging van de onveranderlijkheid van de geregistreerde gegevens

@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/5 — devaluatie van de belgische frank Overeenkomstig artikel 19, derde lid, van het koninklijk besluit van 8 oktober 1976 moet in de jaarrekening rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het beheersorgaan van de onderneming wordt opgesteld.

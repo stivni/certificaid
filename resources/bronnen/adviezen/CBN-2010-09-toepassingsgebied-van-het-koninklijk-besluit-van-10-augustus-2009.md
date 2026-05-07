@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/9 — toepassingsgebied van het koninklijk besluit van 10 augustus Via het koninklijk besluit van 10 augustus 2009 worden volgende categorieën van vennootschappen verplicht om informatie betreffende van enige betekenis zijnde transacties met verbonden partijen buiten normale marktvoorwaarden op te nemen in de toelichting: genoteerde vennootschappen2

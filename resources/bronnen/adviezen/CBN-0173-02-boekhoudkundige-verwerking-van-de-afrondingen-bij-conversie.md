@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/2 — boekhoudkundige verwerking van de afrondingen bij conversie Bij het Commissariaat-generaal voor de euro is een bijzondere werkgroep opgericht om de problemen te onderzoeken in verband met de verwerking van omrekeningsafrondingen. In de eerste conclusies en aanbevelingen van die werkgroep1

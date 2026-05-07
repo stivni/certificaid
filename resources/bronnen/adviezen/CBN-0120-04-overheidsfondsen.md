@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 120/4 — overheidsfondsen Aan de Commissie werd de vraag gesteld of fondsen uitgegeven door de Belgische Staat, in hoofde van de ondernemingen die ze bezitten, noodzakelijk als *Geldbeleggingen *moeten worden beschouwd. 

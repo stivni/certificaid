@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)

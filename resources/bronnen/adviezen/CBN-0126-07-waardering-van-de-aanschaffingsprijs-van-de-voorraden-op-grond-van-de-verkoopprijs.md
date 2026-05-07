@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/7 — waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat voorraden - zoals de andere actiefbestanddelen -in de jaarrekening worden gewaardeerd tegen aanschaffingsprijs. Deze waarde wordt gewoonlijk vastgesteld volgens een additieve methode, waarbij aan de voorraadrekening de diverse kostenbestanddelen worden toegerekend die aan de betrokken voorraden toerekenbaar zijn en werden gemaakt om ze op dat ogenblik op die plaats te brengen in de staat waarin zij zich bevinden. Deze methode is uitdrukkelijk verwoord in de artikelen 21 en 22 van voornoemd besluit, waar de aanschaffings- en de vervaardigingsprijs worden omschreven. 

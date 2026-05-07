@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/20 — de boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld naar de boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een derde die zich hiertoe als borg heeft verbonden ten aanzien van de schuldeiser.

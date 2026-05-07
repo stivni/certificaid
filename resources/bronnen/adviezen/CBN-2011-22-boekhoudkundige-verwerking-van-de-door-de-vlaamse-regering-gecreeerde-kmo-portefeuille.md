@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/22 — boekhoudkundige verwerking van de door de vlaamse regering gecreeerde kmo portefeuille De kmo-portefeuille of ondernemerschapsportefeuille betreft een steunmaatregel van de Vlaamse overheid, hoofdzakelijk gericht op het verbeteren van de huidige of toekomstige bedrijfsvoering bij kmo’s.1

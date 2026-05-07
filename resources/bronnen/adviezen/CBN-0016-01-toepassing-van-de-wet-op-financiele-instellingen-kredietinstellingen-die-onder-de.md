@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 16/1 — toepassing van de wet op financiele instellingen kredietinstellingen die onder de Dit  advies  is  verouderd  als  gevolg  van  de  aangebrachte  wijzigingen  aan  de  betrokken  bepalingen, actueel  artikel  15  van  de  wet

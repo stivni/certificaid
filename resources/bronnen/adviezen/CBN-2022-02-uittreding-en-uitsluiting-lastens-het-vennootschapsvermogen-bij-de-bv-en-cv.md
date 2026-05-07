@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:50Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2022/02 — uittreding en uitsluiting lastens het vennootschapsvermogen bij de bv en cv

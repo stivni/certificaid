@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/4 — vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 gevolgen voor het Tijdens een vergadering op 13 en 14 september 1997 in Mondorf met de Ministers van Financiën van de Lid-Staten van de Europese Unie, werd beslist om de bilaterale wisselkoersen van de Europese deviezen die in aanmerking komen voor de euro, vast te stellen tijdens het weekend van 2 en 3 mei 1998. Die wisselkoersen zullen worden gehanteerd bij de invoering van de eenheidsmunt, wat uiterlijk op 1 januari 1999 dient te geschieden, terwijl de omrekeningskoers in euro van de verschillende betrokken munten op 1 januari 1999 zal worden vastgesteld. 

@@ -28,6 +28,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 167/2 — boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen

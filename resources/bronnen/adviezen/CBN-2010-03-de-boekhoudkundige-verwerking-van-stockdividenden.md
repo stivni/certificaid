@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/3 — de boekhoudkundige verwerking van stockdividenden Aan de Commissie werd de vraag gesteld hoe een stockdividend dient verwerkt te worden in de boekhouding van de vennootschap1

@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 140 — overeenstemming tussen de boekhouding en de jaarrekening Krachtens artikel 5 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen moet het rekeningenstelsel van de onderneming zodanig worden opgevat of aangepast dat de balans en de resultatenrekening zonder toevoeging of weglating voortvloeien uit de balans van de desbetreffende rekeningen. 

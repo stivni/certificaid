@@ -27,6 +27,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 138/5 — software De Commissie heeft een grondig onderzoek gewijd aan de boekhoudkundige verwerking van de creatie of de verwerving van software door een onderneming, rekening houdend met de situatie in andere landen en de internationale doctrine terzake.

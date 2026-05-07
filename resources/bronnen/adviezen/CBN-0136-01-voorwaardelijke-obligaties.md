@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 136/1 — voorwaardelijke obligaties Tijdens de laatste jaren gebeurde het vaak dat de financiële steun van de overheid aan een onderneming in moeilijkheden gekoppeld werd aan de verplichting in hoofde van de begunstigde onderneming tot terugbetaling meer bepaald indien de onderneming terug rendabel zou worden en zij terug in staat zou zijn haar verliezen aan te zuiveren. 

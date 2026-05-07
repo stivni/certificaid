@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 129/1 — boeking van bonusaandelen Aan een onderneming worden naar rato van haar participatie in een andere vennootschap, aandelen van deze laatste toegekend uitgegeven op basis van een incorporatie van reserves in het kapitaal. Aan de Commissie werd gevraagd of de waarde van deze «bonusaandelen» op het actief mag worden geboekt als aangroei van de boekwaarde van de portefeuille, en hun tegenwaarde op de resultatenrekening als financiële opbrengst.

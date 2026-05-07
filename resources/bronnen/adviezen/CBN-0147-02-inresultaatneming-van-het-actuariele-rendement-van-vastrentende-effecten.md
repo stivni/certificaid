@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 147/2 — inresultaatneming van het actuariele rendement van vastrentende effecten Het koninklijk besluit van 30 december 1991 heeft de wijze waarop het rendement van vastrentende effecten in resultaat moet worden genomen, grondig gewijzigd1

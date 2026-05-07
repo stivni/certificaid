@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies R100-1 — opening van bijkomende rekeningen De vraag werd gesteld of het de ondernemingen toegelaten is, naast de verdere indeling bij wijze van onderrekeningen van de rekeningen waarin het minimum genormaliseerd rekeningstelsel voorziet, in de algemene boekhouding rekeningen te openen die niet in het genormaliseerd rekeningstelsel werden voorzien.

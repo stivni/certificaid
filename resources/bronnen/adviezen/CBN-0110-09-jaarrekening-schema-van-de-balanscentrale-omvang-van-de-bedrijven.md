@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 110/9 — jaarrekening schema van de balanscentrale omvang van de bedrijven CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1

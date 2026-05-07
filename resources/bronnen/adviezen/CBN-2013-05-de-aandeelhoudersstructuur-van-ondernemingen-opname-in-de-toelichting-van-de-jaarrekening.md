@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/5 — de aandeelhoudersstructuur van ondernemingen opname in de toelichting van de jaarrekening Wet van 2 mei 2007 op de openbaarmaking van belangrijke deelnemingen in emittenten waarvan de aandelen zijn toegelaten tot de verhandeling op een gereglementeerde markt en houdende diverse bepalingen (hierna: Transparantiewet)

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/8 — boekhoudkundige verwerking van de voorzieningen voor risicos en kosten Als gevolg van concrete vragen daaromtrent heeft de Commissie een algemeen onderzoek verricht met betrekking tot de boekhoudkundige verwerking van de voorzieningen voor risico's en kosten.

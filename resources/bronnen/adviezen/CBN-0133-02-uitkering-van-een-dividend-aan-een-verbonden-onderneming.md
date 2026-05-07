@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 133/2 — uitkering van een dividend aan een verbonden onderneming In dezelfde gedachtengang werd de vraag gesteld of een dividend dat bij de uitkering zal toekomen aan een verbonden onderneming of aan een onderneming waarmee een participatieverhouding bestaat, in punt 14 van de toelichting onder de schulden aan verbonden ondernemingen c.q. aan ondernemingen waarmee een participatieverhouding bestaat, moet vermeld worden. 

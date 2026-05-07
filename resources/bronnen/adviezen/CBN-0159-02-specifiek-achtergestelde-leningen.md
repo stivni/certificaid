@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 159/2 — specifiek achtergestelde leningen Aan de Commissie werd gevraagd in welke passiefpost van de jaarrekening een lening met een achterstellingsclausule die niet geldt voor alle schuldeisers, moet worden geboekt. 

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:49Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2019/15 — aanschaffingswaarde van een actiefbestanddeel verkregen in ruil voor een tegenprestatie

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/2 — boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ## **Inleiding****

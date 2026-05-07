@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies S100 — vragen en antwoorden over de sociale balans De ondernemingen die een sociale balans bij de NBB moeten neerleggen en openbaar maken

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2009/13 — de boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van Modaliteiten van het stelsel tot vrijstelling, geregeld door artikel 275/3, WIB 92

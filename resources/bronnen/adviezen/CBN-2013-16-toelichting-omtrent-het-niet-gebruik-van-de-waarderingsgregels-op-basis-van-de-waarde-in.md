@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/16 — toelichting omtrent het niet gebruik van de waarderingsgregels op basis van de waarde in CBN-advies 2013/16 – Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten

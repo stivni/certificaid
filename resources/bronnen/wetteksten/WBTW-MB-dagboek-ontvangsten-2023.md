@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # BTW MB 17/03/2023 — Elektronisch dagboek ontvangsten en kastickets

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2015/7 — boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap De producent neemt uitsluitend de rechtstreekse productiekosten op in de aanschaffingswaarde

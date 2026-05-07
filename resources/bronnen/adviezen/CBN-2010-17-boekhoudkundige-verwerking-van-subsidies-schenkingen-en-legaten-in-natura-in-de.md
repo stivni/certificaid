@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/17 — boekhoudkundige verwerking van subsidies schenkingen en legaten in natura in de Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/7 — bestemde fondsen De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven1

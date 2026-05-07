@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 164 — passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten cpcs Aan de Commissie werd gevraagd hoe de tegenwaarde van het onlangs gecreëerde instrument, het participatiecertificaat, verkort "CPC" genaamd, boekhoudkundig moet worden verwerkt. 

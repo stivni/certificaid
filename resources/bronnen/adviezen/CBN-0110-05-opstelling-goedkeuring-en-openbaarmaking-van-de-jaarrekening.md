@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 110/5 — opstelling goedkeuring en openbaarmaking van de jaarrekening Artikel 77 van de Vennootschapswet bepaalt dat de bestuurders elk jaar de jaarrekening opmaken. Die jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting, en vormt een geheel. Deze stukken worden opgemaakt overeenkomstig de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen en de besluiten ter uitvoering ervan, voor zover de vennootschap daaraan is onderworpen en overeenkomstig de bijzondere wettelijke en bestuursrechtelijke bepalingen die op haar toepasselijk zijn. 

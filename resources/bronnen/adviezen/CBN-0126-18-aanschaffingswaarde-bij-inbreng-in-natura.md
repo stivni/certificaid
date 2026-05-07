@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/18 — aanschaffingswaarde bij inbreng in natura | | Dit advies handelt over de bepaling van de aanschaffingswaarde bij inbreng in natura, zowel de waardering van de aanschaffingswaarde van de ingebrachte vermogensbestanddelen in hoofde van de inbreng ontvangende vennootschap, als de waardering van de aanschaffingswaarde van de ter vergoeding van de inbreng ontvangen aandelen in hoofde van de inbrengende vennootschap. 

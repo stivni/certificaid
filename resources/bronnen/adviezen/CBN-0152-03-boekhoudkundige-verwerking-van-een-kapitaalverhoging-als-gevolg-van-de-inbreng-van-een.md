@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 152/3 — boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een Dezelfde beginselen die sub 152/2 werden uiteengezet gelden ook wanneer het kapitaal van een vennootschap wordt verhoogd als gevolg van de inbreng van een schuldvordering uitgedrukt in een vreemde valuta1

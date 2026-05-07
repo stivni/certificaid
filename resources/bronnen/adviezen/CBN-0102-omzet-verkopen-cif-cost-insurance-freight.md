@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 102 — omzet verkopen cif cost insurance freight In geval van verkoop C.I.F. omvat de aan de koper gerekende prijs, naast de verkoopprijs F.O.B., onder meer de kosten voor vervoer en verzekering; deze laatste worden door de verkoper echter voor eigen rekening aangegaan. 

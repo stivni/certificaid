@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/16 — boekhoudkundige verwerking van subsidies schenkingen en legaten toegekend in contanten in Subsidies, schenkingen en legaten in contanten bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting

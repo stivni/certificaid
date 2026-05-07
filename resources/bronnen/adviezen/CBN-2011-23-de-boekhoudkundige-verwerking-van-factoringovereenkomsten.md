@@ -28,6 +28,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/23 — de boekhoudkundige verwerking van factoringovereenkomsten Factoringovereenkomst zonder insolventiedekking en zonder financiering (service factoring)

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/3 — toelichting bij de datum vanaf wanneer ondernemingen waarvan het boekjaar niet samenvalt De Commissie werd erop gewezen dat de woorden «of betrekking hebben op een periode» (vóór de officiële invoering van de euro), die voorkomen in de laatste lijn van het zesde lid op bladzijde 7 van advies 173/1 met betrekking tot de boekhoudrechtelijke aspecten i.v.m. de overschakeling op de euro1

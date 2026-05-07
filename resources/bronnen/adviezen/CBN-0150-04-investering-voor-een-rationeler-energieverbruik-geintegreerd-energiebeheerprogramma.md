@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 150/4 — investering voor een rationeler energieverbruik geintegreerd energiebeheerprogramma De Commissie werd ondervraagd over de boekhoudkundige verwerking voor elk der betrokken partijen, van een financieringssysteem dat wordt aangeduid als "geïntegreerd energiebeheerprogramma". 

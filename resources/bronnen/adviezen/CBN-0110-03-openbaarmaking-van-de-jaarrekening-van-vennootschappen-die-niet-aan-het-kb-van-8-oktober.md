@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 110/3 — openbaarmaking van de jaarrekening van vennootschappen die niet aan het kb van 8 oktober Teneinde de ondernemingen in hun verplichtingen tegemoet te komen, heeft de Balanscentrale van de Nationale Bank van België een technische toelichting opgesteld in verband met de modaliteiten tot neerlegging van de jaarrekeningen. 

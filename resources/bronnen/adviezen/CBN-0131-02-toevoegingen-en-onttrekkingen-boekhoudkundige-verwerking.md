@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 131/2 — toevoegingen en onttrekkingen boekhoudkundige verwerking Krachtens het koninklijk besluit van 8 oktober 1976 moeten belastingvrije reserves, dat zijn de gerealiseerde meerwaarden en de winsten die belastingvrij zijn indien ze in het vermogen van de onderneming blijven, in een afzonderlijke rubriek op de passiefzijde van de balans worden geboekt. 

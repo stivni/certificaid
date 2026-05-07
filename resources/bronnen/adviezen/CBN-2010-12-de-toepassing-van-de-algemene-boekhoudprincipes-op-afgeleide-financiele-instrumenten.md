@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/12 — de toepassing van de algemene boekhoudprincipes op afgeleide financiele instrumenten Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten 

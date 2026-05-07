@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/3 — aandelen met warrant Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing.

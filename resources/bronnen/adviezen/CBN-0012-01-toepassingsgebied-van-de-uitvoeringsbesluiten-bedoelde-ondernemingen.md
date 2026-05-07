@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 12/1 — toepassingsgebied van de uitvoeringsbesluiten bedoelde ondernemingen Dit  advies  is  verouderd  gezien  het  nieuwe  artikel  12  van  de  wet  17  juli  1975  (artikel  8  van  de  wet  van  1  juli  1983)  (zie  lijst  van  gepubliceerde  adviezen,  bulletin  1‐24  augustus  1977‐september  1989)

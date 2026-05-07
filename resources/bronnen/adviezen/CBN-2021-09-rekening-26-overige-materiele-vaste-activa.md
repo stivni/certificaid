@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:50Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2021/09 — rekening 26 overige materiele vaste activa

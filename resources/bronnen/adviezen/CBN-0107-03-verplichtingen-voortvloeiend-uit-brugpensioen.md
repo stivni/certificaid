@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/3 — verplichtingen voortvloeiend uit brugpensioen Aan de Commissie werd gevraagd hoe in de jaarrekening van een onderneming verplichtingen moeten worden geboekt die zij aangaat wanneer zij, in het kader van het conventioneel brugpensioenstelsel ingevoerd door de collectieve arbeidsovereenkomst nr. 17 van 19 november 19741

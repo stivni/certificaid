@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 105/1 — compensatie tussen debet en creditsaldi bij eenzelfde bankinstelling Ondernemingen openen regelmatig bij eenzelfde bankinstelling meerdere rekeningen-courant waarop worden geregistreerd, de verrichtingen van verschillende succursalen, verrichtingen die verband houden met de uitvoering van bestellingen of van verschillende werken, enz. 

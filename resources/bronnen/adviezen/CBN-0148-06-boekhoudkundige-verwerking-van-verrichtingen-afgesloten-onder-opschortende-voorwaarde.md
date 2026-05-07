@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 148/6 — boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde Artikel 33, tweede lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) bepaalt dat "rekening moet gehouden worden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is (...)". 

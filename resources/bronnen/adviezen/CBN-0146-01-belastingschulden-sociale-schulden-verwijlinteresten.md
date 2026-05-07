@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 146/1 — belastingschulden sociale schulden verwijlinteresten Als een schuld tegenover een belastingbestuur of de RSZ niet op de vervaldag is betaald, is de debiteur van rechtswege verwijlinteresten verschuldigd die worden berekend volgens de wettelijke bepaalde modaliteiten en tarieven1

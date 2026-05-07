@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 133/4 — schulden uit de resultaatbestemming dividenduitkering aan een onderneming die ten minste tot wijziging van artikel 106, §§ 5 en 6 van het Koninklijk Besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen (KB/WIB 92), wordt geen roerende voorheffing ingehouden op het dividend dat een Belgische vennootschap uitkeert aan een andere Belgische of Europese vennootschap, op voorwaarde dat laatstgenoemde vennootschap tijdens een ononderbroken periode van ten minste één jaar een deelneming van minimaal 25 % bezit in het kapitaal van eerstgenoemde vennootschap, zelfs indien, op het ogenblik waarop het dividend wordt toegekend, de termijn van één jaar nog niet is verstreken.

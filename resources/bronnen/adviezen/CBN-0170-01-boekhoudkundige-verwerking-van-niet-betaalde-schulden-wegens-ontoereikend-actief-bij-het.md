@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 170/1 — boekhoudkundige verwerking van niet betaalde schulden wegens ontoereikend actief bij het onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 

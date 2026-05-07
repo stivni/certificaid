@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 108/1 — afwijkingen van de bepalingen van het kb van 8 oktober 1976 procedure Artikel 15 van de wet van 17 juli 1975 bepaalt dat de Minister van Economische Zaken, in speciale gevallen en op gemotiveerd advies van de Commissie voor Boekhoudkundige Normen, afwijkingen mag toestaan van de regels getroffen krachtens artikel 4, 6de lid, artikel 7, 4de lid en de artikelen 10 en 11 van de wet.

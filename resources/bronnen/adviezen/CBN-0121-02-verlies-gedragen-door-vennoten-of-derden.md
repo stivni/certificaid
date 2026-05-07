@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 121/2 — verlies gedragen door vennoten of derden Het komt meer voor dat vennoten of derden het verlies van een onderneming helpen dekken of voor hun rekening nemen om de balans aan te zuiveren. Aan de Commissie werden diverse vragen gesteld over de wijze waarop dergelijke tussenkomsten in de jaarrekening tot uiting moeten worden gebracht. 

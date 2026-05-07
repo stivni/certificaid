@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 4/1 — vermeldingen in het centralisatieboek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  het  koninklijk  besluit  nr.  22  van  15 december  1978  (B.S.  4  januari 1979).**

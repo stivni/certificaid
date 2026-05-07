@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 158/1 — boekhoudkundige verwerking van de aankoop afschrijving en ontginning in concessie van Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontvangen. 

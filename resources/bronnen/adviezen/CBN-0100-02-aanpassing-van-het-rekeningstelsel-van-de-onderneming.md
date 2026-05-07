@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies R100/2 — aanpassing van het rekeningstelsel van de onderneming De Commissie ontving verschillende vragen om advies over de implicaties van het koninklijk besluit van 7 maart 1978 met betrekking tot het minimum genormaliseerd rekeningstelsel op de procedures van verwerking en organisatie van de boekhouding van de ondernemingen.

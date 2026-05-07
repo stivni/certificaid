@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 159/1 — schulden op meer dan een jaar waarvoor geen of slechts een abnormaal lage rente Het koninklijk besluit van 6 november 1987 tot wijziging van het koninklijk besluit van 8 oktober 1976 ter zake1

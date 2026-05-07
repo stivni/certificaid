@@ -37,6 +37,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/1 — overschakeling op de euro boekhoudrechtelijke aspecten ## Vanaf 1 januari 1999 wordt de euro de munt van de Lid-Staten van de Europese Unie die deel uitmaken van de Europese Monetaire Unie.Gelet op de beslissingen van de Europese top van Madrid, Firenze en Dublin, de beraadslagingen van de (Belgische) Ministerraad van 2 augustus 1996 en het «Legal framework for the use of the Euro», vastgesteld door de Top van Dublin in december 1996, ziet de situatie er als volgt uit.**Inleiding**

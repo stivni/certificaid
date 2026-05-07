@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:33Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers

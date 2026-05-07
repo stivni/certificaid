@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 14/1 — adviesbevoegdheid Artikel 14 van de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen regelt de oprichting door de Koning van een Commissie voor Boekhoudkundige Normen die «tot taak heeft: 

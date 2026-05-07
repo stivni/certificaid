@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 3/1 — tijdstip waarop de aan of verkoop van een onroerend goed in de boekhouding dient Aan  de  Commissie  werd  gevraagd  waarmee  bij  de  boekhoudkundige  registratie  van  de overdracht  van  een  onroerend  goed  moet  worden  rekening  gehouden  :  met  de eigendomsoverdracht  tussen  de  betrokken  partijen  die  bij  verkoop  geschiedt  zodra  er overeenkomst is omtrent  zaak  en  prijs  en  meestal  wordt  vastgelegd  in  een verkoopscompromis,  of  met  de  tegenwerpelijkheid  van  die  overdracht  aan  derden  na overschrijving  van  de  akte  op  het  hypotheekkantoor.   

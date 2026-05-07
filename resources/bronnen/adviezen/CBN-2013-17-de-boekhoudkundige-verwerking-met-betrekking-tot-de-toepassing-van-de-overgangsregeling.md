@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/17 — de boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling Dividendtoekenning voor het gedeelte waarbij het ‘bewijskrachtig element’ niet aanwezig is

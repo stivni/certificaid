@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 162/1 — boekhoudkundige verwerking van het vruchtgebruik van aandelen dat onder bezwarende titel De Commissie heeft volgend advies geformuleerd in verband met de wijze waarop een onderneming het vruchtgebruik van aandelen dat is verworven onder bezwarende titel, in haar boekhouding moet verwerken.

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 103/3 — omzet van lijnagenten Aan de Commissie werd de vraag voorgelegd hoe de omzet van lijnagenten dient te worden bepaald. 

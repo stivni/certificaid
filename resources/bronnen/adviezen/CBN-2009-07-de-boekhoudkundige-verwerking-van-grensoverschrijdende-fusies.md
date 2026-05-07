@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2009/7 — de boekhoudkundige verwerking van grensoverschrijdende fusies Overname van een Belgische vennootschap, zonder buitenlandse inrichting, door een vennootschap gevestigd in een andere EU-lidstaat

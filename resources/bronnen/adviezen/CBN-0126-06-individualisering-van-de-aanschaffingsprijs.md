@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/6 — individualisering van de aanschaffingsprijs Krachtens artikel 18 van het koninklijk besluit van 8 oktober 1976 moet elk vermogensbestanddeel afzonderlijk worden gewaardeerd. 

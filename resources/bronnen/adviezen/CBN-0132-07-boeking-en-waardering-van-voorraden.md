@@ -35,6 +35,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 132/7 — boeking en waardering van voorraden Algemene benadering van voorraden in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen

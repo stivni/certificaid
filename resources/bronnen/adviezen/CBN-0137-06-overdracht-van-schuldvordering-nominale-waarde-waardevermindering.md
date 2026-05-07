@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 137/6 — overdracht van schuldvordering nominale waarde waardevermindering Artikel 27*bis*, § 1 van het jaarrekeningbesluit bepaalt dat vorderingen in de balans worden opgenomen voor hun nominale waarde, onverminderd evenwel de verplichting om op de betrokken vorderingen waardeverminderingen toe te passen zo er voor het geheel of een gedeelte ervan onzekerheid bestaat over de betaling ervan op de vervaldag1

@@ -31,6 +31,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 160/1 — toepassing van artikel 40 van het koninklijk besluit van 8 oktober 1976 op de jaarrekening Aan de Commissie werd gevraagd vanaf welk ogenblik de bijzondere waarderingsregels van artikel 40 van hete koninklijk besluit van 8 oktober 1976, ingeval de onderneming haar bedrijf niet voortzet, van toepassing zijn. 

@@ -32,6 +32,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/13 — de boekhoudkundige verwerking van immateriele vaste activa Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper

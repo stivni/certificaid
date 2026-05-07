@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 148/5 — actuarieel rendement op vastrentende effecten aanpassing van de adviezen 1375 en Artikel 27*bis*, § 3 van het koninklijk besluit van 8 oktober 1976, zoals gewijzigd door het koninklijk besluit van 30 december 1991, bepaalt dat wanneer het actuariële rendement van vastrentende effecten berekend bij de aankoop, met inachtneming van hun terugbetalingswaarde op vervaldag, verschilt van hun nominaal rendement, het verschil tussen de aanschaffingswaarde en de terugbetalingswaarde *pro rata temporis* over de resterende looptijd van de effecten in resultaat wordt genomen als bestanddeel van de renteopbrengst, en naar gelang van het geval toegevoegd aan of afgetrokken van de aanschaffingswaarde van de effecten.

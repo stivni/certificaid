@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2014/3 — de boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde ## Inleiding

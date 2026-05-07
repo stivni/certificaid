@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/4 — de boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Luidens de artikelen 7 en 8 van de Hypotheekwet is de schuldenaar gehouden zijn verbintenissen na te komen, *onder verband van* al zijn goederen, hetzij roerende, hetzij onroerende, zowel tegenwoordige als toekomstige, waarbij de goederen van deze laatste strekken tot gemeenschappelijke waarborg voor zijn schuldeisers.1

@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 110/1 — openbaarmaking van de jaarrekening mogelijkheid tot publikatie van de jaarrekening in Krachtens artikel 39 van het koninklijk besluit hebben de ondernemingen die beantwoorden aan de erin opgenomen criteria, de mogelijkheid een beknopte balans en resultatenrekening te publiceren en bepaalde vermeldingen waarin is voorzien door Hoofdstuk I van de bijlage bij het koninklijk besluit van 8 oktober 1976 niet in de toelichting op te nemen. 

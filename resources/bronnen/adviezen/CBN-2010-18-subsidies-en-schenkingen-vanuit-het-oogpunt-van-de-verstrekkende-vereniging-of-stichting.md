@@ -25,6 +25,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/18 — subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen1

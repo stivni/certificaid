@@ -28,6 +28,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 3/2 — niet in de balans opgenomen rechten en verplichtingen Zowel  in  de  bepalingen  zelf  als  in  de  verantwoording  van  de  wet  van  17  juli  1975  en van de  ter  uitvoering  hiervan  genomen  besluten  is  duidelijk  de  nadruk  gelegd  op  de noodzaak om  niet  in  de  balans  opgenomen  rechten  en  verplichtingen  te  boeken,  te  inventariseren aan  het  einde  van  het  boekjaar  en  op  passende  wijze  in  de  jaarrekening  te  vermelden.   

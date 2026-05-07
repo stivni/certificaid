@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 111/2 — toepassing van de uitzondering waarin punt 17 van de toelichting voorziet CBN-advies 111/2 - Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet

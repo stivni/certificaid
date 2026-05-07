@@ -28,6 +28,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies C102 — overschakeling op de euro aspecten in verband met de geconsolideerde jaarrekening advies 173/1 over de «Overschakeling op de euro : boekhoudrechtelijke aspecten» aangekondigd de specifieke problemen2

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/1 — de boekhoudkundige verwerking van pseudo fusies van verenigingen en stichtingen Artikel 6 en 6bis van het KB van 19 december 2003 en artikel 58 van de wet van 27 juni 1921

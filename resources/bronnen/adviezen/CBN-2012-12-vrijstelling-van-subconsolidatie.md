@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/12 — vrijstelling van subconsolidatie Op basis van artikel 113, § 1 van het Wetboek van vennootschappen (hierna: W.Venn.) wordt een vennootschap, voor zover is voldaan aan een aantal voorwaarden1

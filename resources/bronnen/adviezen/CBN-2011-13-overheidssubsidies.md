@@ -36,6 +36,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/13 — overheidssubsidies Subsidiëring door de overheid kan uit verschillende reglementeringen voortspruiten en uiteenlopende doelstellingen nastreven. Overheden kunnen, onder vooraf vastgestelde voorwaarden, subsidies verstrekken die aanzetten tot investeren of rechtstreeks het exploitatieresultaat beïnvloeden.

@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 110/2 — stukken die tegelijk met de jaarrekening dienen neergelegd te worden artikel 80 venn w ##  

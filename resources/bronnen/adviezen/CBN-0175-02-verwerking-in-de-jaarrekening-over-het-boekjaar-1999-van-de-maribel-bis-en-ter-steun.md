@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 175/2 — verwerking in de jaarrekening over het boekjaar 1999 van de maribel bis en ter steun Als gevolg van een aantal beslissingen over de "Maribel bis en ter"- steun die in de loop van 1996 en 1997 werden genomen door de Europese Commissie enerzijds en de Belgische regering anderzijds, heeft de Commissie in maart 1997 een advies gepubliceerd over de boekhoudkundige verwerking van deze "Maribel"-steun in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren. 

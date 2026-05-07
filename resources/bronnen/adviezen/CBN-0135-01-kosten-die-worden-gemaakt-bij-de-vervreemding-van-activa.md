@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 135/1 — kosten die worden gemaakt bij de vervreemding van activa Overeenkomstig artikel 21 van het koninklijk besluit van 8 oktober 1976 omvat de aanschaffingsprijs van een activum tevens de bijkomende kosten die bij de aanschaffing worden gemaakt. De vraag werd gesteld of op dezelfde wijze te werk moet worden gegaan bij de vervreemding van activa en meer bepaald of de daarmee verband houdende kosten moeten of mogen worden afgetrokken van de verkoopprijs van goederen of diensten bij het bepalen van de omzet of bij het bepalen van de meerwaarde of de minderwaarde bij de realisering van de betrokken activa. 

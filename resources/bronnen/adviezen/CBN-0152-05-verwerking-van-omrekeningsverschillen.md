@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 152/5 — verwerking van omrekeningsverschillen In haar advies over de verrichtingen, tegoeden en verplichtingen in deviezen zegt de Commissie dat "het aangewezen is de tegenwaarde van de omrekeningsverschillen op monetaire posten te boeken in de overlopende rekeningen, aan actiefzijde voor latente verliezen, aan passiefzijde voor latente winsten ..."1

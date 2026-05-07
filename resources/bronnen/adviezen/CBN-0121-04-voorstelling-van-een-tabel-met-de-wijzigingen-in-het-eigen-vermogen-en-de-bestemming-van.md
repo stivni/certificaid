@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 121/4 — voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van Naar aanleiding van het onderzoek van de boekhoudkundige verwerking van de belangrijkste verrichtingen met betrekking tot het eigen vermogen heeft de Commissie zich gebogen over de mogelijke problemen bij het lezen van de financiële staten om inzicht te krijgen in de evolutie van het eigen vermogen van een vennootschap, enerzijds, en om die evolutie te toetsen aan de resultaatverwerking, anderzijds. 

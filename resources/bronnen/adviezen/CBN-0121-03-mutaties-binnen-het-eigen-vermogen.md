@@ -41,6 +41,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 121/3 — mutaties binnen het eigen vermogen Uit de bevindingen van de Balanscentrale, meer bepaald met betrekking tot de resultaatverwerking onderaan de resultatenrekening, blijkt dat bepaalde mutaties binnen het eigen vermogen op verschillende manieren in de jaarrekening worden verwerkt. Het dient onderstreept te worden dat die verschillen ook voorkomen in de doctrine. 

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 161/1 — aansprakelijk vertegenwoordiger tov het belastingbestuur Aan de Commissie werd de vraag gesteld op welke wijze de onderneming die aansprakelijk vertegenwoordiger is t.a.v. het belastingbestuur zulks boekhoudkundig moet tot uiting brengen. 

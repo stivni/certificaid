@@ -28,6 +28,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/7 — verwerking van uitgegeven inschrijvingsrechten in de jaarrekening De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.

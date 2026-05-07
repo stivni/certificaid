@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 134/1 — verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door Overeenkomstig artikel 8 van het koninklijk besluit nr. 16 van 9 maart 1982 tot wijziging van het Wetboek van de Inkomstenbelastingen moet de belastingbesparing die de vennootschappen voor het aanslagjaar 1983 verwezenlijken ingevolge de vermindering van het tarief van de vennootschapsbelasting van 48 % tot 45 %, op een afzonderlijke rekening van het passief van de balans geboekt zijn en blijven. De besparing mag op generlei wijze worden uitgekeerd, noch aan de aandeelhouders of vennoten, noch aan de beheerders en daarmee gelijkgestelden of de personeelsleden van de vennootschap. 

@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/2 — obligaties met warrant De Commissie werd ondervraagd over de boekingswijze van obligaties uitgegeven met warranten evenals over de aanschaffingswaarde die moet worden toegekend respectievelijk aan de obligatie en aan de warrant bij afzondering van deze laatste. 

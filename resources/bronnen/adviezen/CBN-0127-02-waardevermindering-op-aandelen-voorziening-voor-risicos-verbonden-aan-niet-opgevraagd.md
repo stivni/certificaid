@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 127/2 — waardevermindering op aandelen voorziening voor risicos verbonden aan niet opgevraagd Aan de Commissie werd gevraagd hoe de verliesrisico's verbonden aan het niet-opgevraagde gedeelte van aandelen of deelnemingen waarop een onderneming had ingeschreven of die zij had verworven, moeten worden verwerkt in boekhouding en in de jaarrekening.

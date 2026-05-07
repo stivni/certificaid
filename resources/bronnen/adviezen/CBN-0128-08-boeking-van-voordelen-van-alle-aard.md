@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 128/8 — boeking van voordelen van alle aard Aan de Commissie voor Boekhoudkundige Normen werd gevraagd hoe door de onderneming gedragen kosten die later fiscaal zouden worden beschouwd als «voordelen van alle aard» ten gunste van de personeelsleden, dienen te worden geboekt.

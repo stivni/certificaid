@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 169/1 — verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen Rente en dividenden die tijdens de looptijd van de lening betaalbaar worden gesteld door de emittent van het effect 

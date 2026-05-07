@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 12/4 — omvangcriteria berekening op geconsolideerde basis Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  het  koninklijk  besluit  6  maart  1990   (B.S.  27  maart  1990)  en  de  inwerkingtreding  van  artikel  141  van  het  Wetboek  van  vennootschappen  

@@ -25,6 +25,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 117/1 — jaarrekening in belgische frank munt waarin de jaarrekening moet worden opgesteld Aan de Commissie werd de vraag gesteld of een vennootschap haar jaarrekening mag opstellen en bekendmaken in een vreemde munt. Een onderscheid moet hierbij gemaakt worden naar gelang het gaat om een Belgische of een buitenlands vennootschap. 

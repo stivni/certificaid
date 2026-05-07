@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/16 — aanschaffingswaarde van de aandelen ontvangen naar aanleiding van een in het buitenland Een vennootschap naar Belgisch recht (onderworpen aan de bepalingen van het koninklijk besluit van 8 oktober 1976) bezit aandelen van een in een andere Lid-Staat van de Europese Unie gevestigde vennootschap. Deze vennootschap wordt via een fusie door overneming, opgeslorpt door een andere, eveneens in die Lid-Staat gevestigde vennootschap. De fusie wordt verwezenlijkt overeenkomstig de nationale maatregelen getroffen in het kader van de omzetting van de derde EG-richtlijn betreffende fusies van naamloze vennootschappen. De Belgische vennootschap ontvangt aandelen van de overnemende buitenlandse vennootschap, in ruil voor haar aandelen in de overgenomen vennootschap. 

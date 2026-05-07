@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 120/5 — coordinatiecentrum financiele instelling Met de bedoeling belangrijke multinationale groepen naar België te lokken werd met het - herhaalde malen gewijzigde - koninklijk besluit nr. 187 van 30 december 1982 de fiscale regeling voor coördinatiecentra ingevoerd. Onder bepaalde voorwaarden biedt deze regeling zeer belangrijke voordelen. 

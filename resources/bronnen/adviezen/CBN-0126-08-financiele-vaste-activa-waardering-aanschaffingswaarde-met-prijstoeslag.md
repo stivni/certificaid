@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/8 — financiele vaste activa waardering aanschaffingswaarde met prijstoeslag Financiële vaste activa en in het bijzonder deelnemingen worden, overeenkomstig het jaarrekeningbesluit van 8 oktober 1976, in de balans opgenomen tegen aanschaffingswaarde, na aftrek van de waardeverminderingen die hierop werden toegepast1

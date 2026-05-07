@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 130/1 — verzekering tegen de burgerrechtelijke aansprakelijkheid van de werkgever Overeenkomstig het besluit van 8 oktober 1976 moeten de kosten in de resultatenrekening worden geboekt volgens hun aard. De Commissie heeft de gelegenheid gehad dit beginsel te verduidelijken naar aanleiding van een vraag die haar werd gesteld over de post waaronder de premies moeten worden geboekt die door een onderneming werden betaald om haar burgerlijke aansprakelijkheid te verzekeren als werkgever voor de schade veroorzaakt aan derden door haar personeel1

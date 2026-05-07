@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/8 — uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of heeft de Commissie onderzocht hoe warrants (inschrijvingsrechten) door hun emittent moeten worden geboekt2

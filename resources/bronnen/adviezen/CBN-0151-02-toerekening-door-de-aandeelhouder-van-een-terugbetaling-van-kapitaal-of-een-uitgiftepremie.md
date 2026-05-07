@@ -30,6 +30,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 151/2 — toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie Wanneer een vennootschap beslist om aan haar aandeelhouders een deel van haar kapitaal of uitgiftepremies terug te betalen dan wel reserves uit te keren, rijst de vraag in welke gevallen en ten belope van welke bedragen alsook op grond van welke criteria de door de aandeelhouder ontvangen bedragen voor hem een opbrengst vormen die hij in zijn resultatenrekening moet opnemen, dan wel een vermindering van zijn investering in de betrokken aandelen, die van de aanschaffingswaarde van die aandelen moet worden afgetrokken. 

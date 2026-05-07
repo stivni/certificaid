@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 103 — omzet tussenpersonen Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat de resultatenrekening enerzijds de bruto-inkomsten moet vermelden en anderzijds de bruto-kosten en dat deze naar hun aard moeten worden onderverdeeld. 

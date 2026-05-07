@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/5 — obligaties met warrant Aan de Commissie werd gevraagd hoe obligaties met warrant moeten worden geboekt en welke aanschaffingswaarde respectievelijk moet worden toegekend aan de obligatie en aan de warrant. 

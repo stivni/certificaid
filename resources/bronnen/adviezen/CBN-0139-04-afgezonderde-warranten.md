@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 139/4 — afgezonderde warranten Bij verwerving van warranten, zonder gelijktijdige verwerving tegen een totaalprijs van andere effecten (aandelen en obligaties): 

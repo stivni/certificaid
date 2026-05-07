@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 114/7 — condominium Aan de Commissie werd de vraag gesteld of de berekening op geconsolideerde basis van de criteria voor de kleine en middelgrote ondernemingen, zoals bedoeld in artikel 12, § 2 van het koninklijk besluit van 12 september 1983, van toepassing is op een joint venture, namelijk wanneer twee of meer ondernemingen samen voor een evenredig deel het gehele kapitaal van een andere onderneming bezitten. 

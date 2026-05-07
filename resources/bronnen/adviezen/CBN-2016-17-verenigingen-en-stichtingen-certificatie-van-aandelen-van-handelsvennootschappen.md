@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:47Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/17 — verenigingen en stichtingen certificatie van aandelen van handelsvennootschappen Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen

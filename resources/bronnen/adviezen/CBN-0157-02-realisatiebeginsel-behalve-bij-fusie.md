@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 157/2 — realisatiebeginsel behalve bij fusie Aan de Commissie werd het volgend geval voorgelegd. Een goed waarvan de waarde niet wordt betwist en dat in België kan worden ingebracht ter volstorting van geplaatst kapitaal, wordt ingebracht of omgeruild tegen een deelneming (zonder dat er van een fusie sprake is). De waarde van de als tegenwaarde ontvangen aandelen wordt niet betwist. De vraag is of het positieve verschil tussen de conventionele waarde van de als tegenwaarde ontvangen aandelen en de boekwaarde van het ingebrachte goed als opbrengst in de (niet geconsolideerde) resultatenrekening kan worden geboekt. 

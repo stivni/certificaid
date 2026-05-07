@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/19 — de boekhoudkundige verwerking van interestopbrengsten en kosten door erkende Met een “erkende kredietmaatschappij” wordt de hypothecaire kredietmaatschappij voor sociaal woonkrediet bedoeld waaraan een erkenning is verleend door de Vlaamse regering overeenkomstig artikel 78, § 1, eerste lid, 1° van het decreet van 15 juli 1997 houdende de Vlaamse Wooncode1

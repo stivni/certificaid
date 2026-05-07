@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 4/4 — beginsel van het dubbel boekhouden In  een  bepaald  boekhoudsoftwarepakket  worden  creditnota's  voor  cliënten  en  creditnota's opgesteld  door  leveranciers  als  «aftrek»  geboekt  op de  debetzijde  van  de  cliëntenrekening of  creditzijde  van  de  leveranciersrekening.  Aan  de  Commissie  werd  gevraagd  of  dit wel strookt  met  de  boekhoudwet.   

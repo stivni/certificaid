@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2009/14 — boekhoudkundige verwerking van groenestroom en warmtekrachtcertificaten Aan de Commissie werd om advies gevraagd omtrent de boekhoudkundige behandeling van groenestroom- en warmtekrachtcertificaten. Vooraleer te kunnen overgaan tot de boekhoudkundige analyse, is een studie van het wettelijk kader en het systeem van groenestroom- en warmtekrachtcertificaten noodzakelijk.

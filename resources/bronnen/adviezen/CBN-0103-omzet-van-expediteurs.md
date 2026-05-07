@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 103/2 — omzet van expediteurs In het *Bulletin *van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 

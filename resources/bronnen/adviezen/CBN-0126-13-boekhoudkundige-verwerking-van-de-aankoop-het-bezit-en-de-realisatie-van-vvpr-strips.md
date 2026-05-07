@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/13 — boekhoudkundige verwerking van de aankoop het bezit en de realisatie van vvpr strips Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» 

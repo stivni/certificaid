@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 150/2 — aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie De kosten van aansluiting op een openbaar vervoer- of distributienet alsook van de erop betrekking hebbende installaties worden meestal aan de verbruiker gefactureerd. De aansluitingen of installaties zelf worden of blijven evenwel hetzij conventioneel hetzij overeenkomstig de wet, eigendom van de titularissen of concessionarissen van het openbaar netwerk. 

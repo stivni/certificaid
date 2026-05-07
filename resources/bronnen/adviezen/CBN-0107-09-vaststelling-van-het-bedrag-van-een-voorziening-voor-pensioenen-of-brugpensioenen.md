@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/9 — vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen Een onderneming heeft de Commissie gevraagd hoe het bedrag moet worden vastgesteld van een voorziening tot dekking van pensioenverplichtingen of brugpensioenen en, inzonderheid, of artikel 27*bis*, § 2 van het koninklijk besluit van 8 oktober 1976 ter zake van toepassing is. Dit artikel over renteloze of abnormaal laag rentende schulden en vorderingen op meer dan één jaar, bepaalt dat zij voor hun nominale waarde in de balans moeten worden opgenomen en dat tegelijkertijd het disconto op deze schulden en vorderingen, berekend tegen de geldende marktrente, in de overlopende rekeningen respectievelijk van het actief of van het passief, moet worden geboekt.

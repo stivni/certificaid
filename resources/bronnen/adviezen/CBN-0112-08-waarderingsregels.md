@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 112/8 — waarderingsregels Artikel 15 van het koninklijk besluit van 8 oktober 1976 stelt dat het bestuursorgaan de regels bepaalt die, met naleving van de bepalingen van het besluit doch rekening houdend met de eigen karakteristieken, gelden voor de waardering van de inventaris en, onder meer, voor de vorming en de aanpassing van afschrijvingen (...). De waarderingsregels worden samengevat in de toelichting op een nauwkeurige wijze die inzicht geeft in de toegepaste waarderingsmethoden. 

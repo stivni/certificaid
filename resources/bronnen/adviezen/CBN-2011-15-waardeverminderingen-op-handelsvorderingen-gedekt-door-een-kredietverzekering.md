@@ -26,6 +26,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/15 — waardeverminderingen op handelsvorderingen gedekt door een kredietverzekering De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen

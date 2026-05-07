@@ -25,6 +25,12 @@ provenance:
   generated_at: '2026-05-07T13:37:51Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)

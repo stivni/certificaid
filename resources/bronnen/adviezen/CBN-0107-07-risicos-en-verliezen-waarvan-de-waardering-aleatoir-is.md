@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/7 — risicos en verliezen waarvan de waardering aleatoir is Artikel 13 van het jaarrekeningbesluit bepaalt dat de voorzieningen voor risico's en kosten naar hun aard duidelijk omschreven verliezen of kosten beogen te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat i.e. waarvan de omvang onzeker is en slechts door schatting bepaalbaar is.

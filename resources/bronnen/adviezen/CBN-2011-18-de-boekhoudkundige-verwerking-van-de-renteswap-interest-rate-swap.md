@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/18 — de boekhoudkundige verwerking van de renteswap interest rate swap De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet

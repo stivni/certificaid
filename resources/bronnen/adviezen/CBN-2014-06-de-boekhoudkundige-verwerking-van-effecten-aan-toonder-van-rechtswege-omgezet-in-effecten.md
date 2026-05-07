@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2014/6 — de boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten Omzetting van rechtswege op 1 januari 2014 in gedematerialiseerde effecten of in effecten op naam

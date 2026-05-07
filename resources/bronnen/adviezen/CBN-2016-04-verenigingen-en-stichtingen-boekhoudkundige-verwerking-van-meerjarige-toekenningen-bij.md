@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/4 — verenigingen en stichtingen boekhoudkundige verwerking van meerjarige toekenningen bij Boekhoudkundige verwerking in hoofde van de (initieel begunstigde) verstrekkende vereniging of stichting

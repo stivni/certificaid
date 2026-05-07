@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 132/5 — rechten tot vertoning van films De Commissie werd om advies gevraagd over de boekhoudkundige verwerking van het bedrag dat een onderneming (bedoeld wordt een bioscoopuitbater of een televisieomroep) betaalt voor de verwerving van het recht tot vertoning van een film. 

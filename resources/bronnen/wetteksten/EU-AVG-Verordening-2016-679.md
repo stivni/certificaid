@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679

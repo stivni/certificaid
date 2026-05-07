@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 105/6 — schade en schadeverzekering andere dan kredietverzekering De vraag werd gesteld of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door de onderneming in mindering gebracht mag worden van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. Naar het oordeel van de Commissie betreft het hier een compensatie verboden door artikel 6 van het koninklijk besluit van 8 oktober 1976. 

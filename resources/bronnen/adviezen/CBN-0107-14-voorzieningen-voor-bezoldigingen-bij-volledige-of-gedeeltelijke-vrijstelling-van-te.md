@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 107/14 — voorzieningen voor bezoldigingen bij volledige of gedeeltelijke vrijstelling van te In het raam van getroffen herstructureringsmaatregelen sluit een onderneming met sommige van haar personeelsleden, een individuele overeenkomst, waarbij zij hen voor de toekomst vrijstelt van alle of een deel van hun arbeidsprestaties, zonder daarbij hun bezoldiging proportioneel (of ongeveer proportioneel) te verlagen.

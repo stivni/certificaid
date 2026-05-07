@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 146/2 — vooruitbetalingen van sociale zekerheidsbijdragen Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening1

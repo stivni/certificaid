@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 120/3 — waardering van liquide middelen bij de jaarafsluiting criterium voor de toerekening aan Aan de Commissie werd gevraagd welke criteria in aanmerking komen bij de toerekening aan een bepaald boekjaar van door de onderneming verrichte betalingen en door haar ontvangen stortingen. 

@@ -27,6 +27,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 3/3 — advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk Voor veel ondernemingen is de tijdelijke handelsvennootschap een weliswaar veelvuldig gebruikte rechtsfiguur om diverse werkzaamheden uit te voeren, vooral - maar niet uitsluitend - in de bouwsector, maar men kan bezwaarlijk ontkennen dat het juridisch en boekhoudkundig regelgevend kader dat geldt voor de tijdelijke handelsvennootschap - waarschijnlijk als gevolg van de ruime contractuele vrijheid die de wetgever daaraan heeft willen verbinden - vaag is en derhalve een bron van talrijke onzekerheden is.

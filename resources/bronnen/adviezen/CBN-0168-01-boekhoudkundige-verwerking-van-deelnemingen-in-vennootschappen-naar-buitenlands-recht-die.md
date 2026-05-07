@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 168/1 — boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht die De Commissie krijgt herhaaldelijk vragen voorgelegd in verband met de verwerking van deelnemingen in ondernemingen naar buitenlands recht in de jaarrekening van ondernemingen naar Belgisch recht. Deze ondernemingen vertonen krachtens hun nationaal recht niet alle attributen die naar Belgisch recht een afzonderlijk rechtspersoonlijkheid kenmerken. Inzonderheid wil men weten hoe inbrengen in verschillende soorten van commanditaire vennootschappen naar Duits en naar Nederlands recht alsook de resultaten van dergelijke vennootschappen, boekhoudkundig moeten worden gekwalificeerd. 

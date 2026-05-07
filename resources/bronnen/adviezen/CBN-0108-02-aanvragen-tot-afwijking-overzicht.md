@@ -27,6 +27,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 108/2 — aanvragen tot afwijking overzicht Voor het eerste boekjaar waarop het koninklijk besluit van 8 oktober 1976 van toepassing was, heeft de Commissie een advies uitgebracht over 1681

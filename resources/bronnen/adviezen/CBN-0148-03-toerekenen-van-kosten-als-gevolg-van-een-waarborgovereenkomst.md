@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 148/3 — toerekenen van kosten als gevolg van een waarborgovereenkomst Een onderneming biedt aan de afnemers van haar producten de mogelijkheid "waarborgovereenkomsten" of te sluiten ter aanvulling van - of onafhankelijk van - de verkoopovereenkomst. Hierbij verbindt de onderneming zich ertoe, mits een onmiddellijk te betalen prijs, de goede werking van het product of van het apparaat gedurende een aantal jaren te waarborgen, en al of een deel van de herstellingskosten te dragen. 

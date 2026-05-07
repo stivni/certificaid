@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 147/3 — meerwaarden op overheidseffecten bedoeld door artikel 513 van het nieuwe wib Door de wet van 22 december 1989 werd in de fiscale wetgeving een optionele regeling ingevoerd van gespreide taxatie van de meerwaarden verwezenlijkt op immateriële en materiële vaste activa1

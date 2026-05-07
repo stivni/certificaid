@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 175/1 — verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren van de De Commissie is om advies gevraagd over een aantal aspecten in verband met de boekhoudkundige verwerking van de «Maribel bis en ter»-steun die werd toegekend voor de boekjaren 1994, 1995 en 1996 en waarover in 1996 en 1997 beslissingen zijn genomen door de Europese Commissie, enerzijds, en de Belgische Federale Regering, anderzijds. 

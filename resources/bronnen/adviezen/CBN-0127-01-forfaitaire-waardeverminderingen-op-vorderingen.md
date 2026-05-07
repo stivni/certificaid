@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 127/1 — forfaitaire waardeverminderingen op vorderingen Aan de Commissie werd de vraag gesteld of het in het licht van het besluit inzake de jaarrekening van ondernemingen toelaatbaar is een forfaitaire waardevermindering te boeken op vorderingen ten einde rekening te houden met een algemeen, naar zijn aard moeilijk te specifiëren risico waaraan deze vorderingen onderhevig zijn, en in bevestigend geval hoe deze waardevermindering moet worden geboekt. 

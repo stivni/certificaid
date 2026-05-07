@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 7/2 — interne en externe jaarrekening begrippen De Commissie heeft in een aantal gevallen enige begripsverwarring vastgesteld inzake het onderscheid dat uit de boekhoudwet en haar uitvoeringsbesluiten voortvloeit, tussen enerzijds de zogenaamde interne jaarrekening, en anderzijds de externe jaarrekening.1

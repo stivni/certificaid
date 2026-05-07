@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 128/2 — betwiste fiscale aanslag Naar aanleiding van advies 128/1 dat verschenen is in het *Bull. CBN *nr. 7, werd de vraag gesteld of de voorgestelde boekingswijze geen fiscale gevolgen heeft. De Commissie had geadviseerd enerzijds het ingecohierde bedrag ten laste te nemen en anderzijds op het actief het geschatte bedrag op te nemen van het verhaal tegen de aanslag. Daar de Commissie niet bevoegd is in deze aangelegenheid werd het advies ingewonnen van het fiscaal bestuur, dat hierna wordt weergegeven. 

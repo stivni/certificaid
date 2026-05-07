@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 176/1 — boekhoudrechtelijke aspecten met betrekking tot het jaar In hun huidige versie kunnen sommige informaticasystemen gegevens in verband met datums van na het jaar 1999 niet naar behoren beheren in zover ze ontwikkeld zijn om enkel de twee eindcijfers en dus niet de vier cijfers van een jaartal te verwerken en op te slaan. De twee eeuwcijfers werden vaak weggelaten om het werkgeheugen te besparen. Dit probleem kan zware gevolgen hebben voor het bedrijfsleven.

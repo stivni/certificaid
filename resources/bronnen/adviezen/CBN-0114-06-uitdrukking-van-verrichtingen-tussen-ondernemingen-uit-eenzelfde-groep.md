@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 114/6 — uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep Met toepassing van de vierde EEG-richtlijn schrijft het koninklijk besluit van 8 oktober 1976 voor dat de belangrijkste verrichtingen van een onderneming met de ondernemingen waarmee zij is verbonden of waarmee een deelnemingsverhouding bestaat, in de jaarrekening moeten worden uitgedrukt1

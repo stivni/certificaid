@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/13 — boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de Boekhoudkundige verwerking van de btw-schulden en -vorderingen in hoofde van de leden van de btw-eenheid

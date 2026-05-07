@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 148/1 — overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien Door overeenkomst waarin gespreide of opeenvolgende prestaties worden voorzien is hier verstaan een overeenkomst waarbij één der partijen zich tegen een vaste totaalprijs verbindt om, gespreid over een zekere tijd, bepaalde goederen te leveren, dan wel op gespreide wijze of volgens een afgesproken periodiciteit, bepaalde in de overeenkomst omschreven diensten te leveren. 

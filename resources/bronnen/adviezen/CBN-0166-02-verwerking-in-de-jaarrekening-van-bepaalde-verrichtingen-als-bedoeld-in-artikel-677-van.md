@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 166/2 — verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van Conform artikel 677 van het Wetboek van vennootschappen, worden de verrichtingen omschreven in de artikelen 671 tot 675 met fusie of splitsing gelijkgesteld, zonder dat alle overdragende vennootschappen ophouden te bestaan. 

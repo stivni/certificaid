@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies C100 — verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de Onverminderd de artikelen 48, 55, 58 en 59, bevat de geconsolideerde jaarrekening alle actief-en passiefbestanddelen en alle rechten en verplichtingen van de ondernemingen die in de consolidatie zijn opgenomen, op de afsluitingsdatum van de geconsolideerde jaarrekening, alsmede alle opbrengsten en kosten van de in de consolidatie opgenomen ondernemingen, die betrekking hebben op de door de geconsolideerde resultatenrekening bestreken periode. 

@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:47Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2016/15 — vergoedingen aan bestuurders en werkende vennoten 618 Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst

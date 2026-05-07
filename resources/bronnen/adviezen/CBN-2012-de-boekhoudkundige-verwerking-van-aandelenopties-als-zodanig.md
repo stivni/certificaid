@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/18 — de boekhoudkundige verwerking van aandelenopties als zodanig Boekhoudkundige verwerking van aandelenopties (als zodanig) die worden verhandeld op een georganiseerde en liquide markt 

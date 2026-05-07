@@ -25,6 +25,12 @@ provenance:
   generated_at: '2026-05-07T13:37:41Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 137/9 — actualisering van vorderingen en schulden op korte termijn update Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 

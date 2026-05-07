@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 7/3 — boek waarin de jaarrekening en de inventarisstukken worden opgenomen opname van de Toelichting werd gevraagd over het vereiste in artikel 7, derde lid van de wet met betrekking tot de opname van de jaarrekening in een boek waarin ook de inventarisstukken worden opgenomen. Meer in het bijzonder werd de vraag gesteld of dit ertoe leidt dat jaarlijks de toegepaste waarderingsregels *in extenso* in dit boek moeten worden weergegeven, zelfs zo tijdens het betrokken boekjaar geen afwijkingen noch wijzigingen ervan werden doorgevoerd. 

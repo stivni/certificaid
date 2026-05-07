@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 134/3 — investeringsaftrek Door het koninklijk besluit nr. 48 van 22 juni 1982 tot wijziging van het W.I.B. inzake investeringsaftrek, meerwaarden en afschrijvingen1

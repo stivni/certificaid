@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2012/5 — betaling van vorderingen in natura De Commissie wenst in dit advies de betaling van een vordering in natura te behandelen. De betaling kan omschreven worden als de rechtshandeling waardoor de schuldenaar zijn verbintenis uitvoert. Een bijzondere vorm van betaling is de zogenaamde *inbetalinggeving*: de schuldenaar kan er bijvoorbeeld voor opteren om een goed te leveren of een dienst te verstrekken ter betaling1

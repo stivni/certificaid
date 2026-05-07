@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 105/4 — vergoeding van kredieturen door de rsz Krachtens de bestaande wetgeving zijn de werkgevers verplicht om een bijdrage te storten aan de RSZ voor de financiering van kredieturen. Wanneer een werknemer gebruik maakt van de mogelijkheid die hem door deze wetgeving wordt geboden, dan wordt de daarbij behorende bezoldiging terugbetaald aan de onderneming door de RSZ. 

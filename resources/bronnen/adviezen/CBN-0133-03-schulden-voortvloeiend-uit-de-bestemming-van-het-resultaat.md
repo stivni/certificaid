@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 133/3 — schulden voortvloeiend uit de bestemming van het resultaat Dit advies vervangt advies 133/1, verschenen in *Bull. CBN* nr. 9 van december 1981.

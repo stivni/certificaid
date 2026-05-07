@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/4 — omrekeningsverschillen ontstaan bij omrekening van het kapitaal naar aanleiding van het De procedure voor het vragen van afwijkingen wordt vastgelegd in artikel 14 van de Boekhoudwet van 17 juli 1975 en in artikel 125, § 1 van het Wetboek van Vennootschappen. 

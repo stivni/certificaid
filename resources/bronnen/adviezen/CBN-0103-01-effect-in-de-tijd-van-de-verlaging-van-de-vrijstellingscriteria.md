@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:37Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies C103/1 — effect in de tijd van de verlaging van de vrijstellingscriteria Krachtens artikel 9 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen, wordt een onderneming vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen1

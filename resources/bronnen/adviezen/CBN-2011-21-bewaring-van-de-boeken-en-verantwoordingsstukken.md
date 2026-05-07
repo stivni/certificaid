@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/21 — bewaring van de boeken en verantwoordingsstukken Artikel 6, vierde lid van de wet van 17 juli 1975 (hierna: de Boekhoudwet) bepaalt onder meer dat de verantwoordingsstukken, in origineel of in afschrift, zeven jaar moeten worden bewaard. Deze termijn wordt op 3 jaar teruggebracht voor de stukken die niet als bewijs jegens derden hoeven te dienen.   

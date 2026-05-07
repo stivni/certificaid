@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:46Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/12 — erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royaltys Boekhoudkundige verwerking van interesten en royalty's, in de vorm van opbrengsten, in hoofde van de begunstigde

@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/9 — de boekhoudkundige verwerking van een herziening van de btw op een aangekocht Aan de Commissie werd de vraag gesteld op welke wijze een herziening van de belasting over de toegevoegde waarde (hierna: btw) op een aangekocht materieel vast actief boekhoudkundig moet worden verwerkt.

@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/7 — afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn Krachtens het koninklijk besluit van 8 oktober 1976, als gewijzigd bij het koninklijk besluit van 15 december 1998, mogen de jaarrekeningen die betrekking hebben op de boekjaren die worden afgesloten vanaf 1 januari 1999, naar keuze van de onderneming, worden opgesteld in euro of in Belgische frank; voor de boekjaren die worden afgesloten na 31 december 2001, moeten zij in euro worden opgesteld. 

@@ -20,6 +20,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/24 — herstructureringskosten verwerking in de jaarrekening De herstructurering van de activiteiten van een onderneming kan aanzienlijke kosten met zich meebrengen.

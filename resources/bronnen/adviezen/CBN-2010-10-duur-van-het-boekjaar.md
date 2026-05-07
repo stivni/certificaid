@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/10 — duur van het boekjaar Artikel 9 van de Boekhoudwet van 17 juli  1975 en artikel  92, §1  van  het Wetboek van Vennootschappen verplichten de ondernemingen om minstens  éénmaal per  jaar  een inventaris op te maken en  een  jaarrekening  op  te stellen.  

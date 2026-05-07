@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 4/2 — de inschrijvingin de boeken begrip Aan de Commissie worden geregeld vragen gesteld over de wetsvoorschriften inzake het houden van de boeken. 

@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:47Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2017/10 — groottecriteria artikel 15 wvenn verbonden vennootschappen verschillende afsluitingsdata

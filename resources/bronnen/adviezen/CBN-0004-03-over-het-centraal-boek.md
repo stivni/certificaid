@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:36Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 4/3 — over het centraal boek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  de  wet  van  1  juli  1983  (B.S.  8  juli  1983)  en  het  koninklijk  besluit  van  25  januari  2005  (B.S.  7  februari  2005)**

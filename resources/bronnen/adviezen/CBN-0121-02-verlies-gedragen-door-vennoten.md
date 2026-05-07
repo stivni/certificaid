@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 121/2 bis — verlies gedragen door vennoten Een vennootschap sluit het boekjaar af met verlies. De algemene vergadering beslist het verlies over te dragen. Tijdens het daaropvolgende boekjaar beslissen de vennoten op een buitengewone algemene vergadering het aldus overgedragen verlies zelf ten laste te nemen. De vraag wordt gesteld op welke wijze deze beslissing van de buitengewone algemene vergadering in de boekhouding en in de jaarrekening moet worden geboekt.

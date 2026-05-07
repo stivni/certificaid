@@ -24,6 +24,12 @@ provenance:
   generated_at: '2026-05-07T13:37:40Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 137/1 — klassering van de vorderingen bij faillissement van de schuldenaar Overeenkomstig de definities in de bijlage bij het besluit van 8 oktober 1976 geldt als criterium voor de rangschikking van een vordering onder de vorderingen op meer dan één jaar of de vorderingen op ten hoogste één jaar in de eerste plaats de termijn die in de overeenkomst werd voorzien. 

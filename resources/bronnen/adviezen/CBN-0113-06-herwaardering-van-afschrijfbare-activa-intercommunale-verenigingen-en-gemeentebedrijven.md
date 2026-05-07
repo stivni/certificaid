@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 113/6 — herwaardering van afschrijfbare activa intercommunale verenigingen en gemeentebedrijven In de intercommunale verenigingen worden de materiële vaste activa met beperkte gebruiksduur van oudsher jaarlijks geherwaardeerd. Voor het eerst toegepast door de gemengde intercommunale verenigingen voor energiedistributie en later door sommige zuiver publiekrechtelijke intercommunale verenigingen uit dezelfde bedrijfssector, werd bij een circulaire van 4 juni 1970 van de Minister van Binnenlandse Zaken de jaarlijkse herwaardering der materiële vaste activa veralgemeend en principieel verplicht gesteld voor alle intercommunale verenigingen en gemeentebedrijven, ongeacht hun werksfeer. Als herwaarderingscoëfficiënt werd het rekenkundig gemiddelde van het indexcijfer der groothandelsprijzen en van het indexcijfer der consumptiegoederen genomen. 

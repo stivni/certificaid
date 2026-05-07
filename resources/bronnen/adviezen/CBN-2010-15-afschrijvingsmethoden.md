@@ -35,6 +35,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2010/15 — afschrijvingsmethoden Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt1

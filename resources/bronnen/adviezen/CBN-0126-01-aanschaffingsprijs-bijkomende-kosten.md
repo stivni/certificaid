@@ -18,6 +18,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/1 — aanschaffingsprijs bijkomende kosten Overeenkomstig artikel 21 van het besluit van 8 oktober 1976 maken de bijkomende kosten die werden gemaakt voor de aanschaffing van zowel vaste als vlottende activa integraal deel uit van de aanschaffingsprijs en bijgevolg van de waarde waartegen deze activa in de jaarrekening worden opgenomen. 

@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 126/3 — vervaardigingsprijs toerekening van creditrente Het jaarrekeningbesluit van 8 oktober 1976 bepaalt in artikel 22, tweede lid, dat in de vervaardigingsprijs van bestellingen in uitvoering de rente op vreemd vermogen aangewend voor de financiering van de produktie mag worden opgenomen, dit voor zover de produktie of de uitvoering meer dan één jaar bestrijkt. Daarnaast is vereist dat deze rente op de normale uitvoeringstermijn van deze bestellingen betrekking heeft. Wanneer de rente in de vervaardigingsprijs wordt opgenomen dient zulks bij de waarderingsregels in de toelichting te worden vermeld. 

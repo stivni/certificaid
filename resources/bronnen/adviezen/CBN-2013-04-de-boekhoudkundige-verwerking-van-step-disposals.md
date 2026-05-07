@@ -19,6 +19,12 @@ provenance:
   generated_at: '2026-05-07T13:37:45Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2013/4 — de boekhoudkundige verwerking van step disposals Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan nog steeds een integraal geconsolideerde dochteronderneming blijft 

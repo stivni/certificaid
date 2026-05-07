@@ -17,6 +17,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 116 — financiele kortingen In het handelsverkeer wordt vaak in overeenkomsten of in facturen een korting voorzien ten belope van een zeker percentage van het gefactureerde bedrag bij betaling van dit bedrag vóór een vastgestelde datum. 

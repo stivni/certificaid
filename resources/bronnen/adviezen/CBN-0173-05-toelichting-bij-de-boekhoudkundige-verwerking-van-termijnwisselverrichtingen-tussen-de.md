@@ -32,6 +32,12 @@ provenance:
   generated_at: '2026-05-07T13:37:43Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 173/5 — toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de Gelet op de vragen en opmerkingen over de laatste twee leden van punt D.4. van advies 173/11

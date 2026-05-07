@@ -21,6 +21,12 @@ provenance:
   generated_at: '2026-05-07T13:37:38Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 111/1 — bezoldigingen toegekend aan bestuurders en commissarissen bedoelde bezoldigingen Het koninklijk besluit van 8 oktober 1976 schrijft voor dat de rechtstreekse en onrechtstreekse bezoldigingen die ten laste van de resultatenrekening aan de beheerders, zaakvoerders, commissarissen, enz., worden toegekend, in de toelichting bij de jaarrekening vermeld moeten worden. 

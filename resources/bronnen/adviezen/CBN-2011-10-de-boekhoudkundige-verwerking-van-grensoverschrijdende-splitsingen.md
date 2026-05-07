@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:44Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 2011/10 — de boekhoudkundige verwerking van grensoverschrijdende splitsingen Splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat

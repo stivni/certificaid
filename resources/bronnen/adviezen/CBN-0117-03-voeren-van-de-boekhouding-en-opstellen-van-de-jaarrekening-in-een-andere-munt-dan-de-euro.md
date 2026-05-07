@@ -27,6 +27,12 @@ provenance:
   generated_at: '2026-05-07T13:37:39Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 117/3 — voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro De Commissie kreeg de afgelopen tijd een aantal aanvragen van vennootschappen met de vraag het voeren van de boekhouding en het opstellen van de enkelvoudige jaarrekening niet te doen in euro maar in een andere functionele munt.

@@ -33,6 +33,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 172/1 — opneming van de rekeningen van een buitenlands bijkantoor Omrekening van de rekeningen van het bijkantoor in euro bij hun opneming in de boekhouding van de zetel

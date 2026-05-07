@@ -23,6 +23,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 152/6 — risicos verbonden aan bestellingen van vaste activa Artikel 19, zesde lid van het koninklijk besluit van 8 oktober 1976 voert de verplichting in om voorzieningen te vormen voor "de verliesrisico's die voor de onderneming voortvloeien uit (...) verbintenissen tot aankoop (...) van vaste activa (...), uit termijnposities of -overeenkomsten in deviezen (...)".

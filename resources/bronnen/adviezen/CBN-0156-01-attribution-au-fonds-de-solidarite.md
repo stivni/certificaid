@@ -22,6 +22,12 @@ provenance:
   generated_at: '2026-05-07T13:37:42Z'
   stale: false
   stale_reason:
+  trust:
+    status: unreviewed
+    qa_version:
+    confirmed_at:
+    confirmed_by: default
+    rationale:
 ---
 
 # CBN-advies 156/1 — attribution au fonds de solidarite Aan de Commissie werd gevraagd welke boekingen vereist zijn wanneer bij het vertrek van een personeelslid de afkoopwaarde van diens groepsverzekering aan de vennootschap toekomt, omdat de betrokkene onvoldoende anciënniteit heeft om zelf op dit kapitaal aanspraak te kunnen maken.
