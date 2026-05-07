@@ -54,8 +54,7 @@ van de belasting over de toegevoegde waarde.
 
     Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-KB nr. 11 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 11 - Lijst van de bijwerkingen
 
     Bijwerking t.e.m. B.S. van Te vervangen pagina’s
 
@@ -65,8 +64,7 @@ Bijw. 02 / 20.02.2015 Volledige uitgave
 
     * * * * *
 
-Bijlage B
-KB nr. 11 - Recente wijzigingen
+## Bijlage B — KB nr. 11 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

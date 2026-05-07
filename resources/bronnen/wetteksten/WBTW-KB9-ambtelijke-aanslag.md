@@ -54,9 +54,7 @@ Wetboek van de belasting over de toegevoegde waarde.
 
     Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
     Bijw. 01 / 01.01.2012 Volledige uitgave
 
@@ -64,8 +62,7 @@ Bijlage A
 
     * * * * *
 
-Bijlage B
-Recente wijzigingen – KB nr. 9
+## Bijlage B — Recente wijzigingen – KB nr. 9
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

@@ -1294,7 +1294,7 @@ benaming
 
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 18
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
@@ -1310,8 +1310,7 @@ Lijst van de bijwerkingen
 
  Bijw. 04 / 08.04.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

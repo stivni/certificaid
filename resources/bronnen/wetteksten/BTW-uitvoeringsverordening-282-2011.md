@@ -870,7 +870,7 @@ NL
 
 Publicatieblad van de Europese Unie
 
-BIJLAGE I
+## BIJLAGE I
 Artikel 7 van de onderhavige verordening
 1. Punt 1) van bijlage II bij Richtlijn 2006/112/EG:
 a) hosting van websites en webpagina’s;
@@ -919,7 +919,7 @@ NL
 
 Publicatieblad van de Europese Unie
 
-BIJLAGE II
+## BIJLAGE II
 Artikel 51 van de onderhavige verordening
 
 L 77/17
@@ -967,7 +967,7 @@ L 77/20
 Publicatieblad van de Europese Unie
 
 
-BIJLAGE III
+## BIJLAGE III
 Artikel 56 van de onderhavige verordening
 Eenheid
 
@@ -1001,8 +1001,7 @@ Publicatieblad van de Europese Unie
 
 L 77/21
 
-BIJLAGE IV
-Transponeringstabel
+## BIJLAGE IV — Transponeringstabel
 Verordening (EG) nr. 1777/2005
 
 Deze verordening
@@ -1011,9 +1010,9 @@ Hoofdstuk I
 
 Hoofdstuk I
 
-## Art. 1
+### Art. 1
 
-## Art. 1
+### Art. 1
 
 Hoofdstuk II
 
@@ -1023,9 +1022,9 @@ Afdeling 1 van hoofdstuk II
 
 Hoofdstuk III
 
-## Art. 2
+### Art. 2
 
-## Art. 5
+### Art. 5
 
 Afdeling 2 van hoofdstuk II
 
@@ -1033,11 +1032,11 @@ Hoofdstuk IV
 
 Artikel 3, lid 1
 
-## Art. 9
+### Art. 9
 
 Artikel 3, lid 2
 
-## Art. 8
+### Art. 8
 
 Hoofdstuk III
 
@@ -1047,35 +1046,35 @@ Afdeling 1 van hoofdstuk III
 
 Afdeling 4 van hoofdstuk V
 
-## Art. 4
+### Art. 4
 
-## Art. 28
+### Art. 28
 
 Afdeling 2 van hoofdstuk III
 
 Afdeling 4 van hoofdstuk V
 
-## Art. 5
+### Art. 5
 
-## Art. 34
+### Art. 34
 
-## Art. 6
+### Art. 6
 
 Artikelen 29 en 41
 
-## Art. 7
+### Art. 7
 
-## Art. 26
+### Art. 26
 
-## Art. 8
+### Art. 8
 
-## Art. 27
+### Art. 27
 
-## Art. 9
+### Art. 9
 
-## Art. 30
+### Art. 30
 
-## Art. 10
+### Art. 10
 
 Artikel 38, lid 2, onder b) en c)
 
@@ -1083,7 +1082,7 @@ Artikel 11, leden 1 en 2
 
 Artikel 7, leden 1 en 2
 
-## Art. 12
+### Art. 12
 
 Artikel 7, lid 3
 
@@ -1091,9 +1090,9 @@ Hoofdstuk IV
 
 Hoofdstuk VI
 
-## Art. 13
+### Art. 13
 
-## Art. 42
+### Art. 42
 
 Hoofdstuk V
 
@@ -1103,21 +1102,21 @@ Afdeling 1 van hoofdstuk V
 
 Afdeling 1 van hoofdstuk VIII
 
-## Art. 14
+### Art. 14
 
-## Art. 44
+### Art. 44
 
-## Art. 15
+### Art. 15
 
-## Art. 45
+### Art. 45
 
 Afdeling 2 van hoofdstuk V
 
 Afdeling 4 van hoofdstuk VIII
 
-## Art. 16
+### Art. 16
 
-## Art. 47
+### Art. 47
 
 NL
 
@@ -1130,17 +1129,17 @@ Verordening (EG) nr. 1777/2005
 
 Deze verordening
 
-## Art. 17
+### Art. 17
 
-## Art. 48
+### Art. 48
 
 Hoofdstuk VI
 
 Hoofdstuk IX
 
-## Art. 18
+### Art. 18
 
-## Art. 52
+### Art. 52
 
 Hoofdstuk VII
 
@@ -1148,55 +1147,55 @@ Hoofdstuk XI
 
 Artikel 19, lid 1
 
-## Art. 56
+### Art. 56
 
 Artikel 19, lid 2
 
-## Art. 57
+### Art. 57
 
 Artikel 20, lid 1
 
-## Art. 58
+### Art. 58
 
 Artikel 20, lid 2
 
-## Art. 62
+### Art. 62
 
 Artikel 20, lid 3, eerste alinea
 
-## Art. 59
+### Art. 59
 
 Artikel 20, lid 3, tweede alinea
 
-## Art. 60
+### Art. 60
 
 Artikel 20, lid 3, derde alinea
 
-## Art. 63
+### Art. 63
 
 Artikel 20, lid 4
 
-## Art. 61
+### Art. 61
 
 Hoofdstuk VIII
 
 Afdeling 3 van hoofdstuk V
 
-## Art. 21
+### Art. 21
 
-## Art. 16
+### Art. 16
 
-## Art. 22
+### Art. 22
 
-## Art. 14
+### Art. 14
 
 Hoofdstuk IX
 
 Hoofdstuk XII
 
-## Art. 23
+### Art. 23
 
-## Art. 65
+### Art. 65
 
 Bijlage I
 

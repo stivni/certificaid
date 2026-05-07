@@ -475,8 +475,7 @@ Dit besluit treedt in werking op 1 januari 1993.
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-Recente wijzigingen – KB nr. 24
+## Bijlage A — Recente wijzigingen – KB nr. 24
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
 * KB 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten

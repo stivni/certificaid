@@ -121,9 +121,7 @@ Wetboek van de belasting over de toegevoegde waarde.
 
 Onroerende zakelijke rechten www.fisconetplus.be pg. 2
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 01.01.2012 - Volledige uitgave
 
@@ -131,8 +129,7 @@ Bijw. 02 / 08.05.2013 - Volledige uitgave
 
 Bijw. 03 / 27.05.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen – KB nr. 14
+## Bijlage B — Recente wijzigingen – KB nr. 14
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

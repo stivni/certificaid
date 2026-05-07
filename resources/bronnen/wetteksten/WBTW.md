@@ -5439,8 +5439,7 @@ blijven de bepalingen die van toepassing waren op het tijdstip dat de goederen o
 
 - Overgangsbepalingen / 9 -
 
-Bijlage A
-Recente wijzigingen, volgens de officiële publicatie
+## Bijlage A — Recente wijzigingen, volgens de officiële publicatie
 
 * Wet van 19.12.2025 - Wet tot wijziging van het Wetboek van de belasting over de toegevoegde waarde betreffende de plaats van sommige diensten en betreffende de winstmargeregeling op de levering van kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten (B.S. 31.12.2025, pg. 99183, Numac: 2025009849)
 
@@ -6398,8 +6397,7 @@ Wijzigen met ingang van 01.01.2012:
 
 - Bijlage A. Recente wijzigingen / 22 -
 
-Bijlage B
-Opmerkingen en arresten bij bepaalde artikelen
+## Bijlage B — Opmerkingen en arresten bij bepaalde artikelen
 
 ## Art. 1
 

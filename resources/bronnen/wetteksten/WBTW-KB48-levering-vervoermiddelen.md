@@ -179,9 +179,7 @@ december 1969.
 
     Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 01.01.2012 - Volledige uitgave
 
@@ -191,8 +189,7 @@ Bijw. 03 / 20.02.2015 - pg. 1 - Bijw. 03 - pg. 1
     - pg. Bijl.A/1 - Bijw. 03 - pg. Bijl.A/1
     - pg. Bijl.B/1 - Bijw. 03 - pg. Bijl.B/1
 
-Bijlage B
-Recente wijzigingen – KB nr. 48
+## Bijlage B — Recente wijzigingen – KB nr. 48
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

@@ -36,10 +36,13 @@ Elke categorie heeft een eigen herkomst en ETL-aanpak. Er is geen uniforme pipel
 ```
 remove_page_artifacts → fix_broken_words → normalize_whitespace → collapse_blank_lines
                      → merge_wrapped_lines → merge_heading_continuations
+                     → mark_appendices
 ```
 `remove_page_artifacts` omvat ejustice running footers (`Pagina X van Y Copyright Belgisch S taatsblad`, incl. OCR-artefact "S taatsblad" met spatie).
 
 `merge_heading_continuations` herstelt structurele headings (`### TITEL`, `#### HOOFDSTUK`, `##### Afdeling`, `Onderafdeling`, `BOEK`, `DEEL`, …) die de PDF-extractor over meerdere regels heeft afgebroken (bv. `### TITEL I. - DE VERSCHILLENDE` + `INKOMSTENBELASTINGEN`). Werkt op markdown-output, ná article-detectie. Zes detectieregels (zie `tools/lib/cleanup.py`); idempotent.
+
+`mark_appendices` promoveert bijlage-titels (`Bijlage A`, `BIJLAGE I`, `Annex 1`, `Bijvoegsel`, …) op een eigen regel naar `## Bijlage X — <subtitel>` headings, zodat ze als aparte chunks indexeren in plaats van geplakt te raken aan het laatste artikel. Subtitel komt inline (na `.` of `:`) of van de eerstvolgende non-empty regel mits die geen structurele subkop is (`DEEL X`, `HOOFDSTUK`, …). Binnen een bijlage worden duplicate `## Art. X` headings (concordantietabellen, arrest-discussies) gedegradeerd naar `### Art. X`. Concordance-detectie via een keyword-match in de bijlage-titel (`Concordantietabel`, `Transponeringstabel`, …) of via observed `### Art.`-degradaties; in concordance-mode worden kale `Bijlage X` lijnen zonder subtitel als tabel-entries behouden i.p.v. gepromoveerd. Idempotent.
 
 Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 - `remove_toc_ejustice` — inhoudsopgave verwijderen

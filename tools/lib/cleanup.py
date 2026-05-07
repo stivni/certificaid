@@ -587,6 +587,150 @@ def merge_heading_continuations(text: str) -> str:
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------
+# Bijlages / Annexen markeren
+# ---------------------------------------------------------------------------
+
+# Kale bijlage-regel: 'Bijlage A', 'Bijlage I', 'BIJLAGE I', 'Annex 1',
+# 'Bijvoegsel', evt. gevolgd door inline subtitel na '.' of ':'.
+# Eist `^…$` zodat inline-references als 'Bijlage A, onder I' niet matchen.
+_APPENDIX_BARE = re.compile(
+    r"^(Bijlage\s+(?:[A-Z]\d?|[IVX]+)"
+    r"|BIJLAGE\s+(?:[A-Z]\d?|[IVX]+)"
+    r"|Annex\s+[A-Z0-9]+"
+    r"|ANNEX\s+[A-Z0-9]+"
+    r"|Bijvoegsel(?:\s+\d+)?)"
+    r"(?:\s*[.:]\s*(\S.{0,100}?))?"
+    r"\s*$"
+)
+# Reeds-een-heading: '## Bijlage A', '### BIJLAGE I', enz. Niet hernoemen,
+# wel in_appendix=True zetten zodat ## Art.-degradatie verder werkt.
+_APPENDIX_HEADING_LINE = re.compile(
+    r"^#{1,6}\s+(?:Bijlage|BIJLAGE|Annex|ANNEX|Bijvoegsel)\b"
+)
+# ## Art. X-heading die binnen de bijlage-sectie naar ### moet (concordantie-
+# tabellen en arrest-discussies bevatten anders duplicate artikel-IDs).
+_ARTICLE_H2 = re.compile(r"^##\s+(Art\.\s+\S.*?)\s*$")
+# Bijlage-titels die concordance-mode aanduiden — alle volgende kale
+# 'Bijlage X' lijnen zonder subtitel zijn dan tabel-entries, geen siblings.
+_CONCORDANCE_TITLE = re.compile(
+    r"\b(concordantie|transponering|correlatie|transpositie)",
+    re.IGNORECASE,
+)
+# Subtitel-regel direct ná een kale Bijlage-regel — moet géén structurele
+# subkop zijn (DEEL A, HOOFDSTUK X, lijst-item, paragraaf, art., enz.).
+_SUBTITLE_REJECT = re.compile(
+    r"^(?:[*#(\-]|\d+°|§|"
+    r"Art\.|Artikel\s|"
+    r"BIJLAGE|Bijlage|ANNEX|Annex|"
+    r"DEEL\s|Deel\s|HOOFDSTUK|Hoofdstuk|TITEL|Titel|"
+    r"AFDELING|Afdeling|ONDERAFDELING|Onderafdeling|"
+    r"BOEK|Boek|LIVRE|Livre|"
+    r"LIJST\b)",
+    re.IGNORECASE,
+)
+
+
+def _next_line_subtitle(lines: list[str], start: int) -> tuple[str | None, int]:
+    """
+    Geef (subtitel, eind_index) terug. Subtitel is de eerstvolgende non-empty
+    regel direct ná een kale Bijlage-regel, mits die er als titel uitziet
+    (5–100 chars, geen structurele subkop).
+    eind_index is de index ná de subtitel-regel (zodat de outer loop verder
+    kan); als geen subtitel gevonden wordt, eind_index == start.
+    """
+    j = start
+    while j < len(lines) and not lines[j].strip():
+        j += 1
+    if j >= len(lines):
+        return None, start
+    cand = lines[j].strip()
+    if not (5 <= len(cand) <= 120):
+        return None, start
+    if _SUBTITLE_REJECT.match(cand):
+        return None, start
+    return cand, j + 1
+
+
+def mark_appendices(text: str) -> str:
+    """
+    Markeer 'Bijlage X' / 'BIJLAGE X' / 'Annex Y' / 'Bijvoegsel' op een eigen
+    regel als '## Bijlage X — <subtitel>' headings, en degrade ## artikel-
+    headings binnen de bijlage-sectie naar ### om duplicate artikel-IDs te
+    voorkomen (concordantietabellen, arrest-discussies).
+
+    Patronen die als heading gedetecteerd worden:
+      - 'Bijlage A' / 'Bijlage I' (kaal label)
+      - 'Bijlage A. <subtitel>' / 'Bijlage A: <subtitel>'  (inline subtitel)
+      - 'BIJLAGE I' (EU-stijl, hoofdletters)
+      - 'Annex 1' / 'ANNEX I' / 'Bijvoegsel'
+    Inline-references blijven onaangeroerd: 'Bijlage A, onder I' matcht niet
+    omdat na het label geen `.` of `:` of einde-regel staat.
+
+    Subtitel-detectie:
+      - inline (zelfde regel, na `.` of `:`)
+      - of de eerstvolgende non-empty regel, mits 5–120 chars en niet
+        beginnend met een structurele marker (DEEL/HOOFDSTUK/TITEL/...,
+        Art., §, lijst-item, ...).
+
+    Idempotent: regels die al een markdown-heading zijn ('## Bijlage A')
+    worden niet hernoemd. De flag `in_appendix` wordt wél gezet zodat
+    downstream artikel-degradatie blijft werken bij herhaalde runs.
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    in_appendix = False
+    in_concordance = False
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if _APPENDIX_HEADING_LINE.match(line):
+            in_appendix = True
+            in_concordance = bool(_CONCORDANCE_TITLE.search(line))
+            out.append(line)
+            i += 1
+            continue
+        m = _APPENDIX_BARE.match(line)
+        if m:
+            label = m.group(1).strip()
+            subtitle = m.group(2).strip().rstrip(":") if m.group(2) else None
+            next_i = i + 1
+            if not subtitle:
+                cand, next_i = _next_line_subtitle(lines, i + 1)
+                if cand:
+                    subtitle = cand.rstrip(":").strip()
+            # In een concordantietabel staan kale bijlage-references zonder
+            # subtitel (bv. 'Bijlage II' tussen '— ... —'). Onderscheid op
+            # basis van in_concordance: gezet wanneer een eerdere bijlage-
+            # heading een concordance-keyword bevat ('Concordantietabel',
+            # 'Transponeringstabel', ...) of wanneer ## Art.-degradaties zijn
+            # waargenomen.
+            if in_appendix and in_concordance and not subtitle:
+                out.append(line)
+                i += 1
+                continue
+            new_heading = f"## {label}" + (f" — {subtitle}" if subtitle else "")
+            out.append(new_heading)
+            in_appendix = True
+            in_concordance = bool(_CONCORDANCE_TITLE.search(new_heading))
+            i = next_i
+            continue
+        if in_appendix and in_concordance:
+            # In concordance-mode: degrade dupliccate ## Art.-headings naar ###
+            # om duplicate artikel-IDs in de chunk-index te voorkomen. Buiten
+            # concordance-mode laten we ## Art.-headings in bijlages staan
+            # (bv. WBTW Bijlage B 'Opmerkingen en arresten' — elke arrest-
+            # discussie wordt een eigen chunk, geen duplicaat met de hoofdwet).
+            ma = _ARTICLE_H2.match(line)
+            if ma:
+                out.append(f"### {ma.group(1)}")
+                i += 1
+                continue
+        out.append(line)
+        i += 1
+    return "\n".join(out)
+
+
 def remove_toc_ejustice(text: str) -> str:
     """
     Verwijder de ejustice inhoudsopgave.
@@ -635,6 +779,7 @@ DEFAULT_STEPS = [
     "collapse_blank_lines",
     "merge_wrapped_lines",     # PDF-soft-wraps samenvoegen tot één paragraaf-regel
     "merge_heading_continuations",  # afgebroken structurele headings (TITEL/HOOFDSTUK/...) herstellen
+    "mark_appendices",         # 'Bijlage A' / 'BIJLAGE I' → '## Bijlage A — <subtitel>'
 ]
 
 OPTIONAL_STEPS = {
@@ -644,6 +789,7 @@ OPTIONAL_STEPS = {
     "ensure_article_headings": ensure_article_headings,
     "remove_toc_ejustice": remove_toc_ejustice,
     "merge_heading_continuations": merge_heading_continuations,
+    "mark_appendices": mark_appendices,
 }
 
 ALL_STEPS = {

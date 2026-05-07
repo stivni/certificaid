@@ -153,9 +153,7 @@ waarde.
 
     jaarlijkse lijst van de BTW-belastingplichtige afnemers
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 01.01.2012 - Volledige uitgave
 
@@ -171,8 +169,7 @@ Bijw. 04 / 20.02.2015 - pg. 1 en 2 - Bijw. 04 - pg. 1 en 2
     - pg. Bijl.A/1 - Bijw. 04 - pg. Bijl.A/1
     - pg. Bijl.B/1 - Bijw. 04 - pg. Bijl.B/1
 
-Bijlage B
-Recente wijzigingen – KB nr. 23
+## Bijlage B — Recente wijzigingen – KB nr. 23
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

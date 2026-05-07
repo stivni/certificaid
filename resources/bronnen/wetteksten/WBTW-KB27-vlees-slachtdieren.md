@@ -205,8 +205,7 @@ koninklijk besluit van 16 maart 1973, wordt opgeheven op datum van dit besluit.
 
     Onze Vice-Eerste Minister en Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-KB nr. 27 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 27 - Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
 
@@ -216,8 +215,7 @@ Bijw. 02 / 20.02.2015 - Volledige uitgave
 
     * * * * *
 
-Bijlage B
-KB nr. 27 - Recente wijzigingen
+## Bijlage B — KB nr. 27 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

@@ -2143,8 +2143,7 @@ Deze richtlijn is gericht tot de lidstaten.
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 92
 ▼B
-BIJLAGE I
-RECHTSVORMEN
+## BIJLAGE I — RECHTSVORMEN
 
 VAN
 ONDERNEMINGEN,
@@ -2200,8 +2199,7 @@ IN
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 94
 ▼B
-BIJLAGE II
-RECHTSVORMEN
+## BIJLAGE II — RECHTSVORMEN
 
 VAN
 ONDERNEMINGEN,
@@ -2250,8 +2248,7 @@ IN
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 96
 ▼B
-BIJLAGE III
-HORIZONTALE INDELING VAN DE BALANS ZOALS BEPAALD IN
+## BIJLAGE III — HORIZONTALE INDELING VAN DE BALANS ZOALS BEPAALD IN
 ## ARTIKEL 10
 Activa
 A. Geplaatst, niet gestort kapitaal waarvan opgevraagd
@@ -2342,8 +2339,7 @@ D. Overlopende posten
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 99
 ▼B
-BIJLAGE IV
-VERTICALE INDELING VAN DE BALANS ZOALS BEPAALD IN
+## BIJLAGE IV — VERTICALE INDELING VAN DE BALANS ZOALS BEPAALD IN
 ## ARTIKEL 10
 A. Geplaatst, niet gestort kapitaal waarvan opgevraagd
 (tenzij dat opgevraagde kapitaal overeenkomstig het nationale recht onder post L„eigen vermogen” moet worden opgenomen, in welk geval het ge­ deelte van het kapitaal dat is opgevraagd, maar nog niet gestort, hetzij onder post A, hetzij onder post D II 5 van de activa wordt opgenomen) B.
@@ -2455,8 +2451,7 @@ VI. Resultaat van het boekjaar
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 102
 ▼B
-BIJLAGE V
-INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR AARD
+## BIJLAGE V — INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR AARD
 VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
 1. Netto-omzet.
 2. Wijziging in voorraden gereed product en goederen in bewerking.
@@ -2482,8 +2477,7 @@ b) Waardecorrecties op vlottende activa, voor zover deze de in de onder­ neming
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 103
 ▼B
-BIJLAGE VI
-INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR
+## BIJLAGE VI — INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR
 FUNCTIE VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
 1. Netto-omzet.
 2. Kostprijs van de omzet (met inbegrip van waardecorrecties).
@@ -2503,8 +2497,7 @@ FUNCTIE VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 104
 ▼B
-BIJLAGE VII
-Concordantietabel
+## BIJLAGE VII — Concordantietabel
 Richtlijn 78/660/EEG
 
 Richtlijn 83/349/EEG
@@ -2581,7 +2574,7 @@ Artikel 2, lid 6
 
 Artikel 4, lid 5
 
-## Art. 3
+### Art. 3
 
 —
 
@@ -2641,19 +2634,19 @@ Artikel 5, lid 3
 
 Artikel 2, punt 15)
 
-## Art. 6
+### Art. 6
 
 —
 
 Artikel 9, lid 6
 
-## Art. 7
+### Art. 7
 
 Artikel 6, lid 1, punt g)
 
-## Art. 8
+### Art. 8
 
-## Art. 10
+### Art. 10
 
 Artikel 9, punt A)
 
@@ -2731,7 +2724,7 @@ Artikel 9, punt E)
 
 —
 
-## Art. 10
+### Art. 10
 
 —
 
@@ -2741,7 +2734,7 @@ Artikel 10 bis
 
 —
 
-## Art. 11
+### Art. 11
 
 Artikel 11, eerste alinea
 
@@ -2791,7 +2784,7 @@ Artikel 13, lid 2
 
 Artikel 12, lid 2
 
-## Art. 14
+### Art. 14
 
 —
 
@@ -2834,25 +2827,25 @@ Artikel 15, lid 4
 
 —
 
-## Art. 16
+### Art. 16
 
 —
 
 Artikel 12, lid 4
 
-## Art. 17
+### Art. 17
 
 —
 
 Artikel 2, punt 2
 
-## Art. 18
+### Art. 18
 
 —
 
 —
 
-## Art. 19
+### Art. 19
 
 Artikel 2, punt 8
 
@@ -2874,7 +2867,7 @@ Artikel 20, lid 3
 
 Artikel 12, lid 12, derde alinea
 
-## Art. 21
+### Art. 21
 
 —
 
@@ -2918,7 +2911,7 @@ Richtlijn 83/349/EEG
 
 Deze richtlijn
 
-## Art. 24
+### Art. 24
 
 —
 
@@ -2942,7 +2935,7 @@ Artikel 25, punten 18 en 19
 
 Bijlage VI, punten 14 en 15
 
-## Art. 26
+### Art. 26
 
 —
 
@@ -2972,19 +2965,19 @@ Artikel 27, tweede alinea
 
 Artikel 3, lid 9, eerste alinea
 
-## Art. 28
+### Art. 28
 
 —
 
 Artikel 2, punt 5
 
-## Art. 29
+### Art. 29
 
 —
 
 —
 
-## Art. 30
+### Art. 30
 
 —
 
@@ -3009,7 +3002,7 @@ Artikel 31, lid 2
 
 Artikel 4, lid 4
 
-## Art. 32
+### Art. 32
 
 —
 
@@ -3064,7 +3057,7 @@ Artikel 33, lid 5
 
 —
 
-## Art. 34
+### Art. 34
 
 —
 
@@ -3116,7 +3109,7 @@ Artikel 35, lid 4
 
 Artikel 12, lid 8, en artikel 18, lid 1, punt a), subpunt vi)
 
-## Art. 36
+### Art. 36
 
 —
 
@@ -3134,7 +3127,7 @@ Artikel 37, lid 2
 
 Artikel 11, lid 10
 
-## Art. 38
+### Art. 38
 
 —
 
@@ -3188,7 +3181,7 @@ Artikel 40, lid 2
 
 —
 
-## Art. 41
+### Art. 41
 
 —
 
@@ -3413,7 +3406,7 @@ Artikel 43, lid 3
 
 Artikel 17, lid 1, punt d), tweede alinea
 
-## Art. 44
+### Art. 44
 
 —
 
@@ -3432,17 +3425,17 @@ Artikel 45, lid 2
 
 Artikel 18, lid 2
 
-## Art. 46
+### Art. 46
 
 —
 
-## Art. 19
+### Art. 19
 
 Artikel 46 bis
 
 —
 
-## Art. 20
+### Art. 20
 
 Artikel 47, leden 1 en 1 bis
 
@@ -3462,19 +3455,19 @@ Artikel 47, lid 3
 
 Artikel 31, lid 2
 
-## Art. 48
+### Art. 48
 
 —
 
 Artikel 32, lid 1
 
-## Art. 49
+### Art. 49
 
 —
 
 Artikel 32, lid 2
 
-## Art. 50
+### Art. 50
 
 —
 
@@ -3528,9 +3521,9 @@ Artikel 51 bis
 
 —
 
-## Art. 35
+### Art. 35
 
-## Art. 52
+### Art. 52
 
 —
 
@@ -3546,9 +3539,9 @@ Artikel 53 bis
 
 —
 
-## Art. 40
+### Art. 40
 
-## Art. 55
+### Art. 55
 
 —
 
@@ -3567,23 +3560,23 @@ Artikel 56, lid 2
 Artikel 17, lid 1, punten l), m) en
 n)
 
-## Art. 57
+### Art. 57
 
 —
 
-## Art. 37
+### Art. 37
 
 Artikel 57 bis
 
 —
 
-## Art. 38
+### Art. 38
 
-## Art. 58
+### Art. 58
 
 —
 
-## Art. 39
+### Art. 39
 
 Artikel 59, lid 1
 
@@ -3616,19 +3609,19 @@ Artikel 59, lid 9
 
 Artikel 27, lid 9
 
-## Art. 60
+### Art. 60
 
 —
 
 —
 
-## Art. 60a
+### Art. 60a
 
 —
 
-## Art. 51
+### Art. 51
 
-## Art. 61
+### Art. 61
 
 —
 
@@ -3640,11 +3633,11 @@ Artikel 61 bis
 
 —
 
-## Art. 62
+### Art. 62
 
 —
 
-## Art. 55
+### Art. 55
 
 —
 
@@ -3680,7 +3673,7 @@ Artikel 2, punt 10
 
 Artikel 4, lid 1
 
-## Art. 21
+### Art. 21
 
 —
 
@@ -3690,7 +3683,7 @@ Artikel 4, lid 2
 
 —
 
-## Art. 5
+### Art. 5
 
 —
 
@@ -3748,7 +3741,7 @@ Deze richtlijn
 
 —
 
-## Art. 8
+### Art. 8
 
 Artikel 23, lid 5
 
@@ -3766,13 +3759,13 @@ Artikel 9, lid 2
 
 —
 
-## Art. 10
+### Art. 10
 
 Artikel 23, lid 7
 
 —
 
-## Art. 11
+### Art. 11
 
 Artikel 23, lid 8
 
@@ -3810,15 +3803,15 @@ Artikel 23, lid 9
 
 —
 
-## Art. 15
+### Art. 15
 
 —
 
 —
 
-## Art. 16
+### Art. 16
 
-## Art. 4
+### Art. 4
 
 —
 
@@ -3834,43 +3827,43 @@ Artikel 17, lid 2
 
 —
 
-## Art. 18
+### Art. 18
 
 Artikel 24, lid 2
 
 —
 
-## Art. 19
+### Art. 19
 
 Artikel 24, lid 3, punten a) t/m e)
 
 —
 
-## Art. 20
+### Art. 20
 
 —
 
 —
 
-## Art. 21
+### Art. 21
 
 Artikel 24, lid 4
 
 —
 
-## Art. 22
+### Art. 22
 
 Artikel 24, lid 5
 
 —
 
-## Art. 23
+### Art. 23
 
 Artikel 24, lid 6
 
 —
 
-## Art. 24
+### Art. 24
 
 —
 
@@ -3912,13 +3905,13 @@ Artikel 6, lid 1, punt j)
 
 —
 
-## Art. 27
+### Art. 27
 
 Artikel 24, lid 8
 
 —
 
-## Art. 28
+### Art. 28
 
 Artikel 24, lid 9
 
@@ -3974,7 +3967,7 @@ Artikel 30, lid 2
 
 —
 
-## Art. 31
+### Art. 31
 
 Artikel 24, lid 3, punt f)
 
@@ -3982,7 +3975,7 @@ Artikel 24, lid 3, punt f)
 
 Artikel 32, leden 1 en 2
 
-## Art. 26
+### Art. 26
 
 —
 
@@ -3992,9 +3985,9 @@ Artikel 32, lid 3
 
 —
 
-## Art. 33
+### Art. 33
 
-## Art. 27
+### Art. 27
 
 —
 
@@ -4200,13 +4193,13 @@ Artikel 34, leden 1 en 2
 
 Artikel 37, lid 2
 
-## Art. 35
+### Art. 35
 
 —
 
 Artikel 37, lid 4
 
-## Art. 35
+### Art. 35
 
 —
 
@@ -4242,7 +4235,7 @@ Artikel 38, leden 5 en 6
 
 Artikel 38, lid 7
 
-## Art. 40
+### Art. 40
 
 —
 
@@ -4252,13 +4245,13 @@ Artikel 38 bis
 
 —
 
-## Art. 39
+### Art. 39
 
 —
 
 —
 
-## Art. 40
+### Art. 40
 
 —
 
@@ -4282,69 +4275,69 @@ Artikel 41, leden 2 t/m 5
 
 —
 
-## Art. 42
+### Art. 42
 
 —
 
 —
 
-## Art. 43
+### Art. 43
 
 —
 
 —
 
-## Art. 44
+### Art. 44
 
 —
 
 —
 
-## Art. 45
+### Art. 45
 
 —
 
 —
 
-## Art. 46
+### Art. 46
 
 —
 
 —
 
-## Art. 47
+### Art. 47
 
 —
 
 —
 
-## Art. 48
+### Art. 48
 
-## Art. 51
-
-—
-
-## Art. 49
+### Art. 51
 
 —
 
-—
-
-## Art. 50
+### Art. 49
 
 —
 
 —
 
-## Art. 50a
+### Art. 50
 
 —
 
 —
 
-## Art. 51
+### Art. 50a
 
-## Art. 55
+—
+
+—
+
+### Art. 51
+
+### Art. 55
 
 —
 

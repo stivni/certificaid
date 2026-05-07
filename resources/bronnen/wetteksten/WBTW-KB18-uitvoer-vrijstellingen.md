@@ -687,9 +687,7 @@ Regeling kleine ondernemingen www.fisconetplus.be pg.4
 
 Regeling kleine ondernemingen www.fisconetplus.be pg.5
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 09.07.2014 - Volledige uitgave
 
@@ -701,8 +699,7 @@ Bijw. 03 / 28.12.2015 - pg. 1 - Bijw. 03 - pg. 1
 
 Bijw. 04 / 12.07.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

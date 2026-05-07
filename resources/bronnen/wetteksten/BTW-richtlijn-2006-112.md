@@ -4397,7 +4397,7 @@ Publicatieblad van de Europese Unie
 
 NL
 
-BIJLAGE I
+## BIJLAGE I
 LIJST VAN WERKZAAMHEDEN BEDOELD IN ARTIKEL 14, LID 1, DERDE ALINEA
 
 1)
@@ -4459,9 +4459,7 @@ L 347/68
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE II
-
-INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTIKEL 56, LID 1, PUNT K)
+## BIJLAGE II — INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTIKEL 56, LID 1, PUNT K)
 
 1)
 
@@ -4488,7 +4486,7 @@ de levering van onderwijs op afstand.
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE III
+## BIJLAGE III
 
 LIJST VAN DE GOEDERENLEVERINGEN EN DE DIENSTEN WAAROP DE IN ARTIKEL 98 BEDOELDE VERLAAGDE TARIEVEN MOGEN WORDEN TOEGEPAST
 
@@ -4572,7 +4570,7 @@ Publicatieblad van de Europese Unie
 
 NL
 
-BIJLAGE IV
+## BIJLAGE IV
 LIJST VAN DE IN ARTIKEL 106 BEDOELDE DIENSTEN
 
 1)
@@ -4611,7 +4609,7 @@ kappersdiensten.
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE V
+## BIJLAGE V
 
 CATEGORIEËN GOEDEREN DIE VOLGENS ARTIKEL 160, LID 2, ONDER EEN ANDER STELSEL VAN ENTREPOTS DAN DOUANE-ENTREPOTS KUNNEN VALLEN
 
@@ -4757,7 +4755,7 @@ Indium
 
 ex 8112 99
 
-BIJLAGE VI
+## BIJLAGE VI
 LIJST VAN GOEDERENLEVERINGEN EN DIENSTEN ALS BEDOELD IN PUNT D) VAN ARTIKEL 199, LID 1
 
 1)
@@ -4790,7 +4788,7 @@ Publicatieblad van de Europese Unie
 
 NL
 
-BIJLAGE VII
+## BIJLAGE VII
 LIJST VAN LANDBOUWPRODUCTIEWERKZAAMHEDEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 4)
 
 1)
@@ -4869,9 +4867,7 @@ L 347/74
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE VIII
-
-INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
+## BIJLAGE VIII — INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
 
 1)
 
@@ -4914,9 +4910,7 @@ snoeien van bomen, kappen van hout en andere diensten in de bosbouw.
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE IX
-
-KUNSTVOORWERPEN, VOORWERPEN VOOR VERZAMELINGEN EN ANTIQUITEITEN BEDOELD IN ARTIKEL 311, LID 1, PUNTEN 2), 3) EN 4)
+## BIJLAGE IX — KUNSTVOORWERPEN, VOORWERPEN VOOR VERZAMELINGEN EN ANTIQUITEITEN BEDOELD IN ARTIKEL 311, LID 1, PUNTEN 2), 3) EN 4)
 
 DEEL A
 Kunstvoorwerpen
@@ -4969,7 +4963,7 @@ L 347/76
 NL
 
 Publicatieblad van de Europese Unie
-BIJLAGE X
+## BIJLAGE X
 
 LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE ARTIKELEN 375 TOT EN MET 390 BEDOELDE AFWIJKINGEN GELDEN
 
@@ -5098,7 +5092,7 @@ Publicatieblad van de Europese Unie
 
 NL
 
-BIJLAGE XI
+## BIJLAGE XI
 
 DEEL A
 Ingetrokken richtlijnen met de achtereenvolgende wijzigingen ervan
@@ -5227,8 +5221,7 @@ Omzettingstermijn
 
 
 
-BIJLAGE XII
-CONCORDANTIETABEL
+## BIJLAGE XII — CONCORDANTIETABEL
 
 Richtlijn 67/227/EEG
 
@@ -5316,7 +5309,7 @@ L 347/81
 
 Publicatieblad van de Europese Unie
 
-## Art. 1
+### Art. 1
 
 NL
 
@@ -5358,7 +5351,7 @@ Artikel 12, lid 3
 
 Artikel 4, lid 4, eerste alinea
 
-## Art. 10
+### Art. 10
 
 Artikel 4, lid 4, tweede en derde alinea
 
@@ -5426,7 +5419,7 @@ Artikel 4, leden 1 en 2
 
 Publicatieblad van de Europese Unie
 
-## Art. 8
+### Art. 8
 
 NL
 
@@ -5444,15 +5437,15 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 27
+### Art. 27
 
 Artikel 6, lid 4
 
-## Art. 28
+### Art. 28
 
 Artikel 6, lid 5
 
-## Art. 29
+### Art. 29
 
 Artikel 7, lid 1, onder a) en b)
 
@@ -5460,7 +5453,7 @@ Artikel 30, eerste en tweede alinea
 
 Artikel 7, lid 2
 
-## Art. 60
+### Art. 60
 
 Artikel 7, lid 3, eerste en tweede alinea
 
@@ -5476,7 +5469,7 @@ Artikel 36, eerste en tweede alinea
 
 Artikel 8, lid 1, onder b)
 
-## Art. 31
+### Art. 31
 
 Artikel 8, lid 1, onder c), eerste alinea
 
@@ -5524,7 +5517,7 @@ Artikel 32, tweede alinea
 
 Artikel 9, lid 1
 
-## Art. 43
+### Art. 43
 
 Artikel 9, lid 2, inleidende zin
 
@@ -5532,7 +5525,7 @@ Artikel 9, lid 2, inleidende zin
 
 Artikel 9, lid 2, onder a)
 
-## Art. 45
+### Art. 45
 
 L 347/83
 
@@ -5617,7 +5610,7 @@ Artikel 62, onder 1) en 2)
 
 Artikel 10, lid 2, eerste alinea, eerste volzin
 
-## Art. 63
+### Art. 63
 
 Artikel 10, lid 2, eerste alinea, tweede en derde volzin
 
@@ -5625,7 +5618,7 @@ Artikel 64, leden 1 en 2
 
 Artikel 10, lid 2, tweede alinea
 
-## Art. 65
+### Art. 65
 
 Artikel 10, lid 2, derde alinea, eerste, tweede en derde streepje
 
@@ -5636,7 +5629,7 @@ Artikel 9, lid 2, onder c), eerste en tweede streepje
 
 Publicatieblad van de Europese Unie
 
-## Art. 46
+### Art. 46
 
 NL
 
@@ -5666,19 +5659,19 @@ Artikel 71, lid 2
 
 Artikel 11, A, lid 1, onder a)
 
-## Art. 73
+### Art. 73
 
 Artikel 11, A, lid 1, onder b)
 
-## Art. 74
+### Art. 74
 
 Artikel 11, A, lid 1, onder c)
 
-## Art. 75
+### Art. 75
 
 Artikel 11, A, lid 1, onder d)
 
-## Art. 77
+### Art. 77
 
 Artikel 11, A, lid 2, onder a)
 
@@ -5711,7 +5704,7 @@ Artikel 81, eerste en tweede alinea
 
 Artikel 11, A, lid 5
 
-## Art. 82
+### Art. 82
 
 Artikel 11, A, lid 6, eerste alinea, eerste en tweede volzin
 
@@ -5739,7 +5732,7 @@ Artikel 10, lid 3, eerste alinea, tweede volzin
 
 Publicatieblad van de Europese Unie
 
-## Art. 70
+### Art. 70
 
 NL
 
@@ -5756,7 +5749,7 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 85
+### Art. 85
 
 Artikel 11, B, lid 3, onder a)
 
@@ -5776,11 +5769,11 @@ Artikel 86, lid 1, onder b)
 
 Artikel 11, B, lid 4
 
-## Art. 87
+### Art. 87
 
 Artikel 11, B, lid 5
 
-## Art. 88
+### Art. 88
 
 Artikel 11, B, lid 6, eerste en tweede alinea
 
@@ -5820,7 +5813,7 @@ Artikel 95, eerste en tweede alinea
 
 Artikel 12, lid 3, onder a), eerste alinea, eerste volzin
 
-## Art. 96
+### Art. 96
 
 Artikel 12, lid 3, onder a), eerste alinea, tweede volzin
 
@@ -5885,7 +5878,7 @@ Artikel 100, eerste en tweede alinea
 
 Artikel 12, lid 4, derde alinea
 
-## Art. 101
+### Art. 101
 
 Artikel 12, lid 5
 
@@ -5893,11 +5886,11 @@ Artikel 94, lid 2
 
 Artikel 12, lid 6
 
-## Art. 105
+### Art. 105
 
 Artikel 13, A, lid 1, inleidende zin
 
-## Art. 131
+### Art. 131
 
 Artikel 13, A, lid 1, onder a) tot en met
 n)
@@ -5926,7 +5919,7 @@ Artikel 134, onder a) en b)
 
 Artikel 13, B, inleidende zin
 
-## Art. 131
+### Art. 131
 
 Artikel 13, B, onder a)
 
@@ -6000,7 +5993,7 @@ Artikel 137, lid 2, eerste en tweede alinea
 
 Artikel 14, lid 1, inleidende zin
 
-## Art. 131
+### Art. 131
 
 Artikel 14, lid 1, onder a)
 
@@ -6024,7 +6017,7 @@ Artikel 143, onder j)
 
 Artikel 14, lid 1, onder i)
 
-## Art. 144
+### Art. 144
 
 Artikel 14, lid 1, onder j)
 
@@ -6048,7 +6041,7 @@ Artikel 145, lid 3
 
 Artikel 15, inleidende zin
 
-## Art. 131
+### Art. 131
 
 
 Artikel 13, B, onder b), tweede alinea
@@ -6146,7 +6139,7 @@ Artikel 151, lid 2
 
 Artikel 15, onder 11)
 
-## Art. 152
+### Art. 152
 
 Artikel 15, onder 12), eerste volzin
 
@@ -6183,7 +6176,7 @@ Artikel 153, eerste en tweede alinea
 
 Artikel 15, onder 15)
 
-## Art. 149
+### Art. 149
 
 Artikel 16, lid 1
 
@@ -6195,11 +6188,11 @@ Artikel 164, lid 1
 
 Artikel 16, lid 3
 
-## Art. 166
+### Art. 166
 
 Artikel 17, lid 1
 
-## Art. 167
+### Art. 167
 
 Artikel 17, leden 2, 3 en 4
 
@@ -6215,7 +6208,7 @@ Artikel 173, lid 2, onder a) tot en met e)
 
 Artikel 17, lid 6
 
-## Art. 176
+### Art. 176
 
 Artikel 17, lid 7, eerste en tweede volzin
 
@@ -6231,7 +6224,7 @@ Artikel 179, eerste en tweede alinea
 
 Artikel 18, lid 3
 
-## Art. 180
+### Art. 180
 
 Artikel 18, lid 4, eerste en tweede alinea
 
@@ -6296,11 +6289,11 @@ Artikel 175, lid 3
 
 Artikel 20, lid 1, inleidende zin
 
-## Art. 186
+### Art. 186
 
 Artikel 20, lid 1, onder a)
 
-## Art. 184
+### Art. 184
 
 Artikel 20, lid 1, onder b), eerste deel van eerste volzin
 
@@ -6348,27 +6341,27 @@ Artikel 189, onder a) tot en met d)
 
 Artikel 20, lid 4, tweede alinea
 
-## Art. 190
+### Art. 190
 
 Artikel 20, lid 5
 
-## Art. 191
+### Art. 191
 
 Artikel 20, lid 6
 
-## Art. 192
+### Art. 192
 
-## Art. 21
+### Art. 21
 
 —
 
-## Art. 22
+### Art. 22
 
 —
 
 Artikel 22 bis
 
-## Art. 249
+### Art. 249
 
 L 347/91
 
@@ -6397,11 +6390,11 @@ Artikel 211, tweede alinea
 
 Artikel 24, lid 1
 
-## Art. 281
+### Art. 281
 
 Artikel 24, lid 2, inleidende zin
 
-## Art. 292
+### Art. 292
 
 Artikel 24, lid 2, onder a), eerste alinea
 
@@ -6417,11 +6410,11 @@ Artikel 285, eerste en tweede alinea
 
 Artikel 24, lid 2, onder c)
 
-## Art. 286
+### Art. 286
 
 Artikel 24, lid 3, eerste alinea
 
-## Art. 282
+### Art. 282
 
 Artikel 24, lid 3, tweede alinea, eerste volzin
 
@@ -6441,15 +6434,15 @@ Artikel 288, tweede alinea
 
 Artikel 24, lid 5
 
-## Art. 289
+### Art. 289
 
 Artikel 24, lid 6
 
-## Art. 290
+### Art. 290
 
 Artikel 24, lid 7
 
-## Art. 291
+### Art. 291
 
 Artikel 24, lid 8, onder a), b) en c)
 
@@ -6457,7 +6450,7 @@ Artikel 293, onder 1), 2) en 3)
 
 Artikel 24, lid 9
 
-## Art. 294
+### Art. 294
 
 Artikel 24 bis, eerste alinea, eerste tot en met twaalfde streepje
 
@@ -6481,7 +6474,7 @@ Artikel 23, tweede alinea
 Publicatieblad van de Europese Unie
 
 Artikel 211, eerste alinea
-## Art. 260
+### Art. 260
 
 NL
 
@@ -6499,7 +6492,7 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 299
+### Art. 299
 
 Artikel 25, lid 3, eerste alinea, vierde en vijfde volzin
 
@@ -6519,7 +6512,7 @@ Artikel 25, leden 5 en 6
 
 Artikel 25, lid 7
 
-## Art. 304
+### Art. 304
 
 Artikel 25, lid 8
 
@@ -6551,7 +6544,7 @@ Artikel 307, eerste en tweede alinea
 
 Artikel 26, lid 2, derde volzin
 
-## Art. 308
+### Art. 308
 
 Artikel 26, lid 3, eerste en tweede volzin
 
@@ -6559,7 +6552,7 @@ Artikel 309, eerste en tweede alinea
 
 Artikel 26, lid 4
 
-## Art. 310
+### Art. 310
 
 Artikel 26 bis, A, onder a), eerste alinea
 
@@ -6612,7 +6605,7 @@ Artikel 313, lid 1
 
 Artikel 26 bis, B, lid 2
 
-## Art. 314
+### Art. 314
 
 Artikel 26 bis, B, lid 2, eerste en tweede streepje
 
@@ -6624,7 +6617,7 @@ Artikel 315, eerste en tweede alinea
 
 Artikel 26 bis, B, lid 3, tweede alinea
 
-## Art. 312
+### Art. 312
 
 Artikel 26 bis, B, lid 3, tweede alinea, eerste en tweede streepje
 
@@ -6648,15 +6641,15 @@ Artikel 317, eerste en tweede alinea
 
 Artikel 26 bis, B, lid 5
 
-## Art. 321
+### Art. 321
 
 Artikel 26 bis, B, lid 6
 
-## Art. 323
+### Art. 323
 
 Artikel 26 bis, B, lid 7
 
-## Art. 322
+### Art. 322
 
 Artikel 26 bis, B, lid 7, onder a), b) en c)
 
@@ -6664,11 +6657,11 @@ Artikel 322, onder a), b) en c)
 
 Artikel 26 bis, B, lid 8
 
-## Art. 324
+### Art. 324
 
 Artikel 26 bis, B, lid 9
 
-## Art. 325
+### Art. 325
 
 Artikel 26 bis, B, lid 10, eerste en tweede alinea
 
@@ -6684,7 +6677,7 @@ Artikel 318, lid 3
 
 Artikel 26 bis, B, lid 11, eerste alinea
 
-## Art. 319
+### Art. 319
 
 Artikel 26 bis, B, lid 11, tweede alinea, onder a)
 
@@ -6718,7 +6711,7 @@ Artikel 320, lid 2
 Artikel 26 bis, C, lid 1, inleidende zin
 
 Artikel 333, lid 1
-## Art. 334
+### Art. 334
 
 Artikel 26 bis, C, lid 1, eerste tot en met vierde streepje
 
@@ -6730,7 +6723,7 @@ Artikel 336, onder a) en b)
 
 Artikel 26 bis, C, lid 3
 
-## Art. 337
+### Art. 337
 
 Artikel 26 bis, C, lid 4, eerste alinea, eerste, tweede en derde streepje
 
@@ -6758,7 +6751,7 @@ Artikel 338, tweede alinea
 
 Artikel 26 bis, C, lid 7
 
-## Art. 335
+### Art. 335
 
 Artikel 26 bis, D, inleidende zin
 
@@ -6775,7 +6768,7 @@ Artikel 4, onder a) en c)
 
 Artikel 26 bis, D, onder c)
 
-## Art. 35
+### Art. 35
 Artikel 139, lid 3, eerste alinea
 
 Artikel 26 ter, A, eerste alinea, onder i), eerste volzin
@@ -6813,19 +6806,19 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 345
+### Art. 345
 
 Artikel 26 ter, B, eerste alinea
 
-## Art. 346
+### Art. 346
 
 Artikel 26 ter, B, tweede alinea
 
-## Art. 347
+### Art. 347
 
 Artikel 26 ter, C, eerste alinea
 
-## Art. 348
+### Art. 348
 
 Artikel 26 ter, C, tweede alinea, eerste en tweede volzin
 
@@ -6833,11 +6826,11 @@ Artikel 349, leden 1 en 2
 
 Artikel 26 ter, C, derde alinea
 
-## Art. 350
+### Art. 350
 
 Artikel 26 ter, C, vierde alinea
 
-## Art. 351
+### Art. 351
 
 Artikel 26 ter, D, lid 1, onder a), b) en c)
 
@@ -6845,7 +6838,7 @@ Artikel 354, onder a), b) en c)
 
 Artikel 26 ter, D, lid 2
 
-## Art. 355
+### Art. 355
 
 Artikel 26 ter, E, eerste en tweede alinea
 
@@ -6865,7 +6858,7 @@ Artikelen 208 en 255
 
 Artikel 26 ter, G, lid 1, eerste alinea
 
-## Art. 352
+### Art. 352
 
 Artikel 26 ter, G, lid 1, tweede alinea
 
@@ -6873,7 +6866,7 @@ Artikel 26 ter, G, lid 1, tweede alinea
 
 Artikel 26 ter, G, lid 2, onder a)
 
-## Art. 353
+### Art. 353
 
 Artikel 26 ter, G, lid 2, onder b), eerste en tweede volzin
 
@@ -6886,11 +6879,11 @@ Artikel 358, onder 1) tot en met 5)
 
 Artikel 26 quater, B, lid 1
 
-## Art. 359
+### Art. 359
 
 Artikel 26 quater, B, lid 2, eerste alinea
 
-## Art. 360
+### Art. 360
 
 Artikel 26 quater, B, lid 2, tweede alinea, eerste deel van eerste volzin
 
@@ -6923,7 +6916,7 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 362
+### Art. 362
 
 Artikel 26 quater, B, lid 4, onder a) tot en met d)
 
@@ -6931,11 +6924,11 @@ Artikel 363, onder a) tot en met d)
 
 Artikel 26 quater, B, lid 5, eerste alinea
 
-## Art. 364
+### Art. 364
 
 Artikel 26 quater, B, lid 5, tweede alinea
 
-## Art. 365
+### Art. 365
 
 Artikel 26 quater, B, lid 6, eerste volzin
 
@@ -6959,7 +6952,7 @@ Artikel 367, tweede alinea
 
 Artikel 26 quater, B, lid 8
 
-## Art. 368
+### Art. 368
 
 Artikel 26 quater, B, lid 9, eerste volzin
 
@@ -6991,7 +6984,7 @@ Artikel 395, leden 3 en 4
 
 Artikel 27, lid 5
 
-## Art. 394
+### Art. 394
 
 Artikel 28, leden 1 en 1 bis
 
@@ -6999,7 +6992,7 @@ Artikel 28, leden 1 en 1 bis
 
 Artikel 28, lid 2, inleidende zin
 
-## Art. 109
+### Art. 109
 
 Artikel 28, lid 2, onder a), eerste alinea
 
@@ -7036,7 +7029,7 @@ Artikel 112, tweede alinea
 
 Artikel 28, lid 2, onder b)
 
-## Art. 113
+### Art. 113
 
 Artikel 28, lid 2, onder c), eerste en tweede volzin
 
@@ -7048,7 +7041,7 @@ Artikel 114, lid 2
 
 Artikel 28, lid 2, onder d)
 
-## Art. 115
+### Art. 115
 
 Artikel 28, lid 2, onder e), eerste en tweede alinea
 
@@ -7056,7 +7049,7 @@ Artikel 118, eerste en tweede alinea
 
 Artikel 28, lid 2, onder f)
 
-## Art. 120
+### Art. 120
 
 Artikel 28, lid 2, onder g)
 
@@ -7068,7 +7061,7 @@ Artikel 121, eerste en tweede alinea
 
 Artikel 28, lid 2, onder i)
 
-## Art. 122
+### Art. 122
 
 Artikel 28, lid 2, onder j)
 
@@ -7076,39 +7069,39 @@ Artikel 117, lid 2
 
 Artikel 28, lid 2, onder k)
 
-## Art. 116
+### Art. 116
 
 Artikel 28, lid 3, onder a)
 
-## Art. 370
+### Art. 370
 
 Artikel 28, lid 3, onder b)
 
-## Art. 371
+### Art. 371
 
 Artikel 28, lid 3, onder c)
 
-## Art. 391
+### Art. 391
 
 Artikel 28, lid 3, onder d)
 
-## Art. 372
+### Art. 372
 
 Artikel 28, lid 3, onder e)
 
-## Art. 373
+### Art. 373
 
 Artikel 28, lid 3, onder f)
 
-## Art. 392
+### Art. 392
 
 Artikel 28, lid 3, onder g)
 
-## Art. 374
+### Art. 374
 
 Artikel 28, lid 3 bis
 
-## Art. 376
+### Art. 376
 
 Artikel 28, leden 4 en 5
 
@@ -7292,19 +7285,19 @@ Artikel 17, lid 3
 
 Artikel 28 bis, lid 6, eerste alinea
 
-## Art. 21
+### Art. 21
 
 Artikel 28 bis, lid 6, tweede alinea
 
-## Art. 22
+### Art. 22
 
 Artikel 28 bis, lid 7
 
-## Art. 23
+### Art. 23
 
 Artikel 28 ter, A, lid 1
 
-## Art. 40
+### Art. 40
 
 Artikel 28 ter, A, lid 2, eerste en tweede alinea
 
@@ -7369,7 +7362,7 @@ Artikel 48, eerste alinea
 
 Artikel 28 ter, C, lid 1, eerste streepje, tweede alinea
 
-## Art. 49
+### Art. 49
 
 Artikel 28 ter, C, lid 1, tweede en derde streepje
 
@@ -7381,11 +7374,11 @@ Artikel 47, eerste en tweede alinea
 
 Artikel 28 ter, C, lid 4
 
-## Art. 51
+### Art. 51
 
 Artikel 28 ter, D
 
-## Art. 53
+### Art. 53
 
 Artikel 28 ter, E, lid 1, eerste en tweede alinea
 
@@ -7405,7 +7398,7 @@ Artikel 55, eerste en tweede alinea
 
 Artikel 28 quater, A, inleidende zin
 
-## Art. 131
+### Art. 131
 
 Artikel 28 quater, A, onder a), eerste alinea
 
@@ -7452,7 +7445,7 @@ Artikel 138, lid 2, onder c)
 
 Artikel 28 quater, B, inleidende zin
 
-## Art. 131
+### Art. 131
 
 Artikel 28 quater, B, onder a), b) en c)
 
@@ -7460,7 +7453,7 @@ Artikel 140, onder a), b) en c)
 
 Artikel 28 quater, C
 
-## Art. 142
+### Art. 142
 
 Artikel 28 quater, D, eerste alinea
 
@@ -7468,11 +7461,11 @@ Artikel 143, onder d)
 
 Artikel 28 quater, D, tweede alinea
 
-## Art. 131
+### Art. 131
 
 Artikel 28 quater, E, punt 1, eerste streepje, dat artikel 16, lid 1, vervangt lid 1, eerste alinea
 
-## Art. 155
+### Art. 155
 
 —
 
@@ -7502,13 +7495,13 @@ Artikel 157, lid 1, onder b)
 
 lid 1, eerste alinea, B, eerste alinea, onder e), tweede alinea, eerste streepje
 
-## Art. 154
+### Art. 154
 
 —
 
 lid 1, eerste alinea, B, eerste alinea, onder e), tweede alinea, tweede streepje, eerste volzin
 
-## Art. 154
+### Art. 154
 
 —
 
@@ -7559,7 +7552,7 @@ Artikel 156, lid 2
 
 lid 1, eerste alinea, C
 
-## Art. 159
+### Art. 159
 
 —
 
@@ -7583,13 +7576,13 @@ Artikel 161, onder a) en b)
 
 lid 1, tweede alinea
 
-## Art. 202
+### Art. 202
 
 —
 
 lid 1, derde alinea
 
-## Art. 163
+### Art. 163
 
 NL
 
@@ -7597,7 +7590,7 @@ NL
 
 lid 1 bis
 
-## Art. 162
+### Art. 162
 
 Artikel 28 quater, E, onder 2), eerste streepje, dat artikel 16, lid 2, wijzigt —
 
@@ -7622,7 +7615,7 @@ Artikel 164, lid 2
 
 lid 2, derde alinea
 
-## Art. 165
+### Art. 165
 Artikel 141, onder a) tot en met e)
 
 Artikel 28 quinquies, lid 1, eerste en tweede volzin
@@ -7649,7 +7642,7 @@ Artikel 67, leden 1 en 2
 
 Artikel 28 sexies, lid 1, eerste alinea
 
-## Art. 83
+### Art. 83
 
 Artikel 28 sexies, lid 1, tweede alinea, eerste en tweede volzin
 
@@ -7657,7 +7650,7 @@ Artikel 84, leden 1 en 2
 
 Artikel 28 sexies, lid 2
 
-## Art. 76
+### Art. 76
 
 Artikel 28 sexies, lid 3
 
@@ -7779,13 +7772,13 @@ Deze richtlijn
 
 Artikel 28 septies, onder 3), dat lid 3 bis in artikel 18 invoegt lid 3 bis, eerste deel van volzin
 
-## Art. 181
+### Art. 181
 
 —
 
 lid 3 bis, tweede deel van volzin
 
-## Art. 182
+### Art. 182
 
 NL
 
@@ -7796,7 +7789,7 @@ Richtlijn 67/227/EEG
 
 Artikel 28 octies, dat artikel 21 vervangt lid 1, onder a), eerste alinea
 
-## Art. 193
+### Art. 193
 
 —
 
@@ -7808,7 +7801,7 @@ Artikel 194, leden 1 en 2
 
 lid 1, onder b)
 
-## Art. 196
+### Art. 196
 
 —
 
@@ -7826,19 +7819,19 @@ Artikel 197, lid 2
 
 lid 1, onder d)
 
-## Art. 203
+### Art. 203
 
 —
 
 lid 1, onder e)
 
-## Art. 200
+### Art. 200
 
 —
 
 lid 1, onder f)
 
-## Art. 195
+### Art. 195
 
 —
 
@@ -7880,13 +7873,13 @@ Artikel 199, leden 2, 3 en 4
 
 lid 3
 
-## Art. 205
+### Art. 205
 
 —
 
 lid 4
 
-## Art. 201
+### Art. 201
 
 Publicatieblad van de Europese Unie
 
@@ -7936,13 +7929,13 @@ Artikel 215, eerste en tweede alinea
 
 lid 1, onder e)
 
-## Art. 216
+### Art. 216
 
 —
 
 lid 2, onder a)
 
-## Art. 242
+### Art. 242
 
 —
 
@@ -7984,25 +7977,25 @@ Artikel 221, lid 2
 
 lid 3, onder a), vijfde alinea, eerste volzin
 
-## Art. 219
+### Art. 219
 
 —
 
 lid 3, onder a), vijfde alinea, tweede volzin
 
-## Art. 228
+### Art. 228
 
 —
 
 lid 3, onder a), zesde alinea
 
-## Art. 222
+### Art. 222
 
 —
 
 lid 3, onder a), zevende alinea
 
-## Art. 223
+### Art. 223
 
 —
 
@@ -8026,7 +8019,7 @@ Artikel 224, lid 3, tweede alinea
 
 lid 3, onder a), tiende alinea
 
-## Art. 225
+### Art. 225
 
 
 Artikel 214, lid 1, onder a)
@@ -8067,31 +8060,31 @@ Artikel 226, onder 15)
 
 lid 3, onder b), tweede alinea
 
-## Art. 227
+### Art. 227
 
 —
 
 lid 3, onder b), derde alinea
 
-## Art. 229
+### Art. 229
 
 —
 
 lid 3, onder b), vierde alinea
 
-## Art. 230
+### Art. 230
 
 —
 
 lid 3, onder b), vijfde alinea
 
-## Art. 231
+### Art. 231
 
 —
 
 lid 3, onder c), eerste alinea
 
-## Art. 232
+### Art. 232
 
 —
 
@@ -8133,31 +8126,31 @@ Artikel 233, lid 1, tweede alinea
 
 lid 3, onder c), derde alinea, tweede volzin
 
-## Art. 237
+### Art. 237
 
 —
 
 lid 3, onder c), vierde alinea, eerste en tweede volzin
 
-## Art. 234
+### Art. 234
 
 —
 
 lid 3, onder c), vijfde alinea
 
-## Art. 235
+### Art. 235
 
 —
 
 lid 3, onder c), zesde alinea
 
-## Art. 236
+### Art. 236
 
 —
 
 lid 3, onder d), eerste alinea
 
-## Art. 244
+### Art. 244
 
 —
 
@@ -8204,7 +8197,7 @@ Artikel 247, leden 1, 2 en 3
 
 lid 3, onder d), zevende alinea
 
-## Art. 248
+### Art. 248
 
 —
 
@@ -8216,7 +8209,7 @@ Artikelen 217 en 241
 
 lid 3, onder e), tweede alinea
 
-## Art. 218
+### Art. 218
 
 —
 
@@ -8264,7 +8257,7 @@ Artikel 251, onder d) en e)
 
 lid 5
 
-## Art. 206
+### Art. 206
 
 —
 
@@ -8282,7 +8275,7 @@ Artikel 261, lid 2
 
 lid 6, onder b), eerste alinea
 
-## Art. 262
+### Art. 262
 
 —
 
@@ -8377,33 +8370,33 @@ Artikel 263, lid 1, tweede alinea
 
 lid 6, onder c), tweede streepje
 
-## Art. 266
+### Art. 266
 
 —
 
 lid 6, onder d)
 
-## Art. 254
+### Art. 254
 
 —
 
 lid 6, onder e), eerste alinea
 
-## Art. 268
+### Art. 268
 
 —
 
 lid 6, onder e), tweede alinea
 
-## Art. 259
+### Art. 259
 
 —
 
 lid 7, eerste deel van volzin
 
 Artikel 207, eerste alinea
-## Art. 256
-## Art. 267
+### Art. 256
+### Art. 267
 
 —
 
@@ -8470,7 +8463,7 @@ Artikel 272, lid 3
 
 lid 9, onder c)
 
-## Art. 212
+### Art. 212
 
 —
 
@@ -8494,7 +8487,7 @@ Artikel 238, lid 3
 
 lid 9, onder e), eerste alinea
 
-## Art. 239
+### Art. 239
 
 —
 
@@ -8518,7 +8511,7 @@ Artikelen 210 en 258
 
 lid 12, inleidende zin
 
-## Art. 269
+### Art. 269
 
 —
 
@@ -8566,7 +8559,7 @@ Artikel 300, onder 1), 2) en 3)
 
 lid 5, tweede alinea
 
-## Art. 302
+### Art. 302
 
 —
 
@@ -8618,7 +8611,7 @@ NL
 
 Richtlijn 67/227/EEG
 
-## Art. 305
+### Art. 305
 
 Artikel 28 duodecies, onder 1), tweede alinea, onder a)
 
@@ -8670,7 +8663,7 @@ Artikel 327, lid 2
 
 Artikel 28 sexdecies, lid 1, onder b)
 
-## Art. 328
+### Art. 328
 
 Artikel 28 sexdecies, lid 1, onder c), eerste, tweede en derde streepje
 
@@ -8696,7 +8689,7 @@ Andere besluiten
 
 Deze richtlijn
 
-## Art. 331
+### Art. 331
 
 Artikel 28 sexdecies, lid 1, onder g)
 
@@ -8704,7 +8697,7 @@ Artikel 4, onder b)
 
 Artikel 28 sexdecies, lid 1, onder h)
 
-## Art. 35
+### Art. 35
 Artikel 139, lid 3, tweede alinea
 
 Artikel 28 sexdecies, lid 2
@@ -8713,7 +8706,7 @@ Artikel 326, tweede alinea
 
 Artikel 28 sexdecies, lid 3
 
-## Art. 341
+### Art. 341
 
 Artikel 28 sexdecies, lid 4
 
@@ -8725,7 +8718,7 @@ Artikel 405, onder 1), 2) en 3)
 
 Artikel 28 septdecies, lid 2
 
-## Art. 406
+### Art. 406
 
 Artikel 28 septdecies, eerste alinea, eerste en tweede streepje
 
@@ -8745,7 +8738,7 @@ Artikel 408, lid 2, onder a) en b)
 
 Artikel 28 septdecies, lid 6
 
-## Art. 409
+### Art. 409
 
 Artikel 28 septdecies, lid 7, eerste alinea, onder a), b) en c)
 
@@ -8765,7 +8758,7 @@ Artikel 398, leden 1 tot en met 4
 
 Artikel 29 bis
 
-## Art. 397
+### Art. 397
 
 Artikel 30, lid 1
 
@@ -8784,7 +8777,7 @@ Artikel 28 sexdecies, lid 1, onder f)
 
 Publicatieblad van de Europese Unie
 
-## Art. 332
+### Art. 332
 
 NL
 
@@ -8806,11 +8799,11 @@ Deze richtlijn
 
 Artikel 31, lid 2
 
-## Art. 400
+### Art. 400
 
 Artikel 33, lid 1
 
-## Art. 401
+### Art. 401
 
 Artikel 33, lid 2
 
@@ -8818,47 +8811,47 @@ Artikel 2, lid 3
 
 Artikel 33 bis, lid 1, inleidende zin
 
-## Art. 274
+### Art. 274
 
 Artikel 33 bis, lid 1, onder a)
 
-## Art. 275
+### Art. 275
 
 Artikel 33 bis, lid 1, onder b)
 
-## Art. 276
+### Art. 276
 
 Artikel 33 bis, lid 1, onder c)
 
-## Art. 277
+### Art. 277
 
 Artikel 33 bis, lid 2, inleidende zin
 
-## Art. 278
+### Art. 278
 
 Artikel 33 bis, lid 2, onder a)
 
-## Art. 279
+### Art. 279
 
 Artikel 33 bis, lid 2, onder b)
 
-## Art. 280
+### Art. 280
 
-## Art. 34
+### Art. 34
 
-## Art. 404
+### Art. 404
 
-## Art. 35
+### Art. 35
 
-## Art. 403
+### Art. 403
 
 Artikelen 36 en 37
 
 —
 
-## Art. 38
+### Art. 38
 
-## Art. 414
+### Art. 414
 
 Bijlage A, onder I, onder 1) en 2)
 
@@ -8977,7 +8970,7 @@ Bijlage X, Deel B, onder 13)
 
 Bijlage G, leden 1 en 2
 
-## Art. 391
+### Art. 391
 
 Bijlage H, eerste alinea
 
@@ -9068,7 +9061,7 @@ Artikel 133, tweede alinea
 
 Artikel 2 van Richtlijn 94/5/EG
 
-## Art. 342
+### Art. 342
 
 Artikel 3, eerste en tweede volzin, van
 Richtlijn 94/5/EG
@@ -9079,7 +9072,7 @@ Artikel 4 van Richtlijn 2002/38/EG
 
 Artikel 56, lid 3
 Artikel 57, lid 2
-## Art. 357
+### Art. 357
 
 Artikel 5 van Richtlijn 2002/38/EG
 
@@ -9089,7 +9082,7 @@ Artikel 287, onder 1)
 Bijlage VIII, deel II, onder 2), b), van de
 Toetredingsakte van Griekenland
 
-## Art. 375
+### Art. 375
 
 Bijlage XXXII, deel IV, onder 3), a), eerste en tweede streepje, van de Toetredingsakte van Spanje en Portugal
 
@@ -9097,11 +9090,11 @@ Artikel 287, onder 2) en 3)
 
 Bijlage XXXII, deel IV, onder 3), b), eerste alinea, van de Toetredingsakte van Spanje en Portugal
 
-## Art. 377
+### Art. 377
 
 Bijlage XV, deel IX, onder 2), b), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
-## Art. 104
+### Art. 104
 
 L 347/115
 
@@ -9135,7 +9128,7 @@ Artikel 117, lid 1
 
 Bijlage XV, deel IX, onder 2), g), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
-## Art. 119
+### Art. 119
 
 Bijlage XV, deel IX, onder 2), h), eerste alinea, eerste en tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
@@ -9168,7 +9161,7 @@ Artikel 379, lid 2
 
 Bijlage XV, deel IX, onder 2), x), eerste streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
-## Art. 253
+### Art. 253
 
 Bijlage XV, deel IX, onder 2), x), tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
@@ -9196,7 +9189,7 @@ Artikel 111, onder b)
 
 Bijlage XV, deel IX, onder 2), aa), eerste alinea, eerste en tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
-## Art. 380
+### Art. 380
 
 Protocol nr. 2 van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
@@ -9207,22 +9200,22 @@ Toetredingsakte van Tsjechië, Estland,
 Cyprus, Letland, Litouwen, Hongarije,
 Malta, Polen, Slovenië en Slowakije
 
-## Art. 123
+### Art. 123
 
 Bijlage V, lid 5, onder 1), b), van de
 Toetredingsakte van 2003
 
-## Art. 381
+### Art. 381
 
 Bijlage VI, lid 7, onder 1), a), van de
 Toetredingsakte van 2003
 
-## Art. 124
+### Art. 124
 
 Bijlage VI, lid 7, onder 1), b), van de
 Toetredingsakte van 2003
 
-## Art. 382
+### Art. 382
 
 Bijlage VII, lid 7, onder 1), eerste en tweede alinea, van de Toetredingsakte van 2003
 
@@ -9260,7 +9253,7 @@ Artikel 384, onder b)
 Bijlage IX, lid 8, onder 1), van de
 Toetredingsakte van 2003
 
-## Art. 385
+### Art. 385
 
 NL
 
@@ -9283,12 +9276,12 @@ Deze richtlijn
 Bijlage X, lid 7, onder 1) c), van de
 Toetredingsakte van 2003
 
-## Art. 386
+### Art. 386
 
 Bijlage XI, lid 7, onder 1), van de
 Toetredingsakte van 2003
 
-## Art. 127
+### Art. 127
 
 Bijlage XI, lid 7, onder 2), a), van de
 Toetredingsakte van 2003
@@ -9318,7 +9311,7 @@ Artikel 128, leden 3, 4 en 5
 Bijlage XII, lid 9, onder 2), van de
 Toetredingsakte van 2003
 
-## Art. 388
+### Art. 388
 
 Bijlage XIII, lid 9, onder 1), a), van de
 Toetredingsakte van 2003
@@ -9328,7 +9321,7 @@ Artikel 129, leden 1 en 2
 Bijlage XIII, lid 9, onder 1), b), van de
 Toetredingsakte van 2003
 
-## Art. 389
+### Art. 389
 
 Bijlage XIV, lid 7, eerste alinea, van de
 Toetredingsakte van 2003
@@ -9343,7 +9336,7 @@ Toetredingsakte van 2003
 Bijlage XIV, lid 7, derde alinea, van de
 Toetredingsakte van 2003
 
-## Art. 390
+### Art. 390
 
 Publicatieblad van de Europese Unie
 

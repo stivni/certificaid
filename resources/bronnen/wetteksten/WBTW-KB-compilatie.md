@@ -2257,7 +2257,7 @@ Koninklijk besluit nr. 9, van 12 december 1970, met betrekking tot de ambtelijke
 KB09 pg. 1 Ambtelijke aanslag
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 9 – Bijw. 02 / 20.02.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen - KB nr. 9
 
     Bijwerking Te vervangen pagina’s
@@ -2268,8 +2268,7 @@ Lijst van de bijwerkingen - KB nr. 9
 
     * * * * *
 
-Bijlage B
-Recente wijzigingen – KB nr. 9
+## Bijlage B — Recente wijzigingen – KB nr. 9
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -2541,8 +2540,7 @@ Koninklijk besluit nr. 11, van 29 december 1992, met betrekking tot de toepassin
 KB11 pg. 1 Toepassing van de belasting
 FOD Financiën – dienst K.M. BTW KB nr. 11 – Bijw. 02 / 20.02.2015
 
-Bijlage A
-KB nr. 11 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 11 - Lijst van de bijwerkingen
 
     Bijwerking t.e.m. B.S. van Te vervangen pagina’s
 
@@ -2552,8 +2550,7 @@ Bijw. 02 / 20.02.2015 Volledige uitgave
 
     * * * * *
 
-Bijlage B
-KB nr. 11 - Recente wijzigingen
+## Bijlage B — KB nr. 11 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -2599,7 +2596,7 @@ Koninklijk besluit nr. 13 van 29 december 1992 met betrekking tot de regeling vo
 KB13 pg. 1 Tabaksfabricaten
 FOD Financiën – dienst K.M. BTW KB nr. 13 – Bijw. 02 / 08.05.2013
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 13
 
     Bijwerking Te vervangen pagina’s
@@ -2611,8 +2608,7 @@ Bijw. 02 / 08.05.2013 - Volledige uitgave
 KB13 pg. Bijl.A/1 Lijst van de bijwerkingen
 FOD Financiën – dienst K.M. BTW KB nr. 13 – Bijw. 02 / 08.05.2013
 
-Bijlage B
-Recente wijzigingen – KB nr. 13
+## Bijlage B — Recente wijzigingen – KB nr. 13
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -2683,7 +2679,7 @@ FOD Financiën – ESS BTW KB nr. 14 – Bijw. 03 / 27.05.2019
 Onroerende zakelijke rechten www.fisconetplus.be pg. 2
 FOD Financiën – ESS BTW KB nr. 14 – Bijw. 03 / 27.05.2019
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 14
 
     Bijwerking Te vervangen pagina’s
@@ -2694,8 +2690,7 @@ Bijw. 02 / 08.05.2013 - Volledige uitgave
 
 Bijw. 03 / 27.05.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen – KB nr. 14
+## Bijlage B — Recente wijzigingen – KB nr. 14
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -2903,8 +2898,7 @@ FOD Financiën – BEO BTW KB nr. 15 – Bijw. 03 / 08.04.2019
 Deskundige schatting www.fisconetplus.be pg. 6
 FOD Financiën – BEO BTW KB nr. 15 – Bijw. 03 / 08.04.2019
 
-Bijlage A
-KB nr. 15 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 15 - Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
 
@@ -2916,8 +2910,7 @@ Bijw. 02 / 20.02.2015 - pg. 1 en 2 - Bijw. 02 - pg. 1 en 2
 
 Bijw. 03 / 08.04.2019 Volledige uitgave
 
-Bijlage B
-KB nr. 15 - Recente wijzigingen
+## Bijlage B — KB nr. 15 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -3426,7 +3419,7 @@ FOD Financiën - BEO BTW KB nr.19(2014) – Bijw. 04/12.07.2019
 Regeling kleine ondernemingen www.fisconetplus.be pg.5
 FOD Financiën - BEO BTW KB nr.19(2014) – Bijw. 04/12.07.2019
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 19 (2014)
 
     Bijwerking Te vervangen pagina’s
@@ -3441,8 +3434,7 @@ Bijw. 03 / 28.12.2015 - pg. 1 - Bijw. 03 - pg. 1
 
 Bijw. 04 / 12.07.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -4452,7 +4444,7 @@ FOD Financiën - BEO BTW KB nr. 20 – Bijw. 16 / 26.06.2019
 Overzicht verlaagde tarieven www.fisconetplus.be KB20 pg. VI/1
 FOD Financiën - BEO BTW KB nr. 20 – Bijw. 16 / 26.06.2019
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen
 
     Bijwerking Vervangen pagina’s
@@ -4547,8 +4539,7 @@ Bijw. 17 / 13.09.2019 - pg. I/1 t.e.m. I/4 - Bijw. 17 - pg. I/1 t.e.m. I/4 - pg.
 Lijst van de bijwerkingen www.fisconetplus.be KB20 pg. Bijl.A/2
 FOD Financiën - BEO BTW KB nr. 20 – Bijw. 17 / 13.09.2019
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -4849,7 +4840,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB nr. 22 – Bijw. 01 / 01.01.2012
 KB22 pg. 6 Bijzondere landbouwregeling
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 22 – Bijw. 04 / 28.12.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 22
 
     Bijwerking Te vervangen pagina’s
@@ -4872,8 +4863,7 @@ Bijw. 04 / 28.12.2015 - pg. 1 t.e.m. 3 - Bijw. 04 - pg. 1 t.e.m. 3
 KB22 pg. Bijl./1 Lijst van de bijwerkingen
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 22 – Bijw. 04 / 28.12.2015
 
-Bijlage B
-Recente wijzigingen – KB nr. 22
+## Bijlage B — Recente wijzigingen – KB nr. 22
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -4992,7 +4982,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB nr. 23 – Bijw. 01 / 01.01.2012
 KB23 pg. 5 Bijlage
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 23 – Bijw. 04 / 20.02.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 23
 
     Bijwerking Te vervangen pagina’s
@@ -5014,8 +5004,7 @@ Bijw. 04 / 20.02.2015 - pg. 1 en 2 - Bijw. 04 - pg. 1 en 2
 KB23 pg. Bijl.A/1 Lijst van de bijwerkingen
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 23 – Bijw. 04 / 20.02.2015
 
-Bijlage B
-Recente wijzigingen – KB nr. 23
+## Bijlage B — Recente wijzigingen – KB nr. 23
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -5358,8 +5347,7 @@ Onze Minister van Financiën is belast met de uitvoering van dit besluit.
     - 10 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 24 - bijw. nr. 8 / 16.12.2019
 
-Bijlage A
-Recente wijzigingen – KB nr. 24
+## Bijlage A — Recente wijzigingen – KB nr. 24
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
 * KB 09.12.2019 - Koninklijk besluit tot wijziging of opheffing van diverse uitvoeringsbesluiten als gevolg van de invoering van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen (B.S. 16.12.2019 – Ed. 2, pg. 113850)
@@ -5555,8 +5543,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB nr. 27 – Bijw. 02 / 20.02.2015
 KB27 pg. 4 Vlees van slachtdieren
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 27 – Bijw. 02 / 20.02.2015
 
-Bijlage A
-KB nr. 27 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 27 - Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
 
@@ -5566,8 +5553,7 @@ Bijw. 02 / 20.02.2015 - Volledige uitgave
 
     * * * * *
 
-Bijlage B
-KB nr. 27 - Recente wijzigingen
+## Bijlage B — KB nr. 27 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -6624,7 +6610,7 @@ Vermelding op de bij uitvoer of tot staving ervan overgelegde 10 pct. van de ove
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 18
 FOD Financiën - BEO BTW KB nr. 41 – Bijw. 04 / 08.04.2019
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
@@ -6639,8 +6625,7 @@ Lijst van de bijwerkingen
 
  Bijw. 04 / 08.04.2019 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -7268,7 +7253,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB nr. 48 – Bijw. 02 / 08.05.2013
 KB48 pg. 3 Vervoermiddelen – art. 39bis
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 48 – Bijw. 03 / 20.02.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 48
 
     Bijwerking Te vervangen pagina’s
@@ -7284,8 +7269,7 @@ Bijw. 03 / 20.02.2015 - pg. 1 - Bijw. 03 - pg. 1
 KB48 pg. Bijl.A/1 Lijst van de bijwerkingen
 FOD Financiën (BEO) – Fisconetplus BTW KB nr. 48 – Bijw. 03 / 20.02.2015
 
-Bijlage B
-Recente wijzigingen – KB nr. 48
+## Bijlage B — Recente wijzigingen – KB nr. 48
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -7802,7 +7786,7 @@ FOD Financiën – dienst K.M. BTW KB nr. 53 – Bijw. 02 / 08.05.2013
 KB53 pg. 3 Winstmarge voor tweedehandse goederen
 FOD Financiën – dienst K.M. BTW KB nr. 53 – Bijw. 02 / 08.05.2013
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB nr. 53
 
     Bijwerking Te vervangen pagina’s
@@ -7814,8 +7798,7 @@ Bijw. 02 / 08.05.2013 - Volledige uitgave
 KB53 pg. Bijl.A/1 Lijst van de bijwerkingen
 FOD Financiën – dienst K.M. BTW KB nr. 53 – Bijw. 02 / 08.05.2013
 
-Bijlage B
-Recente wijzigingen – KB nr. 53
+## Bijlage B — Recente wijzigingen – KB nr. 53
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -8792,7 +8775,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB 07.06.2007 – Bijw. 02 / 20.02.201
 KB 07.06.2007 pg. 2 Onbeperkt uitstel van de invordering
 FOD Financiën (BEO) – Fisconetplus BTW KB 07.06.2007 – Bijw. 02 / 20.02.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB dd. 07.06.2007
 
     Bijwerking Te vervangen pagina’s
@@ -8803,8 +8786,7 @@ Bijw. 02 / 20.02.2015 - Volledige uitgave
 
     * * * * *
 
-Bijlage B
-Recente wijzigingen – KB dd. 07.06.2007
+## Bijlage B — Recente wijzigingen – KB dd. 07.06.2007
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
@@ -8870,7 +8852,7 @@ FOD Financiën (BEO) – Fisconetplus BTW KB 30.12.2009 – Bijw. 03 / 17.02.201
 KB 30.12.2009 pg. 2 Geregistreerd kassasysteem
 FOD Financiën (BEO) – Fisconetplus BTW KB 30.12.2009 – Bijw. 03 / 17.02.2015
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen – KB dd. 30.12.2009
 
     Bijwerking Te vervangen pagina’s
@@ -8884,8 +8866,7 @@ Bijw. 03 / 17.02.2015 - Volledige uitgave
 KB 30.12.2009 pg. Bijl.A/1 Lijst van de bijwerkingen
 FOD Financiën (BEO) – Fisconetplus BTW KB 30.12.2009 – Bijw. 03 / 17.02.2015
 
-Bijlage B
-Recente wijzigingen – KB dd. 30.12.2009
+## Bijlage B — Recente wijzigingen – KB dd. 30.12.2009
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

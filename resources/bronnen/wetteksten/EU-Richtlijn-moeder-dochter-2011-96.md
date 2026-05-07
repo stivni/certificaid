@@ -230,7 +230,7 @@ L 345/12
 
 Publicatieblad van de Europese Unie
 
-BIJLAGE I
+## BIJLAGE I
 DEEL A
 Lijst van de in artikel 2, onder a), punt i), bedoelde vennootschappen
 a) De vennootschappen opgericht overeenkomstig Verordening (EG) nr. 2157/2001 van de Raad van 8 oktober 2001 betreffende het statuut van de Europese vennootschap (SE) (1), Richtlijn 2001/86/EG van de Raad van 8 oktober 2001 tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers (2) en de coöperatieve vennootschappen opgericht overeenkomstig Verordening (EG) nr. 1435/2003 van de Raad van 22 juli 2003 betreffende het statuut voor een Europese Coöperatieve Vennootschap (SCE) (3) en Richtlijn 2003/72/EG van de Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot de rol van de werknemers (4).
@@ -325,7 +325,7 @@ Publicatieblad van de Europese Unie
 
 L 345/15
 
-BIJLAGE II
+## BIJLAGE II
 DEEL A
 Ingetrokken richtlijn met overzicht van de achtereenvolgende wijzigingen ervan (bedoeld in artikel 9) Richtlijn 90/435/EEG van de Raad (PB L 225 van 20.8.1990, blz. 6) Punt XI.B.I.3 van bijlage I bij de Toetredingsakte van 1994 (PB C 241 van 29.8.1994, blz. 196) Richtlijn 2003/123/EG van de Raad (PB L 7 van 13.1.2004, blz. 41) Punt 9.8 van bijlage II bij de Toetredingsakte van 2003 (PB L 236 van 23.9.2003, blz. 555) Richtlijn 2006/98/EG van de Raad (PB L 363 van 20.12.2006, blz. 129)
 
@@ -357,8 +357,7 @@ L 345/16
 Publicatieblad van de Europese Unie
 
 
-BIJLAGE III
-Concordantietabel
+## BIJLAGE III — Concordantietabel
 Richtlijn 90/435/EEG
 
 Deze richtlijn
@@ -465,19 +464,19 @@ Artikel 8, lid 1
 
 Artikel 8, lid 2
 
-## Art. 8
+### Art. 8
 
 —
 
-## Art. 9
+### Art. 9
 
 —
 
-## Art. 10
+### Art. 10
 
-## Art. 9
+### Art. 9
 
-## Art. 11
+### Art. 11
 
 Bijlage
 

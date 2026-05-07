@@ -511,7 +511,7 @@ GEDAAN te Straatsburg, op 25 januari 1988, in de Engelse en de Franse taal, zijn
 
 BIJLAGEN
 
-Bijlage A. Belastingen waarop de Overeenkomst van toepassing is :
+## Bijlage A — Belastingen waarop de Overeenkomst van toepassing is 
 
  BELGIE
  I.- Artikel 2, § 1, (a), (i) : de personenbelasting, de vennootschapsbelasting, de rechtspersonenbelasting, de belasting van niet-inwoners, roerende voorheffing, bedrijfsvoorheffing, Opcentiemen op de belasting van niet-inwoners.
@@ -546,7 +546,7 @@ Bijlage A. Belastingen waarop de Overeenkomst van toepassing is :
  België behoudt zich het recht voor geen bijstand te verlenen met betrekking tot belastingvorderingen : - die reeds bestaan op de dag dat de Overeenkomst voor België in werking treedt;
  - die het voorwerp uitmaken van een voorbehoud wegens België op basis van artikel 30,§1, (a), van de Overeenkomst en zouden bestaan op de dag dat België een dergelijk voorbehoud intrekt.
 
-Bijlage B. Bevoegde autoriteiten
+## Bijlage B — Bevoegde autoriteiten
 
  BELGIE
  De Minister van Financiën of zijn bevoegde vertegenwoordiger

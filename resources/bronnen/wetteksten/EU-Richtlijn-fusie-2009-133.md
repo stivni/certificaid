@@ -346,7 +346,7 @@ NL
 
 Publicatieblad van de Europese Unie
 
-BIJLAGE I
+## BIJLAGE I
 DEEL A
 LIJST VAN DE IN ARTIKEL 3, ONDER a), BEDOELDE VENNOOTSCHAPPEN
 a) De vennootschappen (SE) opgericht overeenkomstig Verordening (EG) nr. 2157/2001 en Richtlijn 2001/86/EG van de Raad van 8 oktober 2001 tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers (1), alsmede de coöperatieve vennootschappen (SCE) opgericht overeenkomstig Verordening (EG) nr. 1435/2003 en Richtlijn 2003/72/EG van de Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot de rol van de werknemers (2).
@@ -459,7 +459,7 @@ NL
 Publicatieblad van de Europese Unie
 
 
-BIJLAGE II
+## BIJLAGE II
 DEEL A
 Ingetrokken richtlijn met overzicht van de achtereenvolgende wijzigingen ervan (bedoeld in artikel 17) Richtlijn 90/434/EEG van de Raad (PB L 225 van 20.8.1990, blz. 1) Punt XI.B.I.2 van bijlage I bij de Toetredingsakte van (PB C 241 van 29.8.1994, blz. 196) Punt 9.7 van bijlage II bij de Toetredingsakte van (PB L 236 van 23.9.2003, blz. 559) Richtlijn 2005/19/EG van de Raad (PB L 58 van 4.3.2005, blz. 19) Richtlijn 2006/98/EG van de Raad (PB L 363 van 20.12.2006, blz. 129)
 
@@ -502,15 +502,14 @@ NL
 
 Publicatieblad van de Europese Unie
 
-BIJLAGE III
-Concordantietabel
+## BIJLAGE III — Concordantietabel
 Richtlijn 90/434/EEG
 
 De onderhavige richtlijn
 
-## Art. 1
+### Art. 1
 
-## Art. 1
+### Art. 1
 
 Artikel 2, onder a) eerste streepje
 
@@ -626,23 +625,23 @@ Artikelen 8, 9 en 10
 
 Artikel 10 bis
 
-## Art. 11
+### Art. 11
 
 Artikel 10 ter
 
-## Art. 12
+### Art. 12
 
 Artikel 10 quater
 
-## Art. 13
+### Art. 13
 
 Artikel 10 quinquies
 
-## Art. 14
+### Art. 14
 
-## Art. 11
+### Art. 11
 
-## Art. 15
+### Art. 15
 
 Artikel 12, lid 1
 
@@ -666,19 +665,19 @@ Artikel 12, lid 2
 
 Artikel 12, lid 3
 
-## Art. 16
+### Art. 16
 
 —
 
-## Art. 17
+### Art. 17
 
 —
 
-## Art. 18
+### Art. 18
 
-## Art. 13
+### Art. 13
 
-## Art. 19
+### Art. 19
 
 Bijlage
 

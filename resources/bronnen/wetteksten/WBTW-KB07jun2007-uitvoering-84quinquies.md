@@ -92,9 +92,7 @@ van Financiën.
 
 KB 07.06.2007 pg. 2 Onbeperkt uitstel van de invordering
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 01.01.2012 - Volledige uitgave
 
@@ -102,8 +100,7 @@ Bijw. 02 / 20.02.2015 - Volledige uitgave
 
     * * * * *
 
-Bijlage B
-Recente wijzigingen – KB dd. 07.06.2007
+## Bijlage B — Recente wijzigingen – KB dd. 07.06.2007
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

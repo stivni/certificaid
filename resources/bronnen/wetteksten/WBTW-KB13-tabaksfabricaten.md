@@ -59,16 +59,13 @@ tabaksfabrikaten op het stuk van de belasting over toegevoegde waarde.
 
     Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage A
-
-    Bijwerking Te vervangen pagina’s
+## Bijlage A — Bijwerking Te vervangen pagina’s
 
 Bijw. 01 / 01.01.2012 - Volledige uitgave
 
 Bijw. 02 / 08.05.2013 - Volledige uitgave
 
-Bijlage B
-Recente wijzigingen – KB nr. 13
+## Bijlage B — Recente wijzigingen – KB nr. 13
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

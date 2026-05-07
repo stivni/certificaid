@@ -313,8 +313,7 @@ Wetboek van de belasting over de toegevoegde waarde.
 
 Deskundige schatting www.fisconetplus.be pg. 6
 
-Bijlage A
-KB nr. 15 - Lijst van de bijwerkingen
+## Bijlage A — KB nr. 15 - Lijst van de bijwerkingen
 
     Bijwerking Te vervangen pagina’s
 
@@ -326,8 +325,7 @@ Bijw. 02 / 20.02.2015 - pg. 1 en 2 - Bijw. 02 - pg. 1 en 2
 
 Bijw. 03 / 08.04.2019 Volledige uitgave
 
-Bijlage B
-KB nr. 15 - Recente wijzigingen
+## Bijlage B — KB nr. 15 - Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 

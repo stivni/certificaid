@@ -1819,7 +1819,7 @@ T. C - Goederen en diensten 0 pct. www.fisconetplus.be KB20 pg. V/2
 
 Overzicht verlaagde tarieven www.fisconetplus.be KB20 pg. VI/1
 
-Bijlage A
+## Bijlage A
 Lijst van de bijwerkingen
 
     Bijwerking Vervangen pagina’s
@@ -1912,8 +1912,7 @@ Bijw. 17 / 13.09.2019 - pg. I/1 t.e.m. I/4 - Bijw. 17 - pg. I/1 t.e.m. I/4
     - pg. Bijl.A/2 - Bijw. 17 - pg. Bijl.A/2
     - pg. Bijl.B/1 t.e.m. Bijl.B/3 - Bijw. 17 - pg. Bijl.B/1 t.e.m. Bijl.B/4
 
-Bijlage B
-Recente wijzigingen
+## Bijlage B — Recente wijzigingen
 
 De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 
