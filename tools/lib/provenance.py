@@ -5,11 +5,15 @@ Workflow that consumes this (stale-cascade, regressie-gates): docs/adr/ADR-003-r
 
 YAML writes use ruamel.yaml round-trip mode so existing frontmatter formatting
 (key order, quote style, list flow vs. block) is preserved.
+
+JSON writes (concept-records) use string-append for initial inserts to preserve
+existing formatting; replacements fall back to json.dumps reformat.
 """
 from __future__ import annotations
 
 import hashlib
 import io
+import json
 import re
 import subprocess
 from dataclasses import asdict, dataclass
@@ -19,7 +23,8 @@ from typing import Optional
 
 from ruamel.yaml import YAML
 
-PROVENANCE_KEY = "provenance"
+PROVENANCE_KEY_MD = "provenance"        # YAML frontmatter key (.md)
+PROVENANCE_KEY_JSON = "_provenance"     # top-level JSON field (.json)
 
 _FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 
@@ -144,22 +149,34 @@ def make_provenance(
     )
 
 
-def read_provenance(md_path: Path) -> Optional[Provenance]:
-    """Read provenance block from markdown YAML frontmatter, or None if absent."""
+def read_provenance(path: Path) -> Optional[Provenance]:
+    """Read provenance block from .md (frontmatter) or .json (top-level field)."""
+    if path.suffix == ".json":
+        return _read_provenance_json(path)
+    return _read_provenance_md(path)
+
+
+def write_provenance(path: Path, prov: Provenance) -> None:
+    """Add or replace the provenance block. Dispatches on file suffix."""
+    if path.suffix == ".json":
+        _write_provenance_json(path, prov)
+    else:
+        _write_provenance_md(path, prov)
+
+
+def _read_provenance_md(md_path: Path) -> Optional[Provenance]:
     text = md_path.read_text(encoding="utf-8")
     m = _FRONTMATTER_RE.match(text)
     if not m:
         return None
     data = _yaml().load(m.group(1)) or {}
-    block = data.get(PROVENANCE_KEY)
+    block = data.get(PROVENANCE_KEY_MD)
     if block is None:
         return None
-    # ruamel returns CommentedMap/Seq; convert to plain for dataclass construction
     return Provenance.from_dict(_to_plain(block))
 
 
-def write_provenance(md_path: Path, prov: Provenance) -> None:
-    """Add or replace the provenance block, preserving existing YAML formatting."""
+def _write_provenance_md(md_path: Path, prov: Provenance) -> None:
     text = md_path.read_text(encoding="utf-8")
     m = _FRONTMATTER_RE.match(text)
     yaml = _yaml()
@@ -169,10 +186,50 @@ def write_provenance(md_path: Path, prov: Provenance) -> None:
     else:
         data = {}
         body = text
-    data[PROVENANCE_KEY] = prov.to_dict()
+    data[PROVENANCE_KEY_MD] = prov.to_dict()
     buf = io.StringIO()
     yaml.dump(data, buf)
     md_path.write_text(f"---\n{buf.getvalue()}---\n{body}", encoding="utf-8")
+
+
+def _read_provenance_json(json_path: Path) -> Optional[Provenance]:
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    block = data.get(PROVENANCE_KEY_JSON)
+    if block is None:
+        return None
+    return Provenance.from_dict(block)
+
+
+def _write_provenance_json(json_path: Path, prov: Provenance) -> None:
+    """Insert or replace _provenance in a JSON file.
+
+    Initial insert uses string-append to preserve existing formatting (mixed
+    inline/indented objects). Replacement of an existing block falls back to
+    a full json.dumps reformat (rare path; acceptable).
+    """
+    text = json_path.read_text(encoding="utf-8")
+    data = json.loads(text)
+    has_existing = PROVENANCE_KEY_JSON in data
+
+    if has_existing:
+        data[PROVENANCE_KEY_JSON] = prov.to_dict()
+        json_path.write_text(
+            json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
+        return
+
+    # Initial insert — preserve existing formatting via string append.
+    prov_block = json.dumps(prov.to_dict(), indent=2, ensure_ascii=False)
+    # Indent each subsequent line by 2 to nest under the parent object.
+    indented_block = prov_block.replace("\n", "\n  ")
+
+    stripped = text.rstrip()
+    if not stripped.endswith("}"):
+        raise ValueError(f"{json_path}: top-level JSON does not end with '}}'")
+    body = stripped[:-1].rstrip()
+    sep = "" if body.endswith(",") or body.endswith("{") else ","
+    new_text = f'{body}{sep}\n  "{PROVENANCE_KEY_JSON}": {indented_block}\n}}\n'
+    json_path.write_text(new_text, encoding="utf-8")
 
 
 def _to_plain(obj):

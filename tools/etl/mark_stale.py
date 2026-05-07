@@ -34,6 +34,13 @@ def check_one(md_path: Path, *, dry_run: bool = False) -> tuple[str, str]:
     if prov is None:
         return "no-provenance", ""
 
+    if not prov.inputs:
+        # No inputs declared — nothing to compare. Leave state untouched.
+        # Typical case: 'pre-Fase-0' stale-markers on concept-records (ADR-008).
+        return ("stale-already" if prov.stale else "no-inputs-declared"), (
+            prov.stale_reason or "no inputs in provenance"
+        )
+
     current_inputs: list[Input] = []
     for recorded in prov.inputs:
         if recorded.sha256 is None:
@@ -78,7 +85,9 @@ def main():
     for p in args.paths:
         path = Path(p)
         if path.is_dir():
-            targets.extend(sorted(path.rglob("*.md")))
+            md = sorted(path.rglob("*.md"))
+            jsn = sorted(path.rglob("*.json"))
+            targets.extend(md + jsn)
         elif path.is_file():
             targets.append(path)
         else:
