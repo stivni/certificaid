@@ -5,6 +5,19 @@ themas:
   - houden van boeken
   - inschrijven in boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 4/2 — de inschrijvingin de boeken begrip Aan de Commissie worden geregeld vragen gesteld over de wetsvoorschriften inzake het houden van de boeken. 

@@ -10,6 +10,19 @@ themas:
   - ophaling van afvalstoffen
   - publicatie
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies C104/1 — openbaarmaking van een geconsolideerde jaarrekening op vrijwillige basis of op basis van Het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen bevat een aantal uitzonderingen op het beginsel dat elke onderneming opgericht naar Belgisch recht die een moederonderneming is, de verplichting heeft een geconsolideerde jaarrekening op te stellen, te laten controleren, voor te leggen aan de algemene vergadering der vennoten en openbaar te maken door neerlegging bij de Nationale Bank van België, in overeenstemming met de bepalingen van dit besluit. 

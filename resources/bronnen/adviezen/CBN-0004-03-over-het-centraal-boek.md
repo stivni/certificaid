@@ -4,6 +4,19 @@ datum: 1981-04-01
 themas:
   - boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 4/3 — over het centraal boek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  de  wet  van  1  juli  1983  (B.S.  8  juli  1983)  en  het  koninklijk  besluit  van  25  januari  2005  (B.S.  7  februari  2005)**

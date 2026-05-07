@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
-    sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
+      sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:28:50Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

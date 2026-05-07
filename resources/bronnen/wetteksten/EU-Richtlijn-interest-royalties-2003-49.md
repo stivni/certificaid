@@ -7,15 +7,15 @@ bijgewerkt: "26.06.2003"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
-    sha256: c84f67e63325e8fac7258bd751f5feef71fef11e23d6c5c0885349e65b5faf58
-    version: 26.06.2003
+    - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
+      sha256: c84f67e63325e8fac7258bd751f5feef71fef11e23d6c5c0885349e65b5faf58
+      version: 26.06.2003
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

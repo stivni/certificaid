@@ -12,6 +12,19 @@ themas:
   - schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
   - schuldvergelijking
 bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/6 — verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die De vraag werd gesteld of een onderneming haar wederzijdse vorderingen en schulden met eenzelfde tegenpartij, in verschillende munten die op 1 januari 1999 niet-decimale onderverdelingen van de euro worden, op die datum in haar boekhouding en jaarrekening mag - of moet - verrekenen ten belope van het kleinste van beide betrokken bedragen. 

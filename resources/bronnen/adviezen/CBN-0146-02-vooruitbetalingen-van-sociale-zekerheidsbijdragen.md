@@ -7,6 +7,19 @@ themas:
   - Vooruitbetaling
   - vooruitbetaling van sociale zekerheidsbijdragen
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 146/2 — vooruitbetalingen van sociale zekerheidsbijdragen Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening1

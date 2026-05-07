@@ -9,6 +9,19 @@ themas:
   - waarborg
   - waarborgovereenkomst
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 148/3 — toerekenen van kosten als gevolg van een waarborgovereenkomst Een onderneming biedt aan de afnemers van haar producten de mogelijkheid "waarborgovereenkomsten" of te sluiten ter aanvulling van - of onafhankelijk van - de verkoopovereenkomst. Hierbij verbindt de onderneming zich ertoe, mits een onmiddellijk te betalen prijs, de goede werking van het product of van het apparaat gedurende een aantal jaren te waarborgen, en al of een deel van de herstellingskosten te dragen. 

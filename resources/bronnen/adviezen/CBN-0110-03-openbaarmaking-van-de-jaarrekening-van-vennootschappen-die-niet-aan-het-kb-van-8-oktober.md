@@ -6,6 +6,19 @@ themas:
   - publicatie
   - toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 110/3 — openbaarmaking van de jaarrekening van vennootschappen die niet aan het kb van 8 oktober Teneinde de ondernemingen in hun verplichtingen tegemoet te komen, heeft de Balanscentrale van de Nationale Bank van België een technische toelichting opgesteld in verband met de modaliteiten tot neerlegging van de jaarrekeningen. 

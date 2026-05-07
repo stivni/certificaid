@@ -12,6 +12,19 @@ themas:
   - vordering
   - vordering wegens levering van goederen en diensten
 bron: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 137/8 — vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op Aan de Commissie werd de vraag gesteld of artikel 3:45, § 2, lid 1, c) van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die echter bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. 

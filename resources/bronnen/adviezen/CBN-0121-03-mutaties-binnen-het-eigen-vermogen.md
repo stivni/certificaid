@@ -28,6 +28,19 @@ themas:
   - uitkering aan derden
   - uitkering aan vennoten
 bron: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 121/3 — mutaties binnen het eigen vermogen Uit de bevindingen van de Balanscentrale, meer bepaald met betrekking tot de resultaatverwerking onderaan de resultatenrekening, blijkt dat bepaalde mutaties binnen het eigen vermogen op verschillende manieren in de jaarrekening worden verwerkt. Het dient onderstreept te worden dat die verschillen ook voorkomen in de doctrine. 

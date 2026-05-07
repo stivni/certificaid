@@ -5,6 +5,19 @@ themas:
   - fusie
   - grensoverschrijdende fusie
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2009/16 — omrekening van kapitaal bij grensoverschrijdende fusies DATUM WAAROP HET KAPITAAL VAN DE OVERGENOMEN BUITENLANDSE VENNOOTSCHAP OMGEREKEND MOET WORDEN NAAR DE EURO

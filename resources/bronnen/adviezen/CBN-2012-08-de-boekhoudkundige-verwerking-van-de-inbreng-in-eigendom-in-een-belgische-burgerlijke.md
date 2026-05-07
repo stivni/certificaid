@@ -7,6 +7,19 @@ themas:
   - proportionele integratiemethode
   - realisatie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/8 — de boekhoudkundige verwerking van de inbreng in eigendom in een belgische burgerlijke Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap

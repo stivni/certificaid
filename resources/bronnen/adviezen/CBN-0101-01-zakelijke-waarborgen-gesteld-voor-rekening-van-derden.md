@@ -12,6 +12,19 @@ themas:
   - zakelijke zekerheden
   - zekerheden
 bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies R101/1 — zakelijke waarborgen gesteld voor rekening van derden Indien een onderneming haar eigen bezittingen bezwaart met een zakelijke zekerheid voor rekening van een derde dan wordt dit in het minimum genormaliseerd rekeningstelsel uitgedrukt in een dubbel stel rekeningen:

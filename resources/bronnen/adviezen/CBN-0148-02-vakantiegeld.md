@@ -5,6 +5,19 @@ themas:
   - toerekening van kosten en opbrengsten
   - vakentiegeld
 bron: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 148/2 — vakantiegeld Overeenkomstig artikel 31, § 1, *littera *d), van de vierde EEG-richtlijn bepaalt artikel 19, vierde lid van het jaarrekeningbesluit van 8 oktober 1976 zoals gewijzigd door het koninklijk besluit van 12 september 1983 dat "er moet rekening worden gehouden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd". Dit lid preciseert verder : "ten laste van het boekjaar moeten inzonderheid worden geboekt ... de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens voorgaande boekjaren zijn verricht.".

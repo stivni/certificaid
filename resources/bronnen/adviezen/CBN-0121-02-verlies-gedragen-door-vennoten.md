@@ -10,6 +10,19 @@ themas:
   - verlies
   - verlies gedragen door vennoten
 bron: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 121/2 bis — verlies gedragen door vennoten Een vennootschap sluit het boekjaar af met verlies. De algemene vergadering beslist het verlies over te dragen. Tijdens het daaropvolgende boekjaar beslissen de vennoten op een buitengewone algemene vergadering het aldus overgedragen verlies zelf ten laste te nemen. De vraag wordt gesteld op welke wijze deze beslissing van de buitengewone algemene vergadering in de boekhouding en in de jaarrekening moet worden geboekt.

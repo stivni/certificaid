@@ -5,6 +5,19 @@ themas:
   - kosten afgewenteld op derden
   - kosten gedragen door derden
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 105/2 — kosten afgewenteld op of gedragen door derden Het gebeurt regelmatig dat zekere uitgaven of kosten van een onderneming afgewenteld worden op - of gedragen worden door derden. 

@@ -10,6 +10,19 @@ themas:
   - toerekening van kosten en opbrengsten
   - abonnement
 bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 148/1 — overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien Door overeenkomst waarin gespreide of opeenvolgende prestaties worden voorzien is hier verstaan een overeenkomst waarbij één der partijen zich tegen een vaste totaalprijs verbindt om, gespreid over een zekere tijd, bepaalde goederen te leveren, dan wel op gespreide wijze of volgens een afgesproken periodiciteit, bepaalde in de overeenkomst omschreven diensten te leveren. 

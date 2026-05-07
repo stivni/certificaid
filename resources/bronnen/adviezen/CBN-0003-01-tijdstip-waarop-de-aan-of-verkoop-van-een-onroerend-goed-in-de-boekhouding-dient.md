@@ -7,6 +7,19 @@ themas:
   - overdracht van een onroerend goed
   - tijdstip van inschrijving in de boekhouding
 bron: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 3/1 — tijdstip waarop de aan of verkoop van een onroerend goed in de boekhouding dient Aan  de  Commissie  werd  gevraagd  waarmee  bij  de  boekhoudkundige  registratie  van  de overdracht  van  een  onroerend  goed  moet  worden  rekening  gehouden  :  met  de eigendomsoverdracht  tussen  de  betrokken  partijen  die  bij  verkoop  geschiedt  zodra  er overeenkomst is omtrent  zaak  en  prijs  en  meestal  wordt  vastgelegd  in  een verkoopscompromis,  of  met  de  tegenwerpelijkheid  van  die  overdracht  aan  derden  na overschrijving  van  de  akte  op  het  hypotheekkantoor.   

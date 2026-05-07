@@ -6,6 +6,19 @@ themas:
   - obligaties met warrant
   - warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 139/2 — obligaties met warrant De Commissie werd ondervraagd over de boekingswijze van obligaties uitgegeven met warranten evenals over de aanschaffingswaarde die moet worden toegekend respectievelijk aan de obligatie en aan de warrant bij afzondering van deze laatste. 

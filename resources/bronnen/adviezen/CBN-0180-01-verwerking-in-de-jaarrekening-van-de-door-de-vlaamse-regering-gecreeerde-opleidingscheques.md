@@ -7,6 +7,19 @@ themas:
   - liquide middelen
   - opleidingscheques
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 180/1 — verwerking in de jaarrekening van de door de vlaamse regering gecreeerde opleidingscheques Het besluit van de Vlaamse regering van 14 december 2001 en het ministerieel besluit van 21 december 2001 creëerden in Vlaanderen het systeem van "opleidingscheques". Vennootschappen kunnen maximaal 200 opleidingscheques met een zichtwaarde van 30 euro aankopen. Het Vlaamse Gewest levert een bijdrage van 50% in het totaalbedrag van de aangekochte opleidingscheques. De opleidingscheques hebben een geldigheidsduur van twaalf maanden vanaf de datum van uitgifte en moeten aangewend worden voor een opleiding die heeft plaatsgevonden vóór het verstrijken van de geldigheidsduur.

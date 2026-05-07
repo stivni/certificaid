@@ -34,6 +34,19 @@ themas:
   - wisselrisicodekking
   - wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/1 — boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in De betaling van de schuld of de inning van de vordering in vreemde valuta gaat gepaard met een wisselverrichting die daarmee rechtstreeks verbonden is.

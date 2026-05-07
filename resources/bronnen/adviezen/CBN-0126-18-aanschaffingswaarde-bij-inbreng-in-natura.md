@@ -10,6 +10,19 @@ themas:
   - uitgiftepremie
   - werkelijke waarde
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/18 — aanschaffingswaarde bij inbreng in natura | | Dit advies handelt over de bepaling van de aanschaffingswaarde bij inbreng in natura, zowel de waardering van de aanschaffingswaarde van de ingebrachte vermogensbestanddelen in hoofde van de inbreng ontvangende vennootschap, als de waardering van de aanschaffingswaarde van de ter vergoeding van de inbreng ontvangen aandelen in hoofde van de inbrengende vennootschap. 

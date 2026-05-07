@@ -8,6 +8,19 @@ themas:
   - actuarieel rendement op vastrentende effecten
   - actuariële rendement
 bron: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 147/2 — inresultaatneming van het actuariele rendement van vastrentende effecten Het koninklijk besluit van 30 december 1991 heeft de wijze waarop het rendement van vastrentende effecten in resultaat moet worden genomen, grondig gewijzigd1

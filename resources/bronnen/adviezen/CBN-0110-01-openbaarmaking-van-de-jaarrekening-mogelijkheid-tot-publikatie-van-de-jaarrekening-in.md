@@ -6,6 +6,19 @@ themas:
   - openbaarmaking
   - publicatie van de jaarrekening in beknopte vorm
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 110/1 — openbaarmaking van de jaarrekening mogelijkheid tot publikatie van de jaarrekening in Krachtens artikel 39 van het koninklijk besluit hebben de ondernemingen die beantwoorden aan de erin opgenomen criteria, de mogelijkheid een beknopte balans en resultatenrekening te publiceren en bepaalde vermeldingen waarin is voorzien door Hoofdstuk I van de bijlage bij het koninklijk besluit van 8 oktober 1976 niet in de toelichting op te nemen. 

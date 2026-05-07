@@ -7,15 +7,15 @@ bijgewerkt: "28.11.2022"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
-    sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
-    version: 28.11.2022
+    - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
+      sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
+      version: 28.11.2022
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

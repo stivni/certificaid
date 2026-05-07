@@ -14,6 +14,19 @@ themas:
   - voeren van de boekhouding
   - vreemde munt
 bron: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 117/3 — voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro De Commissie kreeg de afgelopen tijd een aantal aanvragen van vennootschappen met de vraag het voeren van de boekhouding en het opstellen van de enkelvoudige jaarrekening niet te doen in euro maar in een andere functionele munt.

@@ -10,6 +10,19 @@ themas:
   - vastrentende effecten
   - belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 147/3 — meerwaarden op overheidseffecten bedoeld door artikel 513 van het nieuwe wib Door de wet van 22 december 1989 werd in de fiscale wetgeving een optionele regeling ingevoerd van gespreide taxatie van de meerwaarden verwezenlijkt op immateriële en materiële vaste activa1

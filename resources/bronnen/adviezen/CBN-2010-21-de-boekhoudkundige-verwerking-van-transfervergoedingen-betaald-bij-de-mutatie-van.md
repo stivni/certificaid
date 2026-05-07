@@ -5,6 +5,19 @@ themas:
   - immateriële vaste activa
   - transfervergoeding
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/21 — de boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)

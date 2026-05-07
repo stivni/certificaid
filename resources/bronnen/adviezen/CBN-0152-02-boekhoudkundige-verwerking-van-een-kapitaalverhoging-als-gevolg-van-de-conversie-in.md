@@ -8,6 +8,19 @@ themas:
   - omrekeningskoers
   - wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/2 — boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in Naar aanleiding van haar advies over de boekhoudkundige verwerking van vreemde valuta1

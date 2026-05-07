@@ -13,6 +13,19 @@ themas:
   - succursaal
   - vreemde munt
 bron: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 117/2 — munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld de commissie De commissie heeft reeds uiteengezet waarom de vennootschappen naar Belgisch recht hun jaarrekening verplicht in Belgische franken moeten opstellen en openbaar maken1

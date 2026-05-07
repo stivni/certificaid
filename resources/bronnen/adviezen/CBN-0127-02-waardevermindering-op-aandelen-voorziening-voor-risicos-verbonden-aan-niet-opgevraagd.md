@@ -9,6 +9,19 @@ themas:
   - voorzieningen voor risico&#039;s en kosten
   - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 127/2 — waardevermindering op aandelen voorziening voor risicos verbonden aan niet opgevraagd Aan de Commissie werd gevraagd hoe de verliesrisico's verbonden aan het niet-opgevraagde gedeelte van aandelen of deelnemingen waarop een onderneming had ingeschreven of die zij had verworven, moeten worden verwerkt in boekhouding en in de jaarrekening.

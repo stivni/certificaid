@@ -11,6 +11,19 @@ themas:
   - voorschot
   - voorschot aan de vennoten op de verdeling van het netto-actief
 bron: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/22 — boekingswijze van een voorschot op de verdeling van het netto actief Aan de Commissie werd een verzoek om een advies voorgelegd over de boekhoudkundige verwerking van de toekenning aan de vennoten van een in vereffening gestelde vennootschap, van een voorschot op het netto-actief dat hen zal toekomen bij de afsluiting van de vereffening. 

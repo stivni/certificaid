@@ -10,6 +10,19 @@ themas:
   - wisselverschil
   - bestellingen van vaste activa in vreemde valuta
 bron: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/6 — risicos verbonden aan bestellingen van vaste activa Artikel 19, zesde lid van het koninklijk besluit van 8 oktober 1976 voert de verplichting in om voorzieningen te vormen voor "de verliesrisico's die voor de onderneming voortvloeien uit (...) verbintenissen tot aankoop (...) van vaste activa (...), uit termijnposities of -overeenkomsten in deviezen (...)".

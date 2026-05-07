@@ -7,15 +7,15 @@ bijgewerkt: "29.12.2011"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf
-    sha256: e5c020c57a52ae268b1f149260cea7500eddd9b583a3b857029e51f2c8f87e8a
-    version: 29.12.2011
+    - id: resources/raw/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.pdf
+      sha256: e5c020c57a52ae268b1f149260cea7500eddd9b583a3b857029e51f2c8f87e8a
+      version: 29.12.2011
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

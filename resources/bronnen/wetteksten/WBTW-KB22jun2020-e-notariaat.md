@@ -7,15 +7,15 @@ bijgewerkt: "2020"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf
-    sha256: be45dc386b376439de59378c86082c733e467259a0ac3b2762a84ac514054d31
-    version: '2020'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf
+      sha256: be45dc386b376439de59378c86082c733e467259a0ac3b2762a84ac514054d31
+      version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

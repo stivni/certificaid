@@ -11,6 +11,19 @@ themas:
   - schulden
   - schulden uit bestemming van het resultaat
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 133/4 — schulden uit de resultaatbestemming dividenduitkering aan een onderneming die ten minste tot wijziging van artikel 106, §§ 5 en 6 van het Koninklijk Besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen (KB/WIB 92), wordt geen roerende voorheffing ingehouden op het dividend dat een Belgische vennootschap uitkeert aan een andere Belgische of Europese vennootschap, op voorwaarde dat laatstgenoemde vennootschap tijdens een ononderbroken periode van ten minste één jaar een deelneming van minimaal 25 % bezit in het kapitaal van eerstgenoemde vennootschap, zelfs indien, op het ogenblik waarop het dividend wordt toegekend, de termijn van één jaar nog niet is verstreken.

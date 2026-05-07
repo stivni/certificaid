@@ -12,6 +12,19 @@ themas:
   - participatie
   - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 114/2 — bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee CBN-advies 114/2 - Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming

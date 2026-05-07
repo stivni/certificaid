@@ -22,6 +22,19 @@ themas:
   - onrechtstreekse productiekost
   - realisatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 132/7 — boeking en waardering van voorraden Algemene benadering van voorraden in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen

@@ -9,6 +9,19 @@ themas:
   - obligaties
   - vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 147/1 — vastrentende effecten financiele vaste activa of geldbeleggingen criteria Krachtens het koninklijk besluit van 8 oktober 1976 kunnen obligaties hetzij als financiële vaste activa, hetzij als geldbelegging worden geboekt; op grond van dit onderscheid worden zij in de overeenstemmende actiefrubrieken ondergebracht.

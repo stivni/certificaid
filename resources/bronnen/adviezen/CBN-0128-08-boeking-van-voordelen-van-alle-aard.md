@@ -5,6 +5,19 @@ themas:
   - bezoldiging
   - voordelen van alle aard
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 128/8 — boeking van voordelen van alle aard Aan de Commissie voor Boekhoudkundige Normen werd gevraagd hoe door de onderneming gedragen kosten die later fiscaal zouden worden beschouwd als «voordelen van alle aard» ten gunste van de personeelsleden, dienen te worden geboekt.

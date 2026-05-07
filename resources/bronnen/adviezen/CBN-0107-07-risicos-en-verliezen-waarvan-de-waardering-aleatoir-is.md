@@ -9,6 +9,19 @@ themas:
   - voorzieningen voor risico&#039;s en kosten
   - waardering
 bron: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/7 — risicos en verliezen waarvan de waardering aleatoir is Artikel 13 van het jaarrekeningbesluit bepaalt dat de voorzieningen voor risico's en kosten naar hun aard duidelijk omschreven verliezen of kosten beogen te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat i.e. waarvan de omvang onzeker is en slechts door schatting bepaalbaar is.

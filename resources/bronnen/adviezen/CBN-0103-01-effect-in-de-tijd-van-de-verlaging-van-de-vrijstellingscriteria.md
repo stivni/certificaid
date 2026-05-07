@@ -9,6 +9,19 @@ themas:
   - omvangcriteria
   - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies C103/1 — effect in de tijd van de verlaging van de vrijstellingscriteria Krachtens artikel 9 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen, wordt een onderneming vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen1

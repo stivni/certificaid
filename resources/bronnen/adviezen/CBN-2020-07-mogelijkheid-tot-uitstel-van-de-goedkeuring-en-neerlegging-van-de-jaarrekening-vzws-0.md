@@ -9,6 +9,19 @@ themas:
   - verenigingen en stichtingen
   - COVID-19
 bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2020/07 — mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening vzws

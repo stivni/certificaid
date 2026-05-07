@@ -8,6 +8,19 @@ themas:
   - financiële vaste activa
   - geldbeleggingen
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 155/1 — boeking van commissies De wijze waarop commissies moeten worden geboekt, hangt af van de verrichting waarop zij slaan. 

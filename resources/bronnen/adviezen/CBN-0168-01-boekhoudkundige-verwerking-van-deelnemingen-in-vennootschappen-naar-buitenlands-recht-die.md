@@ -9,6 +9,19 @@ themas:
   - schulden
   - vennootschap naar buitenlands recht
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 168/1 — boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht die De Commissie krijgt herhaaldelijk vragen voorgelegd in verband met de verwerking van deelnemingen in ondernemingen naar buitenlands recht in de jaarrekening van ondernemingen naar Belgisch recht. Deze ondernemingen vertonen krachtens hun nationaal recht niet alle attributen die naar Belgisch recht een afzonderlijk rechtspersoonlijkheid kenmerken. Inzonderheid wil men weten hoe inbrengen in verschillende soorten van commanditaire vennootschappen naar Duits en naar Nederlands recht alsook de resultaten van dergelijke vennootschappen, boekhoudkundig moeten worden gekwalificeerd. 

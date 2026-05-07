@@ -7,6 +7,19 @@ themas:
   - kantonnement
   - uitvoerend beslag
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/4 — de boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Luidens de artikelen 7 en 8 van de Hypotheekwet is de schuldenaar gehouden zijn verbintenissen na te komen, *onder verband van* al zijn goederen, hetzij roerende, hetzij onroerende, zowel tegenwoordige als toekomstige, waarbij de goederen van deze laatste strekken tot gemeenschappelijke waarborg voor zijn schuldeisers.1

@@ -6,6 +6,19 @@ themas:
   - investeringsaftrek
   - te betalen belasting
 bron: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 134/3 — investeringsaftrek Door het koninklijk besluit nr. 48 van 22 juni 1982 tot wijziging van het W.I.B. inzake investeringsaftrek, meerwaarden en afschrijvingen1

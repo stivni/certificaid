@@ -7,15 +7,15 @@ bijgewerkt: "2023"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
-    sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
-    version: '2023'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
+      sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
+      version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

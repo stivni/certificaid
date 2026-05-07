@@ -23,6 +23,19 @@ themas:
   - subsidies voor kosten van onderzoek en ontwikkeling
   - uitgestelde belastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/13 — overheidssubsidies Subsidiëring door de overheid kan uit verschillende reglementeringen voortspruiten en uiteenlopende doelstellingen nastreven. Overheden kunnen, onder vooraf vastgestelde voorwaarden, subsidies verstrekken die aanzetten tot investeren of rechtstreeks het exploitatieresultaat beïnvloeden.

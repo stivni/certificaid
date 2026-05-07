@@ -7,15 +7,15 @@ bijgewerkt: "29.02.2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
-    sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
-    version: 29.02.2024
+    - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
+      sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
+      version: 29.02.2024
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

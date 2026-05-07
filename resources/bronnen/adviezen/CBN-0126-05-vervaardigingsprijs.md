@@ -5,6 +5,19 @@ themas:
   - financiële kosten
   - vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/5 — vervaardigingsprijs Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenomen in de vervaardigingsprijs van voorraden en bestellingen in uitvoering, waarvan de produktie meer dan één jaar bestrijkt, alle daaraan verbonden financiële kosten omvatten of enkel de financiële kosten die betrekking hebben op de schulden op meer dan één jaar. 

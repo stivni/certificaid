@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
-    sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
+      sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

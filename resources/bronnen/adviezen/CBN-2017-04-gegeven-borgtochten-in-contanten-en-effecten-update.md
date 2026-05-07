@@ -8,6 +8,19 @@ themas:
   - waarborgen
   - financiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2017/04 — gegeven borgtochten in contanten en effecten update

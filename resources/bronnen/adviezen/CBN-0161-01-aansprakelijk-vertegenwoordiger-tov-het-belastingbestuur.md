@@ -7,6 +7,19 @@ themas:
   - lasthebber van de buitenlandse BTW-plichtige
   - medecontractant
 bron: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 161/1 — aansprakelijk vertegenwoordiger tov het belastingbestuur Aan de Commissie werd de vraag gesteld op welke wijze de onderneming die aansprakelijk vertegenwoordiger is t.a.v. het belastingbestuur zulks boekhoudkundig moet tot uiting brengen. 

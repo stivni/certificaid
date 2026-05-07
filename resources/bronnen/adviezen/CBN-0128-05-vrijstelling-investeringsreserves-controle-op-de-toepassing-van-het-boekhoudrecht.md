@@ -6,6 +6,19 @@ themas:
   - leasing
   - vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 128/5 — vrijstelling investeringsreserves controle op de toepassing van het boekhoudrecht CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht

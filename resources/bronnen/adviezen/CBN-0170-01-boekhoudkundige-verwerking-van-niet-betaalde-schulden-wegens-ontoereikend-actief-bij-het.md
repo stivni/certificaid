@@ -9,6 +9,19 @@ themas:
   - vereffening
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 170/1 — boekhoudkundige verwerking van niet betaalde schulden wegens ontoereikend actief bij het onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 

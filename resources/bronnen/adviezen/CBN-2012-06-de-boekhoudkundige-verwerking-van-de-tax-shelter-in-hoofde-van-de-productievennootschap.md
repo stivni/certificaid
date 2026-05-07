@@ -6,6 +6,19 @@ themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/6 — de boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap ## Inleiding

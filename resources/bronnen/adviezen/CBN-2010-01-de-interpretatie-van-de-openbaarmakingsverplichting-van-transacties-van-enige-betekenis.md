@@ -9,6 +9,19 @@ themas:
   - transactie met verbonden partijen
   - transactie van enige betekenis
 bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/1 — de interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden,  zoals bepaald in het koninklijk besluit van 10 augustus 2009

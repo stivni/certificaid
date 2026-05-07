@@ -12,6 +12,19 @@ themas:
   - personeel
   - provisie
 bron: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 153/2 — loonmatiging bezoldigingen van bestuurders Artikel 9 van het koninklijk besluit van 24 december 1993 voert een loonmatiging in voor de bezoldigingen van bestuurders. Deze loonmatiging houdt in dat de bezoldigingen van bestuurders in 1994, 1995 en 1996 niet hoger mogen zijn dan deze toegekend in 1993. Is de bezoldiging toch hoger dan moet de onderneming een "Provisie"1

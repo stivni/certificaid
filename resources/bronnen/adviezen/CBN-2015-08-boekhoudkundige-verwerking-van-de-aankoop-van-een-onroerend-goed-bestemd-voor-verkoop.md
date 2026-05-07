@@ -10,6 +10,19 @@ themas:
   - winsttoerekening
   - onroerende goederen bestemd voor verkoop
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2015/8 — boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop ## Inleiding

@@ -7,6 +7,19 @@ themas:
   - immigrerende vennootschap
   - grensoverschrijdende zetelverplaatsing
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2020/15 — zetelverplaatsing naar belgie model van staat van activa en passiva bij immigrerende

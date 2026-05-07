@@ -9,6 +9,19 @@ themas:
   - vipa
   - vlaams infrastructuurfonds voor persoonsgebonden aangelegenheden
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2009/3 — boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning enof de uitbetaling #### INLEIDING

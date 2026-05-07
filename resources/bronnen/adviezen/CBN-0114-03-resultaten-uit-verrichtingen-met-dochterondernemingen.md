@@ -9,6 +9,19 @@ themas:
   - verrichtingen met dochterondernemingen
   - verrichtingen met verbonden ondernemingen
 bron: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 114/3 — resultaten uit verrichtingen met dochterondernemingen Aan de Commissie werd de vraag gesteld of, gelet op de bepalingen van het koninklijk besluit van 8 oktober 1976, de resultaten uit verrichtingen tussen een onderneming en haar dochter - waarvan zij de quasi-totaliteit van het kapitaal bezit - als gerealiseerd kunnen worden beschouwd en derhalve in de resultatenrekening als opbrengsten en kosten mogen worden geboekt. 

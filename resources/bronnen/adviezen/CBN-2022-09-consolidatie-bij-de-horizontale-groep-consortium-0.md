@@ -18,6 +18,19 @@ themas:
   - consolidatiemethode
   - integrale consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2022/09 — consolidatie bij de horizontale groep consortium 0

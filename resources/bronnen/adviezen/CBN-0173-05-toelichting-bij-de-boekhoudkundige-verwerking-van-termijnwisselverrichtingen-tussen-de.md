@@ -19,6 +19,19 @@ themas:
   - contantrentevoet
   - contantwisselkoers
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/5 — toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de Gelet op de vragen en opmerkingen over de laatste twee leden van punt D.4. van advies 173/11

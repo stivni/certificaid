@@ -7,6 +7,19 @@ themas:
   - voorwaardelijke obligaties
   - voorwaardelijke schuld
 bron: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 136/1 — voorwaardelijke obligaties Tijdens de laatste jaren gebeurde het vaak dat de financiële steun van de overheid aan een onderneming in moeilijkheden gekoppeld werd aan de verplichting in hoofde van de begunstigde onderneming tot terugbetaling meer bepaald indien de onderneming terug rendabel zou worden en zij terug in staat zou zijn haar verliezen aan te zuiveren. 

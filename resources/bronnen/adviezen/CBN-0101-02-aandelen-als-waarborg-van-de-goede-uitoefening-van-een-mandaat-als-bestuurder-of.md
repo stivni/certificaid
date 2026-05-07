@@ -13,6 +13,19 @@ themas:
   - waarborg mandaat
   - zakelijke waarborgen
 bron: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies R101/2 — aandelen als waarborg van de goede uitoefening van een mandaat als bestuurder of Overeenkomstig de artikelen 57, eerste lid, en 69, eerste lid, W.Venn. moet iedere bestuurder of commissaris een bepaald aantal aandelen bij voorrecht verbinden tot waarborg van zijn mandaat.

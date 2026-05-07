@@ -13,6 +13,19 @@ themas:
   - uitgiftepremie
   - vermogen van de onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 121/1 — afname van het kapitaal van de uitgiftepremies van de reserves van de overgedragen winst De gedachte die ten gronde ligt aan het Koninklijk Besluit van 8 oktober 1976 wil dat alle opbrengsten1

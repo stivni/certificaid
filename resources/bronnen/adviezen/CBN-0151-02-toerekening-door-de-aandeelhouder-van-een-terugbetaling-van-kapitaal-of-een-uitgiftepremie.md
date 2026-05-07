@@ -17,6 +17,19 @@ themas:
   - aandelen
   - financiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 151/2 — toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie Wanneer een vennootschap beslist om aan haar aandeelhouders een deel van haar kapitaal of uitgiftepremies terug te betalen dan wel reserves uit te keren, rijst de vraag in welke gevallen en ten belope van welke bedragen alsook op grond van welke criteria de door de aandeelhouder ontvangen bedragen voor hem een opbrengst vormen die hij in zijn resultatenrekening moet opnemen, dan wel een vermindering van zijn investering in de betrokken aandelen, die van de aanschaffingswaarde van die aandelen moet worden afgetrokken. 

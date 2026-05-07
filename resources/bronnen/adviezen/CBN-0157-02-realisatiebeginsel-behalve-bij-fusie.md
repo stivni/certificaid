@@ -10,6 +10,19 @@ themas:
   - winstrealisatie
   - aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 157/2 — realisatiebeginsel behalve bij fusie Aan de Commissie werd het volgend geval voorgelegd. Een goed waarvan de waarde niet wordt betwist en dat in België kan worden ingebracht ter volstorting van geplaatst kapitaal, wordt ingebracht of omgeruild tegen een deelneming (zonder dat er van een fusie sprake is). De waarde van de als tegenwaarde ontvangen aandelen wordt niet betwist. De vraag is of het positieve verschil tussen de conventionele waarde van de als tegenwaarde ontvangen aandelen en de boekwaarde van het ingebrachte goed als opbrengst in de (niet geconsolideerde) resultatenrekening kan worden geboekt. 

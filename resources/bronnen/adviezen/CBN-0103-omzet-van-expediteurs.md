@@ -9,6 +9,19 @@ themas:
   - mandataris
   - tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 103/2 — omzet van expediteurs In het *Bulletin *van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 

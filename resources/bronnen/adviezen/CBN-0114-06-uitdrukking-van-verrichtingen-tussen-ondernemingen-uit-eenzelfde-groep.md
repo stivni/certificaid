@@ -8,6 +8,19 @@ themas:
   - interne groepsverrichting
   - verrichtingen tussen ondernemingen uit eenzelfde groep
 bron: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 114/6 — uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep Met toepassing van de vierde EEG-richtlijn schrijft het koninklijk besluit van 8 oktober 1976 voor dat de belangrijkste verrichtingen van een onderneming met de ondernemingen waarmee zij is verbonden of waarmee een deelnemingsverhouding bestaat, in de jaarrekening moeten worden uitgedrukt1

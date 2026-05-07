@@ -8,6 +8,19 @@ themas:
   - voorziening
   - voorzieningen voor grote herstellings- of onderhoudswerken
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/1 — voorzieningen voor grote herstellings of onderhoudswerken Artikel 19, 5de lid van het koninklijk besluit van 8 oktober 1976 legt het vormen van voorzieningen op voor het dekken van deze risico's en lasten.

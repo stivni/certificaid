@@ -13,6 +13,19 @@ themas:
   - VVPR-strips
   - warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/13 — boekhoudkundige verwerking van de aankoop het bezit en de realisatie van vvpr strips Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» 

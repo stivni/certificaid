@@ -10,6 +10,19 @@ themas:
   - toelichting
   - wachtrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/13 — boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de Boekhoudkundige verwerking van de btw-schulden en -vorderingen in hoofde van de leden van de btw-eenheid

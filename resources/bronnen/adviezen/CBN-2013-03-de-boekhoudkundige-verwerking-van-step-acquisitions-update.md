@@ -11,6 +11,19 @@ themas:
   - consolidatieverschil
   - belangen van derden
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/3 — de boekhoudkundige verwerking van step acquisitions update Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft

@@ -7,15 +7,15 @@ bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/successie-waals.pdf
-    sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
-    version: 16.03.2026
+    - id: resources/raw/wetteksten/successie-waals.pdf
+      sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
+      version: 16.03.2026
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

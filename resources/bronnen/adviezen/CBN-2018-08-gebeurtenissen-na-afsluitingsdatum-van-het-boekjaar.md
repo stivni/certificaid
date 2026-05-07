@@ -11,6 +11,19 @@ themas:
   - gebeurtenissen na afsluitdatum
   - gebeurtenissen na afsluitingsdatum
 bron: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:48Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/08 — gebeurtenissen na afsluitingsdatum van het boekjaar

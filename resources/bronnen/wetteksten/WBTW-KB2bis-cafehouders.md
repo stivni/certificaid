@@ -7,15 +7,15 @@ bijgewerkt: "2022"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
-    sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
-    version: '2022'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
+      sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
+      version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

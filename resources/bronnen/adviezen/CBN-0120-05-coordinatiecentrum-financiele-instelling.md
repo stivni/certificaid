@@ -5,6 +5,19 @@ themas:
   - coördinatiecentrum
   - financiële instelling
 bron: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 120/5 — coordinatiecentrum financiele instelling Met de bedoeling belangrijke multinationale groepen naar België te lokken werd met het - herhaalde malen gewijzigde - koninklijk besluit nr. 187 van 30 december 1982 de fiscale regeling voor coördinatiecentra ingevoerd. Onder bepaalde voorwaarden biedt deze regeling zeer belangrijke voordelen. 

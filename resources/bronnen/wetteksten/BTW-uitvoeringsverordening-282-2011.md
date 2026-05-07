@@ -7,15 +7,15 @@ bijgewerkt: "23.03.2011"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
-    sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
-    version: 23.03.2011
+    - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
+      sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
+      version: 23.03.2011
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

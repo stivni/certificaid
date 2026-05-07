@@ -6,6 +6,19 @@ themas:
   - afvalstoffenheffing
   - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/11 — begrip omzet doorrekening van belastingen en accijnzen ## Inleiding

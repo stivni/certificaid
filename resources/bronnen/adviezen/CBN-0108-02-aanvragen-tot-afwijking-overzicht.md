@@ -14,6 +14,19 @@ themas:
   - steenkoolmijn
   - verzekeringsonderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 108/2 — aanvragen tot afwijking overzicht Voor het eerste boekjaar waarop het koninklijk besluit van 8 oktober 1976 van toepassing was, heeft de Commissie een advies uitgebracht over 1681

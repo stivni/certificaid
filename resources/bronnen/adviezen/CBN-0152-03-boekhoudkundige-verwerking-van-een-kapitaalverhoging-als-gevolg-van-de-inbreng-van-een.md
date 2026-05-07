@@ -9,6 +9,19 @@ themas:
   - omrekeningskoers
   - wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/3 — boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een Dezelfde beginselen die sub 152/2 werden uiteengezet gelden ook wanneer het kapitaal van een vennootschap wordt verhoogd als gevolg van de inbreng van een schuldvordering uitgedrukt in een vreemde valuta1

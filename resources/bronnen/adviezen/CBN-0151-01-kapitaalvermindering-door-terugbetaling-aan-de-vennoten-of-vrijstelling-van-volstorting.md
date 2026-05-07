@@ -9,6 +9,19 @@ themas:
   - vrijstelling
   - vrijstelling van volstorting
 bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 151/1 — kapitaalvermindering door terugbetaling aan de vennoten of vrijstelling van volstorting De wet van 5 december 1984 heeft de vroegere bepalingen van de vennootschapswet inzake kapitaalvermindering, grondig gewijzigd. Het nieuwe artikel 72bis stelt in § 1 dat, indien de vermindering van het kapitaal geschiedt door een terugbetaling aan de aandeelhouders of door vrijstelling van de storting van het saldo van de inbreng, de schuldeisers het recht hebben om een zekerheid te eisen voor hun vorderingen. Elke uitkering of betaling aan de aandeelhouders of vrijstelling van storting van het saldo van de inbreng is verboden, zolang de schuldeisers, die binnen de voorgeschreven termijn hun rechten hebben doen gelden, geen voldoening hebben gekregen, tenzij hun aanspraak om zekerheid te verkrijgen bij een rechterlijke beslissing is verworpen. 

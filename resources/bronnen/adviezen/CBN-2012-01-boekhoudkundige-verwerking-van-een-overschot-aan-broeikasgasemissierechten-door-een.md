@@ -9,6 +9,19 @@ themas:
   - netto-methode
   - overlopende rekeningen
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/1 — boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode

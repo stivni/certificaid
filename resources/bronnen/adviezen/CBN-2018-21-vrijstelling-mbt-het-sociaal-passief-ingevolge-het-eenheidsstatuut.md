@@ -7,6 +7,19 @@ themas:
   - fiscale vrijstelling
   - belastinglatentie
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/21 — vrijstelling mbt het sociaal passief ingevolge het eenheidsstatuut

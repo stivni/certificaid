@@ -7,15 +7,15 @@ bijgewerkt: "01.04.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
-    sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
-    version: 01.04.2026
+    - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
+      sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
+      version: 01.04.2026
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:07Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

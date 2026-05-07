@@ -10,6 +10,19 @@ themas:
   - geconsolideerde jaarrekening
   - overdraagbare verliezen
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies C105/1 — uitgestelde belastingvoordelen wegens overdraagbare verliezen De Commissie werd om advies gevraagd over de mogelijkheid om, gelet op beschikbare overdraagbare verliezen, uitgestelde belastingvoordelen te activeren in de geconsolideerde jaarrekening. 

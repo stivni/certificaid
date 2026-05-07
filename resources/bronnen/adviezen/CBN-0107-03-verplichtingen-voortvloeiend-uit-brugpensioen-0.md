@@ -8,6 +8,19 @@ themas:
   - voorziening
   - voorzieningen voor brugpensioen
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/3 bis — verplichtingen voortvloeiend uit brugpensioen onderstreepte de Commissie dat, wanneer een onderneming, in het kader van de conventionele brugpensioenregeling ingevoerd krachtens de collectieve arbeidsovereenkomst nr. 17 van 19 november 1974, bepaalde werknemers op pensioen stelt, zij krachtens artikel 19 van het besluit van 8 oktober 1976 een passende voorziening moet vormen voor de verbintenissen die zij aangaat ten opzichte van haar werknemers.

@@ -22,6 +22,19 @@ themas:
   - versnelde afschrijvingsmethode
   - waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/15 — afschrijvingsmethoden Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt1

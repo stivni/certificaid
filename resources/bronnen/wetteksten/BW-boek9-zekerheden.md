@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
-    sha256: 0cdda1f59b5365bef4360430f98282c83749ca03be30d363f81311b292e10a3e
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
+      sha256: 0cdda1f59b5365bef4360430f98282c83749ca03be30d363f81311b292e10a3e
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

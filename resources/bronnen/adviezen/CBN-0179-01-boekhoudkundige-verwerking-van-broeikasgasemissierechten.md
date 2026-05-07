@@ -10,6 +10,19 @@ themas:
   - netto-methode
   - toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 179/1 — boekhoudkundige verwerking van broeikasgasemissierechten ## Inleiding

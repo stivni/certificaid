@@ -6,6 +6,19 @@ themas:
   - schulden
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # Advies van 6 juli 20161

@@ -7,15 +7,15 @@ bijgewerkt: "2018"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
-    sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
-    version: '2018'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
+      sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
+      version: '2018'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

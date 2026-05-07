@@ -8,6 +8,19 @@ themas:
   - voorziening
   - voorzieningen voor brugpensioen
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/3 — verplichtingen voortvloeiend uit brugpensioen Aan de Commissie werd gevraagd hoe in de jaarrekening van een onderneming verplichtingen moeten worden geboekt die zij aangaat wanneer zij, in het kader van het conventioneel brugpensioenstelsel ingevoerd door de collectieve arbeidsovereenkomst nr. 17 van 19 november 19741

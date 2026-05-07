@@ -14,6 +14,19 @@ themas:
   - toepassingssoftware bestemd voor commercialisatie
   - toepassingssoftware voor intern gebruik
 bron: https://www.cbn-cnc.be/nl/adviezen/software
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/software
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 138/5 — software De Commissie heeft een grondig onderzoek gewijd aan de boekhoudkundige verwerking van de creatie of de verwerving van software door een onderneming, rekening houdend met de situatie in andere landen en de internationale doctrine terzake.

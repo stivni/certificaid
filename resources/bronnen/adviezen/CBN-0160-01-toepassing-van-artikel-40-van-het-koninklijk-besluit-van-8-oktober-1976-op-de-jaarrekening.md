@@ -18,6 +18,19 @@ themas:
   - waarderingsregels
   - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 160/1 — toepassing van artikel 40 van het koninklijk besluit van 8 oktober 1976 op de jaarrekening Aan de Commissie werd gevraagd vanaf welk ogenblik de bijzondere waarderingsregels van artikel 40 van hete koninklijk besluit van 8 oktober 1976, ingeval de onderneming haar bedrijf niet voortzet, van toepassing zijn. 

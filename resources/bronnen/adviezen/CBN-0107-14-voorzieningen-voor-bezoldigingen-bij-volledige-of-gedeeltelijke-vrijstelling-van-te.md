@@ -8,6 +8,19 @@ themas:
   - vrijstelling
   - Vrijstelling van te leveren arbeidsprestaties
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/14 — voorzieningen voor bezoldigingen bij volledige of gedeeltelijke vrijstelling van te In het raam van getroffen herstructureringsmaatregelen sluit een onderneming met sommige van haar personeelsleden, een individuele overeenkomst, waarbij zij hen voor de toekomst vrijstelt van alle of een deel van hun arbeidsprestaties, zonder daarbij hun bezoldiging proportioneel (of ongeveer proportioneel) te verlagen.

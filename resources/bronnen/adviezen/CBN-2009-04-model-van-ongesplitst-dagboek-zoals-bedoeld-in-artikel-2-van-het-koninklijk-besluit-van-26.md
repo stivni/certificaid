@@ -7,6 +7,19 @@ themas:
   - vereenvoudigde boekhouding
   - vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2009/4 — model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van ### INLEIDING

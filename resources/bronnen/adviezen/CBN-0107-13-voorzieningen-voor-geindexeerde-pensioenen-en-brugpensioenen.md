@@ -17,6 +17,19 @@ themas:
   - waardering
   - waardering tegen actuele waarde
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/13 — voorzieningen voor geindexeerde pensioenen en brugpensioenen In haar advies 107/9, *Bull. CBN* nr. 23, heeft de Commissie gesteld dat voorzieningen voor risico's en kosten op meer dan een jaar en meer bepaald de uitbetalingen voor pensioenen, moeten worden gewaardeerd tegen hun actuele waarde en niet tegen hun nominale waarde. De actuele waarde van een - renteloze - vordering of schuld op middellange of lange termijn is immers niet gelijk aan haar nominale waarde.

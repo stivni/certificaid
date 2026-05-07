@@ -7,6 +7,19 @@ themas:
   - voorzieningen met een financieel karakter
   - voorzieningen voor risico&#039;s en kosten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/8 — boekhoudkundige verwerking van de voorzieningen voor risicos en kosten Als gevolg van concrete vragen daaromtrent heeft de Commissie een algemeen onderzoek verricht met betrekking tot de boekhoudkundige verwerking van de voorzieningen voor risico's en kosten.

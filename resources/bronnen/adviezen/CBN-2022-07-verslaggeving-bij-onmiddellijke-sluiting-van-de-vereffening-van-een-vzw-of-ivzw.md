@@ -38,6 +38,19 @@ themas:
   - ondernemingsrechtbank
   - provisie
 bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2022/07 — verslaggeving bij onmiddellijke sluiting van de vereffening van een vzw of ivzw

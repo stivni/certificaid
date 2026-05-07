@@ -6,6 +6,19 @@ themas:
   - gereed produkt
   - vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/4 — vervaardigingsprijs correctie van de nederlandse tekst van artikel 22 van het koninklijk Luidens artikel 22 van het koninklijk besluit van 8 oktober 1976 omvat de vervaardigingsprijs «naast de aanschaffingskosten der grondstoffen, verbruiksgoederen en hulpstoffen, de productiekosten die rechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn evenals het evenredig deel van de productiekosten die slechts onrechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn, voor zover deze kosten op de normale productieperiode betrekking hebben. Het staat de ondernemingen echter vrij deze onrechtstreekse productiekosten niet geheel of gedeeltelijk in de vervaardigingsprijs van het gereed product op te nemen; ...» 

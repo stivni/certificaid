@@ -7,15 +7,15 @@ bijgewerkt: "12.11.2018"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
-    sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
-    version: 12.11.2018
+    - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
+      sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
+      version: 12.11.2018
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

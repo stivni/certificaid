@@ -12,6 +12,19 @@ themas:
   - sale and lease back
   - verkoopoptie
 bron: https://www.cbn-cnc.be/nl/adviezen/leasing
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/leasing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2015/4 — leasing Het doorslaggevende criterium om een leasing op boekhoudrechtelijk vlak te onderscheiden van gewone verhuring, is de integrale wedersamenstelling van het door de leasinggever geïnvesteerde kapitaal via de door de leasingnemer contractueel te storten termijnen, verhoogd met de daarmee gelijkgestelde verplichtingen. Het geïnvesteerde kapitaal zal, afhankelijk van de situatie, bepaald worden door de aanschaffingswaarde van het betrokken goed dan wel de marktwaarde van het betrokken goed. Naargelang de overeenkomst betrekking heeft op een roerend goed of op een onroerend goed, worden verschillende elementen in aanmerking genomen om na te gaan of er integrale wedersamenstelling is van het door de leasinggever geïnvesteerde kapitaal. Ook de rente en de kosten van de verrichting dienen in ieder geval gedekt te zijn door middel van de termijnen.

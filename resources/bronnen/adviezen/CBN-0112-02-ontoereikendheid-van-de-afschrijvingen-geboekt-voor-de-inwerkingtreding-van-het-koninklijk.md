@@ -5,6 +5,19 @@ themas:
   - afschrijvingen
   - ontoereikendheid van de afschrijvingen
 bron: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 112/2 — ontoereikendheid van de afschrijvingen geboekt voor de inwerkingtreding van het koninklijk Aan de Commissie werd de volgende vraag gesteld : “Moeten afschrijvingen, waardeverminderingen en voorzieningen wegens risico's met betrekking tot de vroegere boekjaren die echter, bij gebrek aan voldoende rendabiliteit of om fiscale redenen, niet in de loop van die boekjaren werden geboekt, aangerekend worden op de eerste jaarrekening waarop het koninklijk besluit van 8 oktober 1976 van toepassing is?”

@@ -10,6 +10,19 @@ themas:
   - materiële vaste activa
   - vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 113/5 — herwaardering van vaste activa voor het begin van het boekjaar dat aanvangt na 31 december Met het koninklijk besluit van 12 september 1983 werd de regeling voor de herwaardering van vaste activa grondig gewijzigd. Artikel 34 van het koninklijk besluit van 8 oktober 1976 werd in een nieuwe vorm gegoten. Bovendien werd de mogelijkheid opgeheven om deze activa te waarderen tegen vervangingswaarde, zoals bepaald in artikel 35 van het koninklijk besluit van 8 oktober 1976. De redenen daartoe en de gevolgen daarvan werden uiteengezet in het Verslag aan de Koning bij het besluit van 12 september 1983. Deze wijzigingen worden van kracht bij het begin van het boekjaar dat aanvangt na 31 december 1983. 

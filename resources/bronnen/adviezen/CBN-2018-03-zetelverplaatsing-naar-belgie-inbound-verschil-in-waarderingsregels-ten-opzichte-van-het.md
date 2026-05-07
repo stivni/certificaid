@@ -7,6 +7,19 @@ themas:
   - boekhoudkundige continuïteit
   - juridische continuiteit
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:48Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/03 — zetelverplaatsing naar belgie inbound verschil in waarderingsregels ten opzichte van het

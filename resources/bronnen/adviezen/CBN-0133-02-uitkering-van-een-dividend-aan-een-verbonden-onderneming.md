@@ -8,6 +8,19 @@ themas:
   - uitkering van een dividend
   - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 133/2 — uitkering van een dividend aan een verbonden onderneming In dezelfde gedachtengang werd de vraag gesteld of een dividend dat bij de uitkering zal toekomen aan een verbonden onderneming of aan een onderneming waarmee een participatieverhouding bestaat, in punt 14 van de toelichting onder de schulden aan verbonden ondernemingen c.q. aan ondernemingen waarmee een participatieverhouding bestaat, moet vermeld worden. 

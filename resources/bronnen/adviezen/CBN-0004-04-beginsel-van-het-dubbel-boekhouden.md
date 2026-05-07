@@ -6,6 +6,19 @@ themas:
   - compensatie
   - compensatieverbod
 bron: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 4/4 — beginsel van het dubbel boekhouden In  een  bepaald  boekhoudsoftwarepakket  worden  creditnota's  voor  cliënten  en  creditnota's opgesteld  door  leveranciers  als  «aftrek»  geboekt  op de  debetzijde  van  de  cliëntenrekening of  creditzijde  van  de  leveranciersrekening.  Aan  de  Commissie  werd  gevraagd  of  dit wel strookt  met  de  boekhoudwet.   

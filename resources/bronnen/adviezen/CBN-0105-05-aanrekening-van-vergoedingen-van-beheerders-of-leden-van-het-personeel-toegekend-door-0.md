@@ -7,6 +7,19 @@ themas:
   - beheerder
   - compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 105-5 — aanrekening van vergoedingen van beheerders of leden van het personeel toegekend door Het gebeurt vaak dat beheerders of leden van het personeel van een onderneming functies vervullen bij vennootschappen behorend tot dezelfde groep; de daaraan verbonden vergoeding wordt dan vaak ofwel aangerekend op de vergoeding voor de hoofdfunctie uitgeoefend op het vlak van de onderneming ofwel rechtstreeks betaald aan deze onderneming of terugbetaald aan deze onderneming door de beneficiaris. 

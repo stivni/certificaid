@@ -8,6 +8,19 @@ themas:
   - incorporatie van reserves in het kapitaal
   - nettovermogenswaardemethode
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 129/1 — boeking van bonusaandelen Aan een onderneming worden naar rato van haar participatie in een andere vennootschap, aandelen van deze laatste toegekend uitgegeven op basis van een incorporatie van reserves in het kapitaal. Aan de Commissie werd gevraagd of de waarde van deze «bonusaandelen» op het actief mag worden geboekt als aangroei van de boekwaarde van de portefeuille, en hun tegenwaarde op de resultatenrekening als financiële opbrengst.

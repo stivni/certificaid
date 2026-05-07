@@ -17,6 +17,19 @@ themas:
   - CommV
   - niet-recurrente ontvangsten
 bron: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2019/11 — de vereenvoudigde boekhouding van een natuurlijke persoon maatschap vennootschap onder

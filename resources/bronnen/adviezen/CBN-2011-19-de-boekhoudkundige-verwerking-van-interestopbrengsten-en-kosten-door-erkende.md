@@ -5,6 +5,19 @@ themas:
   - erkende kredietmaatschappij
   - kredietmaatschappij
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/19 — de boekhoudkundige verwerking van interestopbrengsten en kosten door erkende Met een “erkende kredietmaatschappij” wordt de hypothecaire kredietmaatschappij voor sociaal woonkrediet bedoeld waaraan een erkenning is verleend door de Vlaamse regering overeenkomstig artikel 78, § 1, eerste lid, 1° van het decreet van 15 juli 1997 houdende de Vlaamse Wooncode1

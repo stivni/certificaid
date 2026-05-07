@@ -8,6 +8,19 @@ themas:
   - voorwaardelijke verbintenis
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 148/6 — boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde Artikel 33, tweede lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) bepaalt dat "rekening moet gehouden worden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is (...)". 

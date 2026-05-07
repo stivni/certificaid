@@ -7,15 +7,15 @@ bijgewerkt: "2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
-    sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
-    version: '2024'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
+      sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
+      version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

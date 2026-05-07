@@ -7,6 +7,19 @@ themas:
   - onderzoekskost
   - ontwikkelingskost
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/16 — kosten van onderzoek en ontwikkeling wijzigingen door het koninklijk besluit van Kosten van onderzoek gemaakt tijdens een boekjaar dat aanvangt na 31 december 2015

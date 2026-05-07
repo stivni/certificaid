@@ -10,6 +10,19 @@ themas:
   - voorziening
   - voorzieningen voor pensioenen
 bron: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/12 — pensioenvoorzieningen De vroegere versie van artikel 45 van het koninklijk besluit van 8 oktober 1976 luidde als volgt : «Bij afwijking van artikel 19 moet voor de verplichtingen die voor de onderneming voortvloeien uit regelingen met betrekking tot een aanvullend rust- en overlevingspensioen ten behoeve van haar personeels- of directieleden slechts een voorziening worden gevormd vanaf de datum en volgens de modaliteiten door een later besluit te bepalen».

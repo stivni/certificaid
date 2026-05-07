@@ -10,6 +10,19 @@ themas:
   - steunmaatregel van de lidstaten
   - lastenverlaging
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 175/1 — verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren van de De Commissie is om advies gevraagd over een aantal aspecten in verband met de boekhoudkundige verwerking van de «Maribel bis en ter»-steun die werd toegekend voor de boekjaren 1994, 1995 en 1996 en waarover in 1996 en 1997 beslissingen zijn genomen door de Europese Commissie, enerzijds, en de Belgische Federale Regering, anderzijds. 

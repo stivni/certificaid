@@ -8,6 +8,19 @@ themas:
   - actieve belastinglatentie
   - passieve belastinglatentie
 bron: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:48Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/12 — interpretatie van code 99084 in de toelichting 514 van de geconsolideerde jaarrekening

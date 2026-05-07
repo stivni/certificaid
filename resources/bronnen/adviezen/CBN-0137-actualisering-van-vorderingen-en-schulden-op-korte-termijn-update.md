@@ -12,6 +12,19 @@ themas:
   - schulden
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 137/9 — actualisering van vorderingen en schulden op korte termijn update Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 

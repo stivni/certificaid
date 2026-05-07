@@ -9,6 +9,19 @@ themas:
   - voorschot
   - Vooruitbetaling
 bron: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies R103 — gefactureerde nog niet ontvangen voorschotten en vooruitbetalingen rekening Naar aanleiding van een vraag daaromtrent heeft de Commissie geadviseerd dat op rekening 46 niet enkel de "ontvangen" - in de zin van effectief geïnde - voorschotten en vooruitbetalingen worden geboekt, doch eveneens de nog te innen voorschotten en vooruitbetalingen. Zodra derhalve een voorschot gefactureerd werd behoort het, hoewel nog niet "ontvangen", geboekt te worden op rekening 46.

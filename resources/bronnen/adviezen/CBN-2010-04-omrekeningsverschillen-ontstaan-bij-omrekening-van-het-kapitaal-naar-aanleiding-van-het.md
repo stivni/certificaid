@@ -8,6 +8,19 @@ themas:
   - kapitaal
   - omrekeningsverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/4 — omrekeningsverschillen ontstaan bij omrekening van het kapitaal naar aanleiding van het De procedure voor het vragen van afwijkingen wordt vastgelegd in artikel 14 van de Boekhoudwet van 17 juli 1975 en in artikel 125, § 1 van het Wetboek van Vennootschappen. 

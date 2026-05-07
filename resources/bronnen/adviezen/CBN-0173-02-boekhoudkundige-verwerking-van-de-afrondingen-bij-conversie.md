@@ -7,6 +7,19 @@ themas:
   - euro
   - overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/2 — boekhoudkundige verwerking van de afrondingen bij conversie Bij het Commissariaat-generaal voor de euro is een bijzondere werkgroep opgericht om de problemen te onderzoeken in verband met de verwerking van omrekeningsafrondingen. In de eerste conclusies en aanbevelingen van die werkgroep1

@@ -12,6 +12,19 @@ themas:
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
 bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/18 — subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen1

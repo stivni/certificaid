@@ -14,6 +14,19 @@ themas:
   - geldbeleggingen
   - inkomsten uit gecertificeerde effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 178/1 — advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van De certificatie van effecten is een techniek die werd geregeld bij de wet van 15 juli 1998. Door de opsplitsing die ze mogelijk maakt tussen de patrimoniale aspecten van de effecten van een vennootschap en de daaraan verbonden stemrechten kan zij inzonderheid tot doel hebben de continuïteit van het management van een vennootschap te waarborgen. 

@@ -9,6 +9,19 @@ themas:
   - effecten op naam
   - gedematerialiseerde effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2014/6 — de boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten Omzetting van rechtswege op 1 januari 2014 in gedematerialiseerde effecten of in effecten op naam

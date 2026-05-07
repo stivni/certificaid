@@ -8,6 +8,19 @@ themas:
   - voorschot
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 120/6 — boeking van het financiele bedrijf van een coordinatiecentrum binnen een groep Aan de Commissie werd gevraagd waar leningen voor investeringsdoeleinden toegekend door een coördinatiecentrum aan de in België gevestigde dochterondernemingen van de groep, alsmede voorschotten op vaste termijn toegekend door dit centrum aan de vennootschappen van de groep op grond van hun behoeften, boekhoudkundig moeten worden gerangschikt. 

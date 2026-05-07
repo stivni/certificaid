@@ -20,6 +20,19 @@ themas:
   - verbindingsrekening
   - weglating van resultaten uit interne verrichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 172/1 — opneming van de rekeningen van een buitenlands bijkantoor Omrekening van de rekeningen van het bijkantoor in euro bij hun opneming in de boekhouding van de zetel

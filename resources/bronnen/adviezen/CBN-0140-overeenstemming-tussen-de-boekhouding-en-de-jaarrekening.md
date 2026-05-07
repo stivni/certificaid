@@ -6,6 +6,19 @@ themas:
   - overeenstemming
   - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 140 — overeenstemming tussen de boekhouding en de jaarrekening Krachtens artikel 5 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen moet het rekeningenstelsel van de onderneming zodanig worden opgevat of aangepast dat de balans en de resultatenrekening zonder toevoeging of weglating voortvloeien uit de balans van de desbetreffende rekeningen. 

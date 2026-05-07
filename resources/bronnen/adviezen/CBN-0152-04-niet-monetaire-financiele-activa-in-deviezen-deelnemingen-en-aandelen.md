@@ -17,6 +17,19 @@ themas:
   - aandelen
   - aandelen in deviezen
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/4 — niet monetaire financiele activa in deviezen deelnemingen en aandelen Naar aanleiding van haar advies over de boekhoudkundige verwerking van vreemde valuta1

@@ -11,6 +11,19 @@ themas:
   - software
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 176/1 — boekhoudrechtelijke aspecten met betrekking tot het jaar In hun huidige versie kunnen sommige informaticasystemen gegevens in verband met datums van na het jaar 1999 niet naar behoren beheren in zover ze ontwikkeld zijn om enkel de twee eindcijfers en dus niet de vier cijfers van een jaartal te verwerken en op te slaan. De twee eeuwcijfers werden vaak weggelaten om het werkgeheugen te besparen. Dit probleem kan zware gevolgen hebben voor het bedrijfsleven.

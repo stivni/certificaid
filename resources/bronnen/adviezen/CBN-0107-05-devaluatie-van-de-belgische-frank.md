@@ -5,6 +5,19 @@ themas:
   - devaluatie van de Belgische frank
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/5 — devaluatie van de belgische frank Overeenkomstig artikel 19, derde lid, van het koninklijk besluit van 8 oktober 1976 moet in de jaarrekening rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het beheersorgaan van de onderneming wordt opgesteld.

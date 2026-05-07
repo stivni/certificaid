@@ -13,6 +13,19 @@ themas:
   - getrouw beeld
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/21 — actualisatie van uitgestelde belastingen update Aan de Commissie werd de vraag gesteld of de uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden in de balans mogen worden opgenomen voor een bedrag gelijk aan de geactualiseerde waarde van de uitgestelde belasting. De vraagsteller is van mening dat een opname van de uitgestelde belastingen voor een bedrag gelijk aan de verdisconteerde waarde van de uitgestelde belastingen gerechtvaardigd is omwille van de volgende redenen:

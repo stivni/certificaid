@@ -16,6 +16,19 @@ themas:
   - one-line-consolidation
   - intragroepsverkoop
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2022/11 — vermogensmutatiemethode

@@ -10,6 +10,19 @@ themas:
   - toelichting
   - zaakvoerder
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 111/2 — toepassing van de uitzondering waarin punt 17 van de toelichting voorziet CBN-advies 111/2 - Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet

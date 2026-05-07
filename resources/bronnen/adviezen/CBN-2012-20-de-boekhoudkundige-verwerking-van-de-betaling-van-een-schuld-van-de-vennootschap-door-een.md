@@ -4,6 +4,19 @@ datum: 2012-12-05
 themas:
   - borgstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-betaling-van-een-schuld-van-de-vennootschap-door-een
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-betaling-van-een-schuld-van-de-vennootschap-door-een
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/20 — de boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld naar de boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een derde die zich hiertoe als borg heeft verbonden ten aanzien van de schuldeiser.

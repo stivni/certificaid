@@ -7,15 +7,15 @@ bijgewerkt: "03.04.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/VCF-2026.pdf
-    sha256: e48d80794da796d8b9822a99acf06ce70e7302f277f0973bd7e942acd3a59aa0
-    version: 03.04.2026
+    - id: resources/raw/wetteksten/VCF-2026.pdf
+      sha256: e48d80794da796d8b9822a99acf06ce70e7302f277f0973bd7e942acd3a59aa0
+      version: 03.04.2026
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:07Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

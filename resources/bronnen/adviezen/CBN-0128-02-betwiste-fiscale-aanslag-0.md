@@ -7,6 +7,19 @@ themas:
   - betwiste fiscale aanslag
   - schulden
 bron: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 128/2 — betwiste fiscale aanslag Naar aanleiding van advies 128/1 dat verschenen is in het *Bull. CBN *nr. 7, werd de vraag gesteld of de voorgestelde boekingswijze geen fiscale gevolgen heeft. De Commissie had geadviseerd enerzijds het ingecohierde bedrag ten laste te nemen en anderzijds op het actief het geschatte bedrag op te nemen van het verhaal tegen de aanslag. Daar de Commissie niet bevoegd is in deze aangelegenheid werd het advies ingewonnen van het fiscaal bestuur, dat hierna wordt weergegeven. 

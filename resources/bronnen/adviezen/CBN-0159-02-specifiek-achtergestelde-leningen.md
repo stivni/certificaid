@@ -10,6 +10,19 @@ themas:
   - specifiek achtergestelde leningen
   - toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 159/2 — specifiek achtergestelde leningen Aan de Commissie werd gevraagd in welke passiefpost van de jaarrekening een lening met een achterstellingsclausule die niet geldt voor alle schuldeisers, moet worden geboekt. 

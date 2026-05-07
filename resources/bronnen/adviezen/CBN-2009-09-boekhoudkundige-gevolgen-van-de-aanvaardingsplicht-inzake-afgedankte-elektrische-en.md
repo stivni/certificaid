@@ -13,6 +13,19 @@ themas:
   - sectorbeheersorganisme
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2009/9 — boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten

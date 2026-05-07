@@ -11,6 +11,19 @@ themas:
   - over te dragen opbrengsten
   - percentage of completion method
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/17 — boekhoudkundige verwerking van onderzoeksfondsen in de jaarrekening van grote en zeer Verenigingen en stichtingen ontvangen geregeld “onderzoeksfondsen” met het oog op de uitvoering van welbepaalde onderzoeksactiviteiten. 

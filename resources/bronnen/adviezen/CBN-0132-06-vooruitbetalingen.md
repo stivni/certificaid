@@ -8,6 +8,19 @@ themas:
   - waardering
   - waardering van voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 132/6 — vooruitbetalingen Naar hun aard zijn ontvangen en gedane vooruitbetalingen duidelijk te onderscheiden van schulden en vorderingen. Vooruitbetalingen doen geen toekomstige uitgaande of inkomende kasstromen ontstaan. Zodra het goed is ontvangen of geleverd of de dienst is verricht verdwijnen zij doordat zij worden verrekend met de vordering of de schuld die ontstaat ingevolge de levering of ontvangst van het goed of het verrichten van de dienst. 

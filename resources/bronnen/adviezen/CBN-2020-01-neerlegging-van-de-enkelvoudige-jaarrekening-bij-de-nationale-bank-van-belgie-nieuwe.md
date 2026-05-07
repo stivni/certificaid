@@ -14,6 +14,19 @@ themas:
   - kapitaal
   - uitgiftepremie
 bron: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2020/01 — neerlegging van de enkelvoudige jaarrekening bij de nationale bank van belgie nieuwe

@@ -6,6 +6,19 @@ themas:
   - onttrekking aan de belastingvrije reserves
   - toevoeging aan de belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 131/2 — toevoegingen en onttrekkingen boekhoudkundige verwerking Krachtens het koninklijk besluit van 8 oktober 1976 moeten belastingvrije reserves, dat zijn de gerealiseerde meerwaarden en de winsten die belastingvrij zijn indien ze in het vermogen van de onderneming blijven, in een afzonderlijke rubriek op de passiefzijde van de balans worden geboekt. 

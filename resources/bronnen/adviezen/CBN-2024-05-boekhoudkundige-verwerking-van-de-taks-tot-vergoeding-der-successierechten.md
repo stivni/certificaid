@@ -13,6 +13,19 @@ themas:
   - bezittingen
   - bedrijfsbelastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2024/05 — boekhoudkundige verwerking van de taks tot vergoeding der successierechten

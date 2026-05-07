@@ -14,6 +14,19 @@ themas:
   - vlottende activa
   - voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 150/1 — materiele vaste activa onderscheid met voorraden De Commissie werd meermaals gevraagd op grond van welke criteria bepaalde vermogensbestanddelen in de boekhouding en de jaarrekening hetzij bij de vaste activa, hetzij bij de voorraden, moeten worden ingedeeld. 

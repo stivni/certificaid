@@ -11,6 +11,19 @@ themas:
   - materiële vaste activa
   - overige materiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 150/2 — aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie De kosten van aansluiting op een openbaar vervoer- of distributienet alsook van de erop betrekking hebbende installaties worden meestal aan de verbruiker gefactureerd. De aansluitingen of installaties zelf worden of blijven evenwel hetzij conventioneel hetzij overeenkomstig de wet, eigendom van de titularissen of concessionarissen van het openbaar netwerk. 

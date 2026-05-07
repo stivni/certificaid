@@ -4,6 +4,19 @@ datum: 1979-05-01
 themas:
   - financiële korting
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 116 — financiele kortingen In het handelsverkeer wordt vaak in overeenkomsten of in facturen een korting voorzien ten belope van een zeker percentage van het gefactureerde bedrag bij betaling van dit bedrag vóór een vastgestelde datum. 

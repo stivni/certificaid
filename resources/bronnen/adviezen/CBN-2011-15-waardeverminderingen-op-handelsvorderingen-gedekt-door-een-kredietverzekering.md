@@ -13,6 +13,19 @@ themas:
   - subrogatie
   - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/15 — waardeverminderingen op handelsvorderingen gedekt door een kredietverzekering De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen

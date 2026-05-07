@@ -10,6 +10,19 @@ themas:
   - dotatie
   - kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/10 — de boekhoudkundige verwerking van grensoverschrijdende splitsingen Splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat

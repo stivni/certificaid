@@ -20,6 +20,19 @@ themas:
   - vereniging
   - stichting
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2019/12 — groottecriteria verenigingen en stichtingen schema van de jaarrekening begroting

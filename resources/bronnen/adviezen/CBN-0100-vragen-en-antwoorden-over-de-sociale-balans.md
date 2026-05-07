@@ -13,6 +13,19 @@ themas:
   - sociale balans
   - voordelen bovenop het loon
 bron: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies S100 — vragen en antwoorden over de sociale balans De ondernemingen die een sociale balans bij de NBB moeten neerleggen en openbaar maken

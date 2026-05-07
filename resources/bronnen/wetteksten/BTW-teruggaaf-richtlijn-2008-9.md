@@ -7,15 +7,15 @@ bijgewerkt: "01.10.2010"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
-    sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
-    version: 01.10.2010
+    - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
+      sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
+      version: 01.10.2010
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

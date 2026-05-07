@@ -9,6 +9,19 @@ themas:
   - vertoningsrechten
   - voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 132/5 — rechten tot vertoning van films De Commissie werd om advies gevraagd over de boekhoudkundige verwerking van het bedrag dat een onderneming (bedoeld wordt een bioscoopuitbater of een televisieomroep) betaalt voor de verwerving van het recht tot vertoning van een film. 

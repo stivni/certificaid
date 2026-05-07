@@ -5,6 +5,19 @@ themas:
   - nominale waarde
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 137/5 — vorderingen en schulden waarvan de rente uitsluitend bestaat uit het verschil tussen de Artikel 27*bis* van het koninklijk besluit van 8 oktober 1976 bepaalt dat bij de boeking van een vordering in de balans voor haar nominale waarde in voorkomend geval in de overlopende rekeningen van het passief worden geboekt en pro rata temporis in resultaat worden genomen : 

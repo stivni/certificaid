@@ -4,6 +4,19 @@ datum: 1977-08-01
 themas:
   - compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 105/1 — compensatie tussen debet en creditsaldi bij eenzelfde bankinstelling Ondernemingen openen regelmatig bij eenzelfde bankinstelling meerdere rekeningen-courant waarop worden geregistreerd, de verrichtingen van verschillende succursalen, verrichtingen die verband houden met de uitvoering van bestellingen of van verschillende werken, enz. 

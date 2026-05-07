@@ -17,6 +17,19 @@ themas:
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/17 — boekhoudkundige verwerking van subsidies schenkingen en legaten in natura in de Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting

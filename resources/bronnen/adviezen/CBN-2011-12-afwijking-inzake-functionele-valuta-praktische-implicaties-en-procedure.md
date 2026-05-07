@@ -18,6 +18,19 @@ themas:
   - wisselkoers
   - wisselkoersverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/12 — afwijking inzake functionele valuta praktische implicaties en procedure Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta tijdens het boekjaar

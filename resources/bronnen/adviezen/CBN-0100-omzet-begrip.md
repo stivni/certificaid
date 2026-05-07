@@ -6,6 +6,19 @@ themas:
   - voordelen bovenop het loon
   - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 100 — omzet begrip Tal van bepalingen van de wet van 17 juli 1975 en van het koninklijk besluit van 8 oktober 1976 verwijzen naar het begrip omzetcijfer1

@@ -7,15 +7,15 @@ bijgewerkt: "12.02.2008"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
-    sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
-    version: 12.02.2008
+    - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
+      sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
+      version: 12.02.2008
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

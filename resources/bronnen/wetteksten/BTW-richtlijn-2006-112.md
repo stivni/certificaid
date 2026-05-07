@@ -7,15 +7,15 @@ bijgewerkt: "11.12.2006"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
-    sha256: d2e9f9e0e1ba01e3822dab19047137bf146cfbee10bc4f9d823c53587f91110d
-    version: 11.12.2006
+    - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
+      sha256: d2e9f9e0e1ba01e3822dab19047137bf146cfbee10bc4f9d823c53587f91110d
+      version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

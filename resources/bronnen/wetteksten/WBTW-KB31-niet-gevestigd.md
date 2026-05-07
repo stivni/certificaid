@@ -7,15 +7,15 @@ bijgewerkt: "02.04.2002"
 bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
 provenance:
   inputs:
-  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
-    sha256: e622c63358c2e8e1495c218028988bc46e2c27543e812a3cdc3632f8abe12e01
-    version: 02.04.2002
+    - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+      sha256: 63ccf3d1b29dd477e24c41deee6a1febe0c3449e4d69013291697d1aa7a0a4d1
+      version: 02.04.2002
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

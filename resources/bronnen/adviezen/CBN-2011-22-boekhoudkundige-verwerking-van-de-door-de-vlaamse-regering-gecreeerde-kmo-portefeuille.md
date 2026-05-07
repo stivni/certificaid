@@ -6,6 +6,19 @@ themas:
   - ondernemerschapsportefeuille
   - subsidies
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/22 — boekhoudkundige verwerking van de door de vlaamse regering gecreeerde kmo portefeuille De kmo-portefeuille of ondernemerschapsportefeuille betreft een steunmaatregel van de Vlaamse overheid, hoofdzakelijk gericht op het verbeteren van de huidige of toekomstige bedrijfsvoering bij kmo’s.1

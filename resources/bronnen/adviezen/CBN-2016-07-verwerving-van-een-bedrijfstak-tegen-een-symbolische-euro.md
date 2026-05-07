@@ -8,6 +8,19 @@ themas:
   - symbolische euro
   - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/7 — verwerving van een bedrijfstak tegen een symbolische euro Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer

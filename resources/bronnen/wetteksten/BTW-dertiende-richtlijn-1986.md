@@ -7,15 +7,15 @@ bijgewerkt: "21.11.1986"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
-    sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
-    version: 21.11.1986
+    - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
+      sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
+      version: 21.11.1986
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

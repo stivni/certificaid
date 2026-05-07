@@ -4,6 +4,19 @@ datum: 2025-04-15
 themas:
   - splitsing
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2025/01 — boekhoudkundige verwerking van splitsingen van vennootschappen negatief fiscaal

@@ -7,15 +7,15 @@ bijgewerkt: "28.05.2024"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
-    sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
-    version: 28.05.2024
+    - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
+      sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
+      version: 28.05.2024
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

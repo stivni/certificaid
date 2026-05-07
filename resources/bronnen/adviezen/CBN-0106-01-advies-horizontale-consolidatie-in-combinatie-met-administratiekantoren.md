@@ -10,6 +10,19 @@ themas:
   - administratiekantoor
   - horizontale consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies C106/1 — advies horizontale consolidatie in combinatie met administratiekantoren Aan de Commissie werd een vraag voorgelegd met betrekking tot de horizontale consolidatieplicht van een groep vennootschappen. Drie Belgische holdings (A, B en C) hebben elk een aantal dochterondernemingen en elk van de drie holdings overschrijden afzonderlijk de criteria bedoeld in art. 16 W.Venn. wat impliceert dat in de regel elke holding als moedervennootschap een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening moet opstellen. Elk van deze drie holdings heeft de rechtsvorm van een commanditaire vennootschap op aandelen. Zij worden elk bestuurd door een verschillende statutaire zaakvoerder rechtspersoon. Holding A door BVBA X, holding B door BVBA Y en holding C door BVBA Z. Elk van deze zaakvoerders heeft conform art. 61, § 2, eerste lid W.Venn.  een vaste vertegenwoordiger natuurlijk persoon. Voor BVBA X is dat mevrouw P en voor de BVBA Y en Z is dat haar echtgenoot, de heer Q.

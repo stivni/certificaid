@@ -9,6 +9,19 @@ themas:
   - waarderingsregels
   - wijziging van de waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 154/1 — wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking

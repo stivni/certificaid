@@ -11,6 +11,19 @@ themas:
   - schulden met een abnormaal lage rente
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 137/4 — renteloze vorderingen schulden en vorderingen schulden met een abnormaal lage rente op Overeenkomstig artikel 27*bis*, § 2, eerste lid, *litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.

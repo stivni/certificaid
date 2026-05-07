@@ -9,6 +9,19 @@ themas:
   - omvangcriteria
   - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/condominium
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/condominium
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 114/7 — condominium Aan de Commissie werd de vraag gesteld of de berekening op geconsolideerde basis van de criteria voor de kleine en middelgrote ondernemingen, zoals bedoeld in artikel 12, § 2 van het koninklijk besluit van 12 september 1983, van toepassing is op een joint venture, namelijk wanneer twee of meer ondernemingen samen voor een evenredig deel het gehele kapitaal van een andere onderneming bezitten. 

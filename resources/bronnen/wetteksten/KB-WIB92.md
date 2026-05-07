@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/KB-WIB92.pdf
-    sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/KB-WIB92.pdf
+      sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

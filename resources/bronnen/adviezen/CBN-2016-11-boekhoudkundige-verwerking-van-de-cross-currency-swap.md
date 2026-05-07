@@ -15,6 +15,19 @@ themas:
   - vreemde valuta
   - wisselrisico
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/11 — boekhoudkundige verwerking van de cross currency swap Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva

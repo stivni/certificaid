@@ -8,6 +8,19 @@ themas:
   - keuzedividend
   - stockdividend
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/3 — de boekhoudkundige verwerking van stockdividenden Aan de Commissie werd de vraag gesteld hoe een stockdividend dient verwerkt te worden in de boekhouding van de vennootschap1

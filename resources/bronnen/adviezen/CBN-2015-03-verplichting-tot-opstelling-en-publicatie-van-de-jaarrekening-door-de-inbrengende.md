@@ -9,6 +9,19 @@ themas:
   - vereniging
   - vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2015/3 — verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende In het kader van een pseudo-fusie door overneming, werd met betrekking tot grote en zeer grote verenigingen aan de Commissie gevraagd welke verplichtingen inzake de opmaak en publicatie van de jaarrekening gelden voor de inbrengende vereniging die naar aanleiding van de pseudo-fusie ophoudt te bestaan.

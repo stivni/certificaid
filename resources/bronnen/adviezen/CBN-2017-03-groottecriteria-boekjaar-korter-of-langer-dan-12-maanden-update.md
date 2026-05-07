@@ -8,6 +8,19 @@ themas:
   - verlenging van het boekjaar
   - verkorting van het boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2017/03 — groottecriteria boekjaar korter of langer dan 12 maanden update

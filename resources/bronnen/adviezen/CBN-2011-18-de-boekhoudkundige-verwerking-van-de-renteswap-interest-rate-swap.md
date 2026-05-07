@@ -10,6 +10,19 @@ themas:
   - IRS
   - renteswap
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/18 — de boekhoudkundige verwerking van de renteswap interest rate swap De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet

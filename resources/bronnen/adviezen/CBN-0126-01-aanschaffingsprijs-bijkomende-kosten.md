@@ -5,6 +5,19 @@ themas:
   - aanschaffingsprijs
   - bijkomende kost
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/1 — aanschaffingsprijs bijkomende kosten Overeenkomstig artikel 21 van het besluit van 8 oktober 1976 maken de bijkomende kosten die werden gemaakt voor de aanschaffing van zowel vaste als vlottende activa integraal deel uit van de aanschaffingsprijs en bijgevolg van de waarde waartegen deze activa in de jaarrekening worden opgenomen. 

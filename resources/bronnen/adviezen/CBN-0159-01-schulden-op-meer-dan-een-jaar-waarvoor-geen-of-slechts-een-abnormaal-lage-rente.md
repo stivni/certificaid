@@ -11,6 +11,19 @@ themas:
   - schulden met een abnormaal lage rente
   - schulden op meer dan één jaar
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 159/1 — schulden op meer dan een jaar waarvoor geen of slechts een abnormaal lage rente Het koninklijk besluit van 6 november 1987 tot wijziging van het koninklijk besluit van 8 oktober 1976 ter zake1

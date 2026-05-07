@@ -5,6 +5,19 @@ themas:
   - vordering
   - inbetalinggeving
 bron: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/5 — betaling van vorderingen in natura De Commissie wenst in dit advies de betaling van een vordering in natura te behandelen. De betaling kan omschreven worden als de rechtshandeling waardoor de schuldenaar zijn verbintenis uitvoert. Een bijzondere vorm van betaling is de zogenaamde *inbetalinggeving*: de schuldenaar kan er bijvoorbeeld voor opteren om een goed te leveren of een dienst te verstrekken ter betaling1

@@ -11,6 +11,19 @@ themas:
   - verkoopprijs van een deelneming
   - waarborg
 bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/15 — aanpassing van de aan verkoopprijs van een deelneming In het kader van een (aan-) verkoopsverrichting van een deelneming, gebeurt het vaak dat de verkoper en/ of koper aan de koper en/of verkoper een aantal waarborgen bieden in verband met, bijvoorbeeld, wat de verkoper aangaat, de werkelijkheid en de correcte waardering van bepaalde posten van de jaarrekening van de vennootschap, waarvan de aandelen afgestaan werden, haar commerciële of juridische positie en wat de koper aangaat, de verwachte ontwikkeling of het behoud van de werkgelegenheid. 

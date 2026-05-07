@@ -15,6 +15,19 @@ themas:
   - Voorraad afvalstoffen
   - voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 171 — boekhoudkundige verwerking van afvalstoffen Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 

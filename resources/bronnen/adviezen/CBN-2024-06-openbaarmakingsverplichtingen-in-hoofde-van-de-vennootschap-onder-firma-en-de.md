@@ -14,6 +14,19 @@ themas:
   - jaarrekening
   - ontbinding en vereffening in één akte
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2024/06 — openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de

@@ -7,6 +7,19 @@ themas:
   - schulden
   - schulden op meer dan één jaar
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 137/3 — schulden op meer dan een jaar prefinanciering van langlopende leningen Aan de Commissie werd de vraag gesteld of een krediet verkregen op korte termijn, in het kader van een globaal financieringsplan van een meerjarig investeringsprogramma, bedoeld als een prefinanciering van een krediet op lange termijn dat op het einde van het boekjaar reeds was verkregen doch nog niet effectief toegekend, op de balans mag worden geboekt onder de schulden op méér dan één jaar.

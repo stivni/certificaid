@@ -5,6 +5,19 @@ themas:
   - voorziening
   - waarborg
 bron: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/6 — waarborgen verbonden aan de verkoop van goederen of het leveren van diensten Meestal worden bij verkoop van goederen of het leveren van diensten, op grond van hetzij gemeenrechtelijke regels of bijzondere contractuele bepalingen, waarborgen verleend zoals waarborgen tegen verborgen gebreken, conformiteitswaarborgen, waarborgen voor «stukken en arbeidsloon», enz. Uiteindelijk wil de verkoper of dienstverlener hierdoor binnen zekere grenzen en gedurende een welbepaalde tijd waarborgen dat het verkochte voorwerp of de geleverde dienst overeenstemt hetzij met de contractuele bepalingen, hetzij met de rechtmatige verwachtingen van de koper met betrekking tot de verkregen zaak of dienst.

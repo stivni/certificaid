@@ -10,6 +10,19 @@ themas:
   - obligaties
   - winstbewijs
 bron: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 164 — passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten cpcs Aan de Commissie werd gevraagd hoe de tegenwaarde van het onlangs gecreëerde instrument, het participatiecertificaat, verkort "CPC" genaamd, boekhoudkundig moet worden verwerkt. 

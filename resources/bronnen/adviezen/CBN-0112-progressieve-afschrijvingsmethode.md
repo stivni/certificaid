@@ -7,6 +7,19 @@ themas:
   - gebruiksduur
   - progressieve afschrijvingsmethode
 bron: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 112/5 — progressieve afschrijvingsmethode Volgens het koninklijk besluit van 8 oktober 1976 moeten de materiële en immateriële vaste activa waarvan de gebruiksduur beperkt is, worden afgeschreven volgens een door het beheersorgaan bepaald plan, teneinde de aanschaffingskosten te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. Dit afschrijvingsbeleid moet stroken met de beginselen inzake voorzichtigheid, oprechtheid en goede trouw. Het mag niet worden geconditioneerd door de resultaten van het boekjaar. 

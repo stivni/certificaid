@@ -9,6 +9,19 @@ themas:
   - publicatie van het omzetcijfer
   - vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 108/1 — afwijkingen van de bepalingen van het kb van 8 oktober 1976 procedure Artikel 15 van de wet van 17 juli 1975 bepaalt dat de Minister van Economische Zaken, in speciale gevallen en op gemotiveerd advies van de Commissie voor Boekhoudkundige Normen, afwijkingen mag toestaan van de regels getroffen krachtens artikel 4, 6de lid, artikel 7, 4de lid en de artikelen 10 en 11 van de wet.

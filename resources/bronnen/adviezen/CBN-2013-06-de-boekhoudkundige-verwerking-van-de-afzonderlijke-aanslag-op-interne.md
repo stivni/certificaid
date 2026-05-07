@@ -6,6 +6,19 @@ themas:
   - interne pensioenvoorziening
   - pensioenvoorzieningen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/6 — de boekhoudkundige verwerking van de afzonderlijke aanslag op interne onderwerpt interne pensioenvoorzieningen aan een éénmalige belastingheffing middels een afzonderlijke aanslag. De bedoelde voorzieningen zijn de voorzieningen die gevormd zijn ter uitvoering van aanvullende individuele pensioentoezeggingen bestaand op het einde van het laatste boekjaar met afsluitdatum vóór 1 januari 2012. De heffing bedraagt 1,75 procent van deze voorzieningen. De afzonderlijke aanslag wordt samen met de vennootschapsbelasting, de rechtspersonenbelasting of de belasting van niet-inwoners voor het aanslagjaar 2013 ingekohierd.

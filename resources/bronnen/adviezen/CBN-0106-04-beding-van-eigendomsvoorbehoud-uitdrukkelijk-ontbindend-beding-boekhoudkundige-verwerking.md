@@ -8,6 +8,19 @@ themas:
   - eigendomsvoorbehoud
   - materiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 106/4 — beding van eigendomsvoorbehoud uitdrukkelijk ontbindend beding boekhoudkundige verwerking CBN-advies 106/4 - Beding van eigendomsvoorbehoud - Uitdrukkelijk ontbindend beding. Boekhoudkundige verwerking

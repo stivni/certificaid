@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/WDRT.pdf
-    sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/WDRT.pdf
+      sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

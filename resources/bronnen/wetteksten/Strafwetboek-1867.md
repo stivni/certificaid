@@ -7,15 +7,15 @@ bijgewerkt: "gecoördineerd"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
-    sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
-    version: gecoördineerd
+    - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
+      sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
+      version: gecoördineerd
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

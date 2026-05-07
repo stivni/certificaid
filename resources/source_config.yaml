@@ -28,6 +28,55 @@
 #     "interpretatief" — CBN-adviezen, ITAA-normen; autoriteit voor interpretatie
 #     "praktijkgids"   — toelichtingen, gidsen, commentaar; hoe het in de praktijk werkt
 #     "formulier"      — aangifteformulieren; referentie, geen conceptinhoud
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# Twee secties:
+#   sources/      : per-bron entries met expliciete extract-strategie (wetteksten,
+#                   wetboeken, KB's). Geschikt voor curated bronnen met een
+#                   eigen PDF en een uniek conversie-pad.
+#   collections/  : bulk-bronnen met dezelfde strategie voor alle items
+#                   (CBN-adviezen, ITAA-normen). Per item leeft de detail in de
+#                   .md frontmatter; de collection beschrijft welke fields
+#                   gebruikt worden als input voor provenance.
+#
+# Collection schema:
+#   bron_rol      : zelfde als bij sources
+#   output_dir    : pad naar de map met .md output-files
+#   pipeline      : pad naar het script dat de .md's produceert (voor provenance)
+#   item_inputs   : lijst van frontmatter-velden die per item als input tellen
+#                   - field: <fm-veld>
+#                     kind:  local | url
+#                   Alle resolvende velden worden samen als inputs opgenomen.
+# ─────────────────────────────────────────────────────────────────────────────
+
+collections:
+
+  cbn-adviezen:
+    bron_rol: interpretatief
+    output_dir: resources/bronnen/adviezen/
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    item_inputs:
+      - field: bron
+        kind: url
+    description: |
+      ~437 CBN-adviezen, gedownload van cbn-cnc.be (HTML-scrape) en omgezet
+      naar markdown. Per item: 'bron' bevat de bron-URL.
+
+  itaa-normen:
+    bron_rol: interpretatief
+    output_dir: resources/bronnen/normen/
+    pipeline: tools/etl/process_normen.py
+    item_inputs:
+      - field: bron-pdf
+        kind: local
+      - field: online
+        kind: url
+      - field: bron
+        kind: url
+    description: |
+      ITAA-normen + ISA/ISAE/ISRS van BeExcellent, IBR-IRE en IFAC.
+      Sommige ISA-normen hebben een lokaal raw PDF (bron-pdf); de meeste
+      hebben een online URL of een hostname als bron.
 
 sources:
 

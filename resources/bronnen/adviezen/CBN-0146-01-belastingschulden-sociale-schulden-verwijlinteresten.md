@@ -9,6 +9,19 @@ themas:
   - toelichting
   - verwijlintresten
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 146/1 — belastingschulden sociale schulden verwijlinteresten Als een schuld tegenover een belastingbestuur of de RSZ niet op de vervaldag is betaald, is de debiteur van rechtswege verwijlinteresten verschuldigd die worden berekend volgens de wettelijke bepaalde modaliteiten en tarieven1

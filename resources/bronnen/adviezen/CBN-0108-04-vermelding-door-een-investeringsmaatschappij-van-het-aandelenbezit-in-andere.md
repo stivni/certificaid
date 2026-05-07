@@ -6,6 +6,19 @@ themas:
   - investeringsmaatschappij
   - tijdelijk minderheidsbelang
 bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 108/4 — vermelding door een investeringsmaatschappij van het aandelenbezit in andere vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %2

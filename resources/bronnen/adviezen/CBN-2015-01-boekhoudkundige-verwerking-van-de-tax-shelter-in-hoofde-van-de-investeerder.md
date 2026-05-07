@@ -9,6 +9,19 @@ themas:
   - Onaantastbaarheidsvoorwaarde
   - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2015/1 — boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Aflevering van het tax shelter-attest: definitieve (eventueel gedeeltelijke) vrijstelling

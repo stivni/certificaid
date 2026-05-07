@@ -24,6 +24,19 @@ themas:
   - wisselrisico
   - wisselverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/1 — overschakeling op de euro boekhoudrechtelijke aspecten ## Vanaf 1 januari 1999 wordt de euro de munt van de Lid-Staten van de Europese Unie die deel uitmaken van de Europese Monetaire Unie.Gelet op de beslissingen van de Europese top van Madrid, Firenze en Dublin, de beraadslagingen van de (Belgische) Ministerraad van 2 augustus 1996 en het «Legal framework for the use of the Euro», vastgesteld door de Top van Dublin in december 1996, ziet de situatie er als volgt uit.**Inleiding**

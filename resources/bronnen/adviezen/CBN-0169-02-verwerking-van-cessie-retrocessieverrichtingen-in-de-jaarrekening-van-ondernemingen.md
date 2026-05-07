@@ -7,6 +7,19 @@ themas:
   - portageverrichtingen
   - aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 169/2 — verwerking van cessie retrocessieverrichtingen in de jaarrekening van ondernemingen Voorbeeld : schema voor de boekhoudkundige verwerking van een cessie-retrocessieverrichting

@@ -23,6 +23,19 @@ themas:
   - pandrecht op activa
   - voorrecht van de verkoper
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:48Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/17 — schulden gewaarborgd door een zakelijke zekerheid niet in de balans opgenomen rechten en

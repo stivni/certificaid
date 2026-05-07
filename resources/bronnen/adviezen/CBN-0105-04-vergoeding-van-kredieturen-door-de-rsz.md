@@ -6,6 +6,19 @@ themas:
   - financiering van kredieturen
   - kredieturen
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 105/4 — vergoeding van kredieturen door de rsz Krachtens de bestaande wetgeving zijn de werkgevers verplicht om een bijdrage te storten aan de RSZ voor de financiering van kredieturen. Wanneer een werknemer gebruik maakt van de mogelijkheid die hem door deze wetgeving wordt geboden, dan wordt de daarbij behorende bezoldiging terugbetaald aan de onderneming door de RSZ. 

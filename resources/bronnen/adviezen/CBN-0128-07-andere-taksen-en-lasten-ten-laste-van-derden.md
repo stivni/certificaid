@@ -6,6 +6,19 @@ themas:
   - belastingen ten laste van derden
   - taksen en belastingen van derden
 bron: https://www.cbn-cnc.be/nl/adviezen/andere-taksen-en-lasten-ten-laste-van-derden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/andere-taksen-en-lasten-ten-laste-van-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 128/7 — andere taksen en lasten ten laste van derden Het koninklijk besluit van 8 oktober 1976 schrijft de vermelding voor in de toelichting van het bedrag, voor het boekjaar en voor het vorige boekjaar, van de andere taksen en belastingen van derden (toelichting XVI, volledig schema).

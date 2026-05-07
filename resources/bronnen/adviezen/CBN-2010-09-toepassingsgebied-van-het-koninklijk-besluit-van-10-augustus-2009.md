@@ -5,6 +5,19 @@ themas:
   - transactie met verbonden partijen
   - transacties tussen verbonden ondernemingen
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/9 — toepassingsgebied van het koninklijk besluit van 10 augustus Via het koninklijk besluit van 10 augustus 2009 worden volgende categorieën van vennootschappen verplicht om informatie betreffende van enige betekenis zijnde transacties met verbonden partijen buiten normale marktvoorwaarden op te nemen in de toelichting: genoteerde vennootschappen2

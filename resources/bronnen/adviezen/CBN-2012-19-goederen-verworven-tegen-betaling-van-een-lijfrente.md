@@ -4,6 +4,19 @@ datum: 2012-11-07
 themas:
   - lijfrente
 bron: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/19 — goederen verworven tegen betaling van een lijfrente Boekhoudkundige verwerking in hoofde van de onderneming die een goed verwerft tegen betaling van een lijfrente

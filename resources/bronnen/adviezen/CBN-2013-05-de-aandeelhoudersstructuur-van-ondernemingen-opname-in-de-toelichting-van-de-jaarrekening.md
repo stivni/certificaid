@@ -7,6 +7,19 @@ themas:
   - kruisparticipaties
   - openbaarmakingsplicht
 bron: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/5 — de aandeelhoudersstructuur van ondernemingen opname in de toelichting van de jaarrekening Wet van 2 mei 2007 op de openbaarmaking van belangrijke deelnemingen in emittenten waarvan de aandelen zijn toegelaten tot de verhandeling op een gereglementeerde markt en houdende diverse bepalingen (hierna: Transparantiewet)

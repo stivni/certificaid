@@ -5,6 +5,19 @@ themas:
   - wettelijke reserve
   - reservefonds
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:48Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/05 — rekening 130 wettelijke reserve

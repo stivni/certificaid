@@ -11,6 +11,19 @@ themas:
   - schulden
   - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 150/4 — investering voor een rationeler energieverbruik geintegreerd energiebeheerprogramma De Commissie werd ondervraagd over de boekhoudkundige verwerking voor elk der betrokken partijen, van een financieringssysteem dat wordt aangeduid als "geïntegreerd energiebeheerprogramma". 

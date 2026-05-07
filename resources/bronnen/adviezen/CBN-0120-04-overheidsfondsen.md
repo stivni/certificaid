@@ -8,6 +8,19 @@ themas:
   - overheidsfondsen
   - vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 120/4 — overheidsfondsen Aan de Commissie werd de vraag gesteld of fondsen uitgegeven door de Belgische Staat, in hoofde van de ondernemingen die ze bezitten, noodzakelijk als *Geldbeleggingen *moeten worden beschouwd. 

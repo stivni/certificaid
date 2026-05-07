@@ -9,6 +9,19 @@ themas:
   - omzetting in inbreng
   - omzetting in kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2021/13 — herwaarderingsmeerwaarden bij vennootschappen gevolgen van de wijzigingen aangebracht door

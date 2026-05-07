@@ -20,6 +20,19 @@ themas:
   - proef- en saldibalans
   - taal
 bron: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/20 — gebruik van uniforme boekhoudsoftware door internationale ondernemingen Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden  van buitenlandse ondernemingen

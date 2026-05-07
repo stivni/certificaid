@@ -14,6 +14,19 @@ themas:
   - meldingsplicht
   - BIBF
 bron: beexcellentnl.itaa.be
+provenance:
+  inputs:
+    - id: beexcellentnl.itaa.be
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/process_normen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:52Z'
+  stale: false
+  stale_reason:
 ---
 
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten

@@ -9,6 +9,19 @@ themas:
   - omzetcijfer
   - verstoring van de mededingingsvoorwaarden
 bron: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 108/3 — adviesbeleid van de commissie voor boekhoudkundige normen ten aanzien van individuele Deze bijdrage behandelt - na de aanpassing van de Belgische wetgeving aan de vereisten van de Vierde EEG-Richtlijn - het adviesbeleid dat de Commissie toepast ten aanzien van individuele afwijkingsverzoeken van ondernemingen die gemotiveerd zijn door ontwrichting of scheeftrekking in de mededingingsvoorwaarden. In de meeste gevallen komt dergelijke vraag om afwijking neer op een verzoek tot vrijstelling van publikatie van het omzetcijfer of op een verzoek tot vrijstelling van uitsplitsing van het omzetcijfer naar geografische markten en categorieën bedrijfsactiviteit1

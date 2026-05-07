@@ -9,6 +9,19 @@ themas:
   - duolegaat in geld
   - duolegaat in natura
 bron: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:49Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2018/24 — duolegaat vereniging en stichting

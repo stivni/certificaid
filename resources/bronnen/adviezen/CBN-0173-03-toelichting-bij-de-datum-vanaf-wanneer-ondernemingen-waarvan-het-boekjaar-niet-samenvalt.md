@@ -7,6 +7,19 @@ themas:
   - opstelling van de jaarrekening in euro
   - overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/3 — toelichting bij de datum vanaf wanneer ondernemingen waarvan het boekjaar niet samenvalt De Commissie werd erop gewezen dat de woorden «of betrekking hebben op een periode» (vóór de officiële invoering van de euro), die voorkomen in de laatste lijn van het zesde lid op bladzijde 7 van advies 173/1 met betrekking tot de boekhoudrechtelijke aspecten i.v.m. de overschakeling op de euro1

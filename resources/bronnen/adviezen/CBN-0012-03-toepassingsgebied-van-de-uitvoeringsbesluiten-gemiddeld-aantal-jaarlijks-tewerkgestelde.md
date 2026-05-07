@@ -7,6 +7,19 @@ themas:
   - tewerkgestelde personen
   - uitzendkracht
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 12/3 — toepassingsgebied van de uitvoeringsbesluiten gemiddeld aantal jaarlijks tewerkgestelde De vraag werd gesteld welk criterium in aanmerking moet genomen worden voor de berekening van het gemiddeld aantal tewerkgestelde personen zoals bedoeld in artikel 12 van de wet van 17 juli 1975 en artikel 39 van het koninklijk besluit van 8 oktober 1976. 

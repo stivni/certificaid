@@ -8,6 +8,19 @@ themas:
   - verkorting van het boekjaar
   - verlenging van het boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/10 — duur van het boekjaar Artikel 9 van de Boekhoudwet van 17 juli  1975 en artikel  92, §1  van  het Wetboek van Vennootschappen verplichten de ondernemingen om minstens  éénmaal per  jaar  een inventaris op te maken en  een  jaarrekening  op  te stellen.  

@@ -7,15 +7,15 @@ bijgewerkt: "2024"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
-    sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
-    version: '2024'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
+      sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
+      version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

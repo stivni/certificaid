@@ -11,6 +11,19 @@ themas:
   - schulden
   - schulden jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid
 bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 110/2 — stukken die tegelijk met de jaarrekening dienen neergelegd te worden artikel 80 venn w ##  

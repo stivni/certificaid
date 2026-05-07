@@ -9,6 +9,19 @@ themas:
   - resultatenrekening
   - vereniging zonder winstoogmerk
 bron: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:44Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2011/7 — bestemde fondsen De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven1

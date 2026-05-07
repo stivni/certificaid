@@ -6,6 +6,19 @@ themas:
   - vrijstelling
   - geconsolideerde jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/10 — te verwaarlozen betekenis Artikel 107 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)

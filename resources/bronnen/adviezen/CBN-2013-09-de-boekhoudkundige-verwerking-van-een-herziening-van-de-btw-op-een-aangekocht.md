@@ -5,6 +5,19 @@ themas:
   - aanschaffingswaarde
   - herziening btw
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/9 — de boekhoudkundige verwerking van een herziening van de btw op een aangekocht Aan de Commissie werd de vraag gesteld op welke wijze een herziening van de belasting over de toegevoegde waarde (hierna: btw) op een aangekocht materieel vast actief boekhoudkundig moet worden verwerkt.

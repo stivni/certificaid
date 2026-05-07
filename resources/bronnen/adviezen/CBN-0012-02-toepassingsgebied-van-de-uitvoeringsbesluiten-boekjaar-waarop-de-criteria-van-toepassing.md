@@ -4,6 +4,19 @@ datum: 1977-12-01
 themas:
   - boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 12/2 — toepassingsgebied van de uitvoeringsbesluiten boekjaar waarop de criteria van toepassing Dit  advies  is  verouderd  gezien  het  nieuwe  artikel  12  van  de  wet  17  juli  1975  (artikel  8  van  de  wet  van  1  juli  1983)  

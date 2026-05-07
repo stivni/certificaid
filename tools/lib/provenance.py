@@ -27,7 +27,10 @@ _FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 def _yaml() -> YAML:
     y = YAML()
     y.preserve_quotes = True
-    y.indent(mapping=2, sequence=2, offset=0)
+    # 2-space indented block sequences (`themas:\n  - x`) — matches the dominant
+    # style in the existing corpus. Round-trip mode preserves per-block detected
+    # styles when they differ.
+    y.indent(mapping=2, sequence=4, offset=2)
     y.width = 4096  # avoid line-wrapping on long values
     return y
 

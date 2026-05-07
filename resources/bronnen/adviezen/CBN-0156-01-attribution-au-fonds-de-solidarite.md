@@ -9,6 +9,19 @@ themas:
   - toevoeging aan het solidariteitsfonds
   - diverse rechten en verplichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 156/1 — attribution au fonds de solidarite Aan de Commissie werd gevraagd welke boekingen vereist zijn wanneer bij het vertrek van een personeelslid de afkoopwaarde van diens groepsverzekering aan de vennootschap toekomt, omdat de betrokkene onvoldoende anciënniteit heeft om zelf op dit kapitaal aanspraak te kunnen maken.

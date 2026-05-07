@@ -6,6 +6,19 @@ themas:
   - materiële vaste activa
   - Natuurlijke rijkdom
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 158/1 — boekhoudkundige verwerking van de aankoop afschrijving en ontginning in concessie van Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontvangen. 

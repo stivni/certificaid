@@ -6,6 +6,19 @@ themas:
   - herwaardering
   - niet-gerealiseerde meerwaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 113/2 — herwaarderingen verricht met toepassing van de wet van 20 augustus CBN-advies 113/2 - Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947

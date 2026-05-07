@@ -15,6 +15,19 @@ themas:
   - verslag van de commissaris
   - commissarisverslag
 bron: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2022/14 — belgische bijkantoren van buitenlandse vennootschappen toepassing van het belgisch

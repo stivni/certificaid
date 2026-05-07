@@ -13,6 +13,19 @@ themas:
   - vruchtgebruik van aandelen onder bezwarende titel verworven
   - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 162/1 — boekhoudkundige verwerking van het vruchtgebruik van aandelen dat onder bezwarende titel De Commissie heeft volgend advies geformuleerd in verband met de wijze waarop een onderneming het vruchtgebruik van aandelen dat is verworven onder bezwarende titel, in haar boekhouding moet verwerken.

@@ -13,6 +13,19 @@ themas:
   - vergoeding voor ontbrekende coupon
   - aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 169/1 — verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen Rente en dividenden die tijdens de looptijd van de lening betaalbaar worden gesteld door de emittent van het effect 

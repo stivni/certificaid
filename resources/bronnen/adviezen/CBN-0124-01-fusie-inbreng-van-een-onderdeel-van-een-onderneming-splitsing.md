@@ -9,6 +9,19 @@ themas:
   - splitsing
   - vergelijkende cijfers
 bron: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 124/1 — fusie inbreng van een onderdeel van een onderneming splitsing Krachtens het besluit van 8 oktober 1976 moet de jaarrekening naast elke post de vergelijkende cijfers vermelden van het voorafgaande boekjaar. Wordt de voorstelling van de jaarrekening gewijzigd als gevolg van een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van de onderneming dan worden de cijfers van het voorafgaande boekjaar, uitsluitend omwille van de vergelijkbaarheid, aangepast op grond van de maatstaven die voor het boekjaar in aanmerking werden genomen. 

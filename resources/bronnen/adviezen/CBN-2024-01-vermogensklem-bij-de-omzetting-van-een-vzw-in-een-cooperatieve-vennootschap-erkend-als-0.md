@@ -21,6 +21,19 @@ themas:
   - aanzuivering van verlies
   - omzetting
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:51Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2024/01 — vermogensklem bij de omzetting van een vzw in een cooperatieve vennootschap erkend als 0

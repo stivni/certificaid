@@ -8,6 +8,19 @@ themas:
   - waardering
   - waardering van voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/6 — individualisering van de aanschaffingsprijs Krachtens artikel 18 van het koninklijk besluit van 8 oktober 1976 moet elk vermogensbestanddeel afzonderlijk worden gewaardeerd. 

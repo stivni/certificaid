@@ -8,6 +8,19 @@ themas:
   - Waardevermindering
   - waardevermindering op vorderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 127/1 — forfaitaire waardeverminderingen op vorderingen Aan de Commissie werd de vraag gesteld of het in het licht van het besluit inzake de jaarrekening van ondernemingen toelaatbaar is een forfaitaire waardevermindering te boeken op vorderingen ten einde rekening te houden met een algemeen, naar zijn aard moeilijk te specifiëren risico waaraan deze vorderingen onderhevig zijn, en in bevestigend geval hoe deze waardevermindering moet worden geboekt. 

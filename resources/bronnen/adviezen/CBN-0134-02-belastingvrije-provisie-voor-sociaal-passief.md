@@ -14,6 +14,19 @@ themas:
   - voorzieningen voor risico&#039;s en kosten
   - vrijgestelde reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 134/2 — belastingvrije provisie voor sociaal passief tot wijziging van het WIB met betrekking tot het sociaal passief wordt aan bepaalde ondernemingen de mogelijkheid verleend om bij de aanwerving van bijkomend personeel een belastingvrije «provisie» te vormen voor de kosten die de onderneming moet dragen in geval van afdanking van werknemers. Aan de Commissie werd gevraagd hoe deze «provisie» in de jaarrekening moet worden geboekt en of zij boekhoudkundig te beschouwen is als een reserve dan wel als een voorziening voor risico's en lasten in de zin van het besluit van 8 oktober 1976. 

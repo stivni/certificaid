@@ -7,15 +7,15 @@ bijgewerkt: "2022"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
-    sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
-    version: '2022'
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
+      sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
+      version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:08Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

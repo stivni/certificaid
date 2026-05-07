@@ -17,6 +17,19 @@ themas:
   - obligaties met warrant
   - toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 139/8 — uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of heeft de Commissie onderzocht hoe warrants (inschrijvingsrechten) door hun emittent moeten worden geboekt2

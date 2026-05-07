@@ -9,6 +9,19 @@ themas:
   - prijstoeslag
   - waardering
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/8 — financiele vaste activa waardering aanschaffingswaarde met prijstoeslag Financiële vaste activa en in het bijzonder deelnemingen worden, overeenkomstig het jaarrekeningbesluit van 8 oktober 1976, in de balans opgenomen tegen aanschaffingswaarde, na aftrek van de waardeverminderingen die hierop werden toegepast1

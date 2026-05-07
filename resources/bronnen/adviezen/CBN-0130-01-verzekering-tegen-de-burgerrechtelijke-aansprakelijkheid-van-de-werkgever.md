@@ -5,6 +5,19 @@ themas:
   - diensten en diverse goederen
   - verzekering burgerlijke aansprakelijkheid werkgever
 bron: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 130/1 — verzekering tegen de burgerrechtelijke aansprakelijkheid van de werkgever Overeenkomstig het besluit van 8 oktober 1976 moeten de kosten in de resultatenrekening worden geboekt volgens hun aard. De Commissie heeft de gelegenheid gehad dit beginsel te verduidelijken naar aanleiding van een vraag die haar werd gesteld over de post waaronder de premies moeten worden geboekt die door een onderneming werden betaald om haar burgerlijke aansprakelijkheid te verzekeren als werkgever voor de schade veroorzaakt aan derden door haar personeel1

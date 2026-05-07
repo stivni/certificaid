@@ -8,6 +8,19 @@ themas:
   - termijn
   - thesauriebelegging
 bron: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 120/2 — in aanmerking te nemen termijn contractuele termijn of nog te lopen termijn Wanneer de overblijvende duur van een tegoed op een financiële instelling, met een contractuele termijn van meer dan één maand, op de balansdatum geen maand meer bedraagt, mag - of moet - dit tegoed dan uit de rubriek *Thesauriebeleggingen *worden gehaald en onder de rubriek *Beschikbare waarden* worden ingeschreven ? 

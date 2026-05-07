@@ -7,15 +7,15 @@ bijgewerkt: "13.04.2019"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
-    sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
-    version: 13.04.2019
+    - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
+      sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
+      version: 13.04.2019
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

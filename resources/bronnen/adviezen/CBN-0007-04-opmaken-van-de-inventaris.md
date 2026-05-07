@@ -6,6 +6,19 @@ themas:
   - jaarafsluiting
   - opmaak van de inventaris
 bron: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 7/4 — opmaken van de inventaris Overeenkomstig artikel 9, §1 van de wet van 17 juli 1975 moet elke onderneming ten minste eens per jaar, omzichtig en te goeder trouw, de nodige opnemingen, verificaties, onderzoekingen en waarderingen verrichten om op een door haar gekozen datum de inventaris op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen van welke aard ook, die betrekking hebben op haar bedrijf en op de middelen daaraan verstrekt. Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris, worden zij samengevat in de jaarrekening.

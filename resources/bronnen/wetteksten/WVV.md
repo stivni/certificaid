@@ -7,15 +7,15 @@ bijgewerkt: "24.12.2025"
 bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/WVV.pdf
-    sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96
-    version: 24.12.2025
+    - id: resources/raw/wetteksten/WVV.pdf
+      sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:09Z'
+  generated_at: '2026-05-07T13:37:31Z'
   stale: false
   stale_reason:
 ---

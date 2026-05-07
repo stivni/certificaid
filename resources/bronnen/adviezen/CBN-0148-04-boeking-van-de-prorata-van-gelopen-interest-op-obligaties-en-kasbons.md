@@ -16,6 +16,19 @@ themas:
   - verworven opbrengsten
   - zero-bond
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 148/4 — boeking van de prorata van gelopen interest op obligaties en kasbons Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toegerekend aan het boekjaar waarop zij betrekking hebben. Artikel 19, vierde lid van het koninklijk besluit van 8 oktober 1976 bepaalt immers dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, ...". 

@@ -15,6 +15,19 @@ themas:
   - warrant
   - uitgiftepremie
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:41Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 139/7 — verwerking van uitgegeven inschrijvingsrechten in de jaarrekening De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.

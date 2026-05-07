@@ -36,6 +36,10 @@ def check_one(md_path: Path, *, dry_run: bool = False) -> tuple[str, str]:
 
     current_inputs: list[Input] = []
     for recorded in prov.inputs:
+        if recorded.sha256 is None:
+            # URL-sourced; no local file to hash, carry forward unchanged
+            current_inputs.append(recorded)
+            continue
         input_path = ROOT / recorded.id
         if not input_path.exists():
             return "missing-input", recorded.id

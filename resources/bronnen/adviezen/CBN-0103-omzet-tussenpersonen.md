@@ -11,6 +11,19 @@ themas:
   - reder
   - tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 103 — omzet tussenpersonen Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat de resultatenrekening enerzijds de bruto-inkomsten moet vermelden en anderzijds de bruto-kosten en dat deze naar hun aard moeten worden onderverdeeld. 

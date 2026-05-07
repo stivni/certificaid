@@ -14,6 +14,19 @@ themas:
   - meldingsplicht
 bron: itaa.be
 url: https://www.itaa.be/nl/aww-reglement-iab/
+provenance:
+  inputs:
+    - id: itaa.be
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/process_normen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:52Z'
+  stale: false
+  stale_reason:
 ---
 
 # Norm - 2020 03 31 - IAB - AWW

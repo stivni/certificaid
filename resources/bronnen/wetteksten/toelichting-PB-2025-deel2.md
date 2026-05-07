@@ -7,15 +7,15 @@ bijgewerkt: "2025"
 bron: "fin.belgium.be — FOD Financiën"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
-    sha256: d77349cadcb496404ca7611a8a5ebfbd5d10753f8794e9ef0635fd95099b5279
-    version: '2025'
+    - id: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
+      sha256: d77349cadcb496404ca7611a8a5ebfbd5d10753f8794e9ef0635fd95099b5279
+      version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:10Z'
+  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
 ---

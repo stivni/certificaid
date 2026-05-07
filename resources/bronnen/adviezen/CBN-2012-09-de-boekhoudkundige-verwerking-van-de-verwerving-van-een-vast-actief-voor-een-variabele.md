@@ -6,6 +6,19 @@ themas:
   - financiële vaste activa
   - immateriële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/9 — de boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele Toegepast op de variabele prijs betaald naar aanleiding van de verwerving van vaste activa

@@ -9,6 +9,19 @@ themas:
   - methode van gewogen gemiddelde prijzen
   - voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 132/1 — lifo methode Overeenkomstig artikel 43, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) wordt de aanschaffingswaarde van activa met identieke technische of juridische kenmerken bepaald hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, hetzij volgens de Fifo- of de Lifo-methode.

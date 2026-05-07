@@ -9,6 +9,19 @@ themas:
   - waardering
   - waardering van voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 126/7 — waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat voorraden - zoals de andere actiefbestanddelen -in de jaarrekening worden gewaardeerd tegen aanschaffingsprijs. Deze waarde wordt gewoonlijk vastgesteld volgens een additieve methode, waarbij aan de voorraadrekening de diverse kostenbestanddelen worden toegerekend die aan de betrokken voorraden toerekenbaar zijn en werden gemaakt om ze op dat ogenblik op die plaats te brengen in de staat waarin zij zich bevinden. Deze methode is uitdrukkelijk verwoord in de artikelen 21 en 22 van voornoemd besluit, waar de aanschaffings- en de vervaardigingsprijs worden omschreven. 

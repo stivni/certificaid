@@ -11,6 +11,19 @@ themas:
   - omrekeningskoers
   - overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 173/8 — aanvullende aspecten in verband met de boekhoudkundige verwerking van In haar Bulletin nr. 42 van februari 1998 heeft de Commissie voor Boekhoudkundige Normen het advies 173/2 gepubliceerd over de boekhoudkundige verwerking van de afrondingen bij conversie. Dat advies betrof in het bijzonder de problematiek van de overeenstemming tussen, enerzijds, de omrekeningen van het totaal van de afzonderlijke bedragen in euro of in Belgische frank en, anderzijds, de omrekening van het totaalbedrag in euro of in Belgische frank. Ingevolge de publicatie van dat advies van algemene draagwijdte werden aan de Commissie verschillende vragen gesteld. Die vragen gingen niet over wezenlijke punten van boekhouddoctrine maar over technische en praktische aspecten van de aanpassing van de boekhouding.

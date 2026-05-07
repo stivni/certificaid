@@ -4,6 +4,19 @@ datum: 1977-08-01
 themas:
   - boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 4/1 — vermeldingen in het centralisatieboek **Dit  advies  is  verouderd  als  gevolg  van  publicatie  van  het  koninklijk  besluit  nr.  22  van  15 december  1978  (B.S.  4  januari 1979).**

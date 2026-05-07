@@ -5,6 +5,19 @@ themas:
   - aanpassing van het rekeningstelsel
   - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies R100/2 — aanpassing van het rekeningstelsel van de onderneming De Commissie ontving verschillende vragen om advies over de implicaties van het koninklijk besluit van 7 maart 1978 met betrekking tot het minimum genormaliseerd rekeningstelsel op de procedures van verwerking en organisatie van de boekhouding van de ondernemingen.

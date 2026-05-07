@@ -7,15 +7,15 @@ bijgewerkt: "16.03.2026"
 bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 provenance:
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-    version: 16.03.2026
+    - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
+      sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
+      version: 16.03.2026
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 732fcc0
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:29:07Z'
+  generated_at: '2026-05-07T13:37:30Z'
   stale: false
   stale_reason:
 ---

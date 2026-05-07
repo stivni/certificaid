@@ -8,6 +8,19 @@ themas:
   - voorzichtigheidsbeginsel
   - wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 152/5 — verwerking van omrekeningsverschillen In haar advies over de verrichtingen, tegoeden en verplichtingen in deviezen zegt de Commissie dat "het aangewezen is de tegenwaarde van de omrekeningsverschillen op monetaire posten te boeken in de overlopende rekeningen, aan actiefzijde voor latente verliezen, aan passiefzijde voor latente winsten ..."1

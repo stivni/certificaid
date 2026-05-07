@@ -14,6 +14,19 @@ themas:
   - waarderingsregels
   - waarderingsregels in de tijdelijke handelsvennootschap
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 3/3 — advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk Voor veel ondernemingen is de tijdelijke handelsvennootschap een weliswaar veelvuldig gebruikte rechtsfiguur om diverse werkzaamheden uit te voeren, vooral - maar niet uitsluitend - in de bouwsector, maar men kan bezwaarlijk ontkennen dat het juridisch en boekhoudkundig regelgevend kader dat geldt voor de tijdelijke handelsvennootschap - waarschijnlijk als gevolg van de ruime contractuele vrijheid die de wetgever daaraan heeft willen verbinden - vaag is en derhalve een bron van talrijke onzekerheden is.

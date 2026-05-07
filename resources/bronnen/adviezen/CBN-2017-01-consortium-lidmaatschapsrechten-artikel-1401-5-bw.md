@@ -7,6 +7,19 @@ themas:
   - horizontale groep
   - lidmaatschapsrechten
 bron: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2017/01 — consortium lidmaatschapsrechten artikel 1401 5 bw

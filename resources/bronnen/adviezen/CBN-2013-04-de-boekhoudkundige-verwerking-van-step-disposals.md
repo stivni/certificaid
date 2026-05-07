@@ -6,6 +6,19 @@ themas:
   - stapsgewijze vervreemding
   - step disposals
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2013/4 — de boekhoudkundige verwerking van step disposals Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan nog steeds een integraal geconsolideerde dochteronderneming blijft 

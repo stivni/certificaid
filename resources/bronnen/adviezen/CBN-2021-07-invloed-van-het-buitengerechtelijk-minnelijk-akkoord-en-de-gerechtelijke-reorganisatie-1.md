@@ -21,6 +21,19 @@ themas:
   - omzetting schuldvordering
   - inbreng schuldvordering
 bron: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2021/07 — invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie

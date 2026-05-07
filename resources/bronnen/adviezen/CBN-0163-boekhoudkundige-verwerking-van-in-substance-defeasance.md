@@ -8,6 +8,19 @@ themas:
   - trustee
   - vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:42Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 163 — boekhoudkundige verwerking van in substance defeasance De Commissie werd om advies gevraagd over de boekhoudkundige verwerking van een verrichting die bestaat uit de onherroepelijke overdracht van activa - meestal vastrentende effecten - aan een derde, meestal een "trustee" die is gevestigd in een land waar deze instelling bekend is; deze trustee moet dan instaan voor de aflossing van de schuld - die hem tegelijkertijd wordt overgedragen - met behulp van de opbrengsten uit deze activa. Deze verrichting geschiedt zonder het akkoord van de schuldeisers. 

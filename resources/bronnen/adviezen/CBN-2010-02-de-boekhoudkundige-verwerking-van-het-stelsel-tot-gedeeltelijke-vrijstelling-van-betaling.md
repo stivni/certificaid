@@ -9,6 +9,19 @@ themas:
   - vzw
   - werkingssubsidie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:43Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2010/2 — de boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling Bedrijfsvoorheffing – compensatie – exploitatiesubsidie – subsidie – vzw – werkingssubsidie

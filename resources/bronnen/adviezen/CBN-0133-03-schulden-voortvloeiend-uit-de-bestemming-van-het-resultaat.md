@@ -11,6 +11,19 @@ themas:
   - schulden uit bestemming van het resultaat
   - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 133/3 — schulden voortvloeiend uit de bestemming van het resultaat Dit advies vervangt advies 133/1, verschenen in *Bull. CBN* nr. 9 van december 1981.

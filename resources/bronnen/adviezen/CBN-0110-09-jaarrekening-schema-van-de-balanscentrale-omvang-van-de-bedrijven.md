@@ -9,6 +9,19 @@ themas:
   - schema van de jaarrekening
   - standaardformulier
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 110/9 — jaarrekening schema van de balanscentrale omvang van de bedrijven CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1

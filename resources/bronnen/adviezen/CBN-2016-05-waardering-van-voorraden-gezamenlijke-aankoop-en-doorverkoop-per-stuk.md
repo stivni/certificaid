@@ -7,6 +7,19 @@ themas:
   - individuele waardering
   - voorraad
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/5 — waardering van voorraden gezamenlijke aankoop en doorverkoop per stuk ## Inleiding

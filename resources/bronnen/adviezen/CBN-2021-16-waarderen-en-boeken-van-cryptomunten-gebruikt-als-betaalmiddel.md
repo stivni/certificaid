@@ -13,6 +13,19 @@ themas:
   - vordering
   - overige vorderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:50Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2021/16 — waarderen en boeken van cryptomunten gebruikt als betaalmiddel

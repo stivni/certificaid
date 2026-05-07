@@ -12,6 +12,19 @@ themas:
   - vruchtgebruik
   - zakelijke rechten
 bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:46Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2015/5 — zakelijke rechten op onroerende goederen vruchtgebruik opstalrecht erfpachtrecht Vooruitbetaalde vergoedingen voor zakelijke rechten op onroerende goederen worden in de balans opgenomen onder de vaste activa. Indien de vergoeding voor het zakelijk recht periodiek verschuldigd is, wordt deze periodieke vergoeding in principe boekhoudkundig verwerkt zoals een huurvergoeding.

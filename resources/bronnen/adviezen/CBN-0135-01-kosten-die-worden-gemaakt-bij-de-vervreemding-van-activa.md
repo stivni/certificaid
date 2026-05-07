@@ -7,6 +7,19 @@ themas:
   - kosten bij vervreemding van activa
   - vervreemding
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:40Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 135/1 — kosten die worden gemaakt bij de vervreemding van activa Overeenkomstig artikel 21 van het koninklijk besluit van 8 oktober 1976 omvat de aanschaffingsprijs van een activum tevens de bijkomende kosten die bij de aanschaffing worden gemaakt. De vraag werd gesteld of op dezelfde wijze te werk moet worden gegaan bij de vervreemding van activa en meer bepaald of de daarmee verband houdende kosten moeten of mogen worden afgetrokken van de verkoopprijs van goederen of diensten bij het bepalen van de omzet of bij het bepalen van de meerwaarde of de minderwaarde bij de realisering van de betrokken activa. 

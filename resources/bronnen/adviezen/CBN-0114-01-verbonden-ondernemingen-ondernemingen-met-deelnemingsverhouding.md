@@ -8,6 +8,19 @@ themas:
   - participatieverhouding
   - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 114/1 — verbonden ondernemingen ondernemingen met deelnemingsverhouding Het koninklijk besluit van 8 oktober 1976 legt de verplichting op om in de jaarrekening de belangrijkste verhoudingen tot uiting te doen komen die bestaan tussen de onderneming enerzijds en de ondernemingen die met haar verbonden zijn of waarmee een participatieverhouding bestaat anderzijds. Deze verhoudingen hebben betrekking op de participaties1

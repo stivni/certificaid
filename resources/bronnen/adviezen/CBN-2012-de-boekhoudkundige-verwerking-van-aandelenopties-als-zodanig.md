@@ -6,6 +6,19 @@ themas:
   - call-optie
   - put-optie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/18 — de boekhoudkundige verwerking van aandelenopties als zodanig Boekhoudkundige verwerking van aandelenopties (als zodanig) die worden verhandeld op een georganiseerde en liquide markt 

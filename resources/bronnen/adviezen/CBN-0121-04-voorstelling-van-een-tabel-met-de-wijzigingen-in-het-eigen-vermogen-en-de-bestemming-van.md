@@ -11,6 +11,19 @@ themas:
   - resultaatverwerking
   - tabel
 bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 121/4 — voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van Naar aanleiding van het onderzoek van de boekhoudkundige verwerking van de belangrijkste verrichtingen met betrekking tot het eigen vermogen heeft de Commissie zich gebogen over de mogelijke problemen bij het lezen van de financiële staten om inzicht te krijgen in de evolutie van het eigen vermogen van een vennootschap, enerzijds, en om die evolutie te toetsen aan de resultaatverwerking, anderzijds. 

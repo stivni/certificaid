@@ -10,6 +10,19 @@ themas:
   - verlies gedragen door derden
   - verlies gedragen door vennoten
 bron: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 121/2 — verlies gedragen door vennoten of derden Het komt meer voor dat vennoten of derden het verlies van een onderneming helpen dekken of voor hun rekening nemen om de balans aan te zuiveren. Aan de Commissie werden diverse vragen gesteld over de wijze waarop dergelijke tussenkomsten in de jaarrekening tot uiting moeten worden gebracht. 

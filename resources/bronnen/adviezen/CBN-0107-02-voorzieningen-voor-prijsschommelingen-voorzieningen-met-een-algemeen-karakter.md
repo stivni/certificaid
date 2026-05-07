@@ -7,6 +7,19 @@ themas:
   - voorzieningen met een algemeen karakter
   - voorzieningen voor prijsschommelingen
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/2 — voorzieningen voor prijsschommelingen voorzieningen met een algemeen karakter Staat het koninklijk besluit van 8 oktober 1976 toe dat een onderneming voorzieningen zou vormen of handhaven voor prijsschommelingen waaraan de grondstoffen die ze bewerkt en/of de produkten die ze fabriceert onderhevig zijn ?

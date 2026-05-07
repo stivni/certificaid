@@ -7,6 +7,19 @@ themas:
   - toelichting
   - waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 112/8 — waarderingsregels Artikel 15 van het koninklijk besluit van 8 oktober 1976 stelt dat het bestuursorgaan de regels bepaalt die, met naleving van de bepalingen van het besluit doch rekening houdend met de eigen karakteristieken, gelden voor de waardering van de inventaris en, onder meer, voor de vorming en de aanpassing van afschrijvingen (...). De waarderingsregels worden samengevat in de toelichting op een nauwkeurige wijze die inzicht geeft in de toegepaste waarderingsmethoden. 

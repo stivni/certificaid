@@ -6,6 +6,19 @@ themas:
   - belastingvrije reserves
   - geldbeleggingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:45Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2012/7 — de boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk

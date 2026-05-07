@@ -8,6 +8,19 @@ themas:
   - openbaarmaking
   - publicatie
 bron: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:36Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 7/2 — interne en externe jaarrekening begrippen De Commissie heeft in een aantal gevallen enige begripsverwarring vastgesteld inzake het onderscheid dat uit de boekhoudwet en haar uitvoeringsbesluiten voortvloeit, tussen enerzijds de zogenaamde interne jaarrekening, en anderzijds de externe jaarrekening.1

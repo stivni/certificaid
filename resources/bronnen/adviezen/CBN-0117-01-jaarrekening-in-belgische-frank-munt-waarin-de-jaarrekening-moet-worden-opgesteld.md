@@ -12,6 +12,19 @@ themas:
   - succursaal
   - vreemde munt
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:38Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 117/1 — jaarrekening in belgische frank munt waarin de jaarrekening moet worden opgesteld Aan de Commissie werd de vraag gesteld of een vennootschap haar jaarrekening mag opstellen en bekendmaken in een vreemde munt. Een onderscheid moet hierbij gemaakt worden naar gelang het gaat om een Belgische of een buitenlands vennootschap. 

@@ -10,6 +10,19 @@ themas:
   - intern kwaliteitssysteem
   - kantoororganisatie
 bron: beexcellentnl.itaa.be
+provenance:
+  inputs:
+    - id: beexcellentnl.itaa.be
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/process_normen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:52Z'
+  stale: false
+  stale_reason:
 ---
 
 NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT                             NORME EXIGENCES GÉNÉRALES DE GESTION DE LA QUALITÉ INTERNE

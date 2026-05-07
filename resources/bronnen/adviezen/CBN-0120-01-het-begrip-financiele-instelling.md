@@ -9,6 +9,19 @@ themas:
   - transacties met dochterondernemingen
   - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:39Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 120/1 — het begrip financiele instelling Volgens het koninklijk besluit van 8 oktober 1976 worden de vorderingen op financiële instellingen geboekt onder de rubriek *Thesauriebeleggingen* of onder de rubriek *Beschikbare waarden* van het actief van de balans, naargelang het gaat om termijnrekeningen op meer dan één maand, of om tegoeden op zicht of op ten hoogste één maand. 

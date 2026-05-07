@@ -5,6 +5,19 @@ themas:
   - prestaties geleverd aan de overheid
   - btw
 bron: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:47Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 2016/18 — prestaties geleverd aan overheid verschuldigde btw ## Inleiding

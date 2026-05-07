@@ -10,6 +10,19 @@ themas:
   - voorziening
   - Voorzieningen voor schulden ten opzichte van personeel bij sluiting van de onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline_version: c2f5cc2
+    model:
+    prompt_version:
+  generated_at: '2026-05-07T13:37:37Z'
+  stale: false
+  stale_reason:
 ---
 
 # CBN-advies 107/4 — voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de Aan de Commissie werd gevraagd of een onderneming een voorziening mag boeken voor de personeelskosten en andere sociale lasten die zij moeten dragen bij de stopzetting van het geheel of van een belangrijk gedeelte van haar bedrijf met als gevolg het ontslag van alle of een groot aantal personeelsleden.
