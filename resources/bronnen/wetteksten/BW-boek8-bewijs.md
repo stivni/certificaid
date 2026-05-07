@@ -1,503 +1,374 @@
 ---
-tags: ["XI"]
+tags: ["XI", "3.1"]
 itaa-lex-sectie: "XI"
-wet: "Wet 13 april 2019 houdende Boek 8 \"Bewijs\" van het Burgerlijk Wetboek"
+wet: "Burgerlijk Wetboek — Boek 8 — Bewijs"
 status: "beschikbaar"
-bijgewerkt: "13.04.2019"
-bron: "Geëxtraheerd uit geconsolideerde Oud-BW (ejustice.just.fgov.be)"
-raw-bron: "resources/raw/wetteksten/BW-geconsolideerd-incl-boek8.pdf"
+bijgewerkt: "24.12.2025"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
-# BW Boek 8 — Bewijs
-
-*Wet 13 april 2019. Geëxtraheerd uit het geconsolideerde Burgerlijk Wetboek.*
-
-Boek 8. - Bewijs
-
-Hoofdstuk 1. Algemene bepalingen
-
-##### Afdeling 1. Definities
-
-## Art. 8.1.Definities
-
-Wordt verstaan onder:
-1° geschrift: een geheel van alfabetische tekens of van enige andere verstaanbare tekens aangebracht op een
-drager die de mogelijkheid biedt toegang ertoe te hebben gedurende een periode die is afgestemd op het doel
-waarvoor de informatie kan dienen en waarbij de integriteit ervan wordt beschermd, welke ook de drager en de
-transmissiemogelijkheden zijn;
-2° handtekening: een teken of een opeenvolging van tekens, aangebracht met de hand, elektronisch of via
-ieder ander procedé, waarmee een persoon zich identificeert en waaruit zijn wilsuiting blijkt;
-3° elektronische handtekening: een handtekening conform artikel 3,10° tot 3,12° van de Verordening (EU) nr.
-910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en
-vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn
-1999/93/EG;
-4° onderhandse akte: een geschrift dat rechtsgevolgen beoogt, dat door de partij(en) ondertekend wordt met
-de bedoeling om met de inhoud ervan in te stemmen, en dat geen authentieke akte is;
-5° authentieke akte: een geschrift dat in de wettelijke vorm is verleden voor een openbare of ministerieel
-ambtenaar die de bevoegdheid en hoedanigheid heeft om te instrumenteren;
-6° ondertekend geschrift: elke onderhandse of authentieke akte;
-7° begin van bewijs door geschrift: elk geschrift dat uitgaat van degene die een rechtshandeling betwist of van
-degene die hij vertegenwoordigt, en waardoor de aangevoerde rechtshandeling waarschijnlijk wordt gemaakt;
-8° getuigenis: een verklaring afgelegd door een derde onder de voorwaarden van de artikelen 915 en volgende
-en 961/1 en volgende van het Gerechtelijk Wetboek;
-9° feitelijk vermoeden: een bewijsmiddel waarbij de rechter het bestaan van één of meer onbekende feiten
-afleidt uit het voorhanden zijn van één of meer bekende feiten;
-10° bekentenis: een erkenning door een persoon of door haar bijzonder gevolmachtigde vertegenwoordiger
-van een feit dat rechtsgevolgen tegen hem kan hebben;
-11° samengestelde bekentenis: een bekentenis die gepaard gaat met verduidelijkingen of voorbehouden die van
-aard zijn om de rechtsgevolgen ervan teniet te doen of te beperken;
-12° eed: een plechtige verklaring van een partij voor een rechter waarbij zij de waarachtigheid van haar
-beweringen bevestigt;
-13° toelaatbaarheid: de verenigbaarheid van het bewijs met de regels in dit boek die bepalen onder welke
-voorwaarden een bepaald bewijsmiddel kan uitmaken van een betwist feit;
-14° bewijswaarde: de mate waarin een bewijselement de rechter overtuigt;
-15° wettelijke bewijswaarde: de mate waarin een bewijsmiddel volgens de wet bewijs oplevert en de rechter en
-de partijen door dit bewijsmiddel gebonden zijn.
-
-##### Afdeling 2. Aanvullend karakter van de bewijsregels
-
-## Art. 8.2
-
-Algemene regel
-Behoudens de in dit boek opgenomen definities en behalve in de gevallen waarin de wet anders bepaalt, zijn alle
-regels van dit boek van aanvullend recht.
-
-##### Afdeling 3. Voorwerp van het bewijs
-
-## Art. 8.3
-
-Algemene regel
-Behalve in de gevallen waarin de wet anders bepaalt, moeten feiten of rechtshandelingen worden bewezen
-wanneer ze aangevoerd en betwist zijn.
-Algemeen bekende feiten of ervaringsregels moeten niet bewezen worden.
-Het recht, zelfs buitenlands, moet niet bewezen worden.
-
-##### Afdeling 4. Bewijslast
-
-## Art. 8.4
-
-Regels die de bewijslast bepalen
-Hij die meent een ander in rechte te kunnen aanspreken, moet de rechtshandelingen of feiten bewijzen die
-daaraan ten grondslag liggen.
-Hij die beweert bevrijd te zijn, moet de rechtshandelingen of feiten bewijzen die zijn bewering ondersteunen.
-Alle partijen zijn gehouden om mee te werken aan de bewijsvoering.
-In geval van twijfel wordt hij die de door hem beweerde rechtshandelingen of feiten moet bewijzen, in het
-ongelijk gesteld, tenzij de wet anders bepaalt.
-De rechter kan, bij een met bijzondere redenen omkleed vonnis, in het licht van uitzonderlijke omstandigheden,
-bepalen wie de bewijslast draagt wanneer de toepassing van de in de vorige leden opgelegde regels kennelijk
-onredelijk zou zijn. De rechter kan slechts gebruik maken van deze mogelijkheid wanneer hij alle nuttige
-onderzoeksmaatregelen heeft bevolen en erover gewaakt heeft dat de partijen meewerken aan de bewijsvoering,
-zonder op die manier voldoende bewijs te verkrijgen.
-
-##### Afdeling 5. Bewijsstandaard
-
-## Art. 8.5
-
-Algemene regel - zeker bewijs
-Behalve in de gevallen waarin de wet anders bepaalt, moet het bewijs geleverd worden met een redelijke mate
-van zekerheid.
-
-## Art. 8.6
-
-Bewijs door waarschijnlijkheid
-Onverminderd de verplichting tot medewerking van alle partijen aan de bewijsvoering, kan hij die de bewijslast
-draagt van een negatief feit, genoegen nemen met het aantonen van de waarschijnlijkheid van dat feit.
-Hetzelfde geldt voor positieve feiten waarvan het vanwege de aard zelf van het te bewijzen feit niet mogelijk of
-niet redelijk is om een zeker bewijs te verlangen.
-
-##### Afdeling 6. Wettelijke vermoedens
-
-## Art. 8.7
-
-Werking van de wettelijke vermoedens
-Het wettelijk vermoeden dat een wet met bepaalde rechtshandelingen of feiten verbindt, wijzigt het voorwerp
-van het bewijs of stelt, in voorkomend geval, degene ten voordele van wie het bestaat, ervan vrij het bewijs ervan
-te leveren.
-Het wettelijk vermoeden kan weerlegd worden, behalve:
-1° wanneer de wet anders bepaalt;
-2° wanneer dit vermoeden tot nietigheid van een rechtshandeling leidt;
-3° wanneer dit vermoeden tot de onontvankelijkheid van een vordering in rechte leidt.
-
-Hoofdstuk 2. Toelaatbaarheid van de bewijsmiddelen
-
-##### Afdeling 1. Algemene bepalingen
-
-## Art. 8.8
-
-Vrij bewijsstelsel
-Behalve in de gevallen waarin de wet anders bepaalt, kan het bewijs met alle bewijsmiddelen worden geleverd.
-
-## Art. 8.9
-
-Gereglementeerd bewijsstelsel
-§ 1. De rechtshandeling met betrekking tot een som of een waarde die gelijk is aan of hoger is dan 3 500,00
-euro, moet door de partijen worden bewezen door een ondertekend geschrift.
-Dat bedrag kan worden aangepast bij een koninklijk besluit vastgesteld na overleg in de Ministerraad in het licht
-van de evolutie van de levenskosten of de sociale noden.
-Het bewijs boven of tegen een ondertekend geschrift kan enkel worden geleverd door een ander ondertekend
-geschrift, zelfs indien de som of de waarde dat bedrag niet te boven gaat.
-§ 2. Bij een vordering in rechte is de waarde die in rekening moet worden genomen deze van de
-rechtshandeling die ten grondslag ligt aan de vordering.
-§ 3. Voor duurcontracten is de waarde die in rekening moet worden genomen, de totale waarde van de
-vergoedingen van de prestaties voor een maximale duur van één jaar.
-§ 4. Wanneer de waardering van het voorwerp van de handeling onmogelijk is, omdat de waarde niet bepaald of
-bepaalbaar is tijdens het ontstaan van de rechtshandeling, mag het bewijs geleverd worden met alle
-bewijsmiddelen.
-
-##### Afdeling 2. Uitzonderingen op het gereglementeerde bewijsstelsel
-
-## Art. 8.10
-
-Bewijs van eenzijdige rechtshandelingen
-In afwijking van artikel 8.9 en onder voorbehoud van de uitzonderingen bepaald in de wet, kan het bewijs van
-een eenzijdige rechtshandeling met alle bewijsmiddelen worden geleverd.
-De datum van de eenzijdige rechtshandeling wordt geregeld door artikel 8.22.
-Het bewijs van een rechtshandeling houdende een eenzijdige verbintenis tot betalen waarbij een persoon zich
-tegenover een andere verbindt om hem een geldsom te betalen of hem een zekere hoeveelheid vervangbare
-zaken te leveren, is onderworpen aan artikel 8.21.
-
-## Art. 8.11
-
-Bewijs door en tegen ondernemingen
-§ 1. Bewijs kan tussen ondernemingen of tegen ondernemingen, zoals omschreven in artikel I.1, eerste lid van
-het Wetboek economisch recht worden geleverd door alle bewijsmiddelen, behalve in de uitzonderingen die
-vastgesteld zijn voor bijzondere gevallen.
-De in het eerste lid opgelegde regel is niet van toepassing op de ondernemingen wanneer zij willen bewijzen
-tegen een partij die geen onderneming is. Partijen die geen onderneming zijn en die tegen een onderneming
-wensen te bewijzen, kunnen alle bewijsmiddelen gebruiken.
-De in het eerste lid opgelegde regel is evenmin van toepassing op natuurlijke personen die een onderneming
-uitoefenen ter zake van het bewijs van rechtshandelingen die kennelijk vreemd zijn aan de onderneming.
-§ 2. De boekhouding van een onderneming heeft slechts een wettelijke bewijswaarde tegen een andere
-onderneming indien de vermeldingen in de boekhouding van de onderscheiden partijen overeenstemmend zijn. In
-alle andere gevallen oordeelt de rechter vrij over de bewijswaarde van de boekhouding.
-De boekhouding van een onderneming levert geen wettelijke bewijswaarde op tegen personen die geen
-onderneming zijn.
-De boekhouding van een onderneming mag worden ingeroepen tegen deze onderneming. Deze boekhouding
-mag niet ten nadele van die onderneming worden gesplitst, behalve wanneer ze niet op regelmatige wijze
-gehouden is.
-§ 3. De rechter kan op verzoek of ambtshalve in de loop van een geding overlegging bevelen van het geheel of
-van een gedeelte van de boekhouding van een onderneming betreffende het te onderzoeken geschil. De rechter
-kan daarbij maatregelen opleggen om de vertrouwelijkheid van de desbetreffende stukken te vrijwaren.
-§ 4. Behoudens tegenbewijs, levert een door een onderneming aanvaarde of niet binnen een redelijke termijn
-betwiste factuur tegen deze onderneming bewijs op van de aangevoerde rechtshandeling.
-Het gebrek aan betwisting van een factuur door een persoon die geen onderneming is, kan niet worden
-beschouwd als een aanvaarding van die factuur, behalve wanneer deze afwezigheid van betwisting een
-omstandig stilzwijgen uitmaakt. De uitdrukkelijke of stilzwijgende aanvaarding van een factuur door een persoon
-die geen onderneming is, maakt een feitelijk vermoeden uit. Iedere overeenkomst die afwijkt van de regels in dit
-lid en afgesloten is voor het ontstaan van het geschil, is nietig.
-
-## Art. 8.12
-
-Onmogelijkheid om te bewijzen
-De in artikel 8.9 bedoelde regels lijden uitzondering in geval van materiële of morele onmogelijkheid zich een akte
-te verschaffen of indien het gebruikelijk is geen akte op te stellen.
-Hetzelfde geldt wanneer de akte verloren is gegaan door overmacht.
-
-## Art. 8.13
-
-Andere uitzonderingen
-In afwijking van artikel 8.9, kan het ondertekend geschrift worden vervangen door een bekentenis, een
-beslissende eed of een begin van bewijs door geschrift voor zover dit laatste wordt aangevuld met een ander
-bewijsmiddel.
-
-## Art. 8.14
-
-Bewijs door en tegen derden
-Derden kunnen het bewijs van een rechtshandeling met alle bewijsmiddelen leveren.
-Onverminderd artikel 8.22, kan een partij het bewijs van een rechtshandeling ten aanzien van derden leveren
-met alle bewijsmiddelen.
-
-Hoofdstuk 3. Bewijsmiddelen
-
-##### Afdeling 1. Bewijs door ondertekend geschrift
-
-##### Onderafdeling 1. Authentieke akte
-
-## Art. 8.15
-
-Drager van de authentieke akte
-De authentieke akte mag op elke drager geplaatst worden, mits ze opgemaakt en bewaard wordt
-overeenkomstig de door de wet of de Koning, bij een koninklijk besluit vastgesteld na overleg in de Ministerraad,
-bepaalde voorwaarden.
-De notariële akten die in gedematerialiseerde vorm zijn verleden, worden evenwel opgemaakt en bewaard
-overeenkomstig de wet van 16 maart 1803 tot regeling van het notarisambt. De overeenkomstig dezelfde wet
-ingerichte Notariële Aktebank geldt als authentieke bron voor de akten die erin opgenomen zijn.
-Onverminderd de in het tweede lid bedoelde voorwaarden is een gekwalificeerde elektronische handtekening
-zoals bedoeld in artikel 3, 12° van de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad
-van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in
-de interne markt en tot intrekking van Richtlijn 1999/93/EG vereist voor de authentieke akten die door een
-openbare of ministeriële ambtenaar in gedematerialiseerde vorm zijn opgemaakt, verleden of betekend.
-De hoedanigheid van de ondertekenaar dient steeds te kunnen worden gecontroleerd aan de hand van een bij
-wet bepaalde authentieke gegevensbank.
-
-## Art. 8.16
-
-Onregelmatige authentieke akte
-Een akte die, uit hoofde van onbevoegdheid of onbekwaamheid van de openbare of ministeriële ambtenaar of
-uit hoofde van een gebrek in de vorm, geen authentieke akte is, geldt als onderhandse akte indien zij door de
-partij of partijen ondertekend is.
-
-## Art. 8.17
-
-Wettelijke bewijswaarde van de authentieke akte
-Een authentieke akte levert tot betichting van valsheid een bewijs op van wat de openbare of ministeriële
-ambtenaar persoonlijk heeft verricht of vastgesteld, zonder dat het voor partijen mogelijk is om daarvan af te
-wijken. Iedere overeenkomst die afwijkt van deze regel is nietig.
-In geval van betichting van valsheid kan de rechter de uitvoering van de akte schorsen.
-Een authentieke akte levert een volledig bewijs op van de overeenkomst die erin is vervat tussen de partijen en
-ten aanzien van hun erfgenamen en rechtverkrijgenden.
-
-##### Onderafdeling 2. Onderhandse akte
-
-## Art. 8.18
-
-Wettelijke bewijswaarde van de onderhandse akte
-Een onderhandse akte levert een bewijs op van de overeenkomst die erin is vervat tussen de ondertekenaars
-van de akte en ten aanzien van hun erfgenamen en rechtverkrijgenden.
-
-## Art. 8.19
-
-Ontkenning van handschrift of handtekening
-Tenzij de wet anders bepaalt, kan de partij tegen wie men zich erop beroept, haar handschrift of haar
-handtekening evenwel ontkennen. De erfgenamen of rechtverkrijgenden van een partij kunnen het handschrift of
-de handtekening van hun rechtsvoorganger eveneens ontkennen of verklaren dat zij dat handschrift of die
-handtekening niet kennen. In die gevallen moet de echtheid van het handschrift worden onderzocht, zulks
-overeenkomstig de artikelen 883 en volgende van het Gerechtelijk Wetboek.
-
-## Art. 8.20
-
-Vereist aantal originelen voor een onderhandse akte
-De onderhandse akte die een wederkerig contract vaststelt, levert slechts een bewijs op indien zij opgemaakt is
-in zoveel originelen als er partijen zijn die een onderscheiden belang hebben.
-In elk origineel moet vermeld worden hoeveel originelen zijn opgemaakt. Hij die het contract, zelfs gedeeltelijk,
-heeft uitgevoerd, kan het ontbreken van een voldoende aantal originelen of van de vermelding van het aantal
-ervan niet inroepen.
-De vereiste van meervoudige originelen wordt geacht vervuld te zijn voor de contracten in elektronische vorm
-wanneer het geschrift is opgemaakt overeenkomstig artikel 8.1, 1°, en het procedé iedere partij de mogelijkheid
-biedt over een schriftelijk exemplaar te beschikken of toegang ertoe te hebben.
-Wanneer een onderhandse akte nietig is wegens niet-naleving van de regels opgelegd in de eerste twee leden
-van dit artikel, komt zij in aanmerking als een begin van bewijs door geschrift indien zij voldoet aan de
-voorwaarden bedoeld in artikel 8.1, 7° van dit boek.
-De regels opgelegd in de eerste twee leden zijn niet van toepassing op contracten afgesloten via briefwisseling,
-hetzij verstuurd via de post, hetzij elektronisch.
-
-## Art. 8.21
-
-Rechtshandeling houdende een eenzijdige verbintenis tot betalen
-Ongeacht de waarde van de rechtshandeling en zonder afbreuk te doen aan de uitzonderingen bepaald in de
-wet, levert de eenzijdige verbintenis om een geldsom te betalen of een zekere hoeveelheid vervangbare zaken te
-leveren enkel een bewijs op indien zij de handtekening bevat van de persoon die zich verbindt, alsmede de
-vermelding, door hemzelf geschreven, van de som of van de hoeveelheid voluit in letters uitgedrukt. Iedere
-overeenkomst die afwijkt van deze regel is nietig.
-
-## Art. 8.22
-
-Vaste datum van de onderhandse akte
-De onderhandse akte verkrijgt, ten aanzien van derden, geen vaste dagtekening dan:
-1° van de dag waarop zij is geregistreerd, ofwel
-2° van de dag waarop de hoofdinhoud ervan is vastgesteld in een authentieke akte, ofwel
-3° van de dag waarop minstens één van de partijen de akte of de datum ervan niet langer kan wijzigen, onder
-meer ten gevolge van het overlijden van een van hen.
-
-##### Onderafdeling 3. Onderhandse akte die mede wordt ondertekend door de advocaten van de partijen
-
-## Art. 8.23
-
-Voorwaarden en wettelijke bewijswaarde van de onderhandse akte die mede wordt ondertekend door
-de advocaten van de partijen
-De onderhandse akte die overeenkomstig de bepalingen van deze onderafdeling door de advocaten wordt
-medeondertekend levert een volledig bewijs op van het geschrift en van de handtekening van de bij de akte
-betrokken partijen, zowel onderling als tegenover hun erfgenamen of rechtverkrijgenden.
-De akte wordt medeondertekend door de advocaten van alle partijen, waarbij elke partij met een onderscheiden
-belang door een andere advocaat moet worden bijgestaan. In voorkomend geval is de valsheidsprocedure in
-burgerlijke zaken van toepassing op die akte.
-Door de akte mede te ondertekenen, verklaart de advocaat dat hij de partij of partijen die hij bijstaat, volledig
-heeft ingelicht over de rechtsgevolgen van die akte. Zulks wordt in de akte vermeld.
-Behoudens als een bepaling uitdrukkelijk afwijkt van dit artikel, hoeft op de door de advocaten van alle partijen
-medeondertekende onderhandse akte geen enkele bij wet opgelegde handgeschreven vermelding te worden
-aangebracht.
-Tenzij op de door de advocaten van alle partijen medeondertekende akte een gekwalificeerde elektronische
-handtekening wordt aangebracht in de zin van artikel 3, 12° van de Verordening EU nr. 910/2014 van het
-Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten
-voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG, wordt die akte
-opgemaakt in ten minste evenveel originele exemplaren als er partijen met een verschillend belang en
-ondertekenende advocaten zijn.
-
-##### Onderafdeling 4. Andere geschriften
-
-## Art. 8.24
-
-Vermelding van de betaling op een akte of het dubbel ervan
-De vermelding van een betaling of van een andere reden van bevrijding die door de schuldeiser wordt
-aangebracht op een originele akte die steeds in zijn bezit is gebleven, geldt als weerlegbaar vermoeden van
-bevrijding van de schuldenaar.
-Hetzelfde geldt voor de vermelding die op het dubbel van een akte wordt aangebracht, mits dit dubbel in
-handen van de schuldenaar is.
-
-##### Onderafdeling 5. Afschriften
-
-## Art. 8.25.Juridisch
-
-statuut van het afschrift
-Het afschrift dat gemaakt werd door middel van een gekwalificeerde elektronische archiveringsdienst conform
-boek XII, titel 2, van het Wetboek van economisch recht heeft dezelfde wettelijke bewijswaarde als het
-onderhandse geschrift waarvan ze, behoudens bewijs van het tegendeel, verondersteld wordt een getrouwe en
-duurzame kopie te zijn. De overlegging van het origineel wordt niet vereist.
-[1 Het gewaarmerkt afschrift dat gemaakt werd overeenkomstig artikel 1, vierde lid, van de wet van 16 maart
-1803 op het notarisambt of overeenkomstig artikel 126 van de nieuwe gemeentewet heeft dezelfde wettelijke
-bewijswaarde als het geschrift waarvan het, tot betichting van valsheid, verondersteld wordt een getrouwe en
-duurzame kopie te zijn. De overlegging van het origineel wordt niet vereist.]1
-Behalve in de gevallen waarin de wet anders bepaalt, vormt in alle andere gevallen het afschrift een feitelijk
-vermoeden of in voorkomend geval een begin van bewijs door geschrift wanneer de in artikel 8.1, 7° opgelegde
-voorwaarden vervuld zijn. Indien het origineel nog bestaat, kan de overlegging ervan altijd worden gevorderd.
-(1)<W 2024-03-28/60, art. 44, 002; Inwerkingtreding : 08-04-2024>
-
-## Art. 8.26
-
-Afschriften van authentieke akten
-§ 1. De afschriften van de authentieke akten zijn onderworpen aan de volgende regels.
-Wanneer de oorspronkelijke akte niet meer bestaat, leveren de afschriften bewijs op naar de volgende
-onderscheidingen:
-1° de grossen of eerste uitgiften hebben dezelfde bewijswaarde als het origineel.
-Hetzelfde geldt voor gedematerialiseerde afschriften van notariële akten die zijn verleden overeenkomstig artikel
-13, eerste lid, van de wet van 16 maart 1803 tot regeling van het notarisambt en waarvan overeenkomstig artikel
-18 van voormelde wet een afschrift bewaard wordt in de Notariële Aktebank.
-Hetzelfde geldt eveneens voor afschriften die afgeleverd zijn door een rechter, overeenkomstig de artikelen
-1372 en volgende van het Gerechtelijk Wetboek, in aanwezigheid van de partijen of na correcte oproeping ervan,
-of voor afschriften die afgeleverd zijn in tegenwoordigheid van de partijen en met hun wederzijdse toestemming;
-2° de afschriften die, zonder dat een rechter optreedt of zonder toestemming van de partijen, en sinds het
-afgeven van de grossen of eerste uitgiften, volgens de minuut van de akte afgeleverd zijn door de notaris voor
-wie de akte is verleden, of door een van zijn opvolgers, of door openbare ambtenaren die in die hoedanigheid de
-minuten in bewaring hebben, kunnen, ingeval het origineel is verloren gegaan, bewijs opleveren, wanneer het
-oude afschriften zijn.
-Zij worden als oude afschriften beschouwd, wanneer zij meer dan dertig jaar oud zijn.
-Indien zij minder dan dertig jaar oud zijn, kunnen zij slechts dienen tot begin van bewijs door geschrift;
-3° wanneer de afschriften van de minuut van de akte afgeleverd zijn door anderen dan de notaris voor wie de
-akte is verleden, of een van zijn opvolgers, of openbare of ministeriële ambtenaren die, in die hoedanigheid, de
-minuten in bewaring hebben, kunnen die afschriften, hoe oud zij ook zijn, slechts dienen tot begin van bewijs
-door geschrift;
-4° afschriften van afschriften kunnen, naargelang van de omstandigheden, worden beschouwd als eenvoudige
-inlichtingen.
-§ 2. De overschrijving van een akte in de openbare registers kan slechts dienen tot begin van bewijs door
-geschrift; en daartoe is zelfs vereist:
-1° dat het vaststaat dat alle minuten van de notaris uit het jaar waarin de akte schijnt te zijn opgemaakt,
-verloren zijn, of dat men bewijst dat de minuut van die akte door een bijzonder voorval is verloren gegaan;
-2° dat er een regelmatig gehouden repertorium van de notaris bestaat, waaruit blijkt dat de akte op dezelfde
-datum is opgemaakt.
-Wanneer beide voorwaarden zijn vervuld, kan het bewijs van de inhoud van de akte geleverd worden met alle
-bewijsmiddelen. Als het bewijs door getuigen toelaatbaar is, is het noodzakelijk dat zij die bij de akte getuige zijn
-geweest, indien zij nog in leven zijn, gehoord worden.
-
-##### Onderafdeling 6. Teruggave van de akte door de schuldeiser aan de schuldenaar
-
-## Art. 8.27
-
-Vrijwillige teruggave van de akte door de schuldeiser aan de schuldenaar
-De vrijwillige teruggave aan de schuldenaar van de onderhandse titel of de grosse van de titel houdende de
-schuld, doet, behoudens tegenbewijs, de bevrijding van de schuldenaar vermoeden.
-
-##### Afdeling 2. Bewijs door getuigen
-
-## Art. 8.28
-
-Toelaatbaarheid en bewijswaarde van getuigenissen
-Getuigenissen zijn enkel toelaatbaar in de gevallen waarin de wet het bewijs met alle bewijsmiddelen toelaat.
-Hun bewijswaarde wordt overgelaten aan het oordeel van de rechter.
-
-##### Afdeling 3. Bewijs door feitelijke vermoedens
-
-## Art. 8.29
-
-Toelaatbaarheid en bewijswaarde van feitelijke vermoedens
-Feitelijke vermoedens zijn enkel toelaatbaar in de gevallen waarin de wet het bewijs met alle bewijsmiddelen
-toelaat.
-Hun bewijswaarde wordt overgelaten aan het oordeel van de rechter, die ze enkel zal aannemen indien zij op
-één of meer ernstige en precieze aanwijzingen berusten. Voor zover het vermoeden op meerdere aanwijzingen
-steunt, moeten ze met elkaar overeenstemmend zijn.
-
-##### Afdeling 4. Bekentenis
-
-## Art. 8.30
-
-Kenmerken van de bekentenis
-De bekentenis kan gerechtelijk of buitengerechtelijk, uitdrukkelijk of stilzwijgend, al dan niet intentioneel zijn.
-
-## Art. 8.31
-
-Buitengerechtelijke bekentenis
-De zuiver mondelinge buitengerechtelijke bekentenis is enkel toelaatbaar in de gevallen waarin de wet het bewijs
-met alle bewijsmiddelen toelaat.
-De buitengerechtelijke bekentenis kan voortvloeien uit het gedrag van een van de partijen, zoals de uitvoering
-van een contract. Dat gedrag kan met alle bewijsmiddelen worden aangetoond.
-De buitengerechtelijke bekentenis heeft dezelfde wettelijke bewijswaarde als de gerechtelijke bekentenis.
-
-## Art. 8.32
-
-Wettelijke bewijswaarde van de bekentenis
-De bekentenis is onherroepelijk, behalve in geval van dwaling omtrent de feiten, of in geval van iedere andere
-nietigheidsgrond.
-Zij levert een bewijs op tegen hij die de bekentenis gedaan heeft, tenzij zij niet oprecht is.
-De samengestelde bekentenis is onsplitsbaar, tenzij een van de onderdelen ervan vals, onwaarschijnlijk of in
-tegenspraak is met het andere onderdeel. In dat geval mag elk onderdeel worden ingeroepen, onafhankelijk van
-het andere.
-
-##### Afdeling 5. Eed
-
-## Art. 8.33
-
-Verschillende types eed
-De eed kan, ter beslissing van het geding, door de ene partij aan de andere worden opgedragen om de
-beslissing van de zaak daarvan te doen afhangen. Hij kan ook door de rechter ambtshalve aan een van de
-partijen worden opgelegd.
-
-##### Onderafdeling 1. Beslissende eed
-
-## Art. 8.34
-
-Juridische regeling
-De beslissende eed kan worden opgedragen omtrent alle geschillen, van welke aard ook, en in elke stand van
-het geding. De partij aan wie de eed is opgedragen en die weigert hem af te leggen of hem niet wil terugwijzen, of
-de partij aan wie de eed is teruggewezen en die weigert hem af te leggen, wordt betreffende haar bewering in het
-ongelijk gesteld.
-
-## Art. 8.35
-
-Toepassingsgebied
-Hij kan alleen worden opgedragen omtrent een feit waarbij de partij, aan wie men hem opdraagt, persoonlijk
-betrokken is. Hij mag door haar teruggewezen worden, tenzij de partij naar wie de eed wordt teruggewezen
-persoonlijk betrokken is bij het feit dat het voorwerp ervan uitmaakt.
-
-## Art. 8.36
-
-Definitief karakter
-De partij die de eed heeft opgedragen of teruggewezen, kan daarop niet meer terugkomen, wanneer de
-tegenpartij zich heeft bereid verklaard die eed af te leggen.
-
-## Art. 8.37
-
-Wettelijke bewijswaarde
-De eed levert alleen bewijs op ten voordele van hem die de eed heeft opgedragen en ten voordele van zijn
-erfgenamen en rechtverkrijgenden, of tegen hen.
-Wanneer de eed door een van de hoofdelijke schuldeisers is opgedragen aan de schuldenaar, bevrijdt hij de
-schuldenaar niet verder dan voor het aandeel van die schuldeiser.
-De eed aan de hoofdschuldenaar opgedragen, bevrijdt eveneens de borgen.
-De eed aan een van de hoofdelijke schuldenaars opgedragen, strekt ten voordele van de medeschuldenaars.
-De eed aan de borg opgedragen, strekt ten voordele van de hoofdschuldenaar.
-In de laatste twee gevallen strekt de eed van de hoofdelijke medeschuldenaar of van de borg alleen dan ten
-voordele van de overige medeschuldenaars of van de hoofdschuldenaar indien hij is opgedragen omtrent de
-hoofdschuld, en niet omtrent de hoofdelijkheid of de borgtocht.
-
-##### Onderafdeling 2. Ambtshalve opgelegde eed
-
-## Art. 8.38
-
-Bewijswaarde
-De rechter kan ambtshalve aan een van de partijen de eed opleggen. Die eed kan niet aan de tegenpartij worden
-teruggewezen. De bewijswaarde ervan wordt overgelaten aan het oordeel van de rechter.
-
-## Art. 8.39
-
-Toepassingsgebied
-De rechter kan de eed, hetzij omtrent de eis, hetzij omtrent de exceptie die tegen de eis wordt opgeworpen,
-alleen dan ambtshalve opleggen, wanneer de eis of de exceptie niet volledig bewezen is of niet geheel van bewijs
-ontbloot is.".
+# Burgerlijk Wetboek — Boek 8 — Bewijs
+
+*Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+## Art. 3
+
+Boek 8 van het bij artikel 2 ingevoerde Burgerlijk Wetboek, bevat de volgende bepalingen: (NOTA : Voor het boek 8, zie : 2019-04-13/29)
+
+  HOOFDSTUK 4. - Wijzigingsbepalingen
+
+  Afdeling 1. - Wijzigingen van het oude Burgerlijk Wetboek
+
+## Art. 4
+
+In de Franse tekst van artikel 406, § 1, tweede lid, van het oude Burgerlijk Wetboek, vervangen bij de wet van 29 april 2001, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 5
+
+In de Franse tekst van artikel 577-3, tweede lid, van hetzelfde Wetboek, ingevoegd bij de wet van 30 juni 1994 en gewijzigd bij de wet van 18 juni 2018, worden de woorden "sous seing privé" vervangen door de woorden"sous signature privée".
+
+## Art. 6
+
+In de Franse tekst van artikel 577-4, § 2, van hetzelfde Wetboek, ingevoegd bij de wet van 30 juni 1994, worden de woorden "sous seing privé" vervangen door "sous signature privée".
+
+## Art. 7
+
+In de Franse tekst van artikel 1582, tweede lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 8
+
+In de Franse tekst van artikel 1985, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 9
+
+In de Franse tekst van artikel 2004, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 10
+
+In artikel 2043quinquies, § 5, van hetzelfde Wetboek, wordt het cijfer "1326" vervangen door de woorden "8.21 van het Burgerlijk Wetboek".
+
+## Art. 11
+
+In artikel 2281, derde lid, van hetzelfde Wetboek, hersteld bij de wet van 20 oktober 2000, wordt het cijfer "1322" vervangen door de woorden "8.1,2°, van het Burgerlijk Wetboek".
+
+## Art. 12
+
+In artikel 26.2, boek III, titel VIII, afdeling 3, van hetzelfde Wetboek, worden de volgende wijzigingen aangebracht:
+  1° in de Franse tekst van het derde lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  2° in de Franse tekst van het zesde lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 13
+
+In boek III, titel XVII, van hetzelfde Wetboek, worden de volgende wijzigingen aangebracht:
+  1° in artikel 4, tweede lid, vernummerd en vervangen bij de wet 11 juli 2013, die gewijzigd is bij de wet van 25 december 2016, worden de woorden "van artikel 1325 of artikel 1326" vervangen door de woorden "van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek".
+  2° in artikel 40, tweede lid, ingevoegd bij de wet van 11 juli 2013 en gewijzigd bij de wet van 25 december 2016, worden de woorden "van artikel 1325 of artikel 1326" vervangen door de woorden "van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek";
+  3° in artikel 61, tweede lid, ingevoegd bij de wet van 11 juli 2013 en gewijzigd bij de wet van 25 december 2016, worden de woorden "van artikel 1325 of artikel 1326" vervangen door de woorden "van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek".
+
+  Afdeling 2. - Wijziging van de hypotheekwet van 16 december 1851
+
+## Art. 14
+
+In de hypotheekwet van 16 december 1851 worden de volgende wijzigingen aangebracht:
+  1° in de Franse tekst van artikel 2, eerste lid, vervangen bij de wet van 10 oktober 1913, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  2° in de Franse tekst van artikel 76, eerste lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  3° in de Franse tekst van artikel 81quater, § 3, ingevoegd bij de wet van 19 april 2014, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  4° in de Franse tekst van artikel 110, 1°, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
+
+## Art. 15
+
+In artikel 509, § 1, tweede lid, van het Gerechtelijk Wetboek, vervangen bij de wet van 7 januari 2014, wordt het cijfer "1317" vervangen door het cijfer "8.1, 5° ".
+
+## Art. 16
+
+In artikel 870 van hetzelfde Wetboek worden de woorden "Iedere partij moet" vervangen door de woorden "Onverminderd artikel 8.4, lid 5, van het Burgerlijk Wetboek, moet iedere partij".
+
+## Art. 17
+
+In artikel 877 van hetzelfde Wetboek worden de woorden "gewichtige, bepaalde en met elkaar overeenstemmende vermoedens" vervangen door de woorden "ernstige en bepaalde aanwijzingen".
+
+## Art. 18
+
+In artikel 959 van hetzelfde Wetboek worden de woorden "de artikelen 1341 tot en met 1348" vervangen door de woorden "artikel 8.28".
+
+  Afdeling 4. - Wijzigingen van het Wetboek van vennootschappen
+
+## Art. 19
+
+In artikel 66, eerste lid, van het Wetboek van vennootschappen worden de volgende wijzigingen aangebracht:
+  1° het cijfer "1325" wordt vervangen door het cijfer "8.20";
+  2° in de Franse tekst worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 20
+
+In de Franse tekst van artikel 67, § 1, eerste lid, van hetzelfde Wetboek, gewijzigd bij de wet van 15 april 2018, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 21
+
+In de Franse tekst van artikel 68, tweede lid, 1° en 2°, van hetzelfde Wetboek, gewijzigd bij de wet van 14 december 2005, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 22
+
+In de Franse tekst van artikel 69, eerste lid, 13°, van hetzelfde Wetboek, ingevoegd bij de wet van 14 december 2005, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 23
+
+In de Franse tekst van artikel 71 van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 24
+
+In de Franse tekst van artikel 100, § 1, eerste lid, 3°, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 25
+
+In de Franse tekst van artikel 508, eerste lid, van hetzelfde Wetboek, gewijzigd bij de wet van 14 december 2005, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 26
+
+In de Franse tekst van artikel 693, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 27
+
+In de Franse tekst van artikel 706, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 28
+
+In de Franse tekst van artikel 719, eerste lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 29
+
+In de Franse tekst van artikel 728, eerste lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 30
+
+In de Franse tekst van artikel 743, eerste lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 31
+
+In de Franse tekst van artikel 760, § 1, eerste lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 32
+
+In de Franse tekst van artikel 772/6, eerste lid, van hetzelfde Wetboek, ingevoegd bij de wet van 8 juni 2006, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 33
+
+In de Franse tekst van artikel 787, tweede lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 5. - Wijzigingen van het Sociaal Strafwetboek
+
+## Art. 34
+
+In artikel 100/3, paragraaf 2, van het Sociaal Strafwetboek, ingevoegd bij de wet van 29 maart 2012, worden de woorden "artikelen 1322 en volgende" vervangen door de woorden "artikelen 8.18 en volgende".
+
+## Art. 35
+
+In de Franse tekst van artikel 163, eerste lid, 1°, c), van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 36
+
+In de Franse tekst van artikel 164, eerste lid, 1°, b), van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 6. - Wijzigingen van het Wetboek van economisch recht
+
+## Art. 37
+
+In de Franse tekst van artikel VIII.39, § 1, van het Wetboek van economisch recht worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 38
+
+In artikel XII.25 van hetzelfde Wetboek, ingevoegd bij de wet van 21 juli 2016, worden de volgende wijzigingen aangebracht:
+  1° in paragraaf 3 wordt het cijfer "1323" vervangen door het cijfer "8.19";
+  2° in paragraaf 10 wordt het cijfer "1328" vervangen door het cijfer "8.22".
+
+## Art. 39
+
+In artikel XX.6 van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, worden de woorden "gewichtige, bepaalde en met elkaar overeenstemmende vermoedens" vervangen door de woorden "ernstige en bepaalde aanwijzingen".
+
+  Afdeling 7. - Wijzigingen van het Wetboek van bepaalde voorrechten op zeeschepen en diverse bepalingen
+
+## Art. 40
+
+In de Franse tekst van artikel 10 van het Wetboek van bepaalde voorrechten op zeeschepen en diverse bepalingen, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 41
+
+In de Franse tekst van artikel 12, eerste en tweede lid, van hetzelfde Wetboek, vervangen bij de wet van 10 februari 1908 en laatstelijk gewijzigd bij de wet van 25 december 2016, worden de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée".
+
+## Art. 42
+
+In de Franse tekst van artikel 14, eerste en tweede lid, van hetzelfde Wetboek, vervangen bij de wet van 10 februari 1908 en laatstelijk gewijzigd bij de wet van 25 december 2016, worden de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée".
+
+## Art. 43
+
+In de Franse tekst van artikel 33, eerste en tweede lid, van hetzelfde Wetboek, vervangen bij de wet van 10 februari 1908 en gewijzigd bij de wet van 25 december 2016, worden de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée".
+
+## Art. 44
+
+In de Franse tekst van artikel 35, tweede, vierde en vijfde lid, van hetzelfde Wetboek, vervangen bij de wet van 10 februari 1908 en gewijzigd bij de wetten van 21 oktober 1997 en 25 december 2016, worden de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée".
+
+## Art. 45
+
+In de Franse tekst van artikel 272bis, § 4, 2°, van hetzelfde Wetboek, ingevoegd bij de wet van 2 april 1965 en gewijzigd bij de wet van 25 december 2016,worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 8. - Wijziging van de wet van 16 maart 1803 tot regeling van het notarisambt
+
+## Art. 46
+
+In de Franse tekst van artikel 114 van de wet van 16 maart 1803 tot regeling van het notarisambt, ingevoegd bij de wet van 4 mei 1999, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 9. - Wijziging van Statuut van 2 juni 1956 van de nationale kas voor beroepskrediet
+
+## Art. 47
+
+In de Franse tekst van artikel 9, § 5, eerste lid, van Statuut van 2 juni 1956 van de nationale kas voor beroepskrediet worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 10. - Wijziging van de wet van 5 mei 1958 tot bevordering van de financiering van de voorraden van de steenkolenmijnen
+
+## Art. 48
+
+In de Franse tekst van artikel 8, tweede lid, van de wet van 5 mei 1958 tot bevordering van de financiering van de voorraden van de steenkolenmijnen worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 11. - Wijziging van Statuten van 9 oktober 1971 van het Nationaal Instituut voor Radio-Elementen, afkorting: "I.R.E.", instelling van openbaar nut
+
+## Art. 49
+
+In de Franse tekst van artikel 24 van Statuten van 9 oktober 1971 van het Nationaal Instituut voor Radio-Elementen, afkorting: "I.R.E. ", instelling van openbaar nut worden de woorden "sous seing privé" vervangen door "sous signature privée".
+
+   Afdeling 12. - Wijziging van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle
+
+## Art. 50
+
+In de Franse tekst van artikel 39, tweede lid, van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 13. - Wijziging van de wet van 30 oktober 1998 betreffende de euro
+
+## Art. 51
+
+In de Franse tekst van de wet van 30 oktober 1998 betreffende de euro worden de volgende wijzigingen aangebracht:
+  1° in artikel 47, eerste lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  2° in artikel 48 worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  3° in artikel 49, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 14. - Wijziging van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening
+
+## Art. 52
+
+In artikel 46, tweede lid, van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening, worden de volgende wijzigingen aangebracht:
+  1° wordt het cijfer "1325" vervangen door het cijfer "8.20";
+  2° in de Franse tekst, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  Afdeling 15. - Wijziging van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector
+
+## Art. 53
+
+In artikel 7, § 1, van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector, vervangen bij de wet van 25 december 2016, wordt het cijfer "1328" vervangen door het cijfer "8.22".
+
+  Afdeling 16. - Wijziging van de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen
+
+## Art. 54
+
+In artikel 271/8, eerste lid, van de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen, ingevoegd bij de wet van 19 april 2014 en gewijzigd bij de wet van 25 december 2016, wordt het cijfer "1328" vervangen door het cijfer "8.22".
+
+  Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen
+
+## Art. 55
+
+In artikel 64, § 1, derde lid, van de wet van 4 april 2014 betreffende de verzekeringen, wordt het cijfer "1328" vervangen door het cijfer "8.22".
+
+  Afdeling 18. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
+
+## Art. 56
+
+In artikel 2:5 van het Wetboek van vennootschappen en verenigingen worden de volgende wijzigingen aangebracht:
+  1° in de Franse tekst van § 1, eerste lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  2° in hetzelfde lid, wordt het cijfer "1325" vervangen door het cijfer "8.20";
+  3° in de Franse tekst van § 2, eerste lid, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
+  4° in hetzelfde lid, wordt het cijfer "1325" vervangen door het cijfer "8.20".
+
+## Art. 57
+
+In artikel 2:8 van het Wetboek van vennootschappen en verenigingen worden de volgende wijzigingen aangebracht:
+  1° in de Franse tekst van § 1, eerste lid, 1° en 3°, worden de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée";
+  2° in de Franse tekst van § 2, eerste lid, 14°, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 58
+
+In de Franse tekst van artikel 2:12, § 1, van hetzelfde Wetboek, worden in het eerste en het derde lid de woorden "sous seing privé" telkens vervangen door de woorden "sous signature privée".
+
+## Art. 59
+
+In de Franse tekst van artikel 3:12, § 1, 3°, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 60
+
+In de Franse tekst van artikel 9:4, 2°, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 61
+
+In de Franse tekst van artikel 12:24, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 62
+
+In de Franse tekst van artikel 12:37, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 63
+
+In de Franse tekst van artikel 12:50, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 64
+
+In de Franse tekst van artikel 12:59, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 65
+
+In de Franse tekst van artikel 12:75, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 66
+
+In de Franse tekst van artikel 12:93, § 1, eerste lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 67
+
+In de Franse tekst van artikel 12:111, eerste lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 68
+
+In de Franse tekst van artikel 14:10, vierde lid, van hetzelfde Wetboek, worden de woorden "sous seing privés" vervangen door de woorden "sous signature privée".
+
+## Art. 69
+
+In de Franse tekst van artikel 14:14, tweede lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+## Art. 70
+
+In de Franse tekst van artikel 14:35, vierde lid, van hetzelfde Wetboek, worden de woorden "sous seing privés" vervangen door de woorden "sous signature privée".
+
+## Art. 71
+
+In de Franse tekst van artikel 14:40, vierde lid, van hetzelfde Wetboek, worden de woorden "sous seing privés" vervangen door de woorden "sous signature privée"."
+
+## Art. 72
+
+In de Franse tekst van artikel 14:49, vierde lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
+
+  HOOFDSTUK 5. - Opheffingsbepalingen
+
+## Art. 73
+
+In boek III, titel III, van het oude Burgerlijk Wetboek, wordt hoofdstuk VI, dat de artikelen 1315 tot 1369 bevat, opgeheven, met uitzondering van de artikelen 1321, 1338, 1339 en 1340.
+
+## Art. 74
+
+De wet van 29 april 2013 betreffende de door de advocaten van de partijen medeondertekende onderhandse akte wordt opgeheven.
+
+  HOOFDSTUK 6. - Inwerkingtreding
+
+## Art. 75
+
+Deze wet treedt in werking op de eerste dag van de achttiende maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
+  Artikel 8.15, tweede lid, van boek 8, ingevoegd bij artikel 3 van deze wet, treedt evenwel maar in werking op de datum bepaald in artikel 26, eerste lid, 2°, van de wet van 6 mei 2009 houdende diverse bepalingen en artikel 8.26, § 1, 1°, tweede lid, van hetzelfde boek treedt maar in werking op de datum bepaald in artikel 26, eerste lid,
+ 3°, van voormelde wet.
+  Artikel 8.22, 3°, van boek 8, ingevoegd bij artikel 3 van deze wet, is slechts van toepassing op de feiten die zich voordoen na de datum van inwerkingtreding van deze wet, zoals bepaald in het eerste lid van dit artikel.
+

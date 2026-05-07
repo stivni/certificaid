@@ -4,87 +4,69 @@ itaa-lex-sectie: "X"
 wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten"
 status: "beschikbaar"
 bijgewerkt: "26.06.2003"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
-raw-bron: "resources/wetteksten/raw/EU-Richtlijn-interest-royalties-2003-49.pdf"
+bron: "ejustice.just.fgov.be (gecoördineerde versie)"
 ---
 
-# Interest- en royalty'srichtlijn 2003/49/EG
+# Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 
-*Bijgewerkt tot en met 26.06.2003 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 26.06.2003 — gecoördineerde versie.*
 
-RICHTLIJN 2003/49/EG VAN DE RAAD
-van 3 juni 2003
-betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's
-tussen verbonden ondernemingen van verschillende lidstaten
-DE RAAD VAN DE EUROPESE UNIE,
 
-bron of door aanslag wordt geïnd, geleidelijk kunnen
-verlagen, totdat zij het bepaalde in artikel 1 kunnen
-toepassen.
+NL
 
-Gelet op het Verdrag tot oprichting van de Europese Gemeenschap, en met name op artikel 94,
-Gezien het voorstel van de Commissie (1),
+Publicatieblad van de Europese Unie
 
-Spanje heeft een plan ter bevordering van het Spaanse
-technologische potentieel gelanceerd en moet om begrotingsredenen de mogelijkheid krijgen tijdens een overgangsperiode het bepaalde in artikel 1 inzake uitkeringen
-van royalty's niet toe te passen.
+L 157/49
 
-De Commissie moet drie jaar na de datum waarop de
-richtlijn moet zijn omgezet, verslag aan de Raad
-uitbrengen over de werking van deze richtlijn, in het
-bijzonder met het oog op uitbreiding van de werkingssfeer tot andere vennootschappen en ondernemingen en
-om de strekking van de definitie van interest en royalty's
-te herzien in het belang van de noodzakelijke convergentie van de bepalingen betreffende interest en royalty's
-in de nationale wetgeving en in bilaterale of multilaterale
-overeenkomsten ter voorkoming van dubbele belasting.
+RICHTLIJN 2003/49/EG VAN DE RAAD van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten DE RAAD VAN DE EUROPESE UNIE,
 
-Aangezien de doelstelling van het overwogen optreden,
-namelijk het opstellen van een gemeenschappelijke
-belastingregeling inzake uitkeringen van interest en
-royalty's tussen verbonden ondernemingen van verschillende lidstaten, niet voldoende door de lidstaten kan
-worden verwezenlijkt en derhalve beter op het niveau
-van de Gemeenschap kan geschieden, kan de Gemeenschap maatregelen vaststellen, overeenkomstig het
-beginsel van subsidiariteit zoals bedoeld in artikel 5 van
-het Verdrag. Overeenkomstig het beginsel van evenredigheid zoals bedoeld in genoemd artikel, gaat deze richtlijn
-niet verder dan hetgeen noodzakelijk is om die doelstelling te bereiken,
+bron of door aanslag wordt geïnd, geleidelijk kunnen verlagen, totdat zij het bepaalde in artikel 1 kunnen toepassen.
+
+Gelet op het Verdrag tot oprichting van de Europese Gemeenschap, en met name op artikel 94, Gezien het voorstel van de Commissie (1),
+
+(8)
+
+Spanje heeft een plan ter bevordering van het Spaanse technologische potentieel gelanceerd en moet om begrotingsredenen de mogelijkheid krijgen tijdens een overgangsperiode het bepaalde in artikel 1 inzake uitkeringen van royalty's niet toe te passen.
+
+(9)
+
+De Commissie moet drie jaar na de datum waarop de richtlijn moet zijn omgezet, verslag aan de Raad uitbrengen over de werking van deze richtlijn, in het bijzonder met het oog op uitbreiding van de werkingssfeer tot andere vennootschappen en ondernemingen en om de strekking van de definitie van interest en royalty's te herzien in het belang van de noodzakelijke convergentie van de bepalingen betreffende interest en royalty's in de nationale wetgeving en in bilaterale of multilaterale overeenkomsten ter voorkoming van dubbele belasting.
+
+(10)
+
+Aangezien de doelstelling van het overwogen optreden, namelijk het opstellen van een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten, niet voldoende door de lidstaten kan worden verwezenlijkt en derhalve beter op het niveau van de Gemeenschap kan geschieden, kan de Gemeenschap maatregelen vaststellen, overeenkomstig het beginsel van subsidiariteit zoals bedoeld in artikel 5 van het Verdrag. Overeenkomstig het beginsel van evenredigheid zoals bedoeld in genoemd artikel, gaat deze richtlijn niet verder dan hetgeen noodzakelijk is om die doelstelling te bereiken,
 
 Gezien het advies van het Europees Parlement (2),
 Gezien het advies van het Europees Economisch en Sociaal
 Comité (3),
 Overwegende hetgeen volgt:
+(1)
 
-In een interne markt die de kenmerken van een binnenlandse markt heeft, zouden transacties tussen ondernemingen van verschillende lidstaten niet aan minder
-gunstige belastingvoorschriften onderworpen moeten
-zijn dan die welke voor soortgelijke transacties tussen
-ondernemingen van eenzelfde lidstaat gelden.
+In een interne markt die de kenmerken van een binnenlandse markt heeft, zouden transacties tussen ondernemingen van verschillende lidstaten niet aan minder gunstige belastingvoorschriften onderworpen moeten zijn dan die welke voor soortgelijke transacties tussen ondernemingen van eenzelfde lidstaat gelden.
 
-Met betrekking tot uitkeringen van interest en royalty's
-wordt thans niet aan deze eis voldaan; de nationale
-belastingwetten, in voorkomend geval in samenhang met
-bilaterale of multilaterale overeenkomsten, kunnen niet
-altijd waarborgen dat dubbele belasting wordt geëlimineerd en de toepassing ervan plaatst de betrokken ondernemingen vaak voor belastende administratieve formaliteiten en kasmiddelenproblemen.
+(2)
+
+Met betrekking tot uitkeringen van interest en royalty's wordt thans niet aan deze eis voldaan; de nationale belastingwetten, in voorkomend geval in samenhang met bilaterale of multilaterale overeenkomsten, kunnen niet altijd waarborgen dat dubbele belasting wordt geëlimineerd en de toepassing ervan plaatst de betrokken ondernemingen vaak voor belastende administratieve formaliteiten en kasmiddelenproblemen.
+
+(3)
 
 Er moet worden gewaarborgd dat uitkeringen van interest en royalty's eenmaal in een lidstaat worden belast.
 
-De afschaffing van de belasting op uitkeringen van interest en royalty's in de lidstaat waar zij ontstaan, ongeacht
-of deze door inhouding aan de bron of door aanslag
-wordt geïnd, is het geschiktste middel om deze formaliteiten en problemen uit te bannen en een gelijke fiscale
-behandeling van nationale en transnationale transacties
-te waarborgen. Deze belasting moet met name worden
-afgeschaft voor uitkeringen tussen verbonden ondernemingen van verschillende lidstaten en tussen vaste
-inrichtingen van deze ondernemingen.
+(4)
 
-De regelingen dienen uitsluitend van toepassing te zijn
-op het eventuele bedrag aan interest of royalty's dat
-zonder een bijzondere verhouding tussen de betaler en
-de uiteindelijk gerechtigde zou zijn overeengekomen.
+De afschaffing van de belasting op uitkeringen van interest en royalty's in de lidstaat waar zij ontstaan, ongeacht of deze door inhouding aan de bron of door aanslag wordt geïnd, is het geschiktste middel om deze formaliteiten en problemen uit te bannen en een gelijke fiscale behandeling van nationale en transnationale transacties te waarborgen. Deze belasting moet met name worden afgeschaft voor uitkeringen tussen verbonden ondernemingen van verschillende lidstaten en tussen vaste inrichtingen van deze ondernemingen.
 
-Het mag de lidstaten bovendien niet worden belet
-passende maatregelen ter bestrijding van fraude of
-misbruik te nemen.
+(5)
 
-Aan Griekenland en Portugal moet om begrotingsredenen een overgangsperiode worden toegestaan gedurende welke zij de belasting op uitkeringen van interest
-en royalty's, ongeacht of deze door inhouding aan de
+De regelingen dienen uitsluitend van toepassing te zijn op het eventuele bedrag aan interest of royalty's dat zonder een bijzondere verhouding tussen de betaler en de uiteindelijk gerechtigde zou zijn overeengekomen.
+
+(6)
+
+Het mag de lidstaten bovendien niet worden belet passende maatregelen ter bestrijding van fraude of misbruik te nemen.
+
+(7)
+
+Aan Griekenland en Portugal moet om begrotingsredenen een overgangsperiode worden toegestaan gedurende welke zij de belasting op uitkeringen van interest en royalty's, ongeacht of deze door inhouding aan de
 
 (1) PB C 123 van 22.4.1998, blz. 9.
 (2) PB C 313 van 12.10.1998, blz. 151.
@@ -92,165 +74,77 @@ en royalty's, ongeacht of deze door inhouding aan de
 
 HEEFT DE VOLGENDE RICHTLIJN VASTGESTELD:
 
-## Artikel 1
-
+## Art. 1
 Werkingssfeer en procedure
-1. Uitkeringen van interest of royalty's die ontstaan in een
-lidstaat, worden vrijgesteld van alle belastingen in die bronstaat
-(door inhouding dan wel door aanslag), op voorwaarde dat een
-onderneming van een andere lidstaat, of een in een andere
-lidstaat gelegen vaste inrichting van een onderneming van een
-lidstaat, de uiteindelijk gerechtigde tot de interest of de royalty's
-is.
-2. Uitkeringen die worden uitbetaald door een onderneming
-van een lidstaat of een in die lidstaat gelegen vaste inrichting
-van een onderneming van een andere lidstaat, worden geacht
-in die lidstaat te ontstaan (hierna: „bronstaat”).
+1. Uitkeringen van interest of royalty's die ontstaan in een lidstaat, worden vrijgesteld van alle belastingen in die bronstaat (door inhouding dan wel door aanslag), op voorwaarde dat een onderneming van een andere lidstaat, of een in een andere lidstaat gelegen vaste inrichting van een onderneming van een lidstaat, de uiteindelijk gerechtigde tot de interest of de royalty's is.
+2. Uitkeringen die worden uitbetaald door een onderneming van een lidstaat of een in die lidstaat gelegen vaste inrichting van een onderneming van een andere lidstaat, worden geacht in die lidstaat te ontstaan (hierna: „bronstaat”).
+
+L 157/50
+
+NL
+
+Publicatieblad van de Europese Unie
 
 3.
-Een vaste inrichting wordt alleen als uitbetaler van interest of royalty's behandeld voorzover de betrokken uitkeringen
-voor die vaste inrichting in de lidstaat waar zij gelegen is, een
-aftrekbare bedrijfsuitgave vormen.
+Een vaste inrichting wordt alleen als uitbetaler van interest of royalty's behandeld voorzover de betrokken uitkeringen voor die vaste inrichting in de lidstaat waar zij gelegen is, een aftrekbare bedrijfsuitgave vormen.
 
 4.
-Een onderneming van een lidstaat wordt alleen als uiteindelijk gerechtigde tot interest of royalty's behandeld indien zij
-de betrokken uitkeringen te eigen gunste ontvangt, en niet als
-bemiddelende instantie, bijvoorbeeld als tussenpersoon, trustee
-of gemachtigde van een derde.
+Een onderneming van een lidstaat wordt alleen als uiteindelijk gerechtigde tot interest of royalty's behandeld indien zij de betrokken uitkeringen te eigen gunste ontvangt, en niet als bemiddelende instantie, bijvoorbeeld als tussenpersoon, trustee of gemachtigde van een derde.
 
 5.
-Een vaste inrichting wordt behandeld als uiteindelijk
-gerechtigde tot interest of royalty's:
-a) voorzover de schuldvordering, het recht, het gebruik of de
-informatie ten aanzien waarvan uitkeringen van interest of
-royalty's ontstaan, daadwerkelijk verband houdt met die
-vaste inrichting, en
-b) voorzover de uitkeringen van interest of royalty's inkomsten
-zijn ten aanzien waarvan zij in de lidstaat waarin zij gelegen
-is, onderworpen is aan één van de in artikel 3, onder a),
-punt iii), genoemde belastingen of, in het geval van België,
-aan de belasting der niet-verblijfhouders/impôt des non-résidents, en in het geval van Spanje aan de Impuesto sobre la
-Renta de no Residentes, dan wel aan ongeacht welke gelijke
-of in wezen gelijksoortige belasting die na de datum van
-inwerkingtreding van deze richtlijn in aanvulling op of in de
-plaats van die bestaande belastingen wordt geheven.
+Een vaste inrichting wordt behandeld als uiteindelijk gerechtigde tot interest of royalty's:
+a) voorzover de schuldvordering, het recht, het gebruik of de informatie ten aanzien waarvan uitkeringen van interest of royalty's ontstaan, daadwerkelijk verband houdt met die vaste inrichting, en
+b) voorzover de uitkeringen van interest of royalty's inkomsten zijn ten aanzien waarvan zij in de lidstaat waarin zij gelegen is, onderworpen is aan één van de in artikel 3, onder a), punt iii), genoemde belastingen of, in het geval van België, aan de belasting der niet-verblijfhouders/impôt des non-résidents, en in het geval van Spanje aan de Impuesto sobre la Renta de no Residentes, dan wel aan ongeacht welke gelijke of in wezen gelijksoortige belasting die na de datum van inwerkingtreding van deze richtlijn in aanvulling op of in de plaats van die bestaande belastingen wordt geheven.
 
-10. Een lidstaat heeft de mogelijkheid om deze richtlijn niet
-toe te passen op een onderneming van een andere lidstaat of
-op een vaste inrichting van een onderneming van een andere
-lidstaat indien de in artikel 3, onder b), genoemde voorwaarden
-niet vervuld waren gedurende een ononderbroken periode van
-ten minste twee jaar.
 
-11. De bronstaat kan eisen dat op het tijdstip van uitbetaling
-van de interest of royalty's door middel van een attest wordt
-aangetoond dat de voorwaarden van dit artikel en van artikel 3
-vervuld zijn. Indien op het tijdstip van uitbetaling niet is aangetoond dat de voorwaarden van dit artikel vervuld zijn, staat het
-de lidstaat vrij inhouding van bronbelasting op te leggen.
+10. Een lidstaat heeft de mogelijkheid om deze richtlijn niet toe te passen op een onderneming van een andere lidstaat of op een vaste inrichting van een onderneming van een andere lidstaat indien de in artikel 3, onder b), genoemde voorwaarden niet vervuld waren gedurende een ononderbroken periode van ten minste twee jaar.
 
-12. De bronstaat mag aan vrijstelling uit hoofde van deze
-richtlijn de voorwaarde verbinden dat hij ingevolge een attest
-dat de voorwaarden van dit artikel en van artikel 3 zijn vervuld,
-een besluit heeft genomen op grond waarvan op dat ogenblik
-vrijstelling kan worden verleend. Het vrijstellingsbesluit moet
-uiterlijk drie maanden na de afgifte van het attest en de
-verstrekking van de bewijsstukken waarom de bronstaat redelijkerwijze kan verzoeken, worden genomen en heeft vervolgens
-een geldigheidsduur van ten minste een jaar.
+11. De bronstaat kan eisen dat op het tijdstip van uitbetaling van de interest of royalty's door middel van een attest wordt aangetoond dat de voorwaarden van dit artikel en van artikel 3 vervuld zijn. Indien op het tijdstip van uitbetaling niet is aangetoond dat de voorwaarden van dit artikel vervuld zijn, staat het de lidstaat vrij inhouding van bronbelasting op te leggen.
 
-13. Voor de toepassing van de leden 11 en 12 heeft het
-attest voor elke overeenkomst die aan de uitkering ten grondslag ligt, een geldigheidsduur van ten minste een jaar tot ten
-hoogste drie jaar vanaf de datum van afgifte; het behelst de
-volgende gegevens:
+12. De bronstaat mag aan vrijstelling uit hoofde van deze richtlijn de voorwaarde verbinden dat hij ingevolge een attest dat de voorwaarden van dit artikel en van artikel 3 zijn vervuld, een besluit heeft genomen op grond waarvan op dat ogenblik vrijstelling kan worden verleend. Het vrijstellingsbesluit moet uiterlijk drie maanden na de afgifte van het attest en de verstrekking van de bewijsstukken waarom de bronstaat redelijkerwijze kan verzoeken, worden genomen en heeft vervolgens een geldigheidsduur van ten minste een jaar.
+
+13. Voor de toepassing van de leden 11 en 12 heeft het attest voor elke overeenkomst die aan de uitkering ten grondslag ligt, een geldigheidsduur van ten minste een jaar tot ten hoogste drie jaar vanaf de datum van afgifte; het behelst de volgende gegevens:
 
 6.
-Indien een vaste inrichting van een onderneming van een
-lidstaat als betaler van of als uiteindelijk gerechtigde tot interest
-of royalty's wordt behandeld, wordt geen ander deel van de
-onderneming voor de toepassing van dit artikel als betaler van
-of als uiteindelijk gerechtigde tot de betrokken interest of royalty's behandeld.
+Indien een vaste inrichting van een onderneming van een lidstaat als betaler van of als uiteindelijk gerechtigde tot interest of royalty's wordt behandeld, wordt geen ander deel van de onderneming voor de toepassing van dit artikel als betaler van of als uiteindelijk gerechtigde tot de betrokken interest of royalty's behandeld.
 
-a) een bewijs van de fiscale woonplaats van de ontvangende
-onderneming en, in voorkomend geval, van het bestaan van
-een vaste inrichting, afgegeven door de belastingautoriteit
-van de lidstaat waar de ontvangende onderneming haar
-fiscale woonplaats heeft of waar de vaste inrichting gelegen
-is;
+a) een bewijs van de fiscale woonplaats van de ontvangende onderneming en, in voorkomend geval, van het bestaan van een vaste inrichting, afgegeven door de belastingautoriteit van de lidstaat waar de ontvangende onderneming haar fiscale woonplaats heeft of waar de vaste inrichting gelegen is;
 
 7.
-Dit artikel vindt alleen toepassing indien de onderneming
-die de betaler van interest of royalty's is, of de onderneming
-waarvan de vaste inrichting als zodanig wordt behandeld, een
-verbonden onderneming is van de onderneming die de uiteindelijk gerechtigde is of waarvan de vaste inrichting wordt
-behandeld als de uiteindelijk gerechtigde tot de betrokken interest of royalty's.
+Dit artikel vindt alleen toepassing indien de onderneming die de betaler van interest of royalty's is, of de onderneming waarvan de vaste inrichting als zodanig wordt behandeld, een verbonden onderneming is van de onderneming die de uiteindelijk gerechtigde is of waarvan de vaste inrichting wordt behandeld als de uiteindelijk gerechtigde tot de betrokken interest of royalty's.
 
-b) een verklaring dat de ontvangende onderneming de uiteindelijk gerechtigde is zoals bedoeld in lid 4, dan wel dat de
-voorwaarden van lid 5 vervuld zijn indien de ontvanger van
-de uitkering een vaste inrichting is;
+b) een verklaring dat de ontvangende onderneming de uiteindelijk gerechtigde is zoals bedoeld in lid 4, dan wel dat de voorwaarden van lid 5 vervuld zijn indien de ontvanger van de uitkering een vaste inrichting is;
 
 8.
-Dit artikel vindt geen toepassing wanneer interest of
-royalty's wordt respectievelijk worden uitbetaald door of aan
-een in een derde land gelegen vaste bedrijfsvestiging van een
-onderneming van een lidstaat en de onderneming haar bedrijf
-geheel of gedeeltelijk uitoefent door middel van die vaste
-bedrijfsvestiging.
+Dit artikel vindt geen toepassing wanneer interest of royalty's wordt respectievelijk worden uitbetaald door of aan een in een derde land gelegen vaste bedrijfsvestiging van een onderneming van een lidstaat en de onderneming haar bedrijf geheel of gedeeltelijk uitoefent door middel van die vaste bedrijfsvestiging.
 
-d) een verklaring dat de ontvangende onderneming houdster is
-van een minimumdeelneming dan wel van een minimumpercentage van de stemrechten overeenkomstig artikel 3,
-onder b);
+d) een verklaring dat de ontvangende onderneming houdster is van een minimumdeelneming dan wel van een minimumpercentage van de stemrechten overeenkomstig artikel 3, onder b);
 
 9.
-Dit artikel belet niet dat een lidstaat bij de toepassing van
-zijn belastingrecht interest of royalty's in aanmerking neemt die
-zijn ontvangen door zijn ondernemingen, vaste inrichtingen
-van zijn ondernemingen of door in die staat gelegen vaste
-inrichtingen.
+Dit artikel belet niet dat een lidstaat bij de toepassing van zijn belastingrecht interest of royalty's in aanmerking neemt die zijn ontvangen door zijn ondernemingen, vaste inrichtingen van zijn ondernemingen of door in die staat gelegen vaste inrichtingen.
 
-c) een verklaring dat de voorwaarden van artikel 3, onder a),
-punt iii), voor de ontvangende onderneming vervuld zijn;
+c) een verklaring dat de voorwaarden van artikel 3, onder a), punt iii), voor de ontvangende onderneming vervuld zijn;
 
-e) de vermelding hoelang die deelneming of stemrechten
-bestaan.
+e) de vermelding hoelang die deelneming of stemrechten bestaan.
 
-Daarnaast kunnen de lidstaten verzoeken om de rechtsgrond
-voor de uitkering uit hoofde van de overeenkomst (bijvoorbeeld
-de lenings- of licentieovereenkomst).
+Daarnaast kunnen de lidstaten verzoeken om de rechtsgrond voor de uitkering uit hoofde van de overeenkomst (bijvoorbeeld de lenings- of licentieovereenkomst).
 
-14. Indien de voorwaarden voor vrijstelling niet langer
-vervuld zijn, meldt de ontvangende onderneming of vaste
-inrichting dit onverwijld aan de uitbetalende onderneming of
-vaste inrichting en, indien de bronstaat dit eist, aan de
-bevoegde autoriteit van die staat.
 
-ii) die volgens de belastingwetgeving van een lidstaat wordt
-geacht in die lidstaat haar fiscale woonplaats te hebben
-en die niet volgens een met een derde land gesloten
-overeenkomst ter vermijding van dubbele inkomstenbelasting wordt geacht haar fiscale woonplaats buiten de
-Gemeenschap te hebben, en
+Publicatieblad van de Europese Unie
 
-15. Indien de uitbetalende onderneming of vaste inrichting
-bronbelasting waarvoor op grond van dit artikel vrijstelling
-moet worden verleend, heeft ingehouden, kan een vordering
-tot teruggave van die bronbelasting worden ingesteld. De
-lidstaat kan de in lid 13 genoemde gegevens opeisen. Het
-verzoek om teruggave moet binnen de gestelde termijn worden
-ingediend. Die termijn bedraagt ten minste twee jaar en gaat in
-op de datum waarop de interest of royalty's uitgekeerd zijn.
+NL
 
-iii) die onderworpen is aan een van de volgende belastingen
-of aan ongeacht welke gelijke of in wezen gelijksoortige
-belasting die na de datum van inwerkingtreding van
-deze richtlijn in aanvulling op of in de plaats van die
-bestaande belastingen wordt geheven:
+L 157/51
 
-16. De bronstaat gaat binnen een jaar na ontvangst van het
-verzoek en van de bewijsstukken waarom hij redelijkerwijze
-kan verzoeken, over tot teruggave van de ten onrechte ingehouden bronbelasting. Indien de bronbelasting niet binnen die
-termijn is teruggegeven, heeft de ontvangende onderneming of
-vaste inrichting bij het verstrijken van dat jaar recht op rente
-over de terug te geven belasting tegen de nationale rentevoet
-die in vergelijkbare gevallen krachtens het nationaal recht van
-de bronstaat wordt toegepast.
+14. Indien de voorwaarden voor vrijstelling niet langer vervuld zijn, meldt de ontvangende onderneming of vaste inrichting dit onverwijld aan de uitbetalende onderneming of vaste inrichting en, indien de bronstaat dit eist, aan de bevoegde autoriteit van die staat.
+
+ii) die volgens de belastingwetgeving van een lidstaat wordt geacht in die lidstaat haar fiscale woonplaats te hebben en die niet volgens een met een derde land gesloten overeenkomst ter vermijding van dubbele inkomstenbelasting wordt geacht haar fiscale woonplaats buiten de Gemeenschap te hebben, en
+
+15. Indien de uitbetalende onderneming of vaste inrichting bronbelasting waarvoor op grond van dit artikel vrijstelling moet worden verleend, heeft ingehouden, kan een vordering tot teruggave van die bronbelasting worden ingesteld. De lidstaat kan de in lid 13 genoemde gegevens opeisen. Het verzoek om teruggave moet binnen de gestelde termijn worden ingediend. Die termijn bedraagt ten minste twee jaar en gaat in op de datum waarop de interest of royalty's uitgekeerd zijn.
+
+iii) die onderworpen is aan een van de volgende belastingen of aan ongeacht welke gelijke of in wezen gelijksoortige belasting die na de datum van inwerkingtreding van deze richtlijn in aanvulling op of in de plaats van die bestaande belastingen wordt geheven:
+
+16. De bronstaat gaat binnen een jaar na ontvangst van het verzoek en van de bewijsstukken waarom hij redelijkerwijze kan verzoeken, over tot teruggave van de ten onrechte ingehouden bronbelasting. Indien de bronbelasting niet binnen die termijn is teruggegeven, heeft de ontvangende onderneming of vaste inrichting bij het verstrijken van dat jaar recht op rente over de terug te geven belasting tegen de nationale rentevoet die in vergelijkbare gevallen krachtens het nationaal recht van de bronstaat wordt toegepast.
 
 — vennootschapsbelasting/impôt des sociétés in België;
 — selskabsskat in Denemarken;
@@ -261,8 +155,7 @@ de bronstaat wordt toegepast.
 — corporation tax in Ierland;
 — imposta sul reddito delle persone giuridiche in Italië;
 
-## Artikel 2
-
+## Art. 2
 Definitie van interest en royalty's
 
 — impôt sur le revenu des collectivités in Luxemburg;
@@ -270,184 +163,91 @@ Definitie van interest en royalty's
 — Körperschaftsteuer in Oostenrijk;
 
 Voor de toepassing van deze richtlijn wordt verstaan onder:
-a) „interest”: inkomsten uit schuldvorderingen van welke aard
-dan ook, al dan niet verzekerd door hypotheek en al dan
-niet aanspraak gevend op een aandeel in de winst van de
-schuldenaar, en in het bijzonder inkomsten uit leningen en
-inkomsten uit obligaties of schuldbewijzen, daaronder
-begrepen de aan zodanige leningen, obligaties of schuldbewijzen verbonden premies en prijzen. In rekening gebrachte
-boete voor te late betaling wordt niet als interest aangemerkt;
-b) „royalty's”: vergoedingen van welke aard dan ook voor het
-gebruik van, of voor het recht van gebruik van, een auteursrecht op een werk op het gebied van letterkunde, kunst of
-wetenschap — daaronder begrepen bioscoopfilms en software — van een octrooi, een fabrieks- of handelsmerk, een
-tekening of model, een plan, een geheim recept of een
-geheime werkwijze, of voor inlichtingen omtrent ervaringen
-op het gebied van nijverheid, handel of wetenschap; vergoedingen voor het gebruik van of voor het recht van gebruik
-van industriële, commerciële of wetenschappelijke uitrusting
-worden als royalty's aangemerkt.
+a) „interest”: inkomsten uit schuldvorderingen van welke aard dan ook, al dan niet verzekerd door hypotheek en al dan niet aanspraak gevend op een aandeel in de winst van de schuldenaar, en in het bijzonder inkomsten uit leningen en inkomsten uit obligaties of schuldbewijzen, daaronder begrepen de aan zodanige leningen, obligaties of schuldbewijzen verbonden premies en prijzen. In rekening gebrachte boete voor te late betaling wordt niet als interest aangemerkt;
+b) „royalty's”: vergoedingen van welke aard dan ook voor het gebruik van, of voor het recht van gebruik van, een auteursrecht op een werk op het gebied van letterkunde, kunst of wetenschap — daaronder begrepen bioscoopfilms en software — van een octrooi, een fabrieks- of handelsmerk, een tekening of model, een plan, een geheim recept of een geheime werkwijze, of voor inlichtingen omtrent ervaringen op het gebied van nijverheid, handel of wetenschap; vergoedingen voor het gebruik van of voor het recht van gebruik van industriële, commerciële of wetenschappelijke uitrusting worden als royalty's aangemerkt.
 
-## Artikel 3
-
-Definitie van onderneming, verbonden onderneming en
-vaste inrichting
+## Art. 3
+Definitie van onderneming, verbonden onderneming en vaste inrichting
 Voor de toepassing van deze richtlijn wordt verstaan onder:
 a) „onderneming van een lidstaat”, elke onderneming:
 i) die een van de op de lijst in de bijlage genoemde rechtsvormen heeft en
 
-— imposto sobre o rendimento das pessoas colectivas
-in Portugal;
+— imposto sobre o rendimento das pessoas colectivas in Portugal;
 — yhteisöjen tulovero/inkomstskatten för samfund in
 Finland;
 — statlig inkomstskatt in Zweden;
 — corporation tax in het Verenigd Koninkrijk;
-b) iedere onderneming die ten minste daardoor met een tweede
-onderneming verbonden is doordat:
-i) de eerste onderneming rechtstreeks een deelneming van
-ten minste 25 % in het kapitaal van de tweede onderneming heeft, dan wel
-ii) de tweede onderneming rechtstreeks een deelneming
-van ten minste 25 % in het kapitaal van de eerste onderneming heeft, dan wel
-iii) een derde onderneming rechtstreeks een deelneming van
-ten minste 25 % in het kapitaal van zowel de eerste
-onderneming als de tweede onderneming heeft.
-De deelnemingen mogen enkel ondernemingen betreffen die
-binnen de Gemeenschap gevestigd zijn.
-De lidstaten hebben echter de mogelijkheid om het criterium van een minimumdeelneming in het kapitaal te
-vervangen door dat van een minimumpercentage van de
-stemrechten;
-c) „vaste inrichting”: een in een lidstaat gelegen vaste bedrijfsvestiging door middel waarvan een onderneming van een
-andere lidstaat haar bedrijf geheel of gedeeltelijk uitoefent.
+b) iedere onderneming die ten minste daardoor met een tweede onderneming verbonden is doordat:
+i) de eerste onderneming rechtstreeks een deelneming van ten minste 25 % in het kapitaal van de tweede onderneming heeft, dan wel
+ii) de tweede onderneming rechtstreeks een deelneming van ten minste 25 % in het kapitaal van de eerste onderneming heeft, dan wel
+iii) een derde onderneming rechtstreeks een deelneming van ten minste 25 % in het kapitaal van zowel de eerste onderneming als de tweede onderneming heeft.
+De deelnemingen mogen enkel ondernemingen betreffen die binnen de Gemeenschap gevestigd zijn.
+De lidstaten hebben echter de mogelijkheid om het criterium van een minimumdeelneming in het kapitaal te vervangen door dat van een minimumpercentage van de stemrechten;
+c) „vaste inrichting”: een in een lidstaat gelegen vaste bedrijfsvestiging door middel waarvan een onderneming van een andere lidstaat haar bedrijf geheel of gedeeltelijk uitoefent.
 
-## Artikel 4
+L 157/52
 
-Uitsluiting van niet als interest of royalty's aan te merken
-uitkeringen
+Publicatieblad van de Europese Unie
+
+NL
+
+## Art. 4
+Uitsluiting van niet als interest of royalty's aan te merken uitkeringen
 1.
-In de volgende gevallen behoeft de bronstaat de voordelen
-van deze richtlijn niet toe te kennen:
+In de volgende gevallen behoeft de bronstaat de voordelen van deze richtlijn niet toe te kennen:
 a) uitkeringen die volgens het recht van de bronstaat als winstuitkering of terugbetaling van kapitaal worden behandeld;
-b) uitkeringen uit schuldvorderingen die het recht geven deel
-te nemen in de winst van de schuldenaar;
-c) uitkeringen uit schuldvorderingen die de schuldeiser het
-recht verlenen zijn recht op interest in te ruilen tegen het
-recht deel te nemen in de winst van de schuldenaar;
-d) uitkeringen uit schuldvorderingen die geen bepalingen
-betreffende terugbetaling van de hoofdsom bevatten of
-waarvan de terugbetaling meer dan 50 jaar na de uitgiftedatum verschuldigd is.
+b) uitkeringen uit schuldvorderingen die het recht geven deel te nemen in de winst van de schuldenaar;
+c) uitkeringen uit schuldvorderingen die de schuldeiser het recht verlenen zijn recht op interest in te ruilen tegen het recht deel te nemen in de winst van de schuldenaar;
+d) uitkeringen uit schuldvorderingen die geen bepalingen betreffende terugbetaling van de hoofdsom bevatten of waarvan de terugbetaling meer dan 50 jaar na de uitgiftedatum verschuldigd is.
 2.
-Wanneer, ten gevolge van een bijzondere verhouding
-tussen de uitbetaler en de uiteindelijk gerechtigde van de interest of royalty's of tussen hen beiden en een derde, het bedrag
-van de interest of royalty's hoger is dan het bedrag dat zonder
-een dergelijke verhouding door de uitbetaler en de uiteindelijk
-gerechtigde zou zijn overeengekomen, vindt deze richtlijn
-slechts toepassing op dit eventuele laatstgenoemde bedrag.
+Wanneer, ten gevolge van een bijzondere verhouding tussen de uitbetaler en de uiteindelijk gerechtigde van de interest of royalty's of tussen hen beiden en een derde, het bedrag van de interest of royalty's hoger is dan het bedrag dat zonder een dergelijke verhouding door de uitbetaler en de uiteindelijk gerechtigde zou zijn overeengekomen, vindt deze richtlijn slechts toepassing op dit eventuele laatstgenoemde bedrag.
 
-## Artikel 5
-
+## Art. 5
 Fraude en misbruiken
 1.
-Deze richtlijn vormt geen beletsel voor de toepassing van
-nationale of verdragsrechtelijke voorschriften ter bestrijding
-van fraude en misbruiken.
+Deze richtlijn vormt geen beletsel voor de toepassing van nationale of verdragsrechtelijke voorschriften ter bestrijding van fraude en misbruiken.
 2.
-Een lidstaat kan het genot van deze richtlijn ontzeggen of
-weigeren de richtlijn toe te passen in het geval van transacties
-met als voornaamste beweegreden of een van de voornaamste
-beweegredenen
-belastingfraude,
-belastingontwijking
-of
-misbruik.
+Een lidstaat kan het genot van deze richtlijn ontzeggen of weigeren de richtlijn toe te passen in het geval van transacties met als voornaamste beweegreden of een van de voornaamste beweegredenen belastingfraude, belastingontwijking of misbruik.
 
-## Artikel 6
-
+## Art. 6
 Overgangsregels voor Griekenland en Portugal
 1.
-Griekenland en Portugal hebben de mogelijkheid om
-artikel 1 niet toe te passen tot de toepassingsdatum bedoeld in
-artikel 17, leden 2 en 3, van Richtlijn 2003/48/EG van de Raad
-van 3 juni 2003 betreffende belastingheffing op inkomsten uit
-spaargelden in de vorm van rentebetaling (1). Gedurende een
-overgangsperiode van acht jaar die op de genoemde datum
-begint, mag de belasting op uitkeringen van interest of royalty's
-aan een verbonden onderneming van een andere lidstaat of een
-in een andere lidstaat gelegen vaste inrichting van een
-verbonden onderneming van een lidstaat gedurende de eerste
-vier jaar ten hoogste 10 % en gedurende de laatste vier jaar ten
-hoogste 5 % bedragen.
+Griekenland en Portugal hebben de mogelijkheid om artikel 1 niet toe te passen tot de toepassingsdatum bedoeld in artikel 17, leden 2 en 3, van Richtlijn 2003/48/EG van de Raad van 3 juni 2003 betreffende belastingheffing op inkomsten uit spaargelden in de vorm van rentebetaling (1). Gedurende een overgangsperiode van acht jaar die op de genoemde datum begint, mag de belasting op uitkeringen van interest of royalty's aan een verbonden onderneming van een andere lidstaat of een in een andere lidstaat gelegen vaste inrichting van een verbonden onderneming van een lidstaat gedurende de eerste vier jaar ten hoogste 10 % en gedurende de laatste vier jaar ten hoogste 5 % bedragen.
 (1) Zie bladzijde 38 van dit Publicatieblad.
 
-Spanje heeft, alleen voor de uitkeringen van royalty's, de mogelijkheid om artikel 1 niet toe te passen tot de toepassingsdatum
-bedoeld in artikel 17, leden 2 en 3, van Richtlijn 2003/48/EG.
-Gedurende een overgangsperiode van zes jaar die op de
-genoemde datum begint, mag de belasting op uitkeringen van
-royalty's aan een verbonden onderneming van een andere
-lidstaat of een in een andere lidstaat gelegen vaste inrichting
-van een verbonden onderneming van een lidstaat ten hoogste
-10 % bedragen.
-Hieraan is echter de voorwaarde verbonden dat belastingtarieven die eventueel lager zijn dan die genoemd in de eerste
-twee alinea's en waarin wordt voorzien door bilaterale overeenkomsten tussen Griekenland, Spanje of Portugal en andere
-lidstaten, van toepassing blijven. Vóór het einde van elk van de
-genoemde overgangsperiodes kan de Raad, op voorstel van de
-Commissie, met eenparigheid van stemmen besluiten deze te
-verlengen.
-2. Indien een onderneming van een lidstaat of een in die
-lidstaat gelegen vaste inrichting van een onderneming van een
-lidstaat interest of royalty's ontvangt van:
-— een verbonden onderneming van Griekenland of Portugal,
-— een verbonden onderneming van Spanje,
-— een in Griekenland of Portugal gelegen vaste inrichting van
-een verbonden onderneming van een lidstaat, of
-— een in Spanje gelegen vaste inrichting van een verbonden
-onderneming van een lidstaat,
-staat de eerstgenoemde lidstaat toe dat een bedrag, gelijk aan
-de belasting die overeenkomstig lid 1 in Griekenland, Spanje of
-Portugal over die inkomsten is betaald, in mindering wordt
-gebracht op de belasting over de inkomsten van de onderneming of de vaste inrichting die deze inkomsten heeft
-ontvangen.
-3. De in lid 2 bedoelde vermindering behoeft niet hoger te
-zijn dan het laagste van de volgende twee bedragen:
+
+Spanje heeft, alleen voor de uitkeringen van royalty's, de mogelijkheid om artikel 1 niet toe te passen tot de toepassingsdatum bedoeld in artikel 17, leden 2 en 3, van Richtlijn 2003/48/EG.
+Gedurende een overgangsperiode van zes jaar die op de genoemde datum begint, mag de belasting op uitkeringen van royalty's aan een verbonden onderneming van een andere lidstaat of een in een andere lidstaat gelegen vaste inrichting van een verbonden onderneming van een lidstaat ten hoogste 10 % bedragen.
+Hieraan is echter de voorwaarde verbonden dat belastingtarieven die eventueel lager zijn dan die genoemd in de eerste twee alinea's en waarin wordt voorzien door bilaterale overeenkomsten tussen Griekenland, Spanje of Portugal en andere lidstaten, van toepassing blijven. Vóór het einde van elk van de genoemde overgangsperiodes kan de Raad, op voorstel van de Commissie, met eenparigheid van stemmen besluiten deze te verlengen.
+2. Indien een onderneming van een lidstaat of een in die lidstaat gelegen vaste inrichting van een onderneming van een lidstaat interest of royalty's ontvangt van: — een verbonden onderneming van Griekenland of Portugal, — een verbonden onderneming van Spanje, — een in Griekenland of Portugal gelegen vaste inrichting van een verbonden onderneming van een lidstaat, of — een in Spanje gelegen vaste inrichting van een verbonden onderneming van een lidstaat, staat de eerstgenoemde lidstaat toe dat een bedrag, gelijk aan de belasting die overeenkomstig lid 1 in Griekenland, Spanje of Portugal over die inkomsten is betaald, in mindering wordt gebracht op de belasting over de inkomsten van de onderneming of de vaste inrichting die deze inkomsten heeft ontvangen.
+3. De in lid 2 bedoelde vermindering behoeft niet hoger te zijn dan het laagste van de volgende twee bedragen:
 a) de belasting die in Griekenland, Spanje of Portugal verschuldigd is op grond van lid 1, of
-b) het gedeelte van de belasting over de inkomsten van de
-onderneming of vaste inrichting die de interest of de royalty's heeft ontvangen, berekend voordat de vermindering is
-toegestaan, dat volgens de nationale wetgeving van de
-lidstaat van de onderneming of waar de vaste inrichting
-gelegen is, aan deze uitkeringen kan worden toegerekend.
+b) het gedeelte van de belasting over de inkomsten van de onderneming of vaste inrichting die de interest of de royalty's heeft ontvangen, berekend voordat de vermindering is toegestaan, dat volgens de nationale wetgeving van de lidstaat van de onderneming of waar de vaste inrichting gelegen is, aan deze uitkeringen kan worden toegerekend.
 
-## Artikel 7
-
+## Art. 7
 Uitvoering
-1. De lidstaten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 1 januari
-2004 aan deze richtlijn te voldoen. Zij stellen de Commissie
-daarvan onverwijld in kennis.
+1. De lidstaten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 1 januari 2004 aan deze richtlijn te voldoen. Zij stellen de Commissie daarvan onverwijld in kennis.
 
-Wanneer de lidstaten deze bepalingen aannemen, wordt in die
-bepalingen naar de onderhavige richtlijn verwezen of wordt
-hiernaar verwezen bij de officiële bekendmaking van die bepalingen. De regels voor deze verwijzing worden vastgesteld door
-de lidstaten.
+
+Publicatieblad van de Europese Unie
+
+NL
+
+Wanneer de lidstaten deze bepalingen aannemen, wordt in die bepalingen naar de onderhavige richtlijn verwezen of wordt hiernaar verwezen bij de officiële bekendmaking van die bepalingen. De regels voor deze verwijzing worden vastgesteld door de lidstaten.
 2.
-De lidstaten delen de Commissie de tekst van de belangrijkste bepalingen van intern recht mee die zij op het onder
-deze richtlijn vallende gebied vaststellen. In deze mededeling
-verstrekken de lidstaten een concordantietabel, waaruit blijkt
-welke vastgestelde nationale bepalingen overeenkomen met de
-bepalingen van deze richtlijn.
+De lidstaten delen de Commissie de tekst van de belangrijkste bepalingen van intern recht mee die zij op het onder deze richtlijn vallende gebied vaststellen. In deze mededeling verstrekken de lidstaten een concordantietabel, waaruit blijkt welke vastgestelde nationale bepalingen overeenkomen met de bepalingen van deze richtlijn.
 
-## Artikel 9
-
+L 157/53
+## Art. 9
 Vrijwaringsclausule
 
-Deze richtlijn laat de toepassing onverlet van nationale of
-verdragsbepalingen die verder reiken dan de bepalingen van
-deze richtlijn en gericht zijn op de afschaffing of matiging van
-dubbele belasting van interest en royalty's.
-
-## Artikel 10
-
+Deze richtlijn laat de toepassing onverlet van nationale of verdragsbepalingen die verder reiken dan de bepalingen van deze richtlijn en gericht zijn op de afschaffing of matiging van dubbele belasting van interest en royalty's.
+## Art. 10
 Inwerkingtreding
 Deze richtlijn treedt in werking op de dag van haar bekendmaking in het Publicatieblad van de Europese Unie.
+## Art. 11
 
-## Artikel 11
-
-## Artikel 8
+## Art. 8
 
 Adressaten
 Deze richtlijn is gericht tot de lidstaten.
@@ -455,37 +255,34 @@ Deze richtlijn is gericht tot de lidstaten.
 Herziening
 Gedaan te Luxemburg, 3 juni 2003.
 Uiterlijk op 31 december 2006 brengt de Commissie aan de
-Raad verslag uit over de werking van de richtlijn, in het
-bijzonder met het oog op uitbreiding van de werkingssfeer tot
-andere vennootschappen en ondernemingen dan die bedoeld in
-artikel 3 en in de bijlage.
+Raad verslag uit over de werking van de richtlijn, in het bijzonder met het oog op uitbreiding van de werkingssfeer tot andere vennootschappen en ondernemingen dan die bedoeld in artikel 3 en in de bijlage.
 
 Voor de Raad
 De voorzitter
 N. CHRISTODOULAKIS
 
-## BIJLAGE
+L 157/54
 
+NL
+
+Publicatieblad van de Europese Unie
+
+BIJLAGE
 Lijst van ondernemingen die onder artikel 3, onder a), van de richtlijn vallen
-a) Ondernemingen naar Belgisch recht, geheten naamloze vennootschap/société anonyme, commanditaire vennootschap op aandelen/société en commandite par actions, besloten vennootschap met beperkte aansprakelijkheid/société
-privée à responsabilité limitée, alsmede de publiekrechtelijke lichamen die privaatrechtelijk werkzaam zijn.
+a) Ondernemingen naar Belgisch recht, geheten naamloze vennootschap/société anonyme, commanditaire vennootschap op aandelen/société en commandite par actions, besloten vennootschap met beperkte aansprakelijkheid/société privée à responsabilité limitée, alsmede de publiekrechtelijke lichamen die privaatrechtelijk werkzaam zijn.
 b) Ondernemingen naar Deens recht, geheten aktieselskab, anpartsselskab.
-c) Ondernemingen naar Duits recht, geheten Aktiengesellschaft, Kommanditgesellschaft auf Aktien, Gesellschaft mit
-beschränkter Haftung, bergrechtliche Gewerkschaft.
+c) Ondernemingen naar Duits recht, geheten Aktiengesellschaft, Kommanditgesellschaft auf Aktien, Gesellschaft mit beschränkter Haftung, bergrechtliche Gewerkschaft.
 d) Ondernemingen naar Grieks recht, geheten ανώνυµη εταιρία.
-e) Ondernemingen naar Spaans recht, geheten sociedad anónima, sociedad comanditaria por acciones, sociedad de
-responsabilidad limitada, alsmede de publiekrechtelijke lichamen die privaatrechtelijk werkzaam zijn.
+e) Ondernemingen naar Spaans recht, geheten sociedad anónima, sociedad comanditaria por acciones, sociedad de responsabilidad limitada, alsmede de publiekrechtelijke lichamen die privaatrechtelijk werkzaam zijn.
 f) Ondernemingen naar Frans recht, geheten société anonyme, société en commandite par actions, société à responsabilité limitée, alsmede de openbare instellingen en ondernemingen met een industrieel of commercieel karakter.
-g) Ondernemingen naar Iers recht, geheten public companies limited by shares or by guarantee, private companies
-limited by shares or by guarantee, institutions registered under the Industrial and Provident Societies Acts, of building societies registered under the Building Societies Acts.
+g) Ondernemingen naar Iers recht, geheten public companies limited by shares or by guarantee, private companies limited by shares or by guarantee, institutions registered under the Industrial and Provident Societies Acts, of building societies registered under the Building Societies Acts.
 h) Ondernemingen naar Italiaans recht, geheten: società per azioni, società in accomandita per azioni, società a responsabilità limitata, alsmede openbare en particuliere lichamen die industriële en commerciële activiteiten uitoefenen.
-i) Ondernemingen naar Luxemburgs recht, geheten société anonyme, société en commandite par actions, société à
-responsabilité limitée.
-j) Ondernemingen naar Nederlands recht, geheten naamloze vennootschap, besloten vennootschap met beperkte
-aansprakelijkheid.
+i) Ondernemingen naar Luxemburgs recht, geheten société anonyme, société en commandite par actions, société à responsabilité limitée.
+j) Ondernemingen naar Nederlands recht, geheten naamloze vennootschap, besloten vennootschap met beperkte aansprakelijkheid.
 k) Ondernemingen naar Oostenrijks recht, geheten Aktiengesellschaft, Gesellschaft mit beschränkter Haftung.
 l) Handelsvennootschappen, burgerlijke vennootschappen met handelsvorm, coöperaties en openbare bedrijven opgericht naar Portugees recht.
-m) Ondernemingen naar Fins recht, geheten osakeyhtiö/aktiebolag, osuuskunta/andelslag, säästöpankki/sparbank en
-vakuutusyhtiö/försäkringsbolag.
+m) Ondernemingen naar Fins recht, geheten osakeyhtiö/aktiebolag, osuuskunta/andelslag, säästöpankki/sparbank en vakuutusyhtiö/försäkringsbolag.
 n) Ondernemingen naar Zweeds recht, geheten aktiebolag, försäkringsaktiebolag.
 o) Ondernemingen naar het recht van het Verenigd Koninkrijk.
+
+

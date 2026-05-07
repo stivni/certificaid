@@ -214,12 +214,81 @@ def remove_inline_metadata(text: str) -> str:
 # 4. Woordafbreking en witruimte
 # ---------------------------------------------------------------------------
 
+_HYPHEN_SOFT = re.compile(r"(\w)-\n\s*([a-z])")  # vervolg in kleine letter → soft hyphen, weghalen
+_HYPHEN_HARD = re.compile(r"(\w)-\n\s*([A-Z])")  # vervolg in hoofdletter → echt koppelteken, behouden
+
+
 def fix_broken_words(text: str) -> str:
     """
     Herstel afgebroken woorden aan het einde van regels.
-    'vennoot-\\nschapsbelasting' → 'vennootschapsbelasting'
+    Onderscheidt soft hyphens (PDF-regelafbreking) van echte koppeltekens
+    in samengestelde eigennamen (Lid-Staten, Noord-Ierland).
+
+    'vennoot-\\n   schapsbelasting' → 'vennootschapsbelasting'  (soft, kleine letter)
+    'Lid-\\n   Staten'              → 'Lid-Staten'              (echt, hoofdletter)
     """
-    return re.sub(r"(\w)-\n\s+(\w)", r"\1\2", text)
+    text = _HYPHEN_SOFT.sub(r"\1\2", text)
+    text = _HYPHEN_HARD.sub(r"\1-\2", text)
+    return text
+
+
+# Markers waarmee een regel altijd los blijft staan in merge_wrapped_lines.
+# Dit zijn structurele begin-tokens van een nieuwe paragraaf, lijst-item, heading, …
+_NEW_LINE_STARTS = re.compile(
+    r"^(?:"
+    r"#{1,6}\s"                  # markdown heading
+    r"|§\s*\d"                   # § N
+    r"|\d+°"                     # 1°
+    r"|\d+/\d+°"                 # 1/1°
+    r"|\d+\.(?:\s|$)"            # 1. (of 'i.' alleen op regel)
+    r"|[a-z]\)(?:\s|$)"          # a) of a) alleen op regel
+    r"|[IVXLCivxlc]+\)(?:\s|$)"  # I) of i) — Romeins (hoofd- of kleine letter)
+    r"|\(\d+\)(?:\s|$)"          # (1) voetnoot
+    r"|HOOFDSTUK\b|TITEL\b|BOEK\b|Hoofdstuk\b|Boek\b"
+    r"|Afdeling\b|Onderafdeling\b|Onderafd\.|Eerste\s"
+    r"|Art\.\s|Artikel\s"
+    r"|\*"                       # markdown italic / lijst-bullet
+    r"|_{3,}|-{3,}"              # separator
+    r")"
+)
+_SENTENCE_END = re.compile(r"[.;!?]\s*$")
+_WRAP_THRESHOLD = 70  # PDF-kolombreedte ligt rond 80–95; korte regels zijn doorgaans labels
+
+
+def merge_wrapped_lines(text: str) -> str:
+    """
+    Voeg PDF-soft-wraps binnen één paragraaf samen tot één regel.
+
+    pdftotext -layout breekt af op de PDF-kolombreedte. Een vervolgregel wordt
+    aan de vorige geplakt wanneer:
+      - de vorige regel lang was (>= drempel) én niet eindigt op zinsterminator
+        (. ; ? !), of
+      - de huidige regel begint met een kleine letter (sterk continuatie-signaal).
+    Regels die met een structureel marker beginnen (§, 1°, ##, HOOFDSTUK, …)
+    blijven altijd losstaan.
+
+    Werkt zowel op gestripte als op ingesprongen regels.
+    """
+    out = []
+    for line in text.split("\n"):
+        stripped = line.strip()
+        if not stripped or not out or not out[-1].strip():
+            out.append(line)
+            continue
+        if _NEW_LINE_STARTS.match(stripped):
+            out.append(line)
+            continue
+        prev_stripped = out[-1].strip()
+        likely_wrap = (
+            len(prev_stripped) >= _WRAP_THRESHOLD
+            and not _SENTENCE_END.search(prev_stripped)
+        )
+        starts_lower = stripped[0].islower()
+        if likely_wrap or starts_lower:
+            out[-1] = out[-1].rstrip() + " " + stripped
+        else:
+            out.append(line)
+    return "\n".join(out)
 
 
 def normalize_whitespace(text: str) -> str:
@@ -357,6 +426,7 @@ DEFAULT_STEPS = [
     "fix_broken_words",
     "normalize_whitespace",
     "collapse_blank_lines",
+    "merge_wrapped_lines",     # PDF-soft-wraps samenvoegen tot één paragraaf-regel
 ]
 
 OPTIONAL_STEPS = {
@@ -373,6 +443,7 @@ ALL_STEPS = {
     "fix_broken_words": fix_broken_words,
     "normalize_whitespace": normalize_whitespace,
     "collapse_blank_lines": collapse_blank_lines,
+    "merge_wrapped_lines": merge_wrapped_lines,
     **OPTIONAL_STEPS,
 }
 

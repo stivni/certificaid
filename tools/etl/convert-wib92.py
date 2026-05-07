@@ -7,6 +7,11 @@ Extraheert alleen de rechterkolom (NL) via coördinaten.
 import subprocess
 import re
 import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools"))
+from lib.cleanup import fix_broken_words, merge_wrapped_lines  # noqa: E402
 
 INPUT_PDF = "resources/raw/wetteksten/WIB92.pdf"
 OUTPUT_MD = "resources/bronnen/wetteksten/WIB92.md"
@@ -55,8 +60,13 @@ def clean_lines(text):
 
 
 def join_hyphens(text):
-    """Verbindt afgebroken woorden aan einde van regel (vennoot-\nschapsbelasting)."""
-    return re.sub(r'(\w)-\n\s+(\w)', r'\1\2', text)
+    """Verbindt afgebroken woorden aan einde van regel.
+
+    Delegateert naar lib.cleanup.fix_broken_words: soft hyphens (vervolg met
+    kleine letter) worden samengevoegd; echte koppeltekens voor hoofdletters
+    (Lid-Staten, Noord-Ierland) blijven behouden.
+    """
+    return fix_broken_words(text)
 
 
 def normalize_whitespace(text):
@@ -155,6 +165,7 @@ def main():
     full_text = normalize_whitespace(full_text)
     full_text = to_markdown(full_text)
     full_text = remove_consecutive_blanks(full_text)
+    full_text = merge_wrapped_lines(full_text)
 
     header = """---
 tags: [wettekst, "II"]

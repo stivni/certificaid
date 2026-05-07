@@ -13,6 +13,9 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 YAML_PATH = ROOT / "resources" / "source_config.yaml"
 
+sys.path.insert(0, str(ROOT / "tools"))
+from lib.cleanup import fix_broken_words, merge_wrapped_lines  # noqa: E402
+
 
 def load_wetboek_config(name):
     """Lees een wetboek-entry uit source_config.yaml en map naar het interne cfg-formaat."""
@@ -127,10 +130,16 @@ def clean_and_structure(text, wet_naam):
             if re.match(r'^Tekst$', stripped):
                 in_toc = False
                 continue
-            # Fisconetplus: een 'kale' chapter heading op eigen regel (geen ':' of Art-range erachter)
+            # Fisconetplus stijl 1 (WBTW): 'kale' chapter heading op eigen regel
             if re.match(r'^HOOFDSTUK\s+[IVXLC]+(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies)?$', stripped):
                 in_toc = False
                 # doorvallen: dit is de eerste echte heading
+            # Fisconetplus stijl 2 (Successierechten): 'BOEK X - Titel' / 'HOOFDSTUK X - Titel'
+            # zonder leader-dots+paginanummer (TOC-entries hebben '....... 6' aan het eind).
+            elif (re.match(r'^(?:BOEK|HOOFDSTUK)\s+[IVXLC]+\w*\s+-\s+\S', stripped)
+                    and not re.search(r'\.{2,}', stripped)):
+                in_toc = False
+                # doorvallen
             else:
                 continue
 
@@ -215,8 +224,9 @@ def clean_and_structure(text, wet_naam):
         prev_empty = False
 
     text = '\n'.join(out)
-    text = re.sub(r'(\w)-\n(\w)', r'\1\2', text)  # afgebroken woorden
+    text = fix_broken_words(text)
     text = re.sub(r'\n{3,}', '\n\n', text)
+    text = merge_wrapped_lines(text)
     return text.strip()
 
 
@@ -271,9 +281,9 @@ def clean_and_structure_eu(text):
         prev_empty = False
 
     text = '\n'.join(out)
-    # Verbind afgebroken woorden (koppelteken aan regelende)
-    text = re.sub(r'(\w)-\n(\w)', r'\1\2', text)
+    text = fix_broken_words(text)
     text = re.sub(r'\n{3,}', '\n\n', text)
+    text = merge_wrapped_lines(text)
     return text.strip()
 
 

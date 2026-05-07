@@ -208,7 +208,8 @@ def cleanup_in_place(cfg: dict, source_name: str, dry_run: bool = False,
     cleanup_steps = cfg.get("cleanup", [])
     # Standaard cleanup — zonder remove_toc (die verwijdert YAML frontmatter)
     safe_steps = ["remove_page_artifacts", "fix_broken_words",
-                  "normalize_whitespace", "collapse_blank_lines"]
+                  "normalize_whitespace", "collapse_blank_lines",
+                  "merge_wrapped_lines"]
     cleaned = run_pipeline(original, steps=safe_steps + cleanup_steps)
 
     if show_diff:

@@ -648,7 +648,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 1 — Algemene bepalingen"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek2-relatievermogensrecht:
     type: ejustice_nl
@@ -659,7 +659,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek3-goederen:
     type: ejustice_nl
@@ -670,7 +670,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 3 — Goederen"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek4-nalatenschappen:
     type: ejustice_nl
@@ -681,7 +681,7 @@ sources:
     tags: ["XI", "3.1", "2.6"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek5-verbintenissen:
     type: ejustice_nl
@@ -692,7 +692,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 5 — Verbintenissen"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek8-bewijs:
     type: ejustice_nl
@@ -703,7 +703,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 8 — Bewijs"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BW-boek9-zekerheden:
     type: ejustice_nl
@@ -714,7 +714,7 @@ sources:
     tags: ["XI", "3.1"]
     bijgewerkt: "24.12.2025"
     wet: "Burgerlijk Wetboek — Boek 9 — Zekerheden"
-    cleanup: [remove_french_lines]
+    cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
   BTW-richtlijn-2006-112:
     type: ejustice_nl
