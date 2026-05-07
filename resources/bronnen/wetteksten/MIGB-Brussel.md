@@ -1,10 +1,27 @@
 ---
-tags: ["III", "2.2", "2.3"]
-itaa-lex-sectie: "III"
-wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest"
-status: "beschikbaar"
-bijgewerkt: "12.05.2024"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 12.05.2024
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: III
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/MIGB-Brussel.pdf
+    sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
+    version: 12.05.2024
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- III
+- '2.2'
+- '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels
+  Hoofdstedelijk Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest
@@ -1550,4 +1567,3 @@ Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iede
 Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
 De stortingswijze, de vestiging en de inning van de belasting en van de aanvullende belasting worden bepaald overeenkomstig de regels toepasselijk op de wijze van de storting, van de vestiging en van de inning van de roerende voorheffing.
-

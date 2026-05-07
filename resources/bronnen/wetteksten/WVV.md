@@ -1,10 +1,27 @@
 ---
-tags: ["XV", "1.5", "3.1", "3.2"]
-itaa-lex-sectie: "XV"
-wet: "Wetboek van vennootschappen en verenigingen 23/03/2019"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: XV
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/WVV.pdf
+    sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XV
+- '1.5'
+- '3.1'
+- '3.2'
+wet: Wetboek van vennootschappen en verenigingen 23/03/2019
 ---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019
@@ -11891,4 +11908,3 @@ In afwijking van de artikelen 1:5, § 3, en 2:6 wordt het overeenkomstig dit wet
   (NOTA : Inwerkingtreding van artikelen 3:1, § 3, 5° ; 3:4, L 1, 4° ; 3:8, § 1er, L 2, 2° ; 3:21, 4° ; 3:72, 3° ; 3:76,
  3° ; 6:1, § 3 ; 8:2, 8:3 et 8:6 vastgesteld op 15-07-2019 door KB 2019-07-03/02, art. 1) (NOTA : Inwerkingtreding van artikelen 31, L 1; 42, § 2 vastgesteld op 15-07-2019 door KB 2019-07-03/02, art.
  1)
-

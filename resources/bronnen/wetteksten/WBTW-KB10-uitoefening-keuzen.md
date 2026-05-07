@@ -1,10 +1,30 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde"
-status: "beschikbaar"
-bijgewerkt: "29.12.1992"
-bron: "Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)"
+bijgewerkt: 29.12.1992
+bron: Afgesplitst uit WBTW-KB-compilatie (Fisconetplus, t.e.m. 06.03.2020)
+itaa-lex-sectie: VI.B
+provenance:
+  generated_at: '2026-05-07T13:15:58Z'
+  inputs:
+  - id: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
+    sha256: cf68c748ad2207d98b027cc121bbec354337d2cf0d57d96063da2f6181083e88
+    version: 29.12.1992
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.B
+- '2.4'
+wet: K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten
+  van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde
+  lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek
+  van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging,
+  stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting
+  over de toegevoegde waarde
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde

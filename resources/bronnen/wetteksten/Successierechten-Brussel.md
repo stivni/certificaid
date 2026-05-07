@@ -1,10 +1,25 @@
 ---
-tags: ["IX", "2.6"]
-itaa-lex-sectie: "IX"
-wet: "Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest"
-status: "beschikbaar"
-bijgewerkt: "16.03.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 16.03.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: IX
+provenance:
+  generated_at: '2026-05-07T13:15:15Z'
+  inputs:
+  - id: resources/raw/wetteksten/successie-brussel.pdf
+    sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- IX
+- '2.6'
+wet: Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest

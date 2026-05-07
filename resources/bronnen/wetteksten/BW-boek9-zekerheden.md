@@ -1,10 +1,25 @@
 ---
-tags: ["XI", "3.1"]
-itaa-lex-sectie: "XI"
-wet: "Burgerlijk Wetboek — Boek 9 — Zekerheden"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: XI
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
+    sha256: 0cdda1f59b5365bef4360430f98282c83749ca03be30d363f81311b292e10a3e
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XI
+- '3.1'
+wet: Burgerlijk Wetboek — Boek 9 — Zekerheden
 ---
 
 # Burgerlijk Wetboek — Boek 9 — Zekerheden
@@ -402,4 +417,3 @@ Deze wet is van toepassing op alle persoonlijke zekerheden die zijn gesteld na d
 ## Art. 19
 
 Deze wet treedt in werking op de eerste dag van de zesde maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
-

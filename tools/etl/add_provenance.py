@@ -53,6 +53,17 @@ def add_for_source(name: str, sources: dict, *, force: bool = False) -> tuple[st
             return "raw-missing", str(raw_path)
         version = entry.get("bijgewerkt")
         inputs.append(make_input(raw_path, version=version, repo_root=ROOT))
+    elif entry.get("type") == "split" and entry.get("derived_from"):
+        parent_name = entry["derived_from"]
+        parent_entry = sources.get(parent_name) or {}
+        parent_output = parent_entry.get("output")
+        if not parent_output:
+            return "derived-no-parent-output", parent_name
+        parent_path = ROOT / parent_output
+        if not parent_path.exists():
+            return "derived-parent-missing", str(parent_path)
+        version = entry.get("bijgewerkt")
+        inputs.append(make_input(parent_path, version=version, repo_root=ROOT))
 
     if not inputs:
         return "no-inputs", "neither raw nor derived; skip"

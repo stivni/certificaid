@@ -1,10 +1,24 @@
 ---
-tags: ["XII"]
-itaa-lex-sectie: "XII"
-wet: "Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2"
-status: "beschikbaar"
-bijgewerkt: "29.02.2024"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 29.02.2024
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: XII
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
+    sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
+    version: 29.02.2024
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XII
+wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2
 ---
 
 # Strafwetboek 2024 — Boek 2

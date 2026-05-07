@@ -1,10 +1,26 @@
 ---
-tags: ["VI.C", "2.4"]
-itaa-lex-sectie: "VI.C"
-wet: "M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets"
-status: "beschikbaar"
-bijgewerkt: "2023"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: '2023'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: VI.C
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
+    sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
+    version: '2023'
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden
+  van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets
 ---
 
 # BTW MB 17/03/2023 — Elektronisch dagboek ontvangsten en kastickets

@@ -1,10 +1,27 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn"
-status: "beschikbaar"
-bijgewerkt: "01.10.2010"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 01.10.2010
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: VI.A
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
+    sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
+    version: 01.10.2010
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.A
+- '2.4'
+wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor
+  de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen
+  die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
 ---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
@@ -281,4 +298,3 @@ De lidstaten delen de Commissie de tekst van de belangrijkste bepalingen van int
 Deze richtlijn treedt in werking op de dag volgende op die van haar bekendmaking in het Publicatieblad van de Europese Unie.
 ## Art. 31
 Deze richtlijn is gericht tot de lidstaten.
-

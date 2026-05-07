@@ -1,10 +1,26 @@
 ---
-tags: ["2.2", "2.3"]
-itaa-lex-sectie: ""
-wet: "Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024) — Deel 2"
-status: "beschikbaar"
-bijgewerkt: "2025"
-bron: "fin.belgium.be — FOD Financiën"
+bijgewerkt: '2025'
+bron: fin.belgium.be — FOD Financiën
+itaa-lex-sectie: ''
+provenance:
+  generated_at: '2026-05-07T13:15:18Z'
+  inputs:
+  - id: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
+    sha256: d77349cadcb496404ca7611a8a5ebfbd5d10753f8794e9ef0635fd95099b5279
+    version: '2025'
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- '2.2'
+- '2.3'
+wet: Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten
+  2024) — Deel 2
 ---
 
 # Toelichting aangifte Personenbelasting — AJ 2025 — Deel 2

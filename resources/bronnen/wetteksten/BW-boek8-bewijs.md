@@ -1,10 +1,25 @@
 ---
-tags: ["XI", "3.1"]
-itaa-lex-sectie: "XI"
-wet: "Burgerlijk Wetboek — Boek 8 — Bewijs"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: XI
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
+    sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XI
+- '3.1'
+wet: Burgerlijk Wetboek — Boek 8 — Bewijs
 ---
 
 # Burgerlijk Wetboek — Boek 8 — Bewijs
@@ -371,4 +386,3 @@ Deze wet treedt in werking op de eerste dag van de achttiende maand na die waari
   Artikel 8.15, tweede lid, van boek 8, ingevoegd bij artikel 3 van deze wet, treedt evenwel maar in werking op de datum bepaald in artikel 26, eerste lid, 2°, van de wet van 6 mei 2009 houdende diverse bepalingen en artikel 8.26, § 1, 1°, tweede lid, van hetzelfde boek treedt maar in werking op de datum bepaald in artikel 26, eerste lid,
  3°, van voormelde wet.
   Artikel 8.22, 3°, van boek 8, ingevoegd bij artikel 3 van deze wet, is slechts van toepassing op de feiten die zich voordoen na de datum van inwerkingtreding van deze wet, zoals bepaald in het eerste lid van dit artikel.
-

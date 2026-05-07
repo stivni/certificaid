@@ -1,10 +1,26 @@
 ---
-tags: ["I", "2.1"]
-itaa-lex-sectie: "I"
-wet: "Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
-status: "beschikbaar"
-bijgewerkt: "24.12.2002"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 24.12.2002
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: I
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
+    sha256: 2e02ac9cf2dee1a314196a6d19cc0d294c9c35c2f5d0c8422c728699d9615bd9
+    version: 24.12.2002
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- I
+- '2.1'
+wet: Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen
+  en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken

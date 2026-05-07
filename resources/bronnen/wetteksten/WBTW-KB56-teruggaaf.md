@@ -1,10 +1,26 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf"
-status: "beschikbaar"
-bijgewerkt: "2022"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: '2022'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: VI.B
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
+    sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
+    version: '2022'
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.B
+- '2.4'
+wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen
+  gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
 ---
 
 # BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen

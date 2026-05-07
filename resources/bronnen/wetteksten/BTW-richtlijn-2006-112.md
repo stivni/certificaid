@@ -1,10 +1,26 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde"
-status: "beschikbaar"
-bijgewerkt: "11.12.2006"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 11.12.2006
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: VI.A
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
+    sha256: d2e9f9e0e1ba01e3822dab19047137bf146cfbee10bc4f9d823c53587f91110d
+    version: 11.12.2006
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.A
+- '2.4'
+wet: Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel
+  van belasting over de toegevoegde waarde
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
@@ -9349,5 +9365,3 @@ Bijlage X, lid 7, onder 1), a), onder i) en ii), van de Toetredingsakte van 2003
 L 347/118
 
 Richtlijn 67/227/EEG
-
-

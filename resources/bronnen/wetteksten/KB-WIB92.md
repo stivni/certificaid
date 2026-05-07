@@ -1,10 +1,27 @@
 ---
-tags: ["II", "2.2", "2.3"]
-itaa-lex-sectie: "II"
-wet: "Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: II
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/KB-WIB92.pdf
+    sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- II
+- '2.2'
+- '2.3'
+wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen
+  1992 (KB/WIB92)
 ---
 
 # Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
@@ -4018,4 +4035,3 @@ Tabel 13. - Directie Namen.
  III III
  IV V
  V II
-

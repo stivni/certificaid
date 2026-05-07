@@ -1,10 +1,26 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde"
-status: "beschikbaar"
-bijgewerkt: "2024"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: '2024'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: VI.B
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
+    sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
+    version: '2024'
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.B
+- '2.4'
+wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening
+  van de belasting over de toegevoegde waarde
 ---
 
 # BTW KB nr. 1 — Voldoening

@@ -1,10 +1,26 @@
 ---
-tags: ["V", "2.5", "2.6"]
-itaa-lex-sectie: "V"
-wet: "Wetboek Diverse Rechten en Taksen"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: V
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/WDRT.pdf
+    sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- V
+- '2.5'
+- '2.6'
+wet: Wetboek Diverse Rechten en Taksen
 ---
 
 # Wetboek Diverse Rechten en Taksen
@@ -2622,4 +2638,3 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
    ----------
    (1)<W 2014-04-25/36, art. 94, 014; Inwerkingtreding : 16-05-2014>
    (2)<W 2016-04-27/04, art. 106, 018; Inwerkingtreding : 16-05-2016>
-

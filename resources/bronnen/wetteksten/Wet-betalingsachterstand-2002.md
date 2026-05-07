@@ -1,10 +1,25 @@
 ---
-tags: ["XIV"]
-itaa-lex-sectie: "XIV"
-wet: "Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties"
-status: "beschikbaar"
-bijgewerkt: "02.08.2002"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 02.08.2002
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: XIV
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
+    sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1
+    version: 02.08.2002
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XIV
+wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij
+  handelstransacties
 ---
 
 # Wet betalingsachterstand handelstransacties

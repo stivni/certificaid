@@ -1,10 +1,26 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen"
-status: "beschikbaar"
-bijgewerkt: "21.11.1986"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 21.11.1986
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: VI.A
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
+    sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
+    version: 21.11.1986
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.A
+- '2.4'
+wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet
+  in de Gemeenschap gevestigde belastingplichtigen
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
@@ -147,4 +163,3 @@ van de teruggaaf.
 N. LAWSON
 
 De Voorzitter
-

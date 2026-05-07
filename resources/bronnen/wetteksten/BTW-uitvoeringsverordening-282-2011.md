@@ -1,10 +1,26 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
-status: "beschikbaar"
-bijgewerkt: "23.03.2011"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 23.03.2011
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: VI.A
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
+    sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
+    version: 23.03.2011
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.A
+- '2.4'
+wet: Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter
+  uitvoering van Richtlijn 2006/112/EG
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
@@ -1204,4 +1220,3 @@ Bijlage I
 Bijlage II
 
 Bijlage III
-

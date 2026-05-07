@@ -1,10 +1,25 @@
 ---
-tags: ["XI", "3.1"]
-itaa-lex-sectie: "XI"
-wet: "Burgerlijk Wetboek — Boek 5 — Verbintenissen"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
+itaa-lex-sectie: XI
+provenance:
+  generated_at: '2026-05-07T13:15:17Z'
+  inputs:
+  - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
+    sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- XI
+- '3.1'
+wet: Burgerlijk Wetboek — Boek 5 — Verbintenissen
 ---
 
 # Burgerlijk Wetboek — Boek 5 — Verbintenissen
@@ -379,4 +394,3 @@ De bepalingen van boek 5 van het Burgerlijk Wetboek zijn van toepassing op alle 
 
 Deze wet treedt in werking op de eerste dag van de zesde maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
   Onverminderd het eerste lid, treedt artikel 29 in werking op 1 juli 2022.
-

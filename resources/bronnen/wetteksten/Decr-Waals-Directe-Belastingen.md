@@ -1,10 +1,26 @@
 ---
-tags: ["IV.C", "2.5"]
-itaa-lex-sectie: "IV.C"
-wet: "Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen"
-status: "beschikbaar"
-bijgewerkt: "03.02.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 03.02.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: IV.C
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
+    sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
+    version: 03.02.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- IV.C
+- '2.5'
+wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen
+  inzake de Waalse gewestelijke belastingen
 ---
 
 # Decreet Waalse gewestelijke belastingen

@@ -1,10 +1,25 @@
 ---
-tags: ["IV.B", "2.5"]
-itaa-lex-sectie: "IV.B"
-wet: "Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure"
-status: "beschikbaar"
-bijgewerkt: "04.06.2024"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: 04.06.2024
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: IV.B
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
+    sha256: d342b5b00bfe42e3793a0afc56ab1d9d1256e4f99ddac0e6d4b3f65c764ca4eb
+    version: 04.06.2024
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- IV.B
+- '2.5'
+wet: Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure
 ---
 
 # Brusselse Codex Fiscale Procedure

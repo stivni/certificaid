@@ -1,10 +1,26 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders"
-status: "beschikbaar"
-bijgewerkt: "2022"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+bijgewerkt: '2022'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
+itaa-lex-sectie: VI.B
+provenance:
+  generated_at: '2026-05-07T13:15:16Z'
+  inputs:
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
+    sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
+    version: '2022'
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 732fcc0
+    prompt_version: null
+status: beschikbaar
+tags:
+- VI.B
+- '2.4'
+wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van
+  aanslag voor caféhouders
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders
