@@ -26,11 +26,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: '14 ## headings aanwezig en inhoudelijk volledig. FAIL door oversized sectie (32178 chars) — norm bevat lange subsecties die verdere ##-splitsing nodig hebben. Ene column-bleed (regel 815) is enkelvoudig.'
 ---
 
 # Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en vereffening van vennootschappen (nog niet inwerking)

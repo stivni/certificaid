@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at: '2026-05-07T23:09:32Z'
-    confirmed_by: human
-    rationale: Test-rollback
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inhoudelijk compleet en leesbaar, maar de eerste pagina's bevatten een gebroken overweging-blok: de aanhef 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale' (regel 123-124) verschijnt als wees-fragment vóór het eerste ## heading."
 ---
 
 # Norm - 2020 03 31 - IAB - AWW

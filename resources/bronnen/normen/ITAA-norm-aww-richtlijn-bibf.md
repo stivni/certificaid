@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Afgeknipte inhoudsopgave (regels 141-177: nummers 1-9 zonder titels) en scrambled section title sectie 3 ('## 3. Algemene risicobeoordeling beroepsbeoefenaar op te maken door de' over vijf regels)."
 ---
 
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten

@@ -24,11 +24,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Tweetalige (NL/FR) norm, inhoud volledig. Probleem: PDF-structuur heeft geen ## headings opgeleverd. Interne secties (Governance, Bekwaamheid, etc.) zijn aanwezig als platte tekst maar niet als markdown-headings → één blob van 29344 chars.'
 ---
 
 NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT

@@ -21,11 +21,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Bestand is een samenvatting/digest van ISA 570, niet de volledige norm. Frontmatter incompleet, structuur verschilt fundamenteel van andere norm-bestanden. Eerder een stub dan een volwaardige norm.
 ---
 
 # ISA 570 (herzien) — Continuïteit

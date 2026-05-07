@@ -17,11 +17,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Legacy-versie structureel slechter: 0 ## headings bij 36399 chars, 13 form-feeds, 29 TOC-stippen, kolom-bleed. ITAA-norm-permanente-vorming.md heeft 15 ## headings en correcte frontmatter.'
 ---
 
 # Norm ITAA - Permanente vorming - 12 2020

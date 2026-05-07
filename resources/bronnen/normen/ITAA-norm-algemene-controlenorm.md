@@ -26,11 +26,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kort document (7660 chars, 7 secties) met coherente, goed leesbare tekst van begin tot eind. Alle secties zijn inhoudelijk compleet, zinnen zijn niet afgekapt, geen OCR-artefacten of kolom-bleed. De frontmatter klopt: datum 1991-09-30, bron itaa.be, thema's correct."
 ---
 
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)

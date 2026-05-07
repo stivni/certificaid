@@ -17,11 +17,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Identieke inhoud als ITAA-norm-gedragslijnen-relaties-IBR.md. Beide hebben dezelfde structurele problemen, maar ITAA-norm-* variant heeft correcte frontmatter en is de aangewezen bron voor verdere rework.
 ---
 
 # Gedragslijnen Relaties Ibr

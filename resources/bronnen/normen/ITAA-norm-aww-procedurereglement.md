@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Compact, helder document (12546 chars, 9 ## headings = artikelen 1-9). Tekst is volledig leesbaar en coherent. Frontmatter mist 'datum'-veld (cosmetisch)."
 ---
 
 Procedurereglement voor het opleggen van maatregelen

@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Begin van document (regels 36-140) toont ernstige ETL-fout: inhoudsopgave als louter nummers zonder titels (105 regels alleen getalletjes). Daarna is de tekst inhoudelijk compleet.'
 ---
 
 OPDRACHTBRIEF

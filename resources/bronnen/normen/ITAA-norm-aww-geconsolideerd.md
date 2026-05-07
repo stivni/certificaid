@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Twee structurele ETL-problemen: (1) inhoudsopgave als platte tekst zonder ## headings; (2) scrambled woordvolgorde in artikelen 3.4, 3.5, 3.7, 4.9 door tweekolomige PDF-extractie. Inhoud is wel volledig.'
 ---
 
 Geconsolideerde tekst door het Instituut van de

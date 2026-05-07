@@ -177,7 +177,7 @@ def cmd_scope(args: argparse.Namespace) -> None:
 
 
 def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
-    verdicts_path = Path(args.apply_from_verdicts)
+    verdicts_path = Path(args.apply_from_verdicts).resolve()
     if not verdicts_path.exists():
         raise SystemExit(f"Verdicts-bestand niet gevonden: {verdicts_path}")
 
@@ -198,8 +198,12 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
 
     counters: dict[str, int] = {}
     skipped_filter = 0
+    try:
+        verdicts_display = verdicts_path.relative_to(ROOT)
+    except ValueError:
+        verdicts_display = verdicts_path
     print(f"=== mark_trusted --apply-from-verdicts {'(dry-run) ' if args.dry_run else ''}===")
-    print(f"Verdicts: {verdicts_path.relative_to(ROOT)}")
+    print(f"Verdicts: {verdicts_display}")
     print(f"confirmed_by: {confirmed_by}")
     if only_filter:
         print(f"Filter: alleen statuses {sorted(only_filter)}")

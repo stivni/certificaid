@@ -24,11 +24,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Klein bestand, 6 principes volledig aanwezig. Problemen oplosbaar: 3 OCR-fouten lAB (ipv IAB), 3 form-feeds, paginanummers (1/4 t/m 4/4) als inline tekst, 0 ## headings.'
 ---
 
 # Gedragslijnen Relaties Ibr

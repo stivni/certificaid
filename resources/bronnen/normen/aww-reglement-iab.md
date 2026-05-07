@@ -17,11 +17,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Legacy-versie scoort maximaal slecht: 0 ## headings bij 47190 chars, 21 form-feeds, 31 TOC-stippen-regels, max sectie 47190 chars, ontbrekende frontmatter. ITAA-norm-aww-reglement.md is dezelfde inhoud maar met 14 ##-headings, correcte frontmatter.'
 ---
 
 # Norm - 2020 03 31 - IAB - AWW

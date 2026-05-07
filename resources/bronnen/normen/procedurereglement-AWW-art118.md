@@ -17,11 +17,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Inhoudelijk identiek aan ITAA-norm-aww-procedurereglement.md, maar legacy-versie heeft 0 ## headings, 5 form-feeds en ontbrekende frontmatter. ITAA-norm-* variant heeft 9 ## headings en passeert alle deterministische checks.'
 ---
 
 # Procedurereglement Aww Art118

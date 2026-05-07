@@ -27,11 +27,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Uitgebreid document (54317 chars, 19 ## headings). Volledige dekking van Overwegingen, Inleiding, Controlewerkzaamheden, Inhoud verslag en Bijlage. Geen OCR-fouten, geen kolom-bleed, geen scrambled words.'
 ---
 
 # Norm inzake de Controle van Fusie- en Splitsingsverrichtingen van Vennootschappen

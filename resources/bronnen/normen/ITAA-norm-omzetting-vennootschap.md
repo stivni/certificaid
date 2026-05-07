@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Inhoudelijk complete norm met twee ETL-problemen: tabellen in Bijlage 2 fragmentarisch geëxtraheerd (cellen op aparte regels met `|`-markers), en resterend-spaties artefacten op regels 101 en 217.'
 ---
 
 # Norm inzake het verslag op te stellen bij de omzetting van een vennootschap

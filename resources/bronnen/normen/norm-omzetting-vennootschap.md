@@ -17,11 +17,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: rejected
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Vrijwel identiek aan ITAA-norm-omzetting-vennootschap.md. Legacy-versie bevat HTML-entiteiten die in ITAA-norm-* variant zijn opgeschoond. ITAA-norm-* heeft volledigere frontmatter.
 ---
 
 # Norm inzake het verslag op te stellen bij de omzetting van een vennootschap

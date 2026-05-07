@@ -26,11 +26,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Inhoud volledig en goed leesbaar, maar inhoudsopgave (regels 139-160) is scrambled PDF-TOC-restant. Hoofdoorzaak FAIL: één sectie van 42975 chars vereist extra ## headings voor RAG-bruikbare chunks.'
 ---
 
 Norm inzake de opdracht van de

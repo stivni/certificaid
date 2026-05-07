@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    qa_version: qa-20260507-232718
+    confirmed_at: '2026-05-07T23:35:08Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Document is opgemaakt als twee-kolomige PDF (VEREISTEN/TOEPASSINGSMODALITEITEN) en de extractie heeft beide kolommen op dezelfde regels door elkaar gezet. De inhoud is aanwezig maar niet lineair leesbaar.
 ---
 
 Norm inzake de
