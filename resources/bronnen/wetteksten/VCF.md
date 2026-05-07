@@ -1614,9 +1614,7 @@ Euronormen zijn de maximumdrempels voor de                    Les Euronormes son
 
 ##### Afdeling 4 - Tarieven                                          Section 4 – Tarifs
 
-##### Onderafdeling 1 - Bedrag van de belasting voor           Sous-section 1re -Montant de la taxe pour les voitures
-
-personenauto's, auto's voor dubbel gebruik en minibussen privées, les voitures mixtes et les minibus, tels que visés à als vermeld in artikel 1.1.0.0.2, vierde lid, 1°, die worden l'article 1.1.0.0.2, alinéa quatre, 1°, qui sont censés être geacht in het verkeer te zijn gesteld in het Vlaamse Gewest             mis en circulation en Région flamande
+##### Onderafdeling 1 - Bedrag van de belasting voor           Sous-section 1re -Montant de la taxe pour les voitures personenauto's, auto's voor dubbel gebruik en minibussen privées, les voitures mixtes et les minibus, tels que visés à als vermeld in artikel 1.1.0.0.2, vierde lid, 1°, die worden l'article 1.1.0.0.2, alinéa quatre, 1°, qui sont censés être geacht in het verkeer te zijn gesteld in het Vlaamse Gewest             mis en circulation en Région flamande
 
 ## Art. 2.3.4.1.1
 
@@ -1817,9 +1815,7 @@ Art. 2.3.4.1.10.
 - toegevoegd door art. 121 van het decreet van 18 dec.         - inséré par l’art. 121 du décret du 18.12.2015 (M.B.
 2015 (B.S., 29.12.2015). De tekst is in werking getreden       29.12.2015). Texte entre en vigueur le 01.01.2016 (art. op 1 januari 2016 (art. 135)                                   135)
 
-##### Onderafdeling 2 - Bedrag van de belasting voor      Sous-section 2 - Montant de la taxe pour les motocyclettes,
-
-motorfietsen, luchtvoertuigen,boten en andere voertuigen les aéronefs, les bateaux et les véhicules autres que les dan de wegvoertuigen, vermeld in artikel 2.3.4.1.1          véhicules routiers, visés à l'article 2.3.4.1.1
+##### Onderafdeling 2 - Bedrag van de belasting voor      Sous-section 2 - Montant de la taxe pour les motocyclettes, motorfietsen, luchtvoertuigen,boten en andere voertuigen les aéronefs, les bateaux et les véhicules autres que les dan de wegvoertuigen, vermeld in artikel 2.3.4.1.1          véhicules routiers, visés à l'article 2.3.4.1.1
 
 ## Art. 2.3.4.2.1
 
@@ -2682,9 +2678,7 @@ Art. 2.6.7.0.1.
 
 De heffing is verschuldigd vanaf het kalenderjaar dat      La taxe est due à partir de l'année calendaire suivant le volgt op de derde opeenvolgende registratie in de          troisième enregistrement consécutif dans l'inventaire inventaris voor geheel of gedeeltelijk leegstaande en/of   pour des sites d'activité économique inoccupés et/ou verwaarloosde bedrijfsruimten.                             désaffectés en tout ou en partie.
 
-##### Onderafdeling 1 - Opschorting door een vernieuwing, al of Sous-section 1re - Suspension suite à une rénovation, liée
-
-niet gekoppeld aan de beëindiging van de leegstand             ou non à la cessation de l'inoccupation
+##### Onderafdeling 1 - Opschorting door een vernieuwing, al of Sous-section 1re - Suspension suite à une rénovation, liée niet gekoppeld aan de beëindiging van de leegstand             ou non à la cessation de l'inoccupation
 
 ## Art. 2.6.7.1.1
 
@@ -2713,9 +2707,7 @@ De Vlaamse Regering bepaalt de regels voor de              Le Gouvernement flama
 Art. 2.6.7.1.2.
 In de inventaris worden de datum van de indiening van      L'inventaire mentionne la date de l'introduction de la het    aanvaarde     vernieuwingsvoorstel    en    de      proposition de rénovation acceptée et le délai de opschortingstermijn vermeld.                               suspension.
 
-##### Onderafdeling 2 - Opschorting ingevolge een definitief       Sous-section 2 - Suspension suite à une convention
-
-gesloten brownfieldconvenant                             Brownfield conclue à titre définitif
+##### Onderafdeling 2 - Opschorting ingevolge een definitief       Sous-section 2 - Suspension suite à une convention gesloten brownfieldconvenant                             Brownfield conclue à titre définitif
 
 ## Art. 2.6.7.2.1
 
@@ -2734,9 +2726,7 @@ De Vlaamse Regering bepaalt de regels voor de                Le Gouvernement fla
 - gewijzigd door art. 10 van het decreet van 09.12.2022      - modifié par l'art. 10 du décret du 09.12.2022 (M.B.
 (B.S. 20.12.2022). Inwerkingtreding: 30.12.2022              20.12.2022). En vigueur le 30.12.2022
 
-##### Onderafdeling 3 - Opschorting ingevolge een conform               Sous-section 3 - Suspension suite à un projet
-
-verklaard bodemsaneringsproject                           d'assainissement du sol déclaré conforme
+##### Onderafdeling 3 - Opschorting ingevolge een conform               Sous-section 3 - Suspension suite à un projet verklaard bodemsaneringsproject                           d'assainissement du sol déclaré conforme
 
 ## Art. 2.6.7.3.1
 
@@ -2750,9 +2740,7 @@ De opschorting wordt verleend voor de bedrijfsruimten        La suspension est a
 
 De Vlaamse Regering bepaalt de regels voor de                Le Gouvernement flamand fixe les règles pour indiening en aanvaarding van het verzoek tot                 l'introduction et l'acceptation de la demande de opschorting.                                                 suspension.
 
-##### Onderafdeling 4 - Opschorting voor nieuwe eigenaars            Sous-section 4 - Suspension pour les nouveaux
-
-propriétaires
+##### Onderafdeling 4 - Opschorting voor nieuwe eigenaars            Sous-section 4 - Suspension pour les nouveaux propriétaires
 
 ## Art. 2.6.7.4.1
 
@@ -2776,9 +2764,7 @@ Art. 2.6.7.4.2.
 
 In de inventaris worden de datum van het verlijden van     L'inventaire mentionne la date de la passation de l'acte de authentieke akte en de opschortingstermijn vermeld.     authentique et le délai de suspension.
 
-##### Onderafdeling 5 - Opschorting voor leegstaande maar          Sous-section 5 - Suspension pour des sites d'activité
-
-niet-verwaarloosde bedrijfsruimten                      économique inoccupés mais non désaffectés
+##### Onderafdeling 5 - Opschorting voor leegstaande maar          Sous-section 5 - Suspension pour des sites d'activité niet-verwaarloosde bedrijfsruimten                      économique inoccupés mais non désaffectés
 
 ## Art. 2.6.7.5.1
 
@@ -2800,9 +2786,7 @@ Art. 2.6.7.5.2.
 
 In de inventaris worden de datum van de indiening van        L'inventaire mentionne la date de l'introduction de la de     aanvaarde    opschortingsaanvraag     en    de        demande de suspension acceptée et le délai de opschortingstermijn vermeld.                                 suspension.
 
-##### Onderafdeling 6 - Opschorting ingevolge staving van de         Sous-section 6 - Suspension suite à la preuve de la
-
-beëindiging van de vernieuwing en/of de leegstand            cessation de la rénovation et/ou de l'inoccupation
+##### Onderafdeling 6 - Opschorting ingevolge staving van de         Sous-section 6 - Suspension suite à la preuve de la beëindiging van de vernieuwing en/of de leegstand            cessation de la rénovation et/ou de l'inoccupation
 
 ## Art. 2.6.7.6.1
 
@@ -3536,9 +3520,7 @@ De schulden, vermeld in het eerste lid, worden wel           Toutefois, les dett
 
 - toegevoegd door art. 46 van het decreet van 19.12.2014 - inséré par art. 46 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Onderafdeling 5 – Aanrekening van het passief op het            Sous-section 5 - Imputation du passif sur l'actif
-
-actief
+##### Onderafdeling 5 – Aanrekening van het passief op het            Sous-section 5 - Imputation du passif sur l'actif actief
 
 ---- historiek ----                                          ---- historique ----
 
@@ -4426,9 +4408,7 @@ Als een akte of geschrift, overeengekomen tussen            Lorsqu'un acte ou un
 
 - toegevoegd door art. 90 van het decreet van 19.12.2014 - inséré par art. 90 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Onderafdeling 2. - Tijdelijke bepalingen voor schenkingen Sous-section 2 - Dispositions temporaires concernant les
-
-van percelen grond die volgens de stedenbouwkundige          donations de parcelles de terrain destinées à la voorschriften bestemd zijn voor woningbouw              construction d'habitations selon les prescriptions d'urbanisme
+##### Onderafdeling 2. - Tijdelijke bepalingen voor schenkingen Sous-section 2 - Dispositions temporaires concernant les van percelen grond die volgens de stedenbouwkundige          donations de parcelles de terrain destinées à la voorschriften bestemd zijn voor woningbouw              construction d'habitations selon les prescriptions d'urbanisme
 
 ---- historiek ----                                         ---- historique ----
 
@@ -4484,9 +4464,7 @@ Bij niet-nakoming van de aangegane verbintenis,                 En cas de non-re
 
 - toegevoegd door art. 94 van het decreet van 19.12.2014 - inséré par art. 94 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
 
-##### Onderafdeling 3 - Tarieven voor schenkingen van      Sous-section 3 - Tarifs pour donations d'immeubles soumis
-
-gebouwen onderworpen aan een energetische renovatie of à une rénovation énergétique ou d'immeubles disposant van gebouwen met conformiteitsattest die verhuurd worden       d'une attestation de conformité qui sont loués.
+##### Onderafdeling 3 - Tarieven voor schenkingen van      Sous-section 3 - Tarifs pour donations d'immeubles soumis gebouwen onderworpen aan een energetische renovatie of à une rénovation énergétique ou d'immeubles disposant van gebouwen met conformiteitsattest die verhuurd worden       d'une attestation de conformité qui sont loués.
 
 ---- historiek ----                                             ---- historique ----
 
@@ -4542,9 +4520,7 @@ Bekrachtigd door art. 224, 2° van het decreet van           Confirmé par l’a
 
 - vervangen door art. 96 van het decreet van 18 dec.        - remplacé par art. 96 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden    29.12.2015). Texte est entré en vigueur le 1er juillet op 1 juli 2015 (art. 135)                                   2015 (art. 135)
 
-##### Onderafdeling 4 — Tarieven voor schenkingen van een         Sous-section 4 — Tarifs pour donations d’un monument
-
-beschermd monument waarvoor een                        protégé soumis à une obligation d’investissement investeringsverplichting geldt
+##### Onderafdeling 4 — Tarieven voor schenkingen van een         Sous-section 4 — Tarifs pour donations d’un monument beschermd monument waarvoor een                        protégé soumis à une obligation d’investissement investeringsverplichting geldt
 
 ---- historiek ----                                         ---- historique ----
 
@@ -6902,9 +6878,7 @@ De belasting wordt gevestigd op zicht van de aangifte,      La taxe est établie
 
 Art. 2.13.7.0.2.
 
-##### Afdeling 5 en 6 van dit hoofdstuk zijn niet van             Les sections 5 et 6 du présent chapitre ne s'appliquent
-
-toepassing op de automatische ontspanningstoestellen        pas aux appareils automatiques de divertissement dont waarvan de exploitatie is verboden krachtens artikel 4, 7   l’exploitation est interdite en vertu des articles 4, 7 et 8 en 8 van de Kansspelwet van 7 mei 1999.                     de la Loi sur les jeux du hasard du 7 mai 1999.
+##### Afdeling 5 en 6 van dit hoofdstuk zijn niet van             Les sections 5 et 6 du présent chapitre ne s'appliquent toepassing op de automatische ontspanningstoestellen        pas aux appareils automatiques de divertissement dont waarvan de exploitatie is verboden krachtens artikel 4, 7   l’exploitation est interdite en vertu des articles 4, 7 et 8 en 8 van de Kansspelwet van 7 mei 1999.                     de la Loi sur les jeux du hasard du 7 mai 1999.
 
 ---- historiek ----                                         ---- historique ----
 
@@ -7201,9 +7175,7 @@ De boetes die worden opgelegd ingevolge overtredingen       Les amendes imposée
 Art. 3.2.3.0.1.
 De Vlaamse Regering kan de regels bepalen voor de              Le Gouvernement flamand peut arrêter les règles inkohiering ten laste van overledenen en                       d'enrôlement à charge de personnes décédées et onverdeeldheden.                                               d'indivisions.
 
-##### Afdeling 4 - Aanslag voor overnemende of verkrijgende          Section 4 - Imposition pour une société repreneuse ou
-
-vennootschap                                                    attributaire
+##### Afdeling 4 - Aanslag voor overnemende of verkrijgende          Section 4 - Imposition pour une société repreneuse ou vennootschap                                                    attributaire
 
 ## Art. 3.2.4.0.1
 
@@ -8214,9 +8186,7 @@ Art. 3.4.6.0.1.
 
 De Vlaamse Regering kan de regels bepalen voor de            Le Gouvernement flamand peut arrêter les modalités de datum waarop de betaling uitwerking heeft.                   la date à laquelle le paiement produit ses effets.
 
-##### Afdeling 7 - Wijze van aanrekening van betaling,           Section 7 - Mode d'imputation de paiement, d'utilisation
-
-aanwending en aanzuivering                                           et d'apurement
+##### Afdeling 7 - Wijze van aanrekening van betaling,           Section 7 - Mode d'imputation de paiement, d'utilisation aanwending en aanzuivering                                           et d'apurement
 
 ## Art. 3.4.7.0.1
 
@@ -8380,9 +8350,7 @@ De termijn, vermeld in artikel 3.5.2.0.1, is voor de            En ce qui concer
 
 Het verzoek, vermeld in het eerste lid, moet op straffe         La demande, visée à l'alinéa premier, doit être van verval bij het bevoegde personeelslid schriftelijk          introduite, sous peine d'échéance, auprès du membre du ingediend worden binnen een termijn van drie maanden            personnel compétent dans un délai de trois mois à partir vanaf de derde werkdag die volgt op de datum waarop             du troisième jour ouvrable suivant la date de l'échéance de opschorting vervalt.                                         de la suspension.
 
-##### Afdeling 3 - Natuurlijke personen en rechtspersonen die       Section 3 - Personnes physiques et personnes morales
-
-bezwaar kunnen indienen en de wijze waarop ze bezwaar              pouvant introduire une réclamation et mode kunnen indienen                                       d'introduction de la réclamation
+##### Afdeling 3 - Natuurlijke personen en rechtspersonen die       Section 3 - Personnes physiques et personnes morales bezwaar kunnen indienen en de wijze waarop ze bezwaar              pouvant introduire une réclamation et mode kunnen indienen                                       d'introduction de la réclamation
 
 ## Art. 3.5.3.0.1
 
@@ -8960,9 +8928,7 @@ De Vlaamse Regering kan bepalen welke personen            Le Gouvernement flaman
 
 ##### Afdeling 4 - Bijzondere gevallen                              Section 4 - Cas particuliers
 
-##### Onderafdeling 1. - Invordering bij echtgenoten of ex-     Sous-section 1re - Recouvrement auprès d'époux ou ex-
-
-echtgenoten en bij wettelijk samenwonenden of ex-          époux et auprès des cohabitants légaux ou les exwettelijksamenwonenden                                         cohabitants légaux
+##### Onderafdeling 1. - Invordering bij echtgenoten of ex-     Sous-section 1re - Recouvrement auprès d'époux ou ex- echtgenoten en bij wettelijk samenwonenden of ex-          époux et auprès des cohabitants légaux ou les exwettelijksamenwonenden                                         cohabitants légaux
 
 ## Art. 3.10.4.1.1
 
@@ -9041,9 +9007,7 @@ Het eerste lid is evenmin van toepassing op het               Le premier alinéa
 
 - vervangen door art. 94 van het decreet van 18 dec.           -remplacé par art. 94 du décret du 18 déc. 2015 (M.B., 2015 (B.S., 29.12.2015). De tekst is in werking getreden       29.12.2015,). Texte est entré en vigueur le 1er janvier op 1 januari 2016 (art. 135)                                   2016 (art. 135)
 
-##### Onderafdeling 4 - Invordering bij andere personen die         Sous-section 4 - Recouvrement auprès d'autres personnes
-
-gehouden zijn tot betaling van de schuld                                tenues de payer les dettes
+##### Onderafdeling 4 - Invordering bij andere personen die         Sous-section 4 - Recouvrement auprès d'autres personnes gehouden zijn tot betaling van de schuld                                tenues de payer les dettes
 
 ## Art. 3.10.4.4.1
 
@@ -9126,9 +9090,7 @@ Als    de    belastingplichtige      het    automatische       Si le contribuabl
 - ingevoegd door art. 45 van het decreet van 07.12.2018        - inséré par l’art. 45 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                            20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Onderafdeling 5 - Invordering van het eurovignet bij         Sous-section 5 - Recouvrement de l'Eurovignette auprès de
-
-andere belastingschuldigen dan de eigenaar                       débiteurs d'impôts autres que le propriétaire
+##### Onderafdeling 5 - Invordering van het eurovignet bij         Sous-section 5 - Recouvrement de l'Eurovignette auprès de andere belastingschuldigen dan de eigenaar                       débiteurs d'impôts autres que le propriétaire
 
 ## Art. 3.10.4.5.1
 
@@ -9358,9 +9320,7 @@ Dat attest moet binnen een maand na de aanvraag              Cette attestation d
 
 - toegevoegd door art. 256 van het decreet van 19 dec.        - inséré par art. 256 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                         01.01.2015 (art. 325)
 
-##### Onderafdeling 5 - Buiten de Europese Economische Ruimte Sous-section 5 - Héritier habitant en dehors de l'Espace
-
-wonende erfgenaam                                     économique européen
+##### Onderafdeling 5 - Buiten de Europese Economische Ruimte Sous-section 5 - Héritier habitant en dehors de l'Espace wonende erfgenaam                                     économique européen
 
 ---- historiek ----                                           ---- historique ----
 
@@ -9830,10 +9790,7 @@ Wetboek.
 
 - toegevoegd door art. 272 van het decreet van 19 dec.        - inséré par art. 272 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst treedt in           29.01.2015, Ed. 2). Texte entrera en vigueur à une date à werking op een door de Vlaamse Regering te bepalen            déterminer par le Gouvernement flamand. (art. 325) datum (art. 325)
 
-##### Afdeling 2 - Verplichtingen van kredietinstellingen of Section 2- Obligations des établissements ou structures de
-
-crédit
--inrichtingen
+##### Afdeling 2 - Verplichtingen van kredietinstellingen of Section 2- Obligations des établissements ou structures de crédit -inrichtingen
 
 ## Art. 3.12.2.0.1
 
@@ -9845,9 +9802,7 @@ Als openbare of private kredietinstellingen of -              Si les établissem
 
 2° er is een bepaald bedrag aan ingekohierde belastingen      2° un certain montant d'impôts et accessoires enrôlés est of      toebehoren     verschuldigd     waarvoor       de     dû pour lesquels le délai de paiement est échu, dans quel betalingstermijn verstreken is, in welk geval de betaling     cas le paiement des montants dus, sous la forme et dans van de verschuldigde bedragen, in de vorm en binnen de        les délais fixés dans l'attestation, doivent faire l'objet termijnen, bepaald in het attest, het voorwerp moet           d'une clause spéciale dans la décision d'octroi de uitmaken van een bijzonder beding in de beslissing tot        l'avantage. toekenning van het voordeel.
 
-##### Afdeling 3 - Andere verplichtingen in het kader van de        Section 3 - Autres obligations dans le cadre de l'impôt
-
-registratiebelasting                                            d'enregistrement
+##### Afdeling 3 - Andere verplichtingen in het kader van de        Section 3 - Autres obligations dans le cadre de l'impôt registratiebelasting                                            d'enregistrement
 
 ---- historiek ----                                           ---- historique ----
 
@@ -10114,9 +10069,7 @@ Dit artikel is niet van toepassing in geval van bijvoeging    Cet article n'est 
 
 - toegevoegd door art. 279 van het decreet van 19 dec.         - inséré par art. 279 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking        29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                          janvier 2015 (art. 325)
 
-##### Afdeling 4 - Verplichtingen van derden in het kader van        Section 4 - Obligations de tiers dans le cadre de la taxe
-
-de belasting op de automatische ontspanningstoestellen            sur les appareils automatiques de divertissement
+##### Afdeling 4 - Verplichtingen van derden in het kader van        Section 4 - Obligations de tiers dans le cadre de la taxe de belasting op de automatische ontspanningstoestellen            sur les appareils automatiques de divertissement
 
 ## Art. 3.12.4.0.1
 
@@ -10135,9 +10088,7 @@ Een automatisch ontspanningstoestel dat een kansspel is        Un appareil autom
 - ingevoegd door art. 47 van het decreet van 07.12.2018        - inséré par l’art. 47 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                            20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-##### Afdeling 5 - Verplichtingen in het kader van de           Section 5 - Obligations dans le cadre de l’action civile
-
-burgerlijke vordering
+##### Afdeling 5 - Verplichtingen in het kader van de           Section 5 - Obligations dans le cadre de l’action civile burgerlijke vordering
 
 ## Art. 3.12.5.0.1
 
@@ -11705,9 +11656,7 @@ Het bindend advies, vermeld in paragraaf 1, eerste lid,     L'avis contraignant 
 
 Hoofdstuk 23 - Verwerking van persoonsgegevens             Chapitre 23 - Traitement des données à caractère personnel
 
-##### Afdeling 1 - Bepalingen die aan alle             Section 1re - Dispositions communes à l'ensemble des
-
-gegevensverwerkingen gemeenschappelijk zijn                           traitements de données
+##### Afdeling 1 - Bepalingen die aan alle             Section 1re - Dispositions communes à l'ensemble des gegevensverwerkingen gemeenschappelijk zijn                           traitements de données
 
 ## Art. 3.23.1.0.1
 
@@ -11760,9 +11709,7 @@ administratie aan een derde de uitvoering toevertrouwt          flamande confie 
 De derden, vermeld in het eerste lid, kunnen alleen over        Les tiers, visés à l'alinéa 1er, ne peuvent disposer des de beoogde persoonsgegevens beschikken gedurende de             données à caractère personnel concernées que pour le tijd die nodig is voor de uitvoering van de handelingen,        temps nécessaire à l'exécution des actes, visés à l'alinéa vermeld in het eerste lid, en kunnen die                        1er et ne peuvent utiliser ces données à caractère persoonsgegevens uitsluitend voor dat doel gebruiken.           personnel qu'à cette fin.
 ---- historiek ----                                             ---- historique ---- - Ingevoegd door art. 11 van het decreet van 19.04.2024         - Inséré par l’art. 11 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024                03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 2 - Gegevensverwerking voor de onroerende             Section 2 - Traitement de données aux fins du précompte
-
-voorheffing, heffing ongeschikte en onbewoonbare              immobilier, de la redevance sur les logements inadéquats woningen en leegstandsheffing bedrijfsruimten                et inhabitables et de la redevance sur les sites d'activité économique inoccupés
+##### Afdeling 2 - Gegevensverwerking voor de onroerende             Section 2 - Traitement de données aux fins du précompte voorheffing, heffing ongeschikte en onbewoonbare              immobilier, de la redevance sur les logements inadéquats woningen en leegstandsheffing bedrijfsruimten                et inhabitables et de la redevance sur les sites d'activité économique inoccupés
 
 ## Art. 3.23.2.0.1
 
@@ -11802,9 +11749,7 @@ Met behoud van de toepassing van de noodzakelijke            Sans préjudice de 
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 16 van het decreet van 19.04.2024     - Inséré par l’art. 16 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 3 - Gegevensverwerking voor de               Section 3 - Traitement de données aux fins de la taxe de
-
-verkeersbelasting, de belasting op inverkeerstelling, de        circulation, de la taxe de mise en circulation, du kilometerheffing en het eurovignet                       prélèvement kilométrique et de l'eurovignette
+##### Afdeling 3 - Gegevensverwerking voor de               Section 3 - Traitement de données aux fins de la taxe de verkeersbelasting, de belasting op inverkeerstelling, de        circulation, de la taxe de mise en circulation, du kilometerheffing en het eurovignet                       prélèvement kilométrique et de l'eurovignette
 
 ## Art. 3.23.3.0.1
 
@@ -11842,9 +11787,7 @@ In afwijking van het eerste lid worden de                    Par dérogation à 
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 21 van het decreet van 19.04.2024     - Inséré par l’art. 21 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 4 - Gegevensverwerking voor de erfbelasting        Section 4 - Traitement de données aux fins des droits de
-
-succession
+##### Afdeling 4 - Gegevensverwerking voor de erfbelasting        Section 4 - Traitement de données aux fins des droits de succession
 
 ## Art. 3.23.4.0.1
 
@@ -11885,9 +11828,7 @@ Met behoud van de toepassing van de noodzakelijke          Sans préjudice de l'
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 26 van het decreet van 19.04.2024     - Inséré par l’art. 26 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 5 - Gegevensverwerking voor de              Section 5 - Traitement de données aux fins de la taxe
-
-registratiebelasting                                        d'enregistrement
+##### Afdeling 5 - Gegevensverwerking voor de              Section 5 - Traitement de données aux fins de la taxe registratiebelasting                                        d'enregistrement
 
 ## Art. 3.23.5.0.1
 
@@ -11912,9 +11853,7 @@ Met behoud van de toepassing van de noodzakelijke           Sans préjudice de l
 
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 30 van het decreet van 19.04.2024     - Inséré par l’art. 30 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-##### Afdeling 6 - Gegevensverwerking voor de belasting op de Section 6 - Traitement de données aux fins de la taxe sur
-
-spelen en weddenschappen en de belasting op de             les jeux et paris et de la taxe sur les appareils automatische ontspanningstoestellen                        automatiques de divertissement
+##### Afdeling 6 - Gegevensverwerking voor de belasting op de Section 6 - Traitement de données aux fins de la taxe sur spelen en weddenschappen en de belasting op de             les jeux et paris et de la taxe sur les appareils automatische ontspanningstoestellen                        automatiques de divertissement
 
 ## Art. 3.23.6.0.1
 

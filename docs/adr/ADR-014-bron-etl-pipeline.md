@@ -35,8 +35,11 @@ Elke categorie heeft een eigen herkomst en ETL-aanpak. Er is geen uniforme pipel
 **Cleanup-pipeline** (standaard, altijd):
 ```
 remove_page_artifacts → fix_broken_words → normalize_whitespace → collapse_blank_lines
+                     → merge_wrapped_lines → merge_heading_continuations
 ```
 `remove_page_artifacts` omvat ejustice running footers (`Pagina X van Y Copyright Belgisch S taatsblad`, incl. OCR-artefact "S taatsblad" met spatie).
+
+`merge_heading_continuations` herstelt structurele headings (`### TITEL`, `#### HOOFDSTUK`, `##### Afdeling`, `Onderafdeling`, `BOEK`, `DEEL`, …) die de PDF-extractor over meerdere regels heeft afgebroken (bv. `### TITEL I. - DE VERSCHILLENDE` + `INKOMSTENBELASTINGEN`). Werkt op markdown-output, ná article-detectie. Zes detectieregels (zie `tools/lib/cleanup.py`); idempotent.
 
 Optionele bron-specifieke stappen via `cleanup:` in `source_config.yaml`:
 - `remove_toc_ejustice` — inhoudsopgave verwijderen

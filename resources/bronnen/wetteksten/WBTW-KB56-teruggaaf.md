@@ -33,9 +33,7 @@ Voor de toepassing van dit besluit wordt verstaan onder:
 5° "teruggaafverzoek": het verzoek om teruggaaf van de aan de in 1° of 2° bedoelde belastingplichtige in rekening gebrachte belasting over de toegevoegde waarde ter zake van de voor genoemde belastingplichtige in de lidstaat van teruggaaf verrichte diensten of leveringen van goederen, of ter zake van de invoer van goederen in deze lidstaat;
 6° "aanvrager": de in 1° of 2° bedoelde belastingplichtige die het teruggaafverzoek doet.
 
-#### HOOFDSTUK 2. - Teruggaaf inzake belasting over de toegevoegde waarde aan belastingplichtigen gevestigd in
-
-een andere lidstaat dan de lidstaat van teruggaaf
+#### HOOFDSTUK 2. - Teruggaaf inzake belasting over de toegevoegde waarde aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
 
 ##### Afdeling 1. - België is de lidstaat van teruggaaf
 
@@ -223,9 +221,7 @@ administratie stuurt het verzoek niet door aan de lidstaat van teruggaaf wanneer
 De administratie stelt de aanvrager langs elektronische weg in kennis van haar krachtens het eerste lid genomen beslissing.
 (1)<KB 2024-12-15/05, art. 10, 002; Inwerkingtreding : 01-01-2025>
 
-#### HOOFDSTUK 3. - Teruggaaf inzake belasting over de toegevoegde waarde aan niet in de Gemeenschap
-
-gevestigde belastingplichtigen
+#### HOOFDSTUK 3. - Teruggaaf inzake belasting over de toegevoegde waarde aan niet in de Gemeenschap gevestigde belastingplichtigen
 
 ## Art. 28
 

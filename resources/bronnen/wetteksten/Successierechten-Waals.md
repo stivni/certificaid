@@ -2101,9 +2101,7 @@ Het in het derde lid bedoelde bedrag wordt uitbetaald onverminderd de betaling v
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der
-
-ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
+#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
 
 ## Art. 96
 
@@ -2122,9 +2120,7 @@ De in het eerste lid bedoelde personen vermelden in het bericht het Rijksregiste
 
 De Koning kan de aanvullende modaliteiten van de in het eerste tot vijfde lid bedoelde communicatie bepalen.
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der
-
-ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
+#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het overlijden van rijksinwoners verschuldigde successierechten te verzekeren
 
 ## Art. 96
 
@@ -3316,9 +3312,7 @@ De termijnen van verzet, hoger beroep en cassatie, alsmede het verzet, het hoger
 
 Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorziening mag door een advocaat worden ondertekend en neergelegd.
 
-#### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie
-
-te verstrekken inlichtingen
+#### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken inlichtingen
 
 ## Art. 143
 

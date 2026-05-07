@@ -630,9 +630,7 @@ De ontvanger verstrekt handlichting in de administratieve vorm zonder dat hij te
 
 De hypothecaire formaliteitskosten met betrekking tot de wettelijke hypotheek zijn ten laste van de belastingplichtige.
 
-#### HOOFDSTUK VIIIbis. - [1 Aansprakelijkheid en plichten van sommige ministeriële officieren, openbare
-
-ambtenaren, andere personen en kredietinstellingen of -inrichtingen.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald>
+#### HOOFDSTUK VIIIbis. - [1 Aansprakelijkheid en plichten van sommige ministeriële officieren, openbare ambtenaren, andere personen en kredietinstellingen of -inrichtingen.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald>
 
 Art. 62bis.[1 § 1. De notarissen die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft, zijn persoonlijk aansprakelijk voor de betaling der belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die tot de hypothecaire inschrijving op deze goederen bedoeld in artikel 58 aanleiding kunnen geven, indien zij in de hierna bepaalde voorwaarden er niet de ontvanger van verwittigen.
 Het bericht dient in dubbel exemplaar opgemaakt en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verzonden te worden. Indien de akte waarvan sprake niet verleden wordt binnen drie maanden te rekenen van de verzending van het bericht, wordt het als niet bestaande beschouwd.
@@ -884,9 +882,7 @@ Indien de Belgische bevoegde autoriteit niet over de gevraagde inlichtingen besc
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 01-01-2013> ]1
 
-##### Onderafdeling 1. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van
-
-inlichtingen ]1
+##### Onderafdeling 1. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van inlichtingen ]1
 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 59, 030; Inwerkingtreding : 28-09-2023>
 
 Art. 64quinquies.[1 1. De Belgische bevoegde autoriteit deelt de bevoegde autoriteit van een andere lidstaat, in het kader van de automatische uitwisseling, alle informatie mee waarover zij beschikt betreffende de inwoners van deze andere lidstaat en die verband houden met volgende specifieke inkomsten- en kapitaalcategorieën in de zin van de Belgische wetgeving:
@@ -901,9 +897,7 @@ Art. 64quinquies.[1 1. De Belgische bevoegde autoriteit deelt de bevoegde autori
 (1)<DWG 2023-07-12/11, art. 60, 030; Inwerkingtreding : 28-09-2023>
 (2)<DWG 2025-12-19/B4, art. 4, 035; Inwerkingtreding : 01-01-2026>
 
-##### Onderafdeling 2. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van
-
-inlichtingen over voorafgaande belastingrulings in grensoverschrijdende gevallen ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 61, 030; Inwerkingtreding : 28-09-2023>
+##### Onderafdeling 2. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van inlichtingen over voorafgaande belastingrulings in grensoverschrijdende gevallen ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 61, 030; Inwerkingtreding : 28-09-2023>
 
 Art. 64quinquies/1.[1 § 1. De Belgische bevoegde autoriteit die na 31 december 2016 een voorafgaande grensoverschrijdende ruling afgeeft of maakt, wijzigt of hernieuwt, verstrekt de bevoegde autoriteiten van alle andere lidstaten en de Europese Commissie automatisch inlichtingen daaromtrent, met inachtneming van de in paragraaf 6 genoemde beperkingen, zulks overeenkomstig de uit hoofde van artikel 64octies vastgestelde toepasselijke praktische regelingen.
 § 2. De Belgische bevoegde autoriteit verstrekt, overeenkomstig artikel 64octies, ook de bevoegde autoriteiten van alle andere lidstaten, alsmede de Europese Commissie, de inlichtingen - beperkt tot de in paragraaf 6 genoemde gevallen - over voorafgaande grensoverschrijdende rulings die zijn gewijzigd of hernieuwd binnen een periode beginnend vijf jaar vóór 1 januari 2017.
@@ -935,9 +929,7 @@ andere informatie die de bevoegde autoriteit zou kunnen helpen bij het beoordele
 8°, ontvangst bericht van de inlichtingen bij de bevoegde autoriteit die ze aan haar heeft meegedeeld.
 § 8. De bevoegde autoriteit kan, overeenkomstig artikel 64octies, om aanvullende inlichtingen verzoeken, daaronder begrepen de volledige tekst van een voorafgaande grensoverschrijdende ruling.]1 (1)<Ingevoegd bij DWG 2017-07-12/12, art. 3, 017; Inwerkingtreding : 01-09-2017> (2)<DWG 2023-07-12/11, art. 62, 030; Inwerkingtreding : 28-09-2023> (3)<DWG 2025-12-19/B4, art. 5, 035; Inwerkingtreding : 01-01-2026>
 
-##### Onderafdeling 3. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van
-
-informatie over meldingsplichtige grensoverschrijdende regelingen ]1
+##### Onderafdeling 3. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van informatie over meldingsplichtige grensoverschrijdende regelingen ]1
 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 63, 030; Inwerkingtreding : 28-09-2023>
 
 Art. 64quinquies/2.[1 § 1. De intermediairs verstrekken binnen dertig dagen aan de Belgische bevoegde overheid de inlichtingen over meldingsplichtige grensoverschrijdende constructies waarvan zij kennis, bezit of controle hebben, vanaf het hieronder vermelde geval dat zich het eerst voordoet:
@@ -990,9 +982,7 @@ De bevoegde Belgische autoriteit beschikt over alle in dit decreet bedoelde onde
 (1)<Ingevoegd bij DWG 2020-10-01/19, art. 5, 023; Inwerkingtreding : 01-07-2020> (NOTA : bij arrest nr.
 45/2021 van 11-03-2021 (2021-03-11/05, B.St. 16-03-2021, p. 22007), heeft het Grondwettelijk Hof leden 1 en 3 van § 5 van dit artikel geschorst) (2)<DWG 2023-07-12/11, art. 64, 030; Inwerkingtreding : 28-09-2023> (3)<DWG 2025-12-19/B4, art. 6, 035; Inwerkingtreding : 01-01-2026>
 
-##### Onderafdeling 4. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van
-
-door platformexploitanten opgegeven informatie ]1
+##### Onderafdeling 4. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van door platformexploitanten opgegeven informatie ]1
 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 65, 030; Inwerkingtreding : 28-09-2023>
 
 Art. 64quinquies/3.[1 § 1. Met het oog op de toepassing van de artikelen 64quinquies/4 tot 64quinquies/8 wordt verstaan onder: A. Rapporterende platformexploitanten
@@ -1148,9 +1138,7 @@ x) indien beschikbaar, het aantal verhuurdagen voor elke eigendomslijst tijdens 
 4° administratieve procedures om te verifiëren of de rapporterende platformexploitanten de in artikelen 64quinquies/5 en 64quinquies/6 beschreven due diligence-procedures en rapportageverplichtingen naleven ;
 5° procedures voor de vervolgcontrole van rapporterende platformexploitanten die onvolledige of onnauwkeurige inlichtingen rapporteren. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 71, 030; Inwerkingtreding : 28-09-2023>
 
-##### Onderafdeling 5. [1 Reikwijdte en voorwaarden van de verplichte automatische uitwisseling van door
-
-rapporterende aanbieders van cryptoactivadiensten gerapporteerde inlichtingen ]1 (1)<Ingevoegd bij DWG 2025-12-19/B4, art. 10, 035; Inwerkingtreding : 01-01-2026>
+##### Onderafdeling 5. [1 Reikwijdte en voorwaarden van de verplichte automatische uitwisseling van door rapporterende aanbieders van cryptoactivadiensten gerapporteerde inlichtingen ]1 (1)<Ingevoegd bij DWG 2025-12-19/B4, art. 10, 035; Inwerkingtreding : 01-01-2026>
 
 Art. 64quinquies/9.[1 § 1. In de zin van deze onderafdeling wordt verstaan onder: A. Te rapporteren cryptoactivum
 1° "Cryptoactivum": het cryptoactivum zoals gedefinieerd in artikel 3, lid 1, punt 5), van Verordening (EU) 2023/1114;

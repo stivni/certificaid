@@ -1048,9 +1048,7 @@ De werkgever kan tegen derden die aansprakelijk zijn voor de ongevallen, de arbe
 
 Het commissieloon waarop de bediende recht heeft, wordt berekend op grond van het maandgemiddelde der commissielonen die hem zijn toegekend gedurende de twaalf maanden vóór de in artikel 28, 2°, bedoelde arbeidsonderbreking en de in de artikelen 70, 71 en 72 bedoelde arbeidsongeschiktheid of in voorkomend geval gedurende het gedeelte van die twaalf maanden tijdens hetwelk hij in dienst was.
 
-#### HOOFDSTUK II/1. - [1 Regeling van schorsing van de uitvoering van de overeenkomst en regeling van
-
-gedeeltelijke arbeid]1
+#### HOOFDSTUK II/1. - [1 Regeling van schorsing van de uitvoering van de overeenkomst en regeling van gedeeltelijke arbeid]1
 (1)<Ingevoegd bij W 2011-04-12/05, art. 15, 071; Inwerkingtreding : 01-01-2012>
 
 ##### Afdeling 1. - [1 Toepassingsgebied]1
@@ -1096,9 +1094,7 @@ De bovenvermelde documenten en formulieren moeten gevoegd worden bij de aanvraag
 De Commissie bedoeld in § 3, kan voor de ondernemingsplannen bedoeld in § 2, eerste lid, 2° en 3°, een afwijking toestaan op het bedrag bedoeld in artikel 77/4, § 7, indien de Commissie dit verantwoord acht. Deze beslissing moet bij unanimiteit genomen worden.
 Het bedrag van het supplement vastgesteld in toepassing van deze paragraaf mag niet minder dan 2 euro zijn.]1 (1)<Ingevoegd bij W 2011-04-12/05, art. 17, 071; Inwerkingtreding : 01-01-2012> (2)<KB 2015-12-13/01, art. 1, 081; Inwerkingtreding : 01-01-2016> (3)<W 2016-05-16/01, art. 28, 082; Inwerkingtreding : 02-06-2016> (4)<W 2020-03-06/04, art. 25, 096; Inwerkingtreding : 01-05-2020> (5)<W 2023-11-05/04, art. 15, 113; Inwerkingtreding : 03-12-2023>
 
-##### Afdeling 2. - [1 Regeling van volledige schorsing van de uitvoering van de overeenkomst en regeling van
-
-gedeeltelijke arbeid]1
+##### Afdeling 2. - [1 Regeling van volledige schorsing van de uitvoering van de overeenkomst en regeling van gedeeltelijke arbeid]1
 (1)<Ingevoegd bij W 2011-04-12/05, art. 18, 071; Inwerkingtreding : 01-01-2012>
 
 77/1, § 4, en die gebonden is door een collectieve arbeidsovereenkomst of een ondernemingsplan bedoeld in afdeling 1 van dit hoofdstuk, kan gebruik maken van de bepalingen van deze afdeling.]1 (1)<Ingevoegd bij W 2011-04-12/05, art. 19, 071; Inwerkingtreding : 01-01-2012>
@@ -1398,9 +1394,7 @@ Indien de dienstbode hierom vraagt, is de werkgever gehouden, bij ziekte of onge
 
 (oude artikel 119) Wanneer de arbeidsovereenkomst van een inwonende niet-ontvoogde minderjarige dienstbode beëindigd wordt, moet de werkgever onmiddellijk de persoon verwittigen onder wiens hoede bedoelde dienstbode gewoonlijk is gesteld.
 
-### TITEL VI. _ DE OVEREENKOMST VOOR TEWERKSTELLING VAN HUISARBEIDERS <Ingevoegd bij W 1996-12-
-
-06/30, art. 4; Inwerkingtreding : 1997-03-01>
+### TITEL VI. _ DE OVEREENKOMST VOOR TEWERKSTELLING VAN HUISARBEIDERS <Ingevoegd bij W 1996-12- 06/30, art. 4; Inwerkingtreding : 1997-03-01>
 
 ## Art. 119.1
 
@@ -1470,9 +1464,7 @@ Het loon wordt overeenkomstig de wetgeving inzake de feestdagen berekend.
 Na advies van het bevoegd paritair orgaan kan de Koning een andere berekeningswijze van het normaal loon bepalen.
 (1)<W 2013-12-26/08, art. 64, 080; Inwerkingtreding : 01-01-2014>
 
-### TITEL VII. _ (Oude TITEL VI) DE OVEREENKOMST VOOR TEWERKSTELLING VAN STUDENTEN. <W 1996-12-
-
-06/30, art. 3, 039; Inwerkingtreding : 1997-03-01>
+### TITEL VII. _ (Oude TITEL VI) DE OVEREENKOMST VOOR TEWERKSTELLING VAN STUDENTEN. <W 1996-12- 06/30, art. 3, 039; Inwerkingtreding : 1997-03-01>
 
 ## Art. 120
 
@@ -1556,9 +1548,7 @@ Art. 130bis.<W 1983-06-29/31, art. 10, § 2, 004> De Koning bepaalt de voorwaard
 
 <W 1985-07-17/41, art. 19, 010> De studenten beoogd in deze titel behouden ten aanzien van de verschillende regelingen inzake sociale zekerheid, hun hoedanigheid van personen ten laste.
 
-### TITEL VIII. _ (oude TITEL VII) SLOTBEPALINGEN. <W 1996-12-06/30, art. 3, 039; Inwerkingtreding : 1997-03-
-
-01>
+### TITEL VIII. _ (oude TITEL VII) SLOTBEPALINGEN. <W 1996-12-06/30, art. 3, 039; Inwerkingtreding : 1997-03- 01>
 
 ## Art. 131.Voor
 

@@ -14,7 +14,11 @@ ROOT = Path(__file__).resolve().parents[2]
 YAML_PATH = ROOT / "resources" / "source_config.yaml"
 
 sys.path.insert(0, str(ROOT / "tools"))
-from lib.cleanup import fix_broken_words, merge_wrapped_lines  # noqa: E402
+from lib.cleanup import (  # noqa: E402
+    fix_broken_words,
+    merge_heading_continuations,
+    merge_wrapped_lines,
+)
 
 
 def load_wetboek_config(name):
@@ -227,6 +231,7 @@ def clean_and_structure(text, wet_naam):
     text = fix_broken_words(text)
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = merge_wrapped_lines(text)
+    text = merge_heading_continuations(text)
     return text.strip()
 
 
@@ -284,6 +289,7 @@ def clean_and_structure_eu(text):
     text = fix_broken_words(text)
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = merge_wrapped_lines(text)
+    text = merge_heading_continuations(text)
     return text.strip()
 
 

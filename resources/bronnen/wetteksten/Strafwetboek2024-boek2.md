@@ -538,9 +538,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 
 Hoofdstuk 3. Misdrijven tegen de seksuele integriteit, het seksueel zelfbeschikkingsrecht en de goede zeden
 
-##### Afdeling 1. Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel
-
-getinte inhoud en verkrachting
+##### Afdeling 1. Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting
 
 ##### Onderafdeling 1. Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht
 
@@ -873,9 +871,7 @@ Deze rechtvaardigingsgrond geldt niet indien:
 - de dader een bloedverwant of aanverwant is in de rechte opgaande lijn of een bloedverwant of aanverwant in de zijlijn tot de derde graad of ieder ander persoon die een soortgelijke positie heeft in het gezin of onverschillig welke persoon die gewoonlijk of occasioneel met de minderjarige samenwoont en die over die minderjarige gezag heeft, of;
 - de daad mogelijk is gemaakt doordat de dader gebruik heeft gemaakt van een erkende positie van vertrouwen, gezag of invloed ten aanzien van de minderjarige.
 
-##### Onderafdeling 4. Inhoud die bedoeld is om het plegen van seksueel misbruik of seksuele uitbuiting ten nadele
-
-van een minderjarige te bevorderen
+##### Onderafdeling 4. Inhoud die bedoeld is om het plegen van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen
 
 ## Art. 177
 
@@ -1148,9 +1144,7 @@ Het, met het oogmerk een zwangerschapsverlies te veroorzaken, door welk middel d
 Verzwarende factor
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor de in de artikelen 214 en 215 bedoelde misdrijven neemt de rechter in overweging dat het misdrijf werd gepleegd in het bijzijn van een minderjarige.
 
-##### Afdeling 2. Aantasting van de fysieke of psychische integriteit door een ernstig gebrek aan voorzorg of
-
-voorzichtigheid
+##### Afdeling 2. Aantasting van de fysieke of psychische integriteit door een ernstig gebrek aan voorzorg of voorzichtigheid
 
 ## Art. 217
 
@@ -2091,9 +2085,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 
 Hoofdstuk 9. Misdrijven tegen het privéleven
 
-##### Afdeling 1. Misdrijven betreffende het geheim van communicatie, privégegevens van een informaticasysteem en
-
-brieven
+##### Afdeling 1. Misdrijven betreffende het geheim van communicatie, privégegevens van een informaticasysteem en brieven
 
 ## Art. 342
 
@@ -2190,9 +2182,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 
 Verzwarende factor bij de aantasting van de vrije uitoefening van een eredienst Bij de keuze van de straf of de maatregel en de zwaarte ervan voor het misdrijf bedoeld in artikel 354, 1°, neemt de rechter in overweging dat het misdrijf werd gepleegd ten nadele van een minderjarige of een persoon in een kwetsbare toestand.
 
-##### Afdeling 5. Bescherming van de persoonlijke levenssfeer van de minderjarigen in het kader van de gerechtelijke
-
-procedures
+##### Afdeling 5. Bescherming van de persoonlijke levenssfeer van de minderjarigen in het kader van de gerechtelijke procedures
 
 ## Art. 356
 
@@ -2707,9 +2697,7 @@ De zegels die gedrukt worden op de documenten en de frankeerwaarde die vertegenw
 4° de veiligheidskenmerken: hologrammen, watermerken of andere muntbestanddelen die worden gebruikt om de munt tegen namaking of vervalsing te beveiligen;
 5° het niet-contant betaalinstrument: een immaterieel of materieel, beveiligd apparaat of voorwerp of een immateriële of materiële, beveiligde registratie, of een combinatie daarvan, waarmee de houder of gebruiker, al dan niet in combinatie met een procedure of geheel van procedures, geld of monetaire waarde kan overmaken, waaronder door middel van digitale betaalmiddelen, en dat niet wordt bedoeld in artikel 79, 27°.
 
-##### Afdeling 2. Bescherming van de munt, van de effecten, van het materiaal voor het vervaardigen van de munt of
-
-de effecten en van de veiligheidskenmerken
+##### Afdeling 2. Bescherming van de munt, van de effecten, van het materiaal voor het vervaardigen van de munt of de effecten en van de veiligheidskenmerken
 
 ## Art. 426
 
@@ -2749,9 +2737,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 Weer in omloop brengen van de valse munten of valse effecten die te goeder trouw ontvangen zijn Weer in omloop brengen van de valse munten of valse effecten die te goeder trouw ontvangen zijn, is het met bedrieglijk opzet weer in omloop brengen van de nagemaakte, vervalste of beschadigde munt of effecten, die voor echt ontvangen zijn, maar waarvan men het nagemaakte, vervalste of beschadigde karakter na ontvangst heeft vastgesteld.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
-##### Afdeling 3. Illegaal in omloop brengen van de munt en vervaardigen en in omloop brengen van de drukwerken
-
-of formulieren die een munt, effecten, plakpostzegels en andere zegels nabootsen
+##### Afdeling 3. Illegaal in omloop brengen van de munt en vervaardigen en in omloop brengen van de drukwerken of formulieren die een munt, effecten, plakpostzegels en andere zegels nabootsen
 
 ## Art. 432
 
@@ -2795,9 +2781,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Overdracht van materiaal bestemd tot het vervaardigen van niet-contante betaalinstrumenten Overdracht van materiaal bestemd tot het vervaardigen van niet-contante betaalinstrumenten is het met bedrieglijk opzet vervaardigen, aanschaffen voor zichzelf of voor een ander, invoeren, uitvoeren, verkopen, vervoeren, verspreiden of op enige andere manier ter beschikking stellen van enig instrument, met inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast om de in deze afdeling bedoelde misdrijven mogelijk te maken.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
-##### Afdeling 5. Bescherming van `s Lands zegel, van de rijksstempels en van de keurstempels die dienen voor het
-
-merken van goud, zilver en platina
+##### Afdeling 5. Bescherming van `s Lands zegel, van de rijksstempels en van de keurstempels die dienen voor het merken van goud, zilver en platina
 
 ## Art. 439
 
@@ -4566,18 +4550,14 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 Verzwarende factor
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze onderafdeling neemt de rechter in overweging dat de schuldige geheel of ten dele ontzet is uit het onderlijk gezag over het minderjarig kind.
 
-##### Onderafdeling 3. Niet-naleving van de voorwaarden bij de opheffing van een opsporings- of
-
-onderzoekshandeling
+##### Onderafdeling 3. Niet-naleving van de voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling
 
 ## Art. 683
 
 Niet-naleving van de voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling Niet-naleving van de voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling is het opzettelijk niet naleven van de opgelegde voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
-##### Onderafdeling 4. Belemmering van de uitvoering of niet-naleving van een straf of een vrijheidsbenemende
-
-maatregel
+##### Onderafdeling 4. Belemmering van de uitvoering of niet-naleving van een straf of een vrijheidsbenemende maatregel
 
 Art. 684.[1 Ontsnapping van gevangenen
 Ontsnapping van gevangenen is het zich opzettelijk onttrekken door een persoon:
@@ -5152,9 +5132,7 @@ In artikel 79, eerste lid, van hetzelfde Wetboek, worden de woorden "Artikel 460
 
 In artikel 231 van hetzelfde Wetboek worden de woorden "de artikelen 196, 197, 210bis en 496 van het Strafwetboek en van de bepalingen van het koninklijk besluit van 31 mei 1933 betreffende de verklaringen af te leggen in verband met subsidies, vergoedingen en toelagen" vervangen door de woorden "de artikelen 451, 479, 480 en 691 van het Strafwetboek".
 
-##### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de
-
-veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
+##### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
 
 ## Art. 97
 

@@ -44,9 +44,7 @@ Deze optie wordt schriftelijk gericht aan de bevoegde dienst van de administrati
 Dit besluit is niet van toepassing op speciale exploitaties zoals bars met diensters of drankslijterijen waar de consumpties op bepaalde tijdstippen tegen hogere prijzen worden verkocht en de hotel- en restauranthouders, zelfs indien ze een afzonderlijke gelagzaal uitbaten.
 De belastingplichtigen bedoeld in het eerste lid kunnen niettemin, in akkoord met de bevoegde dienst van de administratie belast met de belasting over de toegevoegde waarde waaronder zij ressorteren en onder toezicht van de administratie, een individuele forfaitaire regeling volgen. Indien geen akkoord wordt bereikt, past de belastingplichtige de normale belastingregeling toe.
 
-#### HOOFDSTUK 2. - Berekeningswijze van de forfaitaire grondslagen van aanslag inzake btw voor de kleine
-
-caféhouders
+#### HOOFDSTUK 2. - Berekeningswijze van de forfaitaire grondslagen van aanslag inzake btw voor de kleine caféhouders
 
 ## Art. 5
 

@@ -470,9 +470,7 @@ Er is geen sprake van een misdrijf wanneer een persoon die uit hoofde van zijn s
 
 Artikel 18 van de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten wordt aangevuld met een lid luidende: "Een melding of openbaarmaking overeenkomstig de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector maakt geen zware schuld, noch bedrog, noch gewoonlijke lichte schuld uit waarvoor de werknemer burgerlijk aansprakelijk kan worden gesteld, dit ongeacht de motivering van de werknemer.".
 
-##### Afdeling 2. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de
-
-financiële diensten
+##### Afdeling 2. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
 
 ## Art. 36
 
@@ -483,9 +481,7 @@ De artikelen 36, 36bis en 37 zijn van toepassing indien de in het eerste lid bed
 
 Artikel 69ter van dezelfde wet, ingevoegd bij de wet van 31 juli 2017, wordt opgeheven.
 
-##### Afdeling 3. - Wijzigingen van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek
-
-toezicht op de bedrijfsrevisoren
+##### Afdeling 3. - Wijzigingen van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren
 
 ## Art. 38
 
@@ -495,9 +491,7 @@ Artikel 3, 22°, van de wet van 7 december 2016 tot organisatie van het beroep v
 
 In titel 3 van dezelfde wet wordt hoofdstuk 6, dat de artikelen 82 tot 84 bevat, opgeheven.
 
-##### Afdeling 4. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de
-
-Nationale Bank van België
+##### Afdeling 4. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
 
 ## Art. 40
 
@@ -507,17 +501,13 @@ Artikel 36/7/1 van de wet van 22 februari 1998 tot vaststelling van het organiek
 
 In artikel 36/30/1 van dezelfde wet wordt paragraaf 4 opgeheven.
 
-##### Afdeling 5. - Wijziging van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de
-
-financiering van terrorisme en tot beperking van het gebruik van contanten
+##### Afdeling 5. - Wijziging van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
 
 ## Art. 42
 
 Artikel 10 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten wordt vervangen als volgt: "Art. 10. De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9.".
 
-##### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake
-
-fraudebestrijding
+##### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding
 
 ## Art. 43
 
@@ -542,9 +532,7 @@ In artikel 581 van hetzelfde Wetboek, laatstelijk gewijzigd bij de wet van 2 mei
 
 Artikel 584, vijfde lid, van hetzelfde Wetboek, laatstelijk gewijzigd bij de wet van 4 mei 2020, wordt aangevuld met de bepaling onder 8°, luidende: "8° herstelmaatregelen tegen de represailles treffen, met inbegrip van voorlopige maatregelen in afwachting van de beslechting van de gerechtelijke procedure, in het kader van de geschillen bedoeld in artikel 578, 25°, van dit wetboek.".
 
-##### Afdeling 8. - Wijzigingen van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van
-
-netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid
+##### Afdeling 8. - Wijzigingen van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid
 
 ## Art. 47
 
@@ -582,9 +570,7 @@ In dezelfde afdeling 2 wordt een artikel 62/2 ingevoegd, luidende:
 
 Artikel 1, eerste lid, van de wet van 22 maart 1995 tot instelling van federale ombudsmannen, gewijzigd bij de wet van 15 september 2013, wordt aangevuld met de bepaling onder 5°, luidende: "5° op te treden als federale coördinator voor externe meldingen van inbreuken in de private sector overeenkomstig de wet van 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector.".
 
-##### Afdeling 10. - Wijziging van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de
-
-bescherming en de bevordering van de rechten van de mens
+##### Afdeling 10. - Wijziging van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens
 
 ## Art. 52
 

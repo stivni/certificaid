@@ -2237,9 +2237,7 @@ De verlagingen vermeld sub 1°, 2° en 3°, zijn ook toepasselijk op gelijkaardi
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140ter
 
@@ -2247,18 +2245,14 @@ Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van 
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140quater
 
 (van toepassing vanaf 01.01.2017)
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140quinquies
 
@@ -2266,9 +2260,7 @@ Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van 
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140sexies
 
@@ -2276,9 +2268,7 @@ Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van 
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140septies
 
@@ -2286,9 +2276,7 @@ Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van 
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ## Art. 140octies
 
@@ -2296,9 +2284,7 @@ Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van 
 
 (gewijzigd bij art. 20, § 1, van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 – ed. 3). Tekst van toepassing vanaf 01.01.2017 (art. 40, § 4))
 
-##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en
-
-Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
+##### Onderafdeling II van de afdeling XII van het hoofdstuk IV van de titel I van het Wetboek der Registratie-, Hypotheek-, en Griffierechten, met als opschrift « Bijzondere bepalingen voor schenkingen van ondernemingen » en bevattende de artikelen 140bis tot 140octies, wordt vervangen bij een onderafdeling II met hetzelfde opschrift, bevattende de artikelen 140/1 tot 140/6
 
 ##### Onderafdeling II - Bijzondere bepalingen voor schenkingen van ondernemingen
 
@@ -2724,9 +2710,7 @@ Indien onroerende goederen verkregen worden in andere omstandigheden dan deze vo
 
 In geval van onjuiste verklaring betreffende de aanwending of de bestemming van het onroerend goed, worden de bijvoeglijke rechten opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
-##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht
-
-van 10 euro
+##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10 euro
 
 (ingevoegd bij art. 18 van de ordonnantie van 12.12.2016 (B.S., 29.12.2016 - ed. 3). Tekst van toepassing voor alle overeenkomsten onderworpen aan de evenredige rechten bedoeld in de art. 44 tot 71, 72, 2de lid, 74 en 75, 109 tot 114, 131 tot 140octies W.Reg. die niet vóór 29.12.2016 zijn gesloten (art. 40, § 3))
 
@@ -3051,9 +3035,7 @@ Zijn mede van de formaliteit der registratie vrijgesteld, de uitgiften, afschrif
 
 Indien een bij artikelen 162 en 164 van de formaliteit der registratie vrijgestelde akte of geschrift toch ter registratie wordt aangeboden, geeft zij aanleiding tot het heffen van het algemeen vast recht.
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de
-
-betaling van het verschuldigde bedrag
+#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het verschuldigde bedrag
 
 (gewijzigd bij art. 6 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van toepassing vanaf 01.01.2015 (art. 8))
 
@@ -3112,9 +3094,7 @@ Behalve wanneer ze verschuldigd zijn in het kader van de registratierechten die,
 
 Niemand kan, onder voorwendsel van betwisting van het verschuldigde bedrag of om enige andere reden, die betaling verminderen of uitstellen, behoudens het recht om teruggave te vorderen, indien daartoe grond bestaat.
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de
-
-rechten
+#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten
 
 ##### Afdeling I - Vermeldingen op te nemen in bepaalde akten
 
@@ -3401,9 +3381,7 @@ Wanneer de som te betalen door de eigenaar van een muur om deze gemeen te maken,
 
 Een koninklijk besluit bepaalt de wijze waarop dit bericht dient gegeven en duidt de ambtenaar aan ertoe bevoegd hetzelve te ontvangen.
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering
-
-der registratierechten
+##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der registratierechten
 
 ## Art. 184bis
 
@@ -4169,9 +4147,7 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, interesten, fiscale geldboeten en bijbehoren door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van
-
-roerende goederen
+#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen
 
 ## Art. 226
 
@@ -4286,9 +4262,7 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing op de openbare verkopin
 
 4° van zee- en binnenschepen.
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
-
-Patrimoniumdocumentatie
+#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de Patrimoniumdocumentatie
 
 ## Art. 236
 
@@ -4345,9 +4319,7 @@ Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij overeenkomstig de bepalingen van dit hoofdstuk inlichtingen, afschriften of uittreksels afleveren.
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot
-
-verandering van naam
+#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
 
 ## Art. 237
 
@@ -4544,9 +4516,7 @@ Zolang aan de formaliteit van registratie niet is voldaan, mag de open brief van
 
 De algemene bepalingen van deze titel betreffende de formaliteit van de registratie, de verplichting van inzageverlening, bewijsmiddelen, verjaring, rechtsvervolgingen en gedingen, moratoire interesten zijn van toepassing in de mate waarin daarvan bij dit hoofdstuk niet wordt afgeweken.
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking
-
-onderworpen akten van vennootschap
+#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van vennootschap
 
 ## Art. 256
 
@@ -6493,9 +6463,7 @@ Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend hetzij uit d
 
 TIJDELIJKE BEPALINGEN
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
-
-vermindering der registratierechten
+##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een vermindering der registratierechten
 
 § 1 - Aankoop van een bouwgrond
 

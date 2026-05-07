@@ -233,9 +233,7 @@ Artikel 106, tweede lid, van het Wetboek der successierechten wordt vervangen do
 
 ### TITEL IV. - Diverse bepalingen.
 
-#### HOOFDSTUK 1. - Wijziging van het koninklijk besluit nr. 187 van 30 december 1982 betreffende de oprichting
-
-van coördinatiecentra en van de wet van 11 april 1983 houdende fiscale en begrotingsbepalingen.
+#### HOOFDSTUK 1. - Wijziging van het koninklijk besluit nr. 187 van 30 december 1982 betreffende de oprichting van coördinatiecentra en van de wet van 11 april 1983 houdende fiscale en begrotingsbepalingen.
 
 ## Art. 29
 
@@ -245,9 +243,7 @@ van coördinatiecentra en van de wet van 11 april 1983 houdende fiscale en begro
 
 (ingetrokken zonder ooit in kracht te zijn geweest) <W 2006-12-27/32, art. 291, 003; Inwerkingtreding : 07-01-2007>
 
-#### HOOFDSTUK 2. - Actieplan dat tot doel heeft een doeltreffende inning van de vennootschapsbelasting te
-
-waarborgen.
+#### HOOFDSTUK 2. - Actieplan dat tot doel heeft een doeltreffende inning van de vennootschapsbelasting te waarborgen.
 
 ## Art. 31
 

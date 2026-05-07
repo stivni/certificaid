@@ -380,6 +380,213 @@ def ensure_article_headings(text: str) -> str:
     return "\n".join(result)
 
 
+# ---------------------------------------------------------------------------
+# Heading-vervolg samenvoegen
+# ---------------------------------------------------------------------------
+
+# Structurele markdown-heading: ###, ####, ##### (niet ##, dat is een artikel).
+_STRUCTURAL_KEYWORD = (
+    r"TITEL|TITRE|HOOFDSTUK|Hoofdstuk|CHAPITRE|Afdeling|Onderafdeling"
+    r"|BOEK|Boek|DEEL|Deel|LIVRE|Livre"
+)
+_STRUCTURAL_HEADING = re.compile(
+    rf"^(#{{3,6}})\s+(?:{_STRUCTURAL_KEYWORD})\b", re.IGNORECASE
+)
+# Verwijdert de markdown-#'s + structureel label (TITEL I., Afdeling Vbis.-, ...)
+# zodat alleen de heading-body overblijft.
+_STRIP_LABEL = re.compile(
+    rf"^#{{3,6}}\s+(?:{_STRUCTURAL_KEYWORD})\s+[\dIVXivx][\w./]*\.?\s*[-–—]?\s*",
+    re.IGNORECASE,
+)
+
+# De heading is af als ze eindigt op zinsterminator, sluitingshaakje of een
+# Justel-sluiter "]<digit>".
+_HEADING_COMPLETE_END = re.compile(r"(?:[.!?:)]|\][1-9])\s*$")
+
+# Een vervolgregel mag NIET starten met deze tokens — dan is het een nieuw blok,
+# geen heading-staart.
+_NEW_BLOCK_START = re.compile(
+    rf"^(?:"
+    r"#{1,6}\s"                                    # andere markdown-heading
+    r"|\*?\*?Art(?:\.|ikel)\s+[\dIVXivx]"          # 'Art. 1' / 'Artikel 1'
+    r"|§\s*\d"                                     # § 1
+    r"|\(\d+\)\s*<"                                # Justel-ref (1)<DWG …>
+    r"|\([a-z]"                                    # Justel-metadata: '(opgeheven bij ...)', '(van toepassing ...)'
+    r"|\d+°"                                       # 1° lijstmarker
+    r"|[-–—]\s"                                    # markdown lijst-item of korte ref ('- IX / 16 -')
+    r"|[-–—]{3,}"                                  # decoratielijn / 'historiek'-marker ('----------', '---- historiek ----')
+    rf"|(?:{_STRUCTURAL_KEYWORD})\s+"              # andere ongeformatteerde structurele heading
+    r"|(?:Eerste|Tweede|Derde|Vierde|Vijfde|Zesde|Zevende|Achtste|Negende|Tiende)"
+    r"\s+(?:afdeling|hoofdstuk|titel|boek|deel)\b"  # 'Eerste afdeling - ...'
+    r")",
+    re.IGNORECASE,
+)
+
+# TOC-detectie: 4 of meer dots op een rij = leader-dots in een inhoudsopgave.
+_TOC_LEADER = re.compile(r"\.{4,}")
+
+# Nederlandse functiewoorden — een heading die hierop eindigt is bijna zeker
+# afgebroken. Idem voor een vervolgregel die ermee begint.
+_FUNCTION_WORDS = frozenset({
+    "de", "het", "een", "der", "des", "ten", "ter",
+    "van", "voor", "in", "op", "met", "bij", "aan", "tot", "naar", "om",
+    "over", "onder", "uit", "tegen", "tussen", "binnen", "buiten", "langs",
+    "en", "of", "dan", "maar", "noch", "doch",
+    "die", "dat", "deze", "dit",
+    "zijn", "haar", "hun", "hen",
+    "vier", "vijf", "zes", "zeven",  # 'AAN DE VIER' style
+})
+
+# Maximum aantal vervolgregels die we proberen samen te voegen. Hoog genoeg
+# om PDF-kolom-wraps van meerdere regels in één pass te vatten (anders blijft
+# een staartregel achter en is de stap niet idempotent).
+_MAX_HEADING_CONT_LINES = 8
+# Maximum lengte voor een 'kort' vervolg dat eindigt op een terminator.
+_SHORT_TAIL_LEN = 50
+# Boven deze bodylengte gaan we ervan uit dat de heading PDF-kolom-wrap heeft.
+_LONG_BODY_THRESHOLD = 60
+
+
+def _heading_body(line: str) -> str:
+    """De body van een structurele heading, zonder ###'en en zonder label."""
+    return _STRIP_LABEL.sub("", line.rstrip()).strip()
+
+
+def _last_word(text: str) -> str:
+    words = re.findall(r"[\wÀ-ÿ]+", text)
+    return words[-1] if words else ""
+
+
+def _first_word(text: str) -> str:
+    m = re.match(r"\s*([\wÀ-ÿ]+)", text)
+    return m.group(1) if m else ""
+
+
+def _should_merge(heading: str, cont: list[str]) -> bool:
+    """Beslis of de heading + vervolgregels samengevoegd moeten worden."""
+    head = heading.rstrip()
+    if not head or not cont:
+        return False
+    # Rule 1: heading eindigt op dash → expliciet truncated
+    if head[-1] in "-–—":
+        return True
+    body = _heading_body(heading)
+    # Rule 2: heading-body + vervolg samen in HOOFDLETTERS (TITEL I. - DE VERSCHILLENDE / INKOMSTENBELASTINGEN,
+    # HOOFDSTUK I / INVOERING VAN DE BELASTING)
+    combined = (body + " " + " ".join(cont)).strip()
+    if combined and combined == combined.upper() and re.search(r"[A-ZÀ-Þ]", combined):
+        return True
+    # Rule 3: laatste woord is een functiewoord
+    if _last_word(head).lower() in _FUNCTION_WORDS:
+        return True
+    # Rule 4: vervolgregel start met functiewoord (kleine letter)
+    first = cont[0]
+    if first and first[0].islower() and _first_word(first).lower() in _FUNCTION_WORDS:
+        return True
+    # Rule 5: kort éénregelig vervolg dat eindigt op terminator (slot van zin)
+    if len(cont) == 1 and len(first) <= _SHORT_TAIL_LEN and first[-1] in ".!?:":
+        return True
+    # Rule 6: lange heading-body (>= drempel) — typisch teken van PDF-kolom-wrap.
+    # Wordt enkel bereikt als de NEW_BLOCK_START-guard al gepasseerd is, dus de
+    # vervolgregel is geen artikel, paragraaf, Justel-ref of subsection-heading.
+    if len(body) >= _LONG_BODY_THRESHOLD:
+        return True
+    return False
+
+
+def merge_heading_continuations(text: str) -> str:
+    """
+    Voeg structurele heading-vervolgregels samen met de heading.
+
+    PDF-extractie breekt soms structurele headings af over meerdere regels:
+
+        ### TITEL I. - DE VERSCHILLENDE
+
+        INKOMSTENBELASTINGEN
+
+        ## Art. 1
+
+    Wordt na deze stap:
+
+        ### TITEL I. - DE VERSCHILLENDE INKOMSTENBELASTINGEN
+
+        ## Art. 1
+
+    De heading komt enkel in aanmerking als:
+      - ze begint met ###/####/##### + een structureel sleutelwoord (TITEL,
+        HOOFDSTUK, Afdeling, Onderafdeling, BOEK, DEEL, …)
+      - ze NIET eindigt op een terminator (`. : ! ?`), sluithaakje of
+        Justel-sluiter (`]N`)
+      - ze geen TOC-leader-dots bevat (`....`)
+
+    En enkel als één van de merge-regels vuurt (zie `_should_merge`):
+      1. heading eindigt op `-`/`–`/`—`
+      2. heading-body + vervolg samen in HOOFDLETTERS
+      3. laatste woord van de heading is een functiewoord (de, voor, en, …)
+      4. vervolg begint met functiewoord in kleine letter
+      5. kort eenregelig vervolg eindigt op terminator
+      6. heading-body is lang (>= 60 chars) — typisch PDF-kolom-wrap
+
+    Vervolgregels worden weggegooid als ze starten met een nieuw blok
+    (artikel, paragraaf, Justel-ref, andere structurele heading,
+    `Eerste afdeling -`, …) of als ze TOC-leader-dots bevatten.
+
+    Idempotent: een al-samengevoegde heading eindigt op terminator en wordt
+    in de volgende run overgeslagen.
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = _STRUCTURAL_HEADING.match(line)
+        head = line.rstrip()
+
+        if not m or _HEADING_COMPLETE_END.search(head) or _TOC_LEADER.search(head):
+            out.append(line)
+            i += 1
+            continue
+
+        # Mogelijk truncated — zoek vervolgregels
+        j = i + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        if j >= len(lines):
+            out.append(line)
+            i += 1
+            continue
+
+        first = lines[j].strip()
+        if _NEW_BLOCK_START.match(first) or _TOC_LEADER.search(first):
+            out.append(line)
+            i += 1
+            continue
+
+        cont: list[str] = []
+        k = j
+        while k < len(lines) and len(cont) < _MAX_HEADING_CONT_LINES:
+            stripped = lines[k].strip()
+            if not stripped:
+                break
+            if _NEW_BLOCK_START.match(stripped) or _TOC_LEADER.search(stripped):
+                break
+            cont.append(stripped)
+            if stripped[-1] in ".!?:":
+                k += 1
+                break
+            k += 1
+
+        if not cont or not _should_merge(line, cont):
+            out.append(line)
+            i += 1
+            continue
+
+        out.append(head + " " + " ".join(cont))
+        i = k
+
+    return "\n".join(out)
+
+
 def remove_toc_ejustice(text: str) -> str:
     """
     Verwijder de ejustice inhoudsopgave.
@@ -427,6 +634,7 @@ DEFAULT_STEPS = [
     "normalize_whitespace",
     "collapse_blank_lines",
     "merge_wrapped_lines",     # PDF-soft-wraps samenvoegen tot één paragraaf-regel
+    "merge_heading_continuations",  # afgebroken structurele headings (TITEL/HOOFDSTUK/...) herstellen
 ]
 
 OPTIONAL_STEPS = {
@@ -435,6 +643,7 @@ OPTIONAL_STEPS = {
     "remove_inline_metadata": remove_inline_metadata,
     "ensure_article_headings": ensure_article_headings,
     "remove_toc_ejustice": remove_toc_ejustice,
+    "merge_heading_continuations": merge_heading_continuations,
 }
 
 ALL_STEPS = {

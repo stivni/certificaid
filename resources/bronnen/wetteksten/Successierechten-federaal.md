@@ -490,9 +490,7 @@ het eigendomsrecht van de overledene op door een derde bezeten                  
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                  DROIT FUTUR (à partir du 01.01.2028)
 
-##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor                            Section II - Personnes tenues de déclarer - Bureau
-
-compétent
+##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor                            Section II - Personnes tenues de déclarer - Bureau compétent
 
 ## Art. 38
 
@@ -526,9 +524,7 @@ bezwaarde, ten kantore waar de nalatenschap van hem die de beschikking gedaan he
 
 -----                                                                               -----
 
-##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor                            Section II - Personnes tenues de déclarer - Bureau
-
-compétent
+##### Afdeling II - Personen verplicht tot aangifte - Bevoegd kantoor                            Section II - Personnes tenues de déclarer - Bureau compétent
 
 ## Art. 38
 
@@ -1665,9 +1661,7 @@ Article 93
 
 De kosten der hypothecaire formaliteiten betreffende de wettelijke               Les frais des formalités hypothécaires relatives à l'hypothèque hypotheek komen, in alle geval, ten laste van de Staat.                          légale sont, dans tous les cas, à la charge de l'Etat.
 
-##### Afdeling II - Buiten de Europese Economische Ruimte                             Section II - Héritier habitant en dehors de l’Espace
-
-wonende erfgenaam                                                              économique européen
+##### Afdeling II - Buiten de Europese Economische Ruimte                             Section II - Héritier habitant en dehors de l’Espace wonende erfgenaam                                                              économique européen
 
 ## Art. 94
 
@@ -1702,9 +1696,7 @@ Het in het derde lid bedoelde bedrag wordt uitbetaald onverminderd de           
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                  DROIT FUTUR (à partir du 01.01.2028)
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen                                     CHAPITRE XI - Obligations imposées à des tiers en
-
-ten einde de juiste heffing der ingevolge het overlijden                                 vue d'assurer la juste perception des droits de van rijksinwoners verschuldigde successierechten te                                   succession dus par suite du décès d'habitants du verzekeren                                                                            royaume
+#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen                                     CHAPITRE XI - Obligations imposées à des tiers en ten einde de juiste heffing der ingevolge het overlijden                                 vue d'assurer la juste perception des droits de van rijksinwoners verschuldigde successierechten te                                   succession dus par suite du décès d'habitants du verzekeren                                                                            royaume
 
 ## Art. 96
 
@@ -1726,9 +1718,7 @@ De Koning kan de aanvullende modaliteiten van de in het eerste tot vijfde   Le R
 
 -----                                                                       -----
 
-#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen                           CHAPITRE XI - Obligations imposées à des tiers en
-
-ten einde de juiste heffing der ingevolge het overlijden                       vue d'assurer la juste perception des droits de van rijksinwoners verschuldigde successierechten te                          succession dus par suite du décès d'habitants du verzekeren                                                                  royaume
+#### HOOFDSTUK XI - Aan derden opgelegde verplichtingen                           CHAPITRE XI - Obligations imposées à des tiers en ten einde de juiste heffing der ingevolge het overlijden                       vue d'assurer la juste perception des droits de van rijksinwoners verschuldigde successierechten te                          succession dus par suite du décès d'habitants du verzekeren                                                                  royaume
 
 ## Art. 96
 
@@ -2975,9 +2965,7 @@ Article 1424
 
 Het verzoekschrift houdende voorziening in cassatie en het antwoord op               La requête introduisant le pourvoi en cassation et la réponse au de voorziening mag door een advocaat worden ondertekend en                           pourvoi peuvent être signées et déposées par un avocat. neergelegd.
 
-#### HOOFDSTUK XVII - Door de Algemene Administratie van                                       CHAPITRE XVII - Renseignements à fournir par
-
-de Patrimoniumdocumentatie te verstrekken                                        l’Administration générale de la Documentation inlichtingen                                                                        patrimoniale
+#### HOOFDSTUK XVII - Door de Algemene Administratie van                                       CHAPITRE XVII - Renseignements à fournir par de Patrimoniumdocumentatie te verstrekken                                        l’Administration générale de la Documentation inlichtingen                                                                        patrimoniale
 
 Artikel 143)                                                                         Article 143)
 
@@ -3077,9 +3065,7 @@ Personen die deel uitmaken van diensten of openbare instellingen of             
 
 De    ambtenaren        van    de    Algemene       administratie     van   de   Les    fonctionnaires       de     l'Administration         générale    de    la patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij                        documentation patrimoniale, restent dans l'exercice de leurs overeenkomstig de bepalingen van dit hoofdstuk inlichtingen,                     fonctions, lorsqu'ils délivrent des renseignements, copies ou afschriften of uittreksels afleveren.                                            extraits conformément aux dispositions du présent chapitre.
 
-#### HOOFDSTUK XVIII - Aan alle belastingen gemene                               CHAPITRE XVIII - Dispositions communes à tous les
-
-bepalingen                                                                          impôts
+#### HOOFDSTUK XVIII - Aan alle belastingen gemene                               CHAPITRE XVIII - Dispositions communes à tous les bepalingen                                                                          impôts
 
 (ingevoegd bij art. 8 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van    (inséré par l’art. 8 de la loi du 17.08.2013 (M.B., 05.09.2013). Texte toepassing vanaf 01.01.2013 (art. 21))                                           applicable à partir du 01.01.2013 (art. 21))
 

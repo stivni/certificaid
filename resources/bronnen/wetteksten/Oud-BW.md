@@ -154,9 +154,7 @@ AFDELING II. [1 ...]1
 
 ##### Afdeling 15. [1 Akte opgemaakt op basis van een buitenlandse akte]1
 
-##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve
-
-beslissing]1
+##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve beslissing]1
 
 ## Art. 70
 
@@ -254,9 +252,7 @@ AFDELING 3. [1 - ERKENNING.]1
 
 AFDELING 4. [1 - ONDERZOEK NAAR HET MEEMOEDERSCHAP.]1
 
-#### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT
-
-VASTGESTELD.
+#### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT VASTGESTELD.
 
 AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
 
@@ -276,9 +272,7 @@ AFDELING 3. - BEKENDMAKING VAN DE RECHTERLIJKE BESLISSING IN [1 de DABS]1.
 
 #### HOOFDSTUK 5. - GEVOLGEN VAN DE AFSTAMMING.
 
-#### HOOFDSTUK 6. - VORDERING TOT UITKERING VOOR LEVENSONDERHOUD, OPVOEDING EN PASSENDE
-
-OPLEIDING.
+#### HOOFDSTUK 6. - VORDERING TOT UITKERING VOOR LEVENSONDERHOUD, OPVOEDING EN PASSENDE OPLEIDING.
 
 ### TITEL VIII. - Adoptie.
 
@@ -412,9 +406,7 @@ Art. 475bis, 475ter, 475quater, 475quinquies, 475sexies, 475septies
 
 #### HOOFDSTUK III. - ONTVOOGDING.
 
-#### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de
-
-verkiezing van het Europees Parlement]1
+#### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de verkiezing van het Europees Parlement]1
 
 Art. 487bis, 487ter, 487quater, 487quinquies, 487sexies, 487septies, 487octies
 
@@ -490,9 +482,7 @@ BOEK II. - GOEDEREN EN VERSCHILLENDE BEPERKINGEN VAN DE EIGENDOM.
 
 #### HOOFDSTUK I. - RECHT VAN NATREKKING OP HETGEEN DOOR EEN ZAAK WORDT VOORTGEBRACHT.
 
-#### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM
-
-ERMEE UITMAAKT.
+#### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM ERMEE UITMAAKT.
 
 ## Art. 551
 
@@ -2713,9 +2703,7 @@ een onbekende, de op het ogenblik van de opmaak van de akte beschikbare gegevens
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 (2)<W 2023-09-13/08, art. 20, 102; Inwerkingtreding : 01-01-2024>
 
-##### Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een
-
-luchtvaartuig]1
+##### Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een luchtvaartuig]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 Art. 57.[1 § 1. In geval van overlijden tijdens een zeereis, aan boord van een schip onder Belgische vlag, of
@@ -2926,9 +2914,7 @@ van de burgerlijke stand verbeterde of aangevulde gegevens van de buitenlandse a
 ervan, wordt als bijlage in de DABS opgenomen.]1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve
-
-beslissing]1
+##### Afdeling 16. [1 Akte opgemaakt op basis van een buitenlandse rechterlijke of buitenlandse administratieve beslissing]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 Art. 70.[1 § 1. Iedere Belg of zijn wettelijke vertegenwoordiger legt elke buitenlandse in kracht van gewijsde
@@ -3288,9 +3274,7 @@ rechter van die woonplaats geschieden.
 
 #### HOOFDSTUK I. - (AFWEZIGHEID). <W 2007-05-09/44, art. 2, 037; Inwerkingtreding : 01-07-2007>
 
-##### Afdeling I. - Vermoeden van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 3; Inwerkingtreding : 01-07-
-
-2007>
+##### Afdeling I. - Vermoeden van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 3; Inwerkingtreding : 01-07- 2007>
 
 Art. 112.<W 2007-05-09/44, art. 4, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer een persoon sinds
 meer dan drie maanden niet meer verschijnt in zijn woon- of verblijfplaats en men van hem gedurende ten minste
@@ -3467,9 +3451,7 @@ Het eindverslag en, in voorkomend geval, de inventaris worden bij het dossier be
 gevoegd.
 (1)<W 2013-07-30/23, art. 8, 065; Inwerkingtreding : 01-09-2014>
 
-##### Afdeling II. - Verklaring van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 11; Inwerkingtreding : 01-07-
-
-2007>
+##### Afdeling II. - Verklaring van afwezigheid <Ingevoegd bij W 2007-05-09/44, art. 11; Inwerkingtreding : 01-07- 2007>
 
 Art. 118.<W 2007-05-09/44, art. 11, 037; Inwerkingtreding : 01-07-2007> § 1. Wanneer er vijf jaar verlopen
 zijn sinds het vonnis waarbij het vermoeden van afwezigheid werd vastgesteld, of zeven jaar sinds men voor het
@@ -3544,9 +3526,7 @@ derde lid.
 Er wordt een einde gemaakt aan de maatregelen ten aanzien van de minderjarige kinderen.
 (1)<W 2011-08-13/17, art. 2, 054; Inwerkingtreding : 01-04-2012>
 
-##### Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige
-
-kinderen <Ingevoegd bij W 2007-05-09/44, art. 20; Inwerkingtreding : 01-07-2007>
+##### Afdeling III. - Gevolgen van de afwezigheid of van het vermoeden van afwezigheid voor de minderjarige kinderen <Ingevoegd bij W 2007-05-09/44, art. 20; Inwerkingtreding : 01-07-2007>
 
 ## Art. 125
 
@@ -3555,9 +3535,7 @@ moet de griffier een eensluidend verklaard afschrift van elke beslissing gewezen
 113, 117, 118 en 122 ter kennis brengen van de territoriaal bevoegde vrederechter. Deze laatste handelt
 overeenkomstig de regels voor de voogdij.
 
-#### HOOFDSTUK lI. - Gerechtelijke verklaring van overlijden <W 2007-05-09/44, art. 22, 037; Inwerkingtreding : 01-
-
-07-2007>
+#### HOOFDSTUK lI. - Gerechtelijke verklaring van overlijden <W 2007-05-09/44, art. 22, 037; Inwerkingtreding : 01- 07-2007>
 
 Art. 126.<W 2007-05-09/44, art. 23, 037; Inwerkingtreding : 01-07-2007> Bij ontstentenis van een akte van
 overlijden, kan de [1 familierechtbank]1, op verzoek van iedere belanghebbende of van de procureur des
@@ -5592,9 +5570,7 @@ meemoederschap niet strijdig is met het belang van het kind]2.]1
 (2)<W 2018-12-21/09, art. 106, 086; Inwerkingtreding : 10-01-2019>
 (3)<W 2018-12-21/09, art. 119, 086; Inwerkingtreding : 10-01-2019>
 
-#### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT
-
-VASTGESTELD.
+#### HOOFDSTUK 3. - GEMEENSCHAPPELIJKE BEPALINGEN NOPENS DE WIJZE WAAROP DE AFSTAMMING WORDT VASTGESTELD.
 
 AFDELING 1. - HET TIJDSTIP VAN DE VERWEKKING.
 
@@ -6243,9 +6219,7 @@ dag waarop de beslissing inzake de afstamming van de ouder of de akte van erkenn
 of betekend.]1
 (1)<Ingevoegd bij W 2023-12-19/05, art. 12, 103; Inwerkingtreding : 01-03-2024>
 
-#### HOOFDSTUK 6. - VORDERING TOT UITKERING VOOR LEVENSONDERHOUD, OPVOEDING EN PASSENDE
-
-OPLEIDING.
+#### HOOFDSTUK 6. - VORDERING TOT UITKERING VOOR LEVENSONDERHOUD, OPVOEDING EN PASSENDE OPLEIDING.
 
 Art. 336.[1 Het kind wiens afstamming van vaderszijde niet vaststaat, kan van degene die gedurende het
 wettelijke tijdvak van de verwekking met zijn moeder gemeenschap heeft gehad, een onderhoudsbijdrage
@@ -6864,9 +6838,7 @@ de beschermingsmaatregelen bedoeld in artikel 363-4 van toepassing.
 in België niet worden uitgesproken, zelfs niet indien het recht van de Staat waar zij is totstandgekomen dit
 toestaat.
 
-##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt. <W
-
-2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
+##### Afdeling 2. - Totstandkoming van een adoptie die de interlandelijke overbrenging van een kind onderstelt. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
 § 1. Definities. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005>
 
@@ -7407,9 +7379,7 @@ De bevoegde ambtenaar van de burgerlijke stand is deze bedoeld in artikel 368-1,
 (2)<W 2018-06-18/03, art. 51, 082; Inwerkingtreding : 31-03-2019>
 (3)<W 2023-09-13/08, art. 51, 102; Inwerkingtreding : 01-01-2024>
 
-#### HOOFDSTUK III. - Administratieve formaliteiten. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-
-
-2005>
+#### HOOFDSTUK III. - Administratieve formaliteiten. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09- 2005>
 
 1° een akte van adoptie ten gevolge van een in België gewezen beslissing houdende uitspraak of omzetting van
 een adoptie;
@@ -8479,9 +8449,7 @@ alsook over diens leefomstandigheden.
 In het bijzonder kan hij de procureur des Konings verzoeken om, door de bemiddeling van de bevoegde sociale
 dienst, over al deze punten alle dienstige inlichtingen in te winnen.
 
-##### Afdeling V. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Voogdijrekeningen en
-
-voogdijverslag.
+##### Afdeling V. <W 2001-04-29/39, art. 13, 011; Inwerkingtreding : 01-08-2001> - Voogdijrekeningen en voogdijverslag.
 
 ## Art. 413
 
@@ -8713,9 +8681,7 @@ onder voogdij totdat hij zijn meerderjarigheid zal hebben bereikt.
 
 (Opgeheven) <W 19-01-1990, art. 33>
 
-#### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de
-
-verkiezing van het Europees Parlement]1
+#### HOOFDSTUK IV. [1 Opschorting van het stemrecht van de minderjarigen ouder dan zestien jaar voor de verkiezing van het Europees Parlement]1
 (1)<W 2023-12-25/12, art. 15, 104; Inwerkingtreding : 13-01-2024>
 
 Art. 487bis.[1 Met betrekking tot de minderjarige ouder dan 16 jaar die niet de bevoegdheid heeft om zelf zijn
@@ -10568,9 +10534,7 @@ Artikel. 516.
 
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-#### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM
-
-ERMEE UITMAAKT.
+#### HOOFDSTUK II. - RECHT VAN NATREKKING OP HETGEEN MET DE ZAAK VERENIGD WORDT EN EEN LICHAAM ERMEE UITMAAKT.
 
 ## Art. 551
 
@@ -14980,9 +14944,7 @@ AFDELING III.
 
 <Opgeheven bij W 2022-01-19/18, art. 58,7°, 047; Inwerkingtreding : 01-07-2022>
 
-### TITEL Vbis. - (ingevoegd bij <W 1998-11-23/35, art. 2, Inwerkingtreding : 01-01-2000>) Wettelijke
-
-samenwoning.
+### TITEL Vbis. - (ingevoegd bij <W 1998-11-23/35, art. 2, Inwerkingtreding : 01-01-2000>) Wettelijke samenwoning.
 
 Art. 1475.<W 1998-11-23/35, art. 2, 004; Inwerkingtreding : 01-01-2000> § 1. Onder "wettelijke
 samenwoning" wordt verstaan de toestand van samenleven van twee personen die een verklaring hebben
@@ -23515,9 +23477,7 @@ voorafgegaan door een nota waarin de eerste overschrijving vermeld wordt.
 (1)<W 2015-12-18/12, art. 93, 054; Inwerkingtreding : 01-11-2016 (KB 2016-09-26/05, art. 35, 1°)>
 (2)<W 2018-07-11/07, art. 37, 060; Inwerkingtreding : 30-07-2018>
 
-#### HOOFDSTUK X. _ <ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Wijze van
-
-houden en bewaren van de hypothecaire bescheiden.
+#### HOOFDSTUK X. _ <ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> Wijze van houden en bewaren van de hypothecaire bescheiden.
 
 Art. 135.<ingevoegd bij W 1995-02-09/35, art. 4, 012; Inwerkingtreding : 01-01-2001> In het register van de
 neergelegde titels, waarvan het houden is voorgeschreven bij artikel 124, 1°, worden ingeschreven :

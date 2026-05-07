@@ -11,7 +11,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
-from lib.cleanup import fix_broken_words, merge_wrapped_lines  # noqa: E402
+from lib.cleanup import (  # noqa: E402
+    fix_broken_words,
+    merge_heading_continuations,
+    merge_wrapped_lines,
+)
 
 INPUT_PDF = "resources/raw/wetteksten/WIB92.pdf"
 OUTPUT_MD = "resources/bronnen/wetteksten/WIB92.md"
@@ -166,6 +170,7 @@ def main():
     full_text = to_markdown(full_text)
     full_text = remove_consecutive_blanks(full_text)
     full_text = merge_wrapped_lines(full_text)
+    full_text = merge_heading_continuations(full_text)
 
     header = """---
 tags: [wettekst, "II"]

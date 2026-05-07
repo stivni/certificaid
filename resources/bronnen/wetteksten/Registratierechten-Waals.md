@@ -3265,9 +3265,7 @@ Elke partij die de vrijstelling bedoeld in lid 1 heeft genoten kan voorstellen o
 
 De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van het attest van de werken, evenals de daarbijhorende stukken.
 
-##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht
-
-van 10 euro
+##### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10 euro
 
 (ingevoegd bij art. 67 van het decreet van 30.04.2009 (B.S., 01.07.2009). Tekst van toepassing vanaf 01.07.2009 (art. 69))
 
@@ -3597,9 +3595,7 @@ Zijn mede van de formaliteit der registratie vrijgesteld, de uitgiften, afschrif
 
 Indien een bij artikelen 162 en 164 van de formaliteit der registratie vrijgestelde akte of geschrift toch ter registratie wordt aangeboden, geeft zij aanleiding tot het heffen van het algemeen vast recht.
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de
-
-betaling van het verschuldigde bedrag
+#### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het verschuldigde bedrag
 
 (gewijzigd bij art. 6 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van toepassing vanaf 01.01.2015 (art. 8))
 
@@ -3659,9 +3655,7 @@ Behalve wanneer ze verschuldigd zijn in het kader van de registratierechten die,
 
 Niemand kan, onder voorwendsel van betwisting van het verschuldigde bedrag of om enige andere reden, die betaling verminderen of uitstellen, behoudens het recht om teruggave te vorderen, indien daartoe grond bestaat.
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de
-
-rechten
+#### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten
 
 ##### Afdeling I - Vermeldingen op te nemen in bepaalde akten
 
@@ -3953,9 +3947,7 @@ Wanneer de som te betalen door de eigenaar van een muur om deze gemeen te maken,
 
 Een koninklijk besluit bepaalt de wijze waarop dit bericht dient gegeven en duidt de ambtenaar aan ertoe bevoegd hetzelve te ontvangen.
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering
-
-der registratierechten
+##### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der registratierechten
 
 ## Art. 184bis
 
@@ -4723,9 +4715,7 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van de Staat om het herstel van de schade te vorderen die kan bestaan uit de niet-betaling van de rechten, interesten, fiscale geldboeten en bijbehoren door een burgerlijke partijstelling of door een aansprakelijkheidsvordering.
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van
-
-roerende goederen
+#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen
 
 ## Art. 226
 
@@ -4843,9 +4833,7 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing op de openbare verkopin
 
 4° van zee- en binnenschepen.
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
-
-Patrimoniumdocumentatie
+#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de Patrimoniumdocumentatie
 
 ## Art. 236
 
@@ -4903,9 +4891,7 @@ Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij overeenkomstig de bepalingen van dit hoofdstuk inlichtingen, afschriften of uittreksels afleveren.
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot
-
-verandering van naam
+#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
 
 ## Art. 237
 
@@ -5102,9 +5088,7 @@ Zolang aan de formaliteit van registratie niet is voldaan, mag de open brief van
 
 De algemene bepalingen van deze titel betreffende de formaliteit van de registratie, de verplichting van inzageverlening, bewijsmiddelen, verjaring, rechtsvervolgingen en gedingen, moratoire interesten zijn van toepassing in de mate waarin daarvan bij dit hoofdstuk niet wordt afgeweken.
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking
-
-onderworpen akten van vennootschap
+#### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van vennootschap
 
 ## Art. 256
 
@@ -7111,9 +7095,7 @@ Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend hetzij uit d
 
 TIJDELIJKE BEPALINGEN
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
-
-vermindering der registratierechten
+##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een vermindering der registratierechten
 
 § 1 - Aankoop van een bouwgrond
 

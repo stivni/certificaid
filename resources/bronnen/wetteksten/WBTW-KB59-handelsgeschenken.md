@@ -17,9 +17,7 @@ Titel
 
 Bron : FINANCIEN
 
-#### HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van
-
-geringe waarde
+#### HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
 
 ## Art. 1
 
@@ -28,13 +26,9 @@ Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende 
 2° het goed mag niet worden doorverkocht door de begunstigde in het kader van een economische activiteit;
 3° de aankoopprijs, of indien er geen aankoopprijs is, de normale waarde van het goed, exclusief belasting, is lager dan 50 euro.
 
-#### HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor
+#### HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
-liefdadigheidsdoeleinden
-
-##### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor
-
-liefdadigheidsdoeleinden
+##### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
 ## Art. 2
 
@@ -92,9 +86,7 @@ Het verzameldocument wordt opgesteld uiterlijk de vijftiende dag van de maand na
 § 3. Het in paragraaf 1 bedoelde document en het in paragraaf 2 bedoelde verzameldocument worden gedagtekend en medeondertekend door de begunstigde van de geleverde goederen.
 (1)<KB 2025-12-17/06, art. 15, 003; Inwerkingtreding : 10-01-2026>
 
-##### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op
-
-duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+##### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
 ## Art. 6
 
@@ -141,9 +133,7 @@ Het verzameldocument wordt opgesteld uiterlijk de vijftiende dag van de maand na
 § 3. Het in paragraaf 1 bedoelde document en het in paragraaf 2 bedoelde verzameldocument worden gedagtekend en medeondertekend door de begunstigde van de geleverde goederen.
 (1)<KB 2025-12-17/06, art. 16, 003; Inwerkingtreding : 10-01-2026>
 
-##### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van
-
-voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+##### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
 ## Art. 10
 

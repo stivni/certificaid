@@ -237,9 +237,7 @@ De motivering geeft de redenen aan voor het niet volgen van het advies of de aan
 
 In uitvoering van artikel 35.10 van de Verordening wordt een specifieke gegevensbeschermingseffectbeoordeling verricht vóór de verwerkingsactiviteit, ook al werd reeds een algemene gegevensbeschermingseffectbeoordeling uitgevoerd in het kader van de vaststelling van de wettelijke grondslag.
 
-#### HOOFDSTUK V. - Verwerking voor journalistieke doeleinden en ten behoeve van academische, artistieke of
-
-literaire uitdrukkingsvormen
+#### HOOFDSTUK V. - Verwerking voor journalistieke doeleinden en ten behoeve van academische, artistieke of literaire uitdrukkingsvormen
 
 ## Art. 24
 
@@ -938,9 +936,7 @@ Wanneer de partijen beslissen een protocol af te sluiten, bevat dit, in afwijkin
 6° de beperkingen van de rechten van de betrokkene.
 Het protocol bedoeld in het derde lid draagt de markering "BEPERKTE VERSPREIDING" in de zin van het koninklijk besluit van 24 maart 2000 tot uitvoering van de wet van 11 december 1998, voor zover een classificatie in de zin van de wet van 11 december 1998 niet gerechtvaardigd is.
 
-##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan
-
-internationale organisaties
+##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
 
 ## Art. 93
 
@@ -977,9 +973,7 @@ De inlichtingen- en veiligheidsdiensten en hun verwerkers werken samen met het V
 Een toezichthoudende autoriteit informeert het Vast Comité I over inbreuken op de reglementering inzake de verwerking van persoonsgegevens van de inlichtingen- en veiligheidsdiensten zodra zij er kennis van neemt.
 Elke toezichthoudende autoriteit overlegt met het Vast Comité I wanneer zij gevat wordt in een dossier dat mogelijk gevolgen heeft voor de verwerking van persoonsgegevens door de inlichtingen- en veiligheidsdiensten.
 
-#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische
-
-doeleinden
+#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
 
 ## Art. 99
 
@@ -1233,9 +1227,7 @@ Deze mededeling vindt plaats in overeenstemming met de wet van 11 december 1998.
 8° de periodiciteit van de doorgifte;
 9° de duur van het protocol.
 
-##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan
-
-internationale organisaties
+##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
 
 ## Art. 126
 
@@ -1273,9 +1265,7 @@ De overheden en personen bedoeld in artikel 107, eerste lid, werken samen met he
 Een toezichthoudende autoriteit informeert het Vast Comité I over inbreuken op de reglementering inzake de verwerking van persoonsgegevens in het kader van artikel 107 zodra zij er kennis van neemt.
 Elke toezichthoudende autoriteit overlegt met het Vast Comité I wanneer zij gevat wordt in een dossier dat mogelijk gevolgen heeft voor de verwerking van persoonsgegevens in het kader van artikel 107.
 
-#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische
-
-doeleinden
+#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
 
 ## Art. 132
 
@@ -1532,9 +1522,7 @@ Wanneer de partijen beslissen een protocol af te sluiten, bevat dit, in afwijkin
 6° de beperkingen van de rechten van de betrokkene.
 Het protocol bedoeld in het vijfde lid draagt de markering "BEPERKTE VERSPREIDING" in de zin van het koninklijk besluit van 24 maart 2000 tot uitvoering van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen, voor zover een classificatie in de zin van de wet van 11 december 1998 betreffende de classificatie, de veiligheidsmachtigingen, veiligheidsattesten, veiligheidsadviezen en de publiek gereguleerde dienst niet gerechtvaardigd is.]1 (1)<W 2024-03-29/15, art. 45, 007; Inwerkingtreding : 01-10-2024>
 
-##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan
-
-internationale organisaties
+##### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
 
 ## Art. 159
 
@@ -1557,9 +1545,7 @@ In afwijking van artikel 159 mag een doorgifte van persoonsgegevens aan een land
 Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, en het Vast Comité van Toezicht op de politiediensten, worden aangewezen als gegevensbeschermingsautoriteiten belast met de controle van de verwerking van persoonsgegevens door het OCAD en zijn verwerkers volgens de nadere regels vastgelegd in de wet van 18 juli 1991.
 [1 De toezichthoudende overheden bedoeld in artikel 2, 22°, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R.") worden gezamenlijk aangewezen als gegevensbeschermingsautoriteiten belast met de controle van de verwerking van persoonsgegevens in de gemeenschappelijke gegevensbank T.E.R.]1 (1)<W 2024-03-29/15, art. 46, 007; Inwerkingtreding : 01-10-2024>
 
-#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische
-
-doeleinden
+#### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
 
 ## Art. 162.In
 
@@ -1825,9 +1811,7 @@ De verantwoordelijke voor de verwerking met het oog op onderzoek of statistische
 Indien het niet mogelijk is om met een verwerking van anonieme gegevens het onderzoeksdoel of statistische doel te bereiken, gebruikt de verwerkingsverantwoordelijke gepseudonimiseerde gegevens.
 Indien het niet mogelijk is om met een verwerking van gepseudonimiseerde gegevens het onderzoeksdoel of het statistische doel te bereiken, gebruikt de verwerkingsverantwoordelijke niet-gepseudonimiseerde gegevens.
 
-##### Afdeling 3. - Anonimisering of pseudonimisering van de gegevens verwerkt met het oog op wetenschappelijk of
-
-historisch onderzoek of statistische doeleinden
+##### Afdeling 3. - Anonimisering of pseudonimisering van de gegevens verwerkt met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden
 
 ## Art. 198
 
@@ -1862,9 +1846,7 @@ De derde vertrouwenspersoon is :
 
 Indien een functionaris voor gegevensbescherming overeenkomstig artikel 190 werd aangewezen, geeft deze advies over het gebruik van de verschillende methoden voor pseudonimisering en anonimisering, in het bijzonder de doeltreffendheid ervan voor wat betreft de bescherming van gegevens.
 
-##### Afdeling 4. - Verspreiding van gegevens verwerkt met het oog op archivering in het algemeen belang, het
-
-wetenschappelijk of historisch onderzoek of statistische doeleinden
+##### Afdeling 4. - Verspreiding van gegevens verwerkt met het oog op archivering in het algemeen belang, het wetenschappelijk of historisch onderzoek of statistische doeleinden
 
 ## Art. 205
 
@@ -1878,9 +1860,7 @@ Onverminderd de Europese regelgeving, bijzondere wetten, ordonnanties en decrete
 
 Onverminderd de Europese regelgeving, bijzondere wetten, ordonnanties en decreten die strengere voorwaarden opleggen voor de verspreiding van de gegevens die verwerkt zijn met het oog op archivering in het algemeen belang, het wetenschappelijk of historisch onderzoek of statistische doeleinden, mag de verwerkingsverantwoordelijke gepseudonimiseerde persoonsgegevens verspreiden, uitgezonderd wat betreft de persoonsgegevens bedoeld in artikel 9.1 van de Verordening.
 
-##### Afdeling 5. - Mededeling van de gegevens verwerkt met het oog op archivering in het algemeen belang, het
-
-wetenschappelijk of historisch onderzoek of statistische doeleinden
+##### Afdeling 5. - Mededeling van de gegevens verwerkt met het oog op archivering in het algemeen belang, het wetenschappelijk of historisch onderzoek of statistische doeleinden
 
 ## Art. 207
 
@@ -2189,9 +2169,7 @@ Deze samenwerking kan betrekking hebben op :
 De samenwerking kan bij samenwerkingsakkoorden worden geconcretiseerd.
 § 2. Het Controleorgaan is gemachtigd om in dit verband bepaalde van haar leden, leden van de dienst onderzoeken of personeelsleden aan te wijzen als vertegenwoordigers bij internationale autoriteiten.
 
-#### HOOFDSTUK III. - Bevoegdheden van het Controleorgaan, van haar leden en van de leden van de dienst
-
-onderzoeken
+#### HOOFDSTUK III. - Bevoegdheden van het Controleorgaan, van haar leden en van de leden van de dienst onderzoeken
 
 ## Art. 244
 

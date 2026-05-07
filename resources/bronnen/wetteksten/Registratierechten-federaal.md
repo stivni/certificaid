@@ -19,9 +19,7 @@ EN GRIFFIERECHTEN                                                      D’HYPOT
 
 ### TITEL I - REGISTRATIERECHT                                              TITRE IER - DROIT D’ENREGISTREMENT
 
-#### HOOFDSTUK I - Formaliteit der registratie en vestiging                                CHAPITRE Ier - Formalité de l’enregistrement et
-
-van de belasting                                                          établissement de l’impôt
+#### HOOFDSTUK I - Formaliteit der registratie en vestiging                                CHAPITRE Ier - Formalité de l’enregistrement et van de belasting                                                          établissement de l’impôt
 
 ## Art. 1
 
@@ -175,9 +173,7 @@ Valt de laatste dag van de termijn, die door onderhavig Wetboek                 
 
 sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de          délai est prorogé jusqu’au premier jour d’ouverture des bureaux qui eerste openingsdag der kantoren die volgt op het verstrijken van de           suit l’expiration du délai. termijn.
 
-#### HOOFDSTUK II - Indeling van de rechten en algemene                           CHAPITRE II - Division des droits et règles générales de
-
-heffingsregels                                                                       perception
+#### HOOFDSTUK II - Indeling van de rechten en algemene                           CHAPITRE II - Division des droits et règles générales de heffingsregels                                                                       perception
 
 ## Art. 10
 
@@ -536,9 +532,7 @@ Vierde lid: gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van     
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                DROIT FUTUR (à partir du 01.01.2028)
 
-##### Afdeling III - Personen verplicht tot aanbieding ter                                      Section III - Personnes tenues de l’obligation de
-
-registratie                                                                      l’enregistrement
+##### Afdeling III - Personen verplicht tot aanbieding ter                                      Section III - Personnes tenues de l’obligation de registratie                                                                      l’enregistrement
 
 ## Art. 35
 
@@ -579,9 +573,7 @@ Wanneer de schuldenaar van de rechten en, in voorkomend geval, van             L
 
 -----                                                                             -----
 
-##### Afdeling III - Personen verplicht tot aanbieding ter                                Section III - Personnes tenues de l’obligation de
-
-registratie                                                                  l’enregistrement
+##### Afdeling III - Personen verplicht tot aanbieding ter                                Section III - Personnes tenues de l’obligation de registratie                                                                  l’enregistrement
 
 ## Art. 35
 
@@ -756,9 +748,7 @@ betreffende de financiering van de gemeenschappen en de                         
 
 #### HOOFDSTUK IV - Vaststelling van de rechten                                                    CHAPITRE IV - Fixation des droits
 
-##### Afdeling I - Overdrachten onder bezwarende titel van                                   Section Ire - Transmissions à titre onéreux de biens
-
-onroerende goederen                                                                          immeubles
+##### Afdeling I - Overdrachten onder bezwarende titel van                                   Section Ire - Transmissions à titre onéreux de biens onroerende goederen                                                                          immeubles
 
 § 1. Algemene bepalingen                                                            § 1er. Dispositions générales
 
@@ -1304,9 +1294,7 @@ tot 82 W.Reg. federaal                                                      Art.
 
 Het registratierecht op de openbare verkopingen van lichamelijke                      Le droit d'enregistrement sur les ventes publiques de biens meubles roerende goederen is een federale belasting (art. 3, a contrario, wet                 corporels est un impôt fédéral (art. 3, a contrario, de la loi du 16 janvier 16 januari 1989 betreffende de financiering van de gemeenschappen                     1989 relative au financement des communautés et des régions). en de gewesten).
 
-##### Afdeling II - Openbare verkopingen van lichamelijke                               Section II - Ventes publiques de biens meubles corporels
-
-roerende goederen
+##### Afdeling II - Openbare verkopingen van lichamelijke                               Section II - Ventes publiques de biens meubles corporels roerende goederen
 
 (opschrift vervangen bij art. 4 van de wet van 23.12.1958 (B.S., 07.01.1959).         (intitulé remplacé par l’art. 4 de la loi du 23.12.1958 (M.B., 07.01.1959). Texte Tekst van toepassing vanaf 17.01.1959 (art. -))                                       applicable à partir du 17.01.1959 (art. -))
 
@@ -2263,9 +2251,7 @@ Die verlagingen zijn enkel op de Belgische rechtspersonen                       
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989        Dispositions régionales (art. 3, al. 1er, 8° de la loi spéciale du 16.01.1989 betreffende de financiering van de gemeenschappen en de gewesten)                relative au financement des Communautés et des Régions)
 
-##### Onderafdeling II - Bijzondere bepalingen voor schenkingen van                 Sous-section II - Dispositions spécifiques aux donations d’entreprises
-
-ondernemingen
+##### Onderafdeling II - Bijzondere bepalingen voor schenkingen van                 Sous-section II - Dispositions spécifiques aux donations d’entreprises ondernemingen
 
 ## Art. 140bis
 
@@ -2618,9 +2604,7 @@ De aangehechte akten of geschriften bedoeld in artikel 26, tweede lid,          
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                    DROIT FUTUR (à partir du 01.01.2028)
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en Section XX - Actes exemptés du droit proportionnel et
-
-onderhevig aan het algemeen vast recht                                                assujettis au droit fixe général
+##### Afdeling XX - Akten vrijgesteld van het evenredig recht en Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                assujettis au droit fixe général
 
 ## Art. 159
 
@@ -2700,9 +2684,7 @@ In geval van onjuiste verklaring betreffende de aanwending of de                
 
 -----                                                                               -----
 
-##### Afdeling XX - Akten vrijgesteld van het evenredig recht en                           Section XX - Actes exemptés du droit proportionnel et
-
-onderhevig aan het algemeen vast recht                                                   assujettis au droit fixe général
+##### Afdeling XX - Akten vrijgesteld van het evenredig recht en                           Section XX - Actes exemptés du droit proportionnel et onderhevig aan het algemeen vast recht                                                   assujettis au droit fixe général
 
 ## Art. 159
 
@@ -2900,9 +2882,7 @@ Article 161/1
 Onverminderd artikel 162, 51°, worden de akten, vonnissen en                         Sans préjudice de l'article 162, 51°, sont exemptés des droits arresten, betreffende een overeenkomstig Boek XX, Titel V van het                    d'enregistrement non visés à l'article 3 de la loi spéciale du 16 janvier Wetboek van economisch recht ingestelde procedure van                                1989 relative au financement des communautés et des régions, les gerechtelijke reorganisatie vrijgesteld van de registratierechten die                actes, jugements et arrêts relatifs à une procédure de réorganisation niet worden bedoeld in artikel 3 van de bijzondere wet van 16 januari                judiciaire introduite conformément au Livre XX, Titre V du Code de 1989 betreffende de financiering van de Gemeenschappen en de                         droit économique.
 Gewesten.
 
-#### HOOFDSTUK VII - Vrijstelling van de formaliteit der                                     CHAPITRE VII - Exemption de la formalité de
-
-registratie                                                                   l’enregistrement
+#### HOOFDSTUK VII - Vrijstelling van de formaliteit der                                     CHAPITRE VII - Exemption de la formalité de registratie                                                                   l’enregistrement
 
 ## Art. 162
 
@@ -3085,9 +3065,7 @@ Article 165
 
 Indien een bij artikelen 162 en 164 van de formaliteit der registratie                 Si un acte ou écrit exempté de la formalité de l’enregistrement par les vrijgestelde akte of geschrift toch ter registratie wordt aangeboden,                  articles 162 et 164 est néanmoins présenté à l’enregistrement, il geeft zij aanleiding tot het heffen van het algemeen vast recht.                       donne lieu à la perception du droit fixe général.
 
-#### HOOFDSTUK VIII - Diverse bepalingen betreffende de                                        Chapitre VIII - Dispositions diverses relatives à la
-
-vereffening van de rechten en de betaling van het                                    liquidation des droits et au paiement du montant dû verschuldigde bedrag
+#### HOOFDSTUK VIII - Diverse bepalingen betreffende de                                        Chapitre VIII - Dispositions diverses relatives à la vereffening van de rechten en de betaling van het                                    liquidation des droits et au paiement du montant dû verschuldigde bedrag
 
 (vervangen bij art. 6 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van          (remplacé par l’art. 6 de la loi du 26.05.2016 (M.B., 09.06.2016). Texte toepassing vanaf 01.01.2015 (art. 8))                                                  applicable à partir du 01.01.2015 (art. 8))
 
@@ -3151,9 +3129,7 @@ Behalve wanneer ze verschuldigd zijn in het kader van de                        
 
 Niemand kan, onder voorwendsel van betwisting van het                                  Nul ne peut atténuer ni différer ce paiement, sous prétexte de verschuldigde bedrag of om enige andere reden, die betaling                            contestation sur le montant dû ou pour tout autre motif, sauf à se verminderen of uitstellen, behoudens het recht om teruggave te                         pourvoir en restitution s’il y a lieu. vorderen, indien daartoe grond bestaat.
 
-#### HOOFDSTUK IX - Verplichtingen met het oog op het                                     Chapitre IX - Obligations en vue d’assurer la perception
-
-verzekeren van het heffen van de rechten                                                                        des droits
+#### HOOFDSTUK IX - Verplichtingen met het oog op het                                     Chapitre IX - Obligations en vue d’assurer la perception verzekeren van het heffen van de rechten                                                                        des droits
 
 ##### Afdeling I - Vermeldingen op te nemen in bepaalde akten                                    Section Ire - Mentions à insérer dans certains actes
 
@@ -3194,9 +3170,7 @@ Alle expedities, afschriften van of uittreksels uit een burgerlijke of          
 
 Het eerste lid is niet van toepassing op een afschrift gemaakt met het                 L'alinéa 1er ne s'applique pas à une copie dressée en vue de sa oog op de aanbieding ervan ter formaliteit van de registratie.                         présentation à la formalité de l'enregistrement.
 
-##### Afdeling II - Voorschriften betreffende het uitreiken van                                Section II - Prescriptions relatives à la délivrance des
-
-uitgiften                                                                              expéditions
+##### Afdeling II - Voorschriften betreffende het uitreiken van                                Section II - Prescriptions relatives à la délivrance des uitgiften                                                                              expéditions
 
 ## Art. 172
 
@@ -3464,9 +3438,7 @@ Wanneer de som te betalen door de eigenaar van een muur om deze                 
 
 Een koninklijk besluit bepaalt de wijze waarop dit bericht dient                      Un arrêté royal détermine le mode suivant lequel cette information gegeven en duidt de ambtenaar aan ertoe bevoegd hetzelve te                           doit être donnée et désigne le fonctionnaire compétent pour la ontvangen.                                                                            recevoir.
 
-##### Afdeling V - Verplichtingen opgelegd aan openbare                                 Section V - Obligations imposées aux officiers publics en
-
-ambtenaren ter verzekering van de invordering der                                 vue d’assurer le recouvrement du droit d’enregistrement registratierechten
+##### Afdeling V - Verplichtingen opgelegd aan openbare                                 Section V - Obligations imposées aux officiers publics en ambtenaren ter verzekering van de invordering der                                 vue d’assurer le recouvrement du droit d’enregistrement registratierechten
 
 ## Art. 184bis
 
@@ -3708,9 +3680,7 @@ Deze kosten blijven evenwel ten laste van 's Rijks Schatkist zo de              
 
 De invordering geschiedt bij dwangschrift, zoals aangewezen in                         Le recouvrement est poursuivi par voie de contrainte, de la manière artikel 220.                                                                           indiquée à l’article 220.
 
-#### HOOFDSTUK XI - Tekort in de waardering, bewimpeling                                     Chapitre XI - Insuffisance d’estimation, dissimulation
-
-en veinzing. Sanctiën                                                                et simulation. Sanctions
+#### HOOFDSTUK XI - Tekort in de waardering, bewimpeling                                     Chapitre XI - Insuffisance d’estimation, dissimulation en veinzing. Sanctiën                                                                et simulation. Sanctions
 
 ## Art. 201
 
@@ -4210,9 +4180,7 @@ Article 225quater
 
 De bepalingen van dit Wetboek doen geen afbreuk aan het recht van                  Les dispositions du présent Code ne font pas obstacle au droit pour de Staat om het herstel van de schade te vorderen die kan bestaan uit              l'Etat de demander la réparation du dommage pouvant consister dans de niet-betaling van de rechten, interesten, fiscale geldboeten en                 le non-paiement des droits, des intérêts, des amendes fiscales et des bijbehoren door een burgerlijke partijstelling of door een                         accessoires, par la constitution de partie civile ou par l'action en aansprakelijkheidsvordering.                                                       responsabilité.
 
-#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende                                 CHAPITRE XVI - Dispositions particulières relatives aux
-
-de openbare verkopingen van roerende goederen                                                     ventes publiques de meubles
+#### HOOFDSTUK XVI - Bijzondere bepalingen betreffende                                 CHAPITRE XVI - Dispositions particulières relatives aux de openbare verkopingen van roerende goederen                                                     ventes publiques de meubles
 
 ## Art. 226
 
@@ -4334,9 +4302,7 @@ De bepalingen van dit hoofdstuk zijn niet van toepassing op de                  
 
 4° van zee- en binnenschepen.                                                    4° de navires et de bateaux.
 
-#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de                                   CHAPITRE XVII - Renseignements à fournir par
-
-Algemene Administratie van de                                          l’Administration générale de la Documentation Patrimoniumdocumentatie                                                                       patrimoniale
+#### HOOFDSTUK XVII - Inlichtingen te verstrekken door de                                   CHAPITRE XVII - Renseignements à fournir par Algemene Administratie van de                                          l’Administration générale de la Documentation Patrimoniumdocumentatie                                                                       patrimoniale
 
 ## Art. 236
 
@@ -4394,9 +4360,7 @@ Personen die deel uitmaken van diensten of openbare instellingen of             
 
 De    ambtenaren       van     de    Algemene       administratie      van    de    Les fonctionnaires de l'Administration générale de la documentation patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij                           patrimoniale, restent dans l'exercice de leurs fonctions, lorsqu'ils overeenkomstig de bepalingen van dit hoofdstuk inlichtingen,                        délivrent des renseignements, copies ou extraits conformément aux afschriften of uittreksels afleveren.                                               dispositions du présent chapitre.
 
-#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit,                                 CHAPITRE XVIII - Droit spécial sur la nationalité, les
-
-de adelbrieven en de verzoeken tot verandering van                                     lettres patentes de noblesse et les demandes de naam                                                                       changement de nom
+#### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit,                                 CHAPITRE XVIII - Droit spécial sur la nationalité, les de adelbrieven en de verzoeken tot verandering van                                     lettres patentes de noblesse et les demandes de naam                                                                       changement de nom
 
 ## Art. 237
 
@@ -4509,9 +4473,7 @@ Article 247
 
 (…)                                                                               (...)
 
-##### Afdeling II - Open brieven van adeldom en verzoeken tot                          Section II - Lettres patentes de noblesse et demandes de
-
-verandering van naam                                                                changement de nom
+##### Afdeling II - Open brieven van adeldom en verzoeken tot                          Section II - Lettres patentes de noblesse et demandes de verandering van naam                                                                changement de nom
 
 (gewijzigd bij art. 7 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van    (modifié par l’art. 7 de la loi du 07.02.2021 (M.B., 19.02.2021). Texte applicable toepassing vanaf 01.03.2021 (art. -))                                            à partir du 01.03.2021 (art. -))
 
@@ -4599,9 +4561,7 @@ Article 255
 
 De algemene bepalingen van deze titel betreffende de formaliteit van            Les dispositions générales du présent titre concernant la formalité de de registratie, de verplichting van inzageverlening, bewijsmiddelen,            l’enregistrement, le devoir de communication, les modes de preuve, verjaring, rechtsvervolgingen en gedingen, moratoire interesten zijn            la prescription, les poursuites et instances et les intérêts moratoires van toepassing in de mate waarin daarvan bij dit hoofdstuk niet wordt           sont applicables dans la mesure où il n’y est pas dérogé par le présent afgeweken.                                                                      chapitre.
 
-#### HOOFDSTUK XIX - Speciale geldboete wegens late                            CHAPITRE XIX - Amende spéciale pour dépôt tardif des
-
-neerlegging van aan bekendmaking onderworpen                                           actes de société soumis à publication akten van vennootschap
+#### HOOFDSTUK XIX - Speciale geldboete wegens late                            CHAPITRE XIX - Amende spéciale pour dépôt tardif des neerlegging van aan bekendmaking onderworpen                                           actes de société soumis à publication akten van vennootschap
 
 ## Art. 256
 
@@ -4740,9 +4700,7 @@ Het griffierecht is een federale belasting (art. 3, a contrario, wet            
 
 ### TITEL III - GRIFFIERECHT                                                      TITRE III - DROIT DE GREFFE
 
-#### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN                                   Chapitre 1er - Etablissement de l’impôt et fixation des
-
-VASTSTELLING VAN DE RECHTEN                                                                          droits
+#### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN                                   Chapitre 1er - Etablissement de l’impôt et fixation des VASTSTELLING VAN DE RECHTEN                                                                          droits
 
 ## Art. 268
 
@@ -4947,9 +4905,7 @@ Article 276
 
 (…)                                                                                (...)
 
-##### Afdeling IV - Recht van inschrijving in het handelsregister, in                     Section IV - Droit d'inscription au registre du commerce, au
-
-het ambachtsregister en in de registers van de economische                                 registre de l'artisanat et aux registres des groupements samenwerkingsverbanden                                                                 d'intérêt économique
+##### Afdeling IV - Recht van inschrijving in het handelsregister, in                     Section IV - Droit d'inscription au registre du commerce, au het ambachtsregister en in de registers van de economische                                 registre de l'artisanat et aux registres des groupements samenwerkingsverbanden                                                                 d'intérêt économique
 
 ## Art. 277
 
@@ -5143,9 +5099,7 @@ De Koning kan bepalen dat wegens de laattijdige betaling van een                
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                               DROIT FUTUR (à partir du 01.01.2028)
 
-### TITEL IV - DIGITALISATIE VAN DE RELATIES                                        TITRE IV - DIGITALISATION DES RELATIONS
-
-TUSSEN DE FEDERALE OVERHEIDSDIENST                                          ENTRE LE SERVICE PUBLIC FEDERAL FINANCES, FINANCIËN, DE BURGERS EN BEPAALDE DERDEN                                                        LES CITOYENS ET CERTAINS TIERS
+### TITEL IV - DIGITALISATIE VAN DE RELATIES                                        TITRE IV - DIGITALISATION DES RELATIONS TUSSEN DE FEDERALE OVERHEIDSDIENST                                          ENTRE LE SERVICE PUBLIC FEDERAL FINANCES, FINANCIËN, DE BURGERS EN BEPAALDE DERDEN                                                        LES CITOYENS ET CERTAINS TIERS
 
 (ingevoegd bij art. 74 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).       (inséré par l'art. 74 de la loi du 12.05.2024 (M.B., 30.05.2024 – éd. 2). Texte Tekst van toepassing voor alle of bepaalde categorieën van houders van een         applicable pour toutes ou certaines catégories de titulaires d’un numéro ondernemingsnummer, evenals voor natuurlijke personen, op een datum                d’entreprise, ainsi que pour les personnes physiques, à compter de la date à respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art.      fixer respectivement par le Roi, et au plus tard le 01.01.2028 (art. 222)) 222))
 
@@ -6682,9 +6636,7 @@ Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend             
 
 TIJDELIJKE BEPALINGEN                                                       DISPOSITIONS TEMPORAIRES
 
-##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe                       Section 1re - Mesures tendant à favoriser, par une réduction
-
-gebouwen begunstigd wordt door een vermindering der                              des droits d’enregistrement, la construction de nouveaux registratierechten                                                                      bâtiments
+##### Afdeling I - Maatregelen waarbij de oprichting van nieuwe                       Section 1re - Mesures tendant à favoriser, par une réduction gebouwen begunstigd wordt door een vermindering der                              des droits d’enregistrement, la construction de nouveaux registratierechten                                                                      bâtiments
 
 § 1 - Aankoop van een bouwgrond                                                    § 1er. Achat d’un emplacement
 

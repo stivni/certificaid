@@ -34,9 +34,7 @@ Actuele tekst, met de bijwerking nr. 62 / 01.02.2026
 ____________________________
 (1)   Inwerkingtreding op 31.12.2025
 
-#### HOOFDSTUK I
-
-INVOERING VAN DE BELASTING
+#### HOOFDSTUK I INVOERING VAN DE BELASTING
 
 ## Art. 1
 
@@ -247,9 +245,7 @@ De invoer van goederen, door wie ook, is eveneens aan de belasting onderworpen w
 
 De intracommunautaire verwervingen van goederen, omschreven in artikel 25bis, worden, wanneer zij in België geschieden, eveneens aan de belasting onderworpen, wanneer ze onder bezwarende titel plaatsvinden onder de in artikel 25ter gestelde voorwaarden.
 
-#### HOOFDSTUK II
-
-BELASTINGPLICHT
+#### HOOFDSTUK II BELASTINGPLICHT
 
 ## Art. 4
 
@@ -351,9 +347,7 @@ Door of vanwege de Minister van Financiën wordt vastgesteld onder welke voorwaa
 
 - II / 3 -
 
-#### HOOFDSTUK III
-
-WERKINGSSFEER
+#### HOOFDSTUK III WERKINGSSFEER
 
 ##### Afdeling 1
 
@@ -1179,9 +1173,7 @@ De belasting wordt opeisbaar op de vijftiende dag van de maand volgend op die wa
 
 - III / 26 -
 
-#### HOOFDSTUK IV
-
-MAATSTAF VAN HEFFING
+#### HOOFDSTUK IV MAATSTAF VAN HEFFING
 
 ## Art. 26
 
@@ -1393,9 +1385,7 @@ Wanneer werken in onroerende staat betrekking hebben op de voltooiing van een ge
 
 - IV / 6 -
 
-#### HOOFDSTUK V
-
-TARIEF VAN DE BELASTING
+#### HOOFDSTUK V TARIEF VAN DE BELASTING
 
 ## Art. 37
 
@@ -1440,9 +1430,7 @@ Het voor de invoer van goederen toe te passen tarief is het tarief dat in het bi
 
 Iedere handeling die bijdraagt tot het vervaardigen, het bouwen, het monteren of het omvormen van een ander goed dan een uit zijn aard onroerend goed, is aan de belasting onderworpen aan het tarief dat geldt voor het goed beschouwd in de staat waarin het verkeert na de uitvoering van de handeling.
 
-#### HOOFDSTUK VI
-
-VRIJSTELLINGEN
+#### HOOFDSTUK VI VRIJSTELLINGEN
 
 ##### Afdeling 1
 
@@ -2101,9 +2089,7 @@ Indien de leverancier heeft geopteerd voor de belastingheffing van dergelijke le
 
 - VI / 20 -
 
-#### HOOFDSTUK VII
-
-AFTREK VAN VOORBELASTING
+#### HOOFDSTUK VII AFTREK VAN VOORBELASTING
 
 ## Art. 45
 
@@ -2265,9 +2251,7 @@ c)     bij het sluiten of beëindigen van de huurovereenkomst.
 
 - VII / 6 -
 
-#### HOOFDSTUK VIII
-
-REGELING VOOR DE VOLDOENING VAN DE BELASTING
+#### HOOFDSTUK VIII REGELING VOOR DE VOLDOENING VAN DE BELASTING
 
 ## Art. 50
 
@@ -2906,9 +2890,7 @@ De medecontractant te goeder trouw, die bewijst dat hij aan zijn leverancier of 
 
 - VIII / 22 -
 
-#### HOOFDSTUK IX
-
-BIJZONDERE REGELINGEN
+#### HOOFDSTUK IX BIJZONDERE REGELINGEN
 
 ##### Afdeling 1
 
@@ -3778,9 +3760,7 @@ De in het eerste lid bedoelde persoon voldoet het totale bedrag van de in die aa
 
 - IX / 28 -
 
-#### HOOFDSTUK X
-
-BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
+#### HOOFDSTUK X BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
 
 ## Art. 59
 
@@ -4009,9 +3989,7 @@ De administratie brengt de beslissing van ambtshalve aanslag ter kennis bij aang
 
 Ontvangers belast met de heffing van een belasting op vervoermiddelen of aanhangwagens daarvoor, kunnen vóór de uitreiking van het stuk dat de voldoening van die belasting vaststelt, van de eigenaar het bewijs vorderen dat de belasting over de toegevoegde waarde voldaan is of dat hij ervan vrijgesteld is.
 
-#### HOOFDSTUK XI
-
-STRAFBEPALINGEN
+#### HOOFDSTUK XI STRAFBEPALINGEN
 
 ##### Afdeling 1
 
@@ -4231,9 +4209,7 @@ In het kader van de kennisgeving en het overleg bedoeld in artikel 29, § 2 en �
 
 - XI / 7 -
 
-#### HOOFDSTUK XII
-
-TERUGGAAF VAN BELASTING
+#### HOOFDSTUK XII TERUGGAAF VAN BELASTING
 
 ## Art. 75
 
@@ -4403,9 +4379,7 @@ Onverminderd het eerste lid, bepaalt Hij de toepassingsvoorwaarden van de terugg
 
 - XII / 6 -
 
-#### HOOFDSTUK XIII
-
-VERJARING
+#### HOOFDSTUK XIII VERJARING
 
 ## Art. 81
 
@@ -4473,9 +4447,7 @@ De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt
 
 - XIII / 3 -
 
-#### HOOFDSTUK XIV
-
-INNING EN GEDINGEN
+#### HOOFDSTUK XIV INNING EN GEDINGEN
 (De betiteling van hoofdstuk XIV, werd vervangen met ingang van 01.01.2020 (Art. 5, W 13.04.2019, B.S. 30.04.2019, pg. 41412))
 
 ## Art. 83bis
@@ -4810,9 +4782,7 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 - XIV / 10 -
 
-#### HOOFDSTUK XV
-
-BEROEPSGEHEIM
+#### HOOFDSTUK XV BEROEPSGEHEIM
 
 ## Art. 93bis
 
@@ -4835,10 +4805,7 @@ Het in het eerste lid bedoelde akkoord wordt geacht te zijn bekomen wanneer de b
 
 - XV / 1 -
 
-#### HOOFDSTUK XVI
-
-AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE
-AMBTENAREN EN ANDERE PERSONEN
+#### HOOFDSTUK XVI AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE AMBTENAREN EN ANDERE PERSONEN
 (Hoofdstuk XVI, dat de artikelen 93ter tot 93undeciesE bevat, werd opgeheven met ingang van 01.01.2020 (Art. 25, W 13.04.2019, B.S. 30.04.2019, pg. 41412). De artikelen van dit hoofdstuk blijven evenwel van toepassing op de gevallen bedoeld in art. 138, W 13.04.2019) (21)
 
 ## Art. 93ter
@@ -4915,9 +4882,7 @@ De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering 
 
 - XVI / 3 -
 
-#### HOOFDSTUK XVII
-
-VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
+#### HOOFDSTUK XVII VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
 (Het opschrift van hoofdstuk XVII, werd hersteld (Art. 4, W 07.04.2023, B.S. 18.04.2023, pg. 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023))
 
 ## Art. 93duodecies
@@ -5052,9 +5017,7 @@ De Koning bepaalt het tijdstip van de in artikel 93duodecies/1, § 4, 2°, bedoe
 
 - XVII / 4 -
 
-#### HOOFDSTUK XVIII
-
-WEDERZIJDSE BIJSTAND
+#### HOOFDSTUK XVIII WEDERZIJDSE BIJSTAND
 
 ## Art. 93terdecies
 
@@ -5072,9 +5035,7 @@ De inlichtingen die door een ambtenaar van de administratie belast met de belast
 
 - XVIII / 1 -
 
-#### HOOFDSTUK XIX
-
-AAN ALLE BELASTINGEN GEMENE BEPALINGEN
+#### HOOFDSTUK XIX AAN ALLE BELASTINGEN GEMENE BEPALINGEN
 
 ## Art. 93quaterdecies
 

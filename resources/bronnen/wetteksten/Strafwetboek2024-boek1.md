@@ -885,9 +885,7 @@ In artikel 594, eerste lid, van hetzelfde Wetboek, hersteld bij de wet van 8 aug
 
 In artikel 626, eerste en tweede lid, van hetzelfde Wetboek, vervangen bij de wet van 7 april 1964 en laatstelijk gewijzigd bij de wet van 25 april 2014, worden de woorden "overeenkomstig de artikelen 54 tot 57bis van het Strafwetboek of indien hij ter beschikking van de strafuitvoeringsrechtbank is gesteld ingevolge de artikelen 34bis, 34ter of 34quater van het Strafwetboek" telkens vervangen door de woorden "overeenkomstig artikel 60 van het Strafwetboek of indien hij onderworpen is aan verlengde opvolging op grond van artikel 42 van de wet van 29 februari 2024 tot invoering van boek I van het Strafwetboek".
 
-##### Afdeling 4. - Wijziging van de wet van 24 februari 1921 betreffende het verhandelen van giftstoffen,
-
-slaapmiddelen en verdovende middelen, psychotrope stoffen, ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging van verdovende middelen en psychotrope stoffen
+##### Afdeling 4. - Wijziging van de wet van 24 februari 1921 betreffende het verhandelen van giftstoffen, slaapmiddelen en verdovende middelen, psychotrope stoffen, ontsmettingsstoffen en antiseptica en van de stoffen die kunnen gebruikt worden voor de illegale vervaardiging van verdovende middelen en psychotrope stoffen
 
 ## Art. 15
 
@@ -926,9 +924,7 @@ In artikel 1411bis, § 5, van hetzelfde Wetboek, ingevoegd bij de wet van 27 dec
 2° in het derde lid, worden de woorden "geldboete van 200 euro tot 5.000 euro" vervangen door de woorden "een straf van niveau 1";
 3° het laatste lid wordt opgeheven.
 
-##### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de
-
-veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
+##### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
 
 ## Art. 22
 
