@@ -14,8 +14,11 @@ node_modules/
 # OS
 .DS_Store
 
-# Resources — ruwe bronbestanden (PDFs, txt, xlsx, ...)
-resources/raw/
+# Resources — bulk raw downloads (PDFs, txt, xlsx, ...)
+# Alleen de bulk-mappen worden geignoreerd; hand-curated raw inputs
+# (voorbeeldexamens, andere/) blijven tracked omdat ze niet auto-fetchable zijn.
+resources/raw/wetteksten/
+resources/raw/normen/
 
 **/__pycache__/
 *.pyc
