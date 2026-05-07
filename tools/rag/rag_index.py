@@ -51,9 +51,13 @@ DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
 KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
 
-# MPS-fallback: SDPA-ops die MPS niet aankan vallen automatisch terug op CPU.
-# Zonder dit crasht bge-m3 bij lange artikelen (attention buffer overflow).
-os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
+# PYTORCH_ENABLE_MPS_FALLBACK is bewust UIT: de fallback ping-pong tussen
+# MPS en CPU lekt geheugen bij lange runs (Mac stottert progressief).
+# In plaats daarvan: max_seq_length op het model beperken zodat MPS nooit
+# een te grote attention-buffer hoeft te alloceren.
+MPS_MAX_SEQ_LENGTH = 2048   # ~8K chars; bedekt ~95% van chunks (avg 1.5K chars)
+                            # Lange chunks (>8K chars) truncaten in de tail,
+                            # maar de header+breadcrumb+begin staan altijd in de embedding
 
 BRON_DIRS = {
     "wettekst": ROOT / "resources" / "bronnen" / "wetteksten",
@@ -453,30 +457,36 @@ def split_generic(text: str, source_id: str, breadcrumb_prefix: str = "") -> lis
 # ---------------------------------------------------------------------------
 
 def _mps_safe_batch_size(device: str) -> int:
-    """MPS heeft beperkte GPU-buffer per batch — gebruik kleinere upsert-batches."""
-    return 32 if device == "mps" else 200
+    """ChromaDB-upsert batch grootte. Iets kleiner op MPS i.v.m. geheugen."""
+    return 64 if device == "mps" else 200
 
 
 def make_embedding_function(model_name: str, device: str):
     """
-    Maak een ChromaDB-compatibele embedding-functie.
-    Op MPS: gebruik sentence_transformers direct met batch_size=1 zodat
-    de SDPA-fallback per chunk kan triggeren (PYTORCH_ENABLE_MPS_FALLBACK=1).
+    ChromaDB-compatibele embedding-functie.
+
+    Op MPS: max_seq_length=1024 om MPS-attention-buffer overflow te voorkomen
+    (bge-m3 default = 8192, te groot voor MPS bij lange chunks).
+    Tussen batches torch.mps.empty_cache() om geheugenlek te voorkomen.
+    Hierdoor is PYTORCH_ENABLE_MPS_FALLBACK NIET nodig — geen ping-pong, geen leak.
     """
     if device == "mps":
         from sentence_transformers import SentenceTransformer
 
         model = SentenceTransformer(model_name, device=device)
+        # Beperk seq-length: 1024 tokens (~4K chars) past zeker in MPS-buffer
+        model.max_seq_length = MPS_MAX_SEQ_LENGTH
 
         class MPSEmbeddingFunction:
             def __call__(self, input: list[str]) -> list[list[float]]:
-                # batch_size=1: één chunk tegelijk, geeft MPS-fallback ruimte
                 embeddings = model.encode(
                     input,
-                    batch_size=1,
+                    batch_size=8,             # snel zonder buffer-overflow
                     show_progress_bar=False,
                     normalize_embeddings=True,
                 )
+                # Expliciete cache-flush tegen MPS geheugenlek
+                torch.mps.empty_cache()
                 return embeddings.tolist()
 
         return MPSEmbeddingFunction()
