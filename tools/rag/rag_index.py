@@ -66,11 +66,19 @@ MAX_CHUNK_CHARS = 24_000   # ADR-006 §4 — bge-m3 8K-token-window met marge
 # ---------------------------------------------------------------------------
 
 def detect_device() -> str:
+    """
+    Detecteer GPU. Volgorde: MPS (Apple Silicon) → CUDA → fout.
+    CPU wordt niet gebruikt voor embedding — te traag voor productie.
+    Forceer CPU via --device cpu enkel voor debugging.
+    """
     if torch.backends.mps.is_available():
         return "mps"
     if torch.cuda.is_available():
         return "cuda"
-    return "cpu"
+    raise RuntimeError(
+        "Geen GPU gevonden (MPS of CUDA vereist). "
+        "Gebruik --device cpu enkel voor debugging."
+    )
 
 
 # ---------------------------------------------------------------------------

@@ -60,7 +60,11 @@ class RetrievalResult:
 # ---------------------------------------------------------------------------
 
 def _detect_device() -> str:
-    """Auto-detect beste beschikbaar device voor embedding-model."""
+    """
+    Detecteer GPU. Volgorde: MPS → CUDA → CPU als laatste redmiddel.
+    Voor indexering: gebruik rag_index.py --device (defaultt naar GPU, fout als geen GPU).
+    Voor retrieval/tutor: CPU is acceptabel (reranker is klein, bi-encoder query is één vector).
+    """
     try:
         import torch
         if torch.backends.mps.is_available():
