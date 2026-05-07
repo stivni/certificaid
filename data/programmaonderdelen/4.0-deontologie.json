@@ -1,7 +1,7 @@
 {
-  "po": "4.0",
-  "po_letter": "T",
-  "title": "Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving",
+  "programmaonderdeel": "4.0",
+  "programmaonderdeel_letter": "T",
+  "titel": "Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving",
   "niveau": "integratie",
   "source": {
     "type": "itaa-programma",
@@ -215,9 +215,9 @@
     ],
     "tooling": {
       "pipeline": "manual",
-      "pipeline_version": "tdk-extraction-2026-05-07-v2",
+      "pipeline_version": "programmaonderdeel-extraction-2026-05-07-v2",
       "model": "claude-opus-4-7",
-      "prompt_version": "tdk-extraction-v2-taakblokken"
+      "prompt_version": "programmaonderdeel-extraction-v2-taakblokken"
     },
     "generated_at": "2026-05-07T17:00:00Z",
     "stale": false,
