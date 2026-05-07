@@ -46,7 +46,7 @@ DE ACTIVITEIT VAN DOMICILIËRING
                    NORM BETREFFENDE DE VERENIGBAARHEID VAN DE ACTIVITEIT VAN
                                  DOMICILIËRING VAN ENTITEITEN
 
-                                                        I. Voorwoord
+## I. Voorwoord
     Conform artikel 25 van de Richtlijn 2006/123/EG van het Europees Parlement en van de Raad van
     12 december 2006 betreffende diensten op de interne markt, mogen titularissen van een geregle-
     menteerd beroep niet onderworpen worden aan eisen die hen ertoe verplichten uitsluitend een
@@ -84,7 +84,8 @@ DE ACTIVITEIT VAN DOMICILIËRING
     en dit mits naleving van een aantal voorwaarden, ter bescherming van de deontologische beginselen,
     met inbegrip van onafhankelijkheid en beroepsgeheim. De Raad is van oordeel dat het opportuun
     is om deze vast te leggen via een norm.
-                                              II. Grondslag van deze norm
+
+## II. Grondslag van deze norm
     De Raad van het Instituut neemt deze norm krachtens zijn bevoegdheid die hem toegekend is
     door artikel 72, eerste lid, 2° van de wet van 17 maart 2019 betreffende de beroepen van accountant
     en belastingadviseur.
@@ -102,7 +103,7 @@ goedgekeurd door de raad van 2 juli 2024.
     Onderhavige norm heeft tot doel om de bijzondere voorwaarden vast te leggen omtrent de uitoefening
     door beroepsbeoefenaars van de activiteit van domiciliëring van entiteiten.
 
-                                                           III. Norm
+## III. Norm
     1) Definities
     Voor de toepassing van deze norm wordt verstaan onder:
     1° “entiteit”: Een onderneming, een rechtspersoon of een soortgelijke juridische constructie dewelke
@@ -191,7 +192,7 @@ goedgekeurd door de raad van 2 juli 2024.
     geregistreerd5. Het is aan de beroepsbeoefenaar om erop toe te zien dat deze verplichting door
     de gedomicilieerde entiteit wordt nageleefd.
 
-                                    IV. Inwerkingtreding en overgangsmaatregel
+## IV. Inwerkingtreding en overgangsmaatregel
     Deze norm is toepasselijk op iedere overeenkomst tot domiciliëring die wordt gesloten tussen cliënt
     en beroepsbeoefenaar vanaf 1 november 2024.
     Voor de lopende opdrachten die de beroepsbeoefenaar vóór 1 november 2024 heeft aanvaard,

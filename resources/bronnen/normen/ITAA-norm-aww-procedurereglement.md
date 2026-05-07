@@ -26,8 +26,6 @@ provenance:
   stale_reason:
 ---
 
-# Procedurereglement Aww Art118
-
 Procedurereglement voor het opleggen van maatregelen
 in het kader van artikel 118, §1 van de antiwitwaswet
 Beslissing van de Raad d.d. 2 februari 2021
@@ -66,7 +64,8 @@ hem gelieerde personen materiële hulp, bijstand of advies op fiscaal gebied te 
 1 Art. 62, §1, 9° van de Wet
 2 Art. 85, §1, 7° AWW
 
-Dat, overeenkomstig artikel 72, 13° van de wet van 17 maart 2019, de Raad van het IBA
+
+Dat, overeenkomstig artikel 72, 13° van de wet van 17 maart 2019, de Raad van het IBA
 het bevoegde orgaan is om dit toezicht te houden.
 Dat het IBA de maatregelen, opgesomd in artikel 118, §1 van de wet van 18 september
 2017, kan nemen, wanneer zij vaststellen dat een onder hun bevoegdheid vallende
@@ -82,7 +81,8 @@ Gezien de beslissing van de Raad van het Instituut d.d. 2 februari 2021;
 Gezien het advies van de Hoge Raad voor de Economische Beroepen van 7 juni 2021;
 STELT DE RAAD HET VOLGENDE PROCEDUREREGLEMENT VAST:
 Definities
-Artikel 1
+
+## Artikel 1
 1° Antiwitwaswet: de wet van 18 september 2017 tot voorkoming van het witwassen van
 geld en de financiering van terrorisme en tot beperking van het gebruik van contanten;
 2° Commissie van beroep: de commissie van beroep als bedoeld in artikel 104 van de wet
@@ -98,12 +98,14 @@ accountant en belastingadviseur;
 7° Wet: Wet van 17 maart 2019 betreffende de beroepen van accountant en
 belastingadviseur.
 Onderzoek
-Artikel 2
+
+## Artikel 2
 2.1. Indien uit een melding, controle of kwaliteitstoetsing van een onderworpen entiteit,
 blijkt dat de betrokken onderworpen entiteit zijn verplichtingen tot voorkoming van het
 witwassen van geld en de financiering van terrorisme in het kader van de Antiwitwaswet
 
-mogelijks niet heeft nageleefd, voert de Raad, vertegenwoordigd door de voorzitter of de
+
+mogelijks niet heeft nageleefd, voert de Raad, vertegenwoordigd door de voorzitter of de
 ondervoorzitter van het Instituut, een onderzoek.
 Indien de voorzitter of de ondervoorzitter verhinderd zijn, duidt de Raad een ander
 Raadslid aan.
@@ -126,7 +128,8 @@ gemotiveerde beslissing.
 2.3. De betrokkene kan zich tijdens het onderzoek laten bijstaan door de advocaat van zijn
 keuze.
 Maatregelen
-Artikel 3
+
+## Artikel 3
 3.1. De Raad kan, bij een met redenen omklede beslissing, de volgende maatregelen
 nemen ten aanzien van de betrokken onderworpen entiteit, wanneer hij vaststelt dat de
 onderworpen entiteit een inbreuk heeft begaan op de bepalingen van boek II van de
@@ -145,7 +148,8 @@ onderworpen entiteiten uit te oefenen.
 De tijdelijke weglating houdt het verbod in om voor een welbepaalde periode de
 beroepsactiviteiten uit te oefenen en/of de beroepstitel te dragen. De tijdelijk weggelaten
 
-persoon blijft gehouden aan zijn verplichtingen ten aanzien van het Instituut. De tijdelijke
+
+persoon blijft gehouden aan zijn verplichtingen ten aanzien van het Instituut. De tijdelijke
 weglating uit het openbaar register houdt tevens het verbod in om deel te nemen aan de
 algemene vergadering en alle andere organen van het Instituut, zolang de maatregel
 uitwerking heeft.
@@ -164,14 +168,16 @@ zover dit kan worden bepaald;
 5°de mate van medewerking van de betrokken onderworpen entiteit met de Raad;
 6° eventuele vroegere inbreuken die gepleegd zijn door de betrokkene.
 Kennisgeving van de beslissing van de Raad
-Artikel 4
+
+## Artikel 4
 4.1. De Raad geeft aan de betrokkene kennis van iedere beslissing per aangetekende
 zending, per e-mail met ontvangstbevestiging dan wel op enige andere gelijkwaardige
 digitale wijze, verstuurd naar de woonplaats en voor een rechtspersoon naar de zetel of
 naar de verblijfplaats van de betrokkene als bedoeld in artikel 32 van het Gerechtelijk
 Wetboek.
 4.2. De zending bevat de procedure van beroep.
-Artikel 5
+
+## Artikel 5
 5.1. De Raad maakt zijn beslissing tot het opleggen van een maatregel nominaal bekend
 op de website van het Instituut, onmiddellijk nadat de betrokkene op de hoogte is gebracht
 van deze beslissing.
@@ -183,7 +189,8 @@ na een beoordeling per geval van de evenredigheid van de bekendmaking van die
 gegevens, beslist de Raad als volgt:
 1° uitstel van de bekendmaking van de beslissing totdat de redenen voor nietbekendmaking ophouden te bestaan;
 
-2° anonieme bekendmaking van de beslissing, indien een dergelijke anonieme
+
+2° anonieme bekendmaking van de beslissing, indien een dergelijke anonieme
 bekendmaking een doeltreffende bescherming van de betrokken
 persoonsgegevens waarborgt; in dat geval kan de bekendmaking van relevante
 gegevens worden uitgesteld gedurende een redelijke termijn indien wordt verwacht
@@ -202,17 +209,20 @@ een termijn van vijf jaar na de bekendmaking op de website van het Instituut sta
 5.6. In de bekendmaking opgenomen persoonsgegevens worden op de website van het
 Instituut echter niet langer bewaard dan noodzakelijk is overeenkomstig de toepasselijke
 regelgeving betreffende de bescherming van persoonsgegevens.
-Artikel 6
+
+## Artikel 6
 Wanneer de Raad in het kader van zijn toezichtsopdracht, een inbreuk vaststelt op de
 bepalingen van artikel 66, §2 eerste lid of van artikel 67 van de Antiwitwaswet, brengt hij
 de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig
 mogelijk op de hoogte daarvan.
 Tucht
-Artikel 7
+
+## Artikel 7
 De beslissing tot het opleggen van een maatregel doet geen afbreuk aan eventuele
 tuchtrechtelijke gevolgen.
 Rechtsmiddelen
-Artikel 8
+
+## Artikel 8
 8.1. De betrokken onderworpen entiteit, die de beslissing waarbij door de raad een
 maatregel wordt opgelegd, betwist, kan binnen de termijn van dertig dagen vanaf de dag
 van de kennisgeving van de beslissing, beroep instellen bij de commissie van beroep.
@@ -221,7 +231,9 @@ van de kennisgeving van de beslissing, beroep instellen bij de commissie van ber
 beslissing, maar niet de bekendmaking ervan overeenkomstig artikel 135, §3, vierde lid
 van de Antiwitwaswet.
 
-Inwerkingtreding
-Artikel 9
+
+Inwerkingtreding
+
+## Artikel 9
 De procedureregels en rechtsmiddelen bepaald in dit reglement hebben uitwerking dertig
 dagen na het goedkeurend advies van de Hoge Raad voor de Economische beroepen.

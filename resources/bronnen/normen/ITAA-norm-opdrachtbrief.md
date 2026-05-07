@@ -26,12 +26,10 @@ provenance:
   stale_reason:
 ---
 
-# Nota Opdrachtbrief
-
 OPDRACHTBRIEF
 
 
-Inhoud
+
 1.
 
 
@@ -134,7 +132,8 @@ OPDRACHTBRIEF
 2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
 
 
-Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
+
+Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
 er slechts eind 2019 een Koninklijk besluit 1 uitgevaardigd die de nadere regels bij het afsluiten
 van een opdrachtbrief nader bepaalt (IAB).
 Het Instituut kreeg van veel leden het signaal dat bepaalde voorschriften van dit koninklijk besluit
@@ -143,9 +142,9 @@ Met deze nota wil het Instituut een antwoord geven op deze bezorgdheden, door de
 informatie en tools aan te reiken die toelaten deze regelgeving op een correcte wijze na te leven
 op een wijze die te verzoenen valt met hun kantoororganisatie.
 
-Wettelijke verplichting
+## Wettelijke verplichting
 
-1. Algemeen
+## 1. Algemeen
 De opdrachtbrief is al sinds 21 september 2017 een wettelijke verplichting voor alle
 beroepsbeoefenaars en werd hernomen in artikel 41 van de Wet van 17 maart 2019 betreffende
 de beroepen van accountant en belastingadviseur.
@@ -157,13 +156,15 @@ Wetboek van economisch recht ter beschikking te stellen van de cliënt. Aangezie
 gereglementeerd beroep uitoefent, dient u bijvoorbeeld aan de cliënt te kennen te geven dat u
 lid bent van het ITAA en welke titel u werd verleend 2. Door dit op te nemen in de opdrachtbrief
 vermijdt u ter zake enig risico.
-2. Opdracht van gerechtelijke expertise
+
+## 2. Opdracht van gerechtelijke expertise
 Wanneer de beroepsbeoefenaar wordt aangesteld als gerechtsdeskundige, is zijn opdracht niet
 van contractuele aard. Zijn aanstelling is immers het gevolg van een vonnis of arrest en de
 uitvoering ervan is onderhevig aan de bepalingen van het Gerechtelijk Wetboek. Om deze
 redenen is het ITAA van oordeel dat in deze gevallen moet worden afgezien van de verplichting
 om een opdrachtbrief op te stellen.
-3. Onderaanneming
+
+## 3. Onderaanneming
 Het komt regelmatig voor dat de ene beroepsbeoefenaar bij de uitvoering van zijn opdracht(en)
 beroep doet op een andere beroepsbeoefenaar en beiden hierbij zelfstandig zijn georganiseerd.
 In dergelijk geval is er geen contractuele relatie tussen de cliënt en de onderaannemer, zelfs als
@@ -175,7 +176,8 @@ in de zin van artikel 2, 12° en 13° van de Wet van 17 maart 2019. Het is evenw
 een samenwerkingsovereenkomst af te sluiten. De onderaannemers moeten bovendien
 vanzelfsprekend de hoedanigheid bezitten om op zelfstandige wijze boekhoudkundige en/of
 fiscale activiteiten te verrichten voor derden.
-4. Bij overname van cliënteel
+
+## 4. Bij overname van cliënteel
 Indien de aandelen van een erkende vennootschap worden overgenomen, dient u geen nieuwe
 opdrachtbrief op te stellen. Dezelfde rechtspersoon blijft immers de opdracht uitoefenen. De
 vennootschap kan een nieuwe vertegenwoordiger-natuurlijke persoon aanstellen.
@@ -186,13 +188,14 @@ WER -art.III 74.tot III 77. In geval van inbreuk: strafrechtelijke sanctie : 26 
 XV -77-7°
 
 
-Indien er cliënteel wordt overgenomen dan komt er, gelet op het intuitu personae karakter van
+
+Indien er cliënteel wordt overgenomen dan komt er, gelet op het intuitu personae karakter van
 de opdracht van de beroepsbeoefenaar, een volledige nieuwe overeenkomst tot stand dewelke
 de instemming van de cliënt vereist.
 
-Enkele inhoudelijke aspecten van de opdrachtbrief
+## Enkele inhoudelijke aspecten van de opdrachtbrief
 
-1. Identificatie van de partijen
+## 1. Identificatie van de partijen
 De identificatie van de partijen is het vertrekpunt van elke overeenkomst. Zowel de cliënt als de
 beroepsbeoefenaar worden nauwkeurig geïdentificeerd.
 Wanneer de beroepsbeoefenaar een erkende rechtspersoon is, dient bovendien een
@@ -206,11 +209,13 @@ ervan vereist zijn en zal hun vertegenwoordigingsbevoegdheid worden nagegaan.
 In de opdrachtbrief kan u een clausule opnemen waarmee u aangeeft dat u pas uw opdracht kan
 aanvatten nadat alle documenten en informatie die vereist zijn in het kader van de antiwitwaswet
 zijn overgemaakt (identiteitskaart, identificatie UBO’s,…)
-2. Begindatum van uw opdracht
+
+## 2. Begindatum van uw opdracht
 Ook de begindatum van uw opdracht dient uitdrukkelijk vermeld te worden in de opdrachtbrief.
 Op de begindatum van de opdracht neemt ook de beroepsbeoefenaar zijn verantwoordelijkheid een
 aanvang.
-3. Het voorwerp van de opdracht
+
+## 3. Het voorwerp van de opdracht
 Voor de beroepsbeoefenaar is het uiteraard van belang dat hij de precieze draagwijdte van zijn opdracht
 kent.
 Indien de beroepsbeoefenaar geconfronteerd wordt met een bijkomende opdracht vanwege zijn cliënt,
@@ -221,7 +226,8 @@ het kader van subsidies, dan kan het verzoek van de cliënt om een coronapremie 
 vragen via mail aanvaard worden. Deze opdracht valt dan onder de bestaande opdrachtbrief.
 Is dit niet het geval dan zal een nieuwe opdrachtbrief of minstens een addendum bij de bestaande
 moeten worden opgemaakt.
-4. Verplichtingen van de partijen
+
+## 4. Verplichtingen van de partijen
 
 1) Langs de zijde van de cliënt
 De opdrachtbrief biedt de mogelijkheid om bepaalde verplichtingen langs de zijde van de cliënt op te
@@ -241,7 +247,8 @@ Spontane melding van een betalingsverzuim
 3 Vennoot, zaakvoerder of bestuurder, ITAA extern beroepsbeoefenaar - Art.42 Wet 17/03/2019
 
 
-Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
+
+Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
 de beroepsbeoefenaars inzake de opsporing van ondernemingen in moeilijkheden, kan in de
 opdrachtbrief worden voorzien dat de cliënt de beroepsbeoefenaar op de hoogte moet brengen
 van elke betalingsachterstand, zodat deze de knipperlichten tijdig kan detecteren.
@@ -250,12 +257,14 @@ van elke betalingsachterstand, zodat deze de knipperlichten tijdig kan detectere
 Hier kan bijvoorbeeld verwezen worden naar de verplichting in hoofde van de beroepsbeoefenaar om
 het beroepsgeheim te respecteren en de wettelijke uitzonderingen erop nader te duiden (bijvoorbeeld
 in het kader van Antiwitwaswetgeving en DAC6- reglementering).
-5. De draagwijdte van de aansprakelijkheid
+
+## 5. De draagwijdte van de aansprakelijkheid
 Via de opdrachtbrief is het mogelijk om clausules in te voegen die een beperking voorzien van
 uw aansprakelijkheid. Dit is echter niet toegestaan in geval van een fout gepleegd met bedrieglijk
 opzet of met het oogmerk te schaden. Evenmin bij opdrachten voorbehouden aan gecertificeerde
 accountants 4.
-6. Einde van de overeenkomst
+
+## 6. Einde van de overeenkomst
 
 1) Beëindigingsmodaliteiten en opzegtermijn
 De opdrachtbrief dient te voorzien in de wijze waarop deze wordt beëindigd.
@@ -284,7 +293,8 @@ handelen. Bijvoorbeeld in het geval van ernstige vermoedens van witwassen of bel
 in geval van gevaar voor zijn onafhankelijkheid.
 Dit kan ook worden voorzien indien de cliënt en/of de beroepsbeoefenaar de verplichtingen zoals
 beschreven in de opdrachtbrief niet nakomt.
-7. Erelonen
+
+## 7. Erelonen
 De opdrachtbrief dient vanzelfsprekend te voorzien in de bepaling van de kosten en erelonen die de
 opdracht met zich zullen meebrengen, de betalingsvoorwaarden die men aan de cliënt wil opleggen,
 alsook de afspraken omtrent de wijze waarop men de prestaties zal aanrekenen (via voorschotten,
@@ -298,7 +308,8 @@ bepaalde prestaties vereist zijn.
 4 Artikel 44 van de wet van 17 maart 2019.
 
 
-8. Bewaring van de stukken
+
+## 8. Bewaring van de stukken
 De opdrachtbrief dient aan te geven waar de stukken en bescheiden zullen worden bewaard. Dit
 dient te worden afgestemd op de werkwijze die gehanteerd wordt bij de aanlevering van de
 verantwoordingsstukken door de cliënt. In sommige gevallen levert de cliënt de stukken immers
@@ -307,15 +318,16 @@ beroepsbeoefenaar voor de uitvoering van zijn opdracht en in andere gevallen vol
 digitaal opladen ervan waardoor het origineel bij de cliënt blijft. Het valt aan te raden een clausule
 op te nemen dat de cliënt instaat voor de bewaring van de hem door de beroepsbeoefenaar
 regelmatig overgemaakte boekhoudkundige stukken en bescheiden.
-9. De geschillenregeling
+
+## 9. De geschillenregeling
 De opdrachtbrief dient te voorzien in een geschillenregeling.
 Naast de mogelijkheid tot het inleiden van een procedure voor de bevoegde rechtbank, is het
 mogelijk om alternatieve vormen van geschillenbeslechting op te nemen, zoals bijvoorbeeld
 arbitrage of bemiddeling.
 
-De ondertekening van de opdrachtbrief
+## De ondertekening van de opdrachtbrief
 
-1. Algemeen
+## 1. Algemeen
 De opdrachtbrief moet vanzelfsprekend ondertekend worden door de beroepsbeoefenaar en de cliënt.
 Indien de beroepsbeoefenaar een rechtspersoon is, moet de opdrachtbrief ook mede- ondertekend
 worden door een beroepsbeoefenaar-natuurlijke persoon die vennoot, zaakvoerder of bestuurder is van
@@ -352,7 +364,8 @@ gedurende een bepaalde periode bijvoorbeeld worden opgevangen.
 5 In de mate dat de lastgeving die de basis vormt van de handtekeningsbevoegdheid of wettelijke beperkingen dit niet verhinderen.
 
 
-Om praktische redenen kan de vertegenwoordiger van de rechtspersoon bijvoorbeeld ook zijn
+
+Om praktische redenen kan de vertegenwoordiger van de rechtspersoon bijvoorbeeld ook zijn
 handtekening delegeren aan de vertegenwoordiger-natuurlijke persoon, in het geval dat deze laatste
 zelf de rechtspersoon niet kan vertegenwoordigen 6.
 
@@ -402,7 +415,8 @@ PERSOON
 vertegenwoordigingsbevoegdheid bezit ten aanzien van deze rechtspersoon-NV.
 
 
-3) Delegatie van handtekeningsbevoegdheid
+
+3) Delegatie van handtekeningsbevoegdheid
 
 Ook de natuurlijk persoon-vertegenwoordiger kan in principe zijn handtekening overdragen.
 Om praktische redenen kan hij zijn handtekeningsbevoegdheid bijvoorbeeld delegeren aan de
@@ -425,7 +439,7 @@ PERSOON
 In dat geval ondertekent de vertegenwoordiger van de rechtspersoon de opdrachtbrief ook in naam en
 voor rekening van de vertegenwoordiger-natuurlijk persoon.
 
-4. Vereiste van dubbel exemplaar
+## 4. Vereiste van dubbel exemplaar
 De opdrachtbrief moet in twee exemplaren opgemaakt, ondertekend en gedagtekend zijn.
 Aan deze vereiste is voldaan wanneer een enkele opdrachtbrief in elektronische vorm werd opgemaakt
 en ondertekend en iedere partij de mogelijkheid heeft om over een schriftelijk exemplaar te beschikken
@@ -440,19 +454,21 @@ naar de cliënt die deze op zijn beurt ondertekent en terugstuurt. Om daar event
 kan het aangeraden worden de ondertekende opdrachtbrief door de cliënt terug te laten geworden
 vanuit het emailadres van degene die namens de cliënt bevoegd is te ondertekenen (en dus niet vanuit
 een algemeen emailadres).
-5. Moment van de ondertekening
+
+## 5. Moment van de ondertekening
 De wet vereist dat de beroepsbeoefenaar voorafgaandelijk aan de uitvoering van iedere opdracht, in
 overleg met zijn cliënt, een opdrachtbrief opmaakt. In de praktijk blijkt de voorafgaandelijke
 ondertekening van de opdrachtbrief niet altijd even evident (bijvoorbeeld indien er dringend prestaties
 moeten verricht worden ter vrijwaring van de rechten van de cliënt).
 
 
-Degelijke situatie mag niet toe te rekenen zijn aan de beroepsbeoefenaar zelf die dit naar alle
+
+Degelijke situatie mag niet toe te rekenen zijn aan de beroepsbeoefenaar zelf die dit naar alle
 redelijkheid zal moeten kunnen verantwoorden bij een eventueel deontologisch onderzoek.
 In ieder geval is het dan aangewezen om in de opdrachtbrief te voorzien dat deze retroactief van
 toepassing is op deze eerder uitgevoerde prestaties.
 
-Uitvoering van de opdrachtbrief
+## Uitvoering van de opdrachtbrief
 
 1. De hoedanigheid van de vertegenwoordiger – natuurlijk persoon
 De vertegenwoordiger-natuurlijke persoon staat in voor de uitvoering van de opdracht in naam en voor
@@ -463,7 +479,8 @@ Hieruit volgt dat de vertegenwoordiger-natuurlijke persoon niet alleen beroepsbe
 maar ook de hoedanigheid moet bezitten die vereist is voor de uitvoering van de opdracht. Zo kunnen
 enkel personen met de hoedanigheid van gecertificeerd accountant de opdrachten vermeld in artikel 3,
 6° tot en met 8° van de wet uitvoeren.
-2. Eenzijdige vervanging door rechtspersoon-beroepsbeoefenaar
+
+## 2. Eenzijdige vervanging door rechtspersoon-beroepsbeoefenaar
 Overeenkomstig artikel 42 in fine van de wet, kan de betrokken rechtspersoon haar vertegenwoordigernatuurlijke persoon “enkel ontslaan als zij tegelijkertijd een opvolger aanduidt”. Hieruit kan men afleiden
 dat het intuitu personae karakter gekoppeld aan de uitvoering van de overeenkomst in principe bij de
 rechtspersoon berust, en niet bij deze vertegenwoordiger.
@@ -471,7 +488,8 @@ Uit artikel 42 in fine van de wet vloeit bovendien ook voort dat de vennootschap
 vertegenwoordiger-natuurlijke persoon kan ontslaan en vervangen, zonder hiervoor de toelating nodig
 te hebben van zijn cliënt. Met het oog op de transparantie ten aanzien van de cliënt, is het wel
 aangewezen dat dit uitdrukkelijk opgenomen wordt in de opdrachtbrief.
-3. Uitvoering van de opdracht
+
+## 3. Uitvoering van de opdracht
 
 1) Bijstand en vertegenwoordiging bij de uitvoering van opdrachten
 
@@ -501,7 +519,8 @@ Bijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.
 9 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 
 
-De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van
+
+De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van
 opdrachten die voorbehouden zijn aan gecertificeerd accountants 10.
 Bij opdrachten die voorbehouden zijn aan gecertificeerd accountants draagt de vertegenwoordigernatuurlijke persoon dan ook niet enkel de deontologische verantwoordelijkheid in de zin van artikel
 42 van de Wet, maar dient hij ook zelf tot ondertekening van de verklaring, certificering of verslag

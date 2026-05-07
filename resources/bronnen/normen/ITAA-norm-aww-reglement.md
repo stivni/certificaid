@@ -77,8 +77,8 @@ Overwegende wat volgt:
               gegevens en de bewijsstukken verzameld bij de identificatie en verificatie
               van de identiteit;
 
-                                           1/22
-        -     de (doorlopende) waakzaamheidsverplichtingen ten aanzien van de
+
+        -     de (doorlopende) waakzaamheidsverplichtingen ten aanzien van de
               kenmerken van de cliënt, de verrichtingen en de zakelijke relaties en de
               bewaring van de verkregen gegevens en documenten naar aanleiding van dit
               onderzoek.
@@ -112,13 +112,12 @@ Economische Beroepen voorgelegd.
 
 
 
-                                           2/22
-Inhoudstafel
+
 
 BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
 
-                                                                  3/22
-1. Algemene bepalingen
+
+## 1. Algemene bepalingen
 
 Definities
 
@@ -163,8 +162,8 @@ Definities
   10° “onafhankelijke auditfunctie”: de functie bedoeld in artikel 8, §2, 2°, a) van de Wet
   om de gedragslijnen, procedures en interne controlemaatregelen te testen;
 
-                                            4/22
-11° “verantwoordelijke persoon op het hoogste niveau”: zijnde een lid van het wettelijk
+
+11° “verantwoordelijke persoon op het hoogste niveau”: zijnde een lid van het wettelijk
 bestuursorgaan of, in voorkomend geval, van de effectieve leiding van de onderworpen
 entiteiten die rechtspersonen zijn of indien de onderworpen entiteit een natuurlijke
 persoon is, die persoon zelf, die belast is met de opdrachten zoals bedoeld in artikel 9,
@@ -205,8 +204,8 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
 
 
 
-                                         5/22
-18° “kantoor”:
+
+18° “kantoor”:
 
      a)    voor de norm van het Instituut van de Bedrijfsrevisoren: een rechtspersoon
            of een andere entiteit met om het even welke rechtsvorm, andere dan een
@@ -251,8 +250,8 @@ Wet.
 
 
 
-                                       6/22
-1.2   Voor het overige hebben de in deze norm gebruikte termen dezelfde betekenis als in
+
+1.2   Voor het overige hebben de in deze norm gebruikte termen dezelfde betekenis als in
       de Wet.
 
 Toepassingsgebied ratione personae
@@ -271,7 +270,7 @@ Toepassingsgebied ratione personae
       rechtspersoon, zijn de in deze norm vastgelegde verplichtingen van toepassing op die
       rechtspersoon en niet op de natuurlijke persoon.
 
-2. Organisatie en interne controle
+## 2. Organisatie en interne controle
 
 Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
 
@@ -298,8 +297,8 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
       netwerk mag op geen enkele manier de bevoegdheden en de rol van de AMLCO
       aangeduid door elk kantoor wijzigen.
 
-                                           7/22
-2.3   Onverminderd hetgeen bepaald is in punten 2.1 en 2.2 van deze norm, zal een stagiair
+
+2.3   Onverminderd hetgeen bepaald is in punten 2.1 en 2.2 van deze norm, zal een stagiair
       in geen geval aangeduid kunnen worden als verantwoordelijke op het hoogste niveau
       noch als AMLCO.
 
@@ -343,8 +342,8 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
       van artikel 8 van de Wet
 
 
-                                             8/22
-2.7   Onverminderd de toepassing van artikel 8, §2, 2°, a) van de Wet, moet een kantoor
+
+2.7   Onverminderd de toepassing van artikel 8, §2, 2°, a) van de Wet, moet een kantoor
       of netwerk waarbij minstens honderd beroepsbeoefenaars, zoals bedoeld in artikel 1,
       9° a), b) of c) van deze norm, een activiteit uitoefenen en/of een deelname hebben in
       en/of lid zijn van het wettelijk bestuursorgaan, een onafhankelijke auditfunctie
@@ -380,7 +379,7 @@ Interne procedures
      bedoeld in punt 2.9 van deze norm en van de in artikel 90 van de Wet bedoelde
      meldingen aan de Toezichtautoriteit.
 
-3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
+## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
 
 Een algemene risicobeoordeling uitvoeren
 
@@ -390,8 +389,8 @@ Een algemene risicobeoordeling uitvoeren
 
 
 
-                                           9/22
-      1° de variabelen vermeld in bijlage I van deze norm en met de in bijlage III van deze
+
+      1° de variabelen vermeld in bijlage I van deze norm en met de in bijlage III van deze
       norm vermelde factoren die wijzen op een potentieel hoger risico, alsook met de
       artikelen 37 tot 41 van de Wet;
 
@@ -437,8 +436,8 @@ Vaststellen van risiciocategorieën
 
 Actualisering
 
-                                           10/22
-3.6   De algemene risicobeoordeling moet worden bijgewerkt telkens er zich een
+
+3.6   De algemene risicobeoordeling moet worden bijgewerkt telkens er zich een
       gebeurtenis voordoet die een significante invloed kan hebben op een of meerdere
       risico's.
 
@@ -452,7 +451,7 @@ Actualisering
       in dat de individuele risicobeoordelingen bedoeld in artikel 19, §2, eerste lid van de
       Wet worden bijgewerkt.
 
-4. Waakzaamheid ten aanzien van de cliënten en de verrichtingen
+## 4. Waakzaamheid ten aanzien van de cliënten en de verrichtingen
 
 Clientacceptatiebeleid
 
@@ -483,8 +482,8 @@ Hij dient een cliëntacceptatiebeleid uit te stippelen en ten uitvoer te leggen 
 
 
 
-                                             11/22
-      Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen
+
+      Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen
       betreffende financiële embargo's zoals bedoeld in artikel 4, 6° van de Wet ten uitvoer
       te leggen.
 
@@ -530,8 +529,8 @@ Identificatieverplichting en verificatie van de identificatiegegevens
 
 
 
-                                           12/22
-4.5   Als er redenen bestaan om te twijfelen aan de pertinentie of de geloofwaardigheid
+
+4.5   Als er redenen bestaan om te twijfelen aan de pertinentie of de geloofwaardigheid
       van de door de cliënt meegedeelde informatie, neemt hij alle andere, in functie van
       het risicoprofiel van de cliënt, passende maatregelen om de medegedeelde informatie
       te verifiëren.
@@ -577,8 +576,8 @@ Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers
 
 
 
-                                           13/22
-4.10 De beroepsbeoefenaar mag beroep doen op een derde zaakaanbrenger - die zelf een
+
+4.10 De beroepsbeoefenaar mag beroep doen op een derde zaakaanbrenger - die zelf een
      aan een gelijkwaardige antiwitwasregelgeving onderworpen entiteit is - voor de
      nakoming van zijn verplichtingen betreffende de identiteit van de cliënt, van diens
      lasthebbers of diens uiteindelijke begunstigden en met betrekking tot het beoordelen
@@ -623,8 +622,8 @@ Prestaties binnen een netwerk
 
 
 
-                                            14/22
-5. Onderzoek van de verrichtingen
+
+## 5. Onderzoek van de verrichtingen
 
 Onderkennen van atypische verrichtingen
 
@@ -659,7 +658,7 @@ Melding van vermoedens
       uitvoer legt die zijn aangepast aan de opnieuw beoordeelde risico's, ofwel te
       beëindigen.
 
-6. Documentatie en bewaring van documenten
+## 6. Documentatie en bewaring van documenten
 
 6.1   Overeenkomstig artikel 61 van de Wet, mag de beroepsbeoefenaar, in plaats van een
       kopie te maken van de bewijsstukken - aan de hand waarvan hij zijn
@@ -669,8 +668,8 @@ Melding van vermoedens
       De aard van deze verwijzingen en de wijze waarop zij worden bewaard, moet de
       beroepsbeoefenaar met zekerheid in staat stellen om die bewijsstukken, op vraag van
 
-                                           15/22
-      de bevoegde autoriteiten, onmiddellijk voor te leggen, gedurende de
+
+      de bevoegde autoriteiten, onmiddellijk voor te leggen, gedurende de
       bewaringsperiode bepaald in punt 6.4. zonder dat die bewijsstukken ondertussen
       kunnen worden gewijzigd.
 
@@ -712,11 +711,11 @@ Melding van vermoedens
 6.4   Deze documenten moeten bewaard worden gedurende 10 jaar vanaf het einde van de
       zakelijke relatie met de cliënt of vanaf de datum van een occasionele verrichting.
 
-7. Beperkingen van het gebruik van contanten
+## 7. Beperkingen van het gebruik van contanten
 
 
-                                          16/22
-Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te
+
+Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te
 vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten
 verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de
 CFI.
@@ -727,8 +726,8 @@ respectievelijke instituten.
 
 
 
-                                            17/22
-8. Toezicht en controle
+
+## 8. Toezicht en controle
 
 Teneinde de Toezichtautoriteit toe te laten de toepassing van de Wet en de bepalingen van
 deze norm te controleren is de beroepsbeoefenaar verplicht:
@@ -738,7 +737,8 @@ deze norm te controleren is de beroepsbeoefenaar verplicht:
 
   -     in te gaan op elk verzoek tot organisatie van een controle in het kantoor van de
         beroepsbeoefenaar.
-9. Overgangsbepalingen
+
+## 9. Overgangsbepalingen
 
 9.1 De kennisgeving zoals bedoeld in punt 2.4 van deze norm, van de aanstelling van een
     AMLCO en/of verantwoordelijke op het hoogste niveau dient te gebeuren onmiddellijk
@@ -749,7 +749,7 @@ deze norm te controleren is de beroepsbeoefenaar verplicht:
     een stagemeester of erkend beroepsbeoefenaar aan te duiden als verantwoordelijke op
     het hoogste niveau en/of als AMLCO.
 
-10. Slotbepalingen
+## 10. Slotbepalingen
 
 10.1 Deze norm treedt in werking op de datum van publicatie op de website van het
      Instituut van de Accountants en de Belastingconsulenten.
@@ -762,8 +762,8 @@ deze norm te controleren is de beroepsbeoefenaar verplicht:
 
 
 
-                                          18/22
-BIJLAGEN
+
+BIJLAGEN
 
 De bijlagen bij de Wet van 18 september 2017 tot voorkoming van het witwassen van geld
 en de financiering van terrorisme en tot beperking van het gebruik van contanten maken
@@ -771,7 +771,7 @@ integraal deel uit van de Wet. Ze zijn hieronder opgenomen en maken dus ook inte
 deel uit van deze norm. Ze bestaan uit artikelen. Wanneer ernaar verwezen wordt, wordt
 uitdrukkelijk vermeld dat het om artikelen van de betrokken bijlage gaat.
 
-BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
+## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale
 risicobeoordeling
 
 Artikel 1. De variabelen die de onderworpen entiteiten ten minste in overweging nemen in
@@ -784,7 +784,7 @@ hun integrale risicobeoordeling bedoeld in punt 3.1 van deze norm, zijn de volge
 
   3° de regelmaat of de duur van de zakelijke relatie.
 
-BIJLAGE II: De indicatieve factoren van een potentieel lager risico
+## Bijlage II. De indicatieve factoren van een potentieel lager risico
 
 Artikel 1. De indicatieve factoren van een potentieel lager risico bedoeld in punt 3.1 van
 deze norm zijn de volgende:
@@ -809,8 +809,8 @@ deze norm zijn de volgende:
            niet als zekerheidstelling kunnen dienen;
 
 
-                                          19/22
-     c)    een pensioenstelsel, een pensioenfonds of een soortgelijk stelsel dat pensioenen
+
+     c)    een pensioenstelsel, een pensioenfonds of een soortgelijk stelsel dat pensioenen
            uitkeert aan werknemers, waarbij de bijdragen worden ingehouden op het loon
            en de regels van het stelsel de deelnemers niet toestaan hun rechten uit hoofde
            van het stelsel over te dragen;
@@ -838,7 +838,7 @@ deze norm zijn de volgende:
            beantwoorden aan de herziene FAG-aanbevelingen en die voorschriften
            effectief ten uitvoer leggen.
 
-BIJLAGE III: De indicatieve factoren van een potentieel hoger risico
+## Bijlage III. De indicatieve factoren van een potentieel hoger risico
 
 Artikel 1. De indicatieve factoren van een potentieel hoger risico bedoeld in punt 3.1 van
 deze norm zijn de volgende:
@@ -855,8 +855,8 @@ deze norm zijn de volgende:
 
 
 
-                                          20/22
-  d)    vennootschappen met gevolmachtigde aandeelhouders ("shareholders") of met
+
+  d)    vennootschappen met gevolmachtigde aandeelhouders ("shareholders") of met
         aandelen aan toonder;
 
   e)    bedrijven waar veel geldverkeer in contanten plaatsvindt;
@@ -899,8 +899,8 @@ deze norm zijn de volgende:
 
 
 
-                                       21/22
-BIJLAGE IV: Beslissingsbomen ter illustratie
+
+## Bijlage IV. Beslissingsbomen ter illustratie
 
 Elk kantoor is ertoe gehouden een methodologie vast te leggen teneinde de gedragslijnen,
 procedures en interne controlemaatregelen te bepalen en toe te passen die evenredig zijn
@@ -915,8 +915,3 @@ worden gebruikt. Ze hebben betrekking op:
 Vermits het gebruik ervan niet verplicht is, worden ze enkel als voorbeeld aangehaald en
 dienen ze, in voorkomend geval, aangepast te worden aan de specifieke activiteiten
 uitgeoefend door elk kantoor.
-
-
-
-
-                                          22/22

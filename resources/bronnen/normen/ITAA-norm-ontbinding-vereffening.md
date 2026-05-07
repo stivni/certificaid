@@ -80,8 +80,8 @@ Overwegende hetgeen volgt:
 
 
 
-                                                                                                       1/47
-        norm en het mogelijk maakt om alle opdrachten met betrekking tot ontbindings- en
+
+        norm en het mogelijk maakt om alle opdrachten met betrekking tot ontbindings- en
         vereffeningsverrichtingen in één enkele norm te centraliseren.
     (4) Onderhavige norm is niet van toepassing op (I)VZW’s. De controleopdracht inzake de ontbinding
         en vereffening van (I)VZW’s zal worden behandeld in een afzonderlijke norm.
@@ -131,8 +131,8 @@ gepubliceerd in het Belgisch Staatsblad van […], p. […].
 
 
 
-                                                                                                       2/47
-INHOUDSTAFEL
+
+INHOUDSTAFEL
 
          II.3. Specifieke bepalingen betreffende de onmiddellijke sluiting van de vereffening (art.
          II.4. Specifieke bepalingen betreffende de commissaris opdracht (controle van de
@@ -142,8 +142,8 @@ Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor / gecertifice
 
 
 
-                                                                                                                                                     3/47
-                                                                    Toepassingsgebied
+
+## Toepassingsgebied
 
  VEREISTEN                                                                           TOEPASSINGSMODALITEITEN
   1. Onderhavige norm is van toepassing op de opdracht die door de                   A1. Ingevolge het Wetboek van vennootschappen en verenigingen kunnen
@@ -167,7 +167,7 @@ Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor / gecertifice
                                                                                                bedoeld in artikel 2:80 van het Wetboek van vennootschappen en
                                                                                                verenigingen.
 
-                                             Datum van inwerkingtreding en opheffingsbepaling
+## Datum van inwerkingtreding en opheffingsbepaling
 
  VEREISTEN                                                                           TOEPASSINGSMODALITEITEN
   3. Deze norm treedt in werking een maand na de datum van publicatie in
@@ -179,8 +179,8 @@ Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor / gecertifice
 
 
 
-Herformulering september 2025                                                                                                                            4/47
-                                                                            Definities
+
+## Definities
 
  VEREISTEN                                                                           TOEPASSINGSMODALITEITEN
   5. Voor de toepassing van onderhavige norm wordt verstaan onder:
@@ -213,8 +213,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                  5/47
-      (ix)   “IBR”: het Instituut van de bedrijfsrevisoren, bedoeld door artikel
+
+      (ix)   “IBR”: het Instituut van de bedrijfsrevisoren, bedoeld door artikel
              64 van het wet van 7 december 2016 tot organisatie van het
              beroep van en het publiek toezicht op de bedrijfsrevisoren;
       (x)    “Gemeenschappelijke KMO-norm”: de norm van 18 december
@@ -249,14 +249,14 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                      6/47
-      (xv) “Interne beheersing”: het proces gedefinieerd in bijlage 1 van de
+
+      (xv) “Interne beheersing”: het proces gedefinieerd in bijlage 1 van de
            Gemeenschappelijke KMO-norm of in paragraaf 4, (c) van ISA 315
            (Herzien), Risico’s op een afwijking van materieel belang
            identificeren en inschatten door inzicht te verwerven in de entiteit
            en haar omgeving.
 
-                                                                     Doelstellingen
+## Doelstellingen
 
  VEREISTEN                                                                        TOEPASSINGSMODALITEITEN
   6. Deze norm heeft tot doel de bijzondere aspecten met betrekking tot de        A2. Het doel van de controle is bij te dragen aan de mate van vertrouwen die
@@ -285,8 +285,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                            7/47
-      g)    Het vormen van een oordeel over het cijfermatig verslag over de
+
+      g)    Het vormen van een oordeel over het cijfermatig verslag over de
             vereffening, in het kader van de opdracht van de commissaris
             inzake de sluiting van de vereffening;
       h)    Dat oordeel op duidelijke wijze tot uiting brengen door middel van
@@ -295,9 +295,9 @@ Herformulering september 2025                                                   
       i)    De vorm en de inhoud van het controleverslag dat wordt
             uitgebracht als resultaat van de controleopdracht.
 
-                                                     Vereisten en toepassingsmodaliteiten
+## Vereisten en toepassingsmodaliteiten
 
-                                                                  I. Algemene bepalingen
+## I. Algemene bepalingen
 
                                                               I.1. Deontologische beginselen
 
@@ -318,8 +318,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                              8/47
-                                                                                     In    de      vennootschappen      zonder     commissaris         zal    de
+
+                                                                                     In    de      vennootschappen      zonder     commissaris         zal    de
                                                                                      beroepsbeoefenaar die andere opdrachten voor de vennootschap
                                                                                      uitvoert, er bijzonder aandachtig voor zijn dat hij niet in de situatie van
                                                                                      zelfcontrole komt of dat hij in een situatie komt dat de perceptie
@@ -352,8 +352,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                             9/47
-  11. Alvorens deze opdracht te aanvaarden en in het kader van de                        een daarmee verbonden entiteit of persoon zoals bedoeld in artikel
+
+  11. Alvorens deze opdracht te aanvaarden en in het kader van de                        een daarmee verbonden entiteit of persoon zoals bedoeld in artikel
       cliëntidentificatie dient de beroepsbeoefenaar, die niet de commissaris is,        1:20 WVV, een andere taak, mandaat of opdracht mogen aanvaarden,
       zich ervan te vergewissen of deze vennootschap voldaan heeft aan de                die zal worden vervuld tijdens de duur van hun mandaat of erna, en die
       wettelijke verplichting om een commissaris aan te stellen krachtens de             de onafhankelijke uitoefening van hun taak als commissaris in het
@@ -391,8 +391,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                               10/47
-                                                                                     Telkens een gecertificeerd accountant werkzaamheden verricht in een
+
+                                                                                     Telkens een gecertificeerd accountant werkzaamheden verricht in een
                                                                                      vennootschap of een organisme waar een andere gecertificeerd
                                                                                      accountant een opdracht uitoefent, kan hij zijn werkzaamheden ter
                                                                                      plaatste slechts verrichten na deze laatste, bij voorkeur schriftelijk, op de
@@ -425,8 +425,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                               11/47
-  16. In het kader van artikel 2:100 WVV, bestaat de opdracht van de
+
+  16. In het kader van artikel 2:100 WVV, bestaat de opdracht van de
       commissaris erin:
        a)    controleren van de vereffeningsrekeningen samen met de stukken
              tot staving; en
@@ -460,8 +460,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                              12/47
-     beroepsbeoefenaar de bepalingen van onderhavige norm aan te vullen
+
+     beroepsbeoefenaar de bepalingen van onderhavige norm aan te vullen
      met:
       -       de in België van toepassing zijnde ISA’s indien de opdracht wordt
               uitgevoerd door de commissaris (zie par. 10 van deze norm);
@@ -494,8 +494,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                            13/47
-              o   de beperking van de verspreiding van de verslag tot het              externe leden van het Instituut van de accountants en de
+
+              o   de beperking van de verspreiding van de verslag tot het              externe leden van het Instituut van de accountants en de
                   beoogd gebruik, en voormelde geadresseerde en/of derde-              belastingconsulenten en tot nadere regeling van het gebruik van de
                   gebruiker;                                                           opdrachtbrief bepaalt in artikel 54 de minimale elementen die
           •   De verantwoordelijkheden van de beroepsbeoefenaar;                       opgenomen moeten worden in de opdrachtbrief.
@@ -528,8 +528,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                       14/47
-                                                                    I.5. Documentatie
+
+                                                                    I.5. Documentatie
 
  VEREISTEN                                                                        TOEPASSINGSMODALITEITEN
   22. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het      A12. De commissaris verwijst naar ISA 230, Controledocumentatie.
@@ -568,12 +568,12 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                          15/47
-                bevestigingen van de schuldeisers dat zij instemmen met de
+
+                bevestigingen van de schuldeisers dat zij instemmen met de
                 toepassing van artikel 2:80 WVV;
           -     in voorkomend geval, de ontwerpakte van de notaris.
 
-                                                                II. Uit te voeren werkzaamheden
+## II. Uit te voeren werkzaamheden
 
                                     II.1. Bepalingen die gemeen zijn aan alle door deze norm beoogde verrichtingen
 
@@ -607,8 +607,8 @@ Herformulering september 2025                                                   
     Zie art. 3:6, § 2 KB/WVV.
 
 
-Herformulering september 2025                                                                                                                                  16/47
-      -     ingeval de procedure tot onmiddellijke sluiting van de vereffening     A16. De commissaris past ISA 315 (Herzien), Risico’s op een afwijking van
+
+      -     ingeval de procedure tot onmiddellijke sluiting van de vereffening     A16. De commissaris past ISA 315 (Herzien), Risico’s op een afwijking van
             wordt toegepast: nazicht van de betaling of consignatie van de              materieel belang identificeren en inschatten door inzicht te verwerven in
             schulden die voorkomen op de staat van activa en passiva en                 de entiteit en haar omgeving toe.
             nazicht van het bestaan van de schriftelijke bevestigingen van de
@@ -646,8 +646,8 @@ Herformulering september 2025                                                   
       houdende toelichtingen, in alle van materieel belang zijnde opzichten, een        zijnde wettelijk en boekhoudkundig referentiestelsel (artikel 3:1 WVV),
 
 
-Herformulering september 2025                                                                                                                              17/47
-     getrouw beeld geeft, in overeenstemming met het van toepassing zijnde         met inachtneming van de waarderingsregels die door                 het
+
+     getrouw beeld geeft, in overeenstemming met het van toepassing zijnde         met inachtneming van de waarderingsregels die door                 het
      boekhoudkundig referentiestelsel (par. A20- A23).                             bestuursorgaan zijn vastgesteld (zie artikel 3:6, §2 KB/WVV).
      Indien de beroepsbeoefenaar een inbreuk op het toepasselijke                  In de staat van activa en passiva worden gebeurlijke significante
      boekhoudkundig referentiestelsel vaststelt en indien de vastgestelde          gebeurtenissen na balansdatum verwerkt dan wel toegelicht indien zij
@@ -679,8 +679,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                        18/47
-                                                                                      met de datum waarop de staat zelf (d.i. het document dat deze
+
+                                                                                      met de datum waarop de staat zelf (d.i. het document dat deze
                                                                                       tussentijdse cijfers bevat) is opgesteld door het bestuursorgaan.
                                                                                  A22. Wanneer er “niet in de balans opgenomen rechten en verplichtingen”
                                                                                       van materieel belang zijn (d.w.z. zoals opgenomen in de jaarrekening),
@@ -715,8 +715,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                          19/47
-                                                                              A27. De beroepsbeoefenaar bepaalt de aard en de omvang van het
+
+                                                                              A27. De beroepsbeoefenaar bepaalt de aard en de omvang van het
                                                                                    bewijskrachtig controlemateriaal, nodig om zich een oordeel te vormen
                                                                                    in functie van:
                                                                                    -     de besluiten van zijn beoordeling van de interne beheersing en
@@ -748,8 +748,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                       20/47
-                                                                    activa. De beroepsbeoefenaar dient een voorzichtige houding aan te
+
+                                                                    activa. De beroepsbeoefenaar dient een voorzichtige houding aan te
                                                                     nemen bij de beoordeling van de schattingen van het bestuursorgaan.
                                                                A30. Wat betreft niet-uitgedrukte meerwaarden kan worden verwezen naar
                                                                     het CBN-advies 2024/03 - Gevolgen van niet-uitgedrukte meerwaarden
@@ -781,8 +781,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                         21/47
-  32. Wanneer, in uitzondering op artikel 3:6, § 2 van het KB/WVV, de staat van     A32. Het bestuursorgaan kan verantwoorden dat artikel 3:6, § 2 van het
+
+  32. Wanneer, in uitzondering op artikel 3:6, § 2 van het KB/WVV, de staat van     A32. Het bestuursorgaan kan verantwoorden dat artikel 3:6, § 2 van het
       activa en passiva wordt opgesteld in continuïteit, dient de                        KB/WVV niet wordt toegepast op het geheel of een deel van de
       beroepsbeoefenaar:                                                                 rekeningen. Dit zou bijvoorbeeld het geval kunnen zijn als
                                                                                          bedrijfstakken of bedrijfsafdelingen nog zouden worden voortgezet
@@ -814,8 +814,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                          22/47
-     II.4. Specifieke bepalingen betreffende de commissaris opdracht (controle van de jaarrekening en sluiting van de vereffening)
+
+     II.4. Specifieke bepalingen betreffende de commissaris opdracht (controle van de jaarrekening en sluiting van de vereffening)
 
  VEREISTEN                                                                          TOEPASSINGSMODALITEITEN
   34. Overeenkomstig artikel 2:70, in fine WVV, heeft de ontbinding de afsluiting   A34. In deze context, kan de beroepsbeoefenaar nuttig verwijzen naar het
@@ -847,12 +847,12 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                           23/47
-     werk van de vereffenaar(s), noch over de vraag of die verrichtingen
+
+     werk van de vereffenaar(s), noch over de vraag of die verrichtingen
      rechtmatig en billijk zijn (“no fairness opinion”).
 
 
-                                                             III. Schriftelijke bevestigingen
+## III. Schriftelijke bevestigingen
 
  VEREISTEN                                                                        TOEPASSINGSMODALITEITEN
   39. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het    A36. ISA 580, Schriftelijke bevestigingen bepaalt de schriftelijke
@@ -884,8 +884,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                            24/47
-  42. De beroepsbeoefenaar dient een onthouding te formuleren indien:
+
+  42. De beroepsbeoefenaar dient een onthouding te formuleren indien:
       (a)   De beroepsbeoefenaar concludeert dat er voldoende twijfel bestaat
             over de integriteit van het bestuursorgaan zodanig omdat en in
             zover dat de verkregen schriftelijke bevestigingen met betrekking
@@ -894,7 +894,7 @@ Herformulering september 2025                                                   
       (b)   Het bestuursorgaan geen enkele van de gevraagde bevestigingen
             heeft verschaft.
 
-                                                                   IV. Oordeel en verslag
+## IV. Oordeel en verslag
 
                                                             IV.1. Het vormen van het oordeel
 
@@ -917,8 +917,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                25/47
-            getrouwe weergave vormt van de toestand van de vennootschap;
+
+            getrouwe weergave vormt van de toestand van de vennootschap;
             en
        c)   de vraag of de staat van activa en passiva is opgesteld in
             overeenstemming met het toepasselijke boekhoudkundig
@@ -952,8 +952,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                       26/47
-      -      indien de leemten van de interne beheersing of het proces van
+
+      -      indien de leemten van de interne beheersing of het proces van
              financiële verslaggeving, de uitwerking van een aangepast
              programma voor gegevensgerichte werkzaamheden op de
              boekhoudposten onmogelijk maken.
@@ -986,8 +986,8 @@ Herformulering september 2025                                                   
                                                                                         deze schulden werden betaald of geconsigneerd, of dat de
 
 
-Herformulering september 2025                                                                                                                           27/47
-          -  in voorkomend geval, de bevestiging dat alle schulden                        schuldeisers zich schriftelijk akkoord hebben verklaard met de
+
+          -  in voorkomend geval, de bevestiging dat alle schulden                        schuldeisers zich schriftelijk akkoord hebben verklaard met de
              voorkomende in de staat van activa en passiva zijn terugbetaald of           toepassing van artikel 2:80 WVV.
              de nodige gelden om die te voldoen werden geconsigneerd;
        -     in voorkomend geval, dat een schriftelijke bevestiging van de
@@ -1020,8 +1020,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                      28/47
-                                                                         IV.2. Verslag
+
+                                                                         IV.2. Verslag
 
  VEREISTEN                                                                          TOEPASSINGSMODALITEITEN
   57. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar
@@ -1056,8 +1056,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                             29/47
-      (e)   in voorkomend geval, een paragraaf ter benadrukking van bepaalde          professionele oordeelsvorming van de beroepsbeoefenaar, relevant
+
+      (e)   in voorkomend geval, een paragraaf ter benadrukking van bepaalde          professionele oordeelsvorming van de beroepsbeoefenaar, relevant
             aangelegenheden (par. A43) en/of een paragraaf inzake overige             zijn voor het begrip van gebruikers van de beoordelingsopdracht, de
             aangelegenheden (par. A44);                                               verantwoordelijkheden van de beroepsbeoefenaar of het
       (f)   een beschrijving van de verantwoordelijkheden van het                     beoordelingsverslag. Hij doet dit in dat geval in een paragraaf inzake
@@ -1098,8 +1098,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                                                                                          30/47
-      zijnde ISA’s inzake de naleving door de vennootschap van de bepalingen
+
+      zijnde ISA’s inzake de naleving door de vennootschap van de bepalingen
       van het WVV, toe te passen (par. A47-A48).
   62. Als de staat van activa en passiva, bij wijze van uitzondering, in
       continuïteit is opgesteld, zal het verslag een paragraaf ter benadrukking
@@ -1133,8 +1133,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                      31/47
-     oordeel over de staat van activa en passiva of de onzekerheden een te
+
+     oordeel over de staat van activa en passiva of de onzekerheden een te
      groot deel van de onderbouwende informatie beïnvloeden.
   66. Als de beroepsbeoefenaar in de loop van zijn werkzaamheden kennis
       krijgt van gebeurtenissen na de afsluitingsdatum van de staat van activa
@@ -1145,8 +1145,8 @@ Herformulering september 2025                                                   
 
 
 
-Herformulering september 2025                                                    32/47
-         Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen door de
+
+         Bijlage 1 – Voorbeeld van opdrachtbrief te verkrijgen door de
                          bedrijfsrevisor/commissaris
  Dit voorbeeld bevat alleen de minimale inhoud zoals voorzien in paragraaf 20 van deze norm. Het
  wordt aanbevolen om rekening te houden met de bijzonderheden eigen aan de opdracht.
@@ -1199,8 +1199,8 @@ Verantwoordelijkheden van het bestuursorgaan
 
 
 
-Herformulering oktober 2025                                                                        33/47
-Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva van de
+
+Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva van de
 vennootschap, afgesloten op [xx/xx/xxxx], die een getrouw beeld van de toestand van de vennootschap
 geeft, in overeenstemming met het in België van toepassing zijnde boekhoudkundig referentiestelsel en
 het opstellen van een verslag dat het voorstel tot vrijwillige ontbinding toelicht alsook voor de naleving
@@ -1256,8 +1256,8 @@ bijzonder zullen wij in het kader van deze opdracht verzoeken om een bevestiging
 
 
 
-Herformulering oktober 2025                                                                        34/47
-tot de staat van activa en passiva [en een bevestigingsbrief met betrekking tot de consignatie van de
+
+tot de staat van activa en passiva [en een bevestigingsbrief met betrekking tot de consignatie van de
 nodige gelden om te voldoen aan de schulden zoals vermeld in de staat van activa en passiva].
 
 
@@ -1314,8 +1314,8 @@ Met de meeste hoogachting,
 
 
 
-Herformulering oktober 2025                                                                      35/47
-[Plaats], [Datum]
+
+[Plaats], [Datum]
 Bedrijfsrevisorenkantoor XYZ
 [Commissaris]
 Vertegenwoordigd door:
@@ -1329,8 +1329,8 @@ Bedrijfsrevisor
 
 
 
-Herformulering oktober 2025                                                        36/47
-          Bijlage 2 – Voorbeeld van opdrachtbrief te verkrijgen door de
+
+          Bijlage 2 – Voorbeeld van opdrachtbrief te verkrijgen door de
                            gecertificeerd accountant
 
 Dit voorbeeld bevat alleen de minimale inhoud zoals voorzien in paragraaf 20 van deze norm. Het
@@ -1381,8 +1381,8 @@ Ofwel, een rechtspersoon (ITAA),
 
 
 
-Herformulering oktober 2025                                                                   37/47
- Vertegenwoordigd voor zijn handtekening door ... (natuurlijk persoon gecertificeerd accountant
+
+ Vertegenwoordigd voor zijn handtekening door ... (natuurlijk persoon gecertificeerd accountant
  die op grond van het WVV of een volmacht bevoegd is om namens de vennootschap te tekenen)
  [naam, voornaam]
 
@@ -1432,14 +1432,14 @@ De opdracht gaat in op […].
 
 
 
-1. Verantwoordelijkheden van het bestuursorgaan
+## 1. Verantwoordelijkheden van het bestuursorgaan
 
 Het bestuursorgaan is verantwoordelijk voor:
 
 
 
-Herformulering oktober 2025                                                                     38/47
-    •   Het opstellen van de staat van activa en passiva van de vennootschap, afgesloten op
+
+    •   Het opstellen van de staat van activa en passiva van de vennootschap, afgesloten op
         [xx/xx/xxxx], die een getrouw beeld van de toestand van de vennootschap geeft, in
         overeenstemming met het in België van toepassing zijnde boekhoudkundig referentiestelsel
     •   Het opstellen van een verslag dat het voorstel tot vrijwillige ontbinding toelicht alsook voor de
@@ -1491,8 +1491,8 @@ voor:
 
 
 
-Herformulering oktober 2025                                                                       39/47
-2. Verantwoordelijkheden van de gecertificeerd accountant
+
+## 2. Verantwoordelijkheden van de gecertificeerd accountant
 
 De beroepsbeoefenaar verbindt zich ertoe om:
 
@@ -1521,7 +1521,7 @@ beroepsbeoefenaar erin om te bevestigen:
 
 
 
-3. Vertrouwelijkheid en gebruik van het verslag
+## 3. Vertrouwelijkheid en gebruik van het verslag
 
 Het verslag van de beroepsbeoefenaar is uitsluitend bestemd voor gebruik door de cliënt in het kader
 van de beschreven verrichting. Het mag niet voor ander doeleinden gebruikt worden.
@@ -1533,7 +1533,7 @@ een termijn van drie maanden wordt verleden.
 
 
 
-4. Erelonen
+## 4. Erelonen
 
 De erelonen van de beroepsbeoefenaar worden vastgesteld in functie van de aard, het belang, de
 complexiteit, het volume (in het bijzonder het aantal te verwerken documenten) en de reikwijdte van de
@@ -1543,8 +1543,8 @@ beroepsbeoefenaar om de opdracht uit te voeren, rekening houdend met de door de 
 opgenomen verantwoordelijkheid.
 
 
-Herformulering oktober 2025                                                                       40/47
-Het geraamde forfait voor de uitvoering van de opdracht bedraagt .............. exclusief btw. Bij de
+
+Het geraamde forfait voor de uitvoering van de opdracht bedraagt .............. exclusief btw. Bij de
 berekening ervan is rekening gehouden met het feit dat alle informatie die nodig is voor de uitvoering
 van de opdracht tijdig door de cliënt wordt verstrekt en dat deze informatie volledig, nauwkeurig en
 gestructureerd is.
@@ -1580,7 +1580,7 @@ De algemene voorwaarden bevatten minstens:
 
 
 
-6. Bevestiging en akkoord
+## 6. Bevestiging en akkoord
 
 Door het ondertekenen van de opdrachtbrief erkennen Partijen dat ze er vóór de ondertekening naar
 behoren kennis van hebben genomen en bevestigen ze uitdrukkelijk hun instemming met alle in deze
@@ -1597,8 +1597,8 @@ waarbij elke partij verklaart één exemplaar te hebben ontvangen.
 
 
 
-Herformulering oktober 2025                                                                     41/47
- (Gelezen en goedgekeurd)     (Gelezen en goedgekeurd)
+
+ (Gelezen en goedgekeurd)     (Gelezen en goedgekeurd)
 
 
 
@@ -1607,8 +1607,8 @@ Herformulering oktober 2025                                                     
 
 
 
-Herformulering oktober 2025                              42/47
-    Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor /
+
+    Bijlage 3 - Model van verslag van de commissaris / bedrijfsrevisor /
          gecertificeerd accountant – art. 2:71 en 2:80 van het WVV
 
 Verslag gericht aan de algemene vergadering van de vennootschap X betreffende de
@@ -1659,8 +1659,8 @@ Basis voor het oordeel zonder voorbehoud
 bij het opstellen van de staat van activa en passiva.
 
 
-Herformulering oktober 2025                                                                         43/47
-Verslag over de door artikel 2:80, eerste lid, 2° van het Wetboek van vennootschappen en
+
+Verslag over de door artikel 2:80, eerste lid, 2° van het Wetboek van vennootschappen en
 verenigingen vereiste bevestigingen aan de algemene vergadering per [xx/xx/xxx]
     [In voorkomend geval: Op basis van de informatie verkregen van het bestuursorgaan bevestigen
     wij dat op datum van ons verslag alle schulden ten aanzien van aandeelhouders, vennoten of
@@ -1709,8 +1709,8 @@ Verantwoordelijkheden van het bestuursorgaan
 bij het opstellen van de staat van activa en passiva.
 
 
-Herformulering oktober 2025                                                                        44/47
-    verenigingen.] / [Het bestuursorgaan is ook verantwoordelijk voor het verkrijgen van de schriftelijke
+
+    verenigingen.] / [Het bestuursorgaan is ook verantwoordelijk voor het verkrijgen van de schriftelijke
     bevestiging van de aandeelhouders, vennoten of derden wiens schuldvordering is opgenomen in
     de staat van activa en passiva, betreffende hun instemming met de toepassing van artikel 2:80 van
     het Wetboek van vennootschappen en verenigingen.]
@@ -1749,8 +1749,8 @@ Bijlagen bij het verslag
 
 
 
-Herformulering oktober 2025                                                                        45/47
-    Bijlage 4 – Model van verslag van de commissaris – art. 2:100 van het
+
+    Bijlage 4 – Model van verslag van de commissaris – art. 2:100 van het
                                     WVV
 
     Verslag gericht aan de algemene vergadering van de vennootschap X in vereffening
@@ -1798,8 +1798,8 @@ Overige aangelegenheid [aangelegenheden]
     Vermelding van de benaming, zetel, KBO-nummer, enz… (zie par. 59 van de Norm).
 
 
-Herformulering oktober 2025                                                                          46/47
-    niet gerespecteerd worden. Wij zijn evenwel in staat geweest om de nodige werkzaamheden uit te
+
+    niet gerespecteerd worden. Wij zijn evenwel in staat geweest om de nodige werkzaamheden uit te
     voeren. ]
 Verantwoordelijkheden van de vereffenaar(s)
     De vereffenaar(s) is/zijn verantwoordelijk voor het opstellen van het cijfermatig verslag over de
@@ -1829,8 +1829,3 @@ Naam
 Bedrijfsrevisor
 
 Handtekening
-
-
-
-
-Herformulering oktober 2025                                                                      47/47

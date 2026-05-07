@@ -39,7 +39,8 @@ Norm met betrekking tot
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-INHOUDSTAFEL
+
+INHOUDSTAFEL
 
 
 
@@ -48,7 +49,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-Gezien artikel 39, vierde lid van de wet van 17 maart 2019 betreffende de beroepen van accountant
+
+Gezien artikel 39, vierde lid van de wet van 17 maart 2019 betreffende de beroepen van accountant
 en belastingadviseur, dat bepaalt dat de inhoud en het minimumaantal uren permanente vorming
 worden vastgelegd in een norm, als bedoeld in artikel 72, eerste lid 2° van de Wet;
 
@@ -61,7 +63,7 @@ SAMEN MET DE BIJLAGEN.
 
                                   NORM PERMANENTE VORMING
 
-                                         Artikel 1 - Definities
+## Artikel 1 - Definities
 
  Beroepenwet: De Wet van 17 maart 2019 betreffende de beroepen van accountant en
  belastingadviseur, B.S. 27 maart 2019.
@@ -99,7 +101,7 @@ SAMEN MET DE BIJLAGEN.
  minimum aantal uren van de driejarige periode, voorzien in artikel 3 van deze norm.
 
 
-                                       Artikel 2 - Rechtsgrond
+## Artikel 2 - Rechtsgrond
 
  Overeenkomstig artikel 39 van de Beroepenwet, beschikt elke persoon, ingeschreven in het openbaar
  register, over de nodige beroepsbekwaamheid om de activiteiten of opdrachten te vervullen die hem
@@ -112,7 +114,8 @@ SAMEN MET DE BIJLAGEN.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
- Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn
+
+ Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn
  beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.
 
  De Raad van het Instituut is belast met het toezicht op de permanente vorming van de leden van het
@@ -126,7 +129,7 @@ goedgekeurd door de Raad van 1 december 2020.
  tot de stage worden, op voorstel van de Stagecommissie, genomen door de Raad.
 
 
-              Artikel 3 - Aantal uren permanente vorming na een driejarige periode
+## Artikel 3 - Aantal uren permanente vorming na een driejarige periode
 
  Het lid van het Instituut moet, binnen een periode van drie opeenvolgende kalenderjaren, minstens
  120 uur besteden aan activiteiten die in overeenstemming met deze norm bijdragen tot de
@@ -137,7 +140,7 @@ goedgekeurd door de Raad van 1 december 2020.
  rata temporis van het lopende kalenderjaar bepaald.
 
 
-                  Artikel 4 - Algemene voorwaarden van de vormingsactiviteiten
+## Artikel 4 - Algemene voorwaarden van de vormingsactiviteiten
 
  Het lid van het Instituut stelt zijn programma permanente vorming vrij op.
 
@@ -150,7 +153,7 @@ goedgekeurd door de Raad van 1 december 2020.
  De gevolgde uren moeten gespreid zijn over meerdere vakgebieden.
 
 
-                                  Artikel 5 - Relevante vakgebieden
+## Artikel 5 - Relevante vakgebieden
 
  Volgende vakgebieden worden geacht relevant te zijn:
 
@@ -175,7 +178,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-           15. Registratie- en successierechten;
+
+           15. Registratie- en successierechten;
            16. Regionale en lokale belastingen;
            17. Europees en internationaal fiscaal recht;
            18. Vennootschaps- en verenigingsrecht;
@@ -203,7 +207,7 @@ goedgekeurd door de Raad van 1 december 2020.
  84 vormingsuren integreren die betrekking hebben op de aandachtsgebieden 1, 2 en 4.
 
 
-         Artikel 6 - Voor permanente vorming in aanmerking genomen vormingsactiviteiten
+## Artikel 6 - Voor permanente vorming in aanmerking genomen vormingsactiviteiten
 
  §1. Volgende activiteiten dragen bij tot de permanente vorming van het lid van het Instituut:
 
@@ -238,7 +242,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
- §2. Een seminarie, een studiedag, een vormingscyclus of een vorming op afstand over een relevant
+
+ §2. Een seminarie, een studiedag, een vormingscyclus of een vorming op afstand over een relevant
  vakgebied die in België of in het buitenland heeft plaatsgevonden, die niet georganiseerd werd door
  een erkende vormingsoperator en waarvoor de organisator geen aanvraag tot erkenning heeft
  ingediend als vormingsactiviteit, kan worden erkend op aanvraag van een deelnemende beoefenaar.
@@ -263,7 +268,7 @@ goedgekeurd door de Raad van 1 december 2020.
  Het Instituut deelt zijn beslissing aan de betrokkene mee binnen een termijn van twee maanden vanaf
  de datum van ontvangst van het volledige dossier.
 
-                Artikel 7 - Voor permanente vorming in aanmerking genomen uren
+## Artikel 7 - Voor permanente vorming in aanmerking genomen uren
 
  1° Vormingsactiviteiten zoals voorzien in artikel 6, §1, 1°, 2° en 4° van deze norm zijn
  vormingsactiviteiten van categorie A.
@@ -293,7 +298,7 @@ goedgekeurd door de Raad van 1 december 2020.
  7° De vormingsactiviteiten, voorzien in artikel 6, §1, 2° en 4° van deze norm, worden samen in
  aanmerking genomen voor een maximum van 30 uur per kalenderjaar.
 
-                          Artikel 8 - Jaarlijks verslag permanente vorming
+## Artikel 8 - Jaarlijks verslag permanente vorming
 
  Elk jaar brengt het lid van het Instituut verslag uit over de gevolgde permanente vorming, op de wijze
  bepaald door de Raad van het Instituut.
@@ -301,7 +306,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
- Dat verslag wordt waarheidsgetrouw ingevuld en wordt ten laatste twee maanden na het afsluiten
+
+ Dat verslag wordt waarheidsgetrouw ingevuld en wordt ten laatste twee maanden na het afsluiten
  van het kalenderjaar afgesloten.
 
  Het lid van het Instituut dient het ontvangstbewijs van validatie van zijn jaarlijks verslag en de
@@ -309,7 +315,7 @@ goedgekeurd door de Raad van 1 december 2020.
  door de Raad bepaald.
 
 
-                           Artikel 9 - Controle op de permanente vorming
+## Artikel 9 - Controle op de permanente vorming
 
  De Raad van het Instituut kan steeds een controle uitoefenen op de door het lid van het Instituut
  aangegeven gevolgde permanente vorming. De Stagecommissie kan steeds een controle uitoefenen
@@ -340,7 +346,7 @@ goedgekeurd door de Raad van 1 december 2020.
      van deze norm, zal de controle worden uitgevoerd op basis van het afgelopen kalenderjaar.
 
 
-                                        Artikel 10 - Begeleiding
+## Artikel 10 - Begeleiding
 
  Indien uit een controle op de permanente vorming, zoals bedoeld in artikel 9 van deze norm, blijkt dat
  een lid van het Instituut, in het licht van zijn beroepsactiviteiten, nood heeft aan bijkomende vorming
@@ -353,7 +359,7 @@ goedgekeurd door de Raad van 1 december 2020.
 
 
 
-                                          Artikel 11 - Sanctie
+## Artikel 11 - Sanctie
 
  Elke inbreuk van het lid van het Instituut op onderhavige norm wordt, overeenkomstig artikel 36, §1
  van de Beroepenwet, beschouwd als een inbreuk tegen het wettelijk, reglementair en normatief kader
@@ -364,7 +370,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
- Overeenkomstig artikel 92 van de Beroepenwet kan een of meerdere tuchtstraffen worden opgelegd
+
+ Overeenkomstig artikel 92 van de Beroepenwet kan een of meerdere tuchtstraffen worden opgelegd
  aan personen ingeschreven in het openbaar register wanneer inbreuken zijn vastgesteld tegen het
  wettelijk, reglementair
  en normatief kader waarbinnen de beroepsactiviteiten worden uitgeoefend.
@@ -378,13 +385,13 @@ goedgekeurd door de Raad van 1 december 2020.
 
 
 
-                             Artikel 12 - Publicatie vormingsactiviteiten
+## Artikel 12 - Publicatie vormingsactiviteiten
 
  De vorming die voor permanente vorming in aanmerking komt, wordt op de website www.itaa.be
  gepubliceerd.
 
 
-                                Artikel 13 - Cel permanente vorming
+## Artikel 13 - Cel permanente vorming
 
  Binnen het Instituut wordt een Cel Permanente vorming opgericht.
 
@@ -412,7 +419,7 @@ goedgekeurd door de Raad van 1 december 2020.
  controle op de permanente vorming, op de wijze door de Raad bepaald.
 
 
-                                  Artikel 14 - Overgangsbepalingen
+## Artikel 14 - Overgangsbepalingen
 
  De door de leden van het Instituut gevolgde uren permanente vorming in de kalenderjaren 2019 en
  2020 worden in aanmerking genomen voor de berekening van het minimum aantal uren van de
@@ -424,13 +431,14 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
- In afwijking van artikel 1, voorlaatste en laatste lid van deze norm, wordt de berekening van het aantal
+
+ In afwijking van artikel 1, voorlaatste en laatste lid van deze norm, wordt de berekening van het aantal
  uren vormingsactiviteiten van categorie A en van categorie B in de kalenderjaren 2021 en 2022 op
  jaarlijkse basis uitgevoerd.
 
 
 
-                                     Artikel 15 - Inwerkingtreding
+## Artikel 15 - Inwerkingtreding
 
  Deze norm heeft uitwerking vanaf 01 januari 2021.
 
@@ -446,7 +454,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-         BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
+
+         BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
                                     vormingsactiviteiten
 
                                     Punt 1 - Vormingsactiviteiten
@@ -497,7 +506,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-                              Punt 3 - Erkenning vormingsoperatoren
+
+                              Punt 3 - Erkenning vormingsoperatoren
 
  De aanvraag tot erkenning als vormingsoperator, moet bij het Instituut worden ingediend en vergezeld
  zijn van een erkenningsdossier dat volgende documenten en inlichtingen bevat:
@@ -547,7 +557,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-                    Punt 4 - Procedure tot erkenning van vormingsactiviteiten
+
+                    Punt 4 - Procedure tot erkenning van vormingsactiviteiten
 
  1) Elke vormingsactiviteit die een relevant vakgebied behandelt, kan als vormingsactiviteit worden
     erkend, onder de volgende voorwaarden:
@@ -610,7 +621,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-                             Punt 7 - Controle op de vormingsactiviteit
+
+                             Punt 7 - Controle op de vormingsactiviteit
 
  De controle door het Instituut, houdt in dat de vertegenwoordiger(s) die door de Raad van het Instituut
  werden aangesteld:
@@ -647,7 +659,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
 © ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
 goedgekeurd door de Raad van 1 december 2020.
-         BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
+
+         BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
 
 
 
