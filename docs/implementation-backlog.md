@@ -56,8 +56,9 @@ Zie ADR-008 §0 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is f
   Bevat ook `--duplicaat-check <naam>` voor live duplicate-check tijdens extractie.
 - [ ] `tools/extractie/queue.py` — dangling-edges → seed-queue (later, bij iteratieve runs)
 - [ ] `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen sync-script of cache op concepten zelf (ADR-002, ADR-007).
-- [ ] Prompt-templates in `prompts/` — versioneerd; subagent leest deze + `concept-schrijfregels.md`
-  bij start van zijn run
+- [x] Prompt-templates in `prompts/` — versioneerd; subagent leest deze + `concept-schrijfregels.md`
+  bij start van zijn run. Aanwezig: `vermoedensruimte-v1.md`, `seed-v1.md`,
+  `verdiep-v1.md`, `extractie-runbook-v1.md` (orkestratie voor Opus-subagent).
 - [ ] Open-types-review-queue: `data/concept_records/_voorgestelde_types.yaml` (auto-aangevuld)
 - [ ] Beslissingslog: `data/extractie/<po>/seed_log_<taakblok>.json` (subagent schrijft
   kept/merged/rejected/split per vermoeden, met duplicate-check rerank-scores)
