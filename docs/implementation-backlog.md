@@ -26,9 +26,13 @@ Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv v
   - CLI-flag `--bron-rol wettekst,norm` ipv `--collections wetteksten,normen`
   - Default = alle bron-rollen
 
-- [ ] `tutor/app.py`
-  - Sidebar-filter: bron-rol checkboxes ipv collection-checkboxes
-  - Citatie-rendering blijft via `path`-metadata
+- [x] `tutor/app.py`
+  - Sidebar-filter: bron-rol checkboxes ipv collection-checkboxes ✓
+  - Sidebar-infopaneel: tellingen per bron_rol via `get(where=...)` ✓
+  - CHROMA_PATH via `CERTIFICAID_CHROMA_PATH`-env-var (default = `chroma_db_4.0`) ✓
+  - Dead `selected_cols`-param uit `retrieve_two_pass()` verwijderd ✓
+  - Dubbele PO-query-prefix gecorrigeerd ✓
+  - Citatie-rendering blijft via `label()` (`bron` + `artikel`/`sectie`/`veld`-metadata)
 
 - [ ] **Eerst implementeren tegen huidige (3-collection) 4.0-POC-index**, dan testen of unified retrieval-API werkt door alle drie de bestaande collections te queryen alsof ze één waren. Pas daarna full rebuild naar één `bronnen`-collection.
 
@@ -80,6 +84,19 @@ Niet nu. Pas wanneer:
 - Examenpatronen-laag (ADR-009) operationeel is
 
 Werk dan: validator-script ("kunnen voorbeeldvragen worden opgelost met huidige concepten?") + gerichte uitbreiding bij gaps.
+
+## ETL — tweetalige normen (blocker voor goede retrieval)
+
+Driver: bilingual ITAA-normen chunken slecht → grote gemengde NL+FR blobs → verwaterde embedding → lage bi-scores (~0.16–0.25) ook voor relevante passages.
+
+- [ ] `tools/etl/` — fix voor tweetalige norm-bestanden:
+  - Extraheer enkel de Nederlandse kolom vóór chunking
+  - Normen als `ITAA-norm-intern-kwaliteitsmanagement.md` hebben NL+FR naast elkaar
+    in één markdown-tabel of kolom-layout → split_generic maakt grote blobs
+  - Na ETL-fix: incremental re-index via `--scope` + SHA-skip werkt automatisch
+    (alleen gewijzigde chunks krijgen nieuwe SHA → nieuwe embedding)
+  - Prioriteit: `ITAA-norm-intern-kwaliteitsmanagement.md` (onafhankelijkheid,
+    beroepsgeheim uitwerking), daarna overige bilingual normen
 
 ## Open vragen / onderzoek
 
