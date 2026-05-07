@@ -37,6 +37,9 @@ Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv v
 Driver: ADR-007 + ADR-008 herzien (build-pipeline = geen externe API; LLM-werk via
 Claude Code subagent in dev-omgeving).
 
+**Modelkeuze**: extractie-subagent draait op **Claude Opus** (huidige versie: claude-opus-4-7).
+Zie ADR-008 §0 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is fine.
+
 - [ ] `tools/extractie/concept_extractor.py` — **strippen** van alle `anthropic`-aanroepen.
   Behouden als deterministische helpers (laad vermoedens, build prompts, write records).
   Geen sub-command structuur meer — orkestratie loopt via subagent.

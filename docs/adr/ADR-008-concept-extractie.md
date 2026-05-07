@@ -28,6 +28,19 @@ Concreet voor build-tooling:
 
 Dit aligneert met CLAUDE.md regel 3 (geen API voor batch-extractie zonder akkoord) — voor de build-pipeline is de regel verscherpt naar "nooit", omdat alle output meegedeployed wordt.
 
+#### Modelkeuze voor de subagent: Opus
+
+De extractie-subagent draait op **Claude Opus** (huidige versie: claude-opus-4-7). Argumenten:
+
+- **Hoge leverage**: één goed seed-record bespaart 10× zoveel mens-curatie. Slechte seeds vervuilen de hele kennisbank stroomafwaarts.
+- **Multi-criteria reasoning**: per vermoeden moet de agent simultaan beslissen over relevantie (rerank-score-interpretatie), duplicate-check (semantische overlap met bestaande concepten), granulariteit (klein/middel/groot per schrijfregels), node-type-keuze, kenniselement-koppeling, en eventueel split/merge. Deze gelaagde beslisruimte rechtvaardigt het sterkste model.
+- **Synthese-kwaliteit**: hoofdtekst-velden worden in simpele Nederlandse taal herschreven uit juridische brontekst, met behoud van precisie + confidence-labels + bronverwijzingen. Vereist sterke taalbeheersing en domeinaanvoelen.
+- **Decisielog**: kept/merged/rejected/split-redeneringen zijn input voor mens-curatie; ze moeten transparant en consistent zijn.
+
+Sonnet/Haiku zijn ongeschikt voor extractie-werk — wel voor helper-script implementatie en routine codewijzigingen.
+
+Provenance-veld: `tooling.model = "claude-opus-4-7"` op elk concept-record dat door deze pipeline geproduceerd is.
+
 ### 1. Drie ingangen, gefaseerd ingezet
 
 | Ingang | Vraag | Wanneer | Werkwijze |
