@@ -439,6 +439,11 @@ def split_generic(text: str, source_id: str, breadcrumb_prefix: str = "") -> lis
 # Per-bron-rol indexers → allen schrijven naar 'bronnen' collection
 # ---------------------------------------------------------------------------
 
+def _mps_safe_batch_size(device: str) -> int:
+    """MPS heeft beperkte GPU-buffer per batch — gebruik kleinere batches."""
+    return 16 if device == "mps" else 200
+
+
 def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
     n = len(ids)
     if n == 0:
@@ -452,7 +457,7 @@ def _batch_upsert(collection, ids, texts, metadatas, batch_size: int = 200):
         )
 
 
-def index_wetteksten(collection, file_filter: set[str] | None = None):
+def index_wetteksten(collection, file_filter: set[str] | None = None, batch_size: int = 200):
     src = BRON_DIRS["wettekst"]
     files = _apply_filter(sorted(src.glob("*.md")), file_filter)
     if not files:
@@ -513,12 +518,12 @@ def index_wetteksten(collection, file_filter: set[str] | None = None):
             })
 
     if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
+        _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
     print(f"  {len(ids)} chunks uit {len(files)} wetteksten "
           f"({toc_skipped} TOC-only overgeslagen, {long_split_count} lange artikelen gesplitst)")
 
 
-def index_normen(collection, file_filter: set[str] | None = None):
+def index_normen(collection, file_filter: set[str] | None = None, batch_size: int = 200):
     src = BRON_DIRS["norm"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
     files = _apply_filter(files, file_filter)
@@ -572,11 +577,11 @@ def index_normen(collection, file_filter: set[str] | None = None):
             })
 
     if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
+        _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
     print(f"  {len(ids)} chunks uit {len(files)} normen")
 
 
-def index_adviezen(collection, file_filter: set[str] | None = None):
+def index_adviezen(collection, file_filter: set[str] | None = None, batch_size: int = 200):
     src = BRON_DIRS["advies"]
     files = [f for f in sorted(src.glob("*.md")) if "INDEX" not in f.name]
     files = _apply_filter(files, file_filter)
@@ -643,7 +648,7 @@ def index_adviezen(collection, file_filter: set[str] | None = None):
                 })
 
     if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
+        _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
     print(f"  {len(ids)} chunks uit {len(files)} adviezen")
 
 
@@ -651,7 +656,7 @@ def index_adviezen(collection, file_filter: set[str] | None = None):
 # Concepten-collection (ADR-007)
 # ---------------------------------------------------------------------------
 
-def index_concepten(collection):
+def index_concepten(collection, batch_size: int = 200):
     if not CONCEPTS_DIR.exists():
         print(f"  {CONCEPTS_DIR} bestaat nog niet — sla concepten over")
         return
@@ -718,7 +723,7 @@ def index_concepten(collection):
                 add_chunk(f"voorbeeld_{i}", f"{naam} — voorbeeld\n\n{ex}")
 
     if ids:
-        _batch_upsert(collection, ids, texts, metadatas)
+        _batch_upsert(collection, ids, texts, metadatas, batch_size=batch_size)
     print(f"  {len(ids)} chunks uit {len(files)} concept-records")
 
 
@@ -751,12 +756,13 @@ def main():
     print(f"→ ChromaDB: {chroma_path}")
 
     ef = SentenceTransformerEmbeddingFunction(model_name=EMBEDDING_MODEL, device=device)
+    batch_size = _mps_safe_batch_size(device)
     client = get_client(chroma_path)
 
     if args.add_concepten:
         print("\n→ Indexeer collection: concepten")
         col, client = get_collection(client, chroma_path, "concepten", ef, reset=args.reset)
-        index_concepten(col)
+        index_concepten(col, batch_size=batch_size)
     else:
         print("\n→ Indexeer collection: bronnen")
         col, client = get_collection(client, chroma_path, "bronnen", ef, reset=args.reset)
@@ -768,11 +774,11 @@ def main():
                 print(f"  Geen {rol}en in scope — overgeslagen")
                 continue
             if rol == "wettekst":
-                index_wetteksten(col, scope_for_rol)
+                index_wetteksten(col, scope_for_rol, batch_size=batch_size)
             elif rol == "norm":
-                index_normen(col, scope_for_rol)
+                index_normen(col, scope_for_rol, batch_size=batch_size)
             elif rol == "advies":
-                index_adviezen(col, scope_for_rol)
+                index_adviezen(col, scope_for_rol, batch_size=batch_size)
 
     print("\n✓ Klaar.")
 
