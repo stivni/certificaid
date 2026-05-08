@@ -17,6 +17,16 @@ bronnen:
     - Wet-ITAA-2019.md               # Wet 17/03/2019 — beroep accountant + tucht
     - EU-Richtlijn-witwassen-2018-1673.md  # 5e AML-richtlijn (achtergrond)
     - Strafwetboek-1867.md           # Art. 458 beroepsgeheim (primaire definitiebron)
+    # Toegevoegd 2026-05-08 (experiment-bron-first-extractie) — gap-verificatie
+    # toonde aan dat fiscale spreekplicht en GDPR-vertrouwelijkheid relevant
+    # zijn voor 4.0.I.D.7 Beroepsgeheim:
+    - WIB92.md                       # Fiscale spreekplicht / inlichtingenplicht
+    - KB-WIB92.md                    # Uitvoeringsbesluit WIB92
+    - AVG-wet-2018.md                # NL-omzetting GDPR
+    - EU-AVG-Verordening-2016-679.md # GDPR (verwerkersovereenkomst, vertrouwelijkheid)
+    # NOG ONTBREEKT (gap blijft):
+    # - Gerechtelijk Wetboek (verschoningsrecht, getuigenis voor rechter)
+    #   → niet als markdown beschikbaar in resources/bronnen/wetteksten/
 
   normen:
     # AWW-specifiek

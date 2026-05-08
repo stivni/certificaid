@@ -71,8 +71,12 @@ COLLECTION_TO_DIR = {
 SKIP_FILES = {"INDEX.md", "README.md", "WETTEKSTEN-INDEX.md"}
 
 # Drempels (afgestemd op ADR-006 RAG-bovengrens van 24K per chunk)
-HEADING_THRESHOLD_CHARS = 5000     # bestand >5K chars zonder ## → warn
-MAX_SECTION_CHARS = 24_000          # langste sectie tussen ## > 24K → fail (mega-chunk)
+# Een bestand zonder headings is één chunk. Dat is pas een probleem als het
+# bestand groter is dan de absolute RAG-bovengrens (24K); dan overschrijdt
+# de auto-split zijn semantische basis. Bestanden < 24K zonder headings zijn
+# acceptabel als één groot-maar-behapbaar chunk.
+HEADING_THRESHOLD_CHARS = 24_000   # bestand >24K chars zonder heading → warn
+MAX_SECTION_CHARS = 24_000          # langste sectie > 24K → warn/fail
 MAX_BLANK_RUN = 5                   # >5 lege regels op rij → warn
 MAX_SAMPLES_PER_CHECK = 3           # max voorbeelden per problematische check
 
@@ -135,10 +139,31 @@ def _split_frontmatter(text: str) -> tuple[Optional[str], str]:
     return m.group(1), text[m.end():]
 
 
-def _section_lengths(body: str) -> list[int]:
-    """Splits body op `##` headings en returnt lengtes per sectie (in chars)."""
-    parts = re.split(r"(?m)^##\s+.*$", body)
-    return [len(p) for p in parts]
+def _best_chunk_level_and_max(body: str) -> tuple[int, int]:
+    """Zoek het diepste heading-niveau (H2–H6) waarvoor de langste sectie ≤ MAX_SECTION_CHARS.
+
+    Logica (van diepste naar ondiepste):
+      1. Probeer elk niveau met ≥ 2 headings, van H6 → H2.
+      2. Zodra een niveau de langste sectie ≤ MAX_SECTION_CHARS geeft → return dat.
+      3. Geen enkel niveau haalt de grens: return het niveau met de kleinste max
+         (meest fijnmazige beschikbare splitsing — fallback voor warn-rapportage).
+      4. Geen headings aanwezig: return (2, len(body)) — body is één mega-sectie.
+
+    Returnt: (gekozen_niveau, max_sectie_lengte_op_dat_niveau)
+    """
+    best_fallback: tuple[int, int] = (2, len(body))
+    for level in range(6, 1, -1):
+        pattern = re.compile(rf"(?m)^#{{{level}}}\s+.*$")
+        if len(pattern.findall(body)) < 2:
+            continue
+        parts = pattern.split(body)
+        nonempty = [len(p) for p in parts if p.strip()]
+        max_len = max(nonempty) if nonempty else 0
+        if max_len <= MAX_SECTION_CHARS:
+            return level, max_len          # ✓ dit niveau past
+        if max_len < best_fallback[1]:
+            best_fallback = (level, max_len)
+    return best_fallback
 
 
 def _samples_from_pattern(pattern: re.Pattern, text: str, body_offset: int = 0) -> list[str]:
@@ -227,37 +252,56 @@ def check_provenance(path: Path) -> CheckResult:
 
 
 def check_heading_structure(body: str, file_size: int) -> tuple[CheckResult, int]:
-    """Returns (CheckResult, heading_count). file_size in chars (excl. frontmatter)."""
-    heading_count = len(re.findall(r"(?m)^##\s+", body))
+    """Returns (CheckResult, heading_count). file_size in chars (excl. frontmatter).
+
+    Telt headings van niveau >= 2 (`##`, `###`, `####`, ...). Een bestand
+    geldt als gestructureerd zodra er minstens één heading van eender welk
+    diepteniveau is — chunkerstrategie kiest het juiste niveau separaat
+    (zie `tools/etl/heading_stats.py`).
+    """
+    # Tel alle headings vanaf niveau 2 (## en dieper). H1 = doc-titel, niet
+    # een sectiebegrenzer voor chunking.
+    heading_count = len(re.findall(r"(?m)^#{2,6}\s+", body))
     if file_size >= HEADING_THRESHOLD_CHARS and heading_count == 0:
         return (
             CheckResult(
                 name="heading_structure",
                 status="warn",
-                detail=f"bestand van {file_size} chars heeft 0 ##-headings → degraded chunking",
+                detail=f"bestand van {file_size} chars heeft 0 headings (## of dieper) → degraded chunking",
             ),
             heading_count,
         )
-    return CheckResult(name="heading_structure", status="pass", detail=f"{heading_count} ## headings"), heading_count
+    return (
+        CheckResult(
+            name="heading_structure",
+            status="pass",
+            detail=f"{heading_count} headings (## of dieper)",
+        ),
+        heading_count,
+    )
 
 
 def check_max_section(body: str, heading_count: int) -> tuple[CheckResult, int]:
-    """Beoordeel maximale sectiegrootte tussen ## headings.
+    """Beoordeel maximale sectiegrootte op het meest geschikte chunk-niveau.
 
-    - FAIL: max_section > 24K én géén ## headings (één megachunk, geen structuur)
-    - WARN: max_section > 24K mét ## headings (chunker zal auto-splitsen op 8K-grenzen,
-            maar minder semantische chunks dan ideaal)
-    - PASS: max_section ≤ 24K
+    Gebruikt `_best_chunk_level_and_max()` om het diepste heading-niveau te vinden
+    waarop de langste sectie ≤ 24K blijft. Zo vermijden we valse positieven voor
+    adviezen die op ## groot zijn maar op ### / #### / ##### prima gesplitst kunnen
+    worden.
+
+    - FAIL: geen enkel niveau haalt ≤ 24K EN geen headings (één megachunk)
+    - WARN: geen enkel niveau haalt ≤ 24K mét headings (structuur aanwezig maar te grof)
+    - PASS: er is een niveau waarop de langste sectie ≤ 24K
     """
-    lengths = _section_lengths(body)
-    max_len = max(lengths) if lengths else 0
+    level, max_len = _best_chunk_level_and_max(body)
+    hdr = "#" * level
     if max_len > MAX_SECTION_CHARS:
         if heading_count == 0:
             return (
                 CheckResult(
                     name="max_section_size",
                     status="fail",
-                    detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS}) zonder enige ## structuur",
+                    detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS}) — geen heading-structuur aanwezig",
                 ),
                 max_len,
             )
@@ -265,12 +309,19 @@ def check_max_section(body: str, heading_count: int) -> tuple[CheckResult, int]:
             CheckResult(
                 name="max_section_size",
                 status="warn",
-                detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS}); "
+                detail=f"langste sectie op {hdr}-niveau: {max_len} chars (>{MAX_SECTION_CHARS}); "
                        f"chunker splitst auto op alinea-grenzen via split_long_chunk",
             ),
             max_len,
         )
-    return CheckResult(name="max_section_size", status="pass", detail=f"langste sectie: {max_len} chars"), max_len
+    return (
+        CheckResult(
+            name="max_section_size",
+            status="pass",
+            detail=f"langste sectie op {hdr}-niveau: {max_len} chars",
+        ),
+        max_len,
+    )
 
 
 def check_no_form_feed(body: str) -> CheckResult:
@@ -321,12 +372,19 @@ def check_no_long_blank_runs(body: str) -> CheckResult:
 
 
 def check_no_column_bleed(body: str) -> CheckResult:
-    samples = _samples_from_pattern(_RE_COLUMN_BLEED, body)
+    # Sla Markdown-tabelrijen over (regels die beginnen met `|`):
+    # brede tabelcellen als "| Activa     Passiva |" zijn geen PDF-kolom-bleed
+    # maar visuele balansopstellingen die volledig leesbaar zijn.
+    non_table_body = "\n".join(
+        line for line in body.split("\n")
+        if not line.lstrip().startswith("|")
+    )
+    samples = _samples_from_pattern(_RE_COLUMN_BLEED, non_table_body)
     if samples:
         return CheckResult(
             name="no_column_bleed",
             status="warn",
-            detail=f"{len(samples)} kolom-bleed-patroon/-en gevonden (twee-kolom PDF-extractie?)",
+            detail=f"{len(samples)} kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)",
             samples=samples,
         )
     return CheckResult(name="no_column_bleed", status="pass")
