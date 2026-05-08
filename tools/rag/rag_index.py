@@ -226,6 +226,29 @@ def _slug(text: str) -> str:
     return text.strip("-")[:60] or "sectie"
 
 
+# ---------------------------------------------------------------------------
+# TODO ETL-WORKAROUND — verwijderen zodra ETL gefixed is
+#
+# _herstel_structuurheadings() en _merge_bis_ter() zijn tijdelijke compensaties
+# voor ETL-kwaliteitsproblemen in geconverteerde wetteksten:
+#
+#   (1) Structuurlabels als plain text: BOEK/TITEL/HOOFDSTUK/AFDELING staan als
+#       gewone tekstregel i.p.v. als markdown-heading. ETL-fix: herken die labels
+#       in convert.py / cleanup.py en schrijf ze als `#### HOOFDSTUK VI...`.
+#       Gemeten: 138 instances in Strafwetboek-1867.md.
+#       Zie memory/project_bron_pipeline.md §"Probleem 7".
+#
+#   (2) Bis/ter/quater los in markdown: art. 458bis staat als apart ## Art. 458bis
+#       i.p.v. als onderdeel van het 458-blok. ETL-fix: detecteer suffix-artikelen
+#       en schrijf ze als sub-sectie van het basisartikel (of laat de merge hier).
+#       Zie memory/project_bron_pipeline.md §"Overig".
+#
+# Zodra de ETL die structuur correct uitschrijft:
+#   - Verwijder _herstel_structuurheadings(), _STRUCTUUR_DIEPTE, _PLAIN_STRUCTUUR_RE
+#   - Verwijder _merge_bis_ter() en de _art_nr-metadata in flush()
+#   - Verwijder de aanroepen in split_wettekst()
+# ---------------------------------------------------------------------------
+
 # Diepte-mapping voor structuurlabels (BOEK > DEEL > TITEL > HOOFDSTUK > AFDELING > ...)
 _STRUCTUUR_DIEPTE: dict[str, str] = {
     "BOEK":           "##",
