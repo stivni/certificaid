@@ -8,7 +8,7 @@ Grep daarna in het volledige bestand: `grep -n "zoekterm" content/bronnen/normen
 grep -rl "  - [thema]" content/bronnen/normen/
 ```
 
-Laatste update: 2026-05-02
+Laatste update: 2026-05-08
 
 ---
 
@@ -32,6 +32,8 @@ Laatste update: 2026-05-02
 | `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | Norm Samenstellingsopdrachten (ISRS 4410) | 2025-05-09 | samenstellingsopdrachten, ISRS 4410, assurance, jaarrekening |
 | `ITAA-norm-intern-kwaliteitsmanagement.md` | Norm Algemene Vereisten Intern Kwaliteitsmanagement | 2025-09-03 | kwaliteitsmanagement, intern kwaliteitssysteem, kantoororganisatie |
 | `ITAA-norm-effectennorm.md` | Effectennorm *(nog niet in werking)* | 2026-03-31 | effectennorm, beoordeling, financiële gegevens, assurance |
+| `IESBA-code-of-ethics-2024.md` | IESBA International Code of Ethics 2024 (Parts 1-4B + Glossary, 573 KB) | 2024-08 | ethiek, onafhankelijkheid, bedreigingen, veiligheidsmaatregelen, fundamentele principes, IESBA, IFAC |
+| `ITAA-deontologische-code.md` | ITAA Deontologische Code — WIW Hoofdstuk 6 (art. 36-54) | 2019-03-17 | deontologie, plichtenleer, ethiek, onafhankelijkheid, integriteit, objectiviteit, beroepsgeheim, onverenigbaarheden |
 
 ## Herdownloaden / bijwerken
 
@@ -44,3 +46,22 @@ Alle normen zijn lokaal beschikbaar. Om een norm te vernieuwen na een update op 
 - AWW BIBF richtlijn: artikel 4 | AWW geconsolideerd: artikel 416
 - Fusie/splitsing: artikelen 56–60 | ISRS 4410: artikel 2091
 - Kwaliteitsmanagement: artikel 2640 | Effectennorm: artikel 2692
+
+## Herverwerken indien nodig
+
+### IESBA Code of Ethics 2024
+
+PDF staat lokaal in `resources/raw/normen/IESBA-code-of-ethics-2024.pdf`. Verwerkt via `process_iesba_v4.py`.
+
+Bij nieuwe IESBA-editie: download via
+```bash
+curl -L "https://ifacweb.blob.core.windows.net/publicfiles/2024-08/2024%20IESBA%20Handbook%20of%20the%20International%20Code%20of%20Ethics%20for%20Professional%20Accountants_0.pdf" \
+  -o resources/raw/normen/IESBA-code-of-ethics-2024.pdf
+```
+Landingspagina: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants
+
+### ITAA Deontologische Code
+
+Geen apart "Reglement van plichtenleer" KB gepubliceerd per 2026-05-08. Curated extract uit WIW Hoofdstuk 6.
+Indien een KB verschijnt: verwerk via ejustice HTML-extractie (vergelijkbaar met `Wet-verzekeringen-2014`).
+Monitor: https://www.itaa.be/nl/deontologie/ en Belgisch Staatsblad (zoek "plichtenleer" + "accountants").

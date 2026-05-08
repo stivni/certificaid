@@ -623,6 +623,32 @@ sources:
     wet: "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants"
     cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
     status: toc_only
+  IESBA-code-of-ethics-2024:
+    type: skip
+    bron_rol: interpretatief
+    raw: resources/raw/normen/IESBA-code-of-ethics-2024.pdf
+    output: resources/bronnen/normen/IESBA-code-of-ethics-2024.md
+    itaa_sectie: ""
+    tags: ["4.0", "ethiek", "onafhankelijkheid", "deontologie", "iesba"]
+    bijgewerkt: "2024-08"
+    status: volledig
+    note: >
+      Verwerkt via process_iesba_v4.py (pdftotext + custom cleanup).
+      Landingspagina: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants
+  ITAA-deontologische-code:
+    type: skip
+    bron_rol: interpretatief
+    raw: ""
+    output: resources/bronnen/normen/ITAA-deontologische-code.md
+    itaa_sectie: "XXI"
+    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
+    bijgewerkt: "2019-03-17"
+    status: volledig
+    note: >
+      Geen apart KB "Reglement van plichtenleer" gepubliceerd (per 2026-05-08).
+      Inhoud = curated extract van WIW Hoofdstuk 6 (art. 36-54), de wettelijke basis
+      voor ITAA-deontologie. Art. 36 §2 WIW machtigt KB voor specifieke maatregelen.
+      Canonieke bron: resources/bronnen/wetteksten/Wet-ITAA-2019.md (itaa_lex).
   Wetboek-Invordering:
     type: ejustice_bilingual
     bron_rol: itaa_lex
