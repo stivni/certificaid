@@ -1,44 +1,61 @@
 #!/usr/bin/env python3
 """
-Verwijder een bron én al zijn downstream gevolgen.
+Verwijder een bron én analyseer de volledige downstream impact.
 
-Aanpakt de volledige verwijderketen voor één of meer bron-MD's:
+De verwijderketen werkt in drie lagen — elke laag vereist menselijke/agent-review
+vóór de volgende:
 
-  1. ChromaDB-chunks  → verwijdert alle chunks waarvan 'bestand' == filename
-  2. MD-bestand       → git rm (of gewone rm als niet getrackt)
-  3. Raw-bronbestand  → rm van raw PDF/HTML (alleen met --ook-raw, alleen als uniek)
-  4. source_config    → verwijdert de entry als die bron expliciet vermeld staat
-  5. content/-pagina  → git rm als er een Quartz-content-pagina is gekoppeld
+  Laag 1 — Bron zelf (dit script voert dit uit):
+    a. ChromaDB-chunks  → verwijdert alle chunks waarvan 'bestand' == filename
+    b. MD-bestand       → git rm (of gewone rm als niet getrackt)
+    c. Raw-bronbestand  → rm van raw PDF/HTML (alleen met --ook-raw, alleen als uniek)
+    d. source_config    → verwijdert de entry als die bron expliciet vermeld staat
+
+  Laag 2 — Vermoedens (NIET automatisch — vereist agent-review):
+    De retrieval-bestanden in data/extractie/*/retrieval/*.json bevatten
+    vermoedens die gegrond zijn op chunks van deze bron. Dit script toont
+    welke vermoedens getroffen worden, maar past ze NIET aan.
+    → Review met: Claude Code Task + qa_subagent_prompt.md
+    → Daarna: vermoedens herschrijven of alternatieve bron aanwijzen
+
+  Laag 3 — Content-fiches (NIET automatisch — na Laag 2):
+    Materie-/competentie-fiches die leunen op de getroffen vermoedens moeten
+    herzien worden NADAT de vermoedens zijn bijgewerkt.
+    Dit script toont welke content-pagina's mogelijk geraakt zijn (via
+    de bron-referentie in /content/bronnen/), maar verwijdert ze NIET.
+    → Handmatige review na Laag 2
+
+Waarom niet automatisch?
+  Stel bron X wordt verwijderd. Vermoeden V leunde op chunk X§3.
+  Als er een alternatieve bron Y beschikbaar is die hetzelfde dekt, kan V
+  gewoon herschreven worden met Y als grondslag. Als er geen alternatief is,
+  moet V als 'onvoldoende gedekt' gemarkeerd worden of verwijderd worden.
+  Dat onderscheid kan alleen een agent (of mens) maken.
 
 Veiligheid:
-  - --dry-run (default): toont wat er zou verwijderd worden, raakt niets aan.
-  - Expliciet --execute vereist om effectief te verwijderen.
-  - Controleert of het raw-bestand ook door andere bronnen gebruikt wordt.
-  - Stopt met fout als de bron nog trust-status 'trusted' heeft (gebruik
-    --force om te overschrijven).
+  - --dry-run (default): toont de volledige impact zonder iets aan te raken.
+  - Expliciet --execute vereist om Laag 1 daadwerkelijk uit te voeren.
+  - Stopt met fout als trust-status 'trusted' is (gebruik --force).
 
 Voorbeelden:
 
-  # Wat zou er verwijderd worden? (default: dry-run)
-  python tools/etl/remove_bron.py --bron algemene-controlenorm.md
+  # Impact-analyse (default dry-run):
+  python tools/etl/remove_bron.py --bron ITAA-norm-X.md
 
-  # Meerdere legacy bestanden in één keer
-  python tools/etl/remove_bron.py \\
-      --bron algemene-controlenorm.md aww-reglement-iab.md kmo-controlenorm.md \\
-      --dry-run
+  # Uitvoeren Laag 1 (bron + chunks):
+  python tools/etl/remove_bron.py --bron ITAA-norm-X.md --execute [--ook-raw]
 
-  # Effectief verwijderen + ook raw PDF weggooien als die uniek is
-  python tools/etl/remove_bron.py --bron algemene-controlenorm.md \\
-      --execute --ook-raw
+  # Legacy-bestand (rejected, geen chunks, geen vermoedens):
+  python tools/etl/remove_bron.py --bron oud-bestand.md --force --execute
 """
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import sys
 from pathlib import Path
-from typing import Optional
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
@@ -48,37 +65,33 @@ BRON_DIRS = {
     "norm":     ROOT / "resources" / "bronnen" / "normen",
     "advies":   ROOT / "resources" / "bronnen" / "adviezen",
 }
-RAW_DIRS = [
-    ROOT / "resources" / "raw" / "normen",
-    ROOT / "resources" / "raw" / "wetteksten",
-    ROOT / "resources" / "raw" / "adviezen",
-]
 CHROMA_PATH = ROOT / "data" / "chroma_db"
 SOURCE_CONFIG = ROOT / "resources" / "source_config.yaml"
+EXTRACTIE_DIR = ROOT / "data" / "extractie"
+CONTENT_DIR = ROOT / "content"
 
 
-# ─── Helpers ─────────────────────────────────────────────────────────────────
+# ─── Frontmatter-lezer ───────────────────────────────────────────────────────
 
 _FM_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 
 
 def _read_frontmatter_raw(path: Path) -> dict[str, str]:
-    """Eenvoudige key: value-lezer voor YAML-frontmatter (geen volledige YAML-parse)."""
     text = path.read_text(encoding="utf-8")
     m = _FM_RE.match(text)
     if not m:
         return {}
-    fm_text = m.group(1)
     result: dict[str, str] = {}
-    for line in fm_text.splitlines():
+    for line in m.group(1).splitlines():
         if ":" in line and not line.startswith(" ") and not line.startswith("-"):
             k, _, v = line.partition(":")
             result[k.strip()] = v.strip().strip('"').strip("'")
     return result
 
 
+# ─── Bron-pad resolver ────────────────────────────────────────────────────────
+
 def resolve_bron_path(arg: str) -> Path:
-    """Accepteer absoluut pad, relatief-to-root, of bare bestandsnaam."""
     p = Path(arg)
     if p.is_absolute() and p.exists():
         return p
@@ -95,183 +108,248 @@ def resolve_bron_path(arg: str) -> Path:
     raise SystemExit(f"Bron niet gevonden: {arg!r}")
 
 
-def _raw_paths_for_bron(fm: dict[str, str]) -> list[Path]:
-    """Geef lokale raw-bestandspaden uit frontmatter (bron-pdf, raw)."""
-    paths: list[Path] = []
-    for key in ("bron-pdf", "raw"):
-        val = fm.get(key, "")
-        if val and not val.startswith("http"):
-            candidate = ROOT / val
-            if candidate.exists():
-                paths.append(candidate)
-    return paths
+# ─── Laag 1: ChromaDB ────────────────────────────────────────────────────────
 
-
-def _raw_used_by_others(raw_path: Path, exclude_bestand: str) -> list[str]:
-    """Zoek andere bronnen die hetzelfde raw-bestand als input gebruiken."""
-    users: list[str] = []
-    rel_raw = str(raw_path.relative_to(ROOT))
-    for bron_dir in BRON_DIRS.values():
-        for md in bron_dir.glob("*.md"):
-            if md.name == exclude_bestand:
-                continue
-            text = md.read_text(encoding="utf-8")
-            if rel_raw in text or raw_path.name in text:
-                users.append(str(md.relative_to(ROOT)))
-    return users
-
-
-def _source_config_has_entry(bron_name: str) -> bool:
-    """Controleer of source_config.yaml een expliciete entry heeft voor deze bron."""
-    text = SOURCE_CONFIG.read_text(encoding="utf-8")
-    # Zoek op output-pad of een key die de bestandsnaam bevat
-    stem = Path(bron_name).stem
-    return f"output: resources/bronnen" in text and stem in text
-
-
-def _chroma_chunk_count(bestandsnaam: str) -> int:
-    """Hoeveel chunks zitten er in ChromaDB met dit bestand?"""
+def _chroma_chunk_ids(bestandsnaam: str) -> list[str]:
     try:
         import chromadb  # type: ignore
         client = chromadb.PersistentClient(path=str(CHROMA_PATH))
         col = client.get_collection("bronnen")
         results = col.get(where={"bestand": bestandsnaam}, include=[])
-        return len(results.get("ids", []))
+        return results.get("ids", [])
     except Exception:
-        return 0
+        return []
 
 
-def _chroma_delete_chunks(bestandsnaam: str) -> int:
-    """Verwijder alle chunks van dit bestand uit ChromaDB. Geeft count terug."""
+def _chroma_delete(ids: list[str]) -> int:
     try:
         import chromadb  # type: ignore
         client = chromadb.PersistentClient(path=str(CHROMA_PATH))
         col = client.get_collection("bronnen")
-        results = col.get(where={"bestand": bestandsnaam}, include=[])
-        ids = results.get("ids", [])
-        if ids:
-            col.delete(ids=ids)
+        col.delete(ids=ids)
         return len(ids)
     except Exception as exc:
         print(f"    WARN ChromaDB: {exc}")
         return 0
 
 
-def _git_rm(path: Path) -> bool:
-    """Voer git rm uit. Geeft True als gelukt, False als bestand niet getrackt is."""
+# ─── Laag 1: Raw-bestand ─────────────────────────────────────────────────────
+
+def _raw_paths_for_bron(fm: dict[str, str]) -> list[Path]:
+    paths: list[Path] = []
+    for key in ("bron-pdf", "raw"):
+        val = fm.get(key, "")
+        if val and not val.startswith("http"):
+            c = ROOT / val
+            if c.exists():
+                paths.append(c)
+    return paths
+
+
+def _raw_used_by_others(raw_path: Path, exclude: str) -> list[str]:
+    rel = str(raw_path.relative_to(ROOT))
+    users: list[str] = []
+    for d in BRON_DIRS.values():
+        for md in d.glob("*.md"):
+            if md.name == exclude:
+                continue
+            if rel in md.read_text(encoding="utf-8") or raw_path.name in md.read_text():
+                users.append(str(md.relative_to(ROOT)))
+    return users
+
+
+# ─── Laag 1: source_config ───────────────────────────────────────────────────
+
+def _source_config_entry(bestandsnaam: str) -> bool:
+    stem = Path(bestandsnaam).stem
+    text = SOURCE_CONFIG.read_text(encoding="utf-8")
+    return "output: resources/bronnen" in text and stem in text
+
+
+# ─── Laag 1: git rm ──────────────────────────────────────────────────────────
+
+def _git_rm(path: Path) -> str:
     result = subprocess.run(
         ["git", "rm", "-f", str(path)],
         cwd=ROOT, capture_output=True, text=True,
     )
     if result.returncode == 0:
-        return True
-    # Niet getrackt (bijv. gitignored raw-bestand) → gewone verwijdering
+        return "git rm OK"
     if path.exists():
         path.unlink()
-        return True
-    return False
+        return "rm OK (niet getrackt)"
+    return "FOUT: bestand niet gevonden"
 
 
-def _content_page(bron_path: Path) -> Optional[Path]:
-    """Zoek een gekoppelde Quartz content/-pagina (als die bestaat)."""
-    # Conventie: content/bronnen/{bron_rol}/{stem}.md
-    fm = _read_frontmatter_raw(bron_path)
-    bron_rol = fm.get("bron_rol") or fm.get("type", "")
+# ─── Laag 2: Vermoedens-impact ───────────────────────────────────────────────
+
+def _find_affected_vermoedens(bron_stem: str) -> list[dict]:
+    """
+    Doorzoek alle retrieval-JSON's op verwijzingen naar deze bron.
+    Geeft een lijst van {taakblok, vermoeden_naam, n_chunks, chunk_ids}.
+    """
+    affected: list[dict] = []
+    if not EXTRACTIE_DIR.exists():
+        return affected
+
+    for retrieval_file in sorted(EXTRACTIE_DIR.rglob("retrieval/*.json")):
+        try:
+            data = json.loads(retrieval_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        taakblok = data.get("taakblok", retrieval_file.stem)
+        for v in data.get("vermoedens", []):
+            naam = v.get("naam", "?")
+            hits = [
+                c["chunk_id"]
+                for c in v.get("chunks", [])
+                if c.get("bron", "") == bron_stem
+                or c.get("chunk_id", "").startswith(bron_stem + "__")
+            ]
+            if hits:
+                affected.append({
+                    "taakblok": taakblok,
+                    "vermoeden": naam,
+                    "n_chunks": len(hits),
+                    "chunk_ids": hits,
+                    "retrieval_file": str(retrieval_file.relative_to(ROOT)),
+                })
+    return affected
+
+
+# ─── Laag 3: Content-pagina's ────────────────────────────────────────────────
+
+def _find_content_pages(bron_path: Path) -> list[Path]:
+    """
+    Zoek content-pagina's die direct naar deze bron verwijzen.
+    Kijkt in content/bronnen/ naar een gelijknamige pagina.
+    Zoekt NIET in materie-/competentie-fiches (die zijn via vermoedens gelinkt,
+    niet direct — die horen in Laag 2).
+    """
+    pages: list[Path] = []
     stem = bron_path.stem
-    for sub in ("wetteksten", "normen", "adviezen", bron_rol):
-        candidate = ROOT / "content" / "bronnen" / sub / f"{stem}.md"
-        if candidate.exists():
-            return candidate
-    return None
+    for sub in ("wetteksten", "normen", "adviezen"):
+        c = CONTENT_DIR / "bronnen" / sub / f"{stem}.md"
+        if c.exists():
+            pages.append(c)
+    return pages
 
 
-# ─── Hoofd-verwijder-logica ───────────────────────────────────────────────────
+# ─── Hoofd-analyse ───────────────────────────────────────────────────────────
 
-def remove_one(
-    path: Path,
-    *,
-    ook_raw: bool,
-    force: bool,
-    dry_run: bool,
-) -> dict:
-    """
-    Verwijder één bron en al zijn downstream gevolgen.
-    Geeft een rapport-dict terug.
-    """
+def analyse_one(path: Path) -> dict:
+    """Volledige impact-analyse voor één bron. Raakt niets aan."""
     bestandsnaam = path.name
+    bron_stem = path.stem
     fm = _read_frontmatter_raw(path)
-    trust_status = fm.get("status", "")  # van provenance.trust.status — zit genest
-    # Lees trust via provenance lib voor zekerheid
+
     try:
         from tools.lib.provenance import read_trust  # noqa
-        trust = read_trust(path)
-        trust_status = trust.status
+        trust_status = read_trust(path).status
     except Exception:
-        pass
+        trust_status = fm.get("trust", {}) or "onbekend"
 
-    rapport = {
+    chunk_ids = _chroma_chunk_ids(bestandsnaam)
+    raw_paths = _raw_paths_for_bron(fm)
+    vermoedens = _find_affected_vermoedens(bron_stem)
+    content_pages = _find_content_pages(path)
+
+    return {
         "bestand": str(path.relative_to(ROOT)),
+        "bron_stem": bron_stem,
         "trust_status": trust_status,
-        "acties": [],
-        "geblokkeerd": None,
+        "fm": fm,
+        # Laag 1
+        "chunk_ids": chunk_ids,
+        "raw_paths": raw_paths,
+        "source_config_entry": _source_config_entry(bestandsnaam),
+        # Laag 2
+        "affected_vermoedens": vermoedens,
+        # Laag 3
+        "content_pages": content_pages,
     }
 
-    # Veiligheidscheck: trusted bronnen blokkeren zonder --force
-    if trust_status == "trusted" and not force:
-        rapport["geblokkeerd"] = (
-            f"trust-status is 'trusted' — gebruik --force om toch te verwijderen"
-        )
-        return rapport
 
-    # 1. ChromaDB chunks
-    n_chunks = _chroma_chunk_count(bestandsnaam)
-    if n_chunks:
-        rapport["acties"].append(f"ChromaDB: {n_chunks} chunk(s) verwijderen")
+def execute_laag1(analyse: dict, *, ook_raw: bool, dry_run: bool) -> list[str]:
+    """Voer Laag 1 uit: chunks + raw + MD. Geeft actielog terug."""
+    log: list[str] = []
+    bestandsnaam = Path(analyse["bestand"]).name
+
+    # ChromaDB
+    ids = analyse["chunk_ids"]
+    if ids:
+        log.append(f"ChromaDB: {len(ids)} chunk(s) verwijderen")
         if not dry_run:
-            deleted = _chroma_delete_chunks(bestandsnaam)
-            rapport["acties"][-1] += f" → {deleted} verwijderd"
+            n = _chroma_delete(ids)
+            log[-1] += f" → {n} verwijderd"
     else:
-        rapport["acties"].append("ChromaDB: 0 chunks (niets te doen)")
+        log.append("ChromaDB: 0 chunks")
 
-    # 2. Raw-bestand(en)
-    raw_paths = _raw_paths_for_bron(fm)
-    for raw_path in raw_paths:
-        users = _raw_used_by_others(raw_path, bestandsnaam)
-        if users:
-            rapport["acties"].append(
-                f"Raw {raw_path.name}: OOK gebruikt door {users} → overgeslagen"
-            )
+    # Raw-bestand
+    for raw_path in analyse["raw_paths"]:
+        others = _raw_used_by_others(raw_path, bestandsnaam)
+        if others:
+            log.append(f"Raw {raw_path.name}: ook gebruikt door {others} → overgeslagen")
         elif ook_raw:
-            rapport["acties"].append(f"Raw {raw_path.name}: verwijderen")
+            log.append(f"Raw {raw_path.name}: verwijderen")
             if not dry_run:
                 raw_path.unlink(missing_ok=True)
-                rapport["acties"][-1] += " → gedaan"
+                log[-1] += " → gedaan"
         else:
-            rapport["acties"].append(
-                f"Raw {raw_path.name}: bestaat maar --ook-raw niet opgegeven → overgeslagen"
-            )
+            log.append(f"Raw {raw_path.name}: gebruik --ook-raw om te verwijderen")
 
-    # 3. Content/-pagina
-    content_page = _content_page(path)
-    if content_page:
-        rapport["acties"].append(f"Content-pagina: {content_page.relative_to(ROOT)}")
-        if not dry_run:
-            _git_rm(content_page)
-            rapport["acties"][-1] += " → verwijderd"
-
-    # 4. source_config.yaml (alleen als er een expliciete entry is)
-    if _source_config_has_entry(bestandsnaam):
-        rapport["acties"].append("source_config.yaml: entry gevonden → handmatig verwijderen vereist")
+    # source_config
+    if analyse["source_config_entry"]:
+        log.append("source_config.yaml: entry aanwezig → handmatig verwijderen vereist")
     else:
-        rapport["acties"].append("source_config.yaml: geen expliciete entry (collection-gebaseerde bron)")
+        log.append("source_config.yaml: geen expliciete entry")
 
-    # 5. MD-bestand zelf (als laatste — anders kunnen andere checks mislukken)
-    rapport["acties"].append(f"MD-bestand: {path.relative_to(ROOT)}")
+    # MD-bestand
+    md_path = ROOT / analyse["bestand"]
+    log.append(f"MD-bestand: {analyse['bestand']}")
     if not dry_run:
-        ok = _git_rm(path)
-        rapport["acties"][-1] += f" → {'verwijderd (git rm)' if ok else 'FOUT'}"
+        resultaat = _git_rm(md_path)
+        log[-1] += f" → {resultaat}"
 
-    return rapport
+    return log
+
+
+# ─── Rapportering ─────────────────────────────────────────────────────────────
+
+def print_rapport(analyse: dict, *, actielog: list[str], dry_run: bool) -> None:
+    trust = analyse["trust_status"]
+    print(f"\n{'─'*60}")
+    print(f"  {Path(analyse['bestand']).name}  [trust: {trust}]")
+    print(f"{'─'*60}")
+
+    # Laag 1 — uitgevoerd of gepland
+    print("\n  LAAG 1 — bron verwijderen (dit script):")
+    prefix = "    [dry]" if dry_run else "    [✓]  "
+    for actie in actielog:
+        print(f"{prefix} {actie}")
+
+    # Laag 2 — vermoedens (NOOIT automatisch)
+    vermoedens = analyse["affected_vermoedens"]
+    if vermoedens:
+        print(f"\n  LAAG 2 — ⚠️  {len(vermoedens)} vermoeden(s) vereisen review:")
+        print("    (NIET automatisch — run een agent-review vóór content aan te passen)")
+        for v in vermoedens:
+            print(f"    • [{v['taakblok']}] {v['vermoeden']}")
+            print(f"        {v['n_chunks']} chunk(s): {', '.join(v['chunk_ids'][:2])}"
+                  + ("..." if len(v['chunk_ids']) > 2 else ""))
+            print(f"        in: {v['retrieval_file']}")
+    else:
+        print("\n  LAAG 2 — vermoedens: geen getroffen (0 retrieval-verwijzingen)")
+
+    # Laag 3 — content-pagina's
+    pages = analyse["content_pages"]
+    if pages:
+        print(f"\n  LAAG 3 — content-pagina's (pas aanpassen NA Laag 2-review):")
+        for pg in pages:
+            print(f"    • {pg.relative_to(ROOT)}")
+    else:
+        print("\n  LAAG 3 — content-pagina's: geen directe Quartz-bronpagina gevonden")
 
 
 # ─── CLI ─────────────────────────────────────────────────────────────────────
@@ -281,34 +359,26 @@ def main() -> None:
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    p.add_argument(
-        "--bron", nargs="+", required=True,
-        help="Één of meer bron-MD's (pad, relatief-to-root, of bestandsnaam)",
-    )
+    p.add_argument("--bron", nargs="+", required=True,
+                   help="Één of meer bron-MD's (pad, relatief-to-root, of bestandsnaam)")
     mode = p.add_mutually_exclusive_group()
-    mode.add_argument(
-        "--dry-run", action="store_true", default=True,
-        help="Toon wat er zou verwijderd worden zonder iets aan te raken (default)",
-    )
-    mode.add_argument(
-        "--execute", action="store_true",
-        help="Voer de verwijdering daadwerkelijk uit",
-    )
-    p.add_argument(
-        "--ook-raw", action="store_true",
-        help="Verwijder ook het raw-bronbestand als het uniek is",
-    )
-    p.add_argument(
-        "--force", action="store_true",
-        help="Verwijder ook als trust-status 'trusted' is",
-    )
+    mode.add_argument("--dry-run", action="store_true", default=True,
+                      help="Toon impact-analyse zonder iets aan te raken (default)")
+    mode.add_argument("--execute", action="store_true",
+                      help="Voer Laag 1 daadwerkelijk uit (chunks + MD verwijderen)")
+    p.add_argument("--ook-raw", action="store_true",
+                   help="(met --execute) verwijder ook het raw-bronbestand als het uniek is")
+    p.add_argument("--force", action="store_true",
+                   help="Sta verwijdering toe ook als trust-status 'trusted' is")
     args = p.parse_args()
 
     dry_run = not args.execute
 
-    print(f"=== remove_bron {'(DRY-RUN — geen wijzigingen)' if dry_run else '(EXECUTE)'} ===")
+    print(f"=== remove_bron {'(DRY-RUN)' if dry_run else '(EXECUTE — Laag 1)'} ===")
     if dry_run:
-        print("   Gebruik --execute om effectief te verwijderen.\n")
+        print("   Toont impact-analyse. Gebruik --execute voor daadwerkelijke verwijdering.\n")
+
+    blocked: list[str] = []
 
     for bron_arg in args.bron:
         try:
@@ -317,21 +387,31 @@ def main() -> None:
             print(f"\n[SKIP] {bron_arg}: {exc}")
             continue
 
-        print(f"\n── {path.name} (trust: ", end="")
-        rapport = remove_one(path, ook_raw=args.ook_raw, force=args.force, dry_run=dry_run)
-        print(f"{rapport['trust_status']}) ──")
+        analyse = analyse_one(path)
 
-        if rapport["geblokkeerd"]:
-            print(f"  ⛔ GEBLOKKEERD: {rapport['geblokkeerd']}")
+        # Veiligheidscheck
+        if analyse["trust_status"] == "trusted" and not args.force:
+            blocked.append(path.name)
+            print(f"\n  ⛔ {path.name}: trust-status 'trusted' — gebruik --force")
             continue
 
-        for actie in rapport["acties"]:
-            prefix = "  [dry]" if dry_run else "  [✓]  "
-            print(f"{prefix} {actie}")
+        # Laag 1 uitvoeren (of dry-run)
+        actielog = execute_laag1(analyse, ook_raw=args.ook_raw, dry_run=dry_run)
+        print_rapport(analyse, actielog=actielog, dry_run=dry_run)
 
-    print("\n─────")
+    # Afsluiting
+    print(f"\n{'═'*60}")
+    if blocked:
+        print(f"⛔ Geblokkeerd (trusted, gebruik --force): {blocked}")
+
     if dry_run:
-        print("Voeg --execute toe om daadwerkelijk te verwijderen.")
+        print("→ Gebruik --execute om Laag 1 daadwerkelijk uit te voeren.")
+
+    if not dry_run:
+        print("\nVolgende stap — Laag 2:")
+        print("  Als er vermoedens getroffen zijn: run een agent-review op de")
+        print("  betrokken retrieval-bestanden vóór content aan te passen.")
+        print("  Zie tools/etl/qa_subagent_prompt.md voor de review-instructies.")
 
 
 if __name__ == "__main__":
