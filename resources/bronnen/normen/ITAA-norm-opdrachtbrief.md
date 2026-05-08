@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Begin van document (regels 36-140) toont ernstige ETL-fout: inhoudsopgave als louter nummers zonder titels (105 regels alleen getalletjes). Daarna is de tekst inhoudelijk compleet.'
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: Nummers-only TOC volledig verwijderd. Alle inhoudelijke secties aanwezig. Schema-diagrammen als platte tekst zijn cosmetisch.
 ---
 Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
 er slechts eind 2019 een Koninklijk besluit 1 uitgevaardigd die de nadere regels bij het afsluiten

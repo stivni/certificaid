@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Inhoudelijk complete norm met twee ETL-problemen: tabellen in Bijlage 2 fragmentarisch geëxtraheerd (cellen op aparte regels met `|`-markers), en resterend-spaties artefacten op regels 101 en 217.'
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: Normatieve inhoud (hoofdstukken 1-4, bijlage 1) volledig en correct. Bijlage 2 tabellen zijn fragmentarisch maar de cijfers zijn traceerbaar en het zijn illustratieve voorbeelden, geen normatief kerngedeelte.
 ---
 
 # Norm inzake het verslag op te stellen bij de omzetting van een vennootschap

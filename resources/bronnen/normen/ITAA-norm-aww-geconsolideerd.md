@@ -551,386 +551,99 @@ het
 cliëntacceptatiebeleid, in de procedures en in
 de interne controlemaatregelen.
 
-Vaststellen van risicocategorieën
-3.5
-Elke
-beroepsbeoefenaar
-stelt
-verschillende risicocategorieën vast, waaraan
-geschikte waakzaamheidsmaatregelen worden
-gekoppeld.
-Deze risicocategorieën worden vastgesteld op
-basis van de in artikel 16 van de Wet bedoelde
-algemene risicobeoordeling en van objectieve
-risicocriteria
-die
-onderling
-coherent
-gecombineerd zijn.
-De beroepsbeoefenaar ziet er voorts op toe dat
-deze risicocategorieën hem in staat stellen om
-rekening te houden met:
-1° de gevallen van hoog risico die zijn
-geïdentificeerd in toepassing van artikel 19,
-§ 2 van de Wet en, ten minste, met de
-gevallen bedoeld in de artikelen 37 tot 41
-van de Wet;
+Vaststellen van risicocategorieën 3.5 Elke beroepsbeoefenaar stelt verschillende risicocategorieën vast, waaraan geschikte waakzaamheidsmaatregelen worden gekoppeld.
 
-3.8.
-De bijwerking van de algemene
-risicobeoordeling, houdt in voorkomend geval
-ook in dat de individuele risicobeoordelingen
-bedoeld in artikel 19, §2, eerste lid van de Wet
-worden bijgewerkt.
+Deze risicocategorieën worden vastgesteld op basis van de in artikel 16 van de Wet bedoelde algemene risicobeoordeling en van objectieve risicocriteria die onderling coherent gecombineerd zijn.
+
+De beroepsbeoefenaar ziet er voorts op toe dat deze risicocategorieën hem in staat stellen om rekening te houden met:
+
+1° de gevallen van hoog risico die zijn geïdentificeerd in toepassing van artikel 19, § 2 van de Wet en, ten minste, met de gevallen bedoeld in de artikelen 37 tot 41 van de Wet;
+
+2° in voorkomend geval, de gevallen van laag risico die zijn geïdentificeerd in toepassing van artikel 19, § 2, tweede lid van de Wet;
+
+3° de Belgische risicoanalyse inzake WG/FT, alsook deze van de Europese Commissie.
+
+Actualisering 3.6. De algemene risicobeoordeling moet worden bijgewerkt telkens er zich een gebeurtenis voordoet die een significante invloed kan hebben op een of meerdere risico's.
+
+3.7. De AMLCO verifieert bovendien minstens jaarlijks of de algemene
+
+risicobeoordeling nog actueel is. Hij deelt zijn bevindingen, en de desgevallend te verrichten bijwerkingen mee aan het wettelijk bestuursorgaan of de effectieve leiding. Overeenkomstig punt 2.6 van deze geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF , worden de bevindingen tevens opgenomen in het jaarlijks activiteitenverslag.
+
+3.8. De bijwerking van de algemene risicobeoordeling, houdt in voorkomend geval ook in dat de individuele risicobeoordelingen bedoeld in artikel 19, §2, eerste lid van de Wet worden bijgewerkt.
 
 ## 4. Waakzaamheid ten aanzien van de cliënten en de verrichtingen
 
-Clientacceptatiebeleid
-4.1. De beroepsbeoefenaar neemt passende
-maatregelen die evenredig zijn met de aard en
-omvang van zijn organisatie voor het
-identificeren en beoordelen van de WG/FTrisico’s waaraan hij is blootgesteld.
-Hij dient een cliëntacceptatiebeleid uit te
-stippelen en ten uitvoer te leggen dat:
-1° aan de door deze uitgeoefende
-beroepsactiviteiten van de beroepsbeoefenaar
-aangepast is;
+Clientacceptatiebeleid 4.1. De beroepsbeoefenaar neemt passende maatregelen die evenredig zijn met de aard en omvang van zijn organisatie voor het identificeren en beoordelen van de WG/FT- risico’s waaraan hij is blootgesteld.
 
-2° in voorkomend geval, de gevallen van
-laag risico die zijn geïdentificeerd in
-toepassing van artikel 19, § 2, tweede lid van
-de Wet;
+Hij dient een cliëntacceptatiebeleid uit te stippelen en ten uitvoer te leggen dat:
 
-2° deze in staat stelt om, bij het aanknopen van
-een zakelijke relatie met cliënten of bij het
-uitvoeren van occasionele verrichtingen voor de
-cliënten:
+1° aan de door deze uitgeoefende beroepsactiviteiten van de beroepsbeoefenaar aangepast is;
 
-3° de Belgische risicoanalyse inzake
-WG/FT, alsook deze van de Europese
-Commissie.
+2° deze in staat stelt om, bij het aanknopen van een zakelijke relatie met cliënten of bij het uitvoeren van occasionele verrichtingen voor de cliënten:
 
--
+- een voorafgaand onderzoek te verrichten naar de WG/FT-risico's die zijn verbonden aan het profiel van de cliënt en aan het doel en de aard van de zakelijke relatie of occasionele verrichting, alsook aan de kenmerken van de door de beroepsbeoefenaar aangeboden diensten, van de betrokken landen of geografische gebieden en van de leveringskanalen waarop de beroepsbeoefenaar beroep doet;
 
-Actualisering
-3.6.
-De algemene risicobeoordeling moet
-worden bijgewerkt telkens er zich een
-gebeurtenis voordoet die een significante
-invloed kan hebben op een of meerdere risico's.
+- om maatregelen te nemen om de geïdentificeerde risico’s op te volgen en te beheersen.
 
-3.7.
-De AMLCO
-minstens
-jaarlijks
+3° de cliënten over de verschillende risicocategorieën als bedoeld in punt 3.5 van deze geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF, verdeelt.
 
-risicobeoordeling nog actueel is. Hij deelt zijn
-bevindingen, en de desgevallend te verrichten
-bijwerkingen
-mee
-aan
-het
-wettelijk
-bestuursorgaan of de effectieve leiding.
-Overeenkomstig
-punt
-2.6
-van
-deze
-geconsolideerde tekst van de norm van het IAB
-en de richtlijn van het BIBF , worden de
-bevindingen tevens opgenomen in het jaarlijks
-activiteitenverslag.
+Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen betreffende financiële embargo's zoals bedoeld in artikel 4, 6° van de Wet ten uitvoer te leggen.
 
-verifieert
-of
-de
+4.2. Het cliëntacceptatiebeleid van de beroepsbeoefenaar bepaalt dat cliënten die mogelijk een specifiek risico vormen, pas als cliënt worden aanvaard na een passend onderzoek en er op een geschikt hiërarchisch niveau een beslissing is genomen.
 
-bovendien
-algemene
+Hieronder ressorteren onder meer cliënten en/of verrichtingen waarvan met toepassing van artikel 19, §2 van de Wet wordt vastgesteld dat ze een hoog risico inhouden, en ten minste de gevallen die worden bedoeld in de artikelen 37 tot 41 van de Wet.
 
-een
-voorafgaand
-onderzoek
-te
-verrichten naar de WG/FT-risico's die
-zijn verbonden aan het profiel van de
-cliënt en aan het doel en de aard van
-de zakelijke relatie of occasionele
-verrichting, alsook aan de kenmerken
-van de door de beroepsbeoefenaar
-aangeboden
-diensten,
-van
-de
-betrokken landen of geografische
-gebieden en van de leveringskanalen
-waarop de beroepsbeoefenaar beroep
-doet;
+4.3. Behoudens de uitzonderingen voorzien in de artikelen 33, §2, 34, §4 of 35, §3 van de Wet, weigert de beroepsbeoefenaar de zakenrelatie aan te knopen of de door de cliënt gewenste verrichting uit te voeren, wanneer:
 
+- hij zijn verplichtingen tot identificatie en verificatie van de identificatiegegevens van zijn cliënt, van diens lasthebbers of diens uiteindelijke begunstigden niet kan naleven; of
 
--
+- er redenen bestaan om aan te nemen dat het gebrek aan relevantie of geloofwaardigheid van de door de cliënt meegedeelde informatie ertoe strekt zijn identiteit, dat van zijn lasthebbers en/of van één of meer van zijn uiteindelijke begunstigden te verhullen; of
 
-om maatregelen te nemen om de
-geïdentificeerde risico’s op te volgen en
-te beheersen.
+- hij zijn verplichting met betrekking tot het beoordelen van de kenmerken van de cliënt en het doel en de beoogde aard van de zakelijke relatie of de
 
-3° de cliënten over de verschillende
-risicocategorieën als bedoeld in punt 3.5 van
-deze geconsolideerde tekst van de norm van
-het IAB en de richtlijn van het BIBF, verdeelt.
-Het cliëntacceptatiebeleid maakt het ook
-mogelijk om bindende bepalingen betreffende
-financiële embargo's zoals bedoeld in artikel 4,
-6° van de Wet ten uitvoer te leggen.
+occasionele verrichting niet kan naleven; of
 
-4.2. Het cliëntacceptatiebeleid van de
-beroepsbeoefenaar bepaalt dat cliënten die
-mogelijk een specifiek risico vormen, pas als
-cliënt worden aanvaard na een passend
-onderzoek en er op een geschikt hiërarchisch
-niveau een beslissing is genomen.
-Hieronder ressorteren onder meer cliënten
-en/of verrichtingen waarvan met toepassing van
-artikel 19, §2 van de Wet wordt vastgesteld dat
-ze een hoog risico inhouden, en ten minste de
-gevallen die worden bedoeld in de artikelen 37
-tot 41 van de Wet.
+- hij zijn verplichting tot uitoefenen van doorlopende waakzaamheid ten aanzien van de zakelijke relatie die evenredig is met het overeenkomstig artikel 19, §2 van de Wet geïdentificeerd risiconiveau niet kan naleven.
 
-4.3. Behoudens de uitzonderingen voorzien in
-de artikelen 33, §2, 34, §4 of 35, §3 van de Wet,
-weigert de beroepsbeoefenaar de zakenrelatie
-aan te knopen of de door de cliënt gewenste
-verrichting uit te voeren, wanneer:
--
+Bovendien bepaalt hij of een melding aan de CFI moet worden verricht in toepassing van de artikelen 47 tot 54 van de Wet.
 
-hij zijn verplichtingen tot identificatie en
-verificatie van de identificatiegegevens
-van zijn cliënt, van diens lasthebbers of
-diens uiteindelijke begunstigden niet
-kan naleven; of
+Identificatieverplichting en verificatie van de identificatiegegevens 4.4. In toepassing van zijn gedragslijnen, procedures en interne controlemaatregelen gaat de beroepsbeoefenaar over tot de identificatie en de verificatie van de identiteit van de cliënten, de lasthebbers en/of de uiteindelijke begunstigden en dit overeenkomstig de artikelen 21 tot 32 van de Wet.
 
--
+4.5. Als er redenen bestaan om te twijfelen aan de pertinentie of de geloofwaardigheid van de door de cliënt meegedeelde informatie, neemt hij alle andere, in functie van het risicoprofiel van de cliënt, passende maatregelen om de medegedeelde informatie te verifiëren.
 
-er redenen bestaan om aan te nemen
-dat het gebrek aan relevantie of
-geloofwaardigheid van de door de
-cliënt meegedeelde informatie ertoe
-strekt zijn identiteit,
-dat van zijn
-lasthebbers en/of van één of meer van
-zijn uiteindelijke begunstigden te
-verhullen; of
+4.6. Indien de gedragslijnen, procedures en interne controlemaatregelen voorzien dat met het oog op identiteitsverificatie een specifieke identificatietechnologie kan worden gebruikt als een bewijsstuk of als een betrouwbare en onafhankelijke informatiebron in de zin van artikel 27, §1 van de Wet, dient een analyse van de betrouwbaarheid van deze technologie het gebruik ervan te bevestigen.
 
--
+Doorlopende waakzaamheid 4.7. De beroepsbeoefenaars leggen ten aanzien van de zakelijke relatie een doorlopende waakzaamheid aan de dag die evenredig is met het geïdentificeerd risiconiveau en dit conform de artikelen 35 en 36 van de Wet.
 
+4.8. In functie van het risicoprofiel dienen de documenten, gegevens of informatie regelmatig te worden bijgewerkt.
 
-hij zijn verplichting met betrekking tot
-het beoordelen van de kenmerken van
-de cliënt en het doel en de beoogde
-aard van de zakelijke relatie of de
+Verhoogde waakzaamheid 4.9. De beroepsbeoefenaar past, overeenkomstig de artikelen 37 tot en met 41 van de Wet, een verhoogde waakzaamheid toe ten aanzien van de zakelijke relatie of occasionele verrichting wanneer:
 
-occasionele
-naleven; of
--
+- het onmogelijk is om, conform artikel 31 van de Wet, over te gaan tot verificatie alvorens de zakelijke relatie aan te gaan;
 
-verrichting
+- de cliënt, de lasthebber en/of uiteindelijke begunstigde gevestigd is in een derde land met een hoog risico;
 
-niet
+- de cliënt, de lasthebber en/of uiteindelijke begunstigde gevestigd is in een Staat zonder of met een lage belasting, inzonderheid rekening houdend met het risico op het witwassen van geld afkomstig uit al dan niet georganiseerde ernstige fiscale fraude;
 
-kan
+- de cliënt, de lasthebber en/of uiteindelijke begunstigde een politiek prominent persoon, familielid van een politiek prominent persoon of persoon bekend als naaste geassocieerde van een politiek prominent persoon is.
 
-hij zijn verplichting tot uitoefenen van
-doorlopende
-waakzaamheid
-ten
-aanzien van de zakelijke relatie die
-evenredig is met het overeenkomstig
-artikel
-19,
-§2
-van
-de
-Wet
-geïdentificeerd risiconiveau niet kan
-naleven.
+Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers 4.10. De beroepsbeoefenaar mag beroep doen op een derde zaakaanbrenger - die zelf een aan een gelijkwaardige antiwitwasregelgeving onderworpen entiteit is - voor de nakoming van zijn verplichtingen betreffende de identiteit van de cliënt, van diens lasthebbers of diens uiteindelijke begunstigden en met betrekking tot het beoordelen van de kenmerken van de cliënt en het doel en de beoogde aard van de zakelijke relatie en de actualisering ervan.
 
-Bovendien bepaalt hij of een melding aan de
-CFI moet worden verricht in toepassing van de
-artikelen 47 tot 54 van de Wet.
+De mogelijkheid om de bovenvermelde verplichtingen te laten uitvoeren door een derde zaakaanbrenger is echter enkel mogelijk als deze laatste persoonlijk de identificatie heeft
 
-Identificatieverplichting en verificatie van
-de identificatiegegevens
-4.4. In toepassing van zijn gedragslijnen,
-procedures en interne controlemaatregelen
-gaat de beroepsbeoefenaar over tot de
-identificatie en de verificatie van de identiteit
-van de cliënten, de lasthebbers en/of de
-uiteindelijke
-begunstigden
-en
-dit
-overeenkomstig de artikelen 21 tot 32 van de
-Wet.
+gedaan en dit zonder zelf een beroep te doen op een andere derde zaakaanbrenger.
 
-4.5. Als er redenen bestaan om te twijfelen aan
-de pertinentie of de geloofwaardigheid van de
-door de cliënt meegedeelde informatie, neemt
-hij alle andere, in functie van het risicoprofiel
-van de cliënt, passende maatregelen om de
-medegedeelde informatie te verifiëren.
+4.11. De beroepsbeoefenaar mag, behoudens de uitzonderingen voorzien in artikel 43, §2, tweede lid van de Wet, geen beroep doen op een derde zaakaanbrenger die gevestigd is in derde landen met een hoog risico.
 
-4.6. Indien de gedragslijnen, procedures en
-interne controlemaatregelen voorzien dat met
-het oog op identiteitsverificatie een specifieke
-identificatietechnologie kan worden gebruikt als
-een bewijsstuk of als een betrouwbare en
-onafhankelijke informatiebron in de zin van
-artikel 27, §1 van de Wet, dient een analyse van
-de betrouwbaarheid van deze technologie het
-gebruik ervan te bevestigen.
+4.12. De uiteindelijke verantwoordelijkheid betreffende de waakzaamheidsverplichtingen, blijft bij de beroepsbeoefenaar rusten, ook al worden deze uitgevoerd door een derde zaakaanbrenger. In voorkomend geval, zal de beroepsbeoefenaar zelf overgaan tot het verzamelen van aanvullende identificatiegegevens en verificatie ervan en indien nodig overgaan tot een nieuwe identificatie en verificatie van de identiteit van de aangebrachte cliënt, diens lasthebbers en/of diens uiteindelijke begunstigden en dit overeenkomstig de Wet en de huidige geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF.
 
-Doorlopende waakzaamheid
-4.7. De beroepsbeoefenaars leggen ten
-aanzien van de zakelijke relatie een
-doorlopende waakzaamheid aan de dag die
-evenredig
-is
-met
-het
-geïdentificeerd
-risiconiveau en dit conform de artikelen 35 en
-36 van de Wet.
+Prestaties binnen een netwerk 4.13. Het is mogelijk dat op de beroepsbeoefenaar een beroep wordt gedaan door de leden van zijn netwerk met het oog op het uitvoeren van bepaalde prestaties (zoals opdrachten die betrekking hebben op technische adviezen) zonder dat de beroepsbeoefenaar door het lid van het netwerk wordt ingelicht over de identiteit van de uiteindelijke begunstigde van deze prestaties. In dat geval, is de identificatie van de uiteindelijke begunstigde(n) niet vereist als, cumulatief, aan de volgende voorwaarden voldaan wordt:
 
+- er is geen enkele contractuele relatie noch enig contact tussen de beroepsbeoefenaar en de uiteindelijke begunstigde(-n);
 
-4.8. In functie van het risicoprofiel dienen de
-documenten, gegevens of informatie regelmatig
-te worden bijgewerkt.
+- het resultaat van de prestaties (verslagen, adviezen, enz.) wordt uitsluitend aan het lid van het netwerk meegedeeld;
 
-Verhoogde waakzaamheid
-4.9.
-De
-beroepsbeoefenaar
-past,
-overeenkomstig de artikelen 37 tot en met 41
-van de Wet, een verhoogde waakzaamheid toe
-ten aanzien van de zakelijke relatie of
-occasionele verrichting wanneer:
-- het onmogelijk is om, conform artikel 31
-van de Wet, over te gaan tot verificatie
-alvorens de zakelijke relatie aan te
-gaan;
-- de cliënt, de lasthebber en/of
-uiteindelijke begunstigde gevestigd is in
-een derde land met een hoog risico;
-- de cliënt, de lasthebber en/of
-uiteindelijke begunstigde gevestigd is in
-een Staat zonder of met een lage
-belasting,
-inzonderheid
-rekening
-houdend met het risico op het
-witwassen van geld afkomstig uit al dan
-niet georganiseerde ernstige fiscale
-fraude;
-- de cliënt, de lasthebber en/of
-uiteindelijke begunstigde een politiek
-prominent persoon, familielid van een
-politiek prominent persoon of persoon
-bekend als naaste geassocieerde van
-een politiek prominent persoon is.
-
-Nakoming van de
-waakzaamheidsverplichtingen door derde
-zaakaanbrengers
-4.10. De beroepsbeoefenaar mag beroep doen
-op een derde zaakaanbrenger - die zelf een aan
-een
-gelijkwaardige
-antiwitwasregelgeving
-onderworpen entiteit is - voor de nakoming van
-zijn verplichtingen betreffende de identiteit van
-de cliënt, van diens lasthebbers of diens
-uiteindelijke begunstigden en met betrekking tot
-het beoordelen van de kenmerken van de cliënt
-en het doel en de beoogde aard van de
-zakelijke relatie en de actualisering ervan.
-
-De mogelijkheid om de bovenvermelde
-verplichtingen te laten uitvoeren door een
-derde zaakaanbrenger is echter enkel mogelijk
-als deze laatste persoonlijk de identificatie heeft
-
-gedaan en dit zonder zelf een beroep te doen
-op een andere derde zaakaanbrenger.
-
-4.11. De beroepsbeoefenaar mag, behoudens
-de uitzonderingen voorzien in artikel 43, §2,
-tweede lid van de Wet, geen beroep doen op
-een derde zaakaanbrenger die gevestigd is in
-derde landen met een hoog risico.
-
-4.12. De uiteindelijke verantwoordelijkheid
-betreffende de waakzaamheidsverplichtingen,
-blijft bij de beroepsbeoefenaar rusten, ook al
-worden deze uitgevoerd door een derde
-zaakaanbrenger. In voorkomend geval, zal de
-beroepsbeoefenaar zelf overgaan tot het
-verzamelen
-van
-aanvullende
-identificatiegegevens en verificatie ervan en
-indien nodig overgaan tot een nieuwe
-identificatie en verificatie van de identiteit van
-de aangebrachte cliënt, diens lasthebbers en/of
-diens uiteindelijke begunstigden en dit
-overeenkomstig de Wet en de huidige
-geconsolideerde tekst van de norm van het IAB
-en de richtlijn van het BIBF.
-
-Prestaties binnen een netwerk
-4.13.
-Het
-is
-mogelijk
-dat
-op
-de
-beroepsbeoefenaar een beroep wordt gedaan
-door de leden van zijn netwerk met het oog op
-het uitvoeren van bepaalde prestaties (zoals
-opdrachten die betrekking hebben op
-technische
-adviezen)
-zonder
-dat
-de
-beroepsbeoefenaar door het lid van het netwerk
-wordt ingelicht over de identiteit van de
-uiteindelijke begunstigde van deze prestaties.
-In dat geval, is de identificatie van de
-uiteindelijke begunstigde(n) niet vereist als,
-cumulatief, aan de volgende voorwaarden
-voldaan wordt:
--
-
-er is geen enkele contractuele relatie noch
-enig contact tussen de beroepsbeoefenaar
-en de uiteindelijke begunstigde(-n);
-
--
-
-het resultaat van de prestaties (verslagen,
-adviezen, enz.) wordt uitsluitend aan het lid
-van het netwerk meegedeeld;
-
--
-
-de beroepsbeoefenaar factureert
-prestaties aan het lid van zijn netwerk.
-
-de
-
+- de beroepsbeoefenaar factureert de prestaties aan het lid van zijn netwerk.
 
 ## 5. Onderzoek van de verrichtingen
 

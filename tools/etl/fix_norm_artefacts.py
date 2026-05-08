@@ -522,21 +522,34 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
     ],
 
     # Pas geëxtraheerd via extract_norm_twocolumn.py (bilingual → NL-only):
-    # 4 headings zijn OK voor de chunker maar meer is beter.
+    # FR-fragmenten verwijderen + heading corrigeren + extra headings toevoegen.
     "ITAA-norm-intern-kwaliteitsmanagement.md": [
+        # Correctie heading: "OP\n\nCABINET" → "OP KANTOORNIVEAU"
+        (fix_specific_ocr, {
+            "pairs": [
+                (
+                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP\n\nCABINET ",
+                    "## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP KANTOORNIVEAU",
+                ),
+            ],
+        }),
+        # Verwijder achtergebleven FR-regels
+        (remove_orphan_lines, {
+            "lines_to_remove": [
+                "Acceptation de missions",
+                "Documentation",
+            ],
+        }),
         (inject_plain_headings, {
             "heading_texts": [
                 "Inleiding",
                 "Definities",
                 "Kwaliteitsmanagementsysteem",
                 "Eindverantwoordelijke(n) voor het kwaliteitsmanagementsysteem",
-                "Doelstelling",
                 "Vereisten",
                 "Governance en leiderschap",
                 "Relevante ethische voorschriften",
                 "Aanvaarding van opdrachten",
-                "Uitvoering van opdrachten",
-                "Documentatie",
                 "Inwerkingtreding",
             ],
         }),

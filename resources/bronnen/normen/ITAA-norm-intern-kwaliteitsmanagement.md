@@ -24,11 +24,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Tweetalige (NL/FR) norm, inhoud volledig. Probleem: PDF-structuur heeft geen ## headings opgeleverd. Interne secties (Governance, Bekwaamheid, etc.) zijn aanwezig als platte tekst maar niet als markdown-headings → één blob van 29344 chars.'
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: 'NL-only herextraheerd. FR-fragmenten (Acceptation de missions, Documentation, CABINET) verwijderd na fix. 10 ## headings, QA PASS. NL tekst inhoudelijk volledig met alle verwachte secties.'
 ---
 
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
@@ -219,9 +219,7 @@ het
 kwaliteitsmanagementsysteem.
 
 
-## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP
-
-CABINET 
+## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP KANTOORNIVEAU
 ## Doelstelling
 
 4. De doelstelling van het kantoor is het opzetten, implementeren en in werking 
@@ -335,7 +333,6 @@ Wet en met de Norm Permanente Vorming.
 
 
 ## Aanvaarding van opdrachten 
-Acceptation de missions
 
 11. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke 
 mate van zekerheid geeft dat:
@@ -416,7 +413,6 @@ een van de analyse van de onderliggende oorzaken.
 
 
 ## Documentatie 
-Documentation
 
 16. 
 Het 

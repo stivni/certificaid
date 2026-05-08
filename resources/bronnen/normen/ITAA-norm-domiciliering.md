@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Inhoudelijk volledig (secties I-IV), maar logo-blok bovenaan, copyright-regels (regels 103-104, 157-159, 215-218) en voetnotentekst zijn als body-tekst bewaard.
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: Alle vier secties (I–IV) volledig aanwezig. Geen logo-blok, geen copyright in body. Voetnootsuperscripten zijn cosmetisch.
 ---
 ## I. Voorwoord
     Conform artikel 25 van de Richtlijn 2006/123/EG van het Europees Parlement en van de Raad van

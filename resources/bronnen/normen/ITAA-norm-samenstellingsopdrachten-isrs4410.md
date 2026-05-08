@@ -25,11 +25,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Document is opgemaakt als twee-kolomige PDF (VEREISTEN/TOEPASSINGSMODALITEITEN) en de extractie heeft beide kolommen op dezelfde regels door elkaar gezet. De inhoud is aanwezig maar niet lineair leesbaar.
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: Tweekolom-extractie inhoudelijk geslaagd. Alle verwachte secties aanwezig. VEREISTEN/TOEPASSINGSMODALITEITEN-kolomkoppen als artefact (6 occurrences) vormen geen inhoudelijk obstakel. Modellen 1-4 volledig.
 ---
 
 ## Norm inzake de 

@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Afgeknipte inhoudsopgave (regels 141-177: nummers 1-9 zonder titels) en scrambled section title sectie 3 ('## 3. Algemene risicobeoordeling beroepsbeoefenaar op te maken door de' over vijf regels)."
+    status: trusted
+    qa_version: qa-20260508-rerun2
+    confirmed_at: '2026-05-08T08:29:24Z'
+    confirmed_by: subagent-sonnet-general-purpose-batch3
+    rationale: Sectie 3 heading correct hersteld. Alle 10 secties en 4 bijlagen volledig aanwezig en leesbaar. Één cosmetisch restant (losstaand woord 'afkoopclausule' regel 863) vormt geen semantisch probleem voor RAG.
 ---
 
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
