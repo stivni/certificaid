@@ -642,13 +642,13 @@ sources:
     output: resources/bronnen/normen/ITAA-deontologische-code.md
     itaa_sectie: "XXI"
     tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
-    bijgewerkt: "2019-03-17"
-    status: volledig
+    bijgewerkt: ""
+    status: nieuw
     note: >
-      Geen apart KB "Reglement van plichtenleer" gepubliceerd (per 2026-05-08).
-      Inhoud = curated extract van WIW Hoofdstuk 6 (art. 36-54), de wettelijke basis
-      voor ITAA-deontologie. Art. 36 §2 WIW machtigt KB voor specifieke maatregelen.
-      Canonieke bron: resources/bronnen/wetteksten/Wet-ITAA-2019.md (itaa_lex).
+      Officieel Reglement van plichtenleer waarschijnlijk achter het gesloten ITAA-portaal
+      (BeExcellent of ledengedeelte itaa.be). Art. 36 §2 WIW machtigt KB voor specifieke
+      deontologische maatregelen. Te zoeken via ITAA-portaal of Belgisch Staatsblad.
+      NIET invullen met een zelf geconstrueerde samenvatting — wacht op de echte bron.
   Wetboek-Invordering:
     type: ejustice_bilingual
     bron_rol: itaa_lex

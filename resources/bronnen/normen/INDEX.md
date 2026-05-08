@@ -33,7 +33,7 @@ Laatste update: 2026-05-08
 | `ITAA-norm-intern-kwaliteitsmanagement.md` | Norm Algemene Vereisten Intern Kwaliteitsmanagement | 2025-09-03 | kwaliteitsmanagement, intern kwaliteitssysteem, kantoororganisatie |
 | `ITAA-norm-effectennorm.md` | Effectennorm *(nog niet in werking)* | 2026-03-31 | effectennorm, beoordeling, financiële gegevens, assurance |
 | `IESBA-code-of-ethics-2024.md` | IESBA International Code of Ethics 2024 (Parts 1-4B + Glossary, 573 KB) | 2024-08 | ethiek, onafhankelijkheid, bedreigingen, veiligheidsmaatregelen, fundamentele principes, IESBA, IFAC |
-| `ITAA-deontologische-code.md` | ITAA Deontologische Code — WIW Hoofdstuk 6 (art. 36-54) | 2019-03-17 | deontologie, plichtenleer, ethiek, onafhankelijkheid, integriteit, objectiviteit, beroepsgeheim, onverenigbaarheden |
+| `ITAA-deontologische-code.md` | Reglement van plichtenleer ITAA *(⚠️ placeholder — inhoud ontbreekt, zoek via ITAA-portaal)* | — | deontologie, plichtenleer, ethiek, onafhankelijkheid, beroepsgeheim, tucht |
 
 ## Herdownloaden / bijwerken
 
