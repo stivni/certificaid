@@ -199,7 +199,29 @@ Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt: we
 
 Vereist **chunk-id-stabiliteit** (ADR-006 §3.1, ADR-004).
 
-### 7. Schema-evolutie tijdens extractie
+**Implementatie-status (2026-05-08)**: het schema voorziet `sha256`, maar de huidige extractor laat dat veld op `null` (zie `data/concept_records/clientacceptatiebeleid.json`). Daarmee is staleness-detectie nog onmogelijk: er is geen vergelijkpunt voor "is deze input nog gegrond op de huidige chunk?". Het invullen van `sha256` met de actuele `chunk_sha` uit ChromaDB-metadata is een implementatie-eis die mee moet in de eerstvolgende extractie-tooling-iteratie. Pas dán kan `mark_stale.py` (nog te bouwen) zinvol werken.
+
+### 7. Permanent vs ephemeral provenance-artefacten
+
+Twee artefacten dragen tijdens extractie chunk-verwijzingen:
+
+| Artefact | Locatie | Levensduur | Status |
+|---|---|---|---|
+| **Vermoeden** + **retrieval-resultaat** | `data/extractie/<po>/{vermoedens,retrieval}/*.json` | tijdelijk — extractie-hulpmiddel | ephemeral |
+| **Concept-record `_provenance`** | `data/concept_records/<id>.json` | permanent — duurzame kennislaag | authoritative |
+
+**Beslissing**: de permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Vermoeden- en retrieval-JSONs zijn een wegwerpbaar tussenstadium dat opgeruimd mag worden zodra een vermoeden ofwel verworpen is, ofwel opgenomen in een concept-record met `status >= partieel`.
+
+Implicaties:
+
+- **Dependency-analyses werken op concept-records, niet op retrieval-JSONs.** Bijvoorbeeld: `tools/etl/remove_bron.py` Laag 2 (zie ADR-005 §5) scant `data/concept_records/**/_provenance.*.inputs[].id` voor chunk-IDs die op de te verwijderen bron wijzen — niet `data/extractie/.../retrieval/*.json`. Een retrieval-JSON die toevallig nog bestaat is bonusinformatie, geen vereiste.
+- **`mark_stale.py` werkt op concept-records.** Bij chunk-content-hash-verandering walkt het script door `data/concept_records/`, niet door retrieval-JSONs.
+- **Retrieval-JSONs zijn cachebaar/wegwerpbaar.** Een gitignore op `data/extractie/.../retrieval/` is acceptabel; een gitignore op `data/concept_records/` is dat niet (geverifieerde records moeten gecommit worden).
+- **Vermoedens-JSONs blijven tijdelijk getrackt** (curatie-artefact in `data/extractie/.../vermoedens/`) zolang we ze inhoudelijk hervragen tijdens curation. Maar de provenance-keten leunt er niet op.
+
+Deze beslissing maakt de extractie-pipeline robuust tegen opruim-acties: oude retrieval-runs uit `data/extractie/` weggooien breekt niets — de duurzame links liggen in `data/concept_records/`.
+
+### 8. Schema-evolutie tijdens extractie
 
 Wanneer een concept niet past in het huidige conceptmodel:
 - Extractor genereert expliciet schema-uitbreidingsvoorstel (nieuw veld, nieuw node-type, nieuw edge-type)
@@ -217,6 +239,10 @@ Wanneer een concept niet past in het huidige conceptmodel:
 - **LLM-werk** gebeurt door een Claude Code subagent in dev-omgeving die deze helpers via Bash-tool aanroept en zijn eigen reasoning gebruikt voor synthese.
 - `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen state op concepten zelf (ADR-002, ADR-007).
 - Per-veld provenance + per-veld stale-marking maakt incremental re-runs **veld-precies** (alleen stale velden herextraheren, niet hele concept-records).
+- **Implementatie-eisen voor §6 + §7** (TODO):
+  - Concept-extractor moet `chunk_sha` uit ChromaDB-metadata kopiëren naar `_provenance.<veld>.inputs[].sha256` (nu `null`).
+  - `tools/etl/mark_stale.py` voor concepten bouwen: vergelijk opgeslagen `sha256` met live ChromaDB `chunk_sha`; flag mismatches.
+  - `tools/etl/remove_bron.py` Laag 2 omzetten: scan `data/concept_records/**/_provenance.*.inputs[].id` (i.p.v. `data/extractie/.../retrieval/*.json`) voor chunk-impact-analyse.
 - Voorbeeldexamens worden vroeg gestructureerd (`data/voorbeeldexamens/`) als ground truth — maar pas in Fase 5 als extractie-input gebruikt.
 - Concept-schrijfregels (`docs/concept-schrijfregels.md`) zijn input voor elke subagent-invocatie. Schrijfregels evolueren — bij wijziging stale-mark lopende seeds.
 - **Deployment**: gegenereerde `data/concept_records/` + `data/chroma_db/` (incl. `concepten`-collection) worden meegedeployed met de tutor-app. Tutor draait wel op de Anthropic API in productie (runtime chat), maar bouwt geen concepten meer op.

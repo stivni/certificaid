@@ -42,7 +42,7 @@ provenance:
 **Per artefact-type plek**:
 - Markdown-bronnen: in YAML frontmatter
 - RAG-chunks: als metadata-velden in ChromaDB
-- Concept-records: als top-level `_provenance` veld in JSON; **per veld een eigen sub-blok** zodat veld-precieze stale-marking mogelijk is (zie ADR-008 §6 — `main_rule`-veld kan stale worden zonder dat `exceptions` stale wordt)
+- Concept-records: als top-level `_provenance` veld in JSON; **per veld een eigen sub-blok** zodat veld-precieze stale-marking mogelijk is (zie ADR-008 §6 — `main_rule`-veld kan stale worden zonder dat `exceptions` stale wordt). Concept-record `_provenance` is de **autoritatieve permanente provenance-laag** voor downstream-impactanalyses (`remove_bron.py`, `mark_stale.py`); tijdelijke extractie-artefacten zoals vermoeden- en retrieval-JSONs in `data/extractie/` mogen op elk moment opgeruimd worden zonder dependency-verlies (zie ADR-008 §7).
 - Snapshot-fiches: in YAML frontmatter
 
 **Stale-marking**: input-hash verandert → `tools/lib/provenance.py` cascadeert `stale: true` + reden naar alle downstream artefacten. Geen automatische regeneratie (zie ADR-003).
