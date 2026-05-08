@@ -48,7 +48,7 @@ Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
     alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk
     van de belasting over de toegevoegde waarde.
 
-    HOOFDSTUK 1
+#### HOOFDSTUK 1
 
   Bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire
     leveringen van goederen en de ermee gelijkgestelde handelingen
@@ -149,7 +149,7 @@ functie en de naam van de onderneming die de inrichting uitbaat.
 papieren of elektronisch formaat van het document, de authenticiteit van de ondertekening en de
 integriteit van de inhoud.
 
-    HOOFDSTUK 2
+#### HOOFDSTUK 2
 
     Vrijstelling van intracommunautaire verwervingen van goederen en
     de ermee gelijkgestelde handelingen
@@ -163,7 +163,7 @@ De bepalingen opgenomen in afdeling 2 van hoofdstuk IV van het koninklijk beslui
 waarde, zijn eveneens van toepassing op de intracommunautaire verwervingen van goederen die
 vrijgesteld zijn op grond van artikel 40, § 1, 1°, b, van het Wetboek.
 
-    HOOFDSTUK 3
+#### HOOFDSTUK 3
 
     Slotbepalingen
 

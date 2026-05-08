@@ -173,7 +173,7 @@ betrekking tot het tijdvak waarin de formaliteiten worden vervuld of in een aang
 een volgend tijdvak, ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat
 waarin de af te trekken belasting opeisbaar is geworden.
 
-    AFDELING II
+##### AFDELING II
     Herziening van de aftrek ten aanzien van andere belasting dan die
     geheven van bedrijfsmiddelen.
 
@@ -205,7 +205,7 @@ aftrek bestaat.
 
 § 3. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-    AFDELING III
+##### AFDELING III
     Herziening van de aftrek ten aanzien van belasting geheven
     van bedrijfsmiddelen.
 
@@ -449,7 +449,7 @@ verstrijken van het in artikel 9 van dit besluit bedoelde herzieningstijdvak.
 
 § 6. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-    AFDELING IV
+##### AFDELING IV
     Bepalingen met betrekking tot de aftrek volgens het
     algemeen verhoudingsgetal.
 
@@ -577,7 +577,7 @@ Financiën:
     gebruik van de goederen en diensten, naar de regeling waarbij de aftrek geschiedt
     volgens het algemeen verhoudingsgetal, en omgekeerd;
 
-    AFDELING V
+##### AFDELING V
 Bepalingen met betrekking tot de aftrek volgens het werkelijk gebruik
     van de goederen en diensten.
 
@@ -634,7 +634,7 @@ Door of namens hem wordt onder meer de wijze van herziening van de aftrek bepaal
     handelingen die geen recht op aftrek verlenen, uitsluitend handelingen begint te stellen
     die recht op aftrek verlenen;
 
-    Afdeling VI
+##### Afdeling VI
     Bijzondere bepaling
 
 ## Art. 21bis
@@ -733,7 +733,7 @@ periodieke aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboe
 eindresultaat van deze toerekening een door de Staat verschuldigd bedrag is, wordt dat bedrag
 naar de volgende aangiftetijdvakken overgebracht tot passend beloop van het bedrag van de
 belasting in vak 71 van die aangiften. Het bedrag van de aftrekbare belasting bedoeld in
-paragraaf 1 dat niet kon worden toegerekend in de eerste elf maandaangiften of de eerste drie
+###### paragraaf 1 dat niet kon worden toegerekend in de eerste elf maandaangiften of de eerste drie
 kwartaalaangiften van het jaar 2019, wordt integraal vermeld in de twaalfde maandaangifte of
 de vierde kwartaalaangifte van het jaar 2019.
 In afwijking van artikel 81, § 3, derde lid, van het koninklijk besluit nr. 4 van 29 december 1969

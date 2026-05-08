@@ -36,7 +36,7 @@ provenance:
 
 ## Art. 17.
 
-  Titel V. [Diverse bepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 27, Inwerkingtreding : 01-01- 2007>
+### Titel V. [Diverse bepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 27, Inwerkingtreding : 01-01- 2007>
 
 ## Art. 18
 
@@ -53,7 +53,7 @@ provenance:
 
 ## Art. 20.
 
-  Titel VI. [Vrijstellingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 31, Inwerkingtreding : 01-01-2007>
+### Titel VI. [Vrijstellingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 31, Inwerkingtreding : 01-01-2007>
 
 ## Art. 21
 
@@ -87,7 +87,7 @@ provenance:
   ----------
   (1)<W 2025-12-19/35, art. 11, 065; Inwerkingtreding : 10-01-2026>
 
-  Titel VII. [Terugbetalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 34, Inwerkingtreding : 01-01-2007>
+### Titel VII. [Terugbetalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 34, Inwerkingtreding : 01-01-2007>
 
 ## Art. 23
 
@@ -97,7 +97,7 @@ provenance:
   ----------
   (1)<W 2025-12-19/35, art. 12, 065; Inwerkingtreding : 10-01-2026>
 
-  Titel VIIbis. [1 Vervolgingen en gedingen - Zekerheden gegeven aan de Schatkist]1
+### Titel VIIbis. [1 Vervolgingen en gedingen - Zekerheden gegeven aan de Schatkist]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 73, 039; Inwerkingtreding : 01-01-2020>
 
@@ -131,7 +131,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 77, 039; Inwerkingtreding : 01-01-2020> (2)<W 2021-02-07/01, art. 28, 046; Inwerkingtreding : 01-03-2021> (3)<W 2022-11-20/01, art. 19, 053; Inwerkingtreding : 01-01-2023>
 
-  Titel VIII. [Overgangsbepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 36, Inwerkingtreding : 01-01- 2007>
+### Titel VIII. [Overgangsbepalingen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 36, Inwerkingtreding : 01-01- 2007>
 
 ## Art. 24
 
@@ -499,7 +499,7 @@ provenance:
 
 [opgeheven] <W 1969-07-03/32, art. 94, Inwerkingtreding : 01-01-1971>
 
-  Titel VII. [Titel VII (art. 113–119) opgeheven] <W 1977-12-22/06, art. 23, Inwerkingtreding : 01-01-1978>
+### Titel VII. [Titel VII (art. 113–119) opgeheven] <W 1977-12-22/06, art. 23, Inwerkingtreding : 01-01-1978>
 
 ## Art. 113
 
@@ -529,14 +529,14 @@ provenance:
 
 [opgeheven] <W 1977-12-22/06, art. 23, Inwerkingtreding : 01-01-1978>
 
-  Boek II. [Diverse taksen] <Ingevoegd bij W 2006-12-19/33, art. 42, Inwerkingtreding : 01-01-2007>
+## Boek II. [Diverse taksen] <Ingevoegd bij W 2006-12-19/33, art. 42, Inwerkingtreding : 01-01-2007>
 
-  Titel I. Taks op de beursverrichtingen [1 ...]1 <Oorspronkelijke titel VIII vernummerd tot titel I bij W 2006-12- 19/33, art. 42, Inwerkingtreding : 01-01-2007>
+### Titel I. Taks op de beursverrichtingen [1 ...]1 <Oorspronkelijke titel VIII vernummerd tot titel I bij W 2006-12- 19/33, art. 42, Inwerkingtreding : 01-01-2007>
 
   ----------
   (1)<W 2021-01-26/12, art. 128, 044; Inwerkingtreding : 20-02-2021>
 
-  Hoofdstuk I. Beursverrichtingen [1 ...]1 <Opschrift "Sectie" vervangen door "Hoofdstuk" bij W 2006-12-19/33, art. 41, Inwerkingtreding : 01-01-2007>
+#### Hoofdstuk I. Beursverrichtingen [1 ...]1 <Opschrift "Sectie" vervangen door "Hoofdstuk" bij W 2006-12-19/33, art. 41, Inwerkingtreding : 01-01-2007>
   ----------
   (1)<W 2021-01-26/12, art. 129, 044; Inwerkingtreding : 20-02-2021>
 
@@ -763,7 +763,7 @@ provenance:
 
 [opgeheven] <KB63 1939-11-2835/, art. 10>
 
-  Hoofdstuk 2. Reportverrichtingen <W 2006-12-19/33, art. 41, Inwerkingtreding : 01-01-2007>
+#### Hoofdstuk 2. Reportverrichtingen <W 2006-12-19/33, art. 41, Inwerkingtreding : 01-01-2007>
 
 ## Art. 138.
 
@@ -807,7 +807,7 @@ provenance:
 
 [opgeheven] <KB114 1935-02-27/34, art. 1>
 
-  Titel II. [1 Taks op de effectenrekeningen]1
+### Titel II. [1 Taks op de effectenrekeningen]1
   ----------
   (1)<W 2018-02-07/14, art. 2, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
@@ -957,7 +957,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2018-02-07/14, art. 15, 029; Inwerkingtreding : 10-03-2018> Bij arrest nr 138/2019 van 17-10-2019 (BS van 05-11-2019, p. 103582) heeft het Grondwettelijk hof dit wet vernietigd)
 
-  Titel III. [1 - Taks op de inscheping van een luchtvaartuig]1
+### Titel III. [1 - Taks op de inscheping van een luchtvaartuig]1
   ----------
   (1)<W 2022-03-28/01, art. 28, 050; Inwerkingtreding : 01-04-2022>
 
@@ -1068,7 +1068,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2022-03-28/01, art. 39, 050; Inwerkingtreding : 01-04-2022>
 
-  Titel IV.
+### Titel IV.
 
 ## Art. 167.
 
@@ -1261,7 +1261,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
    (2)<W 2016-04-27/04, art. 90, 018; Inwerkingtreding : 16-05-2016>
    (3)<W 2026-02-10/05, art. 13, 067; Inwerkingtreding : 09-03-2026>
 
-  Titel VI. Jaarlijkse taks op de winstdeelnemingen <Oorspronkelijke titel XIIbis (art. 183bis-183undecies) , vernummerd tot titel VI bij W 2006-12-19/33, art. 42, Inwerkingtreding : 01-01-2007>
+### Titel VI. Jaarlijkse taks op de winstdeelnemingen <Oorspronkelijke titel XIIbis (art. 183bis-183undecies) , vernummerd tot titel VI bij W 2006-12-19/33, art. 42, Inwerkingtreding : 01-01-2007>
 
 ## Art. 183bis
 
@@ -1325,7 +1325,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   (1)<W 2014-04-25/36, art. 85, 014; Inwerkingtreding : 16-05-2014>
   (2)<W 2016-04-27/04, art. 91, 018; Inwerkingtreding : 16-05-2016>
 
-  Titel VII.
+### Titel VII.
 
 ## Art. 183duodecies.
 
@@ -1345,7 +1345,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 ## Art. 183vicies.
 
-  Titel VIII. [Taks op het lange termijnsparen] <Oorspronkelijke titel XIII (art. 184-1876) opnieuw opgenomen bij W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993, en vernummerd tot titel VIII bij W 2006-12-19/33, art.
+### Titel VIII. [Taks op het lange termijnsparen] <Oorspronkelijke titel XIII (art. 184-1876) opnieuw opgenomen bij W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993, en vernummerd tot titel VIII bij W 2006-12-19/33, art.
  42, Inwerkingtreding : 01-01-2007>
 
 ## Art. 184
@@ -1440,7 +1440,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   (1)<W 2014-04-25/36, art. 87, 014; Inwerkingtreding : 16-05-2014>
   (2)<W 2016-04-27/04, art. 92, 018; Inwerkingtreding : 16-05-2016>
 
-  Titel IX. Belasting voor aanplakking <Oorspronkelijke titel XIV vernummerd tot titel IX bij W 2006-12-19/33, art.
+### Titel IX. Belasting voor aanplakking <Oorspronkelijke titel XIV vernummerd tot titel IX bij W 2006-12-19/33, art.
  42, Inwerkingtreding : 01-01-2007>
 
 ## Art. 188.
@@ -1484,7 +1484,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 ## Art. 201/2.
 
-  Titel X. [1 Jaarlijkse taks op de effectenrekeningen]1
+### Titel X. [1 Jaarlijkse taks op de effectenrekeningen]1
   ----------
   (1)<W 2021-02-17/05, art. 2, 045; Inwerkingtreding : 26-02-2021>
 
@@ -1675,7 +1675,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   ----------
   (1)<W 2025-12-18/06, art. 1, 064; Inwerkingtreding : 01-12-2026>
 
-  Titel XI. [1 - Jaarlijkse taks op de kredietinstellingen]1
+### Titel XI. [1 - Jaarlijkse taks op de kredietinstellingen]1
   ----------
   (1)<Ingevoegd bij W 2012-06-22/02, art. 49, 003; Inwerkingtreding : 08-07-2012>
 
@@ -1751,7 +1751,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   ----------
   (1)<W 2023-12-22/06, art. 3, 056; Inwerkingtreding : 30-12-2023>
 
-  Titel XII. [1 - Jaarlijkse taks op de collectieve beleggingsinstellingen]1
+### Titel XII. [1 - Jaarlijkse taks op de collectieve beleggingsinstellingen]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 78, 039; Inwerkingtreding : 01-01-2020>
 
@@ -1827,7 +1827,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 87, 039; Inwerkingtreding : 01-01-2020>
 
-  Titel XIII. [1 - Jaarlijkse taks op de verzekeringsondernemingen]1
+### Titel XIII. [1 - Jaarlijkse taks op de verzekeringsondernemingen]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 88, 039; Inwerkingtreding : 01-01-2020>
 
@@ -1906,7 +1906,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   ----------
   (1)<Ingevoegd bij W 2023-12-28/01, art. 91, 058; Inwerkingtreding : 01-01-2025>
 
-  Titel XIV. [1 - Bepalingen gemeen aan de diverse taksen]1
+### Titel XIV. [1 - Bepalingen gemeen aan de diverse taksen]1
   ----------
   (1)<Ingevoegd bij W 2019-04-13/09, art. 98, 039; Inwerkingtreding : 01-01-2020>
 
@@ -1947,9 +1947,9 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
    ----------
    (1)<Ingevoegd bij W 2019-04-13/09, art. 100, 039; Inwerkingtreding : 01-01-2020> (2)<W 2021-12-20/04, art. 27, 048; Inwerkingtreding : 07-01-2022> (3)<W 2022-11-20/01, art. 32, 053; Inwerkingtreding : 01-01-2023>
 
-  Boek III. [Bepalingen gemeen aan de diverse rechten en taksen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 46, Inwerkingtreding : 01-01-2007>
+## Boek III. [Bepalingen gemeen aan de diverse rechten en taksen] <Opschrift ingevoegd bij W 2006-12-19/33, art. 46, Inwerkingtreding : 01-01-2007>
 
-  Titel I. [1 Antimisbruik]1
+### Titel I. [1 Antimisbruik]1
   ----------
   (1)<W 2021-02-17/05, art. 15, 045; Inwerkingtreding : 26-02-2021>
 
@@ -1974,7 +1974,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 [opgeheven] <W 1999-03-15/31, art. 82, Inwerkingtreding : 06-04-1999>
 
-  Titel II.[1 - Verjaring en betaling]1
+### Titel II.[1 - Verjaring en betaling]1
   ----------
   (1)<W 2019-04-13/09, art. 102, 039; Inwerkingtreding : 01-01-2020>
 
@@ -2077,7 +2077,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
    ----------
    (1)<W 2022-11-20/01, art. 34, 053; Inwerkingtreding : 01-01-2023>
 
-  Titel III. [Controle en boeten] <Opschrift ingevoegd bij W 2006-12-19/33, art. 57, Inwerkingtreding : 01-01- 2007>
+### Titel III. [Controle en boeten] <Opschrift ingevoegd bij W 2006-12-19/33, art. 57, Inwerkingtreding : 01-01- 2007>
 
 ## Art. 205/1
 
@@ -2114,7 +2114,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
   (1)<W 2019-12-20/09, art. 47, 041; Inwerkingtreding : 01-07-2020>
   (2)<W 2024-12-20/27, art. 15, 061; Inwerkingtreding : 31-12-2024>
 
-   Titel IV. [Strafrechtelijke sancties en procedure] <Opschrift ingevoegd bij W 2006-12-19/33, art. 59, Inwerkingtreding : 01-01-2007>
+### Titel IV. [Strafrechtelijke sancties en procedure] <Opschrift ingevoegd bij W 2006-12-19/33, art. 59, Inwerkingtreding : 01-01-2007>
 
 ## Art. 207
 
@@ -2237,7 +2237,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
 
 <W 2004-12-27/30, art. 385, Inwerkingtreding : 10-01-2005> Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorziening mag door een advocaat worden ondertekend en neergelegd.
 
-  Titel V. [[1 Bepalingen]1 gemeen aan alle belastingen] <Oorspronkelijke titel XVI (art. 211) ingevoegd bij R 1947- 11-25/01, art. 6 en vernummerd tot titel V en opschrift gewijzigd bij W 2006-12-19/33, art. 61, Inwerkingtreding : 01-01-2007>
+### Titel V. [[1 Bepalingen]1 gemeen aan alle belastingen] <Oorspronkelijke titel XVI (art. 211) ingevoegd bij R 1947- 11-25/01, art. 6 en vernummerd tot titel V en opschrift gewijzigd bij W 2006-12-19/33, art. 61, Inwerkingtreding : 01-01-2007>
 
   ----------
   (1)<W 2013-08-17/31, art. 14, 010; Inwerkingtreding : 01-01-2013>
@@ -2630,7 +2630,7 @@ Elke onnauwkeurigheid of weglating bevonden in de staat of in de aangifte waarva
    ----------
    (1)<Ingevoegd bij W 2021-01-26/12, art. 1, 049; Inwerkingtreding : 01-04-2021> (2)<W 2022-01-21/03, art. 112, 049; Inwerkingtreding : 07-02-2022>
 
-  Titel VI. [Beroepsgeheim] <Oorspronkelijke titel XVII (art. 212) ingevoegd bij W 1978-08-04/01, art. 55, en vernummerd tot titel VI bij W 2006-12-19/33, art. 63, Inwerkingtreding : 01-01-2007>
+### Titel VI. [Beroepsgeheim] <Oorspronkelijke titel XVII (art. 212) ingevoegd bij W 1978-08-04/01, art. 55, en vernummerd tot titel VI bij W 2006-12-19/33, art. 63, Inwerkingtreding : 01-01-2007>
 
 ## Art. 212
 

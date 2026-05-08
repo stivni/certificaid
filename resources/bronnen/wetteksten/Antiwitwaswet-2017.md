@@ -301,17 +301,17 @@ De beperkingen op het gebruik van contanten bedoeld in de artikelen 66, § 2, en
   ----------
   (1)<W 2020-07-20/12, art. 33, 008; Inwerkingtreding : 15-08-2020>
 
-  TITEL 2. - Risicogebaseerde benadering
+### TITEL 2. - Risicogebaseerde benadering
 
 ## Art. 7
 
 Behoudens andersluidende bepalingen gaan de bevoegde autoriteiten en de onderworpen entiteiten, overeenkomstig de bepalingen van deze wet, over tot de tenuitvoerlegging op gedifferentieerde wijze van de preventieve maatregelen bedoeld in boek II, in functie van hun evaluatie van de WG/FT-risico's.
 
-  BOEK II. - VERPLICHTINGEN VAN DE ONDERWORPEN ENTITEITEN INZAKE DE VOORKOMING VAN HET WITWASSEN VAN GELD EN DE FINANCIERING VAN TERRORISME
+## BOEK II. - VERPLICHTINGEN VAN DE ONDERWORPEN ENTITEITEN INZAKE DE VOORKOMING VAN HET WITWASSEN VAN GELD EN DE FINANCIERING VAN TERRORISME
 
-  TITEL 1. - Organisatie en interne controle
+### TITEL 1. - Organisatie en interne controle
 
-  HOOFDSTUK 1. - Organisatie en interne controle binnen de onderworpen entiteiten
+#### HOOFDSTUK 1. - Organisatie en interne controle binnen de onderworpen entiteiten
 
 ## Art. 8
 
@@ -362,7 +362,7 @@ Behoudens andersluidende bepalingen gaan de bevoegde autoriteiten en de onderwor
 
 Indien een natuurlijke persoon die onder een van de in artikel 5, § 1, 23° tot en met 25°, vermelde categorieën van onderworpen entiteiten valt, zijn beroepsactiviteit uitoefent als werknemer van een rechtspersoon, zijn de in dit hoofdstuk vastgelegde verplichtingen van toepassing op die rechtspersoon en niet op de natuurlijke persoon.
 
-  HOOFDSTUK 2. - Organisatie en interne controle binnen de groepen
+#### HOOFDSTUK 2. - Organisatie en interne controle binnen de groepen
 
 ## Art. 13
 
@@ -389,7 +389,7 @@ De onderworpen entiteiten bedoeld in artikel 5, § 1, [1 4°, c), 6°, d), 7°, 
   (1)<W 2020-07-20/12, art. 36, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2025-12-11/13, art. 85, 023; Inwerkingtreding : 03-01-2026>
 
-  TITEL 2. - Algemene risicobeoordeling
+### TITEL 2. - Algemene risicobeoordeling
 
 ## Art. 16
 
@@ -407,11 +407,11 @@ De algemene risicobeoordeling bedoeld in artikel 16 wordt gedocumenteerd, bijgew
 
 De toezichtautoriteiten die bevoegd zijn op grond van artikel 85 kunnen beslissen dat bepaalde gedocumenteerde risicobeoordelingen niet vereist zijn, indien de aan de betrokken activiteiten inherente specifieke risico's duidelijk en inzichtelijk zijn.
 
-  TITEL 3. - Waakzaamheid ten aanzien van de cliënten en de verrichtingen
+### TITEL 3. - Waakzaamheid ten aanzien van de cliënten en de verrichtingen
 
-  HOOFDSTUK 1. - Algemene waakzaamheidsverplichtingen
+#### HOOFDSTUK 1. - Algemene waakzaamheidsverplichtingen
 
-  Afdeling 1. - Algemene bepalingen
+##### Afdeling 1. - Algemene bepalingen
 
 ## Art. 19
 
@@ -432,9 +432,9 @@ De toezichtautoriteiten die bevoegd zijn op grond van artikel 85 kunnen beslisse
   (1)<W 2020-07-20/12, art. 38, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2024-02-09/19, art. 165, 022; Inwerkingtreding : 31-03-2024>
 
-  Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie
+##### Afdeling 2. - Verplichtingen tot identificatie en identiteitsverificatie
 
-  Onderafdeling 1. - Te identificeren personen
+###### Onderafdeling 1. - Te identificeren personen
 
 ## Art. 21
 
@@ -494,7 +494,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
    (1)<W 2020-07-20/12, art. 42, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2020-07-20/12, art. 42,d, 008; Inwerkingtreding : 10-07-2020>
 
-  Onderafdeling 2. - Voorwerp van de identificatie en de identiteitsverificatie
+###### Onderafdeling 2. - Voorwerp van de identificatie en de identiteitsverificatie
 
 ## Art. 26
 
@@ -546,7 +546,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
    ----------
    (1)<W 2020-07-20/12, art. 44, 008; Inwerkingtreding : 15-08-2020>
 
-  Onderafdeling 3. - Tijdstip van de identificatie en de identiteitsverificatie
+###### Onderafdeling 3. - Tijdstip van de identificatie en de identiteitsverificatie
 
 ## Art. 30
 
@@ -565,7 +565,7 @@ In afwijking van artikel 30, eerste en tweede lid, mogen de onderworpen entiteit
 
 De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van een passende beoordeling van het WG/FT-risico overeenkomstig artikel 16, die aantoont dat dit risico laag is, afwijken van artikel 30, eerste en tweede lid, ten aanzien van cliënten in het kader van de uitgifte van elektronisch geld, indien alle risicobeperkende voorwaarden van artikel 25 vervuld zijn.
 
-  Onderafdeling 4. - Niet-nakoming van de verplichting tot identificatie en identiteitsverificatie
+###### Onderafdeling 4. - Niet-nakoming van de verplichting tot identificatie en identiteitsverificatie
 
 ## Art. 33
 
@@ -577,7 +577,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
    ----------
    (1)<W 2020-07-20/12, art. 45, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 3. - Verplichting tot identificatie van de kenmerken van de cliënt en van het doel en de aard van de zakelijke relatie of van de occasionele verrichting
+##### Afdeling 3. - Verplichting tot identificatie van de kenmerken van de cliënt en van het doel en de aard van de zakelijke relatie of van de occasionele verrichting
 
 ## Art. 34
 
@@ -592,7 +592,7 @@ De onderworpen entiteiten die elektronisch geld uitgeven, kunnen op basis van ee
   ----------
   (1)<W 2020-07-20/12, art. 46, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 4. - [1 Verplichting tot waakzaamheid ten aanzien van de zakelijke relaties en de occasionele verrichtingen]1
+##### Afdeling 4. - [1 Verplichting tot waakzaamheid ten aanzien van de zakelijke relaties en de occasionele verrichtingen]1
   ----------
   (1)<W 2020-07-20/12, art. 47, 008; Inwerkingtreding : 15-08-2020>
 
@@ -617,7 +617,7 @@ Elke onderworpen entiteit zorgt ervoor dat haar personeelsleden, alsook haar age
   ----------
   (1)<W 2020-07-20/12, art. 49, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 2. - Bijzondere gevallen van verhoogde waakzaamheid
+#### HOOFDSTUK 2. - Bijzondere gevallen van verhoogde waakzaamheid
 
 ## Art. 37
 
@@ -711,7 +711,7 @@ De onderworpen entiteiten passen maatregelen van verhoogde waakzaamheid toe, inz
    ----------
    (1)<Ingevoegd bij W 2025-12-11/13, art. 88, 023; Inwerkingtreding : 03-01-2026>
 
-  HOOFDSTUK 3. - Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers
+#### HOOFDSTUK 3. - Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers
 
 ## Art. 42
 
@@ -743,9 +743,9 @@ Onverminderd de gevallen waarin een beroep wordt gedaan op lasthebbers of ondera
    ----------
    (1)<W 2020-07-20/12, art. 55, 008; Inwerkingtreding : 15-08-2020>
 
-  TITEL 4. - Analyse van atypische verrichtingen en melding van vermoedens
+### TITEL 4. - Analyse van atypische verrichtingen en melding van vermoedens
 
-  HOOFDSTUK 1. - Analyse van atypische verrichtingen
+#### HOOFDSTUK 1. - Analyse van atypische verrichtingen
 
 ## Art. 45
 
@@ -765,9 +765,9 @@ Onverminderd de gevallen waarin een beroep wordt gedaan op lasthebbers of ondera
 In de gevallen bedoeld in de artikelen 33, § 1, 34, § 3, en 35, § 2, voeren de onderworpen entiteiten een specifieke analyse uit, onder de verantwoordelijkheid van de overeenkomstig artikel 9, § 2, aangewezen persoon, om vast te stellen of de redenen waarom niet kan worden voldaan aan de waakzaamheidsverplichtingen, een vermoeden van WG/FT doen rijzen en of er reden is tot melding aan de CFI, overeenkomstig de artikelen 47 tot en met 54.
    De onderworpen entiteiten stellen een schriftelijk verslag op over de analyse die met toepassing van het eerste lid werd uitgevoerd. Dit verslag wordt opgesteld onder de verantwoordelijkheid van de in artikel 9, § 2, bedoelde personen die er een passend gevolg aan geven met toepassing van de in deze titel omschreven verplichtingen.
 
-  HOOFDSTUK 2. - Melding van vermoedens
+#### HOOFDSTUK 2. - Melding van vermoedens
 
-  Afdeling 1. - Verplichting tot melding van vermoedens en tot mededeling van bijkomende inlichtingen aan de Cel voor financiële informatieverwerking
+##### Afdeling 1. - Verplichting tot melding van vermoedens en tot mededeling van bijkomende inlichtingen aan de Cel voor financiële informatieverwerking
 
 ## Art. 47
 
@@ -825,7 +825,7 @@ In afwijking van de artikelen 47, 48 en 54, delen de onderworpen entiteiten bedo
    Hij kan het type van de beoogde feiten, geldmiddelen en verrichtingen, alsook hun minimumbedrag, bepalen, dat het meest gepast is met het oog op het verminderen van de risico's verbonden aan de betrokken landen of gebieden.
    § 2. Wanneer de nationale risicobeoordeling bedoeld in artikel 68 een land of een gebied identificeert waarvan de wetgeving als ontoereikend wordt erkend of waarvan wordt aangenomen dat de gebruiken een hinderpaal vormen in de strijd tegen WG/FT, kan de Koning, bij een in Ministerraad overlegd besluit, onverminderd paragraaf 1, andere tegenmaatregelen bepalen evenredig met de hoge risico's van het witwassen van geld of de financiering van terrorisme van het betrokken land of gebied.
 
-  Afdeling 2. - Mededelingsverbod
+##### Afdeling 2. - Mededelingsverbod
 
 ## Art. 55
 
@@ -846,7 +846,7 @@ In afwijking van de artikelen 47, 48 en 54, delen de onderworpen entiteiten bedo
    a) die hun beroepsactiviteiten uitoefenen, al dan niet als werknemers, binnen dezelfde rechtspersoon of een grotere structuur waartoe de persoon behoort en die onder dezelfde eigendom, hetzelfde bestuur of hetzelfde toezicht op de naleving van de verplichtingen vallen; of
    b) wanneer zij tussenkomen in verband met eenzelfde cliënt en in het kader van eenzelfde verrichting, op voorwaarde dat de uitgewisselde informatie betrekking heeft op die cliënt of die verrichting, dat ze uitsluitend wordt gebruikt ter voorkoming van witwassen van geld of van financiering van terrorisme, en dat de bestemmeling van de informatie onderworpen is aan gelijkwaardige verplichtingen dan degene bepaald in Richtlijn 2015/849 inzake het mededelingsverbod en de bescherming van de persoonsgegevens.
 
-  Afdeling 3. - Bescherming van de melders
+##### Afdeling 3. - Bescherming van de melders
 
 ## Art. 57
 
@@ -866,7 +866,7 @@ De bevoegde autoriteiten inzake onderzoek en vervolging van WG/FT nemen alle pas
   ----------
   (1)<W 2020-07-20/12, art. 61, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 4. - Bewaring [1 ...]1 van gegevens en documenten
+##### Afdeling 4. - Bewaring [1 ...]1 van gegevens en documenten
   ----------
   (1)<W 2020-07-20/12, art. 62, 008; Inwerkingtreding : 15-08-2020>
 
@@ -955,7 +955,7 @@ De onderworpen entiteiten beschikken over systemen die hen in staat stellen ten 
    ----------
    (1)<W 2020-07-20/12, art. 68, 008; Inwerkingtreding : 15-08-2020>
 
-  BOEK III. - BEPERKING VAN HET GEBRUIK VAN CONTANTEN
+## BOEK III. - BEPERKING VAN HET GEBRUIK VAN CONTANTEN
 
 ## Art. 66
 
@@ -985,9 +985,9 @@ De onderworpen entiteiten beschikken over systemen die hen in staat stellen ten 
    (2)<W 2021-06-02/03, art. 47, 009; Inwerkingtreding : 28-06-2021>
    (3)<W 2024-02-09/19, art. 166, 022; Inwerkingtreding : 31-03-2024> (NOTA : vernietigd bij AGH 2025-03- 20/08, art. ; Inwerkingtreding : 09-02-2024)
 
-  BOEK IV. - BEVOEGDE AUTORITEITEN
+## BOEK IV. - BEVOEGDE AUTORITEITEN
 
-  TITEL 1. - Nationale risicobeoordeling
+### TITEL 1. - Nationale risicobeoordeling
 
 ## Art. 68
 
@@ -1033,7 +1033,7 @@ Om bij te dragen aan de voorbereiding van de risicobeoordeling bedoeld in artike
   ----------
   (1)<W 2020-07-20/12, art. 72, 008; Inwerkingtreding : 15-08-2020>
 
-  TITEL 2. - Register van uiteindelijke begunstigden
+### TITEL 2. - Register van uiteindelijke begunstigden
 
 ## Art. 73
 
@@ -1101,9 +1101,9 @@ Binnen de Algemene Administratie van de Thesaurie van de Federale Overheidsdiens
    (1)<W 2023-02-08/02, art. 5, 019; Inwerkingtreding : 17-02-2023>
    (2)<W 2025-12-11/13, art. 160, 023; Inwerkingtreding : 03-01-2026>
 
-  TITEL 3. - De Cel voor financiële informatieverwerking
+### TITEL 3. - De Cel voor financiële informatieverwerking
 
-  HOOFDSTUK 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Algemene bepalingen
 
 ## Art. 76
 
@@ -1141,7 +1141,7 @@ Ten minste één keer per jaar stelt de CFI een verslag op van haar werkzaamhede
    ----------
    (1)<W 2020-07-20/12, art. 76, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 2. - Bevoegdheden en rechten
+#### HOOFDSTUK 2. - Bevoegdheden en rechten
 
 ## Art. 79
 
@@ -1257,9 +1257,9 @@ Ten minste één keer per jaar stelt de CFI een verslag op van haar werkzaamhede
    ----------
    (1)<W 2022-05-15/03, art. 9, 014; Inwerkingtreding : 04-06-2022>
 
-  TITEL 4. - Toezichtautoriteiten
+### TITEL 4. - Toezichtautoriteiten
 
-  HOOFDSTUK 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Algemene bepalingen
 
 ## Art. 85
 
@@ -1357,7 +1357,7 @@ De toezichtautoriteiten stellen effectieve en betrouwbare mechanismen in voor de
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 86, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 2. - Toezichtsbevoegdheden en -maatregelen van de Nationale Bank van België
+#### HOOFDSTUK 2. - Toezichtsbevoegdheden en -maatregelen van de Nationale Bank van België
 
 ## Art. 91
 
@@ -1484,7 +1484,7 @@ Wanneer de Bank in het kader van haar toezichtsopdracht en met name van haar ins
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 93, 008; Inwerkingtreding : 15-08-2020> (2)<W 2022-07-20/40, art. 384, 017; Inwerkingtreding : 06-10-2022>
 
-  HOOFDSTUK 3. - Toezichtsbevoegdheden en -maatregelen van de Autoriteit voor Financiële diensten en markten
+#### HOOFDSTUK 3. - Toezichtsbevoegdheden en -maatregelen van de Autoriteit voor Financiële diensten en markten
 
 ## Art. 99
 
@@ -1558,9 +1558,9 @@ De FSMA informeert de [1 EBA]1 over de maatregelen die ze met toepassing van de 
 
 Wanneer de FSMA in het kader van haar toezichtsopdracht en met name van haar inspecties bedoeld in artikel 99, tweede lid, een inbreuk vaststelt op de bepalingen van artikel 66, § 2, eerste lid, of van artikel 67, brengt zij de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig mogelijk op de hoogte daarvan.
 
-  HOOFDSTUK 4. - Toezichtsbevoegdheden en -maatregelen van de Federale Overheidsdienst Economie, KMO en Middenstand en Energie
+#### HOOFDSTUK 4. - Toezichtsbevoegdheden en -maatregelen van de Federale Overheidsdienst Economie, KMO en Middenstand en Energie
 
-  Afdeling 1. - Toezichtsbevoegdheden en -maatregelen betreffende de onderworpen entiteiten bedoeld in artikel 5, § 1, 21°, [2 25° /1]2 en 29° tot en [1 met [3 31° /6]3]1
+##### Afdeling 1. - Toezichtsbevoegdheden en -maatregelen betreffende de onderworpen entiteiten bedoeld in artikel 5, § 1, 21°, [2 25° /1]2 en 29° tot en [1 met [3 31° /6]3]1
   ----------
   (1)<W 2020-07-20/12, art. 99, 008; Inwerkingtreding : 15-08-2020>
   (2)<W 2022-06-23/09, art. 7, 015; Inwerkingtreding : 21-07-2022>
@@ -1584,13 +1584,13 @@ Voor de uitoefening van de toezichtsbevoegdheden toegekend aan de Federale Overh
   (2)<W 2022-06-23/09, art. 8, 015; Inwerkingtreding : 21-07-2022>
   (3)<W 2024-02-09/19, art. 169, 022; Inwerkingtreding : 31-03-2024>
 
-  Afdeling 2. - Toezichtsbevoegdheden betreffende de beperking op het gebruik van contanten
+##### Afdeling 2. - Toezichtsbevoegdheden betreffende de beperking op het gebruik van contanten
 
 ## Art. 109
 
 Met het oog op de uitoefening van de toezichtsbevoegdheden toegekend door artikel 85, § 3, 1°, aan de Federale Overheidsdienst Economie, KMO, Middenstand en Energie, beschikken de krachtens artikel XV.2 van het Wetboek van economisch recht door de minister van Economie hiertoe aangestelde ambtenaren over onderzoeks- en vaststellingsbevoegdheden bedoeld in de artikelen XV.1 tot en met XV.10 en XV.32 tot en met XV.34 van het voornoemde Wetboek.
 
-  HOOFDSTUK 5. - Toezichtsbevoegdheden van de Administratie van de Thesaurie en toezichtmaatregelen van de minister van Financiën en van de minister bevoegd voor bpost
+#### HOOFDSTUK 5. - Toezichtsbevoegdheden van de Administratie van de Thesaurie en toezichtmaatregelen van de minister van Financiën en van de minister bevoegd voor bpost
 
 ## Art. 110
 
@@ -1623,7 +1623,7 @@ Relaties tussen de onderworpen entiteit en een bepaalde cliënt behoren niet tot
 
 Wanneer de Administratie van de Thesaurie in het kader van haar toezichtsopdracht en met name van haar inspecties bedoeld in artikel 110, tweede lid, een inbreuk vaststelt op de bepalingen van artikel 66, § 2, eerste lid, of van artikel 67, brengt zij de Federale Overheidsdienst Economie, KMO, Middenstand en Energie zo spoedig mogelijk op de hoogte daarvan.
 
-  HOOFDSTUK 6. - Toezichtsbevoegdheden en -maatregelen van de Kansspelcommissie
+#### HOOFDSTUK 6. - Toezichtsbevoegdheden en -maatregelen van de Kansspelcommissie
 
 ## Art. 114
 
@@ -1678,7 +1678,7 @@ Wanneer de Kansspelcommissie in het kader van haar toezichtsopdracht een inbreuk
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 104, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 7. - Toezichtsbevoegdheden en -maatregelen van andere toezichtautoriteiten
+#### HOOFDSTUK 7. - Toezichtsbevoegdheden en -maatregelen van andere toezichtautoriteiten
 
 ## Art. 117
 
@@ -1720,11 +1720,11 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 108, 008; Inwerkingtreding : 15-08-2020> (2)<W 2022-02-01/01, art. 4, 012; Inwerkingtreding : 21-02-2022>
 
-  TITEL 5. [1 - Beroepsgeheim en samenwerking]1
+### TITEL 5. [1 - Beroepsgeheim en samenwerking]1
   ----------
   (1)<W 2020-07-20/12, art. 109, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 1. [1 - Gemeenschappelijke bepalingen]1
+#### HOOFDSTUK 1. [1 - Gemeenschappelijke bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 110, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1751,11 +1751,11 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 112, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 2. [1 - Nationale samenwerking]1
+#### HOOFDSTUK 2. [1 - Nationale samenwerking]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 113, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 1. [1 - Nationale samenwerking tussen de toezichtautoriteiten en tussen de toezichtautoriteiten en de CFI]1
+##### Afdeling 1. [1 - Nationale samenwerking tussen de toezichtautoriteiten en tussen de toezichtautoriteiten en de CFI]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 114, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1767,7 +1767,7 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
   ----------
   (1)<W 2020-07-20/12, art. 115, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 2. [1 - Nationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1
+##### Afdeling 2. [1 - Nationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 116, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1778,7 +1778,7 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 117, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 3. [1 - Nationale samenwerking tussen de toezichtautoriteiten en de autoriteit die belast is met het toezicht op de financiële markten]1
+##### Afdeling 3. [1 - Nationale samenwerking tussen de toezichtautoriteiten en de autoriteit die belast is met het toezicht op de financiële markten]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 118, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1789,11 +1789,11 @@ Wanneer [1 de toezichtautoriteiten bedoeld in artikel 85, § 1, 7° tot en met 1
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 119, 008; Inwerkingtreding : 15-08-2020>
 
-  HOOFDSTUK 3. [1 - Internationale samenwerking]1
+#### HOOFDSTUK 3. [1 - Internationale samenwerking]1
   ----------
   (1)<W 2020-07-20/12, art. 120, 008; Inwerkingtreding : 15-08-2020>
 
-   Afdeling 1. [1 - Samenwerking van de Cel voor Financiële Informatieverwerking met andere financiële inlichtingeneenheden]1
+##### Afdeling 1. [1 - Samenwerking van de Cel voor Financiële Informatieverwerking met andere financiële inlichtingeneenheden]1
    ----------
    (1)<W 2020-07-20/12, art. 121, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1850,7 +1850,7 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
   ----------
   (1)<W 2020-07-20/12, art. 126, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 2. [1 - Samenwerking tussen de toezichtautoriteiten en de buitenlandse toezichtautoriteiten]1
+##### Afdeling 2. [1 - Samenwerking tussen de toezichtautoriteiten en de buitenlandse toezichtautoriteiten]1
   ----------
   (1)<W 2020-07-20/12, art. 127, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1887,7 +1887,7 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
    ----------
    (1)<W 2020-07-20/12, art. 130, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 3. [1 - Internationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1
+##### Afdeling 3. [1 - Internationale samenwerking tussen de financiële toezichtautoriteiten en de toezichthouders]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 131, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1912,7 +1912,7 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
    ----------
    (1)<Ingevoegd bij W 2020-07-20/12, art. 133, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 4. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de autoriteiten die belast zijn met het toezicht op de financiële markten]1
+##### Afdeling 4. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de autoriteiten die belast zijn met het toezicht op de financiële markten]1
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 134, 008; Inwerkingtreding : 15-08-2020>
 
@@ -1936,7 +1936,7 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
   ----------
   (1)<Ingevoegd bij W 2020-07-20/12, art. 136, 008; Inwerkingtreding : 15-08-2020>
 
-  Afdeling 5. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de EBA]1
+##### Afdeling 5. [1 - Internationale samenwerking tussen de toezichtautoriteiten en de EBA]1
   ----------
   (1)<W 2021-07-11/08, art. 307, 011; Inwerkingtreding : 30-06-2021>
 
@@ -1948,9 +1948,9 @@ Verschillen tussen de nationale rechtsstelsels inzake de definitie van [1 met he
   ----------
   (1)<W 2021-07-11/08, art. 308, 011; Inwerkingtreding : 30-06-2021>
 
-  BOEK V. - SANCTIES
+## BOEK V. - SANCTIES
 
-  TITEL I. - Administratieve sancties
+### TITEL I. - Administratieve sancties
 
 ## Art. 132
 
@@ -2024,7 +2024,7 @@ De administratieve geldboetes die met toepassing van deze titel worden opgelegd,
    (1)<W 2020-07-20/12, art. 141, 008; Inwerkingtreding : 15-08-2020>
    (2)<W 2021-07-11/08, art. 309, 011; Inwerkingtreding : 30-06-2021>
 
-  TITEL II. - Strafrechtelijke sancties
+### TITEL II. - Strafrechtelijke sancties
 
 ## Art. 136
 
@@ -2055,18 +2055,18 @@ Worden bestraft met een geldboete van 250 tot 225 000 euro :
   Iedere strafrechtelijke vordering op grond van een in deze titel bedoeld misdrijf moet door het openbaar ministerie ter kennis worden gebracht van de op grond van artikel 85 bevoegde toezichtautoriteit.
   § 4. De op grond van artikel 85 bevoegde toezichtautoriteit is gerechtigd in elke stand van het geding tussen te komen voor de strafrechter bij wie een door deze titel bestraft misdrijf aanhangig is, zonder dat zij daarom het bestaan van enig nadeel hoeft aan te tonen. De tussenkomst geschiedt volgens de regels die gelden voor de burgerlijke partij.
 
-  BOEK VI. - DIVERSE BEPALINGEN, WIJZIGINGS-, OPHEFFINGS- EN OVERGANGSBEPALINGEN
+## BOEK VI. - DIVERSE BEPALINGEN, WIJZIGINGS-, OPHEFFINGS- EN OVERGANGSBEPALINGEN
 
-  TITEL 1. - Diverse bepalingen
+### TITEL 1. - Diverse bepalingen
 
 ## Art. 139
 
 Voor de uitvoering van haar opdrachten betreffende de toepassing van deze wet, van de koninklijke besluiten, de reglementen en andere maatregelen genomen ter uitvoering van deze wet, voor de toepassing van de financiële sancties bepaald door de verordeningen van de Raad van de Europese Unie, voor de toepassing van de financiële sancties bedoeld in de resoluties aangenomen door de Veiligheidsraad van de Verenigde Naties in het kader van Hoofdstuk VII van het Handvest van de Verenigde Naties en onverminderd andere wettelijke bepalingen, kan de Administratie van de Thesaurie, op specifiek en met redenen omkleed verzoek, het Centraal aanspreekpunt, gehouden door de Nationale Bank van België, om informatie vragen.
    De in het eerste lid bedoelde aanvraag tot raadpleging van het Centraal aanspreekpunt wordt gedaan door een ambtenaar met minstens de graad van adviseur-generaal A4 of door de Administrateur-generaal van de Administratie van de Thesaurie en dit na een controle van de redenen van de aanvraag.
 
-  TITEL 2. - Wijzigingsbepalingen
+### TITEL 2. - Wijzigingsbepalingen
 
-  HOOFDSTUK 1. - Wijzigingen van het Wetboek van Strafvordering
+#### HOOFDSTUK 1. - Wijzigingen van het Wetboek van Strafvordering
 
 ## Art. 140
 
@@ -2077,7 +2077,7 @@ In artikel 46quater, § 1, tweede lid, van het Wetboek van Strafvordering, ingev
 In artikel 464/12, § 1, eerste lid, van hetzelfde wetboek, ingevoegd bij de wet van 11 februari 2014, worden de woorden "artikel 2 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 5, § 1,
  1° tot en met 22°, 29° tot en met 32°, en § 3, eerste lid, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 2. - Wijzigingen van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen
+#### HOOFDSTUK 2. - Wijzigingen van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen
 
 ## Art. 142
 
@@ -2095,19 +2095,19 @@ In titel IIIquinquies van dezelfde wet, ingevoegd bij artikel 142, wordt een art
 
 In titel IIIquinquies van dezelfde wet, ingevoegd bij artikel 142, wordt een artikel 58/12 ingevoegd, luidende : "Art. 58/12. Worden gestraft met een geldboete van 50 euro tot 5 000 euro, de bestuurders die de formaliteiten bedoeld in artikel 58/11, derde en vierde lid, binnen de in dit artikel vastgelegde termijn niet uitvoeren.".
 
-  HOOFDSTUK 3. - Wijzigingen van de wet van 20 maart 1991 houdende regeling van de erkenning van aannemers van werken
+#### HOOFDSTUK 3. - Wijzigingen van de wet van 20 maart 1991 houdende regeling van de erkenning van aannemers van werken
 
 ## Art. 145
 
 In artikel 4, § 1, 4°, a), vijfde streepje, van de wet van 20 maart 1991 houdende regeling van de erkenning van aannemers van werken, vervangen bij de wet van 5 augustus 2011, worden de woorden "artikel 3 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 5, § 1, 23° tot en met 28° van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 4. - Wijzigingen van de wet van 8 december 1992 tot bescherming van de persoonlijke levensfeer ten opzichte van de verwerking van persoonsgegevens
+#### HOOFDSTUK 4. - Wijzigingen van de wet van 8 december 1992 tot bescherming van de persoonlijke levensfeer ten opzichte van de verwerking van persoonsgegevens
 
 ## Art. 146
 
 In artikel 3, § 5, 4°, van de wet van 8 december 1992 tot bescherming van de persoonlijke levensfeer ten opzichte van de verwerking van persoonsgegevens, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 5. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
+#### HOOFDSTUK 5. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
 
 ## Art. 147
 
@@ -2121,25 +2121,25 @@ In artikel 35/1, § 1, 1°, a), van dezelfde wet, ingevoegd bij de wet van 13 ma
 
 Artikel 36/2 van dezelfde wet, waarvan de bestaande tekst paragraaf 1 zal vormen, wordt aangevuld met een paragraaf 2, luidende : " § 2. De Bank heeft eveneens als opdracht, overeenkomstig artikel 12bis, de bepalingen van dit hoofdstuk, en in de mate waarin de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten hierin voorziet, toe te zien op de naleving door de financiële instellingen bedoeld in paragraaf 1, eerste lid, van de wettelijke en reglementaire of Europeesrechtelijke bepalingen die strekken tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme, evenals van de financiering van de proliferatie van massavernietigingswapens.".
 
-  HOOFDSTUK 6. - Wijzigingen van de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst
+#### HOOFDSTUK 6. - Wijzigingen van de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst
 
 ## Art. 150
 
 In artikel 14, derde lid, van de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdienst, vervangen bij de wet van 4 februari 2010, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor witwassen van geld en de financiering van terrorisme" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 7. - Wijzigingen van de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen
+#### HOOFDSTUK 7. - Wijzigingen van de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen
 
 ## Art. 151
 
 In artikel 4, derde lid, van de wet van 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen, ingevoegd bij het koninklijk besluit van 19 november 2009, wordt het tweede streepje vervangen door "- de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten, de uitvoeringsbesluiten ervan en de uitvoeringsbesluiten van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme, voor zover de inhoud ervan niet in strijd is met de voormelde wet van 18 september 2017".
 
-  HOOFDSTUK 8. - Wijzigingen van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers
+#### HOOFDSTUK 8. - Wijzigingen van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers
 
 ## Art. 152
 
 In artikel 20 van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers, wordt het derde lid opgeheven.
 
-  HOOFDSTUK 9. - Wijzigingen van het Wetboek van Vennootschappen
+#### HOOFDSTUK 9. - Wijzigingen van het Wetboek van Vennootschappen
 
 ## Art. 153
 
@@ -2192,13 +2192,13 @@ In artikel 921, derde lid, van hetzelfde wetboek, ingevoegd bij het koninklijk b
 
 In artikel 986, derde lid, van hetzelfde wetboek, ingevoegd bij het koninklijk besluit van 28 november 2006 en gewijzigd bij de wet van 15 juli 2013, worden de woorden "artikel 5, § 3, van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld" vervangen door de woorden "artikel 4, 23°, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 10. - Wijzigingen van de wet van 28 februari 2002 ter regeling van het opstellen van de betalingsbalans, van de externe vermogenspositie en van de statistieken inzake de internationale handel in diensten en de buitenlandse directe investeringen van België en houdende wijziging van de besluitwet van 6 oktober 1944 betreffende de wisselcontrole en van verschillende wettelijke bepalingen
+#### HOOFDSTUK 10. - Wijzigingen van de wet van 28 februari 2002 ter regeling van het opstellen van de betalingsbalans, van de externe vermogenspositie en van de statistieken inzake de internationale handel in diensten en de buitenlandse directe investeringen van België en houdende wijziging van de besluitwet van 6 oktober 1944 betreffende de wisselcontrole en van verschillende wettelijke bepalingen
 
 ## Art. 165
 
 In artikel 4, § 5, van de wet van 28 februari 2002 ter regeling van het opstellen van de betalingsbalans, van de externe vermogenspositie en van de statistieken inzake de internationale handel in diensten en de buitenlandse directe investeringen van België en houdende wijziging van de besluitwet van 6 oktober 1944 betreffende de wisselcontrole en van verschillende wettelijke bepalingen, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 11. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
+#### HOOFDSTUK 11. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
 
 ## Art. 166
 
@@ -2208,7 +2208,7 @@ In artikel 40bis, § 2, derde lid, 2°, van de wet van 2 augustus 2002 betreffen
 
 In artikel 121, § 1, 4°, van dezelfde wet, laatstelijk gewijzigd bij de wet van 13 maart 2016, worden de woorden "artikel 22 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld" vervangen door de woorden "boek IV, titel 3, hoofdstuk 1, en artikel 79, §§ 1 tot en met 3, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 12. - Wijzigingen van de wet van 26 maart 2003 houdende oprichting van een Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en houdende bepalingen inzake het waardevast beheer van in beslag genomen goederen en de uitvoering van bepaalde vermogenssancties
+#### HOOFDSTUK 12. - Wijzigingen van de wet van 26 maart 2003 houdende oprichting van een Centraal Orgaan voor de Inbeslagneming en de Verbeurdverklaring en houdende bepalingen inzake het waardevast beheer van in beslag genomen goederen en de uitvoering van bepaalde vermogenssancties
 
 ## Art. 168
 
@@ -2219,24 +2219,24 @@ In artikel 15, § 3, van de wet van 26 maart 2003 houdende oprichting van een Ce
 In artikel 15bis, § 1, van dezelfde wet, vervangen bij de wet van 11 februari 2014, worden de woorden "artikel 2 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 5, § 1, 1° tot en met
  22°, 29° tot en met 32°, en § 3, eerste lid, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 13. - Wijzigingen van de wet van 19 november 2004 tot invoering van een heffing op omwisselingen van deviezen, bankbiljetten en munten
+#### HOOFDSTUK 13. - Wijzigingen van de wet van 19 november 2004 tot invoering van een heffing op omwisselingen van deviezen, bankbiljetten en munten
 
 ## Art. 170
 
 In artikel 9, 1°, van de wet van 19 november 2004 tot invoering van een heffing op omwisselingen van deviezen, bankbiljetten en munten, worden de woorden "artikel 4 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld" vervangen door de woorden "artikel 5, § 1, 33°, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 14. - Wijzigingen van de wet van 22 maart 2006 betreffende de bemiddeling in bank- en beleggingsdiensten en de distributie van financiële instrumenten
+#### HOOFDSTUK 14. - Wijzigingen van de wet van 22 maart 2006 betreffende de bemiddeling in bank- en beleggingsdiensten en de distributie van financiële instrumenten
 
 ## Art. 171
 
 In artikel 8, eerste lid, van de wet van 22 maart 2006 betreffende de bemiddeling in bank- en beleggingsdiensten en de distributie van financiële instrumenten, ingevoegd bij de wet van 31 juli 2009, wordt de bepaling onder 11° vervangen als volgt : "11° voldoen aan de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten, aan de uitvoeringsbesluiten ervan en aan de uitvoeringsbesluiten van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme, voor zover deze wetgeving van toepassing is op de betrokken tussenpersoon en de inhoud van de uitvoeringsbesluiten van de voornoemde wet van 11 januari 1993 niet in strijd is met de voornoemde wet van 18 september 2017.".
 
-  HOOFDSTUK 15. - Wijzigingen van de wet van 20 juli 2006 houdende diverse bepalingen
+#### HOOFDSTUK 15. - Wijzigingen van de wet van 20 juli 2006 houdende diverse bepalingen
 
 ## Art. 172
 
 In artikel 102, § 2, 7°, van de wet van 20 juli 2006 houdende diverse bepalingen, worden de woorden "artikel 22 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "boek IV, titel 3, hoofdstuk 1, en artikel 79, §§ 1 tot en met 3, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten" en worden de woorden "artikelen 4 tot 19" vervangen door de woorden "artikelen 2 en 3, artikel 4, 23°, artikel 5, § 1, 33°, en boek II, titels 1 tot en met 4, hoofdstukken 1 en 2, afdeling 4".
-  HOOFDSTUK 16. - Wijzigingen van de wet van 21 december 2009 op het statuut van de betalingsinstellingen en van de instellingen voor elektronisch geld, de toegang tot het bedrijf van betalingsdienstaanbieder en tot de activiteit van uitgifte van elektronisch geld en de toegang tot betalingssystemen
+#### HOOFDSTUK 16. - Wijzigingen van de wet van 21 december 2009 op het statuut van de betalingsinstellingen en van de instellingen voor elektronisch geld, de toegang tot het bedrijf van betalingsdienstaanbieder en tot de activiteit van uitgifte van elektronisch geld en de toegang tot betalingssystemen
 
 ## Art. 173
 
@@ -2258,7 +2258,7 @@ In artikel 62, § 1, 6°, van dezelfde wet, ingevoegd bij de wet van 27 november
 
 In artikel 105, § 3, 6°, van dezelfde wet, ingevoegd bij de wet van 27 november 2012, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 17. - Wijzigingen van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar
+#### HOOFDSTUK 17. - Wijzigingen van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar
 
 ## Art. 178
 
@@ -2271,7 +2271,7 @@ In artikel 5, § 1, van de wet van 11 februari 2013 houdende organisatie van het
 
 In artikel 10, § 1, van dezelfde wet wordt de bepaling onder 4° aangevuld met de woorden : "en voor zover deze natuurlijke personen of de uiteindelijke begunstigden van deze rechtspersonen niet het voorwerp hebben uitgemaakt van veroordelingen bedoeld in artikel 5, § 1, eerste lid;".
 
-  HOOFDSTUK 18. - Wijzigingen van het Wetboek van economisch recht
+#### HOOFDSTUK 18. - Wijzigingen van het Wetboek van economisch recht
 
 ## Art. 180
 
@@ -2285,7 +2285,7 @@ In artikel VII.79, tweede lid, van hetzelfde wetboek, ingevoegd bij de wet van 1
 
 In artikel VII.137, tweede lid, van hetzelfde wetboek, vervangen bij de wet van 22 april 2016, worden de woorden "artikel 12 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 19, § 2, tweede lid, en boek II, titel 3, hoofdstuk 2, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 19. - Wijzigingen van de wet van 4 april 2014 betreffende de verzekeringen
+#### HOOFDSTUK 19. - Wijzigingen van de wet van 4 april 2014 betreffende de verzekeringen
 
 ## Art. 183
 
@@ -2295,19 +2295,19 @@ In artikel 268, § 1, 9°, van de wet van 4 april 2014 betreffende de verzekerin
 
 In artikel 270, § 1, 1°, A, e), van dezelfde wet, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financieel stelsel voor het witwassen van geld en de financiering van het terrorisme" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 20. - Wijzigingen van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen
+#### HOOFDSTUK 20. - Wijzigingen van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen
 
 ## Art. 185
 
 In artikel 20, § 1, 3°, b), van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen, worden de woorden "artikel 40 van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme" vervangen door de woorden "artikel 132 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten".
 
-  HOOFDSTUK 21. - Wijzigingen van de wet van 25 april 2014 inzake het statuut van en het toezicht op de onafhankelijk financieel planners en inzake het verstrekken van raad over financiële planning door gereglementeerde ondernemingen en tot wijziging van het wetboek van vennootschappen en van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
+#### HOOFDSTUK 21. - Wijzigingen van de wet van 25 april 2014 inzake het statuut van en het toezicht op de onafhankelijk financieel planners en inzake het verstrekken van raad over financiële planning door gereglementeerde ondernemingen en tot wijziging van het wetboek van vennootschappen en van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
 
 ## Art. 186
 
 In artikel 19 van de wet van 25 april 2014 inzake het statuut van en het toezicht op de onafhankelijk financieel planners en inzake het verstrekken van raad over financiële planning door gereglementeerde ondernemingen en tot wijziging van het wetboek van vennootschappen en van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, worden de woorden "wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme en haar uitvoeringsbesluiten" vervangen door de woorden "wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten, de uitvoeringsbesluiten ervan en de uitvoeringsbesluiten van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme, voor zover de inhoud ervan niet in strijd is met de voornoemde wet van 18 september 2017".
 
-   HOOFDSTUK 22. - Wijzigingen van de wet van 21 juli 2016 tot invoering van een permanent systeem inzake fiscale en sociale regularisatie
+#### HOOFDSTUK 22. - Wijzigingen van de wet van 21 juli 2016 tot invoering van een permanent systeem inzake fiscale en sociale regularisatie
 
 ## Art. 187
 
@@ -2321,7 +2321,7 @@ In artikel 6, 2°, van dezelfde wet, worden de woorden "artikel 5, § 3, van de 
 
 In artikel 7, achtste lid, van dezelfde wet, worden de woorden "wet van 11 januari 1993" vervangen door de woorden "wet van 18 september 2017".
 
-  TITEL 3. - Opheffingsbepalingen
+### TITEL 3. - Opheffingsbepalingen
 
 ## Art. 190
 
@@ -2331,7 +2331,7 @@ De wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële st
 
 De artikelen 69 tot 71 van de wet van 29 december 2010 houdende diverse bepalingen (I), gewijzigd bij de wet van 15 juli 2013, worden opgeheven.
 
-  TITEL 4. - Overgangsbepalingen
+### TITEL 4. - Overgangsbepalingen
 
 ## Art. 192
 

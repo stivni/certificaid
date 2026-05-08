@@ -34,15 +34,15 @@ provenance:
 
 Boek 2, titel 3, van het Burgerlijk Wetboek ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen: (NOTA : voor BURGERLIJK WETBOEK - BOEK II, titel 3, "Relatievermogensrecht", zie 2022-01-19/19)
 
-  HOOFDSTUK 3. - Inhoud van boek 4 "Nalatenschappen, schenkingen en testamenten" van het Burgerlijk Wetboek
+#### HOOFDSTUK 3. - Inhoud van boek 4 "Nalatenschappen, schenkingen en testamenten" van het Burgerlijk Wetboek
 
 ## Art. 3
 
-Boek 4 van het Burgerlijk Wetboek ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen: (NOTA : voor BURGERLIJK WETBOEK - BOEK IV "Nalatenschappen, schenkingen en testamenten" van het Burgerlijk Wetboek, zie 2022-01-19/20)
+## Boek 4 van het Burgerlijk Wetboek ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen: (NOTA : voor BURGERLIJK WETBOEK - BOEK IV "Nalatenschappen, schenkingen en testamenten" van het Burgerlijk Wetboek, zie 2022-01-19/20)
 
-  HOOFDSTUK 4. - Wijzigingsbepalingen
+#### HOOFDSTUK 4. - Wijzigingsbepalingen
 
-  Afdeling 1. - Wijzigingen van het Burgerlijk Wetboek
+##### Afdeling 1. - Wijzigingen van het Burgerlijk Wetboek
 
 ## Art. 4
 
@@ -58,7 +58,7 @@ In artikel 3.161 van hetzelfde Wetboek worden de volgende wijzigingen aangebrach
   1° in het eerste lid worden de woorden "artikel 745quater tot artikel 745sexies van het oude Burgerlijk Wetboek" vervangen door de woorden "de artikelen 4.60 tot 4.64";
   2° in het derde lid worden de woorden "artikel 745sexies van het oude Burgerlijk Wetboek" vervangen door de woorden "de artikelen 4.60, 4.61, § 4, eerste lid, 4.63 en 4.64, §§ 1, 3, 4, 5 en 6".
 
-  Afdeling 2. - Wijzigingen van het oud Burgerlijk Wetboek
+##### Afdeling 2. - Wijzigingen van het oud Burgerlijk Wetboek
 
 ## Art. 7
 
@@ -115,7 +115,7 @@ In artikel 499/13, eerste lid, van hetzelfde Wetboek, ingevoegd bij artikel 97 v
 
 In artikel 499/18, eerste lid, van hetzelfde Wetboek, ingevoegd bij de wet van 17 maart 2013 en vervangen bij de wet van 21 december 2018, wordt het cijfer "908" vervangen door de woorden "4.141 van het Burgerlijk Wetboek".
 
-  Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
+##### Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
 
 ## Art. 19
 
@@ -205,25 +205,25 @@ Artikel 1315 van hetzelfde Wetboek wordt vervangen als volgt: "Art. 1315. De gri
 
 In artikel 1317 van hetzelfde Wetboek, gewijzigd bij de wet van 14 juli 1976, worden de woorden "voldaan is aan de formaliteiten die in de artikelen 1315 en 1316 zijn voorgeschreven" vervangen door de woorden "de beslissing inzake de scheiding van goederen werd ingeschreven in het centraal register voor huwelijksovereenkomsten".
 
-  Afdeling 4. - Wijziging van het Wetboek van vennootschappen en verenigingen
+##### Afdeling 4. - Wijziging van het Wetboek van vennootschappen en verenigingen
 
 ## Art. 38
 
 In artikel 2:5, § 3, eerste lid, van het Wetboek van vennootschappen en verenigingen, worden de woorden "906, tweede lid" vervangen door de woorden "4.137, tweede lid".
 
-  Afdeling 5. - Wijziging van het Strafwetboek
+##### Afdeling 5. - Wijziging van het Strafwetboek
 
 ## Art. 39
 
 In artikel 99, tweede lid, van het Strafwetboek, hersteld bij de wet van 10 december 2012, wordt het cijfer "728" vervangen door het cijfer "4.7".
 
-  Afdeling 6. - Wijziging van het Wetboek van economisch recht
+##### Afdeling 6. - Wijziging van het Wetboek van economisch recht
 
 ## Art. 40
 
 In artikel XI.49, § 3, van het Wetboek van economisch recht, ingevoegd bij de wet van 19 april 2014, worden de woorden "De bepalingen van de afdelingen I en IV van hoofdstuk VI van de eerste titel van boek III" vervangen door de woorden "De bepalingen van de hoofdstukken 1 en 4 van ondertitel 8 van titel 1 van boek 4".
 
-  Afdeling 7. - Wijzigingen van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
+##### Afdeling 7. - Wijzigingen van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 
 ## Art. 41
 
@@ -241,25 +241,25 @@ In artikel 46, § 1, eerste en tweede lid, van hetzelfde Wetboek, wordt het woor
 
 In artikel 48 van hetzelfde Wetboek, wordt het woord "1240bis" vervangen door het cijfer "4.59".
 
-  Afdeling 8. - Wijziging van de wet van 27 juni 1969 tot herziening van de besluitwet van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders
+##### Afdeling 8. - Wijziging van de wet van 27 juni 1969 tot herziening van de besluitwet van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders
 
 ## Art. 45
 
 In artikel 41sexies, § 1, eerste lid, van de wet van 27 juni 1969 tot herziening van de besluitwet van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders, ingevoegd bij wet van 22 juni 2012, wordt het woord "1240bis" vervangen door het cijfer "4.59".
 
-  Afdeling 9. - Wijziging van het koninklijk besluit nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen
+##### Afdeling 9. - Wijziging van het koninklijk besluit nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen
 
 ## Art. 46
 
 In artikel 23quater, § 1, eerste lid, van het koninklijk besluit nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen, ingevoegd bij wet van 22 juni 2012, wordt het woord "1240bis" vervangen door het cijfer "4.59".
 
-  Afdeling 10. - Wijzigingen van het Wetboek diverse rechten en taksen
+##### Afdeling 10. - Wijzigingen van het Wetboek diverse rechten en taksen
 
 ## Art. 47
 
 In artikel 21, 13°, van het Wetboek diverse rechten en taksen, ingevoegd bij de wet van 6 juli 2017, worden de woorden "784, eerste lid, van het Burgerlijk Wetboek, onder de voorwaarden bedoeld in het derde lid" vervangen door de woorden "4.44, eerste lid, van het Burgerlijk Wetboek, onder de voorwaarden bedoeld in het derde lid".
 
-  Afdeling 11. - Wijzigingen van het Wetboek der registratie-, hypotheek- en griffierechten
+##### Afdeling 11. - Wijzigingen van het Wetboek der registratie-, hypotheek- en griffierechten
 
 ## Art. 48
 
@@ -269,19 +269,19 @@ In artikel 161, 18°, van het Wetboek der registratie-, hypotheek- en griffierec
 
 In artikel 162, 19°, van hetzelfde Wetboek, opgeheven bij de wet van 12 juli 1960 en hersteld bij de wet van 31 juli 2020, wordt het cijfer "784/1" vervangen door de woorden "4.40, § 3".
 
-  Afdeling 12. - Wijziging van de wet van 16 maart 1803 tot regeling van het notarisambt
+##### Afdeling 12. - Wijziging van de wet van 16 maart 1803 tot regeling van het notarisambt
 
 ## Art. 50
 
 In artikel 117, § 3, tweede lid, van de wet van 16 maart 1803 tot regeling van het notarisambt, gewijzigd bij de wet van 6 juli 2017, worden de woorden "784, eerste lid, van het Burgerlijk Wetboek die hij kosteloos heeft verleden met toepassing van het derde lid van hetzelfde artikel" vervangen door de woorden "4.44, eerste lid, van het Burgerlijk Wetboek die hij kosteloos heeft verleden met toepassing van het derde lid".
 
-  Afdeling 13. -Wijziging van de wet van 13 januari 1977 houdende goedkeuring van de overeenkomst inzake de vaststelling van een stelsel van registratie van testamenten, opgemaakt te Bazel op 16 mei 1972, en tot invoering van een centraal huwelijksovereenkomstenregister
+##### Afdeling 13. -Wijziging van de wet van 13 januari 1977 houdende goedkeuring van de overeenkomst inzake de vaststelling van een stelsel van registratie van testamenten, opgemaakt te Bazel op 16 mei 1972, en tot invoering van een centraal huwelijksovereenkomstenregister
 
 ## Art. 51
 
 Het opschrift van de wet van 13 januari 1977 houdende goedkeuring van de overeenkomst inzake de vaststelling van een stelsel van registratie van testamenten, opgemaakt te Bazel op 16 mei 1972, en tot invoering van een centraal huwelijksovereenkomstenregister wordt vervangen als volgt: "wet van 13 januari 1977 houdende goedkeuring van de overeenkomst inzake de vaststelling van een stelsel van registratie van testamenten, opgemaakt te Bazel op 16 mei 1972".
 
-  Afdeling 14. - Wijzigingen van de programmawet (I) van 29 maart 2012
+##### Afdeling 14. - Wijzigingen van de programmawet (I) van 29 maart 2012
 
 ## Art. 52
 
@@ -299,19 +299,19 @@ In artikel 160 van dezelfde wet, laatstelijk gewijzigd bij de wet van 23 april 2
 
 In artikel 163 van dezelfde wet, gewijzigd bij de wet van 13 december 2012, wordt het woord "1240bis" vervangen door het cijfer "4.59".
 
-   Afdeling 15. - Wijziging van de wet van 19 maart 2017 tot oprichting van een Begrotingsfonds voor de juridische tweedelijnsbijstand
+##### Afdeling 15. - Wijziging van de wet van 19 maart 2017 tot oprichting van een Begrotingsfonds voor de juridische tweedelijnsbijstand
 
 ## Art. 56
 
 In artikel 4, § 2, tweede lid, 6°, van de wet van 19 maart 2017 tot oprichting van een Begrotingsfonds voor de juridische tweedelijnsbijstand, ingevoegd bij de wet van 31 juli 2020, wordt het cijfer "784/1" vervangen door de woorden "4.40, § 3".
 
-  Afdeling 16. - Andere wijzigingen
+##### Afdeling 16. - Andere wijzigingen
 
 ## Art. 57
 
 De Koning kan de verwijzingen, in andere wetten of in besluiten, naar de bepalingen opgeheven door de artikelen 58 tot 63, vervangen door verwijzingen naar de ermee overeenstemmende bepalingen in boeken 2.3 en 4 van het Burgerljik Wetboek.
 
-  HOOFDSTUK 5. - Opheffingsbepalingen
+#### HOOFDSTUK 5. - Opheffingsbepalingen
 
 ## Art. 58
 
@@ -359,7 +359,7 @@ Artikel 72 van de wet van 31 juli 2017 tot wijziging van het Burgerlijk Wetboek 
 
 Artikel 75 van de wet van 22 juli 2018 tot wijziging van het Burgerlijk Wetboek en diverse andere bepalingen wat het huwelijksvermogensrecht betreft en tot wijziging van de wet van 31 juli 2017 tot wijziging van het Burgerlijk Wetboek wat de erfenissen en de giften betreft en tot wijziging van diverse andere bepalingen ter zake, wordt opgeheven.
 
-  HOOFDSTUK 6. - Inwerkingtreding
+#### HOOFDSTUK 6. - Inwerkingtreding
 
 ## Art. 66
 

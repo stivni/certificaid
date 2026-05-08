@@ -103,7 +103,7 @@ datum
 RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT
 EN VAN DE RAAD van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad (Voor de EER relevante tekst)
 
-HOOFDSTUK 1
+#### HOOFDSTUK 1
 TOEPASSINGSGEBIED, DEFINITIES EN CATEGORIEËN
 ONDERNEMINGEN EN GROEPEN
 
@@ -301,7 +301,7 @@ De lidstaten kunnen ook eisen dat verbonden ondernemingen hun drem­ pelwaarden 
 13.
 De Commissie evalueert ten minste om de vijf jaar de in de leden 1 tot en met 7 van dit artikel bedoelde drempelwaarden met het oog op aanpassing aan de gevolgen van de inflatie en stelt, waar passend, overeenkomstig artikel 49 gedelegeerde handelingen tot wij­ ziging van die drempelwaarden vast, rekening houdend met de infla­ tiemaatstaven als gepubliceerd in het Publicatieblad van de Europese Unie.
 
-HOOFDSTUK 2
+#### HOOFDSTUK 2
 ALGEMENE BEPALINGEN EN BEGINSELEN
 
 ## Art. 4
@@ -434,7 +434,7 @@ a) en b) van de eerste alinea.
 9.
 Niettegenstaande artikel 6, lid 1, punt c), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde catego­ rieën ondernemingen, die activa, andere dan financiële instrumenten, tegen de reële waarde waarderen, waardeveranderingen in de winst-enverliesrekening opnemen.
 
-HOOFDSTUK 3
+#### HOOFDSTUK 3
 BALANS EN WINST-EN-VERLIESREKENING
 
 ## Art. 9
@@ -548,7 +548,7 @@ De lidstaten kunnen toestaan dat kleine en middelgrote onder­ nemingen een verk
 a) in bijlage V kunnen de posten 1 tot en met 5 in een post „Brutoomzetresultaat” worden samengevoegd;
 b) in bijlage VI kunnen de posten 1, 2, 3 en 6 in een post „Brutoomzetresultaat” worden samengevoegd.
 
-HOOFDSTUK 4
+#### HOOFDSTUK 4
 TOELICHTINGEN BIJ DE FINANCIËLE OVERZICHTEN
 
 ## Art. 15
@@ -669,7 +669,7 @@ De lidstaten kunnen toestaan dat de informatie bedoeld in lid 1, punt a), wordt 
 3.
 De lidstaten kunnen bepalen dat lid 1, punt b), niet van toepassing is op de jaarlijkse financiële overzichten van een onderneming indien die onderneming in de uit hoofde van artikel 22 op te stellen geconsoli­ deerde financiële overzichten is opgenomen, mits die informatie in de toelichting bij de geconsolideerde financiële overzichten staat.
 
-HOOFDSTUK 5
+#### HOOFDSTUK 5
 BESTUURSVERSLAG
 
 ## Art. 19
@@ -867,7 +867,7 @@ Onverminderd de bepalingen in artikel 40, is lid 1, punt g), niet van toepassing
 
 02013L0034 — NL — 28.05.2024 — 006.001 — 34
 ▼B
-HOOFDSTUK 6
+#### HOOFDSTUK 6
 GECONSOLIDEERDE FINANCIËLE OVERZICHTEN EN VERSLAGEN
 
 ## Art. 21
@@ -1234,7 +1234,7 @@ Voor de toepassing van de eerste alinea van dit lid worden in artikel 1, lid 3, 
 9.
 De bij lid 8 verleende vrijstelling is ook van toepassing op or­ ganisaties van openbaar belang voor wie de vereisten van dit artikel gelden, met uitzondering van grote ondernemingen die organisaties van openbaar belang zijn zoals gedefinieerd in artikel 2, punt 1), a), van deze richtlijn.
 
-HOOFDSTUK 6 BIS
+#### HOOFDSTUK 6 BIS
 DUURZAAMHEIDSRAPPORTERINGSSTANDAARDEN
 
 Artikel 29 ter
@@ -1343,7 +1343,7 @@ Bij de duurzaamheidsrapporteringsstandaarden voor kleine en middelgrote ondernem
 3.
 De Commissie evalueert ten minste om de drie jaar na de datum van toepassing de op grond van dit artikel vastgestelde gedelegeerde handelingen, rekening houdend met het technisch advies van de EFRAG, en wijzigt indien nodig die gedelegeerde handelingen om rekening te houden met relevante ontwikkelingen, waaronder ontwik­ kelingen ten aanzien van internationale standaarden.
 
-HOOFDSTUK 6 TER
+#### HOOFDSTUK 6 TER
 UNIFORM ELEKTRONISCH VERSLAGLEGGINGSFORMAAT
 
 Artikel 29 quinquies
@@ -1358,7 +1358,7 @@ Ondernemingen die moeten voldoen aan de vereisten van arti­ kel 19 bis van deze
 2.
 Moederondernemingen die moeten voldoen aan de vereisten van artikel 29 bis stellen hun geconsolideerde bestuursverslag op in het in artikel 3 van Gedelegeerde Verordening (EU) 2019/815 gespecificeerde elektronisch verslagleggingsformaat en markeren hun duurzaamheids­ rapportering, met inbegrip van de in artikel 8 van Verordening (EU) 2020/852 bedoelde openbaarmakingen, overeenkomstig het in die ge­ delegeerde verordening gespecificeerde elektronische verslagleggings­ formaat.
 ▼B
-HOOFDSTUK 7
+#### HOOFDSTUK 7
 OPENBAARMAKING
 
 ## Art. 30
@@ -1491,7 +1491,7 @@ c) de informatie waarvoor een machinaal leesbaar formaat vereist is en de vraag 
 Indien nodig stelt de Commissie richtsnoeren op om te garanderen dat de overeenkomstig lid 5, punt a), ingediende metadata correct zijn.
 
 ▼B
-HOOFDSTUK 8
+#### HOOFDSTUK 8
 
 ▼M4
 CONTROLE EN ASSURANCE VAN DUURZAAMHEIDSRAPPORTE­
@@ -1602,7 +1602,7 @@ De controleverklaring over de geconsolideerde financiële overzichten voldoet aa
 ___________
 (*) PB L 182 van 29.6.2013, blz. 19.”
 
-HOOFDSTUK 9
+#### HOOFDSTUK 9
 BEPALINGEN BETREFFENDE VRIJSTELLINGEN EN BEPERKINGEN
 OP VRIJSTELLINGEN
 
@@ -1702,7 +1702,7 @@ Tenzij in deze richtlijn uitdrukkelijk anders is bepaald, stellen de lid­ state
 Een organisatie van openbaar belang wordt als grote onderneming be­ handeld, ongeacht het balanstotaal, de netto-omzet en het gemiddelde personeelsbestand gedurende het boekjaar.
 
 ▼M4
-HOOFDSTUK 9 BIS
+#### HOOFDSTUK 9 BIS
 RAPPORTERING BETREFFENDE ONDERNEMINGEN UIT DERDE
 LANDEN
 
@@ -1761,7 +1761,7 @@ De in artikel 40 bis, lid 1, van deze richtlijn bedoelde dochter­ ondernemingen
 Indien het duurzaamheidsverslag samen met het assuranceoordeel en, in voorkomend geval, met de overeenkomstig lid 1 van dit artikel gepubliceerde verklaring niet kosteloos openbaar worden gemaakt op de website van het in artikel 16 van Richtlijn (EU) 2017/1132 bedoelde register, zorgen de lidstaten ervoor dat het duurzaamheidsverslag, het assuranceoordeel en, in voorkomend geval, de door de ondernemingen overeenkomstig lid 1 van dit artikel gepubliceerde verklaring kosteloos openbaar worden gemaakt in ten minste één van de officiële talen van de Unie, uiterlijk twaalf maanden na de balansdatum van het boekjaar waarvoor het verslag is opgesteld, op de website van de dochteronder­ neming of het bijkantoor als bedoeld in artikel 40 bis, lid 1, van deze richtlijn.
 
 ▼B
-HOOFDSTUK 10
+#### HOOFDSTUK 10
 VERSLAG VAN BETALINGEN AAN OVERHEDEN
 
 ## Art. 41
@@ -1890,7 +1890,7 @@ OESO en de resultaten van aanverwante Europese initiatieven, ook ingegaan op de 
 ▼B
 Voorts wordt in het verslag nagegaan of het haalbaar is alle emittenten in de Unie ertoe te verplichten om bij de inkoop van mineralen een due diligence-onderzoek te verrichten, teneinde zich ervan te verzekeren dat de bevoorradingsketens niet gelieerd zijn aan partijen bij een conflict en dat zij de EITI- en OESO-aanbevelingen over een verantwoord beheer van de bevoorradingsketen in acht nemen.
 ▼M3
-HOOFDSTUK 10 BIS
+#### HOOFDSTUK 10 BIS
 VERSLAG INZAKE INFORMATIE OVER DE WINSTBELASTING
 
 Artikel 48 bis
@@ -2058,7 +2058,7 @@ Uiterlijk op 22 juni 2027 dient de Commissie een verslag in over de naleving, en
 De Commissie brengt hierover verslag uit aan het Europees Parlement en de Raad, in voorkomend geval vergezeld van een wetgevingsvoor­ stel.
 
 ▼M4
-HOOFDSTUK 11
+#### HOOFDSTUK 11
 OVERGANGS- EN SLOTBEPALINGEN
 
 Artikel 48 decies

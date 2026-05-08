@@ -32,11 +32,11 @@ provenance:
 
 ## Art. 3
 
-Boek 8 van het bij artikel 2 ingevoerde Burgerlijk Wetboek, bevat de volgende bepalingen: (NOTA : Voor het boek 8, zie : 2019-04-13/29)
+## Boek 8 van het bij artikel 2 ingevoerde Burgerlijk Wetboek, bevat de volgende bepalingen: (NOTA : Voor het boek 8, zie : 2019-04-13/29)
 
-  HOOFDSTUK 4. - Wijzigingsbepalingen
+#### HOOFDSTUK 4. - Wijzigingsbepalingen
 
-  Afdeling 1. - Wijzigingen van het oude Burgerlijk Wetboek
+##### Afdeling 1. - Wijzigingen van het oude Burgerlijk Wetboek
 
 ## Art. 4
 
@@ -83,7 +83,7 @@ In boek III, titel XVII, van hetzelfde Wetboek, worden de volgende wijzigingen a
   2° in artikel 40, tweede lid, ingevoegd bij de wet van 11 juli 2013 en gewijzigd bij de wet van 25 december 2016, worden de woorden "van artikel 1325 of artikel 1326" vervangen door de woorden "van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek";
   3° in artikel 61, tweede lid, ingevoegd bij de wet van 11 juli 2013 en gewijzigd bij de wet van 25 december 2016, worden de woorden "van artikel 1325 of artikel 1326" vervangen door de woorden "van artikel 8.20 of artikel 8.21 van het Burgerlijk Wetboek".
 
-  Afdeling 2. - Wijziging van de hypotheekwet van 16 december 1851
+##### Afdeling 2. - Wijziging van de hypotheekwet van 16 december 1851
 
 ## Art. 14
 
@@ -93,7 +93,7 @@ In de hypotheekwet van 16 december 1851 worden de volgende wijzigingen aangebrac
   3° in de Franse tekst van artikel 81quater, § 3, ingevoegd bij de wet van 19 april 2014, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
   4° in de Franse tekst van artikel 110, 1°, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
+##### Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
 
 ## Art. 15
 
@@ -111,7 +111,7 @@ In artikel 877 van hetzelfde Wetboek worden de woorden "gewichtige, bepaalde en 
 
 In artikel 959 van hetzelfde Wetboek worden de woorden "de artikelen 1341 tot en met 1348" vervangen door de woorden "artikel 8.28".
 
-  Afdeling 4. - Wijzigingen van het Wetboek van vennootschappen
+##### Afdeling 4. - Wijzigingen van het Wetboek van vennootschappen
 
 ## Art. 19
 
@@ -175,7 +175,7 @@ In de Franse tekst van artikel 772/6, eerste lid, van hetzelfde Wetboek, ingevoe
 
 In de Franse tekst van artikel 787, tweede lid, van hetzelfde Wetboek worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 5. - Wijzigingen van het Sociaal Strafwetboek
+##### Afdeling 5. - Wijzigingen van het Sociaal Strafwetboek
 
 ## Art. 34
 
@@ -189,7 +189,7 @@ In de Franse tekst van artikel 163, eerste lid, 1°, c), van hetzelfde Wetboek w
 
 In de Franse tekst van artikel 164, eerste lid, 1°, b), van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 6. - Wijzigingen van het Wetboek van economisch recht
+##### Afdeling 6. - Wijzigingen van het Wetboek van economisch recht
 
 ## Art. 37
 
@@ -205,7 +205,7 @@ In artikel XII.25 van hetzelfde Wetboek, ingevoegd bij de wet van 21 juli 2016, 
 
 In artikel XX.6 van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, worden de woorden "gewichtige, bepaalde en met elkaar overeenstemmende vermoedens" vervangen door de woorden "ernstige en bepaalde aanwijzingen".
 
-  Afdeling 7. - Wijzigingen van het Wetboek van bepaalde voorrechten op zeeschepen en diverse bepalingen
+##### Afdeling 7. - Wijzigingen van het Wetboek van bepaalde voorrechten op zeeschepen en diverse bepalingen
 
 ## Art. 40
 
@@ -231,37 +231,37 @@ In de Franse tekst van artikel 35, tweede, vierde en vijfde lid, van hetzelfde W
 
 In de Franse tekst van artikel 272bis, § 4, 2°, van hetzelfde Wetboek, ingevoegd bij de wet van 2 april 1965 en gewijzigd bij de wet van 25 december 2016,worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 8. - Wijziging van de wet van 16 maart 1803 tot regeling van het notarisambt
+##### Afdeling 8. - Wijziging van de wet van 16 maart 1803 tot regeling van het notarisambt
 
 ## Art. 46
 
 In de Franse tekst van artikel 114 van de wet van 16 maart 1803 tot regeling van het notarisambt, ingevoegd bij de wet van 4 mei 1999, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 9. - Wijziging van Statuut van 2 juni 1956 van de nationale kas voor beroepskrediet
+##### Afdeling 9. - Wijziging van Statuut van 2 juni 1956 van de nationale kas voor beroepskrediet
 
 ## Art. 47
 
 In de Franse tekst van artikel 9, § 5, eerste lid, van Statuut van 2 juni 1956 van de nationale kas voor beroepskrediet worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 10. - Wijziging van de wet van 5 mei 1958 tot bevordering van de financiering van de voorraden van de steenkolenmijnen
+##### Afdeling 10. - Wijziging van de wet van 5 mei 1958 tot bevordering van de financiering van de voorraden van de steenkolenmijnen
 
 ## Art. 48
 
 In de Franse tekst van artikel 8, tweede lid, van de wet van 5 mei 1958 tot bevordering van de financiering van de voorraden van de steenkolenmijnen worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 11. - Wijziging van Statuten van 9 oktober 1971 van het Nationaal Instituut voor Radio-Elementen, afkorting: "I.R.E.", instelling van openbaar nut
+##### Afdeling 11. - Wijziging van Statuten van 9 oktober 1971 van het Nationaal Instituut voor Radio-Elementen, afkorting: "I.R.E.", instelling van openbaar nut
 
 ## Art. 49
 
 In de Franse tekst van artikel 24 van Statuten van 9 oktober 1971 van het Nationaal Instituut voor Radio-Elementen, afkorting: "I.R.E. ", instelling van openbaar nut worden de woorden "sous seing privé" vervangen door "sous signature privée".
 
-   Afdeling 12. - Wijziging van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle
+##### Afdeling 12. - Wijziging van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle
 
 ## Art. 50
 
 In de Franse tekst van artikel 39, tweede lid, van de wet van 15 april 1994 betreffende de bescherming van de bevolking en van het leefmilieu tegen de uit ioniserende stralingen voortspruitende gevaren en betreffende het Federaal Agentschap voor Nucleaire Controle, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 13. - Wijziging van de wet van 30 oktober 1998 betreffende de euro
+##### Afdeling 13. - Wijziging van de wet van 30 oktober 1998 betreffende de euro
 
 ## Art. 51
 
@@ -270,7 +270,7 @@ In de Franse tekst van de wet van 30 oktober 1998 betreffende de euro worden de 
   2° in artikel 48 worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée";
   3° in artikel 49, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 14. - Wijziging van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening
+##### Afdeling 14. - Wijziging van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening
 
 ## Art. 52
 
@@ -278,25 +278,25 @@ In artikel 46, tweede lid, van de wet van 27 oktober 2006 betreffende het toezic
   1° wordt het cijfer "1325" vervangen door het cijfer "8.20";
   2° in de Franse tekst, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  Afdeling 15. - Wijziging van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector
+##### Afdeling 15. - Wijziging van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector
 
 ## Art. 53
 
 In artikel 7, § 1, van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector, vervangen bij de wet van 25 december 2016, wordt het cijfer "1328" vervangen door het cijfer "8.22".
 
-  Afdeling 16. - Wijziging van de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen
+##### Afdeling 16. - Wijziging van de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen
 
 ## Art. 54
 
 In artikel 271/8, eerste lid, van de wet van 3 augustus 2012 betreffende de instellingen voor collectieve belegging die voldoen aan de voorwaarden van Richtlijn 2009/65/EG en de instellingen voor belegging in schuldvorderingen, ingevoegd bij de wet van 19 april 2014 en gewijzigd bij de wet van 25 december 2016, wordt het cijfer "1328" vervangen door het cijfer "8.22".
 
-  Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen
+##### Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen
 
 ## Art. 55
 
 In artikel 64, § 1, derde lid, van de wet van 4 april 2014 betreffende de verzekeringen, wordt het cijfer "1328" vervangen door het cijfer "8.22".
 
-  Afdeling 18. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
+##### Afdeling 18. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
 
 ## Art. 56
 
@@ -372,7 +372,7 @@ In de Franse tekst van artikel 14:40, vierde lid, van hetzelfde Wetboek, worden 
 
 In de Franse tekst van artikel 14:49, vierde lid, van hetzelfde Wetboek, worden de woorden "sous seing privé" vervangen door de woorden "sous signature privée".
 
-  HOOFDSTUK 5. - Opheffingsbepalingen
+#### HOOFDSTUK 5. - Opheffingsbepalingen
 
 ## Art. 73
 
@@ -382,7 +382,7 @@ In boek III, titel III, van het oude Burgerlijk Wetboek, wordt hoofdstuk VI, dat
 
 De wet van 29 april 2013 betreffende de door de advocaten van de partijen medeondertekende onderhandse akte wordt opgeheven.
 
-  HOOFDSTUK 6. - Inwerkingtreding
+#### HOOFDSTUK 6. - Inwerkingtreding
 
 ## Art. 75
 

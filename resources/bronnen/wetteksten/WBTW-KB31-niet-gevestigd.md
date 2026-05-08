@@ -306,7 +306,7 @@ De vorm van de aanvraag tot teruggaaf, de over te leggen stukken en de modalitei
 teruggaaf worden door of vanwege de Minister van Financiën bepaald.
 
 § 3. De teruggaaf geschiedt rekening houdend met de bankgegevens vermeld in de in
-paragraaf 1 bedoelde aanvraag. De bankkosten voor het verrichten van de teruggaaf worden in
+###### paragraaf 1 bedoelde aanvraag. De bankkosten voor het verrichten van de teruggaaf worden in
 voorkomend geval in mindering gebracht van het voor teruggaaf vatbare bedrag.
 
 De teruggaaf die niet kan worden uitgevoerd op de in het eerste lid beschreven wijze, geschiedt

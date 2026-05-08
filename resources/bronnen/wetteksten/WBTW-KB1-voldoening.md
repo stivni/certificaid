@@ -230,7 +230,7 @@ In afwijking van het eerste lid en overeenkomstig artikel 53, § 2bis, tweede li
 
 [1 De in artikel 13ter, tweede lid, bedoelde belastingplichtige beschikt over de technische middelen die het mogelijk maken om een gestructureerde elektronische factuur uit te reiken en te ontvangen overeenkomstig artikel 13ter, eerste lid.]1 (1)<Ingevoegd bij KB 2025-07-08/02, art. 3, 054; Inwerkingtreding : 01-01-2026>
 
-Hoofdstuk II. - De boekhouding.
+#### Hoofdstuk II. - De boekhouding.
 
 Art. 14.§ 1. De belastingplichtigen moeten een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de belasting over de toegevoegde waarde te kunnen toepassen en controleren.
 (Voor de BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, dient ieder lid een dergelijke boekhouding te voeren wat zijn eigen activiteiten betreft.) <KB 2007-05-17/35, art. 10, 025; Inwerkingtreding : 01-04-2007>
@@ -304,7 +304,7 @@ Tenzij ze het voorwerp uitmaken van een factuur, worden de handelingen bedoeld i
 (2)<KB 2015-01-24/03, art. 1, 039; Inwerkingtreding : 16-05-2014>
 (3)<KB 2021-06-29/01, art. 2, 048; Inwerkingtreding : 01-07-2021>
 
-Hoofdstuk III. [1 - Periodieke aangifte, vervangende aangifte en bijzondere aangifte]1 (1)<KB 2024-09-29/05, art. 2, 053; Inwerkingtreding : 01-01-2025>
+#### Hoofdstuk III. [1 - Periodieke aangifte, vervangende aangifte en bijzondere aangifte]1 (1)<KB 2024-09-29/05, art. 2, 053; Inwerkingtreding : 01-01-2025>
 
 Art. 17.[1 § 1. De belastingplichtige die gehouden is tot het indienen van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte dient die aangifte in bij de door de minister van Financiën aangewezen dienst, uiterlijk de twintigste dag volgend op de maand waarop zij betrekking heeft.
 § 2. In afwijking van paragraaf 1 mag de belastingplichtige een kwartaalaangifte indienen, uiterlijk de vijfentwintigste dag van de maand na ieder kalenderkwartaal, wanneer:
@@ -410,7 +410,7 @@ De administratie die belast is met de belasting over de toegevoegde waarde beves
 Het al dan niet indienen van het in het eerste lid bedoelde bezwaar laat het recht van de leverancier onverlet om in rechte op te komen tegen de in paragraaf 2 bedoelde kennisgeving.
 Het instellen van een rechtsmiddel overeenkomstig het vierde lid, beëindigt van rechtswege de in deze paragraaf bedoelde bezwaarprocedure.]1 (1)<Ingevoegd bij KB 2023-12-17/15, art. 5, 051; Inwerkingtreding : 01-01-2024>
 
-Hoofdstuk IV. - Andere verplichtingen.
+#### Hoofdstuk IV. - Andere verplichtingen.
 
 ## Art. 21
 

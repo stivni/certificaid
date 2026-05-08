@@ -96,7 +96,7 @@ WETTELIJK SAMENWONENDE PARTNERS
 
 ALGEMENE INLICHTINGEN
 De voorbereiding van de aangifte (deel 2)
-Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:
+## Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:
 •
 
 bedrijfsleiders (bestuurders, zaakvoerders, enz.)

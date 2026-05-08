@@ -33,7 +33,7 @@ provenance:
 ## Art. 2
 
 Boek 9, titel 1, van het Burgerlijk Wetboek ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, gewijzigd bij de wet van 28 april 2022, bevat de volgende bepalingen: "Boek 9. Zekerheden Titel 1. Persoonlijke zekerheden
-   Hoofdstuk 1. Gemeenschappelijke regels
+#### Hoofdstuk 1. Gemeenschappelijke regels
 ## Art. 9.1.1
 
 Aanvullend recht
@@ -87,8 +87,8 @@ Solvabiliteit en bekwaamheid van de zekerheidssteller
 Insolvabiliteit van de zekerheidssteller
    Wanneer de zekerheidssteller die door de schuldeiser is aangenomen of die de rechter hem heeft toegewezen, naderhand insolvabel is geworden, moet de hoofdschuldenaar een andere persoonlijke zekerheid verlenen.
    Deze regel lijdt slechts uitzondering in geval de zekerheid verleend is ten gevolge van een contract waarbij de schuldeiser een bepaalde persoon als zekerheidssteller heeft geëist.
-   Hoofdstuk 2. Accessoire persoonlijke zekerheid (borgtocht)
-   Afdeling 1. Aard en omvang van de borgtocht
+#### Hoofdstuk 2. Accessoire persoonlijke zekerheid (borgtocht)
+##### Afdeling 1. Aard en omvang van de borgtocht
 ## Art. 9.1.11
 
 Vermoeden van borgtocht
@@ -149,7 +149,7 @@ Pluraliteit van borgen
    Voor zover meerdere borgen dezelfde verbintenis hebben gewaarborgd, is elke borg binnen de grenzen van zijn verbintenis tegenover de schuldeiser hoofdelijk verbonden met de andere borgen. Deze regel geldt ook indien deze borgen hun verbintenissen tot zekerheid onafhankelijk van elkaar zijn aangegaan.
    De bijkomende gevolgen van de hoofdelijkheid bedoeld in artikel 5.163 zijn niet van toepassing op de borgen die zich onafhankelijk van elkaar hebben verbonden.
    Het eerste lid is van overeenkomstige toepassing op de zakelijke borgtocht.
-   Afdeling 2. Gevolgen van de borgtocht tussen de schuldeiser en de borg
+##### Afdeling 2. Gevolgen van de borgtocht tussen de schuldeiser en de borg
 ## Art. 9.1.22
 
 Subsidiaire aard - Ingebrekestelling
@@ -164,7 +164,7 @@ Voorrecht van uitwinning
 
 Informatieplicht
    Niettegenstaande enig andersluidend beding, is de schuldeiser ertoe gehouden om de borg op diens verzoek zonder uitstel in te lichten over het bedrag van de gewaarborgde verbintenis.
-   Afdeling 3. Gevolgen van de borgtocht tussen hoofdschuldenaar en borg en tussen borgen onderling
+##### Afdeling 3. Gevolgen van de borgtocht tussen hoofdschuldenaar en borg en tussen borgen onderling
 ## Art. 9.1.25
 
 Verhaalsrecht borg
@@ -198,7 +198,7 @@ Anticipatief verhaalsrecht
    3° indien de hoofdschuldenaar zich verbonden heeft om hem binnen een bepaalde tijd het ontslag van zijn borgtocht te bezorgen;
    4° indien de hoofdverbintenis opeisbaar is geworden door het verstrijken van de termijn waarop zij betaalbaar was gesteld;
    5° na verloop van tien jaren, indien de hoofdverbintenis geen bepaalde vervaltijd heeft, tenzij de hoofdverbintenis van dien aard is dat zij niet voor een bepaalde tijd kan vervallen.
-   Afdeling 4. Tenietgaan van de borgtocht
+##### Afdeling 4. Tenietgaan van de borgtocht
 ## Art. 9.1.30
 
 Zelfstandige gronden
@@ -221,7 +221,7 @@ Inbetalinggeving
 Termijnverlenging
    Eenvoudige termijnverlenging, door de schuldeiser aan de hoofdschuldenaar toegestaan, ontslaat de borg niet.
  Laatstgenoemde kan in dat geval de hoofdschuldenaar vervolgen, om hem tot betaling te verplichten.
-   Hoofdstuk 3. Autonome persoonlijke zekerheid
+#### Hoofdstuk 3. Autonome persoonlijke zekerheid
 ## Art. 9.1.35
 
 Toepassingsgebied
@@ -259,7 +259,7 @@ Overdracht
 ## Art. 9.1.41
 
 Rechten van de steller van de autonome garantie na nakoming De steller van de autonome garantie kan van de opdrachtgever van de autonome garantie alle sommen terugvorderen die hij heeft betaald overeenkomstig artikel 9.1.36, eerste lid. Tot zekerheid daarvan is de steller van de autonome garantie binnen de grenzen van hetgeen hij betaald heeft, gesubrogeerd in de rechten van de schuldeiser tegenover de schuldenaar.
-   Hoofdstuk 4. Persoonlijke zekerheid gesteld door een consument
+#### Hoofdstuk 4. Persoonlijke zekerheid gesteld door een consument
 ## Art. 9.1.42
 
 Toepassingsgebied
@@ -311,7 +311,7 @@ Informatieplicht in geval van niet-nakoming
 
 Erfgenamen
    De verbintenissen van de erfgenamen van een persoonlijke zekerheidssteller zijn beperkt tot het erfdeel dat aan elk van hen toekomt.
-   Hoofdstuk 5. Wettelijke borgtocht en gerechtelijke borgtocht
+#### Hoofdstuk 5. Wettelijke borgtocht en gerechtelijke borgtocht
 ## Art. 9.1.51
 
 Voorwaarden
@@ -329,15 +329,15 @@ Voorrecht van uitwinning
 Achterborg
    Hij die zich enkel voor een gerechtelijke borg heeft borg gesteld, kan noch van de hoofdschuldenaar, noch van de borg de uitwinning vorderen.".
 
-  HOOFDSTUK 3. - Wijzigings- en opheffingsbepalingen
+#### HOOFDSTUK 3. - Wijzigings- en opheffingsbepalingen
 
-  Afdeling 1. - Wijziging van het oud Burgerlijk Wetboek
+##### Afdeling 1. - Wijziging van het oud Burgerlijk Wetboek
 
 ## Art. 3
 
 In boek III van het oud Burgerlijk Wetboek wordt titel XIV "Borgtocht", die de artikelen 2011 tot 2043octies bevat, opgeheven.
 
-  Afdeling 2. - Wijzigingen van het Wetboek van economisch recht
+##### Afdeling 2. - Wijzigingen van het Wetboek van economisch recht
 
 ## Art. 4
 
@@ -385,7 +385,7 @@ In artikel XX.175 van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 20
 
 In artikel XX.176, eerste lid, van hetzelfde wetboek, ingevoegd bij de wet van 11 augustus 2017 en gewijzigd bij de wet van 7 juni 2023, worden de woorden "natuurlijke persoon die zich persoonlijk kosteloos zeker heeft gesteld" vervangen door de woorden "consument die een persoonlijke zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek".
 
-  Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
+##### Afdeling 3. - Wijzigingen van het Gerechtelijk Wetboek
 
 ## Art. 14
 
@@ -397,26 +397,26 @@ In artikel 1675/16bis van hetzelfde Wetboek, ingevoegd bij de wet van 13 decembe
   1° in paragraaf 1 worden de woorden "natuurlijke personen die kosteloos een persoonlijke zekerheid hebben gesteld" vervangen door de woorden "consumenten die een persoonlijke zekerheid hebben gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek";
   2° in paragraaf 2 worden de woorden "natuurlijke persoon die kosteloos een persoonlijke zekerheid" vervangen door de woorden "consument die een persoonlijke zekerheid in de zin van artikel 9.1.42, eerste en tweede lid van het Burgerlijk Wetboek".
 
-  Afdeling 4. - Wijziging van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen
+##### Afdeling 4. - Wijziging van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen
 
 ## Art. 16
 
 In artikel 8/1, § 2, van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen, ingevoegd bij de wet 21 van december 2017, worden de woorden "artikelen 2043bis tot 2043octies" vervangen door de woorden "artikelen 9.1.42 tot 9.1.50".
 
-  Afdeling 5. - Wijziging van de programmawet van 10 februari 1998 tot bevordering van het zelfstandig ondernemerschap
+##### Afdeling 5. - Wijziging van de programmawet van 10 februari 1998 tot bevordering van het zelfstandig ondernemerschap
 
 ## Art. 17
 
 In artikel 57 van de programmawet van 10 februari 1998 tot bevordering van het zelfstandig ondernemerschap, gewijzigd bij de wet van 23 maart 2019, worden de woorden "artikelen 2011 tot 2039" vervangen door de woorden "artikelen 9.1.10 tot 9.1.33".
 
-  HOOFDSTUK 4. - Overgangsbepaling
+#### HOOFDSTUK 4. - Overgangsbepaling
 
 ## Art. 18
 
 Deze wet is van toepassing op alle persoonlijke zekerheden die zijn gesteld na de inwerkingtreding van deze wet.
   Tenzij de partijen anders zijn overeengekomen, is deze wet niet van toepassing en blijven de vorige regels van toepassing op de toekomstige gevolgen van persoonlijke zekerheden die zijn gesteld voor de inwerkingtreding van deze wet.
 
-  HOOFDSTUK 5. - Inwerkingtreding
+#### HOOFDSTUK 5. - Inwerkingtreding
 
 ## Art. 19
 

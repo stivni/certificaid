@@ -128,7 +128,7 @@ Voor de toepassing van titel 4, hoofdstuk 2, en titel 8, hoofdstukken 1 tot 3, w
 Adoptie
 Voor de toepassing van dit Wetboek worden onder "bloedverwant" ook de adoptant, de geadopteerde en de bloedverwanten van de adoptant begrepen in de gevallen waarin de wet verwantschap doet ontstaan.
 
-Titel I. Ernstige schendingen van het internationaal humanitair recht
+### Titel I. Ernstige schendingen van het internationaal humanitair recht
 
 ## Art. 82
 
@@ -290,7 +290,7 @@ Uitsluiting van de rechtvaardiging en verschoning
 § 1. Onverminderd de in artikel 85, 1°, g) en h), en artikel 88, § 1, 1°, l), genoemde uitzonderingen kan geen enkel belang, geen enkele noodzaak van politieke, militaire of nationale aard de in deze titel omschreven misdrijven, zelfs bij wijze van represaille gepleegd, rechtvaardigen.
 § 2. Het feit dat de betrokkene heeft gehandeld op bevel van zijn regering of van een meerdere, ontslaat hem niet van zijn verantwoordelijkheid indien, in de gegeven omstandigheden, het bevel duidelijk het plegen van een van de misdrijven bedoeld in deze titel ten gevolge kon hebben.
 
-Titel 2. Misdaad van ecocide
+### Titel 2. Misdaad van ecocide
 
 ## Art. 94
 
@@ -304,7 +304,7 @@ c) langdurige schade: schade die onomkeerbaar is of niet binnen een redelijke te
 d) milieu: de aarde, haar ecosystemen, haar biosfeer, haar criosfeer, haar lithosfeer, haar hydrosfeer en haar atmosfeer alsmede de kosmische ruimte.
 § 2. Deze misdaad wordt bestraft met een straf van niveau 6.
 
-Titel 3. Misdrijven tegen de persoon
+### Titel 3. Misdrijven tegen de persoon
 
 ## Art. 95
 
@@ -318,7 +318,7 @@ Rechtspersonen kunnen slachtoffer zijn van de volgende misdrijven bedoeld in dez
 4° schending van plaatsen die tot woning dienen bedoeld in hoofdstuk 9, afdeling 2;
 5° schending van het beroepsgeheim bedoeld in hoofdstuk 9, afdeling 3.
 
-Hoofdstuk 1. Misdrijven tegen het leven
+#### Hoofdstuk 1. Misdrijven tegen het leven
 
 ##### Afdeling 1. Doden met het oogmerk om te doden
 
@@ -437,7 +437,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 5° het feit dat het misdrijf werd gepleegd in het bijzijn van een minderjarige;
 6° het feit dat het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".
 
-Hoofdstuk 2. Foltering, onmenselijke behandeling en onterende behandeling
+#### Hoofdstuk 2. Foltering, onmenselijke behandeling en onterende behandeling
 
 ##### Afdeling 1. Foltering
 
@@ -555,7 +555,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 3° het misdrijf werd gepleegd met behulp van of onder bedreiging van een wapen;
 4° het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".
 
-Hoofdstuk 3. Misdrijven tegen de seksuele integriteit, het seksueel zelfbeschikkingsrecht en de goede zeden
+#### Hoofdstuk 3. Misdrijven tegen de seksuele integriteit, het seksueel zelfbeschikkingsrecht en de goede zeden
 
 ##### Afdeling 1. Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting
 
@@ -1002,7 +1002,7 @@ Bescherming van de identiteit van het slachtoffer
 Noch het minderjarige slachtoffer, noch de personen aan wie diens ouderlijk gezag is toevertrouwd, kunnen hun toestemming geven.
 § 2. Het overtreden van dit artikel wordt bestraft met een straf van niveau 2.
 
-Hoofdstuk 4. Misdrijven tegen de fysieke of psychische integriteit
+#### Hoofdstuk 4. Misdrijven tegen de fysieke of psychische integriteit
 
 ##### Afdeling 1. Opzettelijke misdrijven tegen de fysieke of psychische integriteit
 
@@ -1185,7 +1185,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor het in artike
 7° de geldigheid van het rijbewijs van de bestuurder beperkt is tot motorvoertuigen die uitgerust zijn met een alcoholslot en de bestuurder een motorvoertuig bestuurt dat niet uitgerust is met een alcoholslot.
 De in de bepaling onder 5° bedoelde omstandigheid is niet van toepassing op de bestuurder die houder is van een rijbewijs waarvan de administratieve geldigheidsduur minder dan een jaar is verstreken.]1 (1)<Ingevoegd bij W 2026-02-08/04, art. 76, 003; Inwerkingtreding : 26-02-2026>
 
-Hoofdstuk 5. Misdrijven tegen de persoonlijke vrijheid
+#### Hoofdstuk 5. Misdrijven tegen de persoonlijke vrijheid
 
 ##### Afdeling 1. Vrijheidsberoving
 
@@ -1262,7 +1262,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 3° het feit dat het misdrijf werd gepleegd door een persoon met een openbare functie, in het kader van de uitoefening van deze functie;
 4° het feit dat het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".
 
-Hoofdstuk 6. Misdrijven tegen de persoonlijke rust en de morele integriteit
+#### Hoofdstuk 6. Misdrijven tegen de persoonlijke rust en de morele integriteit
 
 ##### Afdeling 1. Bedreiging
 
@@ -1386,7 +1386,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Verzwarende factor
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf omschreven in deze afdeling neemt de rechter de volgende omstandigheden in overweging dat het misdrijf werd gepleegd in een wetgevende vergadering of op de terechtzitting van een hof of van een rechtbank.
 
-Hoofdstuk 7. Schendingen van de persoonlijke waardigheid en misbruik van de kwetsbare positie van het slachtoffer
+#### Hoofdstuk 7. Schendingen van de persoonlijke waardigheid en misbruik van de kwetsbare positie van het slachtoffer
 
 ##### Afdeling 1. Misdrijven inzake de bestraffing van de discriminatie, de aanzetting tot haat en het negationisme
 
@@ -1837,7 +1837,7 @@ Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk
 3° als vrijwilliger, als lid van het statutair of contractueel personeel of als lid van de organen van bestuur en beheer, van elke rechtspersoon of feitelijke vereniging, een activiteit toegewezen te krijgen die de veroordeelde in een vertrouwens- of een gezagsrelatie tegenover minderjarigen plaatst.
 § 2. De verboden en ontzettingen bedoeld in paragraaf 1, gaan in op de dag waarop de veroordeling in kracht van gewijsde is getreden. De termijn wordt evenwel verlengd met de tijd waarin de gevangenisstraf wordt uitgevoerd, met uitzondering van de periode gedurende dewelke de straf wordt uitgevoerd onder de modaliteit van het elektronisch toezicht en periodes van voorwaardelijke of voorlopige invrijheidstelling.
 
-Hoofdstuk 8. Misdrijven met betrekking tot het in gevaar brengen van personen
+#### Hoofdstuk 8. Misdrijven met betrekking tot het in gevaar brengen van personen
 
 ##### Afdeling 1. Hulpverzuim
 
@@ -2102,7 +2102,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 3° de dader de vader, de moeder of een andere bloedverwant in de opgaande lijn is van het slachtoffer, dan wel de partner is van het slachtoffer, het gezag over het slachtoffer heeft of er de bewaring van heeft;
 4° een gewoonte wordt gemaakt van het gebruiken van een persoon met het oog op het plegen van een misdrijf.
 
-Hoofdstuk 9. Misdrijven tegen het privéleven
+#### Hoofdstuk 9. Misdrijven tegen het privéleven
 
 ##### Afdeling 1. Misdrijven betreffende het geheim van communicatie, privégegevens van een informaticasysteem en brieven
 
@@ -2217,7 +2217,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 Strafuitsluitende verschoningsgrond
 De in dit hoofdstuk bedoelde gedragingen kunnen niet worden bestraft indien de persoon met een openbare functie die een niet-manifest onrechtmatig bevel uitvoert, heeft gehandeld op bevel van zijn meerderen, in zaken die tot hun bevoegdheid behoren en waarin hij zijn meerdere als ondergeschikte gehoorzaamheid verschuldigd was.
-Hoofdstuk 10. Misdrijven tegen de burgerlijke staat van personen
+#### Hoofdstuk 10. Misdrijven tegen de burgerlijke staat van personen
 
 ##### Afdeling 1. Misdrijven met betrekking tot het bewijs van de burgerlijke staat van kinderen
 
@@ -2287,7 +2287,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Verzwarende factor
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf als bedoeld in dit hoofdstuk neemt de rechter in overweging dat het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie.
 
-Hoofdstuk 11. Misdrijven tegen het lijk en de lijk- bezorging
+#### Hoofdstuk 11. Misdrijven tegen het lijk en de lijk- bezorging
 
 ##### Afdeling 1. Zonder voorafgaande toestemming een begraving of crematie verrichten
 
@@ -2311,9 +2311,9 @@ Grafschennis
 Grafschennis is het opzettelijk vernielen, neerhalen of beschadigen van graven, gedenktekens opgericht ter nagedachtenis van de overledenen, funeraire urnen of asverspreidingsweiden waardoor de nagedachtenis van de overledene werd beledigd of gekwetst.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
-Titel 4. Misdrijven tegen de openbare veiligheid
+### Titel 4. Misdrijven tegen de openbare veiligheid
 
-Hoofdstuk 1. Terrorisme
+#### Hoofdstuk 1. Terrorisme
 
 ## Art. 371
 
@@ -2449,7 +2449,7 @@ Dit hoofdstuk is evenmin van toepassing op handelingen, buiten een gewapend conf
 Vrijwaringsclausule van de fundamentele rechten en vrijheden
 Geen enkele bepaling van dit hoofdstuk kan worden gelezen in die zin dat zij een beperking of belemmering beoogt van fundamentele rechten of vrijheden, zoals het stakingsrecht, de vrijheid van vergadering en vereniging, waaronder het recht om, voor de verdediging van de eigen belangen, samen met anderen vakbonden op te richten dan wel zich erbij aan te sluiten, evenals het daarmee samenhangende recht van betoging, de vrijheid van meningsuiting, in het bijzonder de vrijheid van drukpers en de vrijheid van meningsuiting in andere media, en zoals onder meer verankerd in de artikelen 8 tot 11 van het Europees Verdrag tot bescherming van de rechten van de mens en de fundamentele vrijheden.
 
-Hoofdstuk 2. Aanslag op en samenspanning tegen de burgerlijke vrede
+#### Hoofdstuk 2. Aanslag op en samenspanning tegen de burgerlijke vrede
 
 ## Art. 389
 
@@ -2476,7 +2476,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 5.
 Strafuitsluitende verschoningsgrond
 De persoon die, vóór het plegen van een aanslag en vóór het aanvangen van enige vervolging, een samenspanning of een voorbereiding van een aanslag en alle informatie waarover hij beschikt omtrent de omstandigheden en daders van het misdrijf aan de overheid ter kennis brengt, wordt niet gestraft.
 
-Hoofdstuk 3. Vorming van gewapende groepen en deelneming aan dergelijke groepen
+#### Hoofdstuk 3. Vorming van gewapende groepen en deelneming aan dergelijke groepen
 
 ## Art. 393
 
@@ -2544,7 +2544,7 @@ Verschaffen van onderdak aan een oproerige gewapende bende is het opzettelijk ve
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 Deze bepaling laat de toepassing van artikel 19 onverlet.
 
-Hoofdstuk 4. Vereniging met het oog op het plegen van een misdrijf en criminele organisatie
+#### Hoofdstuk 4. Vereniging met het oog op het plegen van een misdrijf en criminele organisatie
 
 ##### Afdeling 1. Vereniging met het oog op het plegen van een misdrijf
 
@@ -2606,7 +2606,7 @@ Verbeurdverklaring
 De rechter spreekt de verbeurdverklaring uit van de goederen waarover de criminele organisatie beschikt en waarvan is aangetoond dat ze nuttig zijn geweest om bij te dragen aan de criminele activiteiten die de organisatie ten laste worden gelegd, behoudens wanneer dit voor gevolg zou hebben dat de veroordeelde wordt onderworpen aan een onredelijk zware straf.
 Artikel 53, § 2, tweede lid, § 3 en §§ 6 tot 9, is van toepassing op deze verbeurdverklaring.
 
-Hoofdstuk 5. Externe beveiliging van kernmateriaal en ander radioactief materiaal
+#### Hoofdstuk 5. Externe beveiliging van kernmateriaal en ander radioactief materiaal
 
 ## Art. 412
 
@@ -2656,7 +2656,7 @@ Wederrechtelijke binnendringing in een nucleaire installatie
 De wederrechtelijke binnendringing in een nucleaire installatie is dat een persoon die extern is aan een installatie waarin kernmateriaal vervaardigd, verwerkt, gebruikt, behandeld, opgeslagen of definitief geborgen wordt, opzettelijk en zonder een bevel van de overheid en buiten de gevallen waarin de wet het toelaat, binnendringt of tracht binnen te dringen in de gedeeltes van een dergelijke installatie waarvan de toegang beperkt is tot de in artikel 8bis, §§ 1 tot 4, van de wet van 11 december 1998 betreffende de classificatie en de veiligheidsmachtigingen, veiligheidsattesten en veiligheidsadviezen bedoelde personen, hetzij zonder hiervoor de toestemming te hebben gekregen van de exploitant of zijn aangestelde, hetzij door gebruik te maken van listige kunstgrepen om de exploitant of zijn aangestelde te misleiden over zijn bevoegdheid om in deze gedeeltes van de installatie binnen te dringen.
 Dit misdrijf wordt gestraft met een straf van niveau 2.
 
-Hoofdstuk 6. Schending van havengebieden of binnendringen van een voertuig
+#### Hoofdstuk 6. Schending van havengebieden of binnendringen van een voertuig
 
 ## Art. 419
 
@@ -2686,7 +2686,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Strafuitsluitende verschoningsgrond
 Behoudens toepassing van artikel 264 dat reeds een strafuitsluitende verschoningsgrond voor slachtoffers van mensenhandel bevat, worden slachtoffers van mensensmokkel die als rechtstreeks gevolg van de op hen uitgeoefende dwang deelnemen aan de misdrijven bedoeld in dit hoofdstuk, niet gestraft voor die misdrijven.
 
-Hoofdstuk 7. Verbod van gezichtsbedekking in de publieke ruimte
+#### Hoofdstuk 7. Verbod van gezichtsbedekking in de publieke ruimte
 
 ## Art. 423
 
@@ -2699,9 +2699,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Rechtvaardigingsgrond
 Er is geen misdrijf wanneer diegenen die zich op plaatsen die voor het publiek toegankelijk zijn begeven met hun gezicht geheel of gedeeltelijk bedekt of verborgen, zodanig dat ze niet kunnen worden geïdentificeerd, dit doen op grond van arbeidsreglementen of een politieverordening naar aanleiding van feestactiviteiten.
 
-Titel 5. Valsheden
+### Titel 5. Valsheden
 
-Hoofdstuk 1. Bescherming van de munt, van de effecten, van de veiligheidskenmerken en van de zegels, stempels, keurstempels en merken en van de niet-contante betaalinstrumenten.
+#### Hoofdstuk 1. Bescherming van de munt, van de effecten, van de veiligheidskenmerken en van de zegels, stempels, keurstempels en merken en van de niet-contante betaalinstrumenten.
 
 ##### Afdeling 1. Betekenis van enkele in dit hoofdstuk gebruikte termen
 
@@ -2887,7 +2887,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Strafuitsluitende verschoningsgrond
 Personen die schuldig zijn aan een van de misdrijven, omschreven in dit hoofdstuk, worden niet gestraft, indien zij, vóór enig in omloop brengen van de nagemaakte, vervalste of beschadigde munt, zegel of effect of met een valse naam gemerkt goed, of vóór enig gebruik van de nagemaakte, vervalste of beschadigde niet-contante betaalinstrumenten en vóór enige vervolging, alle informatie waarover zij beschikken omtrent de omstandigheden en daders van die misdrijven ter kennis van de overheid brengen.
 
-Hoofdstuk 2. Valsheid in geschriften of op andere duurzame dragers en het gebruik van valse stukken
+#### Hoofdstuk 2. Valsheid in geschriften of op andere duurzame dragers en het gebruik van valse stukken
 
 ## Art. 451
 
@@ -2914,7 +2914,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document is het opzettelijk geen gevolg geven aan een door de bevoegde overheid genomen beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document binnen de opgelegde termijn.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
-Hoofdstuk 3. Aanmatiging van functies, titels of een naam
+#### Hoofdstuk 3. Aanmatiging van functies, titels of een naam
 
 ## Art. 455
 
@@ -2966,9 +2966,9 @@ Aanmatiging van een naam
 De aanmatiging van een naam is het met bedrieglijk opzet in het openbaar aannemen van een naam die de betrokken persoon niet toekomt.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
-Titel 6. Misdrijven tegen het vermogen
+### Titel 6. Misdrijven tegen het vermogen
 
-Hoofdstuk 1. Misdrijven met betrekking tot de onrechtmatige toe-eigening van goederen
+#### Hoofdstuk 1. Misdrijven met betrekking tot de onrechtmatige toe-eigening van goederen
 
 ##### Afdeling 1. Diefstal en afpersing
 
@@ -3313,7 +3313,7 @@ Bij de keuze van de straf of maatregel en de zwaarte ervan voor een misdrijf oms
 Strafuitsluitende verschoningsgrond
 De onderworpen entiteiten als bedoeld in artikel 5, §§ 1 en 4, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten, alsmede hun bestuurders, aangestelden en lasthebbers, blijven vrij van straf voor de in artikel 502 eerste lid, 1° en 3°, genoemde misdrijven, voor zover zij zich, ten aanzien van de betrokken feiten gepleegd in het raam van andere fiscale fraude dan ernstige fiscale fraude, al dan niet georganiseerd, hebben geconformeerd aan de wetgeving en reglementering inzake de bestrijding van fiscale fraude waaronder deze die voortvloeien uit voornoemde wet van 18 september 2017.
 
-Hoofdstuk 2. Misdrijven met betrekking tot de beschadiging en vernieling van goederen
+#### Hoofdstuk 2. Misdrijven met betrekking tot de beschadiging en vernieling van goederen
 
 ##### Afdeling 1. Misdrijven die een maatschappelijk gevaar doen ontstaan
 
@@ -3428,7 +3428,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 4° het misdrijf met twee of meer personen is gepleegd;
 5° het slachtoffer een persoon is met een openbare functie naar aanleiding van de uitoefening van deze functie.
 
-Hoofdstuk 3. Misdrijven betreffende informatica- systemen
+#### Hoofdstuk 3. Misdrijven betreffende informatica- systemen
 
 ##### Afdeling 1. Hacking
 
@@ -3498,9 +3498,9 @@ Informaticasabotage wordt bestraft met een straf van niveau 3 wanneer:
 Bezit of terbeschikkingstelling van een instrument dat informaticasabotage mogelijk moet maken Bezit of terbeschikkingstelling van een instrument dat informaticasabotage mogelijk moet maken is het onrechtmatig, opzettelijk bezitten, produceren, verkopen, verkrijgen met het oog op het gebruik ervan, invoeren, verspreiden of op enige andere manier ter beschikking stellen van een instrument, met inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast voor het plegen van een van de misdrijven bedoeld in de artikelen 531 en 532, terwijl de betrokkene weet dat dit instrument of deze gegevens aangewend kunnen worden om schade te berokkenen aan gegevens of, geheel of gedeeltelijk, de correcte werking van een informaticasysteem te verhinderen.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
-Titel 7. Economische misdrijven
+### Titel 7. Economische misdrijven
 
-Hoofdstuk 1. Overtreding van de wetten op de loterijen en op de pandhuizen
+#### Hoofdstuk 1. Overtreding van de wetten op de loterijen en op de pandhuizen
 
 ## Art. 534
 
@@ -3531,7 +3531,7 @@ Illegale exploitatie van een pandhuis
 Illegale exploitatie van een pandhuis is het opzettelijk houden van een pandhuis zonder voorafgaande toestemming.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
-Hoofdstuk 2. Misdrijven betreffende nijverheid en koophandel
+#### Hoofdstuk 2. Misdrijven betreffende nijverheid en koophandel
 
 ## Art. 539
 
@@ -3552,9 +3552,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 Worden vrijgesteld van straffen zij die, voor elke vervolging, alle informatie waarover zij beschikken met betrekking tot de omstandigheden en de daders van deze inbreuken ter kennis brengen aan het openbaar ministerie en indien zij hiervoor een verzoek tot immuniteit van vervolging hebben ingediend bij de Belgische Mededingingsautoriteit overeenkomstig artikel IV.54/4 van het Wetboek van economisch recht met betrekking tot dezelfde feiten.
 In geval van toepassing van het derde lid, stelt het openbaar ministerie de Belgische Mededingingsautoriteit onverwijld in kennis van de zaak en verzekert zij de nodige contacten met de Belgische Mededingingsautoriteit.
 
-Titel 8. Misdrijven tegen de Staat en zijn functioneren
+### Titel 8. Misdrijven tegen de Staat en zijn functioneren
 
-Hoofdstuk 1. Misdrijven tegen de staatsordening en de staatsmachten
+#### Hoofdstuk 1. Misdrijven tegen de staatsordening en de staatsmachten
 
 ##### Afdeling 1. Misdrijven tegen de staatsordening
 
@@ -3718,7 +3718,7 @@ Deze bepaling laat de toepassing van artikel 19 onverlet.
 Strafuitsluitende verschoningsgrond
 De persoon die voor het plegen van een aanslag en voor het aanvangen van enige vervolging een samenspanning, voorbereiding van een aanslag of een voorstel tot samenspanning en alle informatie waarover hij beschikt omtrent de omstandigheden en de daders van het misdrijf aan de overheid ter kennis brengt, wordt niet gestraft.
 
-Hoofdstuk 2. Misdrijven tegen de landsverdediging en de essentiële belangen van België
+#### Hoofdstuk 2. Misdrijven tegen de landsverdediging en de essentiële belangen van België
 
 ##### Afdeling 1. Definities
 
@@ -4050,7 +4050,7 @@ Aanzetten tot misdrijven tegen de landsverdediging is het opzettelijk, op vastho
 Dit misdrijf wordt bestraft met een straf van het tweede lagere strafniveau dan datgene gesteld op het voltooide misdrijf.
 Deze bepaling laat de toepassing van artikel 19 onverlet.
 
-Hoofdstuk 3. Misdrijven tegen de internationale betrekkingen
+#### Hoofdstuk 3. Misdrijven tegen de internationale betrekkingen
 
 ##### Afdeling 1. Aanslagen tegen een vreemde Staat of buitenlands staatshoofd
 
@@ -4123,7 +4123,7 @@ Werven van een minderjarige voor een vreemd leger
 Werven van een minderjarige voor een vreemd leger is het opzettelijk verkrijgen van een minderjarige dat deze dienst neemt in een vreemd leger of een vreemde troep, zonder de toestemming van zijn ouders of voogd, alsook de poging daartoe.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 
-Hoofdstuk 4. Ambtsmisdrijven
+#### Hoofdstuk 4. Ambtsmisdrijven
 
 ##### Afdeling 1. Schending van fundamentele rechten van de burgers
 
@@ -4276,7 +4276,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Strafuitsluitende verschoningsgrond
 De gedragingen in dit hoofdstuk worden niet bestraft indien de persoon met een openbare functie die een nietmanifest onrechtmatig bevel uitvoert, heeft gehandeld op bevel van zijn meerderen, in zaken die tot hun bevoegdheid behoren en waarin hij zijn meerderen als ondergeschikte gehoorzaamheid verschuldigd was.
 
-Hoofdstuk 5. Misdrijven tegen de rechtsbedeling
+#### Hoofdstuk 5. Misdrijven tegen de rechtsbedeling
 
 ##### Afdeling 1. Belemmering van onderzoeksdaden en beveiligings- of bewaringsmaatregelen
 
@@ -4608,7 +4608,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ##### Onderafdeling 5. Het overgooien van voorwerpen over de muren of afsluitingen van een gevangenis, een
 
-afdeling of een inrichting tot bescherming van de maatschappij
+##### afdeling of een inrichting tot bescherming van de maatschappij
 
 ## Art. 687
 
@@ -4623,7 +4623,7 @@ Niet-naleving van een beslissing tot overlegging van een stuk
 Niet-naleving van een beslissing tot overlegging van een stuk is het met bedrieglijk opzet vernietigen, veranderen of verbergen van een stuk dat men onder zich heeft en waarvan de overlegging in rechte bij een vonnis wordt bevolen.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
-Hoofdstuk 6. Belemmering van openbare werken
+#### Hoofdstuk 6. Belemmering van openbare werken
 
 ## Art. 689
 
@@ -4636,7 +4636,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 Belemmering van openbare werken door geweld of bedreiging
 Indien de belemmering van openbare werken gebeurt door geweld of bedreiging, wordt dit misdrijf bestraft met een straf van niveau 2.
 
-Hoofdstuk 7. Subsidiefraude
+#### Hoofdstuk 7. Subsidiefraude
 
 ## Art. 691
 

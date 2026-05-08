@@ -58,7 +58,7 @@ handeling de hoedanigheid van belastingplichtige, op voorwaarde dat hij :
     weder over te dragen, met voldoening van de belasting;
     2° de medecontractant op de hoogte brengt van zijn bedoeling de vervreemding te doen met
     betaling van de belasting, door middel van een vermelding in de eerste akte die tussen hen
-    titel vormt van de vervreemding van een gebouw of een gedeelte van een gebouw en het
+### titel vormt van de vervreemding van een gebouw of een gedeelte van een gebouw en het
     bijhorende terrein, van de vestiging, overdracht of wederoverdracht van een zakelijk recht in
     de zin van artikel 9, tweede lid, 2°, van het Wetboek, op zulke goederen.
 

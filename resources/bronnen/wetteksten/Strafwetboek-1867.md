@@ -58,9 +58,9 @@ Het misdrijf, buiten het grondgebied van het Rijk door Belgen of door vreemdelin
 
 De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toepassen in alle bij dit wetboek niet geregelde zaken.
 
-  HOOFDSTUK II. - STRAFFEN.
+#### HOOFDSTUK II. - STRAFFEN.
 
-  AFDELING I. - VERSCHILLENDE SOORTEN VAN STRAFFEN.
+##### AFDELING I. - VERSCHILLENDE SOORTEN VAN STRAFFEN.
 
 ## Art. 7
 
@@ -104,7 +104,7 @@ De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toep
   ----------
   (1)<W 2018-07-11/10, art. 3, 132; Inwerkingtreding : 30-07-2018>
 
-  AFDELING II. - CRIMINELE STRAFFEN.
+##### AFDELING II. - CRIMINELE STRAFFEN.
 
 ## Art. 8
 
@@ -193,7 +193,7 @@ De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toep
 
 (Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestigd door <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>)
 
-  AFDELING III. - CORRECTIONELE GEVANGENISSTRAF.
+##### AFDELING III. - CORRECTIONELE GEVANGENISSTRAF.
 
 ## Art. 25
 
@@ -217,7 +217,7 @@ De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toep
 
 (Opgeheven) <W 18-03-1970, art. 3>
 
-  AFDELING IV. - POLITIEGEVANGENISSTRAF.
+##### AFDELING IV. - POLITIEGEVANGENISSTRAF.
 
 ## Art. 28
 
@@ -244,9 +244,9 @@ Elke hechtenis, vóór het onherroepelijk worden van de veroordeling ondergaan t
 
 (Oud artikel 30bis) (Opgeheven) <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>
 
-  AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN.
+##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN.
 
-  Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen).
+###### Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen).
 
 ## Art. 31
 
@@ -291,7 +291,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   Bovendien heeft de ontzetting haar gevolgen met ingang van de dag waarop de op tegenspraak of bij verstek gewezen veroordeling onherroepelijk is geworden.
   (De ontzetting die is uitgesproken ten aanzien van een veroordeelde die overeenkomstig de wet van 29 juni 1964 betreffende de opschorting, het uitstel en de probatie voor de tenuitvoerlegging van zijn straf volledig of gedeeltelijk uitstel heeft verkregen, gaat in op de dag waarop het uitstel begint te lopen zolang dat niet wordt herroepen.) <W 2003-12-22/42, art. 380, 047; Inwerkingtreding : 10-01-2004, is vanaf zijn inwerkingtreding van toepassing, ook voor de veroordeelde personen die uitstel genieten of genoten hebben>
 
-  Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-04- 26/89, art. 3; Inwerkingtreding : 01-01-2012>
+###### Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-04- 26/89, art. 3; Inwerkingtreding : 01-01-2012>
 
 ## Art. 34bis
 
@@ -335,7 +335,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   ----------
   (1)<W 2014-04-25/23, art. 59, 104; Inwerkingtreding : 24-05-2014>
 
-  Onderafdeling II. - (Staffen aan misdaden en wanbedrijven gemeen, toepasselijk op rechtspersonen).
+###### Onderafdeling II. - (Staffen aan misdaden en wanbedrijven gemeen, toepasselijk op rechtspersonen).
 
 ## Art. 35
 
@@ -354,7 +354,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
 
 <Ingevoegd bij W 1999-05-04/60, art. 6; Inwerkingtreding : 02-07-1999> Bekendmaking of verspreiding van de beslissing op kosten van de veroordeelde kan door de rechter worden uitgesproken in de gevallen bepaald door de wet.
 
-  AFDELING Vbis. ([2 oude afdeling Vter hernummerd tot nieuwe afdeling Vbis]2) [1 - De straf onder elektronisch toezicht]1
+##### AFDELING Vbis. ([2 oude afdeling Vter hernummerd tot nieuwe afdeling Vbis]2) [1 - De straf onder elektronisch toezicht]1
   ----------
 
   (1)<Ingevoegd bij W 2014-02-07/15, art. 6, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016> (2)<W 2014-04-10/80, art. 3, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
@@ -417,7 +417,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   ----------
   (1)<Ingevoegd bij W 2014-02-07/15, art. 8, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016, art. 8 gewijzigd bij W 2016-02-05/11, art. 45, 114>
 
-  AFDELING Vter. - ([1 de oude afdeling Vbis vernummerd tot een nieuwe afdeling Vter]1) DE WERKSTRAF <Ingevoegd bijW 2002-04-17/33, art. 3; Inwerkingtreding : 07-05-2002>
+##### AFDELING Vter. - ([1 de oude afdeling Vbis vernummerd tot een nieuwe afdeling Vter]1) DE WERKSTRAF <Ingevoegd bijW 2002-04-17/33, art. 3; Inwerkingtreding : 07-05-2002>
   ----------
   (1)<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
 
@@ -462,7 +462,7 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
    ----------
    (1)<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016> (2)<W 2014-04-10/80, art. 6, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)> (3)<W 2019-05-05/10, art. 66, 137; Inwerkingtreding : 03-06-2019>
 
-  AFDELING Vquater. [1 - De autonome probatiestraf]1
+##### AFDELING Vquater. [1 - De autonome probatiestraf]1
   ----------
   (1)<Ingevoegd bij W 2014-04-10/80, art. 7, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzid zichzelf bij W 2015-11-23/02, art. 13)>
 
@@ -533,9 +533,9 @@ De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald
   ----------
   (1)<Ingevoegd bij W 2014-04-10/80, art. 11, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)> (2)<W 2024-01-18/06, art. 16, 157; Inwerkingtreding : 05-02-2024>
 
-  AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
 
-   Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7;
+###### Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7;
  Inwerkingtreding : 02-07-1999>
 
 ## Art. 38
@@ -558,7 +558,7 @@ Bij gebreke van betaling binnen twee maanden te rekenen van het arrest of van he
 
 In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door de geldboete te betalen; hij kan zich niet onttrekken aan het verhaal op zijn goederen door aan te bieden de gevangenisstraf te ondergaan.
 
-   Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8;
+###### Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8;
  Inwerkingtreding : 02-07-1999>
 
 ## Art. 41bis
@@ -566,7 +566,7 @@ In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door
 <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999> § 1. De geldboeten toepasselijk op misdrijven gepleegd door rechtspersonen, zijn : in criminele en correctionele zaken : - wanneer de wet op het feit levenslange vrijheidsstraf stelt : geldboete van tweehonderdveertig duizend [euro] tot zevenhonderdtwintigduizend [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> - wanneer de wet op het feit vrijheidsstraf en geldboete stelt, of een van de straffen alleen : geldboete van minimum vijfhonderd [euro] vermenigvuldigd met het getal van de maanden van de minimumvrijheidsstraf, doch niet lager dan de minimumgeldboete op het feit gesteld; met als maximum tweeduizend [euro] vermenigvuldigd met het getal van de maanden van de maximumvrijheidsstraf, doch niet lager dan het dubbele van de maximumgeldboete op het feit gesteld; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> - wanneer de wet op het feit enkel geldboete stelt : geldboete met minimum en maximum als door de wet op het feit gesteld; in politiezaken : - geldboete van vijfentwintig [euro] tot tweehonderdvijftig [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 2. Voor het bepalen van de straf bedoeld in § 1 zijn de bepalingen van Boek I van toepassing.
 
-  Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
+###### Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
 
 ## Art. 42
 
@@ -637,7 +637,7 @@ Bij misdaad of wanbedrijf wordt bijzondere verbeurdverklaring (toepasselijk op d
    (3)<W 2019-05-05/10, art. 69, 137; Inwerkingtreding : 03-06-2019>
    (4)<W 2022-03-21/01, art. 89, 148; Inwerkingtreding : 01-06-2022>
 
-  HOOFDSTUK III. - ANDERE VEROORDELINGEN DIE WEGENS MISDADEN, WANBEDRIJVEN OF OVERTREDINGEN KUNNEN WORDEN UITGESPROKEN.
+#### HOOFDSTUK III. - ANDERE VEROORDELINGEN DIE WEGENS MISDADEN, WANBEDRIJVEN OF OVERTREDINGEN KUNNEN WORDEN UITGESPROKEN.
 
 ## Art. 44
 
@@ -678,7 +678,7 @@ Wanneer de goederen van de veroordeelde ontoereikend zijn om de veroordelingen t
 
 <Ingevoegd bij W 1999-05-04/60, art. 10; Inwerkingtreding : 02-07-1999> Niemand kan burgerrechtelijk aansprakelijk worden gesteld voor betaling van geldboete waartoe een ander wordt veroordeeld, indien hij wegens dezelfde feiten wordt veroordeeld.
 
-  HOOFDSTUK IV. - POGING TOT MISDAAD OF TOT WANBEDRIJF.
+#### HOOFDSTUK IV. - POGING TOT MISDAAD OF TOT WANBEDRIJF.
 
 ## Art. 51
 
@@ -695,7 +695,7 @@ Poging tot misdaad wordt gestraft met de straf die, overeenkomstig de artikelen 
 
 De wet bepaalt in welke gevallen en met welke straffen poging tot wanbedrijf wordt gestraft.
 
-  HOOFDSTUK V. - HERHALING.
+#### HOOFDSTUK V. - HERHALING.
 
 ## Art. 54
 
@@ -736,7 +736,7 @@ De bepalingen betreffende de herhaling worden toegepast overeenkomstig de vorige
   ----------
   (1)<Ingevoegd bij W 2014-04-25/23, art. 60, 104; Inwerkingtreding : 24-05-2014> (NOTA : bij arrest nr.148/2017 van 21-12-2017 (B.St. 12-01-2018, p. 1393), heeft het Grondwettelijk Hof het artikel 15 vernietigd)
 
-  HOOFDSTUK VI. - SAMENLOOP VAN VERSCHEIDENE MISDRIJVEN.
+#### HOOFDSTUK VI. - SAMENLOOP VAN VERSCHEIDENE MISDRIJVEN.
 
 ## Art. 58
 
@@ -776,7 +776,7 @@ De straffen van bijzondere verbeurdverklaring wegens verscheidene misdaden, wanb
 <W 1994-07-11/33, art. 45, 012; Inwerkingtreding : 31-07-1994> Wanneer een zelfde feit verscheidende misdrijven oplevert of wanneer verschillende misdrijven die de opeenvolgende en voortgezette uitvoering zijn van een zelfde misdadig opzet, gelijktijdig worden voorgelegd aan een zelfde feitenrechter, wordt alleen de zwaarste straf uitgesproken.
   Wanneer de feitenrechter vaststelt dat misdrijven die reeds het voorwerp waren van een in kracht van gewijsde gegane beslissing en andere feiten die bij hem aanhangig zijn en die, in de veronderstelling dat zij bewezen zouden zijn, aan die beslissing voorafgaan en samen met de eerste misdrijven de opeenvolgende en voortgezette uitvoering zijn van een zelfde misdadig opzet, houdt hij bij de straftoemeting rekening met de reeds uitgesproken straffen. Indien deze hem voor een juiste bestraffing van al de misdrijven voldoende lijken, spreekt hij zich uit over de schuldvraag en verwijst hij in zijn beslissing naar de reeds uitgesproken straffen. Het geheel van de straffen uitgesproken met toepassing van dit artikel mag het maximum van de zwaarste straf niet te boven gaan.
 
-  HOOFDSTUK VII. - DEELNEMING VAN VERSCHEIDENE PERSONEN AAN EENZELFDE MISDAAD OF WANBEDRIJF.
+#### HOOFDSTUK VII. - DEELNEMING VAN VERSCHEIDENE PERSONEN AAN EENZELFDE MISDAAD OF WANBEDRIJF.
 
 ## Art. 66
 
@@ -802,7 +802,7 @@ Medeplichtigen aan een misdaad worden gestraft met de straf die, overeenkomstig 
    ----------
    (1)<W 2016-02-05/11, art. 16, 114; Inwerkingtreding : 29-02-2016>
 
-  HOOFDSTUK VIII. - RECHTVAARDIGINGS- EN VERSCHONINGSGRONDEN.
+#### HOOFDSTUK VIII. - RECHTVAARDIGINGS- EN VERSCHONINGSGRONDEN.
 
 ## Art. 70
 
@@ -845,7 +845,7 @@ Medeplichtigen aan een misdaad worden gestraft met de straf die, overeenkomstig 
 
 Geen misdaad of wanbedrijf is verschoonbaar dan in de gevallen bij de wet bepaald.
 
-  HOOFDSTUK IX. [1 - Verzwarende omstandigheden, verzwarende factoren en verzachtende omstandigheden.]1
+#### HOOFDSTUK IX. [1 - Verzwarende omstandigheden, verzwarende factoren en verzachtende omstandigheden.]1
   ----------
   (1)<W 2022-12-06/02, art. 24, 152; Inwerkingtreding : 31-12-2022>
 
@@ -911,7 +911,7 @@ Schuldigen wier criminele straf tot gevangenisstraf wordt verminderd, kunnen wor
   (1)<W 2009-04-14/01, art. 7, 073; Inwerkingtreding : 15-04-2009>
   (2)<W 2014-02-07/15, art. 13, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016, opgeheven op 29- 02-2016 bij W 2016-02-05/11, art. 42> (3)<W 2014-04-10/80, art. 15, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13), art. 15 gewijzigd bij W 2016-02-05/11, art. 55, 114> (4)<W 2018-07-11/02, art. 8, 131; Inwerkingtreding : 28-07-2018>
 
-  HOOFDSTUK X. - TENIETGAAN VAN DE STRAFFEN.
+#### HOOFDSTUK X. - TENIETGAAN VAN DE STRAFFEN.
 
 ## Art. 86
 
@@ -997,7 +997,7 @@ Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in cr
   (1)<W 2012-12-10/14, art. 43, 088; Inwerkingtreding : 21-01-2013>
   (2)<W 2022-01-19/18, art. 39, 149; Inwerkingtreding : 01-07-2022>
 
-  HOOFDSTUK XI. [1 - Wijze waarop rekening wordt gehouden met de in andere staten door strafgerechten uitgesproken veroordelingen]1
+#### HOOFDSTUK XI. [1 - Wijze waarop rekening wordt gehouden met de in andere staten door strafgerechten uitgesproken veroordelingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-25/23, art. 61, 104; Inwerkingtreding : 24-05-2014>
 
@@ -1022,11 +1022,11 @@ Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in cr
 
 <Ingevoegd bij W 2000-11-28/35, art. 3, 029; Inwerkingtreding : 27-03-2001> Wanneer in de bepalingen van boek II de term " minderjarige " wordt aangewend, wordt daaronder elke persoon verstaan die de leeftijd van achttien jaar nog niet heeft bereikt.
 
-  BOEK 2. - DE MISDRIJVEN EN HUN BESTRAFFING IN HET BIJZONDER.
+## BOEK 2. - DE MISDRIJVEN EN HUN BESTRAFFING IN HET BIJZONDER.
 
-  TITEL I. - MISDADEN EN WANBEDRIJVEN TEGEN DE VEILIGHEID VAN DE STAAT.
+### TITEL I. - MISDADEN EN WANBEDRIJVEN TEGEN DE VEILIGHEID VAN DE STAAT.
 
-  HOOFDSTUK I. - AANSLAG OP EN SAMENSPANNING TEGEN DE KONING, DE KONINKLIJKE FAMILIE EN DE REGERINGSVORM.
+#### HOOFDSTUK I. - AANSLAG OP EN SAMENSPANNING TEGEN DE KONING, DE KONINKLIJKE FAMILIE EN DE REGERINGSVORM.
 
 ## Art. 101
 
@@ -1082,7 +1082,7 @@ Het voorstel dat wordt gedaan, maar niet aangenomen, om een samenspanning te sme
 
 (Zie NOTA 1 onder TITEL) Hij die heel alleen het besluit neemt om een aanslag te plegen op het leven of op de persoon van de Koning, van de vermoedelijke troonopvolger, van de in artikel 103 genoemde leden van de koninklijke familie, van de Regent of van de ministers die de grondwettelijke macht van de Koning uitoefenen, wordt gestraft met (opsluiting van vijf jaar tot tien jaar), indien hij een daad heeft gepleegd om de uitvoering ervan voor te bereiden. <W 2003-01-23/42, art. 23, 040; Inwerkingtreding : 13-03-2003>
 
-  HOOFDSTUK II. - MISDADEN EN WANBEDRIJVEN TEGEN DE UITWENDIGE VEILIGHEID VAN DE STAAT.
+#### HOOFDSTUK II. - MISDADEN EN WANBEDRIJVEN TEGEN DE UITWENDIGE VEILIGHEID VAN DE STAAT.
 
 ## Art. 112/1
 
@@ -1310,7 +1310,7 @@ Hij die door vijandelijke handelingen, door de Regering niet goedgekeurd, de Sta
 <B 20-09-1945, art. 2> <W 01-06-1949, art. 1, 4°> De vennootschappen zijn burgerrechtelijk aansprakelijk voor de veroordelingen tot schadevergoeding, geldboete, kosten, verbeurdverklaring, teruggave en geldelijke sancties van welke aard ook, die wegens overtreding van de bepalingen van dit hoofdstuk tegen hun organen of aangestelden zijn uitgesproken.
   Dit geldt eveneens voor de leden van alle handelsverenigingen die geen rechtspersoonlijkheid bezitten, wanneer het misdrijf door een vennoot, zaakvoerder of aangestelde is gepleegd ter gelegenheid van een tot de werkzaamheid van de vereniging behorende verrichting. Evenwel is de burgerrechtelijk aansprakelijke vennoot persoonlijk niet verder gehouden dan tot de sommen of waarden die de verrichting hem opgebracht heeft.
   Die vennootschappen en vennoten kunnen rechtstreeks voor de strafrechter gedagvaard worden door het openbaar ministerie of door de burgerlijke partij.
-  HOOFDSTUK III. - MISDADEN TEGEN DE INWENDIGE VEILIGHEID VAN DE STAAT.
+#### HOOFDSTUK III. - MISDADEN TEGEN DE INWENDIGE VEILIGHEID VAN DE STAAT.
 
 ## Art. 124
 
@@ -1394,7 +1394,7 @@ Onder het woord wapens worden begrepen alle toestellen, werktuigen, gereedschapp
 
 Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van vervolging die samenspanningen of die misdrijven en hun daders of medeplichtigen aan de overheid kenbaar maken, blijven vrij van de straffen, gesteld op de samenspanningen omschreven in deze titel, en op de misdrijven omschreven in artikel 111.
 
-  TITEL Ibis. - Ernstige schendingen van het internationaal humanitair recht. <ingevoegd bij W 2003-08-05/32, art. 5; Inwerkingtreding : 07-08-2003>
+### TITEL Ibis. - Ernstige schendingen van het internationaal humanitair recht. <ingevoegd bij W 2003-08-05/32, art. 5; Inwerkingtreding : 07-08-2003>
 
 ## Art. 136bis
 
@@ -1521,7 +1521,7 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
 <ingevoegd bij W 2003-08-05/32, art. 12; Inwerkingtreding : 07-08-2003> § 1. Onverminderd de in artikel 136quater, § 1, 18°, 22° en 23° genoemde uitzonderingen kan geen enkel belang, geen enkele noodzaak van politieke, militaire of nationale aard de in de artikelen 136bis, 136ter, 136quater, 136sexies en 136septies omschreven misdrijven, zelfs bij wijze van represaille gepleegd, rechtvaardigen.
   § 2. Dat de beschuldigde op bevel van zijn regering of van een meerdere heeft gehandeld, ontslaat hem niet van zijn verantwoordelijkheid indien, in de gegeven omstandigheden, het bevel duidelijk het plegen van een van de misdrijven bedoeld in de artikelen 136bis, 136ter en 136quater ten gevolge kon hebben.
 
-  TITEL Iter. - TERRORISTISCHE MISDRIJVEN. <Ingevoegd bij W 2003-12-19/34, art. 2; Inwerkingtreding : 08-01- 2004>
+### TITEL Iter. - TERRORISTISCHE MISDRIJVEN. <Ingevoegd bij W 2003-12-19/34, art. 2; Inwerkingtreding : 08-01- 2004>
 
 ## Art. 137
 
@@ -1666,11 +1666,11 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
    ----------
    (1)<Ingevoegd bij W 2026-02-08/02, art. 5, 167; Inwerkingtreding : 28-02-2026>
 
-  TITEL II. - MISDADEN EN WANBEDRIJVEN DIE DOOR DE GRONDWET GEWAARBORGDE RECHTEN SCHENDEN.
+### TITEL II. - MISDADEN EN WANBEDRIJVEN DIE DOOR DE GRONDWET GEWAARBORGDE RECHTEN SCHENDEN.
 
-  HOOFDSTUK I. - WANBEDRIJVEN BETREFFENDE DE UITOEFENING VAN POLITIEKE RECHTEN. <Opgeheven bij W 2003-12-19/34, art. 10, 046; Inwerkingtreding : 08-01-2004>
+#### HOOFDSTUK I. - WANBEDRIJVEN BETREFFENDE DE UITOEFENING VAN POLITIEKE RECHTEN. <Opgeheven bij W 2003-12-19/34, art. 10, 046; Inwerkingtreding : 08-01-2004>
 
-  HOOFDSTUK I. - WANBEDRIJVEN BETREFFENDE DE VRIJE UITOEFENING VAN DE EREDIENSTEN. <W 2003-12- 19/34, art. 11, 046; Inwerkingtreding : 08-01-2004>
+#### HOOFDSTUK I. - WANBEDRIJVEN BETREFFENDE DE VRIJE UITOEFENING VAN DE EREDIENSTEN. <W 2003-12- 19/34, art. 11, 046; Inwerkingtreding : 08-01-2004>
 
 ## Art. 142
 
@@ -1695,7 +1695,7 @@ Met dezelfde straffen wordt gestraft hij die een bedienaar van een eredienst in 
 
 Indien de slagen bloedstorting, verwonding of ziekte veroorzaken, wordt de schuldige gestraft met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van honderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  HOOFDSTUK II. - SCHENDING DOOR OPENBARE AMBTENAREN VAN RECHTEN DOOR DE GRONDWET GEWAARBORGD. <W 2003-12-19/34, art. 12, 046; Inwerkingtreding : 08-01-2004>
+#### HOOFDSTUK II. - SCHENDING DOOR OPENBARE AMBTENAREN VAN RECHTEN DOOR DE GRONDWET GEWAARBORGD. <W 2003-12-19/34, art. 12, 046; Inwerkingtreding : 08-01-2004>
 
 ## Art. 147
 
@@ -1755,9 +1755,9 @@ Met geldboete van tweehonderd [euro] tot tweeduizend [euro] worden gestraft, en 
 
 Met dezelfde straf worden gestraft de ambtenaren van het openbare ministerie, de rechters of de openbare officieren, die iemand vasthouden of doen vasthouden buiten de plaatsen, door de Regering of door het openbaar bestuur aangewezen.
 
-  TITEL III. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE TROUW.
+### TITEL III. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE TROUW.
 
-  HOOFDSTUK I. - VALSE MUNT.
+#### HOOFDSTUK I. - VALSE MUNT.
 
 ## Art. 160
 
@@ -1825,7 +1825,7 @@ Hij die nagemaakte of geschonden muntstukken, die hij voor goede ontvangen heeft
 (Zie NOTA 1 onder TITEL) Zij die dat bedrog plegen bij de keuze van de monsters van munten in ander metaal, worden gestraft met (opsluiting van vijf jaar tot tien jaar). <W 2003-01-23/42, art. 44, 040;
  Inwerkingtreding : 13-03-2003>
 
-  HOOFDSTUK II. - NAMAKING OF VERVALSING VAN OPENBARE EFFECTEN, AANDELEN, SCHULDBRIEVEN, RENTEBEWIJZEN EN BIJ DE WET TOEGELATEN BANKBILJETTEN.
+#### HOOFDSTUK II. - NAMAKING OF VERVALSING VAN OPENBARE EFFECTEN, AANDELEN, SCHULDBRIEVEN, RENTEBEWIJZEN EN BIJ DE WET TOEGELATEN BANKBILJETTEN.
 
 ## Art. 173
 
@@ -1862,7 +1862,7 @@ Hij die, zonder schuldig te zijn aan de deelneming in het vorige artikel omschre
 
 Hij die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewijzen of biljetten die hij voor goede ontvangen heeft, weer in omloop brengt, na de ondeugdelijkheid ervan te hebben vastgesteld of doen vaststellen, wordt gestraft met gevangenisstraf van een maand tot een jaar en met geldboete van vijftig [euro] tot duizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002> (Poging tot het wanbedrijf omschreven in het vorige lid wordt gestraft met gevangenisstraf van vijftien dagen tot zes maanden en met geldboete van zesentwintig [euro] tot vijfhonderd [euro] of met een van die straffen alleen.) <W 2001-04-04/39, art. 6, 031; Inwerkingtreding : 03-07-2001> <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  HOOFDSTUK IIbis. <Ingevoegd bij W 2001-12-10/31, art. 19; Inwerkingtreding : 01-01-2002> - BESCHERMING VAN DE GELDTEKENS DIE WETTIG BETAALMIDDEL ZIJN.
+#### HOOFDSTUK IIbis. <Ingevoegd bij W 2001-12-10/31, art. 19; Inwerkingtreding : 01-01-2002> - BESCHERMING VAN DE GELDTEKENS DIE WETTIG BETAALMIDDEL ZIJN.
 
 ## Art. 178bis
 
@@ -1872,7 +1872,7 @@ Hij die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewij
 
 <Ingevoegd bij W 2001-12-10/31, art. 21; Inwerkingtreding : 01-01-2002> Hij die, wetens en willens, een geldteken, dat in België of in het buitenland wettig betaalmiddel is, aanwendt als drager van een boodschap van publicitaire of andere aard, of hij die, wetens en willens, het gebruik ervan als betaalmiddel bemoeilijkt door het te beschadigen, bekladden, overschrijven, of ongeschikt te maken, op welke wijze ook, wordt gestraft met gevangenisstraf van acht dagen tot drie maanden en met geldboete van 26 tot 1 000 EUR of met één van die straffen alleen.
 
-  HOOFDSTUK IIter. [1 - NAMAKING OF VERVALSING VAN NIET-CONTANTE BETAALINSTRUMENTEN.]1
+#### HOOFDSTUK IIter. [1 - NAMAKING OF VERVALSING VAN NIET-CONTANTE BETAALINSTRUMENTEN.]1
   ----------
   (1)<Ingevoegd bij W 2023-07-12/10, art. 3, 153; Inwerkingtreding : 18-09-2023>
 
@@ -1914,7 +1914,7 @@ Hij die nagemaakte of vervalste aandelen, schuldbrieven, rente- of dividendbewij
   ----------
   (1)<Ingevoegd bij W 2023-07-12/10, art. 9, 153; Inwerkingtreding : 18-09-2023>
 
-  HOOFDSTUK III. - NAMAKING OF VERVALSING VAN ZEGELS, STEMPELS, MERKEN, ENZ.
+#### HOOFDSTUK III. - NAMAKING OF VERVALSING VAN ZEGELS, STEMPELS, MERKEN, ENZ.
 
 ## Art. 179
 
@@ -2021,14 +2021,14 @@ Hij die op fabrikaten de naam van een andere fabrikant dan de voortbrenger, of d
    ----------
    (1)<W 2023-07-12/10, art. 11, 153; Inwerkingtreding : 18-09-2023>
 
-  HOOFDSTUK IV. - VALSHEID IN GESCHRIFTEN, IN INFORMATICA EN IN TELEGRAMMEN. <W 2000-11-28/34, art. 2, 028; Inwerkingtreding : 13-02-2001>
+#### HOOFDSTUK IV. - VALSHEID IN GESCHRIFTEN, IN INFORMATICA EN IN TELEGRAMMEN. <W 2000-11-28/34, art. 2, 028; Inwerkingtreding : 13-02-2001>
 
 ## Art. 193
 
 Valsheid in (geschriften, informatica of in telegrammen), met bedrieglijk opzet of met het oogmerk om te schaden, wordt gestraft overeenkomstig de volgende artikelen. <W 2000-11-28/34, art. 3, 028;
  Inwerkingtreding : 13-02-2001>
 
-  AFDELING I. - VALSHEID IN AUTHENTIEKE EN OPENBARE GESCHRIFTEN, IN HANDELS- OF BANKGESCHRIFTEN EN IN PRIVATE GESCHRIFTEN.
+##### AFDELING I. - VALSHEID IN AUTHENTIEKE EN OPENBARE GESCHRIFTEN, IN HANDELS- OF BANKGESCHRIFTEN EN IN PRIVATE GESCHRIFTEN.
 
 ## Art. 194
 
@@ -2046,7 +2046,7 @@ Valsheid in (geschriften, informatica of in telegrammen), met bedrieglijk opzet 
 
 In alle gevallen in deze afdeling vermeld, wordt hij die gebruik maakt van de valse akte of van het valse stuk, gestraft alsof hij de dader van de valsheid was.
 
-  AFDELING II. - VALSHEID IN REISPASSEN, MACHTIGINGEN OM WAPENS TE DRAGEN, ARBEIDSBOEKJES, REISORDERS EN GETUIGSCHRIFTEN.
+##### AFDELING II. - VALSHEID IN REISPASSEN, MACHTIGINGEN OM WAPENS TE DRAGEN, ARBEIDSBOEKJES, REISORDERS EN GETUIGSCHRIFTEN.
 
 ## Art. 198
 
@@ -2112,7 +2112,7 @@ Zij die als getuige meewerken om door een openbare overheid een vals getuigschri
 
 <W 17-12-1963, art. 3> Hij die bij de wet krachtens deze wet gelast is betreffende het herbergen van reizigers een register of kaarten te houden en deze personen wetens op valse namen inschrijft, of dit register of deze kaarten op enige andere wijze vervalst, wordt gestraft met gevangenisstraf van acht dagen tot drie maanden.
 
-  AFDELING IIbis. - Valsheid in informatica. <ingevoegd bij W 2000-11-28/34, art. 4; Inwerkingtreding : 13-02- 2001>
+##### AFDELING IIbis. - Valsheid in informatica. <ingevoegd bij W 2000-11-28/34, art. 4; Inwerkingtreding : 13-02- 2001>
 
 ## Art. 210bis
 
@@ -2122,7 +2122,7 @@ Zij die als getuige meewerken om door een openbare overheid een vals getuigschri
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    § 4. De straffen bepaald in de §§ 1 tot 3 worden verdubbeld indien een overtreding van een van die bepalingen wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die strafbare feiten of wegens een van de strafbare feiten bedoeld in de artikelen 259bis, 314bis, 504quater of in titel IXbis.
 
-  AFDELING III. - VALSHEID IN TELEGRAMMEN.
+##### AFDELING III. - VALSHEID IN TELEGRAMMEN.
 
 ## Art. 211
 
@@ -2148,7 +2148,7 @@ In de gevallen, [1 omschreven in de hoofdstukken I tot IV van deze titel]1 en wa
    ----------
    (1)<W 2014-05-05/09, art. 14, 106; Inwerkingtreding : 18-07-2014>
 
-  HOOFDSTUK V. - VALS GETUIGENIS EN MEINEED.
+#### HOOFDSTUK V. - VALS GETUIGENIS EN MEINEED.
 ## Art. 215
 
 (Zie NOTA 1 onder TITEL) Vals getuigenis in criminele zaken, hetzij ten nadele, hetzij ten voordele van de beschuldigde, wordt gestraft met (opsluiting van vijf jaar tot tien jaar). <W 2003-01-23/42, art. 49, 040;
@@ -2210,7 +2210,7 @@ Hij aan wie de eed in burgerlijke zaken wordt opgedragen of teruggewezen en die 
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
    (Met dezelfde straffen wordt gestraft hij die bij een verzegeling of een boedelbeschrijving een valse eed aflegt.) <W 10-10-1967, art. 167>
 
-  HOOFDSTUK VI. - AANMATIGING VAN AMBTEN, VAN TITELS OF VAN EEN NAAM.
+#### HOOFDSTUK VI. - AANMATIGING VAN AMBTEN, VAN TITELS OF VAN EEN NAAM.
 
 ## Art. 227
 
@@ -2260,9 +2260,9 @@ Hij die in het openbaar een naam aanneemt, die hem niet toekomt, wordt gestraft 
 
 Ieder ambtenaar, ieder openbaar officier die in zijn akten aan de daarin vermelde personen, in verstandhouding met hen, namen of adellijke titels geeft die hun niet toekomen, wordt gestraft met geldboete van tweehonderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  TITEL IV. - (MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE ORDE, GEPLEEGD DOOR PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN OF DOOR BEDIENAREN DER EREDIENSTEN IN DE UITOEFENING VAN HUN BEDIENING.) <W 1999-02-10/39, art. 2, 023; Inwerkingtreding : 02-04-1999>
+### TITEL IV. - (MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE ORDE, GEPLEEGD DOOR PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN OF DOOR BEDIENAREN DER EREDIENSTEN IN DE UITOEFENING VAN HUN BEDIENING.) <W 1999-02-10/39, art. 2, 023; Inwerkingtreding : 02-04-1999>
 
-  HOOFDSTUK I. - SAMENSPANNING VAN AMBTENAREN.
+#### HOOFDSTUK I. - SAMENSPANNING VAN AMBTENAREN.
 
 ## Art. 233
 
@@ -2284,7 +2284,7 @@ Wanneer personen of lichamen die met enig gedeelte van het openbaar gezag beklee
 
 Met gevangenisstraf van een maand tot twee jaar en met geldboete van honderd [euro] tot vijfhonderd [euro] worden gestraft de ambtenaren die ten gevolge van een afspraak ontslag nemen met het oogmerk om de rechtsbedeling of de uitoefening van een wettelijke dienst te verhinderen of te schorsen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Zij kunnen bovendien worden veroordeeld tot ontzetting van het recht om openbare ambten, bedieningen of betrekkingen te vervullen.
 
-  HOOFDSTUK II. - AANMATIGING VAN MACHT DOOR ADMINISTRATIEVE EN RECHTERLIJKE OVERHEDEN.
+#### HOOFDSTUK II. - AANMATIGING VAN MACHT DOOR ADMINISTRATIEVE EN RECHTERLIJKE OVERHEDEN.
 
 ## Art. 237
 
@@ -2303,7 +2303,7 @@ Provinciegouverneurs, arrondissementscommissarissen, burgemeesters en leden van 
   ----------
   (1)<W 2009-04-14/01, art. 13, 073; Inwerkingtreding : 15-04-2009>
 
-  HOOFDSTUK III. - (VERDUISTERING, KNEVELARIJ EN BELANGENNEMING GEPLEEGD DOOR PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN). <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999>
+#### HOOFDSTUK III. - (VERDUISTERING, KNEVELARIJ EN BELANGENNEMING GEPLEEGD DOOR PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN). <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999>
 
 ## Art. 240
 
@@ -2331,7 +2331,7 @@ Provinciegouverneurs, arrondissementscommissarissen, burgemeesters en leden van 
 
 <W 1999-02-10/39, art. 3, 023; Inwerkingtreding : 02-04-1999> Iedere persoon die een openbaar ambt uitoefent, die, hetzij rechtstreeks, hetzij door tussenpersonen of door schijnhandelingen, enig belang, welk het ook zij, neemt of aanvaardt in de verrichtingen, aanbestedingen, aannemingen of werken in regie waarover hij ten tijde van de handeling geheel of ten dele het beheer of het toezicht had, of die, belast met de ordonnancering van de betaling of de vereffening van een zaak, daarin enig belang neemt, wordt gestraft met gevangenisstraf van een jaar tot vijf jaar, en met geldboete van 100 [euro] tot 50 000 [euro] of met één van die straffen en hij kan bovendien, overeenkomstig artikel 33, worden veroordeeld tot ontzetting van het recht om openbare ambten, bedieningen of betrekkingen te vervullen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01- 01-2002> De voorafgaande bepaling is niet toepasselijk op hem die in de gegeven omstandigheden zijn private belangen door zijn betrekking niet kon bevorderen en openlijk heeft gehandeld.
 
-  HOOFDSTUK IV. - (OMKOPING VAN PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN). <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999>
+#### HOOFDSTUK IV. - (OMKOPING VAN PERSONEN DIE EEN OPENBAAR AMBT UITOEFENEN). <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999>
 
 ## Art. 246
 
@@ -2384,7 +2384,7 @@ Provinciegouverneurs, arrondissementscommissarissen, burgemeesters en leden van 
 
 (Opgeheven) <W 1999-02-10/39, art. 4, 023; Inwerkingtreding : 02-04-1999>
 
-  HOOFDSTUK V. - MISBRUIK VAN GEZAG.
+#### HOOFDSTUK V. - MISBRUIK VAN GEZAG.
 
 ## Art. 254
 
@@ -2414,7 +2414,7 @@ Ieder rechter, ieder bestuurder of lid van een bestuurslichaam die onder enig vo
 
 Ieder bevelhebber, ieder officier of onderofficier van de openbare macht die, na door de burgerlijke overheid wettelijk te zijn gevorderd, weigert de onder zijn bevel geplaatste macht te doen optreden, wordt gestraft met gevangenisstraf van vijftien dagen tot drie maanden.
 
-  HOOFDSTUK Vbis. - [1 Onderscheppen, kennisnemen en opnemen van niet voor het publiek toegankelijke communicatie en gegevens van een informaticasysteem]1
+#### HOOFDSTUK Vbis. - [1 Onderscheppen, kennisnemen en opnemen van niet voor het publiek toegankelijke communicatie en gegevens van een informaticasysteem]1
   ----------
   (1)<W 2016-12-25/37, art. 29, 122; Inwerkingtreding : 27-01-2017>
 ## Art. 259bis
@@ -2437,7 +2437,7 @@ Ieder bevelhebber, ieder officier of onderofficier van de openbare macht die, na
 
 Wanneer een openbaar officier of ambtenaar, een drager of agent van de openbare macht enige handeling strijdig met een wet of met een koninklijk besluit heeft bevolen of verricht, blijft hij vrij van straf indien hij bewijst dat hij heeft gehandeld op bevel van zijn meerderen, in zaken die tot hun bevoegdheid behoren en waarin hij hun als ondergeschikte gehoorzaamheid verschuldigd was, in welk geval de straf alleen wordt toegepast op de meerderen die het bevel hebben gegeven.
 
-  HOOFDSTUK VI. - ONWETTIG VERVROEGDE OF VERLENGDE UITOEFENING VAN HET OPENBAAR GEZAG.
+#### HOOFDSTUK VI. - ONWETTIG VERVROEGDE OF VERLENGDE UITOEFENING VAN HET OPENBAAR GEZAG.
 
 ## Art. 261
 
@@ -2449,7 +2449,7 @@ Ieder openbaar ambtenaar die wettig ontslagen, afgezet, geschorst of van rechten
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   Met dezelfde straffen wordt gestraft ieder bij verkiezing of tijdelijk aangesteld openbaar ambtenaar die zijn bediening blijft uitoefenen nadat zij wettelijk een einde heeft genomen.
 
-  HOOFDSTUK VII. - ENIGE WANBEDRIJVEN BETREFFENDE HET HOUDEN VAN DE AKTEN VAN DE BURGERLIJKE STAND.
+#### HOOFDSTUK VII. - ENIGE WANBEDRIJVEN BETREFFENDE HET HOUDEN VAN DE AKTEN VAN DE BURGERLIJKE STAND.
 ## Art. 263
 
 <W 31-03-1987, art. 88> Met geldboete van zesentwintig [euro] tot driehonderd [euro] wordt gestraft de ambtenaar van de burgerlijke stand die een van de bepalingen van [1 titel 2 van boek I]1 van het Burgerlijk Wetboek overtreedt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
@@ -2472,7 +2472,7 @@ Ieder openbaar ambtenaar die wettig ontslagen, afgezet, geschorst of van rechten
 
 (Zie NOTA 1 onder TITEL) Buiten het geval dat de wet de straffen wegens misdaden of wanbedrijven door openbare officieren of ambtenaren gepleegd in het bijzonder regelt, worden degenen onder hen die zich schuldig maken aan andere misdaden of aan andere wanbedrijven welke zij gelast waren te voorkomen, vast te stellen, te vervolgen of te straffen, veroordeeld tot de op deze misdaden of op deze wanbedrijven gestelde straffen, waarvan het minimum wordt verdubbeld indien het gevangenisstraf betreft, en met twee jaar verhoogd indien het (opsluiting of hechtenis van vijftien jaar tot twintig jaar of gedurende een kortere tijd) betreft. <W 2003-01-23/42, art. 53, 040; Inwerkingtreding : 13-03-2003>
 
-  HOOFDSTUK VIII. - MISDRIJVEN VOOR DE BEDIENAREN DER EREDIENSTEN IN DE UITOEFENING VAN HUN BEDIENING GEPLEEGD.
+#### HOOFDSTUK VIII. - MISDRIJVEN VOOR DE BEDIENAREN DER EREDIENSTEN IN DE UITOEFENING VAN HUN BEDIENING GEPLEEGD.
 
 ## Art. 267
 
@@ -2482,9 +2482,9 @@ Ieder openbaar ambtenaar die wettig ontslagen, afgezet, geschorst of van rechten
 
 Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentwintig [euro] tot vijfhonderd [euro] worden gestraft de bedienaren van een eredienst die in de uitoefening van hun bediening door woorden, in openbare vergadering gesproken, de Regering, een wet, een koninklijk besluit of enige andere handeling van het openbaar gezag rechtstreeks aanvallen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01- 2002>
 
-  TITEL V. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE ORDE DOOR BIJZONDERE PERSONEN GEPLEEGD.
+### TITEL V. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE ORDE DOOR BIJZONDERE PERSONEN GEPLEEGD.
 
-  HOOFDSTUK I. - WEERSPANNIGHEID.
+#### HOOFDSTUK I. - WEERSPANNIGHEID.
 
 ## Art. 269
 
@@ -2522,7 +2522,7 @@ In geval van weerspannigheid in bende of samenscholing gepleegd, is artikel 134 
 
 In alle gevallen waarin gevangenisstraf wegens weerspannigheid wordt uitgesproken, kunnen de schuldigen bovendien worden veroordeeld tot geldboete van zesentwintig [euro] tot tweehonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> De hoofden van de weerspannigheid en zij die deze uitgelokt hebben, kunnen bovendien worden veroordeeld (...) tot ontzetting van rechten overeenkomstig artikel 33. <W 09-04-1930, art. 32>
 
-   HOOFDSTUK II. [1 Smaad, doodslag, geweld, foltering en onmenselijke behandeling ten aanzien van ministers, leden van de wetgevende kamers, dragers van het openbaar gezag of van de openbare macht.]1
+#### HOOFDSTUK II. [1 Smaad, doodslag, geweld, foltering en onmenselijke behandeling ten aanzien van ministers, leden van de wetgevende kamers, dragers van het openbaar gezag of van de openbare macht.]1
    ----------
    (1)<W 2024-01-18/06, art. 20, 157; Inwerkingtreding : 05-02-2024>
 
@@ -2580,7 +2580,7 @@ Indien de toegebrachte slagen bloedstorting, verwonding of ziekte veroorzaken, w
 
 De in de artikelen 275, 278 en 279 bepaalde straffen zijn toepasselijk in het geval dat gezworenen uit hoofde van hun bediening of getuigen uit hoofde van hun verklaringen worden gesmaad of geslagen.
 
-  HOOFDSTUK III. - ZEGELVERBREKING.
+#### HOOFDSTUK III. - ZEGELVERBREKING.
 
 ## Art. 283
 
@@ -2610,7 +2610,7 @@ Indien de zegelverbreking geschiedt met geweld tegen personen, wordt de schuldig
 
 In gevallen van de artikelen 284, 286 en 287 kan de schuldige bovendien worden veroordeeld tot geldboete van vijftig [euro] tot tweeduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  HOOFDSTUK IV. - BELEMMERING VAN DE UITVOERING VAN OPENBARE WERKEN.
+#### HOOFDSTUK IV. - BELEMMERING VAN DE UITVOERING VAN OPENBARE WERKEN.
 
 ## Art. 289
 
@@ -2625,7 +2625,7 @@ Zij die zich door samenscholing en geweld, feitelijkheden of bedreigingen, tegen
 
 In de gevallen, bij de twee vorige artikelen omschreven, kunnen de schuldigen bovendien worden veroordeeld tot geldboete van zesentwintig [euro] tot vijfhonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  HOOFDSTUK V. - MISDADEN EN WANBEDRIJVEN VAN LEVERANCIERS.
+#### HOOFDSTUK V. - MISDADEN EN WANBEDRIJVEN VAN LEVERANCIERS.
 
 ## Art. 292
 
@@ -2654,7 +2654,7 @@ Indien bedrog gepleegd wordt omtrent de aard, de hoedanigheid of de hoeveelheid 
 ## Art. 298
 
 De openbare ambtenaren of de door de Regering aangestelde of bezoldigde agenten die aan dit bedrog deelnemen, worden gestraft met gevangenisstraf van twee jaar tot vijf jaar en met geldboete van tweehonderd [euro] tot tienduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Zij worden bovendien veroordeeld tot ontzetting van rechten overeenkomstig artikel 33.
-  HOOFDSTUK VI. - UITGEVEN OF VERSPREIDEN VAN GESCHRIFTEN ZONDER VERMELDING VAN NAAM EN WOONPLAATS VAN DE SCHRIJVER OF VAN DE DRUKKER.
+#### HOOFDSTUK VI. - UITGEVEN OF VERSPREIDEN VAN GESCHRIFTEN ZONDER VERMELDING VAN NAAM EN WOONPLAATS VAN DE SCHRIJVER OF VAN DE DRUKKER.
 
 ## Art. 299
 
@@ -2666,7 +2666,7 @@ Van de straf, in het vorige artikel bepaald, blijven vrij :
   Zij die de drukker doen kennen;
   De omroepers, aanplakkers, verkopers of verspreiders, die de persoon doen kennen, van wie zij het gedrukte stuk gekregen hebben.
 
-  HOOFDSTUK VII. - OVERTREDING VAN DE WETTEN EN VERORDENINGEN OP LOTERIJEN, SPEELHUIZEN EN PANDHUIZEN.
+#### HOOFDSTUK VII. - OVERTREDING VAN DE WETTEN EN VERORDENINGEN OP LOTERIJEN, SPEELHUIZEN EN PANDHUIZEN.
 
 ## Art. 301
 
@@ -2705,7 +2705,7 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
   Zij die er een gewoonte van maken pandbewijzen van de berg van barmhartigheid te kopen;
   Zij die de pandbewijzen van die instellingen, waaruit leningen op nieuwe koopwaren blijken, kopen of aan anderen overdragen.
 
-  HOOFDSTUK VIII. - MISDRIJVEN BETREFFENDE NIJVERHEID, KOOPHANDEL EN OPENBARE VEILINGEN.
+#### HOOFDSTUK VIII. - MISDRIJVEN BETREFFENDE NIJVERHEID, KOOPHANDEL EN OPENBARE VEILINGEN.
 
 ## Art. 309
 
@@ -2737,7 +2737,7 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
   ----------
   (1)<W 2022-02-28/02, art. 76, 147; Inwerkingtreding : 17-03-2022>
 
-  HOOFDSTUK VIIIbis. - [1 Misdrijven betreffende het geheim van niet voor het publiek toegankelijke communicatie en gegevens van een informaticasysteem]1
+#### HOOFDSTUK VIIIbis. - [1 Misdrijven betreffende het geheim van niet voor het publiek toegankelijke communicatie en gegevens van een informaticasysteem]1
   ----------
   (1)<W 2016-12-25/37, art. 31, 122; Inwerkingtreding : 27-01-2017>
 
@@ -2754,16 +2754,16 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
   (1)<W 2016-12-25/37, art. 32, 122; Inwerkingtreding : 27-01-2017>
   (2)<W 2017-07-06/24, art. 213, 124; Inwerkingtreding : 03-08-2017>
 
-  HOOFDSTUK IX. - ENIGE ANDERE MISDRIJVEN TEGEN DE OPENBARE ORDE.
+#### HOOFDSTUK IX. - ENIGE ANDERE MISDRIJVEN TEGEN DE OPENBARE ORDE.
 
-  AFDELING I. - OVERTREDING VAN DE BEGRAFENISWETTEN.
+##### AFDELING I. - OVERTREDING VAN DE BEGRAFENISWETTEN.
 
 ## Art. 315
 
 Met gevangenisstraf van acht dagen tot twee maanden of met geldboete van zesentwintig tot driehonderd [euro] worden gestraft : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Zij die, zonder voorafgaand verlof van de openbare ambtenaar, een begraving verrichten of doen verrichten;
   Zij die op enigerlei wijze de wetten en verordeningen betreffende de begraafplaatsen en de vervroegde begravingen overtreden.
 
-  AFDELING II. - (BELEMMERING VAN DE UITOEFENING VAN DE RECHTSPREKENDE FUNCTIE). <W 10-10-1967, art. 140>
+##### AFDELING II. - (BELEMMERING VAN DE UITOEFENING VAN DE RECHTSPREKENDE FUNCTIE). <W 10-10-1967, art. 140>
 
 ## Art. 316
 
@@ -2783,7 +2783,7 @@ Met gevangenisstraf van acht dagen tot twee maanden of met geldboete van zesentw
 
 (Opgeheven) <W 03-03-1933, art. 28>
 
-  AFDELING III. - MISDRIJVEN BETREFFENDE VEEZIEKTEN.
+##### AFDELING III. - MISDRIJVEN BETREFFENDE VEEZIEKTEN.
 
 ## Art. 319
 
@@ -2797,9 +2797,9 @@ Met gevangenisstraf van acht dagen tot twee maanden of met geldboete van zesentw
 
 (Opgeheven) <W 24-03-1987, art. 32, § 1>
 
-  TITEL VI. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID.
+### TITEL VI. - MISDADEN EN WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID.
 
-  HOOFDSTUK I. - (VERENIGING MET HET OOGMERK OM EEN AANSLAG TE PLEGEN OP PERSONEN OF OP EIGENDOMMEN EN CRIMINELE ORGANISATIE). <W 1999-01-10/49, art. 2, 022; Inwerkingtreding : 08-03-1999>
+#### HOOFDSTUK I. - (VERENIGING MET HET OOGMERK OM EEN AANSLAG TE PLEGEN OP PERSONEN OF OP EIGENDOMMEN EN CRIMINELE ORGANISATIE). <W 1999-01-10/49, art. 2, 022; Inwerkingtreding : 08-03-1999>
 
 ## Art. 322
 
@@ -2837,7 +2837,7 @@ De schuldigen die tot gevangenisstraf worden veroordeeld op grond van de artikel
 Van de in dit hoofdstuk bepaalde straffen blijven vrij de schuldigen die, vóór enige poging tot misdaden of wanbedrijven welke het doel van de vereniging zijn, en vóór enig begin van vervolging, het bestaan van die benden en de namen van hun hoofdbevelvoerders of ondergeschikte bevelvoerders aan de overheid kenbaar maken.
   (Lid 2 opgeheven) <W 09-04-1930, art. 32>
 
-  HOOFDSTUK II. - (BEDREIGINGEN MET EEN AANSLAG OP PERSONEN OF OP EIGENDOMMEN EN VALSE INLICHTINGEN BETREFFENDE ERNSTIGE AANSLAGEN). <W 04-07-1972, art. 5>
+#### HOOFDSTUK II. - (BEDREIGINGEN MET EEN AANSLAG OP PERSONEN OF OP EIGENDOMMEN EN VALSE INLICHTINGEN BETREFFENDE ERNSTIGE AANSLAGEN). <W 04-07-1972, art. 5>
 
 ## Art. 327
 
@@ -2879,7 +2879,7 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
   ----------
   (1)<W 2013-05-23/09, art. 2, 093; Inwerkingtreding : 16-06-2013>
 
-  HOOFDSTUK III. [1 Ontsnapping van gevangenen, beschadiging of verduistering van het elektronisch toezichtsmateriaal en overgooien van voorwerpen over de muren of afsluitingen van een gevangenis, een afdeling of een inrichting tot bescherming van de maatschappij]1
+#### HOOFDSTUK III. [1 Ontsnapping van gevangenen, beschadiging of verduistering van het elektronisch toezichtsmateriaal en overgooien van voorwerpen over de muren of afsluitingen van een gevangenis, een afdeling of een inrichting tot bescherming van de maatschappij]1
   ----------
   (1)<W 2025-12-19/73, art. 2, 164; Inwerkingtreding : 16-01-2026>
 
@@ -2928,7 +2928,7 @@ In de gevallen van artikel 327 kan de schuldige bovendien worden veroordeeld tot
   ----------
   (1)<Ingevoegd bij W 2024-01-18/06, art. 23, 157; Inwerkingtreding : 05-02-2024>
 
-  HOOFDSTUK IV. - BANBREUK EN ENIGE GEVALLEN VAN VERBERGING.
+#### HOOFDSTUK IV. - BANBREUK EN ENIGE GEVALLEN VAN VERBERGING.
 
 ## Art. 338
 
@@ -2946,7 +2946,7 @@ Hij die het lijk van iemand die gedood is of tengevolge van slagen of verwonding
 
 De twee vorige bepalingen zijn niet van toepassing op de bloedverwanten in de opgaande of de nederdalende lijn, de echtgenoten, zelfs na echtscheiding, de broeders of zusters, en de aanverwanten in dezelfde graden, van de verborgen misdadigers, van de daders van of de medeplichtigen aan de doodslag, de slagen of de verwondingen.
 
-  HOOFDSTUK V. - WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID GEPLEEGD DOOR LANDLOPERS OF DOOR BEDELAARS.
+#### HOOFDSTUK V. - WANBEDRIJVEN TEGEN DE OPENBARE VEILIGHEID GEPLEEGD DOOR LANDLOPERS OF DOOR BEDELAARS.
 
 ## Art. 342
 
@@ -2972,7 +2972,7 @@ De twee vorige bepalingen zijn niet van toepassing op de bloedverwanten in de op
 
 (Opgeheven) <W 1993-01-12/34, art. 28, 007; Inwerkingtreding : 01-03-1993>
 
-  TITEL VIBIS. - (MISDADEN MET BETREKKING TOT HET NEMEN VAN GIJZELAARS). <W 02-07-1975, art. 1>
+### TITEL VIBIS. - (MISDADEN MET BETREKKING TOT HET NEMEN VAN GIJZELAARS). <W 02-07-1975, art. 1>
 ## Art. 347bis
 
 <W 2000-11-28/35, art. 4, 029; Inwerkingtreding : 27-03-2001> § 1. Gijzeling is de aanhouding, de gevangenhouding of de ontvoering van personen om deze borg te doen staan voor de voldoening aan een bevel of een voorwaarde, onder meer een misdaad of een wanbedrijf voor te bereiden of te vergemakkelijken, de vlucht, de ontvluchting van de daders van een misdaad of wanbedrijf of hun medeplichtigen in de hand te werken, hun vrijlating te verkrijgen of ze hun straf te doen ontgaan.
@@ -2987,11 +2987,11 @@ De twee vorige bepalingen zijn niet van toepassing op de bloedverwanten in de op
    (2)<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>
    (3)<W 2022-03-21/01, art. 92, 148; Inwerkingtreding : 01-06-2022>
 
-  TITEL VII. [1 - MISDADEN EN WANBEDRIJVEN TEGEN DE ORDE VAN DE FAMILIE.]1
+### TITEL VII. [1 - MISDADEN EN WANBEDRIJVEN TEGEN DE ORDE VAN DE FAMILIE.]1
   ----------
   (1)<W 2022-03-21/01, art. 93, 148; Inwerkingtreding : 01-06-2022>
 
-  HOOFDSTUK I. - VRUCHTAFDRIJVING.
+#### HOOFDSTUK I. - VRUCHTAFDRIJVING.
 
 ## Art. 348
 
@@ -3019,7 +3019,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 (Opgeheven) <W 1990-04-03/30, art. 5, 002, Inwerkingtreding : 15-04-1990>
 
-  HOOFDSTUK II. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
+#### HOOFDSTUK II. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
 
 ## Art. 354
 
@@ -3052,7 +3052,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-  HOOFDSTUK III. - MISDADEN EN WANBEDRIJVEN STREKKENDE TOT HET VERHINDEREN OF VERNIETIGEN VAN HET BEWIJS VAN DE BURGERLIJKE STAAT VAN KINDEREN.
+#### HOOFDSTUK III. - MISDADEN EN WANBEDRIJVEN STREKKENDE TOT HET VERHINDEREN OF VERNIETIGEN VAN HET BEWIJS VAN DE BURGERLIJKE STAAT VAN KINDEREN.
 
 ## Art. 361
 
@@ -3090,7 +3090,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-  HOOFDSTUK IV. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
+#### HOOFDSTUK IV. - (opgeheven) <W 2000-11-28/35, art. 51; Inwerkingtreding : 27-03-2001>
 
 ## Art. 368
 
@@ -3112,7 +3112,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-  HOOFDSTUK V. [1 - Voyeurisme, niet-consensuele verspreiding van seksueel getinte beelden en opnames, aanranding van de eerbaarheid en verkrachting]1
+#### HOOFDSTUK V. [1 - Voyeurisme, niet-consensuele verspreiding van seksueel getinte beelden en opnames, aanranding van de eerbaarheid en verkrachting]1
   ----------
   (1)<W 2020-05-04/16, art. 4, 142; Inwerkingtreding : 01-07-2020>
 
@@ -3148,7 +3148,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 ## Art. 378bis.
 
-  HOOFDSTUK VI. - (BEDERF VAN DE JEUGD EN PROSTITUTIE). <W 26-05-1914, art. 4>
+#### HOOFDSTUK VI. - (BEDERF VAN DE JEUGD EN PROSTITUTIE). <W 26-05-1914, art. 4>
 
 ## Art. 379.
 
@@ -3182,7 +3182,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 ## Art. 382quinquies.
 
-  HOOFDSTUK VII. - OPENBARE SCHENNIS VAN DE GOEDE ZEDEN.
+#### HOOFDSTUK VII. - OPENBARE SCHENNIS VAN DE GOEDE ZEDEN.
 
 ## Art. 383.
 
@@ -3210,7 +3210,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 ## Art. 389.
 
-  HOOFDSTUK VIII. - (DUBBEL HUWELIJK.) <W 2000-11-28/35, art. 27; Inwerkingtreding : 27-03-2001>
+#### HOOFDSTUK VIII. - (DUBBEL HUWELIJK.) <W 2000-11-28/35, art. 27; Inwerkingtreding : 27-03-2001>
 
 ## Art. 390
 
@@ -3220,7 +3220,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 (Zie NOTA 1 onder TITEL) Hij die, door de banden van het huwelijk verbonden, een ander huwelijk aangaat vóór de ontbinding van het voorgaande, wordt gestraft met (opsluiting van vijf jaar tot tien jaar). <W 2003-01-23/42, art. 64, 041; Inwerkingtreding : 13-03-2003>
 
-  HOOFDSTUK IX. - VERLATING VAN FAMILIE.
+#### HOOFDSTUK IX. - VERLATING VAN FAMILIE.
 
 ## Art. 391bis
 
@@ -3239,7 +3239,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 <W 05-07-1963, art. 2> Wanneer een persoon meer dan twee maanden in gebreke is gebleven te voldoen aan een van de verplichtingen op de niet-nakoming waarvan door artikel 391bis straf is gesteld, kan hij voor de vrederechter worden opgeroepen op verzoek van belanghebbenden of van het openbaar ministerie. De oproeping geschiedt door middel van een aangetekende brief, door de griffier getekend en verzonden met een bericht van ontvangst.
   De vrederechter neemt de verklaringen van de partijen af en maakt van een en ander een proces-verbaal op, dat hij aan de procureur des Konings doet toekomen.
 
-   HOOFDSTUK X. - Misdrijven en wanbedrijven inzake adoptie. <ingevoegd bij W 2003-04-24/32, art. 7;
+#### HOOFDSTUK X. - Misdrijven en wanbedrijven inzake adoptie. <ingevoegd bij W 2003-04-24/32, art. 7;
  Inwerkingtreding : onbepaald>
 
 ## Art. 391quater
@@ -3251,7 +3251,7 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
 
 <ingevoegd bij W 2003-04-24/32, art. 7; Inwerkingtreding : 01-09-2005> Met een gevangenisstraf van een jaar tot vijf jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro of met een van die straffen alleen wordt gestraft hij die bij een adoptie als tussenpersoon is opgetreden en voor een derde een adoptie heeft verkregen of proberen te verkrijgen zonder lid te zijn van een daartoe vooraf door de bevoegde gemeenschap erkende adoptiedienst of die als lid van een erkende adoptiedienst voor een derde een adoptie heeft verkregen of proberen te verkrijgen die strijdig is met de bepalingen van de wet.
 
-   HOOFDSTUK XI. - Gedwongen huwelijk [1 en gedwongen wettelijke samenwoning]1. <W 2007-04-25/76, art. 2;
+#### HOOFDSTUK XI. - Gedwongen huwelijk [1 en gedwongen wettelijke samenwoning]1. <W 2007-04-25/76, art. 2;
  Inwerkingtreding : 25-06-2007>
   ----------
   (1)<W 2013-06-02/08, art. 13, 098; Inwerkingtreding : 03-10-2013>
@@ -3289,9 +3289,9 @@ Wanneer de vruchtafdrijving wordt veroorzaakt door geweld, opzettelijk gepleegd,
    ----------
    (1)<Ingevoegd bij W 2013-06-02/08, art. 16, 098; Inwerkingtreding : 03-10-2013> (2)<W 2018-06-18/03, art. 103, 130; Inwerkingtreding : 31-03-2019> (3)<W 2023-09-13/08, art. 75, 155; Inwerkingtreding : 01-01-2024>
 
-  TITEL VIII. - MISDADEN EN WANBEDRIJVEN TEGEN PERSONEN.
+### TITEL VIII. - MISDADEN EN WANBEDRIJVEN TEGEN PERSONEN.
 
-   HOOFDSTUK I. - (OPZETTELIJK DODEN, OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL, FOLTERING, ONMENSELIJKE BEHANDELING EN ONTERENDE BEHANDELING.) <W 2002-06-14/42, art. 4, 036;
+#### HOOFDSTUK I. - (OPZETTELIJK DODEN, OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL, FOLTERING, ONMENSELIJKE BEHANDELING EN ONTERENDE BEHANDELING.) <W 2002-06-14/42, art. 4, 036;
  Inwerkingtreding : 24-08-2002>
 
 ## Art. 392
@@ -3305,7 +3305,7 @@ Opzettelijk worden genoemd het doden en het toebrengen van letsel met het oogmer
    ----------
    (1)<W 2024-01-18/06, art. 28, 157; Inwerkingtreding : 05-02-2024>
 
-  AFDELING I. - DOODSLAG EN VERSCHILLENDE SOORTEN VAN DOODSLAG.
+##### AFDELING I. - DOODSLAG EN VERSCHILLENDE SOORTEN VAN DOODSLAG.
 
 ## Art. 393
 
@@ -3341,7 +3341,7 @@ Vergiftiging wordt genoemd de doodslag gepleegd door middel van stoffen die min 
   ----------
   (1)<Ingevoegd bij W 2024-01-18/06, art. 30, 157; Inwerkingtreding : 05-02-2024>
 
-  AFDELING II. - OPZETTELIJK DODEN, NIET DOODSLAG GENOEMD, EN OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL.
+##### AFDELING II. - OPZETTELIJK DODEN, NIET DOODSLAG GENOEMD, EN OPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL.
 
 ## Art. 398
 
@@ -3484,7 +3484,7 @@ Poging om iemand stoffen als bedoeld in artikel 402 toe te dienen, zonder het oo
   ----------
   (1)<Ingevoegd bij W 2012-07-05/07, art. 2, 086; Inwerkingtreding : 29-07-2012>
 
-  AFDELING III. - VERSCHOONBARE DOODSLAG, VERSCHOONBARE VERWONDINGEN EN VERSCHOONBARE SLAGEN.
+##### AFDELING III. - VERSCHOONBARE DOODSLAG, VERSCHOONBARE VERWONDINGEN EN VERSCHOONBARE SLAGEN.
 
 ## Art. 411
 
@@ -3510,7 +3510,7 @@ De misdaden en wanbedrijven, in het vorige artikel genoemd, zijn eveneens versch
 
 (opgeheven) <W 2000-11-28/35, art. 52, 029; Inwerkingtreding : 27-03-2001>
 
-  AFDELING IV. - GERECHTVAARDIGDE DOODSLAG, GERECHTVAARDIGDE VERWONDINGEN EN GERECHTVAARDIGDE SLAGEN.
+##### AFDELING IV. - GERECHTVAARDIGDE DOODSLAG, GERECHTVAARDIGDE VERWONDINGEN EN GERECHTVAARDIGDE SLAGEN.
 
 ## Art. 416
 
@@ -3521,7 +3521,7 @@ Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de 
 Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee volgende gevallen begrepen : Wanneer de doodslag gepleegd wordt, wanneer de verwondingen of de slagen toegebracht worden bij het afweren, bij nacht, van de beklimming of de braak van de afsluitingen, muren of toegangen van een bewoond huis of appartement of de aanhorigheden ervan, behalve wanneer blijkt dat de dader niet kon geloven aan een aanranding van personen, hetzij als rechtstreeks doel van hem die poogt in te klimmen of in te breken, hetzij als gevolg van de weerstand welke diens voornemen mocht ontmoeten;
   Wanneer het feit plaatsheeft bij het zich verdedigen tegen de daders van diefstal of plundering die met geweld tegen personen wordt gepleegd.
 
-  Afdeling V. - Foltering, onmenselijke behandeling en onterende behandeling. <ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002>
+##### Afdeling V. - Foltering, onmenselijke behandeling en onterende behandeling. <ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002>
 
 ## Art. 417/1
 
@@ -3591,11 +3591,11 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-  Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1
+##### Afdeling 1. [1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 1. [1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.]1
+###### Onderafdeling 1. [1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 4, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3621,7 +3621,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
    ----------
    (1)<Ingevoegd bij W 2022-03-21/01, art. 6, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 2. [1 - Basismisdrijven.]1
+###### Onderafdeling 2. [1 - Basismisdrijven.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 7, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3670,7 +3670,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 12, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 3. [1 - Verzwaarde misdrijven.]1
+###### Onderafdeling 3. [1 - Verzwaarde misdrijven.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 13, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3783,7 +3783,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 24, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 4. [1 - Algemene bepaling.]1
+###### Onderafdeling 4. [1 - Algemene bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 25, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3800,11 +3800,11 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 26, 148; Inwerkingtreding : 01-06-2022>
 
-  Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1
+##### Afdeling 2. [1 - Seksuele uitbuiting van minderjarigen.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 27, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 1. [1 - Benaderen van een minderjarige voor seksuele doeleinden.]1
+###### Onderafdeling 1. [1 - Benaderen van een minderjarige voor seksuele doeleinden.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 28, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3815,7 +3815,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 29, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 2. [1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.]1
+###### Onderafdeling 2. [1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 30, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3958,7 +3958,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 48, 148; Inwerkingtreding : 01-06-2022> (2)<W 2022-07-30/03, art. 4, 150; Inwerkingtreding : 18-08-2022>
 
-  Onderafdeling 3. [1 - Beelden van seksueel misbruik van minderjarigen.]1
+###### Onderafdeling 3. [1 - Beelden van seksueel misbruik van minderjarigen.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 49, 148; Inwerkingtreding : 01-06-2022>
 
@@ -4022,7 +4022,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 56, 148; Inwerkingtreding : 01-06-2022>
 
-  Onderafdeling 4. [1 - Algemene bepaling.]1
+###### Onderafdeling 4. [1 - Algemene bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 57, 148; Inwerkingtreding : 01-06-2022>
 
@@ -4037,7 +4037,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 58, 148; Inwerkingtreding : 01-06-2022> (2)<W 2022-12-06/02, art. 29, 152; Inwerkingtreding : 31-12-2022>
 
-  Afdeling 3. [1 - Openbare zedenschennis.]1
+##### Afdeling 3. [1 - Openbare zedenschennis.]1
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 59, 148; Inwerkingtreding : 01-06-2022>
 ## Art. 417/51
@@ -4079,7 +4079,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 64, 148; Inwerkingtreding : 01-06-2022> (2)<W 2022-12-06/02, art. 30, 152; Inwerkingtreding : 31-12-2022>
 
-  Afdeling 4. [1 - Gemeenschappelijke bepalingen.]1
+##### Afdeling 4. [1 - Gemeenschappelijke bepalingen.]1
   ----------
 
   (1)<Ingevoegd bij W 2022-03-21/01, art. 65, 148; Inwerkingtreding : 01-06-2022>
@@ -4167,7 +4167,7 @@ Onder de gevallen van ogenblikkelijke noodzaak van de verdediging worden de twee
   ----------
   (1)<Ingevoegd bij W 2022-03-21/01, art. 74, 148; Inwerkingtreding : 01-06-2022>
 
-  HOOFDSTUK II. - ONOPZETTELIJK DODEN EN ONOPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL.
+#### HOOFDSTUK II. - ONOPZETTELIJK DODEN EN ONOPZETTELIJK TOEBRENGEN VAN LICHAMELIJK LETSEL.
 
 ## Art. 418
 
@@ -4227,11 +4227,11 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
    (1)<W 2009-12-30/01, art. 111, 074; Inwerkingtreding : 31-12-2009>
    (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  HOOFDSTUK III. - (Aantasting van de persoon van minderjarigen, [1 van kwetsbare personen]1 en van het gezin.) <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001>
+#### HOOFDSTUK III. - (Aantasting van de persoon van minderjarigen, [1 van kwetsbare personen]1 en van het gezin.) <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001>
   ----------
   (1)<W 2011-11-26/19, art. 17, 084; Inwerkingtreding : 02-02-2012>
 
-  Afdeling I. - <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001> Verlaten of in behoeftige toestand achterlaten van kinderen of [1 kwetsbare personen]1.
+##### Afdeling I. - <W 2000-11-28/35, art. 31; Inwerkingtreding : 27-03-2001> Verlaten of in behoeftige toestand achterlaten van kinderen of [1 kwetsbare personen]1.
   ----------
   (1)<W 2011-11-26/19, art. 17, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4252,7 +4252,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
   ----------
   (1)<W 2011-11-26/19, art. 19, 084; Inwerkingtreding : 02-02-2012>
 
-  Afdeling II. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Onthouden van voedsel of verzorging aan minderjarigen en [1 aan kwetsbare personen]1.
+##### Afdeling II. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Onthouden van voedsel of verzorging aan minderjarigen en [1 aan kwetsbare personen]1.
   ----------
   (1)<W 2011-11-26/19, art. 20, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4272,7 +4272,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
    ----------
    (1)<W 2011-11-26/19, art. 22, 084; Inwerkingtreding : 02-02-2012>
 
-   Afdeling III. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Bepaling aan de afdelingen I en II gemeen.
+##### Afdeling III. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Bepaling aan de afdelingen I en II gemeen.
 
 ## Art. 427
 
@@ -4282,7 +4282,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
   ----------
   (1)<W 2011-11-26/19, art. 23, 084; Inwerkingtreding : 02-02-2012>
 
-  Afdeling IV. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Ontvoering en verberging van minderjarigen [1 en van kwetsbare personen]1.
+##### Afdeling IV. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Ontvoering en verberging van minderjarigen [1 en van kwetsbare personen]1.
   ----------
   (1)<W 2011-11-26/19, art. 24, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4312,7 +4312,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
    (1)<W 2011-11-26/19, art. 27, 084; Inwerkingtreding : 02-02-2012>
    (2)<W 2014-05-05/09, art. 15, 106; Inwerkingtreding : 18-07-2014>
 
-  Afdeling V. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Niet-afgeven van kinderen.
+##### Afdeling V. - <W 2000-11-28/35, art. 31, 029; Inwerkingtreding : 27-03-2001> Niet-afgeven van kinderen.
 
 ## Art. 431
 
@@ -4328,7 +4328,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
   ----------
   (1)<W 2023-09-13/08, art. 76, 155; Inwerkingtreding : 01-01-2024>
 
-  Afdeling VI. - Gebruik van minderjarigen [1 en van kwetsbare personen]1 met het oog op het plegen van een misdaad of een wanbedrijf. <ingevoegd bij W 2005-08-10/62, art. 3 ; Inwerkingtreding : 02-09-2005>
+##### Afdeling VI. - Gebruik van minderjarigen [1 en van kwetsbare personen]1 met het oog op het plegen van een misdaad of een wanbedrijf. <ingevoegd bij W 2005-08-10/62, art. 3 ; Inwerkingtreding : 02-09-2005>
   ----------
   (1)<W 2011-11-26/19, art. 28, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4343,7 +4343,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
    ----------
    (1)<W 2011-11-26/19, art. 29, 084; Inwerkingtreding : 02-02-2012>
 
-  Afdeling VII. - Aantasting van de persoonlijke levenssfeer van minderjarigen. <ingevoegd bij W 2005-08-10/62, art. 5 ; Inwerkingtreding : 02-09-2005>
+##### Afdeling VII. - Aantasting van de persoonlijke levenssfeer van minderjarigen. <ingevoegd bij W 2005-08-10/62, art. 5 ; Inwerkingtreding : 02-09-2005>
 
 ## Art. 433bis
 
@@ -4353,7 +4353,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
  <W 2006-05-15/35, art. 22, 056; Inwerkingtreding : 01-10-2007>
   Overtreding van dit artikel wordt gestraft met gevangenisstraf van twee maanden tot twee jaar en met geldboete van driehonderd euro tot drieduizend euro of met een van die straffen alleen.
 
-  Afdeling VIII. - [1 Lokken van minderjarigen via informatie- en communicatietechnologieën met het oog op het plegen van een misdaad of een wanbedrijf.]1
+##### Afdeling VIII. - [1 Lokken van minderjarigen via informatie- en communicatietechnologieën met het oog op het plegen van een misdaad of een wanbedrijf.]1
   ----------
   (1)<W 2016-02-05/11, art. 26, 114; Inwerkingtreding : 29-02-2016>
 
@@ -4367,7 +4367,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
   ----------
   (1)<Ingevoegd bij W 2014-04-10/25, art. 3, 103; Inwerkingtreding : 10-05-2014>
 
-  HOOFDSTUK IIIbis. - Exploitatie van bedelarij <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09- 2005>
+#### HOOFDSTUK IIIbis. - Exploitatie van bedelarij <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09- 2005>
 
    Artikel 433ter.<Ingevoegd bij W 2005-08-10/61, art. 7; Inwerkingtreding : 12-09-2005> Met gevangenisstraf van zes maanden tot drie jaar en met geldboete van vijfhonderd euro tot vijfentwintigduizend euro wordt gestraft :
    1° hij die een persoon aanwerft, meeneemt, wegbrengt, bij zich houdt teneinde hem over te leveren aan de bedelarij, hem ertoe aanzet te bedelen of door te gaan met bedelen, of hem ter beschikking van een bedelaar stelt opdat deze laatste zich van hem bedient om het openbaar medelijden op te wekken;
@@ -4488,7 +4488,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
    ----------
    (1)<Ingevoegd bij W 2022-03-21/01, art. 83, 148; Inwerkingtreding : 01-06-2022>
 
-  HOOFDSTUK IIIter. Mensenhandel <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09-2005>
+#### HOOFDSTUK IIIter. Mensenhandel <Ingevoegd bij W 2005-08-10/61, art. 9; Inwerkingtreding : 12-09-2005>
 
 ## Art. 433quinquies
 
@@ -4661,7 +4661,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
   ----------
   (1)<Ingevoegd bij W 2019-05-22/19, art. 13, 141; Inwerkingtreding : 01-07-2019> (2)<W 2022-03-21/01, art. 100, 148; Inwerkingtreding : 01-06-2022>
 
-  HOOFDSTUK IIIquater. - Misbruik van andermans [1 kwetsbare toestand]1 door de verkoop, verhuur of terbeschikkingstelling van goederen met de bedoeling een abnormaal profijt te realiseren <Ingevoegd bij W 2005- 08-10/61, art. 15; Inwerkingtreding : 12-09-2005>
+#### HOOFDSTUK IIIquater. - Misbruik van andermans [1 kwetsbare toestand]1 door de verkoop, verhuur of terbeschikkingstelling van goederen met de bedoeling een abnormaal profijt te realiseren <Ingevoegd bij W 2005- 08-10/61, art. 15; Inwerkingtreding : 12-09-2005>
   ----------
   (1)<W 2011-11-26/19, art. 32, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4703,7 +4703,7 @@ Wanneer zich een treinongeval voordoet, dat de personen die zich in de trein bev
 
 <Ingevoegd bij W 2005-08-10/61, art. 21; Inwerkingtreding : 12-09-2005> In de in artikel 433decies van het Strafwetboek bedoelde gevallen kunnen slachtoffers op beslissing, naargelang het geval, van de bevoegde minister, van de bevoegde overheid of de door hen aangewezen ambtenaren, in overleg met de terzake bevoegde diensten, in voorkomend geval worden opgevangen of gehuisvest. Deze huisvestingskosten komen ten laste van de beklaagde. Wanneer de beklaagde wordt vrijgesproken, worden de kosten ten laste gelegd al naargelang het geval, van de Staat of van het bevoegde O.C.M.W.
 
-  HOOFDSTUK IV. - AANSLAG OP DE PERSOONLIJKE VRIJHEID EN OP DE ONSCHENDBAARHEID VAN DE WONING, GEPLEEGD DOOR BIJZONDERE PERSONEN.
+#### HOOFDSTUK IV. - AANSLAG OP DE PERSOONLIJKE VRIJHEID EN OP DE ONSCHENDBAARHEID VAN DE WONING, GEPLEEGD DOOR BIJZONDERE PERSONEN.
 
 ## Art. 434
 
@@ -4763,7 +4763,7 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
   ----------
   (1)<Ingevoegd bij W 2017-10-18/08, art. 3, 126; Inwerkingtreding : 16-11-2017> (2)<W 2022-12-06/02, art. 32, 152; Inwerkingtreding : 31-12-2022>
 
-  HOOFDSTUK IVbis. - (ingevoegd bij <W 1998-10-30/34, art. 2, Inwerkingtreding : 27-12-1998>) BELAGING.
+#### HOOFDSTUK IVbis. - (ingevoegd bij <W 1998-10-30/34, art. 2, Inwerkingtreding : 27-12-1998>) BELAGING.
 
 ## Art. 442bis
 
@@ -4784,7 +4784,7 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
   (1)<W 2009-12-30/01, art. 113, 074; Inwerkingtreding : 31-12-2009>
   (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  HOOFDSTUK IVter. [1 - Misbruik van de zwakke toestand van personen]1
+#### HOOFDSTUK IVter. [1 - Misbruik van de zwakke toestand van personen]1
   ----------
   (1)<Ingevoegd bij W 2011-11-26/19, art. 35, 084; Inwerkingtreding : 02-02-2012>
 
@@ -4802,7 +4802,7 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
    ----------
    (1)<Ingevoegd bij W 2011-11-26/19, art. 36, 084; Inwerkingtreding : 02-02-2012> (2)<W 2016-02-05/11, art. 20, 114; Inwerkingtreding : 29-02-2016>
 
-  HOOFDSTUK IVquater. [1 - CONVERSIEPRAKTIJKEN]1
+#### HOOFDSTUK IVquater. [1 - CONVERSIEPRAKTIJKEN]1
   ----------
   (1)<Ingevoegd bij W 2023-07-31/15, art. 2, 154; Inwerkingtreding : 28-10-2023>
 
@@ -4845,7 +4845,7 @@ Met gevangenisstraf van vijftien dagen tot twee jaar en met geldboete van zesent
   ----------
   (1)<Ingevoegd bij W 2023-07-31/15, art. 7, 154; Inwerkingtreding : 28-10-2023>
 
-  HOOFDSTUK V. - AANRANDING VAN DE EER OF DE GOEDE NAAM VAN PERSONEN.
+#### HOOFDSTUK V. - AANRANDING VAN DE EER OF DE GOEDE NAAM VAN PERSONEN.
 
 ## Art. 443
 
@@ -4915,7 +4915,7 @@ Met gevangenisstraf van een maand tot een jaar en met geldboete van zesentwintig
   (1)<W 2009-12-30/01, art. 114, 074; Inwerkingtreding : 31-12-2009>
   (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  HOOFDSTUK VI. - ENIGE ANDERE WANBEDRIJVEN TEGEN PERSONEN.
+#### HOOFDSTUK VI. - ENIGE ANDERE WANBEDRIJVEN TEGEN PERSONEN.
 
 ## Art. 454
 
@@ -4998,9 +4998,9 @@ Hij die schuldig bevonden wordt aan het wegmaken van een (aan een postoperator) 
    (2)<W 2019-05-05/10, art. 82, 137; Inwerkingtreding : 03-06-2019>
    (3)<W 2019-05-05/19, art. 155, 140; Inwerkingtreding : 29-06-2019>
 
-  TITEL IX. - MISDADEN EN WANBEDRIJVEN TEGEN EIGENDOMMEN.
+### TITEL IX. - MISDADEN EN WANBEDRIJVEN TEGEN EIGENDOMMEN.
 
-  HOOFDSTUK I. - DIEFSTAL EN AFPERSING.
+#### HOOFDSTUK I. - DIEFSTAL EN AFPERSING.
 ## Art. 461
 
 Hij die een zaak die hem niet toebehoort, bedrieglijk wegneemt, is schuldig aan diefstal.
@@ -5013,7 +5013,7 @@ Diefstallen gepleegd door een gehuwde ten nadele van zijn echtgenoot, door een w
   ----------
   (1)<W 2011-11-26/19, art. 37, 084; Inwerkingtreding : 02-02-2012>
 
-  AFDELING I. - DIEFSTAL ZONDER GEWELD OF BEDREIGING.
+##### AFDELING I. - DIEFSTAL ZONDER GEWELD OF BEDREIGING.
 
 ## Art. 463
 
@@ -5039,7 +5039,7 @@ Poging tot een van de diefstallen, in de vorige artikelen vermeld, wordt gestraf
   Indien hij gepleegd wordt door een openbaar ambtenaar door middel van zijn ambtsbediening;
   Indien de schuldigen of een van hen de titel of de kentekens van een openbaar ambtenaar aannemen of een vals bevel van het openbaar gezag inroepen.
 
-  AFDELING II. - DIEFSTAL DOOR MIDDEL VAN GEWELD OF BEDREIGING GEPLEEGD EN AFPERSING.
+##### AFDELING II. - DIEFSTAL DOOR MIDDEL VAN GEWELD OF BEDREIGING GEPLEEGD EN AFPERSING.
 
 ## Art. 468
 
@@ -5086,7 +5086,7 @@ De straffen, bij de [1 artikelen 473 tot 475]1 bepaald, worden zelfs dan toegepa
   ----------
   (1)<W 2016-02-05/11, art. 28, 114; Inwerkingtreding : 29-02-2016>
 
-  AFDELING IIbis. - (DIEFSTAL EN AFPERSING VAN KERNMATERIAAL). <W 17-04-1986, art. 2>
+##### AFDELING IIbis. - (DIEFSTAL EN AFPERSING VAN KERNMATERIAAL). <W 17-04-1986, art. 2>
 
 ## Art. 477
 
@@ -5135,7 +5135,7 @@ De straffen, bij de [1 artikelen 473 tot 475]1 bepaald, worden zelfs dan toegepa
   (1)<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>
   (2)<W 2022-03-21/01, art. 92, 148; Inwerkingtreding : 01-06-2022>
 
-  AFDELING III. - (BETEKENIS VAN SOMMIGE IN DIT WETBOEK VOORKOMENDE UITDRUKKINGEN). <W 02-07- 1975, art. 5>
+##### AFDELING III. - (BETEKENIS VAN SOMMIGE IN DIT WETBOEK VOORKOMENDE UITDRUKKINGEN). <W 02-07- 1975, art. 5>
 
 ## Art. 478
 
@@ -5207,7 +5207,7 @@ Valse sleutels worden genoemd :
 
 Hij die bedrieglijk sleutels namaakt of vervalst, wordt veroordeeld tot gevangenisstraf van drie maanden tot twee jaar en tot geldboete van zesentwintig [euro] tot tweehonderd [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Indien de schuldige slotenmaker van beroep is, wordt hij gestraft met gevangenisstraf van twee jaar tot vijf jaar en met geldboete van tweehonderd [euro] tot duizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01- 01-2002>
 
-  HOOFDSTUK Ibis. - [1 Externe beveiliging van kernmateriaal en ander radioactief materiaal]1
+#### HOOFDSTUK Ibis. - [1 Externe beveiliging van kernmateriaal en ander radioactief materiaal]1
   ----------
   (1)<W 2013-05-23/09, art. 4, 093; Inwerkingtreding : 16-06-2013>
 
@@ -5247,9 +5247,9 @@ Hij die bedrieglijk sleutels namaakt of vervalst, wordt veroordeeld tot gevangen
   ----------
   (1)<Ingevoegd bij W 2013-05-23/09, art. 8, 093; Inwerkingtreding : 16-06-2013>
 
-  HOOFDSTUK II. - BEDROG.
+#### HOOFDSTUK II. - BEDROG.
 
-  AFDELING I. [1 - Misdrijven die verband houden met insolventie]1
+##### AFDELING I. [1 - Misdrijven die verband houden met insolventie]1
   ----------
   (1)<W 2017-08-11/14, art. 4, 128; Inwerkingtreding : 01-05-2018>
 
@@ -5329,7 +5329,7 @@ Hij die bedrieglijk sleutels namaakt of vervalst, wordt veroordeeld tot gevangen
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 12, 128; Inwerkingtreding : 01-05-2018>
 
-  AFDELING II. - MISBRUIK VAN VERTROUWEN.
+##### AFDELING II. - MISBRUIK VAN VERTROUWEN.
 
 ## Art. 491
 
@@ -5365,7 +5365,7 @@ Hij die, na in een rechtsgeding enige titel, enig stuk of enige memorie te hebbe
 
 <W 10-10-1967, art. 144> Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwintig [euro] tot duizend [euro], of met een van die straffen alleen, wordt gestraft hij die een stuk dat hij onder zich heeft en waarvan de overlegging in rechte bij een vonnis wordt bevolen, bedrieglijk vernietigt, verandert of verbergt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  AFDELING III. - OPLICHTING EN BEDRIEGERIJ.
+##### AFDELING III. - OPLICHTING EN BEDRIEGERIJ.
 
 ## Art. 496
 
@@ -5428,7 +5428,7 @@ In de gevallen (van de artikelen 500 en 501) kan de rechtbank bevelen dat het vo
 
 De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 496, 498 en 499 omschreven.
 
-  AFDELING IIIBIS. <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999>
+##### AFDELING IIIBIS. <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999>
 
 ## Art. 504bis
 
@@ -5442,7 +5442,7 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
 <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999> § 1. In geval van private omkoping is de straf een gevangenisstraf van zes maanden tot twee jaar en een geldboete van 100 [euro] tot 100 000 [euro] of één van die straffen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 2. Indien de vraag bedoeld in artikel 504bis, § 1, gevolgd wordt door een voorstel bedoeld in artikel 504bis, § 2, evenals ingeval het voorstel bedoeld in artikel 504bis, § 2, aangenomen wordt, is de straf een gevangenisstraf van zes maanden tot drie jaar en een geldboete van 100 [euro] tot 50 000 [euro] of één van die straffen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  AFDELING IIIter. [1 Verborgen ruimten.]1
+##### AFDELING IIIter. [1 Verborgen ruimten.]1
   ----------
   (1)<Ingevoegd bij W 2024-01-18/06, art. 40, 157; Inwerkingtreding : 05-02-2024>
 
@@ -5461,7 +5461,7 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
  <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
   § 3. De straffen bepaald in de §§ 1 en 2 worden verdubbeld indien een overtreding van een van die bepalingen wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die strafbare feiten of wegens een van de strafbare feiten bedoeld in de artikelen 210bis, 259bis, 314bis of in titel IXbis.
 
-  AFDELING IV. - (Heling en andere verrichtingen met betrekking tot zaken die uit een misdrijf voortkomen.) <W 1990-07-17/30, art. 4, 004; Inwerkingtreding : 25-08-1990>
+##### AFDELING IV. - (Heling en andere verrichtingen met betrekking tot zaken die uit een misdrijf voortkomen.) <W 1990-07-17/30, art. 4, 004; Inwerkingtreding : 25-08-1990>
 
 ## Art. 505
 
@@ -5499,7 +5499,7 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
 
 <W 2003-01-23/42, art. 81, 041; Inwerkingtreding : 13-03-2003> Ingeval de straf, toepasselijk op de daders van de misdaad, levenslange opsluiting of opsluiting van twintig jaar tot dertig jaar is, worden (de in de artikelen 505 en 505bis bedoelde helers) veroordeeld tot opsluiting van vijf jaar tot tien jaar indien bevonden wordt dat zij ten tijde van de heling kennis droegen van de omstandigheden waaraan de wet levenslange opsluiting of opsluiting van twintig jaar tot dertig jaar verbindt. <W 2005-08-10/62, art. 8, 054 ; Inwerkingtreding : 02-09-2005>
 
-  AFDELING V. - ENIGE ANDERE SOORTEN VAN BEDROG.
+##### AFDELING V. - ENIGE ANDERE SOORTEN VAN BEDROG.
 
 ## Art. 507
 
@@ -5550,9 +5550,9 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van zesentwinti
 
 <W 2007-05-15/62, art. 33, 072; Inwerkingtreding : 01-09-2007> Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van tweehonderd euro tot vijftienhonderd euro of met een van die straffen alleen wordt gestraft de deskundige die, wetende dat een rechtstreekse betaling niet toegelaten is, deze toch aanvaardt van een partij in het geding.
 
-  HOOFDSTUK III. - VERNIELING, BESCHADIGING, AANRICHTING VAN SCHADE.
+#### HOOFDSTUK III. - VERNIELING, BESCHADIGING, AANRICHTING VAN SCHADE.
 
-  AFDELING I. - BRANDSTICHTING.
+##### AFDELING I. - BRANDSTICHTING.
 
 ## Art. 510
 
@@ -5608,7 +5608,7 @@ Met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentw
 
 <W 07-06-1963, art. 8> Met de straffen bij de vorige artikelen bepaald, en naar de onderscheidingen aldaar gemaakt, worden gestraft zij die gebouwen, bruggen, dijken, straatwegen, spoorwegen, sluizen, magazijnen, werkplaatsen, loodsen, schepen, vaartuigen, rijtuigen, wagons, vliegtuigen of andere kunstwerken, bouwwerken of motorvoertuigen, door het veroorzaken van een ontploffing, vernielen of pogen te vernielen.
 
-  AFDELING II. - VERNIELING VAN BOUWWERKEN, STOOMMACHINES EN TELEGRAAFTOESTELLEN.
+##### AFDELING II. - VERNIELING VAN BOUWWERKEN, STOOMMACHINES EN TELEGRAAFTOESTELLEN.
 
 ## Art. 521
 
@@ -5641,7 +5641,7 @@ De bepaling van artikel 518 is toepasselijk op het geval in het vorige artikel o
   (1)<W 2009-12-30/01, art. 116, 074; Inwerkingtreding : 31-12-2009>
   (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  AFDELING III. - VERNIELING OF BESCHADIGING VAN GRAVEN, MONUMENTEN, KUNSTVOORWERPEN, TITELS, BESCHEIDEN OF ANDERE PAPIEREN.
+##### AFDELING III. - VERNIELING OF BESCHADIGING VAN GRAVEN, MONUMENTEN, KUNSTVOORWERPEN, TITELS, BESCHEIDEN OF ANDERE PAPIEREN.
 
 ## Art. 526
 
@@ -5651,7 +5651,7 @@ Met gevangenisstraf van acht dagen tot een jaar en met geldboete van zesentwinti
 ## Art. 527
 
 Hij die registers, minuten of oorspronkelijke akten van het openbaar gezag, titels, biljetten, wisselbrieven, handels- of bankpapieren, die een verbintenis, beschikking of schuldbevrijding inhouden of teweegbrengen, op enigerlei wijze kwaadwillig of bedrieglijk vernietigt, wordt gestraft alsof hij die stukken had weggenomen, en naar de onderscheidingen in het eerste hoofdstuk van deze titel gemaakt.
-  AFDELING IV. - VERNIELING OF BESCHADIGING VAN EETWAREN, KOOPWAREN OF ANDERE ROERENDE EIGENDOMMEN.
+##### AFDELING IV. - VERNIELING OF BESCHADIGING VAN EETWAREN, KOOPWAREN OF ANDERE ROERENDE EIGENDOMMEN.
 
 ## Art. 528
 
@@ -5693,7 +5693,7 @@ Hij die koopwaren of stoffen dienende om verwerkt te worden, kwaadwillig of bedr
 
 Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voertuig is vastgelegd, kwaadwillig wegneemt, doorsnijdt of vernielt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar.
 
-  Afdeling IVbis. - Graffiti en beschadiging van onroerende eigendommen. <ingevoegd bij W 2007-01-25/39, art.
+##### Afdeling IVbis. - Graffiti en beschadiging van onroerende eigendommen. <ingevoegd bij W 2007-01-25/39, art.
  3, Inwerkingtreding : 02-03-2007>
 
 ## Art. 534bis
@@ -5713,7 +5713,7 @@ Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voer
   (1)<W 2009-12-30/01, art. 118, 074; Inwerkingtreding : 31-12-2009>
   (2)<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
-  AFDELING V. - VERNIELING EN VERWOESTING VAN VELDVRUCHTEN, PLANTEN, BOMEN, ENTEN, GRANEN EN VOEDER, VERNIELING VAN LANDBOUWGEREEDSCHAPPEN.
+##### AFDELING V. - VERNIELING EN VERWOESTING VAN VELDVRUCHTEN, PLANTEN, BOMEN, ENTEN, GRANEN EN VOEDER, VERNIELING VAN LANDBOUWGEREEDSCHAPPEN.
 
 ## Art. 535
 
@@ -5727,7 +5727,7 @@ Met gevangenisstraf van een maand tot twee jaar en met geldboete van zesentwinti
 
 Hij die kwaadwillig een of meer bomen omhakt of zodanig snijdt, verminkt of ontschorst dat zij vergaan, of een of meer enten vernielt, wordt gestraft : Voor elke boom, met gevangenisstraf van acht dagen tot drie maanden en met geldboete van zesentwintig [euro] tot honderd [euro]; <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Voor elke ent, met gevangenisstraf van acht dagen tot vijftien dagen en met geldboete van zesentwintig [euro] tot vijftig [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> In geen geval mag de gezamenlijke straf hoger zijn dan drie jaar wat de gevangenisstraf en vijfhonderd [euro] wat de geldboete betreft.
 
-  AFDELING VI. - OMBRENGEN VAN DIEREN.
+##### AFDELING VI. - OMBRENGEN VAN DIEREN.
 
 ## Art. 538
 
@@ -5749,7 +5749,7 @@ Hij die buiten noodzaak een ander huisdier dan de in artikel 538 vermelde doodt 
 
 Indien er in de gevallen van de vorige artikelen schending van afsluiting heeft plaatsgehad, wordt het minimum van de straf verhoogd overeenkomstig artikel 266.
 
-  AFDELING VII. - BEPALINGEN AAN DE VORIGE AFDELINGEN GEMEEN.
+##### AFDELING VII. - BEPALINGEN AAN DE VORIGE AFDELINGEN GEMEEN.
 
 ## Art. 543
 
@@ -5759,7 +5759,7 @@ Indien de feiten, in de afdelingen V en VI van dit hoofdstuk omschreven, gepleeg
 
 (Opgeheven) <W 09-04-1930, art. 32>
 
-  AFDELING VIII. - VERNIELING VAN AFSLUITINGEN, VERPLAATSING OF VERWIJDERING VAN GRENSPALEN EN HOEKBOMEN.
+##### AFDELING VIII. - VERNIELING VAN AFSLUITINGEN, VERPLAATSING OF VERWIJDERING VAN GRENSPALEN EN HOEKBOMEN.
 
 ## Art. 545
 
@@ -5769,7 +5769,7 @@ Met gevangenisstraf van acht dagen tot zes maanden en met geldboete van zesentwi
 
 Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oogmerk om een bezitsaanmatiging op een erf te plegen, is de straf gevangenisstraf van een maand tot een jaar en geldboete van vijftig [euro] tot tweeduizend [euro]. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
-  AFDELING VIIIbis. [1 - Binnendringen in havengebieden.]1
+##### AFDELING VIIIbis. [1 - Binnendringen in havengebieden.]1
   ----------
   (1)<Ingevoegd bij W 2016-05-20/04, art. 2, 117; Inwerkingtreding : 12-06-2016>
 
@@ -5799,7 +5799,7 @@ Wanneer de feiten, in het vorige artikel omschreven, gepleegd worden met het oog
   ----------
   (1)<Ingevoegd bij W 2016-05-20/04, art. 5, 117; Inwerkingtreding : 12-06-2016>
 
-  AFDELING IX. - VERNIELING EN SCHADE DOOR OVERSTROMING VEROORZAAKT.
+##### AFDELING IX. - VERNIELING EN SCHADE DOOR OVERSTROMING VEROORZAAKT.
 
 ## Art. 547
 
@@ -5818,7 +5818,7 @@ Hij die kwaadwillig of bedrieglijk andermans erf onder water zet of er het water
 
 Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigenaars, de pachters of alle andere personen die molens, fabrieken of vijvers in gebruik hebben en die andermans wegen of eigendommen onder water zetten door het verhogen van hun overlaten boven het peil dat door de bevoegde overheid is bepaald. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002> Indien uit die feiten enige beschadiging ontstaat, wordt, naast geldboete, gevangenisstraf van acht dagen tot een maand opgelegd.
 
-  TITEL IXbis. - Misdrijven tegen de vertrouwelijkheid, integriteit en beschikbaarheid van informaticasystemen en van de gegevens die door middel daarvan worden opgeslagen, verwerkt of overgedragen. <ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001>
+### TITEL IXbis. - Misdrijven tegen de vertrouwelijkheid, integriteit en beschikbaarheid van informaticasystemen en van de gegevens die door middel daarvan worden opgeslagen, verwerkt of overgedragen. <ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001>
 
 ## Art. 550bis
 
@@ -5851,9 +5851,9 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
    (1)<W 2017-07-06/24, art. 215, 124; Inwerkingtreding : 03-08-2017>
    (2)<W 2025-12-19/94, art. 62, 165; Inwerkingtreding : 19-01-2026>
 
-  TITEL X. - OVERTREDINGEN. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
+### TITEL X. - OVERTREDINGEN. (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-   HOOFDSTUK I. - OVERTREDINGEN VAN DE EERSTE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
+#### HOOFDSTUK I. - OVERTREDINGEN VAN DE EERSTE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
 ## Art. 551
@@ -5872,7 +5872,7 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
 
 (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-   HOOFDSTUK II. - OVERTREDINGEN VAN DE TWEEDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
+#### HOOFDSTUK II. - OVERTREDINGEN VAN DE TWEEDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
 ## Art. 555
@@ -5891,7 +5891,7 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
 
 (Opgeheven) <W 2004-06-17/37, art. 4, 048; Inwerkingtreding : 01-04-2005>
 
-   HOOFDSTUK III. - OVERTREDINGEN VAN DE DERDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
+#### HOOFDSTUK III. - OVERTREDINGEN VAN DE DERDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
 ## Art. 559
@@ -5924,7 +5924,7 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
   ----------
   (1)<W 2014-05-05/09, art. 16, 106; Inwerkingtreding : 18-07-2014>
 
-   HOOFDSTUK IV. - OVERTREDINGEN VAN DE VIERDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
+#### HOOFDSTUK IV. - OVERTREDINGEN VAN DE VIERDE KLASSE. (Opgeheven) <W 2004-06-17/37, art. 4, 048;
  Inwerkingtreding : 01-04-2005>
 
 ## Art. 563

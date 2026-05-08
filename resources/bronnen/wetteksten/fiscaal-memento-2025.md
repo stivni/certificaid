@@ -134,7 +134,7 @@ INHOUDSTAFEL
 VOORWOORD......................................................................................................................................................... 2
 LIJST VAN AFKORTINGEN ..................................................................................................................................... 8
 CIJFERS PER HOOFDSTUK................................................................................................................................... 12
-HOOFDSTUK 1 DE PERSONENBELASTING (PB) ................................................................................................ 24
+#### HOOFDSTUK 1 DE PERSONENBELASTING (PB) ................................................................................................ 24
 1. WAT IS ER NIEUW? ........................................................................................................................................................... 24
 2. VOORGESCHIEDENIS/HERINNERING: DE PB NA DE 6e STAATSHERVORMING (2014), BASISPRINCIPES
 ..................................................................................................................................................................................................... 24
@@ -143,7 +143,7 @@ HOOFDSTUK 1 DE PERSONENBELASTING (PB) ..........................................
 5. BEPALING VAN HET NETTO-INKOMEN ..................................................................................................................... 30
 6. UITGAVEN DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL ......................................................................... 67
 7. BEREKENING VAN DE BELASTING ............................................................................................................................... 96
-HOOFDSTUK II VENNOOTSCHAPSBELASTING (VEN.B) .................................................................................. 123
+#### HOOFDSTUK II VENNOOTSCHAPSBELASTING (VEN.B) .................................................................................. 123
 1. BELASTBAAR TIJDPERK EN AANSLAGJAAR ........................................................................................................... 123
 2. WIE IS AAN DE VENNOOTSCHAPSBELASTING ONDERWORPEN? ................................................................. 123
 3. DE GRONDSLAG VAN DE BELASTING ...................................................................................................................... 125
@@ -167,25 +167,25 @@ VENNOOTSCHAPSBELASTING .........................................................
 7. BELASTINGSTELSEL VAN DE MEERWAARDEN .................................................................................................... 178
 8. DE BELASTINGKREDIETEN .......................................................................................................................................... 181
 9. ANDERE DE BELASTINGKREDIETEN ........................................................................................................................ 182
-HOOFDSTUK IV DE RECHTSPERSONENBELASTING (RPB) ............................................................................. 184
+#### HOOFDSTUK IV DE RECHTSPERSONENBELASTING (RPB) ............................................................................. 184
 1. WIE IS AAN DE RECHTSPERSONENBELASTING ONDERWORPEN? ............................................................... 184
 2. BELASTBARE GRONDSLAG EN BEREKENING VAN DE BELASTING ............................................................... 184
-HOOFDSTUK V DE ONROERENDE VOORHEFFING (OV) .................................................................................. 187
+#### HOOFDSTUK V DE ONROERENDE VOORHEFFING (OV) .................................................................................. 187
 1. DE ONROERENDE VOORHEFFING IN HET VLAAMSE GEWEST ....................................................................... 188
 2. DE ONROERENDE VOORHEFFING IN HET WAALSE GEWEST.......................................................................... 194
 3. DE ONROERENDE VOORHEFFING IN HET BRUSSELSE HOOFDSTEDELIJKE GEWEST ............................ 198
-HOOFDSTUK VI DE ROERENDE VOORHEFFING (RV) ...................................................................................... 202
+#### HOOFDSTUK VI DE ROERENDE VOORHEFFING (RV) ...................................................................................... 202
 1. ALGEMENE INFORMATIE ............................................................................................................................................. 202
 2. DIVIDENDEN .................................................................................................................................................................... 203
 3. INTERESTEN .................................................................................................................................................................... 207
 4. ANDERE ROERENDE INKOMSTEN ............................................................................................................................ 210
-HOOFDSTUK VII DE BEDRIJFSVOORHEFFING (BV) EN DE VOORAFBETALINGEN (VA) ................................ 211
+#### HOOFDSTUK VII DE BEDRIJFSVOORHEFFING (BV) EN DE VOORAFBETALINGEN (VA) ................................ 211
 1. BEREKENING VAN DE BEDRIJFSVOORHEFFING .................................................................................................. 211
 2. VRIJSTELLING VAN DOORSTORTING........................................................................................................................ 211
 3. VOORAFBETALINGEN (VA) .......................................................................................................................................... 212
 ## HOOFDSTUK VIII IN WERKING ZIJNDE BELGISCHE VERDRAGEN TER VERMIJDING VAN DUBBELE
 BELASTING ......................................................................................................................................................... 213
-HOOFDSTUK IX DE BELASTING OVER DE TOEGEVOEGDE WAARDE (BTW) .................................................. 220
+#### HOOFDSTUK IX DE BELASTING OVER DE TOEGEVOEGDE WAARDE (BTW) .................................................. 220
 1. DEFINITIE .......................................................................................................................................................................... 222
 2. DE BTW-PLICHTIGEN .................................................................................................................................................... 222
 3. DE BELASTBARE HANDELINGEN .............................................................................................................................. 223
@@ -204,10 +204,10 @@ REGISTRATIEPLICHT ..............................................................
 2. DE REGISTRATIERECHTEN EN DE REGISTRATIEBELASTING ........................................................................... 262
 3. HET HYPOTHEEKRECHT .............................................................................................................................................. 277
 4. DE GRIFFIERECHTEN .................................................................................................................................................... 278
-HOOFDSTUK XI DE SUCCESSIERECHTEN EN DE ERFBELASTING .................................................................. 279
+#### HOOFDSTUK XI DE SUCCESSIERECHTEN EN DE ERFBELASTING .................................................................. 279
 1. DE SUCCESSIERECHTEN EN DE ERFBELASTING ................................................................................................. 280
 2. DE JAARLIJKSE TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ............................................................. 294
-HOOFDSTUK XII DE DIVERSE RECHTEN EN TAKSEN ...................................................................................... 295
+#### HOOFDSTUK XII DE DIVERSE RECHTEN EN TAKSEN ...................................................................................... 295
 1. HET RECHT OP GESCHRIFTEN ................................................................................................................................... 296
 2. DE TAKS OP DE BEURSVERRICHTINGEN................................................................................................................ 297
 3. DE JAARLIJKSE TAKS OP DE VERZEKERINGSVERRICHTINGEN ....................................................................... 300
@@ -219,11 +219,11 @@ HOOFDSTUK XII DE DIVERSE RECHTEN EN TAKSEN .....................................
 9. DE JAARLIJKSE TAKS OP DE COLLECTIEVE BELEGGINGSINSTELLINGEN ..................................................... 306
 10. DE JAARLIJKSE TAKS OP DE VERZEKERINGSONDERNEMINGEN ................................................................. 306
 11. DE TAKS OP DE INSCHEPING VAN EEN LUCHTVAARTUIG ............................................................................. 307
-HOOFDSTUK XIII DOUANEPROCEDURES BIJ INVOER, UITVOER EN DOUANEVERVOER ............................. 309
+#### HOOFDSTUK XIII DOUANEPROCEDURES BIJ INVOER, UITVOER EN DOUANEVERVOER ............................. 309
 1. INVOERRECHTEN ........................................................................................................................................................... 309
 2. DOUANEREGELINGEN EN GEAUTORISEERDE MARKTDEELNEMER (AEO) ................................................. 310
 3. GEAUTORISEERDE MARKTDEELNEMER (AUTHORISED ECONOMIC OPERATOR (AEO)) ........................ 320
-HOOFDSTUK XIV DE ACCIJNZEN ....................................................................................................................... 322
+#### HOOFDSTUK XIV DE ACCIJNZEN ....................................................................................................................... 322
 1. DEFINITIE .......................................................................................................................................................................... 322
 2. INDELING VAN DE ACCIJNZEN .................................................................................................................................... 322
 3. MAATSTAF VAN HEFFING ........................................................................................................................................... 323
@@ -234,10 +234,10 @@ HOOFDSTUK XIV DE ACCIJNZEN .....................................................
 BIJLAGE HOOFDSTUK XIV ................................................................................................................................................. 343
 
 
-HOOFDSTUK XV DE VERPAKKINGSHEFFING .................................................................................................. 345
+#### HOOFDSTUK XV DE VERPAKKINGSHEFFING .................................................................................................. 345
 1. ALGEMEEN ....................................................................................................................................................................... 345
 2. TARIEVEN ......................................................................................................................................................................... 345
-HOOFDSTUK XVI DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE BELASTINGEN ....................... 347
+#### HOOFDSTUK XVI DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE BELASTINGEN ....................... 347
 1. DE VERKEERSBELASTING (VB) .................................................................................................................................. 348
 2. DE BELASTING OP DE INVERKEERSTELLING (BIV) .............................................................................................. 373
 3. DE KILOMETERHEFFING .............................................................................................................................................. 388
@@ -748,7 +748,7 @@ Ziekte- en invaliditeitsverzekeringuitkeringen
 
 CIJFERS PER HOOFDSTUK
 DIRECTE BELASTING
-Hoofdstuk I. Personenbelasting (PB)
+#### Hoofdstuk I. Personenbelasting (PB)
 Wettelijke basis
 
 Wetboek van de inkomstenbelastingen 1992, artikelen 3-178
@@ -861,7 +861,7 @@ overheden.
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk II. Vennootschapsbelasting (Ven.B)
+#### Hoofdstuk II. Vennootschapsbelasting (Ven.B)
 Wettelijke basis
 
 Wetboek
@@ -963,13 +963,13 @@ TOTAAL Ven.B
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk III. Bepalingen die gemeenschappelijk zijn met hoofdstukken 1 & 2
+#### Hoofdstuk III. Bepalingen die gemeenschappelijk zijn met hoofdstukken 1 & 2
 Geen cijfers
 
-Hoofdstuk IV. De rechtspersonenbelasting
+#### Hoofdstuk IV. De rechtspersonenbelasting
 Geen cijfers
 
-Hoofdstuk V. Onroerende voorheffing (OV)
+#### Hoofdstuk V. Onroerende voorheffing (OV)
 Wettelijke basis
 
 Wetboek van de inkomstenbelastingen 1992, artikelen 7 tot 16, 251-260ter en 471504 voor de bepalingen met betrekking tot de onroerende voorheffing in het Waalse
@@ -1035,7 +1035,7 @@ Belastingontvangsten in
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk VI. Roerende voorheffing (RV)
+#### Hoofdstuk VI. Roerende voorheffing (RV)
 Wettelijke basis
 Wie bepaalt
 
@@ -1083,7 +1083,7 @@ Rekeningen, Nationale Bank van België.
 15
 
 
-Hoofdstuk VII. Bedrijfsvoorheffing (BV) en voorafbetalingen (VA)
+#### Hoofdstuk VII. Bedrijfsvoorheffing (BV) en voorafbetalingen (VA)
 Wettelijke basis
 
 Bedrijfsvoorheffing: koninklijk besluit tot uitvoering van het Wetboek van de
@@ -1157,11 +1157,11 @@ vennootschappen
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk VIII. Belgische verdragen ter vermijding van dubbele belasting
+#### Hoofdstuk VIII. Belgische verdragen ter vermijding van dubbele belasting
 Zonder ontwikkeling
 
 INDIRECTE BELASTING
-Hoofdstuk IX. Belasting over de toegevoegde waarde (btw)
+#### Hoofdstuk IX. Belasting over de toegevoegde waarde (btw)
 Wettelijke basis
 
 Wetboek van de belasting over de toegevoegde waarde (btw-wetboek) en de
@@ -1221,7 +1221,7 @@ overheden.
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk X. Registratie-, hypotheek- en griffierechten; registratiebelasting
+#### Hoofdstuk X. Registratie-, hypotheek- en griffierechten; registratiebelasting
 Wettelijke basis
 
 Wetboek der registratie-, hypotheek- en griffierechten (W.Reg.) en de besluiten
@@ -1302,7 +1302,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale Rekeningen,
 Nationale Bank van België.
 
-Hoofdstuk XI. Successierechten; erfbelasting
+#### Hoofdstuk XI. Successierechten; erfbelasting
 Wettelijke basis
 
 Wetboek der successierechten (W.Succ.) en de besluiten genomen ter uitvoering
@@ -1357,7 +1357,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk XII. Diverse rechten en taksen
+#### Hoofdstuk XII. Diverse rechten en taksen
 Wettelijke basis
 
 Wetboek diverse rechten en taksen (WDRT) en de besluiten genomen ter
@@ -1411,7 +1411,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk XIII. Douaneprocedures bij invoer, uitvoer en douanevervoer
+#### Hoofdstuk XIII. Douaneprocedures bij invoer, uitvoer en douanevervoer
 Wettelijke basis
 
 Deze procedures zijn hoofdzakelijk gebaseerd op het douanewetboek van de
@@ -1463,7 +1463,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk XIV. Accijnzen
+#### Hoofdstuk XIV. Accijnzen
 Wettelijke basis
 
 Deze belastingen worden vastgesteld en geregeld door verschillende EUrichtlijnen en door de nationale wetgeving. Een aantal belangrijke bepalingen
@@ -1527,7 +1527,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk XV. Verpakkingsheffing
+#### Hoofdstuk XV. Verpakkingsheffing
 Wettelijke basis
 
 De verpakkingsheffing is het voorwerp van de artikelen 91-93 en 95, §4 van de
@@ -1583,7 +1583,7 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
 
-Hoofdstuk XVI. Met de inkomstenbelastingen gelijkgestelde belastingen
+#### Hoofdstuk XVI. Met de inkomstenbelastingen gelijkgestelde belastingen
 Wettelijke basis
 
 Deze belastingen worden bepaald en geregeld door het Wetboek van de
@@ -8085,7 +8085,7 @@ Met betrekking tot afwijkingen moet worden vermeld:
 de belastingvrijstelling van de vergoedingen die door de overheid wordt toegekend aan slachtoffers
 van de economische gevolgen van de energiecrisis en de niet-erkenning als beroepskosten van het
 
-deel van de eerder vrijgestelde vergoedingen dat wordt vergoed ten behoeve van de overheid
+## deel van de eerder vrijgestelde vergoedingen dat wordt vergoed ten behoeve van de overheid
 (artikel 7/1 van de wet van 30 oktober 2022 houdende tijdelijke ondersteuningsmaatregelen ten
 gevolge van de energiecrisis);
 •
@@ -8633,7 +8633,7 @@ rekening van het passief en onder de voorwaarde van herinvestering binnen de ter
 5.3.3.3.2. gespreide belasting van meerwaarden op materiële en immateriële vaste activa
 Bij gespreide belasting van meerwaarden op materiële en immateriële vaste activa zoals bedoeld in
 artikel 47, WIB 92, de gerealiseerde meerwaarden onder voorwaarde van herinvestering binnen de in
-paragraaf 3 van dat artikel bedoelde termijnen.
+###### paragraaf 3 van dat artikel bedoelde termijnen.
 Daarnaast is het mogelijk vrijstelling te verlenen voor:
 5.3.3.3.3. De meerwaarden op bedrijfsvoertuigen
 Overeenkomstig artikel 44bis, WIB 92 (formulier 276 N);
@@ -10038,7 +10038,7 @@ Het basistarief van de IA, dat alleen van toepassing blijft op kleine vennootsch
 20,5 % voor de gespreide IA voor onderzoek en ontwikkeling.
 
 Deze hervorming treedt in werking op 1 januari 2025. De modaliteiten van de IA worden verder uitgewerkt in
-hoofdstuk III.
+#### hoofdstuk III.
 
 5.14. DE ZEVENDE BEWERKING: AFTREK VAN DE
 GROEPSBIJDRAGE
@@ -19113,7 +19113,7 @@ winstoogmerk, de internationale verenigingen zonder winstoogmerk en de private s
 (aangelegenheden met betrekking tot rechtspersonen worden behandeld in hoofdstuk IV.
 De wet van 28 december 2023 houdende diverse fiscale bepalingen (B.S. 29 12.2023, tweede editie) heeft
 vanaf 1 januari 2024 een progressief tarief ingevoerd in plaats van het uniforme tarief van 0,17 %.
-Titel 3 van deze wet voorziet ook in een uitzondering voor patrimonia met een waarde lager dan 50.000 €
+### Titel 3 van deze wet voorziet ook in een uitzondering voor patrimonia met een waarde lager dan 50.000 €
 (art 152, W. Succ.) en voor VZW’s die actief zijn in bepaalde sectoren (art. 149 Wetboek der Successierechten).
 Vanaf 1 januari 2024 wordt het tarief van de taks geheven volgens het hierna vermelde schema:
 - 0 % op de eerste schijf van 50.000 euro;

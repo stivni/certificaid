@@ -43,16 +43,16 @@ pg. 116117, nr. Numac: 2019031045))
 
     Inhoudstafel
 
-Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en
+#### Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en
     diensten
 
-Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
+#### Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
 
-Hoofdstuk 3. Slotbepalingen
+#### Hoofdstuk 3. Slotbepalingen
 Bijlage: Btw-opgave van de intracommunautaire handelingen
 
-    Hoofdstuk 1
-    Deel 1 van de opgave met betrekking tot de intracommunautaire
+#### Hoofdstuk 1
+## Deel 1 van de opgave met betrekking tot de intracommunautaire
     leveringen en diensten
 
 ## Art. 1
@@ -134,7 +134,7 @@ wordt uitgereikt dat de herziening van de maatstaf van heffing ter kennis brengt
 
 Wanneer de belastingplichtige of het lid van een btw-eenheid in de zin van artikel 4, § 2, van het
 Wetboek, bedoeld in artikel 1, na de indiening van deel 1 van de intracommunautaire opgave in dat
-deel een materiële vergissing vaststelt, dient hij, voor het verstrijken van de indieningstermijn voor
+## deel een materiële vergissing vaststelt, dient hij, voor het verstrijken van de indieningstermijn voor
 dat deel, een nieuw deel 1 van die opgave in voor dezelfde periode, die het vorige deel 1 annuleert
 en vervangt.
 
@@ -215,7 +215,7 @@ eveneens langs elektronische weg in overeenkomstig paragraaf 1.
 (De tekst van K.B. nr. 50 (2019), artikel 7, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
-Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
+## Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
 gegeven bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 
 ## Art. 8
@@ -228,8 +228,8 @@ documenten om te kunnen voldoen aan de voorschriften van de artikelen 1 tot 7 en
 op de naleving ervan, zoals, per klant, een dubbel van alle facturen die zij uitreiken of documenten
 die betrekking hebben op de handelingen die in deel 1 van de opgave moeten worden vermeld.
 
-    HOOFDSTUK 2
-    Deel 2 van de opgave met betrekking tot de
+#### HOOFDSTUK 2
+## Deel 2 van de opgave met betrekking tot de
     intracommunautaire handelingen
 
 ## Art. 9
@@ -269,7 +269,7 @@ de belastingplichtige voor wie de goederen voorheen bestemd waren.
 
 Wanneer de belastingplichtige of het lid van een btw-eenheid in de zin van artikel 4, § 2, van het
 Wetboek, bedoeld in artikel 1, na de indiening van deel 2 van de intracommunautaire opgave in dat
-deel een materiële vergissing vaststelt, dient hij, voor het verstrijken van de indieningstermijn voor
+## deel een materiële vergissing vaststelt, dient hij, voor het verstrijken van de indieningstermijn voor
 dat deel, een nieuw deel 2 van die opgave in voor dezelfde periode, die het vorige deel 2 annuleert
 en vervangt.
 
@@ -317,7 +317,7 @@ van zijn intracommunautaire opgave in binnen drie maanden vanaf dit verlies.
 (De tekst van K.B. nr. 50 (2019), artikel 12, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
-Deel 2 van de intracommunautaire opgave wordt ingediend langs elektronische weg door de
+## Deel 2 van de intracommunautaire opgave wordt ingediend langs elektronische weg door de
 overdracht van de informatie bedoeld in de artikelen 9 en 10 op het elektronisch adres dat daartoe
 gecreëerd werd en onder de door de Minister van Financiën of zijn gemachtigde gestelde
 voorwaarden.
@@ -326,7 +326,7 @@ voorwaarden.
 (De tekst van K.B. nr. 50 (2019), artikel 13, werd ingevoerd met ingang van 01.01.2020
 (B.S. 23.12.2019, pg. 116117))
 
-Deel 2 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
+## Deel 2 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel
 gegeven bedoeld in de artikelen 9 en 10 moet worden in opgenomen.
 
 ## Art. 14
@@ -347,7 +347,7 @@ Dit koninklijk besluit voorziet in de omzetting van:
     bepaalde regels in het btw-stelsel voor de belastingheffing in het handelsverkeer tussen de
     lidstaten.
 
-    HOOFDSTUK 3
+#### HOOFDSTUK 3
     Slotbepalingen
 
 ## Art. 15

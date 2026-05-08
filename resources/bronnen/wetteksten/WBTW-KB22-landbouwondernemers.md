@@ -140,7 +140,7 @@ op de handeling verschuldigde belasting.
 
 § 2. Paragraaf 1 is niet van toepassing wanneer binnen de aldaar bedoelde termijn de
 landbouwondernemer een factuur uitreikt waarin de door 2° tot 7° voorgeschreven vermeldingen van deze
-paragraaf zijn opgenomen, evenals de datum waarop het stuk wordt uitgereikt en het volgnummer ervan.
+###### paragraaf zijn opgenomen, evenals de datum waarop het stuk wordt uitgereikt en het volgnummer ervan.
 In dat geval moet de belastingplichtige koper of ontvanger, gehouden tot het indienen van een periodieke
 aangifte, de factuur bij haar ontvangst aanvullen met het tarief en het bedrag van de verschuldigde
 belasting.

@@ -30,12 +30,12 @@ provenance:
 
 *Bijgewerkt tot en met 29.04.2024 — gecoördineerde versie.*
 
-TITEL V. - SLOTBEPALINGEN .................................................................................................................................................... 37
+### TITEL V. - SLOTBEPALINGEN .................................................................................................................................................... 37
 
     - MB 29.04.2024 / 3 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    TITEL I. - ALGEMENE BEPALINGEN EN DEFINITIES
+### TITEL I. - ALGEMENE BEPALINGEN EN DEFINITIES
 
 ## Art. 1
 Voor de toepassing van dit besluit gelden de volgende definities:
@@ -123,17 +123,17 @@ WiFi - Wireless Fidelity
     - MB 29.04.2024 / 6 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN
+### TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN
     GEREGISTREERD KASSASYSTEEM
 
 ## Art. 3
 Een geregistreerd kassasysteem zoals bedoeld in artikel 2 van de wet van 30 juli 2013 met betrekking tot de certificatie van een geregistreerd kassasysteem bestaat uit een gecertificeerd kassasysteem en een gecertificeerde Fiscal Data Module (FDM). Beide onderdelen moeten voldoen aan de technische eisen openomen in Titel II van dit besluit.
 
-   HOOFDSTUK 1. - Technische eisen ten aanzien van het gecertificeerd kassasysteem
+#### HOOFDSTUK 1. - Technische eisen ten aanzien van het gecertificeerd kassasysteem
 
-    Afdeling 1. - Verplichte functionaliteiten
+##### Afdeling 1. - Verplichte functionaliteiten
 
-    Onderafdeling 1. - Registratie van events
+###### Onderafdeling 1. - Registratie van events
 
 ## Art. 4
 Het kassasysteem dient minimaal in staat te zijn volgende events te genereren: - Normal (N) - Financial (F) - Social (S) - Report (R) Indien het kassasysteem eveneens voorziet in de events: - Pro Forma (P), - Invoice (I), - Training (T) - Copy (C) moeten hiervoor de technische eisen zoals vermeld in dit besluit worden nageleefd.
@@ -191,7 +191,7 @@ Een transactie, waarvan de registratie begonnen is, mag niet beëindigd kunnen w
 ## Art. 15
 Op het kassasysteem mag geen enkel event geregistreerd worden zonder dat een gebruiker is aangemeld.
 
-    Onderafdeling 2. - Bewaring gegevens
+###### Onderafdeling 2. - Bewaring gegevens
 
 ## Art. 16
 Het kassasysteem dient de zelf aangemaakte data, de verzonden data naar de FDM en de ontvangen data van de FDM in originele vorm kunnen bewaren, conform de fiscale bewaartermijnen.
@@ -203,7 +203,7 @@ Een overzicht van alle configuratie-instellingen en de database tabellen moet op
     - MB 29.04.2024 / 9 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 3. - Te gebruiken btw-codes
+###### Onderafdeling 3. - Te gebruiken btw-codes
 
 ## Art. 18
 Het kassasysteem dient volgende btw-codes te voorzien:
@@ -223,7 +223,7 @@ D Nultarief 0% D Taux zéro 0%
     Buiten btw- Hors du champ d'application de la
 X Geen X Néant toepassingsgebied TVA
 
-    Onderafdeling 4. - Het btw-kasticket
+###### Onderafdeling 4. - Het btw-kasticket
 
 ## Art. 19
 Het btw-kasticket, zoals voorzien in artikel 21bis van het koninklijk besluit nr. 1 van 21 december 1992, wordt fiscaal beschouwd als een controledocument waardoor het btw-kasticket aan de verkrijger moet uitgereikt worden.
@@ -239,7 +239,7 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 h. de identificatie van de gebruiker (op zodanige wijze dat deze binnen de onderneming identificeerbaar is), zoals voorzien in artikel 1, 9° ; i. de datum en het uur van de uitreiking van het btw-kasticket (door het kassasysteem gegenereerd); j. doorlopend ticketnummer uit een ononderbroken reeks (door het kassasysteem gegenereerd conform artikel 13 van dit besluit); k. geregistreerde handelingen of productlijnen; deze bevatten: - aantal, omschrijving, totale lijnprijs, btw-tariefcode;
 - de toegepaste prijswijzigingen en meldingen; l. het totaal verschuldigde ticketbedrag, inclusief btw; m. maatstaf van heffing per toepasselijk btw-tarief, zoals berekend door de FDM; n. het bedrag van de verschuldigde btw, per toepasselijk btw-tarief, zoals berekend door de FDM; niet in de productlijnen vermelde prijsaanpassing; o. de controlegegevens aangemaakt en doorgestuurd door de FDM. Deze worden leesbaar afgedrukt; p. de toepasselijke betaallijnen met inbegrip van eventuele afrondingen, fooien en andere (terug-)betalingen; q. de QR-code, die de URL bevat zoals meegegeven door de FDM.
 
-    Onderafdeling 5. - De rapporten
+###### Onderafdeling 5. - De rapporten
 
 ## Art. 21
 Overeenkomstig artikel 2, punt 5, van het hierboven vermelde koninklijk besluit van 30 december 2009, is de belastingplichtige die gebruik maakt van een geregistreerd kassasysteem, verplicht een dagelijks omzet rapport en een dagelijks gebruikersrapport op te maken (Z-rapporten).
@@ -288,7 +288,7 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 
 k. de vermelding van de referentie van het eerste en laatste erin opgenomen event; l. enkel voor Z-rapport: een doorlopende nummering uit een ononderbroken reeks.
 
-    Onderafdeling 6. - Facturen aangemaakt met het kassasysteem
+###### Onderafdeling 6. - Facturen aangemaakt met het kassasysteem
 
 ## Art. 31
 Het kassasysteem kan bijkomend voorzien in de mogelijkheid om facturen uit te reiken. Deze factuur dient als event Invoice te worden verzonden naar FDM. Een factuur kan pas aangemaakt worden nadat een btwkasticket (event N) is aangemaakt.
@@ -305,7 +305,7 @@ De uitgereikte factuur moet, naast de vermelding `FACTUUR' in de hoofding, minst
 ## Art. 33
 Alle gegevens van de aangemaakte facturen moeten als een subboek voor uitgaande facturen uit het geregistreerd kassasysteem kunnen worden geëxporteerd.
 
-    Onderafdeling 7. - Consolidatieregels
+###### Onderafdeling 7. - Consolidatieregels
 
 ## Art. 34
 Om de leesbaarheid van de afdrukken die aan de klant worden bezorgd te optimaliseren worden consolidaties toegelaten.
@@ -317,7 +317,7 @@ Deze consolidaties worden nooit toegepast op de inhoud van de berichten die het 
     - MB 29.04.2024 / 14 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 8. - Afdrukken
+###### Onderafdeling 8. - Afdrukken
 
 ## Art. 36
 Er dient voor de toepassing van dit besluit steeds een duidelijk onderscheid gemaakt worden tussen de volgende begrippen: EVENT << >> AFDRUK << >> BERICHT naar de FDM.
@@ -334,12 +334,12 @@ Hiervoor dient respectievelijk de benaming TRAINING, PRO FORMA of KOPIE duidelij
 Een rekeningoverzicht draagt bijkomend duidelijk leesbaar de vermelding "VOORLOPIGE REKENING".
 Op alle afdrukken die door het kassasysteem worden geproduceerd, ongeacht hun benaming die geen btwkasticket zijn, zoals voorzien in artikel 1, 8°, dient onderaan de volgende tekst in hoofdletters afgedrukt te worden: "DIT IS GEEN GELDIG btw KASTICKET".
 
-    Onderafdeling 9. - Afronding van betalingen
+###### Onderafdeling 9. - Afronding van betalingen
 
 ## Art. 39
 Het kassasysteem dient te voorzien dat de afrondingsregels worden toegepast van de artikelen VI.7/1 en VI.7/2 van het Wetboek Economisch Recht.
 
-    Afdeling 2. - Verboden functionaliteiten
+##### Afdeling 2. - Verboden functionaliteiten
 
 ## Art. 40
 Er mag geen hard- of software worden aangesloten op of geïntegreerd zijn in het kassasysteem, die de normale werking van de functies, vermeld in dit ministerieel besluit, beïnvloedt, wijzigt of verstoort. Hiermee wordt ook bedoeld: niet in de handleidingen of andere aan de FOD Financiën voorgelegde documentatie opgenomen kassasoftware of kassaprogramma, dat is geïnstalleerd of functioneert op een kassasysteem.
@@ -364,7 +364,7 @@ Een kassasysteem mag geen functie hebben die het mogelijk maakt om voorgeprogram
 ## Art. 45
 Een kassasysteem mag geen mogelijkheid bieden om de instellingen (parameters), op welke wijze ook, zo aan te passen dat de verboden functionaliteiten toch mogelijk worden.
 
-    Afdeling 3. - Identificatie van het kassasysteem
+##### Afdeling 3. - Identificatie van het kassasysteem
 
 Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding en een productienummer. Dit productienummer moet een uniek nummer zijn waarmee zowel het kassasysteem als de producent ervan éénduidig wordt geïdentificeerd. Het productienummer wordt als volgt opgebouwd: CXXXNNNPPPPPP waarbij: - CXXX = identificatienummer producent van een kassasysteem (op aanvraag verstrekt door de administratie);
 - NNN = volgnummer, door de administratie toegekend aan het model;
@@ -378,7 +378,7 @@ Het versienummer van de kassasoftware en de naam van de producent van het progra
     - MB 29.04.2024 / 16 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Afdeling 4. - Communicatie met de Fiscal Data Module
+##### Afdeling 4. - Communicatie met de Fiscal Data Module
 
 ## Art. 48
 Het kassasysteem moet de ingebrachte gegevens zoals bepaald in artikel 1, 5° van dit ministerieel besluit kunnen verzenden naar FDM.
@@ -396,7 +396,7 @@ Het kassasysteem moet in staat zijn om volgende controlegegevens te ontvangen va
 - de digitale handtekeningen.
 Deze controlegegevens worden afgedrukt op het btw-kasticket.
 
-    Onderafdeling 1. - Fysieke verbinding met de Fiscal Data Module
+###### Onderafdeling 1. - Fysieke verbinding met de Fiscal Data Module
 
 ## Art. 52
 Het kassasysteem en de FDM worden met elkaar verbonden met een kabel (LAN) of draadloos (WiFi). De configuratie van de verbinding gebeurt in de backoffice van zowel kassa als FDM.
@@ -407,7 +407,7 @@ De FDM is via het internet verbonden met de FODFIN cloud API en ontvangt via dez
     - MB 29.04.2024 / 17 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 2. - Berichten van het kassasysteem naar de Fiscal Data Module
+###### Onderafdeling 2. - Berichten van het kassasysteem naar de Fiscal Data Module
 
 ## Art. 53
 De berichten worden door het kassasysteem naar de GraphQL service van de FDM gestuurd.
@@ -423,7 +423,7 @@ De verstuurde gegevens omvatten onder andere:
 ## Art. 54
 Alle events worden naar de FDM gestuurd, om digitaal ondertekend te worden. Hiervoor worden er diverse mutaties beschikbaar gesteld door de GraphQL service van de FDM.
 
-    Onderafdeling 3. - Antwoord van de Fiscal Data Module
+###### Onderafdeling 3. - Antwoord van de Fiscal Data Module
 
 ## Art. 55
 Als antwoord op de berichten ontvangt het kassasysteem controlegegevens de berekende maatstaven van heffing, de berekende btw-bedragen, de handtekeningen en diverse mededelingen. Dit antwoord volgt steeds de structuur, gedefinieerd door de GraphQL service van de FDM, die beschreven staat in de detailbeschrijvingen.
@@ -431,12 +431,12 @@ Als antwoord op de berichten ontvangt het kassasysteem controlegegevens de berek
 ## Art. 56
 De digitale handtekening, bedoeld in artikel 54, wordt geplaatst op de datavelden, waarvan de inhoud en structuur in de detailbeschrijvingen wordt beschreven.
 
-    Afdeling 5. - Detailbeschrijvingen
+##### Afdeling 5. - Detailbeschrijvingen
 
 ## Art. 57
 De geactualiseerde volledige technische detailbeschrijvingen (veldbeschrijvingen, data formaten, GraphQL mutaties, inhoud, use cases) van de communicatie tussen het kassasysteem en de FDM, met inbegrip van de errorhandling worden door de FOD Financiën ter beschikking op haar website:
 
-    HOOFDSTUK 2. - Technische eisen ten aanzien van de fiscal data module
+#### HOOFDSTUK 2. - Technische eisen ten aanzien van de fiscal data module
 
 ## Art. 58
 Dit hoofdstuk bevat, verduidelijkt en specificeert de voorschriften waaraan de FDM van het GKS moet voldoen, zoals voorzien in artikel 2, punt 7, van het koninklijk besluit van 30 december 2009.
@@ -450,7 +450,7 @@ De FDM moet aangesloten zijn op het kassasysteem en maakt hierdoor integraal dee
 Gezien zijn aard en functie dient de FDM zich steeds in de onderneming te bevinden en gekoppeld te zijn aan het kassasysteem. Dit kan op het adres van de uitbating (aan te bevelen), maar kan ook op het administratief adres, of het fiscaal domicilie van de onderneming of enige andere plaats binnen de EU.
 Een FDM mag niet voor meerdere uitbatingen gebruikt worden (dus minimaal één FDM per uitbating).
 
-    Afdeling 1. - Algemene voorschriften
+##### Afdeling 1. - Algemene voorschriften
 
 ## Art. 60
 Elke geïnstalleerde FDM moet voldoen aan de eisen gesteld in dit ministerieel besluit.
@@ -465,7 +465,7 @@ De werking van de FDM mag niet verstoord worden door het aansluiten van andere h
 ## Art. 63
 De FDM moet berichten van het kassasysteem kunnen ontvangen, valideren en beantwoorden en tegelijkertijd de transactie-gegevens online kunnen doorsturen naar de servers van FOD Financiën.
 
-    Onderafdeling 1. - Tellers
+###### Onderafdeling 1. - Tellers
 
 Artikel 64. De FDM bevat minimaal volgende tellers, die bij ondertekening van de inhoud van de betreffende events worden geüpdatet: - aantal events Normal;
 - aantal events Pro Forma;
@@ -480,7 +480,7 @@ Artikel 64. De FDM bevat minimaal volgende tellers, die bij ondertekening van de
     - MB 29.04.2024 / 19 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 2. - Berekening maatstaven van heffing en btw-bedragen
+###### Onderafdeling 2. - Berekening maatstaven van heffing en btw-bedragen
 
 ## Art. 65
 De FDM ontvangt van de FOD Financiën bij zijn initialisatie en bij elke wijziging de btw-tarieven die van toepassing zijn op de eerder genoemde btw-labels A, B, C, D en X. Deze laten de FDM toe om voor de events Normal de maatstaven van heffing en btw-bedragen te berekenen.
@@ -498,7 +498,7 @@ Op het ogenblik van publicatie van dit ministerieel besluit gelden volgende btw-
 3. btw-bedrag wordt afgerond op de hogere of lagere cent, naargelang de derde decimaal 5 bereikt of niet.
 4. Het eventueel afgeronde bedrag wordt afgetrokken van het bedrag inclusief btw en het verschil vormt de maatstaf van heffing.
 
-    Onderafdeling 3. - Buffering
+###### Onderafdeling 3. - Buffering
 
 ## Art. 67
 De FDM moet de ontvangen berichten voldoende lang kunnen bufferen in zijn intern geheugen, zodat gegarandeerd kan worden dat deze berichten effectief naar de servers van FOD Financiën werden gestuurd.
@@ -510,7 +510,7 @@ Van zodra de servers opnieuw beschikbaar zijn, stuurt de FDM zo snel mogelijk de
     - MB 29.04.2024 / 20 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 4. - Aanpasbaarheid instellingen
+###### Onderafdeling 4. - Aanpasbaarheid instellingen
 
 ## Art. 69
 De FDM moet in beperkte mate een aanpassing van zijn instellingen door (of voor) de FOD Financiën toelaten, meer bepaald voor: - de klok (verbinding met een externe time server);
@@ -521,7 +521,7 @@ De FDM moet in beperkte mate een aanpassing van zijn instellingen door (of voor)
 - de parameters;
 - de aan te roepen url's en webservices.
 
-    Onderafdeling 5. - Identificatie en product-veiligheid
+###### Onderafdeling 5. - Identificatie en product-veiligheid
 
 ## Art. 70
 Elke FDM zal een uniek productienummer dragen, dat als volgt wordt samengesteld: AAABBNNNNNN, waarbij: - AAA = identificatienummer producent (na aanvraag verstrekt door de FOD Financiën);
@@ -541,9 +541,9 @@ Elke FDM is zichtbaar voorzien van volgende informatie:
     - MB 29.04.2024 / 21 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Afdeling 2. - Hardware eisen
+##### Afdeling 2. - Hardware eisen
 
-    Onderafdeling 1. - Processor (module)
+###### Onderafdeling 1. - Processor (module)
 
 ## Art. 73
 De FDM wordt opgebouwd rond een ARM/CORTEX processor of gelijkwaardig. Deze heeft of ondersteunt minimaal: - het aantal GPIO's nodig om de gevraagde functionaliteit te ondersteunen;
@@ -559,14 +559,14 @@ Communicatie met het kassasysteem verloopt minimaal via ethernet LAN en WIFI.
 ## Art. 76
 De FDM wordt voorzien van voldoende intern geheugen voor een vlotte werking (opslag besturingssysteem, opslag firmware, opslag tellers, ...), rekening houdend met alle vereisten opgenomen in dit besluit.
 
-    Onderafdeling 2. - Beveiliging
+###### Onderafdeling 2. - Beveiliging
 
 ## Art. 77
 De FDM wordt uitgerust met secure element (ATECC608B of gelijkwaardig), met onder andere de volgende kenmerken: - niet-vluchtig geheugen, opslag van minimaal 2 tellers (telkens van minimaal 256 bit), certificaten, en gemengd read/write, read only of secret data;
 - toegang tot de diverse secties van het geheugen is beschermd;
 - conform de GDPR regelgeving.
 
-    Onderafdeling 3. - Connectiviteit
+###### Onderafdeling 3. - Connectiviteit
 
 ## Art. 78
 De FDM is voorzien van een gecertificeerde WiFi module, een LAN-poort en kan optioneel voorzien worden van minimaal een LTE 4/5G module.
@@ -580,20 +580,20 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 ## Art. 80
 Een FDM mag bijkomende hardwarecomponenten bevatten (zoals bijvoorbeeld een LiPo batterij), op voorwaarde dat zij de gevraagde functionaliteiten beter ondersteunen en/of geen negatieve of beperkende invloed hierop hebben.
 
-    Onderafdeling 4. - Fysische opslagcapaciteit
+###### Onderafdeling 4. - Fysische opslagcapaciteit
 
 ## Art. 81
 De FDM heeft een minimale opslagcapaciteit van 2 GB beschikbaar voor het opslaan van transactiegegevens.
 
-    Onderafdeling 5. - Software
+###### Onderafdeling 5. - Software
 
 ## Art. 82
 De firmware voldoet minimaal aan de eisen gesteld in dit ministerieel besluit en de eerder vermelde detailbeschrijvingen. De firmware mag meer functionaliteiten bevatten, die evenwel geen invloed mogen hebben op de gestelde technische eisen en die duidelijk moeten beschreven worden in de bijgeleverde documentatie bij de certificatieaanvraag.
 Met respect voor de regels beschreven dit ministerieel besluit (in casu voorleggen aan en toelating krijgen van de bevoegde dienst FOD Financiën) kan de firmware een noodzakelijke patch of upgrade krijgen. Dit kan enkel door de producent of zijn gedelegeerde en op een beveiligde manier. Dit wordt uitvoerig beschreven in de documentatie gevoegd bij de aanvraag van certificatie en vormt een onderdeel van het certificatieproces.
 
-    Afdeling 3. - User interface - werking
+##### Afdeling 3. - User interface - werking
 
-    Onderafdeling 1. - Verplicht op het toestel
+###### Onderafdeling 1. - Verplicht op het toestel
 
 ## Art. 83
 Volgende minimale gezondheidsindicatoren moeten minimaal worden beschikbaar gesteld voor de gebruiker: - batterijstatus (indien het toestel zonder netstroomadapter kan werken);
@@ -602,7 +602,7 @@ Volgende minimale gezondheidsindicatoren moeten minimaal worden beschikbaar gest
 - internet network status: `succesvolle communicatie' met FODFIN, `fout communicatie' met FODFIN.
 Deze indicatoren mogen naar keuze van de producent zichtbaar zijn op een display of via led. De ter beschikking gestelde gebruikershandleiding vermeldt duidelijk alle mogelijke statussen van deze indicatoren.
 
-    Onderafdeling 2. - Te voorzien op het toestel
+###### Onderafdeling 2. - Te voorzien op het toestel
 
 ## Art. 84
 De toegang tot de backoffice van de FDM wordt op een adequate manier beveiligd om de goede werking van het toestel te beschermen. De producent documenteert dit uitvoerig bij zijn certificatieaanvraag.
@@ -617,19 +617,19 @@ De user interface van de FDM mag:
 - hetzij toegankelijk zijn via het aangesloten kassasysteem;
 - hetzij een combinatie van de hierboven vermelde mogelijkheden.
 
-    Onderafdeling 3. - User interface - configuratie
+###### Onderafdeling 3. - User interface - configuratie
 
 ## Art. 86
 Hieronder worden zowel de configuratie van de netwerkverbinding met het kassasysteem als deze met de servers van de FOD Financiën bedoeld.
 
-    Onderafdeling 4. - Cyberbeveiliging
+###### Onderafdeling 4. - Cyberbeveiliging
 
 ## Art. 87
 De fabrikanten van de FDM dienen de voorwaarden van de Richtlijn (EU) 2022/2555 van het Europees Parlement en de Raad van 14 december 2022 betreffende maatregelen voor een hoog gezamenlijk niveau van cyberbeveiliging in de Unie, tot wijziging van Verordening (EU) nr. 910/2014 en Richtlijn (EU) 2018/1972 en tot intrekking van Richtlijn (EU) 2016/1148 (NIS 2-richtlijn) na te leven.
 
-    Afdeling 4. - Communicatie tussen de Fiscal Data Module en de cloudservice van de FOD Financiën
+##### Afdeling 4. - Communicatie tussen de Fiscal Data Module en de cloudservice van de FOD Financiën
 
-    Onderafdeling 1. - First boot ever
+###### Onderafdeling 1. - First boot ever
 
 ## Art. 88
 Conform de bepalingen met betrekking tot de registratie van de onderdelen van het geregistreerd kassasysteem opgenomen in dit besluit, worden zowel het kassasysteem als de FDM door de betrokken stakeholders in de diverse fases (productie, levering) geregistreerd in de GKS e-service van de FOD FINANCIEN.
@@ -644,7 +644,7 @@ De FODFIN cloudservice:
     - MB 29.04.2024 / 24 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    Onderafdeling 2. - Verbinding en beveiliging
+###### Onderafdeling 2. - Verbinding en beveiliging
 
 ## Art. 89
 De verbinding via het internet wordt geconfigureerd via de backoffice van de FDM. Deze backoffice is producent-eigen, waarbij de gebruikersinterface verschillend kan zijn. De backoffice biedt minstens volgende configuratiemogelijkheden aan: - de URL's van de FODFIN cloudservice;
@@ -655,7 +655,7 @@ Elke communicatie wordt beveiligd door het gebruik van:
 - het authentificatiecertificaat;
 - het mTLS protocol dat de zendingen encrypteert.
 
-    Onderafdeling 3. - Online doorsturen van de transactiegegevens
+###### Onderafdeling 3. - Online doorsturen van de transactiegegevens
 
 ## Art. 91
 Afhankelijk van de geconfigureerde zendfrequentie stuurt de FDM pakketten met transactiegegevens van de FDM (JSON-berichten) door naar de FODFIN cloudservice. Dergelijke pakketten bevatten minimaal de inhoud van één volledig event of een NOP.
@@ -664,12 +664,12 @@ Deze pakketten worden door de FODFIN cloudservice minimaal 3 jaar bijgehouden.
 Deze bewaring doet geen afbreuk aan de wettelijke fiscale bewaar- en voorleggings-verplichtingen van de originele gegevens op het kassasysteem (artikelen 315bis en 315ter van het WIB92 en artikelen 60 en 63 van het Wbtw).
 Andere dan in dit ministerieel besluit opgenomen gegevens kunnen en mogen niet via deze verbinding doorgestuurd worden.
 
-    Onderafdeling 4. - API Application programming interface
+###### Onderafdeling 4. - API Application programming interface
 
 ## Art. 92
 De FDM communiceert via het hieronder beschreven protocol met de (cloud)servers van de FODFIN. Geen enkele andere dan deze communicatie is toegelaten.
 
-    Afdeling 5. - Detailbeschrijvingen
+##### Afdeling 5. - Detailbeschrijvingen
 
 ## Art. 93
 De geactualiseerde volledige technische detailbeschrijvingen (hardware, firmware, veldbeschrijvingen, data formaten, API, JSON, protocol) van de communicatie tussen de FDM en de servers van de FOD Financiën ter beschikking op haar website: www.geregistreerdkassasysteem.be.
@@ -677,19 +677,19 @@ De geactualiseerde volledige technische detailbeschrijvingen (hardware, firmware
     - MB 29.04.2024 / 25 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    TITEL III. - VERPLICHTINGEN IN HOOFDE VAN DE DIVERSE BETROKKEN PARTIJEN
+### TITEL III. - VERPLICHTINGEN IN HOOFDE VAN DE DIVERSE BETROKKEN PARTIJEN
 
-    HOOFDSTUK 1. - Verplichtingen in hoofde van de producent of invoerder van onderdelen van het geregistreerd kassasysteem
+#### HOOFDSTUK 1. - Verplichtingen in hoofde van de producent of invoerder van onderdelen van het geregistreerd kassasysteem
 
-    Afdeling 1. - Certificatieprocedure
+##### Afdeling 1. - Certificatieprocedure
 
-    Onderafdeling 1. - Bevoegde dienst
+###### Onderafdeling 1. - Bevoegde dienst
 
 ## Art. 94
 De bevoegde dienst van de FOD Financiën is de enige certificerende overheid in dit proces en beslist éénzijdig omtrent elk dispuut rond certificatie-issues en voert hierover geen correspondentie met derde partijen.
 De bevoegde dienst van de FOD Financiën kan ten allen tijde een reeds gecertificeerd toestel/programma onderwerpen aan nieuwe tests.
 
-    Onderafdeling 2. - Algemene principes
+###### Onderafdeling 2. - Algemene principes
 
 ## Art. 95
 Alle vaststellingen (of vermoedens) van niet-conformiteit van hetzij een kassasysteem, hetzij een FDM dienen onverwijld gemeld te worden aan deze certificerende overheid, die na een eventuele analyse de gepaste maatregelen zal nemen om de vastgestelde inbreuk te corrigeren.
@@ -712,7 +712,7 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 Wijzigingen in de technische bepalingen van de werking van de FDM t.o.v. de circulaire Circulaire AAFisc Nr.
 33/2016 (nr. E.T.124.747) van 8 november 2016, zijn enkel van toepassing op toestellen die na datum van inwerkingtreding van dit besluit ter certificatie worden aangeboden.
 
-    Onderafdeling 3. - De aanvraag tot certificatie
+###### Onderafdeling 3. - De aanvraag tot certificatie
 
 ## Art. 99
 Voor elke versie of model van een FDM of een kassasysteem dat in België op de markt zal worden gebracht met de bedoeling opgesteld te worden als onderdeel van een geregistreerd kassasysteem, dient conform artikel 3 van voormelde wet met betrekking tot de certificatie van een geregistreerd kassasysteem van 30 juli 2013 een certificatieaanvraag bij de bevoegde dienst van de FOD Financiën te worden ingediend, hetzij door de producent, hetzij door de invoerder.
@@ -776,7 +776,7 @@ FDM-producenten bezorgen de bevoegde dienst van de FOD Financiën dezelfde FDM-s
 ## Art. 106
 De bevoegde dienst bij de FOD Financiën kan na de start van de certificatieprocedure nog bijkomende informatie opvragen, indien de hierboven beschreven documenten en informatie onvolledig blijken te zijn en/of ter verduidelijking van de bekomen informatie. De aanvrager beschikt hiervoor over een termijn van één maand. Bij gebrek aan antwoord binnen deze termijn wordt de certificatieaanvraag beschouwd als ingetrokken. De aanvrager kan steeds een verlenging van de hierboven vermelde termijn vragen, mits een gemotiveerd schrijven dat voor de oorspronkelijke vervaldag bij de bevoegde dienst bij de FOD Financiën dient toe komen.
 
-    Onderafdeling 4. - Verloop van de certificatieprocedure
+###### Onderafdeling 4. - Verloop van de certificatieprocedure
 
 ## Art. 107
 De certificatie van een kassasysteem omvat steeds twee luiken:
@@ -801,7 +801,7 @@ De naleving van de normen vervat in het CE-keurmerk wordt door de producent gega
 In geval van ernstige twijfel behoudt de FOD Financiën zich het recht voor om het toestel te laten testen door een geaccrediteerde certificatie-instelling, op kosten van de aanvrager.
 De certificatie door de bevoegde dienst bij de FOD Financiën houdt GEEN garantie in van de naleving van de Europese normen vervat in het globale CE-keurmerk. De naleving hiervan wordt immers door de producent zelf gewaarborgd.
 
-    Onderafdeling 5. - Toekenning van certificaat
+###### Onderafdeling 5. - Toekenning van certificaat
 
 ## Art. 109
 Indien uit het onderzoek blijkt dat het aangeboden kassasysteem of de aangeboden FDM niet voldoet aan de technische voorwaarden, wordt de producent of invoerder hiervan in kennis gesteld door de bevoegde dienst bij de FOD Financiën. De producent of invoerder kan dan ofwel zijn aanvraag volledig intrekken of het product aanpassen aan de opmerkingen en opnieuw ter certificatie voorleggen.
@@ -824,7 +824,7 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 De certificatiewerkzaamheden uitsluitend beperken zich tot hetgeen bepaald werd in het koninklijk besluit van 1 oktober 2013 (Belgisch Staatsblad 8 oktober 2013) ter uitvoering van de wet met betrekking tot de certificatie van een geregistreerd kassasysteem van 30 juli 2013, zoals gewijzigd met artikelen 101 tot en met 103 van de wet houdende diverse fiscale bepalingen van 28 december 2023 en in huidig ministerieel besluit.
 Het uitgereikte certificaat door de bevoegde dienst van de FOD Financiën heeft uitdrukkelijk geen betrekking op functionaliteiten van het betreffende onderdeel van het geregistreerd kassasysteem, die niet gedocumenteerd werden in het dossier ingediend door de aanvrager.
 
-    Onderafdeling 6. - Verplichtingen na de certificatie
+###### Onderafdeling 6. - Verplichtingen na de certificatie
 
 ## Art. 112
 Productgarantie
@@ -849,12 +849,12 @@ FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 
 4° Indien er een nieuw certificaat dient aangevraagd te worden, is het vervolg identiek aan de procedure hierboven beschreven. De praktische modaliteiten worden beschreven in de certificatiehandleiding.
 5° Elke wijziging betreffende de identiteit van de producent of invoerder dient onmiddellijk meegedeeld te worden aan de bevoegde dienst bij de FOD Financiën.
 
-    Onderafdeling 7. - Recuperatie modelexemplaar
+###### Onderafdeling 7. - Recuperatie modelexemplaar
 
 ## Art. 114
 Wanneer een certificatieprocedure wordt stopgezet (wegens niet toekennen certificaat of vrijwillige terugtrekking), kan de producent zijn aangeleverde modelexempla(a)r(en) bij de bevoegde dienst van de FOD Financiën terug ophalen. Hij beschikt hiervoor over 6 maanden na de stopzetting van de procedure. Na deze periode wordt de FOD Financiën definitief eigenaar van dit materiaal en kan zij hier vrij over beschikken.
 
-    Afdeling 2. - Registratieprocedure
+##### Afdeling 2. - Registratieprocedure
 
 ## Art. 115
 Artikel 2bis van het koninklijk besluit van 30 december 2009, artikel 4 van de wet met betrekking tot de certificatie van een geregistreerd kassasysteem van 30 juli 2013 en artikel 5 van het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem van 1 oktober 2013 voorzien in de registratie door alle betrokkenen van alle onderdelen van het geregistreerd kassasysteem, namelijk: - het kassasysteem;
@@ -883,7 +883,7 @@ Van zodra de producent of invoerder de een kassasysteem of een FDM levert aan ee
 De levering van een FDM of een kassasysteem dient geregistreerd te worden op de vroegste datum van de volgende twee momenten: - het moment waarop de verdeler er juridisch eigenaar van wordt;
 - het moment waarop de verdeler het onderdeel fysisch in zijn bezit heeft.
 
-   HOOFDSTUK 2. - Verplichtingen in hoofde van de verdeler van onderdelen van het geregistreerd kassasysteem
+#### HOOFDSTUK 2. - Verplichtingen in hoofde van de verdeler van onderdelen van het geregistreerd kassasysteem
 
 ## Art. 120
 Iedere onderneming die een kassasysteem of FDM, bedoeld om te worden gebruikt als in een geregistreerd kassasysteem, wenst te verkopen (leveren en factureren) aan een belastingplichtige exploitant uitbater of verdeler, dient zich voorafgaandelijk bij de FOD Financiën als dusdanig kenbaar te maken.
@@ -907,7 +907,7 @@ In voorkomend geval dat de verdeler één of meerdere onderdelen van geregistree
 - leveringsdatum;
 - productienummers van de doorverkochte toestellen.
 
-    HOOFDSTUK 3. - Verplichtingen in hoofde van de gebruiker van het geregistreerd kassasysteem
+#### HOOFDSTUK 3. - Verplichtingen in hoofde van de gebruiker van het geregistreerd kassasysteem
 
 ## Art. 122
 Elke onderneming die krachtens artikel 21bis van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde gehouden is een geregistreerd kassasysteem te gebruiken voor de registratie van zijn uitgaande handelingen, waarvoor zij niet verplicht zijn een factuur uit te reiken, moet zich als gebruiker van een geregistreerd kassasysteem registreren. Dit gebeurt altijd via de daarvoor voorziene webapplicatie van de FOD Financiën.
@@ -933,9 +933,9 @@ De belastingplichtige-uitbater dient dan, onverwijld, via de webapplicatie de no
 ## Art. 126
 De belastingplichtige-gebruiker van een geregistreerd kassasysteem is verantwoordelijk voor de bewaring van de gegevens die door het kassasysteem zijn aangemaakt, conform de btw-wetgeving (en bij uitbreiding de boekhoud-wetgeving). Zo is de belastingplichtige-gebruiker met name verantwoordelijk voor de bewaring van de gegevens op het kassasysteem en op de FDM. Gemaakte back-up's van kassadata blijven deel uitmaken van het kassasysteem en zijn bijgevolg aan dezelfde bewaringstermijnen onderhevig.
 
-    TITEL IV. - SANCTIES - BEROEPSMOGELIJKHEDEN
+### TITEL IV. - SANCTIES - BEROEPSMOGELIJKHEDEN
 
-  HOOFDSTUK 1. - Sancties met betrekking tot de certificatie van onderdelen van het geregistreerd kassasysteem
+#### HOOFDSTUK 1. - Sancties met betrekking tot de certificatie van onderdelen van het geregistreerd kassasysteem
 
 ## Art. 127
 1° Wanneer de bevoegde dienst van FOD Financiën vaststelt dat de producent of invoerder de verplichtingen opgenomen in de artikelen 97 tot 122 niet respecteert, voor één of meer van deze verplichtingen in gebreke blijft, zal hij hiervan schriftelijk op de hoogte gesteld worden teneinde zich opnieuw in regel te stellen. Het certificaat wordt twee maanden opgeschort.
@@ -954,12 +954,12 @@ het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien
 5° De FOD Financiën stelt de gebruikers van een dergelijk geregistreerd kassasysteem in kennis van het intrekken van het certificaat. Deze gebruikers dienen, conform artikel 7 van het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem van 01 oktober 2013, binnen de drie maanden opnieuw over een volledig gecertificeerd systeem te beschikken.
 Indien de gebruiker van mening is dat zijn toestel(len) wel degelijk voldoet(n) aan de eisen van het certificaat, dient hij dit binnen de maand te melden aan de bevoegde dienst bij de FOD Financiën, die binnen de maand na ontvangst van deze melding ter plaatse de conformiteit zal gaan beoordelen.
 
- HOOFDSTUK 2. - Beroepsmogelijkheid met betrekking tot het intrekken/weigeren van het certificaat
+#### HOOFDSTUK 2. - Beroepsmogelijkheid met betrekking tot het intrekken/weigeren van het certificaat
 
 ## Art. 129
 Wanneer de producent van oordeel is dat de definitieve administratieve beslissing van weigering of intrekken van het certificaat onterecht is gebeurd (en zijn product volledig conform de technische voorschriften is), kan hij conform de bepalingen van artikel 569, 32° Ger.W. bij dagvaarding tegen deze weigering een beroep indienen bij de rechtbank van eerste aanleg te Brussel.
 
-   HOOFDSTUK 3. - Sancties met betrekking tot de registratie van onderdelen van het geregistreerd kassasysteem
+#### HOOFDSTUK 3. - Sancties met betrekking tot de registratie van onderdelen van het geregistreerd kassasysteem
 
 ## Art. 130
 Indien bij een eindgebruiker een onderdeel van het geregistreerd kassasysteem niet werd geregistreerd volgens bovenstaande procedure, heeft dit tot gevolg dat het aldaar opgestelde kassasysteem met controlemodule NIET voldoet aan de voorwaarden gesteld in het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan het geregistreerd kassasysteem moet voldoen. Deze overtreding kan in hoofde van de belastingplichtige-uitbater bestraft worden met een administratieve boete conform Afdeling 2, rubriek II.A van het koninklijk besluit nr. 44 tot vaststelling van het bedrag van de nietproportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde.
@@ -970,7 +970,7 @@ Het niet registreren van onderdelen van het geregistreerd kassasysteem door prod
     - MB 29.04.2024 / 36 -
 FOD Financiën (AA BEO) www.fisconetplus.be Btw MB 29.04.2024 – Bijw. nr. 1 / 03.06.2024
 
-    TITEL V. - SLOTBEPALINGEN
+### TITEL V. - SLOTBEPALINGEN
 
 Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016 (E.T. 124.747) van 8 november 2016 (Belgisch Staatsblad 16 januari 2017).
 

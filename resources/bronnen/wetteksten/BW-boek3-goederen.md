@@ -128,8 +128,8 @@ Gevolgen van het tenietgaan van zakelijke rechten
   De afstand, herroeping, ontbinding wegens niet-nakoming, opzegging in minnelijke overeenstemming, vermenging en vervallenverklaring doen geen afbreuk aan de rechten van derden die te goeder trouw op het tenietgegane zakelijk recht zijn verkregen.
   De afstand van een zakelijk recht werkt slechts voor de toekomst. Indien het zakelijk recht is ontstaan door een rechtshandeling onder bezwarende titel, brengt de afstand geen nadeel toe aan de huidige en toekomstige persoonlijke verbintenissen die de tegenprestatie vormen voor de vestiging van dit recht.
   Ondertitel 5. - Publiciteit van zakelijke rechten
-  HOOFDSTUK 1. - Feitelijke macht over de goederen
-  Afdeling 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Feitelijke macht over de goederen
+##### Afdeling 1. - Algemene bepalingen
 ## Art. 3.18
 
 Bezit en detentie: definitie
@@ -163,7 +163,7 @@ Deugdelijk bezit
 
 Bezit te goeder trouw
    De bezitter is te goeder trouw als hij er rechtmatig mag op vertrouwen dat hij titularis is van het recht dat hij bezit. De goede trouw wordt vermoed, behoudens tegenbewijs.
-   Afdeling 2. - Bewijsfunctie van bezit
+##### Afdeling 2. - Bewijsfunctie van bezit
 ## Art. 3.23
 
 Bewijsfunctie van bezit
@@ -172,12 +172,12 @@ Bewijsfunctie van bezit
 
 Versterkte bewijsfunctie bij roerende goederen
    De bezitter te goeder trouw van een zakelijk recht op roerende goederen wordt vermoed over een titel te beschikken, behoudens tegenbewijs.
-   Afdeling 3. - Beschermende functie van bezit
+##### Afdeling 3. - Beschermende functie van bezit
 ## Art. 3.25
 
 Beschermende functie van bezit van een onroerend zakelijk recht in geval van geweld of feitelijkheden De bezitter van een onroerend zakelijk recht waarvan het bezit ongestoord en openbaar is, kan in zijn bezit hersteld worden, zonder afbreuk te doen aan de regels van de buitencontractuele aansprakelijkheid, door een bezitsvordering in te stellen binnen het jaar na de stoornis of de ontzetting van bezit gepleegd met feitelijkheid of geweld.
    De bezitsvordering en de eigendomsvordering kunnen niet worden gecumuleerd.
-   Afdeling 4. - Verkrijgende functie van bezit
+##### Afdeling 4. - Verkrijgende functie van bezit
 ## Art. 3.26
 
 Verkrijgende verjaring van zakelijke rechten in het algemeen Onverminderd artikel 3.118 is de verkrijgende verjaring een wijze waarop de eigendom van een goed of zakelijk gebruiksrecht wordt verkregen door bezit, met de hoedanigheden vereist in artikel 3.21, dat gedurende een bepaalde tijd heeft voortgeduurd.
@@ -199,7 +199,7 @@ Onmiddellijke verkrijging te goeder trouw van roerende goederen
 Vruchten en opbrengsten
    De tot teruggave gehouden bezitter van een zaak mag de vruchten en opbrengsten behouden die het recht dat hij bezat hem wettelijk of bij contract verleent, indien zij te goeder trouw werden verkregen. Hij behoudt ze zonder enige vergoeding voor de gemaakte kosten.
    De bezitter die titularis is geworden van het recht dat hij door een oorspronkelijke wijze van verkrijging bezit, moet de te kwader trouw verkregen vruchten niet afdragen. Hij moet echter wel de te kwader trouw in ontvangst genomen opbrengsten, of de tegenwaarde ervan, afdragen.
-   HOOFDSTUK 2. - Regime van de onroerende publiciteit
+#### HOOFDSTUK 2. - Regime van de onroerende publiciteit
 ## Art. 3.30
 
 Rechtshandelingen onderworpen aan de overschrijving
@@ -241,7 +241,7 @@ Gevolgen van kantmelding voor derden
   Het retroactieve tenietgaan van een zakelijk recht heeft geen uitwerking ten aanzien van vervreemdingen en beschikkingen over dat zakelijk recht, gedaan ten gunste van derden te goeder trouw, na het instellen van de vordering, maar vóór de kantmelding van de eis of, bij gebreke hiervan, van het vonnis.
   Indien de nietigheid of ontbinding van een aan overschrijving onderworpen akte buitengerechtelijk plaatsvindt, is deze slechts aan derden tegenwerpelijk nadat die kennisgeving in een authentieke akte is geformaliseerd en op de kant van de registers van het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie is overgeschreven.
   Ondertitel 6. - Vermogen
-  HOOFDSTUK 1. - Algemeen
+#### HOOFDSTUK 1. - Algemeen
 ## Art. 3.35
 
 Definitie
@@ -252,14 +252,14 @@ Definitie
 Algemeen verhaalsonderpand
   Tenzij de wet of het contract anders bepaalt, kan een schuldeiser zijn vordering op alle goederen van zijn schuldenaar verhalen.
   In geval van samenloop tussen de schuldeisers, wordt de opbrengst ervan onder hen naar evenredigheid van hun vordering verdeeld, tenzij er tussen de schuldeisers wettige redenen van voorrang bestaan. Een schuldeiser kan met zijn schuldenaar overeenkomen dat hij tegenover bepaalde of alle schuldeisers een lagere rang neemt dan de wet hem toekent.
-  HOOFDSTUK 2. - Kwaliteitsrekeningen
+#### HOOFDSTUK 2. - Kwaliteitsrekeningen
 ## Art. 3.37
 
 Kwaliteitsrekeningen
   De schuldvorderingen op gelden, effecten en geldswaardige papieren aan toonder die ten behoeve van een derde zijn geplaatst op de rekeningen bedoeld in de artikelen 446quater, 446quinquies, 522/1 en 522/2 van het Gerechtelijk Wetboek, artikel 21/2 van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar en de artikelen 34 en 34bis van de wet van 25 ventôse jaar XI op het notarisambt zijn afgescheiden van het vermogen van de rekeninghouder.
   Deze schuldvorderingen vallen buiten de samenloop tussen de schuldeisers van de rekeninghouder en alle verrichtingen met betrekking tot deze schuldvorderingen kunnen aan de boedel worden tegengeworpen, voor zover ze verband houden met de bestemming van deze gelden, effecten en geldswaardige papieren aan toonder. Deze gelden, effecten en geldswaardige papieren aan toonder vallen eveneens buiten de vereffening van het huwelijksvermogensstelsel en de nalatenschap van de rekeninghouder.
   Indien het tegoed van de rekening ontoereikend is voor de betaling van de in het eerste lid bedoelde derden, wordt het tussen hen verdeeld in verhouding tot hun aanspraken. Indien de rekeninghouder zelf rechten heeft op het tegoed van de rekening, wordt hem slechts het saldo toegekend dat overblijft nadat alle rechten van de derden zijn voldaan.
-  Titel 2. - Indelingen van goederen Ondertitel 1. - Algemene categorieën
+### Titel 2. - Indelingen van goederen Ondertitel 1. - Algemene categorieën
 ## Art. 3.38
 
 Voorwerpen
@@ -320,7 +320,7 @@ Bijzondere regels
 Onroerend door hun voorwerp
    Zakelijke rechten en rechtsvorderingen waarvan het voorwerp onroerend is, zijn onroerend. Ook de persoonlijke rechten en rechtsvorderingen die aanspraak geven op de verkrijging of herverkrijging van een onroerend goed, zijn onroerend.
    De bezitsvordering is ook onroerend.
-   Titel 3. - Eigendomsrecht Ondertitel 1. - Algemene bepalingen
+### Titel 3. - Eigendomsrecht Ondertitel 1. - Algemene bepalingen
 ## Art. 3.50
 
 Definitie
@@ -435,7 +435,7 @@ Feitelijk gedogen van de eigenaar
    Indien dit recht toegelaten wordt, moet het op de voor de nabuur minst schadelijke wijze worden uitgeoefend.
  De eigenaar heeft recht op vergoeding indien hij schade heeft geleden.
    § 3. Wanneer een onbebouwd en onbewerkt onroerend goed niet is afgesloten, mag ieder er zich op begeven tenzij de eigenaar van dit perceel schade of hinder hiervan ondervindt of op duidelijke wijze kenbaar heeft gemaakt dat het verboden is voor derden om zonder zijn toestemming de grond te betreden. Degene die gebruik maakt van dit gedogen, kan zich noch op artikel 3.26 noch op artikel 3.59 beroepen.
-   Titel 4. - Mede-eigendom
+### Titel 4. - Mede-eigendom
 ## Art. 3.68
 
 Definitie
@@ -488,7 +488,7 @@ Beëindiging
   Bij gebreke van akkoord tussen de mede-eigenaars bepaalt de rechter de duur van de opzeggingstermijn. Hij houdt daarbij met name rekening met de door de partijen reeds gemaakte kosten, het voortbestaan van de doorslaggevende beweegreden die partijen ertoe heeft aangezet om de vrijwillige mede-eigendom tot stand te brengen en het nadeel dat uit de beëindiging voor de andere deelgenoot voortvloeit. De opzeggingstermijn kan niet langer zijn dan vijf jaar.
   Dit artikel is ook van toepassing op goederen die in tontine of aanwas zijn.
   Ondertitel 3. - Gedwongen mede-eigendom
-  HOOFDSTUK 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Algemene bepalingen
 ## Art. 3.78
 
 Definitie
@@ -521,8 +521,8 @@ Veranderingswerken
 
 Beperking op de verdeling
    De goederen in gedwongen mede-eigendom zijn enkel met het akkoord van alle mede-eigenaars vatbaar voor verdeling, tenzij indien ze ieder, zelfs toekomstig of potentieel, nut verloren hebben ten aanzien van de goederen waarvan ze een accessorium zijn.
-   HOOFDSTUK 2. - Gedwongen mede-eigendom van gebouwen of groepen van gebouwen
-   Afdeling 1. - Algemene bepalingen
+#### HOOFDSTUK 2. - Gedwongen mede-eigendom van gebouwen of groepen van gebouwen
+##### Afdeling 1. - Algemene bepalingen
 ## Art. 3.84
 
 Algemene bepaling
@@ -547,7 +547,7 @@ Statuten en reglement van interne orde
    3° de jaarlijkse periode van vijftien dagen waarin de gewone algemene vergadering van de vereniging van medeeigenaars plaatsvindt.
    § 4. Ieder beding dat het recht beperkt van de mede-eigenaar om het beheer van zijn kavel toe te vertrouwen aan een persoon van zijn keuze, wordt voor niet geschreven gehouden.
    § 5. Ieder beding dat de rechtsmacht om geschillen die in verband met de toepassing van dit hoofdstuk zouden rijzen aan één of meer arbiters opdraagt, wordt voor niet geschreven gehouden. Dat sluit de toepassing van de artikelen 1724 en volgende van het Gerechtelijk Wetboek inzake bemiddeling niet uit, noch de toepassing van artikelen 1738 en volgende van het Gerechtelijk Wetboek inzake collaboratieve onderhandelingen.
-   Afdeling 2. - Rechtspersoonlijkheid van de vereniging van mede-eigenaars.
+##### Afdeling 2. - Rechtspersoonlijkheid van de vereniging van mede-eigenaars.
 ## Art. 3.86
 
 Vereniging van mede-eigenaars
@@ -566,7 +566,7 @@ Vereniging van mede-eigenaars
    Het vermogen van de vereniging van mede-eigenaars bestaat uit de door de algemene vergadering bepaalde periodieke bijdragen van de mede-eigenaars. De syndicus kan alle gerechtelijke en buitengerechtelijke maatregelen nemen voor de invordering van de lasten.
    Wanneer de eigendom van een kavel bezwaard is met een vruchtgebruik, zijn de titularissen van de zakelijke rechten hoofdelijk gehouden tot de betaling van die lasten. De syndicus deelt bij de oproep tot kapitaalinbreng aan alle betrokken partijen mee welk deel bestemd zal zijn voor het reservekapitaal.
    § 4. Onverminderd artikel 3.92, § 6, kan de tenuitvoerlegging van beslissingen waarbij de vereniging van medeeigenaars wordt veroordeeld, worden gedaan op het vermogen van iedere mede-eigenaar naar evenredigheid van zijn aandeel gebruikt voor de stemming overeenkomstig artikel 3.87, § 6, hetzij in het eerste lid, hetzij in het tweede lid, afhankelijk van het geval.
-   Afdeling 3. - Organen van de vereniging van mede-eigenaars
+##### Afdeling 3. - Organen van de vereniging van mede-eigenaars
 ## Art. 3.87
 
 Algemene vergadering: organisatie
@@ -676,7 +676,7 @@ Raad van mede-eigendom
 
 Commissaris van de rekeningen
    De algemene vergadering wijst jaarlijks een commissaris van de rekeningen of een college van commissarissen van de rekeningen aan, die al dan niet mede-eigenaar zijn, en die de rekeningen van de vereniging van medeeigenaars controleren, wier bevoegdheden en verplichtingen bij het reglement van interne orde worden bepaald.
-   Afdeling 4. - Rechtsvorderingen - Openbaarheid - Tegenstelbaarheid en overdracht.
+##### Afdeling 4. - Rechtsvorderingen - Openbaarheid - Tegenstelbaarheid en overdracht.
 ## Art. 3.92.Rechtsvorderingen
    § 1. De vereniging van mede-eigenaars is bevoegd om in rechte op te treden, als eiser en als verweerder.
    Niettegenstaande artikel 3.86, § 3, heeft de vereniging van mede-eigenaars het recht om, als eiser en als verweerder, al dan niet samen met een of meerdere mede-eigenaars, in rechte op te treden ter vrijwaring van alle rechten tot uitoefening, erkenning of ontkenning van zakelijke of persoonlijke rechten op de gemeenschappelijke delen, of met betrekking tot het beheer ervan, alsook met het oog op de wijziging van de aandelen in de gemeenschappelijke delen en verdeling van de lasten. Zij wordt geacht de hoedanigheid en het vereiste belang te hebben om deze rechten te verdedigen.
@@ -754,7 +754,7 @@ Taal
   Een mede-eigenaar kan, op zijn verzoek, een vertaling verkrijgen van elk document met betrekking tot de medeeigendom uitgaande van de vereniging van mede-eigenaars, indien de bedoelde vertaling dient te gebeuren naar de taal of een van de talen van het taalgebied waarin het gebouw of de groep van gebouwen gelegen zijn.
   De syndicus draagt er zorg voor dat deze vertaling binnen een redelijke termijn ter beschikking wordt gesteld.
   De kosten van de vertaling zijn ten laste van de vereniging van mede-eigenaars.
-  Afdeling 5. - Ontbinding en vereffening
+##### Afdeling 5. - Ontbinding en vereffening
 ## Art. 3.97
 
 Ontbinding van de vereniging van mede-eigenaars
@@ -779,13 +779,13 @@ Vereffening van de vereniging van mede-eigenaars
 ## Art. 3.99
 
 Overschrijving van akten in verband met de gemeenschappelijke delen De akten in verband met de gemeenschappelijke delen die overeenkomstig artikel 3.30 in de registers van het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie worden overgeschreven, worden uitsluitend overgeschreven op naam van de vereniging van mede-eigenaars.
-  Afdeling 6. - Dwingend karakter
+##### Afdeling 6. - Dwingend karakter
 ## Art. 3.100
 
 Dwingend recht
   De bepalingen van dit hoofdstuk zijn van dwingend recht.
   De niet met de vigerende wetgeving strokende statutaire bepalingen of bepalingen uit het reglement van interne orde worden vanaf hun datum van inwerkingtreding van rechtswege vervangen door de overeenstemmende wetsbepalingen.
-   Titel 5. - Burenrelaties Ondertitel 1. - Burenhinder
+### Titel 5. - Burenrelaties Ondertitel 1. - Burenhinder
 ## Art. 3.101
 
 Bovenmatige burenhinder
@@ -863,7 +863,7 @@ Verplichtingen van de mede-eigenaars en afstand
 Beperking op de verdeling
    De gemene afsluiting is enkel met het akkoord van alle mede-eigenaars vatbaar voor verdeling, behalve indien zij ieder, zelfs toekomstig of potentieel, nut verloren heeft ten aanzien van de goederen waarvan zij een accessorium is.
    Ondertitel 3. - Erfdienstbaarheden
-   HOOFDSTUK 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Algemene bepalingen
 ## Art. 3.114
 
 Definitie
@@ -883,8 +883,8 @@ Bronnen van erfdienstbaarheden
   Erfdienstbaarheden worden gevestigd bij wet of door menselijk handelen.
   Behalve de wettelijke erfdienstbaarheden die in hoofdstuk 3 zijn opgenomen, geniet de titularis van een zakelijk gebruiksrecht op een onroerend goed op grond van de wet van alle erfdienstbaarheden die noodzakelijk zijn voor de uitoefening van zijn recht op het bezwaarde onroerend goed.
   De wettelijke bepalingen betreffende de erfdienstbaarheden die ontstaan door menselijk handelen zijn ook van toepassing op de wettelijke erfdienstbaarheden, behoudens andersluidende bepalingen of onverenigbaarheid met de bedoeling van de wetgever.
-  HOOFDSTUK 2. - Erfdienstbaarheden door menselijk handelen
-  Afdeling 1. - Specifieke wijzen van verkrijging
+#### HOOFDSTUK 2. - Erfdienstbaarheden door menselijk handelen
+##### Afdeling 1. - Specifieke wijzen van verkrijging
 ## Art. 3.117
 
 Rechtshandeling
@@ -899,7 +899,7 @@ Verkrijgende verjaring
 Bestemming door de eigenaar
   Een erfdienstbaarheid ontstaat door bestemming door de eigenaar wanneer twee thans van elkaar gescheiden percelen aan dezelfde eigenaar hebben toebehoord en er op het moment van de verdeling een dienstbaarheid bestaat tussen de percelen die tot stand gebracht of behouden werd door die enige eigenaar.
   Die wijze van verkrijging geldt enkel voor erfdienstbaarheden die zichtbaar zijn op het tijdstip van de verdeling.
-  Afdeling 2. - Rechten en verplichtingen van de partijen
+##### Afdeling 2. - Rechten en verplichtingen van de partijen
 ## Art. 3.120
 
 Gebruik en omvang
@@ -931,7 +931,7 @@ Toestand van het lijdend erf
 
 Toestand van het heersend erf
   De titularis van het heersend erf mag de uitoefening van de erfdienstbaarheid wijzigen, rekening houdend met de technische en maatschappelijke evoluties sinds het ontstaan van de erfdienstbaarheid, onder voorbehoud van de wil van de partijen en het doel van de erfdienstbaarheid.
-  Afdeling 3. - Specifieke wijzen van tenietgaan
+##### Afdeling 3. - Specifieke wijzen van tenietgaan
 ## Art. 3.126
 
 Bevrijdende verjaring
@@ -945,8 +945,8 @@ Vermenging
 
 Verlies van nut
   Op verzoek van de eigenaar van het lijdend erf kan de rechter de afschaffing van een erfdienstbaarheid bevelen wanneer deze ieder nut, zelfs voor de toekomst, voor het heersend erf heeft verloren.
-  HOOFDSTUK 3. - Wettelijke erfdienstbaarheden
-  Afdeling 1. - Water
+#### HOOFDSTUK 3. - Wettelijke erfdienstbaarheden
+##### Afdeling 1. - Water
 ## Art. 3.129
 
 Waterafvloeiing tussen naburige percelen
@@ -962,7 +962,7 @@ Regeling voor bronnen en waterlopen
 
 Dakdrop
   Iedere eigenaar moet zijn daken zodanig aanleggen dat het regenwater op zijn grond of op de openbare weg afloopt. Hij mag het niet doen neerkomen op een aanpalend perceel.
-  Afdeling 2. - Afstanden
+##### Afdeling 2. - Afstanden
 ## Art. 3.132
 
 Afstanden voor vensters, muuropeningen en soortgelijke werken
@@ -985,7 +985,7 @@ Overhangende takken en wortels
   Indien een eigenaar van beplantingen waarvan de takken of wortels doorschieten over de perceelsgrens, nalaat de doorschietende takken of wortels te verwijderen binnen zestig dagen na een ingebrekestelling per aangetekende zending van de nabuur, kan deze laatste eigenmachtig, op kosten van de eigenaar van de beplantingen, deze takken of wortels wegsnijden en zich toe-eigenen. Als de nabuur het doorschietende zelf wegsnijdt, draagt hij zelf het risico voor de schade die hij aan de beplantingen toebrengt. Hij kan eveneens eisen dat de eigenaar dit wegsnijdt, tenzij de rechter van oordeel is dat zulks rechtsmisbruik uitmaakt. De rechter houdt bij dat oordeel rekening met alle omstandigheden van het geval, met inbegrip van het algemeen belang.
  Het recht om de verwijdering te eisen, kan niet uitdoven door verjaring.
   Vruchten die op natuurlijke wijze van de bomen op een aanpalend onroerend goed vallen, behoren toe aan degene die het genot van dit laatste onroerend goed heeft.
-  Afdeling 3. - Ingeslotenheid
+##### Afdeling 3. - Ingeslotenheid
 ## Art. 3.135
 
 Wettelijke erfdienstbaarheid van uitweg: definitie
@@ -1006,7 +1006,7 @@ Wettelijke erfdienstbaarheid van uitweg: verplaatsing en afschaffing De ligging 
   De wettelijke erfdienstbaarheid van uitweg houdt op wanneer deze niet meer noodzakelijk is overeenkomstig artikel 3.135, wat ook de duurtijd van deze uitweg is geweest, of indien deze werd verleend omwille van een toekomstige bestemming, ingeval die bestemming niet ten uitvoer is gelegd binnen een termijn van tien jaar te rekenen vanaf het vonnis waarbij de uitweg werd verleend.
   De vordering tot verplaatsing of afschaffing van de uitweg kan worden ingesteld door de eigenaar of, bij stilzitten van deze, door de titularis van een zakelijk of persoonlijk gebruiksrecht, waarbij de eigenaar in de zaak wordt geroepen.
   Wanneer de uitweg wordt gewijzigd of afgeschaft, kan de rechter bevelen dat de vergoeding opnieuw wordt vastgesteld of dat de ontvangen vergoeding geheel of gedeeltelijk wordt terugbetaald.
-  Titel 6. - Recht van vruchtgebruik Ondertitel 1. - Definitie, voorwerp en duurtijd
+### Titel 6. - Recht van vruchtgebruik Ondertitel 1. - Definitie, voorwerp en duurtijd
 ## Art. 3.138
 
 Definitie
@@ -1167,7 +1167,7 @@ Vruchtgebruik op intellectuele rechten
    Het vruchtgebruik met betrekking tot een intellectueel eigendomsrecht verleent aan de vruchtgebruiker het recht op normale uitbating hiervan. In dat kader kan de vruchtgebruiker alleen contracten sluiten voor zover de betaling van de vergoeding is gespreid over de totale duur van het contract. Anders is de toestemming van de blote eigenaar vereist.
    Bij het einde van het vruchtgebruik blijven de contracten die uitsluitend door de vruchtgebruiker zijn afgesloten, hun uitwerking behouden, onverminderd het recht van de blote eigenaar om ze te beëindigen met inachtneming van een opzeggingstermijn van drie jaar.
    Tenzij de morele rechten toebehoren aan een derde, moeten zij worden uitgeoefend in akkoord tussen de vruchtgebruiker en de blote eigenaar; indien geen overeenstemming kan worden bereikt, richt de meest gerede partij zich tot de rechter.
-   Titel 7. - Erfpachtrecht Ondertitel 1. - Definitie, voorwerp en duurtijd
+### Titel 7. - Erfpachtrecht Ondertitel 1. - Definitie, voorwerp en duurtijd
 ## Art. 3.167
 
 Definitie
@@ -1220,7 +1220,7 @@ Natrekking en vergoeding
    Bij het tenietgaan van het erfpachtrecht gaat het eigendomsrecht van de bouwwerken en beplantingen uitgevoerd met toepassing van artikel 3.172 over op de erfpachtgever of diens rechtsopvolger.
    De erfpachtgever moet de erfpachter vergoeden voor de bouwwerken en beplantingen opgericht binnen de grenzen van zijn recht, op grond van de ongerechtvaardigde verrijking. Tot de betaling van de vergoeding heeft de erfpachter een retentierecht op de bouwwerken en beplantingen.
    In geval van algemene rechtsovergang, rechtsovergang onder algemene titel of overdracht van het recht van de erfpachtgever, rust de vergoedingsverplichting op de rechtverkrijgende.
-   Titel 8. - Opstalrecht Ondertitel 1. - Definitie, voorwerp en duurtijd
+### Titel 8. - Opstalrecht Ondertitel 1. - Definitie, voorwerp en duurtijd
 ## Art. 3.177
 
 Definitie
@@ -1285,9 +1285,9 @@ Natrekking en vergoeding
   (2)<W 2020-07-31/03, art. 44, 002; Inwerkingtreding : 17-08-2020>
   (3)<W 2020-12-20/02, art. 58, 003; Inwerkingtreding : 24-12-2020>
 
-  HOOFDSTUK 3. - Wijzigingsbepalingen
+#### HOOFDSTUK 3. - Wijzigingsbepalingen
 
-  Afdeling I. - Wijzigingen van het Gerechtelijk Wetboek
+##### Afdeling I. - Wijzigingen van het Gerechtelijk Wetboek
 
 ## Art. 3
 
@@ -1305,7 +1305,7 @@ In artikel 1287, vierde lid, van hetzelfde Wetboek, vervangen bij de wet van 1 j
 
 In artikel 1371bis, zesde lid, van hetzelfde Wetboek, ingevoegd bij de wet van 1 maart 1978 en gewijzigd bij de wet van 21 december 2018, wordt het cijfer "682" vervangen door het cijfer "3.136, tweede lid".
 
-  Afdeling II. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
+##### Afdeling II. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
 
 ## Art. 7
 
@@ -1315,7 +1315,7 @@ In de artikelen 5:38, 6:37 en 7:43 van het Wetboek van vennootschappen en vereni
 
 In artikel 12:14, tweede lid, artikel 12:98, tweede lid, en artikel 13:5, tweede lid, van hetzelfde Wetboek worden de woorden "1 van de hypotheekwet van 16 december 1851" telkens vervangen door de woorden "3.30 van het Burgerlijk Wetboek".
 
-  Afdeling III. - Wijzigingen van het oude Burgerlijk Wetboek
+##### Afdeling III. - Wijzigingen van het oude Burgerlijk Wetboek
 
 ## Art. 9
 
@@ -1348,25 +1348,25 @@ In titel XVIII van boek III van het hetzelfde Wetboek, betreffende voorrechten e
    5° in artikel 127, derde lid, laatstelijk gewijzigd bij de wet van 11 juli 2018, wordt het cijfer "577-4", vervangen door het cijfer "3.85";
    6° in artikel 141, tweede lid, ingevoegd bij de wet van 9 februari 1995, wordt het cijfer "577bis, § 11," vervangen door het cijfer "3.84".
 
-  Afdeling IV. - Wijziging van het Wetboek van strafvordering
+##### Afdeling IV. - Wijziging van het Wetboek van strafvordering
 
 ## Art. 14
 
 In artikel 464/1, § 8, eerste lid, van het Wetboek van strafvordering, ingevoegd bij de wet van 11 februari 2014 en gewijzigd bij de wet van 4 februari 2018, worden de woorden "boek III, titel XVIII, artikelen 7 en 8," vervangen door de woorden "artikel 3.36".
 
-  Afdeling V. - Wijziging van het Strafwetboek
+##### Afdeling V. - Wijziging van het Strafwetboek
 
 ## Art. 15
 
 In artikel 43bis, zesde lid, van het Strafwetboek, ingevoegd bij de wetten van 17 juli 1990 en 27 november 2013, worden de woorden "1, eerste en tweede lid, van de hypotheekwet van 16 december 1851" vervangen door de woorden "3.30, § 1, van het Burgerlijk Wetboek".
 
-  Afdeling VI. - Wijziging van het Wetboek van de inkomstenbelastingen 1992
+##### Afdeling VI. - Wijziging van het Wetboek van de inkomstenbelastingen 1992
 
 ## Art. 16
 
 In artikel 29, § 2, 5°, van het Wetboek van de inkomstenbelastingen 1992, ingevoegd bij de wet van 22 december 1998, wordt het cijfer "577-5" vervangen door het cijfer "3.86".
 
-  Afdeling VII. - Wijziging van de gecoördineerde wetten van 15 september 1919 op de mijnen, de graverijen en de groeven
+##### Afdeling VII. - Wijziging van de gecoördineerde wetten van 15 september 1919 op de mijnen, de graverijen en de groeven
 
 ## Art. 17
 
@@ -1374,25 +1374,25 @@ In artikel 12 van de gecoördineerde wetten van 15 september 1919 op de mijnen, 
   1° in het tweede lid, wordt het cijfer "524" vervangen door het cijfer "3.47";
   2° in het vijfde lid, wordt het cijfer "529" vervangen door het cijfer "3.46".
 
-  Afdeling VIII. - Wijziging van het gecoördineerd koninklijk besluit 62 van 27 januari 2004 betreffende de bewaargeving van vervangbare financiële instrumenten en de vereffening van transacties op deze instrumenten
+##### Afdeling VIII. - Wijziging van het gecoördineerd koninklijk besluit 62 van 27 januari 2004 betreffende de bewaargeving van vervangbare financiële instrumenten en de vereffening van transacties op deze instrumenten
 
 ## Art. 18
 
 In artikel 19 van het gecoördineerd koninklijk besluit 62 van 27 januari 2004 betreffende de bewaargeving van vervangbare financiële instrumenten en de vereffening van transacties op deze instrumenten, ingevoegd bij de wet van 14 december 2005, worden de woorden "De artikelen 2279 en 2280 van het Burgerlijk Wetboek zijn van toepassing" vervangen door de woorden "Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing".
 
-  Afdeling IX. - Wijziging van de wet van 2 januari 1991 betreffende de markt van de effecten van de overheidsschuld en het monetair beleidsinstrumentarium
+##### Afdeling IX. - Wijziging van de wet van 2 januari 1991 betreffende de markt van de effecten van de overheidsschuld en het monetair beleidsinstrumentarium
 
 ## Art. 19
 
 In artikel 13bis van de wet van 2 januari 1991 betreffende de markt van de effecten van de overheidsschuld en het monetair beleidsinstrumentarium, ingevoegd bij de wet van 14 december 2004, worden de woorden "De artikelen 2279 en 2280 van het Burgerlijk Wetboek zijn van toepassing" vervangen door de woorden "Het artikel 3.28 van het Burgerlijk Wetboek is van toepassing".
 
-  Afdeling X. - Wijziging van de wet van 7 mei 1999 houdende oprichting van het Paleis voor Schone Kunsten in de vorm van een naamloze vennootschap van publiek recht met sociale doeleinden en tot wijziging van de wet van 30 maart 1995 betreffende de netten voor distributie voor omroepuitzendingen en de uitoefening van televisieomroepactiviteiten in het tweetalig gebied Brussel-Hoofdstad
+##### Afdeling X. - Wijziging van de wet van 7 mei 1999 houdende oprichting van het Paleis voor Schone Kunsten in de vorm van een naamloze vennootschap van publiek recht met sociale doeleinden en tot wijziging van de wet van 30 maart 1995 betreffende de netten voor distributie voor omroepuitzendingen en de uitoefening van televisieomroepactiviteiten in het tweetalig gebied Brussel-Hoofdstad
 
 ## Art. 20
 
 In artikel 4, eerste lid, tweede streepje, van de wet van 7 mei 1999 houdende oprichting van het Paleis voor Schone Kunsten in de vorm van een naamloze vennootschap van publiek recht met sociale doeleinden en tot wijziging van de wet van 30 maart 1995 betreffende de netten voor distributie voor omroepuitzendingen en de uitoefening van televisieomroepactiviteiten in het tweetalig gebied Brussel-Hoofdstad, wordt het cijfer "619" vervangen door het cijfer "3.141".
 
-  Afdeling XI. - Wijziging van de wet van 25 april 2007 houdende diverse bepalingen
+##### Afdeling XI. - Wijziging van de wet van 25 april 2007 houdende diverse bepalingen
 
 ## Art. 21
 
@@ -1400,31 +1400,31 @@ In artikel 73, eerste lid, van de wet van 25 april 2007 houdende diverse bepalin
   1° de woorden "van de artikelen 7 en 8 van de hypotheekwet van 16 december 1851" worden vervangen door de woorden "van artikel 3.36 van het Burgerlijk Wetboek";
   2° de woorden "het gebruiksrecht en" worden opgeheven.
 
-  Afdeling XII. - Wijziging van de wet van 13 augustus 2011 inzake overheidsopdrachten en bepaalde opdrachten voor werken, leveringen en diensten op defensie- en veiligheidsgebied
+##### Afdeling XII. - Wijziging van de wet van 13 augustus 2011 inzake overheidsopdrachten en bepaalde opdrachten voor werken, leveringen en diensten op defensie- en veiligheidsgebied
 
 ## Art. 22
 
 In artikel 28, derde lid, van de wet van 13 augustus 2011 inzake overheidsopdrachten en bepaalde opdrachten voor werken, leveringen en diensten op defensie- en veiligheidsgebied worden de woorden "van de wetten van 10 januari 1824 over het recht van erfpacht en het recht van opstal" vervangen door de woorden "van titels 7 en 8 van boek 3 van het Burgerlijk Wetboek".
 
-  Afdeling XIII. - Wijziging van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar
+##### Afdeling XIII. - Wijziging van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar
 
 ## Art. 23
 
 In artikel 2, 6°, van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar, worden de woorden "van de artikelen 577-2 en volgende" vervangen door de woorden "van de artikelen 3.78 en volgende".
 
-  Afdeling XIV. - Wijziging van de wet van 15 januari 2014 houdende diverse bepalingen inzake kmo's
+##### Afdeling XIV. - Wijziging van de wet van 15 januari 2014 houdende diverse bepalingen inzake kmo's
 
 ## Art. 24
 
 In artikel 3, 3°, van de wet van 15 januari 2014 houdende diverse bepalingen inzake kmo's worden de woorden "artikel 577-3" vervangen door de woorden "artikel 3.84".
 
-  Afdeling XV. - Wijziging van de wet van 12 mei 2014 betreffende de gereglementeerde vastgoedvennootschappen
+##### Afdeling XV. - Wijziging van de wet van 12 mei 2014 betreffende de gereglementeerde vastgoedvennootschappen
 
 ## Art. 25
 
 In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde vastgoedvennootschappen, worden de woorden "in artikel 517 en volgende" vervangen door de woorden "in artikelen 3.47 en 3.49".
 
-  Afdeling XVI. - Wijzigingen van het Belgisch Scheepvaartwetboek
+##### Afdeling XVI. - Wijzigingen van het Belgisch Scheepvaartwetboek
 
 ## Art. 26
 
@@ -1438,7 +1438,7 @@ In artikel 2.3.1.3., § 1er, van hetzelfde Wetboek wordt de bepaling onder 1° v
 
 In artikel 3.2.2.5., § 3, tweede lid, van hetzelfde Wetboek worden de woorden "overeenkomstig artikel 2262 van het Burgerlijk Wetboek" vervangen door de woorden "overeenkomstig de artikelen 3.26 en 3.27 van het Burgerlijk Wetboek".
 
-  HOOFDSTUK 4. - Opheffingsbepalingen
+#### HOOFDSTUK 4. - Opheffingsbepalingen
 
 ## Art. 29
 
@@ -1490,7 +1490,7 @@ De wet van 30 december 1975 betreffende de goederen, buiten particuliere eigendo
 
 De wet van 21 februari 1983 betreffende de verkoop van sommige achtergelaten voorwerpen wordt opgeheven.
 
-  HOOFDSTUK 5. - Overgangsbepalingen
+#### HOOFDSTUK 5. - Overgangsbepalingen
 
 ## Art. 37
 
@@ -1506,7 +1506,7 @@ De wet van 21 februari 1983 betreffende de verkoop van sommige achtergelaten voo
 § 1. Elke overeenkomst die een opstalrecht vestigt of iedere andere overeenkomst die afwijkt van de verticale natrekking, die gesloten is vóór de inwerkingtreding van deze wet en die voldoet aan de vereisten als omschreven in artikel 3.180, tweede lid, 2°, van het Burgerlijk Wetboek wordt van rechtswege geacht een eeuwigdurend opstalrecht te vestigen, als deze is gesloten zonder bepaling van de duurtijd of voor een onbepaalde duurtijd.
   § 2. Elke overeenkomst die een opstalrecht vestigt of iedere andere overeenkomst die afwijkt van de verticale natrekking, die gesloten is vóór de inwerkingtreding van deze wet en die voldoet aan de vereisten als omschreven in artikel 3.180, tweede lid, 2°, van het Burgerlijk Wetboek waarvan de duurtijd langer is dan 50 jaar, maar de maximumduurtijd voorzien in artikel 3.180, eerste lid, van het Burgerlijk Wetboek niet overschrijdt, is geldig voor de contractueel overeengekomen duurtijd.
 
-  HOOFDSTUK 6. - Inwerkingtreding
+#### HOOFDSTUK 6. - Inwerkingtreding
 
 ## Art. 39
 

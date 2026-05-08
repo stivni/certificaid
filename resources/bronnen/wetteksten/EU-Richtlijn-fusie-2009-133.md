@@ -122,7 +122,7 @@ Voor zover dit met deze richtlijn niet ten volle is gerea­ liseerd, moeten de l
 Deze richtlijn dient de verplichtingen van de lidstaten met betrekking tot de in bijlage II, deel B, genoemde termijnen voor omzetting in nationaal recht en toepas­ sing van de aldaar genoemde richtlijnen onverlet te laten,
 
 HEEFT DE VOLGENDE RICHTLIJN VASTGESTELD:
-HOOFDSTUK I
+#### HOOFDSTUK I
 ALGEMENE BEPALINGEN
 
 ## Art. 1
@@ -164,7 +164,7 @@ Voor de toepassing van deze richtlijn wordt onder „vennoot­ schap van een lid
 a) die een van de in bijlage I, deel A, genoemde rechtsvormen heeft;
 b) die volgens de fiscale wetgeving van een lidstaat wordt ge­ acht fiscaal in die lidstaat te zijn gevestigd en die volgens een met een derde land gesloten verdrag inzake dubbele belas­ tingheffing niet wordt geacht fiscaal buiten de Gemeenschap te zijn gevestigd, en
 c) die, zonder mogelijkheid van keuze en zonder ervan te zijn vrijgesteld, is onderworpen aan een van de in bijlage I, deel B, genoemde belastingen of aan enige andere belasting die in de plaats zou komen van een van die belastingen.
-HOOFDSTUK II
+#### HOOFDSTUK II
 REGELS VOOR FUSIES, SPLITSINGEN, GEDEELTELIJKE SPLIT­
 SINGEN, INBRENG VAN ACTIVA EN AANDELENRUIL
 
@@ -239,7 +239,7 @@ Indien een deelgerechtigde overeenkomstig de wetgeving van de lidstaat waar hij 
 De leden 1, 2 en 3 vormen geen beletsel voor het in aanmerking nemen, ter fine van het belasten van de deelgerech­ tigde, van een bijbetaling in geld die hem eventueel zou worden toegekend bij de fusie, de splitsing, de gedeeltelijke splitsing of de aandelenruil.
 ## Art. 9
 De artikelen 4, 5 en 6 zijn van toepassing op de inbreng van activa.
-HOOFDSTUK III
+#### HOOFDSTUK III
 BIJZONDER GEVAL VAN DE INBRENG VAN EEN VASTE IN­
 RICHTING
 
@@ -253,7 +253,7 @@ Dit lid is ook van toepassing indien de vaste inrichting is gele­ gen in dezelf
 In afwijking van lid 1 heeft de lidstaat van de inbrengende vennootschap die fiscaal een stelsel van wereldwinst toepast, het recht de winst of de vermogenswinst van de vaste inrichting die
 
 
-HOOFDSTUK IV
+#### HOOFDSTUK IV
 BIJZONDER GEVAL VAN TRANSPARANTE ENTITEITEN
 
 ## Art. 11
@@ -269,7 +269,7 @@ Wanneer een lidstaat een niet-ingezeten ontvangende of verwervende vennootschap 
 4.
 Wanneer een lidstaat een niet-ingezeten ontvangende ven­ nootschap als fiscaal transparant beschouwt op grond van een beoordeling, door de lidstaat, van de juridische eigenschappen waarover de vennootschap beschikt ingevolge het recht waar­ naar zij is opgericht, kan die lidstaat op elk van de directe of indirecte deelgerechtigden, dezelfde behandeling voor fiscale doeleinden toepassen als hij zou toepassen indien de ontvan­ gende vennootschap haar fiscale woonplaats had in die lidstaat.
 
-HOOFDSTUK V
+#### HOOFDSTUK V
 REGELS VOOR DE VERPLAATSING VAN DE STATUTAIRE
 ZETEL VAN EEN SE OF EEN SCE
 
@@ -308,7 +308,7 @@ SCE leidt op zich niet tot enigerlei belastingheffing over het inkomen, de winst
 2.
 De toepassing van lid 1 belet de lidstaten niet belasting te heffen over de winst die voortvloeit uit de latere vervreemding van de bewijzen van deelgerechtigdheid in het kapitaal van de SE of de SCE die haar statutaire zetel verplaatst.
 
-HOOFDSTUK VI
+#### HOOFDSTUK VI
 SLOTBEPALINGEN
 
 ## Art. 15
@@ -366,7 +366,7 @@ NL
 Publicatieblad van de Europese Unie
 
 ## BIJLAGE I
-DEEL A
+## DEEL A
 LIJST VAN DE IN ARTIKEL 3, ONDER a), BEDOELDE VENNOOTSCHAPPEN
 a) De vennootschappen (SE) opgericht overeenkomstig Verordening (EG) nr. 2157/2001 en Richtlijn 2001/86/EG van de Raad van 8 oktober 2001 tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers (1), alsmede de coöperatieve vennootschappen (SCE) opgericht overeenkomstig Verordening (EG) nr. 1435/2003 en Richtlijn 2003/72/EG van de Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot de rol van de werknemers (2).
 b) De vennootschappen naar Belgisch recht, geheten: „société anonyme”/„naamloze vennootschap”, „société en com­ mandite par actions”/„commanditaire vennootschap op aandelen”, „société privée à responsabilité limitée”/„besloten vennootschap met beperkte aansprakelijkheid”, „société coopérative à responsabilité limitée”/„coöperatieve vennoot­ schap met beperkte aansprakelijkheid”, „société coopérative à responsabilité illimitée”/„coöperatieve vennootschap met onbeperkte aansprakelijkheid”, „société en nom collectif”/„vennootschap onder firma”, „société en commandite sim­ ple”/„gewone commanditaire vennootschap”, de overheidsbedrijven die een van vorengenoemde rechtsvormen hebben aangenomen, alsmede andere vennootschappen die zijn opgericht naar Belgisch recht en die onder de Belgische vennootschapsbelasting vallen.
@@ -432,7 +432,7 @@ w) De vennootschappen naar Roemeens recht, geheten: „societăți pe acțiuni�
 x) De vennootschappen naar Sloveens recht, geheten: „delniška družba”, „komanditna družba” en „družba z omejeno odgovornostjo”.
 y) De vennootschappen naar Slowaaks recht, geheten: „akciová spoločnosť”, „spoločnosť s ručením obmedzeným” en „komanditná spoločnosť”.
 z) De vennootschappen naar Fins recht, geheten: „osakeyhtiö”/„aktiebolag”, „osuuskunta”/„andelslag”, „säästö­ pankki”/„sparbank” en „vakuutusyhtiö”/„försäkringsbolag”. aa) De vennootschappen naar Zweeds recht, geheten: „aktiebolag”, „bankaktiebolag”, „försäkringsaktiebolag”, „ekonomiska föreningar”, „sparbanker” en „ömsesidiga försäkringsbolag”. ab) De vennootschappen naar het recht van het Verenigd Koninkrijk.
-DEEL B
+## DEEL B
 LIJST VAN DE IN ARTIKEL 3, ONDER c), BEDOELDE BELASTINGEN
 — vennootschapsbelasting/impôt des sociétés in België;
 — корпоративен данък in Bulgarije;
@@ -479,12 +479,12 @@ Publicatieblad van de Europese Unie
 
 
 ## BIJLAGE II
-DEEL A
+## DEEL A
 Ingetrokken richtlijn met overzicht van de achtereenvolgende wijzigingen ervan (bedoeld in artikel 17) Richtlijn 90/434/EEG van de Raad (PB L 225 van 20.8.1990, blz. 1) Punt XI.B.I.2 van bijlage I bij de Toetredingsakte van (PB C 241 van 29.8.1994, blz. 196) Punt 9.7 van bijlage II bij de Toetredingsakte van (PB L 236 van 23.9.2003, blz. 559) Richtlijn 2005/19/EG van de Raad (PB L 58 van 4.3.2005, blz. 19) Richtlijn 2006/98/EG van de Raad (PB L 363 van 20.12.2006, blz. 129)
 
 Uitsluitend punt 6 van de bijlage
 
-DEEL B
+## DEEL B
 Termijnen voor omzetting in nationaal recht
 (bedoeld in artikel 17)
 Richtlijn

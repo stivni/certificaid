@@ -3412,7 +3412,7 @@ In uitvoering van artikel 6, § 1, tweede lid, van het besluit van de Vlaamse Re
 12 MAART 2013. — Ministerieel besluit betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6° tot en met 8°, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid De Vlaamse minister van Leefmilieu, Natuur en Cultuur, Gelet op het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, artikel 16.3.1, § 1, 1o, gewijzigd bij het decreet van 23 december 2010;
     Gelet op het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, artikel 12, gewijzigd bij de besluiten van de Vlaamse Regering van 30 april 2009, 19 november 2010 en 17 februari 2012;
     Gelet op het ministerieel besluit van 26 januari 2011 betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6o tot en met 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, Besluit :
-    HOOFDSTUK 1. — De personeelsleden van de afdeling, bevoegd voor het duurzaam beheer van materiaalkringlopen en afvalstoffen
+#### HOOFDSTUK 1. — De personeelsleden van de afdeling, bevoegd voor het duurzaam beheer van materiaalkringlopen en afvalstoffen
     Artikel 1. De volgende personeelsleden, vermeld in artikel 12, 6o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, worden aangesteld als gewestelijke toezichthouder : Erwin Appeltans;
     Johan Benaets;
     Roeland Bracke;
@@ -3461,7 +3461,7 @@ In uitvoering van artikel 6, § 1, tweede lid, van het besluit van de Vlaamse Re
     Rafaël Verlinden;
     Jozef Vervoort;
     Walter Werquin.
-    HOOFDSTUK 2. — De personeelsleden van de afdeling, bevoegd voor het bodembeheer
+#### HOOFDSTUK 2. — De personeelsleden van de afdeling, bevoegd voor het bodembeheer
 
 ## Art. 2
 
@@ -3505,7 +3505,7 @@ De volgende personeelsleden, vermeld in artikel 12, 7o, van het besluit van de V
     Els Wuyts.
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20085
 
-    HOOFDSTUK 3. — De personeelsleden van de afdeling, bevoegd voor interventie, verwijdering en sanering
+#### HOOFDSTUK 3. — De personeelsleden van de afdeling, bevoegd voor interventie, verwijdering en sanering
 ## Art. 3
 
 De volgende personeelsleden, vermeld in artikel 12, 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid, worden aangesteld als gewestelijke toezichthouder : Tim Caers;
@@ -3536,7 +3536,7 @@ De volgende personeelsleden, vermeld in artikel 12, 8o, van het besluit van de V
     Anke Van Noyen;
     Christine Van Tricht;
     Astrid Verheyen.
-    HOOFDSTUK 4. — Slotbepalingen
+#### HOOFDSTUK 4. — Slotbepalingen
 ## Art. 4
 
 Het ministerieel besluit van 26 januari 2011 betreffende de aanstelling van gewestelijke toezichthouders overeenkomstig artikel 12, 6o tot en met 8o, van het besluit van de Vlaamse Regering van 12 december 2008 tot uitvoering van titel XVI van het decreet van 5 april 1995 houdende algemene bepalingen inzake milieubeleid wordt opgeheven.
@@ -3561,8 +3561,8 @@ Dit besluit treedt in werking op de dag van de bekendmaking ervan in het Belgisc
     4) Bevoegde instantie :
     Vlaamse Milieumaatschappij.
     5) Plannen ter inzage bij :
-    Afdeling Operationeel Waterbeheer, hoofdbestuur, Koning Albert II-laan 20, 1000 Brussel.
-    Afdeling Operationeel Waterbeheer, buitendienst, Raymonde de Larochelaan 1, 9051 Sint-Denijs-Westrem.
+##### Afdeling Operationeel Waterbeheer, hoofdbestuur, Koning Albert II-laan 20, 1000 Brussel.
+##### Afdeling Operationeel Waterbeheer, buitendienst, Raymonde de Larochelaan 1, 9051 Sint-Denijs-Westrem.
     6) Wettelijke basis :
     Wet van 26 juli 1962 betreffende de onteigeningen ten algemenen nutte en de concessies voor de bouw van de autosnelwegen, gewijzigd bij de wet van 7 juli 1978, artikel 5 betreffende de rechtspleging bij hoogdringende omstandigheden inzake onteigening ten algemenen nutte.
     7) Datum + bevoegde minister :
@@ -5508,8 +5508,8 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     GEMEENSCHAPPELIJKE AANSLAG OP NAAM VAN BEIDE ECHTGENOTEN
     Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de vermeerdering ingeval geen of ontoereikende voorafbetalingen zijn gedaan en de bonificatie voor voorafbetaling van de belasting, bij elke ″echtgenoot″ (gehuwde of wettelijk samenwonende) berekend op grond van zijn eigen inkomsten en rekening houdend met de op zijn eigen naam gedane voorafbetalingen (voor de toepassing van die bepaling wordt het deel van de beroepsinkomsten dat wordt toegerekend aan de echtgenoot van wie de beroepsinkomsten minder bedragen dan 30 % van het totale bedrag van de beroepsinkomsten van beide echtgenoten - zie Deel V, Hoofdstuk 1, I, C, 1, eerste lid - aangemerkt als een eigen inkomen van de echtgenoot die het toerekent en niet van de echtgenoot aan wie het wordt toegerekend).
     Artikel 157 van het Wetboek van de inkomstenbelastingen 1992 bepaalt evenwel dat wanneer een echtgenoot, die een deel van zijn winst of zijn baten aan de meewerkende echtgenoot toekent met toepassing van artikel 86 van hetzelfde Wetboek, meer voorafbetalingen heeft gedaan dan die welke nodig zijn om bij hem de vermeerdering van de belasting te vermijden, het overschot wordt aangewend om de vermeerdering te vermijden bij de meewerkende echtgenoot.
-    DEEL I. — VOORAFBETALINGEN OM EEN VERMEERDERING TE VERMIJDEN
-    HOOFDSTUK 1. — Wie is onderworpen aan de belastingvermeerdering ?
+## DEEL I. — VOORAFBETALINGEN OM EEN VERMEERDERING TE VERMIJDEN
+#### HOOFDSTUK 1. — Wie is onderworpen aan de belastingvermeerdering ?
     I. ALGEMEEN
     Het betreft :
     a) natuurlijke personen, rijksinwoners en niet-inwoners, die gezamenlijk belastbare beroepsinkomsten verkrijgen uit een werkzaamheid als : — bedrijfsleider;
@@ -5525,7 +5525,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     De vennootschappen, die op grond van artikel 15 van het Wetboek van vennootschappen als kleine vennootschap worden aangemerkt, zijn geen vermeerdering verschuldigd op de belasting die betrekking heeft op de eerste drie boekjaren vanaf hun oprichting (art. 218, § 2, WIB 92).
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20147
 
-    HOOFDSTUK 2. — Waaruit bestaat de belastingvermeerdering ?
+#### HOOFDSTUK 2. — Waaruit bestaat de belastingvermeerdering ?
     I. GRONDBEGINSELEN
     Het gedeelte van de belasting dat betrekking heeft op de sub II hierna bedoelde belastbare inkomsten wordt in principe met een bepaald percentage vermeerderd.
     II. VOOR VERMEERDERING VATBARE INKOMSTEN
@@ -5563,7 +5563,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     — Bedrag van de Ven.B (met inbegrip van de aanvullende crisisbijdrage) vóór verrekening van voorheffingen : 48.319,88 EUR.
     — Bedrag van de Ven.B na verrekening van 12.000,00 EUR voorheffingen : 36.319,88 EUR.
     — In principe verschuldigde globale vermeerdering : 36.319,88 EUR x 2,25 % = 817,20 EUR.
-    HOOFDSTUK 3. — Hoe vermeerdering vermijden ?
+#### HOOFDSTUK 3. — Hoe vermeerdering vermijden ?
     I. PRINCIPE
     Om belastingvermeerdering te vermijden moeten de betrokken belastingplichtigen de belasting voorafbetalen die betrekking heeft op de inkomsten die vatbaar zijn voor vermeerdering.
 20148 MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD
@@ -5588,7 +5588,7 @@ Vous pouvez toujours recommencer à effectuer des versements anticipés en repre
     — voor het derde kwartaal : uiterlijk op 10 oktober 2013;
     — voor het vierde kwartaal : uiterlijk op 20 december 2013.
     Verkort worden deze vier stortingen respectievelijk aangeduid als VA 1, VA 2, VA 3 en VA 4.
-    HOOFDSTUK 4. — Berekening van de vermeerdering in geval van ontoereikende voorafbetalingen I. ALGEMEEN De in principe verschuldigde globale vermeerdering wordt in dit geval verminderd met het totale bedrag van de voordelen verbonden aan de gedane voorafbetalingen.
+#### HOOFDSTUK 4. — Berekening van de vermeerdering in geval van ontoereikende voorafbetalingen I. ALGEMEEN De in principe verschuldigde globale vermeerdering wordt in dit geval verminderd met het totale bedrag van de voordelen verbonden aan de gedane voorafbetalingen.
     Wat de natuurlijke personen betreft, wordt het saldo echter slechts voor 90 % in aanmerking genomen.
     II. VASTSTELLING VAN DE VOORDELEN VERBONDEN AAN DE VOORAFBETALINGEN
     Voor aanslagjaar 2014 is het bedrag van die voordelen gelijk aan de som van de volgende producten :
@@ -5713,14 +5713,14 @@ Voorbeeld 4
     - 2.350,00 EUR
     — Werkelijk verschuldigde vermeerdering : 2.126,15 EUR
 
-    HOOFDSTUK 5. — Bestemming van het teveel aan voorafbetalingen
+#### HOOFDSTUK 5. — Bestemming van het teveel aan voorafbetalingen
     Voor zelfstandigen kan het gedeelte van de voorafbetalingen dat niet nodig is om belastingvermeerdering te vermijden, bij de belastingplichtige zelf en, in voorkomend geval, bij de meewerkende echtgenoot aan wie een deel van de winst of van de baten wordt toegekend met toepassing van artikel 86 van het Wetboek van de inkomstenbelastingen 1992, aanleiding geven tot een bonificatie (zie Deel II). De oudste stortingen worden bij voorrang aangewend om vermeerdering te vermijden.
     In ieder geval wordt, voor alle belastingplichtigen, het overschot van de voorafbetalingen dat niet op de belasting is aangerekend, terugbetaald.
-    DEEL II. — VOORAFBETALINGEN DIE RECHT GEVEN OP EEN BONIFICATIE
-    HOOFDSTUK 1. — Wie kan een bonificatie genieten ?
+## DEEL II. — VOORAFBETALINGEN DIE RECHT GEVEN OP EEN BONIFICATIE
+#### HOOFDSTUK 1. — Wie kan een bonificatie genieten ?
     Een bonificatie kan worden verleend aan alle natuurlijke personen die, na aftrek van de voorheffingen en andere verrekenbare bestanddelen, nog belasting op hun inkomsten verschuldigd zijn.
     Opgemerkt wordt dat beginnende zelfstandigen die niet aan de in Deel I bedoelde belastingvermeerdering onderworpen zijn (zie Hoofdstuk 1, II, eerste lid), eveneens die bonificatie kunnen genieten.
-    HOOFDSTUK 2. — Waaruit bestaat de bonificatie ?
+#### HOOFDSTUK 2. — Waaruit bestaat de bonificatie ?
     I. REGEL
     Een belastingvermindering of bonificatie wordt verleend aan de natuurlijke personen die de tot 106 % verhoogde belasting, verminderd met de voorheffingen, de andere verrekenbare bestanddelen en de voorafbetalingen die nodig zijn om de in Deel I bedoelde belastingvermeerdering te vermijden, bij wijze van voorafbetaling voldoen.
     Indien hun belastbare inkomsten, inkomsten met vermeerdering omvatten, worden de voorafbetalingen (te beginnen met de oudste) bij voorrang aangewend om die vermeerdering te vermijden; slechts het saldo kan in aanmerking genomen worden voor het verlenen van een eventuele bonificatie.
@@ -5736,7 +5736,7 @@ Voorbeeld 4
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20151
 
     Deze vier stortingen worden verder respectievelijk als VA 1, VA 2, VA 3 en VA 4 aangeduid.
-    HOOFDSTUK 3. — Berekening van de bonificatie
+#### HOOFDSTUK 3. — Berekening van de bonificatie
     I. PRINCIPE
     Het bedrag van de bonificatie is voor aanslagjaar 2014 gelijk aan de som van de volgende producten :
     a) bedrag van VA 1 x 1,5 %;
@@ -5834,8 +5834,8 @@ Voorbeeld 4
     Saldo : 3.380,87 EUR
     Gemeentebelasting : 12.400,00 EUR x 7 % = 868,00 EUR
     Te betalen belasting : 4.248,87 EUR
-    DEEL III. — PROCEDURE
-    HOOFDSTUK 1. — Wijze van voorafbetalen
+## DEEL III. — PROCEDURE
+#### HOOFDSTUK 1. — Wijze van voorafbetalen
     I. REKENINGNUMMERS EN TERMIJNEN
     De voorafbetalingen moeten voor elke vervaldatum worden gedaan door storting of overschrijving op één van de volgende rekeningnummers van de ″Dienst der Voorafbetalingen″ (4) : voor de vennootschappen en de intercommunales : op rekening : IBAN : BE20 6792 0023 3056 en BIC : PCHQ BEBB van de ″DIENST VOORAFBETALINGEN - VENNOOTSCHAPPEN″, voor de natuurlijke personen : op rekening : IBAN : BE07 6792 0023 4066 en BIC : PCHQ BEBB van de ″DIENST VOORAFBETALINGEN - NATUURLIJKE PERSONEN″.
     Daar er steeds een paar werkdagen kunnen verlopen tussen de betalingsopdracht en de uitvoering ervan, is het aanbevolen niet te wachten tot de vervaldag om de betaling te verrichten.
@@ -5871,7 +5871,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     Belangrijke opmerkingen
     1. Wat betreft de particulieren (gehuwden of wettelijke samenwonenden) voor wie een gemeenschappelijke aanslag zal gevestigd worden, moet elke ″echtgenoot″ voor eigen rekening de nodige voorafbetalingen storten die hij nodig acht, om de belastingvermeerdering te vermijden of om van de overeenkomstige bonificatie te kunnen genieten (zie bladzijde 1, gemeenschappelijke aanslag op naam van beide echtgenoten).
     2. De belastingschuldige die een aanslagbiljet ontvangt dat een fiscale terugbetaling aankondigt, kan deze terugbetaling in aanmerking doen nemen als voorafbetaling voor het volgende belastbare tijdperk. Daartoe dient hij, per brief, een verzoek te richten aan de Dienst der Voorafbetalingen (5). Het verzoek moet worden gedaan vóór de daadwerkelijke vereffening van de terugbetaling. De Dienst der Voorafbetalingen zal de belastingschuldige inlichten over het gevolg dat aan zijn verzoek wordt gegeven en over de te volgen praktische werkwijze.
-    HOOFDSTUK 2. — Wijziging van de oorspronkelijke bestemming der voorafbetalingen I. AARD VAN DE WIJZIGINGEN DIE KUNNEN WORDEN AANGEBRACHT
+#### HOOFDSTUK 2. — Wijziging van de oorspronkelijke bestemming der voorafbetalingen I. AARD VAN DE WIJZIGINGEN DIE KUNNEN WORDEN AANGEBRACHT
     1° Derden kunnen om rechtzetting verzoeken, zo nodig door terugbetaling, van de materiële vergissingen die begaan zijn bij het uitvoeren van stortingen of overschrijvingen voor rekening van de belastingplichtige.
     2° De belastingplichtigen op wiens naam de voorafbetalingen worden geboekt, kunnen vragen dat de gestorte bedragen, geheel of ten dele, worden : — terugbetaald;
     — overgeschreven op de postrekening van een ontvangkantoor der belastingen;
@@ -5888,17 +5888,17 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
     III. TERMIJN WAARBINNEN DERDEN RECHTZETTING VAN MATERIELE VERGISSINGEN KUNNEN VRAGEN De aanvraag om rechtzetting moet uiterlijk op de laatste dag van de tweede maand die volgt op het belastbare tijdperk waarop de stortingen of de overschrijvingen betrekking hebben bij de ″Dienst der Voorafbetalingen″ toekomen.
     IV. TERMIJN WAARBINNEN DE BELASTINGPLICHTIGEN TERUGBETALING, OVERSCHRIJVING OF OVERDRACHT KUNNEN VRAGEN De aanvraag om terugbetaling, overschrijving of overdracht moet uiterlijk op de laatste dag van de tweede maand die volgt op het belastbare tijdperk waarop de voorafbetalingen betrekking hebben op de ″Dienst der Voorafbetalingen″ toekomen.
     Die termijn kan echter niet minder zijn dan één maand te rekenen vanaf de verzending van het rekeninguittreksel VA (zie Hoofdstuk 3).
-    HOOFDSTUK 3. — Rekeninguittreksel VA
+#### HOOFDSTUK 3. — Rekeninguittreksel VA
     Na het verstrijken van het belastbare tijdperk zendt de Dienst der Voorafbetalingen aan de betrokken belastingplichtigen een ″rekeninguittreksel VA″, waarop alle verrichtingen (betalingen, terugbetalingen, telkens met de in aanmerking genomen datum) van het belastbare tijdperk worden vermeld. Dit document moet zorgvuldig worden bewaard.
-    DEEL IV. — VENNOOTSCHAPPEN - BIJZONDERE GEVALLEN
-    HOOFDSTUK 1. — Principe
+## DEEL IV. — VENNOOTSCHAPPEN - BIJZONDERE GEVALLEN
+#### HOOFDSTUK 1. — Principe
     Wanneer het boekjaar waarin de inkomsten van vennootschappen worden behaald niet volledig samenvalt met het kalenderjaar is het principe van de voorafbetaling per trimester eveneens toepasselijk in de hierna volgende bijzondere gevallen, met dien verstande dat moet rekening worden gehouden met de volgende speciale beschikkingen :
     1. indien het boekjaar :
     — niet aanvangt op de eerste dag van een maand, wordt die maand niet meegeteld;
     — niet eindigt op de laatste dag van een maand, wordt die maand voor een volle geteld;
     2. een begonnen kwartaal wordt voor een vol kwartaal geteld.
     Deze beide bepalingen moeten worden samengenomen, d.w.z. dat een bepaald kwartaal slechts volledig wordt geteld indien het ten minste één vol geachte maand bevat.
-    HOOFDSTUK 2. — Vennootschappen die hun boekhouding anders dan per kalenderjaar voeren I. BOEKJAAR VAN TWAALF MAANDEN Er moeten vier voorafbetalingen worden gedaan, telkens ten belope van een vierde van het totale bedrag van de belasting.
+#### HOOFDSTUK 2. — Vennootschappen die hun boekhouding anders dan per kalenderjaar voeren I. BOEKJAAR VAN TWAALF MAANDEN Er moeten vier voorafbetalingen worden gedaan, telkens ten belope van een vierde van het totale bedrag van de belasting.
     De betalingen moeten worden gedaan uiterlijk de tiende dag van de vierde, de zevende en de tiende maand, en de twintigste dag van de laatste maand van het boekjaar (6).
     Voorbeeld
     Vennootschap waarvan het boekjaar loopt van 1.7.2013 tot 30.6.2014 of van 16.6.2013 tot 15.6.2014.
@@ -5923,7 +5923,7 @@ U kan steeds de voorafbetaling hervatten met dezelfde gestructureerde mededeling
 
     — VA 3 : op 11.8.2014;
     — VA 4 : op 20.10.2014.
-HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsluitingsdatum van het boekjaar, ontbinding of afsluiting van de vereffening I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de wijziging van de afsluitingsdatum van het boekjaar, de ontbinding of de afsluiting van de vereffening plaatsheeft.
+#### HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsluitingsdatum van het boekjaar, ontbinding of afsluiting van de vereffening I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de wijziging van de afsluitingsdatum van het boekjaar, de ontbinding of de afsluiting van de vereffening plaatsheeft.
     Om praktische redenen worden de verschillende eventualiteiten evenals de regels die hun eigen zijn, hierna in tabelvorm weergegeven.
 
     Te volgen regel
@@ -5952,7 +5952,7 @@ HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsl
     — het 1ste derde : 10.9.2013 (VA 2);
     — het 2e derde : 10.12.2013 (VA 3);
     — het 3e derde : 10.3.2014 (VA 4).
-    HOOFDSTUK 4. — Boekjaar van minder dan 12 maanden wegens aanvang van de beroepswerkzaamheid I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de beroepswerkzaamheid werd aangevangen.
+#### HOOFDSTUK 4. — Boekjaar van minder dan 12 maanden wegens aanvang van de beroepswerkzaamheid I. VENNOOTSCHAPPEN DIE HUN BOEKHOUDING PER KALENDERJAAR VOEREN De toe te passen regel varieert volgens het kwartaal waarin de beroepswerkzaamheid werd aangevangen.
     Onderstaande tabel geeft een samenvatting van de verschillende eventualiteiten alsook van de regel die er op van toepassing is.
 
    Kwartaal van oprichting Te volgen regel
@@ -5985,7 +5985,7 @@ HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsl
     Oprichting op 18.6.2013 van een vennootschap die niet boekhoudt per kalenderjaar en voor de eerste maal afsluit op 31.3.2014 : — de maand juni wordt niet meegeteld omdat ze niet volledig is;
     — de aanvang van de beroepswerkzaamheid wordt derhalve geacht in de loop van het tweede kwartaal plaats te vinden;
     — de totale belasting moet telkens voor een derde voorafbetaald worden uiterlijk op 10.10.2013, 10.1.2014 en 20.3.2014.
-    HOOFDSTUK 5. — Toepasselijke tarieven en percenten voor bijzondere gevallen Worden hier bedoeld : — de gevallen van wijziging van de datum van afsluiting van het boekjaar, de ontbinding of de afsluiting van de vereffening van een vennootschap, waardoor het boekjaar minder dan 12 maanden telt (zie Hoofdstuk 3);
+#### HOOFDSTUK 5. — Toepasselijke tarieven en percenten voor bijzondere gevallen Worden hier bedoeld : — de gevallen van wijziging van de datum van afsluiting van het boekjaar, de ontbinding of de afsluiting van de vereffening van een vennootschap, waardoor het boekjaar minder dan 12 maanden telt (zie Hoofdstuk 3);
     — de gevallen van aanvang van de beroepswerkzaamheid van een vennootschap, waarvan het eerste boekjaar minder dan 12 maanden telt (zie Hoofdstuk 4).
     Voor aanslagjaar 2014 moet rekening worden gehouden met wat hierna volgt.
     De kwartalen moeten vastgesteld worden in het licht van de bijzondere beschikkingen voorzien in de hoofdstukken 3 en 4 hierboven.
@@ -6015,9 +6015,9 @@ HOOFDSTUK 3. — Boekjaar van minder dan 12 maanden wegens wijziging van de afsl
     — Werkelijk verschuldigde vermeerdering : 251,12 EUR
     MONITEUR BELGE — 29.03.2013 — BELGISCH STAATSBLAD 20157
 
-    DEEL V. — BEREKENING VAN DE BELASTING
+## DEEL V. — BEREKENING VAN DE BELASTING
 
-    HOOFDSTUK 1. — Personenbelasting
+#### HOOFDSTUK 1. — Personenbelasting
     I. BELASTINGSTELSEL
     A. Voorafgaande opmerking
    Om het voor vermeerdering vatbare gedeelte van de personenbelasting vast te stellen, moeten slechts de in
@@ -6138,7 +6138,7 @@ Hoofdstuk 2, II, van Deel I bedoelde inkomsten van zelfstandigen in aanmerking w
     — vermindering voor 3 kinderen ten laste :
     (zie punt 4) : - 2.825,00 EUR
     Geraamde belasting (12) : 7.438,50 EUR
-    HOOFDSTUK 2. — Vennootschapsbelasting (Ven.B) en belasting van niet-inwoners/vennootschappen (BNI/ven.) I. VOORAFGAANDE OPMERKING Het is niet mogelijk om, voor de raming van de Ven.B en de BNI/ven., gedetailleerde tabellen te publiceren die het juiste bedrag vermelden dat voor aanslagjaar 2014, voor alle mogelijke gevallen verschuldigd is.
+#### HOOFDSTUK 2. — Vennootschapsbelasting (Ven.B) en belasting van niet-inwoners/vennootschappen (BNI/ven.) I. VOORAFGAANDE OPMERKING Het is niet mogelijk om, voor de raming van de Ven.B en de BNI/ven., gedetailleerde tabellen te publiceren die het juiste bedrag vermelden dat voor aanslagjaar 2014, voor alle mogelijke gevallen verschuldigd is.
     De hierna vermelde gegevens moeten nochtans toelaten het bedrag van de belasting voor het voormelde aanslagjaar bij benadering te berekenen.
     II. BELASTINGTARIEVEN
     A. Vennootschapsbelasting die vermeerdering kan ondergaan
@@ -6169,7 +6169,7 @@ Hoofdstuk 2, II, van Deel I bedoelde inkomsten van zelfstandigen in aanmerking w
 
     Artikel 246, tweede lid, WIB 92, bepaalt eveneens dat in het geval bedoeld in artikel 231, § 2, tweede lid, van hetzelfde wetboek (fusie-, splitsing- of inbrengverrichting waaraan een erkende vennootschap met vast kapitaal voor belegging in onroerende goederen of in niet genoteerde aandelen heeft deelgenomen) het tarief wordt vastgesteld op 16,5 %.
     Een aanvullende crisisbijdrage van 3 opcentiemen wordt gevestigd op de BNI/ven. (artikel 463bis, WIB 92).
-    HOOFDSTUK 3. — Rechtspersonenbelasting met betrekking tot intercommunales
+#### HOOFDSTUK 3. — Rechtspersonenbelasting met betrekking tot intercommunales
     Artikel 224, WIB 92, bepaalt dat intercommunales, bedoeld in artikel 180, 1°, WIB 92, eveneens belastbaar zijn op het totale bedrag van de sommen toegekend als dividenden aan enige vennootschap of andere rechtspersoon met uitzondering van die toegekend aan de Staat, de Gemeenschappen, de Gewesten, de provincies, de agglomeraties, de federaties van gemeenten, de gemeenten en de openbare centra voor maatschappelijk welzijn, alsmede aan andere intercommunales.
     Luidens artikel 225, tweede lid, 6°, WIB 92, wordt de belasting op deze dividenden berekend tegen het tarief van 15 % (13).
     Tenslotte bepaalt artikel 226, WIB 92, dat de voormelde belasting eventueel wordt vermeerderd zoals bepaald in het artikel 218, WIB 92, ingeval geen of ontoereikende voorafbetalingen als bedoeld in dat artikel zijn gedaan. Die vermeerdering wordt derhalve berekend volgens de regels die van toepassing zijn inzake de Ven.B.

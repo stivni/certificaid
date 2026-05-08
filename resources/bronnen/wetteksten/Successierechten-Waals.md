@@ -75,7 +75,7 @@ inlichtingen ...................................................................
 
 #### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen ............................................................................... 126
 
-BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ....................................................................... 156
+## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ....................................................................... 156
 
 #### HOOFDSTUK I - Vestiging van de taks ........................................................................................................................... 156
 
@@ -87,9 +87,9 @@ BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN .............................
 
 #### HOOFDSTUK V - Diverse bepalingen .............................................................................................................................. 164
 
-BOEK IIBIS - (…) .................................................................................................................................................. 179
+## BOEK IIBIS - (…) .................................................................................................................................................. 179
 
-BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN EN BEPAALDE DERDEN ................................................ 181
+## BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN EN BEPAALDE DERDEN ................................................ 181
 
 (…) .............................................................................................................................................................................................. 188 (…) .............................................................................................................................................................................................. 188
 Eerste afdeling - (…) ........................................................................................................................................................ 189
@@ -98,7 +98,7 @@ Eerste afdeling - (…) ........................................................
 
 *                              *
 *
-BOEK I - RECHTEN VAN SUCCESSIE EN VAN OVERGANG BIJ OVERLIJDEN
+## BOEK I - RECHTEN VAN SUCCESSIE EN VAN OVERGANG BIJ OVERLIJDEN
 
 #### HOOFDSTUK I - Vestiging van de rechten
 
@@ -2525,7 +2525,7 @@ Deze processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zulle
 
 Tegenbrieven kunnen de Staat niet tegengesteld worden, in zover zij vermindering van actief of vermeerdering van het passief der nalatenschap ten gevolge mochten hebben.
 
-Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
+###### Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
 
 ##### Afdeling II - Bijzondere bewijsmiddelen
 
@@ -4173,7 +4173,7 @@ De fiscale administratie, mag binnen de door haar bepaalde termijn, welke wegens
 
 De beroepen tot gehele of gedeeltelijke vernietiging van de wet van 20.12.2019 (Fiscale transparantie binnen de Europese Unie - Agressieve grensoverschrijdende fiscale constructies - Meldingsplicht - Intermediairs - Advocaten - Beroepsgeheim) Het Hof vernietigt art. 146septdecies W.Succ. (GwH nr. 103/2022 d.d. 15.09.2022 (B.S., 13.01.2023)).
 
-BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN
+## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN
 
 #### HOOFDSTUK I - Vestiging van de taks
 
@@ -4772,7 +4772,7 @@ a) de buitenlandse bevoegde autoriteit van de lidstaat waaruit de inlichtingen a
 
 b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodig is om bewijsmateriaal bijeen te brengen omtrent het ongeoorloofde of onwettige karakter van verrichtingen die blijken in strijd te zijn met of een misbruik te vormen van de belastingwetgeving.
 
-BOEK IIbis - (…)
+## BOEK IIbis - (…)
 
 (opgeheven bij art. 109 van de wet van 13.04.2019 (B.S., 30.04.2019 - ed. 1). Tekst van toepassing vanaf 01.01.2020 (art.
 139, lid 1))
@@ -4876,7 +4876,7 @@ BOEK IIbis - (…)
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Boek III - Digitalisatie van de relaties tussen de Federale Overheidsdienst Financiën, de burgers, de bedrijven, de rechtspersonen en bepaalde derden
+## Boek III - Digitalisatie van de relaties tussen de Federale Overheidsdienst Financiën, de burgers, de bedrijven, de rechtspersonen en bepaalde derden
 
 (Boek III hersteld bij art. 118 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
@@ -4893,7 +4893,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 3° bericht: alle schriftelijke mededelingen betreffende de rechten en plichten opgenomen in dit Wetboek, in de bijzondere wetsbepalingen met betrekking tot de successierechten, de rechten van overgang bij overlijden en de taks tot vergoeding der successierechten of in de tot uitvoering ervan genomen besluiten, inclusief de briefwisseling, formulieren en verzendingen van gegevens, ongeacht de gebruikte drager.
 
-boek III - (…) (van toepassing vanaf 01.01.2011)
+## boek III - (…) (van toepassing vanaf 01.01.2011)
 
 (opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))
 

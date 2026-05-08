@@ -223,7 +223,7 @@ Het koninklijk besluit nr. 59 van 28 mei 2019 met betrekking tot de onttrekkinge
 
 ## Art. 15
 
-Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtreding van dit besluit het voorwerp uitmaken van een onttrekking om ze te verstrekken voor liefdadigheidsdoeleinden.
+#### Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtreding van dit besluit het voorwerp uitmaken van een onttrekking om ze te verstrekken voor liefdadigheidsdoeleinden.
 
 ## Art. 16
 

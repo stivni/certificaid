@@ -75,7 +75,7 @@ HOOFDSTUK VI: OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
 
 Bijlage: Materiaal bedoeld in artikel 36, 21°, van het besluit
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
     Voorwaarden waaronder de goederen op het grondgebied van het
     Rijk mogen worden gebracht.
 
@@ -126,7 +126,7 @@ KB 25.02.1996))
 De overeenkomstig artikel 23 van het Wetboek in België ingevoerde goederen moeten voor het
 verbruik worden aangegeven.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     Plaats van bestemming.
 
 ## Art. 4
@@ -141,7 +141,7 @@ binnenkomen.
 Bij gebrek aan een dergelijke vermelding wordt de eerste plaats van bestemming geacht de
 plaats te zijn waar de eerste overlading van goederen in België geschiedt.
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
     Voldoening van de belasting ter zake van invoer.
 
 ## Art. 5
@@ -358,10 +358,10 @@ Ten einde de formaliteiten te vereenvoudigen, kan door of vanwege de Minister va
 worden afgeweken van de voorschriften van de artikelen 7 en 9; in dat geval worden regelen
 gegeven om de voldoening van de belasting te verzekeren.
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
     Vrijstelling bij invoer.
 
-    AFDELING 1
+##### AFDELING 1
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek.
 
 ## Art. 11
@@ -380,7 +380,7 @@ toegevoegde waarde.
 Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten van dit artikel
 bepaald.
 
-    AFDELING 2
+##### AFDELING 2
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek.
 
 ## Art. 12
@@ -492,7 +492,7 @@ gedeelten plaatsvinden.
 § 6. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen vóór het verstrijken van de termijn bedoeld in
 het eerste lid leidt tot toepassing van de voor de betrokken goederen geldende belasting, tegen
@@ -559,7 +559,7 @@ plaatsvinden in één of meer zendingen.
 § 5. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen ervan vóór het verstrijken van die termijn,
 leidt tot toepassing van de voor de betrokken goederen geldende belasting, tegen het op de
@@ -589,7 +589,7 @@ goederen plaatsvinden in één of meer zendingen.
 § 3. Tot het verstrijken van een termijn van twaalf maanden, te rekenen vanaf de datum van
 de aangifte voor de definitieve invoer, mogen de met vrijstelling ingevoerde persoonlijke
 goederen niet worden uitgeleend, verpand, verhuurd of overgedragen noch onder bezwarende
-titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
+### titel noch om niet, zonder dat de administratie daarvan vooraf in kennis is gesteld.
 
 Het uitlenen, verpanden, verhuren of overdragen vóór het verstrijken van die termijn, leidt tot
 toepassing van de voor de betrokken goederen geldende belasting, tegen het op de datum van
@@ -1296,7 +1296,7 @@ Onder "overblijvende producten" wordt verstaan, producten die voortkomen uit de
 onderzoeken, analyses of proeven, dan wel goederen die niet daadwerkelijk zijn gebruikt.
 
 § 6. Behoudens toepassing van het bepaalde in paragraaf 5, worden de na afloop van de in
-paragraaf 1 bedoelde onderzoeken, analyses of proeven overblijvende producten onderworpen
+###### paragraaf 1 bedoelde onderzoeken, analyses of proeven overblijvende producten onderworpen
 aan de belasting, tegen het op het tijdstip van de beëindiging van deze onderzoeken, analyses
 of proeven van kracht zijnde tarief en over de op datzelfde tijdstip vastgestelde maatstaf van
 heffing.
@@ -1483,7 +1483,7 @@ Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
     thermische bescherming, van goederen tijdens het vervoer naar het grondgebied van de
     Gemeenschap mits deze materialen normaliter niet in aanmerking komen om opnieuw te
     worden gebruikt en de tegenwaarde ervan, overeenkomstig artikel 34 van het Wetboek,
-    deel uitmaakt van de maatstaf van heffing van die goederen;
+## deel uitmaakt van de maatstaf van heffing van die goederen;
 
 25° strooisel, foerage en al het voer aan boord van vervoermiddelen die worden gebruikt voor
     het vervoer van dieren naar het grondgebied van de Gemeenschap, bestemd om
@@ -1516,7 +1516,7 @@ binnenkomende vervoermiddelen en bestemd voor de voortdrijving of de smering daa
 Wetboek, en enkel voor de hoeveelheden die inzake invoerrecht met vrijstelling kunnen worden
 toegelaten voor het verbruik in België.
 
-    AFDELING 3
+##### AFDELING 3
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b,
     van het Wetboek.
 
@@ -1527,7 +1527,7 @@ KB 25.02.1996)
 
     (opgeheven)
 
-    AFDELING 4
+##### AFDELING 4
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
 ## Art. 39
@@ -1553,7 +1553,7 @@ zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
 § 2. Door de Minister van Financiën of zijn gemachtigde worden de modaliteiten bepaald voor
 de toepassing van dit artikel.
 
-    AFDELING 5
+##### AFDELING 5
     Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek.
 
 ## Art. 40
@@ -1640,7 +1640,7 @@ wederingevoerd na:
 § 5. Door of vanwege de Minister van Financiën worden de modaliteiten en de formaliteiten
 bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 
-    AFDELING 6
+##### AFDELING 6
     Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek.
 
 ## Art. 42
@@ -1677,7 +1677,7 @@ De maatstaf van heffing zoals bepaald in het eerste lid moet worden vermeerderd 
 reeds in die waarde begrepen sommen die, overeenkomstig artikel 34, § 2, van het Wetboek, in
 de maatstaf van heffing moeten worden opgenomen.
 
-    AFDELING 7
+##### AFDELING 7
     Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
 
 ## Art. 43
@@ -1895,7 +1895,7 @@ e) thee 100 gram
 vervat, maar de in die paragraaf vastgestelde hoeveelheden overschrijden, worden geheel van
 de vrijstelling uitgesloten.
 
-    HOOFDSTUK V
+#### HOOFDSTUK V
     Voorziening om de invordering van de belasting te verzekeren.
 
 ## Art. 45
@@ -1924,7 +1924,7 @@ inzake invoerrecht gelden, aanvaarden.
 Wanneer de geëiste borgtocht niet wordt gesteld voor goederen die nog onder douanetoezicht
 staan, mag de douane de goederen ophouden of gebieden dat ze het land moeten verlaten.
 
-    HOOFDSTUK VI
+#### HOOFDSTUK VI
     Opheffingsbepaling en inwerkingtreding.
 
 ## Art. 46

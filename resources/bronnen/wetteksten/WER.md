@@ -68,7 +68,7 @@ provenance:
   ----------
   (1)<W 2018-04-15/14, art. 39, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 2. - [1 Definities eigen aan Boek IV.]1
+#### HOOFDSTUK 2. - [1 Definities eigen aan Boek IV.]1
   ----------
   (1)<W 2016-06-29/01, art. 2, 036; Inwerkingtreding : 16-07-2016>
 
@@ -118,7 +118,7 @@ provenance:
    (1)<W 2022-02-28/02, art. 3, 104; Inwerkingtreding : 17-03-2022>
    (2)<W 2024-03-29/39, art. 3, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 3. - [1 Definities eigen aan boek V.]1
+#### HOOFDSTUK 3. - [1 Definities eigen aan boek V.]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 3,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
@@ -130,7 +130,7 @@ provenance:
   ----------
   (1)<W 2018-04-15/14, art. 41, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 4. [1 Definities eigen aan boek VI]1
+#### HOOFDSTUK 4. [1 Definities eigen aan boek VI]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>
 
@@ -210,11 +210,11 @@ provenance:
    ----------
    (1)<Ingevoegd bij W 2021-11-28/08, art. 2, 102; Inwerkingtreding : 25-12-2021>
 
-  HOOFDSTUK 5.
+#### HOOFDSTUK 5.
 
 ## Art. I.8.
 
-  HOOFDSTUK 5. [1 - Definities eigen aan boek VII.]1
+#### HOOFDSTUK 5. [1 - Definities eigen aan boek VII.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 2, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -408,7 +408,7 @@ provenance:
   (18)<W 2023-11-05/07, art. 2, 123; Inwerkingtreding : 21-12-2023>
   (19)<W 2024-05-03/21, art. 2, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 6. - Definities eigen aan boek VIII
+#### HOOFDSTUK 6. - Definities eigen aan boek VIII
 
 ## Art. I.9
 
@@ -459,7 +459,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
    ----------
    (1)<Ingevoegd bij W 2023-11-05/06, art. 3, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 7. [1 Definities eigen aan boek IX]1
+#### HOOFDSTUK 7. [1 Definities eigen aan boek IX]1
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 2, 004; Inwerkingtreding : 12-12-2013 par KB 2013-12-08/01, art. 2>
 
@@ -502,7 +502,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
    ----------
    (1)<Ingevoegd bij W 2013-04-25/10, art. 2, 004; Inwerkingtreding : 12-12-2013 par KB 2013-12-08/01, art. 2> (2)<W 2016-06-29/01, art. 5, 036; Inwerkingtreding : 16-07-2016>
 
-  HOOFDSTUK 8. [1 - Definities eigen aan boek X.]1
+#### HOOFDSTUK 8. [1 - Definities eigen aan boek X.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 2, 014; Inwerkingtreding : 31-05-2014>
 
@@ -519,7 +519,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 2, 014; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 9. - [1 Definities eigen aan boek XI]1
+#### HOOFDSTUK 9. - [1 Definities eigen aan boek XI]1
   ----------
   (1)<Ingevoegd bij w 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>
 
@@ -635,7 +635,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 2, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 10. [1 Definities eigen aan Boek XII]1
+#### HOOFDSTUK 10. [1 Definities eigen aan Boek XII]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014>
 
@@ -669,7 +669,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 2, 010; Inwerkingtreding : 31-05-2014> (2)<W 2016-07-21/40, art. 2, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)> (3)<W 2024-05-15/13, art. 8, 137; Inwerkingtreding : 01-10-2024>
 
-  HOOFDSTUK 11. [1 - Definities eigen aan boek XVI.]1
+#### HOOFDSTUK 11. [1 - Definities eigen aan boek XVI.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014>
 
@@ -685,7 +685,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 2, 018; Inwerkingtreding : 13-05-2014> (2)<W 2015-10-26/06, art. 4, 028; Inwerkingtreding : 09-11-2015> (3)<W 2018-09-20/14, art. 4, 067; Inwerkingtreding : 20-10-2018> (4)<W 2018-04-15/14, art. 45, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 12. [1 - Definities eigen aan boek XV]1
+#### HOOFDSTUK 12. [1 - Definities eigen aan boek XV]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 3, 007; Inwerkingtreding : 09-05-2014>
 
@@ -711,11 +711,11 @@ Voor de toepassing van boek VIII gelden de volgende definities :
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 3, 007; Inwerkingtreding : 09-05-2014> (2)<W 2016-12-01/12, art. 2, 040; Inwerkingtreding : 25-12-2016> (3)<W 2018-04-15/14, art. 46, 059; Inwerkingtreding : 01-11-2018> (4)<W 2021-11-28/08, art. 3, 102; Inwerkingtreding : 25-12-2021> (5)<W 2022-03-20/05, art. 13, 106; Inwerkingtreding : 01-06-2022> (6)<W 2022-05-08/01, art. 5, 107; Inwerkingtreding : 28-05-2022> (7)<W 2022-07-20/11, art. 45, 114; Inwerkingtreding : 05-08-2022> (8)<W 2023-11-05/07, art. 3, 123; Inwerkingtreding : 21-12-2023> (9)<W 2024-05-15/13, art. 9, 137; Inwerkingtreding : 01-10-2024> (10)<W 2023-11-05/06, art. 4, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 12.
+#### HOOFDSTUK 12.
 
 ## Art. I.20.
 
-  HOOFDSTUK 13. [1 - Definities eigen aan boek XVII]1
+#### HOOFDSTUK 13. [1 - Definities eigen aan boek XVII]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 2, 016; Inwerkingtreding : 01-09-2014>
 
@@ -782,7 +782,7 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 3, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 14. [1 - Definities eigen aan boek XX.]1
+#### HOOFDSTUK 14. [1 - Definities eigen aan boek XX.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 2, 058; Inwerkingtreding : 01-05-2018>
 
@@ -837,19 +837,19 @@ Voor de toepassing van boek VIII gelden de volgende definities :
   ----------
   (1)<W 2023-06-07/07, art. 3, 122; Inwerkingtreding : 01-09-2023>
 
-  BOEK II. - Algemene beginselen
+## BOEK II. - Algemene beginselen
 
-  Titel 1. - Toepassingsgebied
+### Titel 1. - Toepassingsgebied
 
   Art. II. 1. Onder voorbehoud van de toepassing van internationale verdragen, van het recht van de Europese Unie of van bepalingen in bijzondere wetten, bevat onderhavig Wetboek het algemeen juridisch kader inzake economische aangelegenheden die tot de bevoegdheid van de federale overheid behoren.
 
-  Titel 2. - Doelstellingen
+### Titel 2. - Doelstellingen
 
 ## Art. II.2
 
 Dit Wetboek strekt ertoe de vrijheid van ondernemen en de loyauteit van economische transacties te verzekeren, en een hoog niveau van bescherming van de consument te waarborgen.
 
-  Titel 3. - Vrijheid van ondernemen
+### Titel 3. - Vrijheid van ondernemen
 
 ## Art. II.3
 
@@ -859,7 +859,7 @@ Iedereen is vrij om enige economische activiteit naar keuze uit te oefenen.
 
 De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België van kracht zijnde internationale verdragen, van het algemeen normatief kader van de economische unie en de monetaire eenheid zoals vastgesteld door of krachtens de internationale verdragen en de wet, alsmede van de wetten die de openbare orde en de goede zeden betreffen en van de bepalingen van dwingend recht.
 
-  Titel 4. [1 Raadplegingen.]1
+### Titel 4. [1 Raadplegingen.]1
   ----------
   (1)<Ingevoegd bij W 2017-04-18/03, art. 2, 046; Inwerkingtreding : 04-05-2017>
 
@@ -870,15 +870,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2017-04-18/03, art. 3, 046; Inwerkingtreding : 04-05-2017> (2)<W 2019-05-02/28, art. 3, 077; Inwerkingtreding : 01-06-2019>
 
-  BOEK III. [1 Vrijheid van vestiging, dienstverlening en algemene verplichtingen van de ondernemingen.]1
+## BOEK III. [1 Vrijheid van vestiging, dienstverlening en algemene verplichtingen van de ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Titel 1. [1 Vrijheid van vestiging en van dienstverlening.]1
+### Titel 1. [1 Vrijheid van vestiging en van dienstverlening.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Hoofdstuk 1. [1 Toepassingsgebied.]1
+#### Hoofdstuk 1. [1 Toepassingsgebied.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -912,11 +912,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<KB 2017-12-05/05, art. 2, 053; Inwerkingtreding : 01-02-2018>
 
-  Hoofdstuk 2. [1 Vrijheid van vestiging.]1
+#### Hoofdstuk 2. [1 Vrijheid van vestiging.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 1. [1 Vergunningsstelsels.]1
+##### Afdeling 1. [1 Vergunningsstelsels.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1017,7 +1017,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 2. [1 Andere vereisten.]1
+##### Afdeling 2. [1 Andere vereisten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1038,7 +1038,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Hoofdstuk 3. [1 Vrijheid van dienstverlening.]1
+#### Hoofdstuk 3. [1 Vrijheid van dienstverlening.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1079,15 +1079,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<KB 2017-12-05/05, art. 2, 053; Inwerkingtreding : 01-02-2018>
 
-  Titel 2. [1 Kruispuntbank van Ondernemingen en erkende ondernemingsloketten.]1
+### Titel 2. [1 Kruispuntbank van Ondernemingen en erkende ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Hoofdstuk 1. [1 Kruispuntbank van Ondernemingen.]1
+#### Hoofdstuk 1. [1 Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 1. [1 Oprichting van de Kruispuntbank van Ondernemingen.]1
+##### Afdeling 1. [1 Oprichting van de Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 ## Art. III.15
@@ -1117,7 +1117,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2018-04-15/14, art. 50, 059; Inwerkingtreding : 01-11-2018>
    (2)<W 2024-02-09/19, art. 5, 129; Inwerkingtreding : 31-03-2024>
 
-  Afdeling 2. [1 Inschrijving in de Kruispuntbank van Ondernemingen.]1
+##### Afdeling 2. [1 Inschrijving in de Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1168,7 +1168,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 54, 059; Inwerkingtreding : 01-11-2018> (3)<W 2023-12-22/06, art. 75, 126; Inwerkingtreding : 01-07-2024>
 
-  Afdeling 3. [1 Toekenning en gebruik van het ondernemings- en vestigingseenheidsnummer.]1
+##### Afdeling 3. [1 Toekenning en gebruik van het ondernemings- en vestigingseenheidsnummer.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1216,7 +1216,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 60, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 Toegang en gebruik van de gegevens opgenomen in de Kruispuntbank van Ondernemingen.]1
+##### Afdeling 4. [1 Toegang en gebruik van de gegevens opgenomen in de Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1297,7 +1297,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 [2 § 1.]2 [1 De gegevens vermeld op de uittreksels van de Kruispuntbank van Ondernemingen hebben bewijskracht tot bewijs van het tegendeel.]1 [2 § 2. De uittreksels zijn beschikbaar in de drie officiële landstalen. Zij worden ook afgeleverd in het Engels op uitdrukkelijk verzoek.]2
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2016-06-06/06, art. 2, 048; Inwerkingtreding : 10-06-2017>
-  Afdeling 5. [1 Realisatie van het principe van de unieke gegevensinzameling.]1
+##### Afdeling 5. [1 Realisatie van het principe van de unieke gegevensinzameling.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1313,7 +1313,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 6. [1 Inschrijving, wijziging of doorhaling van de onjuiste of ontbrekende gegevens.]1
+##### Afdeling 6. [1 Inschrijving, wijziging of doorhaling van de onjuiste of ontbrekende gegevens.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1385,7 +1385,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-07-30/47, art. 4, 065; Inwerkingtreding : 01-12-2018>
 
-  Afdeling 7. [1 Bijzondere bepalingen omtrent de werking van de Kruispuntbank van Ondernemingen.]1
+##### Afdeling 7. [1 Bijzondere bepalingen omtrent de werking van de Kruispuntbank van Ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1422,11 +1422,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 
 ## Art. III.48.
 
-  Hoofdstuk 2. [1 Inschrijvingsplichtige ondernemingen.]1
+#### Hoofdstuk 2. [1 Inschrijvingsplichtige ondernemingen.]1
   ----------
   (1)<W 2018-04-15/14, art. 69, 059; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 1. [1 Verplichting tot inschrijving.]1
+##### Afdeling 1. [1 Verplichting tot inschrijving.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1457,7 +1457,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 71, 059; Inwerkingtreding : 01-11-2018, en wat betreft vzw's : onbepaald>
 
-  Afdeling 2. [1 Verplichting tot wijziging.]1
+##### Afdeling 2. [1 Verplichting tot wijziging.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1471,7 +1471,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 72, 059; Inwerkingtreding : 01-11-2018> (3)<W 2020-05-27/03, art. 2, 085; Inwerkingtreding : 13-03-2020>
 
-  Afdeling 3. [1 Verplichting tot doorhaling.]1
+##### Afdeling 3. [1 Verplichting tot doorhaling.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1482,7 +1482,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 73, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 Gemeenschappelijke bepalingen aan de inschrijving, wijziging of doorhaling.]1
+##### Afdeling 4. [1 Gemeenschappelijke bepalingen aan de inschrijving, wijziging of doorhaling.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1522,11 +1522,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 75, 059; Inwerkingtreding : 01-11-2018>
 
-  Hoofdstuk 3. [1 Inrichting van de ondernemingsloketten.]1
+#### Hoofdstuk 3. [1 Inrichting van de ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 1. [1 Instelling en taken van de ondernemingsloketten.]1
+##### Afdeling 1. [1 Instelling en taken van de ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1575,7 +1575,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2018-04-15/14, art. 77, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 2. [1 Erkenningsvoorwaarden voor de ondernemingsloketten.]1
+##### Afdeling 2. [1 Erkenningsvoorwaarden voor de ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1656,7 +1656,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 3. [1 Verplichtingen van de ondernemingsloketten.]1
+##### Afdeling 3. [1 Verplichtingen van de ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1679,7 +1679,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 4. [1 Vergoeding van de ondernemingsloketten.]1
+##### Afdeling 4. [1 Vergoeding van de ondernemingsloketten.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1693,15 +1693,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Titel 3. [1 Algemene verplichtingen van de ondernemingen.]1
+### Titel 3. [1 Algemene verplichtingen van de ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Hoofdstuk 1. [1 Informatie, transparantie en niet-discriminatie.]1
+#### Hoofdstuk 1. [1 Informatie, transparantie en niet-discriminatie.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 1. [1 Informatie- en transparantieverplichtingen.]1
+##### Afdeling 1. [1 Informatie- en transparantieverplichtingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1771,7 +1771,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 2. [1 Niet-discriminatie van de afnemers.]1
+##### Afdeling 2. [1 Niet-discriminatie van de afnemers.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1790,7 +1790,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
-  Hoofdstuk 2. [1 Boekhouding van de ondernemingen.]1
+#### Hoofdstuk 2. [1 Boekhouding van de ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014>
 
@@ -1978,15 +1978,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 4, 007; Inwerkingtreding : 09-05-2014> (2)<W 2016-10-25/04, art. 171, 039; Inwerkingtreding : 28-11-2016> (3)<W 2018-04-15/14, art. 91, 059; Inwerkingtreding : 01-11-2018>
 
-  BOEK IV. [1 - Bescherming van de mededinging]1
+## BOEK IV. [1 - Bescherming van de mededinging]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  TITEL 1. [1 - Mededingingsregels]1
+### TITEL 1. [1 - Mededingingsregels]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  HOOFDSTUK 1. [1 - Inbreuken op het mededingingsrecht]1
+#### HOOFDSTUK 1. [1 - Inbreuken op het mededingingsrecht]1
   ----------
   (1)<W 2022-02-28/02, art. 5, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2060,7 +2060,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  HOOFDSTUK 2. [1 - Concentraties]1
+#### HOOFDSTUK 2. [1 - Concentraties]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -2173,7 +2173,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2024-03-29/39, art. 4, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 3. [1 - Overheidsondernemingen]1
+#### HOOFDSTUK 3. [1 - Overheidsondernemingen]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 ## Art. IV.12
@@ -2182,7 +2182,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  HOOFDSTUK 4. [1 - Maatregelen of beslissingen door een vreemde staat]1
+#### HOOFDSTUK 4. [1 - Maatregelen of beslissingen door een vreemde staat]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -2205,15 +2205,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  TITEL 2. [1 - Bevoegde instellingen]1
+### TITEL 2. [1 - Bevoegde instellingen]1
   ----------
   (1)<W 2024-03-29/39, art. 5, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 1. [1 - De Belgische Mededingingsautoriteit]1
+#### HOOFDSTUK 1. [1 - De Belgische Mededingingsautoriteit]1
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 1. [1 - Instelling]1
+##### Afdeling 1. [1 - Instelling]1
   ----------
   (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2244,7 +2244,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (4)<W 2022-09-25/14, art. 6, 120; Inwerkingtreding : 26-01-2023>
    (5)<W 2024-03-29/39, art. 7, 131; Inwerkingtreding : 13-05-2024>
 
-  Afdeling 2. [1 - Voorzitter en dienst van de voorzitter]1
+##### Afdeling 2. [1 - Voorzitter en dienst van de voorzitter]1
   ----------
   (1)<W 2024-03-29/39, art. 6, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2279,7 +2279,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 8, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 3. [1 - Mededingingscollege]1
+##### Afdeling 3. [1 - Mededingingscollege]1
   ----------
   (1)<W 2024-03-29/39, art. 9, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2290,7 +2290,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2024-03-29/39, art. 10, 131; Inwerkingtreding : 13-05-2024>
 
-  Onderafdeling 2.
+###### Onderafdeling 2.
 
 ## Art. IV.21
 
@@ -2320,7 +2320,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 4. [1 - Directiecomité]1
+##### Afdeling 4. [1 - Directiecomité]1
   ----------
   (1)<W 2024-03-29/39, art. 11, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2358,7 +2358,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 5. [1 - Auditeur-generaal en auditoraat]1
+##### Afdeling 5. [1 - Auditeur-generaal en auditoraat]1
   ----------
   (1)<W 2024-03-29/39, art. 13, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2425,7 +2425,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 10, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 6. [1 - Secretariaat]1
+##### Afdeling 6. [1 - Secretariaat]1
   ----------
   (1)<W 2024-03-29/39, art. 16, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2436,7 +2436,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 7. [1 - Wraking en tucht]1
+##### Afdeling 7. [1 - Wraking en tucht]1
   ----------
   (1)<W 2024-03-29/39, art. 1, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2459,7 +2459,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2024-03-29/39, art. 18, 131; Inwerkingtreding : 13-05-2024>
 
-  Afdeling 8. [1 - Beroepsgeheim, geheimhoudingsplicht en immuniteit]1
+##### Afdeling 8. [1 - Beroepsgeheim, geheimhoudingsplicht en immuniteit]1
   ----------
   (1)<W 2024-03-29/39, art. 19, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2487,7 +2487,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 11, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 6.
+###### Onderafdeling 6.
 
 ## Art. IV.34
 
@@ -2496,7 +2496,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2024-03-29/39, art. 21, 131; Inwerkingtreding : 13-05-2024>
 
-  Afdeling 9. [1 - Onverenigbaarheden en belangenconflicten]1
+##### Afdeling 9. [1 - Onverenigbaarheden en belangenconflicten]1
   ----------
   (1)<W 2024-03-29/39, art. 22, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2536,7 +2536,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2022-02-28/02, art. 14, 104; Inwerkingtreding : 17-03-2022> (2)<W 2024-03-29/39, art. 25, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 2. [1 - Bijzondere raadgevende commissie Mededinging]1
+#### HOOFDSTUK 2. [1 - Bijzondere raadgevende commissie Mededinging]1
   ----------
   (1)<W 2024-03-29/39, art. 26, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2554,15 +2554,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  TITEL 3. [1 - Handhaving van het mededingingsrecht]1
+### TITEL 3. [1 - Handhaving van het mededingingsrecht]1
   ----------
   (1)<Ingevoegd bij W 2024-03-29/39, art. 27, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 1. [1 - Procedures en beslissingen]1
+#### HOOFDSTUK 1. [1 - Procedures en beslissingen]1
   ----------
   (1)<W 2024-03-29/39, art. 28, 131; Inwerkingtreding : 13-05-2024>
 
-  Afdeling 1. [1 - Onderzoeksprocedure]1
+##### Afdeling 1. [1 - Onderzoeksprocedure]1
   ----------
   (1)<W 2024-03-29/39, art. 29, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2654,9 +2654,9 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2022-02-28/02, art. 1, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 2.
+##### Afdeling 2.
 
-  Onderafdeling 1.
+###### Onderafdeling 1.
 
 ## Art. IV.41
 
@@ -2682,7 +2682,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 22, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 2.
+###### Onderafdeling 2.
 
 ## Art. IV.42
 
@@ -2702,7 +2702,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2022-02-28/02, art. 23, 104; Inwerkingtreding : 17-03-2022>
   (3)<W 2023-11-05/07, art. 8, 123; Inwerkingtreding : 21-12-2023>
 
-  Afdeling 2. [1 - Bijzondere onderzoeksregels inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen]1
+##### Afdeling 2. [1 - Bijzondere onderzoeksregels inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen]1
   ----------
   (1)<W 2024-03-29/39, art. 30, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2730,7 +2730,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 26, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 3.
+###### Onderafdeling 3.
 
 ## Art. IV.45
 
@@ -2774,7 +2774,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 29, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 3. [1 - Beslissing inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen]1
+##### Afdeling 3. [1 - Beslissing inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen]1
   ----------
   (1)<W 2024-03-29/39, art. 32, 131; Inwerkingtreding : 13-05-2024>
 
@@ -2823,7 +2823,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 32, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 4.
+###### Onderafdeling 4.
 
 ## Art. IV.51
 
@@ -2866,7 +2866,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 4. [1 - Clementieregeling]1
+##### Afdeling 4. [1 - Clementieregeling]1
   ----------
   (1)<W 2024-03-29/39, art. 34, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3001,7 +3001,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2022-02-28/02, art. 42, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 5. [1 - Procedure inzake schikkingen]1
+##### Afdeling 5. [1 - Procedure inzake schikkingen]1
   ----------
   (1)<W 2024-03-29/39, art. 38, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3030,7 +3030,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 44, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 5.
+###### Onderafdeling 5.
 ## Art. IV.58
 
 [1 De auditeur deelt, in voorkomend geval na ontvangst van de opmerkingen van de Europese Commissie, zijn ontwerp van schikkingsbeslissing mee aan de betrokken partij of partijen. Hij stelt de termijn vast waarbinnen de betrokken partij of partijen vrijwillig een schikkingsverklaring kunnen indienen. [2 Deze termijn bedraagt ten minste twee weken.]2 De betrokken partij erkent in de schikkingsverklaring haar betrokkenheid bij de inbreuk zoals beschreven in het ontwerp van schikkingsbeslissing en haar aansprakelijkheid daarvoor. Zij aanvaardt tevens de voorgenomen boete die vermeld is in het ontwerp van schikkingsbeslissing.
@@ -3049,7 +3049,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 46, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 6.
+###### Onderafdeling 6.
 
 ## Art. IV.60
 
@@ -3072,7 +3072,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 6. [1 - Bijzondere onderzoeksregels inzake concentraties]1
+##### Afdeling 6. [1 - Bijzondere onderzoeksregels inzake concentraties]1
   ----------
   (1)<W 2024-03-29/39, art. 39, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3086,7 +3086,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2023-11-05/07, art. 9, 123; Inwerkingtreding : 21-12-2023>
 
-  Onderafdeling 8.-.
+###### Onderafdeling 8.-.
 
 ## Art. IV.64
 
@@ -3100,7 +3100,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
    (2)<W 2022-02-28/02, art. 47, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 7. [1 - Beslissing inzake concentraties]1
+##### Afdeling 7. [1 - Beslissing inzake concentraties]1
   ----------
   (1)<W 2024-03-29/39, art. 40, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3146,7 +3146,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (2)<W 2021-02-02/06, art. 3, 096; Inwerkingtreding : 21-02-2021>
    (3)<W 2022-02-28/02, art. 49, 104; Inwerkingtreding : 17-03-2022>
 
-  Onderafdeling 10.
+###### Onderafdeling 10.
 
 ## Art. IV.67
 
@@ -3202,9 +3202,9 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 51, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 3.
+##### Afdeling 3.
 
-  Afdeling 8. [1 - Onderzoek en beslissing tijdens een vereenvoudigde procedure bij concentraties]1
+##### Afdeling 8. [1 - Onderzoek en beslissing tijdens een vereenvoudigde procedure bij concentraties]1
   ----------
   (1)<W 2024-03-29/39, art. 40, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3223,7 +3223,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 52, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 9. [1 - Voorlopige maatregelen]1
+##### Afdeling 9. [1 - Voorlopige maatregelen]1
   ----------
   (1)<W 2024-03-29/39, art. 42, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3269,7 +3269,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 55, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 10. [1 - Kennisgeving en bekendmaking]1
+##### Afdeling 10. [1 - Kennisgeving en bekendmaking]1
   ----------
   (1)<W 2024-03-29/39, art. 43, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3284,7 +3284,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
   (2)<W 2022-02-28/02, art. 56, 104; Inwerkingtreding : 17-03-2022>
 
-  HOOFDSTUK 2.
+#### HOOFDSTUK 2.
 
 ## Art. IV.75
 
@@ -3298,7 +3298,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2022-02-28/02, art. 57, 104; Inwerkingtreding : 17-03-2022>
   (3)<W 2022-09-25/14, art. 9, 120; Inwerkingtreding : 26-01-2023>
 
-   Afdeling 11. [1 - Samenwerking met de Europese Commissie en de mededingingsautoriteiten van de andere lidstaten van de Europese Unie]1
+##### Afdeling 11. [1 - Samenwerking met de Europese Commissie en de mededingingsautoriteiten van de andere lidstaten van de Europese Unie]1
    ----------
    (1)<W 2024-03-29/39, art. 44, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3412,7 +3412,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2022-02-28/02, art. 65, 104; Inwerkingtreding : 17-03-2022>
 
-  Afdeling 12. [1 - Administratieve geldboeten en dwangsommen]1
+##### Afdeling 12. [1 - Administratieve geldboeten en dwangsommen]1
   ----------
   (1)<W 2024-03-29/39, art. 46, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3430,7 +3430,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<KB 2020-07-31/11, art. 4, 088; Inwerkingtreding : 22-08-2020>
    (2)<W 2022-02-28/02, art. 66, 104; Inwerkingtreding : 17-03-2022>
 
-  HOOFDSTUK 4.
+#### HOOFDSTUK 4.
 
 ## Art. IV.80
 
@@ -3499,7 +3499,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  HOOFDSTUK 2. [1 - Prejudiciële vragen, tussenkomsten als amicus curiae en vonnissen en arresten betreffende [2 inbreuken op het mededingingsrecht]2]1
+#### HOOFDSTUK 2. [1 - Prejudiciële vragen, tussenkomsten als amicus curiae en vonnissen en arresten betreffende [2 inbreuken op het mededingingsrecht]2]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> (2)<W 2022-02-28/02, art. 71, 104; Inwerkingtreding : 17-03-2022>
 
@@ -3538,7 +3538,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> (2)<W 2024-03-29/39, art. 47, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 3. [1 - Beroep]1
+#### HOOFDSTUK 3. [1 - Beroep]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -3587,7 +3587,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> (2)<W 2021-02-02/06, art. 6, 096; Inwerkingtreding : 21-02-2021> (3)<W 2022-02-28/02, art. 73, 104; Inwerkingtreding : 17-03-2022> (4)<W 2024-03-29/39, art. 48, 131; Inwerkingtreding : 13-05-2024>
 
-  HOOFDSTUK 4. [1 - Verjaring]1
+#### HOOFDSTUK 4. [1 - Verjaring]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -3623,7 +3623,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> (2)<W 2022-02-28/02, art. 74, 104; Inwerkingtreding : 17-03-2022>
 
-  HOOFDSTUK 5. [1 - Taalgebruik]1
+#### HOOFDSTUK 5. [1 - Taalgebruik]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -3646,7 +3646,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> (2)<W 2021-02-02/06, art. 7, 096; Inwerkingtreding : 21-02-2021> (3)<W 2022-02-28/02, art. 75, 104; Inwerkingtreding : 17-03-2022>
 
-  HOOFDSTUK 6. [1 - Overige bepalingen]1
+#### HOOFDSTUK 6. [1 - Overige bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -3669,7 +3669,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
-  TITEL 4. [1 - Toepassing van Verordening (EU) 2022/1925]1
+### TITEL 4. [1 - Toepassing van Verordening (EU) 2022/1925]1
   ----------
   (1)<Ingevoegd bij W 2024-03-29/39, art. 49, 131; Inwerkingtreding : 13-05-2024>
 
@@ -3726,11 +3726,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2024-03-29/39, art. 56, 131; Inwerkingtreding : 13-05-2024>
 
-  BOEK V. - [1 De mededinging en de prijsevoluties]1
+## BOEK V. - [1 De mededinging en de prijsevoluties]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  TITEL 1. - [1 Algemene bepalingen]1
+### TITEL 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
@@ -3809,11 +3809,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
 
-  TITEL 2. - [1 Prijsvaststelling van geneesmiddelen en gelijkgestelden]1
+### TITEL 2. - [1 Prijsvaststelling van geneesmiddelen en gelijkgestelden]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
-  HOOFDSTUK 1. - [1 Toepassingsgebied]1
+#### HOOFDSTUK 1. - [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
@@ -3826,7 +3826,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
-  HOOFDSTUK 2. - [1 Beslissingen tot prijsvaststelling]1
+#### HOOFDSTUK 2. - [1 Beslissingen tot prijsvaststelling]1
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1>
 
@@ -3886,7 +3886,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-04-03/18, art. 5,002; Inwerkingtreding : 01-07-2014; zie KB 2014-04-10/84, art. 1> (2)<W 2013-12-26/09, art. 9, 026; Inwerkingtreding : onbepaald> (3)<W 2024-02-09/19, art. 16, 129; Inwerkingtreding : 31-03-2024>
 
-  TITEL 3. [1 - Observatorium voor de farmaceutische industrie]1
+### TITEL 3. [1 - Observatorium voor de farmaceutische industrie]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 3, 135; Inwerkingtreding : 10-06-2024>
 
@@ -3919,11 +3919,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 4, 135; Inwerkingtreding : 10-06-2024>
 
-  Boek VI. [1 Marktpraktijken en consumentenbescherming]1
+## Boek VI. [1 Marktpraktijken en consumentenbescherming]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  TITEL 1. - [1 Algemene principes]1
+### TITEL 1. - [1 Algemene principes]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -3946,11 +3946,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018> (3)<W 2020-09-29/05, art. 2, 092; Inwerkingtreding : 30-11-2020>
 
-  TITEL 2. - [1 Informatie van de markt]1
+### TITEL 2. - [1 Informatie van de markt]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 1. - [1 Algemene verplichting tot informatie van de consument]1
+#### HOOFDSTUK 1. - [1 Algemene verplichting tot informatie van de consument]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -3982,7 +3982,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2022-05-08/01, art. 9, 107; Inwerkingtreding : 28-05-2022>
 
-  HOOFDSTUK 2. - [1 Prijsaanduiding]1
+#### HOOFDSTUK 2. - [1 Prijsaanduiding]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4082,7 +4082,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 17, 129; Inwerkingtreding : 31-03-2024>
 
-  HOOFDSTUK 3. - [1 Benaming, samenstelling en etikettering van goederen en diensten]1
+#### HOOFDSTUK 3. - [1 Benaming, samenstelling en etikettering van goederen en diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4118,7 +4118,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 4. - [1 Aanduiding van de hoeveelheid]1
+#### HOOFDSTUK 4. - [1 Aanduiding van de hoeveelheid]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4169,7 +4169,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 5. - [1 Vergelijkende reclame]1
+#### HOOFDSTUK 5. - [1 Vergelijkende reclame]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4188,11 +4188,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2019-04-04/53, art. 12, 080; Inwerkingtreding : 01-12-2020>
 
-  HOOFDSTUK 6. - [1 Promoties inzake prijzen]1
+#### HOOFDSTUK 6. - [1 Promoties inzake prijzen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 1. [1 Aankondigingen van prijsverminderingen.]1
+##### Afdeling 1. [1 Aankondigingen van prijsverminderingen.]1
   ----------
   (1)<W 2022-05-08/01, art. 10, 107; Inwerkingtreding : 28-05-2022>
 
@@ -4216,7 +4216,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 
 ## Art. VI.21.
 
-  Afdeling 2. - [1 Uitverkopen]1
+##### Afdeling 2. - [1 Uitverkopen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4251,7 +4251,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2015-10-26/06, art. 8, 028; Inwerkingtreding : 09-11-2015> (3)<W 2020-05-27/03, art. 3, 085; Inwerkingtreding : 18-03-2020>
 
 ## Art. VI.24.
-  Afdeling 3. - [1 Opruimingen of solden]1
+##### Afdeling 3. - [1 Opruimingen of solden]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4303,7 +4303,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 4. - [1 Titels die recht geven op terugbetaling of prijsvermindering]1
+##### Afdeling 4. - [1 Titels die recht geven op terugbetaling of prijsvermindering]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4337,7 +4337,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 7. - [1 Diverse bepalingen]1
+#### HOOFDSTUK 7. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4363,11 +4363,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 
 ## Art. VI.36.
 
-  TITEL 3. - [1 Overeenkomsten met consumenten]1
+### TITEL 3. - [1 Overeenkomsten met consumenten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 1. - [1 Algemene bepalingen]1
+#### HOOFDSTUK 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4432,11 +4432,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2022-05-08/01, art. 14, 107; Inwerkingtreding : 28-05-2022>
 
-  HOOFDSTUK 2. - [1 Overeenkomsten op afstand]1
+#### HOOFDSTUK 2. - [1 Overeenkomsten op afstand]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 1. - [1 Overeenkomsten op afstand die geen betrekking hebben op financiële diensten]1
+##### Afdeling 1. - [1 Overeenkomsten op afstand die geen betrekking hebben op financiële diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4497,8 +4497,8 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 [1 § 1. Onverminderd de overige verplichtingen die worden opgelegd door deze afdeling biedt de onderneming aan de consument, voordat de consument door een overeenkomst op afstand gebonden is, minstens twee verschillende leveringswijzen voor de goederen die hij te koop aanbiedt.
    Deze bepaling is enkel van toepassing op overeenkomsten waarbij de levering van de bestelde goederen op Belgisch grondgebied plaatsvindt.
    § 2. Paragraaf 1 is niet van toepassing indien er objectieve redenen eigen aan de aangekochte goederen of eigen aan de plaats waar de aangekochte goederen geleverd of gebruikt zijn om slechts één leveringswijze aan te bieden. In dat geval verstrekt de onderneming objectieve informatie over de reden waarom aan de consument geen tweede leveringswijze wordt aangeboden.
-   Paragraaf 1 is niet van toepassing indien de enige aangeboden leveringswijze bestaat in het ophalen van het bestelde goed in een vestigingseenheid van de onderneming.
-   Paragraaf 1 is niet van toepassing op ondernemingen die minder dan drie jaar geleden zijn opgericht.
+###### Paragraaf 1 is niet van toepassing indien de enige aangeboden leveringswijze bestaat in het ophalen van het bestelde goed in een vestigingseenheid van de onderneming.
+###### Paragraaf 1 is niet van toepassing op ondernemingen die minder dan drie jaar geleden zijn opgericht.
    De Koning kan na beraadslaging in Ministerraad de goederen of de categorieën van goederen aanwijzen waarvoor paragraaf 1 niet van toepassing is.
    § 3. Vier jaar na de datum van inwerkingtreding evalueert de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie de toepassing van deze bepaling. Het verslag van deze evaluatie wordt overgemaakt aan de minister, de minister bevoegd voor Middenstand, de minister bevoegd voor Consumenten, en de minister bevoegd voor Post.]1
   ----------
@@ -4622,7 +4622,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2014-04-02/21, art. 6, 014; Inwerkingtreding : 31-05-2014> (3)<W 2022-05-08/01, art. 21, 107; Inwerkingtreding : 28-05-2022>
 
-  Afdeling 2. - [1 Overeenkomsten op afstand met betrekking tot financiële diensten]1
+##### Afdeling 2. - [1 Overeenkomsten op afstand met betrekking tot financiële diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4738,7 +4738,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 3. - [1 Aan dit hoofdstuk gemene bepalingen]1
+##### Afdeling 3. - [1 Aan dit hoofdstuk gemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4758,7 +4758,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 3. - [1 Buiten verkoopruimten gesloten overeenkomsten]1
+#### HOOFDSTUK 3. - [1 Buiten verkoopruimten gesloten overeenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4929,7 +4929,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 4. - [1 Openbare verkoop]1
+#### HOOFDSTUK 4. - [1 Openbare verkoop]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4972,7 +4972,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 5. - [1 Gezamenlijk aanbod]1
+#### HOOFDSTUK 5. - [1 Gezamenlijk aanbod]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -4998,7 +4998,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 6. - [1 Onrechtmatige bedingen]1
+#### HOOFDSTUK 6. - [1 Onrechtmatige bedingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5100,7 +5100,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<KB 2017-12-13/13, art. 10, 055; Inwerkingtreding : 01-01-2018>
 
-  HOOFDSTUK 7. - [1 Bestelbon]1
+#### HOOFDSTUK 7. - [1 Bestelbon]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5112,7 +5112,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 8. - [1 Bewijsstukken]1
+#### HOOFDSTUK 8. - [1 Bewijsstukken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5135,7 +5135,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 9. - [1 Verlenging van overeenkomsten]1
+#### HOOFDSTUK 9. - [1 Verlenging van overeenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5255,15 +5255,15 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 23, 080; Inwerkingtreding : 01-12-2020>
 
-  TITEL 4. - [1 Verboden praktijken]1
+### TITEL 4. - [1 Verboden praktijken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 1. - [1 Oneerlijke handelspraktijken jegens consumenten]1
+#### HOOFDSTUK 1. - [1 Oneerlijke handelspraktijken jegens consumenten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 1. - [1 Toepassingsgebied]1
+##### Afdeling 1. - [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5273,7 +5273,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2017-04-18/03, art. 6, 046; Inwerkingtreding : 04-05-2017>
 
-  Afdeling 2. - [1 Oneerlijke handelspraktijken]1
+##### Afdeling 2. - [1 Oneerlijke handelspraktijken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5306,7 +5306,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2020-09-29/05, art. 3, 092; Inwerkingtreding : 30-11-2020>
 
-  Afdeling 3. - [1 Misleidende handelspraktijken]1
+##### Afdeling 3. - [1 Misleidende handelspraktijken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5385,7 +5385,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2022-05-08/01, art. 31, 107; Inwerkingtreding : 28-05-2022>
 
-  Afdeling 4. - [1 Agressieve handelspraktijken]1
+##### Afdeling 4. - [1 Agressieve handelspraktijken]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5423,7 +5423,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 2. [1 Oneerlijke marktpraktijken tussen ondernemingen]1
+#### HOOFDSTUK 2. [1 Oneerlijke marktpraktijken tussen ondernemingen]1
   ----------
   (1)<W 2019-04-04/53, art. 24, 080; Inwerkingtreding : 01-09-2019>
 
@@ -5433,7 +5433,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 25, 080; Inwerkingtreding : 01-09-2019>
 
-  Afdeling 1. [1 Oneerlijke marktpraktijken]1
+##### Afdeling 1. [1 Oneerlijke marktpraktijken]1
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 26, 080; Inwerkingtreding : 01-09-2019>
 
@@ -5452,7 +5452,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 27, 080; Inwerkingtreding : 01-09-2019>
 
-  Afdeling 2. [1 Misleidende marktpraktijken]1
+##### Afdeling 2. [1 Misleidende marktpraktijken]1
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 28, 080; Inwerkingtreding : 01-09-2019>
 
@@ -5503,7 +5503,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2018-07-30/47, art. 9, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 3. [1 Agressieve marktpraktijken]1
+##### Afdeling 3. [1 Agressieve marktpraktijken]1
   ----------
   (1)<Ingevoegd bij W 2019-04-04/53, art. 32, 080; Inwerkingtreding : 01-09-2019>
 
@@ -5535,7 +5535,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2019-04-04/53, art. 31, 080; Inwerkingtreding : 01-09-2019>
 
-  Afdeling 4. [1 Oneerlijke marktpraktijken tussen ondernemingen in de landbouw- en voedselvoorzieningsketen]1
+##### Afdeling 4. [1 Oneerlijke marktpraktijken tussen ondernemingen in de landbouw- en voedselvoorzieningsketen]1
   ----------
   (1)<Ingevoegd bij W 2021-11-28/08, art. 4, 102; Inwerkingtreding : 25-12-2021>
 
@@ -5609,7 +5609,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2021-11-28/08, art. 9, 102; Inwerkingtreding : 25-12-2021>
 
-  HOOFDSTUK 3. - [1 Ongewenste communicaties]1
+#### HOOFDSTUK 3. - [1 Ongewenste communicaties]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5665,7 +5665,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 4. - [1 Verkoop met verlies]1
+#### HOOFDSTUK 4. - [1 Verkoop met verlies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5688,7 +5688,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  TITEL 5. - [1 Collectieve consumentenovereenkomsten]1
+### TITEL 5. - [1 Collectieve consumentenovereenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5745,7 +5745,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-  TITEL 6. - [1 Bijzondere regels inzake geregistreerde benamingen]1
+### TITEL 6. - [1 Bijzondere regels inzake geregistreerde benamingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5788,7 +5788,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
-  TITEL 7. - [1 Slotbepalingen]1
+### TITEL 7. - [1 Slotbepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -5839,11 +5839,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014> (2)<W 2022-05-08/01, art. 33, 107; Inwerkingtreding : 28-05-2022>
 
-  BOEK VII. - [1 BETALINGS- EN KREDIETDIENSTEN.]1
+## BOEK VII. - [1 BETALINGS- EN KREDIETDIENSTEN.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
 
-  TITEL 1. - [1 Algemene principes.]1
+### TITEL 1. - [1 Algemene principes.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald>
 ## Art. VII.1
@@ -5858,16 +5858,16 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : onbepaald> (2)<W 2016-06-29/01, art. 9, 036; Inwerkingtreding : 16-07-2016> (3)<W 2016-04-22/01, art. 3, 038; Inwerkingtreding : 01-12-2016> (4)<W 2017-12-22/14, art. 3, 057; Inwerkingtreding : 01-02-2018> (5)<W 2018-07-19/09, art. 3, 063; Inwerkingtreding : 09-08-2018> (6)<W 2018-04-15/14, art. 97, 059; Inwerkingtreding : 01-11-2018> (7)<W 2023-11-05/07, art. 13, 123; Inwerkingtreding : 21-12-2023>
 
-  TITEL 2. [1 – Toepassingsgebied.]1
+### TITEL 2. [1 – Toepassingsgebied.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
 ## Art. VII.2
 
 [1 § 1. [5 [6 Titels 3, 5, 6 en 7 van dit boek]6 zijn van toepassing op betalingstransacties in de valuta van een lidstaat waarbij zowel de betalingsdienstaanbieder van de betaler als de betalingsdienstaanbieder van de begunstigde allebei in een lidstaat zijn gevestigd, of waarbij de enige bij de betalingstransactie betrokken betalingsdienstaanbieder zich in een lidstaat bevindt.
-   Hoofdstuk 2. van titel 3 van dit boek, met uitzondering van de artikelen VII.15, § 1, 2°, VII.22, 2°, e), en VII.26,
+#### Hoofdstuk 2. van titel 3 van dit boek, met uitzondering van de artikelen VII.15, § 1, 2°, VII.22, 2°, e), en VII.26,
  1°, en de hoofdstukken 3 tot 6 van titel 3, met uitzondering van de artikelen VII.51 tot VII.55, zijn, met betrekking tot de delen van de betalingstransactie die binnen een lidstaat worden uitgevoerd, van toepassing op betalingstransacties in valuta's van niet-lidstaten waarbij zowel de betalingsdienstaanbieder van de betaler als de betalingsdienstaanbieder van de begunstigde allebei in een lidstaat zijn gevestigd, of waarbij de enige bij de betalingstransactie betrokken betalingsdienstaanbieder zich in een lidstaat bevindt.
-   Hoofdstuk 2. van titel 3 van dit boek, met uitzondering van de artikelen VII.15, § 1, 2° ), VII.22, 2°, e), VII.22,
+#### Hoofdstuk 2. van titel 3 van dit boek, met uitzondering van de artikelen VII.15, § 1, 2° ), VII.22, 2°, e), VII.22,
  5°, g), en VII.26, 1°, en het hoofdstuk 3 van titel 3 van dit boek, met uitzondering van de artikelen VII.30, §§ 2 en 4, VII.46, VII.47, VII.51, VII.53, § 1, [7 ...]7 VII.55/3 en VII.55/8, zijn van toepassing op betalingstransacties in alle valuta waarbij slechts een van de betalingsdienstaanbieders zich in een lidstaat bevindt, met betrekking tot de delen van de betalingstransactie die binnen een lidstaat worden uitgevoerd.
    De hoofdstukken 2 tot 6 van titel 3 van dit boek, met uitzondering van de artikelen VII.8, VII.15, VII.18, VII.22, VII.36, VII.38 en VII.55/10, zijn niet van toepassing op de aanbieders van rekeninginformatiediensten.
    Hoofdstuk 9/1. van titel 3 van dit boek, is, met uitzondering van artikel VII.62/3, van toepassing indien de overdragende en de ontvangende betalingsdienstaanbieder in België gevestigd zijn. Het artikel VII.62/3 is alleen van toepassing wanneer de overdragende betalingsdienstaanbieder in België is gevestigd.
@@ -5882,10 +5882,10 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    § 2. [6 Titels 4 tot 6 en 7 van dit boek]6 zijn van toepassing op de kredietovereenkomsten gesloten met een consument die [8 op de datum van het sluiten van de kredietovereenkomst]8 in België zijn gewone verblijfplaats heeft, op voorwaarde dat
    1° de kredietgever zijn commerciële of beroepsactiviteiten ontplooit in België, of
    2° dergelijke activiteiten met ongeacht welke middelen richt op België of op verscheidene landen, met inbegrip van België, en de overeenkomst onder die activiteiten valt.
-   Hoofdstuk 1 van titel 4 is enkel van toepassing op het consumentenkrediet.
-   Hoofdstuk 2 van titel 4 is enkel van toepassing op het hypothecair krediet.
-   Hoofdstuk 2 van titel 5 is enkel van toepassing op het consumentenkrediet.
-   Hoofdstuk 3 van titel 5 is enkel van toepassing op het hypothecair krediet.
+#### Hoofdstuk 1 van titel 4 is enkel van toepassing op het consumentenkrediet.
+#### Hoofdstuk 2 van titel 4 is enkel van toepassing op het hypothecair krediet.
+#### Hoofdstuk 2 van titel 5 is enkel van toepassing op het consumentenkrediet.
+#### Hoofdstuk 3 van titel 5 is enkel van toepassing op het hypothecair krediet.
    [8 § 2/1. De artikelen VII.148, § 1, eerste lid, 2° en 3°, tweede lid, en §§ 2 en 3, VII.149, § 2, en VII.150 tot VII.155, zijn van toepassing op kredietovereenkomsten waarbij geen enkele van de betrokken consumenten zijn gewone verblijfplaats in België heeft op de datum van het sluiten van de kredietovereenkomst, met een kredietgever die zijn beroepsactiviteit uitoefent in België, of dergelijke activiteiten met ongeacht welke middelen richt op België of op verscheidene landen, met inbegrip van België, en de overeenkomst onder die activiteiten valt.]8
    § 3. Niettegenstaande de bepalingen van §§ 1 en 2 kunnen partijen, overeenkomstig artikel 3 van Verordening (EG) nr. 593/2008 van het Europees Parlement en de Raad van 17 juni 2008 inzake het recht dat van toepassing is op verbintenissen uit overeenkomst (Rome I), het recht kiezen dat van toepassing is op een overeenkomst die voldoet aan de voorwaarden van artikel 6, lid 1 van deze Verordening. Deze keuze mag er evenwel niet toe leiden dat de consument de bescherming verliest welke hij geniet op grond van bepalingen waarvan niet bij overeenkomst kan worden afgeweken volgens de toepasselijke Belgische regelgeving bij gebreke van rechtskeuze.
    § 4. Onverminderd de bepalingen van de [5 artikelen VII.5, VII.29]5 en VII. 194 tot VII. 208, is elk met de bepalingen van dit boek en van zijn uitvoeringsbesluiten strijdig beding verboden en nietig van rechtswege voor zover het ertoe strekt de rechten van de consument of van de betalingsdienstgebruiker in te perken of zijn verplichtingen te verzwaren.
@@ -5975,11 +5975,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)> (2)<W 2015-10-26/06, art. 13, 028; Inwerkingtreding : 09-11-2015> (3)<W 2016-06-29/01, art. 11, 036; Inwerkingtreding : 16-07-2016> (4)<W 2016-10-25/04, art. 173, 039; Inwerkingtreding : 28-11-2016> (5)<W 2018-07-19/09, art. 5, 063; Inwerkingtreding : 09-08-2018> (6)<W 2018-07-30/47, art. 10, 065; Inwerkingtreding : 15-09-2018> (7)<W 2018-04-15/14, art. 99, 059; Inwerkingtreding : 01-11-2018> (8)<W 2020-05-27/02, art. 2, 084; Inwerkingtreding : 01-05-2020; Opheffing : 31-01-2021> (9)<W 2021-02-02/06, art. 8, 096; Inwerkingtreding : 01-02-2021> (10)<W 2023-07-31/04, art. 3, 130; Inwerkingtreding : 01-01-2024> (11)<W 2026-04-02/04, art. 11, 144; Inwerkingtreding : 01-01-2026>
 
-  TITEL 3. [1 – Betalingsdiensten.]1
+### TITEL 3. [1 – Betalingsdiensten.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
-  HOOFDSTUK 1. - [1 Inleidende bepaling.]1
+#### HOOFDSTUK 1. - [1 Inleidende bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
@@ -6093,11 +6093,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2024-05-03/21, art. 7, 135; Inwerkingtreding : 31-12-2025>
 
-  HOOFDSTUK 2. [1 Informatie en voorwaarden die de betalingstransacties en raamcontracten beheersen]1
+#### HOOFDSTUK 2. [1 Informatie en voorwaarden die de betalingstransacties en raamcontracten beheersen]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 1. - [1 Algemene regels]1
+##### Afdeling 1. - [1 Algemene regels]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6168,11 +6168,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2021-02-02/06, art. 10, 096; Inwerkingtreding : 21-02-2021>
 
-  Afdeling 2. - [1 Eenmalige betalingstransacties]1
+##### Afdeling 2. - [1 Eenmalige betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 1. - [1 Toepassingsgebied]1
+###### Onderafdeling 1. - [1 Toepassingsgebied]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6182,7 +6182,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1
+###### Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6216,7 +6216,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-   Onderafdeling 3. - [1 Informatie na initiëring of ontvangst van een betalingsopdracht en na uitvoering van de transactie]1
+###### Onderafdeling 3. - [1 Informatie na initiëring of ontvangst van een betalingsopdracht en na uitvoering van de transactie]1
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6258,11 +6258,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 3. - [1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties]1
+##### Afdeling 3. - [1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 1. - [1 Toepassingsgebied]1
+###### Onderafdeling 1. - [1 Toepassingsgebied]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6272,7 +6272,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1
+###### Onderafdeling 2. - [1 Voorafgaande informatie en voorwaarden]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6332,7 +6332,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 3. - [1 Wijziging van de voorwaarden en opzegging van het raamcontract]1
+###### Onderafdeling 3. - [1 Wijziging van de voorwaarden en opzegging van het raamcontract]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6358,7 +6358,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 4. - [1 Afzonderlijke betalingstransacties]1
+###### Onderafdeling 4. - [1 Afzonderlijke betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6397,11 +6397,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 3. - [1 Rechten en plichten met betrekking tot het aanbieden en het gebruik van betalingsdiensten]1
+#### HOOFDSTUK 3. - [1 Rechten en plichten met betrekking tot het aanbieden en het gebruik van betalingsdiensten]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 1. - [1 Algemene regels]1
+##### Afdeling 1. - [1 Algemene regels]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6435,11 +6435,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 2. - [1 Toestaan van betalingstransacties]1
+##### Afdeling 2. - [1 Toestaan van betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 1. - [1 Instemming met de uitvoering van betalingsopdrachten en bevestiging betreffende de beschikbaarheid van geldmiddelen]1
+###### Onderafdeling 1. - [1 Instemming met de uitvoering van betalingsopdrachten en bevestiging betreffende de beschikbaarheid van geldmiddelen]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6480,7 +6480,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-   Onderafdeling 2. - [1 Regels voor de toegang tot betaalrekeningen en voor de toegang tot en het gebruik van informatie over betaalrekeningen]1
+###### Onderafdeling 2. - [1 Regels voor de toegang tot betaalrekeningen en voor de toegang tot en het gebruik van informatie over betaalrekeningen]1
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6502,7 +6502,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 3. - [1 Restricties op het gebruik van betaalinstrumenten en op de toegang tot betaalrekeningen door betalingsdienstaanbieders]1
+###### Onderafdeling 3. - [1 Restricties op het gebruik van betaalinstrumenten en op de toegang tot betaalrekeningen door betalingsdienstaanbieders]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6519,7 +6519,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 4. - [1 Plichten met betrekking tot betaalinstrumenten en persoonlijke beveiligingsgegevens]1
+###### Onderafdeling 4. - [1 Plichten met betrekking tot betaalinstrumenten en persoonlijke beveiligingsgegevens]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6552,7 +6552,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 5. - [1 Kennisgeving en rectificatie van niet-toegestane of onjuist uitgevoerde betalingstransacties]1
+###### Onderafdeling 5. - [1 Kennisgeving en rectificatie van niet-toegestane of onjuist uitgevoerde betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6573,7 +6573,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 6. - [1 Aansprakelijkheid van de betalingsdienstaanbieder voor niet-toegestane betalingstransacties]1
+###### Onderafdeling 6. - [1 Aansprakelijkheid van de betalingsdienstaanbieder voor niet-toegestane betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6614,7 +6614,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 7. - [1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd]1
+###### Onderafdeling 7. - [1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6642,11 +6642,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 3. - [1 Uitvoering van betalingstransacties]1
+##### Afdeling 3. - [1 Uitvoering van betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 1. - [1 Betalingsopdrachten en overgemaakte bedragen]1
+###### Onderafdeling 1. - [1 Betalingsopdrachten en overgemaakte bedragen]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6691,7 +6691,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Onderafdeling 2. - [1 Uitvoeringstermijn en valutadatum]1
+###### Onderafdeling 2. - [1 Uitvoeringstermijn en valutadatum]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6740,7 +6740,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  Afdeling 4. - [1 Aansprakelijkheid in geval van onjuiste unieke identificatoren, niet-uitvoering, gebrekkige uitvoering of niet-tijdige uitvoering van betalingstransacties]1
+##### Afdeling 4. - [1 Aansprakelijkheid in geval van onjuiste unieke identificatoren, niet-uitvoering, gebrekkige uitvoering of niet-tijdige uitvoering van betalingstransacties]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6821,7 +6821,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 4. - [1 Melding van incidenten]1
+#### HOOFDSTUK 4. - [1 Melding van incidenten]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6832,7 +6832,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
    (2)<W 2021-02-02/06, art. 11, 096; Inwerkingtreding : 21-02-2021>
 
-  HOOFDSTUK 5. - [1 Geschillenbeslechting en procedures betreffende buitengerechtelijke regeling in het kader van de wet van 11 maart 2018]1
+#### HOOFDSTUK 5. - [1 Geschillenbeslechting en procedures betreffende buitengerechtelijke regeling in het kader van de wet van 11 maart 2018]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6842,7 +6842,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 6. - [1 Toegang tot rekeningen bij een kredietinstelling]1
+#### HOOFDSTUK 6. - [1 Toegang tot rekeningen bij een kredietinstelling]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6853,7 +6853,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 7. - [1 Geschillenbeslechting]1
+#### HOOFDSTUK 7. - [1 Geschillenbeslechting]1
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -6880,7 +6880,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 8. [1 - Toegang tot betaalrekeningen en basisbankdienst]1
+#### HOOFDSTUK 8. [1 - Toegang tot betaalrekeningen en basisbankdienst]1
   ----------
   (1)<W 2017-12-22/14, art. 11, 057; Inwerkingtreding : 01-02-2018>
 
@@ -6890,7 +6890,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2017-12-22/14, art. 12, 057; Inwerkingtreding : 01-02-2018>
 
-  Afdeling 1. [1 Betaalrekeningen en basisbankdienst voor consumenten" ]1
+##### Afdeling 1. [1 Betaalrekeningen en basisbankdienst voor consumenten" ]1
   ----------
   (1)<Ingevoegd bij W 2020-11-08/04, art. 2, 098; Inwerkingtreding : 01-05-2021>
 
@@ -6982,7 +6982,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 
   (2)<W 2024-05-03/21, art. 11, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 2. [1 Basisbankdienst voor ondernemingen [2 en diplomatieke zendingen]2]1
+##### Afdeling 2. [1 Basisbankdienst voor ondernemingen [2 en diplomatieke zendingen]2]1
   ----------
   (1)<Ingevoegd bij W 2020-11-08/04, art. 3, 098; Inwerkingtreding : 01-05-2021> (2)<W 2022-09-25/14, art. 12, 120; Inwerkingtreding : 26-01-2023>
 
@@ -7203,7 +7203,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2022-09-25/14, art. 19, 120; Inwerkingtreding : 26-01-2023> (2)<W 2023-11-05/07, art. 16, 123; Inwerkingtreding : 21-12-2023>
 
-  HOOFDSTUK 9. - [1 Uitgifte en terugbetaalbaarheid van elektronisch geld en verbod op rente.]1
+#### HOOFDSTUK 9. - [1 Uitgifte en terugbetaalbaarheid van elektronisch geld en verbod op rente.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
@@ -7343,7 +7343,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2017-12-22/14, art. 26, 057; Inwerkingtreding : 01-02-2018>
 
-  HOOFDSTUK 10. [1 – Gegevensbescherming.]1
+#### HOOFDSTUK 10. [1 – Gegevensbescherming.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)>
 
@@ -7357,7 +7357,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB2014-04-19/40, art. 1)> (2)<W 2018-07-19/09, art. 11, 063; Inwerkingtreding : 09-08-2018>
 
-  HOOFDSTUK 11. [1 - Afwikkelingsvergoedingen]1
+#### HOOFDSTUK 11. [1 - Afwikkelingsvergoedingen]1
   ----------
   (1)<Ingevoegd bij W 2016-06-29/01, art. 12, 036; Inwerkingtreding : 16-07-2016>
 
@@ -7384,23 +7384,23 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2016-12-01/12, art. 3, 040; Inwerkingtreding : 25-12-2016>
 
-  TITEL 4. [1 – Kredietovereenkomsten.]1
+### TITEL 4. [1 – Kredietovereenkomsten.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  HOOFDSTUK 1. [1 – Consumentenkrediet.]1
+#### HOOFDSTUK 1. [1 – Consumentenkrediet.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 1. [1 – Kredietpromotie.]1
+##### Afdeling 1. [1 – Kredietpromotie.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
 
  2)>
 
-  Onderafdeling 1. [1 – Reclame.]1
+###### Onderafdeling 1. [1 – Reclame.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7448,7 +7448,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 
 ## Art. VII.66.
 
-  Onderafdeling 2. - [1 Leuren]1
+###### Onderafdeling 2. - [1 Leuren]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7466,7 +7466,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 3. - [1 Promotieaanbiedingen]1
+###### Onderafdeling 3. - [1 Promotieaanbiedingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7478,12 +7478,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 2. - [1 Totstandkoming van de kredietovereenkomst.]1
+##### Afdeling 2. - [1 Totstandkoming van de kredietovereenkomst.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.]1
+###### Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7500,7 +7500,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 2. - [1 Precontractuele informatie]1
+###### Onderafdeling 2. - [1 Precontractuele informatie]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7578,7 +7578,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2015-10-26/06, art. 16, 028; Inwerkingtreding : 09-11-2015>
 
-  Onderafdeling 3. - [1 Plicht tot bijzondere informatieverstrekking van de kredietbemiddelaar]1
+###### Onderafdeling 3. - [1 Plicht tot bijzondere informatieverstrekking van de kredietbemiddelaar]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7591,7 +7591,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 4. - [1 Passende toelichtingen]1
+###### Onderafdeling 4. - [1 Passende toelichtingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7604,7 +7604,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 5. - [1 Raadgevingsverbintenissen]1
+###### Onderafdeling 5. - [1 Raadgevingsverbintenissen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7616,7 +7616,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 6. - [1 Onderzoeksplicht]1
+###### Onderafdeling 6. - [1 Onderzoeksplicht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7645,7 +7645,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2016-04-22/01, art. 7, 038; Inwerkingtreding : 01-12-2016>
   (3)<W 2017-04-18/03, art. 8, 046; Inwerkingtreding : 04-05-2017>
 
-  Onderafdeling 7. - [1 Sluiten van de kredietovereenkomst]1
+###### Onderafdeling 7. - [1 Sluiten van de kredietovereenkomst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7702,7 +7702,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2015-10-26/06, art. 17, 028; Inwerkingtreding : 09-11-2015>
   (3)<W 2016-07-21/40, art. 29, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)> (4)<W 2016-04-22/01, art. 8, 038; Inwerkingtreding : 01-12-2016> (5)<W 2017-04-18/03, art. 9, 046; Inwerkingtreding : 04-05-2017> (6)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 8. - [1 Kredietweigering]1
+###### Onderafdeling 8. - [1 Kredietweigering]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7718,7 +7718,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (3)<W 2016-04-22/01, art. 9, 038; Inwerkingtreding : 01-12-2016>
   (4)<W 2017-09-18/06, art. 181, 051; Inwerkingtreding : 16-10-2017>
 
-  Onderafdeling 9. - [1 Bijzondere bepalingen inzake financieringshuur]1
+###### Onderafdeling 9. - [1 Bijzondere bepalingen inzake financieringshuur]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7755,7 +7755,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 3. [1 – Herroepingsrecht.]1
+##### Afdeling 3. [1 – Herroepingsrecht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7779,12 +7779,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
   (2)<W 2016-04-22/01, art. 11, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 4. - [1 Onrechtmatige bedingen.]1
+##### Afdeling 4. - [1 Onrechtmatige bedingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 1. - [1 Onrechtmatige betalingen.]1
+###### Onderafdeling 1. - [1 Onrechtmatige betalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7804,7 +7804,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 2. - [1 Berekening van de debetintresten en veranderlijkheid van de debetrentevoet en de kosten]1
+###### Onderafdeling 2. - [1 Berekening van de debetintresten en veranderlijkheid van de debetrentevoet en de kosten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7835,7 +7835,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (5)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
   (6)<W 2024-12-20/49, art. 37, 139; Inwerkingtreding : 24-01-2025>
 
-  Onderafdeling 3. - [1 Nevendiensten]1
+###### Onderafdeling 3. - [1 Nevendiensten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7851,7 +7851,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1
+###### Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7871,12 +7871,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 5. - [1 Uitvoering van de kredietovereenkomst.]1
+##### Afdeling 5. - [1 Uitvoering van de kredietovereenkomst.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag.]1
+###### Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7891,7 +7891,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 2. - [1 Financiering van goederen en diensten]1
+###### Onderafdeling 2. - [1 Financiering van goederen en diensten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7931,7 +7931,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1
+###### Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -7959,7 +7959,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
   (2)<W 2023-11-05/07, art. 17, 123; Inwerkingtreding : 01-04-2024>
 
-  Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging]1
+###### Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8001,7 +8001,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2016-04-22/01, art. 15, 038; Inwerkingtreding : 01-12-2016>
   (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 5. - [1 Rekeningafschrift]1
+###### Onderafdeling 5. - [1 Rekeningafschrift]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8028,7 +8028,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
   (3)<W 2023-11-05/07, art. 18, 123; Inwerkingtreding : 01-04-2024>
 
-  Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1
+###### Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8072,7 +8072,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
   (3)<W 2024-12-20/49, art. 39, 139; Inwerkingtreding : 24-01-2025>
 
-  Afdeling 6. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze overeenkomst.]1
+##### Afdeling 6. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze overeenkomst.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8101,7 +8101,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 7. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1
+##### Afdeling 7. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1
   ----------
   (1)<W 2024-12-20/49, art. 40, 139; Inwerkingtreding : 24-01-2025>
 
@@ -8171,7 +8171,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
   (2)<W 2016-04-22/01, art. 19, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 8. [1 – Zekerheden.]1
+##### Afdeling 8. [1 – Zekerheden.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8205,7 +8205,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 21, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2025-06-05/09, art. 4, 142; Inwerkingtreding : 01-01-2026>
 
-  Afdeling 9. [1 – Kredietbemiddelaars.]1
+##### Afdeling 9. [1 – Kredietbemiddelaars.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8242,7 +8242,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
    (2)<W 2016-04-22/01, art. 22, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 10. [1 – Schuldbemiddeling.]1
+##### Afdeling 10. [1 – Schuldbemiddeling.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8256,12 +8256,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 11. - [1 Verwerking van persoonsgegevens.]1
+##### Afdeling 11. - [1 Verwerking van persoonsgegevens.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Onderafdeling 1. - [1 Overmaking van persoonsgegevens.]1
+###### Onderafdeling 1. - [1 Overmaking van persoonsgegevens.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8326,7 +8326,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
    (2)<W 2016-03-13/07, art. 750, 033; Inwerkingtreding : 23-03-2016; zie ook art. 756> (3)<W 2016-04-22/01, art. 23, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 2. - [1 Verwerking van gegevens]1
+###### Onderafdeling 2. - [1 Verwerking van gegevens]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -8366,11 +8366,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  HOOFDSTUK 2. - [1 Hypothecair krediet]1
+#### HOOFDSTUK 2. - [1 Hypothecair krediet]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 1. - [1 Reclame]1
+##### Afdeling 1. - [1 Reclame]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8418,7 +8418,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 2. - [1 Prospectus]1
+##### Afdeling 2. - [1 Prospectus]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8459,11 +8459,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Afdeling 3. - [1 Totstandkoming van de kredietovereenkomst]1
+##### Afdeling 3. - [1 Totstandkoming van de kredietovereenkomst]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar]1
+###### Onderafdeling 1. - [1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8486,7 +8486,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2018-07-30/47, art. 14, 065; Inwerkingtreding : 15-09-2018>
 
-  Onderafdeling 2. - [1 Precontractuele informatie]1
+###### Onderafdeling 2. - [1 Precontractuele informatie]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8504,7 +8504,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 3. - [1 Informatievoorschriften voor bemiddelaars inzake hypothecair krediet]1
+###### Onderafdeling 3. - [1 Informatievoorschriften voor bemiddelaars inzake hypothecair krediet]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8522,7 +8522,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 4. - [1 Passende toelichtingen]1
+###### Onderafdeling 4. - [1 Passende toelichtingen]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8537,7 +8537,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 5. - [1 Algemene gedragsregels]1
+###### Onderafdeling 5. - [1 Algemene gedragsregels]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8547,7 +8547,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 6. - [1 Raadgevingsplicht en -diensten]1
+###### Onderafdeling 6. - [1 Raadgevingsplicht en -diensten]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8573,7 +8573,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 7. - [1 Onderzoeksplicht]1
+###### Onderafdeling 7. - [1 Onderzoeksplicht]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8606,7 +8606,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
    (3)<W 2019-05-02/28, art. 8, 077; Inwerkingtreding : 01-06-2019>
 
-  Onderafdeling 8. - [1 Sluiten van de kredietovereenkomst.]1
+###### Onderafdeling 8. - [1 Sluiten van de kredietovereenkomst.]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8667,7 +8667,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (2)<W 2017-04-18/03, art. 11, 046; Inwerkingtreding : 04-05-2017>
    (3)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 9. - [1 Wedersamenstelling van kapitaal]1
+###### Onderafdeling 9. - [1 Wedersamenstelling van kapitaal]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8693,7 +8693,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 10. - [1 Kredietweigering]1
+###### Onderafdeling 10. - [1 Kredietweigering]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8706,7 +8706,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2017-09-18/06, art. 182, 051; Inwerkingtreding : 16-10-2017>
 
-  Afdeling 4. - [1 Herroepingsrecht]1
+##### Afdeling 4. - [1 Herroepingsrecht]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8727,11 +8727,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 5. - [1 Onrechtmatige bedingen]1
+##### Afdeling 5. - [1 Onrechtmatige bedingen]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 1. - [1 Onrechtmatige betalingen]1
+###### Onderafdeling 1. - [1 Onrechtmatige betalingen]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8761,7 +8761,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 2. - [1 Berekening van de debetrente, veranderlijkheid van de periodieke rentevoet, de debetrentevoet, de kosten en van de contractvoorwaarden]1
+###### Onderafdeling 2. - [1 Berekening van de debetrente, veranderlijkheid van de periodieke rentevoet, de debetrentevoet, de kosten en van de contractvoorwaarden]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8881,7 +8881,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2021-02-02/06, art. 12, 096; Inwerkingtreding : 01-02-2021>
 
-  Onderafdeling 3. - [1 Nevendiensten]1
+###### Onderafdeling 3. - [1 Nevendiensten]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8928,7 +8928,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (2)<W 2023-11-05/07, art. 21, 123; Inwerkingtreding : 01-06-2024>
    (3)<W 2024-05-03/21, art. 18, 135; Inwerkingtreding : 01-06-2024>
 
-  Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1
+###### Onderafdeling 4. - [1 Ongeoorloofde waarborgen]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8946,11 +8946,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-07-30/47, art. 15, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 6. - [1 Uitvoering van de kredietovereenkomst]1
+##### Afdeling 6. - [1 Uitvoering van de kredietovereenkomst]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag]1
+###### Onderafdeling 1. - [1 Terbeschikkingstelling van het kredietbedrag]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -8964,7 +8964,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 2. - [1 Financiering van goederen en diensten]1
+###### Onderafdeling 2. - [1 Financiering van goederen en diensten]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9005,7 +9005,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-07-30/47, art. 16, 065; Inwerkingtreding : 15-09-2018>
 
-  Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1
+###### Onderafdeling 3. - [1 Maximale kosten en terugbetalingstermijnen]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9034,7 +9034,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging van de kredietovereenkomst]1
+###### Onderafdeling 4. - [1 Vervroegde terugbetalingsmodaliteiten en beëindiging van de kredietovereenkomst]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9078,7 +9078,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
    (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 5. - [1 Rekeningafschrift]1
+###### Onderafdeling 5. - [1 Rekeningafschrift]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9101,7 +9101,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1
+###### Onderafdeling 6. - [1 Ongeoorloofde debetstand en overschrijding]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9130,7 +9130,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-  Afdeling 7. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze overeenkomst]1
+##### Afdeling 7. - [1 Overdracht van de kredietovereenkomst en van de vorderingen die voortvloeien uit deze overeenkomst]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9156,7 +9156,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2024-12-20/49, art. 46, 139; Inwerkingtreding : 24-01-2025>
 
-  Afdeling 8. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1
+##### Afdeling 8. [1 - Respijtmaatregelen en niet-uitvoering van de kredietovereenkomst.]1
   ----------
   (1)<W 2024-12-20/49, art. 47, 139; Inwerkingtreding : 24-01-2025>
 ## Art. VII.147/20
@@ -9241,7 +9241,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 9. - [1 Betalingsfaciliteiten]1
+##### Afdeling 9. - [1 Betalingsfaciliteiten]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9262,7 +9262,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 10. - [1 Zekerheden]1
+##### Afdeling 10. - [1 Zekerheden]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9293,7 +9293,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
   (2)<W 2025-06-05/09, art. 5, 142; Inwerkingtreding : 01-01-2026>
 
-  Afdeling 11. - [1 Gedragsregels voor het verstrekken van krediet aan consumenten via kredietbemiddelaars en het betalen van commissielonen en vergoedingen aan kredietbemiddelaars en personeelsleden]1
+##### Afdeling 11. - [1 Gedragsregels voor het verstrekken van krediet aan consumenten via kredietbemiddelaars en het betalen van commissielonen en vergoedingen aan kredietbemiddelaars en personeelsleden]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9324,7 +9324,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 12. - [1 Schuldbemiddeling]1
+##### Afdeling 12. - [1 Schuldbemiddeling]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9336,11 +9336,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Afdeling 13. - [1 Verwerking van persoonsgegevens]1
+##### Afdeling 13. - [1 Verwerking van persoonsgegevens]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 1. [1 Overmaking van persoonsgegevens]1
+###### Onderafdeling 1. [1 Overmaking van persoonsgegevens]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9401,7 +9401,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  Onderafdeling 2. - [1 Verwerking van gegevens]1
+###### Onderafdeling 2. - [1 Verwerking van gegevens]1
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -9437,12 +9437,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-  HOOFDSTUK 3. - [1 Centrale voor Kredieten aan Particulieren.]1
+#### HOOFDSTUK 3. - [1 Centrale voor Kredieten aan Particulieren.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 1. [1 – Registratie.]1
+##### Afdeling 1. [1 – Registratie.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -9470,7 +9470,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (2)<KB 2020-04-22/01, art. 2, 081; Inwerkingtreding : 01-04-2020>
   (3)<W 2020-05-27/02, art. 4, 084; Inwerkingtreding : 01-05-2020; Opheffing : 31-01-2021> (4)<W 2020-12-20/10, art. 61, 094; Inwerkingtreding : 01-01-2021> (5)<W 2023-07-31/04, art. 5, 130; Inwerkingtreding : 01-01-2024> (6)<W 2024-12-20/49, art. 49, 139; Inwerkingtreding : 24-01-2025>
 
-  Afdeling 2. - [1 Mededeling en raadpleging van gegevens.]1
+##### Afdeling 2. - [1 Mededeling en raadpleging van gegevens.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -9581,7 +9581,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2023-07-31/04, art. 11, 130; Inwerkingtreding : 01-01-2024>
 
-  Afdeling 3. - [1 Diverse bepalingen.]1
+##### Afdeling 3. - [1 Diverse bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -9625,7 +9625,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  HOOFDSTUK 4. - [1 Toegang tot de activiteit van de kredietgevers en de kredietbemiddelaars.]1
+#### HOOFDSTUK 4. - [1 Toegang tot de activiteit van de kredietgevers en de kredietbemiddelaars.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9635,7 +9635,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Afdeling 1. [1 – Kredietgevers.]1
+##### Afdeling 1. [1 – Kredietgevers.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9650,11 +9650,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 25, 028; Inwerkingtreding : 01-11-2015> (3)<W 2016-04-22/01, art. 27, 038; Inwerkingtreding : 01-12-2016> (4)<W 2017-04-18/03, art. 14, 046; Inwerkingtreding : 04-05-2017>
 
-  Afdeling 2. - [1 Kredietgevers naar Belgisch recht.]1
+##### Afdeling 2. - [1 Kredietgevers naar Belgisch recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 1. [1 – Vergunningsvoorwaarden.]1
+###### Onderafdeling 1. [1 – Vergunningsvoorwaarden.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9730,7 +9730,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2018-07-30/47, art. 20, 065; Inwerkingtreding : 15-09-2018> (3)<W 2019-05-02/25, art. 187, 074; Inwerkingtreding : 31-05-2019> (4)<W 2021-06-27/09, art. 300, 099; Inwerkingtreding : 19-07-2021> (5)<W 2022-05-08/03, art. 16, 112; Inwerkingtreding : 03-07-2022>
 
-  Onderafdeling 2. - [1 Bedrijfsuitoefeningsvoorwaarden]1
+###### Onderafdeling 2. - [1 Bedrijfsuitoefeningsvoorwaarden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9816,11 +9816,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
 [1 De artikelen VII. 161 tot VII. 164, en VII. 167 tot VII. 169 zijn niet van toepassing op de kredietgevers die hetzij als kredietinstellingen op de in [2 artikel 14 van de wet van 25 april 2014, hetzij als beleggingsonderneming op de in [4 artikel 7 van de wet van 25 oktober 2016]4 bedoelde lijst]2 bedoelde lijst, [3 hetzij als verzekeringsondernemingen op de lijst als bedoeld in artikel 31 van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen]3, hetzij als instellingen voor elektronisch geld op de in artikel 64 van de wet van 21 december 2009 bedoelde lijst, hetzij als betalingsinstellingen op de in artikel 9 van deze wet bedoelde lijst zijn ingeschreven.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 29, 028; Inwerkingtreding : 01-11-2015> (3)<W 2016-03-13/07, art. 751, 033; Inwerkingtreding : 23-03-2016; zie ook art.756> (4)<W 2016-10-25/04, art. 174, 039; Inwerkingtreding : 28-11-2016>
-  Afdeling 3. - [1 Kredietgevers naar buitenlands recht.]1
+##### Afdeling 3. - [1 Kredietgevers naar buitenlands recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 1. - [1 Bepaalde gereglementeerde financiële ondernemingen die ressorteren onder het recht van een andere lidstaat.]1
+###### Onderafdeling 1. - [1 Bepaalde gereglementeerde financiële ondernemingen die ressorteren onder het recht van een andere lidstaat.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9847,7 +9847,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 2. - [1 Andere kredietgevers naar buitenlands recht]1
+###### Onderafdeling 2. - [1 Andere kredietgevers naar buitenlands recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9872,7 +9872,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 31, 028; Inwerkingtreding : 01-11-2015> (3)<W 2016-10-25/04, art. 175, 039; Inwerkingtreding : 28-11-2016> (4)<W 2021-06-27/09, art. 368, 099; Inwerkingtreding : 19-07-2021>
 
-  Afdeling 4. [1 – Kredietbemiddelaars.]1
+##### Afdeling 4. [1 – Kredietbemiddelaars.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9899,11 +9899,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2018-07-30/47, art. 22, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 5. - [1 Bemiddelaars inzake hypothecair krediet.]1
+##### Afdeling 5. - [1 Bemiddelaars inzake hypothecair krediet.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 1. - [1 Algemene bepalingen.]1
+###### Onderafdeling 1. - [1 Algemene bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9928,7 +9928,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2018-07-30/47, art. 23, 065; Inwerkingtreding : 15-09-2018> (3)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>
 
-  Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1
+###### Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9958,7 +9958,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 32, 028; Inwerkingtreding : 01-11-2015> (3)<W 2015-12-18/31, art. 40, 030; Inwerkingtreding : 09-01-2016> (4)<W 2017-04-18/03, art. 18, 046; Inwerkingtreding : 04-05-2017> (5)<W 2018-07-30/47, art. 24, 065; Inwerkingtreding : 15-09-2018> (6)<W 2019-05-02/25, art. 188, 074; Inwerkingtreding : 31-05-2019> (7)<W 2020-07-20/12, art. 146, 086; Inwerkingtreding : 15-08-2020> (8)<W 2021-06-27/09, art. 299, 099; Inwerkingtreding : 19-07-2021> (9)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022> (10)<W 2022-05-08/03, art. 19, 112; Inwerkingtreding : 03-07-2022> (11)<W 2024-05-03/21, art. 19, 135; Inwerkingtreding : 10-06-2024>
 
-  Onderafdeling 3. - [1 Inschrijvingsprocedure]1
+###### Onderafdeling 3. - [1 Inschrijvingsprocedure]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -9991,7 +9991,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 33, 028; Inwerkingtreding : 01-11-2015> (3)<W 2015-12-18/31, art. 41, 030; Inwerkingtreding : 09-01-2016> (4)<W 2017-12-05/04, art. 21, 052; Inwerkingtreding : 28-12-2017> (5)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022> (6)<W 2022-05-08/03, art. 20, 112; Inwerkingtreding : 03-07-2022>
 
-  Onderafdeling 4. - [1 Vrijheid van vestiging en vrijheid van dienstverrichting]1
+###### Onderafdeling 4. - [1 Vrijheid van vestiging en vrijheid van dienstverrichting]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -10015,11 +10015,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 34, 028; Inwerkingtreding : 01-11-2015> (3)<W 2018-07-30/47, art. 25, 065; Inwerkingtreding : 15-09-2018> (4)<W 2018-07-30/47, art. 26, 065; Inwerkingtreding : 15-09-2018> (5)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>
 
-  Afdeling 6. - [1 Bemiddelaars inzake consumentenkrediet.]1
+##### Afdeling 6. - [1 Bemiddelaars inzake consumentenkrediet.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 1. - [1 Algemene bepalingen.]1
+###### Onderafdeling 1. - [1 Algemene bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -10047,7 +10047,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1
+###### Onderafdeling 2. - [1 Inschrijvingsvoorwaarden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -10086,7 +10086,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    § 2. De in dit artikel bedoelde bemiddelaars leveren het bewijs aan de FSMA, volgens de door haar bij reglement vastgestelde regels, inclusief inzake frequentie, dat de in het eerste lid bedoelde bepalingen worden nageleefd.]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 37, 028; Inwerkingtreding : 01-11-2015> (3)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022> (4)<W 2024-05-03/21, art. 20, 135; Inwerkingtreding : 10-06-2024>
-  Onderafdeling 3. - [1 Inschrijvingsprocedure]1
+###### Onderafdeling 3. - [1 Inschrijvingsprocedure]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -10117,12 +10117,12 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 38, 028; Inwerkingtreding : 01-11-2015> (3)<W 2015-12-18/31, art. 43, 030; Inwerkingtreding : 09-01-2016> (4)<W 2017-12-05/04, art. 22, 052; Inwerkingtreding : 28-12-2017> (5)<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022> (6)<W 2022-05-08/03, art. 22, 112; Inwerkingtreding : 03-07-2022>
 
-  TITEL 5. - [1 Burgerlijke sancties.]1
+### TITEL 5. - [1 Burgerlijke sancties.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  HOOFDSTUK 1. [1 – Betalingsdiensten.]1
+#### HOOFDSTUK 1. [1 – Betalingsdiensten.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -10171,7 +10171,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  HOOFDSTUK 2. [1 – Consumentenkrediet.]1
+#### HOOFDSTUK 2. [1 – Consumentenkrediet.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -10312,7 +10312,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  2)>
   (2)<W 2015-10-26/06, art. 42, 028; Inwerkingtreding : 09-11-2015>
 
-  HOOFDSTUK 3. - [1 Hypothecair krediet.]1
+#### HOOFDSTUK 3. - [1 Hypothecair krediet.]1
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
@@ -10438,7 +10438,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<W 2016-04-22/01, art. 32, 038; Inwerkingtreding : 01-12-2016>
 
-  HOOFDSTUK 4. - [1 Gemeenschappelijke bepalingen.]1
+#### HOOFDSTUK 4. - [1 Gemeenschappelijke bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -10451,7 +10451,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  TITEL 6. - [1 Buitengerechtelijke regeling van consumentengeschillen.]1
+### TITEL 6. - [1 Buitengerechtelijke regeling van consumentengeschillen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -10470,7 +10470,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 100, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 1. [1 - Algemene bepaling.]1
+#### HOOFDSTUK 1. [1 - Algemene bepaling.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 101, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10480,11 +10480,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 102, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 2. [1 - De wisselbrief.]1
+#### HOOFDSTUK 2. [1 - De wisselbrief.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 103, 059; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 1. [1 - Uitgifte en vorm van de wisselbrief]1
+##### Afdeling 1. [1 - Uitgifte en vorm van de wisselbrief]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 104, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10565,7 +10565,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 105, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 2. [1 - Endossement]1
+##### Afdeling 2. [1 - Endossement]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 106, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10643,7 +10643,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 107, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 3. [1 - Acceptatie]1
+##### Afdeling 3. [1 - Acceptatie]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 108, 059; Inwerkingtreding : 01-11-2018>
 
@@ -10712,7 +10712,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 109, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 - Aval]1
+##### Afdeling 4. [1 - Aval]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 110, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10740,7 +10740,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 111, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 5. [1 - Vervaldag]1
+##### Afdeling 5. [1 - Vervaldag]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 112, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10790,7 +10790,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 113, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 6. [1 - Betaling]1
+##### Afdeling 6. [1 - Betaling]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 114, 059; Inwerkingtreding : 01-05-2018>
 
@@ -10833,7 +10833,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 115, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 7. [1 - Recht van regres in geval van niet-acceptatie of niet-betaling]1
+##### Afdeling 7. [1 - Recht van regres in geval van niet-acceptatie of niet-betaling]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 116, 059; Inwerkingtreding : 01-11-2018>
 
@@ -10948,11 +10948,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 117, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 8. [1 - Tussenkomst]1
+##### Afdeling 8. [1 - Tussenkomst]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 118, 059; Inwerkingtreding : 01-11-2018>
 
-  Onderafdeling 1. [1 Algemene bepalingen]1
+###### Onderafdeling 1. [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 119, 059; Inwerkingtreding : 01-11-2018>
 
@@ -10965,7 +10965,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 120, 059; Inwerkingtreding : 01-11-2018>
 
-  Onderafdeling 2. [1 Acceptatie bij tussenkomst]1
+###### Onderafdeling 2. [1 Acceptatie bij tussenkomst]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 121, 059; Inwerkingtreding : 01-11-2018>
 
@@ -10990,7 +10990,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 122, 059; Inwerkingtreding : 01-11-2018>
 
-  Onderafdeling 3. [1 Betaling bij tussenkomst]1
+###### Onderafdeling 3. [1 Betaling bij tussenkomst]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 123, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11030,11 +11030,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 124, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 9. [1 - Wisselbrief in verscheidene exemplaren en wisselafschriften]1
+##### Afdeling 9. [1 - Wisselbrief in verscheidene exemplaren en wisselafschriften]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 125, 059; Inwerkingtreding : 01-11-2018>
 
-  Onderafdeling 1. [1 Wisselbrief in verscheidene exemplaren]1
+###### Onderafdeling 1. [1 Wisselbrief in verscheidene exemplaren]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 126, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11062,7 +11062,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
 
-  Onderafdeling 2. [1 Wisselafschriften]1
+###### Onderafdeling 2. [1 Wisselafschriften]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 128, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11083,7 +11083,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 129, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 10. [1 - Tekstveranderingen]1
+##### Afdeling 10. [1 - Tekstveranderingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 130, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11093,7 +11093,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 131, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 11. [1 - Verjaring]1
+##### Afdeling 11. [1 - Verjaring]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 132, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11121,7 +11121,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 133, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 12. [1 - Algemene bepalingen]1
+##### Afdeling 12. [1 - Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 134, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11145,7 +11145,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 135, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 3. [1 - Het orderbriefje.]1
+#### HOOFDSTUK 3. [1 - Het orderbriefje.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 136, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11195,11 +11195,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 137, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 4. [1 - Aanvullende bepalingen.]1
+#### HOOFDSTUK 4. [1 - Aanvullende bepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 138, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 1. [1 - Fondsbezorging]1
+##### Afdeling 1. [1 - Fondsbezorging]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 139, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11253,7 +11253,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 140, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 2. [1 - Betaling van vermiste wisselbrieven]1
+##### Afdeling 2. [1 - Betaling van vermiste wisselbrieven]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 141, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11297,7 +11297,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 142, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 3. [1 - Bijzondere bepalingen]1
+##### Afdeling 3. [1 - Bijzondere bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 143, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11321,7 +11321,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 144, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 - Protesten]1
+##### Afdeling 4. [1 - Protesten]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 145, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11370,11 +11370,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 146, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 5. [1 - De cheque.]1
+#### HOOFDSTUK 5. [1 - De cheque.]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 147, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 1. [1 - Uitgifte en vorm van de cheque]1
+##### Afdeling 1. [1 - Uitgifte en vorm van de cheque]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 148, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11480,7 +11480,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2018-04-15/14, art. 149, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 2. [1 - Overdracht]1
+##### Afdeling 2. [1 - Overdracht]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 150, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11565,7 +11565,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 151, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 3. [1 - Aval]1
+##### Afdeling 3. [1 - Aval]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 152, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11594,7 +11594,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 153, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 - Aanbieding en betaling]1
+##### Afdeling 4. [1 - Aanbieding en betaling]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 154, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11675,7 +11675,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 155, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 5. [1 - Gekruiste cheque en verrekeningscheque]1
+##### Afdeling 5. [1 - Gekruiste cheque en verrekeningscheque]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 156, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11709,7 +11709,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 157, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 6. [1 - Recht van regres in geval van niet-betaling]1
+##### Afdeling 6. [1 - Recht van regres in geval van niet-betaling]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 158, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11812,7 +11812,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 159, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 7. [1 - Cheque in verscheidene exemplaren]1
+##### Afdeling 7. [1 - Cheque in verscheidene exemplaren]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 160, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11829,7 +11829,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 161, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 8. [1 - Tekstveranderingen]1
+##### Afdeling 8. [1 - Tekstveranderingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 162, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11839,7 +11839,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 163, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 9. [1 - Verjaring]1
+##### Afdeling 9. [1 - Verjaring]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 164, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11863,7 +11863,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 165, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 10. [1 - Algemene bepalingen]1
+##### Afdeling 10. [1 - Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 166, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11892,7 +11892,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 167, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 11. [1 - Vermiste cheques]1
+##### Afdeling 11. [1 - Vermiste cheques]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 168, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11916,7 +11916,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 169, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 12. [1 - Wetsconflicten]1
+##### Afdeling 12. [1 - Wetsconflicten]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 170, 059; Inwerkingtreding : 01-11-2018>
 
@@ -11938,7 +11938,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 171, 059; Inwerkingtreding : 01-11-2018>
 
-  TITEL 7. [1 – Slotbepalingen.]1
+### TITEL 7. [1 – Slotbepalingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -12077,7 +12077,7 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
  Deze kredietgever staat onder toezicht van [naam (namen) en internetadres(sen) van de toezichthoudende autoriteit(en)] (Indien van toepassing) Deze kredietbemiddelaar staat onder toezicht van [naam en internetadres van de toezichthoudende autoriteit].
  (1)<W 2017-04-18/03, art. 19, 046; Inwerkingtreding : 04-05-2017>
 
- DEEL B.
+## DEEL B.
     Instructies voor het invullen van het ESIS
     Bij het invullen van het ESIS worden ten minste de volgende instructies in acht genomen. De lidstaten kunnen de instructies voor het invullen van het ESIS evenwel uitwerken of nader specificeren.
     Rubriek "Inleidende tekst"
@@ -12174,11 +12174,11 @@ De vrijheid van ondernemen wordt uitgeoefend met inachtneming van de in België 
    ----------
    (1)<Ingevoegd bij W 2016-04-22/01, art. 37, 038; Inwerkingtreding : 01-12-2016>
 
-  BOEK VIII. - Kwaliteit van producten en diensten
+## BOEK VIII. - Kwaliteit van producten en diensten
 
-  Titel 1. - Normalisatie
+### Titel 1. - Normalisatie
 
-  HOOFDSTUK 1. - Algemene bepalingen
+#### HOOFDSTUK 1. - Algemene bepalingen
 ## Art. VIII.1
 
 Normen geven de regels van goed vakmanschap weer die, op het ogenblik dat ze worden aangenomen, gelden voor een bepaald product, een bepaald procedé of een bepaalde dienst.
@@ -12191,7 +12191,7 @@ De Staat en alle andere publiekrechtelijke personen kunnen refereren aan de door
   ----------
   (1)<W 2022-09-25/14, art. 20, 120; Inwerkingtreding : 26-01-2023>
 
-  HOOFDSTUK 2. - Het Bureau voor Normalisatie
+#### HOOFDSTUK 2. - Het Bureau voor Normalisatie
 
 ## Art. VIII.3
 
@@ -12312,7 +12312,7 @@ Ieder jaar maakt het Bureau tijdens het eerste trimester een verslag op van zijn
 
 Het Bureau kan, voor al zijn personeelsbehoeften voor de hem toegekende opdrachten, personeel bij arbeidsovereenkomst aanwerven.
 
-  HOOFDSTUK 3. - De Hoge Raad voor Normalisatie
+#### HOOFDSTUK 3. - De Hoge Raad voor Normalisatie
 
 ## Art. VIII.19
 
@@ -12365,7 +12365,7 @@ De Hoge Raad brengt verslag uit over zijn activiteit in het afgelopen jaar. Dit 
 
 De noodzakelijke kredieten om de werking van de Hoge Raad te verzekeren worden ieder jaar ingeschreven op de begroting van de FOD Economie, K.M.O., Middenstand en Energie. De Koning bepaalt het bedrag van de vergoedingen die aan de leden van de Hoge Raad kunnen toegekend worden. Hij bepaalt het bedrag van de verplaatsings- en verblijfsvergoedingen.
 
-  Titel 2. [1 - Accreditatie van Con-formiteitsbeoordelingsinstellingen]1
+### Titel 2. [1 - Accreditatie van Con-formiteitsbeoordelingsinstellingen]1
   ----------
   (1)<W 2019-05-02/28, art. 11, 077; Inwerkingtreding : 10-11-2023>
 
@@ -12391,17 +12391,17 @@ De Koning oefent de Hem krachtens de bepalingen van deze Titel toegekende machte
   ----------
   (1)<W 2019-05-02/28, art. 13, 077; Inwerkingtreding : 10-11-2023>
 
-  Titel 3. - Meeteenheden, de meetstandaarden en de meetinstrumenten
+### Titel 3. - Meeteenheden, de meetstandaarden en de meetinstrumenten
 
-  HOOFDSTUK 1. - Wettelijke eenheden
+#### HOOFDSTUK 1. - Wettelijke eenheden
 
-  Afdeling 1. - Algemeenheden
+##### Afdeling 1. - Algemeenheden
 
 ## Art. VIII.33
 
 Het wettelijk meeteenhedenstelsel omvat de eenheden van het internationaal stelsel alsmede andere meeteenheden die, zonder deel uit te maken van dit stelsel, gewoonlijk gebruikt worden.
 
-  Afdeling 2. - Meeteenheden van het internationaal stelsel
+##### Afdeling 2. - Meeteenheden van het internationaal stelsel
 
 ## Art. VIII.34
 
@@ -12444,25 +12444,25 @@ Het internationaal meeteenhedenstelsel (SI) omvat :
   (1)<KB 2020-05-06/04, art. 5, 083; Inwerkingtreding : [13-06-2020]> (ERRATUM, zie B.St. 14-05-2020, p.
  34101)
 
-  Afdeling 3. - Meeteenheden die niet behoren tot het internationaal stelsel
+##### Afdeling 3. - Meeteenheden die niet behoren tot het internationaal stelsel
 
 ## Art. VIII.36
 
 De Koning kan in het wettelijk stelsel eenheden opnemen die, zonder deel uit te maken van het internationaal stelsel, gewoonlijk gebruikt worden. Hij kan het gebruik ervan beperken tot de gevallen die Hij omschrijft.
 
-  Afdeling 4. - Tabel van de wettelijke meeteenheden
+##### Afdeling 4. - Tabel van de wettelijke meeteenheden
 
 ## Art. VIII.37
 
 De Koning stelt de tabel vast die, door hun benaming, hun definitie en hun symbool, de wettelijke eenheden bepaalt alsmede de regels tot vorming van de veelvouden en delen.
 
-  Afdeling 5. - Aanpassing van de wetgeving aan het internationaal stelsel
+##### Afdeling 5. - Aanpassing van de wetgeving aan het internationaal stelsel
 
 ## Art. VIII.38
 
 De Koning kan de bepalingen van de artikelen VIII. 34 en VIII.35 wijzigen, om ze in overeenstemming te brengen met de wijzigingen die de Algemene Conferentie voor Maten en Gewichten zou aanbrengen aan het internationaal meeteenhedenstelsel.
 
-  Afdeling 6. -Gebruik van de meeteenheden
+##### Afdeling 6. -Gebruik van de meeteenheden
 
 ## Art. VIII.39
 
@@ -12477,7 +12477,7 @@ De Koning kan de bepalingen van de artikelen VIII. 34 en VIII.35 wijzigen, om ze
   1° gebruikt in de betrekkingen met andere landen;
   2° betreffende de goederen die zich buiten het Koninkrijk bevinden.
 
-  Afdeling 7. - Standaarden en regels
+##### Afdeling 7. - Standaarden en regels
 
 ## Art. VIII.40
 
@@ -12493,9 +12493,9 @@ De Koning bepaalt de maatregelen nodig tot de vaststelling en de publicatie van 
 
 De nationale standaarden en de toepassing van de regels vastgesteld door de Koning, overeenkomstig artikel VIII.40, worden geacht de wettelijke eenheden juist te reproduceren.
 
-  HOOFDSTUK 2. - Meetinstrumenten
+#### HOOFDSTUK 2. - Meetinstrumenten
 
-  Afdeling 1. - Gebruiksregelen
+##### Afdeling 1. - Gebruiksregelen
 
 ## Art. VIII.43
 
@@ -12523,7 +12523,7 @@ In de plaatsen waar de metingen zoals omschreven in artikel VIII.43, § 1, of kr
 § 1. Meetinstrumenten bestemd voor het verrichten van metingen als omschreven in artikel VIII.43 geven het meetresultaat in wettelijke meeteenheden.
   § 2. De Koning geeft voorschriften omtrent de overige voorwaarden waaraan de in paragraaf 1 bedoelde meetinstrumenten moeten voldoen alsmede omtrent hun samenstelling en meeteigenschappen.
 
-  Afdeling 2. - Ijking van de meetinstrumenten
+##### Afdeling 2. - Ijking van de meetinstrumenten
 
 ## Art. VIII.47
 
@@ -12567,7 +12567,7 @@ De Koning kan de meetinstrumenten onderwerpen aan een technische controle om na 
 Bij de goedkeuring van een model, de aflevering van goedkeuringsmerken, de eerste ijk en de herijk kan een ijkloon worden geïnd. De Koning bepaalt het bedrag en de wijze van de inning van dat ijkloon.
   De wettelijke beschikkingen betreffende betwistingen, opvorderingen, vervolgingen en voorrechten inzake belastingen ten voordele van de Staat, zijn toepasselijk op het krachtens deze Titel bepaald ijkloon.
 
-  HOOFDSTUK 3. - Gemeenschappelijke bepalingen
+#### HOOFDSTUK 3. - Gemeenschappelijke bepalingen
 
 ## Art. VIII.55
 
@@ -12589,7 +12589,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
    De afwijkingen bedoeld in het eerste en in het tweede lid kunnen onder beperking worden toegestaan en aan voorwaarden worden gebonden; zij zijn met redenen omkleed.
    De beslissingen waarbij de Koning de bevoegdheid tot het toestaan van afwijkingen aan overheden of instellingen overdraagt, zijn eveneens met redenen omkleed.
 
-  Titel 4. [1 - Conformiteit]1
+### Titel 4. [1 - Conformiteit]1
   ----------
   (1)<Ingevoegd bij W 2016-06-29/01, art. 15, 036; Inwerkingtreding : 16-07-2016>
 
@@ -12603,11 +12603,11 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2016-06-29/01, art. 16, 036; Inwerkingtreding : 16-07-2016> (2)<W 2024-02-09/19, art. 28, 129; Inwerkingtreding : 31-03-2024> (3)<W 2023-11-05/06, art. 5, 141; Inwerkingtreding : 28-06-2025>
 
-  Titel 5. [1 - Toegankelijkheidsvoorschriften voor diensten.]1
+### Titel 5. [1 - Toegankelijkheidsvoorschriften voor diensten.]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 5, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 1. [1 - Toepassingsgebied]1
+#### HOOFDSTUK 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 6, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12625,7 +12625,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 8, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 2. [1 - Algemene principes]1
+#### HOOFDSTUK 2. [1 - Algemene principes]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 9, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12639,7 +12639,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
    ----------
    (1)<Ingevoegd bij W 2023-11-05/06, art. 10, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 3. [1 - Verplichtingen van dienstverleners]1
+#### HOOFDSTUK 3. [1 - Verplichtingen van dienstverleners]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 11, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12659,7 +12659,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
    ----------
    (1)<Ingevoegd bij W 2023-11-05/06, art. 13, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 4. [1 - Fundamentele wijziging van diensten en onevenredige last voor dienstverleners]1
+#### HOOFDSTUK 4. [1 - Fundamentele wijziging van diensten en onevenredige last voor dienstverleners]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 14, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12684,7 +12684,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 15, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 5. [1 - Vermoeden van conformiteit]1
+#### HOOFDSTUK 5. [1 - Vermoeden van conformiteit]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 16, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12695,7 +12695,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 17, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 6. [1 - Toegankelijkheidsvoorschriften in andere handelingen van de Unie]1
+#### HOOFDSTUK 6. [1 - Toegankelijkheidsvoorschriften in andere handelingen van de Unie]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 18, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12711,7 +12711,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 20, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 7. [1 - Verslag en evaluatie]1
+#### HOOFDSTUK 7. [1 - Verslag en evaluatie]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 21, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12726,12 +12726,12 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   (Beeld niet opgenomen om technische redenen, zie B.St. van 28-11-2023, p. 110587)
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 23, 141; Inwerkingtreding : 28-06-2025>
-  Boek IX. [1 Veiligheid van producten en diensten]1
+## Boek IX. [1 Veiligheid van producten en diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
 
-  HOOFDSTUK 1. - [1 Algemene veiligheidsverplichting]1
+#### HOOFDSTUK 1. - [1 Algemene veiligheidsverplichting]1
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
@@ -12865,7 +12865,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
 
-  HOOFDSTUK 2. - [1 Informatie- en adviesstructuren]1
+#### HOOFDSTUK 2. - [1 Informatie- en adviesstructuren]1
   ----------
   (1)<Ingevoegd bij W 2013-04-25/10, art. 3, 004; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  4)>
@@ -12905,11 +12905,11 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
  4)>
   (2)<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>
 
-  BOEK X. [1 - Handelsagentuurovereenkomsten, commerciële samenwerkingsovereenkomsten, verkoopconcessies en vervoersovereenkomsten.]1
+## BOEK X. [1 - Handelsagentuurovereenkomsten, commerciële samenwerkingsovereenkomsten, verkoopconcessies en vervoersovereenkomsten.]1
   ----------
   (1)<W 2018-04-15/14, art. 172, 059; Inwerkingtreding : 01-11-2018>
 
-  TITEL 1. - [1 Handelsagentuurovereenkomsten]1
+### TITEL 1. - [1 Handelsagentuurovereenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
@@ -13140,7 +13140,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
-  TITEL 2. - [1 Precontractuele informatie in het kader van commerciële samenwerkingsovereenkomsten]1
+### TITEL 2. - [1 Precontractuele informatie in het kader van commerciële samenwerkingsovereenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
@@ -13239,7 +13239,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
 
 ## Art. X.34.
 
-  TITEL 3. - [1 Eenzijdige beëindiging van voor onbepaalde tijd verleende concessies van alleenverkoop]1
+### TITEL 3. - [1 Eenzijdige beëindiging van voor onbepaalde tijd verleende concessies van alleenverkoop]1
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
@@ -13290,7 +13290,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-02/21, art. 3, 014; Inwerkingtreding : 31-05-2014>
 
-  Titel 4. [1 - Vervoersovereenkomst]1
+### Titel 4. [1 - Vervoersovereenkomst]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 173, 059; Inwerkingtreding : 01-11-2018>
 
@@ -13452,7 +13452,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 194, 059; Inwerkingtreding : 01-11-2018>
 
-  Titel 5. [1 - Adviescommissie voor overeenkomsten inzake commerciële distributie]1
+### Titel 5. [1 - Adviescommissie voor overeenkomsten inzake commerciële distributie]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 24, 135; Inwerkingtreding : 10-06-2024>
 
@@ -13475,15 +13475,15 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij KB 2024-08-19/04, art. 2, 140; Inwerkingtreding : 01-03-2025>
 
-  Boek XI. - [1 Intellectuele eigendom]1 [2 en bedrijfsgeheimen]2
+## Boek XI. - [1 Intellectuele eigendom]1 [2 en bedrijfsgeheimen]2
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-07-30/18, art. 3, 064; Inwerkingtreding : 24-08-2018>
 
-  Titel 1. - [1 Uitvindingsoctrooien]1
+### Titel 1. - [1 Uitvindingsoctrooien]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 1. - [1 Algemeenheden]1
+#### HOOFDSTUK 1. - [1 Algemeenheden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -13500,11 +13500,11 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 2. - [1 Het uitvindingsoctrooi]1
+#### HOOFDSTUK 2. - [1 Het uitvindingsoctrooi]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 1. - [1 Algemene bepalingen]1
+##### Afdeling 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -13574,7 +13574,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 2. - [1 Het recht om een uitvindingsoctrooi te bekomen]1
+##### Afdeling 2. - [1 Het recht om een uitvindingsoctrooi te bekomen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -13618,7 +13618,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 3. - [1 De aflevering van het uitvindingsoctrooi]1
+##### Afdeling 3. - [1 De aflevering van het uitvindingsoctrooi]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -13844,7 +13844,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<W 2022-09-25/06, art. 8, 119; Inwerkingtreding : 01-01-2024>
 
-  Afdeling 4. [1 Rechten en verplichtingen verbonden aan het uitvindingsoctrooi en aan de aanvraag ervan]1
+##### Afdeling 4. [1 Rechten en verplichtingen verbonden aan het uitvindingsoctrooi en aan de aanvraag ervan]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14095,7 +14095,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 5. - [1 Het octrooi en de octrooiaanvraag als deel van het vermogen]1
+##### Afdeling 5. - [1 Het octrooi en de octrooiaanvraag als deel van het vermogen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14167,7 +14167,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 6. - [1 Nietigheid, afstand en herroeping van het uitvindingsoctrooi]1
+##### Afdeling 6. - [1 Nietigheid, afstand en herroeping van het uitvindingsoctrooi]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14242,7 +14242,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014> (2)<W 2022-09-25/06, art. 10, 119; Inwerkingtreding : 01-12-2022>
 
-  Afdeling 7. - [1 Bescherming van de door het uitvindingsoctrooi verleende rechten]1
+##### Afdeling 7. - [1 Bescherming van de door het uitvindingsoctrooi verleende rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14264,11 +14264,11 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 3. - [1 Vertegenwoordiging voor de Dienst]1
+#### HOOFDSTUK 3. - [1 Vertegenwoordiging voor de Dienst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 1. [1 - Verplichting tot vertegenwoordiging]1
+##### Afdeling 1. [1 - Verplichting tot vertegenwoordiging]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 5, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14304,7 +14304,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 2. [1 - Toegang tot het beroep van octrooigemachtigde]1
+##### Afdeling 2. [1 - Toegang tot het beroep van octrooigemachtigde]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 7, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14355,7 +14355,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 12, 061; Inwerkingtreding : 01-04-2024>
 
-  Afdeling 3. [1 - Register van erkende gemachtigden]1
+##### Afdeling 3. [1 - Register van erkende gemachtigden]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 13, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14459,7 +14459,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Afdeling 4. [1 - Commissie tot erkenning van de gemachtigden]1
+##### Afdeling 4. [1 - Commissie tot erkenning van de gemachtigden]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 21, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14481,7 +14481,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014> (2)<W 2018-07-08/06, art. 16, 061; Inwerkingtreding : 01-12-2020>
 
-  Afdeling 5. [1 - Instituut voor Octrooigemachtigden]1
+##### Afdeling 5. [1 - Instituut voor Octrooigemachtigden]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 22, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14659,7 +14659,7 @@ De Koning kan bij wijze van algemene bepaling afwijken van het bepaalde in de ar
    ----------
    (1)<Ingevoegd bij W 2018-07-08/06, art. 30, 061; Inwerkingtreding : 01-12-2020> (2)<W 2022-09-25/06, art. 17, 119; Inwerkingtreding : 01-01-2024>
 
-  Afdeling 6. [1 - Aspecten verbonden aan het lidmaatschap van het Instituut voor Octrooigemachtigden]1
+##### Afdeling 6. [1 - Aspecten verbonden aan het lidmaatschap van het Instituut voor Octrooigemachtigden]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 31, 061; Inwerkingtreding : 01-12-2020>
 
@@ -14804,7 +14804,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 5. - [1 Europese octrooien]1
+#### HOOFDSTUK 5. - [1 Europese octrooien]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14914,7 +14914,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-09-25/06, art. 22, 119; Inwerkingtreding : 01-01-2024>
 
-  HOOFDSTUK 6. - [1 Internationale aanvragen]1
+#### HOOFDSTUK 6. - [1 Internationale aanvragen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -14926,11 +14926,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014> (2)<W 2016-06-29/01, art. 24, 036; Inwerkingtreding : 01-04-2018> (3)<W 2022-09-25/06, art. 23,1°, 119; Inwerkingtreding : 01-12-2022> (4)<W 2022-09-25/06, art. 23,2°, 119; Inwerkingtreding : 01-01-2024>
 
-  Titel 2. - [1 Aanvullende beschermingscertificaten]1
+### Titel 2. - [1 Aanvullende beschermingscertificaten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Verlening en verlenging van de duur van het certificaat]1
+#### HOOFDSTUK 1. - [1 Verlening en verlenging van de duur van het certificaat]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -15015,7 +15015,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 2. - [1 Taksen en vergoedingen]1
+#### HOOFDSTUK 2. - [1 Taksen en vergoedingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -15035,7 +15035,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  HOOFDSTUK 3. - [1 Herstel]1
+#### HOOFDSTUK 3. - [1 Herstel]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
@@ -15064,15 +15064,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>
 
-  Titel 3. - [1 Kwekersrecht]1
+### Titel 3. - [1 Kwekersrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Materieel recht]1
+#### HOOFDSTUK 1. - [1 Materieel recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. [1 Voorwaarden inzake de verlening van het kwekersrecht]1
+##### Afdeling 1. [1 Voorwaarden inzake de verlening van het kwekersrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15131,7 +15131,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. - [1 Rechthebbenden of rechtverkrijgenden]1
+##### Afdeling 2. - [1 Rechthebbenden of rechtverkrijgenden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15150,7 +15150,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Rechtsgevolgen van het kwekersrecht]1
+##### Afdeling 3. - [1 Rechtsgevolgen van het kwekersrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15231,7 +15231,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 4. - [1 Duur en beëindiging van het kwekersrecht]1
+##### Afdeling 4. - [1 Duur en beëindiging van het kwekersrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15273,7 +15273,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 5. - [1 Het kwekersrecht als deel van het vermogen]1
+##### Afdeling 5. - [1 Het kwekersrecht als deel van het vermogen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15329,7 +15329,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 2. - [1 De Raad en de Commissie]1
+#### HOOFDSTUK 2. - [1 De Raad en de Commissie]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15373,11 +15373,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 3. - [1 De procedure voor de Dienst]1
+#### HOOFDSTUK 3. - [1 De procedure voor de Dienst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. - [1 Partijen in de procedure en gemachtigden]1
+##### Afdeling 1. - [1 Partijen in de procedure en gemachtigden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15399,7 +15399,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. - [1 De aanvraag]1
+##### Afdeling 2. - [1 De aanvraag]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15441,7 +15441,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Het onderzoek]1
+##### Afdeling 3. - [1 Het onderzoek]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15505,7 +15505,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 4. - [1 Beslissingen]1
+##### Afdeling 4. - [1 Beslissingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15536,7 +15536,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 5. - [1 Instandhouding van het kwekersrecht]1
+##### Afdeling 5. - [1 Instandhouding van het kwekersrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15576,7 +15576,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 6. - [1 Overige procedurevoorschriften]1
+##### Afdeling 6. - [1 Overige procedurevoorschriften]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15598,7 +15598,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 7. - [1 Vergoedingen en taksen]1
+##### Afdeling 7. - [1 Vergoedingen en taksen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15628,7 +15628,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2022-09-25/06, art. 26, 119; Inwerkingtreding : 01-12-2022>
 
-  Afdeling 8. - [1 Bijhouden van het register]1
+##### Afdeling 8. - [1 Bijhouden van het register]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15680,11 +15680,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 4. - [1 Handhaving van de rechten]1
+#### HOOFDSTUK 4. - [1 Handhaving van de rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. - [1 Namaak]1
+##### Afdeling 1. - [1 Namaak]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15719,7 +15719,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. - [1 Opeising van het kwekersrecht en identificatie van een ras]1
+##### Afdeling 2. - [1 Opeising van het kwekersrecht en identificatie van een ras]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15745,7 +15745,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Verjaring]1
+##### Afdeling 3. - [1 Verjaring]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15757,7 +15757,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Titel 4. - [1 Merken en tekeningen of modellen]1
+### Titel 4. - [1 Merken en tekeningen of modellen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15775,11 +15775,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-09-25/06, art. 27, 119; Inwerkingtreding : 01-12-2022>
 
-  Titel 5. - [1 Auteursrecht en naburige rechten]1
+### Titel 5. - [1 Auteursrecht en naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Algemeenheden]1
+#### HOOFDSTUK 1. - [1 Algemeenheden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15800,11 +15800,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    (4)<W 2022-04-01/04, art. 3, 105; Inwerkingtreding : 01-05-2022>
    (5)<W 2022-06-19/03, art. 3, 113; Inwerkingtreding : 01-08-2022>
 
-  HOOFDSTUK 2. - [1 Auteursrecht]1
+#### HOOFDSTUK 2. - [1 Auteursrecht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. - [1 Auteursrecht in het algemeen]1
+##### Afdeling 1. - [1 Auteursrecht in het algemeen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15947,7 +15947,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. - [1 Bijzondere bepalingen betreffende de werken van letterkunde]1
+##### Afdeling 2. - [1 Bijzondere bepalingen betreffende de werken van letterkunde]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -15959,7 +15959,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Bijzondere bepalingen betreffende de werken van grafische of beeldende kunst]1
+##### Afdeling 3. - [1 Bijzondere bepalingen betreffende de werken van grafische of beeldende kunst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16021,7 +16021,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2017-06-08/13, art. 5, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 4. - [1 Bijzondere bepalingen betreffende de audiovisuele werken]1
+##### Afdeling 4. - [1 Bijzondere bepalingen betreffende de audiovisuele werken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16088,7 +16088,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 5. [1 Bijzondere bepalingen betreffende databanken]1
+##### Afdeling 5. [1 Bijzondere bepalingen betreffende databanken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16114,11 +16114,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 6. - [1 Uitzonderingen op de vermogensrechten van de auteur]1
+##### Afdeling 6. - [1 Uitzonderingen op de vermogensrechten van de auteur]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling 1. - [1 Algemene uitzonderingen op de vermogensrechten van de auteur]1
+###### Onderafdeling 1. - [1 Algemene uitzonderingen op de vermogensrechten van de auteur]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 3, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16175,7 +16175,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-12-22/03, art. 6, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (3)<W 2022-06-19/03, art. 14, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 2. [1 Uitzonderingen op de vermogensrechten van de auteur ten behoeve van onderwijs en wetenschappelijk onderzoek]1
+###### Onderafdeling 2. [1 Uitzonderingen op de vermogensrechten van de auteur ten behoeve van onderwijs en wetenschappelijk onderzoek]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 7, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16212,7 +16212,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 9, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (2)<W 2019-05-02/24, art. 3, 073; Inwerkingtreding : 31-05-2019> (3)<W 2022-06-19/03, art. 16, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 3. - [1 Uitlening van werken]1
+###### Onderafdeling 3. - [1 Uitlening van werken]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 10, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16226,7 +16226,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-11-25/04, art. 6, 068; Inwerkingtreding : 22-12-2018> (3)<W 2022-06-19/03, art. 17, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 4. - [1 Verweesde werken]1
+###### Onderafdeling 4. - [1 Verweesde werken]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 11, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16261,7 +16261,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 19, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1
+###### Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1
   ----------
   (1)<W 2022-06-19/03, art. 20, 113; Inwerkingtreding : 01-08-2022>
 
@@ -16277,7 +16277,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2022-06-19/03, art. 22, 113; Inwerkingtreding : 01-08-2022>
 
-  Afdeling 7. - [1 Gemeenschappelijke bepaling betreffende de geluidswerken en audiovisuele werken]1
+##### Afdeling 7. - [1 Gemeenschappelijke bepaling betreffende de geluidswerken en audiovisuele werken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16288,7 +16288,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 8. - [1 Het uitgavecontract]1
+##### Afdeling 8. - [1 Het uitgavecontract]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16337,7 +16337,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 9. [1 Het opvoeringscontract]1
+##### Afdeling 9. [1 Het opvoeringscontract]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16356,11 +16356,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2022-06-19/03, art. 27, 113; Inwerkingtreding : 01-08-2022>
 
-  HOOFDSTUK 3. - [1 Naburige rechten]1
+#### HOOFDSTUK 3. - [1 Naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. - [1 Algemene bepaling]1
+##### Afdeling 1. - [1 Algemene bepaling]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16371,7 +16371,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2022-06-19/03, art. 28, 113; Inwerkingtreding : 01-08-2022>
 
-  Afdeling 2. - [1 Bepalingen betreffende de uitvoerende kunstenaars]1
+##### Afdeling 2. - [1 Bepalingen betreffende de uitvoerende kunstenaars]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16491,7 +16491,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Gemeenschappelijke bepalingen betreffende de producenten van fonogrammen en van de eerste vastleggingen van films]1
+##### Afdeling 3. - [1 Gemeenschappelijke bepalingen betreffende de producenten van fonogrammen en van de eerste vastleggingen van films]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16526,7 +16526,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 4. - [1 Bepaling betreffende de verhuring van fonogrammen en van de eerste vastleggingen van films]1
+##### Afdeling 4. - [1 Bepaling betreffende de verhuring van fonogrammen en van de eerste vastleggingen van films]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16537,7 +16537,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 5. - [1 Gemeenschappelijke bepalingen betreffende de uitvoerende kunstenaars en de producenten]1
+##### Afdeling 5. - [1 Gemeenschappelijke bepalingen betreffende de uitvoerende kunstenaars en de producenten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16568,7 +16568,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2017-06-08/13, art. 7, 049; Inwerkingtreding : 01-01-2018> (3)<W 2018-11-25/03, art. 5, 076; Inwerkingtreding : 01-01-2019>
 
-  Afdeling 6. - [1 Bepalingen betreffende de omroeporganisaties]1
+##### Afdeling 6. - [1 Bepalingen betreffende de omroeporganisaties]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16640,11 +16640,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 40, 113; Inwerkingtreding : 01-08-2022>
 
-  Afdeling 7. [1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.]1
+##### Afdeling 7. [1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.]1
   ----------
   (1)<W 2022-06-19/03, art. 41, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 1. - [1 Algemene uitzonderingen]1
+###### Onderafdeling 1. - [1 Algemene uitzonderingen]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 14, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16674,7 +16674,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-12-22/03, art. 15, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (3)<W 2018-11-25/04, art. 7, 068; Inwerkingtreding : 22-12-2018> (4)<W 2019-05-02/28, art. 25, 077; Inwerkingtreding : 01-06-2019> (5)<W 2022-06-19/03, art. 42, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 2. - [1 Uitzonderingen ten behoeve van onderwijs en wetenschappelijk onderzoek]1
+###### Onderafdeling 2. - [1 Uitzonderingen ten behoeve van onderwijs en wetenschappelijk onderzoek]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 16, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16697,7 +16697,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 17, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (2)<W 2018-11-25/04, art. 8, 068; Inwerkingtreding : 22-12-2018> (3)<W 2019-05-02/24, art. 4, 073; Inwerkingtreding : 31-05-2019> (4)<W 2022-06-19/03, art. 43, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 3. - [1 Uitlening van prestaties]1
+###### Onderafdeling 3. - [1 Uitlening van prestaties]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 18, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16711,7 +16711,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-11-25/04, art. 9, 068; Inwerkingtreding : 22-12-2018> (3)<W 2022-06-19/03, art. 44, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 4. - [1 Verweesde werken]1
+###### Onderafdeling 4. - [1 Verweesde werken]1
   ----------
   (1)<Ingevoegd bij W 2016-12-22/03, art. 19, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -16744,7 +16744,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 47, 113; Inwerkingtreding : 01-08-2022>
 
-  Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1
+###### Onderafdeling 5. [1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1]1
   ----------
   (1)<W 2022-06-19/03, art. 48, 113; Inwerkingtreding : 01-08-2022>
 
@@ -16760,11 +16760,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2022-06-19/03, art. 50, 113; Inwerkingtreding : 01-08-2022>
 
-  HOOFDSTUK 4. [1 - Mededeling aan het publiek per satelliet, doorgifte via de kabel, doorgifte, uitzending via directe injectie en ondersteunende onlinediensten van omroeporganisaties]1
+#### HOOFDSTUK 4. [1 - Mededeling aan het publiek per satelliet, doorgifte via de kabel, doorgifte, uitzending via directe injectie en ondersteunende onlinediensten van omroeporganisaties]1
   ----------
   (1)<W 2022-04-01/04, art. 5, 105; Inwerkingtreding : 01-05-2022>
 
-  Afdeling 1. - [1 Mededeling aan het publiek per satelliet]1
+##### Afdeling 1. - [1 Mededeling aan het publiek per satelliet]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -16786,7 +16786,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. [1 - Doorgifte via de kabel en doorgifte]1
+##### Afdeling 2. [1 - Doorgifte via de kabel en doorgifte]1
   ----------
   (1)<W 2022-04-01/04, art. 6, 105; Inwerkingtreding : 01-05-2022>
 
@@ -16818,7 +16818,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2017-06-08/13, art. 9, 049; Inwerkingtreding : 01-01-2018> (3)<W 2018-11-25/03, art. 6, 076; Inwerkingtreding : 01-07-2019> (4)<W 2022-04-01/04, art. 9, 105; Inwerkingtreding : 01-05-2022> (5)<W 2024-02-09/19, art. 36, 129; Inwerkingtreding : 21-03-2024>
 
-  Afdeling 3. [1 - Mededeling aan het publiek via directe injectie]1
+##### Afdeling 3. [1 - Mededeling aan het publiek via directe injectie]1
   ----------
   (1)<Ingevoegd bij W 2018-11-25/03, art. 8, 076; Inwerkingtreding : 01-07-2019>
 
@@ -16876,7 +16876,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-04-01/04, art. 13, 105; Inwerkingtreding : 01-05-2022>
 
-  Afdeling 4. [1 - Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3/1]1
+##### Afdeling 4. [1 - Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3/1]1
   ----------
   (1)<W 2022-04-01/04, art. 14, 105; Inwerkingtreding : 01-05-2022>
 
@@ -16994,7 +16994,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-06-19/03, art. 59, 113; Inwerkingtreding : 01-08-2022>
 
-   HOOFDSTUK 4.2. [1 - Gebruik van geluids- en/of audiovisuele werken door bepaalde dienstverleners van de informatiemaatschappij.]1
+#### HOOFDSTUK 4.2. [1 - Gebruik van geluids- en/of audiovisuele werken door bepaalde dienstverleners van de informatiemaatschappij.]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 60, 113; Inwerkingtreding : 01-08-2022>
 
@@ -17018,7 +17018,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 62, 113; Inwerkingtreding : 01-08-2022> (2)<W 2024-02-09/19, art. 39, 129; Inwerkingtreding : 21-03-2024>
 
-  HOOFDSTUK 5. [1 De vergoeding voor de reproductie voor eigen gebruik van werken en prestaties]1
+#### HOOFDSTUK 5. [1 De vergoeding voor de reproductie voor eigen gebruik van werken en prestaties]1
   ----------
   (1)<W 2016-12-22/03, art. 22, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -17098,7 +17098,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   § 2. De Gemeenschappen en de Federale Staat kunnen besluiten om dertig procent van de opbrengst van de vergoeding waarvan sprake is in de voorgaande paragraaf, te gebruiken ter aanmoediging van de schepping van werken, en zulks door middel van een samenwerkingsakkoord met toepassing van artikel 92bis, § 1, van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-12-22/03, art. 25, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
-  HOOFDSTUK 6. [1 De vergoeding voor reprografie]1
+#### HOOFDSTUK 6. [1 De vergoeding voor reprografie]1
   ----------
   (1)<W 2016-12-22/03, art. 26, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -17145,7 +17145,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2016-12-22/03, art. 30, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (2)<W 2017-06-08/13, art. 15, 049; Inwerkingtreding : 01-01-2018>
 
-  HOOFDSTUK 7. [1 Het gebruik van werken of prestaties ten behoeve van onderwijs en wetenschappelijk onderzoek]1
+#### HOOFDSTUK 7. [1 Het gebruik van werken of prestaties ten behoeve van onderwijs en wetenschappelijk onderzoek]1
   ----------
   (1)<W 2016-12-22/03, art. 31, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -17170,7 +17170,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-12-22/03, art. 34, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)> (3)<W 2017-06-08/13, art. 16, 049; Inwerkingtreding : 01-01-2018>
 
-  HOOFDSTUK 8. - [1 Bepalingen inzake openbare uitlening]1
+#### HOOFDSTUK 8. - [1 Bepalingen inzake openbare uitlening]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -17358,11 +17358,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-11-25/04, art. 12, 068; Inwerkingtreding : 22-12-2018>
 
-  HOOFDSTUK 9. [1 - Collectief beheer van het auteursrecht en de naburige rechten]1
+#### HOOFDSTUK 9. [1 - Collectief beheer van het auteursrecht en de naburige rechten]1
   ----------
   (1)<W 2017-06-08/13, art. 18, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 1. [1 Toepassingsgebied]1
+##### Afdeling 1. [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 19, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17377,7 +17377,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 20, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 2. [1 Rechtsvorm]1
+##### Afdeling 2. [1 Rechtsvorm]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 21, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17389,11 +17389,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 22, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 3. [1 Interacties met de rechthebbenden en organisatie]1
+##### Afdeling 3. [1 Interacties met de rechthebbenden en organisatie]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 23, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 1. [1 Algemene principes]1
+###### Onderafdeling 1. [1 Algemene principes]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 24, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17404,7 +17404,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 25, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 2. [1 Rechten van de rechthebbenden]1
+###### Onderafdeling 2. [1 Rechten van de rechthebbenden]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 26, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17436,7 +17436,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-06-08/13, art. 28, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 3. [1 Organisatie]1
+###### Onderafdeling 3. [1 Organisatie]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 29, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17587,11 +17587,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-06-08/13, art. 39, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 4. [1 Beheer van de rechten]1
+##### Afdeling 4. [1 Beheer van de rechten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 40, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 1. [1 Tariferings-, innings- en verdelingsregels]1
+###### Onderafdeling 1. [1 Tariferings-, innings- en verdelingsregels]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 41, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17604,7 +17604,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 42, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 2. [1 Investeringen]1
+###### Onderafdeling 2. [1 Investeringen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 43, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17619,7 +17619,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (1)<W 2017-06-08/13, art. 44, 049; Inwerkingtreding : 01-01-2018>
   (2)<W 2024-02-09/19, art. 41, 129; Inwerkingtreding : 31-03-2024>
 
-  Onderafdeling 3. [1 Verdeling]1
+###### Onderafdeling 3. [1 Verdeling]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 45, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17675,7 +17675,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 50, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 4. [1 Beheerkosten]1
+###### Onderafdeling 4. [1 Beheerkosten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 51, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17687,7 +17687,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 52, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 5. [1 Kredieten en leningen]1
+###### Onderafdeling 5. [1 Kredieten en leningen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 53, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17697,7 +17697,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 54, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 6. [1 Sociale, culturele en educatieve doeleinden]1
+###### Onderafdeling 6. [1 Sociale, culturele en educatieve doeleinden]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 55, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17711,7 +17711,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 56, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 7. [1 Vertegenwoordigingsovereenkomsten]1
+###### Onderafdeling 7. [1 Vertegenwoordigingsovereenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 57, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17730,11 +17730,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 59, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 5. [1 Interacties met gebruikers]1
+##### Afdeling 5. [1 Interacties met gebruikers]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 60, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 1. [1 Inning van de rechten]1
+###### Onderafdeling 1. [1 Inning van de rechten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 61, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17767,7 +17767,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 64, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 2. [1 Verhoging van rechten]1
+###### Onderafdeling 2. [1 Verhoging van rechten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 65, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17778,7 +17778,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 66, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 3. [1 Administratieve vereenvoudiging]1
+###### Onderafdeling 3. [1 Administratieve vereenvoudiging]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 67, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17791,11 +17791,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 68, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 6. [1 Informatie en communicatie]1
+##### Afdeling 6. [1 Informatie en communicatie]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 69, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 1. [1 Algemene informatie]1
+###### Onderafdeling 1. [1 Algemene informatie]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 70, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17823,7 +17823,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 72, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 2. [1 Informatie van de rechthebbenden]1
+###### Onderafdeling 2. [1 Informatie van de rechthebbenden]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 73, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17855,7 +17855,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 75, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 3. [1 Informatie in het kader van vertegenwoordigingsovereenkomsten]1
+###### Onderafdeling 3. [1 Informatie in het kader van vertegenwoordigingsovereenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 76, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17870,7 +17870,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 77, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 4. [1 Informatie van de gebruikers]1
+###### Onderafdeling 4. [1 Informatie van de gebruikers]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 78, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17883,7 +17883,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 79, 049; Inwerkingtreding : 01-01-2018>
 
-  Onderafdeling 5. [1 Mededeling aan de Controledienst]1
+###### Onderafdeling 5. [1 Mededeling aan de Controledienst]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 80, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17901,7 +17901,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 82, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 7. [1 Klachtenbeheer]1
+##### Afdeling 7. [1 Klachtenbeheer]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 83, 049; Inwerkingtreding : 01-01-2018>
 
@@ -17914,7 +17914,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 84, 049; Inwerkingtreding : 01-01-2018> (2)<W 2018-09-20/14, art. 7, 067; Inwerkingtreding : 20-10-2018>
 
-  Afdeling 8. [1 Multiterritoriale licenties van onlinerechten inzake muziekwerken met het oog op onlinegebruik ervan]1
+##### Afdeling 8. [1 Multiterritoriale licenties van onlinerechten inzake muziekwerken met het oog op onlinegebruik ervan]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 85, 049; Inwerkingtreding : 27-06-2017>
 
@@ -18016,7 +18016,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 96, 049; Inwerkingtreding : 27-06-2017> (2)<W 2022-04-01/04, art. 19, 105; Inwerkingtreding : 01-05-2022>
 
-  Afdeling 9. [1 Revisoraal toezicht]1
+##### Afdeling 9. [1 Revisoraal toezicht]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 97, 049; Inwerkingtreding : 01-01-2018>
 
@@ -18057,7 +18057,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-06-08/13, art. 101, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 10. [1 Vergunning en verklaring]1
+##### Afdeling 10. [1 Vergunning en verklaring]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 102, 049; Inwerkingtreding : 01-01-2018>
 
@@ -18085,11 +18085,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-08/13, art. 104, 049; Inwerkingtreding : 01-01-2018>
 
-  HOOFDSTUK 10. - [1 Transparantie van het auteursrecht en de naburige rechten]1
+#### HOOFDSTUK 10. - [1 Transparantie van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1.
+##### Afdeling 1.
 
 ## Art. XI.274.
 
@@ -18101,7 +18101,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XI.278.
 
-  Afdeling 2. - [1 De Controledienst van de beheersvennootschappen]1
+##### Afdeling 2. - [1 De Controledienst van de beheersvennootschappen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18182,7 +18182,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 Economische analyse van het auteursrecht en de naburige rechten]1
+##### Afdeling 3. - [1 Economische analyse van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18209,7 +18209,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 4. - [1 Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3]1
+##### Afdeling 4. - [1 Bepalingen gemeenschappelijk aan de afdelingen 1 tot 3]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18265,7 +18265,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-06-29/01, art. 32, 036; Inwerkingtreding : 16-07-2016>
 
-  HOOFDSTUK 11. - [1 Toepassingsgebied]1
+#### HOOFDSTUK 11. - [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18288,7 +18288,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 12. - [1 Rechtsbescherming van technische voorzieningen en informatie betreffende het beheer van rechten]1
+#### HOOFDSTUK 12. - [1 Rechtsbescherming van technische voorzieningen en informatie betreffende het beheer van rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18320,7 +18320,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 13. - [1 Namaak]1
+#### HOOFDSTUK 13. - [1 Namaak]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18334,7 +18334,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Titel 6. - [1 Computerprogramma's]1
+### Titel 6. - [1 Computerprogramma's]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18461,11 +18461,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Titel 7. - [1 Databanken]1
+### Titel 7. - [1 Databanken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Begrippen en toepassingsgebied]1
+#### HOOFDSTUK 1. - [1 Begrippen en toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18485,7 +18485,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 2. - [1 Rechten van de producenten van databanken]1
+#### HOOFDSTUK 2. - [1 Rechten van de producenten van databanken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18513,7 +18513,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 3. - [1 Uitzonderingen op het recht van de producenten van databanken]1
+#### HOOFDSTUK 3. - [1 Uitzonderingen op het recht van de producenten van databanken]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18558,7 +18558,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 84, 113; Inwerkingtreding : 01-08-2022>
 
-  HOOFDSTUK 4. - [1 Rechten en verplichtingen van de rechtmatige gebruikers]1
+#### HOOFDSTUK 4. - [1 Rechten en verplichtingen van de rechtmatige gebruikers]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18587,7 +18587,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   [2 ...]2]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2022-06-19/03, art. 85, 113; Inwerkingtreding : 01-08-2022>
-  HOOFDSTUK 5. - [1 Beschermingsgerechtigden]1
+#### HOOFDSTUK 5. - [1 Beschermingsgerechtigden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18599,7 +18599,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 6. - [1 Rechtsbescherming van technische voorzieningen en van informatie betreffende het beheer van rechten]1
+#### HOOFDSTUK 6. - [1 Rechtsbescherming van technische voorzieningen en van informatie betreffende het beheer van rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18628,7 +18628,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 7. - [1 Namaak]1
+#### HOOFDSTUK 7. - [1 Namaak]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18753,15 +18753,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2019-05-02/23, art. 8, 079; Inwerkingtreding : 01-09-2019>
 
-  Titel 8. - [1 Topografieën van halfgeleiderproducten]1
+### Titel 8. - [1 Topografieën van halfgeleiderproducten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Het exclusief recht op een topografie van een halfgeleiderproduct]1
+#### HOOFDSTUK 1. - [1 Het exclusief recht op een topografie van een halfgeleiderproduct]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. - [1 Het voorwerp en de houder van het exclusief recht]1
+##### Afdeling 1. - [1 Het voorwerp en de houder van het exclusief recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18797,7 +18797,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 2. - [1 Voorwaarden op het stuk van nationaliteit, verblijf of vestiging]1
+##### Afdeling 2. - [1 Voorwaarden op het stuk van nationaliteit, verblijf of vestiging]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18822,7 +18822,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 3. - [1 De duur en het verstrijken van het exclusief recht]1
+##### Afdeling 3. - [1 De duur en het verstrijken van het exclusief recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18834,7 +18834,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 2. - [1 De beperkingen van het exclusief recht op een topografie van een halfgeleiderproduct]1
+#### HOOFDSTUK 2. - [1 De beperkingen van het exclusief recht op een topografie van een halfgeleiderproduct]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18946,11 +18946,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-09-25/06, art. 29, 119; Inwerkingtreding : 01-12-2022>
 
-  Titel 9. - [1 Burgerrechtelijke aspecten van de bescherming van intellectuele eigendomsrechten]1
+### Titel 9. - [1 Burgerrechtelijke aspecten van de bescherming van intellectuele eigendomsrechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 1. - [1 Algemeenheden]1
+#### HOOFDSTUK 1. - [1 Algemeenheden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18960,7 +18960,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 2. - [1 Staking van de inbreuk en andere maatregelen]1
+#### HOOFDSTUK 2. - [1 Staking van de inbreuk en andere maatregelen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18979,7 +18979,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 3. - [1 Vergoeding van de schade geleden door de namaak]1
+#### HOOFDSTUK 3. - [1 Vergoeding van de schade geleden door de namaak]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -18994,7 +18994,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-  HOOFDSTUK 4. - [1 Vordering betreffende de toepassing van technische voorzieningen in het kader van het auteursrecht, de naburige rechten en het recht van de producenten van databanken ]1
+#### HOOFDSTUK 4. - [1 Vordering betreffende de toepassing van technische voorzieningen in het kader van het auteursrecht, de naburige rechten en het recht van de producenten van databanken ]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -19027,7 +19027,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 10, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 1. [1 - Algemeenheden]1
+#### HOOFDSTUK 1. [1 - Algemeenheden]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 11, 064; Inwerkingtreding : 24-08-2018>
 
@@ -19037,7 +19037,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 12, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 2. [1 - Staking van de onrechtmatige praktijk en andere maatregelen]1
+#### HOOFDSTUK 2. [1 - Staking van de onrechtmatige praktijk en andere maatregelen]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 13, 064; Inwerkingtreding : 24-08-2018>
 
@@ -19082,7 +19082,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
     Wanneer geldelijke schadeloosstelling wordt bevolen in plaats van de in artikel XI.336/3, § 1, onder 1° en 2°, genoemde maatregelen, mag deze niet meer bedragen dan het bedrag van de royalty's of vergoedingen die verschuldigd waren geweest indien die persoon toestemming had gevraagd om het desbetreffende bedrijfsgeheim te gebruiken, voor de periode waarin het gebruik van het bedrijfsgeheim verboden had kunnen worden.]1
    ----------
    (1)<Ingevoegd bij W 2018-07-30/18, art. 16, 064; Inwerkingtreding : 24-08-2018>
-  HOOFDSTUK 3. [1 - Vergoeding van de schade geleden door het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim]1
+#### HOOFDSTUK 3. [1 - Vergoeding van de schade geleden door het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 17, 064; Inwerkingtreding : 24-08-2018>
 
@@ -19094,11 +19094,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 18, 064; Inwerkingtreding : 24-08-2018>
 
-  Titel 10. - [1 Aspecten van gerechtelijk recht van de bescherming van intellectuele eigendomsrechten [2 en bedrijfsgeheimen]2]1
+### Titel 10. - [1 Aspecten van gerechtelijk recht van de bescherming van intellectuele eigendomsrechten [2 en bedrijfsgeheimen]2]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-07-30/18, art. 19, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 1. - [1 Bevoegheid inzake uitvindingsoctrooien en aanvullende beschermingscertificaten ]1
+#### HOOFDSTUK 1. - [1 Bevoegheid inzake uitvindingsoctrooien en aanvullende beschermingscertificaten ]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -19139,7 +19139,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-02-09/19, art. 45, 129; Inwerkingtreding : 31-03-2024>
 
-  HOOFDSTUK 2. [1 - Bevoegdheid inzake kwekersrechten.]1
+#### HOOFDSTUK 2. [1 - Bevoegdheid inzake kwekersrechten.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-10/77, art. 4, 023; Inwerkingtreding : 01-01-2015>
 
@@ -19150,13 +19150,13 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-10/77, art. 4, 023; Inwerkingtreding : 01-01-2015> (2)<W 2018-04-15/14, art. 196, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 3.
+#### HOOFDSTUK 3.
 
 ## Art. XI.340.
 
 ## Art. XI.341.
 
-  HOOFDSTUK 4. - [1 Bevoegdheid inzake topografieën van halfgeleiderproducten]1
+#### HOOFDSTUK 4. - [1 Bevoegdheid inzake topografieën van halfgeleiderproducten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -19205,7 +19205,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2018-07-30/18, art. 23, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 5. - [1 Gemeenschappelijke bepaling]1
+#### HOOFDSTUK 5. - [1 Gemeenschappelijke bepaling]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -19216,24 +19216,24 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-06-29/01, art. 35, 036; Inwerkingtreding : 16-07-2016>
 
-  Boek XII. - [1 Recht van de elektronische economie]1
+## Boek XII. - [1 Recht van de elektronische economie]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Titel 1. - [1 Bepaalde juridische aspecten van de diensten van de informatiemaatschappij]1
+### Titel 1. - [1 Bepaalde juridische aspecten van de diensten van de informatiemaatschappij]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Hoofdstuk 1. - [1 Voorafgaande bepalingen]1
+#### Hoofdstuk 1. - [1 Voorafgaande bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
 ## Art. XII.1
 
 [1 § 1. Hoofdstukken 1 tot 6 van deze titel zetten de bepalingen om van Richtlijn 2000/31/EG van het Europees Parlement en de Raad van 8 juni 2000 betreffende bepaalde juridische aspecten van de diensten van de informatiemaatschappij, met name de elektronische handel, in de interne markt.
-  Hoofdstuk 4 zet bovendien gedeeltelijk de bepalingen om van Richtlijn 2009/136/EG van het Europees Parlement en de Raad van 25 november 2009 tot wijziging van Richtlijn 2002/22/EG inzake de universele dienst en gebruikersrechten met betrekking tot elektronische-communicatienetwerken en-diensten, Richtlijn 2002/58/EG betreffende de verwerking van persoonsgegevens en de bescherming van de persoonlijke levenssfeer in de sector van elektronische communicatie [2 en Verordening (EU) 2017/2394 van het Europees Parlement en de Raad van 12 december 2017 betreffende samenwerking tussen de nationale autoriteiten die verantwoordelijk zijn voor handhaving van de wetgeving inzake consumentenbescherming en tot intrekking van Verordening (EG) nr.
+#### Hoofdstuk 4 zet bovendien gedeeltelijk de bepalingen om van Richtlijn 2009/136/EG van het Europees Parlement en de Raad van 25 november 2009 tot wijziging van Richtlijn 2002/22/EG inzake de universele dienst en gebruikersrechten met betrekking tot elektronische-communicatienetwerken en-diensten, Richtlijn 2002/58/EG betreffende de verwerking van persoonsgegevens en de bescherming van de persoonlijke levenssfeer in de sector van elektronische communicatie [2 en Verordening (EU) 2017/2394 van het Europees Parlement en de Raad van 12 december 2017 betreffende samenwerking tussen de nationale autoriteiten die verantwoordelijk zijn voor handhaving van de wetgeving inzake consumentenbescherming en tot intrekking van Verordening (EG) nr.
  2006/2004.]2
-  Hoofdstuk 7 zet de bepalingen om van Richtlijn 98/84/EG van het Europees Parlement en de Raad van 20 november 1998 betreffende de rechtsbescherming van diensten gebaseerd op of bestaande uit voorwaardelijke toegang.
+#### Hoofdstuk 7 zet de bepalingen om van Richtlijn 98/84/EG van het Europees Parlement en de Raad van 20 november 1998 betreffende de rechtsbescherming van diensten gebaseerd op of bestaande uit voorwaardelijke toegang.
   § 2. Deze titel regelt bepaalde juridische aspecten van de diensten van de informatiemaatschappij.
   Zij is niet van toepassing op :
   1° belastingen;
@@ -19246,11 +19246,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014> (2)<W 2020-09-29/05, art. 4, 092; Inwerkingtreding : 30-11-2020>
 
-  Hoofdstuk 2. - [1 Grondbeginselen]1
+#### Hoofdstuk 2. - [1 Grondbeginselen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 1. - [1 Het beginsel van vrijheid van vestiging]1
+##### Afdeling 1. - [1 Het beginsel van vrijheid van vestiging]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19261,7 +19261,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 2. - [1 Het beginsel van vrij verrichten van diensten]1
+##### Afdeling 2. - [1 Het beginsel van vrij verrichten van diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19275,7 +19275,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 3. - [1 Afwijkingen van het beginsel van het vrij verrichten van diensten]1
+##### Afdeling 3. - [1 Afwijkingen van het beginsel van het vrij verrichten van diensten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19308,7 +19308,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/27, art. 2, 011; Inwerkingtreding : 31-05-2014>
 
-  Hoofdstuk 3. - [1 Informatie en doorzichtigheid]1
+#### Hoofdstuk 3. - [1 Informatie en doorzichtigheid]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19369,7 +19369,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Hoofdstuk 4. - [1 Reclame]1
+#### Hoofdstuk 4. - [1 Reclame]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19405,7 +19405,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Hoofdstuk 5. - [1 Langs elektronische weg gesloten contracten]1
+#### Hoofdstuk 5. - [1 Langs elektronische weg gesloten contracten]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19427,23 +19427,23 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014> (2)<W 2018-09-20/14, art. 9, 067; Inwerkingtreding : 20-10-2018>
 
-  Hoofdstuk 6. - [1 Aansprakelijkheid van dienstverleners die als tussenpersoon optreden]1
+#### Hoofdstuk 6. - [1 Aansprakelijkheid van dienstverleners die als tussenpersoon optreden]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 1.
+##### Afdeling 1.
 
 ## Art. XII.17.
 
-  Afdeling 2.
+##### Afdeling 2.
 
 ## Art. XII.18.
 
-  Afdeling 3.
+##### Afdeling 3.
 
 ## Art. XII.19.
 
-  Afdeling 4. - [1 Toezichtverplichtingen]1
+##### Afdeling 4. - [1 Toezichtverplichtingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19456,7 +19456,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2024-04-21/06, art. 4, 132; Inwerkingtreding : 25-05-2024>
 
-  Hoofdstuk 7. - [1 De juridische bescherming van diensten van de informatiemaatschappij gebaseerd op of bestaande uit voorwaardelijke toegang.]1
+#### Hoofdstuk 7. - [1 De juridische bescherming van diensten van de informatiemaatschappij gebaseerd op of bestaande uit voorwaardelijke toegang.]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19469,7 +19469,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Hoofdstuk 8. - [1 Het registreren van domeinnamen]1
+#### Hoofdstuk 8. - [1 Het registreren van domeinnamen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
@@ -19486,11 +19486,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 3, 010; Inwerkingtreding : 31-05-2014>
 
-  Titel 2. - [1 Bepaalde regels in verband met het juridisch kader voor vertrouwensdiensten]1
+### Titel 2. - [1 Bepaalde regels in verband met het juridisch kader voor vertrouwensdiensten]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 3, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 1. - [1 Toepassingsgebied]1
+#### Hoofdstuk 1. - [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 4, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19504,7 +19504,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 5, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 2. [1 Algemene principes]1
+#### Hoofdstuk 2. [1 Algemene principes]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 6, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19536,7 +19536,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 8, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 3. - [1 Eisen voor elektronische archiveringsdiensten]1
+#### Hoofdstuk 3. - [1 Eisen voor elektronische archiveringsdiensten]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 9, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19566,7 +19566,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 12, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 4. - [1 Eisen betreffende de diensten van gekwalificeerde elektronische aangetekende zending]1
+#### Hoofdstuk 4. - [1 Eisen betreffende de diensten van gekwalificeerde elektronische aangetekende zending]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 13, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19577,7 +19577,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2016-07-21/40, art. 14, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 5. - [1 Intrekking, schorsing en verval van de gekwalificeerde certificaten van elektronische handtekening en van elektronisch zegel]1
+#### Hoofdstuk 5. - [1 Intrekking, schorsing en verval van de gekwalificeerde certificaten van elektronische handtekening en van elektronisch zegel]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 15, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19607,11 +19607,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 18, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Hoofdstuk 6. - [1 De vertrouwende partijen van een gekwalificeerde elektronische handtekening of van een gekwalificeerd elektronisch zegel]1
+#### Hoofdstuk 6. - [1 De vertrouwende partijen van een gekwalificeerde elektronische handtekening of van een gekwalificeerd elektronisch zegel]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 19, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)
 
-  Hoofdstuk 7. [1 Stopzetting van de activiteiten van een gekwalificeerde vertrouwensdienstverlener die een of meer gekwalificeerde vertrouwensdiensten verleent]1
+#### Hoofdstuk 7. [1 Stopzetting van de activiteiten van een gekwalificeerde vertrouwensdienstverlener die een of meer gekwalificeerde vertrouwensdiensten verleent]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 22, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -19684,11 +19684,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. N2, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Titel 3. [1 - Bepaalde regels in verband met het juridisch kader voor de data-economie]1
+### Titel 3. [1 - Bepaalde regels in verband met het juridisch kader voor de data-economie]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 10, 137; Inwerkingtreding : 01-10-2024>
 
-  Hoofdstuk 1. [1 - Toepassingsgebied]1
+#### Hoofdstuk 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 11, 137; Inwerkingtreding : 01-10-2024>
 
@@ -19698,11 +19698,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 12, 137; Inwerkingtreding : 01-10-2024>
 
-  Hoofdstuk 2. [1 - Kennisgeving van de databemiddelingsdiensten]1
+#### Hoofdstuk 2. [1 - Kennisgeving van de databemiddelingsdiensten]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 13, 137; Inwerkingtreding : 01-10-2024>
 
-  Afdeling 1. [1 - Vereisten betreffende de uitoefening van activiteiten als databemiddelingsdienst]1
+##### Afdeling 1. [1 - Vereisten betreffende de uitoefening van activiteiten als databemiddelingsdienst]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 14, 137; Inwerkingtreding : 01-10-2024>
 
@@ -19733,7 +19733,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 16, 137; Inwerkingtreding : 01-10-2024>
 
-  Afdeling 2. [1 - Het uitstel of de schorsing van de activiteit van databemiddeling]1
+##### Afdeling 2. [1 - Het uitstel of de schorsing van de activiteit van databemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 1, 137; Inwerkingtreding : 01-10-2024>
 
@@ -19744,11 +19744,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 18, 137; Inwerkingtreding : 01-10-2024>
 
-  Hoofdstuk 3. [1 - Registratie van organisaties voor data-altruïsme ]1
+#### Hoofdstuk 3. [1 - Registratie van organisaties voor data-altruïsme ]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 19, 137; Inwerkingtreding : 01-10-2024>
 
-  Afdeling 1. [1 - Vereisten inzake de registratie van activiteiten in verband met data-altruïsme]1
+##### Afdeling 1. [1 - Vereisten inzake de registratie van activiteiten in verband met data-altruïsme]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 20, 137; Inwerkingtreding : 01-10-2024>
 
@@ -19774,7 +19774,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 22, 137; Inwerkingtreding : 01-10-2024>
 
-  Hoofdstuk 4. [1 - Bescherming van persoonsgegevens]1
+#### Hoofdstuk 4. [1 - Bescherming van persoonsgegevens]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 22, 137; Inwerkingtreding : 01-10-2024>
 
@@ -19796,11 +19796,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 24, 137; Inwerkingtreding : 01-10-2024>
 
-  Boek XIII. - [1 Overleg]1
+## Boek XIII. - [1 Overleg]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  TITEL 1. - [1 De Centrale Raad voor het Bedrijfsleven Algemene organisatie]1
+### TITEL 1. - [1 De Centrale Raad voor het Bedrijfsleven Algemene organisatie]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -19853,11 +19853,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  TITEL 2. - [1 Bijzondere raadgevende commissies]1
+### TITEL 2. - [1 Bijzondere raadgevende commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  HOOFDSTUK 1. - [1 Oprichting]1
+#### HOOFDSTUK 1. - [1 Oprichting]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -19868,7 +19868,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  HOOFDSTUK 2. - [1 Samenstelling en werking]1
+#### HOOFDSTUK 2. - [1 Samenstelling en werking]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -19940,7 +19940,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  HOOFDSTUK 3. - [1 Integratie van bestaande raadgevende commissies]1
+#### HOOFDSTUK 3. - [1 Integratie van bestaande raadgevende commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 ## Art. XIII.17
@@ -19950,7 +19950,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  HOOFDSTUK 4. - [1 Door de Centrale Raad voor het Bedrijfsleven ingerichte bijzondere raadgevende commissies]1
+#### HOOFDSTUK 4. - [1 Door de Centrale Raad voor het Bedrijfsleven ingerichte bijzondere raadgevende commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -19968,11 +19968,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  HOOFDSTUK 5. - [1 Bijzondere bepalingen]1
+#### HOOFDSTUK 5. - [1 Bijzondere bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  Afdeling 1. - [1 Behandeling van de adviesaanvraag]1
+##### Afdeling 1. - [1 Behandeling van de adviesaanvraag]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -19988,7 +19988,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  Afdeling 2. - [1 Verhouding tussen de Centrale Raad voor het Bedrijfsleven en de bijzondere raadgevende commissies]1
+##### Afdeling 2. - [1 Verhouding tussen de Centrale Raad voor het Bedrijfsleven en de bijzondere raadgevende commissies]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 ## Art. XIII.21
@@ -20002,7 +20002,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  Afdeling 3. - [1 Bepalingen inzake het secretariaat en het personeel]1
+##### Afdeling 3. - [1 Bepalingen inzake het secretariaat en het personeel]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
@@ -20022,21 +20022,21 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/44, art. 2, 008; Inwerkingtreding : 30-04-2014>
 
-  BOEK XIV.
+## BOEK XIV.
 
-  Titel 1.
+### Titel 1.
 
 ## Art. XIV.1.
 
-  Titel 2.
+### Titel 2.
 
-  HOOFDSTUK 1.
+#### HOOFDSTUK 1.
 
 ## Art. XIV.2.
 
 ## Art. XIV.3.
 
-  HOOFDSTUK 2.
+#### HOOFDSTUK 2.
 
 ## Art. XIV.4.
 ## Art. XIV.5.
@@ -20055,13 +20055,13 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.8/3.
 
-  HOOFDSTUK 3.
+#### HOOFDSTUK 3.
 
 ## Art. XIV.9.
 
-  HOOFDSTUK 4.
+#### HOOFDSTUK 4.
 
-  Afdeling 1.
+##### Afdeling 1.
 
 ## Art. XIV.10.
 
@@ -20071,7 +20071,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.13.
 
-  Afdeling 2.
+##### Afdeling 2.
 
 ## Art. XIV.14.
 
@@ -20079,13 +20079,13 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.16.
 
-  HOOFDSTUK 5.
+#### HOOFDSTUK 5.
 
 ## Art. XIV.17.
 
-  Titel 3.
+### Titel 3.
 
-  HOOFDSTUK 1.
+#### HOOFDSTUK 1.
 
 ## Art. XIV.18.
 
@@ -20103,7 +20103,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.25.
 
-  HOOFDSTUK 2.
+#### HOOFDSTUK 2.
 
 ## Art. XIV.26.
 
@@ -20129,7 +20129,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.37.
 
-  HOOFDSTUK 3.
+#### HOOFDSTUK 3.
 
 ## Art. XIV.38.
 
@@ -20151,11 +20151,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.47.
 
-  HOOFDSTUK 4.
+#### HOOFDSTUK 4.
 
 ## Art. XIV.48.
 
-  HOOFDSTUK 5.
+#### HOOFDSTUK 5.
 
 ## Art. XIV.49.
 
@@ -20169,28 +20169,28 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.54.
 
-  HOOFDSTUK 7.
+#### HOOFDSTUK 7.
 
 ## Art. XIV.55.
 
-  HOOFDSTUK 8.
+#### HOOFDSTUK 8.
 ## Art. XIV.56.
 
 ## Art. XIV.57.
 
-  HOOFDSTUK 9.
+#### HOOFDSTUK 9.
 
 ## Art. XIV.58.
 
-  Titel 4.
+### Titel 4.
 
-  HOOFDSTUK 1.
+#### HOOFDSTUK 1.
 
-  Afdeling 1.
+##### Afdeling 1.
 
 ## Art. XIV.59.
 
-  Afdeling 2.
+##### Afdeling 2.
 
 ## Art. XIV.60.
 
@@ -20200,7 +20200,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.63.
 
-  Afdeling 3.
+##### Afdeling 3.
 
 ## Art. XIV.64.
 
@@ -20210,7 +20210,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.67.
 
-  Afdeling 4.
+##### Afdeling 4.
 
 ## Art. XIV.68.
 
@@ -20218,7 +20218,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.70.
 
-  HOOFDSTUK 2.
+#### HOOFDSTUK 2.
 
 ## Art. XIV.71.
 
@@ -20232,7 +20232,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.76.
 
-  HOOFDSTUK 3.
+#### HOOFDSTUK 3.
 
 ## Art. XIV.77.
 
@@ -20246,21 +20246,21 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XIV.82.
 
-  Titel 5.
+### Titel 5.
 
 ## Art. XIV.83.
 
-  Boek XV. - [1 Rechtshandhaving]1
+## Boek XV. - [1 Rechtshandhaving]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  TITEL 1. - [1 De uitoefening van toezicht en de opsporing en vaststelling van inbreuken]1
+### TITEL 1. - [1 De uitoefening van toezicht en de opsporing en vaststelling van inbreuken]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  HOOFDSTUK 1. - [1 Algemene bevoegdheden]1
+#### HOOFDSTUK 1. - [1 Algemene bevoegdheden]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -20508,7 +20508,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/07, art. 34, 123; Inwerkingtreding : 21-12-2023>
 
-  Afdeling 1. [1 - Rechten van natuurlijke personen bij de verwerking van persoonsgegevens]1
+##### Afdeling 1. [1 - Rechten van natuurlijke personen bij de verwerking van persoonsgegevens]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/07, art. 35, 123; Inwerkingtreding : 21-12-2023>
 
@@ -20594,7 +20594,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2023-11-05/07, art. 40, 123; Inwerkingtreding : 21-12-2023>
 
-  Afdeling 2. [1 - De bescherming van persoonsgegevens.]1
+##### Afdeling 2. [1 - De bescherming van persoonsgegevens.]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/07, art. 41, 123; Inwerkingtreding : 21-12-2023>
 
@@ -20626,12 +20626,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/07, art. 44, 123; Inwerkingtreding : 21-12-2023>
 
-  HOOFDSTUK 2. - [1 Bijzondere bevoegdheden [...]]1
+#### HOOFDSTUK 2. - [1 Bijzondere bevoegdheden [...]]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. [1 De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VI]1
+##### Afdeling 1. [1 De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VI]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
 
@@ -20717,12 +20717,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2021-11-28/08, art. 12, 102; Inwerkingtreding : 25-12-2021>
 
-  Afdeling 2. [1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII]1
+##### Afdeling 2. [1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
 
-  Onderafdeling 1. [1 - Algemene bepalingen]1
+###### Onderafdeling 1. [1 - Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art.
  1)>
@@ -20769,7 +20769,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
  1)>
    (2)<W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (3)<W 2015-10-26/06, art. 54, 028; Inwerkingtreding : 09-11-2015> (4)<W 2016-12-01/12, art. 5, 040; Inwerkingtreding : 25-12-2016> (5)<W 2018-07-30/47, art. 32, 065; Inwerkingtreding : 15-09-2018> (6)<W 2023-11-05/07, art. 45, 123; Inwerkingtreding : 21-12-2023> (7)<W 2025-12-11/13, art. 165, 143; Inwerkingtreding : 03-01-2026>
 
-  Onderafdeling 2. [1 - De bevoegdheden van de FSMA]1
+###### Onderafdeling 2. [1 - De bevoegdheden van de FSMA]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
@@ -20793,7 +20793,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 3)>
 
-  Onderafdeling 3. [1 - De bevoegdheden van de Bank.]1
+###### Onderafdeling 3. [1 - De bevoegdheden van de Bank.]1
   ----------
   (1)<Ingevoegd bij W 2016-12-01/12, art. 6, 040; Inwerkingtreding : 25-12-2016>
 
@@ -20810,7 +20810,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 24, 141; Inwerkingtreding : 28-06-2025>
 
-  Onderafdeling 1. [1 - Klachten met betrekking tot de toegankelijkheid van producten en diensten]1
+###### Onderafdeling 1. [1 - Klachten met betrekking tot de toegankelijkheid van producten en diensten]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 25, 141; Inwerkingtreding : 28-06-2025>
 
@@ -20845,7 +20845,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 27, 141; Inwerkingtreding : 28-06-2025>
 
-  Onderafdeling 2. [1 - Markttoezicht op producten]1
+###### Onderafdeling 2. [1 - Markttoezicht op producten]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 28, 141; Inwerkingtreding : 28-06-2025>
 
@@ -20863,7 +20863,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 29, 141; Inwerkingtreding : 28-06-2025>
 
-  Afdeling 3. - [1 De bijzondere bevoegdheden voor de toepassing van Boek IX]1
+##### Afdeling 3. - [1 De bijzondere bevoegdheden voor de toepassing van Boek IX]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -20886,11 +20886,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 4. - [1 De bijzondere bevoegdheden voor de toepassing van boek XI]1
+##### Afdeling 4. - [1 De bijzondere bevoegdheden voor de toepassing van boek XI]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling 1. - [1 Bestrijding van namaak en piraterij]1
+###### Onderafdeling 1. - [1 Bestrijding van namaak en piraterij]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
@@ -20949,7 +20949,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015> (2)<W 2023-11-05/07, art. 47, 123; Inwerkingtreding : 21-12-2023>
 
-  Onderafdeling 2. - [1 Collectief beheer van het auteursrecht en naburige rechten en transparantie van het auteursrecht en de naburige rechten]1
+###### Onderafdeling 2. - [1 Collectief beheer van het auteursrecht en naburige rechten en transparantie van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
@@ -20965,7 +20965,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-06-08/13, art. 113, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 5. [1 De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek XII]1
+##### Afdeling 5. [1 De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek XII]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 26, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -20983,7 +20983,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 27, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Afdeling 6.
+##### Afdeling 6.
 
 ## Art. XV.27.
 
@@ -20997,7 +20997,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XV.27/5.
 
-  Afdeling 7. [1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek XVIII]1
+##### Afdeling 7. [1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek XVIII]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 3, 015; Inwerkingtreding : 30-04-2014>
 
@@ -21010,7 +21010,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 3, 015; Inwerkingtreding : 30-04-2014>
 
-  Afdeling 8. - [1 De bijzondere bevoegdheid van het openbaar ministerie en de onderzoeksrechter]1
+##### Afdeling 8. - [1 De bijzondere bevoegdheid van het openbaar ministerie en de onderzoeksrechter]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -21045,7 +21045,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 6, 024; Inwerkingtreding : 01-01-2015> (2)<W 2018-07-30/47, art. 33, 065; Inwerkingtreding : 15-09-2018> (3)<W 2024-05-03/21, art. 30, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 9. [1 Andere bijzondere bevoegdheden]1
+##### Afdeling 9. [1 Andere bijzondere bevoegdheden]1
   ----------
   (1)<Ingevoegd bij W 2017-04-18/03, art. 23, 046; Inwerkingtreding : 04-05-2017>
 
@@ -21057,11 +21057,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-04-18/03, art. 24, 046; Inwerkingtreding : 04-05-2017>
 
-  Afdeling 10. [1 Certificering van de cyberbeveiliging.]1
+##### Afdeling 10. [1 Certificering van de cyberbeveiliging.]1
   ----------
   (1)<Ingevoegd bij W 2022-07-20/11, art. 46, 114; Inwerkingtreding : 05-08-2022>
 
-  Onderafdeling 1. [1 - Vrijwillige cyberbeveiligingscertificering]1
+###### Onderafdeling 1. [1 - Vrijwillige cyberbeveiligingscertificering]1
   ----------
   (1)<Ingevoegd bij W 2022-07-20/11, art. 47, 114; Inwerkingtreding : 05-08-2022>
 
@@ -21069,7 +21069,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-07-20/11, art. 48, 114; Inwerkingtreding : 05-08-2022>
 
-  Onderafdeling 2. [1 - Verplichte cyberbeveiligingscertificering]1
+###### Onderafdeling 2. [1 - Verplichte cyberbeveiligingscertificering]1
   ----------
   (1)<Ingevoegd bij W 2022-07-20/11, art. 49, 114; Inwerkingtreding : 05-08-2022>
 
@@ -21080,7 +21080,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2022-07-20/11, art. 50, 114; Inwerkingtreding : 05-08-2022>
 
-  HOOFDSTUK 3. - [1 Waarschuwings- en [2 openbaarmakingsprocedures]2 [3 en herstelmaatregelen]3]1
+#### HOOFDSTUK 3. - [1 Waarschuwings- en [2 openbaarmakingsprocedures]2 [3 en herstelmaatregelen]3]1
   ----------
 
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
@@ -21088,7 +21088,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (2)<W 2014-04-19/60, art. 7, 024; Inwerkingtreding : 01-01-2015>
   (3)<W 2020-09-29/05, art. 11, 092; Inwerkingtreding : 30-11-2020>
 
-  Afdeling 1. [1 - Algemene bepalingen]1
+##### Afdeling 1. [1 - Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 8, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21109,7 +21109,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
  6)>
    (2)<W 2014-04-19/39, art. 5, 021; Inwerkingtreding : 01-11-2015 (zie KB2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (3)<W 2014-04-19/60, art. 9, 024; Inwerkingtreding : 01-01-2015> (4)<W 2015-10-26/06, art. 55, 028; Inwerkingtreding : 09-11-2015> (5)<W 2018-07-30/47, art. 32, 065; Inwerkingtreding : 15-09-2018> (6)<W 2020-09-29/05, art. 12, 092; Inwerkingtreding : 30-11-2020> (7)<W 2022-09-25/14, art. 32, 120; Inwerkingtreding : 26-01-2023> (8)<W 2023-11-05/07, art. 49, 123; Inwerkingtreding : 21-12-2023>
 
-  Afdeling 2. [1 - Transparantie van het auteursrecht en de naburige rechten]1
+##### Afdeling 2. [1 - Transparantie van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 10, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21132,7 +21132,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2017-06-08/13, art. 114, 049; Inwerkingtreding : 01-01-2018>
 
-  Afdeling 3. [1 - Herstelmaatregelen]1
+##### Afdeling 3. [1 - Herstelmaatregelen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 13, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21150,7 +21150,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    (2)<W 2023-11-05/07, art. 50, 123; Inwerkingtreding : 21-12-2023>
    (3)<W 2024-05-03/21, art. 31, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 4. [1 - Openbaarmaking]1
+##### Afdeling 4. [1 - Openbaarmaking]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 15, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21177,12 +21177,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 7, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2018-07-30/47, art. 32, 065; Inwerkingtreding : 15-09-2018>
 
-  HOOFDSTUK 4. - [1 Coördinatie en opvolging tussen verschillende overheidsdiensten]1
+#### HOOFDSTUK 4. - [1 Coördinatie en opvolging tussen verschillende overheidsdiensten]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. - [1 Algemeen]1
+##### Afdeling 1. - [1 Algemeen]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -21214,11 +21214,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 2. [1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.]1
+##### Afdeling 2. [1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-  Onderafdeling 1. [1 Toepassingsgebied.]1
+###### Onderafdeling 1. [1 Toepassingsgebied.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
@@ -21229,7 +21229,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-  Onderafdeling 2. [1 Principes.]1
+###### Onderafdeling 2. [1 Principes.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
@@ -21337,7 +21337,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-  Onderafdeling 3.
+###### Onderafdeling 3.
 
 ## Art. XV.49.
 
@@ -21368,7 +21368,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 10, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 56, 028; Inwerkingtreding : 01-11-2015> (3)<W 2016-10-25/04, art. 168, 039; Inwerkingtreding : 28-11-2016> (4)<W 2018-07-30/47, art. 34, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 3. [1 - Bestrijding tegen namaak en piraterij]1
+##### Afdeling 3. [1 - Bestrijding tegen namaak en piraterij]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 11, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21428,7 +21428,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 21, 092; Inwerkingtreding : 30-11-2020>
 
-  HOOFDSTUK 1. [1 - Algemeen]1
+#### HOOFDSTUK 1. [1 - Algemeen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 22, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21454,7 +21454,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 25, 092; Inwerkingtreding : 30-11-2020>
 
-  HOOFDSTUK 2. [1 - Verweermiddelen]1
+#### HOOFDSTUK 2. [1 - Verweermiddelen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 26, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21499,7 +21499,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 33, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 3. [1 - Beslissing tot oplegging van een administratieve geldboete]1
+#### HOOFDSTUK 3. [1 - Beslissing tot oplegging van een administratieve geldboete]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 30, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21542,7 +21542,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 35, 092; Inwerkingtreding : 30-11-2020>
 
-  HOOFDSTUK 4. [1 - Beroep]1
+#### HOOFDSTUK 4. [1 - Beroep]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 36, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21554,7 +21554,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-11-04/09, art. 2, 093; Inwerkingtreding : 30-11-2020> (2)<W 2024-05-25/43, art. 2, 136; Inwerkingtreding : 28-07-2024>
 
-  HOOFDSTUK 5. [1 - Betaling van de administratieve geldboete]1
+#### HOOFDSTUK 5. [1 - Betaling van de administratieve geldboete]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 37, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21586,7 +21586,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 41, 092; Inwerkingtreding : 30-11-2020>
 
-  HOOFDSTUK 6. [1 - Bedrag van de administratieve geldboete]1
+#### HOOFDSTUK 6. [1 - Bedrag van de administratieve geldboete]1
   ----------
   (1)<Ingevoegd bij W 2020-09-29/05, art. 42, 092; Inwerkingtreding : 30-11-2020>
 
@@ -21603,7 +21603,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2020-09-29/05, art. 43, 092; Inwerkingtreding : 30-11-2020> (2)<W 2022-05-08/01, art. 34, 107; Inwerkingtreding : 28-05-2022>
 
-  HOOFDSTUK 7. [1 - Bekendmaking]1
+#### HOOFDSTUK 7. [1 - Bekendmaking]1
   ----------
   (1)<Ingevoegd bij W 2021-11-28/08, art. 13, 102; Inwerkingtreding : 25-12-2021>
 
@@ -21645,17 +21645,17 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2024-05-03/21, art. 35, 135; Inwerkingtreding : 10-06-2024>
 
-  TITEL 2. - [1 De bestuurlijke handhaving]1
+### TITEL 2. - [1 De bestuurlijke handhaving]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  HOOFDSTUK 1. - [1 De transactie]1
+#### HOOFDSTUK 1. - [1 De transactie]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. [1 - Algemene bepalingen]1
+##### Afdeling 1. [1 - Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 12, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21684,17 +21684,17 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    (5)<W 2022-05-08/01, art. 35, 107; Inwerkingtreding : 28-05-2022>
    (6)<W 2023-11-05/07, art. 56, 123; Inwerkingtreding : 21-12-2023>
 
-  Afdeling 2. [1 - Bepalingen betreffende boek XI]1
+##### Afdeling 2. [1 - Bepalingen betreffende boek XI]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling 1. [1 - Bestrijding tegen namaak en piraterij]1
+###### Onderafdeling 1. [1 - Bestrijding tegen namaak en piraterij]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
 ## Art. XV.62.
 
-  Onderafdeling 2. [1 - Collectief beheer van het auteursrecht en de naburige rechten]1
+###### Onderafdeling 2. [1 - Collectief beheer van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21760,12 +21760,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 31, 141; Inwerkingtreding : 28-06-2025>
 
-  HOOFDSTUK 2. - [1 De bestuurlijke sancties [...]]1
+#### HOOFDSTUK 2. - [1 De bestuurlijke sancties [...]]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. [1 Bestuurlijke sancties in het kader van boek III.]1
+##### Afdeling 1. [1 Bestuurlijke sancties in het kader van boek III.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 6, 007; Inwerkingtreding : 09-05-2014>
 
@@ -21809,7 +21809,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/39, art. 11, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2018-07-30/47, art. 34, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 3. [1 - Bestuurlijke sancties inzake het auteursrecht en de naburige rechten]1
+##### Afdeling 3. [1 - Bestuurlijke sancties inzake het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 14, 024; Inwerkingtreding : 01-01-2015>
 
@@ -21877,7 +21877,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 14, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 4. [1 Bestuurlijke sancties in het kader van boek XIX]1
+##### Afdeling 4. [1 Bestuurlijke sancties in het kader van boek XIX]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 7, 121; Inwerkingtreding : 01-09-2023>
 
@@ -21905,7 +21905,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-05-04/02, art. 9, 121; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 5. [1 - Bestuurlijke sancties in het kader van boek XII]1
+##### Afdeling 5. [1 - Bestuurlijke sancties in het kader van boek XII]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 26, 137; Inwerkingtreding : 01-10-2024>
 
@@ -21992,12 +21992,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 31, 137; Inwerkingtreding : 01-10-2024>
 
-  HOOFDSTUK 3. - [1 Schrapping en andere herstelmaatregelen in het kader van boek VII, titel 4, hoofdstuk 4.]1
+#### HOOFDSTUK 3. - [1 Schrapping en andere herstelmaatregelen in het kader van boek VII, titel 4, hoofdstuk 4.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
 
-  Afdeling 1. - [1 Schrapping en andere herstelmaatregelen toepasselijk op kredietgevers en kredietbemiddelaars naar Belgisch recht.]1
+##### Afdeling 1. - [1 Schrapping en andere herstelmaatregelen toepasselijk op kredietgevers en kredietbemiddelaars naar Belgisch recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
@@ -22053,7 +22053,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-12-18/31, art. 44, 030; Inwerkingtreding : 09-01-2016> (3)<W 2018-07-30/47, art. 37, 065; Inwerkingtreding : 15-09-2018> (4)<W 2018-04-15/14, art. 202, 059; Inwerkingtreding : 01-11-2018> (5)<W 2019-05-02/25, art. 190, 074; Inwerkingtreding : 31-05-2019>
 
-  Afdeling 2. - [1 Schrapping en andere herstelmaatregelen van toepassing op kredietgevers naar buitenlands recht]1
+##### Afdeling 2. - [1 Schrapping en andere herstelmaatregelen van toepassing op kredietgevers naar buitenlands recht]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
@@ -22075,7 +22075,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-  Afdeling 3. - [1 Schrapping en andere herstelmaatregelen van toepassing op bemiddelaars inzake hypothecair krediet naar buitenlands recht.]1
+##### Afdeling 3. - [1 Schrapping en andere herstelmaatregelen van toepassing op bemiddelaars inzake hypothecair krediet naar buitenlands recht.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art.
  3)>
@@ -22091,11 +22091,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)> (2)<W 2015-10-26/06, art. 59, 028; Inwerkingtreding : 01-11-2015> (3)<W 2018-07-30/47, art. 38, 065; Inwerkingtreding : 15-09-2018>
 
-  Hoofdstuk 4. [1 - Schrapping en andere herstelmaatregelen in het kader van boek XII]1
+#### Hoofdstuk 4. [1 - Schrapping en andere herstelmaatregelen in het kader van boek XII]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 32, 137; Inwerkingtreding : 01-10-2024>
 
-  Afdeling 1. [1 - Schrapping uit het openbaar register van aanbieders van databemiddelingsdiensten binnen de Europese Unie]1
+##### Afdeling 1. [1 - Schrapping uit het openbaar register van aanbieders van databemiddelingsdiensten binnen de Europese Unie]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 33, 137; Inwerkingtreding : 01-10-2024>
 
@@ -22107,7 +22107,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 34, 137; Inwerkingtreding : 01-10-2024>
 
-  Afdeling 2. [1 - Schrapping uit het openbaar nationaal register van organisaties voor data-altruïsme]1
+##### Afdeling 2. [1 - Schrapping uit het openbaar nationaal register van organisaties voor data-altruïsme]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 35, 137; Inwerkingtreding : 01-10-2024>
 
@@ -22118,12 +22118,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-15/13, art. 36, 137; Inwerkingtreding : 01-10-2024>
 
-  TITEL 3. - [1 De strafrechtelijke handhaving van dit Wetboek en zijn uitvoeringsbesluiten]1
+### TITEL 3. - [1 De strafrechtelijke handhaving van dit Wetboek en zijn uitvoeringsbesluiten]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  HOOFDSTUK 1. - [1 Algemene bepalingen]1
+#### HOOFDSTUK 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22202,12 +22202,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  HOOFDSTUK 2. - [1 De strafrechtelijk gesanctioneerde inbreuken [...]]1
+#### HOOFDSTUK 2. - [1 De strafrechtelijk gesanctioneerde inbreuken [...]]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. [1 De straffen voor de inbreuken op boek III.]1
+##### Afdeling 1. [1 De straffen voor de inbreuken op boek III.]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 7, 007; Inwerkingtreding : 09-05-2014>
 
@@ -22257,7 +22257,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-07-17/32, art. 7, 007; Inwerkingtreding : 09-05-2014>
 
-  Afdeling 2. - [1 De straffen voor de inbreuken op Boek IV]1
+##### Afdeling 2. - [1 De straffen voor de inbreuken op Boek IV]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22272,7 +22272,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
  6)>
    (2)<W 2019-05-02/34, art. 4, 078; Inwerkingtreding : 03-06-2019>
 
-  Afdeling 3. - [1 De straffen voor de inbreuken op Boek V]1
+##### Afdeling 3. - [1 De straffen voor de inbreuken op Boek V]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22293,7 +22293,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
  6)>
    (2)<W 2017-04-18/03, art. 26, 046; Inwerkingtreding : 04-05-2017>
 
-  Afdeling 4. [1 De straffen voor de inbreuken op boek VI]1
+##### Afdeling 4. [1 De straffen voor de inbreuken op boek VI]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 5, 009; Inwerkingtreding : 31-05-2014>
 
@@ -22366,7 +22366,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-21/23, art. 5, 009; Inwerkingtreding : 31-05-2014>
 
-  Afdeling 5. - [1 De straffen voor de inbreuken op boek VII.]1
+##### Afdeling 5. - [1 De straffen voor de inbreuken op boek VII.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 13, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -22507,7 +22507,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-04-15/14, art. 208, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 6. - [1 De straffen voor de inbreuken op Boek VIII]1
+##### Afdeling 6. - [1 De straffen voor de inbreuken op Boek VIII]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22554,7 +22554,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 33, 141; Inwerkingtreding : 28-06-2025>
 
-  Afdeling 7. - [1 De straffen voor de inbreuken op Boek IX]1
+##### Afdeling 7. - [1 De straffen voor de inbreuken op Boek IX]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22574,11 +22574,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
  6)>
   (2)<W 2022-09-25/14, art. 35, 120; Inwerkingtreding : 26-01-2023>
 
-  Afdeling 8. - [1 De straffen voor inbreuken op boek XI]1
+##### Afdeling 8. - [1 De straffen voor inbreuken op boek XI]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling I. - [1 Bestrijding van namaak en piraterij]1
+###### Onderafdeling I. - [1 Bestrijding van namaak en piraterij]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
@@ -22672,7 +22672,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling 2. - [1 Collectief beheer van het auteursrecht en de naburige rechten]1
+###### Onderafdeling 2. - [1 Collectief beheer van het auteursrecht en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
@@ -22700,7 +22700,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-  Onderafdeling 3. [1 - Misbruik van beroepstitels]1
+###### Onderafdeling 3. [1 - Misbruik van beroepstitels]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 37, 061; Inwerkingtreding : 01-04-2024>
 
@@ -22711,7 +22711,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2018-07-08/06, art. 38, 061; Inwerkingtreding : 01-04-2024>
 
-  Afdeling 9. - [1 De straffen voor de inbreuken op Boek XII]1
+##### Afdeling 9. - [1 De straffen voor de inbreuken op Boek XII]1
   ----------
   (1)<Ingevoegd bij W 2013-12-15/51, art. 4, 010; Inwerkingtreding : 31-05-2014>
 
@@ -22755,7 +22755,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2016-07-21/40, art. 28, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-  Afdeling 10.
+##### Afdeling 10.
 
 ## Art. XV.124.
 
@@ -22765,7 +22765,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XV.124/3.
 
-  Afdeling 11. - [1 De straffen voor de inbreuken op boek XVI.]1
+##### Afdeling 11. - [1 De straffen voor de inbreuken op boek XVI.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 4, 018; Inwerkingtreding : 13-05-2014>
 
@@ -22896,7 +22896,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-12-17/20, art. 16, 127; Inwerkingtreding : 07-01-2024>
 
-  Afdeling 12. - [1 Belemmering van toezicht [2 en het niet in acht nemen van maatregelen]2]1
+##### Afdeling 12. - [1 Belemmering van toezicht [2 en het niet in acht nemen van maatregelen]2]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22926,12 +22926,12 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2020-09-29/05, art. 54, 092; Inwerkingtreding : 30-11-2020> (2)<W 2024-05-03/21, art. 41, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 3. - [1 Bijkomende straffen [...]]1
+#### HOOFDSTUK 3. - [1 Bijkomende straffen [...]]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
 
-  Afdeling 1. [1 - Definitief of tijdelijk verbod om gereglementeerde verrichtingen uit te oefenen.]1
+##### Afdeling 1. [1 - Definitief of tijdelijk verbod om gereglementeerde verrichtingen uit te oefenen.]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/39, art. 15, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
@@ -22943,7 +22943,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (1)<Ingevoegd bij W 2014-04-19/39, art. 16, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art.
  2)>
 
-  Afdeling 2. - [1 Verbeurdverklaring]1
+##### Afdeling 2. - [1 Verbeurdverklaring]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -22990,7 +22990,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 13, 121; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 3. - [1 De aanplakking van het vonnis of arrest]1
+##### Afdeling 3. - [1 De aanplakking van het vonnis of arrest]1
   ----------
   (1)<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art.
  6)>
@@ -23006,7 +23006,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (4)<W 2014-04-19/60, art. 21, 024; Inwerkingtreding : 01-01-2015>
   (5)<W 2018-04-15/14, art. 210, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 4. [1 - Gehele of gedeeltelijke sluiting]1
+##### Afdeling 4. [1 - Gehele of gedeeltelijke sluiting]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 22, 024; Inwerkingtreding : 01-01-2015>
 
@@ -23016,7 +23016,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 22, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 5. [1 - Beslag op de ontvangsten]1
+##### Afdeling 5. [1 - Beslag op de ontvangsten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 23, 024; Inwerkingtreding : 01-01-2015>
 
@@ -23026,7 +23026,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 23, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 6. [1 - Corrigerende maatregelen]1
+##### Afdeling 6. [1 - Corrigerende maatregelen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 35, 141; Inwerkingtreding : 28-06-2025>
 
@@ -23036,11 +23036,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-11-05/06, art. 35, 141; Inwerkingtreding : 28-06-2025>
 
-  Boek XVI. - [1 Buitengerechtelijke regeling van consumentengeschillen]1
+## Boek XVI. - [1 Buitengerechtelijke regeling van consumentengeschillen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Titel 1. [1 Algemene bepaling]1
+### Titel 1. [1 Algemene bepaling]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
@@ -23052,7 +23052,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Titel 2. [1 De behandeling van klachten door de ondernemingen]1
+### Titel 2. [1 De behandeling van klachten door de ondernemingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
@@ -23079,11 +23079,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014> (2)<W 2015-10-26/06, art. 65, 028; Inwerkingtreding : 09-11-2015> (3)<W 2017-04-18/03, art. 32, 046; Inwerkingtreding : 04-05-2017>
 
-  Titel 3. [1 : De Consumentenombudsdienst]1
+### Titel 3. [1 : De Consumentenombudsdienst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Hoofdstuk 1. [1 Oprichting en opdrachten]1
+#### Hoofdstuk 1. [1 Oprichting en opdrachten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
@@ -23110,7 +23110,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2017-04-18/03, art. 33, 046; Inwerkingtreding : 04-05-2017>
 
-  Hoofdstuk 2. [1 Werking]1
+#### Hoofdstuk 2. [1 Werking]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
@@ -23164,11 +23164,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
-  Hoofdstuk 3. [1 Bevoegdheden]1
+#### Hoofdstuk 3. [1 Bevoegdheden]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Afdeling 1. [1 Informatie]1
+##### Afdeling 1. [1 Informatie]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -23184,11 +23184,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015> (2)<W 2015-10-26/06, art. 65, 028; Inwerkingtreding : 09-11-2015>
 
-  Afdeling 2. [1 De buitengerechtelijke regeling van consumentengeschillen]1
+##### Afdeling 2. [1 De buitengerechtelijke regeling van consumentengeschillen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Onderafdeling 1. [1 De ontvangst van de aanvragen]1
+###### Onderafdeling 1. [1 De ontvangst van de aanvragen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -23202,7 +23202,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Onderafdeling 2. [1 Behandeling van consumentengeschillen]1
+###### Onderafdeling 2. [1 Behandeling van consumentengeschillen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -23261,7 +23261,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Hoofdstuk 4. [1 De personeelsleden van de Consumentenombudsdienst]1
+#### Hoofdstuk 4. [1 De personeelsleden van de Consumentenombudsdienst]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014>
 
@@ -23279,7 +23279,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 13-05-2014> (2)<W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Titel 4. [1 De gekwalificeerde entiteiten voor buitengerechtelijke regeling van consumentengeschillen]1
+### Titel 4. [1 De gekwalificeerde entiteiten voor buitengerechtelijke regeling van consumentengeschillen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -23368,7 +23368,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-  Boek XVII. - [1 Bijzondere rechtsprocedures]1
+## Boek XVII. - [1 Bijzondere rechtsprocedures]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
@@ -23432,11 +23432,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
   (1)<Ingevoegd bij W 2024-04-21/10, art. 11, 134; Inwerkingtreding : 10-06-2024>
 
-  TITEL 1. - [1 Vordering tot staking]1
+### TITEL 1. - [1 Vordering tot staking]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
-  HOOFDSTUK 1. - [1 Algemene bepalingen]1
+#### HOOFDSTUK 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
@@ -23516,7 +23516,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-04-21/10, art. 17, 134; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 2. - [1 Titularissen van de vordering tot staking]1
+#### HOOFDSTUK 2. - [1 Titularissen van de vordering tot staking]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
@@ -23549,7 +23549,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014> (2)<W 2024-04-21/10, art. 3, 134; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 3. - [1 Bijzondere bepalingen eigen aan boek VI ]1
+#### HOOFDSTUK 3. - [1 Bijzondere bepalingen eigen aan boek VI ]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
@@ -23590,11 +23590,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014> (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  HOOFDSTUK 4. - [1 Bijzondere bepalingen eigen aan boek XI]1
+#### HOOFDSTUK 4. - [1 Bijzondere bepalingen eigen aan boek XI]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014 en ingevoegd bij W 2014-04- 19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
-  Afdeling 1. [1 Vordering tot staking in geval van inbreuk op een intellectueel eigendomsrecht ]1
+##### Afdeling 1. [1 Vordering tot staking in geval van inbreuk op een intellectueel eigendomsrecht ]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
@@ -23654,7 +23654,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015> (2)<W 2016-06-29/01, art. 45, 036; Inwerkingtreding : 16-07-2016>
 
-  Afdeling 2. - [1 Vordering tot staking inzake de controle van de vennootschappen voor het beheer van de auteursrechten en de naburige rechten]1
+##### Afdeling 2. - [1 Vordering tot staking inzake de controle van de vennootschappen voor het beheer van de auteursrechten en de naburige rechten]1
   ----------
   (1)<Ingevoegd bij W 2014-04-19/60, art. 24, 024; Inwerkingtreding : 01-01-2015>
 
@@ -23672,7 +23672,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   (1)<W 2017-06-08/13, art. 118, 049; Inwerkingtreding : 01-01-2018>
   (2)<W 2018-04-15/14, art. 212, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 3. [1 - Vordering tot staking in geval van het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim]1
+##### Afdeling 3. [1 - Vordering tot staking in geval van het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim]1
   ----------
   (1)<Ingevoegd bij W 2018-07-30/18, art. 24, 064; Inwerkingtreding : 24-08-2018>
 
@@ -23714,7 +23714,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2018-07-30/18, art. 29, 064; Inwerkingtreding : 24-08-2018>
 
-  HOOFDSTUK 5. - [1 Bijzondere bepalingen eigen aan boek XII]1
+#### HOOFDSTUK 5. - [1 Bijzondere bepalingen eigen aan boek XII]1
   ----------
   (1)<Ingevoegd bij W 2013-12-26/37, art. 3, 012; Inwerkingtreding : 31-05-2014>
 
@@ -23770,7 +23770,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XVII.25/5.
 
-  HOOFDSTUK 6.
+#### HOOFDSTUK 6.
 
 ## Art. XVII.26.
 
@@ -23879,15 +23879,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2022-06-19/03, art. 93, 113; Inwerkingtreding : 01-06-2024>
 
-  TITEL 2. [1 De rechtsvordering tot collectief herstel]1
+### TITEL 2. [1 De rechtsvordering tot collectief herstel]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  HOOFDSTUK 1. - [1 Algemene bepalingen]1
+#### HOOFDSTUK 1. - [1 Algemene bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 1. - [1 Bevoegdheid van de hoven en rechtbanken te Brussel ]1
+##### Afdeling 1. - [1 Bevoegdheid van de hoven en rechtbanken te Brussel ]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -23897,7 +23897,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/36, art. 2, 017; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 2. - [1 Ontvankelijkheidsvoorwaarden]1
+##### Afdeling 2. - [1 Ontvankelijkheidsvoorwaarden]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -23960,11 +23960,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014> (2)<W 2015-10-26/06, art. 71, 028; Inwerkingtreding : 09-11-2015> (3)<W 2017-06-06/02, art. 9, 047; Inwerkingtreding : 22-06-2017> (4)<W 2018-07-30/47, art. 43,a, 065; Inwerkingtreding : 25-05-2018> (5)<W 2018-07-30/47, art. 43,b, 065; Inwerkingtreding : 01-07-2018> (6)<W 2018-04-15/14, art. 214, 059; Inwerkingtreding : 01-11-2018> (7)<W 2022-03-20/05, art. 21, 106; Inwerkingtreding : 01-06-2022> (8)<W 2024-04-21/10, art. 21, 134; Inwerkingtreding : 10-06-2024> (9)<W 2023-11-05/06, art. 36, 141; Inwerkingtreding : 28-06-2025>
 
-  Afdeling 3.
+##### Afdeling 3.
 
 ## Art. XVII.38.
 
-  Afdeling 4. - [1 De groepsvertegenwoordiger]1
+##### Afdeling 4. - [1 De groepsvertegenwoordiger]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -23999,11 +23999,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  HOOFDSTUK 2. - [1 De procedure]1
+#### HOOFDSTUK 2. - [1 De procedure]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 1. - [1 De ontvankelijkheidsfase]1
+##### Afdeling 1. - [1 De ontvankelijkheidsfase]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24062,7 +24062,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 2. - [1 De onderhandeling van een akkoord tot collectief herstel]1
+##### Afdeling 2. - [1 De onderhandeling van een akkoord tot collectief herstel]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24114,7 +24114,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 3. - [1 De homologatie van het akkoord tot collectief herstel]1
+##### Afdeling 3. - [1 De homologatie van het akkoord tot collectief herstel]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24143,7 +24143,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 [1 De homologatie van een akkoord tot collectief herstel houdt geen erkenning in van aansprakelijkheid of schuld van de verweerder.]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
-  Afdeling 4. - [1 Beslissing ten gronde]1
+##### Afdeling 4. - [1 Beslissing ten gronde]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24212,7 +24212,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014> (2)<W 2018-03-30/35, art. 8, 060; Inwerkingtreding : 01-06-2018>
 
-  Afdeling 5. - [1 De uitvoering van het gehomologeerde akkoord of van de beslissing ten gronde]1
+##### Afdeling 5. - [1 De uitvoering van het gehomologeerde akkoord of van de beslissing ten gronde]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24270,11 +24270,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014> (2)<W 2021-02-02/06, art. 17, 096; Inwerkingtreding : 21-02-2021>
 
-  HOOFDSTUK 3. - [1 Verjaring, tussengeschillen en verband met andere procedures]1
+#### HOOFDSTUK 3. - [1 Verjaring, tussengeschillen en verband met andere procedures]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
-  Afdeling 1. - [1 Verjaring]1
+##### Afdeling 1. - [1 Verjaring]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24292,7 +24292,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<W 2024-04-21/10, art. 35, 134; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 2. - [1 Tussengeschillen]1
+##### Afdeling 2. - [1 Tussengeschillen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24320,7 +24320,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014> (2)<W 2024-04-21/10, art. 38, 134; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 3. - [1 Verband met andere procedures]1
+##### Afdeling 3. - [1 Verband met andere procedures]1
   ----------
   (1)<Ingevoegd bij W 2014-03-28/25, art. 3, 016; Inwerkingtreding : 01-09-2014>
 
@@ -24350,11 +24350,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 10, 047; Inwerkingtreding : 22-06-2017> (2)<W 2019-05-02/28, art. 39, 077; Inwerkingtreding : 01-06-2019>
 
-  Titel 3. [1 - Rechtsvordering tot schadevergoeding voor inbreuken op het mededingingsrecht]1
+### Titel 3. [1 - Rechtsvordering tot schadevergoeding voor inbreuken op het mededingingsrecht]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 11, 047; Inwerkingtreding : 22-06-2017>
 
-  HOOFDSTUK 1. [1 - Toepassingsgebied]1
+#### HOOFDSTUK 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 12, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24365,7 +24365,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-06-06/02, art. 13, 047; Inwerkingtreding : 22-06-2017>
 
-  HOOFDSTUK 2. [1 - Recht op volledige vergoeding]1
+#### HOOFDSTUK 2. [1 - Recht op volledige vergoeding]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 14, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24381,15 +24381,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 16, 047; Inwerkingtreding : 22-06-2017>
 
-  HOOFDSTUK 3. [1 - Bewijsmateriaal]1
+#### HOOFDSTUK 3. [1 - Bewijsmateriaal]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 17, 047; Inwerkingtreding : 22-06-2017>
 
-  Afdeling 1. [1 - Overlegging van het bewijsmateriaal]1
+##### Afdeling 1. [1 - Overlegging van het bewijsmateriaal]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 18, 047; Inwerkingtreding : 22-06-2017>
 
-  Onderafdeling 1. [1 - Algemene beginselen]1
+###### Onderafdeling 1. [1 - Algemene beginselen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 19, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24416,7 +24416,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 22, 047; Inwerkingtreding : 22-06-2017>
 
-  Onderafdeling 2. [1 - Overlegging van bewijsmateriaal dat zich in het dossier van een mededingingsautoriteit bevindt]1
+###### Onderafdeling 2. [1 - Overlegging van bewijsmateriaal dat zich in het dossier van een mededingingsautoriteit bevindt]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 23, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24465,7 +24465,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 27, 047; Inwerkingtreding : 22-06-2017>
 
-  Onderafdeling 3. [1 - Sancties]1
+###### Onderafdeling 3. [1 - Sancties]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 28, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24482,7 +24482,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-06-06/02, art. 29, 047; Inwerkingtreding : 22-06-2017>
 
-  Afdeling 2. [1 - Doorwerking van de nationale beslissingen waarbij een inbreuk op het mededingingsrecht wordt vastgesteld]1
+##### Afdeling 2. [1 - Doorwerking van de nationale beslissingen waarbij een inbreuk op het mededingingsrecht wordt vastgesteld]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 30, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24493,7 +24493,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 31, 047; Inwerkingtreding : 22-06-2017> (2)<W 2018-07-30/47, art. 47, 065; Inwerkingtreding : 15-09-2018>
 
-  Afdeling 3. [1 - Doorberekening van meerkosten]1
+##### Afdeling 3. [1 - Doorberekening van meerkosten]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 32, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24526,7 +24526,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 35, 047; Inwerkingtreding : 22-06-2017>
 
-  HOOFDSTUK 4. [1 - Hoofdelijke aansprakelijkheid]1
+#### HOOFDSTUK 4. [1 - Hoofdelijke aansprakelijkheid]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 36, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24565,7 +24565,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 39, 047; Inwerkingtreding : 22-06-2017> (2)<W 2018-07-30/47, art. 48, 065; Inwerkingtreding : 15-09-2018>
 
-  HOOFDSTUK 5. [1 - Schorsende werking van de minnelijke oplossing van geschillen]1
+#### HOOFDSTUK 5. [1 - Schorsende werking van de minnelijke oplossing van geschillen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 40, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24575,7 +24575,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 41, 047; Inwerkingtreding : 22-06-2017>
 
-  HOOFDSTUK 6. [1 - Verjaringstermijnen]1
+#### HOOFDSTUK 6. [1 - Verjaringstermijnen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 42, 047; Inwerkingtreding : 22-06-2017>
 
@@ -24596,11 +24596,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-06-06/02, art. 44, 047; Inwerkingtreding : 22-06-2017>
 
-  BOEK XVIII. - [1 Maatregelen voor crisisbeheer]1
+## BOEK XVIII. - [1 Maatregelen voor crisisbeheer]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
-  TITEL 1. - [1 Reglementering in crisistijd]1
+### TITEL 1. - [1 Reglementering in crisistijd]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
@@ -24615,7 +24615,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
-  TITEL 2. - [1 Opeising in crisistijd]1
+### TITEL 2. - [1 Opeising in crisistijd]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
@@ -24634,7 +24634,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
-  TITEL 3. - [1 Gemeenschappelijke bepalingen]1
+### TITEL 3. - [1 Gemeenschappelijke bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
@@ -24651,15 +24651,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2014-03-27/37, art. 2, 015; Inwerkingtreding : 30-04-2014>
 
-  Boek XIX. [1 - Schulden van de consument]1
+## Boek XIX. [1 - Schulden van de consument]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  TITEL 1. [1 - Betaling van schulden door consumenten aan ondernemingen]1
+### TITEL 1. [1 - Betaling van schulden door consumenten aan ondernemingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 - Toepassingsgebied]1
+#### HOOFDSTUK 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24669,7 +24669,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Betalingsachterstand]1
+#### HOOFDSTUK 2. [1 - Betalingsachterstand]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24698,7 +24698,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 3. [1 - Schadebedingen]1
+#### HOOFDSTUK 3. [1 - Schadebedingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24716,11 +24716,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  TITEL 2. [1 - Minnelijke invordering van schulden van de consument]1
+### TITEL 2. [1 - Minnelijke invordering van schulden van de consument]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 1, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 - Minnelijke invordering van schulden van de consument]1
+#### HOOFDSTUK 1. [1 - Minnelijke invordering van schulden van de consument]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24730,11 +24730,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Activiteit van minnelijke invordering van schulden]1
+#### HOOFDSTUK 2. [1 - Activiteit van minnelijke invordering van schulden]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 Voorafgaande inschrijving]1
+##### Afdeling 1. [1 Voorafgaande inschrijving]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24772,7 +24772,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023> (2)<W 2024-05-03/21, art. 42, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 2. [1 Modaliteiten van uitoefening van de activiteit van minnelijke invordering van schulden]1
+##### Afdeling 2. [1 Modaliteiten van uitoefening van de activiteit van minnelijke invordering van schulden]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24848,7 +24848,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 3. [1 Burgerlijke sancties]1
+#### HOOFDSTUK 3. [1 Burgerlijke sancties]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
@@ -24866,15 +24866,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-05-04/02, art. 4, 121; Inwerkingtreding : 01-09-2023>
 
-  TITEL 3. [1 - De minnelijke schuldbemiddeling]1
+### TITEL 3. [1 - De minnelijke schuldbemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 1. [1 - Algemene beginselen]1
+#### HOOFDSTUK 1. [1 - Algemene beginselen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 1. [1 - Definitie en doelstellingen van de procedure]1
+##### Afdeling 1. [1 - Definitie en doelstellingen van de procedure]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -24896,7 +24896,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 2. [1 - Toepassingsgebied]1
+##### Afdeling 2. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -24907,7 +24907,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 2. [1 - De minnelijke schuldbemiddelaar]1
+#### HOOFDSTUK 2. [1 - De minnelijke schuldbemiddelaar]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -24952,11 +24952,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 3. [1 - De procedure en de verplichtingen van de minnelijke schuldbemiddelaar]1
+#### HOOFDSTUK 3. [1 - De procedure en de verplichtingen van de minnelijke schuldbemiddelaar]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 1. [1 - De aanvang van de minnelijke schuldbemiddeling]1
+##### Afdeling 1. [1 - De aanvang van de minnelijke schuldbemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -24985,7 +24985,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 2. [1 - Tijdens de minnelijke schuldbemiddeling]1
+##### Afdeling 2. [1 - Tijdens de minnelijke schuldbemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -24997,7 +24997,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 3. [1 - Analyse van de situatie van de schuldenaar en inventaris van schulden]1
+##### Afdeling 3. [1 - Analyse van de situatie van de schuldenaar en inventaris van schulden]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25024,7 +25024,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 4. [1 - Verwerking van persoonsgegevens]1
+##### Afdeling 4. [1 - Verwerking van persoonsgegevens]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25049,7 +25049,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 5. [1 - Onderhandelingen met schuldeisers]1
+##### Afdeling 5. [1 - Onderhandelingen met schuldeisers]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25072,7 +25072,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 6. [1 - Uitvoering en controle van overeenkomsten]1
+##### Afdeling 6. [1 - Uitvoering en controle van overeenkomsten]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25095,7 +25095,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  Afdeling 7. [1 - Mislukking van de onderhandelingen en alternatieve oplossingen]1
+##### Afdeling 7. [1 - Mislukking van de onderhandelingen en alternatieve oplossingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25111,7 +25111,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 4. [1 - Verplichtingen van de schuldenaar]1
+#### HOOFDSTUK 4. [1 - Verplichtingen van de schuldenaar]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25125,7 +25125,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 5. [1 - Beëindiging van minnelijke schuld- bemiddeling]1
+#### HOOFDSTUK 5. [1 - Beëindiging van minnelijke schuld- bemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25157,7 +25157,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  HOOFDSTUK 6. [1 - Kosten van minnelijke schuldbemiddeling]1
+#### HOOFDSTUK 6. [1 - Kosten van minnelijke schuldbemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
@@ -25175,15 +25175,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2024-05-03/21, art. 45, 135; Inwerkingtreding : 10-06-2024>
 
-  BOEK XX. [1 - Insolventie van de ondernemingen]1
+## BOEK XX. [1 - Insolventie van de ondernemingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Titel 1. [1 - Algemene beginselen die van toepassing zijn voor boek XX]1
+### Titel 1. [1 - Algemene beginselen die van toepassing zijn voor boek XX]1
   ----------
   (1)<W 2023-06-07/07, art. 4, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 - Toepassingsgebied]1
+#### HOOFDSTUK 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -25201,7 +25201,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    (4)<W 2021-06-27/09, art. 302, 099; Inwerkingtreding : 19-07-2021>
    (5)<W 2023-06-07/07, art. 5, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Procedureregels]1
+#### HOOFDSTUK 2. [1 - Procedureregels]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -25312,7 +25312,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XX.14/1.
 
-  HOOFDSTUK 3. [1 - Register]1
+#### HOOFDSTUK 3. [1 - Register]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -25390,11 +25390,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 4. [1 Vereffeningsdeskundigen en her-- structureringsdeskundigen]1
+#### HOOFDSTUK 4. [1 Vereffeningsdeskundigen en her-- structureringsdeskundigen]1
   ----------
   (1)<W 2023-06-07/07, art. 17, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 Vereffeningsdeskundigen]1
+##### Afdeling 1. [1 Vereffeningsdeskundigen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 18, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25422,7 +25422,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 218, 059; Inwerkingtreding : 01-05-2018> (3)<W 2023-06-07/07, art. 19, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2. [1 Herstructureringsdeskundigen]1
+##### Afdeling 2. [1 Herstructureringsdeskundigen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 20, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25439,11 +25439,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 21, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel II. [1 - Vroegtijdige waarschuwing, kamers voor ondernemingen in moeilijkheden en ondernemingsbemiddeling]1
+### Titel II. [1 - Vroegtijdige waarschuwing, kamers voor ondernemingen in moeilijkheden en ondernemingsbemiddeling]1
   ----------
   (1)<W 2023-06-07/07, art. 22, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 - Vroegtijdige waarschuwing]1
+#### HOOFDSTUK 1. [1 - Vroegtijdige waarschuwing]1
   ----------
   (1)<W 2023-06-07/07, art. 23, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25496,11 +25496,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
 
 ## Art. XX.24.
 
-  HOOFDSTUK 2. [1 - Kamers voor ondernemingen in moeilijkheden]1
+#### HOOFDSTUK 2. [1 - Kamers voor ondernemingen in moeilijkheden]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 1. [1 Ambtshalve onderzoek]1
+##### Afdeling 1. [1 Ambtshalve onderzoek]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 30, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25547,7 +25547,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 219, 059; Inwerkingtreding : 01-05-2018> (3)<W 2023-06-07/07, art. 33, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2. [1 Onderzoek op verzoek van de schuldenaar]1
+##### Afdeling 2. [1 Onderzoek op verzoek van de schuldenaar]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 34, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25562,7 +25562,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 35, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 3. [1 Ondernemingsbemiddeling]1
+##### Afdeling 3. [1 Ondernemingsbemiddeling]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 36, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25575,7 +25575,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 37, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel III. [1 - Voorlopige maatregelen]1
+### Titel III. [1 - Voorlopige maatregelen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -25623,7 +25623,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 42, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel IV. [1 - Minnelijk akkoord buiten gerechtelijke reorganisatie]1
+### Titel IV. [1 - Minnelijk akkoord buiten gerechtelijke reorganisatie]1
   ----------
   (1)<W 2023-06-07/07, art. 43, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25655,15 +25655,15 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<W 2023-06-07/07, art. 46, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel V. [1 - Algemene bepalingen voor Titel V/I en V/II]1
+### Titel V. [1 - Algemene bepalingen voor Titel V/I en V/II]1
   ----------
   (1)<W 2023-06-07/07, art. 47, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 - Inleidende bepalingen betreffende titel V/I en V/II]1
+#### HOOFDSTUK 1. [1 - Inleidende bepalingen betreffende titel V/I en V/II]1
   ----------
   (1)<W 2023-06-07/07, art. 48, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1.
+##### Afdeling 1.
 
 ## Art. XX.39.
 
@@ -25677,7 +25677,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 53, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2.
+##### Afdeling 2.
 
 ## Art. XX.40
 
@@ -25689,11 +25689,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 55, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Gemeenschappelijke bepalingen betreffende de procedures van openbare gerechtelijke reorganisatie en overdracht van onderneming onder gerechtelijk gezag]1
+#### HOOFDSTUK 2. [1 - Gemeenschappelijke bepalingen betreffende de procedures van openbare gerechtelijke reorganisatie en overdracht van onderneming onder gerechtelijk gezag]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 56, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 - Verzoek tot openbare gerechtelijke reorganisatie, overdracht onder gerechtelijk gezag en daarop volgende procedure]1
+##### Afdeling 1. [1 - Verzoek tot openbare gerechtelijke reorganisatie, overdracht onder gerechtelijk gezag en daarop volgende procedure]1
   ----------
   (1)<W 2023-06-07/07, art. 57, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25756,7 +25756,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 223, 059; Inwerkingtreding : 01-05-2018> (3)<W 2023-06-07/07, art. 59, 122; Inwerkingtreding : 01-09-2023> (4)<W 2023-12-19/05, art. 77, 125; Inwerkingtreding : 06-01-2024>
 
-  Afdeling 2. [1 - Voorwaarden voor de opening van de procedure van openbare gerechtelijke reorganisatie of van overdracht onder gerechtelijk gezag]1
+##### Afdeling 2. [1 - Voorwaarden voor de opening van de procedure van openbare gerechtelijke reorganisatie of van overdracht onder gerechtelijk gezag]1
   ----------
   (1)<W 2023-06-07/07, art. 60, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25772,7 +25772,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2021-03-21/02, art. 8, 097; Inwerkingtreding : 26-03-2021> (3)<W 2023-06-07/07, art. 61, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 3. [1 - Vonnis over het verzoek tot openbare gerechtelijke reorganisatie of overdracht onder gerechtelijk gezag en de gevolgen ervan]1
+##### Afdeling 3. [1 - Vonnis over het verzoek tot openbare gerechtelijke reorganisatie of overdracht onder gerechtelijk gezag en de gevolgen ervan]1
   ----------
   (1)<W 2023-06-07/07, art. 62, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25830,7 +25830,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 66, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 4. [1 - Voorlopig bestuur en bijstand van een herstructureringsdeskundige]1
+##### Afdeling 4. [1 - Voorlopig bestuur en bijstand van een herstructureringsdeskundige]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 67, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25869,7 +25869,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 72, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 5. [1 - Gevolgen van de beslissing tot reorganisatie of overdracht onder gerechtelijk gezag]1
+##### Afdeling 5. [1 - Gevolgen van de beslissing tot reorganisatie of overdracht onder gerechtelijk gezag]1
   ----------
   (1)<W 2023-06-07/07, art. 73, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25969,7 +25969,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 78, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 6. [1 - Verlenging of wijziging van de opschorting]1
+##### Afdeling 6. [1 - Verlenging of wijziging van de opschorting]1
   ----------
   (1)<W 2023-06-07/07, art. 79, 122; Inwerkingtreding : 01-09-2023>
 
@@ -25993,7 +25993,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 81, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 7. [1 - Wijziging van het doel van de procedure]1
+##### Afdeling 7. [1 - Wijziging van het doel van de procedure]1
   ----------
   (1)<W 2023-06-07/07, art. 82, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26004,7 +26004,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 83, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 8. [1 - Voortijdige beëindiging en sluiting van de procedure]1
+##### Afdeling 8. [1 - Voortijdige beëindiging en sluiting van de procedure]1
   ----------
   (1)<W 2023-06-07/07, art. 84, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26040,7 +26040,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 88, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 1. [1 Openbare gerechtelijke reorganisatie door een minnelijk akkoord]1
+#### HOOFDSTUK 1. [1 Openbare gerechtelijke reorganisatie door een minnelijk akkoord]1
   ----------
   (1)<W 2023-06-07/07, art. 89, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26072,11 +26072,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2025-06-05/09, art. 7, 142; Inwerkingtreding : 01-01-2026>
 
-  HOOFDSTUK 2. [1 Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de kleine en middelgrote ondernemingen]1
+#### HOOFDSTUK 2. [1 Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de kleine en middelgrote ondernemingen]1
   ----------
   (1)<W 2023-06-07/07, art. 92, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 Toepassingsgebied]1
+##### Afdeling 1. [1 Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 93, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26086,7 +26086,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 94, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2. [1 Reorganisatieplan]1
+##### Afdeling 2. [1 Reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 95, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26113,7 +26113,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 3. [1 Opstelling en inhoud van het reorganisatieplan]1
+##### Afdeling 3. [1 Opstelling en inhoud van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 98, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26210,7 +26210,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplan" en waarin de artikelen XX.77 tot en met XX.80 zijn opgenomen.]1
+##### Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplan" en waarin de artikelen XX.77 tot en met XX.80 zijn opgenomen.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 109, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26275,7 +26275,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 5. [1 - Rechtsmiddelen.]1
+##### Afdeling 5. [1 - Rechtsmiddelen.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 115, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26289,7 +26289,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 116, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan.]1
+##### Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 117, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26303,7 +26303,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    De gevolgen van het collectief akkoord komen ten goede aan de [3 consument die een persoonlijke zekerheid heeft gesteld in de zin van artikel 9.1.42, eerste en tweede lid, van het Burgerlijk Wetboek]3 voor de schuldenaar en wiens verzoek, bedoeld in artikel XX.54, § 3, werd ingewilligd.]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 118, 122; Inwerkingtreding : 01-09-2023> (3)<W 2025-06-05/09, art. 8, 142; Inwerkingtreding : 01-01-2026>
-  Afdeling 7. [1 - Intrekking van het reorganisatieplan en vaststelling van voltooiing van het reoganisatieplan.]1
+##### Afdeling 7. [1 - Intrekking van het reorganisatieplan en vaststelling van voltooiing van het reoganisatieplan.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 119, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26318,11 +26318,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 3. [1 - Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de grote ondernemingen.]1
+#### HOOFDSTUK 3. [1 - Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de grote ondernemingen.]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 120, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 - Toepassingsgebied]1
+##### Afdeling 1. [1 - Toepassingsgebied]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 121, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26336,7 +26336,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 122, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2. [1 - Reorganisatieplan]1
+##### Afdeling 2. [1 - Reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 123, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26346,7 +26346,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 124, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 3. [1 - Opstelling en inhoud van het reorganisatieplan]1
+##### Afdeling 3. [1 - Opstelling en inhoud van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 1, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26429,7 +26429,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 133, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplannen]1
+##### Afdeling 4. [1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplannen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 134, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26514,7 +26514,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
     ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 142, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 5. [1 - Beëindiging van de procedure en rechtsmiddelen]1
+##### Afdeling 5. [1 - Beëindiging van de procedure en rechtsmiddelen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 143, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26524,7 +26524,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 144, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1
+##### Afdeling 6. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 145, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26540,7 +26540,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 146, 122; Inwerkingtreding : 01-09-2023> (2)<W 2025-06-05/09, art. 9, 142; Inwerkingtreding : 01-01-2026>
 
-  Afdeling 7. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1
+##### Afdeling 7. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 147, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26553,11 +26553,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 148, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 4. [1 - Besloten gerechtelijke reorganisatieprocedure]1
+#### HOOFDSTUK 4. [1 - Besloten gerechtelijke reorganisatieprocedure]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 149, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 1. [1 - Verzoeken en navolgende procedure]1
+##### Afdeling 1. [1 - Verzoeken en navolgende procedure]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 150, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26629,7 +26629,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 157, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 2. [1 - Besloten gerechtelijke reorganisatie door een minnelijk akkoord]1
+##### Afdeling 2. [1 - Besloten gerechtelijke reorganisatie door een minnelijk akkoord]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 158, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26653,11 +26653,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 160, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 3. [1 - Besloten gerechtelijke reorganisatie door een collectief akkoord]1
+##### Afdeling 3. [1 - Besloten gerechtelijke reorganisatie door een collectief akkoord]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 161, 122; Inwerkingtreding : 01-09-2023>
 
-  Onderafdeling 1. [1 Reorganisatieplan]1
+###### Onderafdeling 1. [1 Reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 162, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26667,7 +26667,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 163, 122; Inwerkingtreding : 01-09-2023>
 
-  Onderafdeling 2. [1 Opstelling, inhoud en neerlegging van het reorganisatieplan]1
+###### Onderafdeling 2. [1 Opstelling, inhoud en neerlegging van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 164, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26695,7 +26695,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 166, 122; Inwerkingtreding : 01-09-2023>
 
-  Onderafdeling 3. [1 Stemming over het reorganisatieplan]1
+###### Onderafdeling 3. [1 Stemming over het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 167, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26705,7 +26705,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 168, 122; Inwerkingtreding : 01-09-2023>
 
-  Onderafdeling 4. [1 Homologatie van het reorganisatieplan]1
+###### Onderafdeling 4. [1 Homologatie van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 169, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26728,7 +26728,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 172, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 4. [1 - Beëindiging van de procedure en rechtsmiddelen]1
+##### Afdeling 4. [1 - Beëindiging van de procedure en rechtsmiddelen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 173, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26750,7 +26750,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 175, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 5. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1
+##### Afdeling 5. [1 - Gevolgen van het gehomologeerd reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 176, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26765,7 +26765,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 177, 122; Inwerkingtreding : 01-09-2023>
 
-  Afdeling 6. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1
+##### Afdeling 6. [1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 178, 122; Inwerkingtreding : 01-09-2023>
 
@@ -26973,11 +26973,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2023-06-07/07, art. 202, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel VI. [1 - Faillissement]1
+### Titel VI. [1 - Faillissement]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 1. [1 - Staking van betaling en faillietverklaring]1
+#### HOOFDSTUK 1. [1 - Staking van betaling en faillietverklaring]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27111,7 +27111,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2023-06-07/07, art. 209, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Gevolgen van de faillietverklaring]1
+#### HOOFDSTUK 2. [1 - Gevolgen van de faillietverklaring]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27211,11 +27211,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 3. [1 - Beheer en vereffening van de boedel]1
+#### HOOFDSTUK 3. [1 - Beheer en vereffening van de boedel]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 1. [1 - Aanstelling en wettelijke taken van curatoren en van rechters-commissarissen]1
+##### Afdeling 1. [1 - Aanstelling en wettelijke taken van curatoren en van rechters-commissarissen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27248,7 +27248,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 252, 059; Inwerkingtreding : 01-11-2018>
 
-  Afdeling 2. [1 - Ambtsaanvaarding en opdrachten voor curatoren en rechters-commissarissen]1
+##### Afdeling 2. [1 - Ambtsaanvaarding en opdrachten voor curatoren en rechters-commissarissen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27299,7 +27299,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 3. [1 - Beheer van het faillissement]1
+##### Afdeling 3. [1 - Beheer van het faillissement]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27502,7 +27502,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 4. [1 - Aangifte en verificatie van schuldvorderingen]1
+#### HOOFDSTUK 4. [1 - Aangifte en verificatie van schuldvorderingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27606,7 +27606,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 5. [1 - Vereffening van het faillissement]1
+#### HOOFDSTUK 5. [1 - Vereffening van het faillissement]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27669,7 +27669,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 239, 059; Inwerkingtreding : 01-05-2018> (3)<W 2023-06-07/07, art. 232, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 6. [1 - Kwijtschelding]1
+#### HOOFDSTUK 6. [1 - Kwijtschelding]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27695,11 +27695,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 234, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 7. [1 - Schuldeisers en borgtochten]1
+#### HOOFDSTUK 7. [1 - Schuldeisers en borgtochten]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 1. [1 - Medeschuldenaars, persoonlijke zekerheden en borgen]1
+##### Afdeling 1. [1 - Medeschuldenaars, persoonlijke zekerheden en borgen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27752,7 +27752,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 2. [1 - Pandhoudende schuldeisers en schuldeisers bevoorrecht op roerend goed]1
+##### Afdeling 2. [1 - Pandhoudende schuldeisers en schuldeisers bevoorrecht op roerend goed]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27774,7 +27774,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 3. [1 - Rechten van hypothecaire schuldeisers en van op onroerende goederen bevoorrechte schuldeisers]1
+##### Afdeling 3. [1 - Rechten van hypothecaire schuldeisers en van op onroerende goederen bevoorrechte schuldeisers]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27809,7 +27809,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 4. [1 - Gevolgen van het faillissement van de ene echtgenoot ten opzichte van de andere]1
+##### Afdeling 4. [1 - Gevolgen van het faillissement van de ene echtgenoot ten opzichte van de andere]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27826,7 +27826,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Afdeling 5. [1 - Gevolgen van het faillissement op de aansprakelijkheid van derden voor de financiering van een nieuwe activiteit]1
+##### Afdeling 5. [1 - Gevolgen van het faillissement op de aansprakelijkheid van derden voor de financiering van een nieuwe activiteit]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27836,7 +27836,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 8. [1 - Uitdeling aan de schuldeisers]1
+#### HOOFDSTUK 8. [1 - Uitdeling aan de schuldeisers]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27846,7 +27846,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 9. [1 - Verkoop van de onroerende goederen van de gefailleerde]1
+#### HOOFDSTUK 9. [1 - Verkoop van de onroerende goederen van de gefailleerde]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27862,7 +27862,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 238, 122; Inwerkingtreding : 01-09-2023> (3)<W 2023-12-19/05, art. 81, 125; Inwerkingtreding : 06-01-2024>
 
-  HOOFDSTUK 10. [1 - Terugvordering]1
+#### HOOFDSTUK 10. [1 - Terugvordering]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27921,11 +27921,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2022-04-28/25, art. 25, 118; Inwerkingtreding : 01-01-2023>
 
-  Titel VII. [1 - Grensoverschrijdende insolventie]1
+### Titel VII. [1 - Grensoverschrijdende insolventie]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 1. [1 - Europese insolventieprocedures]1
+#### HOOFDSTUK 1. [1 - Europese insolventieprocedures]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -27986,7 +27986,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 244, 122; Inwerkingtreding : 01-09-2023>
 
-  HOOFDSTUK 2. [1 - Overige grensoverschrijdende insolventieprocedures]1
+#### HOOFDSTUK 2. [1 - Overige grensoverschrijdende insolventieprocedures]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -28094,7 +28094,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2023-06-07/07, art. 255, 122; Inwerkingtreding : 01-09-2023>
 
-  Titel VII. [1 - Aansprakelijkheidsvorderingen]1
+### Titel VII. [1 - Aansprakelijkheidsvorderingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -28146,11 +28146,11 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  Titel IX. [1 - Verbodsbepalingen en de rehabilitatie]1
+### Titel IX. [1 - Verbodsbepalingen en de rehabilitatie]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 1. [1 - Verbodsbepalingen]1
+#### HOOFDSTUK 1. [1 - Verbodsbepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -28224,7 +28224,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
-  HOOFDSTUK 2. [1 - Rehabilitatie]1
+#### HOOFDSTUK 2. [1 - Rehabilitatie]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -28263,7 +28263,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 249, 059; Inwerkingtreding : 01-05-2018>
 
-  Titel X. [1 - Intrekking faillissement]1
+### Titel X. [1 - Intrekking faillissement]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 
@@ -28275,7 +28275,7 @@ Nieuw art. XI.65/1.HOOFDSTUK 4. - [1 Diverse bepalingen]1
    ----------
    (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018> (2)<W 2018-04-15/14, art. 250, 059; Inwerkingtreding : 01-05-2018>
 
-  Titel XI. [1 Evaluatie van de insolventieprocedures]1
+### Titel XI. [1 Evaluatie van de insolventieprocedures]1
   ----------
   (1)<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 

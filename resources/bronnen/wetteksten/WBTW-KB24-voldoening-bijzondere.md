@@ -41,38 +41,38 @@ pg. 113850)
 
     Inhoudstafel
 
-AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
+##### AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
     Brussel, "Inning en Invordering", "Mini One Stop Shop -
     btw BE" en "btw on E-Services".
 
-    Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
+###### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
     Brussel Art. 1 - 8
 
-    Onderafdeling 2. Betaling op de financiële rekening van "Inning en
+###### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
     Invordering". Art. 9 - 13
 
-    Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
+###### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
     - VAT BE” Art. 13bis
 
-    Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
+###### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
 
     Disposition temporaire Art. 13ter
 
-AFDELING 2. Betaling vastgesteld door middel van het elektronische
+##### AFDELING 2. Betaling vastgesteld door middel van het elektronische
     systeem PLDA van de Algemene Administratie van de
     Douane en Accijnzen. Art. 14 - 15
 
-AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege
+##### AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege
     de Minister van Financiën met de invordering belaste
     ambtenaar. Art. 16 - 19
 
-AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan
+##### AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan
     bij invoer verschuldigde belasting over de toegevoegde
     waarde. Art. 20 - 21
 
-AFDELING 5. Slotbepalingen. Art. 22 - 24
+##### AFDELING 5. Slotbepalingen. Art. 22 - 24
 
-    AFDELING 1
+##### AFDELING 1
     Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
     "Inning en Invordering", "Mini One Stop Shop - btw BE" en
     "btw on E-Services".
@@ -80,7 +80,7 @@ AFDELING 5. Slotbepalingen. Art. 22 - 24
 (Het opschrift van Afdeling 1, werd vervangen met ingang van 01.12.2019 (Art. 31,
 KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    Onderafdeling 1
+###### Onderafdeling 1
     Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
 
 ## Art. 1
@@ -265,7 +265,7 @@ geacht te zijn gedaan ter voldoening van de in artikel 1 en artikel 5, § 2, bed
 die de belastingplichtige verschuldigd is of zal worden voor het tijdvak dat volgt op dat
 waarvoor het bijhouden van een bijzondere rekening werd voorgeschreven.
 
-    Onderafdeling 2
+###### Onderafdeling 2
     Betaling op de financiële rekening van "Inning en Invordering".
 
 (Het opschrift van Onderafdeling 2, werd vervangen met ingang van 01.12.2019 (Art. 32,
@@ -328,7 +328,7 @@ KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-    Onderafdeling 3
+###### Onderafdeling 3
     Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 
 (De tekst van Onderafdeling 3, werd vervangen met ingang van 01.01.2015 (Art. 7,
@@ -349,7 +349,7 @@ Stop Shop - VAT BE" wordt gedaan door storting of overschrijving met vermelding 
 gestructureerde mededeling die hem werd ter kennis gebracht door de administratie. Zij heeft
 uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 
-    Onderafdeling 4
+###### Onderafdeling 4
     Betaling op de postrekening van "VAT on E-Services".
 
 (De tekst van Onderafdeling 4, werd ingevoegd met ingang van 01.01.2015. (Art. 8, KB
@@ -374,7 +374,7 @@ tijdvak voorafgaand aan 1 januari 2015, waardoor de belasting aan de Schatkist m
 gestort, wordt de betaling eveneens gedaan op de in het eerste lid daartoe voorziene
 postrekening.
 
-    AFDELING 2
+##### AFDELING 2
 Betaling vastgesteld door middel van het elektronische systeem PLDA
     van
     de Algemene Administratie van de Douane en Accijnzen.
@@ -410,7 +410,7 @@ aanvaarden:
 onder de voorwaarden door hen te bepalen, worden toegestaan dat de voldoening van de ter
 zake van invoer verschuldigde BTW op een andere wijze wordt vastgesteld.
 
-    AFDELING 3
+##### AFDELING 3
     Betaling bestemd voor het kantoor van de door of vanwege de
     Minister van Financiën met de invordering belaste ambtenaar.
 
@@ -438,7 +438,7 @@ KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
     (Opgeheven)
 
-    AFDELING 4
+##### AFDELING 4
  Betaling op een douane of accijnskantoor voor andere dan bij invoer
     verschuldigde belasting over de toegevoegde waarde.
 
@@ -472,7 +472,7 @@ Indien door of vanwege de Minister van Financiën overeenkomstig artikel 20 van 
 andere wijze van betalen wordt toegestaan, wordt door of vanwege hem eveneens de datum
 bepaald waarop de betaling uitwerking heeft.
 
-    AFDELING 5
+##### AFDELING 5
     Slotbepalingen.
 
 ## Art. 22

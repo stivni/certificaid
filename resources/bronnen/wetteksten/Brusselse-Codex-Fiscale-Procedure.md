@@ -34,7 +34,7 @@ Titel
 
 6 MAART 2019. - Ordonnantie betreffende de Brusselse Codex Fiscale Procedure
 
-TITEL 1. - Algemene bepalingen
+### TITEL 1. - Algemene bepalingen
 
 ## Art. 1
 
@@ -76,7 +76,7 @@ de toepassing van deze Codex wordt verstaan onder :
 10° het Gewest : het Brussels Hoofdstedelijk Gewest;
 [2 11° de ordonnantie betreffende de administratieve samenwerking op het gebied van de belastingen : ordonnantie van 26 juli 2013 houdende omzetting van richtlijn 2011/16/EU van de Raad van 15 februari 2011 betreffende de administratieve samenwerking op het gebied van de belastingen en tot intrekking van richtlijn 77/799/EEG.]2 (1)<ORD 2019-12-17/06, art. 3, 002; Inwerkingtreding : 01-01-2020> (2)<ORD 2020-10-29/13, art. 9, 003; Inwerkingtreding : 01-07-2020>
 
-TITEL 2. - Fiscale procedure
+### TITEL 2. - Fiscale procedure
 
 #### HOOFDSTUK 1. - Aangiftes
 
@@ -886,7 +886,7 @@ De bevoegde agent kan, door een enkele gemotiveerde beslissing, een geheel van b
 De beslissing wordt gepubliceerd in het Belgisch Staatsblad. De publicatie geldt als bekendmaking van de beslissing aan de indieners van de bezwaarschriften en de prejudiciaire beroepen.
 Deze beslissing is onherroepelijk, behalve wat betreft diegene die een vordering instelt op basis van artikel 1385undecies van het Gerechtelijk Wetboek binnen de termijn bepaald door dit artikel. Geen enkel prejudiciair beroep kan worden ingesteld tegen deze beslissing.
 
-TITEL 3. - Samenwerking tussen het Gewest en de gemeenten
+### TITEL 3. - Samenwerking tussen het Gewest en de gemeenten
 
 #### HOOFDSTUK 1. - Gemeentelijke opcentiemen op de gewestelijke belastingen
 
@@ -1026,7 +1026,7 @@ Zij geeft de gemeente kennis van haar beslissing. Deze beslissing heeft uitwerki
 Deze beslissing moet worden genomen door de gemeenteraad. Er wordt kennis van gegeven aan de gewestelijke fiscale administratie. Deze beslissing heeft uitwerking bij het einde van de twaalfde maand die volgt op deze waarin de kennisgeving plaatsvond.
 De Regering bepaalt de modaliteiten van het aannemen en de kennisgeving van deze beslissing.
 
-TITEL 4. - Werking van de gewestelijke fiscale administratie
+### TITEL 4. - Werking van de gewestelijke fiscale administratie
 
 #### HOOFDSTUK 1. [1 - Internationale en Europeesrechtelijke verplichtingen in fiscale zaken en invordering.]1
 
@@ -1126,7 +1126,7 @@ Elke agent van de gewestelijke fiscale administratie kan de verschijning in pers
 4° betwistingen met betrekking tot fiscale normen.
 Het Gewest neemt de volledige aansprakelijkheid op zich van de door deze agenten uitgevoerde handelingen in dit kader.
 
-TITEL 5. - Wijzigingsbepalingen
+### TITEL 5. - Wijzigingsbepalingen
 
 ## Art. 132
 
@@ -1207,7 +1207,7 @@ In artikel 23, § 3, van de ordonnantie van 22 december 1994 betreffende de over
 
 De Regering wordt ertoe gemachtigd om verwijzingen in andere ordonnanties naar bepalingen die opgeheven werden naar aanleiding van deze codificatie waar nodig aan te passen.
 
-TITEL 6. - Opheffings-, inwerkingtredingsbepalingen en overgangsmaatregelen
+### TITEL 6. - Opheffings-, inwerkingtredingsbepalingen en overgangsmaatregelen
 
 ## Art. 143
 

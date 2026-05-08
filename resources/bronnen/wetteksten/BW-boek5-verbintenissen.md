@@ -68,7 +68,7 @@ In artikel 1675/16bis, § 1, van hetzelfde Wetboek, ingevoegd bij de wet van 13 
 
 In artikel 1730, § 2, van hetzelfde Wetboek, ingevoegd bij de wet van 21 februari 2005, wordt het cijfer "1153" vervangen door het cijfer "5.240".
 
-  Afdeling II. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
+##### Afdeling II. - Wijzigingen van het Wetboek van vennootschappen en verenigingen
 
 ## Art. 12
 
@@ -82,7 +82,7 @@ In artikel 2:144, derde lid, van hetzelfde Wetboek wordt het cijfer "1166" verva
 
 In artikel 4:15, eerste lid, van hetzelfde Wetboek wordt het cijfer "1166" vervangen door het cijfer "5.242".
 
-  Afdeling III. - Wijzigingen van het Wetboek van economisch recht
+##### Afdeling III. - Wijzigingen van het Wetboek van economisch recht
 
 ## Art. 15
 
@@ -128,7 +128,7 @@ In artikel XX.65, § 3, tweede lid van hetzelfde Wetboek, ingevoegd bij de wet v
 
 In artikel XX.201, tweede lid, van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
 
-  Afdeling IV. - Wijzigingen van het oud Burgerlijk Wetboek
+##### Afdeling IV. - Wijzigingen van het oud Burgerlijk Wetboek
 
 ## Art. 26
 
@@ -142,7 +142,7 @@ In artikel 60, derde lid, van boek III, titel XVII, van het oud Burgerlijk Wetbo
 
 In artikel 2244, § 2, eerste lid, van hetzelfde Wetboek, ingevoegd bij de wet van 23 mei 2013, worden de woorden "artikel 1146" vervangen door de woorden "de artikelen 5.231 en 5.233".
 
-  Afdeling V. - Wijziging van het Burgerlijk Wetboek
+##### Afdeling V. - Wijziging van het Burgerlijk Wetboek
 
 ## Art. 29
 
@@ -150,31 +150,31 @@ Artikel 4.126 van het Burgerlijk Wetboek, ingevoegd bij de wet van 19 januari 20
   De griffier van het rechtscollege dat het in het eerste lid bedoelde vonnis of arrest heeft uitgesproken, stelt het centraal erfrechtregister in kennis van elk verzet, elk hoger beroep of elke voorziening tegen dit vonnis of arrest.
   De griffier van het rechtscollege dat ze heeft uitgesproken stelt het centraal erfrechtregister in kennis van de rechterlijke beslissingen waarbij een in het eerste lid bedoeld vonnis of arrest wordt vernietigd of hervormd.".
 
-   Afdeling VI. - Wijziging van de wet van 2 april 1962 betreffende de Federale Participatie- en Investeringsmaatschappij en de gewestelijke investeringsmaatschappijen
+##### Afdeling VI. - Wijziging van de wet van 2 april 1962 betreffende de Federale Participatie- en Investeringsmaatschappij en de gewestelijke investeringsmaatschappijen
 
 ## Art. 30
 
 In artikel 2sexies, § 2, tweede lid, van de wet van 2 april 1962 betreffende de Federale Participatie- en Investeringsmaatschappij en de gewestelijke investeringsmaatschappijen, ingevoegd bij de wet van 5 december 2017, worden de woorden "Artikel 1184 van het Burgerlijk Wetboek is" vervangen door de woorden "De artikelen 5.90 tot 5.96 van het Burgerlijk Wetboek zijn".
 
-  Afdeling VII. - Wijziging van de wet van 10 juni 1964 op het openbaar aantrekken van spaargelden
+##### Afdeling VII. - Wijziging van de wet van 10 juni 1964 op het openbaar aantrekken van spaargelden
 
 ## Art. 31
 
 In artikel 21, § 4, van de wet van 10 juni 1964 op het openbaar aantrekken van spaargelden wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
 
-  Afdeling VIII. - Wijziging van de wet van 12 april 1965 betreffende het vervoer van gasachtige producten en andere door middel van leidingen
+##### Afdeling VIII. - Wijziging van de wet van 12 april 1965 betreffende het vervoer van gasachtige producten en andere door middel van leidingen
 
 ## Art. 32
 
 In artikel 16, eerste lid, 7°, van de wet van 12 april 1965 betreffende het vervoer van gasachtige producten en andere door middel van leidingen, wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
 
-  Afdeling IX. - Wijziging van de wet van 1 april 1976 betreffende de verticale integratie in de sector van de dierlijke productie
+##### Afdeling IX. - Wijziging van de wet van 1 april 1976 betreffende de verticale integratie in de sector van de dierlijke productie
 
 ## Art. 33
 
 In artikel 13, eerste lid, van de wet van 1 april 1976 betreffende de verticale integratie in de sector van de dierlijke productie wordt het woord "strafbeding" vervangen door het woord "schadebeding".
 
-  Afdeling X. - Wijziging van de gecoördineerde wet van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen
+##### Afdeling X. - Wijziging van de gecoördineerde wet van 14 juli 1994 betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen
 
 ## Art. 34
 
@@ -182,31 +182,31 @@ In artikel 72, derde lid, van de gecoördineerde wet van 14 juli 1994, betreffen
   1° de woorden "de artikelen 1226 tot en met 1233" worden vervangen door de woorden "artikel 5.88";
   2° het woord "strafbedingen" wordt vervangen door het woord "schadebedingen".
 
-  Afdeling XI. - Wijziging van de wet van 17 juli 1997 betreffende het gerechtelijk akkoord
+##### Afdeling XI. - Wijziging van de wet van 17 juli 1997 betreffende het gerechtelijk akkoord
 
 ## Art. 35
 
 In artikel 28, tweede lid, van de wet van 17 juli 1997 betreffende het gerechtelijk akkoord, opgeheven bij de wet van 31 januari 2009 uitgezonderd voor de gevallen bedoeld in artikel 85 van die wet, wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
 
-   Afdeling XII. - Wijziging van de wet van 3 november 2001 tot oprichting van de Belgische Investeringsmaatschappij voor Ontwikkelingslanden
+##### Afdeling XII. - Wijziging van de wet van 3 november 2001 tot oprichting van de Belgische Investeringsmaatschappij voor Ontwikkelingslanden
 
 ## Art. 36
 
 In artikel 4bis, § 3, tweede lid, van de wet van 3 november 2001 tot oprichting van de Belgische Investeringsmaatschappij voor Ontwikkelingslanden, ingevoegd bij de wet van 20 januari 2014, worden de woorden "Artikel 1184 van het Burgerlijk Wetboek is" vervangen door de woorden "De artikelen 5.90 tot 5.96 van het Burgerlijk Wetboek zijn".
 
-   Afdeling XIII. - Wijziging van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
+##### Afdeling XIII. - Wijziging van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
 
 ## Art. 37
 
 In artikel 31, § 4, derde lid, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, gewijzigd bij de wet van 30 juli 2018, wordt het cijfer "1254" vervangen door het woord "5.210".
 
-  Afdeling XIV. - Wijziging van de wet van 11 juni 2004 betreffende de informatieverstrekking bij de verkoop van tweedehandsvoertuigen
+##### Afdeling XIV. - Wijziging van de wet van 11 juni 2004 betreffende de informatieverstrekking bij de verkoop van tweedehandsvoertuigen
 
 ## Art. 38
 
 In artikel 7 van de wet van 11 juni 2004 betreffende de informatieverstrekking bij de verkoop van tweedehandsvoertuigen, gewijzigd bij de wet van 28 november 2018, wordt het cijfer "1116" vervangen door het cijfer "5.35".
 
-   Afdeling XV. - Wijzigingen van de wet van 15 december 2004 betreffende financiële zekerheden en houdende diverse fiscale bepalingen inzake zakelijke-zekerheidsovereenkomsten en leningen met betrekking tot financiële instrumenten
+##### Afdeling XV. - Wijzigingen van de wet van 15 december 2004 betreffende financiële zekerheden en houdende diverse fiscale bepalingen inzake zakelijke-zekerheidsovereenkomsten en leningen met betrekking tot financiële instrumenten
 
 ## Art. 39
 
@@ -232,7 +232,7 @@ In artikel 12, § 3, van dezelfde wet, gewijzigd bij de wet van 26 september 201
 
 In artikel 13, § 2, tweede lid, van dezelfde wet, wordt het cijfer "1254" vervangen door het cijfer "5.210".
 
-  Afdeling XVI. - Wijzigingen van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen
+##### Afdeling XVI. - Wijzigingen van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen
 
 ## Art. 45
 
@@ -244,7 +244,7 @@ In artikel 35, § 3, eerste lid, van de wet van 31 januari 2009 betreffende de c
 
 In artikel 43, tweede lid, van dezelfde wet, opgeheven bij de wet van 11 augustus 2017 uitgezonderd voor de gevallen bedoeld in artikel 71 van die wet, wordt het cijfer "1244" vervangen door het cijfer "5.201".
 
-  Afdeling XVII. - Wijzigingen van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector
+##### Afdeling XVII. - Wijzigingen van de wet van 3 augustus 2012 betreffende diverse maatregelen ter vergemakkelijking van de mobilisering van schuldvorderingen in de financiële sector
 
 ## Art. 47
 
@@ -254,19 +254,19 @@ In artikel 7, § 2, van de wet van 3 augustus 2012 betreffende diverse maatregel
 
 In artikel 8, § 4, van de dezelfde wet wordt het cijfer "1167" vervangen door het cijfer "5.243".
 
-  Afdeling XVIII. - Wijziging van de wet van 30 juli 2013 betreffende de verkoop van toegangsbewijzen tot evenementen
+##### Afdeling XVIII. - Wijziging van de wet van 30 juli 2013 betreffende de verkoop van toegangsbewijzen tot evenementen
 
 ## Art. 49
 
 In artikel 6 van de wet van 30 juli 2013 betreffende de verkoop van toegangsbewijzen tot evenementen, wordt het cijfer "1116" vervangen door het cijfer "5.35".
 
-   Afdeling XIX. - Wijziging van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen
+##### Afdeling XIX. - Wijziging van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen
 
 ## Art. 50
 
 In artikel 12, derde lid, van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen, wordt het woord "strafbeding" vervangen door het woord "schadebeding".
 
-  Afdeling XX. - Wijzigingen van de wet van 4 april 2014 betreffende de verzekeringen
+##### Afdeling XX. - Wijzigingen van de wet van 4 april 2014 betreffende de verzekeringen
 
 ## Art. 51
 
@@ -280,7 +280,7 @@ In artikel 190, eerste lid, van dezelfde wet wordt het cijfer "1167" vervangen d
 
 In artikel 246, derde lid, van dezelfde wet wordt het cijfer "1252" vervangen door het cijfer "5.223".
 
-  Afdeling XXI. - Wijzigingen van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen
+##### Afdeling XXI. - Wijzigingen van de wet van 25 april 2014 op het statuut van en het toezicht op kredietinstellingen en beursvennootschappen
 
 ## Art. 54
 
@@ -294,7 +294,7 @@ In artikel 274 van dezelfde wet, gewijzigd bij de wet van 2 mei 2019, wordt het 
 
 In artikel 373, § 2, van dezelfde wet, gewijzigd bij de wet van 2 mei 2019, wordt het cijfer "1167" vervangen door het cijfer "5.243".
 
-  Afdeling XXII. - Wijzigingen van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen
+##### Afdeling XXII. - Wijzigingen van de wet van 13 maart 2016 op het statuut van en het toezicht op de verzekerings- of herverzekeringsondernemingen
 
 ## Art. 57
 
@@ -308,13 +308,13 @@ In artikel 522, eerste lid, gewijzigd bij de wet van 2 mei 2019, van dezelfde we
 
 In artikel 634, tweede lid, van dezelfde wet, gewijzigd bij de wet van 2 mei 2019, wordt het cijfer "1167" vervangen door het cijfer "5.243".
 
-  Afdeling XXIII. - Wijziging van de wet van 23 november 2017 tot wijziging van de naam van de Belgische Technische Coöperatie en tot vaststelling van de opdrachten en de werking van Enabel, Belgisch Ontwikkelingsagentschap
+##### Afdeling XXIII. - Wijziging van de wet van 23 november 2017 tot wijziging van de naam van de Belgische Technische Coöperatie en tot vaststelling van de opdrachten en de werking van Enabel, Belgisch Ontwikkelingsagentschap
 
 ## Art. 60
 
 In artikel 32, § 3, tweede lid, van de wet van 23 november 2017 tot wijziging van de naam van de Belgische Technische Coöperatie en tot vaststelling van de opdrachten en de werking van Enabel, Belgisch Ontwikkelingsagentschap, worden de woorden "Artikel 1184 van het Burgerlijk Wetboek is" vervangen door de woorden "De artikelen 5.90 tot 5.96 van het Burgerlijk Wetboek zijn".
 
-   Afdeling XXIV. - Wijziging van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek
+##### Afdeling XXIV. - Wijziging van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek
 
 ## Art. 61
 
@@ -330,9 +330,9 @@ In artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetbo
   9° Boek 9. Zekerheden;
   10° Boek 10. Verjaring.".
 
-  HOOFDSTUK 4. - Opheffingsbepalingen
+#### HOOFDSTUK 4. - Opheffingsbepalingen
 
-  Afdeling I. - Opheffingen in het oud Burgerlijk Wetboek
+##### Afdeling I. - Opheffingen in het oud Burgerlijk Wetboek
 
 ## Art. 62
 
@@ -377,13 +377,13 @@ In het oud Burgerlijk Wetboek worden de volgende artikelen opgeheven:
   38° de artikelen 1699 tot 1701;
   39° artikel 2281, hersteld bij de wet van 20 oktober 2000 en gewijzigd bij de wet van 13 april 2019.
 
-  Afdeling II. - Opheffing in het Gerechtelijk Wetboek
+##### Afdeling II. - Opheffing in het Gerechtelijk Wetboek
 
 ## Art. 63
 
 In het vierde deel, boek IV, van het Gerechtelijk Wetboek wordt hoofdstuk XVIII, dat de artikelen 1352 tot 1357 bevat, opgeheven.
 
-  HOOFDSTUK 5. - Overgangsbepalingen
+#### HOOFDSTUK 5. - Overgangsbepalingen
 
 ## Art. 64
 
@@ -392,7 +392,7 @@ De bepalingen van boek 5 van het Burgerlijk Wetboek zijn van toepassing op alle 
    1° op de toekomstige gevolgen van rechtshandelingen en rechtsfeiten die hebben plaatsgevonden voor de inwerkingtreding van deze wet;
    2° in afwijking van het eerste lid, op rechtshandelingen en rechtsfeiten die hebben plaatsgevonden na de inwerkingtreding van deze wet die betrekking hebben op een verbintenis ontstaan uit een rechtshandeling of rechtsfeit dat heeft plaatsgevonden voor de inwerkingtreding van deze wet.
 
-  HOOFDSTUK 6. - Inwerkingtreding
+#### HOOFDSTUK 6. - Inwerkingtreding
 
 ## Art. 65
 

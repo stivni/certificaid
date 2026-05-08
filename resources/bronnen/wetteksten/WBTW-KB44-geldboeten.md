@@ -90,7 +90,7 @@ De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
     BIJLAGE
 
-AFDELING 1 : AANGIFTEVERPLICHTING
+##### AFDELING 1 : AANGIFTEVERPLICHTING
 
 I. Aangifte bedoeld in artikel 53, § 1 , eerste lid, 2°, van het Wetboek
 
@@ -305,7 +305,7 @@ IV. Lijsten en opgaven
 
     D. Niet naleven van de procedure van indienen 200 EUR per document
 
-AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
+##### AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
     KRACHTENS DE REGELGEVING
 
 I. Factuur en als zodanig geldend stuk
@@ -407,7 +407,7 @@ III. Andere door of krachtens de regelgeving voorziene stukken en rapporten
     EUR met een maximum van
     2.500 EUR
 
-AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
+##### AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
 
 I. Boeken, registers en journalen waarvan het houden wordt voorgeschreven door of
     krachtens de regelgeving
@@ -469,7 +469,7 @@ III. Andere door of krachtens de regelgeving op te maken/te houden stukken en ge
     - volgende overtredingen:
     1.000 EUR
 
-AFDELING 4 : CONTROLEMAATREGELEN
+##### AFDELING 4 : CONTROLEMAATREGELEN
 
 I. Verplichting tot het meedelen van het identificatienummer bedoeld in artikel 53quater
     van het Wetboek
@@ -500,7 +500,7 @@ IV. Verplichtingen bedoeld in de artikelen 61, 62, 62bis en 63 van het Wetboek
     - volgende overtredingen:
     5.000 EUR
 
-AFDELING 5 : INTERNATIONAAL
+##### AFDELING 5 : INTERNATIONAAL
 
 I. Artikelen 39, 39bis, 39quater, 40, 40bis, 41 en 42 van het Wetboek - Artikel 81 van het
     koninklijk besluit nr. 4 van 29 december 1969
@@ -528,7 +528,7 @@ II. Artikel 52 van het Wetboek
     tot het aangeven van de goederen onder de door artikel
     52, § 1, van het Wetboek, voorgeschreven voorwaarden
 
-AFDELING 6 : DIVERSE BEPALINGEN
+##### AFDELING 6 : DIVERSE BEPALINGEN
 
     Elke andere verplichting bedoeld in het Wetboek en de besluiten genomen ter uitvoering
     ervan dan deze beoogd in afdeling 1 tot en met 5 van deze bijlage

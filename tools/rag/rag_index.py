@@ -227,85 +227,6 @@ def _slug(text: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# TODO ETL-WORKAROUND — verwijderen zodra ETL gefixed is
-#
-# _herstel_structuurheadings() en _merge_bis_ter() zijn tijdelijke compensaties
-# voor ETL-kwaliteitsproblemen in geconverteerde wetteksten:
-#
-#   (1) Structuurlabels als plain text: BOEK/TITEL/HOOFDSTUK/AFDELING staan als
-#       gewone tekstregel i.p.v. als markdown-heading. ETL-fix: herken die labels
-#       in convert.py / cleanup.py en schrijf ze als `#### HOOFDSTUK VI...`.
-#       Gemeten: 138 instances in Strafwetboek-1867.md.
-#       Zie memory/project_bron_pipeline.md §"Probleem 7".
-#
-#   (2) Bis/ter/quater los in markdown: art. 458bis staat als apart ## Art. 458bis
-#       i.p.v. als onderdeel van het 458-blok. ETL-fix: detecteer suffix-artikelen
-#       en schrijf ze als sub-sectie van het basisartikel (of laat de merge hier).
-#       Zie memory/project_bron_pipeline.md §"Overig".
-#
-# Zodra de ETL die structuur correct uitschrijft:
-#   - Verwijder _herstel_structuurheadings(), _STRUCTUUR_DIEPTE, _PLAIN_STRUCTUUR_RE
-#   - Verwijder _merge_bis_ter() en de _art_nr-metadata in flush()
-#   - Verwijder de aanroepen in split_wettekst()
-# ---------------------------------------------------------------------------
-
-# Diepte-mapping voor structuurlabels (BOEK > DEEL > TITEL > HOOFDSTUK > AFDELING > ...)
-_STRUCTUUR_DIEPTE: dict[str, str] = {
-    "BOEK":           "##",
-    "DEEL":           "##",
-    "TITEL":          "###",
-    "HOOFDSTUK":      "####",
-    "AFDELING":       "#####",
-    "ONDERAFDELING":  "######",
-    "SECTIE":         "######",
-    "PARAGRAAF":      "######",
-    "ONDERDEEL":      "######",
-}
-
-# Patroon: structuurlabel gevolgd door Romeins cijfer, letter, of getal (bijv. "HOOFDSTUK VI")
-_PLAIN_STRUCTUUR_RE = re.compile(
-    r"^[\s ]*"                                 # optionele witruimte incl. NBSP
-    r"(BOEK|DEEL|TITEL|HOOFDSTUK|AFDELING|ONDERAFDELING|SECTIE|PARAGRAAF|ONDERDEEL)"
-    r"\s+"
-    r"(?:[IVXLCDM]+[a-z]*|\d+[a-z]*|[A-Z][a-z]*)" # Romeins, arabisch, of letter
-    r"(?:\s*[\.\-]|\s|$)",                          # gevolgd door punt, dash, spatie of einde
-    re.IGNORECASE,
-)
-
-
-def _herstel_structuurheadings(tekst: str) -> str:
-    """
-    Converteer plain-text structuurlabels naar markdown-headings zodat
-    split_wettekst ze oppikt in de structurele context-stack.
-
-    Wetteksten als het Strafwetboek-1867 werden geconverteerd zonder de
-    hierarchische labels (BOEK, TITEL, HOOFDSTUK, AFDELING...) als heading
-    te herkennen — ze staan als gewone tekstregel. De parser in split_wettekst
-    verwerkt ze enkel als ze als `## HOOFDSTUK ...` geformatteerd zijn.
-
-    Veiligheid: enkel regels die *uitsluitend* uit een structuurlabel +
-    nummercode bestaan worden geconverteerd. Labels midden in een artikel-alinea
-    worden niet aangeraakt (die voldoen nooit aan het patroon).
-    """
-    regels = tekst.split("\n")
-    resultaat = []
-    for regel in regels:
-        stripped = regel.strip()
-        # Sla over als al een markdown-heading of leeg
-        if not stripped or stripped.startswith("#"):
-            resultaat.append(regel)
-            continue
-        m = _PLAIN_STRUCTUUR_RE.match(regel)
-        if m:
-            structuurtype = m.group(1).upper()
-            diepte = _STRUCTUUR_DIEPTE.get(structuurtype, "###")
-            resultaat.append(f"{diepte} {stripped}")
-        else:
-            resultaat.append(regel)
-    return "\n".join(resultaat)
-
-
-# ---------------------------------------------------------------------------
 # ChromaDB client
 # ---------------------------------------------------------------------------
 
@@ -522,7 +443,6 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
       worden meegenomen (breadcrumb).
     - Bis/ter/quater-artikelen worden gemerged met hun basisartikel.
     """
-    text = _herstel_structuurheadings(text)
     wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
     lines = text.split("\n")
     chunks: list[dict] = []

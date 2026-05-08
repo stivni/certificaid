@@ -97,7 +97,7 @@ Kinderen van de onwaardige
 
   Ondertitel 4. Wettelijke erfopvolging
 
-  Hoofdstuk 1. Algemene bepalingen
+#### Hoofdstuk 1. Algemene bepalingen
 
 ## Art. 4.10
 
@@ -128,7 +128,7 @@ Erfrechtelijke roeping na gewone adoptie
   Ze verkrijgen op de nalatenschap van de adoptant of adoptanten dezelfde rechten als een kind of zijn afstammelingen daarop zouden hebben.
   Ze verkrijgen geen enkel recht op de nalatenschap van de verwanten van de adoptant of adoptanten.
 
-  Hoofdstuk 2. Plaatsvervulling
+#### Hoofdstuk 2. Plaatsvervulling
 
 ## Art. 4.13
 
@@ -151,7 +151,7 @@ Graden en staken bij plaatsvervulling
   Er is ook plaatsvervulling wanneer geen van de erfgerechtigden in dezelfde graad tot de nalatenschap komen, hetzij omdat ze voor of gelijktijdig met de erflater overleden zijn, dan wel de nalatenschap verworpen hebben of onwaardig zijn. Ze heeft plaats ongeacht of de afstammelingen onder elkaar in gelijke of in ongelijke graden staan.
   In alle gevallen van plaatsvervulling geschiedt de verdeling bij staken. Indien een zelfde staak verscheidene takken heeft voortgebracht, geschiedt de onderverdeling in elke tak eveneens bij staken en delen de leden van dezelfde tak onder elkaar per hoofd.
 
-  Hoofdstuk 3. Aanwezigheid van afstammelingen
+#### Hoofdstuk 3. Aanwezigheid van afstammelingen
 
 ## Art. 4.16
 
@@ -159,9 +159,9 @@ Rechte neerdalende lijn
     De kinderen of hun afstammelingen erven van hun ouders, grootouders of verdere verwanten in de opgaande lijn, ook al hebben zij niet dezelfde ouders, en ongeacht de wijze waarop hun afstamming is vastgesteld.
     De nalatenschap komt toe aan de afstammelingen die de naaste in graad zijn. Zij erven voor gelijke delen en per hoofd, wanneer zij allen in de eerste graad staan en uit eigen hoofde geroepen worden. Zij erven bij staken, wanneer zij allen of een gedeelte van hen bij plaatsvervulling opkomen.
 
-  Hoofdstuk 4. Erfrechtelijke roeping van de echtgenoot en de wettelijk samenwonende
+#### Hoofdstuk 4. Erfrechtelijke roeping van de echtgenoot en de wettelijk samenwonende
 
-  Afdeling 1. De langstlevende echtgenoot
+##### Afdeling 1. De langstlevende echtgenoot
 
 ## Art. 4.17
 
@@ -209,7 +209,7 @@ Uitsluiting of verval
   Die vergoeding wordt vastgesteld door de rechtbank en stemt overeen met de waarde van het vruchtgebruik, mede gelet op de vermoedelijke levensduur van de vruchtgebruiker bij het instellen van de rechtsvordering.
   Is het vruchtgebruik omgezet in een lijfrente, dan werkt het vonnis terug tot hetzelfde tijdstip.
 
-  Afdeling 2. De langstlevende wettelijk samenwonende
+##### Afdeling 2. De langstlevende wettelijk samenwonende
 
 ## Art. 4.23
 
@@ -223,7 +223,7 @@ Erfrecht en recht op huur van de langstlevende wettelijk samenwonende
   § 5. Niettegenstaande enig andersluidend beding kan ieder die de blote eigendom verkrijgt, eisen dat een boedelbeschrijving van het huisraad en een staat van het onroerend goed dat het gezin tot voornaamste woning diende wordt opgemaakt.
   § 6. De regels inzake het vruchtgebruik van de langstlevende echtgenoot die zijn opgenomen in de artikelen 4.22 en 4.60 tot 4.64 zijn van overeenkomstige toepassing op het vruchtgebruik van de langstlevende wettelijk samenwonende.
 
-  Hoofdstuk 5. Recht van wettelijke terugkeer
+#### Hoofdstuk 5. Recht van wettelijke terugkeer
 
 ## Art. 4.24
 
@@ -239,7 +239,7 @@ Recht van terugkeer na gewone adoptie
    § 2. Wanneer de goederen verkocht zijn, wordt dit recht uitgeoefend op de prijs, indien deze nog niet is betaald of er nog geen vermenging in het vermogen van de geadopteerde plaats vond.
    De verwanten in opgaande lijn van de geadopteerde en de adoptanten verkrijgen ook de rechtsvordering tot terugneming die de geadopteerde mocht hebben.
 
-  Hoofdstuk 6. Afwezigheid van afstammelingen en aanwezigheid van nauwe zijverwanten
+#### Hoofdstuk 6. Afwezigheid van afstammelingen en aanwezigheid van nauwe zijverwanten
 
 ## Art. 4.26
 
@@ -258,7 +258,7 @@ Rechten van de nauwe zijverwanten onderling
     Indien zij niet dezelfde ouders hebben, wordt een onderscheid gemaakt tussen de vaderlijke en de moederlijke lijn van de erflater. Het gedeelte van de nalatenschap dat toekomt aan de nauwe zijverwanten wordt voor de helft aan elke lijn toegewezen. Volle broers en zussen erven in beide lijnen; halfbroers en halfzussen van vaderszijde erven slechts in de vaderlijke lijn; halfbroers en halfzussen van moederszijde erven slechts in de moederlijke lijn.
  Zijn er enkel broers of zussen van één zijde, dan erven ze alles, met uitsluiting van alle andere verwanten van de andere lijn.
 
-  Hoofdstuk 7. Afwezigheid van afstammelingen en van nauwe zijverwanten
+#### Hoofdstuk 7. Afwezigheid van afstammelingen en van nauwe zijverwanten
 
 ## Art. 4.28
 
@@ -284,7 +284,7 @@ Gewone zijverwanten
   Indien er in geen van beide lijnen verwanten in de opgaande lijn zijn, wordt de nalatenschap toegewezen aan de gewone zijverwanten, in iedere lijn aan de naaste in graad.
   Indien er, in één lijn, verschillende gewone zijverwanten van dezelfde graad samen opkomen, delen zij per hoofd, behalve indien zij bij plaatsvervulling geroepen worden, voor zover plaatsvervulling toegelaten is.
 
-  Hoofdstuk 8. Nalatenschap van de kinderloos overleden geadopteerde
+#### Hoofdstuk 8. Nalatenschap van de kinderloos overleden geadopteerde
 
 ## Art. 4.31
 
@@ -311,7 +311,7 @@ Formaliteiten
 
   Ondertitel 6. Erfkeuze
 
-  Hoofdstuk 1. Algemene bepalingen
+#### Hoofdstuk 1. Algemene bepalingen
 
 ## Art. 4.34
 
@@ -361,7 +361,7 @@ Minderjarigen en beschermde meerderjarigen
   § 3. Ingeval minderjarigen of personen die overeenkomstig artikel 492/1, § 2, derde lid, 5°, van het oud Burgerlijk Wetboek onbekwaam werden verklaard om een nalatenschap te verwerpen, tot een nalatenschap bedoeld in artikel 4.44, derde lid, geroepen zijn, ook indien dit slechts in ondergeschikte graad of orde is, kan de vrederechter, voor het geheel of een deel van deze personen, worden verzocht om een gezamenlijke machtiging om deze nalatenschap te verwerpen.
   Het verzoek kan gezamenlijk worden ingediend door de respectievelijke wettelijke vertegenwoordigers, overeenkomstig artikel 1185 van het Gerechtelijk Wetboek.
 
-  Hoofdstuk 2. Zuivere aanvaarding van de nalatenschap
+#### Hoofdstuk 2. Zuivere aanvaarding van de nalatenschap
 
 ## Art. 4.41
 
@@ -386,7 +386,7 @@ Bedrog of benadeling bij aanvaarding
   Een meerderjarige kan tegen de door hem uitdrukkelijk of stilzwijgend gedane aanvaarding van een nalatenschap slechts opkomen ingeval die aanvaarding het gevolg mocht zijn geweest van een jegens hem gepleegd bedrog.
   Hij kan er nooit tegen opkomen onder voorwendsel van benadeling, tenzij de nalatenschap mocht zijn teniet gedaan of met meer dan de helft verminderd, door de ontdekking van een testament dat op het ogenblik van de aanvaarding onbekend was.
 
-  Hoofdstuk 3. Verwerping van de nalatenschap
+#### Hoofdstuk 3. Verwerping van de nalatenschap
 
 ## Art. 4.44
 
@@ -420,7 +420,7 @@ Heling en verval van het recht op verwerping
    De erfgenaam of de erfgerechtigde die schuldig is aan heling verliest de bevoegdheid om de nalatenschap te verwerpen. Ook al zou hij die willen verwerpen, toch blijft hij zuiver erfgenaam, zonder op enig aandeel in de geheelde goederen of waarden aanspraak te kunnen maken.
    Deze sanctie kan niet worden ingeroepen tegen de erfgenaam of de erfgerechtigde die spontaan en tijdig de juiste en volledige informatie verstrekt of zijn valse verklaringen rechtzet.
 
-  Hoofdstuk 4. Aanvaarding onder voorrecht van boedelbeschrijving
+#### Hoofdstuk 4. Aanvaarding onder voorrecht van boedelbeschrijving
 
 ## Art. 4.49
 
@@ -503,7 +503,7 @@ Vereffening bij niet eenstemmige keuze
   In dat geval kan de rechtbank de vereffening van de gehele nalatenschap opdragen aan een erfgenaam naar haar keuze, onder verplichting, voor deze erfgenaam, die in het vonnis bepaalde zekerheid te stellen.
   Tijdens de vereffening kan geen erfgenaam in zijn persoonlijke goederen aangesproken worden. Na de verdeling blijven de gevolgen van de aanvaarding onder voorrecht van boedelbeschrijving alleen bestaan ten aanzien van de erfgenamen die in deze vorm hebben aanvaard.
 
-  Hoofdstuk 5. Onbeheerde nalatenschappen
+#### Hoofdstuk 5. Onbeheerde nalatenschappen
 
 ## Art. 4.58
 
@@ -515,7 +515,7 @@ Vereffening van een onbeheerde nalatenschap
   ----------
   (1)<W 2024-05-15/03, art. 138, 005; Inwerkingtreding : 07-06-2024>
 
-  Hoofdstuk 6. [1 Bewijs van erfrechtelijke hoedanigheid]1
+#### Hoofdstuk 6. [1 Bewijs van erfrechtelijke hoedanigheid]1
   ----------
   (1)<W 2022-07-30/03, art. 19, 003; Inwerkingtreding : 01-11-2022>
 
@@ -620,9 +620,9 @@ Waardering van het vruchtgebruik
 
   Ondertitel 8. Verdeling en inbreng
 
-  Hoofdstuk 1. Verdeling
+#### Hoofdstuk 1. Verdeling
 
-  Afdeling 1. Algemene bepalingen
+##### Afdeling 1. Algemene bepalingen
 
 ## Art. 4.65
 
@@ -651,7 +651,7 @@ Verdeling in onderling overleg
 Verdeling met minderjarigen of beschermde meerderjarigen
   Wanneer zich onder de mede-erfgenamen minderjarigen bevinden, of beschermde personen die krachtens artikel 492/1, § 2, van het oud Burgerlijk Wetboek onbekwaam zijn verklaard om goederen te vervreemden, of andere personen zoals omschreven in artikel 1225 van het Gerechtelijk Wetboek, geschiedt de minnelijke verdeling evenwel zoals in artikel 1206 van het Gerechtelijk Wetboek bepaald. Zo ook indien de nalatenschap onder voorrecht van boedelbeschrijving is aanvaard.
 
-  Afdeling 2. Vordering tot verdeling
+##### Afdeling 2. Vordering tot verdeling
 
 ## Art. 4.69
 
@@ -662,7 +662,7 @@ Algemene bepaling
 
 Vordering tot verdeling met minderjarigen of beschermde meerderjarigen De vordering tot verdeling ten aanzien van minderjarige of meerderjarige mede-erfgenamen die krachtens artikel 492/1, § 2, van het oud Burgerlijk Wetboek, onbekwaam zijn verklaard om goederen te vervreemden, kan worden ingesteld door hun voogd of bewindvoerder die daartoe bijzonder gemachtigd is door de vrederechter van het voogdijforum of het bewindsforum.
 
-  Afdeling 3. Bepalingen die voor elke verdeling gelden
+##### Afdeling 3. Bepalingen die voor elke verdeling gelden
 
 ## Art. 4.71
 
@@ -715,7 +715,7 @@ Vrijwillige verkoop
 Gedwongen verkoop van niet verdeelbare goederen
   Bij een gerechtelijke verdeling worden onverdeelde goederen die niet gevoeglijk kunnen worden verdeeld, verkocht zoals bepaald in artikelen 1224 en 1224/1 van het Gerechtelijk Wetboek.
 
-  Afdeling 4. Bijzondere bepalingen
+##### Afdeling 4. Bijzondere bepalingen
 
 ## Art. 4.78
 
@@ -734,7 +734,7 @@ Later opkomende erfgenamen
   De erfgenamen wier banden van verwantschap met de erflater niet zijn vastgesteld en die hun rechten niet hebben opgeëist binnen zes maanden na het openvallen van de nalatenschap, kunnen de geldigheid van de handelingen die later te goeder trouw zijn verricht door de andere erfgenamen of legatarissen, niet meer betwisten noch hun aandeel in natura opvorderen van de goederen die door deze laatsten na die termijn zijn vervreemd of verdeeld.
   De erfgenaam die niet bij de verdeling werd betrokken, behoudt het recht om de tegenwaarde van zijn aandeel te vorderen.
 
-  Afdeling 5. Overdracht van erfrechten en erfuitkoop
+##### Afdeling 5. Overdracht van erfrechten en erfuitkoop
 
 ## Art. 4.81
 
@@ -748,9 +748,9 @@ Overdracht van erfrechten
 Erfuitkoop
   Ieder die, ook al is hij verwant van de erflater, niet zijn erfgenaam is, en aan wie een mede-erfgenaam zijn erfrechten heeft overgedragen, kan uit de verdeling worden geweerd, hetzij door alle mede-erfgenamen, hetzij door een enkele, mits de prijs van de overdracht hem wordt terugbetaald.
 
-  Hoofdstuk 2. Inbreng
+#### Hoofdstuk 2. Inbreng
 
-  Afdeling 1. Inbreng van giften
+##### Afdeling 1. Inbreng van giften
 
 ## Art. 4.83
 
@@ -843,7 +843,7 @@ Aanbod tot inbreng in natura
 Dwingend recht
   De artikelen 4.89, 4.90 en 4.92 zijn van toepassing niettegenstaande elk andersluidend beding, tenzij de wet anders bepaalt en tenzij de erfgenamen, na het openvallen van de nalatenschap, anders overeenkomen.
 
-  Afdeling 2. Inbreng van schulden
+##### Afdeling 2. Inbreng van schulden
 
 ## Art. 4.94
 
@@ -868,7 +868,7 @@ Interesten op de in te brengen schuld
    De interesten op de schuld lopen door zoals oorspronkelijk was bedongen of beslist. Indien geen interest was bedongen of opgelegd, dan lopen de interesten van rechtswege vanaf het overlijden, aan de wettelijke rentevoet.
  Indien de schuld tijdens de onverdeeldheid is ontstaan, lopen de interesten van rechtswege vanaf de datum van opeisbaarheid, aan de wettelijke rentevoet.
 
-  Hoofdstuk 3. Schulden en lasten van de nalatenschap
+#### Hoofdstuk 3. Schulden en lasten van de nalatenschap
 
 ## Art. 4.98
 
@@ -900,7 +900,7 @@ Verzet tegen [1 de vereffening en, in voorkomend geval, tegen]1 de verdeling Sch
   ----------
   (1)<W 2025-06-18/02, art. 19, 006; Inwerkingtreding : 07-07-2025>
 
-  Hoofdstuk 4. Gevolgen van de verdeling en vrijwaring van de kavels
+#### Hoofdstuk 4. Gevolgen van de verdeling en vrijwaring van de kavels
 
 ## Art. 4.102
 
@@ -917,7 +917,7 @@ Vrijwaring
    § 3. De vordering tot vrijwaring tegen het onvermogen van de schuldenaar van een rente kan slechts worden ingesteld binnen vijf jaar na de verdeling.
    Er bestaat geen grond tot vrijwaring wegens het onvermogen van de schuldenaar, wanneer dit pas na het voltrekken van de verdeling is ontstaan.
 
-  Hoofdstuk 5. Betwisting van de verdeling
+#### Hoofdstuk 5. Betwisting van de verdeling
 
 ## Art. 4.104
 
@@ -1198,7 +1198,7 @@ Bewaartermijn
    ----------
    (1)<Ingevoegd bij W 2022-07-30/03, art. 26, 003; Inwerkingtreding : 01-11-2022>
 
-  Titel 2. Schenkingen, testamenten en erfovereenkomsten
+### Titel 2. Schenkingen, testamenten en erfovereenkomsten
 
   Ondertitel 1. Algemene bepalingen
 
@@ -1227,7 +1227,7 @@ Ongeoorloofde voorwaarden en lasten
 
   Ondertitel 2. Bekwaamheid
 
-  Hoofdstuk 1. Algemene bepalingen
+#### Hoofdstuk 1. Algemene bepalingen
 
 ## Art. 4.135
 
@@ -1246,7 +1246,7 @@ Ongeboren kind
   Om bij testament te verkrijgen, is het voldoende dat men verwekt was op het ogenblik van de dood van de testator.
   Niettemin zal de schenking of het testament slechts gevolg hebben indien het kind levensvatbaar wordt geboren.
 
-  Hoofdstuk 2. Minderjarigen en beschermde meerderjarigen
+#### Hoofdstuk 2. Minderjarigen en beschermde meerderjarigen
 
 ## Art. 4.138
 
@@ -1263,7 +1263,7 @@ Beschermde meerderjarigen
   In afwijking van het derde lid kan de vrederechter toestaan dat een testament in internationale vorm wordt opgesteld wanneer aan de in artikel 4.183 bedoelde vormvereisten voor het notarieel testament niet kan worden voldaan wegens de lichamelijke ongeschiktheid van de beschermde persoon.
   Bovendien mag de vrederechter de machtiging om te schenken weigeren indien de schenking de beschermde persoon of zijn onderhoudsgerechtigden behoeftig dreigt te maken.
 
-  Hoofdstuk 3. Specifieke onbekwaamheden
+#### Hoofdstuk 3. Specifieke onbekwaamheden
 
 ## Art. 4.140
 
@@ -1303,7 +1303,7 @@ Tussenpersonen
 
   Ondertitel 3. Beschikbaar deel en inkorting
 
-  Hoofdstuk 1. Beschikbaar deel
+#### Hoofdstuk 1. Beschikbaar deel
 
 ## Art. 4.145
 
@@ -1343,7 +1343,7 @@ Gift van het beschikbaar deel
   Het beschikbaar deel kan, hetzij bij schenking, hetzij bij testament, geheel of ten dele gegeven worden aan de kinderen of aan andere erfgerechtigden van de schenker.
   De beschikking zal moeten worden ingebracht of zal van inbreng zijn vrijgesteld zoals bepaald in titel 1, ondertitel 8, hoofdstuk 2, afdeling 1.
 
-  Hoofdstuk 2. Inkorting
+#### Hoofdstuk 2. Inkorting
 
 ## Art. 4.150
 
@@ -1408,7 +1408,7 @@ Verjaring
 
   Ondertitel 4. Schenkingen
 
-  Hoofdstuk 1. Vorm van de schenkingen
+#### Hoofdstuk 1. Vorm van de schenkingen
 
 ## Art. 4.158
 
@@ -1426,7 +1426,7 @@ Vormgebreken
   De schenker kan de gebreken van een schenking niet verhelpen door een akte van bevestiging. De schenking die nietig is wat de vorm betreft, moet in de wettelijke vorm opnieuw gedaan worden.
   Uit de bevestiging, bekrachtiging of vrijwillige uitvoering van een schenking door de erfgenamen van de schenker, na zijn overlijden, volgt hun afstand van het recht om zich te beroepen hetzij op gebreken in de vorm, hetzij op enige andere exceptie.
 
-  Hoofdstuk 2. Aanvaarding van de schenkingen
+#### Hoofdstuk 2. Aanvaarding van de schenkingen
 
 ## Art. 4.161
 
@@ -1468,7 +1468,7 @@ Gevolgen van de aanvaarding
 
 Ontbreken van aanvaarding voor een minderjarige of een beschermde meerderjarige Minderjarigen en beschermde personen die krachtens artikel 492/1 van het oude Burgerlijk Wetboek onbekwaam werden verklaard om schenkingen te ontvangen, worden niet in hun recht hersteld tegen het ontbreken van de aanvaarding. Ze hebben slechts verhaal op hun vader of moeder, hun voogd of bewindvoerder, indien daartoe grond bestaat.
 
-  Hoofdstuk 3. Voorwerp en modaliteiten van de schenkingen
+#### Hoofdstuk 3. Voorwerp en modaliteiten van de schenkingen
 
 ## Art. 4.168
 
@@ -1500,7 +1500,7 @@ Conventioneel recht van terugkeer
   Dit recht kan alleen ten voordele van de schenker worden bedongen.
   § 2. Het recht van terugkeer heeft tot gevolg dat alle vervreemdingen van de geschonken goederen worden tenietgedaan en dat deze goederen tot de schenker terugkeren vrij van alle lasten en hypotheken.
 
-  Hoofdstuk 4. Ontbinding en herroeping van schenkingen
+#### Hoofdstuk 4. Ontbinding en herroeping van schenkingen
 
 ## Art. 4.173
 
@@ -1538,9 +1538,9 @@ Kantmelding
 
   Ondertitel 5. Testamenten
 
-  Hoofdstuk 1. Vormen van de testamenten
+#### Hoofdstuk 1. Vormen van de testamenten
 
-  Afdeling 1. Algemene bepalingen
+##### Afdeling 1. Algemene bepalingen
 
 ## Art. 4.178
 
@@ -1557,7 +1557,7 @@ Verbod van conjunctief testament
 Toegelaten vormen
   Een testament kan eigenhandig, of bij notariële akte of in de vorm van het internationaal testament, worden gemaakt.
 
-  Afdeling 2. Vormvereisten
+##### Afdeling 2. Vormvereisten
 
 ## Art. 4.181
 
@@ -1588,7 +1588,7 @@ Testament in internationale vorm
 
 Verklaring betreffende het testament in internationale vorm Aan het testament in internationale vorm hecht de notaris een verklaring overeenkomstig de bepalingen van de wet waarvan sprake in artikel 4.184.
 
-  Afdeling 3. Bijzonder toegelaten testamentsvormen
+##### Afdeling 3. Bijzonder toegelaten testamentsvormen
 
 ## Art. 4.186
 
@@ -1627,7 +1627,7 @@ Bepaling gemeen aan alle bijzondere testamentsvormen
   Indien de testator verklaart dat hij niet kan tekenen of daartoe niet in staat is, wordt melding gemaakt van zijn verklaring, alsook van de oorzaak die hem verhindert te tekenen.
   In de gevallen waarin de tegenwoordigheid van twee getuigen vereist is, wordt het testament ten minste door een van beiden ondertekend, en wordt melding gemaakt van de reden waarom de andere niet getekend heeft.
 
-  Afdeling 4. Sanctionering
+##### Afdeling 4. Sanctionering
 
 ## Art. 4.190
 
@@ -1636,7 +1636,7 @@ Sanctie bij niet naleving van de vormvereisten
    De nietigheid van het notarieel testament laat zijn eventuele geldigheid wat de vorm betreft, als een internationaal testament, onverkort.
    De nietigheid van het testament als testament in internationale vorm laat zijn eventuele geldigheid wat de vorm betreft, als een testament van een andere soort, onverkort.
 
-  Afdeling 5. Formaliteiten na overlijden
+##### Afdeling 5. Formaliteiten na overlijden
 
 ## Art. 4.191
 
@@ -1648,9 +1648,9 @@ Formaliteiten voor het eigenhandig en het internationaal testament Wanneer een n
    De notaris rangschikt het testament in internationale vorm samen met dit proces-verbaal onder zijn minuten;
    3° deze regels zijn ook toepasselijk ten opzichte van de Belgische consulaire ambtenaren met notariële bevoegdheid, onder de voorwaarden die de ministers van Buitenlandse Zaken en Justitie bepalen.
 
-  Hoofdstuk 2. Legaten
+#### Hoofdstuk 2. Legaten
 
-  Afdeling 1. Algemene bepaling
+##### Afdeling 1. Algemene bepaling
 
 ## Art. 4.192
 
@@ -1658,7 +1658,7 @@ Uiterste wilsbeschikkingen
    Uiterste wilsbeschikkingen zijn of algemeen, of onder algemene titel, of onder bijzondere titel.
    De gevolgen van ieder van deze beschikkingen, gemaakt hetzij onder de benaming van erfstelling, hetzij onder de benaming van legaat, worden bepaald overeenkomstig de regels hierna vastgesteld voor de algemene legaten, voor de legaten onder algemene titel en voor de bijzondere legaten.
 
-  Afdeling 2. Algemeen legaat
+##### Afdeling 2. Algemeen legaat
 
 ## Art. 4.193
 
@@ -1675,7 +1675,7 @@ Bezit en genot
    Indien, in dat geval, hij bij eigenhandig testament of testament in internationale vorm is aangeduid, moet de algemene legataris zich in het bezit doen stellen door een beschikking van de familierechtbank van het arrondissement waar de nalatenschap is opengevallen.
    Als bijlage bij het verzoekschrift wordt een uitgifte van het proces-verbaal bedoeld in artikel 4.191 met een gewaarmerkte kopie van het testament neergelegd, alsook, in geval van een testament in internationale vorm, van de verklaring bedoeld in artikel 4.185.
 
-  Afdeling 3. Legaat onder algemene titel
+##### Afdeling 3. Legaat onder algemene titel
 
 ## Art. 4.195
 
@@ -1687,7 +1687,7 @@ Définitie van het legaat onder algemene titel
 Afgifte
   De legatarissen onder algemene titel moeten de afgifte vragen aan de reservataire erfgenamen; bij gebreke van reservataire erfgenamen, aan de algemene legatarissen; en bij gebreke van algemene legatarissen, aan de erfgenamen die tot de nalatenschap geroepen zijn, in de volgorde bepaald in titel 1.
 
-  Afdeling 4. Gemeenschappelijke bepalingen voor legaten met een algemene roeping of met een roeping onder algemene titel
+##### Afdeling 4. Gemeenschappelijke bepalingen voor legaten met een algemene roeping of met een roeping onder algemene titel
 
 ## Art. 4.197
 
@@ -1712,7 +1712,7 @@ Uitkering van legaten
    Ook als hij samen met reservataire erfgenamen tot de nalatenschap komt is de algemene legataris verplicht alle legaten uit te keren, voor zover ze niet ingekort moeten worden.
    De legataris onder algemene titel is slechts gehouden tot het uitkeren van de bijzondere legaten, naar evenredigheid van zijn aandeel in het beschikbaar deel van de nalatenschap.
 
-  Afdeling 5. Bijzondere legaten
+##### Afdeling 5. Bijzondere legaten
 
 ## Art. 4.201
 
@@ -1755,7 +1755,7 @@ Schulden en lasten van de nalatenschap
   De legataris onder bijzondere titel is niet gehouden tot betaling van de schulden en lasten van de nalatenschap, maar hij moet, in voorkomend geval, de inkorting van zijn legaat ondergaan, evenals de hypothecaire vordering op het gelegateerde onroerend goed.
   De bijzondere legataris die de schuld heeft gekweten waarmee het gelegateerde onroerend goed bezwaard was, treedt, tegenover de erfgenamen, de algemene legatarissen en de legatarissen onder algemene titel, in de rechten van de schuldeiser.
 
-  Afdeling 6. Bijzondere bepalingen inzake legaten
+##### Afdeling 6. Bijzondere bepalingen inzake legaten
 
 ## Art. 4.207
 
@@ -1780,7 +1780,7 @@ Aanwas tussen legatarissen
   Een legaat wordt geacht gezamenlijk gemaakt te zijn, wanneer het gemaakt is bij een en dezelfde beschikking, en de testator het aandeel van ieder van de mede-legatarissen in het gelegateerde goed niet heeft bepaald.
   Een legaat wordt eveneens geacht gezamenlijk gemaakt te zijn, wanneer een goed dat niet verdeeld kan worden zonder schade te lijden, bij hetzelfde testament aan verscheidene personen, zelfs afzonderlijk, is gelegateerd.
 
-  Afdeling 7. Testamentuitvoerder
+##### Afdeling 7. Testamentuitvoerder
 
 ## Art. 4.211
 
@@ -1812,7 +1812,7 @@ Opdracht en bevoegdheden van de testamentuitvoerder
 Kosten
   De kosten door de testamentuitvoerder gemaakt voor de verzegeling, de boedelbeschrijving, de rekening en verantwoording, alsook de verdere uitgaven in verband met zijn werkzaamheden, komen ten laste van de nalatenschap.
 
-  Afdeling 8. Herroeping en verval van testamenten
+##### Afdeling 8. Herroeping en verval van testamenten
 
 ## Art. 4.215
 
@@ -2004,7 +2004,7 @@ Geen wederkerige schenking in één akte
 
   Ondertitel 10. Erfovereenkomsten
 
-  Hoofdstuk 1. Algemene bepalingen
+#### Hoofdstuk 1. Algemene bepalingen
 
 ## Art. 4
 
@@ -2027,7 +2027,7 @@ Minderjarigen en beschermde meerderjarigen
    § 2. De persoon die, krachtens artikel 492/1, § 2, van het oud Burgerlijk Wetboek, onbekwaam werd verklaard om een erfovereenkomst aan te gaan, kan deze toch aangaan, met alle eraan verbonden gevolgen, na machtiging, op zijn verzoek, door de vrederechter bedoeld in artikel 628, 3°, van het Gerechtelijk Wetboek. De vrederechter oordeelt over de wilsbekwaamheid van de beschermde persoon.
    Bij gebrek aan de in het eerste lid bedoelde machtiging kan de beschermde persoon enkel partij zijn bij een erfovereenkomst in de hoedanigheid van vermoedelijk erfgenaam, waarbij de erfovereenkomst echter niet, in hoofde van de beschermde persoon, de afstand van rechten in een niet opengevallen nalatenschap tot gevolg kan hebben. Artikel 499/7, § 2, 15°, van het oud Burgerlijk Wetboek is van toepassing.
 
-  Hoofdstuk 2. Sanctionering van niet toegelaten erfovereenkomsten
+#### Hoofdstuk 2. Sanctionering van niet toegelaten erfovereenkomsten
 
 ## Art. 4.245
 
@@ -2036,7 +2036,7 @@ Nietigheid
   Hetzelfde geldt voor de overeenkomsten opgesteld met miskenning van artikelen 4.249 tot 4.252 en, in het geval het een overeenkomst bedoeld in de artikelen 4.254 tot 4.259 betreft, met miskenning van deze bepalingen.
   Wanneer het gaat om een overeenkomst inzake de eigen toekomstige nalatenschap van een partij, verandert de nietigheid bedoeld in het eerste en het tweede lid evenwel in een relatieve nietigheid op de dag van het overlijden van die partij. De miskenning van de vereiste opgelegd door artikel 4.249 blijft evenwel behept met een absolute nietigheid.
 
-  Hoofdstuk 3. Gevolgen van de erfovereenkomsten
+#### Hoofdstuk 3. Gevolgen van de erfovereenkomsten
 
 ## Art. 4.246
 
@@ -2058,7 +2058,7 @@ Herroeping van de afstand
 Afstand is geen gift
   Elke afstand van rechten in een niet opengevallen nalatenschap die voortvloeit uit een door de wet toegelaten erfovereenkomst wordt, ongeacht de nadere voorwaarden ervan, geacht geen gift te zijn. Dit vermoeden is onweerlegbaar.
 
-  Hoofdstuk 4. Vorm van de erfovereenkomsten
+#### Hoofdstuk 4. Vorm van de erfovereenkomsten
 
 ## Art. 4.249
 
@@ -2089,14 +2089,14 @@ Uitzonderingen
   De artikelen 4.249 tot 4.251 zijn niet van toepassing op de overeenkomst opgelegd door artikel 1287, derde lid, van het Gerechtelijk Wetboek.
   De artikelen 4.250 en 4.251 zijn niet van toepassing op contractuele erfstellingen bedoeld in ondertitels 8 en 9.
 
-  Hoofdstuk 5. Publiciteit van de erfovereenkomsten
+#### Hoofdstuk 5. Publiciteit van de erfovereenkomsten
 
 ## Art. 4.253
 
 Inschrijving in het centraal register van testamenten
   Elke erfovereenkomst wordt ingeschreven in het centraal register van testamenten bedoeld in ondertitel 11.
 
-  Hoofdstuk 6. De globale erfovereenkomst
+#### Hoofdstuk 6. De globale erfovereenkomst
 
 ## Art. 4.254
 

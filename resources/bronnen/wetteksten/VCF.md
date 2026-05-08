@@ -30,8 +30,8 @@ provenance:
 
 *Bijgewerkt tot en met 03.04.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
 
-TITEL 1 - Inleidende bepalingen                         TITRE 1er - Dispositions introductives
-Hoofdstuk 1 - Algemene bepalingen en definities           Chapitre 1er - Dispositions générales et définitions
+### TITEL 1 - Inleidende bepalingen                         TITRE 1er - Dispositions introductives
+#### Hoofdstuk 1 - Algemene bepalingen en definities           Chapitre 1er - Dispositions générales et définitions
 
 ## Art. 1.1.0.0.1
 
@@ -344,8 +344,8 @@ Art. 1.1.0.0.4.
 
 De Vlaamse Regering kan eenieder die onderhevig is aan          Le Gouvernement flamand peut imposer à quiconque, de bepalingen van deze codex de verplichting opleggen om        sujet aux dispositions du présent Code, l'obligation documenten en formulieren te gebruiken waarvan ze de            d'utiliser des documents et des formulaires dont il inhoud en het gebruik bepaalt.                                  détermine le contenu et l'usage.
 
-TITEL 2 - Belastingheffing                                 TITRE 2 - Perception des impôts
-Hoofdstuk 1 - Onroerende voorheffing                            Chapitre 1er - Précompte immobilier
+### TITEL 2 - Belastingheffing                                 TITRE 2 - Perception des impôts
+#### Hoofdstuk 1 - Onroerende voorheffing                            Chapitre 1er - Précompte immobilier
 
 ##### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
 
@@ -786,7 +786,7 @@ Art. 2.1.7.0.1.
 
 De belasting wordt geheven in overeenstemming met de          L'impôt est perçu conformément aux dispositions de bepalingen van artikel 3.3.2.0.1, eerste lid, 1°, en tweede   l'article 3.3.2.0.1, alinéa premier, 1°, et alinéa deux, 1°. lid, 1°.
 
-Hoofdstuk 2 - Verkeersbelasting                                Chapitre 2 - Taxe de circulation
+#### Hoofdstuk 2 - Verkeersbelasting                                Chapitre 2 - Taxe de circulation
 
 ##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
@@ -1584,7 +1584,7 @@ Dat bedrag mag niet lager zijn dan het minimum,              Ce montant ne peut 
 
 § 4. Als het voertuig wordt gewijzigd, is de belasting die   § 4. En cas de modification du véhicule, la taxe qui doit betaald moet worden, het bedrag dat verschuldigd is          être payée est le montant dû à concurrence des mois voor de verstreken maanden.                                  écoulés.
 
-Hoofdstuk 3 - Belasting op de inverkeerstelling                 Chapitre 3 - Taxe sur la mise en circulation
+#### Hoofdstuk 3 - Belasting op de inverkeerstelling                 Chapitre 3 - Taxe sur la mise en circulation
 
 ##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
@@ -2056,7 +2056,7 @@ Art. 2.3.7.0.1.
 
 De belasting wordt geheven in overeenstemming met de         La taxe est perçue conformément aux dispositions de bepalingen van artikel 3.3.2.0.1, eerste lid, 4°.            l'article 3.3.2.0.1, alinéa premier, 4°.
 
-Hoofdstuk 4 - Kilometerheffing                           Chapitre 4 - Prélèvement kilométrique
+#### Hoofdstuk 4 - Kilometerheffing                           Chapitre 4 - Prélèvement kilométrique
 
 - gewijzigd door art. 13 van het decreet van 3 juli 2015     - modifié par l’art. 13 du décret du 3.07.2015 (M.B.
 (B.S., 10.08.2015). De tekst treedt in werking op een door   10.08.2015). Le texte entre en vigueur à une date à de Vlaamse Regering vast te stellen datum en ten             déterminer par le Gouvernement flamand et au plus tôt vroegste op 1 april 2016 (art. 44))                          le 01.04.2016 (art. 44)
@@ -2351,7 +2351,7 @@ Art. 2.4.7.0.2.
 
 - gewijzigd door art. 25 van het decreet van 3 juli 2015     - abrogé par art. 25 du décret du 3 juillet 2015 (M.B., (B.S., 10.08.2015). De tekst treedt in werking op een door   10.08.2015). Texte entre en vigueur le 1er avril 2016 de Vlaamse Regering vast te stellen datum en ten             (Arrêté du Gouvernement flamand du 17 juillet 2015 - vroegste op 1 april 2016 (art. 44)                           M.B., 10.08.2015 - art. 4)
 
-Hoofdstuk 5 - Heffing ongeschikte en onbewoonbare              Chapitre 5 -Taxe sur les habitations inadaptées et woningen                                                    inhabitables
+#### Hoofdstuk 5 - Heffing ongeschikte en onbewoonbare              Chapitre 5 -Taxe sur les habitations inadaptées et woningen                                                    inhabitables
 
 ##### Afdeling 1 - Belastbaar voorwerp                               Section 1re - Objet imposable
 
@@ -2621,7 +2621,7 @@ De Vlaamse Regering kan nadere procedurele regels           Le Gouvernement flam
 
 - ingevoegd door art. 34 van het decreet van 29.03.2019     - inséré par l’art. 34 du décret du 29.03.2019 (M.B.
 (B.S. 29.04.2019). Inwerkingtreding op                      29.04.2019). Texte entre en vigueur le 01.01.2021 01.01.2021
-Hoofdstuk 6 - Leegstandsheffing bedrijfsruimten           Chapitre 6 - Taxe sur les sites d'activité économique désaffectés
+#### Hoofdstuk 6 - Leegstandsheffing bedrijfsruimten           Chapitre 6 - Taxe sur les sites d'activité économique désaffectés
 
 ##### Afdeling 1 - Belastbaar voorwerp                              Section 1re - Objet imposable
 
@@ -2836,7 +2836,7 @@ Als de eigenaar, aan wie een opschorting is verleend met     Lorsque le proprié
 - gewijzigd door art. 20 van het decreet van 06.07.2018      - modifié par l’art. 20 du décret du 06.07.2018 (M.B.
 (B.S. 30.08.2018). Tekst treedt in werking op 21.07.2012     30.08.2018). Texte entre en vigueur le 21.07.2012
 
-Hoofdstuk 7 – Erfbelasting                               Chapitre 7 - Impôt de succession
+#### Hoofdstuk 7 – Erfbelasting                               Chapitre 7 - Impôt de succession
 
 ---- historiek ----                                          ---- historique ----
 
@@ -4154,7 +4154,7 @@ Art. 2.7.7.0.3.
 - opgeheven door art. 16 van het decreet van 08.12.2017       - abrogé par l'art. 16 du décret du 08.12.2017 (M.B.: (B.S., 14.12.2017). De tekst is in werking getreden op        14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017
 
 - toegevoegd door art. 76 van het decreet van 19.12.2014 - inséré par art. 76 du décret du 19.12.2014 (M.B., (B.S., 29.01.2015 - Ed. 2). De tekst is in               29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 8 – Schenkbelasting                                Chapitre 8 - Impôt de donation
+#### Hoofdstuk 8 – Schenkbelasting                                Chapitre 8 - Impôt de donation
 
 ---- historiek ----                                           ---- historique ----
 
@@ -4923,7 +4923,7 @@ In geval van een handelszaak wordt de schenkbelasting        Dans le cas d'un fo
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 108 van het decreet van               - inséré par art. 108 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 9 - Verkooprecht                                   Chapitre 9 - Droit de vente
+#### Hoofdstuk 9 - Verkooprecht                                   Chapitre 9 - Droit de vente
 
 ---- historiek ----                                          ---- historique ----
 
@@ -6047,7 +6047,7 @@ Voor de toepassing van artikel 115bis van het federale       Pour l'application 
 - gewijzigd door art. 11 van het decreet van 18.05.2018      - modifié par l’art. 11 du décret du 18.05.2018 (M.B. : (B.S.: 28.05.2018). Tekst is van toepassing op               28.05.2018). Texte s’applique aux contrats de vente verkoopovereenkomsten afgesloten vanaf 1 juni 2018           conclus à partir du 1er juin 2018.
 
 - toegevoegd door art. 161 van het decreet van               - inséré par art. 161 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 10 – Verdeelrecht                                Chapitre 10 - Droit de partage.
+#### Hoofdstuk 10 – Verdeelrecht                                Chapitre 10 - Droit de partage.
 ---- historiek ----                                          ---- historique ---- - hoofdstuk 10 toegevoegd door art. 162 van het decreet      - chapitre 10 ajouté par art. 162 du décret du 19.12.2014 van 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in    (M.B., 29.01.2015, Ed. 2). Texte est entré werking getreden op 1 januari 2015 (art. 325)                en vigueur le 01.01.2015 (art. 325)
 
 ##### Afdeling 1 - Belastbaar voorwerp                                  Section 1re - Objet imposable
@@ -6352,7 +6352,7 @@ In geval van een handelszaak wordt het verdeelrecht          En cas de fonds de 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 187 van het decreet van               - inséré par art. 187 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 11 - Recht op hypotheekvestiging               Chapitre 11 - droit sur la constitution d'hypothèque
+#### Hoofdstuk 11 - Recht op hypotheekvestiging               Chapitre 11 - droit sur la constitution d'hypothèque
 
 ---- historiek ----                                          ---- historique ----
 
@@ -6569,7 +6569,7 @@ In geval van een handelszaak wordt het recht van             En cas de fonds de 
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 209 van het decreet van               - inséré par art. 209 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 12 - Belasting op de spelen en                         Chapitre 12 - Taxe sur les jeux et paris weddenschappen
+#### Hoofdstuk 12 - Belasting op de spelen en                         Chapitre 12 - Taxe sur les jeux et paris weddenschappen
 
 ##### Afdeling 1 - Belastbaar voorwerp                                 Section 1re - Objet imposable
 
@@ -6724,7 +6724,7 @@ De belasting op de spelen en weddenschappen wordt             La taxe sur les je
 - ingevoegd door art. 18 van het decreet van 07.12.2018       - inséré par l’art. 18 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                           20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-Hoofdstuk 13 - Belasting op de automatische                 Chapitre 13 - Taxe sur les appareils automatiques de ontspanningstoestellen                                              divertissement
+#### Hoofdstuk 13 - Belasting op de automatische                 Chapitre 13 - Taxe sur les appareils automatiques de ontspanningstoestellen                                              divertissement
 
 ##### Afdeling 1 - Belastbaar voorwerp                                 Section 1ère - Objet imposable
 
@@ -6905,8 +6905,8 @@ Art. 2.13.7.0.2.
 
 - ingevoegd door art. 37 van het decreet van 07.12.2018         - inséré par l’art. 37 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                             20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-TITEL 3 - Inning en invordering                              TITRE 3 - Perception et recouvrement
-Hoofdstuk 1 - Inleidende bepalingen, opcentiemen,                Chapitre 1er - Dispositions préliminaires, centimes opdeciem en administratieve onkostenvergoedingen                 additionnels, décime additionnel et indemnisations administratives
+### TITEL 3 - Inning en invordering                              TITRE 3 - Perception et recouvrement
+#### Hoofdstuk 1 - Inleidende bepalingen, opcentiemen,                Chapitre 1er - Dispositions préliminaires, centimes opdeciem en administratieve onkostenvergoedingen                 additionnels, décime additionnel et indemnisations administratives
 
 ## Art. 3.1.0.0.1
 
@@ -7131,7 +7131,7 @@ Wat de invordering en de vervolging inzake de               En ce qui concerne l
 ---- historiek ----                                         ---- historique ----
 
 - toegevoegd door art. 211 van het decreet van              - inséré par art. 211 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in       29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 2 - Inkohiering                                   Chapitre 2 – Enrôlement
+#### Hoofdstuk 2 - Inkohiering                                   Chapitre 2 – Enrôlement
 
 ##### Afdeling 1 - Algemeen                                     Section 1re – Généralités
 
@@ -7214,7 +7214,7 @@ Art. 3.2.5.0.1.
 
 De Vlaamse Regering bepaalt de regels voor de                  Le Gouvernement flamand fixe les règles du calcul des berekening van de belastingen en de wijze waarop ze            impôts et du mode dont ils sont arrondis. afgerond worden.
 
-Hoofdstuk 3 - Aanslagprocedure                               Chapitre 3 - Procédure d'imposition
+#### Hoofdstuk 3 - Aanslagprocedure                               Chapitre 3 - Procédure d'imposition
 
 ##### Afdeling 1 – Aangifte                                    Section 1re – Déclaration
 
@@ -8068,7 +8068,7 @@ Als artikel 2.5.7.0.2 of 2.5.7.0.3 van toepassing is, moet    Si l'article 2.5.7
 
 Het eerste lid geldt voor de aanslagbiljetten die vanaf 5     L'alinéa premier s'applique aux feuilles d'imposition augustus 2004 verstuurd worden.                               envoyées à partir du 5 août 2004.
 
-Hoofdstuk 4 - Betalingen                                       Chapitre 4 – Paiements
+#### Hoofdstuk 4 - Betalingen                                       Chapitre 4 – Paiements
 
 ##### Afdeling 1 - Algemeen                                       Section 1re – Généralités
 
@@ -8311,7 +8311,7 @@ Het bevoegde personeelslid kan het verzoek inwilligen.      Le membre du personn
 - §2 opgeheven door art. 38 van het decreet van             - §2 abrogé par l'art. 38 du décret du 21.12.2018 (M.B.
 21.12.2018 (B.S. 28.12.2018). Tekst treedt in werking op    28.12.2018). Texte entre en vigueur le 07.01.2019 07.01.2019
 
-Hoofdstuk 5 - Bezwaar                                     Chapitre 5 – Réclamation
+#### Hoofdstuk 5 - Bezwaar                                     Chapitre 5 – Réclamation
 
 ##### Afdeling 1 - Ontvangstmelding                            Section 1re - Notification de réception
 
@@ -8474,7 +8474,7 @@ Art. 3.5.9.0.1.
 
 De beslissing wordt schriftelijk meegedeeld en ze           La décision est communiquée par écrit et elle mentionne vermeldt de wijze waarop ertegen in rechte kan worden       la façon dont il peut être agi en justice contre cette getreden. De beslissing is onherroepelijk als geen          décision. La décision est irrévocable si aucune demande vordering is ingesteld bij de rechtbank van eerste aanleg   n'a été introduite au tribunal de première instance dans binnen de termijn, vermeld in artikel 1385undecies van      le délai, visé à l'article 1385undecies du Code judiciaire. het Gerechtelijk Wetboek.
 
-Hoofdstuk 6 - Ambtshalve ontheffing                            Chapitre 6 - Exonération d'office
+#### Hoofdstuk 6 - Ambtshalve ontheffing                            Chapitre 6 - Exonération d'office
 
 ## Art. 3.6.0.0.1
 
@@ -8644,7 +8644,7 @@ De bepalingen van paragraaf 2, derde en vierde lid, zijn       Les dispositions 
 
 - gewijzigd door art. 8 van het decreet van 21.04.2017.         - modifié par l'art. 8 du décret du 21.04.2017. Texte en De tekst is in werking getreden op 14.05.2017                   vigueur le 14.05.2017
 
-Hoofdstuk 7 - Nietigverklaring                                     Chapitre 7 – Annulation
+#### Hoofdstuk 7 - Nietigverklaring                                     Chapitre 7 – Annulation
 
 ## Art. 3.7.0.0.1
 
@@ -8679,7 +8679,7 @@ Als de subsidiaire aanslag gevestigd wordt voor een met      Si l'impôt subsidi
 ---- historiek ----                                          ---- historique ----
 
 - gewijzigd door art. 54 van het decreet van 02.04.2021      - modifié par l'art. 54 du décret du 02.04.2021 (M.B., (B.S., 15.04.2021). Inwerkingtreding: 25.04.2021             15.04.2021). En vigueur le 25.04.2021
-Hoofdstuk 8 - Gerechtelijk beroep                             Chapitre 8 - Recours judiciaire
+#### Hoofdstuk 8 - Gerechtelijk beroep                             Chapitre 8 - Recours judiciaire
 
 ## Art. 3.8.0.0.1
 
@@ -8712,7 +8712,7 @@ is toepasselijk op het tegen dit bevel     L'article 3.8.0.0.1 est d'application
 ---- historiek ----                                          ---- historique ----
 
 - toegevoegd door art. 230 van het decreet van               - inséré par art. 230 du décret du 19.12.2014 (M.B., 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in        29.01.2015, Ed. 2). Texte est entré en vigueur le 01.01.2015 (art. 325) werking getreden op 1 januari 2015 (art. 325)
-Hoofdstuk 9 - Interesten                                      Chapitre 9 – Intérêts
+#### Hoofdstuk 9 - Interesten                                      Chapitre 9 – Intérêts
 
 ##### Afdeling 1 - Nalatigheidsinteresten                            Section 1re - Intérêts de retard
 
@@ -8774,7 +8774,7 @@ Er wordt geen moratoriuminterest toegekend :                  Aucun intérêt mo
 - gewijzigd door art. 52 van het decreet van 18.12.2020    - modifié par l’art. 52 du décret du 18.12.2020 (M.B., (B.S., 30.12.2020). Inwerkingtreding: 01.01.2021           30.12.2020). En vigueur le 01.01.2021 - gewijzigd door art. 26 van het decreet van 08.12.2017    - modifié par l'art. 26 du décret du 08.12.2017 (M.B.: (B.S.: 14.12.2017). Tekst van toepassing vanaf             14.12.2017). Texte entre en vigueur le 24.12.2017 24.12.2017
 
 - 3° en 4° toegevoegd door art. 232 van het decreet van    - alinéa trois, point 3° et point 4° insérés par art. 232 du 19.12.2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in      décret du 19.12.2014 (M.B., 29.01.2015, Ed. 2). werking getreden op 1 januari 2015 (art. 325)              Texte est entré en vigueur le 01.01.2015 (art. 325)
-Hoofdstuk 10 - Invordering                               Chapitre 10 – Recouvrement
+#### Hoofdstuk 10 - Invordering                               Chapitre 10 – Recouvrement
 
 ##### Afdeling 1 - Herinnering                                    Section 1re – Rappel
 
@@ -9380,7 +9380,7 @@ Het bedrag, vermeld in het derde lid, wordt uitbetaald       Le montant visé à
 
 - toegevoegd door art. 259 van het decreet van 19 dec.       - inséré par art. 259 du décret du 19.12.2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le getreden op 1 januari 2015 (art. 325)                        01.01.2015 (art. 325)
 
-Hoofdstuk 11 - Wederzijdse internationale bijstand             Chapitre 11 - Assistance internationale mutuelle
+#### Hoofdstuk 11 - Wederzijdse internationale bijstand             Chapitre 11 - Assistance internationale mutuelle
 
 ## Art. 3.11.0.0.1
 
@@ -9388,7 +9388,7 @@ Art. 3.11.0.0.1.
 
 Voorbehouden voor toekomstig gebruik.                        Réservé pour un usage futur
 
-Hoofdstuk 12 - Verplichtingen van derden                        Chapitre 12 - Obligations de tiers
+#### Hoofdstuk 12 - Verplichtingen van derden                        Chapitre 12 - Obligations de tiers
 
 ##### Afdeling 1 - Notificatieverplichtingen van derden         Section 1re - Obligations de notification de tiers
 
@@ -10120,7 +10120,7 @@ De bepalingen van deze codex doen geen afbreuk aan            Les dispositions d
 - vernummerd door art. 9 van het decreet van                  - renuméroté par l’art. 9 du décret du 20.11.2020 20.11.2020 (B.S., 03.12.2020). Inwerkingtreding vanaf         (M.B., 03.12.2020). En vigueur à partir de l’année d’imposition 2021 aanslagjaar 2021 - ingevoegd door art. 48 van het decreet van 21.12.2018       - inséré par l’art. 48 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019      28.12.2018). Texte entre en vigueur le 07.01.2019
 
-Hoofdstuk 13 - Onderzoek en controle                             Chapitre 13 - Enquête et contrôle
+#### Hoofdstuk 13 - Onderzoek en controle                             Chapitre 13 - Enquête et contrôle
 
 ##### Afdeling 1 - Administratieve controle                         Section 1re - Contrôle administratif
 
@@ -10453,7 +10453,7 @@ De originelen van de ontvangstbewijzen-getuigschriften        Les originaux des 
 
 § 3. Paragraaf 1 is niet van toepassing op de naamloze        § 3. Le paragraphe 1er ne s'applique pas a société vennootschap van publiek recht bpost.                         anonyme de droit public bpost.
 
-Paragraaf 1 blijft evenwel van toepassing in de gevallen      Le paragraphe 1er reste néanmoins d'application dans en onder de voorwaarden, vermeld in artikel 3.13.1.2.5,       les cas et aux conditions citées dans l'article 3.13.1.2.5, tweede lid, en artikel 3.13.1.3.1, § 2 tot en met § 5.        alinéa deux, et l'article 3.13.1.3.1, § § 2 à 5 inclus.
+###### Paragraaf 1 blijft evenwel van toepassing in de gevallen      Le paragraphe 1er reste néanmoins d'application dans en onder de voorwaarden, vermeld in artikel 3.13.1.2.5,       les cas et aux conditions citées dans l'article 3.13.1.2.5, tweede lid, en artikel 3.13.1.3.1, § 2 tot en met § 5.        alinéa deux, et l'article 3.13.1.3.1, § § 2 à 5 inclus.
 
 § 4. De Kansspelcommissie, vermeld in artikel 9 van de     § 4. La Commission des jeux de hasard, citée dans wet van 7 mei 1999 op de kansspelen, de                    l'article 9 de la loi du 7 mai 1999 sur les jeux de hasard, weddenschappen, de kansspelinrichtingen en de              les paris, les établissements de jeux de hasard et la bescherming van de spelers, moet de Vlaamse Regering       protection des joueurs, doit immédiatement informer le er onverwijld van op de hoogte brengen dat ze bij een      Gouvernement flamand qu'elle a constaté, auprès d'un orgaan dat ze controleert, concrete elementen heeft        organisme qu'elle contrôle, des éléments concrets qui vastgesteld die vermoedelijk wijzen op het bestaan of op   indiquent probablement l'existence ou la préparation de voorbereiding van een mechanisme, gericht op fiscale    d'un mécanisme visant la fraude fiscale. fraude.
 
@@ -10601,7 +10601,7 @@ Le redevable transmet immédiatement l'avis de saisie au inbeslagneming onmiddel
 
 - Ingevoegd door art. 3 van het decreet van 26.04.2024       - Inséré par l’art. 3 du décret du 26.04.2024 (M.B., (B.S., 24.05.2024). Inwerkingtreding: 01.09.2024             24.05.2024). Entrée en vigueur le 01.09.2024
 
-Hoofdstuk 14 - Verjaring                                    Chapitre 14 – Prescription
+#### Hoofdstuk 14 - Verjaring                                    Chapitre 14 – Prescription
 
 ##### Afdeling 1 - Termijn                                      Section 1re – Délai
 
@@ -10689,7 +10689,7 @@ De schorsing begint bij het opstarten van de                 La suspension comme
 - ingevoegd door art. 51 van het decreet van 21.12.2018     - inséré par l’art. 51 du décret du 21.12.2018 (M.B.
 (B.S. 28.12.2018). Tekst treedt in werking op 07.01.2019    28.12.2018). Texte entre en vigueur le 07.01.2019
 
-Hoofdstuk 15 - Strafrechtelijke vervolging                         Chapitre 15 - Poursuite pénale
+#### Hoofdstuk 15 - Strafrechtelijke vervolging                         Chapitre 15 - Poursuite pénale
 
 ##### Afdeling 1 - Algemene bepalingen                            Section 1re - Dispositions générales
 
@@ -10875,7 +10875,7 @@ Met behoud van de toepassing van de andere bepalingen       Sans préjudice de l
 
 - ingevoegd door art. 54 van het decreet van 07.12.2018     - inséré par l’art. 54 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                         20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-Hoofdstuk 16 - Administratieve sancties                     Chapitre 16 - Sanctions administratives
+#### Hoofdstuk 16 - Administratieve sancties                     Chapitre 16 - Sanctions administratives
 
 ---- historiek ----                                         ---- historique ----
 
@@ -10933,7 +10933,7 @@ De voorziening schorst de uitvoering van de beslissing       La structure ne sus
 
 - ingevoegd door art. 55 van het decreet van 07.12.2018      - inséré par l’art. 55 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                          20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
-Hoofdstuk 17 – Bewijsmiddelen                               Chapitre 17 - Moyens de preuve
+#### Hoofdstuk 17 – Bewijsmiddelen                               Chapitre 17 - Moyens de preuve
 
 ---- historiek ----                                          ---- historique ----
 
@@ -11081,7 +11081,7 @@ De schulden met betrekking tot het beroep van de                Les dettes relat
 
 - toegevoegd door art. 304 van het decreet van 19 dec.          - inséré par art. 304 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking         29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                           janvier 2015 (art. 325)
 
-Hoofdstuk 18 - Belastingverhogingen en                      Chapitre 18 - Majoration d'impôts et amendes administratieve geldboetes                                            administratives
+#### Hoofdstuk 18 - Belastingverhogingen en                      Chapitre 18 - Majoration d'impôts et amendes administratieve geldboetes                                            administratives
 
 ## Art. 3.18.0.0.1
 
@@ -11475,7 +11475,7 @@ Zonder afbreuk te doen aan de geldigheid van de              Sans préjudice de 
 Zodra een administratieve geldboete of een                   Dès qu'une amende administrative ou une majoration belastingverhoging, opgelegd met toepassing van de           d'impôt infligée par application des dispositions du bepalingen van dit hoofdstuk, definitief is geworden,        présent chapitre est devenu définitive, l'action publique vervalt de strafvordering.                                   échoit.
 ---- historiek ----                                          ---- historique ---- - toegevoegd door art. 35 van het decreet van 17 juli        - ajouté par art. 35 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden    14.08.2015). Texte est entré en vigueur le 14 août 2015 op 14 augustus 2015 (art. 41)                                (art. 41)
 
-Hoofdstuk 19 - Beroepsgeheim                              Chapitre 19 - Secret professionnel
+#### Hoofdstuk 19 - Beroepsgeheim                              Chapitre 19 - Secret professionnel
 
 ## Art. 3.19.0.0.1
 
@@ -11504,7 +11504,7 @@ De bepalingen van het vijfde lid zijn ook van toepassing     Les dispositions de
 
 - de nieuwe lid 5 en 6 zijn gewijzigd door art. 2 van het     - les nouveaux al. 5 et 6 sont modifiés par l’art. 2 du decreet van 4 apr. 2014 (B.S., 13.06.2014). Tekst treedt      décret du 4 avr. 2014 (M.B., 13.06.2014). Texte in werking vanaf 23 juni 2014 (art. -).                       applicable à partir du 23 juin 2014 (art. -).
 
-Hoofdstuk 20 - Te verstrekken inlichtingen                    Chapitre 20 - Renseignements à fournir
+#### Hoofdstuk 20 - Te verstrekken inlichtingen                    Chapitre 20 - Renseignements à fournir
 
 ---- historiek ----                                           ---- historique ----
 
@@ -11520,7 +11520,7 @@ Het bevoegde personeelslid reikt op verzoek van de            Le membre du perso
 
 - toegevoegd door art. 319 van het decreet van 19 dec.        - inséré par art. 319 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking       29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                         janvier 2015 (art. 325)
 
-Hoofdstuk 21 - Voorafgaande attesten                           Chapitre 21 - Attestations antérieures
+#### Hoofdstuk 21 - Voorafgaande attesten                           Chapitre 21 - Attestations antérieures
 
 ---- historiek ----                                           ---- historique ----
 
@@ -11563,7 +11563,7 @@ Het attest, vermeld in paragraaf 1, is zestig dagen vanaf    L'attestation visé
 
 - toegevoegd door art. 321 van het decreet van 19 dec.       - inséré par art. 321 du décret du 19 déc. 2014 (M.B., 2014 (B.S., 29.01.2015 - Ed. 2). De tekst is in werking      29.01.2015, Ed. 2). Texte est entré en vigueur le 1er getreden op 1 januari 2015 (art. 325)                        janvier 2015 (art. 325)
 
-Hoofdstuk 22 - Voorafgaande beslissingen over de            Chapitre 22 - Décisions anticipées sur les matières et materies en bepalingen vervat in deze codex                   dispositions énoncées dans le présent code
+#### Hoofdstuk 22 - Voorafgaande beslissingen over de            Chapitre 22 - Décisions anticipées sur les matières et materies en bepalingen vervat in deze codex                   dispositions énoncées dans le présent code
 
 ---- historiek ----                                          ---- historique ----
 
@@ -11673,7 +11673,7 @@ Het bindend advies, vermeld in paragraaf 1, eerste lid,     L'avis contraignant 
 
 - toegevoegd door art. 37 van het decreet van 17 juli     - ajouté par art. 37 du décret du 17 juillet 2015 (M.B., 2015 (B.S., 14.08.2015 ). De tekst is in werking getreden 14.08.2015). Texte est entre en vigueur à 15 septembre op 15 september 2015 ( (besluit van de Vlaamse Regering 2015 (Arrêté du Gouvernement flamand, M.B. van 18 september 2015 - B.S., 12.10.2015 - art. 2)) 12.10.2015 - art. 2)
 
-Hoofdstuk 23 - Verwerking van persoonsgegevens             Chapitre 23 - Traitement des données à caractère personnel
+#### Hoofdstuk 23 - Verwerking van persoonsgegevens             Chapitre 23 - Traitement des données à caractère personnel
 
 ##### Afdeling 1 - Bepalingen die aan alle             Section 1re - Dispositions communes à l'ensemble des gegevensverwerkingen gemeenschappelijk zijn                           traitements de données
 
@@ -11892,8 +11892,8 @@ Art. 3.23.6.0.3.
 Met behoud van de toepassing van de noodzakelijke           Sans préjudice de l'application de la conservation bewaring ervan voor de latere verwerking met het oog        nécessaire des données personnelles en vue du op archivering in het algemeen belang, wetenschappelijk     traitement ultérieur, à des fins archivistiques dans of historisch onderzoek of statistische doeleinden,         l'intérêt public, à des fins de recherche scientifique ou vermeld in artikel 89 van verordening (EU) 2016/679         historique ou à des fins statistiques, visées à l'article 89 van het Europees Parlement en de Raad van 27 april          du règlement (UE) 2016/679 du Parlement européen et 2016 betreffende de bescherming van natuurlijke             du Conseil du 27 avril 2016 relatif à la protection des personen in verband met de verwerking van                   personnes physiques à l'égard du traitement des données persoonsgegevens en betreffende het vrije verkeer van       à caractère personnel et à la libre circulation de ces die gegevens en tot intrekking van Richtlijn 95/46/EG       données, et abrogeant la directive 95/46/CE (règlement (algemene verordening gegevensbescherming), worden          général sur la protection des données), les données à de persoonsgegevens, vermeld in artikel 3.23.6.0.2,         caractère personnel visées à l'article 3.23.6.0.2, sont bewaard gedurende tien jaar na de betaling of de            conservées pendant dix ans après le paiement ou la verjaring van de belastingen, vermeld in artikel            prescription des taxes, visées à l'article 3.23.6.0.1, ou, le 3.23.6.0.1, of, in voorkomend geval, tien jaar na de        cas échéant, pendant dix ans après la fin définitive de la definitieve beëindiging van de administratieve              procédure administrative et le paiement intégral de tous procedure en de integrale betaling van alle bedragen die    les montants y afférents. daaraan verbonden zijn.
 ---- historiek ----                                         ---- historique ---- - Ingevoegd door art. 34 van het decreet van 19.04.2024     - Inséré par l’art. 34 du décret du 19.04.2024 (M.B., (B.S., 03.06.2024). Inwerkingtreding: 13.06.2024            03.06.2024). En vigueur le 13.06.2024
 
-TITEL 4 - Wijzigingsbepalingen                            TITRE 4 - Dispositions modificatives
-Hoofdstuk 1 - Wijzigingen van het wetboek van 23            Chapitre 1er - Modifications du code du 23 novembre november 1965 van de met inkomstenbelastingen                1965 des taxes assimilées aux impôts sur les revenus gelijkgestelde belastingen
+### TITEL 4 - Wijzigingsbepalingen                            TITRE 4 - Dispositions modificatives
+#### Hoofdstuk 1 - Wijzigingen van het wetboek van 23            Chapitre 1er - Modifications du code du 23 novembre november 1965 van de met inkomstenbelastingen                1965 des taxes assimilées aux impôts sur les revenus gelijkgestelde belastingen
 
 ## Art. 4.1.0.0.1
 
@@ -11905,7 +11905,7 @@ van het wetboek van 23 november 1965 van         L'article 95 du code du 23 nove
 
 "Art. 95. Artikel 35 is van toepassing op de belasting op   « Art. 95. L'article 35 s'applique à la taxe de mise en de inverkeerstelling.".                                     circulation. ».
 
-Hoofdstuk 2 - Wijzigingen van het decreet van 22  Chapitre 2 - Modifications au décret du 22 décembre december 1995 houdende bepalingen tot begeleiding 1995 contenant diverses mesures d'accompagnement du van de begroting 1996                                    budget 1996
+#### Hoofdstuk 2 - Wijzigingen van het decreet van 22  Chapitre 2 - Modifications au décret du 22 décembre december 1995 houdende bepalingen tot begeleiding 1995 contenant diverses mesures d'accompagnement du van de begroting 1996                                    budget 1996
 
 ## Art. 4.2.0.0.1
 
@@ -11983,7 +11983,7 @@ Art. 4.2.0.0.10.
 
 In hoofdstuk VIII, afdeling 2, van hetzelfde decreet, het    Dans le chapitre VIII, section 2, du même décret, laatst gewijzigd bij het decreet van 9 november 2012,        modifié en dernier lieu par le décret du 9 novembre worden onderafdeling 6, die bestaat uit artikel 41 tot en    2012, la sous-section 6, comprenant les articles 41 à met 42bis, onderafdeling 7, die bestaat uit artikel 43 tot   42bis inclus, la sous-section 7, comprenant les articles en met 44, en onderafdeling 8, die bestaat uit artikel 44,   43 à 44 inclus et la sous-section, comprenant l'article 44, opgeheven.                                                   est abrogée.
 
-Hoofdstuk 3 - Wijzigingen van het decreet van 19 april Chapitre 3 - Modifications du décret du 19 avril 1995 1995 houdende maatregelen ter bestrijding en        contenant des mesures visant à lutter contre l'abandon voorkoming van leegstand en verwaarlozing van                et le délabrement de sites industriels bedrijfsruimten
+#### Hoofdstuk 3 - Wijzigingen van het decreet van 19 april Chapitre 3 - Modifications du décret du 19 avril 1995 1995 houdende maatregelen ter bestrijding en        contenant des mesures visant à lutter contre l'abandon voorkoming van leegstand en verwaarlozing van                et le délabrement de sites industriels bedrijfsruimten
 
 ## Art. 4.3.0.0.1
 
@@ -12044,7 +12044,7 @@ Art. 4.3.0.0.7.
 
 In hoofdstuk III van hetzelfde decreet, het laatst           Dans le chapitre VIII, section 2, du même décret, gewijzigd bij het decreet van 22 juni 2012, worden           modifié en dernier lieu par le décret du 22 juin 2012, la afdeling 2, die bestaat uit artikel 24 tot en met 33, en     section 2, comprenant les articles 24 à 3 inclus et la afdeling 3, die bestaat uit artikel 34 tot en met 41,        section 3, comprenant les article 34 à 41 inclus, sont opgeheven.                                                   abrogées.
 
-Hoofdstuk 4 - Wijzigingen van de Vlaamse Codex                Chapitre 4 - Modifications du Code flamand de Ruimtelijke Ordening van 15 mei 2009                       l'Aménagement du Territoire du 15 mai 2009
+#### Hoofdstuk 4 - Wijzigingen van de Vlaamse Codex                Chapitre 4 - Modifications du Code flamand de Ruimtelijke Ordening van 15 mei 2009                       l'Aménagement du Territoire du 15 mai 2009
 
 ## Art. 4.4.0.0.1
 
@@ -12064,7 +12064,7 @@ In titel II, hoofdstuk VI, afdeling 2, onderafdeling 7 van   Au titre II, chapit
 
 Onverminderd de bepalingen van of                Article 2.6.18. Sans préjudice des disposition de ou en krachtens deze afdeling, zijn de bepalingen van titel 3       vertu de la présente section, les dispositions du titre 3 du van de Vlaamse Codex Fiscaliteit van 13 december 2013         Code flamand de la Fiscalité du 13 décembre 2013 van toepassing op de planbatenheffing.".                      s'appliquent à la taxe sur les bénéfices résultant de la planification spatiale. ».
 
-Hoofdstuk 5 - Wijzigingen van andere decreten                    Chapitre 5 - Modifications d'autres décrets
+#### Hoofdstuk 5 - Wijzigingen van andere decreten                    Chapitre 5 - Modifications d'autres décrets
 
 ## Art. 4.5.0.0.1
 
@@ -12072,7 +12072,7 @@ Art. 4.5.0.0.1.
 
 In artikel 31 van het decreet van 5 juli 2013 tot wijziging   Dans l'article 31 du décret du 5 juillet 2013 modifiant van diverse bepalingen van het decreet van 19 april 1995      diverses dispositions du décret du 19 avril 1995 houdende maatregelen ter bestrijding en voorkoming            contenant des mesures visant à lutter contre l'abandon et van leegstand en verwaarlozing van bedrijfsruimten            le délabrement de sites industriels, la partie de phrase « wordt de zinsnede "artikel 36, § 1, van het voormelde         l'article 36, § 1er, du décret précité » est remplacée par decreet" vervangen door de zinsnede "artikel 2.6.7.4.1,       la partie de phrase « l'article 2.6.7.4.1, alinéa premier, eerste lid, van de Vlaamse Codex Fiscaliteit van 13           du Code flamand de la Fiscalité du 13 décembre 2013 december 2013.".                                              ».
 
-Hoofdstuk 6 - Kruisverwijzingen                               Chapitre 6 - Références mutuelles
+#### Hoofdstuk 6 - Kruisverwijzingen                               Chapitre 6 - Références mutuelles
 
 ## Art. 4.6.0.0.1
 
@@ -12086,7 +12086,7 @@ Art. 4.6.0.0.2.
 
 De Vlaamse Regering wordt ertoe gemachtigd om                 Le Gouvernement flamand est autorisé d'adapter là où verwijzingen in andere decreten naar bepalingen die in        nécessaire des références dans d'autres décrets aux deze codex zijn onder gebracht waar nodig aan te passen.      dispositions reprises dans le présent code.
 
-TITEL 5 - Opheffingsbepalingen en                           TITRE 5 - Dispositions abrogatoires et overgangsmaatregelen                                          mesures transitoires
+### TITEL 5 - Opheffingsbepalingen en                           TITRE 5 - Dispositions abrogatoires et overgangsmaatregelen                                          mesures transitoires
 
 ## Art. 5.0.0.0.1
 
@@ -12339,7 +12339,7 @@ Art. 5.1.0.0.15.
 - ingevoegd door art. 62 van het decreet van 07.12.2018   - inséré par l’art. 62 du décret du 07.12.2018 (M.B.
 (B.S. 20.12.2018). Tekst in werking                       20.12.2018). Texte entre en vigueur le 01.01.2019. getreden op 01.01.2019
 
-TITEL 6 - Citeertitel                                     TITRE 6 - Titre de citation
+### TITEL 6 - Citeertitel                                     TITRE 6 - Titre de citation
 
 ## Art. 6.0.0.0.1
 
@@ -12347,7 +12347,7 @@ Art. 6.0.0.0.1.
 
 Deze codex wordt aangehaald als: Vlaamse Codex               Le présent code est cité comme : Code flamand de la Fiscaliteit van 13 december 2013.                            Fiscalité du 13 décembre 2013.
 
-TITEL 7 - Inwerkingtredingsbepalingen                      TITRE 7 - Dispositions d'entrée en vigueur
+### TITEL 7 - Inwerkingtredingsbepalingen                      TITRE 7 - Dispositions d'entrée en vigueur
 
 ## Art. 7.0.0.0.1
 
@@ -12356,7 +12356,7 @@ Art. 7.0.0.0.1.
 Titel 1, 3, 4, 5, 6 en 7 van dit decreet treden in werking   Les Titres 1er, 3, 4, 5, 6 et 7, du présent décret entrent op 1 januari 2014, met uitzondering van artikel 5.0.0.0.1,   en vigueur le 1er janvier 2014, à l'exception de l'article
 2° en 3°, dat in werking treedt vanaf aanslagjaar 2014       5.0.0.0.1, 2° en 3°, qui entre en vigueur à partir de voor wat betreft de bepalingen van de verkeersbelasting      l'année d'imposition en ce qui concerne les dispositions op de autovoertuigen, de belasting op de                     de la taxe de circulation des véhicules, de la taxe de mise inverkeerstelling en het eurovignet die overeenkomstig       en circulation et de l'Eurovignette qui, conformément au de concordantietabel 1 uit bijlage 1 een                     tableau de concordance 1, de l'annexe 1re, ont une corresponderende bepaling hebben in titel 2 van deze         disposition correspondante dans le titre 2 du présent codex.                                                       code.
 
-Titel 2 treedt in werking vanaf aanslagjaar 2014.            Le Titre 2 entre en vigueur à partir de l'année d'imposition 2014.
+### Titel 2 treedt in werking vanaf aanslagjaar 2014.            Le Titre 2 entre en vigueur à partir de l'année d'imposition 2014.
 
 Kondigen dit decreet af, bevelen dat het in het Belgisch     Promulguons le présent décret, ordonnons qu'il soit Staatsblad zal worden bekendgemaakt.                  publié au Moniteur belge.
 

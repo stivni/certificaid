@@ -58,9 +58,9 @@ Nota:
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 42bis Art. 3.1.0.0.4
 
-TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
+### TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
 
-HOOFDSTUK I - Grondslagen en belastingvoeten
+#### HOOFDSTUK I - Grondslagen en belastingvoeten
 
 ## Art. 43
 
@@ -137,7 +137,7 @@ Art. 45, § 2, derde lid Art. 2.12.4.0.1, § 2, eerste lid, 3° en tweede lid
 
 (...)
 
-HOOFDSTUK II - Belastingschuldigen
+#### HOOFDSTUK II - Belastingschuldigen
 
 ## Art. 51
 
@@ -153,7 +153,7 @@ Art. 51 Art. 2.12.2.0.1, eerste lid
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 52 Art. 2.12.2.0.1, tweede lid
 
-HOOFDSTUK III - Aangifte
+#### HOOFDSTUK III - Aangifte
 
 ## Art. 53
 
@@ -162,7 +162,7 @@ HOOFDSTUK III - Aangifte
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 53 Art. 3.3.1.0.14, eerste lid
 
-HOOFDSTUK IV - Controlemaatregelen
+#### HOOFDSTUK IV - Controlemaatregelen
 
 ## Art. 54
 
@@ -208,7 +208,7 @@ Art. 58, tweede deel Art. 3.13.1.2.2
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 59 Opgeheven
 
-HOOFDSTUK V - Betaling van de belasting
+#### HOOFDSTUK V - Betaling van de belasting
 
 ## Art. 60
 
@@ -232,7 +232,7 @@ Art. 60, § 2 Opgeheven
 
 (…)
 
-HOOFDSTUK VI - Borgtochten
+#### HOOFDSTUK VI - Borgtochten
 
 ## Art. 63
 
@@ -241,7 +241,7 @@ HOOFDSTUK VI - Borgtochten
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 63 Opgeheven
 
-HOOFDSTUK VII - Afwijkende bepalingen
+#### HOOFDSTUK VII - Afwijkende bepalingen
 
 ## Art. 64
 
@@ -257,7 +257,7 @@ Art. 64 Art. 3.3.1.0.15
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 65 Art. 3.3.1.0.15
 
-HOOFDSTUK VIII – Bijzondere bepalingen in verband met de paardenwedrennen
+#### HOOFDSTUK VIII – Bijzondere bepalingen in verband met de paardenwedrennen
 
 ## Art. 66
 
@@ -280,7 +280,7 @@ Nota:
 
 (…)
 
-HOOFDSTUK IX - Sancties
+#### HOOFDSTUK IX - Sancties
 
 ## Art. 68
 
@@ -326,7 +326,7 @@ Art. 72 Art. 3.15.3.0.8
 
 (…)
 
-HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
+#### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
 
 ## Art. 74
 
@@ -341,9 +341,9 @@ Art. 74 Art. 2.12.4.0.2
 
 (…)
 
-TITEL IV – BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
+### TITEL IV – BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
 
-HOOFDSTUK I – Belastbare toestellen
+#### HOOFDSTUK I – Belastbare toestellen
 
 ## Art. 76
 
@@ -368,7 +368,7 @@ Art. 76, § 2 Art. 1.1.0.0.2, dertiende lid
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 77 Art. 2.13.6.0.1
 
-HOOFDSTUK II – Belastingschuldigen
+#### HOOFDSTUK II – Belastingschuldigen
 
 ## Art. 78
 
@@ -378,7 +378,7 @@ Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 78, eerste zin Art. 2.13.2.0.1
 Art. 78, tweede zin Art. 3.10.4.4.6
 
-HOOFDSTUK III - Bedrag van de belasting
+#### HOOFDSTUK III - Bedrag van de belasting
 
 ## Art. 79
 
@@ -410,7 +410,7 @@ Art. 81, 1°, eerste zin Art. 2.13.5.0.1, tweede lid, 1°
 Art. 81, 1°, eerste zin Art. 2.13.5.0.2
 Art. 81, 1°, tweede zin Opgeheven
 
-HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en invordering
+#### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en invordering
 
 ## Art. 82
 
@@ -437,7 +437,7 @@ Art. 84, § 1 Art. 3.3.1.0.16
 Art. 84, § 2 Opgeheven
 Art. 84, § 3 Art. 1.1.0.0.4
 
-HOOFDSTUK IVbis (…)
+#### HOOFDSTUK IVbis (…)
 
 (opgeheven bij art. 42 van het decreet van 27 jun. 2003 (B.S., 12.09.2003). Tekst van toepassing vanaf 1 jul. 2003 (art. 46))
 
@@ -447,7 +447,7 @@ HOOFDSTUK IVbis (…)
 
 (…)
 
-HOOFDSTUK V – Controlemaatregelen
+#### HOOFDSTUK V – Controlemaatregelen
 
 ## Art. 85
 
@@ -478,7 +478,7 @@ Art. 87 Art. 3.13.1.2.6
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 88 Opgeheven
 
-HOOFDSTUK VI - Sancties en strafbepalingen
+#### HOOFDSTUK VI - Sancties en strafbepalingen
 
 ## Art. 89
 
@@ -496,7 +496,7 @@ Art. 89, vierde lid Art. 3.3.3.0.1, § 2
 
 (…)
 
-HOOFDSTUK VII – Automatische kansspeltoestellen waarvan de exploitatie verboden is
+#### HOOFDSTUK VII – Automatische kansspeltoestellen waarvan de exploitatie verboden is
 
 ## Art. 91
 
@@ -516,7 +516,7 @@ Art. 92, tweede lid Art. 3.10.4.4.6
 Art. 92, derde lid Art. 3.3.3.0.1, § 2
 Art. 92, derde lid Art. 3.18.0.0.3
 
-HOOFDSTUK VIII – Bevoegdheid van de provincies en gemeenten
+#### HOOFDSTUK VIII – Bevoegdheid van de provincies en gemeenten
 
 ## Art. 93
 
@@ -525,9 +525,9 @@ HOOFDSTUK VIII – Bevoegdheid van de provincies en gemeenten
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 93 Art. 2.13.4.0.2
 
-TITEL V – BELASTING OP DE INVERKEERSTELLING
+### TITEL V – BELASTING OP DE INVERKEERSTELLING
 
-HOOFDSTUK I – Belastbare voertuigen
+#### HOOFDSTUK I – Belastbare voertuigen
 
 ## Art. 94
 
@@ -556,7 +556,7 @@ Nota:
 (1) zie ook art. 1.1.0.0.4, 3.3.1.0.2, 3.5.3.0.2, 3.10.2.0.1, 3.10.3.2.1, 3.13.1.2.1, 3.13.1.2.2, 3.13.1.2.3, 3.13.1.2.4, 3.13.1.2.5, 3.13.1.2.6, 3.13.1.2.7, 3.13.1.4.2, 3.13.2.0.4, 3.13.2.0.5, 3.15.3.0.11 van de Vlaamse Codex Fiscaliteit.
 (2) het wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen, zoals van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling wat betreft het Vlaamse Gewest wordt opgeheven met uitzondering van artikel 95 (art. 5.0.0.0.1, 2° van de Vlaamse Codex Fiscaliteit van 13.12.2013 (B.S., 23.12.2013)).
 
-HOOFDSTUK II – Vrijstellingen
+#### HOOFDSTUK II – Vrijstellingen
 
 ## Art. 96
 
@@ -565,7 +565,7 @@ HOOFDSTUK II – Vrijstellingen
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 96 Art. 2.3.6.0.1, § 1, eerste lid
 
-HOOFDSTUK III – Belastbare grondslag
+#### HOOFDSTUK III – Belastbare grondslag
 
 ## Art. 97
 
@@ -577,9 +577,9 @@ Art. 97, § 2, eerste lid Art. 2.3.3.0.1, § 2, eerste lid
 Art. 97, § 2, tweede lid Art. 2.3.3.0.1, § 2, tweede lid
 Art. 97, § 2, derde lid Art. 2.3.3.0.1, § 2, derde lid
 
-HOOFDSTUK IV – Bedrag der belasting
+#### HOOFDSTUK IV – Bedrag der belasting
 
-Afdeling 1 - Belasting op de personenauto's, auto's voor dubbel gebruik en de minibussen vermeld in artikel 94, punt 1°, die worden geacht in het verkeer te zijn gesteld in het Vlaamse Gewest
+##### Afdeling 1 - Belasting op de personenauto's, auto's voor dubbel gebruik en de minibussen vermeld in artikel 94, punt 1°, die worden geacht in het verkeer te zijn gesteld in het Vlaamse Gewest
 
 ## Art. 97bis
 
@@ -644,7 +644,7 @@ Art. 97novies Art. 2.3.4.1.7
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 97decies Art. 2.3.6.0.2
 
-Afdeling 2 (…)
+##### Afdeling 2 (…)
 
 ## Art. 98
 
@@ -653,7 +653,7 @@ Afdeling 2 (…)
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 98 Art. 2.3.4.2.1
 
-HOOFDSTUK V – Ontstaan van de belastingschuld en inningsregels
+#### HOOFDSTUK V – Ontstaan van de belastingschuld en inningsregels
 
 ## Art. 99
 
@@ -713,7 +713,7 @@ Art. 104 Art. 3.3.3.0.1
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 105 Art. 2.3.6.0.1, § 2, eerste lid
 
-HOOFDSTUK VI – Controlemaatregelen
+#### HOOFDSTUK VI – Controlemaatregelen
 
 ## Art. 106
 
@@ -722,7 +722,7 @@ HOOFDSTUK VI – Controlemaatregelen
 Bepaling WIGB Bepaling Vlaamse Codex Fiscaliteit
 Art. 106 Art. 3.13.2.0.1
 
-HOOFDSTUK VII – Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
+#### HOOFDSTUK VII – Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
 
 (ingevoegd bij art. 1 van de wet van 1 jun. 1992 (B.S., 01.06.1992). Tekst van toepassing vanaf 1 jun. 1992 (art. 3))
 
@@ -737,7 +737,7 @@ Nota:
 (1) zie ook art. 2.3.4.2.2 van de Vlaamse Codex Fiscaliteit.
 (2) het wetboek van 23 november 1965 van de met inkomstenbelastingen gelijkgestelde belastingen, zoals van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling wat betreft het Vlaamse Gewest wordt opgeheven met uitzondering van artikel 107 (art. 5.0.0.0.1, 2° van de Vlaamse Codex Fiscaliteit van 13.12.2013 (B.S., 23.12.2013)).
 
-TITEL VI – (…)
+### TITEL VI – (…)
 
 (titel opgeheven bij art. 13 van de programmawet van 5 aug. 2003 (B.S., 07.08.2003). Tekst van toepassing vanaf aanslagjaar 2008 (art. 14)) De accijnscompenserende belasting wordt helemaal afgeschaft vanaf aanslagjaar 2008.
 
@@ -771,12 +771,12 @@ TITEL VI – (…)
 
 (…)
 
-TITEL VII – BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
+### TITEL VII – BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
 VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS
 
 (opschrift in de Franse tekst gewijzigd bij art. 19 van de wet van 30 jul. 2018 (B.S., 10.08.2018). Tekst van toepassing vanaf 1 jan. 2018 (art. 21))
 
-HOOFDSTUK I – Belastbaar feit
+#### HOOFDSTUK I – Belastbaar feit
 
 ## Art. 112
 
@@ -784,7 +784,7 @@ Er wordt een belasting vastgesteld ten laste van de werknemers op de deelname in
 
 Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in geval van niet-naleving van de voorwaarde van onbeschikbaarheid van de deelname bepaald in de artikelen 11 en 19 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers of van het deelbewijs vermeld in artikel 15, § 1, van dezelfde wet.
 
-HOOFDSTUK II – Belastbare grondslag
+#### HOOFDSTUK II – Belastbare grondslag
 
 ## Art. 113
 
@@ -814,7 +814,7 @@ HOOFDSTUK II – Belastbare grondslag
 
 De belastbare grondslag van de aanvullende belasting komt overeen met die welke werd vastgesteld met toepassing van artikel 113, § 1, 2°, als het een participatie in het kapitaal betreft of met toepassing van artikel 113, § 1, 3°, als het een winstpremie voor de werknemers is in het kader van een investeringsspaarplan en wordt beperkt in evenredigheid met de beschikbaar geworden aandelen of deelbewijzen met aftrek, in de twee gevallen, van de belasting bedoeld in artikel 112, eerste lid.
 
-HOOFDSTUK III – Opeisbaarheid van de belasting
+#### HOOFDSTUK III – Opeisbaarheid van de belasting
 
 ## Art. 115
 
@@ -832,7 +832,7 @@ Als toekenning wordt inzonderheid beschouwd, de inschrijving van het aandeel op 
 
 De bijkomende belasting is verschuldigd op het moment dat de onbeschikbaarheid van de participatie, bedoeld in de artikelen 11 en 19, § 1, of van de deelbewijzen, bedoeld in artikel 15, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers, ophoudt behalve in de gevallen bedoeld in de artikelen 11, § 3, 15, § 2 of 19, § 3, van genoemde wet.
 
-HOOFDSTUK IV – Belastingtarieven
+#### HOOFDSTUK IV – Belastingtarieven
 
 ## Art. 117
 
@@ -849,7 +849,7 @@ HOOFDSTUK IV – Belastingtarieven
 
 § 2. De aanslagvoet van de aanvullende belasting wordt vastgesteld op 23,29 %.
 
-HOOFDSTUK V – Schuldenaars van de belasting
+#### HOOFDSTUK V – Schuldenaars van de belasting
 
 (ingevoegd bij art. 23 van de wet van 22 mei 2001 (B.S., 09.06.2001). Tekst van toepassing vanaf aanslagjaar 2002 (art. 42) op grond van art. 2 van het koninklijk besluit van 19 dec. 2001 (B.S., 29.12.2001))
 
@@ -869,7 +869,7 @@ De inhouding van de aanvullende belasting wordt uitgevoerd ofwel door verkoop do
 
 3° in alle andere gevallen, de werkgever bedoeld in artikel 2 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal en in de winst van de vennootschappen.
 
-HOOFDSTUK VI – Stortingswijze, vestiging en inning van de belasting
+#### HOOFDSTUK VI – Stortingswijze, vestiging en inning van de belasting
 
 (titel vervangen in de Franse tekst bij art. 71 van de wet van 13 apr. 2019 (B.S., 30.04.2019). Tekst van toepassing vanaf 1 jan 2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
@@ -879,7 +879,7 @@ HOOFDSTUK VI – Stortingswijze, vestiging en inning van de belasting
 
 De stortingswijze, de vestiging en de inning van de belasting en van de aanvullende belasting worden bepaald overeenkomstig de regels toepasselijk op de wijze van de storting, van de vestiging en van de inning van de roerende voorheffing.
 
-TITEL VIII – GEMEENSCHAPPELIJKE BEPALINGEN
+### TITEL VIII – GEMEENSCHAPPELIJKE BEPALINGEN
 
 ## Art. 120
 

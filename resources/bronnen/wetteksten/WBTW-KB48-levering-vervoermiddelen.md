@@ -107,7 +107,7 @@ geregeld en bepaald door de Minister van Financiën of zijn gemachtigde.
 
 § 4. Voor de bijzondere gevallen kan door de Minister van Financiën of zijn gemachtigde, binnen de door
 hem te bepalen beperkingen en modaliteiten, worden afgeweken van de verplichting om de in de eerste
-paragraaf bedoelde lijst in te dienen. Deze lijst wordt in deze gevallen vervangen door een andere wijze van
+###### paragraaf bedoelde lijst in te dienen. Deze lijst wordt in deze gevallen vervangen door een andere wijze van
 inlichting.
 
 ## Art. 4

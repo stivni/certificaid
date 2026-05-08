@@ -56,7 +56,7 @@ Geleid door de wens een verdrag te sluiten inzake wederzijdse administratieve bi
 
 Zijn het volgende overeengekomen :
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
 
     Werkingssfeer van het Verdrag
 
@@ -120,7 +120,7 @@ iv. belastingen in de hierboven onder (iii) genoemde categorieën die worden geh
 
 4. Dit Verdrag is ook van toepassing op alle gelijke of in wezen gelijksoortige belastingen, vanaf de datum waarop zij zijn ingevoerd, die in een Partij na de inwerkingtreding van het Verdrag ten aanzien van die Partij worden geheven naast op in plaats van de in Bijlage A opgesomde bestaande belastingen. In dat geval stelt de betrokken Partij één van de Depositarissen ervan in kennis dat de belasting in kwestie is ingevoerd.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
 
     Algemene bepalingen
 
@@ -150,11 +150,11 @@ Voor iedere partij die met dat doel een verklaring heeft afgelegd, krijgen de hi
 
 3. De Partijen stellen één van de Depositarissen in kennis van iedere wijziging die dient te worden aangebracht in de Bijlagen B en C. Een zodanige wijziging wordt van kracht op de eerste dag van de maand die volgt op het verstrijken van een tijdvak van drie maanden na de datum van ontvangst van een zodanige kennisgeving door de desbetreffende Depositaris.
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
 
     Vormen van bijstand
 
-    Deel I
+## Deel I
 
     Uitwisseling van inlichtingen
 
@@ -230,7 +230,7 @@ e) inlichtingen, verstrekt aan een Partij door een andere Partij, hebben het mog
 
 Indien een Partij van een andere Partij inlichtingen over de fiscale toestand van een persoon ontvangt die klaarblijkelijk in strijd zijn met inlichtingen waarover zij beschikt, deelt zij dit mede aan de Partij die de inlichtingen heeft verstrekt.
 
-    Deel II
+## Deel II
 
     Invorderingsbijstand
 
@@ -288,7 +288,7 @@ De belastingvordering waarvoor een invorderingsbijstand wordt verleend, geniet i
 
 De aangezochte Staat kan uitstel van betaling of betaling in termijnen toestaan indien zijn wetgeving of zijn administratieve praktijk dit toestaat in soortgelijke omstandigheden, echter niet zonder de verzoekende Staat hiervan eerst mededeling te doen.
 
-    Deel III
+## Deel III
 
     Betekening van documenten
 
@@ -312,7 +312,7 @@ b) voor zover mogelijk, volgens een bepaalde door de verzoekende Staat verzochte
 
 5. Wanneer een document wordt betekend in overeenstemming met dit artikel, behoeft het niet vergezeld te gaan van een vertaling. Indien echter met zekerheid is vastgesteld dat de geadresseerde de taal van het document niet begrijpt, treft de aangezochte Staat regelingen om het te doen vertalen of samenvatten in zijn officiële taal of één van zijn officiële talen. Een andere mogelijkheid is dat de aangezochte Staat de verzoekende Staat vraagt het document te doen vertalen in of vergezeld te doen gaan van een samenvatting in één van de officiële talen van de aangezochte Staat, de Raad van Europa of de OESO.
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
 
     Bepalingen betreffende alle vormen van bijstand
 
@@ -398,7 +398,7 @@ Ook betrokkenen kunnen de aangezochte Staat mededeling doen van zodanige rechtsg
 
 3. Zodra een definitieve beslissing in het rechtsgeding is gegeven, stelt de aangezochte Staat of de verzoekende Staat, al naar gelang, de andere Staat in kennis van de beslissing en van de gevolgen daarvan voor het verzoek om bijstand.
 
-    HOOFDSTUK V
+#### HOOFDSTUK V
 
     Bijzondere bepalingen
 
@@ -436,7 +436,7 @@ a) worden gewone kosten, gemaakt in verband met het verlenen van bijstand, gedra
 
 b) worden buitengewone kosten, gemaakt in verband met het verlenen van bijstand, gedragen door de verzoekende Staat.
 
-    HOOFDSTUK VI
+#### HOOFDSTUK VI
 
     Slotbepalingen
 

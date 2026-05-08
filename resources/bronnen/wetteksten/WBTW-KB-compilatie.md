@@ -98,7 +98,7 @@ belasting waarvoor het recht op aftrek tijdens hetzelfde tijdvak is ontstaan en 
 
 Wanneer de formaliteiten waaraan het uitoefenen van het recht op aftrek onderworpen is, niet tijdig worden vervuld en, in het bijzonder, wanneer de in artikel 3, § 1, 1°, bedoelde factuur werd uitgereikt na het verstrijken van de termijn voorgeschreven door artikel 4, § 1, van het koninklijk besluit nr. 1 van 29 december 1992, wordt dat recht uitgeoefend in de aangifte met betrekking tot het tijdvak waarin de formaliteiten worden vervuld of in een aangifte betreffende een volgend tijdvak, ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden.
 
-    AFDELING II
+##### AFDELING II
     Herziening van de aftrek ten aanzien van andere belasting dan die geheven van bedrijfsmiddelen.
 
 ## Art. 5
@@ -121,7 +121,7 @@ Wanneer de formaliteiten waaraan het uitoefenen van het recht op aftrek onderwor
     - 4 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019
 
-    AFDELING III
+##### AFDELING III
     Herziening van de aftrek ten aanzien van belasting geheven van bedrijfsmiddelen.
 
 ## Art. 6
@@ -265,7 +265,7 @@ Voor de toepassing van artikel 60 van het Wetboek moet de tabel betreffende een 
 
 § 6. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
-    AFDELING IV
+##### AFDELING IV
     Bepalingen met betrekking tot de aftrek volgens het algemeen verhoudingsgetal.
 
 ## Art. 12
@@ -344,7 +344,7 @@ De wijze van herziening van de aftrek wordt bepaald door of vanwege de Minister 
 
 3° wanneer een persoon die zowel handelingen verricht die recht op aftrek verlenen als handelingen die geen recht of aftrek verlenen, overgaat van de bij de artikelen 19 tot 21 van dit besluit bedoelde regeling waarbij de aftrek geschiedt volgens het werkelijke gebruik van de goederen en diensten, naar de regeling waarbij de aftrek geschiedt volgens het algemeen verhoudingsgetal, en omgekeerd;
 
-    AFDELING V
+##### AFDELING V
 Bepalingen met betrekking tot de aftrek volgens het werkelijk gebruik van de goederen en diensten.
 
 ## Art. 19
@@ -380,7 +380,7 @@ Door of namens hem wordt onder meer de wijze van herziening van de aftrek bepaal
     - 12 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019
 
-    Afdeling VI
+##### Afdeling VI
     Bijzondere bepaling
 
 ## Art. 21bis
@@ -988,7 +988,7 @@ Bijlage: Materiaal bedoeld in artikel 36, 21°, van het besluit
 
     -1-FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.2019
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
     Voorwaarden waaronder de goederen op het grondgebied van het
     Rijk mogen worden gebracht.
 
@@ -1016,7 +1016,7 @@ De overeenkomstig artikel 23 van het Wetboek in België ingevoerde goederen moet
 
     -2-FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.2019
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     Plaats van bestemming.
 
 ## Art. 4
@@ -1026,7 +1026,7 @@ Voor de toepassing van artikel 34, § 2, 2°, van het Wetboek, wordt verstaan on
 
 Bij gebrek aan een dergelijke vermelding wordt de eerste plaats van bestemming geacht de plaats te zijn waar de eerste overlading van goederen in België geschiedt.
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
     Voldoening van de belasting ter zake van invoer.
 
 ## Art. 5
@@ -1145,10 +1145,10 @@ Wanneer de geadresseerde een BTW-eenheid is in de zin van artikel 4, § 2, van h
 
 Ten einde de formaliteiten te vereenvoudigen, kan door of vanwege de Minister van Financiën worden afgeweken van de voorschriften van de artikelen 7 en 9; in dat geval worden regelen gegeven om de voldoening van de belasting te verzekeren.
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
     Vrijstelling bij invoer.
 
-    AFDELING 1
+##### AFDELING 1
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, a, van het Wetboek.
 
 ## Art. 11
@@ -1161,7 +1161,7 @@ Behoudens in de door of vanwege de Minister van Financiën omschreven gevallen w
 
 Door of vanwege de Minister van Financiën worden de toepassingsmodaliteiten van dit artikel bepaald.
 
-    AFDELING 2
+##### AFDELING 2
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek.
 
 ## Art. 12
@@ -1837,7 +1837,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.20
 
 § 2. De vrijstelling wordt verleend onverminderd de toepassing van artikel 42 van het Wetboek, en enkel voor de hoeveelheden die inzake invoerrecht met vrijstelling kunnen worden toegelaten voor het verbruik in België.
 
-    AFDELING 3
+##### AFDELING 3
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het Wetboek.
 
 ## Art. 38
@@ -1849,7 +1849,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.20
     - 27 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.2019
 
-    AFDELING 4
+##### AFDELING 4
     Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
 ## Art. 39
@@ -1861,7 +1861,7 @@ In de gevallen waar de invoer van goederen gevolgd wordt door een levering van d
 
 § 2. Door de Minister van Financiën of zijn gemachtigde worden de modaliteiten bepaald voor de toepassing van dit artikel.
 
-    AFDELING 5
+##### AFDELING 5
     Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek.
 
 ## Art. 40
@@ -1917,7 +1917,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 7 - bijw. nr. 6 / 25.11.20
 
 § 5. Door of vanwege de Minister van Financiën worden de modaliteiten en de formaliteiten bepaald voor de toepassing van de in dit artikel bedoelde vrijstelling.
 
-    AFDELING 6
+##### AFDELING 6
     Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek.
 
 ## Art. 42
@@ -1935,7 +1935,7 @@ Wanneer van die regeling wordt afgezien voor het verbruik, blijft de vrijstellin
 
 De maatstaf van heffing zoals bepaald in het eerste lid moet worden vermeerderd met de niet reeds in die waarde begrepen sommen die, overeenkomstig artikel 34, § 2, van het Wetboek, in de maatstaf van heffing moeten worden opgenomen.
 
-    AFDELING 7
+##### AFDELING 7
     Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
 
 ## Art. 43
@@ -2060,7 +2060,7 @@ e) thee 100 gram of thee-extracten en -essences 40 gram.
 
 §4 De in § 3 genoemde goederen die in een kleine zending zonder commercieel karakter zijn vervat, maar de in die paragraaf vastgestelde hoeveelheden overschrijden, worden geheel van de vrijstelling uitgesloten.
 
-    HOOFDSTUK V
+#### HOOFDSTUK V
     Voorziening om de invordering van de belasting te verzekeren.
 
 ## Art. 45
@@ -2082,7 +2082,7 @@ De borgtocht moet worden gestort op het kantoor dat door één van de genoemde a
 
 Wanneer de geëiste borgtocht niet wordt gesteld voor goederen die nog onder douanetoezicht staan, mag de douane de goederen ophouden of gebieden dat ze het land moeten verlaten.
 
-    HOOFDSTUK VI
+#### HOOFDSTUK VI
     Opheffingsbepaling en inwerkingtreding.
 
 ## Art. 46
@@ -2734,7 +2734,7 @@ Koninklijk besluit nr. 15, van 3 juni 1970, tot regeling van de schattingsproced
 
     (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met ingang van 16.05.2014. (Art. 16, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-    Afdeling 1
+##### Afdeling 1
     Vervreemdingen van goederen bedoeld in artikel 1, § 9, van het Wetboek.
     (Het opschrift van afdeling 1 van hoofdstuk 1, van KB nr. 15, werd vervangen met ingang van 01.01.2011. (Art. 12, KB 19.12.2010, B.S. 24.12.2010))
 
@@ -2841,7 +2841,7 @@ FOD Financiën – BEO BTW KB nr. 15 – Bijw. 03 / 08.04.2019
     De tegenpartij is gehouden tot de kosten van de procedure indien het vastgestelde tekort gelijk is aan of groter dan een achtste van de maatstaf waarover de belasting werd voldaan. Die kosten blijven evenwel ten laste van de Schatkist indien de tegenpartij, vóór de kennisgeving van de vordering tot schatting, heeft aangeboden de aanvullende belasting te voldoen verhoogd met een gelijke som als boete, over een maatstaf die het bij de schatting uitgewezen tekort bereikt of overtreft.
     De invordering geschiedt op basis van een innings- en invorderingsregister op de wijze bepaald bij artikel 85 van het Wetboek.
 
-    Afdeling 2
+##### Afdeling 2
     Werk in onroerende staat.
 
 ## Art. 14
@@ -2874,7 +2874,7 @@ FOD Financiën – BEO BTW KB nr. 15 – Bijw. 03 / 08.04.2019
     De deskundige of, in voorkomend geval, de drie gezamenlijk optredende deskundigen gaan de normale waarde na die de in de vordering tot schatting vermelde diensten hebben op het erin vermelde tijdstip.
     De artikelen 4 tot 13, met uitzondering van artikel 9, eerste en tweede lid, zijn van toepassing op de in deze afdeling geregelde vordering tot schatting met dien verstande dat in die artikelen de woorden “ de ontvanger “ worden vervangen door “ het hoofd van het BTW-controlekantoor “.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     TEGEN DE ADMINISTRATIE BELAST MET DE BELASTING OVER DE
     TOEGEVOEGDE WAARDE INGESTELDE VORDERING TOT SCHATTING.
     (Het opschrift van hoofdstuk 2, van KB nr. 15, werd gewijzigd met ingang van 16.05.2014. (Art. 16, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
@@ -3025,7 +3025,7 @@ HOOFDSTUK V: Algemene bepalingen.
     - 1 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2019
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
     Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
 ## Art. 1
@@ -3033,7 +3033,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2
 
 De in artikel 39, § 1, van het Wetboek bedoelde vrijstelling wordt verleend voor zover de voorwaarden zijn vervuld, de formaliteiten worden nagekomen en de bewijzen worden geleverd die in dit hoofdstuk zijn bepaald.
 
-    AFDELING 1
+##### AFDELING 1
     Uitvoer van goederen door of voor rekening van de verkoper.
     Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
 
@@ -3060,7 +3060,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2
 
 en waarvoor, overeenkomstig de reglementering betreffende de inschrijving van motorvoertuigen, formaliteiten dienen te worden nagekomen die het communautair karakter van deze voertuigen vastleggen, dient in het geval deze voertuigen niet het voorwerp uitmaken van enige aanvraag om inschrijving, de verkoper daarvan kennis te geven aan de Dienst van de douane gevestigd bij de Dienst voor Inschrijving van de Voertuigen (DIV) op de door of vanwege de Minister van Financiën voorgeschreven wijze.
 
-    AFDELING 2
+##### AFDELING 2
   Goederen afgehaald door de niet in België gevestigde koper of voor zijn rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van het Wetboek.
 
 ## Art. 5
@@ -3084,7 +3084,7 @@ De verkoper wordt pas van zijn verantwoordelijkheid ontslagen indien hij kan bew
     - 3 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2019
 
-    AFDELING 3
+##### AFDELING 3
 Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek
 
 ## Art. 7
@@ -3094,7 +3094,7 @@ Het bepaalde in de afdelingen 1 en 2 is van toepassing voor de diensten, andere 
 
 Wanneer op de kopiefactuur die overeenkomstig artikel 2 op het douanekantoor moet worden afgegeven, de hoeveelheid en de gewone benaming van de uitgevoerde goederen niet zijn vermeld, moet die kopiefactuur met deze gegevens worden aangevuld, of moet eveneens een verzendingsstuk, waarop die gegevens voorkomen, worden afgegeven.
 
-    AFDELING 4
+##### AFDELING 4
     Goederen uit te voeren in de persoonlijke bagage van de reizigers.
     Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
@@ -3121,7 +3121,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2
 
 Onder woonplaats of gebruikelijke verblijfplaats van de reiziger wordt verstaan de plaats die als zodanig op zijn reispas, op zijn identiteitskaart of, bij ontstentenis daarvan, op een als identiteitsbewijs erkend stuk is vermeld.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
 ## Art. 10
@@ -3160,7 +3160,7 @@ De vrijstelling wordt voorlopig verleend. Ze wordt slechts definitief op het tij
 
     (opgeheven)
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
     Algemene bepaling betreffende de hoofdstukken I en II.
 
 ## Art. 15
@@ -3170,7 +3170,7 @@ Wanneer een oorzaak van opeisbaarheid van de belasting waarvoor het belastbare f
 
 Deze opschorting kan worden toegestaan voor een termijn van ten hoogste één jaar; in uitzonderlijke omstandigheden kan die termijn evenwel worden verlengd.
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
     Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
 ## Art. 16
@@ -3186,7 +3186,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 18 - bijw. nr. 6 / 20.11.2
 
     (opgeheven)
 
-    HOOFDSTUK V
+#### HOOFDSTUK V
     Algemene bepalingen.
 
 ## Art. 18
@@ -3853,7 +3853,7 @@ FOD Financiën - BEO BTW KB nr. 20 – Bijw. 16 / 26.06.2019
     De storting van de belasting ten gevolge van de regularisatie gebeurt op basis van een aangifte, opgesteld in de vorm bepaald door of vanwege de Minister van Financiën, welke de invalide of gehandicapte, binnen een maand te rekenen vanaf de datum van de wijziging van bestemming of van de afstand van het voertuig, moet indienen bij het controlekantoor in het ambtsgebied waarvan zijn woonplaats is gelegen.
     De te storten belasting wordt betaald binnen een maand te rekenen vanaf de datum van het betalingsbericht dat de dienst aangewezen door de minister van Financiën of zijn gemachtigde aan de invalide of gehandicapte stuurt. De betaling wordt uitgevoerd overeenkomstig het bepaalde in hoofdstuk 1 van het koninklijk besluit van 17 februari 2019 tot uitvoering van diverse wetten en tot aanpassing van diverse koninklijke besluiten met het oog op onder meer de harmonisatie van de betalingsmodaliteiten binnen de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen.
 
-    Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
+##### Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
 
     Het verlaagd tarief van 6 pct., is van toepassing op onderdelen, uitrustingsstukken en toebehoren die ingevoerd, intracommunautair verworven of hier te lande verkregen worden door in de eerste afdeling hierboven aangewezen personen ten behoeve van de aldaar bedoelde automobielen.
     Het voordeel van het verlaagd tarief van 6 pct. is afhankelijk van de uitreiking van een factuur aan de koper en van de voorlegging door deze laatste, aan de douane of aan de verkoper, van een attest opgesteld in de vorm bepaald door of vanwege de Minister van Financiën, dat het voertuig identificeert waarvoor de gunstregeling wordt ingeroepen. Daarenboven dienen het invoerdocument of de factuur en het dubbel ervan, de datum en het referentienummer van het bovengenoemde attest en het controlekantoor dat dit attest heeft uitgereikt te vermelden.
@@ -5055,41 +5055,41 @@ Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 09.12.2019, B.S. 16.12.2019 
 
     Inhoudstafel
 
-AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
+##### AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
     Brussel, "Inning en Invordering", "Mini One Stop Shop - btw BE" en "btw on E-Services".
 
-    Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
+###### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
     Brussel Art. 1 - 8
 
-    Onderafdeling 2. Betaling op de financiële rekening van "Inning en
+###### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
     Invordering". Art. 9 - 13
 
-    Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
+###### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
     - VAT BE” Art. 13bis
 
-    Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
+###### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
 
     Disposition temporaire Art. 13ter
 
-AFDELING 2. Betaling vastgesteld door middel van het elektronische systeem PLDA van de Algemene Administratie van de Douane en Accijnzen. Art. 14 - 15
+##### AFDELING 2. Betaling vastgesteld door middel van het elektronische systeem PLDA van de Algemene Administratie van de Douane en Accijnzen. Art. 14 - 15
 
-AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege de Minister van Financiën met de invordering belaste ambtenaar. Art. 16 - 19
+##### AFDELING 3. Betaling bestemd voor het kantoor van de door of vanwege de Minister van Financiën met de invordering belaste ambtenaar. Art. 16 - 19
 
-AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan bij invoer verschuldigde belasting over de toegevoegde waarde. Art. 20 - 21
+##### AFDELING 4. Betaling op een douane of accijnskantoor voor andere dan bij invoer verschuldigde belasting over de toegevoegde waarde. Art. 20 - 21
 
-AFDELING 5. Slotbepalingen. Art. 22 - 24
+##### AFDELING 5. Slotbepalingen. Art. 22 - 24
 
     - 1 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 24 - bijw. nr. 8 / 16.12.2019
 
-    AFDELING 1
+##### AFDELING 1
     Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
     "Inning en Invordering", "Mini One Stop Shop - btw BE" en
     "btw on E-Services".
 
 (Het opschrift van Afdeling 1, werd vervangen met ingang van 01.12.2019 (Art. 31, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
-    Onderafdeling 1
+###### Onderafdeling 1
     Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
 
 ## Art. 1
@@ -5201,7 +5201,7 @@ Indien de bijzondere rekening sluit met een overschot in het voordeel van de bel
 
 § 2. Iedere betaling of verrichting gelijkgesteld met een betaling overeenkomstig artikel 5, § 2, van dit besluit, die wordt ingeschreven op de rekening-courant en die uitwerking heeft na de in § 1 van dit artikel bedoelde kennisgeving, worden, niettegenstaande elke strijdige verklaring, geacht te zijn gedaan ter voldoening van de in artikel 1 en artikel 5, § 2, bedoelde bedragen, die de belastingplichtige verschuldigd is of zal worden voor het tijdvak dat volgt op dat waarvoor het bijhouden van een bijzondere rekening werd voorgeschreven.
 
-    Onderafdeling 2
+###### Onderafdeling 2
     Betaling op de financiële rekening van "Inning en Invordering".
 
 (Het opschrift van Onderafdeling 2, werd vervangen met ingang van 01.12.2019 (Art. 32, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
@@ -5241,7 +5241,7 @@ De betalingen, andere dan diegene die op de postrekening van "btw-ontvangsten Br
 
     (Opgeheven)
 
-    Onderafdeling 3
+###### Onderafdeling 3
     Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 
 (De tekst van Onderafdeling 3, werd vervangen met ingang van 01.01.2015 (Art. 7, KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
@@ -5258,7 +5258,7 @@ artikelen 58ter, § 5 en 58quater, § 5, van het Wetboek wordt gedaan op de post
 
 De betaling door de belastingschuldige op de postrekening BE78 6792 0036 2186 van "Mini One Stop Shop - VAT BE" wordt gedaan door storting of overschrijving met vermelding van de gestructureerde mededeling die hem werd ter kennis gebracht door de administratie. Zij heeft uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 
-    Onderafdeling 4
+###### Onderafdeling 4
     Betaling op de postrekening van "VAT on E-Services".
 
 (De tekst van Onderafdeling 4, werd ingevoegd met ingang van 01.01.2015. (Art. 8, KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
@@ -5272,7 +5272,7 @@ Wanneer een aangifte bedoeld in artikel 58bis, § 2, 4°, van het Wetboek wordt 
 
 Wanneer verbeteringen moeten worden aangebracht aan een aangifte met betrekking tot een tijdvak voorafgaand aan 1 januari 2015, waardoor de belasting aan de Schatkist moet worden gestort, wordt de betaling eveneens gedaan op de in het eerste lid daartoe voorziene postrekening.
 
-    AFDELING 2
+##### AFDELING 2
 Betaling vastgesteld door middel van het elektronische systeem PLDA van de Algemene Administratie van de Douane en Accijnzen.
 
 (Het opschrift van KB nr. 24, afdeling 2, werd gewijzigd met ingang van 16.05.2014 (Art. 23, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
@@ -5296,7 +5296,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 24 - bijw. nr. 8 / 16.12.2
 
 § 2. Door of vanwege de Minister van Financiën mag echter, in de bijzondere gevallen en onder de voorwaarden door hen te bepalen, worden toegestaan dat de voldoening van de ter zake van invoer verschuldigde BTW op een andere wijze wordt vastgesteld.
 
-    AFDELING 3
+##### AFDELING 3
     Betaling bestemd voor het kantoor van de door of vanwege de
     Minister van Financiën met de invordering belaste ambtenaar.
 
@@ -5323,7 +5323,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 24 - bijw. nr. 8 / 16.12.2
     - 8 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 24 - bijw. nr. 8 / 16.12.2019
 
-    AFDELING 4
+##### AFDELING 4
  Betaling op een douane of accijnskantoor voor andere dan bij invoer verschuldigde belasting over de toegevoegde waarde.
 
 ## Art. 20
@@ -5342,7 +5342,7 @@ De in artikel 20 bedoelde betalingen hebben uitwerking:
 
 Indien door of vanwege de Minister van Financiën overeenkomstig artikel 20 van dit besluit, een andere wijze van betalen wordt toegestaan, wordt door of vanwege hem eveneens de datum bepaald waarop de betaling uitwerking heeft.
 
-    AFDELING 5
+##### AFDELING 5
     Slotbepalingen.
 
 ## Art. 22
@@ -5920,11 +5920,11 @@ FOD Financiën - BEO BTW KB nr. 41 – Bijw. 04 / 08.04.2019
 
 TABEL A: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-    Afdeling 1. - Binnenlandse verrichtingen
+##### Afdeling 1. - Binnenlandse verrichtingen
 
-    Afdeling 2. - Invoer.
+##### Afdeling 2. - Invoer.
 
-    Afdeling 3. - Uitvoer.
+##### Afdeling 3. - Uitvoer.
 
 TABEL B: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -5938,13 +5938,13 @@ TABEL F: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 
 TABEL G: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-    Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
+##### Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
 
-    Afdeling 2.- Invoer.
+##### Afdeling 2.- Invoer.
 
-    Afdeling 3.- Uitvoer.
+##### Afdeling 3.- Uitvoer.
 
-    Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 TABEL H: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -6027,7 +6027,7 @@ VI. Vrijstellingen beoogd door artikel 42, §§ 1, 2 en 3, 1° tot 6°, van het 
 
     2. Ontbreken van het bewijs van het recht op vrijstelling 10 pct. van de verschuldigde belasting
 
-    Afdeling 2. - Invoer.
+##### Afdeling 2. - Invoer.
 
 VII. Overtredingen van de verplichting de goederen aan te geven bij het douanekantoor : invoer van goederen zonder aangifte of niet-aangifte van een gedeelte van de ingevoerde goederen.
 
@@ -6126,7 +6126,7 @@ FOD Financiën - BEO BTW KB nr. 41 – Bijw. 04 / 08.04.2019
     B. De invoerder heeft zijn normale verblijfplaats in nihil
     België maar kan te goeder trouw oordelen dat deze zich in het buitenland bevindt
 
-    Afdeling 3. – Uitvoer.
+##### Afdeling 3. – Uitvoer.
 
 XI. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
@@ -6420,7 +6420,7 @@ VII. 1. Ten onrechte toepassen van artikel 25ter, § 1, tweede 10 pct. van de ve
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 12
 FOD Financiën - BEO BTW KB nr. 41 – Bijw. 04 / 08.04.2019
 
-    Afdeling 2.- Invoer.
+##### Afdeling 2.- Invoer.
 
     (KB nr. 41, Tabel G, afdeling 2, VIII, 4. en 5. C), werden gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699))
 
@@ -6531,7 +6531,7 @@ XI. Overtredingen op het stuk van de tijdelijke invoer van vervoermiddelen.
 
     B) Andere overtredingen 100 pct. van de verschuldigde belasting
 
-    Afdeling 3.- Uitvoer.
+##### Afdeling 3.- Uitvoer.
 XII. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
 
@@ -6568,7 +6568,7 @@ XIV. Overtredingen inzake de toepassing van artikel 42, § 3, 8°, en van artike
 
     2° op het tijdstip van de controle heeft de 20 pct. van de te regulariseren vergunninghouder de verplicht geworden belasting regularisatie nog niet uitgevoerd
 
-    Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 XV. Overtredingen begaan bij de toepassing van artikel 39quater 10 pct. van de verschuldigde van het Wetboek belasting.
 
@@ -6713,7 +6713,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 44 - bijw. nr. 4 / 01.01.2
 
     BIJLAGE
 
-AFDELING 1 : AANGIFTEVERPLICHTING
+##### AFDELING 1 : AANGIFTEVERPLICHTING
 
 I. Aangifte bedoeld in artikel 53, § 1 , eerste lid, 2°, van het Wetboek
 
@@ -6861,7 +6861,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 44 - bijw. nr. 4 / 01.01.2
 
     D. Niet naleven van de procedure van indienen 200 EUR per document
 
-AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
+##### AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
     KRACHTENS DE REGELGEVING
 
 I. Factuur en als zodanig geldend stuk
@@ -6913,7 +6913,7 @@ III. Andere door of krachtens de regelgeving voorziene stukken en rapporten
 
     Niet opgemaakt binnen de termijn voorzien door of Per stuk of rapport : krachtens de regelgeving of niet conform de regelgeving - 1ste overtreding: 50 EUR met een maximum van 250 EUR - 2de overtreding: 100 EUR met een maximum van 1.000 EUR - volgende overtredingen: 250 EUR met een maximum van 2.500 EUR
 
-AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
+##### AFDELING 3 : VERPLICHTINGEN INZAKE VAN BOEKHOUDING
 
 I. Boeken, registers en journalen waarvan het houden wordt voorgeschreven door of krachtens de regelgeving
 
@@ -6956,7 +6956,7 @@ III. Andere door of krachtens de regelgeving op te maken/te houden stukken en ge
     - volgende overtredingen:
     1.000 EUR
 
-AFDELING 4 : CONTROLEMAATREGELEN
+##### AFDELING 4 : CONTROLEMAATREGELEN
 
 I. Verplichting tot het meedelen van het identificatienummer bedoeld in artikel 53quater van het Wetboek
 
@@ -6988,7 +6988,7 @@ IV. Verplichtingen bedoeld in de artikelen 61, 62, 62bis en 63 van het Wetboek
     - 9 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 44 - bijw. nr. 4 / 01.01.2020
 
-AFDELING 5 : INTERNATIONAAL
+##### AFDELING 5 : INTERNATIONAAL
 
 I. Artikelen 39, 39bis, 39quater, 40, 40bis, 41 en 42 van het Wetboek - Artikel 81 van het koninklijk besluit nr. 4 van 29 december 1969
 
@@ -7000,7 +7000,7 @@ II. Artikel 52 van het Wetboek
 
     Andere overtredingen dan deze bedoeld in artikel 70, §§ 1 125 EUR per overtreding en 3, van het Wetboek, voor wat betreft de verplichting tot het aangeven van de goederen onder de door artikel 52, § 1, van het Wetboek, voorgeschreven voorwaarden
 
-AFDELING 6 : DIVERSE BEPALINGEN
+##### AFDELING 6 : DIVERSE BEPALINGEN
 
     Elke andere verplichting bedoeld in het Wetboek en de besluiten genomen ter uitvoering ervan dan deze beoogd in afdeling 1 tot en met 5 van deze bijlage - 1ste overtreding: 250 EUR - 2de overtreding: 500 EUR - volgende overtredingen: 1.000 EUR
 
@@ -7311,15 +7311,15 @@ Koninklijk besluit nr. 50, van 11 december 2019 met betrekking tot de btw-opgave
 
     Inhoudstafel
 
-Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en diensten
+#### Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en diensten
 
-Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
+#### Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
 
-Hoofdstuk 3. Slotbepalingen
+#### Hoofdstuk 3. Slotbepalingen
 Bijlage: Btw-opgave van de intracommunautaire handelingen
 
-    Hoofdstuk 1
-    Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en diensten
+#### Hoofdstuk 1
+## Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en diensten
 
 ## Art. 1
 (De tekst van K.B. nr. 50 (2019), artikel 1, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
@@ -7411,7 +7411,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 50 (2019) - bijw. nr. 1 / 
 ## Art. 7
 (De tekst van K.B. nr. 50 (2019), artikel 7, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
 
-Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel gegeven bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
+## Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel gegeven bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 
 ## Art. 8
 (De tekst van K.B. nr. 50 (2019), artikel 8, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
@@ -7421,8 +7421,8 @@ De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en le
     - 4 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 50 (2019) - bijw. nr. 1 / 01.01.2020
 
-    HOOFDSTUK 2
-    Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
+#### HOOFDSTUK 2
+## Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
 
 ## Art. 9
 (De tekst van K.B. nr. 50 (2019), artikel 9, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
@@ -7465,12 +7465,12 @@ Wanneer een in het eerste lid bedoelde belastingplichtige die hoedanigheid verli
 ## Art. 12
 (De tekst van K.B. nr. 50 (2019), artikel 12, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
 
-Deel 2 van de intracommunautaire opgave wordt ingediend langs elektronische weg door de overdracht van de informatie bedoeld in de artikelen 9 en 10 op het elektronisch adres dat daartoe gecreëerd werd en onder de door de Minister van Financiën of zijn gemachtigde gestelde voorwaarden.
+## Deel 2 van de intracommunautaire opgave wordt ingediend langs elektronische weg door de overdracht van de informatie bedoeld in de artikelen 9 en 10 op het elektronisch adres dat daartoe gecreëerd werd en onder de door de Minister van Financiën of zijn gemachtigde gestelde voorwaarden.
 
 ## Art. 13
 (De tekst van K.B. nr. 50 (2019), artikel 13, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
 
-Deel 2 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel gegeven bedoeld in de artikelen 9 en 10 moet worden in opgenomen.
+## Deel 2 van de intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel gegeven bedoeld in de artikelen 9 en 10 moet worden in opgenomen.
 
 ## Art. 14
 (De tekst van K.B. nr. 50 (2019), artikel 14, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
@@ -7486,7 +7486,7 @@ FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 50 (2019) - bijw. nr. 1 / 
 
 2° artikel 1, punt 5, van de richtlijn (EU) 2018/1910 van de Raad van 4 december 2018 tot wijziging van Richtlijn 2006/112/EG wat betreft de harmonisatie en vereenvoudiging van bepaalde regels in het btw-stelsel voor de belastingheffing in het handelsverkeer tussen de lidstaten.
 
-    HOOFDSTUK 3
+#### HOOFDSTUK 3
     Slotbepalingen
 
 ## Art. 15
@@ -7610,7 +7610,7 @@ Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
 
     Dit koninklijk besluit vervangt met ingang van 01.01.2020 het Koninklijk besluit nr. 52, van 29 december 1992, met betrekking tot de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen, alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk van de belasting over de toegevoegde waarde.
 
-    HOOFDSTUK 1
+#### HOOFDSTUK 1
 
   Bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen
 
@@ -7666,7 +7666,7 @@ Ingeval de goederen niet naar een inrichting van de afnemer worden verzonden of 
 
 § 3. De Minister van Financiën bepaalt de toepassingsmodaliteiten van dit artikel met betrekking tot het papieren of elektronisch formaat van het document, de authenticiteit van de ondertekening en de integriteit van de inhoud.
 
-    HOOFDSTUK 2
+#### HOOFDSTUK 2
 
     Vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen
 
@@ -7675,7 +7675,7 @@ Ingeval de goederen niet naar een inrichting van de afnemer worden verzonden of 
 
 De bepalingen opgenomen in afdeling 2 van hoofdstuk IV van het koninklijk besluit nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde, zijn eveneens van toepassing op de intracommunautaire verwervingen van goederen die vrijgesteld zijn op grond van artikel 40, § 1, 1°, b, van het Wetboek.
 
-    HOOFDSTUK 3
+#### HOOFDSTUK 3
 
     Slotbepalingen
 
@@ -8173,19 +8173,19 @@ Laatstelijk gewijzigd, met ingang van 05.12.2019 (KB 07.11.2019, B.S. 25.11.2019
 
     Inhoudstafel
 
-HOOFDSTUK I. Algemene bepalingen (art. 1)
+#### HOOFDSTUK I. Algemene bepalingen (art. 1)
 
-HOOFDSTUK II. België is de lidstaat van teruggaaf (art. 2 - art. 22)
+#### HOOFDSTUK II. België is de lidstaat van teruggaaf (art. 2 - art. 22)
 
-    Afdeling 1. Algemeen (art. 2 - art. 3)
+##### Afdeling 1. Algemeen (art. 2 - art. 3)
 
-    Afdeling 2. Modaliteiten van de teruggaaf (art. 4 - art. 22)
+##### Afdeling 2. Modaliteiten van de teruggaaf (art. 4 - art. 22)
 
-HOOFDSTUK III. België is de lidstaat van vestiging (art. 23 - art. 28)
+#### HOOFDSTUK III. België is de lidstaat van vestiging (art. 23 - art. 28)
 
-HOOFDSTUK IV. Slotbepalingen en inwerkingtreding (art. 29 - art. 32)
+#### HOOFDSTUK IV. Slotbepalingen en inwerkingtreding (art. 29 - art. 32)
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
     Algemene bepalingen
 
 ## Art. 1
@@ -8202,10 +8202,10 @@ Voor de toepassing van dit besluit wordt verstaan onder:
     - 1 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 56 - bijw. nr. 6 / 25.11.2019
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     België is de lidstaat van teruggaaf
 
-    Afdeling 1
+##### Afdeling 1
     Algemeen
 
 ## Art. 2
@@ -8237,7 +8237,7 @@ Zijn van de teruggaaf uitgesloten:
 
 § 3. Wanneer de in artikel 2 bedoelde belastingplichtige in de lidstaat waar hij is gevestigd, zowel handelingen verricht die in die lidstaat een recht op aftrek doen ontstaan, als handelingen die in die lidstaat geen recht op aftrek doen ontstaan, kan van de overeenkomstig de paragrafen 1 en 2 betaalde voorbelasting slechts dat gedeelte van de belasting over de toegevoegde waarde worden teruggegeven dat overeenkomstig artikel 173 van de richtlijn 2006/112/EG, zoals toegepast door de lidstaat van vestiging, aan eerstgenoemde handelingen kan worden toegerekend.
 
-    Afdeling 2
+##### Afdeling 2
     Modaliteiten van de teruggaaf
 
 ## Art. 4
@@ -8418,7 +8418,7 @@ Correcties betreffende een eerder teruggaafverzoek als bedoeld in artikel 10, wo
 
 Indien de teruggaaf niet plaatsvindt binnen de termijn voorzien in artikel 18, eerste lid, is de Staat overeenkomstig artikel 91, § 3, van het Wetboek moratoriuminteresten verschuldigd over het aan de aanvrager terug te geven bedrag.
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
     België is de lidstaat van vestiging
 
 ## Art. 23
@@ -8494,7 +8494,7 @@ De administratie stuurt de aanvrager onverwijld langs elektronische weg een beve
     - 11 -
 FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 56 - bijw. nr. 6 / 25.11.2019
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
     Slotbepalingen en inwerkingtreding
 
 ## Art. 29
@@ -8656,7 +8656,7 @@ Koninklijk besluit nr. 59, van 28 mei 2019, met betrekking tot de onttrekking va
 
 Ingevoerd met ingang van 30.06.2019 (KB 28.05.2019, B.S. 20.06.2019, Ed. 2, pg. 63603)
 
-    HOOFDSTUK 1.
+#### HOOFDSTUK 1.
     De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
 
 ## Art. 1
@@ -8667,7 +8667,7 @@ Ingevoerd met ingang van 30.06.2019 (KB 28.05.2019, B.S. 20.06.2019, Ed. 2, pg. 
     2° het goed mag niet worden doorverkocht door de begunstigde in het kader van een economische activiteit;
     3° de aankoopprijs, of indien er geen aankoopprijs is, de normale waarde van het goed, exclusief belasting, is lager dan 50 euro.
 
-    HOOFDSTUK 2.
+#### HOOFDSTUK 2.
    De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
 
 ## Art. 2
@@ -8728,7 +8728,7 @@ FOD Financiën - BEO BTW KB nr. 59 – Bijw. 01 / 20.06.2019
 Onttrekkingen www.fisconetplus.be pg. 2
 FOD Financiën - BEO BTW KB nr. 59 – Bijw. 01 / 20.06.2019
 
-    HOOFDSTUK 3.
+#### HOOFDSTUK 3.
     Slotbepaling
 
 ## Art. 6

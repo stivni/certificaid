@@ -255,8 +255,8 @@ Als u originele stukken toevoegt, moet u die waarmerken, dateren en ondertekenen
 tenzij ze uitgaan van derden. Als u afschriften toevoegt, moet u die eensluidend verklaren met de originelen.
 Zorg ervoor dat u uw naam en voornaam op elke bijlage vermeldt.
 De voorbereiding van de aangifte bestaat uit twee delen.
-Deel 1 is bestemd voor alle belastingplichtigen.
-Deel 2 daarentegen is alleen bestemd voor:
+## Deel 1 is bestemd voor alle belastingplichtigen.
+## Deel 2 daarentegen is alleen bestemd voor:
 • bedrijfsleiders (bestuurders, zaakvoerders, enz.)
 • zelfstandigen
 • personen die volgende inkomsten hebben verkregen die voor aanslagjaar 2025 belastbaar zijn als diverse inkomsten:

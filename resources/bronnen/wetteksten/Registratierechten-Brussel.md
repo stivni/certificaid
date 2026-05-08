@@ -2833,7 +2833,7 @@ De kosteloze registratie geldt niet voor akten houdende schenkingen onder de lev
 1°bis De vonnissen en arresten houdende veroordeling van de Staat, de Gemeenschappen en de Gewesten, van de openbare instellingen die zijn opgericht door de Staat, en van de inrichtingen van de Gemeenschappen en de Gewesten.
 
 2° Overdrachten in der minne van onroerende goederen ten algemenen nutte, aan Staat, provinciën, gemeenten, openbare instellingen en aan alle andere tot onteigening gerechtigde organismen of personen; akten betreffende de wederafstand na onteigening ten algemenen nutte in de gevallen waarin hij bij de wet toegelaten is; akten tot vaststelling van een ruilverkaveling of een herverkaveling verricht met inachtneming van de bepalingen van
-Hoofdstuk VI van Titel I van de wet houdende organisatie van de ruimtelijke ordening en van de stedebouw. De akten houdende overdracht van een afgedankte bedrijfsruimte aan de Staat of een andere publiekrechtelijke rechtspersoon.
+#### Hoofdstuk VI van Titel I van de wet houdende organisatie van de ruimtelijke ordening en van de stedebouw. De akten houdende overdracht van een afgedankte bedrijfsruimte aan de Staat of een andere publiekrechtelijke rechtspersoon.
 
 3° De akten houdende oprichting, wijziging, verlenging of ontbinding van de Nationale Maatschappij der Waterleidingen, van de verenigingen overeenkomstig de bepalingen der wetten van 18 augustus 1907 en van 1 maart 1922 gevormd, van de Maatschappij voor het Intercommunaal Vervoer te Brussel, van de maatschappij voor tussengemeentelijk vervoer beheerst door de wet betreffende de oprichting van maatschappijen voor stedelijk gemeenschappelijk      vervoer,    van     de     Federale     Investeringsmaatschappij,     de     gewestelijke investeringsmaatschappijen en van de Belgische Naamloze Vennootschap tot Exploitatie van het Luchtverkeer (Sabena).
 
@@ -2872,7 +2872,7 @@ d) de documenten die krachtens wettelijke, decretale of ordonnantiële bepalinge
 14° een authentieke volmacht die uitsluitend bestemd is om een of meer partijen te laten vertegenwoordigen bij het verlijden van een authentieke akte, op voorwaarde dat de instrumenterende ambtenaar voor het verlijden van de volmacht geen ereloon, vacaties of kosten vraagt en voor zover de volmacht uitsluitend effect sorteert binnen de zes maanden na de ondertekening ervan.
 
 15° De verklaring van verwerping ten overstaan van een notaris bedoeld in artikel 4.44, eerste lid, van het Burgerlijk Wetboek, onder de voorwaarden bedoeld in het derde lid van hetzelfde artikel. (1) De bijlagen bij een dergelijke verklaring worden ook kosteloos geregistreerd, behalve wanneer ze een in Titel I,
-Hoofdstuk IV van het Wetboek bepaald recht, ander dan het in artikel 158 bepaalde recht, opeisbaar maken.
+#### Hoofdstuk IV van het Wetboek bepaald recht, ander dan het in artikel 158 bepaalde recht, opeisbaar maken.
 
 16° de akten van erfopvolging bedoeld in artikel 3.30, § 1, 7°, van het Burgerlijk Wetboek, op voorwaarde dat de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 (1) Vanaf 03.08.2017 tot 02.08.2020 mag het netto actief van de nalatenschap niet meer bedragen dan 5.000 EUR. Vanaf 03.08.2020 tot 31.07.2023 bedraagt het geïndexeerde bedrag 5.219,21 euro. Vanaf 01.08.2023 tot 31.07.2026 bedraagt het geïndexeerde bedrag 6.093,20 euro (EE/107.394).

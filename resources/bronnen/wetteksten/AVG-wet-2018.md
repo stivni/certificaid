@@ -74,7 +74,7 @@ Voor de toepassing van deze wet wordt verstaan onder "overheid" :
 1° of 2°, worden gefinancierd, hetzij het beheer onderworpen is aan toezicht door deze overheden of instellingen, hetzij de leden van het bestuursorgaan, leidinggevend orgaan of toezichthoudend orgaan voor meer dan de helft door deze overheden of instellingen zijn aangewezen;
 4° de verenigingen bestaande uit één of meer overheden als bedoeld in de bepalingen onder 1°, 2° of 3°.
 
-TITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
+### TITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
 
 #### HOOFDSTUK I. - Algemene bepaling
 
@@ -266,7 +266,7 @@ In uitvoering van artikel 35.10 van de Verordening wordt een specifieke gegevens
 § 4. De artikelen 44 tot 50 van de Verordening zijn niet van toepassing op doorgiften van persoonsgegevens verricht voor journalistieke doeleinden en ten behoeve van academische, artistieke of literaire uitdrukkingsvormen aan derde landen of internationale organisaties in de mate dat het nodig is om het recht op bescherming van persoonsgegevens in overeenstemming te brengen met de vrijheid van meningsuiting en van informatie.
 § 5. Artikel 58 van de Verordening is niet van toepassing op verwerkingen van persoonsgegevens voor journalistieke doeleinden en ten behoeve van academische, artistieke of literaire uitdrukkingsvormen wanneer de toepassing ervan aanwijzingen zou verschaffen over de bronnen van informatie of een controlemaatregel voorafgaandelijk aan de publicatie van een artikel zou uitmaken.
 
-TITEL 2. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de bevoegde overheden met het oog op de voorkoming, het onderzoek, de opsporing en de vervolging van strafbare feiten of de tenuitvoerlegging van straffen, met inbegrip van de bescherming tegen en de voorkoming van gevaren voor de openbare veiligheid
+### TITEL 2. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de bevoegde overheden met het oog op de voorkoming, het onderzoek, de opsporing en de vervolging van strafbare feiten of de tenuitvoerlegging van straffen, met inbegrip van de bescherming tegen en de voorkoming van gevaren voor de openbare veiligheid
 
 #### HOOFDSTUK I. - Algemene bepalingen
 
@@ -758,7 +758,7 @@ Zij is ten aanzien van de bevoegde overheden bedoeld in artikel 26, § 1, 7°, a
 Bij de uitvoering van haar opdrachten en de uitoefening van haar bevoegdheden overeenkomstig deze wet en andere wetten treedt het Controleorgaan op de politionele informatie volledig onafhankelijk op.
 (1)<W 2019-05-02/32, art. 13, 002; Inwerkingtreding : 03-06-2019>
 
-TITEL 3. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door andere overheden dan die bedoeld in titels 1 en 2
+### TITEL 3. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door andere overheden dan die bedoeld in titels 1 en 2
 
 ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de inlichtingen- en veiligheidsdiensten
 
@@ -1749,7 +1749,7 @@ ONDERTITEL 6. - Bijzondere bepalingen
 § 3. De betrokkene heeft het recht te vragen om zijn onjuiste persoonsgegevens, verwerkt door de in paragraaf 1 vermelde overheden, te laten verbeteren of verwijderen.
 § 4. In afwijking van de bestuurlijke commissie bedoeld in paragraaf 1, 1°, die onder de bevoegdheid van het Vast Comité I valt, is de verwerking van persoonsgegevens door de overheden bedoeld in paragraaf 1 in het kader van hun opdrachten als toezichthoudende autoriteit niet onderworpen aan het toezicht van de Gegevensbeschermingsautoriteit bedoeld in de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit.
 
-TITEL 4. - Verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden bedoeld in artikel 89, §§ 2 en 3, van de Verordening
+### TITEL 4. - Verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden bedoeld in artikel 89, §§ 2 en 3, van de Verordening
 
 #### HOOFDSTUK I. - Algemene bepalingen
 
@@ -1896,7 +1896,7 @@ De verplichting bedoeld in artikel 207 is niet van toepassing indien :
 3° de gegevens nauw samenhangen met het openbare of historische karakter van de betrokkene; of
 4° de gegevens nauw samenhangen met het openbare of historische karakter van feiten waarbij de betrokkene betrokken was.
 
-TITEL 5. - Rechtsmiddelen en vertegenwoordiging van de betrokkenen
+### TITEL 5. - Rechtsmiddelen en vertegenwoordiging van de betrokkenen
 
 #### HOOFDSTUK I. - Vordering tot staking
 
@@ -1969,7 +1969,7 @@ Onverminderd artikel 210 houden de bepalingen van dit hoofdstuk geen beperking i
 4° actief zijn op het gebied van de bescherming van de rechten en vrijheden van de betrokkenen in het kader van de bescherming van de persoonsgegevens en dit sedert ten minste drie jaar.
 § 3. Het orgaan, de organisatie of vereniging zonder winstoogmerk bewijst door de voorlegging van haar activiteitenverslagen of van enig ander stuk, dat zijn activiteit minstens drie jaar effectief is geweest, dat het overeenstemt met haar maatschappelijk doel en dat deze activiteit betrekking heeft op de bescherming van persoonsgegevens.
 
-TITEL 6. - Sancties
+### TITEL 6. - Sancties
 
 #### HOOFDSTUK I. - Administratieve sancties
 
@@ -2043,7 +2043,7 @@ De bevoegde toezichthoudende autoriteit kan geen sanctie opleggen vóór het ver
 
 Alle bepalingen van boek I van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 85, worden toegepast op de misdrijven, omschreven bij deze wet of bij de uitvoeringsbesluiten ervan.
 
-TITEL 7. - Controleorgaan op de politionele informatie
+### TITEL 7. - Controleorgaan op de politionele informatie
 
 #### HOOFDSTUK I. - Samenstelling en statuut van de leden en van de dienst onderzoeken
 
@@ -2261,7 +2261,7 @@ Het Controleorgaan stelt jaarlijks een ontwerp van begroting op voor zijn werkin
 Het Controleorgaan voegt bij haar jaarlijks begrotingsvoorstel een strategisch plan.
 Het Controleorgaan hanteert voor zijn begroting en rekeningen een schema van de begroting en rekeningen dat vergelijkbaar is met het schema van de Kamer van volksvertegenwoordigers.
 
-TITEL 8. - Slotbepalingen
+### TITEL 8. - Slotbepalingen
 
 ## Art. 252
 

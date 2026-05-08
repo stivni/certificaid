@@ -45,7 +45,7 @@ d) elke auto opgevat en gebouwd voor het vervoer van zaken waarvan de maximaal t
 § 3. Indien het in de voormelde reglementering als lichte vrachtauto aangeduid voertuig, niet beantwoordt aan één van de in § 2 opgesomde voertuigtypes, wordt het in de zin van deze Titel II, met uitzondering van
 Hoofdstuk VI, afhankelijk van zijn constructie, beschouwd als een personenauto, auto voor dubbel gebruik of minibus.
 
-HOOFDSTUK II - Vrijstellingen
+#### HOOFDSTUK II - Vrijstellingen
 
 ## Art. 5
 
@@ -109,13 +109,13 @@ De Brusselse Hoofdstedelijke Regering kan de voorwaarden en de toepassingsmodali
 
 De vrijstelling van de voertuigen bedoeld in het eerste lid is niet van toepassing als de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten is.
 
-HOOFDSTUK III - Belastingschuldigen
+#### HOOFDSTUK III - Belastingschuldigen
 
 ## Art. 6
 
 Is de belasting schuldig al wie een of meer van de in de artikelen 3 en 4 genoemde voertuigen aanwendt tot eigen gebruik of ze exploiteert, hetzij hij er de eigendom of het persoonlijk bezit van heeft, hetzij hij door huur of andere overeenkomst bestendig of gewoonlijk daarover beschikt.
 
-HOOFDSTUK IV - Belastbare grondslag
+#### HOOFDSTUK IV - Belastbare grondslag
 
 ## Art. 7
 
@@ -138,7 +138,7 @@ Breuken van paardekracht worden naar boven of naar beneden afgerond, naargelang 
 
 Breuken van deciliter van de cilinderinhoud worden naar boven of naar beneden afgerond, naargelang zij al dan niet een halve deciliter overschrijden.
 
-HOOFDSTUK V - Bedrag der belasting of belastingvoet
+#### HOOFDSTUK V - Bedrag der belasting of belastingvoet
 
 ## Art. 9
 
@@ -295,7 +295,7 @@ De belasting vastgesteld volgens artikel 9, A en C, de minimumbelasting bedoeld 
 
 De aldus aangepaste belastingbedragen kunnen met maximum 0,11 EUR worden verlaagd ten einde een veelvoud van 12 te vormen.
 
-HOOFDSTUK VI - Aanvullende verkeersbelasting
+#### HOOFDSTUK VI - Aanvullende verkeersbelasting
 
 ## Art. 12
 
@@ -316,7 +316,7 @@ Gehele of gedeeltelijke vrijstelling van de aanvullende verkeersbelasting wordt 
 
 2° aan de internationale organisaties, aan hun vertegenwoordigers, ambtenaren en leden, in de mate dat zij vrijgesteld zijn van de verkeersbelasting op de autovoertuigen, ingevolge de voorrechten en immuniteiten hun toegestaan overeenkomstig het internationale recht.
 
-HOOFDSTUK VII - Verminderingen
+#### HOOFDSTUK VII - Verminderingen
 
 ## Art. 14
 
@@ -369,7 +369,7 @@ Nota:
 
 (…)
 
-HOOFDSTUK VIII - Ontstaan van de belastingschuld
+#### HOOFDSTUK VIII - Ontstaan van de belastingschuld
 
 ## Art. 21
 
@@ -416,7 +416,7 @@ De Brusselse Hoofdstedelijke Regering bepaalt de voorwaarden en de nadere regels
 
 De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en nietfiscale schuldvorderingen heeft geen uitwerking ten aanzien van de bepalingen van het Wetboek van de inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-HOOFDSTUK IX - (…)
+#### HOOFDSTUK IX - (…)
 
 (opschrift opgeheven bij art. 12 van de ordonnantie van 28.11.2019 (B.S., 10.12.2019 – Numac: 2019042688). Tekst van toepassing vanaf 01.01.2020. Haar bepalingen zijn van toepassing vanaf het belastingjaar 2020 (art. 18))
 
@@ -450,7 +450,7 @@ HOOFDSTUK IX - (…)
 
 (…)
 
-HOOFDSTUK X - Vestiging en invordering
+#### HOOFDSTUK X - Vestiging en invordering
 
 ## Art. 29
 
@@ -517,7 +517,7 @@ Nota:
 
 (…)
 
-HOOFDSTUK Xbis - Bijzondere bepalingen
+#### HOOFDSTUK Xbis - Bijzondere bepalingen
 
 ## Art. 36bis
 
@@ -574,7 +574,7 @@ Dit bedrag mag niet lager zijn dan het in artikel 10, § 2, vastgestelde minimum
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
+#### HOOFDSTUK XI - Uitvoerings- en controlemaatregelen
 
 ## Art. 37
 
@@ -599,7 +599,7 @@ Nota:
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-HOOFDSTUK XII - Sancties
+#### HOOFDSTUK XII - Sancties
 
 ## Art. 40
 
@@ -616,7 +616,7 @@ Nota:
 
 Wanneer de belasting niet is betaald kan de rechtbank de nummerplaat van het voertuig verbeurd verklaren en de teruggave ervan bevelen aan de Dienst van het Wegverkeer.
 
-HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
+#### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
 
 ## Art. 42
 
@@ -636,9 +636,9 @@ Wanneer de gemeenten echter deel uitmaakt van een agglomeratie van gemeenten, wo
 
 3° voertuigen waarvan de belasting verminderd werd overeenkomstig artikel 15.
 
-TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
+### TITEL III - BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN
 
-HOOFDSTUK I - Grondslagen en belastingvoeten
+#### HOOFDSTUK I - Grondslagen en belastingvoeten
 
 ## Art. 43
 
@@ -743,7 +743,7 @@ Wat betreft de exploitatie van pokerspelen die buiten de hiervoor genoemde geval
 
 (...)
 
-HOOFDSTUK II - Belastingschuldigen
+#### HOOFDSTUK II - Belastingschuldigen
 
 ## Art. 51
 
@@ -755,7 +755,7 @@ De belasting is verschuldigd door elke persoon die, zelfs toevallig, enige inzet
 
 Wanneer er, in private kringen of in andere lokalen, aan spel of aan weddenschappen wordt gedaan, derwijze dat niemand in het bijzonder ermede belast is de inzetten of inleggelden, hetzij voor eigen rekening, hetzij als tussenpersoon aan te nemen, rust de uitvoering van alle wettelijke voorschriften op de inrichters van de verrichtingen, worden als dusdanig beschouwd en zijn hoofdelijk de belasting verschuldigd, degenen die het lokaal of het materieel ter beschikking stellen van personen die aan spel of weddenschappen doen.
 
-HOOFDSTUK III - Aangifte
+#### HOOFDSTUK III - Aangifte
 
 ## Art. 53
 
@@ -763,7 +763,7 @@ HOOFDSTUK III - Aangifte
 
 De belastingschuldigen moeten, alvorens hun verrichtingen te beginnen, uiterlijk de voorlaatste dag een aangifte indienen bij de ontvanger van het gebied. Treden zij bestendig op, dan mag die aangifte geldig worden gemaakt tot aan de herroeping ervan.
 
-HOOFDSTUK IV - Controlemaatregelen
+#### HOOFDSTUK IV - Controlemaatregelen
 
 ## Art. 54
 
@@ -799,7 +799,7 @@ De inrichter en, in voorkomend geval, de bewoner van het gebouw, waar spelen of 
 
 De Koning is gemachtigd om andere controlemaatregelen te nemen.
 
-HOOFDSTUK V - Betaling van de belasting
+#### HOOFDSTUK V - Betaling van de belasting
 
 ## Art. 60
 
@@ -823,7 +823,7 @@ Zij is echter eisbaar op het tijdstip zelf waarop de ontvangsten worden gedaan, 
 
 (…)
 
-HOOFDSTUK VI - (…)
+#### HOOFDSTUK VI - (…)
 
 (titel opgeheven bij art. 67 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
@@ -833,7 +833,7 @@ HOOFDSTUK VI - (…)
 
 (…)
 
-HOOFDSTUK VII - Afwijkende bepalingen
+#### HOOFDSTUK VII - Afwijkende bepalingen
 
 ## Art. 64
 
@@ -855,7 +855,7 @@ In afwijking van de artikelen 53 tot 56 en 60, § 1, mag die Minister van Financ
 
 3° voor de categorieën van spelen en weddenschappen en onder de door hem bepaalde voorwaarden, de verplichting opleggen de belasting, zelfs vooraf, te betalen onder de vorm van een forfaitaire storting waarvan het bedrag vast te stellen is rekening gehouden met de aard en de wijze van inrichting der spelen en weddenschappen.
 
-HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
+#### HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
 
 (vervangen bij art. 48 van de wet van 10.01.2010 (B.S., 01.02.2010 – Numac: 2010009070). Tekst van toepassing vanaf 01.01.2011 (art. 61, lid 1). De Koning kan voor iedere bepaling van deze wet een datum van inwerkingtreding bepalen (art. 61, lid 2))
 
@@ -877,7 +877,7 @@ HOOFDSTUK VIII - Bijzondere bepalingen in verband met de paardenwedrennen
 
 (…)
 
-HOOFDSTUK IX - Sancties
+#### HOOFDSTUK IX - Sancties
 
 (vervangen bij art. 7, § 1 van de wet van 10.02.1981 (B.S., 14.02.1981 – Numac: 1981000212). Tekst van toepassing vanaf de dag van de bekendmaking in het B.S. van de herstelwet inzake inkomensmatiging, zijnde 14.02.1981 (art. 22))
 
@@ -929,7 +929,7 @@ De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1969 en 29 juni
 
 (…)
 
-HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
+#### HOOFDSTUK X - Bevoegdheid van de provincies en de gemeenten
 
 ## Art. 74
 
@@ -945,9 +945,9 @@ De provincies alsmede de gemeenten mogen nochtans een belasting heffen op de age
 
 (…)
 
-TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
+### TITEL IV - BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN
 
-HOOFDSTUK I - Belastbare toestellen
+#### HOOFDSTUK I - Belastbare toestellen
 
 ## Art. 76
 
@@ -968,13 +968,13 @@ Vallen echter niet onder toepassing van deze titel, de toestellen waarvan het be
 
 Wat het Brussels Hoofdstedelijk gewest betreft, vallen toestellen die samen uitgebaat worden door de inrichter van casinospelen, als bedoeld in artikel 45, niet onder de toepassing van deze titel.
 
-HOOFDSTUK II - Belastingschuldigen
+#### HOOFDSTUK II - Belastingschuldigen
 
 ## Art. 78
 
 De belasting is verschuldigd door de eigenaar van het toestel. Nochtans, in geval van niet-betaling, wordt de persoon die als uitbater van lokalen of andere plaatsen bedoeld bij artikel 76, toelaat hierin het toestel op te stellen, als belastingschuldige beschouwd.
 
-HOOFDSTUK III - Bedrag van de belasting
+#### HOOFDSTUK III - Bedrag van de belasting
 
 ## Art. 79
 
@@ -1065,7 +1065,7 @@ De belasting wordt verminderd tot:
 
 2° 1/2 van haar bedrag voor het hele jaar voor de toestellen uitsluitend opgesteld in een seizoenbedrijf. Wordt als dusdanig aangezien, elk bedrijf met uitsluiting van de drankgelegenheden, dat niet meer dan zes maanden per jaar voor het publiek toegankelijk is. Dat tijdperk kan met dertig dagen worden verlengd op voorwaarde dat er vooraf aangifte wordt van gedaan bij de bevoegde ambtenaar van de administratie belast met de vestiging van de met de inkomstenbelastingen gelijkgestelde belastingen in wiens gebied die toestellen staan opgesteld.
 
-HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en inning
+#### HOOFDSTUK IV - Eisbaarheid van de belasting, aangifte en inning
 
 (titel vervangen bij art. 69 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000). Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))
 
@@ -1124,7 +1124,7 @@ Hij mag nochtans weigeren dit kenteken af te leveren:
 
 § 3. De administrateur-generaal van de administratie belast met de vestiging van de met de inkomstenbelastingen gelijkgestelde belastingen bepaalt het model van het borderel en van het fiscaal kenteken.
 
-HOOFDSTUK V - Controlemaatregelen
+#### HOOFDSTUK V - Controlemaatregelen
 
 ## Art. 85
 
@@ -1150,7 +1150,7 @@ De personen, houders van lokalen zoals bedoeld in artikel 76, en, in voorkomend 
 
 De Minister van Financiën schrijft alle nodig geachte controlemaatregelen voor.
 
-HOOFDSTUK VI - Sancties en strafbepalingen
+#### HOOFDSTUK VI - Sancties en strafbepalingen
 
 ## Art. 89
 
@@ -1170,7 +1170,7 @@ De belasting mag gevestigd worden binnen een termijn van drie jaar, die aanvangt
 
 (…)
 
-HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
+#### HOOFDSTUK VII - Automatische kansspeltoestellen waarvan de exploitatie verboden is
 
 ## Art. 91
 
@@ -1189,7 +1189,7 @@ De eigenaar alsmede de persoon die toestemde in de opstelling van het toestel zi
 
 De ambtshalve gevestigde belasting is onmiddellijk te betalen; Zij kan worden gevestigd in een termijn van drie jaar vanaf 1 januari van het aanslagjaar waarvoor zij verschuldigd is.
 
-Hoofdstuk VIII - Bevoegdheid van de provincies en gemeenten
+#### Hoofdstuk VIII - Bevoegdheid van de provincies en gemeenten
 
 (opschrift vernummerd bij art. 9 van de wet van 24.12.1976 (B.S., 28.12.1976 – Numac: 1976122405). Tekst van toepassing vanaf aanslagjaar 1977 (art. 14))
 
@@ -1199,9 +1199,9 @@ Hoofdstuk VIII - Bevoegdheid van de provincies en gemeenten
 
 De provincies en de gemeenten mogen onder welke vorm ook geen belastingen heffen op de automatische ontspanningstoestellen belastbaar krachtens deze titel.
 
-TITEL V - BELASTING OP DE INVERKEERSTELLING
+### TITEL V - BELASTING OP DE INVERKEERSTELLING
 
-HOOFDSTUK I - Belastbare voertuigen
+#### HOOFDSTUK I - Belastbare voertuigen
 
 ## Art. 94
 
@@ -1226,7 +1226,7 @@ Voor zover er door de bepalingen van deze titel niet wordt afgeweken, zijn de ar
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-HOOFDSTUK II - Vrijstellingen
+#### HOOFDSTUK II - Vrijstellingen
 
 ## Art. 96
 
@@ -1254,7 +1254,7 @@ De vrijstelling van de voertuigen bedoeld in het eerste lid, 4° is niet van toe
 
 De Brusselse Hoofdstedelijke Regering kan de voorwaarden en de regels voor de toepassing van dit artikel vaststellen.
 
-HOOFDSTUK III - Belastbare grondslag
+#### HOOFDSTUK III - Belastbare grondslag
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
@@ -1264,7 +1264,7 @@ HOOFDSTUK III - Belastbare grondslag
 
 De belasting is, voor de wegvoertuigen, verschuldigd op grond van het vermogen van de motor uitgedrukt hetzij in fiscale paardenkracht, hetzij in kilowatt.
 
-HOOFDSTUK IV - Bedrag der belasting
+#### HOOFDSTUK IV - Bedrag der belasting
 
 ## Art. 98
 
@@ -1326,7 +1326,7 @@ De Koning zal bij de Wetgevende Kamers, onmiddellijk indien ze in zitting zijn, 
 
 Tenzij de belastingplichtige een vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstgevend doel met leasingactiviteiten is, zijn de bedragen van de belasting, vermeld in artikel 98, § 1, § 1bis, derde lid, en § 2, tweede, derde en vijfde lid, gekoppeld aan de schommelingen van het algemene indexcijfer der consumptieprijzen van het Rijk. De aanpassing van de belastingbedragen wordt uitgevoerd op 1 juli van elk jaar op grond van de schommelingen van het algemeen indexcijfer der consumptieprijzen vastgesteld tussen de maand mei van het jaar 2019 en de maand mei van het lopende jaar.
 
-HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
+#### HOOFDSTUK V - Ontstaan van de belastingschuld en inningsregels
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 1 jun 1992 (art. 3))
 
@@ -1403,7 +1403,7 @@ De Brusselse Hoofdstedelijke Regering regelt de uitvoering van dit artikel.
 Nota:
 (1) De wet van 13 april 2019 tot invoering van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen heeft geen uitwerking ten aanzien van de bepalingen van het Wetboek van de inkomstenbelastingen 1992 en het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, zoals ze van toepassing zijn op de belastingen bedoeld in artikel 3, eerste lid, 5°, 10° en 11° van de Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten (art. 101).
 
-HOOFDSTUK VI - Controlemaatregelen
+#### HOOFDSTUK VI - Controlemaatregelen
 
 ## Art. 106
 
@@ -1414,7 +1414,7 @@ HOOFDSTUK VI - Controlemaatregelen
 Nota:
 (1) Uitsluitend van toepassing op de verkeersbelasting op de autovoertuigen en de belasting op de inverkeerstelling waarvan het belastbaar feit plaatsvindt vanaf deze datum (art. 26, lid 2).
 
-HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
+#### HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, de agglomeraties en de gemeenten
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst van toepassing vanaf 01.06.1992 (art. 3))
 
@@ -1424,7 +1424,7 @@ HOOFDSTUK VII - Bevoegdheid van de gemeenschappen, de gewesten, de provincies, d
 
 De Gemeenschappen, de Gewesten, de provincies, de agglomeraties en de gemeenten zijn niet gerechtigd de opcentiemen op de belasting op de inverkeerstelling te heffen.
 
-TITEL VI - (…)
+### TITEL VI - (…)
 
 (titel opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183).
 Tekst van toepassing vanaf aanslagjaar 2008 (art. 14))
@@ -1460,13 +1460,13 @@ De accijnscompenserende belasting wordt helemaal afgeschaft vanaf aanslagjaar 20
 
 (…)
 
-TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
+### TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL
 VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS
 
 (opschrift in de Franse tekst gewijzigd bij art. 19 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626).
 Tekst van toepassing vanaf 01.01.2018 (art. 21))
 
-HOOFDSTUK I - Belastbaar feit
+#### HOOFDSTUK I - Belastbaar feit
 
 ## Art. 112
 
@@ -1476,7 +1476,7 @@ Er wordt een belasting vastgesteld ten laste van de werknemers op de deelname in
 
 Er wordt een aanvullende belasting vastgesteld ten laste van de werknemers in geval van niet-naleving van de voorwaarde van onbeschikbaarheid van de deelname bepaald in de artikelen 11 en 19 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers of van het deelbewijs vermeld in artikel 15, § 1, van dezelfde wet.
 
-HOOFDSTUK II - Belastbare grondslag
+#### HOOFDSTUK II - Belastbare grondslag
 
 ## Art. 113
 
@@ -1505,7 +1505,7 @@ HOOFDSTUK II - Belastbare grondslag
 
 De belastbare grondslag van de aanvullende belasting komt overeen met die welke werd vastgesteld met toepassing van artikel 113, § 1, 2°, als het een participatie in het kapitaal betreft of met toepassing van artikel 113, § 1, 3°, als het een winstpremie voor de werknemers is in het kader van een investeringsspaarplan en wordt beperkt in evenredigheid met de beschikbaar geworden aandelen of deelbewijzen met aftrek, in de twee gevallen, van de belasting bedoeld in artikel 112, eerste lid.
 
-HOOFDSTUK III - Opeisbaarheid van de belasting
+#### HOOFDSTUK III - Opeisbaarheid van de belasting
 
 ## Art. 115
 
@@ -1523,7 +1523,7 @@ en 19, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in
 
 De bijkomende belasting is verschuldigd op het moment dat de onbeschikbaarheid van de participatie, bedoeld in de artikelen 11 en 19, § 1, of van de deelbewijzen, bedoeld in artikel 15, § 1, van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers, ophoudt behalve in de gevallen bedoeld in de artikelen 11, § 3, 15, § 2 of 19, § 3, van genoemde wet.
 
-HOOFDSTUK IV - Belastingtarieven
+#### HOOFDSTUK IV - Belastingtarieven
 
 ## Art. 117
 
@@ -1540,7 +1540,7 @@ Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
 § 2. De aanslagvoet van de aanvullende belasting wordt vastgesteld op 23,29 %.
 
-HOOFDSTUK V - Schuldenaars van de belasting
+#### HOOFDSTUK V - Schuldenaars van de belasting
 
 ## Art. 118
 
@@ -1558,7 +1558,7 @@ De inhouding van de aanvullende belasting wordt uitgevoerd ofwel door verkoop do
 
 3° in alle andere gevallen, de werkgever bedoeld in artikel 2 van de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.
 
-HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
+#### HOOFDSTUK VI - Stortingswijze, vestiging en inning van de belasting
 
 (titel vervangen in de Franse tekst bij art. 71 van de wet van 13.04.2019 (B.S., 30.04.2019 – ed. 1 – Numac: 2019041000).
 Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1). De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen (art. 139, lid 2))

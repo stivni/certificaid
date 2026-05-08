@@ -64,7 +64,7 @@ HOOFDSTUK IV: Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
 HOOFDSTUK V: Algemene bepalingen.
 
-    HOOFDSTUK I
+#### HOOFDSTUK I
     Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
 ## Art. 1
@@ -75,7 +75,7 @@ De in artikel 39, § 1, van het Wetboek bedoelde vrijstelling wordt verleend voo
 voorwaarden zijn vervuld, de formaliteiten worden nagekomen en de bewijzen worden geleverd
 die in dit hoofdstuk zijn bepaald.
 
-    AFDELING 1
+##### AFDELING 1
     Uitvoer van goederen door of voor rekening van de verkoper.
     Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
 
@@ -120,7 +120,7 @@ aanvraag om inschrijving, de verkoper daarvan kennis te geven aan de Dienst van 
 gevestigd bij de Dienst voor Inschrijving van de Voertuigen (DIV) op de door of vanwege de
 Minister van Financiën voorgeschreven wijze.
 
-    AFDELING 2
+##### AFDELING 2
   Goederen afgehaald door de niet in België gevestigde koper of voor
     zijn rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van
     het Wetboek.
@@ -159,7 +159,7 @@ stuk voorgeschreven door artikel 5, § 2.
 De verkoper wordt pas van zijn verantwoordelijkheid ontslagen indien hij kan bewijzen dat de
 goederen onder de gestelde voorwaarden werden uitgevoerd.
 
-    AFDELING 3
+##### AFDELING 3
 Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek
 
 ## Art. 7
@@ -180,7 +180,7 @@ afgegeven, de hoeveelheid en de gewone benaming van de uitgevoerde goederen niet
 vermeld, moet die kopiefactuur met deze gegevens worden aangevuld, of moet eveneens een
 verzendingsstuk, waarop die gegevens voorkomen, worden afgegeven.
 
-    AFDELING 4
+##### AFDELING 4
     Goederen uit te voeren in de persoonlijke bagage van de reizigers.
     Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
@@ -223,7 +223,7 @@ Onder woonplaats of gebruikelijke verblijfplaats van de reiziger wordt verstaan 
 zodanig op zijn reispas, op zijn identiteitskaart of, bij ontstentenis daarvan, op een als
 identiteitsbewijs erkend stuk is vermeld.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
 ## Art. 10
@@ -280,7 +280,7 @@ KB 25.02.1996))
 
     (opgeheven)
 
-    HOOFDSTUK III
+#### HOOFDSTUK III
     Algemene bepaling betreffende de hoofdstukken I en II.
 
 ## Art. 15
@@ -296,7 +296,7 @@ belasting opschorten.
 Deze opschorting kan worden toegestaan voor een termijn van ten hoogste één jaar; in
 uitzonderlijke omstandigheden kan die termijn evenwel worden verlengd.
 
-    HOOFDSTUK IV
+#### HOOFDSTUK IV
     Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
 ## Art. 16
@@ -311,7 +311,7 @@ KB 25.02.1996))
 
     (opgeheven)
 
-    HOOFDSTUK V
+#### HOOFDSTUK V
     Algemene bepalingen.
 
 ## Art. 18

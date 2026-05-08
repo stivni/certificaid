@@ -44,7 +44,7 @@ Laatst gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 
     (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met ingang van
     16.05.2014. (Art. 16, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-    Afdeling 1
+##### Afdeling 1
     Vervreemdingen van goederen bedoeld
     in artikel 1, § 9, van het Wetboek.
     (Het opschrift van afdeling 1 van hoofdstuk 1, van KB nr. 15, werd vervangen met
@@ -219,7 +219,7 @@ over een maatstaf die het bij de schatting uitgewezen tekort bereikt of overtref
     De invordering geschiedt op basis van een innings- en invorderingsregister op de wijze bepaald bij
 artikel 85 van het Wetboek.
 
-    Afdeling 2
+##### Afdeling 2
     Werk in onroerende staat.
 
 ## Art. 14
@@ -272,7 +272,7 @@ tijdstip.
 in deze afdeling geregelde vordering tot schatting met dien verstande dat in die artikelen de woorden “ de
 ontvanger “ worden vervangen door “ het hoofd van het BTW-controlekantoor “.
 
-    HOOFDSTUK II
+#### HOOFDSTUK II
     TEGEN DE ADMINISTRATIE BELAST MET DE BELASTING OVER DE
     TOEGEVOEGDE WAARDE INGESTELDE VORDERING TOT SCHATTING.
     (Het opschrift van hoofdstuk 2, van KB nr. 15, werd gewijzigd met ingang van

@@ -657,16 +657,16 @@ T. A - Goederen 6 pct. www.fisconetplus.be KB20 pg. II/6
     De te storten belasting wordt betaald binnen een maand te rekenen vanaf de datum van het
     betalingsbericht dat de dienst aangewezen door de minister van Financiën of zijn gemachtigde aan
     de invalide of gehandicapte stuurt. De betaling wordt uitgevoerd overeenkomstig het bepaalde in
-    hoofdstuk 1 van het koninklijk besluit van 17 februari 2019 tot uitvoering van diverse wetten en tot
+#### hoofdstuk 1 van het koninklijk besluit van 17 februari 2019 tot uitvoering van diverse wetten en tot
     aanpassing van diverse koninklijke besluiten met het oog op onder meer de harmonisatie van de
     betalingsmodaliteiten binnen de administratie van de Federale Overheidsdienst Financiën belast met
     de inning en de invordering van fiscale en niet-fiscale schuldvorderingen.
 
-    Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
+##### Afdeling II - Onderdelen, uitrustingsstukken en toebehoren van voertuigen voor invaliden.
 
     Het verlaagd tarief van 6 pct., is van toepassing op onderdelen, uitrustingsstukken en toebehoren die
     ingevoerd, intracommunautair verworven of hier te lande verkregen worden door in de eerste
-    afdeling hierboven aangewezen personen ten behoeve van de aldaar bedoelde automobielen.
+##### afdeling hierboven aangewezen personen ten behoeve van de aldaar bedoelde automobielen.
     Het voordeel van het verlaagd tarief van 6 pct. is afhankelijk van de uitreiking van een factuur aan
     de koper en van de voorlegging door deze laatste, aan de douane of aan de verkoper, van een attest
     opgesteld in de vorm bepaald door of vanwege de Minister van Financiën, dat het voertuig

@@ -59,7 +59,7 @@ geheten.
 § 2. De belastingen worden geheven door
 middel van voorheffingen, binnen de grenzen en
 onder de voorwaarden als bepaald in titel VI,
-hoofdstuk I.
+#### hoofdstuk I.
 
 ## Art. 2
 
@@ -789,7 +789,7 @@ g) Verrichtingen gelijkgesteld met een
 splitsing:
 
 1) De rechtshandeling waarbij een
-deel van de activa en passiva
+## deel van de activa en passiva
 van het vermogen van een
 vennootschap, zonder
 ontbinding, overgaat op één of
@@ -825,7 +825,7 @@ de fractiewaarde bepaald
 volgens de regels sub a);
 
 2) De rechtshandeling waarbij een
-deel van de activa en passiva
+## deel van de activa en passiva
 van het vermogen van een
 vennootschap, zonder
 ontbinding, overgaat op een
@@ -836,7 +836,7 @@ bezit.
 
 3) de grensoverschrijdende
 rechtshandeling waarbij een
-deel van de activa en passiva
+## deel van de activa en passiva
 van het vermogen van een
 vennootschap zonder
 ontbinding overgaat op één of
@@ -1557,7 +1557,7 @@ vennootschap of een Belgische inrichting
 enerzijds en een buitenlandse onderneming
 of een vestiging daarvan anderzijds wanneer
 het geassocieerde ondernemingen zijn, die
-deel uitmaken van dezelfde onderneming of
+## deel uitmaken van dezelfde onderneming of
 die handelen in het kader van een
 gestructureerde regeling.
 
@@ -1600,7 +1600,7 @@ buitenlandse onderneming; of
 vennootschap, of de Belgische
 inrichting, en de buitenlandse
 onderneming, of de vestiging daarvan,
-deel uitmaken van dezelfde
+## deel uitmaken van dezelfde
 geconsolideerde groep inzake de
 financiële boekhouding; of
 
@@ -4856,7 +4856,7 @@ opzeggingsvergoedingen, de vergoedingen tot
 herstel van een tijdelijke derving van bezoldigingen
 en de bij toepassing van artikel 38 vrijgestelde
 bezoldigingen en met uitsluiting van de in
-paragraaf 5 en 6 bedoelde terugbetalingen.
+###### paragraaf 5 en 6 bedoelde terugbetalingen.
 
 Voor het jaar van aankomst in België, alsook
 voor het jaar van vertrek uit België of het jaar
@@ -4907,7 +4907,7 @@ dan niet 5 bereikt.
 
 § 4. Wanneer in de loop van de in paragraaf
 7 bedoelde periode niet langer voldaan is aan de in
-paragraaf 2 of paragraaf 3, eerste lid, 2°, bedoelde
+###### paragraaf 2 of paragraaf 3, eerste lid, 2°, bedoelde
 voorwaarden, wordt de toepassing van dit stelsel
 beëindigd.
 
@@ -5014,7 +5014,7 @@ overschrijdt, wordt de toepassing van de paragrafen
 5 en 6 verlengd met 3 jaar voor zover dat:
 
 1° de werkgever of de vennootschap aan de in
-paragraaf 2 vermelde voorwaarden blijft
+###### paragraaf 2 vermelde voorwaarden blijft
 voldoen;
 
 en dat
@@ -5099,7 +5099,7 @@ indiensttreding in België.
 
 § 9. In het geval van een wijziging van
 werkgever of vennootschap in de loop van de in
-paragraaf 7 bedoelde periode, kan een nieuwe
+###### paragraaf 7 bedoelde periode, kan een nieuwe
 aanvraag voor de toepassing van dit stelsel worden
 ingediend door de nieuwe werkgever of de nieuwe
 vennootschap, zoals omschreven in paragraaf 8.
@@ -5109,7 +5109,7 @@ toegekend aan de ingekomen belastingplichtige
 voor zover dat:
 
 1° de werkgever of de vennootschap aan de in
-paragraaf 2 vermelde voorwaarden blijft
+###### paragraaf 2 vermelde voorwaarden blijft
 voldoen;
 
 en dat
@@ -5246,7 +5246,7 @@ procedure.
 
 § 4. Wanneer in de loop van de in paragraaf
 7 bedoelde periode niet langer voldaan is aan de in
-paragraaf 2 bedoelde voorwaarden, wordt de
+###### paragraaf 2 bedoelde voorwaarden, wordt de
 toepassing van dit stelsel beëindigd.
 
 § 5. Het ten laste nemen, bovenop de
@@ -5274,7 +5274,7 @@ vergoedingen tot herstel van een tijdelijke derving
 van bezoldigingen en de bij toepassing van artikel
 38 vrijgestelde bezoldigingen en met uitsluiting van
 de terugbetalingen van de in deze paragraaf en in
-paragraaf 6 bedoelde terugbetalingen.
+###### paragraaf 6 bedoelde terugbetalingen.
 
 …
 
@@ -5360,7 +5360,7 @@ Indien het verblijf van de onderzoeker de in
 het eerste lid vermelde duur overschrijdt, wordt de
 toepassing van de paragrafen 5 en 6 met 3 jaar
 verlengd, voor zover voldaan blijft aan de bij
-paragraaf 2 bepaalde voorwaarden met betrekking
+###### paragraaf 2 bepaalde voorwaarden met betrekking
 tot de werkgever.
 
 § 8. Om te kunnen genieten van het in dit
@@ -6272,7 +6272,7 @@ het kader van die prestaties, voor zover de in
 24° ten belope van een maximumbedrag van
 2756 euro per kalenderjaar, de nietrecurrente resultaatsgebonden voordelen
 betaald of toegekend met toepassing van
-hoofdstuk II van de wet van 21 december
+#### hoofdstuk II van de wet van 21 december
 2007 betreffende de uitvoering van het
 interprofessioneel akkoord 2007-2008, en
 van Titel XIII, Enig Hoofdstuk "Invoering
@@ -6728,7 +6728,7 @@ aard of van enig andere vergoeding :
 1° de tussenkomst van de werkgever of de
 onderneming in de elektronische
 maaltijdcheques die beantwoorden aan de in
-paragraaf 2 bepaalde voorwaarden;
+###### paragraaf 2 bepaalde voorwaarden;
 
 2° de tussenkomst van de werkgever of de
 onderneming in de sport/cultuurcheques die
@@ -8587,7 +8587,7 @@ gevestigd zou zijn.
 § 3. Paragraaf 1 is niet van toepassing indien
 de belastingplichtige door elk bewijsmiddel, met
 uitzondering van een eed, aantoont dat de betaling
-deel uitmaakt van een authentieke verrichting in die
+## deel uitmaakt van een authentieke verrichting in die
 zin dat ze is verricht om geldige zakelijke redenen
 die de economische realiteit weerspiegelen.
 
@@ -9973,7 +9973,7 @@ tewerkgesteld voor :
 uitvoer ;
 
 4° een betrekking van diensthoofd van de
-afdeling Integrale kwaliteitszorg.
+##### afdeling Integrale kwaliteitszorg.
 
 § 2. Winst wordt eveneens vrijgesteld tot een
 bedrag van 10.000 EUR in geval van tewerkstelling
@@ -10235,7 +10235,7 @@ met de beroepskosten die op die inkomsten
 betrekking hebben.
 
 § 2. De belastingplichtige vraagt de in
-paragraaf 1 bedoelde vrijstelling aan in een
+###### paragraaf 1 bedoelde vrijstelling aan in een
 formulier waarvan de vorm en de inhoud evenals de
 termijn waarbinnen het moet worden ingediend
 door de Koning worden bepaald. De aanvraag
@@ -10262,7 +10262,7 @@ moeilijkheden.
 ## Art. 68
 
 Winst en baten worden vrijgesteld tot een
-deel van de aanschaffings- of beleggingswaarde
+## deel van de aanschaffings- of beleggingswaarde
 van de materiële vaste activa die in nieuwe staat
 zijn verkregen of tot stand gebracht en van de
 nieuwe immateriële vaste activa, indien die vaste
@@ -10859,7 +10859,7 @@ vastgesteld, te beginnen met het oudste. Het
 gedeelte van deze beroepsverliezen dat niet in
 aftrek kan worden gebracht van deze
 beroepsinkomsten, is aftrekbaar overeenkomstig
-paragraaf 1.
+###### paragraaf 1.
 
 Het gedeelte van de beroepsverliezen dat toe
 te schrijven is aan de in het eerste lid omschreven
@@ -13763,7 +13763,7 @@ belasting met betrekking tot de inkomsten van het
 belastbaar tijdperk van de vervreemding,
 vermeerderd met een bedrag dat gelijk is aan
 zoveel maal één zestigste van de overeenkomstig
-paragraaf 1 verkregen belastingvermindering, als er
+###### paragraaf 1 verkregen belastingvermindering, als er
 volle maanden overblijven tot het einde van de
 periode van 60 maanden.
 
@@ -14881,7 +14881,7 @@ van het Wetboek van vennootschappen en
 verenigingen.
 
 De bedragen in euro vermeld in deze
-paragraaf worden niet geïndexeerd overeenkomstig
+###### paragraaf worden niet geïndexeerd overeenkomstig
 artikel 178.
 
 § 4. De betalingen voor in § 1, eerste lid, a,
@@ -15331,7 +15331,7 @@ vergoedingen en eventuele andere verbonden
 kosten.
 
 De in euro vermelde bedragen in deze
-paragraaf worden niet geïndexeerd overeenkomstig
+###### paragraaf worden niet geïndexeerd overeenkomstig
 artikel 178.
 
 § 3. De betalingen voor in § 1, eerste lid, a,
@@ -17206,7 +17206,7 @@ bij artikel 400 van de programmawet van
 tweede lid.
 
 § 2. Voor de interesten die voor de in
-paragraaf 1 bedoelde hypothecaire leningen zijn
+###### paragraaf 1 bedoelde hypothecaire leningen zijn
 betaald op het ogenblik dat de woning waarvoor de
 leningen werden aangegaan de eigen woning is van
 de belastingplichtige, wordt een
@@ -17780,7 +17780,7 @@ ouder zijn en een anciënniteitstoeslag bevatten, niet
 toegepast. Wanneer het belastbare inkomen
 begrepen is tussen 14.900 EUR en 18.600 EUR,
 worden die verminderingen slechts verleend tot een
-deel dat wordt bepaald naar de verhouding tussen,
+## deel dat wordt bepaald naar de verhouding tussen,
 eensdeels, het verschil tussen 18.600 EUR en het
 belastbare inkomen en, anderdeels, het verschil
 tussen 18.600 EUR en 14.900 EUR.
@@ -17820,7 +17820,7 @@ tussen 29.800 EUR en 14.900 EUR.
 ## Art. 153
 
 Geen vermindering ingevolge deze
-onderafdeling mag hoger zijn dan het gedeelte van
+###### onderafdeling mag hoger zijn dan het gedeelte van
 de overeenkomstig de artikelen 130 tot 145
 bepaalde belasting dat betrekking heeft op de
 inkomsten waarvoor zij is verleend.
@@ -18391,7 +18391,7 @@ ontheven, wordt de totale belasting van het
 belastbare tijdperk waarvoor de in paragraaf 2
 omschreven alternatieve berekening
 overeenkomstig het tweede lid van diezelfde
-paragraaf voor het laatst wordt gemaakt,
+###### paragraaf voor het laatst wordt gemaakt,
 vermeerderd met het overeenkomstig paragraaf 3
 bepaalde bedrag.
 
@@ -20156,7 +20156,7 @@ intergemeentelijke samenwerking;
 d) projectverenigingen beheerst door het
 decreet van het Waalse Gewest van 19 juli
 2006 tot wijziging van Boek V van het eerste
-deel van het Wetboek van de plaatselijke
+## deel van het Wetboek van de plaatselijke
 democratie en de decentralisatie en
 betreffende de wijzen van samenwerking
 tussen gemeenten;
@@ -21298,7 +21298,7 @@ vermindering van de Belgische belasting op de
 winsten die overeenkomstig die overeenkomst in
 de andere Staat mogen worden belast, wordt deze
 overeenkomst voor de toepassing van deze
-paragraaf beschouwd als een overeenkomst die de
+###### paragraaf beschouwd als een overeenkomst die de
 winsten in België vrijstelt van belasting.
 
 § 4. Indien de vennootschap in toepassing
@@ -21444,7 +21444,7 @@ dat wordt vastgesteld in het belastbare tijdperk
 waarin de in artikel 194septies/1, § 1, bedoelde
 vrijgestelde reserve wordt teruggenomen niet lager
 zijn dan de som van de in uitvoering van deze
-paragraaf vastgestelde verhoging en de
+###### paragraaf vastgestelde verhoging en de
 vrijgestelde reserve die in toepassing van artikel
 194septies/1, § 4, wordt teruggenomen.
 
@@ -21509,7 +21509,7 @@ van de buitenlandse inrichting van de
 belastingplichtige die in toepassing van paragraaf 3
 als gecontroleerde buitenlandse vennootschap of
 CFC wordt aangemerkt en niet overeenkomstig
-paragraaf 4 van de toepassing van dit artikel is
+###### paragraaf 4 van de toepassing van dit artikel is
 vrijgesteld voor zover die niet-uitgekeerde winst
 door de CFC werd behaald in de loop van een
 belastbaar tijdperk dat werd afgesloten in de loop
@@ -21519,7 +21519,7 @@ belastingplichtige.
 § 2. De winst van een buitenlandse
 vennootschap of buitenlandse inrichting van die
 buitenlandse vennootschap die in toepassing van
-paragraaf 3 als CFC wordt aangemerkt, die niet
+###### paragraaf 3 als CFC wordt aangemerkt, die niet
 overeenkomstig paragraaf 4 van de toepassing van
 dit artikel is vrijgesteld, en die in hoofde van de
 belastingplichtige wordt belast, wordt op de hierna
@@ -21615,7 +21615,7 @@ kapitaal van de buitenlandse vennootschap
 die in toepassing van paragraaf 3 als CFC
 wordt aangemerkt of waarvan de
 buitenlandse inrichting die in toepassing van
-paragraaf 3 als CFC wordt aangemerkt;
+###### paragraaf 3 als CFC wordt aangemerkt;
 
 - het percentage van de winst van de
 buitenlandse vennootschap die in toepassing
@@ -21627,7 +21627,7 @@ geval van uitkering rechtstreeks recht heeft.
 
 De winst van een buitenlandse inrichting van
 de belastingplichtige die in toepassing van
-paragraaf 3 als CFC wordt aangemerkt, die niet
+###### paragraaf 3 als CFC wordt aangemerkt, die niet
 overeenkomstig paragraaf 4 van de toepassing van
 dit artikel is vrijgesteld, en die in hoofde van de
 belastingplichtige wordt belast, wordt op de hierna
@@ -21707,7 +21707,7 @@ vennootschapsbelasting van een buitenlandse
 vennootschap, die verschuldigd zou zijn geweest
 indien deze buitenlandse vennootschap in België
 was gevestigd, geen rekening gehouden met het
-deel van de winst van deze buitenlandse
+## deel van de winst van deze buitenlandse
 vennootschap dat werd behaald door middel van
 één of meerdere buitenlandse inrichtingen van deze
 buitenlandse vennootschap waarvan de winst wordt
@@ -22340,7 +22340,7 @@ vennootschap.
 § 2. Wanneer met betrekking tot
 verrichtingen als vermeld in artikel 46, § 1, eerste
 lid, 2°, de herbelegging als bedoeld in artikel 47
-deel uitmaakt van de inbreng of, in voorkomend
+## deel uitmaakt van de inbreng of, in voorkomend
 geval, wanneer de inbrengverkrijgende vennootschap zich onherroepelijk verbonden heeft die
 herbelegging te verwezenlijken, wordt het op het
 ogenblik van de verrichting voorlopig niet belaste
@@ -22976,7 +22976,7 @@ die rechtstreeks verbonden zijn met de productie en
 de exploitatie en die in België werden gedaan.
 
 10° tax shelter-attest: een fiscaal attest, of een
-deel van dit fiscaal attest, dat op verzoek van
+## deel van dit fiscaal attest, dat op verzoek van
 de in aanmerking komende productievennootschap wordt afgeleverd door de
 Federale Overheidsdienst Financiën, volgens
 de modaliteiten en voorwaarden zoals
@@ -24304,7 +24304,7 @@ onderneming in moeilijkheden.
 § 3. De in de eerste paragraaf bedoelde
 vrijstelling wordt verleend ten belope van een
 maximumbedrag, inclusief de overeenkomstig
-paragraaf 5 reeds belaste bedragen van de
+###### paragraaf 5 reeds belaste bedragen van de
 wederopbouwreserve, gelijk aan het bedrag van de
 bedrijfsverliezen van het boekjaar, vastgesteld
 overeenkomstig de wetgeving betreffende de
@@ -24433,7 +24433,7 @@ belope van een bedrag beperkt tot de winst van het
 belastbaar tijdperk dat overblijft vóór toepassing
 van artikel 207, tweede lid, derde streepje, zonder
 rekening te houden met de aanleg van de in deze
-paragraaf bedoelde vrijgestelde reserve en de
+###### paragraaf bedoelde vrijgestelde reserve en de
 toepassing van § 2, tweede of derde lid.
 
 Indien een belastbaar tijdperk geen of
@@ -24537,7 +24537,7 @@ van het belastbaar tijdperk;
 lid, bedoelde vergoeding die wordt
 verkregen van de binnenlandse
 vennootschap of Belgische inrichting die
-deel uitmaakt van dezelfde groep van
+## deel uitmaakt van dezelfde groep van
 vennootschappen als de belastingplichtige,
 in ruil voor de overdracht van het in artikel
 198/1, § 3, bedoelde grensbedrag.
@@ -25383,7 +25383,7 @@ gegund na inmededingingstelling conform
 de reglementering inzake overheidsopdrachten.
 
 Voor de verenigingen en stichtingen op wie
-Deel 3 van het Wetboek van vennootschappen en
+## Deel 3 van het Wetboek van vennootschappen en
 verenigingen van toepassing is en die aan de
 vennootschapsbelasting onderworpen zijn, wordt
 onder gestort kapitaal, als bedoeld in paragraaf 1,
@@ -25560,7 +25560,7 @@ is het hoogste van de volgende twee bedragen :
 a) 3 miljoen euro;
 
 b) 30 pct. van de overeenkomstig deze
-paragraaf samengestelde EBITDA van de
+###### paragraaf samengestelde EBITDA van de
 belastingplichtige.
 
 De EBITDA wordt samengesteld door het
@@ -25576,7 +25576,7 @@ winst;
 
 - het in paragraaf 2, bedoelde financieringskostensurplus, met uitzondering van het
 gedeelte dat overeenkomstig de eerste
-paragraaf niet als beroepskosten wordt
+###### paragraaf niet als beroepskosten wordt
 aangemerkt;
 
 en te verminderen met :
@@ -26597,7 +26597,7 @@ gekozen voor de in het derde lid bedoelde
 omzetting in een belastingkrediet.
 
 § 2. Voor de toepassing van deze
-onderafdeling wordt verstaan onder :
+###### onderafdeling wordt verstaan onder :
 
 1° intellectueel eigendomsrecht : de hieronder
 bedoelde rechten, waarvan de vennootschap
@@ -27233,7 +27233,7 @@ hiermee gelijkgestelde verrichting, een inbreng van
 een tak van werkzaamheid of een inbreng van de
 algemeenheid van goederen, zal voor de toepassing
 van het derde lid elke vennootschap waarin een
-deel van het totale vermogen van de
+## deel van het totale vermogen van de
 belastingplichtige of van de vennootschap die
 verbonden is met de belastingplichtige zich bevond
 voor de uitwerking van deze fusie, splitsing,
@@ -27681,7 +27681,7 @@ vastgesteld, te beginnen met het oudste. Het
 gedeelte van deze beroepsverliezen dat niet in
 aftrek kan worden gebracht van deze
 beroepsinkomsten, is aftrekbaar overeenkomstig
-paragraaf 1.
+###### paragraaf 1.
 
 Het gedeelte van de beroepsverliezen dat toe
 te schrijven is aan de in het eerste lid omschreven
@@ -29245,7 +29245,7 @@ rechtswege is ontheven, wordt de totale belasting
 van het belastbare tijdperk waarvoor de in artikel
 168/1, § 2, omschreven alternatieve berekening
 overeenkomstig het tweede lid van diezelfde
-paragraaf voor het laatst wordt gemaakt,
+###### paragraaf voor het laatst wordt gemaakt,
 vermeerderd met het overeenkomstig in artikel
 168/1, § 3, bepaalde bedrag.
 
@@ -29549,7 +29549,7 @@ te zijn aangetast.
 § 1. Voor het belastbare tijdperk waarin het
 in artikel 194septies/1, § 1, bedoelde vrijgestelde
 bedrag belastbaar wordt gesteld overeenkomstig
-paragraaf 4 van datzelfde artikel, wordt een
+###### paragraaf 4 van datzelfde artikel, wordt een
 afzonderlijke aanslag gevestigd waarvan de
 grondslag overeenkomstig paragraaf 2 en het
 tarief overeenkomstig paragraaf 3 worden
@@ -29589,7 +29589,7 @@ overeenkomstig artikel 194septies/1, § 4,
 belastbaar wordt gesteld.
 
 Voor de vaststelling van de in deze
-paragraaf bedoelde grondslag kan het bedrag van
+###### paragraaf bedoelde grondslag kan het bedrag van
 het verlies niet lager zijn dan 0.
 
 § 3. Het tarief van deze afzonderlijke
@@ -32997,7 +32997,7 @@ beide echtgenoten samengeteld.
 
 § 1. Om te bepalen in welk gewest een
 beroepsinkomen werd behaald, worden de in
-paragraaf 2 vermelde regels toegepast.
+###### paragraaf 2 vermelde regels toegepast.
 
 § 2. Bezoldigingen van werknemers, andere
 dan vergoedingen tot volledig of gedeeltelijk
@@ -35283,7 +35283,7 @@ griffierechten verplicht zijn de akten of
 verklaringen ter registratie aan te bieden
 wanneer het akten of verklaringen betreft
 waarbij de overdracht onder bezwarende
-titel is vastgesteld van in België gelegen
+### titel is vastgesteld van in België gelegen
 onroerende goederen of zakelijke rechten
 met betrekking tot die goederen door een in
 artikel 227, 1° of 2°, vermelde belastingplichtige ;
@@ -35458,7 +35458,7 @@ recht geeft op een wettelijke overwerktoeslag, en
 die krachtens artikel 270, eerste lid, 1°,
 schuldenaar zijn van de bedrijfsvoorheffing op
 die bezoldigingen, worden ervan vrijgesteld een
-deel van de bedrijfsvoorheffing die verschuldigd
+## deel van de bedrijfsvoorheffing die verschuldigd
 is op de belastbare bezoldigingen waarin de
 bezoldigingen zijn begrepen die betrekking
 hebben op door de werknemer gepresteerd
@@ -35724,7 +35724,7 @@ vervoer op rivieren of kanalen wordt niet als
 zeevervoer aangemerkt. Het vervoer op
 waterwegen van maritieme aard, wordt evenmin
 als zeevervoer aangemerkt, behalve indien het
-deel uitmaakt van een langer traject over zee.
+## deel uitmaakt van een langer traject over zee.
 
 Voor de toepassing van dit artikel moet
 onder zee, de zee worden begrepen die wordt
@@ -36355,7 +36355,7 @@ een in paragraaf 2, 4 of 5 bedoelde vrijstelling op
 dezelfde bezoldiging wordt toegepast.
 
 Voor de toepassing van deze paragraaf en
-paragraaf 3 wordt onder ploegenpremie, een
+###### paragraaf 3 wordt onder ploegenpremie, een
 premie verstaan die wordt toegekend naar
 aanleiding van de uitoefening van ploegenarbeid
 of nachtarbeid en die de bezoldiging die aan de
@@ -36390,7 +36390,7 @@ bovendien enkel toegestaan op voorwaarde dat zij
 op de door de Koning bepaalde wijze het akkoord
 hebben gekregen van de onderneming waarin de
 uitzendkrachten zijn tewerkgesteld om de in deze
-paragraaf bedoelde vrijstelling toe te passen.
+###### paragraaf bedoelde vrijstelling toe te passen.
 
 Om de in deze paragraaf bedoelde
 vrijstelling van doorstorting van bedrijfsvoorheffing te verkrijgen, moet de werkgever, ter
@@ -36721,7 +36721,7 @@ voor het leveren van dit bewijs.
 vrijstelling van doorstorting van bedrijfsvoorheffing wordt verhoogd met 2,2
 procentpunten van het totaal van de belastbare
 bezoldigingen van al de werknemers op wie deze
-paragraaf van toepassing is samen, voor
+###### paragraaf van toepassing is samen, voor
 ondernemingen die werken in een volcontinu
 arbeidssysteem.
 
@@ -36872,7 +36872,7 @@ bovendien enkel toegestaan op voorwaarde dat zij
 op de door de Koning bepaalde wijze het akkoord
 hebben gekregen van de onderneming waarin de
 uitzendkrachten zijn tewerkgesteld om de in deze
-paragraaf bedoelde vrijstelling toe te passen.
+###### paragraaf bedoelde vrijstelling toe te passen.
 
 De in deze paragraaf bedoelde vrijstelling
 kan slechts worden toegekend indien samen met
@@ -36950,7 +36950,7 @@ in § 1, eerste lid te hebben betaald of toegekend.
 
 Voor de ondernemingen bedoeld in het
 eerste lid wordt de vrijstelling bedoeld in
-paragraaf 1 bepaald op 18 pct. van het totaal van
+###### paragraaf 1 bepaald op 18 pct. van het totaal van
 de belastbare bezoldigingen van al de betrokken
 werknemers samen.
 
@@ -37171,7 +37171,7 @@ werkgevers die bezoldigingen betalen of
 toekennen en die krachtens artikel 270, eerste lid,
 1°, schuldenaar zijn van de bedrijfsvoorheffing op
 die bezoldigingen, worden ervan vrijgesteld een
-deel van die bedrijfsvoorheffing in de Schatkist te
+## deel van die bedrijfsvoorheffing in de Schatkist te
 storten, op voorwaarde dat de genoemde
 voorheffing volledig op die bezoldigingen wordt
 ingehouden.
@@ -37406,7 +37406,7 @@ vennootschap en deze andere vennootschap er
 onherroepelijk op de door de Koning bepaalde
 wijze voor heeft geopteerd, wordt deze andere
 vennootschap voor de toepassing van deze
-paragraaf en paragraaf 4 gelijk gesteld met de in
+###### paragraaf en paragraaf 4 gelijk gesteld met de in
 deze paragraaf bedoelde werkgever.
 
 ----------
@@ -37540,7 +37540,7 @@ ten opzichte van het gemiddelde aantal
 werknemers en uitzendkrachten uitgedrukt in
 voltijdse equivalenten over de twaalf maanden
 voorafgaand aan de maand waarin het in
-paragraaf 5 bedoelde formulier wordt overgelegd,
+###### paragraaf 5 bedoelde formulier wordt overgelegd,
 vermeerderd met de andere door de investering
 reeds gecreëerde nieuwe arbeidsplaatsen
 uitgedrukt in voltijdse equivalenten.
@@ -37560,7 +37560,7 @@ Om de vrijstelling van doorstorting van de
 bedrijfsvoorheffing te verkrijgen, moet de
 schuldenaar het bewijs leveren dat wordt voldaan
 aan de voorwaarden gesteld in deze paragraaf en
-paragraaf 1 van respectievelijk dit artikel of
+###### paragraaf 1 van respectievelijk dit artikel of
 artikel 2759 en het ter beschikking houden van de
 Federale Overheidsdienst Financiën. De Koning
 bepaalt de nadere regels voor het leveren van dit
@@ -37610,7 +37610,7 @@ de werkgever in het formulier de naam, het adres
 en het ondernemingsnummer van de
 vennootschap die de investering verricht en levert
 de werkgever het bewijs dat deze vennootschap
-deel uitmaakt van de groep van vennootschappen
+## deel uitmaakt van de groep van vennootschappen
 waartoe hij zelf behoort.
 
 Met de aanvang van de investering wordt
@@ -37823,7 +37823,7 @@ vennootschap en deze andere vennootschap
 hiervoor onherroepelijk op de door de Koning
 bepaalde wijze heeft geopteerd, wordt deze
 andere vennootschap voor de toepassing van deze
-paragraaf en artikel 2758, § 4, gelijk gesteld met
+###### paragraaf en artikel 2758, § 4, gelijk gesteld met
 de in deze paragraaf bedoelde werkgever.
 
 ----------
@@ -38403,7 +38403,7 @@ dit artikel.
 werkgevers die bij toepassing van artikel 270,
 eerste lid, 1°, schuldenaar zijn van de
 bedrijfsvoorheffing, worden ervan vrijgesteld een
-deel van de bedrijfsvoorheffing die verschuldigd
+## deel van de bedrijfsvoorheffing die verschuldigd
 is op de in paragraaf 4 bedoelde belastbare
 bezoldigingen van de in paragraaf 2 bedoelde
 werknemers in de Schatkist te storten, op
@@ -38565,8 +38565,8 @@ van de betrokken werknemer.
 
 § 5. De niet te storten bedrijfsvoorheffing
 bedraagt 11,75 pct. van het totaal van de in
-paragraaf 4 bedoelde bezoldigingen van alle in
-paragraaf 2 bedoelde werknemers samen.
+###### paragraaf 4 bedoelde bezoldigingen van alle in
+###### paragraaf 2 bedoelde werknemers samen.
 
 § 6. De Koning bepaalt de nadere regels en
 modaliteiten in verband met de wijze waarop bij
@@ -38632,7 +38632,7 @@ gelegenheidsarbeider in de fruit- of groenteteelt
 en die krachtens artikel 270, eerste lid, 1°,
 schuldenaar zijn van de bedrijfsvoorheffing op
 die bezoldigingen, worden ervan vrijgesteld een
-deel van de bedrijfsvoorheffing die zij
+## deel van de bedrijfsvoorheffing die zij
 verschuldigd zijn op de bezoldigingen van de
 betrokken gelegenheidsarbeiders in de Schatkist
 te storten, op voorwaarde dat de
@@ -39487,7 +39487,7 @@ verrekend met de vennootschapsbelasting of met
 de belasting van niet-inwoners voor de in artikel
 227, 2°, vermelde belastingplichtigen, dat gelijk is
 aan het in het tweede lid voorziene tarief op een
-deel van de aanschaffings- of beleggingswaarde
+## deel van de aanschaffings- of beleggingswaarde
 van de materiële vaste activa die in nieuwe staat
 zijn verkregen of tot stand gebracht en van de
 nieuwe immateriële vaste activa, indien die vaste
@@ -39604,7 +39604,7 @@ Voor rijksinwoners :
 belasting in het geval bedoeld in artikel 285
 slechts met de belasting verrekenbaar in de
 mate dat het niet meer bedraagt dan het
-deel van de belasting Staat dat betrekking
+## deel van de belasting Staat dat betrekking
 heeft op de beroepsinkomsten;
 
 2° worden de belastingkredieten als bedoeld in
@@ -41379,7 +41379,7 @@ bijlage wordt vastgesteld door de minister van
 Financiën of zijn afgevaardigde.
 
 Met als enig doel de verplichtingen van deze
-paragraaf na te komen, hebben de betrokken
+###### paragraaf na te komen, hebben de betrokken
 belastingplichtigen de toestemming om het
 identificatienummer van het Rijksregister van de
 natuurlijke personen of van het wachtregister te
@@ -41584,7 +41584,7 @@ belastingplichtige die gehouden is aangifte te doen,
 bedraagt hij voor de erfgenamen, algemene
 legatarissen of begiftigden vijf maanden vanaf die
 datum, behalve indien de termijnen voorzien in
-paragraaf 1 en in artikel 308/1 later zijn.
+###### paragraaf 1 en in artikel 308/1 later zijn.
 
 ----------
 
@@ -43479,7 +43479,7 @@ worden de volgende termen als volgt gedefinieerd:
 
 1° "Platform": de term "platform" betekent elke
 software, met inbegrip van een website of
-onderdeel daarvan en toepassingen
+###### onderdeel daarvan en toepassingen
 waaronder mobiele toepassingen, die
 toegankelijk zijn voor gebruikers en
 waardoor verkopers in staat worden gesteld
@@ -44337,7 +44337,7 @@ artikel 321quater, eerste lid, 4° ;
 
 d) indien de Belgische bevoegde autoriteit de
 registratie heeft herroepen op grond van
-paragraaf 5.
+###### paragraaf 5.
 
 ## Art. 321octies
 
@@ -44526,7 +44526,7 @@ identificeert.
 …
 
 Met als enig doel de verplichtingen van deze
-paragraaf na te komen, hebben de bank-, wissel-,
+###### paragraaf na te komen, hebben de bank-, wissel-,
 krediet- en spaarinstellingen en de Nationale Bank
 van België de toelating om het
 identificatienummer van het Rijksregister van de
@@ -44551,7 +44551,7 @@ wederkerigheid is gewaarborgd.
 
 De vraag van de buitenlandse Staat wordt
 gelijkgesteld met een aanwijzing als bedoeld in
-paragraaf 2. In dat geval verleent de door de
+###### paragraaf 2. In dat geval verleent de door de
 minister aangestelde ambtenaar, in afwijking van
 paragraaf 2, de machtiging op basis van de vraag
 gesteld door de buitenlandse Staat.
@@ -44691,7 +44691,7 @@ bij KB 16.07.2019 – BS 29.07.2019, gewijzigd bij KB
 Bericht 23.09.2019
 
 § 3. Met als enig doel de verplichtingen van
-paragraaf 1 na te komen, hebben de in paragraaf 1
+###### paragraaf 1 na te komen, hebben de in paragraaf 1
 bedoelde kredietinstellingen en -organismen en
 verzekeringsondernemingen de toelating om het
 identificatienummer van het Rijksregister van de
@@ -44750,7 +44750,7 @@ luidt artikel 323/2, § 2, als volgt:
 § 2. De instanties bedoeld in artikel 14535,
 tweede lid, 3°, zijn vrijgesteld van de jaarlijkse
 verplichting om de mededeling bedoeld in
-paragraaf 1 te voldoen zolang zij niet beschikken
+###### paragraaf 1 te voldoen zolang zij niet beschikken
 over de nodige geïnformatiseerde middelen om aan
 deze verplichting te voldoen.
 
@@ -44848,7 +44848,7 @@ betreffende het vrije verkeer van die gegevens en
 tot intrekking van Richtlijn (EG) 95/46, worden de
 gegevens ontvangen door de Federale
 Overheidsdienst Financiën met toepassing van
-paragraaf 3 niet langer bewaard dan noodzakelijk
+###### paragraaf 3 niet langer bewaard dan noodzakelijk
 voor de doeleinden waarvoor zij worden
 verzameld met een maximale bewaartermijn die
 verstrijkt na 10 jaar vanaf de ontvangst van deze
@@ -45597,7 +45597,7 @@ artikel 326/3 bedoelde meldingsplicht aan de
 relevante belastingplichtige.
 
 § 3. Geen beroepsgeheim overeenkomstig
-paragraaf 1 of ontheffing van rechtswege kan
+###### paragraaf 1 of ontheffing van rechtswege kan
 worden ingeroepen aangaande de meldingsplicht
 van marktklare constructies die aanleiding geven
 tot een periodiek verslag overeenkomstig artikel
@@ -45802,7 +45802,7 @@ inlichtingen betreft.
 § 3. Paragraaf 1 is niet van toepassing op de
 naamloze vennootschap van publiek recht bpost.
 
-Paragraaf 1 blijft evenwel van toepassing in
+###### Paragraaf 1 blijft evenwel van toepassing in
 de gevallen en onder de voorwaarden als bedoeld
 in de artikelen 318, tweede lid, en 322, §§ 2 tot 4.
 
@@ -46916,7 +46916,7 @@ van het verzoek, aan de verzoekende autoriteit
 mee.
 
 § 5/1. Wat betreft een in paragraaf 4 en in
-paragraaf 5 bedoeld verzoek worden de verzochte
+###### paragraaf 5 bedoeld verzoek worden de verzochte
 inlichtingen geacht van verwacht belang te zijn
 indien op het ogenblik van het verzoek de
 verzoekende autoriteit van oordeel is dat er
@@ -48206,7 +48206,7 @@ In afwachting dat dat beveiligd centraal
 gegevensbestand operationeel wordt, geschiedt de
 in § 6/1, 1° en 2°, bedoelde automatische
 uitwisseling van gegevens, volgens lid 1 van deze
-paragraaf en de toepasselijke praktische
+###### paragraaf en de toepasselijke praktische
 modaliteiten.
 
 § 24/1. De Belgische bevoegde autoriteit
@@ -49426,7 +49426,7 @@ de administratie een subsidiaire aanslag door
 middel van conclusies aan het oordeel van de
 rechter onderwerpen op naam van dezelfde
 belastingschuldige en op grond van alle of een
-deel van dezelfde belastingelementen als de
+## deel van dezelfde belastingelementen als de
 initiële aanslag.
 
 Als de administratie een subsidiaire
@@ -50117,7 +50117,7 @@ drie jaar vanaf 1 januari van het jaar dat volgt op
 datgene waarnaar het aanslagjaar wordt genoemd
 wanneer het bezwaarschrift wordt ingediend op
 basis van een in titel 6, hoofdstuk 1, afdeling 4,
-onderafdeling 3 bedoelde vrijstelling van
+###### onderafdeling 3 bedoelde vrijstelling van
 doorstorting van bedrijfsvoorheffing.
 
 In afwijking van artikel 368 en het eerste
@@ -51624,7 +51624,7 @@ verzendingsdatum van het bericht opgesteld
 overeenkomstig het zesde lid, 1°, voorafgaat.
 
 § 3. Door de ontvangers wordt aan de in
-paragraaf 2 vermelde schuldenaars, binnen de
+###### paragraaf 2 vermelde schuldenaars, binnen de
 termijn gesteld, naargelang het geval, in artikel
 434 of in artikel 36 van het Wetboek van de
 minnelijke en gedwongen invordering van fiscale
@@ -51988,7 +51988,7 @@ inkomsten.
 
 § 2. Het resterend verschuldigd gedeelte
 van de inkomstenbelastingen gevestigd op de in
-paragraaf 1 beoogde inkomsten moet worden
+###### paragraaf 1 beoogde inkomsten moet worden
 betaald binnen een termijn van twee maanden
 vanaf de toezending van het aanslagbiljet:
 
@@ -52015,7 +52015,7 @@ luidt artikel 413/1, § 2, eerste lid, als volgt:
 
 § 2. Het resterend verschuldigd gedeelte
 van de inkomstenbelastingen gevestigd op de in
-paragraaf 1 beoogde inkomsten moet worden
+###### paragraaf 1 beoogde inkomsten moet worden
 betaald binnen een termijn van twee maanden
 vanaf de verzending van het aanslagbiljet:
 
@@ -52122,7 +52122,7 @@ formulier;
 
 10° het niet stellen van een waarborg ter
 uitvoering van de overeenkomstig
-paragraaf 5 genomen beslissing van de
+###### paragraaf 5 genomen beslissing van de
 adviseur-generaal van de administratie
 belast met de inning en de invordering van
 de inkomstenbelastingen.
@@ -54639,7 +54639,7 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 Tekst : WIB 92 – Historische versie –
 Brussels Hoofdstedelijk Gewest
 
-TITEL VIIBIS. - …
+### TITEL VIIBIS. - …
 
 ## Art. 463bis
 
@@ -55463,7 +55463,7 @@ bouwvergunning is uitgereikt ;
 2° als bouwlanden, hooilanden of weilanden
 waarvan het kadastraal inkomen per hectare
 het hoogste in de gemeente of kadastrale
-afdeling van gemeente is :
+##### afdeling van gemeente is :
 
 a) de renbanen, de speel- of
 sportterreinen en de boomkwekerijen ;
@@ -55479,7 +55479,7 @@ bevindt ;
 3° als bouwlanden, hooilanden of weilanden
 waarvan het kadastraal inkomen per hectare
 het laagste in de gemeente of kadastrale
-afdeling van gemeente is, de wegen of lanen,
+##### afdeling van gemeente is, de wegen of lanen,
 de vijvers en de kanalen die geen deel
 uitmaken van het openbaar domein.
 
@@ -55699,7 +55699,7 @@ van de kadastrale inkomens.
 Patrimoniumdocumentatie gaat om de tien jaar
 over tot een algemene perekwatie van de kadastrale
 inkomens volgens de procedure voorzien onder
-hoofdstuk II van deze titel.
+#### hoofdstuk II van deze titel.
 
 § 2. De kadastrale inkomens, voortspruitend
 uit een algemene perekwatie, worden geacht te
@@ -55743,7 +55743,7 @@ Fiscaliteit van 13 december 2013 (BS 23 december
 
 De buitengewone herzieningen worden
 verricht volgens de procedure voorzien onder
-hoofdstuk II van deze titel.
+#### hoofdstuk II van deze titel.
 
 GEWESTELIJKE FISCALE BEPALINGEN
 
@@ -57559,7 +57559,7 @@ met een minimum van 30 pct. In geval de
 uitgaven die voor de vermindering in
 aanmerking komen betrekking hebben op
 meer dan één belastingtarief, wordt voor elk
-deel van de uitgaven het overeenstemmend
+## deel van de uitgaven het overeenstemmend
 tarief in aanmerking genomen;
 
 3° in geval van een gemeenschappelijke
@@ -58165,7 +58165,7 @@ met een minimum van 30 pct. In geval de
 uitgaven die voor de vermindering in
 aanmerking komen betrekking hebben op
 meer dan één belastingtarief, wordt voor elk
-deel van de uitgaven het overeenstemmend
+## deel van de uitgaven het overeenstemmend
 tarief in aanmerking genomen;
 
 4° wanneer een gemeenschappelijke aanslag

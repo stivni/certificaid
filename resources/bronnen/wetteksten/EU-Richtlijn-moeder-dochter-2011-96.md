@@ -250,7 +250,7 @@ L 345/12
 Publicatieblad van de Europese Unie
 
 ## BIJLAGE I
-DEEL A
+## DEEL A
 Lijst van de in artikel 2, onder a), punt i), bedoelde vennootschappen
 a) De vennootschappen opgericht overeenkomstig Verordening (EG) nr. 2157/2001 van de Raad van 8 oktober 2001 betreffende het statuut van de Europese vennootschap (SE) (1), Richtlijn 2001/86/EG van de Raad van 8 oktober 2001 tot aanvulling van het statuut van de Europese vennootschap met betrekking tot de rol van de werknemers (2) en de coöperatieve vennootschappen opgericht overeenkomstig Verordening (EG) nr. 1435/2003 van de Raad van 22 juli 2003 betreffende het statuut voor een Europese Coöperatieve Vennootschap (SCE) (3) en Richtlijn 2003/72/EG van de Raad van 22 juli 2003 tot aanvulling van het statuut van een Europese coöperatieve vennootschap met betrekking tot de rol van de werknemers (4).
 b) De vennootschappen naar Belgisch recht, geheten „société anonyme”/„naamloze vennootschap”, „société en com­ mandite par actions”/„commanditaire vennootschap op aandelen”, „société privée à responsabilité limitée”/„besloten vennootschap met beperkte aansprakelijkheid”, „société coopérative à responsabilité limitée”/„coöperatieve vennoot­ schap met beperkte aansprakelijkheid”, „société coopérative à responsabilité illimitée”/„coöperatieve vennootschap met onbeperkte aansprakelijkheid”, „société en nom collectif”/„vennootschap onder firma”, „société en commandite sim­ ple”/„gewone commanditaire vennootschap”, de overheidsbedrijven die een van vorengenoemde rechtsvormen hebben aangenomen, alsmede andere vennootschappen die zijn opgericht naar Belgisch recht en die onder de Belgische vennootschapsbelasting vallen.
@@ -316,7 +316,7 @@ w) De vennootschappen naar Roemeens recht, geheten: „societăți pe acțiuni�
 x) De vennootschappen naar Sloveens recht, geheten: „delniška družba”, „komanditna družba”, „družba z omejeno odgovornostjo”.
 y) De vennootschappen naar Slowaaks recht, geheten: „akciová spoločnosť”, „spoločnosť s ručením obmedzeným”, „komanditná spoločnosť”.
 z) De vennootschappen naar Fins recht geheten: „osakeyhtiö”/„aktiebolag”, „osuuskunta”/„andelslag”, „säästöpankki”/ „sparbank” en „vakuutusyhtiö”/„försäkringsbolag”. aa) De vennootschappen naar Zweeds recht, geheten „aktiebolag”, „försäkringsaktiebolag”, „ekonomiska föreningar”, „sparbanker”, „ömsesidiga försäkringsbolag”; „försäkringsföreningar”. ab) De vennootschappen naar Brits recht.
-DEEL B
+## DEEL B
 Lijst van de in artikel 2, onder a), punt iii), bedoelde belastingen
 — impôt des sociétés/vennootschapsbelasting in België,
 — корпоративен данък in Bulgarije,
@@ -345,12 +345,12 @@ Publicatieblad van de Europese Unie
 L 345/15
 
 ## BIJLAGE II
-DEEL A
+## DEEL A
 Ingetrokken richtlijn met overzicht van de achtereenvolgende wijzigingen ervan (bedoeld in artikel 9) Richtlijn 90/435/EEG van de Raad (PB L 225 van 20.8.1990, blz. 6) Punt XI.B.I.3 van bijlage I bij de Toetredingsakte van 1994 (PB C 241 van 29.8.1994, blz. 196) Richtlijn 2003/123/EG van de Raad (PB L 7 van 13.1.2004, blz. 41) Punt 9.8 van bijlage II bij de Toetredingsakte van 2003 (PB L 236 van 23.9.2003, blz. 555) Richtlijn 2006/98/EG van de Raad (PB L 363 van 20.12.2006, blz. 129)
 
 uitsluitend punt 7 van de bijlage
 
-DEEL B
+## DEEL B
 Termijnen voor omzetting in nationaal recht
 (bedoeld in artikel 9)
 Omzettingstermijn

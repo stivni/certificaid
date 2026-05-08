@@ -113,11 +113,11 @@ Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 1
 
 TABEL A: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-    Afdeling 1. - Binnenlandse verrichtingen
+##### Afdeling 1. - Binnenlandse verrichtingen
 
-    Afdeling 2. - Invoer.
+##### Afdeling 2. - Invoer.
 
-    Afdeling 3. - Uitvoer.
+##### Afdeling 3. - Uitvoer.
 
 TABEL B: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -131,13 +131,13 @@ TABEL F: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 
 TABEL G: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
-    Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
+##### Afdeling 1.- Binnenlandse en intracommunautaire verrichtingen.
 
-    Afdeling 2.- Invoer.
+##### Afdeling 2.- Invoer.
 
-    Afdeling 3.- Uitvoer.
+##### Afdeling 3.- Uitvoer.
 
-    Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 TABEL H: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het wetboek
 
@@ -266,7 +266,7 @@ VI. Vrijstellingen beoogd door artikel 42, §§ 1, 2 en 3, 1° tot 6°,
     2. Ontbreken van het bewijs van het recht op vrijstelling 10 pct. van de verschuldigde
     belasting
 
-    Afdeling 2. - Invoer.
+##### Afdeling 2. - Invoer.
 
 VII. Overtredingen van de verplichting de goederen aan te geven
     bij het douanekantoor : invoer van goederen zonder aangifte
@@ -439,7 +439,7 @@ Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 4
     België maar kan te goeder trouw oordelen dat
     deze zich in het buitenland bevindt
 
-    Afdeling 3. – Uitvoer.
+##### Afdeling 3. – Uitvoer.
 
 XI. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
@@ -976,7 +976,7 @@ VII. 1. Ten onrechte toepassen van artikel 25ter, § 1, tweede 10 pct. van de ve
 
 Proportionele fiscale geldboeten www.fisconetplus.be Bijlage pg. 12
 
-    Afdeling 2.- Invoer.
+##### Afdeling 2.- Invoer.
 
     (KB nr. 41, Tabel G, afdeling 2, VIII, 4. en 5. C), werden gewijzigd met ingang van
     01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699))
@@ -1155,7 +1155,7 @@ XI. Overtredingen op het stuk van de tijdelijke invoer van
     B) Andere overtredingen 100 pct. van de verschuldigde
     belasting
 
-    Afdeling 3.- Uitvoer.
+##### Afdeling 3.- Uitvoer.
 XII. Overtredingen inzake de toepassing van artikel 39 van het
     Wetboek.
 
@@ -1233,7 +1233,7 @@ XIV. Overtredingen inzake de toepassing van artikel 42, § 3, 8°,
     vergunninghouder de verplicht geworden belasting
     regularisatie nog niet uitgevoerd
 
-    Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
+##### Afdeling 4.- Andere regeling van entrepot dan douane-entrepot.
 
 XV. Overtredingen begaan bij de toepassing van artikel 39quater 10 pct. van de verschuldigde
     van het Wetboek belasting.

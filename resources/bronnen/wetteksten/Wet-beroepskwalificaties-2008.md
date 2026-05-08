@@ -265,7 +265,7 @@ provenance:
   ----------
   (1)<Ingevoegd bij W 2016-12-25/44, art. 17, 002; Inwerkingtreding : 10-02-2017>
 
-  TITEL II. - Vrije dienstverrichting.
+### TITEL II. - Vrije dienstverrichting.
 
   Toepassingsgebied.
 
@@ -387,9 +387,9 @@ Wanneer de dienst wordt verricht onder de beroepstitel van de lidstaat van vesti
    e) wanneer de dienstverrichter een onder de BTW vallende werkzaamheid uitoefent, het identificatienummer, zoals bedoeld in artikel 50 van het Wetboek van de belasting over de toegevoegde waarde ingevolge artikel 22, § 1, van de Zesde Richtlijn 77/388/EEG van de Raad van 17 mei 1977 betreffende de harmonisatie van de wetgevingen der lidstaten inzake omzetbelasting - Gemeenschappelijk stelsel van belasting over de toegevoegde waarde : uniforme grondslag;
    f) gegevens betreffende verzekeringsdekking of soortgelijke individuele of collectieve vormen van bescherming inzake beroepsaansprakelijkheid.
 
-  TITEL III. - Vrijheid van vestiging.
+### TITEL III. - Vrijheid van vestiging.
 
-  HOOFDSTUK I. - Algemeen stelsel van erkenning van opleidingstitels.
+#### HOOFDSTUK I. - Algemeen stelsel van erkenning van opleidingstitels.
 
   Toepassingsgebied.
 
@@ -522,7 +522,7 @@ Dit hoofdstuk is van toepassing op alle beroepen die niet onder hoofdstuk II van
 
 ## Art. 17_WAALS_GEWEST.
 
-  HOOFDSTUK II. - Erkenning van beroepservaring.
+#### HOOFDSTUK II. - Erkenning van beroepservaring.
 
   Eisen inzake beroepservaring.
 
@@ -612,7 +612,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
   ----------
   (1)<DWG 2017-07-12/16, art. 29, 004; Inwerkingtreding : 22-09-2017>
 
-  HOOFDSTUK III. - Gemeenschappelijke bepalingen inzake vestiging.
+#### HOOFDSTUK III. - Gemeenschappelijke bepalingen inzake vestiging.
 
   Documenten en formaliteiten.
 
@@ -683,7 +683,7 @@ Wanneer de toegang tot of uitoefening van een van de in bijlage IV vermelde werk
    § 2. Wanneer een beroep is gereglementeerd door een vereniging of organisatie zoals bedoeld in artikel 2, § 2, mogen de onderdanen van de lidstaten de door die organisatie of vereniging verleende beroepstitel of de afkorting daarvan uitsluitend gebruiken indien zij het bewijs overleggen dat zij lid van die organisatie of vereniging zijn.
    Wanneer de vereniging of organisatie het lidmaatschap afhankelijk stelt van bepaalde kwalificaties, mag zij deze kwalificaties slechts overeenkomstig de bepalingen van deze wet eisen van onderdanen van andere lidstaten die over beroepskwalificaties beschikken.
 
-  TITEL IV. - Wijze van uitoefening van het beroep.
+### TITEL IV. - Wijze van uitoefening van het beroep.
 
   Talenkennis.
 
@@ -731,7 +731,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
    ----------
    (1)<DWG 2017-07-12/16, art. 32, 004; Inwerkingtreding : 22-09-2017>
 
-  TITEL V. - Administratieve samenwerking.
+### TITEL V. - Administratieve samenwerking.
 
   Bevoegde autoriteiten.
 
@@ -787,7 +787,7 @@ Onverminderd de artikelen 9 en 24, ziet de bevoegde Belgische autoriteit erop to
   ----------
   (1)<DWG 2017-07-12/16, art. 35, 004; Inwerkingtreding : 22-09-2017>
 
-  TITEL VI. - Slotbepalingen.
+### TITEL VI. - Slotbepalingen.
 
 ## Art. 28
 

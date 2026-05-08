@@ -563,7 +563,7 @@ In geval van devolutie van geheel de gemeenschap aan de overlevende             
 
 Zo de door eenzelfde erfgenaam, legataris of begiftigde verkregen                     Si les immeubles recueillis par un même héritier, légataire ou onroerende goederen gelegen zijn in het ambtsgebied van verscheidene                  donataire sont situés dans le ressort de différents bureaux, le kantoren, is het bevoegd kantoor dit binnen het gebied waarvan zich het               bureau compétent est celui dans le ressort duquel se trouve la
 
-deel der goederen bevindt met het hoogste federaal kadastraal                         partie des biens qui présente le revenu cadastral fédéral le plus inkomen;                                                                              élevé ;
+## deel der goederen bevindt met het hoogste federaal kadastraal                         partie des biens qui présente le revenu cadastral fédéral le plus inkomen;                                                                              élevé ;
 
 3° bij afwezigheid: door de personen die krachtens het 1° en 2° van dit               3° en cas d'absence : par les personnes tenues de déclarer en vertu artikel tot aangifte verplicht zijn, ten kantore van de laatste fiscale               du 1° et du 2° du présent article, au bureau du dernier domicile woonplaats van de afwezige binnen het Rijk als bedoeld in 1°, wat het                 fiscal de l'absent dans le royaume comme il est dit au 1°, s'il s'agit recht van successie betreft, en ten kantore van de plaats waar de                     du droit de succession, et au bureau de la situation des biens goederen gelegen zijn, zoals onder 2° is aangeduid, wat het recht van                 comme il est dit au 2°, s'il s'agit du droit de mutation par décès ; overgang bij overlijden betreft;
 
@@ -2157,7 +2157,7 @@ Article 106
 
 Tegenbrieven kunnen de Staat niet tegengesteld worden, in zover zij                  Les contre-lettres ne sont pas opposables à l’État, en tant qu'elles vermindering van actief of vermeerdering van het passief der                         auraient pour effet de diminuer l'actif ou d'augmenter le passif de nalatenschap ten gevolge mochten hebben.                                             la succession.
 
-Paragraaf 2 van artikel 18 van het Wetboek der Registratie-,                         Le paragraphe 2 de l'article 18 du Code des droits Hypotheek- en Griffierechten is mutatis mutandis van toepassing.                     d'enregistrement, d'hypothèque et de greffe est applicable mutatis mutandis.
+###### Paragraaf 2 van artikel 18 van het Wetboek der Registratie-,                         Le paragraphe 2 de l'article 18 du Code des droits Hypotheek- en Griffierechten is mutatis mutandis van toepassing.                     d'enregistrement, d'hypothèque et de greffe est applicable mutatis mutandis.
 
 ##### Afdeling II - Bijzondere bewijsmiddelen                                                Section II - Moyens spéciaux de preuve
 
@@ -3882,7 +3882,7 @@ Article 146septdecies
 De fiscale administratie, mag binnen de door haar bepaalde termijn,                     L'administration fiscale peut exiger de l'(des) intermédiaire(s) welke wegens wettige redenen kan worden verlengd, voor zover zij die                    concerné(s), dans le délai qu'elle a fixé, qui peut être prolongé pour informatie nodig acht om de correcte naleving van de artikelen 146sexies                des raisons légales, pour autant qu'elle estime que ces tot en met 146quaterdecies te verzekeren, van de betrokken                              informations soient nécessaires afin d'assurer le respect des intermediair(s) alle informatie vorderen die in toepassing van artikelen                articles 146sexies à 146quaterdecies inclus, toutes les informations 146sexies tot en met 146quaterdecies diende te worden gemeld aan de                     qui en application de l'article 146sexies à 146quaterdecies doivent Belgische bevoegde autoriteit.                                                          être mentionnées à l'autorité belge compétente.
 ----------                                                                              ---------- De beroepen tot gehele of gedeeltelijke vernietiging van de wet van 20.12.2019          Les recours en annulation totale ou partielle de la loi du 20.12.2019 (Fiscale transparantie binnen de Europese Unie - Agressieve grensoverschrijdende        (Transparence fiscale au sein de l'Union européenne - Dispositifs fiscaux fiscale constructies - Meldingsplicht - Intermediairs - Advocaten - Beroepsgeheim)      transfrontières à caractère agressif - Obligation de déclaration - Intermédiaires - Avocats - Secret professionnel) Het Hof vernietigt art. 146septdecies W.Succ. (GwH nr. 103/2022 d.d.                    La Cour annule l'art. 146septdecies C. succ. (C. const. n° 103/2022 du 15.09.2022 (B.S., 13.01.2023)).                                                         15.09.2022 (M.B., 13.01.2023)).
 
-BOEK II - TAKS TOT VERGOEDING DER                                                     LIVRE II - TAXE COMPENSATOIRE DES SUCCESSIERECHTEN                                                                    DROITS DE SUCCESSION
+## BOEK II - TAKS TOT VERGOEDING DER                                                     LIVRE II - TAXE COMPENSATOIRE DES SUCCESSIERECHTEN                                                                    DROITS DE SUCCESSION
 
 #### HOOFDSTUK I - Vestiging van de taks                                                    CHAPITRE I - Etablissement de la taxe
 
@@ -4534,7 +4534,7 @@ a) de buitenlandse bevoegde autoriteit van de lidstaat waaruit de               
 
 b) het derde land heeft zich ertoe verbonden de medewerking te                  b) le pays tiers concerné s'est engagé à coopérer pour réunir des verlenen die nodig is om bewijsmateriaal bijeen te brengen omtrent het          éléments prouvant le caractère irrégulier ou illégal des opérations ongeoorloofde of onwettige karakter van verrichtingen die blijken in            qui paraissent être contraires ou constituer une infraction à la strijd te zijn met of een misbruik te vormen van de belastingwetgeving.         législation fiscale.
 
-BOEK IIBIS - (…)                                                              LIVRE IIBIS - (…)
+## BOEK IIBIS - (…)                                                              LIVRE IIBIS - (…)
 
 (opgeheven bij art. 109 van de wet van 13.04.2019 (B.S., 30.04.2019 - ed. 1).   (abrogé par l’art. 109 de la loi du 13.04.2019 (M.B., 30.04.2019 - éd. 1).
 Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1))                        Texte applicable à partir du 01.01.2020 (art. 139, al. 1er))
@@ -4640,7 +4640,7 @@ Tekst van toepassing vanaf 01.01.2020 (art. 139, lid 1))                        
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)                                                  DROIT FUTUR (à partir du 01.01.2028)
 
-BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN                                             LIVRE III - DIGITALISATION DES RELATIONS DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE                                            ENTRE LE SERVICE PUBLIC FÉDÉRAL FINANCES, BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN                                                     LES CITOYENS, LES ENTREPRISES, LES EN BEPAALDE DERDEN                                                    PERSONNES MORALES ET CERTAINS TIERS
+## BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN                                             LIVRE III - DIGITALISATION DES RELATIONS DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE                                            ENTRE LE SERVICE PUBLIC FÉDÉRAL FINANCES, BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN                                                     LES CITOYENS, LES ENTREPRISES, LES EN BEPAALDE DERDEN                                                    PERSONNES MORALES ET CERTAINS TIERS
 
 (Boek III hersteld bij art. 118 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed.     (Livre III rétabli par l'art. 118 de la loi du 12.05.2024 (M.B., 30.05.2024 – éd.
 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een        2). Texte applicable pour toutes ou certaines catégories de titulaires d’un ondernemingsnummer, evenals voor natuurlijke personen, op een datum                   numéro d’entreprise, ainsi que pour les personnes physiques, à compter de la respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))   date à fixer respectivement par le Roi, et au plus tard le 01.01.2028 (art. 222))
@@ -4663,7 +4663,7 @@ tijdsaanduiding, en zo ook de bewaring van het verzonden bericht                
 
 -----                                                                                -----
 
-boek III - (…)                                                                      Livre III - (…)
+## boek III - (…)                                                                      Livre III - (…)
 
 (Boek III opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed.     (Livre III abrogé par l’art. 95 de la loi du 21.12.2013 (M.B., 31.12.2013 - éd.
 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))                                  2). Texte applicable à partir du 01.01.2011 (art. 95))

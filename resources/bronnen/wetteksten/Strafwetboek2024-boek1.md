@@ -42,14 +42,14 @@ Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
 
 #### HOOFDSTUK 2. - Het Strafwetboek
 
-Boek I. -
+## Boek I. -
 
 ## Art. 2
 
 De hiernavolgende bepalingen vormen boek I van het Strafwetboek:
 "Boek 1. Algemene regels van het strafrecht
 
-Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel
+#### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel
 Niemand kan worden gestraft voor een misdrijf waarvan de bestanddelen niet in de wet worden omschreven.
 Niemand kan worden gestraft met een straf waarin de wet niet voorziet.
 Dit artikel staat niet in de weg aan de berechting en bestraffing van iemand die schuldig is aan een handelen of nalaten dat, ten tijde van het handelen of nalaten, een misdrijf was overeenkomstig de algemene beginselen die door de internationale volkerengemeenschap worden erkend.
@@ -74,7 +74,7 @@ Interpretatie van de strafwet
 De strafwet moet strikt worden geïnterpreteerd. Zij kan niet naar analogie worden toegepast in het nadeel van de vervolgde persoon.
 De strafwet kan worden toegepast op feiten die de wetgever volstrekt onmogelijk kon voorzien ten tijde van haar afkondiging op voorwaarde dat de wil van de wetgever om dat soort feiten tot misdrijf te maken zeker is en dat de feiten onder de wettelijke omschrijving van het misdrijf kunnen vallen.
 
-Hoofdstuk 2. Misdrijf
+#### Hoofdstuk 2. Misdrijf
 
 ##### Afdeling 1. Definitie van het misdrijf
 
@@ -160,7 +160,7 @@ Er is evenwel wettige verdediging en dus geen misdrijf wanneer iemand, die niet 
 Wettig verzet in geval van misbruik door de overheid
 Er is geen misdrijf wanneer actief of passief verzet wordt geboden tegen een kennelijk onwettige daad van de overheid, die een onverwijlde reactie noodzakelijk maakt teneinde onherstelbare schade te voorkomen, en dit verzet wordt uitgeoefend op een manier die evenredig is met de aard en het belang van de onwettigheid.
 
-Hoofdstuk 3. Dader van het misdrijf
+#### Hoofdstuk 3. Dader van het misdrijf
 
 ##### Afdeling 1. Daderschap en deelneming
 
@@ -244,7 +244,7 @@ Een persoon is niet strafrechtelijk verantwoordelijk als hij op het tijdstip van
 Minderjarigheid
 Behoudens in de gevallen bij wet bepaald, is een persoon niet strafrechtelijk verantwoordelijk als hij op het tijdstip van de feiten de leeftijd van achttien jaar niet heeft bereikt.
 
-Hoofdstuk 4. Straffen
+#### Hoofdstuk 4. Straffen
 
 ##### Afdeling 1. Algemeen
 
@@ -728,7 +728,7 @@ Het uitstel kan worden herroepen indien bij een in kracht van gewijsde getreden 
 Het probatie-uitstel kan eveneens worden herroepen in geval van een andere ernstige niet-naleving van de algemene of bijzondere probatievoorwaarden.
 Wanneer het uitstel kan worden herroepen, doet de strafuitvoeringsrechtbank uitspraak over het verzoek tot herroeping ingediend door het openbaar ministerie. Het verzoek tot herroeping wegens ernstige niet-naleving van de probatievoorwaarden moet uiterlijk binnen een jaar na het verstrijken van de proeftijd van het uitstel worden ingesteld. Het verjaart een jaar na de dag waarop zij bij de strafuitvoeringsrechtbank is aangebracht.
 
-Hoofdstuk 5. Burgerrechtelijke bepalingen en beveiligingsmaatregelen
+#### Hoofdstuk 5. Burgerrechtelijke bepalingen en beveiligingsmaatregelen
 
 ## Art. 66
 
@@ -773,7 +773,7 @@ Wanneer de rechter de ontbinding uitspreekt, verwijst hij de zaak naar het gerec
 Onwaardigheid om te erven
 In de bij wet bepaalde gevallen kan de rechter ook de onwaardigheid om te erven uitspreken, waardoor de dader van de nalatenschap van het slachtoffer wordt uitgesloten.
 
-Hoofdstuk 6. Tenietgaan en verjaring van straffen en van burgerlijke veroordelingen
+#### Hoofdstuk 6. Tenietgaan en verjaring van straffen en van burgerlijke veroordelingen
 
 ## Art. 73
 
@@ -796,7 +796,7 @@ Verjaring van burgerrechtelijke veroordelingen
 Burgerrechtelijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in strafzaken, verjaren volgens de regels van het burgerlijk recht, te rekenen van de dag waarop zij in kracht van gewijsde zijn getreden.
 De onwaardigheid om te erven, door de rechter uitgesproken op grond van artikel 72 verjaart niet. Ze kan opgeheven worden door vergiffenis, door het slachtoffer geschonken overeenkomstig artikel 4.7 van het Burgerlijk Wetboek.
 
-Hoofdstuk 7. Diverse bepalingen
+#### Hoofdstuk 7. Diverse bepalingen
 
 ## Art. 76
 
