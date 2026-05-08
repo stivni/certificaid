@@ -34,7 +34,7 @@ provenance:
 # Gedragslijnen Relaties Ibr
 
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
-HET IBR, HET lAB EN HET BIBF
+HET IBR, HET IAB EN HET BIBF
 
 Overwegende:
 Dat de drie Instituten duidelijk hun wil hebben uitgedrukt om de evenwichtige
@@ -59,15 +59,12 @@ Dat rekening werd gehouden met het advies van 19 juli 2005 van de Hoge Raad voor
 Economische Beroepen betreffende deze gedragslijnen ,"
 Dat deze gedragslijnen de plichtenleer van de respectievelijke Instituten, vastgesteld bij de
 koninklijke besluiten van 10 januari 1994 (IBR), 23 december 1997 (BIB - thans BIBF) en 1
-maart 1998 (IDAC - thans lAB), nader invullen en derhalve steeds dienen gelezen te worden
+maart 1998 (IDAC - thans IAB), nader invullen en derhalve steeds dienen gelezen te worden
 in overeenstemming met deze reglementaire bepalingen ,"
-
-1/4
-
-Dat deze gedragslijnen de bestaande deontologische aanbevelingen betreffende de
+Dat deze gedragslijnen de bestaande deontologische aanbevelingen betreffende de
 wederzijdse relaties in het kader van de beroepsuitoefening die van kracht waren tussen
-enerzijds het IDAC (nu het lAB) en het BIB (thans BIBF), alsook deze die van kracht waren
-tussen het IDAC (thans lAB) en het IBR, vervangen;
+enerzijds het IDAC (nu het IAB) en het BIB (thans BIBF), alsook deze die van kracht waren
+tussen het IDAC (thans IAB) en het IBR, vervangen;
 Dat deze gedragslijnen werden goedgekeurd door:
 de Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten op
 21 maart 2008
@@ -78,7 +75,7 @@ Dat deze gedragslijnen van kracht worden op 1 juni 2008;
 
 Definities
 
-De woorden "leden van een ander Instituut" verwijzen naar de leden van het IBR, het lAB en
+De woorden "leden van een ander Instituut" verwijzen naar de leden van het IBR, het IAB en
 het BIBF.
 Een "niet-permanente controleopdracht" is een opdracht, voorzien door of krachtens de wet,
 die geen commissarismandaat is, die erin bestaat fmanciële informatie te controleren en die
@@ -99,10 +96,7 @@ externe accountant - noch hijzelf, noch een persoon met wie hij beroepshalve in
 samenwerkingsverband staat -, zich in een situatie bevinden of hebben bevonden in de loop
 van de twee jaren voorafgaand aan de opdracht die zijn onafhankelijkheid in vraag stelt in de
 entiteit die het voorwerp uitmaakt van de controleopdracht.
-
-2/4
-
-Tweede principe - Aanvaarding van een raadgevende opdracht
+Tweede principe - Aanvaarding van een raadgevende opdracht
 
 Na het uitvoeren van een niet-permanente controleopdracht in een entiteit waarvan een lid
 van een ander Instituut de gewoonlijke raadgever is, dient de bedrijfsrevisor of externe
@@ -141,10 +135,7 @@ zijn opvolger in kennis te stellen van alle elementen die, indien de betrokken o
 hiervan op de hoogte was, hem ertoe zouden kunnen leiden de opdracht te weigeren.
 De contacten tussen voorganger en opvolger zullen van die aard zijn dat een bewijs kan
 worden geleverd van de naleving van voornoemde gedragslijnen.
-
-3/4
-
-Vijfde principe - Onbetaalde erelonen
+Vijfde principe - Onbetaalde erelonen
 
 Onverminderd de striktere deontologische bepalingen eigen aan elk beroep, is de opvolger
 gehouden te informeren naar de betaling van de verschuldigde en onbetwiste erelonen van
@@ -160,5 +151,3 @@ hoffelijkheid, ter beschikking te stellen van de entiteit of van het lid van een
 dat hem opvolgt.
 De voorganger dient een inventaris op te maken in tweevoud, die door hem en zijn geldig
 gevolmachtigde opvolger of door de entiteit zullen worden gedateerd en getekend.
-
-4/4

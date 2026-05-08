@@ -116,13 +116,6 @@ aangenomen. Deze werd op 3 april 2020 voor advies aan de Hoge Raad voor de
 Economische Beroepen voorgelegd.
 
 
-
-
-
-
-BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
-
-
 ## 1. Algemene bepalingen
 
 Definities
@@ -208,9 +201,6 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
             Belastingconsulenten.
 
 
-
-
-
 18° “kantoor”:
 
      a)    voor de norm van het Instituut van de Bedrijfsrevisoren: een rechtspersoon
@@ -253,8 +243,6 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
 
 20° “CFI”: de Cel voor financiële informatieverwerking bedoeld in artikel 76 van de
 Wet.
-
-
 
 
 1.2   Voor het overige hebben de in deze norm gebruikte termen dezelfde betekenis als in
@@ -348,7 +336,6 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft
       van artikel 8 van de Wet
 
 
-
 2.7   Onverminderd de toepassing van artikel 8, §2, 2°, a) van de Wet, moet een kantoor
       of netwerk waarbij minstens honderd beroepsbeoefenaars, zoals bedoeld in artikel 1,
       9° a), b) of c) van deze norm, een activiteit uitoefenen en/of een deelname hebben in
@@ -393,9 +380,6 @@ Een algemene risicobeoordeling uitvoeren
       bedoeld in artikel 16 van de Wet, houdt ten minste rekening met:
 
 
-
-
-
       1° de variabelen vermeld in bijlage I van deze norm en met de in bijlage III van deze
       norm vermelde factoren die wijzen op een potentieel hoger risico, alsook met de
       artikelen 37 tot 41 van de Wet;
@@ -437,7 +421,6 @@ Vaststellen van risiciocategorieën
 
          3° de Belgische risicoanalyse inzake WG/FT, alsook deze van de Europese
          Commissie.
-
 
 
 Actualisering
@@ -487,8 +470,6 @@ Hij dient een cliëntacceptatiebeleid uit te stippelen en ten uitvoer te leggen 
       deze norm, verdeelt.
 
 
-
-
       Het cliëntacceptatiebeleid maakt het ook mogelijk om bindende bepalingen
       betreffende financiële embargo's zoals bedoeld in artikel 4, 6° van de Wet ten uitvoer
       te leggen.
@@ -532,8 +513,6 @@ Identificatieverplichting en verificatie van de identificatiegegevens
       de beroepsbeoefenaar over tot de identificatie en de verificatie van de identiteit van
       de cliënten, de lasthebbers en/of de uiteindelijke begunstigden en dit overeenkomstig
       de artikelen 21 tot 32 van de Wet.
-
-
 
 
 4.5   Als er redenen bestaan om te twijfelen aan de pertinentie of de geloofwaardigheid
@@ -581,8 +560,6 @@ Verhoogde waakzaamheid
 Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers
 
 
-
-
 4.10 De beroepsbeoefenaar mag beroep doen op een derde zaakaanbrenger - die zelf een
      aan een gelijkwaardige antiwitwasregelgeving onderworpen entiteit is - voor de
      nakoming van zijn verplichtingen betreffende de identiteit van de cliënt, van diens
@@ -624,9 +601,6 @@ Prestaties binnen een netwerk
             het lid van het netwerk meegedeeld;
 
       -     de beroepsbeoefenaar factureert de prestaties aan het lid van zijn netwerk.
-
-
-
 
 
 ## 5. Onderzoek van de verrichtingen
@@ -720,7 +694,6 @@ Melding van vermoedens
 ## 7. Beperkingen van het gebruik van contanten
 
 
-
 Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te
 vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten
 verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de
@@ -728,9 +701,6 @@ CFI.
 
 Voor zover nodig, verwijzen de beroepsbeoefenaars naar de mededelingen van hun
 respectievelijke instituten.
-
-
-
 
 
 ## 8. Toezicht en controle
@@ -764,9 +734,6 @@ deze norm te controleren is de beroepsbeoefenaar verplicht:
      Belastingconsulenten d.d. 1 oktober 2011 inzake de toepassing van de wet van 11
      januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het
      WG/FT, die opgeheven wordt.
-
-
-
 
 
 BIJLAGEN
@@ -815,7 +782,6 @@ deze norm zijn de volgende:
            niet als zekerheidstelling kunnen dienen;
 
 
-
      c)    een pensioenstelsel, een pensioenfonds of een soortgelijk stelsel dat pensioenen
            uitkeert aan werknemers, waarbij de bijdragen worden ingehouden op het loon
            en de regels van het stelsel de deelnemers niet toestaan hun rechten uit hoofde
@@ -860,8 +826,6 @@ deze norm zijn de volgende:
            van persoonlijke activa;
 
 
-
-
   d)    vennootschappen met gevolmachtigde aandeelhouders ("shareholders") of met
         aandelen aan toonder;
 
@@ -901,9 +865,6 @@ deze norm zijn de volgende:
   d)    landen die financiering of ondersteuning verschaffen voor terroristische
         activiteiten, of op het grondgebied waarvan als terroristisch aangemerkte
         organisaties actief zijn.
-
-
-
 
 
 ## Bijlage IV. Beslissingsbomen ter illustratie

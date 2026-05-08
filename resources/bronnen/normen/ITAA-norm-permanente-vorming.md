@@ -40,21 +40,8 @@ Norm met betrekking tot
           de permanente vorming
 
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
 INHOUDSTAFEL
 
-
-
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
 
 Gezien artikel 39, vierde lid van de wet van 17 maart 2019 betreffende de beroepen van accountant
 en belastingadviseur, dat bepaalt dat de inhoud en het minimumaantal uren permanente vorming
@@ -117,10 +104,6 @@ SAMEN MET DE BIJLAGEN.
  zonder het voeren van de beroepstitel.
 
 
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
  Hij zet daartoe op regelmatige basis en op continue wijze een permanente vorming voort om zijn
  beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.
 
@@ -182,8 +165,6 @@ goedgekeurd door de Raad van 1 december 2020.
          13. Belasting over de toegevoegde waarde;
          14. Fiscale procedure;
 
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
 
            15. Registratie- en successierechten;
            16. Regionale en lokale belastingen;
@@ -246,9 +227,6 @@ goedgekeurd door de Raad van 1 december 2020.
      -     zij hebben duidelijke opleidingsdoelen ten aanzien van de relevante vakgebieden.
 
 
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
  §2. Een seminarie, een studiedag, een vormingscyclus of een vorming op afstand over een relevant
  vakgebied die in België of in het buitenland heeft plaatsgevonden, die niet georganiseerd werd door
  een erkende vormingsoperator en waarvoor de organisator geen aanvraag tot erkenning heeft
@@ -310,9 +288,6 @@ goedgekeurd door de Raad van 1 december 2020.
  bepaald door de Raad van het Instituut.
 
 
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
  Dat verslag wordt waarheidsgetrouw ingevuld en wordt ten laatste twee maanden na het afsluiten
  van het kalenderjaar afgesloten.
 
@@ -363,19 +338,12 @@ goedgekeurd door de Raad van 1 december 2020.
  termijn, verwijst de Raad het betrokken lid van het Instituut naar de tuchtinstanties van het Instituut.
 
 
-
-
 ## Artikel 11 - Sanctie
 
  Elke inbreuk van het lid van het Instituut op onderhavige norm wordt, overeenkomstig artikel 36, §1
  van de Beroepenwet, beschouwd als een inbreuk tegen het wettelijk, reglementair en normatief kader
  waarbinnen de beroepsactiviteiten worden uitgeoefend.
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
 
  Overeenkomstig artikel 92 van de Beroepenwet kan een of meerdere tuchtstraffen worden opgelegd
  aan personen ingeschreven in het openbaar register wanneer inbreuken zijn vastgesteld tegen het
@@ -388,7 +356,6 @@ goedgekeurd door de Raad van 1 december 2020.
  Wanneer de Raad van het Instituut vaststelt dat de betrokkene binnen drie maanden na de
  terechtwijzing geen gevolg geeft aan de terechtwijzing, kan de Raad van het Instituut de
  hoedanigheid van de betrokkene intrekken.
-
 
 
 ## Artikel 12 - Publicatie vormingsactiviteiten
@@ -432,16 +399,9 @@ goedgekeurd door de Raad van 1 december 2020.
  driejarige periode, voorzien in artikel 3 van deze norm.
 
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
  In afwijking van artikel 1, voorlaatste en laatste lid van deze norm, wordt de berekening van het aantal
  uren vormingsactiviteiten van categorie A en van categorie B in de kalenderjaren 2021 en 2022 op
  jaarlijkse basis uitgevoerd.
-
 
 
 ## Artikel 15 - Inwerkingtreding
@@ -454,12 +414,6 @@ goedgekeurd door de Raad van 1 december 2020.
      -   de richtlijn betreffende de permanente vorming van de Raad van de erkende boekhouders
          (- fiscalisten) en de stagiairs boekhouders (-fiscalisten)van 19 mei 2006.
 
-
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
 
          BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
                                     vormingsactiviteiten
@@ -507,12 +461,6 @@ goedgekeurd door de Raad van 1 december 2020.
                   de vormingen.
 
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
                               Punt 3 - Erkenning vormingsoperatoren
 
  De aanvraag tot erkenning als vormingsoperator, moet bij het Instituut worden ingediend en vergezeld
@@ -557,12 +505,6 @@ goedgekeurd door de Raad van 1 december 2020.
 
  De erkenning geldt voor een periode van drie jaar en is hernieuwbaar op eenvoudig verzoek.
 
-
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
 
                     Punt 4 - Procedure tot erkenning van vormingsactiviteiten
 
@@ -624,10 +566,6 @@ goedgekeurd door de Raad van 1 december 2020.
  ontving vanwege het Instituut.
 
 
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
                              Punt 7 - Controle op de vormingsactiviteit
 
  De controle door het Instituut, houdt in dat de vertegenwoordiger(s) die door de Raad van het Instituut
@@ -660,15 +598,7 @@ goedgekeurd door de Raad van 1 december 2020.
  van vormingsoperatoren, dit ten belope van de duurtijd van de verbintenis.
 
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.
-
          BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
-
-
 
 
          Erkende                           Geregistreerde
@@ -696,8 +626,3 @@ goedgekeurd door de Raad van 1 december 2020.
                                                                                   RAAD
 
 
-
-
-
-© ITAA – Norm permanente vorming van het Instituut van de Belastingadviseurs en de Accountants,
-goedgekeurd door de Raad van 1 december 2020.

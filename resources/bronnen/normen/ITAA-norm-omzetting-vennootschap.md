@@ -58,16 +58,15 @@ Deze aanpassingen, die eveneens medegedeeld zijn aan de Hoge Raad voor de Econom
 ### De boekhoudreglementering
 
 	- Inzake het voeren van de boekhouding :
-		
+
 			de wet van 17 juli 1975 op de boekhouding van de ondernemingen (Boekhoudwet) en haar uitvoeringsbesluiten van 12 september 1983;
 			- het Wetboek van vennootschappen.
-		
-	
+
+
 	- - Inzake het opstellen van de jaarrekening:
-		
+
 			het Wetboek van vennootschappen (artikel 92) en uitvoeringsbesluit van 30 januari 2001.
-		
-	
+
 
 De betrokken vennootschap kan ook onderworpen zijn aan de toepassing van een specifieke boekhoudreglementering.
 
@@ -98,7 +97,7 @@ Onder de beroepsbeoefenaar wordt in deze normen verstaan, de bedrijfsrevisor of 
 3.1. Onder een gelijkaardige tussentijdse situatie wordt verstaan, een staat van activa en passiva, opgesteld volgens de principes en omvattende tenminste de rubrieken zoals weergegeven in de boekhoudreglementering inzake het opstellen van de jaarrekening. De staat van activa en passiva moet zonder toevoeging, noch weglating voortvloeien uit de balans van de rekeningen.
 
 De tussentijdse staat moet worden opgemaakt, rekening houdend met de waardecorrecties, de pro rata van de kosten (met inbegrip van de vergoeding van de bedrijfsleiders, de afschrijving, de voorraadwijzigingen, de te betalen vakantiegelden, eindejaarspremies en andere premies, de belastingen, enz.) overeenkomstig de waarderingsregels.
-  
+
  3.2. Het *netto-actief* omvat het kapitaal, de uitgiftepremies, de herwaarderingsmeerwaarden, de reserves, de overgedragen winst of het overgedragen verlies en de kapitaalsubsidies.
 
 Onder het *kapitaal* moet worden begrepen, de som van het gestorte kapitaal en van het opgevraagde, niet gestorte gedeelte van het geplaatste kapitaal. Het maatschappelijk kapitaal dat in aanmerking moet genomen worden voor de vergelijking met NV’s, BVBA’s, en Comm. VA’s is het kapitaal, zoals dit bepaald wordt in de statuten van de vennootschap op de datum van het opstellen van de staat van activa en passiva; de uitgiftepremies en andere bestanddelen van het eigen vermogen komen niet in aanmerking. Wat de vennootschappen onder firma betreft, dient verwezen te worden naar het kapitaal dat in de statuten van de vennootschap zal zijn vastgesteld na de omzetting (artikel 776, 3de lid W. Venn.). Voor het kapitaal van coöperatieve vennootschappen (bestaande uit het vaste en veranderlijke gedeelte), zal de beroepsbeoefenaar het register van de coöperanten op de datum van het afsluiten van de staat van activa en passiva raadplegen.
@@ -214,7 +213,7 @@ Als hij ernstige leemten vaststelt in de administratieve organisatie, dan moet h
 	- het algemeen materialiteitsbeginsel.
 
 Hij moet altijd in staat zijn om zijn beslissingen te motiveren.
-  
+
  4.3. De beroepsbeoefenaar zal een dusdanig werkprogramma opstellen dat het risico op het formuleren van een foutief besluit met betrekking tot de boekhoudkundige staat wordt teruggebracht tot een aanvaardbaar niveau; bij het bepalen van de te verrichten verificaties zal hij rekening houden met het algemene materialiteitsprincipe.
 
 De toepassing van het algemeen materialiteitsprincipe moet aangepast zijn aan het doel van het opsporen van de overwaarderingen in de rubrieken van het actief en onderwaarderingen in de rubrieken van het passief, met uitzondering van eigen vermogen. Aldus kan de beroepsbeoefenaar zijn werkzaamheden beperken indien hij overeenkomstig punt 2.4.2. kan besluiten dat het risico op onjuistheden die leiden tot de overwaardering van het eigen vermogen van gering belang is.
@@ -233,7 +232,7 @@ Indien de beroepsbeoefenaar redenen heeft om aan te nemen dat er zich wellicht e
 De beroepsbeoefenaar moet nagaan in welke mate rekening wordt gehouden met alle elementen die van aard zijn om het vermogen van de vennootschap negatief te beïnvloeden.
 
 Het maatschappelijk kapitaal vermeld in de boekhoudkundige staat moet het kapitaal zijn dat bestaat op de datum dat de boekhoudkundige staat wordt opgesteld. Een wijziging van het kapitaal die na die datum doorgevoerd zou worden, kan niet
-  
+
  opgenomen worden in de staat. De beroepsbeoefenaar zal het voorstel tot wijziging van het kapitaal in zijn verslag vermelden, zonder dat deze vermelding zijn besluit mag beïnvloeden (zie ook 2.8.1.).
 
 ## 6. De beroepsbeoefenaar berekent het netto-actief van de vennootschap met aandacht voor de naleving van de wettelijke en reglementaire bepalingen, in hoofdzaak met betrekking tot de samenstelling van het maatschappelijk kapitaal van de vennootschap.
@@ -307,7 +306,7 @@ Indien de beroepsbeoefenaar het noodzakelijk acht, kan hij commentaar geven bij 
 In het geval de correcties voor gevolg zouden hebben dat het netto-actief kleiner wordt dan het maatschappelijk kapitaal, dan zal de beroepsbeoefenaar de door hemzelf gecorrigeerde cijfers gebruiken om het netto-actief te berekenen vermeld in het besluit van zijn verslag.
 
 5.2. De beroepsbeoefenaar, die in de loop van zijn werkzaamheden een inbreuk vaststelt op de boekhoudwet en haar uitvoeringsbesluiten in verband met de opstelling van de boekhoudkundige staat, zal, onverminderd formele aspecten van ondergeschikt belang, daarvan melding moeten maken in zijn verslag, overeenkomstig het artikel 16 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen.
-  
+
  5.3. De beroepsbeoefenaar, die in de loop van zijn werkzaamheden een betekenisvolle inbreuk vaststelt op het Wetboek van vennootschappen en de statuten, zal dit vermelden in zijn verslag, in de mate waarin deze inbreuk invloed kan hebben op :
 
 	- de beslissing van de algemene vergadering;
@@ -347,7 +346,7 @@ De beroepsbeoefenaar zal echter in zijn verslag en eventueel in het besluit van 
 2.3. Als het netto-actief tenminste overeenstemt met het bedrag van het maatschappelijk kapitaal, maar kleiner is dan het minimumkapitaal vereist door het Wetboek van vennootschappen, dan moet de beroepsbeoefenaar daar melding van maken in zijn verslag. Het tweede lid van paragraaf 4.2.2.2. is eveneens toepasselijk.
 
 2.4. Het niet voldoen aan de vereiste van het minimumkapitaal van de vennootschapsvorm waarnaar wordt omgezet, bepaald in het Wetboek van vennootschappen moet ook worden gemeld, zelfs als het netto-actief groter is dan dit wettelijk minimum.
-  
+
  In zulke gevallen is het gebruikelijk dat de vennootschap beslist haar kapitaal te verhogen voorafgaand aan de verrichting van omzetting, om het minimumkapitaal te bereiken vereist voor de vorm van de vennootschap waarin zij zich omzet. De beroepsbeoefenaar zal dan nagaan dat ofwel voldoende bestanddelen van het eigen vermogen voorhanden zijn (in de mate dat deze de overgedragen verliezen overtreffen) behoorlijk goedgekeurd door de algemene vergadering, ofwel dat voorafgaandelijk de statutaire afsluitdatum van het boekjaar is gewijzigd om toe te laten de door de algemene vergadering goedgekeurde winst van het boekjaar te incorporeren in het kapitaal.
 
 2.5. De omzetting van een vennootschap met onbeperkte aansprakelijkheid in een besloten vennootschap met beperkte aansprakelijkheid of een coöperatieve vennootschap met beperkte aansprakelijkheid kan gebeuren voor zover het netto- actief tenminste overeenstemt met het minimum te volstorten kapitaal (6.200 EUR). Indien dit niet het geval is, dient de ontoereikendheid van het geplaatste kapitaal te worden vermeld, alsook het risico dat hieruit voortvloeit op het vlak van de aansprakelijkheid van de partijen.
@@ -391,54 +390,44 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 ## Bijlage 2 : Cijfervoorbeeld in duizenden EURO van de hypotheses vermeld in paragraaf 2.6. en 4.2. van de normen
 
 ## 1. Omzetting van een BVBA in NV
- 
 
-	
-		
+
 			| 
 				Norm
 
-			 
+
 			| 
 				Eigen vermogen
 
-			 
+
 			| 
 				Kapitaal vóór de verrichting
 
-			 
+
 			| 
 				Kapitaal ná de verrichting
 
-			 
-		
 
-		
 			| 
-				 
 
-			 
+
 			| 
-				 
 
-			 
+
 			| 
 				Geplaatst
 
 				Volgestort
 
-			 
+
 			| 
 				Geplaatst
 
 				Volgestort
 
-			 
-		
 
-		
 			| 
-				 
+
 
 				2.6.1.
 
@@ -452,9 +441,9 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				4.2.4.
 
-			 
+
 			| 
-				 
+
 
 				2.600
 
@@ -467,9 +456,9 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				3.000
 
-			 
+
 			| 
-				 
+
 
 				2.500           2.500
 
@@ -483,9 +472,9 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				1.500           1.500
 
-			 
+
 			| 
-				 
+
 
 				2.500         2.500
 
@@ -499,62 +488,46 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				2.500         2.500
 
-			 
-		
-
-	
-
- 
 
 ## 2. Omzetting van een NV in BVBA
- 
 
-	
-		
+
 			| 
 				Norm
 
-			 
+
 			| 
 				Eigen vermogen
 
-			 
+
 			| 
 				Kapitaal vóór de verrichting
 
-			 
+
 			| 
 				Kapitaal ná de verrichting
 
-			 
-		
 
-		
 			| 
-				 
 
-			 
+
 			| 
-				 
 
-			 
+
 			| 
 				Geplaatst
 
 				Volgestort
 
-			 
+
 			| 
 				Geplaatst
 
 				Volgestort
 
-			 
-		
 
-		
 			| 
-				 
+
 
 				4.2.2.1.
 
@@ -566,20 +539,17 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				4.2.2.2.
 
-			 
+
 			| 
-				 
+
 
 				1.200
 
 				1.200
 
 
-
-
-			 
 			| 
-				 
+
 
 				1.250           1.250
 
@@ -591,9 +561,9 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				2.500           2.500
 
-			 
+
 			| 
-				 
+
 
 				750            750
 
@@ -605,79 +575,58 @@ Onze werkzaamheden zijn er inzonderheid op gericht na te gaan of er enige overwa
 
 				750            750
 
-			 
-		
-
-	
-
- 
 
 ## 3. Omzetting van een vennootschap met onbeperkte aansprakelijkheid in een coöperatieve vennootschap met beperkte aansprakelijkheid
- 
 
-	
-		
+
 			| 
 				Norm
 
-			 
+
 			| 
 				Eigen vermogen
 
-			 
+
 			| 
 				Kapitaal vóór de verrichting
 
-			 
+
 			| 
 				Kapitaal ná de verrichting
 
-			 
-		
 
-		
 			| 
-				 
 
-			 
+
 			| 
 				Geplaatst* Volgestort
 
-			 
+
 			| 
 				Geplaatst
 
 				Volgestort
 
-			 
-		
 
-		
 			| 
-				 
+
 
 				4.2.5.
 
-			 
+
 			| 
-				 
 
 
-			 
 			| 
-				 
+
 
 				750                 250
 
-			 
+
 			| 
-				 
+
 
 				750            250
 
-			 
-		
-
-	
 
 * bij onderhandse akte gebracht op 750.

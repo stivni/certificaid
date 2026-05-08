@@ -241,15 +241,32 @@ def check_heading_structure(body: str, file_size: int) -> tuple[CheckResult, int
     return CheckResult(name="heading_structure", status="pass", detail=f"{heading_count} ## headings"), heading_count
 
 
-def check_max_section(body: str) -> tuple[CheckResult, int]:
+def check_max_section(body: str, heading_count: int) -> tuple[CheckResult, int]:
+    """Beoordeel maximale sectiegrootte tussen ## headings.
+
+    - FAIL: max_section > 24K én géén ## headings (één megachunk, geen structuur)
+    - WARN: max_section > 24K mét ## headings (chunker zal auto-splitsen op 8K-grenzen,
+            maar minder semantische chunks dan ideaal)
+    - PASS: max_section ≤ 24K
+    """
     lengths = _section_lengths(body)
     max_len = max(lengths) if lengths else 0
     if max_len > MAX_SECTION_CHARS:
+        if heading_count == 0:
+            return (
+                CheckResult(
+                    name="max_section_size",
+                    status="fail",
+                    detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS}) zonder enige ## structuur",
+                ),
+                max_len,
+            )
         return (
             CheckResult(
                 name="max_section_size",
-                status="fail",
-                detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS} = RAG-bovengrens)",
+                status="warn",
+                detail=f"langste sectie: {max_len} chars (>{MAX_SECTION_CHARS}); "
+                       f"chunker splitst auto op alinea-grenzen via split_long_chunk",
             ),
             max_len,
         )
@@ -330,6 +347,7 @@ def check_no_ocr_flags(body: str) -> CheckResult:
 # ─── Pipeline ────────────────────────────────────────────────────────────────
 
 def qa_one_bron(path: Path) -> BronReport:
+    path = path.resolve()
     text = path.read_text(encoding="utf-8")
     frontmatter, body = _split_frontmatter(text)
     bron_rol = _bron_rol_from_path(path)
@@ -341,7 +359,7 @@ def qa_one_bron(path: Path) -> BronReport:
     heading_check, heading_count = check_heading_structure(body, len(body))
     checks.append(heading_check)
 
-    section_check, max_section = check_max_section(body)
+    section_check, max_section = check_max_section(body, heading_count)
     checks.append(section_check)
 
     checks.append(check_no_form_feed(body))

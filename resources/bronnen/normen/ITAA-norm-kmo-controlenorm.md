@@ -246,9 +246,9 @@ provenance:
 
  
 
-# **1. INLEIDING**
-## ***1.1 Toepassingsgebied***
-### **1.1.1 Ratione personae**
+## 1. INLEIDING
+## 1.1 Toepassingsgebied
+### 1.1.1 Ratione personae
 
 	§1. Deze norm is van toepassing op de beroepsbeoefenaren, zijnde:
 
@@ -266,7 +266,7 @@ provenance:
 
 	 
 
-	### **1.1.2. Ratione materiae**
+### 1.1.2. Ratione materiae
 	§2. Deze norm is van toepassing op:
 
 	
@@ -330,20 +330,20 @@ provenance:
 
 	 
 
-	## ***1.2. Datum van inwerkingtreding***
+## 1.2. Datum van inwerkingtreding
 	§8. Deze norm treedt in werking op op de datum van publicatie in het Belgisch Staatsblad van het bericht tot goedkeuring van de minister die bevoegd is voor Economie.
 
 	 
 
-# **2. GEMEENSCHAPPELIJKE PRINCIPES VOOR DE BEROEPSBEOEFENAARS DOOR DEZE NORM BEOOGD**
+## 2. GEMEENSCHAPPELIJKE PRINCIPES VOOR DE BEROEPSBEOEFENAARS DOOR DEZE NORM BEOOGD
 
-	## ***2.1. Algemene principes***
+## 2.1. Algemene principes
 	§9. Elke beroepsbeoefenaar respecteert de wettelijke, regelgevende en normatieve bepalingen voor wat zijn vakgebied betreft.
 
-	### **2.1.1 Evenredigheid**
+### 2.1.1 Evenredigheid
 	§10. De toepassing van de bepalingen van de norm is evenredig met de omvang en de aard van de activiteiten van de “kmo of kleine vzw” voor dewelke een opdracht wordt uitgevoerd.
 
-	### **2.1.2. Onafhankelijkheid**
+### 2.1.2. Onafhankelijkheid
 	§11. De onafhankelijkheid van de beroepsbeoefenaar dient vanuit twee onlosmakelijk verbonden gezichtspunten te worden beoordeeld:
 
 	1° de onafhankelijkheid qua geesteshouding, namelijk een morele houding waarbij alleen de overwegingen die voor de toevertrouwde taak van belang zijn, in aanmerking worden genomen bij de te nemen beslissingen in het kader van de uitvoering van een opdracht, en
@@ -434,7 +434,7 @@ provenance:
 
 	 
 
-	### **2.1.3. Ethische regels - Deontologie**
+### 2.1.3. Ethische regels - Deontologie
 	§25. De fundamentele principes inzake professionele ethiek bevatten:
 
 	
@@ -449,22 +449,22 @@ provenance:
 	
 	 
 
-	### **2.1.4. Vaste vertegenwoordiger**
+### 2.1.4. Vaste vertegenwoordiger
 	§26. Telkens als een opdracht wordt gegeven aan een kantoor moet dit onder zijn vennoten, zaakvoerders of bestuurders die beroepsbeoefenaar in de zin van onderhavige norm zijn een vertegenwoordiger-natuurlijke persoon aanduiden en die instaat voor de uitvoering van de opdracht in naam en voor rekening van het kantoor. Voor die vertegenwoordiger gelden dezelfde voorwaarden en dezelfde tuchtrechtelijke aansprakelijkheid als wanneer hij die opdracht in eigen naam en voor eigen rekening zou vervullen. Het betrokken kantoor kan zijn vertegenwoordiger enkel ontslaan als hij tegelijkertijd zijn opvolger aanstelt.
 
 	 
 
-	### **2.1.5. Professioneel-kritische instelling**
+### 2.1.5. Professioneel-kritische instelling
 	§27. Tijdens de uitvoering van zijn opdracht behoudt de beroepsbeoefenaar steeds een professioneel- kritische instelling, wat betekent dat hij een houding aanneemt die een onderzoekende geest, oplettendheid voor omstandigheden die kunnen wijzen op mogelijke afwijkingen als gevolg van fouten of fraude, en een kritische beoordeling van de assurance-informatie omvat.
 
 	 
 
-	### **2.1.6. Permanente vorming**
+### 2.1.6. Permanente vorming
 	§28. De beroepsbeoefenaar-natuurlijk persoon zet zijn permanente vorming op continue wijze voort om zijn theoretische kennis, zijn beroepsbekwaamheden en zijn beroepsethiek op een voldoende peil te houden.
 
 	 
 
-	### **2.1.7. Kwaliteitsbeheersing en toezicht**
+### 2.1.7. Kwaliteitsbeheersing en toezicht
 	§29. De opdrachtpartner neemt de verantwoordelijkheid voor de algemene kwaliteit van elke opdracht. Tijdens de volledige opdracht moet de opdrachtpartner door observatie, door controle van de documenten en door het verzoeken om inlichtingen waar nodig alert blijven voor aanwijzingen dat relevante ethische voorschriften en professionele normen niet werden nageleefd.
 
 	§30. De opdrachtpartner is verantwoordelijk voor:
@@ -484,8 +484,8 @@ provenance:
 
 	 
 
-	## ***2.2. Principes van toepassing op de opdracht***
-	### **2.2.1. Aanvaarding en behoud van de opdracht**
+## 2.2. Principes van toepassing op de opdracht
+### 2.2.1. Aanvaarding en behoud van de opdracht
 	§32. Alvorens een opdracht te aanvaarden, gaat de beroepsbeoefenaar na en documenteert hij of hij beschikt over de nodige bekwaamheid, medewerking, middelen en tijd vereist om deze opdracht goed uit te voeren.
 
 	§33. De beroepsbeoefenaar aanvaardt geen opdrachten onder voorwaarden die een objectieve uitvoering daarvan in het gedrang zouden kunnen brengen. Dit geldt ook voor het geval waarin het management of de met governance belaste personen in de opdrachtbrief aan de beroepsbeoefenaar een beperking van de reikwijdte van de werkzaamheden oplegt zodat deze beroepsbeoefenaar concludeert dat dit zal leiden tot een onmogelijkheid om een oordeel over de financiële overzichten of jaarrekening tot uitdrukking te brengen.
@@ -514,7 +514,7 @@ provenance:
 	
 	 
 
-	### **2.2.2. Opdrachtbrief**
+### 2.2.2. Opdrachtbrief
 	§39. Voorafgaand aan de uitvoering van de opdracht, moet de beroepsbeoefenaar van het management of de met governance belaste personen een opdrachtbrief verkrijgen die onder meer het volgende (Uitgangspunt met betrekking tot de verantwoordelijkheden van het management op basis waarvan een controle wordt uitgevoerd) bevat:
 
 	
@@ -553,7 +553,7 @@ provenance:
 
 	 
 
-	### **2.2.3. Uitvoering van de opdracht**
+### 2.2.3. Uitvoering van de opdracht
 	§42. Bij de uitvoering van de opdracht met betrekking tot financiële overzichten dient de beroepsbeoefenaar :
 
 	
@@ -570,7 +570,7 @@ provenance:
 	
 	 
 
-	### **2.2.4. Documentatie**
+### 2.2.4. Documentatie
 	§43. De beroepsbeoefenaar dient documentatie op te stellen die:
 
 	
@@ -613,7 +613,7 @@ provenance:
 
 	 
 
-	### **2.2.5. Verantwoordelijkheden van de beroepsbeoefenaar met betrekking tot fraude**
+### 2.2.5. Verantwoordelijkheden van de beroepsbeoefenaar met betrekking tot fraude
 	§50. De beroepsbeoefenaar dient:
 
 	
@@ -635,7 +635,7 @@ provenance:
 
 	 
 
-	### **2.2.6. Het in aanmerking nemen van wet- en regelgeving**
+### 2.2.6. Het in aanmerking nemen van wet- en regelgeving
 	§57. De beroepsbeoefenaar dient:
 
 	
@@ -651,7 +651,7 @@ provenance:
 
 	 
 
-	### **2.2.7. Continuïteit**
+### 2.2.7. Continuïteit
 	§59. De verantwoordelijkheid omtrent het beoordelen van de mogelijkheid om continuïteit te handhaven berust in de eerste plaats op het management of de met governance belaste personen. De beroepsbeoefenaar dient voldoende en geschikte assurance-informatie te verkrijgen om te kunnen concluderen of er sprake is van een onzekerheid van materieel belang met betrekking tot mogelijkheid om de continuïteit van de “kmo of kleine vzw” te handhaven.
 
 	§60. De beroepsbeoefenaar:
@@ -663,7 +663,7 @@ provenance:
 	
 	 
 
-	### **2.2.8. Gebeurtenissen na de einddatum van de verslagperiode**
+### 2.2.8. Gebeurtenissen na de einddatum van de verslagperiode
 	§61. De beroepsbeoefenaar dient werkzaamheden uit te voeren om voldoende en geschikte assurance-informatie te verkrijgen dat alle gebeurtenissen die zich tussen de datum van de financiële overzichten en de datum van het verslag voordoen en een aanpassing van of een toelichting in de financiële overzichten vereisen, zijn geïdentificeerd.
 
 	§62. De beroepsbeoefenaar is niet verplicht na de datum van het verslag werkzaamheden met betrekking tot de financiële overzichten uit te voeren. Indien echter een feit bij de beroepsbeoefenaar bekend wordt dat van invloed kan zijn op de conclusie van de beroepsbeoefenaar:
@@ -674,7 +674,7 @@ provenance:
 	
 	 
 
-	### **2.2.9. Communicatie met het management of de met governance belaste personen**
+### 2.2.9. Communicatie met het management of de met governance belaste personen
 	§63. De beroepsbeoefenaar moet tijdig communiceren met het management of de met governance belaste personen.
 
 	§64. De beroepsbeoefenaar:
@@ -696,7 +696,7 @@ provenance:
 
 	 
 
-	### **2.2.10. Schriftelijke bevestigingen**
+### 2.2.10. Schriftelijke bevestigingen
 	§68. De beroepsbeoefenaar dient het management te verzoeken om hem een schriftelijke bevestiging te verschaffen dat de verantwoordelijkheden van het management die beschreven staan in de overeengekomen opdrachtvoorwaarden werden nagekomen. De schriftelijke bevestigingen dienen te omvatten dat:
 
 	
@@ -721,10 +721,10 @@ provenance:
 
  
 
-# **3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)**
+## 3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)
 
-	## ***3.1. Risico’s    op    een    afwijking    van    materieel belang identificeren en inschatten & planning***
-	### **3.1.1. Planning**
+## 3.1. Risico’s    op    een    afwijking    van    materieel belang identificeren en inschatten & planning
+### 3.1.1. Planning
 	§70. De beroepsbeoefenaar plant de controle zodat de opdracht efficiënt kan worden uitgevoerd.
 
 	§71. De planning van een controle omvat het vaststellen van de algehele controleaanpak voor de opdracht alsmede het ontwikkelen van een controleprogramma ter zake.
@@ -746,7 +746,7 @@ provenance:
 
 	 
 
-	### **3.1.2. Risico’s op een afwijking van materieel belang identificeren en inschatten**
+### 3.1.2. Risico’s op een afwijking van materieel belang identificeren en inschatten
 
 	§74. De beroepsbeoefenaar dient de risico's te identificeren en in te schatten op een afwijking van materieel belang op het niveau van de financiële overzichten en beweringen als gevolg van fraude of van fouten, door inzicht te verwerven in de “kmo of kleine vzw” en haar omgeving, met inbegrip van haar interne beheersing, zodat een basis wordt verkregen voor het opzetten en implementeren van procedures om op de ingeschatte risico's op een afwijking van materieel belang in te spelen.
 
@@ -790,7 +790,7 @@ provenance:
 	
 	 
 
-	### **3.1.3. Materialiteit bij de planning en uitvoering van een opdracht**
+### 3.1.3. Materialiteit bij de planning en uitvoering van een opdracht
 
 	§78. De beroepsbeoefenaar dient op passende wijze het begrip materialiteit toe te passen bij de planning en de uitvoering van de opdracht.
 
@@ -814,9 +814,9 @@ provenance:
 
 	 
 
-	## ***3.2. Uit te voeren controleprocedures***
+## 3.2. Uit te voeren controleprocedures
 
-	### **3.2.1. Manieren om in te spelen op ingeschatte risico’s**
+### 3.2.1. Manieren om in te spelen op ingeschatte risico’s
 	§85. De beroepsbeoefenaar dient voldoende en geschikte assurance-informatie te verkrijgen over de ingeschatte risico’s op een afwijking van materieel belang door middel van het opzetten en implementeren van geschikte manieren om op deze risico’s in te spelen. Daarvoor gebruikt hij gegevensgerichte werkzaamheden5 (detailcontroles of gegevensgerichte cijferanalyses), toetsingen van interne beheersing of een combinatie van beide.
 
 	
@@ -880,7 +880,7 @@ provenance:
 		
 		- overtuigender assurance-informatie te verkrijgen naarmate het risico door de beroepsbeoefenaar hoger wordt ingeschat.
 	
-	#### Toetsingen van interne beheersingsmaatregelen
+#### Toetsingen van interne beheersingsmaatregelen
 	§97. Indien de beroepsbeoefenaar voornemens is op interne beheersing te steunen, moet hij toetsingen van deze interne beheersingsmaatregelen opzetten en uitvoeren om voldoende geschikte assurance-informatie te verkrijgen over de effectieve werking van de interne beheersing waarop hij wil steunen. Bij het opzetten en de uitvoering van toetsingen van interne beheersingsmaatregelen van moet de beroepsbeoefenaar overtuigender assurance-informatie verkrijgen naarmate hij in sterkere mate wil steunen op de effectiviteit van een interne beheersingsmaatregel.
 
 	§98. Overwegingen bij de uitvoering van toetsingen van interne beheersingsmaatregelen:
@@ -906,7 +906,7 @@ provenance:
 		
 	
 
-	#### Gegevensgerichte werkzaamheden6
+#### Gegevensgerichte werkzaamheden6
 	§99. Gegevensgerichte werkzaamheden zijn controlewerkzaamheden die erop gericht zijn afwijkingen van materieel belang op het niveau van beweringen op te sporen. Op basis van de oordeelsvorming van de beroepsbeoefenaar worden gegevensgerichte werkzaamheden uitgevoerd via detailcontroles van transacties, in de financiële overzichten opgenomen toelichtingen of de rekeningsaldi, gegevensgerichte cijferanalyses of een combinatie van die elementen.
 
 	
@@ -960,7 +960,7 @@ provenance:
 
 	 
 
-	### **3.2.2. Interventie van een dienstverlenende organisaties**
+### 3.2.2. Interventie van een dienstverlenende organisaties
 	§105. Wanneer de “kmo of kleine vzw” een beroep doet op de diensten van een dienstverlenende organisaties (serviceorganisaties), dient de beroepsbeoefenaar:
 
 	
@@ -971,7 +971,7 @@ provenance:
 
 	 
 
-	### **3.2.3. Overzicht van de geïdentificeerde afwijkingen tijdens de opdracht**
+### 3.2.3. Overzicht van de geïdentificeerde afwijkingen tijdens de opdracht
 	§107. De beroepsbeoefenaar oefent zijn professionele oordeelsvorming uit om te beoordelen dat de verkregen elementen voldoende en adequaat zijn, teneinde de redelijke zekerheid te verkrijgen dat de financiële overzichten geen afwijkingen van materieel belang bevat. Hij gaat voor de volledige duur van zijn opdracht na in welke mate het past om de aard, de timing en de omvang van de werkzaamheden te herzien in functie van de verkregen elementen.
 
 	§108. De beroepsbeoefenaar dient tijdens de controle geïdentificeerde afwijkingen te accumuleren, met uitzondering van afwijkingen die duidelijk triviaal zijn.
@@ -991,7 +991,7 @@ provenance:
 	
 	 
 
-	### **3.2.4. Cijferanalyses**
+### 3.2.4. Cijferanalyses
 
 	§111.     De beroepsbeoefenaar:
 
@@ -1006,14 +1006,14 @@ provenance:
 	
 	 
 
-	### **3.2.5. Steekproeven**
+### 3.2.5. Steekproeven
 	§112. De beroepsbeoefenaar dient bij het gebruiken van steekproeven een redelijke basis te leggen voor conclusies over de populatie waaruit de steekproef is getrokken. De beroepsbeoefenaar dient een steekproefomvang vast te stellen die voldoende is om het steekproefrisico tot een aanvaardbaar laag niveau terug te brengen.
 
 	§113. Het gebruiken van steekproeven bij een controle stelt de beroepsbeoefenaar in staat om assurance-informatie over bepaalde kenmerken van de geselecteerde elementen te verkrijgen en deze te evalueren, hetgeen hem in staat stelt of helpt een conclusie te trekken over de populatie waaruit de steekproef is getrokken. Wanneer steekproeven worden gebruikt, kan zowel een statistische als een niet-statistische benadering worden toegepast.
 
 	 
 
-	### **3.2.6. Boekhoudkundige schattingen**
+### 3.2.6. Boekhoudkundige schattingen
 	§114. De beroepsbeoefenaar dient voldoende en geschikte assurance-informatie te verkrijgen over de vraag of:
 
 	
@@ -1022,7 +1022,7 @@ provenance:
 	
 	 
 
-	### **3.2.7. Verbonden partijen**
+### 3.2.7. Verbonden partijen
 	§115.     De beroepsbeoefenaar:
 
 	
@@ -1040,8 +1040,8 @@ provenance:
 	
 	 
 
-	## ***3.3 Formulering van het oordeel en verslag***
-	### **3.3.1. Basis voor het oordeel**
+## 3.3 Formulering van het oordeel en verslag
+### 3.3.1. Basis voor het oordeel
 	§116.     De beroepsbeoefenaar dient:
 
 	
@@ -1062,7 +1062,7 @@ provenance:
 	
 	 
 
-	### **3.3.2. Aangepast oordeel**
+### 3.3.2. Aangepast oordeel
 
 	§118. De beroepsbeoefenaar formuleert duidelijk een passend gewijzigd oordeel (met voorbehoud, negatief of oordeelonthouding) betreffende de financiële overzichten:
 
@@ -1072,7 +1072,7 @@ provenance:
 	
 	 
 
-	#### **3.3.2.1. Financiële overzichten bevatten afwijkingen van materieel belang**
+#### **3.3.2.1. Financiële overzichten bevatten afwijkingen van materieel belang**
 	§119. De beroepsbeoefenaar dient een oordeel met voorbehoud tot uitdrukking te brengen wanneer:
 
 	
@@ -1097,28 +1097,28 @@ provenance:
 	
 	§120.   De beroepsbeoefenaar dient een afkeurend oordeel tot uitdrukking te brengen als hij, nadat hij voldoende en geschikte assurance-informatie heeft verkregen, tot de conclusie komt dat afwijkingen afzonderlijk of gezamenlijk zowel van materieel belang zijn voor, als een diepgaande invloed hebben op de financiële overzichten.
 
-	#### **3.3.2.2. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen**
+#### **3.3.2.2. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen**
 	§121. De beroepsbeoefenaar dient een oordeelonthouding te formuleren als hij niet in staat is voldoende en geschikte assurance-informatie te verkrijgen om daarop zijn oordeel te baseren en de beroepsbeoefenaar tot de conclusie komt dat de mogelijke gevolgen van eventuele niet- gedetecteerde afwijkingen voor de financiële overzichten zowel van materieel belang kunnen zijn als een diepgaande invloed zouden kunnen hebben.
 
 	 
 
-	### **3.3.3. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden**
-	#### **3.3.3.1. Paragraaf ter benadrukking van bepaalde aangelegenheden**
+### 3.3.3. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden
+#### **3.3.3.1. Paragraaf ter benadrukking van bepaalde aangelegenheden**
 	§122. Als de beroepsbeoefenaar het nodig acht de aandacht van de gebruikers te vestigen op een in de financiële overzichten voorgesteld of vermeld punt dat op grond van zijn oordeelsvorming zodanig belangrijk is dat het essentieel is voor hun begrip van de financiële overzichten, dan neemt hij in zijn controleverklaring een paragraaf ter benadrukking van bepaalde aangelegenheden op. En dit op voorwaarde dat hij voldoende en geschikte assurance-informatie heeft verkregen betreffende het feit dat het in de financiële overzichten voorgestelde of vermelde punt geen afwijkingen van materieel belang omvat. Een dergelijke paragraaf moet telkens verwijzen naar informatie die voorgesteld of vermeld wordt in de financiële overzichten.
 
-	#### **3.3.3.2. Paragraaf inzake overige aangelegenheden**
+#### **3.3.3.2. Paragraaf inzake overige aangelegenheden**
 	§123. Indien de beroepsbeoefenaar het noodzakelijk acht een andere aangelegenheid te communiceren dan degenen die in de financiële overzichten of jaarrekening weergegeven of toegelicht zijn die, op grond van oordeelsvorming van de beroepsbeoefenaar, relevant zijn voor het begrip van gebruikers van de controle, de verantwoordelijkheden van de beroepsbeoefenaar of de controleverklaring. Indien dit niet is verboden door wet of regelgeving, dient de beroepsbeoefenaar dit te doen in een paragraaf in de controleverklaring met de titel Overige aangelegenheden of een ander passende titel.
 
 	 
 
-	### **3.3.4. Verslag over de financiële overzichten**
+### 3.3.4. Verslag over de financiële overzichten
 	§124. De beroepsbeoefenaar moet een geschreven en gedateerd verslag uitbrengen, in overeenstemming met het voorbeeld opgenomen in de huidige norm hetwelk de volgende elementen bevat: een titel, de geadresseerde en, indien er één is, de beoogde gebruiker, de identificatie van het of de financie(ë)l(e) overzicht(en) dat of die werd(en) gecontroleerd, een korte beschrijving van de opdracht overgenomen uit de opdrachtbrief, een paragraaf ter herinnering van de verantwoordelijkheden van het management en de beroepsbeoefenaar, een beschrijving van de uitgevoerde procedures, een oordeel over het getrouw beeld van de financiële overzichten alsook de plaats van de ondertekening en de naam van de beroepsbeoefenaar. De opdrachtbrief kan mits akkoord tussen de partijen gehecht worden aan het verslag.
 
 	De beroepsbeoefenaar dient zijn verslag aan te passen in functie van de bijzonderheden van de opdracht, van de rechtsvorm van de “KMO of kleine vzw”, van het boekhoudkundig referentiestelsel en/of van de van toepassing zijnde wettelijke en reglementaire voorschriften.
 
 	 
 
-	### **3.3.5. Ter vergelijking opgenomen informatie (Overeenkomstige cijfers)**
+### 3.3.5. Ter vergelijking opgenomen informatie (Overeenkomstige cijfers)
 	§125. De beroepsbeoefenaar dient te bepalen of de financiële overzichten de ter vergelijking opgenomen informatie (overeenkomstige cijfers) bevatten die het van toepassing zijnd stelsel inzake financiële verslaggeving vereist, en of deze informatie op passende wijze is opgenomen. Daartoe dient hij te evalueren of:
 
 	
@@ -1128,20 +1128,20 @@ provenance:
 
  
 
-# **4. BEOORDELING VAN HISTORISCHE FINANCIËLE INFORMATIE (BEPERKTE MATE VAN ZEKERHEID)**
+## 4. BEOORDELING VAN HISTORISCHE FINANCIËLE INFORMATIE (BEPERKTE MATE VAN ZEKERHEID)
 
-	## ***4.1. Inleiding***
+## 4.1. Inleiding
 	§126. Een opdracht tot het uitvoeren van een beoordeling van historische financiële informatie heeft ten doel de beroepsbeoefenaar in staat te stellen een conclusie te formuleren op basis van de door hem uitgevoerde beoordeling waaruit volgt dat er geen aanpassingen van materieel belang zouden impliceren van de historische financiële informatie in overeenstemming met een van toepassing zijnde stelsel inzake financiële verslaggeving. De beroepsbeoefenaar verzoekt om inlichtingen en voert cijferanalyses en andere beoordelingswerkzaamheden uit teneinde het risico van het formuleren van een onjuiste conclusie, wanneer de historische financiële informatie een afwijking van materieel belang bevat, tot een aanvaardbaar niveau terug te brengen.
 
 	 
 
-	## ***4.2. Het uitvoeren van de opdracht***
-	### **4.2.1. Het inzicht van de beroepsbeoefenaar**
+## 4.2. Het uitvoeren van de opdracht
+### 4.2.1. Het inzicht van de beroepsbeoefenaar
 	§127. De beroepsbeoefenaar dient inzicht te verwerven in de “kmo of kleine vzw” en haar omgeving, met inbegrip van haar interne beheersing, en in het van toepassing zijnde stelsel inzake financiële verslaggeving, om gebieden in de financiële overzichten te kunnen identificeren waar zich waarschijnlijk afwijkingen van materieel belang voor zullen doen. Daarmee verschaft hij zich een basis voor het opzetten van werkzaamheden om op die gebieden in te spelen.
 
 	 
 
-	### **4.2.2. Het opzetten en uitvoeren van werkzaamheden**
+### 4.2.2. Het opzetten en uitvoeren van werkzaamheden
 	Materialiteit in een beoordeling van financiële overzichten
 
 	§128. De beroepsbeoefenaar dient de materialiteit voor de financiële overzichten als geheel te bepalen en deze materialiteit toe te passen bij het opzetten van de werkzaamheden en bij het evalueren van de resultaten die vanuit die werkzaamheden zijn verkregen.
@@ -1182,8 +1182,8 @@ provenance:
 
 	 
 
-	## ***4.3. Werkzaamheden om op specifieke omstandigheden in te spelen***
-	### **4.3.1. Verbonden partijen**
+## 4.3. Werkzaamheden om op specifieke omstandigheden in te spelen
+### 4.3.1. Verbonden partijen
 	§133. Tijdens de beoordeling dient de beroepsbeoefenaar alert te blijven op regelingen of informatie die zou kunnen wijzen op het bestaan van relaties of transacties met verbonden partijen die het management niet eerder heeft onderkend of aan de beroepsbeoefenaar heeft toegelicht.
 
 	§134. Indien de beroepsbeoefenaar gedurende het uitvoeren van de beoordeling significante transacties buiten het normale verloop van bedrijfsactiviteiten identificeert, dient de beroepsbeoefenaar bij het management te verzoeken om inlichtingen omtrent:
@@ -1195,17 +1195,17 @@ provenance:
 	
 	 
 
-	### **4.3.2. Gebruikmaken van de werkzaamheden die door anderen zijn uitgevoerd**
+### 4.3.2. Gebruikmaken van de werkzaamheden die door anderen zijn uitgevoerd
 	§135. Bij het uitvoeren van de beoordeling kan het voor de beroepsbeoefenaar noodzakelijk zijn om gebruik te maken van werkzaamheden die door andere beroepsbeoefenaars zijn uitgevoerd, of van de werkzaamheden van een individu of organisatie dat/die over de deskundigheid beschikt in een ander kennisveld dan financiële verslaggeving of assurance. Indien de beroepsbeoefenaar tijdens het uitvoeren van de beoordeling gebruik maakt van de werkzaamheden die door een andere beroepsbeoefenaar of deskundige zijn uitgevoerd, dient de beroepsbeoefenaar passende maatregelen te nemen om zich ervan te vergewissen dat de werkzaamheden adequaat zijn uitgevoerd voor de doeleinden van de beroepsbeoefenaar.
 
 	 
 
-	### **4.3.3. Het aansluiten van de financiële overzichten op de onderliggende administratie**
+### 4.3.3. Het aansluiten van de financiële overzichten op de onderliggende administratie
 	§136. De beroepsbeoefenaar dient assurance-informatie te verkrijgen dat de financiële overzichten overeenstemmen met of aansluiten op de onderliggende administratie van de “kmo of kleine vzw”.
 
 	 
 
-	### **4.3.4. Aanvullende werkzaamheden wanneer de beroepsbeoefenaar zich ervan bewust wordt dat de financiële overzichten een afwijking van materieel belang kunnen bevatten**
+### 4.3.4. Aanvullende werkzaamheden wanneer de beroepsbeoefenaar zich ervan bewust wordt dat de financiële overzichten een afwijking van materieel belang kunnen bevatten
 	§137. De beroepsbeoefenaar kan zich bewust worden van een aangelegenheid waardoor hij veronderstelt dat de financiële overzichten een afwijking van materieel belang kunnen bevatten. In dat geval zet de beroepsbeoefenaar aanvullende werkzaamheden op en voert deze uit, zodanig dat deze voldoende zijn om de beroepsbeoefenaar in staat te stellen om:
 
 	
@@ -1214,31 +1214,31 @@ provenance:
 	
 	 
 
-	### **4.3.5. Gebeurtenissen na einddatum van de verslagperiode**
+### 4.3.5. Gebeurtenissen na einddatum van de verslagperiode
 
 	§138. De beroepsbeoefenaar dient aan het management de vraag te stellen of het alle gebeurtenissen tot aan de datum van de beoordelingsverklaring heeft onderkend die een aanpassing van of een toelichting op de historische financiële informatie kunnen vereisen.
 
 	 
 
-	### **4.3.6. De datum van en de verslagperiode(n) die gedekt wordt/worden door schriftelijke bevestigingen**
+### 4.3.6. De datum van en de verslagperiode(n) die gedekt wordt/worden door schriftelijke bevestigingen
 	§139. De datum van de schriftelijke bevestigingen dient zo dicht als mogelijk bij, maar niet na, de datum van de beoordelingsverklaring te liggen. De schriftelijke bevestigingen dienen te slaan op alle financiële overzichten en alle verslagperioden die in de beoordelingsverklaring worden genoemd.
 
 	 
 
-	### **4.3.7. Het evalueren van assurance-informatie verkregen uit de uitgevoerde werkzaamheden**
+### 4.3.7. Het evalueren van assurance-informatie verkregen uit de uitgevoerde werkzaamheden
 	§140.   De beroepsbeoefenaar dient te evalueren of er voldoende en geschikte assurance-informatie is verkregen uit de uitgevoerde werkzaamheden. Zo niet, dan dient de beroepsbeoefenaar andere werkzaamheden uit te voeren die de beroepsbeoefenaar in de omstandigheden noodzakelijk acht om over de financiële overzichten een conclusie te kunnen vormen.
 
 	§141. Het is mogelijk dat de beroepsbeoefenaar niet in staat is voldoende en geschikte assurance- informatie te verkrijgen om een conclusie te kunnen vormen. Dan dient de beroepsbeoefenaar de effecten die dergelijke beperkingen hebben op de reikwijdte van de beoordeling met het management en, in voorkomend geval, de met governance belaste personen te bespreken.
 
 	 
 
-	### **4.3.8. Het evalueren van het effect op de beoordelingsverklaring**
+### 4.3.8. Het evalueren van het effect op de beoordelingsverklaring
 	§142.     De beroepsbeoefenaar dient de assurance-informatie die is verkregen uit de uitgevoerde werkzaamheden te evalueren om het effect op de beoordelingsverklaring te bepalen.
 
  
 
-	## ***4.4. Formulering van de conclusie en verslag***
-	### **4.4.1. Het in overweging nemen van het van toepassing zijnde stelsel inzake financiële verslaggeving met betrekking tot de financiële overzichten**
+## 4.4. Formulering van de conclusie en verslag
+### 4.4.1. Het in overweging nemen van het van toepassing zijnde stelsel inzake financiële verslaggeving met betrekking tot de financiële overzichten
 	§143. Bij het vormen van de conclusie over de financiële overzichten dient de beroepsbeoefenaar:
 
 	
@@ -1262,7 +1262,7 @@ provenance:
 	
 	 
 
-	### **4.4.2. Aangepaste conclusie**
+### 4.4.2. Aangepaste conclusie
 	§145. De beroepsbeoefenaar dient in de beoordelingsverklaring een aangepaste conclusie tot uitdrukking te brengen over de financiële overzichten als geheel wanneer:
 
 	
@@ -1274,7 +1274,7 @@ provenance:
 	
 	 
 
-	### **4.4.3. Financiële overzichten bevatten een afwijking van materieel belang**
+### 4.4.3. Financiële overzichten bevatten een afwijking van materieel belang
 	§146. Indien de beroepsbeoefenaar bepaalt dat de financiële overzichten een afwijking van materieel belang bevatten, dient de beroepsbeoefenaar het volgende tot uitdrukking te brengen:
 
 	
@@ -1283,7 +1283,7 @@ provenance:
 	
 	 
 
-	### **4.4.4. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen**
+### 4.4.4. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen
 	§147. Indien de beroepsbeoefenaar niet in staat is om een conclusie te vormen over de financiële overzichten als gevolg van het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen, dient de beroepsbeoefenaar:
 
 	
@@ -1292,18 +1292,18 @@ provenance:
 	
 	 
 
-	## ***4.5. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden in de beoordelingsverklaring***
-	### **4.5.1. Paragraaf ter benadrukking van bepaalde aangelegenheden**
+## 4.5. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden in de beoordelingsverklaring
+### 4.5.1. Paragraaf ter benadrukking van bepaalde aangelegenheden
 	§148. De beroepsbeoefenaar kan het nodig achten de aandacht van gebruikers te vestigen op een aangelegenheid die is weergegeven of toegelicht in de financiële overzichten die op grond van oordeelsvorming van de beroepsbeoefenaar van zodanig belang is dat deze van fundamenteel belang is voor het begrip van gebruikers van de financiële overzichten. In dergelijke gevallen dient de beroepsbeoefenaar een paragraaf ter benadrukking van bepaalde aangelegenheden in de beoordelingsverklaring op te nemen. Dit op voorwaarde dat de beroepsbeoefenaar voldoende en geschikte assurance-informatie heeft verkregen om te concluderen dat de aangelegenheid waarschijnlijk geen afwijking van materieel belang bevat zoals deze in de financiële overzichten is weergegeven. Een dergelijke paragraaf dient alleen te refereren aan informatie die in de financiële overzichten is weergegeven of toegelicht.
 
 	 
 
-	### **4.5.2. Paragrafen inzake overige aangelegenheden**
+### 4.5.2. Paragrafen inzake overige aangelegenheden
 	§149. Indien de beroepsbeoefenaar het noodzakelijk acht een andere aangelegenheid te communiceren dan degenen die in de financiële overzichten weergegeven of toegelicht zijn die, op grond van oordeelsvorming van de beroepsbeoefenaar, relevant zijn voor het begrip van gebruikers van de beoordeling, de verantwoordelijkheden van de beroepsbeoefenaar of de beoordelingsverklaring. Indien dit niet is verboden door wet of regelgeving, dient de beroepsbeoefenaar dit te doen in een paragraaf in de beoordelingsverklaring met de titel Overige aangelegenheden of een ander passende titel.
 
 	 
 
-	## ***4.6.  Beoordelingsverslag***
+## 4.6.  Beoordelingsverslag
 	§150. De beroepsbeoefenaar moet een geschreven en gedateerd verslag uitbrengen, in overeenstemming met het voorbeeld opgenomen in de huidige norm hetwelk de volgende elementen bevat: een titel, de geadresseerde en, indien er één is, de beoogde gebruiker, de identificatie van het of de financie(ë)l(e) overzicht(en) dat of die werd(en) gecontroleerd, een korte beschrijving van de opdracht overgenomen uit de opdrachtbrief, een paragraaf ter herinnering van de verantwoordelijkheden van het management en de beroepsbeoefenaar, een beschrijving van de uitgevoerde procedures, een conclusie alsook de plaats van de ondertekening en de naam van de beroepsbeoefenaar. De opdrachtbrief kan mits akkoord tussen de partijen gehecht worden aan het verslag.
 
 	De beroepsbeoefenaar dient zijn verslag aan te passen in functie van de bijzonderheden van de opdracht, van de rechtsvorm van de “KMO of kleine vzw”, van het boekhoudkundig referentiestelsel en/of van de van toepassing zijnde wettelijke en reglementaire voorschriften.
@@ -1613,12 +1613,12 @@ provenance:
 11 Ook bekend onder de term « substantieve testen ».
 
 	
-	# **BIJLAGE 2 : Schematisch overzicht van de wijze van inspelen op de risico’s**
+## BIJLAGE 2 : Schematisch overzicht van de wijze van inspelen op de risico’s
 	 
 
 	 
 
-# **BIJLAGE 3 : Voorbeeld verslag (assurance met een redelijke mate van zekerheid)**
+## BIJLAGE 3 : Voorbeeld verslag (assurance met een redelijke mate van zekerheid)
 
 	**VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE12 CONTROLE VAN DE FINANCIËLE OVERZICHTEN13 VAN DE VENNOOTSCHAP   _______VAN HET BOEKJAAR AFGESLOTEN OP                                     20      **
 
@@ -1655,7 +1655,7 @@ provenance:
 
 	 
 
-	# **BIJLAGE 4 : Voorbeeldverslag (beoordeling)**
+## BIJLAGE 4 : Voorbeeldverslag (beoordeling)
 	**VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE14 BEOORDELING VAN FINANCIËLE OVERZICHTEN15 VAN DE VENNOOTSCHAP  ___    VAN HET BOEKJAAR AFGESLOTEN OP       _____            20      **
 
 	 
@@ -1685,7 +1685,7 @@ provenance:
 
  
 
-	# **BIJLAGE 5 : Lijst van controleopdrachten in de zin van deze norm (zie §3 van deze norm)**
+## BIJLAGE 5 : Lijst van controleopdrachten in de zin van deze norm (zie §3 van deze norm)
 	
 		- Art. 12-13bis van de wet van 7 januari 1958 betreffende de Fondsen voor bestaanszekerheid juncto art. 20-22 KB van 15 januari 1999 betreffende de boekhouding en de jaarrekening met betrekking tot de Fondsen voor bestaanszekerheid ;
 		- Art. 181 W. Venn.;
@@ -1695,4 +1695,4 @@ provenance:
 
  
 
-# **BIJLAGE 6 : Lijst van beoordelingsopdrachten in de zin van deze norm (zie §3 van deze norm)**
+## BIJLAGE 6 : Lijst van beoordelingsopdrachten in de zin van deze norm (zie §3 van deze norm)

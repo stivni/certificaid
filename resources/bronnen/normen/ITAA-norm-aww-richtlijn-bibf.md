@@ -137,7 +137,6 @@ hiernavolgende richtlijn aangenomen. Deze werd op 3 april 2020 voor advies aan
 de Hoge Raad voor de Economische Beroepen voorgelegd.
 
 
-
 1.
 
 
@@ -176,7 +175,6 @@ derde
 BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
 
 
-
 ## 1. Algemene bepalingen
 Definities
 1.1 Voor de toepassing van deze richtlijn wordt verstaan onder:
@@ -208,7 +206,6 @@ en Fiscalisten: een natuurlijke persoon, een rechtspersoon of een
 andere entiteit met om het even welke rechtsvorm die ressorteert
 onder één van de categorieën opgesomd in artikel 5, §1, 24°, van de
 Wet;
-
 
 
 c)
@@ -402,7 +399,6 @@ dezelfde persoon zijn, dient deze een beroepsbeoefenaar, natuurlijk
 persoon, te zijn zoals bedoeld in punt 1, 9° a), b) of c) van deze richtlijn.
 
 
-
 2.6 De AMLCO stelt minstens eenmaal per jaar een activiteitenverslag op,
 ongeacht de omvang van het kantoor. Dit verslag wordt ter beschikking
 gehouden van de Toezichtautoriteit en de prudentiële autoriteiten en, in
@@ -443,7 +439,6 @@ cliënten, de verrichtingen die deze uitvoeren, en het risico dat de
 medewerkers lopen geconfronteerd te worden met pogingen tot WG/FT.
 
 
-
 2.11 De in punt 2.10 van deze richtlijn bedoelde opleiding moet ten minste om de
 drie jaar gebeuren en bij aanvang van de opdracht van de medewerker
 binnen de zes maanden.
@@ -451,17 +446,7 @@ binnen de zes maanden.
 meldingsprocedures bedoeld in punt 2.9 van deze richtlijn en van de in artikel
 90 van de Wet bedoelde meldingen aan de Toezichtautoriteit.
 
-## 3. Algemene risicobeoordeling beroepsbeoefenaar
-
-op
-
-te
-
-maken
-
-door
-
-de
+## 3. Algemene risicobeoordeling beroepsbeoefenaar op te maken door de
 
 Een algemene risicobeoordeling uitvoeren
 3.1 De algemene risicobeoordeling, op te maken door de beroepsbeoefenaar,
@@ -486,7 +471,6 @@ controlemaatregelen.
 Vaststellen van risiciocategorieën
 3.5 Elke beroepsbeoefenaar stelt verschillende risicocategorieën vast, waaraan
 geschikte waakzaamheidsmaatregelen worden gekoppeld.
-
 
 
 Deze risicocategorieën worden vastgesteld op basis van de in artikel 16 van
@@ -618,7 +602,6 @@ regelmatig te worden bijgewerkt.
 Verhoogde waakzaamheid
 
 
-
 4.9 De beroepsbeoefenaar past, overeenkomstig de artikelen 37 tot en met 41
 van de Wet, een verhoogde waakzaamheid toe ten aanzien van de zakelijke
 relatie of occasionele verrichting wanneer:
@@ -701,7 +684,6 @@ uitsluitend aan het lid van het netwerk meegedeeld;
 
 de beroepsbeoefenaar factureert de prestaties aan het lid van zijn
 netwerk.
-
 
 
 ## 5. Onderzoek van de verrichtingen
@@ -793,7 +775,6 @@ beschikking gehouden van de Toezichtautoriteit en dit op papier of op
 elektronische drager.
 
 
-
 6.4 Deze documenten moeten bewaard worden gedurende 10 jaar vanaf het
 einde van de zakelijke relatie met de cliënt of vanaf de datum van een
 occasionele verrichting.
@@ -848,7 +829,6 @@ goedgekeurde reglement betreffende de voorkoming van het witwassen van
 geld en de financiering van terrorisme.
 
 
-
 BIJLAGEN
 De bijlagen bij de Wet van 18 september 2017 tot voorkoming van het witwassen
 van geld en de financiering van terrorisme en tot beperking van het gebruik van
@@ -890,7 +870,6 @@ als vermeld in punt 3°;
 
 2° risicofactoren verbonden aan producten, diensten, verrichtingen of
 leveringskanalen:
-
 
 
 a)
@@ -957,7 +936,6 @@ b)
 
 de cliënten die inwoner zijn van geografische gebieden met een hoog
 risico bedoeld onder 3°;
-
 
 
 c)
@@ -1032,7 +1010,6 @@ c)
 landen waarvoor sancties, embargo's of soortgelijke maatregelen
 gelden die bijvoorbeeld door de Europese Unie of de Verenigde Naties
 zijn uitgevaardigd;
-
 
 
 d)
