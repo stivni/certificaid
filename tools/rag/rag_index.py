@@ -226,6 +226,62 @@ def _slug(text: str) -> str:
     return text.strip("-")[:60] or "sectie"
 
 
+# Diepte-mapping voor structuurlabels (BOEK > DEEL > TITEL > HOOFDSTUK > AFDELING > ...)
+_STRUCTUUR_DIEPTE: dict[str, str] = {
+    "BOEK":           "##",
+    "DEEL":           "##",
+    "TITEL":          "###",
+    "HOOFDSTUK":      "####",
+    "AFDELING":       "#####",
+    "ONDERAFDELING":  "######",
+    "SECTIE":         "######",
+    "PARAGRAAF":      "######",
+    "ONDERDEEL":      "######",
+}
+
+# Patroon: structuurlabel gevolgd door Romeins cijfer, letter, of getal (bijv. "HOOFDSTUK VI")
+_PLAIN_STRUCTUUR_RE = re.compile(
+    r"^[\s ]*"                                 # optionele witruimte incl. NBSP
+    r"(BOEK|DEEL|TITEL|HOOFDSTUK|AFDELING|ONDERAFDELING|SECTIE|PARAGRAAF|ONDERDEEL)"
+    r"\s+"
+    r"(?:[IVXLCDM]+[a-z]*|\d+[a-z]*|[A-Z][a-z]*)" # Romeins, arabisch, of letter
+    r"(?:\s*[\.\-]|\s|$)",                          # gevolgd door punt, dash, spatie of einde
+    re.IGNORECASE,
+)
+
+
+def _herstel_structuurheadings(tekst: str) -> str:
+    """
+    Converteer plain-text structuurlabels naar markdown-headings zodat
+    split_wettekst ze oppikt in de structurele context-stack.
+
+    Wetteksten als het Strafwetboek-1867 werden geconverteerd zonder de
+    hierarchische labels (BOEK, TITEL, HOOFDSTUK, AFDELING...) als heading
+    te herkennen — ze staan als gewone tekstregel. De parser in split_wettekst
+    verwerkt ze enkel als ze als `## HOOFDSTUK ...` geformatteerd zijn.
+
+    Veiligheid: enkel regels die *uitsluitend* uit een structuurlabel +
+    nummercode bestaan worden geconverteerd. Labels midden in een artikel-alinea
+    worden niet aangeraakt (die voldoen nooit aan het patroon).
+    """
+    regels = tekst.split("\n")
+    resultaat = []
+    for regel in regels:
+        stripped = regel.strip()
+        # Sla over als al een markdown-heading of leeg
+        if not stripped or stripped.startswith("#"):
+            resultaat.append(regel)
+            continue
+        m = _PLAIN_STRUCTUUR_RE.match(regel)
+        if m:
+            structuurtype = m.group(1).upper()
+            diepte = _STRUCTUUR_DIEPTE.get(structuurtype, "###")
+            resultaat.append(f"{diepte} {stripped}")
+        else:
+            resultaat.append(regel)
+    return "\n".join(resultaat)
+
+
 # ---------------------------------------------------------------------------
 # ChromaDB client
 # ---------------------------------------------------------------------------
@@ -361,11 +417,89 @@ def split_long_chunk(chunk: dict, max_chars: int) -> list[dict]:
 # Chunking — wetteksten (per artikel, stabiele id op art-nr)
 # ---------------------------------------------------------------------------
 
+def _merge_bis_ter(chunks: list[dict], max_chars: int) -> list[dict]:
+    """
+    Merge artikelen met suffix (bis, ter, quater, ...) in de chunk van het
+    basisartikel. Art. 458 + 458bis + 458ter + 458quater worden één chunk.
+
+    Logica:
+    - Een artikel-nr met suffix (eindigend op 'bis', 'ter', 'quater', cijfer+letter)
+      wordt beschouwd als verlengstuk van het basisartikel dat er onmiddellijk
+      aan voorafgaat.
+    - Merge stopt als gecombineerde chunk-grootte > max_chars.
+    - Chunk-id van de samengevoegde chunk = eerste artikel in de serie.
+    """
+    if not chunks:
+        return chunks
+
+    _SUFFIX_RE = re.compile(
+        r"^([A-Za-z0-9]+?)(bis|ter|quater|quinquies|sexies|septies|octies|"
+        r"nonies|decies|\d+[a-z]+)$",
+        re.IGNORECASE,
+    )
+
+    def basisnummer(nr: str) -> str:
+        """Strip suffix: '458bis' → '458', '131/2' → '131/2' (ongewijzigd)."""
+        m = _SUFFIX_RE.match(nr)
+        return m.group(1) if m else nr
+
+    resultaat: list[dict] = []
+    i = 0
+    while i < len(chunks):
+        hoofd = chunks[i]
+        hoofd_nr = hoofd.get("_art_nr", "")
+        hoofd_basis = basisnummer(hoofd_nr)
+
+        # Zoek volgende artikelen met hetzelfde basisnummer
+        j = i + 1
+        te_mergen = [hoofd]
+        while j < len(chunks):
+            volg = chunks[j]
+            volg_nr = volg.get("_art_nr", "")
+            volg_basis = basisnummer(volg_nr)
+            if volg_basis != hoofd_basis:
+                break
+            if volg_basis == hoofd_basis and volg_nr != hoofd_nr:
+                # Controleer of gecombineerde grootte nog past
+                huidige_len = sum(len(c["text"]) for c in te_mergen)
+                if huidige_len + len(volg["text"]) > max_chars:
+                    break
+                te_mergen.append(volg)
+                j += 1
+            else:
+                break
+
+        if len(te_mergen) == 1:
+            resultaat.append(hoofd)
+        else:
+            # Samenvoegen: tekst met lege regel ertussen
+            combined_text = "\n\n".join(c["text"] for c in te_mergen)
+            merged = dict(hoofd)
+            merged["text"] = combined_text
+            # Behoud heading van eerste artikel; voeg suffixen toe als notitie
+            suffixen = [c.get("_art_nr", "") for c in te_mergen[1:]]
+            merged["heading"] = hoofd["heading"] + (
+                f" [+ {', '.join(suffixen)}]" if suffixen else ""
+            )
+            resultaat.append(merged)
+
+        i = j
+
+    return resultaat
+
+
 def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
     """
     Splits markdown op artikel-headings. Sub-headings blijven inline.
     Chunk-id = `<source_id>__art_<nr>` (stabiel, zie ADR-006 §3.1).
+
+    Preprocessing:
+    - Plain-text structuurlabels (BOEK, TITEL, HOOFDSTUK, AFDELING, ...)
+      worden omgezet naar markdown-headings zodat ze in de context-stack
+      worden meegenomen (breadcrumb).
+    - Bis/ter/quater-artikelen worden gemerged met hun basisartikel.
     """
+    text = _herstel_structuurheadings(text)
     wet_naam = str(fm.get("wet") or fm.get("bron") or source_id)
     lines = text.split("\n")
     chunks: list[dict] = []
@@ -417,6 +551,7 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
                 "path":        fragment["path"],
                 "breadcrumb":  fragment["breadcrumb"],
                 "_split_part": fragment.get("_split_part", ""),
+                "_art_nr":     nr,   # voor bis/ter-merge
             })
 
     for line in lines:
@@ -433,7 +568,7 @@ def split_wettekst(text: str, source_id: str, fm: dict) -> list[dict]:
             structural_stack.append(parsed)
 
     flush()
-    return chunks
+    return _merge_bis_ter(chunks, MAX_CHUNK_CHARS)
 
 
 # ---------------------------------------------------------------------------
