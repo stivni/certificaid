@@ -1,6 +1,6 @@
-# Runbook: concept-extractie per taakblok
+# Runbook: concept-extractie per programmaonderdeel
 
-Orkestratie-instructies voor een Claude Code subagent (Opus) die voor één taakblok de seed-extractie uitvoert. Implementeert ADR-008 §2 (Programma-gestuurde extractie, fases A–C).
+Orkestratie-instructies voor een Claude Code subagent (Opus) die voor één programmaonderdeel de seed-extractie uitvoert. Implementeert ADR-008 §2 (Programma-gestuurde extractie, fases A–C).
 
 > **Lees eerst** (in deze volgorde):
 > 1. `CLAUDE.md` — vijf absolute regels, in het bijzonder regel 3 (geen API in build-pipeline) en regel 1 (geen wetsinhoud zonder bronverwijzing).
@@ -17,28 +17,27 @@ Argumenten waarmee je opgestart wordt:
 | Argument | Voorbeeld |
 |---|---|
 | Programmaonderdeel | `data/programmaonderdelen/4.0-deontologie.json` |
-| Taakblok-code | `4.0.D1.1` |
 | ChromaDB-pad | `data/chroma_db_4.0` (POC) of `data/chroma_db` (volledig) |
 
 Afgeleide bestandspaden:
-- Vermoedens: `data/extractie/<po>/vermoedens/<taakblok>.json` (al genormaliseerd via `normalize_vermoedens.py`)
-- Retrieval-output: `data/extractie/<po>/retrieval/<taakblok>.json` (bouw je in stap 1)
-- Seed-log: `data/extractie/<po>/seed_log_<taakblok>.json` (bouw je incrementeel doorheen de run)
+- Vermoedens: `data/extractie/<po>/vermoedens/<po>.json` (één bestand per PO, PO-niveau — ADR-008 §B-bis)
+- Retrieval-output: `data/extractie/<po>/retrieval/<po>.json` (bouw je in stap 1)
+- Seed-log: `data/extractie/<po>/seed_log_<po>.json` (bouw je incrementeel doorheen de run)
 - Concept-records: `data/concept_records/<id>.json`
 
 ## Stap 1 — Retrieval-batch ophalen
 
-Run één keer aan het begin (alle queries in één model-load):
+Run één keer aan het begin (alle vermoedens van het PO in één model-load):
 
 ```bash
 python tools/extractie/retrieve_batch.py \
-    --vermoedens data/extractie/<po>/vermoedens/<taakblok>.json \
+    --vermoedens data/extractie/<po>/vermoedens/<po>.json \
     --programmaonderdeel data/programmaonderdelen/<po-bestand>.json \
     --chroma <chroma-pad> \
-    > data/extractie/<po>/retrieval/<taakblok>.json
+    > data/extractie/<po>/retrieval/<po>.json
 ```
 
-Lees de output. Per vermoeden krijg je een lijst chunks met `rerank_score`, `bron`, `artikel`, `text`. Top rerank-score = relevantie-anker voor stap 4.
+Lees de output. Per vermoeden krijg je een lijst chunks met `rerank_score` (of `bi_score` bij bi-only run), `bron`, `artikel`, `text`. Top score = relevantie-anker voor stap 4.
 
 ## Stap 2 — Per-vermoeden lus
 
@@ -64,13 +63,21 @@ Interpretatie:
 
 ## Stap 4 — Relevantie-check
 
-Kijk naar de top rerank-score van de chunks voor dit vermoeden in het retrieval-bestand:
+Kijk naar de top score van de chunks. Welke score je gebruikt hangt af van de retrieval-modus:
 
-| Top score | Actie |
-|---|---|
-| ≥ 0.50 | `SEED` — schrijf record met confidence-labels per claim |
-| 0.30 – 0.50 | `SEED` met `_notitie: "zwak gegrond, te verifiëren"` op het zwakste veld |
-| < 0.30 | `REJECT` — geen record schrijven; log met reden |
+- **Met reranking** (`rerank_score != -1.0`): gebruik `rerank_score`.
+- **Bi-only** (`rerank_score == -1.0`): gebruik `bi_score`.
+
+| Modus | Top score | Actie |
+|---|---|---|
+| rerank | ≥ 0.50 | `SEED` — schrijf record met confidence-labels per claim |
+| rerank | 0.30 – 0.50 | `SEED` met `_notitie: "zwak gegrond, te verifiëren"` op het zwakste veld |
+| rerank | < 0.30 | `REJECT` — geen record schrijven; log met reden |
+| bi-only | ≥ 0.25 | `SEED` |
+| bi-only | 0.20 – 0.25 | `SEED` met `_notitie: "zwak gegrond, te verifiëren"` |
+| bi-only | < 0.20 | `REJECT` |
+
+**Let op**: bi-only drempels zijn lager dan rerank-drempels. De bi-encoder (bge-m3) scoort domeinspecifieke teksten typisch 0.20–0.35 voor relevant materiaal. Lees bij twijfel de chunk-teksten zelf — een score van 0.25 bij een letterlijk relevante chunk is voldoende voor `SEED`.
 
 ## Stap 5 — Seed-record schrijven (als niet REJECT/MERGE)
 
@@ -78,7 +85,7 @@ Volg `prompts/seed-v1.md` voor het output-schema. Belangrijke punten:
 
 - `id` = slug van de naam (kleine letters, koppeltekens, ≤ 60 tekens)
 - `status: "seed"`, `schema_version: "1.0"`
-- `main_rule` of `definitie` (níet beide, behalve voor sommige beginsels)
+- **Type-specifiek hoofdveld** (zie tabel in `prompts/seed-v1.md` en ADR-007 §"Type-specifieke sleutelvelden"): `main_rule` voor `regel`/`beginsel`/`drempel`; `definitie` voor `begrip`/`actor`/`fenomeen`; `verplichting`+`stappen[]` voor `procedure`; `doel`+`bouwstenen[]` voor `methode`/`afwegingskader`
 - Per claim: `confidence` + `source` (verplicht voor `grounded`)
 - Edges met `_dangling: true` voor targets die nog niet bestaan
 - Per-veld provenance-blok met chunk-ids die je voor dat veld gebruikt hebt
@@ -107,7 +114,7 @@ Als `vermoeden.kenniselementen` leeg is (vermoeden uit pure taak/skill): kijk of
 
 ## Stap 8 — Seed-log bijwerken
 
-Append een entry per vermoeden aan `data/extractie/<po>/seed_log_<taakblok>.json`:
+Append een entry per vermoeden aan `data/extractie/<po>/seed_log_<po>.json`:
 
 ```json
 {

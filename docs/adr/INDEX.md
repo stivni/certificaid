@@ -25,6 +25,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-008](ADR-008-concept-extractie.md) | Concept-extractie | Draft |
 | [ADR-009](ADR-009-examenpatronen.md) | Examenpatronen (parallelle observatielaag) | Draft |
 | [ADR-010](ADR-010-leermateriaal-tutor.md) | Leermateriaal & tutor | Draft |
+| [ADR-018](ADR-018-embedding-daemon.md) | Embedding-daemon voor concept-extractie | Draft |
 
 ## Roadmap
 
@@ -37,7 +38,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | Bron toevoegen of herconverteren | ADR-005 (ETL), ADR-004 (provenance bij output), ADR-003 (reprocessing) |
 | Bron als trusted markeren / kwaliteits-gate doorlopen | ADR-005 §5 (drie-laag QA + trust-marker), ADR-004 (`provenance.trust` schema) |
 | RAG-index bouwen of bevragen | ADR-006 (RAG-strategie) |
-| Concept-record maken of aanvullen | ADR-007 (model), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling) |
+| Concept-record maken of aanvullen | ADR-007 (model, schema 1.1), ADR-008 (extractie), ADR-002 (kenniselement-koppeling), ADR-010 (confidence-labeling), ADR-018 (embedding-daemon voor live duplicate-check) |
+| Embedding-daemon starten/stoppen/diagnose | ADR-018 |
 | Examenvraag analyseren of genereren | ADR-009 (patronen), ADR-008 (extractie wanneer nieuw concept blijkt nodig) |
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |

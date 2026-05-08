@@ -1,0 +1,804 @@
+{
+  "programmaonderdeel": "4.0",
+  "model": "claude-opus-4-7",
+  "extractor": "seed-v1",
+  "started_at": "2026-05-08T12:57:13Z",
+  "finished_at": "2026-05-08T13:45:00Z",
+  "retrieval_modus": "bi-only",
+  "drempels": {
+    "seed": 0.25,
+    "zwak": 0.2,
+    "reject": 0.2,
+    "duplicaat": 0.8
+  },
+  "decisions": [
+    {
+      "vermoeden": "Gereglementeerd economisch beroep",
+      "actie": "kept",
+      "concept_id": "gereglementeerd-economisch-beroep",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 0
+      },
+      "relevantie": {
+        "top_bi": 0.361,
+        "n_chunks_geq_0.25": 14
+      },
+      "notitie": ""
+    },
+    {
+      "vermoeden": "Hiërarchie van juridische en beroepsnormen",
+      "actie": "rejected",
+      "reden": "Top bi-score 0.297 is generiek (chunks gaan over AWW-risicoanalyse en permanente-vorming-norm, niet over de hiërarchie wet>KB>ITAA-norm>IESBA). Geen enkele chunk beschrijft de rangorde van bronnen. Geen gegronde bron in scope om een afwegingskader op te baseren — fenomeen is wel relevant maar bronmateriaal ontbreekt; kandidaat voor latere ronde wanneer ITAA deontologische code of equivalent in corpus zit.",
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 8
+      }
+    },
+    {
+      "vermoeden": "Wet van 17 maart 2019",
+      "actie": "rejected",
+      "reden": "Een wet als geheel is geen concept (zie schrijfregels: 'een wetsartikel ≠ een concept'). De Wet 17 maart 2019 is de kaderwet die het beroep organiseert; haar materiële inhoud wordt gedekt door specifieke concepten (gereglementeerd-economisch-beroep, ITAA als actor, wettelijk-monopolie, vormen-uitoefening, onverenigbaarheden, toegang-tot-de-hoedanigheid, permanente-vorming, tuchtprocedure). Niet als eigen record opgenomen.",
+      "relevantie": {
+        "top_bi": 0.383,
+        "n_chunks_geq_0.25": 20
+      }
+    },
+    {
+      "vermoeden": "Instituut van de Belastingadviseurs en de Accountants (ITAA)",
+      "actie": "kept",
+      "concept_id": "itaa-instituut",
+      "node_type": "actor",
+      "duplicate_check": {
+        "top_id": "gereglementeerd-economisch-beroep",
+        "top_score": 0.797,
+        "collection_size": 1
+      },
+      "relevantie": {
+        "top_bi": 0.522,
+        "n_chunks_geq_0.25": 10
+      },
+      "notitie": "Top-1 dup-check 0.797 (net onder drempel 0.80) is overlap met basisbegrip; ITAA als actor blijft eigen record"
+    },
+    {
+      "vermoeden": "Wettelijk monopolie van de accountant",
+      "actie": "kept",
+      "concept_id": "wettelijk-monopolie-accountant",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": "gereglementeerd-economisch-beroep",
+        "top_score": 0.318,
+        "collection_size": 2
+      },
+      "relevantie": {
+        "top_bi": 0.345,
+        "n_chunks_geq_0.25": 9
+      }
+    },
+    {
+      "vermoeden": "Vormen van uitoefening van het beroep",
+      "actie": "kept",
+      "concept_id": "vormen-uitoefening-beroep",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "gereglementeerd-economisch-beroep",
+        "top_score": 0.34,
+        "collection_size": 3
+      },
+      "relevantie": {
+        "top_bi": 0.358,
+        "n_chunks_geq_0.25": 17
+      }
+    },
+    {
+      "vermoeden": "Onverenigbaarheden",
+      "actie": "kept",
+      "concept_id": "onverenigbaarheden",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": "wettelijk-monopolie-accountant",
+        "top_score": 0.26,
+        "collection_size": 4
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      }
+    },
+    {
+      "vermoeden": "Toegang tot de hoedanigheid van gecertificeerd accountant",
+      "actie": "kept",
+      "concept_id": "toegang-tot-de-hoedanigheid",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": "itaa-instituut",
+        "top_score": 0.125,
+        "collection_size": 5
+      },
+      "relevantie": {
+        "top_bi": 0.459,
+        "n_chunks_geq_0.25": 20
+      }
+    },
+    {
+      "vermoeden": "Permanente vorming",
+      "actie": "kept",
+      "concept_id": "permanente-vorming",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": "itaa-instituut",
+        "top_score": 0.025,
+        "collection_size": 6
+      },
+      "relevantie": {
+        "top_bi": 0.466,
+        "n_chunks_geq_0.25": 12
+      }
+    },
+    {
+      "vermoeden": "Bijhouden van de fiscale en juridische actualiteit",
+      "actie": "merged_into",
+      "merged_into": "permanente-vorming",
+      "duplicate_check": {
+        "top_id": "wettelijk-monopolie-accountant",
+        "top_score": 0.002,
+        "collection_size": 7
+      },
+      "relevantie": {
+        "top_bi": 0.294,
+        "n_chunks_geq_0.25": 2
+      },
+      "reden": "Schaal-signaal klein; chunks wijzen naar permanente-vorming-norm. Het 'volgen van actualiteit' is een operationele invulling van de permanente-vormingsplicht (geen apart fenomeen). Wordt als feature toegevoegd in verdiepfase aan permanente-vorming."
+    },
+    {
+      "vermoeden": "Kennisdeling met collega's en klanten",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 7
+      },
+      "relevantie": {
+        "top_bi": 0.294,
+        "n_chunks_geq_0.25": 2
+      },
+      "reden": "Te vage skill zonder gegronde bron in scope; chunks wijzen naar permanente-vormingsnorm (niet over kennisdeling). Schaal-signaal klein. Dit is een doelstelling in 4.0.D1.3 maar geen substantieel concept; eventueel later als veld op permanente-vorming."
+    },
+    {
+      "vermoeden": "Fundamentele beroepsbeginselen",
+      "actie": "kept",
+      "concept_id": "fundamentele-beroepsbeginselen",
+      "node_type": "beginsel",
+      "duplicate_check": {
+        "top_id": "toegang-tot-de-hoedanigheid",
+        "top_score": 0.022,
+        "collection_size": 7
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 8
+      },
+      "notitie": "Wet-ITAA art. 37 noemt de beginselen expliciet (openbaar belang, integriteit, objectiviteit, vakbekwaamheid en zorgvuldigheid, vertrouwelijkheid, professionaliteit) — dit is de gegronde basis."
+    },
+    {
+      "vermoeden": "Onafhankelijkheidsbeginsel",
+      "actie": "kept",
+      "concept_id": "onafhankelijkheidsbeginsel",
+      "node_type": "beginsel",
+      "duplicate_check": {
+        "top_id": "fundamentele-beroepsbeginselen",
+        "top_score": 0.199,
+        "collection_size": 8
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      }
+    },
+    {
+      "vermoeden": "Bedreigingen voor de onafhankelijkheid",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 9
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 5
+      },
+      "reden": "Geen gegronde bron in scope: het IESBA threats-framework (eigen-belang/zelftoetsing/belangenbehartiging/vertrouwdheid/intimidatie) staat niet in het opgehaalde corpus. Top chunks zijn generieke AWW-risicobeoordeling. Wachten op IESBA-Code of ITAA-deontologisch reglement in corpus."
+    },
+    {
+      "vermoeden": "Veiligheidsmaatregelen voor onafhankelijkheid",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 9
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 5
+      },
+      "reden": "Zelfde reden als 'Bedreigingen voor de onafhankelijkheid': IESBA-safeguards-framework niet in corpus aanwezig; chunks zijn generiek. Wachten op IESBA-Code in corpus."
+    },
+    {
+      "vermoeden": "Cliëntacceptatiebeleid",
+      "actie": "kept",
+      "concept_id": "clientacceptatiebeleid",
+      "node_type": "afwegingskader",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 9,
+        "notitie": "POC-record verwijderd; nieuwe seed met node_type afwegingskader (was procedure)"
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 14
+      },
+      "notitie": "Strong grounding op AWW art. 8/17 + ITAA-norm geconsolideerd punten 4.1-4.3 + 5"
+    },
+    {
+      "vermoeden": "Risicoanalyse bij klantaanvaarding",
+      "actie": "merged_into",
+      "merged_into": "clientacceptatiebeleid",
+      "duplicate_check": {
+        "top_id": "clientacceptatiebeleid",
+        "top_score": 0.012,
+        "collection_size": 10
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "reden": "Schaal middel maar inhoudelijk volledig de intake-aspect van clientacceptatiebeleid (zie bouwsteen 'Voorafgaand risicoprofiel-onderzoek'). Bredere integriteit/onafhankelijkheid/opdrachtcomplexiteit-dimensies (ISA 220 / IESBA-stijl) ontbreken in corpus; toevoegen wanneer ITAA-deontologische code in corpus zit."
+    },
+    {
+      "vermoeden": "Opdrachtbrief",
+      "actie": "kept",
+      "concept_id": "opdrachtbrief",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "clientacceptatiebeleid",
+        "top_score": 0.0,
+        "collection_size": 10,
+        "notitie": "geen duplicaten"
+      },
+      "relevantie": {
+        "top_bi": 0.337,
+        "n_chunks_geq_0.25": 12
+      },
+      "notitie": "Strong grounding op ITAA-Nota Opdrachtbrief + Wet 17 maart 2019 art. 41"
+    },
+    {
+      "vermoeden": "Beëindiging van de opdracht",
+      "actie": "kept",
+      "concept_id": "beeindiging-opdracht",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": "opdrachtbrief",
+        "top_score": 0.0,
+        "collection_size": 11,
+        "notitie": "verwacht verwantschap met opdrachtbrief; aparte procedure"
+      },
+      "relevantie": {
+        "top_bi": 0.308,
+        "n_chunks_geq_0.25": 10
+      },
+      "notitie": "ITAA Nota Opdrachtbrief punt 6 expliciet over modaliteiten + opzegtermijn + onmiddellijke beëindigingsgronden"
+    },
+    {
+      "vermoeden": "Honoraria-regels",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 12
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      },
+      "reden": "Schaal-signaal klein. Chunks bevatten geen specifieke honoraria-regels (verbod no-cure-no-pay etc); enige relevante passage zit in ITAA Nota Opdrachtbrief punt 7 maar die is reeds als 'regelt'-edge op concept opdrachtbrief opgenomen. Géén apart record; bij verdiep-fase eventueel als bouwsteen op opdrachtbrief."
+    },
+    {
+      "vermoeden": "Confraterneliteit",
+      "actie": "kept",
+      "concept_id": "confraterniteit",
+      "node_type": "beginsel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 12
+      },
+      "relevantie": {
+        "top_bi": 0.256,
+        "n_chunks_geq_0.25": 1
+      },
+      "notitie": "Bi-score net boven drempel maar gemeenschappelijke gedragslijnen IBR-IAB-BIBF expliciet over confraterniteits-beginsel met zes principes — voldoende grond."
+    },
+    {
+      "vermoeden": "Opdrachtovername van een confrater",
+      "actie": "kept",
+      "concept_id": "opdrachtovername-confrater",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 13
+      },
+      "relevantie": {
+        "top_bi": 0.258,
+        "n_chunks_geq_0.25": 2
+      },
+      "notitie": "Vierde, vijfde en zesde principe van de gemeenschappelijke gedragslijnen IBR-IAB-BIBF beschrijven de procedure expliciet."
+    },
+    {
+      "vermoeden": "Beroepsgeheim",
+      "actie": "kept",
+      "concept_id": "beroepsgeheim-gecertificeerd-accountant",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 14
+      },
+      "relevantie": {
+        "top_bi": 0.31,
+        "n_chunks_geq_0.25": 8
+      },
+      "notitie": "Wet-ITAA 2019 art. 50 + verwijzing Sw. art. 458."
+    },
+    {
+      "vermoeden": "Uitzonderingen op het beroepsgeheim",
+      "actie": "kept",
+      "concept_id": "uitzonderingen-op-beroepsgeheim",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 15
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20,
+        "notitie": "top score afkomstig van AWW-chunks; hoofdbron is Wet-ITAA 2019 art. 51"
+      }
+    },
+    {
+      "vermoeden": "Professionele discretieplicht",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 15
+      },
+      "relevantie": {
+        "top_bi": 0.256,
+        "n_chunks_geq_0.25": 1
+      },
+      "reden": "Schaal klein; ITAA behandelt dit in de praktijk als één plicht samen met beroepsgeheim (Wet-ITAA art. 50 vat beide samen). Geen aparte gegronde bron in corpus. Edge 'contrasteert-met' op beroepsgeheim. Bij IESBA-Code in corpus eventueel apart record."
+    },
+    {
+      "vermoeden": "Antiwitwaswetgeving",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 15
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "reden": "Net als 'Wet 17 maart 2019': een wet als geheel is geen concept (schrijfregels). De materiële inhoud van de Wet van 18 september 2017 (preventieve luik AWW) wordt gedekt door specifieke concepten: clientacceptatiebeleid, clientenonderzoek-kyc, ubo-identificatie, meldingsplicht-cfi, tipping-off-verbod, verscherpte-waakzaamheid, risicogebaseerde-benadering-antiwitwas, antiwitwasverantwoordelijke, beperking-gebruik-contanten enz."
+    },
+    {
+      "vermoeden": "Onderworpen entiteit",
+      "actie": "kept",
+      "concept_id": "onderworpen-entiteit",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 15
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 5 §1, 23°-25° + art. 14 expliciet."
+    },
+    {
+      "vermoeden": "Cliëntenonderzoek (KYC)",
+      "actie": "kept",
+      "concept_id": "clientenonderzoek-kyc",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": "clientacceptatiebeleid",
+        "top_score": 0.0,
+        "collection_size": 16
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "Strong AWW art. 21-23 + 34 grounding; uitzondering bij rechtspositie/verdediging via art. 53."
+    },
+    {
+      "vermoeden": "Uiteindelijke begunstigde (UBO)",
+      "actie": "kept",
+      "concept_id": "ubo-uiteindelijke-begunstigde",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "clientenonderzoek-kyc",
+        "top_score": 0.0,
+        "collection_size": 17
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 4, 27° letterlijke definitie."
+    },
+    {
+      "vermoeden": "Risicogebaseerde benadering antiwitwas",
+      "actie": "kept",
+      "concept_id": "risicogebaseerde-benadering-antiwitwas",
+      "node_type": "methode",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 18
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW titel 2 (art. 7) + art. 16-19; structurele methode met drie niveaus."
+    },
+    {
+      "vermoeden": "Verscherpte waakzaamheid",
+      "actie": "kept",
+      "concept_id": "verscherpte-waakzaamheid",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 19
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "Schaal-signaal klein maar inhoudelijk apart fenomeen — art. 37-41 expliciet 'Bijzondere gevallen van verhoogde waakzaamheid'."
+    },
+    {
+      "vermoeden": "Politiek prominent persoon (PEP)",
+      "actie": "kept",
+      "concept_id": "politiek-prominent-persoon",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 20
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 4, 28° + art. 41 + Bijlage IV."
+    },
+    {
+      "vermoeden": "Cel voor Financiële Informatieverwerking (CFI)",
+      "actie": "kept",
+      "concept_id": "cel-financiele-informatieverwerking",
+      "node_type": "actor",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 21
+      },
+      "relevantie": {
+        "top_bi": 0.477,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 76-83."
+    },
+    {
+      "vermoeden": "Meldingsplicht aan de CFI",
+      "actie": "kept",
+      "concept_id": "meldingsplicht-cfi",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 22
+      },
+      "relevantie": {
+        "top_bi": 0.567,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "Hoogste score van het PO; AWW art. 47 + 50 + 51 + 53 + 57 strong grounding."
+    },
+    {
+      "vermoeden": "Tipping-off-verbod",
+      "actie": "kept",
+      "concept_id": "tipping-off-verbod",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 23
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 55-56 expliciet."
+    },
+    {
+      "vermoeden": "Antiwitwasverantwoordelijke (AMLCO)",
+      "actie": "kept",
+      "concept_id": "antiwitwasverantwoordelijke",
+      "node_type": "actor",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 24
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 9 §1-§3 + art. 10-11 voor sensibilisering."
+    },
+    {
+      "vermoeden": "Interne organisatie- en controleprocedures",
+      "actie": "kept",
+      "concept_id": "interne-organisatie-en-controleprocedures",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": "clientacceptatiebeleid",
+        "top_score": 0.0,
+        "collection_size": 25
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 8 §1-§4 + art. 9-11 — strong grounding."
+    },
+    {
+      "vermoeden": "Algemene risicobeoordeling op kantoorniveau",
+      "actie": "kept",
+      "concept_id": "algemene-risicobeoordeling-kantoor",
+      "node_type": "methode",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 26
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "Schaal-signaal klein maar AWW art. 16-18 + ITAA-norm punten 3.1-3.7 expliciet — eigen record gerechtvaardigd als aparte methode (niet zelfde fenomeen als clientacceptatiebeleid)."
+    },
+    {
+      "vermoeden": "Bewaarplicht van dossiers",
+      "actie": "kept",
+      "concept_id": "bewaarplicht-aww",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 27
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "Schaal klein maar AWW art. 60-62 expliciet met 10-jaartermijn — operationeel onderscheidbaar concept."
+    },
+    {
+      "vermoeden": "Beperking van het gebruik van contanten",
+      "actie": "kept",
+      "concept_id": "beperking-gebruik-contanten",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 28
+      },
+      "relevantie": {
+        "top_bi": 0.512,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 6 + 66 + 67 — letterlijke drempel 3 000 EUR + onroerend goed-uitsluiting."
+    },
+    {
+      "vermoeden": "Beroepsaansprakelijkheid",
+      "actie": "kept",
+      "concept_id": "beroepsaansprakelijkheid",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 29
+      },
+      "relevantie": {
+        "top_bi": 0.308,
+        "n_chunks_geq_0.25": 8
+      },
+      "notitie": "Wet 17 maart 2019 art. 44."
+    },
+    {
+      "vermoeden": "Beroepsaansprakelijkheidsverzekering",
+      "actie": "kept",
+      "concept_id": "beroepsaansprakelijkheidsverzekering",
+      "node_type": "regel",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 30
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 5
+      },
+      "notitie": "Bi-score net boven drempel maar Wet 17 maart 2019 art. 44 (vierde lid) expliciet over verzekeringsplicht — eigen record (regel) ipv enkel veld op beroepsaansprakelijkheid omdat deze de operationele toegangsvoorwaarde tot de hoedanigheid is."
+    },
+    {
+      "vermoeden": "Tuchtprocedure",
+      "actie": "kept",
+      "concept_id": "tuchtprocedure",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 31
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      },
+      "notitie": "Bi-score onder ideale drempel maar Wet 17 maart 2019 art. 88-103 expliciet — kerncomponent van I.D.9 'Toezicht en beroepstucht'. Bron buiten de top-20 chunks maar volledig in corpus aanwezig."
+    },
+    {
+      "vermoeden": "Tuchtsancties",
+      "actie": "kept",
+      "concept_id": "tuchtsancties",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "tuchtprocedure",
+        "top_score": 0.0,
+        "collection_size": 32
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      },
+      "notitie": "Wet 17 maart 2019 art. 92-93 letterlijk de zes tuchtstraffen — apart begrip omdat de straffen op zich examenstof zijn (welke sanctie bij welke ernst)."
+    },
+    {
+      "vermoeden": "Kwaliteitstoetsing",
+      "actie": "kept",
+      "concept_id": "kwaliteitstoetsing",
+      "node_type": "procedure",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 33
+      },
+      "relevantie": {
+        "top_bi": 0.322,
+        "n_chunks_geq_0.25": 11
+      },
+      "notitie": "Wet 17 maart 2019 art. 55-60 expliciet."
+    },
+    {
+      "vermoeden": "Communicatie met de fiscale administratie",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 33
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "reden": "Skill-vermoeden, schaal klein. Top-bi-score komt van AWW-chunks (Art. 6) zonder semantische relevantie voor 'communicatie met de fiscale administratie'. Geen specifieke gegronde bron voor deze vaardigheid in scope. Doelstelling 4.0.D1.2 wordt al gedekt door de combinatie beroepsgeheim + meldingsplicht-cfi + opdrachtbrief; geen apart concept nodig."
+    },
+    {
+      "vermoeden": "Termijnenbeheer",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 33
+      },
+      "relevantie": {
+        "top_bi": 0.256,
+        "n_chunks_geq_0.25": 1
+      },
+      "reden": "Skill-vermoeden, schaal klein. Geen gegronde bron voor 'termijnenbeheer' als deontologisch concept in scope. De doelstelling 4.0.D1.2 'Termijnen in acht nemen' is operationele invulling van algemene zorgvuldigheid; geen apart fenomeen."
+    },
+    {
+      "vermoeden": "Belangenconflict",
+      "actie": "kept",
+      "concept_id": "belangenconflict",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "onafhankelijkheidsbeginsel",
+        "top_score": 0.0,
+        "collection_size": 34
+      },
+      "relevantie": {
+        "top_bi": 0.297,
+        "n_chunks_geq_0.25": 6
+      },
+      "notitie": "Bi-score net boven drempel maar Wet 17 maart 2019 art. 48 expliciet over 'belangenconflicten' — kerntopic onder I.D.2 + I.D.3."
+    },
+    {
+      "vermoeden": "Witwasmisdrijf",
+      "actie": "kept",
+      "concept_id": "witwasmisdrijf",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": null,
+        "top_score": 0.0,
+        "collection_size": 35
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 2 letterlijke vier-handelingen-definitie."
+    },
+    {
+      "vermoeden": "Financiering van terrorisme",
+      "actie": "kept",
+      "concept_id": "financiering-terrorisme",
+      "node_type": "begrip",
+      "duplicate_check": {
+        "top_id": "witwasmisdrijf",
+        "top_score": 0.0,
+        "collection_size": 36
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "notitie": "AWW art. 3 letterlijke definitie; apart van witwasmisdrijf omdat oorsprong-criterium verschilt."
+    },
+    {
+      "vermoeden": "Witwasindicatoren",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 36
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "reden": "Schaal-signaal klein. Top-bi-scores op generieke AWW-chunks (Art. 6/3) niet specifiek over 'indicatoren'. CFI-typologieën / KB-indicatoren niet als afgegrensde bron in corpus aanwezig. Wachten op CFI-typologie-corpus voor apart record. Voor de tutor blijft de structuur 'atypische verrichting → analyse → schriftelijk verslag' dekbaar via meldingsplicht-cfi en interne-organisatie-en-controleprocedures."
+    },
+    {
+      "vermoeden": "Opleidings- en sensibiliseringsplicht medewerkers",
+      "actie": "merged_into",
+      "merged_into": "interne-organisatie-en-controleprocedures",
+      "duplicate_check": {
+        "top_id": "interne-organisatie-en-controleprocedures",
+        "top_score": 0.0,
+        "collection_size": 36
+      },
+      "relevantie": {
+        "top_bi": 0.455,
+        "n_chunks_geq_0.25": 20
+      },
+      "reden": "Schaal klein. AWW art. 8 §2, 3° en art. 11 zijn al opgenomen als stap 3 ('Sensibiliseer en leid het personeel ... op') op interne-organisatie-en-controleprocedures. Geen apart fenomeen."
+    },
+    {
+      "vermoeden": "Reclame- en informatieregels",
+      "actie": "rejected",
+      "duplicate_check": {
+        "collection_size": 36
+      },
+      "relevantie": {
+        "top_bi": 0.256,
+        "n_chunks_geq_0.25": 1
+      },
+      "reden": "Schaal klein. Geen specifieke gegronde bron in scope (deontologisch reglement reclame zit niet in corpus). Top-1-bi 0.256 op AWW-Art. 81 zonder semantische relevantie. Wachten op ITAA-deontologische code in corpus."
+    }
+  ]
+}

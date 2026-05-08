@@ -1,8 +1,17 @@
 # ADR-007: Conceptmodel
 
 **Status**: Draft
-**Datum**: 2026-05-07
+**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-08 (schema 1.1 — type-specifieke sleutelvelden, `references[]`, inline provenance, edge-richting-conventie)
 **Vervangt**: archive/ADR-006 (drie-lagenmodel — concept-laag absorbeert), archive/ADR-009 (concept-record-schema v2)
+**Schema-versie**: 1.1 (was 1.0 in eerste draft)
+
+## Changelog
+
+- **2026-05-08 (1.1)** — Eerste seed-record (`clientacceptatiebeleid.json`) onthulde drie schema-tekortkomingen die hier rechtgezet worden:
+  1. `main_rule` werd voor álle node-types gebruikt — semantisch fout voor `procedure`, `methode`, `afwegingskader`. Type-specifieke sleutelvelden vastgelegd (zie §"Type-specifieke sleutelvelden").
+  2. Designprincipe 7 ("verwijzingen als gestructureerde child-property") was abstract — agent gooide artikelnummers inline in prose. Concrete `references[]`-blok-spec toegevoegd.
+  3. `_provenance` zat als losstaand top-level blok — moeilijk te onderhouden bij velduitbreiding. Inline `_provenance` per veld; top-level alleen voor record-metadata.
+  4. Edge-richting was impliciet (`getriggerd-door` werd in fout-richting gebruikt). Expliciete conventie vastgelegd.
 
 ## Context
 
@@ -36,7 +45,68 @@ Een uniform schema kan dat niet vasthouden. Een **getypeerde knowledge graph** w
 
 `begrip` · `regel` · `beginsel` · `procedure` · `methode` · `drempel` · `skill` · `casus` · `afwegingskader` · `actor` · `fenomeen`
 
-Per type eigen sleutel-velden (zie archive/ADR-009 voor volledige uitwerking, of `tools/extractie/schemas/` voor de levende definitie).
+### Type-specifieke sleutelvelden
+
+Elk node-type krijgt een hoofdveld dat past bij de aard van de kennis. **`main_rule` is exclusief voor verplichtings-types**; voor andere types is het geen escape-hatch.
+
+| Node-type | Hoofdveld | Secundaire structuur | Toelichting |
+|---|---|---|---|
+| `begrip`, `actor`, `fenomeen` | `definitie` | — | Wat is dit ding? |
+| `regel`, `beginsel` | `main_rule` | — | Wat is de verplichting/het principe? |
+| `drempel` | `main_rule` (de drempelregel) | `waarde` (het getal/criterium) | "Boven X EUR moet je Y doen." |
+| `procedure` | `verplichting` (waarom moet je dit doen) | `stappen[]` (geordende lijst) | Lineair recept met meetbare stappen |
+| `methode` | `doel` (waartoe dient deze methode) | `bouwstenen[]` of `criteria[]` | Aanpak/techniek met componenten |
+| `afwegingskader` | `doel` | `bouwstenen[]` (afwegingsdimensies) | Beslisruimte; geen vast recept |
+| `casus` | `feiten`, `uitspraak` | — | Concreet geval (jurisprudentie, voorbeeldexamen-feitenset) |
+| `skill` | `omschrijving` | `subvaardigheden[]` | Vaardigheid met eventuele componenten |
+
+Elk hoofdveld is een **block-object** (zelfde shape: `text` + `confidence` + `source` + optioneel `references[]` + `_provenance`). Stappen, bouwstenen en subvaardigheden zijn arrays van zulke blocks met optioneel een extra veld (`volgorde` voor stappen).
+
+**Schema-fragment voor type-specifieke velden:**
+
+```json
+{
+  "node_type": "procedure",
+  "verplichting": {
+    "text": "<korte zin: wie moet dit volgen en waarom>",
+    "confidence": "grounded",
+    "source": { ... },
+    "references": [ ... ],
+    "_provenance": { "inputs": [...] }
+  },
+  "stappen": [
+    {
+      "volgorde": 1,
+      "text": "<wat de uitvoerder doet in deze stap>",
+      "outcome": "<wat het resultaat is dat de volgende stap voedt>",
+      "confidence": "grounded",
+      "source": { ... },
+      "references": [ ... ],
+      "_provenance": { "inputs": [...] }
+    }
+  ]
+}
+```
+
+```json
+{
+  "node_type": "afwegingskader",
+  "doel": {
+    "text": "<wat dit kader moet bewerkstelligen>",
+    "confidence": "grounded",
+    "source": { ... }
+  },
+  "bouwstenen": [
+    {
+      "naam": "<korte label, bv. 'Risico-inschatting'>",
+      "text": "<wat deze bouwsteen behelst>",
+      "confidence": "grounded",
+      "source": { ... },
+      "_provenance": { "inputs": [...] }
+    }
+  ]
+}
+```
 
 ### Edge-types (initieel ~20, mag groeien)
 
@@ -44,7 +114,27 @@ Per type eigen sleutel-velden (zie archive/ADR-009 voor volledige uitwerking, of
 
 Optionele velden op edges: `scope`, `conditie`, `scharnier`, `redenering`, `aspect`, `_dangling`, `notities[]`.
 
+### Edge-richting — expliciete conventie
+
+Edges leven op de **bron-node** (de node die de edge declareert) en wijzen naar een **target-node**. De richting volgt deze regels:
+
+- **`X getriggerd-door Y`** → Y is de aanleiding, X is de actie/respons. Lees als "X wordt geactiveerd door Y". Op X verklaard.
+- **`X schakelt-over-naar Y`** → wanneer voorwaarde voldaan is gaat de uitvoerder van X naar Y. Op X verklaard.
+- **`X uitzondering-op Y`** → X is de uitzondering, Y is de hoofdregel. Op X verklaard.
+- **`X bevat Y`** → Y is een sub-onderdeel van X. Op X verklaard.
+- **`X onderdeel-van Y`** → omgekeerde van bovenstaande. Op X verklaard.
+- **`X vereist-kennis-van Y`** → om X te begrijpen moet je Y kennen. Op X verklaard.
+- **`X van-toepassing-op Y`** → X (regel/methode) wordt gebruikt op Y (cliënten/situaties). Op X verklaard.
+
+Bij twijfel: stel de edge-naam in een actieve zin met X als onderwerp ("X *getriggerd-door* Y" = "X wordt getriggerd door Y"). Als de richting niet klopt, kies een ander edge-type of zet de edge op de andere node.
+
+**Code-fout uit eerste seed-record** (illustratief): `Cliëntacceptatiebeleid getriggerd-door Meldingsplicht-CFI` werd geschreven, maar de bedoeling was "het beleid leidt soms tot meldingsplicht-overweging". Correct: `Cliëntacceptatiebeleid schakelt-over-naar Meldingsplicht-CFI` met `conditie` = "wanneer waakzaamheid niet uitvoerbaar is".
+
 ### Bronverwijzing — gestructureerd
+
+Twee structuren:
+
+**1. `source`** (per veld) — de **primaire bron** waarvan de tekst van het veld afgeleid is. Eén per veld.
 
 ```json
 "source": {
@@ -55,11 +145,86 @@ Optionele velden op edges: `scope`, `conditie`, `scharnier`, `redenering`, `aspe
 }
 ```
 
+**2. `references[]`** (per veld, optioneel) — **secundaire pointers** naar onderliggende passages die de hoofdtekst impliceert maar niet uitschrijft. Operationaliseert designprincipe 7 ("verwijzingen als gestructureerde child-property, niet inline in prose").
+
+```json
+"references": [
+  {
+    "rol": "<grondslag|voorbeeldgeval|definitie-van-term|uitzondering-op-uitzondering|...>",
+    "passage": "<korte beschrijving wat in deze referentie staat>",
+    "source": { ... }
+  }
+]
+```
+
+**Wanneer `references[]` ipv inline in tekst**: als de hoofdtekst dreigt artikelnummers te bevatten ("voor de gevallen bedoeld in artikelen 37 tot 41 AWW"), parafraseer de inhoud in de tekst en lift de artikelverwijzing naar `references[]` met een korte uitleg wat daar staat. **Lift-rule**: artikelnummers/normpunten in prose zijn een smell; ze horen in `references[]`.
+
+**Voorbeeld** — een uitzondering op het cliëntacceptatiebeleid:
+
+```json
+{
+  "text": "Cliënten met een hoog risicoprofiel mogen pas worden aanvaard na een passend onderzoek én na akkoord op een geschikt hiërarchisch niveau (bv. een vennoot of compliance-officer). Dit geldt voor cliënten of verrichtingen die volgens de algemene risicobeoordeling als hoog risico zijn aangeduid, en voor situaties die de wet als hoog risico aanmerkt: politiek prominente personen, derde landen met hoog risico, en complexe of ongebruikelijke verrichtingen zonder duidelijk economisch doel.",
+  "confidence": "grounded",
+  "source": { "type": "itaa-norm", "short": "ITAA-norm AWW (richtlijn BIBF) punt 4.2", ... },
+  "references": [
+    {
+      "rol": "grondslag-hoog-risico",
+      "passage": "Risicocategorieën vastgesteld op grond van de algemene risicobeoordeling",
+      "source": { "type": "wet", "short": "AWW art. 19 §2", ... }
+    },
+    {
+      "rol": "wettelijk-aangeduide-hoogrisico-gevallen",
+      "passage": "Verhoogde waakzaamheid: PEPs, derde landen met hoog risico, ongebruikelijke complexe verrichtingen",
+      "source": { "type": "wet", "short": "AWW art. 37-41", ... }
+    }
+  ]
+}
+```
+
+### Provenance — inline per veld
+
+Elk block-veld krijgt een eigen `_provenance`-sub-object met de chunk-ids die het LLM voor dit veld gebruikt heeft. Top-level `_provenance` blijft, maar **alleen voor record-metadata** (run-id, schema_version, tijdstip).
+
+**Per veld:**
+```json
+"main_rule": {
+  "text": "...",
+  "confidence": "grounded",
+  "source": { ... },
+  "_provenance": {
+    "inputs": [{"id": "<chunk_id>", "sha256": "<chunk_sha>", "version": "rag-v1"}],
+    "extracted_at": "2026-05-08T10:23:00Z",
+    "extractor": "seed-v1"
+  }
+}
+```
+
+**Top-level (record-metadata):**
+```json
+{
+  "id": "...",
+  "naam": "...",
+  "schema_version": "1.1",
+  "_provenance": {
+    "extractor_run": "seed-v1-2026-05-08T10:00:00Z",
+    "model": "claude-opus-4-7",
+    "reviewed_by": null
+  }
+}
+```
+
+**Voordelen** boven monolithisch top-level provenance:
+- Block-level stale-flagging mogelijk: één chunk wijzigt → alleen velden die die chunk gebruikten worden `stale`.
+- Schema-evolutie: nieuw veld toevoegen krijgt automatisch eigen provenance-slot.
+- Visuele cohesion bij review: source + chunk-inputs van één veld staan fysiek bij elkaar.
+
+**`sha256`-veld**: implementatie-eis. ChromaDB-metadata bevat `chunk_sha` (ADR-006 §3.1); de extractor moet die kopiëren naar `_provenance.<veld>.inputs[].sha256`. Niet ingevuld → staleness-detectie onmogelijk.
+
 ### Status-flow per node — welke velden in welke fase
 
 | Status | Aangevulde velden (cumulatief) | Trigger naar volgende fase |
 |---|---|---|
-| `seed` | `id`, `naam`, `node_type`, `source`, `main_rule` of `definitie` (verbatim/paraphrase met confidence) | LLM-extractor heeft genoeg bron-context om uitzonderingen + scope te formuleren |
+| `seed` | `id`, `naam`, `node_type`, `schema_version`, top-level `_provenance` (run-metadata), **type-specifiek hoofdveld** (zie §"Type-specifieke sleutelvelden") met inline `_provenance`, eventueel eerste `edges` | LLM-extractor heeft genoeg bron-context om uitzonderingen + scope te formuleren |
 | `partieel` | + `exceptions`, `scope`, eerste batch `edges` (mogelijk dangling) | Edges grotendeels geresolveerd; bron-RAG levert geen nieuwe info op verdiepende queries |
 | `gevuld` | + `pitfalls`, `voorbeeld_inline`, gerelateerde casussen | Menselijke review |
 | `geverifieerd` | identiek; alleen status-flag | — |
@@ -104,22 +269,28 @@ Niet in deze ADR — schrijfregels zijn geen architectuurbeslissing.
 
 ### Vermoeden-schema (input voor concept-extractie, ADR-008)
 
-Vermoedens (kandidaat-concepten) hebben een eigen lichtgewicht schema dat als input dient voor de seed-extractie:
+Vermoedens (kandidaat-concepten) hebben een eigen lichtgewicht schema dat als input dient voor de seed-extractie. Vermoedensruimte werkt op **programmaonderdeel-niveau**, niet per taakblok — een vermoeden kan vakoverschrijdend zijn (designprincipe 1).
 
 ```json
 {
   "naam": "<volledige naam>",
   "node_type": "<11 types of voorgesteld:<naam>>",
   "rationale": "<één zin: waarom relevant>",
-  "kenniselementen": ["4.0.I.D.7", ...],          // optioneel, mag leeg
-  "taken_doelstellingen": ["4.0.D1.1.taak.1", ...], // optioneel, mag leeg
+  "taakblokken": ["4.0.D1.1", "4.0.D1.2", ...],     // 1+ verplicht
+  "taken_doelstellingen": ["4.0.D1.1.taak.1", ...], // optioneel, multi
+  "kenniselementen": ["4.0.I.D.7", ...],            // optioneel, multi
+  "synoniemen": ["geheim toevertrouwd", ...],       // 3-5 aanbevolen; lege lijst geldig als canonische naam overal voorkomt
   "schaal_signaal": "<klein|middel|groot>"          // hint voor granulariteit
 }
 ```
 
-Belangrijk: zowel `kenniselementen` als `taken_doelstellingen` mogen leeg zijn. Sommige vermoedens komen uit pure procedurele taken zonder kenniselement-anker; andere zijn pure begrippen zonder taak-context. Forceer geen mapping waar die niet bestaat.
+**Multiplicity is overal toegestaan**: één vermoeden kan bij meerdere taakblokken, meerdere taken/doelstellingen of meerdere kenniselementen horen. Geen artificiële 1-op-1-koppeling. `taakblokken` is verplicht als minstens-één-element-array (waar duikt het op?); de andere optionele anker-velden mogen leeg zijn voor pure procedurele taken (kenniselement leeg) of pure begrippen (taken_doelstellingen leeg).
 
-Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<taakblok>.json` als een array onder de sleutel `vermoedens`.
+Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<programmaonderdeel>.json` — **één bestand per PO**, niet per taakblok. Top-level wrapper:
+
+```json
+{ "po": "<code>", "vermoedens": [ ... ] }
+```
 
 ## Gevolgen
 
@@ -128,3 +299,10 @@ Vermoedens leven in `data/extractie/<programmaonderdeel>/vermoedens/<taakblok>.j
 - Schema-evoluties expliciet in `schema_version`-veld + ADR-changelog
 - `tools/lib/cross_refs.py` — utility om referenties (`art. 33-35`, `§ 1`) te detecteren tijdens extractie (ADR-008)
 - Bestaande concept-records (oud schema) krijgen `_provenance.stale: true` en worden in fasen gemigreerd
+
+### Migratie-impact 1.0 → 1.1
+
+- Eén bestaand record (`clientacceptatiebeleid.json`) moet hertypeerd worden van `procedure` naar `afwegingskader` en de top-level `_provenance` moet inline gemaakt worden. Geen separaat migratiescript — handmatig of regenereren.
+- `prompts/seed-v1.md` wordt herschreven om type-specifieke sleutelvelden, `references[]` en inline `_provenance` voor te schrijven.
+- `tools/extractie/index_concept_incremental.py` raakt provenance-paden niet aan voor embedding (gebruikt enkel `naam`-veld) — geen aanpassing nodig.
+- Latere tooling (`mark_stale.py`, `remove_bron.py`) leest provenance via inline-paden (`record["main_rule"]["_provenance"]["inputs"]`) ipv top-level. Nog niet bestaand, dus geen breaking change.

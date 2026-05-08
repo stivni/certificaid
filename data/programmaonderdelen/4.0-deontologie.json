@@ -9,8 +9,17 @@
     "pages": "48-51"
   },
   "scope": {
-    "kern_taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
-    "kern_kenniselementen": ["4.0.I.A", "4.0.I.B", "4.0.I.C", "4.0.I.D"],
+    "kern_taakblokken": [
+      "4.0.D1.1",
+      "4.0.D1.2",
+      "4.0.D1.3"
+    ],
+    "kern_kenniselementen": [
+      "4.0.I.A",
+      "4.0.I.B",
+      "4.0.I.C",
+      "4.0.I.D"
+    ],
     "voorbehoud": "Deel 2 (taakblokken 4.0.D2.1 en 4.0.D2.2 + kenniselementen 4.0.II.A t/m 4.0.II.F) is generieke 'digitale wereld / IT / audit / management'-content en niet deontologie-specifiek. Buiten kernscope; in scope brengen wanneer voorbeeldexamens er expliciet naar verwijzen."
   },
   "taakblokken": [
@@ -18,56 +27,107 @@
       "deel": 1,
       "code": "4.0.D1.1",
       "taken": [
-        {"tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen"}
+        {
+          "tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen",
+          "concepten": [
+            "clientacceptatiebeleid"
+          ]
+        }
       ],
       "doelstellingen": [
-        {"tekst": "Een risicoanalyse uitvoeren"},
-        {"tekst": "Interne procedures uitwerken"},
-        {"tekst": "Discreet en duidelijk communiceren met de autoriteiten"},
-        {"tekst": "De beroepsdeontologie naleven"},
-        {"tekst": "De antiwitwaswetgeving naleven"}
+        {
+          "tekst": "Een risicoanalyse uitvoeren"
+        },
+        {
+          "tekst": "Interne procedures uitwerken"
+        },
+        {
+          "tekst": "Discreet en duidelijk communiceren met de autoriteiten"
+        },
+        {
+          "tekst": "De beroepsdeontologie naleven"
+        },
+        {
+          "tekst": "De antiwitwaswetgeving naleven"
+        }
       ]
     },
     {
       "deel": 1,
       "code": "4.0.D1.2",
       "taken": [
-        {"tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht"}
+        {
+          "tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht"
+        }
       ],
       "doelstellingen": [
-        {"tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)"},
-        {"tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."},
-        {"tekst": "Vertrouwelijke informatie discreet behandelen"},
-        {"tekst": "Termijnen in acht nemen"}
+        {
+          "tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)"
+        },
+        {
+          "tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."
+        },
+        {
+          "tekst": "Vertrouwelijke informatie discreet behandelen"
+        },
+        {
+          "tekst": "Termijnen in acht nemen"
+        }
       ]
     },
     {
       "deel": 1,
       "code": "4.0.D1.3",
       "taken": [
-        {"tekst": "Zijn deskundigheid voortdurend ontwikkelen"}
+        {
+          "tekst": "Zijn deskundigheid voortdurend ontwikkelen"
+        }
       ],
       "doelstellingen": [
-        {"tekst": "Voortdurend bijscholen volgens de norm van permanente vorming"},
-        {"tekst": "Op de hoogte blijven van de ontwikkelingen ter zake"},
-        {"tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving"},
-        {"tekst": "Kennis delen met collega's en (medewerkers) van de klant"}
+        {
+          "tekst": "Voortdurend bijscholen volgens de norm van permanente vorming"
+        },
+        {
+          "tekst": "Op de hoogte blijven van de ontwikkelingen ter zake"
+        },
+        {
+          "tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving"
+        },
+        {
+          "tekst": "Kennis delen met collega's en (medewerkers) van de klant"
+        }
       ]
     },
     {
       "deel": 2,
       "code": "4.0.D2.1",
       "taken": [
-        {"tekst": "De activiteiten van een team coördineren"}
+        {
+          "tekst": "De activiteiten van een team coördineren"
+        }
       ],
       "doelstellingen": [
-        {"tekst": "Een planning opstellen en naargelang van de omstandigheden aanpassen"},
-        {"tekst": "Taken en verantwoordelijkheden verdelen"},
-        {"tekst": "Informeren, begeleiden, leiden en motiveren van (nieuwe) medewerkers"},
-        {"tekst": "Controleren van de uitvoering van de opdrachten en de naleving van de procedures"},
-        {"tekst": "Organiseren en leiden van teamvergaderingen"},
-        {"tekst": "Opvolgen van de competenties van de medewerkers"},
-        {"tekst": "Voeren van plannings-, functionerings- en evaluatiegesprekken"}
+        {
+          "tekst": "Een planning opstellen en naargelang van de omstandigheden aanpassen"
+        },
+        {
+          "tekst": "Taken en verantwoordelijkheden verdelen"
+        },
+        {
+          "tekst": "Informeren, begeleiden, leiden en motiveren van (nieuwe) medewerkers"
+        },
+        {
+          "tekst": "Controleren van de uitvoering van de opdrachten en de naleving van de procedures"
+        },
+        {
+          "tekst": "Organiseren en leiden van teamvergaderingen"
+        },
+        {
+          "tekst": "Opvolgen van de competenties van de medewerkers"
+        },
+        {
+          "tekst": "Voeren van plannings-, functionerings- en evaluatiegesprekken"
+        }
       ]
     },
     {
@@ -75,8 +135,12 @@
       "code": "4.0.D2.2",
       "shared_doelstellingen": true,
       "taken": [
-        {"tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen en dit in een digitale wereld"},
-        {"tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen door geleidelijk kennis te verwerven over bedrijfsstrategie"}
+        {
+          "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen en dit in een digitale wereld"
+        },
+        {
+          "tekst": "Zich in zijn kantoor, bij zijn klant of in zijn onderneming ontwikkelen door geleidelijk kennis te verwerven over bedrijfsstrategie"
+        }
       ],
       "doelstellingen": [
         {
@@ -91,20 +155,78 @@
     }
   ],
   "kenniselementen": [
-    {"deel": 1, "code": "4.0.I.A", "tekst": "Gereglementeerde economische beroepen"},
-    {"deel": 1, "code": "4.0.I.B", "tekst": "Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen"},
+    {
+      "deel": 1,
+      "code": "4.0.I.A",
+      "tekst": "Gereglementeerde economische beroepen",
+      "concepten": [
+        "gereglementeerd-economisch-beroep"
+      ]
+    },
+    {
+      "deel": 1,
+      "code": "4.0.I.B",
+      "tekst": "Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen"
+    },
     {
       "deel": 1,
       "code": "4.0.I.C",
       "tekst": "Organisatie van de uitoefening van de activiteiten van gecertificeerd belastingadviseur en van gecertificeerd accountant op basis van de wet van 17 maart 2019",
       "subitems": [
-        {"code": "4.0.I.C.1", "tekst": "Specifieke wettelijke en reglementaire bepalingen"},
-        {"code": "4.0.I.C.2", "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (IBA)"},
-        {"code": "4.0.I.C.3", "tekst": "Opdrachten en activiteiten"},
-        {"code": "4.0.I.C.4", "tekst": "Vormen van uitoefening van activiteiten"},
-        {"code": "4.0.I.C.5", "tekst": "Onverenigbaarheden"},
-        {"code": "4.0.I.C.6", "tekst": "Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant"},
-        {"code": "4.0.I.C.7", "tekst": "Permanente beroepsopleiding"}
+        {
+          "code": "4.0.I.C.1",
+          "tekst": "Specifieke wettelijke en reglementaire bepalingen",
+          "concepten": [
+            "wettelijk-monopolie-accountant",
+            "vormen-uitoefening-beroep",
+            "onverenigbaarheden",
+            "toegang-tot-de-hoedanigheid",
+            "permanente-vorming",
+            "gereglementeerd-economisch-beroep"
+          ]
+        },
+        {
+          "code": "4.0.I.C.2",
+          "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (IBA)",
+          "concepten": [
+            "itaa-instituut"
+          ]
+        },
+        {
+          "code": "4.0.I.C.3",
+          "tekst": "Opdrachten en activiteiten",
+          "concepten": [
+            "wettelijk-monopolie-accountant"
+          ]
+        },
+        {
+          "code": "4.0.I.C.4",
+          "tekst": "Vormen van uitoefening van activiteiten",
+          "concepten": [
+            "vormen-uitoefening-beroep"
+          ]
+        },
+        {
+          "code": "4.0.I.C.5",
+          "tekst": "Onverenigbaarheden",
+          "concepten": [
+            "onverenigbaarheden"
+          ]
+        },
+        {
+          "code": "4.0.I.C.6",
+          "tekst": "Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant",
+          "concepten": [
+            "toegang-tot-de-hoedanigheid"
+          ]
+        },
+        {
+          "code": "4.0.I.C.7",
+          "tekst": "Permanente beroepsopleiding",
+          "concepten": [
+            "permanente-vorming"
+          ]
+        }
       ]
     },
     {
@@ -112,15 +234,97 @@
       "code": "4.0.I.D",
       "tekst": "Juridische en beroepsnormen",
       "subitems": [
-        {"code": "4.0.I.D.1", "tekst": "Basisprincipes"},
-        {"code": "4.0.I.D.2", "tekst": "Onafhankelijkheid"},
-        {"code": "4.0.I.D.3", "tekst": "Relaties met cliënten"},
-        {"code": "4.0.I.D.4", "tekst": "Relaties met confraters"},
-        {"code": "4.0.I.D.5", "tekst": "Relaties met het ITAA"},
-        {"code": "4.0.I.D.6", "tekst": "Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten)"},
-        {"code": "4.0.I.D.7", "tekst": "Beroepsgeheim en professionele discretieplicht"},
-        {"code": "4.0.I.D.8", "tekst": "Aansprakelijkheid"},
-        {"code": "4.0.I.D.9", "tekst": "Toezicht en beroepstucht"}
+        {
+          "code": "4.0.I.D.1",
+          "tekst": "Basisprincipes",
+          "concepten": [
+            "fundamentele-beroepsbeginselen"
+          ]
+        },
+        {
+          "code": "4.0.I.D.2",
+          "tekst": "Onafhankelijkheid",
+          "concepten": [
+            "onafhankelijkheidsbeginsel",
+            "belangenconflict"
+          ]
+        },
+        {
+          "code": "4.0.I.D.3",
+          "tekst": "Relaties met cliënten",
+          "concepten": [
+            "clientacceptatiebeleid",
+            "opdrachtbrief",
+            "belangenconflict"
+          ]
+        },
+        {
+          "code": "4.0.I.D.4",
+          "tekst": "Relaties met confraters",
+          "concepten": [
+            "confraterniteit",
+            "opdrachtovername-confrater",
+            "beeindiging-opdracht"
+          ]
+        },
+        {
+          "code": "4.0.I.D.5",
+          "tekst": "Relaties met het ITAA",
+          "concepten": [
+            "itaa-instituut",
+            "kwaliteitstoetsing",
+            "tuchtprocedure"
+          ]
+        },
+        {
+          "code": "4.0.I.D.6",
+          "tekst": "Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten)",
+          "concepten": [
+            "clientacceptatiebeleid",
+            "onderworpen-entiteit",
+            "clientenonderzoek-kyc",
+            "ubo-uiteindelijke-begunstigde",
+            "risicogebaseerde-benadering-antiwitwas",
+            "verscherpte-waakzaamheid",
+            "politiek-prominent-persoon",
+            "cel-financiele-informatieverwerking",
+            "meldingsplicht-cfi",
+            "tipping-off-verbod",
+            "antiwitwasverantwoordelijke",
+            "interne-organisatie-en-controleprocedures",
+            "algemene-risicobeoordeling-kantoor",
+            "bewaarplicht-aww",
+            "beperking-gebruik-contanten",
+            "witwasmisdrijf",
+            "financiering-terrorisme"
+          ]
+        },
+        {
+          "code": "4.0.I.D.7",
+          "tekst": "Beroepsgeheim en professionele discretieplicht",
+          "concepten": [
+            "beroepsgeheim-gecertificeerd-accountant",
+            "uitzonderingen-op-beroepsgeheim",
+            "tipping-off-verbod"
+          ]
+        },
+        {
+          "code": "4.0.I.D.8",
+          "tekst": "Aansprakelijkheid",
+          "concepten": [
+            "beroepsaansprakelijkheid",
+            "beroepsaansprakelijkheidsverzekering"
+          ]
+        },
+        {
+          "code": "4.0.I.D.9",
+          "tekst": "Toezicht en beroepstucht",
+          "concepten": [
+            "tuchtprocedure",
+            "tuchtsancties",
+            "kwaliteitstoetsing"
+          ]
+        }
       ]
     },
     {
@@ -128,8 +332,14 @@
       "code": "4.0.II.A",
       "tekst": "FINANCIËLE INFORMATIE: Behoeften en systemen",
       "subitems": [
-        {"code": "4.0.II.A.1", "tekst": "Evalueren van informatiesystemen, gegevensvereisten en bedrijfsprocessen voor het produceren van betrouwbare financiële informatie"},
-        {"code": "4.0.II.A.2", "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën in de financiële verslaglegging"}
+        {
+          "code": "4.0.II.A.1",
+          "tekst": "Evalueren van informatiesystemen, gegevensvereisten en bedrijfsprocessen voor het produceren van betrouwbare financiële informatie"
+        },
+        {
+          "code": "4.0.II.A.2",
+          "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën in de financiële verslaglegging"
+        }
       ]
     },
     {
@@ -137,8 +347,14 @@
       "code": "4.0.II.B",
       "tekst": "STRATEGIE EN BESTUUR",
       "subitems": [
-        {"code": "4.0.II.B.1", "tekst": "Uitvoeren van de strategie — Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie"},
-        {"code": "4.0.II.B.2", "tekst": "Beheer van ondernemingsrisico's — Evalueren van de impact van risico's op het gebied van informatietechnologie en informatiesystemen op het ondernemingsrisico en passende risicobeheersingsstrategieën aanbevelen"}
+        {
+          "code": "4.0.II.B.1",
+          "tekst": "Uitvoeren van de strategie — Analyseren van belangrijke bedrijfsuitdagingen, waaronder het gebruik van informatieactiva, en de afstemming daarvan op de strategie"
+        },
+        {
+          "code": "4.0.II.B.2",
+          "tekst": "Beheer van ondernemingsrisico's — Evalueren van de impact van risico's op het gebied van informatietechnologie en informatiesystemen op het ondernemingsrisico en passende risicobeheersingsstrategieën aanbevelen"
+        }
       ]
     },
     {
@@ -150,16 +366,28 @@
           "code": "4.0.II.C.1",
           "tekst": "Behoeften aan managementinformatie en managementinformatiesystemen",
           "subitems": [
-            {"code": "4.0.II.C.1.a", "tekst": "Documenteren en beoordelen van bedrijfsproces-, systeem- en gegevensvereisten"},
-            {"code": "4.0.II.C.1.b", "tekst": "Aanbevelingen doen voor verbeteringen van analyse- en informatiesystemen om aan de informatiebehoeften te voldoen"},
-            {"code": "4.0.II.C.1.c", "tekst": "Vaststellen van de ethische kwesties en privacykwesties in verband met informatietechnologie en het gebruik ervan"}
+            {
+              "code": "4.0.II.C.1.a",
+              "tekst": "Documenteren en beoordelen van bedrijfsproces-, systeem- en gegevensvereisten"
+            },
+            {
+              "code": "4.0.II.C.1.b",
+              "tekst": "Aanbevelingen doen voor verbeteringen van analyse- en informatiesystemen om aan de informatiebehoeften te voldoen"
+            },
+            {
+              "code": "4.0.II.C.1.c",
+              "tekst": "Vaststellen van de ethische kwesties en privacykwesties in verband met informatietechnologie en het gebruik ervan"
+            }
           ]
         },
         {
           "code": "4.0.II.C.2",
           "tekst": "Planning, budgettering en prognoses",
           "subitems": [
-            {"code": "4.0.II.C.2.a", "tekst": "Ontwikkelen of evalueren van gegevens en informatie-elementen voor de voorbereiding van bedrijfsplannen, budgetten en prognoses"}
+            {
+              "code": "4.0.II.C.2.a",
+              "tekst": "Ontwikkelen of evalueren van gegevens en informatie-elementen voor de voorbereiding van bedrijfsplannen, budgetten en prognoses"
+            }
           ]
         }
       ]
@@ -173,22 +401,34 @@
           "code": "4.0.II.D.1",
           "tekst": "Interne controle",
           "subitems": [
-            {"code": "4.0.II.D.1.a", "tekst": "Evalueren van het informatiesysteem, met inbegrip van de bijbehorende processen, op basis van kennis van de gegevensvereisten en de risico's"}
+            {
+              "code": "4.0.II.D.1.a",
+              "tekst": "Evalueren van het informatiesysteem, met inbegrip van de bijbehorende processen, op basis van kennis van de gegevensvereisten en de risico's"
+            }
           ]
         },
         {
           "code": "4.0.II.D.2",
           "tekst": "Vereisten op het vlak van interne en externe audit",
           "subitems": [
-            {"code": "4.0.II.D.2.a", "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën op het gebied van de certificeringsnormen"}
+            {
+              "code": "4.0.II.D.2.a",
+              "tekst": "Uitleggen van de implicaties van huidige trends, nieuwe problemen en opkomende technologieën op het gebied van de certificeringsnormen"
+            }
           ]
         },
         {
           "code": "4.0.II.D.3",
           "tekst": "Projecten van interne audit en opdrachten van externe certificering",
           "subitems": [
-            {"code": "4.0.II.D.3.a", "tekst": "Ontwikkelen van passende procedures, met inbegrip van een analyse van auditgegevens, naargelang van het geïdentificeerde risico van afwijkingen van materieel belang"},
-            {"code": "4.0.II.D.3.b", "tekst": "Voorbereiden of interpreteren van informatie en verslagen voor belanghebbenden waar nodig met gebruikmaking van technieken voor gegevensvisualisatie"}
+            {
+              "code": "4.0.II.D.3.a",
+              "tekst": "Ontwikkelen van passende procedures, met inbegrip van een analyse van auditgegevens, naargelang van het geïdentificeerde risico van afwijkingen van materieel belang"
+            },
+            {
+              "code": "4.0.II.D.3.b",
+              "tekst": "Voorbereiden of interpreteren van informatie en verslagen voor belanghebbenden waar nodig met gebruikmaking van technieken voor gegevensvisualisatie"
+            }
           ]
         }
       ]
@@ -198,7 +438,10 @@
       "code": "4.0.II.E",
       "tekst": "FINANCIËN",
       "subitems": [
-        {"code": "4.0.II.E.1", "tekst": "Financiële analyse en planning: evalueren van informatiesystemen, gegevenskwaliteit en analytische modellen die worden gebruikt ter ondersteuning van financiële analyse en besluitvorming"}
+        {
+          "code": "4.0.II.E.1",
+          "tekst": "Financiële analyse en planning: evalueren van informatiesystemen, gegevenskwaliteit en analytische modellen die worden gebruikt ter ondersteuning van financiële analyse en besluitvorming"
+        }
       ]
     },
     {
@@ -206,7 +449,10 @@
       "code": "4.0.II.F",
       "tekst": "FISCALITEIT",
       "subitems": [
-        {"code": "4.0.II.F.1", "tekst": "Evalueren van informatiesystemen, gegevenskwaliteit, gegevensvereisten en bedrijfsprocessen die een betrouwbare naleving van de belastingwetgeving mogelijk maken"}
+        {
+          "code": "4.0.II.F.1",
+          "tekst": "Evalueren van informatiesystemen, gegevenskwaliteit, gegevensvereisten en bedrijfsprocessen die een betrouwbare naleving van de belastingwetgeving mogelijk maken"
+        }
       ]
     }
   ],

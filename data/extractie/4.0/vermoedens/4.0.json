@@ -1,0 +1,586 @@
+{
+  "po": "4.0",
+  "vermoedens": [
+    {
+      "naam": "Gereglementeerd economisch beroep",
+      "node_type": "begrip",
+      "rationale": "Statuut van de gecertificeerd accountant en gecertificeerd belastingadviseur is een gereglementeerd beroep met wettelijke titelbescherming en monopolie; basis voor heel deontologie.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.A"],
+      "synoniemen": ["beschermd beroep", "gereglementeerd cijferberoep", "vrij gereglementeerd beroep", "beroepstitel"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Hiërarchie van juridische en beroepsnormen",
+      "node_type": "afwegingskader",
+      "rationale": "Accountant moet weten welke norm voorrang heeft (wet, KB, ITAA-norm, deontologische code, IFAC-IESBA, soft law); cruciaal bij conflicten tussen bronnen.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.B"],
+      "synoniemen": ["normenhiërarchie", "rangorde van rechtsbronnen", "bronnen van het beroepsrecht", "regelgevend kader cijferberoep"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Wet van 17 maart 2019",
+      "node_type": "regel",
+      "rationale": "Kaderwet die het beroep van gecertificeerd accountant en belastingadviseur, het ITAA en de uitoefening organiseert; expliciete kennisvereiste in I.C.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.C", "4.0.I.C.1"],
+      "synoniemen": ["wet betreffende de beroepen van accountant en belastingadviseur", "kaderwet 2019", "WBA", "wet beroepen cijferberoep"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Instituut van de Belastingadviseurs en de Accountants (ITAA)",
+      "node_type": "actor",
+      "rationale": "Beroepsorganisatie die het tableau bijhoudt, normen uitvaardigt, toezicht houdt en tucht uitoefent; kern van de beroepsorganisatie.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.C.2", "4.0.I.D.5"],
+      "synoniemen": ["IBA", "Instituut", "beroepsinstituut accountants en belastingadviseurs", "ITAA-Raad"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Wettelijk monopolie van de accountant",
+      "node_type": "regel",
+      "rationale": "Bepaalde opdrachten zijn voorbehouden aan gecertificeerd accountants/belastingadviseurs; afbakening voorbehouden vs vrije activiteiten.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.C.3"],
+      "synoniemen": ["voorbehouden werkzaamheden", "monopolie cijferberoep", "voorbehouden opdrachten", "exclusieve activiteiten"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Vormen van uitoefening van het beroep",
+      "node_type": "begrip",
+      "rationale": "Accountant kan beroep uitoefenen als natuurlijke persoon, in vennootschap of in dienstverband; vormbepalingen en erkenningsvereisten gelden voor elke vorm.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.C.4"],
+      "synoniemen": ["uitoefeningsvormen", "professionele vennootschap", "natuurlijke persoon-uitoefening", "beroepsvennootschap accountant"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Onverenigbaarheden",
+      "node_type": "regel",
+      "rationale": "Bepaalde activiteiten of functies zijn onverenigbaar met de uitoefening van het beroep; kern van onafhankelijkheid en integriteit.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [{"taakblok": "4.0.D1.1", "doelstelling": "De beroepsdeontologie naleven"}],
+      "kenniselementen": ["4.0.I.C.5"],
+      "synoniemen": ["incompatibiliteiten", "verboden activiteiten", "onverenigbare functies", "uitsluitende activiteiten"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Toegang tot de hoedanigheid van gecertificeerd accountant",
+      "node_type": "procedure",
+      "rationale": "Stage, bekwaamheidsexamen, eedaflegging en inschrijving op het tableau; voorwaarden om de beroepstitel te verkrijgen.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.C.6"],
+      "synoniemen": ["toelating tot het beroep", "stage en bekwaamheidsexamen", "inschrijving op het tableau", "eedaflegging accountant"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Permanente vorming",
+      "node_type": "regel",
+      "rationale": "Norm permanente vorming legt minimumaantal uren bij- en nascholing op per jaar; expliciet in D1.3 en I.C.7.",
+      "taakblokken": ["4.0.D1.3"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.3", "taak": "Zijn deskundigheid voortdurend ontwikkelen"},
+        {"taakblok": "4.0.D1.3", "doelstelling": "Voortdurend bijscholen volgens de norm van permanente vorming"}
+      ],
+      "kenniselementen": ["4.0.I.C.7"],
+      "synoniemen": ["bijscholing", "continue professionele vorming", "CPD", "norm permanente vorming", "verplichte vormingsuren"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Bijhouden van de fiscale en juridische actualiteit",
+      "node_type": "skill",
+      "rationale": "Accountant moet wetswijzigingen volgen en toepassen; vaardigheid los van de uren-norm permanente vorming.",
+      "taakblokken": ["4.0.D1.3"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.3", "doelstelling": "Op de hoogte blijven van de ontwikkelingen ter zake"},
+        {"taakblok": "4.0.D1.3", "doelstelling": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving"}
+      ],
+      "kenniselementen": ["4.0.I.C.7", "4.0.I.D.1"],
+      "synoniemen": ["fiscale actualiteit volgen", "wetswijzigingen monitoren", "actualiteitskennis", "wetgevingsupdates verwerken"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Kennisdeling met collega's en klanten",
+      "node_type": "skill",
+      "rationale": "Onderdeel van deskundigheidsontwikkeling: het delen van vakkennis met (medewerkers van) klant en confraters.",
+      "taakblokken": ["4.0.D1.3"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.3", "doelstelling": "Kennis delen met collega's en (medewerkers) van de klant"}
+      ],
+      "kenniselementen": ["4.0.I.C.7"],
+      "synoniemen": ["interne opleiding", "knowledge sharing", "kennisoverdracht", "begeleiden van collega's"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Fundamentele beroepsbeginselen",
+      "node_type": "beginsel",
+      "rationale": "Integriteit, objectiviteit, professionele bekwaamheid, vertrouwelijkheid, professioneel gedrag — de vijf basisprincipes uit de IESBA-Code en het ITAA-deontologisch reglement.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2", "4.0.D1.3"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "De beroepsdeontologie naleven"}
+      ],
+      "kenniselementen": ["4.0.I.D.1"],
+      "synoniemen": ["basisprincipes", "fundamentele principes", "integriteit objectiviteit", "ethische grondbeginselen", "IESBA-principes"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Onafhankelijkheidsbeginsel",
+      "node_type": "beginsel",
+      "rationale": "Onafhankelijkheid in geest en in schijn; kerneis bij wettelijke opdrachten en gecertificeerde verklaringen.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "De beroepsdeontologie naleven"}
+      ],
+      "kenniselementen": ["4.0.I.D.2"],
+      "synoniemen": ["independence", "onafhankelijkheid in schijn en in feite", "feitelijke en schijnbare onafhankelijkheid", "professionele onafhankelijkheid"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Bedreigingen voor de onafhankelijkheid",
+      "node_type": "afwegingskader",
+      "rationale": "Eigen-belang, zelftoetsing, belangenbehartiging, vertrouwdheid, intimidatie — categorieën om onafhankelijkheidsrisico's te identificeren (IESBA threats-framework).",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Een risicoanalyse uitvoeren"}
+      ],
+      "kenniselementen": ["4.0.I.D.2"],
+      "synoniemen": ["self-interest threat", "self-review threat", "advocacy threat", "familiarity threat", "intimidation threat", "onafhankelijkheidsrisico's"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Veiligheidsmaatregelen voor onafhankelijkheid",
+      "node_type": "afwegingskader",
+      "rationale": "Maatregelen (safeguards) om onafhankelijkheidsbedreigingen tot een aanvaardbaar niveau terug te brengen of de opdracht te weigeren/beëindigen.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Interne procedures uitwerken"}
+      ],
+      "kenniselementen": ["4.0.I.D.2"],
+      "synoniemen": ["safeguards", "beschermingsmaatregelen", "mitigerende maatregelen", "compenserende maatregelen onafhankelijkheid"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Cliëntacceptatiebeleid",
+      "node_type": "procedure",
+      "rationale": "Schriftelijk beleid voor het aanvaarden of weigeren van klanten op basis van risico-inschatting; expliciet anker D1.1 en aansluiting op antiwitwasplichten.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "taak": "Een passend beleid voor de aanvaarding van klanten vaststellen"}
+      ],
+      "kenniselementen": ["4.0.I.D.3", "4.0.I.D.6"],
+      "synoniemen": ["client acceptance policy", "klantaanvaarding", "intake-procedure cliënten", "aanvaardingsbeleid"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Risicoanalyse bij klantaanvaarding",
+      "node_type": "methode",
+      "rationale": "Systematische beoordeling van integriteit klant, complexiteit opdracht, onafhankelijkheid en witwasrisico voor er een opdrachtbrief getekend wordt.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Een risicoanalyse uitvoeren"}
+      ],
+      "kenniselementen": ["4.0.I.D.3", "4.0.I.D.6"],
+      "synoniemen": ["risicobeoordeling klant", "klantrisicoprofiel", "due diligence klant", "individuele risicobeoordeling"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Opdrachtbrief",
+      "node_type": "begrip",
+      "rationale": "Schriftelijke vastlegging van de opdracht, vergoeding en wederzijdse rechten en plichten; verplicht onder de deontologie (relaties met cliënten).",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.3"],
+      "synoniemen": ["lettre de mission", "engagement letter", "schriftelijke opdrachtovereenkomst", "engagementbrief"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Beëindiging van de opdracht",
+      "node_type": "procedure",
+      "rationale": "Voorwaarden, termijnen en formaliteiten om een opdracht te beëindigen; raakt klant- en confraterrelaties (overname, dossierdoorgifte).",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.3", "4.0.I.D.4"],
+      "synoniemen": ["opzegging opdracht", "stopzetting mandaat", "ontslag uit opdracht", "beëindigingsprocedure"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Honoraria-regels",
+      "node_type": "regel",
+      "rationale": "Verbod op no-cure-no-pay en proportionele honoraria, transparantievereisten; deel van relaties met cliënten en confraters.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.3"],
+      "synoniemen": ["ereloon", "vergoeding accountant", "verbod resultaatsafhankelijke honoraria", "honorariumvereisten"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Confraterneliteit",
+      "node_type": "beginsel",
+      "rationale": "Hoffelijkheid en correcte omgang tussen confraters; onderbouwt regels rond opdrachtovername en correspondentie.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.4"],
+      "synoniemen": ["collegialiteit", "confraterniteit", "betrekkingen tussen confraters", "wederzijds respect tussen beroepsbeoefenaars"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Opdrachtovername van een confrater",
+      "node_type": "procedure",
+      "rationale": "Verplichting om bij overname van een dossier de voorgaande accountant aan te schrijven en eventuele beletselen te bespreken.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Duidelijk en gepast communiceren met de klant (confraters, enz.)"}
+      ],
+      "kenniselementen": ["4.0.I.D.4"],
+      "synoniemen": ["overname dossier", "letter to predecessor", "voorganger aanschrijven", "professional clearance", "confrater contacteren"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Beroepsgeheim",
+      "node_type": "regel",
+      "rationale": "Strafrechtelijk beschermde geheimhoudingsplicht (Sw. art. 458) van toepassing op accountants en belastingadviseurs; absolute kern van de deontologie.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Vertrouwelijke informatie discreet behandelen"}
+      ],
+      "kenniselementen": ["4.0.I.D.7"],
+      "synoniemen": ["geheimhoudingsplicht", "secret professionnel", "geheim toevertrouwd", "beroepsmatige geheimhouding", "Strafwetboek artikel 458"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Uitzonderingen op het beroepsgeheim",
+      "node_type": "regel",
+      "rationale": "Wettelijke doorbrekingen: getuigenis in rechte, antiwitwasmelding, fiscale informatieplicht, eigen verdediging — vereist exacte kennis van de uitzonderingen.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."}
+      ],
+      "kenniselementen": ["4.0.I.D.7", "4.0.I.D.6"],
+      "synoniemen": ["doorbreking beroepsgeheim", "wettelijke uitzonderingen geheimhouding", "spreekrecht", "spreekplicht", "meldplicht boven geheim"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Professionele discretieplicht",
+      "node_type": "regel",
+      "rationale": "Bredere terughoudendheidsplicht naast het strafrechtelijk beroepsgeheim; expliciet in I.D.7 als afzonderlijke verplichting.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Vertrouwelijke informatie discreet behandelen"}
+      ],
+      "kenniselementen": ["4.0.I.D.7"],
+      "synoniemen": ["discretieplicht", "vertrouwelijkheid", "devoir de discrétion", "professionele terughoudendheid"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Antiwitwaswetgeving",
+      "node_type": "regel",
+      "rationale": "Wet van 18 september 2017 (Witwaswet) legt het preventieve luik op aan accountants; expliciet vermeld in I.D.6 en D1.1.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "De antiwitwaswetgeving naleven"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["AML-wetgeving", "Witwaswet 2017", "wet ter voorkoming witwassen", "preventieve antiwitwasplichten", "anti-money laundering", "WWFT België"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Onderworpen entiteit",
+      "node_type": "begrip",
+      "rationale": "Accountants en belastingadviseurs zijn onderworpen entiteiten onder de Witwaswet; bepaalt wie de preventieve verplichtingen draagt.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["onderworpen persoon", "meldingsplichtige entiteit", "obliged entity", "entiteit onder de witwaswet"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Cliëntenonderzoek (KYC)",
+      "node_type": "procedure",
+      "rationale": "Identificatie en verificatie van cliënt, uiteindelijke begunstigde en doel van zakelijke relatie; centrale antiwitwasprocedure.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Een risicoanalyse uitvoeren"},
+        {"taakblok": "4.0.D1.1", "doelstelling": "Interne procedures uitwerken"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["know your customer", "customer due diligence", "CDD", "waakzaamheidsverplichtingen", "klantenidentificatie"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Uiteindelijke begunstigde (UBO)",
+      "node_type": "begrip",
+      "rationale": "Natuurlijke persoon die uiteindelijk eigenaar is of zeggenschap uitoefent; identificatie verplicht en raadpleging UBO-register.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["UBO", "uiteindelijke gerechtigde", "ultimate beneficial owner", "begunstigde eigenaar", "UBO-register"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Risicogebaseerde benadering antiwitwas",
+      "node_type": "methode",
+      "rationale": "Intensiteit van waakzaamheid afgestemd op risicoprofiel klant/verrichting; verschillende niveaus (vereenvoudigd, standaard, verscherpt).",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Een risicoanalyse uitvoeren"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["risk-based approach", "RBA", "risicogebaseerde aanpak", "gedifferentieerde waakzaamheid"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Verscherpte waakzaamheid",
+      "node_type": "procedure",
+      "rationale": "Bijkomende cliëntenonderzoeksmaatregelen bij hoog risico (PEP's, hoogrisico-derde-landen, complexe structuren).",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["enhanced due diligence", "EDD", "verhoogde waakzaamheid", "bijkomende waakzaamheidsmaatregelen"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Politiek prominent persoon (PEP)",
+      "node_type": "begrip",
+      "rationale": "Specifieke risicocategorie waarvoor verscherpte waakzaamheid en bijkomende controles vereist zijn; ook familieleden en naasten.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["PEP", "politically exposed person", "politiek prominente persoon", "PEP-status"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Cel voor Financiële Informatieverwerking (CFI)",
+      "node_type": "actor",
+      "rationale": "Belgische FIU waarbij verdachte verrichtingen gemeld worden; expliciet genoemd in D1.2-doelstelling.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["CFI", "CTIF", "Financial Intelligence Unit", "FIU België", "Cel financiële informatieverwerking"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Meldingsplicht aan de CFI",
+      "node_type": "regel",
+      "rationale": "Verplichting om vermoedens van witwassen of financiering van terrorisme onverwijld aan de CFI te melden; doorbreking van het beroepsgeheim.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Discreet en duidelijk communiceren met de autoriteiten"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["meldplicht witwassen", "verdachte transactie melden", "suspicious transaction report", "STR", "vermoedensmelding"],
+      "schaal_signaal": "groot"
+    },
+    {
+      "naam": "Tipping-off-verbod",
+      "node_type": "regel",
+      "rationale": "Verbod om de klant of derden te informeren over een melding aan de CFI of een lopend witwasonderzoek.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Vertrouwelijke informatie discreet behandelen"}
+      ],
+      "kenniselementen": ["4.0.I.D.6", "4.0.I.D.7"],
+      "synoniemen": ["tipping off", "verbod op verklikking", "informatieverbod cliënt", "geheimhouding melding CFI"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Antiwitwasverantwoordelijke (AMLCO)",
+      "node_type": "actor",
+      "rationale": "Aangewezen persoon binnen het kantoor verantwoordelijk voor de naleving van de Witwaswet en de meldingen.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Interne procedures uitwerken"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["AMLCO", "AML compliance officer", "antiwitwascoördinator", "verantwoordelijke voorkoming witwassen"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Interne organisatie- en controleprocedures",
+      "node_type": "procedure",
+      "rationale": "Verplichte schriftelijke interne procedures (kwaliteitssysteem, klokkenluider, risicoanalyse op kantoorniveau); D1.1-doelstelling expliciet.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Interne procedures uitwerken"}
+      ],
+      "kenniselementen": ["4.0.I.D.6", "4.0.I.D.1"],
+      "synoniemen": ["interne procedures", "kantoororganisatie", "kwaliteitssysteem kantoor", "interne controlemaatregelen", "policies and procedures"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Algemene risicobeoordeling op kantoorniveau",
+      "node_type": "methode",
+      "rationale": "Witwaswet eist een geschreven algemene risicobeoordeling van de eigen activiteiten; verschillend van de individuele klant-risicoanalyse.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.1", "doelstelling": "Een risicoanalyse uitvoeren"}
+      ],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["business-wide risk assessment", "BWRA", "kantoorrisicoanalyse", "globale risicoanalyse", "algemene witwasrisicoanalyse"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Bewaarplicht van dossiers",
+      "node_type": "regel",
+      "rationale": "Cliëntonderzoeksdocumenten en opdrachtdossiers moeten gedurende een wettelijke termijn bewaard blijven (typisch 10 jaar onder Witwaswet).",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6", "4.0.I.D.3"],
+      "synoniemen": ["bewaartermijn", "documentbewaring", "archiveringsplicht", "retention period KYC"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Beperking van het gebruik van contanten",
+      "node_type": "regel",
+      "rationale": "Wettelijk plafond op contante betalingen in de beroepsuitoefening en bij klanten; expliciet in I.D.6.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["contantenbeperking", "cashbeperking", "plafond contante betalingen", "verbod contante betaling boven drempel"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Beroepsaansprakelijkheid",
+      "node_type": "begrip",
+      "rationale": "Civielrechtelijke aansprakelijkheid van de accountant tegenover klant en derden voor beroepsfouten; basis voor verzekeringsplicht.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.8"],
+      "synoniemen": ["civielrechtelijke aansprakelijkheid", "professionele aansprakelijkheid", "responsabilité professionnelle", "aansprakelijkheid voor beroepsfouten"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Beroepsaansprakelijkheidsverzekering",
+      "node_type": "regel",
+      "rationale": "Verplichte verzekering met minimumdekking voor de beroepsuitoefening; voorwaarde voor inschrijving op het tableau.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.8"],
+      "synoniemen": ["BA-verzekering", "professional indemnity insurance", "verzekering burgerlijke aansprakelijkheid", "verplichte beroepsverzekering"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Tuchtprocedure",
+      "node_type": "procedure",
+      "rationale": "ITAA-tuchtorganen (Tuchtcommissie en Commissie van Beroep) behandelen inbreuken op deontologie; sancties en rechtsmiddelen.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.9"],
+      "synoniemen": ["tuchtrecht", "disciplinaire procedure", "Tuchtcommissie ITAA", "Commissie van Beroep", "beroepstucht"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Tuchtsancties",
+      "node_type": "begrip",
+      "rationale": "Schaal van sancties (waarschuwing, berisping, schorsing, schrapping); proportionaliteit met de inbreuk.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.9"],
+      "synoniemen": ["disciplinaire sancties", "tuchtstraffen", "schorsing accountant", "schrapping van het tableau", "berisping"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Kwaliteitstoetsing",
+      "node_type": "procedure",
+      "rationale": "Periodieke kwaliteitscontrole door het ITAA op kantoor- en dossierniveau; toezichtsmechanisme naast de tucht.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.9"],
+      "synoniemen": ["kwaliteitscontrole", "peer review", "monitoring ITAA", "toezicht op de beroepsuitoefening", "quality review"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Communicatie met de fiscale administratie",
+      "node_type": "skill",
+      "rationale": "Discrete maar correcte communicatie met fiscale autoriteiten binnen de grenzen van het beroepsgeheim; expliciet genoemd in D1.2.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz."}
+      ],
+      "kenniselementen": ["4.0.I.D.6", "4.0.I.D.7"],
+      "synoniemen": ["communicatie belastingadministratie", "fiscale informatieplicht", "vraag om inlichtingen FOD Financiën", "fiscale spreekplicht"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Termijnenbeheer",
+      "node_type": "skill",
+      "rationale": "Het naleven van wettelijke en contractuele termijnen (aangiftes, neerleggingen, antwoorden) is een uitdrukkelijke deontologische plicht (D1.2).",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [
+        {"taakblok": "4.0.D1.2", "doelstelling": "Termijnen in acht nemen"}
+      ],
+      "kenniselementen": ["4.0.I.D.3"],
+      "synoniemen": ["deadlinebeheer", "termijnopvolging", "naleven van wettelijke termijnen", "tijdig handelen"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Belangenconflict",
+      "node_type": "begrip",
+      "rationale": "Situatie waarin onafhankelijkheid of objectiviteit in het gedrang komt; vereist identificatie, beheer en eventueel weigering of beëindiging.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.2", "4.0.I.D.3"],
+      "synoniemen": ["conflict of interest", "tegenstrijdig belang", "belangentegenstelling", "conflictsituatie"],
+      "schaal_signaal": "middel"
+    },
+    {
+      "naam": "Witwasmisdrijf",
+      "node_type": "begrip",
+      "rationale": "Strafrechtelijk misdrijf (Sw. art. 505) waarvan vermoedens moeten worden gemeld; achterliggende basisdelicten bepalen de meldplicht.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["witwassen", "money laundering", "Strafwetboek artikel 505", "heling van vermogensvoordelen", "onderliggend basismisdrijf"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Financiering van terrorisme",
+      "node_type": "begrip",
+      "rationale": "Tweede luik van het preventieve antiwitwasbeleid: melden en bevriezen van middelen verbonden aan terrorismefinanciering.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["terrorism financing", "TF", "financiering terrorisme", "CFT", "counter-terrorist financing"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Witwasindicatoren",
+      "node_type": "afwegingskader",
+      "rationale": "Lijst van objectieve indicatoren (CFI-typologieën, KB-indicatoren) die wijzen op verdachte verrichtingen.",
+      "taakblokken": ["4.0.D1.1"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6"],
+      "synoniemen": ["red flags witwassen", "typologieën CFI", "verdachte indicatoren", "AML red flags", "witwastypologieën"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Opleidings- en sensibiliseringsplicht medewerkers",
+      "node_type": "regel",
+      "rationale": "Witwaswet en kwaliteitsnormen vereisen permanente opleiding van medewerkers rond AML en deontologie.",
+      "taakblokken": ["4.0.D1.1", "4.0.D1.3"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.6", "4.0.I.C.7"],
+      "synoniemen": ["AML-opleiding", "sensibilisering medewerkers", "training personeel witwaspreventie", "interne opleidingsplicht"],
+      "schaal_signaal": "klein"
+    },
+    {
+      "naam": "Reclame- en informatieregels",
+      "node_type": "regel",
+      "rationale": "Deontologische regels rond beroepsreclame, eerlijkheid van mededelingen en vermelding van titel; raakt relaties met klanten en confraters.",
+      "taakblokken": ["4.0.D1.2"],
+      "taken_doelstellingen": [],
+      "kenniselementen": ["4.0.I.D.3", "4.0.I.D.4"],
+      "synoniemen": ["beroepsreclame", "publiciteit accountants", "marketing cijferberoep", "communicatie beroepstitel"],
+      "schaal_signaal": "klein"
+    }
+  ]
+}

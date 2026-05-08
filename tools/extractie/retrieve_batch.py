@@ -1,25 +1,27 @@
 """
 Batch-retrieval voor concept-extractie (ADR-008 §2.B).
 
-Voert per vermoeden een 4-niveau multi-query retrieval uit:
+Voert per vermoeden een 5-niveau multi-query retrieval uit:
   1. Programmaonderdeel-niveau   → brede context (PO-titel)
-  2. Taakblok-niveau             → taken + doelstellingen van het taakblok
+  2. Taakblok-niveau             → taken + doelstellingen van alle gelinkte taakblokken
   3. Kenniselementen-niveau      → ke-teksten voor codes in vermoeden.kenniselementen
                                    (overgeslagen als kenniselementen leeg is)
   4. Vermoeden-niveau            → naam + rationale
+  5. Synoniemen                  → query-time expansion voor vocabulairekloven
 
-Eén bge-m3 model-load voor alle queries.
-Output: JSON naar stdout (chunks per vermoeden, gesorteerd op rerank_score).
+Input: PO-niveau vermoedens-bestand (data/extractie/<po>/vermoedens/<po>.json).
+Elk vermoeden heeft taakblokken[] (meerdere mogelijk), kenniselementen[], synoniemen[].
+Output: JSON naar stdout — shallow copy van alle vermoeden-velden + chunks per vermoeden.
 
 Gebruik:
   python tools/extractie/retrieve_batch.py \\
-      --vermoedens data/extractie/4.0/vermoedens/4.0.D1.1.json \\
+      --vermoedens data/extractie/4.0/vermoedens/4.0.json \\
       --programmaonderdeel data/programmaonderdelen/4.0-deontologie.json \\
       [--chroma data/chroma_db_4.0] \\
       [--bi-top-n 80] \\
       [--rerank-drempel 0.40] \\
       [--max-per-vermoeden 20] \\
-      > data/extractie/4.0/retrieval/4.0.D1.1.json
+      > data/extractie/4.0/retrieval/4.0.json
 """
 
 from __future__ import annotations
@@ -77,12 +79,13 @@ def get_taakblok(po_data: dict, code: str) -> dict | None:
 
 def bouw_sub_queries(
     vermoeden: dict,
-    taakblok: dict | None,
+    taakblokken: list[dict],
     po_titel: str,
     ke_index: dict[str, str],
 ) -> list[str]:
     """
-    Bouw de 4-niveau querylijst voor één vermoeden.
+    Bouw de 5-niveau querylijst voor één vermoeden.
+    taakblokken: alle PO-taakblok-dicts die bij dit vermoeden horen (kan meerdere zijn).
     Lege strings worden gefilterd zodat geen lege queries het model passeren.
     """
     queries: list[str] = []
@@ -91,8 +94,8 @@ def bouw_sub_queries(
     if po_titel:
         queries.append(po_titel)
 
-    # Niveau 2: taakblok (taken + doelstellingen)
-    if taakblok:
+    # Niveau 2: alle gelinkte taakblokken (taken + doelstellingen)
+    for taakblok in taakblokken:
         for t in taakblok.get("taken", []):
             tekst = t.get("tekst", "").strip()
             if tekst:
@@ -226,21 +229,20 @@ def verwerk_vermoedens(
     no_rerank: bool = False,
 ) -> dict:
     """
-    Voer 4-niveau retrieval uit voor elk vermoeden.
-    Geeft een output-dict terug klaar voor JSON-serialisatie.
+    Voer 5-niveau retrieval uit voor elk vermoeden (PO-niveau input).
+    Elk vermoeden kan aan meerdere taakblokken hangen — alle worden meegenomen.
+    Output-vermoedens zijn een shallow copy van de input + chunks-veld.
     """
-    taakblok_code = vermoedens_data.get("taakblok", "")
-    po_nr         = po_data.get("programmaonderdeel", "")
-    po_titel      = po_data.get("titel", "")
+    po_nr    = vermoedens_data.get("po", po_data.get("programmaonderdeel", ""))
+    po_titel = po_data.get("titel", "")
 
-    ke_index  = bouw_ke_index(po_data)
-    taakblok  = get_taakblok(po_data, taakblok_code)
-    cols      = open_collections(client_chroma, ef, BRONNEN_COLS)
+    ke_index = bouw_ke_index(po_data)
+    cols     = open_collections(client_chroma, ef, BRONNEN_COLS)
 
     if not cols:
         print(
-            f"⚠ Geen bronnen-collection gevonden in ChromaDB. "
-            f"Bouw de index eerst met tools/rag/rag_index.py.",
+            "⚠ Geen bronnen-collection gevonden in ChromaDB. "
+            "Bouw de index eerst met tools/rag/rag_index.py.",
             file=sys.stderr,
         )
         sys.exit(1)
@@ -251,7 +253,14 @@ def verwerk_vermoedens(
         naam = vermoeden.get("naam", "?")
         print(f"  → {naam} …", file=sys.stderr)
 
-        sub_queries = bouw_sub_queries(vermoeden, taakblok, po_titel, ke_index)
+        # Verzamel alle gelinkte taakblok-dicts (vermoeden kan aan meerdere hangen)
+        taakblok_codes = vermoeden.get("taakblokken", [])
+        taakblokken = [
+            tb for code in taakblok_codes
+            if (tb := get_taakblok(po_data, code)) is not None
+        ]
+
+        sub_queries = bouw_sub_queries(vermoeden, taakblokken, po_titel, ke_index)
 
         if no_rerank:
             chunks = bi_only_retrieve(sub_queries, cols, bi_top_n, max_per_vermoeden)
@@ -260,11 +269,9 @@ def verwerk_vermoedens(
                 file=sys.stderr,
             )
         else:
-            # Single-pass reranking: bi-encoder op alle queries samen,
-            # cross-encoder eénmalig op gecombineerde unieke pool.
             chunks = single_pass_rerank(
                 sub_queries,
-                rerank_query=naam,   # vermoeden naam als focale rerank-query
+                rerank_query=naam,
                 cols=cols,
                 reranker=reranker,
                 bi_top_n=bi_top_n,
@@ -275,18 +282,13 @@ def verwerk_vermoedens(
                 file=sys.stderr,
             )
 
-        output_vermoedens.append({
-            "naam":             naam,
-            "node_type":        vermoeden.get("node_type", ""),
-            "rationale":        vermoeden.get("rationale", ""),
-            "kenniselementen":  vermoeden.get("kenniselementen", []),
-            "schaal_signaal":   vermoeden.get("schaal_signaal", ""),
-            "chunks":           [chunk_naar_dict(c) for c in chunks],
-        })
+        # Shallow copy van alle vermoeden-velden (ADR-008 §B-bis) + chunks
+        output_vermoeden = {k: v for k, v in vermoeden.items()}
+        output_vermoeden["chunks"] = [chunk_naar_dict(c) for c in chunks]
+        output_vermoedens.append(output_vermoeden)
 
     return {
         "po":         po_nr,
-        "taakblok":   taakblok_code,
         "vermoedens": output_vermoedens,
     }
 
@@ -305,7 +307,7 @@ def main() -> None:
     parser.add_argument(
         "--vermoedens",
         required=True,
-        help="Vermoedens-JSON (na normalize_vermoedens.py)",
+        help="PO-niveau vermoedens-JSON (bijv. data/extractie/4.0/vermoedens/4.0.json)",
     )
     parser.add_argument(
         "--programmaonderdeel",
@@ -377,7 +379,7 @@ def main() -> None:
     modus = "bi-only" if no_rerank else f"single-pass rerank (device={device})"
     print(
         f"→ Retrieval-stack laden voor {n} vermoedens "
-        f"(taakblok {vermoedens_data.get('taakblok', '?')}, {modus}) …",
+        f"(PO {vermoedens_data.get('po', '?')}, {modus}) …",
         file=sys.stderr,
     )
 
