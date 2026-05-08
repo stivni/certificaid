@@ -54,7 +54,7 @@ collections:
   cbn-adviezen:
     bron_rol: interpretatief
     output_dir: resources/bronnen/adviezen/
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
+    pipeline: tools/etl/scrape_cbn_advies.py
     item_inputs:
       - field: bron
         kind: url
