@@ -31,114 +31,6 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Begin van document (regels 36-140) toont ernstige ETL-fout: inhoudsopgave als louter nummers zonder titels (105 regels alleen getalletjes). Daarna is de tekst inhoudelijk compleet.'
 ---
-
-OPDRACHTBRIEF
-
-
-
-1.
-
-
-2.
-
-
-3.
-
-
-4.
-
-
-1.
-
-
-2.
-
-
-3.
-
-
-4.
-
-
-1)
-
-
-2)
-
-
-5.
-
-
-6.
-
-
-1)
-
-
-2)
-
-
-3)
-
-
-7.
-
-
-8.
-
-
-9.
-
-
-1.
-
-
-2.
-
-
-1)
-
-
-2)
-
-
-3)
-
-
-3.
-
-
-1)
-
-
-2)
-
-
-3)
-
-
-4.
-
-
-5.
-
-
-1.
-
-
-2.
-
-
-3.
-
-
-1)
-
-
-2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
-
-
-
 Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
 er slechts eind 2019 een Koninklijk besluit 1 uitgevaardigd die de nadere regels bij het afsluiten
 van een opdrachtbrief nader bepaalt (IAB).
@@ -192,7 +84,6 @@ vennootschap kan een nieuwe vertegenwoordiger-natuurlijke persoon aanstellen.
 accountants en de belastingconsulenten en tot nadere regeling van het gebruik van de opdrachtbrief (hierna uitvoeringsbesluit)
 WER -art.III 74.tot III 77. In geval van inbreuk: strafrechtelijke sanctie : 26 tot 10.000€ WER – art.XV-70 en
 XV -77-7°
-
 
 
 Indien er cliënteel wordt overgenomen dan komt er, gelet op het intuitu personae karakter van
@@ -251,7 +142,6 @@ uitgevoerd omwille van de laattijdige aanlevering van de stukken.
 Spontane melding van een betalingsverzuim
 
 3 Vennoot, zaakvoerder of bestuurder, ITAA extern beroepsbeoefenaar - Art.42 Wet 17/03/2019
-
 
 
 Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
@@ -314,7 +204,6 @@ bepaalde prestaties vereist zijn.
 4 Artikel 44 van de wet van 17 maart 2019.
 
 
-
 ## 8. Bewaring van de stukken
 De opdrachtbrief dient aan te geven waar de stukken en bescheiden zullen worden bewaard. Dit
 dient te worden afgestemd op de werkwijze die gehanteerd wordt bij de aanlevering van de
@@ -370,7 +259,6 @@ gedurende een bepaalde periode bijvoorbeeld worden opgevangen.
 5 In de mate dat de lastgeving die de basis vormt van de handtekeningsbevoegdheid of wettelijke beperkingen dit niet verhinderen.
 
 
-
 Om praktische redenen kan de vertegenwoordiger van de rechtspersoon bijvoorbeeld ook zijn
 handtekening delegeren aan de vertegenwoordiger-natuurlijke persoon, in het geval dat deze laatste
 zelf de rechtspersoon niet kan vertegenwoordigen 6.
@@ -421,7 +309,6 @@ PERSOON
 vertegenwoordigingsbevoegdheid bezit ten aanzien van deze rechtspersoon-NV.
 
 
-
 3) Delegatie van handtekeningsbevoegdheid
 
 Ook de natuurlijk persoon-vertegenwoordiger kan in principe zijn handtekening overdragen.
@@ -466,7 +353,6 @@ De wet vereist dat de beroepsbeoefenaar voorafgaandelijk aan de uitvoering van i
 overleg met zijn cliënt, een opdrachtbrief opmaakt. In de praktijk blijkt de voorafgaandelijke
 ondertekening van de opdrachtbrief niet altijd even evident (bijvoorbeeld indien er dringend prestaties
 moeten verricht worden ter vrijwaring van de rechten van de cliënt).
-
 
 
 Degelijke situatie mag niet toe te rekenen zijn aan de beroepsbeoefenaar zelf die dit naar alle
@@ -523,7 +409,6 @@ gecertificeerd accountants
 Bijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.
 
 9 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
-
 
 
 De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van

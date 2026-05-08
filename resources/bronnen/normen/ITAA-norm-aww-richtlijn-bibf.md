@@ -135,46 +135,6 @@ De Raad van het Beroepsinstituut van erkende Boekhouders en Fiscalisten heeft
 op 23 november 2018, 8 juli 2019, 12 december 2019 en 31 maart 2020 de
 hiernavolgende richtlijn aangenomen. Deze werd op 3 april 2020 voor advies aan
 de Hoge Raad voor de Economische Beroepen voorgelegd.
-
-
-1.
-
-
-2.
-
-
-Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
-3.
-
-Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
-
-4.
-
-
-Nakoming
-van
-de
-waakzaamheidsverplichtingen
-door
-derde
-5.
-
-
-6.
-
-
-7.
-
-
-8.
-
-
-9.
-
-
-BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale
-
-
 ## 1. Algemene bepalingen
 Definities
 1.1 Voor de toepassing van deze richtlijn wordt verstaan onder:
@@ -446,7 +406,7 @@ binnen de zes maanden.
 meldingsprocedures bedoeld in punt 2.9 van deze richtlijn en van de in artikel
 90 van de Wet bedoelde meldingen aan de Toezichtautoriteit.
 
-## 3. Algemene risicobeoordeling beroepsbeoefenaar op te maken door de
+## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
 
 Een algemene risicobeoordeling uitvoeren
 3.1 De algemene risicobeoordeling, op te maken door de beroepsbeoefenaar,

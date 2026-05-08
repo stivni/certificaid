@@ -31,27 +31,6 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: Inhoudelijk volledig (secties I-IV), maar logo-blok bovenaan, copyright-regels (regels 103-104, 157-159, 215-218) en voetnotentekst zijn als body-tekst bewaard.
 ---
-
-ITAA
-            INSTITUTE FOR TAX
-         ADVISORS & ACCOUNTANTS
-
-
-
-
-      NORM BETREFFENDE
-   DE VERENIGBAARHEID VAN
-DE ACTIVITEIT VAN DOMICILIËRING
-        VAN ENTITEITEN
-
----
-    Gelet op het advies van de Hoge Raad voor de Economische Beroepen van 20 juni 2024.
-    HEEFT DE RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS OP
-    ZIJN ZITTING VAN 2 JULI 2024 DE HIERNAVOLGENDE NORM AANGENOMEN:
-
-                   NORM BETREFFENDE DE VERENIGBAARHEID VAN DE ACTIVITEIT VAN
-                                 DOMICILIËRING VAN ENTITEITEN
-
 ## I. Voorwoord
     Conform artikel 25 van de Richtlijn 2006/123/EG van het Europees Parlement en van de Raad van
     12 december 2006 betreffende diensten op de interne markt, mogen titularissen van een geregle-
@@ -98,12 +77,7 @@ DE ACTIVITEIT VAN DOMICILIËRING
     Conform deze bepaling, is de Raad van het Instituut bevoegd voor het uitvaardigen en openbaar
     maken van technische normen en aanbevelingen, specifiek voor de uitoefening van het beroep.
 
-    Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
-goedgekeurd door de raad van 2 juli 2024.
-
----
     Dergelijke normen zijn bindend en worden in het Nederlands, het Frans en zo mogelijk in het Duits
     openbaar gemaakt op de website van het Instituut.
     Onderhavige norm heeft tot doel om de bijzondere voorwaarden vast te leggen omtrent de uitoefening
@@ -151,14 +125,6 @@ goedgekeurd door de raad van 2 juli 2024.
     voortvloeiende uit de antiwitwaswetgeving en haar uitvoeringsbesluiten.
 
 
-  Hieronder wordt verstaan het deelnemen aan de effectieve transactie van de aan- of verkoop van de aandelen en niet de
-juridische bijstand in het kader hiervan. 3 Artikel 2,12° van de wet van 17 maart 2019 betreffende de beroepen van accountant
-en belastingadviseur. 4 Artikel 2,3° van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur.
-
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
-goedgekeurd door de raad van 2 juli 2024.
-
----
     3) Voorwaarden eigen aan de domiciliëringsopdracht zoals omschreven in de definities onder 2°
     b) en c)
     3.1. De beroepsbeoefenaar houdt, op duidelijk afzonderlijke wijze, de goederen en documenten
@@ -209,11 +175,3 @@ goedgekeurd door de raad van 2 juli 2024.
     treding van deze norm.
 
 
-
-
-    Conform artikel III.16 Wetboek van Economisch Recht.
-
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
-goedgekeurd door de raad van 2 juli 2024.
-
----

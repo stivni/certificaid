@@ -285,6 +285,103 @@ def remove_html_entities(body: str) -> tuple[str, FixResult]:
     )
 
 
+def remove_prefix_until(body: str, marker: str) -> tuple[str, FixResult]:
+    """Verwijder alles in de body vóór de eerste occurrence van marker (marker zelf behouden)."""
+    idx = body.find(marker)
+    if idx == -1:
+        return body, FixResult(
+            name="remove_prefix_until",
+            applied=False,
+            note=f"marker {marker[:40]!r} niet gevonden",
+        )
+    removed_chars = idx
+    new_body = body[idx:]
+    return new_body, FixResult(
+        name="remove_prefix_until",
+        applied=True,
+        changes=1,
+        note=f"{removed_chars} chars vóór '{marker[:30]}' verwijderd",
+    )
+
+
+def inject_plain_headings(body: str, heading_texts: list[str]) -> tuple[str, FixResult]:
+    """Voeg '## ' toe voor regels die exact overeenkomen met een sectietitel (zonder heading-prefix)."""
+    n = 0
+    new_body = body
+    for text in heading_texts:
+        pat = re.compile(rf"(?m)^[ \t]*{re.escape(text)}[ \t]*$")
+        replacement = f"## {text}"
+        new_body, count = pat.subn(replacement, new_body)
+        n += count
+    return new_body, FixResult(
+        name="inject_plain_headings",
+        applied=n > 0,
+        changes=n,
+        note=f"{n} plain-tekst sectie(s) als ## heading gemarkeerd",
+    )
+
+
+def fix_specific_ocr(body: str, pairs: list[tuple[str, str]]) -> tuple[str, FixResult]:
+    """Directe tekst-vervangingen voor file-specifieke OCR-fouten of heading-correcties."""
+    n = 0
+    new_body = body
+    for wrong, right in pairs:
+        count = new_body.count(wrong)
+        if count:
+            new_body = new_body.replace(wrong, right)
+            n += count
+    return new_body, FixResult(
+        name="fix_specific_ocr",
+        applied=n > 0,
+        changes=n,
+        note=f"{n} specifieke tekst-vervanging(en)",
+    )
+
+
+def strip_toc_dot_lines(body: str) -> tuple[str, FixResult]:
+    """
+    Verwijder TOC-stippenregels (inhoudsopgave-artefacten).
+
+    Matcht twee patronen:
+    - Losse stippelregels: '......................'
+    - Titel + stippels:    'Inleiding .......... 6'
+    """
+    # Match elke regel die eindigt op 4+ punten + optioneel spatie + getal
+    pat = re.compile(r"(?m)^[^\n]*\.{4,}\s*\d*\s*$\n?")
+    new_body, n = pat.subn("", body)
+    return new_body, FixResult(
+        name="strip_toc_dot_lines",
+        applied=n > 0,
+        changes=n,
+        note=f"{n} TOC-stippenlijn(en) verwijderd",
+    )
+
+
+def strip_toc_block(body: str, toc_start_re: str, first_section_marker: str) -> tuple[str, FixResult]:
+    """
+    Verwijder een junk-TOC-blok: het gedeelte tussen toc_start_re en first_section_marker.
+
+    toc_start_re: regex die het begin van het TOC-blok matcht (wordt zelf ook verwijderd)
+    first_section_marker: tekst-marker die het einde van het TOC-blok markeert (blijft behouden)
+    """
+    idx_end = body.find(first_section_marker)
+    if idx_end == -1:
+        return body, FixResult(name="strip_toc_block", applied=False, note="section_marker niet gevonden")
+
+    m = re.search(toc_start_re, body[:idx_end], re.MULTILINE)
+    if not m:
+        return body, FixResult(name="strip_toc_block", applied=False, note="toc_start_re niet gevonden vóór marker")
+
+    removed_chars = idx_end - m.start()
+    new_body = body[: m.start()] + body[idx_end:]
+    return new_body, FixResult(
+        name="strip_toc_block",
+        applied=True,
+        changes=1,
+        note=f"TOC-blok van {removed_chars} chars verwijderd (voor '{first_section_marker[:30]}')",
+    )
+
+
 def dedent_indented_headings(body: str) -> tuple[str, FixResult]:
     """
     Verwijder leading whitespace voor markdown-headings.
@@ -374,8 +471,28 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
 
     "ITAA-norm-gedragslijnen-relaties-IBR.md": [
         (replace_ocr_lab, {}),
+        (fix_specific_ocr, {
+            "pairs": [
+                ("BEROEPSRELATlES", "BEROEPSRELATIES"),
+                ("fmanciële", "financiële"),
+                ("fmancieel", "financieel"),
+                ("WIe ", "wie "),   # leading-space context om false positives te vermijden
+            ],
+        }),
         (strip_form_feeds, {}),
         (remove_inline_page_numbers, {}),
+        (inject_plain_headings, {
+            "heading_texts": [
+                "Definities",
+                "Eerste principe - Aanvaarding van een controleopdracht",
+                "Tweede principe - Aanvaarding van een raadgevende opdracht",
+                "Derde principe - Meningsverschil",
+                "Vierde principe - Contacten met de voorganger",
+                "Vijfde principe - Onbetaalde erelonen",
+                "Zesde principe - Overdracht van het dossier",
+            ],
+        }),
+        (collapse_blank_runs, {"max_blanks": 2}),
     ],
 
     "ITAA-norm-permanente-vorming.md": [
@@ -393,10 +510,84 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
         (normalize_heading_levels, {}),
     ],
 
+    # Pas geëxtraheerd via extract_norm_twocolumn.py: TOC-stippels resterend
+    "ITAA-norm-effectennorm.md": [
+        (strip_toc_dot_lines, {}),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
+    "ITAA-norm-samenstellingsopdrachten-isrs4410.md": [
+        (strip_toc_dot_lines, {}),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
+    # Pas geëxtraheerd via extract_norm_twocolumn.py (bilingual → NL-only):
+    # 4 headings zijn OK voor de chunker maar meer is beter.
+    "ITAA-norm-intern-kwaliteitsmanagement.md": [
+        (inject_plain_headings, {
+            "heading_texts": [
+                "Inleiding",
+                "Definities",
+                "Kwaliteitsmanagementsysteem",
+                "Eindverantwoordelijke(n) voor het kwaliteitsmanagementsysteem",
+                "Doelstelling",
+                "Vereisten",
+                "Governance en leiderschap",
+                "Relevante ethische voorschriften",
+                "Aanvaarding van opdrachten",
+                "Uitvoering van opdrachten",
+                "Documentatie",
+                "Inwerkingtreding",
+            ],
+        }),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
     "ITAA-norm-aww-richtlijn-bibf.md": [
-        (merge_scrambled_section_title, {
-            "prefix": "## 3. Algemene risicobeoordeling beroepsbeoefenaar",
-            "expected_words": ["op", "te", "maken", "door", "de"],
+        # Heading is al gemergd maar woordvolgorde verkeerd (beroepsbeoefenaar te vroeg):
+        (fix_specific_ocr, {
+            "pairs": [
+                (
+                    "## 3. Algemene risicobeoordeling beroepsbeoefenaar op te maken door de",
+                    "## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar",
+                ),
+            ],
+        }),
+        # TOC-blok (losse nummers + kapotte titels) vóór eerste sectie verwijderen
+        (strip_toc_block, {
+            "toc_start_re": r"^\n\n1\.\n",
+            "first_section_marker": "## 1. Algemene bepalingen",
+        }),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
+    "ITAA-norm-opdrachtbrief.md": [
+        # Verwijder het OPDRACHTBRIEF-titelpagina-blok + nummers-only TOC
+        (remove_prefix_until, {"marker": "Alhoewel de verplichting"}),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
+    "ITAA-norm-domiciliering.md": [
+        # Verwijder logo-blok + titelpagina vóór echte inhoud
+        (remove_prefix_until, {"marker": "## I. Voorwoord"}),
+        # Verwijder herhaald copyright-blok (verschijnt na elke PDF-sectie)
+        (remove_recurring_footer, {
+            "footer_lines": [
+                "© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,",
+                "goedgekeurd door de raad van 2 juli 2024.",
+            ],
+        }),
+        # Verwijder losse voetnotenregels en `---` dividers die na copyright staan
+        (remove_orphan_lines, {
+            "lines_to_remove": [
+                "---",
+                "    Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.",
+                "    Conform artikel III.16 Wetboek van Economisch Recht.",
+                # Multi-line footnote 2 (werd in PDF als body-tekst bewaard)
+                "Hieronder wordt verstaan het deelnemen aan de effectieve transactie van de aan- of verkoop van de aandelen en niet de",
+                "juridische bijstand in het kader hiervan. 3 Artikel 2,12° van de wet van 17 maart 2019 betreffende de beroepen van accountant",
+                "en belastingadviseur. 4 Artikel 2,3° van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur.",
+            ],
         }),
         (collapse_blank_runs, {"max_blanks": 2}),
     ],

@@ -33,7 +33,7 @@ provenance:
 
 # Gedragslijnen Relaties Ibr
 
-GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
+GEDRAGSLIJNEN INZAKE DE BEROEPSRELATIES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF
 
 Overwegende:
@@ -73,12 +73,12 @@ de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei
 
 Dat deze gedragslijnen van kracht worden op 1 juni 2008;
 
-Definities
+## Definities
 
 De woorden "leden van een ander Instituut" verwijzen naar de leden van het IBR, het IAB en
 het BIBF.
 Een "niet-permanente controleopdracht" is een opdracht, voorzien door of krachtens de wet,
-die geen commissarismandaat is, die erin bestaat fmanciële informatie te controleren en die
+die geen commissarismandaat is, die erin bestaat financiële informatie te controleren en die
 resulteert in een verslag waarvan derden, volledig of gedeeltelijk, kennis kunnen nemen.
 De "gewoonlijke raadgever" is degene die op recurrente wijze dienstverleningen verricht
 zoals vermeld in artikel 183ter van het K.B. van 30 januari 2001 tot uitvoering van het
@@ -86,17 +86,17 @@ Wetboek van vennootschappen.
 Een "recurrente opdracht" is de assisterende of raadgevende opdracht die voortvloeit uit een
 overeenkomst van onbepaalde duur, of uit herhaalde overeenkomsten van bepaalde duur
 waarvan de totale looptijd één jaar overschrijdt.
-De "entiteit" is de rechtspersoon of natuurlijke persoon voor WIe een opdracht wordt
+De "entiteit" is de rechtspersoon of natuurlijke persoon voor wie een opdracht wordt
 uitgevoerd.
 
-Eerste principe - Aanvaarding van een controleopdracht
+## Eerste principe - Aanvaarding van een controleopdracht
 
 Alvorens een niet-permanente controleopdracht te aanvaarden, mag de bedrijfsrevisor of de
 externe accountant - noch hijzelf, noch een persoon met wie hij beroepshalve in
 samenwerkingsverband staat -, zich in een situatie bevinden of hebben bevonden in de loop
 van de twee jaren voorafgaand aan de opdracht die zijn onafhankelijkheid in vraag stelt in de
 entiteit die het voorwerp uitmaakt van de controleopdracht.
-Tweede principe - Aanvaarding van een raadgevende opdracht
+## Tweede principe - Aanvaarding van een raadgevende opdracht
 
 Na het uitvoeren van een niet-permanente controleopdracht in een entiteit waarvan een lid
 van een ander Instituut de gewoonlijke raadgever is, dient de bedrijfsrevisor of externe
@@ -106,7 +106,7 @@ Instituut op te volgen in zijn functie van gewoonlijke raadgever in deze entitei
 verzaking loopt twee jaar na de datum van de ondertekening van het verslag. Deze verzaking
 betreft geen aanvaarding van een nieuwe controleopdracht.
 
-Derde principe - Meningsverschil
+## Derde principe - Meningsverschil
 
 Wanneer het lid van een Instituut, dat geen commissarismandaat bekleedt, op aanzienlijke
 wijze de werkzaamheden of de attestering van een lid van een ander Instituut in vraag stelt,
@@ -119,7 +119,7 @@ onmiddellijk de geformuleerde opmerkingen te onderzoeken en een met zorg en
 voorzichtigheid opgesteld antwoord te verschaffen. De ene enlof andere beroepsbeoefenaar
 zullen, indien nodig, het advies van een confrater of raadsman inwinnen.
 
-Vierde principe - Contacten met de voorganger
+## Vierde principe - Contacten met de voorganger
 
 Zonder afbreuk te doen aan de aan de commissaris voorbehouden wettelijke opdrachten en
 aan de specifieke dentologische bepalingen eigen aan elk Instituut, dient het lid van een
@@ -135,14 +135,14 @@ zijn opvolger in kennis te stellen van alle elementen die, indien de betrokken o
 hiervan op de hoogte was, hem ertoe zouden kunnen leiden de opdracht te weigeren.
 De contacten tussen voorganger en opvolger zullen van die aard zijn dat een bewijs kan
 worden geleverd van de naleving van voornoemde gedragslijnen.
-Vijfde principe - Onbetaalde erelonen
+## Vijfde principe - Onbetaalde erelonen
 
 Onverminderd de striktere deontologische bepalingen eigen aan elk beroep, is de opvolger
 gehouden te informeren naar de betaling van de verschuldigde en onbetwiste erelonen van
 zijn voorganger. Desgevallend dient de opvolger er bij de entiteit op aan te dringen deze
 erelonen te betalen.
 
-Zesde principe - Overdracht van het dossier
+## Zesde principe - Overdracht van het dossier
 
 Onverminderd de bepalingen inzake het beroepsgeheim, dient de voorganger, onverwijld en
 losstaand van de betaling van zijn erelonen, alle documenten, ongeacht de drager, eigendom
