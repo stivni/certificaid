@@ -9,22 +9,24 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootsch
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootschap-met-betrekking-tot-de-solvabiliteit-van-haar
-      sha256:
+      sha256: 9f3851dc7ad19a708f07fa6a1ea41ade1494ba86f29fd6a71bf411a977032b7a
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:37Z'
+  generated_at: '2026-05-08T18:33:52Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 106/3 — verbintenissen van een moedervennootschap met betrekking tot de solvabiliteit van haar In de multinationale groepen komt het vaak voor dat de moedervennootschap bepaalde verbintenissen aangaat met betrekking tot de solvabiliteit van haar filialen. In feite is de draagwijdte van deze verbintenissen (*letter of intent*) sterk veranderlijk zowel wat het voorwerp van de waarborg als wat de juridische draagwijdte ervan betreft. De Commissie is derhalve van mening dat de draagwijdte van die verbintenis in elk geval afzonderlijk moet worden ontleed en dat ze alleen dan in de toelichting dient te worden vermeld als ze in hoofde van de moedervennootschap een juridische verplichting inhoudt.
+# CBN-advies 106/3 - Verbintenissen van een moedervennootschap met betrekking tot de solvabiliteit van haar dochter
+
+In de multinationale groepen komt het vaak voor dat de moedervennootschap bepaalde verbintenissen aangaat met betrekking tot de solvabiliteit van haar filialen. In feite is de draagwijdte van deze verbintenissen (*letter of intent*) sterk veranderlijk zowel wat het voorwerp van de waarborg als wat de juridische draagwijdte ervan betreft. De Commissie is derhalve van mening dat de draagwijdte van die verbintenis in elk geval afzonderlijk moet worden ontleed en dat ze alleen dan in de toelichting dient te worden vermeld als ze in hoofde van de moedervennootschap een juridische verplichting inhoudt.

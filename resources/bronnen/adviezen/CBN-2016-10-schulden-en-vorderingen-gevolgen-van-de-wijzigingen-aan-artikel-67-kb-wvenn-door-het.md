@@ -9,77 +9,71 @@ bron: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-      sha256:
+      sha256: 28e49e5f323d3aa862bc98ab17efabc5f617e203cf6e0e8f2ca40e57e6e62e9e
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:46Z'
+  generated_at: '2026-05-08T21:30:13Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T21:31:12Z'
+    confirmed_by: human
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+gerelateerde_adviezen:
+  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+    datum: '2021-07-02'
+  - titel: De boekhoudkundige verwerking van fusies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
+    datum: '2009-04-01'
+  - titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+    datum: '1988-12-01'
+  - titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
+    url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+    datum: '1992-02-01'
 ---
 
-# Advies van 6 juli 20161
+# CBN-advies 2016/10 – Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015
 
 CBN-advies 2016/10 – Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015
 
+Artikel 15 van het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad heeft een wijziging[^2] aangebracht aan artikel 67 KB W.Venn.
 
-Artikel 15 van het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad heeft een wijziging2
- aangebracht aan artikel 67 KB W.Venn.
+Deze aanpassing had tot doel een einde te stellen aan de achterhaalde praktijk van de toepassing van de methode om vorderingen en schulden die in termijnen worden betaald of afbetaald en waarvan de rente of het lastenpercentage gedurende de gehele contractduur wordt toegepast op het oorspronkelijke bedrag van de financiering of van de lening, te boeken op de balans inclusief interest en dus niet voor hun nominale waarde.[^3] 
 
+Voortaan zullen dus alle[^4] vorderingen en schulden in de boekhouding worden opgenomen voor hun nominale waarde.[^5] Dit neemt echter niet weg dat:  
 
-Deze aanpassing had tot doel een einde te stellen aan de achterhaalde praktijk van de toepassing van de methode om vorderingen en schulden die in termijnen worden betaald of afbetaald en waarvan de rente of het lastenpercentage gedurende de gehele contractduur wordt toegepast op het oorspronkelijke bedrag van de financiering of van de lening, te boeken op de balans inclusief interest en dus niet voor hun nominale waarde.3
+1. een waardevermindering *moet* worden toegepast zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag;[^6]  
+2. op de vorderingen waardeverminderingen *mogen* worden toegepast wanneer hun realisatiewaarde op de datum van de jaarafsluiting lager is dan hun nominale waarde;[^7]  
+3. bepaalde vorderingen en schulden op meer dan één jaar, ondanks de wijziging aan artikel 67 KB W.Venn., nog steeds aanleiding kunnen geven tot een boeking op de overlopende rekeningen.[^8]  
 
+Voor vorderingen betekent dit concreet dat voor boekjaren die starten vanaf 1 januari 2016 de praktijk zal stoppen om een vordering op het actief te boeken inclusief de interest om die interest vervolgens te compenseren met een over te dragen opbrengst op het passief om ten slotte het bedrag vermeld op deze overlopende rekening *pro rata temporis* in resultaat te nemen gedurende de looptijd van de vordering. Dit houdt in dat voor de bestaande vorderingen die aldus werden geboekt tijdens boekjaren die startten vóór 1 januari 2016, een tegenboeking zal gebeuren van het resterende bedrag van overlopende rekening van het passief ten opzichte van de vordering op het actief van de balans zodat de vordering voortaan gepresenteerd wordt exclusief interesten.[^9] 
 
-Voortaan zullen dus alle4
- vorderingen en schulden in de boekhouding worden opgenomen voor hun nominale waarde.5
- Dit neemt echter niet weg dat:
+*Mutatis mutandis* betekent dit voor schulden concreet dat, voor boekjaren die starten vanaf 1 januari 2016 de praktijk zal stoppen om een schuld op het passief te boeken inclusief de interest om die interest vervolgens te compenseren met een over te dragen kost op het actief om ten slotte het bedrag vermeld op deze overlopende rekening *pro rata temporis* in resultaat te nemen gedurende de looptijd van de schuld. Dit houdt in dat voor de bestaande schulden die aldus werden geboekt tijdens boekjaren die startten vóór 1 januari 2016, een tegenboeking zal gebeuren van het resterende bedrag van overlopende rekening van het actief ten opzichte van de schuld op het passief van de balans zodat de schuld voortaan gepresenteerd wordt exclusief interesten.[^10]
 
- 
+[^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 29 april 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 
+[^2]: Deze wijzing is van toepassing op de boekjaren die beginnen op of na 1 januari 2016 (artikel 57, eerste lid van het voormelde KB van 18 december 2015).
 
-1. een waardevermindering *moet* worden toegepast zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag;6
+[^3]: Verslag aan de Koning bij het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad.
 
- 
-2. op de vorderingen waardeverminderingen *mogen* worden toegepast wanneer hun realisatiewaarde op de datum van de jaarafsluiting lager is dan hun nominale waarde;7
+[^4]: Abstractie makend van de vastrentende effecten.
 
- 
-3. bepaalde vorderingen en schulden op meer dan één jaar, ondanks de wijziging aan artikel 67 KB W.Venn., nog steeds aanleiding kunnen geven tot een boeking op de overlopende rekeningen.8
+[^5]: In toepassing van de artikelen 67, § 1 en 77 KB W.Venn.
 
+[^6]: Eerste zin van artikel 68 KB W.Venn.
 
-Voor vorderingen betekent dit concreet dat voor boekjaren die starten vanaf 1 januari 2016 de praktijk zal stoppen om een vordering op het actief te boeken inclusief de interest om die interest vervolgens te compenseren met een over te dragen opbrengst op het passief om ten slotte het bedrag vermeld op deze overlopende rekening *pro rata temporis* in resultaat te nemen gedurende de looptijd van de vordering. Dit houdt in dat voor de bestaande vorderingen die aldus werden geboekt tijdens boekjaren die startten vóór 1 januari 2016, een tegenboeking zal gebeuren van het resterende bedrag van overlopende rekening van het passief ten opzichte van de vordering op het actief van de balans zodat de vordering voortaan gepresenteerd wordt exclusief interesten.9
+[^7]: Tweede zin van artikel 68 KB W.Venn.
 
+[^8]: Artikel 67, § 2 KB W.Venn.
 
-*Mutatis mutandis* betekent dit voor schulden concreet dat, voor boekjaren die starten vanaf 1 januari 2016 de praktijk zal stoppen om een schuld op het passief te boeken inclusief de interest om die interest vervolgens te compenseren met een over te dragen kost op het actief om ten slotte het bedrag vermeld op deze overlopende rekening *pro rata temporis* in resultaat te nemen gedurende de looptijd van de schuld. Dit houdt in dat voor de bestaande schulden die aldus werden geboekt tijdens boekjaren die startten vóór 1 januari 2016, een tegenboeking zal gebeuren van het resterende bedrag van overlopende rekening van het actief ten opzichte van de schuld op het passief van de balans zodat de schuld voortaan gepresenteerd wordt exclusief interesten.10
+[^9]: Het KB van 18 december 2015 voorziet immers niet in een overgangsregeling.
 
-
- 
-
-
-- 1Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 29 april 2016 ter consultatie werd gepubliceerd op de website van de CBN.
- 
-- 2Deze wijzing is van toepassing op de boekjaren die beginnen op of na 1 januari 2016 (artikel 57, eerste lid van het voormelde KB van 18 december 2015).
- 
-- 3Verslag aan de Koning bij het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad. 
- 
-- 4Abstractie makend van de vastrentende effecten.
- 
-- 5In toepassing van de artikelen 67, § 1 en 77 KB W.Venn. 
- 
-- 6Eerste zin van artikel 68 KB W.Venn.
- 
-- 7Tweede zin van artikel 68 KB W.Venn.
- 
-- 8Artikel 67, § 2 KB W.Venn.
- 
-- 9Het KB van 18 december 2015 voorziet immers niet in een overgangsregeling.
- 
-- 10Het KB van 18 december 2015 voorziet immers niet in een overgangsregeling.
+[^10]: Het KB van 18 december 2015 voorziet immers niet in een overgangsregeling.

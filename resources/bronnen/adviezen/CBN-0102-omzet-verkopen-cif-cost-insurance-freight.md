@@ -14,25 +14,28 @@ bron: https://www.cbn-cnc.be/nl/adviezen/omzet-verkopen-cif-cost-insurance-freig
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-verkopen-cif-cost-insurance-freight
-      sha256:
+      sha256: db7fa26a1d8463a7affca192233a4ce68cd7dbdc66641feada8969f7ba9e955d
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:37Z'
+  generated_at: '2026-05-08T18:33:42Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 102 — omzet verkopen cif cost insurance freight In geval van verkoop C.I.F. omvat de aan de koper gerekende prijs, naast de verkoopprijs F.O.B., onder meer de kosten voor vervoer en verzekering; deze laatste worden door de verkoper echter voor eigen rekening aangegaan. 
+# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)
 
+# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)
+
+In geval van verkoop C.I.F. omvat de aan de koper gerekende prijs, naast de verkoopprijs F.O.B., onder meer de kosten voor vervoer en verzekering; deze laatste worden door de verkoper echter voor eigen rekening aangegaan. 
 
 Daaruit volgt dat, in dit geval, de omzet de totale aan de koper gerekende prijs omvat, dat wil zeggen zonder aftrek van de vervoer- en verzekeringskosten.

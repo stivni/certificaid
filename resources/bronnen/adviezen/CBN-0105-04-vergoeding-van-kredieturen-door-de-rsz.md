@@ -9,25 +9,26 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
-      sha256:
+      sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:37Z'
+  generated_at: '2026-05-08T18:33:49Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 105/4 — vergoeding van kredieturen door de rsz Krachtens de bestaande wetgeving zijn de werkgevers verplicht om een bijdrage te storten aan de RSZ voor de financiering van kredieturen. Wanneer een werknemer gebruik maakt van de mogelijkheid die hem door deze wetgeving wordt geboden, dan wordt de daarbij behorende bezoldiging terugbetaald aan de onderneming door de RSZ. 
+# CBN-advies 105/4 - Vergoeding van kredieturen door de RSZ
 
+Krachtens de bestaande wetgeving zijn de werkgevers verplicht om een bijdrage te storten aan de RSZ voor de financiering van kredieturen. Wanneer een werknemer gebruik maakt van de mogelijkheid die hem door deze wetgeving wordt geboden, dan wordt de daarbij behorende bezoldiging terugbetaald aan de onderneming door de RSZ. 
 
 Deze tussenkomst door de RSZ wijzigt niets aan de betrekkingen tussen werkgever en werknemer; de vergoeding wordt uitgekeerd aan de werkgever en niet aan de werknemer. De Commissie is dan ook van mening dat deze vergoeding bij de kostensoorten niet mag in mindering worden gebracht van het bedrag dat werkelijk als rechtstreekse of onrechtstreekse bezoldiging werd uitbetaald.

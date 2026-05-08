@@ -20,47 +20,36 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioe
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-      sha256:
+      sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:38Z'
+  generated_at: '2026-05-08T18:34:02Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 107/13 — voorzieningen voor geindexeerde pensioenen en brugpensioenen In haar advies 107/9, *Bull. CBN* nr. 23, heeft de Commissie gesteld dat voorzieningen voor risico's en kosten op meer dan een jaar en meer bepaald de uitbetalingen voor pensioenen, moeten worden gewaardeerd tegen hun actuele waarde en niet tegen hun nominale waarde. De actuele waarde van een - renteloze - vordering of schuld op middellange of lange termijn is immers niet gelijk aan haar nominale waarde.
+# CBN-advies 107/13 - Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
 
+In haar advies 107/9, *Bull. CBN* nr. 23, heeft de Commissie gesteld dat voorzieningen voor risico's en kosten op meer dan een jaar en meer bepaald de uitbetalingen voor pensioenen, moeten worden gewaardeerd tegen hun actuele waarde en niet tegen hun nominale waarde. De actuele waarde van een - renteloze - vordering of schuld op middellange of lange termijn is immers niet gelijk aan haar nominale waarde.
 
 Aan de Commissie werd gevraagd of haar voornoemde advies over de vaststelling van het bedrag van de nodige voorziening om de verplichtingen te dekken in verband met niet-geïndexeerde, gespreid te betalen pensioenen en brugpensioenen, ook geldt voor geïndexeerde pensioenen en brugpensioenen.
 
-
 Wat de vraag betreft of verplichtingen in verband met geïndexeerde pensioenen en brugpensioenen tegen hun nominale waarde dan wel tegen hun geactualiseerde waarde moeten worden gewaardeerd, is de Commissie van oordeel dat haar advies, namelijk dat voorzieningen tegen hun geactualiseerde waarde moeten worden geboekt, a fortiori geldt wanneer het geraamde nominale bedrag van deze verplichtingen een prognose bevat van de evolutie van het indexcijfer op grond waarvan deze verplichtingen op termijn worden berekend.
-
 
 Deze regel moet in elk geval worden toegepast als de actualisering geschiedt tegen de voor dergelijke «schulden» geldende marktrente op het ogenblik waarop zij in het vermogen van de onderneming worden opgenomen, zoals is bepaald door artikel 27*bis* van het koninklijk besluit van 8 oktober 1976. De geldende marktrente voor schulden van dezelfde aard, mag immers in zekere mate worden beschouwd als een anticipatie op de evolutie van de koopkracht van het geld.
 
-
-Wat het beginsel zelf betreft van de waardering van deze verplichtingen tegen hun actuele waarde, merkt de Commissie op dat in de voornaamste ter zake geldende normen in het buitenland het actualiseringsbeginsel is opgenomen1
-. Zij ziet trouwens geen enkele reden waarom het beginsel van de waardering tegen actuele waarde dat voor schulden is vastgesteld door het koninklijk besluit van 8 oktober 1976 zoals gewijzigd bij het koninklijk besluit van 12 september 1983, en door het Hof van Cassatie in zijn arrest van 28 oktober 1982, niet zou gelden voor voorzieningen voor pensioenen en brugpensioenen.
-
-
- 
-
+Wat het beginsel zelf betreft van de waardering van deze verplichtingen tegen hun actuele waarde, merkt de Commissie op dat in de voornaamste ter zake geldende normen in het buitenland het actualiseringsbeginsel is opgenomen[^1]. Zij ziet trouwens geen enkele reden waarom het beginsel van de waardering tegen actuele waarde dat voor schulden is vastgesteld door het koninklijk besluit van 8 oktober 1976 zoals gewijzigd bij het koninklijk besluit van 12 september 1983, en door het Hof van Cassatie in zijn arrest van 28 oktober 1982, niet zou gelden voor voorzieningen voor pensioenen en brugpensioenen.
 
 Bron: *Bull. CBN*, nr. 30, februari 1993, p. 16
 
-
- 
-
-
-- 1International Accounting Standard Committee : accounting standard 19 - Accounting for retirement benefits in the financial statements of employers (1982). Financial Accounting Standards Board : standard n° 87, Employers accounting for pensioen plans (1985). Accounting Standards Committee : S.S.A.P. 24. Accounting for pensions costs (mei 1988).
+[^1]: International Accounting Standard Committee : accounting standard 19 - Accounting for retirement benefits in the financial statements of employers (1982). Financial Accounting Standards Board : standard n° 87, Employers accounting for pensioen plans (1985). Accounting Standards Committee : S.S.A.P. 24. Accounting for pensions costs (mei 1988).

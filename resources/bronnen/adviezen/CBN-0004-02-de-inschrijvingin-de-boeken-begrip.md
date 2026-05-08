@@ -8,47 +8,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
-      sha256:
+      sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:36Z'
+  generated_at: '2026-05-08T18:33:25Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de boeken, rekeningen en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
+    datum: '1977-08-01'
 ---
 
-# CBN-advies 4/2 — de inschrijvingin de boeken begrip Aan de Commissie worden geregeld vragen gesteld over de wetsvoorschriften inzake het houden van de boeken. 
+# CBN-advies 4-2 - De "inschrijving" in de boeken - Begrip
 
+Aan de Commissie worden geregeld vragen gesteld over de wetsvoorschriften inzake het houden van de boeken.   
 
-Zo heeft de Commissie geadviseerd dat de bewoordingen van artikel 4 van de Boekhoudwet1
-, waarvan het tweede lid stelt dat alle verrichtingen zonder uitstel, getrouw en volledig in het dagboek of de hulpdagboeken worden «ingeschreven», geenszins impliceren dat de betrokken aantekeningen met de hand moeten gebeuren. 
+Zo heeft de Commissie geadviseerd dat de bewoordingen van artikel 4 van de Boekhoudwet[^1], waarvan het tweede lid stelt dat alle verrichtingen zonder uitstel, getrouw en volledig in het dagboek of de hulpdagboeken worden «ingeschreven», geenszins impliceren dat de betrokken aantekeningen met de hand moeten gebeuren.   
 
+Een dergelijke - letterlijke en restrictieve - uitlegging van deze wetsbepaling strookt inderdaad geenszins met de bedoelingen van de wetgever.   
 
-Een dergelijke - letterlijke en restrictieve - uitlegging van deze wetsbepaling strookt inderdaad geenszins met de bedoelingen van de wetgever. 
+Er weze in dit verband herinnerd aan hogergenoemd koninklijk besluit nr. 22 van 15 december 1978 waardoor diverse technische wijzigingen aan de boekhoudwet werden gebracht teneinde de moeilijkheden te verhelpen bij de toepassing van de oorspronkelijke wetsbepalingen, onder meer in geval van per computer gevoerde boekhoudingen.   
 
+Uit het Verslag van de Koning dat dit wetsbesluit voorafgaat (zie de commentaar bij artikel 3 van dit wetsbesluit, Belgisch Staatsblad van 4 januari 1979, p. 33 e.v.) blijkt duidelijk dat de wetgever aan de term «inschrijven» geen enge en letterlijke betekenis heeft willen hechten en zich niet heeft uitgesproken - integendeel - voor een welbepaalde techniek van gegevensopname in de boeken, weze het in het dagboek, in het hulpdagboeken of in het centraal boek bedoeld in artikel 4, derde lid van de wet.   
 
-Er weze in dit verband herinnerd aan hogergenoemd koninklijk besluit nr. 22 van 15 december 1978 waardoor diverse technische wijzigingen aan de boekhoudwet werden gebracht teneinde de moeilijkheden te verhelpen bij de toepassing van de oorspronkelijke wetsbepalingen, onder meer in geval van per computer gevoerde boekhoudingen. 
+Dit standpunt wordt, voor zover nodig, wat de dag- en hulpdagboeken betreft, bevestigd door artikel 8, § 3 van de wet dat toelaat deze «boeken» te houden op magneetbanden of magneetschijven (cf. Verslag aan de Koning, K.B. nr. 22, commentaar bij artikel 5, Belgisch Staatsblad van 4 januari 1979, p. 38).   
 
+In overeenstemming met haar standpunt, namelijk dat de term «inschrijven» niet duidt op een bepaalde techniek voor gegevensopname in de boeken, heeft de Commissie geadviseerd dat de methode die erin bestaat computerlijsten in de boeken te kleven, aan het wetsvoorschrift beantwoordt, voor zover deze inkleving derwijze geschiedt dat de onuitwisbaarheid van de opgenomen gegevens wordt gewaarborgd.   
 
-Uit het Verslag van de Koning dat dit wetsbesluit voorafgaat (zie de commentaar bij artikel 3 van dit wetsbesluit, Belgisch Staatsblad van 4 januari 1979, p. 33 e.v.) blijkt duidelijk dat de wetgever aan de term «inschrijven» geen enge en letterlijke betekenis heeft willen hechten en zich niet heeft uitgesproken - integendeel - voor een welbepaalde techniek van gegevensopname in de boeken, weze het in het dagboek, in het hulpdagboeken of in het centraal boek bedoeld in artikel 4, derde lid van de wet. 
+Hetzelfde advies geldt uiteraard ook inzake het voorschrift van artikel 7 waarvan het derde lid bepaalt dat de jaarrekening en de inventarisstukken tot staving ervan worden «overgeschreven» in een boek. Ook hier mag de term «overschrijving» niet restrictief worden uitgelegd.
 
-
-Dit standpunt wordt, voor zover nodig, wat de dag- en hulpdagboeken betreft, bevestigd door artikel 8, § 3 van de wet dat toelaat deze «boeken» te houden op magneetbanden of magneetschijven (cf. Verslag aan de Koning, K.B. nr. 22, commentaar bij artikel 5, Belgisch Staatsblad van 4 januari 1979, p. 38). 
-
-
-In overeenstemming met haar standpunt, namelijk dat de term «inschrijven» niet duidt op een bepaalde techniek voor gegevensopname in de boeken, heeft de Commissie geadviseerd dat de methode die erin bestaat computerlijsten in de boeken te kleven, aan het wetsvoorschrift beantwoordt, voor zover deze inkleving derwijze geschiedt dat de onuitwisbaarheid van de opgenomen gegevens wordt gewaarborgd. 
-
-
-Hetzelfde advies geldt uiteraard ook inzake het voorschrift van artikel 7 waarvan het derde lid bepaalt dat de jaarrekening en de inventarisstukken tot staving ervan worden «overgeschreven» in een boek. Ook hier mag de term «overschrijving» niet restrictief worden uitgelegd. 
-
-
-- 1Zoals gewijzigd door artikel 3 van het koninklijk besluit nr. 22 van 15 december 1978.
+[^1]: Zoals gewijzigd door artikel 3 van het koninklijk besluit nr. 22 van 15 december 1978.

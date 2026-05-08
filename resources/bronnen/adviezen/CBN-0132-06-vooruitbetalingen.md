@@ -11,109 +11,79 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
-      sha256:
+      sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:40Z'
+  generated_at: '2026-05-08T18:34:52Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:03Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 132/6 — vooruitbetalingen Naar hun aard zijn ontvangen en gedane vooruitbetalingen duidelijk te onderscheiden van schulden en vorderingen. Vooruitbetalingen doen geen toekomstige uitgaande of inkomende kasstromen ontstaan. Zodra het goed is ontvangen of geleverd of de dienst is verricht verdwijnen zij doordat zij worden verrekend met de vordering of de schuld die ontstaat ingevolge de levering of ontvangst van het goed of het verrichten van de dienst. 
+# CBN-advies 132/6 - Vooruitbetalingen
 
+Naar hun aard zijn ontvangen en gedane vooruitbetalingen duidelijk te onderscheiden van schulden en vorderingen. Vooruitbetalingen doen geen toekomstige uitgaande of inkomende kasstromen ontstaan. Zodra het goed is ontvangen of geleverd of de dienst is verricht verdwijnen zij doordat zij worden verrekend met de vordering of de schuld die ontstaat ingevolge de levering of ontvangst van het goed of het verrichten van de dienst.   
 
-In het algemeen rekeningenstelsel worden vooruitbetalingen dan ook in bijzondere rekeningen geboekt en in de balans afzonderlijk vermeld. Voor gedane vooruitbetalingen op materiële vaste activa en voorraden is dit aan actiefzijde, voor ontvangen vooruitbetalingen op bestellingen is dit aan passiefzijde. 
+In het algemeen rekeningenstelsel worden vooruitbetalingen dan ook in bijzondere rekeningen geboekt en in de balans afzonderlijk vermeld. Voor gedane vooruitbetalingen op materiële vaste activa en voorraden is dit aan actiefzijde, voor ontvangen vooruitbetalingen op bestellingen is dit aan passiefzijde.   
 
+Gedane vooruitbetalingen zijn bestemd om te worden toegevoegd hetzij aan de aanschaffingswaarde van immateriële of materiële vaste activa, hetzij aan de kostprijs van voorraden en diensten.   
 
-Gedane vooruitbetalingen zijn bestemd om te worden toegevoegd hetzij aan de aanschaffingswaarde van immateriële of materiële vaste activa, hetzij aan de kostprijs van voorraden en diensten. 
+Vooruitbetalingen die met een actief verbonden zijn, worden dan ook in de balans vermeld in samenhang met het actief waarop zij betrekking hebben. Door de onderneming "gekochte" diensten worden daarentegen niet geactiveerd met als gevolg dat er ook geen overeenstemmende actiefpost bestaat. Daarom worden vooruitbetalingen op diensten toegerekend aan de handelsvorderingen.   
 
+De Commissie werd gevraagd of ingeval van vooruitbetalingen op voorraadinkopen de wijzigingen dienen te verlopen via de rekeningen voor voorraadwijzigingen, zoals gebruikelijk voor de klasse "Voorraden en bestellingen in uitvoering", en of er een onderscheid moet worden gemaakt tussen al of niet gefactureerde vooruitbetalingen.   
 
-Vooruitbetalingen die met een actief verbonden zijn, worden dan ook in de balans vermeld in samenhang met het actief waarop zij betrekking hebben. Door de onderneming "gekochte" diensten worden daarentegen niet geactiveerd met als gevolg dat er ook geen overeenstemmende actiefpost bestaat. Daarom worden vooruitbetalingen op diensten toegerekend aan de handelsvorderingen. 
-
-
-De Commissie werd gevraagd of ingeval van vooruitbetalingen op voorraadinkopen de wijzigingen dienen te verlopen via de rekeningen voor voorraadwijzigingen, zoals gebruikelijk voor de klasse "Voorraden en bestellingen in uitvoering", en of er een onderscheid moet worden gemaakt tussen al of niet gefactureerde vooruitbetalingen. 
-
-
-Vooruitbetalingen kunnen niet fysiek in de inventaris worden opgenomen en worden bij levering aan de aanschaffingswaarde toegevoegd, zodat zij niet via de voorraadwijzigingen kunnen verlopen. Het algemeen rekeningenstelsel bevat dan ook geen rekening "Wijzigingen vooruitbetalingen op voorraden". 
-
+Vooruitbetalingen kunnen niet fysiek in de inventaris worden opgenomen en worden bij levering aan de aanschaffingswaarde toegevoegd, zodat zij niet via de voorraadwijzigingen kunnen verlopen. Het algemeen rekeningenstelsel bevat dan ook geen rekening "Wijzigingen vooruitbetalingen op voorraden".   
 
 Gefactureerde vooruitbetalingen worden als volgt geboekt: 
 
-
 - bij ontvangst van de factuur met betrekking tot de vooruitbetaling :
- 
 
-| | 36 Vooruitbetalingen op voorraadinkopen
- |
-| | 411 Terug te vorderen btw
- |
-| |  
- | aan
- | 440  Leveranciers
- |  
- |
- 
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+|  | 36 Vooruitbetalingen op voorraadinkopen |  |  |  |
+|  | 411 Terug te vorderen btw |  |  |  |
+| aan | 440  Leveranciers |  |  |  |
+
 - bij betaling van de factuur met betrekking tot de vooruitbetaling : 
- 
 
-| | 440 Leveranciers
- |
-| |  
- | aan    55    Kredietinstellingen
- |
- 
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+|  | 440 Leveranciers |  |  |  |
+|  | aan    55    Kredietinstellingen |  |  |  |
+
 - bij ontvangst van de definitieve factuur : 
- 
 
-| | 60   Handelsgoederen, grond- en hulpstoffen 
- |
-| | 411 Terug te vorderen btw
- |
-| |  
- | aan
- | 36  Vooruitbetalingen op voorraadinkopen
- |
-| |  
- |  
- | 440 Leveranciers 
- |
-
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+|  | 60   Handelsgoederen, grond- en hulpstoffen |  |  |  |
+|  | 411 Terug te vorderen btw |  |  |  |
+| aan | 36  Vooruitbetalingen op voorraadinkopen |  |  |  |
+|  | 440 Leveranciers |  |  |  |
 
 Bij vooruitbetaling vóór facturatie geschiedt de boeking als volgt : 
 
-
 - bij vooruitbetaling : 
- 
 
-| | 36  Vooruitbetalingen op voorraadinkopen
- |
-| |  
- | aan
- | 55  Kredietinstellingen
- |
- 
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+|  | 36  Vooruitbetalingen op voorraadinkopen |  |  |  |
+| aan | 55  Kredietinstellingen |  |  |  |
+
 - bij ontvangst van de factuur :
- 
 
-| | 60    Handelsgoederen, grond- en hulpstoffen
- |
-| | 411 Terug te vorderen btw
- |
-| |  
- | aan 440  Leveranciers
- |
-| | 440 Leveranciers
- |
-| |  
- | aan 36   Vooruitbetalingen op voorraadinkopen 
- |
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+|  | 60    Handelsgoederen, grond- en hulpstoffen |  |  |  |
+|  | 411 Terug te vorderen btw |  |  |  |
+|  | aan 440  Leveranciers |  |  |  |
+|  | 440 Leveranciers |  |  |  |
+|  | aan 36   Vooruitbetalingen op voorraadinkopen |  |  |  |

@@ -11,25 +11,30 @@ bron: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contract
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
-      sha256:
+      sha256: 250bb526c3f37563d22490c4933153d5dccd5798ededcbf5ec312e8160465477
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:39Z'
+  generated_at: '2026-05-08T18:34:27Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Het begrip &quot;financiële instelling&quot;
+    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+    datum: '1980-01-01'
 ---
 
-# CBN-advies 120/2 — in aanmerking te nemen termijn contractuele termijn of nog te lopen termijn Wanneer de overblijvende duur van een tegoed op een financiële instelling, met een contractuele termijn van meer dan één maand, op de balansdatum geen maand meer bedraagt, mag - of moet - dit tegoed dan uit de rubriek *Thesauriebeleggingen *worden gehaald en onder de rubriek *Beschikbare waarden* worden ingeschreven ? 
+# CBN-advies 120/2 - In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
 
+Wanneer de overblijvende duur van een tegoed op een financiële instelling, met een contractuele termijn van meer dan één maand, op de balansdatum geen maand meer bedraagt, mag - of moet - dit tegoed dan uit de rubriek *Thesauriebeleggingen *worden gehaald en onder de rubriek *Beschikbare waarden* worden ingeschreven ? 
 
 De definitie van beide rubrieken in het koninklijk besluit van 8 oktober 1976 geeft geen duidelijk antwoord op de vraag of men voor dergelijke tegoeden op financiële instellingen rekening moet houden met de contractuele duur, dan wel met de overblijvende duur. De Commissie is van oordeel dat beide stellingen opgaan, en dat de onderneming zelf een beleidslijn moet uitstippelen, op grond van het algemene beginsel dat in artikel 3 van het besluit is vervat. Daarbij zal de onderneming rekening moeten houden met het feit dat dergelijke tegoeden bestemd zijn om op korte termijn te worden aangesproken voor de dekking van haar thesauriebehoeften, dan wel om voor een nieuwe termijn te worden herbelegd.

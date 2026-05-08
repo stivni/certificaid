@@ -15,34 +15,40 @@ bron: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schuld
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-      sha256:
+      sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:41Z'
+  generated_at: '2026-05-08T18:35:00Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:03Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+    datum: '1986-09-01'
 ---
 
-# CBN-advies 137/9 — actualisering van vorderingen en schulden op korte termijn update Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 
+# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
 
+# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
+
+# Advies van februari 1993, bijgewerkt op 10 september 2025[^1] 
+
+Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 
 
 Volgens de Commissie staat de boekhoudregeling dit niet toe voor de ondernemingen die zijn onderworpen aan koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV). 
 
-
 Zoals vermeld in het Verslag aan de Koning bij het koninklijk besluit van 12 september 1983 dat het koninklijk besluit van 8 oktober 1976 wijzigt en in artikel 3:45, § 2, lid 1, c) KB WVV, wordt het disconto op renteloze of abnormaal laag rentende vorderingen, onverminderd de andere voorwaarden, beperkt tot vorderingen die pas na verloop van één jaar moeten worden betaald, te rekenen vanaf het ogenblik waarop ze in het vermogen van de  vennootschap, VZW, IVZW of stichting zijn opgenomen. 
 
+In tegenstelling tot de banksector, waar vorderingen en schulden ongeacht hun looptijd per definitie als rentend worden beschouwd, brengen vorderingen op korte termijn in de industriële en commerciële sector doorgaans slechts rente op wanneer dit wettelijk of contractueel uitdrukkelijk is voorgeschreven. Het KB WVV heeft in die materie alsook voor de schema’s van de jaarrekening de scheidingslijn getrokken tussen vorderingen en schulden op ten hoogste één jaar en vorderingen en schulden op meer dan één jaar.
 
-In tegenstelling tot de banksector, waar vorderingen en schulden ongeacht hun looptijd per definitie als rentend worden beschouwd, brengen vorderingen op korte termijn in de industriële en commerciële sector doorgaans slechts rente op wanneer dit wettelijk of contractueel uitdrukkelijk is voorgeschreven. Het KB WVV heeft in die materie alsook voor de schema’s van de jaarrekening de scheidingslijn getrokken tussen vorderingen en schulden op ten hoogste één jaar en vorderingen en schulden op meer dan één jaar. 
-
-
-- 1Onderhavig geactualiseerd advies is tot stand gekomen nadat het ontwerpadvies op 11 juni 2025 ter publieke consultatie werd gepubliceerd op de website van de CBN.
+[^1]: Onderhavig geactualiseerd advies is tot stand gekomen nadat het ontwerpadvies op 11 juni 2025 ter publieke consultatie werd gepubliceerd op de website van de CBN.

@@ -14,28 +14,32 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
-      sha256:
+      sha256: aa9ff2799f9e6d5d9f4ce06c41b13a64d71db5420c121889069592a5b6f1acff
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:41Z'
+  generated_at: '2026-05-08T18:35:17Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:03Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie-0
+    datum: '2025-07-14'
 ---
 
-# CBN-advies 150/2 — aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie De kosten van aansluiting op een openbaar vervoer- of distributienet alsook van de erop betrekking hebbende installaties worden meestal aan de verbruiker gefactureerd. De aansluitingen of installaties zelf worden of blijven evenwel hetzij conventioneel hetzij overeenkomstig de wet, eigendom van de titularissen of concessionarissen van het openbaar netwerk. 
+# CBN-advies 150/2 - Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
 
+De kosten van aansluiting op een openbaar vervoer- of distributienet alsook van de erop betrekking hebbende installaties worden meestal aan de verbruiker gefactureerd. De aansluitingen of installaties zelf worden of blijven evenwel hetzij conventioneel hetzij overeenkomstig de wet, eigendom van de titularissen of concessionarissen van het openbaar netwerk. 
 
 De vraag werd gesteld of deze kosten kunnen worden geactiveerd en planmatig in resultaat genomen en, zo ja, op welke grond. 
-
 
 De Commissie heeft hier geadviseerd dat de onderneming de keuze heeft om deze kosten hetzij onmiddellijk ten laste te nemen tijdens het boekjaar waarin zij zich voordoen, hetzij, naar analogie van het voorschrift in het koninklijk besluit van 8 oktober 1976 met betrekking tot de kosten voor inrichting van gehuurde gebouwen, ze te activeren onder de rubriek "III.E. Overige materiële vaste activa". In deze tweede hypothese worden de kosten ten laste genomen via (planmatige) afschrijvingen overeenkomstig artikel 28, § 2 van het jaarrekeningbesluit.

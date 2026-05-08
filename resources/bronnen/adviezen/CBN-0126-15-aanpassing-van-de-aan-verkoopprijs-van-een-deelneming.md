@@ -14,34 +14,32 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
-      sha256:
+      sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:39Z'
+  generated_at: '2026-05-08T18:34:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:03Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 126/15 — aanpassing van de aan verkoopprijs van een deelneming In het kader van een (aan-) verkoopsverrichting van een deelneming, gebeurt het vaak dat de verkoper en/ of koper aan de koper en/of verkoper een aantal waarborgen bieden in verband met, bijvoorbeeld, wat de verkoper aangaat, de werkelijkheid en de correcte waardering van bepaalde posten van de jaarrekening van de vennootschap, waarvan de aandelen afgestaan werden, haar commerciële of juridische positie en wat de koper aangaat, de verwachte ontwikkeling of het behoud van de werkgelegenheid. 
+# CBN-advies 126/15 - Aanpassing van de (aan-) verkoopprijs van een deelneming
 
+In het kader van een (aan-) verkoopsverrichting van een deelneming, gebeurt het vaak dat de verkoper en/ of koper aan de koper en/of verkoper een aantal waarborgen bieden in verband met, bijvoorbeeld, wat de verkoper aangaat, de werkelijkheid en de correcte waardering van bepaalde posten van de jaarrekening van de vennootschap, waarvan de aandelen afgestaan werden, haar commerciële of juridische positie en wat de koper aangaat, de verwachte ontwikkeling of het behoud van de werkgelegenheid. 
 
 Concreet kunnen de aldus verkregen waarborgen, conform de contractuele bepalingen, aanleiding geven tot hetzij een prijsherziening, hetzij door de verkoper of door de koper tot betaling van een vergoeding waarvan het bedrag en de modaliteiten in de verkoopovereenkomst worden vastgelegd. 
 
-
 Indien de uitvoering van die overeenkomst resulteert in een prijsherziening, is het duidelijk hoe die boekhoudkundig moet worden verwerkt: in de rekeningen van de koper door overeenstemmende aanpassing van de aanschaffingswaarde van de betrokken deelneming; in de rekeningen van de verkoper, al naargelang, hetzij door een verhoging van de gerealiseerde meerwaarde (of door een vermindering van de gerealiseerde minderwaarde), hetzij door een verhoging van de gerealiseerde minderwaarde (of door een vermindering van de gerealiseerde meerwaarde). 
 
-
 De Commissie werd gevraagd voor welke boekhoudkundige verwerking moet worden geopteerd wanneer de uitvoering van de overeenkomst gepaard gaat met de betaling van een vergoeding. 
-
 
 In zoverre de verkoopprijs van de aandelen onder andere is bepaald onder verwijzing naar de door de verkoper en/of koper gegeven waarborgen, is de Commissie van oordeel dat de betaling van een vergoeding die - krachtens de overeenkomst - aan de ene of de andere partij moet worden betaald op dezelfde wijze moet worden behandeld als een prijsherziening.

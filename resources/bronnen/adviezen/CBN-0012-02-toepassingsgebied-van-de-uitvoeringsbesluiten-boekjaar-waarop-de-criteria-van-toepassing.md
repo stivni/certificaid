@@ -7,43 +7,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbes
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
-      sha256:
+      sha256: 26ca679519de6ac24c5bd8d0c5f98ce1e83aa35f7077241e7354b85fbcebf4db
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:36Z'
+  generated_at: '2026-05-08T18:33:31Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+    datum: '2024-09-19'
+  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+    datum: '2024-09-19'
+  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+    datum: '2022-04-27'
+  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+    datum: '2022-04-01'
 ---
 
-# CBN-advies 12/2 — toepassingsgebied van de uitvoeringsbesluiten boekjaar waarop de criteria van toepassing Dit  advies  is  verouderd  gezien  het  nieuwe  artikel  12  van  de  wet  17  juli  1975  (artikel  8  van  de  wet  van  1  juli  1983)  
+# CBN-advies 12-2 - Toepassingsgebied van de uitvoeringsbesluiten: Boekjaar waarop de criteria van toepassing zijn
 
-(zie  lijst  van  gepubliceerde  adviezen,  bulletin  1‐24  augustus  1977‐september  1989)    
+Dit  advies  is  verouderd  gezien  het  nieuwe  artikel  12  van  de  wet  17  juli  1975  (artikel  8  van  de  wet  van  1  juli  1983)    
 
-  
+(zie  lijst  van  gepubliceerde  adviezen,  bulletin  1‐24  augustus  1977‐september  1989)      
 
+De  vraag  werd  gesteld  welk  boekjaar  en  welke  balans  in  aanmerking  genomen  moeten worden  voor  de  toepassing  van  de  criteria  inzae  tewerkgesteld  personeel,  omzetcijfer  en balanstotaal  zoals  voorzien  in  artikel  12  van  de  wet  van  17  juli  1975.  Gaat  het  hier  om het  lopende  boekjaar,  het  boekjaar  waarop  de  jaarrekening  betrekking  heeft  of  het voorgaande  boekjaar ?       
 
-De  vraag  werd  gesteld  welk  boekjaar  en  welke  balans  in  aanmerking  genomen  moeten worden  voor  de  toepassing  van  de  criteria  inzae  tewerkgesteld  personeel,  omzetcijfer  en balanstotaal  zoals  voorzien  in  artikel  12  van  de  wet  van  17  juli  1975.  Gaat  het  hier  om het  lopende  boekjaar,  het  boekjaar  waarop  de  jaarrekening  betrekking  heeft  of  het voorgaande  boekjaar ?     
+De  tekst  van  artikel  12  is  terzake  niet  zonder  meer  duidelijk;  teruggebracht  in  zijn context en  in  zijn  bedoeling  moet  de  tekst  echter,  naar  de  mening  van  de  Commissie,  worden geïnterpreteerd  als  doelend  op  het  voorgaande  boekjaar.     
 
-De  tekst  van  artikel  12  is  terzake  niet  zonder  meer  duidelijk;  teruggebracht  in  zijn context en  in  zijn  bedoeling  moet  de  tekst  echter,  naar  de  mening  van  de  Commissie,  worden geïnterpreteerd  als  doelend  op  het  voorgaande  boekjaar.   
+Inderdaad  ontslaat  dit  artikel  de  bedoelde  ondernemingen  van  de  verplichting  om  zich  te schikken  naar  de  besluiten  die  ter  uitvering  van  de  wet  worden  genomen,  niet  alleen wat de  jaarrekening  en  de  geconsolideerde  rekeningen  betreft,  maar  ook  wat  het  minimum genormaliseerd  rekeningstelsel  aangaat.     
 
-  
-
-Inderdaad  ontslaat  dit  artikel  de  bedoelde  ondernemingen  van  de  verplichting  om  zich  te schikken  naar  de  besluiten  die  ter  uitvering  van  de  wet  worden  genomen,  niet  alleen wat de  jaarrekening  en  de  geconsolideerde  rekeningen  betreft,  maar  ook  wat  het  minimum genormaliseerd  rekeningstelsel  aangaat.   
-
-  
-
-Welnu,  om  het  minimum  genormaliseerd  rekeningstelsel  te  kunnen  naleven  moeten  de ondernemingen  bij  het  begin  van  het  boekjaar  weten  o  ze  onder  toepassing  vallen  van het  besluit  dat  dit  stelsel  oplegt;  het  zou  niet  opgaan  dat  ze  met  terugwerkende  kracht in  dit  toepassingsgebied  zouden  vallen  doordat  de  in  artikel  12  bedoelde  cjfers  in  de loop van  het  boekjaar  overschreden  worden.  Overigens  kan  logischerwijze  niet  worden aangehouden  dat  de  criteria  waarin  dit  artikel  voorziet  een  verschillende  interpretate moeten  krijgen  naargelang  het  om  de  toepassing  gaat  van  het  besluit  op  de  jaarrekening of  van  dat  op  het  rekeningstelsel,  gelet  op  de  band  tussen  de  bepalingen  van  de  twee besluiten  (artikel  5  van  het  koninklijk  besluit  van  8  oktober  1976)  of  dat  ze  anders geïnterpreteerd  moeten  worden  naargelang  het  gaat  om  het  criterium  «tewerkgesteld personeel»,  «omzetcijfer»  of  «balanstotaal».   
-
-  
+Welnu,  om  het  minimum  genormaliseerd  rekeningstelsel  te  kunnen  naleven  moeten  de ondernemingen  bij  het  begin  van  het  boekjaar  weten  o  ze  onder  toepassing  vallen  van het  besluit  dat  dit  stelsel  oplegt;  het  zou  niet  opgaan  dat  ze  met  terugwerkende  kracht in  dit  toepassingsgebied  zouden  vallen  doordat  de  in  artikel  12  bedoelde  cjfers  in  de loop van  het  boekjaar  overschreden  worden.  Overigens  kan  logischerwijze  niet  worden aangehouden  dat  de  criteria  waarin  dit  artikel  voorziet  een  verschillende  interpretate moeten  krijgen  naargelang  het  om  de  toepassing  gaat  van  het  besluit  op  de  jaarrekening of  van  dat  op  het  rekeningstelsel,  gelet  op  de  band  tussen  de  bepalingen  van  de  twee besluiten  (artikel  5  van  het  koninklijk  besluit  van  8  oktober  1976)  of  dat  ze  anders geïnterpreteerd  moeten  worden  naargelang  het  gaat  om  het  criterium  «tewerkgesteld personeel»,  «omzetcijfer»  of  «balanstotaal».     
 
 Voor  de  ondernemingen  die  hun  activiteit  beginnen  nadat  de  wet  van  kracht  is  geworden moet,  naar  de  mening  van  de  Commissie,  bij  analogie  de  bepaling  worden  toegepast  van artikel  1,  3e  lid,  van  het  koninklijk  besluit  van  23  december  1975  genomen  in  uitvoering van  de  wet.  Bijgevolg  kunnen  deze  ondernemingen  bij  het  beoordelen  of  zij  van  het voordeel  van  artikel  12  kunnen  genieten,  zich  baseren  op  te  goeder  trouw  verrichte voorzieningen  met  betrekking  tot  hun  aantal  werknemers,  hun  omzetcijfer  en  hun balanstotaal  voor  hun  eerste  boekjaar.

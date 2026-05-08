@@ -10,28 +10,28 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheer
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
-      sha256:
+      sha256: 1be95bcf721b9668f270171df616a7e70c5338c8a49feb9bd492179f2356a47d
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:37Z'
+  generated_at: '2026-05-08T18:33:50Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
 ---
 
-# CBN-advies 105-5 — aanrekening van vergoedingen van beheerders of leden van het personeel toegekend door Het gebeurt vaak dat beheerders of leden van het personeel van een onderneming functies vervullen bij vennootschappen behorend tot dezelfde groep; de daaraan verbonden vergoeding wordt dan vaak ofwel aangerekend op de vergoeding voor de hoofdfunctie uitgeoefend op het vlak van de onderneming ofwel rechtstreeks betaald aan deze onderneming of terugbetaald aan deze onderneming door de beneficiaris. 
+# CBN-advies 105/5 - Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend door vennootschappen behorende tot dezelfde groep
 
+Het gebeurt vaak dat beheerders of leden van het personeel van een onderneming functies vervullen bij vennootschappen behorend tot dezelfde groep; de daaraan verbonden vergoeding wordt dan vaak ofwel aangerekend op de vergoeding voor de hoofdfunctie uitgeoefend op het vlak van de onderneming ofwel rechtstreeks betaald aan deze onderneming of terugbetaald aan deze onderneming door de beneficiaris. 
 
 De Commissie is van mening dat wanneer de door de vennootschap van dezelfde groep uitgekeerde vergoeding eenvoudig wordt aangerekend, alleen het complementaire bedrag betaald door de onderneming door deze laatste moet worden vermeld als eigen kosten. Daarentegen, wanneer er een werkelijke storting is of wanneer er een terugstorting is van de vergoeding aan de onderneming, dan moet de uitgeoefende functie bij de andere vennootschap beschouwd worden als verricht voor rekening van de onderneming en moet de daaraan verbonden vergoeding behandeld worden als een eigen opbrengst voor deze laatste. De vergoeding mag dan ook niet in mindering worden gebracht van het bedrag van de door de onderneming uitgekeerde bezoldigingen. 
-
 
 Wat de reisonkosten van de beheerders of leden van het personeel betreft, uitgekeerd door de onderneming maar terugbetaald door de andere vennootschappen, deze uitkeringen kunnen worden beschouwd als een voorschot en niet als een kost indien bewezen is dat de reisonkosten werden aangegaan voor rekening van deze andere vennootschappen.

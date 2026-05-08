@@ -9,31 +9,39 @@ bron: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
-      sha256:
+      sha256: ebd205f826d7a7c05b2b063549f0802199c354e8db62d456585a413c5184bdac
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:40Z'
+  generated_at: '2026-05-08T18:34:56Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:03Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
+    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
+    datum: '2020-10-08'
+  - titel: Belastingvrije provisie voor sociaal passief
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+    datum: '1983-04-10'
+  - titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+    datum: '1983-04-10'
 ---
 
-# CBN-advies 134/3 — investeringsaftrek Door het koninklijk besluit nr. 48 van 22 juni 1982 tot wijziging van het W.I.B. inzake investeringsaftrek, meerwaarden en afschrijvingen1
- worden de bestaande fiscale investeringsstimuli vervangen door een geïntegreerd nieuw stelsel waarbij de ondernemingen de mogelijkheid krijgen hun belastbare winst te verminderen met een investeringsaftrek. Deze investeringsaftrek stemt overeen met een percentage van de aanschaffings- of vervaardigingsprijs van de tijdens het belastbaar tijdperk gedane afschrijfbare investeringen in materiële vaste activa die in nieuwe staat zijn verkregen of tot stand gebracht en in nieuwe immateriële vaste activa die in België voor het uitoefenen van de beroepswerkzaamheid worden gebruikt. De investeringsaftrek kan, naar de keuze van de belastingplichtige, ofwel in eenmaal worden afgetrokken van de winst van het belastbaar tijdperk tijdens hetwelk de investering is verricht, ofwel gespreid worden over de volledige afschrijvingstermijn. 
+# CBN-advies 134/3 - Investeringsaftrek
 
+Door het koninklijk besluit nr. 48 van 22 juni 1982 tot wijziging van het W.I.B. inzake investeringsaftrek, meerwaarden en afschrijvingen[^1]
+ worden de bestaande fiscale investeringsstimuli vervangen door een geïntegreerd nieuw stelsel waarbij de ondernemingen de mogelijkheid krijgen hun belastbare winst te verminderen met een investeringsaftrek. Deze investeringsaftrek stemt overeen met een percentage van de aanschaffings- of vervaardigingsprijs van de tijdens het belastbaar tijdperk gedane afschrijfbare investeringen in materiële vaste activa die in nieuwe staat zijn verkregen of tot stand gebracht en in nieuwe immateriële vaste activa die in België voor het uitoefenen van de beroepswerkzaamheid worden gebruikt. De investeringsaftrek kan, naar de keuze van de belastingplichtige, ofwel in eenmaal worden afgetrokken van de winst van het belastbaar tijdperk tijdens hetwelk de investering is verricht, ofwel gespreid worden over de volledige afschrijvingstermijn.   
 
-Aan de Commissie werd gevraagd of deze investeringsaftrek als zodanig in de boekhouding en in de jaarrekening moet worden tot uiting gebracht. Naar het oordeel van de Commissie dient op deze vraag ontkennend te worden geantwoord. Boekhoudkundig zal de investeringsaftrek enkel tot gevolg hebben dat het bedrag van de op de winst van het boekjaar te betalen belastingen wordt verminderd overeenkomstig de methode voorzien door hogervermeld koninklijk besluit nr. 48. 
+Aan de Commissie werd gevraagd of deze investeringsaftrek als zodanig in de boekhouding en in de jaarrekening moet worden tot uiting gebracht. Naar het oordeel van de Commissie dient op deze vraag ontkennend te worden geantwoord. Boekhoudkundig zal de investeringsaftrek enkel tot gevolg hebben dat het bedrag van de op de winst van het boekjaar te betalen belastingen wordt verminderd overeenkomstig de methode voorzien door hogervermeld koninklijk besluit nr. 48.
 
- 
-
-
-- 1Belgisch Staatsblad, 26 juni 1982
+[^1]: Belgisch Staatsblad, 26 juni 1982

@@ -8,74 +8,70 @@ bron: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-      sha256:
+      sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:47Z'
+  generated_at: '2026-05-08T18:37:07Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:04Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: Werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+    datum: '1988-01-21'
+  - titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+    datum: '1988-12-01'
+  - titel: Materiële vaste activa - Onderscheid met voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+    datum: '1986-01-01'
+  - titel: Rechten tot vertoning van films
+    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+    datum: '1991-03-01'
 ---
 
-# CBN-advies 2016/26 — kilometerheffing
+# CBN-advies 2016/26 – Kilometerheffing
 
 ## Algemeen
 
-
 Het Brussels Hoofdstedelijk Gewest, het Vlaamse Gewest en het Waalse Gewest hebben een systeem van kilometerheffing ingevoerd voor vrachtvervoer op het Belgische grondgebied. De kilometerheffing is een heffing die wordt opgelegd voor het gebruik van zware voertuigen voor het vervoer van goederen over de weg in functie van het aantal gereden kilometers over de aan de heffing onderhevige wegen. De kilometerheffing werd ingevoerd met respectievelijk (i) de ordonnantie van het Brussels Hoofdstedelijk Gewest van 29 juli 2015 tot invoering van een kilometerheffing in het Brussels Hoofdstedelijk Gewest voor zware voertuigen bedoeld of gebruikt voor het vervoer van goederen over de weg, ter vervanging van het Eurovignet, (ii) het decreet van het Vlaams Gewest van 3 juli 2015 tot invoering van de kilometerheffing en stopzetting van de heffing van het eurovignet en tot wijziging van de Vlaamse Codex Fiscaliteit van 13 december 2013 in dat verband en (iii) het decreet van het Waals Gewest van 16 juli 2015 tot invoering van een kilometerheffing voor het wegengebruik door zware vrachtwagens.
-
 
 De kilometerheffing wordt in het Brussels Hoofdstedelijk Gewest en in het Vlaamse Gewest aangemerkt als een gewestelijke belasting. In het Waalse Gewest wordt deze heffing door een private partner geïnd als een retributie.
 
-
 Aan de Commissie werd de vraag gesteld of de kilometerheffing moet worden geboekt op de post *Diensten en diverse goederen* of op de post *Andere bedrijfskosten*.
-
 
 ## Boekhoudkundige verwerking
 
-
-Onder de post *Diensten en diverse goederen* worden onder meer de volgende kosten opgenomen: na aftrek van de in de handel toegestane kortingen en van de belasting over de toegevoegde waarde, voor zover deze aftrekbaar is, de kosten verbonden met de dienstverlening of de levering van goederen door derden in het kader van de bedrijfsuitoefening, tenzij deze kosten onder rubrieken *Handelsgoederen, grond- en hulpstoffen* of *Bezoldigingen, sociale lasten of pensioenen* moeten worden geboekt2
-.
-
+Onder de post *Diensten en diverse goederen* worden onder meer de volgende kosten opgenomen: na aftrek van de in de handel toegestane kortingen en van de belasting over de toegevoegde waarde, voor zover deze aftrekbaar is, de kosten verbonden met de dienstverlening of de levering van goederen door derden in het kader van de bedrijfsuitoefening, tenzij deze kosten onder rubrieken *Handelsgoederen, grond- en hulpstoffen* of *Bezoldigingen, sociale lasten of pensioenen* moeten worden geboekt[^2].
 
 Onder de post *Andere bedrijfskosten* worden onder meer de aan derden betaalde of verschuldigde met de bedrijfsuitoefening verbonden kosten opgenomen, die:
 
+1. niet hun oorsprong vinden in een dienstverlening of een levering door derden, binnen het kader van de gewone bedrijfsuitoefening van de vennootschap; en 
+2. niet als een financiële of niet-recurrente bedrijfskost kunnen worden aangemerkt. 
 
-1. niet hun oorsprong vinden in een dienstverlening of een levering door derden, binnen het kader van de gewone bedrijfsuitoefening van de vennootschap; en
- 
-2. niet als een financiële of niet-recurrente bedrijfskost kunnen worden aangemerkt.
-
-
-In het bijzonder worden onder die post opgenomen, de belastingen die als een bedrijfskost moeten worden aangemerkt, zoals het gedeelte van de onroerende voorheffing dat niet effectief verrekenbaar is met de winstbelasting, de belasting op de voertuigen, de belasting op drijfkracht of op tewerkgesteld personeel, de accijnsrechten en de uitvoerheffingen.3
-
+In het bijzonder worden onder die post opgenomen, de belastingen die als een bedrijfskost moeten worden aangemerkt, zoals het gedeelte van de onroerende voorheffing dat niet effectief verrekenbaar is met de winstbelasting, de belasting op de voertuigen, de belasting op drijfkracht of op tewerkgesteld personeel, de accijnsrechten en de uitvoerheffingen.[^3] 
 
 De kilometerheffing is een als bedrijfskost aan te merken heffing die niet gerelateerd is aan de winst van de onderneming en wordt bijgevolg niet geboekt op de post *Belastingen op het resultaat*. Deze heffing is een kost die haar oorsprong vindt in een dienstverlening of een levering door derden, binnen het kader van de gewone bedrijfsuitoefening van de onderneming en kan niet als een financiële of niet-recurrente bedrijfskost worden aangemerkt. De Commissie is van mening dat er in boekhoudkundig opzicht geen onderscheid is tussen het geval dat de afrekening van de kilometerheffing wordt geïnd door de overheid zelf of door een tussenpersoon.
 
+Gelet op wat voorafgaat, is de Commissie van mening dat de kilometerheffing moet worden geboekt op een passende grootboekrekening 61 *Diensten en diverse goederen* en in de jaarrekening moet worden opgenomen onder de post *Diensten en diverse goederen*.[^4] 
 
-Gelet op wat voorafgaat, is de Commissie van mening dat de kilometerheffing moet worden geboekt op een passende grootboekrekening 61 *Diensten en diverse goederen* en in de jaarrekening moet worden opgenomen onder de post *Diensten en diverse goederen*.4
+De Commissie vestigt er de aandacht op dat wanneer de kilometerheffing een bijkomende kost vormt, de kilometerheffing deel uitmaakt van de aanschaffingsprijs in hoofde van de aankoper van het actiefbestanddeel (met inbegrip van de voorraden en de bestellingen in uitvoering).[^5]   
 
+[^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 25 augustus 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 
-De Commissie vestigt er de aandacht op dat wanneer de kilometerheffing een bijkomende kost vormt, de kilometerheffing deel uitmaakt van de aanschaffingsprijs in hoofde van de aankoper van het actiefbestanddeel (met inbegrip van de voorraden en de bestellingen in uitvoering).5
+[^2]: Artikel 96, II.B van het uitvoeringsbesluit bij het Wetboek van vennootschappen.
 
+[^3]: Artikel 96, II.G van het uitvoeringsbesluit bij het Wetboek van vennootschappen.
 
- 
+[^4]: Voor een transportonderneming zal de kilometerheffing, net zoals de brandstofkosten, in principe worden geboekt op de rekening 60 Handelsgoederen, grond- en hulpstoffen.
 
-
-- 1Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 25 augustus 2016 ter consultatie werd gepubliceerd op de website van de CBN.
- 
-- 2Artikel 96, II.B van het uitvoeringsbesluit bij het Wetboek van vennootschappen.
- 
-- 3Artikel 96, II.G van het uitvoeringsbesluit bij het Wetboek van vennootschappen.
- 
-- 4Voor een transportonderneming zal de kilometerheffing, net zoals de brandstofkosten, in principe worden geboekt op de rekening 60 *Handelsgoederen, grond- en hulpstoffen*.
- 
-- 5Artikel 36, eerste lid KB W.Venn. luidt als volgt: “De aanschaffingsprijs omvat, naast de aankoopprijs, de bijkomende kosten zoals niet terugbetaalbare belastingen en vervoerkosten.”
+[^5]: Artikel 36, eerste lid KB W.Venn. luidt als volgt: “De aanschaffingsprijs omvat, naast de aankoopprijs, de bijkomende kosten zoals niet terugbetaalbare belastingen en vervoerkosten.”

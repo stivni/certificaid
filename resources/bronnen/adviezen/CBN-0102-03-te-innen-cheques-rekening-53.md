@@ -12,22 +12,28 @@ bron: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
 provenance:
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
-      sha256:
+      sha256: 12b8080766e2af5298adf3b6eb47536b6f89ad40b946bb4389913aacb249e578
       version:
   tooling:
-    pipeline: tools/etl/reprocess_cbn_adviezen.py
-    pipeline_version: c2f5cc2
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
     model:
     prompt_version:
-  generated_at: '2026-05-07T13:37:36Z'
+  generated_at: '2026-05-08T18:33:41Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
+    status: trusted
     qa_version:
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    confirmed_at: '2026-05-08T18:40:02Z'
+    confirmed_by: qa-laag1-auto
+    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+gerelateerde_adviezen:
+  - titel: 'Uitgegeven cheques : werking van rekening 559'
+    url: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
+    datum: '1980-06-01'
 ---
 
-# CBN-advies R102/3 — te innen cheques rekening Ontvangen cheques en andere ontvangen betaalmiddelen moeten op het ogenblik waarop zij worden ontvangen, worden geboekt op de rekening 53 *Te innen vervallen waarden* in afwachting van hun inning. Als de financiële instelling die met de inning belast is dadelijk krediet verleent, onder voorbehoud van goede afloop, dan wordt het bedrag van de betrokken "waarden" geboekt in de rekening *Kredietinstellingen *zodra het krediet werd verleend.
+# CBN-advies R102/3 - Te innen cheques : rekening 53
+
+Ontvangen cheques en andere ontvangen betaalmiddelen moeten op het ogenblik waarop zij worden ontvangen, worden geboekt op de rekening 53 *Te innen vervallen waarden* in afwachting van hun inning. Als de financiële instelling die met de inning belast is dadelijk krediet verleent, onder voorbehoud van goede afloop, dan wordt het bedrag van de betrokken "waarden" geboekt in de rekening *Kredietinstellingen *zodra het krediet werd verleend.
