@@ -85,6 +85,26 @@ Niet nu. Pas wanneer:
 
 Werk dan: validator-script ("kunnen voorbeeldvragen worden opgelost met huidige concepten?") + gerichte uitbreiding bij gaps.
 
+## ETL — chunking-kwaliteit (retrieval korte artikelen)
+
+Driver: art. 458 SW staat op positie ~55 in retrieval voor "beroepsgeheim" omdat:
+- Chunk is ~600 chars (te kort voor stabiele bi-encoder embedding)
+- Strafwetboek heeft geen hoofdstukkoppen boven art. 458 ("Schending van het beroepsgeheim")
+- Artikel beschrijft concept via voorbeelden (geneesheren, apothekers) zonder de term zelf
+
+Oplossingen (implementeer één):
+- [ ] **Merge korte aaneengesloten artikelen**: als consecutieve artikelen < 1500 chars zijn,
+  samenvoegen tot één chunk met gecombineerde ID (`art_458_458bis`).
+  Werkt goed voor SW-beroepsgeheim-serie (458 + 458bis + 458ter + 458quater ≈ 2000 chars).
+- [ ] **Context-window chunking**: voeg eerste N regels van het volgende artikel toe als
+  "lookahead-context" bij elk artikel-chunk. Behoudt stabiele chunk-IDs.
+- [ ] **Cross-document titelannotatie**: als chunk X in ander document verwijst naar
+  art. Y met een canonisch concept, voeg die term toe als prefix bij art. Y.
+
+Tijdelijke workaround (POC): Opus-subagent voegt art. 458 SW toe met
+`confidence: "inferred"` + `_notitie: "te verifiëren door mens"` als bronnen-retrieval
+het niet teruggeeft. CLAUDE.md regel 1 geldt — niet stilzwijgend invullen.
+
 ## ETL — tweetalige normen (blocker voor goede retrieval)
 
 Driver: bilingual ITAA-normen chunken slecht → grote gemengde NL+FR blobs → verwaterde embedding → lage bi-scores (~0.16–0.25) ook voor relevante passages.

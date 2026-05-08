@@ -7,7 +7,13 @@
       "rationale": "De kerntaak van dit blok is het vaststellen van een passend beleid voor de aanvaarding van klanten, wat een gestructureerde procedure vereist.",
       "gekoppeld_aan": "Taak: Een passend beleid voor de aanvaarding van klanten vaststellen",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "aanvaarding van cliënten",
+        "aanvaardingsprocedure",
+        "aanvaarden van een opdracht",
+        "beleid inzake aanvaarding"
+      ]
     },
     {
       "naam": "Risicoanalyse bij klantaanvaarding",
@@ -15,7 +21,13 @@
       "rationale": "De doelstelling 'een risicoanalyse uitvoeren' vereist een concrete methode om risico's verbonden aan een nieuwe of bestaande cliënt te beoordelen.",
       "gekoppeld_aan": "Doelstelling: Een risicoanalyse uitvoeren",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "individuele risicobeoordeling",
+        "algemene risicobeoordeling",
+        "risicobeoordeling cliënt",
+        "risico-inschatting"
+      ]
     },
     {
       "naam": "Cliëntenonderzoek (Know Your Customer)",
@@ -25,7 +37,14 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "waakzaamheidsverplichting",
+        "waakzaamheidsplichten",
+        "identificatie en verificatie",
+        "cliëntenonderzoek uitvoeren",
+        "due diligence"
+      ]
     },
     {
       "naam": "Interne procedures antiwitwas",
@@ -33,7 +52,14 @@
       "rationale": "De doelstelling 'interne procedures uitwerken' en de antiwitwaswetgeving vereisen dat het kantoor interne controleprocedures opstelt.",
       "gekoppeld_aan": "Doelstelling: Interne procedures uitwerken",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "interne controlemaatregelen",
+        "gedragslijnen en procedures",
+        "interne organisatie WG/FT",
+        "AMLCO",
+        "antiwitwasverantwoordelijke"
+      ]
     },
     {
       "naam": "Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI)",
@@ -43,7 +69,14 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "melding van vermoeden",
+        "verklaring van vermoeden",
+        "vermoeden van witwassen",
+        "informatie meedelen aan CFI",
+        "verdachte verrichting melden"
+      ]
     },
     {
       "naam": "Cel voor Financiële Informatieverwerking (CFI)",
@@ -51,7 +84,13 @@
       "rationale": "De CFI is de bevoegde autoriteit die meldingen ontvangt en verwerkt in het kader van de antiwitwaswetgeving, relevant voor de communicatieplicht van de accountant.",
       "gekoppeld_aan": "Doelstelling: Discreet en duidelijk communiceren met de autoriteiten",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "CTIF",
+        "financiële inlichtingeneenheid",
+        "FIU",
+        "Cel financiële informatie"
+      ]
     },
     {
       "naam": "Verbod op doormelding (tipping-off)",
@@ -61,7 +100,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "verbod tot mededeling",
+        "geheimhouding van melding",
+        "cliënt niet op de hoogte stellen",
+        "verbod om informatie aan cliënt te onthullen"
+      ]
     },
     {
       "naam": "Beroepsgeheim en professionele discretieplicht",
@@ -71,7 +116,14 @@
       "kenniselementen": [
         "4.0.I.D.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "geheimhouding",
+        "geheim toevertrouwd",
+        "discretieplicht",
+        "vertrouwelijkheid",
+        "geheimen die hun zijn toevertrouwd"
+      ]
     },
     {
       "naam": "Onafhankelijkheidsbeginsel",
@@ -81,7 +133,13 @@
       "kenniselementen": [
         "4.0.I.D.2"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "in volle onafhankelijkheid",
+        "vrij van elke band",
+        "objectiviteit",
+        "vrijwaring van de onafhankelijkheid"
+      ]
     },
     {
       "naam": "Onverenigbaarheden bij cliëntaanvaarding",
@@ -91,7 +149,13 @@
       "kenniselementen": [
         "4.0.I.C.5"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "onverenigbaar met de hoedanigheid",
+        "verboden activiteiten",
+        "uitoefening van het beroep belemmeren",
+        "onverenigbare functies"
+      ]
     },
     {
       "naam": "Basisprincipes beroepsdeontologie",
@@ -101,7 +165,14 @@
       "kenniselementen": [
         "4.0.I.D.1"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "fundamentele beginselen",
+        "integriteit en objectiviteit",
+        "professioneel gedrag",
+        "deskundigheid en zorgvuldigheid",
+        "deontologische plichten"
+      ]
     },
     {
       "naam": "Identificatie en verificatie van de cliënt",
@@ -111,7 +182,14 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "identiteit vaststellen",
+        "verificatie van de identiteit",
+        "identificatieplicht",
+        "bewijsstukken van identiteit",
+        "passend bewijs van identiteit"
+      ]
     },
     {
       "naam": "Uiteindelijk begunstigde (UBO)",
@@ -121,7 +199,14 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "uiteindelijke begunstigde",
+        "werkelijke eigenaar",
+        "reële begunstigde",
+        "natuurlijke persoon die uiteindelijk eigenaar is",
+        "UBO-register"
+      ]
     },
     {
       "naam": "Verhoogd risicoprofiel cliënt (PEP)",
@@ -131,7 +216,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "politiek prominente personen",
+        "PEP",
+        "personen met prominente publieke functie",
+        "naaste familieleden of bekenden van een PEP"
+      ]
     },
     {
       "naam": "Verscherpt cliëntenonderzoek",
@@ -141,7 +232,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "verhoogde waakzaamheid",
+        "bijkomende waakzaamheidsmaatregelen",
+        "aanvullende maatregelen bij hoog risico",
+        "enhanced due diligence"
+      ]
     },
     {
       "naam": "Vereenvoudigd cliëntenonderzoek",
@@ -151,7 +248,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "vereenvoudigde waakzaamheid",
+        "beperkte waakzaamheidsmaatregelen",
+        "laag risico",
+        "simplified due diligence"
+      ]
     },
     {
       "naam": "Risicogebaseerde aanpak (antiwitwas)",
@@ -161,7 +264,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "risicogebaseerde benadering",
+        "afgestemd op het risico",
+        "in verhouding tot het risico",
+        "rekening houdend met de aard en omvang van het risico"
+      ]
     },
     {
       "naam": "Beperking gebruik van contanten",
@@ -171,7 +280,13 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "betalingen in contanten",
+        "verbod op contante betalingen",
+        "beperking van betaling in speciën",
+        "drempel voor contant geld"
+      ]
     },
     {
       "naam": "Toezicht door het ITAA",
@@ -182,7 +297,13 @@
         "4.0.I.D.5",
         "4.0.I.D.9"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "Instituut van de Belastingadviseurs en de Accountants",
+        "kwaliteitstoetsing",
+        "toezichthoudende autoriteit",
+        "Raad van het Instituut"
+      ]
     },
     {
       "naam": "Beroepstucht en disciplinaire aansprakelijkheid",
@@ -192,7 +313,14 @@
       "kenniselementen": [
         "4.0.I.D.9"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "tuchtprocedure",
+        "tuchtrechtelijke sancties",
+        "tuchtcommissie",
+        "tuchtraad",
+        "disciplinaire maatregelen"
+      ]
     },
     {
       "naam": "Aansprakelijkheid van de accountant",
@@ -202,7 +330,13 @@
       "kenniselementen": [
         "4.0.I.D.8"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "burgerlijke aansprakelijkheid",
+        "beroepsaansprakelijkheid",
+        "verzekering burgerlijke beroepsaansprakelijkheid",
+        "schadevergoeding bij beroepsfout"
+      ]
     },
     {
       "naam": "Opdrachtbrief en dienstverleningsovereenkomst",
@@ -212,7 +346,14 @@
       "kenniselementen": [
         "4.0.I.D.3"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "schriftelijke overeenkomst",
+        "engagement letter",
+        "schriftelijke vastlegging van de opdracht",
+        "modaliteiten van de opdracht",
+        "norm opdrachtbrief"
+      ]
     },
     {
       "naam": "Overdracht van dossiers aan een confrater",
@@ -222,7 +363,13 @@
       "kenniselementen": [
         "4.0.I.D.4"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "opvolging van een confrater",
+        "vorige beroepsbeoefenaar",
+        "contact opnemen met de voorganger",
+        "overhandiging van het dossier"
+      ]
     },
     {
       "naam": "Voortdurende waakzaamheid ten aanzien van de cliëntrelatie",
@@ -232,7 +379,14 @@
       "kenniselementen": [
         "4.0.I.D.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "doorlopende waakzaamheid",
+        "permanente waakzaamheid",
+        "monitoring van de zakelijke relatie",
+        "opvolging van verrichtingen",
+        "blijvende waakzaamheidsplicht"
+      ]
     }
   ],
   "_provenance": {

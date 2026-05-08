@@ -116,6 +116,13 @@ def bouw_sub_queries(
     if rationale:
         queries.append(rationale)
 
+    # Niveau 5: LLM-gegenereerde synoniemen (query-time expansion)
+    # Overbrugt vocabulairekloven (bv. "beroepsgeheim" ≠ "geheimen die toevertrouwd")
+    for syn in vermoeden.get("synoniemen", []):
+        syn = syn.strip()
+        if syn:
+            queries.append(syn)
+
     return queries
 
 

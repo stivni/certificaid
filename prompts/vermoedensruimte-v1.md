@@ -41,6 +41,23 @@ Als geen enkel type past: gebruik `"node_type": "voorgesteld:<jouw-naam>"` en le
 - Afkortingen voluit: "Cel voor Financiële Informatieverwerking (CFI)" — niet "CFI"
 - Naam in het Nederlands, beknopt (3–7 woorden ideaal)
 
+## Synoniemen voor retrieval
+
+Voor elk vermoeden: 3–5 synoniemen of variant-formuleringen zoals ze in juridische
+bronteksten feitelijk verschijnen. De RAG-zoekmodule gebruikt deze als extra query's
+om bronnen te vinden waar de canonische term niet letterlijk staat.
+
+Bekende valkuil: juridische definities beschrijven een concept zonder de gangbare naam.
+Voorbeeld: Strafwetboek art. 458 beschrijft "beroepsgeheim" maar gebruikt die term
+zelf niet — het spreekt van "geheimen die hun zijn toevertrouwd". Zonder synoniem
+"geheim toevertrouwd" vindt de zoekmodule dat artikel niet.
+
+Richtlijnen:
+- Gebruik termen zoals ze in wetteksten/normen feitelijk verschijnen
+- Mix korte termen ("geheimhouding") en woordcombinaties ("geheim toevertrouwd")
+- Geen spellingsvarianten; wél synoniemen, parafraseringen, juridische omschrijvingen
+- Lege lijst is geldig wanneer de canonische naam zelf overal voorkomt
+
 ## Outputformaat
 
 Geef alleen geldig JSON terug, geen proza erbuiten. Formaat:
@@ -53,7 +70,8 @@ Geef alleen geldig JSON terug, geen proza erbuiten. Formaat:
       "naam": "<naam van het concept>",
       "node_type": "<type>",
       "rationale": "<één zin: waarom dit concept hier relevant is>",
-      "gekoppeld_aan": "<code van de taak, doelstelling of kenniselement die dit triggert>"
+      "gekoppeld_aan": "<code van de taak, doelstelling of kenniselement die dit triggert>",
+      "synoniemen": ["<variant 1>", "<variant 2>"]
     }
   ]
 }

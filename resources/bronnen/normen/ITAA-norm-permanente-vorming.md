@@ -27,11 +27,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Norm is inhoudelijk volledig (artikelen 1-15 + Bijlagen 1-2). Echter copyright-regel '© ITAA – Norm permanente vorming...' herhaalt 9x in body als paginavoet-artefact, plus kolom-bleed in tabel.
+    status: trusted
+    qa_version: qa-20260508-rerun
+    confirmed_at: '2026-05-08T07:36:23Z'
+    confirmed_by: subagent-sonnet-general-purpose
+    rationale: 'Inhoud volledig en goed gestructureerd: artikelen 1-15 elk als ## heading, bijlage 1 en 2 aanwezig. De tabel in bijlage 2 (regels 604-628) toont leesbaar de drie kolommen naast elkaar — RAG kan de JA/NEE-combinaties correct ophalen. Copyright-footer reeds verwijderd. Geen scrambled words, geen afgekapte zinnen.'
 ---
 
 # Norm ITAA - Permanente vorming - 12 2020

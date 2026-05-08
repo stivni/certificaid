@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Inhoudelijk compleet en leesbaar, maar de eerste pagina's bevatten een gebroken overweging-blok: de aanhef 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale' (regel 123-124) verschijnt als wees-fragment vóór het eerste ## heading."
+    status: trusted
+    qa_version: qa-20260508-rerun
+    confirmed_at: '2026-05-08T07:36:23Z'
+    confirmed_by: subagent-sonnet-general-purpose
+    rationale: 'Volledig lineair leesbaar: alle 10 secties en 4 bijlagen in correcte volgorde, geen scrambled woorden, geen kolom-bleed. Bijlage-koptitels verdeeld over twee regels maar cosmetisch en correct leesbaar voor RAG.'
 ---
 
 # Norm - 2020 03 31 - IAB - AWW

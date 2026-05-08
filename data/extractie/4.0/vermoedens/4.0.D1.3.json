@@ -9,7 +9,14 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "permanente vorming",
+        "voortgezette beroepsopleiding",
+        "bijscholing",
+        "norm permanente vorming",
+        "continuing professional development"
+      ]
     },
     {
       "naam": "Minimumuren permanente vorming per jaar",
@@ -19,7 +26,14 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "uren vorming per kalenderjaar",
+        "minimum aantal opleidingsuren",
+        "120 uur over drie jaar",
+        "vormingsuren",
+        "jaarlijks vereiste"
+      ]
     },
     {
       "naam": "Erkende opleidingsverstrekkers en accreditatie",
@@ -29,7 +43,13 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "erkende seminariegever",
+        "geaccrediteerde opleiding",
+        "erkenning door het Instituut",
+        "lijst van erkende opleidingen"
+      ]
     },
     {
       "naam": "Rapportering van vormingsactiviteiten aan het ITAA",
@@ -39,7 +59,13 @@
       "kenniselementen": [
         "4.0.I.D.5"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "registratie van gevolgde opleidingen",
+        "aangifte vormingsuren",
+        "jaarlijkse opgave",
+        "bewijs van vorming voorleggen"
+      ]
     },
     {
       "naam": "Sancties bij niet-naleving van de vormingsplicht",
@@ -49,7 +75,13 @@
       "kenniselementen": [
         "4.0.I.D.9"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "tuchtrechtelijke sanctie",
+        "waarschuwing of berisping",
+        "schorsing",
+        "schrapping van het tableau"
+      ]
     },
     {
       "naam": "Volgen van fiscale actualiteit",
@@ -57,7 +89,13 @@
       "rationale": "Het bijhouden van wijzigingen in fiscale wetgeving en rechtspraak is een expliciete doelstelling van dit taakblok die een actieve vaardigheid vereist.",
       "gekoppeld_aan": "Doelstelling: Volgen van de fiscale actualiteit",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "wijzigingen in de fiscale wetgeving",
+        "fiscale rechtspraak opvolgen",
+        "fiscale nieuwsbrieven",
+        "circulaires van de fiscus"
+      ]
     },
     {
       "naam": "Toepassing van wetswijzigingen in de praktijk",
@@ -65,7 +103,13 @@
       "rationale": "De accountant moet nieuwe wetgeving niet alleen kennen maar ook correct implementeren in zijn dossiers en adviezen.",
       "gekoppeld_aan": "Doelstelling: Toepassen van wijzigingen in de wetgeving",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "implementatie van nieuwe regelgeving",
+        "inwerkingtreding",
+        "overgangsbepalingen",
+        "praktische toepassing van wetswijziging"
+      ]
     },
     {
       "naam": "Kennisdeling met medewerkers en cliënten",
@@ -73,7 +117,13 @@
       "rationale": "Het taakblok vermeldt expliciet het delen van kennis met collega's en medewerkers van de klant als beroepsverplichting.",
       "gekoppeld_aan": "Doelstelling: Kennis delen met collega's en (medewerkers) van de klant",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "kennisoverdracht",
+        "informeren van medewerkers",
+        "vorming op de werkvloer",
+        "begeleiden van collega's"
+      ]
     },
     {
       "naam": "Interne opleiding en kennisbeheer in het kantoor",
@@ -81,7 +131,13 @@
       "rationale": "Systematische interne kennisoverdracht binnen een accountantskantoor is een praktische uitwerking van de kennisdelingsplicht.",
       "gekoppeld_aan": "Doelstelling: Kennis delen met collega's",
       "kenniselementen": [],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "intern kwaliteitsmanagement",
+        "kantoororganisatie",
+        "interne opleidingsplan",
+        "vormingsbeleid in het kantoor"
+      ]
     },
     {
       "naam": "Competentiebeginsel (vakbekwaamheid)",
@@ -91,7 +147,14 @@
       "kenniselementen": [
         "4.0.I.D.1"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "deskundigheid",
+        "bekwaamheid",
+        "vereiste kennis en ervaring",
+        "professionele competentie",
+        "opdrachten waarvoor men gekwalificeerd is"
+      ]
     },
     {
       "naam": "Zorgvuldigheidsbeginsel",
@@ -101,7 +164,13 @@
       "kenniselementen": [
         "4.0.I.D.1"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "zorgvuldig handelen",
+        "due care",
+        "professionele zorgvuldigheid",
+        "goede huisvader"
+      ]
     },
     {
       "naam": "Bronnen van beroepsnormen en juridische normen",
@@ -111,7 +180,14 @@
       "kenniselementen": [
         "4.0.I.B"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "Belgisch Staatsblad",
+        "ITAA-normen en aanbevelingen",
+        "wetgevingsbronnen",
+        "officiële publicaties",
+        "rechtsleer en rechtspraak"
+      ]
     },
     {
       "naam": "Rol en werking van het ITAA als beroepsinstituut",
@@ -121,7 +197,13 @@
       "kenniselementen": [
         "4.0.I.C.2"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "Instituut van de Belastingadviseurs en de Accountants",
+        "Raad van het Instituut",
+        "openbare instelling van het beroep",
+        "beroepsorganisatie"
+      ]
     },
     {
       "naam": "Categorieën van toegelaten vormingsactiviteiten",
@@ -131,7 +213,14 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "seminaries en colloquia",
+        "e-learning",
+        "publicaties van vakartikelen",
+        "lesgeven als doceeractiviteit",
+        "zelfstudie"
+      ]
     },
     {
       "naam": "Verhouding tussen technische en deontologische vorming",
@@ -141,7 +230,14 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "vorming inzake deontologie",
+        "ethiek en gedragscode",
+        "technische vakkennis",
+        "antiwitwasvorming",
+        "verplichte deontologie-uren"
+      ]
     },
     {
       "naam": "Toegang tot de hoedanigheid van gecertificeerd accountant",
@@ -151,7 +247,14 @@
       "kenniselementen": [
         "4.0.I.C.6"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "stage als accountant",
+        "bekwaamheidsexamen",
+        "inschrijving op het tableau",
+        "toelatingsvoorwaarden",
+        "stagiair-accountant"
+      ]
     },
     {
       "naam": "Bijhouden van een persoonlijk vormingsdossier",
@@ -161,7 +264,13 @@
       "kenniselementen": [
         "4.0.I.C.7"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "vormingsregister",
+        "individueel opleidingsdossier",
+        "attesten van deelname",
+        "bewijsstukken van bijscholing"
+      ]
     },
     {
       "naam": "Professionele scepticisme als permanente houding",
@@ -171,7 +280,13 @@
       "kenniselementen": [
         "4.0.I.D.1"
       ],
-      "schaal_signaal": ""
+      "schaal_signaal": "",
+      "synoniemen": [
+        "kritische ingesteldheid",
+        "professional skepticism",
+        "kritisch oordeelsvermogen",
+        "onderzoekende houding"
+      ]
     }
   ],
   "_provenance": {
