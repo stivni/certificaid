@@ -48,6 +48,18 @@ KNOWN_PDFS: dict[str, dict] = {
         "column_split": 400,
         "full_width_threshold": 400,
     },
+    "ITAA-norm-ontbinding-vereffening.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "beexcellent-ontbinding-vereffening.pdf",
+        "type": "vereisten",
+        "column_split": 400,
+        "full_width_threshold": 400,
+    },
+    "ITAA-norm-aww-geconsolideerd.md": {
+        "pdf": ROOT / "resources" / "raw" / "normen" / "beexcellent-416-aww-geconsolideerd.pdf",
+        "type": "vereisten",
+        "column_split": 300,
+        "full_width_threshold": 400,
+    },
 }  # Uitbreiding mogelijk: voeg hier andere twee-kolom PDFs toe met hun type-config
 
 NORMEN_DIR = ROOT / "resources" / "bronnen" / "normen"

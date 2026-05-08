@@ -28,11 +28,11 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Twee structurele ETL-problemen: (1) inhoudsopgave als platte tekst zonder ## headings; (2) scrambled woordvolgorde in artikelen 3.4, 3.5, 3.7, 4.9 door tweekolomige PDF-extractie. Inhoud is wel volledig.'
+    status: trusted
+    qa_version: qa-20260508-final
+    confirmed_at: '2026-05-08T08:41:50Z'
+    confirmed_by: subagent-sonnet-final-batch
+    rationale: "Beide fixes correct doorgevoerd: 'geconsolideerde' in §10 en c)/d) in Bijlage III §3°. Alle 10 hoofdstukken + 4 bijlagen volledig aanwezig. Bekende cosmetische issues (inhoudsopgave als platte tekst, §3.5 header aaneengeplakt) zijn niet nieuw en rechtvaardigen geen needs-rework."
 ---
 
 Geconsolideerde tekst door het Instituut van de
@@ -879,7 +879,7 @@ als AMLCO.
 
 De tekst van de norm van het IAB en de richtlijn
 van het BIBF – waarvan de draagwijdte in deze
-gesolideerde tekst is overgenomen – zijn in
+geconsolideerde tekst is overgenomen – zijn in
 werking getreden op de datum van publicatie op
 de website van het IAB en het BIBF.
 
@@ -974,9 +974,9 @@ aangemerkt als een land zonder effectieve WG/FT-systemen;
 b) landen die volgens geloofwaardige bronnen significante niveaus van corruptie of andere
 criminele activiteit hebben;
 
-a) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die
+c) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die
 bijvoorbeeld door de Europese Unie of de Verenigde Naties zijn uitgevaardigd;
-b) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of
+d) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of
 op het grondgebied waarvan als terroristisch aangemerkte organisaties actief zijn.
 
 ## Bijlage IV. Beslissingsbomen ter illustratie

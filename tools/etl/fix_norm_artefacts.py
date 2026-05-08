@@ -511,6 +511,11 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
     ],
 
     # Pas geëxtraheerd via extract_norm_twocolumn.py: TOC-stippels resterend
+    "ITAA-norm-ontbinding-vereffening.md": [
+        (strip_toc_dot_lines, {}),
+        (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
     "ITAA-norm-effectennorm.md": [
         (strip_toc_dot_lines, {}),
         (collapse_blank_runs, {"max_blanks": 2}),
@@ -578,6 +583,30 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
         # Verwijder het OPDRACHTBRIEF-titelpagina-blok + nummers-only TOC
         (remove_prefix_until, {"marker": "Alhoewel de verplichting"}),
         (collapse_blank_runs, {"max_blanks": 2}),
+    ],
+
+    "ITAA-norm-aww-geconsolideerd.md": [
+        # Typefout in §10: "gesolideerde" → "geconsolideerde"
+        (fix_specific_ocr, {
+            "pairs": [
+                ("gesolideerde tekst is overgenomen", "geconsolideerde tekst is overgenomen"),
+            ],
+        }),
+        # Bijlage III §3° geografische risicofactoren: c) en d) fout genummerd als a) en b)
+        (fix_specific_ocr, {
+            "pairs": [
+                (
+                    "a) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die\n"
+                    "bijvoorbeeld door de Europese Unie of de Verenigde Naties zijn uitgevaardigd;\n"
+                    "b) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of\n"
+                    "op het grondgebied waarvan als terroristisch aangemerkte organisaties actief zijn.",
+                    "c) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die\n"
+                    "bijvoorbeeld door de Europese Unie of de Verenigde Naties zijn uitgevaardigd;\n"
+                    "d) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of\n"
+                    "op het grondgebied waarvan als terroristisch aangemerkte organisaties actief zijn.",
+                ),
+            ],
+        }),
     ],
 
     "ITAA-norm-domiciliering.md": [
