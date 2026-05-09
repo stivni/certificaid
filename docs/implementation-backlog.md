@@ -36,36 +36,39 @@ Driver: ADR-006 §3 herzien — twee collections (`bronnen` + `concepten`) ipv v
 
 - [ ] **Eerst implementeren tegen huidige (3-collection) 4.0-POC-index**, dan testen of unified retrieval-API werkt door alle drie de bestaande collections te queryen alsof ze één waren. Pas daarna full rebuild naar één `bronnen`-collection.
 
-## Fase 3 (Concept-extractie) — nieuw
+## Fase 3 (Concept-extractie) — bron-first matching
 
-Driver: ADR-007 + ADR-008 herzien (build-pipeline = geen externe API; LLM-werk via
-Claude Code subagent in dev-omgeving).
+Driver: ADR-008 (bron-first matching, accepted 2026-05-09). Vermoedensruimte-pipeline
+verworpen na empirisch experiment op 2 PO's; zie ADR-008 §"Overwogen alternatief".
 
 **Modelkeuze**: extractie-subagent draait op **Claude Opus** (huidige versie: claude-opus-4-7).
-Zie ADR-008 §0 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is fine.
+Zie ADR-008 §2 voor argumentatie. Helper-scripts en code-onderhoud: Sonnet is fine.
 
-- [x] `tools/extractie/concept_extractor.py` — **strippen** van alle `anthropic`-aanroepen.
-  Behouden als deterministische helpers (laad vermoedens, build prompts, write records).
-  Geen sub-command structuur meer — orkestratie loopt via subagent.
-- [x] `tools/extractie/normalize_vermoedens.py` — leidt `kenniselementen: [code]` af uit
-  `gekoppeld_aan` + taakblok-context van bestaande vermoedens. Inconsistente input
-  ("Taak: ..." vs codes) wordt genormaliseerd. `kenniselementen: []` is geldig.
-  Voegt ook lege `schaal_signaal`-placeholder toe als het veld ontbreekt.
-  Alle 60 bestaande vermoedens (D1.1/D1.2/D1.3) genormaliseerd.
-- [x] `tools/extractie/retrieve_batch.py` — leest een vermoedens-JSON, doet 4-niveau
-  retrieval per vermoeden (programmaonderdeel + taakblok + kenniselementen + vermoeden),
-  één bge-m3 model-load voor alle queries. Output: JSON naar stdout met chunks per vermoeden.
-- [x] `tools/extractie/index_concept_incremental.py` — embed één concept-record en upsert
-  in `concepten` ChromaDB-collection. Aangeroepen door subagent na elke nieuwe seed-write.
-  Bevat ook `--duplicaat-check <naam>` voor live duplicate-check tijdens extractie.
-- [ ] `tools/extractie/queue.py` — dangling-edges → seed-queue (later, bij iteratieve runs)
-- [ ] `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen sync-script of cache op concepten zelf (ADR-002, ADR-007).
-- [x] Prompt-templates in `prompts/` — versioneerd; subagent leest deze + `concept-schrijfregels.md`
-  bij start van zijn run. Aanwezig: `vermoedensruimte-v1.md`, `seed-v1.md`,
-  `verdiep-v1.md`, `extractie-runbook-v1.md` (orkestratie voor Opus-subagent).
-- [ ] Open-types-review-queue: `data/concept_records/_voorgestelde_types.yaml` (auto-aangevuld)
-- [ ] Beslissingslog: `data/extractie/<po>/seed_log_<taakblok>.json` (subagent schrijft
-  kept/merged/rejected/split per vermoeden, met duplicate-check rerank-scores)
+**Pipeline-status**:
+- [x] Fase A: Anchor-verrijking — eenmalige LLM-call per PO via subagent met clean-prompt
+  (geen wetsverwijzingen). Output: `data/extractie/<po>/anchors/<po>-anchors.json` (gegit).
+  Twee PO's gedaan (4.0 Deontologie, 1.1 Algemene boekhouding).
+- [x] Fase B: Bron-first matching — `tools/extractie/match_bronnen.py`. Deterministisch,
+  `score >= max(floor=0.55, top1 - margin=0.15)`. Output: `data/extractie/<po>/matches/`.
+- [x] Fase C: Per-anchor concept-extractie — Opus-subagent verwerkt anchors sequentieel.
+  Bundle-export via `tools/extractie/export_bundle.py`.
+  Eén anchor per PO is ge-test; volledige PO-runs nog te doen.
+- [ ] Fase D: Verdieping per concept (status `partieel` → `gevuld`). Niet gestart.
+
+**Open implementatie-eisen** (zie ADR-008 §"Open implementatie-eisen"):
+- [ ] `tools/extractie/match_bronnen.py` moet `chunk_sha` uit ChromaDB-metadata
+  kopiëren naar concept-record `_provenance.<veld>.inputs[].sha256` (nu `null`).
+- [ ] `tools/etl/mark_stale.py` voor concepten bouwen (ADR-008 §10).
+- [ ] `tools/etl/remove_bron.py` Laag 2 omzetten naar `data/concept_records/**/_provenance.*.inputs[].id`.
+- [ ] Prompt-templates in `prompts/` voor concept-extractie (anchor-verrijking + per-anchor extractie).
+  Huidige extractie liep met ad-hoc subagent-prompts; productie-prompts moeten nog vastgelegd worden.
+- [ ] Programmaonderdeel-JSON tooling: nu handmatig geschreven (4.0, 1.1).
+  Mechanische extractie uit `programma.pdf` zou helpen voor de overige PO's.
+
+**Open ETL-revisies** (apart van ADR-008, zie ADR-008 "Open ETL-revisies"):
+- [ ] Definitielijst-chunking — centroïde-pathologie. Aparte ADR-006-revisie.
+- [ ] Art-familie chunking (458/bis/ter/quater, 1382-1384). Aparte ADR-006-revisie.
+- [ ] Chunk-rol-tagging (`definitie`/`intro`/`inhoudelijk`/`bijlage`). Aparte ADR-006-revisie.
 
 ## Fase 0 / cross-cutting — provenance uitbreiden
 

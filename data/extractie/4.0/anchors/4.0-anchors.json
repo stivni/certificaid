@@ -1,0 +1,684 @@
+{
+  "po": "4.0",
+  "generated_at": "2026-05-08T17:07:19.018580+00:00",
+  "source": "4.0-anchors-enriched.json",
+  "cleaning": "wetsartikel-vermeldingen mechanisch verwijderd",
+  "anchors": [
+    {
+      "anchor_id": "4.0.D1.1.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D1.1",
+      "tekst": "Een passend beleid voor de aanvaarding van klanten vaststellen",
+      "verbose": "Het opstellen van een formeel cliëntacceptatiebeleid waarin de gecertificeerd accountant de risico's van een nieuwe of bestaande cliëntrelatie systematisch beoordeelt vooraleer hij de opdracht aanvaardt of voortzet. Dit beleid omvat de identificatie en verificatie van de cliënt en zijn uiteindelijke begunstigden (UBO), de beoordeling van het witwasrisico via een risicogebaseerde benadering conform de, en de schriftelijke vastlegging in een opdrachtbrief overeenkomstig de ITAA-deontologische normen. Bij verhoogd risico geldt verscherpte waakzaamheid; bij onmogelijkheid tot cliëntenonderzoek wordt de relatie geweigerd of beëindigd.",
+      "synoniemen": [
+        "clientacceptatiebeleid",
+        "client onboarding",
+        "aanvaarding van cliënten",
+        "cliëntenonderzoek",
+        "due diligence cliënt",
+        "KYC-procedure",
+        "acceptatieprocedure"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.1.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.1",
+      "tekst": "Een risicoanalyse uitvoeren",
+      "verbose": "Het uitvoeren van een algemene risicobeoordeling op kantoorniveau en een individuele risicobeoordeling per cliëntrelatie, zoals opgelegd door de en het ITAA-procedurereglement. De risicoanalyse weegt cliënt-, geografische, product- en transactierisico's af om de mate van waakzaamheid te bepalen en past de risicogebaseerde benadering toe op witwassen, financiering van terrorisme en proliferatie. De resultaten worden gedocumenteerd, periodiek geactualiseerd en gebruikt om interne procedures, controles en opleidingen te kalibreren.",
+      "synoniemen": [
+        "algemene risicobeoordeling",
+        "risk assessment",
+        "individuele risicobeoordeling",
+        "risicogebaseerde benadering",
+        "witwasrisicoanalyse",
+        "klantrisicoprofiel"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.1.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.1",
+      "tekst": "Interne procedures uitwerken",
+      "verbose": "Het uitwerken en onderhouden van schriftelijke interne organisatie- en controleprocedures die de naleving van de, de en de ITAA-deontologische normen waarborgen. De procedures regelen onder meer cliëntenonderzoek, meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI), bewaarplicht, opleiding van medewerkers en de aanstelling van een antiwitwasverantwoordelijke (AMLCO). Ze worden afgestemd op de aard en omvang van het kantoor en zijn onderworpen aan de kwaliteitstoetsing van het ITAA.",
+      "synoniemen": [
+        "interne organisatieprocedures",
+        "internal controls",
+        "compliance-procedures",
+        "interne controleprocedures",
+        "kantoorprocedures",
+        "AML-procedures",
+        "deontologische procedures"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.1.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.1",
+      "tekst": "Discreet en duidelijk communiceren met de autoriteiten",
+      "verbose": "Het correct, tijdig en discreet informeren van toezichthoudende en gerechtelijke autoriteiten, in het bijzonder de Cel voor Financiële Informatieverwerking (CFI) bij vermoedens van witwassen of financiering van terrorisme. De accountant respecteert daarbij het tipping-off-verbod (verbod de cliënt of derden in te lichten over de melding) en de uitzonderingen op het beroepsgeheim die de wet voorziet voor meldingen aan de CFI, het ITAA en de gerechtelijke overheden.",
+      "synoniemen": [
+        "melding aan CFI",
+        "meldingsplicht witwassen",
+        "informatieverstrekking aan toezichthouder",
+        "communicatie met autoriteiten",
+        "tipping-off-verbod",
+        "vertrouwelijke melding"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.1.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.1",
+      "tekst": "De beroepsdeontologie naleven",
+      "verbose": "Het naleven van de fundamentele beroepsbeginselen die door de en het deontologisch reglement aan de gecertificeerd accountant en gecertificeerd belastingadviseur worden opgelegd: integriteit, objectiviteit, professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid en professioneel gedrag. De naleving wordt afgedwongen via de tuchtprocedure van het ITAA en de kwaliteitstoetsing.",
+      "synoniemen": [
+        "deontologische beginselen naleven",
+        "ethische gedragsregels",
+        "fundamentele beroepsbeginselen",
+        "professional ethics",
+        "ITAA-deontologie",
+        "code of ethics accountant"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.1.doel.5",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.1",
+      "tekst": "De antiwitwaswetgeving naleven",
+      "verbose": "Het naleven van de en haar uitvoeringsbesluiten, inclusief de EU-richtlijnen 2015/849 en 2018/843. Voor de gecertificeerd accountant als onderworpen entiteit betekent dit: identificatie en verificatie van cliënten en uiteindelijke begunstigden (UBO), doorlopende waakzaamheid op verrichtingen, melding van vermoedens aan de CFI, naleving van de bewaarplicht en van de beperking van het gebruik van contanten.",
+      "synoniemen": [
+        "AML compliance",
+        "wet 18 september 2017",
+        "voorkoming witwassen",
+        "anti-money laundering",
+        "AWW-naleving",
+        "preventie financiering terrorisme"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.2.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D1.2",
+      "tekst": "Zorgen voor een passende communicatie met de verschillende actoren in het kader van zijn opdracht",
+      "verbose": "Het organiseren van professionele, schriftelijk gedocumenteerde communicatie met alle stakeholders rond een opdracht: de cliënt, confraters bij opdrachtovername, banken, fiscale en sociale administraties, de CFI, rechtbanken en het ITAA. De communicatie respecteert het beroepsgeheim, de vertrouwelijkheid en de deontologische confraterniteitsregels (onder meer kennisgeving aan de voorganger bij opdrachtovername).",
+      "synoniemen": [
+        "professionele communicatie",
+        "stakeholdercommunicatie",
+        "communicatie met cliënt en derden",
+        "informatieverstrekking opdracht",
+        "confraternele kennisgeving"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.2.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.2",
+      "tekst": "Duidelijk en gepast communiceren met de klant (confraters, enz.)",
+      "verbose": "Het helder en passend communiceren met de cliënt en met confraters via opdrachtbrieven, voortgangsverslagen en eindverslagen. Bij opdrachtovername geldt de verplichte voorafgaande schriftelijke kennisgeving aan de voorganger conform de ITAA-norm inzake confraterniteit; bij beëindiging van de opdracht worden de werkdocumenten overgemaakt overeenkomstig de deontologische regels.",
+      "synoniemen": [
+        "communicatie met cliënt",
+        "confraternele kennisgeving",
+        "opdrachtovername-procedure",
+        "client communication",
+        "opdrachtbrief",
+        "letter of engagement"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.2.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.2",
+      "tekst": "Duidelijk en gepast communiceren met de verschillende belanghebbenden, zoals banken, belastingdiensten, de cel voor financiële informatieverwerking (antiwitwasbeleid), rechtbanken, enz.",
+      "verbose": "Het correct communiceren met externe belanghebbenden binnen de wettelijke en deontologische krijtlijnen: bankiers (in het kader van financieringsdossiers), de belastingadministratie (binnen de fiscale procedure en het beroepsgeheim), de Cel voor Financiële Informatieverwerking (meldingsplicht witwassen) en de rechterlijke macht (uitzonderingen op het beroepsgeheim, getuigenis, gerechtelijke opdrachten). Steeds met inachtneming van het beroepsgeheim van en de specifieke uitzonderingen die de en de voorzien.",
+      "synoniemen": [
+        "communicatie met derden",
+        "informatieverstrekking aan banken",
+        "communicatie met belastingadministratie",
+        "melding aan CFI",
+        "communicatie met rechtbank",
+        "external communication"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.2.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.2",
+      "tekst": "Vertrouwelijke informatie discreet behandelen",
+      "verbose": "Het zorgvuldig behandelen van vertrouwelijke cliëntinformatie overeenkomstig het beroepsgeheim van en de professionele discretieplicht uit de. Discretie omvat zowel de bescherming tegen externe openbaarmaking (geen gebruik in eigen voordeel of voordeel van derden) als interne maatregelen op kantoor (toegangscontrole, clean desk, IT-beveiliging) en het tipping-off-verbod bij meldingen aan de CFI.",
+      "synoniemen": [
+        "beroepsgeheim",
+        "discretieplicht",
+        "vertrouwelijkheidsverplichting",
+        "professional secrecy",
+        "confidentiality",
+        "geheimhoudingsplicht"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.2.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.2",
+      "tekst": "Termijnen in acht nemen",
+      "verbose": "Het tijdig naleven van wettelijke en contractuele termijnen die op de gecertificeerd accountant rusten: indieningstermijnen voor jaarrekeningen en aangiften, de termijnen van de meldingsplicht aan de CFI, deadlines in het tuchtprocedure-reglement van het ITAA en termijnen voor opdrachtovername en beëindiging van de opdracht. Het overschrijden van termijnen kan leiden tot beroepsaansprakelijkheid en tuchtsancties.",
+      "synoniemen": [
+        "wettelijke termijnen",
+        "indieningstermijnen",
+        "naleving deadlines",
+        "termijnenbeheer",
+        "verjaringstermijnen",
+        "deadline compliance"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.3.taak.1",
+      "anchor_type": "taak",
+      "taakblok": "4.0.D1.3",
+      "tekst": "Zijn deskundigheid voortdurend ontwikkelen",
+      "verbose": "Het permanent onderhouden en uitbreiden van de professionele bekwaamheid via de permanente vorming, een verplichting verankerd in de en in de ITAA-norm inzake permanente vorming. De gecertificeerd accountant moet jaarlijks een minimumaantal vormingsuren volgen, gespreid over kerndomeinen (boekhouden, fiscaliteit, recht, audit, deontologie, antiwitwas) en dit kunnen aantonen bij kwaliteitstoetsing.",
+      "synoniemen": [
+        "permanente vorming",
+        "continuous professional development",
+        "CPD",
+        "bijscholing",
+        "permanente beroepsopleiding",
+        "professionele bekwaamheid onderhouden",
+        "vormingsuren"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.3.doel.1",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.3",
+      "tekst": "Voortdurend bijscholen volgens de norm van permanente vorming",
+      "verbose": "Het volgen van vormingen en opleidingen overeenkomstig de ITAA-norm inzake permanente vorming, met een minimum aantal verplichte uren per kalenderjaar verdeeld over de kerngebieden van het beroep. De vormingen worden geregistreerd in het persoonlijk vormingsdossier en gestaafd met aanwezigheidsattesten; de naleving wordt door het ITAA gecontroleerd in het kader van de kwaliteitstoetsing.",
+      "synoniemen": [
+        "permanente vorming",
+        "norm permanente vorming",
+        "vormingsverplichting",
+        "bijscholing accountants",
+        "ITAA-vormingsuren",
+        "verplichte opleiding"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.3.doel.2",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.3",
+      "tekst": "Op de hoogte blijven van de ontwikkelingen ter zake",
+      "verbose": "Het actief opvolgen van wijzigingen in wetgeving, normen en jurisprudentie die het beroep raken: het Wetboek van Vennootschappen en Verenigingen, fiscale wetgeving, de, ITAA-normen en CBN-adviezen, alsook EU-richtlijnen en internationale standaarden (ISA, IFRS). Deze monitoring vormt een onderdeel van de zorgvuldigheidsplicht en de professionele bekwaamheidseis.",
+      "synoniemen": [
+        "actualiteitsmonitoring",
+        "wetgevingsupdates volgen",
+        "professional awareness",
+        "kennis up-to-date houden",
+        "normupdates",
+        "regulatory watch"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.3.doel.3",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.3",
+      "tekst": "Volgen van de fiscale actualiteit en andere relevante wetgeving en toepassen van wijzigingen in de wetgeving",
+      "verbose": "Het opvolgen van fiscale wijzigingen (WIB 92, BTW-wetboek, programmawetten, circulaires, rulings) en van overige relevante wetgeving (vennootschapsrecht, sociaal recht, antiwitwas) en het tijdig vertalen van die wijzigingen naar de praktijk in cliëntdossiers. Onderdeel van de professionele zorgvuldigheid en bekwaamheidsplicht uit de ITAA-deontologie.",
+      "synoniemen": [
+        "fiscale actualiteit",
+        "wetgevingsmonitoring",
+        "tax updates",
+        "implementatie wetswijzigingen",
+        "fiscale watch",
+        "WIB-wijzigingen volgen"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.D1.3.doel.4",
+      "anchor_type": "doelstelling",
+      "taakblok": "4.0.D1.3",
+      "tekst": "Kennis delen met collega's en (medewerkers) van de klant",
+      "verbose": "Het overdragen van kennis aan kantoormedewerkers en aan de cliëntorganisatie via interne opleidingen, vakliteratuur, casebespreking en mentoring. Deze kennisoverdracht is een vereiste voor een degelijke interne organisatie en kwaliteitsbeheersing van het kantoor en is opgenomen in de ITAA-norm inzake intern kwaliteitsmanagement.",
+      "synoniemen": [
+        "kennisoverdracht",
+        "interne opleidingen",
+        "knowledge sharing",
+        "mentoring medewerkers",
+        "kantooropleiding",
+        "kwaliteitsbeheersing"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.A",
+      "anchor_type": "kenniselement",
+      "tekst": "Gereglementeerde economische beroepen",
+      "verbose": "De gereglementeerde economische beroepen zijn beroepen waarvoor de toegang en uitoefening wettelijk worden geregeld omwille van het algemeen belang. In België omvat dit de gecertificeerd accountant, gecertificeerd belastingadviseur, bedrijfsrevisor (IBR) en, vóór de fusie van 2019, ook de erkende boekhouder en boekhouder-fiscalist. Toegang vereist een diploma, stage en bekwaamheidsexamen; de uitoefening is onderworpen aan deontologie, tuchtrecht en wettelijk monopolie op bepaalde opdrachten.",
+      "synoniemen": [
+        "gereglementeerd beroep",
+        "regulated profession",
+        "wettelijk gereglementeerd beroep",
+        "economische beroepen",
+        "vrij beroep met monopolie",
+        "titelbescherming"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.B",
+      "anchor_type": "kenniselement",
+      "tekst": "Bronnen van juridische en beroepsnormen met betrekking tot de gereglementeerde economische beroepen",
+      "verbose": "De rechtsbronnen die de gecertificeerd accountant en belastingadviseur beheersen omvatten: Belgische wetgeving (, ), uitvoeringsbesluiten, EU-richtlijnen (onder meer 2015/849 en 2018/843 inzake antiwitwas), ITAA-normen en deontologisch reglement, CBN-adviezen, internationale standaarden (ISA, ISAE, ISRS) en de tuchtrechtspraak. Samen vormen zij het normatief kader waaraan de beroepsuitoefening getoetst wordt.",
+      "synoniemen": [
+        "rechtsbronnen accountantsberoep",
+        "normhiërarchie",
+        "ITAA-normen",
+        "deontologisch reglement",
+        "wettelijk kader beroep",
+        "regelgevingskader"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C",
+      "anchor_type": "kenniselement",
+      "tekst": "Organisatie van de uitoefening van de activiteiten van gecertificeerd belastingadviseur en van gecertificeerd accountant op basis van de wet van 17 maart 2019",
+      "verbose": "De betreffende de beroepen van accountant en belastingadviseur regelt de organisatie van het beroep: titels, monopolie-opdrachten, vormen van uitoefening (natuurlijke persoon, vennootschap), onverenigbaarheden, toegang, stage en permanente vorming. Zij vervangt de oude wetten van 1953 en 1999 en heeft het IAB en BIBF gefuseerd tot het ITAA.",
+      "synoniemen": [
+        "wet 17 maart 2019",
+        "organisatie accountantsberoep",
+        "wettelijke organisatie ITAA",
+        "fusie IAB-BIBF",
+        "beroepsorganisatie accountants"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Specifieke wettelijke en reglementaire bepalingen",
+      "verbose": "De specifieke wetgeving voor het ITAA-beroep omvat de met haar uitvoeringsbesluiten (KB's inzake stage, examen, deontologie, kwaliteitstoetsing) alsook de door de Raad van het ITAA vastgestelde normen en het deontologisch reglement. Deze bepalingen vormen samen het lex specialis dat de algemene regels van het ondernemingsrecht aanvult.",
+      "synoniemen": [
+        "wettelijke bepalingen ITAA",
+        "ITAA-reglementen",
+        "specifieke regelgeving accountant",
+        "lex specialis"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (IBA)",
+      "verbose": "Het Instituut van de Belastingadviseurs en de Accountants — beter bekend als het ITAA (Institute for Tax Advisors and Accountants) — is een publiekrechtelijke beroepsorganisatie opgericht door de door fusie van het IAB en het BIBF. Het ITAA staat in voor het bijhouden van het ledenregister, de stage, de bekwaamheidsexamens, de permanente vorming, de kwaliteitstoetsing, de tuchtprocedure en de uitvaardiging van normen en deontologische regels.",
+      "synoniemen": [
+        "ITAA",
+        "Institute for Tax Advisors and Accountants",
+        "IBA",
+        "beroepsinstituut accountants",
+        "IAB-BIBF-fusie",
+        "publiekrechtelijke beroepsorganisatie"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Opdrachten en activiteiten",
+      "verbose": "De gecertificeerd accountant heeft een wettelijk monopolie op een aantal opdrachten zoals omschreven oekhoudingen voor derden, het opstellen en analyseren van jaarrekeningen, fiscale aangiften en bijstand bij fiscale procedures (gedeelde bevoegdheid met de gecertificeerd belastingadviseur). Daarnaast verricht hij niet-monopolie-opdrachten zoals advies, due diligence en interne controle.",
+      "synoniemen": [
+        "wettelijk monopolie accountant",
+        "voorbehouden opdrachten",
+        "monopolie-opdrachten ITAA",
+        "boekhoudkundige opdrachten",
+        "fiscale opdrachten"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 1
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Vormen van uitoefening van activiteiten",
+      "verbose": "De gecertificeerd accountant kan zijn beroep uitoefenen als natuurlijk persoon of via een door het ITAA erkende vennootschap. De en het uitvoeringsbesluit leggen voorwaarden op aan de erkende vennootschap: meerderheid van stemrechten en kapitaal in handen van ITAA-leden of confraters uit gelijkaardige beroepen, beperkingen op nevenactiviteiten, verplichte beroepsaansprakelijkheidsverzekering en respect voor onverenigbaarheden.",
+      "synoniemen": [
+        "uitoefening als vennootschap",
+        "erkende beroepsvennootschap",
+        "professionele vennootschap",
+        "vorm van beroepsuitoefening",
+        "rechtsvorm uitoefening",
+        "samenwerkingsverband accountants"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Onverenigbaarheden",
+      "verbose": "De en het deontologisch reglement bepalen welke activiteiten onverenigbaar zijn met de hoedanigheid van gecertificeerd accountant of belastingadviseur, om de onafhankelijkheid en waardigheid van het beroep te vrijwaren. Onverenigbaar zijn onder meer: handelsactiviteiten, mandaten als bestuurder van een handelsvennootschap waar de accountant ook de boekhouding voert, en activiteiten die strijdig zijn met de objectiviteit. Bepaalde onverenigbaarheden zijn absoluut, andere relatief (mits voorafgaande toelating van het ITAA).",
+      "synoniemen": [
+        "onverenigbaarheden accountant",
+        "incompatibilities",
+        "verboden nevenactiviteiten",
+        "absolute onverenigbaarheid",
+        "relatieve onverenigbaarheid",
+        "toelating ITAA nevenactiviteit"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Toegang tot de hoedanigheid van gecertificeerd belastingadviseur en van gecertificeerd accountant",
+      "verbose": "De toegang tot de titels van gecertificeerd accountant en gecertificeerd belastingadviseur vereist een masterdiploma of gelijkgesteld, het volgen van een driejarige stage onder een stagemeester-ITAA-lid, het slagen voor het toelatingsexamen, het bekwaamheidsexamen en de eedaflegging. De voorwaarden zijn vastgelegd in de en het Stage-uitvoeringsbesluit; de procedure wordt beheerd door de Stagecommissie van het ITAA.",
+      "synoniemen": [
+        "toegang tot het beroep",
+        "stage ITAA",
+        "bekwaamheidsexamen",
+        "toelatingsexamen",
+        "diplomavereisten accountant",
+        "eedaflegging accountant",
+        "stagiair-accountant"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.C.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Permanente beroepsopleiding",
+      "verbose": "De permanente beroepsopleiding is een wettelijke verplichting voor elk ITAA-lid, geregeld door de norm inzake permanente vorming. Leden moeten jaarlijks een minimumaantal uren effectieve vorming volgen, evenwichtig verspreid over de kerndomeinen van het beroep (boekhouding, fiscaliteit, recht, deontologie, antiwitwas, audit). De vormingsuren worden geregistreerd in een persoonlijk vormingsdossier; niet-naleving leidt tot tuchtsancties.",
+      "synoniemen": [
+        "permanente vorming",
+        "norm permanente vorming ITAA",
+        "CPD",
+        "vormingsverplichting",
+        "continue professionele ontwikkeling",
+        "vormingsuren accountant"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D",
+      "anchor_type": "kenniselement",
+      "tekst": "Juridische en beroepsnormen",
+      "verbose": "De juridische en beroepsnormen omvatten het geheel van regels die het gedrag van de gecertificeerd accountant en belastingadviseur sturen: de fundamentele beroepsbeginselen (integriteit, objectiviteit, onafhankelijkheid, vertrouwelijkheid, professioneel gedrag, bekwaamheid en zorgvuldigheid), de specifieke regels rond cliëntrelaties, confraternele betrekkingen, antiwitwas, beroepsgeheim, aansprakelijkheid en tuchtrecht. De handhaving gebeurt via tuchtprocedure en kwaliteitstoetsing van het ITAA.",
+      "synoniemen": [
+        "beroepsnormen ITAA",
+        "deontologisch reglement",
+        "professional standards",
+        "ethische normen accountant",
+        "ITAA-deontologie",
+        "code of ethics"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.1",
+      "anchor_type": "kenniselement",
+      "tekst": "Basisprincipes",
+      "verbose": "De fundamentele beroepsbeginselen, onder de juridische en beroepsnormen die op de gecertificeerd accountant rusten, zijn afgeleid van de IFAC Code of Ethics en omvatten: integriteit (eerlijk en oprecht handelen), objectiviteit (geen vooringenomenheid of ongepaste invloed), professionele bekwaamheid en zorgvuldigheid, vertrouwelijkheid (beroepsgeheim) en professioneel gedrag (naleving van wet en reglementering). Deze beginselen zijn verankerd in de en het deontologisch reglement.",
+      "synoniemen": [
+        "fundamentele beroepsbeginselen",
+        "deontologische basisprincipes",
+        "integriteit",
+        "objectiviteit",
+        "vertrouwelijkheid",
+        "professioneel gedrag",
+        "IFAC-beginselen"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.2",
+      "anchor_type": "kenniselement",
+      "tekst": "Onafhankelijkheid",
+      "verbose": "Het onafhankelijkheidsbeginsel, een onderdeel van de juridische en beroepsnormen, vereist dat de gecertificeerd accountant zijn opdracht uitvoert zonder belangenconflict of ongepaste beïnvloeding, zowel in feite (onafhankelijkheid in mind) als in schijn (onafhankelijkheid in appearance). Bedreigingen omvatten zelftoetsings-, eigenbelang-, vertrouwdheids-, belangenbehartigings- en intimidatie-bedreigingen. De accountant moet voorzorgsmaatregelen treffen of de opdracht weigeren wanneer de bedreigingen niet kunnen worden weggenomen.",
+      "synoniemen": [
+        "onafhankelijkheid accountant",
+        "independence",
+        "belangenconflict",
+        "conflict of interest",
+        "objectiviteit",
+        "self-review threat",
+        "voorzorgsmaatregelen onafhankelijkheid"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.3",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met cliënten",
+      "verbose": "De relaties met cliënten, een onderdeel van de juridische en beroepsnormen, worden geregeld door de regels inzake cliëntacceptatie, opdrachtbrief, ereloon, beëindiging van de opdracht en beheer van belangenconflicten. Elke nieuwe opdracht vereist een schriftelijke opdrachtbrief die de draagwijdte, de aansprakelijkheid en de financiële voorwaarden vastlegt. Beëindiging gebeurt overeenkomstig de deontologische regels (vooropzeg, overdracht van werkdocumenten).",
+      "synoniemen": [
+        "cliëntrelatie",
+        "opdrachtbrief",
+        "letter of engagement",
+        "cliëntacceptatie",
+        "beëindiging opdracht",
+        "ereloonregeling",
+        "belangenconflict cliënt"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.4",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met confraters",
+      "verbose": "De confraternele betrekkingen, een onderdeel van de juridische en beroepsnormen, vereisen wederzijds respect, loyaliteit en collegialiteit tussen ITAA-leden. Bij opdrachtovername is de overnemer verplicht voorafgaand de voorganger schriftelijk te verwittigen en kennis te nemen van eventuele bezwaren; openstaande erelonen worden ter sprake gebracht. Reclame en cliëntwerving moeten waardig en niet-misleidend zijn.",
+      "synoniemen": [
+        "confraterniteit",
+        "relaties met confraters",
+        "opdrachtovername",
+        "kennisgeving voorganger",
+        "collegialiteit accountants",
+        "professional courtesy",
+        "afwerving cliënten"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.5",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met het ITAA",
+      "verbose": "De relaties met het ITAA, een onderdeel van de juridische en beroepsnormen, omvatten de rapporterings- en samenwerkingsverplichtingen van het lid tegenover zijn beroepsorganisatie: betaling van bijdragen, registratie van vormingsuren, medewerking aan de kwaliteitstoetsing, beantwoording van vragen van de Raad of de Tuchtcommissie. Niet-naleving leidt tot tuchtsancties gaande van waarschuwing tot schrapping.",
+      "synoniemen": [
+        "relatie met ITAA",
+        "kwaliteitstoetsing",
+        "quality review",
+        "medewerking ITAA",
+        "tuchtprocedure ITAA",
+        "rapporteringsverplichtingen lid"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.6",
+      "anchor_type": "kenniselement",
+      "tekst": "Relaties met derden (met inbegrip van de verplichtingen die voortvloeien uit het preventieve luik van de wetgeving inzake de voorkoming van het witwassen van geld en de financiering van terrorisme en inzake de beperking van het gebruik van contanten)",
+      "verbose": "De relaties met derden, een onderdeel van de juridische en beroepsnormen, omvatten de verplichtingen uit de die de gecertificeerd accountant als onderworpen entiteit aanwijst. Concrete verplichtingen: cliëntenonderzoek (identificatie en verificatie van cliënt en uiteindelijke begunstigde — UBO), risicogebaseerde benadering, verscherpte waakzaamheid bij politiek prominente personen (PEP), aanstelling van een antiwitwasverantwoordelijke (AMLCO), interne organisatie- en controleprocedures, algemene risicobeoordeling op kantoorniveau, meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI), tipping-off-verbod, bewaarplicht van zeven of tien jaar en respect voor de beperking van het gebruik van contanten (drempel 3.000 EUR conform de wet).",
+      "synoniemen": [
+        "antiwitwasverplichtingen",
+        "AML obligations",
+        "cliëntenonderzoek KYC",
+        "UBO-identificatie",
+        "meldingsplicht CFI",
+        "tipping-off",
+        "risicogebaseerde benadering",
+        "AMLCO",
+        "beperking contanten",
+        "verscherpte waakzaamheid PEP",
+        "bewaarplicht antiwitwas"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.7",
+      "anchor_type": "kenniselement",
+      "tekst": "Beroepsgeheim en professionele discretieplicht",
+      "verbose": "Het beroepsgeheim, een onderdeel van de juridische en beroepsnormen, is voor de gecertificeerd accountant; schending is strafrechtelijk gesanctioneerd. Het beslaat alle vertrouwelijke informatie verkregen in het kader van de opdracht. De wet voorziet uitdrukkelijke uitzonderingen: meldingen aan de CFI in het kader van de antiwitwaswetgeving, getuigenis voor de rechter, mededeling aan tuchtorganen van het ITAA, fiscale aangifteplicht in eigen naam en wettelijk verplichte mededeling aan de gerechtelijke overheden. Naast het beroepsgeheim sensu stricto geldt een ruimere discretieplicht voor niet-geheime maar vertrouwelijke gegevens.",
+      "synoniemen": [
+        "beroepsgeheim accountant",
+        "professional secrecy",
+        "discretieplicht",
+        "uitzonderingen beroepsgeheim",
+        "tipping-off-verbod",
+        "geheimhoudingsplicht ITAA"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 2
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.8",
+      "anchor_type": "kenniselement",
+      "tekst": "Aansprakelijkheid",
+      "verbose": "De beroepsaansprakelijkheid, een onderdeel van de juridische en beroepsnormen, omvat de contractuele aansprakelijkheid jegens de cliënt en de buitencontractuele aansprakelijkheid jegens derden. De draagwijdte wordt afgebakend in de opdrachtbrief; een beroepsaansprakelijkheidsverzekering is wettelijk verplicht voor erkende beroepsvennootschappen onder de. Strafrechtelijke en tuchtrechtelijke aansprakelijkheid vormen aparte sporen.",
+      "synoniemen": [
+        "beroepsaansprakelijkheid",
+        "professional liability",
+        "contractuele aansprakelijkheid",
+        "buitencontractuele aansprakelijkheid",
+        "BA-verzekering accountant",
+        "beroepsaansprakelijkheidsverzekering",
+        "schadevergoeding cliënt"
+      ],
+      "_clean_meta": {
+        "verbose_changed": true,
+        "syns_dropped": 0
+      }
+    },
+    {
+      "anchor_id": "4.0.I.D.9",
+      "anchor_type": "kenniselement",
+      "tekst": "Toezicht en beroepstucht",
+      "verbose": "Het toezicht en de beroepstucht, een onderdeel van de juridische en beroepsnormen, worden uitgeoefend door het ITAA via twee sporen: de kwaliteitstoetsing (peer review op de naleving van normen door het kantoor) en de tuchtprocedure (Tuchtcommissie en Commissie van Beroep). Tuchtsancties variëren van waarschuwing en berisping tot schorsing en schrapping; tegen tuchtbeslissingen staat cassatieberoep open bij het Hof van Cassatie. Inbreuken kunnen ook strafrechtelijk worden vervolgd.",
+      "synoniemen": [
+        "beroepstucht",
+        "tuchtprocedure ITAA",
+        "kwaliteitstoetsing",
+        "quality review",
+        "tuchtsancties",
+        "Tuchtcommissie",
+        "Commissie van Beroep",
+        "schrapping ledenregister",
+        "peer review"
+      ],
+      "_clean_meta": {
+        "verbose_changed": false,
+        "syns_dropped": 0
+      }
+    }
+  ]
+}

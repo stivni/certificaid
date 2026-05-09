@@ -22,7 +22,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-005](ADR-005-bronnen-etl.md) | Bronnen-ETL | Draft |
 | [ADR-006](ADR-006-rag-strategie.md) | RAG-strategie (bronnen + concepten) | Draft |
 | [ADR-007](ADR-007-conceptmodel.md) | Conceptmodel | Draft |
-| [ADR-008](ADR-008-concept-extractie.md) | Concept-extractie | Draft |
+| [ADR-008](ADR-008-concept-extractie.md) | Concept-extractie via bron-first matching | Accepted |
 | [ADR-009](ADR-009-examenpatronen.md) | Examenpatronen (parallelle observatielaag) | Draft |
 | [ADR-010](ADR-010-leermateriaal-tutor.md) | Leermateriaal & tutor | Draft |
 | [ADR-018](ADR-018-embedding-daemon.md) | Embedding-daemon voor concept-extractie | Draft |

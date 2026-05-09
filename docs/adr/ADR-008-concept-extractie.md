@@ -1,278 +1,160 @@
-# ADR-008: Concept-extractie
+# ADR-008: Concept-extractie via bron-first matching
 
-**Status**: Draft
-**Datum**: 2026-05-07 · **Bijgewerkt**: 2026-05-08 (twee revisies — eerst: geen-API-tijdens-build, kenniselement-gestuurde retrieval, live duplicate-check, variabel record-aantal. Daarna: bi-only retrieval als default, PO-niveau batching, just-in-time chunk loading, synoniem-via-LLM, embedding-daemon integratie)
+**Status**: Accepted
+**Datum**: 2026-05-09
+**Empirisch onderbouwd op**: PO 4.0 Deontologie, PO 1.1 Algemene boekhouding
 
 ## Context
 
-Concepten ontstaan niet vanzelf. Drie ingangen leveren materiaal, en geen van de drie alleen volstaat:
+Concepten ontstaan niet vanzelf. Drie ingangen leveren materiaal:
 
-- **Het examenprogramma** zegt *welke* concepten nodig zijn (scope), niet *wat* ze inhouden. Belangrijk: niet alleen kenniselementen leveren input — ook **taken** (wat de accountant doet) en **doelstellingen** (wat hij moet kunnen). Alleen kenniselementen indexeren laat de procedurele kant onbelicht.
-- **Bronnen** leveren juridische inhoud, maar niet alle bronnen zijn even gezagsvol en niet alle relevante kennis staat letterlijk in een artikel.
-- **Voorbeeldexamens** tonen de toetsings-realiteit (welke diepte, welke uitzonderingen worden bevraagd), maar als je extractie alleen daarop baseert loop je met oogkleppen — je dekt enkel wat eerder gevraagd werd.
+- **Het examenprogramma** zegt *welke* concepten nodig zijn (scope) via taken, doelstellingen en kenniselementen — niet *wat* ze inhouden.
+- **Bronnen** (wetteksten, ITAA-normen, CBN-adviezen) leveren juridische inhoud.
+- **Voorbeeldexamens** tonen de toetsings-realiteit, maar zijn pas in Fase 5 als validatie-instrument inzetbaar (anti-oogkleppen-regel: extractie alleen op examens biedt circulaire bias).
 
-Daarom: programma-gestuurd + bron-gestuurd in Fase 3 (initiële conceptenset), examen-gestuurd pas in Fase 5 (validatie + gerichte bijbouw). Iteratief proces dat het schema kan laten evolueren wanneer nieuw soort kennis niet past.
+De vraag is hoe je deze drie ingangen koppelt. Twee aanpakken zijn overwogen.
+
+### Overwogen alternatief: vermoedensruimte (verworpen)
+
+De aanvankelijke aanpak was *"LLM raadt eerst, dan zoeken we"*:
+
+1. LLM genereert 50–150 vermoedens per programmaonderdeel op basis van taken/doelstellingen/kenniselementen
+2. Per vermoeden multi-level retrieval over de bronnen-collection
+3. Per vermoeden seed-record-extractie door LLM
+4. Verdieping per concept iteratief
+
+**Waarom verworpen**:
+- **Drie zwakke schakels op een rij**: LLM kan vermoedens missen of er bedenken die niet in bronnen staan; retrieval kan slechte chunks ophalen; concept-bouw is afhankelijk van wat in stap 2 toevallig opdook.
+- **Niet reproduceerbaar**: vermoedensruimte verschilt per LLM-run, fundamentele determinisme-tekort.
+- **Geen dekking-garantie**: bronmateriaal dat geen vermoeden raakt valt door de mazen.
+- **Niet compositioneel bij bron-update**: een nieuwe bron forceert hervraging van alle vermoedens of accepteert staleness.
+- **LLM-creativiteit op de verkeerde plek**: de LLM moet vragen *"wat zou er kunnen bestaan?"* in plaats van *"wat staat hier?"*. Eerste vraag nodigt hallucinatie uit.
+- **Twee dure LLM-passes** (vermoedensruimte + seed) waar één had volstaan.
+
+### Aanvaarde aanpak: bron-first matching
+
+Het experiment in mei 2026 (zie git-history van branch `experiment-bron-first-extractie`, samengevat in deze ADR) toont dat de vermoedensruimte-fase volledig vervangbaar is door **deterministische similarity-matching** tussen bron-chunks en TDK-anchors (taken/doelstellingen/kenniselementen). Dat verschuift de pipeline van *"LLM raadt eerst"* naar *"we zoeken eerst, LLM extraheert gegrond"*.
 
 ## Beslissing
 
-### 0. Geen externe LLM-API tijdens build-pipeline
-
-Alle LLM-werk in de extractie-pipeline (vermoedensruimte / seed / verdiep / bron-driven) gebeurt **lokaal via een Claude Code subagent** in de dev-omgeving. Geen `anthropic.Anthropic()`-calls vanuit build-tooling.
-
-Alleen de **gedeployde tutor** mag op runtime de Anthropic API aanroepen — dat is een productie-eindpunt, geen build-stap.
-
-Concreet voor build-tooling:
-- Helper-scripts in `tools/extractie/` doen **deterministisch werk** (vermoedens laden, retrieval orkestreren, JSON wegschrijven, Chroma-collection updaten)
-- Geen LLM-calls in deze scripts; geen `anthropic` import
-- LLM-synthese gebeurt door een Claude Code subagent die deze helpers via Bash-tool aanroept
-
-Dit aligneert met CLAUDE.md regel 3 (geen API voor batch-extractie zonder akkoord) — voor de build-pipeline is de regel verscherpt naar "nooit", omdat alle output meegedeployed wordt.
-
-#### Modelkeuze voor de subagent: Opus
-
-De extractie-subagent draait op **Claude Opus** (huidige versie: claude-opus-4-7). Argumenten:
-
-- **Hoge leverage**: één goed seed-record bespaart 10× zoveel mens-curatie. Slechte seeds vervuilen de hele kennisbank stroomafwaarts.
-- **Multi-criteria reasoning**: per vermoeden moet de agent simultaan beslissen over relevantie (rerank-score-interpretatie), duplicate-check (semantische overlap met bestaande concepten), granulariteit (klein/middel/groot per schrijfregels), node-type-keuze, kenniselement-koppeling, en eventueel split/merge. Deze gelaagde beslisruimte rechtvaardigt het sterkste model.
-- **Synthese-kwaliteit**: hoofdtekst-velden worden in simpele Nederlandse taal herschreven uit juridische brontekst, met behoud van precisie + confidence-labels + bronverwijzingen. Vereist sterke taalbeheersing en domeinaanvoelen.
-- **Decisielog**: kept/merged/rejected/split-redeneringen zijn input voor mens-curatie; ze moeten transparant en consistent zijn.
-
-Sonnet/Haiku zijn ongeschikt voor extractie-werk — wel voor helper-script implementatie en routine codewijzigingen.
-
-Provenance-veld: `tooling.model = "claude-opus-4-7"` op elk concept-record dat door deze pipeline geproduceerd is.
-
-### 1. Drie ingangen, gefaseerd ingezet
-
-| Ingang | Vraag | Wanneer | Werkwijze |
-|---|---|---|---|
-| **Programma-gestuurd** | Welke concepten dekken dit taakblok / kenniselement? | Fase 3 | Vermoedensruimte → multi-level retrieval → seed-records → verdieping |
-| **Bron-gestuurd** | Welke fenomenen zitten in deze bron die we nog niet hebben? | Fase 3 (parallel) | Iteratieve scan van bron-MD's met concept-spotting prompt |
-| **Examen-gestuurd** | Welke concepten waren nodig om deze vraag op te lossen? Wat ontbreekt nog? | **Fase 5 cross-cutting** | Voorbeeldexamen-vraag oplossen met huidige conceptenset → gat = uitbreiding |
-
-**Waarom examen-driven naar Fase 5**: het is niet zinvol om examenvragen als extractie-input te gebruiken voordat een werkende basis-conceptenset bestaat. Anders ontstaat circulaire bias ("ik maak concepten zodat dít examen oplosbaar is" ≠ "ik maak concepten zodat de student het domein begrijpt en daarmee elk examen aankan"). In Fase 5 wordt examen-driven een **validator** ("kan de huidige conceptenset deze vraag oplossen?") en pas bij gaps een gerichte extra extractie-input.
-
-### 2. Programma-gestuurde extractie — vier fases
+### 1. Pipeline
 
 ```
-A. Vermoedensruimte genereren (LLM, geen retrieval)
+A. Anchor-verrijking (LLM, eenmalig per PO, gegit)
    ↓
-B. Multi-level retrieval per vermoeden
+B. Bron-first matching (deterministisch)
    ↓
-C. Seed-records bouwen (LLM-synthese)
+C. Per-anchor concept-extractie (LLM, één Opus-sessie per PO)
    ↓
 D. Verdieping per concept (iteratief)
 ```
 
-#### A. Vermoedensruimte — op programmaonderdeel-niveau
+### 2. Geen externe LLM-API tijdens build-pipeline
 
-Vermoedensruimte werkt op **PO-niveau, niet per taakblok**. Reden: concept = fenomeen, vakoverschrijdend is regel (ADR-007 designprincipe 1). Een vermoeden zoals "beroepsgeheim" hoort bij heel deontologie, niet bij D1.1 of D1.2 apart. Splitsen per taakblok zou dezelfde vermoedens 2-3× laten verschijnen, met merge-werk downstream.
+Alle LLM-werk in de extractie-pipeline gebeurt **lokaal via een Claude Code subagent** in dev-omgeving. Geen `anthropic.Anthropic()`-calls vanuit build-tooling.
 
-Subagent (in Claude Code) krijgt:
-- Programmaonderdeel-titel + parent-context
-- **Heel programmaonderdeel**: alle taakblokken met hun taken + doelstellingen + kenniselementen
-- Conceptmodel-schema (node-types + edge-types)
-- Concept-schrijfregels (`docs/concept-schrijfregels.md`) inclusief de "Wat is een concept?"-sectie
-- Lijst van bestaande concept-naburen (om duplicatie te vermijden)
+Helper-scripts in `tools/extractie/` doen alleen deterministisch werk (bron-first matching, bundle-export, JSON-IO, ChromaDB-updates). LLM-synthese gebeurt door subagents die deze helpers via Bash-tool aanroepen.
 
-**Token-budget**: een PO-input is typisch 5–15 KB (titels + 3-10 taakblokken × KE-teksten). Output 50–150 vermoedens × ~200 tokens ≈ 10–30K. Totale call ~30–50K tokens — fractie van Opus' 200K. Geen issue.
+Alleen de **gedeployde tutor** mag op runtime de Anthropic API aanroepen — productie-eindpunt, geen build-stap.
 
-Output per vermoeden — **gestructureerd schema** (verplicht voor downstream stappen):
+#### Modelkeuze: Opus
 
+De extractie-subagent draait op **Claude Opus**. Argumenten:
+
+- Hoge leverage: één goed concept-record bespaart 10× zoveel mens-curatie.
+- Multi-criteria reasoning: per anchor-bundel moet de agent simultaan beslissen over relevantie, granulariteit, node-type-keuze, kenniselement-koppeling, en eventueel split/merge.
+- Synthese-kwaliteit: hoofdtekst-velden worden in simpele Nederlandse taal herschreven uit juridische brontekst, met behoud van precisie + confidence-labels + bronverwijzingen.
+
+Sonnet/Haiku ongeschikt voor extractie, wel voor helper-script implementatie.
+
+Provenance-veld: `tooling.model = "claude-opus-4-7"` op elk concept-record.
+
+### 3. Anchor-verrijking — fase A
+
+**Wat**: voor elk taakblok-element (taken, doelstellingen, kenniselementen + subitems) een verboser-versie + 3-5 synoniemen genereren via subagent.
+
+**Output**: `data/extractie/<po>/anchors/<po>-anchors.json` (gegit).
+
+**Schema per anchor**:
 ```json
 {
-  "naam": "<volledige naam, simpele taal>",
-  "node_type": "<11 types, of voorgesteld:<naam>>",
-  "rationale": "<één zin: waarom dit concept hier relevant is>",
-  "taakblokken": ["4.0.D1.1", "4.0.D1.2"],            // 1+ verplicht — multi voor vakoverschrijdend
-  "taken_doelstellingen": ["4.0.D1.1.taak.1", "..."], // optioneel, multi
-  "kenniselementen": ["4.0.I.D.7", "..."],            // optioneel, multi
-  "synoniemen": ["geheim toevertrouwd", "..."],       // 3–5 voor query-time retrieval-expansion
-  "schaal_signaal": "<klein|middel|groot>"            // hint voor granulariteit
+  "anchor_id": "<po>.D1.1.taak.1 | <po>.I.D.7 | etc",
+  "anchor_type": "taak | doelstelling | kenniselement",
+  "tekst": "<originele tekst uit programmaonderdeel-JSON>",
+  "verbose": "<2-3 zinnen vakjargon>",
+  "synoniemen": ["...", "..."]
 }
 ```
 
-50–150 vermoedens per programmaonderdeel (afhankelijk van PO-grootte). **Geen main_rule/exceptions** in deze fase — pure vermoedensruimte.
+**Strikte instructie aan subagent**:
+- Verbose-tekst dicht de imperatief-descriptief kloof (taken zijn imperatieven, bronnen zijn descriptief). 2-3 zinnen vakjargon.
+- **Geen wetsartikelnummers**, **geen specifieke wetsnamen** in verbose of synoniemen — vermijdt self-fulfilling matching. Empirisch: 90-99% van score-winst is vocabulair, slechts 1-3% komt uit wetsverwijzingen.
 
-**Multiplicity-regels**:
-- `taakblokken`: 1+ verplicht. Een vermoeden hoort bij minstens één taakblok; mag bij meerdere als het cross-block-relevant is.
-- `taken_doelstellingen`: leeg toegestaan (pure begrippen zonder taak-anker).
-- `kenniselementen`: leeg toegestaan (pure procedure/skill zonder KE-anker).
-- `synoniemen`: 3–5 aanbevolen voor goede retrieval-expansion; lege lijst toegestaan als de canonische naam zelf overal voorkomt in bronteksten.
+**Mens reviewt anchors per PO** voor productie. Lage kost (eenmalig, 36-74 anchors per PO).
 
-LLM mag een **niet-voorgedefinieerd node-type voorstellen** (`node_type: "voorgesteld:<naam>"`). Voorgestelde types verzamelen in review-queue (ADR-007).
+### 4. Bron-first matching — fase B
 
-#### B. Multi-level retrieval
+**Input**: enriched anchors + indexed bron-chunks (ADR-006 ChromaDB `bronnen`-collection).
 
-Per vermoeden retrieval op vijf niveaus tegen `bronnen`-collection (ADR-006). Niveau 3 is optioneel (alleen als vermoeden kenniselementen koppelt):
+**Werkwijze** (`tools/extractie/match_bronnen.py`):
 
-1. **Programmaonderdeel-niveau**: programmaonderdeel-titel + samenvatting → brede thematische context
-2. **Taakblok-niveau**: taken + doelstellingen + kenniselementen samen → mid-level
-3. **Kenniselement-niveau** (optioneel): tekst van elk gekoppeld kenniselement (incl. parent + subitems) → formele scope-anker. **Skipt** als `kenniselementen` leeg is.
-4. **Vermoeden-niveau**: vermoeden-naam + rationale → granulair, concept-specifiek
-5. **Synoniem-niveau** (LLM-gegenereerd): query-time expansion via `vermoeden.synoniemen[]` → overbrugt vocabulairekloven
+1. Embed alle anchor verbose-teksten (+ synoniemen als concat) met bge-m3
+2. Voor elk anchor: cosine-similarity tegen alle in-scope chunks
+3. Per anchor: bundle = chunks waar `score >= max(floor, top1 - margin)`
+4. Per chunk: log welke anchors hem als top-K matchen (cross-anchor info)
 
-Per vermoeden: combineer chunks uit alle niveaus, dedupliceer op chunk-id, top-N (~20) doorgeven aan stap C.
+**Drempelparameters** (defaults uit cross-PO experiment):
+- `floor = 0.55` (absolute minimum cosine, vermijdt totaal-ongerelateerd materiaal)
+- `margin = 0.15` (max afstand tot top-1 binnen anchor — adaptive bundling)
 
-**Waarom kenniselement-niveau apart**: een kenniselement zoals `4.0.I.D.7 Beroepsgeheim` is een formele scope-anker; zijn tekst hint vaak naar de exacte wetsartikelen. Zonder dit niveau zit retrieval te dicht op de generieke vermoeden-naam en mist het gezagsbron-passages.
+Mediane top-1 score per anchor: 0.70 ± 0.01 over twee zeer verschillende PO's. Drempels generaliseren zonder herkalibratie.
 
-**Waarom synoniem-niveau via LLM**: bi-encoder-embeddings overbruggen niet altijd vocabulairekloven tussen canonische termen en juridische omschrijvingen. Voorbeeld: "beroepsgeheim" matcht zwak op art. 458 SW dat spreekt van "geheimen die hun zijn toevertrouwd". De vermoedensruimte-LLM voegt 3–5 synoniemen toe aan elk vermoeden (zie `prompts/vermoedensruimte-v1.md`); die worden als extra sub-queries gevoerd. Geen handmatige keyword-curatie, geen index-time augmentatie — query-time expansion via het LLM dat het vermoeden zelf bedacht.
+**Output**: `data/extractie/<po>/matches/<po>-matches.json` (ephemeral, kan in gitignore — reproduceerbaar uit anchors + index).
 
-**Retrieval-modus — bi-only als default, rerank optioneel**:
+### 5. Per-anchor concept-extractie — fase C
 
-| Modus | Wanneer | Snelheid | Output `rerank_score` |
-|---|---|---|---|
-| **Bi-only** (default) | Build-pipeline op CPU/MPS | ~2 sec/vermoeden | `-1.0` (sentinel) |
-| **Single-pass rerank** | Productie-rebuild op GPU/MPS | ~5–10 sec/vermoeden | 0.0 – 1.0 |
+Subagent (Opus, één per PO) verwerkt anchors sequentieel.
 
-Reden voor bi-only default: cross-encoder (bge-reranker-v2-m3) loopt 15+ min/vermoeden op CPU — onpraktisch. MPS doet 5–10 sec/vermoeden maar vereist een ingerichte Mac met voldoende geheugen. Default = bi-only, optie via `--no-rerank` weglaten.
+**Input per anchor**: anchor + bundle (chunks met volledige tekst, gesorteerd op score).
 
-**Drempels voor relevantie-check** (zie §C.2):
+**Vraag aan subagent**: *"Welke concepten worden in deze chunks behandeld?"* (meervoud expliciet — een bundle bevat doorgaans 5-18 fenomenen).
 
-| Modus | Top score | Actie |
-|---|---|---|
-| rerank | ≥ 0.50 | `seed` |
-| rerank | 0.30–0.50 | `seed` met "zwak gegrond"-notitie |
-| rerank | < 0.30 | `rejected` |
-| bi-only | ≥ 0.25 | `seed` |
-| bi-only | 0.20–0.25 | `seed` met "zwak gegrond"-notitie |
-| bi-only | < 0.20 | `rejected` |
+**Output per concept**:
+- `naam`, `node_type` (uit ADR-007), `rationale` (1 zin)
+- `supporting_chunks[]`: chunk-IDs uit de bundle die het concept onderbouwen
+- `confidence`: `grounded` (verbatim/paraphrase) of `inferred` (redenering)
+- `granulariteit`: signaal `klein|middel|groot`
 
-Bi-only drempels zijn lager omdat bi-encoder-cosine-scores in een ander bereik zitten (typisch 0.15–0.40 voor relevant materiaal; 0.25 = solide).
+**Strikte regels** (anti-hallucinatie):
+- Geen concepten zonder `supporting_chunks` (anti-hallucinatie)
+- Geen wetsartikelnummers verzinnen — alleen wat letterlijk in chunks staat
+- `confidence` eerlijk: `grounded` alleen als chunk-tekst het concept bevat
 
-Implementatie: `multi_query_retrieve` in `tools/lib/retrieval.py` + `bi_only_retrieve` / `single_pass_rerank` in `tools/extractie/retrieve_batch.py`.
+**Cross-anchor context-accumulatie**: door anchors sequentieel binnen één Opus-sessie te verwerken, ziet de subagent eerder geschreven concepten en kan vakoverschrijdende fenomenen herkennen ("dit chunk hoort ook bij anchor X dat ik eerder behandelde → al-bestaand concept Y").
 
-#### B-bis. Bestandstructuur — één vermoedens-bestand, één retrieval-bestand per PO
+### 6. Verdieping per concept — fase D
 
-Vermoedensruimte (§A) werkt op PO-niveau, dus zowel vermoedens als retrieval leven als **één bestand per programmaonderdeel**:
-
-```
-data/extractie/<po>/vermoedens/<po>.json   ← LLM-output, gegit, hergebruikbaar
-data/extractie/<po>/retrieval/<po>.json    ← bi-encoder-output, ephemeral (§7)
-```
-
-**Geen** combine-stap nodig — vermoedensruimte produceert al de PO-aggregaat.
-
-**Twee-niveau-rationale**:
-
-| Niveau | Bestand | Levensduur | Waarom apart? |
-|---|---|---|---|
-| Vermoedens | `vermoedens/<po>.json` | Persistent (gegit) | Cache van dure LLM-call. Hergebruikbaar bij bron-/index-updates zonder LLM te hervragen. |
-| Retrieval | `retrieval/<po>.json` | Ephemeral | Reproduceerbaar uit vermoedens + index. Mag in `.gitignore`. |
-
-**Eén Opus-agent per PO** verwerkt de 50–150 vermoedens sequentieel. Cross-taakblok-context-accumulatie verbetert de kwaliteit:
-- Edge-resolutie: een vermoeden uit D1.2 kan een dangling-target uit D1.1 oplossen.
-- Terminologie-consistentie: dezelfde term gekozen voor "beroepsbeoefenaar" / "accountant" door alle blokken.
-- Duplicate-detectie: vakoverschrijdende fenomenen (zoals "beroepsgeheim" met `taakblokken: ["4.0.D1.1", "4.0.D1.2"]`) worden eenmaal verwerkt.
-
-##### Schema per vermoeden-record in retrieval-bestand
-
-`retrieve_batch.py` neemt **alle velden** uit het vermoedens-bestand over en voegt `chunks[]` toe. Geen impliciete velden-filter:
-
-```json
-{
-  "naam": "...",
-  "node_type": "...",
-  "rationale": "...",
-  "taakblokken": ["4.0.D1.1", "4.0.D1.2"],
-  "taken_doelstellingen": [...],
-  "kenniselementen": [...],
-  "synoniemen": [...],
-  "schaal_signaal": "...",
-  "chunks": [...]
-}
-```
-
-**Bewaar-alle-velden-regel**: een toekomstig vermoeden-veld (bv. `verwante_concepten[]`, `prioriteit`, ...) wordt **automatisch** meegenomen mits `retrieve_batch.py` shallow-copy doet ipv hardcoded veld-witte-lijst.
-
-Top-level structuur van het retrieval-bestand:
-
-```json
-{
-  "po": "4.0",
-  "vermoedens": [
-    { ... vermoeden-record + chunks ... },
-    ...
-  ]
-}
-```
-
-#### C. Seed-records bouwen
-
-Subagent (één Opus-agent per programmaonderdeel) verwerkt vermoedens **één voor één**, met deze flow per vermoeden:
-
-1. **Live duplicate-check** tegen bestaande concepten:
-   - Embed vermoeden (naam + rationale) → query `concepten` ChromaDB-collection via embedding-daemon (zie ADR-018)
-   - Top-1 score > 0.80 → mogelijk duplicaat → subagent beslist expliciet:
-     - **Merge**: voeg eventuele nieuwe info toe aan bestaand record, log als alias
-     - **Distinct**: motiveer waarom dit toch een ander concept is (dan toch nieuwe seed)
-   - Tussen 0.65–0.80 → grijze zone, subagent meldt expliciet in log
-   - < 0.65 → veilig nieuw concept
-
-2. **Relevantie-check** (anti-hallucinatie): zie §B drempel-tabel — bi-only of rerank-modus bepaalt de drempelwaarden.
-
-3. **Seed-record schrijven** wanneer relevantie-check passeert en geen merge:
-   - `id`, `naam`, `node_type`, top-level `_provenance` (record-metadata)
-   - **Type-specifiek hoofdveld** (zie ADR-007 §"Type-specifieke sleutelvelden"): `main_rule` voor `regel`/`beginsel`/`drempel`, `definitie` voor `begrip`/`actor`/`fenomeen`, `verplichting`+`stappen[]` voor `procedure`, `doel`+`bouwstenen[]` voor `methode`/`afwegingskader`, etc.
-   - Elk veld is een block-object met `text`, `confidence`, `source`, optioneel `references[]`, en inline `_provenance`
-   - Initiële `edges` (mogelijk `_dangling: true`) — let op edge-richting-conventie (ADR-007)
-   - Status: `seed`
-   - Velden die niet gerechtvaardigd zijn blijven leeg — sparse is de norm (ADR-007)
-   - **Just-in-time chunk loading**: agent leest chunks pas wanneer hij naar dit vermoeden toekomt (`Read`-tool op het retrieval-bestand met range-filter), niet vooraf. Voorkomt context-explosie bij PO's met 100+ vermoedens.
-
-4. **Onmiddellijk indexeren** via embedding-daemon: nieuwe concepten worden direct embedded en in `concepten`-collection geschreven, zodat het volgende vermoeden ze in stap 1 kan terugvinden.
-
-5. **Programmaonderdeel-JSON updaten**: voeg de nieuwe concept-id toe aan `kenniselementen[<code>].concepten` voor elk kenniselement dat het concept afdekt (ADR-002). Ook voor taken/doelstellingen-concepten via `taakblokken[].taken[].concepten` of `taakblokken[].doelstellingen[].concepten`.
-
-#### Variabel record-aantal: agent mag splitsen / mergen / rejecteren / toevoegen
-
-Vertrek met N vermoedens per taakblok, eindig met M ≷ N records. De subagent mag:
-- **Mergen**: twee vermoedens blijken hetzelfde concept → één record (live duplicate-check)
-- **Splitsen**: één vermoeden bevat eigenlijk twee fenomenen → twee records
-- **Rejecteren**: vermoeden niet gegrond in bronnen → géén record (relevantie-check)
-- **Toevoegen** (dangling-resolutie): main_rule verwijst naar concept dat nog niet bestaat → extra seed voor de target
-
-Beslissingslog per run: `data/extractie/<po>/seed_log_<po>.json` met per vermoeden de beslissing (`kept`/`merged_into:<id>`/`rejected:reason`/`split_into:[id, id]`) + duplicate-check rerank-scores. Dit is mens-curatie input.
-
-#### D. Verdieping per concept
-
-Voor elke seed → status `partieel`:
-- **Verdiepende retrieval-queries** met cumulatieve concept-state als input:
-  - Concept-naam + synoniemen
-  - Bestaande veld-content (`main_rule`, `exceptions`) als context
-  - Edge-targets (gerelateerde concept-namen)
-  - LLM-multi-query-expansion op basis van wat al gekend is
+Voor elke seed → status `partieel` → eventueel `gevuld`:
+- Verdiepende retrieval-queries met cumulatieve concept-state als input
 - LLM vult `exceptions`, `scope`, edge-targets verder in
-- Dangling-edges → seed-queue voor volgende extractie-ronde
+- Status `gevuld` (later, eventueel handmatig of via tweede LLM-pass): `pitfalls`, `voorbeeld_inline`
 
-Status `gevuld` (later, eventueel handmatig of via tweede LLM-pass): `pitfalls`, `voorbeeld_inline`. Examen-driven cases komen pas in Fase 5.
+### 7. Bestaande concepten als anchor
 
-### 2-bis. Coverage gap-fill (na PO-extractie)
+Vanaf de tweede iteratie: bestaande concepten doen mee als anchors in fase B. Effecten:
+- Nieuwe chunk met bestaand concept als top-hit → geen nieuw concept, alleen verrijking
+- Cross-PO duplicate-detectie inherent
+- Anchor-set groeit incrementeel met de kennisbank
 
-Na een PO-batch-run draait `tools/lib/coverage.py --po <code> --gaten` en rapporteert kenniselementen die door 0 concepten gedekt zijn. Twee scenario's:
+### 8. Bron-update workflow (compositioneel)
 
-- **Echte gaten** (KE niet behandeld): vermoedensruimte-LLM heeft het gemist of het schaalvol-signaal was te breed. → tweede vermoedensruimte-ronde **gericht op die KE**, gevolgd door retrieval + extractie.
-- **Verkapte dekking** (concept dekt KE maar koppeling ontbreekt in PO-JSON): handmatige PO-JSON-update om de koppeling toe te voegen.
+Een nieuwe bron toegevoegd aan de index → **bron-first matching opnieuw draaien** voor alle anchors (cheap: bi-encoder cosine, geen LLM). Output:
+- Welke anchors hebben nu een sterkere match dan voorheen → concepten heroverwegen
+- Welke chunks van de nieuwe bron raken geen anchor → mogelijk buiten-scope of aanduiding van een nieuw kenniselement-gat
 
-**Belangrijk**: kenniselementen → concepten is geen 1:1-mapping. Eén KE als "Begrip witwaspraktijk en terrorismefinanciering" kan 3+ concepten genereren. Eén concept als "beroepsgeheim" kan over meerdere KEs spannen. De vermoedensruimte-prompt moet die meervoudigheid expliciet uitnodigen ("voor elk kenniselement, lijst alle fenomenen die nodig zijn om het te kennen") — geen plafond op aantal vermoedens.
+Dit vervangt de niet-compositionele aanpak waar een bronwijziging alle vermoedens in twijfel trekt.
 
-Future: `tools/extractie/gap_vermoedens.py` automatiseert "lees coverage-rapport, bouw gerichte vermoedens voor ongedekte KEs" als helper-script. Niet in initiële Fase 3 — eerst een complete PO afmaken om patronen te zien.
-
-### 3. Bron-gestuurde extractie
-
-Iteratieve scan over bron-MD's: voor elk artikel/sectie laat een concept-spotting prompt LLM een lijst opstellen van fenomenen die in deze passage opduiken die nog géén concept zijn. Output convergeert in dezelfde `data/concept_records/`-map; dedupe via concept-id-similarity.
-
-Anti-explosie-regel: bron-driven mag geen concepten genereren die buiten de scope van enige programmaonderdeel-kenniselement vallen — anders extraheer je de hele wet. Cap via "moet aan minstens één kenniselement koppelbaar zijn" (heuristiek, geen hard filter).
-
-### 4. Examen-gestuurde extractie (Fase 5)
-
-Pas wanneer een werkende conceptenset bestaat:
-- Voorbeeldexamen-vraag oplossen met huidige concepten + bronnen-RAG
-- Concepten die de oplossing nodig had: tag als `voorbeeldvraag-id` in concept-record (link naar voorbeeldexamen-record)
-- Concepten die ontbraken (oplossing miste detail): markeer voor uitbreiding, voeg `pitfalls`/`voorbeeld_inline` toe op basis van vraag-redenering
-
-Anti-oogkleppen-regel: examenvraag = **toetsings-instantie van een breder concept** (een examenfocus, ADR-009), géén concept op zich. Voorbeeld: "wanneer is melding aan CFI verplicht?" → instantie van `meldingsplicht-cfi`, niet een nieuw concept "wanneer-melding-CFI".
-
-### 5. Confidence-labeling per veld
+### 9. Confidence-labeling per veld
 
 Elk veld erft een `confidence` string-tag (zie ADR-007 voor waarden — `"grounded"` / `"inferred"`):
 - `bron_rol` van de chunks waaruit het is afgeleid (`itaa-lex`, `wettekst`, `norm` → `grounded`)
@@ -280,9 +162,9 @@ Elk veld erft een `confidence` string-tag (zie ADR-007 voor waarden — `"ground
 
 Een veld zonder bronverwijzing krijgt nooit stilzwijgend `grounded`.
 
-### 6. Per-veld provenance — inline (schema 1.1)
+### 10. Per-veld provenance — inline (schema 1.1)
 
-Vanaf schema-versie 1.1 (ADR-007 changelog 2026-05-08) leeft `_provenance` **inline per veld**, niet langer als top-level dictionary. Top-level `_provenance` blijft, maar enkel voor record-metadata (`extractor_run`, `model`, `reviewed_by`).
+`_provenance` leeft **inline per veld** (zie ADR-007 §"Provenance — inline per veld" voor volledige spec).
 
 ```json
 {
@@ -292,69 +174,91 @@ Vanaf schema-versie 1.1 (ADR-007 changelog 2026-05-08) leeft `_provenance` **inl
     "source": { ... },
     "_provenance": {
       "inputs": [{"id": "Antiwitwaswet-2017__art_5", "sha256": "<chunk_sha>", "version": "rag-v1"}],
-      "extracted_at": "2026-05-08T12:00:00Z",
-      "extractor": "seed-v1"
+      "extracted_at": "2026-05-09T12:00:00Z",
+      "extractor": "bron-first-v1"
     }
-  },
-  "exceptions": [
-    {
-      "text": "...",
-      "_provenance": { "inputs": [...] }
-    }
-  ]
+  }
 }
 ```
 
-Zie ADR-007 §"Provenance — inline per veld" voor volledige spec.
+Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt block-level: welke velden in welke concept-records hebben deze chunk-id? → die velden worden `stale: true`.
 
-Bij **bron-update** (chunk-content-hash verandert) → `mark_stale.py` walkt block-level: welke velden in welke concept-records hebben deze chunk-id? → die velden worden `stale: true`. Andere velden in hetzelfde concept blijven valide. Re-extraction-queue verzamelt stale velden.
-
-Vereist **chunk-id-stabiliteit** (ADR-006 §3.1, ADR-004).
-
-**Implementatie-status (2026-05-08)**: het schema voorziet `sha256`, maar de huidige extractor laat dat veld op `null`. Daarmee is staleness-detectie nog onmogelijk. Invullen van `sha256` met `chunk_sha` uit ChromaDB-metadata is een implementatie-eis voor de eerstvolgende extractie-tooling-iteratie.
-
-### 7. Permanent vs ephemeral provenance-artefacten
-
-Twee artefacten dragen tijdens extractie chunk-verwijzingen:
+### 11. Permanent vs ephemeral provenance-artefacten
 
 | Artefact | Locatie | Levensduur | Status |
 |---|---|---|---|
-| **Vermoeden** + **retrieval-resultaat** | `data/extractie/<po>/{vermoedens,retrieval}/*.json` | tijdelijk — extractie-hulpmiddel | ephemeral |
-| **Concept-record `_provenance`** | `data/concept_records/<id>.json` | permanent — duurzame kennislaag | authoritative |
+| **Anchors** | `data/extractie/<po>/anchors/<po>-anchors.json` | Permanent — gegit | curatie-artefact |
+| **Matches** | `data/extractie/<po>/matches/<po>-matches.json` | Ephemeral — kan in gitignore | reproduceerbaar |
+| **Bundle exports** | `data/extractie/<po>/bundles/<po>-<anchor-id>.json` | Ephemeral — input voor LLM-pass | wegwerpbaar |
+| **Concept-records** | `data/concept_records/<id>.json` | Permanent — duurzame kennislaag | authoritative |
 
-**Beslissing**: de permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Vermoeden- en retrieval-JSONs zijn een wegwerpbaar tussenstadium dat opgeruimd mag worden zodra een vermoeden ofwel verworpen is, ofwel opgenomen in een concept-record met `status >= partieel`.
+De permanente provenance leeft uitsluitend in concept-record `_provenance`-velden. Andere artefacten zijn een tussenstadium.
 
-Implicaties:
-
-- **Dependency-analyses werken op concept-records, niet op retrieval-JSONs.** Bijvoorbeeld: `tools/etl/remove_bron.py` Laag 2 (zie ADR-005 §5) scant `data/concept_records/**` voor inline-provenance-velden (vanaf schema 1.1: `<veld>._provenance.inputs[].id` per block; eerdere records met top-level `_provenance.<veld>.inputs[].id` blijven leesbaar via een compat-helper) op zoek naar chunk-IDs die op de te verwijderen bron wijzen — niet `data/extractie/.../retrieval/*.json`. Een retrieval-JSON die toevallig nog bestaat is bonusinformatie, geen vereiste.
-- **`mark_stale.py` werkt op concept-records.** Bij chunk-content-hash-verandering walkt het script door `data/concept_records/`, niet door retrieval-JSONs.
-- **Retrieval-JSONs zijn cachebaar/wegwerpbaar.** Een gitignore op `data/extractie/.../retrieval/` is acceptabel; een gitignore op `data/concept_records/` is dat niet (geverifieerde records moeten gecommit worden).
-- **Vermoedens-JSONs blijven tijdelijk getrackt** (curatie-artefact in `data/extractie/.../vermoedens/`) zolang we ze inhoudelijk hervragen tijdens curation. Maar de provenance-keten leunt er niet op.
-
-Deze beslissing maakt de extractie-pipeline robuust tegen opruim-acties: oude retrieval-runs uit `data/extractie/` weggooien breekt niets — de duurzame links liggen in `data/concept_records/`.
-
-### 8. Schema-evolutie tijdens extractie
+### 12. Schema-evolutie tijdens extractie
 
 Wanneer een concept niet past in het huidige conceptmodel:
-- Extractor genereert expliciet schema-uitbreidingsvoorstel (nieuw veld, nieuw node-type, nieuw edge-type)
+- Subagent genereert expliciet schema-uitbreidingsvoorstel (nieuw veld, nieuw node-type, nieuw edge-type)
 - Voorstel landt in `data/concept_records/_voorgestelde_types.yaml` (zie ADR-007)
-- Pas na menselijke bevestiging wordt het schema bijgewerkt; de extractor slaat het concept ondertussen als `partieel` op met een notitie
+- Pas na menselijke bevestiging wordt het schema bijgewerkt
+
+## Empirische onderbouwing
+
+### PO 4.0 Deontologie
+
+- 36 anchors (3 taken, 13 doelstellingen, 20 kenniselementen)
+- 2883 chunks (1187 wettekst + 155 norm + uitbreiding na test)
+- Anchor 4.0.I.D.7 Beroepsgeheim als test-case → 12 grounded concepten
+- Centroïde-pathologie van 32/36 anchors (één definitielijst-chunk top-1) → 2/36 na clean enrichment
+- 90-99% van enrichment score-winst is vocabulair, niet self-fulfilling
+- 814/814 niet-relevante Strafwetboek-artikelen automatisch onder drempel (scope-validatie zonder curatie)
+
+### PO 1.1 Algemene boekhouding
+
+- 74 anchors (1 taak, 10 doelstellingen, 63 kenniselementen)
+- 5275 chunks (3633 wettekst + 1478 advies + 164 norm)
+- Anchor 1.1.II.B Vaste activa als test-case → 18 grounded concepten
+- Mediane top-1 score per anchor: 0.706 (vs 0.699 in PO 4.0) — **drempels generaliseren zonder herkalibratie**
+- CBN-adviezen werken **beter** als bron dan wetteksten: ~25% bundle-ruis (vs ~60% in PO 4.0), samenhangender, lager hallucinatierisico
 
 ## Gevolgen
 
-- **Build-pipeline tooling** (Python-scripts in `tools/extractie/`) doet alleen deterministisch werk:
-  - `tools/extractie/retrieve_batch.py` — leest het PO-vermoedens-bestand, doet 5-niveau retrieval per vermoeden, schrijft één PO-retrieval-bestand. Embedding via daemon (ADR-018). Shallow-copy van vermoeden-velden naar output (geen hardcoded witte-lijst).
-  - `tools/extractie/normalize_vermoedens.py` — legacy helper: bestond om singular `gekoppeld_aan` om te zetten naar arrays. Met de nieuwe vermoedensruimte-prompt (PO-niveau, multi-anker-arrays) is deze overbodig — de LLM produceert al het juiste schema. Kan verwijderd of gemarkeerd `archive/` na migratie.
-  - `tools/extractie/index_concept_incremental.py` — daemon-client; embed één concept-record en upsert in `concepten`-collection via daemon
-  - `tools/extractie/queue.py` — dangling-edges → seed-queue
-  - **Geen `anthropic` import** in deze scripts. Geen LLM-calls.
-- **LLM-werk** gebeurt door een Claude Code subagent in dev-omgeving die deze helpers via Bash-tool aanroept en zijn eigen reasoning gebruikt voor synthese. **Eén agent per programmaonderdeel** verwerkt alle vermoedens van het PO sequentieel — cross-taakblok-context-accumulatie is een kwaliteitsfactor.
-- `tools/lib/coverage.py` — bouwt op aanvraag een reverse-index (concept → kenniselementen) uit programmaonderdeel-JSON's voor dekkingsrapporten. Geen state op concepten zelf (ADR-002, ADR-007).
-- Per-veld provenance + per-veld stale-marking maakt incremental re-runs **veld-precies** (alleen stale velden herextraheren, niet hele concept-records).
-- **Implementatie-eisen voor §6 + §7** (TODO):
-  - Concept-extractor moet `chunk_sha` uit ChromaDB-metadata kopiëren naar `_provenance.<veld>.inputs[].sha256` (nu `null`).
-  - `tools/etl/mark_stale.py` voor concepten bouwen: vergelijk opgeslagen `sha256` met live ChromaDB `chunk_sha`; flag mismatches.
-  - `tools/etl/remove_bron.py` Laag 2 omzetten: scan `data/concept_records/**/_provenance.*.inputs[].id` (i.p.v. `data/extractie/.../retrieval/*.json`) voor chunk-impact-analyse.
-- Voorbeeldexamens worden vroeg gestructureerd (`data/voorbeeldexamens/`) als ground truth — maar pas in Fase 5 als extractie-input gebruikt.
-- Concept-schrijfregels (`docs/concept-schrijfregels.md`) zijn input voor elke subagent-invocatie. Schrijfregels evolueren — bij wijziging stale-mark lopende seeds.
-- **Deployment**: gegenereerde `data/concept_records/` + `data/chroma_db/` (incl. `concepten`-collection) worden meegedeployed met de tutor-app. Tutor draait wel op de Anthropic API in productie (runtime chat), maar bouwt geen concepten meer op.
+### Helper-scripts in `tools/extractie/`
+
+- `match_bronnen.py` — bron-first matching (deterministisch, geen LLM)
+- `export_bundle.py` — exporteert anchor-bundle met volledige chunk-tekst voor LLM-pass
+- `embedding_daemon.py` + `index_concept_incremental.py` — concept-record indexering (ADR-018)
+
+Geen `anthropic` import in deze scripts.
+
+### LLM-werk
+
+Twee subagent-passes per PO:
+1. Anchor-verrijking (eenmalig, output gegit)
+2. Per-anchor concept-extractie (één Opus-sessie verwerkt alle anchors sequentieel)
+
+### Coverage gap-fill
+
+Gap-detectie via "anchor zonder sterke match" werkt **niet betrouwbaar** — bge-m3 koppelt soms abstract-gecombineerde termen slecht ondanks aanwezige bronnen. Empirisch: 3 van 4 vermeende gaps voor PO 4.0 zaten wél in scope.
+
+Voor productie: gap-detectie verschuift naar **examen-driven validatie in Fase 5** (echte voorbeeldexamens als toets-instrument), niet naar een aparte retrieval-pad. Anchors zonder sterke bundle worden gerapporteerd in een diagnostiek-rapport (mediane bundle-score, bundle-grootte per anchor) — geen actie zonder eerst te kijken naar patronen.
+
+## Voorbehoud
+
+- **Slechts twee PO's getest** uit ~30. Andere vakken (fiscaliteit, audit, vennootschapsrecht) hebben andere bron-mix en anchor-stijl. Hoeven geen blocker te zijn — de aanpak is robuust gebleken — maar kalibratie kan per PO nodig zijn.
+- **Bestaande concepten als anchor** (§7) is empirisch onbevestigd. Ontwerpprincipe maar niet getest.
+- **Cross-PO matrix** (anchors van meerdere PO's tegelijk) niet getest — komt pas bij volledige run.
+- **Brede anchors hebben grote bundles** (PO 1.1 bundles tot 1053 chunks): adaptive bundling alleen volstaat niet altijd. Eventuele aanvullende filters in toekomstige iteratie. Geen blocker voor accept.
+
+## Open ETL-revisies (separate ADR-006-revisies)
+
+Niet onderdeel van deze ADR; uitgelicht als follow-ups die het systeem verder zouden verbeteren:
+
+- **Definitielijst-chunking**: artikelen die enumeratieve definitielijsten zijn (bv. *"1° X: ...; 2° Y: ..."*) gedragen zich pathologisch (centroïde-effect). Alternatieve chunking of een `chunk_rol`-tag.
+- **Art-familie chunking**: 458/bis/ter/quater (Strafwetboek) en 1382-1384 (BW) als één semantisch cluster i.p.v. losse chunks.
+- **Chunk-rol-tagging in ETL**: metadata-veld `chunk_rol` (`definitie`/`intro`/`inhoudelijk`/`bijlage`/`voorbeeld`) met query-tijd prior — definitie-chunks lage prior bij concept-extractie.
+
+## Open implementatie-eisen
+
+- Concept-extractor moet `chunk_sha` uit ChromaDB-metadata kopiëren naar `_provenance.<veld>.inputs[].sha256` (nu `null`).
+- `tools/etl/mark_stale.py` voor concepten bouwen: vergelijk opgeslagen `sha256` met live ChromaDB `chunk_sha`; flag mismatches.
+- `tools/etl/remove_bron.py` Laag 2 omzetten: scan `data/concept_records/**/_provenance.*.inputs[].id` voor chunk-impact-analyse.
