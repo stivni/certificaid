@@ -1,0 +1,556 @@
+{
+  "Section 100 — Complying with the Code": [
+    "Naleving van de code",
+    "ethische verplichtingen",
+    "beroepsbeoefenaar",
+    "professional accountant",
+    "algemeen belang",
+    "schending van de code"
+  ],
+  "Section 110 — The Fundamental Principles": [
+    "Fundamentele beginselen",
+    "kernprincipes",
+    "integriteit",
+    "objectiviteit",
+    "professionele bekwaamheid en zorgvuldigheid",
+    "vertrouwelijkheid",
+    "professioneel gedrag"
+  ],
+  "Subsection 111 — Integrity": [
+    "Integriteit",
+    "eerlijkheid",
+    "oprechtheid",
+    "misleidende informatie",
+    "association met onjuiste informatie",
+    "professionele integriteit"
+  ],
+  "Subsection 112 — Objectivity": [
+    "Objectiviteit",
+    "onbevooroordeeld oordeel",
+    "belangenconflict",
+    "ongepaste invloed",
+    "vooringenomenheid",
+    "onafhankelijke beoordeling"
+  ],
+  "Subsection 113 — Professional Competence And Due Care": [
+    "Professionele bekwaamheid",
+    "zorgvuldigheid",
+    "vakkennis op peil houden",
+    "permanente vorming",
+    "due care",
+    "kwaliteitsstandaarden",
+    "competentievereisten"
+  ],
+  "Subsection 114 — Confidentiality": [
+    "Vertrouwelijkheid",
+    "beroepsgeheim",
+    "vertrouwelijke cliëntinformatie",
+    "geheimhoudingsplicht",
+    "openbaarmaking",
+    "wettelijke uitzonderingen op beroepsgeheim"
+  ],
+  "Subsection 115 — Professional Behavior": [
+    "Professioneel gedrag",
+    "naleving van wet- en regelgeving",
+    "reputatie van het beroep",
+    "onbetamelijk gedrag",
+    "marketing en publiciteit",
+    "discreditering van het beroep"
+  ],
+  "Section 120 — The Conceptual Framework": [
+    "Conceptueel kader",
+    "bedreigingen identificeren",
+    "bedreigingen evalueren en aanpakken",
+    "veiligheidsmaatregelen",
+    "safeguards",
+    "aanvaardbaar niveau",
+    "gerechtvaardigde derde",
+    "reasonable and informed third party"
+  ],
+  "Section 200 — Applying the Conceptual Framework — Professional Accountants in Business": [
+    "Interne accountant",
+    "accountant in dienstverband",
+    "professional accountant in business",
+    "bedrijfsaccountant",
+    "toepassing conceptueel kader",
+    "werknemer-accountant"
+  ],
+  "Section 210 — Conflicts of Interest": [
+    "Belangenconflicten",
+    "tegenstrijdige belangen",
+    "conflict of interest",
+    "openbaarmaking van conflicten",
+    "toestemming van betrokken partijen",
+    "vermijden van conflicten"
+  ],
+  "Section 220 — Preparation and Presentation of Information": [
+    "Opstellen en presenteren van informatie",
+    "financiële verslaggeving",
+    "getrouwe weergave",
+    "misleidende presentatie",
+    "druk om informatie te vervalsen",
+    "verantwoordelijkheid voor informatie"
+  ],
+  "Section 230 — Acting with Sufficient Expertise": [
+    "Voldoende deskundigheid",
+    "competentie voor opdracht",
+    "expertise inschatten",
+    "specialistische kennis raadplegen",
+    "opleiding en ervaring",
+    "weigeren van opdracht wegens onbekwaamheid"
+  ],
+  "Section 240 — Financial Interests, Compensation and Incentives Linked to Financial Reporting and Decision Making": [
+    "Financiële belangen",
+    "vergoeding en bonussen",
+    "incentives gelinkt aan resultaten",
+    "aandelenoptieplannen",
+    "winstgerelateerde beloning",
+    "bedreigingen door eigenbelang"
+  ],
+  "Section 250 — Inducements, Including Gifts and Hospitality": [
+    "Geschenken en gastvrijheid",
+    "incentives en aansporingen",
+    "inducement",
+    "smeergeld",
+    "ongepaste invloed",
+    "intentie van het geschenk"
+  ],
+  "Section 260 — Responding to Non-compliance with Laws and Regulations": [
+    "Reactie op niet-naleving wet- en regelgeving",
+    "NOCLAR",
+    "non-compliance with laws and regulations",
+    "meldingsplicht",
+    "klokkenluider",
+    "rapportering aan autoriteiten",
+    "interne accountant"
+  ],
+  "Section 270 — Pressure to Breach the Fundamental Principles": [
+    "Druk om beginselen te schenden",
+    "weerstand tegen druk",
+    "ongepaste hiërarchische druk",
+    "ethisch dilemma",
+    "intimidatie binnen organisatie",
+    "documentatie van druk"
+  ],
+  "Section 300 — Applying the Conceptual Framework — Professional Accountants in Public Practice": [
+    "Externe accountant",
+    "accountant in public practice",
+    "openbaar accountant",
+    "vrij beroep",
+    "kantoor en cliëntrelatie",
+    "toepassing conceptueel kader extern"
+  ],
+  "Section 310 — Conflicts of Interest": [
+    "Belangenconflicten externe accountant",
+    "tegenstrijdige cliëntbelangen",
+    "concurrerende cliënten",
+    "openbaarmaking en toestemming",
+    "informatiebarrières",
+    "Chinese walls"
+  ],
+  "Section 320 — Professional Appointments": [
+    "Aanvaarding van opdrachten",
+    "cliëntaanvaarding",
+    "opdrachtaanvaarding",
+    "wisseling van accountant",
+    "communicatie met voorganger",
+    "vrijwaringsmaatregelen bij aanvaarding"
+  ],
+  "Section 321 — Second Opinions": [
+    "Second opinion",
+    "tweede mening",
+    "advies aan niet-cliënt",
+    "raadpleging door derde",
+    "communicatie met huidige accountant",
+    "onvolledige informatie"
+  ],
+  "Section 325 — Objectivity of an Engagement Quality Reviewer and Other Appropriate Reviewers": [
+    "Engagement quality reviewer",
+    "kwaliteitsbeoordelaar opdracht",
+    "objectiviteit van reviewer",
+    "EQR",
+    "onafhankelijke kwaliteitsreview",
+    "review-functionaris"
+  ],
+  "Section 330 — Fees and Other Types of Remuneration": [
+    "Erelonen",
+    "honoraria",
+    "vergoeding voor opdrachten",
+    "lowballing",
+    "no-cure-no-pay",
+    "verwijzingsvergoedingen",
+    "afhankelijkheid van één cliënt"
+  ],
+  "Section 340 — Inducements, Including Gifts and Hospitality": [
+    "Geschenken aan externe accountant",
+    "gastvrijheid van cliënt",
+    "incentives extern",
+    "intentie van inducement",
+    "ongepaste beïnvloeding",
+    "aanvaardbaarheidsdrempel"
+  ],
+  "Section 350 — Custody of Client Assets": [
+    "Bewaring van cliënttegoeden",
+    "derdengelden",
+    "kwaliteitsrekening",
+    "trust account",
+    "scheiding van vermogens",
+    "bewaarplicht"
+  ],
+  "Section 360 — Responding to Non-compliance with Laws and Regulations": [
+    "NOCLAR externe accountant",
+    "niet-naleving cliënt",
+    "rapportering aan toezichthouder",
+    "antiwitwasmelding",
+    "communicatie met cliënt over inbreuk",
+    "doorbreken beroepsgeheim"
+  ],
+  "Section 400 — Applying the Conceptual Framework to Independence for Audit and Review Engagements": [
+    "Onafhankelijkheid bij controle",
+    "audit en review",
+    "independence audit",
+    "onafhankelijkheid in geest en schijn",
+    "independence in mind and appearance",
+    "controlecliënt",
+    "audit team"
+  ],
+  "Section 405 — Group Audits": [
+    "Groepscontrole",
+    "group audit",
+    "componentauditor",
+    "consolidatie controle",
+    "onafhankelijkheid groepsstructuur",
+    "moeder- en dochterentiteiten"
+  ],
+  "Section 410 — Fees": [
+    "Erelonen audit",
+    "audit fees",
+    "ereloonafhankelijkheid",
+    "fee dependency",
+    "openbaarmaking erelonen",
+    "afhankelijkheid van controlecliënt"
+  ],
+  "Section 411 — Compensation and Evaluation Policies": [
+    "Beloningsbeleid auditor",
+    "evaluatiebeleid audit team",
+    "verkoop van niet-controlediensten",
+    "cross-selling bedreiging",
+    "prestatiebeoordeling",
+    "incentives in auditkantoor"
+  ],
+  "Section 420 — Gifts and Hospitality": [
+    "Geschenken bij audit",
+    "gastvrijheid van controlecliënt",
+    "audit independence gifts",
+    "verwaarloosbare geschenken",
+    "trivial and inconsequential",
+    "verbod op aanvaarding"
+  ],
+  "Section 430 — Actual or Threatened Litigation": [
+    "Geschil met controlecliënt",
+    "rechtszaak tegen auditor",
+    "litigation threat",
+    "tegenstrijdige proceshouding",
+    "bedreiging onafhankelijkheid door geschil",
+    "beëindiging audit door geschil"
+  ],
+  "Section 510 — Financial Interests": [
+    "Financiële belangen in controlecliënt",
+    "directe en indirecte belangen",
+    "aandelenbezit",
+    "deelnemingen",
+    "naaste familie financieel belang",
+    "investering in cliënt"
+  ],
+  "Section 511 — Loans and Guarantees": [
+    "Leningen aan of van controlecliënt",
+    "garanties",
+    "kredietverstrekking",
+    "bankcliënt audit",
+    "normale handelsvoorwaarden",
+    "hypothecaire lening"
+  ],
+  "Section 520 — Business Relationships": [
+    "Zakelijke relaties met controlecliënt",
+    "commerciële relatie",
+    "joint venture met cliënt",
+    "leverancier-klantrelatie",
+    "materiële zakelijke band",
+    "business relationship audit"
+  ],
+  "Section 521 — Family and Personal Relationships": [
+    "Familiale en persoonlijke relaties",
+    "naaste familie audit",
+    "echtgenoot of partner",
+    "ouders en kinderen",
+    "persoonlijke band met cliënt",
+    "huishoudelijke band"
+  ],
+  "Section 522 — Recent Service with an Audit Client": [
+    "Recente functie bij controlecliënt",
+    "afkoelperiode",
+    "cooling-off period",
+    "voormalige werknemer cliënt",
+    "self-review threat",
+    "vroegere bestuursfunctie"
+  ],
+  "Section 523 — Serving as a Director or Officer of an Audit Client": [
+    "Bestuurder bij controlecliënt",
+    "directeur of officer",
+    "managementfunctie bij cliënt",
+    "verbod op cumulatie",
+    "company secretary",
+    "uitvoerend mandaat"
+  ],
+  "Section 524 — Employment With an Audit Client": [
+    "Tewerkstelling bij controlecliënt",
+    "overstap naar cliënt",
+    "auditor wordt werknemer cliënt",
+    "key audit partner overstap",
+    "afkoelperiode na overstap",
+    "revolving door"
+  ],
+  "Section 525 — Temporary Personnel Assignments": [
+    "Tijdelijke detachering bij cliënt",
+    "secondment",
+    "uitlenen van personeel",
+    "loan staff arrangement",
+    "verbod op managementbeslissingen",
+    "beperkte duur detachering"
+  ],
+  "Section 540 — Long Association of Personnel (Including Partner Rotation) with an Audit Client": [
+    "Langdurige betrokkenheid",
+    "partner rotation",
+    "rotatie controlepartner",
+    "key audit partner",
+    "vertrouwdheidsbedreiging",
+    "familiarity threat",
+    "PIE rotatieperiode"
+  ],
+  "Section 600 — Provision of Non-Assurance Services to an Audit Client": [
+    "Niet-controlediensten aan controlecliënt",
+    "non-assurance services",
+    "NAS",
+    "bijkomende dienstverlening",
+    "managementverantwoordelijkheid",
+    "self-review threat",
+    "verbod op bepaalde diensten"
+  ],
+  "Subsection 601 — Accounting And Bookkeeping Services": [
+    "Boekhoudkundige diensten",
+    "bookkeeping",
+    "voeren van boekhouding cliënt",
+    "boekingen verwerken",
+    "verbod bij PIE",
+    "self-review boekhouding"
+  ],
+  "Subsection 602 — Administrative Services": [
+    "Administratieve diensten",
+    "routinetaken",
+    "secretariaatsdiensten",
+    "verwerken van betalingen",
+    "ondersteunende administratie",
+    "geen managementbeslissingen"
+  ],
+  "Subsection 603 — Valuation Services": [
+    "Waarderingsdiensten",
+    "valuation services",
+    "schatting van activa",
+    "waardering bedrijf",
+    "subjectiviteit waardering",
+    "materieel effect op jaarrekening"
+  ],
+  "Subsection 604 — Tax Services": [
+    "Fiscale diensten",
+    "belastingadvies",
+    "tax compliance",
+    "tax planning",
+    "fiscale geschillen",
+    "btw-aangifte audit cliënt",
+    "agressieve fiscale planning"
+  ],
+  "Subsection 605 — Internal Audit Services": [
+    "Interne auditdiensten",
+    "internal audit outsourcing",
+    "interne controle uitbesteden",
+    "verbod bij PIE-cliënt",
+    "managementfunctie interne audit",
+    "self-review interne controle"
+  ],
+  "Subsection 606 — Information Technology Systems Services": [
+    "IT-systeemdiensten",
+    "implementatie financieel systeem",
+    "ontwerp interne controles IT",
+    "ERP-implementatie",
+    "self-review IT-systemen",
+    "ICT-advies bij cliënt"
+  ],
+  "Subsection 607 — Litigation Support Services": [
+    "Bijstand bij geschillen",
+    "litigation support",
+    "schadeberekening",
+    "expertise in rechtsgeschil",
+    "getuige-deskundige",
+    "kwantificering van vorderingen"
+  ],
+  "Subsection 608 — Legal Services": [
+    "Juridische diensten",
+    "legal services",
+    "advocatuur bij audit cliënt",
+    "verbod op pleitfunctie",
+    "advocacy threat",
+    "contractadvies"
+  ],
+  "Subsection 609 — Recruiting Services": [
+    "Recruteringsdiensten",
+    "werving en selectie",
+    "executive search",
+    "headhunting bij cliënt",
+    "selectie financieel personeel",
+    "verbod sleutelposities"
+  ],
+  "Subsection 610 — Corporate Finance Services": [
+    "Corporate finance diensten",
+    "fusies en overnames advies",
+    "M&A bijstand",
+    "kapitaalstructuur advies",
+    "promoten van cliënt-effecten",
+    "advocacy threat corporate finance"
+  ],
+  "Section 800 — Reports on Special Purpose Financial Statements that Include a Restriction on Use and Distribution (Audit and Review Engagements)": [
+    "Rapporten met gebruiksbeperking",
+    "special purpose financial statements",
+    "specifieke gebruikers",
+    "restrictie op verspreiding",
+    "verminderde onafhankelijkheidsregels",
+    "doelgerichte rapportering"
+  ],
+  "Section 900 — Applying the Conceptual Framework to Independence for Assurance Engagements Other than Audit and Review Engagements": [
+    "Onafhankelijkheid bij andere assurance",
+    "non-audit assurance",
+    "ISAE-opdrachten",
+    "duurzaamheidsverklaring",
+    "assurance engagement",
+    "conceptueel kader assurance"
+  ],
+  "Section 905 — Fees": [
+    "Erelonen assurance",
+    "honoraria voor andere assurance",
+    "ereloonafhankelijkheid niet-audit",
+    "fee dependency assurance",
+    "openbaarmaking honoraria",
+    "fee structure"
+  ],
+  "Section 906 — Gifts and Hospitality": [
+    "Geschenken bij assurance",
+    "gastvrijheid van assurance-cliënt",
+    "verwaarloosbare attenties",
+    "verbod op aanvaarding",
+    "intentie geschenk",
+    "trivial and inconsequential"
+  ],
+  "Section 907 — Actual or Threatened Litigation": [
+    "Geschil met assurance-cliënt",
+    "rechtszaak tijdens assurance",
+    "litigation assurance",
+    "tegenstrijdige procespositie",
+    "bedreiging onafhankelijkheid geschil",
+    "beëindiging assurance"
+  ],
+  "Section 910 — Financial Interests": [
+    "Financiële belangen in assurance-cliënt",
+    "aandelenbezit niet-audit",
+    "directe en indirecte belangen",
+    "naaste familie investering",
+    "deelnemingen",
+    "investering assurance-team"
+  ],
+  "Section 911 — Loans and Guarantees": [
+    "Leningen bij assurance-cliënt",
+    "garanties van cliënt",
+    "kredietverlening",
+    "normale handelsvoorwaarden",
+    "lening aan teamlid",
+    "bankcliënt assurance"
+  ],
+  "Section 920 — Business Relationships": [
+    "Zakelijke relaties met assurance-cliënt",
+    "commerciële band",
+    "joint venture",
+    "leverancier-klantrelatie",
+    "materiële zakelijke band",
+    "business relationship assurance"
+  ],
+  "Section 921 — Family and Personal Relationships": [
+    "Familiale relaties bij assurance",
+    "persoonlijke band cliënt",
+    "naaste familie",
+    "echtgenoot of partner",
+    "huishoudelijke band",
+    "ouders en kinderen"
+  ],
+  "Section 922 — Recent Service with an Assurance Client": [
+    "Recente functie bij assurance-cliënt",
+    "voormalige werknemer cliënt",
+    "afkoelperiode niet-audit",
+    "self-review recent service",
+    "vroegere bestuursfunctie",
+    "cooling-off"
+  ],
+  "Section 923 — Serving as a Director or Officer of an Assurance Client": [
+    "Bestuurder bij assurance-cliënt",
+    "managementmandaat",
+    "directeur of officer",
+    "verbod cumulatie assurance",
+    "company secretary",
+    "uitvoerend mandaat"
+  ],
+  "Section 924 — Employment with an Assurance Client": [
+    "Tewerkstelling bij assurance-cliënt",
+    "overstap naar cliënt assurance",
+    "key partner overstap",
+    "revolving door assurance",
+    "afkoelperiode tewerkstelling",
+    "team member overstap"
+  ],
+  "Section 940 — Long Association of Personnel with an Assurance Client": [
+    "Langdurige betrokkenheid assurance",
+    "rotatie van teamleden",
+    "vertrouwdheidsbedreiging",
+    "familiarity threat assurance",
+    "rotatieperiode",
+    "duur van assurance-relatie"
+  ],
+  "Section 950 — Provision of Non-assurance Services to Assurance Clients": [
+    "Niet-assurance diensten aan assurance-cliënt",
+    "bijkomende dienstverlening niet-audit",
+    "NAS bij assurance",
+    "self-review threat assurance",
+    "managementverantwoordelijkheid vermijden",
+    "advocacy bij assurance"
+  ],
+  "Section 990 — Reports that Include a Restriction on Use and Distribution": [
+    "Rapporten met gebruiksbeperking assurance",
+    "restrictie op verspreiding",
+    "specifieke gebruikersgroep",
+    "verminderde regels onafhankelijkheid",
+    "beperkte doelgroep rapport",
+    "use and distribution restriction"
+  ],
+  "Glossary — Including Lists of Abbreviations": [
+    "Verklarende woordenlijst",
+    "afkortingen IESBA",
+    "definities ethische code",
+    "begrippenlijst",
+    "terminologie code of ethics",
+    "glossary"
+  ],
+  "Effective Date": [
+    "Inwerkingtreding",
+    "effective date IESBA",
+    "ingangsdatum",
+    "toepassingsdatum code",
+    "overgangsmaatregelen",
+    "datum van toepassing"
+  ]
+}

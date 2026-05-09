@@ -54,7 +54,13 @@ if str(ROOT) not in sys.path:
 from tools.lib.provenance import read_trust  # noqa: E402
 DEFAULT_CHROMA_PATH = ROOT / "data" / "chroma_db"
 EMBEDDING_MODEL = "BAAI/bge-m3"   # zie ADR-006
-KEYWORDS_DIR = ROOT / "resources" / "bronnen" / "wetteksten" / "keywords"
+KEYWORDS_DIRS = {
+    "wettekst": ROOT / "resources" / "bronnen" / "wetteksten" / "keywords",
+    "norm":     ROOT / "resources" / "bronnen" / "normen" / "keywords",
+    "advies":   ROOT / "resources" / "bronnen" / "adviezen" / "keywords",
+}
+# Backwards-compat alias (wordt nog door tests/scripts geïmporteerd).
+KEYWORDS_DIR = KEYWORDS_DIRS["wettekst"]
 
 # PYTORCH_ENABLE_MPS_FALLBACK is bewust UIT: de fallback ping-pong tussen
 # MPS en CPU lekt geheugen bij lange runs (Mac stottert progressief).
@@ -168,15 +174,20 @@ def _format_trust_skip_msg(rol: str, skipped: dict[str, int]) -> str:
 # Frontmatter / keywords helpers
 # ---------------------------------------------------------------------------
 
-def _load_keywords(stem: str) -> dict:
+def _load_keywords(stem: str, bron_rol: str = "wettekst") -> dict:
     """
     Laad optionele chunk-level keywords voor een bron (wordt prepended vóór embedding).
 
-    Enkel nog gebruikt voor KeyBERT auto-gegenereerde keywords als extra context.
-    Vocabulairekloven worden opgelost via query-time expansion (synoniemen in
+    Per bron-rol een eigen keywords-folder (zie KEYWORDS_DIRS):
+      - wettekst : KeyBERT auto-gegenereerde keywords als extra context
+      - norm     : NL-aliases voor cross-lingual matching (bv. IESBA EN → NL)
+      - advies   : NL-keywords voor adviezen (optioneel)
+
+    Vocabulairekloven worden ook opgelost via query-time expansion (synoniemen in
     vermoedens-JSON, gegenereerd door de LLM die de vermoedens schrijft).
     """
-    path = KEYWORDS_DIR / f"{stem}.json"
+    keywords_dir = KEYWORDS_DIRS.get(bron_rol, KEYWORDS_DIRS["wettekst"])
+    path = keywords_dir / f"{stem}.json"
     if path.exists():
         try:
             return json.loads(path.read_text())
@@ -890,7 +901,7 @@ def index_wetteksten(
                 ]
                 c["breadcrumb"] = f"[{wet_naam}]" + (f" → {c['heading']}" if c.get("heading") else "")
 
-        keywords_map = _load_keywords(source_id)
+        keywords_map = _load_keywords(source_id, "wettekst")
 
         for chunk in chunks:
             if len(chunk["text"]) < MIN_CHUNK_CHARS or not _has_real_content(chunk["text"]):
@@ -958,6 +969,7 @@ def index_normen(
         norm_naam = str(fm.get("norm", path.stem))
         breadcrumb = f"[Norm — {norm_naam}]"
         chunks = split_generic(post.content, source_id, breadcrumb_prefix=breadcrumb)
+        keywords_map = _load_keywords(source_id, "norm")
 
         # Fallback: geen secties gevonden → splits op alinea-grenzen om mega-chunks
         # te vermijden (bv. ITAA-norm-aww-geconsolideerd.md heeft 0 headings, ~50K chars)
@@ -999,7 +1011,14 @@ def index_normen(
                 continue
             # Splits ook hier: één H1-norm zonder verdere headings produceert
             # vaak één megachunk. ADR-006 §4: hard max 24K chars.
-            for fragment in split_long_chunk(chunk, MAX_CHUNK_CHARS):
+            # NL-keyword-augmentatie wordt toegepast vóór long-split, zodat elke
+            # fragment het NL-signaal in de embedding krijgt (cross-lingual RAG).
+            chunk_with_kws = dict(chunk)
+            chunk_with_kws["text"] = _prepend_keywords(
+                chunk["text"], chunk["heading"], keywords_map,
+            )
+            has_kws = bool(keywords_map.get(chunk["heading"]))
+            for fragment in split_long_chunk(chunk_with_kws, MAX_CHUNK_CHARS):
                 part = fragment.get("_split_part", "")
                 fid = f"{chunk['id']}_part{part.split('/')[0]}" if part else chunk["id"]
                 ids.append(fid)
@@ -1013,6 +1032,7 @@ def index_normen(
                     "themas":    json.dumps(fm.get("themas", [])),
                     "breadcrumb": breadcrumb,
                     "split_part": part,
+                    "has_keywords": str(has_kws),
                     "trust_status":       t.status if t else "unknown",
                     "trust_confirmed_by": t.confirmed_by or "" if t else "",
                 })
