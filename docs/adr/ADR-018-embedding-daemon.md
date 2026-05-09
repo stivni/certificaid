@@ -6,16 +6,16 @@
 
 ## Context
 
-Tijdens concept-extractie roept de Opus-subagent twee scripts aan per vermoeden:
+Tijdens concept-extractie (ADR-008 fase C) indexeert de Opus-subagent elk nieuw concept-record:
 
 1. `index_concept_incremental.py --duplicaat-check "<naam>"` — embed naam, query `concepten`-collection
 2. `index_concept_incremental.py --concept <pad>` — embed record, upsert in `concepten`-collection
 
-Elk script-aanroep laadt het bge-m3 model van disk (~1.2 GB, ~5–15 sec cold-start). Voor één PO met 60 vermoedens betekent dat 120 model-loads = **~20–30 minuten puur cold-start overhead**, voor een totale extractie-batch van ~90 minuten Opus-reasoning.
+Elk script-aanroep laadt het bge-m3 model van disk (~1.2 GB, ~5–15 sec cold-start). Voor één PO met 74 anchors (PO 1.1 Algemene boekhouding) betekent dat 148 model-loads = **~20–30 minuten puur cold-start overhead**, voor een totale extractie-batch van ~90 minuten Opus-reasoning.
 
 Tweede zorg: als meerdere extractie-runs parallel draaien (bv. ADR-007-schema-werk in worktree A, productie-extractie in worktree B), willen we **geen drie bge-m3-instances in geheugen** (3.6 GB, MPS-contention, tragere device-warmups). Eén gedeelde service is logischer.
 
-Derde zorg: de extractie-flow vereist **strikte read-after-write consistency** in de `concepten`-collection (ADR-008 §C.1: vermoeden N+1 moet concept N kunnen vinden in zijn duplicate-check). Met meerdere ChromaDB-clients tegelijk schrijvend ontstaat staleness-risico.
+Derde zorg: de extractie-flow vereist **strikte read-after-write consistency** in de `concepten`-collection (ADR-008 fase C: concept N+1 moet concept N kunnen vinden in zijn duplicate-check). Met meerdere ChromaDB-clients tegelijk schrijvend ontstaat staleness-risico.
 
 ## Beslissing
 
@@ -55,7 +55,7 @@ Bouw een **long-running embedding-daemon** die:
 | `/index-concept` | POST | `{record: {...}, chroma_path: str}` | `{id, chunk_count, ok: bool}` | concept-record embedden + upserten |
 | `/refresh` | POST | `{chroma_path: str}` | `{ok: bool}` | force-reopen ChromaDB-client (bij externe writes) |
 
-Alle endpoints geven nette JSON-errors terug (`{error: str, code: int}`) bij failure; clients moeten falen-zachte handlen.
+Alle endpoints geven nette JSON-errors terug (`{error: str, code: int}`) bij failure; clients handlen falen-zacht.
 
 ### Concurrency-model
 
@@ -127,7 +127,7 @@ def embed_or_fallback(texts: list[str]) -> list[list[float]]:
         return _local_embed(texts)
 ```
 
-Voordeel: scripts (`index_concept_incremental.py`, `retrieve_batch.py`, `rag_query.py`) blijven functioneren ook als de daemon niet draait. CI/eerste-run werkt zonder LaunchAgent.
+Voordeel: scripts (`index_concept_incremental.py`, `rag_query.py`) blijven functioneren ook als de daemon niet draait. CI/eerste-run werkt zonder LaunchAgent.
 
 ### Foutmodi
 
@@ -153,7 +153,6 @@ Voordeel: scripts (`index_concept_incremental.py`, `retrieve_batch.py`, `rag_que
   - `tools/extractie/install_daemon.sh` — installer voor de plist + dependencies-check
 - **Aanpassingen**:
   - `tools/extractie/index_concept_incremental.py` — gebruikt `embedding_client` ipv directe bge-m3-load
-  - `tools/extractie/retrieve_batch.py` — optioneel, kan ook via daemon embedden (nu doet het zelf model-load)
   - `tools/rag/rag_query.py` — optioneel via daemon
 - **Niet geraakt**:
   - `tools/rag/rag_index.py` — blijft zijn eigen bge-m3 laden voor bron-rebuilds (zelden, niet performance-kritisch)
