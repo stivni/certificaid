@@ -276,42 +276,66 @@ def _collection_for(cfg: dict) -> str:
 # Dispatcher
 # ---------------------------------------------------------------------------
 
+def _resolve_methode(cfg: dict) -> str:
+    """
+    Geeft de conversiemethode terug.
+    Leest eerst uit het nieuwe extract.method (ADR-017); valt terug op legacy type:.
+    """
+    extract = cfg.get("extract")
+    if extract and "method" in extract:
+        return extract["method"]
+    # Legacy fallback — type: is afgeschaft maar kan nog voorkomen in niet-gemigreerde
+    # entries of bij handmatig toegevoegde bronnen vóór migratie.
+    legacy = cfg.get("type", "")
+    if legacy:
+        return legacy
+    return ""
+
+
 def process_source(name: str, cfg: dict, cleanup_only: bool = False,
                    dry_run: bool = False, show_diff: bool = False,
                    do_reindex: bool = False):
-    source_type = cfg.get("type", "skip")
+    methode = _resolve_methode(cfg)
     status = cfg.get("status", "onbekend")
 
     print(f"\n{'='*60}")
-    print(f"Bron: {name}  |  type: {source_type}  |  status: {status}")
+    print(f"Bron: {name}  |  methode: {methode}  |  status: {status}")
 
-    if source_type == "skip":
-        print(f"  → Overgeslagen (type=skip)")
+    # handcrafted / skip: geen conversie via convert.py
+    if methode in ("handcrafted", "skip"):
+        print(f"  → Geen conversie (methode={methode})")
         if cleanup_only and cfg.get("output"):
             cleanup_in_place(cfg, name, dry_run, show_diff)
         return
 
-    if source_type == "split":
-        derived_from = cfg.get("derived_from", "?")
-        print(f"  → Afgeleid uit '{derived_from}' (type=split). Re-genereer via "
-              f"de bijbehorende splits-tool, niet via convert.py.")
+    # derived / split: afgeleid uit een andere bron via een splits-tool
+    if methode in ("derived", "split"):
+        extract = cfg.get("extract", {})
+        params = extract.get("params", {}) if isinstance(extract, dict) else {}
+        afgeleid_uit = params.get("afgeleid_uit") or cfg.get("derived_from", "?")
+        print(f"  → Afgeleid uit '{afgeleid_uit}' (methode={methode}). "
+              f"Re-genereer via de bijbehorende splits-tool, niet via convert.py.")
         return
 
     try:
         if cleanup_only:
             cleanup_in_place(cfg, name, dry_run, show_diff)
-        elif source_type == "wib92":
+        elif methode in ("custom_wib92", "wib92"):
             convert_wib92(cfg, name, dry_run)
-        elif source_type == "wetboek":
+        elif methode in ("custom_wetboek", "wetboek"):
             convert_wetboek(cfg, name, dry_run)
-        elif source_type == "ejustice_nl":
-            convert_ejustice(cfg, name, bilingual=False, dry_run=dry_run)
-        elif source_type == "ejustice_bilingual":
-            convert_ejustice(cfg, name, bilingual=True, dry_run=dry_run)
-        elif source_type == "raw_md":
-            cleanup_in_place(cfg, name, dry_run, show_diff)
+        elif methode == "pdftotext_ejustice":
+            # Bepaal of tweetalig uit extract.params of legacy nl_col_x-veld
+            extract = cfg.get("extract", {})
+            params = extract.get("params", {}) if isinstance(extract, dict) else {}
+            bilingual = params.get("bilingual", False)
+            convert_ejustice(cfg, name, bilingual=bilingual, dry_run=dry_run)
+        elif methode in ("ejustice_nl", "ejustice_bilingual", "raw_md"):
+            # Legacy methode-namen als fallback
+            bilingual = methode == "ejustice_bilingual"
+            convert_ejustice(cfg, name, bilingual=bilingual, dry_run=dry_run)
         else:
-            print(f"  ⚠️  Onbekend type: {source_type}")
+            print(f"  ⚠️  Onbekende methode: {methode}")
             return
 
         if do_reindex and not dry_run:
@@ -330,18 +354,18 @@ def process_source(name: str, cfg: dict, cleanup_only: bool = False,
 def cmd_list(config: dict, filter_type: str | None = None,
              filter_status: str | None = None):
     """Toon overzicht van alle bronnen."""
-    header = f"{'Naam':<45} {'Type':<22} {'Status':<12}"
+    header = f"{'Naam':<45} {'Methode':<28} {'Status':<12}"
     print(header)
     print("─" * len(header))
     for name, cfg in config.items():
-        t = cfg.get("type", "?")
+        methode = _resolve_methode(cfg)
         s = cfg.get("status", "?")
-        if filter_type and t != filter_type:
+        if filter_type and methode != filter_type:
             continue
         if filter_status and s != filter_status:
             continue
         icon = "✅" if s == "volledig" else ("⚠️ " if s == "toc_only" else "❓")
-        print(f"{name:<45} {t:<22} {icon} {s}")
+        print(f"{name:<45} {methode:<28} {icon} {s}")
 
     toc = sum(1 for c in config.values() if c.get("status") == "toc_only")
     volledig = sum(1 for c in config.values() if c.get("status") == "volledig")
@@ -377,7 +401,7 @@ def main():
         if args.type == "toc_only":
             sources = {n: c for n, c in config.items() if c.get("status") == "toc_only"}
         else:
-            sources = {n: c for n, c in config.items() if c.get("type") == args.type}
+            sources = {n: c for n, c in config.items() if _resolve_methode(c) == args.type}
         if not sources:
             print(f"Geen bronnen gevonden voor type='{args.type}'")
             return
