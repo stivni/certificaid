@@ -113,8 +113,10 @@ def load_scope(scope_yaml_path: Path) -> tuple[str, dict[str, set[str]], Path]:
     programmaonderdeel = str(data.get("programmaonderdeel", scope_yaml_path.stem))
     raw = data.get("bronnen", {})
     file_filter: dict[str, set[str]] = {}
+    # Plural-mapping: NL meervoud is niet altijd +"en". Voor "advies" → "adviezen".
+    PLURAL = {"wettekst": "wetteksten", "norm": "normen", "advies": "adviezen"}
     for rol in BRON_DIRS:
-        files = raw.get(rol + "en", raw.get(rol, [])) or []   # "wetteksten" of "wettekst"
+        files = raw.get(PLURAL[rol], raw.get(rol, [])) or []
         file_filter[rol] = set(files)
     chroma_path = ROOT / "data" / f"chroma_db_{programmaonderdeel}"
     return programmaonderdeel, file_filter, chroma_path
