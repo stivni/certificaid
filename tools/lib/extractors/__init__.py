@@ -26,10 +26,14 @@ from . import (
     custom_wib92,
     justel_bs_bilingual,
     justel_html,
+    pdftotext_compilatie_btw,
     pdftotext_ejustice,
 )
 
-ExtractFn = Callable[[dict, str], str]
+# Een handler levert ofwel een string (1-op-1 bron→MD) ofwel een
+# ``dict[output_path, body_text]`` (compilatie: 1-op-N). De orchestrator
+# detecteert het type en handelt schrijven + frontmatter dienovereenkomstig af.
+ExtractFn = Callable[[dict, str], "str | dict[str, str]"]
 
 METHOD_HANDLERS: dict[str, ExtractFn] = {
     "pdftotext_ejustice": pdftotext_ejustice.extract,
@@ -37,7 +41,12 @@ METHOD_HANDLERS: dict[str, ExtractFn] = {
     "custom_wib92": custom_wib92.extract,
     "justel_html": justel_html.extract,
     "justel_bs_bilingual": justel_bs_bilingual.extract,
+    "pdftotext_compilatie_btw": pdftotext_compilatie_btw.extract,
 }
+
+# Methodes die een dict retourneren (1-op-N output). De orchestrator gebruikt
+# deze set om te beslissen of N losse bestanden moeten worden geschreven.
+COMPILATIE_METHODS: set[str] = {"pdftotext_compilatie_btw"}
 
 
 def get_handler(method: str) -> ExtractFn | None:

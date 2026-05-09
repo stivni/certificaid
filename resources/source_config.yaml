@@ -458,20 +458,6 @@ sources:
     status: volledig
     extract:
       method: custom_wetboek
-  WBTW-KB31-niet-gevestigd:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "02.04.2002"
-    wet: K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de 
-      toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
   WBTW-KB54-entrepot:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
@@ -516,18 +502,296 @@ sources:
     status: volledig
     extract:
       method: custom_wetboek
-  WBTW-KB-compilatie:
+  WBTW-KBs:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    output: resources/bronnen/wetteksten/WBTW-KB-compilatie.md
     itaa_sectie: "VI.B"
     tags: ["VI.B", "2.4"]
     bijgewerkt: "06.03.2020"
     wet: "Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)"
-    cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pdftotext_compilatie_btw
+    # 1-op-N splits — één KB per split. KB-id matcht de FOD-page-header in
+    # de compilatie-PDF (numeriek of dd.mm.yyyy). Frontmatter-velden
+    # (wet, tags, itaa_sectie, bijgewerkt) worden per split overgenomen.
+    splits:
+      - kb_id: "3"
+        output: resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md
+        wet: K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de
+          toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "10.12.1969"
+      - kb_id: "4"
+        output: resources/bronnen/wetteksten/WBTW-KB4-teruggaven.md
+        wet: K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1969"
+      - kb_id: "6"
+        output: resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md
+        wet: K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer,
+          zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "27.12.1977"
+      - kb_id: "7"
+        output: resources/bronnen/wetteksten/WBTW-KB7-invoer.md
+        wet: K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting
+          over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "8"
+        output: resources/bronnen/wetteksten/WBTW-KB8-afronding.md
+        wet: K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare
+          of de voor teruggaaf vatbare belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "12.03.1970"
+      - kb_id: "9"
+        output: resources/bronnen/wetteksten/WBTW-KB9-ambtelijke-aanslag.md
+        wet: K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde
+          waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "12.12.1970"
+      - kb_id: "10"
+        output: resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md
+        wet: K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de
+          artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3,
+          2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging,
+          stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "11"
+        output: resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md
+        wet: K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "13"
+        output: resources/bronnen/wetteksten/WBTW-KB13-tabaksfabricaten.md
+        wet: K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de
+          belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "14"
+        output: resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md
+        wet: K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het
+          bijhorende terrein
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "03.06.1970"
+      - kb_id: "15"
+        output: resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md
+        wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek
+          van de belasting over de toegevoegde waarde voorziet
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "03.06.1970"
+      - kb_id: "16"
+        output: resources/bronnen/wetteksten/WBTW-KB16-vismijn.md
+        wet: K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde
+          inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "03.06.1970"
+      - kb_id: "18"
+        output: resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md
+        wet: K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen
+          en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "20"
+        output: resources/bronnen/wetteksten/WBTW-KB20-tarieven.md
+        wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en
+          tot indeling van de goederen en de diensten bij die tarieven
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "20.07.1970"
+      - kb_id: "22"
+        output: resources/bronnen/wetteksten/WBTW-KB22-landbouwondernemers.md
+        wet: K.B. nr. 22 van 15 september 1970, met betrekking tot de biezondere regeling voor landbouwondernemers inzake
+          belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "15.09.1970"
+      - kb_id: "23"
+        output: resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md
+        wet: K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "09.12.2009"
+      - kb_id: "24"
+        output: resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md
+        wet: K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "27"
+        output: resources/bronnen/wetteksten/WBTW-KB27-vlees-slachtdieren.md
+        wet: K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de
+          toegevoegde waarde, ten aanzien van vlees van slachtdieren
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "26.06.1973"
+      - kb_id: "30"
+        output: resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md
+        wet: K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde
+          op de onroerende financieringshuur
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "31"
+        output: resources/bronnen/wetteksten/WBTW-KB31-niet-gevestigd.md
+        wet: K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de
+          toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "02.04.2002"
+      - kb_id: "35"
+        output: resources/bronnen/wetteksten/WBTW-KB35-reisbureaus.md
+        wet: K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over
+          de toegevoegde waarde op de winstmarge van reisbureaus
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "28.12.1999"
+      - kb_id: "39"
+        output: resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md
+        wet: K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het
+          Wetboek van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "17.10.1980"
+      - kb_id: "41"
+        output: resources/bronnen/wetteksten/WBTW-KB41-proportionele-geldboeten.md
+        wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op
+          het stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "30.01.1987"
+      - kb_id: "44"
+        output: resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md
+        wet: K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op
+          het stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "09.07.2012"
+      - kb_id: "45"
+        output: resources/bronnen/wetteksten/WBTW-KB45-vrijstelling-diplomaten.md
+        wet: K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de
+          toegevoegde waarde ten aanzien van de kans- en geldspelen
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "14.04.1993"
+      - kb_id: "46"
+        output: resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md
+        wet: K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van
+          vervoermiddelen en van de betaling van de ter zake verschuldigde BTW
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "47"
+        output: resources/bronnen/wetteksten/WBTW-KB47-controle-vervoermiddelen-1996.md
+        wet: K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter
+          zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis,
+          § 2, 1°, van het Wetboek
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "25.02.1996"
+      - kb_id: "48"
+        output: resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md
+        wet: K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel
+          8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.12.1992"
+      - kb_id: "50"
+        output: resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md
+        wet: K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "11.12.2019"
+      - kb_id: "51"
+        output: resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md
+        wet: K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire
+          verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "14.04.1993"
+      - kb_id: "52"
+        output: resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md
+        wet: K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de
+          intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de
+          vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het
+          stuk van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "11.12.2019"
+      - kb_id: "53"
+        output: resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md
+        wet: K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de
+          winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "23.12.1994"
+      - kb_id: "55"
+        output: resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md
+        wet: K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid
+          vormen
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "09.03.2007"
+      - kb_id: "57"
+        output: resources/bronnen/wetteksten/WBTW-KB57-plaats-diensten.md
+        wet: K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of
+          hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee
+          samenhangende diensten betreft
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "31.10.2017"
+      - kb_id: "58"
+        output: resources/bronnen/wetteksten/WBTW-KB58-mededeling-pas-opgerichte.md
+        wet: K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte
+          gebouwen voor de toepassing van de belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "28.05.2019"
+      - kb_id: "07.06.2007"
+        output: resources/bronnen/wetteksten/WBTW-KB07jun2007-uitvoering-84quinquies.md
+        wet: K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de
+          belasting over de toegevoegde waarde
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "07.06.2007"
+      - kb_id: "01.10.2013"
+        output: resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md
+        wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een
+          geregistreerd kassasysteem in de horecasector
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "01.10.2013"
+      - kb_id: "04.04.2014"
+        output: resources/bronnen/wetteksten/WBTW-KB04apr2014-verificatie-vervoermiddelen.md
+        wet: K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "04.04.2014"
+      - kb_id: "29.08.2019"
+        output: resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md
+        wet: K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over
+          de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
+        tags: ["VI.B", "2.4"]
+        itaa_sectie: "VI.B"
+        bijgewerkt: "29.08.2019"
+  # TODO: WBTW-MB-compilatie wacht op een eigen split-handler (analoog aan
+  # WBTW-KBs / pdftotext_compilatie_btw). MBs hebben andere page-headers dan
+  # KBs en een eigen ID-conventie; voor nu blijft dit één-op-één.
   WBTW-MB-compilatie:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -556,76 +820,6 @@ sources:
     status: volledig
     extract:
       method: custom_wetboek
-  WBTW-KB29aug2019-registers:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB29aug2019-registers.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "29.08.2019"
-    wet: K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over 
-      de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB7-invoer:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB7-invoer.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting 
-      over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB18-uitvoer-vrijstellingen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB18-uitvoer-vrijstellingen.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen 
-      en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB46-intracommunautaire-aangifte:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB46-intracommunautaire-aangifte.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van 
-      vervoermiddelen en van de betaling van de ter zake verschuldigde BTW
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB48-levering-vervoermiddelen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB48-levering-vervoermiddelen.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 
-      8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
   WVV:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/WVV.pdf
@@ -1299,465 +1493,3 @@ sources:
       params:
         reden: Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van 
           FOD Financiën zelf
-  WBTW-KB23-jaarlijkse-lijst:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "09.12.2009"
-    wet: K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB44-geldboeten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB44-geldboeten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "09.07.2012"
-    wet: K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op 
-      het stuk van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB50-intracommunautaire-opgave:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "11.12.2019"
-    wet: K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB52-intracommunautaire-vrijstellingen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB52-intracommunautaire-vrijstellingen.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "11.12.2019"
-    wet: K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de 
-      intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de 
-      vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk 
-      van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB3-aftrekken:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "10.12.1969"
-    wet: K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de 
-      toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB4-teruggaven:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB4-teruggaven.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1969"
-    wet: K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB6-internationaal-vervoer:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB6-internationaal-vervoer.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "27.12.1977"
-    wet: K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer, 
-      zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB8-afronding:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB8-afronding.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "12.03.1970"
-    wet: K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare 
-      of de voor teruggaaf vatbare belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB9-ambtelijke-aanslag:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB9-ambtelijke-aanslag.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "12.12.1970"
-    wet: K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde 
-      waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB10-uitoefening-keuzen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de 
-      artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, 
-      d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting 
-      van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB11-verleggen-maatstaf:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB11-verleggen-maatstaf.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB13-tabaksfabricaten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB13-tabaksfabricaten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de 
-      belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB14-vervreemdingen-gebouwen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "03.06.1970"
-    wet: K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het 
-      bijhorende terrein
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB15-schatting-onroerende:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB15-schatting-onroerende.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "03.06.1970"
-    wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek 
-      van de belasting over de toegevoegde waarde voorziet
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB16-vismijn:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB16-vismijn.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "03.06.1970"
-    wet: K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde 
-      inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB20-tarieven:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB20-tarieven.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "20.07.1970"
-    wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en 
-      tot indeling van de goederen en de diensten bij die tarieven
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB22-landbouwondernemers:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB22-landbouwondernemers.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "15.09.1970"
-    wet: K.B. nr. 22 van 15 september 1970, met betrekking tot de biezondere regeling voor landbouwondernemers inzake 
-      belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB24-voldoening-bijzondere:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB24-voldoening-bijzondere.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB27-vlees-slachtdieren:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB27-vlees-slachtdieren.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "26.06.1973"
-    wet: K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de 
-      toegevoegde waarde, ten aanzien van vlees van slachtdieren
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB30-financieringshuur:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB30-financieringshuur.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "29.12.1992"
-    wet: K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde 
-      op de onroerende financieringshuur
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB35-reisbureaus:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB35-reisbureaus.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "28.12.1999"
-    wet: K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over 
-      de toegevoegde waarde op de winstmarge van reisbureaus
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB39-regeling-93duodecies:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB39-regeling-93duodecies.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "17.10.1980"
-    wet: K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het 
-      Wetboek van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB41-proportionele-geldboeten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB41-proportionele-geldboeten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "30.01.1987"
-    wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het
-      stuk van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB45-vrijstelling-diplomaten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB45-vrijstelling-diplomaten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "14.04.1993"
-    wet: K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de 
-      toegevoegde waarde ten aanzien van de kans- en geldspelen
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB47-controle-vervoermiddelen-1996:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB47-controle-vervoermiddelen-1996.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "25.02.1996"
-    wet: K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter 
-      zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 
-      2, 1°, van het Wetboek
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB51-accijnsproducten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "14.04.1993"
-    wet: K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire 
-      verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB53-winstmarge-tweedehands:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "23.12.1994"
-    wet: K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de 
-      winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB55-btw-eenheid:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "09.03.2007"
-    wet: K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid 
-      vormen
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB57-plaats-diensten:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB57-plaats-diensten.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "31.10.2017"
-    wet: K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of 
-      hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee 
-      samenhangende diensten betreft
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB58-mededeling-pas-opgerichte:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB58-mededeling-pas-opgerichte.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "28.05.2019"
-    wet: K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte 
-      gebouwen voor de toepassing van de belasting over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB07jun2007-uitvoering-84quinquies:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB07jun2007-uitvoering-84quinquies.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "07.06.2007"
-    wet: K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting
-      over de toegevoegde waarde
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB01okt2013-certificatie-gks:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "01.10.2013"
-    wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een 
-      geregistreerd kassasysteem in de horecasector
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie
-  WBTW-KB04apr2014-verificatie-vervoermiddelen:
-    bron_rol: itaa_lex
-    derived_from: WBTW-KB-compilatie
-    output: resources/bronnen/wetteksten/WBTW-KB04apr2014-verificatie-vervoermiddelen.md
-    itaa_sectie: "VI.B"
-    tags: [VI.B, '2.4']
-    bijgewerkt: "04.04.2014"
-    wet: K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen
-    status: volledig
-    extract:
-      method: derived
-      params:
-        afgeleid_uit: WBTW-KB-compilatie

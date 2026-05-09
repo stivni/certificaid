@@ -41,7 +41,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 from tools.lib.cleanup import run_pipeline, DEFAULT_STEPS  # noqa: E402
 from tools.lib.headings import process_wettekst  # noqa: E402
-from tools.lib.extractors import get_handler  # noqa: E402
+from tools.lib.extractors import get_handler, COMPILATIE_METHODS  # noqa: E402
 from tools.lib.provenance import (  # noqa: E402
     Input,
     make_input,
@@ -83,6 +83,7 @@ _BRON_LABEL_PER_METHOD = {
     "custom_wib92": "Fisconet (officieuze gecoördineerde versie)",
     "justel_html": "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)",
     "justel_bs_bilingual": "ejustice.just.fgov.be (B.S. originele publicatie — NL-kolom)",
+    "pdftotext_compilatie_btw": "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)",
 }
 
 
@@ -100,18 +101,30 @@ def _safe(value: str) -> str:
     return str(value).replace('"', '\\"')
 
 
-def build_initial_frontmatter(cfg: dict, source_name: str, method: str) -> str:
+def build_initial_frontmatter(cfg: dict, source_name: str, method: str,
+                              overrides: dict | None = None) -> str:
     """Bouw de YAML-frontmatter + intro-paragraaf (vóór heading-injection).
 
     Het `chunk:`-blok wordt later bijgevoegd door `process_wettekst` op basis
     van de gedetecteerde structuurhiërarchie.
+
+    `overrides` laat een caller (bv. de compilatie-loop in convert_one) toe
+    om split-specifieke velden zoals ``wet``, ``tags`` en ``bijgewerkt`` te
+    forceren bovenop wat in cfg staat. Veld-namen volgen de cfg-keys.
     """
-    tags = cfg.get("tags", [])
+    overrides = overrides or {}
+
+    def _pick(key, default=None):
+        if key in overrides:
+            return overrides[key]
+        return cfg.get(key, default)
+
+    tags = _pick("tags", [])
     tags_str = _format_tags(tags)
-    itaa = _safe(cfg.get("itaa_sectie", ""))
-    wet_full = cfg.get("wet", source_name)
-    titel = cfg.get("titel") or wet_full
-    bijgewerkt = _safe(cfg.get("bijgewerkt", ""))
+    itaa = _safe(_pick("itaa_sectie", ""))
+    wet_full = _pick("wet", source_name)
+    titel = _pick("titel") or wet_full
+    bijgewerkt = _safe(_pick("bijgewerkt", ""))
     bron_rol = cfg.get("bron_rol")
     bron_label = _BRON_LABEL_PER_METHOD.get(method, "onbekend")
 
@@ -249,9 +262,64 @@ def convert_one(source_name: str, *, dry_run: bool = False,
         print(f"  Geen handler voor extract.method={method!r}")
         return None
 
+    def _display(p: Path) -> str:
+        try:
+            return str(p.relative_to(ROOT))
+        except ValueError:
+            return str(p)
+
     # 1. Extract
     print(f"  → Extractie via lib.extractors.{method}")
-    raw_text = handler(cfg, source_name)
+    extracted = handler(cfg, source_name)
+
+    # ─── 1-op-N pad: compilatie-handler retourneert dict ──────────────────
+    if method in COMPILATIE_METHODS or isinstance(extracted, dict):
+        if not isinstance(extracted, dict):
+            raise TypeError(
+                f"Handler {method!r} verwacht dict, kreeg {type(extracted).__name__}"
+            )
+        splits_meta = {s["output"]: s for s in (cfg.get("splits") or [])}
+        print(f"  → Compilatie-mode: {len(extracted)} splits")
+        last_path: Path | None = None
+        for output_rel, body in extracted.items():
+            split_meta = splits_meta.get(output_rel, {})
+            basename = Path(output_rel).stem
+            staging_path = STAGING_DIR / f"{basename}.md"
+
+            if not body.strip():
+                print(f"    ⚠️  {basename}: lege body — split overgeslagen")
+                continue
+
+            # Frontmatter-overrides per split (wet, tags, ...).
+            overrides: dict = {}
+            for k in ("wet", "tags", "itaa_sectie", "bijgewerkt", "titel"):
+                if k in split_meta:
+                    overrides[k] = split_meta[k]
+                elif "extra_metadata" in split_meta and k in split_meta["extra_metadata"]:
+                    overrides[k] = split_meta["extra_metadata"][k]
+
+            text = build_initial_frontmatter(
+                cfg, source_name, method, overrides=overrides,
+            ) + body.lstrip("\n")
+            text, info = process_wettekst(text)
+
+            if not dry_run:
+                STAGING_DIR.mkdir(parents=True, exist_ok=True)
+                staging_path.write_text(text, encoding="utf-8")
+                _attach_provenance(staging_path, cfg, source_name, method)
+                print(
+                    f"    ✓ {basename}  ranks={info['ranks']} "
+                    f"reduced={info['reduced_ranks']} "
+                    f"chunk.level={info['chunk_level']}"
+                )
+            else:
+                print(f"    (dry-run) {basename} — {len(text):,} tekens")
+            last_path = staging_path
+
+        return last_path
+
+    # ─── 1-op-1 pad: handler retourneert string ───────────────────────────
+    raw_text = extracted
 
     # 2. Cleanup op de body (frontmatter komt erna; preserve_frontmatter=False
     #    omdat we nog geen frontmatter hebben).
@@ -274,11 +342,6 @@ def convert_one(source_name: str, *, dry_run: bool = False,
 
     # 5. Schrijven naar staging
     staging_path = STAGING_DIR / f"{source_name}.md"
-    def _display(p: Path) -> str:
-        try:
-            return str(p.relative_to(ROOT))
-        except ValueError:
-            return str(p)
 
     if not dry_run:
         STAGING_DIR.mkdir(parents=True, exist_ok=True)
