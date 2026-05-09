@@ -1165,12 +1165,21 @@ sources:
   KB-voorafgaande-beslissingen-art22-2003:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art22-2003.md
+    itaa_sectie: "I"
+    tags: ["I"]
+    bijgewerkt: "17.01.2003"
+    wet: "K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
     status: volledig
-    note: "Gegenereerd uit 4 PDF-delen (p1-p4). Herconversie: manueel via pdftotext + cleanup op alle 4 delen samen."
+    note: "Origineel gepubliceerd in B.S. 31-01-2003 ed. 3. Geen Justel-gecoördineerde versie beschikbaar. Conversie via NL-kolom-extractie uit 4 B.S. PDF-pagina's."
     extract:
-      method: handcrafted
+      method: justel_bs_bilingual
       params:
-        reden: 'Gegenereerd uit 4 PDF-delen (p1-p4). Herconversie: manueel via pdftotext + cleanup op alle 4 delen samen.'
+        nl_col_x: 290
+        raw_files:
+          - resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p1.pdf
+          - resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p2.pdf
+          - resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p3.pdf
+          - resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p4.pdf
   X-oeso-model-verdrag:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/X-oeso-model-verdrag.md
@@ -1200,17 +1209,17 @@ sources:
   Wet-verzekeringen-2014:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/Wet-verzekeringen-2014.md
+    itaa_sectie: ""
     tags: ["2.6", "1.2"]
     bijgewerkt: "24.12.2025"
     wet: "Wet 4 april 2014 betreffende de verzekeringen"
     status: volledig
-    note: "Gegenereerd uit Justel HTML (gecoördineerde versie t.e.m. 24-12-2025); ejustice heeft geen gecoördineerde PDF voor
-      deze wet"
+    note: "Gecoördineerde versie via Justel HTML (t.e.m. 24-12-2025); ejustice heeft geen gecoördineerde PDF voor deze wet."
     extract:
-      method: handcrafted
+      method: justel_html
       params:
-        reden: Gegenereerd uit Justel HTML (gecoördineerde versie t.e.m. 24-12-2025); ejustice heeft geen gecoördineerde
-          PDF voor deze wet
+        start_url: "https://www.ejustice.just.fgov.be/eli/wet/2014/04/04/2014011239/justel"
+        language: nl
   toelichting-PB-2025-deel1-VG:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/toelichting-PB-2025-deel1-VG.pdf

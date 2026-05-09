@@ -24,6 +24,7 @@ CONFIG_PATH = ROOT / "resources" / "source_config.yaml"
 
 sys.path.insert(0, str(ROOT / "tools"))
 from lib.cleanup import run_pipeline, ALL_STEPS
+from etl.convert_justel import convert_justel_html, convert_justel_bs_bilingual
 
 
 # ---------------------------------------------------------------------------
@@ -334,6 +335,10 @@ def process_source(name: str, cfg: dict, cleanup_only: bool = False,
             # Legacy methode-namen als fallback
             bilingual = methode == "ejustice_bilingual"
             convert_ejustice(cfg, name, bilingual=bilingual, dry_run=dry_run)
+        elif methode == "justel_html":
+            convert_justel_html(cfg, name, dry_run=dry_run)
+        elif methode == "justel_bs_bilingual":
+            convert_justel_bs_bilingual(cfg, name, dry_run=dry_run)
         else:
             print(f"  ⚠️  Onbekende methode: {methode}")
             return
